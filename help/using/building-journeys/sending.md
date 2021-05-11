@@ -1,0 +1,82 @@
+---
+title: Iniciar a execução da jornada
+description: Saiba como iniciar a jornada e enviar mensagens
+translation-type: tm+mt
+source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 7%
+
+---
+
+
+# Execução de jornada {#message-execution}
+
+![](../assets/do-not-localize/badge.png)
+
+## Teste sua jornada
+
+Você pode testar sua jornada usando perfis de teste. Esta etapa é recomendada para validar suas configurações e mensagens.
+
+Saiba mais nesta [seção](testing-the-journey.md).
+
+## Ativar a jornada
+
+Você deve publicar sua jornada para ativá-la.
+
+![](../assets/jo-journeyuc2_32bis.png)
+
+Saiba mais nesta [seção](publishing-the-journey.md).
+
+
+Depois de publicada, você pode monitorar sua jornada usando as ferramentas de relatório dedicadas para medir a eficácia da jornada.
+
+![](../assets/jo-dynamic_report_journey_12.png)
+
+[Saiba mais sobre relatórios](../reports/live-report.md)
+
+## Envio de mensagens {#send-messages}
+
+Quando a mensagem tiver um conteúdo definido e for publicada, ela estará pronta para ser enviada por meio de uma [jornada](journey.md).
+
+>[!NOTE]
+>
+>Você pode adicionar uma mensagem que ainda está no modo de rascunho a uma jornada, mas certifique-se de que a mensagem foi publicada antes de publicar a jornada.
+
+Depois que uma mensagem é enviada, é possível monitorar a execução por meio de vários indicadores. [Saiba mais sobre como monitorar a execução](../message-monitoring.md) de mensagens.
+
+## Programar mensagens {#schedule-messages}
+
+As mensagens podem ser agendadas por meio da atividade **[!UICONTROL Read segment]** em uma [jornada](journey.md). Você pode especificar quando o segmento entrará na jornada. [Saiba mais sobre a atividade](read-segment.md) Ler segmento.
+
+Para fazer isso, siga as etapas abaixo:
+
+1. Edite uma jornada, arraste e solte uma atividade **[!UICONTROL Read segment]** e comece a configurá-la. [Saiba mais sobre como configurar a atividade](read-segment.md#configuring-segment-trigger-activity) Read segment .
+
+1. Clique no link **[!UICONTROL Edit journey schedule]** para acessar as propriedades da jornada.
+
+   ![](../assets/message-read-segment-schedule.png)
+
+1. Configure o campo **[!UICONTROL Scheduler type]**: selecione o valor desejado na lista para fazer com que o segmento insira a jornada em uma data/hora específica ou em uma base recorrente.
+
+   >[!NOTE]
+   >
+   >A seção **[!UICONTROL Schedule]** só está disponível quando uma atividade **[!UICONTROL Read Segment]** é solta na tela.
+
+   ![](../assets/message-read-segment-scheduler.png)
+
+1. Se você selecionar **[!UICONTROL Once]**, defina uma data e hora específicas em que o segmento entrará na jornada.
+
+   ![](../assets/message-read-segment-scheduler-once.png)
+
+1. Se você selecionar um método recorrente, edite a data e a hora de início. Você também pode definir uma data e hora de término opcionais.
+
+   ![](../assets/message-read-segment-scheduler-daily.png)
+
+   >[!NOTE]
+   >
+   >Por padrão, os segmentos inserem a jornada **[!UICONTROL As soon as possible]**, o que significa 1 hora após a publicação da jornada.
+
+1. Clique em **[!UICONTROL OK]** para salvar as alterações.
+
+<!--Unitary messages that are triggered by an event within a journey cannot be scheduled.-->
