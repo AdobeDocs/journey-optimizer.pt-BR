@@ -2,7 +2,7 @@
 title: Interface do usuário
 description: Saiba mais sobre a interface do usuário da biblioteca de ofertas.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Use o menu **[!UICONTROL Offers]** para gerenciar ofertas personalizadas e de fa
 
 * **[!UICONTROL Decisions]**: Crie e gerencie decisões para fornecer suas ofertas. Consulte [Criar decisões](../offer-activities/create-offer-activities.md).
 
-![](../assets/offers_menu.png)
+![](../../assets/offers_menu.png)
 
 Use o menu **[!UICONTROL Components]** para gerenciar os componentes necessários para criar ofertas:
 
@@ -33,7 +33,7 @@ Use o menu **[!UICONTROL Components]** para gerenciar os componentes necessário
 
 * **[!UICONTROL Rankings]**: Crie e gerencie fórmulas de classificação para determinar qual oferta deve ser apresentada primeiro para uma determinada disposição. Consulte [Criar fórmulas de classificação](../offer-library/create-ranking-formulas.md).
 
-![](../assets/offer_activities.png)
+![](../../assets/offer_activities.png)
 
 ## Pesquisar e filtrar informações
 
@@ -41,7 +41,7 @@ Use a **barra de pesquisa** para localizar um item específico.
 
 **** Filterscan também pode ser acessado clicando no ícone de filtro na parte superior esquerda da lista. Eles permitem filtrar os elementos exibidos de acordo com critérios diferentes. Você pode, por exemplo, filtrar as disposições que foram criadas para o canal de comunicação por email e o conteúdo do tipo imagem.
 
-![](../assets/filters.png)
+![](../../assets/filters.png)
 
 ## Personalizar informações exibidas
 
@@ -51,21 +51,21 @@ Isso permite escolher as informações que serão exibidas de acordo com suas ne
 
 Observe que a personalização de colunas é salva para cada usuário.
 
-![](../assets/columns.png)
+![](../../assets/columns.png)
 
 ## Painel de informações
 
 Nas diferentes listas, selecione um elemento para exibir um painel de informações que permitirá recuperar informações e executar ações básicas no elemento.
 
-![](../assets/information-pane.png)
+![](../../assets/information-pane.png)
 
 As listas de ofertas e decisões também permitem executar ações em massa em vários elementos. Para fazer isso, selecione as ofertas ou decisões desejadas e selecione a ação que deseja executar no painel de informações.
 
-![](../assets/bulk-actions.png)
+![](../../assets/bulk-actions.png)
 
 Observe que você também pode duplicar uma oferta existente ou decisões para criar uma cópia com o status **[!UICONTROL Draft]**. Isso pode ser executado no painel de informações ou em uma oferta ou na visualização detalhada de uma decisão.
 
-![](../assets/duplicate-offer.png)
+![](../../assets/duplicate-offer.png)
 
 ## Ofertas e decisões alteram logs {#changes-logs}
 
@@ -73,4 +73,4 @@ A Biblioteca de ofertas permite realizar todas as alterações feitas em uma ofe
 
 Todas as alterações feitas são exibidas nessa tela, bem como no nome do usuário que executou as alterações.
 
-![](../assets/change-logs.png)
+![](../../assets/change-logs.png)
