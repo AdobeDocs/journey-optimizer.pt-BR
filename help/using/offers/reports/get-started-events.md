@@ -2,7 +2,7 @@
 title: Introdução aos eventos de Gerenciamento de decisões
 description: Saiba como criar relatórios de Gerenciamento de decisões no Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 47%
@@ -17,7 +17,7 @@ Isso permite exportar esses dados para analisá-los no seu próprio sistema de r
 
 Os conjuntos de dados que contêm eventos de Gerenciamento de decisões podem ser acessados no menu Adobe Experience Platform **[!UICONTROL Datasets]** . Um conjunto de dados é criado automaticamente no provisionamento para cada uma de suas instâncias.
 
-![](../assets/events-datasets-list.png)
+![](../../assets/events-datasets-list.png)
 
 Esses conjuntos de dados são baseados no esquema **[!UICONTROL ODE DecisionEvents]**, que contém todos os campos XDM necessários para enviar informações do Gerenciamento de decisão para a Adobe Experience Platform.
 
