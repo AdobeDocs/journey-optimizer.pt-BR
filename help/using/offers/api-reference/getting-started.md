@@ -2,7 +2,7 @@
 title: Introdução
 description: Saiba como começar a usar a API da Biblioteca de ofertas para executar operações-chave usando o Mecanismo de gerenciamento de decisões.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 7%
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 Este guia do desenvolvedor fornece etapas para ajudá-lo a começar a usar a API [!DNL Offer Library]. O guia fornece exemplos de chamadas de API para executar operações principais usando o Mecanismo de gerenciamento de decisões.
 
-![](../assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+![](../../assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
 
 ## Pré-requisitos
 
