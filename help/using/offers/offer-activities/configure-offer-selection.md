@@ -2,7 +2,7 @@
 title: Configurar seleção de ofertas em decisões
 description: Saiba como gerenciar a seleção de ofertas em decisões.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Por padrão, quando várias ofertas estão qualificadas para uma determinada disposição em uma decisão (anteriormente conhecida como atividade de oferta), as ofertas com a maior **prioridade** serão entregues primeiro aos clientes. As pontuações de prioridade das ofertas são atribuídas ao criar uma oferta (consulte [Criar uma oferta personalizada](../offer-library/creating-personalized-offers.md)).
 
-![](../assets/offer-priority.png)
+![](../../assets/offer-priority.png)
 
 Além disso, o Journey Optimizer permite criar **fórmulas de classificação**. Essas são fórmulas que determinam qual oferta deve ser apresentada primeiro para uma determinada disposição, em vez de considerar as pontuações de prioridade das ofertas. Por exemplo, você pode aumentar a prioridade de todas as ofertas em que a data final seja daqui a menos de 24 horas, ou impulsionar ofertas da categoria &quot;em execução&quot; se o ponto de interesse do perfil estiver &quot;em execução&quot;.
 
@@ -29,10 +29,10 @@ Depois que uma fórmula de classificação é criada, você pode atribuí-la a u
 
 * Para cada disposição, selecione **[!UICONTROL Ranking]** na lista suspensa e clique em **[!UICONTROL Add ranking]**.
 
-   ![](../assets/offer-activity-ranking.png)
+   ![](../../assets/offer-activity-ranking.png)
 
 * Selecione a fórmula de classificação desejada e clique em **[!UICONTROL Select]**.
 
-   ![](../assets/ranking-selection.png)
+   ![](../../assets/ranking-selection.png)
 
 A fórmula de classificação agora está associada à disposição. Se várias ofertas forem elegíveis para serem apresentadas nesta disposição, a decisão usará a fórmula de classificação para calcular qual oferta entregar primeiro.

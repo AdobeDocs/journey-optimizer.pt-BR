@@ -2,7 +2,7 @@
 title: Conjunto de dados Disposições
 description: Esta seção lista todos os campos usados no conjunto de dados exportado para disposições.
 translation-type: tm+mt
-source-git-commit: d96a2b179ce652a119b6008e02b1409666f36402
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 Cada vez que uma oferta é modificada, o conjunto de dados gerado automaticamente para disposições é atualizado.
 
-![](../assets/dataset-placements.png)
+![](../../assets/dataset-placements.png)
 
 O lote bem-sucedido mais recente no conjunto de dados é exibido à direita. A exibição hierárquica do esquema do conjunto de dados é exibida no painel esquerdo.
 
