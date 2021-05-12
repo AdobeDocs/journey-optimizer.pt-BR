@@ -2,7 +2,7 @@
 title: Criar regras de decisão
 description: Saiba como criar regras de decisão no Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 14%
@@ -15,17 +15,17 @@ Você pode criar regras de decisão de oferta com base nos dados disponíveis no
 
 Por exemplo, você pode especificar que deseja que somente uma &#39;Oferta de roupas de inverno femininas&#39; seja exibida quando (Gênero = &#39;Feminino&#39;) e (Região = &#39;Nordeste&#39;).
 
-![](../assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+![](../../assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
 
 A lista de regras de decisão criadas pode ser acessada no menu **[!UICONTROL Components]**.
 
-![](../assets/decision_rules_list.png)
+![](../../assets/decision_rules_list.png)
 
 Para criar uma regra de decisão, siga estas etapas:
 
 1. Vá para a guia **[!UICONTROL Rules]** e clique em **[!UICONTROL Create rule]**.
 
-   ![](../assets/offers_decision_rule_creation.png)
+   ![](../../assets/offers_decision_rule_creation.png)
 
 1. Nomeie a regra, forneça uma descrição e configure-a de acordo com suas necessidades.
 
@@ -33,7 +33,7 @@ Para criar uma regra de decisão, siga estas etapas:
 
    Neste exemplo, a regra direcionará os clientes que têm o nível de fidelidade &quot;Gold&quot;.
 
-   ![](../assets/offers_decision_rule_creation_segment.png)
+   ![](../../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ Para criar uma regra de decisão, siga estas etapas:
 
 1. Depois que a regra é criada, ela é exibida na lista de regras. Você pode selecioná-lo para exibir suas propriedades e editá-lo ou excluí-lo.
 
-   ![](../assets/rule_created.png)
+   ![](../../assets/rule_created.png)
 
 ## Tutoriais em vídeo {#video}
 
