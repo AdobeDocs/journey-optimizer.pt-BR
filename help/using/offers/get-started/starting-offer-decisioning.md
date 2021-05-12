@@ -2,7 +2,7 @@
 title: Introdução ao Gerenciamento de decisões
 description: Introdução ao Gerenciamento de decisões. Saiba mais sobre sua arquitetura, ofertas e decisões, bem como casos de uso comuns que ele permite executar.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 38%
@@ -19,7 +19,7 @@ A capacidade de gerenciamento de decisões consiste em dois componentes principa
 * A **Biblioteca de ofertas centralizada**, que é a interface onde você cria e gerencia os diferentes elementos que compõem suas ofertas, e define suas regras e restrições.
 * O **Offer Decision Engine** que aproveita os dados do Adobe Experience Platform e os perfis do cliente em tempo real, juntamente com a Biblioteca de ofertas, para selecionar o momento certo, os clientes e os canais para os quais as ofertas serão entregues.
 
-![](../assets/architecture.png)
+![](../../assets/architecture.png)
 
 Os benefícios incluem:
 
@@ -27,7 +27,7 @@ Os benefícios incluem:
 * Workflows aprimorados: em vez de criar vários deliveries ou campanhas, as equipes de marketing podem aprimorar os workflows criando um único delivery e variar as ofertas em diferentes partes do modelo,
 * Controle a quantidade de vezes que uma oferta é exibida em campanhas e clientes.
 
-![](../assets/do-not-localize/how-to-video.png) [Assista a estes ](#tutorial-videos) vídeos tutoriais para obter mais informações sobre o Gerenciamento de decisões.
+![](../../assets/do-not-localize/how-to-video.png) [Assista a estes ](#tutorial-videos) vídeos tutoriais para obter mais informações sobre o Gerenciamento de decisões.
 
 ## Sobre ofertas e decisões {#offers-offer-activities}
 
@@ -35,7 +35,7 @@ Uma **Oferta** é composta de conteúdo, regras de elegibilidade e restrições 
 
 Ela é criada usando a **Biblioteca de ofertas**, que fornece um catálogo de ofertas central, em que você pode associar regras e restrições de elegibilidade a vários conteúdos para criar e publicar ofertas (consulte [Interface de usuário da Biblioteca de ofertas](../get-started/user-interface.md)).
 
-![](../assets/offer_structure.png)
+![](../../assets/offer_structure.png)
 
 Depois que a Biblioteca de ofertas tiver sido enriquecida com ofertas, você poderá integrar suas ofertas em **decisions** (anteriormente conhecido como &quot;atividades de oferta&quot;).
 
@@ -47,15 +47,15 @@ Os recursos de Gerenciamento de decisões e a integração com o Adobe Experienc
 
 * Exiba em seu site as ofertas da página inicial que corresponderão ao ponto de interesse do cliente visitante, com base nos dados da Adobe Experience Platform.
 
-   ![](../assets/website.png)
+   ![](../../assets/website.png)
 
 * Se os clientes se aproximarem de uma de suas lojas, envie a eles notificações por push lembrando as ofertas disponíveis de acordo com seus atributos (nível de fidelidade, sexo, compras anteriores...).
 
-   ![](../assets/push_sample.png)
+   ![](../../assets/push_sample.png)
 
 * O Gerenciamento de decisões também ajuda você a aprimorar a experiência dos clientes ao entrar em contato com a equipe de suporte. As APIs de gerenciamento de decisão permitem exibir no portal de agentes da central de atendimento informações sobre as melhores ofertas resgatadas e as melhores ofertas do cliente.
 
-   ![](../assets/call-center.png)
+   ![](../../assets/call-center.png)
 
 ## Tutoriais em vídeo {#tutorial-videos}
 
