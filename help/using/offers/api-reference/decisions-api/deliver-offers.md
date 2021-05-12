@@ -2,7 +2,7 @@
 title: Ofertas de entrega
 description: O Gerenciamento de decisões é uma coleção de serviços e programas de interface do usuário que permite aos profissionais de marketing criar e fornecer experiências de ofertas personalizadas para o usuário final em canais e aplicativos usando lógica de negócios e regras de decisão.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 3%
@@ -17,7 +17,7 @@ Você pode criar e entregar ofertas fazendo uma solicitação de POST para a API
 
 Este tutorial requer uma compreensão funcional das APIs, especificamente em relação ao Gerenciamento de decisões. Para obter mais informações, consulte o [Guia do desenvolvedor da API de Gerenciamento de Decisão](../getting-started.md). Este tutorial também exige que você tenha uma ID de posicionamento exclusiva e um valor de ID de decisão disponíveis. Se você não adquiriu esses valores, consulte os tutoriais para [criar uma disposição](../offers-api/placements/create.md) e [criar uma decisão](../activities-api/activities/create.md).
 
-![](../../assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+![](../../../assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
 
 ## Aceitar e digitar cabeçalhos de tipo de conteúdo
 
