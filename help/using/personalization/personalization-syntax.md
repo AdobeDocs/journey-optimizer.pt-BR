@@ -2,7 +2,7 @@
 title: Sintaxe de personalização
 description: Saiba como usar a sintaxe de personalização
 translation-type: tm+mt
-source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
+source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 3%
@@ -111,7 +111,7 @@ Esse caminho tem a seguinte estrutura:
 3 - Id Da Atividade
 4 - Atributos específicos da oferta. Dependendo do tipo de oferta, os atributos compatíveis podem ser usados. Por exemplo, para imagens `deliveryUrl`.
 
-Para obter mais informações sobre a API de decisões, consulte esta [página](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)
+Para obter mais informações sobre a API de decisões, consulte esta [página](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api).
 
 Para obter mais informações sobre Representação de ofertas, consulte esta [página](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers).
 
