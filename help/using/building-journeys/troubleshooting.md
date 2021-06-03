@@ -1,11 +1,10 @@
 ---
 title: Solução de problemas do Jornada
 description: Saiba como solucionar erros no jornada
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 85%
+source-wordcount: '1037'
+ht-degree: 86%
 
 ---
 
@@ -80,7 +79,7 @@ Veja algumas coisas que devem ser verificadas:
 
 Se as pessoas físicas continuarem percorrendo o caminho certo na jornada, mas não receberem as mensagens esperadas, você pode verificar se:
 
-* A Journey Optimizer levou em conta corretamente a solicitação para enviar a mensagem. Um usuário empresarial pode acessar a mensagem que deve ser enviada e verificar se a hora da execução mais recente corresponde ao tempo de execução da sua jornada. Ele também pode verificar as chamadas/eventos de API mais recentes recebidos.
-* O Journey Optimizer enviou a mensagem com êxito. Nos logs de envio da mensagem, você pode ver o status de cada execução. Se é verde, vermelho e qual o problema. Um usuário empresarial pode acessar essa tela e enviar os registros a um administrador para fazer mais investigações.
+* [!DNL Journey Optimizer] tiver considerado corretamente a solicitação de envio da mensagem. Um usuário empresarial pode acessar a mensagem que deve ser enviada e verificar se a hora da execução mais recente corresponde ao tempo de execução da sua jornada. Ele também pode verificar as chamadas/eventos de API mais recentes recebidos.
+* [!DNL Journey Optimizer] enviou a mensagem com êxito. Nos logs de envio da mensagem, você pode ver o status de cada execução. Se é verde, vermelho e qual o problema. Um usuário empresarial pode acessar essa tela e enviar os registros a um administrador para fazer mais investigações.
 
 No caso de mensagem enviada através de ação personalizada, a única coisa a ser verificada durante o teste da jornada é o fato de a chamada do sistema da ação personalizada causar ou não um erro. Se a chamada para o sistema externo associada à ação personalizada não causar um erro, mas também não enviar a mensagem, algumas investigações devem ser feitas por parte do sistema externo.
