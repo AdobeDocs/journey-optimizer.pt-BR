@@ -1,11 +1,10 @@
 ---
 title: Início rápido
 description: Início rápido do Journey Optimizer
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: d2928efec66cd42f86868449d0289a23c78dd7c1
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -23,9 +22,9 @@ Com base em sua organização, você pode definir vários tipos de usuários e c
 
 Antes de começar a usar o Adobe Journey Optimizer, é necessário:
 
-* **Defina as permissões** do usuário: faça logon no Journey Optimizer e dê acesso aos membros da sua equipe. [Leia mais](permissions.md)
+* **Defina as permissões** do usuário: faça logon no Journey Optimizer e dê acesso aos membros da sua equipe. [Leia mais](../using/administration/permissions.md)
 
-* **Configure seus canais e marcas**: trabalhe com o Adobe para definir configurações de notificação por email e por push e criar suas predefinições. [Leia mais](administration.md)
+* **Configure seus canais e predefinições**: trabalhe com o Adobe para definir configurações de notificação por email e por push e criar suas predefinições. [Leia mais](../using/configuration/message-presets.md)
 
 * **Identificar dados e criar esquema e conjunto de dados**: obtenha seus dados no Adobe Experience Platform, crie um namespace de identidade e um conjunto de dados habilitado para perfis, crie segmentos e perfis de teste. [Leia mais](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)
 
