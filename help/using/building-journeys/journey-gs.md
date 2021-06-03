@@ -1,10 +1,9 @@
 ---
 title: Introdução ao jornada
 description: Introdução ao jornada
-translation-type: tm+mt
-source-git-commit: 0b48a0b0793d523021a2e19f86e101bdbab88305
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1465'
 ht-degree: 9%
 
 ---
@@ -39,7 +38,7 @@ Esta etapa é executada pelo **usuário empresarial**. É aqui que você cria su
 
 Estas são as principais etapas para enviar mensagens por meio do jornada:
 
-1. No menu esquerdo, clique em **[!UICONTROL Journeys]**. A lista de jornadas é exibida.
+1. Na seção GERENCIAMENTO DE JORNADAS , clique em **[!UICONTROL Journeys]**. A lista de jornadas é exibida.
 
    ![](../assets/interface-journeys.png)
 
