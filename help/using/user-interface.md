@@ -1,10 +1,9 @@
 ---
 title: Interface do usuário
 description: Interface do usuário do Journey Optimizer
-translation-type: tm+mt
-source-git-commit: fb1170c5e16c54ff93411d93020336f8de334ae1
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1446'
 ht-degree: 40%
 
 ---
@@ -31,7 +30,7 @@ Use os links à esquerda para procurar recursos.
 >
 >Os recursos disponíveis podem variar dependendo de suas permissões e do contrato de licença.
 
-Você pode encontrar abaixo a lista completa de entradas no painel à esquerda e links para a documentação associada.
+Você pode encontrar abaixo a lista completa de serviços e recursos disponíveis na navegação à esquerda e links para a documentação associada.
 
 **Início**
 
