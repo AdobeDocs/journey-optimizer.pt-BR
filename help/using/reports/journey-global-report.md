@@ -1,10 +1,9 @@
 ---
 title: Jornada relatório global
 description: Saiba como usar dados do relatório global do jornada
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -105,7 +104,7 @@ Os widgets **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** 
 
 * **[!UICONTROL Ignored]**: O número total de temporários, como Ausência temporária, ou um erro técnico, por exemplo, se o tipo de remetente for postmaster.
 
-Para obter mais informações sobre devoluções, consulte a página [Gerenciar listas de supressão](../suppression-lists.md) .
+Para obter mais informações sobre devoluções, consulte a página [Supressão list](../suppression-list.md).
 
 O gráfico e a tabela **[!UICONTROL Email - Top Url]** detalham quais URLs do delivery são os mais visitados.
 
