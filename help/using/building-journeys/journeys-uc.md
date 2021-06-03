@@ -1,10 +1,9 @@
 ---
 title: Casos de uso do Jornada
 description: Casos de uso do Jornada
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '819'
 ht-degree: 2%
 
 ---
@@ -59,7 +58,7 @@ Você precisa configurar um evento enviado para sua jornada quando um cliente fi
 
 Para isso, usamos um evento com base em regras. Para obter mais informações sobre eventos, consulte esta [página](../event/about-events.md).
 
-1. No menu esquerdo, clique no ícone **[!UICONTROL Admin]** e, em seguida, clique em **[!UICONTROL Events]**. Clique em **[!UICONTROL Add]** para criar um novo evento.
+1. Na seção ADMINISTRATION , navegue até **[!UICONTROL Configurations]** e clique em **[!UICONTROL Events]**. Clique em **[!UICONTROL Add]** para criar um novo evento.
 
 1. Insira o nome do evento.
 
