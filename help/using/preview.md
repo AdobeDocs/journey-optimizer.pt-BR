@@ -1,11 +1,10 @@
 ---
 title: Visualizar mensagens e enviar provas
 description: Saiba como visualizar e testar suas mensagens
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 2ac0ae0044824beb6e455f5377bc2da4694779be
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 2%
+source-wordcount: '781'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +18,7 @@ Para detectar possíveis erros no conteúdo do email ou nas configurações de p
 
 >[!CAUTION]
 >
->Você precisa ter perfis de teste disponíveis para pré-visualizar suas mensagens e enviar provas. [Saiba mais](building-journeys/testing-the-journey.md#create-test-profile).
+>Você precisa ter perfis de teste disponíveis para pré-visualizar suas mensagens e enviar provas. Saiba como criar perfis de teste em [esta página](building-journeys/creating-test-profiles.md).
 
 Para testar o conteúdo da mensagem, é necessário:
 
@@ -32,7 +31,7 @@ Além disso, aproveite sua conta **Litmus** em [!DNL Journey Optimizer] para vis
 
 ## Selecionar perfis de teste{#select-test-profiles}
 
-Perfis de teste permitem segmentar recipients adicionais que não correspondam aos critérios de direcionamento definidos.
+Use [Test profiles](building-journeys/creating-test-profiles.md) para direcionar recipients adicionais que não correspondam aos critérios de direcionamento definidos.
 
 Para selecionar perfis de teste, siga as etapas abaixo:
 
