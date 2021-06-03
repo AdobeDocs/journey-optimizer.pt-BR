@@ -1,10 +1,9 @@
 ---
 title: Monitoramento da execução da mensagem
 description: Saiba mais sobre as diretrizes de monitoramento e entrega
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '553'
 ht-degree: 28%
 
 ---
@@ -41,7 +40,7 @@ Tenha cuidado extra ao solicitar confirmação adicional: um usuário pode ter d
 
 Para proteger seu deliverability, os recipients cujos endereços estão na lista de supressão são excluídos por padrão de todos os deliveries futuros, porque o envio para esses contatos pode prejudicar sua reputação de envio.
 
-[Saiba mais sobre listas](suppression-lists.md) de supressão.
+[Saiba mais sobre a lista](suppression-list.md) de supressão.
 
 ## Usar ferramentas de monitoramento {#monitoring-tools}
 
