@@ -1,10 +1,9 @@
 ---
 title: Criar regras de decisão
 description: Saiba como criar regras de decisão no Adobe Experience Platform.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 14%
 
 ---
@@ -29,7 +28,7 @@ Para criar uma regra de decisão, siga estas etapas:
 
 1. Nomeie a regra, forneça uma descrição e configure-a de acordo com suas necessidades.
 
-   Para fazer isso, o **Construtor de segmentos** do Adobe Experience Platform está disponível para ajudar você a criar as condições da regra. Para obter mais informações sobre como usá-lo, consulte a [documentação dedicada](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/segment-builder.html).
+   Para fazer isso, o **Construtor de segmentos** do Adobe Experience Platform está disponível para ajudar você a criar as condições da regra. Para obter mais informações sobre como usá-lo, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
    Neste exemplo, a regra direcionará os clientes que têm o nível de fidelidade &quot;Gold&quot;.
 
@@ -45,7 +44,7 @@ Para criar uma regra de decisão, siga estas etapas:
 
    ![](../../assets/rule_created.png)
 
-## Tutoriais em vídeo {#video}
+## Tutorial em vídeo {#video}
 
 >[!NOTE]
 >
