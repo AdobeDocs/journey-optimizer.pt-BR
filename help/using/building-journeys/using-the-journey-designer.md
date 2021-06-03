@@ -1,10 +1,9 @@
 ---
 title: Projetar a jornada
 description: Saiba como criar sua jornada
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1404'
 ht-degree: 2%
 
 ---
@@ -75,7 +74,7 @@ As outras atividades permitem adicionar condições à jornada para definir vár
 
 **Ações**
 
-Você encontrará aqui a atividade **Message** que permite incluir uma mensagem projetada no Journey Optimizer. [Saiba mais sobre a atividade de mensagem](journeys-message.md)
+Você encontrará aqui a atividade **Message** que permite incluir uma mensagem projetada em [!DNL Journey Optimizer]. [Saiba mais sobre a atividade de mensagem](journeys-message.md)
 
 Você também encontrará as ações personalizadas que configurou para enviar mensagens com sistemas de terceiros. Saiba mais nesta [seção](about-journey-activities.md#action-activities).
 
