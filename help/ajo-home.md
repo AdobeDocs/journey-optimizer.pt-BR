@@ -1,10 +1,9 @@
 ---
 keywords: Journey Optimizer; home; tópicos populares
 title: Documentação do produto Journey Optimizer
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 5ac2d00f3aa03ac5fe0c07eea20e9de96959c219
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '223'
 ht-degree: 5%
 
 ---
@@ -18,14 +17,15 @@ ht-degree: 5%
 
 ## Novidades?
 
+* [Controle de ](using/administration/permissions-overview.md) </br> acessoSaiba como definir e gerenciar as permissões atribuídas aos  [!DNL Journey Optimizer] usuários
+
+* [](using/personalization/functions/functions.md) </br> Funções de ajudaAproveite as funções de ajuda no Editor de expressão para personalizar o conteúdo da mensagem
 
 * [Gerenciamento ](using/offers/get-started/starting-offer-decisioning.md) </br> de decisõesCrie ofertas e forneça a melhor oferta e experiência para seus clientes
 
 * [Visualizar e testar ](using/preview.md) </br> mensagensUse perfis de teste para visualizar mensagens, enviar provas e controlar a renderização de email
 
-* [](using/reports/live-report.md) </br> Relatórios ao vivoDescubra relatórios em tempo real para suas jornadas e mensagens
-
-* [](using/reports/global-report.md) </br> Relatórios globaisSaiba como rastrear e medir a eficácia de suas jornadas e mensagens
+* [Relatórios ao vivo ](using/reports/live-report.md) e  [relatórios ](using/reports/global-report.md)</br> globaisRecursos de relatório do Discover para rastrear e medir a eficácia de suas jornadas e mensagens
 
 * [Criar ](using/building-journeys/creating-test-profiles.md) </br> perfis de testeCriar perfis de teste e usá-los para testar suas mensagens e jornadas
 
