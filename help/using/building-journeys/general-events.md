@@ -2,8 +2,7 @@
 solution: Journey Orchestration
 title: Eventos gerais
 description: Saiba como usar eventos gerais
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: dafa417ef163fcc3859b01ac6f090f32c5501199
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -38,11 +37,11 @@ Para configurar um tempo limite para um evento, siga estas etapas:
 
 Neste exemplo, a jornada envia um primeiro push de boas-vindas a um cliente. Em seguida, ele envia um push de desconto para refeições somente se o cliente entrar no restaurante no dia seguinte. Portanto, configuramos o evento de restaurante com um tempo limite de 1 dia:
 
-* Se o evento do restaurante for recebido menos de 1 dia após o push de boas-vindas, a mensagem de push de desconto para refeições será enviada.
+* Se o evento do restaurante for recebido menos de 1 dia após o push de boas-vindas, a atividade de push de desconto para refeições será enviada.
 * Se nenhum evento de restaurante for recebido no dia seguinte, a pessoa percorre o caminho de tempo limite.
 
 Observe que, se quiser configurar um tempo limite em vários eventos posicionados após uma atividade **[!UICONTROL Wait]** , será necessário configurar o tempo limite em um desses eventos somente.
 
-O tempo limite será aplicado a todos os eventos posicionados após a atividade **[!UICONTROL Wait]** . Se nenhum evento for recebido após o tempo limite especificado, os indivíduos fluirão para um único caminho de tempo limite ou encerrarão sua jornada.
+O tempo limite será aplicado a todos os eventos posicionados após a atividade **[!UICONTROL Wait]** . Se nenhum evento for recebido antes do tempo limite especificado, os indivíduos fluirão para um único caminho de tempo limite ou encerrarão sua jornada.
 
 ![](../assets/event-timeout-group.png)
