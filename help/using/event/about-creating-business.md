@@ -1,10 +1,9 @@
 ---
 title: Configurar um evento comercial
 description: Saiba como criar um evento comercial
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '817'
 ht-degree: 14%
 
 ---
@@ -34,7 +33,7 @@ Os eventos comerciais podem ser &quot;um produto está de volta ao estoque&quot;
 
 Estas são as primeiras etapas para configurar um evento comercial:
 
-1. No menu esquerdo, clique no ícone **[!UICONTROL Admin]** e, em seguida, clique em **[!UICONTROL Events]**. A lista dos eventos é exibida.
+1. Na seção ADMINISTRATION , navegue até **[!UICONTROL Configurations]** e clique em **[!UICONTROL Events]**. A lista dos eventos é exibida.
 
    ![](../assets/jo-event1.png)
 
