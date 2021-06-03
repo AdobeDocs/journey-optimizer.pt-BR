@@ -1,15 +1,14 @@
 ---
 title: Gerenciar recusa
 description: Saiba como gerenciar opções de rejeição e privacidade
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 738d72e8f3ba204219086f19252220ff833369cb
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 2%
 
 ---
 
-# Gerenciar opt-out {#consent}
+# Gerenciar recusa {#consent}
 
 ![](assets/do-not-localize/badge.png)
 
@@ -126,7 +125,7 @@ Corpo da solicitação:
 }
 ```
 
-<!--The Consent service /-->Adobe Customer Management will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
+<!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
 ## Encaminhar o gerenciamento de rejeição {#push-opt-out-management}
 
