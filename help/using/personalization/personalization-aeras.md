@@ -1,15 +1,14 @@
 ---
 title: contextos de personalização no Journey Optimizer
 description: Saiba em quais contextos você pode adicionar personalização
-translation-type: tm+mt
-source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 3%
 
 ---
 
-# Áreas de personalização {#personalization-areas}
+# Contexto e ferramenta de personalização {#personalization-areas}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -21,7 +20,7 @@ Todos os campos associados ao ícone do editor podem abrir o editor de personali
 
 ## Personalize seus emails
 
-Durante a criação da mensagem do canal de email, o campo **Assunto do email** é personalizável.
+Ao criar um email, você pode adicionar personalização no campo **Email subject** da mensagem.
 
 ![](assets/perso_subject.png)
 
@@ -37,9 +36,7 @@ No Designer de email, é possível personalizar o conteúdo:
 
 ## Personalizar notificações por push
 
-No **Push channel**, a personalização permite ajustar a notificação por push.
-
-Você pode adicionar personalização nos seguintes campos:
+Você também pode personalizar suas **Notificações por push** nos seguintes campos:
 
 * **Title**
 * **Corpo**
@@ -49,8 +46,7 @@ Você pode adicionar personalização nos seguintes campos:
 
 ![](assets/perso_push.png)
 
-Para obter uma documentação completa sobre a configuração da notificação por push, consulte [esta seção](../configure-push.md).
-
+Saiba mais sobre a configuração de notificação por push em [this section](../create-push.md).
 
 ## Usar o editor de expressão
 
@@ -65,8 +61,12 @@ Na interface do editor de expressão, você selecionará, organizará, personali
 A parte esquerda da tela exibe um seletor de domínio que permite selecionar a fonte para personalização.
 
 * **Perfil** : lista todas as referências associadas ao esquema de perfil descrito na documentação do  [Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
-* **Associação**  de segmento: lista todos os segmentos criados no serviço de Segmentação da Adobe Experience Platform. Mais informações sobre segmentação disponíveis [aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
-* **Ofertas** : lista todas as ofertas associadas a uma disposição específica. Selecione a disposição e insira as ofertas no seu conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [esta seção](../../using/offers/get-started/starting-offer-decisioning.md).
+* **Associação**  de segmento: lista todos os segmentos criados no serviço de Segmentação da Adobe Experience Platform. Mais informações sobre segmentação disponíveis [aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)
+* **Ofertas** : lista todas as ofertas associadas a uma disposição específica. Selecione a disposição e insira as ofertas no seu conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [esta seção](../deliver-personalized-offers.md)
+* **Contexto** : quando a atividade  **** Messageactivity é usada em uma jornada, os campos de jornada contextual ficam disponíveis nesse menu. Consulte [esta seção](personalization-use-case.md)
+* **Funções**  de ajuda: lista todas as funções auxiliares disponíveis para executar operações em dados, como cálculos, formatação de dados ou conversões, condições e manipulá-las no contexto de personalização. [Saiba mais](functions/functions.md)
+
+
 
 Na seleção, a referência é adicionada no editor.
 
