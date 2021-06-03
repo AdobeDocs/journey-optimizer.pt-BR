@@ -1,0 +1,74 @@
+---
+title: Delegar subdomínios
+description: Saiba como delegar subdomínios
+page-status-flag: never-activated
+uuid: null
+contentOwner: null
+products: null
+audience: administrators
+content-type: reference
+topic-tags: null
+discoiquuid: null
+internal: n
+snippet: y
+source-git-commit: 068ee9c8966e5968a488c12b2a48fa2ba2ab5245
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 11%
+
+---
+
+
+# Delegar um subdomínio
+
+O Journey Optimizer permite delegar totalmente seus subdomínios ao Adobe. Ao fazer isso, o Adobe poderá enviar mensagens como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
+
+>[!NOTE]
+>
+>Por padrão, o [!DNL Journey Optimizer] contrato de licença permite delegar até 10 subdomínios. Entre em contato com o Adobe se quiser aumentar essa limitação.
+>
+>No momento, o uso de CNAMEs para delegação de subdomínio não é compatível com o Journey Optimizer.
+
+Para delegar um novo subdomínio, siga as etapas abaixo:
+
+1. Acesse o menu **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** e clique em **[!UICONTROL Delegate subdomain]**.
+
+   ![](../assets/subdomain-delegate.png)
+
+1. Especifique o nome do subdomínio que será delegado.
+
+   ![](../assets/subdomain-name.png)
+
+1. A lista de registros que serão colocados em seus servidores DNS é exibida. Copie esses registros, um por um ou baixando um arquivo CSV, e navegue até a solução de hospedagem de domínio para gerar os registros DNS correspondentes.
+
+   Verifique se todos os registros DNS foram gerados na solução de hospedagem de domínio. Se tudo estiver configurado corretamente, marque a caixa &quot;I confirm...&quot; e clique em **[!UICONTROL Submit]**.
+
+   ![](../assets/subdomain-submit.png)
+
+   >[!NOTE]
+   >
+   >Você pode criar os registros e enviar a configuração de subdomínio posteriormente usando o botão **[!UICONTROL Save as draft]**. Você poderá retomar a delegação do subdomínio abrindo-a a partir da lista de subdomínios.
+
+1. Depois que a delegação de subdomínio for enviada, o subdomínio será exibido na lista com o status **[!UICONTROL Processing]**. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](access-subdomains.md).
+
+   As verificações e ações abaixo serão executadas até que o subdomínio seja verificado e possa ser usado para enviar mensagens.
+
+   Essa etapa é executada pelo Adobe e pode levar até 3 horas.
+
+   1. Verifique se o subdomínio foi delegado ao Adobe DNS (registro NS, registro SOA, configuração de zona, registro de propriedade),
+   1. Configurar DNS para o domínio,
+   1. Criar URLs de rastreamento e espelho,
+   1. Provisionar Frente da Nuvem CDN,
+   1. Criar, validar e anexar o certificado SSL CDN,
+   1. Criar DNS de encaminhamento,
+   1. Criar registro PTR.
+
+   ![](../assets/subdomain-processing.png)
+
+1. Depois que as verificações são bem-sucedidas, o subdomínio recebe o status **[!UICONTROL Success]**. Ele está pronto para ser usado para entregar mensagens.
+
+   <!-- later on, users will be notified in Pulse -->
+
+   ![](../assets/subdomain-notification.png)
+
+
