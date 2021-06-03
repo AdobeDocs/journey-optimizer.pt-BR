@@ -1,8 +1,7 @@
 ---
 title: Gerenciamento de fuso horário
 description: Saiba mais sobre o gerenciamento de fuso horário
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: bcc9f5c7bdb660462ca412ed2528dab16d610418
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 2%
@@ -32,7 +31,7 @@ O fuso horário também pode ser corrigido. Limpe o fuso horário predefinido e 
 
 Para fazer isso, em **[!UICONTROL Properties]**, selecione um fuso horário.
 
-![](../assets/journey73.png)
+![](../assets/journey72.png)
 
 ## Uso de perfis para definir o fuso horário da jornada {#timezone-from-profiles}
 
@@ -44,7 +43,7 @@ Se o perfil do indivíduo não contiver um fuso horário, o fuso horário recupe
 
 Para fazer isso, em **[!UICONTROL Properties]**, marque **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
-![](../assets/journey72.png)
+![](../assets/journey73.png)
 
 ## Uso de fusos horários em expressões {#timezone-in-expressions}
 
