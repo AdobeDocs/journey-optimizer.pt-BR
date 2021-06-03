@@ -1,11 +1,10 @@
 ---
 title: Ofertas de entrega
 description: O Gerenciamento de decisões é uma coleção de serviços e programas de interface do usuário que permite aos profissionais de marketing criar e fornecer experiências de ofertas personalizadas para o usuário final em canais e aplicativos usando lógica de negócios e regras de decisão.
-translation-type: tm+mt
-source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 3%
+source-wordcount: '945'
+ht-degree: 2%
 
 ---
 
@@ -105,7 +104,7 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | O identificador de decisão único. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | O número de ofertas a serem retornadas. O número máximo é 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Esse objeto contém informações sobre o perfil para o qual a decisão é solicitada. Para uma solicitação de API, isso conterá um perfil. |
-| `xdm:profiles.xdm:identityMap` | Esse objeto contém um conjunto de identidades de usuário final com base no código de integração do namespace da identidade. O mapa de identidade pode ter mais de uma identidade de cada namespace. Para obter mais informações sobre namespaces, consulte a [Visão geral do namespace de identidade](https://docs.adobe.com/content/help/pt-BR/experience-platform/identity/namespaces.html). | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | Esse objeto contém um conjunto de identidades de usuário final com base no código de integração do namespace da identidade. O mapa de identidade pode ter mais de uma identidade de cada namespace. Para obter mais informações sobre namespaces, consulte a [Visão geral do namespace de identidade](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html). | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | A ID gerada pelo cliente que pode ser usada para identificar exclusivamente uma solicitação de decisão de perfil. Essa ID é repetida na resposta e não influencia o resultado da decisão. | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
 | `xdm:allowDuplicatePropositions` | Esse objeto é a estrutura de controle das regras de eliminação de duplicação. Consiste em uma série de sinalizadores que indicam se a mesma opção pode ser proposta em uma determinada dimensão. Um sinalizador definido como true significa que as duplicatas são permitidas e não devem ser removidas na categoria indicada pelo sinalizador. Um sinalizador definido como falso significa que o mecanismo de decisão não deve fazer a mesma apresentação na dimensão e, em vez disso, escolher a próxima melhor opção para uma das subdecisões. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Se definido como verdadeiro, várias decisões podem receber a mesma opção. | `"xdm:acrossActivities": true` |
@@ -189,7 +188,7 @@ Uma resposta bem-sucedida retorna informações sobre sua proposta, incluindo se
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | Um URL opcional para ler o ativo de uma rede de entrega de conteúdo ou ponto de extremidade de serviço. Esse URL é usado para acessar o ativo publicamente de um agente do usuário. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | A hora em que a mensagem de resposta da decisão foi criada. Isso é representado como uma época. | `"ode:createDate": 1566497582038` |
 
-## Tutoriais em vídeo {#video}
+## Tutorial em vídeo {#video}
 
 O vídeo a seguir é destinado a auxiliar a compreensão dos componentes do Gerenciamento de decisões.
 
