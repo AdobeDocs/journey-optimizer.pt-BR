@@ -1,11 +1,10 @@
 ---
 title: Criar uma mensagem
 description: Saiba como criar uma mensagem
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: d2928efec66cd42f86868449d0289a23c78dd7c1
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 2%
+source-wordcount: '472'
+ht-degree: 3%
 
 ---
 
@@ -13,11 +12,11 @@ ht-degree: 2%
 
 ![](assets/do-not-localize/badge.png)
 
-As mensagens estão disponíveis no atalho **[!UICONTROL Messages]** no painel esquerdo. Todas as mensagens são listadas, classificadas por data de publicação (para mensagens publicadas) ou data de criação (para mensagens de rascunho).
+As mensagens estão disponíveis no atalho **[!UICONTROL Messages]** na navegação à esquerda. Todas as mensagens são listadas, classificadas por data de publicação (para mensagens publicadas) ou data de criação (para mensagens de rascunho).
 
 >[!NOTE]
 >
->Todos os usuários podem acessar, criar, editar e publicar mensagens. Saiba mais sobre permissões de usuário [nesta seção](permissions.md).
+>Todos os usuários podem acessar, criar, editar e publicar mensagens. Saiba mais sobre permissões de usuário [nesta seção](../using/administration/permissions.md).
 
 ![](assets/messages-list.png)
 
@@ -43,7 +42,7 @@ Para criar uma nova mensagem, siga as etapas abaixo:
 
    * Selecione **[!UICONTROL Preset]** para usar na mensagem.
 
-      As predefinições incluem todos os parâmetros necessários para que uma notificação por email e/ou por push seja enviada de acordo com sua marca. [Saiba mais sobre identidade visual](administration.md#cjm-branding).
+      As predefinições incluem todos os parâmetros necessários para que uma notificação por email e/ou por push seja enviada de acordo com sua marca. [Saiba mais sobre predefinições](../using/configuration/message-presets.md).
 
    * Selecione os canais que deseja usar para essa mensagem: Notificação por email e/ou notificação por push. Você deve selecionar pelo menos um canal para criar a mensagem.
    Observe que você pode acessar e modificar o título, a descrição e a predefinição da mensagem a qualquer momento usando o botão **[!UICONTROL Properties]** na interface da mensagem.
@@ -59,8 +58,8 @@ Para criar uma nova mensagem, siga as etapas abaixo:
 
    Agora é possível criar o conteúdo da mensagem e adaptar as configurações. Informações detalhadas sobre a configuração de email e notificação por push estão disponíveis nas seguintes seções:
 
-   * [Configurar emails](configure-email.md)
-   * [Configurar notificações por push](configure-push.md)
+   * [Criar um email](create-email.md)
+   * [Criar notificações por push](create-push.md)
 
    >[!NOTE]
    >   
