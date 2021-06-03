@@ -6,16 +6,15 @@ user-guide-description: Usar o Journey Optimizer para fornecer experiências con
 type: Documentation
 solution: Journey Optimizer
 hide: true
-translation-type: tm+mt
-source-git-commit: 1e4b037a54f3b79270890ae4f2909670b17a5cb6
+source-git-commit: fc39593802d296c035f1c77f237ae19cc73ce059
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 50%
+source-wordcount: '632'
+ht-degree: 43%
 
 ---
 
 
-# [!DNL Journey Optimizer] Ajuda {#using}
+# [!DNL Journey Optimizer]Ajuda {#using}
 
 + [Documentação do produto](ajo-home.md)
 + Comece já{#get-started}
@@ -28,8 +27,8 @@ ht-degree: 50%
    + [Introdução a mensagens](using/get-started-content.md)
    + Criar mensagens {#create-message}
       + [Criar uma mensagem](using/create-message.md)
-      + [Configurar um email](using/configure-email.md)
-      + [Configurar uma notificação por push](using/configure-push.md)
+      + [Criar um email](using/create-email.md)
+      + [Criar uma notificação por push](using/create-push.md)
    + [Adicionar e gerenciar ativos](using/assets-essentials.md)
    + Designer de email {#email-designer}
       + [Introdução ao design de email](using/design-emails.md)
@@ -37,19 +36,21 @@ ht-degree: 50%
       + [Importe ou codifique seu conteúdo de email](using/existing-content.md)
       + [Usar componentes de conteúdo do designer de email](using/content-components.md)
    + Personalização{#personalization}
-      + [Comece já](using/personalization/personalize.md)
+      + [Introdução](using/personalization/personalize.md)
       + [Áreas de personalização](using/personalization/personalization-aeras.md)
       + [Sintaxe de personalização](using/personalization/personalization-syntax.md)
       + [Validação de personalização](using/personalization/personalization-validation.md)
       + [Caso de uso de personalização](using/personalization/personalization-use-case.md)
-      + Idioma de modelo{#functions}
-         + [Operadores](using/personalization/functions/operators.md)
-         + [Agregação](using/personalization/functions/aggregation.md)
-         + [Matrizes e lista](using/personalization/functions/arrays-list.md)
-         + [Matemática](using/personalization/functions/maths.md)
-         + [Mapas](using/personalization/functions/maps.md)
-         + [Objetos](using/personalization/functions/objects.md)
-         + [String](using/personalization/functions/string.md)
+      + Funções auxiliares{#functions}
+         + [Lista de funções auxiliares](using/personalization/functions/functions.md)
+         + [Funções de agregação](using/personalization/functions/aggregation.md)
+         + [Funções aritméticas](using/personalization/functions/arithmetic-functions.md)
+         + [Matrizes e funções de lista](using/personalization/functions/arrays-list.md)
+         + [Funções booleanas e de comparação](using/personalization/functions/operators.md)
+         + [Ajudantes](using/personalization/functions/helpers.md)
+         + [Funções do mapa](using/personalization/functions/maps.md)
+         + [Funções do objeto](using/personalization/functions/objects.md)
+         + [Funções da string](using/personalization/functions/string.md)
    + [Adicionar ofertas personalizadas](using/deliver-personalized-offers.md)
    + Validar e publicar {#create-message}
       + [Visualização e provas](using/preview.md)
@@ -109,7 +110,7 @@ ht-degree: 50%
       + [Campos de identidade](using/reports/sharing-identity-fields.md)
    + Capacidade de entrega {#deliverability}
       + [Introdução à capacidade de entrega](using/deliverability.md)
-      + [Listas de supressão](using/suppression-lists.md)
+      + [Lista de supressão](using/suppression-list.md)
 + Gerenciamento de decisões {#offer-decisioniong}
    + Introdução ao Gerenciamento de decisões {#get-started}
       + [Sobre o Gerenciamento de decisões](using/offers/get-started/starting-offer-decisioning.md)
@@ -117,7 +118,7 @@ ht-degree: 50%
       + [Glossário](using/offers/get-started/glossary.md)
    + Criar e gerenciar ofertas {#managing-offers-in-the-offer-library}
       + [Etapas principais para criar uma oferta](using/offers/offer-library/key-steps.md)
-      + [Criar posicionamentos](using/offers/offer-library/creating-placements.md)
+      + [Criar disposições](using/offers/offer-library/creating-placements.md)
       + [Criar regras de decisão](using/offers/offer-library/creating-decision-rules.md)
       + [Criar tags](using/offers/offer-library/creating-tags.md)
       + [Criar ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
@@ -128,7 +129,7 @@ ht-degree: 50%
       + [Criar decisões](using/offers/offer-activities/create-offer-activities.md)
       + [Configurar seleção de ofertas em decisões](using/offers/offer-activities/configure-offer-selection.md)
    + Criar relatórios do Gerenciamento de decisões {create-reports}
-      + [Introdução aos eventos de Gerenciamento de decisões](using/offers/reports/get-started-events.md)
+      + [Introdução aos eventos de gerenciamento de decisões](using/offers/reports/get-started-events.md)
       + [Informações-chave sobre eventos do Gerenciamento de decisões](using/offers/reports/key-information.md)
       + [Acessar campos XDM de eventos](using/offers/reports/xdm-fields.md)
    + Exportar seu catálogo de ofertas {#export-catalog}
@@ -183,25 +184,50 @@ ht-degree: 50%
          + [Criar uma decisão](using/offers/api-reference/activities-api/activities/create.md)
          + [Atualizar uma decisão](using/offers/api-reference/activities-api/activities/update.md)
          + [Excluir uma decisão](using/offers/api-reference/activities-api/activities/delete.md)
-      + Oferecer entrega usando APIs {#offer-delivery}
+      + Oferecer delivery usando APIs {#offer-delivery}
          + [API de decisões](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [SDK da Web da Adobe Experience Platform](using/offers/api-reference/web-sdk.md)
-+ Configuração {#configuration}
-   + [Configurações técnicas](using/administration.md)
-   + [Configuração de notificações por push](using/push-configuration.md)
-   + Configuração do evento {#events-journeys}
-      + [Sobre eventos](using/event/about-events.md)
-      + Configurar um evento unitário {#unitary-events}
-         + [Introdução a eventos unitários](using/event/about-creating.md)
-         + [Sobre esquemas ExperienceEvent](using/event/experience-event-schema.md)
-         + [Aproveite a Adobe Analytics](using/event/about-analytics.md)
-      + [Configurar um evento comercial](using/event/about-creating-business.md)
-      + [Etapas adicionais para enviar eventos](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
-   + Configuração da fonte de dados{#data-source-journeys}
-      + [Sobre fontes de dados](using/datasource/about-data-sources.md)
-      + [Configurar uma fonte de dados](using/datasource/configure-data-sources.md)
-      + [Fonte de dados da Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
-      + [Fontes de dados externas](using/datasource/external-data-sources.md)
-   + Configuração de ação {#action-journeys}
-      + [Sobre ações](using/action/action.md)
-      + [Configurar uma ação](using/action/about-custom-action-configuration.md)
++ Configuração {#get-started}
+   + [Introdução à configuração do Journey Optimizer](using/configuration/get-started-configuration.md)
+   + Configurar mensagens {#configuration}
+      + [Configurações técnicas](using/administration/administration.md)
+      + [Criar predefinições de mensagem](using/configuration/message-presets.md)
+      + Configuração de notificações por push{#push-config}
+         + [Introdução às notificações por push](using/push-gs.md)
+         + [Configurar canal de push](using/push-configuration.md)
+      + Configuração de email {#email-config}
+         + Delegar subdomínios {#delegate-subdomains}
+            + [Introdução à delegação de subdomínio](using/configuration/about-subdomain-delegation.md)
+            + [Delegar um subdomínio](using/configuration/delegate-subdomain.md)
+            + [Acessar subdomínios delegados](using/configuration/access-subdomains.md)
+            + [Adicionar um registro TXT do Google](using/configuration/google-txt.md)
+            + [Acessar registros PTR](using/configuration/ptr-records.md)
+         + [Criar pools de IP](using/configuration/ip-pools.md)
+         + Monitorar endereços de email {#monitor-reputation}
+            + [Gerenciar lista de supressão](using/configuration/manage-suppression-list.md)
+            + [Tentativas](using/configuration/retries.md)
+         + [Alterar endereço principal do email](using/configuration/primary-email-addresses.md)
+   + Configurar jornadas {#configure-journeys}
+      + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
+      + Configuração do evento {#events-journeys}
+         + [Princípio geral](using/event/about-events.md)
+         + Configurar um evento unitário {#unitary-events}
+            + [Introdução a eventos unitários](using/event/about-creating.md)
+            + [Sobre esquemas ExperienceEvent](using/event/experience-event-schema.md)
+            + [Aproveite a Adobe Analytics](using/event/about-analytics.md)
+         + [Configurar um evento comercial](using/event/about-creating-business.md)
+         + [Etapas adicionais para enviar eventos](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+      + Configuração da fonte de dados{#data-source-journeys}
+         + [Sobre fontes de dados](using/datasource/about-data-sources.md)
+         + [Configurar uma fonte de dados](using/datasource/configure-data-sources.md)
+         + [Fonte de dados da Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
+         + [Fontes de dados externas](using/datasource/external-data-sources.md)
+      + Configuração de ação {#action-journeys}
+         + [Sobre ações](using/action/action.md)
+         + [Configurar uma ação](using/action/about-custom-action-configuration.md)
++ Controle de acesso {#administration}
+   + [Visão geral do controle de acesso](using/administration/permissions-overview.md)
+   + [Perfis de produto incorporados](using/administration/ootb-product-profiles.md)
+   + [Gerenciar usuários e perfis de produtos](using/administration/permissions.md)
+   + [Níveis de permissão](using/administration/high-low-permissions.md)
+   + [Gerenciamento de sandboxes](using/administration/sandboxes.md)
