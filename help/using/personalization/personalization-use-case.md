@@ -1,8 +1,7 @@
 ---
 title: Caso de uso de personalização
 description: Caso de uso de personalização
-translation-type: tm+mt
-source-git-commit: 274086b4479a482ceb8e79e56d554f7d7b6cf545
+source-git-commit: cd1b07bbb4b247d1d8c0cc87be9e4bdad22377ed
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 2%
@@ -16,9 +15,9 @@ ht-degree: 2%
 
 Nesse caso de uso, você verá como usar vários tipos de personalização em uma única mensagem de notificação por push. Serão usados três tipos de personalização:
 
-* Perfil: personalização de mensagem com base em um campo de perfil
-* Decisão da oferta: personalização com base em variáveis de decisão de oferta
-* Contexto: personalização com base em dados contextuais da jornada
+* **Perfil**: personalização de mensagem com base em um campo de perfil
+* **Decisão** da oferta: personalização com base em variáveis de decisão de oferta
+* **Contexto**: personalização com base em dados contextuais da jornada
 
 O objetivo deste exemplo é enviar um evento para a Journey Optimizer sempre que um pedido de cliente for atualizado. Em seguida, uma notificação por push é enviada ao cliente com informações sobre o pedido e uma oferta personalizada.
 
