@@ -1,29 +1,22 @@
 ---
 title: Delegar subdomínios
 description: Saiba como delegar subdomínios
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: da995c56b59fb191934788c7aea9048123a2fe6d
+source-git-commit: e569e992530df5429ffb96f78ba28b53de0ded81
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 43%
+source-wordcount: '385'
+ht-degree: 26%
 
 ---
 
 
-# Introdução à delegação de subdomínio
+# Delegação de subdomínio em [!DNL Journey Optimizer]
 
-## Isole suas marcas para proteger sua reputação
+A criação de um subdomínio para campanhas de email permite que as marcas isolem vários tipos de tráfego (marketing vs. corporativo, por exemplo) em pools de IP específicos e com domínios específicos, o que agilizará o processo de aquecimento de IP e melhorará a capacidade de entrega em geral. Se você compartilhar um domínio e ele for bloqueado ou adicionado à lista de bloqueios, isso poderá afetar seu delivery de email corporativo. No entanto, problemas ou blocos de reputação em um domínio específico para suas comunicações de marketing por email afetarão apenas esse fluxo de email. Usar seu domínio principal como remetente ou endereço &quot;De&quot; para vários fluxos de email também pode quebrar a autenticação de email, fazendo com que suas mensagens sejam bloqueadas ou colocadas na pasta de spam.
 
-Um subdomínio é uma divisão do seu domínio que pode ser usada para isolar suas marcas ou vários tipos de tráfego (mensagens transacionais, informações de marketing etc.).
+Um subdomínio é uma divisão do seu domínio que pode ser usada para isolar suas marcas ou vários tipos de tráfego, por exemplo, mensagens transacionais e comunicações de marketing.
+
 Vamos ver o exemplo do domínio &quot;mybrand.com&quot;, usado para enviar comunicações transacionais e de marketing. Nessa situação, você pode optar por configurar dois subdomínios:
 
 * subdomínio &quot;info.mybrand.com&quot; para comunicações transacionais (confirmação de compras, redefinição de senha etc.),
@@ -31,16 +24,12 @@ Vamos ver o exemplo do domínio &quot;mybrand.com&quot;, usado para enviar comun
 
 Ao fazer isso, você ajudará a preservar a reputação do seu domínio e de outros subdomínios. Por exemplo, se os subdomínios &quot;marketing.mybrand.com&quot; acabassem sendo incluídos na lista de bloqueios por provedores de serviço de internet devido a uma entrega incorreta, isso evitaria que todo o domínio &quot;mybrand.com&quot; e o subdomínio &quot;info.mybrand.com&quot; fossem incluídos na lista de bloqueios.
 
-## Mantenha seus URLs de recursos transparentes para os clientes
-
 Ao implementar uma solução, há requisitos para componentes voltados para o exterior: isso inclui configurar links e páginas da Web a serem rastreadas, exibir mirror pages, etc.
 
-Embora esses requisitos estejam sendo gerenciados por meio de componentes hospedados pelo Adobe e pelo cliente, eles incluem URLs que podem ser vistos pelos recipients dos emails. Para evitar URLs que indicam a solução técnica subjacente ou o provedor de hospedagem, os subdomínios podem ser configurados para tornar isso transparente para os recipients dos emails. [Saiba mais sobre Delegação](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=pt-BR) de domínio.
+Embora esses requisitos estejam sendo gerenciados por meio de componentes hospedados pelo Adobe e pelo cliente, eles incluem URLs que podem ser vistos pelos recipients dos emails. Para evitar URLs que indicam a solução técnica subjacente ou o provedor de hospedagem, os subdomínios podem ser configurados para tornar isso transparente para os recipients dos emails.
 
-## Delegação de subdomínio no Journey Optimizer
+**Saiba mais**
 
-O Journey Optimizer fornece vários recursos para ajudar você a gerenciar subdomínios:
-
-* [Delegar seus ](delegate-subdomain.md) subdomínios diretamente da interface,
-* [Adicione ](google-txt.md) registros TXT do Google a seus subdomínios para garantir o delivery bem-sucedido de emails para endereços Gmail,
-* [Acesse os ](ptr-records.md) registros PTR gerados para seus subdomínios, permitindo que eles sejam verificados pelo envio de servidores de email.
+* Saiba como [delegar seus subdomínios](delegate-subdomain.md) diretamente da interface
+* Saiba como [adicionar registros TXT do Google](google-txt.md) a seus subdomínios para garantir o delivery bem-sucedido de emails para endereços Gmail
+* Saiba como [acessar os registros PTR](ptr-records.md) gerados para seus subdomínios, permitindo que eles sejam verificados pelo envio de servidores de email
