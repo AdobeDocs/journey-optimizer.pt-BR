@@ -1,8 +1,7 @@
 ---
 title: Alertas em mensagens
 description: Saiba como verificar a validação do conteúdo da mensagem e a solução de problemas
-translation-type: tm+mt
-source-git-commit: 03af839084edafbc93188750db1f9f6c8b559d9e
+source-git-commit: 627ffade10a420c6dea7377f6e39360abad44f32
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -61,7 +60,7 @@ As configurações e elementos verificados pelo sistema estão listados abaixo. 
 
 * **[!UICONTROL Email Variant is empty]**: esse erro é exibido quando o conteúdo do email não foi configurado. Saiba como criar conteúdo de email em [esta seção](design-emails.md).
 
-* **[!UICONTROL Preset doesn’t exist]**: não é possível publicar sua mensagem se a predefinição selecionada for excluída após a criação da mensagem. Se esse erro ocorrer, selecione outra predefinição na mensagem **[!UICONTROL Properties]**. Saiba mais sobre marca em [esta seção](administration.md#cjm-branding).
+* **[!UICONTROL Preset doesn’t exist]**: não é possível publicar sua mensagem se a predefinição selecionada for excluída após a criação da mensagem. Se esse erro ocorrer, selecione outra predefinição na mensagem **[!UICONTROL Properties]**. Saiba mais sobre marca em [esta seção](configuration/about-subdomain-delegation.md).
 
 * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: o tamanho da notificação por push não pode exceder 4 KB. Para respeitar esse limite, tente reduzir o uso de imagens ou emojis. Saiba como gerenciar o conteúdo da notificação por push em [esta seção](create-push.md).
 
