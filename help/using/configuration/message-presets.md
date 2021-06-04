@@ -1,9 +1,9 @@
 ---
 title: Criar predefinições de mensagem
-description: Saiba como criar predefinições de mensagens de email e de notificação por push
-source-git-commit: 4353b8f01bb4e47f6f2384e464341c0ee80ecaf2
+description: Saiba como configurar e monitorar predefinições de mensagens
+source-git-commit: e76528caa407de9c8794bd2858ffa9bc8673d715
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -11,9 +11,12 @@ ht-degree: 0%
 
 # Criar predefinições de mensagem
 
-Com [!DNL Journey Optimizer], você pode configurar predefinições de mensagens que definem todos os parâmetros técnicos necessários para mensagens de email e de notificação por push (tipo de email, email e nome do remetente, aplicativos móveis etc.).
+Com [!DNL Journey Optimizer], é possível configurar predefinições de mensagens que definem todos os parâmetros técnicos necessários para mensagens de email e de notificação por push: tipo de email, email e nome do remetente, aplicativos móveis e muito mais.
 
-Você pode configurar quantas predefinições de mensagem desejar, dependendo das diferentes marcas que precisam se comunicar.
+>[!CAUTION]
+>
+> A configuração de predefinições de mensagens é restrita aos Administradores do Jornada. [Saiba mais](../administration/ootb-product-profiles.md#journey-administrator)
+
 
 Após configurar as predefinições de mensagem, é possível selecioná-las ao criar mensagens na lista **[!UICONTROL Presets]**.
 
@@ -25,24 +28,48 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    ![](../assets/preset-create.png)
 
-1. Forneça um nome e uma descrição (opcional) para a predefinição, em seguida, especifique os canais que deseja configurar.
+1. Insira um nome e uma descrição (opcional) para a predefinição, em seguida, selecione os canais a serem configurados.
 
    ![](../assets/preset-general.png)
 
-1. Defina as configurações de email e notificação por push:
 
-   Para o canal de email, especifique:
+   >[!NOTE]
+   >
+   > * Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos e caracteres `_`, `.`, `-`.
 
-   * O tipo de comunicações que será enviado com a predefinição (mensagens transacionais ou de marketing),
-   * O [subdomínio](about-subdomain-delegation.md) a ser usado para enviar emails,
-   * O [pool IP](ip-pools.md) para associar com a predefinição,
-   * Os parâmetros de cabeçalho a serem usados para os emails enviados usando a predefinição.
+
+1. Defina as configurações de **email**.
 
    ![](../assets/preset-email.png)
 
-   Para o canal de notificação por push, especifique os aplicativos móveis IOS e/ou Android que serão usados para suas mensagens. Para obter mais informações sobre como configurar seu ambiente para enviar notificações por push, consulte [esta seção](../push-configuration.md).
+   * Selecione o tipo de mensagem que será enviada com a predefinição: **Transacional** ou **Marketing**
+
+      >[!CAUTION]
+      >
+      > **** As mensagens transacionais podem ser enviadas para perfis que cancelaram a assinatura em comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos, como redefinição de senha, status do pedido, notificação de delivery, por exemplo.
+
+   * Selecione o subdomínio a ser usado para enviar os emails. [Saiba mais](about-subdomain-delegation.md)
+   * Selecione o pool de IP a ser associado à predefinição. [Saiba mais](ip-pools.md)
+   * Insira os parâmetros de cabeçalho para os emails enviados usando a predefinição.
+
+      >[!NOTE]
+      >
+      > * Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos e caracteres `_`, `.`, `-`.
+         > 
+         > 
+      * Exceto para o **Responder para (encaminhar email)**, o domínio de endereços de email deve usar o subdomínio selecionado atual.
+
+
+
+1. Defina as configurações de **notificação por push**.
 
    ![](../assets/preset-push.png)
+
+   * Selecione pelo menos uma plataforma: iOS e/ou Android
+
+   * Selecione os aplicativos móveis a serem usados para cada plataforma.
+
+      Para obter mais informações sobre como configurar seu ambiente para enviar notificações por push, consulte [esta seção](../push-configuration.md).
 
 1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Submit]** para confirmar. Você também pode salvar a predefinição de mensagem como rascunho e retomar sua configuração posteriormente.
 
@@ -54,13 +81,13 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    Essas verificações incluem testes de deliverability realizados pela equipe de deliverability do Adobe:
 
-   * validação de SPF,
-   * Validação de DKIM,
-   * validação de registro MX,
-   * Verificar a inclusão de IPs na blacklist,
-   * Helo host check,
-   * Verificação do conjunto IP,
-   * Registro A/PTR, verificação de subdomínio t/m/res.
+   * Validação de SPF
+   * Validação de DKIM
+   * Validação de registro MX
+   * Verificar IPs inclua na lista de bloqueios
+   * Verificação do anfitrião
+   * Verificação de pool de IPs
+   * Registro A/PTR, verificação de subdomínio t/m/res
 
 1. Depois que as verificações são bem-sucedidas, a predefinição de mensagem recebe o status **[!UICONTROL Active]** . Ele está pronto para ser usado para entregar mensagens.
 
@@ -100,4 +127,5 @@ Para editar uma predefinição de mensagem, primeiro é necessário desativá-la
 
    >[!NOTE]
    >
-   >As predefinições de mensagens desativadas não podem ser excluídas para evitar qualquer problema nas jornadas que usam essas predefinições para enviar mensagens.
+   >As predefinições de mensagens desativadas não podem ser excluídas para evitar qualquer problema no jornada usando essas predefinições para enviar mensagens.
+
