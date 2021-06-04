@@ -1,9 +1,9 @@
 ---
 title: Conjunto de dados Disposições
 description: Esta seção lista todos os campos usados no conjunto de dados exportado para disposições.
-source-git-commit: 958bf03f3d3c2dd1606daba9dfef1284e2ed5cdd
+source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '365'
 ht-degree: 4%
 
 ---
@@ -60,11 +60,11 @@ Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[
 **Campo:** contentTypes 
 **Type:** array
 
-* **Tipo de mídia MIME**
+**_experience > decisioning > contentTypes > MIME Media Type**
 
-   **Título:** Tipo de mídia MIME
-   **Descrição:** Uma restrição para o tipo de mídia dos componentes esperados nessa disposição. Pode haver mais de um tipo de mídia possível para um componente, como um formato de imagem diferente.
-   **Tipo:** sequência de caracteres
+**Título:** Tipo de mídia MIME 
+**Descrição:** Uma restrição para o tipo de mídia dos componentes que é esperada nessa disposição. Pode haver mais de um tipo de mídia possível para um componente, como um formato de imagem diferente.
+**Tipo:** sequência de caracteres
 
 #### _experience > decisioning > Descrição da disposição
 
