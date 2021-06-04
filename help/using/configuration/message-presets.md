@@ -1,9 +1,9 @@
 ---
 title: Criar predefinições de mensagem
 description: Saiba como configurar e monitorar predefinições de mensagens
-source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    * Selecione os aplicativos móveis a serem usados para cada plataforma.
 
-      Para obter mais informações sobre como configurar seu ambiente para enviar notificações por push, consulte [esta seção](../push-configuration.md).
+      Para obter mais informações sobre como configurar seu ambiente para enviar notificações por push, consulte [esta seção](../push-gs.md).
 
 1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Submit]** para confirmar. Você também pode salvar a predefinição de mensagem como rascunho e retomar sua configuração posteriormente.
 
