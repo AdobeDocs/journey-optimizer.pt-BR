@@ -1,7 +1,7 @@
 ---
 title: Criar predefinições de mensagem
 description: Saiba como configurar e monitorar predefinições de mensagens
-source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
+source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -18,6 +18,7 @@ Com [!DNL Journey Optimizer], é possível configurar predefinições de mensage
 > A configuração de predefinições de mensagens é restrita aos Administradores do Jornada. [Saiba mais](../administration/ootb-product-profiles.md#journey-administrator)
 
 
+
 Após configurar as predefinições de mensagem, é possível selecioná-las ao criar mensagens na lista **[!UICONTROL Presets]**.
 
 ## Criar uma predefinição de mensagem {#create-message-preset}
@@ -27,6 +28,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 1. Acesse o menu **[!UICONTROL Channels]** / **[!UICONTROL Message presets]** e clique em **[!UICONTROL Create Message preset]**.
 
    ![](../assets/preset-create.png)
+
 
 1. Insira um nome e uma descrição (opcional) para a predefinição, em seguida, selecione os canais a serem configurados.
 
@@ -80,6 +82,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    Essas verificações incluem testes de deliverability realizados pela equipe de deliverability do Adobe:
 
+
    * Validação de SPF
    * Validação de DKIM
    * Validação de registro MX
@@ -87,6 +90,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
    * Verificação do anfitrião
    * Verificação de pool de IPs
    * Registro A/PTR, verificação de subdomínio t/m/res
+
 
 1. Depois que as verificações são bem-sucedidas, a predefinição de mensagem recebe o status **[!UICONTROL Active]** . Ele está pronto para ser usado para entregar mensagens.
 
