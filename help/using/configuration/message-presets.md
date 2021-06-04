@@ -1,7 +1,7 @@
 ---
 title: Criar predefinições de mensagem
 description: Saiba como configurar e monitorar predefinições de mensagens
-source-git-commit: e76528caa407de9c8794bd2858ffa9bc8673d715
+source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -35,8 +35,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    >[!NOTE]
    >
-   > * Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos e caracteres `_`, `.`, `-`.
-
+   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos e `_` `.` `-` caracteres.
 
 1. Defina as configurações de **email**.
 
@@ -65,7 +64,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    ![](../assets/preset-push.png)
 
-   * Selecione pelo menos uma plataforma: iOS e/ou Android
+   * Selecione pelo menos uma plataforma: **iOS** e/ou **Android**
 
    * Selecione os aplicativos móveis a serem usados para cada plataforma.
 
@@ -77,7 +76,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
 1. Depois que a predefinição de mensagem tiver sido criada, ela será exibida na lista com o status **[!UICONTROL Processing]**.
 
-   Durante essa etapa, várias verificações serão executadas para verificar se foram configuradas corretamente. O tempo de processamento é de aproximadamente 48h a 72h e pode levar de 7 a 10 dias.
+   Durante essa etapa, várias verificações serão executadas para verificar se foram configuradas corretamente. O tempo de processamento é de cerca de **48h-72h** e pode demorar até **7-10 dias**.
 
    Essas verificações incluem testes de deliverability realizados pela equipe de deliverability do Adobe:
 
