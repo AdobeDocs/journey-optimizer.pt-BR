@@ -1,9 +1,9 @@
 ---
 title: Criar predefinições de mensagem
 description: Saiba como configurar e monitorar predefinições de mensagens
-source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
+source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    >[!NOTE]
    >
-   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos e `_` `.` `-` caracteres.
+   > Os nomes devem começar com uma letra (A-Z). Ela só pode conter caracteres alfanuméricos. Você também pode usar caracteres de sublinhado `_`, pontos`.` e hífen `-`.
 
 1. Defina as configurações de **email**.
 
@@ -53,7 +53,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
       >[!NOTE]
       >
-      > * Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos e caracteres `_`, `.`, `-`.
+      > * Os nomes devem começar com uma letra (A-Z). Ela só pode conter caracteres alfanuméricos. Você também pode usar caracteres de sublinhado `_`, pontos`.` e hífen `-`.
          > 
          > 
       * Exceto para o **Responder para (encaminhar email)**, o domínio de endereços de email deve usar o subdomínio selecionado atual.
