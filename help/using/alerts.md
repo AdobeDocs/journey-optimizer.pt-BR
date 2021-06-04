@@ -53,17 +53,17 @@ As configurações e elementos verificados pelo sistema estão listados abaixo. 
 
 **Erros**:
 
-* **[!UICONTROL Subject Line Not Present]**: a linha de assunto do email é obrigatória. Saiba como defini-lo e personalizá-lo em [this section](configure-email.md).
+* **[!UICONTROL Subject Line Not Present]**: a linha de assunto do email é obrigatória. Saiba como defini-lo e personalizá-lo em [this section](create-email.md).
 
    <!--HTML is empty when Amp HTML is present-->
 
-* **[!UICONTROL Push Variant is empty]**: esse erro é exibido quando o corpo ou o título da notificação por push está ausente. Saiba como definir o conteúdo da notificação por push em [this section](configure-push.md).
+* **[!UICONTROL Push Variant is empty]**: esse erro é exibido quando o corpo ou o título da notificação por push está ausente. Saiba como definir o conteúdo da notificação por push em [this section](create-push.md).
 
 * **[!UICONTROL Email Variant is empty]**: esse erro é exibido quando o conteúdo do email não foi configurado. Saiba como criar conteúdo de email em [esta seção](design-emails.md).
 
 * **[!UICONTROL Preset doesn’t exist]**: não é possível publicar sua mensagem se a predefinição selecionada for excluída após a criação da mensagem. Se esse erro ocorrer, selecione outra predefinição na mensagem **[!UICONTROL Properties]**. Saiba mais sobre marca em [esta seção](administration.md#cjm-branding).
 
-* **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: o tamanho da notificação por push não pode exceder 4 KB. Para respeitar esse limite, tente reduzir o uso de imagens ou emojis. Saiba como gerenciar o conteúdo da notificação por push em [esta seção](configure-push.md).
+* **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: o tamanho da notificação por push não pode exceder 4 KB. Para respeitar esse limite, tente reduzir o uso de imagens ou emojis. Saiba como gerenciar o conteúdo da notificação por push em [esta seção](create-push.md).
 
 >[!CAUTION]
 >
