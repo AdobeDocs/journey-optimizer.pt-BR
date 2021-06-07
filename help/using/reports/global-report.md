@@ -1,10 +1,9 @@
 ---
 title: Relatório global
 description: Saiba como usar dados do relatório global
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: c2bbc0335b5f123c1d2b0052edf1b90937011e19
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -12,6 +11,10 @@ ht-degree: 0%
 # Relatório Global {#global-report}
 
 ![](../assets/do-not-localize/badge.png)
+
+>[!NOTE]
+>
+> Se consultas personalizadas forem realizadas por meio de APIs ao usar o serviço Query, espere algum atraso para seus relatórios.
 
 O **[!UICONTROL Global report]** permite medir a eficácia das jornadas e dos deliveries em um período selecionado.
 
