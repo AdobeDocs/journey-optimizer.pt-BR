@@ -1,10 +1,10 @@
 ---
 title: Interface do usuário
 description: Interface do usuário do Journey Optimizer
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+source-git-commit: 539551998d311a4860ad01b1bfe37cc2f77f8030
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 40%
+source-wordcount: '1486'
+ht-degree: 38%
 
 ---
 
@@ -94,22 +94,30 @@ O idioma padrão da interface é determinado pelo idioma preferencial especifica
 
 Para alterar seu idioma:
 
-* Clique em **Editar Preferências** do seu avatar, na parte superior direita.
-* Em seguida, clique em **Visit Adobe Account** para acessar o perfil do Adobe.
-* Selecione a guia **Notifications** na parte superior e clique em **Preferences**.
-* Selecione o idioma preferido e clique em **Save**.
+* Clique em **Preferências** do seu avatar, no canto superior direito.
+   ![](assets/preferences.png)
+* Em seguida, clique no idioma exibido sob seu endereço de email
+* Selecione o idioma preferido e clique em **Save**. Você pode selecionar um segundo idioma caso o componente que está usando não esteja localizado em seu primeiro idioma.
+   ![](assets/select-language.png)
 
->[!NOTE]
->
->Você precisa sair e entrar novamente em [!DNL Journey Optimizer] para aplicar as alterações.
+## Pesquisa
 
-## Pesquisar e filtrar{#section_lgm_hpz_pgb}
+Use a pesquisa do Adobe Experience Cloud no centro da barra superior para localizar ativos, jornadas ou mensagens nas sandboxes. Comece a inserir conteúdo para exibir os principais resultados.
 
-Na maioria das listas, uma barra de pesquisa permite procurar um item.
+![](assets/unified-search.png)
 
-O **[!UICONTROL Filters]** é acessível com um clique no ícone de filtro na parte superior esquerda da lista. O menu de filtro permite filtrar os elementos exibidos de acordo com critérios diferentes. Você pode optar por exibir apenas elementos de um determinado tipo ou status, os que você criou ou os que foram modificados nos últimos 30 dias.
+Pressione **Enter** para acessar todos os resultados e filtrar.
 
-Na lista de jornadas, além de **[!UICONTROL Creation filters]**, você também pode filtrar as jornadas exibidas de acordo com seu status e versão (**[!UICONTROL Status and version filters]**). Você pode optar por exibir somente jornadas que usam um evento, grupo de campos ou ação específica (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou um usuário. Você pode optar, por exemplo, por exibir as versões mais recentes das jornadas ativas que foram publicadas ontem. [Saiba mais](building-journeys/using-the-journey-designer.md).
+![](assets/search-and-filter.png)
+
+
+## Listas de filtros{#section_lgm_hpz_pgb}
+
+Na maioria das listas, uma barra de pesquisa permite procurar um item específico e selecionar critérios de filtragem.
+
+Os filtros podem ser acessados clicando no ícone de filtro na parte superior esquerda da lista. O menu de filtro permite filtrar os elementos exibidos de acordo com critérios diferentes. Você pode optar por exibir apenas elementos de um determinado tipo ou status, os que você criou ou os que foram modificados nos últimos 30 dias. As opções diferem dependendo do contexto.
+
+Na lista de jornadas, você pode filtrar jornadas de acordo com seu status e versão no **[!UICONTROL Status and version filters]**. Você pode optar por exibir somente jornadas que usam um evento, grupo de campos ou ação específico nas **[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**. O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou um usuário. Você pode optar, por exemplo, por exibir as versões mais recentes das jornadas ativas que foram publicadas ontem. [Saiba mais](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -117,7 +125,7 @@ Na lista de jornadas, além de **[!UICONTROL Creation filters]**, você também 
 
 Use as colunas **[!UICONTROL Last update]** e **[!UICONTROL Last update by]** para verificar quando aconteceu a última atualização de suas jornadas e quem as salvou.
 
-![](assets/journey74.png)
+![](assets/filter-journeys.png)
 
 Nos painéis de configuração Evento, Fonte de dados e Ação , o campo **[!UICONTROL Used in]** exibe o número de jornadas que usam esse evento, grupo de campos ou ação em particular. Você pode clicar no botão **[!UICONTROL View journeys]** para exibir a lista de jornadas correspondentes.
 
