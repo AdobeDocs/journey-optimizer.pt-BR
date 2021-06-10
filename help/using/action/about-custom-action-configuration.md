@@ -2,10 +2,9 @@
 solution: Journey Orchestration
 title: Sobre a configuração de ação personalizada
 description: Saiba como configurar uma ação personalizada
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 433d750f7fde36b049bc36be2325627270c154a0
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '578'
 ht-degree: 9%
 
 ---
@@ -70,6 +69,10 @@ Ao configurar uma ação personalizada, você precisa definir os seguintes parâ
 Na seção **[!UICONTROL Message parameters]**, cole um exemplo da carga JSON para enviar ao serviço externo.
 
 ![](../assets/customactionpayloadmessage.png)
+
+>[!NOTE]
+>
+>Os nomes de campo no payload não podem conter um &quot;.&quot; caractere.
 
 Você poderá definir o tipo de parâmetro (por exemplo: string, número inteiro, etc.).
 
