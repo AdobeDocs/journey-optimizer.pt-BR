@@ -6,9 +6,9 @@ user-guide-description: Usar o Journey Optimizer para fornecer experiências con
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: b38f24f074671651a54cc4b5a5de9aa48809cb0a
+source-git-commit: 48094061c6b36016d443f65cd9a882bc57425fff
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '633'
 ht-degree: 79%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 79%
    + [O que é o Journey Optimizer](using/get-started.md)
    + [Início rápido](using/quick-start.md)
    + [Interface do usuário](using/user-interface.md)
-   + [Gerenciar permissões](using/permissions.md)
    + [Problemas conhecidos](using/known-issues.md)
 + Mensagens {#create-messages}
    + [Introdução a mensagens](using/get-started-content.md)
