@@ -1,10 +1,9 @@
 ---
 title: Atualizar perfil
 description: Saiba como usar a atividade Update profile em um jornada
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ce9484905b359900096858e46c05aef09efaa760
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -46,7 +45,11 @@ Para obter mais informações sobre como transformar um perfil existente em um p
 
    ![](../assets/profileupdate2.png)
 
-1. Selecione um conjunto de dados na lista. A seleção do conjunto de dados determinará onde o novo valor do campo de perfil será armazenado.
+1. Selecione um conjunto de dados na lista.
+
+   >[!NOTE]
+   >
+   >A ação **Atualizar perfil** atualiza os dados do perfil em tempo real, mas não atualiza os conjuntos de dados. A seleção do conjunto de dados é necessária, pois o perfil é um registro relacionado a um conjunto de dados.
 
 1. Clique no campo **Value** para definir o valor que deseja usar:
 
