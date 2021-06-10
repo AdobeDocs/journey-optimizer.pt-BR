@@ -4,7 +4,7 @@ description: Início rápido do Journey Optimizer
 source-git-commit: d2928efec66cd42f86868449d0289a23c78dd7c1
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 9%
+ht-degree: 92%
 
 ---
 
@@ -22,23 +22,23 @@ Com base em sua organização, você pode definir vários tipos de usuários e c
 
 Antes de começar a usar o Adobe Journey Optimizer, é necessário:
 
-* **Defina as permissões** do usuário: faça logon no Journey Optimizer e dê acesso aos membros da sua equipe. [Leia mais](../using/administration/permissions.md)
+* **Definir as permissões do usuário**: faça logon no Journey Optimizer e conceda acesso aos membros da equipe. [Leia mais](../using/administration/permissions.md)
 
 * **Configure seus canais e predefinições**: trabalhe com o Adobe para definir configurações de notificação por email e por push e criar suas predefinições. [Leia mais](../using/configuration/message-presets.md)
 
-* **Identificar dados e criar esquema e conjunto de dados**: obtenha seus dados no Adobe Experience Platform, crie um namespace de identidade e um conjunto de dados habilitado para perfis, crie segmentos e perfis de teste. [Leia mais](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)
+* **Identificar dados e criar esquema e conjunto de dados**: obtenha dados na Adobe Experience Platform, crie um namespace de identidade e um conjunto de dados habilitado para perfis, crie segmentos e perfis de teste. [Leia mais](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR)
 
 
 ### Fluxo de uso
 
-Consulte as seguintes seções para configurar sua primeira jornada e enviar mensagens:
+Consulte as seguintes seções para configurar a primeira jornada e enviar mensagens:
 
-* **Criar mensagens**: acesse mensagens, crie ou carregue conteúdo de email e push, adicione mensagens de personalização e visualização. [Leia mais](create-message.md)
+* **Criar mensagens**: acesse mensagens, crie ou carregue conteúdo de email e push, adicione mensagens de personalização e pré-visualização. [Leia mais](create-message.md)
 
 * **Fazer upload de ativos**: use o Adobe Experience Manager Assets Essentials para gerenciar ativos e imagens. [Leia mais](assets-essentials.md)
 
 <!--* **Define audience**: create segments, create events, manage consent and privacy. [Read more](audiences.md)-->
 
-* **Criar jornadas**: enviar mensagens, aproveitar dados contextuais, refinar públicos-alvo, projetar e executar caso de uso de várias etapas. [Leia mais](building-journeys/journey.md)
+* **Criar jornadas**: enviar mensagens, aproveitar dados contextuais, refinar públicos, projetar e executar caso de uso de várias etapas. [Leia mais](building-journeys/journey.md)
 
 * **Monitorar mensagens e jornadas**: controle a execução de mensagens, verifique os relatórios de mensagens e jornadas e acompanhe as métricas de capacidade de entrega. [Leia mais](message-monitoring.md)
