@@ -3,11 +3,10 @@ cloud: Experience Cloud
 mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/journey-optimizer.pt-BR
 hide: true
-translation-type: tm+mt
 source-git-commit: 1b876ac7b9ca937d0b652bd0911dd96e9dae26bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +27,7 @@ O arquivo metadata.md inclui metadados de nível de repositório transmitidos pa
 
 No arquivo TOC.md
 
-| metadados | o que faz |
+| metadata | o que faz |
 |--- |--- |
 | user-guide-title | Usado no cabeçalho do artigo como link |
 | user-guide-url | Abre a página helpx hub |
