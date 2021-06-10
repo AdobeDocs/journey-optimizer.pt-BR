@@ -1,9 +1,8 @@
 ---
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
 source-wordcount: '17'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 # customer-journey-management.en
@@ -15,5 +14,5 @@ Documentação do Journey Optimizer incluindo os seguintes recursos:
 * Jornadas
 * Mensagens, conteúdo
 * Ofertas
-* Admin
+* Administrador
 
