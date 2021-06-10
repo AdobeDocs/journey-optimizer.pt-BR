@@ -4,7 +4,7 @@ description: Introdução à personalização
 source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 6%
+ht-degree: 51%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 6%
 
 Descubra os recursos de personalização do Jornada Optimier para adaptar suas mensagens a cada recipient específico, aproveitando os dados e as informações que você tem sobre ele. Pode ser seu primeiro nome, seus interesses, onde ele vive, o que ele comprou e muito mais.
 
-O Journey Optimizer usa uma sintaxe de personalização simples **inline** com base em Handlebars que permite criar expressões com conteúdo delimitado por chaves duplas **{{{}}**. É possível adicionar várias expressões no mesmo conteúdo ou campo sem restrições. Saiba mais em [Sintaxe de personalização](personalization-syntax.md).
+O Journey Optimizer usa uma sintaxe de personalização simples **em linha** com base em Handlebars que permite criar expressões com conteúdo delimitado por chaves duplas **{{}}**. É possível adicionar várias expressões no mesmo conteúdo ou campo sem restrições. Saiba mais em [Sintaxe de personalização](personalization-syntax.md).
 
-A personalização é baseada nos dados de perfil gerenciados pelo schema **Perfil individual XDM** definido no Adobe Experience Platform. Para obter mais informações, consulte a documentação do [Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
+A personalização é baseada nos dados de perfil gerenciados pelo esquema do **Perfil individual XDM** definido na Adobe Experience Platform. Para obter mais informações, consulte a documentação do [Modelo de dados (XDM) da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
 
 >[!CAUTION]
 >O schema **Perfil individual XDM** é o único schema que você pode usar para personalizar o conteúdo no Journey Optimizer.
