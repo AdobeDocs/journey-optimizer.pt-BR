@@ -2,9 +2,9 @@
 solution: Journey Orchestration
 title: Sobre ações
 description: Saiba como configurar uma ação
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+source-git-commit: 8ae771014808f0bf87087fe3dc926bf94d94495e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '213'
 ht-degree: 73%
 
 ---
@@ -31,8 +31,6 @@ As ações personalizadas permitem configurar a conexão de um sistema de tercei
 >A configuração de ações personalizadas deve ser executada por um **usuário técnico**.
 
 As ações estão disponíveis na paleta esquerda da jornada, na categoria **[!UICONTROL Action]**. Consulte [esta página](../building-journeys/about-journey-activities.md#action-activities).
-
-Na lista de **Ações**, você pode pressionar C para criar uma nova jornada, ação, fonte de dados ou evento. Para obter mais informações sobre atalhos, consulte [esta seção](../user-interface.md#cjm-accessibility).
 
 Para visualizar a lista de ações ou configurar uma nova ação, navegue até **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** no painel de navegação esquerdo. A lista de ações é exibida. Consulte [esta página](../user-interface.md) para obter mais informações sobre a interface.
 
