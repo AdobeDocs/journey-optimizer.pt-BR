@@ -1,11 +1,10 @@
 ---
 title: Gerenciar permissões
 description: Saiba como gerenciar permissões
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '983'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +22,7 @@ Para acessar o [!DNL Journey Optimizer], o usuário deve ser:
 
 * parte de um [!DNL Journey Optimizer] **[!UICONTROL product profile]** associado às permissões [!DNL Journey Optimizer].
 
-* parte de um [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**. Não há uma permissão obrigatória. O usuário deve ter a permissão **[!UICONTROL profile management]** para criar e editar segmentos da plataforma na interface do [!DNL Journey Optimizer]. [Saiba mais sobre o controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#adobe-admin-console).
+* parte de um [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**. Não há uma permissão obrigatória. O usuário deve ter a permissão **[!UICONTROL profile management]** para criar e editar segmentos da plataforma na interface do [!DNL Journey Optimizer]. [Saiba mais sobre o controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=br#adobe-admin-console).
 
 No Admin Console, é possível atribuir um dos seguintes perfis de produto prontos para uso aos usuários:
 
@@ -62,7 +61,7 @@ Os usuários devem estar sempre vinculados a um perfil de produto, permitindo qu
 
 O [!DNL Journey Optimizer] permite criar seus próprios perfis de produtos e atribuir um conjunto de permissões e sandboxes aos usuários. Com perfis de produtos, você pode autorizar ou negar acesso a determinadas funcionalidades ou objetos na interface.
 
-Para obter mais informações sobre como criar e gerenciar sandboxes, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+Para obter mais informações sobre como criar e gerenciar sandboxes, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR).
 
 Para criar um perfil de produto e atribuir um conjunto de permissões e sandboxes:
 
@@ -78,7 +77,7 @@ Para criar um perfil de produto e atribuir um conjunto de permissões e sandboxe
 
    ![](assets/do-not-localize/user_management_1.png)
 
-1. Selecione o novo perfil de produto para iniciar o gerenciamento de permissões. Na guia **[!UICONTROL Users]**, adicione usuários ao perfil de produto. [Saiba como atribuir perfil](permissions.md#assigning-product-profile) de produto.
+1. Selecione o novo perfil de produto para iniciar o gerenciamento de permissões. Na guia **[!UICONTROL Users]**, adicione usuários ao perfil de produto. [Saiba como atribuir perfil de produto](permissions.md#assigning-product-profile).
 
 1. Siga as mesmas etapas descritas acima para adicionar **[!UICONTROL Admin]** ao perfil de produto.
 
@@ -86,7 +85,7 @@ Para criar um perfil de produto e atribuir um conjunto de permissões e sandboxe
 
    ![](assets/do-not-localize/user_management_7.png)
 
-1. Na categoria de permissões **[!UICONTROL Sandboxes]**, escolha as sandboxes que serão atribuídas ao perfil do produto. Em **[!UICONTROL Available Permissions Items]**, clique no ícone de adição (+) para atribuir sandboxes ao perfil. [Saiba mais sobre sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
+1. Na categoria de permissões **[!UICONTROL Sandboxes]**, escolha as sandboxes que serão atribuídas ao perfil do produto. Em **[!UICONTROL Available Permissions Items]**, clique no ícone de adição (+) para atribuir sandboxes ao perfil. [Saiba mais sobre sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR).
 
    ![](assets/do-not-localize/user_management_8.png)
 
@@ -107,7 +106,7 @@ O perfil de produto foi criado e está configurado. Os usuários vinculados a es
 Os perfis de produtos são atribuídos a um conjunto de usuários que compartilham as mesmas permissões em sua organização.
 Você encontra a lista de cada perfil de produto pronto para uso com permissões atribuídas nesta seção.
 
-Para atribuir um perfil de produto a um usuário para acessar o jornada:
+Para atribuir um perfil de produto a um usuário para acessar jornadas:
 
 1. No Admin Console, selecione **[!UICONTROL Journey Orchestration]**.
 
@@ -119,7 +118,7 @@ Para atribuir um perfil de produto a um usuário para acessar o jornada:
 
 1. Clique em **[!UICONTROL Add user]**.
 
-   Você também pode adicionar seu novo usuário a um grupo de usuários para ajustar o conjunto compartilhado de permissões. [Saiba mais sobre grupos](https://helpx.adobe.com/br/enterprise/using/user-groups.html) de usuários.
+   Você também pode adicionar seu novo usuário a um grupo de usuários para ajustar o conjunto compartilhado de permissões. [Saiba mais sobre grupos de usuários](https://helpx.adobe.com/br/enterprise/using/user-groups.html).
 
    ![](assets/do-not-localize/user_management_3.png)
 
@@ -127,15 +126,14 @@ Para atribuir um perfil de produto a um usuário para acessar o jornada:
 
    ![](assets/do-not-localize/user_management_4.png)
 
-Seu usuário deve receber um email de redirecionamento para sua instância .
+O usuário deve receber um email de redirecionamento para sua instância.
 
-## Uso de sandboxes {#sandboxes}
+## Utilização de sandboxes {#sandboxes}
 
 O [!DNL Journey Optimizer] permite particionar sua instância em ambientes virtuais separados chamados de sandboxes.
 As sandboxes são atribuídas por meio de perfis de produto no Admin Console. [Saiba como atribuir sandboxes](permissions.md#create-product-profile).
 
-[!DNL Journey Optimizer] O reflete sandboxes da Adobe Experience Platform que foram criadas para uma determinada organização.
-As sandboxes da Adobe Experience Platform podem ser criadas ou redefinidas pela instância da Adobe Experience Platform. [Saiba mais no guia](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) de usuário de sandbox.
+O [!DNL Journey Optimizer] reflete as sandboxes da Adobe Experience Platform que foram criadas para uma determinada organização. As sandboxes da Adobe Experience Platform podem ser criadas ou redefinidas pela instância da Adobe Experience Platform. [Saiba mais no guia do usuário de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR).
 
 Você pode encontrar o controle do alternador de sandbox na parte superior esquerda da tela. Para alternar a sandbox, clique na sandbox atualmente ativa no alternador e selecione outra sandbox na lista suspensa.
 
@@ -147,7 +145,7 @@ Para configurar a acessibilidade do conteúdo, é necessário atribuir uma pasta
 
 Observe que para que o conteúdo seja sincronizado com a sandbox correta, é necessário seguir a mesma sintaxe da sandbox. Por exemplo, se a sandbox for chamada de desenvolvimento, a pasta compartilhada deverá ter o mesmo nome.
 
-[Saiba como gerenciar pastas](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html) compartilhadas.
+[Saiba como gerenciar pastas compartilhadas](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html).
 
 ## Permissões do Assets Essentials {#assets-permissions}
 
@@ -160,7 +158,7 @@ Cada ativo é salvo em pastas ou subpastas. Você pode optar por compartilhar su
 
    ![](assets/share_media_1.png)
 
-1. Insira o endereço de email da pessoa diferente com a qual você deseja compartilhar acesso à sua pasta.
+1. Insira o endereço de email da pessoa com a qual você deseja compartilhar acesso à sua pasta.
 
 1. Escolha entre o diferente nível de acesso:
 
