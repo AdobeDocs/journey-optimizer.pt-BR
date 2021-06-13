@@ -1,12 +1,12 @@
 ---
-product: experience cloud
+product: Journey Optimizer
 audience: end-user
 user-guide-title: Manual do Journey Optimizer
 user-guide-description: Usar o Journey Optimizer para fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: 48094061c6b36016d443f65cd9a882bc57425fff
+source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 79%
@@ -132,13 +132,13 @@ ht-degree: 79%
       + [Introdução aos eventos de gerenciamento de decisões](using/offers/reports/get-started-events.md)
       + [Informações-chave sobre eventos do Gerenciamento de decisão](using/offers/reports/key-information.md)
       + [Acessar campos XDM de eventos](using/offers/reports/xdm-fields.md)
-   + Exportar o catálogo de ofertas {#export-catalog}
-      + [Introdução à exportação de catálogo de ofertas ](using/offers/export-catalog/get-started-export.md)
+   + Exportar seu catálogo de ofertas {#export-catalog}
+      + [Introdução à exportação do catálogo de ofertas ](using/offers/export-catalog/get-started-export.md)
       + [Acessar o catálogo de ofertas exportado](using/offers/export-catalog/access-dataset.md)
       + [Conjunto de dados de ofertas personalizadas](using/offers/export-catalog/export-offers.md)
       + [Conjunto de dados de decisões](using/offers/export-catalog/export-decisions.md)
       + [Conjunto de dados de inserções](using/offers/export-catalog/export-placements.md)
-      + [Conjunto de dados de substituição](using/offers/export-catalog/export-fallback.md)
+      + [Conjunto de dados substitutos](using/offers/export-catalog/export-fallback.md)
    + Referência da API {#api-reference}
       + [Introdução](using/offers/api-reference/getting-started.md)
       + Criar e gerenciar ofertas usando APIs {#offers-api}
@@ -149,7 +149,7 @@ ht-degree: 79%
             + [Atualizar uma inserção](using/offers/api-reference/offers-api/placements/update.md)
             + [Excluir uma inserção](using/offers/api-reference/offers-api/placements/delete.md)
          + Regras de decisão {#decision-rules}
-            + [Listar regras de decisão](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
+            + [Listar de regras de decisão](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
             + [Pesquisar uma regra de decisão](using/offers/api-reference/offers-api/decision-rules/lookup.md)
             + [Criar uma regra de decisão](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [Atualizar uma regra de decisão](using/offers/api-reference/offers-api/decision-rules/update.md)
@@ -178,7 +178,7 @@ ht-degree: 79%
             + [Criar uma oferta substituta](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [Atualizar uma oferta substituta](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [Excluir uma oferta substituta](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + Criar e gerenciar ofertas usando APIs {#activities-api}
+      + Criar e gerenciar decisões usando APIs {#activities-api}
          + [Listar decisões](using/offers/api-reference/activities-api/activities/activities-list.md)
          + [Pesquisar uma decisão](using/offers/api-reference/activities-api/activities/lookup.md)
          + [Criar uma decisão](using/offers/api-reference/activities-api/activities/create.md)
