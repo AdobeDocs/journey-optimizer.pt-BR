@@ -1,15 +1,18 @@
 ---
-title: Lista de regras de decisão
+title: Listar de regras de decisão
 description: As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a qualificação.
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Ofertas
+topic: Integrações
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '270'
 ht-degree: 5%
 
 ---
 
-# Lista de regras de decisão
+# Listar de regras de decisão
 
 As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a qualificação. É possível exibir uma lista das regras de decisão existentes em um contêiner ao executar uma única solicitação de GET para a API [!DNL Offer Library].
 
