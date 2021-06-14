@@ -1,10 +1,14 @@
 ---
 title: Adobe Experience Manager Assets Essentials
 description: Introdução ao Assets Essentials
-source-git-commit: ba350f4d482238b733594a71441e2d01e536e282
+feature: Visão geral
+topic: Gerenciamento de conteúdo
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 3%
+source-wordcount: '382'
+ht-degree: 5%
 
 ---
 
@@ -48,7 +52,7 @@ Para obter mais informações sobre como fazer upload de ativos, consulte a [doc
 
    ![](assets/media_library_12.png)
 
-## Gerenciar ativos{#manage-asset}
+## Gerenciar assets{#manage-asset}
 
 Você pode gerenciar ativos disponíveis em [!DNL Adobe Experience Manager Assets Essentials]. Clique no ativo para acessar mais opções.
 
