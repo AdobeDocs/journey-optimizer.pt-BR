@@ -1,10 +1,14 @@
 ---
 title: Criar predefinições de mensagem
 description: Saiba como configurar e monitorar predefinições de mensagens
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: Configurações do aplicativo
+topic: Administração
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '668'
+ht-degree: 1%
 
 ---
 
