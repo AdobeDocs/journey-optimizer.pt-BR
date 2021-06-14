@@ -1,10 +1,14 @@
 ---
 title: Conjunto de dados de ofertas personalizadas
 description: Esta seção lista todos os campos usados no conjunto de dados exportado para ofertas.
-source-git-commit: 57b6ffa4136eda80c41344db15d363d3107d4e32
+feature: Ofertas
+topic: Integrações
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '2005'
-ht-degree: 2%
+source-wordcount: '2007'
+ht-degree: 3%
 
 ---
 
