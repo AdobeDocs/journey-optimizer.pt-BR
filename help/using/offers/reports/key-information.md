@@ -1,15 +1,18 @@
 ---
-title: Informações-chave sobre eventos do Gerenciamento de decisões
+title: Informações-chave sobre eventos do Gerenciamento de decisão
 description: Saiba mais sobre as principais informações enviadas com cada evento de Gerenciamento de decisões.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Ofertas
+topic: Integrações
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 75%
+source-wordcount: '135'
+ht-degree: 91%
 
 ---
 
-# Informações-chave dos eventos do Gerenciamento de decisões {#events-key-information}
+# Informações-chave sobre eventos do Gerenciamento de decisão {#events-key-information}
 
 Cada evento enviado quando uma decisão é tomada contém quatro pontos de dados principais que podem ser aproveitados para fins de análise e relatórios.
 
