@@ -1,11 +1,14 @@
 ---
 title: Etapas principais para criar uma oferta
 description: Descubra as principais etapas necessárias para criar uma oferta.
-translation-type: tm+mt
-source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
+feature: Ofertas
+topic: Integrações
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 23%
+source-wordcount: '151'
+ht-degree: 24%
 
 ---
 
@@ -26,9 +29,9 @@ As disposições são contêineres que serão usados para mostrar suas ofertas. 
 
 <table>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">Criar disposições</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">Criar inserções</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">Criar regras de decisão</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">Criar tags</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">Criar o conteúdo e as propriedades das ofertas</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">Criar ofertas de fallback</a></p></td></tr>
+<td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">Criar ofertas substitutas</a></p></td></tr>
 </table>
