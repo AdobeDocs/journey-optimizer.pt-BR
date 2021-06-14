@@ -1,14 +1,18 @@
 ---
-title: Conjunto de dados Disposições
+title: Conjunto de dados de inserções
 description: Esta seção lista todos os campos usados no conjunto de dados exportado para disposições.
-source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
+feature: Ofertas
+topic: Integrações
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 4%
+source-wordcount: '367'
+ht-degree: 5%
 
 ---
 
-# Conjunto de dados de disposições {#placements-dataset}
+# Conjunto de dados de inserções {#placements-dataset}
 
 Cada vez que uma oferta é modificada, o conjunto de dados gerado automaticamente para disposições é atualizado.
 
