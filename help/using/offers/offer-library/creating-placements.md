@@ -1,15 +1,18 @@
 ---
-title: Criar disposições
+title: Criar inserções
 description: Saiba como criar disposições no Adobe Experience Platform.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Ofertas
+topic: Integrações
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '217'
 ht-degree: 17%
 
 ---
 
-# Criar posicionamentos {#creating-placements}
+# Criar inserções {#creating-placements}
 
 Uma disposição ajuda a garantir que o conteúdo de oferta correto seja exibido no local certo dentro da mensagem. Ao adicionar conteúdo a uma oferta, você será solicitado a selecionar uma disposição na qual o conteúdo possa ser exibido.
 
@@ -44,7 +47,7 @@ Para criar uma disposição, siga estas etapas:
 
    ![](../../assets/placement_created.png)
 
-## Tutoriais em vídeo {#video}
+## Tutorial em vídeo {#video}
 
 >[!NOTE]
 >
