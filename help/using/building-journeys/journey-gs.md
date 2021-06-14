@@ -1,14 +1,18 @@
 ---
-title: Introdução ao jornada
-description: Introdução ao jornada
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+title: Introdução a jornadas
+description: Introdução a jornadas
+feature: Jornadas
+topic: Gerenciamento de conteúdo
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 9%
+source-wordcount: '1468'
+ht-degree: 10%
 
 ---
 
-# Introdução ao jornada{#jo-quick-start}
+# Introdução a jornadas{#jo-quick-start}
 
 ![](../assets/do-not-localize/badge.png)
 
