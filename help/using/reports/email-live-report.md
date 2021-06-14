@@ -1,15 +1,18 @@
 ---
 title: Relatório ao vivo por email
 description: Saiba como usar dados do relatório ao vivo do email
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Relatório
+topic: Gerenciamento de conteúdo
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 0%
+source-wordcount: '313'
+ht-degree: 2%
 
 ---
 
-# Enviar relatório ao vivo {#email-live-report}
+# Relatório ao vivo por email {#email-live-report}
 
 ![](../assets/do-not-localize/badge.png)
 
