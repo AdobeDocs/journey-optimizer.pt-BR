@@ -1,15 +1,18 @@
 ---
-title: Criar um posicionamento
+title: Criar uma inserção
 description: As disposições são contêineres usados para mostrar suas ofertas.
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Ofertas
+topic: Integrações
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 10%
+source-wordcount: '133'
+ht-degree: 12%
 
 ---
 
-# Criar um posicionamento
+# Criar uma inserção
 
 Você pode criar uma disposição fazendo uma solicitação POST para a API [!DNL Offer Library], fornecendo a ID do contêiner.
 
