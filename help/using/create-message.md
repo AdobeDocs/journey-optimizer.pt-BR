@@ -1,10 +1,14 @@
 ---
 title: Criar uma mensagem
 description: Saiba como criar uma mensagem
-source-git-commit: d2928efec66cd42f86868449d0289a23c78dd7c1
+feature: Visão geral
+topic: Gerenciamento de conteúdo
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 3%
+source-wordcount: '475'
+ht-degree: 5%
 
 ---
 
