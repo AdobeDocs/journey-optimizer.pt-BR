@@ -1,11 +1,14 @@
 ---
 title: Sobre eventos
 description: Saiba mais sobre eventos
-translation-type: tm+mt
-source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+feature: Eventos
+topic: Administração
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 32%
+source-wordcount: '726'
+ht-degree: 33%
 
 ---
 
@@ -53,7 +56,7 @@ Para eventos unitários, há dois tipos de ID de evento:
 
 Eventos são chamadas POST API. Os eventos são enviados para a Adobe Experience Platform por meio de APIs de assimilação de fluxo. O destino do URL de eventos enviados por meio de APIs de mensagens transacionais é chamado de &quot;inlet&quot;. A carga útil de eventos segue a formatação XDM.
 
-A carga útil contém informações necessárias para que as APIs de assimilação de fluxo funcionem (no cabeçalho) e as informações necessárias para que [!DNL Journey Optimizer] funcione e as informações que serão usadas nas jornadas (no corpo, por exemplo, a quantidade de um carrinho abandonado). Há dois modos para a assimilação de fluxo, autenticados e não autenticados. Para obter detalhes sobre as APIs de assimilação de fluxo, consulte [este link](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+A carga útil contém informações necessárias para que as APIs de assimilação de fluxo funcionem (no cabeçalho) e as informações necessárias para que [!DNL Journey Optimizer] funcione e as informações que serão usadas nas jornadas (no corpo, por exemplo, a quantidade de um carrinho abandonado). Há dois modos para a assimilação de fluxo, autenticados e não autenticados. Para obter detalhes sobre as APIs de assimilação de fluxo, consulte [este link](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR).
 
 Após chegar pelas APIs de assimilação de fluxo contínuo, os eventos fluem para um serviço interno chamado Pipeline e, em seguida, para o Adobe Experience Platform. Se o schema do evento tiver o sinalizador de Serviço de perfil do cliente em tempo real ativado e uma ID de conjunto de dados que também tenha o sinalizador de Perfil do cliente em tempo real, ele fluirá para o Serviço de perfil do cliente em tempo real.
 
