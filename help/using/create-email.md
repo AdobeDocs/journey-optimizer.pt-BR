@@ -1,10 +1,14 @@
 ---
 title: Criar um email
 description: Saiba como criar um email no Journey Optimizer
-source-git-commit: 9daf9c5798e20ab3ba6a1d9a2ecc604d4a960756
+feature: Visão geral
+topic: Gerenciamento de conteúdo
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 5%
+source-wordcount: '138'
+ht-degree: 7%
 
 ---
 
