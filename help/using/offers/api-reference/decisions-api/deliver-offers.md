@@ -1,9 +1,13 @@
 ---
 title: Ofertas de entrega
 description: O Gerenciamento de decisões é uma coleção de serviços e programas de interface do usuário que permite aos profissionais de marketing criar e fornecer experiências de ofertas personalizadas para o usuário final em canais e aplicativos usando lógica de negócios e regras de decisão.
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: Ofertas
+topic: Integrações
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '947'
 ht-degree: 2%
 
 ---
