@@ -1,10 +1,14 @@
 ---
 title: Introdução
 description: Saiba como começar a usar a API da Biblioteca de ofertas para executar operações-chave usando o Mecanismo de gerenciamento de decisões.
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: Ofertas
+topic: Integrações
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 4%
+source-wordcount: '601'
+ht-degree: 6%
 
 ---
 
@@ -45,7 +49,7 @@ Um contêiner é um mecanismo de isolamento para manter diferentes preocupaçõe
 
 Um administrador pode agrupar principais, recursos e permissões de acesso semelhantes em perfis. Isso reduz a carga de gerenciamento e é compatível com [Adobe Admin Console](https://adminconsole.adobe.com/). Você deve ser um administrador de produto do Adobe Experience Platform em sua organização para criar perfis e atribuir usuários a eles. É suficiente criar perfis de produto que correspondam a determinadas permissões em uma única etapa e, em seguida, simplesmente adicionar usuários a esses perfis. Os perfis atuam como grupos aos quais foram concedidas permissões e cada usuário real ou técnico nesse grupo herda essas permissões.
 
-Atribuído privilégios de administrador, você pode conceder ou retirar permissões aos usuários por meio do [Adobe Admin Console](https://adminconsole.adobe.com/). Para obter mais informações, consulte a [Visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html).
+Atribuído privilégios de administrador, você pode conceder ou retirar permissões aos usuários por meio do [Adobe Admin Console](https://adminconsole.adobe.com/). Para obter mais informações, consulte a [Visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR).
 
 ### Listar contêineres acessíveis para usuários e integrações
 
