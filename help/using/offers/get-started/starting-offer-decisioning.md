@@ -1,9 +1,13 @@
 ---
 title: Introdução ao Gerenciamento de decisão
 description: Introdução ao Gerenciamento de decisão. Saiba mais sobre a arquitetura, as ofertas e as decisões, bem como casos de uso comuns que podem ser executados.
-source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
-workflow-type: ht
-source-wordcount: '494'
+feature: Ofertas
+topic: Integrações
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '496'
 ht-degree: 100%
 
 ---
