@@ -1,10 +1,14 @@
 ---
 title: Relatório global de email
 description: Saiba como usar dados do relatório global de email
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: Relatório
+topic: Gerenciamento de conteúdo
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '449'
+ht-degree: 2%
 
 ---
 
