@@ -1,11 +1,14 @@
 ---
 title: Criar decisões
 description: Saiba como criar decisões
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Ofertas
+topic: Integrações
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 3%
+source-wordcount: '576'
+ht-degree: 4%
 
 ---
 
@@ -74,7 +77,7 @@ Selecione a oferta de fallback que será apresentada como um último recurso par
 
 ![](../../assets/add-fallback-offer.png)
 
-## Revise e salve a decisão {#review}
+## Revisar e salvar a decisão {#review}
 
 Se tudo estiver configurado corretamente e sua decisão estiver pronta para ser usada para apresentar ofertas aos clientes, clique em **[!UICONTROL Finish]** e selecione **[!UICONTROL Save and activate]**.
 
@@ -97,7 +100,7 @@ Para obter mais informações sobre delivery de ofertas, consulte estas seções
 >
 >Depois que uma decisão for criada, clique no nome na lista para acessar informações detalhadas e vizualizar todas as alterações feitas nela usando a guia **[!UICONTROL Change log]** (consulte [Offers and decisions changes log](../get-started/user-interface.md#changes-log)).
 
-## Tutoriais em vídeo {#video}
+## Tutorial em vídeo {#video}
 
 >[!NOTE]
 >
