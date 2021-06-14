@@ -1,10 +1,13 @@
 ---
 title: campos de execução de ação de eventos journeyStep
 description: campos de execução de ação de eventos journeyStep
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Relatório
+topic: Gerenciamento de conteúdo
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '323'
 ht-degree: 13%
 
 ---
