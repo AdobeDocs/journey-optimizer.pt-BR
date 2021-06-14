@@ -1,11 +1,14 @@
 ---
 title: Atividade de condição
 description: Saiba mais sobre a atividade de condição
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Jornadas
+topic: Gerenciamento de conteúdo
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 8%
+source-wordcount: '894'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +25,7 @@ Quatro tipos de condições estão disponíveis:
 
 ![](../assets/journey49.png)
 
-## Sobre a atividade de condição {#about_condition}
+## Sobre a atividade Condição {#about_condition}
 
 Ao usar várias condições em uma jornada, você pode definir rótulos para cada uma delas para identificá-las mais facilmente.
 
@@ -50,7 +53,7 @@ Se estiver usando o [Serviço de segmentação do Adobe Experience Platform](htt
 
 >[!NOTE]
 >
->Não é possível executar consultas em séries de tempo (por exemplo, uma lista de compras, cliques anteriores em mensagens) com o editor simples. Para isso, será necessário usar o editor avançado. Consulte [esta página](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html).
+>Não é possível executar consultas em séries de tempo (por exemplo, uma lista de compras, cliques anteriores em mensagens) com o editor simples. Para isso, será necessário usar o editor avançado. Consulte [esta página](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=pt-BR).
 
 A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. O único modo de fazê-la continuar é marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
