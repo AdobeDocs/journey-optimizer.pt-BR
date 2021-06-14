@@ -1,11 +1,14 @@
 ---
 title: Acessar o catálogo de ofertas exportado
 description: Saiba como acessar o catálogo de ofertas no Adobe Experience Platform depois que ele for exportado.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Ofertas
+topic: Integrações
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 9%
+source-wordcount: '112'
+ht-degree: 10%
 
 ---
 
