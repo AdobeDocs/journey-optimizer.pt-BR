@@ -1,10 +1,13 @@
 ---
 title: Criar ofertas personalizadas
 description: Saiba como criar ofertas personalizadas no Adobe Experience Platform.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Ofertas
+topic: Integrações
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '916'
 ht-degree: 4%
 
 ---
@@ -39,7 +42,7 @@ Para criar uma **oferta**, siga estas etapas:
    >
    >A seção **[!UICONTROL Offer attributes]** permite associar pares de valores chave à oferta para fins de relatório e análise.
 
-## Configure as representações da oferta {#representations}
+## Configurar as representações da oferta {#representations}
 
 1. Adicione uma ou várias representações para a oferta usando o botão **[!UICONTROL Add representation]**.
 
@@ -113,7 +116,7 @@ As regras e restrições de elegibilidade permitem definir as condições em que
    * A oferta será considerada somente para usuários que correspondam à regra de decisão &quot;Clientes de fidelidade Gold&quot;.
    * A oferta será apresentada somente uma vez por usuário.
 
-## Revise a oferta {#review}
+## Revisar a oferta {#review}
 
 Depois que as regras e restrições de qualificação tiverem sido definidas, um resumo das propriedades da oferta será exibido. Se tudo estiver configurado corretamente e sua oferta estiver pronta para ser apresentada aos usuários, clique em **[!UICONTROL Finish]** e selecione **[!UICONTROL Save and approve]**.
 
@@ -129,7 +132,7 @@ Agora ele está pronto para ser entregue aos usuários. Você pode selecioná-lo
 
 Depois que uma oferta é criada, você pode clicar no nome na lista para acessar informações detalhadas, bem como monitorar todas as alterações feitas nela usando a guia **[!UICONTROL Change log]** (consulte [Monitoramento de alterações em ofertas e decisões](../get-started/user-interface.md#monitoring-changes)).
 
-## Tutoriais em vídeo {#video}
+## Tutorial em vídeo {#video}
 
 >[!NOTE]
 >
