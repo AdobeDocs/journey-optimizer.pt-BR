@@ -1,10 +1,14 @@
 ---
 title: Alertas em mensagens
 description: Saiba como verificar a validação do conteúdo da mensagem e a solução de problemas
-source-git-commit: 627ffade10a420c6dea7377f6e39360abad44f32
+feature: Jornadas
+topic: Gerenciamento de conteúdo
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 1%
 
 ---
 
