@@ -1,15 +1,18 @@
 ---
-title: Introdução à exportação de catálogo de ofertas
+title: Introdução à exportação do catálogo de ofertas
 description: Saiba como exportar seu catálogo de ofertas como um conjunto de dados.
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Ofertas
+topic: Integrações
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 14%
+source-wordcount: '133'
+ht-degree: 15%
 
 ---
 
-# Introdução à exportação de catálogo de ofertas {#export-catalog}
+# Introdução à exportação do catálogo de ofertas {#export-catalog}
 
 O Journey Optimizer permite exportar automaticamente seu catálogo de ofertas para o Adobe Experience Platform.
 
