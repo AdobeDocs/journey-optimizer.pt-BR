@@ -1,11 +1,14 @@
 ---
 title: Criar coleções
 description: Saiba como organizar ofertas usando coleções.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Ofertas
+topic: Integrações
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '293'
+ht-degree: 4%
 
 ---
 
@@ -51,7 +54,7 @@ Para criar uma coleção, siga estas etapas:
 
    ![](../../assets/collection_created.png)
 
-## Tutoriais em vídeo {#video}
+## Tutorial em vídeo {#video}
 
 >[!NOTE]
 >
