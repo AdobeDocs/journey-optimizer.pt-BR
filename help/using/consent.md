@@ -1,9 +1,13 @@
 ---
 title: Gerenciar recusa
 description: Saiba como gerenciar opções de rejeição e privacidade
-source-git-commit: 738d72e8f3ba204219086f19252220ff833369cb
+feature: Jornadas
+topic: Gerenciamento de conteúdo
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '605'
 ht-degree: 100%
 
 ---
