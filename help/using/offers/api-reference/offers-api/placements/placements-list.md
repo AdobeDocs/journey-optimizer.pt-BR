@@ -1,15 +1,18 @@
 ---
-title: Listar posicionamentos
+title: Listar inserções
 description: As disposições são contêineres usados para mostrar suas ofertas.
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Ofertas
+topic: Integrações
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 11%
+source-wordcount: '291'
+ht-degree: 12%
 
 ---
 
-# Listar posicionamentos
+# Listar inserções
 
 As disposições são contêineres usados para mostrar suas ofertas. Uma disposição ajuda a garantir que o conteúdo de oferta correto seja exibido no local certo dentro da mensagem. Ao adicionar conteúdo a uma oferta, você será solicitado a selecionar uma disposição na qual o conteúdo possa ser exibido.
 
