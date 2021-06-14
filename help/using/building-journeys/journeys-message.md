@@ -1,10 +1,14 @@
 ---
 title: Adicionar uma mensagem em uma jornada
 description: Adicionar uma mensagem em uma jornada
-source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
+feature: Jornadas
+topic: Gerenciamento de conteúdo
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 4%
+source-wordcount: '263'
+ht-degree: 5%
 
 ---
 
