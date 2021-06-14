@@ -1,15 +1,18 @@
 ---
-title: Sobre as atividades do jornada
+title: Sobre as atividades de jornada
 description: Saiba mais sobre as atividades do jornada
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Jornadas
+topic: Gerenciamento de conteúdo
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 25%
+source-wordcount: '265'
+ht-degree: 31%
 
 ---
 
-# Sobre as atividades do jornada {#about-journey-activities}
+# Sobre as atividades de jornada {#about-journey-activities}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -34,7 +37,7 @@ Inicie a jornada arrastando e soltando uma atividade de evento. Você também po
 Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração estão disponíveis:
 
 * [Condição](../building-journeys/condition-activity.md)
-* [End](../building-journeys/end-activity.md)
+* [Fim](../building-journeys/end-activity.md)
 * [Aguardar](../building-journeys/wait-activity.md)
 * [Ler segmento](../building-journeys/read-segment.md)
 
