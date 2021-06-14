@@ -1,9 +1,13 @@
 ---
 title: Conjunto de dados de ofertas de fallback
 description: Esta seção lista todos os campos usados no conjunto de dados exportado para ofertas de fallback.
-source-git-commit: b6364879b2a64ba17f52020f7d27d02459a022b0
+feature: Ofertas
+topic: Integrações
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 3%
 
 ---
