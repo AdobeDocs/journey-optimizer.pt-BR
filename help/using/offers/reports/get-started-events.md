@@ -1,15 +1,18 @@
 ---
-title: Introdução aos eventos de Gerenciamento de decisões
+title: Introdução aos eventos de Gerenciamento de decisão
 description: Saiba como criar relatórios de Gerenciamento de decisões no Adobe Experience Platform.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Ofertas
+topic: Integrações
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 47%
+source-wordcount: '174'
+ht-degree: 58%
 
 ---
 
-# Introdução aos eventos de Gerenciamento de decisões {#monitor-offer-events}
+# Introdução aos eventos de Gerenciamento de decisão {#monitor-offer-events}
 
 Sempre que o Gerenciamento de decisões tomar um determinado perfil, as informações relacionadas a esses eventos são automaticamente enviadas para a Adobe Experience Platform.
 
@@ -27,5 +30,5 @@ Esses conjuntos de dados são baseados no esquema **[!UICONTROL ODE DecisionEven
 
 **Tópicos relacionados:**
 
-* [Informações-chave sobre eventos do Gerenciamento de decisões](../reports/key-information.md)
+* [Informações-chave sobre eventos do Gerenciamento de decisão](../reports/key-information.md)
 * [Acessar campos XDM de eventos](../reports/xdm-fields.md)
