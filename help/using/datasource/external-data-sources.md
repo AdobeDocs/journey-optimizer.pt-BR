@@ -1,11 +1,14 @@
 ---
 title: 'Fontes de dados externas '
 description: Saiba como configurar fontes de dados externas
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Fontes de dados
+topic: Administração
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 98%
+source-wordcount: '1285'
+ht-degree: 99%
 
 ---
 
@@ -69,7 +72,7 @@ Para o conjunto de parâmetros &quot;long/lat&quot;, criamos um grupo de campos 
 * **[!UICONTROL Method]**: selecione o método POST ou GET. No nosso caso, selecionamos o método GET.
 * **[!UICONTROL Cache duration]**: no nosso caso, queremos que os dados de meteorologia sejam armazenados em cache por 10 minutos.
 * **[!UICONTROL Response Payload]**: clique dentro do campo **[!UICONTROL Payload]** e cole um exemplo da carga útil retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API de meteorologia. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. Observe que você pode clicar em **[!UICONTROL Paste a new payload]** se desejar alterar a carga útil transmitida no momento.
-* **[!UICONTROL Dynamic Values]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas jornadas. Consulte [esta página](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html).
+* **[!UICONTROL Dynamic Values]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas jornadas. Consulte [esta página](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=pt-BR).
 * **[!UICONTROL Sent Payload]**: este campo não aparece no nosso exemplo. Ele só estará disponível se você selecionar o método POST. Cole a carga útil que será enviada para o sistema de terceiros.
 
 No caso de uma chamada GET que exige parâmetros, você informa os parâmetros no campo **[!UICONTROL Dynamic Values]** e eles são adicionados automaticamente no final da chamada. No caso de uma chamada POST, é necessário:
