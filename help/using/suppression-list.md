@@ -1,9 +1,13 @@
 ---
 title: Lista de supressão
 description: Saiba o que é a lista de supressão, seu propósito e o que ela inclui.
-source-git-commit: a2eee802f82552e56ced00f93e5e4c8a7b3feb7a
+feature: Capacidade de entrega
+topic: Gerenciamento de conteúdo
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '643'
 ht-degree: 4%
 
 ---
