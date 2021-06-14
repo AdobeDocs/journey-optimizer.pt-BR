@@ -1,14 +1,18 @@
 ---
-title: Introdução à exportação de catálogo de ofertas
+title: Introdução à exportação do catálogo de ofertas
 description: Esta seção lista todos os campos usados no conjunto de dados exportado para decisões.
-source-git-commit: 95be47fbf6944f7e6a743056b6cc29b45ae291fe
+feature: Ofertas
+topic: Integrações
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1552'
 ht-degree: 3%
 
 ---
 
-# Conjunto de dados Decisões {#decisions-dataset}
+# Conjunto de dados de decisões {#decisions-dataset}
 
 Cada vez que uma oferta é modificada, o conjunto de dados gerado automaticamente para decisões (anteriormente conhecido como atividades) é atualizado.
 
