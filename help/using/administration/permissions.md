@@ -12,10 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-source-git-commit: 24e5588fc0d0a32513c0e77ce9082be697ccad3f
+feature: Grupos de controle
+topic: Administração
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 13%
+source-wordcount: '730'
+ht-degree: 17%
 
 ---
 
@@ -61,7 +65,7 @@ Para atribuir um **[!UICONTROL Product profile]**:
 
 1. Siga as mesmas etapas descritas acima para adicionar outros usuários a **[!UICONTROL Product profile]**. Em seguida, clique em **[!UICONTROL Save]**.
 
-Seu usuário deve receber um email de redirecionamento para sua instância .
+O usuário deve receber um email de redirecionamento para sua instância.
 
 Para obter mais informações sobre o gerenciamento de usuários, consulte a [documentação do Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
 
@@ -109,7 +113,7 @@ Se necessário, também é possível criar um novo perfil de produto com permiss
 
 [!DNL Journey Optimizer] O permite criar o seu próprio  **[!UICONTROL Product profiles]** e atribuir um conjunto de permissões e sandboxes aos usuários. Com **[!UICONTROL Product profiles]**, você pode autorizar ou negar acesso a determinadas funcionalidades ou objetos na interface.
 
-Para obter mais informações sobre como criar e gerenciar sandboxes, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+Para obter mais informações sobre como criar e gerenciar sandboxes, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR).
 
 Neste exemplo, criaremos um perfil de produto chamado **Jornada somente leitura**, onde concederemos direitos somente leitura ao recurso Jornada. Os usuários só poderão acessar e visualizar jornadas e não poderão acessar outros recursos, como **[!UICONTROL Decision management]** ou **[!UICONTROL Messages]** em [!DNL Journey Optimizer].
 
@@ -149,7 +153,7 @@ Para criar o **Jornada somente leitura** **[!UICONTROL product profiles]**:
 
    ![](../assets/access_control_13.png)
 
-1. Em **[!UICONTROL Available Permissions Items]**, clique no ícone de adição (+) para atribuir sandboxes ao perfil. [Saiba mais sobre sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
+1. Em **[!UICONTROL Available Permissions Items]**, clique no ícone de adição (+) para atribuir sandboxes ao perfil. [Saiba mais sobre sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR).
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
