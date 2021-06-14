@@ -1,10 +1,13 @@
 ---
 title: Sobre fontes de dados
 description: Saiba como configurar uma fonte de dados
-translation-type: tm+mt
-source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+feature: Fontes de dados
+topic: Administração
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 86%
 
 ---
