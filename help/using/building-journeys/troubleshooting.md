@@ -5,7 +5,7 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 86%
@@ -13,8 +13,6 @@ ht-degree: 86%
 ---
 
 # Solução de problemas{#concept_nlv_bcv_2fb}
-
-![](../assets/do-not-localize/badge.png)
 
 Nesta seção, você descobrirá como solucionar problemas de jornadas antes de testar ou publicar. Todos os controles enumerados a seguir podem ser efetuados quando a jornada estiver em modo de teste ou mesmo ativa. Recomenda-se que todas as verificações a seguir sejam feitas no modo de teste, para então prosseguir com a publicação. Consulte [esta página](../building-journeys/testing-the-journey.md).
 
