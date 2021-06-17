@@ -6,16 +6,14 @@ feature: Ações
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: 10d8cb2002279a7ea679e2be6e9f632d0edcfbb8
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 73%
+source-wordcount: '237'
+ht-degree: 68%
 
 ---
 
 # Sobre ações {#about_actions}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="jo_actions"
@@ -25,6 +23,8 @@ ht-degree: 73%
 As ações são conexões através das quais você fornece experiências personalizadas em tempo real para clientes, como notificações por push, email, SMS ou qualquer outro meio de engajamento digital usado em sua empresa.
 
 [!DNL Journey Optimizer] O vem com capacidade de mensagem integrada. Consulte [esta seção](../get-started-content.md).
+
+Se você tiver o Adobe Campaign v7 ou v8, uma integração estará disponível mediante solicitação. Consulte [esta página](../action/acc-action.md).
 
 Se você estiver usando um sistema de terceiros para enviar mensagens como Epsilon, Facebook, Adobe.io, Firebase, etc., é necessário adicionar e configurar uma ação personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
@@ -36,6 +36,6 @@ As ações personalizadas permitem configurar a conexão de um sistema de tercei
 
 As ações estão disponíveis na paleta esquerda da jornada, na categoria **[!UICONTROL Action]**. Consulte [esta página](../building-journeys/about-journey-activities.md#action-activities).
 
-Para visualizar a lista de ações ou configurar uma nova ação, navegue até **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** no painel de navegação esquerdo. A lista de ações é exibida. Consulte [esta página](../user-interface.md) para obter mais informações sobre a interface.
+Para exibir a lista de ações ou configurar uma nova ação, selecione **[!UICONTROL Configurations]** na seção do menu ADMINISTRATION . Na seção **[!UICONTROL Actions]**, clique em **[!UICONTROL Manage]**. A lista de ações é exibida. Consulte [esta página](../user-interface.md) para obter mais informações sobre a interface.
 
 ![](../assets/custom1.png)
