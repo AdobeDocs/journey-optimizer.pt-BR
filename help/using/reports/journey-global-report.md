@@ -5,16 +5,14 @@ feature: Relatório
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '944'
 ht-degree: 1%
 
 ---
 
-# Relatório global da jornada {#journey-global-report}
-
-![](../assets/do-not-localize/badge.png)
+# Jornada relatório global {#journey-global-report}
 
 O relatório global do Jornada pode ser acessado diretamente da sua jornada com o botão **[!UICONTROL Global report]**.
 
@@ -44,23 +42,27 @@ O widget **[!UICONTROL Journey`s statistics]** exibe os seguintes KPIs:
 
 * **[!UICONTROL Failed individual journey]**: Número total de jornadas individuais que não foram executadas com êxito.
 
-Os widgets **[!UICONTROL Event Performance]** e **[!UICONTROL Top events]** permitem ver qual de seus **[!UICONTROL Events]** foi executada com êxito por meio de gráficos e tabelas.
+![](../assets/global_report_12.png)
 
-**[!UICONTROL Action Performance]** Os  **[!UICONTROL Top Actions]** widgets e representam a ação e os erros mais bem-sucedidos que ocorreram quando  **[!UICONTROL Actions]** foram acionados. A tabela **[!UICONTROL Top Actions]** contém os dados disponíveis para **[!UICONTROL Actions]**, como:
+Os widgets **[!UICONTROL Events received by event]**, **[!UICONTROL Events by origin]** e **[!UICONTROL Top events]** permitem que você veja qual de seus **[!UICONTROL Events]** foi executado com êxito por meio de gráficos e tabelas.
+
+![](../assets/global_report_13.png)
+
+**[!UICONTROL Action Performance]**,  **[!UICONTROL Action Error Reasons]** e  **[!UICONTROL Top Actions]** os widgets representam a ação e os erros mais bem-sucedidos que ocorreram quando  **[!UICONTROL Actions]** foram acionados.
+
+A tabela **[!UICONTROL Top Actions]** contém os dados disponíveis para **[!UICONTROL Actions]**, como:
 
 * **[!UICONTROL Actions successfully executed]**: Número total de jornadas executadas  **[!UICONTROL Actions]** com êxito.
 
 * **[!UICONTROL Error in action]**: Número total de erros que ocorreram no  **[!UICONTROL Actions]**.
-
-O gráfico **[!UICONTROL Error Reasons]** detalha o tipo de erros que ocorreram para **[!UICONTROL Actions]**.
-
-<!--Events by origin-->
 
 ## Guia Email {#email-global}
 
 Na jornada **[!UICONTROL Global report]**, a guia **[!UICONTROL Email]** detalha as informações principais relativas aos deliveries do email enviados na jornada.
 
 Para obter um relatório detalhado sobre um delivery de email específico, consulte a seção [Email global report](#email-global-report) .
+
+![](../assets/global_report_14.png)
 
 O gráfico **[!UICONTROL Email Sending Statistics]** detalha o sucesso do delivery:
 
@@ -92,6 +94,10 @@ O **[!UICONTROL Email - Tracking statistics]** contém os dados disponíveis par
 
 * **[!UICONTROL Click through rate]**: Porcentagem de usuários que interagiram com a jornada.
 
+* **[!UICONTROL Unsubscribe]**: Número de cliques no link unsubscription.
+
+* **[!UICONTROL Spam complaints]**: Número de vezes que uma mensagem foi declarada como spam ou lixo eletrônico.
+
 O gráfico **[!UICONTROL Sending Statistics]** contém os dados disponíveis para emails enviados, como:
 
 * **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
@@ -99,6 +105,8 @@ O gráfico **[!UICONTROL Sending Statistics]** contém os dados disponíveis par
 * **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.
 
 * **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
+
+![](../assets/global_report_15.png)
 
 Os widgets **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** contêm os dados disponíveis relacionados às mensagens devolvidas, como:
 
@@ -110,15 +118,19 @@ Os widgets **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** 
 
 Para obter mais informações sobre devoluções, consulte a página [Supressão list](../suppression-list.md).
 
+![](../assets/global_report_16.png)
+
 O gráfico e a tabela **[!UICONTROL Email - Top Url]** detalham quais URLs do delivery são os mais visitados.
 
-O gráfico e a tabela **[!UICONTROL Email - Best recipient domain]** detalham quais domínios são os mais usados pelos recipients para abrir o email.
+O gráfico e a tabela **[!UICONTROL Email - Top recipient domain]** detalham quais domínios são os mais usados pelos recipients para abrir o email.
 
 ## Guia Empurrar {#push-global}
 
 Na jornada **[!UICONTROL Global report]**, a guia **[!UICONTROL Push]** detalha as informações principais relativas aos deliveries por push enviados na jornada.
 
 Para obter um relatório detalhado sobre um delivery de push específico, consulte esse relatório no [Relatório de push global](#push-global-report).
+
+![](../assets/global_report_17.png)
 
 A tabela **[!UICONTROL Push notification - Sending statistics]** detalha as principais informações relativas às suas notificações por push com gráficos e KPIs:
 
@@ -160,6 +172,10 @@ O gráfico **[!UICONTROL Push notification summary]** contém os dados disponív
 
 * **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
 
+![](../assets/global_report_18.png)
+
 O gráfico e a tabela **[!UICONTROL Error Reasons]** permitem ver qual erro ocorreu durante o delivery.
+
+![](../assets/global_report_19.png)
 
 Os gráficos **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** detalham o sucesso da notificação por push, dependendo do sistema operacional do recipient.
