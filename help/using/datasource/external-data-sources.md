@@ -5,7 +5,7 @@ feature: Fontes de dados
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: c67ed928e048dc163cc58430f7a02475f9a32eb0
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 99%
@@ -13,8 +13,6 @@ ht-degree: 99%
 ---
 
 # Fontes de dados externas {#concept_t2s_kqt_52b}
-
-![](../assets/do-not-localize/badge.png)
 
 Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
 
@@ -31,7 +29,7 @@ A chamada é composta de um URL principal (_https://api.adobeweather.org/weather
 
 Estas são as principais etapas para criar e configurar uma nova fonte de dados externa:
 
-1. Na lista de fontes de dados, clique em **[!UICONTROL Add]** para criar uma nova fonte de dados externa.
+1. Na lista de fontes de dados, clique em **[!UICONTROL Create Data Source]** para criar uma nova fonte de dados externa.
 
    ![](../assets/journey25.png)
 
@@ -58,8 +56,8 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
 
 
    * **[!UICONTROL Type]**: &quot;Chave de API&quot;
-   * **[!UICONTROL Value]**: &quot;1234&quot; (este é o valor da nossa chave de API)
    * **[!UICONTROL Name]**: &quot;appid&quot; (este é o nome do parâmetro da chave de API)
+   * **[!UICONTROL Value]**: &quot;1234&quot; (este é o valor da nossa chave de API)
    * **[!UICONTROL Location]**: &quot;Parâmetro de query&quot; (a chave de API está localizada no URL)
 
    ![](../assets/journey28.png)
@@ -71,8 +69,8 @@ Para o conjunto de parâmetros &quot;long/lat&quot;, criamos um grupo de campos 
 * **[!UICONTROL Used in]**: exibe o número de jornadas que usam um grupo de campos. Você pode clicar no ícone **[!UICONTROL View journeys]** para exibir a lista de jornadas usando esse grupo de campos.
 * **[!UICONTROL Method]**: selecione o método POST ou GET. No nosso caso, selecionamos o método GET.
 * **[!UICONTROL Cache duration]**: no nosso caso, queremos que os dados de meteorologia sejam armazenados em cache por 10 minutos.
-* **[!UICONTROL Response Payload]**: clique dentro do campo **[!UICONTROL Payload]** e cole um exemplo da carga útil retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API de meteorologia. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. Observe que você pode clicar em **[!UICONTROL Paste a new payload]** se desejar alterar a carga útil transmitida no momento.
 * **[!UICONTROL Dynamic Values]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas jornadas. Consulte [esta página](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=pt-BR).
+* **[!UICONTROL Response Payload]**: clique dentro do campo **[!UICONTROL Payload]** e cole um exemplo da carga útil retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API de meteorologia. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. Observe que você pode clicar em **[!UICONTROL Paste a new payload]** se desejar alterar a carga útil transmitida no momento.
 * **[!UICONTROL Sent Payload]**: este campo não aparece no nosso exemplo. Ele só estará disponível se você selecionar o método POST. Cole a carga útil que será enviada para o sistema de terceiros.
 
 No caso de uma chamada GET que exige parâmetros, você informa os parâmetros no campo **[!UICONTROL Dynamic Values]** e eles são adicionados automaticamente no final da chamada. No caso de uma chamada POST, é necessário:
