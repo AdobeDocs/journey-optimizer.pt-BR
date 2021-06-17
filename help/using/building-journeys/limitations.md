@@ -5,44 +5,35 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
 # Limitações {#journey-limitations}
 
-![](../assets/do-not-localize/badge.png)
-
 Estas são limitações relacionadas ao uso de jornadas.
-
-## Limitações da lista de jornadas
-
-* Na lista jornadas, filtros, pesquisas e seleção de coluna são redefinidos na atualização da página.
 
 ## Limitações de ações gerais
 
 * Não há limitação de envio. 
-* Duas tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. 
+* Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. 
 * O evento integrado **Reaction** permite reagir a ações predefinidas (consulte esta [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado. 
-* Não há integração produzida pela Adobe Campaign Classic.
 * Não é possível colocar duas ações em paralelo, é necessário adicioná-las uma após a outra.
 
 ## Limitações da ação de mensagem
-
-* A atividade **Message** não permite usar dados contextuais provenientes da jornada. A personalização das mensagens é executada diretamente ao projetar a mensagem no Journey Optimizer.
 
 * Ao adicionar uma mensagem multicanal, duas mensagens serão enviadas.
 
 ## Limitações das versões do Jornada {#journey-versions-limitations}
 
-* uma jornada que inicia com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação de segmento**.
-* uma jornada que começa com uma atividade **Segment Qualification** em v1 deve sempre começar com uma **Segment Qualification** em outras versões.
-* O segmento e o namespace escolhidos em **Segment qualification** (primeiro nó) não podem ser alterados em novas versões.
+* Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação de segmento**.
+* Uma jornada que começa com uma atividade **Qualificação de segmento** em v1 deve sempre começar com uma **Qualificação de segmento** em outras versões.
+* O segmento e o namespace escolhidos em **Segment Qualification** (primeiro nó) não podem ser alterados em novas versões.
 * A regra de reentrada deve ser a mesma em todas as versões do jornada.
-* Uma jornada que começa com um **Ler segmento** não pode começar com outro evento nas próximas versões.
+* Uma jornada que inicia com um **Ler segmento** não pode começar com outro evento nas próximas versões.
  
 
 ## Limitações de ações personalizadas
