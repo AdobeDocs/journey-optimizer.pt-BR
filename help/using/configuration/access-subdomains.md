@@ -15,7 +15,7 @@ feature: Configurações do aplicativo
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f4b36903b7b961dd20442acaf446e2ce99cc2b31
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 3%
@@ -38,7 +38,7 @@ A coluna **[!UICONTROL Status]** fornece informações sobre o processo de deleg
 
 Para acessar informações detalhadas sobre um subdomínio, abra-o na lista. É possível:
 
-* Recupere o nome do subdomínio (somente leitura) configurado durante o processo de delegação, bem como os URLs gerados (recursos, mirror page, URLs de rastreamento),
+* Recupere o nome do subdomínio (somente leitura) configurado durante o processo de delegação, bem como os URLs gerados (recursos, mirror pages, URLs de rastreamento),
 
 * Adicione um registro TXT de verificação de site do Google ao seu subdomínio para garantir que ele seja verificado (consulte [Adicionar um registro TXT do Google a um subdomínio](google-txt.md)).
 
