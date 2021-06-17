@@ -5,16 +5,14 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '930'
 ht-degree: 10%
 
 ---
 
 # Atividade de condição{#section_e2n_pft_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 Quatro tipos de condições estão disponíveis:
 
@@ -76,6 +74,8 @@ Isso permite executar ações diferentes de acordo com a hora do dia e/ou o dia 
 ## Divisão de porcentagem {#percentage_split}
 
 Essa opção permite dividir aleatoriamente o público-alvo para definir uma ação diferente para cada grupo. Defina o número de divisões e a repartição para cada caminho. O cálculo de divisão é estatístico, pois o sistema não pode prever quantas pessoas fluirão nessa atividade da jornada. Como resultado, a divisão tem uma margem de erro muito baixa. Essa função é baseada em um mecanismo aleatório do Java (consulte esta [página](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+
+No modo de teste, ao alcançar uma divisão, a ramificação superior é sempre escolhida. Você pode reorganizar a posição das ramificações divididas se quiser que o teste escolha um caminho diferente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >
