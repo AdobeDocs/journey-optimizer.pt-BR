@@ -5,16 +5,14 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 3%
+source-wordcount: '967'
+ht-degree: 4%
 
 ---
 
 # Usar um segmento em uma jornada {#segment-trigger-activity}
-
-![](../assets/do-not-localize/badge.png)
 
 ## Sobre a atividade Ler segmento {#about-segment-trigger-actvitiy}
 
@@ -25,10 +23,12 @@ Considere como exemplo o segmento &quot;Abertura e check-out do aplicativo Luma&
 >[!NOTE]
 >
 >Não é possível acionar uma jornada baseada em segmento em um período de tempo menor que 1 hora.
+>
+>O complemento Burst paid permite o envio muito rápido de mensagens de push em grandes volumes para jornadas simples que incluem um segmento de leitura e uma mensagem de push simples. Para saber mais, consulte [esta seção](../building-journeys/journey-gs.md#burst)
 
 ### Configure a atividade {#configuring-segment-trigger-activity}
 
-As etapas para configurar a atividade Read segment são as seguintes:
+As etapas para configurar a atividade Ler segmento são as seguintes:
 
 1. Expanda a categoria **[!UICONTROL Orchestration]** e solte uma atividade **[!UICONTROL Read Segment]** na tela.
 
@@ -101,7 +101,7 @@ Depois que os testes forem concluídos com êxito, você poderá publicar sua jo
 
 ## Direcionamento de público-alvo em jornadas baseadas em segmentos
 
-As jornadas baseadas em segmentos sempre começam com uma atividade **Read segment** para recuperar indivíduos pertencentes a um segmento do Adobe Experience Platform.
+As jornadas baseadas em segmentos sempre começam com uma atividade **Ler segmento** para recuperar indivíduos pertencentes a um segmento do Adobe Experience Platform.
 
 O público-alvo pertencente ao segmento é recuperado uma vez ou regularmente.
 
