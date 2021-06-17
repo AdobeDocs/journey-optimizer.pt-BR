@@ -5,22 +5,20 @@ feature: Relatório
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 8%
+source-wordcount: '447'
+ht-degree: 7%
 
 ---
 
 # Criar relatórios de jornada{#design-jo-reports}
 
-![](../assets/do-not-localize/badge.png)
-
 Além dos [relatórios em tempo real](live-report.md) e dos [recursos de relatórios globais](global-report.md) integrados, [!DNL Journey Optimizer] podem enviar automaticamente os dados de desempenho do jornada para o Adobe Experience Platform, para que possam ser combinados com outros dados para fins de análise.
 
 >[!NOTE]
 >
->Esse recurso não é ativado por padrão em todas as instâncias recém-implantadas. A ativação é feita mediante solicitação.
+>Esse recurso é ativado por padrão em todas as instâncias para eventos de etapas do jornada. Para eventos de etapa de perfil do jornada, a ativação é feita mediante solicitação. Os esquemas e conjuntos de dados criados durante o provisionamento para esse recurso não devem ser alterados.
 
 Por exemplo, você configurou uma jornada que envia vários emails. Esse recurso permite combinar [!DNL Journey Optimizer] dados com dados de evento downstream, como quantas conversões ocorreram, quanto envolvimento aconteceu no site ou quantas transações ocorreram na loja. As informações de jornada podem ser combinadas com dados no Adobe Experience Platform, de outras propriedades digitais ou de propriedades offline, para fornecer uma visão mais abrangente do desempenho.
 
