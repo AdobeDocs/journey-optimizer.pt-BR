@@ -5,26 +5,24 @@ feature: Eventos
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 16%
+source-wordcount: '1656'
+ht-degree: 14%
 
 ---
 
 # Configurar um evento unitário {#configure-an-event}
 
-![](../assets/do-not-localize/badge.png)
-
 Os eventos unitários são vinculados a um perfil específico. Eles podem ser baseados em regras ou gerados pelo sistema.  Leia mais no evento unitário [nesta seção](../event/about-events.md).
 
 Estas são as primeiras etapas para configurar um novo evento:
 
-1. Na seção ADMINISTRATION , navegue até **[!UICONTROL Configurations]** e clique em **[!UICONTROL Events]**. A lista dos eventos é exibida.
+1. Na seção do menu ADMINISTRATION , selecione **[!UICONTROL Configurations]**. Na seção **[!UICONTROL Events]**, clique em **[!UICONTROL Manage]**. A lista dos eventos é exibida.
 
    ![](../assets/jo-event1.png)
 
-1. Clique em **[!UICONTROL Add]** para criar um novo evento. O painel de configuração do evento é aberto no lado direito da tela.
+1. Clique em **[!UICONTROL Create Event]** para criar um novo evento. O painel de configuração do evento é aberto no lado direito da tela.
 
    ![](../assets/jo-event2.png)
 
@@ -36,11 +34,11 @@ Estas são as primeiras etapas para configurar um novo evento:
    >
    >Não use espaços ou caracteres especiais. Não use mais de 30 caracteres.
 
-1. No campo **[!UICONTROL Type]**, escolha **Unitary events**.
+1. No campo **[!UICONTROL Type]**, escolha **Unitário**.
 
    ![](../assets/jo-event3bis.png)
 
-1. No campo **[!UICONTROL Event ID type]**, selecione o tipo de ID de evento que deseja usar: **Baseado em regras** ou **Gerado pelo sistema**. Leia mais sobre tipos de ID de evento em [esta seção](../event/about-events.md#event-id-type).
+1. No campo **[!UICONTROL Event ID type]**, selecione o tipo de ID de evento que deseja usar: **Baseado em Regra** ou **Sistema Gerado**. Leia mais sobre tipos de ID de evento em [esta seção](../event/about-events.md#event-id-type).
 
    ![](../assets/jo-event4.png)
 
@@ -52,22 +50,24 @@ Estas são as primeiras etapas para configurar um novo evento:
 
    >[!NOTE]
    >
-   >Quando você seleciona o tipo **[!UICONTROL System Generated]** , somente os esquemas que têm o tipo eventID mixin estão disponíveis. Quando você seleciona o tipo **[!UICONTROL Rule Based]** , todos os esquemas do Evento de experiência ficam disponíveis.
+   >Quando você seleciona o tipo **[!UICONTROL System Generated]** , somente os esquemas que têm o campo do tipo eventID estão disponíveis. Quando você seleciona o tipo **[!UICONTROL Rule Based]** , todos os esquemas do Evento de experiência ficam disponíveis.
 
 1. Para eventos baseados em regras, clique dentro do campo **[!UICONTROL Event ID condition]**. Usando o editor de expressões simples, defina a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
    ![](../assets/jo-event6.png)
 
    Em nosso exemplo, escrevemos uma condição baseada na cidade do perfil. Isso significa que sempre que o sistema receber um evento que corresponda a essa condição (campo **[!UICONTROL City]** e valor **[!UICONTROL Paris]**), ele o passará para o jornada.
 
+   >[!NOTE]
+   >
+   >O editor de expressão avançado não está disponível ao definir o **[!UICONTROL Event ID condition]**.
+
 1. Adicione um namespace. Esta etapa é opcional, mas é recomendada, pois a adição de namespace permite que você aproveite as informações armazenadas no Serviço de perfil do cliente em tempo real. Ela define o tipo de chave que o evento tem. Consulte [esta seção](../event/about-creating.md#select-the-namespace).
-1. Defina a chave: escolha um campo a partir dos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento. Essa chave é configurada automaticamente (mas ainda pode ser editada) se você selecionar um namespace. Na verdade, o jornada escolhe a chave que deve corresponder ao namespace (por exemplo, se você selecionar um namespace de email, a chave de email será selecionada). Consulte [esta seção](../event/about-creating.md#define-the-event-key).
+1. Defina o identificador do perfil: escolha um campo a partir dos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento. Essa chave é configurada automaticamente (mas ainda pode ser editada) se você selecionar um namespace. Na verdade, o jornada escolhe a chave que deve corresponder ao namespace (por exemplo, se você selecionar um namespace de email, a chave de email será selecionada). Consulte [esta seção](../event/about-creating.md#define-the-event-key).
 
    ![](../assets/jo-event7.png)
 
 1. Para eventos gerados pelo sistema, é possível adicionar uma condição. Esta etapa é opcional. Ela permite que o sistema processe apenas os eventos que atendem à condição. A condição só pode ter como base as informações contidas no evento. Consulte [esta seção](../event/about-creating.md#add-a-condition).
 1. Clique em **[!UICONTROL Save]**.
-
-   ![](../assets/journey7.png)
 
    Agora o evento está configurado e pronto para ser lançado em uma jornada. Etapas de configuração adicionais são necessárias para receber eventos. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
 
@@ -75,7 +75,7 @@ Estas são as primeiras etapas para configurar um novo evento:
 
 A definição de carga permite escolher as informações que o sistema espera receber do evento em sua jornada e a chave para identificar qual pessoa está associada ao evento. A carga é baseada na definição do campo Experience Cloud XDM. Para obter mais informações sobre XDM, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
 
-1. Selecione um esquema XDM na lista e clique no campo **[!UICONTROL Payload]** ou no ícone **[!UICONTROL Edit]**.
+1. Selecione um esquema XDM na lista e clique no campo **[!UICONTROL Fields]** ou no ícone **[!UICONTROL Edit]**.
 
    ![](../assets/journey8.png)
 
@@ -83,23 +83,19 @@ A definição de carga permite escolher as informações que o sistema espera re
 
    >[!NOTE]
    >
-   >Certifique-se de ter adicionado o mixin &quot;orquestration&quot; ao esquema XDM. Isso garantirá que o esquema contenha todas as informações necessárias para funcionar com [!DNL Journey Optimizer].
+   >Para eventos gerados pelo sistema, verifique se você adicionou o grupo de campos &quot;orquestração&quot; ao esquema XDM. Isso garantirá que o esquema contenha todas as informações necessárias para funcionar com [!DNL Journey Optimizer].
 
    ![](../assets/journey9.png)
 
 1. Selecione os campos que você espera receber do evento. Esses são os campos que o usuário empresarial aproveitará na jornada. Eles também devem incluir a chave que será usada para identificar a pessoa associada ao evento (consulte [esta seção](../event/about-creating.md#define-the-event-key)).
 
-   ![](../assets/journey10.png)
-
    >[!NOTE]
    >
    >Para eventos gerados pelo sistema, o campo **[!UICONTROL eventID]** é adicionado automaticamente na lista de campos selecionados para que [!DNL Journey Optimizer] possa identificar o evento. O sistema que envia o evento não deve gerar uma ID, mas deve usar a disponível na pré-visualização de carga. Consulte [esta seção](../event/about-creating.md#preview-the-payload).
 
-1. Quando terminar de selecionar os campos necessários, clique em **[!UICONTROL Save]** ou pressione **[!UICONTROL Enter]**.
+1. Quando terminar de selecionar os campos necessários, clique em **[!UICONTROL Ok]** ou pressione **[!UICONTROL Enter]**.
 
-   ![](../assets/journey11.png)
-
-   O número de campos selecionados aparece no campo **[!UICONTROL Payload]**.
+   O número de campos selecionados aparece no campo **[!UICONTROL Fields]**.
 
    ![](../assets/journey12.png)
 
@@ -109,7 +105,7 @@ O namespace permite definir o tipo de chave usada para identificar a pessoa asso
 
 Você pode usar um dos predefinidos ou criar um novo usando o serviço Namespace de identidade. Consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html).
 
-Se você selecionar um esquema que tenha uma identidade primária, os campos **[!UICONTROL Key]** e **[!UICONTROL Namespace]** serão pré-preenchidos. Se não houver identidade definida, selecionamos _identityMap > id_ como a chave primária. Em seguida, é necessário selecionar um namespace e a chave será pré-preenchida (abaixo do campo **[!UICONTROL Namespace]**) usando _identityMap > id_.
+Se você selecionar um esquema que tenha uma identidade primária, os campos **[!UICONTROL Profiler identifier]** e **[!UICONTROL Namespace]** serão pré-preenchidos. Se não houver identidade definida, selecionamos _identityMap > id_ como a chave primária. Em seguida, é necessário selecionar um namespace e a chave será pré-preenchida (abaixo do campo **[!UICONTROL Namespace]**) usando _identityMap > id_.
 
 Ao selecionar campos, os campos de identidade primários são marcados.
 
@@ -122,13 +118,13 @@ Selecione um namespace na lista suspensa.
 
 Somente um namespace é permitido por jornada. Se você usar vários eventos na mesma jornada, eles precisarão usar o mesmo namespace. Consulte [esta página](../building-journeys/journey.md).
 
-## Definir a chave de evento {#define-the-event-key}
+## Defina o identificador de perfil {#define-the-event-key}
 
 A chave é o campo ou combinação de campos que faz parte dos dados de carga do evento e que permitirá que o sistema identifique a pessoa associada ao evento. A chave pode ser, por exemplo, a ID do Experience Cloud, uma ID do CRM ou um endereço de email.
 
 Se você planeja aproveitar os dados armazenados no banco de dados do Perfil do cliente em tempo real, deve selecionar, como a chave do evento, as informações definidas como a identidade de um perfil no [Serviço de perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
-Isso permitirá que o sistema execute a reconciliação entre o evento e o perfil do indivíduo. Se você selecionar um esquema que tenha uma identidade primária, os campos **[!UICONTROL Key]** e **[!UICONTROL Namespace]** serão pré-preenchidos. Se não houver identidade definida, selecionamos _identityMap > id_ como a chave primária. Em seguida, é necessário selecionar um namespace e a chave será pré-preenchida (abaixo do campo **[!UICONTROL Namespace]**) usando _identityMap > id_.
+Isso permitirá que o sistema execute a reconciliação entre o evento e o perfil do indivíduo. Se você selecionar um esquema que tenha uma identidade primária, os campos **[!UICONTROL Profile identifier]** e **[!UICONTROL Namespace]** serão pré-preenchidos. Se não houver identidade definida, selecionamos _identityMap > id_ como a chave primária. Em seguida, é necessário selecionar um namespace e a chave será pré-preenchida (abaixo do campo **[!UICONTROL Namespace]**) usando _identityMap > id_.
 
 Ao selecionar campos, os campos de identidade primários são marcados.
 
@@ -136,7 +132,7 @@ Ao selecionar campos, os campos de identidade primários são marcados.
 
 Se você precisar usar uma chave diferente, como uma ID do CRM ou um endereço de email, é necessário adicioná-la manualmente:
 
-1. Clique dentro do campo **[!UICONTROL Key]** ou no ícone de lápis.
+1. Clique dentro do campo **[!UICONTROL Profile identifier]** ou no ícone de lápis.
 
    ![](../assets/journey16.png)
 
