@@ -5,18 +5,16 @@ feature: Relatório
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 9%
 
 ---
 
 # campos comuns de eventos de passos de jornada {#sharing-common-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Esse mixin será compartilhado por journeyStepEvent e journeyStepProfileEvent.
+Esse grupo de campos será compartilhado por journeyStepEvent e journeyStepProfileEvent.
 
 Esses são os campos XDM comuns que [!DNL Journey Optimizer] envia para o Adobe Experience Platform. Campos comuns serão enviados para cada etapa que é processada em uma jornada. Campos mais específicos são usados para ações e enriquecimentos personalizados.
 
