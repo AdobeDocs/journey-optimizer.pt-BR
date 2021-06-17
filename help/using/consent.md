@@ -5,16 +5,14 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a1ce789ad78f70bdb2a1387ffb6c60cb40b8b0bb
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '729'
+ht-degree: 85%
 
 ---
 
 # Gerenciar recusa {#consent}
-
-![](assets/do-not-localize/badge.png)
 
 Use o [!DNL Journey Optimizer] para rastrear o consentimento dos recipients para comunicação e entender como eles desejam se envolver com a marca gerenciando suas preferências e assinaturas. <!--Their preferences and subscriptions are handled through Consent management.-->
 
@@ -130,6 +128,20 @@ Corpo da solicitação:
 ```
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
+
+## Cancelar inscrição no link do cabeçalho {#unsubscribe-email}
+
+Se o cliente de email dos recipients suportar a exibição de um link de cancelamento de inscrição no cabeçalho do email, os emails enviados com [!DNL Journey Optimizer] incluirão automaticamente esse link.
+
+Por exemplo, o link de cancelamento de inscrição será exibido assim no Gmail:
+
+![](assets/unsubscribe-email.png)
+
+Dependendo do cliente de email, clicar no link de cancelamento de inscrição no cabeçalho terá um dos seguintes impactos:
+
+* O perfil correspondente é imediatamente rejeitado e essa escolha é atualizada no Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started).
+
+* Ela tem o mesmo efeito de clicar no link de cancelamento de inscrição no conteúdo do email: o recipient é redirecionado para uma landing page, incluindo um botão para confirmar a recusa. Saiba mais sobre o gerenciamento de não participação em [esta seção](#opt-out-management).
 
 ## Encaminhar o gerenciamento de recusa {#push-opt-out-management}
 
