@@ -5,18 +5,16 @@ feature: Relatório
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 7%
 
 ---
 
 # campos de busca de dados de eventos journeyStep {#sharing-fetch-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Esse mixin será compartilhado por journeyStepEvent e journeyStepProfileEvent.
+Esse grupo de campos será compartilhado por journeyStepEvent e journeyStepProfileEvent.
 
 Durante o processamento de uma etapa, podemos ter N busca de dados em grupos de campos.
 
