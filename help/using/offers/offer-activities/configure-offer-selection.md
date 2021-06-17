@@ -5,9 +5,9 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '252'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,9 @@ Por padrão, quando várias ofertas estão qualificadas para uma determinada dis
 
 ![](../../assets/offer-priority.png)
 
-Além disso, o Journey Optimizer permite criar **fórmulas de classificação**. Essas são fórmulas que determinam qual oferta deve ser apresentada primeiro para uma determinada disposição, em vez de considerar as pontuações de prioridade das ofertas. Por exemplo, você pode aumentar a prioridade de todas as ofertas em que a data final seja daqui a menos de 24 horas, ou impulsionar ofertas da categoria &quot;em execução&quot; se o ponto de interesse do perfil estiver &quot;em execução&quot;.
+Além disso, o Journey Optimizer permite criar **fórmulas de classificação**. Essas são fórmulas que determinam qual oferta deve ser apresentada primeiro para uma determinada disposição, em vez de considerar as pontuações de prioridade das ofertas.
+
+Por exemplo, você pode aumentar a prioridade de todas as ofertas em que a data final seja daqui a menos de 24 horas, ou impulsionar ofertas da categoria &quot;em execução&quot; se o ponto de interesse do perfil estiver &quot;em execução&quot;.
 
 Para obter mais informações sobre como criar uma fórmula de classificação, consulte [esta seção](../offer-library/create-ranking-formulas.md).
 
@@ -28,14 +30,18 @@ Para obter mais informações sobre como criar uma fórmula de classificação, 
 
 Depois que uma fórmula de classificação é criada, você pode atribuí-la a uma disposição em uma decisão. Para fazer isso, siga as etapas abaixo:
 
-* Crie uma decisão ou edite uma existente, em seguida, crie as disposições que conterão suas ofertas (consulte [Criar decisões](../offer-activities/create-offer-activities.md)).
+1. Crie uma decisão ou edite uma existente, em seguida, crie as disposições que conterão suas ofertas (consulte [Criar decisões](../offer-activities/create-offer-activities.md)).
 
-* Para cada disposição, selecione **[!UICONTROL Ranking]** na lista suspensa e clique em **[!UICONTROL Add ranking]**.
+1. Para cada disposição, selecione **[!UICONTROL Ranking]** na lista suspensa.
+
+1. Clique em **[!UICONTROL Add ranking]**.
 
    ![](../../assets/offer-activity-ranking.png)
 
-* Selecione a fórmula de classificação desejada e clique em **[!UICONTROL Select]**.
+1. Selecione a fórmula de classificação desejada e clique em **[!UICONTROL Select]**.
 
    ![](../../assets/ranking-selection.png)
 
-A fórmula de classificação agora está associada à disposição. Se várias ofertas forem elegíveis para serem apresentadas nesta disposição, a decisão usará a fórmula de classificação para calcular qual oferta entregar primeiro.
+A fórmula de classificação agora está associada à disposição.
+
+Se várias ofertas forem elegíveis para serem apresentadas nesta disposição, a decisão usará a fórmula de classificação para calcular qual oferta entregar primeiro.
