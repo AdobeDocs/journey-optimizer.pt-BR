@@ -5,7 +5,7 @@ feature: Monitoramento
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # Monitoramento de mensagens {#monitor-message-execution}
-
-![](assets/do-not-localize/badge.png)
 
 Para garantir que suas mensagens sejam executadas, enviadas e entregues com êxito, [!DNL Journey Optimizer] oferece recursos para monitorar as mensagens publicadas e acionadas no momento. Você pode ver o desempenho das mensagens no jornada <!--and APIs--> em tempo real na lista **[!UICONTROL Executions]**.
 
