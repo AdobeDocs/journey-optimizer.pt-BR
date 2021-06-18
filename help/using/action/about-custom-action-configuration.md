@@ -6,23 +6,21 @@ feature: Ações
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '588'
 ht-degree: 9%
 
 ---
 
 # Configurar uma ação {#configure-an-action}
 
-![](../assets/do-not-localize/badge.png)
-
 Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que o jornada envie chamadas de API para um sistema de terceiros, é aqui que você configura a conexão com o jornada. A ação personalizada definida pelos usuários técnicos estará disponível na paleta esquerda da jornada, na categoria **[!UICONTROL Action]** (consulte [esta página](../building-journeys/about-journey-activities.md#action-activities). Estes são alguns exemplos de sistemas aos quais você pode se conectar com ações personalizadas: Epsilon, Facebook, Adobe.io, Firebase, etc.
 As limitações são listadas em [this page](../building-journeys/limitations.md).
 
 Estas são as principais etapas necessárias para configurar uma ação personalizada:
 
-1. Na lista **[!UICONTROL Actions]**, clique em **[!UICONTROL Add]** para criar uma nova ação. O painel de configuração de ação é aberto no lado direito da tela.
+1. Na seção do menu ADMINISTRATION , selecione **[!UICONTROL Configurations]**. Na seção **[!UICONTROL Actions]**, clique em **[!UICONTROL Manage]**. Clique em **[!UICONTROL Create Action]** para criar uma nova ação. O painel de configuração de ação é aberto no lado direito da tela.
 
    ![](../assets/custom2.png)
 
@@ -36,7 +34,7 @@ Estas são as principais etapas necessárias para configurar uma ação personal
 1. O número de jornadas que usam essa ação é exibido no campo **[!UICONTROL Used in]**. Você pode clicar no botão **[!UICONTROL View journeys]** para exibir a lista de jornadas usando esta ação.
 1. Defina os diferentes parâmetros **[!UICONTROL URL Configuration]**. Consulte [esta página](../action/about-custom-action-configuration.md#url-configuration).
 1. Configure a seção **[!UICONTROL Authentication]**. Essa configuração é igual à das fontes de dados.  Consulte [esta seção](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Defina o **[!UICONTROL Message parameters]**. Consulte [esta página](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Defina o **[!UICONTROL Action parameters]**. Consulte [esta página](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Clique em **[!UICONTROL Save]**.
 
    A ação personalizada agora está configurada e pronta para ser usada em suas jornadas. Consulte [esta página](../building-journeys/about-journey-activities.md#action-activities).
@@ -58,7 +56,7 @@ Ao configurar uma ação personalizada, você precisa definir os seguintes parâ
    >Recomendamos o uso de HTTPS por motivos de segurança. Não permitimos o uso de endereços Adobe que não são públicos e o uso de endereços IP.
 
 1. Selecione a chamada **[!UICONTROL Method]**: pode ser **[!UICONTROL POST]** ou **[!UICONTROL PUT]**.
-1. Na seção **[!UICONTROL Headers]**, clique em **[!UICONTROL Add a header field]** para definir um novo par de chave/valor. Eles correspondem aos cabeçalhos HTTP da solicitação feita para o serviço externo. Para excluir pares de chave/valor, coloque o cursor no campo **[!UICONTROL Headers]** e clique no ícone **[!UICONTROL Delete]**.
+1. Na seção **[!UICONTROL Headers]**, clique em **[!UICONTROL Add a header field]** para definir um novo par de chave/valor. Eles correspondem aos cabeçalhos HTTP da solicitação feita para o serviço externo. Para excluir pares de chave/valor, coloque o cursor no campo de cabeçalho e clique no ícone **[!UICONTROL Delete]**.
 
    **[!UICONTROL Content-Type]** e  **[!UICONTROL Charset]** são definidas por padrão e não podem ser excluídas ou substituídas.
 
@@ -66,11 +64,11 @@ Ao configurar uma ação personalizada, você precisa definir os seguintes parâ
    >
    >Os cabeçalhos são validados de acordo com as seguintes [regras de análise](https://tools.ietf.org/html/rfc7230#section-3.2.4).
 
-## Defina os parâmetros da mensagem {#define-the-message-parameters}
+## Defina os parâmetros de ação {#define-the-message-parameters}
 
 ![](../assets/messageparameterssection.png)
 
-Na seção **[!UICONTROL Message parameters]**, cole um exemplo da carga JSON para enviar ao serviço externo.
+Na seção **[!UICONTROL Action parameters]**, cole um exemplo da carga JSON para enviar ao serviço externo.
 
 ![](../assets/customactionpayloadmessage.png)
 
