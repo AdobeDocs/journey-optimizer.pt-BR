@@ -5,16 +5,14 @@ feature: Esquemas
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
 
 # Sobre schemas ExperienceEvent para eventos [!DNL Journey Optimizer]
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] são Eventos de experiência XDM enviados para a Adobe Experience Platform por assimilação de fluxo.
 
@@ -32,7 +30,7 @@ Qualquer esquema XDM que será usado para eventos [!DNL Journey Optimizer] deve 
 
    ![](../assets/schema2.png)
 
-* Para eventos gerados pelo sistema, o esquema deve incluir o mixin Orchestration eventID. [!DNL Journey Optimizer] O usa esse campo para identificar eventos usados em jornadas.
+* Para eventos gerados pelo sistema, o esquema deve incluir o grupo de campos Orchestration eventID . [!DNL Journey Optimizer] O usa esse campo para identificar eventos usados em jornadas.
 
    ![](../assets/schema3.png)
 
