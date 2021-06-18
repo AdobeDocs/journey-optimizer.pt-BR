@@ -6,7 +6,7 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 285942ec51859a4cea888d9974f79f52acf3aabf
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -15,13 +15,11 @@ ht-degree: 2%
 
 # Eventos gerais {#section_ofg_jss_dgb}
 
-![](../assets/do-not-localize/badge.png)
-
 Para esse tipo de evento, você só pode adicionar um rótulo e uma descrição. O restante da configuração não pode ser editado. Ele foi executado pelo usuário técnico . Consulte [esta página](../event/about-events.md).
 
 ![](../assets/general-events.png)
 
-Quando você solta um evento de negócios, ele adiciona automaticamente uma atividade **Read segment**. Para obter mais informações sobre eventos comerciais, consulte [esta seção](../event/about-events.md)
+Quando você solta um evento de negócios, ele adiciona automaticamente uma atividade **Ler segmento**. Para obter mais informações sobre eventos comerciais, consulte [esta seção](../event/about-events.md)
 
 ## Acompanhamento de eventos durante um horário específico {#events-specific-time}
 
@@ -31,11 +29,11 @@ A jornada ouvirá o evento durante o tempo especificado no tempo limite. Se um e
 
 Para configurar um tempo limite para um evento, siga estas etapas:
 
-1. Ative a opção **[!UICONTROL Enable the event timeout]** nas propriedades do evento.
+1. Ative a opção **[!UICONTROL Define the event timeout]** nas propriedades do evento.
 
 1. Especifique a quantidade de tempo que a jornada aguardará pelo evento.
 
-1. Se desejar enviar os indivíduos para um caminho de tempo limite quando nenhum evento for recebido dentro do tempo limite especificado, habilite a opção **[!UICONTROL Set the timeout path]**. Se essa opção não estiver ativada, a jornada terminará para o indivíduo depois que o tempo limite for atingido.
+1. Se desejar enviar os indivíduos para um caminho de tempo limite quando nenhum evento for recebido dentro do tempo limite especificado, habilite a opção **[!UICONTROL Set a timeout path]**. Se essa opção não estiver ativada, a jornada terminará para o indivíduo depois que o tempo limite for atingido.
 
    ![](../assets/event-timeout.png)
 
