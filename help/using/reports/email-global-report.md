@@ -5,16 +5,14 @@ feature: Relatório
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 2%
+source-wordcount: '489'
+ht-degree: 1%
 
 ---
 
-# Relatório global de email {#email-global-report}
-
-![](../assets/do-not-localize/badge.png)
+# Relatório Global de Email {#email-global-report}
 
 O email **[!UICONTROL Global report]** é direcionado apenas a um delivery de email específico.
 
@@ -42,7 +40,21 @@ O email **[!UICONTROL Global report]** é dividido em diferentes widgets detalha
 
 * **[!UICONTROL Spam Complaint Rate]**: Porcentagem de emails que foram marcados como spam por recipients em comparação às mensagens entregues. Para obter mais informações sobre reclamações, consulte esta [página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
 
-* **[!UICONTROL Unsubscribe Rate]**: Número de unsubscription exclusivas em comparação às mensagens entregues.
+* **[!UICONTROL Unsubscribe Rate]**: Porcentagem de cancelamentos de subscrições exclusivas em comparação ao número de mensagens entregues. Esse indicador não depende do número de cliques no link de unsubscription, mas se baseia no número de unsubscriptions iniciadas pelos recipients. Saiba mais sobre unsubscriptions neste [page](../consent.md).
+
+O **[!UICONTROL Email - Tracking statistics]** contém os dados disponíveis para a atividade do recipient para o seu delivery:
+
+* **[!UICONTROL Opens]**: Número de vezes que o delivery foi aberto em um delivery.
+
+* **[!UICONTROL Unique Opens]**: Porcentagem de deliveries abertos.
+
+* **[!UICONTROL Open Rate]**: Número total de emails abertos em comparação ao número de emails entregues.
+
+* **[!UICONTROL Clicks]**: Número de vezes que um conteúdo foi clicado em um email.
+
+* **[!UICONTROL Unique Clicks]**: Número de recipients que clicaram em um conteúdo em um email.
+
+* **[!UICONTROL Click through rate]**: Porcentagem de usuários que interagiram com a jornada.
 
 O gráfico **[!UICONTROL Sending Statistics]** detalha o sucesso do delivery:
 
@@ -51,6 +63,8 @@ O gráfico **[!UICONTROL Sending Statistics]** detalha o sucesso do delivery:
 * **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.
 
 * **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
+
+![](../assets/global_report_5.png)
 
 Os widgets **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** contêm os dados disponíveis relacionados às mensagens devolvidas, como:
 
@@ -62,27 +76,13 @@ Os widgets **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** 
 
 Para obter mais informações sobre devoluções, consulte a página [Supressão list](../suppression-list.md).
 
-![](../assets/global_report_5.png)
-
 O gráfico e a tabela **[!UICONTROL Error Reasons]** permitem ver qual erro ocorreu durante o delivery.
-
-O gráfico e a tabela **[!UICONTROL Email - Best recipient domain]** detalham quais domínios são os mais usados pelos recipients para abrir o email.
 
 ![](../assets/global_report_6.png)
 
-A tabela **[!UICONTROL Email - Tracking statistics]** contém os dados disponíveis para a atividade do recipient para o seu delivery:
+O gráfico e a tabela **[!UICONTROL Email - Top recipient domain]** detalham quais domínios são os mais usados pelos recipients para abrir o email.
 
-* **[!UICONTROL Opens]**: Número de vezes que o delivery foi aberto em um delivery.
-
-* **[!UICONTROL Unique Opens]**: Número de recipients que abriram o delivery.
-
-* **[!UICONTROL Open Rate]**: Porcentagem de mensagens abertas.
-
-* **[!UICONTROL Clicks]**: Número de vezes que um conteúdo foi clicado em um email.
-
-* **[!UICONTROL Unique Clicks]**: Número de recipients que clicaram em um conteúdo em um email.
-
-* **[!UICONTROL Click through rate]**: Porcentagem de cliques em um delivery.
+O gráfico e a tabela **[!UICONTROL Email - Top Url]** detalham quais URLs do delivery são os mais visitados.
 
 O **[!UICONTROL Open vs Click]** identifica a interação dos recipients com o delivery:
 
@@ -90,4 +90,4 @@ O **[!UICONTROL Open vs Click]** identifica a interação dos recipients com o d
 
 * **[!UICONTROL Unique Opens]**: Número de recipients que abriram o delivery.
 
-O gráfico e a tabela **[!UICONTROL Email - Top Url]** detalham quais URLs do delivery são os mais visitados.
+
