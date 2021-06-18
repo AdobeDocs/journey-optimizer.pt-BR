@@ -5,16 +5,14 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
 # Sobre as atividades de jornada {#about-journey-activities}
-
-![](../assets/do-not-localize/badge.png)
 
 Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas.
 
