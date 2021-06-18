@@ -5,16 +5,14 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9ad4eeb11094b384f68eeaa9aa4e8fd7fe3e20c0
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 5%
+source-wordcount: '324'
+ht-degree: 3%
 
 ---
 
 # Use [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
-
-![](assets/do-not-localize/badge.png)
 
 ## Introdução ao [!DNL Assets Essentials] {#get-started-assets-essentials}
 
@@ -22,13 +20,13 @@ ht-degree: 5%
 
 Para obter procedimentos mais detalhados em [!DNL Assets Essentials], consulte a [documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
 
-## Fazer upload de ativos{#add-asset}
+## Fazer upload e inserir ativos{#add-asset}
 
-Para carregar arquivos no [!DNL Assets Essentials], primeiro é necessário procurar ou criar a pasta na qual ele será armazenado.
+Para carregar arquivos no [!DNL Assets Essentials], primeiro é necessário procurar ou criar a pasta na qual ele será armazenado. Você poderá inseri-los no seu conteúdo de email.
 
 Para obter mais informações sobre como fazer upload de ativos, consulte a [documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html).
 
-1. Na página inicial [!DNL Adobe Journey Optimizer], selecione a guia **[!UICONTROL Assets]** para acessar [!DNL Assets Essentials].
+1. Na página inicial [!DNL Adobe Journey Optimizer], selecione a guia **[!UICONTROL Assets]** no menu **[!UICONTROL Content management]** para acessar [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
 
@@ -48,69 +46,24 @@ Para obter mais informações sobre como fazer upload de ativos, consulte a [doc
 
 1. Selecione o arquivo que deseja fazer upload. Quando terminar, clique em **[!UICONTROL Upload]**.
 
-1. Depois que o ativo for carregado, você poderá gerenciá-lo por meio de diferentes opções detalhadas nesta [seção](#manage-asset). Seu ativo também pode ser editado posteriormente com o modo **Editar** de [!DNL Assets Essentials]. Para obter mais informações, consulte esta [página](#edit-assets).
+   Para saber mais sobre como gerenciar os ativos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en).
+
+1. Depois que o ativo é carregado, agora é possível inserir os ativos em uma das mensagens por meio do Designer de email.
+
+   Seu ativo também pode ser editado posteriormente com o modo **Editar** de [!DNL Assets Essentials]. [Saiba mais](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html).
 
    ![](assets/media_library_12.png)
 
-## Gerenciar assets{#manage-asset}
-
-Você pode gerenciar ativos disponíveis em [!DNL Adobe Experience Manager Assets Essentials]. Clique no ativo para acessar mais opções.
-
-![](assets/media_library_12.png)
-
-As seguintes ações estão disponíveis na barra de ferramentas:
-
-![](assets/media_library_4.png)
-
-* **[!UICONTROL Details]** para acessar mais detalhes sobre os ativos.
-* **[!UICONTROL Download]** para iniciar o download direto local.
-* **[!UICONTROL Delete]** para remover o ativo do  [!DNL Assets Essentials].
-* **[!UICONTROL Copy]** para copiar/colar o ativo em outra pasta.
-* **[!UICONTROL Move]** para mover seu ativo para outras pastas.
-
-Para obter mais informações sobre como gerenciar ativos, consulte a [documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-assets.html).
-
-## Inserir ativos nas mensagens {#use-assets}
-
-Você pode inserir ativos em uma de suas mensagens por meio do Designer de email. [Saiba mais sobre design](design-emails.md) de email.
-
-Para inserir um ativo de [!DNL Adobe Experience Manager Assets Essentials]:
-
-1. No Designer de email, selecione **[!UICONTROL Asset picker]** no painel esquerdo.
+1. Em [!DNL Adobe Journey Optimizer], selecione **[!UICONTROL Asset picker]** no painel esquerdo do designer de email.
 
    ![](assets/media_library_5.png)
 
-1. Selecione a pasta de ativos. Você também pode pesquisar seu ativo ou sua pasta na barra de pesquisa.
+1. Selecione a pasta Ativos. Você também pode pesquisar seu ativo ou sua pasta na barra de pesquisa.
 
-1. Arraste e solte seu ativo em um **[!UICONTROL Structure component]**.
+1. Arraste e solte o ativo no seu conteúdo de email.
 
    ![](assets/media_library_6.png)
 
-Você pode personalizar ainda mais seus ativos, como adicionar um link externo ou um texto com o **[!UICONTROL Components settings]**. [Saiba mais sobre configurações de componentes](content-components.md)
+1. Você pode personalizar ainda mais seus ativos, como adicionar um link externo ou um texto com o **[!UICONTROL Components settings]**. [Saiba mais sobre configurações de componentes](content-components.md)
 
-<!--
-
-## Edit and modify assets {#edit-assets}
-
-Your assets can be edited through the **[!UICONTROL Edit mode]** in [!DNL Assets Essentials]. Through this mode, you can crop, resize and rotate your asset. Click the **[!UICONTROL Edit]** button to access the editing mode of your asset.
-
-![](assets/media_library_10.png)
-
-Following actions are available in the toolbar:
-
-![](assets/media_library_11.png)
-
-* **[!UICONTROL Start crop]** to focus on only the content you want in your asset.
-* **[!UICONTROL Rotate left]** to rotate your asset counter-clockwise by 90 degrees.
-* **[!UICONTROL Rotate right]** to rotate your asset clockwise by 90 degrees.
-* **[!UICONTROL Flip vertically]** to vertically mirror your asset.
-* **[!UICONTROL Flip horizontally]** to horizontally mirror your asset.
-* **[!UICONTROL Launch map]** to insert an image map. For more on this, refer to the [Add image maps](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/image-maps.html?lang=en#using) documentation.
-
-## Share assets {#share-assets}
-
-When using the Media library, each asset is saved in folders or sub-folders. You can choose to share your folders and which level of access to assign.
-
-For more information on how to share access to your folders, refer to this page.
-
--->
+   ![](assets/media_library_13.png)
