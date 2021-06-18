@@ -5,18 +5,16 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 62d83f69ebf50f36688e3db956bb3860a468c2d6
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '838'
 ht-degree: 2%
 
 ---
 
-# Caso de uso de jornada
+# Enviar mensagens de vários canais
 
-![](../assets/do-not-localize/badge.png)
-
-Esta seção apresenta um caso de uso que combina um segmento Lido, um evento, eventos de reação e mensagens de email/push.
+Esta seção apresenta um caso de uso que combina um Segmento de leitura, um evento, eventos de reação e mensagens de email/push.
 
 ![](../assets/jo-uc1.png)
 
@@ -44,7 +42,9 @@ Em nossa jornada, queremos aproveitar um segmento específico de clientes. Todos
 
 Para obter mais informações sobre segmentos, consulte esta [página](../segment/about-segments.md).
 
-1. No menu **[!UICONTROL Segments]**, clique em **[!UICONTROL Create segment]**.
+1. Na seção do menu CLIENTE , selecione **[!UICONTROL Segments]**.
+
+1. Clique no botão **[!UICONTROL Create segment]** localizado na parte superior direita da lista de segmentos.
 
 1. No painel **[!UICONTROL Segment properties]**, insira um nome para o segmento.
 
@@ -54,7 +54,7 @@ Para obter mais informações sobre segmentos, consulte esta [página](../segmen
 
    ![](../assets/add-attributes.png)
 
-O segmento agora é criado e pronto para ser usado em sua jornada. Usando uma atividade **Read segment** , é possível fazer com que todos os indivíduos pertencentes ao segmento entrem na jornada.
+O segmento agora é criado e pronto para ser usado em sua jornada. Usando uma atividade **Ler segmento**, você pode fazer com que todos os indivíduos pertencentes ao segmento entrem na jornada.
 
 ### Configurar o evento
 
@@ -62,7 +62,7 @@ Você precisa configurar um evento enviado para sua jornada quando um cliente fi
 
 Para isso, usamos um evento com base em regras. Para obter mais informações sobre eventos, consulte esta [página](../event/about-events.md).
 
-1. Na seção ADMINISTRATION , navegue até **[!UICONTROL Configurations]** e clique em **[!UICONTROL Events]**. Clique em **[!UICONTROL Add]** para criar um novo evento.
+1. Na seção do menu ADMINISTRATION , selecione **[!UICONTROL Configurations]** e clique em **[!UICONTROL Events]**. Clique em **[!UICONTROL Create event]** para criar um novo evento.
 
 1. Insira o nome do evento.
 
@@ -72,7 +72,7 @@ Para isso, usamos um evento com base em regras. Para obter mais informações so
 
 1. No campo **[!UICONTROL Event ID condition]**, defina a condição usada pelo sistema para identificar os eventos que acionam sua jornada. Por exemplo, você pode adicionar um campo `purchaseMessage` e definir a seguinte regra: `purchaseMessage="thank you"`
 
-1. Defina os **[!UICONTROL Namespace]** e **[!UICONTROL Key]**.
+1. Defina os **[!UICONTROL Namespace]** e **[!UICONTROL Profile Identifier]**.
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -94,7 +94,7 @@ Consulte esta [seção](../segment/about-segments.md) para saber como criar e pu
 
 ## Projetar a jornada
 
-1. Inicie a jornada com uma atividade **Read segment** . Selecione o segmento criado anteriormente. Todos os indivíduos pertencentes ao segmento entram na jornada.
+1. Inicie a jornada com uma atividade **Ler segmento** . Selecione o segmento criado anteriormente. Todos os indivíduos pertencentes ao segmento entram na jornada.
 
    ![](../assets/jo-uc4.png)
 
