@@ -5,26 +5,24 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1456'
 ht-degree: 1%
 
 ---
 
 # Projete seu conteúdo de email na interface do usuário {#create-email-content}
 
-![](assets/do-not-localize/badge.png)
-
 Depois que [criar sua mensagem](create-message.md), você pode começar a criar seu conteúdo de email.
 
-1. Na mensagem recém-criada, selecione **[!UICONTROL Email designer]** na seção **[!UICONTROL Edit content]**.
+1. Na mensagem recém-criada, selecione **[!UICONTROL Email designer]** na seção **[!UICONTROL Body]**.
 
    ![](assets/import-html_1.png)
 
 1. Na página inicial do Designer de email, escolha como deseja criar o email com as seguintes opções:
 
-   * Selecione **[!UICONTROL Design from scratch]** para usar os recursos do designer de email para criar seu conteúdo de email.
+   * Selecione **[!UICONTROL Design from scratch]** para usar os recursos do designer de email para criar seu conteúdo de email. [Saiba mais](#design-scratch)
 
    * Selecione **[!UICONTROL Start from template]** para criar seu email a partir de uma lista incorporada de modelos. Observe que não é possível criar outros templates.
 
@@ -34,13 +32,39 @@ Depois que [criar sua mensagem](create-message.md), você pode começar a criar 
 
    ![](assets/email_designer_25.png)
 
-## Design do zero
+## Design do zero {#design-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="Sobre componentes da estrutura"
+>abstract="Os componentes da estrutura definem o layout do email."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns"
+>title="Definição de colunas de email"
+>abstract="O Designer de email permite definir facilmente o layout do email definindo a estrutura da coluna."
+
+O Designer de email permite que você defina facilmente a estrutura do seu email. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode projetar a forma do seu email em segundos.
 
 Para começar a criar seu conteúdo de email com o designer de email, siga as etapas abaixo:
 
 1. Depois de selecionar a opção **[!UICONTROL Design from scratch]** , comece a projetar o conteúdo do email arrastando e soltando **[!UICONTROL Structure components]** para definir o layout do email.
 
+   >[!NOTE]
+   >
+   >Observe que a pilha de colunas não é compatível com todos os programas de email. Quando não houver suporte, as colunas não serão empilhadas.
+   >
+   >Depois de colocado no email, não é possível mover nem remover seus componentes, a menos que já exista um componente de conteúdo ou um fragmento inserido dentro dele.
+
    ![](assets/email_designer_2.png)
+
+1. Adicione quantos **[!UICONTROL Structure components]** forem necessários.
+
+   Selecione o componente **[!UICONTROL n:n column]** para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna, movendo as setas na parte inferior de cada coluna.
+
+   >[!NOTE]
+   >
+   >Cada tamanho de coluna não pode estar abaixo de 10% da largura total do componente de estrutura. Não é possível remover uma coluna que não esteja vazia.
 
 1. No menu suspenso **[!UICONTROL Content components]**, é possível adicionar quantos **[!UICONTROL Content components]** forem necessários no componente de estrutura. [Saiba mais sobre os componentes](content-components.md) de Conteúdo.
 
@@ -64,6 +88,10 @@ Para começar a criar seu conteúdo de email com o designer de email, siga as et
 
    ![](assets/email_designer_7.png)
 
+   >[!NOTE]
+   >
+   >Saiba mais sobre links e rastreamento de mensagens em [this page](message-tracking.md).
+
 1. Se necessário, você pode alternar para o editor de código para personalizar ainda mais seu email clicando em **[!UICONTROL Switch to code editor]** no menu avançado. Para obter mais informações sobre o editor de códigos, consulte esta [página](existing-content.md#import-raw-html-code).
 
    >[!NOTE]
@@ -72,7 +100,9 @@ Para começar a criar seu conteúdo de email com o designer de email, siga as et
 
    ![](assets/email_designer_26.png)
 
-1. Clique em **[!UICONTROL Preview]** para verificar a renderização do email. Você pode escolher a área de trabalho ou exibição móvel.
+1. Clique em **[!UICONTROL Show preview]** para verificar a renderização do email. Você pode escolher a área de trabalho ou exibição móvel.
+
+   Para obter mais informações sobre como visualizar seu email, consulte [Visualizar e testar suas mensagens](preview.md).
 
    ![](assets/email_designer_8.png)
 
@@ -80,42 +110,35 @@ Para começar a criar seu conteúdo de email com o designer de email, siga as et
 
 Seu conteúdo de email agora pode ser usado em uma mensagem. [Saiba como enviar uma mensagem](publish-manage-message.md).
 
-## Defina a estrutura de email {#defining-the-email-structure}
+## Criar a versão de texto de um email {#generate-text-version}
 
->[!CONTEXTUALHELP]
->id="ac_structure_components"
->title="Sobre componentes da estrutura"
->abstract="Os componentes da estrutura definem o layout do email."
+É recomendável criar uma versão de texto do corpo do email, que é usada quando o conteúdo HTML não pode ser exibido.
 
->[!CONTEXTUALHELP]
->id="ac_edition_columns"
->title="Definição de colunas de email"
->abstract="O Designer de email permite definir facilmente o layout do email definindo a estrutura da coluna."
+Por padrão, o Designer de email cria uma versão **[!UICONTROL Plain text]** do email, incluindo campos de personalização. Esta versão é gerada e sincronizada automaticamente com a versão HTML do seu conteúdo.
 
-O Designer de email permite que você defina facilmente a estrutura do seu email. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode projetar a forma do seu email em segundos.
+Se preferir usar um conteúdo diferente para a versão de texto sem formatação, siga as etapas abaixo:
 
-Para editar a estrutura de um email:
+1. No email, selecione a guia **[!UICONTROL Plain text]** .
 
-1. Abra um conteúdo existente ou crie um novo conteúdo de email.
-1. Acesse o **[!UICONTROL Structure components]** selecionando o ícone **+** à esquerda.
-1. Arraste e solte os componentes de estrutura que você precisa para moldar seu email.
-Uma linha azul materializa o local exato dos componentes da estrutura antes de soltá-la. Você pode soltá-lo acima, entre ou abaixo de qualquer outro componente, mas não dentro.
+   ![](assets/text_version_3.png)
 
-   >[!NOTE]
+1. Use a opção **[!UICONTROL Sync with HTML]** para desativar a sincronização.
+
+   ![](assets/text_version_1.png)
+
+1. Clique na marca de seleção para confirmar sua escolha.
+
+   ![](assets/text_version_2.png)
+
+1. Em seguida, você pode editar a versão de texto simples, conforme desejado.
+
+>[!CAUTION]
+>
+>* As alterações feitas na exibição **[!UICONTROL Plain text]** não são refletidas na exibição HTML.
    >
-   >Observe que a pilha de colunas não é compatível com todos os programas de email. Quando não houver suporte, as colunas não serão empilhadas.
    >
-   >Depois de colocado no email, não é possível mover nem remover seus componentes, a menos que já exista um componente de conteúdo ou um fragmento inserido dentro dele.
+* Se você reativar a opção **[!UICONTROL Sync with HTML]** após atualizar o conteúdo de texto simples, suas alterações serão perdidas e substituídas pelo conteúdo de texto gerado da versão HTML.
 
-1. Vários componentes de estrutura compostos de uma ou mais colunas estão disponíveis.
-
-   Selecione o componente **[!UICONTROL n:n column]** para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna, movendo as setas na parte inferior de cada coluna.
-
-   >[!NOTE]
-   >
-   >Cada tamanho de coluna não pode estar abaixo de 10% da largura total do componente de estrutura. Não é possível remover uma coluna que não esteja vazia.
-
-Após definir a estrutura, é possível adicionar fragmentos de conteúdo e componentes ao email.
 
 ## Usar um precabeçalho {#preheader}
 
@@ -124,15 +147,33 @@ Após definir a estrutura, é possível adicionar fragmentos de conteúdo e comp
 >title="Uso de um pré-cabeçalho"
 >abstract="O precabeçalho permite configurar um texto resumido curto que pode ajudá-lo a controlar e personalizar melhor seus emails."
 
-Um precabeçalho é um texto resumido curto que segue a linha de assunto ao visualizar um email do seu cliente de email. O pré-cabeçalho pode ajudá-lo a controlar e personalizar melhor seus emails.
-
-Selecione a caixa de edição **[!UICONTROL Preheader]** e adicione conteúdo.
-
-Você pode adicionar um **[!UICONTROL Content block]**, um **[!UICONTROL Dynamic content]** ou um **[!UICONTROL Personalization fields]** no conteúdo do pré-cabeçalho.
-
 >[!NOTE]
 >
 >Observe que os pré-cabeçalhos não são compatíveis com todos os clientes de email. Quando não é suportado, o precabeçalho não é exibido.
+
+Um precabeçalho é um texto resumido curto que segue a linha de assunto ao visualizar um email do seu cliente de email. O pré-cabeçalho pode ajudá-lo a controlar e personalizar melhor seus emails.
+
+1. No Designer de email, adicione um **[!UICONTROL Structure components]** para começar a projetar seu email.
+
+   ![](assets/preheader_1.png)
+
+1. No painel direito **[!UICONTROL Body settings]**, clique em **Editar** ao lado do campo **[!UICONTROL Preheader]** para adicionar conteúdo.
+
+   ![](assets/preheader_2.png)
+
+1. Adicione o pré-cabeçalho. Você pode personalizá-lo ainda mais clicando no ícone **[!UICONTROL Add personalization]**.
+
+   ![](assets/preheader_3.png)
+
+1. Na janela **[!UICONTROL Edit Personalization]**, é possível adicionar **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** ou **[!UICONTROL Personalization fields]**.
+
+1. Clique em **[!UICONTROL Validate]** para verificar a sintaxe de personalização.
+
+   ![](assets/preheader_4.png)
+
+1. Clique em **[!UICONTROL Save]**.
+
+O pré-cabeçalho agora está configurado para o email.
 
 ## Configurações de plano de fundo {#about-backgrounds}
 
@@ -172,7 +213,7 @@ Abaixo estão as configurações de fundo disponíveis que você pode usar.
 
    Você também pode definir uma imagem de plano de fundo no nível da coluna, mas isso raramente é usado.
 
-### Exemplo: ajuste o alinhamento vertical e o preenchimento {#example--adjusting-vertical-alignment-and-padding}
+## Ajustar o alinhamento vertical e o preenchimento {#adjusting-vertical-alignment-and-padding}
 
 Você deseja ajustar o preenchimento e o alinhamento vertical dentro de um componente de estrutura composto de três colunas. Para fazer isso, siga as etapas abaixo:
 
@@ -220,34 +261,5 @@ Na interface do Designer de email, ao selecionar um elemento e exibir suas confi
 
 O estilo é aplicado ao elemento selecionado. Se os elementos filho não tiverem atributos de estilo específicos definidos, o estilo do elemento pai será herdado.
 
-
-## Criar a versão de texto de um email {#generate-text-version}
-
-É recomendável criar uma versão de texto do corpo do email, que é usada quando o conteúdo HTML não pode ser exibido.
-
-Por padrão, o Designer de email cria uma versão **[!UICONTROL Plain text]** do email, incluindo campos de personalização. Esta versão é gerada e sincronizada automaticamente com a versão HTML do seu conteúdo.
-
-Se preferir usar um conteúdo diferente para a versão de texto sem formatação, siga as etapas abaixo:
-
-1. No email, selecione a guia **[!UICONTROL Plain text]** .
-
-1. Use a opção **[!UICONTROL Sync with HTML]** para desativar a sincronização.
-
-   ![](assets/text_version_1.png)
-
-1. Clique na marca de seleção para confirmar sua escolha.
-
-   ![](assets/text_version_2.png)
-
-1. Em seguida, você pode editar a versão de texto simples, conforme desejado.
-
->[!CAUTION]
->
->* As alterações feitas na exibição **[!UICONTROL Plain text]** não são refletidas na exibição HTML.
-   >
-   >
-* Se você reativar a opção **[!UICONTROL Sync with HTML]** após atualizar o conteúdo de texto simples, suas alterações serão perdidas e substituídas pelo conteúdo de texto gerado da versão HTML.
-
->
 
 
