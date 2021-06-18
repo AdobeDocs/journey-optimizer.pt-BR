@@ -5,16 +5,14 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1414'
 ht-degree: 2%
 
 ---
 
 # Projetar a jornada
-
-![](../assets/do-not-localize/badge.png)
 
 A interface de jornada permite arrastar e soltar facilmente as atividades da paleta na tela. Você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível. Cada atividade tem uma função e um lugar específicos no processo. As atividades são sequenciadas. Quando uma atividade é concluída, o fluxo continua e processa a próxima atividade e assim por diante.
 
@@ -40,7 +38,7 @@ A **tela** é a zona central no designer de jornadas. É nessa zona que você po
 
 O **painel de configuração da atividade** é exibido ao clicar em uma atividade na paleta. Preencha os campos obrigatórios. Clique no ícone **[!UICONTROL Delete]** para excluir a atividade. Clique em **[!UICONTROL Cancel]** para cancelar as modificações ou em **[!UICONTROL Ok]** para confirmar. Para excluir atividades, você também pode selecionar uma atividade (ou várias) e pressionar a tecla Backspace. Pressionar a tecla escape fechará o painel de configuração da atividade.
 
-Por padrão, os campos somente leitura ficam ocultos. Para exibi-los, clique no ícone **Mostrar campos somente leitura** na parte superior esquerda do painel de configuração da atividade.
+Por padrão, os campos somente leitura ficam ocultos. Para mostrar campos somente leitura, clique no ícone **Mostrar campos somente leitura** na parte superior esquerda do painel de configuração da atividade. Essa configuração se aplica a todas as atividades em todas as jornadas.
 
 ![](../assets/journey59bis.png)
 
@@ -54,11 +52,11 @@ Ao projetar sua jornada, a primeira pergunta que você deseja fazer é como os p
 
 **Comece com um evento**: quando uma jornada é definida para ouvir eventos, os indivíduos entram na unidade de jornada  **** em tempo real. As mensagens incluídas na sua jornada são enviadas à pessoa que está fluindo atualmente para a jornada. [Saiba mais sobre eventos](../event/about-events.md)
 
-**Comece com um segmento** Lido: é possível definir a jornada para ouvir os segmentos do Adobe Experience Platform. Nesse caso, todos os indivíduos pertencentes ao segmento especificado entram na jornada. As mensagens incluídas na jornada são enviadas aos indivíduos pertencentes ao segmento. [Saiba mais sobre como ler segmentos](read-segment.md).
+**Comece com um segmento** de leitura: é possível definir a jornada para ouvir os segmentos do Adobe Experience Platform. Nesse caso, todos os indivíduos pertencentes ao segmento especificado entram na jornada. As mensagens incluídas na jornada são enviadas aos indivíduos pertencentes ao segmento. [Saiba mais sobre como ler segmentos](read-segment.md).
 
 ## Definir as próximas etapas
 
-Após o primeiro evento ou segmento Lido, é possível combinar as diferentes atividades para criar cenários de canais em várias etapas. Escolha, na paleta, as etapas necessárias.
+Após o primeiro evento ou Ler segmento, é possível combinar as diferentes atividades para criar cenários de vários canais em várias etapas. Escolha, na paleta, as etapas necessárias.
 
 **Eventos**
 
@@ -68,11 +66,11 @@ Você pode adicionar **vários eventos** em sua jornada, desde que eles usem o m
 
 Você também pode adicionar um evento **Reaction** após uma mensagem para reagir a dados de rastreamento relacionados à mensagem. Isso permite, por exemplo, enviar outra mensagem se o indivíduo tiver aberto a mensagem anterior ou clicado nela. Saiba mais nesta [seção](reaction-events.md).
 
-A atividade de evento **Segment qualification** permite fazer com que os indivíduos insiram ou avancem em uma jornada com base nas entradas e saídas do segmento Adobe Experience Platform. Você pode fazer com que todos os novos clientes prateados insiram uma jornada e enviem mensagens personalizadas. Saiba mais nesta [seção](segment-qualification-events.md).
+A atividade de evento **Qualificação de segmento** permite fazer com que os indivíduos entrem ou avancem em uma jornada com base nas entradas e saídas do segmento Adobe Experience Platform. Você pode fazer com que todos os novos clientes prateados insiram uma jornada e enviem mensagens personalizadas. Saiba mais nesta [seção](segment-qualification-events.md).
 
 **Orquestração**
 
-Nas atividades de orquestração, você encontrará a atividade **Read segment** que permite definir a jornada para acompanhar um segmento do Adobe Experience Platform. [Saiba mais sobre a atividade](read-segment.md) Ler segmento.
+Nas atividades de orquestração, você encontrará a atividade **Ler segmento** que permite definir sua jornada para ouvir um segmento do Adobe Experience Platform. [Saiba mais sobre a atividade](read-segment.md) Ler segmento .
 
 As outras atividades permitem adicionar condições à jornada para definir vários caminhos, definir um tempo de espera antes de executar a próxima atividade ou terminar a jornada. Saiba mais nesta [seção](about-journey-activities.md#orchestration-activities).
 
@@ -92,7 +90,7 @@ Várias atividades (evento, ação, espera) permitem adicionar vários caminhos 
 
 Ao ouvir um evento, recomendamos que você não espere o evento indefinidamente. Não é obrigatório, é apenas uma boa prática. Se quiser ouvir um ou vários eventos somente durante um determinado tempo, você colocará um ou vários eventos e uma atividade de espera em paralelo. Consulte [esta seção](../building-journeys/general-events.md#events-specific-time).
 
-Para excluir o caminho, coloque o cursor nele e clique no ícone **[!UICONTROL Delete arrow]**.
+Para excluir o caminho, coloque o cursor nele e clique no ícone **[!UICONTROL Delete path]**.
 
 ![](../assets/journey42ter.png)
 
