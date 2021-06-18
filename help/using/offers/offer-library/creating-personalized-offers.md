@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 4%
@@ -98,7 +98,7 @@ As regras e restrições de elegibilidade permitem definir as condições em que
 
    ![](../../assets/offer_rule.png)
 
-1. Defina o **[!UICONTROL Priority]** da oferta em comparação com outros se o usuário se qualificar para mais de uma oferta. Quanto mais alta for a prioridade de uma oferta, mais alta será a sua prioridade comparada com outras ofertas
+1. Defina o **[!UICONTROL Priority]** da oferta em comparação com outros se o usuário se qualificar para mais de uma oferta. Quanto mais alta for a prioridade de uma oferta, mais alta será a sua prioridade será comparada com outras ofertas.
 
 1. Especifique o **[!UICONTROL Capping]** da oferta, o que significa o número de vezes que a oferta será apresentada no total entre todos os usuários. Se a oferta tiver sido entregue a todos os usuários o número de vezes que você especificou neste campo, a entrega será interrompida.
 
