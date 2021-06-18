@@ -5,7 +5,7 @@ feature: Personalização
 topic: Personalização
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 10%
@@ -13,8 +13,6 @@ ht-degree: 10%
 ---
 
 # Funções de Agregação {#aggregation}
-
-![](../../assets/do-not-localize/badge.png)
 
 As funções de agregação são usadas para agrupar vários valores para formar um único valor de resumo.
 
