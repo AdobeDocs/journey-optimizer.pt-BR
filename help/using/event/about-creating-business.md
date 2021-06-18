@@ -5,16 +5,14 @@ feature: Eventos
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '821'
 ht-degree: 15%
 
 ---
 
 # Configurar um evento comercial {#configure-a-business-event}
-
-![](../assets/do-not-localize/badge.png)
 
 Ao contrário de eventos unitários, os eventos de negócios não estão vinculados a um perfil específico. O tipo de ID de evento sempre se baseia em regras. Leia mais sobre eventos comerciais em [esta seção](../event/about-events.md).
 
@@ -37,11 +35,11 @@ Os eventos comerciais podem ser &quot;um produto está de volta ao estoque&quot;
 
 Estas são as primeiras etapas para configurar um evento comercial:
 
-1. Na seção ADMINISTRATION , navegue até **[!UICONTROL Configurations]** e clique em **[!UICONTROL Events]**. A lista dos eventos é exibida.
+1. Na seção do menu ADMINISTRATION , selecione **[!UICONTROL Configurations]**. Na seção **[!UICONTROL Events]**, clique em **[!UICONTROL Manage]**. A lista dos eventos é exibida.
 
    ![](../assets/jo-event1.png)
 
-1. Clique em **[!UICONTROL Add]** para criar um novo evento. O painel de configuração do evento é aberto no lado direito da tela.
+1. Clique em **[!UICONTROL Create Event]** para criar um novo evento. O painel de configuração do evento é aberto no lado direito da tela.
 
    ![](../assets/jo-event2.png)
 
@@ -82,7 +80,7 @@ Estas são as primeiras etapas para configurar um evento comercial:
 
 A definição de carga permite escolher as informações que o sistema espera receber do evento em sua jornada e a chave para identificar qual pessoa está associada ao evento. A carga é baseada na definição do campo Experience Cloud XDM. Para obter mais informações sobre XDM, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
 
-1. Selecione um esquema XDM na lista e clique no campo **[!UICONTROL Payload]** ou no ícone **[!UICONTROL Edit]**.
+1. Selecione um esquema XDM na lista e clique no campo **[!UICONTROL Fields]** ou no ícone **[!UICONTROL Edit]**.
 
    ![](../assets/journey8-business.png)
 
@@ -92,11 +90,9 @@ A definição de carga permite escolher as informações que o sistema espera re
 
 1. Selecione os campos que você espera receber do evento. Esses são os campos que o usuário empresarial aproveitará na jornada.
 
-   ![](../assets/journey10-business.png)
-
 1. Quando terminar de selecionar os campos necessários, clique em **[!UICONTROL Save]** ou pressione **[!UICONTROL Enter]**.
 
-   O número de campos selecionados aparece no campo **[!UICONTROL Payload]**.
+   O número de campos selecionados aparece no campo **[!UICONTROL Fields]**.
 
    ![](../assets/journey12-business.png)
 
