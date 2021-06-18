@@ -5,28 +5,26 @@ feature: Relatório
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '242'
 ht-degree: 2%
 
 ---
 
 # Relatório Global {#global-report}
 
-![](../assets/do-not-localize/badge.png)
-
 >[!NOTE]
 >
 > Se consultas personalizadas forem realizadas por meio de APIs ao usar o serviço Query, espere algum atraso para seus relatórios.
 
-O **[!UICONTROL Global report]** permite medir a eficácia das jornadas e dos deliveries em um período selecionado.
+Use o **[!UICONTROL Global report]** para medir o impacto das jornadas e dos deliveries em um período selecionado.
 
-* Se desejar direcionar uma jornada ou deliveries em uma jornada, no menu **[!UICONTROL Journeys]**, acesse a jornada e clique no ícone **[!UICONTROL Global report]**. Em seguida, você pode encontrar a Jornada, o Email e o Push **[!UICONTROL Global report]**.
+* Se desejar direcionar uma jornada ou deliveries no contexto de uma jornada, no menu **[!UICONTROL Journeys]**, acesse a jornada e clique no ícone **[!UICONTROL Global report]**. Em seguida, você pode encontrar a Jornada, o Email e o Push **[!UICONTROL Global report]**.
 
 * Se desejar direcionar um delivery específico, no **[!UICONTROL Global view]** da guia **[!UICONTROL Executions]** das mensagens, selecione **[!UICONTROL Global Report]** no menu avançado do delivery selecionado.
 
-## Modificar painel {#modify-dashboard}
+## Personalizar painel {#modify-dashboard}
 
 Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets ou alterando o período de tempo direcionado. Alterar os widgets só afeta o painel do usuário atual. Outros usuários verão seus próprios painéis ou os definidos por padrão.
 
@@ -36,7 +34,7 @@ Cada painel de relatórios pode ser modificado redimensionando ou removendo widg
 
    ![](../assets/global_report_6.png)
 
-1. click **[!UICONTROL Modify dashboard]**.
+1. click **[!UICONTROL Modify]**.
 
    ![](../assets/global_report_8.png)
 
