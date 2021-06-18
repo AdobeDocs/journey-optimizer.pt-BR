@@ -5,7 +5,7 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 6%
@@ -38,10 +38,11 @@ Neste exemplo, criaremos um segmento para direcionar todos os clientes que moram
 
    Neste exemplo, precisamos confiar nos campos **Attributes** e **Events** para criar o segmento:
 
-   * **Atributos**: perfis que vivem em Atlanta, São Francisco ou Seattle, nascidos após 1980,
-   * **Eventos**: perfis que abriram o aplicativo Luma nos últimos 7 dias, então fizeram uma compra dentro de 2 horas após abrir o aplicativo.
+   * **Atributos**: perfis que vivem em Atlanta, São Francisco ou Seattle, nascidos após 1980
 
       ![](../assets/add-attributes.png)
+
+   * **Eventos**: perfis que abriram o aplicativo Luma nos últimos 7 dias, então fizeram uma compra dentro de 2 horas após abrir o aplicativo.
 
       ![](../assets/add-events.png)
 
