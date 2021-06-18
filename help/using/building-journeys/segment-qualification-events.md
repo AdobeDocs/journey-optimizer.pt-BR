@@ -5,16 +5,14 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8bcc1721f0d451e386b1fa0c5972c783ced01c7f
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 2%
+source-wordcount: '791'
+ht-degree: 1%
 
 ---
 
 # Eventos de qualificação de segmento {#segment-qualification}
-
-![](../assets/do-not-localize/badge.png)
 
 ## Sobre eventos de qualificação de segmento{#about-segment-qualification}
 
@@ -31,7 +29,7 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posterior na j
 >Se o segmento selecionado for transmitido, os indivíduos pertencentes a esse segmento potencialmente entrarão na jornada em tempo real. Se o segmento for em lote, as pessoas recém-qualificadas para esse segmento potencialmente inserirão a jornada quando o cálculo de segmentos for executado no Adobe Experience Platform.
 
 
-1. Expanda a categoria **[!UICONTROL Events]** e solte uma atividade **[!UICONTROL Segment qualification]** na tela.
+1. Expanda a categoria **[!UICONTROL Events]** e solte uma atividade **[!UICONTROL Segment Qualification]** na tela.
 
    ![](../assets/segment5.png)
 
@@ -67,11 +65,13 @@ A carga contém as seguintes informações de contexto, que podem ser usadas em 
 * o carimbo de data e hora da qualificação
 * a id do segmento
 
-Ao usar o editor de expressão em uma condição ou ação que segue uma atividade **[!UICONTROL Segment qualification]**, você tem acesso ao nó **[!UICONTROL SegmentQualification]**. Você pode escolher entre **[!UICONTROL Last qualification time]** e **[!UICONTROL status]** (inserir ou sair).
+Ao usar o editor de expressão em uma condição ou ação que segue uma atividade **[!UICONTROL Segment Qualification]**, você tem acesso ao nó **[!UICONTROL SegmentQualification]**. Você pode escolher entre **[!UICONTROL Last qualification time]** e **[!UICONTROL status]** (inserir ou sair).
 
 Consulte [Atividade de condição](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/segment8.png)
+
+Uma nova jornada que inclui um evento de qualificação de segmento é operacional dez minutos após a publicação. Esse intervalo de tempo corresponde ao intervalo de atualização do cache do serviço dedicado. Portanto, é necessário aguardar dez minutos antes de usar essa jornada.
 
 ## Práticas recomendadas {#best-practices-segments}
 
