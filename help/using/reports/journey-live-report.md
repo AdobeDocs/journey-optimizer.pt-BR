@@ -1,20 +1,18 @@
 ---
-title: Relatório de cinco jornadas
+title: Relatório ao vivo da jornada
 description: Saiba como usar dados do relatório ao vivo do jornada
 feature: Relatório
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 1%
+source-wordcount: '698'
+ht-degree: 2%
 
 ---
 
 # Relatório ao vivo da jornada {#journey-live-report}
-
-![](../assets/do-not-localize/badge.png)
 
 O relatório Jornada ao vivo pode ser acessado diretamente da sua jornada com o botão **[!UICONTROL Live report]**.
 
@@ -64,7 +62,7 @@ Para obter um relatório detalhado sobre um delivery de email específico, consu
 
 ![](../assets/report_email_1.png)
 
-Os widgets **[!UICONTROL Sending Statistics]** e **[!UICONTROL Sending metrics by Email]** detalham o sucesso do delivery:
+O widget **[!UICONTROL Email Sending Statistics]** detalha as principais informações relativas à sua mensagem:
 
 * **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
@@ -72,9 +70,7 @@ Os widgets **[!UICONTROL Sending Statistics]** e **[!UICONTROL Sending metrics b
 
 * **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
 
-<!--Hard and bounce - by Email-->
-
-O gráfico **[!UICONTROL Email summary]** detalha as principais informações relativas à sua mensagem:
+A tabela **[!UICONTROL Sending metrics by Email]** e o gráfico **[!UICONTROL Email Summary]** detalham o sucesso do delivery:
 
 * **[!UICONTROL Sent]**: Número total de envios para o delivery.
 
@@ -88,9 +84,13 @@ O gráfico **[!UICONTROL Email summary]** detalha as principais informações re
 
 * **[!UICONTROL Clicks]**: Número de vezes que um conteúdo foi clicado em um delivery.
 
+* **[!UICONTROL Unsubscribe]**: Número de cliques no link unsubscription.
+
+* **[!UICONTROL Spam complaints]**: Número de vezes que uma mensagem foi declarada como spam ou lixo eletrônico.
+
 ![](../assets/report_email_2.png)
 
-Os widgets **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** contêm os dados disponíveis relacionados às mensagens devolvidas, como:
+Os widgets **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** e **[!UICONTROL Hard and bounce - by Email]** contêm os dados disponíveis relacionados às mensagens devolvidas, como:
 
 * **[!UICONTROL Hard bounce]**: O número total de erros permanentes, como um endereço de email incorreto. Isso envolve uma mensagem de erro que declara explicitamente que o endereço é inválido, como Unknown user.
 
