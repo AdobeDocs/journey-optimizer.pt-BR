@@ -15,7 +15,7 @@ feature: Configurações do aplicativo
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Com registros PTR, os servidores de email de recebimento podem verificar a auten
 
 ## Acesse os registros PTR dos subdomínios
 
-Depois que um subdomínio é delegado no Gerenciamento de jornada do cliente, um registro PTR é criado automaticamente e associado a esse subdomínio. Você pode acessá-lo no menu **[!UICONTROL Channels]** / **[!UICONTROL PTR records]**.
+Depois que um subdomínio é delegado no Gerenciamento de jornada do cliente, um registro PTR é criado automaticamente e associado a esse subdomínio. Você pode acessá-lo no menu **[!UICONTROL Channels]** `>` **[!UICONTROL PTR records]**.
 
 ![](../assets/ptr-records.png)
 
