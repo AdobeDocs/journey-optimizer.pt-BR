@@ -5,7 +5,7 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 9%
@@ -13,8 +13,6 @@ ht-degree: 9%
 ---
 
 # Usar ações personalizadas {#section_f2c_hbg_nhb}
-
-![](../assets/do-not-localize/badge.png)
 
 Se estiver usando uma ação personalizada, você verá, em somente leitura, os parâmetros **[!UICONTROL URL Configuration]** e **[!UICONTROL Authentication]** definidos na tela de configuração da ação (consulte [esta página](../action/about-custom-action-configuration.md)).
 
