@@ -5,16 +5,14 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1620'
 ht-degree: 3%
 
 ---
 
 # Testar a jornada{#testing_the_journey}
-
-![](../assets/do-not-localize/badge.png)
 
 Antes de poder testar sua jornada, você deve resolver todos os erros, se houver. Consulte [esta seção](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb).
 
@@ -61,6 +59,7 @@ Para usar o modo de teste, siga estas etapas:
 * Quando você desativa o modo de teste, ele esvazia as jornadas de todas as pessoas que entraram no modo no passado ou que estão nele no momento. Também limpa o relatório.
 * Você pode ativar/desativar o modo de teste quantas vezes forem necessárias.
 * Não é possível modificar a jornada quando o modo de teste é ativado. Quando estiver no modo de teste, você pode publicar diretamente a jornada, não é necessário desativar o modo de teste antes.
+* Ao alcançar uma divisão, a ramificação superior é sempre escolhida. Você pode reorganizar a posição das ramificações divididas se quiser que o teste escolha um caminho diferente.
 
 ## Acionar seus eventos {#firing_events}
 
