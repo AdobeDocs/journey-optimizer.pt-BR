@@ -5,7 +5,7 @@ feature: Personalização
 topic: Personalização
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 3%
@@ -14,8 +14,6 @@ ht-degree: 3%
 
 
 # Idioma de modelo e funções auxiliares {#functionsL}
-
-![](../../assets/do-not-localize/badge.png)
 
 Use a linguagem de modelo [!DNL Journey Optimizer] para executar operações em dados, como cálculos, formatação de dados ou conversões, condições e manipulá-las no contexto da personalização. Saiba mais sobre as diretrizes da sintaxe de personalização em [this page](../personalization-syntax.md).
 
