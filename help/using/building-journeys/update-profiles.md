@@ -1,11 +1,11 @@
 ---
 title: Atualizar perfil
-description: Saiba como usar a atividade Update profile em um jornada
+description: Saiba como usar a atividade Atualizar perfil em uma jornada
 feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -14,9 +14,7 @@ ht-degree: 1%
 
 # Atualizar perfil {#update-profile}
 
-![](../assets/do-not-localize/badge.png)
-
-A atividade de ação **[!UICONTROL Update profile]** permite atualizar um perfil do Adobe Experience Platform existente com informações provenientes do evento, uma fonte de dados ou usando um valor específico.
+A atividade de ação **[!UICONTROL Update Profile]** permite atualizar um perfil do Adobe Experience Platform existente com informações provenientes do evento, uma fonte de dados ou usando um valor específico.
 
 ## Observações importantes
 
@@ -31,7 +29,7 @@ A atividade de ação **[!UICONTROL Update profile]** permite atualizar um perfi
 
 No modo de teste, a atualização do perfil não será simulada. A atualização será executada no perfil de teste.
 
-Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. Na Adobe Experience Platform, você pode atualizar atributos de perfil por meio de uma importação de arquivo csv ou chamadas de API. Um método mais simples é usar uma atividade de ação **Update profile** e alterar o campo booleano do perfil de teste de false para true.
+Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. Na Adobe Experience Platform, você pode atualizar atributos de perfil por meio de uma importação de arquivo csv ou chamadas de API. Um método mais simples é usar uma atividade de ação **Atualizar perfil** e alterar o campo booleano do perfil de teste de false para true.
 
 Para obter mais informações sobre como transformar um perfil existente em um perfil de teste, consulte esta [seção](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
 
@@ -39,13 +37,13 @@ Para obter mais informações sobre como transformar um perfil existente em um p
 
 1. Crie a jornada começando com um evento. Consulte esta [seção](../building-journeys/journey.md).
 
-1. Na seção **Action** da paleta, solte a atividade **Update profile** na tela.
+1. Na seção **Action** da paleta, solte a atividade **Atualizar perfil** na tela.
 
    ![](../assets/profileupdate0.png)
 
 1. Selecione um schema na lista.
 
-1. Clique em **Fields** para selecionar o campo que deseja atualizar. Somente um campo pode ser selecionado.
+1. Clique em **Field** para selecionar o campo que deseja atualizar. Somente um campo pode ser selecionado.
 
    ![](../assets/profileupdate2.png)
 
@@ -65,6 +63,6 @@ Para obter mais informações sobre como transformar um perfil existente em um p
 
       ![](../assets/profileupdate3.png)
 
-O **Atualizar perfil** agora está configurado.
+O **Atualizar Perfil** agora está configurado.
 
 ![](../assets/profileupdate1.png)
