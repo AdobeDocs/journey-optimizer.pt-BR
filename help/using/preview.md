@@ -5,16 +5,14 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # Visualizar e testar suas mensagens{#preview-and-proof}
-
-![](assets/do-not-localize/badge.png)
 
 Após definir o conteúdo da mensagem, é possível usar perfis de teste para pré-visualizá-lo e testá-lo. Se você inseriu [conteúdo personalizado](personalization/personalize.md), será possível verificar como esse conteúdo é exibido na mensagem, aproveitando os dados de perfil de teste.
 
@@ -22,7 +20,10 @@ Para detectar possíveis erros no conteúdo do email ou nas configurações de p
 
 >[!CAUTION]
 >
->Você precisa ter perfis de teste disponíveis para pré-visualizar suas mensagens e enviar provas. Saiba como criar perfis de teste em [esta página](building-journeys/creating-test-profiles.md).
+>Você precisa ter perfis de teste disponíveis para pré-visualizar suas mensagens e enviar provas.
+>
+>Saiba como criar perfis de teste em [esta página](building-journeys/creating-test-profiles.md).
+
 
 Para testar o conteúdo da mensagem, é necessário:
 
@@ -33,13 +34,18 @@ Você poderá [enviar provas](#send-proofs) para seus perfis de teste.
 
 Além disso, aproveite sua conta **Litmus** em [!DNL Journey Optimizer] para visualizar instantaneamente sua **renderização de email** em clientes de email populares. Em seguida, você pode garantir que seu conteúdo de email fique ótimo e funcione corretamente em cada caixa de entrada. Saiba como desbloquear visualizações de email do Litmus em [esta seção](#email-rendering)
 
+>[!CAUTION]
+>
+>Ao visualizar uma mensagem ou enviar provas, somente os dados de personalização de perfil são exibidos. A personalização com base em dados de contexto, como informações de evento, só pode ser testada no contexto de uma jornada. Saiba como testar a personalização em [este caso de uso](personalization/personalization-use-case.md).
+
+
 ## Selecionar perfis de teste{#select-test-profiles}
 
 Use [Test profiles](building-journeys/creating-test-profiles.md) para direcionar recipients adicionais que não correspondam aos critérios de direcionamento definidos.
 
 Para selecionar perfis de teste, siga as etapas abaixo:
 
-1. Na interface da mensagem ou no designer de email, clique no botão **[!UICONTROL Preview]** para acessar a seleção do perfil de teste.
+1. Na interface da mensagem ou no designer de email, clique no botão **[!UICONTROL Show preview]** para acessar a seleção do perfil de teste.
 
    ![](assets/email-preview-button.png)
 
@@ -124,6 +130,10 @@ Depois que [test profiles](#select-test-profiles) forem selecionados, você pode
    ![](assets/send-proof-view.png)
 
 Você precisa enviar provas após qualquer modificação no conteúdo da mensagem.
+
+>[!NOTE]
+>
+> Na prova enviada aos perfis de teste, o link para a mirror page não está ativo. Ela só é ativada nas mensagens finais.
 
 ## Renderização de email{#email-rendering}
 
