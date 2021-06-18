@@ -1,20 +1,17 @@
 ---
 title: Iniciar a execução da jornada
 description: Saiba como iniciar a jornada e enviar mensagens
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
 
 # Execução de jornada {#message-execution}
 
-![](../assets/do-not-localize/badge.png)
-
-## Teste sua jornada
+## Teste a jornada
 
 Você pode testar sua jornada usando perfis de teste. Esta etapa é recomendada para validar suas configurações e mensagens.
 
@@ -47,11 +44,11 @@ Depois que uma mensagem é enviada, é possível monitorar a execução por meio
 
 ## Programar mensagens {#schedule-messages}
 
-As mensagens podem ser agendadas por meio da atividade **[!UICONTROL Read segment]** em uma [jornada](journey.md). Você pode especificar quando o segmento entrará na jornada. [Saiba mais sobre a atividade](read-segment.md) Ler segmento.
+As mensagens podem ser agendadas por meio da atividade **[!UICONTROL Read Segment]** em uma [jornada](journey.md). Você pode especificar quando o segmento entrará na jornada. [Saiba mais sobre a atividade](read-segment.md) Ler segmento .
 
 Para fazer isso, siga as etapas abaixo:
 
-1. Edite uma jornada, arraste e solte uma atividade **[!UICONTROL Read segment]** e comece a configurá-la. [Saiba mais sobre como configurar a atividade](read-segment.md#configuring-segment-trigger-activity) Read segment .
+1. Edite uma jornada, arraste e solte uma atividade **[!UICONTROL Read Segment]** e comece a configurá-la. [Saiba mais sobre como configurar a atividade](read-segment.md#configuring-segment-trigger-activity) Ler segmento .
 
 1. Clique no link **[!UICONTROL Edit journey schedule]** para acessar as propriedades da jornada.
 
