@@ -5,7 +5,7 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # Introdução a mensagens {#get-sarted-contents-messages}
-
-![](assets/do-not-localize/badge.png)
 
 Use o [!DNL Journey Optimizer] para aproveitar vários recursos, como ativos e conteúdo em um único local, e criar e publicar notificações por push e mensagens de email personalizadas.
 
