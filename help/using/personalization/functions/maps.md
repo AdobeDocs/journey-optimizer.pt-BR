@@ -5,18 +5,16 @@ feature: Personalização
 topic: Personalização
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '104'
 ht-degree: 8%
 
 ---
 
 # Mapear funções{#maps}
 
-![](../../assets/do-not-localize/badge.png)
-
-[!DNL Profile Query Language] (PQL) oferece funções para facilitar a interação com mapas.
+Use as funções de Mapa na personalização para facilitar a interação com mapas.
 
 ## Obtenha{#get}
 
