@@ -5,22 +5,20 @@ feature: Eventos
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
 
-# Como aproveitar os dados do Adobe Analytics{#analytics-data}
+# Aproveite os dados do Adobe Analytics{#analytics-data}
 
-![](../assets/do-not-localize/badge.png)
+Você pode aproveitar todos os dados de evento comportamental do Adobe Analytics que já estão sendo capturados e transmitidos na plataforma para acionar jornadas e automatizar experiências para seus clientes.
 
 >[!NOTE]
 >
 >Esta seção se aplica somente a eventos com base em regras e clientes que precisam usar dados do Adobe Analytics.
-
-Você pode aproveitar todos os dados de evento comportamental do Adobe Analytics que já estão sendo capturados e transmitidos na plataforma para acionar jornadas e automatizar experiências para seus clientes.
 
 Para que isso funcione, é necessário ativar, no Adobe Experience Platform, o conjunto de relatórios que deseja aproveitar:
 
@@ -34,4 +32,4 @@ Isso ativa o conector de origem do Analytics para esse conjunto de relatórios. 
 
 ![](../assets/jo-event9.png)
 
-Para obter mais informações sobre o conector de origem do Adobe Analytics, consulte a [documentação]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) e o [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Saiba mais sobre o conector de origem do Adobe Analytics na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) e [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
