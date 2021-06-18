@@ -5,16 +5,14 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 10%
+source-wordcount: '1703'
+ht-degree: 9%
 
 ---
 
 # Introdução a jornadas{#jo-quick-start}
-
-![](../assets/do-not-localize/badge.png)
 
 ## Pré-requisitos
 
@@ -22,7 +20,7 @@ Para enviar mensagens com o jornada, a seguinte configuração é necessária:
 
 1. **Configurar um evento**: se quiser acionar as jornadas manualmente quando um evento for recebido, será necessário configurar um evento. Você define as informações esperadas e como processá-las. Esta etapa é executada por um **usuário técnico**. [Leia mais](../event/about-events.md).
 
-   ![](../assets/jo-event7.png)
+   ![](../assets/jo-event7bis.png)
 
 1. **Criar um segmento**: sua jornada também pode acompanhar segmentos do Adobe Experience Platform para enviar mensagens em lote a um conjunto especificado de perfis. Para isso, é necessário criar segmentos. [Leia mais](../segment/about-segments.md).
 
@@ -42,11 +40,11 @@ Esta etapa é executada pelo **usuário empresarial**. É aqui que você cria su
 
 Estas são as principais etapas para enviar mensagens por meio do jornada:
 
-1. Na seção GERENCIAMENTO DE JORNADAS , clique em **[!UICONTROL Journeys]**. A lista de jornadas é exibida.
+1. Na seção do menu GERENCIAMENTO de JORNADAS , clique em **[!UICONTROL Journeys]**. A lista de jornadas é exibida.
 
    ![](../assets/interface-journeys.png)
 
-1. Clique em **[!UICONTROL Create]** para criar uma nova jornada.
+1. Clique em **[!UICONTROL Create Journey]** para criar uma nova jornada.
 
 1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Saiba mais nesta [seção](journey-gs.md#change-properties).
 
@@ -82,7 +80,7 @@ O **Copy technical details** permite copiar informações técnicas sobre a jorn
 
 Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção por jornadas de &quot;uma ocorrência&quot;, por exemplo, se quiser oferecer um presente único quando uma pessoa entrar em uma loja. Nesse caso, você não deseja que o cliente possa entrar novamente na jornada e receber a oferta novamente.
 
-Quando uma jornada &quot;termina&quot;, ela terá o status **[!UICONTROL Closed (no entrance)]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. Pessoas que já estão na jornada vão terminar a jornada normalmente.
+Quando uma jornada &quot;termina&quot;, ela terá o status **[!UICONTROL Closed]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. Pessoas que já estão na jornada vão terminar a jornada normalmente.
 
 Após o tempo limite global padrão de 30 dias, a jornada mudará para o status **Finished**. Consulte esta [seção](../building-journeys/journey-gs.md#global_timeout).
 
@@ -114,6 +112,32 @@ Você pode inserir um fuso horário fixo ou usar perfis do Adobe Experience Plat
 
 Para obter mais informações sobre o gerenciamento de fuso horário, consulte [esta página](../building-journeys/timezone-management.md).
 
+### Modo de interrupção {#burst}
+
+O modo Burst é um complemento pago que permite o envio muito rápido de mensagens de push em grandes volumes. É usado para jornadas simples que incluem um segmento de leitura e uma mensagem de push simples. O Burst é usado quando o atraso na entrega de mensagens é essencial para os negócios, quando você deseja enviar um alerta por push urgente em telefones celulares, por exemplo, uma notícia de última hora para os usuários que instalaram seu aplicativo de canal de notícias.
+
+Limitações:
+
+* A jornada deve começar com um segmento de leitura. Eventos não são permitidos.
+* A próxima etapa deve ser uma mensagem de push. Nenhuma outra atividade ou etapa é permitida (exceto a atividade final opcional):
+   * Enviar somente canal
+   * Nenhuma personalização é permitida na mensagem
+   * A mensagem deve ser pequena (&lt;2KB)
+
+Observação importante:
+
+Se algum dos requisitos não for cumprido, o modo de burst não estará disponível na jornada.
+
+Para ativar o modo Burst, abra a jornada e clique no ícone de lápis, na parte superior direita para acessar as propriedades da jornada. Em seguida, ative o botão **Ativar modo de interrupção**.
+
+![](../assets/burst.png)
+
+O modo Burst será desativado se você modificar uma jornada burst e adicionar uma atividade que não esteja em conformidade com burst (mensagem, qualquer outra ação, um evento etc.). Uma mensagem será exibida.
+
+![](../assets/burst2.png)
+
+Em seguida, teste e publique sua jornada normalmente. As mensagens do modo de teste não são enviadas por meio do modo de explosão.
+
 ## Encerramento de uma jornada
 
 Uma jornada pode terminar para um indivíduo por dois motivos:
@@ -129,7 +153,7 @@ Uma jornada pode ser fechada pelos seguintes motivos:
 * Uma jornada baseada em segmento que terminou de ser executada.
 * Após a última ocorrência de uma jornada recorrente baseada em segmentos.
 
-Quando uma jornada é fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Closed (no entrance)]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. Pessoas que já estão na jornada vão terminar a jornada normalmente. Após o tempo limite global padrão de 30 dias, a jornada mudará para o status **Finished**. Consulte esta [seção](../building-journeys/journey-gs.md#global_timeout).
+Quando uma jornada é fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Closed]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. Pessoas que já estão na jornada vão terminar a jornada normalmente. Após o tempo limite global padrão de 30 dias, a jornada mudará para o status **Finished**. Consulte esta [seção](../building-journeys/journey-gs.md#global_timeout).
 
 Caso precise parar o progresso de todos os indivíduos na jornada, você pode pará-la. Parar a jornada atingirá o tempo limite para todos os indivíduos na jornada.
 
@@ -145,13 +169,13 @@ As opções **[!UICONTROL Stop]** e **[!UICONTROL Close to new entrances]** perm
 
 Você pode fechar uma jornada manualmente para garantir que os clientes que já entraram na jornada possam concluir seu caminho, mas os novos usuários não poderão entrar na jornada.
 
-Quando fechada, uma jornada terá o status **[!UICONTROL Closed (no entrance)]**. Após o tempo limite global padrão de 30 dias, a jornada mudará para o status **Finished**. Consulte esta [seção](../building-journeys/journey-gs.md#global_timeout).
+Quando fechada, uma jornada terá o status **[!UICONTROL Closed]**. Após o tempo limite global padrão de 30 dias, a jornada mudará para o status **Finished**. Consulte esta [seção](../building-journeys/journey-gs.md#global_timeout).
 
 Uma versão de jornada fechada não pode ser reiniciada ou excluída. Você pode criar uma nova versão ou duplicá-la. Somente jornadas concluídas podem ser excluídas.
 
-Você pode fechar uma jornada clicando em **[!UICONTROL Close to new entrances]** ao passar o mouse sobre uma jornada na lista de jornadas.
+Para fechar uma jornada da lista de jornadas, clique no botão **[!UICONTROL Ellipsis]** localizado à direita do nome da jornada e selecione **[!UICONTROL Close to new entrances]**.
 
-![](../assets/do-not-localize/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 Você também pode:
 
@@ -171,9 +195,9 @@ Não é possível reiniciar uma versão de jornada interrompida.
 
 Quando parada, uma jornada terá o status **[!UICONTROL Stopped]**.
 
-Você pode interromper uma jornada (por exemplo, se um profissional de marketing perceber que a jornada direciona o público-alvo errado ou uma ação personalizada que deveria entregar mensagens não está funcionando corretamente...) clicando em **[!UICONTROL Stop]** ao passar o mouse sobre uma jornada na lista de jornadas.
+Você pode interromper uma jornada, por exemplo, se um profissional de marketing perceber que a jornada direciona o público-alvo errado ou se uma ação personalizada que deveria entregar mensagens não está funcionando corretamente. Para interromper uma jornada da lista de jornadas, clique no botão **[!UICONTROL Ellipsis]** localizado à direita do nome da jornada e selecione **[!UICONTROL Stop]**.
 
-![](../assets/do-not-localize/journey-stop-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 Você também pode:
 
