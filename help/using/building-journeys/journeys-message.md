@@ -5,16 +5,14 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '265'
 ht-degree: 5%
 
 ---
 
 # Adicionar uma mensagem em uma jornada
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] Os recursos de mensagem são integrados, basta criar o conteúdo e publicar a mensagem. Consulte [esta seção](../get-started-content.md). Em seguida, adicione na jornada uma mensagem de push ou email projetada com o Journey Optimizer.
 
@@ -22,7 +20,7 @@ Se você estiver usando um sistema de terceiros para enviar mensagens, é possí
 
 ## Adição de uma atividade Message
 
-1. Como sempre, inicie a jornada com um evento ou uma atividade **Read segment** .
+1. Como sempre, inicie a jornada com um evento ou uma atividade **Ler segmento** .
 
    ![](../assets/jo-message0.png)
 
@@ -38,7 +36,7 @@ Se você estiver usando um sistema de terceiros para enviar mensagens, é possí
 
    ![](../assets/jo-message3.png)
 
-1. Escolha uma mensagem e clique em **Select**. Você também pode criar uma nova mensagem diretamente nessa tela clicando em **Create new**.
+1. Escolha uma mensagem e clique em **Select**. Você também pode criar uma nova mensagem diretamente nessa tela clicando em **Create message**.
 
    ![](../assets/jo-message4-ter.png)
 
@@ -48,10 +46,10 @@ Se você estiver usando um sistema de terceiros para enviar mensagens, é possí
 
 1. Adicione as próximas etapas à jornada.
 
-## Parâmetros de canal
+## Parâmetros de email e parâmetros de push
 
-Os parâmetros **Channel** são exibidos. Esses campos são somente leitura. Essa configuração é executada ao criar a mensagem. Consulte [esta seção](../get-started-content.md).
+As seções **[!UICONTROL Email parameters]** e **[!UICONTROL Push parameters]** mostram campos somente leitura. Normalmente, você executa essa configuração ao criar a mensagem. Consulte [esta seção](../get-started-content.md).
 
 ![](../assets/jo-message4.png)
 
-Você pode usar o ícone **Enable editing field** no lado direito do campo para forçar um valor específico. Isso pode ser útil para fins de teste. Por exemplo, para um email, você pode adicionar seu endereço de email. Ao publicar a jornada, o email será enviado para você.
+Para forçar um valor específico, você pode usar o ícone **Enable parameter override** à direita do campo. Essa opção pode ser útil para fins de teste. Por exemplo, para um email, você pode adicionar seu endereço de email. Após publicar a jornada, o email será enviado para você.
