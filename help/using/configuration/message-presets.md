@@ -5,9 +5,9 @@ feature: Configurações do aplicativo
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,10 @@ Com [!DNL Journey Optimizer], é possível configurar predefinições de mensage
 
 >[!CAUTION]
 >
-> A configuração de predefinições de mensagens é restrita aos Administradores do Jornada. [Saiba mais](../administration/ootb-product-profiles.md#journey-administrator)
-
+> * A configuração de predefinições de mensagens é restrita aos Administradores do Jornada. [Saiba mais](../administration/ootb-product-profiles.md#journey-administrator)
+   >
+   > 
+* Você deve executar as etapas de configuração de Email e Push antes de criar predefinições de mensagem.
 
 
 Após configurar as predefinições de mensagem, é possível selecioná-las ao criar mensagens na lista **[!UICONTROL Presets]**.
@@ -33,11 +35,9 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    ![](../assets/preset-create.png)
 
-
 1. Insira um nome e uma descrição (opcional) para a predefinição, em seguida, selecione os canais a serem configurados.
 
    ![](../assets/preset-general.png)
-
 
    >[!NOTE]
    >
@@ -57,13 +57,27 @@ Para criar uma predefinição de mensagem, siga estas etapas:
    * Selecione o pool de IP a ser associado à predefinição. [Saiba mais](ip-pools.md)
    * Insira os parâmetros de cabeçalho para os emails enviados usando a predefinição.
 
+      >[!CAUTION]
+      >
+      >Exceto pelo campo **Responder para (encaminhar email)**, o domínio de endereços de email deve usar o [subdomínio delegado](about-subdomain-delegation.md) selecionado no momento.
+
+      * **[!UICONTROL Sender name]**: Nome do remetente, como o nome da sua marca.
+
+      * **[!UICONTROL Sender email]**: O endereço de email que deseja usar para suas comunicações. Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você poderá usar *contact@marketing.luma.com*.
+
+      * **[!UICONTROL Reply to (name)]**: O nome que será usado quando o recipient clicar no botão  **** Responder em seu software cliente de email.
+
+      * **[!UICONTROL Reply to (email)]**: O endereço de email que será usado quando o recipient clicar no botão  **** Responder em seu software de cliente de email. Os emails enviados para esse endereço serão encaminhados para o endereço **[!UICONTROL Reply to (forward email)]** fornecido abaixo. Você deve usar um endereço definido no subdomínio delegado (por exemplo, *reply@marketing.luma.com*), caso contrário, os emails serão descartados.
+
+      * **[!UICONTROL Reply to (forward email)]**: Todos os emails recebidos pelo  [!DNL Journey Optimizer] para o subdomínio delegado serão encaminhados para este endereço de email. Você pode especificar qualquer endereço, exceto um endereço de email definido no subdomínio delegado. Por exemplo, se o subdomínio delegado for *marketing.luma.com*, qualquer endereço como *abc@marketing.luma.com* será proibido.
+
+      * **[!UICONTROL Error email]**: Todos os erros gerados pelos ISPs após alguns dias de envio de email (rejeições assíncronas) são recebidos neste endereço.
+
+      ![](../assets/preset-header.png)
+
       >[!NOTE]
       >
-      > * Os nomes devem começar com uma letra (A-Z). Ela só pode conter caracteres alfanuméricos. Você também pode usar caracteres de sublinhado `_`, pontos`.` e hífen `-`.
-         > 
-         > 
-      * Exceto para o **Responder para (encaminhar email)**, o domínio de endereços de email deve usar o subdomínio selecionado atual.
-
+      >Os nomes devem começar com uma letra (A-Z). Ela só pode conter caracteres alfanuméricos. Você também pode usar caracteres de sublinhado `_`, pontos`.` e hífen `-`.
 
 
 1. Defina as configurações de **notificação por push**.
@@ -86,7 +100,6 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    Essas verificações incluem testes de deliverability realizados pela equipe de deliverability do Adobe:
 
-
    * Validação de SPF
    * Validação de DKIM
    * Validação de registro MX
@@ -94,7 +107,6 @@ Para criar uma predefinição de mensagem, siga estas etapas:
    * Verificação do anfitrião
    * Verificação de pool de IPs
    * Registro A/PTR, verificação de subdomínio t/m/res
-
 
 1. Depois que as verificações são bem-sucedidas, a predefinição de mensagem recebe o status **[!UICONTROL Active]** . Ele está pronto para ser usado para entregar mensagens.
 
