@@ -5,7 +5,7 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 4%
@@ -13,8 +13,6 @@ ht-degree: 4%
 ---
 
 # Mudar de uma jornada para outra {#jump}
-
-![](../assets/do-not-localize/badge.png)
 
 A atividade de ação **[!UICONTROL Jump]** permite encaminhar indivíduos de uma jornada para outra. Esse recurso permite:
 
@@ -55,8 +53,8 @@ Na jornada B, o primeiro evento é acionado internamente, por meio da atividade 
 
 * A atividade **[!UICONTROL Jump]** só está disponível em jornadas que usam um namespace.
 * Você só pode ir para uma jornada que usa o mesmo namespace que a jornada de origem.
-* Não é possível pular para uma jornada que começa com um evento **Segment qualification** ou **Read segment**.
-* Você não pode ter uma atividade **[!UICONTROL Jump]** e um evento **Segment qualification** ou **Read segment** na mesma jornada.
+* Não é possível pular para uma jornada que começa com um evento **Qualificação de segmento** ou **Ler segmento**.
+* Você não pode ter uma atividade **[!UICONTROL Jump]** e um evento **Qualificação do segmento** ou **Ler segmento** na mesma jornada.
 * Você pode incluir quantas atividades **[!UICONTROL Jump]** forem necessárias em uma jornada. Após um **[!UICONTROL Jump]**, você pode adicionar qualquer atividade necessária.
 * Você pode ter quantos níveis de salto forem necessários. Por exemplo, a Jornada A vai para a jornada B, que vai para a jornada C e assim por diante.
 * A jornada de destino também pode incluir quantas atividades **[!UICONTROL Jump]** forem necessárias.
@@ -78,7 +76,7 @@ Na jornada B, o primeiro evento é acionado internamente, por meio da atividade 
    ![](../assets/jump2.png)
 
 1. Clique dentro do campo **jornada do Target**.
-A lista exibe todas as versões de jornada que são rascunho, ativo ou em modo de teste. Jornadas que usam um namespace diferente ou que começam com um evento **Segment qualification** não estão disponíveis. Jornadas do Target que criariam um padrão de loop também são filtradas.
+A lista exibe todas as versões de jornada que são rascunho, ativo ou em modo de teste. Jornadas que usam um namespace diferente ou que começam com um evento **Qualificação de segmento** não estão disponíveis. Jornadas do Target que criariam um padrão de loop também são filtradas.
 
    ![](../assets/jump3.png)
 
