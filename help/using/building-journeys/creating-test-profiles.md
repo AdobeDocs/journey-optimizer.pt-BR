@@ -5,9 +5,9 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 26cecf08f2032c58458f69ff1f2779e3c2603d18
+source-git-commit: 8dfa7a7700e1bb452ea9cd5e7d0adb6df55de03b
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1320'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ As seguintes informações são obrigatórias:
 2. **Arquivo** CSV: Um arquivo separado por vírgulas contendo a lista de perfis de teste a serem criados. O caso de uso espera um formato predefinido para o arquivo CSV que contenha a lista de perfis de teste a serem criados. Cada linha no arquivo deve incluir os seguintes campos na ordem correta, da seguinte maneira:
 
    1. **Id** da pessoa: Identificador exclusivo do perfil de teste. Os valores desse campo devem refletir o namespace de identidade selecionado. (Como exemplo, se **Phone** for selecionado para o namespace de identidade, os valores desse campo deverão ser números de telefone. Da mesma forma, se **Email** for selecionado, os valores desse campo deverão ser emails)
-   1. **Email**: Endereço de email do perfil de teste. (O campo **ID de pessoa** e o campo **Endereço de email** poderiam conter os mesmos valores se **Email** for selecionado como o namespace de identidade)
+   1. **Endereço** de email: Endereço de email do perfil de teste. (O campo **ID de pessoa** e o campo **Endereço de email** poderiam conter os mesmos valores se **Email** for selecionado como o namespace de identidade)
    1. **Nome**: Nome do perfil de teste.
    1. **Sobrenome**: Sobrenome do perfil de teste.
    1. **Cidade**: Perfil de teste da cidade de residência
