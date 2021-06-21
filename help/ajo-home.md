@@ -6,9 +6,9 @@ topic: Gerenciamento de conteúdo
 role: User
 level: Beginner
 source-git-commit: 72f1a776a65287e5b0db4785cc9278529708aa20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 81%
 
 * [Criar a primeira jornada](using/building-journeys/journeys-uc.md) </br>Saiba como criar e executar uma jornada
 
-* [ [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>ConfigurarSaiba mais sobre as principais etapas para configurar o Journey Optimizer
+* [Configurar o [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>Conheça as principais etapas para configurar o Journey Optimizer
 
-* [Conceder acesso  [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> aSaiba como definir e gerenciar as permissões atribuídas aos  [!DNL Journey Optimizer] usuários
+* [Conceder acesso ao [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> Saiba como definir e gerenciar as permissões atribuídas a usuários do [!DNL Journey Optimizer]
 
-* [Gerenciamento de decisão](using/offers/get-started/starting-offer-decisioning.md) </br> Crie ofertas e forneça a melhor oferta e experiência para seus clientes
+* [Gerenciamento de decisão](using/offers/get-started/starting-offer-decisioning.md) </br> Crie ofertas e forneça a melhor oferta e experiência a seus clientes
 
 ## Recursos adicionais
 
