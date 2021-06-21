@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: a904ee8fdcb5f634e856bf55432836e3649a1abc
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -43,10 +43,10 @@ ht-degree: 69%
          + [Funções aritméticas](using/personalization/functions/arithmetic-functions.md)
          + [Matrizes e funções de lista](using/personalization/functions/arrays-list.md)
          + [Funções booleanas e de comparação](using/personalization/functions/operators.md)
-         + [Ajudantes](using/personalization/functions/helpers.md)
+         + [Auxiliares](using/personalization/functions/helpers.md)
          + [Funções do mapa](using/personalization/functions/maps.md)
          + [Funções do objeto](using/personalization/functions/objects.md)
-         + [Funções da string](using/personalization/functions/string.md)
+         + [Funções de string](using/personalization/functions/string.md)
    + [Adicionar ofertas personalizadas](using/deliver-personalized-offers.md)
    + Validar e publicar {#create-message}
       + [Pré-visualização e provas](using/preview.md)
@@ -62,7 +62,7 @@ ht-degree: 69%
       + [Limitações](using/building-journeys/limitations.md)
       + [Versões de jornada](using/building-journeys/journey-versions.md)
       + [Testar perfis](using/building-journeys/creating-test-profiles.md)
-      + [Integração com serviços inteligentes](using/building-journeys/ai-services-overview.md)
+      + [Integrar a serviços inteligentes](using/building-journeys/ai-services-overview.md)
    + Criar uma jornada{#create-journey}
       + [Introdução a jornadas](using/building-journeys/journey-gs.md)
       + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
@@ -91,15 +91,15 @@ ht-degree: 69%
    + [Rastreamento de mensagens](using/message-tracking.md)
    + [Monitoramento de mensagens](using/message-monitoring.md)
    + Relatório ao vivo {#live-report}
-      + [Acessar o painel de relatórios ao vivo](using/reports/live-report.md)
-      + [Relatório ao vivo do Jornada](using/reports/journey-live-report.md)
-      + [Relatório ao vivo por email](using/reports/email-live-report.md)
-      + [Relatório de push ao vivo](using/reports/push-live-report.md)
+      + [Acessar o painel de relatórios em tempo real](using/reports/live-report.md)
+      + [Relatório da jornada em tempo real](using/reports/journey-live-report.md)
+      + [Relatório por email em tempo real](using/reports/email-live-report.md)
+      + [Relatório por push em tempo real](using/reports/push-live-report.md)
    + Relatório global {#global-report}
       + [Acessar o painel de relatórios global](using/reports/global-report.md)
-      + [Relatório global de Jornada](using/reports/journey-global-report.md)
+      + [Relatório global da jornada](using/reports/journey-global-report.md)
       + [Relatório global de email](using/reports/email-global-report.md)
-      + [Enviar relatório global](using/reports/push-global-report.md)
+      + [Relatório global por push](using/reports/push-global-report.md)
    + Relatórios de jornada {#reports}
       + [Criar relatórios de jornada](using/reports/sharing-overview.md)
       + [Campos de jornada](using/reports/sharing-journey-fields.md)
@@ -110,9 +110,9 @@ ht-degree: 69%
    + Capacidade de entrega {#deliverability}
       + [Introdução à capacidade de entrega](using/deliverability.md)
       + [Lista de supressão](using/suppression-list.md)
-+ Gerenciamento de decisões {#offer-decisioniong}
-   + Introdução ao Gerenciamento de decisões {#get-started}
-      + [Sobre o Gerenciamento de decisões](using/offers/get-started/starting-offer-decisioning.md)
++ Gerenciamento de decisão {#offer-decisioniong}
+   + Introdução ao gerenciamento de decisão {#get-started}
+      + [Sobre o Gerenciamento de decisão](using/offers/get-started/starting-offer-decisioning.md)
       + [Interface do usuário](using/offers/get-started/user-interface.md)
       + [Etapas principais para criar e gerenciar ofertas](using/offers/offer-library/key-steps.md)
       + [Caso de uso: inserir ofertas em um email](using/offers/offers-e2e.md)
@@ -129,7 +129,7 @@ ht-degree: 69%
       + [Criar decisões](using/offers/offer-activities/create-offer-activities.md)
       + [Configurar seleção de ofertas em decisões](using/offers/offer-activities/configure-offer-selection.md)
    + Criar relatórios do Gerenciamento de decisão {create-reports}
-      + [Introdução aos eventos de gerenciamento de decisões](using/offers/reports/get-started-events.md)
+      + [Introdução aos eventos de Gerenciamento de decisão](using/offers/reports/get-started-events.md)
       + [Informações-chave sobre eventos do Gerenciamento de decisão](using/offers/reports/key-information.md)
       + [Acessar campos XDM de eventos](using/offers/reports/xdm-fields.md)
    + Exportar seu catálogo de ofertas {#export-catalog}
@@ -184,7 +184,7 @@ ht-degree: 69%
          + [Criar uma decisão](using/offers/api-reference/activities-api/activities/create.md)
          + [Atualizar uma decisão](using/offers/api-reference/activities-api/activities/update.md)
          + [Excluir uma decisão](using/offers/api-reference/activities-api/activities/delete.md)
-      + Oferecer delivery usando APIs {#offer-delivery}
+      + Entrega de oferta usando APIs {#offer-delivery}
          + [API de decisões](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [SDK da Web da Adobe Experience Platform](using/offers/api-reference/web-sdk.md)
 + Configuração {#get-started}
@@ -208,7 +208,7 @@ ht-degree: 69%
       + [Criar predefinições de mensagem](using/configuration/message-presets.md)
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
-      + [Integração com sistemas externos](using/configuration/external-systems.md)
+      + [Integrar a sistemas externos](using/configuration/external-systems.md)
       + Configuração de evento {#events-journeys}
          + [Princípio geral](using/event/about-events.md)
          + Configurar um evento unitário {#unitary-events}
@@ -225,7 +225,7 @@ ht-degree: 69%
       + Configuração de ação {#action-journeys}
          + [Sobre ações](using/action/action.md)
          + [Configurar uma ação](using/action/about-custom-action-configuration.md)
-         + [Integrar com o Adobe Campaign v7/v8](using/action/acc-action.md)
+         + [Integrar ao Adobe Campaign v7/v8](using/action/acc-action.md)
 + Controle de acesso {#administration}
    + [Visão geral do controle de acesso](using/administration/permissions-overview.md)
    + [Perfis de produto incorporados](using/administration/ootb-product-profiles.md)
