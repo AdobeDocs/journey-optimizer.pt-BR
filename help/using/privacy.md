@@ -1,17 +1,20 @@
 ---
-title: Privacidade
+title: 'Privacidade in [!DNL Journey Optimizer] '
 description: Saiba como gerenciar a privacidade
-source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
+topic: Privacidade
+role: User
+level: Intermediate
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 92%
 
 ---
 
 
-# Privacidade {#privacy}
+# Gerenciamento de privacidade com [!DNL Journey Optimizer]{#privacy}
 
-[!DNL Journey Optimizer]O é uma ferramenta poderosa para coletar e processar quantidades extremamente grandes de dados, incluindo informações pessoais e dados confidenciais.
+[!DNL Journey Optimizer]O é uma ferramenta poderosa para coletar e processar quantidades extremamente grandes de dados, incluindo informações pessoais e dados confidenciais. Para oferecer melhores experiências ao cliente, é necessário coletar e armazenar os dados pessoais dos clientes. Ao usar esses dados, é importante entender e respeitar a privacidade dos clientes. As novas regulamentações legais e organizacionais dão aos usuários o direito de acessar ou excluir seus dados pessoais dos armazenamentos de dados, mediante solicitação.
 
 * **Dados pessoais** são informações que podem identificar direta ou indiretamente um indivíduo vivo.
 * **Dados confidenciais pessoais** são informações relacionadas a raça, visão política, crenças religiosas, antecedentes criminais, informações genéticas, dados de saúde, preferência sexual, informações biométricas, bem como participação em uniões comerciais.
