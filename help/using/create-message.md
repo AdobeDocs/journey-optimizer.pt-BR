@@ -5,9 +5,9 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '480'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ As mensagens estão disponíveis no atalho **[!UICONTROL Messages]** na navegaç
 
 >[!NOTE]
 >
->Todos os usuários podem acessar, criar, editar e publicar mensagens. Saiba mais sobre permissões de usuário [nesta seção](../using/administration/permissions.md).
+>Os usuários podem acessar, criar, editar e/ou publicar mensagens dependendo de seu perfil de produto. Saiba mais sobre permissões de usuário [nesta seção](../using/administration/permissions.md).
 
 ![](assets/messages-list.png)
 
