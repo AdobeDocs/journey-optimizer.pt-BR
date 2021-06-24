@@ -5,14 +5,14 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Beginner
-source-git-commit: 9ad4eeb11094b384f68eeaa9aa4e8fd7fe3e20c0
+source-git-commit: 51699c3bf597bc878b61438c0d0720bca317ff47
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 3%
 
 ---
 
-# Use [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
+# Use [!DNL Adobe Experience Manager Assets Essentials] {#experience-manager-assets}
 
 ## Introdução ao [!DNL Assets Essentials] {#get-started-assets-essentials}
 
@@ -24,7 +24,7 @@ Para obter procedimentos mais detalhados em [!DNL Assets Essentials], consulte a
 
 Para carregar arquivos no [!DNL Assets Essentials], primeiro é necessário procurar ou criar a pasta na qual ele será armazenado. Você poderá inseri-los no seu conteúdo de email.
 
-Para obter mais informações sobre como fazer upload de ativos, consulte a [documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html).
+Para obter mais informações sobre como fazer upload de ativos, consulte a [documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
 
 1. Na página inicial [!DNL Adobe Journey Optimizer], selecione a guia **[!UICONTROL Assets]** no menu **[!UICONTROL Content management]** para acessar [!DNL Assets Essentials].
 
