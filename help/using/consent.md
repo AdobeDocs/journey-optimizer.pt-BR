@@ -129,7 +129,7 @@ Corpo da solicitação:
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
-## Cancelar inscrição no link do cabeçalho {#unsubscribe-email}
+## Cancelar assinatura do link no cabeçalho {#unsubscribe-email}
 
 Se o cliente de email dos recipients suportar a exibição de um link de cancelamento de inscrição no cabeçalho do email, os emails enviados com [!DNL Journey Optimizer] incluirão automaticamente esse link.
 
