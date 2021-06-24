@@ -5,14 +5,14 @@ feature: Relatório
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 1%
 
 ---
 
-# Jornada relatório global {#journey-global-report}
+# Relatório global da jornada {#journey-global-report}
 
 O relatório global do Jornada pode ser acessado diretamente da sua jornada com o botão **[!UICONTROL Global report]**.
 
@@ -32,9 +32,9 @@ Na jornada **[!UICONTROL Global report]**, a guia **[!UICONTROL Journey]** forne
 
 ![](../assets/global_report_2.png)
 
-O widget **[!UICONTROL Journey`s performance]** permite visualizar o caminho dos perfis segmentados passo a passo pela jornada.
+O widget **[!UICONTROL Journey Performance]** permite visualizar o caminho dos perfis segmentados passo a passo pela jornada.
 
-O widget **[!UICONTROL Journey`s statistics]** exibe os seguintes KPIs:
+O widget **[!UICONTROL Journey Statistics]** exibe os seguintes KPIs:
 
 * **[!UICONTROL Entered profiles]**: Número total de indivíduos que chegaram ao evento de entrada da jornada.
 
