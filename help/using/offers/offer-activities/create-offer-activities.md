@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: 21476691c6e5c5a2f8c5e36a494206fc9779c9d2
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 5%
@@ -85,7 +85,7 @@ Você também pode salvar a decisão como rascunho, para editá-la e ativá-la p
 
 ![](../../assets/save-activities.png)
 
-A decisão é exibida na lista com o status **[!UICONTROL Live]** ou **[!UICONTROL Draft]** , dependendo de você tê-la ativado ou não na etapa anterior.
+A decisão é exibida na lista com o status **[!UICONTROL Live]** ou **[!UICONTROL Draft]**, dependendo de você tê-la ativado ou não na etapa anterior.
 
 Agora, ele está pronto para ser usado para fornecer ofertas aos clientes. Você pode selecioná-lo para exibir suas propriedades e editá-lo ou suprimi-lo.
 
