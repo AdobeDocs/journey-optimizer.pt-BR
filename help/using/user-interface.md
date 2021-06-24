@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 63%
+ht-degree: 76%
 
 ---
 
@@ -37,7 +37,7 @@ Use os links à esquerda para procurar recursos.
 >
 >Os recursos disponíveis podem variar dependendo de suas permissões e do contrato de licença.
 
-Você pode encontrar abaixo a lista completa de serviços e recursos disponíveis na navegação à esquerda e links para a documentação associada.
+Veja abaixo uma lista completa de serviços e recursos disponíveis na navegação à esquerda, além de links para a documentação associada.
 
 **Início**
 
@@ -131,10 +131,10 @@ O idioma padrão da interface é determinado pelo idioma preferencial especifica
 
 Para alterar o idioma:
 
-* Clique em **Preferências** do seu avatar, no canto superior direito.
+* Clique em **Preferências** em seu avatar, no canto superior direito.
    ![](assets/preferences.png)
 * Em seguida, clique no idioma exibido sob seu endereço de email
-* Selecione o idioma de sua preferência e clique em **Salvar**. Você pode selecionar um segundo idioma caso o componente que está usando não esteja localizado em seu primeiro idioma.
+* Selecione o idioma de sua preferência e clique em **Salvar**. Você poderá selecionar um segundo idioma, caso o componente que está usando não esteja traduzido em seu primeiro idioma.
    ![](assets/select-language.png)
 
 ## Pesquisa
@@ -152,9 +152,9 @@ Pressione **Enter** para acessar todos os resultados e filtrar.
 
 Na maioria das listas, uma barra de pesquisa permite procurar um item específico e selecionar critérios de filtragem.
 
-Os filtros podem ser acessados clicando no ícone de filtro na parte superior esquerda da lista. O menu de filtros permite filtrar os elementos exibidos de acordo com diferentes critérios. Você pode optar por exibir apenas os elementos de um determinado tipo ou status, os que você criou ou os que foram modificados nos últimos 30 dias. As opções diferem dependendo do contexto.
+Filtros podem ser acessados com um clique no ícone de filtro na parte superior esquerda da lista. O menu de filtros permite filtrar os elementos exibidos de acordo com diferentes critérios. Você pode optar por exibir apenas os elementos de determinado tipo ou status, os que você criou ou os que foram modificados nos últimos 30 dias. As opções diferem dependendo do contexto.
 
-Na lista de jornadas, você pode filtrar jornadas de acordo com seu status e versão no **[!UICONTROL Status and version filters]**. Você pode optar por exibir somente jornadas que usam um evento, grupo de campos ou ação específico nas **[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**. O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou um usuário. Por exemplo, você pode optar por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. [Saiba mais](building-journeys/using-the-journey-designer.md).
+Na lista de jornadas, você pode filtrar jornadas de acordo com seu status e versão no **[!UICONTROL Status and version filters]**. Você pode optar por exibir somente jornadas que usam um evento, grupo de campos ou ação específica **[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**. O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou um usuário. Por exemplo, você pode optar por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. [Saiba mais](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
