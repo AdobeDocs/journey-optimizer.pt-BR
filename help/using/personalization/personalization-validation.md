@@ -5,9 +5,9 @@ feature: Personalização
 topic: Personalização
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '324'
 ht-degree: 2%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 2%
 
 ## Mecanismos de validação
 
-Na tela do Editor de expressão, o botão **Validate** permite validar a sintaxe de personalização.
+Na tela **Editor de expressão**, use o botão **Validar** para verificar a sintaxe de personalização.
 
 >[!NOTE]
-> A validação é executada automaticamente ao clicar em **Adicionar** para fechar a janela do editor.
+> A validação é executada automaticamente ao clicar no botão **Add** para fechar a janela do editor.
 
 
 ![](assets/perso_validation1.png)
@@ -69,7 +69,7 @@ As expressões Handlebars são cercadas com **{{expression}**
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-### Erros específicos relacionados às ofertas
+## Erros específicos relacionados às ofertas
 
 Os erros relacionados à integração de ofertas em um email ou mensagem de push têm o seguinte padrão:
 
