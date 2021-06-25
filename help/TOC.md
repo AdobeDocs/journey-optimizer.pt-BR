@@ -5,10 +5,10 @@ user-guide-title: Manual do Journey Optimizer
 user-guide-description: Usar o Journey Optimizer para fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a904ee8fdcb5f634e856bf55432836e3649a1abc
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 100%
+source-wordcount: '673'
+ht-degree: 98%
 
 ---
 
@@ -27,32 +27,32 @@ ht-degree: 100%
       + [Criar um email](using/create-email.md)
       + [Criar uma notificação por push](using/create-push.md)
    + [Adicionar e gerenciar assets](using/assets-essentials.md)
-   + Designer de email {#email-designer}
+   + Criar emails {#email-designer}
       + [Introdução ao design de email](using/design-emails.md)
       + [Projetar conteúdo de email na interface](using/create-email-content.md)
       + [Importar ou codificar conteúdo de email](using/existing-content.md)
       + [Usar componentes de conteúdo do designer de email](using/content-components.md)
-   + Personalização{#personalization}
-      + [Introdução com personalização](using/personalization/personalize.md)
-      + [Sintaxe de personalização](using/personalization/personalization-syntax.md)
-      + [Validação de personalização](using/personalization/personalization-validation.md)
-      + [Caso de uso de personalização](using/personalization/personalization-use-case.md)
-      + Funções auxiliares{#functions}
-         + [Lista de funções auxiliares](using/personalization/functions/functions.md)
-         + [Funções de agregação](using/personalization/functions/aggregation.md)
-         + [Funções aritméticas](using/personalization/functions/arithmetic-functions.md)
-         + [Matrizes e funções de lista](using/personalization/functions/arrays-list.md)
-         + [Funções booleanas e de comparação](using/personalization/functions/operators.md)
-         + [Auxiliares](using/personalization/functions/helpers.md)
-         + [Funções do mapa](using/personalization/functions/maps.md)
-         + [Funções do objeto](using/personalization/functions/objects.md)
-         + [Funções de string](using/personalization/functions/string.md)
-   + [Adicionar ofertas personalizadas](using/deliver-personalized-offers.md)
    + Validar e publicar {#create-message}
       + [Pré-visualização e provas](using/preview.md)
       + [Verificar alertas](using/alerts.md)
       + [Publicar mensagens](using/publish-manage-message.md)
    + [Gerenciar recusa](using/consent.md)
++ Personalização{#personalization}
+   + [Introdução com personalização](using/personalization/personalize.md)
+   + [Sintaxe de personalização](using/personalization/personalization-syntax.md)
+   + [Validação de personalização](using/personalization/personalization-validation.md)
+   + [Caso de uso: adicionar personalização em uma notificação por push](using/personalization/personalization-use-case.md)
+   + Funções auxiliares{#functions}
+      + [Lista de funções auxiliares](using/personalization/functions/functions.md)
+      + [Funções de agregação](using/personalization/functions/aggregation.md)
+      + [Funções aritméticas](using/personalization/functions/arithmetic-functions.md)
+      + [Matrizes e funções de lista](using/personalization/functions/arrays-list.md)
+      + [Funções booleanas e de comparação](using/personalization/functions/operators.md)
+      + [Auxiliares](using/personalization/functions/helpers.md)
+      + [Funções do mapa](using/personalization/functions/maps.md)
+      + [Funções do objeto](using/personalization/functions/objects.md)
+      + [Funções de string](using/personalization/functions/string.md)
+   + [Adicionar ofertas personalizadas](using/deliver-personalized-offers.md)
 + Segmentos {#segment}
    + [Sobre segmentos](using/segment/about-segments.md)
    + [Construir segmentos](using/segment/creating-a-segment.md)
