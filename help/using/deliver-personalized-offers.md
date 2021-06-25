@@ -5,18 +5,16 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '507'
 ht-degree: 2%
 
 ---
 
 # Adicionar ofertas personalizadas {#deliver-personalized-offers}
 
-## Sobre o Gerenciamento de decisão {#about-offer-decisioning}
-
-Com [!DNL Journey Optimizer], você pode inserir em suas decisões de mensagens de email (anteriormente conhecidas como atividades de oferta) que aproveitarão o mecanismo de decisão da oferta para escolher a melhor oferta a ser entregue aos clientes.
+Em [!DNL Journey Optimizer] mensagens de email, você pode inserir decisões (anteriormente conhecidas como &quot;atividades de oferta&quot;) que aproveitarão o mecanismo de decisão da oferta para escolher a melhor oferta a ser entregue aos clientes.
 
 Por exemplo, você pode adicionar uma decisão que exibirá em seu email uma oferta de desconto especial que varia de acordo com o nível de fidelidade do recipient.
 
@@ -29,7 +27,7 @@ Para um **exemplo completo** mostrando como configurar ofertas, use-as em uma de
 
 >[!CAUTION]
 >
->Você precisa primeiro definir uma decisão de oferta. Saiba como criar decisões em [esta seção](offers/offer-activities/create-offer-activities.md).
+>Antes de começar, você deve [definir uma decisão de oferta](offers/offer-activities/create-offer-activities.md).
 
 Para inserir uma decisão em uma mensagem de email, siga as etapas abaixo:
 
