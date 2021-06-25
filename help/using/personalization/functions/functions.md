@@ -5,21 +5,25 @@ feature: Personalização
 topic: Personalização
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1181'
 ht-degree: 3%
 
 ---
 
 
-# Idioma de modelo e funções auxiliares {#functionsL}
+# Biblioteca de funções de ajuda{#functionsL}
 
 Use a linguagem de modelo [!DNL Journey Optimizer] para executar operações em dados, como cálculos, formatação de dados ou conversões, condições e manipulá-las no contexto da personalização. Saiba mais sobre as diretrizes da sintaxe de personalização em [this page](../personalization-syntax.md).
+
+[!DNL :arrow_forward:] [Descubra como usar funções de ajuda no vídeo](#video)
 
 A linguagem de modelo é usada em funções de ajuda disponíveis na lista suspensa de personalização do Editor de expressão, conforme abaixo:
 
 ![](../assets/access-helper-functions.png)
+
+
 
 No [!DNL Journey Optimizer] Editor de expressão, as funções de ajuda são agrupadas em três categorias: [Funções](#functions-helper), [Ajuda](#helper-helper) e [Operadores](#operators-helper).
 
@@ -189,7 +193,7 @@ No [!DNL Journey Optimizer] Editor de expressão, as funções de ajuda são agr
 </table>
 
 
-## Ajuda{#helper-helper}
+## Auxiliares{#helper-helper}
 
 Os ajuda são detalhados em [this page](helpers.md).
 
@@ -279,3 +283,8 @@ As funções de comparação são usadas para comparar diferentes expressões e 
     </tr>
 </table>
 
+## Vídeo tutorial{#video}
+
+Saiba como transformar valores de personalização usando funções de ajuda de personalização e entender casos de uso diferentes para funções de ajuda.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
