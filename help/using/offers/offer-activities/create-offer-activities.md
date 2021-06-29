@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 5%
+source-wordcount: '588'
+ht-degree: 4%
 
 ---
 
@@ -37,11 +37,15 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
    ![](../../assets/activities-name.png)
 
-## Adicionar ofertas {#add-offers}
+## Adicionar escopos de decisão {#add-decision-scopes}
 
 1. Arraste e solte uma disposição da lista para adicioná-la à decisão e clique em **[!UICONTROL Add collection]**.
 
    ![](../../assets/activities-placement.png)
+
+   >[!NOTE]
+   >
+   >A mesma disposição pode ser selecionada várias vezes na decisão.
 
 1. Selecione a coleção que contém as ofertas a serem consideradas e clique em **[!UICONTROL Add]**.
 
