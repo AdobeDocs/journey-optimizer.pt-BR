@@ -5,7 +5,7 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
+source-git-commit: f76f9c39b460bc3d70ba3258764d35583cd5fd77
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 2%
@@ -22,8 +22,7 @@ Para obter mais informações sobre como criar e gerenciar ofertas, consulte [es
 
 Para um **exemplo completo** mostrando como configurar ofertas, use-as em uma decisão e aproveite essa decisão em um email, confira [esta seção](offers/offers-e2e.md#insert-decision-in-email).
 
-[!DNL :arrow_forward:] [Saiba como adicionar ofertas como personalização neste vídeo](#video-offers)
-
+![](assets/do-not-localize/how-to-video.png) [Saiba como adicionar ofertas como personalização neste vídeo](#video-offers)
 
 ## Inserir uma decisão em um email {#insert-offers}
 
