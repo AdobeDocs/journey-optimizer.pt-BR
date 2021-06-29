@@ -5,14 +5,14 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: 587dcb4823f57132748c913410a6fc177ccf76f1
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
 
-# Projete seu conteúdo de email na interface do usuário {#create-email-content}
+# Projetar o conteúdo de email na interface do usuário {#create-email-content}
 
 Depois que [criar sua mensagem](create-message.md), você pode começar a criar seu conteúdo de email.
 
@@ -215,36 +215,57 @@ Abaixo estão as configurações de fundo disponíveis que você pode usar.
 
 ## Ajustar o alinhamento vertical e o preenchimento {#adjusting-vertical-alignment-and-padding}
 
-Você deseja ajustar o preenchimento e o alinhamento vertical dentro de um componente de estrutura composto de três colunas. Para fazer isso, siga as etapas abaixo:
+Neste exemplo, ajustaremos o preenchimento e o alinhamento vertical dentro de um componente de estrutura composto de três colunas.
 
-1. Selecione o componente de estrutura diretamente no email ou usando a árvore de estrutura disponível à esquerda **Paleta**.
-1. Na **barra de ferramentas contextual**, clique em **[!UICONTROL Select a column]** e escolha aquela que deseja editar. Também é possível selecioná-lo na árvore de estrutura.
+1. Selecione o componente de estrutura diretamente no email ou usando o **[!UICONTROL Navigation tree]** disponível no menu à esquerda.
 
-   Os parâmetros editáveis para essa coluna são exibidos no painel **[!UICONTROL Settings]** à direita.
+   ![](assets/alignment_1.png)
 
-1. Em **[!UICONTROL Vertical alignment]**, selecione **[!UICONTROL Up]**.
+1. Na barra de ferramentas, clique em **[!UICONTROL Select a column]** e escolha aquele que deseja editar. Também é possível selecioná-lo na árvore de estrutura.
 
-   O componente de conteúdo é exibido na parte superior da coluna.
+   Os parâmetros editáveis para essa coluna são exibidos no menu **[!UICONTROL Column settings]**.
+
+   ![](assets/alignment_2.png)
+
+1. Em **[!UICONTROL Vertical alignment]**, selecione **[!UICONTROL Bottom]**.
+
+   O componente de conteúdo é movido para a parte inferior da coluna.
+
+   ![](assets/alignment_3.png)
 
 1. Em **[!UICONTROL Padding]**, defina o preenchimento superior dentro da coluna. Clique no ícone de bloqueio para interromper a sincronização com o preenchimento inferior.
 
    Defina o preenchimento à esquerda e à direita para essa coluna.
 
+   ![](assets/alignment_4.png)
+
 1. Continue de forma semelhante para ajustar o alinhamento e o preenchimento das outras colunas.
 
 1. Salve as alterações.
 
-## Definir um estilo para os links {#about-styling-links}
+## Definir um estilo para links {#about-styling-links}
 
 É possível sublinhar um link e selecionar sua cor e seu destino no Designer de email.
 
-1. Em um componente onde um link é inserido, selecione o texto do rótulo do link.
+1. Em um Texto **[!UICONTROL Content component]** onde um link é inserido, selecione o link.
 
-1. Nas configurações do componente, marque **[!UICONTROL Underline link]** para sublinhar o texto do rótulo do link.
+1. No menu **[!UICONTROL Component settings]**, marque **[!UICONTROL Underline link]** para sublinhar o texto do rótulo do link.
 
-1. Para selecionar em qual contexto de navegação seu link será aberto, selecione um **[!UICONTROL Target]**.
+   ![](assets/link_1.png)
+
+1. Escolha como seu público será redirecionado com o menu suspenso **[!UICONTROL Target]**:
+
+   * **[!UICONTROL None]**: abre o link no mesmo quadro em que foi clicado (padrão).
+   * **[!UICONTROL Blank]**: abre o link em uma nova janela ou guia.
+   * **[!UICONTROL Self]**: abre o link no mesmo quadro em que foi clicado.
+   * **[!UICONTROL Parent]**: abre o link no quadro principal.
+   * **[!UICONTROL Top]**: abre o link no corpo completo da janela.
+
+   ![](assets/link_2.png)
 
 1. Para alterar a cor do link, clique em **[!UICONTROL Link color]**.
+
+   ![](assets/link_3.png)
 
 1. Escolha a cor que você precisa.
 
