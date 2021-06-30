@@ -5,9 +5,9 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: 2e85e966dcff87717ce4a5f426f9e66526dab7c4
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '921'
 ht-degree: 4%
 
 ---
@@ -22,11 +22,9 @@ Considere como exemplo o segmento &quot;Abertura e check-out do aplicativo Luma&
 
 >[!NOTE]
 >
->Não é possível acionar uma jornada baseada em segmento em um período de tempo menor que 1 hora.
->
 >O complemento Burst paid permite o envio muito rápido de mensagens de push em grandes volumes para jornadas simples que incluem um segmento de leitura e uma mensagem de push simples. Para saber mais, consulte [esta seção](../building-journeys/journey-gs.md#burst)
 
-### Configure a atividade {#configuring-segment-trigger-activity}
+### Configurar a atividade {#configuring-segment-trigger-activity}
 
 As etapas para configurar a atividade Ler segmento são as seguintes:
 
@@ -62,7 +60,7 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
 
    ![](../assets/read-segment-schedule.png)
 
-   Por padrão, os segmentos inserem a jornada **[!UICONTROL As soon as possible]**, o que significa 1 hora após a publicação da jornada. Se desejar que o segmento insira a jornada em uma data/hora específica ou em uma base recorrente, selecione o valor desejado na lista.
+   Por padrão, os segmentos entram na jornada **[!UICONTROL As soon as possible]**. Se desejar que o segmento insira a jornada em uma data/hora específica ou em uma base recorrente, selecione o valor desejado na lista.
 
    >[!NOTE]
    >
@@ -93,8 +91,6 @@ Quando o teste estiver em execução, o botão **[!UICONTROL Show logs]** permit
 Depois que os testes forem concluídos com êxito, você poderá publicar sua jornada (consulte [Publicação da jornada](publishing-the-journey.md)). Os indivíduos pertencentes ao segmento inserirão a jornada na data/hora especificada na seção de propriedades da jornada **[!UICONTROL Scheduler]**.
 
 >[!NOTE]
->
->Quando uma jornada baseada em segmento que não é recorrente (&quot;começando o mais rápido possível&quot; ou &quot;uma vez&quot;) é executada, seu status é alterado automaticamente para &quot;fechado&quot;.
 >
 >Para jornadas recorrentes baseadas em segmentos, a jornada será fechada automaticamente quando sua última ocorrência for executada. Se nenhuma data/hora final tiver sido especificada, será necessário fechar a jornada a novas entradas manualmente para finalizá-la.
 
