@@ -5,9 +5,9 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
+source-git-commit: c6f4369c98b28afe1c607996e3f993dbfe09f63e
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1724'
 ht-degree: 9%
 
 ---
@@ -72,7 +72,9 @@ Clique no ícone de lápis, na parte superior direita para acessar as propriedad
 
 Você pode alterar o nome da jornada, adicionar uma descrição, permitir nova entrada, escolher datas de início e término e definir uma duração **[!UICONTROL Timeout and error]** se você for administrador.
 
-O **Copy technical details** permite copiar informações técnicas sobre a jornada que a equipe de suporte pode usar para solucionar problemas. As seguintes informações são copiadas: JourneyVersion UID, OrgID, orgName, sandboxName.
+Para jornadas ao vivo, essa tela exibe a data da publicação e o nome do usuário que publicou a jornada.
+
+O **Copy technical details** permite copiar informações técnicas sobre a jornada que a equipe de suporte pode usar para solucionar problemas. As seguintes informações são copiadas: JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
 ![](../assets/journey32.png)
 
