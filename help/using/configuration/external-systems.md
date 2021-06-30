@@ -7,9 +7,9 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 30e916e834bfed304f246264cdb091cb5ad60d41
+source-git-commit: d713010e85936f7ce7b6389bc68d4eec2d8bdaae
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '1026'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,11 @@ Quando o Journey Optimizer executa uma chamada para uma API externa, as medidas 
 
 ## Limitação{#capping}
 
-A API de limitação integrada oferece uma garantia técnica de upstream que ajuda a proteger seu sistema externo. Anteriormente, é necessário avaliar a capacidade da API externa. Por exemplo, se o Journey Optimizer enviar 1000 chamadas por segundo e o sistema suportar apenas 100 chamadas por segundo, é necessário definir uma regra de limitação para que o sistema não fique saturado.
+A API de limitação integrada oferece uma garantia técnica de upstream que ajuda a proteger seu sistema externo.
+
+Para fontes de dados externas, o número máximo de chamadas por segundo é definido como 15. Se o número de chamadas exceder 15 por segundo, as chamadas restantes serão descartadas. É possível aumentar esse limite para fontes de dados externas privadas. Entre em contato com o Adobe para adicionar o ponto de extremidade à lista de permissões. Isso não é possível para fontes de dados externas públicas.
+
+Para ações personalizadas, é necessário avaliar a capacidade da API externa. Por exemplo, se o Journey Optimizer enviar 1000 chamadas por segundo e o sistema suportar apenas 100 chamadas por segundo, é necessário definir uma regra de limitação para que o sistema não fique saturado.
 
 As regras de limitação são definidas no nível da sandbox para um endpoint específico (o URL chamado). No tempo de execução, o Journey Optimizer verifica se há uma regra de limitação definida e aplica a taxa definida durante as chamadas para esse terminal. Se o número de chamadas exceder a taxa definida, as chamadas restantes serão descartadas e serão contadas como erros no relatório.
 
