@@ -5,10 +5,10 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Beginner
-source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
+source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 47%
+source-wordcount: '395'
+ht-degree: 46%
 
 ---
 
@@ -26,7 +26,7 @@ Antes de começar a usar [!DNL Adobe Journey Optimizer], é necessário:
 
 * **Definir permissões** do usuário: faça logon  [!DNL Adobe Journey Optimizer] e dê acesso aos membros da sua equipe. [Leia mais](../using/administration/permissions.md)
 
-* **Implantar[!DNL Adobe Experience Manager Assets Essentials]**: para gerenciar ativos e imagens em suas mensagens, será necessário implantar  [!DNL Assets Essentials] em sua organização e garantir que você faça parte dos perfis de produto/ **usuário do consumidor da** Assets Essentials e do  **Assets Essentials** Users. [Leia mais](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
+* **Implantar[!DNL Adobe Experience Manager Assets Essentials]**: para gerenciar ativos e imagens em suas mensagens, você precisará implantar  [!DNL Assets Essentials] em sua organização e garantir que os usuários, que precisam de acesso a  [!DNL Assets Essentials], façam parte dos perfis de produto do consumidor da  **Assets Essentials** ou dos  **usuários** do Assets Essentials. [Leia mais](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
 
 * **Configure seus canais**: defina as configurações de email e notificação por push. [Leia mais](../using/configuration/get-started-configuration.md)
 
