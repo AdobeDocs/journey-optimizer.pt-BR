@@ -5,16 +5,20 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Beginner
-source-git-commit: 51699c3bf597bc878b61438c0d0720bca317ff47
+source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 3%
+source-wordcount: '371'
+ht-degree: 5%
 
 ---
 
 # Use [!DNL Adobe Experience Manager Assets Essentials] {#experience-manager-assets}
 
 ## Introdução ao [!DNL Assets Essentials] {#get-started-assets-essentials}
+
+>[!NOTE]
+>
+> Para trabalhar com [!DNL Adobe Experience Manager Assets Essentials], será necessário implantar [!DNL Assets Essentials] em sua organização e garantir que você faça parte dos perfis de produto **Assets Essentials Consumer Users** ou/and **Assets Essentials Users**. <br> Para obter mais informações sobre essas operações, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html).
 
 [!DNL Adobe Experience Manager Assets Essentials] O fornece um repositório único e centralizado de ativos que podem ser usados para preencher suas mensagens. Ele pode ser acessado diretamente de [!DNL Adobe Journey Optimizer] por meio da seção **[!UICONTROL Assets]**. Você também pode acessar ativos e pastas ao projetar um conteúdo de email. [Saiba mais sobre design](design-emails.md) de email.
 
