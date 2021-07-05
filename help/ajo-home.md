@@ -5,10 +5,10 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Beginner
-source-git-commit: 72f1a776a65287e5b0db4785cc9278529708aa20
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 51%
 
 ---
 
@@ -17,24 +17,132 @@ ht-degree: 100%
 ![](using/assets/do-not-localize/banner-cjm.png)
 
 
-## Introdução
-
-* [O que é o Journey Optimizer?](using/get-started.md) </br> Descubra os principais recursos e como começar
-
-* [Criar um conteúdo de email](using/design-emails.md) </br>Crie um novo email ou importe um conteúdo HTML existente
-
-* [Enviar mensagens](using/building-journeys/journeys-message.md) </br> Saiba como adicionar mensagens por push e email nas jornadas do cliente
-
-* [Criar a primeira jornada](using/building-journeys/journeys-uc.md) </br>Saiba como criar e executar uma jornada
-
-* [Configurar o [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>Conheça as principais etapas para configurar o Journey Optimizer
-
-* [Conceder acesso ao [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> Saiba como definir e gerenciar as permissões atribuídas a usuários do [!DNL Journey Optimizer]
-
-* [Gerenciamento de decisão](using/offers/get-started/starting-offer-decisioning.md) </br> Crie ofertas e forneça a melhor oferta e experiência a seus clientes
-
-## Recursos adicionais
-
-* [Manual da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR)
-* [Resumo do acesso à Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR)
-* [Recursos do desenvolvedor da Adobe Experience Platform](https://www.adobe.com/br/experience-platform/documentation-and-developer-resources.html)
+<table style="table-layout:fixed">
+<tr>
+  <td>
+    <div><strong>Comece já</strong>
+    </div>
+    <p>
+    <em></em>
+    <p>
+    <div>
+      <a href="using/get-started.md">O que é o Journey Optimizer?</a>
+    </div>
+    <p>Descubra os principais recursos e como começar
+    <p>
+    <div>
+      <a href="using/design-emails.md">Criar um conteúdo de email</a>
+    </div>
+    <p>
+    Projetar um novo email ou importar um conteúdo HTML existente
+    <p>
+    <div>
+      <a href="using/building-journeys/journeys-message.md">Envio de mensagens</a>
+    </div>
+    <p>Saiba como adicionar mensagens de push e email às jornadas do cliente
+    <p>
+    <div>
+    <a href="using/building-journeys/journeys-uc.md">Criar a primeira jornada</a>
+    </div>
+    <p>Saiba como criar e executar uma jornada
+    <p>
+    <div>
+    <a href="using/configuration/get-started-configuration.md">Configurar o [!DNL Journey Optimizer]</a>
+    </div>
+    <p>Saiba mais sobre as principais etapas para configurar o [!DNL Journey Optimizer]
+    <p>
+    <div>
+    <a href="using/administration/permissions-overview.md">Conceder acesso ao [!DNL Journey Optimizer]</a>
+    </div>
+    <p>Saiba como definir e gerenciar as permissões atribuídas aos usuários do [!DNL Journey Optimizer]
+    <p>
+    <div>
+    <a href="using/offers/get-started/starting-offer-decisioning.md">Gerenciamento de decisão</a>
+    </div>
+    <p>Crie ofertas e forneça a melhor oferta e experiência para seus clientes
+    <p>
+    <p>
+    <div><strong>Recursos adicionais</strong>
+    </div>
+    <p>
+    <p>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR">Documentação do Adobe Experience Platform</a>
+    </div>
+      <div>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR">Resumo do acesso à Adobe Experience Platform</a>
+    </div>
+      <div>
+      <a href="https://www.adobe.com/br/experience-platform/documentation-and-developer-resources.html">Recursos do desenvolvedor da Adobe Experience Platform</a>
+    </div>
+  </td>
+   <td>
+   <div><strong>Links diretos para recursos-chave</strong>
+    </div>
+    <p>
+    <em></em>
+    <p>
+    <p>GERENCIAMENTO DE jornadas</p>
+    <li>
+      <a href="using/building-journeys/journey-gs.md">Jornadas</a>
+    </li>
+    <li>
+      <a href="using/create-message.md">Mensagens</a>
+    </li>
+    <p>
+    <p>GESTÃO DE DECISÃO</p>
+    <li>
+      <a href="using/offers/get-started/starting-offer-decisioning.md">Ofertas</a>
+    </li>
+     <li>
+      <a href="using/offers/offer-library/key-steps.md">Componentes</a>
+    </li>
+    <p>
+    <p>GERENCIAMENTO DE CONTEÚDO</p>
+    <li>
+      <a href="using/assets-essentials.md">Assets</a>
+    </li>
+    <p>
+    <p>GERENCIAMENTO DE DADOS</p>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR">Esquemas</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR">Conjuntos de dados</a>
+    </li>
+        <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=pt-BR">Consultas</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=pt-BR">Monitoramento</a>
+    </li>
+    <p>
+    <p>CONEXÕES</p>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR">Fontes</a>
+    </li>
+    <p>
+    <p>CLIENTE</p>
+    <li>
+      <a href="using/segment/about-segments.md">Segmentos</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR">Perfis</a>
+    </li>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces">Identidade</a>
+    </li>
+    <p>
+    <p>ADMINISTRAÇÃO</p>
+    <li>
+      <a href="using/configuration/about-data-sources-events-actions.md">Configurações </a>
+    </li>
+    <li>
+      <a href="using/configuration/get-started-configuration.md">Canais</a>
+    </li>
+     <li>
+      <a href="using/administration/sandboxes.md">Sandboxes</a>
+    </li>
+  </td>
+</tr>
+</table>
