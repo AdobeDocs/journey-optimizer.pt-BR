@@ -4,10 +4,10 @@ description: Saiba como gerenciar a privacidade
 topic: Privacidade
 role: User
 level: Intermediate
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 82%
+source-wordcount: '775'
+ht-degree: 78%
 
 ---
 
@@ -54,7 +54,7 @@ Para gerenciar corretamente a privacidade e os dados pessoais, trabalhe dentro d
 
 [!DNL Journey Optimizer]O herda a maioria das alterações do conjunto de dados feitas na Adobe Experience Platform.
 
-Consequentemente, as solicitações de privacidade (direito de acesso e direito ao esquecimento) são gerenciadas pela Experience Platform. Você precisa enviar suas solicitações usando o [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR) e selecionar **Perfil** e **Data lake da AEP** na lista de produtos ao [criar sua solicitação de privacidade](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=br#request-builder). <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
+Consequentemente, as solicitações de privacidade (direito de acesso e direito ao esquecimento) são gerenciadas pela Experience Platform. Você precisa enviar suas solicitações usando [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target=&quot;_blank&quot;} e selecionar **Perfil** e **AEP Data Lake** da lista de produtos quando [criar sua solicitação de privacidade](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=br#request-builder){target=&quot;_blank&quot;}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
 
 >[!NOTE]
 >
