@@ -5,7 +5,7 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 2e85e966dcff87717ce4a5f426f9e66526dab7c4
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 4%
@@ -88,7 +88,7 @@ Quando o teste estiver em execução, o botão **[!UICONTROL Show logs]** permit
 
    ![](../assets/read-segment-log.png)
 
-Depois que os testes forem concluídos com êxito, você poderá publicar sua jornada (consulte [Publicação da jornada](publishing-the-journey.md)). Os indivíduos pertencentes ao segmento inserirão a jornada na data/hora especificada na seção de propriedades da jornada **[!UICONTROL Scheduler]**.
+Depois que os testes forem bem-sucedidos, você poderá publicar sua jornada (consulte [Publicação da jornada](publishing-the-journey.md)). Os indivíduos pertencentes ao segmento inserirão a jornada na data/hora especificada na seção de propriedades da jornada **[!UICONTROL Scheduler]**.
 
 >[!NOTE]
 >
