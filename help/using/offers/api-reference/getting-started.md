@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 6%
 
 Este guia do desenvolvedor fornece etapas para ajudá-lo a começar a usar a API [!DNL Offer Library]. O guia fornece exemplos de chamadas de API para executar operações principais usando o Mecanismo de gerenciamento de decisões.
 
-![](../../assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+➡️ [Descubra este recurso no vídeo](#video)
 
 ## Pré-requisitos
 
 Este guia requer uma compreensão funcional dos seguintes componentes do Adobe Experience Platform:
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR): A estrutura padronizada pela qual  [!DNL Experience Platform] organiza os dados de experiência do cliente.
-   * [Noções básicas da composição](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) do schema: Saiba mais sobre os componentes básicos dos esquemas XDM.
+   * [Noções básicas da composição](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR) do schema: Saiba mais sobre os componentes básicos dos esquemas XDM.
 * [Gerenciamento](../../../using/offers/get-started/starting-offer-decisioning.md) de decisões: Explica os conceitos e os componentes usados para o Experience Decisioning em geral e para o Offer decisioning em particular. Ilustra as estratégias usadas para escolher a melhor opção para apresentar durante a experiência de um cliente.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html): O PQL é um idioma avançado para gravar expressões em instâncias do XDM. O PQL é usado para definir regras de decisão.
 
