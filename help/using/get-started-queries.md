@@ -4,10 +4,10 @@ description: Saiba como criar consultas no Adobe Journey Optimizer
 feature: Esquemas
 role: User
 level: Beginner
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -24,5 +24,5 @@ Saiba como usar o Editor de consultas em [esta documentação](https://experienc
 
 **Consulte também**
 
-* [Documentação do Serviço de Consulta](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
-* [Vídeo de visão geral do Serviço de query](https://experienceleague-review.corp.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}
+* [Documentação do Serviço de Consulta](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR){target=&quot;_blank&quot;}
+* [Vídeo de visão geral do Serviço de query](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=pt-BR){target=&quot;_blank&quot;}
