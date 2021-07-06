@@ -5,10 +5,10 @@ feature: Personalização
 topic: Personalização
 role: Data Engineer
 level: Beginner
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 13%
+source-wordcount: '666'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ Descubra os recursos de personalização [!DNL Adobe Journey Optimizer] para ada
 
 [!DNL Journey Optimizer] O usa uma sintaxe de personalização  **** simples com base em Handlebars que permite criar expressões com conteúdo delimitado por chaves duplas **{}}**. É possível adicionar várias expressões no mesmo conteúdo ou campo sem restrições. Saiba mais em [Sintaxe de personalização](personalization-syntax.md).
 
-A personalização é baseada nos dados de perfil gerenciados pelo esquema do **Perfil individual XDM** definido na Adobe Experience Platform. Para obter mais informações, consulte a documentação do [Modelo de dados (XDM) da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
+A personalização é baseada nos dados de perfil gerenciados pelo esquema do **Perfil individual XDM** definido na Adobe Experience Platform. Saiba mais na documentação do [Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 >O schema **Perfil individual XDM** é o único schema que você pode usar para personalizar o conteúdo em [!DNL Journey Optimizer].
@@ -89,8 +89,8 @@ Na interface do editor de expressão, você selecionará, organizará, personali
 
 A parte esquerda da tela exibe um seletor de domínio que permite selecionar a fonte para personalização. As fontes disponíveis são:
 
-* **Perfil** : lista todas as referências associadas ao esquema de perfil descrito na documentação do  [Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
-* **Associação**  de segmento: lista todos os segmentos criados no serviço de Segmentação da Adobe Experience Platform. Mais informações sobre segmentação disponíveis [aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
+* **Perfil** : lista todas as referências associadas ao esquema de perfil descrito na documentação do  [Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+* **Associação**  de segmento: lista todos os segmentos criados no serviço de Segmentação da Adobe Experience Platform. Mais informações sobre a segmentação disponíveis [aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en){target=&quot;_blank&quot;}.
 * **Ofertas** : lista todas as ofertas associadas a uma disposição específica. Selecione a disposição e insira as ofertas no seu conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [esta seção](../deliver-personalized-offers.md).
 * **Contexto** : quando a atividade  **** Messageactivity é usada em uma jornada, os campos de jornada contextual ficam disponíveis nesse menu. Saiba mais [nesta seção](personalization-use-case.md).
 * **Funções**  de ajuda: lista todas as funções auxiliares disponíveis para executar operações em dados, como cálculos, formatação de dados ou conversões, condições e manipulá-las no contexto de personalização. Saiba mais [nesta seção](functions/functions.md).
