@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integrações
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Você pode criar e entregar ofertas fazendo uma solicitação de POST para a API
 
 Este tutorial requer uma compreensão funcional das APIs, especificamente em relação ao Gerenciamento de decisões. Para obter mais informações, consulte o [Guia do desenvolvedor da API de Gerenciamento de Decisão](../getting-started.md). Este tutorial também exige que você tenha uma ID de posicionamento exclusiva e um valor de ID de decisão disponíveis. Se você não adquiriu esses valores, consulte os tutoriais para [criar uma disposição](../offers-api/placements/create.md) e [criar uma decisão](../activities-api/activities/create.md).
 
-![](../../../assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+➡️  [Descubra este recurso no vídeo](#video)
 
 ## Aceitar e digitar cabeçalhos de tipo de conteúdo
 
@@ -108,7 +108,7 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | O identificador de decisão único. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | O número de ofertas a serem retornadas. O número máximo é 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Esse objeto contém informações sobre o perfil para o qual a decisão é solicitada. Para uma solicitação de API, isso conterá um perfil. |
-| `xdm:profiles.xdm:identityMap` | Esse objeto contém um conjunto de identidades de usuário final com base no código de integração do namespace da identidade. O mapa de identidade pode ter mais de uma identidade de cada namespace. Para obter mais informações sobre namespaces, consulte a [Visão geral do namespace de identidade](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html). | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | Esse objeto contém um conjunto de identidades de usuário final com base no código de integração do namespace da identidade. O mapa de identidade pode ter mais de uma identidade de cada namespace. Para obter mais informações sobre namespaces, consulte a [Visão geral do namespace de identidade](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=pt-BR). | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | A ID gerada pelo cliente que pode ser usada para identificar exclusivamente uma solicitação de decisão de perfil. Essa ID é repetida na resposta e não influencia o resultado da decisão. | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
 | `xdm:allowDuplicatePropositions` | Esse objeto é a estrutura de controle das regras de eliminação de duplicação. Consiste em uma série de sinalizadores que indicam se a mesma opção pode ser proposta em uma determinada dimensão. Um sinalizador definido como true significa que as duplicatas são permitidas e não devem ser removidas na categoria indicada pelo sinalizador. Um sinalizador definido como falso significa que o mecanismo de decisão não deve fazer a mesma apresentação na dimensão e, em vez disso, escolher a próxima melhor opção para uma das subdecisões. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Se definido como verdadeiro, várias decisões podem receber a mesma opção. | `"xdm:acrossActivities": true` |
