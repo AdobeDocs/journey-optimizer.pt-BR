@@ -5,10 +5,10 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Beginner
-source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 46%
+ht-degree: 42%
 
 ---
 
@@ -57,4 +57,4 @@ Consulte as seguintes seções para configurar a primeira jornada e enviar mensa
 
 * **Criar jornadas**: enviar mensagens, aproveitar dados contextuais, refinar públicos, projetar e executar caso de uso de várias etapas. [Leia mais](building-journeys/journey.md)
 
-* **Monitorar mensagens e jornadas**: controle a execução de mensagens, verifique os relatórios de mensagens e jornadas e acompanhe as métricas de capacidade de entrega. [Leia mais](message-monitoring.md)
+* **Monitorar mensagens e jornadas**: controle a execução de mensagens, verifique relatórios de mensagens e jornadas, métricas de capacidade de entrega de acompanhamento. [Leia mais](message-monitoring.md)
