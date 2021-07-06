@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 7%
+source-wordcount: '613'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,18 @@ Este guia do desenvolvedor fornece etapas para ajudá-lo a começar a usar a API
 
 Este guia requer uma compreensão funcional dos seguintes componentes do Adobe Experience Platform:
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR): A estrutura padronizada pela qual  [!DNL Experience Platform] organiza os dados de experiência do cliente.
-   * [Noções básicas da composição](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR) do schema: Saiba mais sobre os componentes básicos dos esquemas XDM.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}: A estrutura padronizada pela qual  [!DNL Experience Platform] organiza os dados de experiência do cliente.
+   * [Noções básicas da composição do schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR){target=&quot;_blank&quot;}: Saiba mais sobre os componentes básicos dos esquemas XDM.
 * [Gerenciamento](../../../using/offers/get-started/starting-offer-decisioning.md) de decisões: Explica os conceitos e os componentes usados para o Experience Decisioning em geral e para o Offer decisioning em particular. Ilustra as estratégias usadas para escolher a melhor opção para apresentar durante a experiência de um cliente.
-* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html): O PQL é um idioma avançado para gravar expressões em instâncias do XDM. O PQL é usado para definir regras de decisão.
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}: O PQL é um idioma avançado para gravar expressões em instâncias do XDM. O PQL é usado para definir regras de decisão.
 
 ## Lendo exemplos de chamadas de API
 
-Este guia fornece exemplos de chamadas de API para demonstrar como formatar suas solicitações do . Isso inclui caminhos, cabeçalhos necessários e cargas de solicitação formatadas corretamente. O JSON de exemplo retornado nas respostas da API também é fornecido. Para obter informações sobre as convenções usadas na documentação para chamadas de API de exemplo, consulte a seção sobre [como ler chamadas de API de exemplo](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request) no [!DNL Experience Platform] guia de solução de problemas.
+Este guia fornece exemplos de chamadas de API para demonstrar como formatar suas solicitações do . Isso inclui caminhos, cabeçalhos necessários e cargas de solicitação formatadas corretamente. O JSON de exemplo retornado nas respostas da API também é fornecido. Para obter informações sobre as convenções usadas na documentação para chamadas de API de exemplo, consulte a seção sobre [como ler chamadas de API de exemplo](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target=&quot;_blank&quot;} no [!DNL Experience Platform] guia de solução de problemas.
 
 ## Coletar valores para cabeçalhos necessários
 
-Para fazer chamadas para [!DNL Platform] APIs, primeiro complete o [tutorial de autenticação](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html). A conclusão do tutorial de autenticação fornece os valores para cada um dos cabeçalhos necessários em todas as chamadas de API [!DNL Experience Platform], conforme mostrado abaixo:
+Para fazer chamadas para [!DNL Platform] APIs, primeiro complete o [tutorial de autenticação](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}. A conclusão do tutorial de autenticação fornece os valores para cada um dos cabeçalhos necessários em todas as chamadas de API [!DNL Experience Platform], conforme mostrado abaixo:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -49,7 +49,7 @@ Um contêiner é um mecanismo de isolamento para manter diferentes preocupaçõe
 
 Um administrador pode agrupar principais, recursos e permissões de acesso semelhantes em perfis. Isso reduz a carga de gerenciamento e é compatível com [Adobe Admin Console](https://adminconsole.adobe.com/). Você deve ser um administrador de produto do Adobe Experience Platform em sua organização para criar perfis e atribuir usuários a eles. É suficiente criar perfis de produto que correspondam a determinadas permissões em uma única etapa e, em seguida, simplesmente adicionar usuários a esses perfis. Os perfis atuam como grupos aos quais foram concedidas permissões e cada usuário real ou técnico nesse grupo herda essas permissões.
 
-Atribuído privilégios de administrador, você pode conceder ou retirar permissões aos usuários por meio do [Adobe Admin Console](https://adminconsole.adobe.com/). Para obter mais informações, consulte a [Visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR).
+Atribuído privilégios de administrador, você pode conceder ou retirar permissões aos usuários por meio do [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Para obter mais informações, consulte a [Visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 ### Listar contêineres acessíveis para usuários e integrações
 
