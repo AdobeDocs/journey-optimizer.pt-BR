@@ -5,9 +5,9 @@ feature: Eventos
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '296'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Para configurar eventos a serem enviados para **[!UICONTROL Streaming Ingestion APIs]** e serem usados em [!DNL Journey Optimizer], siga estas etapas:
 
-1. Obtenha o URL de entrada das APIs do Adobe Experience Platform. Saiba mais em [Visão geral das APIs de assimilação de fluxo](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html).
+1. Obtenha o URL de entrada das APIs do Adobe Experience Platform. Saiba mais em [Visão geral das APIs de assimilação de fluxo](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}.
 1. Copie a carga da pré-visualização de carga no menu **[!UICONTROL Event]**. Saiba mais [nesta página](../event/about-creating.md#define-the-payload-fields).
 
 Em seguida, é necessário configurar o sistema de dados que envia eventos para as APIs de assimilação de streaming usando a carga útil copiada:
@@ -84,6 +84,6 @@ Veja um exemplo de um evento de APIs de assimilação de fluxo:
 }
 ```
 
-Para facilitar a identificação do local onde colar a parte &quot;dados&quot;, você pode usar uma ferramenta de visualização JSON, como [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
+Para facilitar a identificação do local onde colar a parte &quot;dados&quot;, você pode usar uma ferramenta de visualização JSON, como [JSON formatter](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}.
 
-Para solucionar problemas de APIs de assimilação de fluxo, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).
+Para solucionar problemas de APIs de assimilação de fluxo, consulte a [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}.
