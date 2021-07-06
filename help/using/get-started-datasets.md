@@ -4,7 +4,7 @@ description: Saiba como usar conjuntos de dados do Adobe Experience Platform no 
 feature: Conjuntos de dados
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 15%
@@ -15,7 +15,7 @@ ht-degree: 15%
 
 Todos os dados assimilados no Adobe Experience Platform são mantidos no Data Lake como conjuntos de dados. Um conjunto de dados é uma construção de armazenamento e gerenciamento para uma coleção de dados, normalmente uma tabela, que contém um esquema (colunas) e campos (linhas).
 
-Saiba como criar conjuntos de dados em [esta documentação](https://experienceleague-review.corp.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
+Saiba como criar conjuntos de dados em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
 
 Adicionar dados ao Adobe Experience Platform é a base para a criação de um Perfil. Você poderá aproveitar os perfis em [!DNL Adobe Journey Optimizer]. Primeiro, defina esquemas, use ferramentas de ETL para preparar e padronizar seus dados e, em seguida, crie conjuntos de dados com base em seus esquemas.
 
