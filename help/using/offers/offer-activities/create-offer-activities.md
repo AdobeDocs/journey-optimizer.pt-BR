@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 As decisões (anteriormente conhecidas como atividades de oferta) são contêineres para suas ofertas que aproveitarão o Mecanismo de decisão da oferta para escolher a melhor oferta a ser entregue, dependendo do target do delivery.
 
-![](../../assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+➡️ [Descubra este recurso no vídeo](#video)
 
 A lista de decisões pode ser acessada no menu **[!UICONTROL Offers]** / **[!UICONTROL Decisions]**. Os filtros estão disponíveis para ajudá-lo a recuperar decisões de acordo com seu status ou datas de início e término.
 
