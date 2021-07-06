@@ -5,10 +5,10 @@ feature: Eventos
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 1%
+source-wordcount: '192'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ Você pode aproveitar todos os dados de evento comportamental do Adobe Analytics
 >
 >Esta seção se aplica somente a eventos com base em regras e clientes que precisam usar dados do Adobe Analytics.
 
-Para que isso funcione, é necessário ativar, no Adobe Experience Platform, o conjunto de relatórios que deseja aproveitar:
+Para que isso funcione, é necessário ativar, no Adobe Experience Platform, o conjunto de relatórios que você deseja aproveitar:
 
 1. No Adobe Experience Platform, selecione **[!UICONTROL Sources]** e **[!UICONTROL Add data]** na seção Adobe Analytics. A lista de conjuntos de relatórios disponíveis do Adobe Analytics é exibida.
 
@@ -32,4 +32,4 @@ Isso ativa o conector de origem do Analytics para esse conjunto de relatórios. 
 
 ![](../assets/jo-event9.png)
 
-Saiba mais sobre o conector de origem do Adobe Analytics na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) e [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Saiba mais sobre o conector de origem do Adobe Analytics na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=pt-BR){target=&quot;_blank&quot;} e [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=pt-BR){target=&quot;_blank&quot;}.
