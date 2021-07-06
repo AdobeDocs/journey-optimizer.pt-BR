@@ -5,10 +5,10 @@ feature: Eventos
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: 6e2526bd3c80ad2bff59502c6537a3e2213f7bf7
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 31%
+ht-degree: 49%
 
 ---
 
@@ -27,7 +27,7 @@ A configuração do evento permite definir as informações que o [!DNL Journey 
 
 Você pode configurar dois tipos de eventos:
 
-* **** Unitaryevents: esses eventos estão vinculados a uma pessoa. Elas estão relacionadas ao comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site etc.) ou com algo que acontece ligado a uma pessoa (por exemplo, uma pessoa atingiu 10.000 pontos no programa de fidelidade). É o que o [!DNL Journey Optimizer] escutará nas jornadas para orquestrar as melhores ações futuras. Eventos unários podem ser baseados em regras ou gerados pelo sistema. Para saber como criar um evento unitário, consulte esta [página](../event/about-creating.md).
+* **** Unitaryevents: esses eventos estão vinculados a uma pessoa. Elas estão relacionadas ao comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site etc.) ou com algo que acontece ligado a uma pessoa (por exemplo, uma pessoa atingiu 10.000 pontos no programa de fidelidade). É o que o [!DNL Journey Optimizer] escutará nas jornadas para orquestrar as melhores ações futuras. Eventos unitários podem ser baseados em regras ou gerados pelo sistema. Para saber como criar um evento unitário, consulte esta [página](../event/about-creating.md).
 
 * **** Eventos de negócios: um evento comercial é um evento que, ao contrário de um evento unitário, não está vinculado a um perfil específico. Por exemplo, pode ser um alerta de notícias, uma atualização de esportes, uma alteração ou cancelamento de voo, uma atualização de inventário, eventos climáticos etc. Embora esses eventos não sejam específicos de um perfil, eles podem ser de interesse para qualquer número de perfis: pessoas subscritas em determinados tópicos noticiosos, passageiros de um voo, compradores interessados em um produto esgotado, etc. Os eventos comerciais sempre se baseiam em regras. Quando você solta um evento comercial em uma jornada, ele adiciona automaticamente uma atividade **Read segment** logo em seguida. Para saber como criar um evento comercial, consulte esta [página](../event/about-creating-business.md).
 
@@ -42,13 +42,13 @@ Para eventos comerciais, o tipo de ID de evento sempre se baseia em regras.
 
 Para eventos unitários, há dois tipos de ID de evento:
 
-* **Baseados** em regras: esse tipo de evento não gera uma eventID. Usando o editor de expressões simples, basta definir uma regra que será usada pelo sistema para identificar os eventos relevantes que acionarão suas jornadas. Essa regra pode ser baseada em qualquer campo disponível no payload do evento, por exemplo, o local do perfil ou o número de itens adicionados ao carrinho do perfil.
+* **Eventos baseados em regras**: esse tipo de evento não gera uma eventID. Usando o editor de expressões simples, basta definir uma regra que será usada pelo sistema para identificar os eventos relevantes que acionarão suas jornadas. Essa regra pode ser baseada em qualquer campo disponível na carga do evento, por exemplo, o local do perfil ou o número de itens adicionados ao carrinho do perfil.
 
    >[!CAUTION]
    >
-   >Uma regra de limitação é definida para eventos com base em regras. Limita o número de eventos qualificados que uma jornada pode processar para 5000 por segundo em uma determinada organização (ORG). Corresponde aos SLAs do Journey Optimizer. Consulte esta [página](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
+   >Uma regra de limite é definida para eventos baseados em regras. Limita o número de eventos qualificados que uma jornada pode processar para 5000 por segundo em uma determinada organização (ORG). Corresponde aos SLAs do Journey Optimizer. Consulte esta [página](https://helpx.adobe.com/br/legal/product-descriptions/journey-orchestration.html).
 
-* **Eventos** gerados pelo sistema: esses eventos exigem uma eventID. Esse campo eventID é gerado automaticamente ao criar o evento. O sistema que envia o evento não deve gerar uma ID, mas sim passar a disponível na pré-visualização de carga.
+* **Eventos gerados pelo sistema**: esses eventos exigem uma eventID. Esse campo eventID é gerado automaticamente ao criar o evento. O sistema que envia o evento não deve gerar uma ID, mas sim passar a disponível na pré-visualização de carga.
 
 O Journey Optimizer requer que os eventos sejam transmitidos ou armazenados em lote no Adobe Experience Platform. Esses dados não precisam necessariamente acessar o Perfil em tempo real. Se você quiser usar os eventos para segmentação ou pesquisa em uma jornada separada, recomendamos ativar o conjunto de dados para perfil.
 
