@@ -5,10 +5,10 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 3%
+source-wordcount: '382'
+ht-degree: 2%
 
 ---
 
@@ -27,3 +27,18 @@ Você pode aproveitar os segmentos em jornadas de diferentes maneiras:
 * Use a atividade de evento **Segment qualification** para fazer com que os indivíduos insiram ou avancem em uma jornada com base nas entradas e saídas do segmento Adobe Experience Platform. Por exemplo, você pode fazer com que todos os novos clientes de prata insiram uma jornada e enviem mensagens para eles. Para obter mais informações sobre como usar essa atividade, consulte [esta seção](../building-journeys/segment-qualification-events.md).
 
 * Crie **condições complexas** em suas jornadas usando o editor de expressão simples ou avançado. Saiba mais [nesta seção](../building-journeys/condition-activity.md#using-a-segment).
+
+## Método de avaliação no Adobe Journey Optimizer {#evaluation-method-in-journey-optimizer}
+
+No Adobe Journey Optimizer, os públicos-alvo são gerados a partir das definições de segmento usando um destes métodos de avaliação:
+
+* Segmentação de transmissão — a lista de públicos-alvo do segmento é mantida atualizada em tempo real, enquanto novos dados fluem para o sistema.
+* Segmentação em lote — a lista de públicos-alvo do segmento é atualizada de hora em hora, com base nos dados que chegaram na última hora.
+
+A determinação entre a segmentação de lote e a segmentação de fluxo é feita pelo sistema para cada definição de segmento, com base na complexidade e no custo da avaliação da regra de segmento.
+
+Você pode exibir o método de avaliação para cada segmento na coluna **[!UICONTROL Evaluation method]** da lista de segmentos.
+
+Após ter definido um segmento pela primeira vez, os perfis são adicionados ao público-alvo quando se qualificam.
+
+O preenchimento retroativo do público-alvo a partir de dados anteriores pode demorar até 24 horas. Após o preenchimento retroativo do público-alvo, ele é continuamente atualizado e está sempre pronto para o direcionamento.
