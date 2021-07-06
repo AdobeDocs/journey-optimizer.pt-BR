@@ -7,9 +7,9 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: d713010e85936f7ce7b6389bc68d4eec2d8bdaae
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1027'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Vamos tomar um exemplo por um tempo limite de 5 segundos.
 
 Por padrão, não há regra de limitação. As regras de limitação são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação. Consulte [esta seção](../configuration/external-systems.md#capping) e [esta página](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html).
 
-**Quantas tentativas são executadas? Posso alterar o número de tentativas ou definir um período de espera mínimo entre tentativas?**
+**Quantas tentativas são executadas? Posso alterar o número de tentativas ou definir um período mínimo de espera entre as tentativas?**
 
 Para uma chamada específica, é possível executar no máximo três tentativas após a primeira chamada, até que o tempo limite seja atingido. Não é possível alterar o número de tentativas e o tempo entre cada nova tentativa. Consulte [esta seção](../configuration/external-systems.md#timeout).
 
