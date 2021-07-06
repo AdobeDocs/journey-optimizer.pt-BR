@@ -15,10 +15,10 @@ feature: Configurações do aplicativo
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 9%
+source-wordcount: '455'
+ht-degree: 10%
 
 ---
 
@@ -46,6 +46,10 @@ Para delegar um novo subdomínio, siga as etapas abaixo:
 1. Especifique o nome do subdomínio que será delegado.
 
    ![](../assets/subdomain-name.png)
+
+   >[!CAUTION]
+   >
+   >Certifique-se de inserir um subdomínio válido, como marketing.company.com. Não é permitido delegar um subdomínio inválido para Adobe.
 
 1. A lista de registros que serão colocados em seus servidores DNS é exibida. Copie esses registros, um por um ou baixando um arquivo CSV, e navegue até a solução de hospedagem de domínio para gerar os registros DNS correspondentes.
 
