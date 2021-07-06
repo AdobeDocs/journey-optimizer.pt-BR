@@ -5,7 +5,7 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 8bcc1721f0d451e386b1fa0c5972c783ced01c7f
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 1%
@@ -49,7 +49,7 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posterior na j
 
    ![](../assets/segment-copy.png)
 
-1. No campo **[!UICONTROL Behaviour]** , escolha é escutar as entradas, saídas ou ambos do segmento.
+1. No campo **[!UICONTROL Behaviour]** , escolha se deseja ouvir as entradas do segmento, as saídas ou ambos.
 
    >[!NOTE]
    >
@@ -85,7 +85,7 @@ Ao usar a qualificação de segmento para um segmento de lote, observe que um pi
 
 Além disso, se o segmento de lote for recém-criado e usado imediatamente em uma jornada, o primeiro lote de cálculo pode fazer com que um grande número de indivíduos insira a jornada.
 
-### Segmentos transmitidos{#streamed-speed-segment-qualification}
+### Segmentos canalizados{#streamed-speed-segment-qualification}
 
 Ao usar a qualificação de segmento para segmentos dinamizados, há menos risco de obter grandes picos de entradas/saídas devido à avaliação contínua do segmento. Ainda assim, se a definição do segmento levar a que um grande volume de clientes se qualifique ao mesmo tempo, também pode haver um pico.
 
