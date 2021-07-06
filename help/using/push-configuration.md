@@ -5,16 +5,16 @@ feature: Configurações do aplicativo
 topic: Push
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1432'
 ht-degree: 5%
 
 ---
 
 # Configurar canal de notificação por push {#push-notification-configuration}
 
-[!DNL Journey Optimizer] O permite criar suas jornadas e enviar mensagens para o público-alvo. Antes de começar a enviar notificações por push com [!DNL Journey Optimizer], é necessário garantir que as configurações e integrações estejam em vigor no aplicativo móvel e em [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. Para entender o fluxo de dados das Notificações por push no Adobe Jornada otimizer, consulte [esta página](push-gs.md).
+[!DNL Journey Optimizer] O permite criar suas jornadas e enviar mensagens para o público-alvo. Antes de começar a enviar notificações por push com [!DNL Journey Optimizer], é necessário garantir que as configurações e integrações estejam em vigor no aplicativo móvel e em [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. Para entender o fluxo de dados das Notificações por push em [!DNL Adobe Journey Optimizer], consulte [esta página](push-gs.md).
 
 ## Antes de começar
 
@@ -263,7 +263,7 @@ Para que essa jornada funcione, é necessário criar um esquema XDM. Para obter 
 
 1. Selecione **[!UICONTROL Create a new field group]**.
 
-1. Insira um **[!UICONTROL Display Name]** e um **[!UICONTROL Description]**. Clique em **[!UICONTROL Add field groups]** quando terminar. Para obter mais informações sobre como criar grupos de campos, consulte a [documentação do Sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR).
+1. Insira um **[!UICONTROL Display Name]** e um **[!UICONTROL Description]**. Clique em **[!UICONTROL Add field groups]** ao concluir. Para obter mais informações sobre como criar grupos de campos, consulte a [documentação do Sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR).
 
 
    ![](assets/test_push_4.png)
