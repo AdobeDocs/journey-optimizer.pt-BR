@@ -4,7 +4,7 @@ description: Saiba como gerenciar a privacidade
 topic: Privacidade
 role: User
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: 4f80fd89c772ee4097a42fdaf1bff1f02ddbc004
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 92%
@@ -35,7 +35,7 @@ Os dados pessoais e confidenciais precisam ser gerenciados com cuidado. Siga os 
 
 * Evite enviar mensagens não solicitadas (&quot;spam&quot;). A Adobe acredita fortemente nos princípios da permissão de marketing para promover a fidelidade e o valor vitalício do cliente e, portanto, é estritamente proibido o uso do Journey Optimizer para o envio de mensagens não solicitadas.
 
-O Journey Optimizer oferece a capacidade de gerenciar os direitos atribuídos aos usuários por meio de diferentes perfis de produto pré-construídos ou personalizados. Isso permite gerenciar quem em sua empresa pode acessar, modificar ou exportar diferentes tipos de dados. Saiba mais sobre como gerenciar direitos de acesso de usuário em [Gerenciar permissões](../administration/permissions.md).
+O Journey Optimizer oferece a capacidade de gerenciar os direitos atribuídos aos usuários por meio de diferentes perfis de produto pré-construídos ou personalizados. Isso permite gerenciar quem em sua empresa pode acessar, modificar ou exportar diferentes tipos de dados. Saiba mais sobre como gerenciar direitos de acesso de usuário em [Gerenciar permissões](administration/permissions.md).
 
 O Journey Optimizer também permite rastrear as mensagens enviadas e o comportamento dos recipients por meio de aberturas e cliques em links. [Saiba mais sobre gerenciamento de rastreamento](message-tracking.md).
 
