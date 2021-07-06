@@ -4,14 +4,14 @@ description: Saiba como gerenciar identidades no Adobe Journey Optimizer
 feature: Perfis
 role: User
 level: Beginner
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 7%
 
 ---
 
-# Introdução às identidades {#identities-gs}
+# Introdução a identidades {#identities-gs}
 
 Uma identidade são dados exclusivos de uma entidade, normalmente uma pessoa individual. Uma identidade como uma ID de logon, ECID ou ID de fidelidade é chamada de identidade conhecida.
 
