@@ -6,10 +6,10 @@ feature: Grupos de controle
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 18%
+source-wordcount: '726'
+ht-degree: 15%
 
 ---
 
@@ -61,7 +61,7 @@ Ao acessar a instância, o usuário verá uma exibição específica dependendo 
 
 ![](../assets/access_control_1.png)
 
-## Editar um perfil de produto existente {#edit-product-profile}
+## Edição de um perfil de produto existente {#edit-product-profile}
 
 Para soluções prontas para uso ou personalizadas **[!UICONTROL Product profiles]**, é possível adicionar ou excluir permissões a qualquer momento.
 
@@ -101,7 +101,7 @@ Se necessário, também é possível criar um novo perfil de produto com permiss
 
 [!DNL Journey Optimizer] O permite criar o seu próprio  **[!UICONTROL Product profiles]** e atribuir um conjunto de permissões e sandboxes aos usuários. Com **[!UICONTROL Product profiles]**, você pode autorizar ou negar acesso a determinadas funcionalidades ou objetos na interface.
 
-Para obter mais informações sobre como criar e gerenciar sandboxes, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR).
+Para obter mais informações sobre como criar e gerenciar sandboxes, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 Neste exemplo, criaremos um perfil de produto chamado **Jornada somente leitura**, onde concederemos direitos somente leitura ao recurso Jornada. Os usuários só poderão acessar e visualizar jornadas e não poderão acessar outros recursos, como **[!UICONTROL Decision management]** ou **[!UICONTROL Messages]** em [!DNL Journey Optimizer].
 
@@ -141,7 +141,7 @@ Para criar o **Jornada somente leitura** **[!UICONTROL product profiles]**:
 
    ![](../assets/access_control_13.png)
 
-1. Em **[!UICONTROL Available Permissions Items]**, clique no ícone de adição (+) para atribuir sandboxes ao perfil. [Saiba mais sobre sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR).
+1. Em **[!UICONTROL Available Permissions Items]**, clique no ícone de adição (+) para atribuir sandboxes ao perfil. [Saiba mais sobre sandboxes](sandboxes.md).
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
