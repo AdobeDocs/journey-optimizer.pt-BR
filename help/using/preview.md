@@ -5,9 +5,9 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
+source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,6 @@ Para detectar possíveis erros no conteúdo do email ou nas configurações de p
 >
 >Saiba como criar perfis de teste em [esta página](building-journeys/creating-test-profiles.md).
 
-
 Para testar o conteúdo da mensagem, é necessário:
 
 * [selecionar perfis de teste](#select-test-profiles)
@@ -38,6 +37,7 @@ Além disso, aproveite sua conta **Litmus** em [!DNL Journey Optimizer] para vis
 >
 >Ao visualizar uma mensagem ou enviar provas, somente os dados de personalização de perfil são exibidos. A personalização com base em dados de contexto, como informações de evento, só pode ser testada no contexto de uma jornada. Saiba como testar a personalização em [este caso de uso](personalization/personalization-use-case.md).
 
+![](assets/do-not-localize/how-to-video.png) [Saiba como visualizar, provar e publicar seu email neste vídeo](#video-preview)
 
 ## Selecionar perfis de teste{#select-test-profiles}
 
@@ -166,3 +166,8 @@ Em seguida, siga as etapas abaixo:
 >
 >Ao conectar sua conta **Litmus** com [!DNL Journey Optimizer], você concorda que as mensagens de teste são enviadas ao Litmus: depois de enviados, esses emails não são mais gerenciados pelo Adobe. Como consequência, a política de email de retenção de dados Litmus se aplica a esses emails, incluindo dados de personalização que podem ser incluídos nessas mensagens de teste.
 
+## Vídeo tutorial{#video-preview}
+
+Saiba como testar a renderização de email nas caixas de entrada, como visualizar seus emails personalizados em relação a perfis de teste, enviar provas e publicar seu email.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
