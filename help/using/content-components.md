@@ -5,9 +5,9 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '980'
 ht-degree: 2%
 
 ---
@@ -113,9 +113,9 @@ Use o componente **[!UICONTROL Image]** para inserir um arquivo de imagem de seu
 
    ![](assets/email_designer_9.png)
 
-1. Clique em **[!UICONTROL Browse]** para escolher um arquivo de imagem dos ativos.
+1. Clique em **[!UICONTROL Browse]** para escolher um arquivo de imagem a partir de seus ativos.
 
-   Para saber mais sobre [!DNL Assets Essentials], consulte a [documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
+   Para saber mais sobre [!DNL Assets Essentials], consulte a [documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
 
 1. Clique no componente recém-adicionado para começar a configurar o **[!UICONTROL Content Components]** e ter acesso ao **[!UICONTROL Components Settings]** no painel direito do designer de email.
 
