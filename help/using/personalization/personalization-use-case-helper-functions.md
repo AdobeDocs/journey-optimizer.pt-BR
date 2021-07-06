@@ -5,9 +5,9 @@ feature: Personalização
 topic: Personalização
 role: Data Engineer
 level: Intermediate
-source-git-commit: d5060fcd70a02a24af579d5fa86c5225d417fdc4
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1016'
 ht-degree: 4%
 
 ---
@@ -84,7 +84,7 @@ Siga estas etapas:
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      Saiba mais sobre o [tipo de dados do nome da pessoa](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html).
+      Saiba mais sobre o tipo de dados do nome da pessoa [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
 6. Clique em **[!UICONTROL Validate]** e depois em **[!UICONTROL Save]**.
 
@@ -98,7 +98,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 1. Crie um evento cujo esquema inclua a matriz `productListItems`.
 2. Defina todos os campos dessa matriz como campos de carga para esse evento.
 
-   Saiba mais sobre o [tipo de dados do item da lista de produtos](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html).
+   Saiba mais sobre o tipo de dados do item da lista de produtos [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
 
 3. Crie uma jornada que comece com esse evento.
 4. Adicione a mensagem à jornada.
@@ -328,15 +328,15 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 
 ### Funções de handlebars
 
-[Auxiliares](functions/helpers.md)
+* [Auxiliares](functions/helpers.md)
 
-[Funções de string](functions/string.md)
+* [Funções de string](functions/string.md)
 
 ### Casos de uso
 
-[Personalização com informações, contexto e oferta do perfil](personalization-use-case.md)
+* [Personalização com informações, contexto e oferta do perfil](personalization-use-case.md)
 
-[Personalização com oferta baseada em decisões](../offers/offers-e2e.md)
+* [Personalização com oferta baseada em decisões](../offers/offers-e2e.md)
 
 ## Tutorial em vídeo{#helper-functions-video}
 
