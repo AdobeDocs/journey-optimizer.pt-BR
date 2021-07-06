@@ -5,7 +5,7 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b495c96474e41d5b31cb3268434dbe36cfe13ec0
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 74%
@@ -98,7 +98,7 @@ Os casos de uso disponíveis são:
 
 * **Crie perfis** de teste para criar perfis de teste usando nosso modelo CSV para testar mensagens e jornadas personalizadas. Saiba como implementar este caso de uso [nesta página](building-journeys/creating-test-profiles.md#use-case-1).
 * **Envie uma mensagem de aniversário aos clientes**, para enviar automaticamente um e-mail para desejar aos clientes aniversários. (em breve)
-* **Envie emails para integrar novos clientes**, para enviar facilmente até dois emails para receber seus clientes recém-registrados. (em breve)
+* **Envie emails para novos clientes** integrados, para enviar facilmente até dois emails e receber seus clientes recém-registrados. (em breve)
 * **Envie mensagens de push para uma lista importada de clientes**, a fim de enviar rapidamente uma notificação por push para uma lista de clientes importados de um arquivo CSV. (em breve)
 
 Clique em **[!UICONTROL View details]** para saber mais sobre cada caso de uso.
@@ -139,7 +139,7 @@ Para alterar o idioma:
 
 ## Pesquisa
 
-Em qualquer lugar da interface do Adobe Journey Optimizer, use a pesquisa do Adobe Experience Cloud no centro da barra superior para localizar ativos, jornadas ou mensagens em suas sandboxes. Comece a inserir conteúdo para exibir os principais resultados.
+Em qualquer lugar da interface do Adobe Journey Optimizer, use a pesquisa do Adobe Experience Cloud no centro da barra superior para localizar ativos, jornadas ou mensagens nas sandboxes. Comece a inserir conteúdo para exibir os principais resultados.
 
 ![](assets/unified-search.png)
 
