@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 10%
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
 
@@ -26,4 +26,4 @@ O botão **[!UICONTROL Preview dataset]** permite exibir o lote bem-sucedido mai
 
 ![](../../assets/dataset-preview.png)
 
-Para obter mais informações sobre como navegar e usar conjuntos de dados, consulte a [documentação de conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#getting-started).
+Para obter mais informações sobre como navegar e usar conjuntos de dados, consulte [esta página](../../get-started-datasets.md).
