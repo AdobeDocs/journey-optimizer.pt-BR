@@ -15,7 +15,7 @@ feature: Configurações do aplicativo
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 5%
@@ -34,7 +34,7 @@ Com [!DNL Journey Optimizer], você pode monitorar todos os endereços de email 
 
 Esses endereços de email são coletados automaticamente na lista de supressão **do Journey Optimizer**. Saiba mais [nesta seção](../suppression-list.md).
 
-## Acesse a lista de supressão {#access-suppression-list}
+## Acessar a lista de supressão {#access-suppression-list}
 
 Para acessar a lista detalhada de endereços de email excluídos, abra o menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** e clique no link **[!UICONTROL View suppression lists]**.
 
@@ -48,7 +48,7 @@ Os filtros estão disponíveis para ajudar você a navegar pela lista.
 
 <!--You can also download the list as a CSV file for analysis and reporting purpose. Won't be available.-->
 
-## Categorias de supressão e motivos {#suppression-categories-and-reasons}
+## Categorias e motivos de supressão {#suppression-categories-and-reasons}
 
 Quando uma mensagem falha ao ser entregue a um endereço de email, o Journey Optimizer determina por que o delivery falhou e a associa a uma categoria de supressão.
 
