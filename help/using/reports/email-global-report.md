@@ -1,18 +1,18 @@
 ---
 title: Relatório global de email
 description: Saiba como usar dados do relatório global de email
-feature: Relatório
+feature: Relatórios
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
 
-# Relatório Global de Email {#email-global-report}
+# Relatório global de email {#email-global-report}
 
 O email **[!UICONTROL Global report]** é direcionado apenas a um delivery de email específico.
 
@@ -38,7 +38,7 @@ O email **[!UICONTROL Global report]** é dividido em diferentes widgets detalha
 
 * **[!UICONTROL Click Rate]**: Porcentagem de cliques em um delivery.
 
-* **[!UICONTROL Spam Complaint Rate]**: Porcentagem de emails que foram marcados como spam por recipients em comparação às mensagens entregues. Para obter mais informações sobre reclamações, consulte esta [página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
+* **[!UICONTROL Spam Complaint Rate]**: Porcentagem de emails que foram marcados como spam por recipients em comparação às mensagens entregues. Para obter mais informações sobre reclamações, consulte o [Guia de Práticas Recomendadas de Deliverability](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
 * **[!UICONTROL Unsubscribe Rate]**: Porcentagem de cancelamentos de subscrições exclusivas em comparação ao número de mensagens entregues. Esse indicador não depende do número de cliques no link de unsubscription, mas se baseia no número de unsubscriptions iniciadas pelos recipients. Saiba mais sobre unsubscriptions neste [page](../consent.md).
 
