@@ -1,18 +1,18 @@
 ---
-title: Integrar com o Adobe Campaign v7/v8
+title: Integrar ao Adobe Campaign v7/v8
 description: Saiba como integrar com o Adobe Campaign v7/v8
 feature: Ações
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: 9ca747c4f46fd7eb24dbbf12350d7bbe409b1617
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 4%
+source-wordcount: '450'
+ht-degree: 7%
 
 ---
 
-# Integrar com o Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
+# Integrar ao Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
 Essa integração está disponível para o Adobe Campaign Classic v7 a partir da versão 21.1 e Adobe Campaign v8. Ele permite enviar emails, notificações por push e SMS usando os recursos de Mensagens transacionais do Adobe Campaign.
 
@@ -36,7 +36,7 @@ Para cada ação configurada, uma atividade de ação está disponível na palet
 
 ## Pré-requisitos
 
-No Campaign, é necessário criar e publicar uma mensagem transacional e seu evento associado. Consulte a [documentação do Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
+No Campaign, é necessário criar e publicar uma mensagem transacional e seu evento associado. Consulte a [documentação do Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}.
 
 Você pode criar sua carga JSON correspondente a cada mensagem seguindo o padrão abaixo. Em seguida, você colará essa carga ao configurar a ação no Journey Orchestration (veja abaixo)
 
