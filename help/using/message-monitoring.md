@@ -5,10 +5,10 @@ feature: Monitoramento
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 1%
+source-wordcount: '507'
+ht-degree: 0%
 
 ---
 
@@ -87,6 +87,6 @@ Para cada execução de mensagem, vários indicadores são exibidos:
 
 * **[!UICONTROL Errors]**: Número de mensagens que não podem ser enviadas devido a uma falha técnica.
 
-* **[!UICONTROL Spam complaints]**: Número de mensagens que foram marcadas como spam por recipients. [Saiba mais sobre reclamações](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
+* **[!UICONTROL Spam complaints]**: Número de mensagens que foram marcadas como spam por recipients. Saiba mais sobre reclamações no [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
 Clicar em cada hiperlink abrirá a exibição de resumo de mensagem correspondente. [Saiba mais sobre mensagens](create-message.md).
