@@ -5,9 +5,9 @@ user-guide-title: Manual do Journey Optimizer
 user-guide-description: Usar o Journey Optimizer para fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '689'
 ht-degree: 97%
 
 ---
@@ -56,9 +56,12 @@ ht-degree: 97%
       + [Funções do objeto](using/personalization/functions/objects.md)
       + [Funções de string](using/personalization/functions/string.md)
    + [Adicionar ofertas personalizadas](using/deliver-personalized-offers.md)
-+ Segmentos {#segment}
-   + [Sobre segmentos](using/segment/about-segments.md)
-   + [Construir segmentos](using/segment/creating-a-segment.md)
++ Segmentos, perfis e identidade{#segment}
+   + Segmentos {#segments}
+      + [Sobre segmentos](using/segment/about-segments.md)
+      + [Construir segmentos](using/segment/creating-a-segment.md)
+   + [Perfis](using/get-started-profiles.md)
+   + [Identidade](using/get-started-identity.md)
 + Jornadas {#orchestrate-journeys}
    + Sobre jornadas{#about-journeys}
       + [Princípio geral](using/building-journeys/journey.md)
@@ -189,6 +192,10 @@ ht-degree: 97%
       + Entrega de oferta usando APIs {#offer-delivery}
          + [API de decisões](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [SDK da Web da Adobe Experience Platform](using/offers/api-reference/web-sdk.md)
++ Gerenciamento de dados {#data-management}
+   + [Esquemas](using/get-started-schemas.md)
+   + [Conjuntos de dados](using/get-started-datasets.md)
+   + [Consultas](using/get-started-queries.md)
 + Configuração {#get-started}
    + [Introdução à configuração do Journey Optimizer](using/configuration/get-started-configuration.md)
    + Configurar mensagens {#configuration}
@@ -228,6 +235,7 @@ ht-degree: 97%
          + [Sobre ações](using/action/action.md)
          + [Configurar uma ação](using/action/about-custom-action-configuration.md)
          + [Integrar ao Adobe Campaign v7/v8](using/action/acc-action.md)
+      + [Fontes](using/get-started-sources.md)
 + Controle de acesso {#administration}
    + [Visão geral do controle de acesso](using/administration/permissions-overview.md)
    + [Perfis de produto incorporados](using/administration/ootb-product-profiles.md)
