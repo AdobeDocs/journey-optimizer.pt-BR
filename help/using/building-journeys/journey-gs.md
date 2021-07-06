@@ -5,7 +5,7 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: c6f4369c98b28afe1c607996e3f993dbfe09f63e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 9%
@@ -128,7 +128,7 @@ Limitações:
 
 Observação importante:
 
-Se algum dos requisitos não for cumprido, o modo de burst não estará disponível na jornada.
+Se algum dos requisitos não for cumprido, o modo burst não estará disponível na jornada.
 
 Para ativar o modo Burst, abra a jornada e clique no ícone de lápis, na parte superior direita para acessar as propriedades da jornada. Em seguida, ative o botão **Ativar modo de interrupção**.
 
