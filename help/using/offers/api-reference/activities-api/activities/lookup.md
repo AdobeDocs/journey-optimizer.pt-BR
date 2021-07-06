@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integrações
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 5%
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # Procurar uma decisão
 
-Você pode procurar decisões específicas (anteriormente conhecidas como atividades de oferta) fazendo uma solicitação do GET para a API [!DNL Offer Library] que inclui as decisões `@id` ou o nome da decisão no caminho da solicitação.
+Você pode procurar decisões específicas (anteriormente conhecidas como atividades de oferta) fazendo uma solicitação GET para a API [!DNL Offer Library] que inclui as decisões `@id` ou o nome da decisão no caminho da solicitação.
 
 **Formato da API**
 
