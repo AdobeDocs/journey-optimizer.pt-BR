@@ -5,7 +5,7 @@ feature: Personalização
 topic: Personalização
 role: Data Engineer
 level: Experienced
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 3%
@@ -75,7 +75,7 @@ No [!DNL Journey Optimizer] Editor de expressão, as funções de ajuda são agr
         <td><a href="aggregation.md#max">Máximo</a></td><td>Essa função retorna o maior de todos os valores selecionados em uma matriz</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Superconjunto de</a></td><td>Essa função terminará se uma matriz específica (matriz A) for um superconjunto de outra matriz (matriz B), ou seja, se essa matriz A contiver todos os elementos na matriz B</td>
+    <td><a href="arrays-list.md#superset">Superconjunto de</a></td><td>Essa função determina se uma matriz específica (matriz A) é um superconjunto de outra matriz (matriz B), ou seja, se essa matriz A contém todos os elementos na matriz B</td>
     </tr>
 </table>
 
