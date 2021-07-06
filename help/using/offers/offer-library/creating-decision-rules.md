@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 15%
+source-wordcount: '244'
+ht-degree: 17%
 
 ---
 
@@ -32,7 +32,7 @@ Para criar uma regra de decisão, siga estas etapas:
 
 1. Nomeie a regra, forneça uma descrição e configure-a de acordo com suas necessidades.
 
-   Para fazer isso, o **Construtor de segmentos** do Adobe Experience Platform está disponível para ajudar você a criar as condições da regra. Para obter mais informações sobre como usá-lo, consulte a [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   Para fazer isso, o **Construtor de segmentos** fica disponível para ajudar você a criar as condições da regra. [Saiba mais](../../segment/about-segments.md)
 
    Neste exemplo, a regra direcionará os clientes que têm o nível de fidelidade &quot;Gold&quot;.
 
