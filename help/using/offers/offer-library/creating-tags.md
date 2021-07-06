@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 7%
@@ -18,7 +18,7 @@ A associação de tags às suas ofertas facilita a organização dessas tags. Po
 
 Tags também podem ser usadas para agrupar ofertas em coleções de ofertas. Consulte [Criar coleções](../offer-library/creating-collections.md).
 
-![](../../assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+➡️ [Descubra este recurso no vídeo](#video)
 
 A lista de tags criadas pode ser acessada no menu **[!UICONTROL Components]**.
 
