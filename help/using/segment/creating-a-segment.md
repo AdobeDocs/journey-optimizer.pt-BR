@@ -5,10 +5,10 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 7%
+source-wordcount: '304'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ Neste exemplo, criaremos um segmento para direcionar todos os clientes que moram
 
    ![](../assets/create-segment.png)
 
-   A tela de definição de segmento permite configurar todos os campos necessários para definir seu segmento. Saiba como configurar segmentos na [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   A tela de definição de segmento permite configurar todos os campos necessários para definir seu segmento. Saiba como configurar segmentos na [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target=&quot;_blank&quot;}.
 
    ![](../assets/segment-builder.png)
 
@@ -32,7 +32,7 @@ Neste exemplo, criaremos um segmento para direcionar todos os clientes que moram
 
    >[!NOTE]
    >
-   >Observe que os campos disponíveis no painel esquerdo variam dependendo de como os esquemas **Perfil individual XDM** e **XDM ExperienceEvent** foram configurados para sua organização.  Saiba mais na documentação do [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
+   >Observe que os campos disponíveis no painel esquerdo variam dependendo de como os esquemas **Perfil individual XDM** e **XDM ExperienceEvent** foram configurados para sua organização.  Saiba mais na documentação do [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
    ![](../assets/drag-fields.png)
 
