@@ -5,10 +5,10 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 42%
+source-wordcount: '403'
+ht-degree: 41%
 
 ---
 
@@ -26,7 +26,7 @@ Antes de começar a usar [!DNL Adobe Journey Optimizer], é necessário:
 
 * **Definir permissões** do usuário: faça logon  [!DNL Adobe Journey Optimizer] e dê acesso aos membros da sua equipe. [Leia mais](../using/administration/permissions.md)
 
-* **Implantar[!DNL Adobe Experience Manager Assets Essentials]**: para gerenciar ativos e imagens em suas mensagens, você precisará implantar  [!DNL Assets Essentials] em sua organização e garantir que os usuários, que precisam de acesso a  [!DNL Assets Essentials], façam parte dos perfis de produto do consumidor da  **Assets Essentials** ou dos  **usuários** do Assets Essentials. [Leia mais](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
+* **Implantar[!DNL Adobe Experience Manager Assets Essentials]**: para gerenciar ativos e imagens em suas mensagens, você precisará implantar  [!DNL Assets Essentials] em sua organização e garantir que os usuários, que precisam de acesso a  [!DNL Assets Essentials], façam parte dos perfis de produto do consumidor da  **Assets Essentials** ou dos  **usuários** do Assets Essentials. [Leia mais](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) {target=&quot;_blank&quot;}
 
 * **Configure seus canais**: defina as configurações de email e notificação por push. [Leia mais](../using/configuration/get-started-configuration.md)
 
@@ -34,13 +34,13 @@ Antes de começar a usar [!DNL Adobe Journey Optimizer], é necessário:
 
 * **Identificar dados e criar esquema e conjunto de dados**: obtenha dados na Adobe Experience Platform, crie um namespace de identidade e um conjunto de dados habilitado para perfis, crie segmentos e perfis de teste.
 
-   * Saiba como visualizar e criar um conjunto de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR)
+   * Saiba como visualizar e criar um conjunto de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR){target=&quot;_blank&quot;}
 
-   * Saiba como criar um namespace de identidade na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=br#manage-namespaces)
+   * Saiba como criar um namespace de identidade na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=br#manage-namespaces){target=&quot;_blank&quot;}
 
    * Saiba como criar perfis de teste em [esta página](../using/building-journeys/creating-test-profiles.md)
 
-   * Saiba mais sobre a assimilação de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR)
+   * Saiba mais sobre a assimilação de dados na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target=&quot;_blank&quot;}
 
 
 ### Fluxo de uso
