@@ -5,18 +5,18 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '383'
 ht-degree: 2%
 
 ---
 
-# Sobre segmentos do Adobe Experience Platform {#about-segments}
+# Introdução a segmentos {#about-segments}
 
-[!DNL Journey Optimizer]  O permite criar segmentos do Adobe Experience Platform usando dados de Perfil do cliente em tempo real diretamente do  **[!UICONTROL Segments]** menu e aproveitá-los em suas jornadas.
+[!DNL Journey Optimizer] O permite criar segmentos do Adobe Experience Platform usando dados de Perfil do cliente em tempo real diretamente do  **[!UICONTROL Segments]** menu e aproveitá-los em suas jornadas.
 
-Observe que os segmentos também podem ser criados a partir do próprio serviço de Segmentação. Saiba mais na [documentação do Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+Observe que os segmentos também podem ser criados a partir do próprio serviço de Segmentação. Saiba mais na [documentação do Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}.
 
 Você pode aproveitar os segmentos em jornadas de diferentes maneiras:
 
