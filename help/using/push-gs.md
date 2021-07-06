@@ -5,9 +5,9 @@ feature: Configurações do aplicativo
 topic: Push
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '793'
 ht-degree: 2%
 
 ---
@@ -20,16 +20,16 @@ Esta página ajudará você a configurar e compreender os principais serviços e
 
 As etapas para configurar o canal de push em [!DNL Adobe Journey Optimizer] são detalhadas em [nesta página](push-configuration.md).
 
-## Notificações por push e Adobe Journey Optimizer
+## Notificações por push e [!DNL Adobe Journey Optimizer]
 
 O gráfico a seguir mostra os sistemas e serviços envolvidos com fluxos de dados associados, destacando como as notificações por push são fornecidas de um ponto de vista de serviço completo.
 
 ![](assets/push-flow.png)
 
 1. Registro do aplicativo para dispositivos móveis com marca (Android ou iOS) com APNs da Apple e serviços de mensagens por push do Google FCM
-1. Os serviços de mensagens geram um token de push, que é um identificador que a Adobe Journey Optimizer usará para direcionar o dispositivo específico com uma notificação por push.
+1. Os serviços de mensagens geram um token de push, que é um identificador que [!DNL Adobe Journey Optimizer] usará para direcionar o dispositivo específico com uma notificação por push.
 1. O token de push gerado anteriormente é transmitido à Adobe Experience Platform e sincronizado com o Perfil do cliente em tempo real; isso é feito no OOTB com um SDK de cliente fácil de integrar
-1. As mensagens de push são criadas no Adobe Journey Optimizer, as mensagens de push são criadas em relação a uma predefinição de mensagem
+1. As mensagens de push são criadas em [!DNL Adobe Journey Optimizer], as mensagens de push são criadas em relação a uma predefinição de mensagem
 1. As mensagens de push podem ser incluídas na tela de orquestração no Jornada
 1. Após a publicação do Jornada, os perfis do cliente com base nas condições do Jornada são qualificados para receber notificações por push, as cargas de mensagens por push são personalizadas nesta etapa
 1. As cargas de push personalizadas são encaminhadas para um serviço interno de delivery de mensagens de push
@@ -47,7 +47,7 @@ O gráfico a seguir mostra os sistemas e serviços envolvidos com fluxos de dado
    * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging)  - para enviar notificações para aplicativos móveis Android
    * [Apple Push Notification Service (APNs)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html)  - para enviar notificações para aplicativos móveis iOS
 
-* **Adobe Experience Platform Mobile** SDK, que fornece APIs de integração do lado do cliente para dispositivos móveis por meio de SDKs compatíveis com Android e iOS. O SDK fornece uma extensão do Adobe Journey Optimizer que expõe uma variedade de APIs específicas para mensagens de push e ativar o fluxo de dados, como registrar o token de push ou enviar eventos de rastreamento de push ou qualquer outro evento de experiência personalizada para o Adobe Experience Platform. O SDK também fornece uma variedade de outras extensões que permitem outros recursos do Adobe Experience Cloud e de parceiros de terceiros.
+* **Adobe Experience Platform Mobile** SDK, que fornece APIs de integração do lado do cliente para dispositivos móveis por meio de SDKs compatíveis com Android e iOS. O SDK fornece uma extensão [!DNL Adobe Journey Optimizer] que expõe uma variedade de APIs específicas para mensagens de push e permite o fluxo de dados como registrar o token de push ou enviar eventos de rastreamento de push ou qualquer outro evento de experiência personalizada para o Adobe Experience Platform. O SDK também fornece uma variedade de outras extensões que permitem outros recursos do Adobe Experience Cloud e de parceiros de terceiros.
 
    A integração do SDK também requer a configuração de serviços de [Coleta de dados](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=pt-BR) do Adobe Experience Platform, como:
 
@@ -57,7 +57,7 @@ O gráfico a seguir mostra os sistemas e serviços envolvidos com fluxos de dado
 
 * **O**  Perfil do cliente em tempo real da Adobe Experience Platform mantém uma visão holística de cada cliente individual ao combinar dados de vários canais, incluindo Web, dispositivos móveis, CRM e de terceiros. O Perfil permite consolidar os dados do cliente em uma visualização unificada, oferecendo uma conta acionável com carimbo de data e hora de cada interação com o cliente. O token de push de um determinado usuário do aplicativo é armazenado em relação ao perfil do usuário como dados de registro, enquanto as interações que o usuário faz com as notificações de push são rastreadas como dados de eventos da série de tempo. [Saiba mais sobre o Perfil do cliente em tempo real da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
 
-* **[!DNL Adobe Journey Optimizer]** : depois que as integrações do aplicativo móvel com os componentes acima mencionados estiverem em vigor e os perfis do cliente estiverem no Adobe Experience Platform, você poderá criar e orquestrar notificações por push no Adobe Journey Optimizer para interagir com os usuários.
+* **[!DNL Adobe Journey Optimizer]** : depois que as integrações do aplicativo móvel com os componentes acima mencionados estiverem em vigor e os perfis do cliente estiverem no Adobe Experience Platform, você poderá criar e orquestrar notificações por push no  [!DNL Adobe Journey Optimizer] para interagir com os usuários.
 
 ## Instalação técnica por push e fluxos de trabalho do profissional
 
