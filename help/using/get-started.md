@@ -5,10 +5,10 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Beginner
-source-git-commit: 6783aaec0d050074624b9aa8219252ebf7618088
+source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 21%
+source-wordcount: '688'
+ht-degree: 23%
 
 ---
 
@@ -25,6 +25,9 @@ O [!DNL Adobe Journey Optimizer] ajuda as empresas a fornecer experiências cone
 
 [!DNL Adobe Journey Optimizer] O é criado originalmente no  [!DNL Adobe Experience Platform] e combina um perfil de cliente unificado em tempo real, uma estrutura aberta pela primeira API, um offer decisioning centralizado e inteligência artificial (AI) e aprendizado de máquina (ML) para personalização e otimização. O Journey Optimizer permite que as marcas determinem de forma inteligente a próxima melhor interação com escala, velocidade e flexibilidade em toda a jornada do cliente. Com [!DNL Adobe Journey Optimizer], as empresas podem criar e entregar campanhas de marketing agendado (como promoções semanais para uma loja de varejo) e comunicações individuais personalizadas (como uma notificação por push para um item que um cliente do aplicativo de fidelidade pode ter visto que estava indisponível) dentro do mesmo aplicativo.
 
+➡️ [Discover Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target=&quot;_blank&quot;} (vídeo)
+
+
 ## Casos de uso
 
 * Os profissionais de marketing podem usar [!DNL Adobe Journey Optimizer] para enviar comunicações individualizadas, bem como comunicações em lote baseadas em público-alvo. Por exemplo, uma loja de roupas normalmente envia pesquisas pós-compra para todos os clientes que compraram produtos na última semana. Devido à intempérie, alguns carregamentos sofreram atrasos. Ao ver quais clientes não receberam suas remessas, a loja de roupas pode excluí-los do envio agendado de satisfação do cliente e, em vez disso, enviar um email personalizado pedindo desculpas pelo atraso e oferecendo um código de desconto com recomendações de produto com base nas compras anteriores do cliente.
@@ -35,7 +38,8 @@ O [!DNL Adobe Journey Optimizer] ajuda as empresas a fornecer experiências cone
 
 ## Principais recursos
 
-[!DNL Adobe Journey Optimizer] é um aplicativo ágil e escalável para criar e fornecer experiências personalizadas, conectadas e oportunas do cliente em qualquer aplicativo, dispositivo ou canal.
+[!DNL Adobe Journey Optimizer]O é um aplicativo ágil e escalável para a criação e o fornecimento de 
+experiências personalizadas, conectadas e pontuais ao cliente por meio de qualquer aplicativo, dispositivo ou canal.
 
 ![](assets/ajo-capabilities.png)
 
@@ -46,6 +50,13 @@ Os principais recursos incluem:
 * **Orquestração e execução modernas do Omnichannel**  - Uma tela única na qual se pode harmonizar e otimizar a jornada do cliente para o engajamento do cliente 1:1 e o alcance de marketing do cliente - para ajudar as marcas a agregar mais valor ao longo do ciclo de vida do cliente. As jornadas do cliente projetadas em [!DNL Adobe Journey Optimizer] podem ser dinâmicas e baseadas em eventos para ajudar as marcas a reagir a sinais em tempo real, bem como conectar essas interações com campanhas programadas, para que as decisões certas possam ser tomadas sobre quais comunicações enviar um cliente, quando e por quais canais.
 
 * **Decisão e personalização inteligentes**  - As marcas podem aplicar decisões centralizadas e incorporar inteligência artificial e aprendizado de máquina para exibir insights preditivos em toda a experiência do cliente, facilitando a automatização das decisões e a otimização da experiência em escala. O Offer Decisioning alimenta ofertas centralizadas em canais em escala por meio de [!DNL Adobe Journey Optimizer].
+
+## Arquitetura
+
+Entenda a arquitetura básica de [!DNL Adobe Journey Optimizer], os pontos de integração e o relacionamento de [!DNL Journey Optimizer] com outros aplicativos Adobe.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
+
 
 >[!NOTE]
 >
