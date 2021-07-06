@@ -1,20 +1,20 @@
 ---
 title: Rastrear suas mensagens
-description: Saiba como rastrear mensagens enviadas
+description: Saiba como adicionar links e rastrear mensagens enviadas
 feature: Monitoramento
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: e27472cc6186cf7cb25fdb93d15720fc837c58bb
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 2%
+source-wordcount: '536'
+ht-degree: 4%
 
 ---
 
-# Rastreamento de mensagens {#tracking}
+# Adicionar links e rastrear mensagens {#tracking}
 
-Use [!DNL Journey Optimizer] para rastrear as mensagens enviadas e o comportamento dos recipients.
+Use [!DNL Journey Optimizer] para adicionar links ao seu conteúdo e rastrear as mensagens enviadas para monitorar o comportamento dos recipients.
 
 ## Habilitar rastreamento {#enable-tracking}
 
@@ -50,7 +50,7 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
    * **[!UICONTROL Unsubscription link]**: Insira um link para cancelar a assinatura do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de não participação em [esta seção](consent.md#opt-out-management).
 
-   * **[!UICONTROL Mirror page]**: Insira um link para exibir o conteúdo do email em um navegador da Web.
+   * **[!UICONTROL Mirror page]**: Insira um link para exibir o conteúdo do email em um navegador da Web. Saiba mais [nesta seção](#mirror-page).
 
    ![](assets/message-tracking-links.png)
 
@@ -65,7 +65,29 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
    ![](assets/message-tracking-link-settings.png)
 
-## Gerenciar o rastreamento {#manage-tracking}
+## Link para uma mirror page {#mirror-page}
+
+A mirror page é uma página HTML acessível online através de um navegador da Web. Seu conteúdo é idêntico ao conteúdo do email.
+
+Para adicionar um link a uma mirror page no seu email, [insira um link](#insert-links) e selecione **[!UICONTROL Mirror page]** como o tipo de link.
+
+![](assets/message-tracking-mirror-page.png)
+
+A mirror page é criada automaticamente.
+
+>[!NOTE]
+>
+>Não é possível editar o link gerado automaticamente.
+
+Depois que o email for enviado, quando os recipients clicarem no link da mirror page, o conteúdo do email será exibido no navegador padrão.
+
+>[!NOTE]
+>
+>No [proof](preview.md#send-proofs) enviado aos perfis de teste, o link para a mirror page não está ativo. Ela só é ativada nas mensagens finais.
+
+O período de retenção de uma mirror page é de 60 dias. Após esse atraso, a mirror page não estará mais disponível.
+
+## Gerenciar rastreamento {#manage-tracking}
 
 O [Email Designer](create-email-content.md) permite gerenciar os URLs rastreados, como editar o tipo de rastreamento para cada link.
 
