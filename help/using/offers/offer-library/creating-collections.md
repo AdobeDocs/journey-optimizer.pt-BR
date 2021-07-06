@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 As coleções permitem organizar as ofertas, reagrupando-as em categorias de sua escolha. Você pode, por exemplo, criar uma coleção &quot;esportiva&quot; que conterá somente ofertas relacionadas ao esporte.
 
-![](../../assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](#video)
+➡️ [Descubra este recurso no vídeo](#video)
 
 A lista de coleções de oferta pode ser acessada no menu **[!UICONTROL Offers]**.
 
