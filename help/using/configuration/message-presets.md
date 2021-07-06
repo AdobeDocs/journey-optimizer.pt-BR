@@ -5,9 +5,9 @@ feature: Configurações do aplicativo
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,8 @@ Com [!DNL Journey Optimizer], é possível configurar predefinições de mensage
 
 
 Após configurar as predefinições de mensagem, é possível selecioná-las ao criar mensagens na lista **[!UICONTROL Presets]**.
+
+![](../assets/do-not-localize/how-to-video.png) [Saiba como criar e usar predefinições de email neste vídeo](#video-presets)
 
 ## Criar uma predefinição de mensagem {#create-message-preset}
 
@@ -148,3 +150,8 @@ Para editar uma predefinição de mensagem, primeiro é necessário desativá-la
    >
    >As predefinições de mensagens desativadas não podem ser excluídas para evitar qualquer problema no jornada usando essas predefinições para enviar mensagens.
 
+## Vídeo tutorial{#video-presets}
+
+Saiba como criar predefinições de mensagens, usá-las e delegar um subdomínio e criar um pool de IP.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
