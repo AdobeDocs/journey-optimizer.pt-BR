@@ -5,9 +5,9 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '799'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posterior na j
 
    >[!NOTE]
    >
-   >Observe que **[!UICONTROL Enter]** e **[!UICONTROL Exit]** correspondem aos status de participação do segmento **Realizado** e **Saído** do Adobe Experience Platform. Para obter mais informações sobre como avaliar um segmento, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >Observe que **[!UICONTROL Enter]** e **[!UICONTROL Exit]** correspondem aos status de participação do segmento **Realizado** e **Saído** do Adobe Experience Platform. Para obter mais informações sobre como avaliar um segmento, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}.
 
 1. Selecione um namespace. Isso só será necessário se o evento for posicionado como a primeira etapa da jornada.
 
@@ -89,7 +89,7 @@ Além disso, se o segmento de lote for recém-criado e usado imediatamente em um
 
 Ao usar a qualificação de segmento para segmentos dinamizados, há menos risco de obter grandes picos de entradas/saídas devido à avaliação contínua do segmento. Ainda assim, se a definição do segmento levar a que um grande volume de clientes se qualifique ao mesmo tempo, também pode haver um pico.
 
-Para obter mais informações sobre a segmentação de transmissão, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+Para obter mais informações sobre a segmentação de transmissão, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### Como evitar sobrecargas{#overloads-speed-segment-qualification}
 
@@ -99,7 +99,7 @@ Não use, em uma atividade **[!UICONTROL Segment Qualification]**, um segmento d
 
 ![](../assets/segment-error.png)
 
-Coloque uma regra de limitação para fontes de dados e ações usadas em jornadas para evitar sobrecarregá-las (consulte esta [seção](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html)). Observe que a regra de limitação não tem nenhuma tentativa. Se precisar tentar novamente, use um caminho alternativo na jornada, marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]** em condições ou ações.
+Coloque uma regra de limitação para fontes de dados e ações usadas em jornadas para evitar sobrecarregá-las. Saiba mais em [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. Observe que a regra de limitação não tem nenhuma tentativa. Se precisar tentar novamente, use um caminho alternativo na jornada, marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]** em condições ou ações.
 
 Antes de usar o segmento em uma jornada de produção, sempre avalie primeiro o volume de indivíduos qualificados para esse segmento a cada dia. Para fazer isso, você pode verificar o menu **[!UICONTROL Segments]**, abrir o segmento e examinar o gráfico **[!UICONTROL Profiles over time]**.
 
