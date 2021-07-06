@@ -5,9 +5,9 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1493'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Para começar a criar seu conteúdo de email com o designer de email, siga as et
 
    ![](assets/email_designer_3.png)
 
-1. Cada componente pode ser personalizado ainda mais com a seção **[!UICONTROL Component settings]** . Por exemplo, você pode alterar o estilo do texto, o preenchimento ou a margem do componente. [Saiba mais sobre estilos no Editor](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html) de email.
+1. Cada componente pode ser personalizado ainda mais com a seção **[!UICONTROL Component settings]** . Por exemplo, você pode alterar o estilo do texto, o preenchimento ou a margem do componente. Saiba mais sobre estilos no Editor de email na [documentação do Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html){target=&quot;_blank&quot;}.
 
    ![](assets/email_designer_4.png)
 
