@@ -5,7 +5,7 @@ feature: Personalização
 topic: Personalização
 role: Data Engineer
 level: Intermediate
-source-git-commit: 74662ee07422d507889788a790547c774b65f944
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 5%
@@ -69,7 +69,7 @@ Os atributos precisam ser definidos no schema antes de serem referenciados em um
 
 `{{profile.faxPhone.number}}`
 
-## Segmentos {#perso-segments}
+## Segmentos{#perso-segments}
 
 Saiba como aproveitar os atributos de perfil em condições em [esta seção](functions/helpers.md#if-function).
 
@@ -116,12 +116,12 @@ Todas as referências são validadas em relação ao Esquema de ofertas com um m
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## Ajuda{#helpers-all}
+## Auxiliares{#helpers-all}
 
 Um Handlebars helper é um identificador simples que pode ser seguido por parâmetros.
 Cada parâmetro é uma expressão Handlebars. Essas ajuda podem ser acessadas de qualquer contexto em um modelo.
 
-Esses ajudantes de bloco são identificados por um # que precede o nome do auxiliar e requer um fechamento /, do mesmo nome correspondente.
+Esses ajudantes de bloco são identificados por um # anterior ao nome do auxiliar e exigem um fechamento /, correspondente do mesmo nome.
 Blocos são expressões que têm um bloco abrindo ({{# }}) e fechando ({{/}}).
 
 
