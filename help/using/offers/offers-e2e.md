@@ -5,14 +5,14 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: a6a421fc23f4564bb24061c019c9418b491e7eee
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 4%
 
 ---
 
-# Caso de uso: Configure as ofertas personalizadas para usá-las em um email {#configure-add-personalized-offers-email}
+# Caso de uso: Configurar ofertas personalizadas para usá-las em um email {#configure-add-personalized-offers-email}
 
 Esta seção apresenta um exemplo completo para mostrar como configurar ofertas e usá-las em um email, com base em uma decisão criada anteriormente.
 
@@ -58,7 +58,7 @@ O processo geral de Gerenciamento de decisões para usar ofertas em um email pod
 
 ![](../assets/offers-e2e-process.png)
 
-## Defina os componentes {#define-components}
+## Definir os componentes {#define-components}
 
 Antes de começar a criar ofertas, você deve definir vários componentes que usará em suas ofertas.
 
@@ -131,7 +131,7 @@ Agora você pode criar e configurar suas ofertas. Neste exemplo, você criará q
 
    ![](../assets/offers-e2e-representations.png)
 
-1. Na seção **[!UICONTROL Offer eligiblity]** , selecione **[!UICONTROL By defined decision rule]** e arraste e solte a regra de sua escolha.
+1. Na seção **[!UICONTROL Offer eligibility]** , selecione **[!UICONTROL By defined decision rule]** e arraste e solte a regra de sua escolha.
 
    ![](../assets/offers-e2e-eligibility.png)
 
@@ -204,7 +204,7 @@ Para criar e configurar uma decisão de oferta, siga as principais etapas abaixo
 
    ![](../assets/offers-e2e-decision-collection.png)
 
-1. Se você definiu uma classificação ao [criar seus componentes](#define-components), é possível atribuí-la a uma disposição na decisão. Se várias ofertas forem elegíveis para serem apresentadas nesta disposição, a decisão usará essa fórmula para calcular qual oferta entregar primeiro.
+1. Se você definiu uma classificação ao [criar seus componentes](#define-components), é possível atribuí-la a uma disposição na decisão. Se várias ofertas estiverem qualificadas para serem apresentadas nesta disposição, a decisão usará essa fórmula para calcular qual oferta entregar primeiro.
 
    As etapas detalhadas para atribuir uma fórmula de classificação a uma disposição são descritas em [this section](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
 
@@ -220,7 +220,7 @@ Sua decisão agora está pronta para ser usada para fornecer ofertas otimizadas 
 
 As etapas detalhadas para criar e configurar uma decisão são descritas em [this section](../../using/offers/offer-activities/create-offer-activities.md).
 
-## Insira a decisão em um email {#insert-decision-in-email}
+## Inserir a decisão em um email {#insert-decision-in-email}
 
 Agora que sua decisão está em execução, você pode inseri-la em uma mensagem de email. Para isso, siga as etapas abaixo:
 
