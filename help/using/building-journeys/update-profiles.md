@@ -5,7 +5,7 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -29,7 +29,7 @@ A atividade de ação **[!UICONTROL Update Profile]** permite atualizar um perfi
 
 No modo de teste, a atualização do perfil não será simulada. A atualização será executada no perfil de teste.
 
-Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. Na Adobe Experience Platform, você pode atualizar atributos de perfil por meio de uma importação de arquivo csv ou chamadas de API. Um método mais simples é usar uma atividade de ação **Atualizar perfil** e alterar o campo booleano do perfil de teste de false para true.
+Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. No Adobe Experience Platform, é possível atualizar os atributos de perfil por meio de uma importação de arquivo csv ou chamadas de API. Um método mais simples é usar uma atividade de ação **Atualizar perfil** e alterar o campo booleano do perfil de teste de false para true.
 
 Para obter mais informações sobre como transformar um perfil existente em um perfil de teste, consulte esta [seção](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
 
