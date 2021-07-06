@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Beginner
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 97%
@@ -30,7 +30,7 @@ Os benefícios incluem:
 * Workflows aprimorados: em vez de criar vários deliveries ou campanhas, as equipes de marketing podem aprimorar os workflows criando um único delivery e variar as ofertas em diferentes partes do modelo,
 * Controle a quantidade de vezes que uma oferta é exibida em campanhas e clientes.
 
-![](../../assets/do-not-localize/how-to-video.png) [Assista a estes tutoriais em vídeo](#tutorial-videos) para saber mais sobre o Gerenciamento de decisão.
+➡️ [Assista a estes tutoriais em vídeo](#tutorial-videos) para saber mais sobre o Gerenciamento de decisão.
 
 ## Sobre ofertas e decisões {#offers-offer-activities}
 
