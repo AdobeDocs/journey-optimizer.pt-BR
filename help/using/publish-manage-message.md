@@ -6,7 +6,7 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 7eceb7292c127c1b16a564fc19d0fc091808ee35
+source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 4%
@@ -21,7 +21,7 @@ Depois que a mensagem tiver sido criada, você poderá publicá-la para disponib
 
 >[!CAUTION]
 >
->Antes de publicar, verifique e resolva os alertas. [Saiba mais](alerts.md).
+>Antes de publicar, verifique e resolva os alertas. [Saiba mais](alerts.md)
 
 ![](assets/publish-message.png)
 
@@ -29,7 +29,7 @@ Depois que a mensagem é publicada, ela é adicionada à lista de mensagens com 
 
 Agora ele está pronto para ser acionado por um ou mais [jornada](building-journeys/journey.md).
 
-## Atualizar uma mensagem somente leitura {#modify-message}
+## Atualizar uma mensagem só de leitura {#modify-message}
 
 Após a publicação, uma mensagem fica no modo somente leitura. Você ainda pode atualizá-la criando um novo rascunho dessa mensagem.
 
