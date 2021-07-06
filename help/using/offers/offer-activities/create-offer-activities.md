@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 4%
@@ -102,7 +102,7 @@ Para obter mais informações sobre delivery de ofertas, consulte estas seções
 
 >[!NOTE]
 >
->Depois que uma decisão for criada, clique no nome na lista para acessar informações detalhadas e vizualizar todas as alterações feitas nela usando a guia **[!UICONTROL Change log]** (consulte [Offers and decisions changes log](../get-started/user-interface.md#changes-log)).
+>Depois que uma decisão é criada, você pode clicar no nome na lista para acessar informações detalhadas e visualizar todas as alterações feitas nela usando a guia **[!UICONTROL Change log]** (consulte [Offers and decisions changes log](../get-started/user-interface.md#changes-log)).
 
 ## Tutorial em vídeo {#video}
 
