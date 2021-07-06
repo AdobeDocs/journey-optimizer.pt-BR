@@ -5,10 +5,10 @@ user-guide-title: Manual do Journey Optimizer
 user-guide-description: Usar o Journey Optimizer para fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 98%
+source-wordcount: '677'
+ht-degree: 97%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 98%
       + [Projetar conteúdo de email na interface](using/create-email-content.md)
       + [Importar ou codificar conteúdo de email](using/existing-content.md)
       + [Usar componentes de conteúdo do designer de email](using/content-components.md)
+   + [Adicionar links e rastrear mensagens](using/message-tracking.md)
    + Validar e publicar {#create-message}
       + [Pré-visualização e provas](using/preview.md)
       + [Verificar alertas](using/alerts.md)
@@ -41,7 +42,9 @@ ht-degree: 98%
    + [Introdução com personalização](using/personalization/personalize.md)
    + [Sintaxe de personalização](using/personalization/personalization-syntax.md)
    + [Validação de personalização](using/personalization/personalization-validation.md)
-   + [Caso de uso: adicionar personalização em uma notificação por push](using/personalization/personalization-use-case.md)
+   + Casos de uso{#personalization-use-cases}
+      + [Notificação do status do pedido](using/personalization/personalization-use-case.md)
+      + [Email de abandono do carrinho](using/personalization/personalization-use-case-helper-functions.md)
    + Funções auxiliares{#functions}
       + [Lista de funções auxiliares](using/personalization/functions/functions.md)
       + [Funções de agregação](using/personalization/functions/aggregation.md)
@@ -88,7 +91,6 @@ ht-degree: 98%
       + [Enviar mensagens de vários canais](using/building-journeys/journeys-uc.md)
       + [Enviar uma mensagem usando o Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
 + Rastrear e monitorar {#reporting}
-   + [Rastreamento de mensagens](using/message-tracking.md)
    + [Monitoramento de mensagens](using/message-monitoring.md)
    + Relatório ao vivo {#live-report}
       + [Acessar o painel de relatórios em tempo real](using/reports/live-report.md)
