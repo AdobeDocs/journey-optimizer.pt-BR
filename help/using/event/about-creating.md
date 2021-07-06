@@ -5,7 +5,7 @@ feature: Eventos
 topic: Administração
 role: Administrator
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1656'
 ht-degree: 14%
@@ -71,7 +71,7 @@ Estas são as primeiras etapas para configurar um novo evento:
 
    Agora o evento está configurado e pronto para ser lançado em uma jornada. Etapas de configuração adicionais são necessárias para receber eventos. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
 
-## Defina os campos de carga {#define-the-payload-fields}
+## Definir os campos de carga {#define-the-payload-fields}
 
 A definição de carga permite escolher as informações que o sistema espera receber do evento em sua jornada e a chave para identificar qual pessoa está associada ao evento. A carga é baseada na definição do campo Experience Cloud XDM. Para obter mais informações sobre XDM, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
 
@@ -99,7 +99,7 @@ A definição de carga permite escolher as informações que o sistema espera re
 
    ![](../assets/journey12.png)
 
-## Selecione o namespace {#select-the-namespace}
+## Selecionar namespace {#select-the-namespace}
 
 O namespace permite definir o tipo de chave usada para identificar a pessoa associada ao evento. Sua configuração é opcional. É necessário se você quiser recuperar, em suas jornadas, informações adicionais provenientes do [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html). A definição do namespace não é necessária se você estiver usando apenas dados provenientes de um sistema de terceiros por meio de uma fonte de dados personalizada.
 
@@ -118,7 +118,7 @@ Selecione um namespace na lista suspensa.
 
 Somente um namespace é permitido por jornada. Se você usar vários eventos na mesma jornada, eles precisarão usar o mesmo namespace. Consulte [esta página](../building-journeys/journey.md).
 
-## Defina o identificador de perfil {#define-the-event-key}
+## Definir o identificador de perfil {#define-the-event-key}
 
 A chave é o campo ou combinação de campos que faz parte dos dados de carga do evento e que permitirá que o sistema identifique a pessoa associada ao evento. A chave pode ser, por exemplo, a ID do Experience Cloud, uma ID do CRM ou um endereço de email.
 
