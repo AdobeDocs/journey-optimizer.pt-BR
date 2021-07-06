@@ -5,9 +5,9 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 8dfa7a7700e1bb452ea9cd5e7d0adb6df55de03b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1328'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,9 @@ Os métodos disponíveis para criar perfis de teste são detalhados abaixo:
 
 * Você pode criar um perfil de teste carregando um [arquivo csv](#create-test-profiles-csv) ou usando [chamadas de API](#create-test-profiles-api). Além desses dois métodos, o Adobe Journey Optimizer vem com um [caso de uso no produto](#use-case-1) específico para facilitar a criação do perfil de teste.
 
-* Você também pode fazer upload de um arquivo json em um conjunto de dados. Para obter mais informações, consulte a [Documentação de assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).
+* Você também pode fazer upload de um arquivo json em um conjunto de dados. Para obter mais informações, consulte a [Documentação de assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}.
 
-Observe que criar um perfil de teste é semelhante à criação de perfis regulares no Adobe Experience Platform. Para obter mais informações, consulte a [documentação do Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Observe que criar um perfil de teste é semelhante à criação de perfis regulares no Adobe Experience Platform. Para obter mais informações, consulte a [documentação do Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 ## Pré-requisitos {#test-profile-prerequisites}
 
@@ -59,7 +59,7 @@ Depois de concluído, clique em  **[!UICONTROL Add field groups]**: a lista de g
 
 >[!NOTE]
 >
->Para obter mais informações sobre a criação do schema, consulte a [documentação XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites).
+>Para obter mais informações sobre a criação do schema, consulte a [documentação XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target=&quot;_blank&quot;}.
 
 Em seguida, é necessário **criar o conjunto de dados** no qual os perfis serão importados. Siga estas etapas:
 
@@ -76,7 +76,7 @@ Em seguida, é necessário **criar o conjunto de dados** no qual os perfis serã
 
 >[!NOTE]
 >
-> Para obter mais informações sobre a criação do conjunto de dados, consulte a [Documentação do Serviço de Catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started).
+> Para obter mais informações sobre a criação do conjunto de dados, consulte a [Documentação do Serviço de Catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
 ## Caso de uso no produto{#use-case-1}
 
@@ -88,7 +88,7 @@ Clique no botão **[!UICONTROL Begin]** para iniciar o caso de uso.
 
 As seguintes informações são obrigatórias:
 
-1. **Namespace** de identidade: O namespace  [de identidade ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) usado para identificar exclusivamente os perfis de teste. Por exemplo, se o email for usado para identificar os perfis de teste, o namespace de identidade **Email** deverá ser selecionado. Se o identificador exclusivo for o número de telefone, então o namespace de identidade **Phone** deverá ser selecionado.
+1. **Namespace** de identidade: O namespace  [de identidade ](../get-started-identity.md) usado para identificar exclusivamente os perfis de teste. Por exemplo, se o email for usado para identificar os perfis de teste, o namespace de identidade **Email** deverá ser selecionado. Se o identificador exclusivo for o número de telefone, então o namespace de identidade **Phone** deverá ser selecionado.
 
 2. **Arquivo** CSV: Um arquivo separado por vírgulas contendo a lista de perfis de teste a serem criados. O caso de uso espera um formato predefinido para o arquivo CSV que contenha a lista de perfis de teste a serem criados. Cada linha no arquivo deve incluir os seguintes campos na ordem correta, da seguinte maneira:
 
@@ -171,11 +171,11 @@ No Adobe Experience Platform, é possível criar perfis carregando um arquivo cs
 Seus perfis de teste são adicionados e agora podem ser usados ao testar uma jornada. Consulte [esta seção](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
-> Para obter mais informações sobre importações de csv, consulte a [documentação sobre assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials).
+> Para obter mais informações sobre importações de csv, consulte a [Documentação de assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target=&quot;_blank&quot;}.
 
 ## Criar perfis de teste usando chamadas de API{#create-test-profiles-api}
 
-Também é possível criar perfis de teste por meio de chamadas de API. Saiba mais nesta [página](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Também é possível criar perfis de teste por meio de chamadas de API. Saiba mais em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 Você deve usar um Esquema de perfil que contenha o grupo de campos &quot;Detalhes do teste de perfil&quot;. O sinalizador testProfile faz parte desse grupo de campos.
 Ao criar um perfil, transmita o valor: testProfile = true.
