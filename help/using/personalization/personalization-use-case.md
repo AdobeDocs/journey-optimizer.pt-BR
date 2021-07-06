@@ -5,9 +5,9 @@ feature: Personalização
 topic: Personalização
 role: Data Engineer
 level: Intermediate
-source-git-commit: f05e968a29d76e8dcd8e96fb8a5a1c60c4b12529
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '624'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 1. Selecione a categoria **Contexto**. Esse item só estará disponível se uma jornada tiver passado dados contextuais para a mensagem. Clique em **Journey Orchestration**. As seguintes informações contextuais são exibidas:
 
    * **Eventos**: esta categoria agrupa todos os campos do(s) evento(s) colocado(s) antes da atividade  **** Mensagem na jornada.
-   * **Propriedades** da Jornada: os campos técnicos relacionados à jornada de um determinado perfil, por exemplo, a ID da jornada ou os erros específicos encontrados. Consulte a [documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys).
+   * **Propriedades** da Jornada: os campos técnicos relacionados à jornada de um determinado perfil, por exemplo, a ID da jornada ou os erros específicos encontrados. Saiba mais em [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys){target=&quot;_blank&quot;}.
 
    ![](assets/perso-uc10.png)
 
