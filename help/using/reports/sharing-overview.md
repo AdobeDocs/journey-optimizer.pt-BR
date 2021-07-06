@@ -1,11 +1,11 @@
 ---
 title: Visão geral do compartilhamento de etapas da jornada
 description: Visão geral do compartilhamento de etapas da jornada
-feature: Relatório
+feature: Relatórios
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 7%
@@ -18,7 +18,7 @@ Além dos [relatórios em tempo real](live-report.md) e dos [recursos de relató
 
 >[!NOTE]
 >
->Esse recurso é ativado por padrão em todas as instâncias para eventos de etapas do jornada. Para eventos de etapa de perfil do jornada, a ativação é feita mediante solicitação. Os esquemas e conjuntos de dados criados durante o provisionamento para esse recurso não devem ser alterados.
+>Esse recurso é ativado por padrão em todas as instâncias para eventos de etapas do jornada. Para eventos de etapa do perfil do jornada, a ativação é feita mediante solicitação. Os esquemas e conjuntos de dados criados durante o provisionamento para esse recurso não devem ser alterados.
 
 Por exemplo, você configurou uma jornada que envia vários emails. Esse recurso permite combinar [!DNL Journey Optimizer] dados com dados de evento downstream, como quantas conversões ocorreram, quanto envolvimento aconteceu no site ou quantas transações ocorreram na loja. As informações de jornada podem ser combinadas com dados no Adobe Experience Platform, de outras propriedades digitais ou de propriedades offline, para fornecer uma visão mais abrangente do desempenho.
 
