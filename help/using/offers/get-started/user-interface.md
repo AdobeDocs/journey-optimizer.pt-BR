@@ -70,7 +70,7 @@ Observe que você também pode duplicar uma oferta existente ou decisões para c
 
 ![](../../assets/duplicate-offer.png)
 
-## Ofertas e decisões alteram logs {#changes-logs}
+## Registros de alteração de ofertas e decisões {#changes-logs}
 
 A Biblioteca de ofertas permite visualizar todas as alterações feitas em uma oferta ou decisão. Para fazer isso, abra a oferta ou a decisão clicando no nome na lista e selecione a guia **[!UICONTROL Change log]**.
 
