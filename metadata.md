@@ -7,9 +7,9 @@ product: Journey Optimizer
 solution: Journey Optimizer
 solution-title: Documentação do Journey Optimizer
 source-git-commit: 34b567ff172444e32251e0d1d3878f44ea342d5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ O arquivo metadata.md inclui metadados de nível de repositório transmitidos pa
 
 No arquivo TOC.md
 
-| metadados | o que faz |
+| metadata | o que faz |
 |--- |--- |
 | user-guide-title | Usado no cabeçalho do artigo como link |
 | user-guide-url | Abre a página helpx hub |
