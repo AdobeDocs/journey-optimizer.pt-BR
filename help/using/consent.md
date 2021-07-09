@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '737'
-ht-degree: 79%
+ht-degree: 93%
 
 ---
 
@@ -129,19 +129,19 @@ Corpo da solicitação:
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
-## Cancelar assinatura do link no cabeçalho {#unsubscribe-email}
+## Link de cancelamento de inscrição no cabeçalho {#unsubscribe-email}
 
-Se o cliente de email dos recipients suportar a exibição de um link de cancelamento de inscrição no cabeçalho do email, os emails enviados com [!DNL Journey Optimizer] incluirão automaticamente esse link.
+Se o sistema de email dos destinatários suportar a exibição de um link de cancelamento de inscrição no cabeçalho do email, os emails enviados com o [!DNL Journey Optimizer] incluirão automaticamente este link.
 
 Por exemplo, o link de cancelamento de inscrição será exibido assim no Gmail:
 
 ![](assets/unsubscribe-email.png)
 
-Dependendo do cliente de email, clicar no link de cancelamento de inscrição no cabeçalho terá um dos seguintes impactos:
+Dependendo do sistema de email, clicar no link de cancelamento de inscrição no cabeçalho terá um dos seguintes resultados:
 
-* O perfil correspondente é imediatamente rejeitado e essa escolha é atualizada no Experience Platform. Saiba mais na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}.
+* O perfil correspondente é cancelado imediatamente e essa escolha é atualizada no Experience Platform. Saiba mais na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}.
 
-* Ela tem o mesmo efeito de clicar no link de cancelamento de inscrição no conteúdo do email: o recipient é redirecionado para uma landing page, incluindo um botão para confirmar a recusa. Saiba mais sobre o gerenciamento de não participação em [esta seção](#opt-out-management).
+* Isso tem o mesmo efeito que clicar no link de cancelamento de inscrição no conteúdo do email: o destinatário é redirecionado a uma página de aterrissagem, em que encontrará um botão para confirmar a recusa. Saiba mais sobre o gerenciamento de recusa [nesta seção](#opt-out-management).
 
 ## Encaminhar o gerenciamento de recusa {#push-opt-out-management}
 
