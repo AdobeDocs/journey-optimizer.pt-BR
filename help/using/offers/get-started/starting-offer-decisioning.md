@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Os recursos e a integração do Gerenciamento de decisão com a Adobe Experience
 
 ## Glossário {#glossary}
 
-Você pode encontrar abaixo a lista dos principais conceitos com os quais você trabalhará ao usar o Gerenciamento de decisões.
+Você pode encontrar abaixo a lista dos principais conceitos com os quais trabalhará ao usar o Gerenciamento de decisões.
 
 * **Limite** ou **Limite de frequência**: o limite é usado como uma restrição para definir quantas vezes uma oferta é apresentada. Há dois tipos de limites, quantas vezes uma oferta pode ser proposta através do público-alvo combinado, também conhecido como &quot;Limites totais&quot;, e quantas vezes uma oferta pode ser proposta ao mesmo usuário final, também conhecido como &quot;Limite de perfil&quot;.
 
