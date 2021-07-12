@@ -5,9 +5,9 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -68,5 +68,4 @@ Você pode escolher uma dessas duas soluções:
 
 ## Ler limitações do segmento
 
-* Não é possível acionar uma jornada baseada em segmento em um período de tempo menor que 1 hora.
 * Os segmentos continuados estão sempre atualizados, mas os segmentos em lote não serão calculados no momento da recuperação. Só são avaliados todos os dias no momento da avaliação diária do lote.
