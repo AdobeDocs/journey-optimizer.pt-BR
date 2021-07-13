@@ -3,9 +3,9 @@ title: Sobre dados do Adobe Analytics
 description: Saiba como aproveitar os dados do Adobe Analytics
 feature: Eventos
 topic: Administração
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 9%
@@ -20,7 +20,7 @@ Você pode aproveitar todos os dados de evento comportamental do Adobe Analytics
 >
 >Esta seção se aplica somente a eventos com base em regras e clientes que precisam usar dados do Adobe Analytics.
 
-Para que isso funcione, é necessário ativar, no Adobe Experience Platform, o conjunto de relatórios que você deseja aproveitar:
+Para que isso funcione, é necessário ativar, no Adobe Experience Platform, o conjunto de relatórios que deseja aproveitar:
 
 1. No Adobe Experience Platform, selecione **[!UICONTROL Sources]** e **[!UICONTROL Add data]** na seção Adobe Analytics. A lista de conjuntos de relatórios disponíveis do Adobe Analytics é exibida.
 
