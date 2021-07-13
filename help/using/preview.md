@@ -5,10 +5,10 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Para detectar possíveis erros no conteúdo do email ou nas configurações de p
 >
 >Você precisa ter perfis de teste disponíveis para pré-visualizar suas mensagens e enviar provas.
 >
->Saiba como criar perfis de teste em [esta página](building-journeys/creating-test-profiles.md).
+>Saiba como criar perfis de teste [nesta página](building-journeys/creating-test-profiles.md).
 
 Para testar o conteúdo da mensagem, é necessário:
 
@@ -37,7 +37,7 @@ Além disso, aproveite sua conta **Litmus** em [!DNL Journey Optimizer] para vis
 >
 >Ao visualizar uma mensagem ou enviar provas, somente os dados de personalização de perfil são exibidos. A personalização com base em dados de contexto, como informações de evento, só pode ser testada no contexto de uma jornada. Saiba como testar a personalização em [este caso de uso](personalization/personalization-use-case.md).
 
-![](assets/do-not-localize/how-to-video.png) [Saiba como visualizar, provar e publicar seu email neste vídeo](#video-preview)
+➡️ [Saiba como visualizar, provar e publicar seu email neste vídeo](#video-preview)
 
 ## Selecionar perfis de teste{#select-test-profiles}
 
@@ -168,6 +168,6 @@ Em seguida, siga as etapas abaixo:
 
 ## Vídeo tutorial{#video-preview}
 
-Saiba como testar a renderização de email nas caixas de entrada, como visualizar seus emails personalizados em relação a perfis de teste, enviar provas e publicar seu email.
+Saiba como testar a renderização de email nas caixas de entrada, como pré-visualizar emails personalizados em relação a perfis de teste, enviar provas e publicar seu email.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
