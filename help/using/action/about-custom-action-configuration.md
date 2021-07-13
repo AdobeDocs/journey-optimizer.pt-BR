@@ -4,9 +4,9 @@ title: Sobre a configuração de ação personalizada
 description: Saiba como configurar uma ação personalizada
 feature: Ações
 topic: Administração
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 9%
@@ -64,7 +64,7 @@ Ao configurar uma ação personalizada, você precisa definir os seguintes parâ
    >
    >Os cabeçalhos são validados de acordo com as seguintes [regras de análise](https://tools.ietf.org/html/rfc7230#section-3.2.4).
 
-## Defina os parâmetros de ação {#define-the-message-parameters}
+## Definir os parâmetros de ação {#define-the-message-parameters}
 
 ![](../assets/messageparameterssection.png)
 
