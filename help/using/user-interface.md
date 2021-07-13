@@ -5,10 +5,10 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: af60022d99c3f881b8d932682e92ed142deb75d2
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 93%
+source-wordcount: '1095'
+ht-degree: 92%
 
 ---
 
@@ -45,47 +45,47 @@ A página inicial do [!DNL Journey Optimizer] contém os links e recursos princi
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
-* **[!UICONTROL Journeys]**: crie, configure e orquestre as jornadas do cliente. Saiba mais [nesta seção](building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Journeys]**: crie, configure e orquestre as jornadas do cliente. [Saiba mais](building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]**: crie, projete, teste e publique mensagens de email e por push. Saiba mais [nesta seção](create-message.md)
+* **[!UICONTROL Messages]**: crie, projete, teste e publique mensagens de email e por push. [Saiba mais](create-message.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
 * **[!UICONTROL Offers]**: acesse as fontes e os conjuntos de dados recentes nesse menu. Use esta seção para criar novas ofertas. [Saiba mais](offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL Components]**: crie inserções, regras e tags. Saiba mais [nesta seção](offers/offer-library/key-steps.md)
+* **[!UICONTROL Components]**: crie inserções, regras e tags. [Saiba mais](offers/offer-library/key-steps.md)
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]**: o [!DNL Adobe Experience Manager Assets Essentials] é um repositório centralizado de assets que podem ser usados para preencher suas mensagens. Saiba mais [nesta seção](assets-essentials.md)
+* **[!UICONTROL Assets]**: o [!DNL Adobe Experience Manager Assets Essentials] é um repositório centralizado de assets que podem ser usados para preencher suas mensagens. [Saiba mais](assets-essentials.md)
 
 **[!UICONTROL DATA MANAGEMENT]**
 
-* **[!UICONTROL Schemas]**: use a Adobe Experience Platform para criar e gerenciar esquemas do Experience Data Model (XDM) em uma tela visual interativa chamada de Editor de esquemas. [Saiba mais nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR){target=&quot;_blank&quot;}
+* **[!UICONTROL Schemas]**: use a Adobe Experience Platform para criar e gerenciar esquemas do Experience Data Model (XDM) em uma tela visual interativa chamada de Editor de esquemas. [Saiba mais](get-started-schemas.md)
 
-* **[!UICONTROL Datasets]**: todos os dados assimilados na Adobe Experience Platform são mantidos no Data Lake como conjuntos de dados. Um conjunto de dados é uma construção de armazenamento e gerenciamento para uma coleção de dados, normalmente uma tabela, que contém um esquema (colunas) e campos (linhas). [Saiba como visualizar e criar um conjunto de dados nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR){target=&quot;_blank&quot;}
+* **[!UICONTROL Datasets]**: todos os dados assimilados na Adobe Experience Platform são mantidos no Data Lake como conjuntos de dados. Um conjunto de dados é uma construção de armazenamento e gerenciamento para uma coleção de dados, normalmente uma tabela, que contém um esquema (colunas) e campos (linhas). [Saiba mais](get-started-datasets.md)
 
-* **[!UICONTROL Queries]**: use o Serviço de consulta da Adobe Experience Platform para gravar e executar consultas, exibir consultas executadas anteriormente e acessar consultas salvas por usuários em sua organização. [Saiba mais nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=pt-BR){target=&quot;_blank&quot;}
+* **[!UICONTROL Queries]**: use o Serviço de consulta da Adobe Experience Platform para gravar e executar consultas, exibir consultas executadas anteriormente e acessar consultas salvas por usuários em sua organização. [Saiba mais](get-started-queries.md)
 
-* **[!UICONTROL Monitoring]**: use esse menu para monitorar a assimilação de dados na interface do usuário da Adobe Experience Platform. [Saiba mais nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=pt-BR){target=&quot;_blank&quot;}
+* **[!UICONTROL Monitoring]**: use esse menu para monitorar a assimilação de dados na interface do usuário da Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=pt-BR){target=&quot;_blank&quot;}
 
 **[!UICONTROL CONNECTIONS]**
 
-* **[!UICONTROL Sources]**: use esse menu para assimilar dados de várias fontes, como aplicativos da Adobe, armazenamentos na nuvem, bancos de dados e muito mais, e estruturar, rotular e aprimorar os dados recebidos. [Saiba mais nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR){target=&quot;_blank&quot;}
+* **[!UICONTROL Sources]**: use esse menu para assimilar dados de várias fontes, como aplicativos da Adobe, armazenamentos na nuvem, bancos de dados e muito mais, e estruturar, rotular e aprimorar os dados recebidos. [Saiba mais](get-started-sources.md)
 
 **[!UICONTROL CUSTOMER]**
 
-* **[!UICONTROL Segments]**: crie e gerencie definições de segmento da Experience Platform e aproveite-as em suas jornadas. Saiba mais [nesta página](segment/about-segments.md)
+* **[!UICONTROL Segments]**: crie e gerencie definições de segmento da Experience Platform e aproveite-as em suas jornadas. [Saiba mais](segment/about-segments.md)
 
-* **[!UICONTROL Profiles]**: o Perfil do cliente em tempo real cria uma visualização integral de cada cliente individual, combinando dados de vários canais, inclusive dados online, offline, CRM e de terceiros. [Saiba mais nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR){target=&quot;_blank&quot;}
+* **[!UICONTROL Profiles]**: o Perfil do cliente em tempo real cria uma visualização integral de cada cliente individual, combinando dados de vários canais, inclusive dados online, offline, CRM e de terceiros. [Saiba mais](get-started-profiles.md)
 
-* **[!UICONTROL Identities]**: o Adobe Experience Platform Identity Service gerencia a identificação entre dispositivos, canais e quase em tempo real dos clientes no que é conhecido como um gráfico de identidade na Adobe Experience Platform. [Saiba como criar um namespace de identidade nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=br#manage-namespaces){target=&quot;_blank&quot;}
+* **[!UICONTROL Identities]**: o Adobe Experience Platform Identity Service gerencia a identificação entre dispositivos, canais e quase em tempo real dos clientes no que é conhecido como um gráfico de identidade na Adobe Experience Platform. [Saiba mais](get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
 * **[!UICONTROL Journey Administration]**: use esse menu para configurar [eventos](event/about-events.md), [fontes de dados](datasource/about-data-sources.md) e [ações](action/action.md) para usar em suas jornadas.
 
-* **[!UICONTROL Sandboxes]**: a Adobe Experience Platform fornece sandboxes que particionam uma única instância em ambientes virtuais separados para ajudar a desenvolver aplicativos de experiência digital. [Saiba mais sobre sandboxes nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR){target=&quot;_blank&quot;}
+* **[!UICONTROL Sandboxes]**: a Adobe Experience Platform fornece sandboxes que particionam uma única instância em ambientes virtuais separados para ajudar a desenvolver aplicativos de experiência digital. [Saiba mais](administration/sandboxes.md)
 
 
 ## Casos de uso no produto
