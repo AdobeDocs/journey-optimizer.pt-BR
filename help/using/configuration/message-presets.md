@@ -5,7 +5,7 @@ feature: Configurações do aplicativo
 topic: Administração
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Com [!DNL Journey Optimizer], é possível configurar predefinições de mensage
 
 Após configurar as predefinições de mensagem, é possível selecioná-las ao criar mensagens na lista **[!UICONTROL Presets]**.
 
-![](../assets/do-not-localize/how-to-video.png) [Saiba como criar e usar predefinições de email neste vídeo](#video-presets)
+➡️ [Saiba como criar e usar predefinições de email neste vídeo](#video-presets)
 
 ## Criar uma predefinição de mensagem {#create-message-preset}
 
