@@ -1,10 +1,10 @@
 ---
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
-source-git-commit: 8ef68f64f8ef354bced99f0eaada78be22488920
+source-git-commit: 6c69bbb06de57c62d8894b451d9dab9b318c8ebc
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 18%
+source-wordcount: '207'
+ht-degree: 17%
 
 ---
 
@@ -15,9 +15,10 @@ Esta página lista todas as atualizações de documentação do [!DNL Journey Op
 
 ## Julho de 2021
 
-* Links diretos adicionados à documentação dos serviços do Experience Platform na [!DNL Journey Optimizer] página inicial e tabela de conteúdo
+* Links diretos adicionados à documentação dos serviços do Experience Platform na [!DNL Journey Optimizer] página inicial e no índice
+* Novas páginas de aterrissagem para serviços Experience Platform disponíveis em [!DNL Journey Optimizer]
 * Links adicionados à descrição do produto [!DNL Journey Optimizer] na página inicial
-* Vídeos tutoriais adicionados em páginas doc
+* Vídeos tutoriais adicionados em várias páginas
 * Imagem otimizada da página inicial
 * Seção &quot;Rastreamento de mensagens&quot; movida, aprimorada e renomeada para &quot;Adicionar links e rastrear mensagens&quot;. [Leia mais](message-tracking.md)
 * Adição de uma subseção em mirror pages. [Leia mais](message-tracking.md#mirror-page)
