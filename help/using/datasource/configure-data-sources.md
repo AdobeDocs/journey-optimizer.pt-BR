@@ -3,9 +3,9 @@ title: Configurar uma fonte de dados
 description: Saiba como configurar uma fonte de dados
 feature: Fontes de dados
 topic: Administração
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 8%
