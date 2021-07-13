@@ -6,7 +6,7 @@ feature: Grupos de controle
 topic: Administração
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 15%
@@ -39,17 +39,17 @@ Para atribuir um **[!UICONTROL Product profile]**:
 
 1. Selecione um **[!UICONTROL Product profile]**.
 
-   ![](../assets/access_control_2.png)
+   ![](../assets/do-not-localize/access_control_2.png)
 
 1. Na guia **[!UICONTROL Users]**, clique em **[!UICONTROL Add user]**.
 
-   ![](../assets/access_control_3.png)
+   ![](../assets/do-not-localize/access_control_3.png)
 
 1. Digite o nome do usuário ou endereço de email e selecione o usuário.
 
    Se o usuário não tiver sido criado anteriormente no [!DNL Admin Console], consulte a [Documentação Adicionar usuários](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
-   ![](../assets/access_control_4.png)
+   ![](../assets/do-not-localize/access_control_4.png)
 
 1. Siga as mesmas etapas descritas acima para adicionar outros usuários a **[!UICONTROL Product profile]**. Em seguida, clique em **[!UICONTROL Save]**.
 
@@ -59,7 +59,7 @@ Para obter mais informações sobre o gerenciamento de usuários, consulte a [do
 
 Ao acessar a instância, o usuário verá uma exibição específica dependendo das permissões atribuídas no **[!UICONTROL Product profile]**. Se o usuário não tiver o acesso correto a um recurso, a tela a seguir será exibida.
 
-![](../assets/access_control_1.png)
+![](../assets/do-not-localize/access_control_1.png)
 
 ## Edição de um perfil de produto existente {#edit-product-profile}
 
@@ -77,23 +77,23 @@ Observe que, se modificar um **[!UICONTROL Product profile]** pronto para uso ou
 
    A guia **[!UICONTROL Permissions]** exibe a lista de recursos que se aplicam ao produto **[!UICONTROL Experience Cloud - Platform powered applications]**.
 
-   ![](../assets/access_control_5.png)
+   ![](../assets/do-not-localize/access_control_5.png)
 
 1. Selecione o recurso **[!UICONTROL Messages]**.
 
-   ![](../assets/access_control_6.png)
+   ![](../assets/do-not-localize/access_control_6.png)
 
 1. Na lista **[!UICONTROL Available Permission Items]**, selecione as permissões a serem atribuídas a **[!UICONTROL Product profile]** clicando no ícone de adição (+).
 
    Aqui, adicionamos a permissão **[!UICONTROL Publish messages]** .
 
-   ![](../assets/access_control_7.png)
+   ![](../assets/do-not-localize/access_control_7.png)
 
 1. Se necessário, no **[!UICONTROL Included Permission Items]**, clique no ícone X ao lado de remover permissões do perfil do produto.
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
-   ![](../assets/access_control_8.png)
+   ![](../assets/do-not-localize/access_control_8.png)
 
 Se necessário, também é possível criar um novo perfil de produto com permissões específicas. Para obter mais informações, consulte [Criação de um perfil de produto](#create-product-profile).
 
@@ -113,11 +113,11 @@ Para criar o **Jornada somente leitura** **[!UICONTROL product profiles]**:
 
 1. Clique em **[!UICONTROL New Profile]**.
 
-   ![](../assets/access_control_9.png)
+   ![](../assets/do-not-localize/access_control_9.png)
 
 1. Adicione um **[!UICONTROL Product Profile Name]**, **[!UICONTROL Display Name]** e **[!UICONTROL Description]** para seu novo **[!UICONTROL product profiles]**.
 
-   ![](../assets/access_control_10.png)
+   ![](../assets/do-not-localize/access_control_10.png)
 
 1. Na categoria **[!UICONTROL Notifications]**, escolha se os usuários serão notificados por email quando forem adicionados ou removidos do perfil de produto.
 
@@ -129,17 +129,17 @@ Para criar o **Jornada somente leitura** **[!UICONTROL product profiles]**:
 
    Aqui selecionamos o recurso **[!UICONTROL Journeys]**.
 
-   ![](../assets/access_control_11.png)
+   ![](../assets/do-not-localize/access_control_11.png)
 
 1. Na lista **[!UICONTROL Available Permission Items]**, selecione as permissões a serem atribuídas a **[!UICONTROL Product profile]** clicando no ícone de adição (+).
 
    Aqui selecionamos **[!UICONTROL View journeys]** e **[!UICONTROL View journeys event, data sources, actions]**.
 
-   ![](../assets/access_control_12.png)
+   ![](../assets/do-not-localize/access_control_12.png)
 
 1. Selecione o recurso **[!UICONTROL Sandbox access]** para escolher as sandboxes que serão atribuídas a **[!UICONTROL Product profile]**.
 
-   ![](../assets/access_control_13.png)
+   ![](../assets/do-not-localize/access_control_13.png)
 
 1. Em **[!UICONTROL Available Permissions Items]**, clique no ícone de adição (+) para atribuir sandboxes ao perfil. [Saiba mais sobre sandboxes](sandboxes.md).
 
