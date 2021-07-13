@@ -1,11 +1,11 @@
 ---
 title: Relatório ao vivo por email
 description: Saiba como usar dados do relatório ao vivo do email
-feature: Relatório
+feature: Relatórios
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 2%
@@ -21,6 +21,8 @@ Na guia **[!UICONTROL Executions]** do menu **[!UICONTROL Messages]**, selecione
 ![](../assets/live_report.png)
 
 O email **[!UICONTROL Live report]** é dividido em diferentes widgets detalhando o sucesso e os erros do delivery. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações sobre isso, consulte esta [seção](live-report.md#modify-dashboard).
+
+![](../assets/live_report_5.png)
 
 **[!UICONTROL Email performance]** Os  **[!UICONTROL Email summary]** widgets e detalham as informações principais relativas à sua mensagem com um gráfico e KPIs:
 
@@ -43,6 +45,8 @@ O gráfico **[!UICONTROL Sending Statistics]** detalha o sucesso do delivery:
 * **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.
 
 * **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
+
+![](../assets/live_report_6.png)
 
 O gráfico e a tabela **[!UICONTROL Error Reasons]** permitem ver qual erro ocorreu durante o delivery.
 
