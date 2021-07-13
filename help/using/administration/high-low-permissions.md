@@ -14,9 +14,9 @@ snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Grupos de controle
 topic: Administração
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Ele inclui as seguintes permissões de baixo nível:
    * segments.read
    * profiles.read
 
-### Permissão Gerenciar eventos do jornada, fontes de dados e ações {#manage-journeys-events}
+### Gerenciar eventos do jornada, fontes de dados e permissões de ações {#manage-journeys-events}
 
 A permissão de alto nível **[!UICONTROL Manage journeys events, data sources and actions]** permite que os usuários configurem configurações de evento e dados.
 
@@ -118,7 +118,7 @@ Ele inclui as seguintes permissões de baixo nível:
    * datasets.read
    * identity_namespace.read
 
-### Exibir permissão de relatório do jornada {#view-journeys-report}
+### Exibir permissão de relatório de jornadas {#view-journeys-report}
 
 A permissão de alto nível **[!UICONTROL View journeys report]** permite que os usuários leiam o relatório de jornada somente leitura.
 
@@ -174,7 +174,7 @@ Ele inclui as seguintes permissões de baixo nível:
    * queries.write
    * merge_policies.read
 
-### Permissão para publicar mensagens {#publish-messages}
+### Permissão Publicar mensagens {#publish-messages}
 
 A permissão de alto nível **[!UICONTROL Publish messages]** permite que os usuários publiquem mensagens.
 
@@ -216,7 +216,7 @@ Ele inclui as seguintes permissões de baixo nível:
    * queries.delete
    * journey.read
 
-## Capacidade de gerenciamento de decisões {#decisions-permissions}
+## Capacidade de gestão de decisões {#decisions-permissions}
 
 ### Permissão Gerenciar decisões {#manage-decisioning}
 
@@ -263,7 +263,7 @@ Ele inclui as seguintes permissões de baixo nível:
    * datasets.write
    * datasets.delete
 
-### Permissão de decisão de publicar ofertas {#publish-decisions}
+### Permissão para publicar ofertas de decisão {#publish-decisions}
 
 A permissão de alto nível **[!UICONTROL Publish offers decisioning]** permite que os usuários acessem aprovar/cancelar a aprovação de atividades de Oferta.
 
@@ -299,7 +299,7 @@ Ele inclui as seguintes permissões de baixo nível:
    * offers.read
    * placements.read
 
-## Recurso de administração {#administration-permissions}
+## Capacidade de administração {#administration-permissions}
 
 ### Gerenciar permissão de delegação de subdomínios {#manage-subdomain}
 
@@ -318,7 +318,7 @@ A permissão de alto nível **[!UICONTROL View PTR records]** permite que os usu
 * PTR_records.read
 * subdomains_delegation.read
 
-### Permissão Gerenciar pools de IP {#manage-ip-pools}
+### Gerenciar permissões de pools de IP {#manage-ip-pools}
 
 A permissão de alto nível **[!UICONTROL Manage IP pools]** permite que os usuários criem, editem e excluam a definição de afinidade.
 
@@ -328,7 +328,7 @@ Ele inclui as seguintes permissões de baixo nível:
 * IP_pools.write
 * IP_pools.delete
 
-### Permissão de configurações gerais do gerenciamento de mensagens {#manage-message-settings}
+### Permissão Gerenciar configurações gerais de mensagens {#manage-message-settings}
 
 A permissão de alto nível **[!UICONTROL Manage messages general settings]** permite que os usuários criem, editem e excluam configurações globais no nível da sandbox.
 
@@ -342,7 +342,7 @@ Ele inclui as seguintes permissões de baixo nível:
 * Específico do Adobe Experience Platform:
    * schemas.read
 
-### Exibir permissão de configurações gerais de mensagens {#view-message-settings}
+### Exibir permissões gerais de configurações de mensagens {#view-message-settings}
 
 A permissão de alto nível **[!UICONTROL View messages general settings]** permite que os usuários visualizem configurações gerais de mensagens, como regras de supressão ou endereço de execução.
 
@@ -367,7 +367,7 @@ Ele inclui as seguintes permissões de baixo nível:
    * IP_pools.read
    * mobile_setting.read (do Adobe Experience Platform Launch)
 
-### Permissão para predefinições de mensagens {#view-message-presets}
+### Permissão Exibir predefinições de mensagens {#view-message-presets}
 
 A permissão de alto nível **[!UICONTROL View messages presets]** permite que os usuários visualizem predefinições de mensagens para saber quais predefinições de mensagens usar ao criar uma mensagem.
 
@@ -400,7 +400,7 @@ Ele inclui as seguintes permissões de baixo nível:
    * profiles.read
    * datasets.read
 
-### Permissão da lista de supressão de exportação {#export-suppression-list}
+### Permissão Exportar lista de supressão {#export-suppression-list}
 
 A permissão de alto nível **[!UICONTROL Export suppression list]** permite que os usuários configurem configurações de mensagens, incluindo predefinições de mensagens e configurações gerais de mensagens.
 
