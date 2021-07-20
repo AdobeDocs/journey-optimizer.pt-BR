@@ -5,9 +5,9 @@ feature: Eventos
 topic: Administração
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 709e320e53287319ff76adc7843c276740e7d435
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '832'
 ht-degree: 15%
 
 ---
@@ -26,7 +26,7 @@ Os eventos comerciais podem ser &quot;um produto está de volta ao estoque&quot;
 * Os eventos comerciais só podem ser descartados como a primeira etapa de uma jornada.
 * Ao soltar um evento comercial como a primeira etapa de uma jornada, o tipo de agendador da jornada será &quot;evento comercial&quot;.
 * Somente uma atividade de segmento de leitura pode ser solta após um evento comercial. Ele é adicionado automaticamente como a próxima etapa.
-* Os eventos comerciais não podem ser acionados com mais frequência do que uma hora.
+* Para permitir várias execuções de eventos comerciais, ative a opção correspondente na seção **[!UICONTROL Execution]** das propriedades da jornada.
 * Depois que um evento comercial é acionado, haverá um atraso para que o segmento seja exportado de 15 minutos para até uma hora.
 * Ao testar um evento comercial, você deve passar os parâmetros do evento e o identificador do perfil de teste que inserirá a jornada em teste. Além disso, ao testar uma jornada baseada em eventos empresariais, você só pode acionar a entrada de perfil único. Consulte [esta seção](../building-journeys/testing-the-journey.md#test-business). No modo de teste, não há modo de &quot;Visualização de código&quot; disponível.
 * O que acontece com os indivíduos que estão atualmente na jornada se um novo evento comercial chegar? Ele se comporta da mesma forma que quando os indivíduos ainda estão em uma jornada recorrente quando ocorre uma nova recorrência. Seu caminho está encerrado. Como resultado, os profissionais de marketing devem prestar atenção para evitar a criação de jornadas muito longas se esperarem eventos comerciais frequentes.
