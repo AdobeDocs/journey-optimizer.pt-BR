@@ -5,10 +5,10 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: af60022d99c3f881b8d932682e92ed142deb75d2
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 92%
+source-wordcount: '1093'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ Depois de se conectar à [Adobe Experience Cloud](http://experience.adobe.com), 
 
 >[!NOTE]
 >
->* Os principais conceitos de navegação na interface do usuário são comuns à Adobe Experience Platform. Consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=br#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} para obter mais detalhes.
+>* Os principais conceitos de navegação na interface do usuário são comuns à Adobe Experience Platform. Consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} para obter mais detalhes.
    >
    >
 * Essa documentação é atualizada com frequência para refletir as alterações mais recentes na interface do usuário do produto. Entretanto, algumas capturas de tela podem ser um pouco diferentes de sua interface do usuário.
