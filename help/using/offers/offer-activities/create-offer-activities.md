@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 5%
+source-wordcount: '814'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
 ## Crie a decisão {#create-activity}
 
-1. Acesse a lista de decisões e clique em **[!UICONTROL Create activity]**.
+1. Acesse a lista de decisões e clique em **[!UICONTROL Create decision]**.
 
 1. Especifique o nome da decisão, bem como a data e hora de início e término, e clique em **[!UICONTROL Next]**.
 
@@ -83,26 +83,67 @@ Selecione a oferta de fallback que será apresentada como um último recurso par
 
 ## Revisar e salvar a decisão {#review}
 
-Se tudo estiver configurado corretamente e sua decisão estiver pronta para ser usada para apresentar ofertas aos clientes, clique em **[!UICONTROL Finish]** e selecione **[!UICONTROL Save and activate]**.
+Se tudo estiver configurado corretamente, um resumo das propriedades de decisão será exibido.
 
-Você também pode salvar a decisão como rascunho, para editá-la e ativá-la posteriormente.
+1. Certifique-se de que a decisão esteja pronta para ser usada para apresentar ofertas aos clientes.
+1. Clique em **[!UICONTROL Finish]**.
+1. Em seguida, selecione **[!UICONTROL Save and activate]**.
 
-![](../../assets/save-activities.png)
+   ![](../../assets/save-activities.png)
+
+   Você também pode salvar a decisão como rascunho, para editá-la e ativá-la posteriormente.
 
 A decisão é exibida na lista com o status **[!UICONTROL Live]** ou **[!UICONTROL Draft]**, dependendo de você tê-la ativado ou não na etapa anterior.
 
-Agora, ele está pronto para ser usado para fornecer ofertas aos clientes. Você pode selecioná-lo para exibir suas propriedades e editá-lo ou suprimi-lo.
+Agora, ele está pronto para ser usado para fornecer ofertas aos clientes.
 
-Para obter mais informações sobre delivery de ofertas, consulte estas seções:
+## Lista de decisões {#decision-list}
 
-* [Adicionar ofertas personalizadas em mensagens](../../deliver-personalized-offers.md)
-* [Fornecer ofertas usando APIs](../api-reference/decisions-api/deliver-offers.md)
+Na lista de decisões, é possível selecionar a decisão de exibir suas propriedades. A partir daí você também pode editá-lo, alterar seu status (**Rascunho**, **Ao vivo**, **Concluído**, **Arquivado**), duplicar a decisão ou excluí-la.
 
-![](../../assets/activities-created.png)
+![](../../assets/decision_created.png)
 
->[!NOTE]
->
->Depois que uma decisão é criada, você pode clicar no nome na lista para acessar informações detalhadas e visualizar todas as alterações feitas nela usando a guia **[!UICONTROL Change log]** . [Saiba mais](../get-started/user-interface.md#changes-log).
+Selecione o botão **[!UICONTROL Edit]** para voltar ao modo de edição de decisão, onde você pode modificar os [detalhes](#create-activity), [escopos de decisão](#add-decision-scopes) e [oferta de fallback](#add-fallback) da decisão.
+
+Selecione uma decisão em tempo real e clique em **[!UICONTROL Deactivate]** para definir o status da decisão novamente como **[!UICONTROL Draft]**.
+
+Para definir novamente o status como **[!UICONTROL Live]**, selecione o botão **[!UICONTROL Activate]** que é exibido agora.
+
+![](../../assets/decision_activate.png)
+
+O botão **[!UICONTROL More actions]** ativa as ações descritas abaixo.
+
+![](../../assets/decision_more-actions.png)
+
+* **[!UICONTROL Complete]**: define o status da decisão como  **[!UICONTROL Complete]**, o que significa que a decisão não pode mais ser chamada. Esta ação só está disponível para decisões ativadas. A decisão ainda está disponível na lista, mas não é possível definir seu status novamente para **[!UICONTROL Draft]** ou **[!UICONTROL Approved]**. Você só pode duplicá-la, excluí-la ou arquivá-la.
+
+* **[!UICONTROL Duplicate]**: cria uma decisão com as mesmas propriedades, escopos de decisão e oferta de fallback. Por padrão, a nova decisão tem o status **[!UICONTROL Draft]** .
+
+* **[!UICONTROL Delete]**: remove a decisão da lista.
+
+   >[!CAUTION]
+   >
+   >A decisão e seu conteúdo não estarão mais acessíveis. Esta ação não pode ser desfeita.
+   >
+   >Se a decisão for usada em outro objeto, ela não poderá ser excluída.
+
+* **[!UICONTROL Archive]**: define o status da decisão como  **[!UICONTROL Archived]**. A decisão ainda está disponível na lista, mas não é possível definir seu status novamente para **[!UICONTROL Draft]** ou **[!UICONTROL Approved]**. Você só pode duplicá-la ou excluí-la.
+
+Você também pode excluir ou alterar o status de várias decisões ao mesmo tempo, marcando as caixas de seleção correspondentes.
+
+![](../../assets/decision_multiple-selection.png)
+
+Se quiser alterar o status de várias decisões com status diferentes, somente os status relevantes serão alterados.
+
+![](../../assets/decision_change-status.png)
+
+Depois que uma decisão é criada, você pode clicar no nome na lista.
+
+![](../../assets/decision_click-name.png)
+
+Isso permite acessar informações detalhadas dessa decisão. Selecione a guia **[!UICONTROL Change log]** para [monitorar todas as alterações](../get-started/user-interface.md#changes-log) que foram feitas na decisão.
+
+![](../../assets/decision_information.png)
 
 ## Tutorial em vídeo {#video}
 
