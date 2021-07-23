@@ -5,9 +5,9 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posterior na j
 
    >[!NOTE]
    >
-   >Observe que **[!UICONTROL Enter]** e **[!UICONTROL Exit]** correspondem aos status de participação do segmento **Realizado** e **Saído** do Adobe Experience Platform. Para obter mais informações sobre como avaliar um segmento, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Observe que **[!UICONTROL Enter]** e **[!UICONTROL Exit]** correspondem aos status de participação do segmento **Realizado** e **Saído** do Adobe Experience Platform. Para obter mais informações sobre como avaliar um segmento, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
 1. Selecione um namespace. Isso só será necessário se o evento for posicionado como a primeira etapa da jornada.
 
