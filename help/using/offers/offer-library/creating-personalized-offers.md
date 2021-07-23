@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 4%
+source-wordcount: '1161'
+ht-degree: 3%
 
 ---
 
@@ -98,6 +98,10 @@ As regras e restrições de elegibilidade permitem definir as condições em que
 
    ![](../../assets/offer_rule.png)
 
+   >[!CAUTION]
+   >
+   >No momento, as ofertas baseadas em eventos não são suportadas em [!DNL Journey Optimizer]. Se você criar uma regra de decisão baseada em um [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, não será possível aproveitá-la em uma oferta.
+
 1. Defina o **[!UICONTROL Priority]** da oferta em comparação com outros se o usuário se qualificar para mais de uma oferta. Quanto maior for a prioridade de uma oferta, maior será a prioridade em relação a outras ofertas.
 
 1. Especifique o **[!UICONTROL Capping]** da oferta, o que significa o número de vezes que a oferta será apresentada no total entre todos os usuários. Se a oferta tiver sido entregue a todos os usuários o número de vezes que você especificou neste campo, a entrega será interrompida.
@@ -118,19 +122,68 @@ As regras e restrições de elegibilidade permitem definir as condições em que
 
 ## Revisar a oferta {#review}
 
-Depois que as regras e restrições de qualificação tiverem sido definidas, um resumo das propriedades da oferta será exibido. Se tudo estiver configurado corretamente e sua oferta estiver pronta para ser apresentada aos usuários, clique em **[!UICONTROL Finish]** e selecione **[!UICONTROL Save and approve]**.
+Depois que as regras e restrições de qualificação tiverem sido definidas, um resumo das propriedades da oferta será exibido.
 
-Também é possível salvar a oferta como rascunho, para editá-la e aprová-la posteriormente.
+1. Verifique se tudo está configurado corretamente.
 
-![](../../assets/offer_review.png)
+1. Quando sua oferta estiver pronta para ser apresentada aos usuários, clique em **[!UICONTROL Finish]**.
 
-A oferta é exibida na lista com o status **[!UICONTROL Live]** ou **[!UICONTROL Draft]** , dependendo de você ter aprovado ou não na etapa anterior.
+1. Selecione **[!UICONTROL Save and approve]**.
 
-Agora ele está pronto para ser entregue aos usuários. Você pode selecioná-lo para exibir suas propriedades e editá-lo ou suprimi-lo.
+   ![](../../assets/offer_review.png)
+
+   Também é possível salvar a oferta como rascunho, para editá-la e aprová-la posteriormente.
+
+A oferta é exibida na lista com o status **[!UICONTROL Approved]** ou **[!UICONTROL Draft]** , dependendo de você ter aprovado ou não na etapa anterior.
+
+Agora ele está pronto para ser entregue aos usuários.
 
 ![](../../assets/offer_created.png)
 
-Depois que uma oferta é criada, você pode clicar no nome na lista para acessar informações detalhadas, bem como monitorar todas as alterações feitas nela usando a guia **[!UICONTROL Change log]** . [Saiba mais](../get-started/user-interface.md#monitoring-changes).
+## Lista de ofertas {#offer-list}
+
+Na lista de ofertas, é possível selecionar a oferta para exibir suas propriedades. Você também pode editá-la, alterar seu status (**Rascunho**, **Aprovado**, **Arquivado**), duplicar a oferta ou excluí-la.
+
+![](../../assets/offer_created.png)
+
+Selecione o botão **[!UICONTROL Edit]** para voltar ao modo de edição da oferta, onde você pode modificar os [detalhes](#create-offer), [representações](#representations) da oferta, bem como editar as [regras e restrições de elegibilidade](#eligibility).
+
+Selecione uma oferta aprovada e clique em **[!UICONTROL Undo approve]** para definir o status da oferta novamente para **[!UICONTROL Draft]**.
+
+Para definir novamente o status como **[!UICONTROL Approved]**, selecione o botão correspondente que é exibido agora.
+
+![](../../assets/offer_approve.png)
+
+O botão **[!UICONTROL More actions]** ativa as ações descritas abaixo.
+
+![](../../assets/offer_more-actions.png)
+
+* **[!UICONTROL Duplicate]**: cria uma oferta com as mesmas propriedades, representações, regras de elegibilidade e restrições. Por padrão, a nova oferta tem o status **[!UICONTROL Draft]** .
+* **[!UICONTROL Delete]**: remove a oferta da lista.
+
+   >[!CAUTION]
+   >
+   >A oferta e seu conteúdo não estarão mais acessíveis. Esta ação não pode ser desfeita.
+   >
+   >Se a oferta for usada em uma coleção ou decisão, ela não poderá ser excluída. Você deve remover a oferta de qualquer objeto primeiro.
+
+* **[!UICONTROL Archive]**: define o status da oferta como  **[!UICONTROL Archived]**. A oferta ainda está disponível na lista, mas não é possível definir seu status novamente como **[!UICONTROL Draft]** ou **[!UICONTROL Approved]**. Você só pode duplicá-la ou excluí-la.
+
+Também é possível excluir ou alterar o status de várias ofertas ao mesmo tempo, marcando as caixas de seleção correspondentes.
+
+![](../../assets/offer_multiple-selection.png)
+
+Se quiser alterar o status de várias ofertas com status diferentes, somente os status relevantes serão alterados.
+
+![](../../assets/offer_change-status.png)
+
+Depois que uma oferta for criada, clique no nome na lista.
+
+![](../../assets/offer_click-name.png)
+
+Isso permite acessar informações detalhadas dessa oferta. Selecione a guia **[!UICONTROL Change log]** para [monitorar todas as alterações](../get-started/user-interface.md#monitoring-changes) que foram feitas na oferta.
+
+![](../../assets/offer_information.png)
 
 ## Tutorial em vídeo {#video}
 
