@@ -5,9 +5,9 @@ feature: Visão geral
 topic: Gerenciamento de conteúdo
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '381'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ Para obter mais informações sobre como fazer upload de ativos, consulte a [doc
 
 1. Selecione o arquivo que deseja fazer upload. Quando terminar, clique em **[!UICONTROL Upload]**.
 
-   Para saber mais sobre como gerenciar os ativos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en).
+   Para saber mais sobre como gerenciar os ativos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
 1. Depois que o ativo é carregado, agora é possível inserir os ativos em uma das mensagens por meio do Designer de email.
 
