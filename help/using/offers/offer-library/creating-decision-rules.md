@@ -5,10 +5,10 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 17%
+source-wordcount: '284'
+ht-degree: 15%
 
 ---
 
@@ -32,7 +32,7 @@ Para criar uma regra de decisão, siga estas etapas:
 
 1. Nomeie a regra, forneça uma descrição e configure-a de acordo com suas necessidades.
 
-   Para fazer isso, o **Construtor de segmentos** fica disponível para ajudar você a criar as condições da regra. [Saiba mais](../../segment/about-segments.md)
+   Para fazer isso, o **Construtor de segmentos** está disponível para ajudar você a criar as condições da regra. [Saiba mais](../../segment/about-segments.md)
 
    Neste exemplo, a regra direcionará os clientes que têm o nível de fidelidade &quot;Gold&quot;.
 
@@ -47,6 +47,10 @@ Para criar uma regra de decisão, siga estas etapas:
 1. Depois que a regra é criada, ela é exibida na lista de regras. Você pode selecioná-lo para exibir suas propriedades e editá-lo ou excluí-lo.
 
    ![](../../assets/rule_created.png)
+
+>[!CAUTION]
+>
+>No momento, as ofertas baseadas em eventos não são suportadas em [!DNL Journey Optimizer]. Se você criar uma regra de decisão baseada em um [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, não será possível aproveitá-la em uma oferta.
 
 ## Tutorial em vídeo {#video}
 
