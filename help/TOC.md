@@ -5,9 +5,9 @@ user-guide-title: Manual do Journey Optimizer
 user-guide-description: Usar o Journey Optimizer para fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7914fd26371b9bd488256cb54f28b2dc5ab3c76b
+source-git-commit: 35536a6661983bc4b94336a0ffa088de3f4ca919
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '692'
 ht-degree: 96%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 96%
    + Criar e gerenciar decisões {#create-manage-activities}
       + [Criar decisões](using/offers/offer-activities/create-offer-activities.md)
       + [Configurar seleção de ofertas em decisões](using/offers/offer-activities/configure-offer-selection.md)
-   + Criar relatórios do Gerenciamento de decisão {create-reports}
+   + Criar relatórios do Gerenciamento de decisões {#create-reports}
       + [Introdução aos eventos de Gerenciamento de decisão](using/offers/reports/get-started-events.md)
       + [Informações-chave sobre eventos do Gerenciamento de decisão](using/offers/reports/key-information.md)
       + [Acessar campos XDM de eventos](using/offers/reports/xdm-fields.md)
