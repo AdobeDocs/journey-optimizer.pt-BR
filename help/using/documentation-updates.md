@@ -1,10 +1,10 @@
 ---
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
-source-git-commit: 6c69bbb06de57c62d8894b451d9dab9b318c8ebc
+source-git-commit: 3d0404651ebd39b29cf3fc64152359e1b5b479f5
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 17%
+source-wordcount: '253'
+ht-degree: 15%
 
 ---
 
@@ -29,6 +29,9 @@ Esta página lista todas as atualizações de documentação do [!DNL Journey Op
 * Para jornadas ao vivo, a tela de propriedades da jornada agora exibe a data da publicação e o nome do usuário que publicou a jornada. [Leia mais](building-journeys/journey-gs.md#change-properties)
 * Na tela jornada list , o filtro jornada type foi adicionado. [Leia mais](user-interface.md#section_lgm_hpz_pgb)
 * Atualização das limitações de Jornada. [Leia mais](building-journeys/limitations.md)
-* O parâmetro [!UICONTROL Throttling rate] esteve na atividade Read segment . [Leia mais](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* Atualização da seleção Configurar ofertas na seção decisões . [Leia mais](offers/offer-activities/configure-offer-selection.md)
+* O parâmetro [!UICONTROL Throttling rate] foi adicionado na atividade Read segment . [Leia mais](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Atualização da seção &quot;Configurar seleção de ofertas em decisões&quot;. [Leia mais](offers/offer-activities/configure-offer-selection.md)
+* Adição de um aviso para mencionar que as ofertas baseadas em eventos não são suportadas no momento. [Leia mais](offers/offer-library/creating-personalized-offers.md#eligibility)
+* A nova guia [!UICONTROL Overview] do Gerenciamento de decisão foi documentada. [Leia mais](offers/get-started/user-interface.md#overview)
+* Novas seções foram adicionadas para descrever as ações disponíveis nas listas de oferta e decisão: [Lista de ofertas](offers/offer-library/creating-personalized-offers.md#offer-list) e [Lista de decisões](offers/offer-activities/create-offer-activities.md#decision-list).
  
