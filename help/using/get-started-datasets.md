@@ -4,10 +4,10 @@ description: Saiba como usar conjuntos de dados do Adobe Experience Platform no 
 feature: Conjuntos de dados
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 15%
+source-wordcount: '259'
+ht-degree: 27%
 
 ---
 
@@ -32,13 +32,13 @@ A documentação passo a passo para mapear um arquivo CSV para um Esquema XDM es
 
 ## Vídeo tutorial{#video-dataset}
 
-Saiba como criar um conjunto de dados, mapeá-lo para um esquema, adicionar dados a ele e confirmar que os dados foram assimilados.
+Saiba como criar um conjunto de dados, mapeá-lo para um esquema, adicionar dados a ele e confirmar se os dados foram assimilados.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 **Consulte também**
 
 * [Criar um esquema, um conjunto de dados e assimilar dados para adicionar perfis de teste no Journey Optimizer](building-journeys/creating-test-profiles.md)
-* [Visão geral da assimilação de streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}
-* [Assimilar dados no Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=en){target=&quot;_blank&quot;}
+* [Visão geral da assimilação de streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=pt-BR){target=&quot;_blank&quot;}
+* [Assimilar dados no Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}
 
