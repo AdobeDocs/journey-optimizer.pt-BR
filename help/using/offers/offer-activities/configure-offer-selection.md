@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Intermediate
-source-git-commit: 807157d4d6fc1dba018bbe796c8bd213504589dc
+source-git-commit: 3db5756236b6ac05d9b95b8b051dd99dc7d5cf7e
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 7%
@@ -24,7 +24,7 @@ Por padrão, quando várias ofertas estão qualificadas para uma determinada dis
 
 ![](../../assets/offer-priority.png)
 
-As pontuações de prioridade das ofertas são atribuídas ao criar uma oferta. Saiba como criar uma oferta personalizada em [esta seção](../offer-library/creating-personalized-offers.md)).
+As pontuações de prioridade das ofertas são atribuídas ao criar uma oferta. Saiba como criar uma oferta personalizada em [esta seção](../offer-library/creating-personalized-offers.md).
 
 ## Fórmula de classificação {#assign-ranking-formula}
 
