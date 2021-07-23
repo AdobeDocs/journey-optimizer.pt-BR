@@ -4,9 +4,9 @@ description: Saiba como usar Esquemas do Adobe Experience Platform no Adobe Jour
 feature: Esquemas
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ O espaço de trabalho **Schemas** na interface do usuário [!DNL Adobe Journey O
 
 ![](assets/schemas-home.png)
 
-Saiba como usar a interface do usuário Esquemas em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en){target=&quot;_blank&quot;}
+Saiba como usar a interface do usuário Esquemas em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}
 
 A documentação passo a passo para criar um esquema usando o Editor de Esquema está disponível em [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR){target=&quot;_blank&quot;}
 
