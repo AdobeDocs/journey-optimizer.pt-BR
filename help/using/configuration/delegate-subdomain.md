@@ -15,10 +15,10 @@ feature: Configurações do aplicativo
 topic: Administração
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 10%
+source-wordcount: '472'
+ht-degree: 9%
 
 ---
 
@@ -29,7 +29,7 @@ A delegação de nome de domínio é um método que permite ao proprietário de 
 
 Ao delegar um subdomínio para uso com [!DNL Journey Optimizer], os clientes podem depender do Adobe para manter a infraestrutura de DNS necessária para atender aos requisitos de deliverability padrão do setor para seus domínios de envio de marketing de email, enquanto continuam a manter e controlar o DNS para seus domínios de email internos.
 
-[!DNL Journey Optimizer] O permite delegar totalmente seus subdomínios ao Adobe diretamente da interface do produto. Ao fazer isso, o Adobe poderá enviar mensagens como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
+[!DNL Journey Optimizer] O permite delegar totalmente seus subdomínios ao Adobe diretamente da interface do produto. Com isso, o Adobe poderá enviar mensagens como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
 
 >[!NOTE]
 >
@@ -49,7 +49,9 @@ Para delegar um novo subdomínio, siga as etapas abaixo:
 
    >[!CAUTION]
    >
-   >Certifique-se de inserir um subdomínio válido, como marketing.company.com. Não é permitido delegar um subdomínio inválido para Adobe.
+   >Não é permitido delegar um subdomínio inválido para Adobe. Certifique-se de inserir um subdomínio válido que seja de propriedade de sua organização, como marketing.suaempresa.com.
+   >
+   >Observe que subdomínios de vários níveis, como email.marketing.suaempresa.com, não são suportados no momento.
 
 1. A lista de registros que serão colocados em seus servidores DNS é exibida. Copie esses registros, um por um ou baixando um arquivo CSV, e navegue até a solução de hospedagem de domínio para gerar os registros DNS correspondentes.
 
