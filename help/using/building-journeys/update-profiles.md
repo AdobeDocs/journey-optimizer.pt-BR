@@ -5,9 +5,9 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,6 @@ A atividade de ação **[!UICONTROL Update Profile]** permite atualizar um perfi
 * Você não pode usar a ação **Atualizar perfil** para gerar eventos de experiência, por exemplo, uma compra.
 * Assim como qualquer outra ação, você pode definir um caminho alternativo em caso de erro ou tempo limite e não pode colocar duas ações em paralelo.
 * A solicitação de atualização enviada para a Platform será rápida, mas não imediata/dentro de um segundo. Em geral, levará alguns segundos, mas às vezes mais sem garantia. Como resultado, por exemplo, se uma ação estiver usando um &quot;campo 1&quot; atualizado por uma ação Atualizar perfil posicionada anteriormente, você não deve esperar que o &quot;campo 1&quot; seja atualizado na ação.
-* As fontes de dados têm uma noção da duração do cache, no nível do grupo de campos. Se você espera aproveitar, em uma jornada, um campo de perfil atualizado recentemente, tenha cuidado para definir uma duração de cache muito curta.
 
 ## Uso do modo de teste {#using-the-test-mode}
 
