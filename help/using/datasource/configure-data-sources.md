@@ -5,10 +5,10 @@ feature: Fontes de dados
 topic: Administração
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 8%
+source-wordcount: '555'
+ht-degree: 10%
 
 ---
 
@@ -36,15 +36,13 @@ Estas são as etapas principais de configuração da fonte de dados:
 
 Grupos de campos são conjuntos de campos que podem ser recuperados de uma fonte de dados e usados em uma jornada.
 
-Para cada fonte de dados, você pode definir vários grupos de campos, cada um com uma duração específica do cache.
+Para cada fonte de dados, você pode definir vários grupos de campos.
 
 Por exemplo, você pode criar um grupo de campos com o número de telefone, o email, o nome e o endereço do perfil. Você poderá usar esses dados na jornada para criar condições. Por exemplo, você pode decidir enviar um SMS somente se o número de telefone do perfil não estiver vazio. Se estiver vazio, você pode enviar um email.
 
 Mesmo que um nome padrão seja adicionado automaticamente, recomendamos que você dê um nome ao seu grupo de campos. Na verdade, o nome do grupo de campos estará visível para outros usuários em [!DNL Journey Optimizer]. Fornecer um nome relevante para grupos de campos é uma prática recomendada.
 
 Quando um campo de fonte de dados é usado em uma jornada, o sistema recuperará todos os campos definidos para esse grupo de campos. Portanto, selecionar apenas os campos necessários para suas jornadas é uma prática recomendada. Isso reduzirá a latência de solicitação em suas jornadas, aumentando assim o desempenho. Observe que é possível adicionar mais campos facilmente posteriormente em grupos de campos.
-
-**[!UICONTROL Cache duration]** O também é importante, pois ajudará você a otimizar o desempenho. Duração do cache significa que, em uma jornada, se os dados de um grupo de campos forem recuperados uma vez, o sistema o armazenará em cache temporariamente. Se os mesmos dados forem necessários posteriormente na mesma jornada, o sistema não fará outra solicitação para a fonte de dados. A configuração da duração do cache deve ser adaptada para cada caso de uso. Se você precisar recuperar dados em tempo real, como status da reserva do hotel, informações meteorológicas ou o número de pontos de fidelidade, associará o grupo de campos que contém esses campos a uma curta duração do cache (1 segundo, por exemplo). Para campos que são atualizados com menos frequência (nome, gênero), você criará um segundo grupo de campos com uma duração de cache mais longa (5 dias, por exemplo).
 
 O número de jornadas que usam um grupo de campos é exibido no campo **[!UICONTROL Used in]**. Você pode clicar no botão **[!UICONTROL View journeys]** para exibir a lista de jornadas usando esse grupo de campos.
 
