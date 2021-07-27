@@ -5,10 +5,10 @@ feature: Esquemas
 topic: Administração
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: e965372e3640b92f672bf03098c8e4fb487dfc7d
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 1%
+source-wordcount: '774'
+ht-degree: 0%
 
 ---
 
@@ -49,3 +49,73 @@ Qualquer esquema XDM que será usado para eventos [!DNL Journey Optimizer] deve 
    ![](../assets/schema7.png)
 
    ![](../assets/schema8.png)
+
+## Aproveitar relacionamentos de schema{#leverage_schema_relationships}
+
+O Adobe Experience Platform permite definir relações entre esquemas para usar um conjunto de dados como uma tabela de pesquisa para outro.
+
+Digamos que seu modelo de dados de marca tenha um esquema capturando compras. Você também tem um schema para o catálogo de produtos. Você pode capturar a ID do produto no esquema de compra e usar uma relação para pesquisar detalhes do produto mais completos do catálogo de produtos. Isso permite criar um segmento para todos os clientes que compraram um laptop, por exemplo, sem precisar listar explicitamente todas as IDs do laptop ou capturar todos os detalhes de produtos em sistemas transacionais.
+
+Para definir uma relação, é necessário ter um campo dedicado no schema de origem, nesse caso, o campo ID do produto no schema de compra. Esse campo precisa fazer referência ao campo de ID do produto no schema de destino. As tabelas de origem e de destino devem estar habilitadas para perfis e o schema de destino deve ter esse campo comum definido como sua identidade primária.
+
+Este é o esquema de catálogo de produtos ativado para o perfil com a ID de produto definida como a identidade primária.
+
+![](../assets/schema9.png)
+
+Este é o schema de compra com o relacionamento definido no campo ID do produto.
+
+![](../assets/schema10.png)
+
+>[!NOTE]
+>
+>Saiba mais sobre relações de esquema na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+
+No Journey Optimizer, você pode aproveitar todos os campos das tabelas vinculadas:
+
+* ao configurar um evento unitário, [Leia mais](../event/experience-event-schema.md#unitary_event_configuration)
+* ao usar condições em uma jornada, [Leia mais](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* na personalização de mensagens, [Leia mais](../event/experience-event-schema.md#message_personalization)
+* na personalização da ação personalizada, [Leia mais](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+
+### Configuração de evento unitário{#unitary_event_configuration}
+
+Os campos de esquema vinculados estão disponíveis na configuração de evento unitário:
+
+* ao navegar pelos campos do schema do evento na tela de configuração do evento.
+* ao definir uma condição para eventos gerados pelo sistema.
+
+![](../assets/schema11.png)
+
+Os campos vinculados não estão disponíveis:
+
+* na fórmula da chave de evento
+* na condição de id de evento (eventos com base em regras)
+* em eventos comerciais (a seguir)
+
+Para saber como configurar um evento unitário, consulte esta [página](../event/about-creating.md).
+
+### Condições de jornada usando o contexto do evento{#journey_conditions_using_event_context}
+
+Você pode usar dados de uma tabela de pesquisa vinculada a um evento usado em uma jornada para a criação de condições (editor de expressão).
+
+Adicione uma condição em uma jornada, edite a expressão e expanda o nó do evento no editor de expressão.
+
+![](../assets/schema12.png)
+
+Para saber como definir condições de jornada, consulte esta [página](../building-journeys/condition-activity.md).
+
+### Personalização de mensagem{#message_personalization}
+
+Os campos vinculados estão disponíveis ao personalizar uma mensagem. Os campos relacionados são exibidos no contexto transmitido da jornada para a mensagem.
+
+![](../assets/schema14.png)
+
+Para saber como personalizar uma mensagem com informações de jornada contextual, consulte esta [página](../personalization/personalization-use-case.md).
+
+### Personalização de ação personalizada com o contexto de evento de jornada{#custom_action_personalization_with_journey_event_context}
+
+Os campos vinculados estão disponíveis ao configurar os parâmetros de ação de uma atividade de ação personalizada do jornada.
+
+![](../assets/schema13.png)
+
+Para saber como usar ações personalizadas, consulte esta [página](../building-journeys/using-custom-actions.md).
