@@ -5,10 +5,10 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
+source-git-commit: 7937c3b7c9247868a7a506991850537493a76cf1
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 Se você estiver usando um sistema de terceiros para enviar mensagens, é possível criar uma ação personalizada. Saiba mais nesta [seção](../action/action.md).
 
-## Adição de uma atividade Message
+## Adicionar uma atividade Message
 
 1. Como sempre, inicie a jornada com um evento ou uma atividade **Ler segmento** .
 
