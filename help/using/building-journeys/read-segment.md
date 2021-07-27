@@ -5,9 +5,9 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '1000'
 ht-degree: 5%
 
 ---
@@ -56,7 +56,13 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
    >
    >Os indivíduos pertencentes a um segmento que não tem a identidade (namespace) selecionada entre suas identidades diferentes não podem inserir a jornada.
 
-1. No campo **[!UICONTROL Throttling rate]**, defina a taxa de transferência da atividade Read segment . Esse valor é armazenado na carga da versão do jornada. O valor padrão é 17.000 e deve estar entre 500 e 17.000.
+1. Defina o campo **[!UICONTROL Throttling rate]** para o limite de taxa de transferência da atividade do segmento de leitura.
+
+   Esse valor é armazenado na carga da versão do jornada. O valor padrão é 17.000 mensagens por segundo. Você pode modificar esse valor de 500 a 17.000 mensagens por segundo.
+
+   >[!NOTE]
+   >
+   >A taxa de limitação geral por sandbox é definida como 17.000 mensagens por segundo. Portanto, a taxa de limitação de todos os segmentos de leitura executados simultaneamente na mesma sandbox adiciona no máximo 17.000 mensagens por segundo. Não é possível modificar esta tampa.
 
 1. A atividade **[!UICONTROL Read Segment]** permite especificar a hora em que o segmento entrará na jornada. Para fazer isso, clique no link **[!UICONTROL Edit journey schedule]** para acessar as propriedades da jornada e configure o campo **[!UICONTROL Scheduler type]**.
 
