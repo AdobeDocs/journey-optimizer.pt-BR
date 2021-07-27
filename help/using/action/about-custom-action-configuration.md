@@ -6,9 +6,9 @@ feature: Ações
 topic: Administração
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '594'
 ht-degree: 9%
 
 ---
@@ -74,7 +74,7 @@ Na seção **[!UICONTROL Action parameters]**, cole um exemplo da carga JSON par
 
 >[!NOTE]
 >
->Os nomes de campo no payload não podem conter um &quot;.&quot; caractere.
+>Os nomes de campo no payload não podem conter um &quot;.&quot; caractere. Eles não podem começar com um caractere &quot;$&quot;.
 
 Você poderá definir o tipo de parâmetro (por exemplo: string, número inteiro, etc.).
 
