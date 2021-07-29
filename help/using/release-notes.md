@@ -1,9 +1,9 @@
 ---
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
-source-git-commit: cd38b6ec9be0417f5c65e37805c0e7b072d1cb96
+source-git-commit: c9fa07efd03e84bf38fb1d67fabba4b6066c4179
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 16%
 
 ---
@@ -50,21 +50,22 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 
 ### Melhorias
 
-* **Jornadas**
-   * A taxa de limitação geral de todos os segmentos de leitura executados simultaneamente na mesma sandbox é limitada a 17.000 mensagens por segundo. [Leia mais](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-   * O campo **Cache duration** foi removido do painel de configuração da fonte de dados. [Leia mais](datasource/about-data-sources.md)
-   * Para fontes de dados externas, uma regra de limitação de 15 chamadas por segundo agora é definida automaticamente. [Leia mais](configuration/external-systems.md#capping)
-   * Para jornadas ao vivo, a tela de propriedades da jornada agora exibe a data da publicação e o nome do usuário que publicou a jornada. [Leia mais](building-journeys/journey-gs.md#change-properties)
-   * Na tela jornada list , o filtro jornada type foi adicionado. [Leia mais](user-interface.md#section_lgm_hpz_pgb)
-   * O parâmetro **[!UICONTROL Throttling rate]** foi adicionado na atividade Read segment . [Leia mais](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+**Jornadas**
 
-* **Visualizar e testar**
-   * A identidade e o namespace agora estão visíveis na tela **[!UICONTROL Preview]**. [Leia mais](preview.md#preview-your-messages)
-   * O número de emails de teste para provas agora está restrito a 10.
-   * Os caracteres permitidos para o **Prefixo da linha de assunto** em provas agora são limitados. [Leia mais](preview.md#send-proofs)
+* A taxa de limitação geral de todos os segmentos de leitura executados simultaneamente na mesma sandbox é limitada a 17.000 mensagens por segundo. [Leia mais](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* O campo **Cache duration** foi removido do painel de configuração da fonte de dados. [Leia mais](datasource/about-data-sources.md)
+* Para fontes de dados externas, uma regra de limitação de 15 chamadas por segundo agora é definida automaticamente. [Leia mais](configuration/external-systems.md#capping)
+* Para jornadas ao vivo, a tela de propriedades da jornada agora exibe a data da publicação e o nome do usuário que publicou a jornada. [Leia mais](building-journeys/journey-gs.md#change-properties)
+* Na tela jornada list , o filtro jornada type foi adicionado. [Leia mais](user-interface.md#section_lgm_hpz_pgb)
+* O parâmetro **[!UICONTROL Throttling rate]** foi adicionado na atividade Read segment . [Leia mais](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-* **Editor de expressão de personalização**
-   * A lista suspensa de ajuda foi renomeada e reordenada.
+**Visualizar e testar mensagens**
+* A identidade e o namespace agora estão visíveis na tela **[!UICONTROL Preview]**. [Leia mais](preview.md#preview-your-messages)
+* O número de emails de teste para provas agora está restrito a 10.
+* Os caracteres permitidos para o **Prefixo da linha de assunto** em provas agora são limitados. [Leia mais](preview.md#send-proofs)
+
+**Editor de expressão de personalização**
+* A lista suspensa de ajuda foi renomeada e reordenada.
 
 ### Correções
 
