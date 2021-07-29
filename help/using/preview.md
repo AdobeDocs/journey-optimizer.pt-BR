@@ -5,9 +5,9 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
+source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '935'
 ht-degree: 4%
 
 ---
@@ -121,7 +121,13 @@ Depois que [test profiles](#select-test-profiles) forem selecionados, você pode
 
    ![](assets/send-proof-button.png)
 
-1. Selecione os perfis de teste que receberão a prova e clique em **[!UICONTROL Send proof]**. Você pode adicionar um prefixo à linha de assunto da prova, se necessário.
+1. Na janela **[!UICONTROL Send proof]**, além dos perfis de teste, digite o email do recipient e clique em **[!UICONTROL Add]** para enviar a prova para você ou para os membros de sua organização.
+
+   Observe que você pode adicionar até 10 recipients para o delivery de prova.
+
+   ![](assets/send-proof-button_2.png)
+
+1. Em seguida, selecione os perfis de teste que receberão a prova e clique em **[!UICONTROL Send proof]**. Você pode adicionar um prefixo à linha de assunto da prova, se necessário. Somente caracteres alfanuméricos e caracteres especiais, por exemplo, . - _ ( ) [ ], são permitidos como prefixo na linha de assunto.
 
    ![](assets/send-proof-select.png)
 
