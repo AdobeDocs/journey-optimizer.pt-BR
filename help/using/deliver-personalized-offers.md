@@ -5,10 +5,10 @@ feature: Jornadas
 topic: Gerenciamento de conteúdo
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: a2aed1dbfa53aee6f5fe0aeec52773d22bc4ed29
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 2%
+source-wordcount: '520'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Para obter mais informações sobre como criar e gerenciar ofertas, consulte [es
 
 Para um **exemplo completo** mostrando como configurar ofertas, use-as em uma decisão e aproveite essa decisão em um email, confira [esta seção](offers/offers-e2e.md#insert-decision-in-email).
 
-➡️ [Saiba como adicionar ofertas como personalização](#video-offers) (vídeo)
+➡️ [Saiba como adicionar ofertas como personalização neste vídeo](#video-offers)
 
 ## Inserir uma decisão em um email {#insert-offers}
 
@@ -105,6 +105,6 @@ Saiba mais sobre as etapas detalhadas para verificar a pré-visualização da me
 
 ## Vídeo tutorial{#video-offers}
 
-Saiba como adicionar um componente offer decisioning a mensagens em [!DNL Journey Optimizer].
+Saiba como adicionar um componente do Offer Decisioning a mensagens no [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
