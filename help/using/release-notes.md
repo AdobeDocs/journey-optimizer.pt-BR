@@ -1,10 +1,10 @@
 ---
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
-source-git-commit: c9fa07efd03e84bf38fb1d67fabba4b6066c4179
+source-git-commit: a1800c333bfbee178682d773c729aad7e23d86d0
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 16%
+source-wordcount: '394'
+ht-degree: 15%
 
 ---
 
@@ -60,11 +60,13 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 * O parâmetro **[!UICONTROL Throttling rate]** foi adicionado na atividade Read segment . [Leia mais](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Visualizar e testar mensagens**
+
 * A identidade e o namespace agora estão visíveis na tela **[!UICONTROL Preview]**. [Leia mais](preview.md#preview-your-messages)
 * O número de emails de teste para provas agora está restrito a 10.
 * Os caracteres permitidos para o **Prefixo da linha de assunto** em provas agora são limitados. [Leia mais](preview.md#send-proofs)
 
 **Editor de expressão de personalização**
+
 * A lista suspensa de ajuda foi renomeada e reordenada.
 
 ### Correções
@@ -74,3 +76,5 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 * Correção de um problema em que as informações de IP estavam ausentes na tela Registros PTR .
 * A localização no painel de ofertas no Editor de expressão agora está implementada.
 * Corrigido o espaçamento incorreto em pop-ups de informações.
+* Correção de um problema no Designer de email ao carregar um arquivo HTML em que a folha de estilos interna com a propriedade `background-image` não era compatível.
+
