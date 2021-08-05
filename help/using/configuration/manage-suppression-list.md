@@ -15,7 +15,7 @@ feature: Configurações do aplicativo
 topic: Administração
 role: Admin
 level: Intermediate
-source-git-commit: 83d0cbdb7524f0317bd576ed7c689f9933bb658f
+source-git-commit: 661d43d3a39fcead068562dc6fb567bdc4027432
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 5%
@@ -76,7 +76,7 @@ Para cada endereço de email listado, você também pode verificar **[!UICONTROL
 Os possíveis motivos para uma falha de delivery são:
 
 | Motivo | Descrição | Categoria de supressão |
----------|----------|--------- |
+| --- | --- | --- |
 | **[!UICONTROL Undetermined]** | Não foi possível identificar o motivo da devolução recebido do Agente de Transferência de Mensagens (MTA) do domínio de recipient. | Ignorado |
 | **[!UICONTROL Invalid Recipient]** | O recipient é inválido ou não existe. | Grave |
 | **[!UICONTROL Soft Bounce]** | A mensagem retornou por um motivo diferente dos erros suaves listados nesta tabela, como ao enviar pela taxa permitida recomendada por um ISP. | Suave |
