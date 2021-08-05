@@ -5,7 +5,7 @@ feature: Ofertas
 topic: Integrações
 role: User
 level: Beginner
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: 22520570d96db43d39931149296b27a6211f7aa5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 100%
@@ -58,7 +58,7 @@ Os recursos e a integração do Gerenciamento de decisão com a Adobe Experience
 
 * O Gerenciamento de decisão também ajuda você a aprimorar a experiência dos clientes ao entrar em contato com a equipe de suporte. As APIS do Gerenciamento de decisão permitem exibir no portal de agentes da central de atendimento informações sobre as melhores ofertas resgatadas do cliente e as próximas melhores ofertas.
 
-   ![](../../assets/call-center.png)
+   ![](../../assets/do-not-localize/call-center.png)
 
 
 ## Glossário {#glossary}
