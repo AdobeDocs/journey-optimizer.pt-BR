@@ -1,13 +1,13 @@
 ---
 title: Rastrear suas mensagens
 description: Saiba como adicionar links e rastrear mensagens enviadas
-feature: Monitoramento
-topic: Gerenciamento de conteúdo
+feature: Monitoring
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
+source-git-commit: 6ff5d093bac20248106be1f4478102c29703cb1d
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '777'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ Use [!DNL Journey Optimizer] para adicionar links ao seu conteúdo e rastrear as
 
 ## Habilitar rastreamento {#enable-tracking}
 
-Você pode habilitar o rastreamento no nível da mensagem marcando as opções **[!UICONTROL Open Tracking for email]** e/ou **[!UICONTROL Click Tracking for email]** ao [criar a mensagem](create-message.md).
+Você pode ativar o rastreamento no nível da mensagem de email, marcando as opções **[!UICONTROL Open Tracking for email]** e/ou **[!UICONTROL Click Tracking for email]** ao [criar a mensagem](create-message.md).
 
 ![](assets/message-tracking.png)
 
@@ -48,13 +48,15 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
    * **[!UICONTROL External link]**: Insira um link para um URL externo.
 
-   * **[!UICONTROL Unsubscription link]**: Insira um link para cancelar a assinatura do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de não participação em [esta seção](consent.md#opt-out-management).
+   * **[!UICONTROL Unsubscription link]**: Insira um link para cancelar a assinatura do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de recusa [nesta seção](consent.md#opt-out-management).
 
    * **[!UICONTROL Mirror page]**: Insira um link para exibir o conteúdo do email em um navegador da Web. Saiba mais [nesta seção](#mirror-page).
 
+   * **[!UICONTROL Opt-out]**: Insira um link para permitir que os usuários cancelem rapidamente a assinatura de suas comunicações, sem a necessidade de confirmar a recusa. Saiba mais [nesta seção](#one-click-opt-out-link).
+
    ![](assets/message-tracking-links.png)
 
-1. É possível personalizar os links usando apenas uma expressão simples. Saiba mais sobre personalização em [esta seção](personalization/personalization-syntax.md).
+1. Você pode personalizar seus links. Saiba mais sobre URLs personalizados em [esta seção](personalization/personalization-syntax.md).
 
 1. Salve as alterações.
 
@@ -86,6 +88,32 @@ Depois que o email for enviado, quando os recipients clicarem no link da mirror 
 >No [proof](preview.md#send-proofs) enviado aos perfis de teste, o link para a mirror page não está ativo. Ela só é ativada nas mensagens finais.
 
 O período de retenção de uma mirror page é de 60 dias. Após esse atraso, a mirror page não estará mais disponível.
+
+## Link de não participação com um clique {#one-click-opt-out-link}
+
+Para permitir que seus recipients cancelem rapidamente a assinatura do recebimento de comunicações da sua marca, você pode inserir um link para opção de não participação com um clique no seu conteúdo de email. Essa capacidade impede que os usuários sejam redirecionados para uma página de aterrissagem, onde precisam confirmar sua escolha, o que acelera o processo de cancelamento de assinatura.
+
+Para adicionar um link para opção de não participação no seu email, siga as etapas abaixo.
+
+1. [Insira um ](#insert-links) link e selecione  **[!UICONTROL Opt-out]** como o tipo de link.
+
+   ![](assets/message-tracking-opt-out.png)
+
+1. Selecione como deseja aplicar a opção de rejeição: no canal, identidade ou nível de assinatura.
+
+   ![](assets/message-tracking-opt-out-level.png)
+
+   * **[!UICONTROL Channel]**: A recusa se aplica a mensagens futuras enviadas ao destino do perfil (ou seja, endereço de email) do canal atual. Se vários destinos estiverem associados a um perfil, a recusa se aplica a todos os destinos (ou seja, endereços de email) no perfil desse canal.
+   * **[!UICONTROL Identity]**: A recusa se aplica a mensagens futuras enviadas ao target específico (ou seja, endereço de email) que está sendo usado para a mensagem atual.
+   * **[!UICONTROL Subscription]**: A recusa se aplica a mensagens futuras associadas a uma lista de assinaturas específica. Essa opção só poderá ser selecionada se a mensagem atual estiver associada a uma lista de assinaturas.
+
+1. Insira o URL da landing page onde o usuário será redirecionado depois de cancelado a assinatura. Esta página está aqui somente para confirmar que a opção de rejeição foi bem-sucedida.
+
+   ![](assets/message-tracking-opt-out-confirmation.png)
+
+1. Clique em **[!UICONTROL Save]**.
+
+Depois que a mensagem é enviada, se um recipient clicar no link para opção de não participação, ele será imediatamente rejeitado.
 
 ## Gerenciar rastreamento {#manage-tracking}
 
