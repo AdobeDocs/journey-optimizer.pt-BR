@@ -5,7 +5,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: f52f73b1d7f2ad5a7ebd2e8b23b7c68c4dc99212
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 1%
@@ -146,11 +146,9 @@ Em caso de falha na criação de uma predefinição de mensagem, os detalhes sob
 
 Se um desses erros ocorrer, entre em contato com a [Adobe Customer Care Support Team](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} para obter assistência.
 
-* **Falha** na validação do SPF: O SPF (Sender Policy Framework) é um protocolo de autenticação de email que permite especificar IPs autorizados que podem enviar emails de um determinado subdomínio.
-Falha na validação de SPF significa que os endereços IP no registro SPF não correspondem aos endereços IP usados para enviar emails para os provedores de caixa de correio.
+* **Falha** na validação do SPF: O SPF (Sender Policy Framework) é um protocolo de autenticação de email que permite especificar IPs autorizados que podem enviar emails de um determinado subdomínio. Falha na validação de SPF significa que os endereços IP no registro SPF não correspondem aos endereços IP usados para enviar emails para os provedores de caixa de correio.
 
-* **Falha** na validação do DKIM: O DKIM permite que o servidor do recipient verifique se a mensagem recebida foi enviada pelo remetente genuíno do domínio associado e se o conteúdo da mensagem original não foi alterado no caminho.
-Falha na validação DKIM significa que os servidores de email de recebimento não conseguem verificar a autenticidade do conteúdo da mensagem e sua associação com o domínio de envio.
+* **Falha** na validação do DKIM: O DKIM permite que o servidor do recipient verifique se a mensagem recebida foi enviada pelo remetente genuíno do domínio associado e se o conteúdo da mensagem original não foi alterado no caminho. Falha na validação DKIM significa que os servidores de email de recebimento não conseguem verificar a autenticidade do conteúdo da mensagem e sua associação com o domínio de envio.
 
 * **Falha** na validação do registro MX: Falha na validação de registro MX significa que os servidores de email responsáveis pela aceitação de emails de entrada em nome de um determinado subdomínio não estão configurados corretamente.
 
