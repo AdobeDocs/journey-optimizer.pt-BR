@@ -1,13 +1,13 @@
 ---
 title: Relatório global de email
 description: Saiba como usar dados do relatório global de email
-feature: Relatórios
-topic: Gerenciamento de conteúdo
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: c54e4443c0a8b6c2e427fa007adf5d800b2ba3b5
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '576'
 ht-degree: 1%
 
 ---
@@ -90,4 +90,8 @@ O **[!UICONTROL Open vs Click]** identifica a interação dos recipients com o d
 
 * **[!UICONTROL Unique Opens]**: Número de recipients que abriram o delivery.
 
-
+>[!NOTE]
+>
+>Os perfis com status **[!UICONTROL Suppressed]** ou **[!UICONTROL Not allowed]** são excluídos durante o processo de envio da mensagem. Portanto, enquanto os **Relatórios de Jornada** mostrarão esses perfis como tendo sido movidos pela jornada ([Ler segmento](../building-journeys/read-segment.md) e [Mensagem](../building-journeys/journeys-message.md) atividades), os **Relatórios de email** não os incluirão nas métricas **[!UICONTROL Sent]**, pois são filtrados antes do envio de email.
+>
+>Saiba mais sobre a [Lista de supressão](../suppression-list.md) e [Lista de permissões](../allow-list.md). Para descobrir o motivo de todos os casos de exclusão, você pode usar o [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html).
