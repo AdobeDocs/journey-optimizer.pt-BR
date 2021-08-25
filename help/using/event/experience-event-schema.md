@@ -1,13 +1,13 @@
 ---
 title: Sobre schemas ExperienceEvent para eventos jornada
 description: Saiba mais sobre Esquemas ExperienceEvent para eventos de jornada
-feature: Esquemas
-topic: Administração
+feature: Schemas
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e965372e3640b92f672bf03098c8e4fb487dfc7d
+source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -72,14 +72,14 @@ Este é o schema de compra com o relacionamento definido no campo ID do produto.
 
 No Journey Optimizer, você pode aproveitar todos os campos das tabelas vinculadas:
 
-* ao configurar um evento unitário, [Leia mais](../event/experience-event-schema.md#unitary_event_configuration)
+* ao configurar um evento empresarial ou unitário, [Leia mais](../event/experience-event-schema.md#unitary_event_configuration)
 * ao usar condições em uma jornada, [Leia mais](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * na personalização de mensagens, [Leia mais](../event/experience-event-schema.md#message_personalization)
 * na personalização da ação personalizada, [Leia mais](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### Configuração de evento unitário{#unitary_event_configuration}
+### Configuração de evento{#unitary_event_configuration}
 
-Os campos de esquema vinculados estão disponíveis na configuração de evento unitário:
+Os campos de esquema vinculados estão disponíveis na configuração de evento unitário e comercial:
 
 * ao navegar pelos campos do schema do evento na tela de configuração do evento.
 * ao definir uma condição para eventos gerados pelo sistema.
@@ -90,7 +90,6 @@ Os campos vinculados não estão disponíveis:
 
 * na fórmula da chave de evento
 * na condição de id de evento (eventos com base em regras)
-* em eventos comerciais (a seguir)
 
 Para saber como configurar um evento unitário, consulte esta [página](../event/about-creating.md).
 
