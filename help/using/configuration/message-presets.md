@@ -1,13 +1,13 @@
 ---
 title: Criar predefinições de mensagem
 description: Saiba como configurar e monitorar predefinições de mensagens
-feature: Configurações do aplicativo
-topic: Administração
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
+source-git-commit: f52f73b1d7f2ad5a7ebd2e8b23b7c68c4dc99212
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,8 @@ Com [!DNL Journey Optimizer], é possível configurar predefinições de mensage
 >[!CAUTION]
 >
 > * A configuração de predefinições de mensagens é restrita aos Administradores do Jornada. [Saiba mais](../administration/ootb-product-profiles.md#journey-administrator)
-   >
-   > 
-* Você deve executar as etapas de configuração de Email e Push antes de criar predefinições de mensagem.
+>
+> * Você deve executar as etapas de configuração de Email e Push antes de criar predefinições de mensagem.
 
 
 Após configurar as predefinições de mensagem, é possível selecioná-las ao criar mensagens na lista **[!UICONTROL Presets]**.
@@ -57,7 +56,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    * Selecione o subdomínio a ser usado para enviar os emails. [Saiba mais](about-subdomain-delegation.md)
    * Selecione o pool de IP a ser associado à predefinição. [Saiba mais](ip-pools.md)
-   * Insira os parâmetros de cabeçalho para os emails enviados usando a predefinição.
+   * Insira os parâmetros de cabeçalho para os emails enviados usando essa predefinição.
 
       >[!CAUTION]
       >
@@ -80,6 +79,15 @@ Para criar uma predefinição de mensagem, siga estas etapas:
       >[!NOTE]
       >
       >Os nomes devem começar com uma letra (A-Z). Ela só pode conter caracteres alfanuméricos. Você também pode usar caracteres de sublinhado `_`, pontos`.` e hífen `-`.
+
+   * Configure os **parâmetros de nova tentativa de email**. Por padrão, o [período de tempo de repetição](retries.md#retry-duration) é definido como 84 horas, mas você pode ajustar essa configuração para melhor atender às suas necessidades.
+
+      ![](../assets/preset-retry-paramaters.png)
+
+      Você deve inserir um valor inteiro (em horas ou minutos) dentro do seguinte intervalo:
+      * Para o tipo de email de marketing, o período mínimo de tentativas é de 6 horas.
+      * Para o tipo de email transacional, o período mínimo de nova tentativa é de 10 minutos.
+      * Para ambos os tipos de email, o período máximo de tentativas é de 84 horas (ou 5040 minutos).
 
 
 1. Defina as configurações de **notificação por push**.
@@ -110,13 +118,17 @@ Para criar uma predefinição de mensagem, siga estas etapas:
    * Verificação de pool de IPs
    * Registro A/PTR, verificação de subdomínio t/m/res
 
+   >[!NOTE]
+   >
+   >Se as verificações não forem bem-sucedidas, saiba mais sobre os possíveis motivos de falha em [this section](#monitor-message-presets).
+
 1. Depois que as verificações são bem-sucedidas, a predefinição de mensagem recebe o status **[!UICONTROL Active]** . Ele está pronto para ser usado para entregar mensagens.
 
    <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
-## Monitorar predefinições de mensagem
+## Monitorar predefinições de mensagem {#monitor-message-presets}
 
 Todas as predefinições de mensagem são exibidas no menu **[!UICONTROL Channels]** / **[!UICONTROL Message presets]**. Os filtros estão disponíveis para ajudar você a navegar pela lista (tipo de canal, usuário, status).
 
@@ -129,6 +141,24 @@ As predefinições de mensagem podem ter os seguintes status:
 * **[!UICONTROL Active]**: A predefinição de mensagem foi verificada e pode ser selecionada para criar mensagens.
 * **[!UICONTROL Failed]**: Uma ou várias verificações falharam durante a verificação da predefinição de mensagem.
 * **[!UICONTROL De-activated]**: A predefinição de mensagem é desativada. Ele não pode ser usado para criar novas mensagens.
+
+Em caso de falha na criação de uma predefinição de mensagem, os detalhes sobre cada possível motivo de falha são descritos abaixo.
+
+Se um desses erros ocorrer, entre em contato com a [Adobe Customer Care Support Team](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} para obter assistência.
+
+* **Falha** na validação do SPF: O SPF (Sender Policy Framework) é um protocolo de autenticação de email que permite especificar IPs autorizados que podem enviar emails de um determinado subdomínio.
+Falha na validação de SPF significa que os endereços IP no registro SPF não correspondem aos endereços IP usados para enviar emails para os provedores de caixa de correio.
+
+* **Falha** na validação do DKIM: O DKIM permite que o servidor do recipient verifique se a mensagem recebida foi enviada pelo remetente genuíno do domínio associado e se o conteúdo da mensagem original não foi alterado no caminho.
+Falha na validação DKIM significa que os servidores de email de recebimento não conseguem verificar a autenticidade do conteúdo da mensagem e sua associação com o domínio de envio.
+
+* **Falha** na validação do registro MX: Falha na validação de registro MX significa que os servidores de email responsáveis pela aceitação de emails de entrada em nome de um determinado subdomínio não estão configurados corretamente.
+
+* **Falha** nas configurações de deliverability: A falha das configurações de deliverability pode ocorrer devido a qualquer um dos seguintes motivos:
+   * incluir na lista de bloqueios dos IPs alocados
+   * Nome `helo` inválido
+   * Emails enviados de IPs diferentes daqueles especificados no pool de IP da predefinição correspondente
+   * Não é possível enviar emails para caixas de entrada dos principais ISPs, como Gmail e Yahoo
 
 ## Editar predefinições de mensagem
 
@@ -148,7 +178,7 @@ Para editar uma predefinição de mensagem, primeiro é necessário desativá-la
 
    >[!NOTE]
    >
-   >As predefinições de mensagens desativadas não podem ser excluídas para evitar qualquer problema no jornada usando essas predefinições para enviar mensagens.
+   >As predefinições de mensagens desativadas não podem ser excluídas para evitar qualquer problema nas jornadas que usam essas predefinições para enviar mensagens.
 
 ## Vídeo tutorial{#video-presets}
 
