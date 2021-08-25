@@ -1,14 +1,14 @@
 ---
 title: Solução de problemas do Jornada
 description: Saiba como solucionar erros no jornada
-feature: Jornadas
-topic: Gerenciamento de conteúdo
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 85%
+source-wordcount: '1040'
+ht-degree: 84%
 
 ---
 
@@ -61,7 +61,7 @@ Veja alguns itens que o administrador deve verificar:
 * O payload do evento contém uma ID do evento?
 * Você digitou o URL correto?
 * Você seguiu a estrutura de payload das APIs de assimilação de streaming usando a pré-visualização da estrutura de payload no painel de configuração do evento? Consulte [esta página](../event/about-creating.md#preview-the-payload).
-* Você usou os pares de chave/valor corretos no cabeçalho do evento?
+* Você usou os pares de valores chave corretos no cabeçalho do evento?
 
    ```
    X-gw-ims-org-id - your ORGID
