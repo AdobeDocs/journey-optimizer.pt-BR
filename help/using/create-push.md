@@ -1,14 +1,14 @@
 ---
 title: Configurar uma notificação por push
 description: Saiba como criar uma notificação por push no Journey Optimizer
-feature: Visão geral
-topic: Gerenciamento de conteúdo
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 12%
+source-wordcount: '1192'
+ht-degree: 13%
 
 ---
 
@@ -82,7 +82,7 @@ Uma notificação por push silenciosa (ou notificação em segundo plano) é uma
 
 Selecione a opção **[!UICONTROL Silent Notification]** para notificar silenciosamente o aplicativo: neste caso, a notificação é transferida diretamente para o pedido. Nenhum alerta é exibido na tela do dispositivo.
 
-Use a seção **[!UICONTROL Custom data]** para adicionar pares de chave/valor.
+Use a seção **[!UICONTROL Custom data]** para adicionar pares de valores chave.
 
 ## Dados personalizados
 
