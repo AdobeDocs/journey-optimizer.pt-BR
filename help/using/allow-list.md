@@ -1,13 +1,13 @@
 ---
 title: Lista de permissões
 description: Saiba como usar a lista de permissões.
-feature: Capacidade de entrega
-topic: Gerenciamento de conteúdo
+feature: Deliverability
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: e2743c8fa624a7a95b12c3adb5dc17a1b632c25d
+source-git-commit: 2edb3535c50f83d18ce4d6429a6d76f44b694ac6
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '558'
 ht-degree: 1%
 
 ---
@@ -24,18 +24,17 @@ A lista de permissões permite especificar endereços de email ou domínios indi
 
 ## Ative a lista de permissões {#enable-allow-list}
 
-Para ativar esse recurso em uma sandbox de não produção, atualize a lista de permissões para que ela não fique mais vazia. Para desativá-la, limpe a lista de permissões para que ela fique vazia novamente.
+Para ativar a lista de permissões em uma sandbox de não produção, é necessário atualizar as configurações gerais usando o ponto final da API correspondente no Serviço de predefinições de mensagens.
 
-Saiba mais sobre a lógica de lista de permissões em [esta seção](#logic).
+* Com essa API, você também pode desativar o recurso a qualquer momento.
 
-<!--
-To enable the allowed list on a non-production sandbox, you need to make an Adobe API call.
+* Você pode atualizar a lista de permissões antes ou depois de habilitar o recurso.
 
-* Using this API, you can also disable the feature at any time.
+* A lógica de lista de permissões se aplica quando o recurso é ativado **e** se a lista de permissões for **e não** vazia. Saiba mais [nesta seção](#logic).
 
-* You can update the allowed list before or after enabling the feature.
+<!--To enable this feature on a non-production sandbox, update the allowed list so that it is no longer empty. To disable it, clear up the allowed list so that it is again empty.
 
-* The allowed list logic applies when the feature is enabled and if the allowed list is not empty. Learn more in this section (logic).
+Learn more on the allowed list logic in this section.
 -->
 
 >[!NOTE]
@@ -54,7 +53,9 @@ Você pode executar as operações **Adicionar**, **Excluir** e **Obter**.
 >
 >A lista de permissões pode conter até 1.000 entradas.
 
-<!--Learn more on making Adobe API calls in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
+<!--
+Learn more on making these API calls in the API reference documentation.
+Found this link in Experience Platform documentation, but may not be the final one: (https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
 
 ## Lógica da lista de permissões {#logic}
 
@@ -68,6 +69,31 @@ Quando a lista de permissões for **not empty**, a lógica de lista de permissõ
 
 * Se uma entidade estiver **na lista de permissões**, e não na lista de supressão, o email poderá ser enviado para o recipient correspondente. No entanto, se a entidade também estiver na [lista de supressão](suppression-list.md), o recipient correspondente não receberá o email, sendo o motivo **[!UICONTROL Suppressed]**.
 
+>[!NOTE]
+>
+>Os perfis com status **[!UICONTROL Not allowed]** são excluídos durante o processo de envio da mensagem. Portanto, enquanto os **Relatórios de Jornada** mostrarão esses perfis como tendo sido movidos pela jornada ([Ler segmento](building-journeys/read-segment.md) e [Mensagem](building-journeys/journeys-message.md) atividades), os **Relatórios de email** não os incluirão nas métricas **[!UICONTROL Sent]**, pois são filtrados antes do envio de email.
+>
+>Saiba mais sobre o [Relatório ao vivo](reports/live-report.md) e [Relatório global](reports/global-report.md).
 
+## Relatórios de exclusão {#reporting}
 
+Quando esse recurso é ativado em uma sandbox de não produção, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. Para fazer isso, você pode usar o [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) para fazer as chamadas de API abaixo.
+
+Para obter o **número de emails** que não foram enviados porque os recipients não estavam na lista de permissões, use a seguinte query:
+
+```
+SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID = '<MESSAGE_EXECUTION_ID>' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
+
+Para obter a **lista de endereços de email** que não foram enviados porque os recipients não estavam na lista de permissões, use a seguinte consulta:
+
+```
+SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID IS NOT NULL AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
 
