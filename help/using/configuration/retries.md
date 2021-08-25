@@ -11,23 +11,27 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: Configurações do aplicativo
-topic: Administração
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 79c3c47eb6978f377bf4dc49f787e9a509aa3f61
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 2%
+source-wordcount: '313'
+ht-degree: 0%
 
 ---
 
 
 # Tentativas {#retries}
 
-Quando uma mensagem falha devido a um erro temporário **Suave rejeição** ou **Ignorado**, várias tentativas são executadas. Cada erro incrementa um contador de erros. Quando esse contador atinge o limite, o endereço é adicionado à lista de supressão.
+Quando uma mensagem de email falha devido a um erro temporário **Suave rejeição** ou **Ignorado**, várias tentativas são executadas. Cada erro incrementa um contador de erros. Quando esse contador atinge o limite, o endereço é adicionado à lista de supressão.
 
-Na configuração padrão<!--so can you edit this setting or not?? contradictory information was given-->, o limite é definido em três erros:
+>[!NOTE]
+>
+>Saiba mais sobre os tipos de erros na seção [Delivery failure types](../suppression-list.md#delivery-failures).
+
+Na configuração padrão, o limite é definido em três erros:
 
 * Para o mesmo delivery, no terceiro erro encontrado, o endereço é suprimido.
 
@@ -35,14 +39,26 @@ Na configuração padrão<!--so can you edit this setting or not?? contradictory
 
 Se um delivery for bem-sucedido após uma tentativa, o contador de erros do endereço será reinicializado.
 
-Você pode modificar o limite usando o botão **[!UICONTROL Edit]** do menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]**.<!--currently you can edit this in staging // now I see in UI: Suppression rule > Bounce days??? > 4-->
+Você pode modificar o limite usando o botão **[!UICONTROL Edit]** do menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]**.
 
 ![](../assets/retries-edition.png)
 
-## Duração da nova tentativa de mensagem {#retry-duration}
+<!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
 
-As tentativas serão executadas por **3,5 dias** a partir do momento em que a mensagem foi adicionada à fila de email.
+## Período de tempo de repetição {#retry-duration}
 
-O atraso mínimo entre as tentativas e o número máximo de tentativas a serem executadas é <!--managed by the Enhanced MTA,--> baseado no desempenho histórico e atual de um IP em um determinado domínio.
+O **período de tempo de repetição** é o período em que qualquer mensagem de email do delivery que encontrou um erro temporário ou rejeição temporária será repetida.
 
-Após 3,5 dias, qualquer mensagem na fila de tentativas será removida e enviada de volta como uma rejeição.<!--???-->
+Por padrão, as tentativas serão executadas por **3,5 dias** (ou **84 horas**) a partir do momento em que a mensagem foi adicionada à fila de email.
+
+No entanto, para garantir que as tentativas de repetição não sejam mais executadas quando não forem mais necessárias, é possível alterar essa configuração de acordo com suas necessidades ao criar ou editar uma predefinição de mensagem [a1/> aplicada ao canal de email.](message-presets.md)
+
+Por exemplo, você pode definir o período de nova tentativa como 24 horas para um email transacional relacionado à redefinição de senha e contendo um link válido por apenas um dia. Da mesma forma, para uma venda à meia-noite, você pode definir um período de repetição de 6 horas.
+
+>[!NOTE]
+>
+>O período de repetição não pode exceder 84 horas. O período mínimo de tentativas é de 6 horas para emails de marketing e 10 minutos para emails transacionais.
+
+Saiba como ajustar os parâmetros de repetição de email ao criar uma predefinição de mensagem em [this section](message-presets.md#create-message-preset).
+
+<!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
