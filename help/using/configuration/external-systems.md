@@ -3,14 +3,13 @@ product: adobe campaign
 solution: Journey Optimizer
 title: Integrar o Journey Optimizer a sistemas externos
 description: Conheça as práticas recomendadas ao integrar o Journey Optimizer a sistemas externos
-topic: Integrações
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
+source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1039'
+ht-degree: 1%
 
 ---
 
