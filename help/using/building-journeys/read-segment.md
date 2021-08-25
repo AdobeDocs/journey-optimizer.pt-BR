@@ -1,14 +1,14 @@
 ---
 title: Usar um segmento em uma jornada
 description: Saiba como usar um segmento em uma jornada
-feature: Jornadas
-topic: Gerenciamento de conteúdo
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
+source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 5%
+source-wordcount: '997'
+ht-degree: 4%
 
 ---
 
@@ -62,7 +62,7 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
 
    >[!NOTE]
    >
-   >A taxa de limitação geral por sandbox é definida como 17.000 mensagens por segundo. Portanto, a taxa de limitação de todos os segmentos de leitura executados simultaneamente na mesma sandbox adiciona no máximo 17.000 mensagens por segundo. Não é possível modificar esta tampa.
+   >A taxa de limitação geral por sandbox é definida como 20.000 mensagens por segundo. Portanto, a taxa de limitação de todos os segmentos de leitura executados simultaneamente na mesma sandbox adiciona até no máximo 20.000 mensagens por segundo. Não é possível modificar esta tampa.
 
 1. A atividade **[!UICONTROL Read Segment]** permite especificar a hora em que o segmento entrará na jornada. Para fazer isso, clique no link **[!UICONTROL Edit journey schedule]** para acessar as propriedades da jornada e configure o campo **[!UICONTROL Scheduler type]**.
 
