@@ -1,14 +1,14 @@
 ---
 title: Gerenciar recusa
 description: Saiba como gerenciar opções de rejeição e privacidade
-feature: Jornadas
-topic: Gerenciamento de conteúdo
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8798d73ace981c44ef896ac6983b50a14286eb57
+source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 90%
+source-wordcount: '814'
+ht-degree: 80%
 
 ---
 
@@ -36,6 +36,8 @@ Oferecer a capacidade de cancelar a assinatura dos recipients ao receberem comun
 Portanto, você sempre deve incluir um **link para cancelar a inscrição** em cada email enviado aos recipients:
 * Ao clicar nesse link, os recipients serão direcionados a uma página de aterrissagem que inclui um botão para confirmar a recusa.
 * Ao clicar no botão de recusa, será feita uma chamada do Adobe I/O para atualizar os dados do perfil com essas informações. [Saiba mais](#consent-service-api).
+
+### Adicionar um link de cancelamento de subscrição {#add-unsubscribe-link}
 
 Para adicionar um link de cancelamento de inscrição, siga as etapas abaixo:
 
@@ -87,7 +89,7 @@ Na guia **[!UICONTROL Attributes]**, é possível ver que o valor de **[!UICONTR
 
 <!--The opt-out URL is resolved upon each recipient receiving the message. It is then personalized with the relevant encrypted parameters (profile ID, profile name, journey ID, sandbox ID, and message execution ID).-->
 
-## Chamada de API de recusa {#opt-out-api}
+### Chamada de API de recusa {#opt-out-api}
 
 Depois que o recipient optar por cancelar a inscrição, uma API do Adobe I/O<!--Consent service API to capture the encrypted data and-->será chamada para atualizar a preferência do perfil correspondente.
 
@@ -129,6 +131,14 @@ Corpo da solicitação:
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
+
+## Cancelamento de um clique {#one-click-opt-out}
+
+À medida que muitos clientes buscam um processo mais fácil de cancelar a assinatura, você também pode adicionar um link para opção de não participação com um clique no seu conteúdo de email. Esse link permitirá que seus recipients cancelem rapidamente a assinatura de suas comunicações, sem serem redirecionados para uma página de aterrissagem onde precisam confirmar a recusa.
+
+Saiba como adicionar um link para opção de não participação ao conteúdo da mensagem em [this section](message-tracking.md#one-click-opt-out-link).
+
+Depois que a mensagem é enviada por meio de um [jornada](building-journeys/journey.md), se um recipient clicar no link para opção de não participação, ele será imediatamente rejeitado.
 
 ## Link de cancelamento de inscrição no cabeçalho {#unsubscribe-email}
 
