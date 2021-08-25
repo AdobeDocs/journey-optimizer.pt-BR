@@ -5,9 +5,9 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ea2bb0c2956781138a0c7f2d0babfd91070dd351
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '699'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Para cada endereço, o motivo básico para a supressão e a categoria de supress
 >
 >Os perfis com status **[!UICONTROL Suppressed]** são excluídos durante o processo de envio da mensagem. Portanto, enquanto os **Relatórios de Jornada** mostrarão esses perfis como tendo sido movidos pela jornada ([Ler segmento](building-journeys/read-segment.md) e [Mensagem](building-journeys/journeys-message.md) atividades), os **Relatórios de email** não os incluirão nas métricas **[!UICONTROL Sent]**, pois são filtrados antes do envio de email.
 >
->Saiba mais sobre o [Relatório ao vivo](reports/live-report.md) e [Relatório global](reports/global-report.md). Para descobrir o motivo de todos os casos de exclusão, você pode usar o [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html).
+>Saiba mais sobre o [Relatório ao vivo](reports/live-report.md) e [Relatório global](reports/global-report.md). Para descobrir o motivo de todos os casos de exclusão, você pode usar o [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
 
 ### Falhas no delivery {#delivery-failures}
 
