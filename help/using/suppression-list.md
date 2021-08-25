@@ -1,14 +1,14 @@
 ---
 title: Lista de supressão
 description: Saiba o que é a lista de supressão, seu propósito e o que ela inclui.
-feature: Capacidade de entrega
-topic: Gerenciamento de conteúdo
+feature: Deliverability
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: ea2bb0c2956781138a0c7f2d0babfd91070dd351
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 4%
+source-wordcount: '697'
+ht-degree: 2%
 
 ---
 
@@ -36,9 +36,11 @@ Os endereços de email são adicionados à lista de supressão da seguinte manei
 
 * Todos os **devoluções permanentes** e **reclamações de spam** enviam automaticamente os endereços de email correspondentes para a lista de supressão após uma única ocorrência.
 
-* **As** devoluções temporárias e os  **** ignorederrors temporários não enviam imediatamente um endereço de email para a lista de supressão, mas incrementam um contador de erros. Várias tentativas são executadas e, quando o contador de erros atinge o limite, o endereço é adicionado à lista de supressão. Saiba mais sobre [tentativas](configuration/retries.md).
+* **As** <!--and temporary **ignored** errors--> devoluções temporárias não enviam imediatamente um endereço de email para a lista de supressão, mas incrementam um contador de erros. Várias [tentativas](configuration/retries.md) são executadas e, quando o contador de erros atinge o limite, o endereço é adicionado à lista de supressão.
 
-<!--You can also manually add an address to the suppression list. Manual category will be available when ability to manually add an address to the suppression list (via API) is released.-->
+* Você também pode [**manualmente** adicionar um endereço ou um domínio](configuration/manage-suppression-list.md#add-addresses-and-domains) à lista de supressão.
+
+Saiba mais sobre devoluções permanentes e devoluções temporárias em [esta seção](#delivery-failures).
 
 >[!NOTE]
 >
@@ -49,17 +51,23 @@ Para cada endereço, o motivo básico para a supressão e a categoria de supress
 
 <!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
 
+>[!NOTE]
+>
+>Os perfis com status **[!UICONTROL Suppressed]** são excluídos durante o processo de envio da mensagem. Portanto, enquanto os **Relatórios de Jornada** mostrarão esses perfis como tendo sido movidos pela jornada ([Ler segmento](building-journeys/read-segment.md) e [Mensagem](building-journeys/journeys-message.md) atividades), os **Relatórios de email** não os incluirão nas métricas **[!UICONTROL Sent]**, pois são filtrados antes do envio de email.
+>
+>Saiba mais sobre o [Relatório ao vivo](reports/live-report.md) e [Relatório global](reports/global-report.md). Para descobrir o motivo de todos os casos de exclusão, você pode usar o [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html).
+
 ### Falhas no delivery {#delivery-failures}
 
-Há três tipos de erros quando um delivery falha:
+Há dois tipos de erros quando um delivery falha:
 
-* **Rejeição** forçada. Uma rejeição permanente indica um endereço de email inválido (ou seja, um endereço de email que não existe). Isso envolve uma mensagem de devolução do servidor de email de recebimento que declara explicitamente que o endereço é inválido, como &quot;unknown user&quot;.
+* **Rejeição** forçada. Uma rejeição permanente indica um endereço de email inválido (ou seja, um endereço de email que não existe). Isso envolve uma mensagem de devolução do servidor de email de recebimento que declara explicitamente que o endereço é inválido.
 * **Rejeição suave**. Esta é uma devolução temporária de email que ocorreu para um endereço de email válido.
-* **Ignorado**. Trata-se de uma devolução de e-mail que ocorreu para um endereço de e-mail válido, mas que é conhecido como temporário, como uma tentativa de conexão com falha, um problema temporário relacionado ao Spam (reputação do e-mail) ou um problema técnico temporário.<!--does it exist in CJM?-->
+<!--* **Ignored**. This is an email bounce that occurred for a valid email address but is known to be temporary, such as a failed connection attempt, a temporary Spam-related issue (email reputation), or a temporary technical issue.-->
 
 Um **devolução permanente** adiciona automaticamente o endereço de email à lista de supressão.
 
-Um erro **soft bounce** ou **ignored** que ocorre muitas vezes também envia o endereço de email para a lista de supressão após várias tentativas. [Saiba mais sobre tentativas](configuration/retries.md)
+Um **devolução temporária** <!--or an **ignored** error--> que ocorre muitas vezes também envia o endereço de email para a lista de supressão após várias tentativas. [Saiba mais sobre tentativas](configuration/retries.md)
 
 Se você continuar enviando para esses endereços, isso pode afetar suas taxas de delivery, pois informa aos ISPs que talvez você não esteja seguindo as práticas recomendadas de manutenção da lista de endereços de email e, portanto, pode não ser um remetente confiável.
 
