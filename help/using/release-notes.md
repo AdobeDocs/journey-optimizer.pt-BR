@@ -1,9 +1,9 @@
 ---
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
-source-git-commit: 77d392cc09bd0923faf3d27e951a17cd702d257c
+source-git-commit: cd077b6f1fd5c81955aec2475dfd8b52aeb23422
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '963'
 ht-degree: 11%
 
 ---
@@ -79,7 +79,7 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 <tr>
 <td>
 <p>Agora é possível definir o período de nova tentativa por predefinição para garantir que as tentativas não sejam mais executadas quando não forem mais necessárias. Por exemplo, você pode definir o período de nova tentativa como 24 horas para uma mensagem transacional de redefinição de senha contendo um link válido por apenas um dia. Observe que as configurações de repetição se aplicam somente ao canal de email.</p>
-<p>Para obter mais informações, consulte a <a href="configuration/retries.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="configuration/retries.md#retry-duration">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -110,7 +110,7 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 
 * **Cabeçalhos dinâmicos**  - Agora é possível transmitir dados dinâmicos em parâmetros do cabeçalho HTTP. Esses parâmetros podem ser usados pelos sistemas de integração que recebem as chamadas HTTP da ação de jornada, por exemplo, carimbo de data e hora ou ID de rastreamento. [Saiba mais](action/about-custom-action-configuration.md#url-configuration)
 * **Caminhos de URL dinâmicos**  - agora você pode configurar caminhos de URL dinâmicos para ações personalizadas. [Saiba mais](action/about-custom-action-configuration.md#url-configuration)
-* A taxa de limitação geral para segmentos de leitura foi alterada de 17.000 para 20.000 mensagens por segundo. [Leia mais](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* A taxa de limitação geral para segmentos de leitura foi alterada de 17.000 para 20.000 mensagens por segundo. [Saiba mais](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Interface do usuário**
 
@@ -122,9 +122,9 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 * **Plano de fundo**  - As imagens de plano de fundo agora são suportadas na visualização ao vivo. [Saiba mais](preview.md)
 * **Link de rejeição com um clique**  - É possível inserir um novo tipo de link no seu conteúdo de email: o  **Opt-** outlink permite que os usuários cancelem a assinatura de receberem suas comunicações com apenas um clique, sem serem redirecionados para uma landing page para confirmar a recusa. [Saiba mais](message-tracking.md#one-click-opt-out-link)
 
-**Personalização**
+<!--**Personalization**
 
-<!--* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
 
 **Configuração de email**
 
