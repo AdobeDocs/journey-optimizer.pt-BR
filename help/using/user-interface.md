@@ -1,14 +1,14 @@
 ---
 title: Interface do usuário
 description: Interface do usuário do Journey Optimizer
-feature: Visão geral
-topic: Gerenciamento de conteúdo
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 91%
+source-wordcount: '1457'
+ht-degree: 68%
 
 ---
 
@@ -19,12 +19,10 @@ Depois de se conectar à [Adobe Experience Cloud](http://experience.adobe.com), 
 >[!NOTE]
 >
 >* Os principais conceitos de navegação na interface do usuário são comuns à Adobe Experience Platform. Consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} para obter mais detalhes.
-   >
-   >
-* Essa documentação é atualizada com frequência para refletir as alterações mais recentes na interface do usuário do produto. Entretanto, algumas capturas de tela podem ser um pouco diferentes de sua interface do usuário.
-   >
-   > 
-* Os componentes e recursos disponíveis na interface do usuário dependem das suas permissões e do seu pacote de licenciamento. Se tiver dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe.
+>
+>* Essa documentação é atualizada com frequência para refletir as alterações mais recentes na interface do usuário do produto. Entretanto, algumas capturas de tela podem ser um pouco diferentes de sua interface do usuário.
+>
+> * Os componentes e recursos disponíveis na interface do usuário dependem das suas permissões e do seu pacote de licenciamento. Se tiver dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe.
 
 
 ## Navegação à esquerda
@@ -87,6 +85,9 @@ A página inicial do [!DNL Journey Optimizer] contém os links e recursos princi
 
 * **[!UICONTROL Sandboxes]**: a Adobe Experience Platform fornece sandboxes que particionam uma única instância em ambientes virtuais separados para ajudar a desenvolver aplicativos de experiência digital. [Saiba mais](administration/sandboxes.md)
 
+<!--
+* **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
+-->
 
 ## Casos de uso no produto
 
@@ -96,7 +97,7 @@ Aproveite os casos de uso do [!DNL Adobe Journey Optimizer] na home page e forne
 
 Os casos de uso disponíveis são:
 
-* **Crie perfis de teste** usando nosso modelo CSV para testar mensagens e jornadas personalizadas. Saiba como implementar esse caso de uso [nesta página](building-journeys/creating-test-profiles.md#use-case-1).
+* **Crie perfis de teste** usando nosso modelo CSV para testar mensagens e jornadas personalizadas. Saiba como implementar este caso de uso [nesta página](building-journeys/creating-test-profiles.md#use-case-1).
 * **Envie uma mensagem de aniversário aos clientes**, para enviar automaticamente um email parabenizando os clientes em seus aniversários. (em breve)
 * **Envie emails para novos clientes** integrados, para enviar facilmente até dois emails e receber seus clientes recém-registrados. (em breve)
 * **Envie mensagens de push a uma lista importada de clientes**, para enviar rapidamente uma notificação por push a uma lista de clientes importados de um arquivo CSV. (em breve)
@@ -106,6 +107,139 @@ Clique em **[!UICONTROL View details]** para saber mais sobre cada caso de uso.
 Clique no botão **[!UICONTROL Begin]** para iniciar o caso de uso.
 
 Você pode acessar casos de uso executados por meio do botão **[!UICONTROL View use case library]**.
+
+## Acessibilidade{#accessibility}
+
+Os recursos de acessibilidade do Adobe Journey Optimizer são fornecidos pela Adobe Experience Platform:
+
+* Acessibilidade do teclado
+* Contraste de cores
+* Validação de campos obrigatórios
+
+[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} na documentação do Adobe Experience Platform.
+
+Você pode usar esses atalhos de teclado comuns no Adobe Journey Optimizer:
+
+| Ação | Atalho |
+| --- | --- |
+| Mover entre elementos da interface do usuário, seções e grupos de menu | Tabulação |
+| Recuar entre elementos da interface do usuário, seções e grupos de menu | Shift + Guia |
+| Mover dentro de seções para definir o foco de elementos individuais | Seta |
+| Selecionar ou limpar um elemento em foco | Inserir ou Barra de espaço |
+| Cancelar uma seleção, recolher um painel ou fechar uma caixa de diálogo | Esc |
+
+[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} na documentação do Adobe Experience Platform.
+
+Você pode usar esses atalhos em partes específicas do Journey Optimizer:
+
+<table>
+  <thead>
+    <tr>
+      <th>Elemento da interface</th>
+      <th>Ação</th>
+      <th>Atalho</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Lista de jornadas, ações, fontes de dados ou eventos</td>
+    <td>Criar uma jornada, uma ação, uma fonte de dados ou um evento</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Jornada tela no status de rascunho</td>
+    <td>Adicionar uma atividade da paleta esquerda na primeira posição disponível, de cima para baixo</td>
+    <td>Clique duas vezes na atividade</td>
+  </tr>
+  <tr>
+    <td>Selecionar todas as atividades</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+  </tr>
+  <tr>
+    <td>Excluir as atividades selecionadas</td>
+    <td>Excluir ou Backspace, em seguida, Inserir para confirmar a exclusão</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
+
+Painel de configuração desses elementos:
+
+<ul>
+  <li>Atividade em uma jornada</li>
+  <li>Evento</li>
+  <li>Fonte de dados</li>
+  <li>Ação</li>
+</ul>
+
+</td>
+    <td>Mover para o próximo campo a ser configurado</td>
+    <td>Tabulação</td>
+  </tr>
+  <tr>
+    <td>Salve as alterações e feche o painel de configuração</td>
+    <td>Enter</td>
+  </tr>
+  <tr>
+    <td>Descartar alterações e fechar o painel de configuração</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Jornada no modo de teste</td>
+    <td>Ative ou desative o modo de teste</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>Acionar um evento em uma jornada baseada em eventos</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
+
+Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UICONTROL Single profile at a time]** esteja ativada
+
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>Exibir os logs de teste</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>Campo de texto</td>
+    <td>Selecionar todo o texto no campo selecionado</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Janela pop-up</td>
+    <td>Salvar alterações ou confirmar a ação</td>
+    <td>Enter</td>
+  </tr>
+  <tr>
+    <td>Feche a janela</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>Editor de expressão simples</td>
+    <td>Selecionar e adicionar um campo</td>
+    <td>Clique duas vezes em um campo</td>
+  </tr>
+  <tr>
+    <td>Navegação pelos campos XDM</td>
+    <td>Selecionar todos os campos de um nó</td>
+    <td>Selecione o nó pai</td>
+  </tr>
+  <tr>
+    <td>Visualização da carga útil</td>
+    <td>Selecionar a carga</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+  </tr>
+</table>
 
 ## Obter ajuda e suporte
 
@@ -137,16 +271,17 @@ Para alterar o idioma:
 * Selecione o idioma de sua preferência e clique em **Salvar**. Você poderá selecionar um segundo idioma, caso o componente que está usando não esteja traduzido em seu primeiro idioma.
    ![](assets/select-language.png)
 
-## Pesquisa
+## Pesquisa{#unified-search}
 
-Em qualquer lugar da interface do Adobe Journey Optimizer, use a pesquisa do Adobe Experience Cloud no centro da barra superior para localizar ativos, jornadas ou mensagens nas sandboxes. Comece a inserir conteúdo para exibir os principais resultados.
+Em qualquer lugar da interface do Adobe Journey Optimizer, use o recurso de pesquisa Unified Adobe Experience Cloud no centro da barra superior para localizar ativos, jornadas, conjuntos de dados, mensagens e muito mais em suas sandboxes.
+
+Comece a inserir conteúdo para exibir os principais resultados. Artigos de ajuda sobre as palavras-chave inseridas também são exibidos nos resultados.
 
 ![](assets/unified-search.png)
 
-Pressione **Enter** para acessar todos os resultados e filtrar.
+Pressione **Enter** para acessar todos os resultados e filtrar por objeto comercial.
 
 ![](assets/search-and-filter.png)
-
 
 ## Listas de filtros{#section_lgm_hpz_pgb}
 
