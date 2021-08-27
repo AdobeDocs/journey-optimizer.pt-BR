@@ -1,10 +1,10 @@
 ---
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
-source-git-commit: a80f9675741aeefa51857cf9fd47c5e7441229cd
+source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 14%
+source-wordcount: '425'
+ht-degree: 13%
 
 ---
 
@@ -27,6 +27,8 @@ Esta página lista todas as atualizações de documentação do [!DNL Journey Op
 * Atualização da seção Monitorar predefinições da mensagem com os possíveis motivos de falha de criação predefinida e detalhes sobre esses erros. [Leia mais](configuration/message-presets.md#monitor-message-presets)
 * Atualização e renomeação da seção Repetir período de tempo para refletir o fato de que agora é possível ajustar a configuração de nova tentativa de email nas predefinições de mensagem. [Leia mais](configuration/retries.md#retry-duration)
 * Uma nova seção foi adicionada para descrever como inserir um link de opção de não participação com um clique no conteúdo do email. [Leia mais](message-tracking.md#one-click-opt-out-link)
+* A seção Delegar um subdomínio foi atualizada com informações mais detalhadas sobre o processo de validação executado pelo Adobe. [Leia mais](configuration/delegate-subdomain.md#subdomain-validation)
+
 <!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
 
 
