@@ -5,9 +5,9 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+source-git-commit: b2eedebb42f878cec0e7747e015693fad4667cff
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -148,9 +148,9 @@ Se um desses erros ocorrer, entre em contato com a [Adobe Customer Care Support 
 
 * **Falha** na validação do SPF: O SPF (Sender Policy Framework) é um protocolo de autenticação de email que permite especificar IPs autorizados que podem enviar emails de um determinado subdomínio. Falha na validação de SPF significa que os endereços IP no registro SPF não correspondem aos endereços IP usados para enviar emails para os provedores de caixa de correio.
 
-* **Falha** na validação do DKIM: O DKIM permite que o servidor do recipient verifique se a mensagem recebida foi enviada pelo remetente genuíno do domínio associado e se o conteúdo da mensagem original não foi alterado no caminho. Falha na validação DKIM significa que os servidores de email de recebimento não conseguem verificar a autenticidade do conteúdo da mensagem e sua associação com o domínio de envio.
+* **Falha** na validação do DKIM: DKIM (DomainKeys Identified Mail) permite que o servidor do recipient verifique se a mensagem recebida foi enviada pelo remetente genuíno do domínio associado e se o conteúdo da mensagem original não foi alterado no caminho. Falha na validação DKIM significa que os servidores de email de recebimento não podem verificar a autenticidade do conteúdo da mensagem e sua associação com o domínio de envio.:
 
-* **Falha** na validação do registro MX: Falha na validação de registro MX significa que os servidores de email responsáveis pela aceitação de emails de entrada em nome de um determinado subdomínio não estão configurados corretamente.
+* **Falha** na validação do registro MX: Falha na validação de registro MX (Mail eXchange) significa que os servidores de email responsáveis por aceitar emails de entrada em nome de um determinado subdomínio não estão configurados corretamente.
 
 * **Falha** nas configurações de deliverability: A falha das configurações de deliverability pode ocorrer devido a qualquer um dos seguintes motivos:
    * incluir na lista de bloqueios dos IPs alocados

@@ -11,14 +11,14 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: Configurações do aplicativo
-topic: Administração
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
+source-git-commit: 848b6e84e0a4469be438e89dfc3e3e4a72dc6b6c
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 9%
+source-wordcount: '758'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ A delegação de nome de domínio é um método que permite ao proprietário de 
 
 Ao delegar um subdomínio para uso com [!DNL Journey Optimizer], os clientes podem depender do Adobe para manter a infraestrutura de DNS necessária para atender aos requisitos de deliverability padrão do setor para seus domínios de envio de marketing de email, enquanto continuam a manter e controlar o DNS para seus domínios de email internos.
 
-[!DNL Journey Optimizer] O permite delegar totalmente seus subdomínios ao Adobe diretamente da interface do produto. Com isso, o Adobe poderá enviar mensagens como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
+[!DNL Journey Optimizer] O permite delegar totalmente seus subdomínios ao Adobe diretamente da interface do produto. Ao fazer isso, o Adobe poderá enviar mensagens como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Para delegar um novo subdomínio, siga as etapas abaixo:
 
 1. A lista de registros que serão colocados em seus servidores DNS é exibida. Copie esses registros, um por um ou baixando um arquivo CSV, e navegue até a solução de hospedagem de domínio para gerar os registros DNS correspondentes.
 
-   Verifique se todos os registros DNS foram gerados na solução de hospedagem de domínio. Se tudo estiver configurado corretamente, marque a caixa &quot;I confirm...&quot; e clique em **[!UICONTROL Submit]**.
+1. Verifique se todos os registros DNS foram gerados na solução de hospedagem de domínio. Se tudo estiver configurado corretamente, marque a caixa &quot;I confirm...&quot; e clique em **[!UICONTROL Submit]**.
 
    ![](../assets/subdomain-submit.png)
 
@@ -65,19 +65,9 @@ Para delegar um novo subdomínio, siga as etapas abaixo:
 
 1. Depois que a delegação de subdomínio for enviada, o subdomínio será exibido na lista com o status **[!UICONTROL Processing]**. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](access-subdomains.md).
 
-   As verificações e ações abaixo serão executadas até que o subdomínio seja verificado e possa ser usado para enviar mensagens.
-
-   Essa etapa é executada pelo Adobe e pode levar até 3 horas.
-
-   1. Verifique se o subdomínio foi delegado ao Adobe DNS (registro NS, registro SOA, configuração de zona, registro de propriedade),
-   1. Configurar DNS para o domínio,
-   1. Criar URLs de rastreamento e espelho,
-   1. Provisionar Frente da Nuvem CDN,
-   1. Criar, validar e anexar o certificado SSL CDN,
-   1. Criar DNS de encaminhamento,
-   1. Criar registro PTR.
-
    ![](../assets/subdomain-processing.png)
+
+   Antes de poder usar esse subdomínio para enviar mensagens, é necessário aguardar até que o Adobe execute as verificações necessárias, que podem levar até 3 horas. Saiba mais [nesta seção](#subdomain-validation).
 
 1. Depois que as verificações são bem-sucedidas, o subdomínio recebe o status **[!UICONTROL Success]**. Ele está pronto para ser usado para entregar mensagens.
 
@@ -85,4 +75,31 @@ Para delegar um novo subdomínio, siga as etapas abaixo:
 
    ![](../assets/subdomain-notification.png)
 
+## Validação de subdomínio {#subdomain-validation}
 
+As verificações e ações abaixo serão executadas até que o subdomínio seja verificado e possa ser usado para enviar mensagens.
+
+>[!NOTE]
+>
+>Essas etapas são executadas por Adobe e podem levar até 3 horas.
+
+1. **Pré-validação**: O Adobe verifica se o subdomínio foi delegado ao Adobe DNS (registro NS, registro SOA, configuração de zona, registro de propriedade). Se a etapa de pré-validação falhar, um erro será retornado junto com o motivo correspondente; caso contrário, o Adobe continuará para a próxima etapa.
+
+1. **Configure o DNS para o domínio**:
+
+   * **Registro** MX: Registro de eXchange de email - Registro do servidor de email que processa emails de entrada enviados ao subdomínio.
+   * **Registro** SPF: Registro da Estrutura de Política do Remetente - Lista os IPs dos servidores de email que podem enviar emails do subdomínio.
+   * **Registro** DKIM: DomainKeys Identified Mail standard record - Usa a criptografia de chave pública-privada para autenticar a mensagem e evitar falsificação.
+   * **A**: Mapeamento IP padrão.
+
+1. **Criar URLs** de rastreamento e espelho: se o domínio for email.example.com, o domínio tracking/mirror será data.email.example.com. Ele é protegido pela instalação do certificado SSL.
+
+1. **Provisionar CDN CloudFront**: se o CDN ainda não estiver configurado, o Adobe o provisões para a gravação.
+
+1. **Criar domínio** CDN: se o domínio for email.example.com, o domínio CDN será cdn.email.example.com.
+
+1. **Criar e anexar o certificado** SSL CDN: O Adobe cria o certificado CDN para o domínio CDN e anexa o certificado ao domínio CDN.
+
+1. **Criar DNS** de encaminhamento: se esse for o primeiro subdomínio que você está delegando, o Adobe criará o DNS de encaminhamento necessário para criar registros PTR - um para cada um dos IPs.
+
+1. **Criar registro** PTR: O registro PTR, também conhecido como registro de DNS reverso, é exigido pelos ISPs para que eles não marquem os emails como spam. O Gmail também recomenda ter registros PTR para cada IP. O Adobe cria registros PTR somente quando você delega o primeiro subdomínio, um para cada IP, todos os IPs apontando para o primeiro subdomínio. Por exemplo, se o IP for *192.1.2.1* e o subdomínio for *email.example.com*, o registro PTR será: *192.1.2.1 PTR r1.email.example.com*. Você pode atualizar o registro PTR posteriormente para apontar para o novo domínio delegado.
