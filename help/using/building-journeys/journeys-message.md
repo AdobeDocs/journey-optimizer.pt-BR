@@ -5,9 +5,9 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+source-git-commit: c1690e1d5db6b068a8611e88c88c8955de21b54f
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '775'
 ht-degree: 3%
 
 ---
@@ -105,5 +105,4 @@ Ative a Otimização de Tempo de Envio em um email ou mensagem de push seleciona
 
 Para mensagens de email, escolha se deseja otimizar as aberturas de email ou click-throughs de email selecionando o botão de opção apropriado. O padrão das mensagens de push é a opção de abertura, pois os cliques não são aplicáveis às mensagens de push.
 
-Você também pode optar por colchar os tempos de envio usados pelo sistema, inserindo um valor para a opção **Send within the next**. Se você escolher &quot;seis horas&quot; como o valor, [!DNL Journey Optimizer]verificará cada perfil de usuário para ver se o tempo de envio ideal ocorre dentro de seis horas do tempo de execução da jornada e selecione o tempo determinado pela Otimização de Tempo de Envio. Se esse tempo não estiver nas próximas seis horas, [!DNL Journey Optimizer] assumirá como padrão o envio da mensagem no tempo de execução da jornada.
-
+Você também pode optar por colchar os tempos de envio usados pelo sistema, inserindo um valor para a opção **Send within the next**. Se você escolher &quot;seis horas&quot; como o valor, [!DNL Journey Optimizer] verificará cada perfil de usuário e selecionará o tempo de envio ideal em seis horas a partir do tempo de execução da jornada.
