@@ -15,33 +15,49 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 79c3c47eb6978f377bf4dc49f787e9a509aa3f61
+source-git-commit: b18f8c468157988be9cca44795b46f6fb4a0208e
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
+source-wordcount: '384'
+ht-degree: 1%
 
 ---
 
 
 # Tentativas {#retries}
 
-Quando uma mensagem de email falha devido a um erro temporário **Suave rejeição** ou **Ignorado**, várias tentativas são executadas. Cada erro incrementa um contador de erros. Quando esse contador atinge o limite, o endereço é adicionado à lista de supressão.
+Quando uma mensagem de email falha devido a um erro temporário de **Suave**, várias tentativas são executadas. Cada erro incrementa um contador de erros. Quando esse contador atinge o limite, o endereço é adicionado à lista de supressão.
 
 >[!NOTE]
 >
 >Saiba mais sobre os tipos de erros na seção [Delivery failure types](../suppression-list.md#delivery-failures).
 
-Na configuração padrão, o limite é definido em três erros:
+Na configuração padrão, o limite é definido como 5 erros.
 
-* Para o mesmo delivery, no terceiro erro encontrado, o endereço é suprimido.
+* Para o mesmo delivery, no quinto erro encontrado dentro do [período de tempo de repetição](#retry-duration), o endereço é suprimido.
 
-* Se houver diferentes deliveries e dois erros ocorrerem pelo menos em 24 horas de intervalo, o contador de erros será incrementado a cada erro e o endereço também será suprimido na terceira tentativa.
+* Se houver diferentes deliveries e dois erros ocorrerem pelo menos em 24 horas de intervalo, o contador de erros será incrementado a cada erro e o endereço também será suprimido na quinta tentativa.
 
 Se um delivery for bem-sucedido após uma tentativa, o contador de erros do endereço será reinicializado.
 
-Você pode modificar o limite usando o botão **[!UICONTROL Edit]** do menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]**.
+Caso o valor padrão de 5 não atenda às suas necessidades, você poderá modificar o limite de erro seguindo as etapas abaixo.
 
-![](../assets/retries-edition.png)
+1. Vá para **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**.
+
+1. Selecione o botão **[!UICONTROL Edit suppression rules]**.
+
+   ![](../assets/suppression-list-edit-retries.png)
+
+1. Edite o número permitido de devoluções temporárias consecutivas de acordo com suas necessidades.
+
+   ![](../assets/suppression-list-edit-soft-bounces.png)
+
+   Você deve inserir um valor inteiro entre 1 e 20, o que significa que o número mínimo de tentativas é 1 e o número máximo é 20.
+
+   >[!CAUTION]
+   >
+   >Qualquer valor maior que 10 pode causar problemas de reputação de entrega, bem como limitação de IP ou  de incluir na lista de bloqueios por ISPs. [Saiba mais sobre a capacidade de entrega](../deliverability.md)
+
+<!--![](../assets/retries-edition.png)-->
 
 <!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
 
@@ -62,3 +78,5 @@ Por exemplo, você pode definir o período de nova tentativa como 24 horas para 
 Saiba como ajustar os parâmetros de repetição de email ao criar uma predefinição de mensagem em [this section](message-presets.md#create-message-preset).
 
 <!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
+
+<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->
