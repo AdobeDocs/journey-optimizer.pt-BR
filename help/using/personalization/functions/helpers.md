@@ -1,19 +1,31 @@
 ---
 title: Auxiliares
 description: Auxiliares
-feature: Personalização
-topic: Personalização
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
+exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
+source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 5%
+source-wordcount: '372'
+ht-degree: 4%
 
 ---
 
-
 # Auxiliares {#gs-helpers}
+
+## Valor de Fallback Padrão{#default-value}
+
+O auxiliar `Default Fallback Value` é usado para retornar um valor de fallback padrão se um atributo estiver vazio ou nulo. Esse mecanismo funciona para atributos de perfil e eventos do Jornada.
+
+**Sintaxe**
+
+```sql
+Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
+```
+
+Neste exemplo, o valor `there` é exibido se o atributo `firstName` desse perfil estiver vazio ou for nulo.
 
 ## Condições{#if-function}
 

@@ -1,13 +1,13 @@
 ---
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
-source-git-commit: 1c299ec022a3985c2e9b164bc57d36948f0941d5
+exl-id: 06fa956a-b500-416e-9d42-b683c328e837
+source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1071'
 ht-degree: 11%
 
 ---
-
 
 # Notas de versão {#release-notes}
 
@@ -140,9 +140,9 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 * **Plano de fundo**  - As imagens de plano de fundo agora são suportadas na visualização ao vivo. [Saiba mais](preview.md)
 * **Link de rejeição com um clique**  - É possível inserir um novo tipo de link no seu conteúdo de email: o  **Opt-** outlink permite que os usuários cancelem a assinatura de receberem suas comunicações com apenas um clique, sem serem redirecionados para uma landing page para confirmar a recusa. [Saiba mais](message-tracking.md#one-click-opt-out-link)
 
-<!--**Personalization**
+**Personalização**
 
-* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **Editor de expressão**  - agora é possível adicionar facilmente um valor de fallback ao definir a personalização: quando o campo de personalização estiver vazio para um perfil, o valor de fallback será exibido. [Saiba mais](personalization/functions/helper.md)
 
 **Configuração de email**
 
@@ -225,4 +225,3 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 * A localização no painel de ofertas no Editor de expressão agora está implementada.
 * Corrigido o espaçamento incorreto em pop-ups de informações.
 * Correção de um problema no Designer de email ao carregar um arquivo HTML em que a folha de estilos interna com a propriedade `background-image` não era compatível.
-
