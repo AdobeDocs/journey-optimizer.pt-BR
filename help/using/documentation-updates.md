@@ -1,13 +1,13 @@
 ---
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
-source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
+exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
+source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 13%
+source-wordcount: '472'
+ht-degree: 17%
 
 ---
-
 
 # Atualizações mais recentes nesta documentação
 
@@ -30,6 +30,7 @@ Esta página lista todas as atualizações de documentação do [!DNL Journey Op
 * A seção Delegar um subdomínio foi atualizada com informações mais detalhadas sobre o processo de validação executado pelo Adobe. [Leia mais](configuration/delegate-subdomain.md#subdomain-validation)
 * Adição de uma seção para descrever como adicionar manualmente endereços de email e domínios à lista de supressão. [Leia mais](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Atualização das seções [Acessar a lista de supressão](configuration/manage-suppression-list.md#access-suppression-list) e [Tentativas](configuration/retries.md) para refletir a nova interface do usuário.
+* O novo fluxo para adicionar e configurar representações ao criar uma oferta foi documentado. [Leia mais](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## Julho de 2021

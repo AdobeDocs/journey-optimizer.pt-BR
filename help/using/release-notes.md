@@ -2,9 +2,9 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3ca2d7a8a3a55cd7caad86d72a2ac2fa9f5b315c
+source-git-commit: 740d76fccf966d027c63ddc72241d91cb6c8928b
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1110'
 ht-degree: 11%
 
 ---
@@ -148,7 +148,10 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 
 * **Lista de permissões**  - A lista de permissões agora pode ser ativada e desativada em uma sandbox de não produção por meio de uma chamada de API. [Saiba mais](allow-list.md#enable-allow-list)
 * **Navegação**  - A lista de supressão, que estava acessível no menu  **Administração > Canais > Configuração de email >** Geral, foi movida para o novo submenu  **Supressão** listsubmenu, que reúne todos os recursos relacionados para facilitar o acesso. [Saiba mais](configuration/manage-suppression-list.md#access-suppression-list)
-<!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+
+**Gerenciamento de decisão**
+
+* A maneira de adicionar e configurar representações ao criar uma oferta foi atualizada para melhorar a experiência do usuário. Especificamente, a biblioteca de Ativos agora é exibida somente quando você define o conteúdo do tipo imagem para uma representação. [Saiba mais](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### Correções
 
