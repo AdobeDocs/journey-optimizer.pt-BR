@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 66%
@@ -17,13 +17,13 @@ ht-degree: 66%
 
 Depois de se conectar à [Adobe Experience Cloud](http://experience.adobe.com), navegue até o [!DNL Journey Optimizer].
 
+Os principais conceitos de navegação na interface do usuário são comuns à Adobe Experience Platform. Consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} para obter mais detalhes.
+
+Os componentes e recursos disponíveis na interface do usuário dependem das [permissões](administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Se tiver dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe.
+
 >[!NOTE]
 >
->* Os principais conceitos de navegação na interface do usuário são comuns à Adobe Experience Platform. Consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} para obter mais detalhes.
->
->* Essa documentação é atualizada com frequência para refletir as alterações mais recentes na interface do usuário do produto. Entretanto, algumas capturas de tela podem ser um pouco diferentes de sua interface do usuário.
->
->* Os componentes e recursos disponíveis na interface do usuário dependem das [permissões](administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Se tiver dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe.
+>Essa documentação é atualizada com frequência para refletir as alterações mais recentes na interface do usuário do produto. Entretanto, algumas capturas de tela podem ser um pouco diferentes de sua interface do usuário.
 
 
 ## Navegação à esquerda
