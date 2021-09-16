@@ -5,10 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
+exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 68%
+source-wordcount: '1459'
+ht-degree: 66%
 
 ---
 
@@ -22,7 +23,7 @@ Depois de se conectar à [Adobe Experience Cloud](http://experience.adobe.com), 
 >
 >* Essa documentação é atualizada com frequência para refletir as alterações mais recentes na interface do usuário do produto. Entretanto, algumas capturas de tela podem ser um pouco diferentes de sua interface do usuário.
 >
-> * Os componentes e recursos disponíveis na interface do usuário dependem das suas permissões e do seu pacote de licenciamento. Se tiver dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe.
+>* Os componentes e recursos disponíveis na interface do usuário dependem das [permissões](administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Se tiver dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe.
 
 
 ## Navegação à esquerda
@@ -110,7 +111,7 @@ Você pode acessar casos de uso executados por meio do botão **[!UICONTROL View
 
 ## Acessibilidade{#accessibility}
 
-Os recursos de acessibilidade do Adobe Journey Optimizer são fornecidos pela Adobe Experience Platform:
+Os recursos de acessibilidade em [!DNL Adobe Journey Optimizer] são herdados do Adobe Experience Platform:
 
 * Acessibilidade do teclado
 * Contraste de cores
@@ -118,7 +119,7 @@ Os recursos de acessibilidade do Adobe Journey Optimizer são fornecidos pela Ad
 
 [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} na documentação do Adobe Experience Platform.
 
-Você pode usar esses atalhos de teclado comuns no Adobe Journey Optimizer:
+Você pode usar esses atalhos de teclado comuns em [!DNL Journey Optimizer]:
 
 | Ação | Atalho |
 | --- | --- |

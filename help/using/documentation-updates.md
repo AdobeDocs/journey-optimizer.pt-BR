@@ -2,7 +2,7 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 17%
@@ -46,7 +46,7 @@ Esta página lista todas as atualizações de documentação do [!DNL Journey Op
 * As &quot;atividades de oferta&quot; foram renomeadas como &quot;decisões&quot; e &quot;decisões&quot; como &quot;escopos de decisão&quot; na documentação e nas telas. [Leia mais](offers/get-started/starting-offer-decisioning.md)
 * Novo caso de uso: [personalizar uma mensagem com funções de ajuda](personalization/personalization-use-case-helper-functions.md)
 * Atualização da documentação do segmento Lido para refletir os impactos de segmentos materializados. [Leia mais](building-journeys/read-segment.md)
-* Atualização das limitações de Jornada. [Leia mais](building-journeys/limitations.md)
+* Atualização das limitações de Jornada. [Leia mais](limitations.md)
 * Atualização da seleção Configurar ofertas na seção decisões . [Leia mais](offers/offer-activities/configure-offer-selection.md)
 * Adição de um aviso para mencionar que as ofertas baseadas em eventos não são suportadas no momento. [Leia mais](offers/offer-library/creating-personalized-offers.md#eligibility)
 * Nova guia **[!UICONTROL Overview]** do Gerenciamento de decisão foi documentada. [Leia mais](offers/get-started/user-interface.md#overview)
