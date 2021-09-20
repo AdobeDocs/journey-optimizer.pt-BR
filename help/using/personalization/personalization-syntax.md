@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 395ce682c52880bc67234b254f3ff55fae07f82e
+source-git-commit: 1cf3475d7b2b990db4b2217bb03a47b76692142c
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 4%
@@ -147,7 +147,7 @@ Blocos são expressões que têm um bloco abrindo ({{# }}) e fechando ({{/}}).
 
 O Journey Orchestration permite personalizar um ou vários URLs na mensagem, adicionando campos de personalização a eles. Para fazer isso:
 
-* Crie um link no seu conteúdo de email ou push. Para saber mais sobre a criação de links, consulte [esta página](../message-tracking#insert-links)).
+* Crie um link no seu conteúdo de email ou push. Para saber mais sobre a criação de links, consulte [esta página](../message-tracking.md#insert-links)).
 * Clique no ícone de personalização. Este ícone está disponível para estes tipos específicos de links: **Link externo**, **Link de cancelamento de subscrição** e **Opt-Out**.
 
 ![](assets/perso-url.png)
