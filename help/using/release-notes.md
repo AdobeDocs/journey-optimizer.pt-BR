@@ -2,10 +2,10 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 740d76fccf966d027c63ddc72241d91cb6c8928b
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 11%
+source-wordcount: '1171'
+ht-degree: 19%
 
 ---
 
@@ -27,7 +27,7 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>Envie seu push ou email automaticamente na melhor hora para cada cliente que interagir com a Adobe Journey Optimizer. A Otimização de tempo de envio, viabilizada pelos serviços de IA do Adobe, prevê o melhor momento para enviar um email ou mensagem de push para maximizar o engajamento com base nas taxas de abertura e cliques do histórico prontas para uso.</p>
+<p>Envie seu push ou email automaticamente na melhor hora para cada cliente que interagir com o Adobe Journey Optimizer. A Otimização de tempo de envio, viabilizada pelos serviços de IA do Adobe, prevê o melhor momento para enviar um email ou mensagem de push para maximizar o engajamento com base nas taxas de abertura e cliques do histórico prontas para uso.</p>
 <p>No momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente do Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="building-journeys/journeys-message.md#send-time-optimization">documentação detalhada</a>.</p>
 </td>
@@ -52,23 +52,23 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
-<th><strong>Personalized URLs</strong><br/></th>
+<th><strong>URLs personalizados</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can now add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.</p>
-<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+<p>Os URLs personalizados levam os recipients para páginas específicas de um site ou para um microsite personalizado, dependendo dos atributos do perfil. No Adobe Journey Optimizer, agora é possível adicionar personalização a URLs no conteúdo da mensagem. A personalização do URL pode ser aplicada ao texto e às imagens, e usar os dados do perfil ou dados contextuais.</p>
+<p>Para obter mais informações, consulte a <a href="personalization/personalization-syntax.md#perso-urls">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
 
 <table>
 <thead>
@@ -95,7 +95,7 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>A adição de endereços de email e domínios na lista de supressão agora está disponível na interface do usuário, um por um, no modo em massa por meio de um upload de arquivo CSV.</p>
+<p>A adição de endereços de email e domínios à lista de supressão agora está disponível na interface do usuário, um por um, ou no modo em massa por meio de um upload de arquivo CSV.</p>
 <p>Para obter mais informações, consulte a <a href="configuration/manage-suppression-list.md#add-addresses-and-domains">documentação detalhada</a>.</p>
 </td>
 </tr>

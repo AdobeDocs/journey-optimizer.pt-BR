@@ -1,17 +1,17 @@
 ---
 title: Sintaxe de personalização
 description: Saiba como usar a sintaxe de personalização
-feature: Personalização
-topic: Personalização
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 5%
+source-wordcount: '648'
+ht-degree: 4%
 
 ---
-
 
 # Sintaxe de personalização {#personalization-syntax}
 
@@ -76,7 +76,6 @@ Saiba como aproveitar os atributos de perfil em condições em [esta seção](fu
 >[!NOTE]
 >Para saber mais sobre o serviço de segmentação e segmentação, consulte [esta seção](../segment/about-segments.md).
 
-
 ## Ofertas
 
 Esse namespace permite fazer referência às decisões de ofertas existentes.
@@ -129,7 +128,6 @@ Blocos são expressões que têm um bloco abrindo ({{# }}) e fechando ({{/}}).
 >
 >As funções de ajuda são detalhadas em [nesta seção](functions/helpers.md).
 
-
 ## Tipos literais
 
 [!DNL Adobe Journey Optimizer] O suporta os seguintes tipos literais:
@@ -144,3 +142,24 @@ Blocos são expressões que têm um bloco abrindo ({{# }}) e fechando ({{/}}).
 >[!CAUTION]
 >
 >O uso da variável **xEvent** não está disponível em expressões de personalização. Qualquer referência ao xEvent resultará em falhas de validação.
+
+## Personalização de URL{#perso-urls}
+
+O Journey Orchestration permite personalizar um ou vários URLs na mensagem, adicionando campos de personalização a eles. Para fazer isso:
+
+* Crie um link no seu conteúdo de email ou push. Para saber mais sobre a criação de links, consulte [esta página](../message-tracking#insert-links)).
+* Clique no ícone de personalização. Este ícone está disponível para estes tipos específicos de links: **Link externo**, **Link de cancelamento de subscrição** e **Opt-Out**.
+
+![](assets/perso-url.png)
+
+>[!NOTE]
+>`
+>No editor de expressão, ao editar um URL personalizado, as funções de ajuda e a associação de segmentos são desativadas por motivos de segurança.
+
+** Exemplos de URLs personalizados **
+
+* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
+* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
+* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
+* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+
