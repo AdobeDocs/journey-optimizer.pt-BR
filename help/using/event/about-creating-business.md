@@ -1,14 +1,15 @@
 ---
 title: Configurar um evento comercial
 description: Saiba como criar um evento comercial
-feature: Eventos
-topic: Administração
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 709e320e53287319ff76adc7843c276740e7d435
+exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
+source-git-commit: b219f900d8349c46c01a0dd3110e441694e47b5f
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 15%
+source-wordcount: '974'
+ht-degree: 12%
 
 ---
 
@@ -30,6 +31,18 @@ Os eventos comerciais podem ser &quot;um produto está de volta ao estoque&quot;
 * Depois que um evento comercial é acionado, haverá um atraso para que o segmento seja exportado de 15 minutos para até uma hora.
 * Ao testar um evento comercial, você deve passar os parâmetros do evento e o identificador do perfil de teste que inserirá a jornada em teste. Além disso, ao testar uma jornada baseada em eventos empresariais, você só pode acionar a entrada de perfil único. Consulte [esta seção](../building-journeys/testing-the-journey.md#test-business). No modo de teste, não há modo de &quot;Visualização de código&quot; disponível.
 * O que acontece com os indivíduos que estão atualmente na jornada se um novo evento comercial chegar? Ele se comporta da mesma forma que quando os indivíduos ainda estão em uma jornada recorrente quando ocorre uma nova recorrência. Seu caminho está encerrado. Como resultado, os profissionais de marketing devem prestar atenção para evitar a criação de jornadas muito longas se esperarem eventos comerciais frequentes.
+
+## Vários eventos comerciais
+
+Estas são algumas observações importantes que se aplicam quando vários eventos comerciais são recebidos sucessivamente.
+
+**Qual é o comportamento ao receber um evento comercial enquanto a jornada está sendo processada?**
+
+Os eventos comerciais seguem as regras de reentrada da mesma forma que os eventos unitários. Se uma jornada permitir a reentrada, o próximo evento comercial será processado.
+
+**Quais são as medidas de proteção para evitar sobrecarga de segmentos materializados?**
+
+Para eventos comerciais, a reutilização do tópico é definida como uma hora. Isso significa que para uma determinada jornada, em uma janela de 1 hora, nenhum novo trabalho de exportação é criado. Os dados enviados pelo primeiro trabalho de evento são reutilizados. Para jornadas agendadas, não há garantia.
 
 ## Introdução a eventos comerciais
 
@@ -69,6 +82,10 @@ Estas são as primeiras etapas para configurar um evento comercial:
    ![](../assets/jo-event6-business.png)
 
    Em nosso exemplo, escrevemos uma condição com base na ID do produto. Isso significa que sempre que o sistema receber um evento que corresponda a essa condição, ele o passará para o jornada.
+
+   >[!NOTE]
+   >
+   >No editor de expressões simples, nem todos os operadores estão disponíveis, eles dependem do tipo de dados. Por exemplo, para um tipo de string de campo, é possível usar &quot;contains&quot; ou &quot;equal to&quot;.
 
 1. Clique em **[!UICONTROL Save]**.
 

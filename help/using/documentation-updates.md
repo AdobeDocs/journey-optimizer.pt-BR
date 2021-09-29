@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: d6228aade93bc9fa2b5f2ad2b76db5e193208242
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 18%
+source-wordcount: '711'
+ht-degree: 17%
 
 ---
 
@@ -15,8 +15,33 @@ Esta página lista todas as atualizações de documentação do [!DNL Journey Op
 
 ## Setembro de 2021
 
+* As seguintes páginas de função foram atualizadas: [sites](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html), [getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html), [inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+
+* As seguintes funções foram adicionadas: [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html), [intersetar](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html), [toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+
+* O tipo de data dateOnly foi adicionado na documentação do editor de expressão. [Leia mais](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+
+* Adição de detalhes sobre a duração do cache de ação personalizada. [Leia mais](datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* Foram adicionadas informações sobre as portas padrão de ação personalizada. [Leia mais](action/about-custom-action-configuration.md#url-configuration)
+
+* Foram adicionadas informações sobre vários casos de uso de eventos comerciais. [Leia mais](event/about-creating-business.md#multiple-business-events)
+
+* Adição de exemplos comumente usados para consultar Eventos de etapa da Jornada no Data Lake. [Leia mais](reports/query-examples.md)
+
 * Adição de uma nova página **Limitações**. [Leia mais](limitations.md)
+
 * Melhoria na página **Início rápido** com etapas para diferentes personas. [Leia mais](quick-start.md)
+
+   <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
+
+* Agora, todos os recursos de Gerenciamento de decisões descritos na seção dedicada também se aplicam aos usuários do Adobe Experience Platform que usam o serviço de aplicativos do Offer Decisioning. [Leia mais](offers/get-started/starting-offer-decisioning.md)
+
+* Adição de uma subseção para esclarecer as diferenças entre o uso de segmentos versus regras de decisão ao aplicar uma restrição para restringir a seleção de ofertas para uma determinada disposição. [Leia mais](offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+
+* Foram adicionados exemplos de fórmulas de classificação específicas para ilustrar alguns casos de uso reais. [Leia mais](offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+
+* Adição de uma subseção sobre como editar pools de IP. [Leia mais](configuration/ip-pools.md#edit-ip-pool)
 
 ## Agosto de 2021
 

@@ -1,13 +1,14 @@
 ---
 title: Projetar a jornada
 description: Saiba como criar sua jornada
-feature: Jornadas
-topic: Gerenciamento de conteúdo
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
+exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
+source-git-commit: e9da4ec95a82d53e6fcf2cb99fb6215b0c325f08
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1417'
 ht-degree: 2%
 
 ---
@@ -30,7 +31,7 @@ O ícone **[!UICONTROL Filter items]** no canto superior esquerdo permite exibir
 
 * **Mostrar apenas itens** recentes: esse filtro permite exibir somente os cinco últimos eventos e ações usados, além dos prontos para uso. Isso é específico para cada usuário. Por padrão, todos os itens são exibidos.
 
-Também é possível usar o campo **[!UICONTROL Search]**.
+Também é possível usar o campo **[!UICONTROL Search]**. Somente eventos e ações são filtrados.
 
 A **tela** é a zona central no designer de jornadas. É nessa zona que você pode soltar suas atividades e configurá-las. Clique em uma atividade na tela para configurá-la. Isso abre o painel de configuração da atividade no lado direito.
 

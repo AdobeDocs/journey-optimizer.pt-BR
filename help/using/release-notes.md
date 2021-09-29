@@ -2,9 +2,9 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1490'
 ht-degree: 19%
 
 ---
@@ -13,6 +13,78 @@ ht-degree: 19%
 
 Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimizer]. Você também pode consultar as [Atualizações de documentação mais recentes](documentation-updates.md).
 
+
+
+## Versão de setembro de 2021 {#september-2021-release}
+
+### Novos recursos
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Relatórios - Melhor insight para o público-alvo</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Uma nova métrica está disponível nos relatórios: o público-alvo direcionado para mensagens de email e push é visível nos relatórios em tempo real e global.</p>
+<p>Uma nova coluna na lista de execução de mensagens exibe o número de perfis direcionados para cada execução de mensagem. </p>
+<p>Para obter mais informações, consulte a <a href="message-monitoring.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Transmita listas de dados dinamicamente usando ações personalizadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível enviar coleções ou uma lista de dados nos parâmetros de ação personalizados que serão preenchidos dinamicamente no tempo de execução. Há suporte para dois tipos de coleções: coleções simples e coleções de objetos. As ações personalizadas criadas anteriormente continuarão funcionando. </p>
+<p>Para obter mais informações sobre coleções, consulte a <a href="building-journeys/collections.md">documentação detalhada</a>. </p>
+<p>As funções de filtro e interseção foram adicionadas à lista de funções disponíveis no editor de expressão avançado. Isso oferece mais possibilidades para filtragem e comparação de coleção.</p>
+<p>Consulte a documentação nas funções <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> e <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersett</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management - Personalize your offers</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now personalize content added to your offers' representations using the expression editor.</p>
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+### Melhorias
+
+**Jornadas**
+
+* Os esquemas e conjuntos de dados gerados pelo sistema que foram criados durante o provisionamento para eventos da etapa agora estão no modo somente leitura, protegendo contra qualquer modificação inadvertida em esquemas críticos. [Saiba mais](reports/sharing-overview.md)
+* Rotule a atividade **Wait** com um rótulo que será exibido na tela. O rótulo também é usado em registros de relatórios e modos de teste para identificar claramente o que você está fazendo. [Saiba mais](building-journeys/about-journey-activities.md#best-practices)
+* Encontre seus eventos e ações mais rapidamente filtrando elementos nas categorias **Events** e **Action** usando pesquisa. As atividades de orquestração não são mais filtradas. [Saiba mais](building-journeys/using-the-journey-designer.md)
+* Ao definir uma condição de ID de evento em um evento com base em regras ou de negócios, o operador &quot;contém&quot; agora fica disponível para tipos de sequências de caracteres de campos. [Saiba mais](event/about-creating.md)
+
+**Configuração de email**
+
+* Quando um pool IP tiver sido associado a uma predefinição de mensagem, você poderá editá-lo, sendo a atualização assíncrona. Você também pode verificar cada status de atualização do pool de IP. [Saiba mais](configuration/ip-pools.md#edit-ip-pool)
 
 ## Versão de agosto de 2021 {#august-2021-release}
 

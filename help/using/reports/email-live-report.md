@@ -5,10 +5,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 1%
+source-wordcount: '437'
+ht-degree: 2%
 
 ---
 
@@ -26,19 +27,27 @@ O email **[!UICONTROL Live report]** é dividido em diferentes widgets detalhand
 
 **[!UICONTROL Email performance]** Os  **[!UICONTROL Email summary]** widgets e detalham as informações principais relativas à sua mensagem com um gráfico e KPIs:
 
+* **[!UICONTROL Targeted]**: Número de perfis de usuário que se qualificaram como perfis de público-alvo para este delivery.
+
 * **[!UICONTROL Sent]**: Número total de envios para o delivery.
 
 * **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
-
-* **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.
-
-* **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
 
 * **[!UICONTROL Opens]**: Número de vezes que uma mensagem foi aberta em um delivery.
 
 * **[!UICONTROL Clicks]**: Número de vezes que um conteúdo foi clicado em um delivery.
 
-O gráfico **[!UICONTROL Sending Statistics]** detalha o sucesso do delivery:
+* **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.
+
+* **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
+
+* **[!UICONTROL Spam complaints]**: Número de mensagens classificadas como spam.
+
+* **[!UICONTROL Unsubscriptions]**: Número de cliques no link unsubscription.
+
+* **[!UICONTROL Excluded]**: Número de perfis de usuário, excluídos dos perfis segmentados, que não receberam a mensagem.
+
+O widget **[!UICONTROL Sending Statistics]** detalha o sucesso do delivery:
 
 * **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 

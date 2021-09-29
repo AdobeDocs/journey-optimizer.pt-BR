@@ -1,13 +1,14 @@
 ---
 title: Criar decisões
 description: Saiba como criar decisões
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
+exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
+source-git-commit: 89e0223ebbf5015b61b55da693e0c6401307ce9f
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '1015'
 ht-degree: 3%
 
 ---
@@ -18,7 +19,7 @@ As decisões (anteriormente conhecidas como atividades de oferta) são contêine
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-A lista de decisões pode ser acessada no menu **[!UICONTROL Offers]** / **[!UICONTROL Decisions]**. Os filtros estão disponíveis para ajudá-lo a recuperar decisões de acordo com seu status ou datas de início e término.
+A lista de decisões pode ser acessada no menu **[!UICONTROL Offers]** > **[!UICONTROL Decisions]** . Os filtros estão disponíveis para ajudá-lo a recuperar decisões de acordo com seu status ou datas de início e término.
 
 ![](../../assets/activities-list.png)
 
@@ -33,7 +34,9 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
 1. Acesse a lista de decisões e clique em **[!UICONTROL Create decision]**.
 
-1. Especifique o nome da decisão, bem como a data e hora de início e término, e clique em **[!UICONTROL Next]**.
+1. Especifique o nome da decisão.
+
+1. Defina uma data e hora de início e término e clique em **[!UICONTROL Next]**.
 
    ![](../../assets/activities-name.png)
 
@@ -51,29 +54,53 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
    ![](../../assets/activities-collection.png)
 
-1. As ofertas selecionadas são adicionadas à disposição. Neste exemplo, selecionamos duas ofertas que serão exibidas em uma disposição do tipo JSON destinada a apresentar ofertas em uma solução de central de chamadas.
+1. As ofertas selecionadas são adicionadas à disposição.
+
+   Neste exemplo, selecionamos duas ofertas que serão exibidas em uma disposição do tipo JSON destinada a apresentar ofertas em uma solução de central de chamadas.
 
    ![](../../assets/offers-added.png)
 
 1. Por padrão, se várias ofertas estiverem qualificadas para essa disposição, as ofertas com a pontuação de prioridade mais alta serão entregues ao cliente.
 
-   Se quiser usar uma fórmula específica para escolher qual oferta elegível entregar, selecione uma fórmula de classificação na lista suspensa **[!UICONTROL Rank offers by]**. Para obter mais informações, consulte [esta seção](../offer-activities/configure-offer-selection.md).
+   Se quiser usar uma fórmula específica ou uma estratégia de classificação para escolher qual oferta elegível entregar, selecione uma fórmula de classificação na lista suspensa **[!UICONTROL Rank offers by]**. Para obter mais informações, consulte [esta seção](../offer-activities/configure-offer-selection.md).
 
-1. O campo **[!UICONTROL Constraint]** restringe a seleção de ofertas para essa disposição. Essa restrição pode ser aplicada usando uma regra de decisão ou um ou vários segmentos do Adobe Experience Platform.
+1. O campo **[!UICONTROL Constraint]** restringe a seleção de ofertas para essa disposição. Essa restrição pode ser aplicada usando uma **regra de decisão** ou um ou vários **segmentos Adobe Experience Platform**. Ambos são detalhados em [nesta seção](#segments-vs-decision-rules).
 
-   Para restringir a seleção das ofertas aos membros de um segmento do Adobe Experience Platform, selecione **[!UICONTROL Segments]** e clique em **[!UICONTROL Add segments]**.
+   * Para restringir a seleção das ofertas aos membros de um segmento do Adobe Experience Platform, selecione **[!UICONTROL Segments]** e clique em **[!UICONTROL Add segments]**.
 
-   ![](../../assets/activity_constraint_segment.png)
+      ![](../../assets/activity_constraint_segment.png)
 
-   Adicione um ou vários segmentos do painel esquerdo, combine-os usando os operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]** e clique em **[!UICONTROL Select]** para confirmar.
+      Adicione um ou vários segmentos do painel esquerdo, combine-os usando os operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]** e clique em **[!UICONTROL Select]** para confirmar.
 
-   Para obter mais informações sobre como trabalhar com segmentos, consulte [esta página](../../segment/about-segments.md).
+      ![](../../assets/activity_constraint_segment2.png)
 
-   ![](../../assets/activity_constraint_segment2.png)
+      Saiba mais sobre como trabalhar com segmentos em [esta seção](../../segment/about-segments.md).
 
-   Se quiser adicionar uma restrição de seleção a essa disposição usando uma regra de decisão, selecione a opção **[!UICONTROL Decision rule]** e arraste a regra desejada do painel esquerdo para a área **[!UICONTROL Decision rule]**. Para obter mais informações sobre como criar uma regra de decisão, consulte [esta seção](../offer-library/creating-decision-rules.md).
+   * Se quiser adicionar uma restrição de seleção a essa disposição usando uma regra de decisão, selecione a opção **[!UICONTROL Decision rule]** e arraste a regra desejada do painel esquerdo para a área **[!UICONTROL Decision rule]**.
 
-   ![](../../assets/activity_constraint_rule.png)
+      ![](../../assets/activity_constraint_rule.png)
+
+      Saiba mais sobre como criar uma regra de decisão em [this section](../offer-library/creating-decision-rules.md).
+
+### Uso de segmentos versus regras de decisão {#segments-vs-decision-rules}
+
+<!--to move to create-offers?-->
+
+Para aplicar uma restrição, você pode restringir a seleção de ofertas aos membros de um ou vários **segmentos do Adobe Experience Platform**, ou usar uma **regra de decisão**, ambas as soluções correspondentes a usos diferentes.
+
+Basicamente, a saída de um segmento é uma lista de perfis, enquanto uma regra de decisão é uma função executada sob demanda em relação a um único perfil durante o processo de decisão. A diferença entre esses dois usos é detalhada abaixo.
+
+* **Segmentos**
+
+   Por um lado, segmentos são um grupo de perfis do Adobe Experience Platform que correspondem a uma determinada lógica com base em atributos de perfil e eventos de experiência. No entanto, o Gerenciamento de ofertas não recalcula o segmento, que pode não estar atualizado ao apresentar a oferta.
+
+   Saiba mais sobre segmentos em [esta seção](../../segment/about-segments.md).
+
+* **Regras de decisão**
+
+   Por outro lado, uma regra de decisão se baseia nos dados disponíveis no Adobe Experience Platform e determina para quem uma oferta pode ser exibida. Uma vez selecionada em uma oferta ou decisão para uma determinada disposição, a regra é executada toda vez que uma decisão é tomada, o que garante que cada perfil obtenha a mais recente e a melhor oferta.
+
+   Saiba mais sobre as regras de decisão em [esta seção](../offer-library/creating-decision-rules.md).
 
 ## Adicionar uma oferta de fallback {#add-fallback}
 

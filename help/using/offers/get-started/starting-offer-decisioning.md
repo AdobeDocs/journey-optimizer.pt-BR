@@ -1,21 +1,25 @@
 ---
 title: Introdução ao Gerenciamento de decisão
 description: Introdução ao Gerenciamento de decisão. Saiba mais sobre a arquitetura, as ofertas e as decisões, bem como casos de uso comuns que podem ser executados.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: User
 level: Beginner
-source-git-commit: 22520570d96db43d39931149296b27a6211f7aa5
+exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
+source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 100%
+source-wordcount: '913'
+ht-degree: 88%
 
 ---
-
 
 # Sobre o Gerenciamento de decisão {#about-offer-decision}
 
 Use o [!DNL Journey Optimizer] para fornecer a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa. Depois de projetado, direcione os públicos com ofertas personalizadas.
+
+>[!NOTE]
+>
+>Se você for um usuário do [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target=&quot;_blank&quot;} aproveitando o serviço de aplicativo **Offer Decisioning**, todos os recursos de Gerenciamento de decisões descritos nesta seção também se aplicam a você.
 
 A capacidade de gerenciamento de decisão consiste em dois componentes principais:
 
@@ -60,6 +64,13 @@ Os recursos e a integração do Gerenciamento de decisão com a Adobe Experience
 
    ![](../../assets/do-not-localize/call-center.png)
 
+## Conceder acesso ao gerenciamento de decisões {#granting-acess-to-decision-management}
+
+As permissões para acessar e usar os recursos do offer decisioning são gerenciadas usando o [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+
+Para conceder acesso à funcionalidade de Gerenciamento de decisões, é necessário criar um **[!UICONTROL Product profile]** e atribuir as permissões correspondentes aos usuários. Saiba mais sobre como gerenciar [!DNL Journey Optimizer] usuários e permissões em [esta seção](../../administration/permissions.md).
+
+As permissões específicas do Gerenciamento de decisões são listadas [nesta seção](../../administration/high-low-permissions.md#decisions-permissions).
 
 ## Glossário {#glossary}
 
@@ -96,7 +107,7 @@ Você pode encontrar abaixo a lista dos principais conceitos com os quais trabal
 
 >[!NOTE]
 >
->Esses vídeos se aplicam ao serviço de aplicativos do Offer Decisioning criado na Adobe Experience Platform e não são específicos do [!DNL Adobe Journey Optimizer]. No entanto, fornece orientação genérica para usar o Gerenciamento de decisão no contexto do [!DNL Journey Optimizer].
+>Esses vídeos se aplicam ao serviço de aplicativos do Offer Decisioning criado na Adobe Experience Platform e não são específicos do [!DNL Adobe Journey Optimizer]. No entanto, eles fornecem orientação genérica para usar o Gerenciamento de decisões no contexto de [!DNL Journey Optimizer].
 
 ### O que é o Gerenciamento de decisão? {#what-is-offer-decisioning}
 

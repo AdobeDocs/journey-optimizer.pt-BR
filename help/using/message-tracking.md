@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 11a42e404f79f07fb092892d5ebc53f3d1a4351b
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '792'
 ht-degree: 4%
 
 ---
@@ -112,7 +112,9 @@ Para adicionar um link para opção de não participação no seu email, siga as
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-1. Clique em **[!UICONTROL Save]**.
+   Você pode personalizar seus links. Saiba mais sobre URLs personalizados em [esta seção](personalization/personalization-syntax.md).
+
+1. Salve as alterações.
 
 Depois que a mensagem é enviada, se um recipient clicar no link para opção de não participação, ele será imediatamente rejeitado.
 

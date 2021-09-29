@@ -1,14 +1,15 @@
 ---
 title: Visualizar mensagens e enviar provas
 description: Saiba como visualizar e testar suas mensagens
-feature: Jornadas
-topic: Gerenciamento de conteúdo
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
+exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
+source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 4%
+source-wordcount: '932'
+ht-degree: 3%
 
 ---
 
@@ -97,7 +98,7 @@ Depois que [test profiles](#select-test-profiles) forem selecionados, você pode
 
 Para uma pré-visualização de notificação por push:
 
-1. Alterne para o canal **[!UICONTROL Push]** da lista suspensa **[!UICONTROL Channels]** na parte superior esquerda da tela **[!UICONTROL Preview]**.
+1. Alterne para o canal **[!UICONTROL Push]** da lista suspensa **[!UICONTROL Channels]** na parte superior direita da tela **[!UICONTROL Preview]**.
 
    ![](assets/preview-select-channel.png)
 

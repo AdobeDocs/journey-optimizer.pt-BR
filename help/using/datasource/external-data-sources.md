@@ -1,14 +1,15 @@
 ---
-title: 'Fontes de dados externas '
+title: Fontes de dados externas
 description: Saiba como configurar fontes de dados externas
 feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
+exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
+source-git-commit: 54d93df232b38608d3d02e837cea82e8965559e0
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 92%
+source-wordcount: '1324'
+ht-degree: 88%
 
 ---
 
@@ -181,3 +182,7 @@ O formato dessa autenticação é:
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>A duração do cache ajuda a evitar muitas chamadas para os pontos de extremidade de autenticação. A retenção de token de autenticação está armazenada em cache nos serviços, não há persistência. Se um serviço for reiniciado, ele será iniciado com um cache limpo. A duração padrão do cache é de 1 hora. Na carga da ação personalizada, ela pode ser adaptada especificando outra duração de retenção.

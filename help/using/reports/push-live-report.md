@@ -1,14 +1,15 @@
 ---
 title: Relatório ao vivo das notificações por push
 description: Saiba como usar dados do relatório ao vivo das notificações por push
-feature: Relatórios
-topic: Gerenciamento de conteúdo
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
+exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 2%
+source-wordcount: '336'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +40,22 @@ O push **[!UICONTROL Live report]** é dividido em diferentes widgets detalhando
 * **[!UICONTROL Actions]**: Número total de ações na notificação por push entregue, por exemplo, clique no botão ou descarta.
 
 * **[!UICONTROL Engagements]**: Número total de aberturas e ações para essa notificação por push, ou seja, se o perfil abriu o push ou se um botão foi clicado.
+
+A tabela **[!UICONTROL Sending metrics - by push]** detalha o sucesso do delivery:
+
+* **[!UICONTROL Targeted]**: Número de perfis de usuário que se qualificaram como perfis de público-alvo para este delivery.
+
+* **[!UICONTROL Excluded]**: Número de perfis de usuário, excluídos dos perfis segmentados, que não receberam a mensagem.
+
+* **[!UICONTROL Sent]**: Número total de envios para o delivery.
+
+* **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
+
+* **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.
+
+* **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
+
+* **[!UICONTROL Opens]**: Número de vezes que uma mensagem foi aberta em um delivery.
 
 ![](../assets/live_report_4.png)
 

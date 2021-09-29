@@ -1,20 +1,25 @@
 ---
 title: Interface do usuário
 description: Saiba mais sobre a interface do usuário da Biblioteca de ofertas.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
+exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
+source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 71%
+source-wordcount: '635'
+ht-degree: 68%
 
 ---
 
 # Interface do usuário {#user-interface}
 
 A Biblioteca de ofertas permite criar e gerenciar as inserções e ofertas em um único local, bem como acessar todas as decisões criadas (anteriormente conhecidas como atividades de oferta).
+
+>[!NOTE]
+>
+>Se tiver problemas ao acessar a Biblioteca de ofertas ou alguns de seus recursos, verifique com um usuário administrador se você recebeu os direitos necessários. Consulte [Conceder acesso ao Gerenciamento de decisões](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
 Use o menu **[!UICONTROL Offers]** para gerenciar ofertas personalizadas e substitutas, organizá-las em coleções e entregá-las criando decisões:
 

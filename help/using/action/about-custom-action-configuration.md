@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: 6907946a75904d601ca1f70c61b72fd92803db84
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '806'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,10 @@ ht-degree: 6%
 # Configurar uma ação {#configure-an-action}
 
 Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que o jornada envie chamadas de API para um sistema de terceiros, é aqui que você configura a conexão com o jornada. A ação personalizada definida pelos usuários técnicos estará disponível na paleta esquerda da jornada, na categoria **[!UICONTROL Action]** (consulte [esta página](../building-journeys/about-journey-activities.md#action-activities). Estes são alguns exemplos de sistemas aos quais você pode se conectar com ações personalizadas: Epsilon, Facebook, Adobe.io, Firebase, etc.
+
 As limitações são listadas em [this page](../limitations.md).
+
+Você pode passar coleções dinamicamente usando ações personalizadas. Consulte este [caso de uso](../limitations.md).
 
 Estas são as principais etapas necessárias para configurar uma ação personalizada:
 
@@ -56,12 +59,14 @@ Ao configurar uma ação personalizada, você precisa definir os seguintes parâ
 
    * Se o URL incluir um caminho dinâmico, insira apenas a parte estática do URL, ou seja, o esquema, o host, a porta e, opcionalmente, uma parte estática do caminho.
 
-      Exemplo: `https://xxx.yyy.com:8080/somethingstatic/`
+      Exemplo: `https://xxx.yyy.com/somethingstatic/`
 
       Você especificará o caminho dinâmico do URL ao adicionar a ação personalizada a uma jornada. [Saiba mais](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
    >Por motivos de segurança, recomendamos que você use o esquema HTTPS para o URL. Não permitimos o uso de endereços Adobe que não são públicos e o uso de endereços IP.
+   >
+   >Somente as portas padrão são permitidas ao definir uma ação personalizada: 80 para http e 443 para https.
 
 1. Selecione a chamada **[!UICONTROL Method]**: pode ser **[!UICONTROL POST]** ou **[!UICONTROL PUT]**.
 1. Na seção **[!UICONTROL Headers]** , defina os cabeçalhos HTTP da mensagem de solicitação a ser enviada ao serviço externo:
@@ -106,3 +111,4 @@ Você também terá uma escolha entre especificar se um parâmetro é uma consta
 * Variável significa que o valor do parâmetro varia. O profissional de marketing que usa essa ação personalizada em uma jornada poderá transmitir o valor desejado ou especificar onde recuperar o valor desse parâmetro (por exemplo, do evento, da Adobe Experience Platform etc.). Nesse caso, o campo à direita da constante/variável de alternância é o rótulo que o profissional de marketing verá na jornada para nomear esse parâmetro.
 
 ![](../assets/customactionpayloadmessage2.png)
+

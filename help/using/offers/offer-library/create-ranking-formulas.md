@@ -1,14 +1,15 @@
 ---
 title: Criar fórmulas de classificação
 description: Saiba como criar fórmulas de classificação no Adobe Experience Platform.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
+source-git-commit: 58dffe64b1ca8a81728ae7043ec276917d3b9616
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 3%
+source-wordcount: '609'
+ht-degree: 1%
 
 ---
 
@@ -45,3 +46,145 @@ Para criar uma fórmula de classificação, siga as etapas abaixo:
    Agora ele está pronto para ser usado em uma decisão para classificar ofertas elegíveis para uma disposição (consulte [Configurar seleção de ofertas em decisões](../offer-activities/configure-offer-selection.md)).
 
    ![](../../assets/ranking-formula-created.png)
+
+## Exemplos de fórmula de classificação {#ranking-formula-examples}
+
+Você pode criar muitas fórmulas de classificação diferentes de acordo com suas necessidades. Abaixo estão alguns exemplos.
+
+<!--
+Boost by offer ID
+
+Boost the priority of an offer with the offer ID *xcore:personalized-offer:13d213cd4cb328ec* by 5.
+
+**Ranking formula:**
+
+```
+if( offer._id = "xcore:personalized-offer:13d213cd4cb328ec", offer.rank.priority + 5, offer.rank.priority)
+```
+
+Change the offer priority based on a certain profile attribute
+
+Set the offer priority to 30 for offer *xcore:personalized-offer:13d213cd4cb328ec* if the user lives in the city of Bondi.
+
+**Ranking formula:**
+
+```
+if( offer._id = "xcore:personalized-offer:13d213cd4cb328ec" and homeAddress.city.equals("Bondi", false), 30, offer.rank.priority)
+```
+
+Boost multiple offers by offer ID based on the presence of a profile's segment membership
+
+Boost the priority of offers based on whether the user is a member of a priority segment, which is configured as an attribute in the offer.
+
+**Ranking formula:**
+
+```
+if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).status in (["realized","existing"]), offer.rank.priority + 10, offer.rank.priority)
+```
+-->
+
+### Aumentar ofertas com determinado atributo de oferta com base no atributo de perfil
+
+Se o perfil estiver na cidade correspondente à oferta, então duplique a prioridade para todas as ofertas nessa cidade.
+
+**Fórmula de classificação:**
+
+```
+if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
+```
+
+### Aumente as ofertas em que a data final será menos de 24 horas a partir de agora
+
+**Fórmula de classificação:**
+
+```
+if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
+```
+
+### Aumente as ofertas com determinado atributo de oferta com base nos dados de contexto
+
+Impulsione determinadas ofertas com base nos dados de contexto que estão sendo transmitidos na chamada de decisão. Por exemplo, se `contextData.weather=hot` for passado na chamada de decisão, a prioridade de todas as ofertas com `attribute=hot` deverá ser potencializada.
+
+**Fórmula de classificação:**
+
+```
+if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
+and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
+```
+
+Observe que, ao usar a API de decisão, os dados de contexto são adicionados ao elemento de perfil no corpo da solicitação, como no exemplo abaixo.
+
+**Trecho do corpo da solicitação:**
+
+```
+"xdm:profiles": [
+{
+    "xdm:identityMap": {
+        "crmid": [
+            {
+            "xdm:id": "CRMID1"
+            }
+        ]
+    },
+    "xdm:contextData": [
+        {
+            "@type":"_xdm.context.additionalParameters;version=1",
+            "xdm:data":{
+                "xdm:weather":"hot"
+            }
+        }
+    ]
+ }],
+```
+
+### Aumente as ofertas com base na propensão do cliente para comprar o produto que está sendo oferecido
+
+Se tivermos duas instâncias de *CustomerAI* calculando a propensão para comprar *TravelInsurance* e *extraBaggauge* para uma companhia aérea, a seguinte fórmula de classificação aumentará a prioridade (em 50 pontos) da oferta específica para seguro ou bagagem se a pontuação de propensão do cliente para comprar esse produto for superior a 90.
+
+No entanto, como cada instância *CustomerAI* cria seu próprio objeto no esquema de perfil unificado, não é possível selecionar dinamicamente a pontuação com base no tipo de propensão da oferta. Dessa forma, é necessário encadear as instruções `if` para primeiro verificar o tipo de propensão da oferta e, em seguida, extrair a pontuação do campo de perfil apropriado.
+
+**Fórmula de classificação:**
+
+```
+if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
+    (
+        if ( offer.characteristics.propensityType = "travelInsurancePropensity" and _salesvelocity.CustomerAI.insurancePropensity.score > 90, offer.rank.priority + 50, offer.rank.priority )
+    )
+)
+```
+
+Uma solução melhor é armazenar as pontuações em uma matriz do perfil. O exemplo a seguir funcionará em uma variedade de diferentes pontuações de propensão usando apenas uma fórmula de classificação simples. A expectativa é que você tenha um esquema de perfil com uma matriz de pontuações. Neste exemplo, o locatário da instância é *_salesvelocity* e o schema de perfil contém o seguinte:
+
+![](../../assets/ranking-example-schema.png)
+
+Considerando isso, para um perfil como:
+
+```
+{"_salesvelocity": {"individualScoring": [
+                    {"core": {
+                            "category":"insurance",
+                            "propensityScore": 96.9
+                        }},
+                    {"core": {
+                            "category":"personalLoan",
+                            "propensityScore": 45.3
+                        }},
+                    {"core": {
+                            "category":"creditCard",
+                            "propensityScore": 78.1
+                        }}
+                    ]}
+}
+```
+
+As ofertas conteriam um atributo para *propensityType* que corresponde à categoria das pontuações:
+
+![](../../assets/ranking-example-propensityType.png)
+
+Sua fórmula de classificação pode definir a prioridade de cada oferta para ser igual a *propensityScore* para esse *propensityType*. Se nenhuma pontuação for encontrada, use a prioridade estática definida na oferta:
+
+```
+let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring
+             where _Individual_Scoring1.core.category.equals(offer.characteristics.propensityType, false)).head().core.propensityScore
+in if(score.isNotNull(), score, offer.rank.priority)
+```
