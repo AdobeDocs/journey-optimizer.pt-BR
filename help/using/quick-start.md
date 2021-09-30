@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: f2ca9df4ff3441bd85e07b618f2f0559106db9c5
+source-git-commit: 9c1edc8d79c58fcf4f2048b9fe81cd31ea621777
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '519'
 ht-degree: 35%
 
 ---
@@ -30,11 +30,9 @@ Você poderá atribuir membros da equipe a perfis de produto e **configurar cana
 
 Saiba mais nas seguintes páginas:
 
-* **Introdução a perfis e permissões de produto**
-
 * **Defina** as permissões do usuário e dê acesso aos membros da equipe. [Leia mais](../using/administration/permissions.md)
 
-* **Implante[!DNL Adobe Experience Manager Assets Essentials]** para gerenciar ativos e imagens em suas mensagens: os usuários que precisam de acesso ao  [!DNL Assets Essentials] devem fazer parte dos perfis  **Assets Essentials Consumer** Usersor/e  **Assets Essentials** UsersProduct. [Leia mais](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) {target=&quot;_blank&quot;}
+* **Implante[!DNL Adobe Experience Manager Assets Essentials]** para gerenciar ativos e imagens em suas mensagens: os usuários que precisam de acesso ao  [!DNL Assets Essentials] devem fazer parte dos perfis  **Assets Essentials Consumer** Usersor/e  **Assets Essentials** UsersProduct. [Leia mais na documentação do Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
 
 * **Configure seus canais e** defina suas configurações de email e notificação por push. [Leia mais](../using/configuration/get-started-configuration.md)
 
@@ -47,7 +45,7 @@ Saiba mais nas seguintes páginas:
 
 Como Administrador de dados, você precisa **identificar os dados e criar o esquema e o conjunto de dados** para obter seus dados no Adobe Experience Platform.
 
-As etapas para criar um namespace de identidade e um conjunto de dados habilitado para perfis e criar segmentos e perfis de teste são detalhadas nas seções abaixo:
+As etapas para criar um namespace de identidade e um conjunto de dados habilitado para perfis, criar segmentos e perfis de teste são detalhadas nas seções abaixo:
 
 * Saiba como visualizar e criar um **conjunto de dados** na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR){target=&quot;_blank&quot;}
 
@@ -63,7 +61,7 @@ Além disso, para poder enviar mensagens no jornada, você deve configurar **[!U
 
 ## Criar mensagens, ofertas e jornadas
 
-Como profissional de Jornada, consulte as seguintes seções para configurar sua primeira jornada, adicionar ofertas, ativos e enviar mensagens:
+Como profissional de Jornada, consulte as seguintes seções para configurar sua primeira jornada, adicionar ofertas e ativos e enviar mensagens:
 
 * **Criar mensagens**: acesse mensagens, crie ou carregue conteúdo de email e push, adicione mensagens de personalização e pré-visualização. [Leia mais](create-message.md)
 
