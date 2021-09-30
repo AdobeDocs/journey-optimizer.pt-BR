@@ -2,10 +2,10 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
+source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 19%
+source-wordcount: '1526'
+ht-degree: 18%
 
 ---
 
@@ -28,7 +28,7 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>Uma nova métrica está disponível nos relatórios: o público-alvo direcionado para mensagens de email e push é visível nos relatórios em tempo real e global.</p>
+<p>Novas métricas estão disponíveis nos relatórios: Targeted e Excluded para mensagens de email e push são visíveis nos relatórios online e global. </br> Para ter acesso às métricas mais recentes, observe que será necessário redefinir os diferentes painéis de relatórios para cada canal e tipo de relatório. Para obter mais informações sobre personalização de painel, consulte a <a href="reports/live-report.md">documentação detalhada.</a></p>
 <p>Uma nova coluna na lista de execução de mensagens exibe o número de perfis direcionados para cada execução de mensagem. </p>
 <p>Para obter mais informações, consulte a <a href="message-monitoring.md">documentação detalhada</a>.</p>
 </td>
