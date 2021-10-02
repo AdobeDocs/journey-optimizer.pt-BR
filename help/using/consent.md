@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
+exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 80%
 
 ---
@@ -138,7 +139,7 @@ Corpo da solicitação:
 
 Saiba como adicionar um link para opção de não participação ao conteúdo da mensagem em [this section](message-tracking.md#one-click-opt-out-link).
 
-Depois que a mensagem é enviada por meio de um [jornada](building-journeys/journey.md), se um recipient clicar no link para opção de não participação, ele será imediatamente rejeitado.
+Depois que a mensagem é enviada por meio de um [jornada](building-journeys/journey.md), se um recipient clicar no link para opção de não participação, o perfil será imediatamente rejeitado.
 
 ## Link de cancelamento de inscrição no cabeçalho {#unsubscribe-email}
 
