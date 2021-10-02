@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
+source-git-commit: 138adc4b548e5d8ba744037db2d35150b6876867
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 4%
 
 ---
@@ -22,7 +23,7 @@ Considere como exemplo o segmento &quot;Abertura e check-out do aplicativo Luma&
 
 >[!NOTE]
 >
->O complemento Burst paid permite o envio muito rápido de mensagens de push em grandes volumes para jornadas simples que incluem um segmento de leitura e uma mensagem de push simples. Para saber mais, consulte [esta seção](../building-journeys/journey-gs.md#burst)
+>O complemento Burst paid permite o envio muito rápido de mensagens de push em grandes volumes para jornadas simples que incluem um segmento de leitura e uma mensagem de push simples. Para obter mais informações, consulte [esta seção](../building-journeys/journey-gs.md#burst)
 
 ### Configurar a atividade {#configuring-segment-trigger-activity}
 
@@ -118,7 +119,7 @@ Você pode usar condições para executar a segmentação usando a atividade **C
 A segmentação pode ser baseada em:
 
 * dados da fonte de dados
-* o contexto dos eventos faz parte dos dados de jornada, por exemplo: uma pessoa clicou na mensagem que ela recebeu há uma hora?
+* o contexto dos eventos faz parte dos dados de jornada, por exemplo: uma pessoa clicou na mensagem recebida há uma hora?
 * uma data, por exemplo: estamos em junho quando uma pessoa passa pela jornada?
 * uma hora, por exemplo: é manhã no fuso horário da pessoa?
 * um algoritmo que divide o público-alvo fluindo na jornada com base em uma porcentagem, por exemplo: 90% - 10% para excluir um grupo de controle
