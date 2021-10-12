@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 41f43f6e702dbadfcd28d14154895a65ec15ed65
+source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1328'
 ht-degree: 4%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 4%
 Antes de criar uma oferta, verifique se você criou:
 
 * Uma **disposição** na qual a oferta será exibida. Consulte [Criar disposições](../offer-library/creating-placements.md)
-* Uma **regra de decisão** que definirá a condição sob a qual a oferta será apresentada. Consulte [Criar regras de decisão](../offer-library/creating-decision-rules.md).
-* Uma ou várias **tags** que você deseja associar à oferta. Consulte [Criar tags](../offer-library/creating-tags.md).
+* Se quiser adicionar uma condição de qualificação: uma **regra de decisão** que definirá a condição sob a qual a oferta será apresentada. Consulte [Criar regras de decisão](../offer-library/creating-decision-rules.md).
+* Uma ou várias **tags** que você pode querer associar à oferta. Consulte [Criar tags](../offer-library/creating-tags.md).
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
@@ -45,7 +45,7 @@ Para criar uma **oferta**, siga estas etapas:
 
 ## Configurar as representações da oferta {#representations}
 
-Uma oferta pode ser exibida em diferentes locais em uma mensagem: em um banner superior com uma imagem, como texto em um parágrafo, como um bloco HTML, etc. Quanto mais representações uma oferta tiver, mais oportunidades haverá para usar a oferta em diferentes contextos de posicionamento.
+Uma oferta pode ser exibida em diferentes locais em uma mensagem: em um banner superior com uma imagem, como texto em um parágrafo, como um bloco de HTML, etc. Quanto mais representações uma oferta tiver, mais oportunidades haverá para usar a oferta em diferentes contextos de posicionamento.
 
 Para adicionar uma ou várias representações à sua oferta e configurá-las, siga as etapas abaixo.
 
