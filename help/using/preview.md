@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
+source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '976'
 ht-degree: 3%
 
 ---
@@ -122,13 +122,19 @@ Depois que [test profiles](#select-test-profiles) forem selecionados, você pode
 
    ![](assets/send-proof-button.png)
 
-1. Na janela **[!UICONTROL Send proof]**, além dos perfis de teste, digite o email do recipient e clique em **[!UICONTROL Add]** para enviar a prova para você ou para os membros de sua organização.
+1. Na janela **[!UICONTROL Send proof]**, digite o email do recipient e clique em **[!UICONTROL Add]** para enviar a prova para você ou para os membros de sua organização.
 
-   Observe que você pode adicionar até 10 recipients para o delivery de prova.
+   Observe que você pode adicionar até dez recipients para o delivery de prova.
 
    ![](assets/send-proof-button_2.png)
 
-1. Em seguida, selecione os perfis de teste que receberão a prova e clique em **[!UICONTROL Send proof]**. Você pode adicionar um prefixo à linha de assunto da prova, se necessário. Somente caracteres alfanuméricos e caracteres especiais, por exemplo, . - _ ( ) [ ], são permitidos como prefixo na linha de assunto.
+1. Em seguida, selecione o **Test profiles** que será usado para personalizar o conteúdo da mensagem.
+
+   Cada recipient da prova receberá quantas mensagens for o número de perfis de teste selecionados. Por exemplo, se você adicionou cinco emails de recipient e selecionou dez perfis de teste, você enviará cinquenta mensagens de prova e cada recipient receberá dez deles.
+
+1. Você pode adicionar um prefixo à linha de assunto da prova, se necessário. Somente caracteres alfanuméricos e caracteres especiais, por exemplo, . - _ ( ) [ ], são permitidos como prefixo na linha de assunto.
+
+1. Clique em **[!UICONTROL Send proof]**.
 
    ![](assets/send-proof-select.png)
 
@@ -136,11 +142,11 @@ Depois que [test profiles](#select-test-profiles) forem selecionados, você pode
 
    ![](assets/send-proof-view.png)
 
-Você precisa enviar provas após qualquer modificação no conteúdo da mensagem.
+É recomendável enviar provas após cada modificação ao conteúdo da mensagem.
 
 >[!NOTE]
 >
-> Na prova enviada aos perfis de teste, o link para a mirror page não está ativo. Ela só é ativada nas mensagens finais.
+>Na prova enviada aos perfis de teste, o link para a mirror page não está ativo. Ela só é ativada nas mensagens finais.
 
 ## Renderização de email{#email-rendering}
 
