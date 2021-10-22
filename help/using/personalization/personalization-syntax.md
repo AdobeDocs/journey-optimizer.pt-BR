@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 1cf3475d7b2b990db4b2217bb03a47b76692142c
+source-git-commit: 676f81e1cb41ea65a1dd0444424b331ce54da786
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 4%
@@ -15,8 +15,8 @@ ht-degree: 4%
 
 # Sintaxe de personalização {#personalization-syntax}
 
-A personalização em [!DNL Journey Optimizer] é baseada na sintaxe de modelo chamada Handlebars.
-Para obter uma descrição completa da sintaxe Handlebars, consulte a [HandlebarsJS documentation](https://handlebarsjs.com/).
+Personalização no [!DNL Journey Optimizer] O é baseado na sintaxe de modelo chamada Handlebars.
+Para obter uma descrição completa da sintaxe Handlebars, consulte [Documentação HandlebarsJS](https://handlebarsjs.com/).
 
 Ele usa um modelo e um objeto de entrada para gerar HTML ou outros formatos de texto. Os modelos Handlebars se parecem com um texto regular com expressões Handlebars incorporadas.
 
@@ -39,19 +39,19 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 A sintaxe diferencia maiúsculas e minúsculas.
 
-As palavras **true**, **false**, **null** e **undefined** só são permitidas na primeira parte de uma expressão de caminho.
+As palavras **true**, **false**, **null** e **indefinido** são permitidas somente na primeira parte de uma expressão de caminho.
 
-Nos Handlebars, os valores retornados pela {{expression}} são **HTML-escaped**. Se a expressão contiver `&`, a saída de escape de HTML retornada será gerada como `&amp;`. Se você não quiser que o Handlebars escape um valor, use o &quot;traço triplo&quot;.
+Em Handlebars, os valores retornados pela {{expression}} são **HTML-escaped**. Se a expressão contiver `&`, a saída HTML-escaped retornada é gerada como `&amp;`. Se você não quiser que o Handlebars escape um valor, use o &quot;traço triplo&quot;.
 
 ## Perfil
 
-Este namespace permite fazer referência a todos os atributos definidos no esquema de perfil descrito na [documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+Esse namespace permite fazer referência a todos os atributos definidos no esquema de perfil descrito em [Documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 
-Os atributos precisam ser definidos no schema antes de serem referenciados em um bloco de personalização [!DNL Journey Optimizer].
+Os atributos precisam ser definidos no schema antes de serem referenciados em um [!DNL Journey Optimizer] bloco de personalização.
 
 >[!NOTE]
 >
->Saiba como aproveitar os atributos de perfil em condições em [esta seção](functions/helpers.md#if-function).
+>Saiba como aproveitar os atributos de perfil nas condições em [esta seção](functions/helpers.md#if-function).
 
 **Referências de exemplo:**
 
@@ -71,7 +71,7 @@ Os atributos precisam ser definidos no schema antes de serem referenciados em um
 
 ## Segmentos{#perso-segments}
 
-Saiba como aproveitar os atributos de perfil em condições em [esta seção](functions/helpers.md#if-function).
+Saiba como aproveitar os atributos de perfil nas condições em [esta seção](functions/helpers.md#if-function).
 
 >[!NOTE]
 >Para saber mais sobre o serviço de segmentação e segmentação, consulte [esta seção](../segment/about-segments.md).
@@ -89,7 +89,7 @@ em que:
 
 * `offers` identifica a expressão de caminho pertencente ao namespace de oferta
 * `Type`  determina o tipo de representação da oferta. Os valores possíveis são: `image`, `html` e `text`
-* `Placement Id` e  `Activity Id` são identificadores de inserção e atividade
+* `Placement Id` e `Activity Id` são identificadores de disposição e atividade
 * `Attributes` são atributos específicos da oferta que dependem do tipo de oferta. Exemplo: `deliveryUrl` para imagens
 
 Para obter mais informações sobre a API de decisões e a Representação de ofertas, consulte [esta página](../../using/offers/api-reference/decisions-api/deliver-offers.md)
@@ -110,7 +110,7 @@ Todas as referências são validadas em relação ao Esquema de ofertas com um m
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* Conteúdo HTML da oferta proveniente do mecanismo de decisão:
+* HTML da oferta proveniente do mecanismo de decisão:
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
@@ -121,12 +121,12 @@ Um Handlebars helper é um identificador simples que pode ser seguido por parâm
 Cada parâmetro é uma expressão Handlebars. Essas ajuda podem ser acessadas de qualquer contexto em um modelo.
 
 Esses ajudantes de bloco são identificados por um # anterior ao nome do auxiliar e exigem um fechamento /, correspondente do mesmo nome.
-Blocos são expressões que têm um bloco abrindo ({{# }}) e fechando ({{/}}).
+Blocos são expressões com abertura de bloco ({{# }}) e fechando ({{/}}).
 
 
 >[!NOTE]
 >
->As funções de ajuda são detalhadas em [nesta seção](functions/helpers.md).
+>As funções de ajuda são detalhadas em [esta seção](functions/helpers.md).
 
 ## Tipos literais
 
@@ -137,18 +137,18 @@ Blocos são expressões que têm um bloco abrindo ({{# }}) e fechando ({{/}}).
 | String | Um tipo de dados composto por caracteres entre aspas duplas. <br>Exemplos: `"prospect"`, `"jobs"`, `"articles"` |
 | Booleano | Um tipo de dados verdadeiro ou falso. |
 | Número inteiro | Um tipo de dados que representa um número inteiro. Pode ser positivo, negativo ou zero. <br>Exemplos: `-201`, `0`, `412` |
-| Matriz | Um tipo de dados que é composto como um grupo de outros valores literais. Ele usa colchetes para agrupar e vírgulas para delimitar entre valores diferentes. <br> **Observação:** não é possível acessar diretamente as propriedades dos itens em uma matriz. <br> Exemplos: `[1, 4, 7]`, `["US", "FR"]` |
+| Matriz | Um tipo de dados que é composto como um grupo de outros valores literais. Ele usa colchetes para agrupar e vírgulas para delimitar entre valores diferentes. <br> **Observação:** Não é possível acessar diretamente as propriedades dos itens em uma matriz. <br> Exemplos: `[1, 4, 7]`, `["US", "FR"]` |
 
 >[!CAUTION]
 >
->O uso da variável **xEvent** não está disponível em expressões de personalização. Qualquer referência ao xEvent resultará em falhas de validação.
+>O uso de **xEvent** não está disponível em expressões de personalização. Qualquer referência ao xEvent resultará em falhas de validação.
 
 ## Personalização de URL{#perso-urls}
 
-O Journey Orchestration permite personalizar um ou vários URLs na mensagem, adicionando campos de personalização a eles. Para fazer isso:
+O Journey Optimizer permite personalizar um ou vários URLs na mensagem, adicionando campos de personalização a eles. Para fazer isso:
 
-* Crie um link no seu conteúdo de email ou push. Para saber mais sobre a criação de links, consulte [esta página](../message-tracking.md#insert-links)).
-* Clique no ícone de personalização. Este ícone está disponível para estes tipos específicos de links: **Link externo**, **Link de cancelamento de subscrição** e **Opt-Out**.
+* Crie um link no seu conteúdo de email ou push. Para saber mais sobre a criação de links, consulte [esta página](../message-tracking.md#insert-links).
+* Clique no ícone de personalização. Este ícone está disponível para estes tipos específicos de links: **Link externo**, **Link de cancelamento de assinatura** e **Opção de rejeição**.
 
 ![](assets/perso-url.png)
 
@@ -156,7 +156,7 @@ O Journey Orchestration permite personalizar um ou vários URLs na mensagem, adi
 >
 >No editor de expressão, ao editar um URL personalizado, as funções de ajuda e a associação de segmentos são desativadas por motivos de segurança.
 
-** Exemplos de URLs personalizados **
+**Amostra de URLs personalizados**
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}`
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
