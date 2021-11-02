@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
+source-git-commit: a9e65986c3ccd0dc54a54bc5f349f5c9c87c5039
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1023'
 ht-degree: 3%
 
 ---
 
 # Visualizar e testar suas mensagens{#preview-and-proof}
 
-Após definir o conteúdo da mensagem, é possível usar perfis de teste para pré-visualizá-lo e testá-lo. Se você inseriu [conteúdo personalizado](personalization/personalize.md), será possível verificar como esse conteúdo é exibido na mensagem, aproveitando os dados de perfil de teste.
+Após definir o conteúdo da mensagem, é possível usar perfis de teste para pré-visualizá-lo e testá-lo. Se você inseriu [conteúdo personalizado](personalization/personalize.md), você poderá verificar como esse conteúdo é exibido na mensagem, aproveitando os dados do perfil de teste.
 
 Para detectar possíveis erros no conteúdo do email ou nas configurações de personalização, envie provas para testar perfis. Uma prova deve ser enviada sempre que uma alteração for feita, para validar o conteúdo mais recente.
 
@@ -30,33 +30,42 @@ Para testar o conteúdo da mensagem, é necessário:
 * [selecionar perfis de teste](#select-test-profiles)
 * [verificar a pré-visualização da mensagem](#preview-your-messages)
 
-Você poderá [enviar provas](#send-proofs) para seus perfis de teste.
+Você poderá [enviar provas](#send-proofs) aos seus perfis de teste.
 
-Além disso, aproveite sua conta **Litmus** em [!DNL Journey Optimizer] para visualizar instantaneamente sua **renderização de email** em clientes de email populares. Em seguida, você pode garantir que seu conteúdo de email fique ótimo e funcione corretamente em cada caixa de entrada. Saiba como desbloquear visualizações de email do Litmus em [esta seção](#email-rendering)
+Além disso, aproveite **Litmus** conta em [!DNL Journey Optimizer] para visualizar instantaneamente sua **renderização de email** em clientes de email populares. Em seguida, você pode garantir que seu conteúdo de email fique ótimo e funcione corretamente em cada caixa de entrada. Saiba como desbloquear visualizações de email do Litmus em [esta seção](#email-rendering)
 
 >[!CAUTION]
 >
->Ao visualizar uma mensagem ou enviar provas, somente os dados de personalização de perfil são exibidos. A personalização com base em dados de contexto, como informações de evento, só pode ser testada no contexto de uma jornada. Saiba como testar a personalização em [este caso de uso](personalization/personalization-use-case.md).
+>Ao visualizar uma mensagem ou enviar provas, somente os dados de personalização de perfil são exibidos. A personalização com base em dados de contexto, como informações de evento, só pode ser testada no contexto de uma jornada. Saiba como testar a personalização no [este caso de uso](personalization/personalization-use-case.md).
 
 ➡️ [Saiba como visualizar, provar e publicar seu email neste vídeo](#video-preview)
 
 ## Selecionar perfis de teste{#select-test-profiles}
 
-Use [Test profiles](building-journeys/creating-test-profiles.md) para direcionar recipients adicionais que não correspondam aos critérios de direcionamento definidos.
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="Visualizar e testar suas mensagens"
+>abstract="Após definir o conteúdo da mensagem, é possível usar perfis de teste para pré-visualizá-lo e testá-lo."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="Renderização de email"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="Visualização"
+
+
+
+Use [Testar perfis](building-journeys/creating-test-profiles.md) para direcionar recipients adicionais que não correspondem aos critérios de direcionamento definidos.
 
 Para selecionar perfis de teste, siga as etapas abaixo:
 
-1. Na interface da mensagem ou no designer de email, clique no botão **[!UICONTROL Show preview]** para acessar a seleção do perfil de teste.
+1. Na interface da mensagem ou no designer de email, clique no link **[!UICONTROL Show preview]** para acessar a seleção de perfil de teste.
 
    ![](assets/email-preview-button.png)
 
-1. Selecione o namespace a ser usado para identificar perfis de teste clicando no ícone de seleção **[!UICONTROL Identity namespace]**.
+1. Selecione o namespace a ser usado para identificar perfis de teste clicando no botão **[!UICONTROL Identity namespace]** ícone de seleção.
 
    ![](assets/previewselect-namespace.png)
 
-   Saiba mais sobre os namespaces de identidade do Adobe Experience Platform [nesta seção](get-started-identity.md){target=&quot;_blank&quot;}.
+   Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](get-started-identity.md){target=&quot;_blank&quot;}.
 
-   No exemplo abaixo, usaremos o namespace **Email**.
+   No exemplo abaixo, usaremos a variável **Email** namespace.
 
 1. Use o campo de pesquisa para localizar o namespace, selecione-o e clique em **[!UICONTROL Select]**
 
@@ -74,15 +83,15 @@ Para selecionar perfis de teste, siga as etapas abaixo:
 
 ## Visualizar mensagens{#preview-your-messages}
 
-Depois que [test profiles](#select-test-profiles) forem selecionados, você poderá visualizar suas mensagens e verificar o conteúdo.
+Uma vez [perfis de teste](#select-test-profiles) forem selecionadas, você poderá visualizar suas mensagens e verificar o conteúdo.
 
-1. Clique na guia **[!UICONTROL Preview]** para testar a mensagem.
+1. Clique no botão **[!UICONTROL Preview]** para testar sua mensagem.
 
 1. Selecione um perfil de teste. Você pode verificar os valores disponíveis nas colunas. Use as setas para a direita/esquerda para navegar pelos dados.
 
    ![](assets/preview-tab-select-profile.png)
 
-1. Clique no ícone **[!UICONTROL Select data]** acima da lista para adicionar ou remover colunas.
+1. Clique no botão **[!UICONTROL Select data]** ícone acima da lista para adicionar ou remover colunas.
 
    ![](assets/preview-select-data.png)
 
@@ -98,7 +107,7 @@ Depois que [test profiles](#select-test-profiles) forem selecionados, você pode
 
 Para uma pré-visualização de notificação por push:
 
-1. Alterne para o canal **[!UICONTROL Push]** da lista suspensa **[!UICONTROL Channels]** na parte superior direita da tela **[!UICONTROL Preview]**.
+1. Alterne para **[!UICONTROL Push]** do **[!UICONTROL Channels]** lista suspensa na parte superior direita do **[!UICONTROL Preview]** tela.
 
    ![](assets/preview-select-channel.png)
 
@@ -116,29 +125,29 @@ Para uma pré-visualização de notificação por push:
 
 Uma prova é uma mensagem específica que permite testar uma mensagem antes de enviá-la para o público principal. Os recipients da prova são responsáveis pela aprovação da mensagem: renderização, conteúdo, configurações de personalização, configuração.
 
-Depois que [test profiles](#select-test-profiles) forem selecionados, você poderá enviar provas.
+Uma vez [perfis de teste](#select-test-profiles) forem selecionadas, você poderá enviar provas.
 
-1. Na tela **[!UICONTROL Preview]**, clique no botão **[!UICONTROL Send proof]**.
+1. No **[!UICONTROL Preview]** clique no botão **[!UICONTROL Send proof]** botão.
 
    ![](assets/send-proof-button.png)
 
-1. Na janela **[!UICONTROL Send proof]**, digite o email do recipient e clique em **[!UICONTROL Add]** para enviar a prova para você ou para os membros de sua organização.
+1. No **[!UICONTROL Send proof]** , digite o email do destinatário e clique em **[!UICONTROL Add]** para enviar a prova para você mesmo ou para membros de sua organização.
 
    Observe que você pode adicionar até dez recipients para o delivery de prova.
 
    ![](assets/send-proof-button_2.png)
 
-1. Em seguida, selecione o **Test profiles** que será usado para personalizar o conteúdo da mensagem.
+1. Em seguida, selecione a **Testar perfis** que será usada para personalizar o conteúdo da mensagem.
 
    Cada recipient da prova receberá quantas mensagens for o número de perfis de teste selecionados. Por exemplo, se você adicionou cinco emails de recipient e selecionou dez perfis de teste, você enviará cinquenta mensagens de prova e cada recipient receberá dez deles.
 
-1. Você pode adicionar um prefixo à linha de assunto da prova, se necessário. Somente caracteres alfanuméricos e caracteres especiais, por exemplo, . - _ ( ) [ ], são permitidos como prefixo na linha de assunto.
+1. Você pode adicionar um prefixo à linha de assunto da prova, se necessário. Apenas caracteres alfanuméricos e caracteres especiais, por exemplo, . - _ ( ) [ ], são permitidos como prefixo na linha de assunto.
 
 1. Clique em **[!UICONTROL Send proof]**.
 
    ![](assets/send-proof-select.png)
 
-1. De volta à tela **[!UICONTROL Preview]**, clique no botão **[!UICONTROL View proofs]** para verificar o status.
+1. De volta ao  **[!UICONTROL Preview]** clique no botão  **[!UICONTROL View proofs]** para verificar o status.
 
    ![](assets/send-proof-view.png)
 
@@ -150,7 +159,7 @@ Depois que [test profiles](#select-test-profiles) forem selecionados, você pode
 
 ## Renderização de email{#email-rendering}
 
-Você pode aproveitar sua conta **Litmus** em [!DNL Journey Optimizer] para visualizar instantaneamente sua **renderização de email** em clientes de email populares.
+Você pode aproveitar seu **Litmus** conta em [!DNL Journey Optimizer] para visualizar instantaneamente sua **renderização de email** em clientes de email populares.
 
 Para acessar os recursos de renderização de email, é necessário:
 
@@ -159,9 +168,9 @@ Para acessar os recursos de renderização de email, é necessário:
 
 Em seguida, siga as etapas abaixo:
 
-1. No Designer de email, clique no botão **[!UICONTROL Preview]** e selecione a guia **[!UICONTROL Email rendering]**.
+1. No Designer de email, clique no botão **[!UICONTROL Preview]** e selecione o **[!UICONTROL Email rendering]** guia .
 
-1. Clique em **Connect your Litmus account** na seção superior direita.
+1. Clique em **Conecte sua conta Litmus** na seção superior direita.
 
    ![](assets/email-rendering-litmus.png)
 
@@ -177,7 +186,7 @@ Em seguida, siga as etapas abaixo:
 
 >[!CAUTION]
 >
->Ao conectar sua conta **Litmus** com [!DNL Journey Optimizer], você concorda que as mensagens de teste são enviadas ao Litmus: depois de enviados, esses emails não são mais gerenciados pelo Adobe. Como consequência, a política de email de retenção de dados Litmus se aplica a esses emails, incluindo dados de personalização que podem ser incluídos nessas mensagens de teste.
+>Ao conectar seu **Litmus** conta com [!DNL Journey Optimizer], você concorda que as mensagens de teste são enviadas ao Litmus: depois de enviados, esses emails não são mais gerenciados pelo Adobe. Como consequência, a política de email de retenção de dados Litmus se aplica a esses emails, incluindo dados de personalização que podem ser incluídos nessas mensagens de teste.
 
 ## Vídeo tutorial{#video-preview}
 
