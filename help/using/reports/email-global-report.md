@@ -5,22 +5,23 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
+source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 1%
+source-wordcount: '731'
+ht-degree: 0%
 
 ---
 
 # Relatório global de email {#email-global-report}
 
-O email **[!UICONTROL Global report]** é direcionado apenas a um delivery de email específico.
+O email **[!UICONTROL Global report]** direciona somente um delivery de email específico.
 
-Na guia **[!UICONTROL Executions]** do menu **[!UICONTROL Messages]**, selecione **[!UICONTROL Global view]** e, no menu avançado do delivery selecionado, selecione **[!UICONTROL Global report]**.
+No **[!UICONTROL Executions]** da guia **[!UICONTROL Messages]** selecione **[!UICONTROL Global view]** em seguida, no menu avançado do delivery selecionado, selecione **[!UICONTROL Global report]**.
 
 ![](../assets/global_report_3.png)
 
-O email **[!UICONTROL Global report]** é dividido em diferentes widgets detalhando o sucesso e os erros do delivery. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações sobre isso, consulte esta [seção](global-report.md#modify-dashboard).
+O email **[!UICONTROL Global report]** O é dividido em diferentes widgets detalhando o sucesso e os erros do delivery. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte [seção](global-report.md#modify-dashboard).
 
 ![](../assets/global_report_4.png)
 
@@ -38,11 +39,11 @@ O email **[!UICONTROL Global report]** é dividido em diferentes widgets detalha
 
 * **[!UICONTROL Click Rate]**: Porcentagem de cliques em um delivery.
 
-* **[!UICONTROL Spam Complaint Rate]**: Porcentagem de emails que foram marcados como spam por recipients em comparação às mensagens entregues. Para obter mais informações sobre reclamações, consulte o [Guia de Práticas Recomendadas de Deliverability](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}.
+* **[!UICONTROL Spam Complaint Rate]**: Porcentagem de emails que foram marcados como spam por recipients em comparação às mensagens entregues. Para obter mais informações sobre reclamações, consulte o [Guia de práticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
-* **[!UICONTROL Unsubscribe Rate]**: Porcentagem de cancelamentos de subscrições exclusivas em comparação ao número de mensagens entregues. Esse indicador não depende do número de cliques no link de unsubscription, mas se baseia no número de unsubscriptions iniciadas pelos recipients. Saiba mais sobre unsubscriptions neste [page](../consent.md).
+* **[!UICONTROL Unsubscribe Rate]**: Porcentagem de cancelamentos de subscrições exclusivas em comparação ao número de mensagens entregues. Esse indicador não depende do número de cliques no link de unsubscription, mas se baseia no número de unsubscriptions iniciadas pelos recipients. Saiba mais sobre unsubscriptions nesta seção [página](../consent.md).
 
-O **[!UICONTROL Email - Tracking statistics]** contém os dados disponíveis para a atividade do recipient para o seu delivery:
+O **[!UICONTROL Email - Tracking statistics]** contém os dados disponíveis para a atividade do recipient para o delivery:
 
 * **[!UICONTROL Opens]**: Número de vezes que o delivery foi aberto em um delivery.
 
@@ -56,7 +57,7 @@ O **[!UICONTROL Email - Tracking statistics]** contém os dados disponíveis par
 
 * **[!UICONTROL Click through rate]**: Porcentagem de usuários que interagiram com a jornada.
 
-O gráfico **[!UICONTROL Sending Statistics]** detalha o sucesso do delivery:
+O **[!UICONTROL Sending Statistics]** gráfico detalha o sucesso do seu delivery:
 
 * **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
@@ -66,7 +67,7 @@ O gráfico **[!UICONTROL Sending Statistics]** detalha o sucesso do delivery:
 
 ![](../assets/global_report_5.png)
 
-Os widgets **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** contêm os dados disponíveis relacionados às mensagens devolvidas, como:
+O **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** os widgets contêm os dados disponíveis relacionados às mensagens devolvidas, como:
 
 * **[!UICONTROL Hard bounce]**: O número total de erros permanentes, como um endereço de email incorreto. Isso envolve uma mensagem de erro que declara explicitamente que o endereço é inválido, como Unknown user.
 
@@ -74,15 +75,15 @@ Os widgets **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** 
 
 * **[!UICONTROL Ignored]**: O número total de temporários, como ausentes do escritório ou um erro técnico, por exemplo, se o tipo de remetente for postmaster.
 
-Para obter mais informações sobre devoluções, consulte a página [Supressão list](../suppression-list.md).
+Para obter mais informações sobre devoluções, consulte [Lista de supressão](../suppression-list.md) página.
 
-O gráfico e a tabela **[!UICONTROL Error Reasons]** permitem ver qual erro ocorreu durante o delivery.
+O **[!UICONTROL Error Reasons]** gráfico e tabela permitem ver qual erro ocorreu durante o delivery.
 
 ![](../assets/global_report_6.png)
 
-O gráfico e a tabela **[!UICONTROL Email - Top recipient domain]** detalham quais domínios são os mais usados pelos recipients para abrir o email.
+O **[!UICONTROL Email - Top recipient domain]** gráfico e tabela detalham quais domínios são os mais usados pelos recipients para abrir o email.
 
-O gráfico e a tabela **[!UICONTROL Email - Top Url]** detalham quais URLs do delivery são os mais visitados.
+O **[!UICONTROL Email - Top Url]** gráfico e tabela detalham quais URLs do seu delivery são os mais visitados.
 
 O **[!UICONTROL Open vs Click]** identifica a interação dos recipients com o delivery:
 
@@ -90,8 +91,34 @@ O **[!UICONTROL Open vs Click]** identifica a interação dos recipients com o d
 
 * **[!UICONTROL Unique Opens]**: Número de recipients que abriram o delivery.
 
+![](../assets/global_report_20.png)
+
 >[!NOTE]
 >
->Os perfis com status **[!UICONTROL Suppressed]** ou **[!UICONTROL Not allowed]** são excluídos durante o processo de envio da mensagem. Portanto, enquanto os **Relatórios de Jornada** mostrarão esses perfis como tendo sido movidos pela jornada ([Ler segmento](../building-journeys/read-segment.md) e [Mensagem](../building-journeys/journeys-message.md) atividades), os **Relatórios de email** não os incluirão nas métricas **[!UICONTROL Sent]**, pois são filtrados antes do envio de email.
+>Os widgets e métricas de Ofertas só estarão disponíveis se uma decisão tiver sido inserida em um email. Para obter mais informações sobre o Gerenciamento de decisões, consulte esta seção [página](../offers/get-started/starting-offer-decisioning.md).
+
+O **[!UICONTROL Offers statistic]** e **[!UICONTROL Offers statistics]** com o passar do tempo, os widgets avaliam o sucesso e o impacto da oferta no público-alvo. Ela detalha as informações principais relativas à sua mensagem com KPIs:
+
+* **[!UICONTROL Offer sent]**: Número total de envios para a oferta.
+
+* **[!UICONTROL Offer impression]**: Número de vezes que a oferta foi aberta em um delivery.
+
+* **[!UICONTROL Offer clicks]**: Número de vezes que uma oferta foi clicada em um delivery.
+
+O **[!UICONTROL Offers detailed statistic]** A tabela contém os dados disponíveis para a atividade do recipient com a oferta:
+
+* **[!UICONTROL Placement name]**: Nome da disposição usada para exibir sua oferta. Para obter mais informações sobre posicionamento, consulte esta seção [página](../offers/offer-library/creating-placements.md).
+
+* **[!UICONTROL Offer name]**: Nome da oferta adicionada ao delivery. Para obter mais informações sobre posicionamento, consulte esta seção [página](../offers/offer-library/creating-personalized-offers.md).
+
+* **[!UICONTROL Offer sent]**: Número total de envios para a oferta.
+
+* **[!UICONTROL Offer impression rate]**: Porcentagem de ofertas abertas em comparação ao número de ofertas enviadas.
+
+* **[!UICONTROL Offer click rate]**: Porcentagem de usuários que interagiram com a oferta.
+
+>[!NOTE]
 >
->Saiba mais sobre a [Lista de supressão](../suppression-list.md) e [Lista de permissões](../allow-list.md). Para descobrir o motivo de todos os casos de exclusão, você pode usar o [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>Os perfis com **[!UICONTROL Suppressed]** ou **[!UICONTROL Not allowed]** são excluídos durante o processo de envio da mensagem. Portanto, enquanto a variável **Relatórios de Jornada** mostrará esses perfis como tendo sido movidos pela jornada ([Ler segmento](../building-journeys/read-segment.md) e [Mensagem](../building-journeys/journeys-message.md) atividades), **Relatórios de email** não os incluirá no **[!UICONTROL Sent]** métricas como são filtradas antes do envio do email.
+>
+>Saiba mais sobre o [Lista de supressão](../suppression-list.md) e [Lista de permissões](../allow-list.md). Para descobrir o motivo de todos os casos de exclusão, é possível usar a variável [Serviço de query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.

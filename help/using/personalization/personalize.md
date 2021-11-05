@@ -6,25 +6,25 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 7be83409f7a594747963c5b125f3bf96c0b4f8b6
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '679'
 ht-degree: 15%
 
 ---
 
 # Introdução à personalização{#add-personalization}
 
-Descubra os recursos de personalização [!DNL Adobe Journey Optimizer] para adaptar suas mensagens a cada recipient específico, aproveitando os dados e as informações que você tem sobre eles. Pode ser seu primeiro nome, interesses, onde vivem, o que compraram e muito mais.
+Discover [!DNL Adobe Journey Optimizer] recursos de personalização para adaptar suas mensagens a cada recipient específico, aproveitando os dados e as informações que você tem sobre eles. Pode ser seu primeiro nome, interesses, onde vivem, o que compraram e muito mais.
 
-➡️ [Saiba como personalizar uma mensagem nestes vídeos](#video-perso)
+➡️ [Saiba como personalizar uma mensagem nesses vídeos](#video-perso)
 
-[!DNL Journey Optimizer] O usa uma sintaxe de personalização  **** simples com base em Handlebars que permite criar expressões com conteúdo delimitado por chaves duplas **{}}**. É possível adicionar várias expressões no mesmo conteúdo ou campo sem restrições. Saiba mais em [Sintaxe de personalização](personalization-syntax.md).
+[!DNL Journey Optimizer] usa uma **inline** sintaxe de personalização simples com base em Handlebars, que permite criar expressões com conteúdo delimitado por chaves duplas **{{}}**. É possível adicionar várias expressões no mesmo conteúdo ou campo sem restrições. Saiba mais em [Sintaxe de personalização](personalization-syntax.md).
 
-A personalização é baseada nos dados de perfil gerenciados pelo esquema do **Perfil individual XDM** definido na Adobe Experience Platform. Saiba mais na documentação do [Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
+A personalização é baseada nos dados de perfil gerenciados pelo esquema do **Perfil individual XDM** definido na Adobe Experience Platform. Saiba mais em [Documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
->O schema **Perfil individual XDM** é o único schema que você pode usar para personalizar o conteúdo em [!DNL Journey Optimizer].
+>O **Perfil individual XDM** schema é o único schema que pode ser usado para personalizar o conteúdo em [!DNL Journey Optimizer].
 
 **Exemplos:**
 
@@ -37,7 +37,7 @@ Ao processar a mensagem (email e push), o Journey Optimizer substitui a express�
 
 ## contextos de personalização{#personalization-areas}
 
-O conteúdo e a exibição de mensagens entregues por [!DNL Journey Optimizer] podem ser personalizados de várias maneiras diferentes.
+O conteúdo e a exibição das mensagens entregues por [!DNL Journey Optimizer] O pode ser personalizado de várias maneiras diferentes.
 
 Em cada campo com o ícone do editor, é possível abrir o editor de personalização (também conhecido como Editor de expressão) e definir a personalização.
 
@@ -45,17 +45,17 @@ Em cada campo com o ícone do editor, é possível abrir o editor de personaliza
 
 ### Personalize seus emails
 
-Ao criar um email, você pode adicionar personalização no campo **Email subject** da mensagem.
+Ao criar um email, você pode adicionar personalização ao **[!UICONTROL Subject line]** campo da mensagem.
 
 ![](assets/perso_subject.png)
 
 No Designer de email, é possível personalizar o conteúdo:
 
-* Na **mensagem**: clique dentro de um bloco de texto, clique no ícone **Personalizar** na barra de ferramentas contextual e selecione **Inserir personalização** campo. Para obter mais informações sobre a interface do Designer de email, consulte esta [seção](../design-emails.md).
+* No **message**: clique dentro de um bloco de texto, clique no botão **Personalizar** ícone na barra de ferramentas contextual e selecione **Inserir personalização** campo. Para obter mais informações sobre a interface do Designer de email, consulte esta seção [seção](../design-emails.md).
 
    ![](assets/perso_insert.png)
 
-* Para um **link**: selecione algum texto ou imagem dentro de um bloco de texto, clique no ícone **Insert link** na barra de ferramentas contextual. Na janela , é possível adicionar um bloco de personalização clicando no ícone **Add personalization**.
+* Para um **link**: selecione algum texto ou imagem dentro de um bloco de texto, clique no botão **Inserir link** na barra de ferramentas contextual. Na janela , é possível adicionar um bloco de personalização clicando no botão **Adicionar personalização** ícone .
 
    ![](assets/perso_link.png)
 
@@ -65,7 +65,7 @@ Em ambos os casos, você acessa o editor de personalização.
 
 ### Personalize suas notificações por push
 
-Você também pode personalizar suas **Notificações por push** nos seguintes campos:
+Você também pode personalizar seu **Notificações por push** nos seguintes campos:
 
 * **Title**
 * **Corpo**
@@ -75,17 +75,17 @@ Você também pode personalizar suas **Notificações por push** nos seguintes c
 
 ![](assets/perso_push.png)
 
-Saiba mais sobre a configuração de notificação por push em [this section](../push-gs.md).
+Saiba mais sobre a configuração de notificação por push em [esta seção](../push-gs.md).
 
 ### Personalize suas ofertas {#personalize-offers}
 
 Também é possível acessar o editor de personalização ao adicionar conteúdo do tipo texto às representações das ofertas.
 
-Saiba mais sobre como gerenciar conteúdo com o Gerenciamento de decisões em [esta seção](../offers/offer-library/creating-personalized-offers.md#custom-text).
+Saiba mais sobre como gerenciar conteúdo com o Gerenciamento de decisões no [esta seção](../offers/offer-library/creating-personalized-offers.md#custom-text).
 
 ## Usar o editor de expressão {#use-expression-editor}
 
-O editor de expressão é a parte central da personalização em [!DNL Journey Optimizer].
+O editor de expressão é a peça central da personalização no [!DNL Journey Optimizer].
 
 Ela está disponível em todos os contextos onde é necessário definir personalização como emails, push e ofertas.
 
@@ -93,13 +93,17 @@ Na interface do editor de expressão, você selecionará, organizará, personali
 
 ![](assets/perso_ee1.png)
 
-A parte esquerda da tela exibe um seletor de domínio que permite selecionar a fonte para personalização. As fontes disponíveis são:
+A parte esquerda da tela exibe um seletor de domínio que permite selecionar a fonte para personalização.
 
-* **Perfil** : lista todas as referências associadas ao esquema de perfil descrito na documentação do  [Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
-* **Associação**  de segmento: lista todos os segmentos criados no serviço de Segmentação da Adobe Experience Platform. Mais informações sobre a segmentação disponíveis [aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}.
-* **Ofertas** : lista todas as ofertas associadas a uma disposição específica. Selecione a disposição e insira as ofertas no seu conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [esta seção](../deliver-personalized-offers.md).
-* **Contexto** : quando a atividade  **** Messageactivity é usada em uma jornada, os campos de jornada contextual ficam disponíveis nesse menu. Saiba mais [nesta seção](personalization-use-case.md).
-* **Funções**  de ajuda: lista todas as funções auxiliares disponíveis para executar operações em dados, como cálculos, formatação de dados ou conversões, condições e manipulá-las no contexto de personalização. Saiba mais [nesta seção](functions/functions.md).
+![](assets/perso_ee3.png)
+
+As fontes disponíveis são:
+
+* **[!UICONTROL Profile attributes]** : lista todas as referências associadas ao esquema de perfil descrito em [Documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+* **[!UICONTROL Segment memberships]** : lista todos os segmentos criados no serviço de Segmentação da Adobe Experience Platform. Mais informações sobre a segmentação disponíveis [here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}.
+* **[!UICONTROL Offer decisions]** : lista todas as ofertas associadas a uma disposição específica. Selecione a disposição e insira as ofertas no seu conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [esta seção](../deliver-personalized-offers.md).
+* **[!UICONTROL Contextual attributes]** : quando a variável **Mensagem** é usada em uma jornada, campos de jornada contextual estão disponíveis por meio desse menu. Saiba mais [nesta seção](personalization-use-case.md).
+* **[!UICONTROL Helper functions]** : lista todas as funções auxiliares disponíveis para executar operações em dados, como cálculos, formatação de dados ou conversões, condições e manipulá-las no contexto de personalização. Saiba mais [nesta seção](functions/functions.md).
 
 Na seleção, a referência é adicionada no editor.
 

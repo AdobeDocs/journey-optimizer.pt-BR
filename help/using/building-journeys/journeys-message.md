@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: c1690e1d5db6b068a8611e88c88c8955de21b54f
+exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
+source-git-commit: dc05d88773dc148dc0e5387953f49c4d03b1888f
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '793'
 ht-degree: 3%
 
 ---
@@ -20,11 +21,11 @@ Se você estiver usando um sistema de terceiros para enviar mensagens, é possí
 
 ## Adicionar uma atividade Message
 
-1. Como sempre, inicie a jornada com um evento ou uma atividade **Ler segmento** .
+1. Como sempre, inicie a jornada com um evento ou um **Ler segmento** atividade .
 
    ![](../assets/jo-message0.png)
 
-1. Na seção **Actions** da paleta, arraste e solte uma atividade **Message** na tela.
+1. No **Ações** seção da paleta, arraste e solte uma **Mensagem** atividade na tela.
 
    ![](../assets/jo-message1.png)
 
@@ -32,15 +33,15 @@ Se você estiver usando um sistema de terceiros para enviar mensagens, é possí
 
    ![](../assets/jo-message2.png)
 
-1. Clique dentro do campo **Message**. A lista de mensagens disponíveis projetadas no Journey Optimizer é exibida. Você pode filtrar a lista por status.
+1. Clique dentro do **Mensagem** campo. A lista de mensagens disponíveis projetadas no Journey Optimizer é exibida. Você pode filtrar a lista por status.
 
    ![](../assets/jo-message3.png)
 
-1. Escolha uma mensagem e clique em **Select**. Você também pode criar uma nova mensagem diretamente nessa tela clicando em **Create message**.
+1. Escolha uma mensagem e clique em **Selecionar**. Você também pode criar uma nova mensagem diretamente desta tela clicando em **Criar mensagem**.
 
    ![](../assets/jo-message4-ter.png)
 
-   Se quiser verificar sua mensagem, clique no ícone **Open the message** no campo **Message**. A mensagem será aberta em uma nova guia.
+   Se quiser verificar sua mensagem, clique no botão **Abrir a mensagem** no ícone na **Mensagem** campo. A mensagem será aberta em uma nova guia.
 
    ![](../assets/jo-message4-bis.png)
 
@@ -48,11 +49,14 @@ Se você estiver usando um sistema de terceiros para enviar mensagens, é possí
 
 ## Parâmetros de email e parâmetros de push
 
-As seções **[!UICONTROL Email parameters]** e **[!UICONTROL Push parameters]** mostram campos somente leitura. Normalmente, você executa essa configuração ao criar a mensagem. Consulte [esta seção](../get-started-content.md).
+O **[!UICONTROL Email parameters]** e **[!UICONTROL Push parameters]** as seções mostram campos somente leitura. Normalmente, você executa essa configuração ao criar a mensagem. Consulte [esta seção](../get-started-content.md).
 
 ![](../assets/jo-message4.png)
 
-Para forçar um valor específico, você pode usar o ícone **Enable parameter override** à direita do campo. Essa opção pode ser útil para fins de teste. Por exemplo, para um email, você pode adicionar seu endereço de email. Após publicar a jornada, o email será enviado para você.
+Para forçar um valor específico, é possível usar a variável **Habilitar substituição de parâmetro** à direita do campo . Essa opção pode ser útil para vários fins:
+
+* Por exemplo, para testar um email, você pode adicionar seu endereço de email. Após publicar a jornada, o email será enviado para você.
+* É possível consultar o endereço de email dos assinantes de uma lista. Veja isso [caso de uso](message-to-subscribers-uc.md).
 
 ## Otimização de tempo de envio{#send-time-optimization}
 
@@ -99,10 +103,10 @@ Essas informações são armazenadas com o perfil do usuário e são referenciad
 >title="Ativar otimização de tempo de envio"
 >abstract="O padrão das mensagens de push é a opção de abertura, pois os cliques não são aplicáveis às mensagens de push. Você também pode optar por colar os tempos de envio usados pelo sistema, inserindo um valor para a opção Enviar na próxima."
 
-Ative a Otimização de Tempo de Envio em um email ou mensagem de push selecionando o switch **Otimização de Tempo de Envio** nos parâmetros da atividade de Mensagem.
+Ative a Otimização de tempo de envio em um email ou mensagem de push selecionando o **Otimização de tempo de envio** alterne dos parâmetros da atividade Message .
 
 ![](../assets/jo-message5.png)
 
 Para mensagens de email, escolha se deseja otimizar as aberturas de email ou click-throughs de email selecionando o botão de opção apropriado. O padrão das mensagens de push é a opção de abertura, pois os cliques não são aplicáveis às mensagens de push.
 
-Você também pode optar por colchar os tempos de envio usados pelo sistema, inserindo um valor para a opção **Send within the next**. Se você escolher &quot;seis horas&quot; como o valor, [!DNL Journey Optimizer] verificará cada perfil de usuário e selecionará o tempo de envio ideal em seis horas a partir do tempo de execução da jornada.
+Você também pode optar por colchar os tempos de envio usados pelo sistema, inserindo um valor para a variável **Enviar na próxima** opção. Se você escolher &quot;seis horas&quot; como o valor, [!DNL Journey Optimizer] O verificará cada perfil de usuário e selecionará o tempo de envio ideal em seis horas a partir do tempo de execução da jornada.

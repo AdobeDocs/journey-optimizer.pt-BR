@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: c6db89093e1ec5b7d9fe084cec58b8b7664c6ab2
 workflow-type: tm+mt
 source-wordcount: '791'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ Use [!DNL Journey Optimizer] para adicionar links ao seu conteúdo e rastrear as
 
 ## Habilitar rastreamento {#enable-tracking}
 
-Você pode ativar o rastreamento no nível da mensagem de email, marcando as opções **[!UICONTROL Open Tracking for email]** e/ou **[!UICONTROL Click Tracking for email]** ao [criar a mensagem](create-message.md).
+Você pode ativar o rastreamento no nível da mensagem de email marcando a variável **[!UICONTROL Open Tracking for email]** e/ou **[!UICONTROL Click Tracking for email]** opções ao [criação da mensagem](create-message.md).
 
 ![](assets/message-tracking.png)
 
@@ -28,6 +28,7 @@ Você pode ativar o rastreamento no nível da mensagem de email, marcando as op�
 >Ambas as opções são ativadas por padrão.
 
 Isso permitirá rastrear o comportamento dos recipients por meio de:
+
 * **[!UICONTROL Open Tracking for email]**: Mensagens que foram abertas.
 * **[!UICONTROL Click Tracking for email]**: Cliques em links em um email.
 
@@ -37,7 +38,7 @@ Ao criar uma mensagem, você pode adicionar links ao seu conteúdo.
 
 >[!NOTE]
 >
->Quando [tracking está ativado](#enable-tracking), todos os links incluídos no conteúdo da mensagem são rastreados.
+>When [o rastreamento está ativado](#enable-tracking), todos os links incluídos no conteúdo da mensagem são rastreados.
 
 Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
@@ -61,7 +62,7 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
 1. Salve as alterações.
 
-1. Depois que o link é criado, você ainda pode modificá-lo do painel **[!UICONTROL Component settings]** à direita.
+1. Depois que o link for criado, você ainda poderá modificá-lo da variável **[!UICONTROL Component settings]** painel à direita.
 
    * Clique no ícone de lápis para editar o link.
    * Você pode optar por sublinhar o link ou não, marcando a opção correspondente.
@@ -72,7 +73,7 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
 A mirror page é uma página HTML acessível online através de um navegador da Web. Seu conteúdo é idêntico ao conteúdo do email.
 
-Para adicionar um link a uma mirror page no seu email, [insira um link](#insert-links) e selecione **[!UICONTROL Mirror page]** como o tipo de link.
+Para adicionar um link a uma mirror page no seu email, [inserir um link](#insert-links) e selecione **[!UICONTROL Mirror page]** como o tipo de link.
 
 ![](assets/message-tracking-mirror-page.png)
 
@@ -86,7 +87,7 @@ Depois que o email for enviado, quando os recipients clicarem no link da mirror 
 
 >[!NOTE]
 >
->No [proof](preview.md#send-proofs) enviado aos perfis de teste, o link para a mirror page não está ativo. Ela só é ativada nas mensagens finais.
+>No [prova](preview.md#send-proofs) enviado aos perfis de teste, o link para a mirror page não está ativo. Ela só é ativada nas mensagens finais.
 
 O período de retenção de uma mirror page é de 60 dias. Após esse atraso, a mirror page não estará mais disponível.
 
@@ -96,7 +97,7 @@ Para permitir que seus recipients cancelem rapidamente a assinatura do recebimen
 
 Para adicionar um link para opção de não participação no seu email, siga as etapas abaixo.
 
-1. [Insira um ](#insert-links) link e selecione  **[!UICONTROL Opt-out]** como o tipo de link.
+1. [Inserir um link](#insert-links) e selecione **[!UICONTROL Opt-out]** como o tipo de link.
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -122,7 +123,7 @@ Depois que a mensagem é enviada, se os recipients clicarem no link de recusa, e
 
 O [Email Designer](create-email-content.md) permite gerenciar os URLs rastreados, como editar o tipo de rastreamento para cada link.
 
-1. Clique no ícone **[!UICONTROL Links]** no painel esquerdo para exibir a lista de todos os URLs do seu conteúdo que serão rastreados.
+1. Clique no botão **[!UICONTROL Links]** ícone do painel esquerdo para exibir a lista de todos os URLs do seu conteúdo que serão rastreados.
 
    Essa lista permite que você tenha uma visualização centralizada e localize cada URL no conteúdo do email.
 
@@ -140,8 +141,8 @@ O [Email Designer](create-email-content.md) permite gerenciar os URLs rastreados
    * **[!UICONTROL Tracked]**: Ativa o rastreamento nesse URL.
    * **[!UICONTROL Opt out]**: Considera esse URL como recusa ou cancelamento de subscrição.
    * **[!UICONTROL Mirror page]**: Considera esse URL como sendo de mirror page.
-   * **[!UICONTROL Never]**: Nunca ativa o rastreamento desse URL.  <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Never]**: Nunca ativa o rastreamento desse URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-O número de mensagens que foram abertas e o número de links que foram clicados são listados na guia [Executions](message-monitoring.md).
+O número de mensagens que foram abertas e o número de links que foram clicados são listados na variável [Guia Executions](message-monitoring.md).
 
-Os relatórios sobre aberturas e cliques estão disponíveis no [Email Live report](reports/email-live-report.md) e no [Email Global report](reports/email-global-report.md).
+Os relatórios sobre aberturas e cliques estão disponíveis no [Relatório ao vivo por email](reports/email-live-report.md) e na [Relatório global de email](reports/email-global-report.md).

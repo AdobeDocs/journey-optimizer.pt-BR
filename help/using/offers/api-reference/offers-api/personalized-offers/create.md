@@ -1,14 +1,15 @@
 ---
 title: Criar ofertas personalizadas
 description: Uma oferta personalizada é uma mensagem de marketing personalizável com base em regras e restrições de elegibilidade.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
+source-git-commit: 701b8a46b5f22c31bee479ddfb63f8e399cee4a1
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 12%
+source-wordcount: '176'
+ht-degree: 10%
 
 ---
 
@@ -16,11 +17,11 @@ ht-degree: 12%
 
 Uma oferta personalizada é uma mensagem de marketing personalizável com base em regras e restrições de elegibilidade.
 
-É possível criar uma oferta personalizada fazendo uma solicitação de POST para a API [!DNL Offer Library], fornecendo a ID do contêiner.
+Você pode criar uma oferta personalizada fazendo uma solicitação de POST para a [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
 
 ## Aceitar e digitar cabeçalhos de tipo de conteúdo
 
-A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -85,7 +86,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a oferta personalizada recém-criada, incluindo sua ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua oferta personalizada.
+Uma resposta bem-sucedida retorna informações sobre a oferta personalizada recém-criada, incluindo sua ID de instância exclusiva e seu posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua oferta personalizada.
 
 ```json
 {
@@ -100,3 +101,7 @@ Uma resposta bem-sucedida retorna informações sobre a oferta personalizada rec
     "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
+
+## Limitações {#limitations}
+
+Atualmente, algumas restrições de oferta não são suportadas com o dispositivo móvel [!DNL Experience Edge] fluxos de trabalho, por exemplo `Capping`. O `Capping` O valor do campo especifica o número de vezes que uma oferta pode ser apresentada em todos os usuários. Para obter mais detalhes, consulte [Documentação de regras e restrições de qualificação de oferta](../../../offer-library/creating-personalized-offers.md).

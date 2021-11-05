@@ -1,31 +1,32 @@
 ---
 title: Criar um email
 description: Saiba como criar um email no Journey Optimizer
-feature: Visão geral
-topic: Gerenciamento de conteúdo
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 80cd004d17dbbbe87fa5b15fc1bdc659fdc4e66f
+exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
+source-git-commit: 54b5a2c09ae9d7fd18f9b6a7d0053d78ae3e50b0
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 7%
+source-wordcount: '140'
+ht-degree: 4%
 
 ---
 
 # Criar um email {#configure-email}
 
-Depois de [criar uma mensagem](create-message.md), use a guia **[!UICONTROL Email]** para definir as configurações e o conteúdo do canal de email.
+Uma vez [criou uma mensagem](create-message.md), use o **[!UICONTROL Email]** para definir as configurações e o conteúdo do canal de email.
 
 ![](assets/emails-configuration.png)
 
 >[!NOTE]
 >
->Os **[!UICONTROL From email]** e **[!UICONTROL From name]** são somente leitura e são determinados pelo **[!UICONTROL Preset]** que foi selecionado ao [criar a mensagem](create-message.md).
+>O **[!UICONTROL From email]** e **[!UICONTROL From name]** são somente leitura e determinadas pelo **[!UICONTROL Preset]** que foi selecionado quando [criação da mensagem](create-message.md).
 
 As etapas para configurar um email são as seguintes:
 
-1. Especifique os **[!UICONTROL Email subject]**. Para fazer isso, clique no botão no lado direito para abrir o editor de expressão e compor o assunto do email. Saiba como adicionar personalização em [esta seção](personalization/personalize.md)
+1. Especifique o assunto do email no **[!UICONTROL Subject line]** campo. Para fazer isso, clique no botão no lado direito para abrir o editor de expressão e compor o assunto do email. Saiba como adicionar personalização em [esta seção](personalization/personalize.md)
 
-1. Clique no botão **[!UICONTROL Email Designer]** para criar o email. Saiba como criar emails em [esta seção](design-emails.md).
+1. Clique no botão **[!UICONTROL Email Designer]** para criar seu email. Saiba como criar e-mails em [esta seção](design-emails.md).
 
-1. Se quiser rastrear o comportamento dos recipients por meio de aberturas e/ou cliques em links, verifique se as opções **[!UICONTROL Open Tracking for email]** e **[!UICONTROL Click Tracking for email]** estão habilitadas. Saiba mais sobre o rastreamento em [esta seção](message-tracking.md).
+1. Se você deseja rastrear o comportamento dos recipients por meio de aberturas e/ou cliques em links, verifique se a variável **[!UICONTROL Open Tracking for email]** e **[!UICONTROL Click Tracking for email]** estiverem ativadas. Saiba mais sobre como rastrear no [esta seção](message-tracking.md).

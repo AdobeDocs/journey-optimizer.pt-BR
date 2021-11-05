@@ -5,15 +5,14 @@ user-guide-title: Manual do Journey Optimizer
 user-guide-description: Usar o Journey Optimizer para fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 699ebab2051d9ddfde20713a462490f11f9f7f1b
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 94%
+source-wordcount: '756'
+ht-degree: 89%
 
 ---
 
-
-# Ajuda do [!DNL Journey Optimizer] {#using}
+# Ajuda do Adobe Journey Optimizer {#using}
 
 + [Documentação do Journey Optimizer](ajo-home.md)
 + Novidades? {#whats-new}
@@ -21,7 +20,12 @@ ht-degree: 94%
    + [Atualizações mais recentes](using/documentation-updates.md)
 + Introdução{#get-started}
    + [O que é o Journey Optimizer](using/get-started.md)
-   + [Início rápido](using/quick-start.md)
+   + Início rápido{#quick-start}
+      + [Visão geral](using/quick-start.md)
+      + [Introdução como profissional de marketing](using/path/marketer.md)
+      + [Introdução como engenheiro de dados](using/path/data-engineer.md)
+      + [Introdução como administrador](using/path/administrator.md)
+      + [Introdução ao como desenvolvedor](using/path/developer.md)
    + [Interface do usuário](using/user-interface.md)
    + [Limitações](using/limitations.md)
 + Mensagens {#create-messages}
@@ -50,10 +54,11 @@ ht-degree: 94%
       + [Notificação do status do pedido](using/personalization/personalization-use-case.md)
       + [Email de abandono do carrinho](using/personalization/personalization-use-case-helper-functions.md)
    + Funções auxiliares{#functions}
-      + [Lista de funções auxiliares](using/personalization/functions/functions.md)
+      + [Introdução a funções auxiliares](using/personalization/functions/functions.md)
       + [Funções de agregação](using/personalization/functions/aggregation.md)
       + [Funções aritméticas](using/personalization/functions/arithmetic-functions.md)
       + [Matrizes e funções de lista](using/personalization/functions/arrays-list.md)
+      + [Funções de data](using/personalization/functions/dates.md)
       + [Funções booleanas e de comparação](using/personalization/functions/operators.md)
       + [Auxiliares](using/personalization/functions/helpers.md)
       + [Funções do mapa](using/personalization/functions/maps.md)
@@ -97,6 +102,7 @@ ht-degree: 94%
       + [Enviar mensagens de vários canais](using/building-journeys/journeys-uc.md)
       + [Enviar uma mensagem usando o Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Envie coleções dinamicamente usando ações personalizadas](using/building-journeys/collections.md)
+      + [Enviar uma mensagem aos assinantes](using/building-journeys/message-to-subscribers-uc.md)
 + Rastrear e monitorar {#reporting}
    + [Monitoramento de mensagens](using/message-monitoring.md)
    + Relatório ao vivo {#live-report}
@@ -111,11 +117,14 @@ ht-degree: 94%
       + [Relatório global por push](using/reports/push-global-report.md)
    + Relatórios de jornada {#reports}
       + [Criar relatórios de jornada](using/reports/sharing-overview.md)
-      + [Campos de jornada](using/reports/sharing-journey-fields.md)
-      + [Campos comuns](using/reports/sharing-common-fields.md)
-      + [Campos de execução de ação](using/reports/sharing-execution-fields.md)
-      + [Campos de busca de dados](using/reports/sharing-fetch-fields.md)
-      + [Campos de identidade](using/reports/sharing-identity-fields.md)
+      + [Lista de campos de evento de etapa](using/reports/sharing-field-list.md)
+      + Campos de evento de etapa herdada {#legacy-step-event-fields}
+         + [Sobre campos herdados](using/reports/sharing-legacy-fields.md)
+         + [Campos de jornada](using/reports/sharing-journey-fields.md)
+         + [Campos comuns](using/reports/sharing-common-fields.md)
+         + [Campos de execução de ação](using/reports/sharing-execution-fields.md)
+         + [Campos de busca de dados](using/reports/sharing-fetch-fields.md)
+         + [Campos de identidade](using/reports/sharing-identity-fields.md)
       + [Exemplos de consultas](using/reports/query-examples.md)
    + Capacidade de entrega {#deliverability}
       + [Introdução à capacidade de entrega](using/deliverability.md)
@@ -140,6 +149,7 @@ ht-degree: 94%
    + Criar e gerenciar decisões {#create-manage-activities}
       + [Criar decisões](using/offers/offer-activities/create-offer-activities.md)
       + [Configurar seleção de ofertas em decisões](using/offers/offer-activities/configure-offer-selection.md)
+      + [Criar simulações](using/offers/offer-activities/simulation.md)
    + Criar relatórios do Gerenciamento de decisões {#create-reports}
       + [Introdução aos eventos de Gerenciamento de decisão](using/offers/reports/get-started-events.md)
       + [Informações-chave sobre eventos do Gerenciamento de decisão](using/offers/reports/key-information.md)

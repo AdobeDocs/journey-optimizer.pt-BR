@@ -1,14 +1,15 @@
 ---
 title: Gerenciamento de sandboxes
 description: Saiba como gerenciar sandboxes
-feature: Grupos de controle
-topic: Administração
+feature: Control Groups
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
+source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 69%
+source-wordcount: '360'
+ht-degree: 71%
 
 ---
 
@@ -23,17 +24,19 @@ O [!DNL Journey Optimizer] reflete as sandboxes da Adobe Experience Platform que
 
 Você pode encontrar o controle do alternador de sandbox na parte superior esquerda da tela. Para alternar a sandbox, clique na sandbox atualmente ativa no alternador e selecione outra sandbox na lista suspensa.
 
+➡️ [Descubra este recurso no vídeo](#video)
+
 ## Atribuir sandboxes {#assign-sandboxes}
 
 >[!IMPORTANT]
 >
-> O gerenciamento de sandboxes só pode ser realizado por um administrador **[!UICONTROL Product]** ou **[!UICONTROL System]**. Para obter mais informações, consulte a [documentação do Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}.
+> O gerenciamento de sandboxes só pode ser realizado por um **[!UICONTROL Product]** ou **[!UICONTROL System]** administrador. Para obter mais informações sobre isso, consulte o [Documentação do Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}.
 
 Você pode optar por atribuir sandboxes diferentes para predefinidas ou personalizadas **[!UICONTROL Product profiles]**.
 
 Para atribuir sandboxes:
 
-1. Na guia [!DNL Admin Console], na guia **[!UICONTROL Products]**, selecione o produto **[!UICONTROL Adobe Experience Platform Apps]**.
+1. No [!DNL Admin Console]do **[!UICONTROL Products]** selecione a guia **[!UICONTROL Adobe Experience Platform Apps]** produto.
 
 1. Selecione um **[!UICONTROL Product profile]**.
 
@@ -41,7 +44,7 @@ Para atribuir sandboxes:
 
 1. Selecione a guia **[!UICONTROL Permissions]**.
 
-1. Selecione o recurso **[!UICONTROL Sandboxes]**.
+1. Selecione o **[!UICONTROL Sandboxes]** capacidade.
 
    ![](../assets/sandbox_2.png)
 
@@ -49,7 +52,7 @@ Para atribuir sandboxes:
 
    ![](../assets/sandbox_3.png)
 
-1. Se necessário, em **[!UICONTROL Included Permission Items]**, clique no ícone X ao lado de remover sandboxes acesso a **[!UICONTROL Product profile]**.
+1. Se necessário, em **[!UICONTROL Included Permission Items]**, clique no ícone X ao lado de remover sandboxes acesso ao **[!UICONTROL Product profile]**.
 
    ![](../assets/sandbox_4.png)
 
@@ -64,3 +67,9 @@ Para configurar a acessibilidade do conteúdo, é necessário atribuir uma pasta
 Observe que para que o conteúdo seja sincronizado com a sandbox correta, é necessário seguir a mesma sintaxe da sandbox. Por exemplo, se a sandbox for chamada de desenvolvimento, a pasta compartilhada deverá ter o mesmo nome.
 
 [Saiba como gerenciar pastas compartilhadas](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target=&quot;_blank&quot;}.
+
+## Vídeo tutorial{#video}
+
+Entenda o que são sandboxes e como distinguir sandboxes de desenvolvimento e produção. Saiba como criar, redefinir e excluir sandboxes.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

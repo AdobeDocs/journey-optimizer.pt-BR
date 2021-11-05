@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
+source-git-commit: caaf3942853adb4e5eb16a3dd303ca1f088ce23b
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '450'
 ht-degree: 5%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 5%
 Se várias ofertas estiverem qualificadas para uma determinada disposição, você poderá escolher o método que selecionará a melhor oferta para cada perfil ao configurar uma decisão (anteriormente conhecida como atividade de oferta). Você pode classificar ofertas por:
 * Prioridade da oferta
 * Fórmula de classificação
-* [Classificação de AI](#use-ranking-strategy)  (no acesso antecipado somente para usuários selecionados)
+* [Classificação AI](#use-ranking-strategy) (no acesso antecipado somente para usuários selecionados)
 
 ![](../../assets/offer-rank-by.png)
 
 ## Prioridade da oferta {#about-offers-priority}
 
-Por padrão, quando várias ofertas estão qualificadas para uma determinada disposição em uma decisão (anteriormente conhecida como atividade de oferta), as ofertas com a maior **prioridade** serão entregues primeiro aos clientes.
+Por padrão, quando várias ofertas estão qualificadas para uma determinada disposição em uma decisão (anteriormente conhecida como atividade de oferta), as ofertas com a maior **priority** serão entregues aos clientes primeiro.
 
 ![](../../assets/offer-priority.png)
 
-As pontuações de prioridade das ofertas são atribuídas ao criar uma oferta. Saiba como criar uma oferta personalizada em [esta seção](../offer-library/creating-personalized-offers.md).
+As pontuações de prioridade das ofertas são atribuídas ao criar uma oferta. Saiba como criar uma oferta personalizada no [esta seção](../offer-library/creating-personalized-offers.md).
 
 ## Fórmula de classificação {#assign-ranking-formula}
 
@@ -36,7 +36,7 @@ Além da prioridade da oferta, o Journey Optimizer permite criar **fórmulas de 
 
 Por exemplo, você pode aumentar a prioridade de todas as ofertas em que a data final seja daqui a menos de 24 horas, ou impulsionar ofertas da categoria &quot;em execução&quot; se o ponto de interesse do perfil estiver &quot;em execução&quot;.
 
-Saiba como criar uma fórmula de classificação em [nesta seção](../offer-library/create-ranking-formulas.md).
+Saiba como criar uma fórmula de classificação no [esta seção](../offer-library/create-ranking-formulas.md).
 
 Depois que uma fórmula de classificação é criada, é possível atribuí-la a uma disposição em uma decisão (anteriormente conhecida como atividade de oferta). Para fazer isso, siga as etapas abaixo:
 
@@ -46,7 +46,7 @@ Depois que uma fórmula de classificação é criada, é possível atribuí-la a
 
 1. Para cada disposição, adicione uma coleção. Consulte [Criar coleções](../offer-library/creating-collections.md).
 
-1. Escolha classificar as ofertas por **[!UICONTROL Ranking]** na lista suspensa e clique em **[!UICONTROL Add ranking]**.
+1. Selecionar **[!UICONTROL Ranking formula]** como método de classificação, clique em **[!UICONTROL Add ranking]**.
 
    ![](../../assets/offer-activity-ranking.png)
 
@@ -74,21 +74,15 @@ Depois que uma estratégia de classificação tiver sido criada, é possível at
 
 1. Para cada disposição, adicione uma coleção. Consulte [Criar coleções](../offer-library/creating-collections.md).
 
-1. Escolha classificar ofertas por **[!UICONTROL AI ranking]** na lista suspensa.
+1. Escolha classificar ofertas por **[!UICONTROL AI ranking]** na lista suspensa e clique em **[!UICONTROL Add ranking]**.
 
    ![](../../assets/ranking-selection-ai-ranking.png)
-
-1. Clique em **[!UICONTROL Add ranking]**.
-
-   ![](../../assets/ranking-selection-ai-ranking-add.png)
 
 1. Selecione a estratégia de classificação criada. Todos os detalhes da estratégia de classificação são exibidos.
 
    ![](../../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Clique em **[!UICONTROL Select]**.
-
-A estratégia de classificação agora está associada ao posicionamento.
+1. Clique em **[!UICONTROL Select]**. A estratégia de classificação agora está associada ao posicionamento.
 
 Se várias ofertas forem elegíveis, o sistema de modelo treinado determinará qual oferta deve ser apresentada primeiro para uma determinada disposição.
 

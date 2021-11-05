@@ -5,13 +5,13 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b2eedebb42f878cec0e7747e015693fad4667cff
+exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
+source-git-commit: 2e91fc884ea6e83a2590c5beca7840a6fc4c9b78
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1688'
 ht-degree: 1%
 
 ---
-
 
 # Criar predefinições de mensagem
 
@@ -21,10 +21,10 @@ Com [!DNL Journey Optimizer], é possível configurar predefinições de mensage
 >
 > * A configuração de predefinições de mensagens é restrita aos Administradores do Jornada. [Saiba mais](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * Você deve executar as etapas de configuração de Email e Push antes de criar predefinições de mensagem.
+> * Você deve executar a configuração de email e [Configuração por push](../push-configuration.md) etapas antes de criar predefinições de mensagem.
 
 
-Após configurar as predefinições de mensagem, é possível selecioná-las ao criar mensagens na lista **[!UICONTROL Presets]**.
+Após configurar as predefinições de mensagem, é possível selecioná-las ao criar mensagens do **[!UICONTROL Presets]** lista.
 
 ➡️ [Saiba como criar e usar predefinições de email neste vídeo](#video-presets)
 
@@ -32,7 +32,7 @@ Após configurar as predefinições de mensagem, é possível selecioná-las ao 
 
 Para criar uma predefinição de mensagem, siga estas etapas:
 
-1. Acesse o menu **[!UICONTROL Channels]** / **[!UICONTROL Message presets]** e clique em **[!UICONTROL Create Message preset]**.
+1. Acesse o **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** , em seguida, clique em **[!UICONTROL Create Message preset]**.
 
    ![](../assets/preset-create.png)
 
@@ -42,9 +42,9 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    >[!NOTE]
    >
-   > Os nomes devem começar com uma letra (A-Z). Ela só pode conter caracteres alfanuméricos. Você também pode usar caracteres de sublinhado `_`, pontos`.` e hífen `-`.
+   > Os nomes devem começar com uma letra (A-Z). Ela só pode conter caracteres alfanuméricos. Você também pode usar o sublinhado `_`, ponto`.` e hífen `-` caracteres.
 
-1. Defina as configurações de **email**.
+1. Configure o **email** configurações.
 
    ![](../assets/preset-email.png)
 
@@ -52,7 +52,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
       >[!CAUTION]
       >
-      > **** As mensagens transacionais podem ser enviadas para perfis que cancelaram a assinatura em comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos, como redefinição de senha, status do pedido, notificação de delivery, por exemplo.
+      > **Transacional** as mensagens podem ser enviadas aos perfis que cancelaram a assinatura das comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos, como redefinição de senha, status do pedido, notificação de delivery, por exemplo.
 
    * Selecione o subdomínio a ser usado para enviar os emails. [Saiba mais](about-subdomain-delegation.md)
    * Selecione o pool de IP a ser associado à predefinição. [Saiba mais](ip-pools.md)
@@ -60,27 +60,33 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
       >[!CAUTION]
       >
-      >Exceto pelo campo **Responder para (encaminhar email)**, o domínio de endereços de email deve usar o [subdomínio delegado](about-subdomain-delegation.md) selecionado no momento.
+      >Os endereços de email devem usar o [subdomínio delegado](about-subdomain-delegation.md).
 
-      * **[!UICONTROL Sender name]**: Nome do remetente, como o nome da sua marca.
+      <!--CAUTION: Except for the **Reply to (forward email)** field-->
 
-      * **[!UICONTROL Sender email]**: O endereço de email que deseja usar para suas comunicações. Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você poderá usar *contact@marketing.luma.com*.
+      * **[!UICONTROL Sender name]**: O nome do remetente, como o nome da sua marca.
 
-      * **[!UICONTROL Reply to (name)]**: O nome que será usado quando o recipient clicar no botão  **** Responder em seu software cliente de email.
+      * **[!UICONTROL Sender email]**: O endereço de email que deseja usar para suas comunicações. Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você pode usar *contact@marketing.luma.com*.
 
-      * **[!UICONTROL Reply to (email)]**: O endereço de email que será usado quando o recipient clicar no botão  **** Responder em seu software de cliente de email. Os emails enviados para esse endereço serão encaminhados para o endereço **[!UICONTROL Reply to (forward email)]** fornecido abaixo. Você deve usar um endereço definido no subdomínio delegado (por exemplo, *reply@marketing.luma.com*), caso contrário, os emails serão descartados.
+      * **[!UICONTROL Reply to (name)]**: O nome que será usado quando o recipient clicar no **Responder** no software cliente de email.
 
-      * **[!UICONTROL Reply to (forward email)]**: Todos os emails recebidos pelo  [!DNL Journey Optimizer] para o subdomínio delegado serão encaminhados para este endereço de email. Você pode especificar qualquer endereço, exceto um endereço de email definido no subdomínio delegado. Por exemplo, se o subdomínio delegado for *marketing.luma.com*, qualquer endereço como *abc@marketing.luma.com* será proibido.
+      * **[!UICONTROL Reply to (email)]**: O endereço de email que será usado quando o recipient clicar no link **Responder** no software cliente de email. <!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->Você deve usar um endereço definido no subdomínio delegado (por exemplo, *reply@marketing.luma.com*), caso contrário, os emails serão descartados.
 
       * **[!UICONTROL Error email]**: Todos os erros gerados pelos ISPs após alguns dias de envio de email (rejeições assíncronas) são recebidos neste endereço.
+
+      <!--**[!UICONTROL Reply to (forward email)]**: All emails received by [!DNL Journey Optimizer] for the delegated subdomain will be forwarded to this email address. You can specify any address, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.-->
+
+      >[!NOTE]
+      >
+      >A partir da versão de outubro de 2021, não é mais possível definir um endereço de email de encaminhamento do [!DNL Journey Optimizer] interface do usuário. Se desejar que todos os emails sejam recebidos por [!DNL Journey Optimizer] para que o subdomínio delegado seja encaminhado para um endereço de email específico, entre em contato com o [Equipe de suporte ao Atendimento ao cliente do Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}. <!--move to Deprecated features section when created?-->
 
       ![](../assets/preset-header.png)
 
       >[!NOTE]
       >
-      >Os nomes devem começar com uma letra (A-Z). Ela só pode conter caracteres alfanuméricos. Você também pode usar caracteres de sublinhado `_`, pontos`.` e hífen `-`.
+      >Os nomes devem começar com uma letra (A-Z). Ela só pode conter caracteres alfanuméricos. Você também pode usar o sublinhado `_`, ponto`.` e hífen `-` caracteres.
 
-   * Configure os **parâmetros de nova tentativa de email**. Por padrão, o [período de tempo de repetição](retries.md#retry-duration) é definido como 84 horas, mas você pode ajustar essa configuração para melhor atender às suas necessidades.
+   * Configure o **parâmetros de nova tentativa de email**. Por padrão, a variável [período de tempo de nova tentativa](retries.md#retry-duration) está definida para 84 horas, mas você pode ajustar essa configuração para melhor atender às suas necessidades.
 
       ![](../assets/preset-retry-paramaters.png)
 
@@ -90,7 +96,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
       * Para ambos os tipos de email, o período máximo de tentativas é de 84 horas (ou 5040 minutos).
 
 
-1. Defina as configurações de **notificação por push**.
+1. Configure o **notificação por push** configurações.
 
    ![](../assets/preset-push.png)
 
@@ -98,15 +104,15 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    * Selecione os aplicativos móveis a serem usados para cada plataforma.
 
-      Para obter mais informações sobre como configurar seu ambiente para enviar notificações por push, consulte [esta seção](../push-gs.md).
+      Para obter mais informações sobre como configurar o ambiente para enviar notificações por push, consulte [esta seção](../push-gs.md).
 
 1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Submit]** para confirmar. Você também pode salvar a predefinição de mensagem como rascunho e retomar sua configuração posteriormente.
 
    ![](../assets/preset-submit.png)
 
-1. Depois que a predefinição de mensagem tiver sido criada, ela será exibida na lista com o status **[!UICONTROL Processing]**.
+1. Depois que a predefinição de mensagem tiver sido criada, ela será exibida na lista com a variável **[!UICONTROL Processing]** status.
 
-   Durante essa etapa, várias verificações serão executadas para verificar se foram configuradas corretamente. O tempo de processamento é de cerca de **48h-72h** e pode demorar até **7-10 dias**.
+   Durante essa etapa, várias verificações serão executadas para verificar se foram configuradas corretamente. O tempo de processamento está por vir **48h-72h** e pode **7 a 10 dias úteis**.
 
    Essas verificações incluem testes de deliverability realizados pela equipe de deliverability do Adobe:
 
@@ -120,9 +126,9 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    >[!NOTE]
    >
-   >Se as verificações não forem bem-sucedidas, saiba mais sobre os possíveis motivos de falha em [this section](#monitor-message-presets).
+   >Se as verificações não forem bem-sucedidas, saiba mais sobre os possíveis motivos de falha em [esta seção](#monitor-message-presets).
 
-1. Depois que as verificações são bem-sucedidas, a predefinição de mensagem recebe o status **[!UICONTROL Active]** . Ele está pronto para ser usado para entregar mensagens.
+1. Depois que as verificações são bem-sucedidas, a predefinição de mensagem recebe a variável **[!UICONTROL Active]** status. Ele está pronto para ser usado para entregar mensagens.
 
    <!-- later on, users will be notified in Pulse -->
 
@@ -130,7 +136,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
 ## Monitorar predefinições de mensagem {#monitor-message-presets}
 
-Todas as predefinições de mensagem são exibidas no menu **[!UICONTROL Channels]** / **[!UICONTROL Message presets]**. Os filtros estão disponíveis para ajudar você a navegar pela lista (tipo de canal, usuário, status).
+Todas as suas predefinições de mensagem são exibidas no **[!UICONTROL Channels]** > **[!UICONTROL Message presets]** menu. Os filtros estão disponíveis para ajudar você a navegar pela lista (tipo de canal, usuário, status).
 
 ![](../assets/preset-filters.png)
 
@@ -140,43 +146,146 @@ As predefinições de mensagem podem ter os seguintes status:
 * **[!UICONTROL Processing]**: A predefinição de mensagem foi enviada e está passando por várias etapas de verificação.
 * **[!UICONTROL Active]**: A predefinição de mensagem foi verificada e pode ser selecionada para criar mensagens.
 * **[!UICONTROL Failed]**: Uma ou várias verificações falharam durante a verificação da predefinição de mensagem.
-* **[!UICONTROL De-activated]**: A predefinição de mensagem é desativada. Ele não pode ser usado para criar novas mensagens.
+* **[!UICONTROL Deactivated]**: A predefinição de mensagem é desativada. Ele não pode ser usado para criar novas mensagens.
 
 Em caso de falha na criação de uma predefinição de mensagem, os detalhes sobre cada possível motivo de falha são descritos abaixo.
 
-Se um desses erros ocorrer, entre em contato com a [Adobe Customer Care Support Team](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} para obter assistência.
+Se um desses erros ocorrer, entre em contato com o [Equipe de suporte ao Atendimento ao cliente do Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} para obter assistência.
 
-* **Falha** na validação do SPF: O SPF (Sender Policy Framework) é um protocolo de autenticação de email que permite especificar IPs autorizados que podem enviar emails de um determinado subdomínio. Falha na validação de SPF significa que os endereços IP no registro SPF não correspondem aos endereços IP usados para enviar emails para os provedores de caixa de correio.
+* **Falha na validação do SPF**: O SPF (Sender Policy Framework) é um protocolo de autenticação de email que permite especificar IPs autorizados que podem enviar emails de um determinado subdomínio. Falha na validação de SPF significa que os endereços IP no registro SPF não correspondem aos endereços IP usados para enviar emails para os provedores de caixa de correio.
 
-* **Falha** na validação do DKIM: DKIM (DomainKeys Identified Mail) permite que o servidor do recipient verifique se a mensagem recebida foi enviada pelo remetente genuíno do domínio associado e se o conteúdo da mensagem original não foi alterado no caminho. Falha na validação DKIM significa que os servidores de email de recebimento não podem verificar a autenticidade do conteúdo da mensagem e sua associação com o domínio de envio.:
+* **Falha na validação do DKIM**: DKIM (DomainKeys Identified Mail) permite que o servidor do recipient verifique se a mensagem recebida foi enviada pelo remetente genuíno do domínio associado e se o conteúdo da mensagem original não foi alterado no caminho. Falha na validação DKIM significa que os servidores de email de recebimento não podem verificar a autenticidade do conteúdo da mensagem e sua associação com o domínio de envio.:
 
-* **Falha** na validação do registro MX: Falha na validação de registro MX (Mail eXchange) significa que os servidores de email responsáveis por aceitar emails de entrada em nome de um determinado subdomínio não estão configurados corretamente.
+* **Falha na validação do registro MX**: Falha na validação de registro MX (Mail eXchange) significa que os servidores de email responsáveis por aceitar emails de entrada em nome de um determinado subdomínio não estão configurados corretamente.
 
-* **Falha** nas configurações de deliverability: A falha das configurações de deliverability pode ocorrer devido a qualquer um dos seguintes motivos:
+* **Falha nas configurações da capacidade de entrega**: A falha das configurações de deliverability pode ocorrer devido a qualquer um dos seguintes motivos:
    * incluir na lista de bloqueios dos IPs alocados
-   * Nome `helo` inválido
+   * Inválido `helo` name
    * Emails enviados de IPs diferentes daqueles especificados no pool de IP da predefinição correspondente
    * Não é possível enviar emails para caixas de entrada dos principais ISPs, como Gmail e Yahoo
 
-## Editar predefinições de mensagem
+## Editar uma predefinição de mensagem {#edit-message-preset}
 
-Para editar uma predefinição de mensagem, primeiro é necessário desativá-la para torná-la indisponível para criar novas mensagens (as mensagens publicadas usando essa predefinição não serão afetadas e continuarão funcionando). Em seguida, é necessário duplicar a predefinição de mensagem para criar uma nova versão que será usada para criar novas mensagens:
+Para editar uma predefinição de mensagem, siga as etapas abaixo.
 
-1. Acesse a lista de predefinições de mensagens e desative a predefinição de mensagens que deseja editar.
+>[!NOTE]
+>
+>Não é possível editar o **[!UICONTROL Push notification settings]**. Se uma predefinição de mensagem estiver configurada apenas para o canal de notificação por push, ela não será editável.
 
-   ![](../assets/preset-deactivate.png)
+1. Na lista, clique em um nome predefinido de mensagem para abri-la.
 
-1. Duplique a predefinição de mensagem desativada. Uma cópia com o status **[!UICONTROL Draft]** é adicionada automaticamente à lista.
+   ![](../assets/preset-name.png)
 
-   ![](../assets/preset-duplicated.png)
-
-1. Abra a predefinição de mensagem duplicada, modifique-a de acordo com suas necessidades e envie suas alterações. A predefinição de mensagem passará pelo mesmo ciclo de validação que durante a etapa de [criação](#create-message-preset).
-
-1. Depois de validado, ele obtém o status **[!UICONTROL Active]** e está pronto para ser usado para criar novas mensagens.
+1. Edite as propriedades conforme desejado.
 
    >[!NOTE]
    >
-   >As predefinições de mensagens desativadas não podem ser excluídas para evitar qualquer problema nas jornadas que usam essas predefinições para enviar mensagens.
+   >Se uma predefinição de mensagem tiver a variável **[!UICONTROL Active]** , o **[!UICONTROL Name]**, **[!UICONTROL Select channel]** e **[!UICONTROL Subdomain]** Os campos estão esmaecidos e não podem ser editados.
+
+1. Clique em **[!UICONTROL Submit]** para confirmar as alterações.
+
+   ![](../assets/preset-confirm-update.png)
+
+   >[!NOTE]
+   >
+   >Você também pode salvar a predefinição de mensagem como rascunho e retomar a atualização posteriormente.
+
+Depois que as alterações forem enviadas, a predefinição de mensagem passará por um ciclo de validação semelhante ao vigente quando [criação de uma predefinição](#create-message-preset).
+
+Para predefinições de mensagens com a variável **[!UICONTROL Active]** , você pode verificar os detalhes da atualização. Para fazer isso:
+
+* Clique no botão **[!UICONTROL Recent update]** ícone que é exibido ao lado do nome da predefinição ativa.
+
+   ![](../assets/preset-recent-update-icon.png)
+
+* Você também pode acessar os detalhes de atualização de uma predefinição de mensagem ativa enquanto a atualização estiver em andamento.
+
+   ![](../assets/preset-view-update-details.png)
+
+No **[!UICONTROL Recent update]** pode ver informações como o status da atualização,<!--the approximate remaining time before completion (if validation is in progress)--> e a lista de alterações solicitadas.
+
+![](../assets/preset-recent-update-screen.png)
+
+### Atualizar status {#update-statuses}
+
+Uma atualização de predefinição de mensagem pode ter os seguintes status:
+
+* **[!UICONTROL Processing]**: A atualização da predefinição de mensagem foi enviada e está passando por várias etapas de verificação.
+* **[!UICONTROL Success]**: A predefinição de mensagem atualizada foi verificada e pode ser selecionada para criar mensagens.
+* **[!UICONTROL Failed]**: Uma ou várias verificações falharam durante a verificação de atualização predefinida de mensagem.
+
+**Processamento**
+
+Várias verificações de deliverability serão executadas para verificar se a predefinição foi atualizada corretamente. O tempo de processamento está por vir **48h-72h** e pode **7 a 10 dias úteis**. Saiba mais sobre as verificações realizadas durante o ciclo de validação em [esta seção](#create-message-preset).
+
+>[!NOTE]
+>
+>Não é possível modificar uma predefinição de mensagem enquanto a atualização estiver em andamento. Ainda é possível clicar no nome, mas todos os campos estão esmaecidos. As alterações não serão refletidas até que a atualização seja bem-sucedida.
+
+Se você editar uma predefinição que já estava ativa:
+
+* O seu estatuto permanece **[!UICONTROL Active]** enquanto o processo de validação estiver em andamento.
+
+* O **[!UICONTROL Recent update]** ícone é exibido ao lado do nome da predefinição na lista de predefinições de mensagem.
+
+* Durante o processo de validação, as mensagens configuradas usando essa predefinição ainda usam a versão mais antiga da predefinição.
+
+**Sucesso**
+
+Depois que o processo de validação for bem-sucedido, a nova versão da predefinição será usada automaticamente em todas as mensagens usando essa predefinição. No entanto, pode ser necessário aguardar:
+* alguns minutos antes de ser consumido pelas mensagens unitárias,
+* até o próximo lote para que a predefinição seja efetiva nas mensagens em lote.
+
+<!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
+
+**Falha**
+
+Se o processo de validação falhar, a versão mais antiga da predefinição ainda será usada.
+
+Os possíveis tipos de erro de atualização são os seguintes:
+* **Erro de autorização**: o token portador é inválido ou não está autorizado.
+* **Modificação ilegal**: uma edição foi realizada em um ou mais campos não permitidos.
+* **Falha na pré-condição**: alguns campos só podem ter valores específicos e isso não foi cumprido.
+
+<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+
+Quando a atualização falhar, a predefinição poderá ser editada novamente. Você pode clicar no nome e atualizar as configurações que precisam ser corrigidas.
+
+## Desativar uma predefinição de mensagem {#deactivate-preset}
+
+Para criar uma **[!UICONTROL Active]** não disponível para criar novas mensagens, você pode desativá-la. No entanto, as mensagens publicadas usando essa predefinição não serão afetadas e continuarão funcionando.
+
+>[!NOTE]
+>
+>Não é possível desativar uma predefinição de mensagem durante o processamento de uma atualização. Aguarde até que a atualização seja bem-sucedida ou tenha falhado. Saiba mais sobre [edição de predefinições de mensagens](#edit-message-preset) e no [status de atualização](#update-statuses).
+
+1. Acesse a lista de predefinições de mensagens.
+
+1. Para obter a predefinição ativa de sua escolha, clique no botão **[!UICONTROL More actions]** botão.
+
+1. Selecione **[!UICONTROL Deactivate]**.
+
+   ![](../assets/preset-deactivate.png)
+
+>[!NOTE]
+>
+>As predefinições de mensagens desativadas não podem ser excluídas para evitar qualquer problema no jornada usando essas predefinições para enviar mensagens.
+
+Não é possível editar diretamente uma predefinição de mensagem desativada. No entanto, você pode duplicá-lo e editar a cópia para criar uma nova versão que será usada para criar novas mensagens. Também é possível ativá-la novamente e aguardar até que a atualização seja bem-sucedida na edição.
+
+![](../assets/preset-activate.png)
+
+<!--1. Access the message presets list.
+
+1. Deactivate the message preset that you want to edit.
+
+1. Duplicate the deactivated message preset. A copy with the **[!UICONTROL Draft]** status is automatically added to the list.
+
+    ![](../assets/preset-duplicated.png)
+
+1. Open the duplicated message preset, modify it according to your needs, then submit your changes. The message preset will go through the same validation cycle as during the [creation step](#create-message-preset).
+
+1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.-->
 
 ## Vídeo tutorial{#video-presets}
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
+source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1348'
 ht-degree: 4%
 
 ---
@@ -17,21 +17,21 @@ ht-degree: 4%
 
 Antes de criar uma oferta, verifique se você criou:
 
-* Uma **disposição** na qual a oferta será exibida. Consulte [Criar disposições](../offer-library/creating-placements.md)
-* Se quiser adicionar uma condição de qualificação: uma **regra de decisão** que definirá a condição sob a qual a oferta será apresentada. Consulte [Criar regras de decisão](../offer-library/creating-decision-rules.md).
-* Uma ou várias **tags** que você pode querer associar à oferta. Consulte [Criar tags](../offer-library/creating-tags.md).
+* A **placement** em que a oferta será exibida. Consulte [Criar disposições](../offer-library/creating-placements.md)
+* Se quiser adicionar uma condição de qualificação: a **regra de decisão** que definirá a condição sob a qual a oferta será apresentada. Consulte [Criar regras de decisão](../offer-library/creating-decision-rules.md).
+* Um ou vários **tags** que você pode querer associar à oferta. Consulte [Criar tags](../offer-library/creating-tags.md).
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-A lista de ofertas personalizadas pode ser acessada no menu **[!UICONTROL Offers]**.
+A lista de ofertas personalizadas pode ser acessada na variável **[!UICONTROL Offers]** menu.
 
 ![](../../assets/offers_list.png)
 
 ## Criar a oferta {#create-offer}
 
-Para criar uma **oferta**, siga estas etapas:
+Para criar um **oferta** siga estas etapas:
 
-1. Clique em **[!UICONTROL Create offer]** e selecione **[!UICONTROL Personalized offer]**.
+1. Clique em **[!UICONTROL Create offer]**, em seguida selecione **[!UICONTROL Personalized offer]**.
 
    ![](../../assets/create_offer.png)
 
@@ -41,7 +41,7 @@ Para criar uma **oferta**, siga estas etapas:
 
    >[!NOTE]
    >
-   >A seção **[!UICONTROL Offer attributes]** permite associar pares de valores chave à oferta para fins de relatório e análise.
+   >O **[!UICONTROL Offer attributes]** Essa seção permite associar pares de valores chave à oferta para fins de relatório e análise.
 
 ## Configurar as representações da oferta {#representations}
 
@@ -55,12 +55,12 @@ Para adicionar uma ou várias representações à sua oferta e configurá-las, s
 
    >[!NOTE]
    >
-   >Somente as disposições disponíveis para o canal selecionado são exibidas na lista suspensa **[!UICONTROL Placement]**.
+   >Somente as disposições disponíveis para o canal selecionado são exibidas na **[!UICONTROL Placement]** lista suspensa.
 
 
 1. Selecione uma disposição na lista.
 
-   Você também pode usar o botão ao lado da lista suspensa **[!UICONTROL Placement]** para navegar por todas as disposições.
+   Também é possível usar o botão próximo ao **[!UICONTROL Placement]** lista suspensa para navegar por todas as disposições.
 
    ![](../../assets/browse-button-placements.png)
 
@@ -68,15 +68,15 @@ Para adicionar uma ou várias representações à sua oferta e configurá-las, s
 
    ![](../../assets/browse-placements.png)
 
-1. Adicione conteúdo à sua representação. Saiba como em [esta seção](#content).
+1. Adicione conteúdo à sua representação. Saiba mais sobre como [esta seção](#content).
 
-1. Ao adicionar conteúdo, como uma imagem ou URL, você pode especificar um **[!UICONTROL Destination link]**: os usuários que clicarem na oferta serão direcionados para a página correspondente.
+1. Ao adicionar conteúdo, como uma imagem ou URL, é possível especificar um **[!UICONTROL Destination link]**: os usuários que clicarem na oferta serão direcionados para a página correspondente.
 
    ![](../../assets/offer-destination-link.png)
 
 1. Finalmente, selecione o idioma escolhido para ajudar a identificar e gerenciar o que será exibido aos usuários.
 
-1. Para adicionar outra representação, use o botão **[!UICONTROL Add representation]** e adicione quantas representações forem necessárias.
+1. Para adicionar outra representação, use o **[!UICONTROL Add representation]** e adicione quantas representações forem necessárias.
 
    ![](../../assets/offer-add-representation.png)
 
@@ -92,11 +92,11 @@ Para adicionar uma ou várias representações à sua oferta e configurá-las, s
 
 ### Adicionar imagens
 
-Se a disposição selecionada for do tipo imagem, você poderá adicionar conteúdo proveniente da biblioteca **Adobe Experience Cloud Asset**, um repositório centralizado de ativos fornecido por [!DNL Adobe Experience Manager Assets Essentials].
+Se a disposição selecionada for do tipo imagem, você poderá adicionar conteúdo proveniente da variável **Adobe Experience Cloud Asset** , um repositório centralizado dos ativos fornecidos por [!DNL Adobe Experience Manager Assets Essentials].
 
 >[!NOTE]
 >
-> Para trabalhar com [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}, você precisa implantar [!DNL Assets Essentials] em sua organização e garantir que os usuários façam parte dos **Usuários do Assets Essentials Consumer** ou/e **Usuários do Assets Essentials** perfis de produto. Saiba mais sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+> Para trabalhar com [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}, é necessário implantar [!DNL Assets Essentials] para sua organização e certifique-se de que os usuários façam parte da **Usuários do cliente do Assets Essentials** ou/e **Usuários do Assets Essentials** Perfis de produto. Saiba mais sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
 1. Escolha a opção **[!UICONTROL Asset library]**.
 
@@ -112,7 +112,7 @@ Se a disposição selecionada for do tipo imagem, você poderá adicionar conte�
 
 ### Adicionar URLs
 
-Para adicionar conteúdo de um local público externo, selecione **[!UICONTROL URL]** e insira o endereço de URL do conteúdo a ser adicionado.
+Para adicionar conteúdo de um local público externo, selecione **[!UICONTROL URL]**, em seguida, insira o endereço de URL do conteúdo a ser adicionado.
 
 ![](../../assets/offer-content-url.png)
 
@@ -120,15 +120,25 @@ Para adicionar conteúdo de um local público externo, selecione **[!UICONTROL U
 
 Você também pode inserir conteúdo do tipo texto ao selecionar uma disposição compatível.
 
-1. Selecione a opção **[!UICONTROL Custom]**.
+1. Selecione a opção **[!UICONTROL Custom]** e clique em **[!UICONTROL Add content]**.
+
+   ![](../../assets/offer-add-content.png)
 
    >[!NOTE]
    >
    >Essa opção não está disponível para disposições do tipo imagem.
 
-1. Digite o texto que será exibido na oferta na área dedicada.
+1. Digite o texto que será exibido na oferta.
 
-   ![](../../assets/offer-text-content2.png)
+   ![](../../assets/offer-text-content.png)
+
+   É possível personalizar o conteúdo usando o Editor de expressão. Saiba mais sobre [personalização](../../personalization/personalize.md#use-expression-editor).
+
+   ![](../../assets/offer-personalization.png)
+
+   >[!NOTE]
+   >
+   >Somente a variável **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** e **[!UICONTROL Helper functions]** As fontes estão disponíveis para o Gerenciamento de decisões.
 
 ## Adicionar regras e restrições de qualificação {#eligibility}
 
@@ -136,26 +146,26 @@ As regras e restrições de elegibilidade permitem definir as condições em que
 
 1. Configure o **[!UICONTROL Offer eligibility]**.
 
-   * Por padrão, a opção de regra de decisão **[!UICONTROL All visitors]** é selecionada, o que significa que qualquer perfil será qualificado para ser apresentado à oferta.
+   * Por padrão, a variável **[!UICONTROL All visitors]** a opção de regra de decisão é selecionada, o que significa que qualquer perfil será qualificado para ser apresentado à oferta.
 
-   * É possível limitar a apresentação da oferta aos membros de um ou vários segmentos do Adobe Experience Platform. Para fazer isso, ative a opção **[!UICONTROL Visitors who fall into one or multiple segments]** e adicione um ou vários segmentos do painel esquerdo e combine-os usando os operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]**.
+   * É possível limitar a apresentação da oferta aos membros de um ou vários segmentos do Adobe Experience Platform. Para fazer isso, ative o **[!UICONTROL Visitors who fall into one or multiple segments]** , em seguida, adicione um ou vários segmentos do painel esquerdo e combine-os usando a **[!UICONTROL And]** / **[!UICONTROL Or]** operadores lógicos.
 
       Para obter mais informações sobre como trabalhar com segmentos, consulte [esta página](../../segment/about-segments.md).
 
       ![](../../assets/offer-eligibility-segment.png)
 
-   * Se desejar associar uma regra de decisão específica à oferta, selecione **[!UICONTROL By defined decision rule]** e arraste a regra desejada do painel esquerdo para a área **[!UICONTROL Decision rule]**. Para obter mais informações sobre como criar uma regra de decisão, consulte [esta seção](../offer-library/creating-decision-rules.md).
+   * Se desejar associar uma regra de decisão específica à oferta, selecione **[!UICONTROL By defined decision rule]**, em seguida, arraste a regra desejada do painel esquerdo para o **[!UICONTROL Decision rule]** área. Para obter mais informações sobre como criar uma regra de decisão, consulte [esta seção](../offer-library/creating-decision-rules.md).
 
       ![](../../assets/offer_rule.png)
 
       >[!CAUTION]
       >
-      >No momento, as ofertas baseadas em eventos não são suportadas em [!DNL Journey Optimizer]. Se você criar uma regra de decisão baseada em um [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, não será possível aproveitá-la em uma oferta.
-   Saiba mais sobre como usar segmentos versus regras de decisão em [esta seção](../offer-activities/create-offer-activities.md#segments-vs-decision-rules).
+      >No momento, as ofertas baseadas em eventos não são compatíveis com o [!DNL Journey Optimizer]. Se você criar uma regra de decisão com base em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, você não poderá aproveitá-lo em uma oferta.
+   Saiba mais sobre como usar segmentos versus regras de decisão no [esta seção](../offer-activities/create-offer-activities.md#segments-vs-decision-rules).
 
-1. Defina o **[!UICONTROL Priority]** da oferta em comparação com outros se o usuário se qualificar para mais de uma oferta. Quanto maior for a prioridade de uma oferta, maior será a prioridade em relação a outras ofertas.
+1. Defina as **[!UICONTROL Priority]** da oferta em comparação a outras se o usuário se qualificar para mais de uma oferta. Quanto maior for a prioridade de uma oferta, maior será a prioridade em relação a outras ofertas.
 
-1. Especifique o **[!UICONTROL Capping]** da oferta, o que significa o número de vezes que a oferta será apresentada no total entre todos os usuários. Se a oferta tiver sido entregue a todos os usuários o número de vezes que você especificou neste campo, a entrega será interrompida.
+1. Especifique os **[!UICONTROL Capping]**, o que significa o número de vezes que a oferta será apresentada no total em todos os usuários. Se a oferta tiver sido entregue a todos os usuários o número de vezes que você especificou neste campo, a entrega será interrompida.
 
    >[!NOTE]
    >
@@ -185,7 +195,7 @@ Depois que as regras e restrições de qualificação tiverem sido definidas, um
 
    Também é possível salvar a oferta como rascunho, para editá-la e aprová-la posteriormente.
 
-A oferta é exibida na lista com o status **[!UICONTROL Approved]** ou **[!UICONTROL Draft]** , dependendo de você ter aprovado ou não na etapa anterior.
+A oferta é exibida na lista com a variável **[!UICONTROL Approved]** ou **[!UICONTROL Draft]** , dependendo de você ter aprovado ou não na etapa anterior.
 
 Agora ele está pronto para ser entregue aos usuários.
 
@@ -193,23 +203,23 @@ Agora ele está pronto para ser entregue aos usuários.
 
 ## Lista de ofertas {#offer-list}
 
-Na lista de ofertas, é possível selecionar a oferta para exibir suas propriedades. Você também pode editá-la, alterar seu status (**Rascunho**, **Aprovado**, **Arquivado**), duplicar a oferta ou excluí-la.
+Na lista de ofertas, é possível selecionar a oferta para exibir suas propriedades. Você também pode editá-la, alterar seu status (**Rascunho**, **Aprovado**, **Arquivado**), duplique a oferta ou exclua-a.
 
 ![](../../assets/offer_created.png)
 
-Selecione o botão **[!UICONTROL Edit]** para voltar ao modo de edição da oferta, onde você pode modificar os [detalhes](#create-offer), [representações](#representations) da oferta, bem como editar as [regras e restrições de elegibilidade](#eligibility).
+Selecione o **[!UICONTROL Edit]** botão para voltar para o modo de edição da oferta, onde você pode modificar o [detalhes](#create-offer), [representações](#representations), bem como editar o [regras e restrições de qualificação](#eligibility).
 
-Selecione uma oferta aprovada e clique em **[!UICONTROL Undo approve]** para definir o status da oferta novamente para **[!UICONTROL Draft]**.
+Selecione uma oferta aprovada e clique em **[!UICONTROL Undo approve]** para definir o status da oferta novamente como **[!UICONTROL Draft]**.
 
-Para definir novamente o status como **[!UICONTROL Approved]**, selecione o botão correspondente que é exibido agora.
+Para definir novamente o status como **[!UICONTROL Approved]**, selecione o botão correspondente que é exibido.
 
 ![](../../assets/offer_approve.png)
 
-O botão **[!UICONTROL More actions]** ativa as ações descritas abaixo.
+O **[!UICONTROL More actions]** ativa as ações descritas abaixo.
 
 ![](../../assets/offer_more-actions.png)
 
-* **[!UICONTROL Duplicate]**: cria uma oferta com as mesmas propriedades, representações, regras de elegibilidade e restrições. Por padrão, a nova oferta tem o status **[!UICONTROL Draft]** .
+* **[!UICONTROL Duplicate]**: cria uma oferta com as mesmas propriedades, representações, regras de elegibilidade e restrições. Por padrão, a nova oferta tem a variável **[!UICONTROL Draft]** status.
 * **[!UICONTROL Delete]**: remove a oferta da lista.
 
    >[!CAUTION]
@@ -218,7 +228,7 @@ O botão **[!UICONTROL More actions]** ativa as ações descritas abaixo.
    >
    >Se a oferta for usada em uma coleção ou decisão, ela não poderá ser excluída. Você deve remover a oferta de qualquer objeto primeiro.
 
-* **[!UICONTROL Archive]**: define o status da oferta como  **[!UICONTROL Archived]**. A oferta ainda está disponível na lista, mas não é possível definir seu status novamente como **[!UICONTROL Draft]** ou **[!UICONTROL Approved]**. Você só pode duplicá-la ou excluí-la.
+* **[!UICONTROL Archive]**: define o status da oferta como **[!UICONTROL Archived]**. A oferta ainda está disponível na lista, mas não é possível definir seu status novamente como **[!UICONTROL Draft]** ou **[!UICONTROL Approved]**. Você só pode duplicá-la ou excluí-la.
 
 Também é possível excluir ou alterar o status de várias ofertas ao mesmo tempo, marcando as caixas de seleção correspondentes.
 
@@ -232,7 +242,7 @@ Depois que uma oferta for criada, clique no nome na lista.
 
 ![](../../assets/offer_click-name.png)
 
-Isso permite acessar informações detalhadas dessa oferta. Selecione a guia **[!UICONTROL Change log]** para [monitorar todas as alterações](../get-started/user-interface.md#monitoring-changes) que foram feitas na oferta.
+Isso permite acessar informações detalhadas dessa oferta. Selecione o **[!UICONTROL Change log]** guia para [monitorar todas as alterações](../get-started/user-interface.md#monitoring-changes) que foram feitas à oferta.
 
 ![](../../assets/offer_information.png)
 
