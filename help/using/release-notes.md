@@ -2,9 +2,9 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cbd311f5fe648302ef589c32e9be1b0147e4d31c
+source-git-commit: 6cfd56d22cc18c044818dc73fc265ce5e882d36c
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '1996'
 ht-degree: 16%
 
 ---
@@ -98,7 +98,8 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 **Relatórios**
 
 * **Formato de dados na exibição Global** - Agora é possível alternar entre números e porcentagens na **Exibição global** do **Execução** guia . [Saiba mais](message-monitoring.md)
-* **Novas métricas** - Agora novas métricas e widgets estão disponíveis em **Ao vivo** e **Global** relatórios para medir o impacto das ofertas nos recipients. [Saiba mais](reports/journey-global-report.md)
+
+<!--* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)-->
 
 **Administração**
 
