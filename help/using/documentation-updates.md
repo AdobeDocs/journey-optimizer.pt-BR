@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 07382bdf4a9a7a75a5654cf81795c6c8e304360a
+source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 24%
+source-wordcount: '834'
+ht-degree: 23%
 
 ---
 
@@ -25,8 +25,7 @@ Esta página lista todas as atualizações de documentação do [!DNL Journey Op
 * Novas limitações adicionadas à **Guia do desenvolvedor da API de gerenciamento de decisões** em restrições de oferta não suportadas com o dispositivo móvel [!DNL Experience Edge] fluxos de trabalho. [Leia mais](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * Novo **Criar simulações** seção. [Leia mais](offers/offer-activities/simulation.md)
 * Atualizado **Adicionar escopos de decisão** seção. [Leia mais](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
-* Atualizado **Definir conteúdo para suas representações** seção. [Leia mais](offers/offer-library/creating-personalized-offers.md#content)
-* Adição de uma nova seção sobre como definir e personalizar o conteúdo para as representações das ofertas. [Leia mais](offers/offer-library/creating-personalized-offers.md#content)
+* Atualizado **Definir conteúdo para suas representações** , incluindo uma nova [subseção](offers/offer-library/creating-personalized-offers.md#custom-text) sobre como definir e personalizar texto personalizado. [Leia mais](offers/offer-library/creating-personalized-offers.md#content)
 
 ## Setembro de 2021
 
@@ -79,7 +78,7 @@ Esta página lista todas as atualizações de documentação do [!DNL Journey Op
 ## Julho de 2021
 
 * Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 21 de julho foi detalhada na documentação. [Leia mais](release-notes.md)
-* Adição de links diretos à documentação de serviços do Experience Platform em [!DNL Journey Optimizer] página inicial e índice
+* Adição de links diretos à documentação dos serviços do Experience Platform em [!DNL Journey Optimizer] página inicial e índice
 * Novas páginas de aterrissagem para serviços Experience Platform disponíveis em [!DNL Journey Optimizer]
 * Links adicionados a [!DNL Journey Optimizer] descrição do produto na página inicial
 * Vídeos tutoriais adicionados em várias páginas

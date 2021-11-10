@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 1e62715f35b50bba639657a1bef37aa61922c715
+source-git-commit: 3f83ef8074fd52ab611117282015f60e2e57b61d
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Você pode modificar um registro PTR para editar o subdomínio associado a um en
    >
    >Não é possível modificar o **[!UICONTROL IP]** e **[!UICONTROL PTR record]** campos.
 
-1. Clique em **[!UICONTROL SAve]** para confirmar as alterações.
+1. Clique em **[!UICONTROL Save]** para confirmar as alterações.
 
 Um **[!UICONTROL Updating]** ícone é exibido ao lado do nome do registro PTR na lista.
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 2e91fc884ea6e83a2590c5beca7840a6fc4c9b78
+source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1682'
 ht-degree: 1%
 
 ---
@@ -192,6 +192,10 @@ Para editar uma predefinição de mensagem, siga as etapas abaixo.
 
 Depois que as alterações forem enviadas, a predefinição de mensagem passará por um ciclo de validação semelhante ao vigente quando [criação de uma predefinição](#create-message-preset).
 
+>[!NOTE]
+>
+>Se você só editar a variável **[!UICONTROL Description]**, **[!UICONTROL Email type]** e/ou **[!UICONTROL Email retry parameters]** , a atualização é instantânea.
+
 Para predefinições de mensagens com a variável **[!UICONTROL Active]** , você pode verificar os detalhes da atualização. Para fazer isso:
 
 * Clique no botão **[!UICONTROL Recent update]** ícone que é exibido ao lado do nome da predefinição ativa.
@@ -214,13 +218,17 @@ Uma atualização de predefinição de mensagem pode ter os seguintes status:
 * **[!UICONTROL Success]**: A predefinição de mensagem atualizada foi verificada e pode ser selecionada para criar mensagens.
 * **[!UICONTROL Failed]**: Uma ou várias verificações falharam durante a verificação de atualização predefinida de mensagem.
 
-**Processamento**
+Cada status é detalhado abaixo.
 
-Várias verificações de deliverability serão executadas para verificar se a predefinição foi atualizada corretamente. O tempo de processamento está por vir **48h-72h** e pode **7 a 10 dias úteis**. Saiba mais sobre as verificações realizadas durante o ciclo de validação em [esta seção](#create-message-preset).
+### Processamento
+
+Várias verificações de deliverability serão executadas para verificar se a predefinição foi atualizada corretamente.
 
 >[!NOTE]
 >
->Não é possível modificar uma predefinição de mensagem enquanto a atualização estiver em andamento. Ainda é possível clicar no nome, mas todos os campos estão esmaecidos. As alterações não serão refletidas até que a atualização seja bem-sucedida.
+>Se você só editar a variável **[!UICONTROL Description]**, **[!UICONTROL Email type]** e/ou **[!UICONTROL Email retry parameters]** , a atualização é instantânea.
+
+O tempo de processamento está por vir **48h-72h** e pode **7 a 10 dias úteis**. Saiba mais sobre as verificações realizadas durante o ciclo de validação em [esta seção](#create-message-preset).
 
 Se você editar uma predefinição que já estava ativa:
 
@@ -230,7 +238,11 @@ Se você editar uma predefinição que já estava ativa:
 
 * Durante o processo de validação, as mensagens configuradas usando essa predefinição ainda usam a versão mais antiga da predefinição.
 
-**Sucesso**
+>[!NOTE]
+>
+>Não é possível modificar uma predefinição de mensagem enquanto a atualização estiver em andamento. Ainda é possível clicar no nome, mas todos os campos estão esmaecidos. As alterações não serão refletidas até que a atualização seja bem-sucedida.
+
+### Sucesso
 
 Depois que o processo de validação for bem-sucedido, a nova versão da predefinição será usada automaticamente em todas as mensagens usando essa predefinição. No entanto, pode ser necessário aguardar:
 * alguns minutos antes de ser consumido pelas mensagens unitárias,
@@ -238,16 +250,16 @@ Depois que o processo de validação for bem-sucedido, a nova versão da predefi
 
 <!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
 
-**Falha**
+### Falha
 
 Se o processo de validação falhar, a versão mais antiga da predefinição ainda será usada.
 
-Os possíveis tipos de erro de atualização são os seguintes:
-* **Erro de autorização**: o token portador é inválido ou não está autorizado.
-* **Modificação ilegal**: uma edição foi realizada em um ou mais campos não permitidos.
-* **Falha na pré-condição**: alguns campos só podem ter valores específicos e isso não foi cumprido.
+<!--The possible update error types are as follows:
+* **Authorization error**: the bearer token is invalid or not authorized.
+* **Illegal modification**: an edit was performed on one or more non-allowed fields.
+* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
-<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+Saiba mais sobre os possíveis motivos de falha em [esta seção](#monitor-message-presets).
 
 Quando a atualização falhar, a predefinição poderá ser editada novamente. Você pode clicar no nome e atualizar as configurações que precisam ser corrigidas.
 

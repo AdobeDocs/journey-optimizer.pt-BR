@@ -2,7 +2,7 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6cfd56d22cc18c044818dc73fc265ce5e882d36c
+source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
 source-wordcount: '1996'
 ht-degree: 16%
@@ -74,7 +74,7 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 <tr>
 <td>
 <p>Agora é possível personalizar o conteúdo de suas ofertas usando atributos e segmentos de perfil do Adobe Experience Platform, usando o mesmo componente do editor de expressão encontrado na interface do usuário do Journey Optimizer. </p>
-<p>Para obter mais informações, consulte a <a href="offers/offer-library/creating-personalized-offers.md#content">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="offers/offer-library/creating-personalized-offers.md#custom-text">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
