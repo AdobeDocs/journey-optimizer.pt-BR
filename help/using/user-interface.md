@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: 1eb7e547019446ea946f7475730b01368f6a15eb
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 66%
@@ -15,11 +15,11 @@ ht-degree: 66%
 
 # Interface do usuário {#cjm-user-interface}
 
-Depois de se conectar à [Adobe Experience Cloud](http://experience.adobe.com), navegue até o [!DNL Journey Optimizer].
+Conectar-se a [Adobe Experience Cloud](http://experience.adobe.com) e navegue até [!DNL Journey Optimizer].
 
 Os principais conceitos de navegação na interface do usuário são comuns à Adobe Experience Platform. Consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} para obter mais detalhes.
 
-Os componentes e recursos disponíveis na interface do usuário dependem das [permissões](administration/permissions.md) e do [pacote de licenciamento](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Se tiver dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe.
+Os componentes e recursos disponíveis na interface do usuário dependem do [permissões](administration/permissions.md) e no seu [pacote de licenciamento](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Se tiver dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe.
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Os casos de uso disponíveis são:
 
 * **Crie perfis de teste** usando nosso modelo CSV para testar mensagens e jornadas personalizadas. Saiba como implementar este caso de uso [nesta página](building-journeys/creating-test-profiles.md#use-case-1).
 * **Envie uma mensagem de aniversário aos clientes**, para enviar automaticamente um email parabenizando os clientes em seus aniversários. (em breve)
-* **Envie emails para novos clientes** integrados, para enviar facilmente até dois emails e receber seus clientes recém-registrados. (em breve)
+* **Enviar emails para novos clientes integrados**, para enviar facilmente até dois emails de boas-vindas aos clientes recém-registrados. (em breve)
 * **Envie mensagens de push a uma lista importada de clientes**, para enviar rapidamente uma notificação por push a uma lista de clientes importados de um arquivo CSV. (em breve)
 
 Clique em **[!UICONTROL View details]** para saber mais sobre cada caso de uso.
@@ -111,7 +111,7 @@ Você pode acessar casos de uso executados por meio do botão **[!UICONTROL View
 
 ## Acessibilidade{#accessibility}
 
-Os recursos de acessibilidade em [!DNL Adobe Journey Optimizer] são herdados do Adobe Experience Platform:
+Os recursos de acessibilidade em [!DNL Adobe Journey Optimizer] são herdadas do Adobe Experience Platform:
 
 * Acessibilidade do teclado
 * Contraste de cores
@@ -119,14 +119,14 @@ Os recursos de acessibilidade em [!DNL Adobe Journey Optimizer] são herdados do
 
 [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} na documentação do Adobe Experience Platform.
 
-Você pode usar esses atalhos de teclado comuns em [!DNL Journey Optimizer]:
+Você pode usar esses atalhos de teclado comuns no [!DNL Journey Optimizer]:
 
 | Ação | Atalho |
 | --- | --- |
 | Mover entre elementos da interface do usuário, seções e grupos de menu | Tabulação |
 | Recuar entre elementos da interface do usuário, seções e grupos de menu | Shift + Guia |
 | Mover dentro de seções para definir o foco de elementos individuais | Seta |
-| Selecionar ou limpar um elemento em foco | Inserir ou Barra de espaço |
+| Selecionar ou limpar um elemento em foco | Enter ou Barra de espaço |
 | Cancelar uma seleção, recolher um painel ou fechar uma caixa de diálogo | Esc |
 
 [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} na documentação do Adobe Experience Platform.
@@ -195,7 +195,7 @@ Painel de configuração desses elementos:
   <tr>
     <td>
 
-Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UICONTROL Single profile at a time]** esteja ativada
+Acione um evento em uma jornada baseada em segmento para a qual a variável **[!UICONTROL Single profile at a time]** está ativada
 
 </td>
     <td>P</td>
@@ -280,7 +280,7 @@ Comece a inserir conteúdo para exibir os principais resultados. Artigos de ajud
 
 ![](assets/unified-search.png)
 
-Pressione **Enter** para acessar todos os resultados e filtrar por objeto comercial.
+Press **Enter** para acessar todos os resultados e filtrar por objeto comercial.
 
 ![](assets/search-and-filter.png)
 
@@ -290,7 +290,7 @@ Na maioria das listas, uma barra de pesquisa permite procurar um item específic
 
 Filtros podem ser acessados com um clique no ícone de filtro na parte superior esquerda da lista. O menu de filtros permite filtrar os elementos exibidos de acordo com diferentes critérios. Você pode optar por exibir apenas os elementos de determinado tipo ou status, os que você criou ou os que foram modificados nos últimos 30 dias. As opções diferem dependendo do contexto.
 
-Na lista de jornadas, você pode filtrar jornadas de acordo com seu status, tipo e versão do **[!UICONTROL Status and version filters]**. O tipo pode ser: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** ou **[!UICONTROL Burst]**. Você pode optar por exibir somente jornadas que usam um evento, grupo de campos ou ação específica **[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**. O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou um usuário. Por exemplo, você pode optar por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. [Saiba mais](building-journeys/using-the-journey-designer.md).
+Na lista de jornadas, você pode filtrar jornadas de acordo com seu status, tipo e versão da variável **[!UICONTROL Status and version filters]**. O tipo pode ser: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** ou **[!UICONTROL Burst]**. Você pode optar por exibir somente jornadas que usam um evento, grupo de campos ou ação específica **[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**. O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou um usuário. Por exemplo, você pode optar por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. [Saiba mais](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
