@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6b18f009a3c907649fd1e0261ffc7cfcc5acaef4
+exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 10%
+source-wordcount: '300'
+ht-degree: 6%
 
 ---
 
@@ -24,13 +25,13 @@ O painel de configuração da atividade mostra os parâmetros de configuração 
 
 ### Caminho dinâmico
 
-Se o URL incluir um caminho dinâmico, especifique o caminho no campo **[!UICONTROL Path]**.
+Se o URL incluir um caminho dinâmico, especifique o caminho na variável **[!UICONTROL Path]** campo.
 
 >[!NOTE]
 >
 >Não é possível configurar a parte estática do URL na jornada, mas na configuração global da ação personalizada. [Saiba mais](../action/about-custom-action-configuration.md).
 
-Para concatenar campos e strings de texto sem formatação, use as funções String ou o sinal de Mais (+) no editor de expressão avançado. Insira sequências de texto sem formatação em aspas simples (&#39;) ou aspas duplas (&quot;). [Saiba mais](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=pt-BR){target=&quot;_blank&quot;}.
+Para concatenar campos e strings de texto sem formatação, use as funções String ou o sinal de Mais (+) no editor de expressão avançado. Insira sequências de texto sem formatação em aspas simples (&#39;) ou aspas duplas (&quot;). [Saiba mais](expression/expressionadvanced.md).
 
 Esta tabela mostra um exemplo de configuração:
 
@@ -41,18 +42,18 @@ Esta tabela mostra um exemplo de configuração:
 
 O URL concatenado tem este formulário:
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign ID=&quot;&quot;>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
 ![](../assets/journey-custom-action-url.png)
 
 ### Cabeçalhos
 
-A seção **[!UICONTROL URL Configuration]** mostra os campos de cabeçalho dinâmicos, mas não os campos de cabeçalho constantes. Os campos de cabeçalho dinâmicos são campos de cabeçalho HTTP cujo valor é configurado como uma variável. [Saiba mais](../action/about-custom-action-configuration.md).
+O **[!UICONTROL URL Configuration]** mostra os campos de cabeçalho dinâmicos, mas não os campos de cabeçalho constantes. Os campos de cabeçalho dinâmicos são campos de cabeçalho HTTP cujo valor é configurado como uma variável. [Saiba mais](../action/about-custom-action-configuration.md).
 
 Se necessário, especifique o valor dos campos de cabeçalho dinâmico:
 
 1. Selecione a ação personalizada na jornada.
-1. No painel de configuração, clique no ícone de lápis ao lado do campo de cabeçalho na seção **[!UICONTROL URL Configuration]**.
+1. No painel de configuração, clique no ícone de lápis ao lado do campo de cabeçalho no **[!UICONTROL URL Configuration]** seção.
 
    ![](../assets/journey-dynamicheaderfield.png)
 
@@ -60,7 +61,7 @@ Se necessário, especifique o valor dos campos de cabeçalho dinâmico:
 
 ## Parâmetros de ação
 
-Na seção **[!UICONTROL Action parameters]**, você verá os parâmetros de mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (exemplo: eventos, fontes de dados), passe os valores manualmente ou use o editor de expressão avançado para casos de uso avançado. Casos de uso avançados podem ser manipulação de dados e outro uso da função. Consulte a [documentação de Journey Orchestration de Adobe](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}.
+No **[!UICONTROL Action parameters]** , você verá os parâmetros da mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (exemplo: eventos, fontes de dados), passe os valores manualmente ou use o editor de expressão avançado para casos de uso avançado. Casos de uso avançados podem ser manipulação de dados e outro uso da função. Consulte [Documentação do Journey Orchestration Adobe](expression/expressionadvanced.md).
 
 **Tópicos relacionados**
 

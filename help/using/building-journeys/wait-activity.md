@@ -1,20 +1,21 @@
 ---
 title: Atividade de espera
 description: Saiba mais sobre a atividade de espera
-feature: Jornadas
-topic: Gerenciamento de conteúdo
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 7%
+source-wordcount: '388'
+ht-degree: 5%
 
 ---
 
 # Atividade de espera{#section_rlm_nft_dgb}
 
-Se desejar esperar antes de executar a próxima atividade no caminho, você pode usar uma atividade **[!UICONTROL Wait]** . Ela permite definir o momento em que a próxima atividade será executada. Três opções estão disponíveis:
+Se quiser esperar antes de executar a próxima atividade no caminho, use um **[!UICONTROL Wait]** atividade . Ela permite definir o momento em que a próxima atividade será executada. Três opções estão disponíveis:
 
 * [Duração](#duration)
 * [Data fixa](#fixed_date)
@@ -34,7 +35,7 @@ Você pode definir uma condição se quiser restringir a espera para uma determi
 >
 >A duração máxima da espera é de 30 dias.
 >
->No modo de teste, o parâmetro **[!UICONTROL Wait time in test]** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que os resultados do teste sejam obtidos rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
+>No modo de teste, a variável **[!UICONTROL Wait time in test]** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que os resultados do teste sejam obtidos rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
 ## Duração da espera{#duration}
 
@@ -50,11 +51,11 @@ Selecione a data para a execução da próxima atividade.
 
 ## Aguardar personalizado{#custom}
 
-Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de 2020 às 17h, usando uma expressão avançada com base em um campo proveniente de um evento ou uma fonte de dados. Ela não permite definir uma duração personalizada, por exemplo, 7 dias. A expressão no editor de expressão deve fornecer um formato dateTimeOnly . Consulte a [documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=pt-BR){target=&quot;_blank&quot;}. Para obter mais informações sobre o formato dateTimeOnly, consulte [documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html){target=&quot;_blank&quot;}.
+Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de 2020 às 17h, usando uma expressão avançada com base em um campo proveniente de um evento ou uma fonte de dados. Ela não permite definir uma duração personalizada, por exemplo, 7 dias. A expressão no editor de expressão deve fornecer um formato dateTimeOnly . Consulte [Documentação do Journey Orchestration](expression/expressionadvanced.md). Para obter mais informações sobre o formato dateTimeOnly , consulte [Documentação do Journey Orchestration](expression/data-types.md).
 
 >[!NOTE]
 >
->Você pode utilizar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), o campo no evento é do formulário 2016-08-12T09:46:06Z.
+>Você pode utilizar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), sendo o campo do evento o formulário 2016-08-12T09:46:06Z.
 >
 >O **fuso horário** é esperado nas propriedades da sua jornada. Como resultado, hoje não é possível da interface apontar diretamente para um carimbo de data e hora ISO-8601 completo, tempo de combinação e deslocamento de fuso horário como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
 

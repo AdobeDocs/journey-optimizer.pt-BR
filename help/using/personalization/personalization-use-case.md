@@ -1,45 +1,45 @@
 ---
-title: '&Carimbo de uso de personalização; dois pontos; notificação de status do pedido'
+title: Caso de uso de personalização &dois pontos; notificação de status do pedido
 description: Saiba como personalizar uma mensagem com informações de perfil, decisão de oferta e contexto
-feature: Personalização
-topic: Personalização
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '611'
 ht-degree: 2%
 
 ---
-
 
 # Caso de uso de personalização: notificação de status do pedido {#personalization-use-case}
 
 Nesse caso de uso, você verá como usar vários tipos de personalização em uma única mensagem de notificação por push. Serão usados três tipos de personalização:
 
 * **Perfil**: personalização de mensagem com base em um campo de perfil
-* **Decisão** da oferta: personalização com base em variáveis de offer decisioning
+* **Decisão da oferta**: personalização com base em variáveis de offer decisioning
 * **Contexto**: personalização com base em dados contextuais da jornada
 
-O objetivo deste exemplo é enviar um evento para [!DNL Journey Optimizer] sempre que um pedido de cliente for atualizado. Em seguida, uma notificação por push é enviada ao cliente com informações sobre o pedido e uma oferta personalizada.
+O objetivo deste exemplo é impulsionar um evento para [!DNL Journey Optimizer] sempre que um pedido de cliente é atualizado. Em seguida, uma notificação por push é enviada ao cliente com informações sobre o pedido e uma oferta personalizada.
 
 Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
 * crie e crie uma mensagem de notificação por push, sem publicá-la. Consulte esta [seção](../create-message.md).
 * configure um evento de pedido incluindo o número do pedido, o status e o nome do item. Consulte esta [seção](../event/about-events.md).
-* crie uma decisão (anteriormente conhecida como &quot;atividade de oferta&quot;), consulte esta [seção](../offers/offer-activities/create-offer-activities.md).
+* criar uma decisão (anteriormente conhecida como &quot;atividade de oferta&quot;), consulte esta seção [seção](../offers/offer-activities/create-offer-activities.md).
 
 ## Etapa 1 - Adicionar personalização ao perfil
 
-1. Clique no menu **[!UICONTROL Message]** e selecione a mensagem.
+1. Clique no botão **[!UICONTROL Message]** e selecione a mensagem.
 
    ![](assets/perso-uc.png)
 
-1. Clique no campo **Title**.
+1. Clique no botão **Título** campo.
 
    ![](assets/perso-uc2.png)
 
-1. Digite o assunto e adicione a personalização do perfil. Use a barra de pesquisa para localizar o campo de nome do perfil. No texto do assunto, coloque o cursor onde deseja inserir o campo de personalização e clique no ícone **+**. Clique em **Salvar**.
+1. Digite o assunto e adicione a personalização do perfil. Use a barra de pesquisa para localizar o campo de nome do perfil. No texto do assunto, coloque o cursor onde deseja inserir o campo de personalização e clique no link **+** ícone . Clique em **Salvar**.
 
    ![](assets/perso-uc3.png)
 
@@ -49,15 +49,15 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
 ## Etapa 2 - Criar a jornada
 
-1. Clique no menu **[!UICONTROL Journeys]** e crie uma nova jornada.
+1. Clique no botão **[!UICONTROL Journeys]** e crie uma nova jornada.
 
    ![](assets/perso-uc4.png)
 
-1. Adicione o evento de entrada, uma atividade **Message** e uma atividade **End**.
+1. Adicione seu evento de entrada, um **Mensagem** e um **End** atividade .
 
    ![](assets/perso-uc5.png)
 
-1. Na atividade **Message**, selecione a mensagem criada anteriormente. Clique em **Ok**.
+1. No **Mensagem** selecione a mensagem criada anteriormente. Clique em **Ok**.
 
    ![](assets/perso-uc6.png)
 
@@ -71,34 +71,34 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
 ## Etapa 3 - Adicionar personalização aos dados contextuais
 
-1. Na atividade **Message**, clique no ícone **Open the message**. A mensagem é aberta em uma nova guia.
+1. No **Mensagem** , clique no botão **Abrir a mensagem** ícone . A mensagem é aberta em uma nova guia.
 
    ![](assets/perso-uc8.png)
 
-1. Clique no campo **Title**.
+1. Clique no botão **Título** campo.
 
    ![](assets/perso-uc9.png)
 
-1. Selecione a categoria **Contexto**. Esse item só estará disponível se uma jornada tiver passado dados contextuais para a mensagem. Clique em **Journey Orchestration**. As seguintes informações contextuais são exibidas:
+1. Selecione o **Contexto** categoria . Esse item só estará disponível se uma jornada tiver passado dados contextuais para a mensagem. Clique em **Journey Orchestration**. As seguintes informações contextuais são exibidas:
 
-   * **Eventos**: esta categoria agrupa todos os campos do(s) evento(s) colocado(s) antes da atividade  **** Mensagem na jornada.
-   * **Propriedades** da Jornada: os campos técnicos relacionados à jornada de um determinado perfil, por exemplo, a ID da jornada ou os erros específicos encontrados. Saiba mais em [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys){target=&quot;_blank&quot;}.
+   * **Eventos**: esta categoria agrupa todos os campos do(s) evento(s) colocado(s) antes da variável **Mensagem** na jornada.
+   * **Propriedades da Jornada**: os campos técnicos relacionados à jornada de um determinado perfil, por exemplo, a ID da jornada ou os erros específicos encontrados. Saiba mais em [Documentação do Journey Orchestration](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
 
-1. Expanda o item **Events** e procure o campo do número do pedido relacionado ao seu evento. Também é possível usar a caixa de pesquisa. Clique no ícone **+** para inserir o campo de personalização no texto do assunto. Clique em **Salvar**.
+1. Expanda o **Eventos** e procure o campo número do pedido relacionado ao seu evento. Também é possível usar a caixa de pesquisa. Clique no botão **+** ícone para inserir o campo de personalização no texto do assunto. Clique em **Salvar**.
 
    ![](assets/perso-uc11.png)
 
-1. Em seguida, clique no campo **Body**.
+1. Em seguida, clique no botão **Corpo** campo.
 
    ![](assets/perso-uc12.png)
 
-1. Digite a mensagem e insira, na categoria **Contexto**, o nome do item da ordem e o andamento da ordem.
+1. Digite a mensagem e insira, no **Contexto** categoria, o nome do item da ordem e o andamento da ordem.
 
    ![](assets/perso-uc13.png)
 
-1. Na lista suspensa , selecione **Offer decision** para inserir uma variável de offer decisioning. Selecione a disposição e clique no ícone **+** ao lado da decisão (anteriormente conhecida como &#39;atividade de oferta&#39;) para adicioná-la ao corpo.
+1. No menu suspenso , selecione **Decisão da oferta** para inserir uma variável de offer decisioning. Selecione a disposição e clique no botão **+** ícone ao lado da decisão (anteriormente conhecida como &quot;atividade de oferta&quot;) para adicioná-la ao corpo.
 
    ![](assets/perso-uc14.png)
 
@@ -112,7 +112,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
 ## Etapa 4 - Testar e publicar a jornada
 
-1. Abra a jornada novamente. Se a jornada já estiver aberta, atualize a página. Agora que a mensagem foi publicada, você pode ver que não há erro na jornada. Clique no botão **Testar** e, em seguida, clique em **Acionar um evento**.
+1. Abra a jornada novamente. Se a jornada já estiver aberta, atualize a página. Agora que a mensagem foi publicada, você pode ver que não há erro na jornada. Clique no botão **Teste** e, em seguida, clique em **Acionar um evento**.
 
    ![](assets/perso-uc17.png)
 
@@ -125,4 +125,3 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
    ![](assets/perso-uc19.png)
 
 1. Verifique se não há erro e publique a jornada.
-

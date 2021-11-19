@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 59ee283f50850e160e7a6506c1f0deab1976f20c
+exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
+source-git-commit: 662158884291d90b6092c0aa70f41f27535f3637
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 4%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +33,7 @@ Para configurar essa jornada, siga estas etapas:
 
       Para poder modificar o endereço de email, você deve ter publicado a mensagem anteriormente.
 
-   1. No editor de expressão, insira a expressão para recuperar os endereços de email dos assinantes. [Leia mais](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=pt-BR){target=&quot;_blank&quot;}.
+   1. No editor de expressão, insira a expressão para recuperar os endereços de email dos assinantes. [Leia mais](expression/expressionadvanced.md).
 
       Este exemplo mostra uma expressão que inclui referências para campos de mapa:
 
@@ -49,7 +50,7 @@ Para configurar essa jornada, siga estas etapas:
 
       Neste exemplo, a lista de assinaturas é nomeada `daily-email`. Os endereços de email são definidos como chaves na variável `subscribers` , que é vinculado ao mapa de lista de assinaturas.
 
-      Leia mais sobre [referências a campos](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/field-references.html) em expressões.
+      Leia mais sobre [referências a campos](expression/field-references.md) em expressões.
 
       ![](../assets/message-to-subscribers-uc-2.png)
 
@@ -58,7 +59,3 @@ Para configurar essa jornada, siga estas etapas:
    ![](../assets/message-to-subscribers-uc-3.png)
 
 1. Encerre a jornada com uma **[!UICONTROL End]** atividade .
-
-
-
-
