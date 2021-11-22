@@ -1,20 +1,21 @@
 ---
 title: excluir disposições
 description: As disposições são contêineres usados para mostrar suas ofertas.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '143'
 ht-degree: 6%
 
 ---
 
 # Excluir uma inserção
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma disposição. Somente as disposições criadas no contêiner do locatário podem ser excluídas. Isso é feito executando-se uma solicitação DELETE para a API [!DNL Offer Library] usando a ID da instância da disposição que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma disposição. Somente as disposições criadas no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando a ID da instância da disposição que você deseja excluir.
 
 **Formato da API**
 

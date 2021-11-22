@@ -2,7 +2,8 @@
 title: Introdução da Journey Optimizer para engenheiros de dados
 description: Como engenheiro de dados, saiba mais sobre como trabalhar com a Journey Optimizer
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 9%
@@ -41,6 +42,6 @@ Além disso, para poder enviar mensagens no jornada, você deve configurar **[!U
 
 * O **Fonte de dados** A configuração do permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas. Saiba mais sobre Fontes de dados [nesta seção](../datasource/about-data-sources.md).
 
-* **Eventos** permitem acionar as jornadas de forma unitária para enviar mensagens, em tempo real, ao indivíduo que flui para a jornada. Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são normalizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de assimilação de streaming para eventos autenticados e não autenticados (como eventos do Adobe Mobile SDK). Saiba mais sobre eventos [nesta seção](../event/about-events.md).
+* **Eventos** permite acionar as jornadas de forma unitária para enviar mensagens, em tempo real, ao indivíduo que flui para a jornada. Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são normalizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de assimilação de streaming para eventos autenticados e não autenticados (como eventos do Adobe Mobile SDK). Saiba mais sobre eventos [nesta seção](../event/about-events.md).
 
 * [!DNL Journey Optimizer] O vem com recursos de mensagem incorporados: você pode criar o conteúdo e publicar a mensagem. Se você estiver usando um sistema de terceiros para enviar mensagens, por exemplo, Adobe Campaign, crie um **ação personalizada**. Saiba mais sobre ações neste [nesta seção](../action/action.md).

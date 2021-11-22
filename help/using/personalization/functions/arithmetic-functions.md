@@ -1,13 +1,14 @@
 ---
 title: Biblioteca de funções aritméticas
 description: Biblioteca de funções aritméticas
-feature: Personalização
-topic: Personalização
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 7%
 
 ---
@@ -18,7 +19,7 @@ As funções aritméticas são usadas para executar cálculos básicos em valore
 
 ## Add{#add}
 
-A função `+` (adição) é usada para encontrar a soma de duas expressões de argumento.
+O `+` (adição) é usada para encontrar a soma de duas expressões de argumento.
 
 **Formato**
 
@@ -36,7 +37,7 @@ A operação seguinte soma o preço de dois produtos diferentes.
 
 ## Multiplicar{#multiply}
 
-A função `*` (multiplicação) é usada para encontrar o produto de duas expressões de argumento.
+O `*` (multiplicação) é usada para encontrar o produto de duas expressões de argumento.
 
 **Formato**
 
@@ -54,7 +55,7 @@ A operação seguinte indica o produto do inventário e o preço de um produto p
 
 ## Subtrair{#substract}
 
-A função `-` (subtração) é usada para encontrar a diferença de duas expressões de argumento.
+O `-` (subtração) é usada para encontrar a diferença de duas expressões de argumento.
 
 **Formato**
 
@@ -72,7 +73,7 @@ A operação seguinte indica a diferença de preço entre dois produtos diferent
 
 ## Dividir{#divide}
 
-A função `/` (divisão) é usada para encontrar o quociente de duas expressões de argumento.
+O `/` (divisão) é usada para encontrar o quociente de duas expressões de argumento.
 
 **Formato**
 
@@ -90,7 +91,7 @@ A operação a seguir encontra o quociente entre o total de produtos vendidos e 
 
 ## Remanescente{#remainder}
 
-A função `%` (modulo/rest) é usada para localizar o restante após dividir as duas expressões de argumento.
+O `%` (modulo/rest) é usada para encontrar o restante após dividir as duas expressões de argumento.
 
 **Formato**
 

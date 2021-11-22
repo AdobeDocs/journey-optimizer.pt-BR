@@ -3,17 +3,17 @@ title: Delegar subdomínios
 description: Saiba como delegar subdomínios
 internal: n
 snippet: y
-feature: Configurações do aplicativo
-topic: Administração
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '385'
 ht-degree: 27%
 
 ---
-
 
 # Delegação de subdomínio em [!DNL Journey Optimizer]
 
@@ -35,5 +35,5 @@ Embora esses requisitos estejam sendo gerenciados por meio de componentes hosped
 **Saiba mais**
 
 * Saiba como [delegar seus subdomínios](delegate-subdomain.md) diretamente da interface
-* Saiba como [adicionar registros TXT do Google](google-txt.md) a seus subdomínios para garantir o delivery bem-sucedido de emails para endereços Gmail
-* Saiba como [acessar os registros PTR](ptr-records.md) gerados para seus subdomínios, permitindo que eles sejam verificados pelo envio de servidores de email
+* Saiba como [adicionar registros TXT do Google](google-txt.md) para seus subdomínios para garantir o delivery bem-sucedido de emails para endereços Gmail
+* Saiba como [acessar os registros PTR](ptr-records.md) gerado para seus subdomínios, permitindo que sejam verificados pelo envio de servidores de email

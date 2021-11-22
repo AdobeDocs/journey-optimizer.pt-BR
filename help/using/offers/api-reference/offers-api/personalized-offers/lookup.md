@@ -1,13 +1,14 @@
 ---
 title: Listar ofertas personalizadas
 description: Uma oferta personalizada é uma mensagem de marketing personalizável com base em regras e restrições de elegibilidade.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '174'
 ht-degree: 5%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 5%
 
 Uma oferta personalizada é uma mensagem de marketing personalizável com base em regras e restrições de elegibilidade.
 
-Você pode pesquisar ofertas personalizadas específicas fazendo uma solicitação GET para a API [!DNL Offer Library] que inclui a oferta personalizada `@id` ou o nome da oferta personalizada no caminho da solicitação.
+Você pode pesquisar ofertas personalizadas específicas fazendo uma solicitação do GET para a variável [!DNL Offer Library] API que inclui a oferta personalizada `@id` ou o nome da oferta personalizada no caminho da solicitação.
 
 **Formato da API**
 
@@ -29,7 +30,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 | `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | O container onde as ofertas personalizadas estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | Define o schema associado às ofertas personalizadas. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | Uma string usada para corresponder à propriedade `@id` das entidades. A sequência de caracteres corresponde exatamente. O parâmetro &quot;id&quot; e &quot;name&quot; não podem ser usados juntos. | `xcore:personalized-offer:124cc332095cfa74` |
+| `id` | Uma string usada para corresponder a `@id` propriedade das entidades. A sequência de caracteres corresponde exatamente. O parâmetro &quot;id&quot; e &quot;name&quot; não podem ser usados juntos. | `xcore:personalized-offer:124cc332095cfa74` |
 | `name` | Uma string usada para corresponder à propriedade xdm:name das entidades. A string é correspondida exatamente com maiúsculas, mas caracteres curingas podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Discount offer` |
 
 **Solicitação**

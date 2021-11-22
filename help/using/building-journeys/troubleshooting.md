@@ -47,7 +47,7 @@ O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes u
 
 Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
 
-Eventos não são levados diretamente da origem ao jornada. Na verdade, as jornadas dependem das APIs de assimilação de streaming da Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;} para obter a solução de problemas de APIs de assimilação de streaming.
+Eventos não são levados diretamente da origem ao jornada. Na verdade, as jornadas dependem das APIs de assimilação de streaming da Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, é possível consultar [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;} para solução de problemas de APIs de assimilação de streaming.
 
 ## Verificação da entrada de pessoas na jornada{#section_x4v_zzs_dgb}
 

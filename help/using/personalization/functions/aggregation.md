@@ -1,14 +1,15 @@
 ---
 title: Biblioteca de funções de agregação
 description: Biblioteca de funções de agregação
-feature: Personalização
-topic: Personalização
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 10%
+source-wordcount: '157'
+ht-degree: 9%
 
 ---
 
@@ -18,7 +19,7 @@ As funções de agregação são usadas para agrupar vários valores para formar
 
 ## Contagem{#count}
 
-A função `count` retorna o número de elementos dentro da matriz fornecida.
+O `count` retorna o número de elementos dentro de uma matriz específica.
 
 **Formato**
 
@@ -36,7 +37,7 @@ A operação a seguir retorna o número de pedidos na matriz.
 
 ## Sum{#sum}
 
-A função `sum` retorna a soma de todos os valores selecionados dentro da matriz.
+O `sum` retorna a soma de todos os valores selecionados na matriz.
 
 **Formato**
 
@@ -54,7 +55,7 @@ A operação a seguir retorna a soma de todos os preços das ordens.
 
 ## Média{#average}
 
-A função `average` retorna a média aritmética de todos os valores selecionados dentro da matriz.
+O `average` retorna a média aritmética de todos os valores selecionados na matriz.
 
 **Formato**
 
@@ -72,7 +73,7 @@ A operação a seguir retorna o preço médio de todas as ordens.
 
 ## Mínimo{#min}
 
-A função `min` retorna o menor de todos os valores selecionados na matriz.
+O `min` retorna o menor de todos os valores selecionados na matriz.
 
 **Formato**
 
@@ -90,7 +91,7 @@ A operação a seguir retorna o preço mais baixo de todas as ordens.
 
 ## Máximo{#max}
 
-A função `max` retorna o maior de todos os valores selecionados dentro da matriz.
+O `max` retorna o maior de todos os valores selecionados na matriz.
 
 **Formato**
 

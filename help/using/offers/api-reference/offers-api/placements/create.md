@@ -1,24 +1,25 @@
 ---
 title: Criar uma inserção
 description: As disposições são contêineres usados para mostrar suas ofertas.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 12%
 
 ---
 
 # Criar uma inserção
 
-Você pode criar uma disposição fazendo uma solicitação POST para a API [!DNL Offer Library], fornecendo a ID do contêiner.
+Você pode criar uma disposição fazendo uma solicitação de POST para o [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
 
 ## Aceitar e digitar cabeçalhos de tipo de conteúdo
 
-A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -57,7 +58,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes da disposição recém-criada, incluindo a ID de instância exclusiva e a disposição `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua disposição. Você pode usar sua disposição exclusiva `@id` em tutoriais posteriores para criar decisões, regras de decisão e ofertas de fallback.
+Uma resposta bem-sucedida retorna os detalhes da disposição recém-criada, incluindo a ID da instância e a disposição exclusivas `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua disposição. Você pode usar sua disposição exclusiva `@id` em tutoriais posteriores para criar decisões, regras de decisão e ofertas de fallback.
 
 ```json
 {

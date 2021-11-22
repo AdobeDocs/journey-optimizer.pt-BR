@@ -1,14 +1,15 @@
 ---
 title: Sobre as atividades de jornada
 description: Saiba mais sobre as atividades do jornada
-feature: Jornadas
-topic: Gerenciamento de conteúdo
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 30%
+source-wordcount: '262'
+ht-degree: 29%
 
 ---
 
@@ -18,7 +19,7 @@ Combine diferentes atividades de evento, orquestração e ação para criar cen�
 
 ## Atividades de eventos {#event-activities}
 
-Os eventos configurados pelo usuário técnico (consulte [this page](../event/about-events.md)) são exibidos na primeira categoria da paleta, no lado esquerdo da tela. As seguintes atividades de eventos estão disponíveis:
+Os eventos configurados pelo usuário técnico (consulte [esta página](../event/about-events.md)) são exibidas na primeira categoria da paleta, no lado esquerdo da tela. As seguintes atividades de eventos estão disponíveis:
 
 * [Eventos gerais](../building-journeys/general-events.md)
 * [Reação](../building-journeys/reaction-events.md)
@@ -43,7 +44,7 @@ Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração e
 
 ## Atividades de ação {#action-activities}
 
-Na paleta, no lado esquerdo da tela, abaixo de **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, você encontrará a categoria **[!UICONTROL Actions]**. As seguintes atividades de ação estão disponíveis:
+Na paleta, no lado esquerdo da tela, abaixo **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, você encontrará o **[!UICONTROL Actions]** categoria . As seguintes atividades de ação estão disponíveis:
 
 * [Mensagem](../building-journeys/journeys-message.md)
 * [Ações personalizadas](../building-journeys/using-custom-actions.md)
@@ -57,7 +58,7 @@ Se você configurou ações personalizadas, elas serão exibidas aqui (consulte 
 
 ## Práticas recomendadas {#best-practices}
 
-A maioria das atividades permite definir um **[!UICONTROL Label]**. Isso adiciona um sufixo ao nome que aparecerá sob sua atividade na tela. Isso é útil se você usar a mesma atividade várias vezes na jornada e quiser identificá-las mais facilmente. Também facilitará a depuração em caso de erros e facilitará a leitura dos relatórios. Você também pode adicionar um **[!UICONTROL Description]** opcional.
+A maioria das atividades permite definir um **[!UICONTROL Label]**. Isso adiciona um sufixo ao nome que aparecerá sob sua atividade na tela. Isso é útil se você usar a mesma atividade várias vezes na jornada e quiser identificá-las mais facilmente. Também facilitará a depuração em caso de erros e facilitará a leitura dos relatórios. Você também pode adicionar uma **[!UICONTROL Description]**.
 
 ![](../assets/journey59bis.png)
 

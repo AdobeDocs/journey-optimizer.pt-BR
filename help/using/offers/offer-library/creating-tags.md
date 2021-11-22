@@ -1,14 +1,15 @@
 ---
 title: Criar tags
 description: Saiba como criar ofertas no Adobe Experience Platform.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 7%
+source-wordcount: '162'
+ht-degree: 6%
 
 ---
 
@@ -20,13 +21,13 @@ Tags também podem ser usadas para agrupar ofertas em coleções de ofertas. Con
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-A lista de tags criadas pode ser acessada no menu **[!UICONTROL Components]**.
+A lista de tags criadas pode ser acessada na **[!UICONTROL Components]** menu.
 
 ![](../../assets/tags_list.png)
 
 Para criar uma tag, siga estas etapas:
 
-1. Vá para a guia **[!UICONTROL Tags]** e clique em **[!UICONTROL Create tag]**.
+1. Vá para o **[!UICONTROL Tags]** e, em seguida, clique em **[!UICONTROL Create tag]**.
 
 1. Especifique o nome da tag e clique em **[!UICONTROL Save]**.
 

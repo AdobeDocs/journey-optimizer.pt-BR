@@ -1,20 +1,21 @@
 ---
 title: Excluir ofertas personalizadas
 description: Uma oferta personalizada é uma mensagem de marketing personalizável com base em regras e restrições de elegibilidade.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 7%
 
 ---
 
 # Excluir uma oferta personalizada
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma oferta personalizada. Somente ofertas personalizadas criadas no contêiner de locatários podem ser excluídas. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando o $id da oferta personalizada que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma oferta personalizada. Somente ofertas personalizadas criadas no contêiner de locatários podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando o $id da oferta personalizada que você deseja excluir.
 
 **Formato da API**
 

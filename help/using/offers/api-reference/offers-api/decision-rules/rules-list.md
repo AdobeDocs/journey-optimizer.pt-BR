@@ -1,20 +1,21 @@
 ---
 title: Listar de regras de decisão
 description: As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a qualificação.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '268'
 ht-degree: 5%
 
 ---
 
 # Listar de regras de decisão
 
-As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a qualificação. É possível exibir uma lista das regras de decisão existentes em um contêiner ao executar uma única solicitação de GET para a API [!DNL Offer Library].
+As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a qualificação. Você pode exibir uma lista das regras de decisão existentes em um contêiner executando uma única solicitação de GET para a [!DNL Offer Library] API.
 
 **Formato da API**
 
@@ -39,7 +40,7 @@ Os parâmetros de consulta mais comuns para paginação incluem:
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `q` | Uma string de consulta opcional a ser procurada nos campos selecionados. A sequência de consulta deve estar em letras minúsculas e pode ser cercada por aspas duplas para evitar que seja tocada e para evitar caracteres especiais. Os caracteres `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm um significado especial e devem ser evitados com uma barra invertida ao aparecerem na string de consulta. | `default` |
+| `q` | Uma string de consulta opcional a ser procurada nos campos selecionados. A sequência de consulta deve estar em letras minúsculas e pode ser cercada por aspas duplas para evitar que seja tocada e para evitar caracteres especiais. Os caracteres `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm um significado especial e devem ser evitadas com uma barra invertida ao aparecerem na string de consulta. | `default` |
 | `qop` | Aplica operador AND ou OR a valores em q parâmetro da string de consulta. | `AND` / `OR` |
 | `field` | Lista opcional de campos para os quais limitar a pesquisa. Esse parâmetro pode ser repetido da seguinte maneira: field=field1[,field=field2,...] e (expressões de caminho estão na forma de caminhos separados por pontos, como _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Classifique os resultados por uma propriedade específica. Adicionar um `-` antes do título (`orderby=-title`) classificará os itens por título em ordem decrescente (Z-A). | `-repo:createdDate` |

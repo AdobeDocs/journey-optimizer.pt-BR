@@ -1,13 +1,14 @@
 ---
 title: Biblioteca de funções da string
 description: Biblioteca de funções da string
-feature: Personalização
-topic: Personalização
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1199'
 ht-degree: 7%
 
 ---
@@ -18,7 +19,7 @@ Saiba como usar funções de String no Editor de expressão.
 
 ## Camel Case {#camelCase}
 
-A função `camelCase` maiúscula a primeira letra de cada palavra de uma string.
+O `camelCase` maiúscula a primeira letra de cada palavra de uma string.
 
 **Formato**
 
@@ -36,7 +37,7 @@ A função a seguir capitalizará a primeira letra de palavra no endereço de ru
 
 ## Concat {#concate}
 
-A função `concat` combina duas cadeias de caracteres em uma.
+O `concat` combina duas strings em uma.
 
 **Formato**
 
@@ -54,7 +55,7 @@ A função a seguir combinará a cidade e o país do perfil em uma única string
 
 ## Contains {#contains}
 
-A função `contains` é usada para determinar se uma string contém uma substring especificada.
+O `contains` é usada para determinar se uma string contém uma substring especificada.
 
 **Formato**
 
@@ -84,7 +85,7 @@ A função `contains` é usada para determinar se uma string contém uma substri
 
 ## Não contém{#doesNotContain}
 
-A função `doesNotContain` é usada para determinar se uma string não contém uma substring especificada.
+O `doesNotContain` é usada para determinar se uma string não contém uma substring especificada.
 
 **Formato**
 
@@ -109,7 +110,7 @@ A consulta a seguir determina, com diferenciação entre maiúsculas e minúscul
 
 ## Não termina com{#doesNotEndWith}
 
-A função `doesNotEndWith` é usada para determinar se uma string não termina com uma substring especificada.
+O `doesNotEndWith` é usada para determinar se uma string não termina com uma substring especificada.
 
 **Formato**
 
@@ -133,7 +134,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Does not start with{#doesNotStartWith}
 
-A função `doesNotStartWith` é usada para determinar se uma string não inicia com uma substring especificada.
+O `doesNotStartWith` é usada para determinar se uma string não inicia com uma substring especificada.
 
 **Formato**
 
@@ -157,7 +158,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 
 ## Codificação 64{#encode64}
 
-A função `encode64` é usada para codificar uma cadeia de caracteres para preservar as Informações Pessoais (PI) se for incluída, por exemplo, em um URL.
+O `encode64` é usada para codificar uma string para preservar as Informações pessoais (PI), caso deseje ser incluída, por exemplo, em um URL.
 
 **Formato**
 
@@ -167,7 +168,7 @@ A função `encode64` é usada para codificar uma cadeia de caracteres para pres
 
 ## Termina com{#endsWith}
 
-A função `endsWith` é usada para determinar se uma string termina com uma substring especificada.
+O `endsWith` é usada para determinar se uma string termina com uma substring especificada.
 
 **Formato**
 
@@ -192,7 +193,7 @@ A consulta a seguir determina, com diferenciação entre maiúsculas e minúscul
 
 ## Igual a{#equals}
 
-A função `equals` é usada para determinar se uma string é igual à string especificada, com diferenciação entre maiúsculas e minúsculas.
+O `equals` é usada para determinar se uma string é igual à string especificada, com diferenciação entre maiúsculas e minúsculas.
 
 **Formato**
 
@@ -215,7 +216,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 
 ## Igual a Ignorar Maiúsculas e Minúsculas{#equalsIgnoreCase}
 
-A função `equalsIgnoreCase` é usada para determinar se uma string é igual à string especificada, sem diferenciação entre maiúsculas e minúsculas.
+O `equalsIgnoreCase` é usada para determinar se uma string é igual à string especificada, sem diferenciação entre maiúsculas e minúsculas.
 
 **Formato**
 
@@ -238,7 +239,7 @@ A consulta a seguir determina, sem distinção entre maiúsculas e minúsculas, 
 
 ## Extrair domínio de email {#extractEmailDomain}
 
-A função `extractEmailDomain` é usada para extrair o domínio de um endereço de email.
+O `extractEmailDomain` é usada para extrair o domínio de um endereço de email.
 
 **Formato**
 
@@ -256,7 +257,7 @@ A consulta a seguir extrai o domínio de email do endereço de email pessoal.
 
 ## Is empty {#isEmpty}
 
-A função `isEmpty` é usada para determinar se uma string está vazia.
+O `isEmpty` é usada para determinar se uma string está vazia.
 
 **Formato**
 
@@ -274,7 +275,7 @@ A função a seguir retornará &#39;true&#39; se o número de telefone celular d
 
 ## Aparar à esquerda {#leftTrim}
 
-A função `leftTrim` é usada para remover espaços em branco do início de uma string.
+O `leftTrim` é usada para remover espaços em branco do início de uma string.
 
 **Formato**
 
@@ -284,7 +285,7 @@ A função `leftTrim` é usada para remover espaços em branco do início de uma
 
 ## Length {#length}
 
-A função `length` é usada para obter o número de caracteres em uma string ou expressão.
+O `length` é usada para obter o número de caracteres em uma string ou expressão.
 
 **Formato**
 
@@ -302,7 +303,7 @@ A função a seguir retorna o comprimento do nome da cidade do perfil.
 
 ## Like{#like}
 
-A função `like` é usada para determinar se uma string corresponde a um padrão especificado.
+O `like` é usada para determinar se uma string corresponde a um padrão especificado.
 
 **Formato**
 
@@ -325,7 +326,7 @@ O query a seguir recupera todas as cidades em que os perfis vivem contendo o pad
 
 ## Minúsculas{#lower}
 
-A função `lowerCase` converte uma string em letras minúsculas.
+O `lowerCase` converte uma string em letras minúsculas.
 
 **Sintaxe**
 
@@ -343,7 +344,7 @@ Essa função converte o nome do perfil em letras minúsculas.
 
 ## Corresponde{#matches}
 
-A função `matches` é usada para determinar se uma string corresponde a uma expressão regular específica. Consulte [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obter mais informações sobre padrões correspondentes em expressões regulares.
+O `matches` é usada para determinar se uma string corresponde a uma expressão regular específica. Consulte [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obter mais informações sobre padrões correspondentes em expressões regulares.
 
 **Formato**
 
@@ -361,7 +362,7 @@ A consulta a seguir determina, sem distinção entre maiúsculas e minúsculas, 
 
 ## Not equal to{#notEqualTo}
 
-A função `notEqualTo` é usada para determinar se uma string não é igual à string especificada.
+O `notEqualTo` é usada para determinar se uma string não é igual à string especificada.
 
 **Formato**
 
@@ -384,7 +385,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 
 ## Grupo de expressões regulares{#regexGroup}
 
-A função `Group` é usada para extrair informações específicas, com base na expressão regular fornecida.
+O `Group` é usada para extrair informações específicas, com base na expressão regular fornecida.
 
 **Formato**
 
@@ -406,9 +407,9 @@ A consulta a seguir é usada para extrair o nome de domínio de um endereço de 
 {%= regexGroup(emailAddress,"@(\w+)", 1) %}
 ```
 
-## Replace {#replace}
+## Substituir {#replace}
 
-A função `replace` é usada para substituir uma determinada substring em uma string por outra substring.
+O `replace` é usada para substituir uma determinada substring em uma string por outra substring.
 
 **Formato**
 
@@ -427,7 +428,7 @@ A seguinte função .
 
 ## Substituir tudo{#replaceAll}
 
-A função `replaceAll` é usada para substituir todas as subsequências de texto que correspondem ao &quot;destino&quot; pela sequência literal de &quot;substituição&quot; especificada. A substituição prossegue do início da string para o final, por exemplo, a substituição de &quot;aa&quot; por &quot;b&quot; na string &quot;aaa&quot; resultará em &quot;ba&quot; em vez de &quot;ab&quot;.
+O `replaceAll` é usada para substituir todas as subsequências de texto que correspondem ao &quot;target&quot; pela sequência literal de &quot;substituição&quot; especificada. A substituição prossegue do início da string para o final, por exemplo, a substituição de &quot;aa&quot; por &quot;b&quot; na string &quot;aaa&quot; resultará em &quot;ba&quot; em vez de &quot;ab&quot;.
 
 **Formato**
 
@@ -438,7 +439,7 @@ A função `replaceAll` é usada para substituir todas as subsequências de text
 
 ## Aparar à direita {#rightTrim}
 
-A função `rightTrim` é usada para remover espaços em branco do final de uma string.
+O `rightTrim` é usada para remover espaços em branco do final de uma string.
 
 
 **Formato**
@@ -449,7 +450,7 @@ A função `rightTrim` é usada para remover espaços em branco do final de uma 
 
 ## Dividir {#split}
 
-A função `split` é usada para dividir uma string por um determinado caractere.
+O `split` é usada para dividir uma string por um determinado caractere.
 
 **Formato**
 
@@ -470,7 +471,7 @@ The following function .
 
 ## Começa com{#startsWith}
 
-A função `startsWith` é usada para determinar se uma string começa com uma substring especificada.
+O `startsWith` é usada para determinar se uma string começa com uma substring especificada.
 
 **Formato**
 
@@ -494,7 +495,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 
 ## Caso de título{#titleCase}
 
-A função **titleCase** é usada para capitalizar as primeiras letras de cada palavra de uma string.
+O **titleCase** é usada para capitalizar as primeiras letras de cada palavra de uma string.
 
 **Sintaxe**
 
@@ -512,7 +513,7 @@ Se a pessoa vive na rua alta de Washington, essa função retornará a Rua Alta 
 
 ## Aparar{#trim}
 
-A função **trim** remove todos os espaços em branco do início e do final de uma string.
+O **trim** remove todos os espaços em branco do início e do final de uma string.
 
 **Sintaxe**
 
@@ -522,7 +523,7 @@ A função **trim** remove todos os espaços em branco do início e do final de 
 
 ## Maiúscula{#upper}
 
-A função **upperCase** converte uma cadeia de caracteres em letras maiúsculas.
+O **upperCase** converte uma string em letras maiúsculas.
 
 **Sintaxe**
 

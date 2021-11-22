@@ -1,24 +1,25 @@
 ---
 title: Criar tags
 description: Tags permitem organizar e classificar melhor suas ofertas.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 11%
 
 ---
 
 # Criar uma tag
 
-Você pode criar uma tag fazendo uma solicitação de POST para a API [!DNL Offer Library], fornecendo a ID do contêiner.
+Você pode criar uma tag, fazendo uma solicitação de POST para [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
 
 ## Aceitar e digitar cabeçalhos de tipo de conteúdo
 
-A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -54,7 +55,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a tag recém-criada, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua tag. Você pode usar sua tag exclusiva `@id` em tutoriais posteriores para criar coleções e ofertas personalizadas.
+Uma resposta bem-sucedida retorna informações sobre a tag recém-criada, incluindo sua ID de instância e seu posicionamento exclusivos `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua tag. Você pode usar sua tag exclusiva `@id` em tutoriais posteriores para criar coleções e ofertas personalizadas.
 
 ```json
 {

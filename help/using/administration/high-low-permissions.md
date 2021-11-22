@@ -15,7 +15,8 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b32306f9561946a6c289e5e9c7cc3243349141bc
+exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
+source-git-commit: da885bd5e29ff3454fef1c6b362f0e646fe8c39a
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 0%
@@ -29,17 +30,17 @@ ht-degree: 0%
 Cada perfil de produto é composto de permissões que permitem aos usuários acessar os diferentes recursos.
 Eles podem ser divididos em dois tipos:
 
-* **Permissão** de alto nível: representa as diferentes permissões que podem ser atribuídas  **[!UICONTROL Product profile]** no  [!DNL Admin console], como  **[!UICONTROL Publish journeys]** e  **[!UICONTROL Manage subdomains delegation]**. As permissões de alto nível abrangem permissões de baixo nível.
+* **Permissão de alto nível**: representa as diferentes permissões que podem ser atribuídas a **[!UICONTROL Product profile]** no [!DNL Admin console], como **[!UICONTROL Publish journeys]** e **[!UICONTROL Manage subdomains delegation]**. As permissões de alto nível abrangem permissões de baixo nível.
 
-* **Permissão** de baixo nível: representa as diferentes permissões que vêm da permissão de alto nível.
+* **Permissão de baixo nível**: representa as diferentes permissões que vêm da permissão de alto nível.
 
-Por exemplo, o perfil de produto **[!UICONTROL Journey administrator]** recebe a permissão **[!UICONTROL Manage journeys]**. Dessa permissão resulta as permissões de baixo nível que permitirão ao administrador do Jornada gravar, ler e excluir jornadas.
+Por exemplo, a variável **[!UICONTROL Journey administrator]** O perfil de produto é atribuído ao **[!UICONTROL Manage journeys]** permissão. Dessa permissão resulta as permissões de baixo nível que permitirão ao administrador do Jornada gravar, ler e excluir jornadas.
 
 ## Recurso de jornada {#journey-capability}
 
 ### Permissão Gerenciar jornadas {#manage-journeys}
 
-A permissão de alto nível **[!UICONTROL Manage journeys]** permite que os usuários criem Jornadas novas e editem/excluam as existentes, bem como o acesso aos objetos que são usados na tela de jornada para criar o fluxo de jornada.
+O **[!UICONTROL Manage journeys]** a permissão de alto nível permite que os usuários criem Jornadas novas e editem/excluam existentes, bem como acesso aos objetos que são usados na tela de jornada para criar o fluxo de jornada.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -59,7 +60,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Permissão Publicar jornadas {#publish-journeys}
 
-A permissão de alto nível **[!UICONTROL Publish journeys]** permite que os usuários publiquem jornadas.
+O **[!UICONTROL Publish journeys]** permissão de alto nível permite que os usuários publiquem jornadas.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -69,7 +70,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Exibir permissão de jornadas {#view-journeys}
 
-A permissão de alto nível **[!UICONTROL View journeys]** permite que os usuários naveguem e visualizem jornadas.
+O **[!UICONTROL View journeys]** permissão de alto nível permite que os usuários naveguem e visualizem jornadas.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -82,7 +83,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Gerenciar eventos do jornada, fontes de dados e permissões de ações {#manage-journeys-events}
 
-A permissão de alto nível **[!UICONTROL Manage journeys events, data sources and actions]** permite que os usuários configurem configurações de evento e dados.
+O **[!UICONTROL Manage journeys events, data sources and actions]** a permissão de alto nível permite que os usuários configurem configurações de evento e dados.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -103,7 +104,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Exibir eventos do jornada, fontes de dados e permissões de ações {#view-journeys-event}
 
-A permissão de alto nível **[!UICONTROL View journeys events, data sources and actions]** permite que os usuários usem eventos e dados no fluxo de jornada.
+O **[!UICONTROL View journeys events, data sources and actions]** a permissão de alto nível permite que os usuários usem eventos e dados no fluxo de jornadas.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -119,7 +120,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Exibir permissão de relatório de jornadas {#view-journeys-report}
 
-A permissão de alto nível **[!UICONTROL View journeys report]** permite que os usuários leiam o relatório de jornada somente leitura.
+O **[!UICONTROL View journeys report]** permissão de alto nível permite que os usuários leiam relatórios de jornada somente leitura.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -137,7 +138,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Permissão Gerenciar mensagens {#manage-messages}
 
-A permissão de alto nível **[!UICONTROL Manage messages]** permite que os usuários criem e editem/excluam mensagens.
+O **[!UICONTROL Manage messages]** permissão de alto nível permite que os usuários criem e editem/excluam mensagens.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -153,7 +154,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Gerenciar visualização de mensagens e permissão de teste {#mange-messages-preview}
 
-A permissão de alto nível **[!UICONTROL Manage messages preview and test]** permite que os usuários visualizem mensagens personalizadas.
+O **[!UICONTROL Manage messages preview and test]** permissão de alto nível permite que os usuários visualizem mensagens personalizadas.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -175,7 +176,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Permissão Publicar mensagens {#publish-messages}
 
-A permissão de alto nível **[!UICONTROL Publish messages]** permite que os usuários publiquem mensagens.
+O **[!UICONTROL Publish messages]** permissão de alto nível permite que os usuários publiquem mensagens.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -189,7 +190,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Exibir permissão de mensagens {#view-messages}
 
-A permissão de alto nível **[!UICONTROL View messages]** permite que os usuários leiam somente mensagens.
+O **[!UICONTROL View messages]** permissão de alto nível permite que os usuários leiam somente mensagens.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -203,7 +204,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Exibir permissão de relatório de mensagens {#view-message-reports}
 
-A permissão de alto nível **[!UICONTROL View messages report]** permite que os usuários criem relatórios de email e de push somente leitura.
+O **[!UICONTROL View messages report]** a permissão de alto nível permite que os usuários somente leiam emails e enviem relatórios.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -219,7 +220,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Permissão Gerenciar decisões {#manage-decisioning}
 
-A permissão de alto nível **[!UICONTROL Manage decisions]** permite que os usuários criem e editem/excluam **[!UICONTROL Activity entities]** existentes, bem como gerenciem os objetos usados nessas atividades para tomar as decisões.
+O **[!UICONTROL Manage decisions]** permissão de alto nível permite que os usuários criem novos e editem/excluam **[!UICONTROL Activity entities]**, bem como gerenciar os objetos usados nessas atividades para tomar as decisões.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -245,7 +246,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Exibir permissão de decisões {#view-decisions}
 
-A permissão de alto nível **[!UICONTROL View decisions]** permite que os usuários usem uma Atividade existente e objetos comerciais relacionados para tomar as decisões.
+O **[!UICONTROL View decisions]** a permissão de alto nível permite que os usuários usem uma Atividade existente e objetos comerciais relacionados para tomar as decisões.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -264,7 +265,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Permissão para publicar ofertas de decisão {#publish-decisions}
 
-A permissão de alto nível **[!UICONTROL Publish offers decisioning]** permite que os usuários acessem aprovar/cancelar a aprovação de atividades de Oferta.
+O **[!UICONTROL Publish offers decisioning]** a permissão de alto nível permite que os usuários acessem aprovar/cancelar a aprovação de atividades de Oferta .
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -286,7 +287,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Permissão Gerenciar estratégias de classificação {#manage-decisions}
 
-A permissão de alto nível **[!UICONTROL Manage ranking strategies]** permite que os usuários leiam, criem, editem e excluam o relatório de mensagens personalizadas e usem recursos de ação.
+O **[!UICONTROL Manage ranking strategies]** a permissão de alto nível permite que os usuários leiam, criem, editem e excluam o relatório de mensagens personalizadas e usem recursos de ação.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -302,7 +303,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Gerenciar permissão de delegação de subdomínios {#manage-subdomain}
 
-A permissão de alto nível **[!UICONTROL Manage subdomains delegation]** permite que os usuários criem, editem e excluam delegações de subdomínio (incluindo pool de IP).
+O **[!UICONTROL Manage subdomains delegation]** a permissão de alto nível permite que os usuários criem, editem e excluam delegações de subdomínio (incluindo pool de IP).
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -312,7 +313,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Exibir permissão de registros PTR {#view-ptr}
 
-A permissão de alto nível **[!UICONTROL View PTR records]** permite que os usuários visualizem registros PTR que foram configurados com base no subdomínio.
+O **[!UICONTROL View PTR records]** a permissão de alto nível permite que os usuários visualizem registros PTR que foram configurados com base no subdomínio.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -321,7 +322,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Gerenciar permissões de pools de IP {#manage-ip-pools}
 
-A permissão de alto nível **[!UICONTROL Manage IP pools]** permite que os usuários criem, editem e excluam a definição de afinidade.
+O **[!UICONTROL Manage IP pools]** a permissão de alto nível permite que os usuários criem, editem e excluam a definição de afinidade.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -331,7 +332,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Permissão Gerenciar configurações gerais de mensagens {#manage-message-settings}
 
-A permissão de alto nível **[!UICONTROL Manage messages general settings]** permite que os usuários criem, editem e excluam configurações globais no nível da sandbox.
+O **[!UICONTROL Manage messages general settings]** a permissão de alto nível permite que os usuários criem, editem e excluam configurações globais no nível da sandbox.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -344,7 +345,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Exibir permissões gerais de configurações de mensagens {#view-message-settings}
 
-A permissão de alto nível **[!UICONTROL View messages general settings]** permite que os usuários visualizem as configurações gerais das mensagens, como o endereço de execução.
+O **[!UICONTROL View messages general settings]** a permissão de alto nível permite que os usuários visualizem configurações gerais de mensagens, como o endereço de execução.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -355,7 +356,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Permissão Gerenciar predefinições de mensagens {#manage-message-presets}
 
-A permissão de alto nível **[!UICONTROL Manage messages presets]** permite que os usuários criem, editem e excluam predefinições de mensagens em canais no nível da sandbox.
+O **[!UICONTROL Manage messages presets]** a permissão de alto nível permite que os usuários criem, editem e excluam predefinições de mensagens em canais no nível da sandbox.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -369,7 +370,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Permissão Exibir predefinições de mensagens {#view-message-presets}
 
-A permissão de alto nível **[!UICONTROL View messages presets]** permite que os usuários visualizem predefinições de mensagens para saber quais predefinições de mensagens usar ao criar uma mensagem.
+O **[!UICONTROL View messages presets]** a permissão de alto nível permite que os usuários visualizem predefinições de mensagens para saber quais predefinições de mensagens usar ao criar uma mensagem.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -380,7 +381,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Gerenciar permissão de supressão {#manage-suppression}
 
-A permissão de alto nível **[!UICONTROL Manage suppression]** permite que os usuários definam o número de rejeições antes de um endereço de email ser adicionado à lista de supressão, bem como adicionar e excluir entradas de/para a lista de supressão.
+O **[!UICONTROL Manage suppression]** a permissão de alto nível permite que os usuários definam o número de rejeições antes de um endereço de email ser adicionado à lista de supressão, bem como adicionar e excluir entradas de/para a lista de supressão.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -392,7 +393,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Exibir permissão da lista de supressão {#view-suppresion-list}
 
-A permissão de alto nível **[!UICONTROL View suppression list]** permite que os usuários visualizem o conteúdo e as configurações da lista de supressão.
+O **[!UICONTROL View suppression list]** a permissão de alto nível permite que os usuários visualizem o conteúdo e as configurações da lista de supressão.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -404,7 +405,7 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### Permissão Exportar lista de supressão {#export-suppression-list}
 
-A permissão de alto nível **[!UICONTROL Export suppression list]** permite que os usuários baixem a lista de supressão como um arquivo CSV.
+O **[!UICONTROL Export suppression list]** a permissão de alto nível permite que os usuários baixem a lista de supressão como um arquivo CSV.
 
 Ele inclui as seguintes permissões de baixo nível:
 

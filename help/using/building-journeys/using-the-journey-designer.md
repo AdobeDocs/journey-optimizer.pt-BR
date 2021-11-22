@@ -19,27 +19,27 @@ A interface de jornada permite arrastar e soltar facilmente as atividades da pal
 
 ## Introdução ao design do jornada
 
-A **paleta** está no lado esquerdo da tela. Todas as atividades disponíveis são classificadas em várias categorias: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** e **[!UICONTROL Actions]**. É possível expandir/recolher as diferentes categorias clicando no nome. Para usar uma atividade na jornada, arraste-a e solte-a da paleta na tela.
+O **paleta** está no lado esquerdo da tela. Todas as atividades disponíveis são classificadas em várias categorias: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** e **[!UICONTROL Actions]**. É possível expandir/recolher as diferentes categorias clicando no nome. Para usar uma atividade na jornada, arraste-a e solte-a da paleta na tela.
 
 Ao iniciar uma nova jornada, os elementos que não podem ser soltos na tela como a primeira etapa são ocultos. Isso se refere a todas as ações, à atividade de condição, à espera e à reação.
 
 ![](../assets/journey38.png)
 
-O ícone **[!UICONTROL Filter items]** no canto superior esquerdo permite exibir os seguintes filtros:
+O **[!UICONTROL Filter items]** no canto superior esquerdo, é possível exibir os seguintes filtros:
 
-* **Mostrar apenas itens** disponíveis: ocultar ou exibir elementos indisponíveis na paleta, por exemplo, os eventos que usam um namespace diferente daqueles usados na jornada. Por padrão, os itens indisponíveis ficam ocultos. Se você optar por exibi-las, elas aparecerão esmaecidas.
+* **Mostrar apenas itens disponíveis**: ocultar ou exibir elementos indisponíveis na paleta, por exemplo, os eventos que usam um namespace diferente daqueles usados na jornada. Por padrão, os itens indisponíveis ficam ocultos. Se você optar por exibi-las, elas aparecerão esmaecidas.
 
-* **Mostrar apenas itens** recentes: esse filtro permite exibir somente os cinco últimos eventos e ações usados, além dos prontos para uso. Isso é específico para cada usuário. Por padrão, todos os itens são exibidos.
+* **Mostrar apenas itens recentes**: esse filtro permite exibir somente os cinco últimos eventos e ações usados, além dos prontos para uso. Isso é específico para cada usuário. Por padrão, todos os itens são exibidos.
 
-Também é possível usar o campo **[!UICONTROL Search]**. Somente eventos e ações são filtrados.
+Também é possível usar a variável **[!UICONTROL Search]** campo. Somente eventos e ações são filtrados.
 
-A **tela** é a zona central no designer de jornadas. É nessa zona que você pode soltar suas atividades e configurá-las. Clique em uma atividade na tela para configurá-la. Isso abre o painel de configuração da atividade no lado direito.
+O **tela** é a zona central no designer de jornadas. É nessa zona que você pode soltar suas atividades e configurá-las. Clique em uma atividade na tela para configurá-la. Isso abre o painel de configuração da atividade no lado direito.
 
 ![](../assets/journey39.png)
 
-O **painel de configuração da atividade** é exibido ao clicar em uma atividade na paleta. Preencha os campos obrigatórios. Clique no ícone **[!UICONTROL Delete]** para excluir a atividade. Clique em **[!UICONTROL Cancel]** para cancelar as modificações ou em **[!UICONTROL Ok]** para confirmar. Para excluir atividades, você também pode selecionar uma atividade (ou várias) e pressionar a tecla Backspace. Pressionar a tecla escape fechará o painel de configuração da atividade.
+O **painel de configuração da atividade** é exibida ao clicar em uma atividade na paleta. Preencha os campos obrigatórios. Clique no botão **[!UICONTROL Delete]** ícone para excluir a atividade. Clique em **[!UICONTROL Cancel]** para anular as modificações ou **[!UICONTROL Ok]** para confirmar. Para excluir atividades, você também pode selecionar uma atividade (ou várias) e pressionar a tecla Backspace. Pressionar a tecla escape fechará o painel de configuração da atividade.
 
-Por padrão, os campos somente leitura ficam ocultos. Para mostrar campos somente leitura, clique no ícone **Mostrar campos somente leitura** na parte superior esquerda do painel de configuração da atividade. Essa configuração se aplica a todas as atividades em todas as jornadas.
+Por padrão, os campos somente leitura ficam ocultos. Para mostrar campos somente leitura, clique no botão **Mostrar campos somente leitura** ícone na parte superior esquerda do painel de configuração da atividade. Essa configuração se aplica a todas as atividades em todas as jornadas.
 
 ![](../assets/journey59bis.png)
 
@@ -51,9 +51,9 @@ Dependendo do status da jornada, você pode executar ações diferentes em sua j
 
 Ao projetar sua jornada, a primeira pergunta que você deseja fazer é como os perfis entrarão na jornada. Há duas possibilidades:
 
-**Comece com um evento**: quando uma jornada é definida para ouvir eventos, os indivíduos entram na unidade de jornada  **** em tempo real. As mensagens incluídas na sua jornada são enviadas à pessoa que está fluindo atualmente para a jornada. [Saiba mais sobre eventos](../event/about-events.md)
+**Começar com um evento**: quando uma jornada é definida para ouvir eventos, os indivíduos entram na jornada **unitaneamente** em tempo real. As mensagens incluídas na sua jornada são enviadas à pessoa que está fluindo atualmente para a jornada. [Saiba mais sobre eventos](../event/about-events.md)
 
-**Comece com um segmento** de leitura: é possível definir a jornada para ouvir os segmentos do Adobe Experience Platform. Nesse caso, todos os indivíduos pertencentes ao segmento especificado entram na jornada. As mensagens incluídas na jornada são enviadas aos indivíduos pertencentes ao segmento. [Saiba mais sobre como ler segmentos](read-segment.md).
+**Começar com um segmento de leitura**: é possível definir a jornada para ouvir os segmentos do Adobe Experience Platform. Nesse caso, todos os indivíduos pertencentes ao segmento especificado entram na jornada. As mensagens incluídas na jornada são enviadas aos indivíduos pertencentes ao segmento. [Saiba mais sobre como ler segmentos](read-segment.md).
 
 ## Definir as próximas etapas
 
@@ -63,27 +63,27 @@ Após o primeiro evento ou Ler segmento, é possível combinar as diferentes ati
 
 Quando você inicia a jornada com um evento, a jornada é acionada quando o evento é recebido. A pessoa seguirá, individualmente, as próximas etapas definidas na sua jornada.
 
-Você pode adicionar **vários eventos** em sua jornada, desde que eles usem o mesmo namespace. Os eventos são configurados antecipadamente. [Saiba mais sobre eventos](about-journey-activities.md#event-activities)
+Você pode adicionar **vários eventos** na sua jornada, desde que eles usem o mesmo namespace. Os eventos são configurados antecipadamente. [Saiba mais sobre eventos](about-journey-activities.md#event-activities)
 
-Você também pode adicionar um evento **Reaction** após uma mensagem para reagir a dados de rastreamento relacionados à mensagem. Isso permite, por exemplo, enviar outra mensagem se o indivíduo tiver aberto a mensagem anterior ou clicado nela. Saiba mais nesta [seção](reaction-events.md).
+Você também pode adicionar uma **Reação** depois de uma mensagem para reagir a dados de rastreamento relacionados à mensagem. Isso permite, por exemplo, enviar outra mensagem se o indivíduo tiver aberto a mensagem anterior ou clicado nela. Saiba mais nesta [seção](reaction-events.md).
 
-A atividade de evento **Qualificação de segmento** permite fazer com que os indivíduos entrem ou avancem em uma jornada com base nas entradas e saídas do segmento Adobe Experience Platform. Você pode fazer com que todos os novos clientes prateados insiram uma jornada e enviem mensagens personalizadas. Saiba mais nesta [seção](segment-qualification-events.md).
+O **Qualificação do segmento** A atividade de evento permite que você insira ou avance indivíduos em uma jornada com base nas entradas e saídas do segmento Adobe Experience Platform. Você pode fazer com que todos os novos clientes prateados insiram uma jornada e enviem mensagens personalizadas. Saiba mais nesta [seção](segment-qualification-events.md).
 
 **Orquestração**
 
-Nas atividades de orquestração, você encontrará a atividade **Ler segmento** que permite definir sua jornada para ouvir um segmento do Adobe Experience Platform. [Saiba mais sobre a atividade](read-segment.md) Ler segmento .
+Nas atividades de orquestração, você encontrará a variável **Ler segmento** atividade que permite definir a jornada para ouvir um segmento do Adobe Experience Platform. [Saiba mais sobre a atividade Ler segmento](read-segment.md).
 
 As outras atividades permitem adicionar condições à jornada para definir vários caminhos, definir um tempo de espera antes de executar a próxima atividade ou terminar a jornada. Saiba mais nesta [seção](about-journey-activities.md#orchestration-activities).
 
 **Ações**
 
-Você encontrará aqui a atividade **Message** que permite incluir uma mensagem projetada em [!DNL Journey Optimizer]. [Saiba mais sobre a atividade de mensagem](journeys-message.md)
+Você encontrará aqui o **Mensagem** atividade que permite incluir uma mensagem criada em [!DNL Journey Optimizer]. [Saiba mais sobre a atividade de mensagem](journeys-message.md)
 
 Você também encontrará as ações personalizadas que configurou para enviar mensagens com sistemas de terceiros. Saiba mais nesta [seção](about-journey-activities.md#action-activities).
 
 ## O uso de caminhos na tela {#paths}
 
-Várias atividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** atividades) permitem definir uma ação de fallback em caso de erro ou tempo limite. No painel de configuração da atividade, marque a caixa : **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Outro caminho é adicionado após a atividade . A duração do tempo limite é definida nas propriedades da jornada (consulte [this page](../building-journeys/journey-gs.md#change-properties) por um usuário administrador. Por exemplo, se um email demorar muito para ser enviado ou estiver com erro, você pode decidir enviar um SMS.
+Várias atividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** atividades do ) permitem definir uma ação de fallback em caso de erro ou tempo limite. No painel de configuração da atividade, marque a caixa : **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Outro caminho é adicionado após a atividade . A duração do tempo limite é definida nas propriedades da jornada (consulte [esta página](../building-journeys/journey-gs.md#change-properties) por um usuário administrador. Por exemplo, se um email demorar muito para ser enviado ou estiver com erro, você pode decidir enviar um SMS.
 
 ![](../assets/journey42.png)
 
@@ -91,7 +91,7 @@ Várias atividades (evento, ação, espera) permitem adicionar vários caminhos 
 
 Ao ouvir um evento, recomendamos que você não espere o evento indefinidamente. Não é obrigatório, é apenas uma boa prática. Se quiser ouvir um ou vários eventos somente durante um determinado tempo, você colocará um ou vários eventos e uma atividade de espera em paralelo. Consulte [esta seção](../building-journeys/general-events.md#events-specific-time).
 
-Para excluir o caminho, coloque o cursor nele e clique no ícone **[!UICONTROL Delete path]**.
+Para excluir o caminho, coloque o cursor nele e clique no botão **[!UICONTROL Delete path]** ícone .
 
 ![](../assets/journey42ter.png)
 
@@ -115,10 +115,10 @@ Na tela, quando duas atividades são desconectadas, um aviso é exibido. Coloque
 Estas são as etapas para copiar/colar atividades:
 
 1. Abra uma jornada.
-1. Selecione as atividades que deseja copiar movendo o mouse e clicando. Você também pode clicar em cada atividade enquanto pressiona a tecla **Ctrl/Command**. Use **Ctrl/Command + A** se desejar selecionar todas as atividades.
+1. Selecione as atividades que deseja copiar movendo o mouse e clicando. Você também pode clicar em cada atividade enquanto pressiona o **Ctrl/Command** chave. Use **Ctrl/Command + A** se desejar selecionar todas as atividades.
    ![](../assets/copy-paste1.png)
-1. Pressione **Ctrl/Command + C**.
-Se quiser copiar apenas uma atividade, clique nela e use o ícone **Copiar** na parte superior esquerda do painel de configuração da atividade.
+1. Press **Ctrl/Command + C**.
+Se quiser copiar apenas uma atividade, clique nela e use a variável **Copiar** ícone na parte superior esquerda do painel de configuração da atividade.
    ![](../assets/copy-paste2.png)
 1. Em qualquer jornada, pressione **Ctrl/Command + V** para colar as atividades sem vinculá-las a um nó existente. As atividades coladas são colocadas na mesma ordem. Após serem coladas, as atividades permanecem selecionadas para que você possa movê-las facilmente. Também é possível colocar o cursor em um espaço reservado vazio e pressionar **Ctrl/Command + V**. As atividades coladas serão vinculadas ao nó .
    ![](../assets/copy-paste3.png)

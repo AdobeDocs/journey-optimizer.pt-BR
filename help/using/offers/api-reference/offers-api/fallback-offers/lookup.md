@@ -1,20 +1,21 @@
 ---
 title: ofertas de fallback de pesquisa
 description: Uma oferta de fallback é enviada para os clientes se eles não estiverem qualificados para outras ofertas
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '158'
 ht-degree: 4%
 
 ---
 
 # Pesquisar ofertas de fallback
 
-Você pode pesquisar ofertas de fallback específicas fazendo uma solicitação de GET para a API [!DNL Offer Library] que inclui a oferta de fallback `@id` ou o nome da oferta de fallback no caminho da solicitação.
+Você pode pesquisar ofertas de fallback específicas fazendo uma solicitação do GET para a variável [!DNL Offer Library] API que inclui a oferta de fallback `@id` ou o nome da oferta de fallback no caminho da solicitação.
 
 **Formato da API**
 
@@ -27,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | O contêiner onde as ofertas de fallback estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | Define o schema associado às ofertas de fallback. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `id` | Uma string usada para corresponder à propriedade `@id` das entidades. A sequência de caracteres corresponde exatamente. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:fallback-offer:122206064e0d98df` |
+| `id` | Uma string usada para corresponder a `@id` propriedade das entidades. A sequência de caracteres corresponde exatamente. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:fallback-offer:122206064e0d98df` |
 | `name` | Uma string usada para corresponder à propriedade xdm:name das entidades. A string é correspondida exatamente com maiúsculas, mas caracteres curingas podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `F1: Web fallback` |
 
 **Solicitação**

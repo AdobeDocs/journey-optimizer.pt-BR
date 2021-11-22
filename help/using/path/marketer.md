@@ -2,13 +2,13 @@
 title: Journey Optimizer - Introdução aos profissionais de marketing
 description: Como Jornada, aprenda mais sobre como trabalhar com a Journey Optimizer
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 8%
 
 ---
-
 
 # Introdução aos profissionais de marketing
 
@@ -51,4 +51,3 @@ Consulte as seguintes seções para configurar a primeira jornada, adicionar ofe
    Saiba como projetar e executar jornadas [nesta seção](../building-journeys/journey-gs.md)
 
 1. **Monitorar mensagens e jornadas**. Para garantir que suas mensagens sejam executadas, enviadas e entregues com êxito, [!DNL Journey Optimizer] O oferece recursos para monitorar as mensagens publicadas e acionadas no momento. Saiba como monitorar desempenhos [nesta seção](../message-monitoring.md).
-

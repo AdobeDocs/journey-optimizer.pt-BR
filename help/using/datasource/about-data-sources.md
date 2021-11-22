@@ -1,13 +1,14 @@
 ---
 title: Sobre fontes de dados
 description: Saiba como configurar uma fonte de dados
-feature: Fontes de dados
-topic: Administração
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: d69779418d50fdc4b75cc777b27a62392d1634a0
+exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '288'
 ht-degree: 72%
 
 ---
@@ -39,4 +40,4 @@ Para cada fonte de dados, você define as informações que serão recuperadas u
 >
 >As relações de esquema agora são suportadas em fontes de dados.
 
-Para obter mais informações sobre como configurar uma Fonte de Dados do Adobe Experience Platform e uma fonte de dados externa e como localizar e usar dados em uma jornada, assista a este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}.
+Para obter mais informações sobre como configurar uma fonte de dados da Adobe Experience Platform e uma fonte de dados externa e como localizar e usar dados em uma jornada, assista a isso [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}.

@@ -43,7 +43,7 @@ Uma regra de limitação é específica de um ponto de extremidade, mas global p
 
 Por exemplo, digamos que você tenha definido uma regra de limite de 100 chamadas por segundo para seu sistema externo. Seu sistema é chamado por uma ação personalizada em 10 jornadas diferentes. Se uma jornada receber 200 chamadas por segundo, ela usará os 100 slots disponíveis e descartará os 100 slots restantes. Como a taxa máxima foi excedida, as outras 9 jornadas não terão mais nenhum slot. Essa granularidade ajuda a proteger o sistema externo contra sobrecarga e falha.
 
-Para saber mais sobre a API de limitação e como configurar regras de limitação, consulte [documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
+Para saber mais sobre a API de limitação e como configurar regras de limitação, consulte [Documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
 
 ## Tempo limite e tentativas{#timeout}
 
@@ -71,7 +71,7 @@ Vamos tomar um exemplo por um tempo limite de 5 segundos.
 
 **Como posso configurar uma regra de limitação? Existe uma regra de limitação padrão?**
 
-Por padrão, não há regra de limitação. As regras de limitação são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação. Consulte [esta seção](../configuration/external-systems.md#capping) e [documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
+Por padrão, não há regra de limitação. As regras de limitação são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação. Consulte [esta seção](../configuration/external-systems.md#capping) e [Documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
 
 **Quantas tentativas são executadas? Posso alterar o número de tentativas ou definir um período mínimo de espera entre as tentativas?**
 

@@ -1,32 +1,33 @@
 ---
-title: Sobre segmentos do Adobe Experience Platform
+title: Sobre segmentos da Adobe Experience Platform
 description: Saiba como configurar um segmento do Adobe Experience Platform
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40dd6e3714aea3dc95183e1decbf1b8f83dad50a
+exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Sobre segmentos do Adobe Experience Platform {#about-segments}
+# Sobre segmentos da Adobe Experience Platform {#about-segments}
 
-[!DNL Journey Optimizer]  O permite criar segmentos do Adobe Experience Platform usando dados de Perfil do cliente em tempo real diretamente do  **[!UICONTROL Segments]** menu e aproveitá-los em suas jornadas.
+[!DNL Journey Optimizer]  permite criar segmentos do Adobe Experience Platform usando dados de Perfil do cliente em tempo real diretamente do **[!UICONTROL Segments]** e aproveite-as em suas jornadas.
 
-Observe que os segmentos também podem ser criados a partir do próprio serviço de Segmentação. Saiba mais na [documentação do Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+Observe que os segmentos também podem ser criados a partir do próprio serviço de Segmentação. Saiba mais na [Documentação do Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 Você pode aproveitar os segmentos em jornadas de diferentes maneiras:
 
-* Use uma atividade de orquestração **Read segment** para que todos os indivíduos pertencentes ao segmento especificado entrem na jornada. As mensagens incluídas na jornada são enviadas aos indivíduos pertencentes ao segmento. Digamos que você tenha um segmento de &quot;cliente prateado&quot;. Com essa atividade, é possível fazer com que todos os clientes prateados insiram uma jornada e enviem uma série de mensagens personalizadas.
+* Use um **Ler segmento** atividade de orquestração para fazer com que todos os indivíduos pertencentes ao segmento especificado entrem na jornada. As mensagens incluídas na jornada são enviadas aos indivíduos pertencentes ao segmento. Digamos que você tenha um segmento de &quot;cliente prateado&quot;. Com essa atividade, é possível fazer com que todos os clientes prateados insiram uma jornada e enviem uma série de mensagens personalizadas.
 
-   Para obter mais informações sobre como usar a atividade **[!UICONTROL Read segment]**, consulte [esta seção](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+   Para obter mais informações sobre como usar o **[!UICONTROL Read segment]** atividade , consulte [esta seção](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
 
-* Use a atividade de evento **Segment qualification** para fazer com que os indivíduos insiram ou avancem em uma jornada com base nas entradas e saídas do segmento Adobe Experience Platform. Por exemplo, você pode fazer com que todos os novos clientes de prata insiram uma jornada e enviem mensagens para eles. Para obter mais informações sobre como usar essa atividade, consulte [esta seção](../building-journeys/segment-qualification-events.md).
+* Use o **Qualificação do segmento** atividade de evento para fazer indivíduos entrarem ou avançarem em uma jornada com base nas entradas e saídas do segmento do Adobe Experience Platform. Por exemplo, você pode fazer com que todos os novos clientes de prata insiram uma jornada e enviem mensagens para eles. Para obter mais informações sobre como usar essa atividade, consulte [esta seção](../building-journeys/segment-qualification-events.md).
 
-* Crie **condições complexas** em suas jornadas usando o editor de expressão simples ou avançado. Saiba mais [nesta seção](../building-journeys/condition-activity.md#using-a-segment).
+* Criar **condições complexas** em suas jornadas usando o editor de expressão simples ou avançado. Saiba mais [nesta seção](../building-journeys/condition-activity.md#using-a-segment).
 
 ## Método de avaliação no Adobe Journey Optimizer {#evaluation-method-in-journey-optimizer}
 
@@ -37,7 +38,7 @@ No Adobe Journey Optimizer, os públicos-alvo são gerados a partir das definiç
 
 A determinação entre a segmentação de lote e a segmentação de fluxo é feita pelo sistema para cada definição de segmento, com base na complexidade e no custo da avaliação da regra de segmento.
 
-Você pode exibir o método de avaliação para cada segmento na coluna **[!UICONTROL Evaluation method]** da lista de segmentos.
+Você pode visualizar o método de avaliação para cada segmento na **[!UICONTROL Evaluation method]** da lista de segmentos.
 
 Após ter definido um segmento pela primeira vez, os perfis são adicionados ao público-alvo quando se qualificam.
 

@@ -1,20 +1,21 @@
 ---
 title: Gerenciamento de fuso horário
 description: Saiba mais sobre o gerenciamento de fuso horário
-feature: Jornadas
-topic: Gerenciamento de conteúdo
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
+exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 3%
+source-wordcount: '277'
+ht-degree: 2%
 
 ---
 
 # Gerenciamento de fuso horário {#timezone_management}
 
-Você pode definir um fuso horário nas [propriedades](../building-journeys/journey-gs.md#change-properties) da sua jornada.
+Você pode definir um fuso horário na variável [propriedades](../building-journeys/journey-gs.md#change-properties) da sua jornada.
 
 Para acessar Propriedades, clique no ícone de lápis na parte superior direita da tela.
 
@@ -29,13 +30,13 @@ Você pode selecionar um fuso horário ou optar por usar o fuso horário definid
 
 >[!NOTE]
 >
->O fuso horário do perfil funciona com o campo **timeZone** existente no grupo de campos **Detalhes de preferência**.
+>O fuso horário do perfil funciona com a variável **timeZone** existente na variável **Detalhes da Preferência** grupo de campos.
 
-## Definição de um fuso horário fixo {#fixed-timezone}
+## Definição de fuso horário fixo {#fixed-timezone}
 
 O fuso horário também pode ser corrigido. Limpe o fuso horário predefinido e escolha um na lista suspensa. Se você usar um fuso horário fixo, será o mesmo para todos os indivíduos que inseriram a jornada.
 
-Para fazer isso, no painel **[!UICONTROL Journey Properties]**, selecione um fuso horário.
+Para fazer isso, no **[!UICONTROL Journey Properties]** selecione um fuso horário.
 
 ![](../assets/journey72.png)
 
@@ -47,7 +48,7 @@ Se um fuso horário for definido no perfil do Adobe Experience Platform, ele pod
 
 Se o perfil do indivíduo não contiver um fuso horário, o fuso horário recuperado será aquele definido no campo timezone.
 
-Para fazer isso, em **[!UICONTROL Properties]**, marque **[!UICONTROL Use Profile timezone in waits and conditions]**.
+Para fazer isso, em **[!UICONTROL Properties]**, verificar **[!UICONTROL Use Profile timezone in waits and conditions]**.
 
 ![](../assets/journey73.png)
 

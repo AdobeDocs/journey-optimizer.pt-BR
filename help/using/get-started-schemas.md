@@ -1,13 +1,14 @@
 ---
 title: Introdução a esquemas
 description: Saiba como usar Esquemas do Adobe Experience Platform no Adobe Journey Optimizer
-feature: Esquemas
+feature: Schemas
 role: User
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 7%
+source-wordcount: '318'
+ht-degree: 11%
 
 ---
 
@@ -15,19 +16,19 @@ ht-degree: 7%
 
 Os esquemas são a maneira padrão de descrever dados no Experience Platform, permitindo que todos os dados que estão em conformidade com os esquemas sejam reutilizados em uma organização sem conflitos ou até compartilhados entre várias organizações.
 
-➡️ [Saiba como criar e configurar um schema](#video-schema) (vídeo)
+➡️ [Saiba como criar e configurar um esquema](#video-schema) (vídeo)
 
 Um esquema é um conjunto de regras que representam e validam a estrutura e o formato dos dados. Em um alto nível, os esquemas fornecem uma definição abstrata de um objeto do mundo real (como uma pessoa) e destacam quais dados devem ser incluídos em cada instância desse objeto (como nome, sobrenome, aniversário e assim por diante).
 
-Saiba como criar esquemas em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR){target=&quot;_blank&quot;}
+Saiba como criar schemas no [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR){target=&quot;_blank&quot;}
 
-O espaço de trabalho **Schemas** na interface do usuário [!DNL Adobe Journey Optimizer] permite gerenciar os recursos do Experience Data Model (XDM), incluindo schemas, classes, grupos de campos de esquema e tipos de dados. Você pode visualizar e explorar os recursos principais fornecidos pelo Adobe e criar recursos e esquemas personalizados para sua organização.
+O **Esquemas** na área de trabalho do [!DNL Adobe Journey Optimizer] a interface do usuário do permite gerenciar os recursos do Experience Data Model (XDM), incluindo esquemas, classes, grupos de campos de esquema e tipos de dados. Você pode visualizar e explorar os recursos principais fornecidos pelo Adobe e criar recursos e esquemas personalizados para sua organização.
 
 ![](assets/schemas-home.png)
 
-Saiba como usar a interface do usuário Esquemas em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}
+Saiba como usar a interface do usuário Esquemas no [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}
 
-A documentação passo a passo para criar um esquema usando o Editor de Esquema está disponível em [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR){target=&quot;_blank&quot;}
+A documentação passo a passo para criar um esquema usando o Editor de esquema está disponível em [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR){target=&quot;_blank&quot;}
 
 
 ## Vídeo tutorial{#video-schema}
@@ -41,6 +42,5 @@ Saiba como criar um esquema, adicionar grupos de campos, criar e configurar grup
 * [Criar um esquema, um conjunto de dados e assimilar dados para adicionar perfis de teste no Journey Optimizer](building-journeys/creating-test-profiles.md)
 * [Visão geral do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}
 * [Práticas recomendadas para modelagem de dados](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target=&quot;_blank&quot;}
-* [Crie um esquema usando a API do Registro de Esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target=&quot;_blank&quot;}
-* [Definir uma relação entre dois esquemas usando o Editor de Esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html){target=&quot;_blank&quot;}
-
+* [Criar um esquema usando a API do Registro de esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target=&quot;_blank&quot;}
+* [Definir uma relação entre dois esquemas usando o Editor de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html){target=&quot;_blank&quot;}

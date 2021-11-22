@@ -1,14 +1,15 @@
 ---
 title: Biblioteca de funções do Maps
 description: Biblioteca de funções do Maps
-feature: Personalização
-topic: Personalização
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
+exl-id: de6a8da2-55cf-4105-ba93-40c556732626
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 8%
+source-wordcount: '102'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +19,7 @@ Use as funções de Mapa na personalização para facilitar a interação com ma
 
 ## Obtenha{#get}
 
-A função `get` é usada para recuperar o valor de um mapa para uma determinada chave.
+O `get` é usada para recuperar o valor de um mapa para uma determinada chave.
 
 **Formato**
 
@@ -36,7 +37,7 @@ A operação a seguir obtém o valor do mapa de identidade da chave `example@exa
 
 ## Teclas{#keys}
 
-A função `keys` é usada para recuperar todas as chaves de um determinado mapa.
+O `keys` é usada para recuperar todas as chaves de um determinado mapa.
 
 **Formato**
 
@@ -54,7 +55,7 @@ A operação a seguir obtém todas as chaves do mapa `identityMap`.
 
 ## Valores{#values}
 
-A função `values` é usada para recuperar todos os valores de um determinado mapa.
+O `values` é usada para recuperar todos os valores de um determinado mapa.
 
 **Formato**
 
@@ -64,7 +65,7 @@ A função `values` é usada para recuperar todos os valores de um determinado m
 
 **Exemplo**
 
-A operação a seguir obtém todos os valores para o mapa `identityMap`.
+A operação a seguir obtém todos os valores do mapa `identityMap`.
 
 ```sql
 {%= values(identityMap) %}

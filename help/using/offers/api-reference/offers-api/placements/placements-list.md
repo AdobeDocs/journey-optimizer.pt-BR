@@ -1,13 +1,14 @@
 ---
 title: Listar inserções
 description: As disposições são contêineres usados para mostrar suas ofertas.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '289'
 ht-degree: 12%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 12%
 
 As disposições são contêineres usados para mostrar suas ofertas. Uma disposição ajuda a garantir que o conteúdo de oferta correto seja exibido no local certo dentro da mensagem. Ao adicionar conteúdo a uma oferta, você será solicitado a selecionar uma disposição na qual o conteúdo possa ser exibido.
 
-É possível exibir uma lista de todas as disposições em um contêiner ao executar uma única solicitação de GET para a API [!DNL Offer Library].
+É possível exibir uma lista de todas as disposições em um contêiner ao executar uma única solicitação de GET para a [!DNL Offer Library] API.
 
 **Formato da API**
 
@@ -41,7 +42,7 @@ Os parâmetros de consulta mais comuns para paginação incluem:
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `q` | Uma string de consulta opcional a ser procurada nos campos selecionados. A sequência de consulta deve estar em letras minúsculas e pode ser cercada por aspas duplas para evitar que seja tocada e para evitar caracteres especiais. Os caracteres `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm um significado especial e devem ser evitados com uma barra invertida ao aparecerem na string de consulta. | JSON do site |
+| `q` | Uma string de consulta opcional a ser procurada nos campos selecionados. A sequência de consulta deve estar em letras minúsculas e pode ser cercada por aspas duplas para evitar que seja tocada e para evitar caracteres especiais. Os caracteres `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm um significado especial e devem ser evitadas com uma barra invertida ao aparecerem na string de consulta. | JSON do site |
 | `qop` | Aplica operador AND ou OR a valores em q parâmetro da string de consulta. | `AND` / `OR` |
 | `field` | Lista opcional de campos para os quais limitar a pesquisa. Esse parâmetro pode ser repetido da seguinte maneira: field=field1[,field=field2,...] e (expressões de caminho estão na forma de caminhos separados por pontos, como _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Classifique os resultados por uma propriedade específica. Adicionar um `-` antes do título (`orderby=-title`) classificará os itens por título em ordem decrescente (Z-A). | `-repo:createdDate` |

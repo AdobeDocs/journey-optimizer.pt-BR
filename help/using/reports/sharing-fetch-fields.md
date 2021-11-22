@@ -1,13 +1,14 @@
 ---
 title: campos de busca de dados de eventos journeyStep
 description: campos de busca de dados de eventos journeyStep
-feature: Relatório
-topic: Gerenciamento de conteúdo
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '371'
 ht-degree: 7%
 
 ---
@@ -74,7 +75,7 @@ Tipo: sequência de caracteres
 
 ## fetchOriginErrorCode
 
-O código de erro fornecido pelo sistema [!DNL Journey Orchestration] está consultando. Por exemplo, pode ser 404, 500 etc.
+O código de erro fornecido pelo sistema [!DNL Journey Orchestration] O está consultando o . Por exemplo, pode ser 404, 500 etc.
 
 Tipo: sequência de caracteres
 
@@ -98,7 +99,7 @@ Tipo: long
 
 ## fetchCustomTotalTime
 
-Quantidade de tempo para buscar os dados personalizados em millis. Observação: esse período é calculado a partir do momento em que o mecanismo envia o evento de enriquecimento ao serviço de enriquecimento e recebe a resposta
+Quantidade de tempo para buscar os dados personalizados em millis. Observação: esse período é calculado a partir do momento em que o mecanismo envia o evento de enriquecimento para o serviço de enriquecimento e recebe a resposta
 
 Tipo: long
 

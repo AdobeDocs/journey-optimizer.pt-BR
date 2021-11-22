@@ -1,20 +1,21 @@
 ---
 title: Listar decisões
 description: Uma decisão contém a lógica que informa a seleção de uma oferta.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 5%
 
 ---
 
 # Procurar uma decisão
 
-Você pode procurar decisões específicas (anteriormente conhecidas como atividades de oferta) fazendo uma solicitação GET para a API [!DNL Offer Library] que inclui as decisões `@id` ou o nome da decisão no caminho da solicitação.
+Você pode pesquisar decisões específicas (anteriormente conhecidas como atividades de oferta) fazendo uma solicitação do GET para a variável [!DNL Offer Library] A API que inclui as decisões `@id` ou o nome da decisão no caminho da solicitação.
 
 **Formato da API**
 
@@ -27,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | O contêiner onde as decisões estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | Define o schema associado às decisões. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | Uma string usada para corresponder à propriedade `@id` das entidades. A sequência de caracteres corresponde exatamente. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:offer-activity:124527ab00b2ebbc` |
+| `id` | Uma string usada para corresponder a `@id` propriedade das entidades. A sequência de caracteres corresponde exatamente. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:offer-activity:124527ab00b2ebbc` |
 | `name` | Uma string usada para corresponder à propriedade xdm:name das entidades. A string é correspondida exatamente com maiúsculas, mas caracteres curingas podem ser usados. O parâmetro &quot;id&quot; e &quot;name&quot; não podem ser usados juntos | `LBAR` |
 
 **Solicitação**
@@ -44,7 +45,7 @@ curl -X GET \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes da disposição, incluindo informações sobre a ID do contêiner, a ID da instância e a decisão exclusiva `@id`.
+Uma resposta bem-sucedida retorna os detalhes do posicionamento, incluindo informações sobre a ID do contêiner, a ID da instância e a decisão exclusiva `@id`.
 
 ```json
 {

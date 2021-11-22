@@ -1,20 +1,21 @@
 ---
 title: Procure uma disposição
 description: As disposições são contêineres usados para mostrar suas ofertas.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '147'
 ht-degree: 4%
 
 ---
 
 # Procure uma disposição
 
-Você pode pesquisar disposições específicas fazendo uma solicitação de GET para a API [!DNL Offer Library] que inclui a disposição `@id` ou o nome da disposição no caminho da solicitação.
+Você pode pesquisar disposições específicas fazendo uma solicitação de GET para a variável [!DNL Offer Library] A API que inclui a inserção `@id` ou o nome da disposição no caminho da solicitação.
 
 **Formato da API**
 
@@ -27,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | O contêiner onde as disposições estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | Define o schema associado às disposições. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `id` | Uma string usada para corresponder à propriedade `@id` das entidades. A sequência de caracteres corresponde exatamente. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:offer-placement:124541309805b7e8` |
+| `id` | Uma string usada para corresponder a `@id` propriedade das entidades. A sequência de caracteres corresponde exatamente. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:offer-placement:124541309805b7e8` |
 | `name` | Uma string usada para corresponder à propriedade xdm:name das entidades. A string é correspondida exatamente com maiúsculas, mas caracteres curingas podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Sales and Promotions Placement` |
 
 ```shell
@@ -42,7 +43,7 @@ curl -X GET \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes do posicionamento, incluindo informações sobre a ID do contêiner, a ID da instância e o posicionamento exclusivo `@id`.
+Uma resposta bem-sucedida retorna os detalhes da disposição, incluindo informações sobre a ID do contêiner, a ID da instância e o posicionamento exclusivo `@id`.
 
 ```json
 {

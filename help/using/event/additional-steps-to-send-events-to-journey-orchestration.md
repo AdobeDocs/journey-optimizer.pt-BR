@@ -1,29 +1,30 @@
 ---
 title: Etapas adicionais para enviar eventos para uma jornada
 description: Saiba mais sobre as etapas adicionais para enviar eventos a uma jornada
-feature: Eventos
-topic: Administração
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: e0144151-6c54-4656-9650-b544d8e7be16
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 4%
+source-wordcount: '294'
+ht-degree: 5%
 
 ---
 
 # Etapas adicionais para enviar eventos {#concept_xrz_n1q_y2b}
 
-Para configurar eventos a serem enviados para **[!UICONTROL Streaming Ingestion APIs]** e serem usados em [!DNL Journey Optimizer], siga estas etapas:
+Para configurar eventos a serem enviados para **[!UICONTROL Streaming Ingestion APIs]** e a utilizar em [!DNL Journey Optimizer], siga estas etapas:
 
-1. Obtenha o URL de entrada das APIs do Adobe Experience Platform. Saiba mais em [Visão geral das APIs de assimilação de fluxo](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}.
-1. Copie a carga da pré-visualização de carga no menu **[!UICONTROL Event]**. Saiba mais [nesta página](../event/about-creating.md#define-the-payload-fields).
+1. Obtenha o URL de entrada das APIs do Adobe Experience Platform. Saiba mais em [Visão geral de APIs de assimilação de fluxo](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=pt-BR){target=&quot;_blank&quot;}.
+1. Copie a carga da pré-visualização de carga no **[!UICONTROL Event]** menu. Saiba mais [nesta página](../event/about-creating.md#define-the-payload-fields).
 
 Em seguida, é necessário configurar o sistema de dados que envia eventos para as APIs de assimilação de streaming usando a carga útil copiada:
 
 1. Configure uma chamada POST API para o URL das APIs de assimilação de fluxo (chamada de entrada).
-1. Use a carga copiada de [!DNL Journey Optimizer] no corpo (&quot;seção de dados&quot;) da chamada da API para APIs de assimilação de fluxo. Veja abaixo um exemplo
-1. Determine onde obter todas as variáveis presentes na carga útil. Exemplo: se o evento tiver que transmitir o endereço, a carga colada mostrará &quot;endereço&quot;: &quot;string&quot;. &quot;string&quot; deve ser substituída pela variável que preencherá automaticamente o valor correto, o email da pessoa para a qual enviar uma mensagem. Observe que, na pré-visualização de carga, na seção **[!UICONTROL Header]** , preenchemos automaticamente muitos valores esperados para facilitar seu trabalho.
+1. Usar a carga copiada de [!DNL Journey Optimizer] no corpo (&quot;seção de dados&quot;) da chamada da API para APIs de assimilação de fluxo. Veja abaixo um exemplo
+1. Determine onde obter todas as variáveis presentes na carga útil. Exemplo: se o evento tiver que transmitir o endereço, a carga colada mostrará &quot;endereço&quot;: &quot;string&quot;. &quot;string&quot; deve ser substituída pela variável que preencherá automaticamente o valor correto, o email da pessoa para a qual enviar uma mensagem. Observe que, na pré-visualização de carga, no **[!UICONTROL Header]** , preenchemos automaticamente muitos valores esperados para facilitar seu trabalho.
 1. Selecione &quot;application/json&quot; como um tipo de corpo.
 1. Passe a IMS Organization ID no cabeçalho usando a chave &quot;x-gw-ims-org-id&quot;. Para o valor , use sua IMS Organization ID (&quot;XXX@AdobeOrg&quot;).
 
@@ -84,6 +85,6 @@ Veja um exemplo de um evento de APIs de assimilação de fluxo:
 }
 ```
 
-Para facilitar a identificação do local onde colar a parte &quot;dados&quot;, você pode usar uma ferramenta de visualização JSON, como [JSON formatter](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}.
+Para facilitar a identificação do local onde a parte &quot;dados&quot; deve ser colada, é possível usar uma ferramenta de visualização JSON, como [Formatador JSON](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}.
 
-Para solucionar problemas de APIs de assimilação de fluxo, consulte a [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}.
+Para solucionar problemas de APIs de assimilação de fluxo, consulte [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}.

@@ -1,26 +1,27 @@
 ---
 title: Eventos de reações
 description: Saiba mais sobre eventos de reação
-feature: Jornadas
-topic: Gerenciamento de conteúdo
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 3%
+source-wordcount: '353'
+ht-degree: 2%
 
 ---
 
 # Eventos de reação {#section_dhx_gss_dgb}
 
-Entre as diferentes atividades de evento disponíveis na paleta, você encontrará o evento **[!UICONTROL Reactions]** incorporado. Essa atividade permite reagir a dados de rastreamento relacionados a uma mensagem enviada na mesma jornada. Capturamos essas informações em tempo real no momento em que são compartilhadas com a Adobe Experience Platform. Para notificações por push, você pode reagir a mensagens clicadas, enviadas ou com falha. Para mensagens SMS, você pode reagir a mensagens enviadas ou com falha. Para emails, você pode reagir a mensagens clicadas, enviadas, abertas ou com falha.
+Entre as diferentes atividades de evento disponíveis na paleta, você encontrará as **[!UICONTROL Reactions]** evento. Essa atividade permite reagir a dados de rastreamento relacionados a uma mensagem enviada na mesma jornada. Capturamos essas informações em tempo real no momento em que são compartilhadas com a Adobe Experience Platform. Para notificações por push, você pode reagir a mensagens clicadas, enviadas ou com falha. Para mensagens SMS, você pode reagir a mensagens enviadas ou com falha. Para emails, você pode reagir a mensagens clicadas, enviadas, abertas ou com falha.
 
 Você também pode usar esse mecanismo para executar uma ação quando não houver reação às suas mensagens. Para fazer isso, crie um segundo caminho paralelo à atividade de reação e adicione uma atividade de espera. Se não houver reação durante o período definido na atividade de espera, o segundo caminho será escolhido. Você pode optar por enviar, por exemplo, uma mensagem de acompanhamento.
 
-Observe que você só pode usar uma atividade de reação na tela se houver uma atividade **Message** antes.
+Observe que você só pode usar uma atividade de reação na tela se houver uma **Mensagem** antes.
 
-Consulte [Sobre atividades de ação](../building-journeys/about-journey-activities.md#action-activities).
+Consulte [Sobre as atividades de ação](../building-journeys/about-journey-activities.md#action-activities).
 
 ![](../assets/journey45.png)
 
@@ -29,7 +30,7 @@ Estas são as diferentes etapas para configurar os eventos de reação:
 1. Adicione um **[!UICONTROL Label]** à reação. Esta etapa é opcional.
 1. Na lista suspensa, selecione a atividade de ação à qual deseja reagir. Você pode selecionar qualquer atividade de ação posicionada nas etapas anteriores do caminho.
 1. Dependendo da ação selecionada, escolha o que deseja reagir.
-1. Você pode definir um tempo limite de evento (entre 40 segundos e 30 dias) e um caminho de tempo limite. Isso criará um segundo caminho para indivíduos que não reagiram dentro da duração definida. Ao testar uma jornada que usa um evento de reação, o modo de teste **[!UICONTROL Wait time]** padrão e o valor mínimo são 40 segundos. Consulte [esta seção](../building-journeys/testing-the-journey.md).
+1. Você pode definir um tempo limite de evento (entre 40 segundos e 30 dias) e um caminho de tempo limite. Isso criará um segundo caminho para indivíduos que não reagiram dentro da duração definida. Ao testar uma jornada que usa um evento de reação, o modo de teste **[!UICONTROL Wait time]** o valor padrão e mínimo é de 40 segundos. Consulte [esta seção](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >

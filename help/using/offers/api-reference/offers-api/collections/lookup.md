@@ -1,13 +1,14 @@
 ---
 title: Pesquisar uma coleção
 description: Coleções são subconjuntos de ofertas com base em condições predefinidas definidas por um profissional de marketing, como a categoria da oferta.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '176'
 ht-degree: 3%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 3%
 
 Coleções são subconjuntos de ofertas com base em condições predefinidas definidas por um profissional de marketing, como a categoria da oferta.
 
-Você pode pesquisar coleções específicas fazendo uma solicitação do GET para a API [!DNL Offer Library] que inclui a coleção `@id` ou o nome da coleção no caminho da solicitação.
+Você pode pesquisar coleções específicas fazendo uma solicitação do GET para a variável [!DNL Offer Library] API que inclui a coleção `@id` ou o nome da coleção no caminho da solicitação.
 
 **Formato da API**
 
@@ -29,7 +30,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | O contêiner onde as coleções estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | Define o schema associado às coleções. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | Uma string usada para corresponder à propriedade `@id` das entidades. A sequência de caracteres corresponde exatamente. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:offer-filter:124bd44648f17ec1` |
+| `id` | Uma string usada para corresponder a `@id` propriedade das entidades. A sequência de caracteres corresponde exatamente. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:offer-filter:124bd44648f17ec1` |
 | `name` | Uma string usada para corresponder à propriedade xdm:name das entidades. A string é correspondida exatamente com maiúsculas, mas caracteres curingas podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Mobile demo` |
 
 **Solicitação**

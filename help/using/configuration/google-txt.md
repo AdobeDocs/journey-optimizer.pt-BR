@@ -11,33 +11,33 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: Configurações do aplicativo
-topic: Administração
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 27%
+source-wordcount: '165'
+ht-degree: 26%
 
 ---
-
 
 # Adicionar um registro TXT do Google a um subdomínio
 
 Os registros TXT são um tipo de registro DNS usado para fornecer informações de texto sobre um domínio, que pode ser lido por fontes externas.
 
-Para garantir um bom delivery de emails para endereços Gmail, o Gerenciamento de Jornadas do Cliente permite adicionar registros especiais TXT de verificação de site do Google aos subdomínios para garantir que eles sejam verificados.
+Para garantir um bom delivery de emails para endereços Gmail, o Gerenciamento de Jornadas do Cliente permite adicionar registros especiais TXT de verificação de site do Google a seus subdomínios para garantir que eles sejam verificados.
 
 >[!NOTE]
 >
-> Essa operação só pode ser executada depois que um subdomínio tiver o status **[!UICONTROL Success]** . Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](access-subdomains.md).
+> Essa operação só pode ser executada depois que um subdomínio tiver a variável **[!UICONTROL Success]** status. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](access-subdomains.md).
 
 Para adicionar um registro TXT do Google ao seu subdomínio, siga estas etapas:
 
-1. Abra o subdomínio no menu **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]**.
+1. Abra o subdomínio do **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** menu.
 
-1. Na seção do registro de texto do Google, digite o código de verificação gerado em [G Suite Admin tools](https://support.google.com/a/answer/183895) e clique em **[!UICONTROL Save]**.
+1. Na seção Google txt record , digite o código de verificação gerado em [Ferramentas administrativas do G Suite](https://support.google.com/a/answer/183895), depois clique em **[!UICONTROL Save]**.
 
    ![](../assets/subdomain-google-txt.png)
 

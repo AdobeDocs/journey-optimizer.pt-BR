@@ -11,17 +11,17 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: Configurações do aplicativo
-topic: Administração
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 7%
+source-wordcount: '116'
+ht-degree: 5%
 
 ---
-
 
 # Alterar os endereços de email principais
 
@@ -29,7 +29,7 @@ Ao direcionar um perfil, vários endereços de email podem estar disponíveis no
 
 Com o Journey Optimizer, você pode determinar qual endereço de email usar a partir do serviço de perfil e priorizar quando vários endereços estiverem disponíveis. Para fazer isso, siga estes passos:
 
-1. Acesse o menu **[!UICONTROL Channels]** `>` **[!UICONTROL General]**.
+1. Acesse o  **[!UICONTROL Channels]** `>` **[!UICONTROL General]** menu.
 1. O campo usado atualmente para determinar os endereços de email dos perfis é exibido nessa tela. Clique em **[!UICONTROL Edit]** para alterá-lo.
 
    ![](../assets/primary-address.png)

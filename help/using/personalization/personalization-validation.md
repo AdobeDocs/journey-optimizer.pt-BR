@@ -1,33 +1,31 @@
 ---
 title: Validação de personalização
 description: Saiba mais sobre a validação de personalização e como solucionar problemas
-feature: Personalização
-topic: Personalização
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
-
 
 # Validação de personalização {#personalization-validation}
 
 ## Mecanismos de validação
 
-Na tela **Editor de expressão**, use o botão **Validar** para verificar a sintaxe de personalização.
+No **Editor de expressão** use a **Validar** para verificar a sintaxe de personalização.
 
 >[!NOTE]
-> A validação é executada automaticamente ao clicar no botão **Add** para fechar a janela do editor.
-
+> A validação é executada automaticamente ao clicar no botão **Adicionar** para fechar a janela do editor.
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Se a sintaxe de personalização não for válida, não será possível fechar a janela do editor de expressão.
-
 
 ## Erros comuns
 
@@ -35,7 +33,7 @@ Na tela **Editor de expressão**, use o botão **Validar** para verificar a sint
 
 Ao tentar fazer referência a um campo que não está definido no esquema.
 
-Nesse caso, **firstName1** não está definido como atributo no schema de perfil:
+Nesse caso **firstName1** não é definido como atributo no schema de perfil:
 
 ```
 {{profile.person.name.firstName1}}
@@ -45,7 +43,7 @@ Nesse caso, **firstName1** não está definido como atributo no schema de perfil
 
 Ao tentar iterar sobre uma string em vez de array:
 
-Nesse caso, **product** não é uma matriz:
+Nesse caso **produto** não é uma matriz:
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -57,7 +55,7 @@ Nesse caso, **product** não é uma matriz:
 
 Quando uma sintaxe de handlebars inválida é usada.
 
-As expressões Handlebars são cercadas com **{{expression}**
+As expressões Handlebars são cercadas por **{{expression}}**
 
 ```
    {{[profile.person.name.firstName}}
@@ -83,7 +81,7 @@ A validação é realizada durante a publicação da mensagem ou durante a valid
  <thead> 
   <tr> 
    <th> Título do erro<br /> </th> 
-   <th> Validação/Resolução <br /> </th> 
+   <th> Validação / Resolução <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -112,9 +110,8 @@ Recurso com id activityID e tipo OfferActivity não encontrado<br/></td>
    <td>O atributo de oferta Atributo de Oferta é inválido.</td> 
    <td>Verifique se o atributo de oferta referenciado no drp de oferta é válido. A seguir estão os atributos válidos: <br/>
 Imagem: deliveryURL, linkURL<br/>
-Texto: content<br/>
+Texto: conteúdo<br/>
 HTML: conteúdo<br/></td> 
   </tr> 
  </tbody> 
 </table>
-

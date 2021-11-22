@@ -1,14 +1,15 @@
 ---
 title: Etapas principais para criar uma oferta
 description: Descubra as principais etapas necessárias para criar uma oferta.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 5631a1937b854c3e14d1816df9e8d30690588303
+exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 12%
+source-wordcount: '342'
+ht-degree: 14%
 
 ---
 
@@ -18,17 +19,17 @@ As principais etapas para criar, configurar e gerenciar ofertas, bem como usá-l
 
 ![](../../assets/offer-create-manage-process.png)
 
-Para obter um exemplo completo mostrando como configurar ofertas, use-as em uma decisão e aproveite essa decisão em um email, confira [esta página](../offers-e2e.md).
+Para obter um exemplo completo mostrando como configurar ofertas, usá-las em uma decisão e aproveitar essa decisão em um email, confira [esta página](../offers-e2e.md).
 
 ## Criar componentes
 
 Antes de começar a criar ofertas, você deve definir vários componentes que usará em suas ofertas.
 
-1. **Crie disposições**, que são contêineres que serão usados para mostrar suas ofertas. Você pode, por exemplo, criar uma disposição que será dedicada apenas a ofertas no formato de imagem e situada na parte superior das mensagens.
+1. **Criar disposições**, que são contêineres que serão usados para mostrar suas ofertas. Você pode, por exemplo, criar uma disposição que será dedicada apenas a ofertas no formato de imagem e situada na parte superior das mensagens.
 
-1. **Crie** regras de decisão que especificarão as condições em que as ofertas serão apresentadas.
+1. **Criar regras de decisão** que especificará as condições em que as ofertas serão apresentadas.
 
-1. **Crie** tags que serão associadas às ofertas, permitindo que você as organize e pesquise facilmente na biblioteca.
+1. **Criar tags** que você associará às ofertas, permitindo organizá-las e pesquisá-las facilmente na biblioteca.
 
 1. Se você quiser definir regras que determinam qual oferta deve ser apresentada primeiro para uma determinada disposição (em vez de considerar as pontuações de prioridade das ofertas), poderá **criar uma fórmula de classificação**.
 
@@ -42,11 +43,11 @@ Antes de começar a criar ofertas, você deve definir vários componentes que us
 
 ## Criar e gerenciar ofertas
 
-1. **Crie ofertas** e configure seu conteúdo e propriedades.
+1. **Criar ofertas** e configure o conteúdo e as propriedades.
 
-1. **Crie ofertas** de fallback, que são as últimas ofertas de recurso a serem exibidas se os clientes não estiverem qualificados para nenhuma das ofertas selecionadas.
+1. **Criar ofertas de fallback**, que são as últimas ofertas de recurso a serem exibidas se os clientes não estiverem qualificados para qualquer uma das ofertas selecionadas.
 
-1. **Crie uma** coleção para incluir as ofertas personalizadas que você criou e usá-las em uma decisão.
+1. **Criar uma coleção** para incluir as ofertas personalizadas que você criou e usá-las em uma decisão.
 
 <table>
 <tr>
@@ -57,11 +58,11 @@ Antes de começar a criar ofertas, você deve definir vários componentes que us
 
 ## Criar e configurar decisões
 
-1. **Crie uma** decisão que combinará disposições com as ofertas personalizadas e as ofertas de fallback. Essa combinação será usada pelo mecanismo do Offer Decisioning para encontrar a melhor oferta para um perfil específico.
+1. **Criar uma decisão** que combinará disposições com as ofertas personalizadas e as ofertas de fallback. Essa combinação será usada pelo mecanismo do Offer Decisioning para encontrar a melhor oferta para um perfil específico.
 
 1. **Configure a decisão**. Para fazer isso, selecione as disposições e, para cada disposição, selecione uma coleção e um fallback.
 
-1. Se necessário, você pode **atribuir uma fórmula de classificação** a uma disposição ao configurar a decisão.
+1. Se necessário, você pode **atribuir uma fórmula de classificação** para uma disposição ao configurar a decisão.
 
 <table>
 <tr>

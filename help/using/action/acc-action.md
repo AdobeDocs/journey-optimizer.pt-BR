@@ -1,13 +1,14 @@
 ---
 title: Integrar ao Adobe Campaign v7/v8
 description: Saiba como integrar com o Adobe Campaign v7/v8
-feature: Ações
-topic: Administração
+feature: Actions
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '448'
 ht-degree: 7%
 
 ---
@@ -36,7 +37,7 @@ Para cada ação configurada, uma atividade de ação está disponível na palet
 
 ## Pré-requisitos
 
-No Campaign, é necessário criar e publicar uma mensagem transacional e seu evento associado. Consulte a [documentação do Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}.
+No Campaign, é necessário criar e publicar uma mensagem transacional e seu evento associado. Consulte a [Documentação do Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}.
 
 Você pode criar sua carga JSON correspondente a cada mensagem seguindo o padrão abaixo. Em seguida, você colará essa carga ao configurar a ação no Journey Orchestration (veja abaixo)
 
@@ -63,11 +64,9 @@ No Journey Optimizer, é necessário configurar uma ação por mensagem transaci
 
 1. Crie uma nova ação. Consulte esta [seção](../action/action.md).
 1. Insira um nome e uma descrição.
-1. No campo **Action type**, selecione **Adobe Campaign Classic**.
-1. Clique no campo **Payload** e cole um exemplo da carga JSON correspondente à mensagem do Campaign. Entre em contato com o Adobe para obter essa carga.
+1. No **Tipo de ação** , selecione **Adobe Campaign Classic**.
+1. Clique no botão **Carga** e cole um exemplo da carga JSON correspondente à mensagem Campaign . Entre em contato com o Adobe para obter essa carga.
 1. Ajuste os diferentes campos para serem estáticos ou variáveis, dependendo de se deseja mapeá-los na tela de Jornada. Determinados campos, como parâmetros de canal para endereços de email e campos de personalização (ctx), você provavelmente desejará defini-los como variáveis para mapeamento no contexto da jornada.
 1. Clique em **Salvar**.
 
 ![](../assets/accintegration1.png)
-
-

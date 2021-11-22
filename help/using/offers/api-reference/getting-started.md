@@ -1,20 +1,21 @@
 ---
 title: Introdução
 description: Saiba como começar a usar a API da Biblioteca de ofertas para executar operações-chave usando o Mecanismo de gerenciamento de decisões.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 773bee50-849f-4b07-9423-67de5279ad28
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '611'
 ht-degree: 6%
 
 ---
 
 # Guia do desenvolvedor da API de gerenciamento de decisões
 
-Este guia do desenvolvedor fornece etapas para ajudá-lo a começar a usar a API [!DNL Offer Library]. O guia fornece exemplos de chamadas de API para executar operações principais usando o Mecanismo de gerenciamento de decisões.
+Este guia do desenvolvedor fornece etapas para ajudá-lo a começar a usar o [!DNL Offer Library] API. O guia fornece exemplos de chamadas de API para executar operações principais usando o Mecanismo de gerenciamento de decisões.
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
@@ -22,18 +23,18 @@ Este guia do desenvolvedor fornece etapas para ajudá-lo a começar a usar a API
 
 Este guia requer uma compreensão funcional dos seguintes componentes do Adobe Experience Platform:
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}: A estrutura padronizada pela qual  [!DNL Experience Platform] organiza os dados de experiência do cliente.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}: O quadro normalizado pelo qual [!DNL Experience Platform] organiza os dados de experiência do cliente.
    * [Noções básicas da composição do schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR){target=&quot;_blank&quot;}: Saiba mais sobre os componentes básicos dos esquemas XDM.
-* [Gerenciamento](../../../using/offers/get-started/starting-offer-decisioning.md) de decisões: Explica os conceitos e os componentes usados para o Experience Decisioning em geral e para o Offer decisioning em particular. Ilustra as estratégias usadas para escolher a melhor opção para apresentar durante a experiência de um cliente.
+* [Gerenciamento de decisões](../../../using/offers/get-started/starting-offer-decisioning.md): Explica os conceitos e os componentes usados para o Experience Decisioning em geral e para o Offer decisioning em particular. Ilustra as estratégias usadas para escolher a melhor opção para apresentar durante a experiência de um cliente.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}: O PQL é um idioma avançado para gravar expressões em instâncias do XDM. O PQL é usado para definir regras de decisão.
 
 ## Lendo exemplos de chamadas de API
 
-Este guia fornece exemplos de chamadas de API para demonstrar como formatar suas solicitações do . Isso inclui caminhos, cabeçalhos necessários e cargas de solicitação formatadas corretamente. O JSON de exemplo retornado nas respostas da API também é fornecido. Para obter informações sobre as convenções usadas na documentação para chamadas de API de exemplo, consulte a seção sobre [como ler chamadas de API de exemplo](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target=&quot;_blank&quot;} no [!DNL Experience Platform] guia de solução de problemas.
+Este guia fornece exemplos de chamadas de API para demonstrar como formatar suas solicitações do . Isso inclui caminhos, cabeçalhos necessários e cargas de solicitação formatadas corretamente. O JSON de exemplo retornado nas respostas da API também é fornecido. Para obter informações sobre as convenções usadas na documentação para chamadas de API de exemplo, consulte a seção sobre [como ler exemplos de chamadas de API](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target=&quot;_blank&quot;} no [!DNL Experience Platform] guia de solução de problemas.
 
 ## Coletar valores para cabeçalhos necessários
 
-Para fazer chamadas para [!DNL Platform] APIs, primeiro complete o [tutorial de autenticação](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}. A conclusão do tutorial de autenticação fornece os valores para cada um dos cabeçalhos necessários em todas as chamadas de API [!DNL Experience Platform], conforme mostrado abaixo:
+Para fazer chamadas para [!DNL Platform] As APIs devem ser concluídas primeiro [tutorial de autenticação](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}. A conclusão do tutorial de autenticação fornece os valores para cada um dos cabeçalhos necessários em todos [!DNL Experience Platform] Chamadas de API, conforme mostrado abaixo:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -47,9 +48,9 @@ Todas as solicitações que contêm uma carga útil (POST, PUT, PATCH) exigem um
 
 Um contêiner é um mecanismo de isolamento para manter diferentes preocupações separadas. A ID do contêiner é o primeiro elemento de caminho para todas as APIs do repositório. Todos os objetos de decisão residem em um contêiner.
 
-Um administrador pode agrupar principais, recursos e permissões de acesso semelhantes em perfis. Isso reduz a carga de gerenciamento e é compatível com [Adobe Admin Console](https://adminconsole.adobe.com/). Você deve ser um administrador de produto do Adobe Experience Platform em sua organização para criar perfis e atribuir usuários a eles. É suficiente criar perfis de produto que correspondam a determinadas permissões em uma única etapa e, em seguida, simplesmente adicionar usuários a esses perfis. Os perfis atuam como grupos aos quais foram concedidas permissões e cada usuário real ou técnico nesse grupo herda essas permissões.
+Um administrador pode agrupar principais, recursos e permissões de acesso semelhantes em perfis. Isso reduz a carga administrativa e é compatível com [Adobe Admin Console](https://adminconsole.adobe.com/). Você deve ser um administrador de produto do Adobe Experience Platform em sua organização para criar perfis e atribuir usuários a eles. É suficiente criar perfis de produto que correspondam a determinadas permissões em uma única etapa e, em seguida, simplesmente adicionar usuários a esses perfis. Os perfis atuam como grupos aos quais foram concedidas permissões e cada usuário real ou técnico nesse grupo herda essas permissões.
 
-Atribuído privilégios de administrador, você pode conceder ou retirar permissões aos usuários por meio do [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Para obter mais informações, consulte a [Visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
+Com determinados privilégios de administrador, você pode conceder ou retirar permissões aos usuários por meio do [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Para obter mais informações, consulte o [Visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 ### Listar contêineres acessíveis para usuários e integrações
 
@@ -78,7 +79,7 @@ curl -X GET \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre contêineres de gerenciamento de decisões. Isso inclui um atributo `instanceId`, cujo valor é a ID do contêiner.
+Uma resposta bem-sucedida retorna informações sobre contêineres de gerenciamento de decisões. Isso inclui uma `instanceId` , cujo valor é a ID do contêiner.
 
 ```json
 {
@@ -125,7 +126,7 @@ Uma resposta bem-sucedida retorna informações sobre contêineres de gerenciame
 
 ## Próximas etapas
 
-Este documento cobriu o conhecimento de pré-requisito necessário para fazer chamadas para a API [!DNL Offer Library], incluindo a aquisição da ID do contêiner. Agora você pode prosseguir para as chamadas de exemplo fornecidas neste guia do desenvolvedor e seguir com suas instruções.
+Este documento cobria os pré-requisitos necessários para fazer chamadas para o [!DNL Offer Library] API, incluindo a aquisição da ID do contêiner. Agora você pode prosseguir para as chamadas de exemplo fornecidas neste guia do desenvolvedor e seguir com suas instruções.
 
 ## Tutorial em vídeo {#video}
 

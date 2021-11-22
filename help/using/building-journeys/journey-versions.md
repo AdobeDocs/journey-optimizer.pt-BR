@@ -27,7 +27,7 @@ Se precisar modificar para uma jornada ao vivo, será necessário criar uma nova
 >
 >Para saber mais sobre as limitações de versões do jornada, consulte [esta página](../limitations.md#journey-versions-limitations)
 
-1. Abra a versão mais recente da jornada dinâmica, clique em **[!UICONTROL Create a new version]** e confirme.
+1. Abra a versão mais recente da jornada dinâmica e clique em **[!UICONTROL Create a new version]** e confirme.
 
    ![](../assets/journeyversions2.png)
 
@@ -45,4 +45,4 @@ As versões do Jornada podem ser interrompidas individualmente. Todas as versõe
 
 >[!NOTE]
 >
->Ao publicar uma nova versão de uma jornada, a versão anterior automaticamente termina e alterna para o status **Closed**. Nenhuma entrada na jornada acontecerá. Mesmo que você pare a versão mais recente, a versão anterior permanecerá fechada.
+>Ao publicar uma nova versão de uma jornada, a versão anterior automaticamente termina e alterna para a **Fechado** status. Nenhuma entrada na jornada acontecerá. Mesmo que você pare a versão mais recente, a versão anterior permanecerá fechada.

@@ -1,13 +1,14 @@
 ---
 title: Listar ofertas personalizadas
 description: Uma oferta personalizada é uma mensagem de marketing personalizável com base em regras e restrições de elegibilidade.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '262'
 ht-degree: 6%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 6%
 
 Uma oferta personalizada é uma mensagem de marketing personalizável com base em regras e restrições de elegibilidade.
 
-É possível exibir uma lista de todas as ofertas personalizadas em um contêiner ao executar uma única solicitação de GET para a API [!DNL Offer Library].
+É possível exibir uma lista de todas as ofertas personalizadas em um contêiner ao executar uma única solicitação de GET para a [!DNL Offer Library] API.
 
 **Formato da API**
 
@@ -53,7 +54,7 @@ Os parâmetros de consulta mais comuns para paginação incluem:
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `q` | Uma string de consulta opcional a ser procurada nos campos selecionados. A sequência de consulta deve estar em letras minúsculas e pode ser cercada por aspas duplas para evitar que seja tocada e para evitar caracteres especiais. Os caracteres `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm um significado especial e devem ser evitados com uma barra invertida ao aparecerem na string de consulta. | `discounted offers` |
+| `q` | Uma string de consulta opcional a ser procurada nos campos selecionados. A sequência de consulta deve estar em letras minúsculas e pode ser cercada por aspas duplas para evitar que seja tocada e para evitar caracteres especiais. Os caracteres `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm um significado especial e devem ser evitadas com uma barra invertida ao aparecerem na string de consulta. | `discounted offers` |
 | `qop` | Aplica operador AND ou OR a valores em q parâmetro da string de consulta. | `AND` / `OR` |
 | `field` | Lista opcional de campos para os quais limitar a pesquisa. Esse parâmetro pode ser repetido da seguinte maneira: field=field1[,field=field2,...] e (expressões de caminho estão na forma de caminhos separados por pontos, como _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Classifique os resultados por uma propriedade específica. Adicionar um `-` antes do título (`orderby=-title`) classificará os itens por título em ordem decrescente (Z-A). | `-repo:createdDate` |

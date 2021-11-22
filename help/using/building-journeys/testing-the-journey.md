@@ -72,7 +72,7 @@ O **[!UICONTROL Trigger an event]** permite configurar um evento que fará com q
 
 Como pré-requisito, você deve saber quais perfis são sinalizados como perfis de teste no Adobe Experience Platform. Na verdade, o modo de teste permite somente esses perfis na jornada e o evento deve conter uma ID. A ID esperada depende da configuração do evento. Pode ser um ECID ou um endereço de email, por exemplo. O valor dessa chave precisa ser adicionado na variável **Identificador de perfil** campo.
 
-Se a jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento. A interface ajuda a transmitir as informações certas na carga do evento e garantir que o tipo de informação esteja correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
+Se a jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento. A interface ajuda a transmitir as informações certas na carga útil do evento e garantir que o tipo de informação esteja correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
 
 ![](../assets/journeytest4.png)
 
@@ -96,7 +96,7 @@ O fluxo visual funciona se o evento é acionado por meio da interface ou externa
 
 O modo de teste também está disponível para jornadas que usam um evento com base em regras. Para obter mais informações sobre eventos com base em regras, consulte [esta página](../event/about-events.md).
 
-Ao acionar um evento, a variável **Configuração do evento** permite definir os parâmetros de evento que serão aprovados no teste. Você pode exibir a condição de ID do evento clicando no ícone de dica de ferramenta no canto superior direito. Uma dica de ferramenta também está disponível ao lado de cada campo que faz parte da avaliação da regra.
+Ao acionar um evento, a variável **Configuração do evento** permite definir os parâmetros de evento que serão aprovados no teste. Você pode exibir a condição da ID do evento clicando no ícone de dica de ferramenta no canto superior direito. Uma dica de ferramenta também está disponível ao lado de cada campo que faz parte da avaliação da regra.
 
 ![](../assets/jo-event8.png)
 

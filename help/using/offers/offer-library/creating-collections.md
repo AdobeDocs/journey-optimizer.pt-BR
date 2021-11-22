@@ -1,14 +1,15 @@
 ---
 title: Criar coleções
 description: Saiba como organizar ofertas usando coleções.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 4%
+source-wordcount: '291'
+ht-degree: 3%
 
 ---
 
@@ -18,19 +19,19 @@ As coleções permitem organizar as ofertas, reagrupando-as em categorias de sua
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-A lista de coleções de oferta pode ser acessada no menu **[!UICONTROL Offers]**.
+A lista de coleções de ofertas pode ser acessada na variável **[!UICONTROL Offers]** menu.
 
 ![](../../assets/collections_list.png)
 
 Você pode criar dois tipos de coleções:
 
-* **As** coleções dinâmicas são coleções de ofertas com base em tags. Essas coleções são atualizadas automaticamente. Por exemplo, se uma nova oferta for criada com a tag selecionada, ela será automaticamente adicionada à coleção.
+* **Coleções dinâmicas** são coleções de ofertas com base em tags. Essas coleções são atualizadas automaticamente. Por exemplo, se uma nova oferta for criada com a tag selecionada, ela será automaticamente adicionada à coleção.
 
-* **As** coleções estáticas são coleções criadas selecionando manualmente as ofertas individuais a serem incluídas na Coleção. A coleção só pode ser atualizada manualmente adicionando mais ofertas a ela.
+* **Coleções estáticas** são coleções criadas ao selecionar manualmente ofertas individuais para incluir na coleção. A coleção só pode ser atualizada manualmente adicionando mais ofertas a ela.
 
 Para criar uma coleção, siga estas etapas:
 
-1. Vá para a guia **[!UICONTROL Collections]** e clique em **[!UICONTROL Create collection]**.
+1. Vá para o **[!UICONTROL Collections]** e, em seguida, clique em **[!UICONTROL Create collection]**.
 
 1. Especifique o nome e o tipo de coleção a ser criada.
 

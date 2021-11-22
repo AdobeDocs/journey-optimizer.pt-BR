@@ -1,26 +1,27 @@
 ---
 title: Atualizar uma oferta substituta
 description: Uma oferta de fallback é enviada para os clientes se eles não estiverem qualificados para outras ofertas
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '169'
 ht-degree: 11%
 
 ---
 
 # Atualizar uma oferta substituta
 
-Você pode modificar ou atualizar uma oferta de fallback no contêiner fazendo uma solicitação de PATCH para a API [!DNL Offer Library].
+Você pode modificar ou atualizar uma oferta de fallback em seu contêiner fazendo uma solicitação de PATCH para a [!DNL Offer Library] API.
 
-Para obter mais informações sobre o Patch JSON, incluindo operações disponíveis, consulte a [documentação oficial do Patch JSON](http://jsonpatch.com/).
+Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação do patch JSON](http://jsonpatch.com/).
 
 ## Aceitar e digitar cabeçalhos de tipo de conteúdo
 
-A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -61,7 +62,7 @@ curl -X PATCH \
 
 | Parâmetro | Descrição |
 | --------- | ----------- |
-| `op` | A chamada de operação usada para definir a ação necessária para atualizar a conexão. As operações incluem: `add`, `replace` e `remove`. |
+| `op` | A chamada de operação usada para definir a ação necessária para atualizar a conexão. As operações incluem: `add`, `replace`e `remove`. |
 | `path` | O caminho do parâmetro a ser atualizado. |
 | `value` | O novo valor com o qual você deseja atualizar seu parâmetro. |
 

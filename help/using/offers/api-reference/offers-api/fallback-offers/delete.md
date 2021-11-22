@@ -1,20 +1,21 @@
 ---
 title: Excluir uma oferta substituta
 description: Uma oferta de fallback é enviada para os clientes se eles não estiverem qualificados para outras ofertas
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '153'
 ht-degree: 9%
 
 ---
 
 # Excluir uma oferta substituta
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma oferta de fallback. Somente as ofertas de fallback que você criar no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando o $id da oferta de fallback que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma oferta de fallback. Somente as ofertas de fallback que você criar no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando o $id da oferta de fallback que você deseja excluir.
 
 **Formato da API**
 

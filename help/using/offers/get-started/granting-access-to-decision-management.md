@@ -16,11 +16,11 @@ ht-degree: 7%
 
 # Conceder acesso ao gerenciamento de decisões {#granting-acess-to-decision-management}
 
-As permissões para acessar e usar os recursos do offer decisioning são gerenciadas usando o [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+As permissões para acessar e usar os recursos do offer decisioning são gerenciadas com o [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 
 Para conceder acesso à funcionalidade de Gerenciamento de decisões, é necessário criar um **[!UICONTROL Product profile]** e atribuir as permissões correspondentes aos usuários. Saiba mais sobre como gerenciar [!DNL Journey Optimizer] usuários e permissões em [esta seção](../../administration/permissions.md).
 
-As permissões específicas do Gerenciamento de decisões são listadas [nesta seção](../../administration/high-low-permissions.md#manage-decisioning).
+As permissões específicas do Gerenciamento de decisões estão listadas em [esta seção](../../administration/high-low-permissions.md#manage-decisioning).
 
 <!--If you are a [!DNL Journey Optimizer] user leveraging the **Decision Management** functionality, you need to have the [Decision management permissions](../../administration/high-low-permissions.md#decisions-permissions) enabled to acces all related capabilities. Learn more on managing [!DNL Journey Optimizer] users and permissions in [this section](../../administration/permissions.md).
 
@@ -30,11 +30,11 @@ Grant access to Offer Decisioning
 
 The steps below only apply to **Experience Platform users** leveraging the [!DNL Offer Decisioning] service.-->
 
-1. Abra o [Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html) e selecione **[!UICONTROL Adobe Experience Platform]**.
+1. Abra o [Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html), em seguida selecione **[!UICONTROL Adobe Experience Platform]**.
 
    <!--![](../../assets/offers_admin_console.png)-->
 
-1. Os perfis de produto do serviço são exibidos. Para criar um novo perfil de produto, clique no botão **[!UICONTROL New Profile]**.
+1. Os perfis de produto do serviço são exibidos. Para criar um novo perfil de produto, clique no botão **[!UICONTROL New Profile]** botão.
 
    ![](../../assets/offers_rights_productprofile.png)
 
@@ -52,7 +52,7 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
    ![](../../assets/enable-services.png)
 
-1. Na seção **[!UICONTROL Decision Management]**, clique no botão **+** para atribuir permissões ao perfil do produto e, em seguida, clique em **[!UICONTROL Save]**.
+1. No **[!UICONTROL Decision Management]** clique no botão **+** para atribuir permissões ao perfil do produto, em seguida, clique em **[!UICONTROL Save]**.
 
    ![](../../assets/configure-profile.png)
 
@@ -84,5 +84,5 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
 >[!NOTE]
 >
->Para obter mais detalhes sobre como gerenciar permissões de usuários, consulte a [documentação do Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+>Para obter mais detalhes sobre como gerenciar permissões de usuários, consulte [Documentação do Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 

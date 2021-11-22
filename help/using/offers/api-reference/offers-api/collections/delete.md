@@ -1,20 +1,21 @@
 ---
 title: Excluir uma coleção
 description: Coleções são subconjuntos de ofertas com base em condições predefinidas definidas por um profissional de marketing, como a categoria da oferta.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '152'
 ht-degree: 8%
 
 ---
 
 # Excluir uma coleção
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma coleção. Somente as coleções criadas no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando o $id da coleção que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma coleção. Somente as coleções criadas no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando o $id da coleção que você deseja excluir.
 
 **Formato da API**
 

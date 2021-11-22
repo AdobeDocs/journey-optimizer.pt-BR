@@ -1,14 +1,15 @@
 ---
 title: campos de jornada
 description: campos de jornada
-feature: Relatório
-topic: Gerenciamento de conteúdo
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 29%
+source-wordcount: '68'
+ht-degree: 26%
 
 ---
 
@@ -40,7 +41,7 @@ Descrição da jornada.
 
 Tipo: sequência de caracteres
 
-## versão
+## version
 
 Versão, representada como `major`.`minor`
 

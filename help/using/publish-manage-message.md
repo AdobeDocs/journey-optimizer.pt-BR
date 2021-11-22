@@ -2,14 +2,15 @@
 title: Publicar e modificar uma mensagem
 description: Saiba como publicar e atualizar suas mensagens
 snippet: y
-feature: Jornadas
-topic: Gerenciamento de conteúdo
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
+exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 4%
+source-wordcount: '216'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 ## Publicar uma mensagem {#publish-message}
 
-Depois que a mensagem tiver sido criada, você poderá publicá-la para disponibilizá-la para execução.
+Após a criação da mensagem, é possível publicá-la para disponibilizá-la para execução.
 
 >[!CAUTION]
 >
@@ -25,9 +26,9 @@ Depois que a mensagem tiver sido criada, você poderá publicá-la para disponib
 
 ![](assets/publish-message.png)
 
-Depois que a mensagem é publicada, ela é adicionada à lista de mensagens com o status **[!UICONTROL Published]** .
+Depois que a mensagem é publicada, ela é adicionada à lista de mensagens com a variável **[!UICONTROL Published]** status.
 
-Agora ele está pronto para ser acionado por um ou mais [jornada](building-journeys/journey.md).
+Agora está pronto para ser acionado por um ou mais [jornada](building-journeys/journey.md).
 
 ## Atualizar uma mensagem só de leitura {#modify-message}
 

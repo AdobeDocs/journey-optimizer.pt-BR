@@ -1,14 +1,15 @@
 ---
 title: Biblioteca de funções dos operadores
 description: Biblioteca de funções dos operadores
-feature: Personalização
-topic: Personalização
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 12%
+source-wordcount: '302'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +21,7 @@ As funções booleanas são usadas para executar lógica booleana em elementos d
 
 ### E{#and}
 
-A função `and` é usada para criar uma conjunção lógica.
+O `and` é usada para criar uma conjunção lógica.
 
 **Formato**
 
@@ -38,7 +39,7 @@ A operação seguinte irá devolver todas as pessoas com o país de origem como 
 
 ### Ou{#or}
 
-A função `or` é usada para criar uma disjunção lógica.
+O `or` é usada para criar uma disjunção lógica.
 
 **Formato**
 
@@ -85,7 +86,7 @@ As funções de comparação são usadas para comparar diferentes expressões e 
 
 ### Igual a{#equals}
 
-A função `=` (igual) verifica se um valor ou expressão é igual a outro valor ou expressão.
+O `=` (igual) verifica se um valor ou expressão é igual a outro valor ou expressão.
 
 **Formato**
 
@@ -103,7 +104,7 @@ A operação a seguir referida verifica se o país de endereço de origem é a F
 
 ### Diferente de{#notequal}
 
-A função `!=` (não igual) verifica se um valor ou expressão é **not** igual a outro valor ou expressão.
+O `!=` (não é igual) verifica se um valor ou expressão é **not** igual a outro valor ou expressão.
 
 **Formato**
 
@@ -121,7 +122,7 @@ A operação seguinte verifica se o país de endereço de origem não é a Fran�
 
 ### Greater than{#greaterthan}
 
-A função `>` (maior que) é usada para verificar se o primeiro valor é maior que o segundo valor.
+O `>` (greater than) é usada para verificar se o primeiro valor é maior que o segundo valor.
 
 **Formato**
 
@@ -137,9 +138,9 @@ A operação a seguir define pessoas que nasceram estritamente após 1970.
 {%= profile.person.birthYear > 1970 %}
 ```
 
-### Greater than or equal to{#greaterthanorequal}
+### Maior que ou igual a{#greaterthanorequal}
 
-A função `>=` (maior que ou igual a) é usada para verificar se o primeiro valor é maior ou igual ao segundo valor.
+O `>=` (maior que ou igual a) é usada para verificar se o primeiro valor é maior ou igual ao segundo valor.
 
 **Formato**
 
@@ -155,9 +156,9 @@ A operação a seguir define pessoas nascidas em ou após 1970.
 {%= profile.person.birthYear >= 1970 %}
 ```
 
-### Less than{#lessthan}
+### Menos que{#lessthan}
 
-A função de comparação `<` (menor que) é usada para verificar se o primeiro valor é menor que o segundo valor.
+O `<` (less than) é usada para verificar se o primeiro valor é menor que o segundo valor.
 
 **Formato**
 
@@ -175,7 +176,7 @@ A operação a seguir define pessoas nascidas antes de 2000.
 
 ### Less than or equal to{#lessthanorequal}
 
-A função de comparação `<=` (menor que ou igual a) é usada para verificar se o primeiro valor é menor que ou igual ao segundo valor.
+O `<=` A função de comparação (menor que ou igual a) é usada para verificar se o primeiro valor é menor que ou igual ao segundo valor.
 
 **Formato**
 
@@ -192,4 +193,3 @@ A operação a seguir define pessoas nascidas em 2000 ou antes.
 ```
 
 **Operações com números**
-

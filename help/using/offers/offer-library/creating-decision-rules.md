@@ -1,14 +1,15 @@
 ---
 title: Criar regras de decisão
 description: Saiba como criar regras de decisão no Adobe Experience Platform.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
+exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 15%
+source-wordcount: '282'
+ht-degree: 14%
 
 ---
 
@@ -20,19 +21,19 @@ Por exemplo, você pode especificar que deseja que somente uma &#39;Oferta de ro
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-A lista de regras de decisão criadas pode ser acessada no menu **[!UICONTROL Components]**.
+A lista de regras de decisão criadas pode ser acessada na variável **[!UICONTROL Components]** menu.
 
 ![](../../assets/decision_rules_list.png)
 
 Para criar uma regra de decisão, siga estas etapas:
 
-1. Vá para a guia **[!UICONTROL Rules]** e clique em **[!UICONTROL Create rule]**.
+1. Vá para o **[!UICONTROL Rules]** e, em seguida, clique em **[!UICONTROL Create rule]**.
 
    ![](../../assets/offers_decision_rule_creation.png)
 
 1. Nomeie a regra, forneça uma descrição e configure-a de acordo com suas necessidades.
 
-   Para fazer isso, o **Construtor de segmentos** está disponível para ajudar você a criar as condições da regra. [Saiba mais](../../segment/about-segments.md)
+   Para fazer isso, o **Construtor de segmentos** O está disponível para ajudar a criar as condições da regra. [Saiba mais](../../segment/about-segments.md)
 
    Neste exemplo, a regra direcionará os clientes que têm o nível de fidelidade &quot;Gold&quot;.
 
@@ -40,7 +41,7 @@ Para criar uma regra de decisão, siga estas etapas:
 
    >[!NOTE]
    >
-   >O Construtor de segmentos fornecido para criar regras de decisão apresenta algumas especificidades em comparação com a usada com o serviço **[!UICONTROL Audience Destinations]**. Por exemplo, a guia **[!UICONTROL Segments]** não está disponível para uso. No entanto, o processo global descrito na documentação do Construtor de segmentos ainda é válido para criar regras de decisão de ofertas.
+   >O Construtor de segmentos fornecido para criar regras de decisão apresenta algumas especificidades em comparação com a usada com a variável **[!UICONTROL Audience Destinations]** serviço. Por exemplo, a variável **[!UICONTROL Segments]** não está disponível para uso. No entanto, o processo global descrito na documentação do Construtor de segmentos ainda é válido para criar regras de decisão de ofertas.
 
 1. Clique em **[!UICONTROL Save]** para confirmar.
 
@@ -50,7 +51,7 @@ Para criar uma regra de decisão, siga estas etapas:
 
 >[!CAUTION]
 >
->No momento, as ofertas baseadas em eventos não são suportadas em [!DNL Journey Optimizer]. Se você criar uma regra de decisão baseada em um [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, não será possível aproveitá-la em uma oferta.
+>No momento, as ofertas baseadas em eventos não são compatíveis com o [!DNL Journey Optimizer]. Se você criar uma regra de decisão com base em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, você não poderá aproveitá-lo em uma oferta.
 
 ## Tutorial em vídeo {#video}
 

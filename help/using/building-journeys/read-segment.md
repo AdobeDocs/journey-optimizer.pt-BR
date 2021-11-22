@@ -19,7 +19,7 @@ ht-degree: 4%
 
 A atividade Ler segmento permite que você faça com que todos os indivíduos pertencentes a um segmento do Adobe Experience Platform entrem em uma jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente.
 
-Considere como exemplo o segmento &quot;Abertura e check-out do aplicativo Luma&quot; criado no caso de uso [Criar segmentos](../segment/about-segments.md). Com a atividade Ler segmento , é possível fazer com que todos os indivíduos pertencentes a esse segmento entrem em uma jornada e façam com que eles fluam em jornadas individualizadas que aproveitarão todas as funcionalidades de jornada: condições, cronômetros, eventos, ações.
+Vejamos como exemplo o segmento &quot;Abertura e check-out do aplicativo Luma&quot; criado na [Construir segmentos](../segment/about-segments.md) caso de uso. Com a atividade Ler segmento , é possível fazer com que todos os indivíduos pertencentes a esse segmento entrem em uma jornada e façam com que eles fluam em jornadas individualizadas que aproveitarão todas as funcionalidades de jornada: condições, cronômetros, eventos, ações.
 
 >[!NOTE]
 >
@@ -29,35 +29,35 @@ Considere como exemplo o segmento &quot;Abertura e check-out do aplicativo Luma&
 
 As etapas para configurar a atividade Ler segmento são as seguintes:
 
-1. Expanda a categoria **[!UICONTROL Orchestration]** e solte uma atividade **[!UICONTROL Read Segment]** na tela.
+1. Expanda a **[!UICONTROL Orchestration]** categoria e solte uma **[!UICONTROL Read Segment]** atividade na tela.
 
    A atividade deve ser posicionada como a primeira etapa de uma jornada.
 
 1. Adicione um **[!UICONTROL Label]** à atividade (opcional).
 
-1. No campo **[!UICONTROL Segment]**, escolha Adobe Experience Platform segment que inserirá a jornada e, em seguida, clique em **[!UICONTROL Save]**.
+1. No **[!UICONTROL Segment]** escolha o segmento do Adobe Experience Platform que irá inserir a jornada e clique em **[!UICONTROL Save]**.
 
    Observe que você pode personalizar as colunas exibidas na lista e classificá-las.
 
    >[!NOTE]
    >
-   >Somente os indivíduos com os status de participação do segmento **Realizado** e **Existente** entrarão na jornada. Para obter mais informações sobre como avaliar um segmento, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Somente os indivíduos com a variável **Realizado** e **Existente** os status de participação do segmento inserirão a jornada. Para obter mais informações sobre como avaliar um segmento, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
    ![](../assets/read-segment-selection.png)
 
-   Depois que o segmento é adicionado, o botão **[!UICONTROL Copy]** permite copiar o nome e a ID:
+   Depois que o segmento é adicionado, a variável **[!UICONTROL Copy]** permite copiar o nome e a ID:
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/read-segment-copy.png)
 
-1. No campo **[!UICONTROL Namespace]**, escolha o namespace a ser usado para identificar os indivíduos. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace).
+1. No **[!UICONTROL Namespace]** escolha o namespace a ser usado para identificar os indivíduos. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
    >Os indivíduos pertencentes a um segmento que não tem a identidade (namespace) selecionada entre suas identidades diferentes não podem inserir a jornada.
 
-1. Defina o campo **[!UICONTROL Throttling rate]** para o limite de taxa de transferência da atividade do segmento de leitura.
+1. Defina as **[!UICONTROL Throttling rate]** para o limite de taxa de transferência da atividade de segmento de leitura.
 
    Esse valor é armazenado na carga da versão do jornada. O valor padrão é 17.000 mensagens por segundo. Você pode modificar esse valor de 500 a 17.000 mensagens por segundo.
 
@@ -65,7 +65,7 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
    >
    >A taxa de limitação geral por sandbox é definida como 20.000 mensagens por segundo. Portanto, a taxa de limitação de todos os segmentos de leitura executados simultaneamente na mesma sandbox adiciona até no máximo 20.000 mensagens por segundo. Não é possível modificar esta tampa.
 
-1. A atividade **[!UICONTROL Read Segment]** permite especificar a hora em que o segmento entrará na jornada. Para fazer isso, clique no link **[!UICONTROL Edit journey schedule]** para acessar as propriedades da jornada e configure o campo **[!UICONTROL Scheduler type]**.
+1. O **[!UICONTROL Read Segment]** permite especificar a hora em que o segmento entrará na jornada. Para fazer isso, clique no botão **[!UICONTROL Edit journey schedule]** para acessar as propriedades da jornada e configure a variável **[!UICONTROL Scheduler type]** campo.
 
    ![](../assets/read-segment-schedule.png)
 
@@ -73,13 +73,13 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
 
    >[!NOTE]
    >
-   >Observe que a seção **[!UICONTROL Schedule]** só está disponível quando uma atividade **[!UICONTROL Read Segment]** foi solta na tela.
+   >Observe que a variável **[!UICONTROL Schedule]** só estará disponível quando uma **[!UICONTROL Read Segment]** A atividade foi solta na tela.
 
    ![](../assets/read-segment-schedule-list.png)
 
 ### Testar e publicar a jornada {#testing-publishing}
 
-A atividade **[!UICONTROL Read Segment]** permite testar a jornada em um perfil unitário ou em 100 perfis de teste aleatório selecionados entre os perfis qualificados para o segmento.
+O **[!UICONTROL Read Segment]** A atividade permite testar a jornada em um perfil unitário ou em 100 perfis de teste aleatório selecionados entre os perfis qualificados para o segmento.
 
 Para fazer isso, ative o modo de teste e selecione a opção desejada no painel esquerdo.
 
@@ -87,7 +87,7 @@ Para fazer isso, ative o modo de teste e selecione a opção desejada no painel 
 
 Em seguida, você pode configurar e executar o modo de teste como de costume. [Saiba como testar uma jornada](testing-the-journey.md).
 
-Quando o teste estiver em execução, o botão **[!UICONTROL Show logs]** permitirá que você veja os resultados do teste de acordo com a opção de teste selecionada:
+Quando o teste estiver em execução, a função **[!UICONTROL Show logs]** permite ver os resultados do teste de acordo com a opção de teste selecionada:
 
 * **[!UICONTROL Single profile at a time]**: os registros de teste exibem as mesmas informações que ao usar o modo de teste unitário. Para obter mais informações, consulte [esta seção](testing-the-journey.md#viewing_logs)
 
@@ -97,7 +97,7 @@ Quando o teste estiver em execução, o botão **[!UICONTROL Show logs]** permit
 
    ![](../assets/read-segment-log.png)
 
-Depois que os testes forem bem-sucedidos, você poderá publicar sua jornada (consulte [Publicação da jornada](publishing-the-journey.md)). Os indivíduos pertencentes ao segmento inserirão a jornada na data/hora especificada na seção de propriedades da jornada **[!UICONTROL Scheduler]**.
+Após os testes serem bem-sucedidos, você pode publicar sua jornada (consulte [Publicar a jornada](publishing-the-journey.md)). Os indivíduos pertencentes ao segmento inserirão a jornada na data/hora especificada nas propriedades da jornada **[!UICONTROL Scheduler]** seção.
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Depois que os testes forem bem-sucedidos, você poderá publicar sua jornada (co
 
 ## Direcionamento de público-alvo em jornadas baseadas em segmentos
 
-As jornadas baseadas em segmentos sempre começam com uma atividade **Ler segmento** para recuperar indivíduos pertencentes a um segmento do Adobe Experience Platform.
+As jornadas baseadas em segmentos sempre começam com um **Ler segmento** atividade para recuperar indivíduos pertencentes a um segmento do Adobe Experience Platform.
 
 O público-alvo pertencente ao segmento é recuperado uma vez ou regularmente.
 
@@ -114,7 +114,7 @@ Depois de inserir a jornada, você pode criar casos de uso de orquestração de 
 
 **Segmentação**
 
-Você pode usar condições para executar a segmentação usando a atividade **Condição**. Por exemplo, você pode fazer com que VIP pessoas sigam um caminho específico e não VIP fluxo em outro caminho.
+Você pode usar as condições para executar a segmentação usando o **Condição** atividade . Por exemplo, você pode fazer com que VIP pessoas sigam um caminho específico e não VIP fluxo em outro caminho.
 
 A segmentação pode ser baseada em:
 
@@ -128,7 +128,7 @@ A segmentação pode ser baseada em:
 
 **Exclusão**
 
-A mesma atividade **Condition** usada para segmentação (veja acima) também permite excluir parte da população. Por exemplo, você pode excluir VIP pessoas fazendo com que elas fluam para uma ramificação com uma etapa final logo em seguida.
+O mesmo **Condição** A atividade usada para segmentação (veja acima) também permite excluir parte da população. Por exemplo, você pode excluir VIP pessoas fazendo com que elas fluam para uma ramificação com uma etapa final logo em seguida.
 
 Essa exclusão pode ocorrer logo após a recuperação do segmento, para fins de contagem de população ou ao longo de uma jornada de várias etapas.
 

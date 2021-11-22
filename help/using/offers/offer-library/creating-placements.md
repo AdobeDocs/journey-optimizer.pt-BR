@@ -1,13 +1,14 @@
 ---
 title: Criar inserções
 description: Saiba como criar disposições no Adobe Experience Platform.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '215'
 ht-degree: 17%
 
 ---
@@ -22,7 +23,7 @@ No exemplo abaixo, há três disposições, correspondentes a diferentes tipos d
 
 ![](../../assets/offers_placement_schema.png)
 
-A lista de disposições pode ser acessada no menu **[!UICONTROL Components]**. Os filtros estão disponíveis para ajudá-lo a recuperar disposições de acordo com um canal ou conteúdo específico.
+A lista de disposições pode ser acessada na seção **[!UICONTROL Components]** menu. Os filtros estão disponíveis para ajudá-lo a recuperar disposições de acordo com um canal ou conteúdo específico.
 
 ![](../../assets/placements_filter.png)
 

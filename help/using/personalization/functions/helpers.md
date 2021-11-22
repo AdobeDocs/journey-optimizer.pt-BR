@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## Valor de Fallback Padrão{#default-value}
 
-O auxiliar `Default Fallback Value` é usado para retornar um valor de fallback padrão se um atributo estiver vazio ou nulo. Esse mecanismo funciona para atributos de perfil e eventos do Jornada.
+O `Default Fallback Value` helper é usado para retornar um valor de fallback padrão se um atributo estiver vazio ou nulo. Esse mecanismo funciona para atributos de perfil e eventos do Jornada.
 
 **Sintaxe**
 
@@ -25,11 +25,11 @@ O auxiliar `Default Fallback Value` é usado para retornar um valor de fallback 
 Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 ```
 
-Neste exemplo, o valor `there` é exibido se o atributo `firstName` desse perfil estiver vazio ou for nulo.
+Neste exemplo, o valor `there` é exibido se a variável `firstName` deste perfil está vazio ou é nulo.
 
 ## Condições{#if-function}
 
-A ajuda `if` é usada para definir um bloco condicional.
+O `if` helper é usado para definir um bloco condicional.
 Se a avaliação da expressão retornar true, o bloco será renderizado, caso contrário, será ignorado.
 
 **Sintaxe**
@@ -39,8 +39,8 @@ Se a avaliação da expressão retornar true, o bloco será renderizado, caso co
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-Após a ajuda `if`, você pode inserir uma instrução `else` para especificar um bloco de código a ser executado, se a mesma condição for falsa.
-A instrução `elseif` especificará uma nova condição para teste se a primeira instrução retornar false.
+Seguindo `if` auxiliar, você pode inserir um `else` para especificar um bloco de código a ser executado, se a mesma condição for false.
+O `elseif` especificará uma nova condição para testar se a primeira instrução retorna false.
 
 
 **Formato**
@@ -116,12 +116,12 @@ A instrução `elseif` especificará uma nova condição para teste se a primeir
 
 >[!NOTE]
 >
->Para saber mais sobre o serviço de segmentação e segmentação, consulte esta [seção](../../segment/about-segments.md).
+>Para saber mais sobre o serviço de segmentação e segmentação, consulte esta seção [seção](../../segment/about-segments.md).
 
 
 ## Exceto{#unless}
 
-A ajuda `unless` é usada para definir um bloco condicional. Por oposição ao auxiliar `if`, se a avaliação da expressão retornar false, o bloco será renderizado.
+O `unless` helper é usado para definir um bloco condicional. Por oposição à `if`  auxiliar, se a avaliação da expressão retornar false, o bloco será renderizado.
 
 **Sintaxe**
 
@@ -143,9 +143,8 @@ Some edu specific content Content
 
 ## Cada{#each}
 
-O auxiliar `each` é usado para iterar sobre uma matriz.
-A sintaxe do auxiliar é ```{{#each ArrayName}}``` YourContent {{/each}}
-Podemos fazer referência aos itens de matriz individuais usando a palavra-chave **this** dentro do bloco. O índice do elemento da matriz pode ser renderizado usando {{@index}}.
+O `each` helper é usado para iterar sobre uma matriz.
+A sintaxe do auxiliar é ```{{#each ArrayName}}``` SeuConteúdo {{/each}} Podemos fazer referência a itens de matriz individuais usando a palavra-chave **this** dentro do bloco. O índice do elemento da matriz pode ser renderizado usando {{@index}}.
 
 **Sintaxe**
 
@@ -177,7 +176,7 @@ Renderize uma lista de produtos que este usuário tem em seu carrinho:
 
 ## Com{#with}
 
-O auxiliar `with` é usado para alterar o token de avaliação da parte do modelo.
+O `with` helper é usado para alterar o token de avaliação da parte do modelo.
 
 **Sintaxe**
 
@@ -187,7 +186,7 @@ O auxiliar `with` é usado para alterar o token de avaliação da parte do model
 {{/with}}
 ```
 
-O auxiliar `with` também é útil para definir uma variável de atalho.
+O `with` O helper é útil para definir uma variável de atalho também.
 
 **Exemplo**
 
@@ -202,7 +201,7 @@ Use com para aliasing de nomes de variáveis longas para nomes mais curtos:
 
 ## Let{#let}
 
-A função `let` permite que uma expressão seja armazenada como uma variável a ser usada posteriormente em uma query.
+O `let` permite que uma expressão seja armazenada como uma variável para ser usada posteriormente em uma query.
 
 **Sintaxe**
 

@@ -1,26 +1,27 @@
 ---
 title: Atualizar regras de decisão
 description: As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a qualificação.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '174'
 ht-degree: 9%
 
 ---
 
 # Atualizar uma regra de decisão
 
-Você pode modificar ou atualizar as regras de decisão no seu contêiner fazendo uma solicitação PATCH para a API [!DNL Offer Library].
+Você pode modificar ou atualizar as regras de decisão no seu contêiner fazendo uma solicitação de PATCH para o [!DNL Offer Library] API.
 
-Para obter mais informações sobre o Patch JSON, incluindo operações disponíveis, consulte a [documentação oficial do Patch JSON](http://jsonpatch.com/).
+Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação do patch JSON](http://jsonpatch.com/).
 
 ## Aceitar e digitar cabeçalhos de tipo de conteúdo
 
-A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -61,13 +62,13 @@ curl -X PATCH \
 
 | Parâmetro | Descrição |
 | --------- | ----------- |
-| `op` | A chamada de operação usada para definir a ação necessária para atualizar a conexão. As operações incluem: `add`, `replace` e `remove`. |
+| `op` | A chamada de operação usada para definir a ação necessária para atualizar a conexão. As operações incluem: `add`, `replace`e `remove`. |
 | `path` | O caminho do parâmetro a ser atualizado. |
 | `value` | O novo valor com o qual você deseja atualizar seu parâmetro. |
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes atualizados da regra de decisão, incluindo a ID de instância exclusiva e a regra de decisão `@id`.
+Uma resposta bem-sucedida retorna os detalhes atualizados da regra de decisão, incluindo sua ID de instância exclusiva e sua regra de decisão `@id`.
 
 ```json
 {

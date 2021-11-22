@@ -37,7 +37,7 @@ Por exemplo, uma prática recomendada é ter um pool de IP para suas mensagens d
 
 Para criar um pool IP, siga estas etapas:
 
-1. Acesse o menu **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** e clique em **[!UICONTROL Create IP Pool]**.
+1. Acesse o **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** , em seguida, clique em **[!UICONTROL Create IP Pool]**.
 
    ![](../assets/ip-pool-create.png)
 
@@ -81,10 +81,10 @@ Para editar um pool IP:
 >
 >O nome do pool IP não é editável. Se quiser modificá-lo, é necessário excluir o pool de IP e criar outro com o nome de sua escolha.
 
-A atualização é efetiva imediatamente ou de forma assíncrona, dependendo do pool de IP que está sendo associado a um [predefinição de mensagem](message-presets.md) ou não:
+A atualização entra em vigor imediatamente ou de forma assíncrona, dependendo do pool de IP que está sendo associado a um [predefinição de mensagem](message-presets.md) ou não:
 
-* Se o pool de IP for **not** selecionado em uma predefinição de mensagem, a atualização será instantânea (**[!UICONTROL Success]** status).
-* Se o pool de IP **estiver** selecionado em uma predefinição de mensagem, a atualização pode demorar de 7 a 10 dias úteis (status **[!UICONTROL Processing]** ).
+* Se o pool IP for **not** selecionada em uma predefinição de mensagem, a atualização é instantânea (**[!UICONTROL Success]** status).
+* Se o pool IP **é** selecionada em uma predefinição de mensagem, a atualização pode demorar de 7 a 10 dias úteis (**[!UICONTROL Processing]** status).
 
 <!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
 
@@ -99,5 +99,5 @@ Para verificar o status de atualização do pool de IP, clique no botão **[!UIC
 >* até o próximo lote para que o pool de IP seja eficaz em mensagens em lote.
 
 
-Você também pode usar o botão **[!UICONTROL Delete]** para excluir um pool de IP. Observe que não é possível excluir um pool de IP que foi associado a uma predefinição de mensagem.
+Também é possível usar a variável **[!UICONTROL Delete]** para excluir um pool IP. Observe que não é possível excluir um pool de IP que foi associado a uma predefinição de mensagem.
 

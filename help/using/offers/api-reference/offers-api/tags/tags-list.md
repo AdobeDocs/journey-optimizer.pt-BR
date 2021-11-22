@@ -1,13 +1,14 @@
 ---
 title: Listar tags
 description: Tags permitem organizar e classificar melhor suas ofertas.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '306'
 ht-degree: 4%
 
 ---
@@ -16,9 +17,9 @@ ht-degree: 4%
 
 Tags permitem organizar e classificar melhor suas ofertas. Por exemplo, você pode rotular as ofertas de Black Friday com a tag &quot;Black Friday&quot;. Em seguida, você pode usar a funcionalidade de pesquisa na Biblioteca de ofertas para localizar facilmente todas as ofertas com essa tag.
 
-Tags também podem ser usadas para agrupar ofertas em coleções. Para obter mais informações, consulte o tutorial em [criar coleções](../../../offer-library/creating-collections.md).
+Tags também podem ser usadas para agrupar ofertas em coleções. Para obter mais informações, consulte o tutorial em [criação de coleções](../../../offer-library/creating-collections.md).
 
-É possível exibir uma lista de todas as tags em um contêiner ao executar uma única solicitação do GET para a API [!DNL Offer Library].
+Você pode exibir uma lista de todas as tags em um contêiner executando uma única solicitação de GET para o [!DNL Offer Library] API.
 
 **Formato da API**
 
@@ -55,7 +56,7 @@ Os parâmetros de consulta mais comuns para paginação incluem:
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `q` | Uma string de consulta opcional a ser procurada nos campos selecionados. A sequência de consulta deve estar em letras minúsculas e pode ser cercada por aspas duplas para evitar que seja tocada e para evitar caracteres especiais. Os caracteres `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm um significado especial e devem ser evitados com uma barra invertida ao aparecerem na string de consulta. | JSON do site |
+| `q` | Uma string de consulta opcional a ser procurada nos campos selecionados. A sequência de consulta deve estar em letras minúsculas e pode ser cercada por aspas duplas para evitar que seja tocada e para evitar caracteres especiais. Os caracteres `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm um significado especial e devem ser evitadas com uma barra invertida ao aparecerem na string de consulta. | JSON do site |
 | `qop` | Aplica operador AND ou OR a valores em q parâmetro da string de consulta. | `AND` / `OR` |
 | `field` | Lista opcional de campos para os quais limitar a pesquisa. Esse parâmetro pode ser repetido da seguinte maneira: field=field1[,field=field2,...] e (expressões de caminho estão na forma de caminhos separados por pontos, como _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Classifique os resultados por uma propriedade específica. Adicionar um `-` antes do título (`orderby=-title`) classificará os itens por título em ordem decrescente (Z-A). | `-repo:createdDate` |

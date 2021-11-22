@@ -1,13 +1,14 @@
 ---
 title: Criar uma coleção
 description: Coleções são subconjuntos de ofertas com base em condições predefinidas definidas por um profissional de marketing, como a categoria da oferta.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 10%
 
 ---
@@ -16,11 +17,11 @@ ht-degree: 10%
 
 Coleções são subconjuntos de ofertas com base em condições predefinidas definidas por um profissional de marketing, como a categoria da oferta.
 
-Você pode criar uma coleção fazendo uma solicitação POST para a API [!DNL Offer Library], fornecendo a ID do contêiner.
+Você pode criar uma coleção fazendo uma solicitação de POST para a [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
 
 ## Aceitar e digitar cabeçalhos de tipo de conteúdo
 
-A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -60,7 +61,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a coleção recém-criada, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua coleção. Você pode usar sua coleção exclusiva `@id` em um tutorial posterior para criar uma decisão.
+Uma resposta bem-sucedida retorna informações sobre a coleção recém-criada, incluindo sua ID de instância exclusiva e seu posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua coleção. Você pode usar sua coleção exclusiva `@id` em um tutorial posterior para criar uma decisão.
 
 ```json
 {

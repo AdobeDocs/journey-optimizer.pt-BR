@@ -5,26 +5,27 @@ feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
+exl-id: f19749c4-d683-4db6-bede-9360b9610eef
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Sobre schemas ExperienceEvent para eventos [!DNL Journey Optimizer]
+# Sobre schemas ExperienceEvent para [!DNL Journey Optimizer] Eventos
 
 [!DNL Journey Optimizer] são Eventos de experiência XDM enviados para a Adobe Experience Platform por assimilação de fluxo.
 
-Dessa forma, um pré-requisito importante para configurar eventos para [!DNL Journey Optimizer] é que você está familiarizado com o Experience Data Model (ou XDM) da Adobe Experience Platform e como compor schemas do Evento de experiência XDM, bem como como transmitir dados formatados em XDM para o Adobe Experience Platform.
+Dessa forma, um pré-requisito importante para configurar eventos para [!DNL Journey Optimizer] O é que você está familiarizado com o Experience Data Model (ou XDM) da Adobe Experience Platform e como compor schemas de evento de experiência XDM, bem como como fazer o stream de dados formatados em XDM para o Adobe Experience Platform.
 
-## Requisitos de esquema para eventos [!DNL Journey Optimizer]
+## Requisitos de esquema para [!DNL Journey Optimizer] Eventos
 
-A primeira etapa na configuração de um evento para [!DNL Journey Optimizer] é garantir que você tenha um esquema XDM definido para representar o evento e um conjunto de dados criado para registrar instâncias do evento no Adobe Experience Platform. Ter um conjunto de dados para seus eventos não é estritamente necessário, mas enviar os eventos para um conjunto de dados específico permitirá manter o histórico de eventos dos usuários para referência e análise futuras, portanto, é sempre uma boa ideia. Se você ainda não tiver um esquema e conjunto de dados adequados para o evento, ambas as tarefas podem ser realizadas na interface da Web do Adobe Experience Platform.
+A primeira etapa na configuração de um evento para [!DNL Journey Optimizer] O é garantir que você tenha um esquema XDM definido para representar o evento e um conjunto de dados criado para registrar instâncias do evento no Adobe Experience Platform. Ter um conjunto de dados para seus eventos não é estritamente necessário, mas enviar os eventos para um conjunto de dados específico permitirá manter o histórico de eventos dos usuários para referência e análise futuras, portanto, é sempre uma boa ideia. Se você ainda não tiver um esquema e conjunto de dados adequados para o evento, ambas as tarefas podem ser realizadas na interface da Web do Adobe Experience Platform.
 
 ![](../assets/schema1.png)
 
-Qualquer esquema XDM que será usado para eventos [!DNL Journey Optimizer] deve atender aos seguintes requisitos:
+Qualquer esquema XDM que será usado para [!DNL Journey Optimizer] Os eventos devem atender aos seguintes requisitos:
 
 * O esquema deve ser da classe XDM ExperienceEvent.
 
@@ -50,7 +51,7 @@ Qualquer esquema XDM que será usado para eventos [!DNL Journey Optimizer] deve 
 
    ![](../assets/schema8.png)
 
-## Aproveitar relacionamentos de schema{#leverage_schema_relationships}
+## Aproveitar relacionamentos de esquema{#leverage_schema_relationships}
 
 O Adobe Experience Platform permite definir relações entre esquemas para usar um conjunto de dados como uma tabela de pesquisa para outro.
 
@@ -68,11 +69,11 @@ Este é o schema de compra com o relacionamento definido no campo ID do produto.
 
 >[!NOTE]
 >
->Saiba mais sobre relações de esquema na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>Saiba mais sobre relações de schema no [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
 No Journey Optimizer, você pode aproveitar todos os campos das tabelas vinculadas:
 
-* ao configurar um evento empresarial ou unitário, [Leia mais](../event/experience-event-schema.md#unitary_event_configuration)
+* ao configurar um evento comercial ou unitário, [Leia mais](../event/experience-event-schema.md#unitary_event_configuration)
 * ao usar condições em uma jornada, [Leia mais](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * na personalização de mensagens, [Leia mais](../event/experience-event-schema.md#message_personalization)
 * na personalização da ação personalizada, [Leia mais](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
@@ -91,7 +92,7 @@ Os campos vinculados não estão disponíveis:
 * na fórmula da chave de evento
 * na condição de id de evento (eventos com base em regras)
 
-Para saber como configurar um evento unitário, consulte esta [página](../event/about-creating.md).
+Para saber como configurar um evento unitário, consulte esta seção [página](../event/about-creating.md).
 
 ### Condições de jornada usando o contexto do evento{#journey_conditions_using_event_context}
 
@@ -101,7 +102,7 @@ Adicione uma condição em uma jornada, edite a expressão e expanda o nó do ev
 
 ![](../assets/schema12.png)
 
-Para saber como definir condições de jornada, consulte esta [página](../building-journeys/condition-activity.md).
+Para saber como definir condições de jornada, consulte esta seção [página](../building-journeys/condition-activity.md).
 
 ### Personalização de mensagem{#message_personalization}
 
@@ -109,7 +110,7 @@ Os campos vinculados estão disponíveis ao personalizar uma mensagem. Os campos
 
 ![](../assets/schema14.png)
 
-Para saber como personalizar uma mensagem com informações de jornada contextual, consulte esta [página](../personalization/personalization-use-case.md).
+Para saber como personalizar uma mensagem com informações de jornada contextual, consulte esta seção [página](../personalization/personalization-use-case.md).
 
 ### Personalização de ação personalizada com o contexto de evento de jornada{#custom_action_personalization_with_journey_event_context}
 
@@ -117,4 +118,4 @@ Os campos vinculados estão disponíveis ao configurar os parâmetros de ação 
 
 ![](../assets/schema13.png)
 
-Para saber como usar ações personalizadas, consulte esta [página](../building-journeys/using-custom-actions.md).
+Para saber como usar ações personalizadas, consulte esta seção [página](../building-journeys/using-custom-actions.md).

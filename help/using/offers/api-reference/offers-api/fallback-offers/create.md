@@ -1,24 +1,25 @@
 ---
 title: Criar uma oferta substituta
 description: Uma oferta de fallback é enviada para os clientes se eles não estiverem qualificados para outras ofertas
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '139'
 ht-degree: 12%
 
 ---
 
 # Criar uma oferta substituta
 
-Você pode criar uma oferta de fallback, fazendo uma solicitação de POST para a API [!DNL Offer Library], e fornecendo a ID do contêiner.
+Você pode criar uma oferta de fallback fazendo uma solicitação de POST para a [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
 
 ## Aceitar e digitar cabeçalhos de tipo de conteúdo
 
-A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -70,7 +71,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a oferta de fallback recém-criada, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua oferta de fallback. Você pode usar sua oferta exclusiva de fallback `@id` em um tutorial posterior para criar uma decisão.
+Uma resposta bem-sucedida retorna informações sobre a oferta de fallback recém-criada, incluindo sua ID de instância exclusiva e seu posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua oferta de fallback. Você pode usar sua oferta exclusiva de fallback `@id` em um tutorial posterior para criar uma decisão.
 
 
 ```json

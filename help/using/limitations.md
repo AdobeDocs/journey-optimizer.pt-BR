@@ -15,14 +15,14 @@ ht-degree: 2%
 
 # Limitações {#limitations}
 
-Os direitos, as limitações de produto e as medidas de proteção de desempenho estão listados na[ página de descrição do produto do Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
+Os direitos, as limitações de produtos e as medidas de proteção do desempenho estão listados em[ Página de descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
 
 Você encontrará abaixo limitações adicionais ao usar [!DNL Adobe Journey Optimizer].
 
 ## Limitações nas mensagens
 
 * Não é possível adicionar anexos a um email com [!DNL Journey Optimizer].
-* O Cco de email não é compatível em [!DNL Journey Optimizer].
+* O Cco de email não é compatível com o [!DNL Journey Optimizer].
 
 ## Limitações em jornadas
 
@@ -30,7 +30,7 @@ Você encontrará abaixo limitações adicionais ao usar [!DNL Adobe Journey Opt
 
 * Não há limitação de envio. 
 * Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. 
-* O evento integrado **Reaction** permite reagir a ações predefinidas. Saiba mais [nesta página](building-journeys/reaction-events.md). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado. 
+* O **Reação** permite que você reaja a ações predefinidas. Saiba mais [nesta página](building-journeys/reaction-events.md). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado. 
 * Não é possível colocar duas ações em paralelo, é necessário adicioná-las uma após a outra.
 
 ### Ação de mensagem
@@ -39,11 +39,11 @@ Você encontrará abaixo limitações adicionais ao usar [!DNL Adobe Journey Opt
 
 ### Versões de jornada {#journey-versions-limitations}
 
-* Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação de segmento**.
-* Uma jornada que começa com uma atividade **Qualificação de segmento** em v1 deve sempre começar com uma **Qualificação de segmento** em outras versões.
-* O segmento e o namespace escolhidos em **Segment Qualification** (primeiro nó) não podem ser alterados em novas versões.
+* Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com uma **Qualificação do segmento** evento.
+* Uma jornada que começa com uma **Qualificação do segmento** atividade em v1 deve sempre começar com um **Qualificação do segmento** em outras versões.
+* O segmento e o namespace escolhidos em **Qualificação do segmento** (primeiro nó) não pode ser alterado em novas versões.
 * A regra de reentrada deve ser a mesma em todas as versões do jornada.
-* Uma jornada que inicia com um **Ler segmento** não pode começar com outro evento nas próximas versões.
+* Uma jornada que começa com uma **Ler segmento** O não pode começar com outro evento nas próximas versões.
  
 
 ### Ações personalizadas

@@ -15,25 +15,25 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b18f8c468157988be9cca44795b46f6fb4a0208e
+exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-
 # Tentativas {#retries}
 
-Quando uma mensagem de email falha devido a um erro temporário de **Suave**, várias tentativas são executadas. Cada erro incrementa um contador de erros. Quando esse contador atinge o limite, o endereço é adicionado à lista de supressão.
+Quando uma mensagem de email falha devido a um evento temporário **Rejeição suave** , várias tentativas são executadas. Cada erro incrementa um contador de erros. Quando esse contador atinge o limite, o endereço é adicionado à lista de supressão.
 
 >[!NOTE]
 >
->Saiba mais sobre os tipos de erros na seção [Delivery failure types](../suppression-list.md#delivery-failures).
+>Saiba mais sobre os tipos de erros no [Tipos de falha de delivery](../suppression-list.md#delivery-failures) seção.
 
 Na configuração padrão, o limite é definido como 5 erros.
 
-* Para o mesmo delivery, no quinto erro encontrado dentro do [período de tempo de repetição](#retry-duration), o endereço é suprimido.
+* Para o mesmo delivery, no quinto erro encontrado no [período de tempo de nova tentativa](#retry-duration), o endereço é suprimido.
 
 * Se houver diferentes deliveries e dois erros ocorrerem pelo menos em 24 horas de intervalo, o contador de erros será incrementado a cada erro e o endereço também será suprimido na quinta tentativa.
 
@@ -61,13 +61,13 @@ Caso o valor padrão de 5 não atenda às suas necessidades, você poderá modif
 
 <!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
 
-## Período de tempo de repetição {#retry-duration}
+## Período de repetição {#retry-duration}
 
-O **período de tempo de repetição** é o período em que qualquer mensagem de email do delivery que encontrou um erro temporário ou rejeição temporária será repetida.
+O **período de tempo de nova tentativa** é o período no qual qualquer mensagem de email do delivery que encontrou um erro temporário ou uma rejeição temporária será repetida.
 
-Por padrão, as tentativas serão executadas por **3,5 dias** (ou **84 horas**) a partir do momento em que a mensagem foi adicionada à fila de email.
+Por padrão, as tentativas serão executadas para **3,5 dias** ou **84 horas**) a partir do momento em que a mensagem foi adicionada à fila de email.
 
-No entanto, para garantir que as tentativas de repetição não sejam mais executadas quando não forem mais necessárias, é possível alterar essa configuração de acordo com suas necessidades ao criar ou editar uma predefinição de mensagem [a1/> aplicada ao canal de email.](message-presets.md)
+No entanto, para garantir que as tentativas de repetição não sejam mais executadas quando não forem mais necessárias, é possível alterar essa configuração de acordo com suas necessidades ao criar ou editar uma [predefinição de mensagem](message-presets.md) aplicando-se ao canal de email.
 
 Por exemplo, você pode definir o período de nova tentativa como 24 horas para um email transacional relacionado à redefinição de senha e contendo um link válido por apenas um dia. Da mesma forma, para uma venda à meia-noite, você pode definir um período de repetição de 6 horas.
 
@@ -75,7 +75,7 @@ Por exemplo, você pode definir o período de nova tentativa como 24 horas para 
 >
 >O período de repetição não pode exceder 84 horas. O período mínimo de tentativas é de 6 horas para emails de marketing e 10 minutos para emails transacionais.
 
-Saiba como ajustar os parâmetros de repetição de email ao criar uma predefinição de mensagem em [this section](message-presets.md#create-message-preset).
+Saiba como ajustar os parâmetros de nova tentativa de email ao criar uma predefinição de mensagem em [esta seção](message-presets.md#create-message-preset).
 
 <!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
 

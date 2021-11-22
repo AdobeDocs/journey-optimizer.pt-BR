@@ -1,34 +1,35 @@
 ---
 title: Criar emails no Journey Optimizer
 description: Saiba como criar o conteúdo de seus emails
-feature: Visão geral
-topic: Gerenciamento de conteúdo
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 704d8c5b5a9f0ff8d90467db6ead8f77d68633b2
+exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 1%
+source-wordcount: '1475'
+ht-degree: 0%
 
 ---
 
 # Projetar o conteúdo de email na interface do usuário {#create-email-content}
 
-Depois que [criar sua mensagem](create-message.md), você pode começar a criar seu conteúdo de email.
+Depois de [criou a mensagem](create-message.md), você pode começar a criar o conteúdo do email.
 
-1. Na mensagem recém-criada, selecione **[!UICONTROL Email designer]** na seção **[!UICONTROL Body]**.
+1. Na mensagem recém-criada, selecione **[!UICONTROL Email designer]** no **[!UICONTROL Body]** seção.
 
    ![](assets/import-html_1.png)
 
 1. Na página inicial do Designer de email, escolha como deseja criar o email com as seguintes opções:
 
-   * Selecione **[!UICONTROL Design from scratch]** para usar os recursos do designer de email para criar seu conteúdo de email. [Saiba mais](#design-scratch)
+   * Selecionar **[!UICONTROL Design from scratch]** para usar os recursos do designer de email para criar seu conteúdo de email. [Saiba mais](#design-scratch)
 
-   * Selecione **[!UICONTROL Start from template]** para criar seu email a partir de uma lista incorporada de modelos. Observe que não é possível criar outros templates.
+   * Selecionar **[!UICONTROL Start from template]** para criar seu email a partir de uma lista interna de templates. Observe que não é possível criar outros templates.
 
-   * Selecione **[!UICONTROL Code your own]** para inserir ou colar o código bruto HTML. [Saiba mais](existing-content.md#import-raw-html-code).
+   * Selecionar **[!UICONTROL Code your own]** para inserir ou colar o código bruto do HTML. [Saiba mais](existing-content.md#import-raw-html-code).
 
-   * Selecione **[!UICONTROL Import HTML]** para importar um arquivo HTML ou uma pasta .zip. [Saiba mais](existing-content.md#import-html-content-from-file).
+   * Selecionar **[!UICONTROL Import HTML]** para importar um arquivo HTML ou uma pasta .zip. [Saiba mais](existing-content.md#import-html-content-from-file).
 
    ![](assets/email_designer_25.png)
 
@@ -48,7 +49,7 @@ O Designer de email permite que você defina facilmente a estrutura do seu email
 
 Para começar a criar seu conteúdo de email com o designer de email, siga as etapas abaixo:
 
-1. Depois de selecionar a opção **[!UICONTROL Design from scratch]** , comece a projetar o conteúdo do email arrastando e soltando **[!UICONTROL Structure components]** para definir o layout do email.
+1. Depois de selecionar o **[!UICONTROL Design from scratch]** , comece a projetar o conteúdo de email arrastando e soltando **[!UICONTROL Structure components]** para definir o layout do email.
 
    >[!NOTE]
    >
@@ -58,41 +59,41 @@ Para começar a criar seu conteúdo de email com o designer de email, siga as et
 
    ![](assets/email_designer_2.png)
 
-1. Adicione quantos **[!UICONTROL Structure components]** forem necessários.
+1. Adicionar quantos **[!UICONTROL Structure components]** conforme necessário.
 
-   Selecione o componente **[!UICONTROL n:n column]** para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna, movendo as setas na parte inferior de cada coluna.
+   Selecione o **[!UICONTROL n:n column]** para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna, movendo as setas na parte inferior de cada coluna.
 
    >[!NOTE]
    >
    >Cada tamanho de coluna não pode estar abaixo de 10% da largura total do componente de estrutura. Não é possível remover uma coluna que não esteja vazia.
 
-1. No menu suspenso **[!UICONTROL Content components]**, é possível adicionar quantos **[!UICONTROL Content components]** forem necessários no componente de estrutura. [Saiba mais sobre os componentes](content-components.md) de Conteúdo.
+1. No **[!UICONTROL Content components]** , é possível adicionar quantos **[!UICONTROL Content components]** conforme necessário no componente de estrutura. [Saiba mais sobre componentes de conteúdo](content-components.md).
 
    ![](assets/email_designer_3.png)
 
-1. Cada componente pode ser personalizado ainda mais com a seção **[!UICONTROL Component settings]** . Por exemplo, você pode alterar o estilo do texto, o preenchimento ou a margem do componente. [Saiba mais sobre alinhamento e preenchimento](#adjusting-vertical-alignment-and-padding).
+1. Cada componente pode ser personalizado ainda mais com a variável **[!UICONTROL Component settings]** seção. Por exemplo, você pode alterar o estilo do texto, o preenchimento ou a margem do componente. [Saiba mais sobre alinhamento e preenchimento](#adjusting-vertical-alignment-and-padding).
 
    ![](assets/email_designer_4.png)
 
-1. No **[!UICONTROL Assets picker]**, é possível adicionar diretamente ativos armazenados no **[!UICONTROL Assets library]** ao seu email. [Saiba mais sobre o gerenciamento](assets-essentials.md) de ativos.
+1. No **[!UICONTROL Assets picker]**, é possível adicionar diretamente ativos armazenados no **[!UICONTROL Assets library]** ao seu email. [Saiba mais sobre o gerenciamento de ativos](assets-essentials.md).
 
    Clique duas vezes na pasta que continha seus ativos e arraste e solte o ativo que deseja adicionar ao seu email.
 
    ![](assets/email_designer_5.png)
 
-1. Adicione campos de personalização para personalizar o conteúdo dos dados de perfis. [Saiba mais sobre a personalização](personalization/personalize.md) de conteúdo.
+1. Adicione campos de personalização para personalizar o conteúdo dos dados de perfis. [Saiba mais sobre a personalização de conteúdo](personalization/personalize.md).
 
    ![](assets/email_designer_6.png)
 
-1. Na guia **[!UICONTROL Links]** no painel esquerdo, verifique a lista de todos os URLs do seu conteúdo que serão rastreados. Você pode modificar seus **[!UICONTROL Tracking Type]**, **[!UICONTROL Label]** e **[!UICONTROL Tags]**, se necessário.
+1. No **[!UICONTROL Links]** no painel esquerdo, verifique a lista de todos os URLs do seu conteúdo que serão rastreados. Você pode modificar as **[!UICONTROL Tracking Type]**, **[!UICONTROL Label]** e **[!UICONTROL Tags]** se necessário.
 
    ![](assets/email_designer_7.png)
 
    >[!NOTE]
    >
-   >Saiba mais sobre links e rastreamento de mensagens em [this page](message-tracking.md).
+   >Saiba mais sobre links e rastreamento de mensagens em [esta página](message-tracking.md).
 
-1. Se necessário, você pode alternar para o editor de código para personalizar ainda mais seu email clicando em **[!UICONTROL Switch to code editor]** no menu avançado. Para obter mais informações sobre o editor de códigos, consulte esta [página](existing-content.md#import-raw-html-code).
+1. Se necessário, você pode alternar para o editor de código para personalizar ainda mais seu email clicando em **[!UICONTROL Switch to code editor]** no menu avançado. Para obter mais informações sobre o editor de códigos, consulte esta seção [página](existing-content.md#import-raw-html-code).
 
    >[!NOTE]
    >
@@ -100,7 +101,7 @@ Para começar a criar seu conteúdo de email com o designer de email, siga as et
 
    ![](assets/email_designer_26.png)
 
-1. Clique em **[!UICONTROL Show preview]** para verificar a renderização do email. Você pode escolher a área de trabalho ou exibição móvel.
+1. Clique em **[!UICONTROL Show preview]** para verificar a renderização de email. Você pode escolher a área de trabalho ou exibição móvel.
 
    Para obter mais informações sobre como visualizar seu email, consulte [Visualizar e testar suas mensagens](preview.md).
 
@@ -112,17 +113,17 @@ Seu conteúdo de email agora pode ser usado em uma mensagem. [Saiba como enviar 
 
 ## Criar a versão de texto de um email {#generate-text-version}
 
-É recomendável criar uma versão de texto do corpo do email, que é usada quando o conteúdo HTML não pode ser exibido.
+É recomendável criar uma versão de texto do corpo do email, que é usada quando o conteúdo do HTML não pode ser exibido.
 
-Por padrão, o Designer de email cria uma versão **[!UICONTROL Plain text]** do email, incluindo campos de personalização. Esta versão é gerada e sincronizada automaticamente com a versão HTML do seu conteúdo.
+Por padrão, o Designer de email cria um **[!UICONTROL Plain text]** versão do email, incluindo campos de personalização. Esta versão é gerada e sincronizada automaticamente com a versão HTML do seu conteúdo.
 
 Se preferir usar um conteúdo diferente para a versão de texto sem formatação, siga as etapas abaixo:
 
-1. No email, selecione a guia **[!UICONTROL Plain text]** .
+1. Em seu email, selecione o **[!UICONTROL Plain text]** guia .
 
    ![](assets/text_version_3.png)
 
-1. Use a opção **[!UICONTROL Sync with HTML]** para desativar a sincronização.
+1. Use o **[!UICONTROL Sync with HTML]** alternar para desativar a sincronização.
 
    ![](assets/text_version_1.png)
 
@@ -134,10 +135,9 @@ Se preferir usar um conteúdo diferente para a versão de texto sem formatação
 
 >[!CAUTION]
 >
->* As alterações feitas na exibição **[!UICONTROL Plain text]** não são refletidas na exibição HTML.
-   >
-   >
-* Se você reativar a opção **[!UICONTROL Sync with HTML]** após atualizar o conteúdo de texto simples, suas alterações serão perdidas e substituídas pelo conteúdo de texto gerado da versão HTML.
+>* Alterações feitas em **[!UICONTROL Plain text]** não são refletidas na exibição HTML.
+>
+>* Se você reativar o **[!UICONTROL Sync with HTML]** após atualizar o conteúdo de texto sem formatação, as alterações serão perdidas e substituídas pelo conteúdo de texto gerado pela versão HTML.
 
 
 ## Usar um precabeçalho {#preheader}
@@ -153,19 +153,19 @@ Se preferir usar um conteúdo diferente para a versão de texto sem formatação
 
 Um precabeçalho é um texto resumido curto que segue a linha de assunto ao visualizar um email do seu cliente de email. O pré-cabeçalho pode ajudá-lo a controlar e personalizar melhor seus emails.
 
-1. No Designer de email, adicione um **[!UICONTROL Structure components]** para começar a projetar seu email.
+1. No Designer de email, adicione um **[!UICONTROL Structure components]** para começar a criar seu email.
 
    ![](assets/preheader_1.png)
 
-1. No painel direito **[!UICONTROL Body settings]**, clique em **Editar** ao lado do campo **[!UICONTROL Preheader]** para adicionar conteúdo.
+1. No **[!UICONTROL Body settings]** painel direito, clique em **Editar** ao lado do **[!UICONTROL Preheader]** para adicionar conteúdo.
 
    ![](assets/preheader_2.png)
 
-1. Adicione o pré-cabeçalho. Você pode personalizá-lo ainda mais clicando no ícone **[!UICONTROL Add personalization]**.
+1. Adicione o pré-cabeçalho. Você pode personalizá-la ainda mais clicando no botão **[!UICONTROL Add personalization]** ícone .
 
    ![](assets/preheader_3.png)
 
-1. Na janela **[!UICONTROL Edit Personalization]**, é possível adicionar **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** ou **[!UICONTROL Personalization fields]**.
+1. No **[!UICONTROL Edit Personalization]** , é possível adicionar **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** ou **[!UICONTROL Personalization fields]**.
 
 1. Clique em **[!UICONTROL Validate]** para verificar a sintaxe de personalização.
 
@@ -191,7 +191,7 @@ Quando se trata de definir planos de fundo com o Email Designer, o Adobe recomen
 
 Abaixo estão as configurações de fundo disponíveis que você pode usar.
 
-* Defina um **[!UICONTROL Background color]** para o email inteiro. Selecione as configurações de corpo na árvore de navegação acessível na paleta esquerda.
+* Defina um **[!UICONTROL Background color]** para todo o email. Selecione as configurações de corpo na árvore de navegação acessível na paleta esquerda.
 
 * Defina a mesma cor de plano de fundo para todos os componentes da estrutura selecionando **[!UICONTROL Viewport background color]**. Essa opção permite selecionar uma configuração diferente da cor do plano de fundo.
 
@@ -223,7 +223,7 @@ Neste exemplo, ajustaremos o preenchimento e o alinhamento vertical dentro de um
 
 1. Na barra de ferramentas, clique em **[!UICONTROL Select a column]** e escolha aquele que deseja editar. Também é possível selecioná-lo na árvore de estrutura.
 
-   Os parâmetros editáveis para essa coluna são exibidos no menu **[!UICONTROL Column settings]**.
+   Os parâmetros editáveis para essa coluna são exibidos no **[!UICONTROL Column settings]** menu.
 
    ![](assets/alignment_2.png)
 
@@ -247,13 +247,13 @@ Neste exemplo, ajustaremos o preenchimento e o alinhamento vertical dentro de um
 
 É possível sublinhar um link e selecionar sua cor e seu destino no Designer de email.
 
-1. Em um Texto **[!UICONTROL Content component]** onde um link é inserido, selecione o link.
+1. Em um texto **[!UICONTROL Content component]** onde um link é inserido, selecione seu link.
 
-1. No menu **[!UICONTROL Component settings]**, marque **[!UICONTROL Underline link]** para sublinhar o texto do rótulo do link.
+1. No **[!UICONTROL Component settings]** menu, verifique **[!UICONTROL Underline link]** para sublinhar o texto do rótulo de seu link.
 
    ![](assets/link_1.png)
 
-1. Escolha como seu público será redirecionado com o menu suspenso **[!UICONTROL Target]**:
+1. Escolha como seu público será redirecionado com o **[!UICONTROL Target]** lista suspensa:
 
    * **[!UICONTROL None]**: abre o link no mesmo quadro em que foi clicado (padrão).
    * **[!UICONTROL Blank]**: abre o link em uma nova janela ou guia.
@@ -276,11 +276,8 @@ Neste exemplo, ajustaremos o preenchimento e o alinhamento vertical dentro de um
 Na interface do Designer de email, ao selecionar um elemento e exibir suas configurações no painel lateral, é possível personalizar os atributos em linha e o valor desse elemento específico.
 
 1. Selecione um elemento no seu conteúdo.
-1. No painel lateral, procure pelas configurações **[!UICONTROL Styles Inline]**.
+1. No painel lateral, procure a variável **[!UICONTROL Styles Inline]** configurações.
 
-1. Modifique os valores dos atributos existentes ou adicione novos usando o botão **+**. Você pode adicionar qualquer atributo e valor compatível com CSS.
+1. Modifique os valores dos atributos existentes ou adicione novos usando o **+** botão. Você pode adicionar qualquer atributo e valor compatível com CSS.
 
 O estilo é aplicado ao elemento selecionado. Se os elementos filho não tiverem atributos de estilo específicos definidos, o estilo do elemento pai será herdado.
-
-
-

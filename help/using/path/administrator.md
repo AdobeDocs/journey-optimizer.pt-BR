@@ -2,7 +2,8 @@
 title: Introdução à Journey Optimizer para o Administrador do sistema
 description: Como Administrador do sistema, saiba mais sobre como trabalhar com a Journey Optimizer
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 3%
@@ -62,9 +63,7 @@ Siga as etapas listadas abaixo:
 1. **Gerenciar a supressão e a lista de permissões**: melhore sua capacidade de delivery com supressão e listas de permissões
 
    * A [lista de supressão](../suppression-list.md) O consiste em endereços de email que você deseja excluir de seus deliveries, pois o envio para esses contatos pode prejudicar sua reputação de envio e as taxas de delivery. Você pode monitorar todos os endereços de email que são excluídos automaticamente do envio em uma jornada, como endereços inválidos, endereços que compostam de forma consistente e podem afetar negativamente sua reputação de email, e recipients que emitem uma reclamação de spam de algum tipo contra uma de suas mensagens de email. Saiba como gerenciar o [lista de supressão](../configuration/manage-suppression-list.md) e [tentativas](../configuration/retries.md).
-
    ![](../assets/suppression-list-filtering-example.png)
 
    * O [lista de permissões](../allow-list.md) O permite especificar endereços de email ou domínios individuais que serão os únicos recipients ou domínios autorizados a receber os emails enviados de uma sandbox específica. Isso pode impedir que você envie emails acidentalmente para endereços de clientes reais quando estiver em um ambiente de teste. Saiba como [habilite a lista de permissões](../allow-list.md).
    Saiba mais sobre o gerenciamento da capacidade de entrega em [!DNL Adobe Journey Optimizer] [nesta página](../deliverability.md).
-

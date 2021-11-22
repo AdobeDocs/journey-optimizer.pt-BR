@@ -1,27 +1,28 @@
 ---
 title: Relatório ao vivo
 description: Saiba como usar dados do relatório ao vivo
-feature: Relatório
-topic: Gerenciamento de conteúdo
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 2%
+source-wordcount: '224'
+ht-degree: 0%
 
 ---
 
 # Introdução ao Relatório ao vivo {#live-report}
 
 Use o **[!UICONTROL Live report]** para medir e visualizar em tempo real o impacto e o desempenho de suas jornadas e suas mensagens em um painel integrado.
-Os dados estão disponíveis no **[!UICONTROL Live report]** assim que seu delivery é enviado ou sua jornada é executada.
+Os dados estão disponíveis na variável **[!UICONTROL Live report]** assim que seu delivery for enviado ou sua jornada for executada.
 
-* Se desejar direcionar uma jornada ou deliveries no contexto de uma jornada, no menu **[!UICONTROL Journeys]**, acesse a jornada e clique no ícone **[!UICONTROL Live report]**. Em seguida, você pode encontrar os relatórios Jornada, Email e Enviar ao vivo.
+* Se desejar direcionar uma jornada ou deliveries no contexto de uma jornada, da **[!UICONTROL Journeys]** acesse a jornada e clique no menu **[!UICONTROL Live report]** ícone . Em seguida, você pode encontrar os relatórios Jornada, Email e Enviar ao vivo.
 
    ![](../assets/report_journey.png)
 
-* Se desejar direcionar um delivery específico, no **[!UICONTROL Live view]** da guia **[!UICONTROL Executions]** das mensagens, selecione **[!UICONTROL Live Report]** no menu avançado do delivery selecionado.
+* Se quiser direcionar um delivery específico, da variável **[!UICONTROL Live view]** do **[!UICONTROL Executions]** das suas mensagens, selecione **[!UICONTROL Live Report]** no menu avançado do delivery selecionado.
 
    ![](../assets/report_2.png)
 
@@ -43,4 +44,4 @@ Cada painel de relatórios pode ser modificado redimensionando ou removendo widg
 
 1. Quando estiver satisfeito com a ordem de exibição e o tamanho dos widgets, clique em **[!UICONTROL Save]**.
 
-Seu painel agora é salvo. Suas diferentes alterações serão reaplicadas para um uso posterior dos seus relatórios ao vivo. Se necessário, use a opção **[!UICONTROL Reset]** para restaurar a ordem dos widgets e widgets padrão.
+Seu painel agora é salvo. Suas diferentes alterações serão reaplicadas para um uso posterior dos seus relatórios ao vivo. Se necessário, use a **[!UICONTROL Reset]** para restaurar a ordem dos widgets e widgets padrão.

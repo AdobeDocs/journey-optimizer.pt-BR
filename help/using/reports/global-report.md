@@ -1,14 +1,15 @@
 ---
 title: Relatório global
 description: Saiba como usar dados do relatório global
-feature: Relatório
-topic: Gerenciamento de conteúdo
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 2%
+source-wordcount: '239'
+ht-degree: 1%
 
 ---
 
@@ -20,17 +21,17 @@ ht-degree: 2%
 
 Use o **[!UICONTROL Global report]** para medir o impacto das jornadas e dos deliveries em um período selecionado.
 
-* Se desejar direcionar uma jornada ou deliveries no contexto de uma jornada, no menu **[!UICONTROL Journeys]**, acesse a jornada e clique no ícone **[!UICONTROL Global report]**. Em seguida, você pode encontrar a Jornada, o Email e o Push **[!UICONTROL Global report]**.
+* Se desejar direcionar uma jornada ou deliveries no contexto de uma jornada, da **[!UICONTROL Journeys]** acesse a jornada e clique no menu **[!UICONTROL Global report]** ícone . Em seguida, você pode encontrar a Jornada, o email e o push **[!UICONTROL Global report]**.
 
-* Se desejar direcionar um delivery específico, no **[!UICONTROL Global view]** da guia **[!UICONTROL Executions]** das mensagens, selecione **[!UICONTROL Global Report]** no menu avançado do delivery selecionado.
+* Se quiser direcionar um delivery específico, da variável **[!UICONTROL Global view]** do **[!UICONTROL Executions]** das suas mensagens, selecione **[!UICONTROL Global Report]** no menu avançado do delivery selecionado.
 
 ## Personalizar painel {#modify-dashboard}
 
 Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets ou alterando o período de tempo direcionado. Alterar os widgets só afeta o painel do usuário atual. Outros usuários verão seus próprios painéis ou os definidos por padrão.
 
-1. No painel **[!UICONTROL Global report]**, clique no botão Scheduler .
+1. Em seu **[!UICONTROL Global report]** no painel, clique no botão scheduler .
 
-1. Selecione as datas de início e término. Você pode refinar seus relatórios selecionando um **[!UICONTROL Start time]** e **[!UICONTROL End time]**.
+1. Selecione as datas de início e término. Você pode aprimorar ainda mais seus relatórios selecionando um **[!UICONTROL Start time]** e **[!UICONTROL End time]**.
 
    ![](../assets/global_report_6.png)
 
@@ -48,4 +49,4 @@ Cada painel de relatórios pode ser modificado redimensionando ou removendo widg
 
 1. Quando estiver satisfeito com a ordem de exibição e o tamanho dos widgets, clique em **[!UICONTROL Save]**.
 
-Seu painel agora é salvo. Suas diferentes alterações serão reaplicadas para um uso posterior dos relatórios globais. Se necessário, use a opção **[!UICONTROL Reset]** para restaurar a ordem dos widgets e widgets padrão.
+Seu painel agora é salvo. Suas diferentes alterações serão reaplicadas para um uso posterior dos relatórios globais. Se necessário, use a **[!UICONTROL Reset]** para restaurar a ordem dos widgets e widgets padrão.

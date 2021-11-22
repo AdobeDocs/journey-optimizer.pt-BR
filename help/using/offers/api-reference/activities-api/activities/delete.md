@@ -1,20 +1,21 @@
 ---
 title: Excluir decisões
 description: Uma decisão contém a lógica que informa a seleção de uma oferta.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '146'
 ht-degree: 6%
 
 ---
 
 # Excluir uma decisão
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma decisão (anteriormente conhecida como atividade de oferta). Somente as decisões que você criar no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando o $id da oferta de fallback que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma decisão (anteriormente conhecida como atividade de oferta). Somente as decisões que você criar no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando o $id da oferta de fallback que você deseja excluir.
 
 **Formato da API**
 

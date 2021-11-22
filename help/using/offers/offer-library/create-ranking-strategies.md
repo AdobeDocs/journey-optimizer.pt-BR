@@ -24,7 +24,7 @@ ht-degree: 6%
 >
 >O uso da classificação de IA está disponível no momento somente para usuários selecionados.
 
-Este recurso permite que você crie **estratégias de classificação diferentes** com base em suas metas de negócios. Usando essas diferentes estratégias baseadas em objetivos em uma decisão (anteriormente conhecida como atividade de oferta), o sistema de modelo treinado ajudará você a entender como as diferentes estratégias de classificação estão afetando suas metas.
+Este recurso permite que você crie diferentes **estratégias de classificação** com base em suas metas comerciais. Usando essas diferentes estratégias baseadas em objetivos em uma decisão (anteriormente conhecida como atividade de oferta), o sistema de modelo treinado ajudará você a entender como as diferentes estratégias de classificação estão afetando suas metas.
 
 Por exemplo, você pode selecionar uma estratégia de classificação para o canal de email e outra para o canal de push. Para cada canal, o sistema de modelo treinado aproveitará vários pontos de dados para determinar qual oferta deve ser apresentada primeiro para uma determinada disposição, em vez de considerar as pontuações de prioridade das ofertas ou uma [fórmula de classificação](create-ranking-formulas.md).
 
@@ -36,7 +36,7 @@ Depois que uma estratégia de classificação tiver sido criada, atribua-a a uma
 
 Para criar uma estratégia de classificação, siga as etapas abaixo:
 
-1. Acesse o menu **[!UICONTROL Components]** e selecione a guia **[!UICONTROL AI rankings]**.
+1. Acesse o **[!UICONTROL Components]** , em seguida, selecione o **[!UICONTROL AI rankings]** guia .
 
    ![](../../assets/ai-ranking-list.png)
 
@@ -50,7 +50,7 @@ Para criar uma estratégia de classificação, siga as etapas abaixo:
 
    * **[!UICONTROL Name]**: Nome exclusivo que deve ser fornecido.
 
-   * **[!UICONTROL Model type]**: Atualmente, o único tipo de modelo compatível é  **[!UICONTROL Auto-optimization]**.<!--More will be supported in the future so the drop-down list will be enabled.-->
+   * **[!UICONTROL Model type]**: Atualmente, o único tipo de modelo compatível é **[!UICONTROL Auto-optimization]**.<!--More will be supported in the future so the drop-down list will be enabled.-->
 
    * **[!UICONTROL Optimization metric]**
 
@@ -64,7 +64,7 @@ Para criar uma estratégia de classificação, siga as etapas abaixo:
       * **[!UICONTROL Impression]**: Os eventos de impressão atuais correspondem a todas as ofertas exibidas.
       * **[!UICONTROL Conversion]**: Os eventos de conversão correspondem a todas as ofertas que resultam em cliques por email ou pela Web.
 
-      Todos os eventos de impressão e/ou conversão selecionados serão capturados automaticamente usando o SDK da Web ou o SDK móvel fornecido. Saiba mais em [Visão geral do SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR).
+      Todos os eventos de impressão e/ou conversão selecionados serão capturados automaticamente usando o SDK da Web ou o SDK móvel fornecido. Saiba mais sobre isso em [Visão geral do SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR).
 
    * **[!UICONTROL Dataset ID]**: Para conversão, você precisa fornecer um conjunto de dados em que os eventos são coletados, selecionando-o na lista suspensa. Saiba como criar esse conjunto de dados em [esta seção](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -72,7 +72,7 @@ Para criar uma estratégia de classificação, siga as etapas abaixo:
 
    >[!CAUTION]
    >
-   >Somente os conjuntos de dados criados a partir de esquemas associados ao grupo de campos **[!UICONTROL Experience Event - Proposition Interactions]** (anteriormente conhecido como mixin) são exibidos na lista suspensa.
+   >Somente os conjuntos de dados criados a partir de esquemas associados ao **[!UICONTROL Experience Event - Proposition Interactions]** grupo de campos (anteriormente conhecido como mixin) são exibidos na lista suspensa.
 
 1. Salve e ative a estratégia de classificação.
 
@@ -84,26 +84,26 @@ Agora ele está pronto para ser usado em uma decisão para classificar ofertas e
 
 É necessário criar um conjunto de dados em que os eventos de conversão sejam coletados. Comece criando o schema que será usado em seu conjunto de dados:
 
-1. No menu **[!UICONTROL Data Management]**, selecione **[!UICONTROL Schema]**, vá para a guia **[!UICONTROL Browse]** e clique em **[!UICONTROL Create schema]**.
+1. No **[!UICONTROL Data Management]** selecione **[!UICONTROL Schema]**, acesse o **[!UICONTROL Browse]** e clique em **[!UICONTROL Create schema]**.
 
    ![](../../assets/ai-ranking-create-schema.png)
 
-1. Escolha **[!UICONTROL XDM ExperienceEvent]**.
+1. Choose **[!UICONTROL XDM ExperienceEvent]**.
 
    ![](../../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
-   >    Saiba mais sobre esquemas XDM e grupos de campos na [documentação de visão geral do Sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
+   >    Saiba mais sobre esquemas XDM e grupos de campos no [Documentação de visão geral do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
 
 
-1. No campo **[!UICONTROL Search]**, digite &quot;interação de proposta&quot; e selecione o grupo de campos **[!UICONTROL Experience Event - Proposition Interactions]**.
+1. No **[!UICONTROL Search]** , digite &quot;interação de proposta&quot; e selecione o **[!UICONTROL Experience Event - Proposition Interactions]** grupo de campos.
 
    ![](../../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
-   >    O esquema que será usado em seu conjunto de dados deve ter o grupo de campos **[!UICONTROL Experience Event - Proposition Interactions]** associado a ele. Caso contrário, você não poderá usá-lo em sua estratégia de classificação.
+   >    O esquema que será usado em seu conjunto de dados deve ter a variável **[!UICONTROL Experience Event - Proposition Interactions]** grupo de campos associado a ele. Caso contrário, você não poderá usá-lo em sua estratégia de classificação.
 
 1. Clique em **[!UICONTROL Add field groups]**.
 
@@ -117,11 +117,11 @@ Agora ele está pronto para ser usado em uma decisão para classificar ofertas e
 
 >[!NOTE]
 >
->    Saiba mais sobre como criar schemas em [Noções básicas da composição do schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas).
+>    Saiba mais sobre como criar schemas no [Noções básicas da composição do schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas).
 
 Agora você está pronto para criar um conjunto de dados usando esse esquema. Para fazer isso, siga as etapas abaixo:
 
-1. No menu **[!UICONTROL Data Management]**, selecione **[!UICONTROL Datasets]**, vá para a guia **[!UICONTROL Browse]** e clique em **[!UICONTROL Create dataset]**.
+1. No **[!UICONTROL Data Management]** selecione **[!UICONTROL Datasets]**, acesse o **[!UICONTROL Browse]** e clique em **[!UICONTROL Create dataset]**.
 
    ![](../../assets/ai-ranking-create-dataset.png)
 
@@ -135,7 +135,7 @@ Agora você está pronto para criar um conjunto de dados usando esse esquema. Pa
 
 1. Clique em **[!UICONTROL Next]**.
 
-1. Forneça um nome exclusivo para o conjunto de dados no campo **[!UICONTROL Name]** e clique em **[!UICONTROL Finish]**.
+1. Forneça um nome exclusivo para o conjunto de dados na **[!UICONTROL Name]** e clique em **[!UICONTROL Finish]**.
 
    ![](../../assets/ai-ranking-dataset-name.png)
 

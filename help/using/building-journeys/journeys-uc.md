@@ -1,13 +1,14 @@
 ---
 title: Casos de uso do Jornada
 description: Casos de uso do Jornada
-feature: Jornadas
-topic: Gerenciamento de conteúdo
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 62d83f69ebf50f36688e3db956bb3860a468c2d6
+exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '835'
 ht-degree: 2%
 
 ---
@@ -40,39 +41,39 @@ Para que esse caso de uso funcione, é necessário configurar o seguinte:
 
 Em nossa jornada, queremos aproveitar um segmento específico de clientes. Todos os indivíduos pertencentes ao segmento entram na jornada e seguem as diferentes etapas. Em nosso exemplo, precisamos de um segmento direcionado a todos os clientes que moram em Atlanta, São Francisco ou Seattle e nasceram depois de 1980.
 
-Para obter mais informações sobre segmentos, consulte esta [página](../segment/about-segments.md).
+Para obter mais informações sobre segmentos, consulte esta seção [página](../segment/about-segments.md).
 
 1. Na seção do menu CLIENTE , selecione **[!UICONTROL Segments]**.
 
-1. Clique no botão **[!UICONTROL Create segment]** localizado na parte superior direita da lista de segmentos.
+1. Clique no botão **[!UICONTROL Create segment]** que está localizado na parte superior direita da lista de segmentos.
 
-1. No painel **[!UICONTROL Segment properties]**, insira um nome para o segmento.
+1. No **[!UICONTROL Segment properties]** , insira um nome para o segmento.
 
-1. Arraste e solte os campos desejados do painel esquerdo para o espaço de trabalho central e configure-os de acordo com suas necessidades. Neste exemplo, usamos os campos de atributos **City** e **Birth year**.
+1. Arraste e solte os campos desejados do painel esquerdo para o espaço de trabalho central e configure-os de acordo com suas necessidades. Neste exemplo, usamos a variável **Cidade** e **Ano de nascimento** campos de atributos.
 
 1. Clique em **[!UICONTROL Save]**.
 
    ![](../assets/add-attributes.png)
 
-O segmento agora é criado e pronto para ser usado em sua jornada. Usando uma atividade **Ler segmento**, você pode fazer com que todos os indivíduos pertencentes ao segmento entrem na jornada.
+O segmento agora é criado e pronto para ser usado em sua jornada. Uso de uma **Ler segmento** , é possível fazer com que todos os indivíduos pertencentes ao segmento entrem na jornada.
 
 ### Configurar o evento
 
 Você precisa configurar um evento enviado para sua jornada quando um cliente fizer uma compra. Quando a jornada recebe o evento, ela aciona a mensagem &quot;obrigado&quot;.
 
-Para isso, usamos um evento com base em regras. Para obter mais informações sobre eventos, consulte esta [página](../event/about-events.md).
+Para isso, usamos um evento com base em regras. Para obter mais informações sobre eventos, consulte esta seção [página](../event/about-events.md).
 
-1. Na seção do menu ADMINISTRATION , selecione **[!UICONTROL Configurations]** e clique em **[!UICONTROL Events]**. Clique em **[!UICONTROL Create event]** para criar um novo evento.
+1. Na seção do menu ADMINISTRATION (ADMINISTRAÇÃO), selecione **[!UICONTROL Configurations]**, depois clique em **[!UICONTROL Events]**. Clique em **[!UICONTROL Create event]** para criar um novo evento.
 
 1. Insira o nome do evento.
 
 1. No campo **[!UICONTROL Event ID type]**, selecione **[!UICONTROL Rule Based]**.
 
-1. Defina o **[!UICONTROL Schema]** e a carga **[!UICONTROL Fields]**. Você pode usar vários campos, por exemplo, o produto comprado, a data de compra e a id de compra.
+1. Defina as **[!UICONTROL Schema]** e carga **[!UICONTROL Fields]**. Você pode usar vários campos, por exemplo, o produto comprado, a data de compra e a id de compra.
 
-1. No campo **[!UICONTROL Event ID condition]**, defina a condição usada pelo sistema para identificar os eventos que acionam sua jornada. Por exemplo, você pode adicionar um campo `purchaseMessage` e definir a seguinte regra: `purchaseMessage="thank you"`
+1. No **[!UICONTROL Event ID condition]** , defina a condição usada pelo sistema para identificar os eventos que acionam a jornada. Por exemplo, é possível adicionar uma `purchaseMessage` e defina a seguinte regra: `purchaseMessage="thank you"`
 
-1. Defina os **[!UICONTROL Namespace]** e **[!UICONTROL Profile Identifier]**.
+1. Defina as **[!UICONTROL Namespace]** e **[!UICONTROL Profile Identifier]**.
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -94,38 +95,38 @@ Consulte esta [seção](../segment/about-segments.md) para saber como criar e pu
 
 ## Projetar a jornada
 
-1. Inicie a jornada com uma atividade **Ler segmento** . Selecione o segmento criado anteriormente. Todos os indivíduos pertencentes ao segmento entram na jornada.
+1. Inicie a jornada com um **Ler segmento** atividade . Selecione o segmento criado anteriormente. Todos os indivíduos pertencentes ao segmento entram na jornada.
 
    ![](../assets/jo-uc4.png)
 
-1. Solte uma atividade **Message** e selecione a primeira mensagem por push e email. Esta mensagem é enviada a todos os indivíduos na jornada.
+1. Solte uma **Mensagem** e selecione a primeira mensagem de push e email. Esta mensagem é enviada a todos os indivíduos na jornada.
 
    ![](../assets/jo-uc5.png)
 
 1. Coloque o cursor na atividade da mensagem e clique no símbolo &quot;+&quot; para criar um novo caminho.
 
-1. No primeiro caminho, adicione um evento **Reaction** e selecione **Push opened**. O evento é acionado quando um indivíduo pertencente ao segmento abre a versão de push da primeira mensagem.
+1. No primeiro caminho, adicione um **Reação** e selecione **Empurrar aberto**. O evento é acionado quando um indivíduo pertencente ao segmento abre a versão de push da primeira mensagem.
 
-1. No segundo caminho, adicione um evento **Reaction** e selecione **Email opened**. O evento é acionado quando o indivíduo abre o email.
+1. No segundo caminho, adicione um **Reação** e selecione **Email aberto**. O evento é acionado quando o indivíduo abre o email.
 
-1. Em uma das atividades de reação, marque a caixa **Define the event timeout**, defina uma duração (1 dia no nosso exemplo) e marque **Set a timeout path**. Isso cria outro caminho para indivíduos que não abrem a primeira mensagem de push ou email.
+1. Em uma das atividades de reação, verifique a **Definir o tempo limite do evento** , defina uma duração (1 dia no nosso exemplo) e marque **Definir um caminho de tempo limite**. Isso cria outro caminho para indivíduos que não abrem a primeira mensagem de push ou email.
 
    >[!NOTE]
    >
    >Ao configurar um tempo limite em vários eventos (as duas reações, neste caso), é necessário apenas configurar o tempo limite em um desses eventos.
 
-1. No caminho de tempo limite, solte uma atividade **Message** e selecione a mensagem de acompanhamento de email. Esta mensagem é enviada aos indivíduos que não abrem o email ou enviam a primeira mensagem no dia seguinte.
+1. No caminho de tempo limite, solte uma **Mensagem** e selecione a mensagem de acompanhamento do email. Esta mensagem é enviada aos indivíduos que não abrem o email ou enviam a primeira mensagem no dia seguinte.
 
 1. Conecte os três caminhos ao evento de compra criado anteriormente. O evento é acionado quando um indivíduo faz uma compra.
 
-1. Depois do evento, solte uma atividade **Message** e selecione a mensagem de email &quot;obrigado&quot;.
+1. Depois do evento , solte uma **Mensagem** e selecione a mensagem de email &quot;obrigado&quot;.
 
-1. Adicione uma atividade **End**.
+1. Adicione um **End** atividade .
 
 ## Testar e publicar a jornada
 
 1. Antes de testar sua jornada, verifique se ela é válida e se não há erro.
 
-1. Clique no botão **Test**, localizado no canto superior direito, para ativar o modo de teste. Defina como deseja que os perfis de teste insiram o teste: um único perfil, ou até 100 de uma só vez. Consulte esta [seção](testing-the-journey.md) para saber como usar o modo de teste.
+1. Clique no botão **Teste** alterne, localizado no canto superior direito, para ativar o modo de teste. Defina como deseja que os perfis de teste insiram o teste: um único perfil, ou até 100 de uma só vez. Consulte esta [seção](testing-the-journey.md) para saber como usar o modo de teste.
 
-1. Quando a jornada estiver pronta, publique-a usando o botão **Publish**, localizado no canto superior direito.
+1. Quando a jornada estiver pronta, publique-a usando o **Publicar** , localizado no canto superior direito.

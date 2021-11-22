@@ -1,20 +1,21 @@
 ---
 title: Pesquisar uma regra de decisão
 description: As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a qualificação.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '170'
 ht-degree: 4%
 
 ---
 
 # Pesquisar regras de decisão
 
-Você pode procurar uma regra de decisão específica fazendo uma solicitação GET para a API [!DNL Offer Library] que inclui a regra de decisão `@id` ou o nome da regra de decisão no caminho da solicitação.
+Você pode procurar uma regra de decisão específica fazendo uma solicitação GET para a variável [!DNL Offer Library] API que inclui a regra de decisão `@id` ou o nome da regra de decisão no caminho da solicitação.
 
 **Formato da API**
 
@@ -27,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | O contêiner onde as regras de decisão estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ELIGIBILITY_RULE}` | Define o schema associado às regras de decisão. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | Uma string usada para corresponder à propriedade `@id` das entidades. A sequência de caracteres corresponde exatamente. O parâmetro s `id` e `name` não pode ser usado juntos. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `id` | Uma string usada para corresponder a `@id` propriedade das entidades. A sequência de caracteres corresponde exatamente. O parâmetro s `id` e `name` não podem ser usados juntos. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
 | `name` | Uma string usada para corresponder à propriedade xdm:name das entidades. A string é correspondida exatamente com maiúsculas, mas caracteres curingas podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Sales rule` |
 
 **Solicitação**
@@ -44,7 +45,7 @@ curl -X GET \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes da regra de decisão específica que você procurou, incluindo informações sobre sua ID de contêiner, ID de instância e regra de decisão exclusiva `@id`.
+Uma resposta bem-sucedida retorna os detalhes da regra de decisão específica que você pesquisou, incluindo informações sobre sua ID de contêiner, ID de instância e regra de decisão exclusiva `@id`.
 
 ```json
 {

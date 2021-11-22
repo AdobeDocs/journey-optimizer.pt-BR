@@ -1,14 +1,15 @@
 ---
 title: Introdução aos eventos de Gerenciamento de decisão
 description: Saiba como criar relatórios de Gerenciamento de decisões no Adobe Experience Platform.
-feature: Ofertas
-topic: Integrações
+feature: Offers
+topic: Integrations
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 58%
+source-wordcount: '172'
+ht-degree: 57%
 
 ---
 
@@ -18,11 +19,11 @@ Sempre que o Gerenciamento de decisões tomar um determinado perfil, as informa�
 
 Isso permite exportar esses dados para analisá-los no seu próprio sistema de relatórios. Você também pode aproveitar o Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR) em combinação com outras ferramentas para fins de análise e relatório aprimorados.
 
-Os conjuntos de dados que contêm eventos de Gerenciamento de decisões podem ser acessados no menu Adobe Experience Platform **[!UICONTROL Datasets]** . Um conjunto de dados é criado automaticamente no provisionamento para cada uma de suas instâncias.
+Os conjuntos de dados que contêm eventos de Gerenciamento de decisões são acessíveis no Adobe Experience Platform **[!UICONTROL Datasets]** menu. Um conjunto de dados é criado automaticamente no provisionamento para cada uma de suas instâncias.
 
 ![](../../assets/events-datasets-list.png)
 
-Esses conjuntos de dados são baseados no esquema **[!UICONTROL ODE DecisionEvents]**, que contém todos os campos XDM necessários para enviar informações do Gerenciamento de decisão para a Adobe Experience Platform.
+Esses conjuntos de dados são baseados na variável **[!UICONTROL ODE DecisionEvents]** , que contém todos os campos XDM necessários para enviar informações do Gerenciamento de decisão para a Adobe Experience Platform.
 
 >[!NOTE]
 >

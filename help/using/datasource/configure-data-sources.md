@@ -1,13 +1,14 @@
 ---
 title: Configurar uma fonte de dados
 description: Saiba como configurar uma fonte de dados
-feature: Fontes de dados
-topic: Administração
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
+exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '552'
 ht-degree: 10%
 
 ---
@@ -20,7 +21,7 @@ Estas são as etapas principais de configuração da fonte de dados:
 >
 >A configuração da fonte de dados é sempre executada por um **usuário técnico**.
 
-1. Na seção do menu ADMINISTRATION , selecione **[!UICONTROL Configurations]**. Na seção **[!UICONTROL Data Sources]**, clique em **[!UICONTROL Manage]**. A lista das fontes de dados é exibida. Consulte [esta página](../user-interface.md) para obter mais informações sobre a interface.
+1. Na seção do menu ADMINISTRATION (ADMINISTRAÇÃO), selecione **[!UICONTROL Configurations]**. No  **[!UICONTROL Data Sources]** seção , clique em **[!UICONTROL Manage]**. A lista das fontes de dados é exibida. Consulte [esta página](../user-interface.md) para obter mais informações sobre a interface.
 
    ![](../assets/journey18.png)
 
@@ -44,7 +45,7 @@ Mesmo que um nome padrão seja adicionado automaticamente, recomendamos que voc�
 
 Quando um campo de fonte de dados é usado em uma jornada, o sistema recuperará todos os campos definidos para esse grupo de campos. Portanto, selecionar apenas os campos necessários para suas jornadas é uma prática recomendada. Isso reduzirá a latência de solicitação em suas jornadas, aumentando assim o desempenho. Observe que é possível adicionar mais campos facilmente posteriormente em grupos de campos.
 
-O número de jornadas que usam um grupo de campos é exibido no campo **[!UICONTROL Used in]**. Você pode clicar no botão **[!UICONTROL View journeys]** para exibir a lista de jornadas usando esse grupo de campos.
+O número de jornadas que usam um grupo de campos é exibido na variável **[!UICONTROL Used in]** campo. Você pode clicar no botão **[!UICONTROL View journeys]** para exibir a lista de jornadas usando esse grupo de campos.
 
 >[!NOTE]
 >
@@ -60,9 +61,9 @@ Você pode adicionar ou remover campos de um grupo de campos que não é usado e
 
 Para excluir um campo de um grupo de campos usado em uma ou mais jornadas, siga estas etapas. Vamos usar um exemplo de um grupo de campos chamado &quot;Grupo de campos A&quot;.
 
-1. Na lista de grupos de campos, coloque o cursor em &quot;Grupo de campos A&quot; e clique no ícone **[!UICONTROL Duplicate]** localizado à direita. Nomeie o grupo de campos duplicados como &quot;Grupo de campos B&quot;, por exemplo.
+1. Na lista de grupos de campos, coloque o cursor em &quot;Grupo de campos A&quot; e clique na guia **[!UICONTROL Duplicate]** ícone localizado à direita. Nomeie o grupo de campos duplicados como &quot;Grupo de campos B&quot;, por exemplo.
 1. Em &quot;Grupo de campos B&quot;, remova os campos que não deseja mais.
-1. Em &quot;Grupo de campos A&quot;, verifique onde esse grupo de campos é usado. Essas informações são exibidas no campo **[!UICONTROL Used in]**.
+1. Em &quot;Grupo de campos A&quot;, verifique onde esse grupo de campos é usado. Essas informações são exibidas na **[!UICONTROL Used in]** campo.
 1. Abra todas as jornadas que usam &quot;Grupo de campos A&quot;.
 1. Crie novas versões de cada uma dessas jornadas. Edite todas as atividades usando &quot;Grupo de campos A&quot; e selecione &quot;Grupo de campos B&quot;.
 1. Pare as versões antigas de jornadas que usam o &quot;Grupo de campos A&quot;. Você não deve ter jornada usando &quot;Grupo de campos A&quot;.
