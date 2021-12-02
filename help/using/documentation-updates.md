@@ -2,9 +2,9 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
+source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '794'
 ht-degree: 25%
 
 ---
@@ -13,6 +13,11 @@ ht-degree: 25%
 
 Esta página lista todas as atualizações de documentação do [!DNL Journey Optimizer].
 
+
+## Novembro de 2021
+
+* Uma descrição completa do editor de expressão avançado usado no jornada está disponível. [Leia mais](building-journeys/expression/expressionadvanced.md)
+* Novo método de delegação de subdomínio CNAME. [Leia mais](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## Outubro de 2021
 

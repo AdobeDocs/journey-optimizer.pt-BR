@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
+source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1684'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    Durante essa etapa, várias verificações serão executadas para verificar se foram configuradas corretamente. O tempo de processamento está por vir **48h-72h** e pode **7 a 10 dias úteis**.
 
-   Essas verificações incluem testes de deliverability realizados pela equipe de deliverability do Adobe:
+   Essas verificações incluem testes técnicos e de configuração realizados pela equipe de Adobe:
 
    * Validação de SPF
    * Validação de DKIM

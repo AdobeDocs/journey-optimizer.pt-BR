@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
+source-git-commit: 9e6e4f30e2f0301157901ea211f984ebcfb99bc4
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 6%
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 # Configurar uma ação {#configure-an-action}
 
-Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que o jornada envie chamadas de API para um sistema de terceiros, é aqui que você configura a conexão com o jornada. A ação personalizada definida pelos usuários técnicos estará disponível na paleta esquerda da jornada, no **[!UICONTROL Action]** categoria (consulte [esta página](../building-journeys/about-journey-activities.md#action-activities). Estes são alguns exemplos de sistemas aos quais você pode se conectar com ações personalizadas: Epsilon, Facebook, Adobe.io, Firebase, etc.
+Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que o jornada envie chamadas de API para um sistema de terceiros, é aqui que você configura a conexão com o jornada. A ação personalizada definida pelos usuários técnicos estará disponível na paleta esquerda da jornada, no **[!UICONTROL Action]** categoria (consulte [esta página](../building-journeys/about-journey-activities.md#action-activities). Estes são alguns exemplos de sistemas aos quais você pode se conectar com ações personalizadas: Epsilon, Slack, Adobe.io, Firebase, etc.
 
 As limitações estão listadas em [esta página](../limitations.md).
 
