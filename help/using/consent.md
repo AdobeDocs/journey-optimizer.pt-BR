@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 9facba9d5dd804e51aad969ef83a964f64e63033
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 78%
+source-wordcount: '814'
+ht-degree: 77%
 
 ---
 
@@ -44,7 +44,9 @@ Portanto, você sempre deve incluir um **link para cancelar a inscrição** em c
 Para adicionar um link de cancelamento de inscrição, siga as etapas abaixo:
 
 1. Crie sua página de aterrissagem de unsubscription.
-1. Hospede sua página de aterrissagem no sistema de terceiros de sua escolha.
+
+1. Hospede-o no sistema de terceiros de sua escolha.
+
 1. [Criar uma mensagem](../../help/using/create-message.md) no [!DNL Journey Optimizer].
 
    <!--The link to your landing page should contain a static URL and the profile ID.-->

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c6db89093e1ec5b7d9fe084cec58b8b7664c6ab2
+source-git-commit: 2879f460d4be4b570e47227b32fa3f979984cbbf
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '803'
 ht-degree: 5%
 
 ---
@@ -49,6 +49,8 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 1. Escolha o tipo de link que deseja criar:
 
    * **[!UICONTROL External link]**: Insira um link para um URL externo.
+
+   * **[!UICONTROL Landing page]**: Insira um link para uma landing page. Saiba mais [nesta seção](landing-pages/get-started-lp.md)
 
    * **[!UICONTROL Unsubscription link]**: Insira um link para cancelar a assinatura do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de recusa [nesta seção](consent.md#opt-out-management).
 
