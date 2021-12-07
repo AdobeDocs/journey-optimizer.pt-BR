@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 0%
+source-wordcount: '352'
+ht-degree: 2%
 
 ---
 
-# Criar uma lista de assinaturas {#create-subscription-list}
+# Listas de assinaturas {#create-subscription-list}
 
 ## O que é uma lista de assinaturas?
 
@@ -22,13 +23,13 @@ Um serviço de assinatura refere-se aos bens e serviços de marketing fornecidos
 
 Um serviço de assinatura pode ser:
 
-* um boletim informativo, por exemplo, &quot;Série em execução&quot;
-* um evento, por exemplo &quot;Summit 2021&quot;
-* um webinário, por exemplo, &quot;Saiba mais sobre o crypto&quot;
-* um interesse em um determinado produto/esporte/serviço/etc., por exemplo &quot;Interessado em comprar uma casa nos próximos 12 meses&quot;
-* preferência por como ser notificado, por exemplo &quot;Receber novas notificações de música por email&quot;
+* um informativo, por exemplo: &quot;Série em execução&quot;
+* um evento, por exemplo: &quot;Summit 2021&quot;
+* um webinar, por exemplo: &quot;Saiba mais sobre o crypto&quot;
+* um interesse em um produto/esporte/serviço/etc., por exemplo: &quot;Interessado em comprar uma casa nos próximos 12 meses&quot;
+* uma preferência sobre como ser notificado, por exemplo: &quot;Receba novas notificações de música por email&quot;
 
-Os perfis podem ser adicionados a uma lista de assinaturas por meio de uma [página de aterrissagem](create-lp.md). Um exemplo é apresentado em [esta seção](get-started-lp.md#subscription-to-a-service).
+Os perfis podem ser adicionados a uma lista de assinaturas por meio de uma [página de aterrissagem](create-lp.md). Um exemplo é apresentado em [esta seção](lp-use-cases.md#subscription-to-a-service).
 
 ## Definir uma lista de assinaturas {#define-subscription-list}
 
@@ -38,7 +39,7 @@ Para criar uma lista de subscrição, siga as etapas abaixo.
 
    ![](../assets/lp_subscription-lists.png)
 
-1. Na lista de assinaturas, clique em **[!UICONTROL Create subscription]** lista.
+1. Selecione o botão **[!UICONTROL Create subscription list]**.
 
    ![](../assets/lp_create-subscription-list.png)
 
@@ -50,31 +51,29 @@ Para criar uma lista de subscrição, siga as etapas abaixo.
 
 1. Clique em **[!UICONTROL Save]**.
 
-A lista exibe todas as listas de assinaturas criadas. Você pode filtrá-los com base na data de criação ou na data de modificação.
+A lista exibe todas as listas de assinaturas criadas. Você pode filtrá-los com base na data de criação ou na data de modificação e em seu status.
 
 ![](../assets/lp_subscription-filters.png)
 
 Os status possíveis são os seguintes:
 
-* **[!UICONTROL Not started]**: Você definiu uma data de início posterior ao dia atual. Os perfis inscritos nessa lista ainda não receberão comunicações relacionadas a essa lista de assinaturas.
+* **[!UICONTROL Not started]**: Você definiu uma data de início posterior ao dia atual. Os perfis subscritos ainda não receberão comunicações relacionadas a esta lista de subscrição.
 * **[!UICONTROL Live]**: O dia atual é composto pela data de início e de término da lista de assinaturas ou por datas de término/início não definidas, o que significa que a lista de assinaturas está sempre ativa.
-* **[!UICONTROL Expired]**: A data de término é passada, a lista de assinaturas não é mais válida. Qualquer perfil inscrito nessa lista não receberá mais comunicações relacionadas a essa lista de assinaturas.
+* **[!UICONTROL Expired]**: A data de término é passada, portanto, a lista de assinaturas não é mais válida. Qualquer perfil inscrito não receberá mais comunicações relacionadas a esta lista de assinaturas.
 
-Depois que a lista de assinaturas for criada, você poderá usá-la em uma landing page para que os perfis possam aderir a um formulário e ser adicionados à lista. [Saiba mais](design-lp.md)
+Depois que a lista de assinaturas for criada, você poderá usá-la em uma landing page. Os perfis que optarem pelo formulário de landing page serão adicionados à lista. [Saiba mais](design-lp.md)
 
-Também é possível usar listas de assinaturas como segmentos ao criar jornadas e personalização.
+Também é possível usar as listas de assinatura como segmentos quando [jornadas de construção](../building-journeys/journey-gs.md#jo-build) e adicionar personalização.
+
+>[!NOTE]
+>
+>Você pode monitorar os impactos da sua lista de assinaturas por meio de relatórios específicos. [Saiba mais](subscription-report.md)
 
 <!--
 
 **Questions**
 
 * Can't see the newly created subscription list in UI because their name included spacing > bug - to follow up (should be fixed for Dec. release)
-
-* How do you handle the different statuses? Live, Not started, Expired? Is it only through start/end dates?
-
-* What does it mean when a subscription list is expired or not started? You can't use it in a LP? And if a user is subscribed to this service, then he won't receive communications any more?
-
-* What else can you currently do with subscription lists apart from attach them to a landing page?
 
 * Can you update the subscription list in a way other than through a LP? Not in UI but with APIs > to follow up with Fred
 

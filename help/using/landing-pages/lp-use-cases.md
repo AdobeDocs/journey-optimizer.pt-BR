@@ -7,16 +7,17 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 21%
+source-wordcount: '772'
+ht-degree: 19%
 
 ---
 
 # Casos de uso da página de aterrissagem
 
-Abaixo estão exemplos de como você pode usar [!DNL Journey Optimizer] páginas de aterrissagem para que seus clientes optem por receber algumas ou todas as suas comunicações.
+Abaixo estão alguns exemplos de como você pode usar [!DNL Journey Optimizer] páginas de aterrissagem para que seus clientes optem por receber algumas ou todas as suas comunicações.
 
 <!--The main use cases are:
 * Subscription to a service
@@ -25,33 +26,65 @@ Abaixo estão exemplos de como você pode usar [!DNL Journey Optimizer] páginas
 
 ## Assinatura de um serviço {#subscription-to-a-service}
 
-As principais etapas para fazer com que seus recipients assinem um serviço são apresentadas abaixo.
+Um dos casos de uso mais comuns consiste em convidar seus clientes para [assinar um serviço](subscription-list.md) (como um boletim informativo ou um evento) por meio de uma página de aterrissagem. As principais etapas são apresentadas no gráfico abaixo:
 
 ![](../assets/lp_subscription-uc.png)
 
-Por exemplo, digamos que você organize um evento no próximo mês e deseje iniciar uma campanha de registro de evento para manter seus clientes interessados atualizados sobre ele.
+Por exemplo, digamos que você organize um evento no próximo mês e deseje iniciar uma campanha de registro de evento<!--to keep your customers that are interested updated on that event-->. Para fazer isso, você enviará um email incluindo um link para uma landing page que permitirá que seus recipients se registrem neste evento. Os usuários que se registrarem serão adicionados à lista de assinaturas criada para essa finalidade.
 
-1. Crie a lista de subscrição do registro de eventos. Saiba mais sobre [listas de assinaturas](subscription-list.md)
+### Configurar landing page
 
-1. [Criar uma landing page](create-lp.md), que permitirá que seus recipients se registrem no seu evento.
+1. Crie a lista de subscrição do registro de eventos, que armazenará os usuários registrados. Saiba como criar uma lista de assinaturas [here](subscription-list.md#define-subscription-list).
 
-1. Configure e projete a landing page de registro, incluindo o link para a lista de assinaturas. Saiba mais sobre a criação da variável [página de aterrissagem primária](create-lp.md#configure-primary-page)
+   ![](../assets/lp_subscription-uc-list.png)
 
-1. Crie uma página de agradecimento que será exibida aos recipients depois que eles enviarem o formulário de registro. Saiba mais sobre [subpáginas de aterrissagem](create-lp.md#configure-subpages)
+1. [Criar uma landing page](create-lp.md) para permitir que seus recipients se registrem no seu evento.
 
-1. Criar uma mensagem de email. Saiba mais sobre [criação de mensagens](../create-message.md)
+1. Configurar o registro [página de aterrissagem primária](create-lp.md#configure-primary-page).
 
-1. [Inserir um link](../message-tracking.md#insert-links) na sua mensagem. Selecionar **[!UICONTROL Landing page]** como **[!UICONTROL Link type]** e escolha a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para registro.
+1. Ao projetar o [conteúdo da página de aterrissagem](design-lp.md), selecione a lista de assinaturas criada para atualizá-la com os perfis que marcam a caixa de seleção de registro.
+
+   ![](../assets/lp_subscription-uc-lp-list.png)
+
+1. Crie uma página de &#39;agradecimento&#39; que será exibida aos recipients depois de enviarem o formulário de registro. Saiba como configurar landing subpages [here](create-lp.md#configure-subpages).
+
+   ![](../assets/lp_subscription-uc-thanks.png)
+
+1. [Publicar](create-lp.md#publish) a landing page.
+
+1. [Criar uma mensagem de email](../create-message.md) para anunciar que o registro agora está aberto para o seu evento.
+
+1. [Inserir um link](../message-tracking.md#insert-links) no conteúdo da mensagem. Selecionar **[!UICONTROL Landing page]** como **[!UICONTROL Link type]** e escolha a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para registro.
 
    ![](../assets/lp_subscription-uc-link.png)
 
 1. Salve o conteúdo e [publique a mensagem](../publish-manage-message.md).
 
-1. Envie sua mensagem por meio de um [jornada](../building-journeys/journey.md) o para anunciar o registro agora está aberto para o seu evento e para direcionar o tráfego para a página de aterrissagem do registro.
+1. Envie sua mensagem por meio de um [jornada](../building-journeys/journey.md) para direcionar o tráfego para a landing page de registro.
 
-   Depois que eles receberem o email, se seus recipients clicarem no link para a landing page, eles serão direcionados para a página de agradecimento e serão adicionados à lista de assinaturas.
+   ![](../assets/lp_subscription-uc-journey.png)
 
-1. Você pode enviar um email de confirmação para os recipients que se registraram para o seu evento. Para fazer isso, envie-o por outra jornada usando o **[!UICONTROL Segment qualification]** e selecione a lista de assinaturas criada como o segmento.
+   Depois que receberem o email, se seus recipients clicarem no link para a landing page, eles serão direcionados para a página &quot;obrigado&quot; e serão adicionados à lista de assinaturas.
+
+### Enviar um email de confirmação {#send-confirmation-email}
+
+Além disso, você pode enviar um email de confirmação para os recipients que se registraram para o seu evento. Para isso, siga as etapas abaixo.
+
+1. Criar outro [jornada](../building-journeys/journey.md). Você pode fazer isso diretamente da landing page clicando no link **[!UICONTROL Create journey]** botão. Saiba mais [aqui](create-lp.md#configure-primary-page)
+
+   ![](../assets/lp_subscription-uc-create-journey.png)
+
+1. Expanda a **[!UICONTROL Events]** categoria e solte uma **[!UICONTROL Segment Qualification]** atividade na tela. Saiba mais [aqui](../building-journeys/segment-qualification-events.md)
+
+1. Clique no botão **[!UICONTROL Segment]** e selecione a lista de subscrição criada.
+
+   ![](../assets/lp_subscription-uc-confirm-journey.png)
+
+1. Selecione o email de confirmação de sua escolha e envie-o por meio da jornada.
+
+   ![](../assets/lp_subscription-uc-confirm-email.png)
+
+Todos os usuários que se registraram para o seu evento receberão o email de confirmação.
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 

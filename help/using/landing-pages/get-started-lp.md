@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 1%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
@@ -30,29 +31,26 @@ Uma página de aterrissagem é uma página da Web independente para a qual o usu
 
 <!--[!DNL Journey Optimizer] now allows you to:
 * Easily build landing pages to make users subscribe to your communications.
-* Set up opt-in and opt-out flows quickly and seamlessly.
+* Enable your customers to opt-in or opt-out from your communications.
 To move to RN-->
 
-[!DNL Journey Optimizer] O permite:
-
-* Aproveitamento [!DNL Journey Optimizer] recursos de design de conteúdo para criar páginas de aterrissagem responsivas com facilidade.
-* Criar listas de subscrição para permitir que os utilizadores subscrevam um serviço.
-* Permita que seus clientes incluam ou excluam suas comunicações.
-* Forneça aos recipients a capacidade de cancelar a assinatura do recebimento de suas comunicações.
+* Aproveitamento [!DNL Journey Optimizer] recursos de design de conteúdo para criar com facilidade **páginas de aterrissagem responsivas**.
+* Configurar **fluxos de participação e não participação** rápida e perfeitamente.
+* Criar listas de subscrição para permitir aos utilizadores **assinar um serviço**. [Leia mais](lp-use-cases.md#subscription-to-a-service)
+* Forneça aos recipients a **capacidade de cancelar a assinatura** ao receber suas comunicações. [Leia mais](lp-use-cases.md#opt-out)
+* Envie um **email de confirmação** após a aceitação ou recusa. [Leia mais](lp-use-cases.md#send-confirmation-email)
 
 <table>
 <tr>
 <td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Criar landing pages</a></p></td>
 <td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Criar listas de assinatura</a></p></td>
 <td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Páginas de aterrissagem de design</a></p></td>
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Casos de uso</a></p></td>
+<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="lp-report.md">Relatórios</a></p></td>
 </tr>
 </table>
 
-<!--Easily build attractive/efficient landing pages to drive the best conversion.-->
+<!--
 
-<!--**Questions**
+<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
 
-* Can you leverage **Adobe Experience Manager Assets Essentials** to enrich your landing pages' content?
-
-* Can you personalize LP ? > Enhance customers' experience by creating **personalized landing pages** based on their profile attributes.-->
+-->
