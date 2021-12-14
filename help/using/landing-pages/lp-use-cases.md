@@ -8,9 +8,9 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
+source-git-commit: 847873b39476e3bd932f420a70c9dcac46de84f5
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '843'
 ht-degree: 15%
 
 ---
@@ -123,7 +123,7 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
    >[!NOTE]
    >
-   >Certifique-se de fazer referência à subpágina no **[!UICONTROL Form]** do componente **[!UICONTROL Call to action]** da página primária. [Saiba mais](design-lp.md)
+   >Certifique-se de fazer referência à subpágina no **[!UICONTROL Call to action]** da seção **[!UICONTROL Form]** componente. [Saiba mais](design-lp.md)
 
 1. Após configurar e definir o conteúdo de suas páginas, [publicar](create-lp.md#publish) a landing page.
 
@@ -147,7 +147,7 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
    ![](../assets/lp_opt-out-submit-form.png)
 
-1. Na landing page, se o recipient marcar a caixa e enviar o formulário:
+   Se o recipient marcar a caixa e enviar o formulário:
 
    * O recipient que recusou a inscrição é redirecionado para a tela de mensagem de confirmação.
 
