@@ -8,10 +8,10 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 19%
+source-wordcount: '847'
+ht-degree: 15%
 
 ---
 
@@ -105,39 +105,53 @@ Portanto, você sempre deve incluir um **link para cancelar a inscrição** em c
 
 ### Configurar recusa {#configure-opt-out}
 
-Para permitir que os recipients de uma mensagem cancelem a assinatura de suas comunicações por meio de uma landing page, siga as etapas abaixo.
+Para permitir que os recipients de um email cancelem a assinatura de suas comunicações por meio de uma landing page, siga as etapas abaixo.
 
-1. Crie seu [página de aterrissagem](create-lp.md). Usar a página de aterrissagem específica **[!UICONTROL Form]** , defina um **[!UICONTROL Opt-out]** e escolha atualizar **[!UICONTROL Channel (email)]**: o perfil que marcar a caixa de opção de não participação na página de aterrissagem será rejeitado em todas as suas comunicações. [Saiba mais](design-lp.md)
+1. Crie a landing page. [Saiba mais](create-lp.md)
+
+1. Defina a página primária. [Saiba mais](create-lp.md#configure-primary-page)
+
+1. [Design](design-lp.md) o conteúdo principal da página: usar a página de aterrissagem específica **[!UICONTROL Form]** , defina um **[!UICONTROL Opt-out]** e escolha atualizar **[!UICONTROL Channel (email)]**: o perfil que marcar a caixa de opção de não participação na página de aterrissagem será rejeitado em todas as suas comunicações.
+
+   ![](../assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
-1. [Criar uma mensagem](../create-message.md) no [!DNL Journey Optimizer].
+1. Adicionar uma confirmação [subpágina](create-lp.md#configure-subpages) que será exibido para os usuários que enviam o formulário.
+
+   ![](../assets/lp_opt-out-subpage.png)
+
+   >[!NOTE]
+   >
+   >Certifique-se de fazer referência à subpágina no **[!UICONTROL Form]** do componente **[!UICONTROL Call to action]** da página primária. [Saiba mais](design-lp.md)
+
+1. Após configurar e definir o conteúdo de suas páginas, [publicar](create-lp.md#publish) a landing page.
+
+   ![](../assets/lp_opt-out-publish.png)
+
+1. [Criar uma mensagem de email](../create-message.md) em [!DNL Journey Optimizer].
 
 1. Selecione o texto no seu conteúdo e [inserir um link](../message-tracking.md#insert-links) usando a barra de ferramentas contextual. Você também pode usar um link em um botão.
 
    ![](../assets/lp_opt-out-insert-link.png)
 
-1. Selecione o **[!UICONTROL Landing page]** na lista suspensa **[!UICONTROL Link type]**.
-
-1. Selecione o [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para rejeitar.
+1. Selecionar **[!UICONTROL Landing page]** do **[!UICONTROL Link type]** e selecione a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para rejeitar.
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. Clique em **[!UICONTROL Save]**.
-
 1. Salve o conteúdo e [publique a mensagem](../publish-manage-message.md).
 
-1. Envie sua mensagem por meio de um [jornada](../building-journeys/journey.md).
+1. Envie sua mensagem por meio de uma jornada. [Saiba mais](../building-journeys/journey.md).
 
-1. Depois que a mensagem for recebida, se o recipient clicar no link de cancelamento de inscrição, a página de aterrissagem será exibida.
+1. Depois que a mensagem é recebida, se um recipient clicar no link de cancelamento de subscrição no email, sua landing page será exibida.
 
-   <!--![](../assets/lp_opt-out-lp-example.png)-->
+   ![](../assets/lp_opt-out-submit-form.png)
 
-1. Se o recipient clicar no link de recusa na landing page, os dados do perfil serão atualizados e não receberão comunicações da sua marca, a menos que tenham feito assinatura novamente.
+1. Na landing page, se o recipient marcar a caixa e enviar o formulário:
 
-   <!--The opted-out recipient is then redirected to a confirmation message screen indicating that opting out was successful.-->
+   * O recipient que recusou a inscrição é redirecionado para a tela de mensagem de confirmação.
 
-   <!--![](../assets/lp_opt-out-confirmation-example.png)-->
+   * Os dados do perfil são atualizados e não receberão comunicações da sua marca, a menos que sejam subscritos novamente.
 
 Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
