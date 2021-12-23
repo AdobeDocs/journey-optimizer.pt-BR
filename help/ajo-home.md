@@ -8,13 +8,13 @@ role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '202'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
-# Adobe [!DNL Journey Optimizer] Documentação {#cjm-documentation}
+# Documentação do Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
 
@@ -22,7 +22,7 @@ ht-degree: 40%
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <div><strong>Comece já</strong>
+    <div><strong>Introdução</strong>
     </div>
     <p>
     <em></em>
@@ -41,39 +41,39 @@ ht-degree: 40%
       <a href="using/quick-start.md">Guia de início rápido</a>
     </div>
     <p>
-    Saiba como iniciar o como Administrador, Engenheiro de dados ou Profissional de Jornadas
+    Saiba como iniciar como administrador, engenheiro de dados ou profissional de jornada
     <p>
     <p>
     <div>
       <a href="using/design-emails.md">Criar um conteúdo de email</a>
     </div>
     <p>
-    Projetar um novo email ou importar um conteúdo de HTML existente
+    Criar um novo email ou importar um conteúdo de HTML existente
     <p>
     <div>
       <a href="using/building-journeys/journeys-message.md">Envio de mensagens</a>
     </div>
-    <p>Saiba como adicionar mensagens de push e email às jornadas do cliente
+    <p>Saiba como adicionar mensagens por push e de email nas jornadas do seu cliente
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">Criar a primeira jornada</a>
     </div>
-    <p>Saiba como criar e executar uma jornada
+    <p>Aprenda como construir e executar uma jornada
     <p>
     <div>
     <a href="using/configuration/get-started-configuration.md">Configurar [!DNL Journey Optimizer]</a>
     </div>
-    <p>Saiba mais sobre as principais etapas para configurar [!DNL Journey Optimizer]
+    <p>Saiba mais sobre as principais etapas para configurar o [!DNL Journey Optimizer]
     <p>
     <div>
     <a href="using/administration/permissions-overview.md">Conceder acesso ao [!DNL Journey Optimizer]</a>
     </div>
-    <p>Defina e gerencie as permissões atribuídas ao [!DNL Journey Optimizer] usuários
+    <p>Definir e gerenciar as permissões atribuídas aos usuários do [!DNL Journey Optimizer]
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Gerenciamento de decisão</a>
     </div>
-    <p>Crie ofertas e forneça a melhor oferta e experiência para seus clientes
+    <p>Criar ofertas e fornecer a melhor oferta e experiência para os seus clientes
     <p>
     <p>
     <div><strong>Recursos adicionais</strong>
@@ -82,32 +82,32 @@ ht-degree: 40%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrição do produto Adobe Journey Optimizer</a>
+      <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html" target="_blank">Descrição do produto Adobe Journey Optimizer</a>
     </li>
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR" target="_blank">Documentação do Adobe Experience Platform </a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR" target="_blank">Documentação da Adobe Experience Platform </a>
     </li>
     </div>
       <div>
       <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR" target="_blank">Resumo do acesso à Adobe Experience Platform</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR" target="_blank">Visão geral sobre acesso à Adobe Experience Platform</a>
     </li>
     </div>
       <div>
       <li>
-      <a href="https://www.adobe.com/br/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos do desenvolvedor da Adobe Experience Platform</a>
+      <a href="https://www.adobe.com/br/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos de desenvolvedores da Adobe Experience Platform</a>
     </li>
     </div>
   </td>
    <td>
-   <div><strong>Links diretos para recursos-chave</strong>
+   <div><strong>Links diretos para os principais recursos </strong>
     </div>
     <p>
     <em></em>
     <p>
-    <p>GERENCIAMENTO DE jornadas</p>
+    <p>GERENCIAMENTO DA JORNADA</p>
     <li>
       <a href="using/building-journeys/journey-gs.md">Jornadas</a>
     </li>
@@ -115,7 +115,7 @@ ht-degree: 40%
       <a href="using/create-message.md">Mensagens</a>
     </li>
     <p>
-    <p>GESTÃO DE DECISÃO</p>
+    <p>GERENCIAMENTO DE DECISÕES</p>
     <li>
       <a href="using/offers/get-started/starting-offer-decisioning.md">Ofertas</a>
     </li>
@@ -125,7 +125,7 @@ ht-degree: 40%
     <p>
     <p>GERENCIAMENTO DE CONTEÚDO</p>
     <li>
-      <a href="using/assets-essentials.md">Assets</a>
+      <a href="using/assets-essentials.md">Ativos</a>
     </li>
     <p>
     <p>GERENCIAMENTO DE DADOS</p>
