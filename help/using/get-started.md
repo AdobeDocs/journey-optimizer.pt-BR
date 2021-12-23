@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ O [!DNL Adobe Journey Optimizer] ajuda as empresas a fornecer experiências cone
 
 O [!DNL Adobe Journey Optimizer] é criado originalmente no [!DNL Adobe Experience Platform] e combina um perfil de cliente unificado em tempo real, uma estrutura aberta de priorização de API, um offer decisioning centralizado, além de inteligência artificial (AI) e aprendizado de máquina (ML) para personalização e otimização. O Journey Optimizer permite que as marcas determinem de forma inteligente a próxima melhor interação com escala, velocidade e flexibilidade durante toda a jornada do cliente. Com o [!DNL Adobe Journey Optimizer], as empresas podem criar e entregar campanhas de marketing agendadas (como promoções semanais para uma loja de varejo) e comunicações individuais personalizadas (como uma notificação por push sobre um item que um cliente de aplicativo de fidelidade tenha visto e que estava anteriormente indisponível), tudo no mesmo aplicativo.
 
-➡️ [Discover Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target=&quot;_blank&quot;} (vídeo)
+➡️ [Descubra o Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=pt-BR){target=&quot;_blank&quot;} (vídeo)
 
 
 ## Casos de uso
@@ -53,7 +53,7 @@ Os principais recursos incluem:
 
 ## Arquitetura
 
-Entenda a arquitetura básica do [!DNL Adobe Journey Optimizer], os pontos de integração e a relação de [!DNL Journey Optimizer] com outros aplicativos Adobe.
+Entenda a arquitetura básica do [!DNL Adobe Journey Optimizer], os pontos de integração e a relação do [!DNL Journey Optimizer] com outros aplicativos da Adobe.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
 
