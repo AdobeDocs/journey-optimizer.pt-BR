@@ -6,9 +6,9 @@ user-guide-description: Usar o Journey Optimizer para fornecer experiências con
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '890'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 87%
       + [Introdução como profissional de marketing](using/path/marketer.md)
       + [Introdução como engenheiro de dados](using/path/data-engineer.md)
       + [Introdução como administrador](using/path/administrator.md)
-      + [Introdução ao como desenvolvedor](using/path/developer.md)
+      + [Introdução como desenvolvedor](using/path/developer.md)
    + [Interface do usuário](using/user-interface.md)
    + [Limitações](using/limitations.md)
 + Mensagens {#create-messages}
@@ -34,8 +34,8 @@ ht-degree: 87%
       + [Criar uma mensagem](using/create-message.md)
       + [Criar um email](using/create-email.md)
       + [Criar uma notificação por push](using/create-push.md)
-      + [Criar uma mensagem SMS](using/create-sms.md)
-   + [Adicionar e gerenciar assets](using/assets-essentials.md)
+      + [Criar uma mensagem de SMS.](using/create-sms.md)
+   + [Adicionar e gerenciar ativos](using/assets-essentials.md)
    + Criar emails {#email-designer}
       + [Introdução ao design de email](using/design-emails.md)
       + [Projetar conteúdo de email na interface](using/create-email-content.md)
@@ -54,7 +54,7 @@ ht-degree: 87%
    + Casos de uso{#personalization-use-cases}
       + [Notificação do status do pedido](using/personalization/personalization-use-case.md)
       + [Email de abandono do carrinho](using/personalization/personalization-use-case-helper-functions.md)
-   + Funções auxiliares{#functions}
+   + Funções auxiliares {#functions}
       + [Introdução a funções auxiliares](using/personalization/functions/functions.md)
       + [Funções de agregação](using/personalization/functions/aggregation.md)
       + [Funções aritméticas](using/personalization/functions/arithmetic-functions.md)
@@ -68,7 +68,7 @@ ht-degree: 87%
    + [Adicionar ofertas personalizadas](using/deliver-personalized-offers.md)
 + Segmentos, perfis e identidade{#segment}
    + Segmentos {#segments}
-      + [Introdução a segmentos](using/segment/about-segments.md)
+      + [Introdução aos segmentos](using/segment/about-segments.md)
       + [Construir segmentos](using/segment/creating-a-segment.md)
    + [Perfis](using/get-started-profiles.md)
    + [Identidade](using/get-started-identity.md)
@@ -188,11 +188,12 @@ ht-degree: 87%
    + Casos de uso {#journey-use-cases}
       + [Enviar mensagens de vários canais](using/building-journeys/journeys-uc.md)
       + [Enviar uma mensagem usando o Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-      + [Envie coleções dinamicamente usando ações personalizadas](using/building-journeys/collections.md)
+      + [Envio dinâmico de coleções usando ações personalizadas](using/building-journeys/collections.md)
       + [Enviar uma mensagem aos assinantes](using/building-journeys/message-to-subscribers-uc.md)
+
       <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+    -->
 + Rastrear e monitorar {#reporting}
    + [Monitoramento de mensagens](using/message-monitoring.md)
    + Relatório ao vivo {#live-report}
@@ -208,7 +209,7 @@ ht-degree: 87%
    + Relatórios de jornada {#reports}
       + [Criar relatórios de jornada](using/reports/sharing-overview.md)
       + [Lista de campos de evento de etapa](using/reports/sharing-field-list.md)
-      + Campos de evento de etapa herdada {#legacy-step-event-fields}
+      + Campos de evento de etapa herdado {#legacy-step-event-fields}
          + [Sobre campos herdados](using/reports/sharing-legacy-fields.md)
          + [Campos de jornada](using/reports/sharing-journey-fields.md)
          + [Campos comuns](using/reports/sharing-common-fields.md)
@@ -221,13 +222,13 @@ ht-degree: 87%
       + [Lista de supressão](using/suppression-list.md)
       + [Lista de permissões](using/allow-list.md)
 + Páginas de aterrissagem {#landing-pages}
-   + [Introdução às landing pages](using/landing-pages/get-started-lp.md)
+   + [Introdução às páginas de aterrissagem](using/landing-pages/get-started-lp.md)
    + [Criar uma página de aterrissagem](using/landing-pages/create-lp.md)
-   + [Criar uma landing page](using/landing-pages/design-lp.md)
+   + [Projetar uma página de aterrissagem](using/landing-pages/design-lp.md)
    + [Criar uma lista de assinaturas](using/landing-pages/subscription-list.md)
    + [Casos de uso](using/landing-pages/lp-use-cases.md)
-   + Relatório {#lp-reporting}
-      + [Relatório de página de aterrissagem](using/landing-pages/lp-report.md)
+   + Relatórios {#lp-reporting}
+      + [Relatórios de páginas de aterrissagem](using/landing-pages/lp-report.md)
       + [Relatórios da lista de assinaturas](using/landing-pages/subscription-report.md)
 + Gerenciamento de decisão {#offer-decisioniong}
    + Introdução ao gerenciamento de decisão {#get-started}
@@ -249,7 +250,7 @@ ht-degree: 87%
       + [Criar decisões](using/offers/offer-activities/create-offer-activities.md)
       + [Configurar seleção de ofertas em decisões](using/offers/offer-activities/configure-offer-selection.md)
       + [Criar simulações](using/offers/offer-activities/simulation.md)
-   + Criar relatórios do Gerenciamento de decisões {#create-reports}
+   + Criar relatórios do Gerenciamento de decisão {#create-reports}
       + [Introdução aos eventos de Gerenciamento de decisão](using/offers/reports/get-started-events.md)
       + [Informações-chave sobre eventos do Gerenciamento de decisão](using/offers/reports/key-information.md)
       + [Acessar campos XDM de eventos](using/offers/reports/xdm-fields.md)
