@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 67ec0951a06bf8c7806f6c8b996cce26e3eddfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Com o [!DNL Adobe Journey Optimizer], você pode importar conteúdo de mensagens
 
 Com base em sua organização, você pode definir vários tipos de usuários e conceder a eles acesso a determinados recursos, dependendo das permissões deles.
 
-Começando com [!DNL Journey Optimizer]? Usuário experiente com perguntas específicas? Administrador da instância da sua empresa? Siga seu próprio caminho para atingir seus objetivos mais rapidamente!
+Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas específicas? Administrador da instância da sua empresa? Siga o seu próprio caminho para atingir os seus objetivos com muito mais rapidez.
 
-Para saber e descobrir o poder do Adobe Journey Optimizer com orientação passo a passo, selecione seu perfil.
+Para saber e descobrir o poder do Adobe Journey Optimizer com orientação passo a passo, selecione o seu perfil.
 
 <table>
 <tr>
@@ -31,7 +31,7 @@ Para saber e descobrir o poder do Adobe Journey Optimizer com orientação passo
     </a>
     <div>
     <a href="path/administrator.md">Sou um Administrador</a>
-     <p>Prepare seu ambiente, conceda acesso e defina as configurações
+     <p>Prepare o seu ambiente, conceda acesso e defina as configurações
     <p>
     </div>
     <br>
@@ -42,7 +42,7 @@ Para saber e descobrir o poder do Adobe Journey Optimizer com orientação passo
     </a>
     <div>
     <a href="path/data-engineer.md">Sou engenheiro de dados</a>
-     <p>Importar perfis, criar públicos-alvo, criar esquemas e conjuntos de dados
+     <p>Importe perfis, crie públicos-alvo, crie esquemas e conjuntos de dados
     <p>
     </div>
     <br>
@@ -52,7 +52,7 @@ Para saber e descobrir o poder do Adobe Journey Optimizer com orientação passo
        <img alt="Profissional de marketing" src="../using/assets/do-not-localize/user-3.png" />
        </a>
     <div><a href="path/marketer.md">Sou um profissional de marketing</a>
-     <p>Criar mensagens, adicionar ofertas, ativos e criar jornadas do cliente
+     <p>Projete mensagens, adicione ofertas e ativos e crie jornadas do cliente
     <p>
     </div>
     <br>
