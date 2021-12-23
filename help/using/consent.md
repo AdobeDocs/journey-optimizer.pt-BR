@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Regulamentos como o GDPR afirmam que você deve estar em conformidade com requis
 * O não cumprimento desses regulamentos traz riscos legais normativos para sua marca.
 * Os regulamentos ajudam a evitar o envio de comunicações não solicitadas para seus recipients, o que pode fazer com que eles marquem suas mensagens como spam e prejudiquem sua reputação.
 
-Saiba mais sobre como gerenciar a privacidade e os regulamentos aplicáveis na [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
+Saiba mais sobre como gerenciar a privacidade e os regulamentos aplicáveis na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 <!--* Recipients should be able to opt-in/opt-out from receiving electronic communication through one or more channel
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
@@ -32,20 +32,20 @@ Saiba mais sobre como gerenciar a privacidade e os regulamentos aplicáveis na [
 
 ## Gerenciamento de recusa {#opt-out-management}
 
-Oferecer a capacidade de cancelar a assinatura dos recipients ao receberem comunicações de uma marca é um requisito legal. Saiba mais sobre a legislação aplicável no [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target=&quot;_blank&quot;}.
+Oferecer aos recipients a capacidade de cancelar a inscrição para receber comunicações de uma marca é um requisito legal. Saiba mais sobre a legislação aplicável na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=pt-BR#regulations){target=&quot;_blank&quot;}.
 
 Portanto, você sempre deve incluir um **link para cancelar a inscrição** em cada email enviado aos recipients:
 
 * Ao clicar nesse link, os recipients serão direcionados a uma página de aterrissagem que inclui um botão para confirmar a recusa.
 * Ao clicar no botão de recusa, será feita uma chamada do Adobe I/O para atualizar os dados do perfil com essas informações. [Saiba mais](#consent-service-api).
 
-### Adicionar um link de cancelamento de subscrição {#add-unsubscribe-link}
+### Adicionar um link para cancelar a inscrição {#add-unsubscribe-link}
 
 Para adicionar um link de cancelamento de inscrição, siga as etapas abaixo:
 
 1. Crie sua página de aterrissagem de unsubscription.
 
-1. Hospede-o no sistema de terceiros de sua escolha.
+1. Hospede-o no sistema de terceiros de sua preferência.
 
 1. [Criar uma mensagem](../../help/using/create-message.md) no [!DNL Journey Optimizer].
 
@@ -59,7 +59,7 @@ Para adicionar um link de cancelamento de inscrição, siga as etapas abaixo:
 
    ![](assets/opt-out-link-type.png)
 
-1. No **[!UICONTROL Link]** cole o link na página de aterrissagem.
+1. No campo **[!UICONTROL Link]** cole o link para a sua página de aterrissagem.
 
    ![](assets/opt-out-link-url.png)
 
@@ -85,7 +85,7 @@ Para adicionar um link de cancelamento de inscrição, siga as etapas abaixo:
 
    Como resultado, esse usuário não receberá a comunicação da sua marca, a menos que faça a assinatura novamente.
 
-Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target=&quot;_blank&quot;}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -139,13 +139,13 @@ Corpo da solicitação:
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
 
-## Cancelamento de um clique {#one-click-opt-out}
+## Recusar com um clique {#one-click-opt-out}
 
-À medida que muitos clientes buscam um processo mais fácil de cancelar a assinatura, você também pode adicionar um link para opção de não participação com um clique no seu conteúdo de email. Esse link permitirá que seus recipients cancelem rapidamente a assinatura de suas comunicações, sem serem redirecionados para uma página de aterrissagem onde precisam confirmar a recusa.
+À medida que muitos clientes buscam um processo mais fácil de cancelar inscrições, você também pode adicionar um link para opção de não participação com um clique no seu conteúdo de email. Esse link permitirá que os seus recipients cancelem rapidamente a inscrição de suas comunicações, sem ser redirecionados para uma página de aterrissagem em que precisam confirmar o cancelamento.
 
-Saiba como adicionar um link para opção de não participação ao conteúdo da mensagem em [esta seção](message-tracking.md#one-click-opt-out-link).
+Saiba como adicionar um link de opção de não participação ao conteúdo da sua mensagem [nesta seção](message-tracking.md#one-click-opt-out-link).
 
-Depois que a mensagem for enviada por meio de um [jornada](building-journeys/journey.md), se um recipient clicar no link para opção de não participação, seu perfil será rejeitado imediatamente.
+Depois que a mensagem for enviada por meio de uma [jornada](building-journeys/journey.md), se um recipient clicar no link, o perfil dele registrará imediatamente a opção de não participação.
 
 ## Link de cancelamento de inscrição no cabeçalho {#unsubscribe-email}
 
@@ -157,7 +157,7 @@ Por exemplo, o link de cancelamento de inscrição será exibido assim no Gmail:
 
 Dependendo do sistema de email, clicar no link de cancelamento de inscrição no cabeçalho terá um dos seguintes resultados:
 
-* O perfil correspondente é cancelado imediatamente e essa escolha é atualizada no Experience Platform. Saiba mais na [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+* O perfil correspondente é cancelado imediatamente e essa escolha é atualizada no Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target=&quot;_blank&quot;}.
 
 * Isso tem o mesmo efeito que clicar no link de cancelamento de inscrição no conteúdo do email: o destinatário é redirecionado a uma página de aterrissagem, em que encontrará um botão para confirmar a recusa. Saiba mais sobre o gerenciamento de recusa [nesta seção](#opt-out-management).
 
