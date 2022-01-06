@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
+source-git-commit: 168579f8f560756282cb8ae8cb82a10e1227af02
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '366'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 1%
 
 [!DNL Adobe Experience Manager Assets Essentials] O fornece um repositório único e centralizado de ativos que podem ser usados para preencher suas mensagens. Ele pode ser acessado diretamente de [!DNL Adobe Journey Optimizer] através da **[!UICONTROL Assets]** seção. Você também pode acessar ativos e pastas ao projetar um conteúdo de email. [Saiba mais sobre design de email](design-emails.md).
 
->[!NOTE]
->
-> Para trabalhar com [!DNL Adobe Experience Manager Assets Essentials], será necessário implantar [!DNL Assets Essentials] para sua organização e verifique se os usuários, que precisam acessar o [!DNL Assets Essentials]fazem parte do **Usuários do cliente do Assets Essentials** ou/e **Usuários do Assets Essentials** Perfis de produto. <br> Para obter mais informações sobre isso, consulte esta seção [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+Antes de usar [!DNL Adobe Experience Manager Assets Essentials], você deve adicionar usuários ao **Usuários do cliente do Assets Essentials** ou/e **Usuários do Assets Essentials** Perfis de produto. [Leia mais na documentação do Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
-Para obter procedimentos mais detalhados sobre [!DNL Assets Essentials], consulte [Documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
+>[!NOTE]
+>Para produtos da Journey Optimizer obtidos antes de 6 de janeiro de 2022, é necessário implantar [!DNL Adobe Experience Manager Assets Essentials] para sua organização. Saiba mais na [Implantar o Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)seção {target=&quot;_blank&quot;}.
 
 ## Fazer upload e inserir ativos{#add-asset}
 
