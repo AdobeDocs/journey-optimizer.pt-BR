@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: bcc77934464b6211cbb03e8830b456ecc157cb80
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 88%
@@ -185,4 +185,4 @@ O formato dessa autenticação é:
 
 >[!NOTE]
 >
->A duração do cache ajuda a evitar muitas chamadas para os pontos de extremidade de autenticação. A retenção de token de autenticação está armazenada em cache nos serviços, não há persistência. Se um serviço for reiniciado, ele será iniciado com um cache limpo. A duração padrão do cache é de 1 hora. Na carga da ação personalizada, ela pode ser adaptada especificando outra duração de retenção.
+>A duração do cache ajuda a evitar muitas chamadas para os pontos de extremidade de autenticação. A retenção de token de autenticação está armazenada em cache nos serviços, não há persistência. Se um serviço for reiniciado, ele será iniciado com um cache limpo. A duração padrão do cache é de 1 hora. Na carga de autenticação personalizada, ela pode ser adaptada especificando outra duração de retenção.
