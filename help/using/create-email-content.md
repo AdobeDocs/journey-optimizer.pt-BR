@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 1ba8d8cd6b95d7a0dfa50096f1a1f64909fe8d17
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,6 @@ O pré-cabeçalho agora está configurado para o email.
 >id="ac_edition_backgroundimage"
 >title="Configurações de plano de fundo"
 >abstract="O Designer de email permite que você personalize a cor do fundo ou a imagem do fundo para o seu conteúdo.Observe que a imagem do fundo não é suportada por todos os clientes de email."
->additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Informações adicionais"
 
 Quando se trata de definir planos de fundo com o Email Designer, o Adobe recomenda o seguinte:
 

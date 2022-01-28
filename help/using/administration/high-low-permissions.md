@@ -16,9 +16,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: da885bd5e29ff3454fef1c6b362f0e646fe8c39a
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ ht-degree: 0%
 Cada perfil de produto é composto de permissões que permitem aos usuários acessar os diferentes recursos.
 Eles podem ser divididos em dois tipos:
 
-* **Permissão de alto nível**: representa as diferentes permissões que podem ser atribuídas a **[!UICONTROL Product profile]** no [!DNL Admin console], como **[!UICONTROL Publish journeys]** e **[!UICONTROL Manage subdomains delegation]**. As permissões de alto nível abrangem permissões de baixo nível.
+* **Permissão de alto nível**: representa as diferentes permissões que podem ser atribuídas a **[!UICONTROL Product profile]** no [!DNL Admin console], como **[!DNL Publish journeys]** e **[!DNL Manage subdomains delegation]**. As permissões de alto nível abrangem permissões de baixo nível.
 
 * **Permissão de baixo nível**: representa as diferentes permissões que vêm da permissão de alto nível.
 
-Por exemplo, a variável **[!UICONTROL Journey administrator]** O perfil de produto é atribuído ao **[!UICONTROL Manage journeys]** permissão. Dessa permissão resulta as permissões de baixo nível que permitirão ao administrador do Jornada gravar, ler e excluir jornadas.
+Por exemplo, a variável **[!DNL Journey administrator]** O perfil de produto é atribuído ao **[!DNL Manage journeys]** permissão. Dessa permissão resulta as permissões de baixo nível que permitirão ao administrador do Jornada gravar, ler e excluir jornadas.
 
 ## Recurso de jornada {#journey-capability}
 
-### Permissão Gerenciar jornadas {#manage-journeys}
+### [!DNL Manage journeys] permissão {#manage-journeys}
 
-O **[!UICONTROL Manage journeys]** a permissão de alto nível permite que os usuários criem Jornadas novas e editem/excluam existentes, bem como acesso aos objetos que são usados na tela de jornada para criar o fluxo de jornada.
+O **[!DNL Manage journeys]** a permissão de alto nível permite que os usuários criem Jornadas novas e editem/excluam existentes, bem como acesso aos objetos que são usados na tela de jornada para criar o fluxo de jornada.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -58,9 +58,9 @@ Ele inclui as seguintes permissões de baixo nível:
    * datasets.read
    * schemas.read
 
-### Permissão Publicar jornadas {#publish-journeys}
+### [!DNL Publish journeys] permissão {#publish-journeys}
 
-O **[!UICONTROL Publish journeys]** permissão de alto nível permite que os usuários publiquem jornadas.
+O **[!DNL Publish journeys]** permissão de alto nível permite que os usuários publiquem jornadas.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -68,9 +68,9 @@ Ele inclui as seguintes permissões de baixo nível:
    * journeys.publish
    * journeys.read
 
-### Exibir permissão de jornadas {#view-journeys}
+### [!DNL View journeys] permissão {#view-journeys}
 
-O **[!UICONTROL View journeys]** permissão de alto nível permite que os usuários naveguem e visualizem jornadas.
+O **[!DNL View journeys]** permissão de alto nível permite que os usuários naveguem e visualizem jornadas.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -81,9 +81,9 @@ Ele inclui as seguintes permissões de baixo nível:
    * segments.read
    * profiles.read
 
-### Gerenciar eventos do jornada, fontes de dados e permissões de ações {#manage-journeys-events}
+### [!DNL Manage journeys events, data sources and actions] permissão {#manage-journeys-events}
 
-O **[!UICONTROL Manage journeys events, data sources and actions]** a permissão de alto nível permite que os usuários configurem configurações de evento e dados.
+O **[!DNL Manage journeys events, data sources and actions]** a permissão de alto nível permite que os usuários configurem configurações de evento e dados.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -97,14 +97,15 @@ Ele inclui as seguintes permissões de baixo nível:
    * jornada_actions.read
    * jornada_actions.write
    * jornada_actions.delete
+
 * Específico do Adobe Experience Platform:
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
-### Exibir eventos do jornada, fontes de dados e permissões de ações {#view-journeys-event}
+### [!DNL View journeys events, data sources and actions] permissão {#view-journeys-event}
 
-O **[!UICONTROL View journeys events, data sources and actions]** a permissão de alto nível permite que os usuários usem eventos e dados no fluxo de jornadas.
+O **[!DNL View journeys events, data sources and actions]** a permissão de alto nível permite que os usuários usem eventos e dados no fluxo de jornadas.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -118,9 +119,9 @@ Ele inclui as seguintes permissões de baixo nível:
    * datasets.read
    * identity_namespace.read
 
-### Exibir permissão de relatório de jornadas {#view-journeys-report}
+### [!DNL View journeys report] permissão {#view-journeys-report}
 
-O **[!UICONTROL View journeys report]** permissão de alto nível permite que os usuários leiam relatórios de jornada somente leitura.
+O **[!DNL View journeys report]** permissão de alto nível permite que os usuários leiam relatórios de jornada somente leitura.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -136,9 +137,9 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ## Capacidade de mensagem {#message-capability}
 
-### Permissão Gerenciar mensagens {#manage-messages}
+### [!DNL Manage messages] permissão {#manage-messages}
 
-O **[!UICONTROL Manage messages]** permissão de alto nível permite que os usuários criem e editem/excluam mensagens.
+O **[!DNL Manage messages]** permissão de alto nível permite que os usuários criem e editem/excluam mensagens.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -152,9 +153,9 @@ Ele inclui as seguintes permissões de baixo nível:
    * segments.read
    * schemas.read
 
-### Gerenciar visualização de mensagens e permissão de teste {#mange-messages-preview}
+### [!DNL Manage messages preview and test] permissão {#mange-messages-preview}
 
-O **[!UICONTROL Manage messages preview and test]** permissão de alto nível permite que os usuários visualizem mensagens personalizadas.
+O **[!DNL Manage messages preview and test]** permissão de alto nível permite que os usuários visualizem mensagens personalizadas.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -174,9 +175,9 @@ Ele inclui as seguintes permissões de baixo nível:
    * queries.write
    * merge_policies.read
 
-### Permissão Publicar mensagens {#publish-messages}
+### [!DNL Publish messages] permissão {#publish-messages}
 
-O **[!UICONTROL Publish messages]** permissão de alto nível permite que os usuários publiquem mensagens.
+O **[!DNL Publish messages]** permissão de alto nível permite que os usuários publiquem mensagens.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -188,9 +189,9 @@ Ele inclui as seguintes permissões de baixo nível:
    * schemas.read
    * datasets.read
 
-### Exibir permissão de mensagens {#view-messages}
+### [!DNL View messages] permissão {#view-messages}
 
-O **[!UICONTROL View messages]** permissão de alto nível permite que os usuários leiam somente mensagens.
+O **[!DNL View messages]** permissão de alto nível permite que os usuários leiam somente mensagens.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -202,9 +203,9 @@ Ele inclui as seguintes permissões de baixo nível:
    * schemas.read
    * segments.read
 
-### Exibir permissão de relatório de mensagens {#view-message-reports}
+### [!DNL View messages report] permissão {#view-message-reports}
 
-O **[!UICONTROL View messages report]** a permissão de alto nível permite que os usuários somente leiam emails e enviem relatórios.
+O **[!DNL View messages report]** a permissão de alto nível permite que os usuários somente leiam emails e enviem relatórios.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -218,9 +219,9 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ## Capacidade de gestão de decisões {#decisions-permissions}
 
-### Permissão Gerenciar decisões {#manage-decisioning}
+### [!DNL Manage decisions] permissão {#manage-decisioning}
 
-O **[!UICONTROL Manage decisions]** permissão de alto nível permite que os usuários criem novos e editem/excluam **[!UICONTROL Activity entities]**, bem como gerenciar os objetos usados nessas atividades para tomar as decisões.
+O **[!DNL Manage decisions]** permissão de alto nível permite que os usuários criem novos e editem/excluam **[!DNL Activity entities]**, bem como gerenciar os objetos usados nessas atividades para tomar as decisões.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -244,9 +245,9 @@ Ele inclui as seguintes permissões de baixo nível:
    * profile.read
    * segments.read
 
-### Exibir permissão de decisões {#view-decisions}
+### [!DNL View decisions] permissão {#view-decisions}
 
-O **[!UICONTROL View decisions]** a permissão de alto nível permite que os usuários usem uma Atividade existente e objetos comerciais relacionados para tomar as decisões.
+O **[!DNL View decisions]** a permissão de alto nível permite que os usuários usem uma Atividade existente e objetos comerciais relacionados para tomar as decisões.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -263,9 +264,9 @@ Ele inclui as seguintes permissões de baixo nível:
    * datasets.write
    * datasets.delete
 
-### Permissão para publicar ofertas de decisão {#publish-decisions}
+### [!DNL Publish offers decisioning] permissão {#publish-decisions}
 
-O **[!UICONTROL Publish offers decisioning]** a permissão de alto nível permite que os usuários acessem aprovar/cancelar a aprovação de atividades de Oferta .
+O **[!DNL Publish offers decisioning]** a permissão de alto nível permite que os usuários acessem aprovar/cancelar a aprovação de atividades de Oferta .
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -285,9 +286,9 @@ Ele inclui as seguintes permissões de baixo nível:
    * datasets.read
    * profiles.read
 
-### Permissão Gerenciar estratégias de classificação {#manage-decisions}
+### [!DNL Manage ranking strategies] permissão {#manage-decisions}
 
-O **[!UICONTROL Manage ranking strategies]** a permissão de alto nível permite que os usuários leiam, criem, editem e excluam o relatório de mensagens personalizadas e usem recursos de ação.
+O **[!DNL Manage ranking strategies]** a permissão de alto nível permite que os usuários leiam, criem, editem e excluam o relatório de mensagens personalizadas e usem recursos de ação.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -301,9 +302,9 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ## Capacidade de administração {#administration-permissions}
 
-### Gerenciar permissão de delegação de subdomínios {#manage-subdomain}
+### [!DNL Manage subdomains delegation] permissão {#manage-subdomain}
 
-O **[!UICONTROL Manage subdomains delegation]** a permissão de alto nível permite que os usuários criem, editem e excluam delegações de subdomínio (incluindo pool de IP).
+O **[!DNL Manage subdomains delegation]** a permissão de alto nível permite que os usuários criem, editem e excluam delegações de subdomínio (incluindo pool de IP).
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -311,18 +312,28 @@ Ele inclui as seguintes permissões de baixo nível:
 * subdomínios_delegation.write
 * subdomains_delegation.delete
 
-### Exibir permissão de registros PTR {#view-ptr}
+### [!DNL Manage PTR records] permissão {#manage-ptr}
 
-O **[!UICONTROL View PTR records]** a permissão de alto nível permite que os usuários visualizem registros PTR que foram configurados com base no subdomínio.
+O **[!DNL Manage PTR records]** a permissão de alto nível permite que os usuários leiam, criem, editem e excluam registros PTR que foram configurados com base no subdomínio.
+
+Ele inclui as seguintes permissões de baixo nível:
+
+* PTR_records.read
+* PTR_records.write
+* subdomains_delegation.read
+
+### [!DNL View PTR records] permissão {#view-ptr}
+
+O **[!DNL View PTR records]** a permissão de alto nível permite que os usuários visualizem registros PTR que foram configurados com base no subdomínio.
 
 Ele inclui as seguintes permissões de baixo nível:
 
 * PTR_records.read
 * subdomains_delegation.read
 
-### Gerenciar permissões de pools de IP {#manage-ip-pools}
+### [!DNL Manage IP pools] permissão {#manage-ip-pools}
 
-O **[!UICONTROL Manage IP pools]** a permissão de alto nível permite que os usuários criem, editem e excluam a definição de afinidade.
+O **[!DNL Manage IP pools]** a permissão de alto nível permite que os usuários criem, editem e excluam a definição de afinidade.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -330,9 +341,9 @@ Ele inclui as seguintes permissões de baixo nível:
 * IP_pools.write
 * IP_pools.delete
 
-### Permissão Gerenciar configurações gerais de mensagens {#manage-message-settings}
+### [!DNL Manage messages general settings] permissão {#manage-message-settings}
 
-O **[!UICONTROL Manage messages general settings]** a permissão de alto nível permite que os usuários criem, editem e excluam configurações globais no nível da sandbox.
+O **[!DNL Manage messages general settings]** a permissão de alto nível permite que os usuários criem, editem e excluam configurações globais no nível da sandbox.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -343,9 +354,9 @@ Ele inclui as seguintes permissões de baixo nível:
 * Específico do Adobe Experience Platform:
    * schemas.read
 
-### Exibir permissões gerais de configurações de mensagens {#view-message-settings}
+### [!DNL View messages general settings] permissão {#view-message-settings}
 
-O **[!UICONTROL View messages general settings]** a permissão de alto nível permite que os usuários visualizem configurações gerais de mensagens, como o endereço de execução.
+O **[!DNL View messages general settings]** a permissão de alto nível permite que os usuários visualizem configurações gerais de mensagens, como o endereço de execução.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -354,9 +365,9 @@ Ele inclui as seguintes permissões de baixo nível:
 * Específico do Adobe Experience Platform:
    * schemas.read
 
-### Permissão Gerenciar predefinições de mensagens {#manage-message-presets}
+### [!DNL Manage messages presets] permissão {#manage-message-presets}
 
-O **[!UICONTROL Manage messages presets]** a permissão de alto nível permite que os usuários criem, editem e excluam predefinições de mensagens em canais no nível da sandbox.
+O **[!DNL Manage messages presets]** a permissão de alto nível permite que os usuários criem, editem e excluam predefinições de mensagens em canais no nível da sandbox.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -368,20 +379,20 @@ Ele inclui as seguintes permissões de baixo nível:
    * IP_pools.read
    * mobile_setting.read (do Adobe Experience Platform Launch)
 
-### Permissão Exibir predefinições de mensagens {#view-message-presets}
+### [!DNL View messages presets] permissão {#view-message-presets}
 
-O **[!UICONTROL View messages presets]** a permissão de alto nível permite que os usuários visualizem predefinições de mensagens para saber quais predefinições de mensagens usar ao criar uma mensagem.
+O **[!DNL View messages presets]** a permissão de alto nível permite que os usuários visualizem predefinições de mensagens para saber quais predefinições de mensagens usar ao criar uma mensagem.
 
 Ele inclui as seguintes permissões de baixo nível:
 
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read (do Adobe Experience Platform Launch)
+* mobile_setting.read (da Coleta de dados do Adobe Experience Platform)
 
-### Gerenciar permissão de supressão {#manage-suppression}
+### [!DNL Manage suppression] permissão {#manage-suppression}
 
-O **[!UICONTROL Manage suppression]** a permissão de alto nível permite que os usuários definam o número de rejeições antes de um endereço de email ser adicionado à lista de supressão, bem como adicionar e excluir entradas de/para a lista de supressão.
+O **[!DNL Manage suppression]** a permissão de alto nível permite que os usuários definam o número de rejeições antes de um endereço de email ser adicionado à lista de supressão, bem como adicionar e excluir entradas de/para a lista de supressão.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -391,26 +402,28 @@ Ele inclui as seguintes permissões de baixo nível:
 * suppression_list.write
 * suppression_list.delete
 
-### Exibir permissão da lista de supressão {#view-suppresion-list}
+### [!DNL View suppression list] permissão {#view-suppression-list}
 
-O **[!UICONTROL View suppression list]** a permissão de alto nível permite que os usuários visualizem o conteúdo e as configurações da lista de supressão.
+O **[!DNL View suppression list]** a permissão de alto nível permite que os usuários visualizem o conteúdo e as configurações da lista de supressão.
 
 Ele inclui as seguintes permissões de baixo nível:
 
 * Específico do Journey Optimizer:
    * suppression_list.view
+
 * Específico do Adobe Experience Platform:
    * profiles.read
    * datasets.read
 
-### Permissão Exportar lista de supressão {#export-suppression-list}
+### [!DNL Export suppression list] permissão {#export-suppression-list}
 
-O **[!UICONTROL Export suppression list]** a permissão de alto nível permite que os usuários baixem a lista de supressão como um arquivo CSV.
+O **[!DNL Export suppression list]** a permissão de alto nível permite que os usuários baixem a lista de supressão como um arquivo CSV.
 
 Ele inclui as seguintes permissões de baixo nível:
 
 * Específico do Journey Optimizer:
    * suppression_list.export
+
 * Específico do Adobe Experience Platform:
    * profiles.read
    * datasets.read

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 2731f3fef651f4d75e2d1e19199a6cd8050b3475
+source-git-commit: 4e3239a073f23505c79e98943d1f8bf6b7a8d363
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 2%
+source-wordcount: '558'
+ht-degree: 4%
 
 ---
 
@@ -54,6 +54,15 @@ Os seguintes conjuntos de dados são transmitidos:
 As listas de campos XDM passados para o Adobe Experience Platform são detalhadas aqui:
 
 * [Lista de campos de evento de etapa](../reports/sharing-field-list.md)
-* [Campos de evento de etapa herdada](../reports/sharing-legacy-fields.md)
+* [Campos de evento de etapa herdado](../reports/sharing-legacy-fields.md)
 
 Para obter mais informações sobre os eventos das etapas relatados para o Adobe Experience Platform, assista a isso [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}.
+
+## Integração com o Customer Jornada Analytics{#integration-cja}
+
+Os eventos de etapa do Journey Optimizer podem ser vinculados a outros conjuntos de dados em [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR). Este é o fluxo de trabalho geral:
+
+* O Customer Journey Analytics assimila o conjunto de dados &quot;Evento de etapa de Jornada&quot;.
+* O **profileID** no &quot;Jornada Step Event schema for Journey Orchestration&quot; associado é definido como um campo Identity . No Customer Journey Analytics, é possível vincular esse conjunto de dados a qualquer outro conjunto de dados que tenha o mesmo valor do identificador baseado em pessoas.
+* Se quiser usar esse conjunto de dados no Customer Journey Analytics, para análise de jornada entre canais, consulte [documentação](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
+

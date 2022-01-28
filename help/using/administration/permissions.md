@@ -6,7 +6,7 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 15%
@@ -103,7 +103,7 @@ Se necessário, também é possível criar um novo perfil de produto com permiss
 
 Para obter mais informações sobre como criar e gerenciar sandboxes, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
-Neste exemplo, criaremos um perfil de produto chamado **Somente leitura do Jornada** , onde concederemos direitos somente leitura ao recurso Jornada. Os usuários só poderão acessar e visualizar jornadas e não poderão acessar outros recursos, como **[!UICONTROL Decision management]** ou **[!UICONTROL Messages]** em [!DNL Journey Optimizer].
+Neste exemplo, criaremos um perfil de produto chamado **Somente leitura do Jornada** , onde concederemos direitos somente leitura ao recurso Jornada. Os usuários só poderão acessar e visualizar jornadas e não poderão acessar outros recursos, como **[!DNL  Decision management]** ou **[!DNL Messages]** em [!DNL Journey Optimizer].
 
 Para criar **Somente leitura do Jornada** **[!UICONTROL product profiles]**:
 
@@ -125,7 +125,7 @@ Para criar **Somente leitura do Jornada** **[!UICONTROL product profiles]**:
 
 1. Para adicionar permissões para que usuários acessem diferentes recursos, selecione o **[!UICONTROL Permissions]** guia .
 
-1. Selecione entre os diferentes recursos, como **[!UICONTROL Messages]**, **[!UICONTROL Segments]** ou **[!UICONTROL Decision management]** disponível em [!DNL Journey Optimizer] listado no menu à esquerda.
+1. Selecione entre os diferentes recursos, como **[!DNL Messages]**, **[!DNL Segments]** ou **[!DNL Decision management]** disponível em [!DNL Journey Optimizer] listado no menu à esquerda.
 
    Aqui selecionamos a variável **[!UICONTROL Journeys]** capacidade.
 
@@ -133,7 +133,7 @@ Para criar **Somente leitura do Jornada** **[!UICONTROL product profiles]**:
 
 1. No **[!UICONTROL Available Permission Items]** selecione as permissões que serão atribuídas à sua **[!UICONTROL Product profile]** clicando no ícone de adição (+).
 
-   Aqui selecionamos **[!UICONTROL View journeys]** e **[!UICONTROL View journeys event, data sources, actions]**.
+   Aqui selecionamos **[!DNL View journeys]** e **[!DNL View journeys event, data sources, actions]**.
 
    ![](../assets/do-not-localize/access_control_12.png)
 

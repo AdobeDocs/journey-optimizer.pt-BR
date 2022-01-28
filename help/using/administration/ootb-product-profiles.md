@@ -6,76 +6,76 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 98fab634e64a1bdf084ebcddf6ffaf7e21c63c7e
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 8%
+source-wordcount: '732'
+ht-degree: 10%
 
 ---
 
 # Perfis de produto incorporados {#ootb-product-profiles}
 
-## Administrador do Jornada {#journey-administrator}
+## [!DNL Journey Administrator] {#journey-administrator}
 
-O **[!UICONTROL Journey Administrator]** O perfil de produto permite que os menus de administração tenham a possibilidade de gerenciar e publicar Jornadas, mensagens e gerenciamento de decisões.
-
-Este perfil de produto conta com as seguintes permissões:
-
-| Capacidade | Permissões| |-|-| |Jornadas| <ul><li> **Gerenciar jornadas**: ler, criar, editar e excluir jornadas.</li><li>**Publicar jornadas**: publicar jornadas.</li><li>**Gerenciar eventos do jornada, fontes de dados e ações**: ler, criar, editar e excluir eventos, fontes ou ações.</li><li>**Exibir relatório de jornadas**: leia e edite o relatório do jornada.</li></ul>|
-|Mensagens|<ul><li> **Gerenciar mensagens**: ler, criar, editar visualização de mensagem e enviar teste/prova.</li><li>**Gerenciar visualização e teste de mensagens**: publicar mensagens.</li><li>**Publicar mensagens**: leia, crie e edite a pré-visualização da mensagem e envie teste/prova.</li><li>**Exibir relatório de mensagens**: ler e editar relatório de mensagens.</li></ul>|
-|Administração|<ul><li>**Gerenciar delegação de subdomínios**: ler, criar, editar e excluir delegação de subdomínio.</li><li>**Gerenciar pools de IP**: ler, criar, editar e excluir o pool ip.</li><li>**Exibir registros PTR**: acesso somente leitura a registros PTR.</li><li> **Gerenciar configurações gerais de mensagens**: ler, criar, editar e excluir configurações gerais de mensagens.</li><li>**Gerenciar predefinições de mensagens**: ler, criar, editar e excluir marcas de conteúdo.</li><li>**Gerenciar regras de supressão**: acesse ler, criar, editar e excluir regras de supressão.</li><li>**Exibir lista de supressão**: ler e exportar lista de supressão local.</li><li>**Gerenciar alertas**: ativar/desativar alertas para jornadas, mensagens e direitos.</li></ul>|
-|Gerenciamento de decisão|<ul><li>**Gerenciar decisões**: ler, criar, editar e excluir decisões.</li><li>**Gerenciar estratégias de classificação**: ler, criar, editar e excluir relatórios de mensagens personalizados e usar recursos de ação.</li></ul>|
-|Adobe Experience Platform|<ul><li>**Sandbox**: conceda acesso a sandboxes.</li><li>**Gerenciar segmentos**: ler, criar, editar e excluir segmentos.</li><li>**Gerenciar perfis**: ler, criar, editar e excluir perfis.</li><li>**Ler conjuntos de dados**: acesso somente leitura a conjuntos de dados.</li><li>**Ler esquemas**: acesso somente leitura a schemas.</li><li>**Ler namespace de identidade**: acesso somente leitura ao namespace de identidade.</li><li>**Gerenciar políticas de mesclagem**: ler, criar, editar e excluir políticas de mesclagem.</li></ul>|
-
-## Aprovador de jornada {#journey-approver}
-
-O **[!UICONTROL Journey Approver]** o perfil de produto permite que os usuários aprovem os deliveries e os publiquem. Eles podem verificar posteriormente o sucesso de seus deliveries com a variável **[!UICONTROL Message]** e **[!UICONTROL Journey]** relatórios.
+O **[!DNL Journey Administrator]** O perfil de produto permite que os menus de administração tenham a possibilidade de gerenciar e publicar Jornadas, mensagens e gerenciamento de decisões.
 
 Este perfil de produto conta com as seguintes permissões:
 
-| Capacidade | Permissões| |-|-| |Jornadas| <ul><li>**Gerenciar jornadas**: ler, criar, editar e excluir jornadas.</li><li>**Publicar jornada**: publicar jornadas.</li><li>**Exibir jornadas, fontes de dados e ações**: acesso somente leitura a eventos do jornada, ações personalizadas do jornada e fontes de dados do jornada.</li><li>**Exibir relatório de jornadas**: ler, editar relatórios de jornada.</li></ul>|
-|Mensagens| <ul><li>**Gerenciar mensagens**: ler, criar, editar e excluir mensagens.</li><li>**Publicar mensagens** publicar mensagens.</li><li>**Gerenciar visualização e teste de mensagens**: leia, crie e edite a pré-visualização da mensagem e envie teste/prova.</li><li>**Exibir relatório de mensagens**: ler, criar, editar e excluir o relatório de mensagens.</li></ul>|
-|Gerenciamento de decisão| <ul><li>**Gerenciar decisões**: ler, criar, editar e excluir entidades de decisão.</li><li>**Gerenciar estratégias de classificação**: ler, criar, editar e excluir relatórios de mensagens personalizados e usar recursos de ação.</li></ul>| |Adobe Experience Platform| <ul><li>**Gerenciar segmentos**: ler, criar, editar e excluir segmentos.</li><li>**Gerenciar perfis**: ler, criar, editar e excluir perfis.</li><li>**Ler conjuntos de dados**: acesso somente leitura a conjuntos de dados.</li><li>**Ler esquemas**: acesso somente leitura a schemas.</li><li>**Gerenciar políticas de mesclagem**: ler, criar, editar e excluir políticas de mesclagem.</li></ul>|
-|Administração| <ul><li>**Exibir predefinições de mensagens**: acesso somente leitura às predefinições de mensagens.</li></ul>|
+| Capacidade | Permissões| |-|-| |Jornadas| <ul><li> **[!DNL Manage journeys]**: ler, criar, editar e excluir jornadas.</li><li>**[!DNL Publish journeys]**: publicar jornadas.</li><li>**[!DNL Manage journeys events, data sources and actions]**: ler, criar, editar e excluir eventos, fontes ou ações.</li><li>**[!DNL View journeys report]**: leia e edite o relatório do jornada.</li></ul>|
+|Mensagens|<ul><li> **[!DNL Manage messages]**: ler, criar, editar visualização de mensagem e enviar teste/prova.</li><li>**[!DNL Manage messages preview and test]**: publicar mensagens.</li><li>**[!DNL Publish messages]**: leia, crie e edite a pré-visualização da mensagem e envie teste/prova.</li><li>**[!DNL View messages report]**: ler e editar relatório de mensagens.</li></ul>|
+|Administração|<ul><li>**[!DNL Manage subdomains delegation]**: ler, criar, editar e excluir delegação de subdomínio.</li><li>**[!DNL Manage IP pools]**: ler, criar, editar e excluir o pool ip.</li><li>**[!DNL Manage PTR records]**: ler, criar, editar e excluir registros PTR.</li><li>**[!DNL View PTR records]**: acesso somente leitura a registros PTR.</li><li> **[!DNL Manage messages general settings]**: ler, criar, editar e excluir configurações gerais de mensagens.</li><li>**[!DNL Manage messages presets]**: ler, criar, editar e excluir marcas de conteúdo.</li><li>**[!DNL Manage suppression rules]**: acesse ler, criar, editar e excluir regras de supressão.</li><li>**[!DNL View suppression list]**: ler e exportar lista de supressão local.</li><li>**[!DNL Manage alerts]**: ativar/desativar alertas para jornadas, mensagens e direitos.</li></ul>|
+|Gerenciamento de decisão|<ul><li>**[!DNL Manage decisions]**: ler, criar, editar e excluir decisões.</li><li>**[!DNL Manage ranking strategies]**: ler, criar, editar e excluir relatórios de mensagens personalizados e usar recursos de ação.</li></ul>|
+|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: conceda acesso a sandboxes.</li><li>**[!DNL Manage segments]**: ler, criar, editar e excluir segmentos.</li><li>**[!DNL Manage profiles]**: ler, criar, editar e excluir perfis.</li><li>**[!DNL Read datasets]**: acesso somente leitura a conjuntos de dados.</li><li>**[!DNL Read schemas]**: acesso somente leitura a schemas.</li><li>**[!DNL Read Identity namespace]**: acesso somente leitura ao namespace de identidade.</li><li>**[!DNL Manage merge policies]**: ler, criar, editar e excluir políticas de mesclagem.</li></ul>|
 
-## Gerenciador de jornadas {#journey-manager}
+## [!DNL Journey Approver] {#journey-approver}
 
-O **[!UICONTROL Journey Manager]** o perfil de produto permite que os usuários criem e editem **[!UICONTROL Journeys]** e todos os recursos vinculados a **[!UICONTROL Journeys]** mas não poderá publicá-las.
+O **[!DNL Journey Approver]** o perfil de produto permite que os usuários aprovem os deliveries e os publiquem. Eles podem verificar posteriormente o sucesso de seus deliveries com a variável **[!DNL Message]** e **[!DNL Journey]** relatórios.
 
 Este perfil de produto conta com as seguintes permissões:
 
-| Capacidade | Permissões| |-|-| |Jornadas| <ul><li>**Gerenciar jornadas**: ler, criar, editar e excluir jornadas.</li><li>**Exibir eventos do jornada**: acesso somente leitura a eventos do jornada, ações personalizadas do jornada e fontes de dados do jornada.</li><li>**Exibir relatório de jornadas**: ler, editar relatório de jornada.</li></ul>|
-|Mensagens| <ul><li>**Gerenciar mensagens**: ler, criar, editar e excluir mensagens.</li><li> **Gerenciar visualização e teste de mensagens**: leia, crie e edite a pré-visualização da mensagem e envie teste/prova.</li><li>**Exibir relatório de mensagens**: ler, criar, editar e excluir o relatório de mensagens.</li></ul>|
-|Gerenciamento de decisão| <ul><li>**Gerenciar decisões**: ler, criar, editar e excluir entidades de decisão.</li><li>**Gerenciar estratégias de classificação**: ler, criar, editar e excluir relatórios de mensagens personalizados e usar recursos de ação.</li></ul>| |Adobe Experience Platform| <ul><li> **Gerenciar segmentos**: ler, criar, editar e excluir segmentos.</li><li>**Gerenciar perfis**: ler, criar, editar e excluir perfis.</li><li>**Ler conjuntos de dados**: acesso somente leitura a conjuntos de dados.</li><li>**Ler esquemas**: acesso somente leitura a schemas.</li><li>**Gerenciar políticas de mesclagem**: ler, criar, editar e excluir políticas de mesclagem.</li></ul>|
-|Administração| <ul><li>**Exibir predefinições de mensagens**: acesso somente leitura às predefinições de mensagens.</li></ul>|
+| Capacidade | Permissões| |-|-| |Jornadas| <ul><li>**[!DNL Manage journeys]**: ler, criar, editar e excluir jornadas.</li><li>**[!DNL Publish journey]**: publicar jornadas.</li><li>**[!DNL View journeys events, data sources and actions]**: acesso somente leitura a eventos do jornada, ações personalizadas do jornada e fontes de dados do jornada.</li><li>**[!DNL View journeys report]**: ler, editar relatórios de jornada.</li></ul>|
+|Mensagens| <ul><li>**[!DNL Manage messages]**: ler, criar, editar e excluir mensagens.</li><li>**[!DNL Publish messages]** publicar mensagens.</li><li>**[!DNL Manage messages preview and test]**: leia, crie e edite a pré-visualização da mensagem e envie teste/prova.</li><li>**[!DNL View messages report]**: ler, criar, editar e excluir o relatório de mensagens.</li></ul>|
+|Gerenciamento de decisão| <ul><li>**[!DNL Manage decisions]**: ler, criar, editar e excluir entidades de decisão.</li><li>**[!DNL Manage ranking strategies]**: ler, criar, editar e excluir relatórios de mensagens personalizados e usar recursos de ação.</li></ul>| |Adobe Experience Platform| <ul><li>**[!DNL Manage segments]**: ler, criar, editar e excluir segmentos.</li><li>**[!DNL Manage profiles]**: ler, criar, editar e excluir perfis.</li><li>**[!DNL Read datasets]**: acesso somente leitura a conjuntos de dados.</li><li>**[!DNL Read schemas]**: acesso somente leitura a schemas.</li><li>**[!DNL Manage merge policies]**: ler, criar, editar e excluir políticas de mesclagem.</li></ul>|
+|Administração| <ul><li>**[!DNL View messages presets]**: acesso somente leitura às predefinições de mensagens.</li></ul>|
 
-## Visualizador de jornada {#journey-viewer}
+## [!DNL Journey Manager] {#journey-manager}
 
-O **[!UICONTROL Journey viewer]** o perfil do produto permite acesso somente leitura ao **[!UICONTROL Journeys]**, **[!UICONTROL Goals]**, **[!UICONTROL Messages]** e **[!UICONTROL Decision management]** recursos.
+O **[!DNL Journey Manager]** o perfil de produto permite que os usuários criem e editem **[!UICONTROL Journeys]** e todos os recursos vinculados a **[!UICONTROL Journeys]** mas não poderá publicá-las.
+
+Este perfil de produto conta com as seguintes permissões:
+
+| Capacidade | Permissões| |-|-| |Jornadas| <ul><li>**[!DNL Manage journeys]**: ler, criar, editar e excluir jornadas.</li><li>**[!DNL View journeys events]**: acesso somente leitura a eventos do jornada, ações personalizadas do jornada e fontes de dados do jornada.</li><li>**[!DNL View journeys report]**: ler, editar relatório de jornada.</li></ul>|
+|Mensagens| <ul><li>**[!DNL Manage messages]**: ler, criar, editar e excluir mensagens.</li><li> **[!DNL Manage messages preview and test]**: leia, crie e edite a pré-visualização da mensagem e envie teste/prova.</li><li>**[!DNL View messages report]**: ler, criar, editar e excluir o relatório de mensagens.</li></ul>|
+|Gerenciamento de decisão| <ul><li>**[!DNL Manage decisions]**: ler, criar, editar e excluir entidades de decisão.</li><li>**[!DNL Manage ranking strategies]**: ler, criar, editar e excluir relatórios de mensagens personalizados e usar recursos de ação.</li></ul>| |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: ler, criar, editar e excluir segmentos.</li><li>**[!DNL Manage profiles]**: ler, criar, editar e excluir perfis.</li><li>**[!DNL Read datasets]**: acesso somente leitura a conjuntos de dados.</li><li>**[!DNL Read schemas]**: acesso somente leitura a schemas.</li><li>**[!DNL Manage merge policies]**: ler, criar, editar e excluir políticas de mesclagem.</li></ul>|
+|Administração| <ul><li>**[!DNL View messages presets]**: acesso somente leitura às predefinições de mensagens.</li></ul>|
+
+## [!DNL Journey viewer] {#journey-viewer}
+
+O **[!DNL Journey viewer]** o perfil do produto permite acesso somente leitura ao **[!UICONTROL Journeys]**, **[!UICONTROL Goals]**, **[!UICONTROL Messages]** e **[!UICONTROL Decision management]** recursos.
 
 Os usuários atribuídos a este perfil de produto não poderão editar ou publicar.
 
 Este perfil de produto conta com as seguintes permissões:
 
-| Capacidade | Permissões| |-|-| |Jornadas| <ul><li>**Exibir jornadas**: acesso somente leitura ao jornada.</li><li>**Exibir evento jornadas, fontes de dados, ações**: acesso somente leitura a eventos do jornada e fontes de dados.</li><li>**Exibir relatório de jornadas**: acesso somente leitura aos relatórios do jornada.</li></ul>|
-|Mensagens| <ul><li>**Exibir mensagens**: acesso somente leitura a mensagens.</li><li>**Exibir relatório de mensagens**: acesso somente leitura aos relatórios de mensagem.</li></ul>|
-|Gerenciamento de decisão| <ul><li>**Exibir decisões**: acesso somente leitura às entidades de decisão.</li></ul>|
+| Capacidade | Permissões| |-|-| |Jornadas| <ul><li>**[!DNL View journeys]**: acesso somente leitura ao jornada.</li><li>**[!DNL View journeys event, data sources, actions]**: acesso somente leitura a eventos do jornada e fontes de dados.</li><li>**[!DNL View journeys report]**: acesso somente leitura aos relatórios do jornada.</li></ul>|
+|Mensagens| <ul><li>**[!DNL View messages]**: acesso somente leitura a mensagens.</li><li>**[!DNL View messages report]**: acesso somente leitura aos relatórios de mensagem.</li></ul>|
+|Gerenciamento de decisão| <ul><li>**[!DNL View decisions]**: acesso somente leitura às entidades de decisão.</li></ul>|
 
-## Gerenciador de mensagens {#message-manager}
+## [!DNL Message Manager] {#message-manager}
 
-O **[!UICONTROL Message Manager]** o perfil de produto permite que os usuários criem e editem **[!UICONTROL Messages]** e **[!UICONTROL Decision management]** mas não poderá publicá-las.
-
-Este perfil de produto conta com as seguintes permissões:
-
-| Capacidade | Permissões| |-|-| |Jornadas| <ul><li>**Exibir jornadas**: acesso somente leitura ao jornada.</li><li>**Exibir Jornadas, fontes de dados e ações**: acesso somente leitura a eventos do jornada, ações personalizadas do jornada e fontes de dados do jornada.</li></ul>|
-|Mensagens| <ul><li>**Gerenciar mensagens**: ler, criar, editar e excluir mensagens.</li><li>**Gerenciar visualização e teste de mensagens**: leia, crie e edite a pré-visualização da mensagem e envie teste/prova.</li><li> **Exibir relatório de mensagens**: ler, criar, editar e excluir relatórios de mensagens.</li></ul>|
-|Gerenciamento de decisão| <ul><li>**Gerenciar decisões**: ler, criar, editar e excluir entidades de decisão.</li></ul>| |Adobe Experience Platform| <ul><li>**Ler perfis**: acesso somente leitura ao perfil para visualização e teste.</li><li>**Ler conjuntos de dados**: acesso somente leitura a conjuntos de dados.</li><li>**Ler esquemas**: acesso somente leitura a schemas.</li><li>**Gerenciar políticas de mesclagem**: ler, criar, editar e excluir políticas de mesclagem.</li></ul>|
-|Administração| <ul><li>**Exibir predefinições de mensagens**: acesso somente leitura às predefinições de mensagens.</li></ul>|
-
-## Gerente de decisão {#decisioning-manager}
-
-O **[!UICONTROL Decisioning manager]** o perfil de produto permite somente a **[!UICONTROL Decision management]** menu. Os usuários atribuídos a este perfil de produto só poderão gerenciar, visualizar e publicar decisões.
+O **[!DNL Message Manager]** o perfil de produto permite que os usuários criem e editem **[!UICONTROL Messages]** e **[!UICONTROL Decision management]** mas não poderá publicá-las.
 
 Este perfil de produto conta com as seguintes permissões:
 
-| Capacidade | Permissões| |-|-| |Gestão das decisões| <ul><li>**Gerenciar decisões**: ler, criar, editar e excluir entidades de decisão.</li><li>**Exibir decisões**: acesso somente leitura às entidades de decisão.</li><li>**Gerenciar estratégias de classificação**: ler, criar, editar e excluir relatórios de mensagens personalizados e usar recursos de ação.</li><li>**Publicar decisões**: ativar ou desativar atividades de decisão.</li></ul>|
+| Capacidade | Permissões| |-|-| |Jornadas| <ul><li>**[!DNL View journeys]**: acesso somente leitura ao jornada.</li><li>**[!DNL View Journeys events, data sources and actions]**: acesso somente leitura a eventos do jornada, ações personalizadas do jornada e fontes de dados do jornada.</li></ul>|
+|Mensagens| <ul><li>**[!DNL Manage messages]**: ler, criar, editar e excluir mensagens.</li><li>**[!DNL Manage messages preview and test]**: leia, crie e edite a pré-visualização da mensagem e envie teste/prova.</li><li> **[!DNL View messages report]**: ler, criar, editar e excluir relatórios de mensagens.</li></ul>|
+|Gerenciamento de decisão| <ul><li>**[!DNL Manage decisions]**: ler, criar, editar e excluir entidades de decisão.</li></ul>| |Adobe Experience Platform| <ul><li>**[!DNL Read profiles]**: acesso somente leitura ao perfil para visualização e teste.</li><li>**[!DNL Read datasets]**: acesso somente leitura a conjuntos de dados.</li><li>**[!DNL Read schemas]**: acesso somente leitura a schemas.</li><li>**[!DNL Manage merge policies]**: ler, criar, editar e excluir políticas de mesclagem.</li></ul>|
+|Administração| <ul><li>**[!DNL View messages presets]**: acesso somente leitura às predefinições de mensagens.</li></ul>|
+
+## [!DNL Decisioning manager] {#decisioning-manager}
+
+O **[!DNL Decisioning manager]** o perfil de produto permite somente a **[!UICONTROL Decision management]** menu. Os usuários atribuídos a este perfil de produto só poderão gerenciar, visualizar e publicar decisões.
+
+Este perfil de produto conta com as seguintes permissões:
+
+| Capacidade | Permissões| |-|-| |Gestão das decisões| <ul><li>**[!DNL Manage decisions]**: ler, criar, editar e excluir entidades de decisão.</li><li>**[!DNL View decisions]**: acesso somente leitura às entidades de decisão.</li><li>**[!DNL Manage ranking strategies]**: ler, criar, editar e excluir relatórios de mensagens personalizados e usar recursos de ação.</li><li>**[!DNL Publish decisions]**: ativar ou desativar atividades de decisão.</li></ul>|

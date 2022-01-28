@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 6c200f4a162ea1a3763b353b01ce5fef74ed8462
+source-git-commit: cbb9aa1df7efd60407f4538edf519d96780c4961
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -40,25 +40,52 @@ Você pode abrir um registro PTR na lista para exibir o nome do subdomínio asso
 
 Você pode modificar um registro PTR para editar o subdomínio associado a um endereço IP.
 
->[!CAUTION]
+>[!NOTE]
 >
->Não é possível modificar um registro PTR associado a um subdomínio que foi delegado ao Adobe usando o [método CNAME](delegate-subdomain.md#cname-subdomain-delegation).
+>Não é possível modificar o **[!UICONTROL IP]** e **[!UICONTROL PTR record]** campos.
+
+### Subdomínios totalmente delegados
+
+Para editar um registro PTR com um subdomínio que esteja [plenamente delegado](delegate-subdomain.md#full-subdomain-delegation) para o Adobe, siga as etapas abaixo.
 
 1. Na lista, clique em um nome de registro PTR para abri-lo.
 
    ![](../assets/ptr-record-select.png)
 
-1. Edite o subdomínio conforme desejado.
+1. Selecionar um subdomínio [plenamente delegado](delegate-subdomain.md#full-subdomain-delegation) para Adobe da lista.
 
    ![](../assets/ptr-record-subdomain.png)
 
+1. Clique em **[!UICONTROL Save]** para confirmar as alterações.
+
+### Subdomínios delegados usando o método CNAME {#edit-ptr-subdomains-cname}
+
+Para editar um registro PTR com um subdomínio que é delegado ao Adobe usando o [método CNAME](delegate-subdomain.md#cname-subdomain-delegation)siga as etapas abaixo.
+
+1. Na lista, clique em um nome de registro PTR para abri-lo.
+
+   ![](../assets/ptr-record-select-cname.png)
+
+1. Selecione um subdomínio delegado ao Adobe usando o [método CNAME](delegate-subdomain.md#cname-subdomain-delegation) na lista.
+
+   ![](../assets/ptr-record-subdomain-cname.png)
+
+1. Você precisa criar um novo registro de DNS de encaminhamento na plataforma de hospedagem. Para fazer isso, copie o registro gerado pelo Adobe. Depois de concluído, marque a caixa &quot;Confirmo...&quot;.
+
+   ![](../assets/ptr-record-subdomain-confirm.png)
+
    >[!NOTE]
    >
-   >Não é possível modificar o **[!UICONTROL IP]** e **[!UICONTROL PTR record]** campos.
+   >Caso receba esta mensagem: &quot;Crie o DNS de encaminhamento primeiro e tente novamente&quot;, siga as etapas abaixo:
+   >   * Verifique o provedor DNS se o registro de DNS de encaminhamento foi criado com êxito.
+   >   * Os registros no DNS podem não sincronizar imediatamente. Aguarde alguns minutos e tente novamente.
+
 
 1. Clique em **[!UICONTROL Save]** para confirmar as alterações.
 
-Um **[!UICONTROL Updating]** ícone é exibido ao lado do nome do registro PTR na lista.
+## Verificar detalhes de atualização do registro PTR
+
+A **[!UICONTROL Processing]** ícone é exibido ao lado do nome do registro PTR na lista.
 
 ![](../assets/ptr-record-updating.png)
 
@@ -70,13 +97,13 @@ Você pode ver informações como o status da atualização e as alterações so
 
 ![](../assets/ptr-record-updates.png)
 
-## Atualizar status
+## Status de atualização de registro PTR
 
 Uma atualização de registro PTR pode ter os seguintes status:
 
-* **[!UICONTROL Processing]**: A atualização do registro PTR foi enviada e está passando por um processo de verificação.
-* **[!UICONTROL Success]**: O registro PTR atualizado foi verificado e o novo subdomínio agora está associado ao endereço IP.
-* **[!UICONTROL Failed]**: Uma ou várias verificações falharam durante a verificação de atualização de registro PTR.
+* ![](../assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: A atualização do registro PTR foi enviada e está passando por um processo de verificação.
+* ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: O registro PTR atualizado foi verificado e o novo subdomínio agora está associado ao endereço IP.
+* ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Uma ou várias verificações falharam durante a verificação de atualização de registro PTR.
 
 ### Processamento
 

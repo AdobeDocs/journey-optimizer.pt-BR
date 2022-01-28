@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
+source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1343'
 ht-degree: 5%
 
 ---
@@ -258,6 +258,10 @@ Agora é possível ver todas as ofertas personalizadas e a oferta de fallback qu
 Use o **[!UICONTROL Offers]** ou as setas dos componentes de conteúdo (setas para a direita e para a esquerda) para navegar pelos dados. Também é possível exibir as diferentes ofertas que fazem parte da decisão com um perfil de cliente. Saiba mais [nesta seção](../../using/deliver-personalized-offers.md#preview-offers-in-email).
 
 Depois de salvar suas alterações e depois que a mensagem for publicada, suas ofertas estarão prontas para serem exibidas aos perfis relevantes ao enviar a mensagem como parte de uma jornada.
+
+>[!NOTE]
+>
+>Ao atualizar uma oferta, oferta de fallback, coleção de ofertas ou decisão de oferta que é direta ou indiretamente referenciada em uma [publicado](../../using/publish-manage-message.md) , as atualizações agora são refletidas automaticamente na mensagem correspondente, sem a necessidade de republicá-la.
 
 **Tópicos relacionados:**
 

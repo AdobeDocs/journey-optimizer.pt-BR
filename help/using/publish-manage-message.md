@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: ca4c2d916a2ebde643656b4573e34d6bb64053fa
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,10 @@ Após a criação da mensagem, é possível publicá-la para disponibilizá-la p
 Depois que a mensagem é publicada, ela é adicionada à lista de mensagens com a variável **[!UICONTROL Published]** status.
 
 Agora está pronto para ser acionado por um ou mais [jornada](building-journeys/journey.md).
+
+>[!NOTE]
+>
+>Ao atualizar uma oferta, oferta de fallback, coleção de ofertas ou decisão de oferta que é mencionada direta ou indiretamente em uma mensagem publicada, as atualizações agora são refletidas automaticamente na mensagem correspondente, sem a necessidade de republicá-la. [Saiba mais sobre ofertas](offers/get-started/starting-offer-decisioning.md)
 
 ## Atualizar uma mensagem só de leitura {#modify-message}
 

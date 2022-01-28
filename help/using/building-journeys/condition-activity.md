@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
+source-git-commit: c3997f572092ca8de7565b397f82dfa3b084bbd7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 8%
+source-wordcount: '1167'
+ht-degree: 6%
 
 ---
 
@@ -21,9 +21,7 @@ Esses tipos de condições estão disponíveis:
 * [Condição de tempo](#time_condition)
 * [Divisão de porcentagem](#percentage_split)
 * [Condição de data](#date_condition)
-<!--
-* [Profile cap](#profile_cap)
--->
+* [Tampa do perfil](#profile_cap)
 
 ![](../assets/journey49.png)
 
@@ -99,21 +97,26 @@ Isso permite definir um fluxo diferente com base na data. Por exemplo, se a pess
 
 ![](../assets/journey53.png)
 
-<!--
-## Profile cap {#profile_cap}
+## Tampa do perfil {#profile_cap}
 
-Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
+Use esse tipo de condição para definir um número máximo de perfis para um caminho de jornada. Quando esse limite é atingido, os perfis de entrada assumem um caminho alternativo. Isso garante que suas jornadas nunca excedam o limite definido.
 
-You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
+Você pode usar esse tipo de condição para aumentar o volume de seus deliveries. Veja isso [caso de uso](ramp-up-deliveries-uc.md).
 
-The default cap is 1000. You can set an integer value from 1 to 20,000.
+O limite padrão é 1000.
 
-The counter applies only to the selected journey version. The counter is reset to zero after 180 days. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
+O contador se aplica somente à versão do jornada selecionada. O contador é redefinido para zero após um mês. Após uma redefinição, os perfis de entrada seguem o caminho nominal novamente até que o limite do contador seja atingido.
 
-The nominal path always has priority over the alternate path, even if you move the alternate path above the nominal path on the journey canvas.
+O caminho nominal sempre tem prioridade sobre o caminho alternativo, mesmo se você mover o caminho alternativo acima do caminho nominal na tela de jornada.
+
+Para jornadas ao vivo, aqui estão os limites a serem considerados para garantir que o limite seja atingido:
+
+* Para uma tampa superior a 10000, o número de perfis distintos a injetar deve ser, pelo menos, 1,3 vezes a tampa.
+* Para uma tampa inferior a 10000, o número de perfis distintos a injetar deve ser 1000 mais a tampa.
+
+O limite de perfil não é considerado no modo de teste.
 
 ![](../assets/profile-cap-condition.png)
--->
 
 ## Uso de segmentos em condições {#using-a-segment}
 

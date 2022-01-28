@@ -5,10 +5,10 @@ user-guide-title: Manual do Journey Optimizer
 user-guide-description: Usar o Journey Optimizer para fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: ht
-source-wordcount: '890'
-ht-degree: 100%
+source-git-commit: ae60bf08a4f358b99e803f3fd17f9218acda9062
+workflow-type: tm+mt
+source-wordcount: '893'
+ht-degree: 99%
 
 ---
 
@@ -66,12 +66,12 @@ ht-degree: 100%
       + [Funções do objeto](using/personalization/functions/objects.md)
       + [Funções de string](using/personalization/functions/string.md)
    + [Adicionar ofertas personalizadas](using/deliver-personalized-offers.md)
-+ Segmentos, perfis e identidade{#segment}
++ Segmentos, perfis e identidades{#segment}
    + Segmentos {#segments}
       + [Introdução aos segmentos](using/segment/about-segments.md)
       + [Construir segmentos](using/segment/creating-a-segment.md)
    + [Perfis](using/get-started-profiles.md)
-   + [Identidade](using/get-started-identity.md)
+   + [Identidades](using/get-started-identity.md)
 + Jornadas {#orchestrate-journeys}
    + Sobre jornadas{#about-journeys}
       + [Princípio geral](using/building-journeys/journey.md)
@@ -190,9 +190,7 @@ ht-degree: 100%
       + [Enviar uma mensagem usando o Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Envio dinâmico de coleções usando ações personalizadas](using/building-journeys/collections.md)
       + [Enviar uma mensagem aos assinantes](using/building-journeys/message-to-subscribers-uc.md)
-      <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+      + [Aumentar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
 + Rastrear e monitorar {#reporting}
    + [Monitoramento de mensagens](using/message-monitoring.md)
    + Relatório ao vivo {#live-report}

@@ -5,10 +5,11 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: e4125d3e1f0c382c1f2ca13ad080aba830c5df46
+exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
+source-git-commit: 3f545c68264164aeb40eec55631d50fa5c0bec4f
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 2%
+source-wordcount: '360'
+ht-degree: 4%
 
 ---
 
@@ -88,11 +89,9 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    ![](../assets/preset-active.png)
 
-Para saber como configurar uma predefinição de mensagem para notificações por push e emails, consulte [esta seção](message-presets.md).
-
 Agora você está pronto para enviar mensagens SMS com o Journey Optimizer.
 
 **Tópicos relacionados**
 
-* [Criar uma mensagem SMS](../create-sms.md)
+* [Criar uma mensagem de SMS.](../create-sms.md)
 * [Adicionar uma mensagem em uma jornada](../building-journeys/journeys-message.md)
