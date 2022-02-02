@@ -1,12 +1,12 @@
 ---
 title: Caso de uso de personalização &dois pontos; email de abandono do carrinho
-description: Saiba como personalizar uma mensagem usando funções auxiliares
+description: Saiba como personalizar uma mensagem usando funções auxiliares.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 4%
