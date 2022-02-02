@@ -16,14 +16,20 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c548852b976100935271afafd5267fd7f32a9b50
+source-git-commit: af1c05cb51601ae92cc643353fa706b3771a8160
 workflow-type: tm+mt
-source-wordcount: '1396'
-ht-degree: 7%
+source-wordcount: '1429'
+ht-degree: 10%
 
 ---
 
 # Delegar um subdomínio
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomainname"
+>title="Sobre a delegação de subdomínio"
+>abstract="O Journey Optimizer permite delegar totalmente seus subdomínios ao Adobe. O Adobe poderá enviar mensagens como um serviço gerenciado controlando e mantendo todos os aspectos do DNS."
+
 
 A delegação de nome de domínio é um método que permite ao proprietário de um nome de domínio (tecnicamente: uma zona DNS) para delegar uma subdivisão dessa zona (tecnicamente: uma zona DNS sob ela, que pode ser chamada de subzona) para outra entidade. Basicamente, como cliente, se estiver lidando com a zona &quot;example.com&quot;, você pode delegar a subzona &quot;marketing.example.com&quot; ao Adobe.
 
@@ -95,7 +101,7 @@ Depois que um subdomínio é delegado ao Adobe in [!DNL Journey Optimizer], um r
 
 Se você tiver políticas de restrição específicas de domínio e quiser que o Adobe tenha apenas controle parcial sobre DNS, poderá optar por realizar todas as atividades relacionadas a DNS de seu lado.
 
-A delegação de subdomínio CNAME permite criar um subdomínio e usar CNAMEs para apontar para registros específicos do Adobe. Com essa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS para configurar o ambiente para enviar, renderizar e rastrear emails.
+A delegação de subdomínio CNAME permite criar um subdomínio e usar CNAMEs para apontar para registros específicos da Adobe. Com essa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS para configurar o ambiente para enviar, renderizar e rastrear emails.
 
 >[!CAUTION]
 >
