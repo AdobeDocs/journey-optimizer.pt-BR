@@ -16,14 +16,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 5%
 
 ---
 
-# Alterar os endereços de email principais
+# Alterar os endereços de email principais {#change-primary-email}
 
 Ao direcionar um perfil, vários endereços de email podem estar disponíveis no banco de dados (pessoal, endereço de email profissional etc.).
 

@@ -8,14 +8,14 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 847873b39476e3bd932f420a70c9dcac46de84f5
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
-# Casos de uso da página de aterrissagem
+# Casos de uso da página de aterrissagem {#lp-use-cases}
 
 Abaixo estão alguns exemplos de como você pode usar [!DNL Journey Optimizer] páginas de aterrissagem para que seus clientes optem por receber algumas ou todas as suas comunicações.
 
@@ -96,7 +96,7 @@ Saiba mais sobre como gerenciar o consentimento dos recipients e por que isso é
 
 ### Gerenciamento de recusa {#opt-out-management}
 
-Oferecer a capacidade de cancelar a assinatura dos recipients ao receberem comunicações de uma marca é um requisito legal. Saiba mais sobre a legislação aplicável no [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target=&quot;_blank&quot;}.
+Oferecer aos recipients a capacidade de cancelar a inscrição para receber comunicações de uma marca é um requisito legal. Saiba mais sobre a legislação aplicável na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=pt-BR#regulations){target=&quot;_blank&quot;}.
 
 Portanto, você sempre deve incluir um **link para cancelar a inscrição** em cada email enviado aos recipients:
 
@@ -153,7 +153,7 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
    * Os dados do perfil são atualizados e não receberão comunicações da sua marca, a menos que sejam subscritos novamente.
 
-Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target=&quot;_blank&quot;}.
 
 ![](../assets/lp_opt-out-profile-choice.png)
 
