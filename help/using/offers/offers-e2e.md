@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Esta seção apresenta um exemplo completo para mostrar como configurar ofertas e usá-las em um email, com base em uma decisão criada anteriormente.
 
-## Etapas principais
+## Etapas principais {#main-steps}
 
 As principais etapas para configurar ofertas, incluí-las em uma decisão e aproveitar essa decisão em um email estão listadas abaixo:
 
@@ -225,11 +225,11 @@ As etapas detalhadas para criar e configurar uma decisão estão descritas em [e
 
 Agora que sua decisão está em execução, você pode inseri-la em uma mensagem de email. Para isso, siga as etapas abaixo:
 
-1. Crie seu email e abra o [Email Designer](../../using/design-emails.md) para configurar seu conteúdo.
+1. Crie seu email e abra o [Email Designer](../../using/messages/design-emails.md) para configurar seu conteúdo.
 
 1. Adicione um componente de estrutura na paleta esquerda.
 
-1. Adicione um **[!UICONTROL Offer decision]** componente de conteúdo. Saiba como usar componentes de conteúdo no [esta seção](../../using/content-components.md).
+1. Adicione um **[!UICONTROL Offer decision]** componente de conteúdo. Saiba como usar componentes de conteúdo no [esta seção](../../using/messages/content-components.md).
 
    ![](../assets/offers-e2e-decision-component.png)
 
@@ -255,19 +255,19 @@ Agora é possível ver todas as ofertas personalizadas e a oferta de fallback qu
 
 ![](../assets/offers-e2e-offers-displayed.png)
 
-Use o **[!UICONTROL Offers]** ou as setas dos componentes de conteúdo (setas para a direita e para a esquerda) para navegar pelos dados. Também é possível exibir as diferentes ofertas que fazem parte da decisão com um perfil de cliente. Saiba mais [nesta seção](../../using/deliver-personalized-offers.md#preview-offers-in-email).
+Use o **[!UICONTROL Offers]** ou as setas dos componentes de conteúdo (setas para a direita e para a esquerda) para navegar pelos dados. Também é possível exibir as diferentes ofertas que fazem parte da decisão com um perfil de cliente. Saiba mais [nesta seção](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
 
 Depois de salvar suas alterações e depois que a mensagem for publicada, suas ofertas estarão prontas para serem exibidas aos perfis relevantes ao enviar a mensagem como parte de uma jornada.
 
 >[!NOTE]
 >
->Ao atualizar uma oferta, oferta de fallback, coleção de ofertas ou decisão de oferta que é direta ou indiretamente referenciada em uma [publicado](../../using/publish-manage-message.md) , as atualizações agora são refletidas automaticamente na mensagem correspondente, sem a necessidade de republicá-la.
+>Ao atualizar uma oferta, oferta de fallback, coleção de ofertas ou decisão de oferta que é direta ou indiretamente referenciada em uma [publicado](../../using/messages/publish-manage-message.md) , as atualizações agora são refletidas automaticamente na mensagem correspondente, sem a necessidade de republicá-la.
 
 **Tópicos relacionados:**
 
-* Saiba como verificar a pré-visualização da mensagem em [esta seção](../../using/preview.md#preview-your-messages).
+* Saiba como verificar a pré-visualização da mensagem em [esta seção](../../using/messages/preview.md#preview-your-messages).
 
-* Saiba como publicar mensagens em [esta seção](../../using/publish-manage-message.md).
+* Saiba como publicar mensagens em [esta seção](../../using/messages/publish-manage-message.md).
 
 * Saiba como as mensagens são acionadas por uma ou mais jornadas no [esta seção](../building-journeys/journey.md).
 

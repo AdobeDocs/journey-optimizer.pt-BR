@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 9%
@@ -21,7 +21,7 @@ Esses são os campos XDM comuns que [!DNL Journey Optimizer] envia para o Adobe 
 
 Alguns desses campos estão disponíveis apenas em padrões de processamento específicos (execução de ação, busca de dados etc.) para limitar o tamanho dos eventos.
 
-## entrada
+## entrada {#entrance-field}
 
 Indica se o usuário inseriu a jornada. Se não estiver presente, assumimos que o valor é false.
 
@@ -29,7 +29,7 @@ Tipo: booleano
 
 Valores: true/false
 
-## reentrada
+## reentrada {#reentrance-field}
 
 Indica se o usuário entrou novamente na jornada com a mesma instância. Se não estiver presente, assumimos que o valor é false.
 
@@ -37,37 +37,37 @@ Tipo: booleano
 
 Valores: true/false
 
-## instanceEnded
+## instanceEnded {#instance-ended-field}
 
 Indica se a instância terminou (com êxito ou não).
 
 Tipo: booleano
 
-## eventID
+## eventID {#eventid-field}
 
 ID do evento no processamento, para o processamento da etapa. Se o evento for externo, o valor será eventId. Se o evento for interno, o valor será eventId interno (como scheduledNotificationReceived, executionAction, etc.).
 
 Tipo: sequência de caracteres
 
-## nodeID
+## nodeID {#nodeid-field}
 
 ID do nó do cliente (na tela).
 
 Tipo: sequência de caracteres
 
-## stepID
+## stepID {#stepdid-field}
 
 Id exclusiva da etapa que está sendo processada no momento.
 
 Tipo: sequência de caracteres
 
-## stepName
+## stepName {#stepname-field}
 
 Nome da etapa que está sendo processada no momento.
 
 Tipo: sequência de caracteres
 
-## stepType
+## stepType {#steptype-field}
 
 Tipo da etapa.
 
@@ -80,7 +80,7 @@ Valores possíveis:
 * Scheduler
 * Temporizador
 
-## stepStatus
+## stepStatus {#stepstatus-field}
 
 Status da etapa, representando o status da etapa, quando o processamento foi concluído (e o evento de etapa foi acionado).
 
@@ -95,79 +95,79 @@ O status pode ser:
 * tempo limite: a etapa falhou em um erro de tempo limite, gerado durante uma ação ou enriquecimento.
 * instanceTimedout: a etapa interrompeu o processamento porque a instância atingiu o tempo limite.
 
-## journeyID
+## journeyID {#journeyid-field}
 
 ID da jornada.
 
 Tipo: sequência de caracteres
 
-## journeyVersionID
+## journeyVersionID {#journeyversionid-field}
 
 ID da versão do jornada. Essa id representa a referência de identidade para a jornada, no caso de journeyStepEvent.
 
 Tipo: sequência de caracteres
 
-## journeyVersionName
+## journeyVersionName {#journeyversionname-field}
 
 Nome da versão do jornada.
 
 Tipo: sequência de caracteres
 
-## journeyVersion
+## journeyVersion {#journeyversion-field}
 
 Versão da versão do jornada.
 
 Tipo: sequência de caracteres
 
-## instanceID
+## instanceID {#instanceid-field}
 
 ID interna da instância do jornada.
 
 Tipo: sequência de caracteres
 
-## externalKey
+## externalKey {#externalkey-field}
 
 Chave externa extraída do evento para processá-la.
 
 Tipo: sequência de caracteres
 
-## parentStepID
+## parentStepID {#parenstepid-field}
 
 ID da etapa principal da etapa processada atual na instância.
 
 Tipo: sequência de caracteres
 
-## parentStepName
+## parentStepName {#parentstepname-field}
 
 Nome da etapa do pai da etapa atual.
 
 Tipo: sequência de caracteres
 
-## parentTransitionID
+## parentTransitionID {#parenttransitionid-field}
 
 Id da transição que trouxe a instância para a etapa processada.
 
 Tipo: sequência de caracteres
 
-## parentTransitionName
+## parentTransitionName {#parenttransitionname-field}
 
 Nome da transição que trouxe a instância para a etapa processada.
 
 Tipo: sequência de caracteres
 
-## inTest
+## inTest {#intest-field}
 
 Indicado se essa jornada está no modo de teste ou não.
 
 Tipo: booleano
 
-## processingTime
+## processingTime {#processingtime-field}
 
 Tempo total em milissegundos desde a entrada da etapa da instância até o fim do processamento.
 
 Tipo: long
 
-## instanceType
+## instanceType {#instancetype-field}
 
 Indica o tipo de instância, se for em lote ou unitário.
 
@@ -175,31 +175,31 @@ Tipo: sequência de caracteres
 
 Valores: lote/unidade
 
-## periodicidadeIndex
+## periodicidadeIndex {#recurrenceindex-field}
 
 Índice da recorrência se a jornada for em lote e recorrente (a primeira execução tem recorrênciaIndex = 1).
 
 Tipo: long
 
-## isBatchToUnitary
+## isBatchToUnitary {#isbatchtounitary-field}
 
 Indica se essa instância unitária foi acionada a partir de uma instância de lote.
 
 Tipo: booleano
 
-## batchExternalKey
+## batchExternalKey {#batchexternalkey-field}
 
 Chave externa para o evento batch.
 
 Tipo: sequência de caracteres
 
-## batchInstanceID
+## batchInstanceID {#batchinstanceid-field}
 
 essa é a ID da instância de lote.
 
 Tipo: sequência de caracteres
 
-## batchUnitaryBranchID
+## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 se a instância tiver sido acionada a partir de uma instância de lote, a ID de ramificação unitária.
 

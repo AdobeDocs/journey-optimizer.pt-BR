@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 5%
 
 ---
 
-# Listar coleções
+# Listar coleções {#list-collections}
 
 Coleções são subconjuntos de ofertas com base em condições predefinidas definidas por um profissional de marketing, como a categoria da oferta.
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Uso de parâmetros de consulta
+## Uso de parâmetros de consulta {#using-query-parameters}
 
 Você pode usar parâmetros de consulta para página e filtrar resultados ao listar recursos.
 
-### Paginação
+### Paginação {#paging}
 
 Os parâmetros de consulta mais comuns para paginação incluem:
 

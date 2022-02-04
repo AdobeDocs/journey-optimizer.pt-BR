@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 2%
 
 ---
 
-# Eventos de reação {#section_dhx_gss_dgb}
+# Eventos de reação {#reaction-events}
 
 Entre as diferentes atividades de evento disponíveis na paleta, você encontrará as **[!UICONTROL Reactions]** evento. Essa atividade permite reagir a dados de rastreamento relacionados a uma mensagem enviada na mesma jornada. Capturamos essas informações em tempo real no momento em que são compartilhadas com a Adobe Experience Platform. Para notificações por push, você pode reagir a mensagens clicadas, enviadas ou com falha. Para mensagens SMS, você pode reagir a mensagens enviadas ou com falha. Para emails, você pode reagir a mensagens clicadas, enviadas, abertas ou com falha.
 

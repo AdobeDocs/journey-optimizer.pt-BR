@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 26%
@@ -17,31 +17,31 @@ ht-degree: 26%
 
 Esse grupo de campos é usado no schema de jornada (em relação a journeyStepEvent). Ele contém os seguintes campos:
 
-## journeyID
+## journeyID {#journeyid-field}
 
 Id da jornada principal.
 
 Tipo: sequência de caracteres
 
-## journeyVersionID
+## journeyVersionID {#journeyversionid-field}
 
 Id da versão do jornada. Essa id representa a identidade de uma jornada.
 
 Tipo: sequência de caracteres
 
-## name
+## name {#name-field}
 
 Nome da jornada.
 
 Tipo: sequência de caracteres
 
-## descrição
+## descrição {#description-field}
 
 Descrição da jornada.
 
 Tipo: sequência de caracteres
 
-## version
+## version {#version-field}
 
 Versão, representada como `major`.`minor`
 

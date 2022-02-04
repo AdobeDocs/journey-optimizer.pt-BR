@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 39b52f39ec19c185d2cd95634a60e37f62a66f83
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 1%
 
 ---
 
-# Criar simulações
+# Criar simulações {#create-simulations}
 
 ## Sobre a simulação
 
@@ -47,7 +47,7 @@ Primeiro, é necessário selecionar os perfis de teste que serão usados para si
 
    >[!NOTE]
    >
-   >Um namespace de identidade define o contexto de um identificador, como um endereço de email ou ID de CRM. Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../../get-started-identity.md){target=&quot;_blank&quot;}.
+   >Um namespace de identidade define o contexto de um identificador, como um endereço de email ou ID de CRM. Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../../start/get-started-identity.md){target=&quot;_blank&quot;}.
 
 1. Insira o valor de identidade e clique em **[!UICONTROL View]** para listar os perfis disponíveis.
 
@@ -63,7 +63,7 @@ Primeiro, é necessário selecionar os perfis de teste que serão usados para si
 
 1. Você pode clicar no botão **[!UICONTROL Profile details]** link para exibir os dados de perfil selecionados.
 
-<!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
+<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## Adicionar escopos de decisão
 

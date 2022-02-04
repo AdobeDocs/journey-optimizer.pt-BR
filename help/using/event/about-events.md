@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: c5ec5ae03ce470a5c012fee4041d47c1856fbbc8
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 52%
 
 ---
 
-# Sobre eventos{#concept_gfj_fqt_52b}
+# Sobre eventos{#about-events}
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
@@ -57,7 +57,7 @@ Para eventos unitários, há dois tipos de ID de evento:
 
 O Journey Optimizer requer que os eventos sejam transmitidos ou armazenados em lote no Adobe Experience Platform. Esses dados não precisam necessariamente acessar o Perfil em tempo real. Se você quiser usar os eventos para segmentação ou pesquisa em uma jornada separada, recomendamos ativar o conjunto de dados para perfil.
 
-## Ciclo de dados {#section_r1f_xqt_pgb}
+## Ciclo de dados {#data-cycle}
 
 Eventos são chamadas POST API. Os eventos são enviados para a Adobe Experience Platform por meio de APIs de assimilação de fluxo. O destino do URL de eventos enviados por meio de APIs de mensagens transacionais é chamado de &quot;inlet&quot;. A carga útil de eventos segue a formatação XDM.
 

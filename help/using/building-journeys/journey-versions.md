@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
 
 ---
 
-# Versões de jornada{#concept_ldc_k55_zgb}
+# Versões de jornada{#journey-versions}
 
 Na lista jornada, todas as versões do jornada são exibidas com o número da versão. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
 
@@ -25,7 +25,7 @@ Se precisar modificar para uma jornada ao vivo, será necessário criar uma nova
 
 >[!NOTE]
 >
->Para saber mais sobre as limitações de versões do jornada, consulte [esta página](../limitations.md#journey-versions-limitations)
+>Para saber mais sobre as limitações de versões do jornada, consulte [esta página](../start/limitations.md#journey-versions-limitations)
 
 1. Abra a versão mais recente da jornada dinâmica e clique em **[!UICONTROL Create a new version]** e confirme.
 

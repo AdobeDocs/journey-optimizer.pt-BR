@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 4%
 
 ---
 
-# Listar tags
+# Listar tags {#list-tags}
 
 Tags permitem organizar e classificar melhor suas ofertas. Por exemplo, você pode rotular as ofertas de Black Friday com a tag &quot;Black Friday&quot;. Em seguida, você pode usar a funcionalidade de pesquisa na Biblioteca de ofertas para localizar facilmente todas as ofertas com essa tag.
 
@@ -46,11 +46,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Uso de parâmetros de consulta
+## Uso de parâmetros de consulta {#using-query-parameters}
 
 Você pode usar parâmetros de consulta para página e filtrar resultados ao listar recursos.
 
-### Paginação
+### Paginação {#paging}
 
 Os parâmetros de consulta mais comuns para paginação incluem:
 

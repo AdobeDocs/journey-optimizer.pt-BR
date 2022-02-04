@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 5%
 
 ---
 
-# Listar decisões
+# Listar decisões {#list-decisions}
 
 Uma decisão (anteriormente conhecida como atividade de oferta) contém a lógica que informa a seleção de uma oferta.
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Uso de parâmetros de consulta
+## Uso de parâmetros de consulta {#using-query-parameters}
 
 Você pode usar parâmetros de consulta para página e filtrar resultados ao listar recursos.
 
-### Paginação
+### Paginação {#paging}
 
 Os parâmetros de consulta mais comuns para paginação incluem:
 

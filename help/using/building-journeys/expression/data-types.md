@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 5%
 
 ---
 
-# Tipos de dados {#concept_gp3_rj5_dgb}
+# Tipos de dados {#data-types}
 
 Tecnicamente, uma constante sempre contém um tipo de dados. Na expressão literal, especificamos apenas o valor . O tipo de dados pode ser inferido a partir do valor (por exemplo, string, número inteiro, decimal, etc.). Para casos específicos, como a data e hora, usamos funções dedicadas para a representação.
 

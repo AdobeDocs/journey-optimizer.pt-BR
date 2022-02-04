@@ -1,14 +1,14 @@
 ---
 title: Caso de uso de personalização &dois pontos; email de abandono do carrinho
-description: Saiba como personalizar uma mensagem usando funções auxiliares.
+description: Saiba como personalizar o corpo de uma mensagem de email por meio de um caso de uso.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1019'
 ht-degree: 4%
 
 ---
@@ -26,8 +26,8 @@ Você usará esses tipos de funções de ajuda:
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 Antes de começar, certifique-se de saber como configurar esses elementos:
-* Uma mensagem de email. [Saiba mais](../create-message.md)
-* O corpo de um email. [Saiba mais](../create-email-content.md).
+* Uma mensagem de email. [Saiba mais](../messages/create-message.md)
+* O corpo de um email. [Saiba mais](../messages/create-email-content.md).
 * Um evento unitário. [Saiba mais](../event/about-events.md).
 * Uma jornada que começa com um evento. [Saiba mais](../building-journeys/using-the-journey-designer.md).
 
@@ -324,15 +324,15 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 1. Verifique se não há erro e publique a jornada.
 
 
-## Tópicos relacionados
+## Tópicos relacionados {#related-topics}
 
-### Funções de handlebars
+### Funções de handlebars {#handlebars}
 
 * [Auxiliares](functions/helpers.md)
 
 * [Funções de string](functions/string.md)
 
-### Casos de uso
+### Casos de uso {#use-case}
 
 * [Personalização com informações, contexto e oferta do perfil](personalization-use-case.md)
 

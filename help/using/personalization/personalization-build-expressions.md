@@ -5,7 +5,8 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 50e12a28ed9f94133a9810a460172d34ad3a4593
+exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 8%
@@ -28,7 +29,7 @@ As fontes disponíveis são:
 
 * **[!UICONTROL Profile attributes]** : lista todas as referências associadas ao esquema de perfil descrito em [Documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 * **[!UICONTROL Segment memberships]** : lista todos os segmentos criados no serviço de Segmentação da Adobe Experience Platform. Mais informações sobre a segmentação disponíveis [here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}.
-* **[!UICONTROL Offer decisions]** : lista todas as ofertas associadas a uma disposição específica. Selecione a disposição e insira as ofertas no seu conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [esta seção](../deliver-personalized-offers.md).
+* **[!UICONTROL Offer decisions]** : lista todas as ofertas associadas a uma disposição específica. Selecione a disposição e insira as ofertas no seu conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [esta seção](../messages/deliver-personalized-offers.md).
 * **[!UICONTROL Contextual attributes]** : quando a variável **Mensagem** é usada em uma jornada, campos de jornada contextual estão disponíveis por meio desse menu. Saiba mais [nesta seção](personalization-use-case.md).
 * **[!UICONTROL Helper functions]** : lista todas as funções auxiliares disponíveis para executar operações em dados, como cálculos, formatação de dados ou conversões, condições e manipulá-las no contexto de personalização. Saiba mais [nesta seção](functions/functions.md).
 

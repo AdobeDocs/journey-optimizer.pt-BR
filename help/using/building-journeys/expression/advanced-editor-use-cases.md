@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: eaa2cbad00fbbfade7ba98cf830f945e032f03d1
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 2%
 
 ---
 
-# Exemplos de expressão avançada
+# Exemplos de expressão avançada{#advanced-expression-examples}
 
 O editor de expressão Avançado pode ser usado para criar condições para permitir que você filtre usuários em suas jornadas. Essas condições permitem que você direcione aos usuários a hora, data, local, duração ou ações, como compra ou abandono de carrinhos, para que eles possam ser redirecionados na jornada.
 

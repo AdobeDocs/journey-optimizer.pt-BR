@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 13%
@@ -19,37 +19,37 @@ Esse grupo de campos será compartilhado por journeyStepEvent e journeyStepProfi
 
 Se a etapa tiver uma ação a ser processada, esses campos serão adicionados ao payload do evento.
 
-## actionID
+## actionID {#actionid-field}
 
 ID da ação que está sendo executada.
 
 Tipo: sequência de caracteres
 
-## actionName
+## actionName {#actionname-field}
 
 Nome da ação. Se nenhum nome tiver sido definido, o stepName será executado.
 
 Tipo: sequência de caracteres
 
-## actionType
+## actionType {#actionType-field}
 
 Tipo da ação.
 
 Tipo: sequência de caracteres
 
-## actionParameterized
+## actionParameterized {#actionparameterized-field}
 
 Indica se a ação está parametrizada ou não.
 
 Tipo: booleano
 
-## actionExecutionTime
+## actionExecutionTime {#actionexecutiontime-field}
 
 O tempo (em milissegundos) necessário para executar uma ação atual.
 
 Tipo: long
 
-## actionExecutionError
+## actionExecutionError {#actionexecutionerror-field}
 
 Tipo de erro que ocorre quando a ação é chamada.
 
@@ -61,13 +61,13 @@ Valores:
 * timeout
 * error
 
-## actionExecutionErrorCode
+## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
 Código para erro de execução de ação. Apresentar se o erro tiver um código, como um HTTP.
 
 Tipo: sequência de caracteres
 
-## actionExecutionOriginError
+## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
 Um tempo limite pode ocorrer, em dois casos:
 
@@ -89,13 +89,13 @@ Por exemplo, um email está sendo enviado e um erro HTTP 500 é retornado na pri
 
 Tipo: sequência de caracteres
 
-## actionExecutionOriginCode
+## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
 Código de erro de actionExecOrigError.
 
 Tipo: sequência de caracteres
 
-## actionBusinessType
+## actionBusinessType {#actionbusinesstype-field}
 
 Indica o tipo de ação.
 
@@ -111,25 +111,25 @@ Valores:
 
 Tipo: sequência de caracteres
 
-## deliveryJobID
+## deliveryJobID {#deliveryjobid-field}
 
 Este artigo descreve a ID de trabalho de delivery para a Jornada em lote.
 
 Tipo: sequência de caracteres
 
-## batchDeliveryID
+## batchDeliveryID {#batchdeliveryid-field}
 
 Este artigo descreve a ID de delivery da Jornada em lote.
 
 Tipo: sequência de caracteres
 
-## fromSegmentTrigger
+## fromSegmentTrigger {#fromsegmenttrigger-field}
 
 Isso descreve se a Jornada em lote é acionada pelo Segmento do público-alvo.
 
 Tipo: booleano
 
-## actionSchedulerCount
+## actionSchedulerCount {#actionschedulercount-field}
 
 Contagem de solicitações de notificação do programador enviadas ao serviço do programador durante o processamento da etapa.
 

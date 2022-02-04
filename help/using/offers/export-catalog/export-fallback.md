@@ -1,12 +1,12 @@
 ---
 title: Conjunto de dados de ofertas de fallback
-description: Esta seção lista todos os campos usados no conjunto de dados exportado para ofertas de fallback.
+description: Esta seção lista todos os campos usados no conjunto de dados exportado para ofertas de fallback
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 3%
@@ -27,14 +27,14 @@ O lote bem-sucedido mais recente no conjunto de dados é exibido à direita. A e
 
 Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decision Object Repository - Fallback Offers]** conjunto de dados.
 
-## Identificador
+## Identificador {#identifier}
 
 **Campo:** _id
 **Título:** Identificador
 **Descrição:** Um identificador exclusivo para o registro.
 **Tipo:** sequência de caracteres
 
-## _experiência
+## _experiência {#experience}
 
 **Campo:** _experiência
 **Tipo:** objeto
@@ -179,7 +179,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decisio
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **Campo:** _repo
 **Tipo:** objeto

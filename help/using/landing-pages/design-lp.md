@@ -1,5 +1,5 @@
 ---
-title: Criar uma landing page
+title: Projetar uma página de aterrissagem
 description: Saiba como criar o conteúdo de uma landing page no Journey Optimizer
 feature: Landing Pages
 topic: Content Management
@@ -8,10 +8,10 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '720'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -23,15 +23,15 @@ Para começar a criar conteúdo para sua página inicial [página primária](cre
 
 A partir daí, é possível:
 
-* **Projetar a landing page do zero** por meio da interface do designer de conteúdo e aproveite imagens de [Adobe Experience Manager Assets Essentials](../assets-essentials.md). Saiba como criar conteúdo ou usar modelos integrados [nesta seção](../create-email-content.md).
+* **Projetar a landing page do zero** por meio da interface do designer de conteúdo e aproveite imagens de [Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md). Saiba como criar conteúdo ou usar modelos integrados [nesta seção](../messages/create-email-content.md).
 
-* **Código ou cole HTML bruto** diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../existing-content.md#import-raw-html-code).
+* **Código ou cole HTML bruto** diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../messages/existing-content.md#import-raw-html-code).
 
-* **Importar conteúdo HTML existente** de um arquivo ou uma pasta .zip. Saiba como importar conteúdo [nesta seção](../existing-content.md#import-html-content-from-file).
+* **Importar conteúdo HTML existente** de um arquivo ou uma pasta .zip. Saiba como importar conteúdo [nesta seção](../messages/existing-content.md#import-html-content-from-file).
 
 >[!NOTE]
 >
->O designer de conteúdo da página de aterrissagem é semelhante ao designer de email. Saiba mais sobre [criar conteúdo com [!DNL Journey Optimizer]](../design-emails.md).
+>O designer de conteúdo da página de aterrissagem é semelhante ao designer de email. Saiba mais sobre [criar conteúdo com [!DNL Journey Optimizer]](../messages/design-emails.md).
 
 ## Definir o conteúdo específico da página de aterrissagem {#define-lp-specific-content}
 
@@ -120,7 +120,7 @@ Para definir um conteúdo específico que permitirá aos usuários selecionar e 
 
    ![](../assets/lp_designer-form-style-buttons.png)
 
-   Você pode visualizar algumas de suas configurações, como a cor do rótulo do botão ao passar o mouse **[!UICONTROL Preview]** botão. Saiba mais sobre como testar landing pages [here](create-lp.md#test).
+   Você pode visualizar algumas de suas configurações, como a cor do rótulo do botão ao passar o mouse **[!UICONTROL Preview]** botão. Saiba mais sobre como testar landing pages [here](create-lp.md#test-landing-page).
 
    ![](../assets/lp_designer-form-style-buttons-preview.png)
 

@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 6%
 
 ---
 
-# Excluir uma inserção
+# Excluir uma inserção {#delete-placement}
 
 Ocasionalmente, pode ser necessário remover (DELETE) uma disposição. Somente as disposições criadas no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando a ID da instância da disposição que você deseja excluir.
 

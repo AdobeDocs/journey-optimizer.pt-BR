@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 9%
 
 ---
 
-# Atualizar uma regra de decisão
+# Atualizar uma regra de decisão {#update-decision-rule}
 
 Você pode modificar ou atualizar as regras de decisão no seu contêiner fazendo uma solicitação de PATCH para o [!DNL Offer Library] API.
 
 Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação do patch JSON](http://jsonpatch.com/).
 
-## Aceitar e digitar cabeçalhos de tipo de conteúdo
+## Aceitar e digitar cabeçalhos de tipo de conteúdo {#accept-and-content-type-headers}
 
 A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 

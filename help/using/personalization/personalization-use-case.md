@@ -1,12 +1,12 @@
 ---
 title: Caso de uso de personalização &dois pontos; notificação de status do pedido
-description: Saiba como personalizar uma mensagem com informações de perfil, decisão de oferta e contexto
+description: Saiba como personalizar uma mensagem com informações de perfil, decisão de oferta e contexto.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 2%
@@ -25,11 +25,11 @@ O objetivo deste exemplo é impulsionar um evento para [!DNL Journey Optimizer] 
 
 Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
-* crie e crie uma mensagem de notificação por push, sem publicá-la. Consulte esta [seção](../create-message.md).
+* crie e crie uma mensagem de notificação por push, sem publicá-la. Consulte esta [seção](../messages/create-message.md).
 * configure um evento de pedido incluindo o número do pedido, o status e o nome do item. Consulte esta [seção](../event/about-events.md).
 * criar uma decisão (anteriormente conhecida como &quot;atividade de oferta&quot;), consulte esta seção [seção](../offers/offer-activities/create-offer-activities.md).
 
-## Etapa 1 - Adicionar personalização ao perfil
+## Etapa 1 - Adicionar personalização ao perfil {#add-perso}
 
 1. Clique no botão **[!UICONTROL Message]** e selecione a mensagem.
 
@@ -47,7 +47,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
    >
    >Deixe a mensagem em rascunho. Não o publique ainda.
 
-## Etapa 2 - Criar a jornada
+## Etapa 2 - Criar a jornada {#create-journey}
 
 1. Clique no botão **[!UICONTROL Journeys]** e crie uma nova jornada.
 
@@ -69,7 +69,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
    >
    >A mensagem é exibida com um ícone de aviso. Isso ocorre porque a mensagem ainda não foi publicada.
 
-## Etapa 3 - Adicionar personalização aos dados contextuais
+## Etapa 3 - Adicionar personalização aos dados contextuais {#add-perso-contextual-data}
 
 1. No **Mensagem** , clique no botão **Abrir a mensagem** ícone . A mensagem é aberta em uma nova guia.
 
@@ -110,7 +110,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
    ![](assets/perso-uc16.png)
 
-## Etapa 4 - Testar e publicar a jornada
+## Etapa 4 - Testar e publicar a jornada {#test-publish}
 
 1. Abra a jornada novamente. Se a jornada já estiver aberta, atualize a página. Agora que a mensagem foi publicada, você pode ver que não há erro na jornada. Clique no botão **Teste** e, em seguida, clique em **Acionar um evento**.
 

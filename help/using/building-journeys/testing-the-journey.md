@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
 source-wordcount: '1597'
 ht-degree: 3%
 
 ---
 
-# Testar a jornada{#testing_the_journey}
+# Teste a jornada{#testing_the_journey}
 
-Antes de poder testar sua jornada, você deve resolver todos os erros, se houver. Consulte [esta seção](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb).
+Antes de poder testar sua jornada, você deve resolver todos os erros, se houver. Consulte [esta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 Você tem a possibilidade de testar sua jornada antes da publicação, usando perfis de teste. Isso permite analisar como os indivíduos fluem na jornada e solucionam problemas antes da publicação.
 
@@ -23,7 +23,7 @@ Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode c
 
 Para usar o modo de teste, siga estas etapas:
 
-1. Antes de testar sua jornada, verifique se ela é válida e se não há erro. Você não poderá iniciar um teste de uma jornada com erros. Consulte [esta seção](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb). Um símbolo de aviso é exibido quando há erros.
+1. Antes de testar sua jornada, verifique se ela é válida e se não há erro. Você não poderá iniciar um teste de uma jornada com erros. Consulte [esta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Um símbolo de aviso é exibido quando há erros.
 
 1. Para ativar o modo de teste, clique no botão **[!UICONTROL Test]** alternar, localizado no canto superior direito.
 

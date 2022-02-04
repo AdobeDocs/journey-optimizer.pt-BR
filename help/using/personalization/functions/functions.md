@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 4%
@@ -119,7 +119,7 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
 </table>
 </table>
 
-### Mapear funções
+### Mapear funções {#map-functions}
 
 <table>
     <tr>
@@ -144,7 +144,7 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
     </tr>
 </table>
 
-### Funções de string
+### Funções de string {#string-functions}
 
 <table>
     <tr>
@@ -280,7 +280,7 @@ As funções aritméticas são usadas para executar cálculos básicos em valore
 </table>
 
 
-### Funções booleanas
+### Funções booleanas {#boolean-functions}
 
 As funções booleanas são usadas para executar lógica booleana em elementos diferentes.
 
@@ -300,7 +300,7 @@ As funções booleanas são usadas para executar lógica booleana em elementos d
 </table>
 
 
-### Funções de comparação
+### Funções de comparação {#comparison-functions}
 
 As funções de comparação são usadas para comparar diferentes expressões e valores, retornando verdadeiro ou falso de acordo.
 

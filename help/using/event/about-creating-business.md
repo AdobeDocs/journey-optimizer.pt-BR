@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 12%
@@ -25,7 +25,7 @@ Os eventos comerciais podem ser &quot;um produto está de volta ao estoque&quot;
 >
 >Você também pode observar o caso de uso do evento comercial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
-## Observações importantes
+## Observações importantes {#important-notes}
 
 * Apenas estão disponíveis esquemas de séries cronológicas. Os esquemas Eventos de experiência, Eventos de decisão e Eventos de etapa de Jornada não estão disponíveis. O schema de eventos deve conter uma identidade primária. Os seguintes campos devem ser definidos conforme necessário: `_id` e `timestamp`
 * Os eventos comerciais só podem ser descartados como a primeira etapa de uma jornada.
@@ -36,7 +36,7 @@ Os eventos comerciais podem ser &quot;um produto está de volta ao estoque&quot;
 * Ao testar um evento comercial, você deve passar os parâmetros do evento e o identificador do perfil de teste que inserirá a jornada em teste. Além disso, ao testar uma jornada baseada em eventos empresariais, você só pode acionar a entrada de perfil único. Consulte [esta seção](../building-journeys/testing-the-journey.md#test-business). No modo de teste, não há modo de &quot;Visualização de código&quot; disponível.
 * O que acontece com os indivíduos que estão atualmente na jornada se um novo evento comercial chegar? Ele se comporta da mesma forma que quando os indivíduos ainda estão em uma jornada recorrente quando ocorre uma nova recorrência. Seu caminho está encerrado. Como resultado, os profissionais de marketing devem prestar atenção para evitar a criação de jornadas muito longas se esperarem eventos comerciais frequentes.
 
-## Vários eventos comerciais
+## Vários eventos comerciais {#multiple-business-events}
 
 Estas são algumas observações importantes que se aplicam quando vários eventos comerciais são recebidos sucessivamente.
 
@@ -48,7 +48,7 @@ Os eventos comerciais seguem as regras de reentrada da mesma forma que os evento
 
 No caso de eventos de negócios instantâneos, para determinada jornada, os dados enviados pelo primeiro trabalho de evento são reutilizados durante uma janela de tempo de 1 hora. Para jornadas agendadas, não há garantia. Saiba mais sobre os segmentos na [Documentação do Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-## Introdução a eventos comerciais
+## Introdução a eventos comerciais {#gs-business-events}
 
 Estas são as primeiras etapas para configurar um evento comercial:
 

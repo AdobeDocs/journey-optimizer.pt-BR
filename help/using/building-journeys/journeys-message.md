@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: dc05d88773dc148dc0e5387953f49c4d03b1888f
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# Adicionar uma mensagem em uma jornada
+# Adicionar uma mensagem em uma jornada{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] Os recursos de mensagem são integrados, basta criar o conteúdo e publicar a mensagem. Consulte [esta seção](../get-started-content.md). Em seguida, adicione na jornada uma mensagem de push ou email projetada com o Journey Optimizer.
+[!DNL Journey Optimizer] Os recursos de mensagem são integrados, basta criar o conteúdo e publicar a mensagem. Consulte [esta seção](../messages/get-started-content.md). Em seguida, adicione na jornada uma mensagem de push ou email projetada com o Journey Optimizer.
 
 Se você estiver usando um sistema de terceiros para enviar mensagens, é possível criar uma ação personalizada. Saiba mais nesta [seção](../action/action.md).
 
@@ -49,7 +49,7 @@ Se você estiver usando um sistema de terceiros para enviar mensagens, é possí
 
 ## Parâmetros de email e parâmetros de push
 
-O **[!UICONTROL Email parameters]** e **[!UICONTROL Push parameters]** as seções mostram campos somente leitura. Normalmente, você executa essa configuração ao criar a mensagem. Consulte [esta seção](../get-started-content.md).
+O **[!UICONTROL Email parameters]** e **[!UICONTROL Push parameters]** as seções mostram campos somente leitura. Normalmente, você executa essa configuração ao criar a mensagem. Consulte [esta seção](../messages/get-started-content.md).
 
 ![](../assets/jo-message4.png)
 
@@ -69,7 +69,7 @@ O recurso de Otimização de tempo de envio da Adobe Journey Optimizer, desenvol
 
 >[!NOTE]
 >
->No momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente do Adobe.
+>No momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
 
 O modelo de Otimização de tempo de envio assimila seus dados do Adobe Journey Optimizer e verifica as taxas de abertura no nível do usuário (para email e push) e de clique (para email) para determinar quando os clientes têm maior probabilidade de se envolver com suas mensagens. A otimização de tempo de envio requer no mínimo um mês de dados de rastreamento de mensagem para fazer recomendações informadas. Para cada usuário, o sistema selecionará automaticamente o melhor horário usando as seguintes pontuações:
 

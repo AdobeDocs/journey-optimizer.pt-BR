@@ -1,14 +1,14 @@
 ---
-title: Administração e configurações
-description: Saiba mais sobre administração e diretrizes de configurações
+title: Configurar jornadas
+description: Saiba como configurar fontes de dados, eventos e ações.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '313'
 ht-degree: 56%
 
 ---
@@ -19,17 +19,17 @@ Para enviar mensagens com o jornada, é necessário configurar **[!UICONTROL Dat
 
 ![](../assets/admin-menu.png)
 
-## Fontes de dados
+## Fontes de dados {#data-sources}
 
 A configuração da Fonte de Dados permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas. [Saiba mais](../../using/datasource/about-data-sources.md)
 
-## Eventos
+## Eventos {#events}
 
 Os eventos permitem acionar as jornadas de forma unitária para enviar mensagens, em tempo real, ao indivíduo que flui para a jornada.
 
 Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são normalizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de assimilação de streaming para eventos autenticados e não autenticados (como eventos do Adobe Mobile SDK). [Saiba mais](../../using/event/about-events.md)
 
-## Ações
+## Ações {#actions}
 
 Os recursos de mensagem do Journey Optimizer são incorporados: você só precisa criar o conteúdo e publicar a mensagem. Se você estiver usando um sistema de terceiros para enviar mensagens, é possível criar uma ação personalizada. [Saiba mais](../../using/action/action.md)
 

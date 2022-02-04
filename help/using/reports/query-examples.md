@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: e1d0afb70af4ab31db56f90c189c085ba8d1eb7c
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 4%
@@ -17,9 +17,9 @@ ht-degree: 4%
 
 Esta seção lista vários exemplos comumente usados para consultar Eventos de etapa de Jornada no Data Lake.
 
-## Erros de mensagem/ação
+## Erros de mensagem/ação {#message-action-errors}
 
-### Lista de cada erro encontrado no jornada
+### Lista de cada erro encontrado no jornada {#error-list-journey}
 
 Esta consulta permite listar cada erro encontrado no jornada ao executar uma mensagem/ação.
 
@@ -45,9 +45,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 Este query retorna todos os diferentes erros que ocorreram ao executar uma ação em uma jornada junto com a contagem de quantas vezes ela ocorreu.
 
-## Consultas baseadas em perfil
+## Consultas baseadas em perfil {#profile-based-queries}
 
-### Localizar se um perfil inseriu uma Jornada específica
+### Localizar se um perfil inseriu uma Jornada específica {#profile-entered-journey}
 
 _Consulta Data Lake_
 
@@ -69,7 +69,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 O resultado deve ser maior que 0. Esse query retorna o número exato de vezes que um perfil entrou em uma jornada.
 
-### Localizar se um perfil recebeu uma mensagem específica
+### Localizar se um perfil recebeu uma mensagem específica {#profile-specific-message}
 
 **Método 1:** se o nome da mensagem não for exclusivo na jornada (será usado em vários lugares).
 
@@ -119,7 +119,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 A query retorna a lista de todas as mensagens junto com sua contagem invocada para o perfil selecionado.
 
-## Encontre todas as mensagens que um perfil recebeu nos últimos 30 dias
+## Encontre todas as mensagens que um perfil recebeu nos últimos 30 dias {#message-received-30-days}
 
 _Consulta Data Lake_
 
@@ -145,7 +145,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 A query retorna a lista de todas as mensagens junto com sua contagem invocada para o perfil selecionado.
 
-### Encontre todas as jornadas que um perfil inseriu nos últimos 30 dias
+### Encontre todas as jornadas que um perfil inseriu nos últimos 30 dias {#profile-entered-30-days}
 
 _Consulta Data Lake_
 
@@ -169,7 +169,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 O query retorna a lista de todos os nomes de jornada, juntamente com o número de vezes que o perfil consultado inseriu a jornada.
 
-### Número de perfis qualificados para uma jornada diariamente
+### Número de perfis qualificados para uma jornada diariamente {#profile-qualified}
 
 _Consulta Data Lake_
 
@@ -193,9 +193,9 @@ ORDER BY DATE(timestamp) desc
 
 O query retorna, para o período definido, o número de perfis que inseriram a jornada a cada dia. Se um perfil for inserido por várias identidades, ele será contado duas vezes. Se a reentrada estiver ativada, a contagem de perfis pode ser duplicada em dias diferentes se ela tiver inserido novamente a jornada em um dia diferente.
 
-## Consultas baseadas em jornada
+## Consultas baseadas em jornada {#journey-based-queries}
 
-### Número de jornadas ativas diárias
+### Número de jornadas ativas diárias {#daily-active-journeys}
 
 _Consulta Data Lake_
 

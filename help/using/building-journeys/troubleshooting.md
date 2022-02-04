@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 84%
+source-wordcount: '1041'
+ht-degree: 81%
 
 ---
 
-# Solução de problemas{#concept_nlv_bcv_2fb}
+# Solucionar problemas da jornada{#troubleshooting}
 
 Nesta seção, você descobrirá como solucionar problemas de jornadas antes de testar ou publicar. Todos os controles enumerados a seguir podem ser efetuados quando a jornada estiver em modo de teste ou mesmo ativa. Recomenda-se que todas as verificações a seguir sejam feitas no modo de teste, para então prosseguir com a publicação. Consulte [esta página](../building-journeys/testing-the-journey.md).
 
-## Verificação de erros antes do teste{#section_h3q_kqk_fhb}
+## Verificar erros antes de testar{#checking-for-errors-before-testing}
 
 Antes de testar e publicar sua jornada, verifique se todas as atividades estão configuradas corretamente. Não é possível executar testes ou publicações se os erros ainda forem detectados pelo sistema.
 
@@ -41,7 +41,7 @@ Erros e avisos globais para a jornada aparecem primeiro na lista. Os erros e avi
 
 A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. O único modo de fazê-la continuar é marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
-## Verificação do envio correto dos eventos{#section_rqz_11t_dgb}
+## Verifique se os eventos foram enviados corretamente{#checking-that-events-are-properly-sent}
 
 O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes usando ferramentas como o Postman.
 
@@ -49,7 +49,7 @@ Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi
 
 Eventos não são levados diretamente da origem ao jornada. Na verdade, as jornadas dependem das APIs de assimilação de streaming da Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, é possível consultar [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;} para solução de problemas de APIs de assimilação de streaming.
 
-## Verificação da entrada de pessoas na jornada{#section_x4v_zzs_dgb}
+## Verificar se as pessoas entram na jornada{#checking-if-people-enter-the-journey}
 
 O relatório de jornada mede a entrada das pessoas em uma jornada em tempo real.
 
@@ -69,7 +69,7 @@ Veja alguns itens que o administrador deve verificar:
    Content-type - application/json
    ```
 
-## Verificação de como as pessoas navegam pela jornada{#section_l5y_yzs_dgb}
+## Verifique como as pessoas navegam pela jornada{#checking-how-people-navigate-through-the-journey}
 
 O relatório de jornada mede o progresso das pessoas físicas dentro de uma jornada. É fácil identificar onde e por que uma pessoa foi parada.
 
@@ -78,7 +78,7 @@ Veja algumas coisas que devem ser verificadas:
 * A interrupção se deve a uma condição que exclui a pessoa? Por exemplo, a condição é &quot;gênero = homem&quot; e a pessoa é uma mulher. Essa verificação pode ser feita por um usuário empresarial se a condição não for muito complexa.
 * A interrupção se deve a uma chamada a uma fonte de dados que não está respondendo? Quando a jornada está em teste, essas informações podem ser vistas nos registros do modo de teste. Quando a jornada é em tempo real, um administrador pode testar chamadas diretas para a fonte de dados e verificar a resposta recebida. Um administrador também pode duplicar a jornada e testá-la.
 
-## Verificação de mensagens enviadas com êxito{#section_qb1_yzs_dgb}
+## Verifique se as mensagens foram enviadas com êxito{#checking-that-messages-are-sent-successfully}
 
 Se as pessoas físicas continuarem percorrendo o caminho certo na jornada, mas não receberem as mensagens esperadas, você pode verificar se:
 

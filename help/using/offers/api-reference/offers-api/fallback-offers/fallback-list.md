@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 5%
 
 ---
 
-# Listar ofertas substitutas
+# Listar ofertas substitutas {#list-fallback-offers}
 
 Uma oferta de fallback é enviada aos clientes se eles não estiverem qualificados para outras ofertas. As etapas para criar uma oferta de fallback consistem em criar uma ou várias representações, como ao criar uma oferta.
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Uso de parâmetros de consulta
+## Uso de parâmetros de consulta {#using-query-parameters}
 
 Você pode usar parâmetros de consulta para página e filtrar resultados ao listar recursos.
 
-### Paginação
+### Paginação {#paging}
 
 Os parâmetros de consulta mais comuns para paginação incluem:
 

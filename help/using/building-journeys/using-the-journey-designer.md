@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: e9da4ec95a82d53e6fcf2cb99fb6215b0c325f08
+source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 2%
 
 ---
 
-# Projetar a jornada
+# Projetar a jornada {#design-your-journey}
 
 A interface de jornada permite arrastar e soltar facilmente as atividades da paleta na tela. Você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível. Cada atividade tem uma função e um lugar específicos no processo. As atividades são sequenciadas. Quando uma atividade é concluída, o fluxo continua e processa a próxima atividade e assim por diante.
 

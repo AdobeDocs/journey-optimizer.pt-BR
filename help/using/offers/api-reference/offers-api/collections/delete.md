@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 8%
 
 ---
 
-# Excluir uma coleção
+# Excluir uma coleção {#delete-collection}
 
 Ocasionalmente, pode ser necessário remover (DELETE) uma coleção. Somente as coleções criadas no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando o $id da coleção que você deseja excluir.
 

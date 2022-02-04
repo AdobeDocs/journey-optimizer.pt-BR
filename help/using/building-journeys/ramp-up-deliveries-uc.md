@@ -5,19 +5,19 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 980aedcd0fb4dba161dc0041a77e0f8d06d6fe68
+exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 3%
 
 ---
 
-
-# Caso de uso: aumentar seus deliveries
+# Caso de uso: aumentar seus deliveries{#use-case-ramp-up-your-deliveries}
 
 Se você mudou recentemente para outro provedor de serviços de email, endereço IP ou domínio de email ou subdomínio, é necessário estabelecer sua reputação como remetente. Caso contrário, seus deliveries poderão ser bloqueados ou movidos para a pasta de spam da caixa de correio dos recipients. Saiba como aumentar sua reputação de email com o aquecimento de IP no [Guia de práticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target=&quot;_blank&quot;}.
 
-Para aquecer o IP, você pode aumentar gradualmente o número de deliveries. Leia mais sobre [otimização da capacidade de entrega no Journey Optimizer](../deliverability.md).
+Para aquecer o IP, você pode aumentar gradualmente o número de deliveries. Leia mais sobre [otimização da capacidade de entrega no Journey Optimizer](../messages/deliverability.md).
 
 A finalidade desse caso de uso é criar uma jornada para aumentar seus deliveries de email. Para configurar essa jornada, siga estas etapas:
 
@@ -44,8 +44,3 @@ A finalidade desse caso de uso é criar uma jornada para aumentar seus deliverie
 1. Complete a jornada com as atividades de sua escolha.
 
 Após o aquecimento do IP, você pode remover essa condição.
-
-
-
-
-

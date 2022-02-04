@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 36c9b672e9e183cd0aac58582ddd54ccdebd84f7
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 1%
@@ -41,7 +41,7 @@ O email **[!UICONTROL Global report]** O é dividido em diferentes widgets detal
 
 * **[!UICONTROL Spam Complaint Rate]**: Porcentagem de emails que foram marcados como spam por recipients em comparação às mensagens entregues. Para obter mais informações sobre reclamações, consulte o [Guia de práticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
-* **[!UICONTROL Unsubscribe Rate]**: Porcentagem de cancelamentos de subscrições exclusivas em comparação ao número de mensagens entregues. Esse indicador não depende do número de cliques no link de unsubscription, mas se baseia no número de unsubscriptions iniciadas pelos recipients. Saiba mais sobre unsubscriptions nesta seção [página](../consent.md).
+* **[!UICONTROL Unsubscribe Rate]**: Porcentagem de cancelamentos de subscrições exclusivas em comparação ao número de mensagens entregues. Esse indicador não depende do número de cliques no link de unsubscription, mas se baseia no número de unsubscriptions iniciadas pelos recipients. Saiba mais sobre unsubscriptions nesta seção [página](../messages/consent.md).
 
 O **[!UICONTROL Email - Tracking statistics]** contém os dados disponíveis para a atividade do recipient para o delivery:
 
@@ -75,7 +75,7 @@ O **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** os widget
 
 * **[!UICONTROL Ignored]**: O número total de temporários, como ausentes do escritório ou um erro técnico, por exemplo, se o tipo de remetente for postmaster.
 
-Para obter mais informações sobre devoluções, consulte [Lista de supressão](../suppression-list.md) página.
+Para obter mais informações sobre devoluções, consulte [Lista de supressão](../messages/suppression-list.md) página.
 
 O **[!UICONTROL Error Reasons]** gráfico e tabela permitem ver qual erro ocorreu durante o delivery.
 
@@ -122,4 +122,4 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 >
 >Os perfis com **[!UICONTROL Suppressed]** ou **[!UICONTROL Not allowed]** são excluídos durante o processo de envio da mensagem. Portanto, enquanto a variável **Relatórios de Jornada** mostrará esses perfis como tendo sido movidos pela jornada ([Ler segmento](../building-journeys/read-segment.md) e [Mensagem](../building-journeys/journeys-message.md) atividades), **Relatórios de email** não os incluirá no **[!UICONTROL Sent]** métricas como são filtradas antes do envio do email.
 >
->Saiba mais sobre o [Lista de supressão](../suppression-list.md) e [Lista de permissões](../allow-list.md). Para descobrir o motivo de todos os casos de exclusão, é possível usar a variável [Serviço de query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>Saiba mais sobre o [Lista de supressão](../messages/suppression-list.md) e [Lista de permissões](../messages/allow-list.md). Para descobrir o motivo de todos os casos de exclusão, é possível usar a variável [Serviço de query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.

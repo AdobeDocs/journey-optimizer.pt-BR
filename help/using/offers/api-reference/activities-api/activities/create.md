@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 0c0d241008318fa5d1c63d99f00bb434f6645d22
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 12%
 
 ---
 
-# Criar uma decisão
+# Criar uma decisão {#create-decision}
 
 Você pode criar uma decisão (anteriormente conhecida como atividade de oferta) fazendo uma solicitação de POST para a [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
 
-## Aceitar e digitar cabeçalhos de tipo de conteúdo
+## Aceitar e digitar cabeçalhos de tipo de conteúdo {#accept-and-content-type-headers}
 
 A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -22,13 +22,13 @@ Os campos de evento Step são organizados por categoria.
 * Campos de perfil
 * Campos de evento de serviço
 
-## debugInfo
+## debugInfo {#debuginfo-field}
 
 | Nome do campo | Tipo | Descrição |
 |---|---|------------|
 | requestId | String | A ID de solicitação usada pelo Journey Orchestration para rastrear o fluxo de uma solicitação. |
 
-## jornada
+## jornada {#journey-field}
 
 Esse grupo de campos é usado no schema de jornada (em relação a journeyStepEvent). Ele contém os seguintes campos:
 
@@ -40,7 +40,7 @@ Esse grupo de campos é usado no schema de jornada (em relação a journeyStepEv
 | descrição | String | Descrição da jornada |
 | version | String | versão, representada como `major`.`minor` |
 
-## perfil
+## perfil {#profile-field}
 
 Esse grupo de campos é específico para journeyStepEvent: esse evento está relacionado ao jornada e não tem o identityMap, descrevendo a identidade do perfil, se houver.
 
@@ -51,7 +51,7 @@ Para journeyStepEvent, também precisamos adicionar campos relacionados à ident
 | ID | String | O identificador de perfil identifica o perfil enviado/usado em uma jornada. Por exemplo: foo@adobe.com. |
 | namespace | String | Este campo descreve o Namespace referenciado pelo Perfil usado na Jornada. Por exemplo: Email, ECID |
 
-## serviceEvents
+## serviceEvents {#servicevents-field}
 
 Esse mixin contém todos os campos correspondentes a um trabalho de exportação de perfil.
 
@@ -66,6 +66,6 @@ Esse mixin contém todos os campos correspondentes a um trabalho de exportação
 | eventType | String | O tipo de evento que indica se é um evento de erro do evento de informações: Informações, Erro |
 | eventCode | String | O código de erro que indica o motivo para eventType correspondente |
 
-## stepEvents
+## stepEvents {#stepevents-field}
 
 Esta categoria contém os campos de evento da etapa original. Consulte esta [seção](../reports/sharing-legacy-fields.md).

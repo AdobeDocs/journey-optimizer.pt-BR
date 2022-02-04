@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 701b8a46b5f22c31bee479ddfb63f8e399cee4a1
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 10%
 
 ---
 
-# Criar uma oferta personalizada
+# Criar uma oferta personalizada {#create-personalized-offer}
 
 Uma oferta personalizada é uma mensagem de marketing personalizável com base em regras e restrições de elegibilidade.
 
 Você pode criar uma oferta personalizada fazendo uma solicitação de POST para a [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
 
-## Aceitar e digitar cabeçalhos de tipo de conteúdo
+## Aceitar e digitar cabeçalhos de tipo de conteúdo {#accept-and-content-type-headers}
 
 A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 

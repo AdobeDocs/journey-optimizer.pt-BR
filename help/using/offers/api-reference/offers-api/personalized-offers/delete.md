@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 7%
 
 ---
 
-# Excluir uma oferta personalizada
+# Excluir uma oferta personalizada {#delete-personalized-offer}
 
 Ocasionalmente, pode ser necessário remover (DELETE) uma oferta personalizada. Somente ofertas personalizadas criadas no contêiner de locatários podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando o $id da oferta personalizada que você deseja excluir.
 

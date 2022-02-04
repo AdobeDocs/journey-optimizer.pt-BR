@@ -1,29 +1,19 @@
 ---
 title: Criar pools de IP
 description: '"Saiba como gerenciar ip-pools"'
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 7d7c1b72530d99b8cceb1067f2576ad66c0052a6
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
 
 ---
 
-# Criar pools de IP
+# Criar pools de IP {#create-ip-pools}
 
 ## Sobre pools de IP {#about-ip-pools}
 
@@ -85,8 +75,6 @@ A atualização entra em vigor imediatamente ou de forma assíncrona, dependendo
 
 * Se o pool IP for **not** selecionada em uma predefinição de mensagem, a atualização é instantânea (**[!UICONTROL Success]** status).
 * Se o pool IP **é** selecionada em uma predefinição de mensagem, a atualização pode demorar de 7 a 10 dias úteis (**[!UICONTROL Processing]** status).
-
-<!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
 
 Para verificar o status de atualização do pool de IP, clique no botão **[!UICONTROL More actions]** e selecione **[!UICONTROL Recent updates]**.
 

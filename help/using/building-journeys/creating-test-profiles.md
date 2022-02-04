@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # Criar perfis de teste {#create-test-profiles}
 
-Perfis de teste são necessários ao usar o modo de teste Para saber como usar o [modo de teste](../building-journeys/testing-the-journey.md) em uma jornada, e para [visualizar e testar suas mensagens](../preview.md).
+Perfis de teste são necessários ao usar o modo de teste Para saber como usar o [modo de teste](../building-journeys/testing-the-journey.md) em uma jornada, e para [visualizar e testar suas mensagens](../messages/preview.md).
 
 Os métodos disponíveis para criar perfis de teste são detalhados abaixo:
 
@@ -88,7 +88,7 @@ Clique no botão **[!UICONTROL Begin]** para iniciar o caso de uso.
 
 As seguintes informações são obrigatórias:
 
-1. **Namespace de identidade**: O [namespace de identidade](../get-started-identity.md) usado para identificar os perfis de teste de maneira exclusiva. Por exemplo, se o email for usado para identificar os perfis de teste, o namespace de identidade **Email** deve ser selecionada. Se o identificador exclusivo for o número de telefone, então o namespace de identidade **Telefone** deve ser selecionada.
+1. **Namespace de identidade**: O [namespace de identidade](../start/get-started-identity.md) usado para identificar os perfis de teste de maneira exclusiva. Por exemplo, se o email for usado para identificar os perfis de teste, o namespace de identidade **Email** deve ser selecionada. Se o identificador exclusivo for o número de telefone, então o namespace de identidade **Telefone** deve ser selecionada.
 
 2. **Arquivo CSV**: Um arquivo separado por vírgulas contendo a lista de perfis de teste a serem criados. O caso de uso espera um formato predefinido para o arquivo CSV que contenha a lista de perfis de teste a serem criados. Cada linha no arquivo deve incluir os seguintes campos na ordem correta, da seguinte maneira:
 

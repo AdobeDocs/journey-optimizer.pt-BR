@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 9%
 
 ---
 
-# Atualizar uma inserção
+# Atualizar uma inserção {#update-placement}
 
 Você pode modificar ou atualizar uma disposição em seu contêiner fazendo uma solicitação de PATCH para a [!DNL Offer Library] API.
 
 Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação do patch JSON](http://jsonpatch.com/).
 
-## Aceitar e digitar cabeçalhos de tipo de conteúdo
+## Aceitar e digitar cabeçalhos de tipo de conteúdo {#accept-and-content-type-headers}
 
 A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 

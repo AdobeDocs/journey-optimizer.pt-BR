@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 4%
@@ -21,7 +21,7 @@ ht-degree: 4%
 >
 >O uso de landing pages está disponível no momento somente para usuários selecionados. Se quiser aproveitar esse recurso, entre em contato com o executivo da sua conta Adobe.
 
-## Acessar landing pages
+## Acessar landing pages {#access-landing-pages}
 
 Para acessar a lista de landing pages, selecione **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** no menu esquerdo.
 
@@ -31,7 +31,7 @@ O **[!UICONTROL Landing Pages]** exibe todos os itens criados. Você pode filtr�
 
 ![](../assets/lp_access-list-filter.png)
 
-## Criar uma página de aterrissagem
+## Criar uma página de aterrissagem {#create-landing-page}
 
 As etapas para criar uma landing page são as seguintes.
 
@@ -61,7 +61,7 @@ As etapas para criar uma landing page são as seguintes.
 
    ![](../assets/lp_add-subpage.png)
 
-Depois de configurar e projetar o [página primária](#configure-primary-page)e o [subpáginas](#configure-subpages) se houver, você poderá [teste](#test) e [publicar](#publish) sua landing page.
+Depois de configurar e projetar o [página primária](#configure-primary-page)e o [subpáginas](#configure-subpages) se houver, você poderá [teste](#test-landing-page) e [publicar](#publish-landing-page) sua landing page.
 
 ## Configurar a página primária {#configure-primary-page}
 
@@ -121,7 +121,7 @@ Para definir as configurações de subpágina, siga as etapas abaixo.
 
 ![](../assets/lp_subpage-settings.png)
 
-## Testar a landing page {#test}
+## Testar a landing page {#test-landing-page}
 
 Depois que as configurações e o conteúdo da landing page forem definidos, você poderá usar perfis de teste para visualizá-los. Se você inseriu [conteúdo personalizado](../personalization/personalize.md), você poderá verificar como esse conteúdo é exibido na landing page, aproveitando os dados do perfil de teste.
 
@@ -141,7 +141,7 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 
    ![](../assets/lp_test-profiles.png)
 
-   As etapas para selecionar perfis de teste são as mesmas que ao testar uma mensagem. Eles são detalhados [nesta seção](../preview.md#select-test-profiles).
+   As etapas para selecionar perfis de teste são as mesmas que ao testar uma mensagem. Eles são detalhados [nesta seção](../messages/preview.md#select-test-profiles).
 
 1. Selecione o **[!UICONTROL Preview]** e clique em **[!UICONTROL Open preview]** para testar sua landing page.
 
@@ -153,7 +153,7 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 
 1. Selecione outros perfis de teste para visualizar a renderização de cada variante da landing page.
 
-## Verificar alertas {#alerts}
+## Verificar alertas {#check-alerts}
 
 Ao criar a landing page, os alertas avisam quando você precisa tomar ações importantes antes de publicar.
 
@@ -192,7 +192,7 @@ Dois tipos de alertas podem acontecer:
 > To be able to publish your message, you need to resolve all **error** alerts.
 -->
 
-## Publicar a landing page {#publish}
+## Publicar a landing page {#publish-landing-page}
 
 Quando a landing page estiver pronta, você poderá publicá-la para disponibilizá-la para uso em uma mensagem.
 
@@ -200,11 +200,11 @@ Quando a landing page estiver pronta, você poderá publicá-la para disponibili
 
 >[!CAUTION]
 >
->Antes de publicar, verifique e resolva os alertas. [Saiba mais](#alerts)
+>Antes de publicar, verifique e resolva os alertas. [Saiba mais](#check-alerts)
 
 Depois que a landing page é publicada, ela é adicionada à lista de landing page com a variável **[!UICONTROL Published]** status.
 
-Agora ele está ativo e pronto para ser usado em um [!DNL Journey Optimizer] [message](../create-message.md) que será enviado por meio de um [jornada](../building-journeys/journey.md).
+Agora ele está ativo e pronto para ser usado em um [!DNL Journey Optimizer] [message](../messages/create-message.md) que será enviado por meio de um [jornada](../building-journeys/journey.md).
 
 >[!NOTE]
 >

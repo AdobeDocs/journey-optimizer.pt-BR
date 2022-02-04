@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
-# Funções {#concept_p1r_qj5_dgb}
+# Funções {#functions}
 
 Uma função pode ter assinaturas diferentes (um conjunto diferente de parâmetros ordenados). Uma assinatura de função pode ter expressões 0-N como parâmetros ordenados.
 
@@ -45,20 +45,20 @@ Esta é a lista de funções suportadas.
 | Conversão | [toDuration](../functions/functiontoduration.md) |
 | Conversão | [toInteger](../functions/functiontointeger.md) |
 | Conversão | [toString](../functions/functiontostring.md) |
-| Data  | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
-| Data  | [inLastDays](../functions/functioninlastdays.md) |
-| Data  | [inLastHours](../functions/functioninlasthours.md) |
-| Data  | [inLastMonths](../functions/functioninlastmonths.md) |
-| Data  | [inLastYears](../functions/functioninlastyears.md) |
-| Data  | [inNextDays](../functions/functioninnextdays.md) |
-| Data  | [inNextHours](../functions/functioninnexthours.md) |
-| Data  | [inNextMonths](../functions/functioninnextmonths.md) |
-| Data  | [inNextYears](../functions/functioninnextyears.md) |
-| Data  | [now](../functions/functionnow.md) |
-| Data  | [nowWithDelta](../functions/functionnowwithdelta.md) |
-| Data  | [setHours](../functions/functionsethours.md) |
-| Data  | [setDays](../functions/functionsetdays.md) |
-| Data  | [updateTimeZone](../functions/functionupdatetimezone.md) |
+| Data | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| Data | [inLastDays](../functions/functioninlastdays.md) |
+| Data | [inLastHours](../functions/functioninlasthours.md) |
+| Data | [inLastMonths](../functions/functioninlastmonths.md) |
+| Data | [inLastYears](../functions/functioninlastyears.md) |
+| Data | [inNextDays](../functions/functioninnextdays.md) |
+| Data | [inNextHours](../functions/functioninnexthours.md) |
+| Data | [inNextMonths](../functions/functioninnextmonths.md) |
+| Data | [inNextYears](../functions/functioninnextyears.md) |
+| Data | [now](../functions/functionnow.md) |
+| Data | [nowWithDelta](../functions/functionnowwithdelta.md) |
+| Data | [setHours](../functions/functionsethours.md) |
+| Data | [setDays](../functions/functionsetdays.md) |
+| Data | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
 | Lista | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | Lista | [filtro](../functions/functionfilter.md) |

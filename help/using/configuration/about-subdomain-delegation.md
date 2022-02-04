@@ -1,23 +1,25 @@
 ---
-title: Delegar subdomínios
+title: Delegação de subdomínio em [!DNL Journey Optimizer]
 description: Saiba como delegar subdomínios
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: e5ebf038565329fdaa7b01a12042c2c4bba79f37
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 36%
+source-wordcount: '657'
+ht-degree: 35%
 
 ---
 
 # Delegação de subdomínio em [!DNL Journey Optimizer] {#subdomain-delegation}
 
 A criação de um subdomínio para campanhas de email permite que as marcas isolem vários tipos de tráfego (marketing vs. corporativo, por exemplo) em pools de IP específicos e com domínios específicos, o que agilizará o processo de aquecimento de IP e melhorará a capacidade de entrega em geral. Se você compartilhar um domínio e ele for bloqueado ou adicionado à lista de bloqueios, isso poderá afetar seu delivery de email corporativo. No entanto, problemas ou blocos de reputação em um domínio específico para suas comunicações de marketing por email afetarão apenas esse fluxo de email. Usar seu domínio principal como remetente ou endereço &quot;De&quot; para vários fluxos de email também pode quebrar a autenticação de email, fazendo com que suas mensagens sejam bloqueadas ou colocadas na pasta de spam.
+
+>[!NOTE]
+>
+>Você não pode usar o mesmo domínio de envio para enviar mensagens de [!DNL Adobe Journey Optimizer] e de outro produto, como [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage].
 
 ## Por que configurar subdomínios? {#why-setting-up-subdomains}
 

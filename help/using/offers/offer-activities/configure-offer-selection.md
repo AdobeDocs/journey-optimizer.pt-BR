@@ -1,19 +1,19 @@
 ---
 title: Configurar seleção de ofertas em decisões
-description: Saiba como gerenciar a seleção de ofertas em decisões.
+description: Saiba como gerenciar a seleção de ofertas em decisões
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: caaf3942853adb4e5eb16a3dd303ca1f088ce23b
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 5%
 
 ---
 
-# Configurar seleção de ofertas em decisões {#offers-selection-in-activities}
+# Configurar seleção de ofertas em decisões {#offers-selection-in-decisions}
 
 Se várias ofertas estiverem qualificadas para uma determinada disposição, você poderá escolher o método que selecionará a melhor oferta para cada perfil ao configurar uma decisão (anteriormente conhecida como atividade de oferta). Você pode classificar ofertas por:
 * Prioridade da oferta
@@ -22,7 +22,7 @@ Se várias ofertas estiverem qualificadas para uma determinada disposição, voc
 
 ![](../../assets/offer-rank-by.png)
 
-## Prioridade da oferta {#about-offers-priority}
+## Prioridade da oferta {#offer-priority}
 
 Por padrão, quando várias ofertas estão qualificadas para uma determinada disposição em uma decisão (anteriormente conhecida como atividade de oferta), as ofertas com a maior **priority** serão entregues aos clientes primeiro.
 
@@ -86,6 +86,3 @@ Depois que uma estratégia de classificação tiver sido criada, é possível at
 
 Se várias ofertas forem elegíveis, o sistema de modelo treinado determinará qual oferta deve ser apresentada primeiro para uma determinada disposição.
 
-<!--Result? Describe the impact for the user, i.e. what's the effect of selecting this ranking strategy for this collection/placement.-->
-
-<!--Click **[!UICONTROL Next]** to confirm and save your decision.-->

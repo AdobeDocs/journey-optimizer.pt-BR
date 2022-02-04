@@ -1,22 +1,12 @@
 ---
 title: Tentativas
 description: Saiba como as tentativas são executadas antes de enviar um endereço para a lista de supressão
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -29,7 +19,7 @@ Quando uma mensagem de email falha devido a um evento temporário **Rejeição s
 
 >[!NOTE]
 >
->Saiba mais sobre os tipos de erros no [Tipos de falha de delivery](../suppression-list.md#delivery-failures) seção.
+>Saiba mais sobre os tipos de erros no [Tipos de falha de delivery](../messages/suppression-list.md#delivery-failures) seção.
 
 Na configuração padrão, o limite é definido como 5 erros.
 
@@ -55,11 +45,7 @@ Caso o valor padrão de 5 não atenda às suas necessidades, você poderá modif
 
    >[!CAUTION]
    >
-   >Qualquer valor maior que 10 pode causar problemas de reputação de entrega, bem como limitação de IP ou  de incluir na lista de bloqueios por ISPs. [Saiba mais sobre a capacidade de entrega](../deliverability.md)
-
-<!--![](../assets/retries-edition.png)-->
-
-<!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
+   >Qualquer valor maior que 10 pode causar problemas de reputação de entrega, bem como limitação de IP ou  de incluir na lista de bloqueios por ISPs. [Saiba mais sobre a capacidade de entrega](../messages/deliverability.md)
 
 ## Período de repetição {#retry-duration}
 
@@ -77,6 +63,3 @@ Por exemplo, você pode definir o período de nova tentativa como 24 horas para 
 
 Saiba como ajustar os parâmetros de nova tentativa de email ao criar uma predefinição de mensagem em [esta seção](message-presets.md#create-message-preset).
 
-<!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
-
-<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

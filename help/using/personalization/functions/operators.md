@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 11%
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # Operadores {#operators}
 
-## Funções booleanas
+## Funções booleanas {#boolean-functions}
 
 As funções booleanas são usadas para executar lógica booleana em elementos diferentes.
 
@@ -80,7 +80,7 @@ not (homeAddress.countryISO = "CA")
 
 
 
-## Funções de comparação
+## Funções de comparação {#comparison-functions}
 
 As funções de comparação são usadas para comparar diferentes expressões e valores, retornando verdadeiro ou falso de acordo.
 

@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: c3997f572092ca8de7565b397f82dfa3b084bbd7
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
-# Atividade de condição{#section_e2n_pft_dgb}
+# Atividade de condição{#condition-activity}
 
 Esses tipos de condições estão disponíveis:
 
@@ -99,7 +99,7 @@ Isso permite definir um fluxo diferente com base na data. Por exemplo, se a pess
 
 ## Tampa do perfil {#profile_cap}
 
-Use esse tipo de condição para definir um número máximo de perfis para um caminho de jornada. Quando esse limite é atingido, os perfis de entrada assumem um caminho alternativo. Isso garante que suas jornadas nunca excedam o limite definido.
+Use esse tipo de condição para definir um número máximo de perfis para um caminho de jornada. Quando esse limite é atingido, os perfis que entram pegam um caminho alternativo. Isso garante que suas jornadas nunca excedam o limite definido.
 
 Você pode usar esse tipo de condição para aumentar o volume de seus deliveries. Veja isso [caso de uso](ramp-up-deliveries-uc.md).
 

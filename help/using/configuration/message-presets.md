@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Com [!DNL Journey Optimizer], é possível configurar predefinições de mensage
 >
 > * A configuração de predefinições de mensagens é restrita aos Administradores do Jornada. [Saiba mais](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * Você deve executar a configuração de email e [Configuração por push](../push-configuration.md) etapas antes de criar predefinições de mensagem.
+> * Você deve executar a configuração de email e [Configuração por push](../messages/push-configuration.md) etapas antes de criar predefinições de mensagem.
 
 
 Após configurar as predefinições de mensagem, é possível selecioná-las ao criar mensagens do **[!UICONTROL Presets]** lista.
@@ -62,23 +62,18 @@ Para criar uma predefinição de mensagem, siga estas etapas:
       >
       >Os endereços de email devem usar o [subdomínio delegado](about-subdomain-delegation.md).
 
-      <!--CAUTION: Except for the **Reply to (forward email)** field-->
-
       * **[!UICONTROL Sender name]**: O nome do remetente, como o nome da sua marca.
 
       * **[!UICONTROL Sender email]**: O endereço de email que deseja usar para suas comunicações. Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você pode usar *contact@marketing.luma.com*.
 
       * **[!UICONTROL Reply to (name)]**: O nome que será usado quando o recipient clicar no **Responder** no software cliente de email.
 
-      * **[!UICONTROL Reply to (email)]**: O endereço de email que será usado quando o recipient clicar no link **Responder** no software cliente de email. <!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->Você deve usar um endereço definido no subdomínio delegado (por exemplo, *reply@marketing.luma.com*), caso contrário, os emails serão descartados.
+      * **[!UICONTROL Reply to (email)]**: O endereço de email que será usado quando o recipient clicar no link **Responder** no software cliente de email. Você deve usar um endereço definido no subdomínio delegado (por exemplo, *reply@marketing.luma.com*), caso contrário, os emails serão descartados.
 
       * **[!UICONTROL Error email]**: Todos os erros gerados pelos ISPs após alguns dias de envio de email (rejeições assíncronas) são recebidos neste endereço.
-
-      <!--**[!UICONTROL Reply to (forward email)]**: All emails received by [!DNL Journey Optimizer] for the delegated subdomain will be forwarded to this email address. You can specify any address, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.-->
-
       >[!NOTE]
       >
-      >A partir da versão de outubro de 2021, não é mais possível definir um endereço de email de encaminhamento do [!DNL Journey Optimizer] interface do usuário. Se desejar que todos os emails sejam recebidos por [!DNL Journey Optimizer] para que o subdomínio delegado seja encaminhado para um endereço de email específico, entre em contato com o [Equipe de suporte ao Atendimento ao cliente do Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}. <!--move to Deprecated features section when created?-->
+      >A partir da versão de outubro de 2021, não é mais possível definir um endereço de email de encaminhamento do [!DNL Journey Optimizer] interface do usuário. Se desejar que todos os emails sejam recebidos por [!DNL Journey Optimizer] para que o subdomínio delegado seja encaminhado para um endereço de email específico, entre em contato com o [Equipe de suporte ao Atendimento ao cliente do Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
       ![](../assets/preset-header.png)
 
@@ -104,7 +99,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    * Selecione os aplicativos móveis a serem usados para cada plataforma.
 
-      Para obter mais informações sobre como configurar o ambiente para enviar notificações por push, consulte [esta seção](../push-gs.md).
+      Para obter mais informações sobre como configurar o ambiente para enviar notificações por push, consulte [esta seção](../messages/push-gs.md).
 
 <!--
 1. Configure the **SMS** settings.
@@ -143,8 +138,6 @@ Para criar uma predefinição de mensagem, siga estas etapas:
    >Se as verificações não forem bem-sucedidas, saiba mais sobre os possíveis motivos de falha em [esta seção](#monitor-message-presets).
 
 1. Depois que as verificações são bem-sucedidas, a predefinição de mensagem recebe a variável **[!UICONTROL Active]** status. Ele está pronto para ser usado para entregar mensagens.
-
-   <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
@@ -220,7 +213,7 @@ Para predefinições de mensagens com a variável **[!UICONTROL Active]** , voc�
 
    ![](../assets/preset-view-update-details.png)
 
-No **[!UICONTROL Recent update]** pode ver informações como o status da atualização,<!--the approximate remaining time before completion (if validation is in progress)--> e a lista de alterações solicitadas.
+No **[!UICONTROL Recent update]** você pode ver informações como o status da atualização e a lista de alterações solicitadas.
 
 ![](../assets/preset-recent-update-screen.png)
 
@@ -256,22 +249,15 @@ Se você editar uma predefinição que já estava ativa:
 >
 >Não é possível modificar uma predefinição de mensagem enquanto a atualização estiver em andamento. Ainda é possível clicar no nome, mas todos os campos estão esmaecidos. As alterações não serão refletidas até que a atualização seja bem-sucedida.
 
-### Sucesso
+### Sucesso {#success}
 
 Depois que o processo de validação for bem-sucedido, a nova versão da predefinição será usada automaticamente em todas as mensagens usando essa predefinição. No entanto, pode ser necessário aguardar:
 * alguns minutos antes de ser consumido pelas mensagens unitárias,
 * até o próximo lote para que a predefinição seja efetiva nas mensagens em lote.
 
-<!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
-
-### Falha
+### Falha {#failed}
 
 Se o processo de validação falhar, a versão mais antiga da predefinição ainda será usada.
-
-<!--The possible update error types are as follows:
-* **Authorization error**: the bearer token is invalid or not authorized.
-* **Illegal modification**: an edit was performed on one or more non-allowed fields.
-* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
 Saiba mais sobre os possíveis motivos de falha em [esta seção](#monitor-message-presets).
 
@@ -300,18 +286,6 @@ Para criar uma **[!UICONTROL Active]** não disponível para criar novas mensage
 Não é possível editar diretamente uma predefinição de mensagem desativada. No entanto, você pode duplicá-lo e editar a cópia para criar uma nova versão que será usada para criar novas mensagens. Também é possível ativá-la novamente e aguardar até que a atualização seja bem-sucedida na edição.
 
 ![](../assets/preset-activate.png)
-
-<!--1. Access the message presets list.
-
-1. Deactivate the message preset that you want to edit.
-
-1. Duplicate the deactivated message preset. A copy with the **[!UICONTROL Draft]** status is automatically added to the list.
-
-    ![](../assets/preset-duplicated.png)
-
-1. Open the duplicated message preset, modify it according to your needs, then submit your changes. The message preset will go through the same validation cycle as during the [creation step](#create-message-preset).
-
-1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.-->
 
 ## Vídeo tutorial{#video-presets}
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 7%
@@ -19,13 +19,13 @@ Esse grupo de campos será compartilhado por journeyStepEvent e journeyStepProfi
 
 Durante o processamento de uma etapa, podemos ter N busca de dados em grupos de campos.
 
-## fetchTotalTime
+## fetchTotalTime {#fetchtotaltime-field}
 
 Tempo total gasto na busca de dados em milis durante o processamento da etapa.
 
 Tipo: long
 
-## fetchTypeInError
+## fetchTypeInError {#fetchtypeinerror-field}
 
 Define se a busca com erro está no Adobe Experience Platform ou em uma fonte de dados personalizada.
 
@@ -35,7 +35,7 @@ Valores:
 * aep
 * custom
 
-## fetchError
+## fetchError {#fetcherror-field}
 
 Tipo de erro que ocorre quando a busca de dados é processada.
 
@@ -47,13 +47,13 @@ Valores:
 * tempo
 * error
 
-## fetchErrorCode
+## fetchErrorCode {#fetcherrorcode-field}
 
 Código para erro de busca. Apresentar se o erro tiver um código, como um HTTP. Por exemplo, se actionExecError for http, o código 404 representa o erro HTTP 404.
 
 Tipo: sequência de caracteres
 
-## fetchOriginError
+## fetchOriginError {#fetchoriginerror-field}
 
 Um tempo limite pode ocorrer, em dois casos:
 
@@ -73,37 +73,37 @@ Por exemplo, os dados estão sendo buscados no Serviço de perfil unificado e um
 
 Tipo: sequência de caracteres
 
-## fetchOriginErrorCode
+## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
 O código de erro fornecido pelo sistema [!DNL Journey Orchestration] O está consultando o . Por exemplo, pode ser 404, 500 etc.
 
 Tipo: sequência de caracteres
 
-## fetchCount
+## fetchCount {#fetchcount-field}
 
 Quantas vezes os dados são buscados, independentemente do tipo de fonte.
 
 Tipo: long
 
-## fetchPlatformTotalTime
+## fetchPlatformTotalTime {#fetchplatformtotaltime-field}
 
 O tempo total necessário para buscar os dados do Adobe Experience Platform em millis. Observação: esse tempo é calculado a partir do momento em que o mecanismo envia o evento de enriquecimento ao serviço de enriquecimento e recebe a resposta.
 
 Tipo: long
 
-## fetchPlatformCount
+## fetchPlatformCount {#fetchplatformcount-field}
 
 Quantas vezes os dados são buscados no Adobe Experience Platform.
 
 Tipo: long
 
-## fetchCustomTotalTime
+## fetchCustomTotalTime {#fetchcustomtotaltime-field}
 
 Quantidade de tempo para buscar os dados personalizados em millis. Observação: esse período é calculado a partir do momento em que o mecanismo envia o evento de enriquecimento para o serviço de enriquecimento e recebe a resposta
 
 Tipo: long
 
-## fetchCustomCount
+## fetchCustomCount {#fetchcustomcount-field}
 
 Quantas vezes os dados personalizados são buscados em sistemas externos.
 

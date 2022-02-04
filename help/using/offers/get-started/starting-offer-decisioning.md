@@ -1,19 +1,19 @@
 ---
 title: Introdução ao Gerenciamento de decisão
-description: Introdução ao Gerenciamento de decisão. Saiba mais sobre a arquitetura, as ofertas e as decisões, bem como casos de uso comuns que podem ser executados.
+description: Introdução ao Gerenciamento de decisão. Saiba mais sobre a arquitetura, as ofertas e as decisões, bem como casos de uso comuns que podem ser executados
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 88%
 
 ---
 
-# Sobre o Gerenciamento de decisão {#about-offer-decision}
+# Sobre o Gerenciamento de decisão {#about-decision-management}
 
 Use o [!DNL Journey Optimizer] para fornecer a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa. Depois de projetado, direcione os públicos com ofertas personalizadas.
 
@@ -36,7 +36,7 @@ Os benefícios incluem:
 
 ➡️ [Assista a estes tutoriais em vídeo](#tutorial-videos) para saber mais sobre o Gerenciamento de decisão.
 
-## Sobre ofertas e decisões {#offers-offer-activities}
+## Sobre ofertas e decisões {#about-offers-and-decisions}
 
 Uma **Oferta** é composta de conteúdo, regras de elegibilidade e restrições que definem as condições em que é apresentada aos clientes.
 
@@ -48,7 +48,7 @@ Depois que a Biblioteca de ofertas foi enriquecida com ofertas, você pode integ
 
 As decisões são containers para suas ofertas que aproveitarão o Mecanismo do Offer Decisioning para escolher a melhor oferta a ser entregue, dependendo do target da entrega.
 
-## Casos de uso comuns
+## Casos de uso comuns {#common-use-cases}
 
 Os recursos e a integração do Gerenciamento de decisão com a Adobe Experience Platform permitem reunir vários casos de uso para ajudar você a aumentar o envolvimento e a conversão dos clientes.
 

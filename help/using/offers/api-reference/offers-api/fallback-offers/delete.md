@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 9%
 
 ---
 
-# Excluir uma oferta substituta
+# Excluir uma oferta substituta {#delete-fallback-offer}
 
 Ocasionalmente, pode ser necessário remover (DELETE) uma oferta de fallback. Somente as ofertas de fallback que você criar no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando o $id da oferta de fallback que você deseja excluir.
 

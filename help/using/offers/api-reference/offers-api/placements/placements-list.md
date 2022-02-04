@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 12%
 
 ---
 
-# Listar inserções
+# Listar inserções {#list-placements}
 
 As disposições são contêineres usados para mostrar suas ofertas. Uma disposição ajuda a garantir que o conteúdo de oferta correto seja exibido no local certo dentro da mensagem. Ao adicionar conteúdo a uma oferta, você será solicitado a selecionar uma disposição na qual o conteúdo possa ser exibido.
 
@@ -32,11 +32,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `SCHEMA_PLACEMENT}` | Define o schema associado às disposições. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `{QUERY_PARAMS}` | Parâmetros de consulta opcionais para filtrar os resultados por. | `limit=2` |
 
-## Uso de parâmetros de consulta
+## Uso de parâmetros de consulta {#using-query-parameters}
 
 Você pode usar parâmetros de consulta para página e filtrar resultados ao listar recursos.
 
-### Paginação
+### Paginação {#paging}
 
 Os parâmetros de consulta mais comuns para paginação incluem:
 

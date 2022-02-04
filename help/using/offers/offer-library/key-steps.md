@@ -1,19 +1,19 @@
 ---
 title: Etapas principais para criar uma oferta
-description: Descubra as principais etapas necessárias para criar uma oferta.
+description: Descubra as principais etapas necessárias para criar uma oferta
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 14%
 
 ---
 
-# Etapas principais para criar e gerenciar ofertas {#key-steps}
+# Etapas principais para criar e gerenciar ofertas {#key-steps-to-manage-offers}
 
 As principais etapas para criar, configurar e gerenciar ofertas, bem como usá-las em uma decisão, são apresentadas abaixo.
 
@@ -21,7 +21,7 @@ As principais etapas para criar, configurar e gerenciar ofertas, bem como usá-l
 
 Para obter um exemplo completo mostrando como configurar ofertas, usá-las em uma decisão e aproveitar essa decisão em um email, confira [esta página](../offers-e2e.md).
 
-## Criar componentes
+## Criar componentes {#create-components}
 
 Antes de começar a criar ofertas, você deve definir vários componentes que usará em suas ofertas.
 
@@ -41,7 +41,7 @@ Antes de começar a criar ofertas, você deve definir vários componentes que us
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../offer-library/create-ranking-formulas.md">Criar fórmulas de classificação</a></p></td>
 </table>
 
-## Criar e gerenciar ofertas
+## Criar e gerenciar ofertas {#create-and-manage-offers}
 
 1. **Criar ofertas** e configure o conteúdo e as propriedades.
 
@@ -56,7 +56,7 @@ Antes de começar a criar ofertas, você deve definir vários componentes que us
 <td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Criar coleções</a></p></td></tr>
 </table>
 
-## Criar e configurar decisões
+## Criar e configurar decisões {#create-and-configure-decisions}
 
 1. **Criar uma decisão** que combinará disposições com as ofertas personalizadas e as ofertas de fallback. Essa combinação será usada pelo mecanismo do Offer Decisioning para encontrar a melhor oferta para um perfil específico.
 

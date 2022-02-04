@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 11%
 
 ---
 
-# Fonte de dados da Adobe Experience Platform {#concept_zrb_nqt_52b}
+# Fonte de dados da Adobe Experience Platform {#adobe-experience-platform-data-source}
 
 A fonte de dados da Adobe Experience Platform define a conexão com o Serviço de perfil do cliente em tempo real. Essa fonte de dados é incorporada e pré-configurada. Não pode ser eliminado. Essa fonte de dados foi projetada para recuperar e usar dados do Serviço de perfil do cliente em tempo real (por exemplo, verifique se a pessoa que inseriu uma jornada é uma mulher). Ela permite usar os dados de Perfil e os dados de Eventos de experiência. Para obter mais informações sobre o Serviço de perfil do cliente em tempo real, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 

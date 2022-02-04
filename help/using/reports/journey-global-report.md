@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: aef6ac3f153e5d42f9557afef1e9f1b310d3fa12
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 1%
@@ -117,7 +117,7 @@ O **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** os widget
 
 * **[!UICONTROL Ignored]**: O número total de temporários, como Ausência temporária, ou um erro técnico, por exemplo, se o tipo de remetente for postmaster.
 
-Para obter mais informações sobre devoluções, consulte [Lista de supressão](../suppression-list.md) página.
+Para obter mais informações sobre devoluções, consulte [Lista de supressão](../messages/suppression-list.md) página.
 
 ![](../assets/global_report_16.png)
 

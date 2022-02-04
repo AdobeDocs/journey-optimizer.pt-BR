@@ -1,11 +1,12 @@
 ---
 title: Sintaxe de personalização
-description: Saiba como usar a sintaxe de personalização
+description: Saiba como usar a sintaxe de personalização.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 50e12a28ed9f94133a9810a460172d34ad3a4593
+exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 5%
@@ -28,7 +29,7 @@ em que:
 * `profile` é um namespace.
 * `person.name` é um token composto por atributos. A estrutura de atributos é definida em um Esquema XDM da Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
-## Regras gerais de sintaxe
+## Regras gerais de sintaxe {#general-rules}
 
 Os identificadores podem ser qualquer caractere unicode, exceto o seguinte:
 
@@ -75,7 +76,7 @@ Saiba como aproveitar os atributos de perfil nas condições em [esta seção](f
 >[!NOTE]
 >Para saber mais sobre o serviço de segmentação e segmentação, consulte [esta seção](../segment/about-segments.md).
 
-## Ofertas
+## Ofertas {#offers-syntax}
 
 Esse namespace permite fazer referência às decisões de ofertas existentes.
 Para fazer referência a uma oferta, você precisa declarar um caminho com as diferentes informações que definem uma oferta.
@@ -127,7 +128,7 @@ Blocos são expressões com abertura de bloco ({{# }}) e fechando ({{/}}).
 >
 >As funções de ajuda são detalhadas em [esta seção](functions/helpers.md).
 
-## Tipos literais
+## Tipos literais {#literal-types}
 
 [!DNL Adobe Journey Optimizer] O suporta os seguintes tipos literais:
 
@@ -146,7 +147,7 @@ Blocos são expressões com abertura de bloco ({{# }}) e fechando ({{/}}).
 
 O Journey Optimizer permite personalizar um ou vários URLs na mensagem, adicionando campos de personalização a eles. Para fazer isso:
 
-* Crie um link no seu conteúdo de email ou push. Para saber mais sobre a criação de links, consulte [esta página](../message-tracking.md#insert-links).
+* Crie um link no seu conteúdo de email ou push. Para saber mais sobre a criação de links, consulte [esta página](../messages/message-tracking.md#insert-links).
 * Clique no ícone de personalização. Este ícone está disponível para estes tipos específicos de links: **Link externo**, **Link de cancelamento de assinatura** e **Opção de rejeição**.
 
 ![](assets/perso-url.png)

@@ -1,18 +1,18 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Envie coleções dinamicamente usando ações personalizadas
+title: Envio dinâmico de coleções usando ações personalizadas
 description: Envio de uma mensagem usando o Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 4%
+source-wordcount: '426'
+ht-degree: 5%
 
 ---
 
 
-# Envie coleções dinamicamente usando ações personalizadas{#passing-collection}
+# Caso de uso: transmitir coleções dinamicamente usando ações personalizadas{#passing-collection}
 
 Você pode passar uma coleção em parâmetros de ação personalizados que serão preenchidos dinamicamente no tempo de execução. Há suporte para dois tipos de coleções:
 

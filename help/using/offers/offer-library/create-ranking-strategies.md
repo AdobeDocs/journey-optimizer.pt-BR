@@ -2,21 +2,21 @@
 product: experience platform
 solution: Experience Platform
 title: Criar estratégias de classificação
-description: Saiba como criar estratégias de classificação no Adobe Experience Platform.
+description: Saiba como criar modelos de IA para classificar ofertas
 feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: e01aacc63f0d395aed70bf9c332db19b322380f0
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '936'
 ht-degree: 4%
 
 ---
 
 # Classificações de IA {#ai-rankings}
 
-## Introdução às classificações de IA
+## Introdução às classificações de IA {#get-started-with-ai-rankings}
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use an trained model system that ranks offers to display for a given profile.
 
@@ -127,7 +127,6 @@ Agora ele está pronto para ser usado em uma decisão para classificar ofertas e
 
    >[!NOTE]
    >O grupo de campos era anteriormente conhecido como mixin.
-
 
 1. Digite um nome e salve o esquema.<!--How do you edit the fields in this new schema? Examples?-->
 

@@ -1,13 +1,12 @@
 ---
 title: Registros PTR
 description: Saiba como gerenciar registros PTR
-audience: administrators
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -16,13 +15,13 @@ ht-degree: 0%
 
 # Registros PTR {#ptr-records}
 
-## Sobre registros PTR
+## Sobre registros PTR {#about-ptr-records}
 
 Um registro de ponteiro (PTR) é um tipo de registro de Sistema de Nome de Domínio (DNS) que fornece o nome de domínio vinculado a um endereço IP.
 
 Com registros PTR, os servidores de email de recebimento podem verificar a autenticidade do envio dos servidores de email identificando se seus endereços IP correspondem aos nomes com os quais os servidores se conectam.
 
-## Acesse os registros PTR dos subdomínios
+## Acesse os registros PTR dos subdomínios {#access-ptr-records}
 
 Uma vez [um subdomínio é delegado](delegate-subdomain.md) no Adobe Journey Optimizer, um registro PTR é criado e associado automaticamente a este subdomínio. Você pode acessá-lo pelo **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
 
@@ -44,7 +43,7 @@ Você pode modificar um registro PTR para editar o subdomínio associado a um en
 >
 >Não é possível modificar o **[!UICONTROL IP]** e **[!UICONTROL PTR record]** campos.
 
-### Subdomínios totalmente delegados
+### Subdomínios totalmente delegados {#fully-delegated-subdomains}
 
 Para editar um registro PTR com um subdomínio que esteja [plenamente delegado](delegate-subdomain.md#full-subdomain-delegation) para o Adobe, siga as etapas abaixo.
 
@@ -83,7 +82,7 @@ Para editar um registro PTR com um subdomínio que é delegado ao Adobe usando o
 
 1. Clique em **[!UICONTROL Save]** para confirmar as alterações.
 
-## Verificar detalhes de atualização do registro PTR
+## Verificar detalhes de atualização do registro PTR {#check-ptr-record-update}
 
 A **[!UICONTROL Processing]** ícone é exibido ao lado do nome do registro PTR na lista.
 
@@ -97,7 +96,7 @@ Você pode ver informações como o status da atualização e as alterações so
 
 ![](../assets/ptr-record-updates.png)
 
-## Status de atualização de registro PTR
+## Status de atualização de registro PTR {#ptr-record-update-statuses}
 
 Uma atualização de registro PTR pode ter os seguintes status:
 
@@ -105,9 +104,9 @@ Uma atualização de registro PTR pode ter os seguintes status:
 * ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: O registro PTR atualizado foi verificado e o novo subdomínio agora está associado ao endereço IP.
 * ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Uma ou várias verificações falharam durante a verificação de atualização de registro PTR.
 
-### Processamento
+### Processamento {#processing}
 
-Várias verificações de deliverability serão executadas para verificar se o novo subdomínio a ser associado ao endereço IP é válido. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).-->
+Várias verificações de deliverability serão executadas para verificar se o novo subdomínio a ser associado ao endereço IP é válido. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
 
 >[!NOTE]
 >
@@ -115,11 +114,11 @@ Várias verificações de deliverability serão executadas para verificar se o n
 
 Durante o processo de validação, o subdomínio antigo ainda estará associado ao endereço IP.
 
-### Sucesso
+### Sucesso {#success}
 
 Depois que o processo de validação for bem-sucedido, o novo subdomínio será associado automaticamente ao endereço IP.
 
-### Falha
+### Falha {#failes}
 
 Se o processo de validação falhar, o registro PTR mais antigo será exibido. O subdomínio válido que foi associado anteriormente ao endereço IP permanece inalterado.
 

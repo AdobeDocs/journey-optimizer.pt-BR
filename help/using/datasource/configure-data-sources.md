@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 10%
@@ -21,7 +21,7 @@ Estas são as etapas principais de configuração da fonte de dados:
 >
 >A configuração da fonte de dados é sempre executada por um **usuário técnico**.
 
-1. Na seção do menu ADMINISTRATION (ADMINISTRAÇÃO), selecione **[!UICONTROL Configurations]**. No  **[!UICONTROL Data Sources]** seção , clique em **[!UICONTROL Manage]**. A lista das fontes de dados é exibida. Consulte [esta página](../user-interface.md) para obter mais informações sobre a interface.
+1. Na seção do menu ADMINISTRATION (ADMINISTRAÇÃO), selecione **[!UICONTROL Configurations]**. No  **[!UICONTROL Data Sources]** seção , clique em **[!UICONTROL Manage]**. A lista das fontes de dados é exibida. Consulte [esta página](../start/user-interface.md) para obter mais informações sobre a interface.
 
    ![](../assets/journey18.png)
 

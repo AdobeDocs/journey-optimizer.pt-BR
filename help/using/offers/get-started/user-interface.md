@@ -1,12 +1,12 @@
 ---
 title: Interface do usuário
-description: Saiba mais sobre a interface do usuário da Biblioteca de ofertas.
+description: Saiba mais sobre a interface do usuário da Biblioteca de ofertas
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 68%
@@ -69,7 +69,7 @@ Clique no botão **[!UICONTROL View all]** para acessar as listas de oferta, col
 
 ![](../../assets/overview_view-all.png)
 
-## Pesquisar e filtrar informações
+## Pesquisar e filtrar informações {#search-and-filter-information}
 
 Use a **barra de pesquisa** para localizar um item específico.
 
@@ -77,7 +77,7 @@ Use a **barra de pesquisa** para localizar um item específico.
 
 ![](../../assets/filters.png)
 
-## Personalizar informações exibidas
+## Personalizar informações exibidas {#customize-displayed-information}
 
 As listas dos menus do Gerenciamento de decisão podem ser personalizadas usando o botão de configuração na parte superior direita das listas.
 
@@ -87,7 +87,7 @@ Observe que a personalização de colunas é salva para cada usuário.
 
 ![](../../assets/columns.png)
 
-## Painel de informações
+## Painel de informações {#information-pane}
 
 Nas diferentes listas, selecione um elemento para exibir um painel de informações que permitirá recuperar informações e executar ações básicas no elemento.
 

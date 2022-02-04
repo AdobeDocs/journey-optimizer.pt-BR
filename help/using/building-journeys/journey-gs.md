@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 9%
@@ -31,7 +31,7 @@ Para enviar mensagens com o jornada, a seguinte configuração é necessária:
 
    ![](../assets/jo-datasource.png)
 
-1. **Configurar uma ação**: Os recursos de mensagens do Journey Optimizer são integrados, basta criar o conteúdo e publicar a mensagem. Consulte [esta seção](../get-started-content.md). Se você estiver usando um sistema de terceiros para enviar mensagens, é possível criar uma ação personalizada. Saiba mais nesta [seção](../action/action.md). Esta etapa é executada por um **usuário técnico**.
+1. **Configurar uma ação**: Os recursos de mensagens do Journey Optimizer são integrados, basta criar o conteúdo e publicar a mensagem. Consulte [esta seção](../messages/get-started-content.md). Se você estiver usando um sistema de terceiros para enviar mensagens, é possível criar uma ação personalizada. Saiba mais nesta [seção](../action/action.md). Esta etapa é executada por um **usuário técnico**.
 
    ![](../assets/create-content-push.png)
 

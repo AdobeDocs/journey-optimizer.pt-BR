@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bcc77934464b6211cbb03e8830b456ecc157cb80
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 88%
 
 ---
 
-# Fontes de dados externas {#concept_t2s_kqt_52b}
+# Fontes de dados externas {#external-data-sources}
 
 Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
 
@@ -53,7 +53,7 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
 
    ![](../assets/journey27.png)
 
-1. Configure a autenticação dependendo da configuração do serviço externo: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** ou **[!UICONTROL API key]**. Para obter mais informações sobre o modo de autenticação personalizado, consulte [esta seção](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Em nosso exemplo, escolhemos:
+1. Configure a autenticação dependendo da configuração do serviço externo: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** ou **[!UICONTROL API key]**. Para obter mais informações sobre o modo de autenticação personalizado, consulte [esta seção](../datasource/external-data-sources.md#custom-authentication-mode). Em nosso exemplo, escolhemos:
 
    * **[!UICONTROL Type]**: &quot;Chave de API&quot;
    * **[!UICONTROL Name]**: &quot;appid&quot; (este é o nome do parâmetro da chave de API)
@@ -87,7 +87,7 @@ Clique em **[!UICONTROL Save]**.
 
 A fonte de dados agora está configurada e pronta para ser usada em suas jornadas, por exemplo em suas condições ou para personalizar um email. Se a temperatura estiver acima de 30°C, você pode decidir enviar uma comunicação específica.
 
-## Modo de autenticação personalizado{#section_wjp_nl5_nhb}
+## Modo de autenticação personalizado{#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"

@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
-# Instrução condicional (if, then, else) {#section_cdz_lsk_w3b}
+# Instrução condicional (if, then, else) {#conditional-instruction}
 
 A instrução condicional (if, then, else) é compatível no editor avançado. Ela permite definir expressões mais complexas. Ele é composto pelos seguintes elementos:
 
