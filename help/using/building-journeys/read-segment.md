@@ -9,7 +9,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 1abea49a0dce8d5866662235b243a3b82fb50c7b
 workflow-type: tm+mt
 source-wordcount: '1036'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -77,7 +77,7 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
 
    ![](../assets/read-segment-schedule-list.png)
 
-   O **Leitura incremental** permite direcionar somente os indivíduos que entraram no segmento desde a última execução da jornada. A primeira execução sempre direciona todos os membros do segmento. Essa opção só está disponível para recorrente **Ler segmento** atividades.
+   O **Leitura incremental** permite direcionar somente os indivíduos que entraram no segmento desde a última execução da jornada. A primeira execução sempre direciona a todos os membros do segmento. Essa opção só está disponível para recorrente **Ler segmento** atividades.
 
 <!--
 
