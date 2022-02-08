@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: e5ebf038565329fdaa7b01a12042c2c4bba79f37
+source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 35%
@@ -48,7 +48,7 @@ A configuração de subdomínio permite configurar uma subseção do seu domíni
 
 * **Delegação completa do subdomínio para o Adobe** (recomendado): o subdomínio é totalmente delegado à Adobe. O Adobe é capaz de controlar e manter todos os aspectos do DNS necessários para fornecer, renderizar e rastrear mensagens. [Saiba mais sobre a delegação completa de subdomínio](delegate-subdomain.md#full-subdomain-delegation)
 
-* **Uso de CNAMEs**: Crie um subdomínio e use CNAMEs para apontar para registros específicos do Adobe. Com essa configuração, você e o Adobe ashare são responsáveis pela manutenção do DNS. [Saiba mais sobre a delegação de subdomínio CNAME](delegate-subdomain.md#cname-subdomain-delegation)
+* **Uso de CNAMEs**: Crie um subdomínio e use CNAMEs para apontar para registros específicos do Adobe. Com essa configuração, você e o Adobe compartilham a responsabilidade pela manutenção do DNS. [Saiba mais sobre a delegação de subdomínio CNAME](delegate-subdomain.md#cname-subdomain-delegation)
 
 A tabela abaixo apresenta um resumo de como esses métodos funcionam, bem como o nível de esforço necessário:
 

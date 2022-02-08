@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1433'
 ht-degree: 10%
 
 ---
@@ -24,15 +24,15 @@ A delegação de nome de domínio é um método que permite ao proprietário de 
 
 Delegando um subdomínio para uso com [!DNL Journey Optimizer], os clientes podem confiar no Adobe para manter a infraestrutura de DNS necessária para atender aos requisitos de deliverability padrão do setor para seus domínios de envio de marketing por email, além de manter e controlar o DNS para seus domínios internos de email.
 
-## Delegação de subdomínio completa {#full-subdomain-delegation}
-
-[!DNL Journey Optimizer] O permite delegar totalmente seus subdomínios ao Adobe diretamente da interface do produto. Ao fazer isso, o Adobe poderá enviar mensagens como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
-
 >[!NOTE]
 >
 >Por padrão, [!DNL Journey Optimizer] o contrato de licença permite delegar até 10 subdomínios. Entre em contato com o Adobe se quiser aumentar essa limitação.
 
-Para delegar um novo subdomínio, siga as etapas abaixo:
+## Delegação de subdomínio completa {#full-subdomain-delegation}
+
+[!DNL Journey Optimizer] O permite delegar totalmente seus subdomínios ao Adobe diretamente da interface do produto. Com isso, o Adobe poderá enviar mensagens como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
+
+Para delegar totalmente um novo subdomínio ao Adobe, siga as etapas abaixo:
 
 1. Acesse o **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** , em seguida, clique em **[!UICONTROL Set up subdomain]**.
 
