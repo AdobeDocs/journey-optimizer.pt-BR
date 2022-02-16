@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 83bb29b7026c90560ffdb961b03944d8f94c8a8c
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 4%
+source-wordcount: '1491'
+ht-degree: 5%
 
 ---
 
@@ -28,6 +28,12 @@ A lista de ofertas personalizadas pode ser acessada na variável **[!UICONTROL O
 ![](../../assets/offers_list.png)
 
 ## Criar a oferta {#create-offer}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_attributes"
+>title="Sobre atributos de oferta"
+>abstract="Com atributos de oferta, é possível associar pares de valores chave à oferta para fins de análise e geração de relatórios."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Assista ao vídeo de demonstração"
 
 Para criar um **oferta** siga estas etapas:
 
@@ -141,6 +147,30 @@ Você também pode inserir conteúdo do tipo texto ao selecionar uma disposiçã
    >Somente a variável **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** e **[!UICONTROL Helper functions]** As fontes estão disponíveis para o Gerenciamento de decisões.
 
 ## Adicionar regras e restrições de qualificação {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_constraints"
+>title="Sobre restrições de oferta"
+>abstract="Com restrições, é possível especificar como a oferta é priorizada e apresentada ao usuário em comparação a outras ofertas."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Assista ao vídeo de demonstração"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_eligibility"
+>title="Sobre a qualificação para a oferta"
+>abstract="Nesta seção, você pode usar as regras de decisão para determinar quais usuários estão qualificados para a oferta."
+>additional-url="https://video.tv.adobe.com/v/329373" text="Assista ao vídeo de demonstração"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_priority"
+>title="Sobre a prioridade da oferta"
+>abstract="Nesse campo, é possível especificar configurações de prioridade para a oferta. Prioridade é um número usado para classificar ofertas que atendem a todas as restrições, como qualificação, datas e limite."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Assista ao vídeo de demonstração"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_globalcap"
+>title="Sobre o limite de oferta"
+>abstract="Nesse campo, é possível especificar quantas vezes a oferta pode ser apresentada a todos os usuários."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Assista ao vídeo de demonstração"
 
 As regras e restrições de elegibilidade permitem definir as condições em que uma oferta será exibida.
 
