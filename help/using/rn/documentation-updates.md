@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * Foi adicionada uma nova seção sobre os requisitos de esquema necessários para poder enviar tipos de evento ao usar uma estratégia de classificação. [Leia mais](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
-* A seção relacionada ao [!DNL Journey Optimizer] os recursos de personalização foram reorganizados para melhorar a legibilidade. [Leia mais](../personalization/personalize.md)
+* A seção relacionada aos recursos de personalização do [!DNL Journey Optimizer] foi reorganizada para melhorar a compreensão. [Leia mais](../personalization/personalize.md)
 
 * A seção Criar predefinições de mensagem foi dividida em várias seções para maior clareza. [Leia mais](../configuration/message-presets.md#create-message-preset)
 
@@ -109,7 +109,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Imagens da página inicial otimizadas
 * Seção &quot;Rastreamento de mensagens&quot; deslocada, aprimorada e renomeada para &quot;Adicionar links e rastrear mensagens&quot;. [Leia mais](../messages/message-tracking.md)
 * Subseção sobre mirror pages adicionada. [Leia mais](../messages/message-tracking.md#mirror-page)
-* As &quot;atividades de oferta&quot; foram renomeadas como &quot;decisões&quot; e &quot;decisões&quot; como &quot;escopos de decisão&quot; na documentação e nas telas. [Leia mais](../offers/get-started/starting-offer-decisioning.md)
+* As &quot;atividades de oferta&quot; foram renomeadas como &quot;decisões&quot;, e as &quot;decisões&quot; como &quot;escopos de decisão&quot; na documentação e nas telas. [Leia mais](../offers/get-started/starting-offer-decisioning.md)
 * Novo caso de uso: [personalizar uma mensagem com funções auxiliares](../personalization/personalization-use-case-helper-functions.md)
 * Documentação sobre Ler segmento atualizada para refletir os impactos materializados sobre segmentos. [Leia mais](../building-journeys/read-segment.md)
 * Limitações do Journey atualizadas. [Leia mais](../start/limitations.md)
