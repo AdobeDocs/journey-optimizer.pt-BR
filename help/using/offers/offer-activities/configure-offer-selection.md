@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '463'
 ht-degree: 5%
 
 ---
 
 # Configurar seleção de ofertas em decisões {#offers-selection-in-decisions}
 
-Se várias ofertas estiverem qualificadas para uma determinada disposição, você poderá escolher o método que selecionará a melhor oferta para cada perfil ao configurar uma decisão (anteriormente conhecida como atividade de oferta). Você pode classificar ofertas por:
+Se várias ofertas estiverem qualificadas para uma determinada disposição, você poderá escolher o método que selecionará a melhor oferta para cada perfil ao configurar uma decisão. Você pode classificar ofertas por:
 * Prioridade da oferta
 * Fórmula de classificação
 * [Classificação AI](#use-ranking-strategy) (no acesso antecipado somente para usuários selecionados)
@@ -24,7 +24,7 @@ Se várias ofertas estiverem qualificadas para uma determinada disposição, voc
 
 ## Prioridade da oferta {#offer-priority}
 
-Por padrão, quando várias ofertas estão qualificadas para uma determinada disposição em uma decisão (anteriormente conhecida como atividade de oferta), as ofertas com a maior **priority** serão entregues aos clientes primeiro.
+Por padrão, quando várias ofertas estão qualificadas para uma determinada disposição em uma decisão, as ofertas com o maior **priority** serão entregues aos clientes primeiro.
 
 ![](../../assets/offer-priority.png)
 
@@ -38,7 +38,7 @@ Por exemplo, você pode aumentar a prioridade de todas as ofertas em que a data 
 
 Saiba como criar uma fórmula de classificação no [esta seção](../offer-library/create-ranking-formulas.md).
 
-Depois que uma fórmula de classificação é criada, é possível atribuí-la a uma disposição em uma decisão (anteriormente conhecida como atividade de oferta). Para fazer isso, siga as etapas abaixo:
+Depois que uma fórmula de classificação é criada, você pode atribuí-la a uma disposição em uma decisão. Para fazer isso, siga as etapas abaixo:
 
 1. Crie uma decisão ou edite uma existente. Consulte [Criar decisões](../offer-activities/create-offer-activities.md).
 
@@ -60,13 +60,15 @@ Se várias ofertas estiverem qualificadas para serem apresentadas nesta disposi�
 
 ## Classificação de IA {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+
+Você também pode usar um sistema de modelo treinado que classifica automaticamente as ofertas para exibição em um determinado perfil selecionando uma estratégia de classificação. Saiba como criar uma estratégia de classificação no [esta seção](../offer-library/create-ranking-strategies.md).
 
 >[!CAUTION]
 >
 >O uso da classificação de IA está disponível no momento somente para usuários selecionados.
 
-Depois que uma estratégia de classificação tiver sido criada, é possível atribuí-la a uma disposição em uma decisão (anteriormente conhecida como atividade de oferta). Para fazer isso, siga as etapas abaixo:
+Depois que uma estratégia de classificação for criada, você poderá atribuí-la a uma disposição em uma decisão. Para fazer isso, siga as etapas abaixo:
 
 1. Crie uma decisão ou edite uma existente. Consulte [Criar decisões](../offer-activities/create-offer-activities.md).
 

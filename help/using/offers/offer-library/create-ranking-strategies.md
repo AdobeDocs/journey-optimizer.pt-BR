@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 1bca78723ec8ff93f48b9afa360868c2b9bac670
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 ## Introdução às classificações de IA {#get-started-with-ai-rankings}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use an trained model system that ranks offers to display for a given profile.
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use a trained model system that ranks offers to display for a given profile.
 
 >[!CAUTION]
 >
@@ -168,10 +168,11 @@ Agora, cada vez que uma oferta é exibida e/ou clicada, você deseja que o event
 
 Para poder enviar tipos de evento (oferta exibida ou oferta clicada), você deve definir o valor correto para cada tipo de evento em um evento de experiência enviado para o Adobe Experience Platform. Abaixo estão os requisitos de esquema que você precisa implementar no código JavaScript:
 
-**Cenário:** Oferta exibida
+### Cenário exibido da oferta
+
 **Tipo de evento:** `decisioning.propositionDisplay`
 **Fonte:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou a ingestão por lotes
-**Carga de exemplo:**
++++**Carga de exemplo:**
 
 ```
 {
@@ -197,10 +198,13 @@ Para poder enviar tipos de evento (oferta exibida ou oferta clicada), você deve
 }
 ```
 
-**Cenário:** Oferta clicada
++++
+
+### Cenário de oferta clicada
+
 **Tipo de evento:** `decisioning.propositionInteract`
 **Fonte:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou a ingestão por lotes
-**Carga de exemplo:**
++++**Carga de exemplo:**
 
 ```
 {
@@ -226,12 +230,14 @@ Para poder enviar tipos de evento (oferta exibida ou oferta clicada), você deve
 }
 ```
 
++++
+
 <!--
 ## Using a ranking strategy {#using-ranking}
 
 To use the ranking strategy you created above, follow the steps below:
 
-Once a ranking strategy has been created, you can assign it to a placement in a decision (previously known as offer activity). For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
+Once a ranking strategy has been created, you can assign it to a placement in a decision. For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
 
 1. Create a decision.
 1. Add a placement.

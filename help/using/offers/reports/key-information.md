@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 90%
+source-wordcount: '128'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ Cada evento enviado quando uma decisão é tomada contém quatro pontos de dados
 * **[!UICONTROL Fallback]**: nome e ID da oferta substituta, se nenhuma oferta personalizada foi selecionada,
 * **[!UICONTROL Placement]**: nome, ID e canal do posicionamento usado para entregar a oferta,
 * **[!UICONTROL Selections]**: nome e ID da oferta selecionada para o perfil,
-* **[!UICONTROL Activity]**: Nome e ID da decisão (anteriormente conhecida como atividade de oferta).
+* **[!UICONTROL Activity]**: Nome e ID da decisão.
 
 Além disso, você também pode aproveitar os campos **[!UICONTROL identityMap]** e **[!UICONTROL Timestamp]** para recuperar informações sobre o perfil e a hora em que a oferta foi entregue.
 

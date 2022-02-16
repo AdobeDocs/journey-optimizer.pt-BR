@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 97%
+source-wordcount: '919'
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,11 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * A seção relacionada ao [!DNL Journey Optimizer] os recursos de personalização foram reorganizados para melhorar a legibilidade. [Leia mais](../personalization/personalize.md)
 
+* A seção Criar predefinições de mensagem foi dividida em várias seções para maior clareza. [Leia mais](../configuration/message-presets.md#create-message-preset)
+
+* A seção de gerenciamento de recusa foi esclarecida e ligeiramente reorganizada. [Leia mais](../messages/consent.md#opt-out-management)
+
+* A seção Inserir links foi atualizada para refletir as alterações recentes na interface do usuário. [Leia mais](../messages/message-tracking.md#insert-links)
 
 ## Novembro de 2021 {#november-2021}
 
@@ -87,7 +92,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Seção Ativar a lista de permissões atualizada. [Saiba mais](../messages/allow-list.md#enable-allow-list)
 * Seção Monitorar predefinições de mensagem atualizada com os possíveis motivos de falha na criação de predefinições e detalhes sobre esses erros. [Leia mais](../configuration/message-presets.md#monitor-message-presets)
 * Seção Repetir período de tempo atualizada e renomeada para refletir o fato de que agora é possível ajustar as configurações de nova tentativa de email nas predefinições de mensagem. [Leia mais](../configuration/retries.md#retry-duration)
-* Nova seção adicionada para descrever como inserir no conteúdo do email um link de opção de não participação com um clique. [Leia mais](../messages/message-tracking.md#one-click-opt-out-link)
+* Nova seção adicionada para descrever como inserir no conteúdo do email um link de opção de não participação com um clique. [Leia mais](../messages/consent.md#one-click-opt-out-link)
 * Seção Delegar um subdomínio atualizada com informações mais detalhadas sobre o processo de validação executado pela Adobe. [Leia mais](../configuration/delegate-subdomain.md#subdomain-validation)
 * Seção adicionada para descrever como adicionar manualmente endereços de email e domínios à lista de supressão. [Leia mais](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Seções [Acessar a lista de supressão](../configuration/manage-suppression-list.md#access-suppression-list) e [Tentativas](../configuration/retries.md) atualizadas para refletir a nova interface de usuário.

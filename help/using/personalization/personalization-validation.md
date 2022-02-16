@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '317'
 ht-degree: 2%
 
 ---
@@ -99,7 +99,7 @@ Recurso com id activityID e tipo OfferActivity não encontrado<br/></td>
    <td>As Ofertas de imagem (todas Personalizadas e de fallback associadas à decisão e ao par de disposições) devem ter o URL público preenchido (deliveryURL não deve estar vazio).</td> 
   </tr> 
   <tr> 
-   <td>A decisão (anteriormente conhecida como atividade de oferta) contém atributos que não são de perfil.</td> 
+   <td>A decisão contém atributos que não são de perfil.</td> 
    <td>O uso do Modelo de ofertas deve conter somente os atributos do perfil.</td> 
   </tr> 
   <tr> 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 88%
+source-wordcount: '908'
+ht-degree: 86%
 
 ---
 
@@ -80,7 +80,7 @@ Você pode encontrar abaixo a lista dos principais conceitos com os quais trabal
 
 * **Coleções**: coleções são subconjuntos de ofertas com base em condições predefinidas por um profissional de marketing, como a categoria da oferta.
 
-* **Decisão** (anteriormente conhecida como Atividade da oferta): uma decisão contém a lógica que informa a seleção de uma oferta.
+* **Decisão**: Uma decisão contém a lógica que informa a seleção de uma oferta.
 
 * **Regra de decisão**: as regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a elegibilidade.
 
