@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
+source-git-commit: 7aaedb4c76afb34c4110dc64ad79af9cd2091adb
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 95%
+source-wordcount: '965'
+ht-degree: 87%
 
 ---
 
@@ -14,26 +14,26 @@ ht-degree: 95%
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
 
 
+## Fevereiro de 2022 {#feb-2022}
+
+* Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 22 de fevereiro foi detalhada na documentação. [Leia mais](release-notes.md)
+* O [replace](../building-journeys/functions/functionreplace.md#example_2) e [replaceAll](../building-journeys/functions/functionreplaceall.md#example) as páginas de documentação da função foram atualizadas com informações adicionais e exemplos relacionados ao parâmetro target .
+* As práticas recomendadas foram adicionadas ao [Operadores](../building-journeys/expression/operators.md#important-notes) página.
+
 ## Janeiro de 2022 {#january-2022}
 
 * Todos os novos recursos e aprimoramentos da versão de janeiro de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
-
-* A seção Classificações de IA do Offer Decisioning foi atualizada com uma descrição mais detalhada do modelo de otimização automática. [Leia mais](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
-
+* O **Classificações do Offer decisioning AI** A seção foi atualizada com uma descrição mais detalhada do modelo de otimização automática. [Leia mais](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
 * Foi adicionada uma nova seção sobre os requisitos de esquema necessários para poder enviar tipos de evento ao usar uma estratégia de classificação. [Leia mais](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
-
 * A seção relacionada aos recursos de personalização do [!DNL Journey Optimizer] foi reorganizada para melhorar a compreensão. [Leia mais](../personalization/personalize.md)
-
-* A seção Criar predefinições de mensagem foi dividida em várias seções para maior clareza. [Leia mais](../configuration/message-presets.md#create-message-preset)
-
-* A seção de gerenciamento de recusa foi esclarecida e ligeiramente reorganizada. [Leia mais](../messages/consent.md#opt-out-management)
-
-* A seção Inserir links foi atualizada para refletir as alterações recentes na interface do usuário. [Leia mais](../messages/message-tracking.md#insert-links)
+* O **Criar predefinições de mensagem** A seção foi dividida em várias seções para maior clareza. [Leia mais](../configuration/message-presets.md#create-message-preset)
+* O **Gerenciamento de não participação** foi esclarecida e ligeiramente reorganizada. [Leia mais](../messages/consent.md#opt-out-management)
+* O **Inserir links** foi atualizada para refletir as alterações recentes na interface do usuário. [Leia mais](../messages/message-tracking.md#insert-links)
 
 ## Novembro de 2021 {#november-2021}
 
-* Uma descrição completa do editor avançado de expressões usado em jornadas está disponível. [Leia mais](../building-journeys/expression/expressionadvanced.md)
-* Foi adicionada uma nova seção sobre o método de delegação de subdomínio CNAME. [Leia mais](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* Uma descrição completa da **editor de expressão avançado** usado no jornada agora está disponível. [Leia mais](../building-journeys/expression/expressionadvanced.md)
+* Uma nova seção sobre **Método de delegação de subdomínio CNAME** foi adicionada. [Leia mais](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 
 ## Outubro de 2021 {#october-2021}

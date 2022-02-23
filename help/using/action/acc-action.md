@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 7324b5dd448b770990aad485fa2b13bc131cbcb1
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ Para cada ação configurada, uma atividade de ação está disponível na palet
 
 ## Observações importantes {#important-notes}
 
-* Não há limitação de mensagens. Limitamos o número de mensagens que podem ser enviadas para 50.000/hora com base em nosso SLA atual do Campaign. Por esse motivo, o Journey Optimizer deve ser usado somente em casos de uso unitários (eventos individuais, não segmentos).
+* Não há limitação de mensagens. O sistema limita o número de mensagens que podem ser enviadas para 4000 por 5 minutos, com base no SLA atual do Campaign. Por esse motivo, o Journey Optimizer deve ser usado somente em casos de uso unitários (eventos individuais, não segmentos).
 
 * É necessário configurar uma ação na tela por modelo que deseja usar. É necessário configurar uma ação no Journey Optimizer para cada modelo que deseja usar no Adobe Campaign.
 

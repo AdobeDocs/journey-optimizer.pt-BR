@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Se uma mensagem for publicada, mas ainda não for acionada por uma jornada, ela 
 >
 >Se uma mensagem tiver sido usada em várias jornadas, uma linha por jornada será exibida para cada execução.
 
-Por padrão, as mensagens são exibidas a partir da data de execução mais recente. Clique no botão **[!UICONTROL Filters]** ícone para pesquisar as mensagens de acordo com o canal, a data de início e/ou a data de término.
+Por padrão, as mensagens são exibidas a partir da data de execução mais recente. Clique no botão **[!UICONTROL Filters]** ícone para pesquisar as mensagens de acordo com o canal, a data de início e/ou a data de término. Você também pode optar por excluir os eventos de teste da sua **Lista de execuções**.
 
 ![](assets/message-execution-tab-filters.png)
 

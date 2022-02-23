@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 1%
+source-wordcount: '255'
+ht-degree: 0%
 
 ---
 
@@ -27,26 +27,28 @@ Use o **[!UICONTROL Global report]** para medir o impacto das jornadas e dos del
 
 ## Personalizar painel {#modify-dashboard}
 
-Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets ou alterando o período de tempo direcionado. Alterar os widgets só afeta o painel do usuário atual. Outros usuários verão seus próprios painéis ou os definidos por padrão.
+Cada painel de relatórios pode ser modificado alterando o período de tempo e redimensionando ou removendo widgets. Alterar os widgets só afeta o painel do usuário atual. Outros usuários verão seus próprios painéis ou os definidos por padrão.
 
-1. Em seu **[!UICONTROL Global report]** no painel, clique no botão scheduler .
+1. Em seu relatório Global , selecione uma hora de início e fim para direcionar dados específicos.
 
-1. Selecione as datas de início e término. Você pode aprimorar ainda mais seus relatórios selecionando um **[!UICONTROL Start time]** e **[!UICONTROL End time]**.
+   ![](../assets/report_modify_1.png)
 
-   ![](../assets/global_report_6.png)
+1. Escolha se deseja excluir eventos de teste de seus relatórios com a barra de alternância. Para obter mais informações sobre eventos de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-1. click **[!UICONTROL Modify]**.
+   ![](../assets/report_modify_2.png)
 
-   ![](../assets/global_report_8.png)
+1. Clique em **[!UICONTROL Modify]** para começar a personalizar seu painel.
+
+   ![](../assets/report_modify_3.png)
 
 1. Ajuste o tamanho dos widgets arrastando o canto inferior direito.
 
-   ![](../assets/global_report_9.png)
+   ![](../assets/report_modify_4.png)
 
-1. Clique em **[!UICONTROL Remove]** para remover outros widgets que você não precisa rastrear rejeições.
+1. Clique em **[!UICONTROL Remove]** para remover qualquer widget que você não precise.
 
-   ![](../assets/global_report_10.png)
+   ![](../assets/report_modify_5.png)
 
 1. Quando estiver satisfeito com a ordem de exibição e o tamanho dos widgets, clique em **[!UICONTROL Save]**.
 
-Seu painel agora é salvo. Suas diferentes alterações serão reaplicadas para um uso posterior dos relatórios globais. Se necessário, use a **[!UICONTROL Reset]** para restaurar a ordem dos widgets e widgets padrão.
+Seu painel agora é salvo. Suas diferentes alterações serão reaplicadas para um uso posterior dos seus relatórios ao vivo. Se necessário, use a **[!UICONTROL Reset]** para restaurar a ordem dos widgets e widgets padrão.

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: cae74818e60abc97cd8eb5ccd3f4337af591f488
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1625'
 ht-degree: 3%
 
 ---
@@ -61,6 +61,7 @@ Para usar o modo de teste, siga estas etapas:
 * Você pode ativar/desativar o modo de teste quantas vezes forem necessárias.
 * Não é possível modificar a jornada quando o modo de teste é ativado. Quando estiver no modo de teste, você pode publicar diretamente a jornada, não é necessário desativar o modo de teste antes.
 * Ao alcançar uma divisão, a ramificação superior é sempre escolhida. Você pode reorganizar a posição das ramificações divididas se quiser que o teste escolha um caminho diferente.
+* Para otimizar o desempenho e impedir o uso de recursos obsoletos, todas as jornadas no modo de teste que não foram acionadas por uma semana serão retornadas ao status Rascunho .
 
 ## Acionar seus eventos {#firing_events}
 

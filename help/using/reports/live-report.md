@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,21 @@ Os dados estão disponíveis na variável **[!UICONTROL Live report]** assim que
 
 Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets. Alterar os widgets só afeta o painel do usuário atual. Outros usuários verão seus próprios painéis ou os definidos por padrão.
 
-1. No seu relatório ao vivo, clique em **[!UICONTROL Modify]**.
+1. Escolha se deseja excluir eventos de teste de seus relatórios com a barra de alternância. Para obter mais informações sobre eventos de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-   ![](../assets/report_modify_1.png)
+   ![](../assets/report_modify_6.png)
+
+1. Para redimensionar ou remover widgets, clique em **[!UICONTROL Modify]**.
+
+   ![](../assets/report_modify_7.png)
 
 1. Ajuste o tamanho dos widgets arrastando o canto inferior direito.
 
-   ![](../assets/report_modify_2.png)
+   ![](../assets/report_modify_8.png)
 
-1. Clique em **[!UICONTROL Remove]** para remover outros widgets que você não precisa rastrear rejeições.
+1. Clique em **[!UICONTROL Remove]** para remover qualquer widget que você não precise.
 
-   ![](../assets/report_modify_3.png)
+   ![](../assets/report_modify_9.png)
 
 1. Quando estiver satisfeito com a ordem de exibição e o tamanho dos widgets, clique em **[!UICONTROL Save]**.
 

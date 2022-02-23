@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 87b8056d26fe91a71e92ca346a9811c609d41128
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 15%
+source-wordcount: '146'
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ String
 | Parâmetro | Tipo |
 |-----------|--------------|
 | base | string |
-| target | string |
+| target | string (RegExp) |
 | substituição | string |
 
 ## Assinatura e tipo retornado
@@ -41,8 +41,28 @@ String
 
 Retorne uma string.
 
-## Exemplo
+## Exemplo 1
 
 `replace("Hello World", "l", "x")`
 
 Retorna &quot;Mundo Hexlo&quot;.
+
+## Exemplo 2 {#example_2}
+
+Como o parâmetro de destino é RegExp, dependendo da string que você deseja substituir, talvez seja necessário evitar alguns caracteres. Exemplo:
+
+* string a ser avaliada: `|OFFER_A|OFFER_B`
+* fornecido por um atributo de perfil `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
+* Sequência de caracteres a ser substituída: `|OFFER_A`
+* Sequência de caracteres substituída por: `''`
+* Você precisa adicionar `\\` antes da `|` caractere.
+
+A expressão é:
+
+`replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
+
+A string retornada é: `|OFFER_B`
+
+Você também pode criar a cadeia de caracteres a ser substituída de um determinado atributo:
+
+`replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|' + #{ExperiencePlatform.myFieldGroup.profile.myOfferCode}, '')`

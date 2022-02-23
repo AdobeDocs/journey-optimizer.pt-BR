@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 778ab302a5c9835024fe324999cdf5acf19ad172
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ O **[!UICONTROL Update Profile]** A atividade action permite atualizar um perfil
 * Não é possível usar a variável **Atualizar perfil** para gerar eventos de experiência, por exemplo, uma compra.
 * Assim como qualquer outra ação, você pode definir um caminho alternativo em caso de erro ou tempo limite e não pode colocar duas ações em paralelo.
 * A solicitação de atualização enviada para a Platform será rápida, mas não imediata/dentro de um segundo. Em geral, levará alguns segundos, mas às vezes mais sem garantia. Como resultado, por exemplo, se uma ação estiver usando um &quot;campo 1&quot; atualizado por uma ação Atualizar perfil posicionada anteriormente, você não deve esperar que o &quot;campo 1&quot; seja atualizado na ação.
+* O **Atualizar perfil** A atividade não oferece suporte a campos XDM definidos como uma enumeração.
 
 ## Uso do modo de teste {#using-the-test-mode}
 
