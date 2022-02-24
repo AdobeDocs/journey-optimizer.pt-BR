@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 8fc470ced790ed65df7e88b861e8b8f7126ace21
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 4%
@@ -53,11 +53,11 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
 1. Acesse o **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** , em seguida, clique em **[!UICONTROL Create Message preset]**.
 
-   ![](../assets/preset-create.png)
+   ![](assets/preset-create.png)
 
 1. Insira um nome e uma descrição (opcional) para a predefinição, depois selecione o canal SMS.
 
-   ![](../assets/sms_preset.png)
+   ![](assets/sms_preset.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
 1. Configure o **SMS** configurações.
 
-   ![](../assets/preset-sms.png)
+   ![](assets/preset-sms.png)
 
    * Selecione o **[!UICONTROL SMS Type]** que será enviado com a predefinição: **[!UICONTROL Transactional]** ou **[!UICONTROL Marketing]**.
 
@@ -77,7 +77,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
 1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Submit]** para confirmar. Você também pode salvar a predefinição de mensagem como rascunho e retomar sua configuração posteriormente.
 
-   ![](../assets/sms_preset_2.png)
+   ![](assets/sms_preset_2.png)
 
 1. Depois que a predefinição de mensagem tiver sido criada, ela será exibida na lista com a variável **[!UICONTROL Processing]** status.
 
@@ -87,7 +87,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
 1. Depois que as verificações são bem-sucedidas, a predefinição de mensagem recebe a variável **[!UICONTROL Active]** status. Ele está pronto para ser usado para entregar mensagens.
 
-   ![](../assets/preset-active.png)
+   ![](assets/preset-active.png)
 
 Agora você está pronto para enviar mensagens SMS com o Journey Optimizer.
 
