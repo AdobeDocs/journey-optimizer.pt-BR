@@ -5,9 +5,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: 163211f95436a37dee7deffea9ced1a3fa09dc34
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,22 @@ Para salvar uma expressão na biblioteca, siga estas etapas:
 
    ![](assets/library-save.png)
 
-1. No painel direito, forneça um título e uma descrição para a expressão para ajudar os usuários a encontrá-la mais facilmente e clique em **[!UICONTROL Add]**.
+1. No painel direito, insira um título e uma descrição para a expressão para ajudar os usuários a encontrá-la mais facilmente, em seguida, clique em **[!UICONTROL Add]**.
 
    ![](assets/add-expression.png)
 
 1. A expressão é adicionada à biblioteca. Agora os usuários podem usá-lo para criar o conteúdo de personalização.
+
+
+>[!NOTE]
+>
+>* Você salva até 40 expressões na biblioteca do .
+>
+>* As expressões não podem exceder 200 KB.
+>
+>* As expressões salvas são classificadas por data de criação: a expressão adicionada recentemente será mostrada primeiro na lista.
+
+
 
 Para editar uma expressão existente, adicione-a ao editor e, em seguida, modifique-a de acordo com suas necessidades. Clique em **[!UICONTROL Add to library]** para validar a sintaxe e salvar a expressão.
 
