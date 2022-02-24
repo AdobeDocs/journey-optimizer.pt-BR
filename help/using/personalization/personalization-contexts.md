@@ -1,19 +1,19 @@
 ---
-title: contextos de personalização
+title: Contextos de personalização
 description: 'Saiba mais sobre como personalizar o conteúdo e a exibição de suas mensagens. '
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 1%
+source-wordcount: '259'
+ht-degree: 3%
 
 ---
 
-# contextos de personalização{#personalization-areas}
+# Contextos de personalização{#personalization-areas}
 
 O conteúdo e a exibição das mensagens entregues por [!DNL Journey Optimizer] O pode ser personalizado de várias maneiras diferentes.
 
@@ -60,3 +60,10 @@ Saiba mais sobre a configuração de notificação por push em [esta seção](..
 Também é possível acessar o editor de personalização ao adicionar conteúdo do tipo texto às representações das ofertas.
 
 Saiba mais sobre como gerenciar conteúdo com o Gerenciamento de decisões no [esta seção](../offers/offer-library/creating-personalized-offers.md#custom-text).
+
+## URLs personalizados{#personalize-urls}
+
+No conteúdo da mensagem, você pode criar links com personalização. Por exemplo, adicione links para uma página específica de seu site para seus novos clientes.
+
+Saiba como usar os recursos de personalização para inserir um URL personalizado no [esta seção](personalization-syntax.md#perso-urls).
+
