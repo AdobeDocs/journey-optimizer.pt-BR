@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1025'
 ht-degree: 4%
 
 ---
@@ -58,7 +58,7 @@ Siga estas etapas:
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. No **[!UICONTROL Edit HTML]** , adicione a `upperCase` função de string:
-   1. Na lista , selecione **[!UICONTROL Helper functions]**.
+   1. No menu esquerdo, selecione **[!UICONTROL Helper functions]**.
    1. Use o campo de pesquisa para localizar &quot;maiúsculas&quot;.
    1. Nos resultados da pesquisa, adicione o `upperCase` . Para fazer isso, clique no sinal de adição (+) ao lado de `{%= upperCase(string) %}: string`.
 
@@ -72,8 +72,8 @@ Siga estas etapas:
 
 1. Remova o espaço reservado &quot;string&quot; da expressão.
 1. Adicione o token de nome:
-   1. Na lista , selecione **[!UICONTROL Profile]**.
-   1. Selecione **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
+   1. No menu esquerdo, selecione **[!UICONTROL Profile attributes]**.
+   1. Selecione **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
    1. Adicione o **[!UICONTROL First name]** para a expressão.
 
       O editor de expressão mostra esta expressão:
@@ -84,7 +84,7 @@ Siga estas etapas:
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      Saiba mais sobre o tipo de dados do nome da pessoa [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
+      Saiba mais sobre o tipo de dados do nome da pessoa em [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
 1. Clique em **[!UICONTROL Validate]** e depois em **[!UICONTROL Save]**.
 
@@ -126,7 +126,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. No **[!UICONTROL Edit HTML]** , adicione a `each` auxiliar:
-   1. Na lista , selecione **[!UICONTROL Helper functions]**.
+   1. No menu esquerdo, selecione **[!UICONTROL Helper functions]**.
    1. Use o campo de pesquisa para localizar &quot;cada&quot;.
    1. Nos resultados da pesquisa, adicione o `each` auxiliar.
 
@@ -141,9 +141,9 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 1. Adicione o `productListItems` para a expressão:
 
    1. Remova o espaço reservado &quot;someArray&quot; da expressão.
-   1. Na lista , selecione **[!UICONTROL Context]**.
+   1. No menu esquerdo, selecione **[!UICONTROL Contextual attributes]**.
 
-      O **[!UICONTROL Context]** está disponível somente após o contexto da jornada ter sido passado para a mensagem.
+      **[!UICONTROL Contextual attributes]** estão disponíveis somente após o contexto da jornada ter sido passado para a mensagem.
 
    1. Selecionar **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, em seguida, expanda a **[!UICONTROL productListItems]** nó .
 
@@ -218,7 +218,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. No **[!UICONTROL Edit HTML]** , adicione a `if` auxiliar:
-   1. Na lista , selecione **[!UICONTROL Helper functions]**.
+   1. No menu esquerdo, selecione **[!UICONTROL Helper functions]**.
    1. Use o campo de pesquisa para localizar &quot;if&quot;.
    1. Nos resultados da pesquisa, adicione o `if` auxiliar.
 
@@ -248,7 +248,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 
 1. Adicione o token de nome de produto à condição:
    1. Remova o espaço reservado &quot;condition1&quot; da expressão.
-   1. Na lista , selecione **[!UICONTROL Context]**.
+   1. No menu esquerdo, selecione **[!UICONTROL Contextual attributes]**.
    1. Selecionar **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, em seguida, expanda a **[!UICONTROL productListItems]** nó .
 
       Neste exemplo, *event_name* representa o nome do evento.

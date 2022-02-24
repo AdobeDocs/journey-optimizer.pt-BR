@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '612'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
    ![](assets/perso-uc9.png)
 
-1. Selecione o **Contexto** categoria . Esse item só estará disponível se uma jornada tiver passado dados contextuais para a mensagem. Clique em **Journey Orchestration**. As seguintes informações contextuais são exibidas:
+1. Selecione o **Atributos contextuais** menu. Atributos contextuais só estarão disponíveis se uma jornada tiver passado dados contextuais para a mensagem. Clique em **Journey Orchestration**. As seguintes informações contextuais são exibidas:
 
    * **Eventos**: esta categoria agrupa todos os campos do(s) evento(s) colocado(s) antes da variável **Mensagem** na jornada.
    * **Propriedades da Jornada**: os campos técnicos relacionados à jornada de um determinado perfil, por exemplo, a ID da jornada ou os erros específicos encontrados. Saiba mais em [Documentação do Journey Orchestration](../building-journeys/expression/journey-properties.md).
@@ -94,11 +94,11 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
    ![](assets/perso-uc12.png)
 
-1. Digite a mensagem e insira, no **Contexto** categoria, o nome do item da ordem e o andamento da ordem.
+1. Digite a mensagem e insira, em ****[!UICONTROL Contextual attributes]** , o nome do item da ordem e o andamento da ordem.
 
    ![](assets/perso-uc13.png)
 
-1. No menu suspenso , selecione **Decisão da oferta** para inserir uma variável de offer decisioning. Selecione a disposição e clique no botão **+** ícone ao lado da decisão (anteriormente conhecida como &quot;atividade de oferta&quot;) para adicioná-la ao corpo.
+1. No menu esquerdo, selecione **Decisões de oferta** para inserir uma variável de offer decisioning. Selecione a disposição e clique no botão **+** ícone ao lado da decisão (anteriormente conhecida como &quot;atividade de oferta&quot;) para adicioná-la ao corpo.
 
    ![](assets/perso-uc14.png)
 

@@ -5,10 +5,10 @@ user-guide-title: Manual do Journey Optimizer
 user-guide-description: Usar o Journey Optimizer para fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9db2ec80a23add5d5d01affaf1a7e7772952d487
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 98%
+source-wordcount: '915'
+ht-degree: 99%
 
 ---
 
@@ -50,12 +50,13 @@ ht-degree: 98%
    + [Gerenciar o consentimento](using/messages/consent.md)
 + Personalização{#personalization}
    + [Introdução com personalização](using/personalization/personalize.md)
-   + [contextos de personalização](using/personalization/personalization-contexts.md)
+   + [Contextos de personalização](using/personalization/personalization-contexts.md)
    + Criar expressões {#build-expressions}
       + [Sintaxe de personalização](using/personalization/personalization-syntax.md)
-      + Trabalhar com o Editor de expressão {#expression-editor}
-         + [Sobre o Editor de expressão](using/personalization/personalization-build-expressions.md)
+      + Trabalhar com o editor de expressões {#expression-editor}
+         + [Sobre o editor de expressões](using/personalization/personalization-build-expressions.md)
          + [Adicionar atributos aos favoritos](using/personalization/personalization-favorites.md)
+         + [Trabalhar com expressões salvas](using/personalization/personalization-library.md)
          + [Validação de personalização](using/personalization/personalization-validation.md)
       + Funções auxiliares {#functions}
          + [Introdução a funções auxiliares](using/personalization/functions/functions.md)
