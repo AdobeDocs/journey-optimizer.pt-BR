@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7bae4fbd42b7cf944622b7a42e843681f3e75d2b
+source-git-commit: 894876a79d118ff65738089ecfc89b3cbdcd8d82
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1900'
 ht-degree: 1%
 
 ---
@@ -34,11 +34,11 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
 1. Acesse o **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** , em seguida, clique em **[!UICONTROL Create Message preset]**.
 
-   ![](../assets/preset-create.png)
+   ![](assets/preset-create.png)
 
 1. Insira um nome e uma descrição (opcional) para a predefinição, em seguida, selecione os canais a serem configurados.
 
-   ![](../assets/preset-general.png)
+   ![](assets/preset-general.png)
 
    >[!NOTE]
    >
@@ -52,7 +52,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
 1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Submit]** para confirmar. Você também pode salvar a predefinição de mensagem como rascunho e retomar sua configuração posteriormente.
 
-   ![](../assets/preset-submit.png)
+   ![](assets/preset-submit.png)
 
 1. Depois que a predefinição de mensagem tiver sido criada, ela será exibida na lista com a variável **[!UICONTROL Processing]** status.
 
@@ -74,83 +74,96 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
 1. Depois que as verificações são bem-sucedidas, a predefinição de mensagem recebe a variável **[!UICONTROL Active]** status. Ele está pronto para ser usado para entregar mensagens.
 
-   ![](../assets/preset-active.png)
+   ![](assets/preset-active.png)
 
 ## Definir configurações de email {#configure-email-settings}
 
 As configurações de email são definidas em uma seção dedicada da configuração predefinida de mensagens.
 
-![](../assets/preset-email.png)
+![](assets/preset-email.png)
 
-Para definir as configurações de email associadas à predefinição de mensagens, siga as etapas abaixo:
+Defina as configurações conforme descrito abaixo.
 
-1. Selecione o tipo de mensagem que será enviada com a predefinição: **Transacional** ou **Marketing**.
 
-   >[!CAUTION]
-   >
-   > **Transacional** as mensagens podem ser enviadas aos perfis que cancelaram a assinatura das comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos, como redefinição de senha, status do pedido, notificação de delivery, por exemplo.
+### Tipo de email{#email-type}
+
+No **TIPO DE EMAIL** selecione o tipo de mensagem que será enviada com a predefinição: **Marketing** ou **Transacional**.
+
+Choose **Marketing** para mensagens promocionais: essas mensagens exigem o consentimento do usuário.
+
+Choose **Transacional** para mensagens não comerciais, como confirmação de pedido, notificações de redefinição de senha ou informações de delivery, por exemplo.
+
+>[!CAUTION]
+>
+>**Transacional** as mensagens podem ser enviadas aos perfis que cancelaram a assinatura das comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
+
+
+### Subdomínio e pool IP {#subdomains-and-ip-pools}
+
+No **DETALHES DO SUBDOMÍNIO E IP PPOL** na seção , você deve:
 
 1. Selecione o subdomínio a ser usado para enviar os emails. [Saiba mais](about-subdomain-delegation.md)
 
 1. Selecione o pool de IP a ser associado à predefinição. [Saiba mais](ip-pools.md)
 
-1. Para identificar onde e por que uma pessoa clicou em seu link, é possível adicionar parâmetros de UTM para rastreamento de URL na  **[!UICONTROL URL tracking configuration (web analytics)]** seção.
+### Rastreamento de URL{#url-tracking}
 
-   Com base nos parâmetros definidos, um código de UTM será aplicado ao final do URL incluído no conteúdo da mensagem. Você poderá comparar os resultados em uma ferramenta de análise da Web, como o Adobe Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+Para identificar onde e por que uma pessoa clicou em seu link, é possível adicionar parâmetros de UTM para rastreamento de URL na  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** seção.
 
-   ![](../assets/preset-url-tracking.png)
+Com base nos parâmetros definidos, um código de UTM será aplicado ao final do URL incluído no conteúdo da mensagem. Você poderá comparar os resultados em uma ferramenta de análise da Web, como o Adobe Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
 
-   >[!NOTE]
-   >
-   >É possível adicionar até 10 parâmetros de rastreamento.
+![](assets/preset-url-tracking.png)
 
-   Você pode digitar diretamente o texto desejado na função **[!UICONTROL Name]** e **[!UICONTROL Value]** campos.
+Três parâmetros de UTM estão disponíveis por padrão. É possível adicionar até 10 parâmetros de rastreamento. Para adicionar um parâmetro de UTM, selecione o **[!UICONTROL Add new UTM param]** botão.
 
-   Também é possível escolher em uma lista de valores predefinidos navegando até os seguintes objetos:
+Para configurar um parâmetro de UTM, você pode inserir diretamente os valores desejados no **[!UICONTROL Name]** e **[!UICONTROL Value]** ou escolha em uma lista de valores predefinidos navegando até os seguintes objetos:
 
-   * Atributos de jornada: ID da fonte, Nome da fonte, ID da versão de origem
-   * Atributos da mensagem: ID da ação, Nome da ação
-   * Atributos do offer decisioning: ID da oferta, Nome da oferta
+* Atributos de jornada: ID da fonte, Nome da fonte, ID da versão de origem
+* Atributos da mensagem: ID da ação, Nome da ação
+* Atributos do offer decisioning: ID da oferta, Nome da oferta
 
-   >[!CAUTION]
-   >
-   >Navegue até a pasta necessária e selecione um atributo de perfil para usar como um valor de UTM.
+![](assets/preset-url-tracking-source.png)
 
-   ![](../assets/preset-url-tracking-source.png)
+>[!CAUTION]
+>
+>Não selecione uma pasta: navegue até a pasta necessária e selecione um atributo de perfil para usar como um valor de UTM.
 
-1. Insira o **[!UICONTROL Header parameters]** para os emails enviados usando essa predefinição.
+### Parâmetros de cabeçalho{#email-header}
 
-   >[!CAUTION]
-   >
-   >Os endereços de email devem usar o [subdomínio delegado](about-subdomain-delegation.md).
+No **[!UICONTROL HEADER PARAMETERS]** , insira os endereços de email associados às mensagens enviadas usando essa predefinição. Esses endereços de email devem usar o [subdomínio delegado](about-subdomain-delegation.md).
 
-   * **[!UICONTROL Sender name]**: O nome do remetente, como o nome da sua marca.
+Você deve configurar os seguintes endereços de email
 
-   * **[!UICONTROL Sender email]**: O endereço de email que deseja usar para suas comunicações. Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você pode usar *contact@marketing.luma.com*.
+* **[!UICONTROL Sender name]**: O nome do remetente, como o nome da sua marca.
 
-   * **[!UICONTROL Reply to (name)]**: O nome que será usado quando o recipient clicar no **Responder** no software cliente de email.
+* **[!UICONTROL Sender email]**: O endereço de email que deseja usar para suas comunicações. Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você pode usar *contact@marketing.luma.com*.
 
-   * **[!UICONTROL Reply to (email)]**: O endereço de email que será usado quando o recipient clicar no link **Responder** no software cliente de email. Você deve usar um endereço definido no subdomínio delegado (por exemplo, *reply@marketing.luma.com*), caso contrário, os emails serão descartados.
+* **[!UICONTROL Reply to (name)]**: O nome que será usado quando o recipient clicar no **Responder** no software cliente de email.
 
-   * **[!UICONTROL Error email]**: Todos os erros gerados pelos ISPs após alguns dias de envio de email (rejeições assíncronas) são recebidos neste endereço.
-   >[!NOTE]
-   >
-   >Não é possível definir um endereço de email de encaminhamento no [!DNL Journey Optimizer] interface do usuário. Se desejar que todos os emails sejam recebidos por [!DNL Journey Optimizer] para que o subdomínio delegado seja encaminhado para um endereço de email específico, entre em contato com o [Atendimento ao cliente do Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+* **[!UICONTROL Reply to (email)]**: O endereço de email que será usado quando o recipient clicar no link **Responder** no software cliente de email. Você deve usar um endereço definido no subdomínio delegado (por exemplo, *reply@marketing.luma.com*), caso contrário, os emails serão descartados.
 
-   ![](../assets/preset-header.png)
+* **[!UICONTROL Error email]**: Todos os erros gerados pelos ISPs após alguns dias de envio de email (rejeições assíncronas) são recebidos neste endereço.
 
-   >[!NOTE]
-   >
-   >Os nomes devem começar com uma letra (A-Z) e só podem conter caracteres alfanuméricos. Você também pode usar o sublinhado `_`, ponto`.` e hífen `-` caracteres.
 
-1. Configure o **Parâmetros de nova tentativa de email**. Por padrão, a variável [período de tempo de nova tentativa](retries.md#retry-duration) está definida para 84 horas, mas você pode ajustar essa configuração para melhor atender às suas necessidades.
+![](assets/preset-header.png)
 
-   ![](../assets/preset-retry-paramaters.png)
+>[!NOTE]
+>
+>Os endereços devem começar com uma letra (A-Z) e só podem conter caracteres alfanuméricos. Você também pode usar o sublinhado `_`, ponto`.` e hífen `-` caracteres.
 
-   Você deve inserir um valor inteiro (em horas ou minutos) dentro do seguinte intervalo:
-   * Para o tipo de email de marketing, o período mínimo de tentativas é de 6 horas.
-   * Para o tipo de email transacional, o período mínimo de nova tentativa é de 10 minutos.
-   * Para ambos os tipos de email, o período máximo de tentativas é de 84 horas (ou 5040 minutos).
+### Parâmetros de nova tentativa de email{#email-retry}
+
+Você pode configurar o **Parâmetros de nova tentativa de email**.
+
+![](assets/preset-retry-parameters.png)
+
+Por padrão, a variável [período de tempo de nova tentativa](retries.md#retry-duration) está definida para 84 horas, mas você pode ajustar essa configuração para melhor atender às suas necessidades.
+
+Você deve inserir um valor inteiro (em horas ou minutos) dentro do seguinte intervalo:
+
+* Para emails de marketing, o período mínimo de nova tentativa é de 6 horas.
+* Para emails transacionais, o período mínimo de nova tentativa é de 10 minutos.
+* Para ambos os tipos de email, o período máximo de tentativas é de 84 horas (ou 5040 minutos).
 
 ## Definir configurações de push {#configure-push-settings}
 
@@ -162,7 +175,7 @@ Para definir as configurações de push associadas à predefinição de mensagem
 
 1. Selecione os aplicativos móveis a serem usados para cada plataforma.
 
-![](../assets/preset-push.png)
+![](assets/preset-push.png)
 
 Para obter mais informações sobre como configurar o ambiente para enviar notificações por push, consulte [esta seção](../messages/push-gs.md).
 
@@ -171,7 +184,7 @@ Para obter mais informações sobre como configurar o ambiente para enviar notif
 
 1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
 
-    ![](../assets/preset-sms.png)
+    ![](assets/preset-sms.png)
     
 1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
         
@@ -184,7 +197,7 @@ Para obter mais informações sobre como configurar o ambiente para enviar notif
 
 Todas as suas predefinições de mensagem são exibidas no **[!UICONTROL Channels]** > **[!UICONTROL Message presets]** menu. Os filtros estão disponíveis para ajudar você a navegar pela lista (tipo de canal, usuário, status).
 
-![](../assets/preset-filters.png)
+![](assets/preset-filters.png)
 
 Depois de criadas, as predefinições de mensagem podem ter os seguintes status:
 
@@ -196,7 +209,7 @@ Depois de criadas, as predefinições de mensagem podem ter os seguintes status:
 
 Em caso de falha na criação de uma predefinição de mensagem, os detalhes sobre cada possível motivo de falha são descritos abaixo.
 
-Se um desses erros ocorrer, entre em contato com o [Atendimento ao cliente do Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} para obter assistência.
+Se um desses erros ocorrer, entre em contato com o [Atendimento ao cliente do Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} para obter assistência.
 
 * **Falha na validação do SPF**: O SPF (Sender Policy Framework) é um protocolo de autenticação de email que permite especificar IPs autorizados que podem enviar emails de um determinado subdomínio. Falha na validação de SPF significa que os endereços IP no registro SPF não correspondem aos endereços IP usados para enviar emails para os provedores de caixa de correio.
 
@@ -220,7 +233,7 @@ Para editar uma predefinição de mensagem, siga as etapas abaixo.
 
 1. Na lista, clique em um nome predefinido de mensagem para abri-la.
 
-   ![](../assets/preset-name.png)
+   ![](assets/preset-name.png)
 
 1. Edite as propriedades conforme desejado.
 
@@ -230,7 +243,7 @@ Para editar uma predefinição de mensagem, siga as etapas abaixo.
 
 1. Clique em **[!UICONTROL Submit]** para confirmar as alterações.
 
-   ![](../assets/preset-confirm-update.png)
+   ![](assets/preset-confirm-update.png)
 
    >[!NOTE]
    >
@@ -246,15 +259,15 @@ Para predefinições de mensagens com a variável **[!UICONTROL Active]** , voc�
 
 * Clique no botão **[!UICONTROL Recent update]** ícone que é exibido ao lado do nome da predefinição ativa.
 
-   ![](../assets/preset-recent-update-icon.png)
+   ![](assets/preset-recent-update-icon.png)
 
 * Você também pode acessar os detalhes de atualização de uma predefinição de mensagem ativa enquanto a atualização estiver em andamento.
 
-   ![](../assets/preset-view-update-details.png)
+   ![](assets/preset-view-update-details.png)
 
 No **[!UICONTROL Recent update]** você pode ver informações como o status da atualização e a lista de alterações solicitadas.
 
-![](../assets/preset-recent-update-screen.png)
+![](assets/preset-recent-update-screen.png)
 
 ### Atualizar status {#update-statuses}
 
@@ -316,7 +329,7 @@ Para criar uma **[!UICONTROL Active]** não disponível para criar novas mensage
 
 1. Selecione **[!UICONTROL Deactivate]**.
 
-   ![](../assets/preset-deactivate.png)
+   ![](assets/preset-deactivate.png)
 
 >[!NOTE]
 >
@@ -324,7 +337,7 @@ Para criar uma **[!UICONTROL Active]** não disponível para criar novas mensage
 
 Não é possível editar diretamente uma predefinição de mensagem desativada. No entanto, você pode duplicá-lo e editar a cópia para criar uma nova versão que será usada para criar novas mensagens. Também é possível ativá-la novamente e aguardar até que a atualização seja bem-sucedida na edição.
 
-![](../assets/preset-activate.png)
+![](assets/preset-activate.png)
 
 ## Vídeo tutorial{#video-presets}
 
