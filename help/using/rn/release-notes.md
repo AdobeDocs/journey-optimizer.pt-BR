@@ -2,10 +2,10 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 97d5a5c3432d531fc11a212b9067323b93fc93bb
+source-git-commit: 916868ad4a426bee7b6f6822e2a4e701dcb79e74
 workflow-type: tm+mt
-source-wordcount: '2642'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Biblioteca de personalização de expressão</strong><br/></th>
+<th><strong>Nova biblioteca de expressão de personalização</strong><br/></th>
 </tr>
 </thead>
 <tbody>
