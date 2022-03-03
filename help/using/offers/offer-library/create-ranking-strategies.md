@@ -7,46 +7,14 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: bf9b555d717fe8b6d1e9500ba0a97eaea243dd7f
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 4%
+source-wordcount: '620'
+ht-degree: 6%
 
 ---
 
-# Classificações de IA {#ai-rankings}
-
-## Introdução às classificações de IA {#get-started-with-ai-rankings}
-
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use a trained model system that ranks offers to display for a given profile.
-
->[!CAUTION]
->
->O uso da classificação de IA está disponível no momento somente para usuários selecionados.
-
-Este recurso permite que você crie diferentes **estratégias de classificação** com base em suas metas comerciais. Usando essas diferentes estratégias baseadas em objetivos em uma decisão (anteriormente conhecida como atividade de oferta), o sistema de modelo treinado ajudará você a entender como as diferentes estratégias de classificação estão afetando suas metas.
-
-Por exemplo, você pode selecionar uma estratégia de classificação para o canal de email e outra para o canal de push. Para cada canal, o sistema de modelo treinado aproveitará vários pontos de dados para determinar qual oferta deve ser apresentada primeiro para uma determinada disposição, em vez de considerar as pontuações de prioridade das ofertas ou uma [fórmula de classificação](create-ranking-formulas.md).
-
-<!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
-
-Depois que uma estratégia de classificação tiver sido criada, atribua-a a uma disposição em uma decisão. Saiba mais em [Configurar seleção de ofertas em decisões](../offer-activities/configure-offer-selection.md).
-
-### Modelo de otimização automática {#auto-optimization}
-
-Atualmente em [!DNL Journey Optimizer] o único tipo de modelo suportado para a classificação de AI é **otimização automática**.
-
-Um modelo de otimização automática tem como objetivo fornecer ofertas que maximizem o retorno, com base nos KPIs (indicadores-chave de desempenho) definidos por você. <!--These KPIs could be in the form of conversion rates, revenue, etc.-->Neste ponto, a otimização automática se concentra na otimização de cliques de ofertas com a conversão de ofertas como destino.
-
->[!NOTE]
->
->O modelo de otimização automática não usa dados contextuais ou de perfil de usuário. Ele otimiza resultados com base no desempenho global das ofertas.
-
-Com a otimização automática, o desafio é equilibrar o aprendizado exploratório e o aproveitamento desse aprendizado. Este princípio é conhecido como **abordagem &quot;multi-armed bandit&quot;**.
-
-Para enfrentar esse desafio, o modelo de otimização automática usa a variável **Amostragem de Thompson** , que permite identificar qual opção deve ser realizada para maximizar as recompensas esperadas. Em outras palavras, a Amostragem de Thompson é uma espécie de técnica de aprendizado de reforço para resolver o dilema de exploração de exploração em um problema multi-armed bandit.
-
-O método de Amostragem de Thompson também permite lidar com desafios como o problema de &quot;inicialização imediata&quot;, ou seja, quando uma nova oferta é introduzida na campanha, ela não tem histórico do qual possa treinar.
+# Criar modelos de IA {#ai-rankings}
 
 ## Criar uma estratégia de classificação {#create-ranking-strategy}
 
@@ -66,7 +34,7 @@ Para criar uma estratégia de classificação, siga as etapas abaixo:
 
    * **[!UICONTROL Name]**: Nome exclusivo que deve ser fornecido.
 
-   * **[!UICONTROL Model type]**: Atualmente, o único tipo de modelo compatível é **[!UICONTROL Auto-optimization]**.<!--More will be supported in the future so the drop-down list will be enabled.-->
+   * **[!UICONTROL Model type]**: Atualmente em [!DNL Journey Optimizer] o único tipo de modelo suportado é **[!UICONTROL Auto-optimization]**. [Saiba mais](ai-ranking.md#auto-optimization)
 
    * **[!UICONTROL Optimization metric]**
 
