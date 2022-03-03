@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Cada vez que uma oferta é modificada, o conjunto de dados gerado automaticamente para disposições é atualizado.
 
-![](../../assets/dataset-placements.png)
+![](../assets/dataset-placements.png)
 
 O lote bem-sucedido mais recente no conjunto de dados é exibido à direita. A exibição hierárquica do esquema do conjunto de dados é exibida no painel esquerdo.
 

@@ -1,7 +1,7 @@
 ---
 title: Iniciar a execução da jornada
 description: Saiba como iniciar a jornada e enviar mensagens
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 8%
@@ -21,14 +21,14 @@ Saiba mais nesta [seção](testing-the-journey.md).
 
 Você deve publicar sua jornada para ativá-la.
 
-![](../assets/jo-journeyuc2_32bis.png)
+![](assets/jo-journeyuc2_32bis.png)
 
 Saiba mais nesta [seção](publishing-the-journey.md).
 
 
 Depois de publicada, você pode monitorar sua jornada usando as ferramentas de relatório dedicadas para medir a eficácia da jornada.
 
-![](../assets/jo-dynamic_report_journey_12.png)
+![](assets/jo-dynamic_report_journey_12.png)
 
 [Saiba mais sobre relatórios](../reports/live-report.md)
 
@@ -52,7 +52,7 @@ Para fazer isso, siga as etapas abaixo:
 
 1. Clique no botão **[!UICONTROL Edit journey schedule]** para acessar as propriedades da jornada.
 
-   ![](../assets/message-read-segment-schedule.png)
+   ![](assets/message-read-segment-schedule.png)
 
 1. Configure o **[!UICONTROL Scheduler type]** campo : selecione o valor desejado na lista para fazer com que o segmento insira a jornada em uma data/hora específica ou em uma base recorrente.
 
@@ -60,15 +60,15 @@ Para fazer isso, siga as etapas abaixo:
    >
    >O **[!UICONTROL Schedule]** só estará disponível quando uma **[!UICONTROL Read Segment]** foi colocada na tela.
 
-   ![](../assets/message-read-segment-scheduler.png)
+   ![](assets/message-read-segment-scheduler.png)
 
 1. Se você selecionar **[!UICONTROL Once]**, defina uma data e hora específicas em que o segmento entrará na jornada.
 
-   ![](../assets/message-read-segment-scheduler-once.png)
+   ![](assets/message-read-segment-scheduler-once.png)
 
 1. Se você selecionar um método recorrente, edite a data e a hora de início. Você também pode definir uma data e hora de término opcionais.
 
-   ![](../assets/message-read-segment-scheduler-daily.png)
+   ![](assets/message-read-segment-scheduler-daily.png)
 
    >[!NOTE]
    >

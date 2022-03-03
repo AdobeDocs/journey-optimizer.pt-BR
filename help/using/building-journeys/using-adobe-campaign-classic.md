@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 11%
@@ -27,4 +27,4 @@ Um caso de uso completo é apresentado nesta [seção](../building-journeys/camp
 1. No **Ação** da paleta, selecione uma ação Campanha e adicione-a à jornada.
 1. No **Parâmetros de ação**, todos os campos esperados no payload da mensagem são exibidos. Você precisa mapear cada um desses campos com o campo que deseja usar, do evento ou da fonte de dados. Isso é semelhante às ações personalizadas. Consulte esta [seção](../building-journeys/using-custom-actions.md).
 
-![](../assets/accintegration2.png)
+![](assets/accintegration2.png)

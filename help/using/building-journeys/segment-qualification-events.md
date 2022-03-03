@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posterior na j
 
 1. Expanda a **[!UICONTROL Events]** categoria e solte uma **[!UICONTROL Segment Qualification]** atividade na tela.
 
-   ![](../assets/segment5.png)
+   ![](assets/segment5.png)
 
 1. Adicione um **[!UICONTROL Label]** à atividade . Esta etapa é opcional.
 
@@ -42,13 +42,13 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posterior na j
    >
    >Observe que você pode personalizar as colunas exibidas na lista e classificá-las.
 
-   ![](../assets/segment6.png)
+   ![](assets/segment6.png)
 
    Depois que o segmento é adicionado, a variável **[!UICONTROL Copy]** permite copiar o nome e a ID:
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](../assets/segment-copy.png)
+   ![](assets/segment-copy.png)
 
 1. No **[!UICONTROL Behaviour]** escolha se deseja acompanhar as entradas do segmento, as saídas ou ambos.
 
@@ -58,7 +58,7 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posterior na j
 
 1. Selecione um namespace. Isso só será necessário se o evento for posicionado como a primeira etapa da jornada.
 
-   ![](../assets/segment7.png)
+   ![](assets/segment7.png)
 
 A carga contém as seguintes informações de contexto, que podem ser usadas em condições e ações:
 
@@ -70,7 +70,7 @@ Ao usar o editor de expressão em uma condição ou ação que siga um **[!UICON
 
 Consulte [Atividade de condição](../building-journeys/condition-activity.md#about_condition).
 
-![](../assets/segment8.png)
+![](assets/segment8.png)
 
 Uma nova jornada que inclui um evento de qualificação de segmento é operacional dez minutos após a publicação. Esse intervalo de tempo corresponde ao intervalo de atualização do cache do serviço dedicado. Portanto, é necessário aguardar dez minutos antes de usar essa jornada.
 
@@ -98,10 +98,10 @@ Estas são algumas práticas recomendadas que ajudarão a evitar sobrecarga de s
 
 Não use em **[!UICONTROL Segment Qualification]** , um segmento de lote imediatamente após sua criação. Ele evitará o primeiro pico de cálculo. Observe que haverá um aviso amarelo na tela de jornada se você estiver prestes a usar um segmento que nunca foi calculado.
 
-![](../assets/segment-error.png)
+![](assets/segment-error.png)
 
 Coloque uma regra de limitação para fontes de dados e ações usadas em jornadas para evitar sobrecarregá-las. Saiba mais em [Documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. Observe que a regra de limitação não tem nenhuma tentativa. Se precisar tentar novamente, use um caminho alternativo na jornada marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]** em condições ou ações.
 
 Antes de usar o segmento em uma jornada de produção, sempre avalie primeiro o volume de indivíduos qualificados para esse segmento a cada dia. Para fazer isso, você pode verificar a variável **[!UICONTROL Segments]** abra o segmento e olhe para o menu **[!UICONTROL Profiles over time]** gráfico.
 
-![](../assets/segment-overload.png)
+![](assets/segment-overload.png)

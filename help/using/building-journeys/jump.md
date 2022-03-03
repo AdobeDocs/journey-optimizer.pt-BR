@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 3%
@@ -70,16 +70,16 @@ Na jornada B, o primeiro evento é acionado internamente, por meio da variável 
 
 1. Crie seu **jornada de origem**.
 
-   ![](../assets/jump1.png)
+   ![](assets/jump1.png)
 
 1. Em qualquer etapa da jornada, adicione um **[!UICONTROL Jump]** da **[!UICONTROL ACTIONS]** categoria . Adicione um rótulo e uma descrição.
 
-   ![](../assets/jump2.png)
+   ![](assets/jump2.png)
 
 1. Clique dentro do **Jornada do Target** campo.
 A lista exibe todas as versões de jornada que são rascunho, ativo ou em modo de teste. Jornadas que usam um namespace diferente ou que começam com um **Qualificação do segmento** não estão disponíveis. Jornadas do Target que criariam um padrão de loop também são filtradas.
 
-   ![](../assets/jump3.png)
+   ![](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -88,12 +88,12 @@ A lista exibe todas as versões de jornada que são rascunho, ativo ou em modo d
 1. Selecione a jornada de destino para a qual você deseja ir.
 O **Primeiro evento** O campo é preenchido com o nome do primeiro evento da jornada de destino. Se a jornada de destino incluir vários eventos, a variável **[!UICONTROL Jump]** é permitido somente no primeiro evento.
 
-   ![](../assets/jump4.png)
+   ![](assets/jump4.png)
 
 1. O **Parâmetros de ação** exibe todos os campos do evento de destino. Da mesma forma que para outros tipos de ações, mapeie cada campo com campos do evento de origem ou fonte de dados. Essas informações serão passadas para a jornada de destino no tempo de execução.
 1. Adicione as próximas atividades para finalizar a jornada de origem.
 
-   ![](../assets/jump5.png)
+   ![](assets/jump5.png)
 
 
    >[!NOTE]
@@ -104,7 +104,7 @@ Seu **[!UICONTROL Jump]** está configurada. Assim que sua jornada estiver no mo
 
 Quando uma **[!UICONTROL Jump]** está configurada em uma jornada, uma **[!UICONTROL Jump]** o ícone de entrada é adicionado automaticamente no início da jornada de destino. Isso ajuda a identificar que a jornada pode ser acionada externamente, mas também internamente, a partir de uma **[!UICONTROL Jump]** atividade .
 
-![](../assets/jump7.png)
+![](assets/jump7.png)
 
 ## Solução de problemas
 
@@ -113,4 +113,4 @@ Quando a jornada é publicada ou no modo de teste, os erros acontecerão se:
 * a jornada do target é rascunho, fechada ou interrompida
 * se o primeiro evento da jornada de destino tiver sido alterado e o mapeamento estiver quebrado
 
-![](../assets/jump6.png)
+![](assets/jump6.png)

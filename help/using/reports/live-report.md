@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -20,11 +20,11 @@ Os dados estão disponíveis na variável **[!UICONTROL Live report]** assim que
 
 * Se desejar direcionar uma jornada ou deliveries no contexto de uma jornada, da **[!UICONTROL Journeys]** acesse a jornada e clique no menu **[!UICONTROL Live report]** ícone . Em seguida, você pode encontrar os relatórios Jornada, Email e Enviar ao vivo.
 
-   ![](../assets/report_journey.png)
+   ![](assets/report_journey.png)
 
 * Se quiser direcionar um delivery específico, da variável **[!UICONTROL Live view]** do **[!UICONTROL Executions]** das suas mensagens, selecione **[!UICONTROL Live Report]** no menu avançado do delivery selecionado.
 
-   ![](../assets/report_2.png)
+   ![](assets/report_2.png)
 
 ## Personalizar painel {#modify-dashboard}
 
@@ -32,19 +32,19 @@ Cada painel de relatórios pode ser modificado redimensionando ou removendo widg
 
 1. Escolha se deseja excluir eventos de teste de seus relatórios com a barra de alternância. Para obter mais informações sobre eventos de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-   ![](../assets/report_modify_6.png)
+   ![](assets/report_modify_6.png)
 
 1. Para redimensionar ou remover widgets, clique em **[!UICONTROL Modify]**.
 
-   ![](../assets/report_modify_7.png)
+   ![](assets/report_modify_7.png)
 
 1. Ajuste o tamanho dos widgets arrastando o canto inferior direito.
 
-   ![](../assets/report_modify_8.png)
+   ![](assets/report_modify_8.png)
 
 1. Clique em **[!UICONTROL Remove]** para remover qualquer widget que você não precise.
 
-   ![](../assets/report_modify_9.png)
+   ![](assets/report_modify_9.png)
 
 1. Quando estiver satisfeito com a ordem de exibição e o tamanho dos widgets, clique em **[!UICONTROL Save]**.
 

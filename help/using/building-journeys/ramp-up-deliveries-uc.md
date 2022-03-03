@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 3%
@@ -31,13 +31,13 @@ A finalidade desse caso de uso é criar uma jornada para aumentar seus deliverie
 
    1. Defina as **[!UICONTROL Limit]** para o número máximo de recipients para esse delivery.
 
-   ![](../assets/profile-cap-condition.png)
+   ![](assets/profile-cap-condition.png)
 
    Você pode aumentar gradualmente esse limite até o número total de assinantes.
 
 1. Adicione um **[!UICONTROL Message]** atividade para o caminho nominal após a **[!UICONTROL Condition]** atividade .
 
-   ![](../assets/ramp-up-deliveries-message.png)
+   ![](assets/ramp-up-deliveries-message.png)
 
    Quando a jornada é executada, a mensagem é enviada para os perfis de entrada, até o número máximo de perfis que você especificou. Quando esse limite é atingido, os perfis de entrada seguem o caminho alternativo.
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 7%
@@ -23,7 +23,7 @@ Esses tipos de condições estão disponíveis:
 * [Condição de data](#date_condition)
 * [Tampa do perfil](#profile_cap)
 
-![](../assets/journey49.png)
+![](assets/journey49.png)
 
 ## Sobre a atividade Condição {#about_condition}
 
@@ -31,13 +31,13 @@ Ao usar várias condições em uma jornada, você pode definir rótulos para cad
 
 Clique em **[!UICONTROL Add a path]** se desejar definir várias condições. Para cada condição, um novo caminho é adicionado na tela após a atividade .
 
-![](../assets/journey47.png)
+![](assets/journey47.png)
 
 Observe que o design das jornadas tem impactos funcionais. Quando vários caminhos são definidos após uma condição, somente o primeiro caminho elegível é executado. Isso significa que você pode variar a priorização de caminhos, colocando-os acima ou abaixo uns dos outros.
 
 Por exemplo, vamos considerar o exemplo de uma condição de primeiro caminho &quot;A pessoa é um VIP&quot; e uma condição de segundo caminho &quot;A pessoa é um homem&quot;. Se uma pessoa que cumpre ambas as condições (um homem que é um VIP) passar por esta etapa, o primeiro caminho será escolhido mesmo que essa pessoa também seja elegível para a segunda, porque o primeiro caminho está &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades para outra ordem vertical.
 
-![](../assets/journey48.png)
+![](assets/journey48.png)
 
 Você pode criar outro caminho para públicos-alvo que não estejam qualificados para as condições definidas ao verificar **[!UICONTROL Show path for other cases than the one(s) above]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão de porcentagem](#percentage_split).
 
@@ -46,7 +46,7 @@ O modo simples permite executar consultas simples com base em uma combinação d
 * E: uma interseção de dois critérios. Somente os elementos que correspondem a todos os critérios são considerados.
 * OU: uma união de dois critérios. Os elementos correspondentes a pelo menos um dos critérios são considerados.
 
-![](../assets/journey64.png)
+![](assets/journey64.png)
 
 Se estiver usando o [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;} para criar seus segmentos, você pode aproveitá-los em suas condições de jornada. Consulte [Uso de segmentos em condições](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -63,7 +63,7 @@ No editor simples, você também encontrará a categoria Propriedades da Jornada
 
 Isso permite definir uma condição com base nos campos das fontes de dados ou nos eventos posicionados anteriormente na jornada. Para saber como usar o editor de expressão, consulte [Documentação do Journey Orchestration Adobe](expression/expressionadvanced.md). Usando o editor de expressão avançado, você pode configurar condições mais avançadas manipulando coleções ou usando fontes de dados que exigem a passagem de parâmetros. Consulte [esta página](../datasource/external-data-sources.md).
 
-![](../assets/journey50.png)
+![](assets/journey50.png)
 
 ## Condição de tempo{#time_condition}
 
@@ -73,7 +73,7 @@ Isso permite executar ações diferentes de acordo com a hora do dia e/ou o dia 
 >
 >O fuso horário não é mais específico de uma condição e agora é definido no nível da jornada nas propriedades da jornada. Consulte [esta página](../building-journeys/timezone-management.md).
 
-![](../assets/journey51.png)
+![](assets/journey51.png)
 
 ## Divisão de porcentagem {#percentage_split}
 
@@ -85,7 +85,7 @@ No modo de teste, ao alcançar uma divisão, a ramificação superior é sempre 
 >
 >Observe que não há um botão para adicionar um caminho na condição de divisão de porcentagem. O número de caminhos dependerá do número de divisões. Em condições divididas, não é possível adicionar um caminho para outros casos, pois ele não pode ocorrer. As pessoas sempre vão para um dos caminhos divididos.
 
-![](../assets/journey52.png)
+![](assets/journey52.png)
 
 ## Condição de data {#date_condition}
 
@@ -95,7 +95,7 @@ Isso permite definir um fluxo diferente com base na data. Por exemplo, se a pess
 >
 >O fuso horário não é mais específico de uma condição e agora é definido no nível da jornada nas propriedades da jornada. Consulte [esta página](../building-journeys/timezone-management.md).
 
-![](../assets/journey53.png)
+![](assets/journey53.png)
 
 ## Tampa do perfil {#profile_cap}
 
@@ -116,7 +116,7 @@ Para jornadas ao vivo, aqui estão os limites a serem considerados para garantir
 
 O limite de perfil não é considerado no modo de teste.
 
-![](../assets/profile-cap-condition.png)
+![](assets/profile-cap-condition.png)
 
 ## Uso de segmentos em condições {#using-a-segment}
 
@@ -125,15 +125,15 @@ Esta seção explica como usar um segmento em uma condição de jornada. Para ob
 Para usar um segmento em uma condição de jornada, siga estas etapas:
 
 1. Abra uma jornada, solte uma **[!UICONTROL Condition]** e escolha a **Condição da fonte de dados**.
-   ![](../assets/journey47.png)
+   ![](assets/journey47.png)
 
 1. Clique em **[!UICONTROL Add a path]** para cada caminho extra necessário. Para cada caminho, clique no botão **[!UICONTROL Expression]** campo.
 
-   ![](../assets/segment3.png)
+   ![](assets/segment3.png)
 
 1. No lado esquerdo, expanda-se **[!UICONTROL Segments]** nó . Arraste e solte o segmento que deseja usar para sua condição. Por padrão, a condição no segmento é verdadeira.
 
-   ![](../assets/segment4.png)
+   ![](assets/segment4.png)
 
    >[!NOTE]
    >

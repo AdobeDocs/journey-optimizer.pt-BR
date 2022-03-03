@@ -6,8 +6,8 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
-workflow-type: ht
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ A capacidade de gerenciamento de decisão consiste em dois componentes principai
 * A **Biblioteca de ofertas centralizada**, que é a interface na qual você cria e gerencia os diferentes elementos que compõem suas ofertas e define suas regras e restrições.
 * O **mecanismo do Offer Decision**, que aproveita os dados da Adobe Experience Platform e perfis de clientes em tempo real, junto com a biblioteca de ofertas, para selecionar o momento, os clientes e os canais certos aos quais as ofertas serão entregues.
 
-![](../../assets/architecture.png)
+![](../assets/architecture.png)
 
 Os benefícios incluem:
 
@@ -42,7 +42,7 @@ Uma **Oferta** é composta de conteúdo, regras de elegibilidade e restrições 
 
 Ela é criada usando a **Biblioteca de ofertas**, que fornece um catálogo de ofertas central, em que você pode associar regras e restrições de elegibilidade a vários conteúdos para criar e publicar ofertas (consulte [Interface de usuário da Biblioteca de ofertas](../get-started/user-interface.md)).
 
-![](../../assets/offer_structure.png)
+![](../assets/offer_structure.png)
 
 Depois que a Biblioteca de ofertas foi enriquecida com ofertas, você pode integrar suas ofertas em **decisões** (antes conhecidas como &quot;atividades de oferta&quot;).
 
@@ -54,11 +54,11 @@ Os recursos e a integração do Gerenciamento de decisão com a Adobe Experience
 
 * Exiba em seu site as ofertas da página inicial que corresponderão ao ponto de interesse do cliente visitante, com base nos dados da Adobe Experience Platform.
 
-   ![](../../assets/website.png)
+   ![](../assets/website.png)
 
 * Se os clientes se aproximarem de uma de suas lojas, envie a eles notificações por push lembrando as ofertas disponíveis de acordo com seus atributos (nível de fidelidade, sexo, compras anteriores...).
 
-   ![](../../assets/push_sample.png)
+   ![](../assets/push_sample.png)
 
 * O Gerenciamento de decisão também ajuda você a aprimorar a experiência dos clientes ao entrar em contato com a equipe de suporte. As APIS do Gerenciamento de decisão permitem exibir no portal de agentes da central de atendimento informações sobre as melhores ofertas resgatadas do cliente e as próximas melhores ofertas.
 

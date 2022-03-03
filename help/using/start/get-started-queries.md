@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 12%
@@ -19,7 +19,7 @@ O Editor de consultas é uma ferramenta interativa fornecida pelo Serviço de co
 O Editor de consultas oferece suporte ao desenvolvimento de consultas para análise e exploração de dados e permite que você execute consultas interativas para fins de desenvolvimento, bem como consultas não interativas para preencher [conjuntos de dados](get-started-datasets.md).
 
 
-![](../assets/queries-home.png)
+![](assets/queries-home.png)
 
 Saiba como usar o Editor de consultas no [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target=&quot;_blank&quot;}.
 

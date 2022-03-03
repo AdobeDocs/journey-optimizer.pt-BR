@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Esta seção apresenta um caso de uso que combina um Segmento de leitura, um evento, eventos de reação e mensagens de email/push.
 
-![](../assets/jo-uc1.png)
+![](assets/jo-uc1.png)
 
 ## Descrição do caso de uso
 
@@ -53,7 +53,7 @@ Para obter mais informações sobre segmentos, consulte esta seção [página](.
 
 1. Clique em **[!UICONTROL Save]**.
 
-   ![](../assets/add-attributes.png)
+   ![](assets/add-attributes.png)
 
 O segmento agora é criado e pronto para ser usado em sua jornada. Uso de uma **Ler segmento** , é possível fazer com que todos os indivíduos pertencentes ao segmento entrem na jornada.
 
@@ -77,7 +77,7 @@ Para isso, usamos um evento com base em regras. Para obter mais informações so
 
 1. Clique em **[!UICONTROL Save]**.
 
-   ![](../assets/jo-uc2.png)
+   ![](assets/jo-uc2.png)
 
 O evento agora está configurado e pronto para ser usado em sua jornada. Usando a atividade de evento correspondente, você pode acionar uma ação sempre que um cliente fizer uma compra.
 
@@ -89,7 +89,7 @@ Para esse caso de uso, precisamos criar três mensagens:
 * uma mensagem de push &quot;obrigado&quot;
 * uma mensagem de acompanhamento por email
 
-![](../assets/jo-uc3.png)
+![](assets/jo-uc3.png)
 
 Consulte esta [seção](../segment/about-segments.md) para saber como criar e publicar essas mensagens.
 
@@ -97,11 +97,11 @@ Consulte esta [seção](../segment/about-segments.md) para saber como criar e pu
 
 1. Inicie a jornada com um **Ler segmento** atividade . Selecione o segmento criado anteriormente. Todos os indivíduos pertencentes ao segmento entram na jornada.
 
-   ![](../assets/jo-uc4.png)
+   ![](assets/jo-uc4.png)
 
 1. Solte uma **Mensagem** e selecione a primeira mensagem de push e email. Esta mensagem é enviada a todos os indivíduos na jornada.
 
-   ![](../assets/jo-uc5.png)
+   ![](assets/jo-uc5.png)
 
 1. Coloque o cursor na atividade da mensagem e clique no símbolo &quot;+&quot; para criar um novo caminho.
 

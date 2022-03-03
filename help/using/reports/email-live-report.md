@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 2%
@@ -19,11 +19,11 @@ O email **[!UICONTROL Live report]** direciona somente um delivery de email espe
 
 No **[!UICONTROL Executions]** da guia **[!UICONTROL Messages]** selecione **[!UICONTROL Live view]** em seguida, no menu avançado do delivery selecionado, selecione **[!UICONTROL Live report]**.
 
-![](../assets/live_report.png)
+![](assets/live_report.png)
 
 O email **[!UICONTROL Live report]** O é dividido em diferentes widgets detalhando o sucesso e os erros do delivery. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte [seção](live-report.md#modify-dashboard).
 
-![](../assets/live_report_5.png)
+![](assets/live_report_5.png)
 
 **[!UICONTROL Email performance]** e **[!UICONTROL Email summary]** os widgets detalham as informações principais relativas à sua mensagem com um gráfico e KPIs:
 
@@ -55,7 +55,7 @@ O **[!UICONTROL Sending Statistics]** O widget detalha o sucesso do seu delivery
 
 * **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
 
-![](../assets/live_report_6.png)
+![](assets/live_report_6.png)
 
 O **[!UICONTROL Error Reasons]** gráfico e tabela permitem ver qual erro ocorreu durante o delivery.
 
@@ -68,7 +68,7 @@ O **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** os widget
 * **[!UICONTROL Ignored]**: O número total de temporários, como Ausência temporária, ou um erro técnico, por exemplo, se o tipo de remetente for postmaster.
 
 <!--
-![](../assets/live_report_8.png)
+![](assets/live_report_8.png)
 
 >[!NOTE]
 >

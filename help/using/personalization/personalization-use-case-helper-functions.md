@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 4%
@@ -42,20 +42,20 @@ Siga estas etapas:
 ## Etapa 1: Criar o email{#configure-email}
 
 1. Crie ou modifique uma mensagem de email, em seguida, clique em **[!UICONTROL Email Designer]**.
-   ![](../assets/personalization-uc-helpers-1.png)
+   ![](assets/personalization-uc-helpers-1.png)
 
 1. Na paleta esquerda da página inicial do Designer de email, arraste e solte três componentes da estrutura no corpo da mensagem.
 
 1. Arraste e solte um componente de conteúdo HTML em cada novo componente de estrutura.
 
-   ![](../assets/personalization-uc-helpers-2.png)
+   ![](assets/personalization-uc-helpers-2.png)
 
 ## Etapa 2: Inserir o nome do cliente em maiúsculas {#uppercase-function}
 
 1. Na página inicial do Designer de email, clique no componente HTML, onde deseja adicionar o nome do cliente.
 1. Na barra de ferramentas contextual, clique em **[!UICONTROL Show the source code]**.
 
-   ![](../assets/personalization-uc-helpers-3.png)
+   ![](assets/personalization-uc-helpers-3.png)
 
 1. No **[!UICONTROL Edit HTML]** , adicione a `upperCase` função de string:
    1. No menu esquerdo, selecione **[!UICONTROL Helper functions]**.
@@ -68,7 +68,7 @@ Siga estas etapas:
       {%= upperCase(string) %}
       ```
 
-      ![](../assets/personalization-uc-helpers-4.png)
+      ![](assets/personalization-uc-helpers-4.png)
 
 1. Remova o espaço reservado &quot;string&quot; da expressão.
 1. Adicione o token de nome:
@@ -82,13 +82,13 @@ Siga estas etapas:
       {%= upperCase(profile.person.name.firstName) %}
       ```
 
-      ![](../assets/personalization-uc-helpers-5.png)
+      ![](assets/personalization-uc-helpers-5.png)
 
       Saiba mais sobre o tipo de dados do nome da pessoa em [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
 1. Clique em **[!UICONTROL Validate]** e depois em **[!UICONTROL Save]**.
 
-   ![](../assets/personalization-uc-helpers-6.png)
+   ![](assets/personalization-uc-helpers-6.png)
 1. Salve a mensagem.
 
 ## Etapa 3: Crie o evento inicial e a jornada relacionada {#create-context}
@@ -106,24 +106,24 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 
    Como você ainda não publicou a mensagem, não é possível testar nem publicar a jornada.
 
-   ![](../assets/personalization-uc-helpers-7.png)
+   ![](assets/personalization-uc-helpers-7.png)
 
 1. Clique em **[!UICONTROL OK]**.
 
    Uma mensagem informa que o contexto da jornada foi passado para a mensagem.
 
-   ![](../assets/personalization-uc-helpers-8.png)
+   ![](assets/personalization-uc-helpers-8.png)
 
 ## Etapa 4: Inserir a lista de itens do carrinho {#each-helper}
 
 1. Reabra a mensagem.
 
-   ![](../assets/personalization-uc-helpers-18.png)
+   ![](assets/personalization-uc-helpers-18.png)
 
 1. Na página inicial do Designer de email, clique no componente HTML, onde deseja listar o conteúdo do carrinho.
 1. Na barra de ferramentas contextual, clique em **[!UICONTROL Show the source code]**.
 
-   ![](../assets/personalization-uc-helpers-3.png)
+   ![](assets/personalization-uc-helpers-3.png)
 
 1. No **[!UICONTROL Edit HTML]** , adicione a `each` auxiliar:
    1. No menu esquerdo, selecione **[!UICONTROL Helper functions]**.
@@ -136,7 +136,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
       {{#each someArray as |variable|}} {{/each}}
       ```
 
-      ![](../assets/personalization-uc-helpers-9.png)
+      ![](assets/personalization-uc-helpers-9.png)
 
 1. Adicione o `productListItems` para a expressão:
 
@@ -158,7 +158,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
       ```
       Neste exemplo, *event_ID* representa a ID do evento.
 
-      ![](../assets/personalization-uc-helpers-10.png)
+      ![](assets/personalization-uc-helpers-10.png)
 
    1. Modifique a expressão:
       1. Remova a string &quot;.product&quot;.
@@ -208,14 +208,14 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
    {{/each}}
    ```
 1. Clique em **[!UICONTROL Validate]** e depois em **[!UICONTROL Save]**.
-   ![](../assets/personalization-uc-helpers-11.png)
+   ![](assets/personalization-uc-helpers-11.png)
 
 ## Etapa 5: Inserir uma nota específica do produto {#if-helper}
 
 1. Na página inicial do Designer de email, clique no componente HTML onde deseja inserir a nota.
 1. Na barra de ferramentas contextual, clique em **[!UICONTROL Show the source code]**.
 
-   ![](../assets/personalization-uc-helpers-3.png)
+   ![](assets/personalization-uc-helpers-3.png)
 
 1. No **[!UICONTROL Edit HTML]** , adicione a `if` auxiliar:
    1. No menu esquerdo, selecione **[!UICONTROL Helper functions]**.
@@ -230,7 +230,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
          {%else%} default_render
       {%/if%}
       ```
-      ![](../assets/personalization-uc-helpers-12.png)
+      ![](assets/personalization-uc-helpers-12.png)
 
 1. Remova essa condição da expressão:
 
@@ -263,7 +263,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
          {%else%} default_render
       {%/if%}
       ```
-      ![](../assets/personalization-uc-helpers-13.png)
+      ![](assets/personalization-uc-helpers-13.png)
 
 1. Modifique a expressão:
    1. No Editor de expressão, especifique o nome do produto após a `name` token.
@@ -296,7 +296,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
    1. Remova o espaço reservado &quot;default_render&quot; da expressão.
 1. Clique em **[!UICONTROL Validate]** e depois em **[!UICONTROL Save]**.
 
-   ![](../assets/personalization-uc-helpers-14.png)
+   ![](assets/personalization-uc-helpers-14.png)
 
 1. Salve e publique a mensagem.
 
@@ -307,19 +307,19 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 
    Você pode ativar o modo de teste somente depois de publicar a mensagem.
 
-   ![](../assets/personalization-uc-helpers-15.png)
+   ![](assets/personalization-uc-helpers-15.png)
 
 1. No **[!UICONTROL Event configuration]** , insira os valores de entrada e clique em **[!UICONTROL Send]**.
 
    O modo de teste funciona somente com perfis de teste.
 
-   ![](../assets/personalization-uc-helpers-16.png)
+   ![](assets/personalization-uc-helpers-16.png)
 
    O email é enviado para o endereço do perfil de teste.
 
    Neste exemplo, o email contém a nota sobre a Jaqueta de Juno porque este produto está no carrinho:
 
-   ![](../assets/personalization-uc-helpers-17.png)
+   ![](assets/personalization-uc-helpers-17.png)
 
 1. Verifique se não há erro e publique a jornada.
 

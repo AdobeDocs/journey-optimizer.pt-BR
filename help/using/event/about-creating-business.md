@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 12%
@@ -54,15 +54,15 @@ Estas são as primeiras etapas para configurar um evento comercial:
 
 1. Na seção do menu ADMINISTRATION (ADMINISTRAÇÃO), selecione **[!UICONTROL Configurations]**. No  **[!UICONTROL Events]** seção , clique em **[!UICONTROL Manage]**. A lista dos eventos é exibida.
 
-   ![](../assets/jo-event1.png)
+   ![](assets/jo-event1.png)
 
 1. Clique em **[!UICONTROL Create Event]** para criar um novo evento. O painel de configuração do evento é aberto no lado direito da tela.
 
-   ![](../assets/jo-event2.png)
+   ![](assets/jo-event2.png)
 
 1. Insira o nome do evento. Você também pode adicionar uma descrição.
 
-   ![](../assets/jo-event3-business.png)
+   ![](assets/jo-event3-business.png)
 
    >[!NOTE]
    >
@@ -70,20 +70,20 @@ Estas são as primeiras etapas para configurar um evento comercial:
 
 1. No **[!UICONTROL Type]** , escolha **Negócios**.
 
-   ![](../assets/jo-event3bis-business.png)
+   ![](assets/jo-event3bis-business.png)
 
 1. O número de jornadas que usam esse evento é exibido no campo **[!UICONTROL Used in]**. Você pode clicar no ícone **[!UICONTROL View journeys]** para exibir a lista de jornadas usando esse evento.
 
 1. Defina os campos schema e payload: é aqui que você seleciona as informações do evento (normalmente chamadas de carga útil) que o jornada espera receber. Você poderá então usar essas informações em sua jornada. Consulte [esta seção](../event/about-creating-business.md#define-the-payload-fields).
 
-   ![](../assets/jo-event5-business.png)
+   ![](assets/jo-event5-business.png)
 
    Apenas estão disponíveis esquemas de séries cronológicas. Os esquemas Eventos de experiência, Eventos de decisão e Eventos de etapa de Jornada não estão disponíveis. O schema de eventos deve conter uma identidade primária. Os seguintes campos devem ser definidos conforme necessário: `_id` e `timestamp`
 
-   ![](../assets/test-profiles-4.png)
+   ![](assets/test-profiles-4.png)
 
 1. Clique dentro do **[!UICONTROL Event ID condition]** campo. Usando o editor de expressões simples, defina a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
-   ![](../assets/jo-event6-business.png)
+   ![](assets/jo-event6-business.png)
 
    Em nosso exemplo, escrevemos uma condição com base na ID do produto. Isso significa que sempre que o sistema receber um evento que corresponda a essa condição, ele o passará para o jornada.
 
@@ -93,7 +93,7 @@ Estas são as primeiras etapas para configurar um evento comercial:
 
 1. Clique em **[!UICONTROL Save]**.
 
-   ![](../assets/journey7-business.png)
+   ![](assets/journey7-business.png)
 
    Agora o evento está configurado e pronto para ser lançado em uma jornada. Etapas de configuração adicionais são necessárias para receber eventos. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
 
@@ -103,11 +103,11 @@ A definição de carga permite escolher as informações que o sistema espera re
 
 1. Selecione um esquema XDM na lista e clique no botão **[!UICONTROL Fields]** ou no **[!UICONTROL Edit]** ícone .
 
-   ![](../assets/journey8-business.png)
+   ![](assets/journey8-business.png)
 
    Todos os campos definidos no schema são exibidos. A lista de campos varia de um schema para outro. Você pode pesquisar um campo específico ou usar os filtros para exibir todos os nós e campos ou somente os campos selecionados. De acordo com a definição do schema, alguns campos podem ser obrigatórios e pré-selecionados. Não é possível desmarcá-los. Todos os campos obrigatórios para o evento ser recebido corretamente pelo jornada são selecionados por padrão.
 
-   ![](../assets/journey9-business.png)
+   ![](assets/journey9-business.png)
 
    >[!NOTE]
    >
@@ -119,7 +119,7 @@ A definição de carga permite escolher as informações que o sistema espera re
 
    O número de campos selecionados é exibido na **[!UICONTROL Fields]** campo.
 
-   ![](../assets/journey12-business.png)
+   ![](assets/journey12-business.png)
 
 ## Visualizar a carga {#preview-the-payload}
 
@@ -127,11 +127,11 @@ A pré-visualização de carga permite validar a definição da carga útil.
 
 1. Clique no botão **[!UICONTROL View Payload]** ícone para visualizar a carga esperada pelo sistema.
 
-   ![](../assets/journey13-business.png)
+   ![](assets/journey13-business.png)
 
    Observe que os campos selecionados são exibidos.
 
-   ![](../assets/journey14-business.png)
+   ![](assets/journey14-business.png)
 
 1. Verifique a pré-visualização para validar a definição da carga útil.
 

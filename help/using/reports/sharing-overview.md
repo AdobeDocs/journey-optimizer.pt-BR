@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 4%
@@ -39,9 +39,9 @@ Os seguintes esquemas são criados:
 * Esquema do Evento de etapa de Jornada para [!DNL Journey Orchestration] - Evento de etapa de Jornada vinculado a um Metadado de Jornada.
 * Jornada esquema com Campos de Jornada para [!DNL Journey Orchestration] - Jornada metadados para descrever Jornadas.
 
-![](../assets/sharing1.png)
+![](assets/sharing1.png)
 
-![](../assets/sharing2.png)
+![](assets/sharing2.png)
 
 Os seguintes conjuntos de dados são transmitidos:
 
@@ -49,7 +49,7 @@ Os seguintes conjuntos de dados são transmitidos:
 * Jornada de eventos em etapas
 * Jornadas
 
-![](../assets/sharing3.png)
+![](assets/sharing3.png)
 
 As listas de campos XDM passados para o Adobe Experience Platform são detalhadas aqui:
 

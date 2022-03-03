@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 17%
@@ -21,17 +21,17 @@ Uma disposição ajuda a garantir que o conteúdo de oferta correto seja exibido
 
 No exemplo abaixo, há três disposições, correspondentes a diferentes tipos de conteúdo (imagem, texto, HTML).
 
-![](../../assets/offers_placement_schema.png)
+![](../assets/offers_placement_schema.png)
 
 A lista de disposições pode ser acessada na seção **[!UICONTROL Components]** menu. Os filtros estão disponíveis para ajudá-lo a recuperar disposições de acordo com um canal ou conteúdo específico.
 
-![](../../assets/placements_filter.png)
+![](../assets/placements_filter.png)
 
 Para criar uma disposição, siga estas etapas:
 
 1. Clique em **[!UICONTROL Create placement]**.
 
-   ![](../../assets/offers_placement_creation.png)
+   ![](../assets/offers_placement_creation.png)
 
 1. Defina as propriedades da disposição:
 
@@ -40,13 +40,13 @@ Para criar uma disposição, siga estas etapas:
    * **[!UICONTROL Content type]**: O tipo de conteúdo que a disposição poderá exibir: Texto, HTML ou Link de imagem.
    * **[!UICONTROL Description]**: Uma descrição da disposição (opcional).
 
-   ![](../../assets/offers_placement_creation_properties.png)
+   ![](../assets/offers_placement_creation_properties.png)
 
 1. Clique em **[!UICONTROL Save]** para confirmar.
 
 1. Depois que a disposição é criada, ela é exibida na lista de disposições. Você pode selecioná-lo para exibir suas propriedades e editá-lo.
 
-   ![](../../assets/placement_created.png)
+   ![](../assets/placement_created.png)
 
 ## Tutorial em vídeo {#video}
 

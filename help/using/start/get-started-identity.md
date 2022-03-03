@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 9%
@@ -20,7 +20,7 @@ As Informações pessoais identificáveis (PII), como endereço de email e núme
 
 Em [!DNL Adobe Journey Optimizer], **Identidades** vincular consumidores em dispositivos e canais, o resultado é um [gráfico de identidade](#id-graph). O gráfico de identidade vinculado é usado para personalizar experiências com base em interações em todos os pontos de contato comerciais.
 
-![](../assets/identities-home.png)
+![](assets/identities-home.png)
 
 Saiba mais sobre **Serviço de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: c9f260444e1cd20e66421a87dd62c5ae7209ee06
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 5%
@@ -43,13 +43,13 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
    >
    >Somente os indivíduos com a variável **Realizado** e **Existente** os status de participação do segmento inserirão a jornada. Para obter mais informações sobre como avaliar um segmento, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
-   ![](../assets/read-segment-selection.png)
+   ![](assets/read-segment-selection.png)
 
    Depois que o segmento é adicionado, a variável **[!UICONTROL Copy]** permite copiar o nome e a ID:
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](../assets/read-segment-copy.png)
+   ![](assets/read-segment-copy.png)
 
 1. No **[!UICONTROL Namespace]** escolha o namespace a ser usado para identificar os indivíduos. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace).
 
@@ -67,7 +67,7 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
 
 1. O **[!UICONTROL Read Segment]** permite especificar a hora em que o segmento entrará na jornada. Para fazer isso, clique no botão **[!UICONTROL Edit journey schedule]** para acessar as propriedades da jornada e configure a variável **[!UICONTROL Scheduler type]** campo.
 
-   ![](../assets/read-segment-schedule.png)
+   ![](assets/read-segment-schedule.png)
 
    Por padrão, os segmentos entram na jornada **[!UICONTROL As soon as possible]**. Se desejar que o segmento insira a jornada em uma data/hora específica ou em uma base recorrente, selecione o valor desejado na lista.
 
@@ -75,7 +75,7 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
    >
    >Observe que a variável **[!UICONTROL Schedule]** só estará disponível quando uma **[!UICONTROL Read Segment]** A atividade foi solta na tela.
 
-   ![](../assets/read-segment-schedule-list.png)
+   ![](assets/read-segment-schedule-list.png)
 
    O **Leitura incremental** permite direcionar somente os indivíduos que entraram no segmento desde a última execução da jornada. A primeira execução sempre direciona a todos os membros do segmento. Essa opção só está disponível para recorrente **Ler segmento** atividades.
 
@@ -104,7 +104,7 @@ O **[!UICONTROL Read Segment]** A atividade permite testar a jornada em um perfi
 
 Para fazer isso, ative o modo de teste e selecione a opção desejada no painel esquerdo.
 
-![](../assets/read-segment-test-mode.png)
+![](assets/read-segment-test-mode.png)
 
 Em seguida, você pode configurar e executar o modo de teste como de costume. [Saiba como testar uma jornada](testing-the-journey.md).
 
@@ -116,7 +116,7 @@ Quando o teste estiver em execução, a função **[!UICONTROL Show logs]** perm
 
    Observe que testar a jornada usando até 100 perfis simultaneamente não permite rastrear o progresso dos indivíduos na jornada usando o fluxo visual.
 
-   ![](../assets/read-segment-log.png)
+   ![](assets/read-segment-log.png)
 
 Após os testes serem bem-sucedidos, você pode publicar sua jornada (consulte [Publicar a jornada](publishing-the-journey.md)). Os indivíduos pertencentes ao segmento inserirão a jornada na data/hora especificada nas propriedades da jornada **[!UICONTROL Scheduler]** seção.
 
@@ -144,7 +144,7 @@ A segmentação pode ser baseada em:
 * uma hora, por exemplo: é manhã no fuso horário da pessoa?
 * um algoritmo que divide o público-alvo fluindo na jornada com base em uma porcentagem, por exemplo: 90% - 10% para excluir um grupo de controle
 
-![](../assets/read-segment-audience1.png)
+![](assets/read-segment-audience1.png)
 
 **Exclusão**
 
@@ -152,7 +152,7 @@ O mesmo **Condição** A atividade usada para segmentação (veja acima) também
 
 Essa exclusão pode ocorrer logo após a recuperação do segmento, para fins de contagem de população ou ao longo de uma jornada de várias etapas.
 
-![](../assets/read-segment-audience2.png)
+![](assets/read-segment-audience2.png)
 
 **União**
 
@@ -164,4 +164,4 @@ Por exemplo, depois de seguir uma experiência diferente durante dez dias em uma
 
 Após uma união, você pode dividir o público novamente executando uma segmentação ou uma exclusão.
 
-![](../assets/read-segment-audience3.png)
+![](assets/read-segment-audience3.png)

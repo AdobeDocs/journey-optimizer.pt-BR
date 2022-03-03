@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 11%
@@ -31,11 +31,11 @@ Estas são as etapas principais para adicionar grupos de campos à fonte de dado
 
    Essa ação abre o painel de configuração da fonte de dados no lado direito da tela.
 
-   ![](../assets/journey23.png)
+   ![](assets/journey23.png)
 
 1. Clique em **[!UICONTROL Add a New Field Group]** para definir uma nova série de campos a serem recuperados. Consulte [esta página](../datasource/configure-data-sources.md#define-field-groups).
 
-   ![](../assets/journey24.png)
+   ![](assets/journey24.png)
 
 1. Selecione um schema no **[!UICONTROL Schema]** lista suspensa. Este campo lista os esquemas Perfil e Eventos de experiência disponíveis no Adobe Experience Platform. A criação do schema não é executada em [!DNL Journey Optimizer]. Ele é executado no Adobe Experience Platform.
 1. Selecione os campos que deseja usar.

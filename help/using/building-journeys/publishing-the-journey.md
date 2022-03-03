@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 6%
@@ -24,6 +24,6 @@ Se parar uma jornada, ela será interrompida permanentemente. Todas as pessoas q
 1. Antes de publicar sua jornada, verifique se ela é válida e se não há erro. Você não poderá publicar uma jornada com erros. Consulte [esta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Também é recomendável testar sua jornada antes da publicação. Consulte [esta página](../building-journeys/testing-the-journey.md).
 1. Para publicar a jornada, clique no botão **[!UICONTROL Publish]** , localizada no menu suspenso superior direito.
 
-   ![](../assets/journeyuc1_18.png)
+   ![](assets/journeyuc1_18.png)
 
 Quando a jornada é publicada, ela está no modo somente leitura.

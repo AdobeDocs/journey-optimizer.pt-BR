@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 1%
@@ -19,11 +19,11 @@ O email **[!UICONTROL Global report]** direciona somente um delivery de email es
 
 No **[!UICONTROL Executions]** da guia **[!UICONTROL Messages]** selecione **[!UICONTROL Global view]** em seguida, no menu avançado do delivery selecionado, selecione **[!UICONTROL Global report]**.
 
-![](../assets/global_report_3.png)
+![](assets/global_report_3.png)
 
 O email **[!UICONTROL Global report]** O é dividido em diferentes widgets detalhando o sucesso e os erros do delivery. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte [seção](global-report.md#modify-dashboard).
 
-![](../assets/global_report_4.png)
+![](assets/global_report_4.png)
 
 **[!UICONTROL Email performance]** detalha as informações principais relativas à sua mensagem com KPIs:
 
@@ -65,7 +65,7 @@ O **[!UICONTROL Sending Statistics]** gráfico detalha o sucesso do seu delivery
 
 * **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
 
-![](../assets/global_report_5.png)
+![](assets/global_report_5.png)
 
 O **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** os widgets contêm os dados disponíveis relacionados às mensagens devolvidas, como:
 
@@ -79,7 +79,7 @@ Para obter mais informações sobre devoluções, consulte [Lista de supressão]
 
 O **[!UICONTROL Error Reasons]** gráfico e tabela permitem ver qual erro ocorreu durante o delivery.
 
-![](../assets/global_report_6.png)
+![](assets/global_report_6.png)
 
 O **[!UICONTROL Email - Top recipient domain]** gráfico e tabela detalham quais domínios são os mais usados pelos recipients para abrir o email.
 
@@ -92,7 +92,7 @@ O **[!UICONTROL Open vs Click]** identifica a interação dos recipients com o d
 * **[!UICONTROL Unique Opens]**: Número de recipients que abriram o delivery.
 
 <!--
-![](../assets/global_report_20.png)
+![](assets/global_report_20.png)
 
 >[!NOTE]
 >

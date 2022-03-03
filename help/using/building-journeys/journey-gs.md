@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 9%
@@ -21,19 +21,19 @@ Para enviar mensagens com o jornada, a seguinte configuração é necessária:
 
 1. **Configurar um evento**: se quiser acionar as jornadas manualmente quando um evento for recebido, será necessário configurar um evento. Você define as informações esperadas e como processá-las. Esta etapa é executada por um **usuário técnico**. [Leia mais](../event/about-events.md).
 
-   ![](../assets/jo-event7bis.png)
+   ![](assets/jo-event7bis.png)
 
 1. **Criar um segmento**: sua jornada também pode acompanhar segmentos do Adobe Experience Platform para enviar mensagens em lote a um conjunto especificado de perfis. Para isso, é necessário criar segmentos. [Leia mais](../segment/about-segments.md).
 
-   ![](../assets/segment2.png)
+   ![](assets/segment2.png)
 
 1. **Configurar a fonte de dados**: você pode definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas, por exemplo, em suas condições. Uma fonte de dados integrada da Adobe Experience Platform também é configurada no momento do provisionamento. Esta etapa não é necessária se você usar somente os dados dos eventos em sua jornada. Esta etapa é executada por um **usuário técnico**. [Leia mais](../datasource/about-data-sources.md)
 
-   ![](../assets/jo-datasource.png)
+   ![](assets/jo-datasource.png)
 
 1. **Configurar uma ação**: Os recursos de mensagens do Journey Optimizer são integrados, basta criar o conteúdo e publicar a mensagem. Consulte [esta seção](../messages/get-started-content.md). Se você estiver usando um sistema de terceiros para enviar mensagens, é possível criar uma ação personalizada. Saiba mais nesta [seção](../action/action.md). Esta etapa é executada por um **usuário técnico**.
 
-   ![](../assets/create-content-push.png)
+   ![](assets/create-content-push.png)
 
 ## Criar a jornada{#jo-build}
 
@@ -43,17 +43,17 @@ Estas são as principais etapas para enviar mensagens por meio do jornada:
 
 1. Na seção do menu GERENCIAMENTO DE JORNADAS , clique em **[!UICONTROL Journeys]**. A lista de jornadas é exibida.
 
-   ![](../assets/interface-journeys.png)
+   ![](assets/interface-journeys.png)
 
 1. Clique em **[!UICONTROL Create Journey]** para criar uma nova jornada.
 
 1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Saiba mais nesta [seção](journey-gs.md#change-properties).
 
-   ![](../assets/jo-properties.png)
+   ![](assets/jo-properties.png)
 
 1. Comece arrastando e soltando um evento ou um **Ler segmento** atividade da paleta na tela. Para saber mais sobre design de jornada, consulte [esta seção](using-the-journey-designer.md).
 
-   ![](../assets/read-segment.png)
+   ![](assets/read-segment.png)
 
 1. Arraste e solte as próximas etapas que o indivíduo seguirá. Por exemplo, você pode adicionar uma condição seguida de uma mensagem. Para saber mais sobre atividades, consulte [esta seção](using-the-journey-designer.md).
 
@@ -61,11 +61,11 @@ Estas são as principais etapas para enviar mensagens por meio do jornada:
 
 1. Publique sua jornada para ativá-la. Saiba mais nesta [seção](publishing-the-journey.md).
 
-   ![](../assets/jo-journeyuc2_32bis.png)
+   ![](assets/jo-journeyuc2_32bis.png)
 
 1. Monitore sua jornada usando as ferramentas de relatório dedicadas para medir a eficácia da jornada. Saiba mais nesta [seção](../reports/live-report.md).
 
-   ![](../assets/jo-dynamic_report_journey_12.png)
+   ![](assets/jo-dynamic_report_journey_12.png)
 
 ## Alterar propriedades {#change-properties}
 
@@ -77,7 +77,7 @@ Para jornadas ao vivo, essa tela exibe a data da publicação e o nome do usuár
 
 O **Copiar detalhes técnicos** O permite copiar informações técnicas sobre a jornada que a equipe de suporte pode usar para a solução de problemas. As seguintes informações são copiadas: JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
-![](../assets/journey32.png)
+![](assets/journey32.png)
 
 ### Entrada{#entrance}
 
@@ -133,11 +133,11 @@ Se algum dos requisitos não for cumprido, o modo burst não estará disponível
 
 Para ativar o modo Burst, abra a jornada e clique no ícone de lápis, na parte superior direita para acessar as propriedades da jornada. Em seguida, ative o **Ativar modo de explosão** alternar.
 
-![](../assets/burst.png)
+![](assets/burst.png)
 
 O modo Burst será desativado se você modificar uma jornada burst e adicionar uma atividade que não esteja em conformidade com burst (mensagem, qualquer outra ação, um evento etc.). Uma mensagem será exibida.
 
-![](../assets/burst2.png)
+![](assets/burst2.png)
 
 Em seguida, teste e publique sua jornada normalmente. As mensagens do modo de teste não são enviadas por meio do modo de explosão.
 
@@ -178,14 +178,14 @@ Uma versão de jornada fechada não pode ser reiniciada ou excluída. Você pode
 
 Para fechar uma jornada da lista de jornadas, clique no botão **[!UICONTROL Ellipsis]** botão localizado à direita do nome da jornada e selecione **[!UICONTROL Close to new entrances]**.
 
-![](../assets/journey-finish-quick-action.png)
+![](assets/journey-finish-quick-action.png)
 
 Você também pode:
 
 1. No **[!UICONTROL Journeys]** , clique na jornada que deseja fechar.
 1. No canto superior direito, clique na seta para baixo.
 
-   ![](../assets/finish_drop_down_list.png)
+   ![](assets/finish_drop_down_list.png)
 
 1. Clique em **[!UICONTROL Close to new entrances]**. Uma caixa de diálogo é exibida.
 1. Clique em **[!UICONTROL Close to new entrances]** para confirmar.
@@ -200,14 +200,14 @@ Quando parado, uma jornada terá o status **[!UICONTROL Stopped]**.
 
 Você pode interromper uma jornada, por exemplo, se um profissional de marketing perceber que a jornada direciona o público-alvo errado ou se uma ação personalizada que deveria entregar mensagens não está funcionando corretamente. Para interromper uma jornada da lista de jornadas, clique no botão **[!UICONTROL Ellipsis]** botão localizado à direita do nome da jornada e selecione **[!UICONTROL Stop]**.
 
-![](../assets/journey-finish-quick-action.png)
+![](assets/journey-finish-quick-action.png)
 
 Você também pode:
 
 1. No **[!UICONTROL Journeys]** , clique na jornada que deseja parar.
 1. No canto superior direito, clique na seta para baixo.
 
-![](../assets/finish_drop_down_list.png)
+![](assets/finish_drop_down_list.png)
 
 1. Clique em **[!UICONTROL Stop]**. Uma caixa de diálogo é exibida.
 1. Clique em **[!UICONTROL Stop]** para confirmar.

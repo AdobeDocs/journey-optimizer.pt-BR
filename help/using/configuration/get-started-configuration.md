@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 9%
@@ -36,15 +36,15 @@ Para criar suas jornadas e enviar mensagens, você precisa seguir estas etapas d
 
 1. **Delegar subdomínios**: para qualquer novo subdomínio ser usado no Journey Optimizer, a primeira etapa será delegá-lo. [Saiba mais](about-subdomain-delegation.md)
 
-   ![](../assets/subdomain.png)
+   ![](assets/subdomain.png)
 
 1. **Criar pools de IP**: melhore a capacidade de delivery de email e a reputação, agrupando os endereços IP provisionados com sua instância. [Saiba mais](ip-pools.md)
 
-   ![](../assets/ip-pool.png)
+   ![](assets/ip-pool.png)
 
 1. **Configurar jornadas**: para criar o jornada, é necessário configurar **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**. [Saiba mais](about-data-sources-events-actions.md)
 
-   ![](../assets/admin-menu.png)
+   ![](assets/admin-menu.png)
 
    * O **Fonte de dados** A configuração do permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas. Saiba mais sobre Fontes de dados neste [seção](../datasource/about-data-sources.md)
 

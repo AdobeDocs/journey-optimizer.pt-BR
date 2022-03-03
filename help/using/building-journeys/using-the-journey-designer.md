@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 2%
@@ -23,7 +23,7 @@ O **paleta** está no lado esquerdo da tela. Todas as atividades disponíveis s�
 
 Ao iniciar uma nova jornada, os elementos que não podem ser soltos na tela como a primeira etapa são ocultos. Isso se refere a todas as ações, à atividade de condição, à espera e à reação.
 
-![](../assets/journey38.png)
+![](assets/journey38.png)
 
 O **[!UICONTROL Filter items]** no canto superior esquerdo, é possível exibir os seguintes filtros:
 
@@ -35,17 +35,17 @@ Também é possível usar a variável **[!UICONTROL Search]** campo. Somente eve
 
 O **tela** é a zona central no designer de jornadas. É nessa zona que você pode soltar suas atividades e configurá-las. Clique em uma atividade na tela para configurá-la. Isso abre o painel de configuração da atividade no lado direito.
 
-![](../assets/journey39.png)
+![](assets/journey39.png)
 
 O **painel de configuração da atividade** é exibida ao clicar em uma atividade na paleta. Preencha os campos obrigatórios. Clique no botão **[!UICONTROL Delete]** ícone para excluir a atividade. Clique em **[!UICONTROL Cancel]** para anular as modificações ou **[!UICONTROL Ok]** para confirmar. Para excluir atividades, você também pode selecionar uma atividade (ou várias) e pressionar a tecla Backspace. Pressionar a tecla escape fechará o painel de configuração da atividade.
 
 Por padrão, os campos somente leitura ficam ocultos. Para mostrar campos somente leitura, clique no botão **Mostrar campos somente leitura** ícone na parte superior esquerda do painel de configuração da atividade. Essa configuração se aplica a todas as atividades em todas as jornadas.
 
-![](../assets/journey59bis.png)
+![](assets/journey59bis.png)
 
 Dependendo do status da jornada, você pode executar ações diferentes em sua jornada usando os botões disponíveis no canto superior direito: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Esses botões são exibidos quando nenhuma atividade é selecionada. Alguns botões serão exibidos contextualmente. O botão log do modo de teste é exibido quando o modo de teste é ativado.
 
-![](../assets/journey41.png)
+![](assets/journey41.png)
 
 ## Iniciar a jornada
 
@@ -85,7 +85,7 @@ Você também encontrará as ações personalizadas que configurou para enviar m
 
 Várias atividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** atividades do ) permitem definir uma ação de fallback em caso de erro ou tempo limite. No painel de configuração da atividade, marque a caixa : **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Outro caminho é adicionado após a atividade . A duração do tempo limite é definida nas propriedades da jornada (consulte [esta página](../building-journeys/journey-gs.md#change-properties) por um usuário administrador. Por exemplo, se um email demorar muito para ser enviado ou estiver com erro, você pode decidir enviar um SMS.
 
-![](../assets/journey42.png)
+![](assets/journey42.png)
 
 Várias atividades (evento, ação, espera) permitem adicionar vários caminhos após elas. Para fazer isso, coloque o cursor na atividade e clique no símbolo &quot;+&quot;. Somente atividades de evento e espera podem ser definidas em paralelo. Se vários eventos forem definidos em paralelo, o caminho escolhido será o primeiro evento que ocorrer.
 
@@ -93,11 +93,11 @@ Ao ouvir um evento, recomendamos que você não espere o evento indefinidamente.
 
 Para excluir o caminho, coloque o cursor nele e clique no botão **[!UICONTROL Delete path]** ícone .
 
-![](../assets/journey42ter.png)
+![](assets/journey42ter.png)
 
 Na tela, quando duas atividades são desconectadas, um aviso é exibido. Coloque o cursor no ícone de aviso para exibir a mensagem de erro. Para corrigir o problema, basta mover a atividade desconectada e conectá-la à atividade anterior.
 
-![](../assets/canvas-disconnected.png)
+![](assets/canvas-disconnected.png)
 
 ## Copiar e colar atividades {#copy-paste}
 
@@ -116,9 +116,9 @@ Estas são as etapas para copiar/colar atividades:
 
 1. Abra uma jornada.
 1. Selecione as atividades que deseja copiar movendo o mouse e clicando. Você também pode clicar em cada atividade enquanto pressiona o **Ctrl/Command** chave. Use **Ctrl/Command + A** se desejar selecionar todas as atividades.
-   ![](../assets/copy-paste1.png)
+   ![](assets/copy-paste1.png)
 1. Press **Ctrl/Command + C**.
 Se quiser copiar apenas uma atividade, clique nela e use a variável **Copiar** ícone na parte superior esquerda do painel de configuração da atividade.
-   ![](../assets/copy-paste2.png)
+   ![](assets/copy-paste2.png)
 1. Em qualquer jornada, pressione **Ctrl/Command + V** para colar as atividades sem vinculá-las a um nó existente. As atividades coladas são colocadas na mesma ordem. Após serem coladas, as atividades permanecem selecionadas para que você possa movê-las facilmente. Também é possível colocar o cursor em um espaço reservado vazio e pressionar **Ctrl/Command + V**. As atividades coladas serão vinculadas ao nó .
-   ![](../assets/copy-paste3.png)
+   ![](assets/copy-paste3.png)

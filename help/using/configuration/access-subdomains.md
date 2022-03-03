@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 4%
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Todos os subdomínios delegados são exibidos na variável **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** menu. Os filtros estão disponíveis para ajudar você a refinar a lista (data de delegação, usuário ou status).
 
-![](../assets/subdomain-list.png)
+![](assets/subdomain-list.png)
 
 O **[!UICONTROL Status]** fornece informações sobre o processo de delegação de subdomínio:
 
@@ -32,4 +32,4 @@ Para acessar informações detalhadas sobre um subdomínio, abra-o na lista. É 
 
 * Adicione um registro TXT de verificação do site do Google ao seu subdomínio para garantir que ele seja verificado (consulte [Adicionar um registro TXT do Google a um subdomínio](google-txt.md)).
 
-![](../assets/subdomain-delegated.png)
+![](assets/subdomain-delegated.png)

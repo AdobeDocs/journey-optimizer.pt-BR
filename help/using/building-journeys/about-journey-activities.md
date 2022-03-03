@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 29%
@@ -25,11 +25,11 @@ Os eventos configurados pelo usuário técnico (consulte [esta página](../event
 * [Reação](../building-journeys/reaction-events.md)
 * [Qualificação do segmento](../building-journeys/segment-qualification-events.md)
 
-![](../assets/journey43.png)
+![](assets/journey43.png)
 
 Inicie a jornada arrastando e soltando uma atividade de evento. Você também pode clicar duas vezes nela.
 
-![](../assets/journey44.png)
+![](assets/journey44.png)
 
 ## Atividades de orquestração {#orchestration-activities}
 
@@ -40,7 +40,7 @@ Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração e
 * [Aguardar](../building-journeys/wait-activity.md)
 * [Ler segmento](../building-journeys/read-segment.md)
 
-![](../assets/journey49.png)
+![](assets/journey49.png)
 
 ## Atividades de ação {#action-activities}
 
@@ -50,7 +50,7 @@ Na paleta, no lado esquerdo da tela, abaixo **[!UICONTROL Events]** e **[!UICONT
 * [Ações personalizadas](../building-journeys/using-custom-actions.md)
 * [Salto](../building-journeys/jump.md)
 
-![](../assets/journey58.png)
+![](assets/journey58.png)
 
 Essas atividades representam os diferentes canais de comunicação disponíveis. É possível combiná-los para criar um cenário entre canais.
 
@@ -60,8 +60,8 @@ Se você configurou ações personalizadas, elas serão exibidas aqui (consulte 
 
 A maioria das atividades permite definir um **[!UICONTROL Label]**. Isso adiciona um sufixo ao nome que aparecerá sob sua atividade na tela. Isso é útil se você usar a mesma atividade várias vezes na jornada e quiser identificá-las mais facilmente. Também facilitará a depuração em caso de erros e facilitará a leitura dos relatórios. Você também pode adicionar uma **[!UICONTROL Description]**.
 
-![](../assets/journey59bis.png)
+![](assets/journey59bis.png)
 
 A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. O único modo de fazê-la continuar é marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
-![](../assets/journey42.png)
+![](assets/journey42.png)

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 68%
@@ -31,7 +31,7 @@ Use o menu **[!UICONTROL Offers]** para gerenciar ofertas personalizadas e subst
 
 * **[!UICONTROL Decisions]**: crie e gerencie decisões para entregar suas ofertas. Consulte [Criar decisões](../offer-activities/create-offer-activities.md).
 
-![](../../assets/offers_menu.png)
+![](../assets/offers_menu.png)
 
 Use o menu **[!UICONTROL Components]** para gerenciar os componentes necessários para criar ofertas:
 
@@ -43,19 +43,19 @@ Use o menu **[!UICONTROL Components]** para gerenciar os componentes necessário
 
 * **[!UICONTROL Rankings]**: crie e gerencie fórmulas de classificação para determinar qual oferta deve ser apresentada primeiro para uma determinada inserção. Consulte [Criação de fórmulas de classificação](../offer-library/create-ranking-formulas.md).
 
-![](../../assets/offer_activities.png)
+![](../assets/offer_activities.png)
 
 ## Visão geral {#overview}
 
 Quando você é novo no [!DNL Offer Decisioning], o **[!UICONTROL Overview]** guia você pelas principais etapas necessárias para começar a criar sua primeira decisão de oferta.
 
-![](../../assets/overview_onboarding.png)
+![](../assets/overview_onboarding.png)
 
 Siga as etapas na tela para começar a criar disposições, ofertas e coleções.
 
 Depois de concluir essas primeiras etapas, você será solicitado a criar decisões de oferta (anteriormente conhecidas como atividades de oferta).
 
-![](../../assets/overview_collection-created.png)
+![](../assets/overview_collection-created.png)
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Clique em uma oferta ou em uma decisão para acessar diretamente os detalhes do 
 
 Clique no botão **[!UICONTROL View all]** para acessar as listas de oferta, coleção ou decisão.
 
-![](../../assets/overview_view-all.png)
+![](../assets/overview_view-all.png)
 
 ## Pesquisar e filtrar informações {#search-and-filter-information}
 
@@ -75,7 +75,7 @@ Use a **barra de pesquisa** para localizar um item específico.
 
 **Filtros** também podem ser acessados clicando no ícone de filtro no canto superior esquerdo da lista. Eles permitem filtrar os elementos exibidos de acordo com diferentes critérios. Você pode, por exemplo, filtrar as inserções que foram criadas para o canal de comunicação por email e o conteúdo do tipo imagem.
 
-![](../../assets/filters.png)
+![](../assets/filters.png)
 
 ## Personalizar informações exibidas {#customize-displayed-information}
 
@@ -85,21 +85,21 @@ Essa personalização permite escolher as informações que serão exibidas de a
 
 Observe que a personalização de colunas é salva para cada usuário.
 
-![](../../assets/columns.png)
+![](../assets/columns.png)
 
 ## Painel de informações {#information-pane}
 
 Nas diferentes listas, selecione um elemento para exibir um painel de informações que permitirá recuperar informações e executar ações básicas no elemento.
 
-![](../../assets/information-pane.png)
+![](../assets/information-pane.png)
 
 As listas de ofertas e decisões agora permitem executar ações em massa em vários elementos. Para fazer isso, selecione as ofertas ou decisões desejadas e selecione a ação que deseja executar no painel de informações.
 
-![](../../assets/bulk-actions.png)
+![](../assets/bulk-actions.png)
 
 Observe que você também pode duplicar uma oferta existente ou decisões para criar uma cópia com o status **[!UICONTROL Draft]**. Isso pode ser executado no painel de informações ou em uma oferta ou na visualização detalhada de uma decisão.
 
-![](../../assets/duplicate-offer.png)
+![](../assets/duplicate-offer.png)
 
 ## Registros de alteração de ofertas e decisões {#changes-logs}
 
@@ -107,4 +107,4 @@ A Biblioteca de ofertas permite visualizar todas as alterações feitas em uma o
 
 Todas as alterações feitas são exibidas nessa tela, bem como no nome do usuário que executou as alterações.
 
-![](../../assets/change-logs.png)
+![](../assets/change-logs.png)

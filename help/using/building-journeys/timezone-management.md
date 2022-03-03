@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 2%
@@ -38,7 +38,7 @@ O fuso horário também pode ser corrigido. Limpe o fuso horário predefinido e 
 
 Para fazer isso, no **[!UICONTROL Journey Properties]** selecione um fuso horário.
 
-![](../assets/journey72.png)
+![](assets/journey72.png)
 
 ## Uso de perfis para definir o fuso horário da jornada {#timezone-from-profiles}
 
@@ -50,7 +50,7 @@ Se o perfil do indivíduo não contiver um fuso horário, o fuso horário recupe
 
 Para fazer isso, em **[!UICONTROL Properties]**, verificar **[!UICONTROL Use Profile timezone in waits and conditions]**.
 
-![](../assets/journey73.png)
+![](assets/journey73.png)
 
 ## Uso de fusos horários em expressões {#timezone-in-expressions}
 

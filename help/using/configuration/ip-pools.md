@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Para criar um pool IP, siga estas etapas:
 
 1. Acesse o **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** , em seguida, clique em **[!UICONTROL Create IP Pool]**.
 
-   ![](../assets/ip-pool-create.png)
+   ![](assets/ip-pool-create.png)
 
 1. Forneça um nome e uma descrição (opcional) para o pool de IP.
 
@@ -39,7 +39,7 @@ Para criar um pool IP, siga estas etapas:
 
 1. Selecione os endereços IP a serem incluídos no pool na lista suspensa e clique em **[!UICONTROL Submit]**.
 
-   ![](../assets/ip-pool-config.png)
+   ![](assets/ip-pool-config.png)
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ Para criar um pool IP, siga estas etapas:
 
 O pool IP agora é criado e exibido na lista. Você pode selecioná-la para acessar suas propriedades e exibir a predefinição de mensagem associada. Para obter mais informações sobre como associar uma predefinição de mensagem a um pool de IP, consulte [esta seção](message-presets.md)).
 
-![](../assets/ip-pool-created.png)
+![](assets/ip-pool-created.png)
 
 ## Editar um pool de IP {#edit-ip-pool}
 
@@ -55,11 +55,11 @@ Para editar um pool IP:
 
 1. Na lista, clique no nome do pool de IP para abri-lo.
 
-   ![](../assets/ip-pool-list.png)
+   ![](assets/ip-pool-list.png)
 
 1. Edite as propriedades conforme desejado. Você pode modificar a descrição e adicionar ou remover endereços IP.
 
-   ![](../assets/ip-pool-edit.png)
+   ![](assets/ip-pool-edit.png)
 
    >[!CAUTION]
    >
@@ -78,7 +78,7 @@ A atualização entra em vigor imediatamente ou de forma assíncrona, dependendo
 
 Para verificar o status de atualização do pool de IP, clique no botão **[!UICONTROL More actions]** e selecione **[!UICONTROL Recent updates]**.
 
-![](../assets/ip-pool-recent-update.png)
+![](assets/ip-pool-recent-update.png)
 
 >[!NOTE]
 >

@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
-source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -25,11 +25,11 @@ O relatório da landing page exibe detalhes sobre o impacto das landing pages. D
 
 Para acessar os relatórios, selecione **Ao vivo** ou **[!UICONTROL Global report]** no menu avançado da landing page selecionada.
 
-![](../assets/landing_page_report_1.png)
+![](assets/landing_page_report_1.png)
 
 ## Relatório ao vivo da página de aterrissagem {#lp-live}
 
-![](../assets/landing_page_report_2.png)
+![](assets/landing_page_report_2.png)
 
 O **[!UICONTROL Landing page performance]** o widget detalha as informações principais relativas à sua mensagem nas últimas 24 horas por meio dos KPIs:
 
@@ -53,7 +53,7 @@ O **[!UICONTROL Journey(s)]** widget representa o número de visitas à página 
 
 O **[!UICONTROL Other sources]** O widget representa o número de visitas à página de aterrissagem de uma fonte externa em vez de uma jornada.
 
-![](../assets/landing_page_report_3.png)
+![](assets/landing_page_report_3.png)
 
 O **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** Os gráficos representam o número total de visitas e pessoas que interagiram com êxito com sua landing page nas últimas 24 horas, dependendo das mensagens enviadas.
 
@@ -61,7 +61,7 @@ O **[!UICONTROL Visits by channels]** / **[!UICONTROL Conversions by channels]**
 
 ## Relatório global da página de aterrissagem {#lp-global}
 
-![](../assets/landing_page_report_4.png)
+![](assets/landing_page_report_4.png)
 
 O **[!UICONTROL Number of visits]** e **[!UICONTROL Number of visits over time]** os widgets permitem ver o impacto da página de aterrissagem durante o período de tempo selecionado em um gráfico e KPIs com as seguintes métricas:
 
@@ -75,7 +75,7 @@ O **[!UICONTROL Landing page performance]** o widget detalha as informações pr
 
 * **[!UICONTROL Bounce rate]**: Número de pessoas que não interagiram com a landing page e não concluíram a ação de assinatura em relação ao número total de visitas.
 
-![](../assets/landing_page_report_5.png)
+![](assets/landing_page_report_5.png)
 
 O **[!UICONTROL Visit sources]** O widget representa como os visitantes estão acessando sua página de aterrissagem:
 
@@ -95,7 +95,7 @@ O **[!UICONTROL Journey(s)]** O widget representa o número de visitas à págin
 
 O **[!UICONTROL Other sources]** O widget representa o número de visitas à página de aterrissagem de uma fonte externa em vez de uma jornada.
 
-![](../assets/landing_page_report_6.png)
+![](assets/landing_page_report_6.png)
 
 O **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** Os gráficos representam o número total de visitas e pessoas que interagiram com êxito com sua landing page do período relacionado, dependendo das mensagens enviadas.
 

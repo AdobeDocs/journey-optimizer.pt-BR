@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 8fc470ced790ed65df7e88b861e8b8f7126ace21
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 4%
@@ -27,7 +27,7 @@ Para configurar seu fornecedor de SMS com o Journey Optimizer, siga estas etapas
 
 1. Acesse o **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL API Credentials]** , em seguida, clique em **[!UICONTROL Create API credential]**.
 
-   ![](../assets/sms_4.png)
+   ![](assets/sms_4.png)
 
 1. Selecione Sinalizar como seu **[!UICONTROL SMS vendor]**.
 
@@ -39,7 +39,7 @@ Para configurar seu fornecedor de SMS com o Journey Optimizer, siga estas etapas
    >
    > O Sinch requer credenciais de API especiais. Para encontrar seu **[!UICONTROL Service ID]** e **[!UICONTROL API Token]**, acesse o menu SMS > APIs da conta do Sinch ,
 
-   ![](../assets/sms_5.png)
+   ![](assets/sms_5.png)
 
 1. Clique em **[!UICONTROL Submit]** ao concluir a configuração das credenciais da API.
 

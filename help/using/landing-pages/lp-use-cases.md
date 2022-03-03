@@ -8,10 +8,10 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -28,7 +28,7 @@ Abaixo estão alguns exemplos de como você pode usar [!DNL Journey Optimizer] p
 
 Um dos casos de uso mais comuns consiste em convidar seus clientes para [assinar um serviço](subscription-list.md) (como um boletim informativo ou um evento) por meio de uma página de aterrissagem. As principais etapas são apresentadas no gráfico abaixo:
 
-![](../assets/lp_subscription-uc.png)
+![](assets/lp_subscription-uc.png)
 
 Por exemplo, digamos que você organize um evento no próximo mês e deseje iniciar uma campanha de registro de evento<!--to keep your customers that are interested updated on that event-->. Para fazer isso, você enviará um email incluindo um link para uma landing page que permitirá que seus recipients se registrem neste evento. Os usuários que se registrarem serão adicionados à lista de assinaturas criada para essa finalidade.
 
@@ -36,7 +36,7 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
 1. Crie a lista de subscrição do registro de eventos, que armazenará os usuários registrados. Saiba como criar uma lista de assinaturas [here](subscription-list.md#define-subscription-list).
 
-   ![](../assets/lp_subscription-uc-list.png)
+   ![](assets/lp_subscription-uc-list.png)
 
 1. [Criar uma landing page](create-lp.md) para permitir que seus recipients se registrem no seu evento.
 
@@ -44,11 +44,11 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
 1. Ao projetar o [conteúdo da página de aterrissagem](design-lp.md), selecione a lista de assinaturas criada para atualizá-la com os perfis que marcam a caixa de seleção de registro.
 
-   ![](../assets/lp_subscription-uc-lp-list.png)
+   ![](assets/lp_subscription-uc-lp-list.png)
 
 1. Crie uma página de &#39;agradecimento&#39; que será exibida aos recipients depois de enviarem o formulário de registro. Saiba como configurar landing subpages [here](create-lp.md#configure-subpages).
 
-   ![](../assets/lp_subscription-uc-thanks.png)
+   ![](assets/lp_subscription-uc-thanks.png)
 
 1. [Publicar](create-lp.md#publish) a landing page.
 
@@ -56,13 +56,13 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
 1. [Inserir um link](../messages/message-tracking.md#insert-links) no conteúdo da mensagem. Selecionar **[!UICONTROL Landing page]** como **[!UICONTROL Link type]** e escolha a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para registro.
 
-   ![](../assets/lp_subscription-uc-link.png)
+   ![](assets/lp_subscription-uc-link.png)
 
 1. Salve o conteúdo e [publique a mensagem](../messages/publish-manage-message.md).
 
 1. Envie sua mensagem por meio de um [jornada](../building-journeys/journey.md) para direcionar o tráfego para a landing page de registro.
 
-   ![](../assets/lp_subscription-uc-journey.png)
+   ![](assets/lp_subscription-uc-journey.png)
 
    Depois que receberem o email, se seus recipients clicarem no link para a landing page, eles serão direcionados para a página &quot;obrigado&quot; e serão adicionados à lista de assinaturas.
 
@@ -72,17 +72,17 @@ Além disso, você pode enviar um email de confirmação para os recipients que 
 
 1. Criar outro [jornada](../building-journeys/journey.md). Você pode fazer isso diretamente da landing page clicando no link **[!UICONTROL Create journey]** botão. Saiba mais [aqui](create-lp.md#configure-primary-page)
 
-   ![](../assets/lp_subscription-uc-create-journey.png)
+   ![](assets/lp_subscription-uc-create-journey.png)
 
 1. Expanda a **[!UICONTROL Events]** categoria e solte uma **[!UICONTROL Segment Qualification]** atividade na tela. Saiba mais [aqui](../building-journeys/segment-qualification-events.md)
 
 1. Clique no botão **[!UICONTROL Segment]** e selecione a lista de subscrição criada.
 
-   ![](../assets/lp_subscription-uc-confirm-journey.png)
+   ![](assets/lp_subscription-uc-confirm-journey.png)
 
 1. Selecione o email de confirmação de sua escolha e envie-o por meio da jornada.
 
-   ![](../assets/lp_subscription-uc-confirm-email.png)
+   ![](assets/lp_subscription-uc-confirm-email.png)
 
 Todos os usuários que se registraram para o seu evento receberão o email de confirmação.
 
@@ -113,13 +113,13 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
 1. [Design](design-lp.md) o conteúdo principal da página: usar a página de aterrissagem específica **[!UICONTROL Form]** , defina um **[!UICONTROL Opt-out]** e escolha atualizar **[!UICONTROL Channel (email)]**: o perfil que marcar a caixa de opção de não participação na página de aterrissagem será rejeitado em todas as suas comunicações.
 
-   ![](../assets/lp_opt-out-primary-lp.png)
+   ![](assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
 1. Adicionar uma confirmação [subpágina](create-lp.md#configure-subpages) que será exibido para os usuários que enviam o formulário.
 
-   ![](../assets/lp_opt-out-subpage.png)
+   ![](assets/lp_opt-out-subpage.png)
 
    >[!NOTE]
    >
@@ -127,17 +127,17 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
 1. Após configurar e definir o conteúdo de suas páginas, [publicar](create-lp.md#publish) a landing page.
 
-   ![](../assets/lp_opt-out-publish.png)
+   ![](assets/lp_opt-out-publish.png)
 
 1. [Criar uma mensagem de email](../messages/create-message.md) em [!DNL Journey Optimizer].
 
-1. Selecione o texto no seu conteúdo e [inserir um link](../messages/message-tracking.md#insert-links) usando a barra de ferramentas contextual. Você também pode usar um link em um botão.
+1. Selecione o texto no seu conteúdo e [insira um link](../messages/message-tracking.md#insert-links) usando a barra de ferramentas contextual. Você também pode usar um link em um botão.
 
-   ![](../assets/lp_opt-out-insert-link.png)
+   ![](assets/lp_opt-out-insert-link.png)
 
 1. Selecionar **[!UICONTROL Landing page]** do **[!UICONTROL Link type]** e selecione a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para rejeitar.
 
-   ![](../assets/lp_opt-out-landing-page.png)
+   ![](assets/lp_opt-out-landing-page.png)
 
 1. Salve o conteúdo e [publique a mensagem](../messages/publish-manage-message.md).
 
@@ -145,7 +145,7 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
 1. Depois que a mensagem é recebida, se um recipient clicar no link de cancelamento de subscrição no email, sua landing page será exibida.
 
-   ![](../assets/lp_opt-out-submit-form.png)
+   ![](assets/lp_opt-out-submit-form.png)
 
    Se o recipient marcar a caixa e enviar o formulário:
 
@@ -155,7 +155,7 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
 Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target=&quot;_blank&quot;}.
 
-![](../assets/lp_opt-out-profile-choice.png)
+![](assets/lp_opt-out-profile-choice.png)
 
 Na guia **[!UICONTROL Attributes]**, é possível ver que o valor de **[!UICONTROL choice]** foi alterado para **[!UICONTROL no]**.
 

@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
-workflow-type: ht
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Os componentes e recursos disponíveis na interface do usuário dependem das sua
 
 Use os links à esquerda para procurar recursos.
 
-![](../assets/ajo-home.png)
+![](assets/ajo-home.png)
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ A página inicial do [!DNL Journey Optimizer] contém os links e recursos princi
 
 Aproveite os casos de uso do [!DNL Adobe Journey Optimizer] na home page e forneça algumas informações rápidas para criar uma jornada do cliente.
 
-![](../assets/use-cases-home.png)
+![](assets/use-cases-home.png)
 
 Os casos de uso disponíveis são:
 
@@ -214,7 +214,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
   <tr>
     <td>Campo de texto</td>
     <td>Selecionar todo o texto no campo selecionado</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Janela pop-up</td>
@@ -238,7 +238,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
   <tr>
     <td>Visualização da carga</td>
     <td>Selecionar a carga</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
 </table>
 
@@ -248,7 +248,7 @@ Acesse as principais páginas de ajuda do Adobe Journey Optimizer na seção inf
 
 Use o ícone **Ajuda** para acessar páginas de ajuda, entrar em contato com o suporte e compartilhar feedback. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
 
-![](../assets/ajo-help.png)
+![](assets/ajo-help.png)
 
 ## Navegadores compatíveis {#browsers}
 
@@ -267,10 +267,10 @@ O idioma padrão da interface é determinado pelo idioma preferencial especifica
 Para alterar o idioma:
 
 * Clique em **Preferências** em seu avatar, no canto superior direito.
-   ![](../assets/preferences.png)
+   ![](assets/preferences.png)
 * Em seguida, clique no idioma exibido sob seu endereço de email
 * Selecione o idioma de sua preferência e clique em **Salvar**. Você poderá selecionar um segundo idioma, caso o componente que está usando não esteja traduzido em seu primeiro idioma.
-   ![](../assets/select-language.png)
+   ![](assets/select-language.png)
 
 ## Pesquisa{#unified-search}
 
@@ -278,11 +278,11 @@ Em qualquer lugar na interface do Adobe Journey Optimizer, use o recurso de pesq
 
 Comece a inserir conteúdo para exibir os principais resultados. Artigos de ajuda sobre as palavras-chave inseridas também são exibidos nos resultados.
 
-![](../assets/unified-search.png)
+![](assets/unified-search.png)
 
 Pressione **Enter** para acessar todos os resultados e filtrar por objeto comercial.
 
-![](../assets/search-and-filter.png)
+![](assets/search-and-filter.png)
 
 ## Listas de filtros{#filter-lists}
 
@@ -298,12 +298,12 @@ Na lista de jornadas, você pode filtrar jornadas de acordo com o status, tipo e
 
 Use as colunas **[!UICONTROL Last update]** e **[!UICONTROL Last update by]** para verificar quando aconteceu a última atualização de suas jornadas e quem as salvou.
 
-![](../assets/filter-journeys.png)
+![](assets/filter-journeys.png)
 
 Nos painéis de configuração Evento, Fonte de dados e Ação, o campo **[!UICONTROL Used in]** exibe o número de jornadas que usam aquele determinado evento, grupo de campo ou ação. Você pode clicar no botão **[!UICONTROL View journeys]** para exibir a lista de jornadas correspondentes.
 
-![](../assets/journey3bis.png)
+![](assets/journey3bis.png)
 
 Nas diferentes listas, é possível executar ações básicas em cada elemento. Por exemplo, você pode duplicar ou excluir um item.
 
-![](../assets/journey4.png)
+![](assets/journey4.png)

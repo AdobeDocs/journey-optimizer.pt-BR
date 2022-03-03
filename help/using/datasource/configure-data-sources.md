@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 10%
@@ -23,11 +23,11 @@ Estas são as etapas principais de configuração da fonte de dados:
 
 1. Na seção do menu ADMINISTRATION (ADMINISTRAÇÃO), selecione **[!UICONTROL Configurations]**. No  **[!UICONTROL Data Sources]** seção , clique em **[!UICONTROL Manage]**. A lista das fontes de dados é exibida. Consulte [esta página](../start/user-interface.md) para obter mais informações sobre a interface.
 
-   ![](../assets/journey18.png)
+   ![](assets/journey18.png)
 
 1. Em seguida, é possível adicionar grupos de campos à fonte de dados integrada (consulte [esta página](../datasource/adobe-experience-platform-data-source.md)) ou criar uma nova fonte de dados externa (consulte [esta página](../datasource/external-data-sources.md)) e grupos de campos associados (consulte [esta página](../datasource/configure-data-sources.md#define-field-groups)).
 
-   ![](../assets/journey23.png)
+   ![](assets/journey23.png)
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -51,7 +51,7 @@ O número de jornadas que usam um grupo de campos é exibido na variável **[!UI
 >
 >Observe que, se um grupo de campos não tiver um campo, ele não será exibido no editor de expressão.
 
-![](../assets/journey3bis.png)
+![](assets/journey3bis.png)
 
 ## Ciclo de vida do grupo de campos {#field-group-lifecycle}
 

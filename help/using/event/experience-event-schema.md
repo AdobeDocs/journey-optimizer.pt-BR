@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 1%
@@ -23,33 +23,33 @@ Dessa forma, um pré-requisito importante para configurar eventos para [!DNL Jou
 
 A primeira etapa na configuração de um evento para [!DNL Journey Optimizer] O é garantir que você tenha um esquema XDM definido para representar o evento e um conjunto de dados criado para registrar instâncias do evento no Adobe Experience Platform. Ter um conjunto de dados para seus eventos não é estritamente necessário, mas enviar os eventos para um conjunto de dados específico permitirá manter o histórico de eventos dos usuários para referência e análise futuras, portanto, é sempre uma boa ideia. Se você ainda não tiver um esquema e conjunto de dados adequados para o evento, ambas as tarefas podem ser realizadas na interface da Web do Adobe Experience Platform.
 
-![](../assets/schema1.png)
+![](assets/schema1.png)
 
 Qualquer esquema XDM que será usado para [!DNL Journey Optimizer] Os eventos devem atender aos seguintes requisitos:
 
 * O esquema deve ser da classe XDM ExperienceEvent.
 
-   ![](../assets/schema2.png)
+   ![](assets/schema2.png)
 
 * Para eventos gerados pelo sistema, o esquema deve incluir o grupo de campos Orchestration eventID . [!DNL Journey Optimizer] O usa esse campo para identificar eventos usados em jornadas.
 
-   ![](../assets/schema3.png)
+   ![](assets/schema3.png)
 
 * Declarar um campo de identidade para identificar o assunto do evento. Se nenhuma identidade for especificada, um mapa de identidade poderá ser usado. Isso não é recomendado.
 
-   ![](../assets/schema4.png)
+   ![](assets/schema4.png)
 
 * Se desejar que esses dados estejam disponíveis para pesquisa posteriormente em uma Jornada, marque o esquema e o conjunto de dados para o perfil.
 
-   ![](../assets/schema5.png)
+   ![](assets/schema5.png)
 
-   ![](../assets/schema6.png)
+   ![](assets/schema6.png)
 
 * Você pode incluir campos de dados para capturar quaisquer outros dados de contexto que deseja incluir com o evento, como informações sobre o usuário, o dispositivo do qual o evento foi gerado, o local ou quaisquer outras circunstâncias significativas relacionadas ao evento.
 
-   ![](../assets/schema7.png)
+   ![](assets/schema7.png)
 
-   ![](../assets/schema8.png)
+   ![](assets/schema8.png)
 
 ## Aproveitar relacionamentos de esquema{#leverage_schema_relationships}
 
@@ -61,11 +61,11 @@ Para definir uma relação, é necessário ter um campo dedicado no schema de or
 
 Este é o esquema de catálogo de produtos ativado para o perfil com a ID de produto definida como a identidade primária.
 
-![](../assets/schema9.png)
+![](assets/schema9.png)
 
 Este é o schema de compra com o relacionamento definido no campo ID do produto.
 
-![](../assets/schema10.png)
+![](assets/schema10.png)
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Os campos de esquema vinculados estão disponíveis na configuração de evento 
 * ao navegar pelos campos do schema do evento na tela de configuração do evento.
 * ao definir uma condição para eventos gerados pelo sistema.
 
-![](../assets/schema11.png)
+![](assets/schema11.png)
 
 Os campos vinculados não estão disponíveis:
 
@@ -100,7 +100,7 @@ Você pode usar dados de uma tabela de pesquisa vinculada a um evento usado em u
 
 Adicione uma condição em uma jornada, edite a expressão e expanda o nó do evento no editor de expressão.
 
-![](../assets/schema12.png)
+![](assets/schema12.png)
 
 Para saber como definir condições de jornada, consulte esta seção [página](../building-journeys/condition-activity.md).
 
@@ -108,7 +108,7 @@ Para saber como definir condições de jornada, consulte esta seção [página](
 
 Os campos vinculados estão disponíveis ao personalizar uma mensagem. Os campos relacionados são exibidos no contexto transmitido da jornada para a mensagem.
 
-![](../assets/schema14.png)
+![](assets/schema14.png)
 
 Para saber como personalizar uma mensagem com informações de jornada contextual, consulte esta seção [página](../personalization/personalization-use-case.md).
 
@@ -116,6 +116,6 @@ Para saber como personalizar uma mensagem com informações de jornada contextua
 
 Os campos vinculados estão disponíveis ao configurar os parâmetros de ação de uma atividade de ação personalizada do jornada.
 
-![](../assets/schema13.png)
+![](assets/schema13.png)
 
 Para saber como usar ações personalizadas, consulte esta seção [página](../building-journeys/using-custom-actions.md).

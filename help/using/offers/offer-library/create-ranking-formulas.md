@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 1%
@@ -29,23 +29,23 @@ Para criar uma fórmula de classificação, siga as etapas abaixo:
 
 1. Acesse o **[!UICONTROL Components]** , em seguida, selecione o **[!UICONTROL Rankings]** guia . A lista de classificações criadas anteriormente é exibida.
 
-   ![](../../assets/rankings-list.png)
+   ![](../assets/rankings-list.png)
 
 1. Clique em **[!UICONTROL Create ranking]** para criar uma nova fórmula de classificação.
 
-   ![](../../assets/ranking-create-formula.png)
+   ![](../assets/ranking-create-formula.png)
 
 1. Especifique o nome da fórmula de classificação, a descrição e a fórmula.
 
    Neste exemplo, queremos aumentar a prioridade de todas as ofertas com o atributo &quot;quente&quot; se o tempo real estiver quente. Para fazer isso, o **contextData.weather=hot** foi passada na chamada de decisão.
 
-   ![](../../assets/ranking-syntax.png)
+   ![](../assets/ranking-syntax.png)
 
 1. Clique em **[!UICONTROL Save]**. Sua fórmula de classificação é criada, você pode selecioná-la na lista para obter detalhes e editá-la ou excluí-la.
 
    Agora ele está pronto para ser usado em uma decisão para classificar ofertas elegíveis para uma disposição (consulte [Configurar seleção de ofertas em decisões](../offer-activities/configure-offer-selection.md)).
 
-   ![](../../assets/ranking-formula-created.png)
+   ![](../assets/ranking-formula-created.png)
 
 ## Exemplos de fórmula de classificação {#ranking-formula-examples}
 
@@ -155,7 +155,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 
 Uma solução melhor é armazenar as pontuações em uma matriz do perfil. O exemplo a seguir funcionará em uma variedade de diferentes pontuações de propensão usando apenas uma fórmula de classificação simples. A expectativa é que você tenha um esquema de perfil com uma matriz de pontuações. Neste exemplo, o locatário da instância é *_salesvelocity* e o schema de perfis contém o seguinte:
 
-![](../../assets/ranking-example-schema.png)
+![](../assets/ranking-example-schema.png)
 
 Considerando isso, para um perfil como:
 
@@ -179,7 +179,7 @@ Considerando isso, para um perfil como:
 
 As ofertas conteriam um atributo para *propensityType* que corresponde à categoria das pontuações:
 
-![](../../assets/ranking-example-propensityType.png)
+![](../assets/ranking-example-propensityType.png)
 
 Sua fórmula de classificação pode definir a prioridade de cada oferta para ser igual aos clientes *pontuação de propensão* para *propensityType*. Se nenhuma pontuação for encontrada, use a prioridade estática definida na oferta:
 

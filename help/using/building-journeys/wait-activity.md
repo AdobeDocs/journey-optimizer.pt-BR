@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: b4a356583b555451c8d42d1043691b5ff841851b
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 5%
@@ -39,13 +39,13 @@ Observe também que, se duas esperas diferentes estiverem em paralelo, a que oco
 
 Selecione a duração da espera antes da execução da próxima atividade.
 
-![](../assets/journey55.png)
+![](assets/journey55.png)
 
 ## Data de espera fixa{#fixed_date}
 
 Selecione a data para a execução da próxima atividade.
 
-![](../assets/journey56.png)
+![](assets/journey56.png)
 
 ## Aguardar personalizado{#custom}
 
@@ -57,7 +57,7 @@ Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de
 >
 >O **fuso horário** é esperado nas propriedades da sua jornada. Como resultado, hoje não é possível da interface apontar diretamente para um carimbo de data e hora ISO-8601 completo, tempo de combinação e deslocamento de fuso horário como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
 
-![](../assets/journey57.png)
+![](assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
@@ -77,4 +77,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)-->
+![](assets/journey57bis.png)-->

@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: 5d9a729c58cda2dd2600f2076a460f78d21641f8
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 85%
@@ -20,7 +20,7 @@ Ele também está disponível sempre que for necessário definir parâmetros de 
 
 O editor de expressão avançado oferece um conjunto de funções e operadores integrados, permitindo manipular valores e definir uma expressão que se ajuste especificamente às suas necessidades. O editor de expressão avançado também permite definir os valores do parâmetro de fonte de dados externa, manipular campos de mapa e coleções, como eventos de experiência.
 
-![](../../assets/journey65.png)
+![](../assets/journey65.png)
 
 _A interface do editor de expressão avançado_
 
@@ -44,7 +44,7 @@ Você pode acessar o editor de expressão avançado de diferentes maneiras:
 
 * Ao criar uma condição de fonte de dados, você pode acessar o editor avançado clicando em **[!UICONTROL Advanced mode]**.
 
-   ![](../../assets/journeyuc2_33.png)
+   ![](../assets/journeyuc2_33.png)
 
 * Ao criar um temporizador personalizado, o editor avançado será exibido diretamente.
 * Ao mapear o parâmetro de ação, clique em **[!UICONTROL Advanced mode]**.
@@ -53,7 +53,7 @@ Você pode acessar o editor de expressão avançado de diferentes maneiras:
 
 Nesta tela você pode escrever manualmente a expressão.
 
-![](../../assets/journey70.png)
+![](../assets/journey70.png)
 
 Na parte esquerda da tela são exibidos os campos e as funções disponíveis:
 
@@ -63,20 +63,20 @@ Na parte esquerda da tela são exibidos os campos e as funções disponíveis:
 * **[!UICONTROL Journey properties]**: esta seção agrupa os campos técnicos relacionados à jornada de um determinado perfil. [Leia mais](journey-properties.md)
 * **[!UICONTROL Functions]**: escolha entre uma lista de funções integradas que permitem fazer uma filtragem complexa. As funções são organizadas por categorias. [Leia mais](functions.md)
 
-![](../../assets/journey65.png)
+![](../assets/journey65.png)
 
 Um mecanismo de autopreenchimento exibe sugestões contextuais.
 
-![](../../assets/journey68.png)
+![](../assets/journey68.png)
 
 Um mecanismo de validação de sintaxe verifica a integridade do código. Erros são exibidos na parte superior do editor.
 
-![](../../assets/journey69.png)
+![](../assets/journey69.png)
 
 **Necessidade de parâmetros ao criar condições com o editor de expressão avançado**
 
 Se você selecionar um campo de uma fonte externa de dados que requer um parâmetro para ser chamado (consulte [esta página](../../datasource/external-data-sources.md). Por exemplo, em uma fonte de dados relacionada ao clima, um parâmetro frequentemente usado será &quot;cidade&quot;. Como resultado, você deve selecionar onde deseja obter o parâmetro cidade. As funções também podem ser aplicadas aos parâmetros para executar alterações de formato ou concatenações.
 
-![](../../assets/journeyuc2_19.png)
+![](../assets/journeyuc2_19.png)
 
 Para casos de uso mais complexos, caso queira incluir os parâmetros da fonte de dados na expressão principal, é possível definir os valores usando a palavra-chave &quot;params&quot;. Consulte [esta página](../expression/field-references.md).

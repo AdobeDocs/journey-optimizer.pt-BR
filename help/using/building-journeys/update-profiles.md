@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 778ab302a5c9835024fe324999cdf5acf19ad172
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -40,13 +40,13 @@ Para obter mais informações sobre como transformar um perfil existente em um p
 
 1. No **Ação** da paleta, solte a guia **Atualizar perfil** atividade na tela.
 
-   ![](../assets/profileupdate0.png)
+   ![](assets/profileupdate0.png)
 
 1. Selecione um schema na lista.
 
 1. Clique em **Campo** para selecionar o campo que deseja atualizar. Somente um campo pode ser selecionado.
 
-   ![](../assets/profileupdate2.png)
+   ![](assets/profileupdate2.png)
 
 1. Selecione um conjunto de dados na lista.
 
@@ -58,12 +58,12 @@ Para obter mais informações sobre como transformar um perfil existente em um p
 
    * Usando o editor de expressão simples, é possível selecionar um campo de uma fonte de dados ou do evento de entrada.
 
-      ![](../assets/profileupdate4.png)
+      ![](assets/profileupdate4.png)
 
    * Se desejar definir um valor específico ou aproveitar funções avançadas, clique em **Modo avançado**.
 
-      ![](../assets/profileupdate3.png)
+      ![](assets/profileupdate3.png)
 
 O **Atualizar perfil** agora está configurado.
 
-![](../assets/profileupdate1.png)
+![](assets/profileupdate1.png)

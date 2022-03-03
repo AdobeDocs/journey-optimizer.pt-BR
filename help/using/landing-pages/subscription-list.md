@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 4609b071e6011bb2c28156b9638f40b7d6f29249
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 3%
@@ -37,23 +37,23 @@ Para criar uma lista de subscrição, siga as etapas abaixo.
 
 1. Para acessar as listas de subscrição, selecione **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
 
-   ![](../assets/lp_subscription-lists.png)
+   ![](assets/lp_subscription-lists.png)
 
 1. Selecione o botão **[!UICONTROL Create subscription list]**.
 
-   ![](../assets/lp_create-subscription-list.png)
+   ![](assets/lp_create-subscription-list.png)
 
 1. Adicione um nome e uma descrição. Esses campos são obrigatórios.
 
 1. Você pode definir uma data de início e uma data de término.
 
-   ![](../assets/lp_subscription-list-dates.png)
+   ![](assets/lp_subscription-list-dates.png)
 
 1. Clique em **[!UICONTROL Save]**.
 
 A lista exibe todas as listas de assinaturas criadas. Você pode filtrá-los com base na data de criação ou na data de modificação e em seu status.
 
-![](../assets/lp_subscription-filters.png)
+![](assets/lp_subscription-filters.png)
 
 Os status possíveis são os seguintes:
 

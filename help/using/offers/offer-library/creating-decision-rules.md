@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 14%
@@ -23,13 +23,13 @@ Por exemplo, você pode especificar que deseja que somente uma &#39;Oferta de ro
 
 A lista de regras de decisão criadas pode ser acessada na variável **[!UICONTROL Components]** menu.
 
-![](../../assets/decision_rules_list.png)
+![](../assets/decision_rules_list.png)
 
 Para criar uma regra de decisão, siga estas etapas:
 
 1. Vá para o **[!UICONTROL Rules]** e, em seguida, clique em **[!UICONTROL Create rule]**.
 
-   ![](../../assets/offers_decision_rule_creation.png)
+   ![](../assets/offers_decision_rule_creation.png)
 
 1. Nomeie a regra, forneça uma descrição e configure-a de acordo com suas necessidades.
 
@@ -37,7 +37,7 @@ Para criar uma regra de decisão, siga estas etapas:
 
    Neste exemplo, a regra direcionará os clientes que têm o nível de fidelidade &quot;Gold&quot;.
 
-   ![](../../assets/offers_decision_rule_creation_segment.png)
+   ![](../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ Para criar uma regra de decisão, siga estas etapas:
 
 1. Depois que a regra é criada, ela é exibida na lista de regras. Você pode selecioná-lo para exibir suas propriedades e editá-lo ou excluí-lo.
 
-   ![](../../assets/rule_created.png)
+   ![](../assets/rule_created.png)
 
 >[!CAUTION]
 >

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -35,11 +35,11 @@ Caso o valor padrão de 5 não atenda às suas necessidades, você poderá modif
 
 1. Selecione o botão **[!UICONTROL Edit suppression rules]**.
 
-   ![](../assets/suppression-list-edit-retries.png)
+   ![](assets/suppression-list-edit-retries.png)
 
 1. Edite o número permitido de devoluções temporárias consecutivas de acordo com suas necessidades.
 
-   ![](../assets/suppression-list-edit-soft-bounces.png)
+   ![](assets/suppression-list-edit-soft-bounces.png)
 
    Você deve inserir um valor inteiro entre 1 e 20, o que significa que o número mínimo de tentativas é 1 e o número máximo é 20.
 

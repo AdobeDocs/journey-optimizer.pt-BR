@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Com registros PTR, os servidores de email de recebimento podem verificar a auten
 
 Uma vez [um subdomínio é delegado](delegate-subdomain.md) no Adobe Journey Optimizer, um registro PTR é criado e associado automaticamente a este subdomínio. Você pode acessá-lo pelo **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
 
-![](../assets/ptr-records.png)
+![](assets/ptr-records.png)
 
 A lista mostra os registros PTR gerados para cada subdomínio delegado, usando a sintaxe abaixo:
 
@@ -49,11 +49,11 @@ Para editar um registro PTR com um subdomínio que esteja [plenamente delegado](
 
 1. Na lista, clique em um nome de registro PTR para abri-lo.
 
-   ![](../assets/ptr-record-select.png)
+   ![](assets/ptr-record-select.png)
 
 1. Selecionar um subdomínio [plenamente delegado](delegate-subdomain.md#full-subdomain-delegation) para Adobe da lista.
 
-   ![](../assets/ptr-record-subdomain.png)
+   ![](assets/ptr-record-subdomain.png)
 
 1. Clique em **[!UICONTROL Save]** para confirmar as alterações.
 
@@ -63,15 +63,15 @@ Para editar um registro PTR com um subdomínio que é delegado ao Adobe usando o
 
 1. Na lista, clique em um nome de registro PTR para abri-lo.
 
-   ![](../assets/ptr-record-select-cname.png)
+   ![](assets/ptr-record-select-cname.png)
 
 1. Selecione um subdomínio delegado ao Adobe usando o [método CNAME](delegate-subdomain.md#cname-subdomain-delegation) na lista.
 
-   ![](../assets/ptr-record-subdomain-cname.png)
+   ![](assets/ptr-record-subdomain-cname.png)
 
 1. Você precisa criar um novo registro de DNS de encaminhamento na plataforma de hospedagem. Para fazer isso, copie o registro gerado pelo Adobe. Depois de concluído, marque a caixa &quot;Confirmo...&quot;.
 
-   ![](../assets/ptr-record-subdomain-confirm.png)
+   ![](assets/ptr-record-subdomain-confirm.png)
 
    >[!NOTE]
    >
@@ -86,23 +86,23 @@ Para editar um registro PTR com um subdomínio que é delegado ao Adobe usando o
 
 A **[!UICONTROL Processing]** ícone é exibido ao lado do nome do registro PTR na lista.
 
-![](../assets/ptr-record-updating.png)
+![](assets/ptr-record-updating.png)
 
 Para verificar os detalhes de atualização do registro PTR, clique no botão **[!UICONTROL Updating]** ou **[!UICONTROL Recent updates]** ícone .
 
-![](../assets/ptr-record-recent-update.png)
+![](assets/ptr-record-recent-update.png)
 
 Você pode ver informações como o status da atualização e as alterações solicitadas.
 
-![](../assets/ptr-record-updates.png)
+![](assets/ptr-record-updates.png)
 
 ## Status de atualização de registro PTR {#ptr-record-update-statuses}
 
 Uma atualização de registro PTR pode ter os seguintes status:
 
-* ![](../assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: A atualização do registro PTR foi enviada e está passando por um processo de verificação.
-* ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: O registro PTR atualizado foi verificado e o novo subdomínio agora está associado ao endereço IP.
-* ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Uma ou várias verificações falharam durante a verificação de atualização de registro PTR.
+* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: A atualização do registro PTR foi enviada e está passando por um processo de verificação.
+* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: O registro PTR atualizado foi verificado e o novo subdomínio agora está associado ao endereço IP.
+* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Uma ou várias verificações falharam durante a verificação de atualização de registro PTR.
 
 ### Processamento {#processing}
 

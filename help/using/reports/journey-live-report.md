@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 O relatório ao vivo do Jornada pode ser acessado diretamente da sua jornada com o **[!UICONTROL Live report]** botão.
 
-![](../assets/report_1.png)
+![](assets/report_1.png)
 
 A jornada **[!UICONTROL Live report]** será exibida com as seguintes guias:
 
@@ -31,7 +31,7 @@ A jornada **[!UICONTROL Live report]** O é dividido em diferentes widgets detal
 
 Da sua jornada **[!UICONTROL Live report]**, o **[!UICONTROL Journey]** A guia fornece uma visualização clara dos dados de rastreamento mais importantes sobre a jornada.
 
-![](../assets/report_journey_2.png)
+![](assets/report_journey_2.png)
 
 **[!UICONTROL Journey Performance]** O permite ver o caminho dos perfis segmentados passo a passo pela jornada.
 
@@ -43,11 +43,11 @@ O **[!UICONTROL Journey Statistics]** O widget exibe os seguintes KPIs:
 
 * **[!UICONTROL Failed individual journeys]**: Número total de jornadas individuais que não foram executadas com êxito.
 
-![](../assets/report_journey_3.png)
+![](assets/report_journey_3.png)
 
 O **[!UICONTROL Event executed over the last 24 hours]** e **[!UICONTROL Events]** os widgets permitem ver qual dos seus eventos foi executado com êxito por meio do número do resumo, gráfico e tabela.
 
-![](../assets/report_journey_4.png)
+![](assets/report_journey_4.png)
 
 O **[!UICONTROL Action executed over the last 24 hours]** e **[!UICONTROL Actions executed and errors]** os widgets representam a ação e os erros mais bem-sucedidos que ocorreram quando suas ações foram acionadas. O gráfico de Ação, a tabela e os números de resumo contêm os dados disponíveis para ações, como:
 
@@ -56,7 +56,7 @@ O **[!UICONTROL Action executed over the last 24 hours]** e **[!UICONTROL Action
 * **[!UICONTROL Error in actions]**: Número total de erros que ocorreram para ações.
 
 <!--
-![](../assets/live_report_7.png)
+![](assets/live_report_7.png)
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Da sua jornada **[!UICONTROL Live report]**, o **[!UICONTROL Email]** detalha as
 
 Para obter um relatório detalhado sobre um delivery de email específico, consulte a [Relatório ao vivo por email](email-live-report.md) seção.
 
-![](../assets/report_email_1.png)
+![](assets/report_email_1.png)
 
 O **[!UICONTROL Email Sending Statistics]** o widget detalha as informações principais relativas à sua mensagem:
 
@@ -105,7 +105,7 @@ O **[!UICONTROL Sending metrics by Email]** tabela e **[!UICONTROL Email Summary
 
 * **[!UICONTROL Spam complaints]**: Número de vezes que uma mensagem foi declarada como spam ou lixo eletrônico.
 
-![](../assets/report_email_2.png)
+![](assets/report_email_2.png)
 
 O **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** e **[!UICONTROL Hard and bounce - by Email]** os widgets contêm os dados disponíveis relacionados às mensagens devolvidas, como:
 
@@ -123,7 +123,7 @@ Da sua jornada **[!UICONTROL Live report]**, o **[!UICONTROL Push]** detalha as 
 
 Para obter um relatório detalhado sobre um delivery de push específico, consulte [Enviar relatório ao vivo](push-live-report.md) seção.
 
-![](../assets/report_push_1.png)
+![](assets/report_push_1.png)
 
 **[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** e **[!UICONTROL Sending metrics - by Push]** os widgets detalham as informações principais relativas à sua mensagem:
 
@@ -143,7 +143,7 @@ Para obter um relatório detalhado sobre um delivery de push específico, consul
 
 O **[!UICONTROL Error Reasons]** gráfico e tabela permitem ver qual erro ocorreu durante o delivery.
 
-![](../assets/report_push_2.png)
+![](assets/report_push_2.png)
 
 O **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** gráficos e tabelas detalham o sucesso da sua notificação por push, dependendo do sistema operacional.
 

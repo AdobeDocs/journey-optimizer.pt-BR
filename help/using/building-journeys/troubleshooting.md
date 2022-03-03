@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 81%
@@ -23,11 +23,11 @@ Antes de testar e publicar sua jornada, verifique se todas as atividades estão 
 
 Os erros são exibidos com um símbolo de aviso na tela. Coloque o cursor no ponto de exclamação para exibir a mensagem de erro. Se você clicar na atividade, verá a linha que contém o erro com um aviso. Por exemplo, se um campo obrigatório estiver vazio, um erro será exibido.
 
-![](../assets/journey63.png)
+![](assets/journey63.png)
 
 Por exemplo, caso duas atividades estejam desconectadas na tela, um aviso é exibido.
 
-![](../assets/canvas-disconnected.png)
+![](assets/canvas-disconnected.png)
 
 Um sinal de aviso pode ser exibido próximo aos botões **[!UICONTROL Test]** e **[!UICONTROL Publish]**. Este sinal de aviso mostra erros detectados pelo sistema e impede a ativação do modo de teste ou a publicação da jornada. Na maioria das vezes, os erros detectados pelo sistema estão vinculados aos erros visíveis nas atividades, mas às vezes estão vinculados a outros problemas. Nesse caso, você pode exibi-los e tentar identificar o problema usando a descrição do erro. Se não conseguir identificar o problema, você pode copiar os detalhes e enviá-los ao administrador ou ao suporte. Observe que os erros que bloqueiam o teste e os erros que bloqueiam a publicação são semelhantes.
 
@@ -35,7 +35,7 @@ O sistema detecta dois tipos de problemas: erros e avisos. Os erros bloqueiam a 
 
 Duas cores diferentes podem ser exibidas no sinal próximo aos botões **[!UICONTROL Test]** e **[!UICONTROL Publish]**. Em caso de erro, o sinal é exibido em vermelho. Em caso de aviso, é exibido em laranja.
 
-![](../assets/journey75.png)
+![](assets/journey75.png)
 
 Erros e avisos globais para a jornada aparecem primeiro na lista. Os erros e avisos relacionados a atividades específicas são listados depois, por ordem de atividade ou aparência na jornada, da esquerda para a direita. O botão **[!UICONTROL Copy details]** copia informações técnicas sobre a jornada que a equipe de suporte pode usar para a solução de problemas.
 

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: a51b19413d2b4894adfaa8249ee4f5d404ac7123
+source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 14%
@@ -21,15 +21,15 @@ Estas são as primeiras etapas para configurar um novo evento:
 
 1. Na seção do menu ADMINISTRATION (ADMINISTRAÇÃO), selecione **[!UICONTROL Configurations]**. No  **[!UICONTROL Events]** seção , clique em **[!UICONTROL Manage]**. A lista dos eventos é exibida.
 
-   ![](../assets/jo-event1.png)
+   ![](assets/jo-event1.png)
 
 1. Clique em **[!UICONTROL Create Event]** para criar um novo evento. O painel de configuração do evento é aberto no lado direito da tela.
 
-   ![](../assets/jo-event2.png)
+   ![](assets/jo-event2.png)
 
 1. Insira o nome do evento. Você também pode adicionar uma descrição.
 
-   ![](../assets/jo-event3.png)
+   ![](assets/jo-event3.png)
 
    >[!NOTE]
    >
@@ -37,24 +37,24 @@ Estas são as primeiras etapas para configurar um novo evento:
 
 1. No **[!UICONTROL Type]** , escolha **Unitário**.
 
-   ![](../assets/jo-event3bis.png)
+   ![](assets/jo-event3bis.png)
 
 1. No **[!UICONTROL Event ID type]** selecione o tipo de ID de evento que deseja usar: **Baseado em regras** ou **Sistema gerado**. Leia mais sobre os tipos de IDs de evento em [esta seção](../event/about-events.md#event-id-type).
 
-   ![](../assets/jo-event4.png)
+   ![](assets/jo-event4.png)
 
 1. O número de jornadas que usam esse evento é exibido no campo **[!UICONTROL Used in]**. Você pode clicar no ícone **[!UICONTROL View journeys]** para exibir a lista de jornadas usando esse evento.
 
 1. Defina os campos schema e payload: é aqui que você seleciona as informações do evento (normalmente chamadas de carga útil) que o jornada espera receber. Você poderá então usar essas informações em sua jornada. Consulte [esta seção](../event/about-creating.md#define-the-payload-fields).
 
-   ![](../assets/jo-event5.png)
+   ![](assets/jo-event5.png)
 
    >[!NOTE]
    >
    >Ao selecionar a variável **[!UICONTROL System Generated]** , somente os esquemas que têm o campo do tipo eventID estão disponíveis. Ao selecionar a variável **[!UICONTROL Rule Based]** , todos os esquemas de Evento de experiência estão disponíveis.
 
 1. Para eventos baseados em regras, clique dentro do **[!UICONTROL Event ID condition]** campo. Usando o editor de expressões simples, defina a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
-   ![](../assets/jo-event6.png)
+   ![](assets/jo-event6.png)
 
    Em nosso exemplo, escrevemos uma condição baseada na cidade do perfil. Isso significa que sempre que o sistema receber um evento que corresponda a essa condição (**[!UICONTROL City]** e **[!UICONTROL Paris]** ), ele a passará para o jornada.
 
@@ -65,7 +65,7 @@ Estas são as primeiras etapas para configurar um novo evento:
 1. Adicione um namespace. Esta etapa é opcional, mas é recomendada, pois a adição de namespace permite que você aproveite as informações armazenadas no Serviço de perfil do cliente em tempo real. Ela define o tipo de chave que o evento tem. Consulte [esta seção](../event/about-creating.md#select-the-namespace).
 1. Defina o identificador do perfil: escolha um campo a partir dos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento. Essa chave é configurada automaticamente (mas ainda pode ser editada) se você selecionar um namespace. Na verdade, o jornada escolhe a chave que deve corresponder ao namespace (por exemplo, se você selecionar um namespace de email, a chave de email será selecionada). Consulte [esta seção](../event/about-creating.md#define-the-event-key).
 
-   ![](../assets/jo-event7.png)
+   ![](assets/jo-event7.png)
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -77,7 +77,7 @@ A definição de carga permite escolher as informações que o sistema espera re
 
 1. Selecione um esquema XDM na lista e clique no botão **[!UICONTROL Fields]** ou no **[!UICONTROL Edit]** ícone .
 
-   ![](../assets/journey8.png)
+   ![](assets/journey8.png)
 
    Todos os campos definidos no schema são exibidos. A lista de campos varia de um schema para outro. Você pode pesquisar um campo específico ou usar os filtros para exibir todos os nós e campos ou somente os campos selecionados. De acordo com a definição do schema, alguns campos podem ser obrigatórios e pré-selecionados. Não é possível desmarcá-los. Todos os campos obrigatórios para o evento ser recebido corretamente pelo jornada são selecionados por padrão.
 
@@ -85,7 +85,7 @@ A definição de carga permite escolher as informações que o sistema espera re
    >
    >Para eventos gerados pelo sistema, verifique se você adicionou o grupo de campos &quot;orquestração&quot; ao esquema XDM. Isso garantirá que o esquema contenha todas as informações necessárias para funcionar com [!DNL Journey Optimizer].
 
-   ![](../assets/journey9.png)
+   ![](assets/journey9.png)
 
 1. Selecione os campos que você espera receber do evento. Esses são os campos que o usuário empresarial aproveitará na jornada. Eles também devem incluir a chave que será usada para identificar a pessoa associada ao evento (consulte [esta seção](../event/about-creating.md#define-the-event-key)).
 
@@ -97,7 +97,7 @@ A definição de carga permite escolher as informações que o sistema espera re
 
    O número de campos selecionados é exibido na **[!UICONTROL Fields]** campo.
 
-   ![](../assets/journey12.png)
+   ![](assets/journey12.png)
 
 ## Selecionar namespace {#select-the-namespace}
 
@@ -109,12 +109,12 @@ Se você selecionar um esquema que tenha uma identidade primária, a variável *
 
 Ao selecionar campos, os campos de identidade primários são marcados.
 
-![](../assets/primary-identity.png)
+![](assets/primary-identity.png)
 
 
 Selecione um namespace na lista suspensa.
 
-![](../assets/journey17.png)
+![](assets/journey17.png)
 
 Somente um namespace é permitido por jornada. Se você usar vários eventos na mesma jornada, eles precisarão usar o mesmo namespace. Consulte [esta página](../building-journeys/journey.md).
 
@@ -128,17 +128,17 @@ Isso permitirá que o sistema execute a reconciliação entre o evento e o perfi
 
 Ao selecionar campos, os campos de identidade primários são marcados.
 
-![](../assets/primary-identity.png)
+![](assets/primary-identity.png)
 
 Se você precisar usar uma chave diferente, como uma ID do CRM ou um endereço de email, é necessário adicioná-la manualmente:
 
 1. Clique dentro do **[!UICONTROL Profile identifier]** ou no ícone de lápis.
 
-   ![](../assets/journey16.png)
+   ![](assets/journey16.png)
 
 1. Selecione o campo escolhido como a chave na lista de campos de carga útil. Você também pode alternar para o editor de expressão avançado para criar chaves mais complexas (por exemplo, uma concatenação de dois campos dos eventos). Veja abaixo, nesta seção.
 
-   ![](../assets/journey20.png)
+   ![](assets/journey20.png)
 
 Quando o evento for recebido, o valor da chave permitirá que o sistema identifique a pessoa associada ao evento. Associado a um namespace (consulte [esta seção](../event/about-creating.md#select-the-namespace)), a chave pode ser usada para executar consultas no Adobe Experience Platform. Consulte [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
 A chave também é usada para verificar se uma pessoa está em uma jornada. Na verdade, uma pessoa não pode estar em dois lugares diferentes na mesma jornada. Como resultado, o sistema não permite que a mesma chave, por exemplo, a chave CRMID=3224, esteja em lugares diferentes na mesma jornada.
@@ -155,11 +155,11 @@ A pré-visualização de carga permite validar a definição da carga útil.
 
 1. Clique no botão **[!UICONTROL View Payload]** ícone para visualizar a carga esperada pelo sistema.
 
-   ![](../assets/journey13.png)
+   ![](assets/journey13.png)
 
    Observe que os campos selecionados são exibidos.
 
-   ![](../assets/journey14.png)
+   ![](assets/journey14.png)
 
 1. Verifique a pré-visualização para validar a definição da carga útil.
 
