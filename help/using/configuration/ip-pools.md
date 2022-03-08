@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -63,7 +63,7 @@ Para editar um pool IP:
 
    >[!CAUTION]
    >
-   >Continue com muito cuidado ao considerar a exclusão de um IP, pois isso colocará carga adicional nos outros IPs e poderá ter impactos graves na capacidade de entrega. Em caso de dúvida, entre em contato com um especialista em deliverability.
+   >Continue com muito cuidado ao considerar a exclusão de um IP, pois isso colocará carga adicional nos outros IPs e poderá ter impactos graves na capacidade de entrega. Em caso de dúvidas, entre em contato com um especialista em capacidade de delivery.
 
 1. Salve as alterações.
 

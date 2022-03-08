@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: fc6ec2c916f6fbf3d6c6728b5a50ae7e54d9b42f
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -62,7 +62,7 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
    ![](assets/message-tracking-links.png)
 
-1. Você pode personalizar seus links. Saiba mais sobre URLs personalizados em [esta seção](../personalization/personalization-syntax.md#perso-urls).
+1. Você pode personalizar seus links. Saiba mais sobre URLs personalizados [nesta seção](../personalization/personalization-syntax.md#perso-urls).
 
 1. Salve as alterações.
 

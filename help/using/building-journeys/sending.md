@@ -1,7 +1,7 @@
 ---
 title: Iniciar a execução da jornada
 description: Saiba como iniciar a jornada e enviar mensagens
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 8%

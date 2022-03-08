@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -140,18 +140,20 @@ Se preferir usar um conteúdo diferente para a versão de texto sem formatação
 >* Se você reativar o **[!UICONTROL Sync with HTML]** após atualizar o conteúdo de texto sem formatação, as alterações serão perdidas e substituídas pelo conteúdo de texto gerado pela versão HTML.
 
 
-## Usar um precabeçalho {#preheader}
+## Adicionar um precabeçalho {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Uso de um pré-cabeçalho"
->abstract="O precabeçalho permite configurar um texto resumido curto que pode ajudá-lo a controlar e personalizar melhor seus emails."
+>title="Adição de um precabeçalho"
+>abstract="Um precabeçalho é um texto resumido curto que segue a linha de assunto ao visualizar um email do seu cliente de email. Em muitos casos, ele fornece um breve resumo do email e, normalmente, tem uma frase de duração."
+
+Um precabeçalho é um texto resumido curto que segue a linha de assunto ao visualizar um email do seu cliente de email. Em muitos casos, ele fornece um breve resumo do email e, normalmente, tem uma frase de duração.
 
 >[!NOTE]
 >
->Observe que os pré-cabeçalhos não são compatíveis com todos os clientes de email. Quando não é suportado, o precabeçalho não é exibido.
+>Os pré-cabeçalhos não são suportados por todos os clientes de email. Quando não é suportado, o precabeçalho não é exibido.
 
-Um precabeçalho é um texto resumido curto que segue a linha de assunto ao visualizar um email do seu cliente de email. O pré-cabeçalho pode ajudá-lo a controlar e personalizar melhor seus emails.
+Para definir o pré-cabeçalho de email, siga as etapas abaixo:
 
 1. No Designer de email, adicione um **[!UICONTROL Structure components]** para começar a criar seu email.
 
@@ -180,7 +182,7 @@ O pré-cabeçalho agora está configurado para o email.
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Configurações de plano de fundo"
->abstract="O Designer de email permite que você personalize a cor do fundo ou a imagem do fundo para o seu conteúdo.Observe que a imagem do fundo não é suportada por todos os clientes de email."
+>abstract="Você pode personalizar a cor do plano de fundo ou a imagem do plano de fundo para o seu conteúdo. Observe que a imagem de fundo não é suportada por todos os clientes de email."
 
 Quando se trata de definir planos de fundo com o Email Designer, o Adobe recomenda o seguinte:
 

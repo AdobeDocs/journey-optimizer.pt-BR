@@ -6,14 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
-source-git-commit: 0160c6b95c980bc54b4d196828c05a822ec0d8fd
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 4%
+source-wordcount: '553'
+ht-degree: 3%
 
 ---
 
 # Criar uma mensagem {#create-message}
+
+## Acessar mensagens {#access-messages}
 
 As mensagens estão disponíveis no **[!UICONTROL Messages]** no painel de navegação esquerdo. Todas as mensagens são listadas, classificadas por data de publicação (para mensagens publicadas) ou data de criação (para mensagens de rascunho).
 
@@ -23,13 +25,23 @@ As mensagens estão disponíveis no **[!UICONTROL Messages]** no painel de naveg
 
 ![](assets/messages-list.png)
 
-Use o **[!UICONTROL Show recents]** alterne para adicionar links diretos às mensagens acessadas nos últimos 5 dias.
+* Use o **[!UICONTROL Show recents]** alterne para adicionar links diretos às mensagens acessadas nos últimos 5 dias.
 
-![](assets/show-recent-messages.png)
+   ![](assets/show-recent-messages.png)
 
-Use o ícone de filtro para exibir somente mensagens elaboradas, publicadas ou que estejam sendo publicadas. Também é possível pesquisar no rótulo da mensagem, conforme abaixo:
+* Use o ícone de filtro para exibir somente mensagens elaboradas, publicadas ou que estejam sendo publicadas. Também é possível pesquisar no rótulo da mensagem, conforme abaixo:
 
-![](assets/filter-messages.png)
+   ![](assets/filter-messages.png)
+
+* Você pode arquivar as mensagens não utilizadas para limpar a lista de mensagens usando o ícone dedicado do menu de ações rápidas.
+
+   ![](assets/archive-message.png)
+
+   Use o ícone de filtro para exibir todas as mensagens arquivadas e clique no botão **[!UICONTROL Unarchive]** ícone para remover um item da lista de mensagens arquivadas.
+
+   >[!NOTE]
+   >
+   >Não é possível abrir uma mensagem arquivada. Você deve desarquivá-lo primeiro.
 
 ## Criar uma nova mensagem {#create-new-message}
 
@@ -77,18 +89,25 @@ Para criar uma nova mensagem, siga as etapas abaixo:
 
 ## Duplicar uma mensagem {#duplicate-message}
 
-Para criar uma mensagem a partir de uma existente, use o **[!UICONTROL Duplicate]** na interface da mensagem. Todas as configurações e configurações serão copiadas para a nova mensagem
+Para criar uma mensagem a partir de uma existente, siga as etapas abaixo.
 
-![](assets/message-duplicate.png)
+1. Abra a mensagem que deseja copiar.
 
-É possível renomear a mensagem antes de confirmar a duplicação.
+1. Use o **[!UICONTROL Duplicate]** na interface da mensagem.
 
-![](assets/message-duplicate-confirm.png)
+   ![](assets/message-duplicate.png)
 
-Uma mensagem de confirmação é exibida na parte inferior da janela assim que a nova mensagem é criada.
+   Todas as configurações e configurações serão copiadas para a nova mensagem.
 
-Também é possível duplicar uma mensagem da lista de mensagens, usando o ícone dedicado.
+1. É possível renomear a mensagem antes de confirmar a duplicação.
+
+   ![](assets/message-duplicate-confirm.png)
+
+1. Uma mensagem de confirmação é exibida na parte inferior da janela assim que a nova mensagem é criada.
+
+Também é possível duplicar uma mensagem da lista de mensagens, usando o ícone dedicado do menu de ações rápidas.
 
 ![](assets/message-duplicate-from-list.png)
 
 O mesmo processo de confirmação se aplica.
+

@@ -6,24 +6,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '1325'
-ht-degree: 4%
+source-wordcount: '1317'
+ht-degree: 3%
 
 ---
 
 # Criar perfis de teste {#create-test-profiles}
 
-Perfis de teste são necessários ao usar o modo de teste Para saber como usar o [modo de teste](../building-journeys/testing-the-journey.md) em uma jornada, e para [visualizar e testar suas mensagens](../messages/preview.md).
+Os perfis de teste são necessários ao usar o [modo de teste](../building-journeys/testing-the-journey.md) em uma jornada, e para [visualizar e testar seu conteúdo](../messages/preview.md).
 
-Os métodos disponíveis para criar perfis de teste são detalhados abaixo:
+Há várias maneiras de criar perfis de teste. Você pode encontrar nesta página detalhes para:
 
-* Você pode transformar um [perfil existente](#turning-profile-into-test) em um perfil de teste
+* Vire uma [perfil existente](#turning-profile-into-test) em um perfil de teste
 
-* Você pode criar um perfil de teste carregando um [arquivo csv](#create-test-profiles-csv) ou usando [Chamadas de API](#create-test-profiles-api). Além desses dois métodos, o Adobe Journey Optimizer vem com um [caso de uso no produto](#use-case-1) para facilitar a criação do perfil de teste.
+* Crie perfis de teste carregando um [arquivo csv](#create-test-profiles-csv) ou usando [Chamadas de API](#create-test-profiles-api).
 
-* Você também pode fazer upload de um arquivo json em um conjunto de dados. Para obter mais informações, consulte [Documentação da assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}.
+   Além desses dois métodos, o Adobe Journey Optimizer vem com um [caso de uso no produto](#use-case-1) para facilitar a criação do perfil de teste.
+
+Você também pode fazer upload de um arquivo json em um conjunto de dados existente. Para obter mais informações, consulte [Documentação da assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}.
 
 Observe que criar um perfil de teste é semelhante à criação de perfis regulares no Adobe Experience Platform. Para obter mais informações, consulte [Documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
@@ -31,7 +33,7 @@ Observe que criar um perfil de teste é semelhante à criação de perfis regula
 
 Para criar perfis, primeiro é necessário criar um esquema e um conjunto de dados no Adobe [!DNL Journey Optimizer].
 
-Primeiro, você precisa **criar um schema**. Siga estas etapas:
+Para **criar um schema** siga estas etapas:
 
 1. Na seção do menu GERENCIAMENTO DE DADOS , clique em **[!UICONTROL Schemas]**.
    ![](assets/test-profiles-0.png)
@@ -110,7 +112,7 @@ Depois de selecionar o namespace de identidade e fornecer o arquivo CSV com base
 
 Você pode transformar um perfil existente em um perfil de teste: é possível atualizar os atributos de perfil da mesma maneira que criar um perfil.
 
-Uma maneira simples de fazer isso é usando um **[!UICONTROL Update Profile]** atividade de ação em uma jornada e altere o campo booleano testProfile de false para true.
+Uma maneira simples de fazer isso é usando um **[!UICONTROL Update Profile]** atividade de ação em uma jornada e altere a **testProfile** campo booleano de false para true.
 
 Sua jornada será composta por um **[!UICONTROL Read Segment]** e um **[!UICONTROL Update Profile]** atividade . Primeiro, é necessário criar um segmento direcionado aos perfis que você deseja transformar em perfis de teste.
 

@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7aaedb4c76afb34c4110dc64ad79af9cd2091adb
-workflow-type: ht
-source-wordcount: '965'
-ht-degree: 100%
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+workflow-type: tm+mt
+source-wordcount: '1001'
+ht-degree: 96%
 
 ---
 
@@ -13,6 +13,10 @@ ht-degree: 100%
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
 
+
+## Março de 2022 {#march-2022}
+
+* Uma nova página sobre a introdução aos modelos de IA foi adicionada ao **Offer decisioning** , incluindo uma descrição completa da [modelo de otimização automática](../offers/offer-library/ai-ranking.md#auto-optimization), o algoritmo usado e mais detalhes técnicos. [Leia mais](../offers/offer-library/ai-ranking.md)
 
 ## Fevereiro de 2022 {#feb-2022}
 

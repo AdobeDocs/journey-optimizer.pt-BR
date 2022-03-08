@@ -6,10 +6,9 @@ description: Saiba mais sobre os modelos de IA que permitem classificar ofertas
 feature: Ranking Formulas
 role: User
 level: Intermediate
-exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec34
-source-git-commit: bf9b555d717fe8b6d1e9500ba0a97eaea243dd7f
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -117,8 +116,4 @@ O problema de &quot;inicialização imediata&quot; ocorre quando uma nova oferta
 Por exemplo, se estivermos interessados em medir o desempenho de uma estratégia de Amostragem de Thompson (TS) usada no serviço de classificação, e o KPI for a taxa de conversão (CVR), o &quot;aumento&quot; da estratégia de TS em relação à estratégia de linha de base será definido como:
 
 ![](../assets/ai-ranking-lift.png)
-
-### Frequência de reciclagem
-
-Fizemos vários testes estatísticos para tomar uma decisão baseada em dados sobre encontrar um valor robusto para a frequência de treinamento e a janela de retrospectiva para otimização automática. Na implementação inicial do serviço de classificação, uma janela de retrospectiva de 15 dias e uma frequência de retreinamento de 2 horas são usadas para criar o modelo de amostragem de Thompson.
 
