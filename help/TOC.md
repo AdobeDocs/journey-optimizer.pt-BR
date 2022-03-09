@@ -5,9 +5,9 @@ user-guide-title: Manual do Journey Optimizer
 user-guide-description: Usar o Journey Optimizer para fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '925'
 ht-degree: 98%
 
 ---
@@ -48,6 +48,15 @@ ht-degree: 98%
       + [Verificar alertas](using/messages/alerts.md)
       + [Publicar mensagens](using/messages/publish-manage-message.md)
    + [Gerenciar o consentimento](using/messages/consent.md)
++ Páginas de aterrissagem {#landing-pages}
+   + [Introdução às páginas de aterrissagem](using/landing-pages/get-started-lp.md)
+   + [Criar uma página de aterrissagem](using/landing-pages/create-lp.md)
+   + [Projetar uma página de aterrissagem](using/landing-pages/design-lp.md)
+   + [Criar uma lista de assinaturas](using/landing-pages/subscription-list.md)
+   + [Casos de uso](using/landing-pages/lp-use-cases.md)
+   + Relatórios {#lp-reporting}
+      + [Relatórios de páginas de aterrissagem](using/landing-pages/lp-report.md)
+      + [Relatórios da lista de assinaturas](using/landing-pages/subscription-report.md)
 + Personalização{#personalization}
    + [Introdução com personalização](using/personalization/personalize.md)
    + [Contextos de personalização](using/personalization/personalization-contexts.md)
@@ -224,15 +233,6 @@ ht-degree: 98%
       + [Introdução à capacidade de entrega](using/messages/deliverability.md)
       + [Lista de supressão](using/messages/suppression-list.md)
       + [Lista de permissões](using/messages/allow-list.md)
-+ Páginas de aterrissagem {#landing-pages}
-   + [Introdução às páginas de aterrissagem](using/landing-pages/get-started-lp.md)
-   + [Criar uma página de aterrissagem](using/landing-pages/create-lp.md)
-   + [Projetar uma página de aterrissagem](using/landing-pages/design-lp.md)
-   + [Criar uma lista de assinaturas](using/landing-pages/subscription-list.md)
-   + [Casos de uso](using/landing-pages/lp-use-cases.md)
-   + Relatórios {#lp-reporting}
-      + [Relatórios de páginas de aterrissagem](using/landing-pages/lp-report.md)
-      + [Relatórios da lista de assinaturas](using/landing-pages/subscription-report.md)
 + Gerenciamento de decisão {#offer-decisioniong}
    + Introdução ao gerenciamento de decisão {#get-started-decision}
       + [Sobre o Gerenciamento de decisão](using/offers/get-started/starting-offer-decisioning.md)
@@ -338,6 +338,7 @@ ht-degree: 98%
          + [Alterar endereço principal do email](using/configuration/primary-email-addresses.md)
       + [Configurar canal de SMS](using/configuration/sms-configuration.md)
       + [Criar predefinições de mensagem](using/configuration/message-presets.md)
+   + [Configurar páginas de aterrissagem](using/configuration/lp-configuration.md)
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
       + [Integrar a sistemas externos](using/configuration/external-systems.md)

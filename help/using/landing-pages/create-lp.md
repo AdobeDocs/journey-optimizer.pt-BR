@@ -5,21 +5,15 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 4%
+source-wordcount: '955'
+ht-degree: 3%
 
 ---
 
 # Criar e publicar landing pages {#create-lp}
-
->[!CAUTION]
->
->O uso de landing pages está disponível no momento somente para usuários selecionados. Se quiser aproveitar esse recurso, entre em contato com o executivo da sua conta Adobe.
 
 ## Acessar landing pages {#access-landing-pages}
 
@@ -30,6 +24,22 @@ Para acessar a lista de landing pages, selecione **[!UICONTROL Journey Managemen
 O **[!UICONTROL Landing Pages]** exibe todos os itens criados. Você pode filtrá-los com base em seu status ou data de modificação.
 
 ![](assets/lp_access-list-filter.png)
+
+Nessa lista, é possível acessar o [relatórios de página de aterrissagem](lp-report.md) para itens publicados.
+
+Também é possível excluir, duplicar e desfazer a publicação de uma landing page.
+
+>[!CAUTION]
+>
+>Se você cancelar a publicação de uma landing page referenciada em uma mensagem não publicada, a mensagem não poderá ser publicada até que a landing page seja publicada novamente. Se a mensagem já estiver publicada, o link para a landing page será quebrado e uma página de erro será exibida.
+
+Clique nos três pontos ao lado de uma página de aterrissagem para selecionar a ação desejada.
+
+![](assets/lp_access-list-actions.png)
+
+>[!NOTE]
+>
+>Não é possível excluir uma landing page publicada. Para excluí-lo, é necessário cancelar a publicação primeiro.
 
 ## Criar uma página de aterrissagem {#create-landing-page}
 
@@ -43,13 +53,9 @@ As etapas para criar uma landing page são as seguintes.
 
    ![](assets/lp_create-lp-details.png)
 
-1. Selecione uma predefinição.
+1. Selecione uma predefinição. Saiba como criar predefinições de página de aterrissagem em [esta seção](../configuration/lp-configuration.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
-
-   >[!NOTE]
-   >
-   >Para definir predefinições de landing page, entre em contato com o representante da conta do Adobe ou com o [Equipe de suporte ao Atendimento ao cliente do Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
 1. Clique em **[!UICONTROL Create]**.
 
@@ -75,7 +81,7 @@ Para definir as configurações da página primária, siga as etapas abaixo.
 
    ![](assets/lp_open-designer.png)
 
-1. Defina o URL da página de aterrissagem. A primeira parte do URL requer que a delegação de domínio seja executada. Ela é pré-preenchida e não pode ser editada por meio da interface do usuário do . Para configurá-lo, entre em contato com seu representante de conta do Adobe ou com o [Equipe de suporte ao Atendimento ao cliente do Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Defina o URL da página de aterrissagem. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem. [Saiba mais](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -113,7 +119,7 @@ Para definir as configurações de subpágina, siga as etapas abaixo.
 
 1. Edite o conteúdo da sua página usando o designer de conteúdo. Saiba como definir o conteúdo da página de aterrissagem [here](design-lp.md).
 
-1. Defina o URL da página de aterrissagem. A primeira parte do URL requer que a delegação de domínio seja executada. Ela é pré-preenchida e não pode ser editada por meio da interface do usuário do . Para configurá-lo, entre em contato com seu representante de conta do Adobe ou com o [Equipe de suporte ao Atendimento ao cliente do Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Defina o URL da página de aterrissagem. A primeira parte do URL requer que a delegação de domínio seja executada. Ela é pré-preenchida e não pode ser editada por meio da interface do usuário do . Para configurá-lo, entre em contato com seu representante de conta do Adobe ou com o [Equipe de suporte ao Atendimento ao cliente do Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >

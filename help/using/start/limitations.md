@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 80de53e62da5fc3b0543ee09327e11edd277b234
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '615'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,14 @@ Você encontrará abaixo limitações adicionais ao usar [!DNL Adobe Journey Opt
 * Não é possível adicionar anexos a um email com [!DNL Journey Optimizer].
 * O Cco de email não é compatível com o [!DNL Journey Optimizer].
 * Você não pode usar o mesmo domínio de envio para enviar mensagens de [!DNL Adobe Journey Optimizer] e de outro produto, como [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage] por exemplo.
+
+## Limitações nas landing pages {#limitations-lp}
+
+* Somente um **Formulário** pode ser usado em uma única página primária.
+* O **Formulário** não pode ser usado em subpáginas.
+* Não é possível adicionar um precabeçalho a uma página de aterrissagem.
+
+<!--You cannot select the **Code your own** option when designing a landing primary page.-->
 
 ## Limitações em jornadas {#limitations-journeys}
 

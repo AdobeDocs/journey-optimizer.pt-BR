@@ -5,24 +5,17 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 21%
+source-wordcount: '900'
+ht-degree: 20%
 
 ---
 
 # Casos de uso da página de aterrissagem {#lp-use-cases}
 
 Abaixo estão alguns exemplos de como você pode usar [!DNL Journey Optimizer] páginas de aterrissagem para que seus clientes optem por receber algumas ou todas as suas comunicações.
-
-<!--The main use cases are:
-* Subscription to a service
-* Opt-in
-* Opt-out-->
 
 ## Assinatura de um serviço {#subscription-to-a-service}
 
@@ -32,13 +25,15 @@ Um dos casos de uso mais comuns consiste em convidar seus clientes para [assinar
 
 Por exemplo, digamos que você organize um evento no próximo mês e deseje iniciar uma campanha de registro de evento<!--to keep your customers that are interested updated on that event-->. Para fazer isso, você enviará um email incluindo um link para uma landing page que permitirá que seus recipients se registrem neste evento. Os usuários que se registrarem serão adicionados à lista de assinaturas criada para essa finalidade.
 
-### Configurar landing page {#set-up-lp}
+### Configurar uma landing page {#set-up-lp}
 
 1. Crie a lista de subscrição do registro de eventos, que armazenará os usuários registrados. Saiba como criar uma lista de assinaturas [here](subscription-list.md#define-subscription-list).
 
    ![](assets/lp_subscription-uc-list.png)
 
 1. [Criar uma landing page](create-lp.md) para permitir que seus recipients se registrem no seu evento.
+
+   ![](assets/lp_create-lp-details.png)
 
 1. Configurar o registro [página de aterrissagem primária](create-lp.md#configure-primary-page).
 
@@ -57,6 +52,10 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 1. [Inserir um link](../messages/message-tracking.md#insert-links) no conteúdo da mensagem. Selecionar **[!UICONTROL Landing page]** como **[!UICONTROL Link type]** e escolha a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para registro.
 
    ![](assets/lp_subscription-uc-link.png)
+
+   >[!NOTE]
+   >
+   >Para publicar sua mensagem, verifique se a landing page selecionada ainda não expirou. Saiba como atualizar o prazo de validade [nesta seção](create-lp.md#configure-primary-page).
 
 1. Salve o conteúdo e [publique a mensagem](../messages/publish-manage-message.md).
 
@@ -115,7 +114,7 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
    ![](assets/lp_opt-out-primary-lp.png)
 
-   <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
+   <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
 1. Adicionar uma confirmação [subpágina](create-lp.md#configure-subpages) que será exibido para os usuários que enviam o formulário.
 
@@ -138,6 +137,10 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 1. Selecionar **[!UICONTROL Landing page]** do **[!UICONTROL Link type]** e selecione a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para rejeitar.
 
    ![](assets/lp_opt-out-landing-page.png)
+
+   >[!NOTE]
+   >
+   >Para publicar sua mensagem, verifique se a landing page selecionada ainda não expirou. Saiba como atualizar o prazo de validade [nesta seção](create-lp.md#configure-primary-page).
 
 1. Salve o conteúdo e [publique a mensagem](../messages/publish-manage-message.md).
 
