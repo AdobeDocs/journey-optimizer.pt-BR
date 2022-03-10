@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Para definir um conteúdo específico que permitirá aos usuários selecionar e 
 
 1. No **[!UICONTROL Checkbox 1]** , você pode editar o rótulo correspondente a essa caixa de seleção.
 
-1. Defina se essa caixa de seleção deve ser de opt in ou out de usuários: concordam em receber comunicações ou pedem que não sejam mais contactadas?
+1. Defina se essa caixa de seleção deve ser de opt in ou out de usuários: eles concordam em receber comunicações ou pedem para não mais ser contatados?
 
    ![](assets/lp_designer-form-update.png)
 

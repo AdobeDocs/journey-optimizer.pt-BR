@@ -3,9 +3,10 @@ title: Configuração da página de aterrissagem
 description: Saiba como configurar seu ambiente para criar e usar landing pages com o Journey Optimizer
 role: Admin
 level: Intermediate
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '804'
 ht-degree: 2%
 
 ---
@@ -65,7 +66,7 @@ Para usar um subdomínio que já tenha sido delegado ao Adobe, siga as etapas ab
 
    >[!NOTE]
    >
-   >Antes de poder usar esse subdomínio para enviar mensagens, é necessário aguardar até que o Adobe execute as verificações necessárias, que podem levar até 4 horas.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >Antes de poder usar esse subdomínio para enviar mensagens, você deve aguardar até que o Adobe execute as verificações necessárias, que podem levar até 4 horas.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. Depois que as verificações são bem-sucedidas, o subdomínio recebe o **[!UICONTROL Success]** status. Ele está pronto para ser usado para criar predefinições de página de aterrissagem.
 
@@ -93,7 +94,7 @@ Para configurar um novo subdomínio, siga as etapas abaixo.
 
 1. O registro a ser colocado em seus servidores DNS é exibido. Copie esse registro ou baixe um arquivo CSV e navegue até a solução de hospedagem de domínio para gerar o registro DNS correspondente.
 
-1. Certifique-se de que o registro DNS foi gerado na solução de hospedagem de domínio. Se tudo estiver configurado corretamente, marque a caixa &quot;I confirm...&quot; e clique em **[!UICONTROL Submit]**.
+1. Certifique-se de que o registro DNS foi gerado em sua solução de hospedagem de domínio. Se tudo estiver configurado corretamente, marque a caixa &quot;I confirm...&quot; e clique em **[!UICONTROL Submit]**.
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
@@ -105,7 +106,7 @@ Para configurar um novo subdomínio, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Antes de poder usar esse subdomínio para enviar mensagens, é necessário aguardar até que o Adobe execute as verificações necessárias, que podem levar até 4 horas.<!--Learn more in [this section](#subdomain-validation).-->
+   >Antes de poder usar esse subdomínio para enviar mensagens, você deve aguardar até que o Adobe execute as verificações necessárias, que podem levar até 4 horas.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Depois que as verificações são bem-sucedidas, o subdomínio recebe o **[!UICONTROL Success]** status. Ele está pronto para ser usado para criar predefinições de página de aterrissagem.
 
@@ -113,7 +114,7 @@ Para configurar um novo subdomínio, siga as etapas abaixo.
 
 ## Definir predefinições da landing page {#lp-define-preset}
 
-When [criação de uma landing page](../landing-pages/create-lp.md#create-a-lp), é necessário selecionar uma predefinição de página de aterrissagem para criar a página de aterrissagem e aproveitá-la **[!DNL Journey Optimizer]**.
+When [criação de uma landing page](../landing-pages/create-lp.md#create-a-lp), você deve selecionar uma predefinição de página de aterrissagem para criar a página de aterrissagem e aproveitá-la **[!DNL Journey Optimizer]**.
 
 ### Acessar predefinições da página de aterrissagem {#lp-presets}
 

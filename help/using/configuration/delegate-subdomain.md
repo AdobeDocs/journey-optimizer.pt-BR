@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1431'
 ht-degree: 10%
 
 ---
@@ -66,7 +66,7 @@ Para delegar totalmente um novo subdomínio ao Adobe, siga as etapas abaixo:
 
    ![](assets/subdomain-processing.png)
 
-   Antes de poder usar esse subdomínio para enviar mensagens, é necessário aguardar até que o Adobe execute as verificações necessárias, que podem levar até 3 horas. Saiba mais [nesta seção](#subdomain-validation).
+   Antes de poder usar esse subdomínio para enviar mensagens, você deve aguardar até que o Adobe execute as verificações necessárias, que podem levar até 3 horas. Saiba mais [nesta seção](#subdomain-validation).
 
    >[!NOTE]
    >
@@ -138,7 +138,7 @@ Para delegar um subdomínio usando CNAMEs, siga as etapas abaixo:
 
 1. Depois que a delegação de subdomínio CNAME for enviada, o subdomínio será exibido na lista com a variável **[!UICONTROL Processing]** status. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](access-subdomains.md).
 
-   Antes de poder usar esse subdomínio para enviar mensagens, é necessário aguardar até que o Adobe execute as verificações necessárias, que geralmente levam de 2 a 3 horas. Saiba mais [nesta seção](#subdomain-validation).
+   Antes de poder usar esse subdomínio para enviar mensagens, você deve aguardar até que o Adobe execute as verificações necessárias, que geralmente levam de 2 a 3 horas. Saiba mais [nesta seção](#subdomain-validation).
 
 1. Depois que as verificações forem bem-sucedidas<!--i.e Adobe validates the record you created and installs it-->, o subdomínio obtém a variável **[!UICONTROL Success]** status. Ele está pronto para ser usado para entregar mensagens.
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 3%
+source-wordcount: '920'
+ht-degree: 2%
 
 ---
 
@@ -119,7 +119,7 @@ Para definir as configurações de subpágina, siga as etapas abaixo.
 
 1. Edite o conteúdo da sua página usando o designer de conteúdo. Saiba como definir o conteúdo da página de aterrissagem [here](design-lp.md).
 
-1. Defina o URL da página de aterrissagem. A primeira parte do URL requer que a delegação de domínio seja executada. Ela é pré-preenchida e não pode ser editada por meio da interface do usuário do . Para configurá-lo, entre em contato com seu representante de conta do Adobe ou com o [Equipe de suporte ao Atendimento ao cliente do Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Defina o URL da página de aterrissagem. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem. [Saiba mais](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 
 >[!CAUTION]
 >
->Você precisa ter perfis de teste disponíveis para pré-visualizar suas mensagens e enviar provas. Saiba como [criar perfis de teste](../building-journeys/creating-test-profiles.md).
+>Você deve ter perfis de teste disponíveis para visualizar suas mensagens e enviar provas. Saiba como [criar perfis de teste](../building-journeys/creating-test-profiles.md).
 
 1. Na interface da landing page, clique no link **[!UICONTROL Preview & test]** para acessar a seleção de perfil de teste.
 
@@ -161,7 +161,7 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 
 ## Verificar alertas {#check-alerts}
 
-Ao criar a landing page, os alertas avisam quando você precisa tomar ações importantes antes de publicar.
+Ao criar a landing page, os alertas avisam quando você deve tomar ações importantes antes da publicação.
 
 Os alertas são exibidos na parte superior direita da tela, conforme mostrado abaixo:
 
@@ -181,7 +181,7 @@ Dois tipos de alertas podem acontecer:
 
 >[!CAUTION]
 >
-> Você precisa resolver tudo **erro** alertas antes da publicação.
+> Você deve resolver tudo **erro** alertas antes da publicação.
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
@@ -195,7 +195,7 @@ Dois tipos de alertas podem acontecer:
 
 >[!CAUTION]
 >
-> To be able to publish your message, you need to resolve all **error** alerts.
+> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## Publicar a landing page {#publish-landing-page}

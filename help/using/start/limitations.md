@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80de53e62da5fc3b0543ee09327e11edd277b234
+source-git-commit: d2ae8f7a2a44ac92d26520e5c85a19a2660ed8e2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -30,8 +30,7 @@ Você encontrará abaixo limitações adicionais ao usar [!DNL Adobe Journey Opt
 * Somente um **Formulário** pode ser usado em uma única página primária.
 * O **Formulário** não pode ser usado em subpáginas.
 * Não é possível adicionar um precabeçalho a uma página de aterrissagem.
-
-<!--You cannot select the **Code your own** option when designing a landing primary page.-->
+* Não é possível selecionar a variável **Codifique seu próprio** ao criar uma página primária de aterrissagem.
 
 ## Limitações em jornadas {#limitations-journeys}
 
@@ -80,7 +79,7 @@ Você pode escolher uma dessas duas soluções:
 
 * Adicione uma atividade de espera após o primeiro evento para conceder ao Adobe Experience Platform o tempo necessário para executar a assimilação no Serviço de perfil.
 
-* Configure uma jornada que não use o perfil imediatamente. Por exemplo, se a jornada foi projetada para confirmar a criação de uma conta, o evento de experiência pode conter as informações necessárias para enviar a primeira mensagem de confirmação (nome, sobrenome, endereço de email etc.).
+* Configure uma jornada que não use o perfil imediatamente. Por exemplo, se a jornada for projetada para confirmar a criação de uma conta, o evento de experiência poderá conter as informações necessárias para enviar a primeira mensagem de confirmação (nome, sobrenome, endereço de email etc.).
 
 ### Ler segmento {#read-segment}
 
