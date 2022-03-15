@@ -4,7 +4,7 @@ description: Saiba como configurar seu ambiente para criar e usar landing pages 
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 2cee54221871979bb1ae2c8b7990debe1c80ce67
+source-git-commit: e9878246c2af5c7ee0f961aaaad64e186431d96e
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="Criar uma predefinição de página de aterrissagem"
->abstract="Para criar uma predefinição de página de aterrissagem, verifique se você configurou anteriormente pelo menos um subdomínio de página de aterrissagem para escolher no **Nome do subdomínio** lista."
+>abstract="Para criar uma predefinição de página de aterrissagem, verifique se você configurou anteriormente pelo menos um subdomínio de página de aterrissagem para escolher na lista Nome de subdomínio ."
 
 Para poder [criar predefinições de página de aterrissagem](#lp-create-preset), é necessário configurar os subdomínios que serão usados para as landing pages.
 
