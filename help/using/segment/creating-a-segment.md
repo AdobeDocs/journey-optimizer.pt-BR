@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '314'
 ht-degree: 5%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 5%
 # Construir segmentos {#build-segments}
 
 Neste exemplo, criaremos um segmento para direcionar todos os clientes que moram em Atlanta, São Francisco ou Seattle e nascem depois de 1980. Todos esses clientes devem ter aberto o aplicativo Luma nos últimos 7 dias, e então fizeram uma compra dentro de 2 horas após abrir o aplicativo.
+
+➡️ [Saiba como criar segmentos neste vídeo](#video-segment)
 
 1. Acesse o **[!UICONTROL Segments]** , em seguida, clique no botão **[!UICONTROL Create segment]** botão.
 
@@ -55,6 +57,8 @@ Neste exemplo, criaremos um segmento para direcionar todos os clientes que moram
 
 O segmento agora pode ser usado em suas jornadas. Para obter mais informações, consulte [esta seção](../segment/about-segments.md).
 
-## Tutorial em vídeo{#create-segment-video}
+## Vídeo tutorial{#video-segment}
+
+Saiba como criar segmentos.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)

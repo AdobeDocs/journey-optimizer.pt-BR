@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 0%
+source-wordcount: '1505'
+ht-degree: 1%
 
 ---
 
 # Projetar o conteúdo de email na interface do usuário {#create-email-content}
 
 Depois de [criou a mensagem](create-message.md), você pode começar a criar o conteúdo do email.
+
+➡️ [Descubra este recurso no vídeo](#video)
 
 1. Na mensagem recém-criada, selecione **[!UICONTROL Email designer]** no **[!UICONTROL Body]** seção.
 
@@ -282,3 +284,9 @@ Na interface do Designer de email, ao selecionar um elemento e exibir suas confi
 1. Modifique os valores dos atributos existentes ou adicione novos usando o **+** botão. Você pode adicionar qualquer atributo e valor compatível com CSS.
 
 O estilo é aplicado ao elemento selecionado. Se os elementos filho não tiverem atributos de estilo específicos definidos, o estilo do elemento pai será herdado.
+
+## Vídeo tutorial {#video}
+
+Saiba como criar conteúdo de email com o editor de mensagens.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

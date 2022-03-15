@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 0%
+source-wordcount: '617'
+ht-degree: 1%
 
 ---
 
 # Monitoramento de mensagens {#monitor-message-execution}
 
 Para garantir que suas mensagens sejam executadas, enviadas e entregues com êxito, [!DNL Journey Optimizer] O oferece recursos para monitorar as mensagens publicadas e acionadas no momento. Você pode ver o desempenho de suas mensagens em jornadas <!--and APIs--> em tempo real da **[!UICONTROL Executions]** lista.
+
+➡️ [Descubra este recurso no vídeo](#video)
 
 Para acessar essa lista, no **[!DNL Journey Optimizer]** página inicial, selecione **[!UICONTROL Messages]** e clique no botão **[!UICONTROL Executions]** guia .
 
@@ -93,3 +95,9 @@ Em **Exibição global** somente é possível escolher se deseja exibir os dados
 ![](assets/message-execution-data-format.png)
 
 Clicar em cada hiperlink abrirá a exibição de resumo de mensagem correspondente. [Saiba mais sobre mensagens](create-message.md).
+
+## Vídeo tutorial {#video}
+
+Saiba mais sobre relatórios ao vivo e globais, como acessar e analisar a Jornada e os relatórios específicos de Mensagem e como modificar os painéis do relatório.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334108?quality=12)

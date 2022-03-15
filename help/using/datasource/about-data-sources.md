@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 72%
+source-wordcount: '312'
+ht-degree: 74%
 
 ---
 
@@ -27,6 +27,8 @@ A configuração da fonte de dados permite definir uma conexão com um sistema p
 * [definição de espera personalizada](../building-journeys/wait-activity.md#custom)
 * [definição de fuso horário](../building-journeys/timezone-management.md)
 
+➡️ [Descubra este recurso no vídeo](#video)
+
 Essa configuração não é necessária se suas jornadas só usarem os dados locais provenientes de uma carga útil do evento. Por exemplo, se a jornada for composta de um evento seguido por uma atividade de mensagem que usa somente os dados do evento, não será necessário configurar uma fonte de dados.
 
 Há dois tipos de fontes de dados:
@@ -41,3 +43,10 @@ Para cada fonte de dados, você define as informações que serão recuperadas u
 >As relações de esquema agora são suportadas em fontes de dados.
 
 Para obter mais informações sobre como configurar uma fonte de dados da Adobe Experience Platform e uma fonte de dados externa e como localizar e usar dados em uma jornada, assista a isso [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}.
+
+## Vídeo tutorial {#video}
+
+Entenda o que é uma fonte de dados e saiba como configurar fontes de dados da Experience Platform e externas.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
+

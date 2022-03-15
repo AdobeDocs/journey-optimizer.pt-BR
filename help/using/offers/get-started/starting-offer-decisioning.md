@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '908'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Os benefícios incluem:
 * Workflows aprimorados: em vez de criar vários deliveries ou campanhas, as equipes de marketing podem aprimorar os workflows criando um único delivery e variar as ofertas em diferentes partes do modelo,
 * Controle a quantidade de vezes que uma oferta é exibida em campanhas e clientes.
 
-➡️ [Assista a estes tutoriais em vídeo](#tutorial-videos) para saber mais sobre a Gestão de decisões.
+➡️ [Saiba mais sobre o Gerenciamento de decisões nesses vídeos](#video)
 
 ## Sobre ofertas e decisões {#about-offers-and-decisions}
 
@@ -102,8 +102,7 @@ Você pode encontrar abaixo a lista dos principais conceitos com os quais trabal
 
 * **Representações**: uma representação é a informação usada por um canal, como localização ou idioma para exibir uma oferta.
 
-
-## Tutoriais em vídeo {#tutorial-videos}
+## Vídeos tutoriais{#video}
 
 >[!NOTE]
 >
@@ -120,3 +119,5 @@ O vídeo abaixo fornece uma introdução aos principais recursos, arquitetura e 
 O vídeo abaixo mostra como usar o Gerenciamento de decisão para definir e gerenciar suas ofertas e aproveitar os dados do cliente em tempo real.
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+
+

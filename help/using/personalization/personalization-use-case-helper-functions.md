@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 4%
+source-wordcount: '1040'
+ht-degree: 3%
 
 ---
 
@@ -24,6 +24,8 @@ Você usará esses tipos de funções de ajuda:
 * O `if` auxiliar, para inserir uma nota específica do produto se o produto relacionado estiver no carrinho. [Saiba mais](functions/helpers.md#if-function).
 
 <!-- **Context**: personalization based on contextual data from the journey -->
+
+➡️ [Saiba como usar funções de ajuda neste vídeo](#video)
 
 Antes de começar, certifique-se de saber como configurar esses elementos:
 * Uma mensagem de email. [Saiba mais](../messages/create-message.md)
@@ -338,6 +340,8 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 
 * [Personalização com oferta baseada em decisões](../offers/offers-e2e.md)
 
-## Tutorial em vídeo{#helper-functions-video}
+## Vídeo tutorial{#video}
+
+Saiba como usar funções de ajuda.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

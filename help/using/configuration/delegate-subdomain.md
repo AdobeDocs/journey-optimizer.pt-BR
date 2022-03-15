@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 10%
+source-wordcount: '1462'
+ht-degree: 11%
 
 ---
 
@@ -30,7 +30,7 @@ Delegando um subdomínio para uso com [!DNL Journey Optimizer], os clientes pode
 
 ## Delegação de subdomínio completa {#full-subdomain-delegation}
 
-[!DNL Journey Optimizer] O permite delegar totalmente seus subdomínios ao Adobe diretamente da interface do produto. Ao fazer isso, o Adobe poderá enviar mensagens como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
+[!DNL Journey Optimizer] O permite delegar totalmente seus subdomínios ao Adobe diretamente da interface do produto. Com isso, o Adobe poderá enviar mensagens como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
 
 Para delegar totalmente um novo subdomínio ao Adobe, siga as etapas abaixo:
 
@@ -95,6 +95,8 @@ A delegação de subdomínio CNAME permite criar um subdomínio e usar CNAMEs pa
 >[!CAUTION]
 >
 >Esse método é recomendado se as políticas de sua organização restringirem o método completo de delegação de subdomínio. Essa abordagem requer que você mantenha e gerencie registros de DNS por conta própria. O Adobe não poderá ajudar a alterar, manter ou gerenciar o DNS de um subdomínio configurado por meio do método CNAME.
+
+➡️ [Saiba como criar um subdomínio usando CNAME para apontar para registros específicos do Adobe neste vídeo](#video)
 
 Para delegar um subdomínio usando CNAMEs, siga as etapas abaixo:
 
@@ -181,3 +183,9 @@ As verificações e ações abaixo serão executadas até que o subdomínio seja
 1. **Criar DNS de encaminhamento**: se esse for o primeiro subdomínio que você está delegando, o Adobe criará o DNS de encaminhamento necessário para criar registros PTR - um para cada um dos IPs.
 
 1. **Criar registro PTR**: O registro PTR, também conhecido como registro de DNS reverso, é exigido pelos ISPs para que eles não marquem os emails como spam. O Gmail também recomenda ter registros PTR para cada IP. O Adobe cria registros PTR somente quando você delega um subdomínio pela primeira vez, um para cada IP, todos os IPs apontando esse subdomínio. Por exemplo, se o IP for *192.1.2.1* e o subdomínio é *email.example.com*, o registro PTR será: *192.1.2.1 PTR r1.email.example.com*. Você pode atualizar o registro PTR posteriormente para apontar para o novo domínio delegado. [Saiba mais sobre registros PTR](ptr-records.md)
+
+## Vídeo tutorial{#video}
+
+Saiba como criar um subdomínio usando CNAME para apontar para registros específicos do Adobe.
+
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

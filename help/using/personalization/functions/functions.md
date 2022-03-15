@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1346'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Use [!DNL Journey Optimizer] linguagem de modelo para executar operações em dados, como cálculos, formatação de dados ou conversões, condições e manipulá-los no contexto de personalização. Saiba mais sobre as diretrizes da sintaxe de personalização em [esta página](../personalization-syntax.md).
 
-➡️ [Descubra como usar funções auxiliares](#video) (vídeo)
+➡️ [Saiba como usar funções de ajuda neste vídeo](#video)
 
 A linguagem de modelo é usada em funções de ajuda disponíveis na lista suspensa de personalização do Editor de expressão, conforme abaixo:
 

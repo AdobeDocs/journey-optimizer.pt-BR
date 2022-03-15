@@ -4,9 +4,9 @@ description: Saiba como usar conjuntos de dados do Adobe Experience Platform no 
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '261'
 ht-degree: 26%
 
 ---
@@ -19,7 +19,7 @@ Saiba como criar conjuntos de dados no [esta documentação](https://experiencel
 
 Adicionar dados ao Adobe Experience Platform é a base para a criação de um Perfil. Você poderá aproveitar os perfis no [!DNL Adobe Journey Optimizer]. Primeiro, defina esquemas, use ferramentas de ETL para preparar e padronizar seus dados e, em seguida, crie conjuntos de dados com base em seus esquemas.
 
-➡️ [Saiba como criar e configurar um conjunto de dados](#video-dataset) (vídeo)
+➡️ [Saiba como criar e configurar um conjunto de dados neste vídeo](#video-dataset)
 
 O **Conjuntos de dados** na área de trabalho do [!DNL Adobe Journey Optimizer] a interface do usuário permite explorar dados e criar conjuntos de dados.
 

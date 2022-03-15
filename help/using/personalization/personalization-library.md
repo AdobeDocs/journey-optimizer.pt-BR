@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
+source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,19 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer] O fornece uma biblioteca onde você pode acessar expressões de personalização salvas anteriormente que foram adicionadas por usuários administradores.
 
-1. Para acessar as expressões salvas, clique no botão **[!UICONTROL Library]** no painel esquerdo. A lista exibe todas as expressões que foram salvas por usuários administradores (consulte [Salvar expressões na biblioteca](#save-expressions)).
+➡️ [Saiba como trabalhar com expressões salvas neste vídeo](#video-preview)
 
-   >[!NOTE]
-   >
-   >Você pode usar o botão info para obter mais informações sobre o conteúdo de uma expressão salva. Se você tiver as permissões apropriadas para gerenciar itens de biblioteca, o botão de informações será exibido no menu da elipse.
+Para acessar as expressões salvas, clique no botão **[!UICONTROL Library]** no painel esquerdo. A lista exibe todas as expressões que foram salvas por usuários administradores (consulte [Salvar expressões na biblioteca](#save-expressions)).
 
-   ![](assets/library-list.png)
+    >[!OBSERVAÇÃO]
+    >
+    >Use o botão de informações para obter mais informações sobre o conteúdo de uma expressão salva. Se você tiver as permissões apropriadas para gerenciar itens de biblioteca, o botão de informações será exibido no menu da elipse.
+    
+    ![](assets/library-list.png)
 
-1. Clique em + para inserir a expressão no editor. Em seguida, você pode personalizar e validar seu conteúdo de personalização como de costume. [Saiba mais](../personalization/personalization-build-expressions.md)
+Clique em + para inserir a expressão no editor. Em seguida, você pode personalizar e validar seu conteúdo de personalização como de costume. [Saiba mais](../personalization/personalization-build-expressions.md)
 
-   ![](assets/library-add.png)
+    ![](assets/library-add.png)
 
 ## Salvar uma expressão na biblioteca {#save-expressions}
 
@@ -68,3 +70,10 @@ Para salvar uma expressão na biblioteca, siga estas etapas:
 Para editar uma expressão existente, adicione-a ao editor e, em seguida, modifique-a de acordo com suas necessidades. Clique em **[!UICONTROL Add to library]** para validar a sintaxe e salvar a expressão.
 
 Para excluir uma expressão, clique no botão de elipse e clique em **[!UICONTROL Delete]**.
+
+## Vídeo tutorial{#video}
+
+Saiba como usar os itens da biblioteca de personalização salvos em uma mensagem e como criar e gerenciar itens da biblioteca de personalização.
+
+>[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
+
