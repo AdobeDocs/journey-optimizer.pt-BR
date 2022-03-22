@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Introdução a modelos de IA {#get-started-with-ai-rankings}
 
-Você pode usar um sistema de modelo treinado que classifica ofertas para exibição em um determinado perfil.
+[!DNL Journey Optimizer] O permite usar um sistema de modelo treinado que classifica ofertas para exibição em um determinado perfil.
 
 >[!CAUTION]
 >
@@ -27,8 +27,6 @@ Você pode usar um sistema de modelo treinado que classifica ofertas para exibi�
 Este recurso permite que você crie diferentes **Modelos de IA** com base em suas metas comerciais. Usando essas diferentes estratégias baseadas em objetivos em uma decisão, o sistema de modelo treinado ajudará você a entender como os diferentes modelos de IA estão afetando suas metas.
 
 Por exemplo, você pode selecionar um modelo de IA para o canal de email e outro para o canal de push. Para cada canal, o sistema de modelo treinado aproveitará vários pontos de dados para determinar qual oferta deve ser apresentada primeiro para uma determinada disposição, em vez de considerar as pontuações de prioridade das ofertas ou uma [fórmula de classificação](create-ranking-formulas.md).
-
-Depois que um modelo de IA for criado, atribua-o a uma disposição em uma decisão. Saiba mais em [Configurar seleção de ofertas em decisões](../offer-activities/configure-offer-selection.md).
 
 >[!NOTE]
 >
