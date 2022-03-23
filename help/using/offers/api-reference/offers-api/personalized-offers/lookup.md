@@ -1,15 +1,15 @@
 ---
-title: Listar ofertas personalizadas
+title: Pesquisar uma oferta personalizada
 description: Uma oferta personalizada é uma mensagem de marketing personalizável com base em regras e restrições de elegibilidade.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 5%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
