@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1403'
 ht-degree: 11%
 
 ---
 
 # Criar uma notificação por push {#create-push-notification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_push"
+>title="Criação de mensagens por push"
+>abstract="Adicione sua mensagem de push e comece a personalizá-la com o Editor de expressão."
+
 
 As notificações por push ajudam você a acessar os usuários do aplicativo móvel a qualquer momento, especialmente quando não estiverem usando ativamente seu aplicativo. As notificações por push podem ajudar você a obter vários casos de uso, como fornecer atualizações sobre seu serviço, solicitar que um usuário tome medidas, alertar o usuário para um novo negócio etc. As plataformas de dispositivos exigem o opt-in antes que os usuários finais possam receber ou exibir suas notificações. O opt-in do usuário pode ser recebido assim que o aplicativo for iniciado pela primeira vez após a instalação ou em uma sessão ou fluxo de trabalho subsequente, conforme apropriado.
 
