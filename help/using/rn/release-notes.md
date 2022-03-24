@@ -3,9 +3,9 @@ title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2697'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 <table>
 <thead>
 <tr>
-<th><strong>Páginas de aterrissagem de assinatura</strong><br/></th>
+<th><strong>Páginas de aterrissagem de subscrição</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível criar e criar landing pages no Journey Optimizer e direcionar seus usuários para formulários online, onde eles podem aceitar ou recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo.</p>
+<p>Agora é possível criar e projetar páginas de aterrissagem no Journey Optimizer e direcionar seus usuários para formulários online, onde eles podem aceitar ou recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo.</p>
 <p>Para obter mais informações, consulte a <a href="../landing-pages/create-lp.md">documentação detalhada</a> e o <a href="../landing-pages/lp-use-cases.md">caso de uso de exemplo</a> relacionado.</p>
 </td>
 </tr>
@@ -44,7 +44,7 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer agora fornece uma biblioteca onde você pode acessar expressões de personalização predefinidas. Essas expressões são configuradas por usuários administradores.</p>
+<p>Agora, o Journey Optimizer fornece uma biblioteca onde você pode acessar expressões de personalização predefinidas. Essas expressões são configuradas por usuários administradores.</p>
 <p>Para obter mais informações, consulte a <a href="../personalization/personalization-library.md">documentação detalhada</a>.</p>
 </td>
 </tr>
