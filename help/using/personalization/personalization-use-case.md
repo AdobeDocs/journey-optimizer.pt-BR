@@ -6,14 +6,14 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 2%
 
 ---
 
-# Caso de uso de personalização: notificação de status do pedido {#personalization-use-case}
+# Caso de uso de Personalization: notificação de status do pedido {#personalization-use-case}
 
 Nesse caso de uso, você verá como usar vários tipos de personalização em uma única mensagem de notificação por push. Serão usados três tipos de personalização:
 
@@ -25,7 +25,7 @@ O objetivo deste exemplo é impulsionar um evento para [!DNL Journey Optimizer] 
 
 Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
-* crie e crie uma mensagem de notificação por push, sem publicá-la. Consulte esta [seção](../messages/create-message.md).
+* crie e crie uma mensagem de notificação por push, sem publicá-la. Consulte esta [seção](../messages/get-started-content.md).
 * configure um evento de pedido incluindo o número do pedido, o status e o nome do item. Consulte esta [seção](../event/about-events.md).
 * criar uma decisão (anteriormente conhecida como &quot;atividade de oferta&quot;), consulte esta seção [seção](../offers/offer-activities/create-offer-activities.md).
 

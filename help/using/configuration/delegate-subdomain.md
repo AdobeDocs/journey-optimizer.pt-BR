@@ -30,7 +30,7 @@ Delegando um subdomínio para uso com [!DNL Journey Optimizer], os clientes pode
 
 ## Delegação de subdomínio completa {#full-subdomain-delegation}
 
-[!DNL Journey Optimizer] O permite delegar totalmente seus subdomínios ao Adobe diretamente da interface do produto. Com isso, o Adobe poderá enviar mensagens como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
+[!DNL Journey Optimizer] O permite delegar totalmente seus subdomínios ao Adobe diretamente da interface do produto. Ao fazer isso, o Adobe poderá enviar mensagens como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
 
 Para delegar totalmente um novo subdomínio ao Adobe, siga as etapas abaixo:
 

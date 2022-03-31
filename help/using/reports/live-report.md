@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,17 @@ Os dados estão disponíveis na variável **[!UICONTROL Live report]** assim que
 
    ![](assets/report_2.png)
 
+* Se você quiser mudar do **[!UICONTROL Live report]** para **[!UICONTROL Global report]** para o delivery, clique em **[!UICONTROL Global view]** no alternador de guias.
+
+   ![](assets/report_3.png)
+
 ## Personalizar painel {#modify-dashboard}
 
 Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets. Alterar os widgets só afeta o painel do usuário atual. Outros usuários verão seus próprios painéis ou os definidos por padrão.
 
 1. Escolha se deseja excluir eventos de teste de seus relatórios com a barra de alternância. Para obter mais informações sobre eventos de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
+
+   Observe que a variável **[!UICONTROL Exclude test events]** só está disponível para relatórios de Jornada.
 
    ![](assets/report_modify_6.png)
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 653a5483fbdeb7a0b78dadc55ec71663e3ff0247
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '2067'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Com [!DNL Journey Optimizer], é possível configurar predefinições de mensage
 >
 > * A configuração de predefinições de mensagens é restrita aos Administradores do Jornada. [Saiba mais](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * Você deve executar a configuração de email e [Configuração por push](../messages/push-configuration.md) etapas antes de criar predefinições de mensagem.
+> * Você deve executar a configuração de email e [Configuração por push](../configuration/push-configuration.md) etapas antes de criar predefinições de mensagem.
 
 
 Após configurar as predefinições de mensagem, é possível selecioná-las ao criar mensagens do **[!UICONTROL Presets]** lista.
@@ -106,11 +106,47 @@ No **DETALHES DO SUBDOMÍNIO E DO POOL IP** na seção , você deve:
 
 1. Selecione o pool de IP a ser associado à predefinição. [Saiba mais](ip-pools.md)
 
+### List-Unsubscribe {#list-unsubscribe}
+
+Em [selecionar um subdomínio](#subdomains-and-ip-pools) na lista, a variável **[!UICONTROL Enable List-Unsubscribe]** será exibida.
+
+![](assets/preset-list-unsubscribe.png)
+
+Essa opção está ativada por padrão.
+
+Se você deixá-lo ativado, um link de cancelamento de subscrição será incluído automaticamente no cabeçalho do email, como:
+
+![](assets/preset-list-unsubscribe-header.png)
+
+Se você desativar esta opção, nenhum link de cancelamento de subscrição será exibido no cabeçalho do email.
+
+O link de cancelamento de subscrição consiste em dois elementos:
+
+* Um **cancelar inscrição do endereço de email**, para a qual todas as solicitações de cancelamento de subscrição são enviadas.
+
+   Em [!DNL Journey Optimizer], o endereço de email de cancelamento de inscrição é o padrão **[!UICONTROL Mailto (unsubscribe)]** endereço exibido na predefinição de mensagem, com base no [subdomínio selecionado](#subdomains-and-ip-pools).
+
+   ![](assets/preset-list-unsubscribe-mailto.png)
+
+* O **cancelar inscrição do URL**, que é o URL da landing page onde o usuário será redirecionado depois de cancelado a assinatura.
+
+   Se você adicionar um [link para opção de não participação com um clique](../messages/consent.md#one-click-opt-out) para uma mensagem criada usando essa predefinição, o URL de cancelamento de subscrição será o URL definido para o link de recusa de um clique.
+
+   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+
+   >[!NOTE]
+   >
+   >Se você não adicionar um link para opção de não participação com um clique no conteúdo da mensagem, nenhuma landing page será exibida para o usuário.
+
+Saiba mais sobre como adicionar um link de cancelamento de subscrição de cabeçalho às suas mensagens em [esta seção](../messages/consent.md#unsubscribe-header).
+
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.-->
+
 ### Rastreamento de URL{#url-tracking}
 
 Para identificar onde e por que uma pessoa clicou em seu link, é possível adicionar parâmetros de UTM para rastreamento de URL na  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** seção.
 
-Com base nos parâmetros definidos, um código de UTM será aplicado ao final do URL incluído no conteúdo da mensagem. Você poderá comparar os resultados em uma ferramenta de análise da Web, como o Google Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+Com base nos parâmetros definidos, um código de UTM será aplicado ao final do URL incluído no conteúdo da mensagem. Você poderá comparar os resultados em uma ferramenta de análise da Web, como o Google Analytics.
 
 ![](assets/preset-url-tracking.png)
 
@@ -130,9 +166,11 @@ Para configurar um parâmetro de UTM, você pode inserir diretamente os valores 
 
 ### Parâmetros de cabeçalho{#email-header}
 
-No **[!UICONTROL HEADER PARAMETERS]** , insira os endereços de email associados às mensagens enviadas usando essa predefinição. Esses endereços de email devem usar o [subdomínio delegado](about-subdomain-delegation.md).
+No **[!UICONTROL HEADER PARAMETERS]** , insira os nomes do remetente e os endereços de email associados ao tipo de mensagens enviadas usando essa predefinição.
 
-Você deve configurar os seguintes endereços de email
+>[!CAUTION]
+>
+>Os endereços de email devem usar o [subdomínio delegado](about-subdomain-delegation.md).
 
 * **[!UICONTROL Sender name]**: O nome do remetente, como o nome da sua marca.
 
@@ -143,7 +181,6 @@ Você deve configurar os seguintes endereços de email
 * **[!UICONTROL Reply to (email)]**: O endereço de email que será usado quando o recipient clicar no link **Responder** no software cliente de email. Você deve usar um endereço definido no subdomínio delegado (por exemplo, *reply@marketing.luma.com*), caso contrário, os emails serão descartados.
 
 * **[!UICONTROL Error email]**: Todos os erros gerados pelos ISPs após alguns dias de envio de email (rejeições assíncronas) são recebidos neste endereço.
-
 
 ![](assets/preset-header.png)
 
@@ -177,7 +214,7 @@ Para definir as configurações de push associadas à predefinição de mensagem
 
 ![](assets/preset-push.png)
 
-Para obter mais informações sobre como configurar o ambiente para enviar notificações por push, consulte [esta seção](../messages/push-gs.md).
+Para obter mais informações sobre como configurar o ambiente para enviar notificações por push, consulte [esta seção](../configuration/push-gs.md).
 
 <!--
 ## Configure SMS settings {#configure-sms-settings}

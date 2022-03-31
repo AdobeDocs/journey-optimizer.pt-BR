@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '839'
 ht-degree: 3%
 
 ---
 
 # Pular de uma jornada para outra {#jump}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_jump"
+>title="Atividade de jump"
+>abstract="A atividade Jump permite encaminhar indivíduos de uma jornada para outra. Esse recurso permite simplificar o design de jornadas muito complexas e criar jornadas com base em padrões de jornadas comuns e reutilizáveis."
 
 O **[!UICONTROL Jump]** A atividade de ação permite enviar indivíduos de uma jornada para outra. Esse recurso permite:
 

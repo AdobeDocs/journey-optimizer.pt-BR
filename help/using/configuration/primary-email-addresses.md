@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5071de634c9dbb13908d3190fe1157831c372c7d
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 4%
+source-wordcount: '140'
+ht-degree: 7%
 
 ---
 
@@ -17,19 +17,28 @@ ht-degree: 4%
 
 Ao direcionar um perfil, vários endereços de email podem estar disponíveis no banco de dados (pessoal, endereço de email profissional etc.).
 
-Com o Journey Optimizer, você pode determinar qual endereço de email usar a partir do serviço de perfil e priorizar quando vários endereços estiverem disponíveis. Para fazer isso, siga estes passos:
+Com [!DNL Journey Optimizer], você pode determinar qual endereço de email usar no serviço de perfil e priorizar quando vários endereços estiverem disponíveis. Para fazer isso, siga as etapas abaixo.
 
-1. Acesse o  **[!UICONTROL Channels]** `>` **[!UICONTROL General]** menu.
+1. Acesse o menu **[!UICONTROL Channels]** > **[!UICONTROL General]** > **[!UICONTROL Executions fields]**.
+
+   ![](assets/primary-address-execution-fields.png)
+
 1. O campo usado atualmente para determinar os endereços de email dos perfis é exibido nessa tela. Clique em **[!UICONTROL Edit]** para alterá-lo.
 
    ![](assets/primary-address.png)
 
-1. Clique no botão modify para selecionar o novo campo a ser usado como endereço de email principal.
+1. Clique no campo atual ou no ícone de edição para selecionar um novo campo.
 
    ![](assets/primary-address-edit.png)
 
-1. A lista de campos XDM do tipo de email disponíveis é exibida. Selecione o campo a ser usado e clique em **[!UICONTROL Save]**.
+1. A lista de campos XDM do tipo de email disponíveis é exibida. Selecione o campo a ser usado.
 
    ![](assets/primary-address-field.png)
 
-<!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. >> will be done later on-->
+1. Clique em **[!UICONTROL Save]** para confirmar sua escolha.
+
+   ![](assets/primary-address-save.png)
+
+   O campo de execução é atualizado e agora será usado como o endereço principal.
+
+<!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->

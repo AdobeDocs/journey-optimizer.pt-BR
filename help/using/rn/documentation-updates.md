@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '1001'
-ht-degree: 100%
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
+source-wordcount: '1072'
+ht-degree: 94%
 
 ---
 
@@ -13,10 +13,13 @@ ht-degree: 100%
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
 
-
 ## Março de 2022 {#march-2022}
 
+* Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 22 de março foi detalhada na documentação. [Saiba mais](release-notes.md)
 * Uma nova página de introdução aos modelos de IA foi adicionada à seção **Offer Decisioning**, incluindo uma descrição completa do [modelo de otimização automática](../offers/offer-library/ai-ranking.md#auto-optimization), o algoritmo que ele utiliza, entre outros detalhes técnicos. [Saiba mais](../offers/offer-library/ai-ranking.md)
+* A página de criação do perfil de teste foi movida para  **Segmento, perfis e identidade** seção. [Saiba mais](../segment/creating-test-profiles.md)
+* Adição de um exemplo sobre como adicionar uma expressão como valor padrão no editor de expressão. [Saiba mais](../building-journeys/expression/field-references.md#default-value)
+* O **Alterar os endereços de email principais** foi atualizada para refletir as alterações na interface do usuário. [Saiba mais](../configuration/primary-email-addresses.md)
 
 ## Fevereiro de 2022 {#feb-2022}
 
@@ -32,7 +35,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * A seção relacionada aos recursos de personalização do [!DNL Journey Optimizer] foi reorganizada para melhorar a compreensão. [Leia mais](../personalization/personalize.md)
 * A seção **Criar predefinições de mensagem** foi dividida em várias seções para maior clareza. [Leia mais](../configuration/message-presets.md#create-message-preset)
 * A seção **Gerenciamento de opção de não participação** foi esclarecida e levemente reorganizada. [Leia mais](../messages/consent.md#opt-out-management)
-* A seção **Inserir links** foi atualizada para refletir as alterações recentes na interface do usuário. [Leia mais](../messages/message-tracking.md#insert-links)
+* A seção **Inserir links** foi atualizada para refletir as alterações recentes na interface do usuário. [Leia mais](../design/message-tracking.md#insert-links)
 
 ## Novembro de 2021 {#november-2021}
 
@@ -92,8 +95,8 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Seção sobre recursos e atalhos de acessibilidade adicionada. [Leia mais](../start/user-interface.md#accessibility)
 * Adição de uma seção sobre métodos de avaliação de segmento. [Leia mais](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * Observações adicionadas às seções Lista de supressão, Lista de permissões e Relatório de email global/em tempo real para especificar que os perfis com status Suprimido e Não permitido estão excluídos das métricas do relatório de emails enviados. [Leia mais](../reports/email-global-report.md)
-* Nova seção adicionada para descrever como recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. [Leia mais](../messages/allow-list.md#reporting)
-* Seção Ativar a lista de permissões atualizada. [Saiba mais](../messages/allow-list.md#enable-allow-list)
+* Nova seção adicionada para descrever como recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. [Leia mais](../reports/allow-list.md#reporting)
+* Seção Ativar a lista de permissões atualizada. [Saiba mais](../reports/allow-list.md#enable-allow-list)
 * Seção Monitorar predefinições de mensagem atualizada com os possíveis motivos de falha na criação de predefinições e detalhes sobre esses erros. [Leia mais](../configuration/message-presets.md#monitor-message-presets)
 * Seção Repetir período de tempo atualizada e renomeada para refletir o fato de que agora é possível ajustar as configurações de nova tentativa de email nas predefinições de mensagem. [Leia mais](../configuration/retries.md#retry-duration)
 * Nova seção adicionada para descrever como inserir no conteúdo do email um link de opção de não participação com um clique. [Leia mais](../messages/consent.md#one-click-opt-out-link)
@@ -111,8 +114,8 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Links adicionados à [!DNL Journey Optimizer] descrição do produto na página inicial
 * Vídeos tutoriais adicionados em várias páginas
 * Imagens da página inicial otimizadas
-* Seção &quot;Rastreamento de mensagens&quot; deslocada, aprimorada e renomeada para &quot;Adicionar links e rastrear mensagens&quot;. [Leia mais](../messages/message-tracking.md)
-* Subseção sobre mirror pages adicionada. [Leia mais](../messages/message-tracking.md#mirror-page)
+* Seção &quot;Rastreamento de mensagens&quot; deslocada, aprimorada e renomeada para &quot;Adicionar links e rastrear mensagens&quot;. [Leia mais](../design/message-tracking.md)
+* Subseção sobre mirror pages adicionada. [Leia mais](../design/message-tracking.md#mirror-page)
 * As &quot;atividades de oferta&quot; foram renomeadas como &quot;decisões&quot;, e as &quot;decisões&quot; como &quot;escopos de decisão&quot; na documentação e nas telas. [Leia mais](../offers/get-started/starting-offer-decisioning.md)
 * Novo caso de uso: [personalizar uma mensagem com funções auxiliares](../personalization/personalization-use-case-helper-functions.md)
 * Documentação sobre Ler segmento atualizada para refletir os impactos materializados sobre segmentos. [Leia mais](../building-journeys/read-segment.md)

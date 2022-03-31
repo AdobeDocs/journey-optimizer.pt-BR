@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 9%
@@ -22,7 +22,7 @@ Para criar suas jornadas e enviar mensagens, você precisa seguir estas etapas d
 
 1. **Configurar mensagens e canais**: definir predefinições, adaptar e personalizar mensagens de email e de push
 
-   * Defina as configurações de notificações por push em [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Saiba mais](../messages/push-gs.md)
+   * Defina as configurações de notificações por push em [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Saiba mais](../configuration/push-gs.md)
 
    * Crie predefinições de mensagens para configurar todos os parâmetros técnicos necessários para mensagens de email e de notificação por push. [Saiba mais](message-presets.md)
 
@@ -31,7 +31,7 @@ Para criar suas jornadas e enviar mensagens, você precisa seguir estas etapas d
    * Gerencie o número de dias durante os quais as tentativas são executadas antes de enviar endereços de email para a lista de supressão. [Saiba mais](manage-suppression-list.md)
 
    <!--
-    * Understand push notification flow. [Learn more](../messages/push-gs.md)
+    * Understand push notification flow. [Learn more](../configuration/push-gs.md)
     -->
 
 1. **Delegar subdomínios**: para qualquer novo subdomínio ser usado no Journey Optimizer, a primeira etapa será delegá-lo. [Saiba mais](about-subdomain-delegation.md)

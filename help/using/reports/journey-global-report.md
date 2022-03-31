@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1242'
 ht-degree: 1%
 
 ---
@@ -117,7 +117,7 @@ O **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** os widget
 
 * **[!UICONTROL Ignored]**: O número total de temporários, como Ausência temporária, ou um erro técnico, por exemplo, se o tipo de remetente for postmaster.
 
-Para obter mais informações sobre devoluções, consulte [Lista de supressão](../messages/suppression-list.md) página.
+Para obter mais informações sobre devoluções, consulte [Lista de supressão](../reports/suppression-list.md) página.
 
 ![](assets/global_report_22.png)
 
@@ -212,6 +212,8 @@ O **[!UICONTROL Push - Tracking statistics]** contém os dados disponíveis para
 
 * **[!UICONTROL Engagement Rate]**: Porcentagem de aberturas e ações para essa notificação por push, ou seja, se o perfil abriu o push ou se um botão foi clicado.
 
+![](assets/global_report_24.png)
+
 O **[!UICONTROL Push notification summary]** O gráfico contém os dados disponíveis para notificações por push enviadas, como:
 
 * **[!UICONTROL Opens]**: Número de vezes que uma mensagem foi aberta em um delivery.
@@ -242,6 +244,8 @@ O **[!UICONTROL Send time optimization]** detalha o sucesso do delivery, depende
 ![](assets/global_report_18.png)
 
 O **[!UICONTROL Error Reasons]** gráfico e tabela permitem ver qual erro ocorreu durante o delivery.
+
+O **[!UICONTROL Excluded reasons]** gráfico e tabela exibem os diferentes motivos que impediam os perfis de usuário, excluídos dos perfis segmentados, de receber a mensagem.
 
 ![](assets/global_report_19.png)
 

@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ A página inicial do [!DNL Journey Optimizer] contém os links e recursos princi
 
 * **[!UICONTROL Journeys]**: crie, configure e orquestre as jornadas do cliente. [Saiba mais](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]**: crie, projete, teste e publique mensagens de email e por push. [Saiba mais](../messages/create-message.md)
+* **[!UICONTROL Messages]**: crie, projete, teste e publique mensagens de email e por push. [Saiba mais](../messages/get-started-content.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -56,7 +56,7 @@ A página inicial do [!DNL Journey Optimizer] contém os links e recursos princi
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]**: o [!DNL Adobe Experience Manager Assets Essentials] é um repositório centralizado de ativos que podem ser usados para preencher as suas mensagens. [Saiba mais](../messages/assets-essentials.md)
+* **[!UICONTROL Assets]**: o [!DNL Adobe Experience Manager Assets Essentials] é um repositório centralizado de ativos que podem ser usados para preencher as suas mensagens. [Saiba mais](../design/assets-essentials.md)
 
 **[!UICONTROL DATA MANAGEMENT]**
 
@@ -76,9 +76,9 @@ A página inicial do [!DNL Journey Optimizer] contém os links e recursos princi
 
 * **[!UICONTROL Segments]**: Crie e gerencie definições de segmento da Experience Platform e aproveite-as em suas jornadas. [Saiba mais](../segment/about-segments.md)
 
-* **[!UICONTROL Profiles]**: O Perfil do cliente em tempo real cria uma visualização integral de cada cliente individual, combinando dados de vários canais, inclusive dados online, offline, de CRM e de terceiros. [Saiba mais](get-started-profiles.md)
+* **[!UICONTROL Profiles]**: O Perfil do cliente em tempo real cria uma visualização integral de cada cliente individual, combinando dados de vários canais, inclusive dados online, offline, de CRM e de terceiros. [Saiba mais](../segment/get-started-profiles.md)
 
-* **[!UICONTROL Identities]**: o Serviço de identidade da Adobe Experience Platform gerencia a identificação entre dispositivos e canais quase em tempo real dos clientes no que é conhecido como um gráfico de identidade na Adobe Experience Platform. [Saiba mais](get-started-identity.md)
+* **[!UICONTROL Identities]**: o Serviço de identidade da Adobe Experience Platform gerencia a identificação entre dispositivos e canais quase em tempo real dos clientes no que é conhecido como um gráfico de identidade na Adobe Experience Platform. [Saiba mais](../segment/get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
@@ -98,7 +98,7 @@ Aproveite os casos de uso do [!DNL Adobe Journey Optimizer] na home page e forne
 
 Os casos de uso disponíveis são:
 
-* **Crie perfis de teste** usando nosso modelo CSV para testar mensagens e jornadas personalizadas. Saiba como implementar esse caso de uso[nesta página](../building-journeys/creating-test-profiles.md#use-case-1).
+* **Crie perfis de teste** usando nosso modelo CSV para testar mensagens e jornadas personalizadas. Saiba como implementar esse caso de uso[nesta página](../segment/creating-test-profiles.md#use-case-1).
 * **Envie uma mensagem de aniversário aos clientes**, para enviar automaticamente um email parabenizando os clientes em seus aniversários. (em breve)
 * **Envie emails para integrar os novos clientes**, para enviar facilmente até dois emails de boas-vindas a clientes recém-registrados. (em breve)
 * **Envie mensagens de push a uma lista importada de clientes**, para enviar rapidamente uma notificação por push a uma lista de clientes importados de um arquivo CSV. (em breve)
@@ -214,7 +214,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
   <tr>
     <td>Campo de texto</td>
     <td>Selecionar todo o texto no campo selecionado</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Janela pop-up</td>
@@ -238,7 +238,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
   <tr>
     <td>Visualização da carga</td>
     <td>Selecionar a carga</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
 </table>
 

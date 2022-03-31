@@ -6,20 +6,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1727'
 ht-degree: 3%
 
 ---
 
 # Teste a jornada{#testing_the_journey}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test"
+>title="Teste a jornada"
+>abstract="Você pode testar sua jornada antes da publicação, usando perfis de teste. Isso permite analisar como os indivíduos fluem na jornada e solucionam problemas antes da publicação."
+
 Antes de poder testar sua jornada, você deve resolver todos os erros, se houver. Consulte [esta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 Você tem a possibilidade de testar sua jornada antes da publicação, usando perfis de teste. Isso permite analisar como os indivíduos fluem na jornada e solucionam problemas antes da publicação.
 
-Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. Consulte esta [seção](../building-journeys/creating-test-profiles.md).
+Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. Consulte esta [seção](../segment/creating-test-profiles.md).
 
 Para usar o modo de teste, siga estas etapas:
 
@@ -54,7 +59,7 @@ Para usar o modo de teste, siga estas etapas:
 ## Observações importantes {#important_notes}
 
 * Uma interface é fornecida para acionar eventos na jornada testada, mas os eventos também podem ser enviados por sistemas de terceiros, como o Postman.
-* Somente indivíduos sinalizados como &quot;perfis de teste&quot; no Serviço de perfil do cliente em tempo real poderão entrar na jornada testada. Consulte esta [seção](../building-journeys/creating-test-profiles.md).
+* Somente indivíduos sinalizados como &quot;perfis de teste&quot; no Serviço de perfil do cliente em tempo real poderão entrar na jornada testada. Consulte esta [seção](../segment/creating-test-profiles.md).
 * O modo de teste só está disponível em jornadas de rascunho que usam um namespace. O modo de teste precisa verificar se uma pessoa que entra na jornada é ou não um perfil de teste e, portanto, deve conseguir acessar o Adobe Experience Platform.
 * O número máximo de perfis de teste que podem ser inseridos em uma jornada durante uma sessão de teste é 100.
 * Quando você desativa o modo de teste, ele esvazia as jornadas de todas as pessoas que entraram no modo no passado ou que estão nele no momento. Também limpa o relatório.
@@ -64,6 +69,11 @@ Para usar o modo de teste, siga estas etapas:
 * Para otimizar o desempenho e impedir o uso de recursos obsoletos, todas as jornadas no modo de teste que não foram acionadas por uma semana serão retornadas ao status Rascunho .
 
 ## Acionar seus eventos {#firing_events}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test_configuration"
+>title="Configurar o modo de teste"
+>abstract="Se a jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento."
 
 O **[!UICONTROL Trigger an event]** permite configurar um evento que fará com que uma pessoa entre na jornada.
 
@@ -110,6 +120,11 @@ Ao usar um evento comercial (consulte [esta seção](../event/about-events.md)),
 Observe que, ao acionar um evento comercial pela primeira vez, não é possível alterar a definição de evento comercial na mesma sessão de teste. Você só pode fazer o mesmo indivíduo ou um indivíduo diferente inserir a jornada que passa o mesmo ou outro identificador. Se quiser alterar os parâmetros de evento comercial, pare e inicie novamente o modo de teste.
 
 ## Visualização dos logs {#viewing_logs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test_logs"
+>title="Logs do modo de teste"
+>abstract="Você pode visualizar os resultados do teste. Esta página exibe as informações atuais da jornada no formato JSON. Um botão permite copiar nós inteiros. Você precisa atualizar manualmente a página para atualizar os resultados de teste da jornada."
 
 O **[!UICONTROL Show log]** permite visualizar os resultados do teste. Esta página exibe as informações atuais da jornada no formato JSON. Um botão permite copiar nós inteiros. Você precisa atualizar manualmente a página para atualizar os resultados de teste da jornada.
 

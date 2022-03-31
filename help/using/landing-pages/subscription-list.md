@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 3%
@@ -65,4 +65,4 @@ Também é possível usar as listas de assinatura como segmentos quando [jornada
 
 >[!NOTE]
 >
->Você pode monitorar os impactos da sua lista de assinaturas por meio de relatórios específicos. [Saiba mais](subscription-report.md)
+>Você pode monitorar os impactos da sua lista de assinaturas por meio de relatórios específicos. [Saiba mais](../reports/subscription-report-live.md)

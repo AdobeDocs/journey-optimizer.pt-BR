@@ -4,7 +4,7 @@ description: Saiba como configurar seu ambiente para criar e usar landing pages 
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: e9878246c2af5c7ee0f961aaaad64e186431d96e
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 2%
@@ -160,7 +160,7 @@ Para criar uma predefinição de página de aterrissagem, siga as etapas abaixo.
 
    As configurações correspondentes ao subdomínio selecionado são exibidas.
 
-1. Se desejar selecionar o subdomínio da página de aterrissagem como o URL de rastreamento, verifique a variável **[!UICONTROL Same as landing page subdomain]** opção. [Saiba mais sobre o rastreamento](../messages/message-tracking.md)
+1. Se desejar selecionar o subdomínio da página de aterrissagem como o URL de rastreamento, verifique a variável **[!UICONTROL Same as landing page subdomain]** opção. [Saiba mais sobre o rastreamento](../design/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

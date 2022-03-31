@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 12%
@@ -27,7 +27,7 @@ ht-degree: 12%
 >
 > O uso do canal SMS está disponível no momento somente para usuários selecionados. Se quiser aproveitar esse recurso, entre em contato com o executivo da sua conta Adobe.
 
-Uma vez [criou uma mensagem](create-message.md), use o **[!UICONTROL SMS]** para definir as configurações e o conteúdo do canal SMS.
+Uma vez [criou uma mensagem](get-started-content.md), use o **[!UICONTROL SMS]** para definir as configurações e o conteúdo do canal SMS.
 
 ![](assets/sms_1.png)
 
@@ -47,7 +47,7 @@ Para começar a personalizar a mensagem SMS, siga estas etapas:
 
 1. Clique em **[!UICONTROL Save]** quando a mensagem personalizada estiver pronta.
 
-1. Clique em **[!UICONTROL Preview]** para visualizar como sua mensagem SMS será exibida em dispositivos móveis. Para obter mais informações, consulte [esta seção](preview.md).
+1. Clique em **[!UICONTROL Preview]** para visualizar como sua mensagem SMS será exibida em dispositivos móveis. Para obter mais informações, consulte [esta seção](../design/preview.md).
 
 1. Quando a mensagem estiver pronta, você poderá publicá-la para disponibilizá-la para execução com a **[!UICONTROL Publish]** botão. Esta ação publicará a nova versão da mensagem que será usada para as próximas execuções em suas jornadas.
 
@@ -56,5 +56,5 @@ Sua mensagem SMS agora pode ser usada em uma jornada. [Saiba como criar jornadas
 **Tópicos relacionados**
 
 * [Configurar canal de SMS](../configuration/sms-configuration.md)
-* [Criar uma nova mensagem](create-message.md)
+* [Criar uma nova mensagem](get-started-content.md)
 * [Adicionar uma mensagem em uma jornada](../building-journeys/journeys-message.md)

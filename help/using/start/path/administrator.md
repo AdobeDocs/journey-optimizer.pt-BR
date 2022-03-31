@@ -3,7 +3,7 @@ title: Introdução à Journey Optimizer para o Administrador do sistema
 description: Como Administrador do sistema, saiba mais sobre como trabalhar com a Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -48,7 +48,7 @@ Siga as etapas listadas abaixo:
 
 1. **Configurar mensagens e canais**: definir predefinições, adaptar e personalizar configurações de mensagens de email e de push
 
-   * Definir **configurações de notificações por push** em ambos [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Saiba mais](../../messages/push-gs.md)
+   * Definir **configurações de notificações por push** em ambos [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Saiba mais](../../configuration/push-gs.md)
 
    * Criar **predefinições de mensagens** para configurar todos os parâmetros técnicos necessários para mensagens de email e de notificação por push. [Saiba mais](../../configuration/message-presets.md)
 
@@ -64,8 +64,8 @@ Siga as etapas listadas abaixo:
 
 1. **Gerenciar a supressão e a lista de permissões**: melhore sua capacidade de delivery com supressão e listas de permissões
 
-   * A [lista de supressão](../../messages/suppression-list.md) O consiste em endereços de email que você deseja excluir de seus deliveries, pois o envio para esses contatos pode prejudicar sua reputação de envio e as taxas de delivery. Você pode monitorar todos os endereços de email que são excluídos automaticamente do envio em uma jornada, como endereços inválidos, endereços que compostam de forma consistente e podem afetar negativamente sua reputação de email, e recipients que emitem uma reclamação de spam de algum tipo contra uma de suas mensagens de email. Saiba como gerenciar o [lista de supressão](../../configuration/manage-suppression-list.md) e [tentativas](../../configuration/retries.md).
+   * A [lista de supressão](../../reports/suppression-list.md) O consiste em endereços de email que você deseja excluir de seus deliveries, pois o envio para esses contatos pode prejudicar sua reputação de envio e as taxas de delivery. Você pode monitorar todos os endereços de email que são excluídos automaticamente do envio em uma jornada, como endereços inválidos, endereços que compostam de forma consistente e podem afetar negativamente sua reputação de email, e recipients que emitem uma reclamação de spam de algum tipo contra uma de suas mensagens de email. Saiba como gerenciar o [lista de supressão](../../configuration/manage-suppression-list.md) e [tentativas](../../configuration/retries.md).
    ![](../assets/suppression-list-filtering-example.png)
 
-   * O [lista de permissões](../../messages/allow-list.md) O permite especificar endereços de email ou domínios individuais que serão os únicos recipients ou domínios autorizados a receber os emails enviados de uma sandbox específica. Isso pode impedir que você envie emails acidentalmente para endereços de clientes reais quando estiver em um ambiente de teste. Saiba como [habilite a lista de permissões](../../messages/allow-list.md).
-   Saiba mais sobre o gerenciamento da capacidade de entrega em [!DNL Adobe Journey Optimizer] [nesta página](../../messages/deliverability.md).
+   * O [lista de permissões](../../reports/allow-list.md) O permite especificar endereços de email ou domínios individuais que serão os únicos recipients ou domínios autorizados a receber os emails enviados de uma sandbox específica. Isso pode impedir que você envie emails acidentalmente para endereços de clientes reais quando estiver em um ambiente de teste. Saiba como [habilite a lista de permissões](../../reports/allow-list.md).
+   Saiba mais sobre o gerenciamento da capacidade de entrega em [!DNL Adobe Journey Optimizer] [nesta página](../../reports/deliverability.md).

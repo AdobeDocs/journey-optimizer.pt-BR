@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -19,7 +19,7 @@ Quando uma mensagem de email falha devido a um evento temporário **Rejeição s
 
 >[!NOTE]
 >
->Saiba mais sobre os tipos de erros no [Tipos de falha de delivery](../messages/suppression-list.md#delivery-failures) seção.
+>Saiba mais sobre os tipos de erros no [Tipos de falha de delivery](../reports/suppression-list.md#delivery-failures) seção.
 
 Na configuração padrão, o limite é definido como 5 erros.
 
@@ -45,7 +45,7 @@ Caso o valor padrão de 5 não atenda às suas necessidades, você poderá modif
 
    >[!CAUTION]
    >
-   >Qualquer valor maior que 10 pode causar problemas de reputação de entrega, bem como limitação de IP ou  de incluir na lista de bloqueios por ISPs. [Saiba mais sobre a capacidade de entrega](../messages/deliverability.md)
+   >Qualquer valor maior que 10 pode causar problemas de reputação de entrega, bem como limitação de IP ou  de incluir na lista de bloqueios por ISPs. [Saiba mais sobre a capacidade de entrega](../reports/deliverability.md)
 
 ## Período de repetição {#retry-duration}
 

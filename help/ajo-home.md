@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
@@ -44,7 +44,7 @@ ht-degree: 100%
     <p>
     <p>
     <div>
-      <a href="using/messages/design-emails.md">Criar um conteúdo de email</a>
+      <a href="using/design/design-emails.md">Criar um conteúdo de email</a>
     </div>
     <p>
     Criar um novo email ou importar um conteúdo de HTML existente
@@ -116,7 +116,7 @@ ht-degree: 100%
       <a href="using/building-journeys/journey-gs.md">Jornadas</a>
     </li>
     <li>
-      <a href="using/messages/create-message.md">Mensagens</a>
+      <a href="using/messages/get-started-content.md">Mensagens</a>
     </li>
     <p>
     <p>GERENCIAMENTO DE DECISÕES</p>
@@ -129,7 +129,7 @@ ht-degree: 100%
     <p>
     <p>GERENCIAMENTO DE CONTEÚDO</p>
     <li>
-      <a href="using/messages/assets-essentials.md">Ativos</a>
+      <a href="using/design/assets-essentials.md">Ativos</a>
     </li>
     <p>
     <p>GERENCIAMENTO DE DADOS</p>
@@ -156,10 +156,10 @@ ht-degree: 100%
       <a href="using/segment/about-segments.md">Segmentos</a>
     </li>
      <li>
-      <a href="using/start/get-started-profiles.md">Perfis</a>
+      <a href="using/segment/get-started-profiles.md">Perfis</a>
     </li>
     <li>
-      <a href="using/start/get-started-identity.md">Identidade</a>
+      <a href="using/segment/get-started-identity.md">Identidade</a>
     </li>
     <p>
     <p>ADMINISTRAÇÃO</p>

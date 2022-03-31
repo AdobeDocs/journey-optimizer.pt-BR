@@ -3,7 +3,7 @@ title: Introdução da Journey Optimizer para engenheiros de dados
 description: Como engenheiro de dados, saiba mais sobre como trabalhar com a Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 9%
@@ -25,7 +25,7 @@ Saiba como **identificar dados e criar esquema e conjunto de dados** para obter 
 
 As etapas para criar um namespace de identidade e um conjunto de dados habilitado para perfis e perfis de teste são detalhadas nas seções abaixo:
 
-1. **Criar um namespace de identidade**. No Adobe [!DNL Journey Optimizer], **Identidades** vincular consumidores em dispositivos e canais, o resultado é um gráfico de identidade. O gráfico de identidade vinculado é usado para personalizar experiências com base em interações em todos os pontos de contato comerciais.  Saiba mais sobre identidades e namespaces de identidade [nesta página](../get-started-identity.md).
+1. **Criar um namespace de identidade**. No Adobe [!DNL Journey Optimizer], **Identidades** vincular consumidores em dispositivos e canais, o resultado é um gráfico de identidade. O gráfico de identidade vinculado é usado para personalizar experiências com base em interações em todos os pontos de contato comerciais.  Saiba mais sobre identidades e namespaces de identidade [nesta página](../../segment/get-started-identity.md).
 
 1. **Criar um esquema** e ativá-la para perfis. Um esquema é um conjunto de regras que representam e validam a estrutura e o formato dos dados. Em um alto nível, os esquemas fornecem uma definição abstrata de um objeto do mundo real (como uma pessoa) e destacam quais dados devem ser incluídos em cada instância desse objeto (como nome, sobrenome, aniversário e assim por diante).  Saiba mais sobre schemas [nesta página](../get-started-schemas.md).
 
@@ -33,7 +33,7 @@ As etapas para criar um namespace de identidade e um conjunto de dados habilitad
 
 1. **Configurar conectores de fontes**. O Adobe Jornada Otimzer permite que os dados sejam assimilados de fontes externas e, ao mesmo tempo, fornece a capacidade de estruturar, rotular e aprimorar os dados recebidos usando os serviços da plataforma. Você pode assimilar dados de várias fontes, como aplicativos Adobe, armazenamentos baseados em nuvem, bancos de dados e muitas outras. Saiba mais sobre conectores de origem [nesta página](../get-started-sources.md).
 
-1. **Criar perfis de teste**. Os perfis de teste são necessários ao usar o [modo de teste](../../building-journeys/testing-the-journey.md) em uma jornada, e para [visualizar e testar suas mensagens](../../messages/preview.md) antes de enviar. Descubra etapas para criar perfis de teste [nesta página](../../building-journeys/creating-test-profiles.md).
+1. **Criar perfis de teste**. Os perfis de teste são necessários ao usar o [modo de teste](../../building-journeys/testing-the-journey.md) em uma jornada, e para [visualizar e testar suas mensagens](../../design/preview.md) antes de enviar. Descubra etapas para criar perfis de teste [nesta página](../../segment/creating-test-profiles.md).
 
 
 Além disso, para poder enviar mensagens no jornada, você deve configurar **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**. Saiba mais [nesta seção](../../configuration/about-data-sources-events-actions.md).

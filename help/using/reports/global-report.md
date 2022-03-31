@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,15 @@ Use o **[!UICONTROL Global report]** para medir o impacto das jornadas e dos del
 
 * Se desejar direcionar uma jornada ou deliveries no contexto de uma jornada, da **[!UICONTROL Journeys]** acesse a jornada e clique no menu **[!UICONTROL Global report]** ícone . Em seguida, você pode encontrar a Jornada, o email e o push **[!UICONTROL Global report]**.
 
+   ![](assets/report_6.png)
+
 * Se quiser direcionar um delivery específico, da variável **[!UICONTROL Global view]** do **[!UICONTROL Executions]** das suas mensagens, selecione **[!UICONTROL Global Report]** no menu avançado do delivery selecionado.
+
+   ![](assets/report_4.png)
+
+* Se você quiser mudar do **[!UICONTROL Global report]** para **[!UICONTROL Live report]** para o delivery, clique em **[!UICONTROL Live view]** no alternador de guias.
+
+   ![](assets/report_5.png)
 
 ## Personalizar painel {#modify-dashboard}
 
@@ -34,6 +42,8 @@ Cada painel de relatórios pode ser modificado alterando o período de tempo e r
    ![](assets/report_modify_1.png)
 
 1. Escolha se deseja excluir eventos de teste de seus relatórios com a barra de alternância. Para obter mais informações sobre eventos de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
+
+   Observe que a variável **[!UICONTROL Exclude test events]** só está disponível para relatórios de Jornada.
 
    ![](assets/report_modify_2.png)
 

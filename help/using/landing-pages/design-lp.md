@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -21,15 +21,15 @@ Para começar a criar conteúdo para sua página inicial [página primária](cre
 
 A partir daí, é possível:
 
-* **Projetar a landing page do zero** por meio da interface do designer de conteúdo e aproveite imagens de [Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md). Saiba como criar conteúdo ou usar modelos integrados [nesta seção](../messages/create-email-content.md).
+* **Projetar a landing page do zero** por meio da interface do designer de conteúdo e aproveite imagens de [Adobe Experience Manager Assets Essentials](../design/assets-essentials.md). Saiba como criar conteúdo ou usar modelos integrados [nesta seção](../design/create-email-content.md).
 
-* **Código ou cole HTML bruto** diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../messages/existing-content.md#import-raw-html-code).
+* **Código ou cole HTML bruto** diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../design/code-content.md).
 
-* **Importar conteúdo HTML existente** de um arquivo ou uma pasta .zip. Saiba como importar conteúdo [nesta seção](../messages/existing-content.md#import-html-content-from-file).
+* **Importar conteúdo HTML existente** de um arquivo ou uma pasta .zip. Saiba como importar conteúdo [nesta seção](../design/existing-content.md).
 
 >[!NOTE]
 >
->O designer de conteúdo da página de aterrissagem é semelhante ao designer de email. Saiba mais sobre [criar conteúdo com [!DNL Journey Optimizer]](../messages/design-emails.md).
+>O designer de conteúdo da página de aterrissagem é semelhante ao designer de email. Saiba mais sobre [criar conteúdo com [!DNL Journey Optimizer]](../design/design-emails.md).
 
 ## Definir o conteúdo específico da página de aterrissagem {#define-lp-specific-content}
 

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
+source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 8%
 
 ---
 
@@ -59,8 +59,6 @@ Para salvar uma expressão na biblioteca, siga estas etapas:
 
 >[!NOTE]
 >
->* Você salva até 40 expressões na biblioteca do .
->
 >* As expressões não podem exceder 200 KB.
 >
 >* As expressões salvas são classificadas por data de criação: a expressão adicionada recentemente será mostrada primeiro na lista.
@@ -73,7 +71,7 @@ Para excluir uma expressão, clique no botão de elipse e clique em **[!UICONTRO
 
 ## Vídeo tutorial{#video}
 
-Saiba como usar os itens da biblioteca de personalização salvos em uma mensagem e como criar e gerenciar itens da biblioteca de personalização.
+Saiba como usar em uma mensagem os itens da biblioteca de personalização salvos e como criar e gerenciar itens da biblioteca de personalização.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
 

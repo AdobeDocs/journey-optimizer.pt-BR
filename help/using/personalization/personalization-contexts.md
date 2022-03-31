@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 15%
@@ -29,7 +29,7 @@ Ao criar um email, você pode adicionar personalização ao **[!UICONTROL Subjec
 
 No Designer de email, é possível personalizar o conteúdo:
 
-* No **message**: clique dentro de um bloco de texto, clique no botão **Personalizar** ícone na barra de ferramentas contextual e selecione **Inserir personalização** campo. Para obter mais informações sobre a interface do Designer de email, consulte esta seção [seção](../messages/design-emails.md).
+* No **message**: clique dentro de um bloco de texto, clique no botão **Personalizar** ícone na barra de ferramentas contextual e selecione **Inserir personalização** campo. Para obter mais informações sobre a interface do Designer de email, consulte esta seção [seção](../design/design-emails.md).
 
    ![](assets/perso_insert.png)
 
@@ -53,7 +53,7 @@ Você também pode personalizar seu **Notificações por push** nos seguintes ca
 
 ![](assets/perso_push.png)
 
-Saiba mais sobre a configuração de notificação por push em [esta seção](../messages/push-gs.md).
+Saiba mais sobre a configuração de notificação por push em [esta seção](../configuration/push-gs.md).
 
 ## Personalize suas ofertas {#personalize-offers}
 

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 6%
@@ -21,7 +21,7 @@ Com [!DNL Journey Optimizer], é possível monitorar todos os endereços de emai
 * Endereços que consistentemente dão soft-bounce e podem afetar negativamente sua reputação de email se você continuar a incluí-los em seus deliveries.
 * Recipients que emitem uma reclamação de spam de algum tipo contra uma de suas mensagens de email.
 
-Esses endereços de email são coletados automaticamente na Journey Optimizer **lista de supressão**. Saiba mais sobre o conceito e o uso da lista de supressão em [esta seção](../messages/suppression-list.md).
+Esses endereços de email são coletados automaticamente na Journey Optimizer **lista de supressão**. Saiba mais sobre o conceito e o uso da lista de supressão em [esta seção](../reports/suppression-list.md).
 
 ## Acessar a lista de supressão {#access-suppression-list}
 
@@ -49,7 +49,7 @@ Se você adicionar manualmente um endereço de email ou um domínio por engano, 
 
 ![](assets/suppression-list-delete.png)
 
-Excluir um endereço de email ou um domínio da lista de supressão significa que você recomeçará a fazer o delivery para esse endereço ou domínio. Consequentemente, isso pode ter graves impactos na sua capacidade de entrega e reputação de IP, o que pode eventualmente levar ao bloqueio do seu endereço IP ou domínio de envio. Saiba mais sobre a importância de manter uma lista de supressão em [esta seção](../messages/suppression-list.md).
+Excluir um endereço de email ou um domínio da lista de supressão significa que você recomeçará a fazer o delivery para esse endereço ou domínio. Consequentemente, isso pode ter graves impactos na sua capacidade de entrega e reputação de IP, o que pode eventualmente levar ao bloqueio do seu endereço IP ou domínio de envio. Saiba mais sobre a importância de manter uma lista de supressão em [esta seção](../reports/suppression-list.md).
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ As categorias de supressão são as seguintes:
 
 >[!NOTE]
 >
->Saiba mais sobre devoluções temporárias e devoluções permanentes na [Tipos de falha de delivery](../messages/suppression-list.md#delivery-failures) seção.
+>Saiba mais sobre devoluções temporárias e devoluções permanentes na [Tipos de falha de delivery](../reports/suppression-list.md#delivery-failures) seção.
 
 Para cada endereço de email listado, você também pode verificar a variável **[!UICONTROL Type]** (email ou domínio), **[!UICONTROL Reason]** para excluí-lo, quem o adicionou e a data/hora em que foi adicionado à lista de supressão.
 
