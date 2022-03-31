@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '926'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ O **[!UICONTROL Landing Pages]** exibe todos os itens criados. Você pode filtr�
 
 ![](assets/lp_access-list-filter.png)
 
-Nessa lista, é possível acessar o [relatórios de página de aterrissagem](lp-report.md) para itens publicados.
+Nessa lista, é possível acessar o [relatório ao vivo da página de aterrissagem](../reports/lp-report-live.md) ou [relatório Global de página de aterrissagem](../reports/lp-report-global.md) para itens publicados.
 
 Também é possível excluir, duplicar e desfazer a publicação de uma landing page.
 
@@ -133,7 +133,7 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 
 >[!CAUTION]
 >
->Você deve ter perfis de teste disponíveis para visualizar suas mensagens e enviar provas. Saiba como [criar perfis de teste](../building-journeys/creating-test-profiles.md).
+>Você deve ter perfis de teste disponíveis para visualizar suas mensagens e enviar provas. Saiba como [criar perfis de teste](../segment/creating-test-profiles.md).
 
 1. Na interface da landing page, clique no link **[!UICONTROL Preview & test]** para acessar a seleção de perfil de teste.
 
@@ -147,7 +147,7 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 
    ![](assets/lp_test-profiles.png)
 
-   As etapas para selecionar perfis de teste são as mesmas que ao testar uma mensagem. Eles são detalhados [nesta seção](../messages/preview.md#select-test-profiles).
+   As etapas para selecionar perfis de teste são as mesmas que ao testar uma mensagem. Eles são detalhados [nesta seção](../design/preview.md#select-test-profiles).
 
 1. Selecione o **[!UICONTROL Preview]** e clique em **[!UICONTROL Open preview]** para testar sua landing page.
 
@@ -210,9 +210,9 @@ Quando a landing page estiver pronta, você poderá publicá-la para disponibili
 
 Depois que a landing page é publicada, ela é adicionada à lista de landing page com a variável **[!UICONTROL Published]** status.
 
-Agora ele está ativo e pronto para ser usado em um [!DNL Journey Optimizer] [message](../messages/create-message.md) que será enviado por meio de um [jornada](../building-journeys/journey.md).
+Agora ele está ativo e pronto para ser usado em um [!DNL Journey Optimizer] [message](../messages/get-started-content.md) que será enviado por meio de um [jornada](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->Você pode monitorar os impactos de sua landing page por meio de relatórios específicos. [Saiba mais](lp-report.md)
+>Você pode monitorar os impactos de sua landing page por meio de relatórios específicos. [Saiba mais](../reports/lp-report-live.md)
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 61d716fcc1394a32ca7cb9b4c13d28b073135592
+source-git-commit: 296c17048f0d3dbabd210b0522d061028d5890dc
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 1%
@@ -37,7 +37,7 @@ Para acessar esse recurso, selecione o **[!UICONTROL Simulation]** na guia do **
 
 ## Selecionar perfis de teste {#select-test-profiles}
 
-Primeiro, é necessário selecionar os perfis de teste que serão usados para simulação. Saiba mais sobre perfis de teste em [esta página](../../building-journeys/creating-test-profiles.md).
+Primeiro, é necessário selecionar os perfis de teste que serão usados para simulação. Saiba mais sobre perfis de teste em [esta página](../../segment/creating-test-profiles.md).
 
 1. Clique em **[!UICONTROL Manage profile]**.
 
@@ -47,7 +47,7 @@ Primeiro, é necessário selecionar os perfis de teste que serão usados para si
 
    >[!NOTE]
    >
-   >Um namespace de identidade define o contexto de um identificador, como um endereço de email ou ID de CRM. Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../../start/get-started-identity.md){target=&quot;_blank&quot;}.
+   >Um namespace de identidade define o contexto de um identificador, como um endereço de email ou ID de CRM. Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../../segment/get-started-identity.md){target=&quot;_blank&quot;}.
 
 1. Insira o valor de identidade e clique em **[!UICONTROL View]** para listar os perfis disponíveis.
 

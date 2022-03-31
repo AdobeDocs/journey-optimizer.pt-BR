@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1752'
 ht-degree: 9%
 
 ---
@@ -27,7 +27,7 @@ Para enviar mensagens com o jornada, a seguinte configuração é necessária:
 
    ![](assets/segment2.png)
 
-1. **Configurar a fonte de dados**: você pode definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas, por exemplo, em suas condições. Uma fonte de dados integrada da Adobe Experience Platform também é configurada no momento do provisionamento. Esta etapa não é necessária se você usar somente os dados dos eventos em sua jornada. Esta etapa é executada por um **usuário técnico**. [Leia mais](../datasource/about-data-sources.md)
+1. **Configurar a fonte de dados**: você pode definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas, por exemplo, em suas condições. Uma fonte de dados integrada da Adobe Experience Platform também é configurada no momento do provisionamento. Esta etapa não é necessária se você usar somente os dados dos eventos em sua jornada. Esta etapa é executada por um **usuário técnico**. [Saiba mais](../datasource/about-data-sources.md)
 
    ![](assets/jo-datasource.png)
 
@@ -68,6 +68,11 @@ Estas são as principais etapas para enviar mensagens por meio do jornada:
    ![](assets/jo-dynamic_report_journey_12.png)
 
 ## Alterar propriedades {#change-properties}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties"
+>title="Propriedades da jornada"
+>abstract="Você pode alterar o nome da jornada, adicionar uma descrição, permitir nova entrada, escolher datas de início e término e definir um Tempo limite e uma duração do erro se você for administrador."
 
 Clique no ícone de lápis, na parte superior direita para acessar as propriedades da jornada.
 

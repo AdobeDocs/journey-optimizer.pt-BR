@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 3%
@@ -28,8 +28,8 @@ Você usará esses tipos de funções de ajuda:
 ➡️ [Saiba como usar funções de ajuda neste vídeo](#video)
 
 Antes de começar, certifique-se de saber como configurar esses elementos:
-* Uma mensagem de email. [Saiba mais](../messages/create-message.md)
-* O corpo de um email. [Saiba mais](../messages/create-email-content.md).
+* Uma mensagem de email. [Saiba mais](../messages/get-started-content.md)
+* O corpo de um email. [Saiba mais](../design/create-email-content.md).
 * Um evento unitário. [Saiba mais](../event/about-events.md).
 * Uma jornada que começa com um evento. [Saiba mais](../building-journeys/using-the-journey-designer.md).
 
@@ -147,7 +147,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 
       **[!UICONTROL Contextual attributes]** estão disponíveis somente após o contexto da jornada ter sido passado para a mensagem.
 
-   1. Selecionar **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, em seguida, expanda a **[!UICONTROL productListItems]** nó .
+   1. Selecionar **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, em seguida, expanda a **[!UICONTROL productListItems]** nó .
 
       Neste exemplo, *event_name* representa o nome do evento.
 

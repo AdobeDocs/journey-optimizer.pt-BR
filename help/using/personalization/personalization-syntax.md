@@ -143,7 +143,7 @@ Blocos são expressões com abertura de bloco ({{# }}) e fechando ({{/}}).
 >
 >O uso de **xEvent** não está disponível em expressões de personalização. Qualquer referência ao xEvent resultará em falhas de validação.
 
-## Personalização de URL{#perso-urls}
+## URL Personalization{#perso-urls}
 
 Os URLs personalizados levam os recipients para páginas específicas de um site ou para um microsite personalizado, dependendo dos atributos do perfil. No Adobe Journey Optimizer, é possível adicionar personalização a URLs no conteúdo da mensagem. A personalização de URLs pode ser aplicada ao texto e às imagens, e usar dados do perfil ou dados contextuais.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -57,10 +57,13 @@ O **[!UICONTROL Sending metrics - by push]** tabela detalha o sucesso do deliver
 
 * **[!UICONTROL Opens]**: Número de vezes que uma mensagem foi aberta em um delivery.
 
+![](assets/live_report_9.png)
+
+O **[!UICONTROL Error Reasons]** e **[!UICONTROL Exclude Reasons]** gráficos e tabelas permitem ver quais erros e exclusões ocorreram durante o delivery.
+
+O **[!UICONTROL Sending statistics - Failed]** permite ver quantos erros e rejeições ocorreram.
+
 ![](assets/live_report_4.png)
 
 O **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** gráficos e tabelas detalham o sucesso da sua notificação por push, dependendo do sistema operacional.
 
-O **[!UICONTROL Sending statistics - Failed]** permite que você veja quantos erros e saltos ocorreram.
-
-O **[!UICONTROL Error Reasons]** gráfico e tabela permitem ver qual erro ocorreu durante o delivery.
