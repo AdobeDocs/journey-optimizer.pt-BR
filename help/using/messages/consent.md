@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 76%
+source-wordcount: '1228'
+ht-degree: 75%
 
 ---
 
@@ -71,7 +71,7 @@ Primeiro, é necessário adicionar um link de cancelamento de inscrição em uma
 
 #### Implementar uma chamada de API para opção de não participação {#opt-out-api}
 
-Para que seus recipients optem ao enviar sua escolha a partir da landing page, você deve implementar uma **Chamada da API de assinatura** through [Desenvolvedor de Adobe](developer.adobe.com) para atualizar as preferências dos perfis correspondentes.
+Para que seus recipients optem ao enviar sua escolha a partir da landing page, você deve implementar uma **Chamada da API de assinatura** through [Desenvolvedor de Adobe](https://developer.adobe.com){target=&quot;_blank&quot;} para atualizar as preferências dos perfis correspondentes.
 
 Essa chamada de POST é a seguinte:
 
@@ -109,7 +109,7 @@ Corpo da solicitação:
 }
 ```
 
-[!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio do [Desenvolvedor de Adobe](developer.adobe.com) Chamada de API.
+[!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio do [Desenvolvedor de Adobe](https://developer.adobe.com){target=&quot;_blank&quot;} Chamada da API.
 
 #### Enviar a mensagem com link de cancelamento de inscrição {#send-message-unsubscribe-link}
 
