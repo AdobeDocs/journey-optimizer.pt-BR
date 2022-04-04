@@ -2,10 +2,10 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
-source-wordcount: '2912'
-ht-degree: 93%
+source-wordcount: '2938'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 
 **Gerenciamento de decisão**
 
-<!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
+* Agora é possível especificar se o limite de oferta é aplicado a todos os usuários ou a um perfil específico, bem como a todas as disposições ou por disposição. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 * A API de decisão em lote permite que as organizações usem a funcionalidade do offer decisioning para todos os perfis em um determinado segmento em uma chamada. O conteúdo da oferta para cada perfil no segmento é colocado em um conjunto de dados AEP, onde está disponível para fluxos de trabalho em lote personalizados. [Saiba mais](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **Administração**
