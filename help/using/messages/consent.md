@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 82%
+source-wordcount: '1220'
+ht-degree: 76%
 
 ---
 
@@ -71,9 +71,9 @@ Primeiro, é necessário adicionar um link de cancelamento de inscrição em uma
 
 #### Implementar uma chamada de API para opção de não participação {#opt-out-api}
 
-Para efetivar a opção de não participação dos seus recipients ao enviarem suas escolhas a partir da página de aterrissagem, é preciso implementar uma **chamada de API de inscrição** no Adobe I/O para atualizar as preferências dos perfis correspondentes.
+Para que seus recipients optem ao enviar sua escolha a partir da landing page, você deve implementar uma **Chamada da API de assinatura** through [Desenvolvedor de Adobe](developer.adobe.com) para atualizar as preferências dos perfis correspondentes.
 
-Essa chamada POST do Adobe I/O é a seguinte:
+Essa chamada de POST é a seguinte:
 
 Endpoint: platform.adobe.io/journey/imp/consent/preferences
 
@@ -109,7 +109,7 @@ Corpo da solicitação:
 }
 ```
 
-O [!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio da chamada do Adobe I/O.
+[!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio do [Desenvolvedor de Adobe](developer.adobe.com) Chamada de API.
 
 #### Enviar a mensagem com link de cancelamento de inscrição {#send-message-unsubscribe-link}
 
@@ -121,7 +121,7 @@ Depois de configurar o link de cancelamento de inscrição para a página de ate
 
    ![](assets/opt-out-lp-example.png)
 
-1. Se o recipient enviar o formulário (aqui, pressionando o botão **Cancelar inscrição** na página de aterrissagem), os dados do perfil serão atualizados por meio da [chamada do Adobe I/O](#opt-out-api).
+1. Se o recipient enviar o formulário (aqui, pressionando o **Cancelar inscrição** na página de aterrissagem), os dados do perfil são atualizados por meio do [Chamada de API](#opt-out-api).
 
 1. O recipient que recusou a inscrição é então redirecionado para uma tela de mensagem de confirmação indicando que a recusa foi bem-sucedida.
 
