@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1226'
 ht-degree: 82%
 
 ---
@@ -191,7 +191,7 @@ Para definir um URL de cancelamento de inscrição personalizado, insira um link
 
 Dependendo do cliente de email, clicar no link de cancelamento de inscrição no cabeçalho poderá ter os seguintes impactos:
 
-* A solicitação de cancelamento de subscrição é enviada para o endereço de cancelamento de subscrição.
+* A solicitação de cancelamento de subscrição é enviada para o endereço de cancelamento de subscrição padrão.
 
 * O recipient é direcionado para o URL da página de aterrissagem que você especificou ao adicionar o link de recusa à mensagem.
 
@@ -200,8 +200,6 @@ Dependendo do cliente de email, clicar no link de cancelamento de inscrição no
    >Se você não adicionar um link para opção de não participação com um clique no conteúdo da mensagem, nenhuma landing page será exibida.
 
 * O perfil correspondente é cancelado imediatamente e essa escolha é atualizada no Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
-
-<!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
 
 ## Encaminhar o gerenciamento de recusa {#push-opt-out-management}
 

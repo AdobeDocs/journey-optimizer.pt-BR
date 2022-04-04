@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: c0c57150be1c9031728daddf1e0a320853bc545c
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 94%
+source-wordcount: '1054'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Uma nova página de introdução aos modelos de IA foi adicionada à seção **Offer Decisioning**, incluindo uma descrição completa do [modelo de otimização automática](../offers/offer-library/ai-ranking.md#auto-optimization), o algoritmo que ele utiliza, entre outros detalhes técnicos. [Saiba mais](../offers/offer-library/ai-ranking.md)
 * A página de criação do perfil de teste foi movida para  **Segmento, perfis e identidade** seção. [Saiba mais](../segment/creating-test-profiles.md)
 * Adição de um exemplo sobre como adicionar uma expressão como valor padrão no editor de expressão. [Saiba mais](../building-journeys/expression/field-references.md#default-value)
-* O **Alterar os endereços de email principais** foi atualizada para refletir as alterações na interface do usuário. [Saiba mais](../configuration/primary-email-addresses.md)
+<!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
 
 ## Fevereiro de 2022 {#feb-2022}
 

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
 source-wordcount: '2067'
 ht-degree: 1%
@@ -97,7 +97,6 @@ Choose **Transacional** para mensagens não comerciais, como confirmação de pe
 >
 >**Transacional** as mensagens podem ser enviadas aos perfis que cancelaram a assinatura das comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
 
-
 ### Subdomínio e pool IP {#subdomains-and-ip-pools}
 
 No **DETALHES DO SUBDOMÍNIO E DO POOL IP** na seção , você deve:
@@ -140,7 +139,7 @@ O link de cancelamento de subscrição consiste em dois elementos:
 
 Saiba mais sobre como adicionar um link de cancelamento de subscrição de cabeçalho às suas mensagens em [esta seção](../messages/consent.md#unsubscribe-header).
 
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.-->
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
 ### Rastreamento de URL{#url-tracking}
 

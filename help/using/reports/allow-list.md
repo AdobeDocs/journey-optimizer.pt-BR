@@ -6,30 +6,36 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 7%
+source-wordcount: '556'
+ht-degree: 2%
 
 ---
 
 # Lista de permissões {#allow-list}
 
-É possível definir uma lista específica de segurança de envio no [sandbox](../administration/sandboxes.md) , para ter um ambiente seguro para fins de teste. Em uma instância de não produção, em que podem ocorrer erros, a lista de permissões garante que você não tenha risco de enviar mensagens indesejadas para os seus clientes.
+É possível definir uma lista específica de segurança de envio no [sandbox](../administration/sandboxes.md) , para ter um ambiente seguro para fins de teste.
+
+Por exemplo, em uma instância de não produção, em que podem ocorrer erros, a lista de permissões garante que você não tenha risco de enviar mensagens indesejadas para seus clientes.
+
+>[!NOTE]
+>
+>Esse recurso agora está disponível em sandboxes de produção e não de produção.
 
 A lista de permissões permite especificar endereços de email ou domínios individuais que serão os únicos recipients ou domínios autorizados a receber os emails enviados de uma sandbox específica. Isso pode impedir que você envie emails acidentalmente para endereços de clientes reais quando estiver em um ambiente de teste.
 
 >[!CAUTION]
 >
->Este recurso é **not** disponível em sandboxes de produção. Ela se aplica somente ao canal de email.
+>Esse recurso se aplica somente ao canal de email.
 
 ## Ative a lista de permissões {#enable-allow-list}
 
-<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.-->
+<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.
 
-<!--You can update the allowed list before or after enabling the feature. To do so, you need to update the general settings using the corresponding API end point in the Message Presets Service.?-->
+You can update the allowed list before or after enabling the feature.-->
 
-Para ativar a lista de permissões em uma sandbox de não produção, siga as etapas abaixo.
+Para ativar a lista de permissões, siga as etapas abaixo.
 
 1. Acesse o menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]**.
 
