@@ -1,14 +1,14 @@
 ---
-title: Testar a jornada
-description: Saiba mais sobre o teste de jornada
+title: Teste a jornada
+description: Saiba como testar sua jornada
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 2ab1010ac97ef2116984fcd6985374aed3d6f9f6
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1600'
 ht-degree: 3%
 
 ---
@@ -18,23 +18,24 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="Teste a jornada"
->abstract="Você pode testar sua jornada antes da publicação, usando perfis de teste. Isso permite analisar como os indivíduos fluem na jornada e solucionam problemas antes da publicação."
+>abstract="Use perfis de teste para testar sua jornada antes de publicá-la. Isso permite analisar como os indivíduos fluem na jornada e solucionam problemas antes da publicação."
 
-Antes de poder testar sua jornada, você deve resolver todos os erros, se houver. Consulte [esta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+Use perfis de teste para testar sua jornada antes de publicá-la. Esse modo permite que você execute um teste de sua jornada e identifique problemas usando perfis de teste.
 
-Você tem a possibilidade de testar sua jornada antes da publicação, usando perfis de teste. Isso permite analisar como os indivíduos fluem na jornada e solucionam problemas antes da publicação.
+Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar novos perfis de teste ou transformar perfis existentes em perfis de teste. Saiba mais sobre perfis de teste em [esta seção](../segment/creating-test-profiles.md).
 
-Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. Consulte esta [seção](../segment/creating-test-profiles.md).
+>[!NOTE]
+>
+>Antes de testar sua jornada, você deve resolver todos os erros, se houver. Saiba como verificar erros antes de testar na [esta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+
 
 Para usar o modo de teste, siga estas etapas:
 
-1. Antes de testar sua jornada, verifique se ela é válida e se não há erro. Você não poderá iniciar um teste de uma jornada com erros. Consulte [esta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Um símbolo de aviso é exibido quando há erros.
-
-1. Para ativar o modo de teste, clique no botão **[!UICONTROL Test]** alternar, localizado no canto superior direito.
+1. Para ativar o modo de teste, ative o **[!UICONTROL Test]** alternar, localizado no canto superior direito.
 
    ![](assets/journeytest1.png)
 
-1. Use o **[!UICONTROL Wait time]** no canto inferior esquerdo, para definir o tempo que cada atividade de espera e o tempo limite do evento durarão no modo de teste. O tempo padrão é de 10 segundos para esperas e tempos limite do evento. Isso garantirá que os resultados do teste sejam obtidos rapidamente. Esse parâmetro só será exibido se você tiver soltado uma ou mais atividades de espera na jornada.
+1. Se a jornada tiver pelo menos um **Aguardar** , defina a variável **[!UICONTROL Wait time]** para definir o tempo que cada atividade de espera e o tempo limite do evento durarão no modo de teste. O tempo padrão é de 10 segundos para esperas e tempos limite do evento. Isso garantirá que os resultados do teste sejam obtidos rapidamente.
 
    ![](assets/journeytest_wait.png)
 
@@ -42,19 +43,19 @@ Para usar o modo de teste, siga estas etapas:
    >
    >Quando um evento de reação é usado em uma jornada, o tempo de espera padrão e o valor mínimo são 40 segundos. Consulte [esta seção](../building-journeys/reaction-events.md).
 
-1. Clique em **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada.
+1. Use o **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada.
 
    ![](assets/journeyuctest1.png)
 
-1. Configure os diferentes campos esperados. No **Identificador de perfil** , insira o valor do campo usado para identificar o perfil de teste. Pode ser o endereço de email, por exemplo. Certifique-se de enviar eventos relacionados a perfis de teste. Consulte [Acionar seus eventos](#firing_events).
+1. Configure os diferentes campos esperados. No **Identificador de perfil** , insira o valor do campo usado para identificar o perfil de teste. Pode ser o endereço de email, por exemplo. Certifique-se de enviar eventos relacionados a perfis de teste. Consulte [esta seção](#firing_events).
 
    ![](assets/journeyuctest1-bis.png)
 
-1. Depois que os eventos forem recebidos, clique no link **[!UICONTROL Show log]** para visualizar o resultado do teste e verificá-lo. Consulte [Visualização dos logs](#viewing_logs).
+1. Depois que os eventos forem recebidos, clique no link **[!UICONTROL Show log]** para visualizar o resultado do teste e verificá-lo. Consulte [esta seção](#viewing_logs).
 
    ![](assets/journeyuctest2.png)
 
-1. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Quando o teste for conclusivo, você poderá publicar sua jornada. Consulte [esta página](../building-journeys/publishing-the-journey.md).
+1. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Depois que os testes forem feitos, você poderá publicar sua jornada. Consulte [esta página](../building-journeys/publishing-the-journey.md).
 
 ## Observações importantes {#important_notes}
 
@@ -66,7 +67,7 @@ Para usar o modo de teste, siga estas etapas:
 * Você pode ativar/desativar o modo de teste quantas vezes forem necessárias.
 * Não é possível modificar a jornada quando o modo de teste é ativado. Quando estiver no modo de teste, você pode publicar diretamente a jornada, não é necessário desativar o modo de teste antes.
 * Ao alcançar uma divisão, a ramificação superior é sempre escolhida. Você pode reorganizar a posição das ramificações divididas se quiser que o teste escolha um caminho diferente.
-* Para otimizar o desempenho e impedir o uso de recursos obsoletos, todas as jornadas no modo de teste que não foram acionadas por uma semana serão retornadas ao status Rascunho .
+* Para otimizar o desempenho e impedir o uso obsoleto de recursos, todas as jornadas no modo de teste que não foram acionadas por uma semana serão alternadas novamente para a função **Rascunho** status.
 
 ## Acionar seus eventos {#firing_events}
 
@@ -75,7 +76,7 @@ Para usar o modo de teste, siga estas etapas:
 >title="Configurar o modo de teste"
 >abstract="Se a jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento."
 
-O **[!UICONTROL Trigger an event]** permite configurar um evento que fará com que uma pessoa entre na jornada.
+Use o **[!UICONTROL Trigger an event]** para configurar um evento que fará com que uma pessoa entre na jornada.
 
 >[!NOTE]
 >
@@ -111,20 +112,18 @@ Ao acionar um evento, a variável **Configuração do evento** permite definir o
 
 ![](assets/jo-event8.png)
 
-Para obter mais informações sobre como usar o modo de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
-
 ## Modo de teste para eventos comerciais {#test-business}
 
-Ao usar um evento comercial (consulte [esta seção](../event/about-events.md)), o modo de teste permitirá acionar uma única entrada do perfil de teste na jornada, simulando o evento e transmitindo a ID de perfil correta. Você deve passar os parâmetros de evento e o identificador do perfil de teste que inserirá a jornada em teste. Não é possível usar a variável **[!UICONTROL Up to 100 profiles at once]** que existe para outras jornadas baseadas em segmentos. No modo de teste, não há modo de &quot;Visualização de código&quot; disponível para jornadas com base em eventos comerciais.
+Ao usar um [evento comercial](../event/about-events.md), use o modo de teste para acionar uma única entrada do perfil de teste na jornada, simular o evento e passar a ID de perfil correta. Você deve passar os parâmetros de evento e o identificador do perfil de teste que inserirá a jornada em teste. Não é possível usar a variável **[!UICONTROL Up to 100 profiles at once]** que existe para outras jornadas baseadas em segmentos. No modo de teste, não há modo de &quot;Visualização de código&quot; disponível para jornadas com base em eventos comerciais.
 
 Observe que, ao acionar um evento comercial pela primeira vez, não é possível alterar a definição de evento comercial na mesma sessão de teste. Você só pode fazer o mesmo indivíduo ou um indivíduo diferente inserir a jornada que passa o mesmo ou outro identificador. Se quiser alterar os parâmetros de evento comercial, pare e inicie novamente o modo de teste.
 
-## Visualização dos logs {#viewing_logs}
+## Exibir logs {#viewing_logs}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="Logs do modo de teste"
->abstract="Você pode visualizar os resultados do teste. Esta página exibe as informações atuais da jornada no formato JSON. Um botão permite copiar nós inteiros. Você precisa atualizar manualmente a página para atualizar os resultados de teste da jornada."
+>abstract="O botão Mostrar log exibe os resultados do teste no formato JSON. Esses resultados exibem o número de indivíduos dentro da jornada e seu status."
 
 O **[!UICONTROL Show log]** permite visualizar os resultados do teste. Esta página exibe as informações atuais da jornada no formato JSON. Um botão permite copiar nós inteiros. Você precisa atualizar manualmente a página para atualizar os resultados de teste da jornada.
 
@@ -157,9 +156,11 @@ Quando um evento é acionado usando o modo de teste, um conjunto de dados é ger
 
 O modo de teste cria automaticamente um Evento de experiência e o envia para o Adobe Experience Platform. O nome da origem desse evento de experiência é &quot;Journey Orchestration Test Events&quot;.
 
-No caso de vários eventos acionados por várias jornadas
+<!--
+In the case of multiple events triggered from multiple journeys
 
-Há um cenário em que há vários eventos enviados de várias jornadas que terão esquemas diferentes. Um esquema pode mapear para 1 conjunto de dados? Caso contrário, teremos vários conjuntos de dados necessários.
+There is a scenario when there are multiple events sent from multiple journeys that will have different Schemas. Can n schema map to 1 dataset? If not, then we will have multiple datasets required.
+-->
 
 A criação e nomeação automáticas desses conjuntos de dados é realizada se um conjunto de dados de destino não estiver incluído no evento da experiência. É por isso que vemos o &quot;Conjunto de dados criado automaticamente para o explorador&quot; hoje.
 
