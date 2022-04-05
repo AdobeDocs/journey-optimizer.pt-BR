@@ -6,14 +6,14 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 2%
 
 ---
 
-# Caso de uso de Personalization: notificação de status do pedido {#personalization-use-case}
+# Caso de uso de personalização: notificação de status do pedido {#personalization-use-case}
 
 Nesse caso de uso, você verá como usar vários tipos de personalização em uma única mensagem de notificação por push. Serão usados três tipos de personalização:
 
@@ -94,7 +94,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
    ![](assets/perso-uc12.png)
 
-1. Digite a mensagem e insira, em ****[!UICONTROL Contextual attributes]** , o nome do item da ordem e o andamento da ordem.
+1. Digite a mensagem e insira, no **[!UICONTROL Contextual attributes]** , o nome do item da ordem e o andamento da ordem.
 
    ![](assets/perso-uc13.png)
 

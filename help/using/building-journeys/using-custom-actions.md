@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 29%
+source-wordcount: '341'
+ht-degree: 30%
 
 ---
 
@@ -60,7 +60,7 @@ Se necessário, especifique o valor dos campos de cabeçalho dinâmico:
 
 ## Parâmetros de ação
 
-No **[!UICONTROL Action parameters]** , você verá os parâmetros da mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (exemplo: eventos, fontes de dados), passe os valores manualmente ou use o editor de expressão avançado para casos de uso avançado. Casos de uso avançados podem ser manipulação de dados e outro uso da função. Consulte [Documentação do Journey Orchestration Adobe](expression/expressionadvanced.md).
+No **[!UICONTROL Action parameters]** , você verá os parâmetros da mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (exemplo: eventos, fontes de dados), passe os valores manualmente ou use o editor de expressão avançado para casos de uso avançado. Casos de uso avançados podem ser manipulação de dados e outro uso da função. Consulte esta [página](expression/expressionadvanced.md).
 
 **Tópicos relacionados**
 

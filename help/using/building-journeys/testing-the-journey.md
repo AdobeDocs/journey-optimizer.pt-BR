@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2ab1010ac97ef2116984fcd6985374aed3d6f9f6
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1524'
 ht-degree: 3%
 
 ---
@@ -156,12 +156,3 @@ Quando um evento é acionado usando o modo de teste, um conjunto de dados é ger
 
 O modo de teste cria automaticamente um Evento de experiência e o envia para o Adobe Experience Platform. O nome da origem desse evento de experiência é &quot;Journey Orchestration Test Events&quot;.
 
-<!--
-In the case of multiple events triggered from multiple journeys
-
-There is a scenario when there are multiple events sent from multiple journeys that will have different Schemas. Can n schema map to 1 dataset? If not, then we will have multiple datasets required.
--->
-
-A criação e nomeação automáticas desses conjuntos de dados é realizada se um conjunto de dados de destino não estiver incluído no evento da experiência. É por isso que vemos o &quot;Conjunto de dados criado automaticamente para o explorador&quot; hoje.
-
-A nomeação de nossa origem gera a criação automática. Se houver vários eventos, devemos concatenar e fazer com que seja &quot;Evento de teste de Journey Orchestration - NOME DO SCHEMA&quot;. Isso se tornará automaticamente em &quot;Conjunto de dados gerado automaticamente para Journey Orchestration Test Event - NAME OF SCHEMA&quot;.
