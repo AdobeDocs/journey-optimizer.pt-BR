@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,3 @@ Para começar a criar seu conteúdo de email com o designer de email, siga as et
 1. Quando o email estiver pronto, clique em **[!UICONTROL Save & Close]**.
 
 Seu conteúdo de email agora pode ser usado em uma mensagem. [Saiba como enviar uma mensagem](../messages/publish-manage-message.md).
-
-## Vídeo tutorial {#video}
-
-Saiba como criar conteúdo de email com o editor de mensagens.
-
->[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

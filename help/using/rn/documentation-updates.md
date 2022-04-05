@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 92%
+source-wordcount: '1113'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Adição de um exemplo sobre como adicionar uma expressão como valor padrão no editor de expressão. [Saiba mais](../building-journeys/expression/field-references.md#default-value)
 * O **Criar ofertas personalizadas** foi reorganizada para melhorar a legibilidade. [Saiba mais](../offers/offer-library/creating-personalized-offers.md)
 * Uma nova seção foi adicionada para descrever os impactos que a alteração das datas de início e/ou término de uma oferta pode ter no limite de frequência dessa oferta. [Saiba mais](../offers/offer-library/add-constraints.md#capping-change-date)
-<!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
+* O **Alterar os endereços de email principais** foi atualizada para refletir as alterações na interface do usuário. [Saiba mais](../configuration/primary-email-addresses.md)
 
 ## Fevereiro de 2022 {#feb-2022}
 

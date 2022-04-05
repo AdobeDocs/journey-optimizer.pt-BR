@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '960'
 ht-degree: 2%
 
 ---
@@ -88,6 +88,10 @@ Para definir as configurações da página primária, siga as etapas abaixo.
    >O URL da página de aterrissagem deve ser exclusivo.
 
    ![](assets/lp_access-url.png)
+
+   >[!NOTE]
+   >
+   >Não é possível acessar a landing page simplesmente copiando e colando esse URL em um navegador da Web, mesmo se publicado. Em vez disso, você pode testá-lo usando a função de visualização, como descrito em [esta seção](#test-landing-page).
 
 1. Você pode definir uma data de expiração para sua página. Nesse caso, você deve selecionar uma ação ao expirar a página:
 
@@ -175,7 +179,7 @@ Dois tipos de alertas podem acontecer:
 
 * **Avisos** consulte recomendações e práticas recomendadas. <!--For example, a message will display if -->
 
-* **Erros** impedir a publicação da mensagem, desde que não sejam resolvidas. Por exemplo, você receberá um aviso se o URL da página primária estiver ausente.
+* **Erros** impedir a publicação da landing page, desde que elas não sejam resolvidas. Por exemplo, você receberá um aviso se o URL da página primária estiver ausente.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 

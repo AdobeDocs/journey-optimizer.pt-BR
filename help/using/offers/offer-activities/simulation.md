@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,11 @@ Para acessar esse recurso, selecione o **[!UICONTROL Simulation]** na guia do **
 
 ## Selecionar perfis de teste {#select-test-profiles}
 
-Primeiro, é necessário selecionar os perfis de teste que serão usados para simulação. Saiba mais sobre perfis de teste em [esta seção](../../segment/creating-test-profiles.md).
+Primeiro, é necessário selecionar os perfis de teste que serão usados para simulação.
+
+>[!CAUTION]
+>
+>Você deve ter perfis de teste disponíveis para visualizar suas mensagens e enviar provas. Saiba como [criar perfis de teste](../../segment/creating-test-profiles.md).
 
 1. Clique em **[!UICONTROL Manage profile]**.
 

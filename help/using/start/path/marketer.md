@@ -3,16 +3,14 @@ title: Journey Optimizer - Introdução aos profissionais de marketing
 description: Como Jornada, aprenda mais sobre como trabalhar com a Journey Optimizer
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 8%
 
 ---
 
 # Introdução aos profissionais de marketing {#get-started-marketers}
-
-![comerciante](assets/do-not-localize/user-3.png)
 
 Como um **Profissional de marketing** ou **Jornada**, você é responsável por criar mensagens, ofertas e jornadas. Você pode começar a trabalhar com [!DNL Adobe Journey Optimizer] uma vez que a [Administrador do sistema](administrator.md) e [Engenheiro de dados](data-engineer.md) concedeu acesso e preparou seu ambiente.
 

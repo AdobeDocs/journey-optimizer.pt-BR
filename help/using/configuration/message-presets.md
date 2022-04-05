@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2098'
 ht-degree: 1%
 
 ---
@@ -19,12 +19,12 @@ Com [!DNL Journey Optimizer], é possível configurar predefinições de mensage
 
 >[!CAUTION]
 >
-> * A configuração de predefinições de mensagens é restrita aos Administradores do Jornada. [Saiba mais](../administration/ootb-product-profiles.md#journey-administrator)
+> * A configuração de predefinições de mensagem está restrita a [Administradores do Jornada](../administration/ootb-product-profiles.md#journey-administrator). Para criar, editar e excluir predefinições de mensagem, você deve ter a variável [Gerenciar predefinições de mensagens](../administration/high-low-permissions.md#manage-message-presets).
 >
-> * Você deve executar a configuração de email e [Configuração por push](../configuration/push-configuration.md) etapas antes de criar predefinições de mensagem.
+> * Você deve executar [Configuração de email](#configure-email-settings) e [Configuração por push](../configuration/push-configuration.md) etapas antes de criar predefinições de mensagem.
 
 
-Após configurar as predefinições de mensagem, é possível selecioná-las ao criar mensagens do **[!UICONTROL Presets]** lista.
+Depois que as predefinições de mensagem forem configuradas, você poderá selecioná-las ao criar mensagens do **[!UICONTROL Presets]** lista.
 
 ➡️ [Saiba como criar e usar predefinições de email neste vídeo](#video-presets)
 
@@ -84,14 +84,15 @@ As configurações de email são definidas em uma seção dedicada da configura�
 
 Defina as configurações conforme descrito abaixo.
 
-
 ### Tipo de email{#email-type}
 
 No **TIPO DE EMAIL** selecione o tipo de mensagem que será enviada com a predefinição: **Marketing** ou **Transacional**.
 
-Choose **Marketing** para mensagens promocionais: essas mensagens exigem o consentimento do usuário.
+* Choose **Marketing** para mensagens promocionais: essas mensagens exigem o consentimento do usuário.
 
-Choose **Transacional** para mensagens não comerciais, como confirmação de pedido, notificações de redefinição de senha ou informações de delivery, por exemplo.
+* Choose **Transacional** para mensagens não comerciais, como confirmação de pedido, notificações de redefinição de senha ou informações de delivery, por exemplo.
+
+When [criação de uma mensagem](../messages/get-started-content.md#create-new-message), é necessário escolher uma predefinição de mensagem válida para a categoria e o(s) canal(s) selecionados.
 
 >[!CAUTION]
 >

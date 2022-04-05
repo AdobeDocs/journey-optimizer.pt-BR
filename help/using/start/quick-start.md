@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 92%
 
 ---
 
@@ -23,50 +23,14 @@ Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas e
 
 Para saber e descobrir o poder do Adobe Journey Optimizer com orientação passo a passo, selecione o seu perfil.
 
-<table>
-<tr>
-  <td valign="bottom">
-    <a href="path/administrator.md">
-      <img alt="Administrador" src="path/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/administrator.md">Sou um Administrador</a>
-     <p>Prepare o seu ambiente, conceda acesso e defina as configurações
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-    <a href="path/data-engineer.md">
-      <img alt="Engenheiro de dados" src="path/assets/do-not-localize/user-1.png"/>
-    </a>
-    <div>
-    <a href="path/data-engineer.md">Sou engenheiro de dados</a>
-     <p>Importe perfis, crie públicos-alvo, crie esquemas e conjuntos de dados
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-      <a href="path/marketer.md">
-       <img alt="Profissional de marketing" src="path/assets/do-not-localize/user-3.png" />
-       </a>
-    <div><a href="path/marketer.md">Sou um profissional de marketing</a>
-     <p>Projete mensagens, adicione ofertas e ativos e crie jornadas do cliente
-    <p>
-    </div>
-    <br>
-  </td>
-    <!--td valign="bottom">
-    <a href="path/developer.md">
-      <img alt="Developer" src="../using/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/developer.md">I am a Developer</a>
-     <p>Integrate your mobile apps, use Journey Optimizer APIs
-    <p>
-    </div>
-    <br>
-  </td-->
-</tr>
-</table>
+* Sou um **Administrador**
+
+   Prepare o seu ambiente, conceda acesso e defina as configurações. [Saiba mais](path/administrator.md)
+
+* Eu sou um **Engenheiro de dados**
+
+   Importe perfis, crie públicos-alvo, crie esquemas e conjuntos de dados. [Saiba mais](path/data-engineer.md)
+
+* Eu sou um **Profissional de marketing**
+
+   Projete mensagens, adicione ofertas e ativos e crie jornadas do cliente. [Saiba mais](path/marketer.md)

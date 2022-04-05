@@ -4,7 +4,7 @@ description: Saiba como configurar seu ambiente para criar e usar landing pages 
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 >title="Criar uma predefinição de página de aterrissagem"
 >abstract="Para criar uma predefinição de página de aterrissagem, verifique se você configurou anteriormente pelo menos um subdomínio de página de aterrissagem para escolher na lista Nome de subdomínio ."
 
-Para poder [criar predefinições de página de aterrissagem](#lp-create-preset), é necessário configurar os subdomínios que serão usados para as landing pages.
+Para poder [criar predefinições de página de aterrissagem](#lp-create-preset), você deve configurar os subdomínios que serão usados para as landing pages.
 
 Você pode usar um subdomínio que já tenha sido delegado ao Adobe ou pode configurar outro subdomínio. Saiba mais sobre como delegar subdomínios ao Adobe [esta seção](delegate-subdomain.md).
 

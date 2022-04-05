@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '182'
 ht-degree: 3%
 
 ---
@@ -35,3 +35,7 @@ As etapas para configurar um email são as seguintes:
 1. Clique no botão **[!UICONTROL Email Designer]** para criar seu email. Saiba como criar e-mails em [esta seção](../design/design-emails.md).
 
 1. Se você deseja rastrear o comportamento dos recipients por meio de aberturas e/ou cliques em links, verifique se a variável **[!UICONTROL Open Tracking for email]** e **[!UICONTROL Click Tracking for email]** estiverem ativadas. Saiba mais sobre como rastrear no [esta seção](../design/message-tracking.md).
+
+>[!NOTE]
+>
+>As mensagens de email de tipo de marketing devem incluir um [link para opção de não participação](consent.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definido na variável [nível predefinido de mensagem](../configuration/message-presets.md#email-type) e quando [criação da mensagem](get-started-content.md#create-new-message).

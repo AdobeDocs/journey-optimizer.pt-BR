@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '185'
 ht-degree: 6%
 
 ---
@@ -36,4 +36,11 @@ Todos esses recursos estão disponíveis ao acessar o Designer de email na tela 
 >[!NOTE]
 >
 >Observe que os modelos na área inferior são estáticos e não podem ser editados. Eles só estão disponíveis para fins ilustrativos.
-Depois de [criou a mensagem](../messages/get-started-content.md), você pode começar a criar o conteúdo do email.
+>
+>Depois de [criou a mensagem](../messages/get-started-content.md), você pode começar a criar o conteúdo do email.
+
+## Vídeo tutorial {#video}
+
+Saiba como criar conteúdo de email com o editor de mensagens.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

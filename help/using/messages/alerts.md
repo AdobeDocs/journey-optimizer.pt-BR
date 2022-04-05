@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -45,27 +45,31 @@ As configurações e elementos verificados pelo sistema estão listados abaixo. 
 
 **Avisos**:
 
-* **[!UICONTROL The opt-out link is not present in the email body.]**: adicionar um link de unsubscription ao corpo do email é uma prática recomendada. Saiba como configurá-lo em [esta seção](consent.md).
+* **[!UICONTROL The opt-out link is not present in the email body]**: adicionar um link de unsubscription ao corpo do email é uma prática recomendada. Saiba como configurá-lo em [esta seção](consent.md#opt-out-management).
 
-* **[!UICONTROL Text version of HTML is empty.]**: não se esqueça de definir uma versão de texto do corpo do email, pois ela será usada quando o conteúdo do HTML não puder ser exibido. Saiba como criar a versão de texto em [esta seção](../design/text-version-email.md).
+   >[!NOTE]
+   >
+   >As mensagens de email de tipo de marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definido na variável [nível predefinido de mensagem](../configuration/message-presets.md#email-type) e quando [criação da mensagem](get-started-content.md#create-new-message).
 
-* **[!UICONTROL Empty link is present in email body.]**: verifique se todos os links no seu email estão corretos. Saiba como gerenciar conteúdo e links no [esta seção](../design/create-email-content.md).
+* **[!UICONTROL Text version of HTML is empty]**: não se esqueça de definir uma versão de texto do corpo do email, pois ela será usada quando o conteúdo do HTML não puder ser exibido. Saiba como criar a versão de texto em [esta seção](../design/text-version-email.md).
 
-* **[!UICONTROL Email size has exceeded the limit of 100KB.]**: para obter o delivery ideal, verifique se o tamanho do seu email não excede 100 KB. Saiba como editar conteúdo de email no [esta seção](../design/create-email-content.md).
+* **[!UICONTROL Empty link is present in email body]**: verifique se todos os links no seu email estão corretos. Saiba como gerenciar conteúdo e links no [esta seção](../design/create-email-content.md).
+
+* **[!UICONTROL Email size has exceeded the limit of 100KB]**: para obter o delivery ideal, verifique se o tamanho do seu email não excede 100 KB. Saiba como editar conteúdo de email no [esta seção](../design/create-email-content.md).
 
 **Erros**:
 
-* **[!UICONTROL The subject line is missing.]**: a linha de assunto do email é obrigatória. Saiba como defini-lo e personalizá-lo em [esta seção](create-email.md).
+* **[!UICONTROL The subject line is missing]**: a linha de assunto do email é obrigatória. Saiba como defini-lo e personalizá-lo em [esta seção](create-email.md).
 
    <!--HTML is empty when Amp HTML is present-->
 
-* **[!UICONTROL The push version of the message is empty.]**: esse erro é exibido quando o corpo ou o título da notificação por push está ausente. Saiba como definir o conteúdo de notificação por push em [esta seção](create-push.md).
+* **[!UICONTROL The push version of the message is empty]**: esse erro é exibido quando o corpo ou o título da notificação por push está ausente. Saiba como definir o conteúdo de notificação por push em [esta seção](create-push.md).
 
-* **[!UICONTROL The email version of the message is empty.]**: esse erro é exibido quando o conteúdo do email não foi configurado. Saiba como criar conteúdo de email no [esta seção](../design/design-emails.md).
+* **[!UICONTROL The email version of the message is empty]**: esse erro é exibido quando o conteúdo do email não foi configurado. Saiba como criar conteúdo de email no [esta seção](../design/design-emails.md).
 
-* **[!UICONTROL Preset doesn’t exist.]**: não é possível publicar sua mensagem se a predefinição selecionada for excluída após a criação da mensagem. Se este erro ocorrer, selecione outra predefinição na mensagem **[!UICONTROL Properties]**. Saiba mais sobre marcas em [esta seção](../configuration/about-subdomain-delegation.md).
+* **[!UICONTROL Preset doesn’t exist]**: não é possível publicar sua mensagem se a predefinição selecionada for excluída após a criação da mensagem. Se este erro ocorrer, selecione outra predefinição na mensagem **[!UICONTROL Properties]**. Saiba mais sobre marcas em [esta seção](../configuration/about-subdomain-delegation.md).
 
-* **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB.]**: o tamanho da notificação por push não pode exceder 4 KB. Para respeitar esse limite, tente reduzir o uso de imagens ou emojis. Saiba como gerenciar o conteúdo de notificação por push no [esta seção](create-push.md).
+* **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: o tamanho da notificação por push não pode exceder 4 KB. Para respeitar esse limite, tente reduzir o uso de imagens ou emojis. Saiba como gerenciar o conteúdo de notificação por push no [esta seção](create-push.md).
 
 >[!CAUTION]
 >

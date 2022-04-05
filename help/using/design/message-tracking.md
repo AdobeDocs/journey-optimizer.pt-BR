@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '608'
 ht-degree: 9%
 
 ---
@@ -72,6 +72,10 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
    * Você pode optar por sublinhar o link ou não, marcando a opção correspondente.
 
    ![](assets/message-tracking-link-settings.png)
+
+>[!NOTE]
+>
+>As mensagens de email de tipo de marketing devem incluir um [link para opção de não participação](../messages/consent.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definido na variável [nível predefinido de mensagem](../configuration/message-presets.md#email-type) e quando [criação da mensagem](../messages/get-started-content.md#create-new-message).
 
 ## Link para uma mirror page {#mirror-page}
 

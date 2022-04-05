@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 75%
+source-wordcount: '1259'
+ht-degree: 74%
 
 ---
 
@@ -38,6 +38,10 @@ Portanto, você sempre deve incluir um **link para cancelar a inscrição** em c
 
 * Ao clicar nesse link, os recipients serão direcionados a uma página de aterrissagem que inclui um botão para confirmar a recusa.
 * Após confirmar a escolha, os dados dos perfis serão atualizados com essas informações.
+
+>[!NOTE]
+>
+>As mensagens de email de tipo de marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definido na variável [nível predefinido de mensagem](../configuration/message-presets.md#email-type) e quando [criação da mensagem](get-started-content.md#create-new-message).
 
 ### Opção de não participação externa {#opt-out-external-lp}
 
@@ -71,7 +75,7 @@ Primeiro, é necessário adicionar um link de cancelamento de inscrição em uma
 
 #### Implementar uma chamada de API para opção de não participação {#opt-out-api}
 
-Para que seus recipients optem ao enviar sua escolha a partir da landing page, você deve implementar uma **Chamada da API de assinatura** through [Desenvolvedor de Adobe](https://developer.adobe.com){target=&quot;_blank&quot;} para atualizar as preferências dos perfis correspondentes.
+Para que seus recipients optem ao enviar sua escolha a partir da landing page, você deve implementar uma **Chamada da API de assinatura** through [Desenvolvedor de Adobe](https://developer.adobe.com/){target=&quot;_blank&quot;} para atualizar as preferências dos perfis correspondentes.
 
 Essa chamada de POST é a seguinte:
 
