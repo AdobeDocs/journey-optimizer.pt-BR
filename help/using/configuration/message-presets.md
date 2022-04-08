@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: de5e9e6026222ce57a7bb37e11aa6f8bbf583d19
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2110'
 ht-degree: 1%
 
 ---
@@ -85,6 +85,11 @@ As configurações de email são definidas em uma seção dedicada da configura�
 Defina as configurações conforme descrito abaixo.
 
 ### Tipo de email{#email-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_emailtype"
+>title="Tipo de email"
+>abstract="A Concluir"
 
 No **TIPO DE EMAIL** selecione o tipo de mensagem que será enviada com a predefinição: **Marketing** ou **Transacional**.
 
@@ -189,6 +194,11 @@ No **[!UICONTROL HEADER PARAMETERS]** , insira os nomes do remetente e os endere
 >Os endereços devem começar com uma letra (A-Z) e só podem conter caracteres alfanuméricos. Você também pode usar o sublinhado `_`, ponto`.` e hífen `-` caracteres.
 
 ### Parâmetros de nova tentativa de email{#email-retry}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_retryperiod"
+>title="Período de tempo de nova tentativa de email"
+>abstract="A Concluir"
 
 Você pode configurar o **Parâmetros de nova tentativa de email**.
 
