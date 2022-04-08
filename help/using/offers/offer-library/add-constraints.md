@@ -5,9 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1552'
 ht-degree: 3%
 
 ---
@@ -23,6 +24,11 @@ ht-degree: 3%
 >id="od_offer_priority"
 >title="Sobre a prioridade da oferta"
 >abstract="Nesse campo, é possível especificar configurações de prioridade para a oferta. Prioridade é um número usado para classificar ofertas que atendem a todas as restrições, como qualificação, datas e limite."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_priority"
+>title="Prioridade"
+>abstract="A prioridade ajuda a definir a prioridade da oferta em comparação com outras se o usuário se qualificar para mais de uma oferta. Quanto maior for a prioridade de uma oferta, maior será a prioridade em relação a outras ofertas."
 
 As restrições permitem definir as condições em que uma oferta será exibida.
 
@@ -49,6 +55,11 @@ Por exemplo, se você definir as seguintes restrições:
 * A oferta será apresentada somente uma vez por usuário em todas as disposições.
 
 ## Elegibilidade {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_eligibility"
+>title="Elegibilidade"
+>abstract="A qualificação para a oferta permite restringir a oferta a perfis específicos que você define usando segmentos ou regras de decisão."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -107,8 +118,8 @@ Basicamente, a saída de um segmento é uma lista de perfis, enquanto uma regra 
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="Sobre o limite de oferta"
->abstract="Nesse campo, é possível especificar quantas vezes a oferta pode ser apresentada."
+>title="Limitação"
+>abstract="O limite é usado como uma restrição para definir o número máximo de vezes que uma oferta pode ser apresentada."
 
 O limite é usado como uma restrição para definir o número máximo de vezes que uma oferta pode ser apresentada.
 

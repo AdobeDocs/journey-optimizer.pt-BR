@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 16%
+source-wordcount: '261'
+ht-degree: 14%
 
 ---
 
 # Criar inserções {#create-placements}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement"
+>title="Disposição"
+>abstract="Um posicionamento é um contêiner usado para mostrar ofertas. Isso ajuda a garantir que o conteúdo de oferta correto seja exibido no local certo dentro da mensagem. As disposições são criadas no menu &quot;Componentes&quot;."
 
 Uma disposição ajuda a garantir que o conteúdo de oferta correto seja exibido no local certo dentro da mensagem. Ao adicionar conteúdo a uma oferta, você será solicitado a selecionar uma disposição na qual o conteúdo possa ser exibido.
 

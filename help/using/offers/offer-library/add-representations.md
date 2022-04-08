@@ -5,14 +5,20 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '465'
 ht-degree: 2%
 
 ---
 
 # Adicionar representações a uma oferta {#add-representations}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_representation"
+>title="Representações"
+>abstract="Adicione representações para definir onde a oferta será exibida na mensagem. Quanto mais representações uma oferta tiver, mais oportunidades haverá para usar a oferta em diferentes contextos de posicionamento&quot;.
 
 Uma oferta pode ser exibida em diferentes locais em uma mensagem: em um banner superior com uma imagem, como texto em um parágrafo, como um bloco de HTML, etc. Quanto mais representações uma oferta tiver, mais oportunidades haverá para usar a oferta em diferentes contextos de posicionamento.
 

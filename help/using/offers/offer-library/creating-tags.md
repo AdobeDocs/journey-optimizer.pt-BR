@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '188'
 ht-degree: 5%
 
 ---
 
 # Criar tags {#create-tags}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_tags"
+>title="Tags"
+>abstract="Associe uma ou várias tags à oferta para manter a Biblioteca de ofertas organizada e localizar ofertas com mais facilidade. As tags são criadas no menu &quot;Componente&quot;."
 
 A associação de tags às suas ofertas facilita a organização dessas tags. Por exemplo, você pode rotular as ofertas de Black Friday com a tag &quot;Black Friday&quot;. Em seguida, você pode usar a funcionalidade de pesquisa na Biblioteca de ofertas para localizar facilmente todas as ofertas com essa tag.
 
