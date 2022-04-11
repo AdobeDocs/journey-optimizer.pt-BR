@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
 source-wordcount: '2938'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimizer]. Também é possível consultar a página das [atualizações mais recentes da documentação](documentation-updates.md) para conhecer mais alterações.
 
-![Informativo](../assets/do-not-localize/nl-icon.png) Cadastre-se para a [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} hoje, e receber as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e mais entregues diretamente à sua caixa de entrada a cada trimestre.
+![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [Informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
 
 ## Versão de março de 2022 {#march-2022-release}
@@ -22,22 +22,22 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 
 **Jornadas**
 
-* Para evitar campos desnecessários no schema de perfil unificado, o schema Jornada Step Event não é mais habilitado para perfis por padrão. Se necessário, você pode ativá-lo. [Saiba mais](../reports/sharing-overview.md)
-* Os novos eventos de etapa relacionados a trabalhos de exportação agora são enviados pelo Journey Optimizer para o Adobe Experience Platform. Exemplos de consultas foram adicionados à documentação. [Saiba mais](../reports/query-examples.md)
+* Para evitar campos desnecessários no esquema de perfil unificado, o esquema de eventos de etapas da jornada não é mais habilitado para perfis por padrão. Se necessário, você pode ativá-lo. [Saiba mais](../reports/sharing-overview.md)
+* Os novos eventos de etapa relacionados aos trabalhos de exportação agora são enviados pelo Journey Optimizer para a Adobe Experience Platform. Exemplos de consultas foram adicionados à documentação. [Saiba mais](../reports/query-examples.md)
 
 **Gerenciamento de decisão**
 
 * Agora é possível especificar se o limite de oferta é aplicado a todos os usuários ou a um perfil específico, bem como a todas as disposições ou por disposição. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
-* A API de decisão em lote permite que as organizações usem a funcionalidade do offer decisioning para todos os perfis em um determinado segmento em uma chamada. O conteúdo da oferta para cada perfil no segmento é colocado em um conjunto de dados AEP, onde está disponível para fluxos de trabalho em lote personalizados. [Saiba mais](../offers/api-reference/batch-api/deliver-offers-batch.md)
+* A API de decisão em lote permite que as organizações usem a funcionalidade do Offer Decisioning para todos os perfis em um determinado segmento em uma única chamada. O conteúdo da oferta de cada perfil no segmento é colocado em um conjunto de dados da AEP, onde ele estará disponível para fluxos de trabalho em lote personalizados. [Saiba mais](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **Administração**
 
-* Agora é possível ativar/desativar o link de cancelamento de subscrição no/do cabeçalho do email no nível predefinido da mensagem e definir um URL de cancelamento de subscrição personalizado no nível da mensagem. [Saiba mais](../configuration/message-presets.md#list-unsubscribe)
-* A lista de permissões agora poderá ser ativada e desativada por meio da variável [!DNL Journey Optimizer] interface em sandboxes de produção e não produção. [Saiba mais](../reports/allow-list.md#enable-allow-list)
+* Agora é possível ativar/desativar o link de cancelamento de inscrição no/do cabeçalho do email no nível da predefinição da mensagem e definir um URL de cancelamento de inscrição personalizado no nível da mensagem. [Saiba mais](../configuration/message-presets.md#list-unsubscribe)
+* A lista de permissões agora poderá ser ativada e desativada por meio da interface do [!DNL Journey Optimizer] em sandboxes de produção e não produção. [Saiba mais](../reports/allow-list.md#enable-allow-list)
 
 **Personalização**
 
-* Agora você pode salvar mais de 40 expressões de personalização na biblioteca. [Saiba mais](../personalization/personalization-library.md)
+* Agora, você pode salvar mais de 40 expressões de personalização na biblioteca. [Saiba mais](../personalization/personalization-library.md)
 
 ## Versão de fevereiro de 2022 {#feb-2022-release}
 

@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1259'
-ht-degree: 74%
+ht-degree: 91%
 
 ---
 
@@ -161,7 +161,7 @@ Para adicionar um link para opção de não participação no seu email, siga as
 
    >[!NOTE]
    >
-   >Se você ativou a variável **List-Unsubscribe** no nível predefinido da mensagem, esse URL também será usado quando os usuários clicarem no link de cancelamento de subscrição no cabeçalho do email. [Saiba mais](#unsubscribe-header)
+   >Se você ativou a opção **List-Unsubscribe** no nível de predefinição da mensagem, esse URL também será usado quando os usuários clicarem no link de cancelamento de inscrição no cabeçalho do email. [Saiba mais](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -175,11 +175,11 @@ Depois que a mensagem for enviada por meio de uma [jornada](../building-journeys
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="Adicionar link de cancelamento de subscrição ao cabeçalho do email"
->abstract="Ative o List-Unsubscribe para adicionar um link de cancelamento de subscrição ao cabeçalho do email. Para definir um URL de cancelamento de inscrição, insira um link de recusa com um clique no conteúdo da mensagem de email."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="Recusar com um clique"
+>title="Adicionar link de cancelamento de inscrição ao cabeçalho do email"
+>abstract="Ative o List-Unsubscribe para adicionar um link de cancelamento de inscrição ao cabeçalho do email. Para definir um URL de cancelamento de inscrição, insira um link de recusa de um clique no conteúdo da mensagem de email."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=pt-BR#one-click-opt-out" text="Recusar com um clique"
 
-Se a variável [Opção List-Unsubscribe](../configuration/message-presets.md#list-unsubscribe) estiver ativada no nível predefinido da mensagem, os emails correspondentes enviados com [!DNL Journey Optimizer] incluirá um link de cancelamento de subscrição no cabeçalho do email.
+Se a [opção List-Unsubscribe](../configuration/message-presets.md#list-unsubscribe) estiver ativada no nível da predefinição da mensagem, os emails correspondentes enviados com o [!DNL Journey Optimizer] incluirão um link de cancelamento de inscrição no cabeçalho do email.
 
 Por exemplo, o link de cancelamento de inscrição será exibido assim no Gmail:
 
@@ -187,23 +187,23 @@ Por exemplo, o link de cancelamento de inscrição será exibido assim no Gmail:
 
 >[!NOTE]
 >
->Para exibir o link de cancelamento de subscrição no cabeçalho do email, o cliente de email dos recipients deve ser compatível com esse recurso.
+>Para exibir o link de cancelamento de inscrição no cabeçalho do email, o cliente de email dos destinatários deve ser compatível com esse recurso.
 
-O endereço de cancelamento de subscrição é o padrão **[!UICONTROL Mailto (unsubscribe)]** endereço exibido na predefinição de mensagem correspondente. [Saiba mais](../configuration/message-presets.md#list-unsubscribe).
+O endereço de cancelamento de inscrição é o endereço padrão do **[!UICONTROL Mailto (unsubscribe)]** exibido na predefinição de mensagem correspondente. [Saiba mais](../configuration/message-presets.md#list-unsubscribe).
 
 Para definir um URL de cancelamento de inscrição personalizado, insira um link de recusa de um clique no conteúdo da mensagem de email e insira o URL de sua escolha. [Saiba mais](#one-click-opt-out)
 
-Dependendo do cliente de email, clicar no link de cancelamento de inscrição no cabeçalho poderá ter os seguintes impactos:
+Dependendo do cliente de email, clicar no link de cancelamento de inscrição no cabeçalho terá um dos seguintes resultados:
 
-* A solicitação de cancelamento de subscrição é enviada para o endereço de cancelamento de subscrição padrão.
+* A solicitação de cancelamento de inscrição é enviada para o endereço de cancelamento de inscrição padrão.
 
-* O recipient é direcionado para o URL da página de aterrissagem que você especificou ao adicionar o link de recusa à mensagem.
+* O destinatário é direcionado para o URL da página de aterrissagem que você especificou ao adicionar o link de opção de não participação à mensagem.
 
    >[!NOTE]
    >
-   >Se você não adicionar um link para opção de não participação com um clique no conteúdo da mensagem, nenhuma landing page será exibida.
+   >Se você não adicionar um link de recusa de um clique no conteúdo da mensagem, nenhuma página de aterrissagem será exibida.
 
-* O perfil correspondente é cancelado imediatamente e essa escolha é atualizada no Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+* O perfil correspondente é cancelado imediatamente e essa escolha é atualizada na Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
 ## Encaminhar o gerenciamento de recusa {#push-opt-out-management}
 

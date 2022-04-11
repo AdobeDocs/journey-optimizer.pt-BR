@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1113'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -15,9 +15,9 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Março de 2022 {#march-2022}
 
-* Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 22 de março foi detalhada na documentação. [Saiba mais](release-notes.md)
+* Todos os novos recursos e aprimoramentos da versão de março de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Saiba mais](release-notes.md)
 * Uma nova página de introdução aos modelos de IA foi adicionada à seção **Offer Decisioning**, incluindo uma descrição completa do [modelo de otimização automática](../offers/offer-library/ai-ranking.md#auto-optimization), o algoritmo que ele utiliza, entre outros detalhes técnicos. [Saiba mais](../offers/offer-library/ai-ranking.md)
-* A página de criação do perfil de teste foi movida para  **Segmento, perfis e identidade** seção. [Saiba mais](../segment/creating-test-profiles.md)
+* A página de criação do perfil de teste foi movida para a seção **Segmento, perfis e identidade**. [Saiba mais](../segment/creating-test-profiles.md)
 * Adição de um exemplo sobre como adicionar uma expressão como valor padrão no editor de expressão. [Saiba mais](../building-journeys/expression/field-references.md#default-value)
 * O **Criar ofertas personalizadas** foi reorganizada para melhorar a legibilidade. [Saiba mais](../offers/offer-library/creating-personalized-offers.md)
 * Uma nova seção foi adicionada para descrever os impactos que a alteração das datas de início e/ou término de uma oferta pode ter no limite de frequência dessa oferta. [Saiba mais](../offers/offer-library/add-constraints.md#capping-change-date)

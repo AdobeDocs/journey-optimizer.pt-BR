@@ -9,7 +9,7 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 16%
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Use o [!DNL Journey Optimizer] para aproveitar vários recursos, como ativos e c
 
 ## Acessar mensagens {#access-messages}
 
-As mensagens estão disponíveis no **[!UICONTROL Messages]** no painel de navegação esquerdo. Todas as mensagens são listadas, classificadas por data de publicação (para mensagens publicadas) ou data de criação (para mensagens de rascunho).
+As mensagens estão disponíveis por meio do atalho **[!UICONTROL Messages]** no painel de navegação esquerdo. Todas as mensagens são listadas e classificadas por data de publicação (para mensagens publicadas) ou data de criação (para mensagens de rascunho).
 
 >[!NOTE]
 >
@@ -35,23 +35,23 @@ As mensagens estão disponíveis no **[!UICONTROL Messages]** no painel de naveg
 
 ![](assets/messages-list.png)
 
-* Use o **[!UICONTROL Show recents]** alterne para adicionar links diretos às mensagens acessadas nos últimos 5 dias.
+* Use o botão **[!UICONTROL Show recents]** para adicionar links diretos às mensagens acessadas nos últimos 5 dias.
 
    ![](assets/show-recent-messages.png)
 
-* Use o ícone de filtro para exibir somente mensagens elaboradas, publicadas ou que estejam sendo publicadas. Também é possível pesquisar no rótulo da mensagem, conforme abaixo:
+* Use o ícone de filtro para exibir somente mensagens de rascunho, publicadas ou que estejam sendo publicadas. Também é possível pesquisar pelo rótulo da mensagem, conforme abaixo:
 
    ![](assets/filter-messages.png)
 
-* Você pode arquivar as mensagens não utilizadas para limpar a lista de mensagens usando o ícone dedicado do menu de ações rápidas.
+* Você pode arquivar as mensagens não utilizadas para limpar a lista de mensagens usando o ícone dedicado no menu de ações rápidas.
 
    ![](assets/archive-message.png)
 
-   Use o ícone de filtro para exibir todas as mensagens arquivadas e clique no botão **[!UICONTROL Unarchive]** ícone para remover um item da lista de mensagens arquivadas.
+   Use o ícone de filtro para exibir todas as mensagens arquivadas e clique no ícone **[!UICONTROL Unarchive]** para remover um item da lista de mensagens arquivadas.
 
    >[!NOTE]
    >
-   >Não é possível abrir uma mensagem arquivada. Você deve desarquivá-lo primeiro.
+   >Não é possível abrir uma mensagem arquivada. Você deve desarquivá-la primeiro.
 
 ## Criar uma nova mensagem {#create-new-message}
 
@@ -63,43 +63,43 @@ Para criar uma nova mensagem, siga as etapas abaixo:
 
    ![](assets/create-message-properties.png)
 
-   * Insira um **[!UICONTROL Title]** (obrigatório) e um **[!UICONTROL Description]**.
+   * Insira um **[!UICONTROL Title]** (obrigatório) e uma **[!UICONTROL Description]**.
 
-   * Selecione o **[!UICONTROL Message category]**: Marketing ou transacional.
+   * Selecione a **[!UICONTROL Message category]**: marketing ou transacional.
 
-   * Selecione os canais que deseja usar para essa mensagem: Notificação por email e/ou notificação por push. Você deve selecionar pelo menos um canal para criar a mensagem.
+   * Selecione os canais que deseja usar para essa mensagem: notificação por email e/ou notificação por push. Você deve selecionar pelo menos um canal para criar a mensagem.
 
-   * Selecione o **[!UICONTROL Preset]** para usar na mensagem.
+   * Selecione a **[!UICONTROL Preset]** para usar na mensagem.
 
       As predefinições incluem todos os parâmetros necessários para que uma notificação por email e/ou por push seja enviada de acordo com sua marca. [Saiba mais sobre predefinições](../configuration/message-presets.md).
    >[!CAUTION]
    >
    >Você deve escolher uma predefinição de mensagem válida para a categoria e os canais selecionados.
 
-   Observe que você pode acessar e modificar o título, a descrição e a predefinição da mensagem a qualquer momento usando o **[!UICONTROL Properties]** na interface da mensagem.
+   Observe que é possível acessar e modificar o título, a descrição e a predefinição da mensagem a qualquer momento usando o botão **[!UICONTROL Properties]** na interface da mensagem.
 
-1. Clique em **[!UICONTROL Create]** para confirmar a criação da mensagem. Sua mensagem é adicionada na lista de mensagens, no **[!UICONTROL Draft]** status.
+1. Clique em **[!UICONTROL Create]** para confirmar a criação da mensagem. Sua mensagem é adicionada à lista de mensagens, no status **[!UICONTROL Draft]**.
 
    Uma guia está disponível para cada canal selecionado. Use essas guias para configurar o conteúdo de cada canal. Você pode remover uma guia selecionando-a e clicando no botão **[!UICONTROL Delete channel]** à direita.
 
    ![](assets/create-messages-content.png)
 
-   Agora você pode criar o conteúdo da mensagem e adaptar as configurações. Informações detalhadas sobre a configuração de email e notificação por push estão disponíveis nas seguintes seções:
+   Agora você pode criar o conteúdo da mensagem e adaptar as configurações. Informações detalhadas sobre as configurações de email e notificação por push estão disponíveis nas seguintes seções:
 
    * [Criar um email](create-email.md)
-   * [Criar notificações por push](create-push.md)
+   * [Criar uma notificação por push](create-push.md)
 
    >[!NOTE]
    >   
-   >Você pode personalizar suas mensagens usando os dados dos perfis usando o editor de expressão. Para obter mais informações sobre personalização, consulte [esta seção](../personalization/personalize.md).
+   >Você pode personalizar suas mensagens usando os dados dos perfis por meio do editor de expressão. Para saber mais sobre personalizações, consulte [esta seção](../personalization/personalize.md).
 
-1. Controle a renderização das mensagens e verifique as configurações de personalização com perfis de teste, usando a seção preview no lado esquerdo. Para obter mais informações, consulte [esta seção](../design/preview.md).
+1. Controle a renderização das mensagens e verifique as configurações de personalização com perfis de teste, usando a seção de visualização no lado esquerdo. Para obter mais informações, consulte [esta seção](../design/preview.md).
 
    ![](assets/messages-simple-preview.png)
 
 1. Verifique os alertas na seção superior do editor.  Alguns deles são avisos simples, mas outros podem impedir que você publique a mensagem. Saiba mais [nesta seção](alerts.md).
 
-1. Agora você pode publicar sua mensagem clicando no link **[!UICONTROL Publish]** , ou mantenha-o como rascunho e publique-o posteriormente. Para obter mais informações sobre como publicar mensagens, consulte [esta seção](publish-manage-message.md).
+1. Agora você pode publicar sua mensagem clicando no botão **[!UICONTROL Publish]**, ou mantenha-a como rascunho e publique-a posteriormente. Para obter mais informações sobre como publicar mensagens, consulte [esta seção](publish-manage-message.md).
 
 ## Duplicar uma mensagem {#duplicate-message}
 
@@ -107,11 +107,11 @@ Para criar uma mensagem a partir de uma existente, siga as etapas abaixo.
 
 1. Abra a mensagem que deseja copiar.
 
-1. Use o **[!UICONTROL Duplicate]** na interface da mensagem.
+1. Use o botão **[!UICONTROL Duplicate]** na interface da mensagem.
 
    ![](assets/message-duplicate.png)
 
-   Todas as configurações e configurações serão copiadas para a nova mensagem.
+   Todas as definições e configurações serão copiadas para a nova mensagem.
 
 1. É possível renomear a mensagem antes de confirmar a duplicação.
 

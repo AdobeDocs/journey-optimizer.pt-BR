@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -40,19 +40,19 @@ ht-degree: 92%
 + Criação de conteúdo {#design}
    + [Introdução ao design de email](using/design/design-emails.md)
    + [Iniciar do zero ](using/design/create-email-content.md)
-   + [Importe o conteúdo do email](using/design/existing-content.md)
-   + [Programe seu próprio conteúdo](using/design/code-content.md)
-   + Design de conteúdo {#design-content}
+   + [Importar o conteúdo do email](using/design/existing-content.md)
+   + [Programar seu próprio conteúdo](using/design/code-content.md)
+   + Criação de conteúdo {#design-content}
       + [Usar componentes de conteúdo](using/design/content-components.md)
-      + [Configurações de plano de fundo](using/design/backgrounds.md)
+      + [Configurações de fundo](using/design/backgrounds.md)
       + [Ajustar o alinhamento vertical e o preenchimento](using/design/adjusting-vertical-alignment-and-padding.md)
       + [Definir um estilo para links](using/design/styling-links.md)
       + [Adicionar atributos de estilo em linha](using/design/adding-inline-styling-attributes.md)
    + Configurações de email {#design-email}
       + [Gerar a versão de texto](using/design/text-version-email.md)
-      + [Adicionar um precabeçalho](using/design/preheader.md)
+      + [Adicionar um pré-cabeçalho](using/design/preheader.md)
    + Adicionar e gerenciar ativos {#manage-asset}
-      + [Trabalhar com a Assets Essentials](using/design/assets-essentials.md)
+      + [Trabalhar com o Assets Essentials](using/design/assets-essentials.md)
    + [Adicionar ofertas personalizadas](using/design/deliver-personalized-offers.md)
    + [Adicionar links e rastrear mensagens](using/design/message-tracking.md)
    + [Pré-visualização e provas](using/design/preview.md)
@@ -91,7 +91,7 @@ ht-degree: 92%
       + [Introdução aos segmentos](using/segment/about-segments.md)
       + [Construir segmentos](using/segment/creating-a-segment.md)
    + Perfis{#profiles}
-      + [Introdução a perfis](using/segment/get-started-profiles.md)
+      + [Introdução aos perfis](using/segment/get-started-profiles.md)
       + [Criar perfis de teste](using/segment/creating-test-profiles.md)
    + [Identidades](using/segment/get-started-identity.md)
 + Jornadas {#orchestrate-journeys}
@@ -219,15 +219,15 @@ ht-degree: 92%
       + [Relatório da jornada em tempo real](using/reports/journey-live-report.md)
       + [Relatório por email em tempo real](using/reports/email-live-report.md)
       + [Relatório por push em tempo real](using/reports/push-live-report.md)
-      + [Relatório ao vivo da página de aterrissagem](using/reports/lp-report-live.md)
-      + [Relatório ao vivo da lista de assinaturas](using/reports/subscription-report-live.md)
+      + [Relatório em tempo real da página de aterrissagem](using/reports/lp-report-live.md)
+      + [Relatório em tempo real da lista de assinaturas](using/reports/subscription-report-live.md)
    + Relatório global {#global-report}
       + [Acessar o painel de relatórios global](using/reports/global-report.md)
       + [Relatório global da jornada](using/reports/journey-global-report.md)
       + [Relatório global de email](using/reports/email-global-report.md)
       + [Relatório global por push](using/reports/push-global-report.md)
       + [Relatório global da página de aterrissagem](using/reports/lp-report-global.md)
-      + [Relatório Global da Lista de Subscrições](using/reports/subscription-report-global.md)
+      + [Relatório global da lista de assinaturas](using/reports/subscription-report-global.md)
    + Relatórios de jornada {#reports}
       + [Criar relatórios de jornada](using/reports/sharing-overview.md)
       + [Lista de campos de evento de etapa](using/reports/sharing-field-list.md)
