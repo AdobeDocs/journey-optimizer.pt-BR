@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1464'
 ht-degree: 100%
 
@@ -214,7 +214,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
   <tr>
     <td>Campo de texto</td>
     <td>Selecionar todo o texto no campo selecionado</td>
-    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Janela pop-up</td>
@@ -238,7 +238,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
   <tr>
     <td>Visualização da carga</td>
     <td>Selecionar a carga</td>
-    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
 </table>
 
