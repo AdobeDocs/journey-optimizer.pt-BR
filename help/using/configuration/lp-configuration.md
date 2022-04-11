@@ -4,9 +4,9 @@ description: Saiba como configurar seu ambiente para criar e usar landing pages 
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '879'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,13 @@ ht-degree: 2%
 >id="ajo_admin_config_lp_subdomain"
 >title="Criar uma predefinição de página de aterrissagem"
 >abstract="Para criar uma predefinição de página de aterrissagem, verifique se você configurou anteriormente pelo menos um subdomínio de página de aterrissagem para escolher na lista Nome de subdomínio ."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Criar predefinições de página de aterrissagem"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_lp"
+>title="Delegar um subdomínio de página de aterrissagem"
+>abstract="Você deve configurar um subdomínio para usar nas landing pages, pois ele precisará para criar uma predefinição de landing page. Você pode usar um subdomínio já delegado ao Adobe ou configurar um novo subdomínio."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Criar predefinições de página de aterrissagem"
 
 Para poder [criar predefinições de página de aterrissagem](#lp-create-preset), você deve configurar os subdomínios que serão usados para as landing pages.
 
