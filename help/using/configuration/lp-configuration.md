@@ -4,9 +4,9 @@ description: Saiba como configurar seu ambiente para criar e usar landing pages 
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
@@ -78,6 +78,11 @@ Para usar um subdomínio que já tenha sido delegado ao Adobe, siga as etapas ab
 1. Depois que as verificações são bem-sucedidas, o subdomínio recebe o **[!UICONTROL Success]** status. Ele está pronto para ser usado para criar predefinições de página de aterrissagem.
 
 ### Configurar um novo subdomínio {#lp-configure-new-subdomain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_lp_subdomain_dns"
+>title="Gerar o registro DNS correspondente"
+>abstract="Para configurar um novo subdomínio de página de aterrissagem, você precisa copiar as informações do servidor de nomes do Adobe exibidas na interface do Journey Optimizer e colá-las em sua solução de hospedagem de domínio para gerar o registro DNS correspondente. Depois que as verificações forem bem-sucedidas, o subdomínio estará pronto para ser usado para criar predefinições de páginas de aterrissagem."
 
 Para configurar um novo subdomínio, siga as etapas abaixo.
 

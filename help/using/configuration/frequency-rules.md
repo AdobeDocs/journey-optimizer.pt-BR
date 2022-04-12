@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 2%
+source-wordcount: '762'
+ht-degree: 1%
 
 ---
 
@@ -31,9 +31,11 @@ Para fazer isso, você pode usar uma regra de frequência que limitará o númer
 
 As regras estão disponíveis na **[!UICONTROL Administration]** > **[!UICONTROL Rules]** menu. Todas as regras são listadas, classificadas por data de modificação.
 
-![](assets/message-rules-access.png)
+>[!NOTE]
+>
+>Para acessar, criar, editar ou excluir regras de frequência de mensagem, você deve ter a variável [Gerenciar regras de frequência](../administration/high-low-permissions.md#manage-frequency-rules) permissão.
 
-<!--To access, create, edit or delete message frequency rules, you must have the message configuration permission. [Learn more](../administration/high-low-permissions.md#administration-permissions)-->
+![](assets/message-rules-access.png)
 
 Use o ícone de filtro para filtrar na categoria, no status e/ou no canal. Você também pode pesquisar no rótulo da mensagem.
 
@@ -134,6 +136,10 @@ Todas as regras de frequência que correspondem à categoria e aos canais seleci
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 Você pode visualizar o número de perfis excluídos do delivery na [Exibições ao vivo e globais](../reports/message-monitoring.md)e no [relatório ao vivo por email](../reports/email-live-report.md), onde as regras de frequência serão listadas como um possível motivo para os usuários excluídos do delivery.
+
+>[!NOTE]
+>
+>Várias regras podem ser aplicadas ao mesmo canal, mas uma vez que o limite inferior é atingido, o perfil será excluído dos próximos deliveries.
 
 ## Exemplo: combinar várias regras {#frequency-rule-example}
 

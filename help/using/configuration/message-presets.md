@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2266'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Com [!DNL Journey Optimizer], é possível configurar predefinições de mensage
 
 >[!CAUTION]
 >
-> * A configuração de predefinições de mensagem está restrita a [Administradores do Jornada](../administration/ootb-product-profiles.md#journey-administrator). Para criar, editar e excluir predefinições de mensagem, você deve ter a variável [Gerenciar predefinições de mensagens](../administration/high-low-permissions.md#manage-message-presets).
+> * Para criar, editar e excluir predefinições de mensagem, você deve ter a variável [Gerenciar predefinições de mensagens](../administration/high-low-permissions.md#manage-message-presets).
 >
 > * Você deve executar [Configuração de email](#configure-email-settings) e [Configuração por push](../configuration/push-configuration.md) etapas antes de criar predefinições de mensagem.
 
@@ -29,6 +29,11 @@ Depois que as predefinições de mensagem forem configuradas, você poderá sele
 ➡️ [Saiba como criar e usar predefinições de email neste vídeo](#video-presets)
 
 ## Criar uma predefinição de mensagem {#create-message-preset}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets"
+>title="Detalhes e configurações da predefinição de mensagens"
+>abstract="Ao configurar uma predefinição de mensagem, é possível selecionar o canal ao qual ela se aplica e definir todos os parâmetros técnicos necessários para suas mensagens, como tipo de email, subdomínio a ser usado, nome do remetente, aplicativos móveis etc."
 
 Para criar uma predefinição de mensagem, siga estas etapas:
 
@@ -97,11 +102,11 @@ No **TIPO DE EMAIL** selecione o tipo de mensagem que será enviada com a predef
 
 * Choose **Transacional** para mensagens não comerciais, como confirmação de pedido, notificações de redefinição de senha ou informações de delivery, por exemplo.
 
-When [criação de uma mensagem](../messages/get-started-content.md#create-new-message), é necessário escolher uma predefinição de mensagem válida para a categoria e o(s) canal(s) selecionados.
-
 >[!CAUTION]
 >
 >**Transacional** as mensagens podem ser enviadas aos perfis que cancelaram a assinatura das comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
+
+When [criação de uma mensagem](../messages/get-started-content.md#create-new-message), você deve escolher uma predefinição de mensagem válida que corresponda à categoria selecionada para a mensagem.
 
 ### Subdomínio e pool IP {#subdomains-and-ip-pools}
 
@@ -110,6 +115,10 @@ No **DETALHES DO SUBDOMÍNIO E DO POOL IP** na seção , você deve:
 1. Selecione o subdomínio a ser usado para enviar os emails. [Saiba mais](about-subdomain-delegation.md)
 
 1. Selecione o pool de IP a ser associado à predefinição. [Saiba mais](ip-pools.md)
+
+>[!NOTE]
+>
+>Para ambientes não relacionados à produção, o Adobe não cria subdomínios de teste prontos para uso nem concede acesso a um pool IP de envio compartilhado. Você precisa [delegar seus próprios subdomínios](delegate-subdomain.md) e usar os IPs do pool atribuído à sua organização.
 
 ### List-Unsubscribe {#list-unsubscribe}
 
@@ -212,6 +221,8 @@ Você deve inserir um valor inteiro (em horas ou minutos) dentro do seguinte int
 * Para emails de marketing, o período mínimo de nova tentativa é de 6 horas.
 * Para emails transacionais, o período mínimo de nova tentativa é de 10 minutos.
 * Para ambos os tipos de email, o período máximo de tentativas é de 84 horas (ou 5040 minutos).
+
+Saiba mais sobre tentativas em [esta seção](retries.md).
 
 ## Definir configurações de push {#configure-push-settings}
 

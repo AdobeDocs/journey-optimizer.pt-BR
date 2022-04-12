@@ -6,20 +6,25 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 0%
+source-wordcount: '660'
+ht-degree: 1%
 
 ---
 
 # Registros PTR {#ptr-records}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ptr_record"
+>title="Registros PTR de subdomínios"
+>abstract="Um registro de ponteiro (PTR) é um tipo de registro DNS que fornece o nome de domínio vinculado a um endereço IP, o que ajuda os servidores de email de recebimento a verificar os endereços IP dos remetentes."
+
 ## Sobre registros PTR {#about-ptr-records}
 
 Um registro de ponteiro (PTR) é um tipo de registro de Sistema de Nome de Domínio (DNS) que fornece o nome de domínio vinculado a um endereço IP.
 
-Com registros PTR, os servidores de email de recebimento podem verificar a autenticidade do envio dos servidores de email identificando se seus endereços IP correspondem aos nomes com os quais os servidores se conectam.
+Com registros PTR, os servidores de email de recebimento podem verificar a autenticidade do envio de servidores de email identificando se seus endereços IP correspondem aos nomes aos quais os servidores se conectam.
 
 ## Acesse os registros PTR dos subdomínios {#access-ptr-records}
 
@@ -38,6 +43,10 @@ Você pode abrir um registro PTR na lista para exibir o nome do subdomínio asso
 ## Editar um registro PTR {#edit-ptr-record}
 
 Você pode modificar um registro PTR para editar o subdomínio associado a um endereço IP.
+
+>[!CAUTION]
+>
+>Continue com muito cuidado ao editar registros de PTR. Em caso de dúvidas, entre em contato com um especialista em capacidade de delivery.<!--why?-->
 
 >[!NOTE]
 >

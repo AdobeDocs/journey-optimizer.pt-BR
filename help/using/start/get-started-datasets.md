@@ -4,9 +4,9 @@ description: Saiba como usar conjuntos de dados do Adobe Experience Platform no 
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '260'
 ht-degree: 26%
 
 ---
@@ -21,7 +21,7 @@ Adicionar dados ao Adobe Experience Platform é a base para a criação de um Pe
 
 ➡️ [Saiba como criar e configurar um conjunto de dados neste vídeo](#video-dataset)
 
-O **Conjuntos de dados** na área de trabalho do [!DNL Adobe Journey Optimizer] a interface do usuário permite explorar dados e criar conjuntos de dados.
+O **Conjuntos de dados** espaço de trabalho em [!DNL Adobe Journey Optimizer] a interface do usuário permite explorar dados e criar conjuntos de dados.
 
 ![](assets/datasets-home.png)
 

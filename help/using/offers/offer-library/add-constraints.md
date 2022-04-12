@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1553'
 ht-degree: 3%
 
 ---
@@ -133,7 +133,7 @@ Para definir a limitação, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >O número deve ser maior que 0.
+   >O número deve ser um número inteiro maior que 0.
 
 1. Especifique se deseja que o limite seja aplicado em todos os usuários ou em um perfil específico:
 
@@ -147,15 +147,15 @@ Para definir a limitação, siga as etapas abaixo.
 
       Por exemplo, se você for um banco com uma oferta de &quot;Cartão de crédito Platinum&quot;, não deseja que essa oferta seja exibida mais de 5 vezes por perfil. Na verdade, você acredita que, se o usuário tiver visto a oferta 5 vezes e não tiver agido, ele terá uma chance maior de agir na próxima melhor oferta.
 
-1. Se você tiver definido vários [representações](#representations) para sua oferta, especifique se deseja aplicar o limite a **[!UICONTROL All placements]** ou **[!UICONTROL Per placement]**.
+1. Se você tiver definido vários [representações](#representations) para sua oferta, especifique se deseja aplicar o limite **[!UICONTROL Across all placements]** ou **[!UICONTROL For each placement]**.
 
    ![](../assets/offer-capping-placement.png)
 
-   * **[!UICONTROL All placements]**: as contagens de limitação totalizarão todas as decisões nas disposições associadas à oferta.
+   * **[!UICONTROL Across all placements]**: as contagens de limitação totalizarão todas as decisões nas disposições associadas à oferta.
 
       Por exemplo, se uma oferta tiver uma **Email** posicionamento e uma **Web** posicionamento e você define o limite em **2 por perfil em todas as disposições**, cada perfil pode receber a oferta até 2 vezes no total, independentemente da combinação de disposições.
 
-   * **[!UICONTROL Per placement]**: as contagens de limitação aplicam as contagens de decisão para cada disposição separadamente.
+   * **[!UICONTROL For each placement]**: as contagens de limitação aplicam as contagens de decisão para cada disposição separadamente.
 
       Por exemplo, se uma oferta tiver uma **Email** posicionamento e uma **Web** posicionamento e você define o limite em **2 por perfil para cada inserção**, cada perfil poderá receber até 2 vezes a oferta para o posicionamento do email e 2 vezes mais para a disposição da Web.
 
