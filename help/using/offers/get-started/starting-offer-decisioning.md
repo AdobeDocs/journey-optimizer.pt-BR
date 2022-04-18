@@ -1,15 +1,15 @@
 ---
 title: Introdução ao Gerenciamento de decisão
-description: Introdução ao Gerenciamento de decisão. Saiba mais sobre a arquitetura, as ofertas e as decisões, bem como casos de uso comuns que podem ser executados
+description: Saiba como a Adobe Journey Optimizer pode ajudar você a enviar aos clientes a oferta certa na hora certa
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: ht
-source-wordcount: '907'
-ht-degree: 100%
+source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 93%
 
 ---
 
@@ -17,9 +17,7 @@ ht-degree: 100%
 
 Use o [!DNL Journey Optimizer] para fornecer a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa. Depois de projetado, direcione os públicos com ofertas personalizadas.
 
->[!NOTE]
->
->Se você for um usuário da [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target=&quot;_blank&quot;} aproveitando o serviço de aplicativos **Offer Decisioning**, todos os recursos de Gestão de decisões descritos nesta seção também se aplicam a você.
+O Offer Decisioning facilita a personalização com uma biblioteca central de ofertas de marketing e um mecanismo de decisão que aplica regras e restrições a perfis ricos em tempo real criados pela Adobe Experience Platform para ajudar você a enviar aos clientes a oferta certa na hora certa.
 
 A capacidade de gerenciamento de decisão consiste em dois componentes principais:
 
@@ -35,6 +33,11 @@ Os benefícios incluem:
 * Controle a quantidade de vezes que uma oferta é exibida em campanhas e clientes.
 
 ➡️ [Saiba mais sobre a Gestão de decisões nesses vídeos](#video)
+
+
+>[!NOTE]
+>
+>Se você for um usuário da [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target=&quot;_blank&quot;} aproveitando o serviço de aplicativos **Offer Decisioning**, todos os recursos de Gestão de decisões descritos nesta seção também se aplicam a você.
 
 ## Sobre ofertas e decisões {#about-offers-and-decisions}
 
