@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 74%
@@ -16,7 +16,7 @@ ht-degree: 74%
 # Sobre fontes de dados {#about-data-sources}
 
 >[!CONTEXTUALHELP]
->id="jo_datasources"
+>id="ajo_journey_data_source_list"
 >title="Sobre fontes de dados"
 >abstract="A configuração da fonte de dados é sempre executada por um usuário técnico. A configuração da fonte de dados permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas para: definição de condição, parâmetro e dados de personalização em ações, definição de espera personalizada e definição de fuso horário personalizado."
 

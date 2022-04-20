@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1793'
 ht-degree: 8%
 
 ---
@@ -36,6 +36,11 @@ Para enviar mensagens com o jornada, a seguinte configuração é necessária:
    ![](assets/create-content-push.png)
 
 ## Criar a jornada{#jo-build}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="Crie sua jornada"
+>abstract="Essa tela exibe a lista de jornadas criadas anteriormente. Abra uma jornada ou clique em &quot;Criar jornada&quot; e combine as diferentes atividades de evento, orquestração e ação para criar os cenários de vários canais em várias etapas."
 
 Essa etapa é executada pela **usuário empresarial**. É aqui que você cria suas jornadas. Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas.
 
