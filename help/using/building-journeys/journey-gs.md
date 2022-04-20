@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
+source-git-commit: a68cfae875b18266417e115d17c73cda7061475d
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 8%
@@ -56,7 +56,7 @@ Estas são as principais etapas para enviar mensagens por meio do jornada:
 
    ![](assets/jo-properties.png)
 
-1. Comece arrastando e soltando um evento ou um **Ler segmento** atividade da paleta na tela. Para saber mais sobre design de jornada, consulte [esta seção](using-the-journey-designer.md).
+1. Comece arrastando e soltando um evento ou um **Ler segmento** atividade da paleta na tela. To learn more about journey design, refer to [this section](using-the-journey-designer.md).
 
    ![](assets/read-segment.png)
 
@@ -162,9 +162,9 @@ A pessoa pode então entrar novamente na jornada se a reentrada for permitida. C
 
 Uma jornada pode ser fechada pelos seguintes motivos:
 
-* A jornada é fechada manualmente por meio do **[!UICONTROL Close to new entrances]** botão.
+* The journey is closed manually via the **[!UICONTROL Close to new entrances]** button.
 * Uma jornada baseada em segmento que terminou de ser executada.
-* Após a última ocorrência de uma jornada recorrente baseada em segmentos.
+* After the last occurrence of a recurring segment based journey.
 
 Quando uma jornada for fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Closed]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. Pessoas que já estão na jornada vão terminar a jornada normalmente. Após o tempo limite global padrão de 30 dias, a jornada será alternada para a variável **Concluído** status. Veja isso [seção](../building-journeys/journey-gs.md#global_timeout).
 
@@ -172,7 +172,7 @@ Caso precise parar o progresso de todos os indivíduos na jornada, você pode pa
 
 Veja como fechar ou parar uma jornada manualmente:
 
-O **[!UICONTROL Stop]** e **[!UICONTROL Close to new entrances]** as opções permitem terminar **live** jornadas. O fechamento de uma jornada envolve **que a chegada de novos clientes à jornada está bloqueada** e que os clientes que já entraram na jornada podem experimentá-la até o fim. Essa é a maneira mais recomendada de encerrar uma jornada, pois oferece a melhor experiência para os clientes. Parar uma jornada envolve que as pessoas que já entraram em uma jornada são todas interrompidas em seu progresso. A jornada está basicamente desligada.
+O **[!UICONTROL Stop]** e **[!UICONTROL Close to new entrances]** as opções permitem terminar **live** jornadas. O fechamento de uma jornada envolve **que a chegada de novos clientes à jornada está bloqueada** e que os clientes que já entraram na jornada podem experimentá-la até o fim. This is the most recommended way to put an end to a journey as it offers the best experience for customers. Parar uma jornada envolve que as pessoas que já entraram em uma jornada são todas interrompidas em seu progresso. A jornada está basicamente desligada.
 
 >[!NOTE]
 >
@@ -184,9 +184,9 @@ Você pode fechar uma jornada manualmente para garantir que os clientes que já 
 
 Quando fechada, uma jornada terá o status **[!UICONTROL Closed]**. Após o tempo limite global padrão de 30 dias, a jornada será alternada para a variável **Concluído** status. Veja isso [seção](../building-journeys/journey-gs.md#global_timeout).
 
-Uma versão de jornada fechada não pode ser reiniciada ou excluída. Você pode criar uma nova versão ou duplicá-la. Somente jornadas concluídas podem ser excluídas.
+Uma versão de jornada fechada não pode ser reiniciada ou excluída. You can create a new version of it or duplicate it. Only finished journeys can be deleted.
 
-Para fechar uma jornada da lista de jornadas, clique no botão **[!UICONTROL Ellipsis]** botão localizado à direita do nome da jornada e selecione **[!UICONTROL Close to new entrances]**.
+To close a journey from the list of journeys, click the **[!UICONTROL Ellipsis]** button that is located to the right of the journey name and select **[!UICONTROL Close to new entrances]**.
 
 ![](assets/journey-finish-quick-action.png)
 
