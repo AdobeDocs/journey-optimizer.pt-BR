@@ -5,9 +5,9 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: acd91848e24d5ca5340f6d0e22fca8b88523aed3
+source-git-commit: ecd7b3095bf825742cad44e20d68bb3c787bcb6b
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1049'
 ht-degree: 2%
 
 ---
@@ -42,11 +42,11 @@ O SDK não combinou essas bibliotecas e é uma nova implementação desde o iní
 
 1. Certifique-se de que sua organização tenha as permissões apropriadas para usar o SDK e tenha configurado as permissões corretamente.
 
-<!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
+   <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-2. [Configurar o fluxo de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) na guia Coleta de dados em sua conta na Adobe Experience Cloud.
+1. [Configurar o fluxo de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) na guia Coleta de dados em sua conta na Adobe Experience Cloud.
 
-3. Instale o SDK. Existem vários métodos para isso, que são abordados no [Instalar a página do SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). Esta página continuará com cada método de implementação diferente.
+1. Instale o SDK. Existem vários métodos para isso, que são abordados no [Instalar a página do SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). Esta página continuará com cada método de implementação diferente.
 
 Para usar o SDK, você deve ter um [schema](../../../start/get-started-schemas.md) e [datastream](../../../start/get-started-datasets.md) definido.
 
@@ -64,21 +64,21 @@ Essa opção é mais fácil de usar para pessoas que podem ter menos experiênci
 
 1. [Criar uma propriedade de tag](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en)
 
-2. [Adicionar o código incorporado](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
+1. [Adicionar o código incorporado](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
-3. Instale e configure a extensão SDK da Web da plataforma com o Datastream criado selecionando a configuração na lista suspensa &quot;Datastream&quot;. Consulte a documentação em [extensões](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. Instale e configure a extensão SDK da Web da plataforma com o Datastream criado selecionando a configuração na lista suspensa &quot;Datastream&quot;. Consulte a documentação em [extensões](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
 
    ![SDK da Web da Adobe Experience Platform](../../assets/installed-catalog-web-sdk.png)
 
    ![Configurar extensão](../../assets/configure-sdk-extension.png)
 
-4. Crie o [Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). No mínimo, você deve criar um Mapa de identidade do SDK da Web da plataforma e um elemento de dados do Objeto XDM do SDK da Web da plataforma.
+1. Crie o [Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). No mínimo, você deve criar um Mapa de identidade do SDK da Web da plataforma e um elemento de dados do Objeto XDM do SDK da Web da plataforma.
 
    ![Mapa de identidade](../../assets/sdk-identity-map.png)
 
    ![Objeto XDM](../../assets/xdm-object.png)
 
-5. Crie seu [Regras](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
+1. Crie seu [Regras](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
 
    i. Adicione uma ação Enviar evento do SDK da Web da plataforma e adicione os escopos de decisão relevantes à configuração dessa ação
 
@@ -86,7 +86,7 @@ Essa opção é mais fácil de usar para pessoas que podem ter menos experiênci
 
    ![Solicitar oferta](../../assets/rule-request-offer.png)
 
-6. [Criar e publicar](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) uma biblioteca contendo todas as regras, elementos de dados e extensões relevantes que você configurou
+1. [Criar e publicar](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) uma biblioteca contendo todas as regras, elementos de dados e extensões relevantes que você configurou
 
 ## Opção 2: implementar manualmente usando a versão independente pré-criada
 
@@ -125,7 +125,7 @@ javascript
     });
 ```
 
-Instale a extensão do Chrome do Debugger para usar com a depuração. Isso pode ser encontrado aqui: https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob
+Instale a extensão do Chrome do Debugger para usar com a depuração. Isso pode ser encontrado aqui: <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
 
 Em seguida, faça logon em sua conta no depurador da . Em seguida, acesse Logs e verifique se você está conectado ao espaço de trabalho correto. Agora, copie a versão codificada da base64 do escopo de decisão da sua oferta.
 
