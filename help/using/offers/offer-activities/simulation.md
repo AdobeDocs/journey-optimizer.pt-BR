@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Isso permite testar e refinar várias versões das ofertas sem afetar os recipie
 
 >[!NOTE]
 >
->Esse recurso simula uma única solicitação para o [!DNL Decisions] API. Saiba mais sobre [Fornecer ofertas usando a API de decisões](../api-reference/decisions-api/deliver-offers.md).
+>Esse recurso simula uma única solicitação para o [!DNL Decisioning] API. Saiba mais sobre [Entregar ofertas usando a API do Decisioning](../api-reference/offer-delivery-api/decisioning-api.md).
 
 Para acessar esse recurso, selecione o **[!UICONTROL Simulation]** na guia do **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** menu.
 
@@ -130,7 +130,7 @@ Para editar as configurações padrão das simulações, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Por padrão, todos os sinalizadores de Desduplicação são ativados para simulação, o que significa que o mecanismo de decisão permite duplicatas e, portanto, pode fazer a mesma apresentação em várias decisões/disposições. Saiba mais sobre o [!DNL Decisions] Propriedades da solicitação de API em [esta seção](../api-reference/decisions-api/deliver-offers.md).
+   >Por padrão, todos os sinalizadores de Desduplicação são ativados para simulação, o que significa que o mecanismo de decisão permite duplicatas e, portanto, pode fazer a mesma apresentação em várias decisões/disposições. Saiba mais sobre o [!DNL Decisioning] Propriedades da solicitação de API em [esta seção](../api-reference/offer-delivery-api/decisioning-api.md).
 
 1. No **[!UICONTROL Response format]** , você pode optar por incluir metadados na visualização de código. Marque a opção correspondente e selecione os metadados de sua escolha. Eles serão exibidos nas cargas de solicitação e resposta ao selecionar **[!UICONTROL View code]**. Saiba mais na [Exibir resultados da simulação](#simulation-results) seção.
 

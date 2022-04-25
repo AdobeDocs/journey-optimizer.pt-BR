@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 10%
 
 ---
@@ -41,7 +41,7 @@ A sintaxe diferencia maiúsculas e minúsculas.
 
 As palavras **true**, **false**, **null** e **indefinido** são permitidas somente na primeira parte de uma expressão de caminho.
 
-Em Handlebars, os valores retornados pela {{expression}} são **HTML-escaped**. Se a expressão contiver `&`, a saída HTML-escaped retornada é gerada como `&amp;`. Se você não quiser que o Handlebars escape um valor, use o &quot;traço triplo&quot;.
+Em Handlebars, os valores retornados pela variável {{expression}} são **HTML-escaped**. Se a expressão contiver `&`, a saída HTML-escaped retornada é gerada como `&amp;`. Se você não quiser que o Handlebars escape um valor, use o &quot;traço triplo&quot;.
 
 ## Perfil
 
@@ -92,7 +92,7 @@ em que:
 * `Placement Id` e `Activity Id` são identificadores de disposição e atividade
 * `Attributes` são atributos específicos da oferta que dependem do tipo de oferta. Exemplo: `deliveryUrl` para imagens
 
-Para obter mais informações sobre a API de decisões e a Representação de ofertas, consulte [esta página](../../using/offers/api-reference/decisions-api/deliver-offers.md)
+Para obter mais informações sobre a API de decisões e a Representação de ofertas, consulte [esta página](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 Todas as referências são validadas em relação ao Esquema de ofertas com um mecanismo de validação descrito em [esta página](personalization-validation.md)
 
@@ -143,7 +143,7 @@ Blocos são expressões com abertura de bloco ({{# }}) e fechando ({{/}}).
 >
 >O uso de **xEvent** não está disponível em expressões de personalização. Qualquer referência ao xEvent resultará em falhas de validação.
 
-## URL Personalization{#perso-urls}
+## Personalização de URL{#perso-urls}
 
 Os URLs personalizados levam os recipients para páginas específicas de um site ou para um microsite personalizado, dependendo dos atributos do perfil. No Adobe Journey Optimizer, é possível adicionar personalização a URLs no conteúdo da mensagem. A personalização de URLs pode ser aplicada ao texto e às imagens, e usar dados do perfil ou dados contextuais.
 
