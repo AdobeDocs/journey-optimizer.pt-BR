@@ -3,9 +3,9 @@ title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1113'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Uma nova página de introdução aos modelos de IA foi adicionada à seção **Offer Decisioning**, incluindo uma descrição completa do [modelo de otimização automática](../offers/offer-library/ai-ranking.md#auto-optimization), o algoritmo que ele utiliza, entre outros detalhes técnicos. [Saiba mais](../offers/offer-library/ai-ranking.md)
 * A página de criação do perfil de teste foi movida para a seção **Segmento, perfis e identidade**. [Saiba mais](../segment/creating-test-profiles.md)
 * Adição de um exemplo sobre como adicionar uma expressão como valor padrão no editor de expressão. [Saiba mais](../building-journeys/expression/field-references.md#default-value)
-* O **Criar ofertas personalizadas** foi reorganizada para melhorar a legibilidade. [Saiba mais](../offers/offer-library/creating-personalized-offers.md)
+* A seção **Criar ofertas personalizadas** foi reorganizada para melhorar a leitura. [Saiba mais](../offers/offer-library/creating-personalized-offers.md)
 * Uma nova seção foi adicionada para descrever os impactos que a alteração das datas de início e/ou término de uma oferta pode ter no limite de frequência dessa oferta. [Saiba mais](../offers/offer-library/add-constraints.md#capping-change-date)
-* O **Alterar os endereços de email principais** foi atualizada para refletir as alterações na interface do usuário. [Saiba mais](../configuration/primary-email-addresses.md)
+* A seção **Alterar os endereços de email principais** foi atualizada para refletir as alterações na interface. [Saiba mais](../configuration/primary-email-addresses.md)
 
 ## Fevereiro de 2022 {#feb-2022}
 
