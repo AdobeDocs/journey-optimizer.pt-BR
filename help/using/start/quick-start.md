@@ -1,15 +1,15 @@
 ---
 title: Início rápido
-description: Como profissional de marketing, administrador ou engenheiro de dados, aprenda e descubra o poder da Adobe Journey Optimizer com orientação passo a passo
+description: Como profissional de marketing, administrador ou engenheiro de dados, aprenda e descubra o potencial do Adobe Journey Optimizer por meio de uma orientação passo a passo
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,14 +23,14 @@ Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas e
 
 Para saber e descobrir o poder do Adobe Journey Optimizer com orientação passo a passo, selecione o seu perfil.
 
-* Sou um **Administrador**
+* Sou um **administrador**
 
    Prepare o seu ambiente, conceda acesso e defina as configurações. [Saiba mais](path/administrator.md)
 
-* Eu sou um **Engenheiro de dados**
+* Sou um **engenheiro de dados**
 
-   Importe perfis, crie públicos-alvo, crie esquemas e conjuntos de dados. [Saiba mais](path/data-engineer.md)
+   Importe perfis, crie públicos-alvo, esquemas e conjuntos de dados. [Saiba mais](path/data-engineer.md)
 
-* Eu sou um **Profissional de marketing**
+* Sou um **profissional de marketing**
 
    Projete mensagens, adicione ofertas e ativos e crie jornadas do cliente. [Saiba mais](path/marketer.md)
