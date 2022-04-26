@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Portanto, você sempre deve incluir um **link para cancelar a inscrição** em c
 
 >[!NOTE]
 >
->As mensagens de email de tipo de marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definido na variável [nível predefinido de mensagem](../configuration/message-presets.md#email-type) e quando [criação da mensagem](get-started-content.md#create-new-message).
+>As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definida no [nível da predefinição de mensagem](../configuration/message-presets.md#email-type) e ao [criar a mensagem](get-started-content.md#create-new-message).
 
 ### Opção de não participação externa {#opt-out-external-lp}
 
@@ -75,9 +75,9 @@ Primeiro, é necessário adicionar um link de cancelamento de inscrição em uma
 
 #### Implementar uma chamada de API para opção de não participação {#opt-out-api}
 
-Para que seus recipients optem ao enviar sua escolha a partir da landing page, você deve implementar uma **Chamada da API de assinatura** through [Desenvolvedor de Adobe](https://developer.adobe.com/){target=&quot;_blank&quot;} para atualizar as preferências dos perfis correspondentes.
+Para efetivar a opção de não participação dos seus recipients ao enviarem suas escolhas a partir da página de aterrissagem, é preciso implementar uma **chamada de API de inscrição** por meio do [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;} para atualizar as preferências dos perfis correspondentes.
 
-Essa chamada de POST é a seguinte:
+Essa chamada POST é a seguinte:
 
 Endpoint: platform.adobe.io/journey/imp/consent/preferences
 
@@ -113,7 +113,7 @@ Corpo da solicitação:
 }
 ```
 
-[!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio do [Desenvolvedor de Adobe](https://developer.adobe.com){target=&quot;_blank&quot;} Chamada da API.
+O [!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio da chamada de API do [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}.
 
 #### Enviar a mensagem com link de cancelamento de inscrição {#send-message-unsubscribe-link}
 
@@ -125,7 +125,7 @@ Depois de configurar o link de cancelamento de inscrição para a página de ate
 
    ![](assets/opt-out-lp-example.png)
 
-1. Se o recipient enviar o formulário (aqui, pressionando o **Cancelar inscrição** na página de aterrissagem), os dados do perfil são atualizados por meio do [Chamada de API](#opt-out-api).
+1. Se o recipient enviar o formulário (aqui, pressionando o botão **Cancelar inscrição** na página de aterrissagem), os dados do perfil serão atualizados por meio da [chamada de API](#opt-out-api).
 
 1. O recipient que recusou a inscrição é então redirecionado para uma tela de mensagem de confirmação indicando que a recusa foi bem-sucedida.
 
@@ -203,7 +203,7 @@ Dependendo do cliente de email, clicar no link de cancelamento de inscrição no
    >
    >Se você não adicionar um link de recusa de um clique no conteúdo da mensagem, nenhuma página de aterrissagem será exibida.
 
-* O perfil correspondente é cancelado imediatamente e essa escolha é atualizada na Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+* O perfil correspondente é cancelado imediatamente e essa escolha é atualizada na Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target=&quot;_blank&quot;}.
 
 ## Encaminhar o gerenciamento de recusa {#push-opt-out-management}
 
