@@ -1,15 +1,15 @@
 ---
-title: Introdução ao Gerenciamento de decisão
-description: Saiba como a Adobe Journey Optimizer pode ajudar você a enviar aos clientes a oferta certa na hora certa
+title: Introdução à Gestão de decisões
+description: Saiba como o Adobe Journey Optimizer pode ajudar você a enviar aos clientes a oferta certa na hora certa
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '944'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 Use o [!DNL Journey Optimizer] para fornecer a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa. Depois de projetado, direcione os públicos com ofertas personalizadas.
 
-O Offer Decisioning facilita a personalização com uma biblioteca central de ofertas de marketing e um mecanismo de decisão que aplica regras e restrições a perfis ricos em tempo real criados pela Adobe Experience Platform para ajudar você a enviar aos clientes a oferta certa na hora certa.
+O Offer Decisioning facilita a personalização com uma biblioteca central de ofertas de marketing e um mecanismo de decisão que aplica regras e restrições a perfis em tempo real avançados criados pela Adobe Experience Platform para ajudar você a enviar aos clientes a oferta certa na hora certa.
 
 A capacidade de gerenciamento de decisão consiste em dois componentes principais:
 
