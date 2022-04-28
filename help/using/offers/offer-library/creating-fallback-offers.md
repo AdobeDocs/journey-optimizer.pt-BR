@@ -5,10 +5,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 3%
+source-wordcount: '261'
+ht-degree: 4%
 
 ---
 
@@ -56,6 +56,3 @@ Para criar uma oferta de fallback, siga estas etapas:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 
->[!NOTE]
->
->Este vídeo se aplica ao serviço de aplicativo do Offer Decisioning criado no Adobe Experience Platform. No entanto, fornece orientação genérica para usar a Oferta no contexto do Journey Optimizer.

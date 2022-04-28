@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '252'
 ht-degree: 56%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 56%
 >title="Sobre ações"
 >abstract="É aqui que você define a conexão com o sistema que enviará mensagens. As ações definidas aqui estarão disponíveis na paleta esquerda da sua jornada, na categoria Ação."
 
-As ações são conexões através das quais você fornece experiências personalizadas em tempo real para clientes, como notificações por push, email, SMS ou qualquer outro meio de engajamento digital usado em sua empresa.
+As ações são conexões através das quais você fornece experiências personalizadas em tempo real para clientes, como notificações por push, email,  ou qualquer outro meio de engajamento digital usado em sua empresa.
 
 ➡️ [Descubra este recurso no vídeo](#video)
 

@@ -2,16 +2,26 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: ht
-source-wordcount: '1113'
-ht-degree: 100%
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+workflow-type: tm+mt
+source-wordcount: '1254'
+ht-degree: 89%
 
 ---
 
 # Atualizações de documentação {#latest-updates}
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
+
+## Abril de 2022 {#april-2022}
+
+* Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 22 de abril foi detalhada na documentação. [Leia mais](release-notes.md)
+* O **reações** a página de documentação do evento foi atualizada. [Leia mais](../building-journeys/reaction-events.md)
+* Os vídeos dos recursos de Gerenciamento de decisões foram atualizados para refletir a interface do usuário do Journey Optimizer. [Leia mais](../offers/get-started/starting-offer-decisioning.md)
+* O **Introdução aos conjuntos de dados** A seção foi aprimorada para detalhar como acessar e criar conjuntos de dados. [Leia mais](../start/get-started-datasets.md)
+* Links para guias de ajuda e notas de versão do produto foram adicionados ao **Documentação do Adobe Journey Optimizer** página inicial. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer.html)
+* O **Criar predefinições de mensagem** A seção agora especifica que você não pode continuar com a criação predefinida enquanto o pool de IP selecionado estiver na edição (**[!UICONTROL Processing]** e nunca foi associado ao subdomínio selecionado. [Leia mais](../configuration/message-presets.md#subdomains-and-ip-pools)
+* As predefinições de mensagem **Rastreamento de URL** foi atualizada para refletir pequenas alterações na interface do usuário. [Leia mais](../configuration/message-presets.md#url-tracking)
 
 ## Março de 2022 {#march-2022}
 

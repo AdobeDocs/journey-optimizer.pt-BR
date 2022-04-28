@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 5%
+source-wordcount: '160'
+ht-degree: 6%
 
 ---
 
@@ -45,7 +45,3 @@ Para criar uma tag, siga estas etapas:
 ## Vídeo tutorial {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
-
->[!NOTE]
->
->Este vídeo se aplica ao serviço de aplicativo do Offer Decisioning criado no Adobe Experience Platform. No entanto, fornece orientação genérica para usar a Oferta no contexto do Journey Optimizer.

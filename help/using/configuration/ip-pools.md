@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +50,7 @@ Para criar um pool IP, siga estas etapas:
    >
    >Todos os endereços IP provisionados com sua instância estão disponíveis na lista.
 
-O pool IP agora é criado e exibido na lista. Você pode selecioná-la para acessar suas propriedades e exibir a predefinição de mensagem associada. Para obter mais informações sobre como associar uma predefinição de mensagem a um pool de IP, consulte [esta seção](message-presets.md)).
+O pool IP agora é criado e exibido na lista. Você pode selecioná-la para acessar suas propriedades e exibir a predefinição de mensagem associada. Para obter mais informações sobre como associar uma predefinição de mensagem a um pool de IP, consulte [esta seção](message-presets.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -80,6 +80,10 @@ A atualização entra em vigor imediatamente ou de forma assíncrona, dependendo
 
 * Se o pool IP for **not** selecionada em uma predefinição de mensagem, a atualização é instantânea (**[!UICONTROL Success]** status).
 * Se o pool IP **é** selecionada em uma predefinição de mensagem, a atualização pode demorar de 7 a 10 dias úteis (**[!UICONTROL Processing]** status).
+
+>[!NOTE]
+>
+>When [criação de uma predefinição de mensagem](message-presets.md#create-message-preset), se você selecionar um pool IP sob edição (**[!UICONTROL Processing]** e nunca tiver sido associado ao subdomínio selecionado para essa predefinição, você não poderá continuar com a criação predefinida. [Saiba mais](message-presets.md#subdomains-and-ip-pools)
 
 Para verificar o status de atualização do pool de IP, clique no botão **[!UICONTROL More actions]** e selecione **[!UICONTROL Recent updates]**.
 

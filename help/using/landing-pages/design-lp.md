@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,12 @@ Para definir um conteúdo específico que permitirá aos usuários selecionar e 
 1. Defina se essa caixa de seleção deve ser de opt in ou out de usuários: eles concordam em receber comunicações ou pedem para não mais ser contatados?
 
    ![](assets/lp_designer-form-update.png)
+
+   Selecione entre as três opções abaixo:
+
+   * **[!UICONTROL Opt in if checked]**: os usuários precisam marcar a caixa para consentir (aceitar).
+   * **[!UICONTROL Opt out if checked]**: os usuários precisam marcar a caixa para remover seu consentimento (opt out).
+   * **[!UICONTROL Opt in if checked, opt out if unchecked]**: essa opção permite inserir uma única caixa de seleção para participação/não participação. Os usuários precisam marcar a caixa para consentir (aceitar) e desmarcá-la para remover seu consentimento (recusar).
 
 1. Escolha o que será atualizado entre as três opções a seguir:
 

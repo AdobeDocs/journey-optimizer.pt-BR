@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '640'
 ht-degree: 5%
 
 ---
@@ -138,6 +138,3 @@ O vídeo a seguir é destinado a auxiliar a compreensão dos componentes do Gere
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
 
->[!NOTE]
->
->Este vídeo se aplica ao serviço de aplicativo do Offer Decisioning criado no Adobe Experience Platform. No entanto, fornece orientação genérica para usar a Oferta no contexto do Journey Optimizer.

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -81,7 +81,7 @@ Para definir as configurações da página primária, siga as etapas abaixo.
 
    ![](assets/lp_open-designer.png)
 
-1. Defina o URL da página de aterrissagem. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem. [Saiba mais](../configuration/lp-configuration.md#lp-subdomains)
+1. Defina o URL da página de aterrissagem. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem como parte do [predefinição](../configuration/lp-configuration.md#lp-create-preset) você selecionou. [Saiba mais](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -92,6 +92,16 @@ Para definir as configurações da página primária, siga as etapas abaixo.
    >[!NOTE]
    >
    >Não é possível acessar a landing page simplesmente copiando e colando esse URL em um navegador da Web, mesmo se publicado. Em vez disso, você pode testá-lo usando a função de visualização, como descrito em [esta seção](#test-landing-page).
+
+1. Se desejar que a landing page pré-carregue os dados do formulário que já estão disponíveis, selecione a variável **[!UICONTROL Pre-fill form fields with profile information]**.
+
+   ![](assets/lp_prefill-form-fields.png)
+
+   Quando essa opção está ativada, se um perfil já tiver optado por entrar/sair ou já tiver sido adicionado a uma lista de assinaturas, suas opções serão refletidas ao exibir a landing page.
+
+   Por exemplo, se um perfil tiver optado por receber comunicações sobre eventos futuros, a caixa de seleção correspondente já estará selecionada na próxima vez que a landing page for exibida nesse perfil.
+
+   ![](assets/lp_prefill-form-ex.png)
 
 1. Você pode definir uma data de expiração para sua página. Nesse caso, você deve selecionar uma ação ao expirar a página:
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1219'
 ht-degree: 2%
 
 ---
@@ -227,6 +227,4 @@ Saiba como criar atividades de oferta no Offer Decisioning.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
->[!NOTE]
->
->Este vídeo se aplica ao serviço de aplicativo do Offer Decisioning criado no Adobe Experience Platform. No entanto, fornece orientação genérica para usar a Oferta no contexto do Journey Optimizer.
+

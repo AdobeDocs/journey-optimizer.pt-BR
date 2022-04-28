@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 81718cdba5c8537179d37e82c3d6ed897ebbd7ff
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Exemplos de consultas{#query-examples}
 
 Esta seção lista vários exemplos comumente usados para consultar Eventos de etapa de Jornada no Data Lake.
+
+Verifique se os campos usados nas consultas têm valores associados no schema correspondente.
 
 ## Erros de mensagem/ação {#message-action-errors}
 

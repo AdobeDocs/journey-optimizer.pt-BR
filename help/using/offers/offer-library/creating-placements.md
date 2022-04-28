@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 14%
+source-wordcount: '233'
+ht-degree: 16%
 
 ---
 
@@ -59,6 +59,3 @@ Saiba como criar inserções no Offer Decisioning.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 
->[!NOTE]
->
->Este vídeo se aplica ao serviço de aplicativo do Offer Decisioning criado no Adobe Experience Platform. No entanto, fornece orientação genérica para usar a Oferta no contexto do Journey Optimizer.

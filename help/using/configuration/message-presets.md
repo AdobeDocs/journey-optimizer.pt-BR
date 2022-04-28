@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2406'
 ht-degree: 1%
 
 ---
@@ -58,6 +58,12 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Submit]** para confirmar. Você também pode salvar a predefinição de mensagem como rascunho e retomar sua configuração posteriormente.
 
    ![](assets/preset-submit.png)
+
+   >[!NOTE]
+   >
+   >Não é possível continuar com a criação predefinida enquanto o pool de IP selecionado estiver em [edição](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** e nunca foi associado ao subdomínio selecionado. [Saiba mais](#subdomains-and-ip-pools)
+   >
+   >Salve a predefinição como rascunho e aguarde até que o pool de IP tenha a variável **[!UICONTROL Success]** status para retomar a criação predefinida.
 
 1. Depois que a predefinição de mensagem tiver sido criada, ela será exibida na lista com a variável **[!UICONTROL Processing]** status.
 
@@ -116,6 +122,10 @@ No **DETALHES DO SUBDOMÍNIO E DO POOL IP** na seção , você deve:
 
 1. Selecione o pool de IP a ser associado à predefinição. [Saiba mais](ip-pools.md)
 
+![](assets/preset-subdomain-ip-pool.png)
+
+Não é possível continuar com a criação predefinida enquanto o pool de IP selecionado estiver em [edição](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** e nunca foi associado ao subdomínio selecionado. Caso contrário, a versão mais antiga da associação do pool de IP/subdomínio ainda será usada. Se esse for o caso, salve a predefinição como rascunho e tente novamente depois que o pool de IP tiver a variável **[!UICONTROL Success]** status.
+
 >[!NOTE]
 >
 >Para ambientes não relacionados à produção, o Adobe não cria subdomínios de teste prontos para uso nem concede acesso a um pool IP de envio compartilhado. Você precisa [delegar seus próprios subdomínios](delegate-subdomain.md) e usar os IPs do pool atribuído à sua organização.
@@ -155,28 +165,6 @@ O link de cancelamento de subscrição consiste em dois elementos:
 Saiba mais sobre como adicionar um link de cancelamento de subscrição de cabeçalho às suas mensagens em [esta seção](../messages/consent.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
-
-### Rastreamento de URL{#url-tracking}
-
-Para identificar onde e por que uma pessoa clicou em seu link, é possível adicionar parâmetros de UTM para rastreamento de URL na  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** seção.
-
-Com base nos parâmetros definidos, um código de UTM será aplicado ao final do URL incluído no conteúdo da mensagem. Você poderá comparar os resultados em uma ferramenta de análise da Web, como o Google Analytics.
-
-![](assets/preset-url-tracking.png)
-
-Três parâmetros de UTM estão disponíveis por padrão. É possível adicionar até 10 parâmetros de rastreamento. Para adicionar um parâmetro de UTM, selecione o **[!UICONTROL Add new UTM param]** botão.
-
-Para configurar um parâmetro de UTM, você pode inserir diretamente os valores desejados no **[!UICONTROL Name]** e **[!UICONTROL Value]** ou escolha em uma lista de valores predefinidos navegando até os seguintes objetos:
-
-* Atributos de jornada: ID da fonte, Nome da fonte, ID da versão de origem
-* Atributos da mensagem: ID da ação, Nome da ação
-* Atributos do offer decisioning: ID da oferta, Nome da oferta
-
-![](assets/preset-url-tracking-source.png)
-
->[!CAUTION]
->
->Não selecione uma pasta: navegue até a pasta necessária e selecione um atributo de perfil para usar como um valor de UTM.
 
 ### Parâmetros de cabeçalho{#email-header}
 
@@ -223,6 +211,35 @@ Você deve inserir um valor inteiro (em horas ou minutos) dentro do seguinte int
 * Para ambos os tipos de email, o período máximo de tentativas é de 84 horas (ou 5040 minutos).
 
 Saiba mais sobre tentativas em [esta seção](retries.md).
+
+### Rastreamento de URL{#url-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_utm"
+>title="Parâmetros do UTM"
+>abstract="Use esta seção para anexar parâmetros de rastreamento automaticamente aos URLs da campanha presentes no conteúdo de email."
+
+Para identificar onde e por que uma pessoa clicou em seu link, é possível adicionar parâmetros de UTM para rastreamento de URL na  **[!UICONTROL URL Tracking Parameters]** seção.
+
+Com base nos parâmetros definidos, um código de UTM será aplicado ao final do URL incluído no conteúdo da mensagem. Você poderá comparar os resultados em uma ferramenta de análise da Web, como o Google Analytics.
+
+![](assets/preset-url-tracking.png)
+
+Três parâmetros de UTM estão disponíveis por padrão. É possível adicionar até 10 parâmetros de rastreamento. Para adicionar um parâmetro de UTM, selecione o **[!UICONTROL Add new parameter]** botão.
+
+Para configurar um parâmetro de UTM, você pode inserir diretamente os valores desejados no **[!UICONTROL Name]** e **[!UICONTROL Value]** ou escolha em uma lista de valores predefinidos navegando até os seguintes objetos:
+
+* Atributos de jornada: **ID de origem**, **Nome da origem**, **ID da versão de origem**
+* Atributos da mensagem: **ID da ação**, **Nome da ação**
+* Atributos do offer decisioning: **ID da oferta**, **Nome da oferta**
+
+![](assets/preset-url-tracking-source.png)
+
+>[!CAUTION]
+>
+>Não selecione uma pasta: navegue até a pasta necessária e selecione um atributo de perfil para usar como um valor de UTM.
+
+É possível combinar a digitação de valores de texto e a seleção de valores predefinidos. Cada **[!UICONTROL Value]** pode conter até 255 caracteres no total.
 
 ## Definir configurações de push {#configure-push-settings}
 
