@@ -2,7 +2,7 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 150b724c94f656d8846f98acd774a87eef1c29d8
+source-git-commit: 76adefcc5436678bd5662d463b2e2e89d4f73b80
 workflow-type: tm+mt
 source-wordcount: '3192'
 ht-degree: 93%
@@ -38,7 +38,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Design de email**
 
-* **Novos modelos de email** agora estão disponíveis para criar seu conteúdo de email no Journey Optimizer.
+* **20 novos modelos de email** agora estão disponíveis para criar seu conteúdo de email no Journey Optimizer.
 
 **Interface do usuário**
 
