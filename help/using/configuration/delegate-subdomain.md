@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1636'
 ht-degree: 10%
 
 ---
@@ -27,7 +27,11 @@ A delegação de nome de domínio é um método que permite ao proprietário de 
 >
 >Por padrão, [!DNL Journey Optimizer] o contrato de licença permite delegar até 10 subdomínios. Entre em contato com o Adobe se quiser aumentar essa limitação.
 
-Você pode delegar totalmente um subdomínio ou criar um subdomínio usando CNAMEs para apontar para registros específicos do Adobe. Saiba mais sobre as diferenças entre as duas [métodos de configuração de subdomínio](about-subdomain-delegation.md#subdomain-delegation-methods).
+Você pode delegar totalmente um subdomínio ou criar um subdomínio usando CNAMEs para apontar para registros específicos do Adobe.
+
+>[!CAUTION]
+>
+>A delegação de subdomínio completo é o método recomendado. Saiba mais sobre as diferenças entre as duas [métodos de configuração de subdomínio](about-subdomain-delegation.md#subdomain-delegation-methods).
 
 ## Delegação de subdomínio completa {#full-subdomain-delegation}
 
