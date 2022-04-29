@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: a473ffa25871cdf0e5acb48c6902f883bd8f74a2
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
@@ -32,7 +32,7 @@ Você pode selecionar um fuso horário ou optar por usar o fuso horário definid
 >
 >O fuso horário do perfil funciona com a variável **timeZone** existente na variável **Detalhes da Preferência** grupo de campos.
 
-## Definição de fuso horário fixo {#fixed-timezone}
+## Definir um fuso horário fixo {#fixed-timezone}
 
 O fuso horário também pode ser corrigido. Limpe o fuso horário predefinido e escolha um na lista suspensa. Se você usar um fuso horário fixo, será o mesmo para todos os indivíduos que inseriram a jornada.
 
@@ -40,7 +40,7 @@ Para fazer isso, no **[!UICONTROL Journey Properties]** selecione um fuso horár
 
 ![](assets/journey72.png)
 
-## Uso de perfis para definir o fuso horário da jornada {#timezone-from-profiles}
+## Usar perfis para definir o fuso horário da jornada {#timezone-from-profiles}
 
 Se o evento de entrada da jornada tiver um namespace, o que significa que a jornada pode acessar o serviço de Perfil do cliente em tempo real do Adobe Experience Platform, o fuso horário será predefinido com o especificado no perfil do indivíduo que flui na jornada.
 
@@ -52,6 +52,6 @@ Para fazer isso, em **[!UICONTROL Properties]**, verificar **[!UICONTROL Use Pro
 
 ![](assets/journey73.png)
 
-## Uso de fusos horários em expressões {#timezone-in-expressions}
+## Usar fusos horários em expressões {#timezone-in-expressions}
 
 As datas de início e término de uma jornada não podem ser vinculadas a um fuso horário específico. Eles são associados automaticamente ao fuso horário da instância.

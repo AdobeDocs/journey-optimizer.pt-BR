@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1457'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 A interface de jornada permite arrastar e soltar facilmente as atividades da paleta na tela. Você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível. Cada atividade tem uma função e um lugar específicos no processo. As atividades são sequenciadas. Quando uma atividade é concluída, o fluxo continua e processa a próxima atividade e assim por diante.
 
-## Introdução ao design do jornada
+## Introdução ao design do jornada {#gs-journey-design}
 
 O **paleta** está no lado esquerdo da tela. Todas as atividades disponíveis são classificadas em várias categorias: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** e **[!UICONTROL Actions]**. É possível expandir/recolher as diferentes categorias clicando no nome. Para usar uma atividade na jornada, arraste-a e solte-a da paleta na tela.
 
@@ -52,7 +52,7 @@ Dependendo do status da jornada, você pode executar ações diferentes em sua j
 
 ![](assets/journey41.png)
 
-## Iniciar a jornada
+## Inicie a jornada {#start-your-journey}
 
 Ao projetar sua jornada, a primeira pergunta que você deseja fazer é como os perfis entrarão na jornada. Há duas possibilidades:
 
@@ -60,7 +60,7 @@ Ao projetar sua jornada, a primeira pergunta que você deseja fazer é como os p
 
 **Começar com um segmento de leitura**: é possível definir a jornada para ouvir os segmentos do Adobe Experience Platform. Nesse caso, todos os indivíduos pertencentes ao segmento especificado entram na jornada. As mensagens incluídas na jornada são enviadas aos indivíduos pertencentes ao segmento. [Saiba mais sobre como ler segmentos](read-segment.md).
 
-## Definir as próximas etapas
+## Definir as próximas etapas{#define-next-steps}
 
 Após o primeiro evento ou Ler segmento, é possível combinar as diferentes atividades para criar cenários de vários canais em várias etapas. Escolha, na paleta, as etapas necessárias.
 
@@ -86,9 +86,11 @@ Você encontrará aqui o **Mensagem** atividade que permite incluir uma mensagem
 
 Você também encontrará as ações personalizadas que configurou para enviar mensagens com sistemas de terceiros. Saiba mais nesta [seção](about-journey-activities.md#action-activities).
 
-## O uso de caminhos na tela {#paths}
+## Adicionar caminhos alternativos{#paths}
 
-Várias atividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** atividades do ) permitem definir uma ação de fallback em caso de erro ou tempo limite. No painel de configuração da atividade, marque a caixa : **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Outro caminho é adicionado após a atividade . A duração do tempo limite é definida nas propriedades da jornada (consulte [esta página](../building-journeys/journey-gs.md#change-properties) por um usuário administrador. Por exemplo, se um email demorar muito para ser enviado ou estiver com erro, você pode decidir enviar uma notificação por push.
+Você pode definir uma ação de fallback em caso de erro ou tempo limite para as seguintes atividades de jornada: **[!UICONTROL Condition]** e **[!UICONTROL Action]**.
+
+Para adicionar uma ação de fallback a uma atividade, selecione a **[!UICONTROL Add an alternative path in case of a timeout or an error]** nas propriedades da atividade: outro caminho é adicionado após a atividade . A duração do tempo limite é definida pelos usuários administradores na variável [Propriedades da jornada](../building-journeys/journey-gs.md#change-properties). Por exemplo, se um email demorar muito para ser enviado ou estiver com erro, você pode decidir enviar uma notificação por push.
 
 ![](assets/journey42.png)
 
