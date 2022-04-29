@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
+source-git-commit: d1204d7653a1fe32d068f974f425e10949065bc1
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 10%
+source-wordcount: '1637'
+ht-degree: 9%
 
 ---
 
@@ -31,7 +31,7 @@ Você pode delegar totalmente um subdomínio ou criar um subdomínio usando CNAM
 
 >[!CAUTION]
 >
->A delegação de subdomínio completo é o método recomendado. Saiba mais sobre as diferenças entre as duas [métodos de configuração de subdomínio](about-subdomain-delegation.md#subdomain-delegation-methods).
+>A delegação completa de subdomínio é o método recomendado. Saiba mais sobre as diferenças entre as duas [métodos de configuração de subdomínio](about-subdomain-delegation.md#subdomain-delegation-methods).
 
 ## Delegação de subdomínio completa {#full-subdomain-delegation}
 
@@ -40,7 +40,7 @@ Você pode delegar totalmente um subdomínio ou criar um subdomínio usando CNAM
 >title="Gerar os registros DNS correspondentes"
 >abstract="Para delegar totalmente um novo subdomínio ao Adobe, é necessário copiar as informações do servidor de nomes do Adobe exibidas na interface do Journey Optimizer e colá-las na solução de hospedagem de domínio para gerar os registros DNS correspondentes. Depois que as verificações forem bem-sucedidas, o subdomínio estará pronto para ser usado para entregar mensagens."
 
-[!DNL Journey Optimizer] O permite delegar totalmente seus subdomínios ao Adobe diretamente da interface do produto. Com isso, o Adobe poderá enviar mensagens como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
+[!DNL Journey Optimizer] O permite delegar totalmente seus subdomínios ao Adobe diretamente da interface do produto. Ao fazer isso, o Adobe poderá enviar mensagens como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
 
 Você pode confiar no Adobe para manter a infraestrutura de DNS necessária para atender aos requisitos de deliverability padrão do setor para seus domínios de envio de marketing por email, além de manter e controlar o DNS para seus domínios internos de email.
 
@@ -111,7 +111,7 @@ A delegação de subdomínio CNAME permite criar um subdomínio e usar CNAMEs pa
 
 >[!CAUTION]
 >
->Esse método é recomendado se as políticas de sua organização restringirem o método completo de delegação de subdomínio. Essa abordagem requer que você mantenha e gerencie registros de DNS por conta própria. O Adobe não poderá ajudar a alterar, manter ou gerenciar o DNS de um subdomínio configurado por meio do método CNAME.
+>O método CNAME é recomendado se as políticas de sua organização restringirem o método completo de delegação de subdomínio. Essa abordagem requer que você mantenha e gerencie registros de DNS por conta própria. O Adobe não poderá ajudar a alterar, manter ou gerenciar o DNS de um subdomínio configurado por meio do método CNAME.
 
 ➡️ [Saiba como criar um subdomínio usando CNAME para apontar para registros específicos do Adobe neste vídeo](#video)
 
