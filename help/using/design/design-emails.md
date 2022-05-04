@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '195'
 ht-degree: 6%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 6%
 1. Na página inicial do Designer de email, escolha como deseja criar o email com as seguintes opções:
 
    * **Crie seu email do zero** por meio da interface do designer de email e aproveite imagens de [Adobe Experience Manager Assets Essentials](assets-essentials.md). Saiba como criar o conteúdo de email ou usar modelos integrados [nesta seção](create-email-content.md).
+
+   * **Copiar de email existente** de uma lista de modelos de amostra.
 
    * **Código ou cole HTML bruto** diretamente no designer de email. Saiba como codificar seu próprio conteúdo [nesta seção](code-content.md).
 
