@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '993'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 97%
       + [Adicionar um pré-cabeçalho](using/design/preheader.md)
    + Adicionar e gerenciar ativos {#manage-asset}
       + [Trabalhar com o Assets Essentials](using/design/assets-essentials.md)
-      + [Trabalhar com a Adobe Stock](using/design/stock.md)
+      + [Trabalhar com o Adobe Stock](using/design/stock.md)
    + [Adicionar ofertas personalizadas](using/design/deliver-personalized-offers.md)
    + [Adicionar links e rastrear mensagens](using/design/message-tracking.md)
    + [Pré-visualização e provas](using/design/preview.md)
@@ -327,9 +327,9 @@ ht-degree: 97%
          + [Atualizar uma decisão](using/offers/api-reference/activities-api/activities/update.md)
          + [Excluir uma decisão](using/offers/api-reference/activities-api/activities/delete.md)
       + Entrega de oferta usando APIs {#offer-delivery-api}
-         + [Sobre APIs do Decisioning e do Edge Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+         + [Sobre a API de decisão e API de decisão do Edge](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
          + [API de decisão](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
-         + [API do Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+         + [API de decisão do Edge](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API de decisão em lote](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Gerenciamento de dados {#data-management}
    + [Esquemas](using/start/get-started-schemas.md)
@@ -376,7 +376,7 @@ ht-degree: 97%
       + Configuração de ação {#action-journeys}
          + [Sobre ações](using/action/action.md)
          + [Configurar uma ação](using/action/about-custom-action-configuration.md)
-         + [Integração com o Adobe Campaign Standard](using/action/acs-action.md)
+         + [Integrar ao Adobe Campaign Standard](using/action/acs-action.md)
          + [Integrar ao Adobe Campaign v7/v8](using/action/acc-action.md)
          + [Consentimento](using/action/consent.md)
    + [Fontes](using/start/get-started-sources.md)
