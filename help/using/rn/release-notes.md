@@ -3,9 +3,9 @@ title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 76adefcc5436678bd5662d463b2e2e89d4f73b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3192'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,17 +24,17 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Páginas de aterrissagem**
 
-* **Nova opção para caixas de seleção de aceitação/rejeição** - Agora é possível inserir uma única caixa de seleção para aceitação/recusa nas landing pages de assinatura. Os usuários precisam marcar a caixa para consentir (aceitar) e desmarcá-la para remover seu consentimento (recusar). [Saiba mais](../landing-pages/design-lp.md#define-lp-specific-content)
+* **Nova opção de caixas de seleção para aceitar/recusar** - Agora é possível inserir uma única caixa de seleção para aceitar/recusar nas páginas de aterrissagem de assinatura. Os usuários precisam marcar a caixa para consentir (aceitar) e desmarcá-la para remover seu consentimento (recusar). [Saiba mais](../landing-pages/design-lp.md#define-lp-specific-content)
 
-* **Preenchimento prévio de campos de landing pages** - Agora é possível dar aos usuários a capacidade de preencher previamente os campos de landing page com informações de perfil. [Saiba mais](../landing-pages/create-lp.md#configure-primary-page)
+* **Preenchimento prévio de campos de páginas de aterrissagem** - Agora é possível conceder aos usuários a capacidade de preencher previamente os campos da página de aterrissagem com informações de perfil. [Saiba mais](../landing-pages/create-lp.md#configure-primary-page)
 
 **Gerenciamento de decisão**
 
-* **API de decisão no Edge** - A API do Edge Decisioning pode fornecer e renderizar ofertas personalizadas que são gerenciadas no Offer Decisioning. É possível criar suas ofertas e outros objetos relacionados usando a interface do usuário (UI) ou as APIs do Offer Decisioning. [Saiba mais](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **API de decisão no Edge** - A API de decisão do Edge pode fornecer e renderizar ofertas personalizadas que são gerenciadas no Offer Decisioning. É possível criar suas ofertas e outros objetos relacionados usando a interface ou as APIs do Offer Decisioning. [Saiba mais](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **Administração**
 
-* **Duração do envio de PTR** - A duração para a edição de PTR entrar em vigor agora é de algumas horas. [Saiba mais](../configuration/ptr-records.md#processing)
+* **Duração do envio de PTR** - A duração da edição de PTR agora é de algumas horas. [Saiba mais](../configuration/ptr-records.md#processing)
 
 **Design de email**
 
@@ -42,11 +42,11 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Interface do usuário**
 
-* **Ajuda contextual na interface do usuário do Journey Optimizer** - Links de ajuda contextual foram adicionados a várias páginas no Journey Optimizer. Quando disponível, clique no ícone &quot;i&quot; para exibir uma descrição rápida da funcionalidade atual e acessar artigos relacionados.
+* **Ajuda contextual na interface do Journey Optimizer** - Foram adicionados links de ajuda contextual a várias páginas do Journey Optimizer. Quando disponível, clique no ícone “i” para exibir uma descrição rápida da funcionalidade atual e acessar artigos relacionados.
 
 **Integração com o Adobe Campaign Standard**
 
-Como cliente do Adobe Campaign Standard, agora você pode enviar emails, notificações por push e SMS usando o Journey Optimizer. Use as novas ações integradas para aproveitar os recursos de mensagens transacionais do Campaign Standard no Journey Optimizer.  [Saiba mais](../action/acs-action.md)
+Como cliente do Adobe Campaign Standard, agora você pode enviar emails, notificações por push e SMS usando o Journey Optimizer. Use as novas ações integradas para utilizar os recursos de mensagens transacionais do Campaign Standard no Journey Optimizer.  [Saiba mais](../action/acs-action.md)
 
 <!--
 ### Fixes
