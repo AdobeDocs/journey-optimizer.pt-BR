@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ Em seguida, é necessário configurar o sistema de dados que envia eventos para 
 1. Usar a carga copiada de [!DNL Journey Optimizer] no corpo (&quot;seção de dados&quot;) da chamada da API para APIs de assimilação de fluxo. Veja abaixo um exemplo
 1. Determine onde obter todas as variáveis presentes na carga útil. Exemplo: se o evento tiver que transmitir o endereço, a carga colada mostrará &quot;endereço&quot;: &quot;string&quot;. &quot;string&quot; deve ser substituída pela variável que preencherá automaticamente o valor correto, o email da pessoa para a qual enviar uma mensagem. Observe que, na pré-visualização de carga, no **[!UICONTROL Header]** , preenchemos automaticamente muitos valores esperados para facilitar seu trabalho.
 1. Selecione &quot;application/json&quot; como um tipo de corpo.
-1. Passe a IMS Organization ID no cabeçalho usando a chave &quot;x-gw-ims-org-id&quot;. Para o valor , use sua IMS Organization ID (&quot;XXX@AdobeOrg&quot;).
+1. Passe a ID da organização no cabeçalho usando a chave &quot;x-gw-ims-org-id&quot;. Para o valor , use a ID da organização (&quot;XXX@AdobeOrg&quot;).
 
 Veja um exemplo de um evento de APIs de assimilação de fluxo:
 

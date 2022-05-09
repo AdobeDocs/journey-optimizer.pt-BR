@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 2%
+source-wordcount: '698'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ Uma lista de supressão consiste em endereços de email que você deseja excluir
 
 O [!DNL Journey Optimizer] a lista de supressão é gerenciada no seu próprio nível de ambiente.
 
-Ele reúne endereços de email e domínios que são suprimidos em todas as correspondências em um único ambiente de cliente, o que significa que são específicos de uma ID de organização IMS associada a uma ID de sandbox.
+Ele reúne endereços de email e domínios que são suprimidos em todas as correspondências em um único ambiente de cliente, ou seja, são específicos de uma ID da organização associada a uma ID de sandbox.
 
 ## Por que uma lista de supressão? {#why-suppression-list}
 
@@ -53,7 +53,7 @@ Para cada endereço, o motivo básico para a supressão e a categoria de supress
 >
 >Saiba mais sobre o [Relatório ao vivo](../reports/live-report.md) e [Relatório Global](../reports/global-report.md). Para descobrir o motivo de todos os casos de exclusão, é possível usar a variável [Serviço de query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
 
-### Falhas no delivery {#delivery-failures}
+### Falhas de delivery {#delivery-failures}
 
 Há dois tipos de erros quando um delivery falha:
 

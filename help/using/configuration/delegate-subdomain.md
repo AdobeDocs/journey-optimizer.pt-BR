@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: d1204d7653a1fe32d068f974f425e10949065bc1
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1639'
 ht-degree: 9%
 
 ---
@@ -191,7 +191,7 @@ As verificações e ações abaixo serão executadas até que o subdomínio seja
 
 1. **Criar URLs de rastreamento e espelho**: se o domínio for email.example.com, o domínio tracking/mirror será data.email.example.com. Ele é protegido pela instalação do certificado SSL.
 
-1. **Provisionamento do CDN CloudFront**: se o CDN ainda não estiver configurado, o Adobe o provisões para a gravação.
+1. **Provisionamento do CDN CloudFront**: se a CDN ainda não estiver configurada, o Adobe a provisionará para a ID da organização.
 
 1. **Criar domínio CDN**: se o domínio for email.example.com, o domínio CDN será cdn.email.example.com.
 

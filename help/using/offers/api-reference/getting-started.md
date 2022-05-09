@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 5%
@@ -34,7 +34,7 @@ Este guia fornece exemplos de chamadas de API para demonstrar como formatar suas
 
 ## Coletar valores para cabeçalhos necessários {#gather-values-for-required-headers}
 
-Para fazer chamadas para [!DNL Platform] As APIs devem ser concluídas primeiro [tutorial de autenticação](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}. A conclusão do tutorial de autenticação fornece os valores para cada um dos cabeçalhos necessários em todos [!DNL Experience Platform] Chamadas de API, conforme mostrado abaixo:
+Para fazer chamadas para [!DNL Adobe Experience Platform] As APIs devem ser concluídas primeiro [tutorial de autenticação](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}. A conclusão do tutorial de autenticação fornece os valores para cada um dos cabeçalhos necessários em todos [!DNL Experience Platform] Chamadas de API, conforme mostrado abaixo:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
