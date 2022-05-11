@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 3%
+source-wordcount: '821'
+ht-degree: 5%
 
 ---
 
@@ -22,16 +22,12 @@ ht-degree: 3%
 
 O **[!UICONTROL Jump]** A atividade de ação permite enviar indivíduos de uma jornada para outra. Esse recurso permite:
 
-* simplificar o design de jornadas muito complexas dividindo-as em várias
+* simplificar o design de jornadas muito complexas dividindo-as em várias jornadas
 * criar jornadas com base em padrões de jornada comuns e reutilizáveis
 
 Na jornada de origem, basta adicionar um **[!UICONTROL Jump]** e selecione uma jornada do target. Quando o indivíduo entra no **[!UICONTROL Jump]** , um evento interno é enviado para o primeiro evento da jornada de destino. Se a variável **[!UICONTROL Jump]** Se a ação for bem sucedida, o indivíduo continuará a progredir na jornada. O comportamento é semelhante a outras ações.
 
 Na jornada do target, o primeiro evento acionado internamente pela variável **[!UICONTROL Jump]** A atividade fará com que o fluxo individual na jornada.
-
->[!NOTE]
->
->Consulte também o vídeo tutorial [here](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=pt-BR){target=&quot;_blank&quot;}
 
 ## Vida útil
 

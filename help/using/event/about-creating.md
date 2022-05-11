@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1482'
 ht-degree: 13%
 
 ---
@@ -74,7 +74,7 @@ Estas são as primeiras etapas para configurar um novo evento:
 
 1. Clique em **[!UICONTROL Save]**.
 
-   Agora o evento está configurado e pronto para ser lançado em uma jornada. Etapas de configuração adicionais são necessárias para receber eventos. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+   Agora o evento está configurado e pronto para ser lançado em uma jornada. Etapas de configuração adicionais são necessárias para receber eventos. Consulte [esta página](../event/additional-steps-to-send-events-to-journey.md).
 
 ## Definir os campos de carga {#define-the-payload-fields}
 
@@ -125,27 +125,27 @@ Somente um namespace é permitido por jornada. Se você usar vários eventos na 
 
 ## Definir o identificador de perfil {#define-the-event-key}
 
-A chave é o campo ou combinação de campos que faz parte dos dados de carga do evento e que permitirá que o sistema identifique a pessoa associada ao evento. A chave pode ser, por exemplo, a ID do Experience Cloud, uma ID do CRM ou um endereço de email.
+A chave é o campo, ou combinação de campos, que faz parte dos dados de payload do evento e permite que o sistema identifique a pessoa associada ao evento. A chave pode ser, por exemplo, a ID do Experience Cloud, uma ID do CRM ou um endereço de email.
 
-Se você planeja aproveitar os dados armazenados no banco de dados do Perfil do cliente em tempo real, é necessário selecionar, como a chave do evento, as informações definidas como a identidade de um perfil no [Serviço de perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
+Para usar os dados armazenados no banco de dados do Perfil do cliente em tempo real do Adobe, a chave do evento deve ser as informações definidas como a identidade de um perfil no [Serviço de perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
-Isso permitirá que o sistema execute a reconciliação entre o evento e o perfil do indivíduo. Se você selecionar um esquema que tenha uma identidade primária, a variável **[!UICONTROL Profile identifier]** e **[!UICONTROL Namespace]** Os campos são pré-preenchidos. Se não houver identidade definida, selecionamos _identityMap > id_ como a chave primária. Em seguida, é necessário selecionar um namespace e a chave será pré-preenchida (abaixo de **[!UICONTROL Namespace]** campo) usando _identityMap > id_.
+O identificador de perfil permite que o sistema execute a reconciliação entre o evento e o perfil do indivíduo. Se você selecionar um esquema que tenha uma identidade primária, a variável **[!UICONTROL Profile identifier]** e **[!UICONTROL Namespace]** Os campos são pré-preenchidos. Se não houver identidade definida, a variável _identityMap > id_ é a chave primária. Em seguida, você deve selecionar um namespace e a chave é automaticamente pré-preenchida usando _identityMap > id_.
 
 Ao selecionar campos, os campos de identidade primários são marcados.
 
 ![](assets/primary-identity.png)
 
-Se você precisar usar uma chave diferente, como uma ID do CRM ou um endereço de email, é necessário adicioná-la manualmente:
+Se você precisar usar uma chave diferente, como uma ID do CRM ou um endereço de email, será necessário adicioná-la manualmente, conforme explicado abaixo:
 
 1. Clique dentro do **[!UICONTROL Profile identifier]** ou no ícone de lápis.
 
    ![](assets/journey16.png)
 
-1. Selecione o campo escolhido como a chave na lista de campos de carga útil. Você também pode alternar para o editor de expressão avançado para criar chaves mais complexas (por exemplo, uma concatenação de dois campos dos eventos). Veja abaixo, nesta seção.
+1. Selecione o campo escolhido como a chave na lista de campos de carga útil. Você também pode alternar para o editor de expressão avançado para criar chaves mais complexas (por exemplo, uma concatenação de dois campos dos eventos).
 
    ![](assets/journey20.png)
 
-Quando o evento for recebido, o valor da chave permitirá que o sistema identifique a pessoa associada ao evento. Associado a um namespace (consulte [esta seção](../event/about-creating.md#select-the-namespace)), a chave pode ser usada para executar consultas no Adobe Experience Platform. Consulte [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
+Quando o evento é recebido, o valor da chave permite que o sistema identifique a pessoa associada ao evento. Associado a um namespace (consulte [esta seção](../event/about-creating.md#select-the-namespace)), a chave pode ser usada para executar consultas no Adobe Experience Platform. Consulte [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
 A chave também é usada para verificar se uma pessoa está em uma jornada. Na verdade, uma pessoa não pode estar em dois lugares diferentes na mesma jornada. Como resultado, o sistema não permite que a mesma chave, por exemplo, a chave CRMID=3224, esteja em lugares diferentes na mesma jornada.
 
 Também é possível acessar as funções de expressão avançadas (**[!UICONTROL Advanced mode]**) se você quiser realizar manipulações adicionais. Essas funções permitem manipular os valores usados para realizar consultas específicas, como formatos móveis, realizar concatenações de campo, levando em conta apenas uma parte de um campo (por exemplo, os 10 primeiros caracteres). Consulte esta [página](../building-journeys/expression/expressionadvanced.md).
@@ -168,4 +168,4 @@ A pré-visualização de carga permite validar a definição da carga útil.
 
 1. Verifique a pré-visualização para validar a definição da carga útil.
 
-1. Em seguida, você pode compartilhar a pré-visualização de carga com a pessoa responsável pelo envio do evento. Essa carga útil pode ajudá-los a projetar a configuração de um evento que é enviado para o [!DNL Journey Optimizer]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Em seguida, você pode compartilhar a pré-visualização de carga com a pessoa responsável pelo envio do evento. Essa carga útil pode ajudá-los a projetar a configuração de um evento que é enviado para o [!DNL Journey Optimizer]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey.md).

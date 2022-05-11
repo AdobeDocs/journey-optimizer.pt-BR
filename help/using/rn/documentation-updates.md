@@ -2,16 +2,26 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
-workflow-type: ht
-source-wordcount: '1254'
-ht-degree: 100%
+source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+workflow-type: tm+mt
+source-wordcount: '1326'
+ht-degree: 95%
 
 ---
 
 # Atualizações de documentação {#latest-updates}
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
+
+
+## Maio de 2022 {#may-2022}
+
+* A seção de design de email agora menciona novos modelos integrados disponíveis para iniciar o conteúdo. As capturas de tela relacionadas foram atualizadas. [Leia mais](../design/design-emails.md)
+* Os links para recursos principais foram atualizados na página inicial da documentação do Journey Optimizer.
+* As capturas de tela para relatórios de landing page e subscrição foram atualizadas. [Leia mais](../reports/live-report.md)
+* Uma observação foi adicionada informando que o método Excluir não é compatível com ações personalizadas. [Leia mais](../action/about-custom-action-configuration.md)
+* Os links para vídeos de instruções foram atualizados.
+
 
 ## Abril de 2022 {#april-2022}
 

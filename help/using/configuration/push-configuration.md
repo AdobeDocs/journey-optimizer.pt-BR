@@ -4,9 +4,9 @@ description: Saiba como configurar seu ambiente para enviar notificações por p
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1434'
 ht-degree: 5%
 
 ---
@@ -253,7 +253,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 ## Etapa 3: Teste seu aplicativo móvel com um evento {#mobile-app-test}
 
-Depois de configurar seu aplicativo móvel no Adobe Experience Platform e no [!DNL Adobe Experience Platform Data Collection], agora você pode testá-lo antes de enviar notificações por push para seus perfis. Nesse caso de uso, criaremos uma jornada para direcionar nosso aplicativo móvel e definiremos um evento que acionará a notificação por push.
+Depois de configurar seu aplicativo móvel no Adobe Experience Platform e no [!DNL Adobe Experience Platform Data Collection], agora você pode testá-lo antes de enviar notificações por push para seus perfis. Nesse caso de uso, criamos uma jornada para direcionar nosso aplicativo móvel e definimos um evento que aciona a notificação por push.
 
 <!--
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
@@ -307,7 +307,7 @@ Em seguida, é necessário configurar um evento .
 
    ![](assets/test_push_7b.png)
 
-1. Clique em **[!UICONTROL Edit]** no **[!UICONTROL Event ID condition]** campo. Arraste e solte o campo adicionado anteriormente para definir a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
+1. Clique em **[!UICONTROL Edit]** no **[!UICONTROL Event ID condition]** campo. Arraste e solte o campo adicionado anteriormente para definir a condição que será usada pelo sistema para identificar os eventos que acionam a jornada.
 
    ![](assets/test_push_8.png)
 

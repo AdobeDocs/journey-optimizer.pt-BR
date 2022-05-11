@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -20,24 +20,16 @@ ht-degree: 0%
 >title="Atividade Atualizar perfil"
 >abstract="A atividade de ação Atualizar perfil permite atualizar um perfil do Adobe Experience Platform existente com informações provenientes do evento, fonte de dados ou usando um valor específico."
 
-O **[!UICONTROL Update Profile]** A atividade action permite atualizar um perfil do Adobe Experience Platform existente com informações provenientes do evento, uma fonte de dados ou usando um valor específico.
+Use o **[!UICONTROL Update Profile]** atividade de ação para atualizar um perfil do Adobe Experience Platform existente com informações provenientes de um evento, uma fonte de dados ou com um valor específico.
 
-## Observações importantes
+## Recomendações
 
 * O **Atualizar perfil** só pode ser usada em jornadas que iniciam com um evento que tenha um namespace.
 * A ação atualiza apenas os campos existentes, mas não cria novos campos de perfil.
 * Não é possível usar a variável **Atualizar perfil** para gerar eventos de experiência, por exemplo, uma compra.
 * Assim como qualquer outra ação, você pode definir um caminho alternativo em caso de erro ou tempo limite e não pode colocar duas ações em paralelo.
-* A solicitação de atualização enviada para a Platform será rápida, mas não imediata/dentro de um segundo. Em geral, levará alguns segundos, mas às vezes mais sem garantia. Como resultado, por exemplo, se uma ação estiver usando um &quot;campo 1&quot; atualizado por uma ação Atualizar perfil posicionada anteriormente, você não deve esperar que o &quot;campo 1&quot; seja atualizado na ação.
+* A solicitação de atualização enviada para a Adobe Experience Platform é imediata/dentro de um segundo. Em geral, levará alguns segundos, mas às vezes mais sem garantia. Como resultado, por exemplo, se uma ação estiver usando &quot;campo 1&quot; atualizado por um **Atualizar perfil** ação posicionada antes, você não deve esperar que &quot;campo 1&quot; seja atualizado na ação .
 * O **Atualizar perfil** A atividade não oferece suporte a campos XDM definidos como uma enumeração.
-
-## Uso do modo de teste {#using-the-test-mode}
-
-No modo de teste, a atualização do perfil não será simulada. A atualização será executada no perfil de teste.
-
-Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. No Adobe Experience Platform, é possível atualizar os atributos de perfil por meio de uma importação de arquivo csv ou chamadas de API. Um método mais simples é usar um **Atualizar perfil** atividade de ação e altere o campo booleano do perfil de teste de false para true.
-
-Para obter mais informações sobre como transformar um perfil existente em um perfil de teste, consulte esta seção [seção](../segment/creating-test-profiles.md#create-test-profiles-csv).
 
 ## Usar a atualização de perfil
 
@@ -72,3 +64,12 @@ Para obter mais informações sobre como transformar um perfil existente em um p
 O **Atualizar perfil** agora está configurado.
 
 ![](assets/profileupdate1.png)
+
+
+## Uso do modo de teste {#using-the-test-mode}
+
+No modo de teste, a atualização do perfil não será simulada. A atualização será executada no perfil de teste.
+
+Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. No Adobe Experience Platform, é possível atualizar os atributos de perfil por meio de uma importação de arquivo csv ou chamadas de API. Um método mais simples é usar um **Atualizar perfil** atividade de ação e altere o campo booleano do perfil de teste de false para true.
+
+Para obter mais informações sobre como transformar um perfil existente em um perfil de teste, consulte esta seção [seção](../segment/creating-test-profiles.md#create-test-profiles-csv).

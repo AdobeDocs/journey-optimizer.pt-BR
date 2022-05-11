@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0dedeae2e33615c3191e6277fc6f258118b49822
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '944'
 ht-degree: 6%
 
 ---
@@ -83,6 +83,11 @@ Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UIC
    >Somente as portas padrão são permitidas ao definir uma ação personalizada: 80 para http e 443 para https.
 
 1. Selecione a chamada **[!UICONTROL Method]**: pode ser **[!UICONTROL POST]** ou **[!UICONTROL PUT]**.
+
+   >[!NOTE]
+   >
+   > O **DELETE** não é suportado. Se precisar atualizar um recurso existente, selecione o **PUT** método .
+
 1. No **[!UICONTROL Headers]** , defina os cabeçalhos HTTP da mensagem de solicitação a ser enviada ao serviço externo:
    1. Para adicionar um campo de cabeçalho, clique em **[!UICONTROL Add a header field]**.
    1. Insira a chave do campo de cabeçalho.
@@ -103,7 +108,7 @@ Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UIC
 
    >[!NOTE]
    >
-   >Os cabeçalhos são validados de acordo com as regras de análise de campo. [Saiba mais](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >Os cabeçalhos são validados de acordo com as regras de análise de campo. Saiba mais em [esta documentação](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## Definir os parâmetros de ação {#define-the-message-parameters}
 
