@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 94c2e889b38608aa173b62edb498eba7756e68e6
+source-git-commit: a9c4bf20b170afd30ac17f6dec3778c1ae4be70c
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 29%
+source-wordcount: '341'
+ht-degree: 30%
 
 ---
 
@@ -61,3 +61,7 @@ If required, specify the value of dynamic header fields:
 ## Action parameters
 
 **[!UICONTROL Action parameters]**__ For these parameters, you can define where to get this information (example: events, data sources), pass values manually or use the advanced expression editor for advanced use cases. Advanced uses cases can be data manipulation and other function usage. Consulte esta [página](expression/expressionadvanced.md).
+
+**Tópicos relacionados**
+
+[Configurar uma ação](../action/about-custom-action-configuration.md)
