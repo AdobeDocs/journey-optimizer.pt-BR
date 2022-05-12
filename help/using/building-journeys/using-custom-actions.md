@@ -1,19 +1,19 @@
 ---
-title: Usar ações personalizadas
-description: Saiba como usar ações personalizadas
+title: Use custom actions
+description: Learn how to use custom actions
 feature: Actions
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 94c2e889b38608aa173b62edb498eba7756e68e6
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 30%
+source-wordcount: '336'
+ht-degree: 29%
 
 ---
 
-# Usar ações personalizadas {#use-custom-actions}
+# Use custom actions {#use-custom-actions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom"
@@ -24,44 +24,40 @@ As ações personalizadas permitem configurar a conexão de um sistema de tercei
 
 ## Configurar o URL
 
-O painel de configuração do **Ação personalizada** mostra os parâmetros de configuração do URL e os parâmetros de autenticação configurados para a ação personalizada. Não é possível configurar a parte estática do URL na jornada, mas na configuração global da ação personalizada. [Saiba mais](../action/about-custom-action-configuration.md).
+**** You cannot set up the static part of the URL in the journey, but in the global configuration of the custom action. [Saiba mais](../action/about-custom-action-configuration.md).
 
-### Caminho dinâmico
+### Dynamic path
 
-Se o URL incluir um caminho dinâmico, especifique o caminho na variável **[!UICONTROL Path]** campo.
+**[!UICONTROL Path]**
 
-Para concatenar campos e strings de texto sem formatação, use as funções String ou o sinal de Mais (+) no editor de expressão avançado. Insira sequências de texto sem formatação em aspas simples (&#39;) ou aspas duplas (&quot;). [Saiba mais](expression/expressionadvanced.md).
+To concatenate fields and plain text strings, use the String functions or the Plus sign (+) in the advanced expression editor. Enclose plain text strings in single quotation marks (&#39;) or in double quotation marks (&quot;). [Saiba mais](expression/expressionadvanced.md).
 
-Esta tabela mostra um exemplo de configuração:
+This table shows an example of configuration:
 
 | Campo | Valor |
 | --- | --- |
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
 | Path | `The id of marketingCampaign + '/messages'` |
 
-O URL concatenado tem este formulário:
+The concatenated URL has this form:
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/``/messages`
 
 ![](assets/journey-custom-action-url.png)
 
 ### Cabeçalhos
 
-O **[!UICONTROL URL Configuration]** mostra os campos de cabeçalho dinâmicos, mas não os campos de cabeçalho constantes. Os campos de cabeçalho dinâmicos são campos de cabeçalho HTTP cujo valor é configurado como uma variável. [Saiba mais](../action/about-custom-action-configuration.md).
+**[!UICONTROL URL Configuration]** Dynamic header fields are HTTP header fields whose value is configured as a variable. [Saiba mais](../action/about-custom-action-configuration.md).
 
-Se necessário, especifique o valor dos campos de cabeçalho dinâmico:
+If required, specify the value of dynamic header fields:
 
-1. Selecione a ação personalizada na jornada.
-1. No painel de configuração, clique no ícone de lápis ao lado do campo de cabeçalho no **[!UICONTROL URL Configuration]** seção.
+1. Select the custom action in the journey.
+1. **[!UICONTROL URL Configuration]**
 
    ![](assets/journey-dynamicheaderfield.png)
 
-1. Selecione um campo e clique em **[!UICONTROL OK]**.
+1. **[!UICONTROL OK]**
 
-## Parâmetros de ação
+## Action parameters
 
-No **[!UICONTROL Action parameters]** , você verá os parâmetros da mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (exemplo: eventos, fontes de dados), passe os valores manualmente ou use o editor de expressão avançado para casos de uso avançado. Casos de uso avançados podem ser manipulação de dados e outro uso da função. Consulte esta [página](expression/expressionadvanced.md).
-
-**Tópicos relacionados**
-
-[Configurar uma ação](../action/about-custom-action-configuration.md)
+**[!UICONTROL Action parameters]**__ For these parameters, you can define where to get this information (example: events, data sources), pass values manually or use the advanced expression editor for advanced use cases. Advanced uses cases can be data manipulation and other function usage. Consulte esta [página](expression/expressionadvanced.md).
