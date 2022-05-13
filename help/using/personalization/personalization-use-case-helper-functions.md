@@ -13,7 +13,7 @@ ht-degree: 3%
 
 ---
 
-# Caso de uso de personalização: email de abandono do carrinho {#personalization-use-case-helper-functions}
+# Caso de uso de Personalization: email de abandono do carrinho {#personalization-use-case-helper-functions}
 
 Neste exemplo, você personalizará o corpo de uma mensagem de email. Essa mensagem direciona os clientes que deixaram itens em seu carrinho de compras, mas não concluíram a compra.
 

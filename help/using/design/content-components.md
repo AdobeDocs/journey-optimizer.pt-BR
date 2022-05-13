@@ -183,5 +183,5 @@ Use o **[!UICONTROL Offer decision]** componente para inserir decisões (anterio
 
 Tópicos relacionados:
 
-* [Introdução ao Gerenciamento de decisão](../offers/get-started/starting-offer-decisioning.md).
+* [Introdução à Gestão de decisões](../offers/get-started/starting-offer-decisioning.md).
 * [Adicionar ofertas personalizadas em mensagens](deliver-personalized-offers.md).

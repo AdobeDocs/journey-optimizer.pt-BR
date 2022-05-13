@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 100%
 
@@ -113,7 +113,7 @@ Corpo da solicitação:
 }
 ```
 
-O [!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio da chamada de API do [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}.
+O [!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio da chamada de API do [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}.
 
 #### Enviar a mensagem com link de cancelamento de inscrição {#send-message-unsubscribe-link}
 
@@ -203,7 +203,7 @@ Dependendo do cliente de email, clicar no link de cancelamento de inscrição no
    >
    >Se você não adicionar um link de recusa de um clique no conteúdo da mensagem, nenhuma página de aterrissagem será exibida.
 
-* O perfil correspondente é cancelado imediatamente e essa escolha é atualizada na Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target=&quot;_blank&quot;}.
+* O perfil correspondente é cancelado imediatamente e essa escolha é atualizada na Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
 ## Encaminhar o gerenciamento de recusa {#push-opt-out-management}
 

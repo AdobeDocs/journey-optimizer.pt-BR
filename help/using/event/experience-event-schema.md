@@ -9,7 +9,7 @@ exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -53,7 +53,7 @@ Qualquer esquema XDM que será usado para [!DNL Journey Optimizer] Os eventos de
 
 ## Aproveitar relacionamentos de esquema{#leverage_schema_relationships}
 
-O Adobe Experience Platform permite definir relações entre esquemas para usar um conjunto de dados como uma tabela de pesquisa para outro.
+A Adobe Experience Platform permite definir relações entre esquemas para usar um conjunto de dados como uma tabela de pesquisa para outro.
 
 Digamos que seu modelo de dados de marca tenha um esquema capturando compras. Você também tem um schema para o catálogo de produtos. Você pode capturar a ID do produto no esquema de compra e usar uma relação para pesquisar detalhes do produto mais completos do catálogo de produtos. Isso permite criar um segmento para todos os clientes que compraram um laptop, por exemplo, sem precisar listar explicitamente todas as IDs do laptop ou capturar todos os detalhes de produtos em sistemas transacionais.
 

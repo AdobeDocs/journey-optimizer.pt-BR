@@ -21,9 +21,9 @@ Uma página de aterrissagem é uma página da Web independente para a qual o usu
 
 * Aproveitamento [!DNL Journey Optimizer] recursos de design de conteúdo para criar com facilidade **páginas de aterrissagem responsivas**.
 * Configurar **fluxos de participação e não participação** rápida e perfeitamente.
-* Criar listas de subscrição para permitir aos utilizadores **assinar um serviço**. [Saiba mais](lp-use-cases.md#subscription-to-a-service)
-* Forneça aos recipients a **capacidade de cancelar a assinatura** ao receber suas comunicações. [Saiba mais](lp-use-cases.md#opt-out)
-* Envie um **email de confirmação** após a aceitação ou recusa. [Saiba mais](lp-use-cases.md#send-confirmation-email)
+* Criar listas de subscrição para permitir aos utilizadores **assinar um serviço**. [Leia mais](lp-use-cases.md#subscription-to-a-service)
+* Forneça aos recipients a **capacidade de cancelar a assinatura** ao receber suas comunicações. [Leia mais](lp-use-cases.md#opt-out)
+* Envie um **email de confirmação** após a aceitação ou recusa. [Leia mais](lp-use-cases.md#send-confirmation-email)
 
 <table>
 <tr>

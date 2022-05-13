@@ -9,7 +9,7 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -22,11 +22,11 @@ Nesta página, você encontrará informações sobre funcionalidades específica
 |  | Solicitações/s | Latência |
 |---|---|---|
 | API de decisão | 2000 | &lt;500ms |
-| API do Edge Decisioning | 5000 | &lt;250ms |
+| API de decisão do Edge | 5000 | &lt;250ms |
 
 Para obter mais informações sobre como trabalhar com as APIs, consulte estas seções:
 * [API de decisão](decisioning-api.md)
-* [API do Edge Decisioning](edge-decisioning-api.md)
+* [API de decisão do Edge](edge-decisioning-api.md)
 
 ## Recursos da API do Edge Decisioning {#edge}
 

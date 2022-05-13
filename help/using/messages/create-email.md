@@ -9,7 +9,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -38,4 +38,4 @@ As etapas para configurar um email são as seguintes:
 
 >[!NOTE]
 >
->As mensagens de email de tipo de marketing devem incluir um [link para opção de não participação](consent.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definido na variável [nível predefinido de mensagem](../configuration/message-presets.md#email-type) e quando [criação da mensagem](get-started-content.md#create-new-message).
+>As mensagens de email de tipo de marketing devem incluir um [link para opção de não participação](consent.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definida no [nível da predefinição de mensagem](../configuration/message-presets.md#email-type) e ao [criar a mensagem](get-started-content.md#create-new-message).

@@ -1,5 +1,5 @@
 ---
-title: Importe o conteúdo do email
+title: Importar o conteúdo do email
 description: Saiba como importar conteúdo de email
 feature: Overview
 topic: Content Management
@@ -9,11 +9,11 @@ exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 17%
+ht-degree: 22%
 
 ---
 
-# Importe o conteúdo do email {#existing-content}
+# Importar o conteúdo do email {#existing-content}
 
 O Journey Optimizer permite importar conteúdo HTML existente para criar seus emails. Esse conteúdo pode ser:
 

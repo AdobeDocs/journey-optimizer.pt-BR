@@ -27,7 +27,7 @@ String
 
 ## Parâmetros
 
-| Parâmetro | type |
+| Parâmetro | Tipo |
 |-------------|----------|
 | string | string |
 | beginIndex | integer |

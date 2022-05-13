@@ -9,7 +9,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 832abe25f79c8c526dd5da0ff37eb91755d687e4
 workflow-type: tm+mt
 source-wordcount: '1846'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -35,7 +35,7 @@ Para enviar mensagens com o jornada, as seguintes configurações são necessár
 
    ![](assets/create-content-push.png)
 
-## Build your journey{#jo-build}
+## Crie sua jornada{#jo-build}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
@@ -68,22 +68,22 @@ Estas são as principais etapas para enviar mensagens por meio do jornada:
 
    ![](assets/jo-journeyuc2_32bis.png)
 
-1. Monitor your journey using the dedicated reporting tools to measure your journey&#39;s effectiveness. Saiba mais nesta [seção](../reports/live-report.md).
+1. Monitore sua jornada usando as ferramentas de relatório dedicadas para medir a eficácia da jornada. Saiba mais nesta [seção](../reports/live-report.md).
 
    ![](assets/jo-dynamic_report_journey_12.png)
 
-## Define your journey properties {#change-properties}
+## Defina as propriedades da jornada {#change-properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propriedades da jornada"
->abstract="Esta seção mostra as propriedades da jornada. By default, read-only parameters are hidden. As configurações disponíveis dependem do status da jornada, das permissões e da configuração do produto."
+>abstract="Esta seção mostra as propriedades da jornada. Por padrão, os parâmetros somente leitura ficam ocultos. As configurações disponíveis dependem do status da jornada, das permissões e da configuração do produto."
 
 Clique no ícone de lápis, na parte superior direita para acessar as propriedades da jornada.
 
 Você pode alterar o nome da jornada, adicionar uma descrição, permitir nova entrada, escolher datas de início e término e, como um usuário administrador, definir uma **[!UICONTROL Timeout and error]** duração. Se estiver habilitado para sua organização, você também poderá ativar [mensagem de explosão](#burst).
 
-For live journeys, this screen displays the publication date and the name of the user who published the journey.
+Para jornadas ao vivo, essa tela exibe a data da publicação e o nome do usuário que publicou a jornada.
 
 O **Copiar detalhes técnicos** O permite copiar informações técnicas sobre a jornada que a equipe de suporte pode usar para a solução de problemas. As seguintes informações são copiadas: JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
@@ -91,19 +91,19 @@ O **Copiar detalhes técnicos** O permite copiar informações técnicas sobre a
 
 ### Entrada{#entrance}
 
-By default, new journeys allow re-entrance. You can uncheck the option for “one shot” journeys, for example if you want to offer a one-time gift when a person enters a shop. Nesse caso, você não deseja que o cliente possa entrar novamente na jornada e receber a oferta novamente.
+Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção por jornadas de &quot;uma ocorrência&quot;, por exemplo, se quiser oferecer um presente único quando uma pessoa entrar em uma loja. Nesse caso, você não deseja que o cliente possa entrar novamente na jornada e receber a oferta novamente.
 
-When a journey &quot;ends&quot;, it will have the status **[!UICONTROL Closed]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. Pessoas que já estão na jornada vão terminar a jornada normalmente.
+Quando uma jornada &quot;terminar&quot;, ela terá o status **[!UICONTROL Closed]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. Pessoas que já estão na jornada vão terminar a jornada normalmente.
 
-Após o tempo limite global padrão de 30 dias, a jornada será alternada para a variável **Concluído** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
+Após o tempo limite global padrão de 30 dias, a jornada será alternada para a variável **Concluído** status. Veja isso [seção](../building-journeys/journey-gs.md#global_timeout).
 
-### Timeout and error in journey activities {#timeout_and_error}
+### Tempo limite e erro nas atividades do jornada {#timeout_and_error}
 
 Ao editar uma ação ou atividade de condição, você pode definir um caminho alternativo em caso de erro ou tempo limite. Se o tratamento da atividade de interrogação de um sistema de terceiros exceder o tempo limite definido nas propriedades da jornada (**[!UICONTROL Timeout and  error]** ), o segundo caminho será escolhido para executar uma ação de fallback potencial.
 
 Os valores autorizados estão entre 1 e 30 segundos.
 
-We recommend that you define a very short **[!UICONTROL Timeout and error]** value if your journey is time sensitive (example: reacting to the real-time location of a person) because you cannot delay your action for more than a few seconds. Se sua jornada for menos sensível ao tempo, você poderá usar um valor mais longo para dar mais tempo ao sistema chamado para enviar uma resposta válida.
+Recomendamos que você defina uma **[!UICONTROL Timeout and error]** se sua jornada for sensível ao tempo (por exemplo: reação ao local em tempo real de uma pessoa) porque não é possível atrasar a ação por mais de alguns segundos. Se sua jornada for menos sensível ao tempo, você poderá usar um valor mais longo para dar mais tempo ao sistema chamado para enviar uma resposta válida.
 
 O Jornada também usa um tempo limite global. Consulte a [próxima seção](#global_timeout).
 
@@ -113,23 +113,23 @@ Além do [timeout](#timeout_and_error) usada em atividades de jornada, também h
 
 >[!NOTE]
 >
->As jornadas não reagem diretamente às solicitações de recusa, acesso ou exclusão de privacidade. However, the global timeout ensures that individuals never stay more than 30 days in any journey.
+>As jornadas não reagem diretamente às solicitações de recusa, acesso ou exclusão de privacidade. No entanto, o tempo limite global garante que os indivíduos nunca permaneçam mais de 30 dias em qualquer jornada.
 
 Devido ao tempo limite da jornada de 30 dias, quando a reentrada da jornada não é permitida, não podemos garantir que o bloqueio de reentrada funcione por mais de 30 dias. Na verdade, à medida que removemos todas as informações sobre pessoas que entraram na jornada 30 dias depois de terem entrado, não podemos conhecer a pessoa que entrou anteriormente, há mais de 30 dias.
 
 ### Fuso horário e fuso horário do perfil {#timezone}
 
-Timezone is defined at journey level.
+O fuso horário é definido no nível da jornada.
 
 Você pode inserir um fuso horário fixo ou usar perfis do Adobe Experience Platform para definir o fuso horário da jornada.
 
 Se um fuso horário for definido no perfil do Adobe Experience Platform, ele poderá ser recuperado na jornada.
 
-For more information on timezone management, see [this page](../building-journeys/timezone-management.md).
+Para obter mais informações sobre o gerenciamento de fuso horário, consulte [esta página](../building-journeys/timezone-management.md).
 
 ### Modo de interrupção {#burst}
 
-O modo Burst é um complemento Journey Optimizer que permite o envio muito rápido de mensagens de push em grandes volumes. It is used for simple journeys that include a **Read segment** activity and a simple push message. O Burst é usado quando o atraso na entrega de mensagens é essencial para os negócios, quando você deseja enviar um alerta por push urgente em telefones celulares, por exemplo, uma notícia de última hora para os usuários que instalaram seu aplicativo de canal de notícias.
+O modo Burst é um complemento Journey Optimizer que permite o envio muito rápido de mensagens de push em grandes volumes. É usado para jornadas simples que incluem um **Ler segmento** e uma mensagem de push simples. O Burst é usado quando o atraso na entrega de mensagens é essencial para os negócios, quando você deseja enviar um alerta por push urgente em telefones celulares, por exemplo, uma notícia de última hora para os usuários que instalaram seu aplicativo de canal de notícias.
 
 As mensagens de interrupção são fornecidas com os seguintes requisitos:
 
@@ -142,7 +142,7 @@ As mensagens de interrupção são fornecidas com os seguintes requisitos:
 >
 >Se algum dos requisitos não for cumprido, o modo burst não estará disponível na jornada.
 
-Para ativar **Modo de interrupção**, abra a jornada e clique no ícone de lápis, na parte superior direita, para acessar as propriedades da jornada. Then, activate the **Enable burst mode** toggle.
+Para ativar **Modo de interrupção**, abra a jornada e clique no ícone de lápis, na parte superior direita, para acessar as propriedades da jornada. Em seguida, ative o **Ativar modo de explosão** alternar.
 
 ![](assets/burst.png)
 
@@ -150,7 +150,7 @@ O modo de burst é desativado automaticamente se você modificar uma jornada de 
 
 ![](assets/burst2.png)
 
-Then test and publish your journey as usual. Observe que, no modo de teste, as mensagens não são enviadas por meio do modo burst.
+Em seguida, teste e publique sua jornada como de costume. Observe que, no modo de teste, as mensagens não são enviadas por meio do modo burst.
 
 Entenda os casos de uso aplicáveis para mensagens de interrupção e como configurar uma jornada para mensagens de interrupção, neste vídeo:
 
@@ -172,7 +172,7 @@ Uma jornada pode ser fechada pelos seguintes motivos:
 * Uma jornada baseada em segmento que terminou de ser executada.
 * Após a última ocorrência de uma jornada recorrente baseada em segmentos.
 
-When a journey is closed (for any of the reasons above), it will have the status **[!UICONTROL Closed]**. The journey stops letting new individuals enter the journey. Persons already in the journey can finish the journey normally. Após o tempo limite global padrão de 30 dias, a jornada será alternada para a variável **Concluído** status. See this [section](../building-journeys/journey-gs.md#global_timeout).
+Quando uma jornada for fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Closed]**. A jornada para de deixar novos indivíduos entrarem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente. Após o tempo limite global padrão de 30 dias, a jornada será alternada para a variável **Concluído** status. Veja isso [seção](../building-journeys/journey-gs.md#global_timeout).
 
 Caso precise parar o progresso de todos os indivíduos na jornada, você pode pará-la. Parar a jornada atingirá o tempo limite para todos os indivíduos na jornada.
 
@@ -203,7 +203,7 @@ Você também pode:
 
    ![](assets/finish_drop_down_list.png)
 
-1. Click **[!UICONTROL Close to new entrances]**, and confirm in the dialog box.
+1. Clique em **[!UICONTROL Close to new entrances]** e confirmar na caixa de diálogo.
 
 ### Parar uma jornada
 
@@ -213,15 +213,15 @@ Não é possível reiniciar uma versão de jornada interrompida.
 
 Quando parado, o status da jornada é definido como **[!UICONTROL Stopped]**.
 
-Você pode interromper uma jornada, por exemplo, se um profissional de marketing perceber que a jornada direciona o público-alvo errado ou se uma ação personalizada que deveria entregar mensagens não está funcionando corretamente. To stop a journey from the list of journeys, click the **[!UICONTROL Ellipsis]** button that is located to the right of the journey name and select **[!UICONTROL Stop]**.
+Você pode interromper uma jornada, por exemplo, se um profissional de marketing perceber que a jornada direciona o público-alvo errado ou se uma ação personalizada que deveria entregar mensagens não está funcionando corretamente. Para interromper uma jornada da lista de jornadas, clique no botão **[!UICONTROL Ellipsis]** botão localizado à direita do nome da jornada e selecione **[!UICONTROL Stop]**.
 
 ![](assets/journey-finish-quick-action.png)
 
 Você também pode:
 
 1. No **[!UICONTROL Journeys]** , clique na jornada que deseja parar.
-1. On the top-right, click on the down arrow.
+1. No canto superior direito, clique na seta para baixo.
 
 ![](assets/finish_drop_down_list.png)
 
-1. Click **[!UICONTROL Stop]**, and confirm in the dialog box.
+1. Clique em **[!UICONTROL Stop]** e confirmar na caixa de diálogo.

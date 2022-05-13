@@ -5,14 +5,15 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
-# Programe seu próprio conteúdo {#code-content}
+# Programar seu próprio conteúdo {#code-content}
 
 Use o **[!UICONTROL Code your own]** para importar HTML bruto e/ou codificar o conteúdo do email. Este método requer competências de HTML.
 

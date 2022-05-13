@@ -1,5 +1,5 @@
 ---
-title: Criar inserções
+title: Criar posicionamentos
 description: Saiba como criar disposições para suas ofertas
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 16%
 
 ---
 
-# Criar inserções {#create-placements}
+# Criar posicionamentos {#create-placements}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"

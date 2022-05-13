@@ -1,6 +1,6 @@
 ---
-title: Use custom actions
-description: Learn how to use custom actions
+title: Usar ações personalizadas
+description: Saiba como usar ações personalizadas
 feature: Actions
 topic: Content Management
 role: User
@@ -13,7 +13,7 @@ ht-degree: 30%
 
 ---
 
-# Use custom actions {#use-custom-actions}
+# Usar ações personalizadas {#use-custom-actions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom"
@@ -24,43 +24,43 @@ As ações personalizadas permitem configurar a conexão de um sistema de tercei
 
 ## Configurar o URL
 
-**** You cannot set up the static part of the URL in the journey, but in the global configuration of the custom action. [Saiba mais](../action/about-custom-action-configuration.md).
+O painel de configuração do **Ação personalizada** mostra os parâmetros de configuração do URL e os parâmetros de autenticação configurados para a ação personalizada. Não é possível configurar a parte estática do URL na jornada, mas na configuração global da ação personalizada. [Saiba mais](../action/about-custom-action-configuration.md).
 
-### Dynamic path
+### Caminho dinâmico
 
-**[!UICONTROL Path]**
+Se o URL incluir um caminho dinâmico, especifique o caminho na variável **[!UICONTROL Path]** campo.
 
-To concatenate fields and plain text strings, use the String functions or the Plus sign (+) in the advanced expression editor. Enclose plain text strings in single quotation marks (&#39;) or in double quotation marks (&quot;). [Saiba mais](expression/expressionadvanced.md).
+Para concatenar campos e strings de texto sem formatação, use as funções String ou o sinal de Mais (+) no editor de expressão avançado. Insira sequências de texto sem formatação em aspas simples (&#39;) ou aspas duplas (&quot;). [Saiba mais](expression/expressionadvanced.md).
 
-This table shows an example of configuration:
+Esta tabela mostra um exemplo de configuração:
 
 | Campo | Valor |
 | --- | --- |
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
 | Path | `The id of marketingCampaign + '/messages'` |
 
-The concatenated URL has this form:
+O URL concatenado tem este formulário:
 
-`https://xxx.yyy.com:8080/somethingstatic/``/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
 ![](assets/journey-custom-action-url.png)
 
 ### Cabeçalhos
 
-**[!UICONTROL URL Configuration]** Dynamic header fields are HTTP header fields whose value is configured as a variable. [Saiba mais](../action/about-custom-action-configuration.md).
+O **[!UICONTROL URL Configuration]** mostra os campos de cabeçalho dinâmicos, mas não os campos de cabeçalho constantes. Os campos de cabeçalho dinâmicos são campos de cabeçalho HTTP cujo valor é configurado como uma variável. [Saiba mais](../action/about-custom-action-configuration.md).
 
-If required, specify the value of dynamic header fields:
+Se necessário, especifique o valor dos campos de cabeçalho dinâmico:
 
-1. Select the custom action in the journey.
-1. **[!UICONTROL URL Configuration]**
+1. Selecione a ação personalizada na jornada.
+1. No painel de configuração, clique no ícone de lápis ao lado do campo de cabeçalho no **[!UICONTROL URL Configuration]** seção.
 
    ![](assets/journey-dynamicheaderfield.png)
 
-1. **[!UICONTROL OK]**
+1. Selecione um campo e clique em **[!UICONTROL OK]**.
 
-## Action parameters
+## Parâmetros de ação
 
-**[!UICONTROL Action parameters]**__ For these parameters, you can define where to get this information (example: events, data sources), pass values manually or use the advanced expression editor for advanced use cases. Advanced uses cases can be data manipulation and other function usage. Consulte esta [página](expression/expressionadvanced.md).
+No **[!UICONTROL Action parameters]** , você verá os parâmetros da mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (exemplo: eventos, fontes de dados), passe os valores manualmente ou use o editor de expressão avançado para casos de uso avançado. Casos de uso avançados podem ser manipulação de dados e outro uso da função. Consulte esta [página](expression/expressionadvanced.md).
 
 **Tópicos relacionados**
 
