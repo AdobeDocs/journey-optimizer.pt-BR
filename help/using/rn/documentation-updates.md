@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 95%
+source-wordcount: '1355'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,8 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * As capturas de tela para relatórios de landing page e subscrição foram atualizadas. [Leia mais](../reports/live-report.md)
 * Uma observação foi adicionada informando que o método Excluir não é compatível com ações personalizadas. [Leia mais](../action/about-custom-action-configuration.md)
 * Os links para vídeos de instruções foram atualizados.
-
+* O [Configuração de email](../configuration/about-subdomain-delegation.md), [Predefinições de mensagem](../configuration/message-presets.md) e [Configurar landing pages](../configuration/lp-subdomains.md) foram reorganizadas para melhorar a legibilidade.
+* O **Rastreamento de URL** A seção foi atualizada e aprimorada com exemplos. [Leia mais](../configuration/email-settings.md#url-tracking)
 
 ## Abril de 2022 {#april-2022}
 

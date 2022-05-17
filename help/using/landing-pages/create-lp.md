@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 2%
@@ -53,7 +53,7 @@ As etapas para criar uma landing page são as seguintes.
 
    ![](assets/lp_create-lp-details.png)
 
-1. Selecione uma predefinição. Saiba como criar predefinições de página de aterrissagem em [esta seção](../configuration/lp-configuration.md#lp-create-preset).
+1. Selecione uma predefinição. Saiba como criar predefinições de página de aterrissagem em [esta seção](../configuration/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -81,7 +81,7 @@ Para definir as configurações da página primária, siga as etapas abaixo.
 
    ![](assets/lp_open-designer.png)
 
-1. Defina o URL da página de aterrissagem. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem como parte do [predefinição](../configuration/lp-configuration.md#lp-create-preset) você selecionou. [Saiba mais](../configuration/lp-configuration.md#lp-subdomains)
+1. Defina o URL da página de aterrissagem. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem como parte do [predefinição](../configuration/lp-presets.md#lp-create-preset) você selecionou. [Saiba mais](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ Para definir as configurações de subpágina, siga as etapas abaixo.
 
 1. Edite o conteúdo da sua página usando o designer de conteúdo. Saiba como definir o conteúdo da página de aterrissagem [here](design-lp.md).
 
-1. Defina o URL da página de aterrissagem. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem. [Saiba mais](../configuration/lp-configuration.md#lp-subdomains)
+1. Defina o URL da página de aterrissagem. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem. [Saiba mais](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
