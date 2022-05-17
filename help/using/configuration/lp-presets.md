@@ -4,7 +4,7 @@ description: Saiba como configurar seu ambiente para criar e usar landing pages 
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 When [criação de uma landing page](../landing-pages/create-lp.md#create-a-lp), você deve selecionar uma predefinição de página de aterrissagem para criar a página de aterrissagem e aproveitá-la **[!DNL Journey Optimizer]**.
 
-## Acessar predefinições da página de aterrissagem {#lp-presets}
+## Acessar predefinições da página de aterrissagem {#access-lp-presets}
 
 Para acessar as predefinições da landing page, siga as etapas abaixo.
 
