@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b9ebacf410f268e19bbaf1d43ee98f5376d0913f
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1237'
 ht-degree: 7%
 
 ---
@@ -359,6 +359,26 @@ A consulta a seguir determina, sem distinção entre maiúsculas e minúsculas, 
 ```sql
 {%= matches(person.name.,"(?i)^John") %}
 ```
+
+## Máscara (#mask)
+
+O `Mask` é usada para substituir uma parte de uma string por caracteres &quot;X&quot;.
+
+**Formato**
+
+```sql
+{%= mask(string,integer,integer) %}
+```
+
+**Exemplo**
+
+O query a seguir substitui a string &quot;123456789&quot; por caracteres &quot;X&quot;, exceto o primeiro e os últimos 2 caracteres.
+
+```sql
+{%= mask("123456789",1,2) %}
+```
+
+O query retorna `1XXXXXX89`.
 
 ## Not equal to{#notEqualTo}
 

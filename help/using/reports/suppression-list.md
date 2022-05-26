@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 3%
+source-wordcount: '769'
+ht-degree: 4%
 
 ---
 
@@ -20,6 +20,10 @@ Uma lista de supressão consiste em endereços de email que você deseja excluir
 O [!DNL Journey Optimizer] a lista de supressão é gerenciada no seu próprio nível de ambiente.
 
 Ele reúne endereços de email e domínios que são suprimidos em todas as correspondências em um único ambiente de cliente, ou seja, são específicos de uma ID da organização associada a uma ID de sandbox.
+
+>[!NOTE]
+>
+>O Adobe mantém uma lista atualizada de endereços de email inválidos conhecidos que comprovadamente são prejudiciais para o engajamento e a reputação da correspondência e garante que os emails não sejam entregues a eles. Essa lista é gerenciada em uma lista de supressão global comum em todos os clientes do Adobe. Os endereços e os nomes de domínio contidos na lista de supressão global estão ocultos. Somente o número de recipients excluídos é indicado nos relatórios de delivery.
 
 ## Por que uma lista de supressão? {#why-suppression-list}
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '371'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,13 @@ Para criar uma lista de subscrição, siga as etapas abaixo.
 
    ![](assets/lp_create-subscription-list.png)
 
-1. Adicione um nome e uma descrição. Esses campos são obrigatórios.
+1. Adicione um título e uma descrição. Esses campos são obrigatórios.
+
+   ![](assets/lp_subscription-list-name.png)
+
+   >[!CAUTION]
+   >
+   >Atualmente, não é possível usar o espaçamento ou inserir um nome que já existe para outra lista de assinaturas no **[!UICONTROL Title]** campo.
 
 1. Você pode definir uma data de início e uma data de término.
 

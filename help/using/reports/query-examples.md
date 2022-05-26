@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: c8e03687d82c6dcfea1195cf8ef091e3d9bc80a5
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1141'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Verifique se os campos usados nas consultas têm valores associados no schema co
 
 ## Erros de mensagem/ação {#message-action-errors}
 
-### Lista de cada erro encontrado no jornada {#error-list-journey}
+**Lista de cada erro encontrado no jornada**
 
 Esta consulta permite listar cada erro encontrado no jornada ao executar uma mensagem/ação.
 
@@ -49,7 +49,7 @@ Este query retorna todos os diferentes erros que ocorreram ao executar uma açã
 
 ## Consultas baseadas em perfil {#profile-based-queries}
 
-### Localizar se um perfil inseriu uma Jornada específica {#profile-entered-journey}
+**Localizar se um perfil inseriu uma Jornada específica**
 
 _Consulta Data Lake_
 
@@ -71,9 +71,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 O resultado deve ser maior que 0. Esse query retorna o número exato de vezes que um perfil entrou em uma jornada.
 
-### Localizar se um perfil recebeu uma mensagem específica {#profile-specific-message}
+**Localizar se um perfil recebeu uma mensagem específica**
 
-**Método 1:** se o nome da mensagem não for exclusivo na jornada (será usado em vários lugares).
+Método 1: se o nome da mensagem não for exclusivo na jornada (será usado em vários lugares).
 
 _Consulta Data Lake_
 
@@ -97,7 +97,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 O resultado deve ser maior que 0. Esta consulta somente informa se a ação da mensagem foi executada com êxito no lado da jornada.
 
-**Método 2:** se o nome da mensagem for exclusivo na jornada.
+Método 2: se o nome da mensagem for exclusivo na jornada.
 
 _Consulta Data Lake_
 
@@ -121,7 +121,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 A query retorna a lista de todas as mensagens junto com sua contagem invocada para o perfil selecionado.
 
-## Encontre todas as mensagens que um perfil recebeu nos últimos 30 dias {#message-received-30-days}
+**Encontre todas as mensagens que um perfil recebeu nos últimos 30 dias**
 
 _Consulta Data Lake_
 
@@ -147,7 +147,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 A query retorna a lista de todas as mensagens junto com sua contagem invocada para o perfil selecionado.
 
-### Encontre todas as jornadas que um perfil inseriu nos últimos 30 dias {#profile-entered-30-days}
+**Encontre todas as jornadas que um perfil inseriu nos últimos 30 dias**
 
 _Consulta Data Lake_
 
@@ -171,7 +171,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 O query retorna a lista de todos os nomes de jornada, juntamente com o número de vezes que o perfil consultado inseriu a jornada.
 
-### Número de perfis qualificados para uma jornada diariamente {#profile-qualified}
+**Número de perfis qualificados para uma jornada diariamente**
 
 _Consulta Data Lake_
 
@@ -197,7 +197,7 @@ O query retorna, para o período definido, o número de perfis que inseriram a j
 
 ## Consultas relacionadas ao segmento de leitura {#read-segment-queries}
 
-### Tempo necessário para concluir um trabalho de exportação de segmento
+**Tempo necessário para concluir um trabalho de exportação de segmento**
 
 _Consulta Data Lake_
 
@@ -229,7 +229,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 O query retorna a diferença de tempo, em minutos, entre o momento em que o trabalho de exportação de segmento foi enfileirado e o momento em que ele acabou.
 
-### Número de perfis que foram descartados pela jornada porque eram duplicatas
+**Número de perfis que foram descartados pela jornada porque eram duplicatas**
 
 _Consulta Data Lake_
 
@@ -251,7 +251,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 O query retorna todas as IDs de perfil que foram descartadas pela jornada porque eram duplicatas.
 
-### Número de perfis que foram descartados pela jornada devido a namespace inválido
+**Número de perfis que foram descartados pela jornada devido a namespace inválido**
 
 _Consulta Data Lake_
 
@@ -273,7 +273,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 A consulta retorna todas as IDs de perfil que foram descartadas pela jornada porque tinham um namespace inválido ou nenhuma identidade para esse namespace.
 
-### Número de perfis que foram descartados pela jornada devido a nenhum mapa de identidade
+**Número de perfis que foram descartados pela jornada devido a nenhum mapa de identidade**
 
 _Consulta Data Lake_
 
@@ -295,7 +295,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 O query retorna todas as IDs de perfil que foram descartadas pela jornada porque o mapa de identidade estava ausente.
 
-### Número de perfis que foram descartados pela jornada porque a jornada estava no nó de teste e o perfil não era um perfil de teste
+**Número de perfis que foram descartados pela jornada porque a jornada estava no nó de teste e o perfil não era um perfil de teste**
 
 _Consulta Data Lake_
 
@@ -317,7 +317,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 O query retorna todas as IDs de perfil que foram descartadas pela jornada porque o trabalho de exportação foi executado no modo de teste, mas o perfil não tinha o atributo testProfile definido como true.
 
-### Número de perfis que foram descartados pela jornada devido a um erro interno
+**Número de perfis que foram descartados pela jornada devido a um erro interno**
 
 _Consulta Data Lake_
 
@@ -339,7 +339,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 O query retorna todas as IDs de perfil que foram descartadas pela jornada devido a algum erro interno.
 
-### Visão geral do segmento Lido para uma determinada versão do jornada
+**Visão geral do segmento Lido para uma determinada versão do jornada**
 
 _Consulta Data Lake_
 
@@ -377,7 +377,7 @@ IMPORTANTE: se não houver um evento retornado por este query, ele pode ser devi
 * a versão do jornada não atingiu o agendamento
 * se a versão do jornada deveria ter disparado o trabalho de exportação chamando o orquestrador, algo deu errado no fluxo ascendente: problema na implantação do jornada, evento comercial ou problema com o scheduler.
 
-### Obter erros de Segmento de Leitura para uma determinada versão do jornada
+**Obter erros de Segmento de Leitura para uma determinada versão do jornada**
 
 _Consulta Data Lake_
 
@@ -403,7 +403,7 @@ WHERE
     )
 ```
 
-### Obter o status de processamento do trabalho de exportação
+**Obter o status de processamento do trabalho de exportação**
 
 _Consulta Data Lake_
 
@@ -432,7 +432,7 @@ Se nenhum registro for retornado, isso significa que:
 * ocorreu um erro durante a criação de tópico ou trabalho de exportação
 * o trabalho de exportação ainda está em execução
 
-### Obter métricas em perfis exportados, incluindo descartes e métricas de trabalho de exportação para cada trabalho de exportação
+**Obter métricas em perfis exportados, incluindo descartes e métricas de trabalho de exportação para cada trabalho de exportação**
 
 _Consulta Data Lake_
 
@@ -492,7 +492,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-### Obter métricas agregadas (tarefas de exportação de segmentos e descartes) em todos os trabalhos de exportação
+**Obter métricas agregadas (tarefas de exportação de segmentos e descartes) em todos os trabalhos de exportação**
 
 _Consulta Data Lake_
 
@@ -557,31 +557,59 @@ Ele retorna as métricas gerais de uma determinada versão do jornada, independe
 
 ## Consultas relacionadas à qualificação de segmento {#segment-qualification-queries}
 
-### Perfil descartado por causa de uma realização de segmento diferente daquele configurado
+**Perfil descartado por causa de uma realização de segmento diferente daquele configurado**
 
 _Consulta Data Lake_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = '<journey-version id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 _Exemplo_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94cdf1c4159d' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 Este query retorna todas as IDs de perfil que foram descartadas pela versão do jornada devido à realização incorreta do segmento.
 
+**Eventos de qualificação de segmento descartados por qualquer outro motivo para um perfil específico**
+
+_Consulta Data Lake_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = '<profile-id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_Exemplo_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+Esse query retorna todos os eventos (eventos externos / eventos de qualificação de segmento) que foram descartados por qualquer outro motivo para um perfil.
+
 ## Consultas baseadas em eventos {#event-based-queries}
 
-### Verificar se um evento comercial foi recebido para uma jornada
+**Verificar se um evento comercial foi recebido para uma jornada**
 
 _Consulta Data Lake_
 
@@ -607,9 +635,101 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
+**Verifique se um evento externo de um perfil foi descartado porque nenhuma jornada relacionada foi encontrada**
+
+_Consulta Data Lake_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+_Exemplo_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '515bff852185e434ca5c83bcfc4f24626b1545ca615659fc4cfff91626ce61a6' AND
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+**Verifique se um evento externo de um perfil foi descartado por qualquer outro motivo**
+
+_Consulta Data Lake_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='<profileID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='<eventID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_Exemplo_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='81c51be978d8bdf9ef497076b3e12b14533615522ecea9f5080a81c736491656' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+**Verifique a contagem de todos os eventos descartados por stateMachine por errorCode**
+
+_Consulta Data Lake_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+_Exemplo_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+**Verificar todos os eventos descartados porque a reentrada não foi permitida**
+
+_Consulta Data Lake_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
+_Exemplo_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
 ## Consultas comuns baseadas em jornada {#journey-based-queries}
 
-### Número de jornadas ativas diárias {#daily-active-journeys}
+**Número de jornadas ativas diárias**
 
 _Consulta Data Lake_
 
@@ -633,7 +753,7 @@ O query retorna, para o período definido, a contagem de jornadas exclusivas que
 
 ## Consultas em instâncias do jornada {#journey-instances-queries}
 
-### Número de perfis em um estado específico em um horário específico
+**Número de perfis em um estado específico em um horário específico**
 
 _Consulta Data Lake_
 
@@ -781,7 +901,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### Quantos perfis saíram da jornada no período de tempo específico
+**Quantos perfis saíram da jornada no período de tempo específico**
 
 _Consulta Data Lake_
 
@@ -819,7 +939,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### Quantos perfis saíram da jornada no período de tempo específico com nó/status
+**Quantos perfis saíram da jornada no período de tempo específico com nó/status**
 
 _Consulta Data Lake_
 

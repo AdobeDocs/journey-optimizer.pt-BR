@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '865'
 ht-degree: 1%
 
 ---
@@ -31,15 +31,19 @@ Para fazer isso, você pode usar uma regra de frequência que limitará o númer
 
 As regras estão disponíveis na **[!UICONTROL Administration]** > **[!UICONTROL Rules]** menu. Todas as regras são listadas, classificadas por data de modificação.
 
->[!NOTE]
->
->Para acessar, criar, editar ou excluir regras de frequência de mensagem, você deve ter a variável [Gerenciar regras de frequência](../administration/high-low-permissions.md#manage-frequency-rules) permissão.
-
-![](assets/message-rules-access.png)
-
 Use o ícone de filtro para filtrar na categoria, no status e/ou no canal. Você também pode pesquisar no rótulo da mensagem.
 
 ![](assets/message-rules-filter.png)
+
+### Permissões{#permissions-frequency-rules}
+
+Para acessar, criar, editar ou excluir regras de frequência de mensagem, você deve ter a variável **[!UICONTROL Manage frequency rules]** permissão.
+
+Usuários com a **[!UICONTROL View frequency rules]** as permissões do podem exibir regras, mas não para modificá-las ou excluí-las.
+
+![](assets/message-rules-access.png)
+
+Saiba mais sobre permissões em [esta seção](../administration/high-low-permissions.md).
 
 ## Criar uma regra {#create-new-rule}
 
@@ -79,13 +83,13 @@ Para criar uma nova regra, siga as etapas abaixo.
 
    Por exemplo, defina o limite como 15 e selecione os canais de email e push. Se um perfil já tiver recebido 10 emails de marketing e 5 notificações por push de marketing, ele será excluído do próximo delivery de qualquer email de marketing ou notificação por push.
 
-1. Clique em **[!UICONTROL Save as draft]** para confirmar a criação da regra. Sua mensagem é adicionada na lista de regras, com a variável **[!UICONTROL Draft]** status.
+1. Clique em **[!UICONTROL Save as draft]** para confirmar a criação da regra. Sua mensagem é adicionada à lista de regras, com a variável **[!UICONTROL Draft]** status.
 
    ![](assets/message-rules-created.png)
 
 ## Ativar uma regra {#activate-rule}
 
-Quando criada, uma regra de frequência de mensagem tem a variável **[!UICONTROL Draft]** e ainda não afeta nenhuma mensagem. Para habilitá-lo, clique nas reticências ao lado da regra e selecione **[!UICONTROL Activate]**.
+Quando criada, uma regra de frequência de mensagem tem a variável **[!UICONTROL Draft]** e ainda não está afetando nenhuma mensagem. Para habilitá-lo, clique nas reticências ao lado da regra e selecione **[!UICONTROL Activate]**.
 
 ![](assets/message-rules-activate.png)
 
@@ -93,7 +97,7 @@ Ativar uma regra afetará as mensagens que ela se aplicar à próxima execução
 
 >[!NOTE]
 >
->Não é necessário modificar ou republicar mensagens ou jornadas para que uma regra entre em vigor.
+>Pode levar até 10 minutos para que uma regra seja totalmente ativada. Não é necessário modificar ou republicar mensagens ou jornadas para que uma regra entre em vigor.
 
 Para desativar uma regra de frequência de mensagem, clique nas reticências ao lado da regra e selecione **[!UICONTROL Deactivate]**.
 
@@ -132,6 +136,10 @@ Para aplicar uma regra de frequência a uma mensagem, siga as etapas abaixo.
 1. [Design](../design/design-emails.md) e [publicar](../messages/publish-manage-message.md) sua mensagem.
 
 Todas as regras de frequência que correspondem à categoria e aos canais selecionados serão automaticamente aplicadas a esta mensagem.
+
+>[!NOTE]
+>
+>Mensagens <!--that do not have any selected category or messages -->em que a categoria selecionada é **[!UICONTROL Transactional]** não serão avaliadas com base nas regras de frequência.
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -178,3 +186,7 @@ Você pode combinar várias regras de frequência de mensagem, como descrito no 
 Nesse cenário, um perfil individual:
 * Pode receber até 12 mensagens de marketing por mês;
 * mas serão excluídas das notificações por push de marketing depois de terem recebido quatro notificações por push.
+
+>[!NOTE]
+>
+>Ao testar as regras de frequência, pode ser útil começar com uma [perfil de teste](../segment/creating-test-profiles.md), pois assim que o limite de frequência de um perfil é atingido, não há como redefinir o contador até o mês seguinte. Desativar uma regra permitirá que perfis com limites recebam mensagens, mas não removerá ou excluirá quaisquer incrementos de contador.

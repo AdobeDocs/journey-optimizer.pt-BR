@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1527'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,6 @@ Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode c
 >
 >Antes de testar sua jornada, você deve resolver todos os erros, se houver. Saiba como verificar erros antes de testar na [esta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
-
 Para usar o modo de teste, siga estas etapas:
 
 1. Para ativar o modo de teste, ative o **[!UICONTROL Test]** alternar, localizado no canto superior direito.
@@ -41,7 +40,7 @@ Para usar o modo de teste, siga estas etapas:
 
    >[!NOTE]
    >
-   >Quando um evento de reação é usado em uma jornada, o tempo de espera padrão e o valor mínimo são 40 segundos. Consulte [esta seção](../building-journeys/reaction-events.md).
+   >Quando um evento de reação com tempo limite é usado em uma jornada, o tempo de espera padrão e o valor mínimo são 40 segundos. Consulte [esta seção](../building-journeys/reaction-events.md).
 
 1. Use o **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada.
 
@@ -102,7 +101,7 @@ Quando você seleciona um perfil de teste diferente na tela de configuração do
 
 Ao abrir uma jornada no teste, o caminho exibido corresponde ao último teste executado.
 
-O fluxo visual funciona se o evento é acionado por meio da interface ou externamente (usando Postman, por exemplo).
+O fluxo visual funciona se o evento é acionado via interface ou externamente (usando Postman, por exemplo).
 
 ## Modo de teste para jornadas baseadas em regras {#test-rule-based}
 

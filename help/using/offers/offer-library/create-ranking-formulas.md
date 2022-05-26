@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: fa0e0af075f32976afb6b4f7e10b7aea12033b42
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### Aumente as ofertas com determinado atributo de oferta com base nos dados de contexto
 
-Impulsione determinadas ofertas com base nos dados de contexto que estão sendo transmitidos na chamada de decisão. Por exemplo, se a variável `contextData.weather=hot` é passada na chamada de decisão, a prioridade de todas as ofertas com `attribute=hot` deve ser potenciado.
+É possível impulsionar determinadas ofertas com base nos dados de contexto passados na chamada de decisão. Por exemplo, se a variável `contextData.weather=hot` é passada na chamada de decisão, a prioridade de todas as ofertas com `attribute=hot` deve ser potenciado.
 
 **Fórmula de classificação:**
 
@@ -139,21 +139,9 @@ Observe que, ao usar a API de decisão, os dados de contexto são adicionados ao
 
 ### Aumente as ofertas com base na propensão do cliente para comprar o produto que está sendo oferecido
 
-Se houver duas instâncias de *CustomerAI* cálculo da propensão de compra *TravelInsurance* e *extraBaggauge* para uma companhia aérea, a seguinte fórmula de classificação aumentará a prioridade (em 50 pontos) da oferta específica para seguro ou bagagem se a pontuação de propensão do cliente para comprar esse produto for maior que 90.
+Você pode aumentar a pontuação de uma oferta com base em uma pontuação de propensão do cliente.
 
-Mas porque cada *CustomerAI* A instância cria seu próprio objeto no esquema de perfil unificado, não é possível selecionar dinamicamente a pontuação com base no tipo de propensão da oferta. Assim você tem que encadear a `if` instruções para verificar primeiro o tipo de propensão da oferta e, em seguida, extrair a pontuação do campo de perfil apropriado.
-
-**Fórmula de classificação:**
-
-```
-if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
-    (
-        if ( offer.characteristics.propensityType = "travelInsurancePropensity" and _salesvelocity.CustomerAI.insurancePropensity.score > 90, offer.rank.priority + 50, offer.rank.priority )
-    )
-)
-```
-
-Uma solução melhor é armazenar as pontuações em uma matriz do perfil. O exemplo a seguir funcionará em uma variedade de diferentes pontuações de propensão usando apenas uma fórmula de classificação simples. A expectativa é que você tenha um esquema de perfil com uma matriz de pontuações. Neste exemplo, o locatário da instância é *_salesvelocity* e o schema de perfis contém o seguinte:
+Neste exemplo, o locatário da instância é *_salesvelocity* e o schema de perfil contém um intervalo de pontuações armazenadas em uma matriz:
 
 ![](../assets/ranking-example-schema.png)
 

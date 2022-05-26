@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 18%
+source-wordcount: '151'
+ht-degree: 7%
 
 ---
 
 # distinct {#distinct}
 
-Retorna os valores distintos da lista sem valores nulos.
+Retorna os valores ou objetos distintos de uma determinada lista. Entradas nulas são ignoradas.
 
 ## Categoria
 
@@ -23,20 +23,14 @@ Lista
 
 ## Sintaxe da função
 
-`distinct(<parameter>)`
+`distinct(<parameters>)`
 
 ## Parâmetros
 
-| Parâmetro | Tipo |
-|-----------|------------------|
-| Lista | listString |
-| Lista | listBoolean |
-| Lista | listInteger |
-| Lista | listDecimal |
-| Lista | listDuration |
-| Lista | listDateTime |
-| Lista | listDateTimeOnly |
-| Lista | listDateOnly |
+| Parâmetro | Tipo | Descrição |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista para processar. Para listObject, deve ser uma referência de campo. |
+| keyAttributeName | string | Esse parâmetro é opcional e somente para listObject. Se o parâmetro não for fornecido, um objeto será considerado duplicado se todos os atributos tiverem os mesmos valores. Caso contrário, um objeto será considerado duplicado se o atributo em questão tiver o mesmo valor. |
 
 ## Assinaturas e tipos retornados
 
@@ -71,6 +65,13 @@ Retorna uma lista de booleanos.
 `distinct(<listDuration>)`
 
 Retorna uma lista de durações.
+
+`distinct(<listObject>)`
+
+`distinct(<listObject>,<string>)`
+
+Retorna uma lista de objetos.
+
 
 ## Exemplos
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: c41bc43643bac4d8715469a18d6908846ddd6bf7
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '867'
 ht-degree: 3%
 
 ---
@@ -193,7 +193,7 @@ O tempo de end-to-end para cada decisão de lote é a duração do tempo em que 
 
 Ao usar a variável [!DNL Batch Decisioning] Lembre-se das seguintes limitações da API:
 
-* **Trabalho em lote único por conjunto de dados**: Atualmente, apenas um trabalho em lote pode ser executado por conjunto de dados por vez. Qualquer outra solicitação com o mesmo conjunto de dados de saída responderia com HTTP 429 (Muitas solicitações) antes de a solicitação anterior terminar.
+* **O número de trabalhos em lote em execução por conjunto de dados**: É possível executar até cinco trabalhos em lote por vez, por conjunto de dados. Quaisquer outras solicitações em lote com o mesmo conjunto de dados de saída são adicionadas à fila. Um trabalho em fila é selecionado para o processamento quando o trabalho anterior terminar de ser executado.
 * **Limite de frequência**: Um lote é executado do instantâneo do perfil que ocorre uma vez por dia. O [!DNL Batch Decisioning] A API limita a frequência e sempre carrega perfis do instantâneo mais recente.
 
 ## Próximas etapas {#next-steps}

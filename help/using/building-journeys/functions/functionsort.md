@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 18%
+source-wordcount: '131'
+ht-degree: 9%
 
 ---
 
 # sort {#sort}
 
-Classifica uma lista de valores na ordem natural. O primeiro argumento é a lista de valores, o segundo é um valor booleano indicando se a classificação é crescente (true) ou decrescente (false).
+Classifica uma lista de valores ou objetos na ordem natural.
 
 ## Categoria
 
@@ -27,17 +27,11 @@ Lista
 
 ## Parâmetros
 
-| Parâmetro | Tipo |
-|-----------|------------------|
-| Lista | listString |
-| Lista | listBoolean |
-| Lista | listInteger |
-| Lista | listDecimal |
-| Lista | listDuration |
-| Lista | listDateTime |
-| Lista | listDateTimeOnly |
-| Lista | listDateOnly |
-| Booleano | Booleano |
+| Parâmetro | Tipo | Descrição |
+|-----------|------------------|------------------|
+| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista para classificar. Para listObject, deve ser uma referência de campo. |
+| keyAttributeName | string | Esse parâmetro é somente para listObject. O nome do atributo nos objetos da lista fornecida é usado como chave para classificação. |
+| sortingOrder | booleano | Crescente (true) ou decrescente (false) |
 
 ## Assinatura e tipo retornado
 
@@ -69,6 +63,10 @@ Retorna uma lista de datas.
 
 Retorna uma lista de booleanos.
 
+`sort(<listObject>,<string>,<boolean>)`
+
+Retorna uma lista de objetos.
+
 ## Exemplo
 
 `sort(["A", "C", "B"], true)`
@@ -78,3 +76,4 @@ Devoluções `["A","B","C"]`.
 `sort([1, 3, 2], false)`
 
 Devoluções `[3, 2, 1]`.
+

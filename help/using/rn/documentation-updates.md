@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 93%
+source-wordcount: '1412'
+ht-degree: 89%
 
 ---
 
@@ -13,9 +13,13 @@ ht-degree: 93%
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
 
+## Junho de 2022 {#june-2022}
+
+* Novos exemplos de query relacionados a [qualificação de segmento](../reports/query-examples.md#segment-qualification-queries) e [events](../reports/query-examples.md#event-based-queries) foram acrescentadas a esta
 
 ## Maio de 2022 {#may-2022}
 
+* Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 22 de maio foi detalhada na documentação. [Leia mais](release-notes.md)
 * A seção de design de email agora menciona novos modelos integrados disponíveis para iniciar o conteúdo. As capturas de tela relacionadas foram atualizadas. [Leia mais](../design/design-emails.md)
 * Os links para recursos principais foram atualizados na página inicial da documentação do Journey Optimizer.
 * As capturas de tela para relatórios de landing page e subscrição foram atualizadas. [Leia mais](../reports/live-report.md)
@@ -23,6 +27,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Os links para vídeos de instruções foram atualizados.
 * O [Configuração de email](../configuration/about-subdomain-delegation.md), [Predefinições de mensagem](../configuration/message-presets.md) e [Configurar landing pages](../configuration/lp-subdomains.md) foram reorganizadas para melhorar a legibilidade.
 * O **Rastreamento de URL** A seção foi atualizada e aprimorada com exemplos. [Leia mais](../configuration/email-settings.md#url-tracking)
+* Uma nova subseção sobre como configurar um endereço de email de encaminhamento foi adicionada. Observe que não é possível fazer isso por meio da interface do usuário. [Leia mais](../configuration/email-settings.md#forward-email)
 
 ## Abril de 2022 {#april-2022}
 

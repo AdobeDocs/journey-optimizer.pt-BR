@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 96%
 
 ---
 
@@ -69,9 +69,15 @@ Para criar uma nova mensagem, siga as etapas abaixo:
 
    * Selecione os canais que deseja usar para essa mensagem: notificação por email e/ou notificação por push. Você deve selecionar pelo menos um canal para criar a mensagem.
 
+   <!--
+   >[!NOTE]
+   >
+   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
+   -->
+
    * Selecione a **[!UICONTROL Preset]** para usar na mensagem.
 
-      As predefinições incluem todos os parâmetros necessários para que uma notificação por email e/ou por push seja enviada de acordo com sua marca. [Saiba mais sobre predefinições](../configuration/message-presets.md).
+      As predefinições incluem todos os parâmetros necessários para que uma notificação por email e/ou por push seja enviada de acordo com sua marca. Saiba mais sobre [predefinições](../configuration/message-presets.md).
    >[!CAUTION]
    >
    >Você deve escolher uma predefinição de mensagem válida para a categoria e os canais selecionados.
@@ -83,6 +89,10 @@ Para criar uma nova mensagem, siga as etapas abaixo:
    Uma guia está disponível para cada canal selecionado. Use essas guias para configurar o conteúdo de cada canal. Você pode remover uma guia selecionando-a e clicando no botão **[!UICONTROL Delete channel]** à direita.
 
    ![](assets/create-messages-content.png)
+
+   >[!NOTE]
+   >
+   >Se você ativou a variável **[!UICONTROL BCC email]** na predefinição, o endereço de email CCO será exibido no email do remetente. [Saiba mais](../configuration/email-settings.md#bcc-email)
 
    Agora você pode criar o conteúdo da mensagem e adaptar as configurações. Informações detalhadas sobre as configurações de email e notificação por push estão disponíveis nas seguintes seções:
 

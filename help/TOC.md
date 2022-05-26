@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 97%
+source-wordcount: '1040'
+ht-degree: 92%
 
 ---
 
@@ -16,16 +16,19 @@ ht-degree: 97%
 
 + [Documentação do Journey Optimizer](ajo-home.md)
 + Novidades? {#whats-new}
-   + [Notas de versão](using/rn/release-notes.md)
-   + [Atualizações mais recentes](using/rn/documentation-updates.md)
+   + [Notas de versão mais recentes](using/rn/release-notes.md)
+   + Notas de versão anteriores {#previous-rn-new}
+      + [Notas de versão de 2022](using/rn/release-notes-2022.md)
+      + [Notas de versão de 2021](using/rn/release-notes-2021.md)
+   + [Atualizações de documentação](using/rn/documentation-updates.md)
 + Introdução{#get-started}
    + [O que é o Journey Optimizer](using/start/get-started.md)
    + Início rápido{#quick-start}
       + [Visão geral](using/start/quick-start.md)
       + [Introdução como profissional de marketing](using/start/path/marketer.md)
-      + [Introdução como engenheiro de dados](using/start/path/data-engineer.md)
-      + [Introdução como administrador](using/start/path/administrator.md)
-      + [Introdução como desenvolvedor](using/start/path/developer.md)
+      + [Comece como um engenheiro de dados](using/start/path/data-engineer.md)
+      + [Comece como um administrador](using/start/path/administrator.md)
+      + [Introdução ao Developer](using/start/path/developer.md)
    + [Interface do usuário](using/start/user-interface.md)
    + [Limitações](using/start/limitations.md)
 + Mensagens {#messages}
@@ -60,7 +63,11 @@ ht-degree: 97%
 + Páginas de aterrissagem {#landing-pages}
    + [Introdução às páginas de aterrissagem](using/landing-pages/get-started-lp.md)
    + [Criar uma página de aterrissagem](using/landing-pages/create-lp.md)
-   + [Projetar uma página de aterrissagem](using/landing-pages/design-lp.md)
+   + Criação de conteúdo {#landing-pages-design}
+      + [Sobre o design da página de aterrissagem](using/landing-pages/design-lp.md)
+      + [Criar o conteúdo da página de aterrissagem](using/landing-pages/lp-content.md)
+      + [Criar modelos](using/landing-pages/lp-templates.md)
+      + [Adicionar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
    + [Criar uma lista de assinaturas](using/landing-pages/subscription-list.md)
    + [Casos de uso](using/landing-pages/lp-use-cases.md)
 + Personalização{#personalization}
@@ -179,6 +186,7 @@ ht-degree: 97%
             + [no](using/building-journeys/functions/functionin.md)
             + [interseção](using/building-journeys/functions/functionintersect.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
+            + [limite](using/building-journeys/functions/functionlimit.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + Matemática {#math}
@@ -245,6 +253,7 @@ ht-degree: 97%
       + [Introdução à capacidade de entrega](using/reports/deliverability.md)
       + [Lista de supressão](using/reports/suppression-list.md)
       + [Lista de permissões](using/reports/allow-list.md)
+   + [Ações de auditoria em recursos do Journey Optimizer](using/reports/audit-logs.md)
 + Gerenciamento de decisão {#offer-decisioniong}
    + Introdução ao gerenciamento de decisão {#get-started-decision}
       + [Sobre o Gerenciamento de decisão](using/offers/get-started/starting-offer-decisioning.md)
@@ -391,3 +400,5 @@ ht-degree: 97%
    + [Gerenciar usuários e perfis de produtos](using/administration/permissions.md)
    + [Níveis de permissão](using/administration/high-low-permissions.md)
    + [Gerenciamento de sandboxes](using/administration/sandboxes.md)
+   + [Controle de acesso baseado em atributos](using/administration/attribute-based-access.md)
+
