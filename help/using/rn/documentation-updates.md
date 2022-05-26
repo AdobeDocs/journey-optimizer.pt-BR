@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
 workflow-type: tm+mt
 source-wordcount: '1409'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,9 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Novos exemplos de query relacionados a [qualificação de segmento](../reports/query-examples.md#segment-qualification-queries) e [events](../reports/query-examples.md#event-based-queries) foram adicionados.
 * A seção de design de email agora menciona novos modelos integrados disponíveis para iniciar o conteúdo. As capturas de tela relacionadas foram atualizadas. [Leia mais](../design/design-emails.md)
 * Os links para recursos principais foram atualizados na página inicial da documentação do Journey Optimizer.
-* As capturas de tela para relatórios de landing page e subscrição foram atualizadas. [Leia mais](../reports/live-report.md)
-* Uma observação foi adicionada informando que o método Excluir não é compatível com ações personalizadas. [Leia mais](../action/about-custom-action-configuration.md)
-* Os links para vídeos de instruções foram atualizados.
+* As capturas de tela para relatórios de página de aterrissagem e subscrição foram atualizadas. [Leia mais](../reports/live-report.md)
+* Uma observação foi adicionada informando que o método DELETE não é compatível com ações personalizadas. [Leia mais](../action/about-custom-action-configuration.md)
+* Os links para vídeos de instrução foram atualizados.
 * O [Configuração de email](../configuration/about-subdomain-delegation.md), [Predefinições de mensagem](../configuration/message-presets.md) e [Configurar landing pages](../configuration/lp-subdomains.md) foram reorganizadas para melhorar a legibilidade.
 * O **Rastreamento de URL** A seção foi atualizada e aprimorada com exemplos. [Leia mais](../configuration/email-settings.md#url-tracking)
 * Uma nova subseção sobre como configurar um endereço de email de encaminhamento foi adicionada. Observe que não é possível fazer isso por meio da interface do usuário. [Leia mais](../configuration/email-settings.md#forward-email)
