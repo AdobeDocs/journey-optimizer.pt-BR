@@ -2,9 +2,9 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+source-git-commit: 53a625c0e62fbfae703b40bb1d47105c168730ea
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '387'
 ht-degree: 35%
 
 ---
@@ -48,6 +48,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
+<p>Data de disponibilidade: <strong>31 de maio</strong></p>
 <p>Agora você pode usar o recurso Email Cco (cópia cega de carbono) para armazenar emails enviados pelo Adobe Journey Optimizer. Ative essa opção nas predefinições de email para que cada email enviado seja copiado para o CCO.</p>
 <img src="assets/bcc-rn.gif"/>
 <p>Para obter mais informações, consulte a <a href="../configuration/email-settings.md#bcc-email">documentação detalhada</a>.</p>

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 13fbe0583affb48269932134ea6bc214180903dd
+source-git-commit: c48d083445d4e4c7cdbed1a61cee13ed3fcfcc8b
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2166'
 ht-degree: 2%
 
 ---
@@ -138,6 +138,10 @@ O endereço de email de encaminhamento será configurado pelo Adobe. Isso pode l
 
 Você pode enviar uma cópia idêntica (ou cópia oculta de carbono) de um email enviado por [!DNL Journey Optimizer] para uma caixa de entrada CCO. Esse recurso opcional permite reter cópias das comunicações por email enviadas aos usuários para fins de conformidade e/ou arquivamento. Isso será invisível para os recipients do delivery.
 
+>[!CAUTION]
+>
+>Esse recurso estará disponível a partir de **31 de maio**.
+
 ### Habilitar email CCO {#enable-bcc}
 
 Para ativar o **[!UICONTROL BCC email]** , insira o endereço de email de sua escolha no campo dedicado. Você pode especificar qualquer endereço externo no formato correto, exceto um endereço de email definido no subdomínio delegado. Por exemplo, se o subdomínio delegado for *marketing.luma.com* qualquer endereço como *abc@marketing.luma.com* é proibida.
@@ -145,6 +149,8 @@ Para ativar o **[!UICONTROL BCC email]** , insira o endereço de email de sua es
 >[!NOTE]
 >
 >Você só pode definir um endereço de email CCO. Verifique se o endereço CCO tem capacidade de recepção suficiente para armazenar todos os emails enviados usando a predefinição atual.
+>
+>Mais recomendações estão listadas em [esta seção](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
@@ -168,23 +174,26 @@ No entanto, o endereço CCO é selecionado para enviar comunicações seguindo a
 >
 >Não é necessário republicar uma mensagem ou jornada para que a configuração Cco seja selecionada.
 
-### Recommendations e limitações {#recommendations-limitations}
+### Recommendations e limitações {#bcc-recommendations-limitations}
 
-* Verifique se o endereço de email CCO está definido corretamente. Se esse não for o caso, as informações de identificação pessoal (PII) de seus clientes poderão ser enviadas para um endereço indesejado.
+* Para garantir sua conformidade com a privacidade, os emails do CCO devem ser processados por um sistema de arquivamento capaz de armazenar informações de identificação pessoal (PII) seguras.
 
-* Por motivos de privacidade, os emails CCO devem ser processados por um sistema de arquivamento capaz de armazenar informações de identificação pessoal (PII) seguras.
-
-* Esse recurso pode ser entregue ao endereço de email CCO antes de ser enviado aos recipients, o que pode resultar no envio de mensagens CCO mesmo que os deliveries originais possam ter [devolvido](../reports/suppression-list.md#delivery-failures).
-
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
-
-* Se os emails enviados para o endereço CCo forem abertos e clicados, isso será considerado no total de aberturas e cliques da análise de envio, o que poderá causar alguns erros de cálculo no [relatórios](../reports/message-monitoring.md). Da mesma forma, marcar emails CCO que chegam em sua caixa de entrada como spam pode fazer com que os emails cheguem à pasta de spam de sua caixa de entrada.
+* Como as mensagens podem conter dados confidenciais ou privados, como informações de identificação pessoal (PII), verifique se o endereço CCO está correto e proteja o acesso às mensagens.
 
 * Sua caixa de entrada usada para Cco deve ser gerenciada adequadamente para espaço e entrega. Se a caixa de entrada retornar rejeições, alguns emails poderão não ser recebidos e, portanto, não serão arquivados.
 
+* As mensagens podem ser entregues ao endereço de email CCo antes dos recipients do target. As mensagens Cco também podem ser enviadas mesmo que as mensagens originais tenham [devolvido](../reports/suppression-list.md#delivery-failures).
+
+   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+
+* Não abra ou clique nos emails enviados para o endereço CCO, pois são considerados no total de aberturas e cliques da análise de envio, o que pode causar alguns erros de cálculo no [relatórios](../reports/message-monitoring.md).
+
+* Não marque mensagens como spam na caixa de entrada CCO, pois isso afetará todos os outros emails enviados para esse endereço.
+
+
 >[!CAUTION]
 >
->Evite clicar no link de cancelamento de inscrição nos emails enviados para o endereço CCo, pois você cancelará imediatamente a assinatura dos recipients correspondentes.
+>Não clique no link de cancelamento de subscrição nos emails enviados para o endereço CCo, pois você cancelará imediatamente a assinatura dos recipients correspondentes.
 
 ### Conformidade com o RGPD {#gdpr-compliance}
 
