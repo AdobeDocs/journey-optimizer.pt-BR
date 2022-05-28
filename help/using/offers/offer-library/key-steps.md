@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 14%
@@ -38,7 +38,7 @@ Antes de começar a criar ofertas, você deve definir vários componentes que us
 <td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">Criar inserções</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">Criar regras de decisão</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">Criar tags</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../offer-library/create-ranking-formulas.md">Criar fórmulas de classificação</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../ranking/create-ranking-formulas.md">Criar fórmulas de classificação</a></p></td>
 </table>
 
 ## Criar e gerenciar ofertas {#create-and-manage-offers}

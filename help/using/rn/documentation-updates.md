@@ -2,7 +2,7 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 94%
@@ -39,7 +39,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 ## Março de 2022 {#march-2022}
 
 * Todos os novos recursos e aprimoramentos da versão de março de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Saiba mais](release-notes.md)
-* Uma nova página de introdução aos modelos de IA foi adicionada à seção **Offer Decisioning**, incluindo uma descrição completa do [modelo de otimização automática](../offers/offer-library/ai-ranking.md#auto-optimization), o algoritmo que ele utiliza, entre outros detalhes técnicos. [Saiba mais](../offers/offer-library/ai-ranking.md)
+* Uma nova página de introdução aos modelos de IA foi adicionada à seção **Offer Decisioning**, incluindo uma descrição completa do [modelo de otimização automática](../offers/ranking/auto-optimization-model.md), o algoritmo que ele utiliza, entre outros detalhes técnicos. [Saiba mais](../offers/ranking/ai-models.md)
 * A página de criação do perfil de teste foi movida para a seção **Segmento, perfis e identidade**. [Saiba mais](../segment/creating-test-profiles.md)
 * Adição de um exemplo sobre como adicionar uma expressão como valor padrão no editor de expressão. [Saiba mais](../building-journeys/expression/field-references.md#default-value)
 * A seção **Criar ofertas personalizadas** foi reorganizada para melhorar a leitura. [Saiba mais](../offers/offer-library/creating-personalized-offers.md)
@@ -55,8 +55,8 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 ## Janeiro de 2022 {#january-2022}
 
 * Todos os novos recursos e aprimoramentos da versão de janeiro de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
-* A seção **Classificações de IA do Offer Decisioning** foi atualizada com uma descrição mais detalhada do modelo de otimização automática. [Leia mais](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
-* Foi adicionada uma nova seção sobre os requisitos de esquema necessários para poder enviar tipos de evento ao usar uma estratégia de classificação. [Leia mais](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
+* A seção **Classificações de IA do Offer Decisioning** foi atualizada com uma descrição mais detalhada do modelo de otimização automática. [Leia mais](../offers/ranking/auto-optimization-model.md)
+* Foi adicionada uma nova seção sobre os requisitos de esquema necessários para poder enviar tipos de evento ao usar uma estratégia de classificação. [Leia mais](../offers/ranking/schema-requirement.md)
 * A seção relacionada aos recursos de personalização do [!DNL Journey Optimizer] foi reorganizada para melhorar a compreensão. [Leia mais](../personalization/personalize.md)
 * A seção **Criar predefinições de mensagem** foi dividida em várias seções para maior clareza. [Leia mais](../configuration/message-presets.md#create-message-preset)
 * A seção **Gerenciamento de opção de não participação** foi esclarecida e levemente reorganizada. [Leia mais](../messages/consent.md#opt-out-management)
@@ -106,7 +106,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * Subseção adicionada para esclarecer as diferenças entre o uso de segmentos versus regras de decisão ao aplicar uma restrição contra a seleção de ofertas para um determinado posicionamento. [Leia mais](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
-* Exemplos específicos de fórmulas de classificação adicionados para ilustrar alguns casos de uso reais. [Leia mais](../offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+* Exemplos específicos de fórmulas de classificação adicionados para ilustrar alguns casos de uso reais. [Leia mais](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
 * Subseção sobre como editar pools de IP adicionada. [Leia mais](../configuration/ip-pools.md#edit-ip-pool)
 

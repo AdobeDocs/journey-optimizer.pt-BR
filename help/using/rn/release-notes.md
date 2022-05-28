@@ -2,10 +2,10 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 53a625c0e62fbfae703b40bb1d47105c168730ea
+source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 35%
+source-wordcount: '422'
+ht-degree: 34%
 
 ---
 
@@ -58,22 +58,22 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </table>
 
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Decision Management - AI Ranking auto-optimization model</strong><br/></th>
+<th><strong>Gerenciamento de decisões - Modelo de otimização automática de classificação AI</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now use trained model systems in Decision Management. This new capability ranks offers to display for a given profile.</p>
+<p>Agora você pode usar sistemas de modelo treinados no Gerenciamento de decisões. Esse novo recurso classifica as ofertas para exibição em um determinado perfil.</p>
 <img src="assets/optimization.gif"/>
-<p>For more information, refer to the <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">detailed documentation</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <!--table>
 <thead>

@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 90%
 
 ---
 
@@ -264,10 +264,16 @@ ht-degree: 92%
       + [Criar inserções](using/offers/offer-library/creating-placements.md)
       + [Criar regras de decisão](using/offers/offer-library/creating-decision-rules.md)
       + [Criar tags](using/offers/offer-library/creating-tags.md)
-      + [Criar fórmulas de classificação](using/offers/offer-library/create-ranking-formulas.md)
-      + Criar modelos de classificação de IA {#create-ai-ranking-models}
-         + [Sobre modelos de IA](using/offers/offer-library/ai-ranking.md)
-         + [Criar modelos de IA](using/offers/offer-library/create-ranking-strategies.md)
+   + Criar classificações {#rankings}
+      + [Introdução às classificações](using/offers/ranking/get-started-rankings.md)
+      + [Fórmulas de classificação](using/offers/ranking/create-ranking-formulas.md)
+      + Modelos de IA {#ai-models}
+         + [Sobre modelos de IA](using/offers/ranking/ai-models.md)
+         + [Modelo de otimização automática](using/offers/ranking/auto-optimization-model.md)
+         + Criar modelos de IA {#configure-ai-model}
+            + [Criar um conjunto de dados para coletar eventos](using/offers/ranking/create-dataset.md)
+            + [Criar um modelo de IA](using/offers/ranking/create-ranking-strategies.md)
+            + [Configurar captura de eventos](using/offers/ranking/schema-requirement.md)
    + Criar e gerenciar ofertas {#managing-offers-in-the-offer-library}
       + Configurar ofertas {#configure-offers}
          + [Criar ofertas personalizadas](using/offers/offer-library/creating-personalized-offers.md)
