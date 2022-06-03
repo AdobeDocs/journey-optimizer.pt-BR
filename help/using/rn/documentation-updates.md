@@ -2,7 +2,7 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 94%
@@ -98,7 +98,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * Foram adicionados exemplos usados com frequência para consultar eventos de etapa da jornada no Data Lake. [Leia mais](../reports/query-examples.md)
 
-* Nova página sobre **Limitações** adicionada. [Leia mais](../start/limitations.md)
+* Nova página sobre **Limitações** adicionada. [Leia mais](../start/guardrails.md)
 
 * Página de **Início rápido** aprimorada com etapas para diferentes personalidades. [Leia mais](../start/quick-start.md)
 
@@ -144,7 +144,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * As &quot;atividades de oferta&quot; foram renomeadas como &quot;decisões&quot;, e as &quot;decisões&quot; como &quot;escopos de decisão&quot; na documentação e nas telas. [Leia mais](../offers/get-started/starting-offer-decisioning.md)
 * Novo caso de uso: [personalizar uma mensagem com funções auxiliares](../personalization/personalization-use-case-helper-functions.md)
 * Documentação sobre Ler segmento atualizada para refletir os impactos materializados sobre segmentos. [Leia mais](../building-journeys/read-segment.md)
-* Limitações do Journey atualizadas. [Leia mais](../start/limitations.md)
+* Limitações do Journey atualizadas. [Leia mais](../start/guardrails.md)
 * Seleção Configurar ofertas atualizada na seção de decisões. [Leia mais](../offers/offer-activities/configure-offer-selection.md)
 * Adicionado um aviso para mencionar que as ofertas baseadas em eventos não são compatíveis no momento. [Leia mais](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * Nova **[!UICONTROL Overview]** guia Gerenciamento de decisões documentada. [Leia mais](../offers/get-started/user-interface.md#overview)

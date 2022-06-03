@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1361'
 ht-degree: 4%
 
 ---
@@ -198,6 +198,9 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
     </tr>
     <tr>
         <td><a href="string.md#matches">Corresponde</a></td><td>Essa função é usada para determinar se uma string corresponde a uma expressão regular específica</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#mask">Máscara</a></td><td>Essa função é usada para substituir uma parte de uma string por caracteres "X".</td>
     </tr>
     <tr>
         <td><a href="string.md#notEqualTo">Não é igual a</a></td><td>Essa função é usada para determinar se uma string não é igual à string especificada</td>

@@ -4,7 +4,8 @@ description: Saiba como rastrear ações executadas nos recursos do Journey Opti
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: 336a2a4d28ce1738cc664861291fdc1f39b3ab29
+exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 1%
@@ -33,23 +34,23 @@ A tabela a seguir descreve quais ações os recursos do Journey Optimizer são r
 
 | Recurso | Ação |
 |-----------|------------------|
-| Grupo de campos | Criar / Excluir / Atualizar |
-| Subdomínio AJO | Criar / Excluir / Atualizar |
-| Lista de supressão de CJM | Criar/excluir/baixar CSV |
+| Configuração geral do canal AJO | Criar / Excluir / Atualizar |
+| Pool IP AJO | Criar / Excluir / Atualizar |
+| Página de aterrissagem AJO | Criar / Excluir / Atualizar / Publicar / Desfazer a publicação |
+| Modelo de HTML de página de aterrissagem AJO | Criar / Excluir / Atualizar |
+| Predefinição de página de aterrissagem AJO | Criar / Excluir / Atualizar |
+| Subdomínio de página de aterrissagem AJO | Criar / Excluir / Atualizar |
+| Mensagem AJO | Criar/excluir/atualizar/publicar |
 | Predefinição de mensagem AJO | Criar / Excluir / Atualizar |
 | Registro PTR AJO | Criar / Excluir / Atualizar |
-| Estratégia de classificação | Criar / Excluir / Atualizar |
-| Jornada ação personalizada | Criar / Excluir / Atualizar |
-| Modelo de HTML de página de aterrissagem AJO | Criar / Excluir / Atualizar |
-| Pool IP AJO | Criar / Excluir / Atualizar |
-| Subdomínio de página de aterrissagem AJO | Criar / Excluir / Atualizar |
+| Modelo de expressão salva AJO | Criar / Excluir / Atualizar |
 | Credenciais da API do SMS AJO | Criar / Excluir / Atualizar |
-| Predefinição de página de aterrissagem AJO | Criar / Excluir / Atualizar |
+| Subdomínio AJO | Criar / Excluir / Atualizar |
+| Lista de supressão de AJO | Criar/excluir/baixar CSV |
+| Grupo de campos | Criar / Excluir / Atualizar |
+| Jornada | Criar / Excluir / Atualizar / Parar / Publicar |
+| Jornada ação personalizada | Criar / Excluir / Atualizar |
 | Fonte de dados do Jornada | Criar / Excluir / Atualizar |
 | Evento de jornada | Criar / Excluir / Atualizar |
-| Modelo de expressão salva AJO | Criar / Excluir / Atualizar |
 | Regra de frequência de mensagem | Criar / Excluir / Atualizar |
-| Página de aterrissagem AJO | Criar / Excluir / Atualizar / Publicar / Desfazer a publicação |
-| Jornada | Criar / Excluir / Atualizar / Parar / Publicar |
-| Mensagem AJO | Criar/excluir/atualizar/publicar |
-| Configuração geral do canal AJO | Criar / Excluir / Atualizar |
+| Estratégia de classificação | Criar / Excluir / Atualizar |

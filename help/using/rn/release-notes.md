@@ -2,10 +2,10 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 35%
+source-wordcount: '465'
+ht-degree: 31%
 
 ---
 
@@ -122,11 +122,11 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 * **Voltar à página principal** - Agora é possível adicionar um link para a página primária a partir de qualquer subpágina na mesma página de aterrissagem.
 * **Suporte a JavaScript personalizado** - Agora é possível adicionar JavaScript personalizado ao conteúdo da página de aterrissagem para executar estilos avançados ou adicionar comportamentos personalizados às páginas de aterrissagem.	[Saiba mais](../landing-pages/lp-custom-js.md)
 
-<!--**Decision management**
-
-* **HTML and JSON files support** - You can now drag and drop external HTML and JSON files from the AEM repository into the offer representation content.-->
-
 **Jornadas**
 
 * **Ler segmento** - jornadas de segmento de Leitura única agora são movidas para o status Finished 30 dias após a execução da jornada. Para segmentos de Leitura agendados, é de 30 dias após a execução da última ocorrência. [Leia mais](../building-journeys/read-segment.md)
 * **Editor de expressão** - O [limite](../building-journeys/functions/functionlimit.md) foi adicionada para permitir que você limite o número de itens de uma lista. O [sort](../building-journeys/functions/functionsort.md) agora permite classificar um objeto de lista. O suporte a listObject também foi adicionado ao [disctinct](../building-journeys/functions/functiondistinct.md) e [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) funções.
+
+**Administração**
+
+**Atualização do painel de uso da licença** - O painel de uso da licença disponível na interface do usuário do Adobe Experience Platform agora reflete o valor preciso da variável **Licenciado** Riqueza média do perfil. Como cliente do Journey Optimizer, você verá uma queda nessa representação de métrica, o que significa que o uso para o qual você está licenciado agora é relatado corretamente. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}
