@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: b9ebacf410f268e19bbaf1d43ee98f5376d0913f
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1686'
 ht-degree: 7%
 
 ---
@@ -255,6 +255,83 @@ A consulta a seguir extrai o domínio de email do endereço de email pessoal.
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## Obter host de url {#get-url-host}
+
+O `getUrlHost` é usada para recuperar o nome do host de um URL.
+
+**Formato**
+
+```sql
+{%= getUrlHost(string) %}: string
+```
+
+**Exemplo**
+
+```sql
+{%= getUrlHost("http://www.myurl.com/contact") %}
+```
+
+Retorna &quot;www.myurl.com&quot;
+
+## Obter caminho de url {#get-url-path}
+
+O `getUrlPath` é usada para recuperar o caminho após o nome de domínio de um URL.
+
+**Formato**
+
+```sql
+{%= getUrlPath(string) %}: string
+```
+
+**Exemplo**
+
+```sql
+{%= getUrlPath("http://www.myurl.com/contact.html") %}
+```
+
+Retorna &quot;/contact.html&quot;
+
+## Obter protocolo de url {#get-url-protocol}
+
+O `getUrlProtocol` é usada para recuperar o protocolo de um URL.
+
+**Formato**
+
+```sql
+{%= getUrlProtocol(string) %}: string
+```
+
+**Exemplo**
+
+```sql
+{%= getUrlProtocol("http://www.myurl.com/contact.html") %}
+```
+
+Retorna &quot;http&quot;
+
+## Índice De {#index-of}
+
+O `indexOf` é usada para retornar a posição (no primeiro argumento) da primeira ocorrência do segundo parâmetro. Retorna -1 se não houver correspondência.
+
+**Formato**
+
+```sql
+{%= indexOf(STRING_1, STRING_2) %}: integer
+```
+
+| Argumento | Descrição |
+| --------- | ----------- |
+| `{STRING_1}` | A string na qual executar a verificação. |
+| `{STRING_2}` | A string a ser pesquisada no primeiro parâmetro |
+
+**Exemplo**
+
+```sql
+{%= indexOf("hello world","world" ) %}
+```
+
+Retorna 6.
+
 ## Is empty {#isEmpty}
 
 O `isEmpty` é usada para determinar se uma string está vazia.
@@ -272,6 +349,47 @@ A função a seguir retornará &#39;true&#39; se o número de telefone celular d
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
+
+## Is Not Empty {#is-not-empty}
+
+O `isNotEmpty` é usada para determinar se uma string não está vazia.
+
+**Formato**
+
+```sql
+{= isNotEmpty(string) %}: boolean
+```
+
+**Exemplo**
+
+A função a seguir retornará &#39;true&#39; se o número de telefone celular do perfil não estiver vazio. Caso contrário, retornará &#39;false&#39;.
+
+```sql
+{%= isNotEmpty(profile.mobilePhone.number) %}
+```
+
+## Último Índice De {#last-index-of}
+
+O `lastIndexOf` é usada para retornar a posição (no primeiro argumento) da última ocorrência do segundo parâmetro. Retorna -1 se não houver correspondência.
+
+**Formato**
+
+```sql
+{= lastIndexOf(STRING_1, STRING_2) %}: integer
+```
+
+| Argumento | Descrição |
+| --------- | ----------- |
+| `{STRING_1}` | A string na qual executar a verificação. |
+| `{STRING_2}` | A string a ser pesquisada no primeiro parâmetro |
+
+**Exemplo**
+
+```sql
+{%= lastIndexOf("hello world","o" ) %}
+```
+
+Retorna 7.
 
 ## Aparar à esquerda {#leftTrim}
 
@@ -380,6 +498,24 @@ O query a seguir substitui a string &quot;123456789&quot; por caracteres &quot;X
 
 O query retorna `1XXXXXX89`.
 
+## MD5 {#md5}
+
+O `md5` é usada para calcular e retornar o hash md5 de uma string.
+
+**Formato**
+
+```sql
+{%= md5(string) %}: string
+```
+
+**Exemplo**
+
+```sql
+{%= md5("hello world") %}
+```
+
+Retorna &quot;5eb63bbbe01eed093cb22bb8f5acdc3&quot;
+
 ## Not equal to{#notEqualTo}
 
 O `notEqualTo` é usada para determinar se uma string não é igual à string especificada.
@@ -401,6 +537,29 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 
 ```sql
 {%= notEqualTo(profile.person.name,"John") %}
+```
+
+## Diferente de Ignorar maiúsculas e minúsculas {#not-equal-with-ignore-case}
+
+O `notEqualWithIgnoreCase` é usada para comparar duas strings que ignoram letras maiúsculas e minúsculas.
+
+**Formato**
+
+```sql
+{= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
+```
+
+| Argumento | Descrição |
+| --------- | ----------- |
+| `{STRING_1}` | A string na qual executar a verificação. |
+| `{STRING_2}` | A string a ser comparada com a primeira string. |
+
+**Exemplo**
+
+A consulta a seguir determina se o nome da pessoa não é &quot;john&quot;, sem distinção entre maiúsculas e minúsculas.
+
+```sql
+{%= notEqualTo(profile.person.name,"john") %}
 ```
 
 ## Grupo de expressões regulares{#regexGroup}
@@ -434,17 +593,22 @@ O `replace` é usada para substituir uma determinada substring em uma string por
 **Formato**
 
 ```sql
-{%= replace(string,string,string) %}
+{%= replace(STRING_1,STRING_2,STRING_3) %}:string
 ```
+
+| Argumento | Descrição |
+| --------- | ----------- |
+| `{STRING_1}` | A string na qual a substring deve ser substituída. |
+| `{STRING_2}` | A substring a ser substituída. |
+| `{STRING_3}` | A substring de substituição. |
 
 **Exemplo**
 
-A seguinte função .
-
 ```sql
-
+{%= replace("Hello John, here is your monthly newsletter!","John","Mark") %}
 ```
 
+Retorna &quot;Hello Mark, aqui está seu boletim informativo mensal!&quot;
 
 ## Substituir tudo{#replaceAll}
 
@@ -456,11 +620,9 @@ O `replaceAll` é usada para substituir todas as subsequências de texto que cor
 {%= replaceAll(string,string,string) %}
 ```
 
-
 ## Aparar à direita {#rightTrim}
 
 O `rightTrim` é usada para remover espaços em branco do final de uma string.
-
 
 **Formato**
 
@@ -477,17 +639,6 @@ O `split` é usada para dividir uma string por um determinado caractere.
 ```sql
 {%= split(string,string) %}
 ```
-
-<!--
-**Example**
-
-The following function .
-
-```sql
-
-```
-
--->
 
 ## Começa com{#startsWith}
 
@@ -513,6 +664,35 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## String to integer {#string-to-integer}
+
+O `string_to_integer` é usada para converter um valor de string em um valor inteiro.
+
+**Formato**
+
+```sql
+{= string_to_integer(string) %}: int
+```
+
+## String para número {#string-to-number}
+
+O `stringToNumber` é usada para converter uma string em número. Retorna a mesma cadeia de caracteres da saída para entrada inválida.
+
+**Formato**
+
+```sql
+{%= stringToNumber(string) %}: double
+```
+
+## Sub string {#sub-string}
+
+O `Count string` é usada para retornar a substring da expressão da string entre o índice begin e o índice end.
+**Formato**
+
+```sql
+{= substr(string, integer, integer) %}: string
+```
+
 ## Caso de título{#titleCase}
 
 O **titleCase** é usada para capitalizar as primeiras letras de cada palavra de uma string.
@@ -529,6 +709,36 @@ Se a pessoa vive na rua alta de Washington, essa função retornará a Rua Alta 
 
 ```sql
 {%= titleCase(profile.person.location.Street) %}
+```
+
+## Para Bool {#to-bool}
+
+O `toBool` é usada para converter um valor de argumento em um valor booleano, dependendo de seu tipo.
+
+**Formato**
+
+```sql
+{= toBool(string) %}: boolean
+```
+
+## Hora da Data Final {#to-date-time}
+
+O `toDateTime` é usada para converter a string em data. Retorna a data da época como saída para entrada inválida.
+
+**Formato**
+
+```sql
+{%= toDateTime(string, string) %}: date-time
+```
+
+## Somente Data/Hora {#to-date-time-only}
+
+O `toDateTimeOnly` é usada para converter um valor de argumento em um valor somente de data e hora. Retorna a data da época como saída para entrada inválida.
+
+**Formato**
+
+```sql
+{%= toDateTimeOnly(string) %}: date-time
 ```
 
 ## Aparar{#trim}
@@ -557,4 +767,24 @@ Essa função converte o sobrenome do perfil em letras maiúsculas.
 
 ```sql
 {%= upperCase(profile.person.name.lastName) %}
+```
+
+## decodificação de url {#url-decode}
+
+O `urlDecode` é usada para decodificar uma string codificada em url.
+
+**Formato**
+
+```sql
+{%= urlDecode(string) %}: string
+```
+
+## Codificação de URL {#url-encode}
+
+O `Count only null` é usada para codificar uma string no url.
+
+**Formato**
+
+```sql
+{%= urlEncode(string) %}: string
 ```

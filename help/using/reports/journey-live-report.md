@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -54,22 +54,6 @@ O **[!UICONTROL Action executed over the last 24 hours]** e **[!UICONTROL Action
 * **[!UICONTROL Actions executed]**: Número total de ações executadas com êxito para uma jornada.
 
 * **[!UICONTROL Error in actions]**: Número total de erros que ocorreram para ações.
-
-<!--
-![](assets/live_report_7.png)
-
->[!NOTE]
->
->The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
-
-The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
-
-* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
-
-* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
-
-* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
--->
 
 ## Guia Email {#email-live}
 
@@ -120,6 +104,20 @@ O **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** e **[!UICO
 O **[!UICONTROL Error Reasons]** e **[!UICONTROL Exclude Reasons]** gráficos e tabelas permitem ver quais erros e exclusões ocorreram durante o delivery.
 
 O **[!UICONTROL Email - Top recipient domain]** gráfico e tabela detalham quais domínios são os mais usados pelos recipients para abrir o email.
+
+![](assets/live_report_7.png)
+
+>[!NOTE]
+>
+>Os widgets e métricas de Ofertas só estarão disponíveis se uma decisão tiver sido inserida em um email. Para obter mais informações sobre o Gerenciamento de decisões, consulte esta seção [página](../offers/get-started/starting-offer-decisioning.md).
+
+O **[!UICONTROL Offers statistic]** e **[!UICONTROL Offers statistics]** com o passar do tempo, os widgets avaliam o sucesso e o impacto da oferta no público-alvo. Ela detalha as informações principais relativas à sua mensagem com KPIs:
+
+* **[!UICONTROL Offer sent]**: Número total de envios para a oferta.
+
+* **[!UICONTROL Offer impression]**: Número de vezes que a oferta foi aberta em um delivery.
+
+* **[!UICONTROL Offer clicks]**: Número de vezes que uma oferta foi clicada em um delivery.
 
 ## Guia Empurrar {#push-live}
 

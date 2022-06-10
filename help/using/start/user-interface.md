@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1462'
 ht-degree: 100%
 
 ---
@@ -82,7 +82,7 @@ A página inicial do [!DNL Journey Optimizer] contém os links e recursos princi
 
 **[!UICONTROL ADMINISTRATION]**
 
-* **[!UICONTROL Journey Administration]**: use esse menu para configurar [eventos]../event/about-events.md), [fontes de dados](../datasource/about-data-sources.md) e [ações](../action/action.md) para usar em suas jornadas.
+* **[!UICONTROL Journey Administration]**: use esse menu para configurar [eventos](../event/about-events.md), [fontes de dados](../datasource/about-data-sources.md) e [ações](../action/action.md) para usar em suas jornadas.
 
 * **[!UICONTROL Sandboxes]**: a Adobe Experience Platform fornece sandboxes que particionam uma única instância em ambientes virtuais separados para ajudar a desenvolver aplicativos de experiência digital. [Saiba mais](../administration/sandboxes.md)
 

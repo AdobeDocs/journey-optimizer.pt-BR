@@ -6,16 +6,51 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 5%
+source-wordcount: '561'
+ht-degree: 6%
 
 ---
 
 # Matrizes e funções de lista {#arrays}
 
 Use essas funções para facilitar a interação com arrays, listas e strings.
+
+## Contar somente como nulo {#count-only-null}
+
+O `countOnlyNull` é usada para contar o número de valores nulos em uma lista.
+
+**Formato**
+
+```sql
+{%= countOnlyNull(array) %}
+```
+
+**Exemplo**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+Retorna 3.
+
+## Contar com Null {#count-with-null}
+
+O `countWithNull` é usada para contar todos os elementos de uma lista, incluindo valores nulos.
+
+**Formato**
+
+```sql
+{%= countWithNull(array) %}
+```
+
+**Exemplo**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+
+Retorna 6.
 
 ## Distinct{#distinct}
 
@@ -34,15 +69,32 @@ A operação a seguir especifica pessoas que fizeram pedidos em mais de um armaz
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
+## Contagem distinta com nulo {#distinct-count-with-null}
 
-## Primeiro item{#head}
-
-O `head` é usada para retornar o primeiro item na matriz ou lista.
+O `distinctCountWithNull` é usada para contar o número de valores diferentes em uma lista, incluindo os valores nulos.
 
 **Formato**
 
 ```sql
-{%= head({array}) %}
+{%= distinctCountWithNull(array) %}
+```
+
+**Exemplo**
+
+```sql
+{%= distinctCountWithNull([10,2,10,null]) %}
+```
+
+Retorna 3.
+
+## Primeiro item{#head}
+
+O `head` é usada para retornar o primeiro item em uma matriz ou lista.
+
+**Formato**
+
+```sql
+{%= head(array) %}
 ```
 
 **Exemplo**
@@ -174,7 +226,6 @@ A operação a seguir retorna os cinco principais pedidos com o preço mais baix
 ```sql
 {%= bottomN(orders,price, 5) %}
 ```
-
 
 ## Não está em{#notin}
 

@@ -2,10 +2,10 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 31%
+source-wordcount: '445'
+ht-degree: 32%
 
 ---
 
@@ -124,9 +124,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Jornadas**
 
-* **Ler segmento** - jornadas de segmento de Leitura única agora são movidas para o status Finished 30 dias após a execução da jornada. Para segmentos de Leitura agendados, é de 30 dias após a execução da última ocorrência. [Leia mais](../building-journeys/read-segment.md)
+* **Ler segmento** - jornadas de segmento de Leitura única agora são movidas para o status Finished 30 dias após a execução da jornada. Para segmentos de Leitura agendados, é de 30 dias após a execução da última ocorrência. [Saiba mais](../building-journeys/read-segment.md)
 * **Editor de expressão** - O [limite](../building-journeys/functions/functionlimit.md) foi adicionada para permitir que você limite o número de itens de uma lista. O [sort](../building-journeys/functions/functionsort.md) agora permite classificar um objeto de lista. O suporte a listObject também foi adicionado ao [disctinct](../building-journeys/functions/functiondistinct.md) e [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) funções.
 
 **Administração**
 
-**Atualização do painel de uso da licença** - O painel de uso da licença disponível na interface do usuário do Adobe Experience Platform agora reflete o valor preciso da variável **Licenciado** Riqueza média do perfil. Como cliente do Journey Optimizer, você verá uma queda nessa representação de métrica, o que significa que o uso para o qual você está licenciado agora é relatado corretamente. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}
+* **Atualização do painel de uso da licença** - O painel de uso da licença disponível na [!DNL Adobe Journey Optimizer] a interface do usuário agora reflete o valor preciso da variável **Licenciado** Riqueza média do perfil. Você verá uma queda nessa representação de métrica, o que significa que o limite de licença agora é relatado corretamente. [Saiba mais](../start/licence-usage.md)
