@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Para criar uma nova mensagem, siga as etapas abaixo:
    * Selecione os canais que deseja usar para essa mensagem: notificação por email e/ou notificação por push. Você deve selecionar pelo menos um canal para criar a mensagem.
    >[!NOTE]
    >
-   >Você pode clicar no botão **[!UICONTROL Frequency rule]** link para exibir as regras de frequência que serão aplicadas à categoria e aos canais selecionados. Saiba mais sobre [regras de frequência](../configuration/frequency-rules.md).
+   >Você pode clicar no link **[!UICONTROL Frequency rule]** para exibir as regras de frequência que serão aplicadas à categoria e aos canais selecionados. Saiba mais sobre [regras de frequência](../configuration/frequency-rules.md).
 
    * Selecione a **[!UICONTROL Preset]** para usar na mensagem.
 
