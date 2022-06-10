@@ -3,9 +3,9 @@ title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1409'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,16 +15,16 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Maio de 2022 {#may-2022}
 
-* Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 22 de maio foi detalhada na documentação. [Leia mais](release-notes.md)
-* Novos exemplos de query relacionados a [qualificação de segmento](../reports/query-examples.md#segment-qualification-queries) e [events](../reports/query-examples.md#event-based-queries) foram adicionados.
+* Todos os novos recursos e aprimoramentos da versão de maio de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
+* Novos exemplos de consulta relacionados a [qualificação de segmento](../reports/query-examples.md#segment-qualification-queries) e [eventos](../reports/query-examples.md#event-based-queries) foram adicionados.
 * A seção de design de email agora menciona novos modelos integrados disponíveis para iniciar o conteúdo. As capturas de tela relacionadas foram atualizadas. [Leia mais](../design/design-emails.md)
 * Os links para recursos principais foram atualizados na página inicial da documentação do Journey Optimizer.
 * As capturas de tela para relatórios de página de aterrissagem e subscrição foram atualizadas. [Leia mais](../reports/live-report.md)
 * Uma observação foi adicionada informando que o método DELETE não é compatível com ações personalizadas. [Leia mais](../action/about-custom-action-configuration.md)
 * Os links para vídeos de instrução foram atualizados.
-* O [Configuração de email](../configuration/about-subdomain-delegation.md), [Predefinições de mensagem](../configuration/message-presets.md) e [Configurar landing pages](../configuration/lp-subdomains.md) foram reorganizadas para melhorar a legibilidade.
-* O **Rastreamento de URL** A seção foi atualizada e aprimorada com exemplos. [Leia mais](../configuration/email-settings.md#url-tracking)
-* Uma nova subseção sobre como configurar um endereço de email de encaminhamento foi adicionada. Observe que não é possível fazer isso por meio da interface do usuário. [Leia mais](../configuration/email-settings.md#forward-email)
+* As seções [Configuração de email](../configuration/about-subdomain-delegation.md), [Predefinições de mensagem](../configuration/message-presets.md) e [Configurar páginas de aterrissagem](../configuration/lp-subdomains.md) foram reorganizadas para facilitar a leitura.
+* A seção **Rastreamento de URL** foi atualizada e aprimorada com exemplos. [Leia mais](../configuration/email-settings.md#url-tracking)
+* Uma nova subseção sobre como configurar um endereço de email de encaminhamento foi adicionada. Observe que não é possível fazer isso por meio da interface. [Leia mais](../configuration/email-settings.md#forward-email)
 
 ## Abril de 2022 {#april-2022}
 
