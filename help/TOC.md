@@ -7,15 +7,15 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1063'
+ht-degree: 99%
 
 ---
 
 # Ajuda do Adobe Journey Optimizer {#using}
 
 + [Documentação do Journey Optimizer](ajo-home.md)
-+ Novidades? {#whats-new}
++ Novidades {#whats-new}
    + [Notas de versão mais recentes](using/rn/release-notes.md)
    + Notas de versão anteriores {#previous-rn-new}
       + [Notas de versão de 2022](using/rn/release-notes-2022.md)
@@ -26,10 +26,10 @@ ht-degree: 0%
    + [O que é o Journey Optimizer](using/start/get-started.md)
    + Início rápido{#quick-start}
       + [Visão geral](using/start/quick-start.md)
-      + [Introdução como profissional de marketing](using/start/path/marketer.md)
-      + [Comece como um engenheiro de dados](using/start/path/data-engineer.md)
-      + [Comece como um administrador](using/start/path/administrator.md)
-      + [Introdução ao Developer](using/start/path/developer.md)
+      + [Introdução para profissionais de marketing](using/start/path/marketer.md)
+      + [Introdução para engenheiros de dados](using/start/path/data-engineer.md)
+      + [Introdução para administradores](using/start/path/administrator.md)
+      + [Introdução para desenvolvedores](using/start/path/developer.md)
    + [Interface do usuário](using/start/user-interface.md)
    + [Medidas de proteção](using/start/guardrails.md)
 + Mensagens {#messages}
@@ -65,7 +65,7 @@ ht-degree: 0%
    + [Introdução às páginas de aterrissagem](using/landing-pages/get-started-lp.md)
    + [Criar uma página de aterrissagem](using/landing-pages/create-lp.md)
    + Criação de conteúdo {#landing-pages-design}
-      + [Sobre o design da página de aterrissagem](using/landing-pages/design-lp.md)
+      + [Sobre modelos de página de aterrissagem](using/landing-pages/design-lp.md)
       + [Criar o conteúdo da página de aterrissagem](using/landing-pages/lp-content.md)
       + [Criar modelos](using/landing-pages/lp-templates.md)
       + [Adicionar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
@@ -373,12 +373,12 @@ ht-degree: 0%
       + [Configurar canal de SMS](using/configuration/sms-configuration.md)
       + Configurar predefinições de mensagem {#set-up-message-presets}
          + [Criar predefinições de mensagem](using/configuration/message-presets.md)
-         + [Definir configurações de email](using/configuration/email-settings.md)
+         + [Definir configurações de email ](using/configuration/email-settings.md)
       + [Gerenciar endereços de execução](using/configuration/primary-email-addresses.md)
       + [Configurar regras de frequência](using/configuration/frequency-rules.md)
    + Configurar páginas de aterrissagem {#lp-configuration}
       + [Configurar subdomínios de página de aterrissagem](using/configuration/lp-subdomains.md)
-      + [Definir predefinições da landing page](using/configuration/lp-presets.md)
+      + [Definir predefinições da página de aterrissagem](using/configuration/lp-presets.md)
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
       + [Integrar a sistemas externos](using/configuration/external-systems.md)

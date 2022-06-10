@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 32%
+ht-degree: 90%
 
 ---
 
@@ -61,13 +61,13 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Gerenciamento de decisões - Modelo de otimização automática de classificação AI</strong><br/></th>
+<th><strong>Gestão de decisões - Modelo de otimização automática de classificação de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode usar sistemas de modelo treinados no Gerenciamento de decisões. Esse novo recurso classifica as ofertas para exibição em um determinado perfil.</p>
+<p>Agora você pode usar sistemas de modelo treinados na Gestão de decisões. Esse novo recurso classifica as ofertas para exibição em um determinado perfil.</p>
 <img src="assets/optimization.gif"/>
 <p>Para obter mais informações, consulte a <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">documentação detalhada</a>.</p>
 </td>
@@ -113,19 +113,19 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Personalização**
 
-* **Nova função auxiliar para ocultação de caracteres** - O `mask` A função auxiliar permite substituir uma parte de uma string por caracteres &quot;X&quot;. [Saiba mais](../personalization/functions/string.md#mask)
+* **Nova função auxiliar para ocultação de caracteres** - A função auxiliar do `mask` permite substituir uma parte de uma string por caracteres “X”. [Saiba mais](../personalization/functions/string.md#mask)
 
 **Páginas de aterrissagem**
 
-* **Landing pages sem um formulário** - Agora é possível criar e publicar uma landing page que não contenha um formulário e não exija nenhuma ação dos visitantes.
-* **Templates de landing page** - Agora é possível salvar uma landing page como template e reutilizá-la ao criar outras landing pages. [Saiba mais](../landing-pages/lp-templates.md)
-* **Voltar à página principal** - Agora é possível adicionar um link para a página primária a partir de qualquer subpágina na mesma página de aterrissagem.
+* **Páginas de aterrissagem sem um formulário** - Agora é possível criar e publicar uma página de aterrissagem que não contenha um formulário e não exija nenhuma ação dos visitantes.
+* **Modelos de página de aterrissagem** - Agora é possível salvar uma página de aterrissagem como modelo e reutilizá-la na criação de outras páginas de aterrissagem. [Saiba mais](../landing-pages/lp-templates.md)
+* **Voltar à página principal** - Agora é possível adicionar um link para a página principal de qualquer subpágina da mesma página de aterrissagem.
 * **Suporte a JavaScript personalizado** - Agora é possível adicionar JavaScript personalizado ao conteúdo da página de aterrissagem para executar estilos avançados ou adicionar comportamentos personalizados às páginas de aterrissagem.	[Saiba mais](../landing-pages/lp-custom-js.md)
 
 **Jornadas**
 
-* **Ler segmento** - jornadas de segmento de Leitura única agora são movidas para o status Finished 30 dias após a execução da jornada. Para segmentos de Leitura agendados, é de 30 dias após a execução da última ocorrência. [Saiba mais](../building-journeys/read-segment.md)
-* **Editor de expressão** - O [limite](../building-journeys/functions/functionlimit.md) foi adicionada para permitir que você limite o número de itens de uma lista. O [sort](../building-journeys/functions/functionsort.md) agora permite classificar um objeto de lista. O suporte a listObject também foi adicionado ao [disctinct](../building-journeys/functions/functiondistinct.md) e [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) funções.
+* **Segmento de leitura** - Jornadas de segmento de leitura única agora são atualizadas para o status “Concluído” 30 dias após a execução da jornada. Para segmentos de leitura agendados, isso acontece 30 dias após a execução da última ocorrência. [Saiba mais](../building-journeys/read-segment.md)
+* **Editor de expressão** - A função [limite](../building-journeys/functions/functionlimit.md) foi adicionada para limitar o número de itens de uma lista. A função [classificar](../building-journeys/functions/functionsort.md) agora permite classificar um objeto de lista. O suporte a listObject também foi adicionado às funções [disctinct](../building-journeys/functions/functiondistinct.md) e [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
 
 **Administração**
 
