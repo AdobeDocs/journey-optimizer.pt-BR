@@ -1,16 +1,17 @@
 ---
-title: Notas de versão 2022
+title: Notas de versão de 2022
 description: Notas de versão do Journey Optimizer 2022
-source-git-commit: 4626237ce629dcaec8d20c89db3cb8b517671502
-workflow-type: tm+mt
+exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Notas de versão de 2022 {#release-notes-2022}
 
-Esta página lista todos os recursos e melhorias para [!DNL Journey Optimizer] lançado em 2022.
+Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] lançado em 2022.
 
 As notas de versão mais recentes estão disponíveis [nesta página](release-notes.md).
 
