@@ -5,16 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
+source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
 
 # Painel de uso da licença {#licence-usage}
 
-O [!DNL Adobe Journey Optimizer] [interface do usuário](user-interface.md) O fornece um painel que exibe informações importantes sobre o uso da licença de sua organização, conforme capturado durante um instantâneo diário.
+O [!DNL Adobe Journey Optimizer] [interface do usuário](../start/user-interface.md) O fornece um painel que exibe informações importantes sobre o uso da licença de sua organização, conforme capturado durante um instantâneo diário.
 
 Para acessar esse painel, acesse **[!UICONTROL Administration]** > **[!UICONTROL Licence Usage]**. Isso abre o **[!UICONTROL Overview]** exibindo o painel.
 
