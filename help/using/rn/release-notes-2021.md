@@ -2,9 +2,9 @@
 title: Notas de versão anteriores (2021)
 description: Notas de versão do Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: ht
-source-wordcount: '2070'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -278,7 +278,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 
 **Configuração de email**
 
-* **Lista de permissões** - A lista de permissões agora pode ser ativada e desativada em uma sandbox de não produção por meio de uma chamada de API. [Saiba mais](../reports/allow-list.md#enable-allow-list)
+* **Lista de permissões** - A lista de permissões agora pode ser ativada e desativada em uma sandbox de não produção por meio de uma chamada de API. [Saiba mais](../configuration/allow-list.md#enable-allow-list)
 * **Navegação** - A lista de supressão, que estava acessível no menu **Administração > Canais > Configuração de email > Geral**, foi movido para o novo submenu **Lista de supressão**, que reúne todos os recursos relacionados para facilitar o acesso. [Saiba mais](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Gerenciamento de decisão**
@@ -325,7 +325,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 <tr>
 <td>
 <p>Agora é possível definir uma lista específica de segurança de envio no nível da sandbox, para ter um ambiente seguro para fins de teste. Em uma instância de não produção, em que podem ocorrer erros, a lista de permissões garante que você não tenha risco de enviar mensagens indesejadas para os seus clientes. Esse recurso é habilitado por meio das APIs de supressão.</p>
-<p>Para obter mais informações, consulte a <a href="../reports/allow-list.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../configuration/allow-list.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
