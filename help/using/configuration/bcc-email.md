@@ -1,18 +1,18 @@
 ---
 title: Usar email CCO
-description: Saiba como definir configurações de email no nível predefinido de mensagens
+description: Saiba como configurar o email Cco no nível predefinido de mensagens
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 4f6d018d5e5d127e5eb26b2d1b59dc0a248db45b
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1068'
 ht-degree: 3%
 
 ---
 
-# Usar email CCO {#bcc-email}
+# Email CCO {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
