@@ -2,9 +2,9 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: ht
-source-wordcount: '1409'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -120,8 +120,8 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Seção sobre recursos e atalhos de acessibilidade adicionada. [Leia mais](../start/user-interface.md#accessibility)
 * Adição de uma seção sobre métodos de avaliação de segmento. [Leia mais](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * Observações adicionadas às seções Lista de supressão, Lista de permissões e Relatório de email global/em tempo real para especificar que os perfis com status Suprimido e Não permitido estão excluídos das métricas do relatório de emails enviados. [Leia mais](../reports/email-global-report.md)
-* Nova seção adicionada para descrever como recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. [Leia mais](../reports/allow-list.md#reporting)
-* Seção Ativar a lista de permissões atualizada. [Saiba mais](../reports/allow-list.md#enable-allow-list)
+* Nova seção adicionada para descrever como recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. [Leia mais](../configuration/allow-list.md#reporting)
+* Seção Ativar a lista de permissões atualizada. [Saiba mais](../configuration/allow-list.md#enable-allow-list)
 * Seção Monitorar predefinições de mensagem atualizada com os possíveis motivos de falha na criação de predefinições e detalhes sobre esses erros. [Leia mais](../configuration/message-presets.md#monitor-message-presets)
 * Seção Repetir período de tempo atualizada e renomeada para refletir o fato de que agora é possível ajustar as configurações de nova tentativa de email nas predefinições de mensagem. [Leia mais](../configuration/retries.md#retry-duration)
 * Nova seção adicionada para descrever como inserir no conteúdo do email um link de opção de não participação com um clique. [Leia mais](../messages/consent.md#one-click-opt-out-link)
