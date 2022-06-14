@@ -3,7 +3,7 @@ title: Introdução à Journey Optimizer para o Administrador do sistema
 description: Como Administrador do sistema, saiba mais sobre como trabalhar com a Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 2%
@@ -65,5 +65,5 @@ Siga as etapas listadas abaixo:
    * A [lista de supressão](../../reports/suppression-list.md) O consiste em endereços de email que você deseja excluir de seus deliveries, pois o envio para esses contatos pode prejudicar sua reputação de envio e as taxas de delivery. Você pode monitorar todos os endereços de email que são excluídos automaticamente do envio em uma jornada, como endereços inválidos, endereços que compostam de forma consistente e podem afetar negativamente sua reputação de email, e recipients que emitem uma reclamação de spam de algum tipo contra uma de suas mensagens de email. Saiba como gerenciar o [lista de supressão](../../configuration/manage-suppression-list.md) e [tentativas](../../configuration/retries.md).
    ![](../assets/suppression-list-filtering-example.png)
 
-   * O [lista de permissões](../../reports/allow-list.md) O permite especificar endereços de email ou domínios individuais que serão os únicos recipients ou domínios autorizados a receber os emails enviados de uma sandbox específica. Isso pode impedir que você envie emails acidentalmente para endereços de clientes reais quando estiver em um ambiente de teste. Saiba como [habilite a lista de permissões](../../reports/allow-list.md).
+   * O [lista de permissões](../../configuration/allow-list.md) O permite especificar endereços de email ou domínios individuais que serão os únicos recipients ou domínios autorizados a receber os emails enviados de uma sandbox específica. Isso pode impedir que você envie emails acidentalmente para endereços de clientes reais quando estiver em um ambiente de teste. Saiba como [habilite a lista de permissões](../../configuration/allow-list.md).
    Saiba mais sobre o gerenciamento da capacidade de entrega em [!DNL Adobe Journey Optimizer] [nesta página](../../reports/deliverability.md).

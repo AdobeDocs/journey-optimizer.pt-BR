@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Interface do usuário {#user-interface}
 
-A Biblioteca de ofertas permite criar e gerenciar as inserções e ofertas em um único local, bem como acessar todas as decisões criadas (anteriormente conhecidas como atividades de oferta).
+A Biblioteca de ofertas permite criar e gerenciar as disposições e ofertas em um único local, bem como acessar todas as decisões criadas.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Quando você é novo no [!DNL Offer Decisioning], o **[!UICONTROL Overview]** gu
 
 Siga as etapas na tela para começar a criar disposições, ofertas e coleções.
 
-Depois de concluir essas primeiras etapas, você será solicitado a criar decisões de oferta (anteriormente conhecidas como atividades de oferta).
+Depois de concluir essas primeiras etapas, você será solicitado a criar decisões de oferta.
 
 ![](../assets/overview_collection-created.png)
 

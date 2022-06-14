@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '972'
 ht-degree: 2%
 
 ---
@@ -179,7 +179,7 @@ Use o **[!UICONTROL Social]** para inserir links às páginas de mídia social n
 
 ## Decisão da oferta {#offer-decision}
 
-Use o **[!UICONTROL Offer decision]** componente para inserir decisões (anteriormente conhecido como atividades de oferta) em suas mensagens. As decisões aproveitarão o Gerenciamento de decisões para escolher a melhor oferta a ser entregue aos clientes.
+Use o **[!UICONTROL Offer decision]** para inserir decisões nas mensagens. As decisões aproveitarão o Gerenciamento de decisões para escolher a melhor oferta a ser entregue aos clientes.
 
 Tópicos relacionados:
 

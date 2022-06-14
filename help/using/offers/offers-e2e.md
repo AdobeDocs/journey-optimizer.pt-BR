@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -223,56 +223,6 @@ As etapas detalhadas para criar e configurar uma decisão estão descritas em [e
 
 ## Inserir a decisão em um email {#insert-decision-in-email}
 
-Agora que sua decisão está em execução, você pode inseri-la em uma mensagem de email. Para isso, siga as etapas abaixo:
-
-1. Crie seu email e abra o [Email Designer](../../using/design/design-emails.md) para configurar seu conteúdo.
-
-1. Adicione um componente de estrutura na paleta esquerda.
-
-1. Adicione um **[!UICONTROL Offer decision]** componente de conteúdo. Saiba como usar componentes de conteúdo no [esta seção](../../using/design/content-components.md).
-
-   ![](assets/offers-e2e-decision-component.png)
-
-1. Selecione-o. Na paleta direita, clique em **[!UICONTROL Select offer decision]** para adicionar uma decisão.
-
-   ![](assets/offers-e2e-select-offer-decision.png)
-
-1. Selecione a disposição correspondente às ofertas que você deseja exibir no **[!UICONTROL Placements]** lista suspensa.
-
-   Nesse caso, a partir das disposições criadas anteriormente como parte desse exemplo, somente a variável **Email - Imagem** O posicionamento do está disponível conforme você deseja usar a decisão em um email. Saiba mais sobre [criação de disposições](../../using/offers/offer-library/creating-placements.md).
-
-   ![](assets/offers-e2e-select-placement-in-decision.png)
-
-1. Decisões correspondentes **Email - Imagem** posicionamento são exibidos. Selecione a decisão a ser usada no componente de conteúdo e clique em **[!UICONTROL Add]**.
-
-   ![](assets/offers-e2e-matching-placement-in-decision.png)
-
-   >[!NOTE]
-   >
-   >Somente as decisões compatíveis com a disposição selecionada são exibidas na lista.
-
-Agora é possível ver todas as ofertas personalizadas e a oferta de fallback que está sendo visualizada no Designer de email.
+Agora que sua decisão está em execução, você pode inseri-la em uma mensagem de email. Para fazer isso, siga as etapas detalhadas em [esta página](../../using/design/deliver-personalized-offers.md).
 
 ![](assets/offers-e2e-offers-displayed.png)
-
-Use o **[!UICONTROL Offers]** ou as setas dos componentes de conteúdo (setas para a direita e para a esquerda) para navegar pelos dados. Também é possível exibir as diferentes ofertas que fazem parte da decisão com um perfil de cliente. Saiba mais [nesta seção](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
-
-Depois de salvar suas alterações e depois que a mensagem for publicada, suas ofertas estarão prontas para serem exibidas aos perfis relevantes ao enviar a mensagem como parte de uma jornada.
-
->[!NOTE]
->
->Ao atualizar uma oferta, oferta de fallback, coleção de ofertas ou decisão de oferta que é direta ou indiretamente referenciada em uma [publicado](../../using/messages/publish-manage-message.md) , as atualizações agora são refletidas automaticamente na mensagem correspondente, sem a necessidade de republicá-la.
-
-**Tópicos relacionados:**
-
-* Saiba como verificar a pré-visualização da mensagem em [esta seção](../../using/design/preview.md#preview-your-messages).
-
-* Saiba como publicar mensagens em [esta seção](../../using/messages/publish-manage-message.md).
-
-* Saiba como as mensagens são acionadas por uma ou mais jornadas no [esta seção](../building-journeys/journey.md).
-
-<!--
-* Learn how to measure your offer's success and impact on your targeted audience with reports in [this section](../reports/journey-global-report.md).
--->
-
-

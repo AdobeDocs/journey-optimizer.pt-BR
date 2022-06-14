@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 99%
       + [Introdução aos perfis](using/segment/get-started-profiles.md)
       + [Criar perfis de teste](using/segment/creating-test-profiles.md)
    + [Identidades](using/segment/get-started-identity.md)
-   + [Uso da licença](using/segment/licence-usage.md)
+   + [Uso da licença](using/segment/license-usage.md)
 + Jornadas {#orchestrate-journeys}
    + Sobre jornadas{#about-journeys}
       + [Princípio geral](using/building-journeys/journey.md)
@@ -253,8 +253,7 @@ ht-degree: 99%
       + [Exemplos de consultas](using/reports/query-examples.md)
    + Capacidade de entrega {#deliverability}
       + [Introdução à capacidade de entrega](using/reports/deliverability.md)
-      + [Lista de supressão](using/reports/suppression-list.md)
-      + [Lista de permissões](using/reports/allow-list.md)
+      + [Sobre a lista de supressão](using/reports/suppression-list.md)
    + [Ações de auditoria em recursos do Journey Optimizer](using/reports/audit-logs.md)
 + Gerenciamento de decisão {#offer-decisioniong}
    + Introdução ao gerenciamento de decisão {#get-started-decision}
@@ -368,8 +367,9 @@ ht-degree: 99%
             + [Acessar e editar registros PTR](using/configuration/ptr-records.md)
             + [Criar pools de IP](using/configuration/ip-pools.md)
          + Monitorar endereços de email {#monitor-reputation}
-            + [Gerenciar lista de supressão](using/configuration/manage-suppression-list.md)
+            + [Lista de supressão](using/configuration/manage-suppression-list.md)
             + [Tentativas](using/configuration/retries.md)
+            + [Lista de permissões](using/configuration/allow-list.md)
       + [Configurar canal de SMS](using/configuration/sms-configuration.md)
       + Configurar predefinições de mensagem {#set-up-message-presets}
          + [Criar predefinições de mensagem](using/configuration/message-presets.md)

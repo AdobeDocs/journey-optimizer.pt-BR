@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '585'
 ht-degree: 3%
 
 ---
 
 # Adicionar ofertas personalizadas {#deliver-personalized-offers}
 
-Em [!DNL Journey Optimizer] mensagens de email, você pode inserir decisões (anteriormente conhecidas como &quot;atividades de oferta&quot;) que aproveitarão o mecanismo de decisão da oferta para escolher a melhor oferta a ser entregue aos clientes.
+Em [!DNL Journey Optimizer] mensagens de email, você pode inserir decisões que aproveitarão o mecanismo de decisão da oferta para escolher a melhor oferta a ser entregue aos clientes.
 
 Por exemplo, você pode adicionar uma decisão que exibirá em seu email uma oferta de desconto especial que varia de acordo com o nível de fidelidade do recipient.
 
@@ -49,7 +49,7 @@ Para inserir uma decisão em uma mensagem de email, siga as etapas abaixo:
 
    [Posicionamentos](../offers/offer-library/creating-placements.md) são contêineres usados para mostrar suas ofertas. Neste exemplo, usaremos a disposição &quot;imagem superior do email&quot;. Essa disposição foi criada na Biblioteca de ofertas para exibir ofertas do tipo imagem situadas na parte superior das mensagens.
 
-1. Selecione a atividade de oferta a ser usada no componente de conteúdo e clique em **[!UICONTROL Add]**.
+1. As decisões que correspondem à exibição de disposição selecionada. Selecione a decisão a ser usada no componente de conteúdo e clique em **[!UICONTROL Add]**.
 
    >[!NOTE]
    >
@@ -59,6 +59,11 @@ Para inserir uma decisão em uma mensagem de email, siga as etapas abaixo:
 
 A atividade de oferta agora é adicionada ao componente .
 
+Depois de salvar suas alterações e depois que a mensagem for publicada, suas ofertas estarão prontas para serem exibidas aos perfis relevantes ao enviar a mensagem como parte de uma jornada.
+
+>[!NOTE]
+>
+>Ao atualizar uma oferta, oferta de fallback, coleção de ofertas ou decisão de oferta que é direta ou indiretamente referenciada em uma mensagem publicada, as atualizações são refletidas automaticamente na mensagem correspondente, sem a necessidade de republicá-la.
 
 ## Visualizar ofertas em um email {#preview-offers-in-email}
 

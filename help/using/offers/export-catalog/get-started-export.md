@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ A exportação cria um conjunto de dados para cada objeto da Biblioteca de ofert
 * Ofertas personalizadas
 * Ofertas substitutas
 * Disposições
-* Decisões (anteriormente conhecidas como atividades de oferta)
+* Decisões
 
 Cada vez que um desses objetos é modificado na Biblioteca de ofertas, um novo trabalho de exportação é executado automaticamente para atualizar os conjuntos de dados.
 

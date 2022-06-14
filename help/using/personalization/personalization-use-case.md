@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
 * crie e crie uma mensagem de notificação por push, sem publicá-la. Consulte esta [seção](../messages/get-started-content.md).
 * configure um evento de pedido incluindo o número do pedido, o status e o nome do item. Consulte esta [seção](../event/about-events.md).
-* criar uma decisão (anteriormente conhecida como &quot;atividade de oferta&quot;), consulte esta seção [seção](../offers/offer-activities/create-offer-activities.md).
+* criar uma decisão, consulte esta [seção](../offers/offer-activities/create-offer-activities.md).
 
 ## Etapa 1 - Adicionar personalização ao perfil {#add-perso}
 
@@ -98,7 +98,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
    ![](assets/perso-uc13.png)
 
-1. No menu esquerdo, selecione **Decisões de oferta** para inserir uma variável de offer decisioning. Selecione a disposição e clique no botão **+** ícone ao lado da decisão (anteriormente conhecida como &quot;atividade de oferta&quot;) para adicioná-la ao corpo.
+1. No menu esquerdo, selecione **Decisões de oferta** para inserir uma variável de offer decisioning. Selecione a disposição e clique no botão **+** ícone ao lado da decisão de adicioná-lo ao corpo.
 
    ![](assets/perso-uc14.png)
 

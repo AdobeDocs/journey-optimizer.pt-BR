@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1108'
 ht-degree: 5%
 
 ---
@@ -147,7 +147,7 @@ Para fazer isso, selecione o **[!UICONTROL Add email or domain]** , em seguida, 
 
    >[!NOTE]
    >
-   >Somente caracteres ASCII compreendidos entre 32 e 126 são permitidos. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por exemplo.
+   >Todos os caracteres ASCII compreendidos entre 32 e 126 são permitidos no **[!UICONTROL Reason]** campo. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por exemplo.
 
 1. Clique em **[!UICONTROL Submit]**.
 
@@ -171,7 +171,7 @@ Para fazer isso, selecione o **[!UICONTROL Add email or domain]** , em seguida, 
    ```
    >[!NOTE]
    >
-   >Para a coluna Comentário , somente caracteres ASCII entre 32 e 126 são permitidos. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por exemplo.
+   >Todos os caracteres ASCII compreendidos entre 32 e 126 são permitidos no **Comentário** coluna. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por exemplo.
 
    Também é possível baixar esse modelo na **[!UICONTROL Suppression list]** visualização principal.
 
