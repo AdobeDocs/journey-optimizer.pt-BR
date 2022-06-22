@@ -5,12 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
+source-git-commit: f2426b8696983b22dd2c80296e2c9dfc2426c439
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---
@@ -18,10 +16,6 @@ ht-degree: 3%
 # Gerenciar [!DNL Adobe Stock] imagens {#stock}
 
 ## Introdução ao [!DNL Adobe Stock] {#get-started-stock}
-
->[!IMPORTANT]
->
-> O uso da variável [!DNL Adobe Stock] no momento, a integração está disponível somente para usuários selecionados com acesso antecipado. Se quiser aproveitar esse recurso, entre em contato com o executivo da sua conta Adobe.
 
 [!DNL Adobe Stock] fornece acesso a milhões de fotos, vídeos, ilustrações e gráficos vetoriais de alta qualidade e com curadoria e isentos de royalties. Você pode optar por comprar um pacote de crédito para licenciar ativos ou comprar apenas uma licença Standard ou Extended para o ativo necessário. O Adobe Stock também fornece uma coleção gratuita de ativos.
 
@@ -31,6 +25,10 @@ Com [!DNL Adobe Journey Optimizer], você pode carregar imagens em seus emails d
 [Saiba mais sobre design de email](design-emails.md).
 
 ## Inserir e importar [!DNL Adobe Stock] imagens {#add-stock-image}
+
+>[!NOTE]
+>
+> O **[!UICONTROL Find Adobe Stock photos]** estará disponível somente para usuários com acesso a um Perfil de produto do AEM Assets Essentials. Para obter mais informações, consulte [Documentação essencial dos ativos](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials).
 
 Após editar e personalizar seu email, você pode adicionar imagens de [!DNL Adobe Stock] para o modelo:
 
@@ -55,7 +53,8 @@ Após editar e personalizar seu email, você pode adicionar imagens de [!DNL Ado
 
 1. No [!DNL Adobe Stock] no site, será necessário comprar o ativo para baixar a imagem e remover a marca d&#39;água.
 
-   Essa compra dependerá do plano ou da assinatura da Adobe Stock. Para obter mais informações, consulte esta [página](https://stock.adobe.com/plans).
+   Essa compra dependerá do plano ou da assinatura da Adobe Stock. Observe que, se você tiver várias contas Adobe Stock, será redirecionado para a última ID de estoque usada. Nesse caso, verifique se você está conectado à conta correta antes de licenciar seu ativo.
+Para obter mais informações, consulte esta [página](https://stock.adobe.com/plans).
 
    >[!WARNING]
    > Se um email incluindo uma imagem não licenciada for enviado, a imagem manterá seu formulário não licenciado com a marca d&#39;água.

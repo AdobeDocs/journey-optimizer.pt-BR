@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1329'
 ht-degree: 3%
 
 ---
@@ -139,7 +139,7 @@ Sua jornada será composta por um **[!UICONTROL Read Segment]** e um **[!UICONTR
 1. Adicione um **[!UICONTROL Update Profile]** atividade de ação.
 1. Selecione o schema, a variável **testProfiles** , o conjunto de dados e defina o valor como **Verdadeiro**. Para fazer isso, no **[!UICONTROL VALUE]** clique no campo **Caneta** no ícone à direita, selecione **[!UICONTROL Advanced mode]** e insira **true**.
    ![](assets/test-profiles-26.png)
-1. Adicione um **End** e clique em **[!UICONTROL Publish]**.
+1. Clique em **[!UICONTROL Publish]**.
 1. No **[!UICONTROL Segments]** verifique se os perfis foram atualizados corretamente.
    ![](assets/test-profiles-28.png)
 

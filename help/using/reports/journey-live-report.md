@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 2%
+source-wordcount: '895'
+ht-degree: 1%
 
 ---
 
@@ -65,9 +65,9 @@ Para obter um relatório detalhado sobre um delivery de email específico, consu
 
 O **[!UICONTROL Email Sending Statistics]** o widget detalha as informações principais relativas à sua mensagem:
 
-* **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito.
 
-* **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno.
 
 * **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
 
@@ -75,9 +75,9 @@ O **[!UICONTROL Sending metrics by Email]** tabela e **[!UICONTROL Email Summary
 
 * **[!UICONTROL Sent]**: Número total de envios para o delivery.
 
-* **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito.
 
-* **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno.
 
 * **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
 
@@ -131,9 +131,9 @@ Para obter um relatório detalhado sobre um delivery de push específico, consul
 
 * **[!UICONTROL Sent]**: Número total de envios para o delivery.
 
-* **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito.
 
-* **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno.
 
 * **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
 
@@ -152,3 +152,33 @@ O **[!UICONTROL Sending statistics - Failed]** permite ver quantos erros e rejei
 ![](assets/report_push_2.png)
 
 O **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** gráficos e tabelas detalham o sucesso da sua notificação por push, dependendo do sistema operacional.
+
+## Guia SMS {#sms-live}
+
+O **[!UICONTROL SMS - Sending statistics]** tabela detalha o sucesso do delivery:
+
+* **[!UICONTROL Targeted]**: Número de perfis de usuário que se qualificaram como perfis de público-alvo para este delivery.
+
+* **[!UICONTROL Excluded]**: Número de perfis de usuário, excluídos dos perfis segmentados, que não receberam a mensagem.
+
+* **[!UICONTROL Sent]**: Número total de envios para o delivery.
+
+* **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito.
+
+* **[!UICONTROL Opens]**: Número de vezes que uma mensagem foi aberta em um delivery.
+
+* **[!UICONTROL Clicks]**: Número de vezes que um conteúdo foi clicado em um delivery.
+
+* **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno.
+
+* **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
+
+O **[!UICONTROL SMS Summary]** gráfico detalha o sucesso do seu delivery:
+
+* **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito.
+
+* **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno.
+
+* **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
+
+O **[!UICONTROL Exclude Reasons]** gráficos e tabelas permitem ver quais erros e exclusões ocorreram durante o delivery.

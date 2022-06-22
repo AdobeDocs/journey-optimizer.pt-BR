@@ -2,16 +2,30 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 7483b1e7a37b1a8a757ce5cc90a60a829a580389
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 100%
+source-wordcount: '1553'
+ht-degree: 92%
 
 ---
 
 # Atualizações de documentação {#latest-updates}
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
+
+
+## Junho de 2022 {#june-2022}
+
+* Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 22 de junho foi detalhada na documentação. [Leia mais](release-notes.md)
+* Uma nova seção sobre as políticas de uso de dados foi adicionada à documentação. [Leia mais](../privacy/policies.md)
+* Uma nova seção sobre solicitações de privacidade foi adicionada à documentação. [Leia mais](../privacy/requests.md)
+* Uma nova seção sobre Logs de auditoria em recursos foi adicionada à documentação. [Leia mais](../privacy/audit-logs.md)
+* Uma nova seção sobre como adicionar conteúdo HTML ou JSON proveniente da biblioteca do Adobe Experience Cloud Asset a uma representação de oferta foi adicionada à documentação. [Leia mais](../offers/offer-library/add-representations.md#html-json)
+* Nova página adicionada ao ciclo de vida do jornada. [Leia mais](../building-journeys/journey-end.md)
+* Atualização da página da atividade Wait . [Leia mais](../building-journeys/wait-activity.md)
+* Adição da lista de conjuntos de dados do Adobe Journey Optimizer com exemplos de consulta. [Leia mais](../start/datasets-query-examples.md)
+* A página Lista de permissões foi movida para a seção Configuração . [Leia mais](../configuration/allow-list.md)
+* A página da lista Supressão foi atualizada. [Leia mais](../configuration/manage-suppression-list.md)
 
 ## Maio de 2022 {#may-2022}
 

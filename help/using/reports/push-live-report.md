@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ O push **[!UICONTROL Live report]** O é dividido em diferentes widgets detalhan
 
 * **[!UICONTROL Sent]**: Número total de envios para o delivery.
 
-* **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito.
 
-* **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno.
 
 * **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
 
@@ -49,9 +49,9 @@ O **[!UICONTROL Sending metrics - by push]** tabela detalha o sucesso do deliver
 
 * **[!UICONTROL Sent]**: Número total de envios para o delivery.
 
-* **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Delivered]**: Número de mensagens enviadas com êxito.
 
-* **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Bounces]**: Total de erros acumulados durante o delivery e o processamento automático de retorno.
 
 * **[!UICONTROL Errors]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
 

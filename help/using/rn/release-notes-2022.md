@@ -2,10 +2,10 @@
 title: Notas de versão de 2022
 description: Notas de versão do Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: bfd12553c653a4d4caccc969cb51b1416c64ba65
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 100%
+source-wordcount: '1418'
+ht-degree: 96%
 
 ---
 
@@ -14,6 +14,103 @@ ht-degree: 100%
 Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] lançado em 2022.
 
 As notas de versão mais recentes estão disponíveis [nesta página](release-notes.md).
+
+para sua caixa de entrada a cada trimestre.
+
+## Versão de maio de 2022 {#may-2022-release}
+
+### Novos recursos
+
+<table>
+<thead>
+<tr>
+<th><strong>Regras de frequência de mensagem</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível definir regras de negócios entre canais que excluirão automaticamente perfis excessivamente solicitados de mensagens e ações.</p>
+<img src="assets/do-not-localize/frequency-rn.gif"/>
+<p>Para obter mais informações, consulte a <a href="../configuration/frequency-rules.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Gestão de decisões - Modelo de otimização automática de classificação de IA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode usar sistemas de modelo treinados na Gestão de decisões. Esse novo recurso classifica as ofertas para exibição em um determinado perfil.</p>
+<img src="assets/do-not-localize/optimization.gif"/>
+<p>Para obter mais informações, consulte a <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Attribute-based Access Control (ABAC)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Permission management in Journey Optimizer has been extended to data access. You can now manage data access for specific teams or groups of users (i.e. internal, external, 3rd parties) ​and manage access to specific types of data (i.e. Sensitive Personal Data/SPD).</p>
+<p>This capability is available for a limited set of customers.</p>
+<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Logs de auditoria do Journey Optimizer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível monitorar ações executadas por usuários nos recursos do Adobe Journey Optimizer.</p>
+<img src="assets/do-not-localize/audit-rn.gif"/>
+<p>Para obter mais informações, consulte a <a href="../privacy/audit-logs.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Melhorias
+
+**Personalização**
+
+* **Nova função auxiliar para ocultação de caracteres** - A função auxiliar do `mask` permite substituir uma parte de uma string por caracteres “X”. [Saiba mais](../personalization/functions/string.md#mask)
+
+**Páginas de aterrissagem**
+
+* **Páginas de aterrissagem sem um formulário** - Agora é possível criar e publicar uma página de aterrissagem que não contenha um formulário e não exija nenhuma ação dos visitantes.
+* **Modelos de página de aterrissagem** - Agora é possível salvar uma página de aterrissagem como modelo e reutilizá-la na criação de outras páginas de aterrissagem. [Saiba mais](../landing-pages/lp-templates.md)
+* **Voltar à página principal** - Agora é possível adicionar um link para a página principal de qualquer subpágina da mesma página de aterrissagem.
+* **Suporte a JavaScript personalizado** - Agora é possível adicionar JavaScript personalizado ao conteúdo da página de aterrissagem para executar estilos avançados ou adicionar comportamentos personalizados às páginas de aterrissagem.	[Saiba mais](../landing-pages/lp-custom-js.md)
+
+**Jornadas**
+
+* **Segmento de leitura** - Jornadas de segmento de leitura única agora são atualizadas para o status “Concluído” 30 dias após a execução da jornada. Para segmentos de leitura agendados, isso acontece 30 dias após a execução da última ocorrência. [Saiba mais](../building-journeys/read-segment.md)
+* **Editor de expressão** - A função [limite](../building-journeys/functions/functionlimit.md) foi adicionada para limitar o número de itens de uma lista. A função [classificar](../building-journeys/functions/functionsort.md) agora permite classificar um objeto de lista. O suporte a listObject também foi adicionado às funções [disctinct](../building-journeys/functions/functiondistinct.md) e [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
+
+**Administração**
+
+* **Atualização do painel de uso da licença** - O painel de uso da licença disponível na [!DNL Adobe Journey Optimizer] a interface do usuário agora reflete o valor preciso da variável **Licenciado** Riqueza média do perfil. Você verá uma queda nessa representação de métrica, o que significa que o limite de licença agora é relatado corretamente. [Saiba mais](../segment/license-usage.md)
+
 
 ## Versão de abril de 2022 {#april-2022-release}
 

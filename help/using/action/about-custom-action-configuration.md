@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 6%
+source-wordcount: '951'
+ht-degree: 5%
 
 ---
 
@@ -120,7 +120,7 @@ No **[!UICONTROL Action parameters]** cole um exemplo da carga JSON para enviar 
 
 >[!NOTE]
 >
->Os nomes de campo no payload não podem conter um &quot;.&quot; caractere. Eles não podem começar com um caractere &quot;$&quot;.
+>O exemplo de carga útil não pode conter valores nulos. Os nomes de campo no payload não podem conter um &quot;.&quot; caractere. Eles não podem começar com um caractere &quot;$&quot;.
 
 Você poderá definir o tipo de parâmetro (por exemplo: string, número inteiro, etc.).
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -120,8 +120,6 @@ Consulte esta [seção](../segment/about-segments.md) para saber como criar e pu
 1. Conecte os três caminhos ao evento de compra criado anteriormente. O evento é acionado quando um indivíduo faz uma compra.
 
 1. Depois do evento , solte uma **Mensagem** e selecione a mensagem de email &quot;obrigado&quot;.
-
-1. Adicione um **End** atividade .
 
 ## Testar e publicar a jornada
 

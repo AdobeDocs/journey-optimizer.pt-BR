@@ -4,9 +4,9 @@ description: Saiba como configurar seu ambiente para enviar notificações por p
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1426'
 ht-degree: 5%
 
 ---
@@ -334,8 +334,6 @@ Seu evento foi criado e agora pode ser usado em uma jornada.
 1. No **[!UICONTROL Actions]** , arraste e solte uma **[!UICONTROL Message]** atividade para sua jornada.
 
 1. Selecione uma mensagem criada anteriormente. Para obter mais informações sobre como criar notificações por push, consulte esta seção [página](../messages/get-started-content.md).
-
-1. Arraste e solte um **[!UICONTROL End]** atividade para sua jornada.
 
 1. Clique no botão **[!UICONTROL Test]** alterne para começar a testar suas notificações por push e clique em **[!UICONTROL Trigger an event]**.
 

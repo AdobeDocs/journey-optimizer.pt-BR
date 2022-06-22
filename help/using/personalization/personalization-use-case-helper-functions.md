@@ -6,14 +6,14 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1033'
 ht-degree: 3%
 
 ---
 
-# Caso de uso de Personalization: email de abandono do carrinho {#personalization-use-case-helper-functions}
+# Caso de uso de personalização: email de abandono do carrinho {#personalization-use-case-helper-functions}
 
 Neste exemplo, você personalizará o corpo de uma mensagem de email. Essa mensagem direciona os clientes que deixaram itens em seu carrinho de compras, mas não concluíram a compra.
 
@@ -104,7 +104,6 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 
 1. Crie uma jornada que comece com esse evento.
 1. Adicione a mensagem à jornada.
-1. Encerre a jornada com uma atividade final.
 
    Como você ainda não publicou a mensagem, não é possível testar nem publicar a jornada.
 

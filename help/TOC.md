@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 98%
+source-wordcount: '1104'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,13 @@ ht-degree: 98%
       + [Introdução para desenvolvedores](using/start/path/developer.md)
    + [Interface do usuário](using/start/user-interface.md)
    + [Medidas de proteção](using/start/guardrails.md)
++ Campanhas {#campaigns}
+   + [Introdução a campanhas](using/campaigns/get-started-with-campaigns.md)
+   + [Criar uma campanha](using/campaigns/create-campaign.md)
+   + [Modificar ou parar uma campanha](using/campaigns/modify-stop-campaign.md)
+   + Relatórios {#reports}
+      + [Relatório ao vivo da campanha](using/campaigns/campaign-live-report.md)
+      + [Relatório global da campanha](using/campaigns/campaign-global-report.md)
 + Mensagens {#messages}
    + [Introdução a mensagens](using/messages/get-started-content.md)
    + [Criar um email](using/messages/create-email.md)
@@ -107,6 +114,7 @@ ht-degree: 98%
 + Jornadas {#orchestrate-journeys}
    + Sobre jornadas{#about-journeys}
       + [Princípio geral](using/building-journeys/journey.md)
+      + [Ciclo de vida da jornada](using/building-journeys/journey-end.md)
       + [Versões de jornada](using/building-journeys/journey-versions.md)
       + [Integrar a serviços inteligentes](using/building-journeys/ai-services-overview.md)
    + Criar uma jornada{#create-journey}
@@ -115,6 +123,7 @@ ht-degree: 98%
       + [Teste a jornada](using/building-journeys/testing-the-journey.md)
       + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
       + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
+      + [Copiar uma jornada](using/building-journeys/copy-to-sandbox.md)
       + [Solucionar problemas da jornada](using/building-journeys/troubleshooting.md)
    + Atividades {#about-journey-building}
       + [Sobre as atividades de jornada](using/building-journeys/about-journey-activities.md)
@@ -254,7 +263,6 @@ ht-degree: 98%
    + Capacidade de entrega {#deliverability}
       + [Introdução à capacidade de entrega](using/reports/deliverability.md)
       + [Sobre a lista de supressão](using/reports/suppression-list.md)
-   + [Ações de auditoria em recursos do Journey Optimizer](using/reports/audit-logs.md)
 + Gerenciamento de decisão {#offer-decisioniong}
    + Introdução ao gerenciamento de decisão {#get-started-decision}
       + [Sobre o Gerenciamento de decisão](using/offers/get-started/starting-offer-decisioning.md)
@@ -349,7 +357,9 @@ ht-degree: 98%
          + [API de decisão em lote](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Gerenciamento de dados {#data-management}
    + [Esquemas](using/start/get-started-schemas.md)
-   + [Conjuntos de dados](using/start/get-started-datasets.md)
+   + Conjuntos de dados {#datasets}
+      + [Introdução a conjuntos de dados](using/start/get-started-datasets.md)
+      + [Exemplos de query](using/start/datasets-query-examples.md)
    + [Consultas](using/start/get-started-queries.md)
 + Configuração {#configuration}
    + [Introdução à configuração do Journey Optimizer](using/configuration/get-started-configuration.md)
@@ -410,4 +420,7 @@ ht-degree: 98%
    + [Níveis de permissão](using/administration/high-low-permissions.md)
    + [Gerenciamento de sandboxes](using/administration/sandboxes.md)
    + [Controle de acesso baseado em atributos](using/administration/attribute-based-access.md)
-
++ Privacidade {#privacy}
+   + [Políticas de uso de dados](using/privacy/policies.md)
+   + [Solicitações de privacidade](using/privacy/requests.md)
+   + [Ações de auditoria em recursos do Journey Optimizer](using/privacy/audit-logs.md)

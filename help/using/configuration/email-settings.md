@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 8f089e885098917d2ebf455b807ac5e6da020190
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1192'
 ht-degree: 2%
 
 ---
@@ -163,10 +163,15 @@ Saiba mais sobre tentativas em [esta seção](retries.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="Parâmetros de rastreamento de URL"
->abstract="Use esta seção para anexar parâmetros de rastreamento automaticamente aos URLs da campanha presentes no seu conteúdo de email."
+>title="Definir parâmetros de rastreamento de URL"
+>abstract="Use esta seção para anexar automaticamente parâmetros de rastreamento aos URLs presentes no seu conteúdo de email. Este recurso é opcional."
 
-Você pode usar **[!UICONTROL URL Tracking Parameters]** para medir a eficácia de seus esforços de marketing em todos os canais. Este recurso é opcional.
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_url_preview"
+>title="Visualizar parâmetros de rastreamento do URL"
+>abstract="Analise como os parâmetros de rastreamento serão anexados aos URLs presentes no seu conteúdo de email."
+
+Você pode usar **[!UICONTROL URL tracking parameters]** para medir a eficácia de seus esforços de marketing em todos os canais. Este recurso é opcional.
 
 Os parâmetros definidos nesta seção serão anexados ao final dos URLs incluídos no conteúdo da mensagem de email. Em seguida, você pode capturar esses parâmetros em ferramentas de análise da Web, como Adobe Analytics ou Google Analytics, e criar vários relatórios de desempenho.
 
@@ -174,8 +179,9 @@ Os parâmetros definidos nesta seção serão anexados ao final dos URLs incluí
 
 Três parâmetros de rastreamento de URL são preenchidos automaticamente como um exemplo ao criar uma predefinição de mensagem. Você pode editá-los e adicionar até 10 parâmetros de rastreamento usando o **[!UICONTROL Add new parameter]** botão.
 
-Para configurar um parâmetro de rastreamento de URL, você pode inserir diretamente os valores desejados no **[!UICONTROL Name]** e **[!UICONTROL Value]** ou escolha em uma lista de valores predefinidos navegando até os seguintes objetos:
+Para configurar um parâmetro de rastreamento de URL, você pode inserir diretamente os valores desejados no **[!UICONTROL Name]** e **[!UICONTROL Value]** campos.
 
+Também é possível escolher em uma lista de valores predefinidos navegando até os seguintes objetos:
 * Atributos de jornada: **ID de origem**, **Nome da origem**, **ID da versão de origem**
 * Atributos de ação: **ID da ação**, **Nome da ação**
 * Atributos do offer decisioning: **ID da oferta**, **Nome da oferta**
@@ -186,6 +192,10 @@ Para configurar um parâmetro de rastreamento de URL, você pode inserir diretam
 >
 >Não selecione uma pasta: navegue até a pasta necessária e selecione um atributo de perfil para usar como valor de parâmetro de rastreamento.
 
+<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+
+You can drag and drop the parameters to reorder them.-->
+
 Abaixo estão exemplos de URLs compatíveis com Adobe Analytics e Google Analytics.
 
 * URL compatível com Adobe Analytics: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
@@ -195,3 +205,7 @@ Abaixo estão exemplos de URLs compatíveis com Adobe Analytics e Google Analyti
 >[!NOTE]
 >
 >É possível combinar a digitação de valores de texto e a seleção de valores predefinidos. Cada **[!UICONTROL Value]** pode conter até 255 caracteres no total.
+
+Você pode visualizar dinamicamente o URL de rastreamento resultante. Cada vez que você adiciona, edita ou remove um parâmetro, a visualização é atualizada automaticamente.
+
+![](assets/preset-url-tracking-preview.png)

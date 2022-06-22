@@ -3,21 +3,15 @@ title: Configuração de SMS
 description: Saiba como configurar seu ambiente para enviar mensagens SMS com o Journey Optimizer
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '350'
 ht-degree: 4%
 
 ---
 
 # Configurar canal de SMS {#sms-configuration}
-
->[!CAUTION]
->
-> O uso do canal SMS está disponível no momento somente para usuários selecionados. Se quiser aproveitar esse recurso, entre em contato com o executivo da sua conta Adobe.
 
 [!DNL Journey Optimizer] O permite criar suas jornadas e enviar mensagens para o público-alvo.
 
@@ -29,15 +23,14 @@ Para configurar seu fornecedor de SMS com o Journey Optimizer, siga estas etapas
 
    ![](assets/sms_4.png)
 
-1. Selecione Sinalizar como seu **[!UICONTROL SMS vendor]**.
+1. Selecione seu **[!UICONTROL SMS vendor]**:
+
+   * [!DNL Sinch]. Para encontrar seu **[!UICONTROL Service ID]** e **[!UICONTROL API Token]**, acesse o menu SMS > APIs em sua conta do Sinch .
+   * [!DNL Twilio]. Para encontrar seu **[!UICONTROL Service ID]** e **[!UICONTROL API Token]**, acesse o painel Informações da conta da página Painel do console .
 
 1. Insira um **[!UICONTROL Name]** para sua Credencial da API.
 
 1. Insira seu **[!UICONTROL Service ID]** e **[!UICONTROL API Token]**.
-
-   >[!NOTE]
-   >
-   > O Sinch requer credenciais de API especiais. Para encontrar seu **[!UICONTROL Service ID]** e **[!UICONTROL API Token]**, acesse o menu SMS > APIs da conta do Sinch ,
 
    ![](assets/sms_5.png)
 
@@ -74,6 +67,8 @@ Para criar uma predefinição de mensagem, siga estas etapas:
       Para obter mais informações sobre como configurar seu ambiente para enviar mensagens SMS, consulte [esta seção](sms-configuration.md).
 
    * Insira o **[!UICONTROL Sender number]** &#x200B; você deseja usar para suas comunicações.
+
+   * Selecione seu **[!UICONTROL SMS Execution Field]** para selecionar o **[!UICONTROL Profile attribute]** associado aos números de telefone dos perfis.
 
 1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Submit]** para confirmar. Você também pode salvar a predefinição de mensagem como rascunho e retomar sua configuração posteriormente.
 
