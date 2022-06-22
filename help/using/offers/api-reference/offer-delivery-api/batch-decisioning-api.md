@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: c41bc43643bac4d8715469a18d6908846ddd6bf7
+source-git-commit: 9aa8b8c33eae6fd595643c5fefb4b4ea46ae7b73
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '930'
 ht-degree: 3%
 
 ---
@@ -181,13 +181,23 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 ## Níveis de serviço {#service-levels}
 
-O tempo de end-to-end para cada decisão de lote é a duração do tempo em que a carga de trabalho é criada para o tempo em que o resultado da decisão está disponível no conjunto de dados de saída. O tamanho do segmento na carga da solicitação de POST é o principal fator que afeta o tempo de decisão do lote completo.  Abaixo estão algumas observações para diferentes tamanhos de segmento:
+O tempo de ponta a ponta para cada decisão de lote é a duração do tempo em que a carga de trabalho é criada até o momento em que o resultado da decisão está disponível no conjunto de dados de saída. O tamanho do segmento na carga da solicitação de POST é o principal fator que afeta o tempo de decisão do lote completo. Se a oferta elegível tiver um limite de frequência global ativado, a decisão em lote levará mais tempo para ser concluída. Abaixo estão algumas aproximações do tempo de processamento completo para seus respectivos tamanhos de segmento, com e sem limite de frequência para ofertas elegíveis:
+
+Com o limite de frequência ativado para ofertas qualificadas:
+
+| Tamanho do segmento | Tempo de processamento completo |
+|--------------|----------------------------|
+| 10 mil perfis ou menos | 7 minutos |
+| 1 milhão de perfis ou menos | 30 minutos |
+| 15 milhões de perfis ou menos | 50 minutos |
+
+Sem limite de frequência para ofertas elegíveis:
 
 | Tamanho do segmento | Tempo de processamento completo |
 |--------------|----------------------------|
 | 10 mil perfis ou menos | 6 minutos |
-| 1 milhão de perfis ou menos | 10 minutos |
-| 15 milhões de perfis ou menos | 75 minutos |
+| 1 milhão de perfis ou menos | 8 minutos |
+| 15 milhões de perfis ou menos | 16 minutos |
 
 ## Limitações {#limitations}
 
