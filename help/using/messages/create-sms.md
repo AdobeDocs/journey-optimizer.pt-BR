@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 067453ee3c19c7f269b4b1791ead8b5421adf95b
+source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 12%
@@ -20,7 +20,7 @@ ht-degree: 12%
 >title="Criação de SMS"
 >abstract="Adicione a mensagem de texto e comece a personalizá-la com o Editor de expressão."
 
->[!NOTE]
+>[!AVAILABILITY]
 >
 >No momento, o canal SMS está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o representante do Adobe.
 

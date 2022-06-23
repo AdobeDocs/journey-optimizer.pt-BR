@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 6%
@@ -72,7 +72,7 @@ Para forçar um valor específico, é possível usar a variável **Habilitar sub
 
 O recurso de Otimização de tempo de envio da Adobe Journey Optimizer, desenvolvido pelos serviços de IA do Adobe, pode prever o melhor momento para enviar um email ou mensagem de push para maximizar o engajamento com base nas taxas de abertura e cliques do histórico. Use nosso modelo de aprendizado de máquina para agendar tempos de envio personalizados para cada usuário a fim de aumentar as taxas de abertura e cliques de suas mensagens.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
 >No momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
 
