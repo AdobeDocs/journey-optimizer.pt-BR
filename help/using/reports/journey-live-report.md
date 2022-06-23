@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,7 @@ A jornada **[!UICONTROL Live report]** será exibida com as seguintes guias:
 * [Jornada](#journey-live)
 * [Email](#email-live)
 * [Push](#push-live)
+* [SMS](#sms-live)
 
 A jornada **[!UICONTROL Live report]** O é dividido em diferentes widgets detalhando o sucesso e os erros da jornada. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações sobre isso, consulte esta seção [seção](live-report.md#modify-dashboard).
 

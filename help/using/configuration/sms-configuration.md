@@ -4,7 +4,7 @@ description: Saiba como configurar seu ambiente para enviar mensagens SMS com o 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%
@@ -70,7 +70,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    * Selecione o **[!UICONTROL SMS configuration]** para associar com a predefinição.
 
-      Para obter mais informações sobre como configurar seu ambiente para enviar mensagens SMS, consulte [esta seção](sms-configuration.md).
+      Para obter mais informações sobre como configurar seu ambiente para enviar mensagens SMS, consulte [esta seção](#create-api).
 
    * Insira o **[!UICONTROL Sender number]** &#x200B; você deseja usar para suas comunicações.
 

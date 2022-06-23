@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 100%
+source-wordcount: '1314'
+ht-degree: 95%
 
 ---
 
@@ -210,3 +210,10 @@ Dependendo do cliente de email, clicar no link de cancelamento de inscrição no
 Os recipients de push podem cancelar a inscrição por meio de seus próprios dispositivos.
 
 Por exemplo, ao baixar ou ao usar seu aplicativo, eles podem optar por parar as notificações. Da mesma forma, é possível alterar as configurações de notificação por meio do sistema operacional móvel.
+
+## Gerenciamento de recusa de SMS {#sms-opt-out-management}
+
+De acordo com os padrões e regulamentos do setor, os recipients do SMS podem responder com palavras-chave de aceitação e recusa.
+O Adobe Journey Optimizer processa automaticamente as seguintes palavras-chave nas mensagens recebidas: INICIAR, PARAR e DESPARAR. Essas palavras-chave acionam respostas padrão automáticas do provedor de SMS.
+
+Para obter mais informações sobre a recusa de SMS, consulte esta seção [página](../messages/create-sms.md#opt-in-and-opt-out).

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 9%
@@ -57,7 +57,6 @@ Para visualizar como sua mensagem SMS é exibida em dispositivos móveis, navegu
 
 Para obter mais informações, consulte [esta seção](../design/preview.md).
 
-
 ## Publicar seu SMS {#sms-publish}
 
 Quando a mensagem estiver pronta, você poderá publicá-la para disponibilizá-la para execução com a **[!UICONTROL Publish]** botão. Esta ação publica a nova versão da mensagem que será usada para as próximas execuções em suas jornadas.
@@ -69,7 +68,6 @@ Sua mensagem SMS agora pode ser usada em uma jornada. [Saiba como criar jornadas
 Para todas as mensagens de marketing, o SMS deve conter uma maneira de os recipients cancelarem a assinatura facilmente. Após a unsubscription, os perfis serão removidos automaticamente do público-alvo de futuras mensagens de marketing. A adição de um link de unsubscription não é obrigatória para mensagens transacionais.
 
 Os recipients do SMS podem responder com palavras-chave de aceitação e recusa. De acordo com os padrões e regulamentos do setor, o Adobe Journey Optimizer processa automaticamente as seguintes palavras-chave nas mensagens recebidas: INICIAR, PARAR e DESPARAR. Essas palavras-chave acionam respostas padrão automáticas do provedor de SMS.
-
 
 **Tópicos relacionados**
 

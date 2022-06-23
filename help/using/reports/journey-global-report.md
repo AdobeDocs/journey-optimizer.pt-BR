@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 0%
+source-wordcount: '1605'
+ht-degree: 1%
 
 ---
 
@@ -24,6 +24,7 @@ A jornada **[!UICONTROL Global report]** será exibida com as seguintes guias:
 * [Jornada](#journey-global)
 * [Email](#email-global)
 * [Push](#push-global)
+* [SMS](#sms-global)
 
 A jornada **[!UICONTROL Global report]** O é dividido em diferentes widgets detalhando o sucesso e os erros da jornada. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações sobre isso, consulte esta seção [seção](global-report.md#modify-dashboard).
 
