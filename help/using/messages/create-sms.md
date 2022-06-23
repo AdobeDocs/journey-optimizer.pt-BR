@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 067453ee3c19c7f269b4b1791ead8b5421adf95b
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 15%
+source-wordcount: '262'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->Os regulamentos exigem que os recipients do SMS possam responder com palavras-chave de aceitação e recusa. O Adobe Journey Optimizer processa automaticamente as seguintes palavras-chave: Iniciar, Parar e Desparar.
+>No momento, o canal SMS está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o representante do Adobe.
 
 Uma vez [criou uma mensagem](get-started-content.md), use o **[!UICONTROL SMS]** para definir as configurações e o conteúdo do canal SMS.
 
@@ -49,6 +49,10 @@ Para começar a personalizar a mensagem SMS, siga estas etapas:
 1. Quando a mensagem estiver pronta, você poderá publicá-la para disponibilizá-la para execução com a **[!UICONTROL Publish]** botão. Esta ação publicará a nova versão da mensagem que será usada para as próximas execuções em suas jornadas.
 
 Sua mensagem SMS agora pode ser usada em uma jornada. [Saiba como criar jornadas](../building-journeys/journey-gs.md).
+
+## Aceitação e recusa{#sms-opt-in-out}
+
+Os recipients do SMS podem responder com palavras-chave de aceitação e recusa. De acordo com os padrões e regulamentos do setor, o Adobe Journey Optimizer processa automaticamente as seguintes palavras-chave nas mensagens recebidas: INICIAR, PARAR e DESPARAR. Essas palavras-chave acionam respostas padrão automáticas do provedor de SMS.
 
 **Tópicos relacionados**
 
