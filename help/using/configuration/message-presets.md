@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 1%
+source-wordcount: '1495'
+ht-degree: 2%
 
 ---
 
@@ -53,7 +53,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
 1. Configure o **notificação por push** configurações. [Saiba mais](#configure-push-settings)
 
-   <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
+1. Configurar **SMS** configurações. [Saiba mais](sms-configuration.md)
 
 1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Submit]** para confirmar. Você também pode salvar a predefinição de mensagem como rascunho e retomar sua configuração posteriormente.
 
@@ -87,7 +87,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    ![](assets/preset-active.png)
 
-## Definir configurações de email {#configure-email-settings}
+## Definir configurações de email  {#configure-email-settings}
 
 As configurações de email são definidas em uma seção dedicada da configuração predefinida de mensagens.
 

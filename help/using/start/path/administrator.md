@@ -3,10 +3,10 @@ title: Introdução à Journey Optimizer para o Administrador do sistema
 description: Como Administrador do sistema, saiba mais sobre como trabalhar com a Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 2%
+source-wordcount: '719'
+ht-degree: 3%
 
 ---
 
@@ -49,6 +49,8 @@ Siga as etapas listadas abaixo:
    * Definir **configurações de notificações por push** em ambos [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Saiba mais](../../configuration/push-gs.md)
 
    * Criar **predefinições de mensagens** para configurar todos os parâmetros técnicos necessários para mensagens de email e de notificação por push. [Saiba mais](../../configuration/message-presets.md)
+
+   * Configure o **Canal SMS** para configurar todos os parâmetros técnicos necessários para o SMS. [Saiba mais](../../configuration/sms-configuration.md)
 
    * Gerenciar o número de dias durante os quais **tentativas** são executados antes do envio de endereços de email para a lista de supressão. [Saiba mais](../../configuration/manage-suppression-list.md)
 

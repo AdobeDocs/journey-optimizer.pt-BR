@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
+source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 12%
+source-wordcount: '384'
+ht-degree: 9%
 
 ---
 
@@ -20,13 +20,18 @@ ht-degree: 12%
 >title="Criação de SMS"
 >abstract="Adicione a mensagem de texto e comece a personalizá-la com o Editor de expressão."
 
+Uma vez [criou uma mensagem](get-started-content.md), use o **[!UICONTROL SMS]** para definir as configurações e o conteúdo da mensagem SMS.
+
+
 >[!AVAILABILITY]
 >
 >No momento, o canal SMS está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o representante do Adobe.
 
-Uma vez [criou uma mensagem](get-started-content.md), use o **[!UICONTROL SMS]** para definir as configurações e o conteúdo do canal SMS.
-
 ![](assets/sms_1.png)
+
+Se esta for a primeira vez que você cria uma mensagem SMS, verifique se o canal SMS foi configurado. [Saiba mais](../configuration/sms-configuration.md).
+
+## Definir o conteúdo do SMS{#sms-content}
 
 Para começar a personalizar a mensagem SMS, siga estas etapas:
 
@@ -34,25 +39,37 @@ Para começar a personalizar a mensagem SMS, siga estas etapas:
 
    ![](assets/sms_3.png)
 
-1. Use o Editor de expressão para definir dados de conteúdo e personalização. Saiba mais sobre a personalização no Editor de expressão em [esta seção](../personalization/personalize.md)
+1. Use o Editor de expressão para definir o conteúdo. Você pode usar qualquer atributo para personalizar o conteúdo, como o nome do perfil ou a cidade. Saiba mais sobre a personalização no Editor de expressão em [esta seção](../personalization/personalize.md)
 
    >[!NOTE]
    >
-   > As mensagens SMS são limitadas a um comprimento de 160 caracteres.
+   > Uma mensagem SMS pode ter até 160 caracteres, incluindo espaços e quebras de linha.
 
    ![](assets/sms_2.png)
 
-1. Clique em **[!UICONTROL Save]** quando a mensagem personalizada estiver pronta.
+1. Clique em **[!UICONTROL Save]** quando sua mensagem estiver pronta.
 
-1. Clique em **[!UICONTROL Preview]** para visualizar como sua mensagem SMS será exibida em dispositivos móveis. Para obter mais informações, consulte [esta seção](../design/preview.md).
+## Validar o SMS{#sms-preview}
 
-1. Quando a mensagem estiver pronta, você poderá publicá-la para disponibilizá-la para execução com a **[!UICONTROL Publish]** botão. Esta ação publicará a nova versão da mensagem que será usada para as próximas execuções em suas jornadas.
+Após definir o conteúdo da mensagem, é possível usar perfis de teste para pré-visualizá-lo e testá-lo. Se você inseriu [conteúdo personalizado](../personalization/personalize.md), é possível verificar como esse conteúdo é exibido na mensagem, aproveitando os dados do perfil de teste.
+
+Para visualizar como sua mensagem SMS é exibida em dispositivos móveis, navegue até o **[!UICONTROL Preview]** guia .
+
+Para obter mais informações, consulte [esta seção](../design/preview.md).
+
+
+## Publicar seu SMS {#sms-publish}
+
+Quando a mensagem estiver pronta, você poderá publicá-la para disponibilizá-la para execução com a **[!UICONTROL Publish]** botão. Esta ação publica a nova versão da mensagem que será usada para as próximas execuções em suas jornadas.
 
 Sua mensagem SMS agora pode ser usada em uma jornada. [Saiba como criar jornadas](../building-journeys/journey-gs.md).
 
 ## Aceitação e recusa{#sms-opt-in-out}
 
+Para todas as mensagens de marketing, o SMS deve conter uma maneira de os recipients cancelarem a assinatura facilmente. Após a unsubscription, os perfis serão removidos automaticamente do público-alvo de futuras mensagens de marketing. A adição de um link de unsubscription não é obrigatória para mensagens transacionais.
+
 Os recipients do SMS podem responder com palavras-chave de aceitação e recusa. De acordo com os padrões e regulamentos do setor, o Adobe Journey Optimizer processa automaticamente as seguintes palavras-chave nas mensagens recebidas: INICIAR, PARAR e DESPARAR. Essas palavras-chave acionam respostas padrão automáticas do provedor de SMS.
+
 
 **Tópicos relacionados**
 
