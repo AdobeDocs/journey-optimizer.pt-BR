@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: fb56b69a74aa8c727bf75f1c7988ece845f43b5f
+source-git-commit: c5230359d91416f16f51899e5a86b3926fb721f6
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -48,6 +48,28 @@ Para adicionar imagens de [!DNL Adobe Stock] para seu conteúdo, siga as etapas 
    Se a imagem selecionada não estiver licenciada, você deve [obter a licença](#license-stock-image).
 
 
+## Localizar fotos semelhantes {#similar-stock-image}
+
+Você pode substituir qualquer imagem existente no seu conteúdo de email por uma foto de [!DNL Adobe Stock]. Observe que essa opção está disponível para todas as imagens: imagens licenciadas/não licenciadas do Stock e imagens da sua pasta Assets.
+
+Para procurar fotos semelhantes, siga as etapas abaixo:
+
+1. Selecione a imagem a ser substituída.
+1. Clique no botão **[!UICONTROL Find similar Stock photos]** botão para exibir ativos em [!DNL Adobe Stock] que correspondem ao conteúdo, à cor e à composição da imagem.
+
+   ![](assets/stock-similar.png)
+
+1. Selecione a imagem escolhida e clique em **[!UICONTROL Save]**.
+
+   ![](assets/stock-similar-results.png)
+
+   Se a imagem selecionada não estiver licenciada, você deve [obter a licença](#license-stock-image).
+
+1. Personalize sua imagem, se necessário, com a variável **[!UICONTROL Components settings]** menu. [Saiba mais sobre configurações de componentes](content-components.md)
+
+Depois que a mensagem é criada e personalizada, você pode publicá-la para disponibilizá-la para execução. [Saiba mais](../messages/publish-manage-message.md)
+
+
 ## Obtenha a licença de [!DNL Adobe Stock] {#license-stock-image}
 
 Se a imagem já estiver licenciada, ela será representada pela variável ![](assets/stock_10.png) ícone . Caso contrário, você deve licenciá-lo.
@@ -76,28 +98,6 @@ Para licenciar e baixar a imagem, siga as etapas abaixo:
    ![](assets/stock_6.png)
 
 1. Selecione em qual pasta armazenar o ativo. Para obter mais informações sobre [!DNL Assets Essentials]consulte esta seção [página](assets-essentials.md#get-started-assets-essentials).
-
-## Localizar fotos semelhantes {#similar-stock-image}
-
-Você pode substituir qualquer imagem existente no seu conteúdo de email por uma foto de [!DNL Adobe Stock]. Observe que essa opção está disponível para todas as imagens: imagens licenciadas/não licenciadas do Stock e imagens da sua pasta Assets.
-
-Para procurar fotos semelhantes, siga as etapas abaixo:
-
-1. Selecione a imagem a ser substituída.
-1. Clique no botão **[!UICONTROL Find similar Stock photos]** botão para exibir ativos em [!DNL Adobe Stock] que correspondem ao conteúdo, à cor e à composição da imagem.
-
-   ![](assets/stock-similar.png)
-
-1. Selecione a imagem escolhida e clique em **[!UICONTROL Save]**.
-
-   ![](assets/stock-similar-results.png)
-
-   Se a imagem selecionada não estiver licenciada, você deve [obter a licença](#license-stock-image).
-
-1. Personalize sua imagem, se necessário, com a variável **[!UICONTROL Components settings]** menu. [Saiba mais sobre configurações de componentes](content-components.md)
-
-Depois que a mensagem é criada e personalizada, você pode publicá-la para disponibilizá-la para execução. [Saiba mais](../messages/publish-manage-message.md)
-
 
 ### Tópicos relacionados{#stock-related-topics}
 
