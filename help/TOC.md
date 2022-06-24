@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -83,8 +83,8 @@ ht-degree: 96%
    + [Contextos de personalização](using/personalization/personalization-contexts.md)
    + Criar expressões {#build-expressions}
       + [Sintaxe de personalização](using/personalization/personalization-syntax.md)
-      + Trabalhar com o editor de expressões {#expression-editor}
-         + [Sobre o editor de expressões](using/personalization/personalization-build-expressions.md)
+      + Trabalhar com o editor de expressão {#expression-editor}
+         + [Sobre o editor de expressão](using/personalization/personalization-build-expressions.md)
          + [Adicionar atributos aos favoritos](using/personalization/personalization-favorites.md)
          + [Trabalhar com expressões salvas](using/personalization/personalization-library.md)
          + [Validação de personalização](using/personalization/personalization-validation.md)
@@ -93,7 +93,7 @@ ht-degree: 96%
          + [Funções de agregação](using/personalization/functions/aggregation.md)
          + [Funções aritméticas](using/personalization/functions/arithmetic-functions.md)
          + [Matrizes e funções de lista](using/personalization/functions/arrays-list.md)
-         + [Funções de Data e Hora](using/personalization/functions/dates.md)
+         + [Funções de data e hora](using/personalization/functions/dates.md)
          + [Funções booleanas e de comparação](using/personalization/functions/operators.md)
          + [Auxiliares](using/personalization/functions/helpers.md)
          + [Funções do mapa](using/personalization/functions/maps.md)
@@ -263,9 +263,9 @@ ht-degree: 96%
    + Capacidade de entrega {#deliverability}
       + [Introdução à capacidade de entrega](using/reports/deliverability.md)
       + [Sobre a lista de supressão](using/reports/suppression-list.md)
-+ Gerenciamento de decisão {#offer-decisioniong}
-   + Introdução ao gerenciamento de decisão {#get-started-decision}
-      + [Sobre o Gerenciamento de decisão](using/offers/get-started/starting-offer-decisioning.md)
++ Gestão de decisão {#offer-decisioniong}
+   + Introdução ao Gestão de decisão {#get-started-decision}
+      + [Sobre o Gestão de decisão](using/offers/get-started/starting-offer-decisioning.md)
       + [Interface do usuário](using/offers/get-started/user-interface.md)
       + [Etapas principais para criar e gerenciar ofertas](using/offers/offer-library/key-steps.md)
       + [Caso de uso: inserir ofertas em um email](using/offers/offers-e2e.md)
@@ -294,9 +294,9 @@ ht-degree: 96%
       + [Criar decisões](using/offers/offer-activities/create-offer-activities.md)
       + [Configurar seleção de ofertas em decisões](using/offers/offer-activities/configure-offer-selection.md)
       + [Criar simulações](using/offers/offer-activities/simulation.md)
-   + Criar relatórios do Gerenciamento de decisão {#create-reports}
-      + [Introdução aos eventos de Gerenciamento de decisão](using/offers/reports/get-started-events.md)
-      + [Informações-chave sobre eventos do Gerenciamento de decisão](using/offers/reports/key-information.md)
+   + Criar relatórios do Gestão de decisão {#create-reports}
+      + [Introdução aos eventos de Gestão de decisão](using/offers/reports/get-started-events.md)
+      + [Informações-chave sobre eventos do Gestão de decisão](using/offers/reports/key-information.md)
       + [Acessar campos XDM de eventos](using/offers/reports/xdm-fields.md)
    + Exportar seu catálogo de ofertas {#export-catalog}
       + [Introdução à exportação do catálogo de ofertas ](using/offers/export-catalog/get-started-export.md)
@@ -356,7 +356,7 @@ ht-degree: 96%
          + [API de decisão do Edge](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API de decisão em lote](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Gerenciamento de dados {#data-management}
-   + [Esquemas](using/start/get-started-schemas.md)
+   + [Schemas](using/start/get-started-schemas.md)
    + Conjuntos de dados {#datasets}
       + [Introdução a conjuntos de dados](using/start/get-started-datasets.md)
       + [Exemplos de query](using/start/datasets-query-examples.md)
@@ -384,7 +384,7 @@ ht-degree: 96%
       + Configurar predefinições de mensagem {#set-up-message-presets}
          + [Criar predefinições de mensagem](using/configuration/message-presets.md)
          + [Definir configurações de email ](using/configuration/email-settings.md)
-         + [Usar email CCO](using/configuration/bcc-email.md)
+         + [Usar email com CCO](using/configuration/bcc-email.md)
       + [Gerenciar endereços de execução](using/configuration/primary-email-addresses.md)
       + [Configurar regras de frequência](using/configuration/frequency-rules.md)
    + Configurar páginas de aterrissagem {#lp-configuration}
@@ -397,7 +397,7 @@ ht-degree: 96%
          + [Princípio geral](using/event/about-events.md)
          + Configurar um evento unitário {#unitary-events}
             + [Introdução a eventos unitários](using/event/about-creating.md)
-            + [Sobre esquemas ExperienceEvent](using/event/experience-event-schema.md)
+            + [Sobre schemas ExperienceEvent](using/event/experience-event-schema.md)
             + [Aproveitar o Adobe Analytics](using/event/about-analytics.md)
          + [Configurar um evento comercial](using/event/about-creating-business.md)
          + [Etapas adicionais para enviar eventos](using/event/additional-steps-to-send-events-to-journey.md)
