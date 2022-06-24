@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: d172be602766a22c51018376d81de363c0ffe54b
+source-git-commit: d953fc78ffdc5c84823a903e0b4032b45f45bfcd
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,11 @@ O [!DNL Adobe Stock] e [!DNL Adobe Journey Optimizer] O plug-in de integração 
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;} fornece acesso a milhões de fotos, vídeos, ilustrações e gráficos vetoriais de alta qualidade e com curadoria e isenta de royalties. Você pode optar por comprar um pacote de crédito para licenciar ativos ou comprar apenas uma licença Standard ou Extended para o ativo necessário. O Adobe Stock também fornece uma coleção gratuita de ativos.
 
-Com [!DNL Adobe Journey Optimizer], você pode carregar imagens em seus emails diretamente de [!DNL Adobe Stock] e adicione-o à pasta Assets. O **[!UICONTROL Find Similar Image]** ajuda a encontrar imagens que correspondam ao conteúdo, à cor e à composição do ativo usado no delivery.
+Com [!DNL Adobe Journey Optimizer], você pode carregar imagens em seus emails diretamente de [!DNL Adobe Stock] e adicione-o à pasta Ativos usando o **[!UICONTROL Find Adobe Stock photos]** opção. Além disso, a variável **[!UICONTROL Find Similar Image]** ajuda a encontrar imagens que correspondam ao conteúdo, à cor e à composição do ativo usado no delivery.
 
 ## Permissões{#stock-permissions}
 
-O **[!UICONTROL Find Adobe Stock photos]** está disponível para usuários com acesso a um Perfil de produto do AEM Assets Essentials.
+O **[!UICONTROL Find Adobe Stock photos]** e **[!UICONTROL Find Similar Image]** estão disponíveis para usuários com acesso a um Perfil de produto do AEM Assets Essentials.
 
 Para obter mais informações, consulte [Documentação essencial dos ativos](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target=&quot;_blank&quot;}.
 
