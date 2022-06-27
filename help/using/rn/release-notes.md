@@ -2,10 +2,10 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bd30bbd6ac1230bdb02e1b5a4f9eba19c1fa2ccc
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 36%
+source-wordcount: '375'
+ht-degree: 35%
 
 ---
 
@@ -136,11 +136,12 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 * **Suporte a arquivos HTML e JSON** - Agora é possível arrastar e soltar arquivos HTML e JSON externos da biblioteca do Adobe Experience Cloud Asset para o conteúdo de representação da oferta. [Saiba mais](../offers/offer-library/add-representations.md#html-json)
 
-<!--
+
 **Email**
 
-* **Save as template** - You can now save an email content as a template and reuse it when creating other messages.
+* **Salvar como modelo** - Agora você pode salvar um conteúdo de email como modelo e reutilizá-lo ao criar outras mensagens. [Saiba mais](../design/email-templates.md)
 
+<!--
 **Journeys**
 
 * **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.

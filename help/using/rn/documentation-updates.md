@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 33b079e0ee1d81e06de24f7170a5f29e10df657b
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 91%
+source-wordcount: '1590'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Atualização da página da atividade Wait . [Leia mais](../building-journeys/wait-activity.md)
 * Adição da lista de conjuntos de dados do Adobe Journey Optimizer com exemplos de consulta. [Leia mais](../start/datasets-query-examples.md)
 * A página Lista de permissões foi movida para a seção Configuração . [Leia mais](../configuration/allow-list.md)
-* A página da lista Supressão foi atualizada. [Leia mais](../configuration/manage-suppression-list.md)
+* A página da lista Supressão foi atualizada para esclarecer algumas informações, incluindo o fato de que todos os caracteres ASCII incluídos entre 32 e 126 são permitidos no motivo do campo de supressão. [Leia mais](../configuration/manage-suppression-list.md)
 * Foi adicionada a ligação às medidas de proteção e aos limites estáticos para a gestão de decisões. [Leia mais](../start/guardrails.md)
 
 
