@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 1%
@@ -155,6 +155,8 @@ O **[!UICONTROL Sending statistics - Failed]** permite ver quantos erros e rejei
 O **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** gráficos e tabelas detalham o sucesso da sua notificação por push, dependendo do sistema operacional.
 
 ## Guia SMS {#sms-live}
+
+![](assets/report_sms_live.png)
 
 O **[!UICONTROL SMS - Sending statistics]** tabela detalha o sucesso do delivery:
 
