@@ -4,7 +4,7 @@ description: Saiba como configurar subdomínios de página de aterrissagem com o
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
+source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Para usar um subdomínio que já tenha sido delegado ao Adobe, siga as etapas ab
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   Observe que não é possível usar vários subdomínios delegados do mesmo domínio pai. Por exemplo, se marketing1.suaempresa.com já estiver delegado ao Adobe para suas landing pages, você não poderá usar marketing2.suaempresa.com. No entanto, subdomínios de vários níveis são suportados para páginas de aterrissagem, portanto, você pode usar &#39;email.marketing1.suaempresa.com&#39;.
+   Observe que não é possível usar vários subdomínios delegados do mesmo domínio pai. Por exemplo, se &#39;marketing1.suaempresa.com&#39; já estiver delegado ao Adobe para suas landing pages, você não poderá usar &#39;marketing2.suaempresa.com&#39;. No entanto, subdomínios de vários níveis são suportados para páginas de aterrissagem, portanto, você pode usar &#39;email.marketing1.suaempresa.com&#39;.
 
    <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
 
