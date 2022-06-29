@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 90%
+source-wordcount: '1606'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,8 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * A página Lista de permissões foi movida para a seção Configuração . [Leia mais](../configuration/allow-list.md)
 * A página da lista Supressão foi atualizada para esclarecer algumas informações, incluindo o fato de que todos os caracteres ASCII incluídos entre 32 e 126 são permitidos no motivo do campo de supressão. [Leia mais](../configuration/manage-suppression-list.md)
 * Foi adicionada a ligação às medidas de proteção e aos limites estáticos para a gestão de decisões. [Leia mais](../start/guardrails.md)
+* A Otimização de tempo de envio agora está disponível para todos os clientes. A menção beta foi removida. [Leia mais](../building-journeys/journeys-message.md#send-time-optimization)
+
 
 
 ## Maio de 2022 {#may-2022}
