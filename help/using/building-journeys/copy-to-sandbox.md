@@ -5,11 +5,9 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
+source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -80,7 +78,7 @@ Os seguintes objetos são copiados:
 
 * Segmento
 
-   Um segmento só pode ser copiado uma vez de uma sandbox para outra. As solicitações subsequentes para copiar o segmento falharão. Depois que um segmento é copiado, ele não é editável na sandbox de destino.
+   Um segmento só pode ser copiado uma vez de uma sandbox para outra. Depois que um segmento é copiado, ele não é editável na sandbox de destino.
 
 * Esquema
 
@@ -103,4 +101,8 @@ Os seguintes objetos são copiados:
    As ações e os detalhes de ação usados na jornada são copiados.
 
 As predefinições não são copiadas. O sistema seleciona automaticamente a correspondência mais próxima possível na sandbox de destino, com base no tipo de mensagem e no nome predefinido. Se não houver predefinições encontradas na sandbox de destino, a cópia predefinida falhará. Isso significa que a cópia da mensagem também falhará porque uma mensagem requer uma predefinição para estar disponível para configuração. Nesse caso, pelo menos uma predefinição precisa ser criada, para o canal correto da mensagem, para que a cópia funcione.
+
+Para Esquemas, Mesclar Políticas e Segmentos, na segunda vez que esses objetos tentarem ser copiados, eles só serão referenciados. Eles serão tratados como objetos que já existem e serão copiados novamente. Isso significa que esses objetos só podem ser copiados uma vez.
+
+Há um atraso de cinco minutos antes que o Adobe Journey Optimizer possa fazer referência aos Esquemas, às Políticas e aos Segmentos de Mesclagem sem ver um erro na tela. Aguarde cinco minutos e essas referências estarão disponíveis.
 
