@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b9fa6bff926eb8cee476fa53feb38ed783e048fc
+source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,11 @@ As campanhas permitem que você forneça conteúdo único para um segmento espec
 
 Ao contrário das jornadas, onde as ações são projetadas para serem executadas em sequência, as campanhas executam ações simultaneamente, imediatamente ou em uma programação específica. Você pode usá-los, por exemplo, para fornecer ofertas promocionais, campanhas de engajamento, anúncios, avisos legais ou atualizações de políticas.
 
-<!--Additionally, campaigns' content experiment feature allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.-->
-
-Saiba como gerenciar campanhas &lt;!>—e experiências de conteúdo&lt;>:
+Saiba como trabalhar com campanhas:
 * [Criar uma campanha](create-campaign.md)
 * [Modificar ou parar uma campanha](modify-stop-campaign.md)
-<!--* [Create a content experiment](content-experiment.md)-->
+* [Relatório ao vivo da campanha](campaign-live-report.md)
+* [Relatório global da campanha](campaign-global-report.md)
 
 ## Acessar campanhas {#access}
 
