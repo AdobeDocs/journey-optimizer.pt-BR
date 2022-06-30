@@ -5,7 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
+source-git-commit: f75ed263fd8226a6b5f55bbb50f4aae17cbfe9d4
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 >title="Objetos dependentes"
 >abstract="Esta é a lista de objetos associados usados na jornada. Essa lista exibe o nome, o tipo de objeto e a Journey Optimizer ID interna."
 
-O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox de Preparo para a sandbox de Produção. Além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: mensagens, segmentos, predefinições, esquemas, eventos e ações. Consulte a [limitações](../event/about-events.md)
+O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox de Preparo para a sandbox de Produção. Além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: mensagens, segmentos, predefinições, esquemas, eventos e ações. Consulte a [limitações](../building-journeys/copy-to-sandbox.md#limitations)
 
 >[!CAUTION]
 >
