@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1314'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ Corpo da solicitação:
 }
 ```
 
-O [!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio da chamada de API do [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}.
+O [!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio da chamada de API do [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}.
 
 #### Enviar a mensagem com link de cancelamento de inscrição {#send-message-unsubscribe-link}
 
@@ -203,7 +203,7 @@ Dependendo do cliente de email, clicar no link de cancelamento de inscrição no
    >
    >Se você não adicionar um link de recusa de um clique no conteúdo da mensagem, nenhuma página de aterrissagem será exibida.
 
-* O perfil correspondente é cancelado imediatamente e essa escolha é atualizada na Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+* O perfil correspondente é cancelado imediatamente e essa escolha é atualizada na Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target=&quot;_blank&quot;}.
 
 ## Encaminhar o gerenciamento de recusa {#push-opt-out-management}
 
@@ -213,7 +213,7 @@ Por exemplo, ao baixar ou ao usar seu aplicativo, eles podem optar por parar as 
 
 ## Gerenciamento de recusa de SMS {#sms-opt-out-management}
 
-De acordo com os padrões e regulamentos do setor, os recipients do SMS podem responder com palavras-chave de aceitação e recusa.
-O Adobe Journey Optimizer processa automaticamente as seguintes palavras-chave nas mensagens recebidas: INICIAR, PARAR e DESPARAR. Essas palavras-chave acionam respostas padrão automáticas do provedor de SMS.
+De acordo com os padrões e regulamentos do setor, os destinatários de SMS podem responder com palavras-chave de aceitação e recusa.
+O Adobe Journey Optimizer processa automaticamente as seguintes palavras-chave nas mensagens recebidas: INICIAR, INTERROMPER e REINICIAR. Essas palavras-chave acionam respostas padrão automáticas do provedor de SMS.
 
-Para obter mais informações sobre a recusa de SMS, consulte esta seção [página](../messages/create-sms.md#opt-in-and-opt-out).
+Para obter mais informações sobre recusa de SMS, consulte esta [página](../messages/create-sms.md#opt-in-and-opt-out).
