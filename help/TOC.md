@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 96%
    + [Interface do usuário](using/start/user-interface.md)
    + [Medidas de proteção](using/start/guardrails.md)
 + Campanhas {#campaigns}
-   + [Introdução a campanhas](using/campaigns/get-started-with-campaigns.md)
+   + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
    + [Criar uma campanha](using/campaigns/create-campaign.md)
-   + [Modificar ou parar uma campanha](using/campaigns/modify-stop-campaign.md)
+   + [Modificar ou interromper uma campanha](using/campaigns/modify-stop-campaign.md)
    + Relatórios {#reports}
-      + [Relatório ao vivo da campanha](using/campaigns/campaign-live-report.md)
+      + [Relatório em tempo real da campanha](using/campaigns/campaign-live-report.md)
       + [Relatório global da campanha](using/campaigns/campaign-global-report.md)
 + Mensagens {#messages}
    + [Introdução a mensagens](using/messages/get-started-content.md)
@@ -359,8 +359,8 @@ ht-degree: 96%
 + Gerenciamento de dados {#data-management}
    + [Schemas](using/start/get-started-schemas.md)
    + Conjuntos de dados {#datasets}
-      + [Introdução a conjuntos de dados](using/start/get-started-datasets.md)
-      + [Exemplos de query](using/start/datasets-query-examples.md)
+      + [Introdução aos conjuntos de dados](using/start/get-started-datasets.md)
+      + [Exemplos de consultas](using/start/datasets-query-examples.md)
    + [Consultas](using/start/get-started-queries.md)
 + Configuração {#configuration}
    + [Introdução à configuração do Journey Optimizer](using/configuration/get-started-configuration.md)

@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 108a7aab025aa92fab59c26d0bf5bf5339b81bb3
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 31%
+ht-degree: 84%
 
 ---
 
@@ -30,10 +30,10 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>Agora você pode criar, personalizar e enviar SMS no Journey Optimizer, por meio de uma integração com o <b>Sininho</b> ou <b>Twilio</b>.</p>
+<p>Agora você pode criar, personalizar e enviar SMS no Journey Optimizer por meio de uma integração com o <b>Sinch</b> ou <b>Twilio</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>No momento, o canal SMS está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o representante do Adobe.</p>
-<p>Saiba como criar e enviar um SMS neste <a href="../messages/create-sms.md">documentação detalhada</a>.</p>
+<p>No momento, o canal SMS está disponível apenas para algumas organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.</p>
+<p>Saiba como criar e enviar um SMS nesta <a href="../messages/create-sms.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -43,13 +43,13 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Encontre imagens mais impactantes mais rapidamente com a integração do Adobe Stock</strong><br/></th>
+<th><strong>Encontre imagens impactantes mais rapidamente com a integração do Adobe Stock</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O plug-in de integração Adobe Stock e Adobe Journey Optimizer Email Designer fornece aos clientes uma maneira fácil de navegar, licenciar e salvar imagens para uso na criação de mensagens. </br> O novo <b>Localizar fotos semelhantes do Stock</b> também permite localizar fotos de Estoque que corresponderão ao conteúdo, cor e composição de suas imagens. </p>
+<p>O plug-in de integração do Designer de email do Adobe Stock e Adobe Journey Optimizer fornece aos clientes uma maneira fácil de navegar, licenciar e salvar imagens para uso na criação de mensagens. </br> A nova opção <b>Localizar fotos semelhantes do Stock</b> também permite localizar fotos do Stock que correspondam ao conteúdo, cor e composição de suas imagens. </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>
 <p>Para obter mais informações, consulte a <a href="../design/stock.md">documentação detalhada</a>.</p>
 </td>
@@ -60,13 +60,13 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Usar Cco de email em todos os seus emails</strong><br/></th>
+<th><strong>Usar Email Cco em todos os seus emails</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode usar o recurso Email Cco (cópia cega de carbono) para armazenar emails enviados pelo Adobe Journey Optimizer. Ative essa opção nas predefinições de email para que cada email enviado seja copiado para o CCO.</p>
+<p>Agora você pode usar o recurso Email Cco (com cópia oculta) para armazenar emails enviados pelo Adobe Journey Optimizer. Ative essa opção nas predefinições de email para que cada email enviado seja copiado de forma oculta para o endereço do Cco.</p>
 <img src="assets/do-not-localize/bcc-rn.gif"/>
 <p>Para obter mais informações, consulte a <a href="../configuration/bcc-email.md">documentação detalhada</a>.</p>
 </td>
@@ -129,12 +129,12 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Gestão de decisões**
 
-* **Suporte a arquivos HTML e JSON** - Agora é possível arrastar e soltar arquivos HTML e JSON externos da biblioteca do Adobe Experience Cloud Asset para o conteúdo de representação da oferta. [Saiba mais](../offers/offer-library/add-representations.md#html-json)
+* **Compatibilidade com arquivos HTML e JSON** - agora, é possível arrastar e soltar arquivos HTML e JSON externos da biblioteca de ativos da Adobe Experience Cloud para o conteúdo de representação da oferta. [Saiba mais](../offers/offer-library/add-representations.md#html-json)
 
 
 **Email**
 
-* **Salvar como modelo** - Agora você pode salvar um conteúdo de email como modelo e reutilizá-lo ao criar outras mensagens. [Saiba mais](../design/email-templates.md)
+* **Salvar como modelo** - agora, você pode salvar um conteúdo de email como modelo e reutilizá-lo ao criar outras mensagens. [Saiba mais](../design/email-templates.md)
 
 <!--
 **Journeys**
@@ -147,7 +147,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 <!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
 
-* **Visualizar parâmetros de URL de rastreamento** - Ao configurar uma predefinição de mensagem, se você definir parâmetros de rastreamento de URL, uma visualização dinâmica do URL de rastreamento resultante será exibida. [Saiba mais](../configuration/email-settings.md#url-tracking)
+* **Visualizar parâmetros de URL de rastreamento** - ao configurar uma predefinição de mensagem, se você definir parâmetros de rastreamento de URL, uma visualização dinâmica do URL de rastreamento resultante será exibida. [Saiba mais](../configuration/email-settings.md#url-tracking)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
