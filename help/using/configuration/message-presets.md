@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 492acb7c7474964bb27cd562db5cd4cb2ed42784
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1483'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
 1. Depois que a predefinição de mensagem tiver sido criada, ela será exibida na lista com a variável **[!UICONTROL Processing]** status.
 
-   Durante essa etapa, várias verificações serão executadas para verificar se foram configuradas corretamente. O tempo de processamento está por vir **48h-72h** e pode **7 a 10 dias úteis**.
+   Durante essa etapa, várias verificações serão executadas para verificar se foram configuradas corretamente. O tempo de processamento pode demorar até **3 horas**.
 
    Essas verificações incluem testes técnicos e de configuração realizados pela equipe de Adobe:
 
@@ -217,7 +217,7 @@ Várias verificações de deliverability serão executadas para verificar se a p
 >
 >Se você só editar a variável **[!UICONTROL Description]**, **[!UICONTROL Email type]** e/ou **[!UICONTROL Email retry parameters]** , a atualização é instantânea.
 
-O tempo de processamento está por vir **48h-72h** e pode **7 a 10 dias úteis**. Saiba mais sobre as verificações realizadas durante o ciclo de validação em [esta seção](#create-message-preset).
+O tempo de processamento pode demorar até **3 horas**. Saiba mais sobre as verificações realizadas durante o ciclo de validação em [esta seção](#create-message-preset).
 
 Se você editar uma predefinição que já estava ativa:
 
