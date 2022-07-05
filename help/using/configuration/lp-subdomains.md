@@ -4,9 +4,9 @@ description: Saiba como configurar subdomínios de página de aterrissagem com o
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -59,9 +59,7 @@ Para usar um subdomínio que já tenha sido delegado ao Adobe, siga as etapas ab
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   Observe que não é possível usar vários subdomínios delegados do mesmo domínio pai. Por exemplo, se &#39;marketing1.suaempresa.com&#39; já estiver delegado ao Adobe para suas landing pages, você não poderá usar &#39;marketing2.suaempresa.com&#39;. No entanto, subdomínios de vários níveis são suportados para páginas de aterrissagem, portanto, você pode usar &#39;email.marketing1.suaempresa.com&#39;.
-
-   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+   Observe que não é possível usar vários subdomínios delegados do mesmo domínio pai. Por exemplo, se &#39;marketing1.suaempresa.com&#39; já estiver delegado ao Adobe para suas landing pages, você não poderá usar &#39;marketing2.suaempresa.com&#39;. No entanto, subdomínios de vários níveis que são compatíveis com landing pages, você pode continuar usando um subdomínio de &#39;marketing1.suaempresa.com&#39; (como &#39;email.marketing1.suaempresa.com&#39;) ou um domínio pai diferente.
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ Para configurar um novo subdomínio, siga as etapas abaixo.
    >[!NOTE]
    >
    >Para páginas de aterrissagem, subdomínios de vários níveis são compatíveis. Por exemplo, você pode usar &#39;email.marketing.suaempresa.com&#39;.
-
-   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. O registro a ser colocado em seus servidores DNS é exibido. Copie esse registro ou baixe um arquivo CSV e navegue até a solução de hospedagem de domínio para gerar o registro DNS correspondente.
 

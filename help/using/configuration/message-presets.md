@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 2%
+source-wordcount: '1476'
+ht-degree: 1%
 
 ---
 
@@ -49,11 +49,25 @@ Para criar uma predefinição de mensagem, siga estas etapas:
    >
    > Os nomes devem começar com uma letra (A-Z). Ela só pode conter caracteres alfanuméricos. Você também pode usar o sublinhado `_`, ponto`.` e hífen `-` caracteres.
 
-1. Configure o **email** configurações. [Saiba mais](#configure-email-settings)
+1. Se você selecionou a variável **[!UICONTROL Email]** , defina suas configurações conforme descrito em [esta seção](email-settings.md).
 
-1. Configure o **notificação por push** configurações. [Saiba mais](#configure-push-settings)
+   ![](assets/preset-email.png)
 
-1. Configurar **SMS** configurações. [Saiba mais](sms-configuration.md)
+1. Se você selecionou a variável **[!UICONTROL Push Notification]** , selecione pelo menos uma plataforma (**iOS** e/ou **Android**) e selecione os aplicativos móveis que serão usados para cada plataforma.
+
+   ![](assets/preset-push.png)
+
+   >[!NOTE]
+   >
+   >Para obter mais informações sobre como configurar o ambiente para enviar notificações por push, consulte [esta seção](push-gs.md).
+
+1. Se você selecionou a variável **[!UICONTROL SMS]** , defina suas configurações conforme descrito em [esta seção](sms-configuration.md#message-preset-sms).
+
+   ![](assets/preset-sms.png)
+
+   >[!NOTE]
+   >
+   >Para obter mais informações sobre como configurar seu ambiente para enviar mensagens SMS, consulte [esta seção](sms-configuration.md).
 
 1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Submit]** para confirmar. Você também pode salvar a predefinição de mensagem como rascunho e retomar sua configuração posteriormente.
 
@@ -86,42 +100,6 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 1. Depois que as verificações são bem-sucedidas, a predefinição de mensagem recebe a variável **[!UICONTROL Active]** status. Ele está pronto para ser usado para entregar mensagens.
 
    ![](assets/preset-active.png)
-
-## Definir configurações de email  {#configure-email-settings}
-
-As configurações de email são definidas em uma seção dedicada da configuração predefinida de mensagens.
-
-![](assets/preset-email.png)
-
-Defina suas configurações conforme descrito em [esta seção](email-settings.md).
-
-## Definir configurações de push {#configure-push-settings}
-
-As configurações de push são definidas em uma seção dedicada da configuração predefinida de mensagem.
-
-Para definir as configurações de push associadas à predefinição de mensagem, siga as etapas abaixo:
-
-1. Selecione pelo menos uma plataforma: **iOS** e/ou **Android**.
-
-1. Selecione os aplicativos móveis a serem usados para cada plataforma.
-
-![](assets/preset-push.png)
-
-Para obter mais informações sobre como configurar o ambiente para enviar notificações por push, consulte [esta seção](../configuration/push-gs.md).
-
-<!--
-## Configure SMS settings {#configure-sms-settings}
-
-1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
-
-    ![](assets/preset-sms.png)
-    
-1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
 
 ## Monitorar predefinições de mensagem {#monitor-message-presets}
 
@@ -185,6 +163,8 @@ Depois que as alterações forem enviadas, a predefinição de mensagem passará
 >
 >Se você só editar a variável **[!UICONTROL Description]**, **[!UICONTROL Email type]** e/ou **[!UICONTROL Email retry parameters]** , a atualização é instantânea.
 
+### Detalhes da atualização {#update-details}
+
 Para predefinições de mensagens com a variável **[!UICONTROL Active]** , você pode verificar os detalhes da atualização. Para fazer isso:
 
 * Clique no botão **[!UICONTROL Recent update]** ícone que é exibido ao lado do nome da predefinição ativa.
@@ -209,7 +189,7 @@ Uma atualização de predefinição de mensagem pode ter os seguintes status:
 
 Cada status é detalhado abaixo.
 
-### Processamento
+#### Processamento
 
 Várias verificações de deliverability serão executadas para verificar se a predefinição foi atualizada corretamente.
 
@@ -231,13 +211,13 @@ Se você editar uma predefinição que já estava ativa:
 >
 >Não é possível modificar uma predefinição de mensagem enquanto a atualização estiver em andamento. Ainda é possível clicar no nome, mas todos os campos estão esmaecidos. As alterações não serão refletidas até que a atualização seja bem-sucedida.
 
-### Sucesso {#success}
+#### Sucesso {#success}
 
 Depois que o processo de validação for bem-sucedido, a nova versão da predefinição será usada automaticamente em todas as mensagens usando essa predefinição. No entanto, pode ser necessário aguardar:
 * alguns minutos antes de ser consumido pelas mensagens unitárias,
 * até o próximo lote para que a predefinição seja efetiva nas mensagens em lote.
 
-### Falha {#failed}
+#### Falha {#failed}
 
 Se o processo de validação falhar, a versão mais antiga da predefinição ainda será usada.
 

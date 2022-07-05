@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 6%
 
 ---
 
@@ -24,6 +24,8 @@ Para fazer isso, você pode usar uma regra de frequência que limitará o númer
 >[!NOTE]
 >
 >As regras de frequência de mensagem são diferentes do gerenciamento de recusa, que permite que os usuários cancelem a assinatura do recebimento de comunicações de uma marca. [Saiba mais](../messages/consent.md#opt-out-management)
+
+➡️ [Descubra este recurso no vídeo](#video)
 
 ## Regras de acesso {#access-rules}
 
@@ -125,7 +127,7 @@ Para aplicar uma regra de frequência a uma mensagem, siga as etapas abaixo.
 
    ![](assets/message-rules-msg-channels.png)
 
-1. Você pode clicar no botão **[!UICONTROL Frequency rule]** link para exibir as regras de frequência que serão aplicadas à categoria e aos canais selecionados.
+1. Você pode clicar no link **[!UICONTROL Frequency rule]** para exibir as regras de frequência que serão aplicadas à categoria e aos canais selecionados. 
 
    ![](assets/message-rules-msg-link.png)
 
@@ -177,7 +179,7 @@ Você pode combinar várias regras de frequência de mensagem, como descrito no 
 
    ![](assets/message-rules-ex-channels.png)
 
-1. Você pode clicar no botão **[!UICONTROL Frequency rule]** link para exibir as regras de frequência que serão aplicadas à categoria e aos canais selecionados.
+1. Você pode clicar no link **[!UICONTROL Frequency rule]** para exibir as regras de frequência que serão aplicadas à categoria e aos canais selecionados. 
 
 1. [Design](../design/design-emails.md) e [publicar](../messages/publish-manage-message.md) sua mensagem.
 
@@ -188,3 +190,9 @@ Nesse cenário, um perfil individual:
 >[!NOTE]
 >
 >Ao testar as regras de frequência, pode ser útil começar com uma [perfil de teste](../segment/creating-test-profiles.md), pois assim que o limite de frequência de um perfil é atingido, não há como redefinir o contador até o mês seguinte. Desativar uma regra permitirá que perfis com limites recebam mensagens, mas não removerá ou excluirá quaisquer incrementos de contador.
+
+## Vídeo tutorial {#video}
+
+Saiba como criar, ativar, testar e relatar regras de frequência.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

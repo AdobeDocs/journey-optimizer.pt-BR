@@ -7,10 +7,11 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f00d503ef5ea38b35b7f56821a9f523dca9fbb94
+exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 0%
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->O uso do controle de acesso baseado em atributos está disponível no momento somente para usuários selecionados. Se quiser aproveitar esse recurso, entre em contato com o executivo da sua conta Adobe.
+>O uso do controle de acesso baseado em atributos está disponível atualmente apenas para um conjunto de organizações (Disponibilidade limitada). Se quiser aproveitar esse recurso, entre em contato com o executivo da sua conta Adobe.
 
 O ABAC (Attribute-based access control) permite definir autorizações para gerenciar o acesso a dados para equipes ou grupos de usuários específicos. Seu objetivo é proteger ativos digitais sensíveis de usuários não autorizados, permitindo uma maior proteção dos dados pessoais.
 
@@ -45,7 +46,7 @@ Neste exemplo, queremos restringir o acesso à variável **Nacionalidade** campo
 
 Observe que você também pode adicionar  **[!UICONTROL Label]** para  **[!UICONTROL Schema]**,  **[!UICONTROL Datasets]** e  **[!UICONTROL Segments]**.
 
-1. Crie seu **[!UICONTROL Schema]**. Para obter mais informações, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en).
+1. Crie seu **[!UICONTROL Schema]**. Para obter mais informações, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR).
 
    ![](assets/label_1.png)
 
@@ -159,4 +160,3 @@ Se o Usuário Y sem acesso aos objetos C2 do rótulo precisar acessar essa jorna
 * O usuário Y não poderá testar a Jornada ou a mensagem.
 
 * O usuário Y não poderá publicar a Jornada ou a mensagem.
-

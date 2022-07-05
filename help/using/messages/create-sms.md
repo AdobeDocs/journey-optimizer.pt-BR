@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 9%
+source-wordcount: '420'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ Uma vez [criou uma mensagem](get-started-content.md), use o **[!UICONTROL SMS]**
 
 >[!AVAILABILITY]
 >
->No momento, o canal SMS está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o representante do Adobe.
+>No momento, o canal SMS está disponível apenas para algumas organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
 
 ![](assets/sms_1.png)
 
@@ -68,6 +68,16 @@ Sua mensagem SMS agora pode ser usada em uma jornada. [Saiba como criar jornadas
 Para todas as mensagens de marketing, o SMS deve conter uma maneira de os recipients cancelarem a assinatura facilmente. Após a unsubscription, os perfis serão removidos automaticamente do público-alvo de futuras mensagens de marketing. A adição de um link de unsubscription não é obrigatória para mensagens transacionais.
 
 Os recipients do SMS podem responder com palavras-chave de aceitação e recusa. De acordo com os padrões e regulamentos do setor, o Adobe Journey Optimizer processa automaticamente as seguintes palavras-chave nas mensagens recebidas: INICIAR, PARAR e DESPARAR. Essas palavras-chave acionam respostas padrão automáticas do provedor de SMS.
+
+Para saber mais sobre como o suporte nativo a palavras-chave de entrada (iniciar, parar e desfazer) funciona para SMS, consulte o vídeo a seguir.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
+## Vídeo tutorial
+
+Saiba como configurar, criar e incluir mensagens SMS nas jornadas do cliente.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
 
 **Tópicos relacionados**
 

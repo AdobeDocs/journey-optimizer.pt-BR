@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1054'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Consulte a documentação em [offer decisioning](https://experienceleague.adobe.
 
 >[!NOTE]
 >
->O uso do Gerenciamento de decisões no Adobe Experience Platform Web SDK está disponível no momento com acesso antecipado a usuários selecionados. Essa funcionalidade não está disponível para todas as organizações.
+>O uso do Gerenciamento de decisões no SDK da Web da Adobe Experience Platform só está disponível para um conjunto de organizações (Disponibilidade limitada). Se quiser aproveitar esse recurso, entre em contato com o executivo da sua conta Adobe.
 
 ## SDK da Web da Adobe Experience Platform {#aep-web-sdk}
 
