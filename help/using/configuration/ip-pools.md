@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b29ab43f56b64d5bf972a45036c639454b650099
+source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 3%
@@ -78,8 +78,8 @@ Para editar um pool IP:
 
 A atualização entra em vigor imediatamente ou de forma assíncrona, dependendo do pool de IP que está sendo associado a um [predefinição de mensagem](message-presets.md) ou não:
 
-* Se o pool IP for **not** selecionada em uma predefinição de mensagem, a atualização é instantânea (**[!UICONTROL Success]** status).
-* Se o pool IP **é** selecionada em uma predefinição de mensagem, a atualização pode levar até 3 horas (**[!UICONTROL Processing]** status).
+* Se o pool IP for **not** associada a qualquer predefinição de mensagem, a atualização é instantânea (**[!UICONTROL Success]** status).
+* Se o pool IP **é** associada a uma predefinição de mensagem, a atualização pode levar até 3 horas (**[!UICONTROL Processing]** status).
 
 >[!NOTE]
 >

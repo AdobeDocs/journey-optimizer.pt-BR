@@ -2,9 +2,9 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fedc0f70f336a9fa7917ad34a06e4d1845c1fdd4
+source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 78%
 
 ---
@@ -149,9 +149,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 * **Visualizar parâmetros de URL de rastreamento** - ao configurar uma predefinição de mensagem, se você definir parâmetros de rastreamento de URL, uma visualização dinâmica do URL de rastreamento resultante será exibida. [Saiba mais](../configuration/email-settings.md#url-tracking)
 
-* **Criação de predefinições de mensagens** - Agora, o tempo de processamento ao criar uma predefinição de mensagem só pode levar até 3 horas. [Saiba mais](../configuration/message-presets.md#create-message-preset)
+* **Edição de predefinição de mensagem** - Agora, ao atualizar uma predefinição de mensagem, o tempo de processamento só pode levar até 3 horas. [Saiba mais](../configuration/message-presets.md#edit-message-preset)
 
-* **Edição de pool de IPs** - Agora, o tempo de processamento da atualização do pool de IP só pode levar até 3 horas. [Saiba mais](../configuration/ip-pools.md#edit-ip-pool)
+* **Edição de pool de IPs** - Agora, ao atualizar um pool IP, o tempo de processamento só pode demorar até 3 horas. [Saiba mais](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
