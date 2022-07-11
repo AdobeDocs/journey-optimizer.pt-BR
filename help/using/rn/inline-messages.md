@@ -3,13 +3,13 @@ title: Migração para a criação em linha do jornada
 description: Saiba como migrar suas mensagens
 hide: true
 hidefromtoc: true
-source-git-commit: 8db51560c5733afac64785d1ef07cbd9558a0bbe
+exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
+source-git-commit: 696855bad3638a83c865b3d1d47fb4b05924155a
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
-
 
 # Migração para a criação em linha do jornada{#inline-authoring}
 
@@ -30,6 +30,10 @@ ht-degree: 0%
 >title="Saiba como migrar suas mensagens"
 >abstract="A partir da versão de 22 de julho do Journey Optimizer, as mensagens serão criadas diretamente de uma Jornada. As mensagens existentes foram migradas para o novo modelo. Como jornada, agora são necessárias ações adicionais."
 
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="Saiba como migrar suas mensagens"
+>abstract="A partir de 25 de julho de 2022, o menu Mensagens desaparecerá e as mensagens serão criadas diretamente de uma Jornada. Se você quiser reutilizar suas mensagens herdadas no jornada, é necessário salvá-las como modelos."
 
 O Adobe Journey Optimizer está lançando um novo recurso que melhora a maneira como os profissionais criam experiências para canais do Journey Optimizer entregues como email, push, SMS. Este recurso requer uma migração de Jornadas existentes que estejam usando Mensagens.
 
