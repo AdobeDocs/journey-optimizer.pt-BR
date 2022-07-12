@@ -4,9 +4,9 @@ description: Saiba como migrar suas mensagens
 hide: true
 hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 8aecf71f61efb4c2a8f80991d30089a90e2b4705
+source-git-commit: 99a6a9d771cf519210caeab02d4a993185083439
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 0%
 >abstract="A partir de 25 de julho de 2022, o menu Mensagens desaparecerá e as mensagens serão criadas diretamente de uma Jornada. Se você quiser reutilizar suas mensagens herdadas no jornada, é necessário salvá-las como modelos."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Salvar mensagens como modelos"
 
-O Adobe Journey Optimizer está lançando um novo recurso que melhora a maneira como os profissionais criam experiências para canais do Journey Optimizer entregues como email, push, SMS. Este recurso requer uma migração de Jornadas existentes que estejam usando Mensagens.
+O Adobe Journey Optimizer está lançando um novo recurso que melhora a maneira como você cria conteúdo para canais do Journey Optimizer (email, push, SMS). Como profissional da Journey Optimizer, agora você criará e criará suas mensagens diretamente de uma jornada.
 
-Como jornada, agora você pode criar e criar suas mensagens diretamente de uma Jornada.
+Esse recurso requer uma migração de jornadas existentes que estejam usando mensagens.
 
 ![](assets/inline-message.png)
 
