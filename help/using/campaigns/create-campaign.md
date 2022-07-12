@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b9fa6bff926eb8cee476fa53feb38ed783e048fc
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 3%
+source-wordcount: '724'
+ht-degree: 5%
 
 ---
 
@@ -33,20 +33,22 @@ As etapas para criar uma campanha são as seguintes:
 
    ![](assets/create-campaign.png)
 
-<!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+1. No **[!UICONTROL Properties]** , especifique quando deseja executar a campanha:
 
-    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date,
-    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. In this case, profiles to be targeted and triggers for actions need to be set via the API call.-->
+   * **[!UICONTROL Scheduled]**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas têm como objetivo enviar **marketing** digite mensagens.
+   * **[!UICONTROL API-triggered]**: execute a campanha usando uma chamada de API . As campanhas acionadas por API são destinadas ao envio de **transacional** mensagens, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, abandono de cartão etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
 
-1. No **[!UICONTROL Actions]** escolha o canal e a superfície da mensagem (ou seja, a predefinição de mensagem) a serem usados para enviar a mensagem.
+1. No **[!UICONTROL Actions]** , escolha o canal e a superfície da mensagem (ou seja, a predefinição de mensagem) a serem usados para enviar a mensagem e clique em **[!UICONTROL Create]**.
 
    ![](assets/create-campaign-action.png)
+
+   >[!NOTE]
+   >
+   >Somente superfícies de mensagem compatíveis com o tipo de campanha (marketing ou transacional) são listadas na lista suspensa.
 
 1. Especifique um título e uma descrição para a campanha.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
-
-   ![](assets/create-campaign-properties.png)
 
 1. No **[!UICONTROL Actions]** , configure a mensagem a ser enviada com a campanha:
 
@@ -60,13 +62,11 @@ As etapas para criar uma campanha são as seguintes:
 
       Os resultados do rastreamento serão acessíveis no relatório da campanha após a execução da campanha. [Saiba mais sobre relatórios de campanha](campaign-global-report.md)
 
-      ![](assets/create-campaign-action-properties.png)
-
 1. Defina o público-alvo como meta. Para fazer isso, clique no botão **[!UICONTROL Select audience]** para exibir a lista de segmentos disponíveis do Adobe Experience Platform. [Saiba mais sobre segmentos](../segment/about-segments.md)
 
-   ![](assets/create-campaign-audience.png)
-
-   <!--By default, the targeted audience for in-app messages includes all the users of the selected mobile application.-->
+   >[!NOTE]
+   >
+   >Para campanhas acionadas por API, o público-alvo precisa ser definido por meio de uma chamada de API. [Saiba mais](api-triggered-campaigns.md)
 
    No **[!UICONTROL Identity namespace]** , escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace)
 
@@ -74,18 +74,19 @@ As etapas para criar uma campanha são as seguintes:
 
    >[!NOTE]
    >
-   >Os indivíduos pertencentes a um segmento que não tem a identidade (namespace) selecionada entre suas diferentes identidades não serão direcionados pela campanha. <!--info vue dans section journeys, read segment-->
+   >Os indivíduos pertencentes a um segmento que não tem a identidade (namespace) selecionada entre suas diferentes identidades não serão direcionados pela campanha.
 
-   <!--If you are creating a campaign to send an in-app message, you can choose how and when the message will be shown to the audience using existing mobile app triggers.-->
-   <!-- where are triggers configured?-->
+1. Configure as datas de início e término da campanha. Por padrão, as Campanhas são configuradas para serem iniciadas manualmente e para terminarem assim que a mensagem for enviada uma vez.
 
-1. Configure as datas de início e término da campanha.
+1. Além disso, você pode especificar uma frequência para a execução da ação configurada na campanha.
 
-   Por padrão, as Campanhas são configuradas para serem iniciadas manualmente e para terminarem assim que a mensagem for enviada uma vez.
-
-1. Além disso, é possível configurar uma frequência para a execução da ação configurada na campanha.
+   >[!NOTE]
+   >
+   >Para campanhas acionadas por API, a programação em uma data e hora específica com recorrência não está disponível, pois a ação é acionada por meio da API. No entanto, as datas de início e de término são relevantes para garantir que, se uma chamada de API for feita antes da janela , elas serão erradas.
 
    ![](assets/create-campaign-schedule.png)
+
+1. Se você estiver criando uma campanha acionada por API, a variável **[!UICONTROL cURL request]** permite recuperar a variável **[!UICONTROL Campaign ID]** para usar na chamada da API . [Saiba mais](api-triggered-campaigns.md)
 
 Quando a campanha estiver pronta, você poderá revisá-la e publicá-la (consulte [Revisar e ativar uma campanha](#review-activate)).
 
@@ -124,3 +125,11 @@ Após a configuração da campanha, é necessário revisar o parâmetro e o cont
    >[!IMPORTANT]
    >
    >As mensagens criadas em campanhas são específicas para [!DNL Journey Optimizer] recursos da campanha. Uma vez criados, eles serão acessíveis somente em campanhas e não serão exibidos na variável **[!UICONTROL Messages]** menu.
+
+## Recursos adicionais
+
+* [Introdução às campanhas](get-started-with-campaigns.md)
+* [Criar campanhas acionadas por API](api-triggered-campaigns.md)
+* [Modificar ou interromper uma campanha](modify-stop-campaign.md)
+* [Relatório em tempo real da campanha](campaign-live-report.md)
+* [Relatório global da campanha](campaign-global-report.md)

@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 771828da23ab0656fc5726845305fe6949620545
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ A tabela a seguir descreve quais ações, em quais recursos do Journey Optimizer
 | Subdomínio do AJO | Criar / Excluir / Atualizar |
 | Lista de supressão do AJO | Criar / Excluir / Baixar CSV |
 | Grupo de campos | Criar / Excluir / Atualizar |
-| Jornada | Criar / Excluir / Atualizar / Interromper / Publicar |
+| Jornada | Criar/excluir/parar/publicar |
 | Ação personalizada da jornada | Criar / Excluir / Atualizar |
 | Fonte de dados da jornada | Criar / Excluir / Atualizar |
 | Evento da jornada | Criar / Excluir / Atualizar |

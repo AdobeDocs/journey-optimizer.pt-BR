@@ -1,5 +1,5 @@
 ---
-title: Introdução a campanhas
+title: Introdução às campanhas
 description: Saiba mais sobre campanhas em [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
@@ -7,15 +7,15 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 2%
+source-wordcount: '300'
+ht-degree: 8%
 
 ---
 
 
-# Introdução a campanhas {#get-started-campaigns}
+# Introdução às campanhas {#get-started-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
@@ -24,14 +24,18 @@ ht-degree: 2%
 
 ## Sobre campanhas {#about}
 
-As campanhas permitem que você forneça conteúdo único para um segmento específico usando vários canais.
+As campanhas permitem que você forneça conteúdo único para um segmento específico usando vários canais. Ao contrário das jornadas, onde as ações são projetadas para serem executadas em sequência, as campanhas executam ações simultaneamente, imediatamente ou em uma programação específica.
 
-Ao contrário das jornadas, onde as ações são projetadas para serem executadas em sequência, as campanhas executam ações simultaneamente, imediatamente ou em uma programação específica. Você pode usá-los, por exemplo, para fornecer ofertas promocionais, campanhas de engajamento, anúncios, avisos legais ou atualizações de políticas.
+Você pode criar dois tipos de campanhas:
+
+* **Campanhas programadas** permitir comunicações em lote ad-hoc simples para casos de uso de marketing, como ofertas promocionais, campanhas de engajamento, anúncios, avisos legais ou atualizações de políticas.
+* **Campanhas acionadas pela API** permitir mensagens transacionais/operacionais simples com APIs REST (redefinição de senha, abandono de cartão etc.), onde a necessidade pode envolver personalização usando atributos de perfil e dados contextuais da carga.
 
 Saiba como trabalhar com campanhas:
 * [Criar uma campanha](create-campaign.md)
-* [Modificar ou parar uma campanha](modify-stop-campaign.md)
-* [Relatório ao vivo da campanha](campaign-live-report.md)
+* [Criar campanhas acionadas por API](api-triggered-campaigns.md)
+* [Modificar ou interromper uma campanha](modify-stop-campaign.md)
+* [Relatório em tempo real da campanha](campaign-live-report.md)
 * [Relatório global da campanha](campaign-global-report.md)
 
 ## Acessar campanhas {#access}

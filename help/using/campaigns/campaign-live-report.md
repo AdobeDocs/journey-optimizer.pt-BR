@@ -1,5 +1,5 @@
 ---
-title: Relatório ao vivo da campanha
+title: Relatório em tempo real da campanha
 description: Saiba como usar dados do relatório ao vivo do Campaign
 feature: Reporting
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 43a076632d2f2195ce0293f741dfbc28d4eea24a
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 1%
+source-wordcount: '618'
+ht-degree: 5%
 
 ---
 
-# Relatório ao vivo da campanha {#campaign-live-report}
+# Relatório em tempo real da campanha {#campaign-live-report}
 
 O relatório ao vivo da campanha pode ser acessado diretamente da sua campanha com o **[!UICONTROL Live view]** botão.
 
@@ -110,3 +110,11 @@ O **[!UICONTROL Error Reasons]** e **[!UICONTROL Exclude Reasons]** gráficos e 
 O **[!UICONTROL Sending statistics - Failed]** permite ver quantos erros e rejeições ocorreram.
 
 O **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** gráficos e tabelas detalham o sucesso da sua notificação por push, dependendo do sistema operacional.
+
+## Recursos adicionais
+
+* [Introdução às campanhas](get-started-with-campaigns.md)
+* [Criar uma campanha](create-campaign.md)
+* [Criar campanhas acionadas por API](api-triggered-campaigns.md)
+* [Modificar ou interromper uma campanha](modify-stop-campaign.md)
+* [Relatório global da campanha](campaign-global-report.md)

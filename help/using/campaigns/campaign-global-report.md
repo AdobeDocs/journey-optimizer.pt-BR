@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: cc20ecf0a019cecb8a4ae9420c5dbdcb28443c91
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 2%
+source-wordcount: '1245'
+ht-degree: 4%
 
 ---
 
@@ -205,3 +205,11 @@ O **[!UICONTROL Error Reasons]** gráfico e tabela permitem ver qual erro ocorre
 O **[!UICONTROL Excluded reasons]** gráfico e tabela exibem os diferentes motivos que impediam os perfis de usuário, excluídos dos perfis segmentados, de receber a mensagem.
 
 O **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** os gráficos e tabelas detalham o sucesso da notificação por push, dependendo do sistema operacional do recipient.
+
+## Recursos adicionais
+
+* [Introdução às campanhas](get-started-with-campaigns.md)
+* [Criar uma campanha](create-campaign.md)
+* [Criar campanhas acionadas por API](api-triggered-campaigns.md)
+* [Modificar ou interromper uma campanha](modify-stop-campaign.md)
+* [Relatório em tempo real da campanha](campaign-live-report.md)
