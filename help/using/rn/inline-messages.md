@@ -2,7 +2,7 @@
 title: Migrar para a criação em linha do jornada
 description: Saiba como migrar suas mensagens
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3f9844dec9caf520ab59c5f2b433a5c2e86ef44f
+source-git-commit: 8404cbe345879bdd3c90a4ce542135fb7cbf1eb3
 workflow-type: tm+mt
 source-wordcount: '1700'
 ht-degree: 0%
@@ -114,8 +114,8 @@ No GA (25 de julho), esse novo fluxo de usuários se aplica a todas as novas jor
 
 A migração acontecerá para cada região à noite, por meio de várias iterações. Esta é a linha do tempo da migração:
 
-* 25 de julho de 2002: GA - 1ª iteração
-* 1º de agosto de 2002: Segunda iteração
+* 25 de julho de 2022: GA - 1ª iteração
+* 1º de agosto de 2022: Segunda iteração
 * 5 de setembro de 2022: Terceira iteração
 * 6 de setembro de 2022: desaprovação
 
