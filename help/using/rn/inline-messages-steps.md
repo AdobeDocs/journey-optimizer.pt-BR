@@ -1,17 +1,17 @@
 ---
 title: Etapas para migrar para a criação em linha do jornada
 description: Etapas para migrar para a criação em linha do jornada
-source-git-commit: 3f9844dec9caf520ab59c5f2b433a5c2e86ef44f
+source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 1%
+source-wordcount: '1048'
+ht-degree: 2%
 
 ---
 
 
 # Etapas de migração da criação em linha{#migration-steps}
 
-O novo processo de criação de mensagens no Adobe Journey Optimizer está descrito nesta [página](../rn/inline-messages.md). Uma conversão automática de jornadas será executada para você. Dito isto, necessitaremos da sua ajuda com alguns passos.
+O novo processo de criação de conteúdo no Adobe Journey Optimizer está descrito nesta [página](../rn/inline-messages.md). Uma conversão automática de jornadas é executada para você. Dito isto, precisamos da vossa ajuda com alguns passos.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344699)
 
@@ -28,7 +28,7 @@ Estas são as principais fases e etapas:
 1. Lista todas as novas versões criadas pela migração. [Leia mais](../rn/inline-messages-steps.md#migration-step-2-2)
 1. Teste e publique-os um por um. [Leia mais](../rn/inline-messages-steps.md#migration-step-2-3)
 1. Liste todas as versões ativas. [Leia mais](../rn/inline-messages-steps.md#migration-step-2-4)
-1. Examine erros na migração da versão de rascunho. [Leia mais](../rn/inline-messages-steps.md#migration-step-2-5)
+1. Verifique se há erros nas versões de rascunho migradas. [Leia mais](../rn/inline-messages-steps.md#migration-step-2-5)
 
 **[Após a segunda iteração](../rn/inline-messages-steps.md#migration-step-3)**
 
@@ -45,7 +45,7 @@ Valide se tudo foi migrado antes da descontinuação.
 
 ### 1. Pare todas as jornadas ao vivo e fechadas{#migration-step-1-1}
 
-Ligado **sandboxes de não produção**, pare todas as jornadas ao vivo e fechadas. Isso permitirá que o processo de migração automatizada migre todas as jornadas dessas sandboxes sem nenhuma ação da sua parte. Após a migração, você poderá duplicar as versões de jornada interrompidas e usá-las.
+Ligado **sandboxes de não produção**, pare todas as jornadas ao vivo e fechadas. Isso permite que o processo de migração automatizada migre todas as jornadas dessas sandboxes sem nenhuma ação da sua parte. Após a migração, você poderá duplicar as versões do jornada interrompidas e usá-las.
 
 ### 2. Pare todas as jornadas ad-hoc ativas sem o perfil ainda em{#migration-step-1-2}
 
@@ -53,7 +53,7 @@ No **sandbox de produção**, pare todas as jornadas ad-hoc ativas que não cont
 
 +++Como encontrar essas jornadas?
 
-Para encontrar essas jornadas, navegue até a guia **Jornada** e filtre a lista em &quot;Status = Live&quot; e &quot;Type = Read segment&quot;. Você também pode solicitar cronologicamente da primeira para a última data &quot;Publicada&quot;.
+Para encontrar essas jornadas, navegue até a guia **Jornada** e filtre a lista em &quot;Status = Live&quot; e &quot;Type = Read segment&quot;. Você também pode solicitar jornadas cronologicamente da primeira para a última data &quot;Publicada&quot;.
 
 ![](assets/inline-migration-steps1.png)
 
@@ -74,15 +74,13 @@ Abra-os de cima para baixo.
 
 * Se você tiver jornadas ativas que não sejam a versão mais recente, o que significa que criou outra versão do jornada no rascunho, publique-a ou exclua-a.
 
-* Se você tiver mensagens que não são usadas no jornada e que deseja manter, salve-as como modelos. Observe que você ainda poderá acessá-los até a descontinuação.
+* Se você tiver mensagens que não são usadas no jornada e que deseja manter, salve-as como modelos. Consulte esta [página](../design/email-templates.md#save-as-template). Observe que você ainda poderá acessá-los até a descontinuação.
 
 ## Após a primeira iteração da migração (25 de julho){#migration-step-2}
 
 A migração é sequenciada em duas fases: a fase automatizada (à noite, entre 25 de julho e 26 de julho) e a fase manual (a partir de 26 de julho), que requer itens de ação.
 
-Para a fase automatizada, consulte esta seção [página](../rn/inline-messages.md#process).
-
-Para a fase manual, aqui estão as ações a serem executadas no **sandbox de produção**:
+Para a fase automatizada, consulte esta seção [página](../rn/inline-messages.md#process). Para a fase manual, aqui estão as ações a serem executadas no **sandbox de produção**:
 
 <!--
 _On non-production sandboxes:_
@@ -108,7 +106,9 @@ _On the production sandbox:_
 
 ### 1. Verifique se há erros nas Jornadas ativas migradas{#migration-step-2-1}
 
-Verifique se há erros nas jornadas ativas migradas automaticamente no relatório de status.
+Verifique se há erros nas jornadas ativas migradas automaticamente no relatório de status ([saiba mais](../rn/inline-messages.md#status). Clique no botão **Verificar status** no banner superior.
+
+![](assets/inline-migration-steps3.png)
 
 Procure por &quot;ERROR_NEW_VERSION_CREATION&quot;:
 
@@ -117,6 +117,8 @@ Procure por &quot;ERROR_NEW_VERSION_CREATION&quot;:
 * Se não houver erro, significa que todas as versões de jornada ativa que exigem migração foram processadas e uma nova versão de rascunho migrada foi criada automaticamente.
 
 * Se vir um erro, você pode procurar por &quot;errorMessage&quot; e verificar a mensagem de erro nos logs. Mensagens de vários canais não são migradas. Você terá que criar outra jornada.
+
+   ![](assets/inline-migration-steps5.png)
 
 * Para outros erros, entre em contato com seu CSM ou qualquer representante de Adobe para obter orientação.
 
@@ -132,7 +134,7 @@ Verifique se a jornada ainda precisa ser executada na produção. Se a variável
 
 Teste sua versão de rascunho da jornada que agora contém ações de canal em linha.
 
-Publique sua nova versão do jornada. Sua versão ao vivo anterior mudará para o status &quot;Fechado&quot;.
+Publique sua nova versão do jornada. Sua versão ao vivo anterior é movida para o status &quot;Fechada&quot;.
 
 ### 4. Listar todas as versões ativas{#migration-step-2-4}
 
@@ -140,9 +142,9 @@ Todos devem ser marcados como o mais tardar. caso contrário, procure a versão 
 
 ![](assets/inline-migration-steps8.png)
 
-### 5. Verifique os erros na migração da versão de rascunho{#migration-step-2-5}
+### 5. Verifique se há erros nas versões de rascunho migradas {#migration-step-2-5}
 
-Clique no botão **Verificar status** no banner superior e verifique se não houve erro durante a migração automática e se não há mais nada para migrar. Esteja ciente de que qualquer jornada com erro (com mensagens) será descontinuada após 5 de setembro (em todas as sandboxes).
+Clique no botão **Verificar status** no banner superior ([saiba mais](../rn/inline-messages.md#status) e verifique se não houve erro durante a migração automática e se não há mais nada para migrar. Esteja ciente de que qualquer jornada com erro (com mensagens) será descontinuada após 5 de setembro (em todas as sandboxes).
 
 ![](assets/inline-migration-steps11.png)
 
@@ -154,11 +156,11 @@ Procure o status &quot;ERROR&quot;.
 
 * Se houver erros, procure o erro pesquisando &quot;errorMessage&quot;. O seguinte erro é esperado, pois a migração de mensagens de vários canais não é suportada: &quot;Não há suporte para a migração de mensagens de vários canais&quot;. Você terá que reconstruir essa jornada.
 
-![](assets/inline-migration-steps6.png)
+![](assets/inline-migration-steps5.png)
 
 ## Após a segunda iteração (1 de agosto){#migration-step-3}
 
-A segunda iteração acontecerá à noite entre 1º de agosto e 2 de agosto.
+A segunda iteração ocorre no período noturno entre 1º de agosto e 2 de agosto.
 
 <!--
 _On non-production sandboxes:_
@@ -179,7 +181,11 @@ Se não houver erros, você não deverá ter jornadas em &quot;eligibilidadeStat
 
 ### 2. Parar as versões anteriores{#migration-step-3-2}
 
-Caso não tenha publicado versões mais recentes do jornada (consulte esta seção [seção](../rn/inline-messages-steps.md#migration-step-2-3)) em tempo que significa antes da iteração 2 (1º de agosto), em seguida, publique a versão mais recente e **interrompa a versão anterior ou você a perderá** e seus relatórios associados.
+Caso não tenha publicado versões mais recentes do jornada (consulte esta seção [seção](../rn/inline-messages-steps.md#migration-step-2-3)) em tempo, o que significa antes da iteração 2 (1º de agosto), e, em seguida, publique a versão mais recente.
+
+>[!NOTE]
+>
+>Pare a versão anterior ou você a perderá e seus relatórios associados.
 
 ## Antes da terceira e última iteração (5 de setembro){#migration-step-4}
 

@@ -2,9 +2,9 @@
 title: Migrar para a criação em linha do jornada
 description: Saiba como migrar suas mensagens
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 8404cbe345879bdd3c90a4ce542135fb7cbf1eb3
+source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1673'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,9 @@ ht-degree: 0%
 >abstract="A partir de 25 de julho de 2022, o menu Mensagens desaparecerá e as mensagens serão criadas diretamente de uma Jornada. Se você quiser reutilizar suas mensagens herdadas no jornada, é necessário salvá-las como modelos."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Salvar mensagens como modelos"
 
-O Adobe Journey Optimizer está lançando um novo recurso que melhora a maneira como você cria conteúdo para canais do Journey Optimizer (email, push, SMS). Como profissional da Journey Optimizer, agora você criará e criará suas mensagens diretamente de uma jornada.
+O Adobe Journey Optimizer está lançando um novo recurso que melhora a maneira como você cria conteúdo para canais do Journey Optimizer (email, push, SMS). Como profissional da Journey Optimizer, agora você cria e cria suas mensagens diretamente de uma jornada.
 
-Esse recurso requer uma migração de jornadas existentes que estejam usando mensagens.
-
-Nesta página, você encontrará as informações necessárias sobre essa alteração, bem como as etapas necessárias.
+Esse recurso requer uma migração de jornadas existentes que estejam usando mensagens. Nesta página, você encontrará as informações necessárias sobre essa alteração, bem como as etapas necessárias.
 
 Para obter mais informações sobre suas funções e responsabilidades como administrador da Journey Optimizer, consulte esta seção [página](../start/path/marketer.md).
 
@@ -61,23 +59,23 @@ Here are the main changes in the interface:
 
 * **Eu fui afetado?**: você será afetado se criar mensagens do **Mensagens** no menu de navegação esquerdo e use-os em suas jornadas. Se estiver usando um sistema de terceiros (como o Adobe Campaign), você não será afetado por essa migração.
 
-* **Alterações do produto**: no GA (25 de julho), o conteúdo do seu canal será criado e gerenciado em cada jornada. O **Mensagens** no menu de navegação à esquerda, não estará mais disponível ([Saiba mais](../rn/inline-messages.md#change)). Prosseguiremos com a migração de suas jornadas existentes.
+* **Alterações do produto**: no GA (25 de julho), o conteúdo do seu canal é criado e gerenciado em cada jornada. O **Mensagens** no menu de navegação esquerdo , a navegação à esquerda não está mais disponível ([saiba mais](../rn/inline-messages.md#change)). Prosseguiremos com a migração de suas jornadas existentes.
 
-* **Linha do tempo**: a migração ocorrerá para cada região durante a noite, por meio de várias [iterações](../rn/inline-messages.md#iterations).
+* **Linha do tempo**: a migração ocorre para cada região durante a noite, por meio de várias [iterações](../rn/inline-messages.md#iterations).
 
    ![](assets/inline-migration-timeline.png)
 
-* **Ações necessárias**: uma conversão automática de jornadas será executada para você. Dito isto, necessitaremos da sua ajuda com alguns passos. Saiba mais sobre as etapas necessárias nesta seção [página](../rn/inline-messages-steps.md).
+* **Ações necessárias**: uma conversão automática de jornadas é executada para você. Dito isto, precisamos da vossa ajuda com alguns passos. Saiba mais sobre as etapas necessárias nesta seção [página](../rn/inline-messages-steps.md).
 
-* **Descontinuação**: após o dia 6 de setembro, todas as jornadas que ainda usarem mensagens herdadas serão interrompidas e excluídas posteriormente.
+* **Descontinuação**: após o dia 6 de setembro, todas as jornadas que ainda usarem mensagens herdadas serão interrompidas e serão excluídas posteriormente.
 
 ## Benefícios e alterações do produto{#change}
 
-O Adobe é capaz de simplificar continuamente os fluxos do produto. Essa nova maneira de criar mensagens trará um processo do usuário mais simplificado.
+O Adobe é capaz de simplificar continuamente os fluxos do produto. Essa nova maneira de criar mensagens traz um processo de usuário mais simplificado.
 
-Criamos esse novo fluxo de trabalho para colocar o conteúdo em um local, diretamente onde ele é usado.
+Criamos esse novo fluxo de trabalho para centralizar o conteúdo em um local, diretamente onde ele é usado.
 
-A criação de conteúdo agora é executada diretamente na jornada. O imediato **benefícios** você terá:
+A criação de conteúdo agora é executada diretamente na jornada. O imediato **benefícios** você obtém:
 
 * Criação de jornadas mais rápida usando canais Journey Optimizer em um único fluxo.
 * Visualização rápida do conteúdo ao alternar facilmente entre todo o conteúdo de email, push e SMS em uma jornada.
@@ -93,7 +91,7 @@ Aqui estão os **alterações do produto** trazido por este novo recurso:
 </tr>
 <tr>
 <td><img src="assets/inline-migration-before.png"><p>Antes, você criava a mensagem da <strong>Mensagens</strong> menu. </p></td>
-<td><img src="assets/inline-migration-after.png"><p>Agora, o <strong>Mensagens</strong> no menu de navegação esquerdo, não estará mais disponível. </p></td>
+<td><img src="assets/inline-migration-after.png"><p>Agora, o <strong>Mensagens</strong> no menu de navegação esquerdo, não está mais disponível. </p></td>
 </tr>
 <tr>
 <td><img src="assets/inline-migration-before2.png"><p>Em seguida, você criou uma jornada, adicionou uma <strong>Mensagem</strong> e selecionou a mensagem criada anteriormente.</p></td>
@@ -110,9 +108,9 @@ No GA (25 de julho), esse novo fluxo de usuários se aplica a todas as novas jor
 
 ## Linha do tempo da migração{#iterations}
 
-É necessária uma migração para transformar suas jornadas existentes usando **Mensagens** em jornadas com ações criadas em linha. Uma conversão automática de jornadas será executada para você. Dito isto, necessitaremos da sua ajuda com alguns passos.
+É necessária uma migração para transformar suas jornadas existentes usando **Mensagens** em jornadas com ações criadas em linha. Uma conversão automática de jornadas é executada para você. Dito isto, precisamos da vossa ajuda com alguns passos.
 
-A migração acontecerá para cada região à noite, por meio de várias iterações. Esta é a linha do tempo da migração:
+A migração ocorre para cada região durante a noite, por meio de várias iterações. Esta é a linha do tempo da migração:
 
 * 25 de julho de 2022: GA - 1ª iteração
 * 1º de agosto de 2022: Segunda iteração
@@ -129,7 +127,7 @@ Durante uma iteração, passamos por cada jornada e os migramos quando possível
 
 O Adobe se comunica com você antes da primeira iteração.
 
-A mudança será implantada da noite para o dia, por meio de várias iterações. Saiba mais sobre [iterações](../rn/inline-messages.md#inline-authoring).
+A alteração é implantada da noite para o dia, por meio de várias iterações. Saiba mais sobre [iterações](../rn/inline-messages.md#inline-authoring).
 
 Você também é informado por notificações no produto, exibidas nas telas do Jornada:
 
@@ -151,17 +149,17 @@ Você também é informado por notificações no produto, exibidas nas telas do 
 
 ### Qual é o processo de migração?{#process}
 
-A migração é totalmente automática para jornadas que não estão ativas ou fechadas. Não queremos afetar jornadas ativas ou fechadas para evitar qualquer impacto na produção. Pediremos que você publique a nova versão que criamos para você.
+A migração é totalmente automática para jornadas que não estão ativas ou fechadas. Não queremos afetar jornadas ativas ou fechadas para evitar qualquer impacto na produção. Pedimos que você publique a nova versão que criamos para você.
 
-Todas as sandboxes de um ORG do cliente serão processadas simultaneamente. Durante a implantação de alteração, as seguintes ações serão executadas:
+Todas as sandboxes de um ORG do cliente são processadas simultaneamente. Durante a implantação de alteração, as seguintes ações são executadas:
 
-**QUALQUER Jornada que não use mensagens**
+**QUALQUER jornada que não use mensagens**
 
 Elas não são afetadas pela alteração. Somente as jornadas que usam mensagens são direcionadas pela migração. No entanto, você ainda poderá acessar mensagens que não são usadas em uma jornada por meio do seguinte URL: https://experience.adobe.com/#/@[ORG]/sname:[SANDBOX]/jornada-otimizer/messages/
 
 **JORNADAS RASCUNHO utilizando pelo menos uma mensagem**
 
-As versões de rascunho de mensagens serão modificadas durante a migração. Eles não farão mais referência a uma mensagem. O **Mensagem** As atividades do serão substituídas pelas atividades de ação de canal apropriadas. Cada um deles incluirá os parâmetros e o conteúdo do canal.
+As versões de rascunho de mensagens são modificadas durante a migração. Eles não fazem mais referência a uma mensagem. O **Mensagem** As atividades do são substituídas pelas atividades de ação de canal apropriadas. Cada um deles inclui os parâmetros de canal e o conteúdo.
 
 Como de costume, teste sua jornada de rascunho antes de publicá-la.
 
@@ -169,15 +167,15 @@ Como de costume, teste sua jornada de rascunho antes de publicá-la.
 
 A versão ao vivo de uma jornada continua em execução para evitar qualquer impacto na produção.
 
-Uma nova versão de rascunho dessa jornada será criada durante a migração. Esta nova versão de rascunho será uma cópia da sua versão ao vivo, mas as mensagens serão substituídas por ações de canal criadas em linha. Cada atividade de ação de canal incluirá os parâmetros e o conteúdo do canal. O conteúdo não é perdido. O relatório não é perdido
+Uma nova versão de rascunho dessa jornada é criada durante a migração. Esta nova versão de rascunho é uma cópia da sua versão ao vivo, mas as mensagens são substituídas por ações de canal criadas em linha. Cada atividade de ação de canal inclui os parâmetros e o conteúdo do canal. O conteúdo não é perdido. A criação de relatórios não é perdida.
 
 Esperamos que você revise essa versão de rascunho, a teste e a publique para que ela se torne a versão em tempo real.
 
 **JORNADAS CONCLUÍDAS ou PARADAS usando pelo menos uma mensagem**
 
-Essas jornadas também serão migradas.
+Essas jornadas também são migradas.
 
-Ao analisar o relatório de jornada, os relatórios serão mais ricos para incluir o nível de informações anteriormente disponíveis no Relatório de mensagem.
+Ao analisar o relatório de jornada, os relatórios agora são mais ricos e incluem o nível de informações anteriormente disponíveis no relatório de mensagem.
 
 **Jornadas FECHADAS usando pelo menos uma mensagem**
 
@@ -191,7 +189,7 @@ Eles não são migrados. Você precisa recriá-los.
 
 ### Quais são meus itens de ação como cliente?{#actions}
 
-Uma conversão automática de jornadas será executada para você, mas algumas etapas são necessárias. Saiba mais sobre as etapas necessárias nesta seção [página](../rn/inline-messages-steps.md).
+Uma conversão automática de jornadas é executada para você, mas algumas etapas são necessárias. Saiba mais sobre as etapas necessárias nesta seção [página](../rn/inline-messages-steps.md).
 
 <!--
 
@@ -293,7 +291,7 @@ Haverá uma mudança na maneira como você cria a mensagem. Não haverá perda d
 
 ### Haverá acesso ao ambiente durante o processo de migração?
 
-A migração ocorrerá à noite. Você poderá usar o produto. Mas não crie, edite ou exclua jornadas.
+A migração ocorre à noite. Você poderá usar o produto. Mas não crie, edite ou exclua jornadas.
 
 ### As mensagens continuarão a ser enviadas?
 
