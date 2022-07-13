@@ -2,9 +2,9 @@
 title: Migrar para a criação em linha do jornada
 description: Saiba como migrar suas mensagens
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3146071854a02650c6f1632839e3dcd913a46676
+source-git-commit: ea8e133475eb86ff7ad9463950d81d36fe3b5504
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="Saiba o que está acontecendo"
->abstract="A partir de 25 de julho de 2022, as mensagens serão criadas diretamente de uma Jornada. Seu ambiente está sendo migrado. Serão necessárias ações adicionais após a migração."
+>abstract="A partir de 25 de julho de 2022, as mensagens serão criadas diretamente de uma Jornada. Seu ambiente está sendo migrado. Ações adicionais serão necessárias após a migração, se você usar mensagens em suas jornadas."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="Etapas de migração"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="Saiba como migrar suas mensagens"
->abstract="A partir de 25 de julho de 2022, as mensagens serão criadas diretamente de uma Jornada. As mensagens existentes foram migradas para o novo modelo. Como jornada, agora são necessárias ações adicionais."
+>abstract="A partir de 25 de julho de 2022, as mensagens serão criadas diretamente de uma Jornada. As mensagens existentes foram migradas para o novo modelo. Como profissional de jornada, agora são necessárias ações adicionais para jornadas que usam mensagens."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="Etapas de migração"
 
 >[!CONTEXTUALHELP]
