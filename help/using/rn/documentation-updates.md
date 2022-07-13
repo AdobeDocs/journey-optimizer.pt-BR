@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 97%
+source-wordcount: '1651'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * A página Lista de supressão foi atualizada para esclarecer algumas informações, incluindo o fato de que todos os caracteres ASCII entre 32 e 126 são permitidos no campo de motivo da supressão. [Leia mais](../configuration/manage-suppression-list.md)
 * Foi adicionado o link para as medidas de proteção e limites estáticos para a gestão de decisões. [Leia mais](../start/guardrails.md)
 * A Otimização de tempo de envio agora está disponível para todos os clientes. A menção beta foi removida. [Leia mais](../building-journeys/journeys-message.md#send-time-optimization)
-
+* A API de decisão em lote foi adicionada à lista de APIs disponíveis para fornecer ofertas personalizadas. [Leia mais](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Maio de 2022 {#may-2022}
 
@@ -169,3 +169,4 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Adicionado um aviso para mencionar que as ofertas baseadas em eventos não são compatíveis no momento. [Leia mais](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * Nova **[!UICONTROL Overview]** guia Gerenciamento de decisões documentada. [Leia mais](../offers/get-started/user-interface.md#overview)
 * Novas seções adicionadas para descrever as ações disponíveis nas listas de oferta e decisão: [Lista de ofertas](../offers/offer-library/creating-personalized-offers.md#offer-list) e [Lista de decisões](../offers/offer-activities/create-offer-activities.md#decision-list).
+
