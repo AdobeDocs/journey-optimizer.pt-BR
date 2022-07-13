@@ -2,9 +2,9 @@
 title: Migrar para a criação em linha do jornada
 description: Saiba como migrar suas mensagens
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: d27bcae95f1890292eb8f2eae8b2e72c3ad501e3
+source-git-commit: 5ff9e34c70f13a6ebf12d106759c927f0b506520
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_before"
->title="Saiba mais sobre a nova mensagem de criação em linha"
->abstract="A partir de 25 de julho de 2022, as mensagens serão criadas diretamente de uma Jornada. As mensagens existentes são migradas automaticamente para o novo modelo. Serão necessárias ações adicionais após a migração."
+>title="Saiba mais sobre o novo recurso de criação em linha"
+>abstract="A partir de 25 de julho de 2022, as mensagens serão criadas diretamente de uma Jornada. As mensagens existentes são migradas automaticamente para o novo modelo. Ações adicionais serão necessárias após a migração, se você usar mensagens em suas jornadas."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="Etapas de migração"
 
 >[!CONTEXTUALHELP]
