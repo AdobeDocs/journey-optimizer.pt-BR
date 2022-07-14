@@ -3,9 +3,9 @@ title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>Agora é possível recriar as experiências de uma sandbox da Journey Optimizer para outra, por exemplo, de uma sandbox de não produção para uma sandbox de produção. Esse novo recurso copia uma Jornada inteira, incluindo todos os objetos dos quais a Jornada depende para ser executada corretamente, de um ambiente a outro. Além das Jornadas, também é possível copiar outros componentes, como Ofertas, Mensagens, Esquemas, Conjuntos de dados, Fontes de dados, Eventos e Ações.</p>
+<p>Agora é possível transferir as experiências de uma sandbox do Journey Optimizer para outra, por exemplo, criando uma sandbox de produção a partir de uma sandbox de não produção. Esse novo recurso copia uma jornada inteira de um ambiente para outro, incluindo todos os objetos dos quais ela depende para ser executada corretamente. Além das Jornadas, também é possível copiar outros componentes, como Ofertas, Mensagens, Esquemas, Conjuntos de dados, Fontes de dados, Eventos e Ações.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/copy-to-sandbox.md">documentação detalhada</a>.
 </td>
 </tr>
@@ -149,9 +149,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 * **Visualizar parâmetros de URL de rastreamento** - ao configurar uma predefinição de mensagem, se você definir parâmetros de rastreamento de URL, uma visualização dinâmica do URL de rastreamento resultante será exibida. [Saiba mais](../configuration/email-settings.md#url-tracking)
 
-* **Edição de predefinição de mensagem** - Agora, ao atualizar uma predefinição de mensagem, o tempo de processamento só pode levar até 3 horas. [Saiba mais](../configuration/message-presets.md#edit-message-preset)
+* **Edição de predefinição de mensagem** - Agora, ao atualizar uma predefinição de mensagem, o tempo de processamento pode levar até 3 horas. [Saiba mais](../configuration/message-presets.md#edit-message-preset)
 
-* **Edição de pool de IPs** - Agora, ao atualizar um pool IP, o tempo de processamento só pode demorar até 3 horas. [Saiba mais](../configuration/ip-pools.md#edit-ip-pool)
+* **Edição de pool de IPs** - Agora, ao atualizar um pool de IPs, o tempo de processamento pode levar até 3 horas. [Saiba mais](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
