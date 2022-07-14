@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Julho de 2022 {#july-2022}
 
-* O **Criar uma predefinição de mensagem** A seção foi esclarecida e atualizada com links para a página que descrevem como configurar o canal SMS. [Leia mais](../configuration/message-presets.md#create-message-preset)
+* A seção **Criar uma predefinição de mensagem** foi esclarecida e atualizada com links para a página que descreve como configurar o canal SMS. [Leia mais](../configuration/message-presets.md#create-message-preset)
 
 ## Junho de 2022 {#june-2022}
 
@@ -30,7 +30,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * A página Lista de permissões foi movida para a seção Configuração. [Leia mais](../configuration/allow-list.md)
 * A página Lista de supressão foi atualizada para esclarecer algumas informações, incluindo o fato de que todos os caracteres ASCII entre 32 e 126 são permitidos no campo de motivo da supressão. [Leia mais](../configuration/manage-suppression-list.md)
 * Foi adicionado o link para as medidas de proteção e limites estáticos para a gestão de decisões. [Leia mais](../start/guardrails.md)
-* A Otimização de tempo de envio agora está disponível para todos os clientes. A menção beta foi removida. [Leia mais](../building-journeys/journeys-message.md#send-time-optimization)
+* A Otimização de tempo de envio agora está disponível para todos os clientes. A menção ao beta foi removida. [Leia mais](../building-journeys/journeys-message.md#send-time-optimization)
 * A API de decisão em lote foi adicionada à lista de APIs disponíveis para fornecer ofertas personalizadas. [Leia mais](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Maio de 2022 {#may-2022}
@@ -96,7 +96,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Nova seção **Editar uma predefinição de mensagem**. [Leia mais](../configuration/message-presets.md#edit-message-preset)
 * Nova seção **Editar um registro PTR**. [Leia mais](../configuration/ptr-records.md#edit-ptr-record)
 * Nova seção **Desativar uma predefinição de mensagem**. [Leia mais](../configuration/message-presets.md#edit-message-preset#deactivate-preset)
-* Adicionadas novas limitações à **Guia do desenvolvedor de APIs de Gerenciamento de decisões** sobre restrições de oferta não compatíveis com os workflows de dispositivo móvel [!DNL Experience Edge]. [Leia mais](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
+* Adicionadas novas limitações à **Guia do desenvolvedor da API de Gestão de decisões** sobre restrições de oferta não compatíveis com os fluxos de trabalho [!DNL Experience Edge] de dispositivo móvel. [Leia mais](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * Nova seção **Criar simulações**. [Leia mais](../offers/offer-activities/simulation.md)
 * Seção **Adicionar escopos de decisão** atualizada. [Leia mais](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 * Seção **Definir conteúdo para suas representações** atualizada, incluindo uma nova [subseção](../offers/offer-library/creating-personalized-offers.md#custom-text) sobre como definir e personalizar texto. [Leia mais](../offers/offer-library/creating-personalized-offers.md#content)
@@ -122,7 +122,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * Página de **Início rápido** aprimorada com etapas para diferentes personalidades. [Leia mais](../start/quick-start.md)
 
-* Agora, todos os recursos de Gerenciamento de decisões descritos na seção dedicada também se aplicam aos usuários da Adobe Experience Platform que usam o serviço de aplicativos do Offer Decisioning. [Leia mais](../offers/get-started/starting-offer-decisioning.md)
+* Agora, todos os recursos da Gestão de decisões descritos na seção dedicada também se aplicam aos usuários da Adobe Experience Platform que usam o serviço de aplicativos do Offer Decisioning. [Leia mais](../offers/get-started/starting-offer-decisioning.md)
 
 * Subseção adicionada para esclarecer as diferenças entre o uso de segmentos versus regras de decisão ao aplicar uma restrição contra a seleção de ofertas para um determinado posicionamento. [Leia mais](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
@@ -134,7 +134,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 ## Agosto de 2021 {#august-2021}
 
 * Todos os novos recursos e aprimoramentos chegando com [!DNL Journey Optimizer] a versão de agosto de 2021 foram detalhados na documentação. [Leia mais](release-notes.md)
-* Permissões de gerenciamento de decisões atualizadas. [Leia mais](../administration/ootb-product-profiles.md)
+* Permissões da Gestão de decisões atualizadas. [Leia mais](../administration/ootb-product-profiles.md)
 * Capturas de tela do Designer de email atualizadas com a interface mais recente.
 * Atualização do procedimento de configuração para ações personalizadas com caminhos dinâmicos de URL e cabeçalhos dinâmicos. [Leia mais](../action/about-custom-action-configuration.md#url-configuration)
 * Seção sobre recursos e atalhos de acessibilidade adicionada. [Leia mais](../start/user-interface.md#accessibility)
@@ -167,6 +167,6 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Limitações do Journey atualizadas. [Leia mais](../start/guardrails.md)
 * Seleção Configurar ofertas atualizada na seção de decisões. [Leia mais](../offers/offer-activities/configure-offer-selection.md)
 * Adicionado um aviso para mencionar que as ofertas baseadas em eventos não são compatíveis no momento. [Leia mais](../offers/offer-library/creating-personalized-offers.md#eligibility)
-* Nova **[!UICONTROL Overview]** guia Gerenciamento de decisões documentada. [Leia mais](../offers/get-started/user-interface.md#overview)
+* A nova guia **[!UICONTROL Overview]** da Gestão de decisões foi documentada. [Leia mais](../offers/get-started/user-interface.md#overview)
 * Novas seções adicionadas para descrever as ações disponíveis nas listas de oferta e decisão: [Lista de ofertas](../offers/offer-library/creating-personalized-offers.md#offer-list) e [Lista de decisões](../offers/offer-activities/create-offer-activities.md#decision-list).
 

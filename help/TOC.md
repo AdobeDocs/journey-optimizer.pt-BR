@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '1120'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -267,8 +267,8 @@ ht-degree: 97%
    + Capacidade de entrega {#deliverability}
       + [Introdução à capacidade de entrega](using/reports/deliverability.md)
       + [Sobre a lista de supressão](using/reports/suppression-list.md)
-+ Gestão de decisão {#offer-decisioniong}
-   + Introdução ao Gestão de decisão {#get-started-decision}
++ Gestão de decisões {#offer-decisioniong}
+   + Introdução ao Gestão de decisões {#get-started-decision}
       + [Sobre o Gestão de decisão](using/offers/get-started/starting-offer-decisioning.md)
       + [Interface do usuário](using/offers/get-started/user-interface.md)
       + [Etapas principais para criar e gerenciar ofertas](using/offers/offer-library/key-steps.md)
@@ -298,9 +298,9 @@ ht-degree: 97%
       + [Criar decisões](using/offers/offer-activities/create-offer-activities.md)
       + [Configurar seleção de ofertas em decisões](using/offers/offer-activities/configure-offer-selection.md)
       + [Criar simulações](using/offers/offer-activities/simulation.md)
-   + Criar relatórios do Gestão de decisão {#create-reports}
-      + [Introdução aos eventos de Gestão de decisão](using/offers/reports/get-started-events.md)
-      + [Informações-chave sobre eventos do Gestão de decisão](using/offers/reports/key-information.md)
+   + Criar relatórios da Gestão de decisões {#create-reports}
+      + [Introdução aos eventos da Gestão de decisões](using/offers/reports/get-started-events.md)
+      + [Informações importantes sobre eventos da Gestão de decisões](using/offers/reports/key-information.md)
       + [Acessar campos XDM de eventos](using/offers/reports/xdm-fields.md)
    + Exportar seu catálogo de ofertas {#export-catalog}
       + [Introdução à exportação do catálogo de ofertas ](using/offers/export-catalog/get-started-export.md)
