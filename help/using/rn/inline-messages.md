@@ -2,9 +2,9 @@
 title: Migrar para a criação em linha do jornada
 description: Saiba como migrar suas mensagens
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: ea8e133475eb86ff7ad9463950d81d36fe3b5504
+source-git-commit: 3ba2c604a99c53e95c4ef083f5ee43d2d6f5477a
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
@@ -287,7 +287,10 @@ Não haverá perda de dados nem impacto nas jornadas ativas. Você estará contr
 
 ### Haverá perda de funcionalidade?{#functionality}
 
-Haverá uma mudança na maneira como você cria a mensagem. Não haverá perda de funcionalidade.
+Haverá uma mudança na maneira como você cria a mensagem. Não haverá perda de funcionalidade. Esteja ciente de que, após 25 de julho (versão do recurso de criação em linha), as limitações serão aplicadas a ações que podem ser executadas em jornadas que usam **Mensagem** atividades:
+
+* Não será possível copiar/colar nenhuma **Mensagem** atividade . No entanto, é possível copiar/colar as novas atividades de ação de canal.
+* Para essas jornadas, você não poderá executar as seguintes ações: testar, publicar, duplicar, criar uma nova versão, fechar ou copiar para outra sandbox. Essas limitações serão aplicáveis enquanto **Mensagens** estão presentes nessas jornadas. Você pode aguardar a execução e a atualização do processo de migração **Mensagens** atividades para canalizar atividades de ação ou você pode removê-las **Mensagens** manualmente.
 
 ### Haverá acesso ao ambiente durante o processo de migração?
 
