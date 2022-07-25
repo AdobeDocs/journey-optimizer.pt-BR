@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '495'
 ht-degree: 2%
 
 ---
@@ -25,15 +25,24 @@ O objetivo deste exemplo é impulsionar um evento para [!DNL Journey Optimizer] 
 
 Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
-* crie e crie uma mensagem de notificação por push, sem publicá-la. Consulte esta [seção](../messages/get-started-content.md).
 * configure um evento de pedido incluindo o número do pedido, o status e o nome do item. Consulte esta [seção](../event/about-events.md).
 * criar uma decisão, consulte esta [seção](../offers/offer-activities/create-offer-activities.md).
 
-## Etapa 1 - Adicionar personalização ao perfil {#add-perso}
+## Etapa 1 - Criar a jornada {#create-journey}
 
-1. Clique no botão **[!UICONTROL Message]** e selecione a mensagem.
+1. Clique no botão **[!UICONTROL Journeys]** e crie uma nova jornada.
 
-   ![](assets/perso-uc.png)
+   ![](assets/perso-uc4.png)
+
+1. Adicione seu evento de entrada e um **Empurrar** atividade de ação.
+
+   ![](assets/perso-uc5.png)
+
+1. Configure e projete sua mensagem de notificação por push. Consulte esta [seção](../messages/get-started-content.md).
+
+## Etapa 2 - Adicionar personalização ao perfil {#add-perso}
+
+1. No **Empurrar** atividade , clique em **Editar conteúdo**.
 
 1. Clique no botão **Título** campo.
 
@@ -43,45 +52,15 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
    ![](assets/perso-uc3.png)
 
-   >[!NOTE]
-   >
-   >Deixe a mensagem em rascunho. Não o publique ainda.
-
-## Etapa 2 - Criar a jornada {#create-journey}
-
-1. Clique no botão **[!UICONTROL Journeys]** e crie uma nova jornada.
-
-   ![](assets/perso-uc4.png)
-
-1. Adicione seu evento de entrada e um **Mensagem** atividade .
-
-   ![](assets/perso-uc5.png)
-
-1. No **Mensagem** selecione a mensagem criada anteriormente. Clique em **Ok**.
-
-   ![](assets/perso-uc6.png)
-
-   Uma mensagem é exibida para informá-lo que os dados do evento de entrada e as propriedades da jornada foram passados para a mensagem.
-
-   ![](assets/perso-uc7.png)
-
-   >[!NOTE]
-   >
-   >A mensagem é exibida com um ícone de aviso. Isso ocorre porque a mensagem ainda não foi publicada.
-
 ## Etapa 3 - Adicionar personalização aos dados contextuais {#add-perso-contextual-data}
 
-1. No **Mensagem** , clique no botão **Abrir a mensagem** ícone . A mensagem é aberta em uma nova guia.
-
-   ![](assets/perso-uc8.png)
-
-1. Clique no botão **Título** campo.
+1. No **Empurrar** atividade , clique em **Editar conteúdo** e clique no botão **Título** campo.
 
    ![](assets/perso-uc9.png)
 
 1. Selecione o **Atributos contextuais** menu. Atributos contextuais só estarão disponíveis se uma jornada tiver passado dados contextuais para a mensagem. Clique em **Journey Orchestration**. As seguintes informações contextuais são exibidas:
 
-   * **Eventos**: esta categoria agrupa todos os campos do(s) evento(s) colocado(s) antes da variável **Mensagem** na jornada.
+   * **Eventos**: esta categoria agrupa todos os campos do(s) evento(s) colocado(s) antes da atividade de ação de canal na jornada.
    * **Propriedades da Jornada**: os campos técnicos relacionados à jornada de um determinado perfil, por exemplo, a ID da jornada ou os erros específicos encontrados. Saiba mais em [Documentação do Journey Orchestration](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
@@ -106,13 +85,9 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
    ![](assets/perso-uc15.png)
 
-1. Agora, publique a mensagem.
-
-   ![](assets/perso-uc16.png)
-
 ## Etapa 4 - Testar e publicar a jornada {#test-publish}
 
-1. Abra a jornada novamente. Se a jornada já estiver aberta, atualize a página. Agora que a mensagem foi publicada, você pode ver que não há erro na jornada. Clique no botão **Teste** e, em seguida, clique em **Acionar um evento**.
+1. Clique no botão **Teste** e, em seguida, clique em **Acionar um evento**.
 
    ![](assets/perso-uc17.png)
 

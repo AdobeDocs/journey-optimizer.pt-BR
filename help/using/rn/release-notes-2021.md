@@ -2,10 +2,10 @@
 title: Notas de versão anteriores (2021)
 description: Notas de versão do Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '2070'
-ht-degree: 100%
+source-wordcount: '2067'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 
 **Relatórios**
 
-* **Formato de dados na Visualização global** - Agora é possível alternar entre números e porcentagens na **Visualização global** da guia de **Execução**. [Saiba mais](../reports/message-monitoring.md)
+* **Formato de dados na Visualização global** - Agora é possível alternar entre números e porcentagens na **Visualização global** da guia de **Execução.**
 
 
 **Administração**
@@ -126,7 +126,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 <td>
 <p>Novas métricas estão disponíveis nos relatórios: Segmentado e Excluído para mensagens de email &amp; e por push estão visíveis nos relatórios ao vivo e global. </br> Para ter acesso às métricas mais recentes, observe que será necessário redefinir os diferentes painéis de relatórios para cada canal e tipo de relatório. Para obter mais informações sobre a personalização de painéis, consulte a <a href="../reports/live-report.md">documentação detalhada.</a></p>
 <p>Uma nova coluna na lista de execução de mensagens exibe o número de perfis segmentados para cada execução de mensagem. </p>
-<p>Para obter mais informações, consulte a <a href="../reports/message-monitoring.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../reports/global-report.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -180,7 +180,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 <td>
 <p>Envie sua mensagem por push ou de email automaticamente na melhor hora para cada cliente com quem você interagir usando o Adobe Journey Optimizer. A Otimização de tempo de envio, viabilizada pelos serviços de IA da Adobe, prevê o melhor momento para enviar um email ou mensagem por push. Isso maximiza o engajamento com base no histórico das taxas de abertura e de cliques pronto para uso.</p>
 <p>No momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.</p>
-<p>Para obter mais informações, consulte a <a href="../building-journeys/journeys-message.md#send-time-optimization"> documentação detalhada </a>.</p>
+<p>Para obter mais informações, consulte a <a href="../messages/send-time-optimization.md"> documentação detalhada </a>.</p>
 </td>
 </tr>
 </tbody>
@@ -289,7 +289,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 
 * Correção de um problema de acessibilidade na navegação da guia de mensagem.
 * Correção de um problema de localização nos rótulos do designer de email.
-* Correção de um problema ao selecionar mais de um nó em uma jornada e clicar em Excluir no painel de propriedades.
+* Correção de um problema ao selecionar mais de um nó em uma jornada e clicar em &quot;Excluir&quot; no painel de propriedades.
 * Correção de um problema que impedia a adição de um novo cabeçalho a uma ação usada em uma jornada.
 * Agora você pode descobrir o motivo pelo qual uma criação de predefinição de mensagem falhou por meio de um aviso mais explícito na interface do usuário.
 
@@ -342,7 +342,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 * Na tela da lista de jornadas, o filtro Tipo de jornada foi adicionado. [Leia mais](../start/user-interface.md#filter-lists)
 * O parâmetro **[!UICONTROL Throttling rate]** foi adicionado na atividade Ler segmento. [Leia mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-**Pré-visualizar e testar mensagens**
+**Visualizar e testar**
 
 * A identidade e o namespace agora estão visíveis na **[!UICONTROL Preview]** tela. [Leia mais](../design/preview.md#preview-your-messages)
 * O número de emails de teste para provas agora está restrito a 10.

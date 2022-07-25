@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 3%
+source-wordcount: '1049'
+ht-degree: 1%
 
 ---
 
@@ -38,7 +38,7 @@ Além disso, aproveite **Litmus** conta em [!DNL Journey Optimizer] para visuali
 >
 >Ao visualizar uma mensagem ou enviar provas, somente os dados de personalização de perfil são exibidos. A personalização com base em dados de contexto, como informações de evento, só pode ser testada no contexto de uma jornada. Saiba como testar a personalização no [este caso de uso](../personalization/personalization-use-case.md).
 
-➡️ [Saiba como visualizar, provar e publicar seu email neste vídeo](#video-preview)
+➡️ [Saiba como visualizar e provar seu email neste vídeo](#video-preview)
 
 ## Selecionar perfis de teste{#select-test-profiles}
 
@@ -53,7 +53,7 @@ Use [Testar perfis](../segment/creating-test-profiles.md) para direcionar recipi
 
 Para selecionar perfis de teste, siga as etapas abaixo:
 
-1. Na interface da mensagem ou no designer de email, clique no link **[!UICONTROL Show preview]** para acessar a seleção de perfil de teste.
+1. Na interface da mensagem ou no designer de email, clique no link **[!UICONTROL Simulate Content]** para acessar a seleção de perfil de teste.
 
    ![](assets/email-preview-button.png)
 
@@ -69,7 +69,7 @@ Para selecionar perfis de teste, siga as etapas abaixo:
 
    ![](assets/preview-email-namespace.png)
 
-1. Insira o valor para identificar o perfil de teste e clique em **[!UICONTROL Find test profile]**.
+1. Insira o valor para identificar o perfil de teste e clique em **[!UICONTROL Add profile]**.
 
    ![](assets/preview-identity-value.png)
 
@@ -83,7 +83,11 @@ Para selecionar perfis de teste, siga as etapas abaixo:
 
 Uma vez [perfis de teste](#select-test-profiles) forem selecionadas, você poderá visualizar suas mensagens e verificar o conteúdo.
 
-1. Clique no botão **[!UICONTROL Preview]** para testar sua mensagem.
+### Visualização de email{#preview-email}
+
+Para visualizar um conteúdo de email, siga as etapas abaixo:
+
+1. Clique no botão **[!UICONTROL Simulate content]** acima do conteúdo do email.
 
 1. Selecione um perfil de teste. Você pode verificar os valores disponíveis nas colunas. Use as setas para a direita/esquerda para navegar pelos dados.
 
@@ -103,11 +107,15 @@ Uma vez [perfis de teste](#select-test-profiles) forem selecionadas, você poder
 
 1. Selecione outros perfis de teste para visualizar a renderização de email para cada variante da mensagem.
 
-Para uma pré-visualização de notificação por push:
+### Visualização por push{#preview-push}
 
-1. Alterne para **[!UICONTROL Push]** do **[!UICONTROL Channels]** lista suspensa na parte superior direita do **[!UICONTROL Preview]** tela.
+Para visualizar um conteúdo de notificação por push, siga as etapas abaixo:
 
-   ![](assets/preview-select-channel.png)
+1. Clique no botão **[!UICONTROL Simulate content]** acima do conteúdo de push.
+
+1. Selecione um perfil de teste. Você pode verificar os valores disponíveis nas colunas. Use as setas para a direita/esquerda para navegar pelos dados.
+
+1. Alterne para **[!UICONTROL Push]** mensagem.
 
 1. Siga as mesmas etapas descritas acima para selecionar um perfil de teste e selecione o tipo de dispositivo para visualizar o conteúdo: **[!UICONTROL iOS]** ou **[!UICONTROL Android]**.
 
@@ -188,6 +196,6 @@ Em seguida, siga as etapas abaixo:
 
 ## Vídeo tutorial{#video-preview}
 
-Saiba como testar a renderização de email nas caixas de entrada, como pré-visualizar emails personalizados em relação a perfis de teste, enviar provas e publicar seu email.
+Saiba como testar a renderização de email nas caixas de entrada, como visualizar seus emails personalizados em relação a perfis de teste e enviar provas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)

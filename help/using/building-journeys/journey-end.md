@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: d0d914156eaa7fe54a513ee7b4e870edbc76c846
+exl-id: 57bdeadc-5801-4036-a272-c622634d5281
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -107,7 +108,5 @@ Você também pode:
 
 1. No **[!UICONTROL Journeys]** , clique na jornada que deseja parar.
 1. No canto superior direito, clique na seta para baixo.
-
-![](assets/finish_drop_down_list.png)
-
+   ![](assets/finish_drop_down_list.png)
 1. Clique em **[!UICONTROL Stop]** e confirmar na caixa de diálogo.

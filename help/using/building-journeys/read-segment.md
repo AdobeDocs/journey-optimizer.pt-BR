@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 6%
+source-wordcount: '1096'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 >title="Atividade Ler segmento"
 >abstract="A atividade Ler segmento permite que você faça com que todos os indivíduos pertencentes a um segmento do Adobe Experience Platform entrem em uma jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente."
 
-A atividade Ler segmento permite que você faça com que todos os indivíduos pertencentes a um segmento do Adobe Experience Platform entrem em uma jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente.
+Use o **Ler segmento** atividade para fazer com que todos os indivíduos de um segmento entrem na jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente.
 
 Vejamos como exemplo o segmento &quot;Abertura e check-out do aplicativo Luma&quot; criado na [Construir segmentos](../segment/about-segments.md) caso de uso. Com a atividade Ler segmento , é possível fazer com que todos os indivíduos pertencentes a esse segmento entrem em uma jornada e façam com que eles fluam em jornadas individualizadas que aproveitarão todas as funcionalidades de jornada: condições, cronômetros, eventos, ações.
 
@@ -105,7 +105,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->As jornadas de segmento de Leitura única são movidas para o status Finished 30 dias após a execução da jornada. Para segmentos de Leitura agendados, é de 30 dias após a execução da última ocorrência.
+>As jornadas de segmento de Leitura única são movidas para o status Finished 30 dias após a execução da jornada. Para segmentos de leitura agendados, isso acontece 30 dias após a execução da última ocorrência.
 
 ### Testar e publicar a jornada {#testing-publishing}
 

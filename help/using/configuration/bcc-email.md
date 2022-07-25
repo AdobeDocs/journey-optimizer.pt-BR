@@ -1,14 +1,14 @@
 ---
 title: Usar email com CCO
-description: Saiba como configurar o email Cco no nível predefinido de mensagens
+description: Saiba como configurar o email CCO no nível da superfície do canal
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1094'
 ht-degree: 3%
 
 ---
@@ -24,23 +24,23 @@ Você pode enviar uma cópia idêntica (ou cópia oculta de carbono) de um email
 
 ## Habilitar email CCO {#enable-bcc}
 
-Para ativar o **[!UICONTROL BCC email]** , insira o endereço de email de sua escolha no campo dedicado. Você pode especificar qualquer endereço externo no formato correto, exceto um endereço de email definido em um subdomínio delegado ao Adobe. Por exemplo, se você delegou o *marketing.luma.com* subdomínio para Adobe, qualquer endereço como *abc@marketing.luma.com* é proibida.
+Para ativar o **[!UICONTROL BCC email]** , insira o endereço de email de sua escolha no campo dedicado da variável [superfície do canal](message-presets.md) (ou seja, predefinição de mensagem). Você pode especificar qualquer endereço externo no formato correto, exceto um endereço de email definido em um subdomínio delegado ao Adobe. Por exemplo, se você delegou o *marketing.luma.com* subdomínio para Adobe, qualquer endereço como *abc@marketing.luma.com* é proibida.
 
 >[!NOTE]
 >
->Você só pode definir um endereço de email CCO. Verifique se o endereço CCO tem capacidade de recepção suficiente para armazenar todos os emails enviados usando a predefinição atual.
+>Você só pode definir um endereço de email CCO. Verifique se o endereço CCO tem capacidade de recepção suficiente para armazenar todos os emails enviados usando a superfície do canal atual.
 >
 >Mais recomendações estão listadas em [esta seção](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
-Todas as mensagens de email que usam essa predefinição serão copiadas para o CCO para o endereço de email inserido. A partir daí, eles podem ser processados e arquivados usando um sistema externo.
+Todas as mensagens de email que usam essa superfície serão copiadas para o CCO para o endereço de email inserido. A partir daí, eles podem ser processados e arquivados usando um sistema externo.
 
 >[!CAUTION]
 >
->O uso do recurso CCO será contado em relação ao número de mensagens para as quais você está licenciado. Portanto, ative-o somente nas predefinições usadas para comunicações críticas que você deseja arquivar. Verifique se há volumes licenciados em seu contrato.
+>O uso do recurso CCO será contado em relação ao número de mensagens para as quais você está licenciado. Assim, ative-o apenas nas superfícies usadas para comunicações críticas que você deseja arquivar. Verifique se há volumes licenciados em seu contrato.
 
-A configuração de endereço de email CCO é salva e processada imediatamente no nível predefinido. Quando você [criar uma nova mensagem](../messages/get-started-content.md#create-new-message) usando essa predefinição, o endereço de email CCO é exibido automaticamente.
+A configuração de endereço de email CCO é imediatamente salva e processada no nível da superfície. Quando você [criar uma nova mensagem](../messages/get-started-content.md#create-new-message) usando essa superfície, o endereço de email CCO é exibido automaticamente.
 
 ![](assets/preset-bcc-in-msg.png)
 
@@ -52,7 +52,7 @@ No entanto, o endereço CCO é selecionado para enviar comunicações seguindo a
 
 >[!NOTE]
 >
->Não é necessário republicar uma mensagem ou jornada para que a configuração Cco seja selecionada.
+>Não é necessário republicar sua jornada para que a configuração Cco seja selecionada.
 
 ## Recommendations e limitações {#bcc-recommendations-limitations}
 
@@ -66,7 +66,7 @@ No entanto, o endereço CCO é selecionado para enviar comunicações seguindo a
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* Não abra ou clique nos emails enviados para o endereço CCO, pois são considerados no total de aberturas e cliques da análise de envio, o que pode causar alguns erros de cálculo no [relatórios](../reports/message-monitoring.md).
+* Não abra ou clique nos emails enviados para o endereço CCO, pois são considerados no total de aberturas e cliques da análise de envio, o que pode causar alguns erros de cálculo no [relatórios](../reports/global-report.md).
 
 * Não marque mensagens como spam na caixa de entrada CCO, pois isso afetará todos os outros emails enviados para esse endereço.
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 18%
+source-wordcount: '888'
+ht-degree: 17%
 
 ---
 
@@ -47,7 +47,11 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
 1. [Publicar](create-lp.md#publish) a landing page.
 
-1. [Criar uma mensagem de email](../messages/get-started-content.md) para anunciar que o registro agora está aberto para o seu evento.
+1. Em um [jornada](../building-journeys/journey.md), adicione um **Email** atividade para direcionar o tráfego para a landing page de registro.
+
+   ![](assets/lp_subscription-uc-journey.png)
+
+1. [Criar o email](../messages/get-started-content.md) para anunciar que o registro agora está aberto para o seu evento.
 
 1. [Inserir um link](../design/message-tracking.md#insert-links) no conteúdo da mensagem. Selecionar **[!UICONTROL Landing page]** como **[!UICONTROL Link type]** e escolha a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para registro.
 
@@ -55,13 +59,7 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
    >[!NOTE]
    >
-   >Para publicar sua mensagem, verifique se a landing page selecionada ainda não expirou. Saiba como atualizar o prazo de validade [nesta seção](create-lp.md#configure-primary-page).
-
-1. Salve o conteúdo e [publique a mensagem](../messages/publish-manage-message.md).
-
-1. Envie sua mensagem por meio de um [jornada](../building-journeys/journey.md) para direcionar o tráfego para a landing page de registro.
-
-   ![](assets/lp_subscription-uc-journey.png)
+   >Para enviar a mensagem, verifique se a landing page selecionada ainda não expirou. Saiba como atualizar o prazo de validade [nesta seção](create-lp.md#configure-primary-page).
 
    Depois que receberem o email, se seus recipients clicarem no link para a landing page, eles serão direcionados para a página &quot;obrigado&quot; e serão adicionados à lista de assinaturas.
 
@@ -79,7 +77,7 @@ Além disso, você pode enviar um email de confirmação para os recipients que 
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
-1. Selecione o email de confirmação de sua escolha e envie-o por meio da jornada.
+1. Adicione um email de confirmação de sua escolha e envie-o por meio da jornada.
 
    ![](assets/lp_subscription-uc-confirm-email.png)
 
@@ -128,7 +126,7 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [Criar uma mensagem de email](../messages/get-started-content.md) em [!DNL Journey Optimizer].
+1. [Criar uma mensagem de email](../messages/get-started-content.md) em uma jornada.
 
 1. Selecione o texto no seu conteúdo e [insira um link](../design/message-tracking.md#insert-links) usando a barra de ferramentas contextual. Você também pode usar um link em um botão.
 
@@ -140,11 +138,9 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
    >[!NOTE]
    >
-   >Para publicar sua mensagem, verifique se a landing page selecionada ainda não expirou. Saiba como atualizar o prazo de validade [nesta seção](create-lp.md#configure-primary-page).
+   >Para enviar a mensagem, verifique se a landing page selecionada ainda não expirou. Saiba como atualizar o prazo de validade [nesta seção](create-lp.md#configure-primary-page).
 
-1. Salve o conteúdo e [publique a mensagem](../messages/publish-manage-message.md).
-
-1. Envie sua mensagem por meio de uma jornada. [Saiba mais](../building-journeys/journey.md).
+1. Publique e execute a jornada. [Saiba mais](../building-journeys/journey.md).
 
 1. Depois que a mensagem é recebida, se um recipient clicar no link de cancelamento de subscrição no email, sua landing page será exibida.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,6 @@ Estas são limitações relacionadas ao uso de jornadas.
 * Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. 
 * O **Reação** permite que você reaja a ações predefinidas (consulte esta seção) [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado. 
 * Não é possível colocar duas ações em paralelo, é necessário adicioná-las uma após a outra.
-
-## Limitações da ação de mensagem
-
-* Ao adicionar uma mensagem multicanal, duas mensagens serão enviadas.
 
 ## Limitações das versões do Jornada {#journey-versions-limitations}
 

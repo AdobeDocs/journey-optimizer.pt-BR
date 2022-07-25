@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '256'
 ht-degree: 5%
 
 ---
@@ -24,14 +24,12 @@ Neste exemplo, a variável **[!UICONTROL Consent and Preference Details]** grupo
 Para configurar essa jornada, siga estas etapas:
 
 1. Crie uma jornada que comece com uma **[!UICONTROL Read]** atividade . [Leia mais](journey-gs.md).
-1. Adicione um **[!UICONTROL Message]** , com um email, para a jornada. [Leia mais](journeys-message.md).
-1. No **[!UICONTROL Email parameters]** da seção **[!UICONTROL Message]** configurações da atividade, substitua o endereço de email padrão (`PersonalEmail.adress`) com o endereço de email dos assinantes da lista:
+1. Adicione um **[!UICONTROL Email]** atividade de ação para a jornada. [Leia mais](journeys-message.md).
+1. No **[!UICONTROL Email parameters]** da seção **[!UICONTROL Email]** configurações da atividade, substitua o endereço de email padrão (`PersonalEmail.adress`) com o endereço de email dos assinantes da lista:
 
    1. Clique no botão **[!UICONTROL Enable parameter override]** ícone à direita do **[!UICONTROL Address]** , em seguida, clique no botão **[!UICONTROL Edit]** ícone .
 
       ![](assets/message-to-subscribers-uc-1.png)
-
-      Para poder modificar o endereço de email, você deve ter publicado a mensagem anteriormente.
 
    1. No editor de expressão, insira a expressão para recuperar os endereços de email dos assinantes. [Leia mais](expression/expressionadvanced.md).
 
@@ -55,4 +53,3 @@ Para configurar essa jornada, siga estas etapas:
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. No **[!UICONTROL Add an expression]** , clique em **[!UICONTROL Ok]**.
-   ![](assets/message-to-subscribers-uc-3.png)

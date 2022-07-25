@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,11 @@ ht-degree: 0%
 
 Use o **[!UICONTROL Global report]** para medir o impacto das jornadas e dos deliveries em um período selecionado.
 
-* Se desejar direcionar uma jornada ou deliveries no contexto de uma jornada, da **[!UICONTROL Journeys]** acesse a jornada e clique no menu **[!UICONTROL Global report]** ícone . Em seguida, você pode encontrar a Jornada, o email e o push **[!UICONTROL Global report]**.
+* Se desejar direcionar uma jornada ou deliveries no contexto de uma jornada, da **[!UICONTROL Journeys]** acesse a jornada e clique no menu **[!UICONTROL View report]** botão. Em seguida, você pode encontrar os relatórios globais Jornada, Email, SMS e Push .
 
-   ![](assets/report_6.png)
+   ![](assets/report_journey.png)
 
-* Se quiser direcionar um delivery específico, da variável **[!UICONTROL Global view]** do **[!UICONTROL Executions]** das suas mensagens, selecione **[!UICONTROL Global Report]** no menu avançado do delivery selecionado.
-
-   ![](assets/report_4.png)
-
-* Se você quiser mudar do **[!UICONTROL Global report]** para **[!UICONTROL Live report]** para o delivery, clique em **[!UICONTROL Live view]** no alternador de guias.
+* Se você quiser mudar do **[!UICONTROL Live report]** para **[!UICONTROL Global report]** para o delivery, clique em **[!UICONTROL Global view]** no alternador de guias.
 
    ![](assets/report_5.png)
 

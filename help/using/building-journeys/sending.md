@@ -1,10 +1,10 @@
 ---
 title: Iniciar a execução da jornada
 description: Saiba como iniciar a jornada e enviar mensagens
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 8%
+source-wordcount: '274'
+ht-degree: 9%
 
 ---
 
@@ -34,13 +34,9 @@ Depois de publicada, você pode monitorar sua jornada usando as ferramentas de r
 
 ## Envio de mensagens {#send-messages}
 
-Quando a mensagem tiver um conteúdo definido e for publicada, ela estará pronta para ser enviada por meio de um [jornada](journey.md).
+Quando a mensagem tiver um conteúdo definido, ela estará pronta para ser enviada por meio de um [jornada](journey.md).
 
->[!NOTE]
->
->Você pode adicionar uma mensagem que ainda está no modo de rascunho a uma jornada, mas certifique-se de que a mensagem foi publicada antes de publicar a jornada.
-
-Depois que uma mensagem é enviada, é possível monitorar a execução por meio de vários indicadores. [Saiba mais sobre como monitorar a execução de mensagens](../message-monitoring.md).
+Depois que uma mensagem é enviada, é possível monitorar a execução por meio de vários indicadores. [Saiba mais sobre Relatórios](../global-report.md).
 
 ## Programar mensagens {#schedule-messages}
 

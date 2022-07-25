@@ -6,10 +6,10 @@ feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 5%
+source-wordcount: '680'
+ht-degree: 8%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Esta página ajudará você a configurar e compreender os principais serviços e fluxos de trabalho envolvidos com as notificações por push em [!DNL Journey Optimizer]. Saiba como criar notificações por push no [esta página](../messages/create-push.md).
 
-Etapas para configurar o canal de push em [!DNL Adobe Journey Optimizer] são detalhadas em [esta página](push-configuration.md).
+Etapas para configurar o canal de push em [!DNL Adobe Journey Optimizer] são detalhados em [esta página](push-configuration.md).
 
 ## Notificações por push e [!DNL Adobe Journey Optimizer] {#push-notifications-and-journey-optimizer}
 
@@ -28,7 +28,7 @@ O gráfico a seguir mostra os sistemas e serviços envolvidos com fluxos de dado
 1. Registro do aplicativo para dispositivos móveis com marca (Android ou iOS) com APNs Apple e serviços de mensagens por push FCM do Google
 1. Os serviços de mensagens geram um token de push, que é um identificador que [!DNL Adobe Journey Optimizer] será usado para direcionar o dispositivo específico com uma notificação por push.
 1. O token de push gerado anteriormente é transmitido à Adobe Experience Platform e sincronizado com o Perfil do cliente em tempo real; isso é feito no OOTB com um SDK de cliente fácil de integrar
-1. As mensagens de push são criadas em [!DNL Adobe Journey Optimizer], mensagens de push são criadas em relação a uma predefinição de mensagem
+1. As mensagens de push são criadas em [!DNL Adobe Journey Optimizer], mensagens de push são criadas em uma superfície de canal (ou seja, predefinição de mensagem)
 1. As mensagens de push podem ser incluídas na tela de orquestração no Jornada
 1. Após a publicação do Jornada, os perfis do cliente com base nas condições do Jornada são qualificados para receber notificações por push, as cargas de mensagens por push são personalizadas nesta etapa
 1. As cargas de push personalizadas são encaminhadas para um serviço interno de delivery de mensagens de push

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 3%
+source-wordcount: '977'
+ht-degree: 4%
 
 ---
 
@@ -28,22 +28,38 @@ Você usará esses tipos de funções de ajuda:
 ➡️ [Saiba como usar funções de ajuda neste vídeo](#video)
 
 Antes de começar, certifique-se de saber como configurar esses elementos:
-* Uma mensagem de email. [Saiba mais](../messages/get-started-content.md)
-* O corpo de um email. [Saiba mais](../design/create-email-content.md).
+
 * Um evento unitário. [Saiba mais](../event/about-events.md).
 * Uma jornada que começa com um evento. [Saiba mais](../building-journeys/using-the-journey-designer.md).
+* Uma mensagem de email na sua jornada. [Saiba mais](../messages/get-started-content.md)
+* O corpo de um email. [Saiba mais](../design/create-email-content.md).
 
 Siga estas etapas:
+
+1. [Crie o evento inicial e a jornada](#create-context).
 1. [Criar uma mensagem de email](#configure-email).
 1. [Inserir o nome do cliente em maiúsculas](#uppercase-function).
-1. [Crie o evento inicial e a jornada](#create-context).
 1. [Adicionar o conteúdo do carrinho ao email](#each-helper).
 1. [Inserir uma nota específica do produto](#if-helper).
 1. [Testar e publicar a jornada](#test-and-publish).
 
-## Etapa 1: Criar o email{#configure-email}
+## Etapa 1: Crie o evento inicial e a jornada relacionada {#create-context}
 
-1. Crie ou modifique uma mensagem de email, em seguida, clique em **[!UICONTROL Email Designer]**.
+O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é necessário adicionar um evento inicial e o email a uma jornada antes de adicionar informações específicas do carrinho ao email.
+
+1. Crie um evento cujo esquema inclua a variável `productListItems` matriz.
+1. Defina todos os campos dessa matriz como campos de carga para esse evento.
+
+   Saiba mais sobre o tipo de dados de item da lista de produtos [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
+
+1. Crie uma jornada que comece com esse evento.
+1. Adicione um **Email** para a jornada.
+
+   ![](assets/personalization-uc-helpers-8.png)
+
+## Etapa 2: Criar o email{#configure-email}
+
+1. No **Email** atividade , clique em **[!UICONTROL Edit content]**, depois clique em **[!UICONTROL Email Designer]**.
    ![](assets/personalization-uc-helpers-1.png)
 
 1. Na paleta esquerda da página inicial do Designer de email, arraste e solte três componentes da estrutura no corpo da mensagem.
@@ -52,7 +68,7 @@ Siga estas etapas:
 
    ![](assets/personalization-uc-helpers-2.png)
 
-## Etapa 2: Inserir o nome do cliente em maiúsculas {#uppercase-function}
+## Etapa 3: Inserir o nome do cliente em maiúsculas {#uppercase-function}
 
 1. Na página inicial do Designer de email, clique no componente HTML, onde deseja adicionar o nome do cliente.
 1. Na barra de ferramentas contextual, clique em **[!UICONTROL Show the source code]**.
@@ -93,33 +109,9 @@ Siga estas etapas:
    ![](assets/personalization-uc-helpers-6.png)
 1. Salve a mensagem.
 
-## Etapa 3: Crie o evento inicial e a jornada relacionada {#create-context}
-
-O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é necessário adicionar um evento inicial e o email a uma jornada antes de adicionar informações específicas do carrinho ao email.
-
-1. Crie um evento cujo esquema inclua a variável `productListItems` matriz.
-1. Defina todos os campos dessa matriz como campos de carga para esse evento.
-
-   Saiba mais sobre o tipo de dados de item da lista de produtos [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
-
-1. Crie uma jornada que comece com esse evento.
-1. Adicione a mensagem à jornada.
-
-   Como você ainda não publicou a mensagem, não é possível testar nem publicar a jornada.
-
-   ![](assets/personalization-uc-helpers-7.png)
-
-1. Clique em **[!UICONTROL OK]**.
-
-   Uma mensagem informa que o contexto da jornada foi passado para a mensagem.
-
-   ![](assets/personalization-uc-helpers-8.png)
-
 ## Etapa 4: Inserir a lista de itens do carrinho {#each-helper}
 
-1. Reabra a mensagem.
-
-   ![](assets/personalization-uc-helpers-18.png)
+1. Reabra o conteúdo da mensagem.
 
 1. Na página inicial do Designer de email, clique no componente HTML, onde deseja listar o conteúdo do carrinho.
 1. Na barra de ferramentas contextual, clique em **[!UICONTROL Show the source code]**.
@@ -299,14 +291,11 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 
    ![](assets/personalization-uc-helpers-14.png)
 
-1. Salve e publique a mensagem.
+1. Salve a mensagem.
 
 ## Etapa 6: Testar e publicar a jornada {#test-and-publish}
 
-1. Abra a jornada. Se a jornada já estiver aberta, atualize a página.
 1. Ative o **[!UICONTROL Test]** alterne e clique em **[!UICONTROL Trigger an event]**.
-
-   Você pode ativar o modo de teste somente depois de publicar a mensagem.
 
    ![](assets/personalization-uc-helpers-15.png)
 

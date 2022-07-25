@@ -6,22 +6,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 7%
+source-wordcount: '444'
+ht-degree: 3%
 
 ---
 
-# Verificar alertas em suas mensagens {#publish-manage-messages}
+# Verificar alertas em suas mensagens {#messages-alerts}
 
-## Controlos antes da publicação {#message-alerting}
+## Verificações antes do envio {#message-alerting}
 
-Ao criar sua mensagem, os alertas avisam quando você precisa tomar ações importantes antes de publicar sua mensagem.
+Ao projetar suas mensagens, os alertas são exibidos na interface quando as configurações principais estão ausentes.
 
-Os alertas são exibidos na parte superior direita da tela, conforme mostrado abaixo:
+Os alertas são exibidos na parte superior direita da tela, ao editar o conteúdo da mensagem.
 
-![](assets/message-alerts.png)
+![](assets/alerts-details.png)
 
 >[!NOTE]
 >
@@ -31,13 +31,13 @@ Dois tipos de alertas podem acontecer:
 
 * **Avisos** consulte recomendações e práticas recomendadas. Por exemplo, uma mensagem será exibida se o link de recusa estiver ausente.
 
-* **Erros** impedir a publicação da mensagem, desde que não sejam resolvidas. Por exemplo, uma mensagem avisará que a linha de assunto está ausente.
+* **Erros** impedir que você teste ou ative a jornada, desde que elas não sejam resolvidas. Por exemplo, uma mensagem avisará que a linha de assunto está ausente.
 
 Todos os avisos e erros possíveis são detalhados [below](#alerts-and-warnings).
 
 >[!CAUTION]
 >
-> Você precisa resolver tudo **erro** alertas antes da publicação.
+> Você precisa resolver tudo **erro** antes de testar ou ativar a jornada usando a mensagem.
 
 ## Lista de avisos e erros {#alerts-and-warnings}
 
@@ -49,7 +49,7 @@ As configurações e elementos verificados pelo sistema estão listados abaixo. 
 
    >[!NOTE]
    >
-   >As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definida no [nível da predefinição de mensagem](../configuration/message-presets.md#email-type) e ao [criar a mensagem](get-started-content.md#create-new-message).
+   >As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definido na variável [superfície do canal](../configuration/message-presets.md#email-type) (ou seja, predefinição de mensagem) e quando [criação da mensagem](get-started-content.md#create-new-message).
 
 * **[!UICONTROL Text version of HTML is empty]**: não se esqueça de definir uma versão de texto do corpo do email, pois ela será usada quando o conteúdo do HTML não puder ser exibido. Saiba como criar a versão de texto em [esta seção](../design/text-version-email.md).
 
@@ -67,13 +67,13 @@ As configurações e elementos verificados pelo sistema estão listados abaixo. 
 
 * **[!UICONTROL The email version of the message is empty]**: esse erro é exibido quando o conteúdo do email não foi configurado. Saiba como criar conteúdo de email no [esta seção](../design/design-emails.md).
 
-* **[!UICONTROL Preset doesn’t exist]**: não é possível publicar sua mensagem se a predefinição selecionada for excluída após a criação da mensagem. Se este erro ocorrer, selecione outra predefinição na mensagem **[!UICONTROL Properties]**. Saiba mais sobre marcas em [esta seção](../configuration/about-subdomain-delegation.md).
+* **[!UICONTROL Surface doesn’t exist]**: não será possível usar a mensagem se a superfície selecionada for excluída após a criação da mensagem. Se este erro ocorrer, selecione outra superfície na mensagem **[!UICONTROL Properties]**. Saiba mais sobre as superfícies dos canais em [esta seção](../configuration/message-presets.md).
 
 * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: o tamanho da notificação por push não pode exceder 4 KB. Para respeitar esse limite, tente reduzir o uso de imagens ou emojis. Saiba como gerenciar o conteúdo de notificação por push no [esta seção](create-push.md).
 
 >[!CAUTION]
 >
-> Para publicar sua mensagem, é necessário resolver todos os **erro** alertas.
+> Para poder usar sua mensagem, você precisa resolver tudo **erro** alertas.
 
 <!--Other issues can stop publication such as:
 * The push notification title is empty-->

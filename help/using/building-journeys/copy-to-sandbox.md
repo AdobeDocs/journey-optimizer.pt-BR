@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f75ed263fd8226a6b5f55bbb50f4aae17cbfe9d4
+exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 0%
 >title="Objetos dependentes"
 >abstract="Esta é a lista de objetos associados usados na jornada. Essa lista exibe o nome, o tipo de objeto e a Journey Optimizer ID interna."
 
-O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox de Preparo para a sandbox de Produção. Além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: mensagens, segmentos, predefinições, esquemas, eventos e ações. Consulte a [limitações](../building-journeys/copy-to-sandbox.md#limitations)
+O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox de Preparo para a sandbox de Produção. Além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: segmentos, superfícies (ou seja, predefinições), esquemas, eventos e ações. Consulte a [limitações](../building-journeys/copy-to-sandbox.md#limitations)
 
 >[!CAUTION]
 >
@@ -86,7 +87,7 @@ Os seguintes objetos são copiados:
 
 * Mensagem
 
-   As mensagens físicas usadas na jornada (mensagens de email ou de push). Os campos usados para personalização na mensagem não são verificados quanto à integridade. Os blocos de conteúdo não são copiados.
+   As atividades de ação do canal usadas na jornada. Os campos usados para personalização na mensagem não são verificados quanto à integridade. Os blocos de conteúdo não são copiados.
 
 * Jornada - detalhes da tela
 
@@ -100,9 +101,8 @@ Os seguintes objetos são copiados:
 
    As ações e os detalhes de ação usados na jornada são copiados.
 
-As predefinições não são copiadas. O sistema seleciona automaticamente a correspondência mais próxima possível na sandbox de destino, com base no tipo de mensagem e no nome predefinido. Se não houver predefinições encontradas na sandbox de destino, a cópia predefinida falhará. Isso significa que a cópia da mensagem também falhará porque uma mensagem requer uma predefinição para estar disponível para configuração. Nesse caso, pelo menos uma predefinição precisa ser criada, para o canal correto da mensagem, para que a cópia funcione.
+As superfícies (ou seja, as predefinições) não são copiadas. O sistema seleciona automaticamente a correspondência mais próxima possível na sandbox de destino, com base no tipo de mensagem e no nome da superfície. Se não houver superfícies encontradas na sandbox de destino, a cópia da superfície falhará. Isso significa que a cópia da mensagem também falhará porque uma mensagem requer que uma superfície esteja disponível para configuração. Nesse caso, pelo menos uma superfície precisa ser criada, para o canal correto da mensagem, para que a cópia funcione.
 
 Para Esquemas, Mesclar Políticas e Segmentos, na segunda vez que esses objetos tentarem ser copiados, eles só serão referenciados. Eles serão tratados como objetos que já existem e serão copiados novamente. Isso significa que esses objetos só podem ser copiados uma vez.
 
 Há um atraso de cinco minutos antes que o Adobe Journey Optimizer possa fazer referência aos Esquemas, às Políticas e aos Segmentos de Mesclagem sem ver um erro na tela. Aguarde cinco minutos e essas referências estarão disponíveis.
-

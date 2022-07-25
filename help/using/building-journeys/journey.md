@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 5%
@@ -19,10 +19,10 @@ ht-degree: 5%
 
 Projete cenários avançados com várias etapas e com os seguintes recursos:
 
-* Enviar em tempo real **mensagens unitárias** acionado quando um evento é recebido, ou **em lote** usando segmentos do Adobe Experience Platform.
+* Enviar em tempo real **entrega unitária** acionado quando um evento é recebido, ou **em lote** usando segmentos do Adobe Experience Platform.
 
 * Aproveitamento **dados contextuais** de eventos, informações do Adobe Experience Platform ou dados de serviços de API de terceiros.
 
-* Use o **ação incorporada** para enviar mensagens projetadas no [!DNL Journey Optimizer] ou criar **ações personalizadas** se estiver usando um sistema de terceiros para enviar mensagens.
+* Use o **ações integradas** para enviar mensagens projetadas no [!DNL Journey Optimizer] ou criar **ações personalizadas** se estiver usando um sistema de terceiros para enviar mensagens.
 
 * Com o **Designer do jornada** crie seus casos de uso em várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de segmento de leitura, adicione condições e envie mensagens personalizadas.

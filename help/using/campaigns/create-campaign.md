@@ -7,21 +7,21 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '699'
 ht-degree: 5%
 
 ---
-
 
 # Criar uma campanha {#create-campaign}
 
 >[!NOTE]
 >
->Antes de criar uma nova campanha, verifique se você tem uma predefinição de mensagem e um segmento do Adobe Experience Platform pronto para uso. Saiba mais nestas seções:
+>Antes de criar uma nova campanha, verifique se você tem um canal de superfície (ou seja, uma predefinição de mensagem) e um segmento do Adobe Experience Platform pronto para uso. Saiba mais nestas seções:
 >
->* [Criar predefinições de mensagem](../configuration/message-presets.md)
+>* [Criar superfícies de canal](../configuration/message-presets.md)
 >* [Introdução aos segmentos](../segment/about-segments.md)
 
 
@@ -38,13 +38,13 @@ As etapas para criar uma campanha são as seguintes:
    * **[!UICONTROL Scheduled]**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas têm como objetivo enviar **marketing** digite mensagens.
    * **[!UICONTROL API-triggered]**: execute a campanha usando uma chamada de API . As campanhas acionadas por API são destinadas ao envio de **transacional** mensagens, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, abandono de cartão etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
 
-1. No **[!UICONTROL Actions]** , escolha o canal e a superfície da mensagem (ou seja, a predefinição de mensagem) a serem usados para enviar a mensagem e clique em **[!UICONTROL Create]**.
+1. No **[!UICONTROL Actions]** escolha o canal e a superfície do canal a serem usados para enviar a mensagem e clique em **[!UICONTROL Create]**.
 
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >Somente superfícies de mensagem compatíveis com o tipo de campanha (marketing ou transacional) são listadas na lista suspensa.
+   >Somente superfícies de canal compatíveis com o tipo de campanha (marketing ou transacional) são listadas na lista suspensa.
 
 1. Especifique um título e uma descrição para a campanha.
 
@@ -52,7 +52,7 @@ As etapas para criar uma campanha são as seguintes:
 
 1. No **[!UICONTROL Actions]** , configure a mensagem a ser enviada com a campanha:
 
-   1. Clique no botão **[!UICONTROL Edit content]** , em seguida, configure e crie a mensagem. [Saiba como configurar mensagens](../messages/get-started-content.md).
+   1. Clique no botão **[!UICONTROL Edit content]** , em seguida, configure e crie o conteúdo da mensagem. [Saiba mais sobre mensagens](../messages/get-started-content.md).
 
       Quando o conteúdo estiver pronto, clique na seta para voltar à tela de criação da campanha.
 
@@ -121,10 +121,6 @@ Após a configuração da campanha, é necessário revisar o parâmetro e o cont
    Você também pode obter estatísticas adicionais em relatórios dedicados clicando no botão **[!UICONTROL Reports]** botão. [Saiba mais](campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
-
-   >[!IMPORTANT]
-   >
-   >As mensagens criadas em campanhas são específicas para [!DNL Journey Optimizer] recursos da campanha. Uma vez criados, eles serão acessíveis somente em campanhas e não serão exibidos na variável **[!UICONTROL Messages]** menu.
 
 ## Recursos adicionais
 

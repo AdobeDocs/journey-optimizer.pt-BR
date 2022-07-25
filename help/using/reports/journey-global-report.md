@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1607'
 ht-degree: 1%
 
 ---
@@ -62,11 +62,11 @@ O **[!UICONTROL Top Actions]** contém os dados disponíveis para **[!UICONTROL 
 
 Da sua jornada **[!UICONTROL Global report]**, o **[!UICONTROL Email]** detalha as informações principais relativas aos deliveries de email enviados na jornada.
 
-Para obter um relatório detalhado sobre um delivery de email específico, consulte a [Relatório global de email](#email-global-report) seção.
-
 ![](assets/global_report_14.png)
 
 O **[!UICONTROL Email Sending Statistics]** gráfico detalha o sucesso do seu delivery:
+
+* **[!UICONTROL Targeted]**: Número de perfis segmentados pelo Adobe Journey Orchestration para qualquer ação, como enviar email ou SMS.
 
 * **[!UICONTROL Sent]**: Número total de envios para o delivery.
 
@@ -88,7 +88,7 @@ O **[!UICONTROL Email - Tracking statistics]** contém os dados disponíveis par
 
 * **[!UICONTROL Unique Opens]**: Porcentagem de deliveries abertos.
 
-* **[!UICONTROL Open Rate]**: Número total de emails abertos em comparação ao número de emails entregues.
+* **[!UICONTROL Unique Open Rate]**: Número total de emails abertos em comparação ao número de emails entregues.
 
 * **[!UICONTROL Clicks]**: Número de vezes que um conteúdo foi clicado em um email.
 
@@ -136,7 +136,7 @@ O **[!UICONTROL Email - Top recipient domain]** gráfico e tabela detalham quais
 
 >[!NOTE]
 >
->O **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  os widgets só estarão disponíveis se a opção Send-Time Otimization estiver ativada para o seu delivery. Para obter mais informações sobre Otimização de tempo de envio, consulte esta seção [página](../building-journeys/journeys-message.md#send-time-optimization).
+>O **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  os widgets só estarão disponíveis se a opção Send-Time Otimization estiver ativada para o seu delivery. Para obter mais informações sobre Otimização de tempo de envio, consulte [esta página](../messages/send-time-optimization.md).
 
 O **[!UICONTROL Optimized vs non optimized]** O gráfico detalha as informações principais relativas à sua mensagem, sejam elas otimizadas ou não:
 
@@ -179,11 +179,11 @@ O **[!UICONTROL Offers detailed statistic]** A tabela contém os dados disponív
 
 Da sua jornada **[!UICONTROL Global report]**, o **[!UICONTROL Push]** detalha as informações principais relativas aos deliveries por push enviados na jornada.
 
-Para obter um relatório detalhado sobre um delivery de push específico, consulte [Enviar relatório global](#push-global-report).
-
 ![](assets/global_report_17.png)
 
 O **[!UICONTROL Push notification - Sending statistics]** A tabela detalha as principais informações relativas às suas notificações por push com gráficos e KPIs:
+
+* **[!UICONTROL Targeted]**: Número de perfis segmentados pelo Adobe Journey Orchestration para qualquer ação, como enviar email ou SMS.
 
 * **[!UICONTROL Sent]**: Número total de envios para o delivery.
 
@@ -227,7 +227,7 @@ O **[!UICONTROL Push notification summary]** O gráfico contém os dados dispon�
 
 >[!NOTE]
 >
->O **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  os widgets só estarão disponíveis se a opção Send-Time Otimization estiver ativada para o seu delivery. Para obter mais informações sobre Otimização de tempo de envio, consulte esta seção [página](../building-journeys/journeys-message.md#send-time-optimization).
+>O **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  os widgets só estarão disponíveis se a opção Send-Time Otimization estiver ativada para o seu delivery. Para obter mais informações sobre Otimização de tempo de envio, consulte [esta página](../messages/send-time-optimization.md).
 
 O **[!UICONTROL Optimized vs non optimized]** O gráfico detalha as informações principais relativas à sua mensagem, sejam elas otimizadas ou não:
 

@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 70%
 
 ---
 
 # Início rápido {#cjm-quick-start}
 
-Com o [!DNL Adobe Journey Optimizer], você pode importar conteúdo de mensagens existentes ou criar novo conteúdo, personalizar mensagens com dados de perfil de clientes, criar eventos para acionar mensagens, definir segmentos e refinar públicos, enviar mensagens de vários canais e acessar um conjunto completo de ferramentas de relatório e monitoramento para medir o impacto de suas mensagens e jornadas.
+Com [!DNL Adobe Journey Optimizer], você pode importar conteúdo de mensagem existente ou projetar um novo conteúdo, personalizar mensagens com dados de perfil do cliente, criar eventos para acionar mensagens, definir segmentos e refinar públicos, criar e adicionar ofertas e acessar um conjunto completo de ferramentas de relatório e monitoramento para medir o impacto de suas mensagens e jornadas do cliente.
 
 Com base em sua organização, você pode definir vários tipos de usuários e conceder a eles acesso a determinados recursos, dependendo das permissões deles.
 

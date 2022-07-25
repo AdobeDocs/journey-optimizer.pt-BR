@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 6%
+source-wordcount: '827'
+ht-degree: 3%
 
 ---
 
@@ -97,7 +97,7 @@ Ativar uma regra afetará as mensagens que ela se aplicar à próxima execução
 
 >[!NOTE]
 >
->Pode levar até 10 minutos para que uma regra seja totalmente ativada. Não é necessário modificar ou republicar mensagens ou jornadas para que uma regra entre em vigor.
+>Pode levar até 10 minutos para que uma regra seja totalmente ativada. Não é necessário modificar mensagens ou republicar jornadas para que uma regra entre em vigor.
 
 Para desativar uma regra de frequência de mensagem, clique nas reticências ao lado da regra e selecione **[!UICONTROL Deactivate]**.
 
@@ -113,37 +113,26 @@ O status da regra será alterado para **[!UICONTROL Inactive]** e a regra não s
 
 Para aplicar uma regra de frequência a uma mensagem, siga as etapas abaixo.
 
-1. Criar uma mensagem. [Saiba mais](../messages/get-started-content.md#create-new-message)
+1. [Criar uma mensagem](../messages/get-started-content.md#create-new-message) ao selecionar um dos canais definidos para a regra.
 
 1. Selecione a categoria definida para a variável [regra criada](#create-new-rule).
 
-   ![](assets/message-rules-msg-properties.png)
+   ![](assets/inline-message-category.png)
 
    >[!NOTE]
    >
    >Atualmente, somente o **[!UICONTROL Marketing]** está disponível para as regras de frequência de mensagem.
 
-1. Selecione os canais escolhidos para a mensagem.
+   <!--
+   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
 
-   ![](assets/message-rules-msg-channels.png)
+1. Todas as regras de frequência que correspondem à categoria e aos canais selecionados serão automaticamente aplicadas a esta mensagem.
 
-1. Você pode clicar no link **[!UICONTROL Frequency rule]** para exibir as regras de frequência que serão aplicadas à categoria e aos canais selecionados. 
+   >[!NOTE]
+   >
+   >Mensagens em que a categoria selecionada é **[!UICONTROL Transactional]** não serão avaliadas com base nas regras de frequência.
 
-   ![](assets/message-rules-msg-link.png)
-
-   Uma nova guia será aberta para exibir as regras de frequência de mensagem correspondentes.
-
-1. [Design](../design/design-emails.md) e [publicar](../messages/publish-manage-message.md) sua mensagem.
-
-Todas as regras de frequência que correspondem à categoria e aos canais selecionados serão automaticamente aplicadas a esta mensagem.
-
->[!NOTE]
->
->Mensagens <!--that do not have any selected category or messages -->em que a categoria selecionada é **[!UICONTROL Transactional]** não serão avaliadas com base nas regras de frequência.
-
-<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
-
-Você pode visualizar o número de perfis excluídos do delivery na [Exibições ao vivo e globais](../reports/message-monitoring.md)e no [relatório ao vivo por email](../reports/email-live-report.md), onde as regras de frequência serão listadas como um possível motivo para os usuários excluídos do delivery.
+1. Você pode visualizar o número de perfis excluídos do delivery na [Relatório global](../reports/global-report.md)e no [Relatório ao vivo](../reports/live-report.md), onde as regras de frequência serão listadas como um possível motivo para os usuários excluídos do delivery.
 
 >[!NOTE]
 >
@@ -155,7 +144,7 @@ Você pode combinar várias regras de frequência de mensagem, como descrito no 
 
 1. [Criar uma regra](#create-new-rule) chamado *Limite geral de marketing*:
 
-   * Selecione todos os canais (Email, Push).
+   * Selecione os canais Email e Push .
    * Defina o limite como 12.
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -169,19 +158,9 @@ Você pode combinar várias regras de frequência de mensagem, como descrito no 
 
 1. Salvar e [ativar](#activate-rule) a regra.
 
-1. Criar uma mensagem. [Saiba mais](../messages/get-started-content.md#create-new-message)
+1. Crie um email e selecione o **[!UICONTROL Marketing]** categoria para essa mensagem. [Saiba mais](../messages/get-started-content.md#create-new-message)
 
-1. Selecione o **[!UICONTROL Marketing]** categoria .
-
-   ![](assets/message-rules-ex-category-maktg.png)
-
-1. Selecione o **[!UICONTROL Email]** e **[!UICONTROL Push Notification]** canais.
-
-   ![](assets/message-rules-ex-channels.png)
-
-1. Você pode clicar no link **[!UICONTROL Frequency rule]** para exibir as regras de frequência que serão aplicadas à categoria e aos canais selecionados. 
-
-1. [Design](../design/design-emails.md) e [publicar](../messages/publish-manage-message.md) sua mensagem.
+1. Crie uma notificação por push e selecione o **[!UICONTROL Marketing]** categoria para essa mensagem. [Saiba mais](../messages/get-started-content.md#create-new-message)
 
 Nesse cenário, um perfil individual:
 * Pode receber até 12 mensagens de marketing por mês;
@@ -189,7 +168,7 @@ Nesse cenário, um perfil individual:
 
 >[!NOTE]
 >
->Ao testar as regras de frequência, pode ser útil começar com uma [perfil de teste](../segment/creating-test-profiles.md), pois assim que o limite de frequência de um perfil é atingido, não há como redefinir o contador até o mês seguinte. Desativar uma regra permitirá que perfis com limites recebam mensagens, mas não removerá ou excluirá quaisquer incrementos de contador.
+>Ao testar as regras de frequência, é recomendável usar um [perfil de teste](../segment/creating-test-profiles.md), pois assim que o limite de frequência de um perfil é atingido, não há como redefinir o contador até o mês seguinte. Desativar uma regra permitirá que perfis com limites recebam mensagens, mas não removerá ou excluirá quaisquer incrementos de contador.
 
 ## Vídeo tutorial {#video}
 

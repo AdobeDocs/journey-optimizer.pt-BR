@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Para obter mais informações sobre a segmentação de streaming, consulte [Docu
 
 ### Como evitar sobrecargas{#overloads-speed-segment-qualification}
 
-Estas são algumas práticas recomendadas que ajudarão a evitar sobrecarga de sistemas aproveitados no jornada (fontes de dados, ações personalizadas, **Mensagem** atividades).
+Estas são algumas práticas recomendadas que ajudarão a evitar sobrecarga de sistemas aproveitados no jornada (fontes de dados, ações personalizadas, atividades de ação de canal).
 
 Não use em **[!UICONTROL Segment Qualification]** , um segmento de lote imediatamente após sua criação. Ele evitará o primeiro pico de cálculo. Observe que haverá um aviso amarelo na tela de jornada se você estiver prestes a usar um segmento que nunca foi calculado.
 

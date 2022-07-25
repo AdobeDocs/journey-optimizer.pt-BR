@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -123,88 +123,6 @@ Ele inclui as seguintes permissões de baixo nível:
    * queries.read
    * queries.write
    * queries.delete
-
-## Capacidade de mensagem {#message-capability}
-
-### [!DNL Manage messages] permissão {#manage-messages}
-
-O **[!DNL Manage messages]** permissão de alto nível permite que os usuários criem e editem/excluam mensagens.
-
-Ele inclui as seguintes permissões de baixo nível:
-
-* Específico do Journey Optimizer:
-   * messages.write
-   * messages.read
-   * messages.delete
-   * messages_presets.read
-
-* Específico do Adobe Experience Platform:
-   * segments.read
-   * schemas.read
-
-### [!DNL Manage messages preview and test] permissão {#mange-messages-preview}
-
-O **[!DNL Manage messages preview and test]** permissão de alto nível permite que os usuários visualizem mensagens personalizadas.
-
-Ele inclui as seguintes permissões de baixo nível:
-
-* Específico do Journey Optimizer:
-   * messages.publish
-   * messages_preview_and_test.write
-   * messages.publish
-
-* Específico do Adobe Experience Platform:
-   * profiles.read
-   * profiles.write
-   * schemas.read
-   * datasets.write
-   * datasets.read
-   * identity_namespace.read
-   * segments.read
-   * queries.write
-   * merge_policies.read
-
-### [!DNL Publish messages] permissão {#publish-messages}
-
-O **[!DNL Publish messages]** permissão de alto nível permite que os usuários publiquem mensagens.
-
-Ele inclui as seguintes permissões de baixo nível:
-
-* Específico do Journey Optimizer:
-   * messages.publish
-
-* Específico do Adobe Experience Platform:
-   * profiles.read
-   * schemas.read
-   * datasets.read
-
-### [!DNL View messages] permissão {#view-messages}
-
-O **[!DNL View messages]** permissão de alto nível permite que os usuários leiam somente mensagens.
-
-Ele inclui as seguintes permissões de baixo nível:
-
-* Específico do Journey Optimizer:
-   * messages.read
-   * messages_presets.read
-
-* Específico do Adobe Experience Platform:
-   * schemas.read
-   * segments.read
-
-### [!DNL View messages report] permissão {#view-message-reports}
-
-O **[!DNL View messages report]** a permissão de alto nível permite que os usuários somente leiam emails e enviem relatórios.
-
-Ele inclui as seguintes permissões de baixo nível:
-
-* Específico do Journey Optimizer:
-   * messages_report.read
-   * datasets.read
-   * queries.read
-   * queries.write
-   * queries.delete
-   * journey.read
 
 ## Capacidade de gestão de decisões {#decisions-permissions}
 
@@ -330,33 +248,34 @@ Ele inclui as seguintes permissões de baixo nível:
 * IP_pools.write
 * IP_pools.delete
 
-### [!DNL Manage messages general settings] permissão {#manage-message-settings}
+<!--
+### [!DNL Manage messages general settings] permission {#manage-message-settings}
 
-O **[!DNL Manage messages general settings]** a permissão de alto nível permite que os usuários criem, editem e excluam configurações globais no nível da sandbox.
+The **[!DNL Manage messages general settings]** high-level permission allows users to create, edit and delete global settings at the sandbox level.
 
-Ele inclui as seguintes permissões de baixo nível:
+It includes the following low-level permissions: 
 
-* Específico do Journey Optimizer:
-   * messages_general_settings.read
-   * messages_general_settings.write
-   * messages_general_settings.delete
-* Específico do Adobe Experience Platform:
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+  * messages_general_settings.write
+  * messages_general_settings.delete
+* Adobe Experience Platform specific:
+  * schemas.read
 
-### [!DNL View messages general settings] permissão {#view-message-settings}
+### [!DNL View messages general settings] permission {#view-message-settings}
 
-O **[!DNL View messages general settings]** a permissão de alto nível permite que os usuários visualizem configurações gerais de mensagens, como o endereço de execução.
+The **[!DNL View messages general settings]** high-level permission allows users to view messages general settings such as the execution address.
 
-Ele inclui as seguintes permissões de baixo nível:
+It includes the following low-level permissions:
 
-* Específico do Journey Optimizer:
-   * messages_general_settings.read
-* Específico do Adobe Experience Platform:
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+* Adobe Experience Platform specific: 
+  * schemas.read
+-->
+### [!DNL Manage channel surface] permissão {#manage-channel-surface}
 
-### [!DNL Manage messages presets] permissão {#manage-message-presets}
-
-O **[!DNL Manage messages presets]** a permissão de alto nível permite que os usuários criem, editem e excluam predefinições de mensagens em canais no nível da sandbox.
+O **[!DNL Manage channel surface]** a permissão de alto nível permite que os usuários criem, editem e excluam superfícies de canais em canais no nível da sandbox.
 
 Ele inclui as seguintes permissões de baixo nível:
 
@@ -368,9 +287,9 @@ Ele inclui as seguintes permissões de baixo nível:
    * IP_pools.read
    * mobile_setting.read (do Adobe Experience Platform Launch)
 
-### [!DNL View messages presets] permissão {#view-message-presets}
+### [!DNL View channel surface] permissão {#view-channel-surface}
 
-O **[!DNL View messages presets]** a permissão de alto nível permite que os usuários visualizem predefinições de mensagens para saber quais predefinições de mensagens usar ao criar uma mensagem.
+O **[!DNL View channel surface]** a permissão de alto nível permite que os usuários visualizem superfícies do canal para saber quais superfícies do canal usar.
 
 Ele inclui as seguintes permissões de baixo nível:
 

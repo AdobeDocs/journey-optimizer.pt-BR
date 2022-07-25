@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '366'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Você pode reagir a mensagens clicadas ou abertas.
 
 Você também pode usar esse mecanismo para executar uma ação quando não houver reação às suas mensagens. Para fazer isso, crie um segundo caminho paralelo à atividade de reação e adicione uma atividade de espera. Se não houver reação durante o período definido na atividade de espera, o segundo caminho será escolhido. Você pode optar por enviar, por exemplo, uma mensagem de acompanhamento.
 
-Observe que você só pode usar uma atividade de reação na tela se houver uma **Mensagem** antes.
+Observe que você só pode usar uma atividade de reação na tela se houver uma atividade de ação de canal antes de (Email, push, SMS).
 
 Consulte [Sobre as atividades de ação](../building-journeys/about-journey-activities.md#action-activities).
 

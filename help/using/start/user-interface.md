@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 99%
+source-wordcount: '1456'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Os componentes e recursos disponíveis na interface do usuário dependem das sua
 
 ## Navegação à esquerda {#left-nav}
 
-Use os links à esquerda para procurar recursos.
+Navegue pelos links à esquerda para acessar o [!DNL Journey Optimizer] recursos.
 
 ![](assets/ajo-home.png)
 
@@ -36,17 +36,17 @@ Use os links à esquerda para procurar recursos.
 >
 >Os recursos disponíveis podem variar dependendo de suas permissões e do contrato de licença.
 
-Veja abaixo uma lista completa de serviços e recursos disponíveis na navegação à esquerda, além de links para a documentação associada.
+Você pode encontrar abaixo a lista completa de serviços e recursos disponíveis na navegação à esquerda e links para as páginas de ajuda associadas.
 
 **Início**
 
-A página inicial do [!DNL Journey Optimizer] contém os links e recursos principais para iniciar. A lista **[!UICONTROL Recents]** fornece atalhos para as mensagens, jornadas e eventos recém-criados ou atualizados. Esta lista mostra as datas de criação e modificação e o status.
+A página inicial do [!DNL Journey Optimizer] contém os links e recursos principais para iniciar. O **[!UICONTROL Recents]** fornece atalhos para os eventos e jornadas criados recentemente. Esta lista mostra as datas de criação e modificação e o status.
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
 * **[!UICONTROL Journeys]**: crie, configure e orquestre as jornadas do cliente. [Saiba mais](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]**: crie, projete, teste e publique mensagens de email e por push. [Saiba mais](../messages/get-started-content.md)
+* **[!UICONTROL Landing pages]** - Criar, criar, testar e publicar landing pages. [Saiba mais](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -274,7 +274,7 @@ Para alterar o idioma:
 
 ## Pesquisa{#unified-search}
 
-Em qualquer lugar na interface do Adobe Journey Optimizer, use o recurso de pesquisa unificada da Adobe Experience Cloud no centro da barra superior para localizar ativos, jornadas, conjuntos de dados, mensagens e muito mais em suas sandboxes.
+Em qualquer lugar da interface do Adobe Journey Optimizer, use o recurso de pesquisa Unified Adobe Experience Cloud no centro da barra superior para localizar ativos, jornadas, conjuntos de dados e muito mais em suas sandboxes.
 
 Comece a inserir conteúdo para exibir os principais resultados. Artigos de ajuda sobre as palavras-chave inseridas também são exibidos nos resultados.
 
@@ -304,6 +304,6 @@ Nos painéis de configuração Evento, Fonte de dados e Ação, o campo **[!UICO
 
 ![](assets/journey3bis.png)
 
-Nas diferentes listas, é possível executar ações básicas em cada elemento. Por exemplo, você pode duplicar ou excluir um item.
+Nas listas, é possível executar ações básicas em cada elemento. Por exemplo, você pode duplicar ou excluir um item.
 
 ![](assets/journey4.png)

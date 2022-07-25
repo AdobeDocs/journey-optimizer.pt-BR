@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 12%
+source-wordcount: '586'
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ Use [!DNL Journey Optimizer] para adicionar links ao seu conteúdo e rastrear as
 
 ## Habilitar rastreamento {#enable-tracking}
 
-Você pode ativar o rastreamento no nível da mensagem de email marcando a variável **[!UICONTROL Open Tracking for email]** e/ou **[!UICONTROL Click Tracking for email]** opções ao [criação da mensagem](../messages/get-started-content.md).
+Você pode ativar o rastreamento no nível da mensagem de email marcando a variável **[!UICONTROL Email opens]** e/ou **[!UICONTROL Click on email]** opções ao [criação da mensagem](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ Você pode ativar o rastreamento no nível da mensagem de email marcando a vari�
 
 Isso permitirá rastrear o comportamento dos recipients por meio de:
 
-* **[!UICONTROL Open Tracking for email]**: Mensagens que foram abertas.
-* **[!UICONTROL Click Tracking for email]**: Cliques em links em um email.
+* **[!UICONTROL Email opens]**: Mensagens que foram abertas.
+* **[!UICONTROL Click on email]**: Cliques em links em um email.
 
 ## Inserir links {#insert-links}
 
@@ -75,7 +75,7 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
 >[!NOTE]
 >
->As mensagens de email de tipo de marketing devem incluir um [link para opção de não participação](../messages/consent.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definida no [nível da predefinição de mensagem](../configuration/message-presets.md#email-type) e ao [criar a mensagem](../messages/get-started-content.md#create-new-message).
+>As mensagens de email de tipo de marketing devem incluir um [link para opção de não participação](../messages/consent.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definido na variável [superfície do canal](../configuration/message-presets.md#email-type) (ou seja, predefinição de mensagem) e quando [criação da mensagem](../messages/get-started-content.md#create-new-message).
 
 ## Link para uma mirror page {#mirror-page}
 
@@ -122,6 +122,4 @@ O [Email Designer](create-email-content.md) permite gerenciar os URLs rastreados
    * **[!UICONTROL Mirror page]**: Considera esse URL como sendo de mirror page.
    * **[!UICONTROL Never]**: Nunca ativa o rastreamento desse URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-O número de mensagens que foram abertas e o número de links que foram clicados são listados na variável [Guia Executions](../reports/message-monitoring.md).
-
-Os relatórios sobre aberturas e cliques estão disponíveis no [Relatório ao vivo por email](../reports/email-live-report.md) e na [Relatório global de email](../reports/email-global-report.md).
+Os relatórios sobre aberturas e cliques estão disponíveis no [Relatório ao vivo](../reports/live-report.md) e na [Relatório global](../reports/global-report.md).

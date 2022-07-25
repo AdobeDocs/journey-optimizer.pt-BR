@@ -3,9 +3,9 @@ title: Introdução à Journey Optimizer para o Administrador do sistema
 description: Como Administrador do sistema, saiba mais sobre como trabalhar com a Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '722'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Saiba mais sobre o gerenciamento de acesso nas seguintes páginas:
 
 1. **Entender os perfis de produto**. Os perfis de produto são um conjunto de direitos unitários que permite aos usuários acessar determinadas funcionalidades ou objetos na interface. Saiba mais na [Perfis de produto prontos para uso](../../administration/ootb-product-profiles.md) seção.
 
-1. **Definir permissões** para perfis de produtos, incluindo **Sandboxes** e dê acesso aos membros da sua equipe, atribuindo-os a perfis de produtos diferentes. Essa etapa é executada no [Admin Console](https://adminconsole.adobe.com/){_blank}. As permissões são direitos unitários que permitem definir as autorizações atribuídas a **[!UICONTROL Product profile]**. Cada permissão é coletada em recursos, por exemplo, Jornada, mensagens ou ofertas, que representam as diferentes funcionalidades ou objetos em [!DNL Journey Optimizer]. Saiba mais na [Níveis de permissão](../../administration/high-low-permissions.md) seção.
+1. **Definir permissões** para perfis de produtos, incluindo **Sandboxes** e dê acesso aos membros da sua equipe, atribuindo-os a perfis de produtos diferentes. Essa etapa é executada no [Admin Console](https://adminconsole.adobe.com/){_blank}. As permissões são direitos unitários que permitem definir as autorizações atribuídas a **[!UICONTROL Product profile]**. Cada permissão é coletada em recursos, por exemplo, Jornada ou Ofertas, que representam as diferentes funcionalidades ou objetos em [!DNL Journey Optimizer]. Saiba mais na [Níveis de permissão](../../administration/high-low-permissions.md) seção.
 
 Além disso, você deve adicionar usuários que precisam de acesso ao Assets Essentials para **Usuários do cliente do Assets Essentials** ou/e **Usuários do Assets Essentials** Perfis de produto. [Leia mais na documentação do Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
@@ -37,18 +37,18 @@ Além disso, você deve adicionar usuários que precisam de acesso ao Assets Ess
 
 Ao acessar [!DNL Journey Optimizer] pela primeira vez, você é provisionado com uma sandbox de produção e recebe um determinado número de IPs dependendo do seu contrato.
 
-Para criar suas jornadas e enviar mensagens, acesse o **ADMINISTRAÇÃO** menu. Navegue pelo **[!UICONTROL Channels]** para configurar suas mensagens de email e predefinições.
+Para criar suas jornadas e enviar mensagens, acesse o **ADMINISTRAÇÃO** menu. Navegue pelo **[!UICONTROL Channels]** para configurar suas mensagens e superfícies (ou seja, predefinições).
 
 >[!NOTE]
 >Como um **Administrador do sistema**, se não conseguir ver a variável **[!UICONTROL Channels]** em [!DNL Journey Optimizer], atualize suas permissões no [Admin Console](https://adminconsole.adobe.com/){_blank}. Saiba como atualizar o perfil de produto no [esta página](../../administration/permissions.md#edit-product-profile).
 
 Siga as etapas listadas abaixo:
 
-1. **Configurar mensagens e canais**: definir predefinições, adaptar e personalizar configurações de mensagens de email e de push
+1. **Configurar mensagens e canais**: definir superfícies, adaptar e personalizar configurações de mensagens de email e de push
 
    * Definir **configurações de notificações por push** em ambos [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Saiba mais](../../configuration/push-gs.md)
 
-   * Criar **predefinições de mensagens** para configurar todos os parâmetros técnicos necessários para mensagens de email e de notificação por push. [Saiba mais](../../configuration/message-presets.md)
+   * Criar **superfícies dos canais** (ou seja, predefinições de mensagens) para configurar todos os parâmetros técnicos necessários para mensagens de email e de notificação por push. [Saiba mais](../../configuration/message-presets.md)
 
    * Configure o **Canal SMS** para configurar todos os parâmetros técnicos necessários para o SMS. [Saiba mais](../../configuration/sms-configuration.md)
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '836'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,6 @@ Para que esse caso de uso funcione, é necessário configurar o seguinte:
 
 * um segmento para todos os clientes que moram em Atlanta, São Francisco ou Seattle e nascem após 1980.
 * um evento de compra
-* três mensagens
 
 ### Criar o segmento
 
@@ -81,29 +80,17 @@ Para isso, usamos um evento com base em regras. Para obter mais informações so
 
 O evento agora está configurado e pronto para ser usado em sua jornada. Usando a atividade de evento correspondente, você pode acionar uma ação sempre que um cliente fizer uma compra.
 
-### Criar as mensagens
-
-Para esse caso de uso, precisamos criar três mensagens:
-
-* uma primeira mensagem por push e email
-* uma mensagem de push &quot;obrigado&quot;
-* uma mensagem de acompanhamento por email
-
-![](assets/jo-uc3.png)
-
-Consulte esta [seção](../segment/about-segments.md) para saber como criar e publicar essas mensagens.
-
 ## Projetar a jornada
 
 1. Inicie a jornada com um **Ler segmento** atividade . Selecione o segmento criado anteriormente. Todos os indivíduos pertencentes ao segmento entram na jornada.
 
    ![](assets/jo-uc4.png)
 
-1. Solte uma **Mensagem** e selecione a primeira mensagem de push e email. Esta mensagem é enviada a todos os indivíduos na jornada.
+1. Solte uma **Email** atividade de ação e defina o conteúdo da &quot;primeira mensagem&quot;. Esta mensagem é enviada a todos os indivíduos na jornada. Consulte esta [seção](../messages/create-email.md) para saber como configurar e criar um email.
 
    ![](assets/jo-uc5.png)
 
-1. Coloque o cursor na atividade da mensagem e clique no símbolo &quot;+&quot; para criar um novo caminho.
+1. Coloque o cursor na atividade de email e clique no símbolo &quot;+&quot; para criar um novo caminho.
 
 1. No primeiro caminho, adicione um **Reação** e selecione **Empurrar aberto**. O evento é acionado quando um indivíduo pertencente ao segmento abre a versão de push da primeira mensagem.
 
@@ -115,11 +102,11 @@ Consulte esta [seção](../segment/about-segments.md) para saber como criar e pu
    >
    >Ao configurar um tempo limite em vários eventos (as duas reações, neste caso), é necessário apenas configurar o tempo limite em um desses eventos.
 
-1. No caminho de tempo limite, solte uma **Mensagem** e selecione a mensagem de acompanhamento do email. Esta mensagem é enviada aos indivíduos que não abrem o email ou enviam a primeira mensagem no dia seguinte.
+1. No caminho de tempo limite, solte um **Email** atividade de ação e definir o conteúdo da mensagem de &quot;acompanhamento&quot;. Esta mensagem é enviada aos indivíduos que não abrem o email ou enviam a primeira mensagem no dia seguinte. Consulte esta [seção](../messages/create-email.md) para saber como configurar e criar um email.
 
 1. Conecte os três caminhos ao evento de compra criado anteriormente. O evento é acionado quando um indivíduo faz uma compra.
 
-1. Depois do evento , solte uma **Mensagem** e selecione a mensagem de email &quot;obrigado&quot;.
+1. Depois do evento , solte uma **Empurrar** atividade de ação e defina o conteúdo da mensagem &quot;obrigado&quot;. Consulte esta [seção](../messages/create-push.md) para saber como configurar e projetar um push.
 
 ## Testar e publicar a jornada
 

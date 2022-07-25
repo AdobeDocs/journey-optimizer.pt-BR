@@ -3,13 +3,13 @@ title: Acione campanhas usando APIs
 description: Saiba como acionar campanhas usando o [!DNL Journey Optimizer] APIs
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 3%
 
 ---
-
 
 # Acione campanhas usando APIs {#trigger-campaigns}
 
@@ -33,7 +33,7 @@ Para criar uma campanha acionada por API, siga estas etapas:
 
 1. Crie uma nova campanha com a **[!UICONTROL API-triggered]** tipo .
 
-1. Escolha o canal e a superfície da mensagem a ser usada para enviar a mensagem e clique em **[!UICONTROL Create]**.
+1. Escolha o canal e a superfície do canal a serem usados para enviar a mensagem e clique em **[!UICONTROL Create]**.
 
    ![](assets/api-triggered-type.png)
 
@@ -67,7 +67,7 @@ Vejamos este exemplo, onde os clientes desejam redefinir a senha e você deseja 
 >
 >Diferentemente dos eventos ativados por perfil, os dados contextuais transmitidos na API REST são usados para comunicação pontual e não armazenados em relação ao perfil. No máximo, o perfil é criado com os detalhes do namespace, caso ele tenha sido encontrado ausente.
 
-Para usar esses dados em suas campanhas, é necessário passá-los para a carga da API e adicioná-los na mensagem usando o Editor de expressão. Para fazer isso, use o `{{context.<contextualAttribute>}}` sintaxe, em que `<contextualAttribute>` deve corresponder ao nome da variável no payload da API que contém os dados que você deseja transmitir.
+Para usar esses dados em suas campanhas, é necessário passá-los para a carga da API e adicioná-los em sua mensagem usando o editor de expressão. Para fazer isso, use o `{{context.<contextualAttribute>}}` sintaxe, em que `<contextualAttribute>` deve corresponder ao nome da variável no payload da API que contém os dados que você deseja transmitir.
 
 O `{{context.<contextualAttribute>}}` A sintaxe é mapeada somente para um tipo de dados String .
 

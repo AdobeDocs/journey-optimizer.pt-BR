@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 29%
+source-wordcount: '264'
+ht-degree: 28%
 
 ---
 
@@ -46,7 +46,7 @@ Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração e
 
 Na paleta, no lado esquerdo da tela, abaixo **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, você encontrará o **[!UICONTROL Actions]** categoria . As seguintes atividades de ação estão disponíveis:
 
-* [Mensagem](../building-journeys/journeys-message.md)
+* [Email, SMS, Push](../building-journeys/journeys-message.md)
 * [Ações personalizadas](../building-journeys/using-custom-actions.md)
 * [Salto](../building-journeys/jump.md)
 

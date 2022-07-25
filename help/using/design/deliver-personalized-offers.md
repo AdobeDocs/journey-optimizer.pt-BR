@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '570'
 ht-degree: 3%
 
 ---
 
 # Adicionar ofertas personalizadas {#deliver-personalized-offers}
 
-Em [!DNL Journey Optimizer] mensagens de email, você pode inserir decisões que aproveitarão o mecanismo de decisão da oferta para escolher a melhor oferta a ser entregue aos clientes.
+Em [!DNL Journey Optimizer] e-mails, você pode inserir decisões que aproveitarão o Offer Decision Engine para escolher a melhor oferta para entregar aos seus clientes.
 
 Por exemplo, você pode adicionar uma decisão que exibirá em seu email uma oferta de desconto especial que varia de acordo com o nível de fidelidade do recipient.
 
@@ -59,11 +59,11 @@ Para inserir uma decisão em uma mensagem de email, siga as etapas abaixo:
 
 A atividade de oferta agora é adicionada ao componente .
 
-Depois de salvar suas alterações e depois que a mensagem for publicada, suas ofertas estarão prontas para serem exibidas aos perfis relevantes ao enviar a mensagem como parte de uma jornada.
+Depois de salvar as alterações, as ofertas estão prontas para serem exibidas aos perfis relevantes ao enviar a mensagem como parte de uma jornada.
 
 >[!NOTE]
 >
->Ao atualizar uma oferta, oferta de fallback, coleção de ofertas ou decisão de oferta que é direta ou indiretamente referenciada em uma mensagem publicada, as atualizações são refletidas automaticamente na mensagem correspondente, sem a necessidade de republicá-la.
+>Ao atualizar uma oferta, oferta de fallback, coleção de ofertas ou decisão de oferta que é mencionada direta ou indiretamente na mensagem, as atualizações são refletidas automaticamente na mensagem correspondente.
 
 ## Visualizar ofertas em um email {#preview-offers-in-email}
 

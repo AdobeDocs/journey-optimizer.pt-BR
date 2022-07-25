@@ -1,17 +1,17 @@
 ---
-title: Definir predefinições da landing page
+title: Definir predefinições da página de aterrissagem
 description: Saiba como configurar seu ambiente para criar e usar landing pages com o Journey Optimizer
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 4%
+source-wordcount: '300'
+ht-degree: 7%
 
 ---
 
-# Definir predefinições da landing page {#lp-presets}
+# Definir predefinições da página de aterrissagem {#lp-presets}
 
 When [criação de uma landing page](../landing-pages/create-lp.md#create-a-lp), você deve selecionar uma predefinição de página de aterrissagem para criar a página de aterrissagem e aproveitá-la **[!DNL Journey Optimizer]**.
 
@@ -74,10 +74,10 @@ Para criar uma predefinição de página de aterrissagem, siga as etapas abaixo.
    ![](assets/lp-preset-active-temp.png)
 
 Agora você está pronto para [criar landing pages](../landing-pages/create-lp.md) em [!DNL Journey Optimizer].
-
+<!--
 >[!NOTE]
 >
->Saiba como criar predefinições de mensagens para notificações por push e emails em [esta seção](message-presets.md).
+>Learn how to create channel surfaces for push notifications and emails in [this section](message-presets.md).-->
 
 **Tópicos relacionados**:
 

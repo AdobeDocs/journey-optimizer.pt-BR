@@ -2,7 +2,7 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1651'
 ht-degree: 98%
@@ -30,7 +30,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * A página Lista de permissões foi movida para a seção Configuração. [Leia mais](../configuration/allow-list.md)
 * A página Lista de supressão foi atualizada para esclarecer algumas informações, incluindo o fato de que todos os caracteres ASCII entre 32 e 126 são permitidos no campo de motivo da supressão. [Leia mais](../configuration/manage-suppression-list.md)
 * Foi adicionado o link para as medidas de proteção e limites estáticos para a gestão de decisões. [Leia mais](../start/guardrails.md)
-* A Otimização de tempo de envio agora está disponível para todos os clientes. A menção ao beta foi removida. [Leia mais](../building-journeys/journeys-message.md#send-time-optimization)
+* A Otimização de tempo de envio agora está disponível para todos os clientes. A menção ao beta foi removida. [Leia mais](../messages/send-time-optimization.md)
 * A API de decisão em lote foi adicionada à lista de APIs disponíveis para fornecer ofertas personalizadas. [Leia mais](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Maio de 2022 {#may-2022}
@@ -139,7 +139,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Atualização do procedimento de configuração para ações personalizadas com caminhos dinâmicos de URL e cabeçalhos dinâmicos. [Leia mais](../action/about-custom-action-configuration.md#url-configuration)
 * Seção sobre recursos e atalhos de acessibilidade adicionada. [Leia mais](../start/user-interface.md#accessibility)
 * Adição de uma seção sobre métodos de avaliação de segmento. [Leia mais](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
-* Observações adicionadas às seções Lista de supressão, Lista de permissões e Relatório de email global/em tempo real para especificar que os perfis com status Suprimido e Não permitido estão excluídos das métricas do relatório de emails enviados. [Leia mais](../reports/email-global-report.md)
+* Observações adicionadas às seções Lista de supressão, Lista de permissões e Relatório de email global/em tempo real para especificar que os perfis com status Suprimido e Não permitido estão excluídos das métricas do relatório de emails enviados. [Leia mais](../reports/global-report.md)
 * Nova seção adicionada para descrever como recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. [Leia mais](../configuration/allow-list.md#reporting)
 * Seção Ativar a lista de permissões atualizada. [Saiba mais](../configuration/allow-list.md#enable-allow-list)
 * Seção Monitorar predefinições de mensagem atualizada com os possíveis motivos de falha na criação de predefinições e detalhes sobre esses erros. [Leia mais](../configuration/message-presets.md#monitor-message-presets)

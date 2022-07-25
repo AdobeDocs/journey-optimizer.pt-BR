@@ -1,26 +1,26 @@
 ---
-title: Sobre o editor de expressões
-description: Saiba como trabalhar com o Editor de expressão.
+title: Sobre o editor de expressão
+description: Saiba como trabalhar com o editor de expressão.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 9%
+source-wordcount: '340'
+ht-degree: 6%
 
 ---
 
-# Sobre o editor de expressões {#build-personalization-expressions}
+# Sobre o editor de expressão {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="Sobre o editor de expressões"
->abstract="O Editor de expressão permite selecionar, organizar, personalizar e validar todos os dados para criar uma personalização personalizada para o seu conteúdo."
+>title="Sobre o editor de expressão"
+>abstract="O editor de expressão permite selecionar, organizar, personalizar e validar todos os dados para criar uma personalização personalizada para o seu conteúdo."
 
-O Editor de expressão é a peça central da personalização no [!DNL Journey Optimizer]. Ela está disponível em todos os contextos onde é necessário definir personalização como emails, push e ofertas.
+O editor de expressão é a peça central da personalização no [!DNL Journey Optimizer]. Ela está disponível em todos os contextos onde é necessário definir personalização como emails, push e ofertas.
 
 Na interface do editor de expressão, você selecionará, organizará, personalizará e validará todos os dados para criar uma personalização personalizada para o seu conteúdo.
 
@@ -35,7 +35,7 @@ As fontes disponíveis são:
 * **[!UICONTROL Profile attributes]** : lista todas as referências associadas ao esquema de perfil descrito em [Documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 * **[!UICONTROL Segment memberships]** : lista todos os segmentos criados no serviço de Segmentação do Adobe Experience Platform. Mais informações sobre a segmentação disponíveis [here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}.
 * **[!UICONTROL Offer decisions]** : lista todas as ofertas associadas a uma disposição específica. Selecione a disposição e insira as ofertas no seu conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [esta seção](../design/deliver-personalized-offers.md).
-* **[!UICONTROL Contextual attributes]** : quando a variável **Mensagem** é usada em uma jornada, campos de jornada contextual estão disponíveis por meio desse menu. Saiba mais [nesta seção](personalization-use-case.md).
+* **[!UICONTROL Contextual attributes]** : quando uma atividade de ação de canal (Email, push, SMS) é usada em uma jornada, campos de jornada contextual ficam disponíveis por meio desse menu. Saiba mais [nesta seção](personalization-use-case.md).
 * **[!UICONTROL Helper functions]** : lista todas as funções auxiliares disponíveis para executar operações em dados, como cálculos, formatação de dados ou conversões, condições e manipulá-las no contexto de personalização. Saiba mais [nesta seção](functions/functions.md).
 
 Clique no botão + para adicionar um atributo ao editor.
@@ -50,4 +50,4 @@ No exemplo a seguir, o editor de expressão permite selecionar os perfis que faz
 
 ![](assets/perso_ee2.png)
 
-Quando a expressão de personalização estiver pronta, será necessário validá-la pelo Editor de expressão. Saiba mais [nesta seção](personalization-validation.md).
+Quando a expressão de personalização estiver pronta, será necessário validá-la pelo editor de expressão. Saiba mais [nesta seção](personalization-validation.md).

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1009'
 ht-degree: 81%
 
 ---
@@ -83,6 +83,6 @@ Veja algumas coisas que devem ser verificadas:
 Se as pessoas físicas continuarem percorrendo o caminho certo na jornada, mas não receberem as mensagens esperadas, você pode verificar se:
 
 * [!DNL Journey Optimizer] tiver considerado corretamente a solicitação de envio da mensagem. Os usuários empresariais podem acessar a mensagem que deve ser enviada e verificar se a hora da execução mais recente corresponde ao tempo de execução da sua jornada. Eles também podem verificar as chamadas/eventos de API mais recentes recebidos.
-* [!DNL Journey Optimizer] enviou a mensagem com êxito. Nos logs de envio da mensagem, você pode ver o status de cada execução. Se é verde, vermelho e qual o problema. Um usuário empresarial pode acessar essa tela e enviar os registros a um administrador para fazer mais investigações.
+* [!DNL Journey Optimizer] enviou a mensagem com êxito. Verifique o relatório de jornada para verificar se não há erros.
 
 No caso de mensagem enviada através de ação personalizada, a única coisa a ser verificada durante o teste da jornada é o fato de a chamada do sistema da ação personalizada causar ou não um erro. Se a chamada para o sistema externo associada à ação personalizada não causar um erro, mas também não enviar a mensagem, algumas investigações devem ser feitas por parte do sistema externo.

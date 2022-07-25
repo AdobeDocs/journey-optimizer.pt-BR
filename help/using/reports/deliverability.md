@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '648'
 ht-degree: 25%
 
 ---
@@ -54,8 +54,6 @@ Use os recursos oferecidos por [!DNL Journey Optimizer] para monitorar sua capac
 O **[!UICONTROL Executions]** da lista de mensagens permite verificar o desempenho dos deliveries por meio de um conjunto de indicadores em tempo real. Entre outras coisas, essa guia exibe:
 * O número de mensagens executadas, enviadas e entregues com êxito.
 * O número de mensagens que foram abertas e o número de mensagens/links que foram clicados.
-
-[Saiba mais sobre como monitorar a execução de mensagens](message-monitoring.md).
 
 ## Adaptar o conteúdo da mensagem {#adapt-message-content}
 

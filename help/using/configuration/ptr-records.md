@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Com registros PTR, os servidores de email de recebimento podem verificar a auten
 
 ## Acesse os registros PTR dos subdomínios {#access-ptr-records}
 
-Uma vez [um subdomínio é delegado](delegate-subdomain.md) no Adobe Journey Optimizer, um registro PTR é criado e associado automaticamente a este subdomínio. Você pode acessá-lo pelo **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
+Uma vez [um subdomínio é delegado](delegate-subdomain.md) no Adobe Journey Optimizer, um registro PTR é criado e associado automaticamente a este subdomínio. Você pode acessá-lo pelo **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
 
 ![](assets/ptr-records.png)
 

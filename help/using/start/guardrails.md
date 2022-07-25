@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 2%
+source-wordcount: '730'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Os direitos, as limitações de produtos e as medidas de proteção do desempenho estão listados em [Página de descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}.
 
-Você encontrará abaixo medidas de proteção e limitações adicionais ao usar [!DNL Adobe Journey Optimizer].
+Abaixo você encontrará medidas de proteção e limitações adicionais para uso do [!DNL Adobe Journey Optimizer].
 
 ## Medidas de proteção de mensagens {#message-guardrails}
 
@@ -47,10 +47,6 @@ As medidas de proteção de desempenho e os limites estáticos para a gestão de
 * Não é possível colocar duas ações em paralelo, é necessário adicioná-las uma após a outra.
 * Há uma limitação técnica no jornada hoje que impede que um perfil seja apresentado várias vezes na mesma jornada, ao mesmo tempo. Um perfil ainda pode inserir novamente uma jornada (com base em uma configuração), mas não poderá fazer isso até que ele tenha saído totalmente dessa instância anterior da jornada.
 * Na maioria dos casos, um perfil não pode estar presente várias vezes na mesma jornada, ao mesmo tempo. Se a reentrada estiver ativada, um perfil poderá inserir uma jornada novamente, mas não poderá fazer isso até que ele tenha saído totalmente da instância anterior da jornada. [Leia mais](../building-journeys/journey-end.md)
-
-### Ação de mensagem {#message-action-g}
-
-* Ao adicionar uma mensagem multicanal, duas mensagens serão enviadas.
 
 ### Versões de jornada {#journey-versions-g}
 

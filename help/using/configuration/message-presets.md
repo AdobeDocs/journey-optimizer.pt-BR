@@ -1,47 +1,47 @@
 ---
-title: Configurar predefinições de mensagem
-description: Saiba como configurar e monitorar predefinições de mensagens
+title: Configurar superfícies do canal
+description: Saiba como configurar e monitorar superfícies de canais
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1462'
 ht-degree: 1%
 
 ---
 
-# Configurar predefinições de mensagem {#message-presets-creation}
+# Configurar superfícies do canal {#message-presets-creation}
 
-Com [!DNL Journey Optimizer], é possível configurar predefinições de mensagens que definem todos os parâmetros técnicos necessários para mensagens de email e de notificação por push: tipo de email, email e nome do remetente, aplicativos móveis e muito mais.
+Com [!DNL Journey Optimizer], é possível configurar superfícies do canal (ou seja, predefinições de mensagem) que definem todos os parâmetros técnicos necessários para suas mensagens: tipo de email, email e nome do remetente, aplicativos móveis e muito mais.
 
 >[!CAUTION]
 >
-> * Para criar, editar e excluir predefinições de mensagem, você deve ter a variável [Gerenciar predefinições de mensagens](../administration/high-low-permissions.md#manage-message-presets).
+> * Para criar, editar e excluir superfícies de canais, você deve ter a variável [Gerenciar a superfície do canal](../administration/high-low-permissions.md#manage-channel-surface).
 >
-> * Você deve executar [Configuração de email](#configure-email-settings) e [Configuração por push](../configuration/push-configuration.md) etapas antes de criar predefinições de mensagem.
+> * Você deve executar o [Configuração de email](#configure-email-settings), [Configuração por push](../configuration/push-configuration.md) e [Configuração de SMS](../configuration/sms-configuration.md) etapas antes de criar superfícies de canal.
 
 
-Depois que as predefinições de mensagem forem configuradas, você poderá selecioná-las ao criar mensagens do **[!UICONTROL Presets]** lista.
+Depois que as superfícies do canal forem configuradas, você poderá selecioná-las ao criar mensagens de uma jornada.
 
-➡️ [Saiba como criar e usar predefinições de email neste vídeo](#video-presets)
+➡️ [Saiba como criar e usar superfícies de email neste vídeo](#video-presets)
 
-## Criar uma predefinição de mensagem {#create-message-preset}
+## Criar uma superfície de canal {#create-message-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Detalhes e configurações da predefinição de mensagens"
->abstract="Ao configurar uma predefinição de mensagem, é possível selecionar o canal ao qual ela se aplica e definir todos os parâmetros técnicos necessários para suas mensagens, como tipo de email, subdomínio a ser usado, nome do remetente, aplicativos móveis etc."
+>title="Detalhes e configurações da superfície do canal"
+>abstract="Ao configurar uma superfície de canal, é possível selecionar o canal ao qual ele se aplica e definir todos os parâmetros técnicos necessários para seus deliveries, como tipo de email, subdomínio a ser usado, nome do remetente, aplicativos móveis etc."
 
-Para criar uma predefinição de mensagem, siga estas etapas:
+Para criar uma superfície de canal, siga estas etapas:
 
-1. Acesse o **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** , em seguida, clique em **[!UICONTROL Create Message preset]**.
+1. Acesse o **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** , em seguida, clique em **[!UICONTROL Create channel surface]**.
 
    ![](assets/preset-create.png)
 
-1. Insira um nome e uma descrição (opcional) para a predefinição, em seguida, selecione os canais a serem configurados.
+1. Insira um nome e uma descrição (opcional) para a superfície, em seguida, selecione os canais a serem configurados.
 
    ![](assets/preset-general.png)
 
@@ -69,17 +69,17 @@ Para criar uma predefinição de mensagem, siga estas etapas:
    >
    >Para obter mais informações sobre como configurar seu ambiente para enviar mensagens SMS, consulte [esta seção](sms-configuration.md).
 
-1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Submit]** para confirmar. Você também pode salvar a predefinição de mensagem como rascunho e retomar sua configuração posteriormente.
+1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Submit]** para confirmar. Você também pode salvar a superfície do canal como rascunho e retomar sua configuração posteriormente.
 
    ![](assets/preset-submit.png)
 
    >[!NOTE]
    >
-   >Não é possível continuar com a criação predefinida enquanto o pool de IP selecionado estiver em [edição](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** e nunca foi associado ao subdomínio selecionado. [Saiba mais](#subdomains-and-ip-pools)
+   >Não é possível continuar com a criação da superfície enquanto o pool de IP selecionado estiver em [edição](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** e nunca foi associado ao subdomínio selecionado. [Saiba mais](#subdomains-and-ip-pools)
    >
-   >Salve a predefinição como rascunho e aguarde até que o pool de IP tenha a variável **[!UICONTROL Success]** status para retomar a criação predefinida.
+   >Salve a superfície como rascunho e aguarde até que o pool de IP tenha a variável **[!UICONTROL Success]** status para retomar a criação da superfície.
 
-1. Depois que a predefinição de mensagem tiver sido criada, ela será exibida na lista com a variável **[!UICONTROL Processing]** status.
+1. Depois que a superfície do canal for criada, ela será exibida na lista com a variável **[!UICONTROL Processing]** status.
 
    Durante essa etapa, várias verificações serão executadas para verificar se foram configuradas corretamente. O tempo de processamento está por vir **48h-72h** e pode **7 a 10 dias úteis**.
 
@@ -97,25 +97,25 @@ Para criar uma predefinição de mensagem, siga estas etapas:
    >
    >Se as verificações não forem bem-sucedidas, saiba mais sobre os possíveis motivos de falha em [esta seção](#monitor-message-presets).
 
-1. Depois que as verificações são bem-sucedidas, a predefinição de mensagem recebe a variável **[!UICONTROL Active]** status. Ele está pronto para ser usado para entregar mensagens.
+1. Depois que as verificações são bem-sucedidas, a superfície do canal recebe a variável **[!UICONTROL Active]** status. Ele está pronto para ser usado para entregar mensagens.
 
    ![](assets/preset-active.png)
 
-## Monitorar predefinições de mensagem {#monitor-message-presets}
+## Superfícies do canal do monitor {#monitor-message-presets}
 
-Todas as suas predefinições de mensagem são exibidas no **[!UICONTROL Channels]** > **[!UICONTROL Message presets]** menu. Os filtros estão disponíveis para ajudar você a navegar pela lista (tipo de canal, usuário, status).
+Todas as superfícies dos seus canais são exibidas na seção **[!UICONTROL Channels]** > **[!UICONTROL Channel surfaces]** menu. Os filtros estão disponíveis para ajudar você a navegar pela lista (canal, usuário, status).
 
 ![](assets/preset-filters.png)
 
-Depois de criadas, as predefinições de mensagem podem ter os seguintes status:
+Depois de criadas, as superfícies do canal podem ter os seguintes status:
 
-* **[!UICONTROL Draft]**: A predefinição de mensagem foi salva como rascunho e ainda não foi enviada. Abra-o para retomar a configuração.
-* **[!UICONTROL Processing]**: A predefinição de mensagem foi enviada e está passando por várias etapas de verificação.
-* **[!UICONTROL Active]**: A predefinição de mensagem foi verificada e pode ser selecionada para criar mensagens.
-* **[!UICONTROL Failed]**: Uma ou várias verificações falharam durante a verificação da predefinição de mensagem.
-* **[!UICONTROL Deactivated]**: A predefinição de mensagem é desativada. Ele não pode ser usado para criar novas mensagens.
+* **[!UICONTROL Draft]**: A superfície do canal foi salva como rascunho e ainda não foi enviada. Abra-o para retomar a configuração.
+* **[!UICONTROL Processing]**: A superfície do canal foi enviada e está passando por várias etapas de verificação.
+* **[!UICONTROL Active]**: A superfície do canal foi verificada e pode ser selecionada para criar mensagens.
+* **[!UICONTROL Failed]**: Uma ou várias verificações falharam durante a verificação da superfície do canal.
+* **[!UICONTROL Deactivated]**: A superfície do canal está desativada. Ele não pode ser usado para criar novas mensagens.
 
-Em caso de falha na criação de uma predefinição de mensagem, os detalhes sobre cada possível motivo de falha são descritos abaixo.
+No caso de falha na criação da superfície do canal, os detalhes sobre cada motivo possível de falha são descritos abaixo.
 
 Se um desses erros ocorrer, entre em contato com o [Atendimento ao cliente do Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} para obter assistência.
 
@@ -128,18 +128,18 @@ Se um desses erros ocorrer, entre em contato com o [Atendimento ao cliente do Ad
 * **Falha nas configurações da capacidade de entrega**: A falha das configurações de deliverability pode ocorrer devido a qualquer um dos seguintes motivos:
    * incluir na lista de bloqueios dos IPs alocados
    * Inválido `helo` name
-   * Emails enviados de IPs diferentes daqueles especificados no pool de IP da predefinição correspondente
+   * Emails enviados de IPs diferentes dos especificados no pool de IP da superfície correspondente
    * Não é possível enviar emails para caixas de entrada dos principais ISPs, como Gmail e Yahoo
 
-## Editar uma predefinição de mensagem {#edit-message-preset}
+## Editar uma superfície de canal {#edit-message-preset}
 
-Para editar uma predefinição de mensagem, siga as etapas abaixo.
+Para editar uma superfície do canal, siga as etapas abaixo.
 
 >[!NOTE]
 >
->Não é possível editar o **[!UICONTROL Push notification settings]**. Se uma predefinição de mensagem estiver configurada apenas para o canal de notificação por push, ela não será editável.
+>Não é possível editar o **[!UICONTROL Push notification settings]**. Se uma superfície de canal estiver configurada apenas para o canal de notificação por push, ela não será editável.
 
-1. Na lista, clique em um nome predefinido de mensagem para abri-la.
+1. Na lista, clique em um nome de superfície do canal para abri-lo.
 
    ![](assets/preset-name.png)
 
@@ -147,7 +147,7 @@ Para editar uma predefinição de mensagem, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Se uma predefinição de mensagem tiver a variável **[!UICONTROL Active]** , o **[!UICONTROL Name]**, **[!UICONTROL Select channel]** e **[!UICONTROL Subdomain]** Os campos estão esmaecidos e não podem ser editados.
+   >Se uma superfície de canal tiver a **[!UICONTROL Active]** , o **[!UICONTROL Name]**, **[!UICONTROL Select channel]** e **[!UICONTROL Subdomain]** Os campos estão esmaecidos e não podem ser editados.
 
 1. Clique em **[!UICONTROL Submit]** para confirmar as alterações.
 
@@ -155,9 +155,9 @@ Para editar uma predefinição de mensagem, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Você também pode salvar a predefinição de mensagem como rascunho e retomar a atualização posteriormente.
+   >Você também pode salvar a superfície do canal como rascunho e retomar a atualização posteriormente.
 
-Depois que as alterações forem enviadas, a predefinição de mensagem passará por um ciclo de validação semelhante ao vigente quando [criação de uma predefinição](#create-message-preset). O tempo de processamento da edição pode demorar até **3 horas**.
+Depois que as alterações forem enviadas, a superfície do canal passará por um ciclo de validação semelhante ao vigente quando [criação de uma superfície de canal](#create-message-preset). O tempo de processamento da edição pode demorar até **3 horas**.
 
 >[!NOTE]
 >
@@ -165,15 +165,13 @@ Depois que as alterações forem enviadas, a predefinição de mensagem passará
 
 ### Detalhes da atualização {#update-details}
 
-Para predefinições de mensagens com a variável **[!UICONTROL Active]** , você pode verificar os detalhes da atualização. Para fazer isso:
+Para superfícies de canal com a variável **[!UICONTROL Active]** , você pode verificar os detalhes da atualização. Para fazer isso:
 
-* Clique no botão **[!UICONTROL Recent update]** ícone que é exibido ao lado do nome da predefinição ativa.
+Clique no botão **[!UICONTROL Recent update]** ícone que é exibido ao lado do nome da superfície ativa.
 
-   ![](assets/preset-recent-update-icon.png)
+![](assets/preset-recent-update-icon.png)
 
-* Você também pode acessar os detalhes de atualização de uma predefinição de mensagem ativa enquanto a atualização estiver em andamento.
-
-   ![](assets/preset-view-update-details.png)
+<!--You can also access the update details from an active channel surface while update is in progress.-->
 
 No **[!UICONTROL Recent update]** você pode ver informações como o status da atualização e a lista de alterações solicitadas.
 
@@ -181,17 +179,17 @@ No **[!UICONTROL Recent update]** você pode ver informações como o status da 
 
 ### Atualizar status {#update-statuses}
 
-Uma atualização de predefinição de mensagem pode ter os seguintes status:
+Uma atualização da superfície do canal pode ter os seguintes status:
 
-* **[!UICONTROL Processing]**: A atualização da predefinição de mensagem foi enviada e está passando por várias etapas de verificação.
-* **[!UICONTROL Success]**: A predefinição de mensagem atualizada foi verificada e pode ser selecionada para criar mensagens.
-* **[!UICONTROL Failed]**: Uma ou várias verificações falharam durante a verificação de atualização predefinida de mensagem.
+* **[!UICONTROL Processing]**: A atualização da superfície do canal foi enviada e está passando por várias etapas de verificação.
+* **[!UICONTROL Success]**: A superfície de canal atualizada foi verificada e pode ser selecionada para criar mensagens.
+* **[!UICONTROL Failed]**: Uma ou várias verificações falharam durante a verificação de atualização da superfície do canal.
 
 Cada status é detalhado abaixo.
 
 #### Processamento
 
-Várias verificações de deliverability serão executadas para verificar se a predefinição foi atualizada corretamente.
+Várias verificações de deliverability serão executadas para verificar se a superfície foi atualizada corretamente.
 
 >[!NOTE]
 >
@@ -199,43 +197,43 @@ Várias verificações de deliverability serão executadas para verificar se a p
 
 O tempo de processamento pode demorar até **3 horas**. Saiba mais sobre as verificações realizadas durante o ciclo de validação em [esta seção](#create-message-preset).
 
-Se você editar uma predefinição que já estava ativa:
+Se você editar uma superfície que já estava ativa:
 
 * O seu estatuto permanece **[!UICONTROL Active]** enquanto o processo de validação estiver em andamento.
 
-* O **[!UICONTROL Recent update]** ícone é exibido ao lado do nome da predefinição na lista de predefinições de mensagem.
+* O **[!UICONTROL Recent update]** ícone é exibido ao lado do nome da superfície na lista de superfícies do canal.
 
-* Durante o processo de validação, as mensagens configuradas usando essa predefinição ainda usam a versão mais antiga da predefinição.
+* Durante o processo de validação, as mensagens configuradas usando essa superfície ainda usam a versão mais antiga da superfície.
 
 >[!NOTE]
 >
->Não é possível modificar uma predefinição de mensagem enquanto a atualização estiver em andamento. Ainda é possível clicar no nome, mas todos os campos estão esmaecidos. As alterações não serão refletidas até que a atualização seja bem-sucedida.
+>Não é possível modificar uma superfície de canal enquanto a atualização estiver em curso. Ainda é possível clicar no nome, mas todos os campos estão esmaecidos. As alterações não serão refletidas até que a atualização seja bem-sucedida.
 
 #### Sucesso {#success}
 
-Depois que o processo de validação for bem-sucedido, a nova versão da predefinição será usada automaticamente em todas as mensagens usando essa predefinição. No entanto, pode ser necessário aguardar:
+Depois que o processo de validação for bem-sucedido, a nova versão da superfície será automaticamente usada em todas as mensagens que usam essa superfície. No entanto, pode ser necessário aguardar:
 * alguns minutos antes de ser consumido pelas mensagens unitárias,
-* até o próximo lote para que a predefinição seja efetiva nas mensagens em lote.
+* até ao lote seguinte para que a superfície seja eficaz em mensagens por lote.
 
 #### Falha {#failed}
 
-Se o processo de validação falhar, a versão mais antiga da predefinição ainda será usada.
+Se o processo de validação falhar, a versão mais antiga da superfície ainda será usada.
 
 Saiba mais sobre os possíveis motivos de falha em [esta seção](#monitor-message-presets).
 
-Quando a atualização falhar, a predefinição poderá ser editada novamente. Você pode clicar no nome e atualizar as configurações que precisam ser corrigidas.
+Quando a atualização falhar, a superfície torna-se editável novamente. Você pode clicar no nome e atualizar as configurações que precisam ser corrigidas.
 
-## Desativar uma predefinição de mensagem {#deactivate-preset}
+## Desativar uma superfície de canal {#deactivate-preset}
 
-Para criar uma **[!UICONTROL Active]** não disponível para criar novas mensagens, você pode desativá-la. No entanto, as mensagens publicadas usando essa predefinição não serão afetadas e continuarão funcionando.
+Para criar uma **[!UICONTROL Active]** superfície do canal indisponível para criar novas mensagens, você pode desativá-la. No entanto, as mensagens das jornadas que atualmente usam essa superfície não serão afetadas e continuarão funcionando.
 
 >[!NOTE]
 >
->Não é possível desativar uma predefinição de mensagem durante o processamento de uma atualização. Aguarde até que a atualização seja bem-sucedida ou tenha falhado. Saiba mais sobre [edição de predefinições de mensagens](#edit-message-preset) e no [status de atualização](#update-statuses).
+>Não é possível desativar uma superfície de canal durante o processamento de uma atualização. Aguarde até que a atualização seja bem-sucedida ou tenha falhado. Saiba mais sobre [superfícies de canal de edição](#edit-message-preset) e no [status de atualização](#update-statuses).
 
-1. Acesse a lista de predefinições de mensagens.
+1. Acesse a lista de superfícies do canal.
 
-1. Para obter a predefinição ativa de sua escolha, clique no botão **[!UICONTROL More actions]** botão.
+1. Na superfície ativa de sua escolha, clique no botão **[!UICONTROL More actions]** botão.
 
 1. Selecione **[!UICONTROL Deactivate]**.
 
@@ -243,14 +241,14 @@ Para criar uma **[!UICONTROL Active]** não disponível para criar novas mensage
 
 >[!NOTE]
 >
->As predefinições de mensagens desativadas não podem ser excluídas para evitar qualquer problema no jornada usando essas predefinições para enviar mensagens.
+>Não é possível excluir superfícies de canal desativadas para evitar problemas nas jornadas que usam essas superfícies para enviar mensagens.
 
-Não é possível editar diretamente uma predefinição de mensagem desativada. No entanto, você pode duplicá-lo e editar a cópia para criar uma nova versão que será usada para criar novas mensagens. Também é possível ativá-la novamente e aguardar até que a atualização seja bem-sucedida na edição.
+Não é possível editar diretamente uma superfície de canal desativada. No entanto, você pode duplicá-lo e editar a cópia para criar uma nova versão que será usada para criar novas mensagens. Também é possível ativá-la novamente e aguardar até que a atualização seja bem-sucedida na edição.
 
 ![](assets/preset-activate.png)
 
 ## Vídeo tutorial{#video-presets}
 
-Saiba como criar predefinições de mensagens, usá-las e delegar um subdomínio e criar um pool de IP.
+Saiba como criar superfícies de canal, usá-las e como delegar um subdomínio e criar um pool de IP.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)

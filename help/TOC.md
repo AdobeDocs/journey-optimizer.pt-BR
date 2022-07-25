@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 98%
+source-wordcount: '1106'
+ht-degree: 96%
 
 ---
 
@@ -47,10 +47,9 @@ ht-degree: 98%
    + [Criar um email](using/messages/create-email.md)
    + [Criar uma notificação por push](using/messages/create-push.md)
    + [Criar uma mensagem de SMS.](using/messages/create-sms.md)
-   + Validar e publicar {#validate}
-      + [Verificar alertas](using/messages/alerts.md)
-      + [Publicar mensagens](using/messages/publish-manage-message.md)
-   + [Gerenciar o consentimento](using/messages/consent.md)
+   + [Verificar alertas](using/messages/alerts.md)
+   + [Gerenciar consentimento](using/messages/consent.md)
+   + [Enviar otimização de tempo](using/messages/send-time-optimization.md)
 + Criação de conteúdo {#design}
    + [Introdução ao design de email](using/design/design-emails.md)
    + [Iniciar do zero ](using/design/create-email-content.md)
@@ -138,7 +137,7 @@ ht-degree: 98%
       + [Fim](using/building-journeys/end-activity.md)
       + [Aguardar](using/building-journeys/wait-activity.md)
       + [Ler segmento](using/building-journeys/read-segment.md)
-      + [Mensagem](using/building-journeys/journeys-message.md)
+      + [Email, SMS, Push](using/building-journeys/journeys-message.md)
       + [Ações personalizadas](using/building-journeys/using-custom-actions.md)
       + [Ações do Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Ações do Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
@@ -238,19 +237,14 @@ ht-degree: 98%
       + [Enviar uma mensagem aos assinantes](using/building-journeys/message-to-subscribers-uc.md)
       + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
 + Rastrear e monitorar {#reporting}
-   + [Monitoramento de mensagens](using/reports/message-monitoring.md)
    + Relatório ao vivo {#live-report}
       + [Acessar o painel de relatórios em tempo real](using/reports/live-report.md)
       + [Relatório da jornada em tempo real](using/reports/journey-live-report.md)
-      + [Relatório por email em tempo real](using/reports/email-live-report.md)
-      + [Relatório por push em tempo real](using/reports/push-live-report.md)
       + [Relatório em tempo real da página de aterrissagem](using/reports/lp-report-live.md)
       + [Relatório em tempo real da lista de assinaturas](using/reports/subscription-report-live.md)
    + Relatório global {#global-report}
       + [Acessar o painel de relatórios global](using/reports/global-report.md)
       + [Relatório global da jornada](using/reports/journey-global-report.md)
-      + [Relatório global de email](using/reports/email-global-report.md)
-      + [Relatório global por push](using/reports/push-global-report.md)
       + [Relatório global da página de aterrissagem](using/reports/lp-report-global.md)
       + [Relatório global da lista de assinaturas](using/reports/subscription-report-global.md)
    + Relatórios de jornada {#reports}
@@ -385,8 +379,8 @@ ht-degree: 98%
             + [Tentativas](using/configuration/retries.md)
             + [Lista de permissões](using/configuration/allow-list.md)
       + [Configurar canal de SMS](using/configuration/sms-configuration.md)
-      + Configurar predefinições de mensagem {#set-up-message-presets}
-         + [Criar predefinições de mensagem](using/configuration/message-presets.md)
+      + Configurar superfícies do canal {#set-up-message-presets}
+         + [Criar superfícies de canal](using/configuration/message-presets.md)
          + [Definir configurações de email ](using/configuration/email-settings.md)
          + [Usar email com CCO](using/configuration/bcc-email.md)
       + [Gerenciar endereços de execução](using/configuration/primary-email-addresses.md)

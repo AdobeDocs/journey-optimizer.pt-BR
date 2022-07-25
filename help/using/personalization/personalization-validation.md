@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '311'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ Os erros relacionados à integração de ofertas em um email ou mensagem de push
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-A validação é realizada durante a publicação da mensagem ou durante a validação do conteúdo de personalização no editor de expressão.
+A validação é realizada durante a validação do conteúdo de personalização no editor de expressão.
 
 <table> 
  <thead> 

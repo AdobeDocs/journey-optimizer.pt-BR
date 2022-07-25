@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1284'
 ht-degree: 10%
 
 ---
@@ -31,9 +31,9 @@ Para enviar mensagens com o jornada, as seguintes configurações são necessár
 
    ![](assets/jo-datasource.png)
 
-1. **Configurar uma ação**: Os recursos de mensagens do Journey Optimizer são integrados, basta criar o conteúdo e publicar a mensagem. Consulte [esta seção](../messages/get-started-content.md). Se você estiver usando um sistema de terceiros para enviar mensagens, é possível criar uma ação personalizada. Saiba mais nesta [seção](../action/action.md). Esta etapa é executada por um **usuário técnico**.
+1. **Configurar uma ação**: Se você estiver usando um sistema de terceiros para enviar mensagens, é possível criar uma ação personalizada. Saiba mais nesta [seção](../action/action.md). Esta etapa é executada por um **usuário técnico**. Se estiver usando os recursos de mensagem integrados do Journey Optimizer, basta adicionar uma ação de canal à jornada e projetar o conteúdo. Consulte [esta seção](../messages/get-started-content.md).
 
-   ![](assets/create-content-push.png)
+   ![](assets/custom2.png)
 
 ## Crie sua jornada{#jo-build}
 
@@ -60,7 +60,7 @@ Estas são as principais etapas para enviar mensagens por meio do jornada:
 
    ![](assets/read-segment.png)
 
-1. Arraste e solte as próximas etapas que o indivíduo seguirá. Por exemplo, você pode adicionar uma condição seguida de uma mensagem. Para saber mais sobre atividades, consulte [esta seção](using-the-journey-designer.md).
+1. Arraste e solte as próximas etapas que o indivíduo seguirá. Por exemplo, é possível adicionar uma condição seguida de uma ação de canal. Para saber mais sobre atividades, consulte [esta seção](using-the-journey-designer.md).
 
 1. Teste sua jornada usando perfis de teste. Saiba mais nesta [seção](testing-the-journey.md)
 

@@ -4,10 +4,10 @@ description: Saiba como configurar seu ambiente para enviar mensagens SMS com o 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 3%
+source-wordcount: '410'
+ht-degree: 8%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 3%
 
 [!DNL Journey Optimizer] O permite criar suas jornadas e enviar mensagens para o público-alvo.
 
-Antes de enviar SMS, configure sua instância. Você precisa [integrar as configurações do provedor](#create-api) com a Journey Optimizer e [criar uma predefinição de SMS](#message-preset-sms). Essas etapas devem ser executadas por um [Administrador de sistema da Adobe Journey Optimizer](../start/path/administrator.md).
+Antes de enviar SMS, configure sua instância. Você precisa [integrar as configurações do provedor](#create-api) com a Journey Optimizer e [criar uma superfície de SMS](#message-preset-sms) (ou seja, predefinição de SMS). Essas etapas devem ser executadas por um [Administrador de sistema da Adobe Journey Optimizer](../start/path/administrator.md).
 
 >[!AVAILABILITY]
 >
->No momento, o canal SMS está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o representante do Adobe.
+>No momento, o canal SMS está disponível apenas para algumas organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
 
 ## Criar nova credencial da API {#create-api}
 
@@ -42,19 +42,19 @@ Para configurar seu fornecedor de SMS com o Journey Optimizer, siga estas etapas
 
 1. Clique em **[!UICONTROL Submit]** ao concluir a configuração das credenciais da API.
 
-Depois de criar e configurar sua credencial de API, agora é necessário criar uma predefinição de mensagem para mensagens SMS.
+Depois de criar e configurar sua credencial de API, agora é necessário criar uma superfície de canal (ou seja, predefinição de mensagem) para mensagens SMS.
 
-## Criar uma predefinição de mensagem para mensagens SMS {#message-preset-sms}
+## Criar uma superfície de canal para mensagens SMS {#message-preset-sms}
 
-Após configurar o canal SMS, é necessário criar uma predefinição de mensagem para enviar mensagens SMS de **[!DNL Journey Optimizer]**.
+Após configurar o canal SMS, é necessário criar uma superfície de canal para enviar mensagens SMS de **[!DNL Journey Optimizer]**.
 
-Para criar uma predefinição de mensagem, siga estas etapas:
+Para criar uma superfície de canal, siga estas etapas:
 
-1. Acesse o **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** , em seguida, clique em **[!UICONTROL Create Message preset]**.
+1. Acesse o **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** , em seguida, clique em **[!UICONTROL Create channel surface]**.
 
    ![](assets/preset-create.png)
 
-1. Insira um nome e uma descrição (opcional) para a predefinição, depois selecione o canal SMS.
+1. Insira um nome e uma descrição (opcional) para a superfície e selecione o canal SMS.
 
    ![](assets/sms_preset.png)
 
@@ -66,9 +66,9 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    ![](assets/preset-sms.png)
 
-   * Selecione o **[!UICONTROL SMS Type]** que será enviado com a predefinição: **[!UICONTROL Transactional]** ou **[!UICONTROL Marketing]**.
+   * Selecione o **[!UICONTROL SMS Type]** que será enviado com a superfície: **[!UICONTROL Transactional]** ou **[!UICONTROL Marketing]**.
 
-   * Selecione o **[!UICONTROL SMS configuration]** para associar com a predefinição.
+   * Selecione o **[!UICONTROL SMS configuration]** para associar com a superfície.
 
       Para obter mais informações sobre como configurar seu ambiente para enviar mensagens SMS, consulte [esta seção](#create-api).
 
@@ -76,17 +76,17 @@ Para criar uma predefinição de mensagem, siga estas etapas:
 
    * Selecione seu **[!UICONTROL SMS Execution Field]** para selecionar o **[!UICONTROL Profile attribute]** associado aos números de telefone dos perfis.
 
-1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Submit]** para confirmar. Você também pode salvar a predefinição de mensagem como rascunho e retomar sua configuração posteriormente.
+1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Submit]** para confirmar. Você também pode salvar a superfície do canal como rascunho e retomar sua configuração posteriormente.
 
    ![](assets/sms_preset_2.png)
 
-1. Depois que a predefinição de mensagem tiver sido criada, ela será exibida na lista com a variável **[!UICONTROL Processing]** status.
+1. Depois que a superfície do canal for criada, ela será exibida na lista com a variável **[!UICONTROL Processing]** status.
 
    >[!NOTE]
    >
    >Se as verificações não forem bem-sucedidas, saiba mais sobre os possíveis motivos de falha em [esta seção](#monitor-message-presets).
 
-1. Depois que as verificações são bem-sucedidas, a predefinição de mensagem recebe a variável **[!UICONTROL Active]** status. Ele está pronto para ser usado para entregar mensagens.
+1. Depois que as verificações são bem-sucedidas, a superfície do canal recebe a variável **[!UICONTROL Active]** status. Ele está pronto para ser usado para entregar mensagens.
 
    ![](assets/preset-active.png)
 

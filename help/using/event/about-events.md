@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 54%
@@ -24,7 +24,7 @@ A configuração do evento permite definir as informações que o [!DNL Journey 
 
 >[!CAUTION]
 >
->A configuração do evento é **mandatory** e deve ser executado por um **usuário técnico**.
+>A configuração do evento é **mandatory** e deve ser executado por um **engenheiro de dados**.
 
 Você pode configurar dois tipos de eventos:
 

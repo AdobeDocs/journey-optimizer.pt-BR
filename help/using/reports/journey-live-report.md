@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '864'
 ht-degree: 1%
 
 ---
 
 # Relatório ao vivo da jornada {#journey-live-report}
 
-O relatório ao vivo do Jornada pode ser acessado diretamente da sua jornada com o **[!UICONTROL Live report]** botão.
+O relatório ao vivo do Jornada pode ser acessado diretamente da sua jornada com o **[!UICONTROL View report]** botão.
 
-![](assets/report_1.png)
+![](assets/report_journey.png)
 
 A jornada **[!UICONTROL Live report]** será exibida com as seguintes guias:
 
@@ -44,8 +44,6 @@ O **[!UICONTROL Journey Statistics]** O widget exibe os seguintes KPIs:
 
 * **[!UICONTROL Failed individual journeys]**: Número total de jornadas individuais que não foram executadas com êxito.
 
-![](assets/report_journey_3.png)
-
 O **[!UICONTROL Event executed over the last 24 hours]** e **[!UICONTROL Events]** os widgets permitem ver qual dos seus eventos foi executado com êxito por meio do número do resumo, gráfico e tabela.
 
 ![](assets/report_journey_4.png)
@@ -59,8 +57,6 @@ O **[!UICONTROL Action executed over the last 24 hours]** e **[!UICONTROL Action
 ## Guia Email {#email-live}
 
 Da sua jornada **[!UICONTROL Live report]**, o **[!UICONTROL Email]** detalha as informações principais relativas aos deliveries de email enviados na jornada.
-
-Para obter um relatório detalhado sobre um delivery de email específico, consulte a [Relatório ao vivo por email](email-live-report.md) seção.
 
 ![](assets/report_email_1.png)
 
@@ -123,8 +119,6 @@ O **[!UICONTROL Offers statistic]** e **[!UICONTROL Offers statistics]** com o p
 ## Guia Empurrar {#push-live}
 
 Da sua jornada **[!UICONTROL Live report]**, o **[!UICONTROL Push]** detalha as informações principais relativas aos deliveries por push enviados na jornada.
-
-Para obter um relatório detalhado sobre um delivery de push específico, consulte [Enviar relatório ao vivo](push-live-report.md) seção.
 
 ![](assets/report_push_1.png)
 

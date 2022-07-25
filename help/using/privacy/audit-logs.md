@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ A tabela a seguir descreve quais ações, em quais recursos do Journey Optimizer
 | Predefinição da página de aterrissagem do AJO | Criar / Excluir / Atualizar |
 | Subdomínio da página de aterrissagem do AJO | Criar / Excluir / Atualizar |
 | Mensagens do AJO | Criar / Excluir / Atualizar / Publicar |
-| Predefinição de mensagem do AJO | Criar / Excluir / Atualizar |
+| Superfície do canal AJO | Criar / Excluir / Atualizar |
 | Registro PTR do AJO | Criar / Excluir / Atualizar |
 | Modelo de expressão salva do AJO | Criar / Excluir / Atualizar |
 | Credenciais da API de SMS do AJO | Criar / Excluir / Atualizar |

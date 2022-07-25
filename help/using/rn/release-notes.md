@@ -2,10 +2,10 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 100%
+source-wordcount: '552'
+ht-degree: 88%
 
 ---
 
@@ -16,6 +16,10 @@ Esta página lista todos os novos recursos e melhorias do [!DNL Journey Optimize
 O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [Informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
+
+>[!CAUTION]
+>
+>Em 25 de julho, a Adobe Journey Optimizer lançará um [novo recurso](../rn/inline-messages.md) O que melhora a maneira como você cria conteúdo para canais do Journey Optimizer (email, push, SMS). Como um praticante da Journey Optimizer, você agora [criar e criar](../messages/get-started-content.md) suas mensagens diretamente de uma jornada. Uma conversão automática de jornadas é executada para você. Dito isto, precisamos da vossa ajuda com alguns passos. Saiba mais sobre o [etapas necessárias](../rn/inline-messages-steps.md).
 
 ## Versão de junho de 2022 {#june-2022-release}
 
@@ -117,7 +121,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
@@ -153,7 +157,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 * **Edição de pool de IPs** - Agora, ao atualizar um pool de IPs, o tempo de processamento pode levar até 3 horas. [Saiba mais](../configuration/ip-pools.md#edit-ip-pool)
 
-<!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
+<!--* **Personalize tracking URL parameters** - You can now use the Expression editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
 <!--
 **Reporting**

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '402'
 ht-degree: 44%
 
 ---
@@ -36,7 +36,7 @@ Na configuração do evento, configure os eventos esperados nas jornadas. Os dad
 
 ## Ações {#actions}
 
-Os recursos de mensagem do Journey Optimizer são incorporados: você só precisa criar o conteúdo e publicar a mensagem. Se você estiver usando um sistema de terceiros para enviar mensagens, é possível criar uma ação personalizada. [Saiba mais](../../using/action/action.md)
+Os recursos de mensagem do Journey Optimizer são incorporados: você só precisa adicionar uma atividade de ação de canal à jornada. Se você estiver usando um sistema de terceiros para enviar mensagens, é possível criar uma ação personalizada. [Saiba mais](../../using/action/action.md)
 
 ## Procurar nos campos da Adobe Experience Platform {#friendly-names-display}
 

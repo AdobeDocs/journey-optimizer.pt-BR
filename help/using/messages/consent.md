@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
-workflow-type: ht
-source-wordcount: '1314'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1311'
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ Portanto, você sempre deve incluir um **link para cancelar a inscrição** em c
 
 >[!NOTE]
 >
->As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definida no [nível da predefinição de mensagem](../configuration/message-presets.md#email-type) e ao [criar a mensagem](get-started-content.md#create-new-message).
+>As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definido na variável [superfície do canal](../configuration/message-presets.md#email-type) (ou seja, predefinição de mensagem) e quando [criação da mensagem](get-started-content.md#create-new-message).
 
 ### Opção de não participação externa {#opt-out-external-lp}
 
@@ -55,7 +55,7 @@ Primeiro, é necessário adicionar um link de cancelamento de inscrição em uma
 
 1. Hospede-o no sistema de terceiros de sua preferência.
 
-1. [Criar uma mensagem](get-started-content.md) no [!DNL Journey Optimizer].
+1. [Criar uma mensagem](get-started-content.md) em uma jornada.
 
 1. Selecione o texto no seu conteúdo e [insira um link](../design/message-tracking.md#insert-links) usando a barra de ferramentas contextual.
 
@@ -70,8 +70,6 @@ Primeiro, é necessário adicionar um link de cancelamento de inscrição em uma
    ![](assets/opt-out-link-url.png)
 
 1. Clique em **[!UICONTROL Save]**.
-
-1. Salve o conteúdo e [publique a mensagem](publish-manage-message.md).
 
 #### Implementar uma chamada de API para opção de não participação {#opt-out-api}
 
@@ -113,7 +111,7 @@ Corpo da solicitação:
 }
 ```
 
-O [!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio da chamada de API do [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}.
+O [!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio da chamada de API do [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}.
 
 #### Enviar a mensagem com link de cancelamento de inscrição {#send-message-unsubscribe-link}
 
@@ -161,7 +159,7 @@ Para adicionar um link para opção de não participação no seu email, siga as
 
    >[!NOTE]
    >
-   >Se você ativou a opção **List-Unsubscribe** no nível de predefinição da mensagem, esse URL também será usado quando os usuários clicarem no link de cancelamento de inscrição no cabeçalho do email. [Saiba mais](#unsubscribe-header)
+   >Se você ativou a variável **List-Unsubscribe** no nível da superfície do canal, esse URL também será usado quando os usuários clicarem no link de cancelamento de subscrição no cabeçalho do email. [Saiba mais](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -171,15 +169,15 @@ Para adicionar um link para opção de não participação no seu email, siga as
 
 Depois que a mensagem for enviada por meio de uma [jornada](../building-journeys/journey.md), se um recipient clicar no link para opção de não participação, o perfil dele registrará imediatamente a opção de não participação.
 
-### Link de cancelamento de inscrição no cabeçalho da mensagem {#unsubscribe-header}
+### Cancelar assinatura do link no cabeçalho do email {#unsubscribe-header}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Adicionar link de cancelamento de inscrição ao cabeçalho do email"
->abstract="Ative o List-Unsubscribe para adicionar um link de cancelamento de inscrição ao cabeçalho do email. Para definir um URL de cancelamento de inscrição, insira um link de recusa de um clique no conteúdo da mensagem de email."
+>abstract="Ative o List-Unsubscribe para adicionar um link de cancelamento de inscrição ao cabeçalho do email. Para definir um URL de cancelamento de inscrição, insira um link de recusa de um clique no conteúdo do email."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=pt-BR#one-click-opt-out" text="Recusar com um clique"
 
-Se a [opção List-Unsubscribe](../configuration/message-presets.md#list-unsubscribe) estiver ativada no nível da predefinição da mensagem, os emails correspondentes enviados com o [!DNL Journey Optimizer] incluirão um link de cancelamento de inscrição no cabeçalho do email.
+Se a variável [Opção List-Unsubscribe](../configuration/message-presets.md#list-unsubscribe) estiver ativado no nível da superfície do canal, os emails correspondentes enviados com [!DNL Journey Optimizer] incluirá um link de cancelamento de subscrição no cabeçalho do email.
 
 Por exemplo, o link de cancelamento de inscrição será exibido assim no Gmail:
 
@@ -189,7 +187,7 @@ Por exemplo, o link de cancelamento de inscrição será exibido assim no Gmail:
 >
 >Para exibir o link de cancelamento de inscrição no cabeçalho do email, o cliente de email dos destinatários deve ser compatível com esse recurso.
 
-O endereço de cancelamento de inscrição é o endereço padrão do **[!UICONTROL Mailto (unsubscribe)]** exibido na predefinição de mensagem correspondente. [Saiba mais](../configuration/message-presets.md#list-unsubscribe).
+O endereço de cancelamento de subscrição é o padrão **[!UICONTROL Mailto (unsubscribe)]** endereço exibido na superfície do canal correspondente. [Saiba mais](../configuration/message-presets.md#list-unsubscribe).
 
 Para definir um URL de cancelamento de inscrição personalizado, insira um link de recusa de um clique no conteúdo da mensagem de email e insira o URL de sua escolha. [Saiba mais](#one-click-opt-out)
 
@@ -203,7 +201,7 @@ Dependendo do cliente de email, clicar no link de cancelamento de inscrição no
    >
    >Se você não adicionar um link de recusa de um clique no conteúdo da mensagem, nenhuma página de aterrissagem será exibida.
 
-* O perfil correspondente é cancelado imediatamente e essa escolha é atualizada na Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target=&quot;_blank&quot;}.
+* O perfil correspondente é cancelado imediatamente e essa escolha é atualizada na Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
 ## Encaminhar o gerenciamento de recusa {#push-opt-out-management}
 

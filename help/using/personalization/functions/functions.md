@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1738'
 ht-degree: 3%
@@ -23,7 +23,7 @@ A linguagem de modelo é usada em funções de ajuda disponíveis na lista suspe
 
 ![](../assets/access-helper-functions.png)
 
-No [!DNL Journey Optimizer] O Editor de expressão, as funções de ajuda são agrupadas em três categorias: [Funções](#functions-helper), [Ajudantes](#helper-helper) e [Operadores](#operators-helper).
+No [!DNL Journey Optimizer] As funções de ajuda do editor de expressão são agrupadas em três categorias: [Funções](#functions-helper), [Ajudantes](#helper-helper) e [Operadores](#operators-helper).
 
 Selecione uma categoria para acessar subcategorias e funções.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1082'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Também é possível excluir, duplicar e desfazer a publicação de uma landing 
 
 >[!CAUTION]
 >
->Se você cancelar a publicação de uma landing page referenciada em uma mensagem não publicada, a mensagem não poderá ser publicada até que a landing page seja publicada novamente. Se a mensagem já estiver publicada, o link para a landing page será quebrado e uma página de erro será exibida.
+>Se você cancelar a publicação de uma landing page referenciada em uma mensagem não publicada, o link para a landing page será quebrado e uma página de erro será exibida.
 
 Clique nos três pontos ao lado de uma página de aterrissagem para selecionar a ação desejada.
 
