@@ -3,9 +3,9 @@ title: Journey Optimizer - Introdução aos profissionais de marketing
 description: Como Jornada, aprenda mais sobre como trabalhar com a Journey Optimizer
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '447'
 ht-degree: 8%
 
 ---
@@ -36,7 +36,7 @@ Consulte as seguintes seções para configurar a primeira jornada, adicionar ofe
 
    * Aproveitamento **dados contextuais** de eventos, informações do Adobe Experience Platform ou dados de serviços de API de terceiros.
 
-   * Use o **ação de canal integrada** para enviar mensagens projetadas no [!DNL Journey Optimizer] ou criar **ações personalizadas** se estiver usando um sistema de terceiros para enviar mensagens.
+   * Use o **ações de canal integradas** (Email, SMS, Push) para enviar mensagens projetadas em [!DNL Journey Optimizer] ou criar **ações personalizadas** se estiver usando um sistema de terceiros para enviar mensagens.
 
    * Com o **Designer do jornada** crie seus casos de uso em várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de segmento de leitura, adicione condições e envie mensagens personalizadas.
 
