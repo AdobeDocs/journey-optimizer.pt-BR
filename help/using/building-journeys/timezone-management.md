@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '280'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,10 @@ Esse fuso horário será usado para cada atividade da jornada que contém um ele
 * [Condição de tempo](../building-journeys/condition-activity.md#time_condition)
 * [Condição de data](../building-journeys/condition-activity.md#date_condition)
 * [Aguardar personalizado](../building-journeys/wait-activity.md#custom)
-* [Data de espera fixa](../building-journeys/wait-activity.md#fixed_date)
+
+<!--
+* [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
+-->
 
 Você pode selecionar um fuso horário ou optar por usar o fuso horário definido no perfil do usuário.
 
@@ -42,13 +45,9 @@ Para fazer isso, no **[!UICONTROL Journey Properties]** selecione um fuso horár
 
 ## Usar perfis para definir o fuso horário da jornada {#timezone-from-profiles}
 
-Se o evento de entrada da jornada tiver um namespace, o que significa que a jornada pode acessar o serviço de Perfil do cliente em tempo real do Adobe Experience Platform, o fuso horário será predefinido com o especificado no perfil do indivíduo que flui na jornada.
+Se o evento de entrada da jornada tiver um namespace, o que significa que a jornada pode acessar o serviço de Perfil do cliente em tempo real do Adobe Experience Platform, você pode usar o fuso horário definido no nível do perfil. Para fazer isso, em **Propriedades**, verificar **Usar o fuso horário do perfil em esperas e condições**. Essa opção não está marcada por padrão.
 
-Se um fuso horário for definido no perfil do Adobe Experience Platform, ele poderá ser recuperado na jornada.
-
-Se o perfil do indivíduo não contiver um fuso horário, o fuso horário recuperado será aquele definido no campo timezone.
-
-Para fazer isso, em **[!UICONTROL Properties]**, verificar **[!UICONTROL Use Profile timezone in waits and conditions]**.
+Se um fuso horário tiver sido definido para um perfil, ele será recuperado e usado pela jornada. Caso contrário, o fuso horário usado será o definido no campo de fuso horário.
 
 ![](assets/journey73.png)
 

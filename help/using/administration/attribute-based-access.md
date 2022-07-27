@@ -5,13 +5,11 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 2%
+source-wordcount: '991'
+ht-degree: 3%
 
 ---
 
@@ -25,15 +23,64 @@ O ABAC (Attribute-based access control) permite definir autorizações para gere
 
 No Adobe Journey Optimizer, o ABAC permite proteger dados e conceder acesso específico a elementos de campo específicos, incluindo esquemas do Experience Data Model (XDM), atributos do perfil e segmentos.
 
-<!--For a more detailed list of the terminology used with ABAC, refer to Adobe Experience Platform documentation.-->
+Para obter uma lista mais detalhada da terminologia usada com o ABAC, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
 
 Neste exemplo, queremos adicionar um rótulo à variável **Nacionalidade** campo de esquema para restringir a utilização de usuários não autorizados. Para que isso funcione, é necessário executar as seguintes etapas:
 
+1. Crie um novo  **[!UICONTROL Role]** e atribua-a com o  **[!UICONTROL Label]** para que os usuários possam acessar e usar o campo schema .
+
 1. Atribua um  **[!UICONTROL Label]** para **Nacionalidade** no Adobe Experience Platform.
 
-2. Crie um novo  **[!UICONTROL Role]** e atribua-a com o  **[!UICONTROL Label]** para que os usuários possam acessar e usar o campo schema .
+1. Use o  **[!UICONTROL Schema field]** no Adobe Journey Optimizer.
 
-3. Use o  **[!UICONTROL Schema field]** no Adobe Journey Optimizer.
+Observe que **[!UICONTROL Roles]**, **[!UICONTROL Policies]** e **[!UICONTROL Products]** também pode ser acessada com a API de controle de acesso baseada em atributos. Para obter mais informações, consulte esta [documentação](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html).
+
+## Criar uma função e atribuir rótulos {#assign-role}
+
+>[!IMPORTANT]
+>
+>Antes de gerenciar permissões para uma função, primeiro será necessário criar uma política. Para obter mais informações, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html).
+
+**[!UICONTROL Roles]** são um conjunto de usuários que compartilham as mesmas permissões, rótulos e sandboxes em sua organização. Cada usuário pertencente a um **[!UICONTROL Role]** tem direito aos aplicativos e serviços do Adobe contidos no produto.
+Você também pode criar seu próprio **[!UICONTROL Roles]** se quiser ajustar o acesso dos usuários a determinadas funcionalidades ou objetos na interface.
+
+Agora, queremos conceder aos usuários selecionados acesso ao **Nacionalidade** , rotulada como C2. Para isso, precisamos criar um novo **[!UICONTROL Role]** com um conjunto específico de utilizadores e conceda-lhes o rótulo C2 que lhes permita utilizar o **Nacionalidade** detalhes em uma **[!UICONTROL Journey]**.
+
+1. No [!DNL Permissions] produto, selecione **[!UICONTROL Role]** no menu do painel esquerdo e clique em **[!UICONTROL Create role]**. Observe que você também pode adicionar **[!UICONTROL Label]** para funções integradas.
+
+   ![](assets/role_1.png)
+
+1. Adicione um **[!UICONTROL Name]** e **[!UICONTROL Description]** para o novo **[!UICONTROL Role]**, aqui: Função demográfica restrita.
+
+1. No menu suspenso , selecione o **[!UICONTROL Sandbox]**.
+
+   ![](assets/role_2.png)
+
+1. No **[!UICONTROL Resources]** , clique em **[!UICONTROL Adobe Experience Platform]** para abrir os diferentes recursos. Aqui, selecionamos **[!UICONTROL Journeys]**.
+
+   ![](assets/role_3.png)
+
+1. No menu suspenso , selecione o **[!UICONTROL Permissions]** vinculado ao recurso selecionado, como **[!UICONTROL View journeys]** ou **[!UICONTROL Publish journeys]**.
+
+   ![](assets/role_6.png)
+
+1. Depois de salvar o recém-criado **[!UICONTROL Role]**, clique em **[!UICONTROL Properties]** para configurar ainda mais o acesso à sua função.
+
+   ![](assets/role_7.png)
+
+1. Na guia **[!UICONTROL Users]**, clique em **[!UICONTROL Add users]**.
+
+   ![](assets/role_8.png)
+
+1. Na guia **[!UICONTROL Labels]**, selecione **[!UICONTROL Add label]**.
+
+   ![](assets/role_9.png)
+
+1. Selecione o **[!UICONTROL Labels]** você deseja adicionar à sua função e clicar em **[!UICONTROL Save]**. Neste exemplo, concedemos o rótulo C2 para que os usuários tenham acesso ao campo do schema restrito anteriormente.
+
+   ![](assets/role_4.png)
+
+Os usuários da **Função demográfica limitada** agora têm acesso aos objetos rotulados do C2.
 
 ## Atribuir rótulos a um objeto no Adobe Experience Platform {#assign-label}
 
@@ -69,49 +116,6 @@ Ao aplicar uma **[!UICONTROL Label]** para **[!UICONTROL Field name]**, observe 
 
 ![](assets/label_5.png)
 
-## Criar uma função e atribuir rótulos {#assign-role}
-
-**[!UICONTROL Roles]** são um conjunto de usuários que compartilham as mesmas permissões, rótulos e sandboxes em sua organização. Cada usuário pertencente a um **[!UICONTROL Role]** tem direito aos aplicativos e serviços do Adobe contidos no produto.
-Você também pode criar seu próprio **[!UICONTROL Roles]** se quiser ajustar o acesso dos usuários a determinadas funcionalidades ou objetos na interface.
-
-Agora, queremos conceder aos usuários selecionados acesso ao **Nacionalidade** , rotulada como C2. Para isso, precisamos criar um novo **[!UICONTROL Role]** com um conjunto específico de utilizadores e conceda-lhes o rótulo C2 que lhes permita utilizar o **Nacionalidade** detalhes em uma **[!UICONTROL Journey]**.
-
-1. No [!DNL Permissions] produto, selecione **[!UICONTROL Role]** no menu do painel esquerdo e clique em **[!UICONTROL Create role]**. Observe que você também pode adicionar **[!UICONTROL Label]** para funções integradas.
-
-   ![](assets/role_1.png)
-
-1. Adicione um **[!UICONTROL Name]** e **[!UICONTROL Description]** para o novo **[!UICONTROL Role]**, aqui: Função demográfica restrita.
-
-1. No menu suspenso , selecione o **[!UICONTROL Sandbox]**.
-
-   ![](assets/role_2.png)
-
-1. No **[!UICONTROL Resources]** , clique em **[!UICONTROL Adobe Experience Platform]** para abrir os diferentes recursos. Aqui, selecionamos **[!UICONTROL Messages]**.
-
-   ![](assets/role_3.png)
-
-1. No menu suspenso , selecione o **[!UICONTROL Permissions]** vinculado ao recurso selecionado, como **[!UICONTROL View messages]** ou **[!UICONTROL Publish journeys]**.
-
-   ![](assets/role_6.png)
-
-1. Depois de salvar o recém-criado **[!UICONTROL Role]**, clique em **[!UICONTROL Properties]** para configurar ainda mais o acesso à sua função.
-
-   ![](assets/role_7.png)
-
-1. Na guia **[!UICONTROL Users]**, clique em **[!UICONTROL Add users]**.
-
-   ![](assets/role_8.png)
-
-1. Na guia **[!UICONTROL Labels]**, selecione **[!UICONTROL Add label]**.
-
-   ![](assets/role_9.png)
-
-1. Selecione o **[!UICONTROL Labels]** você deseja adicionar à sua função e clicar em **[!UICONTROL Save]**. Neste exemplo, concedemos o rótulo C2 para que os usuários tenham acesso ao campo do schema restrito anteriormente.
-
-   ![](assets/role_4.png)
-
-Os usuários da **Função demográfica limitada** agora têm acesso aos objetos rotulados do C2.
-
 ## Acessar objetos rotulados no Adobe Journey Optimizer {#attribute-access-ajo}
 
 Depois de rotular nosso **Nacionalidade** nome do campo em um novo schema e nossa nova função, agora podemos ver o impacto dessa restrição no Adobe Journey Optimizer.
@@ -133,7 +137,7 @@ No nosso exemplo, um primeiro usuário X com acesso a objetos rotulados como C2 
 
    ![](assets/journey_4.png)
 
-1. Em seguida, crie uma Jornada que enviará uma mensagem para os usuários com uma nacionalidade específica. Adicione um **[!UICONTROL Event]** depois um **[!UICONTROL Condition]**.
+1. Em seguida, crie uma Jornada que enviará um email para usuários com uma nacionalidade específica. Adicione um **[!UICONTROL Event]** depois um **[!UICONTROL Condition]**.
 
    ![](assets/journey_5.png)
 
@@ -145,11 +149,11 @@ No nosso exemplo, um primeiro usuário X com acesso a objetos rotulados como C2 
 
    ![](assets/journey_7.png)
 
-1. Personalize sua jornada conforme necessário, aqui adicionamos um **[!UICONTROL Message]** ação.
+1. Personalize sua jornada conforme necessário, aqui adicionamos um **[!UICONTROL Email]** ação.
 
    ![](assets/journey_8.png)
 
-Se o Usuário Y sem acesso aos objetos C2 do rótulo precisar acessar essa jornada ou qualquer mensagem com esse campo restrito:
+Se o Usuário Y sem acesso aos objetos C2 do rótulo precisar acessar essa jornada com esse campo restrito:
 
 * O usuário Y não poderá usar o nome de campo restrito, pois ele não estará visível.
 
@@ -157,6 +161,6 @@ Se o Usuário Y sem acesso aos objetos C2 do rótulo precisar acessar essa jorna
 
 * O usuário Y pode excluir a Expressão.
 
-* O usuário Y não poderá testar a Jornada ou a mensagem.
+* O usuário Y não poderá testar a Jornada.
 
-* O usuário Y não poderá publicar a Jornada ou a mensagem.
+* O usuário Y não poderá publicar a Jornada.

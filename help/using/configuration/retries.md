@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 2%
@@ -53,7 +53,7 @@ O **período de tempo de nova tentativa** é o período no qual qualquer mensage
 
 Por padrão, as tentativas serão executadas para **3,5 dias** ou **84 horas**) a partir do momento em que a mensagem foi adicionada à fila de email.
 
-No entanto, para garantir que as tentativas de repetição não sejam mais executadas quando não forem mais necessárias, é possível alterar essa configuração de acordo com suas necessidades ao criar ou editar uma [superfície do canal](message-presets.md) (ou seja, predefinição de mensagem) aplicável ao canal de email.
+No entanto, para garantir que as tentativas de repetição não sejam mais executadas quando não forem mais necessárias, é possível alterar essa configuração de acordo com suas necessidades ao criar ou editar uma [superfície do canal](channel-surfaces.md) (ou seja, predefinição de mensagem) aplicável ao canal de email.
 
 Por exemplo, você pode definir o período de nova tentativa como 24 horas para um email transacional relacionado à redefinição de senha e contendo um link válido por apenas um dia. Da mesma forma, para uma venda à meia-noite, você pode definir um período de repetição de 6 horas.
 
@@ -61,5 +61,5 @@ Por exemplo, você pode definir o período de nova tentativa como 24 horas para 
 >
 >O período de repetição não pode exceder 84 horas. O período mínimo de tentativas é de 6 horas para emails de marketing e 10 minutos para emails transacionais.
 
-Saiba como ajustar os parâmetros de repetição de email ao criar uma superfície de canal em [esta seção](message-presets.md#create-message-preset).
+Saiba como ajustar os parâmetros de repetição de email ao criar uma superfície de canal em [esta seção](channel-surfaces.md#create-channel-surface).
 

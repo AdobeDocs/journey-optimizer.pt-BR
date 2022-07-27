@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 9aa8b8c33eae6fd595643c5fefb4b4ea46ae7b73
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '751'
 ht-degree: 3%
 
 ---
@@ -32,19 +32,20 @@ Para fazer isso, a organização:
 
 <!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting segments.) -->
 
+>[!NOTE]
+>
+>A decisão em lote também pode ser executada usando a interface do Journey Optimizer. Para obter mais informações, consulte [esta seção](../../batch-delivery.md), que fornece informações sobre pré-requisitos e limitações globais a serem considerados ao usar a decisão em lote.
+
+* **O número de trabalhos em lote em execução por conjunto de dados**: É possível executar até cinco trabalhos em lote por vez, por conjunto de dados. Quaisquer outras solicitações em lote com o mesmo conjunto de dados de saída são adicionadas à fila. Um trabalho em fila é selecionado para o processamento quando o trabalho anterior terminar de ser executado.
+* **Limite de frequência**: Um lote é executado do instantâneo do perfil que ocorre uma vez por dia. O [!DNL Batch Decisioning] A API limita a frequência e sempre carrega perfis do instantâneo mais recente.
+
 ## Introdução {#getting-started}
 
 Antes de usar essa API, complete as etapas de pré-requisitos a seguir.
 
 ### Preparar a decisão {#prepare-decision}
 
-Siga as etapas abaixo para preparar uma ou mais decisões:
-
-* Para exportar o resultado da decisão, crie um conjunto de dados usando o schema &quot;ODE DecisionEvents&quot;.
-
-* Crie um segmento da Platform que deve ser avaliado e atualizado. Consulte a [documentação de segmentação](http://www.adobe.com/go/segmentation-overview-en) para saber mais sobre como atualizar a avaliação de associação de segmento.
-
-* Crie uma decisão (que tem um escopo de decisão que consiste em uma ID de decisão e uma ID de posicionamento) no Adobe Journey Optimizer. Consulte a [seção sobre a definição dos escopos de decisão](../../offer-activities/create-offer-activities.md) do guia sobre como criar decisões para saber mais.
+Para preparar uma ou mais decisões, verifique se você criou um conjunto de dados, um segmento e uma decisão. Esses pré-requisitos estão detalhados em [esta seção](../../batch-delivery.md).
 
 ### Requisitos da API {#api-requirements}
 
@@ -58,6 +59,10 @@ Todos [!DNL Batch Decisioning] para além dos referidos no [Guia do desenvolvedo
 ## Iniciar um processo em lote {#start-a-batch-process}
 
 Para iniciar uma carga de trabalho para decisões de processo em lote, faça uma solicitação de POST para a `/workloads/decisions` endpoint .
+
+>[!NOTE]
+>
+>Informações detalhadas sobre o tempo de processamento de trabalhos em lote estão disponíveis em [esta seção](../../batch-delivery.md).
 
 **Formato da API**
 
@@ -178,33 +183,6 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 | `ode:createDate` | A hora em que a solicitação de Carga de Trabalho de Decisão foi criada. | `1648076994405` |
 | `ode:status` | O status da carga de trabalho começa com &quot;FILA&quot; e muda para &quot;PROCESSAMENTO&quot;, &quot;ASSIMILAÇÃO&quot;, &quot;CONCLUÍDO&quot; ou &quot;ERRO&quot;. | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | Isso mostra mais detalhes, como sparkJobId e batchID, se o status for &quot;PROCESSAMENTO&quot; ou &quot;ASSIMILAÇÃO&quot;. Ele mostra os detalhes do erro se o status for &quot;ERRO&quot;. |  |
-
-## Níveis de serviço {#service-levels}
-
-O tempo de ponta a ponta para cada decisão de lote é a duração do tempo em que a carga de trabalho é criada até o momento em que o resultado da decisão está disponível no conjunto de dados de saída. O tamanho do segmento na carga da solicitação de POST é o principal fator que afeta o tempo de decisão do lote completo. Se a oferta elegível tiver um limite de frequência global ativado, a decisão em lote levará mais tempo para ser concluída. Abaixo estão algumas aproximações do tempo de processamento completo para seus respectivos tamanhos de segmento, com e sem limite de frequência para ofertas elegíveis:
-
-Com o limite de frequência ativado para ofertas qualificadas:
-
-| Tamanho do segmento | Tempo de processamento completo |
-|--------------|----------------------------|
-| 10 mil perfis ou menos | 7 minutos |
-| 1 milhão de perfis ou menos | 30 minutos |
-| 15 milhões de perfis ou menos | 50 minutos |
-
-Sem limite de frequência para ofertas elegíveis:
-
-| Tamanho do segmento | Tempo de processamento completo |
-|--------------|----------------------------|
-| 10 mil perfis ou menos | 6 minutos |
-| 1 milhão de perfis ou menos | 8 minutos |
-| 15 milhões de perfis ou menos | 16 minutos |
-
-## Limitações {#limitations}
-
-Ao usar a variável [!DNL Batch Decisioning] Lembre-se das seguintes limitações da API:
-
-* **O número de trabalhos em lote em execução por conjunto de dados**: É possível executar até cinco trabalhos em lote por vez, por conjunto de dados. Quaisquer outras solicitações em lote com o mesmo conjunto de dados de saída são adicionadas à fila. Um trabalho em fila é selecionado para o processamento quando o trabalho anterior terminar de ser executado.
-* **Limite de frequência**: Um lote é executado do instantâneo do perfil que ocorre uma vez por dia. O [!DNL Batch Decisioning] A API limita a frequência e sempre carrega perfis do instantâneo mais recente.
 
 ## Próximas etapas {#next-steps}
 

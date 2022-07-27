@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 6%
@@ -61,7 +61,7 @@ Para adicionar mensagens em suas jornadas, basta adicionar uma atividade de push
 
 1. Selecionar a mensagem **[!UICONTROL Category]**: Choose **Marketing** para mensagens comerciais, ou **Transacional** para mensagens não comerciais, como confirmação de pedido, notificações de redefinição de senha ou informações de delivery.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >Se você definiu [regras de frequência](../configuration/frequency-rules.md) para um canal e categoria específicos, eles são aplicados automaticamente à mensagem ao selecionar esse canal e categoria. Atualmente, somente o **[!UICONTROL Marketing]** está disponível para regras de frequência.
 
@@ -73,7 +73,7 @@ Para adicionar mensagens em suas jornadas, basta adicionar uma atividade de push
 
 1. Selecionar o canal **[!UICONTROL Surface]** (ou seja, predefinição de mensagem) a ser usada para enviar a mensagem.
 
-   Uma superfície é uma configuração que foi definida por uma [Administrador do sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis, etc. [Saiba mais](../configuration/message-presets.md).
+   Uma superfície é uma configuração que foi definida por uma [Administrador do sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis, etc. [Saiba mais](../configuration/channel-surfaces.md).
 
    >[!CAUTION]
    >
@@ -104,7 +104,7 @@ Para acessar parâmetros avançados, clique no botão **[!UICONTROL Show read-on
 
 ![](assets/show-read-only.png)
 
-Parâmetros avançados são exibidos na parte inferior do painel de mensagens. Esses parâmetros são definidos pela variável [administrador do sistema](../start/path/administrator.md) no [superfície do canal](../configuration/message-presets.md) (ou seja, predefinição de mensagem) associada à mensagem.
+Parâmetros avançados são exibidos na parte inferior do painel de mensagens. Esses parâmetros são definidos pela variável [administrador do sistema](../start/path/administrator.md) no [superfície do canal](../configuration/channel-surfaces.md) (ou seja, predefinição de mensagem) associada à mensagem.
 
 Para notificações por push, você pode exibir os seguintes parâmetros: Token, AppID, AppPlatform.
 
@@ -155,7 +155,7 @@ Para fazer isso, siga as etapas abaixo:
 >
 >Para emails, você também pode transformar uma mensagem existente em um modelo. [Saiba mais](../design/email-templates.md).
 
-## Excluir uma mensagem
+## Excluir uma mensagem{#delete-message}
 
 Para excluir uma mensagem, use o ícone de lixeira na parte superior do painel de atividade do canal.
 

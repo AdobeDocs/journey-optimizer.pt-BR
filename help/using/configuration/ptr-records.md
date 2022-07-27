@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '710'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Depois de confirmar a edição do registro PTR, a variável **[!UICONTROL Proces
 
 >[!NOTE]
 >
->O [processamento de atualização](#processing) pode levar até algumas horas.
+>O [processamento de atualização](#processing) pode levar até 3 horas.
 
 Para verificar os detalhes de atualização do registro PTR, clique no ícone ao lado dele. Saiba mais sobre os status associados aos diferentes ícones em [esta seção](#ptr-record-update-statuses).
 
@@ -119,7 +119,7 @@ Uma atualização de registro PTR pode ter os seguintes status:
 
 ### Processamento {#processing}
 
-Várias verificações de deliverability serão executadas para verificar se o novo subdomínio a ser associado ao endereço IP é válido. Isso pode levar algumas horas.
+Várias verificações de deliverability serão executadas para verificar se o novo subdomínio a ser associado ao endereço IP é válido. Isso pode levar até 3 horas.
 
 >[!NOTE]
 >

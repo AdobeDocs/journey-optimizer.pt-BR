@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 11%
@@ -22,7 +22,7 @@ Para criar suas jornadas e enviar mensagens, você precisa seguir estas etapas d
 
 1. **Configurar mensagens e canais**: defina as superfícies do canal, adapte e personalize as mensagens.
 
-   * Crie superfícies de canal para configurar todos os parâmetros técnicos necessários para enviar mensagens. [Saiba mais](message-presets.md)
+   * Crie superfícies de canal para configurar todos os parâmetros técnicos necessários para enviar mensagens. [Saiba mais](channel-surfaces.md)
 
    * Determine qual endereço de email deve ser usado com prioridade para seus recipients quando vários endereços estiverem disponíveis no Adobe Experience Platform. [Saiba mais](primary-email-addresses.md)
 

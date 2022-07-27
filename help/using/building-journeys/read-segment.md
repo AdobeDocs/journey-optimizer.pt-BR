@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 8%
+source-wordcount: '1140'
+ht-degree: 7%
 
 ---
 
@@ -82,7 +82,7 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
 
    ![](assets/read-segment-schedule-list.png)
 
-   O **Leitura incremental** permite direcionar somente os indivíduos que entraram no segmento desde a última execução da jornada. A primeira execução sempre direciona a todos os membros do segmento. Essa opção só está disponível para recorrente **Ler segmento** atividades.
+   **Leitura incremental** opção: quando uma jornada com uma **Ler segmento** é executado pela primeira vez, todos os perfis no segmento entram na jornada. Na próxima ocorrência, todos os perfis entram na jornada novamente, mesmo que já estivessem dentro. A instância antiga do perfil na jornada é interrompida e uma nova instância é criada. O **Leitura incremental** permite direcionar, após a primeira ocorrência, os indivíduos que entraram no segmento desde a última execução da jornada.
 
 <!--
 

@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1108'
 ht-degree: 96%
 
 ---
@@ -261,7 +261,7 @@ ht-degree: 96%
    + Capacidade de entrega {#deliverability}
       + [Introdução à capacidade de entrega](using/reports/deliverability.md)
       + [Sobre a lista de supressão](using/reports/suppression-list.md)
-+ Gestão de decisões {#offer-decisioniong}
++ Gestão de decisões {#offer-decisioning}
    + Introdução ao Gestão de decisões {#get-started-decision}
       + [Sobre o Gestão de decisão](using/offers/get-started/starting-offer-decisioning.md)
       + [Interface do usuário](using/offers/get-started/user-interface.md)
@@ -292,6 +292,7 @@ ht-degree: 96%
       + [Criar decisões](using/offers/offer-activities/create-offer-activities.md)
       + [Configurar seleção de ofertas em decisões](using/offers/offer-activities/configure-offer-selection.md)
       + [Criar simulações](using/offers/offer-activities/simulation.md)
+   + [Decisão em lote](using/offers/batch-delivery.md)
    + Criar relatórios da Gestão de decisões {#create-reports}
       + [Introdução aos eventos da Gestão de decisões](using/offers/reports/get-started-events.md)
       + [Informações importantes sobre eventos da Gestão de decisões](using/offers/reports/key-information.md)
@@ -379,8 +380,8 @@ ht-degree: 96%
             + [Tentativas](using/configuration/retries.md)
             + [Lista de permissões](using/configuration/allow-list.md)
       + [Configurar canal de SMS](using/configuration/sms-configuration.md)
-      + Configurar superfícies do canal {#set-up-message-presets}
-         + [Criar superfícies de canal](using/configuration/message-presets.md)
+      + Configurar superfícies do canal {#set-up-channels}
+         + [Criar superfícies de canal](using/configuration/channel-surfaces.md)
          + [Definir configurações de email ](using/configuration/email-settings.md)
          + [Usar email com CCO](using/configuration/bcc-email.md)
       + [Gerenciar endereços de execução](using/configuration/primary-email-addresses.md)

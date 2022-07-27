@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 3%
+source-wordcount: '1600'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
->title="Prioridade"
+>title="Definir prioridade"
 >abstract="A prioridade ajuda a definir a prioridade da oferta em comparação com outras se o usuário se qualificar para mais de uma oferta. Quanto maior for a prioridade de uma oferta, maior será a prioridade em relação a outras ofertas."
 
 As restrições permitem definir as condições em que uma oferta será exibida.
@@ -40,6 +40,10 @@ As restrições permitem definir as condições em que uma oferta será exibida.
 1. Configure o **[!UICONTROL Offer eligibility]**. [Saiba mais](#eligibility)
 
    ![](../assets/offer-eligibility.png)
+
+   >[!NOTE]
+   >
+   >Quando você seleciona segmentos ou regras de decisão, as informações sobre os perfis qualificados estimados são exibidas. Clique em **[!UICONTROL Refresh]** para atualizar os dados.
 
 1. Defina as **[!UICONTROL Priority]** da oferta em comparação a outras se o usuário se qualificar para mais de uma oferta. Quanto maior for a prioridade de uma oferta, maior será a prioridade em relação a outras ofertas.
 
@@ -63,8 +67,8 @@ Por exemplo, se você definir as seguintes restrições:
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="Elegibilidade"
->abstract="A qualificação para a oferta permite restringir a oferta a perfis específicos que você define usando segmentos ou regras de decisão."
+>title="Definir qualificação"
+>abstract="Por padrão, qualquer perfil poderá receber a oferta, mas você poderá usar segmentos ou regras de decisão para restringir a oferta a perfis específicos."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -114,7 +118,7 @@ Basicamente, a saída de um segmento é uma lista de perfis, enquanto uma regra 
 
    Saiba mais sobre as regras de decisão em [esta seção](creating-decision-rules.md).
 
-## Limite de frequência {#capping}
+## Limitação {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -123,8 +127,8 @@ Basicamente, a saída de um segmento é uma lista de perfis, enquanto uma regra 
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="Limitação"
->abstract="O limite é usado como uma restrição para definir o número máximo de vezes que uma oferta pode ser apresentada."
+>title="Usar limitação"
+>abstract="Para evitar o excesso de solicitações dos clientes, use o limite para definir o número máximo de vezes que uma oferta pode ser apresentada."
 
 O limite é usado como uma restrição para definir o número máximo de vezes que uma oferta pode ser apresentada.
 
@@ -178,8 +182,8 @@ O número de vezes que uma oferta é proposta é calculado no momento da prepara
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="Alterar a data pode ter impacto na limitação"
->abstract="Se a limitação for aplicada a essa oferta, ela poderá ser afetada ao alterar a data de início ou de término."
+>title="Alterar datas pode afetar o limite"
+>abstract="Se o limite for aplicado a essa oferta, ele poderá ser afetado quando você alterar a data de início ou de término."
 
 Você deve continuar com cuidado ao alterar a data de uma oferta, pois isso pode ter impacto no limite se as seguintes condições forem atendidas:
 
@@ -191,7 +195,7 @@ Você deve continuar com cuidado ao alterar a data de uma oferta, pois isso pode
 >
 >Saiba como definir a data de uma oferta em [esta seção](creating-personalized-offers.md#create-offer).
 
-O limite de frequência por perfil armazena as contagens de limite em cada perfil. Quando você altera a data de início e de término de uma oferta aprovada, a contagem de limites para alguns perfis pode ser afetada de acordo com os diferentes cenários descritos abaixo.
+A limitação por perfil armazena as contagens de limitação em cada perfil. Quando você altera a data de início e de término de uma oferta aprovada, a contagem de limites para alguns perfis pode ser afetada de acordo com os diferentes cenários descritos abaixo.
 
 ![](../assets/offer-capping-change-date.png)
 

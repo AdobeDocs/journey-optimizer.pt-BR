@@ -2,9 +2,9 @@
 title: Migrar para a criação em linha do jornada
 description: Saiba como migrar suas mensagens
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1732'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ A migração ocorre para cada região durante a noite, por meio de várias itera
 
 Por que precisamos de múltiplas iterações?
 
-Durante uma iteração, passamos por cada jornada e os migramos quando possível. Há casos em que não queremos migrar automaticamente: quando a jornada estiver ativa ou fechada (o que significa que ainda pode haver perfis nela). Nesses casos, solicitamos que você execute uma ação e, em seguida, a próxima iteração migrará essas jornadas que não puderam ser migradas na iteração anterior.
+Durante uma iteração, passamos por cada jornada e os migramos quando possível. Há casos em que não queremos migrar automaticamente: quando a jornada estiver ativa (o que significa que ainda pode haver perfis nela). Nesses casos, solicitamos que você execute uma ação e, em seguida, a próxima iteração migrará essas jornadas que não puderam ser migradas na iteração anterior.
 
 ## Perguntas frequentes {#faq}
 
