@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '293'
 ht-degree: 9%
 
 ---
@@ -34,10 +34,10 @@ Para criar um modelo de IA, siga as etapas abaixo:
 
 1. Clique no botão **[!UICONTROL Create AI model]**.
 
-1. Especifique um nome exclusivo e uma descrição para o modelo de IA.
+1. Especifique um nome exclusivo e uma descrição para o modelo de IA e selecione o tipo de modelo de IA que deseja criar:
 
-   <!--* **[!UICONTROL Auto-optimization]** optimizes offers based on past offer performance. [Learn more](auto-optimization-model.md)
-    * **[!UICONTROL Personalized]** optimizes and personalizes offers based on segments and offer performance. [Learn more](personalized-optimization-model.md)-->
+   * **[!UICONTROL Auto-optimization]** O otimiza as ofertas com base no desempenho da oferta anterior. [Saiba mais](auto-optimization-model.md)
+   * **[!UICONTROL Personalized]** otimiza e personaliza as ofertas com base em segmentos e no desempenho da oferta. [Saiba mais](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -60,13 +60,13 @@ Para criar um modelo de IA, siga as etapas abaixo:
    >
    >Somente os conjuntos de dados criados a partir de esquemas associados ao **[!UICONTROL Experience Event - Proposition Interactions]** grupo de campos (anteriormente conhecido como mixin) são exibidos na lista suspensa.
 
-<!--1. If you are creating a **[!UICONTROL Personalization]** AI model, select the segment(s) to use to train the AI model.
+1. Se você estiver criando um **[!UICONTROL Personalization]** Modelo de IA, selecione os segmentos a serem usados para treinar o modelo de IA.
 
-    ![](../assets/ai-ranking-segments.png)
+   ![](../assets/ai-ranking-segments.png)
 
-    >[!NOTE]
-    >
-    >You can select up to 5 segments.-->
+   >[!NOTE]
+   >
+   >É possível selecionar até 5 segmentos.
 
 1. Salve e ative o modelo de IA.
 
