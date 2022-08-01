@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: ad3ac3bb34b8ca7a5bf490a7156f88849b77f438
+source-git-commit: 7f6bbcb40dd07ae4d8013653f89b03c80df961dc
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 2%
@@ -53,7 +53,7 @@ Você só pode interromper uma jornada se ocorrer uma emergência e todo o proce
 
 ### Tag final da jornada{#end-tag}
 
-Ao criar uma jornada, um &quot;nó final&quot; é exibido no final de cada caminho. Este nó não pode ser adicionado por um usuário, não pode ser removido e somente seu rótulo pode ser alterado. Ele marca o fim de cada caminho da jornada. Se a jornada tiver vários caminhos, recomendamos que você adicione um rótulo a cada extremidade para facilitar a leitura dos relatórios. Consulte [esta página](../reports/live-report.md).
+Ao criar uma jornada, um &quot;target taf&quot; é exibido no final de cada caminho. Este nó não pode ser adicionado por um usuário, não pode ser removido e somente seu rótulo pode ser alterado. Ele marca o fim de cada caminho da jornada. Se a jornada tiver vários caminhos, recomendamos que você adicione um rótulo a cada extremidade para facilitar a leitura dos relatórios. Consulte [esta página](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
