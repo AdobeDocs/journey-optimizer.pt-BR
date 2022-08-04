@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+source-git-commit: b56df2c22f041114805e10fee7156855c2cbbfa9
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1540'
 ht-degree: 4%
 
 ---
@@ -41,7 +41,7 @@ O **[!UICONTROL Campaign's Statistics]** o widget detalha as informações princ
 
 * **[!UICONTROL Actions failed in %]**: Número total de vezes exclusivas que uma ação falhou na jornada em comparação ao número total de vezes exclusivas que uma ação foi entregue.
 
-### Objetivos (#objetives-global)
+### Objetivos {#objectives-global}
 
 >[!AVAILABILITY]
 >
@@ -59,7 +59,7 @@ Com o **[!UICONTROL Campaign objective]** no widget, você também pode optar po
 
 Observe que cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações sobre isso, consulte esta seção [seção](../reports/global-report.md#modify-dashboard).
 
-### Experimentação (#experimentation-global)
+### Experimentação {#experimentation-global}
 
 >[!AVAILABILITY]
 >
