@@ -5,14 +5,20 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+hide: true
+hidefromtoc: true
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 0%
+source-wordcount: '574'
+ht-degree: 1%
 
 ---
 
 # Criar um experimento de conteúdo {#content-experiment}
+
+>[!AVAILABILITY]
+>
+>O recurso de Experiência de conteúdo está disponível atualmente apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
 
 O recurso de experimento de conteúdo permite definir vários tratamentos de delivery. O público-alvo de interesse é alocado aleatoriamente para cada tratamento a fim de determinar qual delas tem melhor desempenho em relação à métrica de interesse. Você pode optar por variar o conteúdo, o assunto ou o remetente do email.
 
@@ -121,4 +127,12 @@ Depois que seus tratamentos forem personalizados, você poderá começar a confi
 1. Verifique se a campanha está configurada corretamente e clique em **[!UICONTROL Activate]** para iniciá-lo.
 
    ![](assets/content_experiment_14.png)
+
+## Relatório de experiência {#experimentation-report}
+
+![](assets/experimentation_report_3.png)
+
+Da sua campanha **[!UICONTROL Global report]**, o **[!UICONTROL Experimentation]** detalha as informações principais relativas ao desempenho de cada variante e se houve um melhor desempenho durante o teste.
+
+Para obter mais detalhes sobre esse relatório, consulte [Relatório de campanha global](../campaigns/content-experiment.md#experimentation-report) página.
 
