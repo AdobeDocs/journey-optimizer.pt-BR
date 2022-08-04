@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 94%
+source-wordcount: '1772'
+ht-degree: 92%
 
 ---
 
@@ -13,11 +13,17 @@ ht-degree: 94%
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
 
+## Agosto de 2022 {#august-2022}
+
+* A seção Regras de frequência foi atualizada para refletir o novo fluxo de mensagens em linha. [Leia mais](../configuration/frequency-rules.md#apply-frequency-rule)
+* Um vídeo que mostra como configurar assinaturas e criar landing pages agora é referenciado na seção Introdução às landing pages . [Leia mais](../landing-pages/get-started-lp.md#video)
+
 ## Julho de 2022 {#july-2022}
 
 * Todos os novos recursos e aprimoramentos chegando com a versão de [!DNL Journey Optimizer] 22 de julho estão detalhados na documentação. [Leia mais](release-notes.md)
 * O **Configurar superfícies do canal** A seção foi esclarecida e atualizada com links para a página que descrevem como configurar o canal SMS. [Leia mais](../configuration/channel-surfaces.md#create-channel-surface)
 * Nas propriedades da jornada, a variável **Fuso horário do perfil** agora está desativada por padrão. [Leia mais](../building-journeys/timezone-management.md#timezone-from-profiles)
+
 * No **Aguardar** , a atividade **Data fixa** não está mais disponível. [Leia mais](../building-journeys/wait-activity.md)
 * Foram adicionadas mais informações sobre o **Leitura incremental** na **Ler segmento** atividade . [Leia mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Recomendações adicionadas sobre a **Tampa do perfil** tipo de condição. [Leia mais](../building-journeys/condition-activity.md#profile_cap)

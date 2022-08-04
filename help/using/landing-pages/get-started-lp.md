@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 11%
+source-wordcount: '198'
+ht-degree: 8%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 11%
 Uma página de aterrissagem é uma página da Web independente para a qual o usuário é direcionado depois de clicar por email, por um site, por um anúncio ou por qualquer outro local digital.
 
 [!DNL Journey Optimizer] O permite criar e criar páginas de aterrissagem para direcionar seus usuários para formulários online, onde eles podem aceitar ou recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo.
+
+➡️ [Saiba mais sobre como configurar assinaturas e criar landing pages neste vídeo](#video)
 
 * Aproveitamento [!DNL Journey Optimizer] recursos de design de conteúdo para criar com facilidade **páginas de aterrissagem responsivas**.
 * Configurar **fluxos de participação e não participação** rápida e perfeitamente.
@@ -34,8 +36,8 @@ Uma página de aterrissagem é uma página da Web independente para a qual o usu
 </tr>
 </table>
 
-<!--
+## Vídeo tutorial{#video}
 
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
+O vídeo abaixo mostra como criar uma lista de assinaturas, configurar landing pages para oferecer assinaturas ou cancelar assinaturas de um serviço, integrar a opção (un)subscrição a uma mensagem e configurar jornadas relevantes.
 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

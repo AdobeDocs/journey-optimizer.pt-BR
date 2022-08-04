@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '648'
 ht-degree: 4%
 
 ---
@@ -63,6 +63,10 @@ Para criar um **oferta** siga estas etapas:
 
 1. Adicione restrições para definir as condições da oferta a ser exibida. [Saiba mais](add-constraints.md)
 
+   >[!NOTE]
+   >
+   >Ao selecionar segmentos ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Refresh]** para atualizar os dados.
+
    ![](../assets/offer-constraints-example.png)
 
 1. Revise e salve a oferta. [Saiba mais](#review)
@@ -72,6 +76,10 @@ Para criar um **oferta** siga estas etapas:
 Depois que as regras e restrições de qualificação tiverem sido definidas, um resumo das propriedades da oferta será exibido.
 
 1. Verifique se tudo está configurado corretamente.
+
+1. Você pode exibir informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Refresh]** para atualizar os dados.
+
+   ![](../assets/offer-summary-estimate.png)
 
 1. Quando sua oferta estiver pronta para ser apresentada aos usuários, clique em **[!UICONTROL Finish]**.
 

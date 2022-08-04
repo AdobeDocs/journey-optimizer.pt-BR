@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -192,9 +192,13 @@ Para configurar um parâmetro de rastreamento de URL, você pode inserir diretam
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-Também é possível editar cada **[!UICONTROL Value]** usando o [Editor de expressão](../personalization/personalization-build-expressions.md). Clique no ícone de edição para abrir o Editor de expressão. A partir daí, é possível selecionar os atributos contextuais de sua escolha e/ou editar diretamente o texto.
+Também é possível editar cada **[!UICONTROL Value]** usando o [Editor de expressão](../personalization/personalization-build-expressions.md). Clique no ícone de edição para abrir o editor. A partir daí, é possível selecionar os atributos contextuais de sua escolha e/ou editar diretamente o texto.
 
 ![](assets/preset-url-tracking-editor.png)
+
+>[!NOTE]
+>
+>É possível combinar a digitação de valores de texto e o uso de atributos contextuais no Editor de expressão. Cada **[!UICONTROL Value]** pode conter até 255 caracteres no total.
 
 <!--You can drag and drop the parameters to reorder them.-->
 
@@ -203,10 +207,6 @@ Abaixo estão exemplos de URLs compatíveis com Adobe Analytics e Google Analyti
 * URL compatível com Adobe Analytics: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
 * URL compatível com Google Analytics: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
-
->[!NOTE]
->
->É possível combinar a digitação de valores de texto e o uso de atributos contextuais no Editor de expressão. Cada **[!UICONTROL Value]** pode conter até 255 caracteres no total.
 
 Você pode visualizar dinamicamente o URL de rastreamento resultante. Cada vez que você adiciona, edita ou remove um parâmetro, a visualização é atualizada automaticamente.
 

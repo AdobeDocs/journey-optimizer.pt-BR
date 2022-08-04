@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 2%
 
 ---
@@ -88,9 +88,9 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
       Saiba como criar uma regra de decisão no [esta seção](../offer-library/creating-decision-rules.md).
 
-      >[!NOTE]
-      >
-      >Quando você seleciona segmentos ou regras de decisão, as informações sobre os perfis qualificados estimados são exibidas. Clique em **[!UICONTROL Refresh]** para atualizar os dados.
+1. Ao selecionar segmentos ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Refresh]** para atualizar os dados.
+
+   ![](../assets/activity_constraint-estimate.png)
 
 1. Defina o método de classificação que deseja usar para selecionar a melhor oferta para cada perfil.
 
@@ -142,7 +142,7 @@ Se tudo estiver configurado corretamente, um resumo das propriedades de decisão
 
    ![](../assets/review-decision.png)
 
-   Você pode expandir ou recolher cada disposição. Você também pode visualizar as ofertas disponíveis, a qualificação e os detalhes de classificação para cada disposição.
+1. Você pode expandir ou recolher cada disposição. Você pode visualizar as ofertas disponíveis, a qualificação e os detalhes de classificação para cada disposição. Também é possível exibir informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Refresh]** para atualizar os dados.
 
    ![](../assets/review-decision-details.png)
 

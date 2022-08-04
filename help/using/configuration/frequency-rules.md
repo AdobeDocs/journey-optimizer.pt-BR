@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 5%
+source-wordcount: '827'
+ht-degree: 3%
 
 ---
 
@@ -128,19 +128,11 @@ Para aplicar uma regra de frequência a uma mensagem, siga as etapas abaixo.
 
 1. Todas as regras de frequência que correspondem à categoria e aos canais selecionados serão automaticamente aplicadas a esta mensagem.
 
-1. Você pode clicar no link **[!UICONTROL Frequency rule]** para exibir as regras de frequência que serão aplicadas à categoria e aos canais selecionados. 
+   >[!NOTE]
+   >
+   >Mensagens <!--that do not have any selected category or messages -->em que a categoria selecionada é **[!UICONTROL Transactional]** não serão avaliadas com base nas regras de frequência.
 
-   ![](assets/message-rules-msg-link.png)
-
-   Uma nova guia será aberta para exibir as regras de frequência de mensagem correspondentes.
-
-Todas as regras de frequência que correspondem à categoria e aos canais selecionados serão automaticamente aplicadas a esta mensagem.
-
->[!NOTE]
->
->Mensagens <!--that do not have any selected category or messages -->em que a categoria selecionada é **[!UICONTROL Transactional]** não serão avaliadas com base nas regras de frequência.
-
-<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 1. Você pode visualizar o número de perfis excluídos do delivery na [Relatório global](../reports/global-report.md)e no [Relatório ao vivo](../reports/live-report.md), onde as regras de frequência serão listadas como um possível motivo para os usuários excluídos do delivery.
 
