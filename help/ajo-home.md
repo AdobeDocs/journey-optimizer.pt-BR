@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 80%
 
 >[!CAUTION]
 >
->Em 25 de julho, a Adobe Journey Optimizer lançará um [novo recurso](using/rn/inline-messages.md) O que melhora a maneira como você cria conteúdo para canais do Journey Optimizer (email, push, SMS). Como um praticante da Journey Optimizer, você agora [criar e criar](using/messages/get-started-content.md) suas mensagens diretamente de uma jornada. Uma conversão automática de jornadas é executada para você. Dito isto, precisamos da vossa ajuda com alguns passos. Saiba mais sobre o [etapas necessárias](using/rn/inline-messages-steps.md).
+>Em 25 de julho, o Adobe Journey Optimizer lançará um [novo recurso](using/rn/inline-messages.md) que melhora a maneira como você cria conteúdo para canais do Journey Optimizer (email, push, SMS). Como um profissional do Journey Optimizer, você agora [cria e escreve](using/messages/get-started-content.md) suas mensagens diretamente de uma jornada. Uma conversão automática de jornadas é feita para você. Dito isto, precisamos da sua ajuda com algumas etapas. Saiba mais sobre as [etapas obrigatórias](using/rn/inline-messages-steps.md).
 
 <table style="table-layout:fixed">
 <tr>
@@ -56,7 +56,7 @@ ht-degree: 80%
     <div>
       <a href="using/messages/get-started-content.md">Envio de mensagens</a>
     </div>
-    <p>Saiba como adicionar mensagens de push, SMS e email às jornadas do cliente
+    <p>Saiba como adicionar mensagens por push, SMS e email nas jornadas do seu cliente
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">Criar a primeira jornada</a>

@@ -1,17 +1,17 @@
 ---
 title: Etapas para migrar para a criação em linha do jornada
 description: Etapas para migrar para a criação em linha do jornada
-source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
+exl-id: 8412a0bd-674c-4d6a-aa5b-443655d2943a
+source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '1048'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-
 # Etapas de migração da criação em linha{#migration-steps}
 
-O novo processo de criação de conteúdo no Adobe Journey Optimizer está descrito nesta [página](../rn/inline-messages.md). Uma conversão automática de jornadas é executada para você. Dito isto, precisamos da vossa ajuda com alguns passos.
+O novo processo de criação de conteúdo no Adobe Journey Optimizer está descrito nesta [página](../rn/inline-messages.md). Uma conversão automática de jornadas é feita para você. Dito isto, precisamos da sua ajuda com algumas etapas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344699)
 
@@ -190,4 +190,3 @@ Caso não tenha publicado versões mais recentes do jornada (consulte esta seç�
 ## Antes da terceira e última iteração (5 de setembro){#migration-step-4}
 
 Entre 1º de agosto e 5 de setembro, você precisará validar se tudo foi migrado e se não há jornadas ainda usando mensagens, caso contrário, elas serão substituídas no dia 5 de setembro.
-

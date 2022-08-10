@@ -5,7 +5,8 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 3%
@@ -122,4 +123,3 @@ Para definir um conteúdo específico que permitirá que os usuários selecionem
 1. Expanda o **[!UICONTROL Form error]** para ajustar a exibição da mensagem de erro que é exibida caso ocorra um problema. Marque a opção correspondente para visualizar o texto do erro no formulário.
 
    ![](assets/lp_designer-form-error-preview.png)
-

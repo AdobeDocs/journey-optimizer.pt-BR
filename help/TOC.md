@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
       + [Notas de versão de 2022](using/rn/release-notes-2022.md)
       + [Notas de versão de 2021](using/rn/release-notes-2021.md)
    + [Atualizações de documentação](using/rn/documentation-updates.md)
-   + Novo recurso de criação em linha {#inline-authoring}
+   + Novo recurso de criação integrado {#inline-authoring}
       + [Visão geral da migração](using/rn/inline-messages.md)
       + [Etapas de migração](using/rn/inline-messages-steps.md)
 + Introdução{#get-started}
@@ -53,7 +53,7 @@ ht-degree: 94%
    + [Criar uma mensagem de SMS.](using/messages/create-sms.md)
    + [Verificar alertas](using/messages/alerts.md)
    + [Gerenciar consentimento](using/messages/consent.md)
-   + [Enviar otimização de tempo](using/messages/send-time-optimization.md)
+   + [Otimização do tempo de envio](using/messages/send-time-optimization.md)
 + Criação de conteúdo {#design}
    + [Introdução ao design de email](using/design/design-emails.md)
    + [Iniciar do zero ](using/design/create-email-content.md)
@@ -354,8 +354,8 @@ ht-degree: 94%
          + [Criar uma decisão](using/offers/api-reference/activities-api/activities/create.md)
          + [Atualizar uma decisão](using/offers/api-reference/activities-api/activities/update.md)
          + [Excluir uma decisão](using/offers/api-reference/activities-api/activities/delete.md)
-      + Fornecer ofertas usando APIs {#offer-delivery-api}
-         + [Introdução às APIs de entrega de oferta](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+      + Entregar ofertas usando APIs {#offer-delivery-api}
+         + [Introdução às APIs de entrega de ofertas](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [API de decisão](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [API de decisão do Edge](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API de decisão em lote](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
@@ -387,7 +387,7 @@ ht-degree: 94%
       + [Configurar canal de SMS](using/configuration/sms-configuration.md)
       + Configurar superfícies do canal {#set-up-channels}
          + [Criar superfícies de canal](using/configuration/channel-surfaces.md)
-         + [Definir configurações de email ](using/configuration/email-settings.md)
+         + [Definir configurações de email](using/configuration/email-settings.md)
          + [Usar email com CCO](using/configuration/bcc-email.md)
       + [Gerenciar endereços de execução](using/configuration/primary-email-addresses.md)
       + [Configurar regras de frequência](using/configuration/frequency-rules.md)

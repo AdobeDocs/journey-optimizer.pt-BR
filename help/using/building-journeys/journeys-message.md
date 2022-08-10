@@ -9,7 +9,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 6%
+ht-degree: 27%
 
 ---
 
@@ -28,9 +28,9 @@ Você também pode configurar ações específicas para enviar mensagens:
 
 Para adicionar uma mensagem em uma jornada, siga as etapas abaixo:
 
-1. Inicie a jornada com uma [Evento](general-events.md) ou [Ler segmento](read-segment.md) atividade .
+1. Inicie a jornada com uma atividade de [Evento](general-events.md) ou [Segmento de leitura](read-segment.md).
 
-1. No **Ações** seção da paleta, arraste e solte uma **email**, um **SMS** ou **Empurrar** atividade na tela.
+1. Na seção **Ações** da paleta, arraste e solte na tela uma atividade de **email**, **SMS** ou **push**.
 
    ![](../messages/assets/add-a-message.png)
 

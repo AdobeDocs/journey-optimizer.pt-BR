@@ -1,5 +1,5 @@
 ---
-title: 'Definir configurações de email '
+title: Definir configurações de email
 description: Saiba como definir configurações de email no nível da superfície do canal
 feature: Application Settings
 topic: Administration
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 ---
 
-# Definir configurações de email  {#email-settings}
+# Definir configurações de email {#email-settings}
 
 Defina as configurações de email na seção dedicada da configuração da superfície do canal (ou seja, predefinição de mensagem). Saiba como criar superfícies no [esta seção](channel-surfaces.md).
 

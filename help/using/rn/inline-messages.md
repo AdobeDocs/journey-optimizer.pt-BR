@@ -5,7 +5,7 @@ exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1732'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 >abstract="A partir de 25 de julho de 2022, o menu Mensagens desaparecerá e as mensagens serão criadas diretamente de uma Jornada. Se você quiser reutilizar suas mensagens herdadas no jornada, é necessário salvá-las como modelos."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Salvar mensagens como modelos"
 
-O Adobe Journey Optimizer está lançando um novo recurso que melhora a maneira como você cria conteúdo para canais do Journey Optimizer (email, push, SMS). Como profissional da Journey Optimizer, agora você cria e cria suas mensagens diretamente de uma jornada.
+O Adobe Journey Optimizer está lançando um novo recurso que melhora a maneira como você cria conteúdo para canais do Journey Optimizer (email, push, SMS). Como um profissional do Journey Optimizer, você agora cria e escreve suas mensagens diretamente de uma jornada.
 
 Esse recurso requer uma migração de jornadas existentes que estejam usando mensagens. Nesta página, você encontrará as informações necessárias sobre essa alteração, bem como as etapas necessárias.
 
@@ -65,7 +65,7 @@ Here are the main changes in the interface:
 
    ![](assets/inline-migration-timeline.png)
 
-* **Ações necessárias**: uma conversão automática de jornadas é executada para você. Dito isto, precisamos da vossa ajuda com alguns passos. Saiba mais sobre as etapas necessárias nesta seção [página](../rn/inline-messages-steps.md).
+* **Ações necessárias**: uma conversão automática de jornadas é executada para você. Dito isto, precisamos da sua ajuda com algumas etapas. Saiba mais sobre as etapas necessárias nesta seção [página](../rn/inline-messages-steps.md).
 
 * **Descontinuação**: após o dia 6 de setembro, todas as jornadas que ainda usarem mensagens herdadas serão interrompidas e serão excluídas posteriormente.
 
@@ -108,7 +108,7 @@ No GA (25 de julho), esse novo fluxo de usuários se aplica a todas as novas jor
 
 ## Linha do tempo da migração{#iterations}
 
-É necessária uma migração para transformar suas jornadas existentes usando **Mensagens** em jornadas com ações criadas em linha. Uma conversão automática de jornadas é executada para você. Dito isto, precisamos da vossa ajuda com alguns passos.
+É necessária uma migração para transformar suas jornadas existentes usando **Mensagens** em jornadas com ações criadas em linha. Uma conversão automática de jornadas é feita para você. Dito isto, precisamos da sua ajuda com algumas etapas.
 
 A migração ocorre para cada região durante a noite, por meio de várias iterações. Esta é a linha do tempo da migração:
 

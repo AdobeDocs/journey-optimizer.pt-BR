@@ -1,13 +1,13 @@
 ---
 title: Decisão em lote
 description: Saiba como fornecer decisões de oferta a todos os perfis em um determinado segmento do Adobe Experience Platform.
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
+source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
-
 
 # Decisão em lote {#deliver}
 

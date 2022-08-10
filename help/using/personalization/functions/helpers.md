@@ -8,7 +8,7 @@ level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
@@ -144,7 +144,8 @@ Some edu specific content Content
 ## Cada{#each}
 
 O `each` helper é usado para iterar sobre uma matriz.
-A sintaxe do auxiliar é ```{{#each ArrayName}}``` SeuConteúdo {{/each}} Podemos fazer referência a itens de matriz individuais usando a palavra-chave **this** dentro do bloco. O índice do elemento da matriz pode ser renderizado usando {{@index}}.
+A sintaxe do auxiliar é ```{{#each ArrayName}}``` YourContent {{/each}}
+Podemos fazer referência aos itens de matriz individuais usando a palavra-chave **this** dentro do bloco. O índice do elemento da matriz pode ser renderizado usando {{@index}}.
 
 **Sintaxe**
 

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '704'
 ht-degree: 10%
 
 ---
@@ -121,7 +121,7 @@ Um Handlebars helper é um identificador simples que pode ser seguido por parâm
 Cada parâmetro é uma expressão Handlebars. Essas ajuda podem ser acessadas de qualquer contexto em um modelo.
 
 Esses ajudantes de bloco são identificados por um # anterior ao nome do auxiliar e exigem um fechamento /, correspondente do mesmo nome.
-Blocos são expressões com abertura de bloco ({{# }}) e fechando ({{/}}).
+Blocos são expressões que têm uma abertura de bloco ({{# }}) and closing ({{/}}).
 
 
 >[!NOTE]

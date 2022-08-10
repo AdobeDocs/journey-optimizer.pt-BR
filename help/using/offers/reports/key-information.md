@@ -1,5 +1,5 @@
 ---
-title: Informações-chave sobre eventos do Gerenciamento de decisão
+title: Informações importantes sobre eventos da Gestão de decisões
 description: Saiba mais sobre as principais informações enviadas com cada evento de Gerenciamento de decisões.
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 85%
 
 ---
 
-# Informações-chave sobre eventos do Gerenciamento de decisão {#events-key-information}
+# Informações importantes sobre eventos da Gestão de decisões {#events-key-information}
 
 Cada evento enviado quando uma decisão é tomada contém quatro pontos de dados principais que podem ser aproveitados para fins de análise e relatórios.
 

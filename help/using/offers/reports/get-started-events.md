@@ -31,5 +31,5 @@ Esses conjuntos de dados são baseados na variável **[!UICONTROL ODE DecisionEv
 
 **Tópicos relacionados:**
 
-* [Informações-chave sobre eventos do Gerenciamento de decisão](../reports/key-information.md)
+* [Informações importantes sobre eventos da Gestão de decisões](../reports/key-information.md)
 * [Acessar campos XDM de eventos](../reports/xdm-fields.md)

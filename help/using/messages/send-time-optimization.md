@@ -1,5 +1,5 @@
 ---
-title: Enviar otimização de tempo
+title: Otimização do tempo de envio
 description: Saiba como definir parâmetros para a otimização de tempo de envio em suas mensagens
 feature: Journeys
 topic: Content Management
@@ -9,7 +9,7 @@ exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

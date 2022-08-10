@@ -9,7 +9,7 @@ exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -49,7 +49,7 @@ As configurações e elementos verificados pelo sistema estão listados abaixo. 
 
    >[!NOTE]
    >
-   >As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definido na variável [superfície do canal](../configuration/channel-surfaces.md#email-type) (ou seja, predefinição de mensagem) e quando [criação da mensagem](get-started-content.md#create-new-message).
+   >As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definida no nível da [superfície de canal](../configuration/channel-surfaces.md#email-type) (ou seja, predefinição da mensagem) e ao [criar a mensagem](get-started-content.md#create-new-message).
 
 * **[!UICONTROL Text version of HTML is empty]**: não se esqueça de definir uma versão de texto do corpo do email, pois ela será usada quando o conteúdo do HTML não puder ser exibido. Saiba como criar a versão de texto em [esta seção](../design/text-version-email.md).
 

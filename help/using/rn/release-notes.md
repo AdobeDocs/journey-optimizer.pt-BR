@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 24%
+ht-degree: 86%
 
 ---
 
@@ -24,13 +24,13 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Novo fluxo de mensagens em linha</strong><br/></th>
+<th><strong>Novo fluxo de mensagens incorporadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer fornece um novo fluxo para a criação de mensagens no Jornada. As mensagens em linha salvarão os usuários tempo significativo e simplificarão o processo do fluxo de trabalho para criar e entregar um email, uma notificação por push ou um SMS no Journey Optimizer. Ao remover mensagens como uma etapa separada e, em vez disso, torná-las editáveis em linha como parte de uma ação na Tela de Jornada, os usuários precisarão clicar em menos botões e navegar em menos telas para criar e editar seu conteúdo.</p>
+<p>O Journey Optimizer oferece um novo fluxo para a criação de mensagens em jornadas. As mensagens incorporadas economizarão tempo significativo dos usuários e simplificarão o processo do fluxo de trabalho para criar e entregar um email, uma notificação por push ou um SMS no Journey Optimizer. Ao remover a criação das mensagens como uma etapa separada e, em vez disso, incorporar sua edição como parte de uma ação na tela de jornada, os usuários poderão clicar em menos botões e navegar em menos telas para criar e editar seus conteúdos.</p>
 <img src="assets/do-not-localize/inline.gif"/>
 <p>Para obter mais informações, consulte a <a href="../messages/get-started-content.md">documentação detalhada</a>.</p>
 </td>
@@ -48,7 +48,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>Agora é possível identificar campos de esquema com rótulos que definem escopos organizacionais ou de uso de dados. Os administradores podem usar a interface Permissões para definir políticas de acesso que cubram campos de esquema XDM e gerenciar melhor o acesso dado aos usuários ou grupos de usuários (usuários internos, externos ou de terceiros), e gerenciar o acesso a tipos específicos de dados (ou seja, dados pessoais confidenciais/SPD).</p>
+<p>Agora é possível identificar campos de esquema com rótulos que definem escopos organizacionais ou de uso de dados. Os administradores podem usar a interface de permissões para definir políticas de acesso que cubram campos de esquema XDM e gerenciar melhor o acesso fornecido aos usuários ou grupos de usuários (usuários internos, externos ou de terceiros), além de gerenciar o acesso a tipos específicos de dados (ou seja, dados pessoais confidenciais/SPD).</p>
 <p>O uso do controle de acesso baseado em atributos está atualmente restrito aos usuários selecionados e será implantado em todos os ambientes em uma versão futura.</p>
 <p>Para obter mais informações, consulte a <a href="../administration/attribute-based-access.md">documentação detalhada</a>.</p>
 </td>
@@ -59,13 +59,13 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Trabalhos de decisão em lote</strong><br/></th>
+<th><strong>Processos de decisão em lote</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode executar tarefas de decisão em lote a partir da interface do usuário, de modo que não precise que um desenvolvedor execute tarefas de api em lote e possa reduzir o tempo necessário para o marketing. Essa nova interface permite criar tarefas e gerenciar trabalhos atuais/anteriores.</p>
+<p>Agora você pode executar processos de decisão em lote a partir da interface, de modo que não seja necessário que um desenvolvedor execute processos de API em lote e possa reduzir o tempo necessário para o marketing. Essa nova interface permite criar processos e gerenciar processos atuais/anteriores.</p>
 <img src="assets/do-not-localize/batch.gif"/>
 <p>Para obter mais informações, consulte a <a href="../offers/batch-delivery.md">documentação detalhada.</p>
 </td>
@@ -82,7 +82,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>Agora você pode usar sistemas de modelos de otimização personalizados no Gerenciamento de decisões. Esse novo tipo de modelo permite otimizar e personalizar ofertas com base em segmentos e oferecer desempenho.</p>
+<p>Agora você pode usar sistemas de modelo de otimização personalizados na gestão de decisões. Esse novo tipo de modelo permite otimizar e personalizar ofertas com base em segmentos e oferecer desempenho.</p>
 <p>O uso de modelos de AI de otimização personalizada está atualmente restrito a usuários selecionados e será implantado em todos os ambientes em uma versão futura.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Para obter mais informações, consulte a <a href="../offers/ranking/personalized-optimization-model.md">documentação detalhada</a>.</p>
@@ -99,18 +99,18 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Mensagens**
 
-* As predefinições de mensagem agora são **superfícies dos canais**. [Saiba mais](../configuration/channel-surfaces.md)
+* As predefinições de mensagem agora são **superfícies de canais**. [Saiba mais](../configuration/channel-surfaces.md)
 
 **Administração**
 
-* **Edição de registro PTR** - Agora, ao atualizar um registro PTR, o tempo de processamento levará apenas 3 horas. [Saiba mais](../configuration/ptr-records.md#processing)
+* **Edição de registro PTR** — Agora, ao atualizar um registro PTR, o tempo de processamento será de até 3 horas. [Saiba mais](../configuration/ptr-records.md#processing)
 
-* **Interface do usuário do Lista de permissões** - Agora é possível usar a interface do usuário do Journey Optimizer para adicionar novos domínios ou endereços de email à lista de permissões. [Saiba mais](../configuration/allow-list.md)
+* **Interface de lista de permissões** — Agora é possível usar a interface do Journey Optimizer para adicionar novos domínios ou endereços de email à lista de permissões. [Saiba mais](../configuration/allow-list.md)
 
-* **Atualização lógica da lista de permissões** - Agora a lógica de lista de permissões se aplica assim que o recurso é ativado, mesmo que a lista esteja vazia. [Saiba mais](../configuration/allow-list.md#logic)
+* **Atualização lógica da lista de permissões** — Agora a lógica da lista de permissões se aplica assim que o recurso é ativado, mesmo que a lista esteja vazia. [Saiba mais](../configuration/allow-list.md#logic)
 
 * **Parâmetros de rastreamento de URL** - Agora você pode usar o Editor de expressão para configurar parâmetros de rastreamento de URL em suas superfícies de email (ou seja, predefinições). [Saiba mais](../configuration/email-settings.md#url-tracking)
 
 **Offer Decisioning**
 
-* **Tamanho do público-alvo** - Um novo componente de estimativa de tamanho de público-alvo agora é exibido na interface do usuário ao criar uma regra de decisão, ao selecionar um segmento ou uma regra para definir uma qualificação de oferta ou ao adicionar um segmento ou uma regra a um escopo de decisão.
+* **Tamanho do público-alvo** — Um novo componente de estimativa de tamanho de público-alvo agora é exibido na interface ao criar uma regra de decisão, ao selecionar um segmento ou uma regra para definir uma qualificação de oferta ou ao adicionar um segmento ou uma regra a um escopo de decisão.

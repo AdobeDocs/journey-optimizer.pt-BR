@@ -8,7 +8,7 @@ exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,14 +41,14 @@ A tabela a seguir descreve quais ações, em quais recursos do Journey Optimizer
 | Predefinição da página de aterrissagem do AJO | Criar / Excluir / Atualizar |
 | Subdomínio da página de aterrissagem do AJO | Criar / Excluir / Atualizar |
 | Mensagens do AJO | Criar / Excluir / Atualizar / Publicar |
-| Superfície do canal AJO | Criar / Excluir / Atualizar |
+| Superfície de canal do AJO | Criar / Excluir / Atualizar |
 | Registro PTR do AJO | Criar / Excluir / Atualizar |
 | Modelo de expressão salva do AJO | Criar / Excluir / Atualizar |
 | Credenciais da API de SMS do AJO | Criar / Excluir / Atualizar |
 | Subdomínio do AJO | Criar / Excluir / Atualizar |
 | Lista de supressão do AJO | Criar / Excluir / Baixar CSV |
 | Grupo de campos | Criar / Excluir / Atualizar |
-| Jornada | Criar/excluir/parar/publicar |
+| Jornada | Criar / Excluir / Interromper / Publicar |
 | Ação personalizada da jornada | Criar / Excluir / Atualizar |
 | Fonte de dados da jornada | Criar / Excluir / Atualizar |
 | Evento da jornada | Criar / Excluir / Atualizar |

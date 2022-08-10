@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '1772'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -21,12 +21,12 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 ## Julho de 2022 {#july-2022}
 
 * Todos os novos recursos e aprimoramentos chegando com a versão de [!DNL Journey Optimizer] 22 de julho estão detalhados na documentação. [Leia mais](release-notes.md)
-* O **Configurar superfícies do canal** A seção foi esclarecida e atualizada com links para a página que descrevem como configurar o canal SMS. [Leia mais](../configuration/channel-surfaces.md#create-channel-surface)
-* Nas propriedades da jornada, a variável **Fuso horário do perfil** agora está desativada por padrão. [Leia mais](../building-journeys/timezone-management.md#timezone-from-profiles)
+* A seção **Criar superfícies de canal** foi esclarecida e atualizada com links para a página que descreve como configurar o canal de SMS. [Leia mais](../configuration/channel-surfaces.md#create-channel-surface)
+* Nas propriedades da jornada, a opção **Fuso horário do perfil** agora está desativada por padrão. [Leia mais](../building-journeys/timezone-management.md#timezone-from-profiles)
 
-* No **Aguardar** , a atividade **Data fixa** não está mais disponível. [Leia mais](../building-journeys/wait-activity.md)
-* Foram adicionadas mais informações sobre o **Leitura incremental** na **Ler segmento** atividade . [Leia mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* Recomendações adicionadas sobre a **Tampa do perfil** tipo de condição. [Leia mais](../building-journeys/condition-activity.md#profile_cap)
+* Na atividade **Aguardar**, a opção **Data fixa** não está mais disponível. [Leia mais](../building-journeys/wait-activity.md)
+* Foram adicionadas mais informações sobre a opção **Leitura incremental** na atividade **Segmento de leitura**. [Leia mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Recomendações adicionadas sobre o tipo de condição **Limite de perfil**. [Leia mais](../building-journeys/condition-activity.md#profile_cap)
 * Adição de uma limitação em eventos comerciais. [Leia mais](../start/guardrails.md#events-g)
 
 ## Junho de 2022 {#june-2022}
