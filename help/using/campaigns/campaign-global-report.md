@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: b56df2c22f041114805e10fee7156855c2cbbfa9
+source-git-commit: 11f7ce37dc1a99de4ed29fa7793f126e259f518d
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 4%
@@ -51,7 +51,7 @@ O **[!UICONTROL Campaign's Statistics]** o widget detalha as informações princ
 
 O **[!UICONTROL Objectives]** A guia do relatório Campanha permite ajustar melhor os relatórios dos deliveries, direcionando uma métrica específica.
 
-O **[!UICONTROL Objectives]** listadas estão vinculadas a **[!UICONTROL Datasets]** que definem uma conexão com um sistema para recuperar informações adicionais. Uma lista de **[!UICONTROL Objectives]** está disponível, mas você pode adicionar o seu ao adicionar novo **[!UICONTROL Dataset]**. Para obter o procedimento detalhado, consulte esta documentação.
+O **[!UICONTROL Objectives]** listadas estão vinculadas a **[!UICONTROL Datasets]** que definem uma conexão com um sistema para recuperar informações adicionais. Uma lista de **[!UICONTROL Objectives]** está disponível, mas você pode adicionar o seu ao adicionar novo **[!UICONTROL Dataset]**. Para obter o procedimento detalhado, consulte este [seção](reporting-configuration.md).
 
 Após selecionar os Objetivos que deseja definir como meta, os dois **[!UICONTROL Performance overview]** e **[!UICONTROL Campaign objective]** os widgets fornecerão um resumo detalhado do desempenho do seu delivery.
 
