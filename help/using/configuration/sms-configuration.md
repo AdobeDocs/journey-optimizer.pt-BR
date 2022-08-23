@@ -4,10 +4,10 @@ description: Saiba como configurar seu ambiente para enviar mensagens SMS com o 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: f44638ac7cfb078b6914635433feedb0f48ef099
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 8%
+source-wordcount: '481'
+ht-degree: 7%
 
 ---
 
@@ -22,6 +22,11 @@ Antes de enviar SMS, configure sua instância. Você precisa [integrar as config
 >No momento, o canal SMS está disponível apenas para algumas organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
 
 ## Criar nova credencial da API {#create-api}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api"
+>title="Configurar seu fornecedor de SMS"
+>abstract="Selecione o fornecedor e preencha as credenciais da API de SMS."
 
 Para configurar seu fornecedor de SMS com o Journey Optimizer, siga estas etapas:
 
@@ -45,6 +50,12 @@ Para configurar seu fornecedor de SMS com o Journey Optimizer, siga estas etapas
 Depois de criar e configurar sua credencial de API, agora é necessário criar uma superfície de canal (ou seja, predefinição de mensagem) para mensagens SMS.
 
 ## Criar uma superfície de canal para mensagens SMS {#message-preset-sms}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_sms_type"
+>title="Definir a categoria SMS"
+>abstract="Selecione o tipo de mensagens SMS que serão enviadas ao usar esta superfície: Marketing para mensagens SMS promocionais, que exigem consentimento do usuário, ou Transacional para mensagens SMS não comerciais, que também podem ser enviadas para perfis sem assinatura em contextos específicos."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html#sms-opt-in-out" text="Recusar em mensagens SMS de marketing"
 
 Após configurar o canal SMS, é necessário criar uma superfície de canal para enviar mensagens SMS de **[!DNL Journey Optimizer]**.
 
