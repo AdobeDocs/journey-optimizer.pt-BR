@@ -1,19 +1,19 @@
 ---
-title: Monitoramento da execução da mensagem
-description: Saiba mais sobre as diretrizes de monitoramento e entrega
+title: Introdução à capacidade de entrega
+description: Saiba mais sobre as diretrizes de deliverability
 feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad1aadd8b10b05d96ee0de5988d82728aca57d5e
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 25%
+source-wordcount: '649'
+ht-degree: 26%
 
 ---
 
-# Gerenciar a capacidade de entrega {#manage-deliverability}
+# Introdução à capacidade de entrega {#manage-deliverability}
 
 A capacidade de delivery é uma medida do sucesso dos deliveries em chegar às caixas de entrada dos recipients.
 

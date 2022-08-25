@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '453'
 ht-degree: 7%
 
 ---
@@ -121,7 +121,7 @@ Observe que null significa que a expressão não tem um valor avaliado.
 Exemplo:
 
 ```json
-@ is not null
+@{BarBeacon.location} is not null
 ```
 
 ### tem um valor nulo
@@ -154,7 +154,9 @@ Exemplo:
 <expression1> == <expression2>
 ```
 
-Ambos &lt;expression1> e &lt;expression2> deve ter o mesmo tipo de dados. O resultado é booleano.
+>[!NOTE]
+>
+>Para &lt;expression1> e &lt;expression2> não há controle de tipo de dados.
 
 Exemplo:
 
@@ -174,7 +176,10 @@ Exemplo:
 <expression1> != <expression2>
 ```
 
-Ambos &lt;expression1> e &lt;expression2> deve ter o mesmo tipo de dados. O resultado é booleano.
+>[!NOTE]
+Para &lt;expression1> e &lt;expression2> não há controle de tipo de dados.
+
+O resultado é booleano.
 
 Exemplo:
 

@@ -2,10 +2,10 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 30d197f3eab05e2e38025189a6948a6c0fbd6d54
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 86%
+source-wordcount: '223'
+ht-degree: 63%
 
 ---
 
@@ -17,100 +17,70 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [Informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
-## Versão de julho de 2022 {#july-2022-release}
+## Versão de agosto de 2022 {#aug-2022-release}
 
 ### Novos recursos
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Novo fluxo de mensagens incorporadas</strong><br/></th>
+<th><strong>Create and manage campaigns in Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer oferece um novo fluxo para a criação de mensagens em jornadas. As mensagens incorporadas economizarão tempo significativo dos usuários e simplificarão o processo do fluxo de trabalho para criar e entregar um email, uma notificação por push ou um SMS no Journey Optimizer. Ao remover a criação das mensagens como uma etapa separada e, em vez disso, incorporar sua edição como parte de uma ação na tela de jornada, os usuários poderão clicar em menos botões e navegar em menos telas para criar e editar seus conteúdos.</p>
-<img src="assets/do-not-localize/inline.gif"/>
-<p>Para obter mais informações, consulte a <a href="../messages/get-started-content.md">documentação detalhada</a>.</p>
+<p>Use Journey Optimizer campaigns to deliver one-time content to a specific segment using various channels. When using journeys, actions are designed to be executed in sequence. With campaigns actions are performed simultaneously, either immediately, or based on a specified schedule. </p>
+<p>For more information, refer to the <a href="../campaigns/get-started-with-campaigns.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
-</table>
-
+</table-->
 
 <table>
 <thead>
 <tr>
-<th><strong>Controle de acesso baseado em atributos (disponibilidade limitada)</strong><br/></th>
+<th><strong>Enviar SMS para seus usuários (disponibilidade geral)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível identificar campos de esquema com rótulos que definem escopos organizacionais ou de uso de dados. Os administradores podem usar a interface de permissões para definir políticas de acesso que cubram campos de esquema XDM e gerenciar melhor o acesso fornecido aos usuários ou grupos de usuários (usuários internos, externos ou de terceiros), além de gerenciar o acesso a tipos específicos de dados (ou seja, dados pessoais confidenciais/SPD).</p>
-<p>O uso do controle de acesso baseado em atributos está atualmente restrito aos usuários selecionados e será implantado em todos os ambientes em uma versão futura.</p>
-<p>Para obter mais informações, consulte a <a href="../administration/attribute-based-access.md">documentação detalhada</a>.</p>
+<p>Agora você pode criar, personalizar e enviar SMS no Journey Optimizer por meio de uma integração com o <b>Sinch</b> ou <b>Twilio</b>.</p>
+<img src="assets/do-not-localize/SMS.gif"/>
+<p>Saiba como criar e enviar um SMS nesta <a href="../messages/create-sms.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Processos de decisão em lote</strong><br/></th>
+<th><strong>New Dynamic Expression Builder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode executar processos de decisão em lote a partir da interface, de modo que não seja necessário que um desenvolvedor execute processos de API em lote e possa reduzir o tempo necessário para o marketing. Essa nova interface permite criar processos e gerenciar processos atuais/anteriores.</p>
-<img src="assets/do-not-localize/batch.gif"/>
-<p>Para obter mais informações, consulte a <a href="../offers/batch-delivery.md">documentação detalhada.</p>
+<p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
+<p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
-<thead>
-<tr>
-<th><strong>Use automaticamente a oferta com melhor desempenho em suas decisões (disponibilidade limitada)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora você pode usar sistemas de modelo de otimização personalizados na gestão de decisões. Esse novo tipo de modelo permite otimizar e personalizar ofertas com base em segmentos e oferecer desempenho.</p>
-<p>O uso de modelos de AI de otimização personalizada está atualmente restrito a usuários selecionados e será implantado em todos os ambientes em uma versão futura.</p>
-<img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>Para obter mais informações, consulte a <a href="../offers/ranking/personalized-optimization-model.md">documentação detalhada</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 ### Melhorias
 
-**Jornadas**
+**Relatórios**
 
-* **Encerramento de uma jornada** - Na tela da jornada, a variável **End** foi removida da paleta. Tags finais agora são adicionadas por padrão no final de cada caminho e não podem ser removidas. Essa melhoria permite melhores relatórios sobre onde um cliente saiu da jornada, sem nenhuma ação necessária do profissional de jornada. Consulte a [documentação](../building-journeys/journey-end.md) e [vídeo de recurso](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
+* A tabela e o gráfico de políticas de consentimento agora estão disponíveis nos relatórios globais do Jornada. Esses widgets permitem rastrear os perfis excluídos das políticas em suas ações personalizadas. [Saiba mais](../reports/journey-global-report.md#journey-global)
 
-**Mensagens**
-
-* As predefinições de mensagem agora são **superfícies de canais**. [Saiba mais](../configuration/channel-surfaces.md)
+   Para ter acesso aos widgets mais recentes, observe que será necessário redefinir os diferentes painéis de relatórios. Para obter mais informações sobre personalização de painel, consulte [documentação detalhada](../reports/global-report.md).
 
 **Administração**
 
-* **Edição de registro PTR** — Agora, ao atualizar um registro PTR, o tempo de processamento será de até 3 horas. [Saiba mais](../configuration/ptr-records.md#processing)
-
-* **Interface de lista de permissões** — Agora é possível usar a interface do Journey Optimizer para adicionar novos domínios ou endereços de email à lista de permissões. [Saiba mais](../configuration/allow-list.md)
-
-* **Atualização lógica da lista de permissões** — Agora a lógica da lista de permissões se aplica assim que o recurso é ativado, mesmo que a lista esteja vazia. [Saiba mais](../configuration/allow-list.md#logic)
-
-* **Parâmetros de rastreamento de URL** - Agora você pode usar o Editor de expressão para configurar parâmetros de rastreamento de URL em suas superfícies de email (ou seja, predefinições). [Saiba mais](../configuration/email-settings.md#url-tracking)
-
-**Offer Decisioning**
-
-* **Tamanho do público-alvo** — Um novo componente de estimativa de tamanho de público-alvo agora é exibido na interface ao criar uma regra de decisão, ao selecionar um segmento ou uma regra para definir uma qualificação de oferta ou ao adicionar um segmento ou uma regra a um escopo de decisão.
+* Agora é possível atualizar o número de telefone principal a ser usado para o canal SMS. [Saiba mais](../configuration/primary-email-addresses.md)

@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: 12bc2373ac5c391764df3880c5c87666a19e99b2
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 4%
@@ -30,9 +30,9 @@ Dois tipos de modelos de IA estão disponíveis em [!DNL Journey Optimizer]:
 
 * **Modelos de personalização** permite definir objetivos de negócios e utilizar dados de clientes para treinar modelos orientados a negócios para fornecer ofertas personalizadas e maximizar KPIs. [Saiba mais](personalized-optimization-model.md)
 
->[!CAUTION]
->
->O uso de modelos de Otimização personalizada está disponível no momento somente para usuários selecionados.
+   >[!CAUTION]
+   >
+   >O uso de modelos de Otimização personalizada está disponível no momento somente para usuários selecionados.
 
 ## Criação de um modelo de IA {#create-ai-model}
 

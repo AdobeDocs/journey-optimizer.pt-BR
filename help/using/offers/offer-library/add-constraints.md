@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1631'
 ht-degree: 2%
 
 ---
@@ -99,6 +99,10 @@ O **[!UICONTROL Offer eligibility]** permite restringir a oferta a perfis espec�
 Ao selecionar segmentos ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Refresh]** para atualizar os dados.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
+
+>[!NOTE]
+>
+>As estimativas de perfil não estão disponíveis quando os parâmetros da regra incluem dados que não estão no perfil, como dados de contexto. Por exemplo, uma regra de elegibilidade que requer que o tempo atual seja ≥80 graus.
 
 ### Uso de segmentos versus regras de decisão {#segments-vs-decision-rules}
 

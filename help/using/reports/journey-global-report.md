@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d431673dd55b41b8d2de21ec82fa4b15baa13a0f
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1664'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,13 @@ O **[!UICONTROL Top Actions]** contém os dados disponíveis para **[!UICONTROL 
 * **[!UICONTROL Actions successfully executed]**: Número total de **[!UICONTROL Actions]** executado com êxito para uma jornada.
 
 * **[!UICONTROL Error in action]**: Número total de erros que ocorreram **[!UICONTROL Actions]**.
+
+![](assets/global_report_25.png)
+
+O **[!UICONTROL Consent policies]** tabela e gráfico exibem o número de perfis excluídos de cada política em suas ações personalizadas.
+Para obter mais informações sobre ações personalizadas, consulte [documentação detalhada](../action/about-custom-action-configuration.md).
+
+Observe que para que esses widgets apareçam em seus relatórios de Jornadas, será necessário redefinir seus painéis. Para fazer isso, clique em **[!UICONTROL Modify]** then **[!UICONTROL Reset]** na parte superior do relatório.
 
 ## Guia Email {#email-global}
 

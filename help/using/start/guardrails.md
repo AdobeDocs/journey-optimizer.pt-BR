@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '807'
 ht-degree: 4%
 
 ---
@@ -88,3 +88,4 @@ Você pode escolher uma dessas duas soluções:
 ### Ler segmento {#read-segment-g}
 
 * Os segmentos continuados estão sempre atualizados, mas os segmentos em lote não serão calculados no momento da recuperação. Só são avaliados todos os dias no momento da avaliação diária do lote.
+* Para jornadas que usam uma atividade Ler segmento , há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. As tentativas serão executadas pelo sistema, mas evite ter mais de cinco jornadas (com Segmento de leitura, programado ou iniciando &quot;o mais rápido possível&quot;), iniciando exatamente ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.

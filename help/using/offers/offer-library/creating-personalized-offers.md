@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 4%
+source-wordcount: '680'
+ht-degree: 3%
 
 ---
 
@@ -66,6 +66,8 @@ Para criar um **oferta** siga estas etapas:
    >[!NOTE]
    >
    >Ao selecionar segmentos ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Refresh]** para atualizar os dados.
+   >
+   >Observe que as estimativas de perfil não estão disponíveis quando os parâmetros da regra incluem dados que não estão no perfil, como dados de contexto. Por exemplo, uma regra de elegibilidade que requer que o tempo atual seja ≥80 graus.
 
    ![](../assets/offer-constraints-example.png)
 

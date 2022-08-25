@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 7%
+source-wordcount: '1203'
+ht-degree: 6%
 
 ---
 
@@ -27,6 +27,8 @@ Use o **Ler segmento** atividade para fazer com que todos os indivíduos de um s
 Vejamos como exemplo o segmento &quot;Abertura e check-out do aplicativo Luma&quot; criado na [Construir segmentos](../segment/about-segments.md) caso de uso. Com a atividade Ler segmento , é possível fazer com que todos os indivíduos pertencentes a esse segmento entrem em uma jornada e façam com que eles fluam em jornadas individualizadas que aproveitarão todas as funcionalidades de jornada: condições, cronômetros, eventos, ações.
 
 >[!NOTE]
+>
+>Para jornadas que usam uma atividade Ler segmento , há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. As tentativas serão executadas pelo sistema, mas evite ter mais de cinco jornadas (com Segmento de leitura, programado ou iniciando &quot;o mais rápido possível&quot;), iniciando exatamente ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
 >
 >O complemento Burst paid permite o envio muito rápido de mensagens de push em grandes volumes para jornadas simples que incluem um segmento de leitura e uma mensagem de push simples. Para obter mais informações, consulte [esta seção](../building-journeys/journey-gs.md#burst)
 

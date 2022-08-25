@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 2%
@@ -24,7 +24,7 @@ Defina as configurações de email na seção dedicada da configuração da supe
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definir a categoria de email"
->abstract="Selecione o tipo de mensagem que será enviada ao usar esta superfície: Marketing para mensagens promocionais, que exigem consentimento do usuário, ou Transacional para mensagens não comerciais, que também podem ser enviadas para perfis sem assinatura em contextos específicos."
+>abstract="Selecione o tipo de emails que será enviado ao usar esta superfície: Marketing para emails promocionais, que exigem consentimento do usuário, ou Transacional para emails não comerciais, que também podem ser enviados para perfis sem assinatura em contextos específicos."
 
 No **TIPO DE EMAIL** selecione o tipo de mensagem que será enviada com a superfície: **Marketing** ou **Transacional**.
 

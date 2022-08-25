@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
 workflow-type: tm+mt
 source-wordcount: '1738'
 ht-degree: 3%
@@ -313,7 +313,7 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#url-decode">Decodificação de URL</a></td><td>Essa função é usada para decodificar uma string codificada em url.</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-encode">Pontuação de URL</a></td><td>Essa função é usada para codificar uma string no url.</td>
+        <td><a href="string.md#url-encode">Codificação de URL</a></td><td>Essa função é usada para codificar uma string no url.</td>
     </tr>
 </table>
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1080'
 ht-degree: 2%
 
 ---
@@ -89,6 +89,10 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
       Saiba como criar uma regra de decisão no [esta seção](../offer-library/creating-decision-rules.md).
 
 1. Ao selecionar segmentos ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Refresh]** para atualizar os dados.
+
+   >[!NOTE]
+   >
+   >As estimativas de perfil não estão disponíveis quando os parâmetros da regra incluem dados que não estão no perfil, como dados de contexto. Por exemplo, uma regra de elegibilidade que requer que o tempo atual seja ≥80 graus.
 
    ![](../assets/activity_constraint-estimate.png)
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 9eebc64476b1fb7c1d0300cf66b0377dfbf0754f
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1328'
 ht-degree: 10%
 
 ---
@@ -113,9 +113,9 @@ Isso permite definir um fluxo diferente com base na data. Por exemplo, se a pess
 
 Use esse tipo de condição para definir um número máximo de perfis para um caminho de jornada. Quando esse limite é atingido, os perfis que entram pegam um caminho alternativo. Isso garante que suas jornadas nunca excedam o limite definido.
 
-    >[!OBSERVAÇÃO]
-    >
-    >Recomendamos que você defina um limite de perfil de alto valor. A precisão e probabilidade de uma população atingir o número exato de tampa só aumenta à medida que a tampa aumenta. Para números pequenos (por exemplo, um limite de 50), os números nem sempre corresponderão, pois o limite pode não ser atingido antes que os perfis escolham um caminho alternativo.
+>[!NOTE]
+>
+>Recomendamos que você defina um limite de perfil de alto valor. A precisão e probabilidade de uma população atingir o número exato de tampa só aumenta à medida que a tampa aumenta. Para números pequenos (por exemplo, um limite de 50), os números nem sempre corresponderão, pois o limite pode não ser atingido antes que os perfis escolham um caminho alternativo.
 
 Você pode usar esse tipo de condição para aumentar o volume de seus deliveries. Veja isso [caso de uso](ramp-up-deliveries-uc.md).
 

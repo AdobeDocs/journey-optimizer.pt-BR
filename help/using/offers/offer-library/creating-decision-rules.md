@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 14%
+source-wordcount: '317'
+ht-degree: 12%
 
 ---
 
@@ -46,6 +46,10 @@ Para criar uma regra de decisão, siga estas etapas:
 1. À medida que você adiciona e configura novos campos no espaço de trabalho, a variável **[!UICONTROL Segment properties]** O painel exibe informações sobre os perfis estimados pertencentes ao segmento. Clique em **[!UICONTROL Refresh estimate]** para atualizar os dados.
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
+
+   >[!NOTE]
+   >
+   >As estimativas de perfil não estão disponíveis quando os parâmetros da regra incluem dados que não estão no perfil, como dados de contexto. Por exemplo, uma regra de elegibilidade que requer que o tempo atual seja ≥80 graus.
 
 1. Clique em **[!UICONTROL Save]** para confirmar.
 
