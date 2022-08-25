@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 98%
+source-wordcount: '1124'
+ht-degree: 97%
 
 ---
 
@@ -37,16 +37,13 @@ ht-degree: 98%
 + Campanhas {#campaigns}
    + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
    + [Criar uma campanha](using/campaigns/create-campaign.md)
-   + [Modificar ou interromper uma campanha](using/campaigns/modify-stop-campaign.md)
+   + [Gerenciar campanhas ativas](using/campaigns/modify-stop-campaign.md)
    + Experiência de conteúdo {#content-experiment}
       + [Introdução ao experimento de conteúdo](using/campaigns/get-started-experiment.md)
       + [Criar um experimento de conteúdo](using/campaigns/content-experiment.md)
       + [Entender os cálculos estatísticos](using/campaigns/experiment-calculations.md)
-   + [Acione campanhas usando APIs](using/campaigns/api-triggered-campaigns.md)
-   + Relatórios {#reports}
-      + [Relatório em tempo real da campanha](using/campaigns/campaign-live-report.md)
-      + [Relatório global da campanha](using/campaigns/campaign-global-report.md)
       + [Configuração de relatórios](using/campaigns/reporting-configuration.md)
+   + [Acione campanhas usando APIs](using/campaigns/api-triggered-campaigns.md)
 + Mensagens {#messages}
    + [Introdução a mensagens](using/messages/get-started-content.md)
    + [Criar um email](using/messages/create-email.md)
@@ -244,11 +241,13 @@ ht-degree: 98%
    + Relatório ao vivo {#live-report}
       + [Acessar o painel de relatórios em tempo real](using/reports/live-report.md)
       + [Relatório da jornada em tempo real](using/reports/journey-live-report.md)
+      + [Relatório ao vivo da campanha](using/reports/campaign-live-report.md)
       + [Relatório em tempo real da página de aterrissagem](using/reports/lp-report-live.md)
       + [Relatório em tempo real da lista de assinaturas](using/reports/subscription-report-live.md)
    + Relatório global {#global-report}
       + [Acessar o painel de relatórios global](using/reports/global-report.md)
       + [Relatório global da jornada](using/reports/journey-global-report.md)
+      + [Relatório de campanha global](using/reports/campaign-global-report.md)
       + [Relatório global da página de aterrissagem](using/reports/lp-report-global.md)
       + [Relatório global da lista de assinaturas](using/reports/subscription-report-global.md)
    + Relatórios de jornada {#reports}

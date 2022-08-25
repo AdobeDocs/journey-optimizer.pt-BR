@@ -2,10 +2,10 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 30d197f3eab05e2e38025189a6948a6c0fbd6d54
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 63%
+source-wordcount: '280'
+ht-degree: 50%
 
 ---
 
@@ -21,21 +21,22 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ### Novos recursos
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Create and manage campaigns in Journey Optimizer</strong><br/></th>
+<th><strong>Criar e gerenciar campanhas no Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Use Journey Optimizer campaigns to deliver one-time content to a specific segment using various channels. When using journeys, actions are designed to be executed in sequence. With campaigns actions are performed simultaneously, either immediately, or based on a specified schedule. </p>
-<p>For more information, refer to the <a href="../campaigns/get-started-with-campaigns.md">detailed documentation</a>.
+<p>Use campanhas do Journey Optimizer para fornecer conteúdo único a um segmento específico usando vários canais. Ao usar jornadas, as ações são projetadas para serem executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um agendamento especificado. </p>
+<img src="assets/do-not-localize/campaigns.gif"/>
+<p>Saiba como criar uma campanha neste <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a>.
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>

@@ -1,27 +1,27 @@
 ---
 title: Modificar ou interromper uma campanha
-description: Saiba como criar ou parar uma campanha ativada no [!DNL Journey Optimizer]
+description: Saiba como modificar, parar ou duplicar campanhas ao vivo no [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 15%
+source-wordcount: '227'
+ht-degree: 2%
 
 ---
 
-# Modificar ou interromper uma campanha {#modify-stop-campaign}
+# Gerenciar campanhas ativas {#modify-stop-campaign}
 
-Depois que uma campanha é ativada, você pode editá-la ou interrompê-la a qualquer momento. Para fazer isso, siga as etapas abaixo.
+Depois que uma campanha é ativada, você pode modificá-la ou interrompê-la a qualquer momento. Essas operações estão disponíveis apenas para campanhas com uma execução recorrente.
 
-## Modificar uma campanha ativada {#modify}
+Além disso, você pode duplicar campanhas ativas (executadas uma vez ou com uma execução recorrente) para criar novas.
 
-Para modificar e criar uma nova versão de uma campanha, siga estas etapas:
+## Modificar uma campanha recorrente {#modify}
+
+Para modificar e criar uma nova versão de uma campanha recorrente, siga estas etapas:
 
 1. Abra a campanha e clique no botão **[!UICONTROL Modify campaign]** botão.
 
@@ -39,20 +39,20 @@ Para modificar e criar uma nova versão de uma campanha, siga estas etapas:
    >
    >Ativar o rascunho substituirá a versão ao vivo da campanha.
 
-## Parar uma campanha {#stop}
+## Interromper uma campanha recorrente {#stop}
 
-Para interromper uma campanha, abra-a e clique no botão **[!UICONTROL Stop campaign]** botão.
+Para interromper uma campanha recorrente, abra-a e clique no botão **[!UICONTROL Stop campaign]** botão.
 
 ![](assets/create-campaign-stop.png)
 
 >[!IMPORTANT]
 >
->Após parar uma campanha, ela estará disponível somente no modo somente leitura. Você não poderá ativá-la novamente ou usá-la para criar uma nova campanha.
+>Parar uma campanha não interromperá um envio em andamento, mas interromperá um envio agendado ou as próximas ocorrências se o envio já estiver em andamento.
 
-## Recursos adicionais
+<!-- inbound campaign (inapp): can stop and resume -->
 
-* [Introdução às campanhas](get-started-with-campaigns.md)
-* [Criar uma campanha](create-campaign.md)
-* [Criar campanhas acionadas por API](api-triggered-campaigns.md)
-* [Relatório em tempo real da campanha](campaign-live-report.md)
-* [Relatório global da campanha](campaign-global-report.md)
+## Duplicar uma campanha {#duplicate}
+
+Você pode duplicar uma campanha ao vivo para criar uma nova. Para fazer isso, abra a campanha e clique em **[!UICONTROL Duplicate]**.
+
+![](assets/create-campaign-duplicate.png)

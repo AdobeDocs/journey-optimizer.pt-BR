@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 1%
+source-wordcount: '878'
+ht-degree: 3%
 
 ---
 
@@ -129,10 +129,52 @@ Depois que seus tratamentos forem personalizados, você poderá começar a confi
 
    ![](assets/content_experiment_14.png)
 
-## Relatório de experiência {#experimentation-report}
+Após configurar sua experimentação e campanha, você pode seguir o sucesso de seu delivery com o relatório Campanha .
+
+## Relatório de objetivos {#objectives-global}
+
+>[!AVAILABILITY]
+>
+>O recurso de Experiência de conteúdo está disponível atualmente apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
+
+![](assets/performance_report.gif)
+
+O **[!UICONTROL Objectives]** A guia do relatório Campanha permite ajustar melhor os relatórios dos deliveries, direcionando uma métrica específica.
+
+O **[!UICONTROL Objectives]** listadas estão vinculadas a **[!UICONTROL Datasets]** que definem uma conexão com um sistema para recuperar informações adicionais. Uma lista de **[!UICONTROL Objectives]** está disponível, mas você pode adicionar o seu ao adicionar novo **[!UICONTROL Dataset]**. Para obter o procedimento detalhado, consulte este [seção](reporting-configuration.md).
+
+Após selecionar os Objetivos que deseja definir como meta, os dois **[!UICONTROL Performance overview]** e **[!UICONTROL Campaign objective]** os widgets fornecerão um resumo detalhado do desempenho do seu delivery.
+
+Com o **[!UICONTROL Campaign objective]** no widget, você também pode optar por comparar seu objetivo principal com outra métrica.
+
+Observe que cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações sobre isso, consulte esta seção [seção](../reports/global-report.md#modify-dashboard).
+
+## Relatório de experiência {#experimentation-global}
+
+>[!AVAILABILITY]
+>
+>O recurso de Experiência de conteúdo está disponível atualmente apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
 
 ![](assets/experimentation_report_3.png)
 
-Da sua campanha **[!UICONTROL Global report]**, o **[!UICONTROL Experimentation]** detalha as informações principais relativas ao desempenho de cada variante e se houve um melhor desempenho durante o teste.
+Da sua campanha **[!UICONTROL Global report]**, o **[!UICONTROL Experimentation]** detalha as informações principais sobre o desempenho de cada variante e se há um melhor desempenho.
 
-Para obter mais detalhes sobre esse relatório, consulte [Relatório de campanha global](../campaigns/content-experiment.md#experimentation-report) página.
+Observe que a definição do melhor desempenho pode levar algum tempo, ele será representado por este ícone ![](assets/experimentation_report_1.png).
+
+O **[!UICONTROL Experiment result]** O widget detalha o desempenho de cada variante. Pode alterar o seu valor basal selecionando um dos tratamentos na **[!UICONTROL Baseline]** o menu suspenso. O melhor tratamento será representado com um ícone de estrela.
+
+A tabela apresenta as seguintes métricas:
+
+* **[!UICONTROL Profiles]**: Número de perfis direcionados para este tratamento.
+
+* **[!UICONTROL Unique outbound clicks]**: Contagem total de cliques em canais de saída.
+
+* **[!UICONTROL Count per profile]**: O valor total da métrica de objetivo do Experimento dividido pelo número de perfis.
+
+* **[!UICONTROL Confidence interval]**: Diferença percentual no desempenho entre a linha de base e o tratamento com melhor desempenho. [Saiba mais](../campaigns/experiment-calculations.md#confidence-intervals).
+
+* **[!UICONTROL Average lift]**: Melhoria da percentagem na taxa de conversão de um determinado tratamento em relação ao valor basal. [Saiba mais](../campaigns/experiment-calculations.md#understand-lift)
+
+* **[!UICONTROL Confidence]**: Evidência de que um determinado tratamento é o mesmo que o tratamento inicial. [Saiba mais](../campaigns/experiment-calculations.md#understand-confidence)
+
+Para detalhar esses resultados e como interpretá-los, consulte [esta página](../campaigns/get-started-experiment.md#interpret-results).

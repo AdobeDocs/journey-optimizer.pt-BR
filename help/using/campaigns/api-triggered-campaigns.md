@@ -4,10 +4,10 @@ description: Saiba como acionar campanhas usando o [!DNL Journey Optimizer] APIs
 hide: true
 hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 4%
+source-wordcount: '676'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,6 @@ ht-degree: 4%
 >[!NOTE]
 >
 >A API de Execução de Mensagens Interativas está atualmente em versão beta, que pode estar sujeita a atualizações frequentes sem aviso prévio.
-
 
 Com [!DNL Journey Optimizer], você pode criar campanhas e depois invocá-las de um sistema externo com base no acionador do usuário usando a [API REST de Execução de Mensagens Interativas](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Isso permite cobrir várias necessidades operacionais e de mensagens transacionais, como redefinições de senha, token OTP, entre outras.
 
@@ -92,11 +91,3 @@ Observe que, se você tiver configurado uma data de início e/ou término espec�
 >[!NOTE]
 >
 >Em alguns casos, pode ser necessário enviar mensagens transacionais para perfis que não existem no sistema. Por exemplo, se um usuário desconhecido tentar fazer logon no site. Nesse caso, o perfil correspondente é criado automaticamente no Adobe Experience Platform, no **Conjunto de dados do perfil de mensagens interativas AJO** conjunto de dados.
-
-## Recursos adicionais
-
-* [Introdução às campanhas](get-started-with-campaigns.md)
-* [Criar uma campanha](create-campaign.md)
-* [Modificar ou interromper uma campanha](modify-stop-campaign.md)
-* [Relatório em tempo real da campanha](campaign-live-report.md)
-* [Relatório global da campanha](campaign-global-report.md)
