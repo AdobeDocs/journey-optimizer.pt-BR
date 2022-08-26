@@ -2,9 +2,9 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 4576fbc4f75951e0576787b7631e164a87fdb83d
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '283'
 ht-degree: 50%
 
 ---
@@ -32,7 +32,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <td>
 <p>Use campanhas do Journey Optimizer para fornecer conteúdo único a um segmento específico usando vários canais. Ao usar jornadas, as ações são projetadas para serem executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um agendamento especificado. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Saiba como criar uma campanha neste <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a>.
+<p>Saiba como criar uma campanha no <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e <a href="https://video.tv.adobe.com/v/346680">vídeo de recurso</a>.
 </td>
 </tr>
 </tbody>
