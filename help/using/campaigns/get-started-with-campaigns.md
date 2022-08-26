@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 3%
+source-wordcount: '321'
+ht-degree: 4%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 3%
 As campanhas permitem que você forneça conteúdo único para um segmento específico usando vários canais. Ao contrário das jornadas, onde as ações são projetadas para serem executadas em sequência, as campanhas executam ações simultaneamente, imediatamente ou em uma programação específica.
 
 Isso permite enviar comunicações ad-hoc simples para casos de uso de marketing, como ofertas promocionais, campanhas de engajamento, anúncios, avisos legais ou atualizações de políticas.
+
+➡️ [Descubra este recurso no vídeo](#video)
 
 <!--You can create two types of campaigns:
 
@@ -58,3 +60,9 @@ As campanhas podem ter vários status:
 >[!NOTE]
 >
 >O ícone &quot;Abrir versão de rascunho&quot; ao lado de um **[!UICONTROL Live]** ou **[!UICONTROL Scheduled]** indica que uma nova versão da campanha foi criada e ainda não foi ativada (consulte [Modificar uma campanha](modify-stop-campaign.md#modify)).
+
+## Vídeo tutorial {#video}
+
+Saiba como criar sua primeira campanha.
+
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
