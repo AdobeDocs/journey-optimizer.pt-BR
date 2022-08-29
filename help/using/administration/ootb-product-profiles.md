@@ -6,20 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 3afef10461ce29b811cb20a2c8c4e94f452daf1f
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1113'
 ht-degree: 9%
 
 ---
 
 # Perfis de produto incorporados {#ootb-product-profiles}
 
-A Adobe Journey Optimizer está lançando um novo recurso, Criação em linha, que permite criar e criar suas mensagens diretamente de uma jornada. Para obter mais informações sobre esse novo recurso, consulte esta página.
 
->[!WARNING]
->
->Se você tiver usuários atribuídos ao **[!DNL Message Manager]** somente perfil de produto, sem o **[!DNL Journey manager]** perfil de produto, será necessário atribuir um novo perfil de produto para que eles possam continuar editando o conteúdo.
+## Sobre permissões relacionadas a mensagens{#message-permissions}
+
+O Adobe Journey Optimizer lançou novos recursos de criação em linha que permitem criar e criar suas mensagens diretamente de uma jornada ou campanha. Para obter mais informações sobre esse novo recurso, [consulte esta página](../rn/inline-messages.md).
 
 Esse recurso afetará as permissões da seguinte maneira:
 
@@ -31,9 +30,14 @@ Esse recurso afetará as permissões da seguinte maneira:
 | **[!DNL Publish Messages]** | **[!DNL Publish Journeys]** |
 | **[!DNL Manage Messages Preview and Test]** | **[!DNL Manage Journeys]** |
 
-**Depois de 25 de julho**, as Permissões relacionadas a Mensagens ainda estarão disponíveis, pois as Mensagens ainda podem ser acessadas para habilitar a transição e você ainda pode salvá-las como template.
+**Após 25 de julho**, permissões relacionadas a **Mensagens** ainda estão disponíveis, pois as mensagens ainda podem ser acessadas para habilitar a transição e você ainda pode salvá-las como template.
 
-**Em 6 de setembro**, As permissões relacionadas às mensagens serão removidas e as mensagens não estarão mais acessíveis.
+**Em 6 de setembro**, permissões relacionadas a **Mensagens** serão removidas e as mensagens não estarão mais acessíveis.
+
+>[!WARNING]
+>
+>Se você tiver usuários atribuídos ao **[!DNL Message Manager]** somente perfil de produto, sem o **[!DNL Journey manager]** perfil de produto, é necessário atribuir um novo perfil de produto para que eles possam continuar editando o conteúdo.
+
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
@@ -64,9 +68,9 @@ Este perfil de produto conta com as seguintes permissões:
 |Gerenciamento de decisão| <ul><li>**[!DNL Manage decisions]**: ler, criar, editar e excluir entidades de decisão.</li><li>**[!DNL Manage ranking strategies]**: ler, criar, editar e excluir relatórios de mensagens personalizados e usar recursos de ação.</li></ul>| |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: ler, criar, editar e excluir segmentos.</li><li>**[!DNL Manage profiles]**: ler, criar, editar e excluir perfis.</li><li>**[!DNL Read datasets]**: acesso somente leitura a conjuntos de dados.</li><li>**[!DNL Read schemas]**: acesso somente leitura a schemas.</li><li>**[!DNL Manage merge policies]**: ler, criar, editar e excluir políticas de mesclagem.</li></ul>|
 |Administração| <ul><li>**[!DNL View messages presets]**: acesso somente leitura às predefinições de mensagens.</li></ul>|
 
-## [!DNL Campaign viewer] {#campaign-viewer}
+## [!DNL Campaign Viewer] {#campaign-viewer}
 
-O **[!DNL Campaign viewer]** o perfil do produto permite acesso somente leitura ao **[!UICONTROL Campaigns]** e **[!UICONTROL Decision management]** recursos.
+O **[!DNL Campaign Viewer]** o perfil do produto permite acesso somente leitura ao **[!UICONTROL Campaigns]** e **[!UICONTROL Decision management]** recursos.
 
 Os usuários atribuídos a este perfil de produto não poderão editar ou publicar.
 

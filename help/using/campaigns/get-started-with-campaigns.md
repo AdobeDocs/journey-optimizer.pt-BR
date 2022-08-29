@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: b73d4495a231a40d833f4fee4dc094b808d659bd
+source-git-commit: bbcafe364ca13501972b3d8e1150aa2f51ba88a0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '486'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >title="Campanhas"
 >abstract="Crie campanhas para fornecer conteúdo único a um segmento específico em vários canais. Antes de criar sua campanha, verifique se você tem uma superfície de canal (ou seja, uma predefinição de mensagem) e um segmento do Adobe Experience Platform pronto para uso."
 
-Use campanhas do Journey Optimizer para fornecer conteúdo único a um segmento específico usando vários canais. Ao usar jornadas, as ações são projetadas para serem executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um agendamento especificado.
+Use campanhas do Journey Optimizer para fornecer conteúdo único a um segmento específico usando vários canais. Ao usar jornadas, as ações são executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um agendamento especificado.
 
 Crie campanhas para enviar comunicações em lote ad-hoc simples para casos de uso de marketing, como ofertas promocionais, campanhas de engajamento, anúncios, avisos legais ou atualizações de políticas.
 
@@ -43,9 +43,9 @@ Verifique os seguintes pré-requisitos antes de começar a criar sua primeira ca
 
    Para atribuir o **[!UICONTROL Product profile]** para seus usuários:
 
-   1. No [!DNL Admin console], selecione o [!DNL Adobe Experience Platform] produto.
+   1. De [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}, selecione o [!DNL Adobe Experience Platform] produto.
 
-   1. No **[!UICONTROL Product profile]** selecione uma das campanhas internas relacionadas **[!UICONTROL Product profile]**: Administrador de campanha, aprovador da campanha, gerente de campanha ou visualizador da campanha.
+   1. Navegue até o **[!UICONTROL Product profile]** selecione uma das campanhas internas relacionadas **[!UICONTROL Product profile]**: Administrador de campanha, aprovador da campanha, gerente de campanha ou visualizador da campanha.
 
       Para obter mais informações sobre a campanha do Journey Optimizer **[!UICONTROL Product profiles]** e **[!UICONTROL Permissions]**, [consulte esta página](../administration/ootb-product-profiles.md).
 
@@ -56,12 +56,12 @@ Verifique os seguintes pré-requisitos antes de começar a criar sua primeira ca
       ![](assets/do-not-localize/admin_2.png)
 
    1. Digite o nome do usuário, o grupo ou o endereço de email e clique em **[!UICONTROL Save]**.
-   Seu usuário agora poderá acessar **[!UICONTROL Campaigns]**.
+   Seu usuário agora pode acessar **[!UICONTROL Campaigns]**.
 
 +++
 
 1. **Você precisa de um público-alvo**. Segmentos de público-alvo precisam estar disponíveis antes de criar a campanha. Saiba mais sobre a criação de público-alvo [nesta página](../segment/about-segments.md).
-1. **Você precisa de uma superfície de canal**. Para selecionar um canal, é necessário criar e disponibilizar a superfície do canal correspondente (ou seja, predefinição). Saiba mais sobre superfícies de canais [nesta página](../configuration/channel-surfaces.md)
+1. **Você precisa de uma superfície de canal**. Para selecionar um canal, é necessário criar e disponibilizar a superfície do canal correspondente (ou seja, predefinição). Saiba mais sobre superfícies de canais [nesta página](../configuration/channel-surfaces.md).
 
 ## Acessar campanhas {#access}
 
@@ -78,14 +78,14 @@ As campanhas podem ter vários status:
 * **[!UICONTROL Draft]**: A campanha está sendo editada e não foi ativada.
 * **[!UICONTROL Activating]**: A campanha está sendo ativada.
 * **[!UICONTROL Live]**: A campanha foi ativada.
-* **[!UICONTROL Scheduled]**: A campanha foi configurada para ser ativada em uma data de início específica.
-* **[!UICONTROL Stopped]**: A campanha foi interrompida manualmente. Não é possível ativá-la ou reutilizá-la (consulte [Parar uma campanha](modify-stop-campaign.md#stop))
+* **[!UICONTROL Scheduled]**: A campanha está configurada para ser ativada em uma data de início específica.
+* **[!UICONTROL Stopped]**: A campanha foi interrompida manualmente. Não é possível ativá-la ou reutilizá-la. [Saiba mais](modify-stop-campaign.md#stop)
 * **[!UICONTROL Completed]**: A campanha foi concluída. Esse status é automaticamente atribuído 3 dias após a ativação de uma campanha ou na data de término da campanha, se ela tiver uma execução recorrente.
 * **[!UICONTROL Archived]**: A campanha foi arquivada.
 
 >[!NOTE]
 >
->O ícone &quot;Abrir versão de rascunho&quot; ao lado de um **[!UICONTROL Live]** ou **[!UICONTROL Scheduled]** indica que uma nova versão da campanha foi criada e ainda não foi ativada (consulte [Modificar uma campanha](modify-stop-campaign.md#modify)).
+>O ícone &quot;Abrir versão de rascunho&quot; ao lado de um **[!UICONTROL Live]** ou **[!UICONTROL Scheduled]** indica que uma nova versão da campanha foi criada e ainda não foi ativada. [Saiba mais](modify-stop-campaign.md#modify).
 
 ## Vídeo tutorial {#video}
 
