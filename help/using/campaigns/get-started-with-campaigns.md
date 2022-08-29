@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d747cc9a4d065ea9110cb8065c113326959e2a41
+source-git-commit: b73d4495a231a40d833f4fee4dc094b808d659bd
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,32 +35,33 @@ Crie campanhas para enviar comunicações em lote ad-hoc simples para casos de u
 
 Verifique os seguintes pré-requisitos antes de começar a criar sua primeira campanha no Journey Optimizer:
 
-1. **Você precisa de permissões adequadas**. As campanhas só estão disponíveis para usuários com acesso a uma campanha relacionada **[!UICONTROL Product profile]** Como administrador do Campaign, aprovador do Campaign, gerente de campanha e/ou visualizador do Campaign. Se não conseguir acessar campanhas, suas permissões devem ser estendidas. Se você tiver acesso a [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} para sua organização, siga as etapas abaixo. Caso contrário, entre em contato com o administrador da Journey Optimizer.
+1. **Você precisa de permissões adequadas**. As campanhas só estão disponíveis para usuários com acesso a uma campanha relacionada **[!UICONTROL Product profile]** Como administrador do Campaign, aprovador do Campaign, gerente de campanha e/ou visualizador do Campaign.
 
-+++Saiba como atribuir permissões de campanha
+   Se não conseguir acessar campanhas, suas permissões devem ser estendidas. Se você tiver acesso a [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} para sua organização, siga as etapas abaixo. Caso contrário, entre em contato com o administrador da Journey Optimizer.
 
-Para atribuir o **[!UICONTROL Product profile]** para seus usuários:
+   +++Saiba como atribuir permissões de campanha
 
-1. No [!DNL Admin console], selecione o [!DNL Adobe Experience Platform] produto.
+   Para atribuir o **[!UICONTROL Product profile]** para seus usuários:
 
-1. No **[!UICONTROL Product profile]** selecione uma das campanhas internas relacionadas **[!UICONTROL Product profile]**: Administrador de campanha, aprovador da campanha, gerente de campanha ou visualizador da campanha.
+   1. No [!DNL Admin console], selecione o [!DNL Adobe Experience Platform] produto.
 
-   Para obter mais informações sobre a campanha do Journey Optimizer **[!UICONTROL Product profiles]** e **[!UICONTROL Permissions]**, [consulte esta página](../administration/ootb-product-profiles.md).
+   1. No **[!UICONTROL Product profile]** selecione uma das campanhas internas relacionadas **[!UICONTROL Product profile]**: Administrador de campanha, aprovador da campanha, gerente de campanha ou visualizador da campanha.
 
-   ![](assets/do-not-localize/admin_1.png)
+      Para obter mais informações sobre a campanha do Journey Optimizer **[!UICONTROL Product profiles]** e **[!UICONTROL Permissions]**, [consulte esta página](../administration/ootb-product-profiles.md).
 
-1. Clique em **[!UICONTROL Add user]** para atribuir ao usuário o **[!UICONTROL Product profile]**.
+      ![](assets/do-not-localize/admin_1.png)
 
-   ![](assets/do-not-localize/admin_2.png)
+   1. Clique em **[!UICONTROL Add user]** para atribuir ao usuário o **[!UICONTROL Product profile]**.
 
-1. Digite o nome do usuário, o grupo ou o endereço de email e clique em **[!UICONTROL Save]**.
+      ![](assets/do-not-localize/admin_2.png)
 
-Seu usuário agora poderá acessar **[!UICONTROL Campaigns]**.
+   1. Digite o nome do usuário, o grupo ou o endereço de email e clique em **[!UICONTROL Save]**.
+   Seu usuário agora poderá acessar **[!UICONTROL Campaigns]**.
 
 +++
 
 1. **Você precisa de um público-alvo**. Segmentos de público-alvo precisam estar disponíveis antes de criar a campanha. Saiba mais sobre a criação de público-alvo [nesta página](../segment/about-segments.md).
-1. **Você precisa de uma superfície de canal**. Para selecionar um canal, é necessário criar e disponibilizar a superfície de canal correspondente. Saiba mais sobre superfícies de canais (ou seja, predefinições) [nesta página](../configuration/channel-surfaces.md)
+1. **Você precisa de uma superfície de canal**. Para selecionar um canal, é necessário criar e disponibilizar a superfície do canal correspondente (ou seja, predefinição). Saiba mais sobre superfícies de canais [nesta página](../configuration/channel-surfaces.md)
 
 ## Acessar campanhas {#access}
 
