@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 87f9a4661b64cf24a8cd62bb9c70d5f1c9fcaddf
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 4%
+source-wordcount: '630'
+ht-degree: 13%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 4%
 >* [Introdução aos segmentos](../segment/about-segments.md)
 
 
-## Configurar uma campanha {#configure}
-
 As etapas para criar uma campanha são as seguintes:
 
 1. Acesse o **[!UICONTROL Campaigns]** , em seguida, clique em **[!UICONTROL Create campaign]**.
@@ -33,7 +31,7 @@ As etapas para criar uma campanha são as seguintes:
 
    >[!NOTE]
    >
-   >Você também pode duplicar uma campanha ao vivo existente para criar uma nova.[Saiba mais](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
+   >Você também pode duplicar uma campanha ao vivo existente para criar uma nova. [Saiba mais](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
 
 <!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
 
@@ -43,6 +41,8 @@ As etapas para criar uma campanha são as seguintes:
 1. No **[!UICONTROL Actions]** escolha o canal e a superfície do canal a serem usados para enviar a mensagem e clique em **[!UICONTROL Create]**.
 
    ![](assets/create-campaign-action.png)
+
+   Uma superfície é uma configuração que foi definida por um [Administrador do sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba mais](../configuration/channel-surfaces.md).
 
    >[!NOTE]
    >
@@ -54,19 +54,22 @@ As etapas para criar uma campanha são as seguintes:
 
 1. No **[!UICONTROL Actions]** , configure a mensagem a ser enviada com a campanha:
 
-   1. Clique no botão **[!UICONTROL Edit content]** , em seguida, configure e crie o conteúdo da mensagem. [Saiba mais sobre mensagens](../messages/get-started-content.md)
+   1. Clique no botão **[!UICONTROL Edit content]** , em seguida, configure e crie o conteúdo da mensagem. [Saiba mais sobre mensagens](../messages/get-started-content.md).
 
-      >[!NOTE]
-      >
-      >O **[!UICONTROL Simulate content]** permite usar perfis de teste para visualizar e testar o conteúdo. [Saiba mais](../design/preview.md)
+      Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem na página a seguir:
 
-   1. Quando o conteúdo estiver pronto, clique na seta para voltar à tela de criação da campanha.
+      * [Criar um email](../messages/create-email.md)
+      * [Criar uma notificação por push](../messages/create-push.md)
+      * [Criar uma mensagem de SMS.](../messages/create-sms.md)
+   1. Depois que o conteúdo for definido, use **[!UICONTROL Simulate content]** para visualizar e testar seu conteúdo com perfis de teste. [Saiba mais](../design/preview.md).
+   1. Clique na seta para voltar à tela de criação da campanha.
 
       ![](assets/create-campaign-design.png)
 
-   1. No **[!UICONTROL Actions tracking]** , especifique se deseja rastrear como os recipients reagem ao seu delivery.
+   1. No **[!UICONTROL Actions tracking]** , especifique se deseja rastrear como os recipients reagem ao seu delivery: você pode rastrear cliques e/ou aberturas.
 
       Os resultados do rastreamento serão acessíveis no relatório da campanha após a execução da campanha. [Saiba mais sobre relatórios de campanha](../reports/campaign-global-report.md)
+
 
 1. Defina o público-alvo como meta. Para fazer isso, clique no botão **[!UICONTROL Select audience]** para exibir a lista de segmentos disponíveis do Adobe Experience Platform. [Saiba mais sobre segmentos](../segment/about-segments.md)
 
@@ -80,7 +83,7 @@ As etapas para criar uma campanha são as seguintes:
    >
    >Os indivíduos pertencentes a um segmento que não tem a identidade (namespace) selecionada entre suas diferentes identidades não serão direcionados pela campanha.
 
-1. Configure as datas de início e término da campanha. Por padrão, as Campanhas são configuradas para serem iniciadas manualmente e para terminarem assim que a mensagem for enviada uma vez.
+1. Configure o agendamento da campanha nos campos de datas de início e término. Por padrão, as campanhas começam assim que são ativadas manualmente e terminam assim que a mensagem é enviada uma vez.
 
 1. Além disso, você pode especificar uma frequência para a execução da ação configurada na campanha.
 
@@ -90,7 +93,7 @@ As etapas para criar uma campanha são as seguintes:
 
 <!--1. If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-Quando a campanha estiver pronta, você poderá revisá-la e publicá-la (consulte [Revisar e ativar uma campanha](#review-activate)).
+Quando a campanha estiver pronta, você poderá revisá-la e publicá-la. [Saiba mais](#review-activate);
 
 ## Revisar e ativar uma campanha {#review-activate}
 
@@ -102,7 +105,7 @@ Após a configuração da campanha, é necessário revisar o parâmetro e o cont
 
    >[!IMPORTANT]
    >
-   >Em caso de erro, você não poderá ativar a campanha. Resolva os erros antes de continuar.
+   >Em caso de erro, não é possível ativar a campanha. Resolva os erros antes de continuar.
 
    ![](assets/create-campaign-alerts.png)
 
@@ -110,13 +113,15 @@ Após a configuração da campanha, é necessário revisar o parâmetro e o cont
 
    ![](assets/create-campaign-review.png)
 
-1. A campanha agora está ativada e tem a variável **[!UICONTROL Live]** status (ou **[!UICONTROL Scheduled]**  se você especificou uma data de início). [Saiba mais sobre status de campanhas](get-started-with-campaigns.md#statuses). A mensagem configurada na campanha é executada imediatamente ou na data especificada.
+1. A campanha agora é ativada. Seu status é **[!UICONTROL Live]** ou **[!UICONTROL Scheduled]** se você tiver inserido uma data de início. [Saiba mais sobre status de campanhas](get-started-with-campaigns.md#statuses).
+
+   A mensagem configurada na campanha é enviada imediatamente ou na data especificada.
 
    >[!NOTE]
    >
    >O **[!UICONTROL Completed]** é automaticamente atribuído a uma campanha 3 dias após ter sido ativado ou na data final da campanha, se tiver uma execução recorrente.
    >
-   >Se nenhuma data final tiver sido especificada, a campanha manterá o status &quot;Ao vivo&quot;. Para alterá-la, você precisa interromper a campanha manualmente. [Saiba como parar uma campanha](modify-stop-campaign.md)
+   >Se nenhuma data final tiver sido especificada, a campanha manterá a variável **[!UICONTROL Live]** status. Para alterá-la, você precisa interromper a campanha manualmente. [Saiba como parar uma campanha](modify-stop-campaign.md)
 
 1. Depois que uma campanha é ativada, você pode verificar as informações a qualquer momento abrindo-a. O resumo permite obter estatísticas sobre o número de perfis segmentados e ações entregues e com falha.
 

@@ -6,16 +6,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 6%
+source-wordcount: '246'
+ht-degree: 20%
 
 ---
 
 # Introdução ao design de email {#get-started-content-design}
 
+É possível importar um conteúdo existente no [!DNL Journey Optimizer] ou utilize os recursos de design de conteúdo:
+
+* Use [!DNL Journey Optimizer] **recursos de design de email** para criar ou importar emails responsivos. [Saiba mais](../design/create-email-content.md)
+
+* Aproveitar o **Adobe Experience Manager Assets Essentials** para enriquecer seus emails e criar e gerenciar seu próprio banco de dados de ativos. [Saiba mais](../design/assets-essentials.md)
+
+* Encontrar **fotos do Adobe Stock** para criar seu conteúdo e melhorar o design de emails. [Saiba mais](../design/stock.md)
+
+* Melhore a experiência dos clientes criando mensagens personalizadas com base em seus atributos de perfil. [Saiba mais](../personalization/personalize.md)
+
 ➡️ [Descubra este recurso no vídeo](#video)
+
+Depois de [criou a mensagem](../messages/get-started-content.md), você pode começar a criar o conteúdo do email.
 
 1. Na mensagem recém-criada, selecione **[!UICONTROL Email designer]** no **[!UICONTROL Body]** seção.
 
@@ -35,11 +47,6 @@ ht-degree: 6%
 
 Todos esses recursos estão disponíveis ao acessar o Designer de email na tela de criação de mensagens. [Saiba mais sobre a criação de mensagens](../messages/get-started-content.md).
 
->[!NOTE]
->
->Observe que os modelos na área inferior são estáticos e não podem ser editados. Eles só estão disponíveis para fins ilustrativos.
->
->Depois de [criou a mensagem](../messages/get-started-content.md), você pode começar a criar o conteúdo do email.
 
 ## Vídeo tutorial {#video}
 

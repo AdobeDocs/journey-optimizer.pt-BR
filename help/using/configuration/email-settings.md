@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 2%
@@ -36,7 +36,7 @@ No **TIPO DE EMAIL** selecione o tipo de mensagem que será enviada com a superf
 >
 >**Transacional** os emails podem ser enviados a perfis que cancelaram a assinatura das comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
 
-When [criação de uma mensagem](../messages/get-started-content.md#create-new-message), você deve escolher uma superfície de canal válida que corresponda à categoria selecionada para seu email.
+When [criação de uma mensagem](../messages/get-started-content.md), você deve escolher uma superfície de canal válida que corresponda à categoria selecionada para seu email.
 
 ## Subdomínio e pool IP {#subdomains-and-ip-pools}
 

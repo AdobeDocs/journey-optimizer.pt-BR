@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 56%
@@ -25,7 +25,7 @@ As ações são conexões através das quais você fornece experiências persona
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-[!DNL Journey Optimizer] O vem com capacidade de mensagem integrada. Consulte [esta seção](../messages/get-started-content.md).
+[!DNL Journey Optimizer] O vem com capacidade de mensagem integrada. Consulte [esta seção](../messages/messages-in-journeys.md).
 
 Se você tiver o Adobe Campaign v7 ou v8, uma integração estará disponível mediante solicitação. Consulte [esta página](../action/acc-action.md).
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 27%
@@ -15,7 +15,7 @@ ht-degree: 27%
 
 # Email, SMS, Push{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] O vem com recursos de mensagem integrados. Você pode simplesmente adicionar, em sua jornada, uma atividade de push, SMS ou mensagem de email e [definir configurações e conteúdo](../messages/get-started-content.md). Ele é executado e enviado no contexto da jornada
+[!DNL Journey Optimizer] O vem com recursos de mensagem integrados. Você pode simplesmente adicionar, em sua jornada, uma atividade de push, SMS ou mensagem de email e [definir configurações e conteúdo](../messages/messages-in-journeys.md). Em seguida, é executado e enviado no contexto da jornada.
 
 Você também pode configurar ações específicas para enviar mensagens:
 
