@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8b2796fd5a133fe1a11b79927be0919ccae65ddb
+source-git-commit: bd27e094ae437e6e0bffdb128f70d1e9f2d7de40
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 26%
@@ -20,7 +20,7 @@ Em suas campanhas, selecione o canal para projetar e personalizar a mensagem que
 >[!NOTE]
 >Você também pode criar jornadas para enviar mensagens acionadas. Saiba mais [nesta seção](messages-in-journeys.md).
 
-Saiba como adicionar e configurar mensagens em uma campanha [nesta seção](../campaigns/create-campaign.md)
+Saiba como adicionar e configurar mensagens em uma campanha [nesta seção](../campaigns/create-campaign.md).
 
 Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem na página a seguir:
 
