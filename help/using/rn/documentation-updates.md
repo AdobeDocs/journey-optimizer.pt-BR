@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
 workflow-type: tm+mt
 source-wordcount: '1812'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -16,8 +16,8 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 ## Agosto de 2022 {#august-2022}
 
 * Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 22 de agosto foi detalhada na documentação. [Leia mais](release-notes.md)
-* A seção Regras de frequência foi atualizada para refletir o novo fluxo de mensagens em linha. [Leia mais](../configuration/frequency-rules.md#apply-frequency-rule)
-* Um vídeo que mostra como configurar assinaturas e criar landing pages agora é referenciado na seção Introdução às landing pages . [Leia mais](../landing-pages/get-started-lp.md#video)
+* A seção Regras de frequência foi atualizada para refletir o novo fluxo de mensagens integrado. [Leia mais](../configuration/frequency-rules.md#apply-frequency-rule)
+* Um vídeo que mostra como configurar assinaturas e criar páginas de aterrissagem agora é referenciado na seção Introdução às páginas de aterrissagem. [Leia mais](../landing-pages/get-started-lp.md#video)
 * Uma limitação foi adicionada para jornadas que usam atividades Ler segmento . [Leia mais](../building-journeys/read-segment.md)
 * A página de operadores do editor de expressão foi aprimorada. [Leia mais](../building-journeys/expression/operators.md)
 

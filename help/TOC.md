@@ -5,7 +5,7 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8b2796fd5a133fe1a11b79927be0919ccae65ddb
+source-git-commit: 5b8a895f628a71291684c8a17d8d7a2cf947fb2f
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 98%
@@ -34,7 +34,7 @@ ht-degree: 98%
       + [Introdução para desenvolvedores](using/start/path/developer.md)
    + [Interface do usuário](using/start/user-interface.md)
    + [Medidas de proteção](using/start/guardrails.md)
-+ Campanhas {#campaigns}
++ Campanhas{#campaigns}
    + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
    + [Criar uma campanha](using/campaigns/create-campaign.md)
    + [Gerenciar campanhas ativas](using/campaigns/modify-stop-campaign.md)
@@ -44,7 +44,7 @@ ht-degree: 98%
       + [Compreender cálculos estatísticos](using/campaigns/experiment-calculations.md)
       + [Configuração de relatórios](using/campaigns/reporting-configuration.md)
    + [Acione campanhas usando APIs](using/campaigns/api-triggered-campaigns.md)
-+ Jornadas {#orchestrate-journeys}
++ Jornadas{#orchestrate-journeys}
    + Sobre jornadas{#about-journeys}
       + [Princípio geral](using/building-journeys/journey.md)
       + [Ciclo de vida da jornada](using/building-journeys/journey-end.md)
