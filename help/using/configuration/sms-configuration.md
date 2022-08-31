@@ -4,9 +4,9 @@ description: Saiba como configurar seu ambiente para enviar mensagens SMS com o 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 44ef82f03752933269c1a8d9e65266c3132dd664
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '608'
 ht-degree: 2%
 
 ---
@@ -25,12 +25,12 @@ Antes de enviar SMS, configure sua instância. Você precisa [integrar as config
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Configurar seu fornecedor de SMS"
+>title="Selecione a configuração do fornecedor de SMS"
 >abstract="Selecione o fornecedor e preencha as credenciais da API de SMS."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="Configurar seu fornecedor de SMS"
+>title="Selecione a configuração do fornecedor de SMS"
 >abstract="Selecione as credenciais da API configuradas para seu fornecedor de SMS."
 
 Para configurar seu fornecedor de SMS com o Journey Optimizer, siga estas etapas:

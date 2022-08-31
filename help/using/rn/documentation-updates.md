@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 98%
+source-wordcount: '1825'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Um vídeo que mostra como configurar assinaturas e criar páginas de aterrissagem agora é referenciado na seção Introdução às páginas de aterrissagem. [Leia mais](../landing-pages/get-started-lp.md#video)
 * Uma limitação foi adicionada para jornadas que usam atividades Ler segmento . [Leia mais](../building-journeys/read-segment.md)
 * A página de operadores do editor de expressão foi aprimorada. [Leia mais](../building-journeys/expression/operators.md)
+* Uma seção sobre como agendar uma campanha foi adicionada. [Leia mais](../campaigns/create-campaign.md)
 
 ## Julho de 2022 {#july-2022}
 

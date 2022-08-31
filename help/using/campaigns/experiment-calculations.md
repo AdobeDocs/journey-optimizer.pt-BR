@@ -8,14 +8,14 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 29c9b8d9e48192b940cb726ed0c116d0782d849a
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 0%
+source-wordcount: '892'
+ht-degree: 1%
 
 ---
 
-# Entender os cálculos estatísticos {#experiment-calculations}
+# Compreender cálculos estatísticos {#experiment-calculations}
 
 >[!AVAILABILITY]
 >
@@ -25,7 +25,7 @@ Este artigo descreve os cálculos estatísticos usados ao executar Experimentos 
 
 Este artigo descreve como a Experimentação funciona e fornece uma introdução intuitiva ao Adobe **Sequências de confiança válidas a qualquer momento**.
 
-Para usuários especialistas, os detalhes técnicos e as referências são detalhados em [esta página](https://experienceleague.adobe.com/docs/journey-optimizer/assets/confidence_sequence_technical_details.pdf?lang=en).
+Para usuários especialistas, os detalhes técnicos e as referências são detalhados em [esta página](../campaigns/assets/confidence_sequence_technical_details.pdf).
 
 ## Testes estatísticos e controle de erros {#statistical-testing}
 
@@ -34,11 +34,11 @@ Para usuários especialistas, os detalhes técnicos e as referências são detal
 Como ilustrado no quadro acima, muitas metodologias de inferência estatística foram projetadas para controlar dois tipos de erros:
 
 * **Falsos positivos (erros do tipo I)**: é uma rejeição incorreta da hipótese nula, quando na verdade é verdadeira. No contexto de Experiências online, isso significa que concluímos falsamente que a métrica de resultado é diferente entre cada tratamento, embora fosse a mesma.
-   </br>Antes de executar o experimento, geralmente escolhemos um limite `$\alpha$`. Depois que o experimento tiver corrido, a `$p$-value` é computado e rejeitamos a variável `null if $p < \alpha$`. Um limite comumente usado é `$\alpha = 0.05$`, o que significa que, a longo prazo, esperamos que 5 de cada 100 experimentos sejam falsos positivos.
+   </br>Antes de executar o experimento, geralmente escolhemos um limite `\alpha`. Depois que o experimento tiver corrido, a `p-value` é computado e rejeitamos a variável `null if p < \alpha`. Um limite comumente usado é `\alpha = 0.05`, o que significa que, a longo prazo, esperamos que 5 de cada 100 experimentos sejam falsos positivos.
 
-* **Falsos negativos (erros do tipo II)**: significa que não rejeitamos a hipótese nula, embora seja falsa. Para Experiências, isso significa que não rejeitamos a hipótese nula, quando, de fato, ela é diferente. Para controlar esse tipo de erro, geralmente precisamos ter usuários suficientes em nosso experimento para garantir um certo Poder, definido como `$1 - \beta$`(isto é, um menos a probabilidade de um erro de tipo II).
+* **Falsos negativos (erros do tipo II)**: significa que não rejeitamos a hipótese nula, embora seja falsa. Para Experiências, isso significa que não rejeitamos a hipótese nula, quando, de fato, ela é diferente. Para controlar esse tipo de erro, geralmente precisamos ter usuários suficientes em nosso experimento para garantir um certo Poder, definido como `1 - \beta`(isto é, um menos a probabilidade de um erro de tipo II).
 
-A maioria das técnicas de inferência estatística exigirá que você corrija o tamanho da amostra antecipadamente, com base no tamanho do efeito que deseja determinar, bem como a tolerância a erros (`$\alpha$` e `$\beta$`) com antecedência. No entanto, a metodologia Adobe Journey Optimizer foi criada para permitir que você veja continuamente seus resultados, para qualquer tamanho de amostra.
+A maioria das técnicas de inferência estatística exigirá que você corrija o tamanho da amostra antecipadamente, com base no tamanho do efeito que deseja determinar, bem como a tolerância a erros (`\alpha` e `\beta`) com antecedência. No entanto, a metodologia Adobe Journey Optimizer foi criada para permitir que você veja continuamente seus resultados, para qualquer tamanho de amostra.
 
 ## Metodologia estatística: Sequências de confiança válidas a qualquer momento
 
@@ -50,11 +50,13 @@ A diferença entre as sequências de confiança e os intervalos de confiança pa
 
 **Sequências de confiança** mude o foco das Experiências para estimativa em vez de teste de hipótese, ou seja, focando na estimativa precisa da diferença entre as maneiras, em vez de rejeitar ou não uma hipótese nula com base em um limite de significância estatística.
 
-Mas de modo semelhante à relação entre `$p$-values`ou **Confiança** e **Intervalos de confiança**, também há uma relação entre **Sequências de confiança** e qualquer hora válida `$p$-values`, ou qualquer tempo de confiança válida. Dada a familiaridade de quantidades como a Confiança, o Adobe fornece os dois **Sequências de confiança** e qualquer momento de confiança válida em seus relatórios.
+Mas de modo semelhante à relação entre `p-values`ou **Confiança** e **Intervalos de confiança**, também há uma relação entre **Sequências de confiança** e qualquer hora válida `p-values`, ou qualquer tempo de confiança válida. Dada a familiaridade de quantidades como a Confiança, o Adobe fornece os dois **Sequências de confiança** e qualquer momento de confiança válida em seus relatórios.
 
 As fundações teóricas de **Sequências de confiança** vêm do estudo de sequências de variáveis aleatórias conhecidas como martingales. Abaixo estão incluídos alguns resultados principais para leitores especialistas, mas as contratações de profissionais são claras:
 
-    As sequências de confiança podem ser interpretadas como analogias sequenciais seguras de intervalos de confiança. Você pode examinar e interpretar dados em seus Experimentos sempre que desejar e parar com segurança ou continuar experimentos. A Confiança Qualquer Hora Válida correspondente, ou `$p$-value`, também é segura para interpretar.
+>[!NOTE]
+>
+>As sequências de confiança podem ser interpretadas como analogias sequenciais seguras de intervalos de confiança. Você pode examinar e interpretar dados em seus Experimentos sempre que desejar e parar com segurança ou continuar experimentos. A Confiança válida Qualquer Hora ou `p-value`, também é seguro interpretar.
 
 É importante notar que, uma vez que as sequências de confiança são &quot;válidas em qualquer momento&quot;, serão mais conservadoras do que uma metodologia de horizonte fixo usada no mesmo tamanho de amostra. Os limites da sequência de confiança são geralmente maiores do que um cálculo de intervalo de confiança, enquanto que qualquer confiança válida de tempo será menor do que um cálculo de confiança de horizonte fixo. O benefício desse conservadorismo é que você pode interpretar seus resultados com segurança em todas as ocasiões.
 

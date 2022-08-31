@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '449'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,14 @@ Na configuração padrão, o limite é definido como 5 erros.
 * Se houver diferentes deliveries e dois erros ocorrerem pelo menos em 24 horas de intervalo, o contador de erros será incrementado a cada erro e o endereço também será suprimido na quinta tentativa.
 
 Se um delivery for bem-sucedido após uma tentativa, o contador de erros do endereço será reinicializado.
+
+## Editar o limite de repetição {#edit-retry-threshold}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_bounces"
+>title="Atualizar o limite de número de erros"
+>abstract="Se o valor padrão não atender às suas necessidades, você poderá modificar o número permitido de devoluções temporárias consecutivas. Quando o contador de tentativas atinge o limite de erro de um endereço de email específico, esse endereço é adicionado à lista de supressão."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Entender a lista de supressão"
 
 Caso o valor padrão de 5 não atenda às suas necessidades, você poderá modificar o limite de erro seguindo as etapas abaixo.
 

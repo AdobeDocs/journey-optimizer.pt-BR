@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: bbcafe364ca13501972b3d8e1150aa2f51ba88a0
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '496'
 ht-degree: 5%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 5%
 Use campanhas do Journey Optimizer para fornecer conteúdo único a um segmento específico usando vários canais. Ao usar jornadas, as ações são executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um agendamento especificado.
 
 Crie campanhas para enviar comunicações em lote ad-hoc simples para casos de uso de marketing, como ofertas promocionais, campanhas de engajamento, anúncios, avisos legais ou atualizações de políticas.
+
+As principais etapas para criar uma campanha são as seguintes:
+
+![](assets/create-campaign-process.png)
 
 ➡️ [Descubra este recurso no vídeo](#video)
 

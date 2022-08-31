@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 2%
@@ -66,7 +66,7 @@ Estes são os ganchos que você pode usar:
 | Nome | Descrição |
 |--- |--- |
 | addBeforeSubmitHook | Gancho personalizado a ser chamado antes do envio do formulário. Retorna true para continuar o envio; caso contrário, retorna false para bloquear o envio. |
-| addBeforeSubmitHook | O gancho personalizado a ser chamado no envio do formulário com falha. |
+| addOnFailureHook | O gancho personalizado a ser chamado no envio do formulário com falha. |
 | addOnSuccessHook | Gancho personalizado a ser chamado no envio bem-sucedido do formulário. |
 
 **Exemplo:**

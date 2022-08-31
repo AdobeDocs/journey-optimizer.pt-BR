@@ -5,13 +5,10 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 3%
+source-wordcount: '589'
+ht-degree: 2%
 
 ---
 
@@ -35,19 +32,9 @@ A lista de permissões permite especificar endereços de email ou domínios indi
 
 Para acessar a lista detalhada de domínios e endereços de email permitidos, acesse **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** e selecione **[!UICONTROL Allowed list]**.
 
-![](assets/allow-list-access.png)
-
 >[!CAUTION]
 >
 >As permissões para visualizar, exportar e gerenciar a lista de permissões estão restritas a [Administradores do Jornada](../administration/ootb-product-profiles.md#journey-administrator). Saiba mais sobre como gerenciar [!DNL Journey Optimizer] direitos de acesso dos usuários em [esta seção](../administration/permissions-overview.md).
-
-Para exportar a lista de permissões como um arquivo CSV, selecione a **[!UICONTROL Download CSV]** botão.
-
-Use o **[!UICONTROL Delete]** para remover permanentemente uma entrada.
-
-Você pode pesquisar por domínios ou endereços de email e filtrar no **[!UICONTROL Address type]**. Depois de selecionado, você pode limpar o filtro exibido na parte superior da lista.
-
-![](assets/allowed-list-filtering-example.png)
 
 ## Ative a lista de permissões {#enable-allow-list}
 
@@ -55,13 +42,9 @@ Para ativar a lista de permissões, siga as etapas abaixo.
 
 1. Acesse o menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]**.
 
-1. Clique em **[!UICONTROL Enable/Disable allowed list]**.
-
-   ![](assets/allow-list-edit.png)
+1. Clique em **[!UICONTROL Edit]**.
 
 1. Selecione **[!UICONTROL Enable allowed list]**.
-
-   ![](assets/allow-list-enable.png)
 
 1. Clique em **[!UICONTROL Save]**. A lista de permissões está ativada.
 
@@ -73,48 +56,11 @@ A lógica de lista de permissões se aplica quando o recurso está ativado. Saib
 
 ## Adicionar entidades à lista de permissões {#add-entities}
 
-Para adicionar novos endereços de email ou domínios à lista de permissões para uma sandbox específica, você pode [preencher manualmente a lista](#manually-populate-list)ou use uma [Chamada de API](#api-call-allowed-list).
+Para adicionar novos endereços de email ou domínios à lista de permissões para uma sandbox específica, é possível usar um [Chamada de API](#api-call-allowed-list).
 
 >[!NOTE]
 >
 >A lista de permissões pode conter até 1.000 entradas.
-
-### Preencher manualmente a lista de permissões {#manually-populate-list}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_allowed_list_add"
->title="Adicionar endereços ou domínios à lista de permissões"
->abstract="Você pode adicionar manualmente novos endereços de email ou domínios à lista de permissões selecionando-os um por um."
-
-Você pode preencher manualmente a variável [!DNL Journey Optimizer] lista de permissões adicionando um endereço de email ou um domínio por meio da interface do usuário.
-
->[!NOTE]
->
->Você só pode adicionar um endereço de email ou domínio por vez.
-
-Para fazer isso, siga as etapas abaixo.
-
-1. Selecione o botão **[!UICONTROL Add email or domain]**.
-
-   ![](assets/allowed-list-add-email.png)
-
-1. Escolha o tipo de endereço: **[!UICONTROL Email address]** ou **[!UICONTROL Domain address]**.
-
-1. Insira o endereço de email ou domínio para o qual deseja enviar emails.
-
-   >[!NOTE]
-   >
-   >Certifique-se de inserir um endereço de email válido (como abc@company.com) ou domínio (como abc.company.com).
-
-1. Especifique um motivo, se necessário.
-
-   ![](assets/allowed-list-add-email-address.png)
-
-   >[!NOTE]
-   >
-   >Todos os caracteres ASCII compreendidos entre 32 e 126 são permitidos no **[!UICONTROL Reason]** campo. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por exemplo.
-
-1. Clique em **[!UICONTROL Submit]**.
 
 ### Adicionar entidades usando uma chamada de API {#api-call-allowed-list}
 
