@@ -2,10 +2,10 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1825'
-ht-degree: 97%
+source-wordcount: '1871'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Uma limitação foi adicionada para jornadas que usam atividades Ler segmento . [Leia mais](../building-journeys/read-segment.md)
 * A página de operadores do editor de expressão foi aprimorada. [Leia mais](../building-journeys/expression/operators.md)
 * Uma seção sobre como agendar uma campanha foi adicionada. [Leia mais](../campaigns/create-campaign.md)
+* A seção de regras de sintaxe gerais do editor de expressão foi atualizada para considerar a nova regra relacionada ao escape do símbolo de barra invertida em funções literais. As mensagens publicadas existentes não são afetadas por essa alteração. Somente as mensagens novas ou de rascunho devem ser atualizadas. [Leia mais](../personalization/personalization-syntax.md#general-rules)
 
 ## Julho de 2022 {#july-2022}
 
