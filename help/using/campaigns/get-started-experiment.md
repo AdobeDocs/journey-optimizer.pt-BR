@@ -2,16 +2,16 @@
 title: Introdução ao experimento de conteúdo
 description: Saiba mais sobre o experimento de conteúdo em [!DNL Journey Optimizer]
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 0%
+source-wordcount: '1494'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->O recurso de Experiência de conteúdo está disponível atualmente apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
+>O recurso Experimento de conteúdo está disponível atualmente apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
 
 ## O que é um experimento de conteúdo?
 
@@ -35,7 +35,7 @@ Os experimentos permitem isolar as alterações que levam a melhorias nas métri
 
 Isso permite que você tome decisões orientadas por dados na otimização de suas metas de negócios.
 
-Para experimentos de conteúdo no Adobe Journey Optimizer, você pode testar ideias como:
+Para Experiências de conteúdo no Adobe Journey Optimizer, você pode testar ideias como:
 
 * **Linha de assunto**: Qual pode ser o impacto de uma mudança no tom ou no grau de personalização de uma linha de assunto?
 * **Conteúdo da mensagem**: A alteração do layout visual de um email resultará em mais cliques no email?
@@ -61,7 +61,7 @@ Por exemplo, é improvável que a alteração do conteúdo do corpo da mensagem 
 +++Execute o teste no tamanho do público-alvo correto ou por tempo suficiente
 
 Se você executar seus testes por mais tempo, será possível detectar diferenças menores na métrica de meta entre os tratamentos. No entanto, se o valor da linha de base de sua métrica de meta for pequeno, você precisará de tamanhos de amostra maiores.
-O número de usuários que devem ser incluídos em seu experimento depende do tamanho do efeito que você deseja detectar, da variação ou propagação de sua métrica de meta, bem como da tolerância para erros falsos positivos e falsos negativos. Em Experimentos clássicos, você pode usar um [calculadora de tamanho da amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR) para determinar por quanto tempo você deve executar o teste.
+O número de usuários que devem ser incluídos em seu experimento depende do tamanho do efeito que você deseja detectar, da variação ou propagação de sua métrica de meta, bem como da tolerância para erros falsos positivos e falsos negativos. Em Experimentos clássicos, você pode usar um [calculadora de tamanho da amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR){_blank} para determinar por quanto tempo você deve executar o teste.
 +++
 
 +++Entender a incerteza estatística
@@ -75,7 +75,7 @@ Os métodos estatísticos dão-nos uma forma de formalizar essa incerteza. Um do
 Para obter insights de negócios verdadeiros, você deve se manter em apenas um Experimento. Em vez disso, acompanhe os experimentos formulando novas hipóteses e executando novos testes com alterações diferentes, em segmentos diferentes, e examinando o impacto nas diferentes métricas.
 +++
 
-## Interpretação dos resultados de seus experimentos {#interpret-results}
+## Interpretar os resultados dos seus experimentos {#interpret-results}
 
 ![](assets/experimentation_report_3.png)
 
@@ -105,7 +105,7 @@ Se os intervalos de confiança para dois tratamentos mal estiverem sobrepostos, 
 
 O Adobe usa intervalos de confiança válidos de 95% em qualquer momento, ou sequências de confiança, o que significa que os resultados podem ser visualizados com segurança a qualquer momento durante o experimento.
 
-### 3. Compreender o incentivo {#understand-lift}
+### 3. Entender o incentivo {#understand-lift}
 
 O resumo do relatório de experiência mostra o **[!UICONTROL Lift over Baseline]**, que é uma medida da percentagem de melhoria na taxa de conversão de um determinado tratamento em relação à linha de base. Definida com precisão, é a diferença de desempenho entre um determinado tratamento e a linha de base, dividida pelo desempenho da linha de base, expressa em percentagem.
 

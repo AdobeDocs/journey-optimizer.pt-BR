@@ -1,27 +1,29 @@
 ---
-title: Cálculos estatísticos usados pela Experimentação
+title: Cálculos estatísticos usados pela Experimentação do Adobe Journey Optimizer
 description: Saiba mais sobre os cálculos estatísticos usados ao executar experimentos
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 1%
+source-wordcount: '897'
+ht-degree: 3%
 
 ---
 
-# Compreender cálculos estatísticos {#experiment-calculations}
+# Entender cálculos estatísticos {#experiment-calculations}
 
 >[!AVAILABILITY]
 >
->O recurso de Experiência de conteúdo está disponível atualmente apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
+>O **Experiência de conteúdo** No momento, o recurso está disponível somente para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
 
-Este artigo descreve os cálculos estatísticos usados ao executar Experimentos no Adobe Journey Optimizer. A experiência usa métodos estatísticos avançados para calcular **Sequências de confiança** e **Confiança**, que permitem executar seus experimentos enquanto for necessário, e monitorar seus resultados continuamente.
+Este artigo descreve os cálculos estatísticos usados ao executar Experimentos no Adobe Journey Optimizer.
+
+A experiência usa métodos estatísticos avançados para calcular **Sequências de confiança** e **Confiança**, que permitem executar seus experimentos enquanto for necessário, e monitorar seus resultados continuamente.
 
 Este artigo descreve como a Experimentação funciona e fornece uma introdução intuitiva ao Adobe **Sequências de confiança válidas a qualquer momento**.
 
@@ -42,7 +44,7 @@ A maioria das técnicas de inferência estatística exigirá que você corrija o
 
 ## Metodologia estatística: Sequências de confiança válidas a qualquer momento
 
-A **Sequência de confiança** é um análogo sequencial de um **Intervalo de confiança**, por exemplo, se você repetir seus experimentos cem vezes e calcular uma estimativa da métrica média e sua sequência de confiança de 95% associada para cada novo usuário que entrar no experimento. Uma Sequência de confiança de 95% incluirá o valor real da métrica em 95 dos 100 experimentos executados. Um Intervalo de Confiança de 95% só pode ser calculado uma vez por experiência, a fim de dar a mesma garantia de cobertura de 95%; não com cada novo usuário. As Sequências de confiança, portanto, permitem monitorar continuamente os experimentos, sem aumentar as taxas de erro Falso positivo.
+A **Sequência de confiança** é um análogo sequencial de um **Intervalo de confiança**, por exemplo, se você repetir seus experimentos cem vezes e calcular uma estimativa da métrica média e sua sequência de confiança de 95% associada para cada novo usuário que entrar no experimento. Uma Sequência de confiança de 95% incluirá o valor real da métrica em 95 dos 100 experimentos executados. Um intervalo de confiança de 95% só pode ser calculado uma vez por experimento a fim de dar a mesma garantia de cobertura de 95%; não com cada novo usuário. As Sequências de confiança, portanto, permitem monitorar continuamente os experimentos, sem aumentar as taxas de erro Falso positivo.
 
 A diferença entre as sequências de confiança e os intervalos de confiança para um único experimento é mostrada na animação abaixo:
 
@@ -68,4 +70,4 @@ Cada vez que você visualiza o relatório de experimentação, o Adobe analisa o
 
 Neste ponto, o tratamento que está tendo o melhor desempenho (com base na taxa de conversão ou valor de métrica normalizado por perfil) será destacado na parte superior da tela do relatório e indicado por uma estrela no relatório tabular. Nesta determinação são considerados apenas os tratamentos que tenham uma confiança superior a 95%, juntamente com a linha de base.
 
-Quando há mais de dois tratamentos, o link de correção de Bonferroni é usado para corrigir vários problemas de comparação e controla a taxa de erro em relação à família. Nesse cenário, também é possível que haja vários tratamentos cuja confiança é maior que 95% e cujos intervalos de confiança se sobrepõem. Nesse caso, o Adobe declarará aquele com a maior taxa de conversão (ou valor de métrica normalizado de perfil) como o melhor desempenho.
+Quando há mais de dois tratamentos, o link de correção de Bonferroni é usado para corrigir vários problemas de comparação e controla a taxa de erro em relação à família. Nesse cenário, também é possível que haja vários tratamentos cuja confiança é maior que 95% e cujos intervalos de confiança se sobrepõem. Nesse caso, a Adobe Journey Optimizer declarará o com a maior taxa de conversão (ou valor de métrica normalizado por perfil) como o melhor desempenho.

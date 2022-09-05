@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '898'
 ht-degree: 4%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->O recurso de Experiência de conteúdo está disponível atualmente apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
+>O **Experiência de conteúdo** No momento, o recurso está disponível somente para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
+
+Use o Journey Optimizer Content Experiment para definir vários tratamentos de delivery. O público-alvo de interesse é alocado aleatoriamente para cada tratamento a fim de determinar qual delas tem melhor desempenho em relação à métrica de interesse. Você pode optar por variar o conteúdo, o assunto ou o remetente do email.
 
 >[!NOTE]
 >
->Antes de usar o experimento de conteúdo, verifique se a configuração de relatório está definida para seus conjuntos de dados personalizados. Saiba mais [nesta seção](reporting-configuration.md).
-
-O recurso Experiência de conteúdo permite definir vários tratamentos de delivery. O público-alvo de interesse é alocado aleatoriamente para cada tratamento a fim de determinar qual delas tem melhor desempenho em relação à métrica de interesse. Você pode optar por variar o conteúdo, o assunto ou o remetente do email.
+>Antes de começar com o Experimento de conteúdo, verifique se a configuração de relatório está definida para seus conjuntos de dados personalizados. Saiba mais [nesta seção](reporting-configuration.md).
 
 No exemplo abaixo, o target do delivery foi dividido em dois grupos, cada um representando 45% da população direcionada, e um grupo de espera de 10%, que não receberá o delivery.
 
@@ -40,7 +40,7 @@ O objetivo aqui é ver se os recipients interagem com o email, dependendo do exp
 
 ## Criar sua campanha {#campaign-experiment}
 
-1. No **[!UICONTROL Campaigns]** página, clique em **[!UICONTROL Create Campaign]**.
+1. No **[!UICONTROL Campaigns]** página, clique em **[!UICONTROL Create campaign]**.
 
    ![](assets/content_experiment_1.png)
 
@@ -99,7 +99,7 @@ O objetivo aqui é ver se os recipients interagem com o email, dependendo do exp
 
 1. Clique em **[!UICONTROL Email designer]** para personalizar ainda mais o delivery de Tratamento B, se necessário.
 
-Depois que seus tratamentos forem personalizados, você poderá começar a configurar seu experimento de conteúdo.
+Depois que seus tratamentos forem personalizados, você poderá começar a configurar seu Experimento de conteúdo.
 
 ## Configurar o experimento de conteúdo {#configure-experiment}
 
