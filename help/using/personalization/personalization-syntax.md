@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: 7476c50f82c0fdd63f282b3ee2dc3756862f598c
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ As palavras **true**, **false**, **null** e **indefinido** são permitidas somen
 
 Em Handlebars, os valores retornados pela variável {{expression}} são **HTML-escaped**. Se a expressão contiver `&`, a saída HTML-escaped retornada é gerada como `&amp;`. Se você não quiser que o Handlebars escape um valor, use o &quot;traço triplo&quot;.
 
-No que diz respeito aos argumentos de funções literais, o analisador de linguagem de modelo não suporta o símbolo de barra invertida única sem escape (&#39;\&#39;). Esse caractere deve ser evitado com uma barra invertida adicional (&#39;\&#39;). Exemplo :
+No que diz respeito aos argumentos de funções literais, o analisador de linguagem de modelo não suporta uma barra invertida única sem escape (`\`). Esse caractere deve ser evitado com uma barra invertida adicional (`\`). Exemplo :
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
