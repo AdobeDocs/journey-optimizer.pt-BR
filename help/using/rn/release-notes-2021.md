@@ -2,10 +2,10 @@
 title: Notas de versão anteriores (2021)
 description: Notas de versão do Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '2067'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lan
 <tbody>
 <tr>
 <td>
-<p>Agora é possível simular quais ofertas serão entregues a um perfil de teste para um determinado posicionamento na interface do Journey Optimizer. Isso permite validar facilmente a sua lógica de decisão, incluindo restrições de qualificação e algoritmos de classificação, antes de colocá-los em produção. Esse recurso permite que usuários técnicos e não técnicos testem rapidamente o Offer Decisioning e solucionem possíveis problemas.</p>
+<p>Agora é possível simular quais ofertas serão entregues a um perfil de teste para um determinado posicionamento na interface do Journey Optimizer. Isso permite validar facilmente a sua lógica de decisão, incluindo restrições de qualificação e algoritmos de classificação, antes de colocá-los em produção. Esse recurso permite que usuários não técnicos e técnicos testem rapidamente o gerenciamento de decisões e solucionem possíveis problemas.</p>
 <p>Para obter mais informações, consulte a <a href="../offers/offer-activities/simulation.md">documentação detalhada</a>.</p>
 </td>
 </tr>

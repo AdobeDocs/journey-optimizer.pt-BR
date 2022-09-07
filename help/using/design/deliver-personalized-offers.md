@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -111,7 +111,7 @@ Saiba mais sobre as etapas detalhadas para verificar a pré-visualização da me
 
 ## Vídeo tutorial{#video-offers}
 
-Saiba como adicionar um componente do Offer Decisioning a mensagens no [!DNL Journey Optimizer].
+Saiba como adicionar um componente de gerenciamento de decisões a mensagens no [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
 

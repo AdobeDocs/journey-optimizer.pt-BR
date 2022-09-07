@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: bfed2a150c1c1568e666d16753b032b203749033
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ Há três tipos de recursos:
 
 | Tipos de recursos | Como adicionar recursos aos modelos |
 |--------------|----------------------------|
-| Objetos de offer decisioning (placementID, activityID, decisionScopeID) | Parte dos eventos de experiência de feedback do Offer decisioning enviada para a AEP |
+| Objetos de decisão (placementID, activityID, decisionScopeID) | Parte do feedback do gerenciamento de decisões Eventos de experiência enviados para a AEP |
 | Segmentos | 0 a 50 segmentos podem ser adicionados como recursos ao criar o modelo de API de classificação |
-| Dados de contexto | Parte dos eventos de experiência de feedback do Offer decisioning enviados para a AEP. Dados de contexto disponíveis para adicionar ao schema: Detalhes de comércio, Detalhes do canal, Detalhes do aplicativo, Detalhes da Web, Detalhes do ambiente, Detalhes do dispositivo, placeContext |
+| Dados de contexto | Parte dos eventos de experiência de feedback de decisão enviados para a AEP. Dados de contexto disponíveis para adicionar ao schema: Detalhes de comércio, Detalhes do canal, Detalhes do aplicativo, Detalhes da Web, Detalhes do ambiente, Detalhes do dispositivo, placeContext |
 
 O modelo tem duas fases:
 

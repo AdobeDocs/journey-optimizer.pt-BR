@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '494'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 Nesse caso de uso, você verá como usar vários tipos de personalização em uma única mensagem de notificação por push. Serão usados três tipos de personalização:
 
 * **Perfil**: personalização de mensagem com base em um campo de perfil
-* **Decisão da oferta**: personalização com base em variáveis de offer decisioning
+* **Decisão da oferta**: personalização com base em variáveis de gerenciamento de decisões
 * **Contexto**: personalização com base em dados contextuais da jornada
 
 O objetivo deste exemplo é impulsionar um evento para [!DNL Journey Optimizer] sempre que um pedido de cliente é atualizado. Em seguida, uma notificação por push é enviada ao cliente com informações sobre o pedido e uma oferta personalizada.
@@ -77,7 +77,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
    ![](assets/perso-uc13.png)
 
-1. No menu esquerdo, selecione **Decisões de oferta** para inserir uma variável de offer decisioning. Selecione a disposição e clique no botão **+** ícone ao lado da decisão de adicioná-lo ao corpo.
+1. No menu esquerdo, selecione **Decisões de oferta** para inserir uma variável de decisão. Selecione a disposição e clique no botão **+** ícone ao lado da decisão de adicioná-lo ao corpo.
 
    ![](assets/perso-uc14.png)
 

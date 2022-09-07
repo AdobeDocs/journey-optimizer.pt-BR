@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1153'
 ht-degree: 2%
 
 ---
@@ -38,9 +38,9 @@ No **TIPO DE EMAIL** selecione o tipo de mensagem que será enviada com a superf
 
 When [criação de uma mensagem](../messages/get-started-content.md), você deve escolher uma superfície de canal válida que corresponda à categoria selecionada para seu email.
 
-## Subdomínio e pool IP {#subdomains-and-ip-pools}
+## Subdomínio e pools de IP {#subdomains-and-ip-pools}
 
-No **DETALHES DO SUBDOMÍNIO E DO POOL IP** na seção , você deve:
+No **Subdomínio e pools de IP** na seção , você deve:
 
 1. Selecione o subdomínio a ser usado para enviar os emails. [Saiba mais](about-subdomain-delegation.md)
 
@@ -92,7 +92,7 @@ Saiba mais sobre como adicionar um link de cancelamento de subscrição de cabe�
 
 ## Parâmetros de cabeçalho{#email-header}
 
-No **[!UICONTROL HEADER PARAMETERS]** , insira os nomes do remetente e os endereços de email associados ao tipo de emails enviados usando essa superfície.
+No **[!UICONTROL Header parameters]** , insira os nomes do remetente e os endereços de email associados ao tipo de emails enviados usando essa superfície.
 
 >[!CAUTION]
 >
@@ -133,7 +133,7 @@ O endereço de email de encaminhamento será configurado pelo Adobe. Isso pode l
 
 Você pode enviar uma cópia idêntica (ou cópia oculta de carbono) de emails enviados por [!DNL Journey Optimizer] para uma caixa de entrada do CCO, onde serão armazenados para fins de conformidade ou arquivamento.
 
-Para fazer isso, ative a **[!UICONTROL BCC EMAIL]** recurso opcional no nível da superfície do canal. [Saiba mais](bcc-email.md)
+Para fazer isso, ative a **[!UICONTROL BCC email]** recurso opcional no nível da superfície do canal. [Saiba mais](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -145,7 +145,7 @@ Para fazer isso, ative a **[!UICONTROL BCC EMAIL]** recurso opcional no nível d
 >abstract="As tentativas são executadas por 3,5 dias (84 horas) quando um delivery de email falha devido a um erro temporário de devolução temporária. Você pode ajustar esse período de tentativas padrão para atender melhor às suas necessidades."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="Sobre tentativas"
 
-Você pode configurar o **PARÂMETROS DE TENTATIVA DE EMAIL**.
+Você pode configurar o **Parâmetros de nova tentativa de email**.
 
 ![](assets/preset-retry-parameters.png)
 
@@ -171,13 +171,15 @@ Saiba mais sobre tentativas em [esta seção](retries.md).
 >title="Visualizar parâmetros de rastreamento do URL"
 >abstract="Analise como os parâmetros de rastreamento serão anexados aos URLs presentes no seu conteúdo de email."
 
-Você pode usar **[!UICONTROL URL TRACKING PARAMETERS]** para medir a eficácia de seus esforços de marketing em todos os canais. Este recurso é opcional.
+Você pode usar **[!UICONTROL URL tracking parameters]** para medir a eficácia de seus esforços de marketing em todos os canais. Este recurso é opcional.
 
 Os parâmetros definidos nesta seção serão anexados ao final dos URLs incluídos no conteúdo da mensagem de email. Em seguida, você pode capturar esses parâmetros em ferramentas de análise da Web, como Adobe Analytics ou Google Analytics, e criar vários relatórios de desempenho.
 
-![](assets/preset-url-tracking.png)
+<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-Três parâmetros de rastreamento de URL são preenchidos automaticamente como um exemplo ao criar uma superfície de canal. Você pode editá-los e adicionar até 10 parâmetros de rastreamento usando o **[!UICONTROL Add new parameter]** botão.
+Você pode adicionar até 10 parâmetros de rastreamento usando a variável **[!UICONTROL Add new parameter]** botão.
+
+![](assets/preset-url-tracking.png)
 
 Para configurar um parâmetro de rastreamento de URL, você pode inserir diretamente os valores desejados no **[!UICONTROL Name]** e **[!UICONTROL Value]** campos.
 

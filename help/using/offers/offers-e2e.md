@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1060'
 ht-degree: 6%
 
 ---
@@ -191,7 +191,7 @@ As etapas detalhadas para criar uma coleção são descritas em [esta seção](.
 
 Agora, você deve criar uma decisão que combine disposições com as ofertas personalizadas e a oferta de fallback que acabou de criar.
 
-Essa combinação será usada pelo mecanismo do Offer Decisioning para encontrar a melhor oferta para um perfil específico: neste exemplo, ele será baseado na prioridade e na regra de decisão atribuídas a cada oferta.
+Essa combinação será usada pelo mecanismo de decisão para encontrar a melhor oferta para um perfil específico: neste exemplo, ele será baseado na prioridade e na regra de decisão atribuídas a cada oferta.
 
 Para criar e configurar uma decisão de oferta, siga as principais etapas abaixo:
 

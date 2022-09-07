@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '806'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ Abaixo você encontrará medidas de proteção e limitações adicionais para us
 
 ## Medidas de proteção de gestão de decisões {#offer-guardrails}
 
-As medidas de proteção de desempenho e os limites estáticos para a gestão de decisões estão listados no [Página de descrição do produto Serviço de Aplicativo do Adobe Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+As medidas de proteção de desempenho e os limites estáticos para a tomada de decisões estão listados na seção [Página de descrição do produto Serviço de Aplicativo do Adobe Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
 
 
 ## Medidas de proteção das páginas de aterrissagem {#lp-guardrails}

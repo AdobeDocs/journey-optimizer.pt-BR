@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Nesta página, você encontrará a lista de conjuntos de dados do Adobe Journey 
 [Conjunto de dados do evento de feedback de mensagem](../start/datasets-query-examples.md#message-feedback-event-dataset)
 [Conjunto de dados do evento de experiência de rastreamento de push](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
 [Evento de etapa de Jornada](../start/datasets-query-examples.md#journey-step-event)
-[Conjunto de dados do evento de offer decisioning](../start/datasets-query-examples.md#ode-decisionevents)
+[Conjunto de dados do evento de decisão](../start/datasets-query-examples.md#ode-decisionevents)
 [Conjunto de dados do serviço de consentimento](../start/datasets-query-examples.md#consent-service-dataset)
 [Conjunto de dados do evento de feedback CCO](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
 
@@ -199,7 +199,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Conjunto de dados do evento de offer decisioning{#ode-decisionevents}
+## Conjunto de dados do evento de decisão{#ode-decisionevents}
 
 _Nome na interface: ODE DecisionEvents (conjunto de dados do sistema)_
 

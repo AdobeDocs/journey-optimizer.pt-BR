@@ -1,21 +1,21 @@
 ---
 title: Introdução
-description: Saiba como começar a usar a API da Biblioteca de ofertas para executar operações-chave usando o Mecanismo de gerenciamento de decisões.
+description: Saiba como começar a usar a API da biblioteca de ofertas para executar operações-chave usando o mecanismo de decisão.
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Guia do desenvolvedor da API de gerenciamento de decisões {#decision-management-api-developer-guide}
 
-Este guia do desenvolvedor fornece etapas para ajudá-lo a começar a usar o [!DNL Offer Library] API. O guia fornece exemplos de chamadas de API para executar operações principais usando o Mecanismo de gerenciamento de decisões.
+Este guia do desenvolvedor fornece etapas para ajudá-lo a começar a usar o [!DNL Offer Library] API. O guia fornece exemplos de chamadas de API para executar operações principais usando o mecanismo de decisão.
 
 ➡️ [Saiba mais sobre os componentes do Gerenciamento de decisões neste vídeo](#video)
 
@@ -25,7 +25,7 @@ Este guia requer uma compreensão funcional dos seguintes componentes do Adobe E
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}: O quadro normalizado pelo qual [!DNL Experience Platform] organiza os dados de experiência do cliente.
    * [Noções básicas da composição do schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR){target=&quot;_blank&quot;}: Saiba mais sobre os componentes básicos dos esquemas XDM.
-* [Gerenciamento de decisões](../../../using/offers/get-started/starting-offer-decisioning.md): Explica os conceitos e os componentes usados para o Experience Decisioning em geral e para o Offer decisioning em particular. Ilustra as estratégias usadas para escolher a melhor opção para apresentar durante a experiência de um cliente.
+* [Gerenciamento de decisões](../../../using/offers/get-started/starting-offer-decisioning.md): Explica os conceitos e os componentes usados para o Experience Decisioning em geral e para o gerenciamento de decisões em particular. Ilustra as estratégias usadas para escolher a melhor opção para apresentar durante a experiência de um cliente.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}: O PQL é um idioma avançado para gravar expressões em instâncias do XDM. O PQL é usado para definir regras de decisão.
 
 ## Lendo exemplos de chamadas de API {#reading-sample-api-calls}
@@ -130,7 +130,7 @@ Este documento cobria os pré-requisitos necessários para fazer chamadas para o
 
 >[!NOTE]
 >
-> O canal de mensagens no aplicativo no Adobe Journey Optimizer usa objetos offer decisioning . Se sua organização usar o canal de mensagens no aplicativo, as solicitações de lista de API para objetos incluirão objetos criados pelo serviço de mensagens no aplicativo e poderão ser ignoradas em casos de uso do offer decisioning. Os objetos criados para mensagens no aplicativo terão `createdBy = “Mobile_Sheliak”`.
+> O canal de mensagens no aplicativo no Adobe Journey Optimizer usa objetos de gerenciamento de decisões. Se sua organização usar o canal de mensagens no aplicativo, as solicitações de lista de API para objetos incluirão objetos criados pelo serviço de mensagens no aplicativo e poderão ser ignoradas em casos de uso do gerenciamento de decisões. Os objetos criados para mensagens no aplicativo terão `createdBy = “Mobile_Sheliak”`.
 
 ## Vídeo tutorial {#video}
 

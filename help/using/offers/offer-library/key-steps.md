@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,7 +58,7 @@ Antes de começar a criar ofertas, você deve definir vários componentes que us
 
 ## Criar e configurar decisões {#create-and-configure-decisions}
 
-1. **Criar uma decisão** que combinará disposições com as ofertas personalizadas e as ofertas de fallback. Essa combinação será usada pelo mecanismo do Offer Decisioning para encontrar a melhor oferta para um perfil específico.
+1. **Criar uma decisão** que combinará disposições com as ofertas personalizadas e as ofertas de fallback. Essa combinação será usada pelo mecanismo de decisão para encontrar a melhor oferta para um perfil específico.
 
 1. **Configure a decisão**. Para fazer isso, selecione as disposições e, para cada disposição, selecione uma coleção e um fallback.
 
