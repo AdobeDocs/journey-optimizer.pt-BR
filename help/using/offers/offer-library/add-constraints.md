@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: e9aab8f3e686a6858e401101f751a35933a21c0a
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1772'
 ht-degree: 2%
 
 ---
@@ -72,6 +72,11 @@ Por exemplo, se você definir as seguintes restrições:
 >abstract="Nesta seção, você pode usar as regras de decisão para determinar quais usuários estão qualificados para a oferta."
 >additional-url="https://video.tv.adobe.com/v/329373" text="Assista ao vídeo de demonstração"
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_total_profile_estimate"
+>title="Estimativa de perfil total"
+>abstract="Ao selecionar segmentos ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados."
+
 O **[!UICONTROL Offer eligibility]** permite restringir a oferta a perfis específicos que você define usando segmentos ou regras de decisão.
 
 >[!NOTE]
@@ -134,6 +139,11 @@ Basicamente, a saída de um segmento é uma lista de perfis, enquanto uma regra 
 >title="Usar limitação"
 >abstract="Para evitar o excesso de solicitações dos clientes, use o limite para definir o número máximo de vezes que uma oferta pode ser apresentada."
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="Definir a frequência de limitação"
+>abstract="Você pode optar por redefinir o contador de limite de oferta diariamente, semanalmente ou mensalmente."
+
 O limite é usado como uma restrição para definir o número máximo de vezes que uma oferta pode ser apresentada.
 
 Limitar o número de vezes que os usuários obtêm ofertas específicas permite evitar o excesso de solicitações dos clientes e, portanto, otimizar cada ponto de contato com a melhor oferta.
@@ -160,6 +170,16 @@ Para definir a limitação, siga as etapas abaixo.
 
       Por exemplo, se você for um banco com uma oferta de &quot;Cartão de crédito Platinum&quot;, não deseja que essa oferta seja exibida mais de 5 vezes por perfil. Na verdade, você acredita que, se o usuário tiver visto a oferta 5 vezes e não tiver agido, ele terá uma chance maior de agir na próxima melhor oferta.
 
+1. Defina as **[!UICONTROL Frequency]** para definir a frequência de redefinição da contagem de limite. Para fazer isso, defina o período de tempo para a contagem (diária, semanal ou mensal) e insira o número de dias/semanas/meses de sua escolha.
+
+   ![](../assets/offer-capping-frequency.png)
+
+   >[!NOTE]
+   >
+   >A redefinição acontece às 12h UTC, no dia definido ou no primeiro dia da semana/mês, quando aplicável. O dia de início da semana é domingo.
+
+   Por exemplo, se desejar que a contagem de limite seja redefinida a cada 2 semanas, selecione **[!UICONTROL Weekly]** do **[!UICONTROL Repeat]** lista suspensa e tipo **2** no segundo campo. A redefinição ocorrerá em todos os outros domingos às 12h UTC.
+
 1. Se você tiver definido vários [representações](#representations) para sua oferta, especifique se deseja aplicar o limite **[!UICONTROL Across all placements]** ou **[!UICONTROL For each placement]**.
 
    ![](../assets/offer-capping-placement.png)
@@ -172,7 +192,7 @@ Para definir a limitação, siga as etapas abaixo.
 
       Por exemplo, se uma oferta tiver uma **Email** posicionamento e uma **Web** posicionamento e você define o limite em **2 por perfil para cada inserção**, cada perfil poderá receber até 2 vezes a oferta para o posicionamento do email e 2 vezes mais para a disposição da Web.
 
-1. Depois de salvo e aprovada, se a oferta tiver sido apresentada o número de vezes que você especificou neste campo de acordo com os critérios definidos, o delivery será interrompido.
+1. Depois de salvo e aprovada, se a oferta tiver sido apresentada, o número de vezes que você especificou neste campo de acordo com os critérios e o período definido, a entrega será interrompida.
 
 O número de vezes que uma oferta é proposta é calculado no momento da preparação do email. Por exemplo, se você preparar um email com várias ofertas, esses números serão contados em relação ao limite máximo, independentemente de o email ser enviado ou não.
 
