@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d4ea9786983d7919ea1598c91ec523826ba7a689
 workflow-type: tm+mt
 source-wordcount: '1137'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -244,13 +244,13 @@ ht-degree: 97%
    + Relatório ao vivo {#live-report}
       + [Acessar o painel de relatórios em tempo real](using/reports/live-report.md)
       + [Relatório da jornada em tempo real](using/reports/journey-live-report.md)
-      + [Relatório ao vivo da campanha](using/reports/campaign-live-report.md)
+      + [Relatório em tempo real da campanha](using/reports/campaign-live-report.md)
       + [Relatório em tempo real da página de aterrissagem](using/reports/lp-report-live.md)
       + [Relatório em tempo real da lista de assinaturas](using/reports/subscription-report-live.md)
    + Relatório global {#global-report}
       + [Acessar o painel de relatórios global](using/reports/global-report.md)
       + [Relatório global da jornada](using/reports/journey-global-report.md)
-      + [Relatório de campanha global](using/reports/campaign-global-report.md)
+      + [Relatório global da campanha](using/reports/campaign-global-report.md)
       + [Relatório global da página de aterrissagem](using/reports/lp-report-global.md)
       + [Relatório global da lista de assinaturas](using/reports/subscription-report-global.md)
    + Relatórios de jornada {#reports}
@@ -266,7 +266,7 @@ ht-degree: 97%
       + [Exemplos de consultas](using/reports/query-examples.md)
    + Capacidade de entrega {#deliverability}
       + [Introdução à capacidade de entrega](using/reports/deliverability.md)
-      + [Entender a lista de supressão](using/reports/suppression-list.md)
+      + [Sobre a lista de supressão](using/reports/suppression-list.md)
 + Gestão de decisões {#offer-decisioning}
    + Introdução ao Gestão de decisões {#get-started-decision}
       + [Sobre a Gestão de decisões](using/offers/get-started/starting-offer-decisioning.md)

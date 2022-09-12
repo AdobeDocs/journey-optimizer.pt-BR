@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
 source-wordcount: '1871'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -15,12 +15,12 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Agosto de 2022 {#august-2022}
 
-* Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 22 de agosto foi detalhada na documentação. [Leia mais](release-notes.md)
+* Todos os novos recursos e aprimoramentos chegando com a versão de agosto de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
 * A seção Regras de frequência foi atualizada para refletir o novo fluxo de mensagens integrado. [Leia mais](../configuration/frequency-rules.md#apply-frequency-rule)
 * Um vídeo que mostra como configurar assinaturas e criar páginas de aterrissagem agora é referenciado na seção Introdução às páginas de aterrissagem. [Leia mais](../landing-pages/get-started-lp.md#video)
-* Uma limitação foi adicionada para jornadas que usam atividades Ler segmento . [Leia mais](../building-journeys/read-segment.md)
+* Uma limitação foi adicionada para jornadas que usam atividades Ler segmento. [Leia mais](../building-journeys/read-segment.md)
 * A página de operadores do editor de expressão foi aprimorada. [Leia mais](../building-journeys/expression/operators.md)
-* Uma seção sobre como agendar uma campanha foi adicionada. [Leia mais](../campaigns/create-campaign.md)
+* Uma seção sobre como programar uma campanha foi adicionada. [Leia mais](../campaigns/create-campaign.md)
 * A seção de regras de sintaxe gerais do editor de expressão foi atualizada para considerar a nova regra relacionada ao escape do símbolo de barra invertida em funções literais. As mensagens publicadas existentes não são afetadas por essa alteração. Somente as mensagens novas ou de rascunho devem ser atualizadas. [Leia mais](../personalization/personalization-syntax.md#general-rules)
 
 ## Julho de 2022 {#july-2022}
@@ -85,7 +85,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 ## Fevereiro de 2022 {#feb-2022}
 
 * Todos os novos recursos e aprimoramentos da versão de fevereiro de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
-* As páginas de documentação das funções [replace](../building-journeys/functions/functionreplace.md#example_2) e [replaceAll](../building-journeys/functions/functionreplaceall.md#example) foram atualizadas com informações adicionais e exemplos relacionados ao parâmetro de direcionamento.
+* As páginas de documentação das funções [replace](../building-journeys/functions/functionreplace.md#example_2) e [replaceAll](../building-journeys/functions/functionreplaceall.md#example) foram atualizadas com informações adicionais e exemplos relacionados ao parâmetro de público-alvo.
 * As práticas recomendadas foram adicionadas à página [Operadores](../building-journeys/expression/operators.md#important-notes).
 
 ## Janeiro de 2022 {#january-2022}
@@ -100,7 +100,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Novembro de 2021 {#november-2021}
 
-* Uma descrição completa do **editor avançado de expressões** usado em jornadas está disponível. [Leia mais](../building-journeys/expression/expressionadvanced.md)
+* Uma descrição completa do **editor de expressão avançado** usado em jornadas está disponível. [Leia mais](../building-journeys/expression/expressionadvanced.md)
 * Foi adicionada uma nova seção sobre o **método de delegação de subdomínio CNAME**. [Leia mais](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 
@@ -179,7 +179,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * As &quot;atividades de oferta&quot; foram renomeadas como &quot;decisões&quot;, e as &quot;decisões&quot; como &quot;escopos de decisão&quot; na documentação e nas telas. [Leia mais](../offers/get-started/starting-offer-decisioning.md)
 * Novo caso de uso: [personalizar uma mensagem com funções auxiliares](../personalization/personalization-use-case-helper-functions.md)
 * Documentação sobre Ler segmento atualizada para refletir os impactos materializados sobre segmentos. [Leia mais](../building-journeys/read-segment.md)
-* Limitações do Journey atualizadas. [Leia mais](../start/guardrails.md)
+* Limitações da jornada atualizadas. [Leia mais](../start/guardrails.md)
 * Seleção Configurar ofertas atualizada na seção de decisões. [Leia mais](../offers/offer-activities/configure-offer-selection.md)
 * Adicionado um aviso para mencionar que as ofertas baseadas em eventos não são compatíveis no momento. [Leia mais](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * A nova guia **[!UICONTROL Overview]** da Gestão de decisões foi documentada. [Leia mais](../offers/get-started/user-interface.md#overview)

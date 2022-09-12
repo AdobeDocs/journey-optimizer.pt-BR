@@ -4,8 +4,8 @@ description: Notas de versão do Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2337'
+ht-degree: 97%
 
 ---
 
@@ -95,7 +95,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 * **Encerramento de uma jornada** - Na tela da jornada, a atividade **Fim** foi removida da paleta. As tags finais agora são adicionadas por padrão no final de cada caminho e não podem ser removidas. Essa melhoria permite obter relatórios melhores sobre onde um cliente saiu da jornada, sem nenhuma ação necessária por parte do profissional de jornada. Consulte a [documentação](../building-journeys/journey-end.md) e o [vídeo em destaque](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
 
 
-* O **Fuso horário do perfil** agora está desmarcada por padrão nas propriedades do jornada. [Saiba mais](../building-journeys/timezone-management.md#timezone-from-profiles)
+* A opção de **Fuso horário do perfil** agora está desmarcada por padrão nas propriedades da jornada. [Saiba mais](../building-journeys/timezone-management.md#timezone-from-profiles)
 
 **Mensagens**
 
@@ -338,7 +338,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 * **Preenchimento prévio de campos de páginas de aterrissagem** - Agora é possível conceder aos usuários a capacidade de preencher previamente os campos da página de aterrissagem com informações de perfil. [Saiba mais](../landing-pages/create-lp.md#configure-primary-page)
 
-**Gerenciamento de decisão**
+**Gestão de decisões**
 
 * **API de decisão no Edge** - A API do Edge Decisioning pode fornecer e renderizar ofertas personalizadas que são gerenciadas no gerenciamento de decisões. É possível criar suas ofertas e outros objetos relacionados usando a interface do usuário (UI) ou as APIs do gerenciamento de decisão. [Saiba mais](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
@@ -373,9 +373,9 @@ Como cliente do Adobe Campaign Standard, agora você pode enviar emails, notific
 **Jornadas**
 
 * Para evitar campos desnecessários no esquema de perfil unificado, o esquema de eventos de etapas da jornada não é mais habilitado para perfis por padrão. Se necessário, você pode ativá-lo. [Saiba mais](../reports/sharing-overview.md)
-* Os novos eventos de etapa relacionados aos trabalhos de exportação agora são enviados pelo Journey Optimizer para a Adobe Experience Platform. Exemplos de consultas foram adicionados à documentação. [Saiba mais](../reports/query-examples.md)
+* Os novos eventos de etapa relacionados aos processos de exportação agora são enviados pelo Journey Optimizer para a Adobe Experience Platform. Exemplos de consultas foram adicionados à documentação. [Saiba mais](../reports/query-examples.md)
 
-**Gerenciamento de decisão**
+**Gestão de decisões**
 
 * Agora é possível especificar se o limite de oferta é aplicado a todos os usuários ou a um perfil específico, bem como a todos os posicionamentos ou por posicionamento. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 * A API de decisão em lote permite que as organizações usem a funcionalidade de gerenciamento de decisões para todos os perfis em um determinado segmento em uma chamada. O conteúdo da oferta de cada perfil no segmento é colocado em um conjunto de dados da AEP, onde ele estará disponível para fluxos de trabalho em lote personalizados. [Saiba mais](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
@@ -466,12 +466,12 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 **Jornadas**
 
 * Para otimizar o desempenho, todas as jornadas no modo de testes que não forem acionadas por uma semana agora serão alternadas de volta para o status Rascunho . [Leia mais](../building-journeys/testing-the-journey.md#important_notes)
-* A integração entre o Journey Optimizer e o Adobe Campaign Classic foi otimizada para melhorar o desempenho. A configuração padrão de limitação foi alterada para 4.000 chamadas / 5 minutos.	[Leia mais](../action/acc-action.md#important-notes)
+* A integração entre o Journey Optimizer e o Adobe Campaign Classic foi otimizada para melhorar o desempenho. A configuração padrão de limite foi alterada para 4.000 chamadas / 5 minutos.	[Leia mais](../action/acc-action.md#important-notes)
 
 **Relatórios**
 
 * Os deliveries agora podem ser filtrados dependendo de seu status:
-   * Na lista Message Execution , agora é possível excluir provas da lista de deliveries.
+   * Na lista Execução de mensagem , agora é possível excluir provas da lista de deliveries.
    * Nos seus relatórios Live/Global, você pode optar por excluir eventos de teste.
 
 * Agora você pode acessar os relatórios em Enviar dados de Otimização de Tempo: o número de pessoas que receberam mensagens imediatamente e o número de pessoas que receberam mensagens com otimização de 1 hora, otimização de 2 horas etc.
@@ -511,7 +511,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tbody>
 <tr>
 <td>
-<p>A opção <strong>Leitura incremental</strong> foi adicionada às atividades recorrentes de <strong>Ler segmento</strong>. Essa opção permite direcionar somente aos indivíduos que entraram no segmento desde a última execução da jornada. A primeira execução sempre direciona a todos os membros do segmento.</p>
+<p>A opção <strong>Leitura incremental</strong> foi adicionada às atividades recorrentes de <strong>Ler segmento</strong>. Essa opção permite direcionar somente a pessoas físicas que entraram no segmento desde a última execução da jornada. A primeira execução sempre direciona a todos os membros do segmento.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">documentação detalhada</a>.
 </td>
 </tr>
@@ -522,7 +522,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Jornadas**
 
-* Os eventos de etapa do Journey Optimizer agora podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR). O campo **profileID**, no esquema incorporado Journey Step Event, agora está definido como um campo de identidade. [Saiba mais](../reports/sharing-overview.md#integration-cja)
+* Os eventos de etapa do Journey Optimizer agora podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR). O campo **profileID**, no esquema incorporado Evento de Etapas da Jornada, agora está definido como um campo de identidade. [Saiba mais](../reports/sharing-overview.md#integration-cja)
 
 **gestão de decisões**
 
