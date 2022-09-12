@@ -1,19 +1,19 @@
 ---
-title: Adicionar mensagens no jornada
+title: Adicionar mensagens em jornadas
 description: Saiba como adicionar mensagens em uma jornada
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
-# Adicionar mensagens no jornada{#messages-in-journeys}
+# Adicionar mensagens em jornadas{#messages-in-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_category"
@@ -25,14 +25,14 @@ ht-degree: 85%
 >title="Superfície de canal"
 >abstract="Uma superfície de canal é uma instância desse canal que tem todas as configurações para fornecer uma ação com sucesso por meio de uma campanha ou jornada. É definida por um administrador do sistema."
 
-Em suas jornadas, use as ações do canal para projetar e personalizar a mensagem que deseja enviar para o seu público-alvo. Ao adicionar um email, um SMS ou uma ação de push às telas do jornada, você está criando um envio acionado. Quando os contatos atingem essa ação de canal, o Adobe Journey Optimizer envia a mensagem automaticamente.
+Em suas jornadas, use as ações do canal para projetar e personalizar a mensagem que deseja enviar ao público-alvo. Ao adicionar um email, um SMS ou uma ação de push às telas de jornada, você está criando um envio acionado. Quando os contatos atingem essa ação de canal, o Adobe Journey Optimizer envia a mensagem automaticamente.
 
 
 >[!NOTE]
 >Você também pode criar campanhas para enviar mensagens programadas. Saiba mais [nesta seção](../campaigns/get-started-with-campaigns.md).
 
 
-Para adicionar mensagens em uma jornada, adicione uma atividade de push, SMS ou email nas telas de jornada.
+Para adicionar mensagens em uma jornada, basta adicionar uma atividade de push, SMS ou email na tela da jornada.
 
 1. Inicie a jornada com uma atividade de [Evento](../building-journeys/general-events.md) ou [Segmento de leitura](../building-journeys/read-segment.md).
 
@@ -99,7 +99,7 @@ Para uso específico, é possível substituir esses valores em contextos especí
 * Testar um email; você pode adicionar seu endereço de email. Após publicar a jornada, o email será enviado para você.
 * Consultar o endereço de email dos assinantes de uma lista. Saiba mais [neste caso de uso](../building-journeys/message-to-subscribers-uc.md).
 
-Clique no mesmo ícone para ocultar configurações avançadas.
+Clique no mesmo ícone para ocultar as configurações avançadas.
 
 ## Procurar mensagens{#browse-message}
 
