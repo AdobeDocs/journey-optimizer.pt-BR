@@ -3,9 +3,9 @@ title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4576fbc4f75951e0576787b7631e164a87fdb83d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>Use campanhas do Journey Optimizer para fornecer conteúdo único a um segmento específico usando vários canais. Ao usar jornadas, as ações são projetadas para serem executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um agendamento especificado. </p>
+<p>Use campanhas do Journey Optimizer para fornecer conteúdo único a um segmento específico usando vários canais. Ao usar jornadas, as ações são projetadas para serem executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Saiba como criar uma campanha no <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e <a href="https://video.tv.adobe.com/v/346680">vídeo de recurso</a>.
+<p>Saiba como criar uma campanha na <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e no <a href="https://video.tv.adobe.com/v/346680">vídeo do recurso</a>.
 </td>
 </tr>
 </tbody>
@@ -41,7 +41,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Enviar SMS para seus usuários (disponibilidade geral)</strong><br/></th>
+<th><strong>Enviar SMS para os usuários (disponibilidade geral)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -78,9 +78,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Relatórios**
 
-* A tabela e o gráfico de políticas de consentimento agora estão disponíveis nos relatórios globais do Jornada. Esses widgets permitem rastrear os perfis excluídos das políticas em suas ações personalizadas. [Saiba mais](../reports/journey-global-report.md#journey-global)
+* A tabela e o gráfico de políticas de consentimento agora estão disponíveis nos relatórios globais da jornada. Esses widgets permitem rastrear os perfis excluídos das políticas em suas ações personalizadas. [Saiba mais](../reports/journey-global-report.md#journey-global)
 
-   Para ter acesso aos widgets mais recentes, observe que será necessário redefinir os diferentes painéis de relatórios. Para obter mais informações sobre personalização de painel, consulte [documentação detalhada](../reports/global-report.md).
+   Para ter acesso aos widgets mais recentes, observe que será necessário redefinir os diferentes painéis de relatórios. Para obter mais informações sobre a personalização de painéis, consulte a [documentação detalhada](../reports/global-report.md).
 
 **Administração**
 
