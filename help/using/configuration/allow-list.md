@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 3%
+source-wordcount: '1024'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ Além disso, quando a lista de permissões estiver ativa, mas estiver vazia, nen
 
 ## Acessar a lista de permissões {#access-allowed-list}
 
-Para acessar a lista detalhada de domínios e endereços de email permitidos, acesse **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** e selecione **[!UICONTROL Allowed list]**.
+Para acessar a lista detalhada de domínios e endereços de email permitidos, acesse **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** e selecione **[!UICONTROL Lista de permissões]**.
 
 ![](assets/allow-list-access.png)
 
@@ -41,11 +41,11 @@ Para acessar a lista detalhada de domínios e endereços de email permitidos, ac
 >
 >As permissões para visualizar, exportar e gerenciar a lista de permissões estão restritas a [Administradores do Jornada](../administration/ootb-product-profiles.md#journey-administrator). Saiba mais sobre como gerenciar [!DNL Journey Optimizer] direitos de acesso dos usuários em [esta seção](../administration/permissions-overview.md).
 
-Para exportar a lista de permissões como um arquivo CSV, selecione a **[!UICONTROL Download CSV]** botão.
+Para exportar a lista de permissões como um arquivo CSV, selecione a **[!UICONTROL Baixar CSV]** botão.
 
-Use o **[!UICONTROL Delete]** para remover permanentemente uma entrada.
+Use o **[!UICONTROL Excluir]** para remover permanentemente uma entrada.
 
-Você pode pesquisar por domínios ou endereços de email e filtrar no **[!UICONTROL Address type]**. Depois de selecionado, você pode limpar o filtro exibido na parte superior da lista.
+Você pode pesquisar por domínios ou endereços de email e filtrar no **[!UICONTROL Tipo de endereço]**. Depois de selecionado, você pode limpar o filtro exibido na parte superior da lista.
 
 ![](assets/allowed-list-filtering-example.png)
 
@@ -53,13 +53,13 @@ Você pode pesquisar por domínios ou endereços de email e filtrar no **[!UICON
 
 Para ativar a lista de permissões, siga as etapas abaixo.
 
-1. Acesse o menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]**.
+1. Acesse o  **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** > **[!UICONTROL Lista de permissões]** menu.
 
-1. Clique em **[!UICONTROL Deactivated]**.
+1. Clique em **[!UICONTROL Desativado]**.
 
    ![](assets/allow-list-edit.png)
 
-1. Selecione **[!UICONTROL Activate allowed list]**. A lista de permissões agora está ativa.
+1. Selecionar **[!UICONTROL Ativar lista de permissões]**. A lista de permissões agora está ativa.
 
    ![](assets/allow-list-enable.png)
 
@@ -77,13 +77,13 @@ A lógica de lista de permissões se aplica quando o recurso está ativo. Saiba 
 
 Para desativar a lista de permissões, siga as etapas abaixo.
 
-1. Acesse o menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]**.
+1. Acesse o  **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** > **[!UICONTROL Lista de permissões]** menu.
 
-1. Clique em **[!UICONTROL Active]**.
+1. Clique em **[!UICONTROL Ativo]**.
 
    ![](assets/allow-list-edit-active.png)
 
-1. Selecione **[!UICONTROL Deactivate allowed list]**. A lista de permissões não está mais ativa.
+1. Selecionar **[!UICONTROL Desativar lista de permissões]**. A lista de permissões não está mais ativa.
 
    ![](assets/allow-list-deactivate.png)
 
@@ -104,6 +104,11 @@ Para adicionar novos endereços de email ou domínios à lista de permissões pa
 ### Preencher manualmente a lista de permissões {#manually-populate-list}
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_add_header"
+>title="Adicionar endereços ou domínios à lista de permissões"
+>abstract="Você pode adicionar manualmente novos endereços de email ou domínios à lista de permissões selecionando-os um por um."
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add"
 >title="Adicionar endereços ou domínios à lista de permissões"
 >abstract="Você pode adicionar manualmente novos endereços de email ou domínios à lista de permissões selecionando-os um por um."
@@ -116,11 +121,11 @@ Você pode preencher manualmente a variável [!DNL Journey Optimizer] lista de p
 
 Para fazer isso, siga as etapas abaixo.
 
-1. Selecione o botão **[!UICONTROL Add email or domain]**.
+1. Selecione o **[!UICONTROL Adicionar email ou domínio]** botão.
 
    ![](assets/allowed-list-add-email.png)
 
-1. Escolha o tipo de endereço: **[!UICONTROL Email address]** ou **[!UICONTROL Domain address]**.
+1. Escolha o tipo de endereço: **[!UICONTROL Endereço de email]** ou **[!UICONTROL Endereço do domínio]**.
 
 1. Insira o endereço de email ou domínio para o qual deseja enviar emails.
 
@@ -134,9 +139,9 @@ Para fazer isso, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Todos os caracteres ASCII compreendidos entre 32 e 126 são permitidos no **[!UICONTROL Reason]** campo. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por exemplo.
+   >Todos os caracteres ASCII compreendidos entre 32 e 126 são permitidos no **[!UICONTROL Motivo]** campo. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por exemplo.
 
-1. Clique em **[!UICONTROL Submit]**.
+1. Clique em **[!UICONTROL Enviar]**.
 
 ### Adicionar entidades usando uma chamada de API {#api-call-allowed-list}
 
@@ -159,13 +164,13 @@ Quando a lista de permissões for [ative](#enable-allow-list), aplica-se a segui
 
 * Se a lista de permissões for **empty**, nenhum email será enviado.
 
-* Se uma entidade for **na lista de permissões**, e não na lista de supressão, o email é enviado para os recipients correspondentes. No entanto, se a entidade também estiver no [lista de supressão](../reports/suppression-list.md), os recipients correspondentes não receberão o email, sendo o motivo **[!UICONTROL Suppressed]**.
+* Se uma entidade for **na lista de permissões**, e não na lista de supressão, o email é enviado para os recipients correspondentes. No entanto, se a entidade também estiver no [lista de supressão](../reports/suppression-list.md), os recipients correspondentes não receberão o email, sendo o motivo **[!UICONTROL Suprimido]**.
 
-* Se uma entidade for **não na lista de permissões** (e não na lista de supressão), os recipients correspondentes não receberão o email, o motivo sendo **[!UICONTROL Not allowed]**.
+* Se uma entidade for **não na lista de permissões** (e não na lista de supressão), os recipients correspondentes não receberão o email, o motivo sendo **[!UICONTROL Não permitido]**.
 
 >[!NOTE]
 >
->Os perfis com **[!UICONTROL Not allowed]** são excluídos durante o processo de envio da mensagem. Portanto, enquanto a variável **Relatórios de Jornada** mostrará esses perfis como tendo sido movidos pela jornada ([Ler segmento](../building-journeys/read-segment.md) e [atividades de mensagem](../building-journeys/journeys-message.md)), **Relatórios de email** não os incluirá no **[!UICONTROL Sent]** métricas como são filtradas antes do envio do email.
+>Os perfis com **[!UICONTROL Não permitido]** são excluídos durante o processo de envio da mensagem. Portanto, enquanto a variável **Relatórios de Jornada** mostrará esses perfis como tendo sido movidos pela jornada ([Ler segmento](../building-journeys/read-segment.md) e [atividades de mensagem](../building-journeys/journeys-message.md)), **Relatórios de email** não os incluirá no **[!UICONTROL Enviado]** métricas como são filtradas antes do envio do email.
 >
 >Saiba mais sobre o [Relatório ao vivo](../reports/live-report.md) e [Relatório Global](../reports/global-report.md).
 

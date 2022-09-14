@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '569'
 ht-degree: 3%
 
 ---
 
 # Criar pools de IP {#create-ip-pools}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_pool_header"
+>title="Configurar um pool IP"
+>abstract="Você pode criar pools de IP para agrupar os endereços IP de seus subdomínios para melhorar a capacidade de delivery de email."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
@@ -32,7 +37,7 @@ Por exemplo, uma prática recomendada é ter um pool de IP para suas mensagens d
 
 Para criar um pool IP, siga estas etapas:
 
-1. Acesse o **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP pools]** , em seguida, clique em **[!UICONTROL Create IP Pool]**.
+1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL pools de IP]** , em seguida, clique em **[!UICONTROL Criar Pool de IP]**.
 
    ![](assets/ip-pool-create.png)
 
@@ -42,7 +47,7 @@ Para criar um pool IP, siga estas etapas:
    >
    >O nome deve começar com uma letra (A-Z) e incluir somente caracteres alfanuméricos ou caracteres especiais ( _, ., - ).
 
-1. Selecione os endereços IP a serem incluídos no pool na lista suspensa e clique em **[!UICONTROL Submit]**.
+1. Selecione os endereços IP a serem incluídos no pool na lista suspensa e clique em **[!UICONTROL Enviar]**.
 
    ![](assets/ip-pool-config.png)
 
@@ -78,14 +83,14 @@ Para editar um pool IP:
 
 A atualização entra em vigor imediatamente ou de forma assíncrona, dependendo do pool de IP que está sendo associado a um [superfície do canal](channel-surfaces.md) ou não:
 
-* Se o pool IP for **not** associada a qualquer superfície do canal, a atualização é instantânea (**[!UICONTROL Success]** status).
-* Se o pool IP **é** associada a uma superfície de canal, a atualização pode levar até 3 horas (**[!UICONTROL Processing]** status).
+* Se o pool IP for **not** associada a qualquer superfície do canal, a atualização é instantânea (**[!UICONTROL Sucesso]** status).
+* Se o pool IP **é** associada a uma superfície de canal, a atualização pode levar até 3 horas (**[!UICONTROL Processamento]** status).
 
 >[!NOTE]
 >
->When [criação de uma superfície de canal](channel-surfaces.md#create-channel-surface), se você selecionar um pool IP sob edição (**[!UICONTROL Processing]** ) e nunca tiver sido associado ao subdomínio selecionado para essa superfície, você não poderá continuar com a criação da superfície. [Saiba mais](channel-surfaces.md#subdomains-and-ip-pools)
+>When [criação de uma superfície de canal](channel-surfaces.md#create-channel-surface), se você selecionar um pool IP sob edição (**[!UICONTROL Processamento]** ) e nunca tiver sido associado ao subdomínio selecionado para essa superfície, você não poderá continuar com a criação da superfície. [Saiba mais](channel-surfaces.md#subdomains-and-ip-pools)
 
-Para verificar o status de atualização do pool de IP, clique no botão **[!UICONTROL More actions]** e selecione **[!UICONTROL Recent updates]**.
+Para verificar o status de atualização do pool de IP, clique no botão **[!UICONTROL Mais ações]** e selecione **[!UICONTROL Atualizações recentes]**.
 
 ![](assets/ip-pool-recent-update.png)
 
@@ -96,5 +101,5 @@ Para verificar o status de atualização do pool de IP, clique no botão **[!UIC
 >* até o próximo lote para que o pool de IP seja eficaz em mensagens em lote.
 
 
-Também é possível usar a variável **[!UICONTROL Delete]** para excluir um pool IP. Observe que não é possível excluir um pool IP que foi associado a uma superfície de canal.
+Também é possível usar a variável **[!UICONTROL Excluir]** para excluir um pool IP. Observe que não é possível excluir um pool IP que foi associado a uma superfície de canal.
 

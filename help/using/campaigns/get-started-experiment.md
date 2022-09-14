@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1943'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## O que é um experimento de conteúdo?
 
-Os Experimentos de conteúdo permitem otimizar o conteúdo para as ações em suas Campanhas.
+Os experimentos de conteúdo permitem otimizar o conteúdo para as ações em suas Campanhas.
 
 Os experimentos são um conjunto de testes aleatórios, o que, no contexto de testes online, significa que alguns usuários selecionados aleatoriamente são expostos a uma determinada variação de uma mensagem e outro conjunto selecionado aleatoriamente de usuários para outro tratamento. Depois de enviar a mensagem, você pode medir as métricas de resultado em que está interessado, por exemplo, aberturas de emails ou cliques.
 
@@ -31,7 +31,7 @@ Os experimentos são um conjunto de testes aleatórios, o que, no contexto de te
 
 ![](assets/content_experiment_schema.png)
 
-Os experimentos permitem isolar as alterações que levam a melhorias nas métricas. Conforme ilustrado na imagem acima: alguns utilizadores selecionados aleatoriamente são expostos a cada grupo de tratamento, o que significa que, em média, os grupos partilharão as mesmas características. Assim, qualquer diferença nos resultados pode ser interpretada como sendo devida às diferenças nos tratamentos recebidos, ou seja, é possível estabelecer um nexo de causalidade entre as alterações que efetuou e os resultados em que está interessado.
+Os experimentos permitem isolar as alterações que levam a melhorias nas métricas. Conforme ilustrado na imagem acima: alguns utilizadores selecionados aleatoriamente são expostos a cada grupo de tratamento, o que significa que, em média, os grupos partilharão as mesmas características. Assim, qualquer diferença nos resultados pode ser interpretada como sendo devida às diferenças nos tratamentos recebidos, ou seja, você pode estabelecer um nexo de causalidade entre as alterações que fez e os resultados em que está interessado.
 
 Isso permite que você tome decisões orientadas por dados na otimização de suas metas de negócios.
 
@@ -39,6 +39,38 @@ Para Experiências de conteúdo no Adobe Journey Optimizer, você pode testar id
 
 * **Linha de assunto**: Qual pode ser o impacto de uma mudança no tom ou no grau de personalização de uma linha de assunto?
 * **Conteúdo da mensagem**: A alteração do layout visual de um email resultará em mais cliques no email?
+
+## Como funciona o experimento de conteúdo? {#content-experiment-work}
+
+### Atribuição Aleatória
+
+A experimentação de conteúdo no Adobe Journey Optimizer usa um hash pseudo-aleatório da identidade do visitante para executar a atribuição aleatória de usuários em seu público-alvo a um dos tratamentos que você definiu. O mecanismo de hash garante que, em cenários em que o visitante entra em uma campanha várias vezes, ele receba o mesmo tratamento deterministicamente.
+
+Em detalhes, o algoritmo MumurHash3 de 32 bits é usado para hash da string de identidade do usuário em um dos 10.000 buckets. Em um experimento de conteúdo com 50% do tráfego atribuído a cada tratamento, os usuários que caírem nos compartimentos de 1- 5.000 receberão o primeiro tratamento, enquanto os usuários nos compartimentos de 5.001 a 10.000 receberão o segundo tratamento. Como o hash pseudo-aleatório é usado, as divisões de visitante que você observa podem não ser exatamente 50-50; no entanto, a divisão será estatisticamente equivalente à porcentagem de divisão do target.
+
+Observe que, como parte da configuração de cada campanha com um experimento de conteúdo, você deve escolher um namespace de identidade a partir do qual a userId será selecionada para o algoritmo de aleatoriedade. Isso é independente do [endereços de execução](../configuration/primary-email-addresses.md).
+
+### Coleta e análise de dados
+
+No momento da atribuição, ou seja, quando a mensagem é enviada em canais de saída, ou quando o usuário entra na campanha em canais de entrada, um &quot;registro de atribuição&quot; é registrado no conjunto de dados do sistema apropriado. Isso registrará a qual tratamento o usuário foi atribuído, juntamente com identificadores de experiência e campanha.
+
+As métricas de objetivo podem ser agrupadas em duas classes principais:
+
+* Métricas diretas, em que o usuário reage diretamente ao tratamento, por exemplo, abrir um email ou clicar em um link.
+* Métricas indiretas ou de &quot;fundo de funil&quot;, que ocorrem após o usuário ter sido exposto ao tratamento.
+
+Para métricas de objetivo direto em que o Adobe Journey Optimizer acompanha suas mensagens, os eventos de resposta dos usuários finais são automaticamente marcados com a campanha e os identificadores de tratamento, permitindo a associação direta da métrica de resposta a um tratamento. [Saiba mais sobre o rastreamento](../design/message-tracking.md).
+
+![](assets/technote_2.png)
+
+Para objetivos indiretos ou de &quot;fundo de funil&quot;, como compras, os eventos de resposta dos usuários finais não são marcados com identificadores de campanha e tratamento, ou seja, um evento de compra ocorre após a exposição a um tratamento, não há associação direta dessa compra com uma atribuição de tratamento anterior. Para essas métricas, o Adobe associará o tratamento à parte inferior do evento de conversão de funil se:
+
+* A identidade do usuário é a mesma no momento do evento de atribuição e conversão.
+* A conversão acontece dentro de sete dias da atribuição do tratamento.
+
+![](assets/technote_3.png)
+
+A Adobe Journey Optimizer usa métodos estatísticos avançados &quot;válidos a qualquer momento&quot; para interpretar esses dados brutos de relatórios, o que permite interpretar seus relatórios de experimentação. Para obter mais informações, consulte [esta página](../campaigns/experiment-calculations.md).
 
 ## Dicas para executar experimentos
 
@@ -91,13 +123,13 @@ Para entender os cálculos estatísticos, consulte [página](../campaigns/experi
 
 Ao comparar o desempenho de dois tratamentos, você deve sempre comparar as métricas normalizadas para levar em conta quaisquer diferenças no número de perfis expostos a cada tratamento.
 
-Por exemplo, se o objetivo da experiência estiver definido como **[!UICONTROL Unique Opens]** e um determinado tratamento foi mostrado para 10.000 Perfis com 200 Aberturas Únicas registradas, então isso representa uma **[!UICONTROL Conversion Rate]** de 2%. Para métricas não exclusivas, por exemplo, Abrir métrica, a métrica normalizada é mostrada como uma **[!UICONTROL Count per Profile]**, enquanto para métricas contínuas como Preço total, a métrica normalizada é mostrada como uma **[!UICONTROL Total per Profile]**.
+Por exemplo, se o objetivo da experiência estiver definido como **[!UICONTROL Aberturas únicas]** e um determinado tratamento foi mostrado para 10.000 Perfis com 200 Aberturas Únicas registradas, então isso representa uma **[!UICONTROL Índice de conversão]** de 2%. Para métricas não exclusivas, por exemplo, Abrir métrica, a métrica normalizada é mostrada como uma **[!UICONTROL Contagem por perfil]**, enquanto para métricas contínuas como Preço total, a métrica normalizada é mostrada como uma **[!UICONTROL Total por Perfil]**.
 
 ### 2. Foco nos intervalos de confiança {#confidence-intervals}
 
 Quando você executa experimentos em amostras de seus perfis, a taxa de conversão observada para um determinado tratamento representa uma estimativa da verdadeira taxa de conversão subjacente.
 
-Por exemplo, se o Tratamento A tiver um **[!UICONTROL Conversion Rate]** de 3%, enquanto que o Tratamento B tem uma **[!UICONTROL Conversion Rate]** de 2%, o Tratamento A tem um melhor desempenho do que o Tratamento B? Para responder a isto, temos primeiro de quantificar a incerteza nestas taxas de conversão observadas.
+Por exemplo, se o Tratamento A tiver um **[!UICONTROL Índice de conversão]** de 3%, enquanto que o Tratamento B tem uma **[!UICONTROL Índice de conversão]** de 2%, o Tratamento A tem um melhor desempenho do que o Tratamento B? Para responder a isto, temos primeiro de quantificar a incerteza nestas taxas de conversão observadas.
 
 Os intervalos de confiança ajudam a quantificar o montante de incerteza nas taxas de conversão estimadas, mas intervalos de confiança mais amplos implicam mais incerteza. À medida que mais perfis forem adicionados ao experimento, os intervalos se tornarão menores, representando uma estimativa mais precisa. O intervalo de confiança representa um intervalo de taxas de conversão compatíveis com os dados observados.
 
@@ -107,11 +139,11 @@ O Adobe usa intervalos de confiança válidos de 95% em qualquer momento, ou seq
 
 ### 3. Entender o incentivo {#understand-lift}
 
-O resumo do relatório de experiência mostra o **[!UICONTROL Lift over Baseline]**, que é uma medida da percentagem de melhoria na taxa de conversão de um determinado tratamento em relação à linha de base. Definida com precisão, é a diferença de desempenho entre um determinado tratamento e a linha de base, dividida pelo desempenho da linha de base, expressa em percentagem.
+O resumo do relatório de experiência mostra o **[!UICONTROL Lift em relação à linha de base]**, que é uma medida da percentagem de melhoria na taxa de conversão de um determinado tratamento em relação à linha de base. Definida com precisão, é a diferença de desempenho entre um determinado tratamento e a linha de base, dividida pelo desempenho da linha de base, expressa em percentagem.
 
 ### 3. Compreender a confiança {#understand-confidence}
 
-Embora você deva se concentrar principalmente na variável **[!UICONTROL Confidence interval]** para o desempenho de cada tratamento, o Adobe também mostra a Confiança, que é uma medida probabilística da quantidade de evidências de que um determinado tratamento é igual ao tratamento inicial. Uma confiança mais elevada indica menos evidência para o pressuposto de que os tratamentos de base e não basais têm um desempenho igual. Mais precisamente, a confiança que é mostrada é uma probabilidade (expressa como uma porcentagem) de que teríamos observado uma diferença menor nas taxas de conversão entre um determinado tratamento e a linha de base, se na realidade não houver diferença nas taxas de conversão subjacentes reais. Em termos de valores p, a confiança exibida é 1 - valor p.
+Embora você deva se concentrar principalmente na variável **[!UICONTROL Intervalo de confiança]** para o desempenho de cada tratamento, o Adobe também mostra a Confiança, que é uma medida probabilística da quantidade de evidências de que um determinado tratamento é igual ao tratamento inicial. Uma confiança mais elevada indica menos evidência para o pressuposto de que os tratamentos de base e não basais têm um desempenho igual. Mais precisamente, a confiança que é mostrada é uma probabilidade (expressa como uma porcentagem) de que teríamos observado uma diferença menor nas taxas de conversão entre um determinado tratamento e a linha de base, se na realidade não houver diferença nas taxas de conversão subjacentes reais. Em termos de valores p, a confiança exibida é 1 - valor p.
 
 O Adobe usa valores p &quot;Anytime Valid&quot; e &quot;Anytime Valid&quot; que são consistentes com as Sequências de confiança descritas acima.
 
