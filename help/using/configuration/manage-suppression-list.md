@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1193'
+ht-degree: 4%
 
 ---
 
@@ -112,12 +112,15 @@ Os possíveis motivos para uma falha de delivery são:
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
 >title="Adicionar emails ou domínios à lista de supressão"
->abstract="Você pode preencher manualmente a lista de supressão do Journey Optimizer para excluir do seu envio endereços de email e/ou domínios específicos."
+>abstract="Você pode preencher manualmente a lista de supressão do Journey Optimizer para excluir domínios e/ou endereços de email específicos do envio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="Adicionar emails ou domínios à lista de supressão"
->abstract="Para preencher a lista de supressão do Journey Optimizer, é possível adicionar manualmente endereços de email ou domínios - um de cada vez ou no modo em massa por meio de um upload de arquivo CSV. Esses domínios e/ou endereços de email específicos serão excluídos do envio."
+>abstract="Você pode preencher manualmente a lista de supressão do Journey Optimizer para excluir do seu envio endereços de email e/ou domínios específicos."
+
+<!--New contextual help content for September release:
+To populate the Journey Optimizer suppression list, you can manually add email addresses or domains - one at a time, or in bulk mode through a CSV file upload. These specific email addresses and/or domains will be excluded from your sending.-->
 
 Quando uma mensagem falha ao ser entregue a um endereço de email, esse endereço é adicionado automaticamente à lista de supressão com base na regra de supressão definida ou na contagem de rejeição.
 

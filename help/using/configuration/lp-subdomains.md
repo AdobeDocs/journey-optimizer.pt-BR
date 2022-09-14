@@ -4,9 +4,9 @@ description: Saiba como configurar subdomínios de página de aterrissagem com o
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -14,15 +14,20 @@ ht-degree: 1%
 # Configurar subdomínios de página de aterrissagem {#lp-subdomains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_config_lp_subdomain"
->title="Criar uma predefinição de página de aterrissagem"
->abstract="Para criar uma predefinição de página de aterrissagem, verifique se você configurou anteriormente pelo menos um subdomínio de página de aterrissagem para escolher na lista Nome de subdomínio ."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="Criar predefinições de página de aterrissagem"
+>id="ajo_admin_subdomain_lp_header"
+>title="Delegar um subdomínio de página de aterrissagem"
+>abstract="Você configurará seu subdomínio para um uso de página de aterrissagem. Você pode usar um subdomínio que já tenha sido delegado ao Adobe ou configurar outro subdomínio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
 >title="Delegar um subdomínio de página de aterrissagem"
 >abstract="Você deve configurar um subdomínio para usar nas landing pages, pois ele precisará para criar uma predefinição de landing page. Você pode usar um subdomínio já delegado ao Adobe ou configurar um novo subdomínio."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="Criar predefinições de página de aterrissagem"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_config_lp_subdomain"
+>title="Criar uma predefinição de página de aterrissagem"
+>abstract="Para criar uma predefinição de página de aterrissagem, verifique se você configurou anteriormente pelo menos um subdomínio de página de aterrissagem para escolher na lista Nome de subdomínio ."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="Criar predefinições de página de aterrissagem"
 
 Para poder [criar predefinições de página de aterrissagem](lp-presets.md), você deve configurar os subdomínios que serão usados para as landing pages.
@@ -33,15 +38,15 @@ Você pode usar um subdomínio que já tenha sido delegado ao Adobe ou pode conf
 
 Para usar um subdomínio que já tenha sido delegado ao Adobe, siga as etapas abaixo.
 
-1. Acesse o **[!UICONTROL Administration]** > **[!UICONTROL Channels]** e selecione **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
+1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Configuração de email]** > **[!UICONTROL Subdomínios de página de aterrissagem]**.
 
    ![](assets/lp_access-subdomains.png)
 
-1. Clique em **[!UICONTROL Set up subdomain]**.
+1. Clique em **[!UICONTROL Configurar subdomínio]**.
 
    ![](assets/lp_set-up-subdomain.png)
 
-1. Selecionar **[!UICONTROL Use delegated domain]** do **[!UICONTROL Configuration type]** seção.
+1. Selecionar **[!UICONTROL Usar domínio delegado]** do **[!UICONTROL Tipo de configuração]** seção.
 
    ![](assets/lp_use-delegated-subdomain.png)
 
@@ -65,9 +70,9 @@ Para usar um subdomínio que já tenha sido delegado ao Adobe, siga as etapas ab
    >
    >Se você selecionar um domínio que foi delegado ao Adobe usando a variável [método CNAME](delegate-subdomain.md#cname-subdomain-delegation), você deve criar o registro DNS na plataforma de hospedagem. Para gerar o registro DNS, o processo é o mesmo que ao configurar um novo subdomínio de página de aterrissagem. Saiba mais sobre como [esta seção](#lp-configure-new-subdomain).
 
-1. Clique em **[!UICONTROL Submit]**.
+1. Clique em **[!UICONTROL Enviar]**.
 
-1. Depois de enviado, o subdomínio é exibido na lista com a variável **[!UICONTROL Processing]** status. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](access-subdomains.md).<!--Same statuses?-->
+1. Depois de enviado, o subdomínio é exibido na lista com a variável **[!UICONTROL Processamento]** status. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](access-subdomains.md).<!--Same statuses?-->
 
    ![](assets/lp_subdomain-processing.png)
 
@@ -75,7 +80,7 @@ Para usar um subdomínio que já tenha sido delegado ao Adobe, siga as etapas ab
    >
    >Antes de poder usar esse subdomínio para enviar mensagens, você deve aguardar até que o Adobe execute as verificações necessárias, que podem levar até 4 horas.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
-1. Depois que as verificações são bem-sucedidas, o subdomínio recebe o **[!UICONTROL Success]** status. Ele está pronto para ser usado para criar predefinições de página de aterrissagem.
+1. Depois que as verificações são bem-sucedidas, o subdomínio recebe o **[!UICONTROL Sucesso]** status. Ele está pronto para ser usado para criar predefinições de página de aterrissagem.
 
 ## Configurar um novo subdomínio {#lp-configure-new-subdomain}
 
@@ -86,11 +91,11 @@ Para usar um subdomínio que já tenha sido delegado ao Adobe, siga as etapas ab
 
 Para configurar um novo subdomínio, siga as etapas abaixo.
 
-1. Acesse o **[!UICONTROL Administration]** > **[!UICONTROL Channels]** e selecione **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
+1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Configuração de email]** > **[!UICONTROL Subdomínios de página de aterrissagem]**.
 
-1. Clique em **[!UICONTROL Set up subdomain]**.
+1. Clique em **[!UICONTROL Configurar subdomínio]**.
 
-1. Selecionar **[!UICONTROL Add your own domain]** do **[!UICONTROL Configuration type]** seção.
+1. Selecionar **[!UICONTROL Adicionar seu próprio domínio]** do **[!UICONTROL Tipo de configuração]** seção.
 
    ![](assets/lp_add-your-own-subdomain.png)
 
@@ -108,7 +113,7 @@ Para configurar um novo subdomínio, siga as etapas abaixo.
 
 1. O registro a ser colocado em seus servidores DNS é exibido. Copie esse registro ou baixe um arquivo CSV e navegue até a solução de hospedagem de domínio para gerar o registro DNS correspondente.
 
-1. Certifique-se de que o registro DNS foi gerado em sua solução de hospedagem de domínio. Se tudo estiver configurado corretamente, marque a caixa &quot;I confirm...&quot; e clique em **[!UICONTROL Submit]**.
+1. Certifique-se de que o registro DNS foi gerado em sua solução de hospedagem de domínio. Se tudo estiver configurado corretamente, marque a caixa &quot;I confirm...&quot; e clique em **[!UICONTROL Enviar]**.
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
@@ -116,12 +121,12 @@ Para configurar um novo subdomínio, siga as etapas abaixo.
    >
    >Ao configurar um novo subdomínio de página de aterrissagem, ele sempre apontará para um registro CNAME.
 
-1. Depois que a delegação de subdomínio for enviada, o subdomínio será exibido na lista com a variável **[!UICONTROL Processing]** status. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](access-subdomains.md).<!--Same statuses?-->
+1. Depois que a delegação de subdomínio for enviada, o subdomínio será exibido na lista com a variável **[!UICONTROL Processamento]** status. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](access-subdomains.md).<!--Same statuses?-->
 
    >[!NOTE]
    >
    >Antes de poder usar esse subdomínio para enviar mensagens, você deve aguardar até que o Adobe execute as verificações necessárias, que podem levar até 4 horas.<!--Learn more in [this section](#subdomain-validation).-->
 
-1. Depois que as verificações são bem-sucedidas, o subdomínio recebe o **[!UICONTROL Success]** status. Ele está pronto para ser usado para criar predefinições de página de aterrissagem.
+1. Depois que as verificações são bem-sucedidas, o subdomínio recebe o **[!UICONTROL Sucesso]** status. Ele está pronto para ser usado para criar predefinições de página de aterrissagem.
 
-   Observe que o subdomínio será marcado como **[!UICONTROL Failed]** se você não criar o registro de validação em sua solução de hospedagem.
+   Observe que o subdomínio será marcado como **[!UICONTROL Falha]** se você não criar o registro de validação em sua solução de hospedagem.
