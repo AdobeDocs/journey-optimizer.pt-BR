@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
+source-git-commit: 16c156d715a6b39652191909ca88f90e7f971706
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 42%
+source-wordcount: '727'
+ht-degree: 29%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="Selecionar um conjunto de dados"
->abstract="Você só pode selecionar um conjunto de dados do tipo evento que deve conter pelo menos um dos grupos de campos compatíveis: Detalhes do aplicativo, Detalhes do comércio, Detalhes da Web."
+>abstract="Você só pode selecionar um conjunto de dados do tipo evento, que deve conter pelo menos um dos grupos de campos compatíveis: Detalhes do aplicativo, Detalhes do comércio, Detalhes da Web."
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
-A configuração da fonte de dados de relatórios permite recuperar métricas adicionais que serão usadas no **[!UICONTROL Objectives]** dos relatórios da campanha. [Saiba mais](content-experiment.md#objectives-global)
+A configuração da fonte de dados de relatórios permite recuperar métricas adicionais que serão usadas no **[!UICONTROL Objetivos]** dos relatórios da campanha. [Saiba mais](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ Antes de poder adicionar um conjunto de dados à configuração do relatório, v
 
 ## Objetivos correspondentes a cada grupo de campos {#objective-list}
 
-A tabela abaixo mostra quais métricas serão adicionadas ao **[!UICONTROL Objectives]** dos relatórios da campanha para cada grupo de campos.
+A tabela abaixo mostra quais métricas serão adicionadas ao **[!UICONTROL Objetivos]** dos relatórios da campanha para cada grupo de campos.
 
 | Grupo de campos | Objetivos |
 |--- |--- |
@@ -78,21 +78,21 @@ A tabela abaixo mostra quais métricas serão adicionadas ao **[!UICONTROL Objec
 
 ## Adicionar conjuntos de dados {#add-datasets}
 
-1. No menu **[!UICONTROL ADMINISTRATION]**, selecione **[!UICONTROL Configurations]**. Na seção **[!UICONTROL Reporting]**, clique em **[!UICONTROL Manage]**.
+1. No **[!UICONTROL ADMINISTRAÇÃO]** selecione **[!UICONTROL Configurações]**. No  **[!UICONTROL Relatório]** seção , clique em **[!UICONTROL Gerenciar]**.
 
    ![](assets/reporting-config-menu.png)
 
    A lista de conjuntos de dados que já foram adicionados é exibida.
 
-1. Na guia **[!UICONTROL Dataset]**, clique em **[!UICONTROL Add dataset]**.
+1. No **[!UICONTROL Conjunto de dados]** clique em **[!UICONTROL Adicionar conjunto de dados]**.
 
    ![](assets/reporting-config-add.png)
 
    >[!NOTE]
    >
-   >Se você selecionar a guia **[!UICONTROL System dataset]**, somente os conjuntos de dados criados pelo sistema serão exibidos. Não será possível adicionar outros conjuntos de dados.
+   >Se você selecionar a variável **[!UICONTROL Conjunto de dados do sistema]** , somente os conjuntos de dados criados pelo sistema são exibidos. Não será possível adicionar outros conjuntos de dados.
 
-1. Na lista suspensa **[!UICONTROL Dataset]**, selecione o conjunto de dados que deseja usar para seus relatórios.
+1. No **[!UICONTROL Conjunto de dados]** na lista suspensa, selecione o conjunto de dados que deseja usar para seus relatórios.
 
    >[!CAUTION]
    >
@@ -102,7 +102,7 @@ A tabela abaixo mostra quais métricas serão adicionadas ao **[!UICONTROL Objec
 
    Saiba mais sobre conjuntos de dados na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
-1. Na lista suspensa **[!UICONTROL Profile ID]**, selecione o atributo de campo do conjunto de dados que será usado para identificar cada perfil em seus relatórios.
+1. No **[!UICONTROL ID do perfil]** na lista suspensa, selecione o atributo de campo do conjunto de dados que será usado para identificar cada perfil em seus relatórios.
 
    ![](assets/reporting-config-profile-id.png)
 
@@ -110,7 +110,7 @@ A tabela abaixo mostra quais métricas serão adicionadas ao **[!UICONTROL Objec
    >
    >Somente as IDs disponíveis para relatórios são exibidas.
 
-1. A opção **[!UICONTROL Use Primary ID namespace]** é ativada por padrão. Se a **[!UICONTROL Profile ID]** selecionada for **[!UICONTROL Identity Map]**, você poderá desativar essa opção e escolher outro namespace na lista suspensa que será exibida.
+1. O **[!UICONTROL Usar namespace da ID primária]** está ativada por padrão. Se a opção **[!UICONTROL ID do perfil]** é **[!UICONTROL Mapa de identidade]**, você pode desativar essa opção e escolher outro namespace na lista suspensa que é exibida.
 
    ![](assets/reporting-config-namespace.png)
 
@@ -122,7 +122,7 @@ A tabela abaixo mostra quais métricas serão adicionadas ao **[!UICONTROL Objec
    >
    >Se você selecionou um conjunto de dados que não é do tipo evento, não será possível continuar.
 
-Ao criar relatórios de campanha, agora é possível visualizar as métricas correspondentes aos grupos de campos usados nos conjuntos de dados adicionados. Vá para o **[!UICONTROL Objectives]** e selecione as métricas de sua escolha para ajustar melhor seus relatórios. [Saiba mais](content-experiment.md#objectives-global)
+Ao criar relatórios de campanha, agora é possível visualizar as métricas correspondentes aos grupos de campos usados nos conjuntos de dados adicionados. Vá para o **[!UICONTROL Objetivos]** e selecione as métricas de sua escolha para ajustar melhor seus relatórios. [Saiba mais](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
