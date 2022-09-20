@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4ea9786983d7919ea1598c91ec523826ba7a689
+source-git-commit: 1f0b9507c557140efe5e2aa170d4acfa28ed4b88
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 99%
+source-wordcount: '1149'
+ht-degree: 98%
 
 ---
 
@@ -110,6 +110,10 @@ ht-degree: 99%
    + Casos de uso{#personalization-use-cases}
       + [Notificação do status do pedido](using/personalization/personalization-use-case.md)
       + [Email de abandono do carrinho](using/personalization/personalization-use-case-helper-functions.md)
+   + Conteúdo dinâmico {#dynamic}
+      + [Introdução ao conteúdo dinâmico](using/personalization/get-started-dynamic-content.md)
+      + [Criar condições](using/personalization/create-conditions.md)
+      + [Criar conteúdo condicional](using/personalization/dynamic-content.md)
 + Segmentos, perfis e identidade{#segment}
    + Segmentos {#segments}
       + [Introdução aos segmentos](using/segment/about-segments.md)

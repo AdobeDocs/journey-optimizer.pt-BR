@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 59da1d75885ffc6f4b97e218ea131233c198a7ae
+source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ Se um desses erros ocorrer, entre em contato com o [Atendimento ao cliente do Ad
    * incluir na lista de bloqueios dos IPs alocados
    * Inválido `helo` name
    * Emails enviados de IPs diferentes dos especificados no pool de IP da superfície correspondente
-   * Não é possível enviar emails para caixas de entrada dos principais ISPs, como Gmail e Yahoo
+   * Não é possível enviar emails para caixas de entrada dos principais ISPs
 
 ## Editar uma superfície de canal {#edit-channel-surface}
 
