@@ -120,7 +120,7 @@ ht-degree: 100%
       <a href="using/building-journeys/journey-gs.md">Jornadas</a>
     </li>
     <li>
-      <a href="using/landing-pages/get-started-lp.md">Páginas de aterrissagem</a>
+      <a href="using/landing-pages/get-started-lp.md">Páginas de destino</a>
     </li>
     <p>
     <p>GESTÃO DE DECISÕES</p>
