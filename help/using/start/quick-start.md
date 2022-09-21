@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Com o [!DNL Adobe Journey Optimizer], você pode importar conteúdo de mensagens
 
 Com base em sua organização, você pode definir vários tipos de usuários e conceder a eles acesso a determinados recursos, dependendo das permissões deles.
 
-Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas específicas? Administrador da instância da sua empresa? Siga o seu próprio caminho para atingir os seus objetivos com muito mais rapidez.
+Conhecendo agora o [!DNL Journey Optimizer]? Usuário experiente com perguntas específicas? Administrador da instância da sua empresa? Siga seu próprio caminho para atingir seus objetivos com mais rapidez!
 
 Para saber e descobrir o poder do Adobe Journey Optimizer com orientação passo a passo, selecione o seu perfil.
 
