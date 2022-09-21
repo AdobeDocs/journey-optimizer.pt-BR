@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Sobre logs de auditoria {#audit-logs}
 
-Com o Journey Optimizer, você pode identificar as ações executadas pelos usuários no sistema em vários serviços e recursos como jornadas, mensagens, páginas de aterrissagem etc.
+Com o Journey Optimizer, você pode identificar as ações executadas pelos usuários no sistema em vários serviços e recursos como jornadas, mensagens, páginas de destino etc.
 
 Isso permite aumentar a visibilidade das atividades realizadas no sistema, solucionar problemas e ajudar sua empresa a cumprir os regulamentos e as políticas corporativas de gerenciamento de dados.
 
@@ -36,10 +36,10 @@ A tabela a seguir descreve quais ações, em quais recursos do Journey Optimizer
 |-----------|------------------|
 | Configuração geral do canal do AJO | Criar / Excluir / Atualizar |
 | Pool de IP do AJO | Criar / Excluir / Atualizar |
-| Página de aterrissagem do AJO | Criar / Excluir / Atualizar / Publicar / Desfazer a publicação |
-| Modelo HTML da página de aterrissagem do AJO | Criar / Excluir / Atualizar |
-| Predefinição da página de aterrissagem do AJO | Criar / Excluir / Atualizar |
-| Subdomínio da página de aterrissagem do AJO | Criar / Excluir / Atualizar |
+| Páginas de destino do AJO | Criar / Excluir / Atualizar / Publicar / Desfazer a publicação |
+| Modelo HTML da página de destino do AJO | Criar / Excluir / Atualizar |
+| Predefinição da página de destino do AJO | Criar / Excluir / Atualizar |
+| Subdomínio da página de destino do AJO | Criar / Excluir / Atualizar |
 | Mensagens do AJO | Criar / Excluir / Atualizar / Publicar |
 | Superfície de canal do AJO | Criar / Excluir / Atualizar |
 | Registro PTR do AJO | Criar / Excluir / Atualizar |
