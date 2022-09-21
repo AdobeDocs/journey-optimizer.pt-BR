@@ -3,9 +3,9 @@ title: Notas de versão de 2022
 description: Notas de versão do Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -311,12 +311,12 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 * **Nova função auxiliar para ocultação de caracteres** - A função auxiliar do `mask` permite substituir uma parte de uma string por caracteres “X”. [Saiba mais](../personalization/functions/string.md#mask)
 
-**Páginas de aterrissagem**
+**Páginas de destino**
 
-* **Páginas de aterrissagem sem um formulário** - Agora é possível criar e publicar uma página de aterrissagem que não contenha um formulário e não exija nenhuma ação dos visitantes.
-* **Modelos de página de aterrissagem** - Agora é possível salvar uma página de aterrissagem como modelo e reutilizá-la na criação de outras páginas de aterrissagem. [Saiba mais](../landing-pages/lp-templates.md)
-* **Voltar à página principal** - Agora é possível adicionar um link para a página principal de qualquer subpágina da mesma página de aterrissagem.
-* **Suporte a JavaScript personalizado** - Agora é possível adicionar JavaScript personalizado ao conteúdo da página de aterrissagem para executar estilos avançados ou adicionar comportamentos personalizados às páginas de aterrissagem.	[Saiba mais](../landing-pages/lp-custom-js.md)
+* **Páginas de destino sem um formulário** - Agora é possível criar e publicar uma página de destino que não contenha um formulário e não exija nenhuma ação dos visitantes.
+* **Modelos de página de destino** - Agora é possível salvar uma página de destino como modelo e reutilizá-la na criação de outras páginas de destino. [Saiba mais](../landing-pages/lp-templates.md)
+* **Voltar à página principal** - Agora é possível adicionar um link para a página principal de qualquer subpágina da mesma página de destino.
+* **Suporte a JavaScript personalizado** - Agora é possível adicionar JavaScript personalizado ao conteúdo da página de destino para executar estilos avançados ou adicionar comportamentos personalizados às páginas de destino.	[Saiba mais](../landing-pages/lp-custom-js.md)
 
 **Jornadas**
 
@@ -332,15 +332,15 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 ### Melhorias
 
-**Páginas de aterrissagem**
+**Páginas de destino**
 
-* **Nova opção de caixas de seleção para aceitar/recusar** - Agora é possível inserir uma única caixa de seleção para aceitar/recusar nas páginas de aterrissagem de assinatura. Os usuários precisam marcar a caixa para consentir (aceitar) e desmarcá-la para remover seu consentimento (recusar). [Saiba mais](../landing-pages/design-lp.md#define-lp-specific-content)
+* **Nova opção de caixas de seleção para aceitar/recusar** - Agora é possível inserir uma única caixa de seleção para aceitar/recusar nas páginas de destino de assinatura. Os usuários precisam marcar a caixa para consentir (aceitar) e desmarcá-la para remover seu consentimento (recusar). [Saiba mais](../landing-pages/design-lp.md#define-lp-specific-content)
 
-* **Preenchimento prévio de campos de páginas de aterrissagem** - Agora é possível conceder aos usuários a capacidade de preencher previamente os campos da página de aterrissagem com informações de perfil. [Saiba mais](../landing-pages/create-lp.md#configure-primary-page)
+* **Preenchimento prévio de campos de páginas de destino** - Agora é possível conceder aos usuários a capacidade de preencher previamente os campos da página de destino com informações de perfil. [Saiba mais](../landing-pages/create-lp.md#configure-primary-page)
 
 **Gestão de decisões**
 
-* **API de decisão no Edge** - A API do Edge Decisioning pode fornecer e renderizar ofertas personalizadas que são gerenciadas no gerenciamento de decisões. É possível criar suas ofertas e outros objetos relacionados usando a interface do usuário (UI) ou as APIs do gerenciamento de decisão. [Saiba mais](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **API de decisão do Edge** — A API de decisão do Edge pode fornecer e renderizar ofertas personalizadas que são gerenciadas na gestão de decisões. É possível criar suas ofertas e outros objetos relacionados usando a interface ou as APIs da gestão de decisões. [Saiba mais](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **Administração**
 
@@ -378,7 +378,7 @@ Como cliente do Adobe Campaign Standard, agora você pode enviar emails, notific
 **Gestão de decisões**
 
 * Agora é possível especificar se o limite de oferta é aplicado a todos os usuários ou a um perfil específico, bem como a todos os posicionamentos ou por posicionamento. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
-* A API de decisão em lote permite que as organizações usem a funcionalidade de gerenciamento de decisões para todos os perfis em um determinado segmento em uma chamada. O conteúdo da oferta de cada perfil no segmento é colocado em um conjunto de dados da AEP, onde ele estará disponível para fluxos de trabalho em lote personalizados. [Saiba mais](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* A API de decisão em lote permite que as organizações usem a funcionalidade de gestão de decisões para todos os perfis em um determinado segmento, através de uma única chamada. O conteúdo da oferta de cada perfil no segmento é colocado em um conjunto de dados da AEP, onde ele estará disponível para fluxos de trabalho em lote personalizados. [Saiba mais](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administração**
 
@@ -396,13 +396,13 @@ Como cliente do Adobe Campaign Standard, agora você pode enviar emails, notific
 <table>
 <thead>
 <tr>
-<th><strong>Páginas de aterrissagem de subscrição</strong><br/></th>
+<th><strong>Páginas de destino de subscrição</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível criar e projetar páginas de aterrissagem no Journey Optimizer e direcionar seus usuários para formulários online, onde eles podem aceitar ou recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo.</p>
+<p>Agora é possível criar e projetar páginas de destino no Journey Optimizer e direcionar seus usuários para formulários online, onde eles podem aceitar ou recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo.</p>
 <p>Para obter mais informações, consulte a <a href="../landing-pages/create-lp.md">documentação detalhada</a> e o <a href="../landing-pages/lp-use-cases.md">caso de uso de exemplo</a> relacionado.</p>
 </td>
 </tr>
