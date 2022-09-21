@@ -3,9 +3,9 @@ title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
-workflow-type: tm+mt
-source-wordcount: '1871'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1873'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * Todos os novos recursos e aprimoramentos chegando com a versão de agosto de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
 * A seção Regras de frequência foi atualizada para refletir o novo fluxo de mensagens integrado. [Leia mais](../configuration/frequency-rules.md#apply-frequency-rule)
-* Um vídeo que mostra como configurar assinaturas e criar páginas de aterrissagem agora é referenciado na seção Introdução às páginas de aterrissagem. [Leia mais](../landing-pages/get-started-lp.md#video)
+* Um vídeo que mostra como configurar assinaturas e criar páginas de destino agora é referenciado na seção Introdução às páginas de destino. [Leia mais](../landing-pages/get-started-lp.md#video)
 * Uma limitação foi adicionada para jornadas que usam atividades Ler segmento. [Leia mais](../building-journeys/read-segment.md)
 * A página de operadores do editor de expressão foi aprimorada. [Leia mais](../building-journeys/expression/operators.md)
 * Uma seção sobre como programar uma campanha foi adicionada. [Leia mais](../campaigns/create-campaign.md)
@@ -55,10 +55,10 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Novos exemplos de consulta relacionados a [qualificação de segmento](../reports/query-examples.md#segment-qualification-queries) e [eventos](../reports/query-examples.md#event-based-queries) foram adicionados.
 * A seção de design de email agora menciona novos modelos integrados disponíveis para iniciar o conteúdo. As capturas de tela relacionadas foram atualizadas. [Leia mais](../design/design-emails.md)
 * Os links para recursos principais foram atualizados na página inicial da documentação do Journey Optimizer.
-* As capturas de tela para relatórios de página de aterrissagem e subscrição foram atualizadas. [Leia mais](../reports/live-report.md)
+* As capturas de tela para relatórios de página de destino e subscrição foram atualizadas. [Leia mais](../reports/live-report.md)
 * Uma observação foi adicionada informando que o método DELETE não é compatível com ações personalizadas. [Leia mais](../action/about-custom-action-configuration.md)
 * Os links para vídeos de instrução foram atualizados.
-* As seções [Configuração de email](../configuration/about-subdomain-delegation.md), [Predefinições de mensagem](../configuration/channel-surfaces.md) e [Configurar páginas de aterrissagem](../configuration/lp-subdomains.md) foram reorganizadas para facilitar a leitura.
+* As seções [Configuração de email](../configuration/about-subdomain-delegation.md), [Predefinições de mensagem](../configuration/channel-surfaces.md) e [Configurar páginas de destino](../configuration/lp-subdomains.md) foram reorganizadas para facilitar a leitura.
 * A seção Rastreamento de URL foi atualizada e aprimorada com exemplos. [Leia mais](../configuration/email-settings.md#url-tracking)
 * Uma nova subseção sobre como configurar um endereço de email de encaminhamento foi adicionada. Observe que não é possível fazer isso por meio da interface. [Leia mais](../configuration/email-settings.md#forward-email)
 
@@ -69,7 +69,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Os vídeos dos recursos da Gestão de decisões foram atualizados para refletir a interface do Journey Optimizer. [Leia mais](../offers/get-started/starting-offer-decisioning.md)
 * A seção **Introdução aos conjuntos de dados** foi aprimorada para detalhar como acessar e criar conjuntos de dados. [Leia mais](../start/get-started-datasets.md)
 * Links para guias de ajuda e notas de versão do produto foram adicionados à página inicial da **Documentação do Adobe Journey Optimizer**. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=pt-BR)
-* A seção **Criar predefinições de mensagem** agora especifica que você não pode continuar com a criação da predefinição enquanto o pool de IP selecionado estiver em edição (status **[!UICONTROL Processing]**) e não tiver sido associado ao subdomínio selecionado. [Leia mais](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
+* A seção **Criar predefinições de mensagem** agora especifica que você não pode continuar com a criação da predefinição enquanto o pool de IP selecionado estiver em edição (status **[!UICONTROL Processando]**) e não tiver sido associado ao subdomínio selecionado. [Leia mais](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * A seção **Rastreamento de URL** das predefinições de mensagem foi atualizada para refletir pequenas alterações na interface. [Leia mais](../configuration/channel-surfaces.md#url-tracking)
 
 ## Março de 2022 {#march-2022}
@@ -170,7 +170,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * Todos os novos recursos e aprimoramentos chegando com a versão de [!DNL Journey Optimizer] 21 de julho estão detalhados na documentação. [Leia mais](release-notes.md)
 * Links diretos para a documentação dos serviços da Experience Platform adicionados na [!DNL Journey Optimizer] página inicial e índice
-* Novas páginas de aterrissagem para serviços da Experience Platform disponíveis em [!DNL Journey Optimizer]
+* Novas páginas de destino para serviços da Experience Platform disponíveis em [!DNL Journey Optimizer]
 * Links adicionados à [!DNL Journey Optimizer] descrição do produto na página inicial
 * Vídeos tutoriais adicionados em várias páginas
 * Imagens da página inicial otimizadas
@@ -182,6 +182,6 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Limitações da jornada atualizadas. [Leia mais](../start/guardrails.md)
 * Seleção Configurar ofertas atualizada na seção de decisões. [Leia mais](../offers/offer-activities/configure-offer-selection.md)
 * Adicionado um aviso para mencionar que as ofertas baseadas em eventos não são compatíveis no momento. [Leia mais](../offers/offer-library/creating-personalized-offers.md#eligibility)
-* A nova guia **[!UICONTROL Overview]** da Gestão de decisões foi documentada. [Leia mais](../offers/get-started/user-interface.md#overview)
+* A nova guia **[!UICONTROL Visão geral]** da gestão de decisões foi documentada. [Leia mais](../offers/get-started/user-interface.md#overview)
 * Novas seções adicionadas para descrever as ações disponíveis nas listas de oferta e decisão: [Lista de ofertas](../offers/offer-library/creating-personalized-offers.md#offer-list) e [Lista de decisões](../offers/offer-activities/create-offer-activities.md#decision-list).
 
