@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 97%
    + Experimento de conteúdo {#content-experiment}
       + [Introdução ao experimento de conteúdo](using/campaigns/get-started-experiment.md)
       + [Criar um experimento de conteúdo](using/campaigns/content-experiment.md)
-      + [Entender cálculos estatísticos](using/campaigns/experiment-calculations.md)
+      + [Compreender cálculos estatísticos](using/campaigns/experiment-calculations.md)
       + [Configurar relatórios de experimentação](using/campaigns/reporting-configuration.md)
    + [Acione campanhas usando APIs](using/campaigns/api-triggered-campaigns.md)
 + Mensagens {#messages}
@@ -51,7 +51,7 @@ ht-degree: 97%
    + [Criar um email](using/messages/create-email.md)
    + [Criar uma notificação por push](using/messages/create-push.md)
    + [Criar uma mensagem de SMS.](using/messages/create-sms.md)
-   + [Criar um de correspondência direta](using/messages/create-direct-mail.md)
+   + [Criar uma correspondência direta](using/messages/create-direct-mail.md)
    + [Verificar alertas](using/messages/alerts.md)
    + [Gerenciar consentimento](using/messages/consent.md)
    + [Otimização do tempo de envio](using/messages/send-time-optimization.md)
@@ -76,12 +76,12 @@ ht-degree: 97%
    + [Adicionar ofertas personalizadas](using/design/deliver-personalized-offers.md)
    + [Adicionar links e rastrear mensagens](using/design/message-tracking.md)
    + [Pré-visualização e provas](using/design/preview.md)
-+ Páginas de aterrissagem {#landing-pages}
-   + [Introdução às páginas de aterrissagem](using/landing-pages/get-started-lp.md)
-   + [Criar uma página de aterrissagem](using/landing-pages/create-lp.md)
++ Páginas de destino {#landing-pages}
+   + [Introdução às páginas de destino](using/landing-pages/get-started-lp.md)
+   + [Criar uma página de destino](using/landing-pages/create-lp.md)
    + Criação de conteúdo {#landing-pages-design}
-      + [Sobre modelos de página de aterrissagem](using/landing-pages/design-lp.md)
-      + [Criar o conteúdo da página de aterrissagem](using/landing-pages/lp-content.md)
+      + [Sobre modelos de página de destino](using/landing-pages/design-lp.md)
+      + [Criar o conteúdo da página de destino](using/landing-pages/lp-content.md)
       + [Criar modelos](using/landing-pages/lp-templates.md)
       + [Adicionar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
    + [Criar uma lista de assinaturas](using/landing-pages/subscription-list.md)
@@ -249,13 +249,13 @@ ht-degree: 97%
       + [Introdução ao Relatório ao vivo](using/reports/live-report.md)
       + [Relatório da jornada em tempo real](using/reports/journey-live-report.md)
       + [Relatório em tempo real da campanha](using/reports/campaign-live-report.md)
-      + [Relatório em tempo real da página de aterrissagem](using/reports/lp-report-live.md)
+      + [Relatório em tempo real da página de destino](using/reports/lp-report-live.md)
       + [Relatório em tempo real da lista de assinaturas](using/reports/subscription-report-live.md)
    + Relatório global {#global-report}
       + [Introdução ao Relatório global](using/reports/global-report.md)
       + [Relatório global da jornada](using/reports/journey-global-report.md)
       + [Relatório global da campanha](using/reports/campaign-global-report.md)
-      + [Relatório global da página de aterrissagem](using/reports/lp-report-global.md)
+      + [Relatório global da página de destino](using/reports/lp-report-global.md)
       + [Relatório global da lista de assinaturas](using/reports/subscription-report-global.md)
    + Relatórios de jornada {#reports}
       + [Criar relatórios de jornada](using/reports/sharing-overview.md)
@@ -398,9 +398,9 @@ ht-degree: 97%
          + [Usar email com CCO](using/configuration/bcc-email.md)
       + [Gerenciar endereços de execução](using/configuration/primary-email-addresses.md)
       + [Configurar regras de frequência](using/configuration/frequency-rules.md)
-   + Configurar páginas de aterrissagem {#lp-configuration}
-      + [Configurar subdomínios de página de aterrissagem](using/configuration/lp-subdomains.md)
-      + [Definir predefinições da página de aterrissagem](using/configuration/lp-presets.md)
+   + Configurar páginas de destino {#lp-configuration}
+      + [Configurar subdomínios de página de destino](using/configuration/lp-subdomains.md)
+      + [Definir predefinições da página de destino](using/configuration/lp-presets.md)
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
       + [Integrar a sistemas externos](using/configuration/external-systems.md)

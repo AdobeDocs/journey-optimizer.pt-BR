@@ -8,7 +8,7 @@ exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
 source-git-commit: cdd5f963e11874d15591dad80712ca2d2ee8026f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Com o **serviço de governança de dados** da Adobe Experience Platform, é poss
 
 Para fazer isso, o serviço de governança de dados permite aplicar rótulos de uso de dados a conjuntos de dados e campos, categorizando cada um de acordo com as políticas de uso de dados relacionadas.
 
-As políticas de uso de dados são regras que descrevem os tipos de ações de marketing que você tem permissão ou restrição para executar em dados dentro da Experience Platform. Eles podem ser acessados pelo **[!UICONTROL Políticas]** menu.
+As políticas de uso de dados são regras que descrevem os tipos de ações de marketing que você tem permissão ou restrição para executar em dados dentro da Experience Platform. Elas podem ser acessadas pelo menu **[!UICONTROL Políticas]**.
 
 ![](assets/policies.png)
 
