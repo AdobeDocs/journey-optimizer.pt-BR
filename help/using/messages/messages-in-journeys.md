@@ -7,7 +7,7 @@ role: User
 level: Beginner
 source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
 workflow-type: ht
-source-wordcount: '727'
+source-wordcount: '741'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Para adicionar mensagens em uma jornada, basta adicionar uma atividade de push, 
 
 1. Insira um rótulo e uma descrição.
 
-1. Selecione a **[!UICONTROL Category]** da mensagem: escolha **Marketing** para mensagens comerciais ou **Transacional** para mensagens não comerciais, como confirmações de pedidos, notificações de redefinição de senha ou informações de entrega.
+1. Selecione a **[!UICONTROL Categoria]** da mensagem: escolha **Marketing** para mensagens comerciais ou **Transacional** para mensagens não comerciais, como confirmações de pedidos, notificações de redefinição de senha ou informações de entrega.
 
    >[!CAUTION]
    >
@@ -54,7 +54,7 @@ Para adicionar mensagens em uma jornada, basta adicionar uma atividade de push, 
    >
    >As mensagens do tipo Marketing devem incluir um [link para opção de não participação](../messages/consent.md#opt-out-management). Isso não é necessário para mensagens transacionais, pois essas mensagens podem ser enviadas a perfis que cancelaram a assinatura de comunicações de marketing.
 
-1. Selecione a **[!UICONTROL Surface]** de canal (ou seja, predefinição de mensagem) a ser usada para enviar a mensagem.
+1. Selecione a **[!UICONTROL Superfície]** de canal (ou seja, predefinição de mensagem) a ser usada para enviar a mensagem.
 
    Uma superfície é uma configuração que foi definida por um [Administrador do sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba mais](../configuration/channel-surfaces.md).
 
@@ -62,7 +62,7 @@ Para adicionar mensagens em uma jornada, basta adicionar uma atividade de push, 
    >
    >Você deve escolher uma superfície de canal válida para a categoria e o canal de mensagens selecionados.
 
-   É possível acessar e modificar o rótulo, a descrição e a superfície da mensagem a qualquer momento usando o botão **[!UICONTROL Properties]** na interface da mensagem.
+   É possível acessar e modificar o rótulo, a descrição e a superfície da mensagem a qualquer momento usando o botão **[!UICONTROL Propriedades]** na interface da mensagem.
 
 1. Criar o conteúdo da mensagem.
 
@@ -74,15 +74,15 @@ Para adicionar mensagens em uma jornada, basta adicionar uma atividade de push, 
 
 ## Habilitar otimização de tempo de envio{#sto-in-journeys}
 
-Para notificações por email e por push, é possível habilitar a **[!UICONTROL Send-time optimization]**.
+Para notificações por email e por push, é possível ativar a **[!UICONTROL Otimização de hora de envio]**.
 
-Use a **[!UICONTROL Send-time optimization]** para agendar tempos de envio personalizados para cada usuário a fim de aumentar as taxas de abertura e de clique de suas mensagens. [Saiba mais](../messages/send-time-optimization.md).
+Use a **[!UICONTROL Otimização de hora de envio]** para agendar tempos de envio personalizados para cada usuário a fim de aumentar as taxas de abertura e de clique de suas mensagens. [Saiba mais](../messages/send-time-optimization.md).
 
 ## Parâmetros avançados{#adv-settings}
 
 Parâmetros avançados são somente leitura e ocultos por padrão.
 
-Para acessar os parâmetros avançados, clique no ícone **[!UICONTROL Show read-only fields]** na parte superior do painel de mensagens.
+Para acessar os parâmetros avançados, clique no ícone **[!UICONTROL Mostrar campos somente leitura]** na parte superior do painel de mensagens.
 
 ![](assets/show-read-only.png)
 
@@ -117,7 +117,7 @@ Para fazer isso, siga as etapas abaixo:
 
 1. Selecione a mensagem que deseja copiar.
 
-1. Use o botão **[!UICONTROL Copy]** no painel **[!UICONTROL Action]**.
+1. Use o botão **[!UICONTROL Copiar]** do painel **[!UICONTROL Ação]**.
 
    ![](assets/message-duplicate.png)
 
@@ -142,4 +142,4 @@ Para excluir uma mensagem, use o ícone de lixeira na parte superior do painel d
 
 ![](assets/delete-message.png)
 
-Use o botão **[!UICONTROL Confirm]** para validar.
+Use o botão **[!UICONTROL Confirmar]** para validar.
