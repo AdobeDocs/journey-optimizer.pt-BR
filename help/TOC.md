@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1f0b9507c557140efe5e2aa170d4acfa28ed4b88
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 98%
+source-wordcount: '1151'
+ht-degree: 97%
 
 ---
 
@@ -246,13 +246,13 @@ ht-degree: 98%
       + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
 + Rastrear e monitorar {#reporting}
    + Relatório ao vivo {#live-report}
-      + [Acessar o painel de relatórios em tempo real](using/reports/live-report.md)
+      + [Introdução ao Relatório ao vivo](using/reports/live-report.md)
       + [Relatório da jornada em tempo real](using/reports/journey-live-report.md)
       + [Relatório em tempo real da campanha](using/reports/campaign-live-report.md)
       + [Relatório em tempo real da página de aterrissagem](using/reports/lp-report-live.md)
       + [Relatório em tempo real da lista de assinaturas](using/reports/subscription-report-live.md)
    + Relatório global {#global-report}
-      + [Acessar o painel de relatórios global](using/reports/global-report.md)
+      + [Introdução ao Relatório global](using/reports/global-report.md)
       + [Relatório global da jornada](using/reports/journey-global-report.md)
       + [Relatório global da campanha](using/reports/campaign-global-report.md)
       + [Relatório global da página de aterrissagem](using/reports/lp-report-global.md)
