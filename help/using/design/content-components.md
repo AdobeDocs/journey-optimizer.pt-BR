@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
+source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 1%
+source-wordcount: '1241'
+ht-degree: 2%
 
 ---
 
@@ -150,25 +150,21 @@ Use o **[!UICONTROL Imagem]** componente para inserir um arquivo de imagem de se
 >id="ac_edition_video_email"
 >title="Configurações de vídeo"
 >abstract="Use esse componente para inserir um vídeo no seu email. Observe que os vídeos não funcionam em todos os clientes de email. Recomendamos definir uma imagem de fallback."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informações adicionais"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_landing_page"
 >title="Configurações de vídeo"
 >abstract="Use esse componente para inserir um vídeo na página de aterrissagem. Observe que os vídeos não funcionam em todos os clientes de mensagem. Recomendamos definir uma imagem de fallback."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informações adicionais"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_fragment"
 >title="Configurações de vídeo"
 >abstract="Use esse componente para inserir um vídeo no fragmento. Observe que os vídeos não funcionam em todos os clientes de mensagem. Recomendamos definir uma imagem de fallback."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informações adicionais"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_template"
 >title="Configurações de vídeo"
 >abstract="Use esse componente para inserir um vídeo no modelo. Observe que os vídeos não funcionam em todos os clientes de mensagem. Recomendamos definir uma imagem de fallback."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informações adicionais"
 
 Use o **[!UICONTROL Vídeo]** para inserir um vídeo no seu email por meio de um link de URL.
 
