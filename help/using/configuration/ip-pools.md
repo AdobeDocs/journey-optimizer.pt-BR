@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '592'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="Configurar um pool IP"
->abstract="Você pode criar pools de IP para agrupar os endereços IP de seus subdomínios para melhorar a capacidade de delivery de email."
+>abstract="Com o Journey Optimizer, você pode criar pools de IP para agrupar os endereços IP dos subdomínios. Isso pode melhorar significativamente sua capacidade de fornecimento de email, pois, ao fazer isso, você pode impedir que a reputação de um subdomínio afete seus outros subdomínios."
 
 ## Sobre pools de IP {#about-ip-pools}
 
