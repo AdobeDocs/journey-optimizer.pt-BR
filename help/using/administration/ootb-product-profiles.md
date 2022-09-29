@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 3afef10461ce29b811cb20a2c8c4e94f452daf1f
+source-git-commit: 8ca0d2bbd01451de613d8ae985e10a711fcc6316
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1115'
 ht-degree: 9%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 ## Sobre permissões relacionadas a mensagens{#message-permissions}
 
-O Adobe Journey Optimizer lançou novos recursos de criação em linha que permitem criar e criar suas mensagens diretamente de uma jornada ou campanha. Para obter mais informações sobre esse novo recurso, [consulte esta página](../rn/inline-messages.md).
+O Adobe Journey Optimizer lançou novos recursos de criação em linha que permitem criar e criar suas mensagens diretamente de uma jornada ou campanha.
 
 Esse recurso afetará as permissões da seguinte maneira:
 
@@ -60,7 +60,7 @@ O **[!DNL Campaign Approver]** o perfil de produto permite que os usuários apro
 
 ## [!DNL Campaign Manager] {#campaign-manager}
 
-O **[!DNL Campaign Manager]** o perfil de produto permite que os usuários criem e editem **[!UICONTROL Campaigns]** e todos os recursos vinculados a **[!UICONTROL Campaigns]** mas não poderá publicá-las.
+O **[!DNL Campaign Manager]** o perfil de produto permite que os usuários criem e editem **[!UICONTROL Campanhas]** e todos os recursos vinculados a **[!UICONTROL Campanhas]** mas não poderá publicá-las.
 
 Este perfil de produto conta com as seguintes permissões:
 
@@ -70,7 +70,7 @@ Este perfil de produto conta com as seguintes permissões:
 
 ## [!DNL Campaign Viewer] {#campaign-viewer}
 
-O **[!DNL Campaign Viewer]** o perfil do produto permite acesso somente leitura ao **[!UICONTROL Campaigns]** e **[!UICONTROL Decision management]** recursos.
+O **[!DNL Campaign Viewer]** o perfil do produto permite acesso somente leitura ao **[!UICONTROL Campanhas]** e **[!UICONTROL Gestão de decisões]** recursos.
 
 Os usuários atribuídos a este perfil de produto não poderão editar ou publicar.
 
@@ -101,7 +101,7 @@ Este perfil de produto conta com as seguintes permissões:
 
 ## [!DNL Journey Manager] {#journey-manager}
 
-O **[!DNL Journey Manager]** o perfil de produto permite que os usuários criem e editem **[!UICONTROL Journeys]** e todos os recursos vinculados a **[!UICONTROL Journeys]** mas não poderá publicá-las.
+O **[!DNL Journey Manager]** o perfil de produto permite que os usuários criem e editem **[!UICONTROL Jornada]** e todos os recursos vinculados a **[!UICONTROL Jornada]** mas não poderá publicá-las.
 
 Este perfil de produto conta com as seguintes permissões:
 
@@ -111,7 +111,7 @@ Este perfil de produto conta com as seguintes permissões:
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 
-O **[!DNL Journey viewer]** o perfil do produto permite acesso somente leitura ao **[!UICONTROL Journeys]** e **[!UICONTROL Decision management]** recursos.
+O **[!DNL Journey viewer]** o perfil do produto permite acesso somente leitura ao **[!UICONTROL Jornada]** e **[!UICONTROL Gestão de decisões]** recursos.
 
 Os usuários atribuídos a este perfil de produto não poderão editar ou publicar.
 
@@ -122,7 +122,7 @@ Este perfil de produto conta com as seguintes permissões:
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-O **[!DNL Decisioning manager]** o perfil de produto permite somente a **[!UICONTROL Decision management]** menu. Os usuários atribuídos a este perfil de produto só poderão gerenciar, visualizar e publicar decisões.
+O **[!DNL Decisioning manager]** o perfil de produto permite somente a **[!UICONTROL Gestão de decisões]** menu. Os usuários atribuídos a este perfil de produto só poderão gerenciar, visualizar e publicar decisões.
 
 Este perfil de produto conta com as seguintes permissões:
 

@@ -1,17 +1,17 @@
 ---
-title: Definir predefinições da página de aterrissagem
+title: Definir predefinições da página de destino
 description: Saiba como configurar seu ambiente para criar e usar landing pages com o Journey Optimizer
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 8bc6b3a5b8836b547e9c697f9420532fdea4acbc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '342'
+ht-degree: 5%
 
 ---
 
-# Definir predefinições da página de aterrissagem {#lp-presets}
+# Definir predefinições da página de destino {#lp-presets}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
@@ -70,9 +70,9 @@ Para criar uma predefinição de página de aterrissagem, siga as etapas abaixo.
 
    Por exemplo, se o URL da página de aterrissagem for &#39;pages.mail.luma.com&#39; e o URL de rastreamento for &#39;data.mail.luma.com&#39;, você poderá escolher &#39;pages.mail.luma.com&#39; para ser usado como o subdomínio de rastreamento.
 
-1. Clique em **[!UICONTROL Enviar]** para confirmar a criação da predefinição de landing page. Também é possível salvar a predefinição como rascunho e retomar a configuração posteriormente.
+1. Clique em **[!UICONTROL Enviar]** para confirmar a criação da predefinição de landing page. <!--You can also save the preset as draft and resume its configuration later on.-->
 
-   ![](assets/lp_preset-subdomain-settings-submit.png)
+   <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
 1. Depois que a predefinição de landing page for criada, ela será exibida na lista com a variável **[!UICONTROL Ativo]** status. Ele está pronto para ser usado em suas landing pages.
 
@@ -86,5 +86,5 @@ Agora você está pronto para [criar landing pages](../landing-pages/create-lp.m
 
 **Tópicos relacionados**:
 
-* [Introdução às páginas de aterrissagem](../landing-pages/get-started-lp.md)
-* [Criar uma página de aterrissagem](../landing-pages/create-lp.md#create-a-lp)
+* [Introdução às páginas de destino](../landing-pages/get-started-lp.md)
+* [Criar uma página de destino](../landing-pages/create-lp.md#create-a-lp)

@@ -6,17 +6,15 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 30171e362e0dc70f5647bb2413031946062e8df3
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 0%
+source-wordcount: '899'
+ht-degree: 1%
 
 ---
 
-# Gerenciamento de consentimento (beta) {#consent-management}
+# Gerenciamento de consentimento {#consent-management}
 
 O Adobe Experience Platform permite que você adote e aplique facilmente políticas de marketing para respeitar as preferências de consentimento dos clientes. As políticas de consentimento são definidas no Adobe Experience Platform. Consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
@@ -24,7 +22,7 @@ No Journey Optimizer, você pode aplicar essas políticas de consentimento às a
 
 >[!NOTE]
 >
->Esse recurso foi lançado como um beta privado. Não está disponível para todos os clientes da Journey Optimizer.
+>Atualmente, as políticas de consentimento estão disponíveis apenas para organizações que compraram a oferta complementar do Healthcare Shield.
 
 No Journey Optimizer, o consentimento é definido em vários níveis:
 
@@ -39,8 +37,8 @@ Com o gerenciamento de consentimento, duas atividades do jornada são analisadas
 
 * Ler segmento: o segmento recuperado é considerado.
 * Ação personalizada: o gerenciamento de consentimento leva em conta os atributos usados ([parâmetros de ação](../action/about-custom-action-configuration.md#define-the-message-parameters)), bem como as ações de marketing definidas (ação de marketing necessária e ação de marketing adicional).
-
-O consentimento só se aplica quando uma ação de marketing (necessária ou adicional) é definida no nível de ação personalizada.
+* Os atributos que fazem parte de um grupo de campos usando o Esquema de União predefinido não são suportados. Esses atributos ficarão ocultos na interface. É necessário criar outro grupo de campos usando um schema diferente.
+* As políticas de consentimento só se aplicam quando uma ação de marketing (necessária ou adicional) é definida no nível de ação personalizada.
 
 Todas as outras atividades usadas em uma jornada não são consideradas. Se você iniciar a jornada com uma qualificação de Segmento, o segmento não será considerado.
 

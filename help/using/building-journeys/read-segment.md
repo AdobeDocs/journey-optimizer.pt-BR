@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 6%
+source-wordcount: '1323'
+ht-degree: 5%
 
 ---
 
@@ -30,19 +30,19 @@ Vejamos como exemplo o segmento &quot;Abertura e check-out do aplicativo Luma&qu
 >
 >Para jornadas que usam uma atividade Ler segmento , há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. As tentativas serão executadas pelo sistema, mas evite ter mais de cinco jornadas (com Segmento de leitura, programado ou iniciando &quot;o mais rápido possível&quot;), iniciando exatamente ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
 >
->O complemento Burst paid permite o envio muito rápido de mensagens de push em grandes volumes para jornadas simples que incluem um segmento de leitura e uma mensagem de push simples. Para obter mais informações, consulte [esta seção](../building-journeys/journey-gs.md#burst)
+>Os grupos de campos de evento da experiência não podem ser usados em jornadas que começam com um segmento Lido, uma qualificação de Segmento ou uma atividade de evento comercial.
 
 ### Configurar a atividade {#configuring-segment-trigger-activity}
 
 As etapas para configurar a atividade Ler segmento são as seguintes:
 
-1. Expanda a **[!UICONTROL Orchestration]** categoria e solte uma **[!UICONTROL Read Segment]** atividade na tela.
+1. Expanda a **[!UICONTROL Orquestração]** categoria e solte uma **[!UICONTROL Ler segmento]** atividade na tela.
 
    A atividade deve ser posicionada como a primeira etapa de uma jornada.
 
-1. Adicione um **[!UICONTROL Label]** à atividade (opcional).
+1. Adicione um **[!UICONTROL Rótulo]** à atividade (opcional).
 
-1. No **[!UICONTROL Segment]** escolha o segmento do Adobe Experience Platform que irá inserir a jornada e clique em **[!UICONTROL Save]**.
+1. No **[!UICONTROL Segmento]** escolha o segmento do Adobe Experience Platform que irá inserir a jornada e clique em **[!UICONTROL Salvar]**.
 
    Observe que você pode personalizar as colunas exibidas na lista e classificá-las.
 
@@ -52,7 +52,7 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
 
    ![](assets/read-segment-selection.png)
 
-   Depois que o segmento é adicionado, a variável **[!UICONTROL Copy]** permite copiar o nome e a ID:
+   Depois que o segmento é adicionado, a variável **[!UICONTROL Copiar]** permite copiar o nome e a ID:
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
@@ -64,7 +64,7 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
    >
    >Os indivíduos pertencentes a um segmento que não tem a identidade (namespace) selecionada entre suas identidades diferentes não podem inserir a jornada.
 
-1. Defina as **[!UICONTROL Throttling rate]** para o limite de taxa de transferência da atividade de segmento de leitura.
+1. Defina as **[!UICONTROL Taxa de limitação]** para o limite de taxa de transferência da atividade de segmento de leitura.
 
    Esse valor é armazenado na carga da versão do jornada. O valor padrão é 20.000 mensagens por segundo. Você pode modificar esse valor de 500 a 20.000 mensagens por segundo.
 
@@ -72,15 +72,15 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
    >
    >A taxa de limitação geral por sandbox é definida como 20.000 mensagens por segundo. Portanto, a taxa de limitação de todos os segmentos de leitura executados simultaneamente na mesma sandbox adiciona até no máximo 20.000 mensagens por segundo. Não é possível modificar esta tampa.
 
-1. O **[!UICONTROL Read Segment]** permite especificar a hora em que o segmento entrará na jornada. Para fazer isso, clique no botão **[!UICONTROL Edit journey schedule]** para acessar as propriedades da jornada e configure a variável **[!UICONTROL Scheduler type]** campo.
+1. O **[!UICONTROL Ler segmento]** permite especificar a hora em que o segmento entrará na jornada. Para fazer isso, clique no botão **[!UICONTROL Editar programação de jornada]** para acessar as propriedades da jornada e configure a variável **[!UICONTROL Tipo de agendador]** campo.
 
    ![](assets/read-segment-schedule.png)
 
-   Por padrão, os segmentos entram na jornada **[!UICONTROL As soon as possible]**. Se desejar que o segmento insira a jornada em uma data/hora específica ou em uma base recorrente, selecione o valor desejado na lista.
+   Por padrão, os segmentos entram na jornada **[!UICONTROL Logo que possível]**. Se desejar que o segmento insira a jornada em uma data/hora específica ou em uma base recorrente, selecione o valor desejado na lista.
 
    >[!NOTE]
    >
-   >Observe que a variável **[!UICONTROL Schedule]** só estará disponível quando uma **[!UICONTROL Read Segment]** A atividade foi solta na tela.
+   >Observe que a variável **[!UICONTROL Agendar]** só estará disponível quando uma **[!UICONTROL Ler segmento]** A atividade foi solta na tela.
 
    ![](assets/read-segment-schedule-list.png)
 
@@ -108,10 +108,12 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >[!NOTE]
 >
 >As jornadas de segmento de Leitura única são movidas para o status Finished 30 dias após a execução da jornada. Para segmentos de leitura agendados, isso acontece 30 dias após a execução da última ocorrência.
+>
+>Você precisa ter cuidado ao usar atividades de espera em jornadas de segmentos de leitura recorrentes, pois o tempo de vida dessas jornadas termina na próxima execução. Isso significa que se uma jornada for executada diariamente, a instância do jornada que começou hoje durará até a execução de amanhã. Por exemplo, se você tiver adicionado um período de espera de 2 dias nessa jornada, os perfis sempre serão movidos na próxima execução da jornada (ou seja, no dia seguinte), estejam ou não no próximo público-alvo de execução. Os perfis nunca poderão ficar nessa jornada por 2 dias.
 
 ### Testar e publicar a jornada {#testing-publishing}
 
-O **[!UICONTROL Read Segment]** A atividade permite testar a jornada em um perfil unitário ou em 100 perfis de teste aleatório selecionados entre os perfis qualificados para o segmento.
+O **[!UICONTROL Ler segmento]** A atividade permite testar a jornada em um perfil unitário ou em 100 perfis de teste aleatório selecionados entre os perfis qualificados para o segmento.
 
 Para fazer isso, ative o modo de teste e selecione a opção desejada no painel esquerdo.
 
@@ -119,11 +121,11 @@ Para fazer isso, ative o modo de teste e selecione a opção desejada no painel 
 
 Em seguida, você pode configurar e executar o modo de teste como de costume. [Saiba como testar uma jornada](testing-the-journey.md).
 
-Quando o teste estiver em execução, a função **[!UICONTROL Show logs]** permite ver os resultados do teste de acordo com a opção de teste selecionada:
+Quando o teste estiver em execução, a função **[!UICONTROL Mostrar logs]** permite ver os resultados do teste de acordo com a opção de teste selecionada:
 
-* **[!UICONTROL Single profile at a time]**: os registros de teste exibem as mesmas informações que ao usar o modo de teste unitário. Para obter mais informações, consulte [esta seção](testing-the-journey.md#viewing_logs)
+* **[!UICONTROL Perfil único por vez]**: os registros de teste exibem as mesmas informações que ao usar o modo de teste unitário. Para obter mais informações, consulte [esta seção](testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL Up to 100 profiles at once]**: os logs de teste permitem rastrear a progressão da exportação do segmento do Adobe Experience Platform, bem como o progresso individual de todas as pessoas que entraram na jornada.
+* **[!UICONTROL Até 100 perfis ao mesmo tempo]**: os logs de teste permitem rastrear a progressão da exportação do segmento do Adobe Experience Platform, bem como o progresso individual de todas as pessoas que entraram na jornada.
 
    Observe que testar a jornada usando até 100 perfis simultaneamente não permite rastrear o progresso dos indivíduos na jornada usando o fluxo visual.
 

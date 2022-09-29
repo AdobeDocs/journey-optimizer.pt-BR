@@ -5,12 +5,10 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 4%
+source-wordcount: '438'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +18,10 @@ ht-degree: 4%
 >id="ajo_olac_manage_access"
 >title="Controle de acesso no nível do objeto"
 >abstract="Se você aplicar qualquer rótulo ao qual não tenha acesso, seu acesso a esse objeto será revogado."
+
+>[!IMPORTANT]
+>
+>O uso do controle de acesso do nível de objeto está atualmente restrito a clientes selecionados e será implantado em todos os ambientes em uma versão futura.
 
 O OLAC (Object Level Access Control, controle de acesso a nível de objeto) permite definir autorizações para gerenciar o acesso a dados de uma seleção de objetos:
 
@@ -86,6 +88,7 @@ Para atribuir rótulos de uso de dados personalizados ou principais aos objetos 
 1. Clique em **[!UICONTROL Salvar]** para aplicar essa restrição de rótulo.
 
 Para ter acesso a esse objeto, os usuários precisarão ter o **[!UICONTROL Rótulo]** , incluindo **[!UICONTROL Funções]**.
+Por exemplo, um usuário com o rótulo C1 terá acesso apenas a objetos rotulados ou não como C1.
 
 Para obter mais informações sobre como atribuir **[!UICONTROL Rótulo]** para **[!UICONTROL Função]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
 

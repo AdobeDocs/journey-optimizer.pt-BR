@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 9eebc64476b1fb7c1d0300cf66b0377dfbf0754f
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 10%
+source-wordcount: '1440'
+ht-degree: 8%
 
 ---
 
@@ -39,7 +39,7 @@ Esses tipos de condições estão disponíveis:
 
 Ao usar várias condições em uma jornada, você pode definir rótulos para cada uma delas para identificá-las mais facilmente.
 
-Clique em **[!UICONTROL Add a path]** se desejar definir várias condições. Para cada condição, um novo caminho é adicionado na tela após a atividade .
+Clique em **[!UICONTROL Adicionar um caminho]** se desejar definir várias condições. Para cada condição, um novo caminho é adicionado na tela após a atividade .
 
 ![](assets/journey47.png)
 
@@ -49,7 +49,7 @@ Por exemplo, vamos considerar o exemplo de uma condição de primeiro caminho &q
 
 ![](assets/journey48.png)
 
-Você pode criar outro caminho para públicos-alvo que não estejam qualificados para as condições definidas ao verificar **[!UICONTROL Show path for other cases than the one(s) above]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão de porcentagem](#percentage_split).
+Você pode criar outro caminho para públicos-alvo que não estejam qualificados para as condições definidas ao verificar **[!UICONTROL Mostrar caminho para outros casos além do acima]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão de porcentagem](#percentage_split).
 
 O modo simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
 
@@ -65,7 +65,7 @@ Se estiver usando o [Serviço de segmentação do Adobe Experience Platform](htt
 >
 >Não é possível executar consultas em séries de tempo (por exemplo, uma lista de compras, cliques anteriores em mensagens) com o editor simples. Para isso, será necessário usar o editor avançado. Consulte [esta página](expression/expressionadvanced.md).
 
-A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. O único modo de fazê-la continuar é marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
+A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcando a caixa **[!UICONTROL Adicione um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
 No editor simples, você também encontrará a categoria Propriedades da Jornada, abaixo das categorias de evento e fonte de dados. Esta categoria contém campos técnicos relacionados à jornada de um determinado perfil. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados. [Saiba mais](expression/journey-properties.md)
 
@@ -83,9 +83,15 @@ Isso permite executar ações diferentes de acordo com a hora do dia e/ou o dia 
 
 >[!NOTE]
 >
->O fuso horário não é mais específico de uma condição e agora é definido no nível da jornada nas propriedades da jornada. Consulte [esta página](../building-journeys/timezone-management.md).
+>O fuso horário não é específico de uma condição e é definido no nível da jornada nas propriedades da jornada. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](assets/journey51.png)
+
+Três opções de filtragem estão disponíveis:
+
+* Hora: permite configurar uma condição com base na hora do dia. Em seguida, você define as horas de início e término. Os indivíduos inserirão o caminho somente durante o intervalo de horas definido.
+* Dia da semana: permite configurar uma condição com base no dia da semana. Em seguida, selecione quais dias deseja que os indivíduos insiram o caminho.
+* Dia da semana e hora: essa opção combina as duas primeiras opções.
 
 ## Divisão de porcentagem {#percentage_split}
 
@@ -140,14 +146,14 @@ Esta seção explica como usar um segmento em uma condição de jornada. Para ob
 
 Para usar um segmento em uma condição de jornada, siga estas etapas:
 
-1. Abra uma jornada, solte uma **[!UICONTROL Condition]** e escolha a **Condição da fonte de dados**.
+1. Abra uma jornada, solte uma **[!UICONTROL Condição]** e escolha a **Condição da fonte de dados**.
    ![](assets/journey47.png)
 
-1. Clique em **[!UICONTROL Add a path]** para cada caminho extra necessário. Para cada caminho, clique no botão **[!UICONTROL Expression]** campo.
+1. Clique em **[!UICONTROL Adicionar um caminho]** para cada caminho extra necessário. Para cada caminho, clique no botão **[!UICONTROL Expressão]** campo.
 
    ![](assets/segment3.png)
 
-1. No lado esquerdo, expanda-se **[!UICONTROL Segments]** nó . Arraste e solte o segmento que deseja usar para sua condição. Por padrão, a condição no segmento é verdadeira.
+1. No lado esquerdo, expanda-se **[!UICONTROL Segmentos]** nó . Arraste e solte o segmento que deseja usar para sua condição. Por padrão, a condição no segmento é verdadeira.
 
    ![](assets/segment4.png)
 

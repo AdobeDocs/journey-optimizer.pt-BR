@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '734'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ Antes de criar uma oferta, verifique se você criou:
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-A lista de ofertas personalizadas pode ser acessada na variável **[!UICONTROL Offers]** menu.
+A lista de ofertas personalizadas pode ser acessada na variável **[!UICONTROL Ofertas]** menu.
 
 ![](../assets/offers_list.png)
 
@@ -41,7 +41,7 @@ A lista de ofertas personalizadas pode ser acessada na variável **[!UICONTROL O
 
 Para criar um **oferta** siga estas etapas:
 
-1. Clique em **[!UICONTROL Create offer]**, em seguida selecione **[!UICONTROL Personalized offer]**.
+1. Clique em **[!UICONTROL Criar oferta]**, em seguida selecione **[!UICONTROL Oferta personalizada]**.
 
    ![](../assets/create_offer.png)
 
@@ -55,7 +55,11 @@ Para criar um **oferta** siga estas etapas:
 
 1. Também é possível associar uma ou várias **[!UICONTROL tags]** à oferta, permitindo pesquisar e organizar a Biblioteca de ofertas com mais facilidade. [Saiba mais](creating-tags.md).
 
-1. O **[!UICONTROL Offer attributes]** Essa seção permite associar pares de valores chave à oferta para fins de relatório e análise.
+1. O **[!UICONTROL Atributos da oferta]** Essa seção permite associar pares de valores chave à oferta para fins de relatório e análise.
+
+1. Para atribuir rótulos de uso de dados personalizados ou principais à oferta, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o Controle de Acesso no Nível do Objeto (OLAC)](../../administration/object-based-access.md)
+
+   ![](../assets/offer_manage-access.png)
 
 1. Adicione representações para definir onde a oferta será exibida na mensagem. [Saiba mais](add-representations.md)
 
@@ -65,7 +69,7 @@ Para criar um **oferta** siga estas etapas:
 
    >[!NOTE]
    >
-   >Ao selecionar segmentos ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Refresh]** para atualizar os dados.
+   >Ao selecionar segmentos ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar os dados.
    >
    >Observe que as estimativas de perfil não estão disponíveis quando os parâmetros da regra incluem dados que não estão no perfil, como dados de contexto. Por exemplo, uma regra de elegibilidade que requer que o tempo atual seja ≥80 graus.
 
@@ -79,19 +83,19 @@ Depois que as regras e restrições de qualificação tiverem sido definidas, um
 
 1. Verifique se tudo está configurado corretamente.
 
-1. Você pode exibir informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Refresh]** para atualizar os dados.
+1. Você pode exibir informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar os dados.
 
    ![](../assets/offer-summary-estimate.png)
 
-1. Quando sua oferta estiver pronta para ser apresentada aos usuários, clique em **[!UICONTROL Finish]**.
+1. Quando sua oferta estiver pronta para ser apresentada aos usuários, clique em **[!UICONTROL Concluir]**.
 
-1. Selecione **[!UICONTROL Save and approve]**.
+1. Selecionar **[!UICONTROL Salvar e aprovar]**.
 
    ![](../assets/offer_review.png)
 
    Também é possível salvar a oferta como rascunho, para editá-la e aprová-la posteriormente.
 
-A oferta é exibida na lista com a variável **[!UICONTROL Approved]** ou **[!UICONTROL Draft]** , dependendo de você ter aprovado ou não na etapa anterior.
+A oferta é exibida na lista com a variável **[!UICONTROL Aprovado]** ou **[!UICONTROL Rascunho]** , dependendo de você ter aprovado ou não na etapa anterior.
 
 Agora ele está pronto para ser entregue aos usuários.
 
@@ -103,20 +107,20 @@ Na lista de ofertas, é possível selecionar a oferta para exibir suas proprieda
 
 ![](../assets/offer_created.png)
 
-Selecione o **[!UICONTROL Edit]** botão para voltar para o modo de edição da oferta, onde você pode modificar o [detalhes](#create-offer), [representações](#representations), bem como editar o [regras e restrições de qualificação](#eligibility).
+Selecione o **[!UICONTROL Editar]** botão para voltar para o modo de edição da oferta, onde você pode modificar o [detalhes](#create-offer), [representações](#representations), bem como editar o [regras e restrições de qualificação](#eligibility).
 
-Selecione uma oferta aprovada e clique em **[!UICONTROL Undo approve]** para definir o status da oferta novamente como **[!UICONTROL Draft]**.
+Selecione uma oferta aprovada e clique em **[!UICONTROL Desfazer aprovar]** para definir o status da oferta novamente como **[!UICONTROL Rascunho]**.
 
-Para definir novamente o status como **[!UICONTROL Approved]**, selecione o botão correspondente que é exibido.
+Para definir novamente o status como **[!UICONTROL Aprovado]**, selecione o botão correspondente que é exibido.
 
 ![](../assets/offer_approve.png)
 
-O **[!UICONTROL More actions]** ativa as ações descritas abaixo.
+O **[!UICONTROL Mais ações]** ativa as ações descritas abaixo.
 
 ![](../assets/offer_more-actions.png)
 
-* **[!UICONTROL Duplicate]**: cria uma oferta com as mesmas propriedades, representações, regras de elegibilidade e restrições. Por padrão, a nova oferta tem a variável **[!UICONTROL Draft]** status.
-* **[!UICONTROL Delete]**: remove a oferta da lista.
+* **[!UICONTROL Duplicar]**: cria uma oferta com as mesmas propriedades, representações, regras de elegibilidade e restrições. Por padrão, a nova oferta tem a variável **[!UICONTROL Rascunho]** status.
+* **[!UICONTROL Excluir]**: remove a oferta da lista.
 
    >[!CAUTION]
    >
@@ -124,7 +128,7 @@ O **[!UICONTROL More actions]** ativa as ações descritas abaixo.
    >
    >Se a oferta for usada em uma coleção ou decisão, ela não poderá ser excluída. Você deve remover a oferta de qualquer objeto primeiro.
 
-* **[!UICONTROL Archive]**: define o status da oferta como **[!UICONTROL Archived]**. A oferta ainda está disponível na lista, mas não é possível definir seu status novamente como **[!UICONTROL Draft]** ou **[!UICONTROL Approved]**. Você só pode duplicá-la ou excluí-la.
+* **[!UICONTROL Arquivar]**: define o status da oferta como **[!UICONTROL Arquivado]**. A oferta ainda está disponível na lista, mas não é possível definir seu status novamente como **[!UICONTROL Rascunho]** ou **[!UICONTROL Aprovado]**. Você só pode duplicá-la ou excluí-la.
 
 Também é possível excluir ou alterar o status de várias ofertas ao mesmo tempo, marcando as caixas de seleção correspondentes.
 
@@ -138,7 +142,7 @@ Depois que uma oferta for criada, clique no nome na lista.
 
 ![](../assets/offer_click-name.png)
 
-Isso permite acessar informações detalhadas dessa oferta. Selecione o **[!UICONTROL Change log]** guia para [monitorar todas as alterações](../get-started/user-interface.md#monitoring-changes) que foram feitas à oferta.
+Isso permite acessar informações detalhadas dessa oferta. Selecione o **[!UICONTROL Log de alterações]** guia para [monitorar todas as alterações](../get-started/user-interface.md#monitoring-changes) que foram feitas à oferta.
 
 ![](../assets/offer_information.png)
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 8a8950dbbda9a0a3aa498e304e41294ad343d0be
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1188'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,7 @@ No **Subdomínio e pools de IP** na seção , você deve:
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-Não é possível continuar com a criação da superfície enquanto o pool de IP selecionado estiver em [edição](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** e nunca foi associado ao subdomínio selecionado. Caso contrário, a versão mais antiga da associação do pool de IP/subdomínio ainda será usada. Se esse for o caso, salve a superfície como rascunho e tente novamente depois que o pool de IP tiver a tag **[!UICONTROL Success]** status.
+Não é possível continuar com a criação da superfície enquanto o pool de IP selecionado estiver em [edição](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processamento]** e nunca foi associado ao subdomínio selecionado. Caso contrário, a versão mais antiga da associação do pool de IP/subdomínio ainda será usada. Se esse for o caso, salve a superfície como rascunho e tente novamente depois que o pool de IP tiver a tag **[!UICONTROL Sucesso]** status.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Não é possível continuar com a criação da superfície enquanto o pool de IP
 
 ## List-Unsubscribe {#list-unsubscribe}
 
-Em [selecionar um subdomínio](#subdomains-and-ip-pools) na lista, a variável **[!UICONTROL Enable List-Unsubscribe]** será exibida.
+Em [selecionar um subdomínio](#subdomains-and-ip-pools) na lista, a variável **[!UICONTROL Ativar List-Unsubscribe]** será exibida.
 
 ![](assets/preset-list-unsubscribe.png)
 
@@ -72,7 +72,7 @@ O link de cancelamento de subscrição consiste em dois elementos:
 
 * Um **cancelar inscrição do endereço de email**, para a qual todas as solicitações de cancelamento de subscrição são enviadas.
 
-   Em [!DNL Journey Optimizer], o endereço de email de cancelamento de inscrição é o padrão **[!UICONTROL Mailto (unsubscribe)]** endereço exibido na superfície do canal, com base na variável [subdomínio selecionado](#subdomains-and-ip-pools).
+   Em [!DNL Journey Optimizer], o endereço de email de cancelamento de inscrição é o padrão **[!UICONTROL Mailto (cancelar inscrição)]** endereço exibido na superfície do canal, com base na variável [subdomínio selecionado](#subdomains-and-ip-pools).
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
@@ -92,21 +92,21 @@ Saiba mais sobre como adicionar um link de cancelamento de subscrição de cabe�
 
 ## Parâmetros de cabeçalho{#email-header}
 
-No **[!UICONTROL Header parameters]** , insira os nomes do remetente e os endereços de email associados ao tipo de emails enviados usando essa superfície.
+No **[!UICONTROL Parâmetros de cabeçalho]** , insira os nomes do remetente e os endereços de email associados ao tipo de emails enviados usando essa superfície.
 
 >[!CAUTION]
 >
 >Os endereços de email devem usar o [subdomínio delegado](about-subdomain-delegation.md).
 
-* **[!UICONTROL Sender name]**: O nome do remetente, como o nome da sua marca.
+* **[!UICONTROL Nome do remetente]**: O nome do remetente, como o nome da sua marca.
 
-* **[!UICONTROL Sender email]**: O endereço de email que deseja usar para suas comunicações. Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você pode usar *contact@marketing.luma.com*.
+* **[!UICONTROL Email do remetente]**: O endereço de email que deseja usar para suas comunicações. Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você pode usar *contact@marketing.luma.com*.
 
-* **[!UICONTROL Reply to (name)]**: O nome que será usado quando o recipient clicar no **Responder** no software cliente de email.
+* **[!UICONTROL Responder a (nome)]**: O nome que será usado quando o recipient clicar no **Responder** no software cliente de email.
 
-* **[!UICONTROL Reply to (email)]**: O endereço de email que será usado quando o recipient clicar no link **Responder** no software cliente de email. Você deve usar um endereço definido no subdomínio delegado (por exemplo, *reply@marketing.luma.com*), caso contrário, os emails serão descartados.
+* **[!UICONTROL Responder para (email)]**: O endereço de email que será usado quando o recipient clicar no link **Responder** no software cliente de email. Você deve usar um endereço definido no subdomínio delegado (por exemplo, *reply@marketing.luma.com*), caso contrário, os emails serão descartados.
 
-* **[!UICONTROL Error email]**: Todos os erros gerados pelos ISPs após alguns dias de envio de email (rejeições assíncronas) são recebidos neste endereço.
+* **[!UICONTROL Email de erro]**: Todos os erros gerados pelos ISPs após alguns dias de envio de email (rejeições assíncronas) são recebidos neste endereço.
 
 ![](assets/preset-header.png)
 
@@ -121,7 +121,7 @@ Se quiser encaminhar para um endereço de email específico todos os emails rece
 * O endereço de email de encaminhamento de sua escolha. Observe que o domínio de endereço de email de encaminhamento não pode corresponder a qualquer subdomínio delegado ao Adobe.
 * O nome da sua caixa de proteção.
 * O nome de superfície para o qual o endereço de email de encaminhamento será usado.
-* O atual **[!UICONTROL Reply to (email)]** endereço definido no nível da superfície do canal.
+* O atual **[!UICONTROL Responder para (email)]** endereço definido no nível da superfície do canal.
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ O endereço de email de encaminhamento será configurado pelo Adobe. Isso pode l
 
 Você pode enviar uma cópia idêntica (ou cópia oculta de carbono) de emails enviados por [!DNL Journey Optimizer] para uma caixa de entrada do CCO, onde serão armazenados para fins de conformidade ou arquivamento.
 
-Para fazer isso, ative a **[!UICONTROL BCC email]** recurso opcional no nível da superfície do canal. [Saiba mais](bcc-email.md)
+Para fazer isso, ative a **[!UICONTROL Email CCO]** recurso opcional no nível da superfície do canal. [Saiba mais](archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 
@@ -171,17 +171,17 @@ Saiba mais sobre tentativas em [esta seção](retries.md).
 >title="Visualizar parâmetros de rastreamento do URL"
 >abstract="Analise como os parâmetros de rastreamento serão anexados aos URLs presentes no seu conteúdo de email."
 
-Você pode usar **[!UICONTROL URL tracking parameters]** para medir a eficácia de seus esforços de marketing em todos os canais. Este recurso é opcional.
+Você pode usar **[!UICONTROL Parâmetros de rastreamento de URL]** para medir a eficácia de seus esforços de marketing em todos os canais. Este recurso é opcional.
 
 Os parâmetros definidos nesta seção serão anexados ao final dos URLs incluídos no conteúdo da mensagem de email. Em seguida, você pode capturar esses parâmetros em ferramentas de análise da Web, como Adobe Analytics ou Google Analytics, e criar vários relatórios de desempenho.
 
 <!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-Você pode adicionar até 10 parâmetros de rastreamento usando a variável **[!UICONTROL Add new parameter]** botão.
+Você pode adicionar até 10 parâmetros de rastreamento usando a variável **[!UICONTROL Adicionar novo parâmetro]** botão.
 
 ![](assets/preset-url-tracking.png)
 
-Para configurar um parâmetro de rastreamento de URL, você pode inserir diretamente os valores desejados no **[!UICONTROL Name]** e **[!UICONTROL Value]** campos.
+Para configurar um parâmetro de rastreamento de URL, você pode inserir diretamente os valores desejados no **[!UICONTROL Nome]** e **[!UICONTROL Valor]** campos.
 
 <!--You can also choose from a list of predefined values by navigating to the following objects:
 * Journey attributes: **Source id**, **Source name**, **Source version id**
@@ -194,13 +194,13 @@ Para configurar um parâmetro de rastreamento de URL, você pode inserir diretam
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-Também é possível editar cada **[!UICONTROL Value]** usando o [Editor de expressão](../personalization/personalization-build-expressions.md). Clique no ícone de edição para abrir o editor. A partir daí, é possível selecionar os atributos contextuais de sua escolha e/ou editar diretamente o texto.
+Também é possível editar cada **[!UICONTROL Valor]** usando o [Editor de expressão](../personalization/personalization-build-expressions.md). Clique no ícone de edição para abrir o editor. A partir daí, é possível selecionar os atributos contextuais de sua escolha e/ou editar diretamente o texto.
 
 ![](assets/preset-url-tracking-editor.png)
 
 >[!NOTE]
 >
->É possível combinar a digitação de valores de texto e o uso de atributos contextuais no Editor de expressão. Cada **[!UICONTROL Value]** pode conter até 255 caracteres no total.
+>É possível combinar a digitação de valores de texto e o uso de atributos contextuais no Editor de expressão. Cada **[!UICONTROL Valor]** pode conter até 255 caracteres no total.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

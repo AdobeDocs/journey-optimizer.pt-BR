@@ -4,10 +4,10 @@ description: Saiba como usar conjuntos de dados do Adobe Experience Platform no 
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
+source-git-commit: 4cf9a45ee9cc7169d060799de7d1ea128caa140f
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 8%
+source-wordcount: '820'
+ht-degree: 7%
 
 ---
 
@@ -33,12 +33,30 @@ Por padrão, somente os conjuntos de dados assimilados são exibidos. Se quiser 
 
 Selecione o nome de um conjunto de dados para acessar a tela de atividade do Conjunto de dados e ver os detalhes do conjunto de dados selecionado. A guia activity inclui um gráfico que visualiza a taxa de mensagens que estão sendo consumidas, bem como uma lista de lotes bem-sucedidos e com falha.
 
+Estes são os diferentes conjuntos de dados disponíveis:
+
+**Relatórios**
+
+* _Relatório - Conjunto de dados do evento de feedback de mensagem_: Logs do delivery de mensagens. Informações sobre todo o delivery de mensagens do Journey Optimizer para fins de criação de relatórios e segmentos. Os comentários dos ISPs de email sobre devoluções também são registrados neste conjunto de dados.
+* _Relatórios - Conjunto de dados de eventos de experiência de rastreamento de email_: Logs de interação para o canal de email usado para fins de criação de relatórios e segmentos. As informações armazenadas informam as ações executadas pelo usuário final no email (aberturas, cliques, etc.).
+* _Relatórios - Conjunto de dados do evento de experiência de rastreamento de push_: Logs de interação para o canal de push usado para fins de criação de relatórios e segmentos. As informações armazenadas informam as ações executadas pelo usuário final nas notificações por push.
+* _Relatórios - Evento de etapa do Jornada_: Captura Todos os eventos de experiência em etapas do Jornada gerados no Journey Optimizer para serem consumidos por serviços como Relatórios. Também é essencial para criar relatórios no Customer Journey Analytics para análise YoY. Vinculado a um Metadado de Jornada.
+* _Relatórios - Jornadas_: Informações de hospedagem do conjunto de dados de metadados de cada etapa em uma jornada.
+* _Relatórios - Cco_: Conjunto de dados de evento de feedback que armazena os logs do delivery para emails CCO. A ser usado para fins de relatório.
+
+**Consentimento**
+
+* _Conjunto de dados do serviço de consentimento_: armazena informações de consentimento de um perfil.
+
+**Serviços inteligentes**
+
+* _Pontuações de otimização por tempo de envio/Pontuações de engajamento_: Pontuações de saída do Jornada AI.
+
 ## Visualizar conjuntos de dados{#preview-datasets}
 
 Na tela de atividade do Conjunto de dados, selecione **Visualizar conjunto de dados** próximo ao canto superior direito da tela para visualizar o lote bem-sucedido mais recente nesse conjunto de dados. Quando um conjunto de dados está vazio, o link de visualização é desativado.
 
 ![](assets/dataset-preview.png)
-
 
 ## Criar conjuntos de dados{#create-datasets}
 
@@ -67,7 +85,7 @@ Saiba mais sobre Governança de dados e rótulos de uso de dados no [Documentaç
 
 Saiba como criar um esquema, um conjunto de dados e assimilar dados para adicionar perfis de teste no Adobe Journey Optimizer em [esta amostra completa](../segment/creating-test-profiles.md)
 
-Saiba mais sobre a criação de conjunto de dados em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
+Saiba mais sobre a criação de conjunto de dados em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 Saiba como usar a interface do usuário de conjuntos de dados no [Documentação de visão geral da Ingestão de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 

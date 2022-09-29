@@ -2,16 +2,29 @@
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
+workflow-type: tm+mt
+source-wordcount: '2002'
+ht-degree: 94%
 
 ---
 
 # Atualizações de documentação {#latest-updates}
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
+
+## Setembro de 2022 {#september-2022}
+
+* Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 22 de setembro foi detalhada na documentação. [Leia mais](release-notes.md)
+* Adição de uma prática recomendada relacionada ao uso de atividades de espera em jornadas de segmentos de leitura recorrentes. [Leia mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Adição de novos exemplos de consulta de evento de etapa, bem como informações sobre a diferença entre id, instanceid e profileid. [Leia mais](../reports/query-examples.md).
+* Atualização das páginas relacionadas ao [toDateOnly](../building-journeys/functions/functiontodateonly.md) e [toString](../building-journeys/functions/functiontostring.md) funções.
+* Adição de detalhes sobre os parâmetros da condição de tempo. [Leia mais](../building-journeys/condition-activity.md#time_condition)
+* Adição de informações sobre conjuntos de dados incorporados. [Leia mais](../start/get-started-datasets.md#access-datasets)
+* As seções Relatório global e Relatório ao vivo foram reorganizadas para melhorar a legibilidade. [Leia mais](../reports/global-report.md)
+* Uma lista de cada métrica de relatório disponível no Adobe Journey Optimizer foi adicionada.
+   [Leia mais](../reports/global-report.md#email-and-sms-metrics)
+* A seção de email CCO foi movida para a nova página Suporte para arquivamento . [Leia mais](../configuration/archiving-support.md)
 
 ## Agosto de 2022 {#august-2022}
 

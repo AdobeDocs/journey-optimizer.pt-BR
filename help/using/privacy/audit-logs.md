@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 2f89b3a2e067d269a6316ae26d280924a530fe51
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 97%
 
 ---
 
@@ -34,6 +34,7 @@ A tabela a seguir descreve quais ações, em quais recursos do Journey Optimizer
 
 | Recurso | Ação |
 |-----------|------------------|
+| Campanha AJO | Criar / Excluir / Atualizar / Ativar / Parar |
 | Configuração geral do canal do AJO | Criar / Excluir / Atualizar |
 | Pool de IP do AJO | Criar / Excluir / Atualizar |
 | Páginas de destino do AJO | Criar / Excluir / Atualizar / Publicar / Desfazer a publicação |
@@ -41,7 +42,7 @@ A tabela a seguir descreve quais ações, em quais recursos do Journey Optimizer
 | Predefinição da página de destino do AJO | Criar / Excluir / Atualizar |
 | Subdomínio da página de destino do AJO | Criar / Excluir / Atualizar |
 | Mensagens do AJO | Criar / Excluir / Atualizar / Publicar |
-| Superfície de canal do AJO | Criar / Excluir / Atualizar |
+| Predefinição de mensagem do AJO | Criar / Excluir / Atualizar |
 | Registro PTR do AJO | Criar / Excluir / Atualizar |
 | Modelo de expressão salva do AJO | Criar / Excluir / Atualizar |
 | Credenciais da API de SMS do AJO | Criar / Excluir / Atualizar |

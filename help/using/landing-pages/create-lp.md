@@ -1,14 +1,14 @@
 ---
-title: Criar uma página de aterrissagem
+title: Criar uma página de destino
 description: Saiba como configurar e publicar uma landing page no Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1469'
 ht-degree: 2%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 2%
 
 ## Acessar landing pages {#access-landing-pages}
 
-Para acessar a lista de landing pages, selecione **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** no menu esquerdo.
+Para acessar a lista de landing pages, selecione **[!UICONTROL Gerenciamento de jornadas]** > **[!UICONTROL Landing pages]** no menu esquerdo.
 
 ![](assets/lp_access-list.png)
 
-O **[!UICONTROL Landing Pages]** exibe todos os itens criados. Você pode filtrá-los com base em seu status ou data de modificação.
+O **[!UICONTROL Páginas de aterrissagem]** exibe todos os itens criados. Você pode filtrá-los com base em seu status ou data de modificação.
 
 ![](assets/lp_access-list-filter.png)
 
@@ -31,7 +31,7 @@ Também é possível excluir, duplicar e desfazer a publicação de uma landing 
 
 >[!CAUTION]
 >
->Se você cancelar a publicação de uma landing page referenciada em uma mensagem não publicada, o link para a landing page será quebrado e uma página de erro será exibida.
+>Se você cancelar a publicação de uma landing page referenciada em uma mensagem, o link para a landing page será quebrado e uma página de erro será exibida.
 
 Clique nos três pontos ao lado de uma página de aterrissagem para selecionar a ação desejada.
 
@@ -39,13 +39,20 @@ Clique nos três pontos ao lado de uma página de aterrissagem para selecionar a
 
 >[!NOTE]
 >
->Não é possível excluir uma landing page publicada. Para excluí-lo, é necessário cancelar a publicação primeiro.
+>Não é possível excluir um [publicado](#publish-landing-page) página de aterrissagem. Para excluí-lo, é necessário cancelar a publicação primeiro.
 
-## Criar uma página de aterrissagem {#create-landing-page}
+## Criar uma página de destino {#create-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_create"
+>title="Definir e configurar a landing page"
+>abstract="Para criar uma landing page, você precisa selecionar uma predefinição, configurar a página primária e as subpáginas e, finalmente, testar sua página antes de publicá-la."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de aterrissagem"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Publicar a landing page"
 
 As etapas para criar uma landing page são as seguintes.
 
-1. Na lista de landing page, clique em **[!UICONTROL Create landing page]**.
+1. Na lista de landing page, clique em **[!UICONTROL Criar página de aterrissagem]**.
 
    ![](assets/lp_create-lp.png)
 
@@ -53,11 +60,15 @@ As etapas para criar uma landing page são as seguintes.
 
    ![](assets/lp_create-lp-details.png)
 
+1. Para atribuir rótulos de uso de dados personalizados ou principais à página inicial, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o Controle de Acesso no Nível do Objeto (OLAC)](../administration/object-based-access.md)
+
+   <!--You can add a tag. See AEP documentation?-->
+
 1. Selecione uma predefinição. Saiba como criar predefinições de página de aterrissagem em [esta seção](../configuration/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
-1. Clique em **[!UICONTROL Create]**.
+1. Clique em **[!UICONTROL Criar]**.
 
 1. A página primária e suas propriedades são exibidas. Saiba como definir as configurações da página primária [here](#configure-primary-page).
 
@@ -71,11 +82,24 @@ Depois de configurar e projetar o [página primária](#configure-primary-page)e 
 
 ## Configurar a página primária {#configure-primary-page}
 
+>[!CONTEXTUALHELP]
+>id="ajo_lp_primary_page"
+>title="Definir as configurações da página primária"
+>abstract="A página primária é exibida imediatamente aos usuários depois que eles clicam no link de sua página inicial, como de um email ou de um site."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Criar o conteúdo da página de aterrissagem"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_settings"
+>title="Definir o URL da página de aterrissagem"
+>abstract="Nesta seção, defina um URL de página de aterrissagem exclusivo. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem como parte da predefinição selecionada."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Configurar subdomínios de página de destino"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de aterrissagem"
+
 A página primária é a página que é imediatamente exibida aos usuários depois que eles clicam no link de sua página inicial, como de um email ou de um site.
 
 Para definir as configurações da página primária, siga as etapas abaixo.
 
-1. Você pode alterar o nome da página, que é **[!UICONTROL Primary page]** por padrão.
+1. Você pode alterar o nome da página, que é **[!UICONTROL Página principal]** por padrão.
 
 1. Edite o conteúdo da sua página usando o designer de conteúdo. Saiba como definir o conteúdo da página de aterrissagem [here](design-lp.md).
 
@@ -93,7 +117,7 @@ Para definir as configurações da página primária, siga as etapas abaixo.
    >
    >Não é possível acessar a landing page simplesmente copiando e colando esse URL em um navegador da Web, mesmo se publicado. Em vez disso, você pode testá-lo usando a função de visualização, como descrito em [esta seção](#test-landing-page).
 
-1. Se desejar que a landing page pré-carregue os dados do formulário que já estão disponíveis, selecione a variável **[!UICONTROL Pre-fill form fields with profile information]**.
+1. Se desejar que a landing page pré-carregue os dados do formulário que já estão disponíveis, selecione a variável **[!UICONTROL Preencher previamente campos de formulário com informações de perfil]**.
 
    ![](assets/lp_prefill-form-fields.png)
 
@@ -105,15 +129,17 @@ Para definir as configurações da página primária, siga as etapas abaixo.
 
 1. Você pode definir uma data de expiração para sua página. Nesse caso, você deve selecionar uma ação ao expirar a página:
 
-   * **[!UICONTROL Redirect URL]**: Insira o URL da página para a qual os usuários serão redirecionados quando a página expirar.
-   * **[!UICONTROL Custom page]**: [Configurar uma subpágina](#configure-subpages) e selecione-o na lista suspensa que é exibida.
-   * **[!UICONTROL Browser error]**: Digite o texto do erro que será exibido em vez da página.
+   * **[!UICONTROL Redirecionar URL]**: Insira o URL da página para a qual os usuários serão redirecionados quando a página expirar.
+   * **[!UICONTROL Página personalizada]**: [Configurar uma subpágina](#configure-subpages) e selecione-o na lista suspensa que é exibida.
+   * **[!UICONTROL Erro do navegador]**: Digite o texto do erro que será exibido em vez da página.
 
    ![](assets/lp_expiry-date.png)
 
-   <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
+1. No **[!UICONTROL Dados adicionais]** , defina uma ou mais chaves e seus valores de parâmetro correspondentes. Você poderá aproveitar essas chaves no conteúdo da página primária e das subpáginas usando o [Editor de expressão](../personalization/personalization-build-expressions.md). Saiba mais [nesta seção](lp-content.md#use-form-component#use-additional-data).
 
-1. Se você selecionou uma ou mais listas de assinaturas ao [criação da página primária](design-lp.md), são exibidos na variável **[!UICONTROL Subscription list]** seção.
+   ![](assets/lp_create-lp-additional-data.png)
+
+1. Se você selecionou uma ou mais listas de assinaturas ao [criação da página primária](design-lp.md), são exibidos na variável **[!UICONTROL Lista de assinaturas]** seção.
 
    ![](assets/lp_subscription-list.png)
 
@@ -121,15 +147,28 @@ Para definir as configurações da página primária, siga as etapas abaixo.
 
    ![](assets/lp_create-journey.png)
 
-   Clique em **[!UICONTROL Create journey]** para ser redirecionado para o **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** lista.
+   Clique em **[!UICONTROL Criar jornada]** para ser redirecionado para o **[!UICONTROL Gerenciamento de jornadas]** > **[!UICONTROL Jornada]** lista.
 
 ## Configurar subpáginas {#configure-subpages}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_subpage"
+>title="Definir as configurações de subpágina"
+>abstract="É possível adicionar até 2 subpáginas. Por exemplo, você pode criar uma página de &#39;agradecimento&#39; que será exibida depois que os usuários enviarem o formulário e você pode definir uma página de erro que será chamada se ocorrer um problema com a landing page."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Criar o conteúdo da página de aterrissagem"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_settings-subpage"
+>title="Definir o URL da página de aterrissagem"
+>abstract="Nesta seção, defina um URL de página de aterrissagem exclusivo. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem como parte da predefinição selecionada."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Configurar subdomínios de página de destino"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de aterrissagem"
 
 É possível adicionar até 2 subpáginas. Por exemplo, você pode criar uma página de &#39;agradecimento&#39; que será exibida depois que os usuários enviarem o formulário e você pode definir uma página de erro que será chamada se ocorrer um problema com a landing page.
 
 Para definir as configurações de subpágina, siga as etapas abaixo.
 
-1. Você pode alterar o nome da página, que é **[!UICONTROL Subpage 1]** por padrão.
+1. Você pode alterar o nome da página, que é **[!UICONTROL Subpágina 1]** por padrão.
 
 1. Edite o conteúdo da sua página usando o designer de conteúdo. Saiba como definir o conteúdo da página de aterrissagem [here](design-lp.md).
 
@@ -153,21 +192,21 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 >
 >Você deve ter perfis de teste disponíveis para visualizar suas mensagens e enviar provas. Saiba como [criar perfis de teste](../segment/creating-test-profiles.md).
 
-1. Na interface da landing page, clique no link **[!UICONTROL Preview & test]** para acessar a seleção de perfil de teste.
+1. Na interface da landing page, clique no link **[!UICONTROL Visualizar e testar]** para acessar a seleção de perfil de teste.
 
    ![](assets/lp_preview-button.png)
 
    >[!NOTE]
    >
-   >O **[!UICONTROL Preview]** também é acessível no designer de conteúdo.
+   >O **[!UICONTROL Visualizar]** também é acessível no designer de conteúdo.
 
-1. No **[!UICONTROL Preview & test]** selecione um ou mais perfis de teste.
+1. No **[!UICONTROL Visualizar e testar]** selecione um ou mais perfis de teste.
 
    ![](assets/lp_test-profiles.png)
 
    As etapas para selecionar perfis de teste são as mesmas que ao testar uma mensagem. Eles são detalhados [nesta seção](../design/preview.md#select-test-profiles).
 
-1. Selecione o **[!UICONTROL Preview]** e clique em **[!UICONTROL Open preview]** para testar sua landing page.
+1. Selecione o **[!UICONTROL Visualizar]** e clique em **[!UICONTROL Abrir visualização]** para testar sua landing page.
 
    ![](assets/lp_open-preview.png)
 
@@ -226,7 +265,7 @@ Quando a landing page estiver pronta, você poderá publicá-la para disponibili
 >
 >Antes de publicar, verifique e resolva os alertas. [Saiba mais](#check-alerts)
 
-Depois que a landing page é publicada, ela é adicionada à lista de landing page com a variável **[!UICONTROL Published]** status.
+Depois que a landing page é publicada, ela é adicionada à lista de landing page com a variável **[!UICONTROL Publicado]** status.
 
 Agora ele está ativo e pronto para ser usado em um [!DNL Journey Optimizer] [message](../messages/get-started-content.md) que será enviado por meio de um [jornada](../building-journeys/journey.md).
 

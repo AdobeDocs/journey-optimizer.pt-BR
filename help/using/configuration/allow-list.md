@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: 50f6b965b50b1ffe4dab9102657d43888cb6d5ea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1031'
+ht-degree: 2%
 
 ---
 
@@ -158,7 +158,7 @@ Saiba mais sobre como fazer chamadas de API no [APIs do Adobe Experience Platfor
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="Gerenciar a lista de permissões"
->abstract="Quando a lista de permissões for ativada, somente os recipients incluídos na lista de permissões receberão mensagens de email dessa sandbox."
+>abstract="Quando a lista de permissões for ativada, somente os recipients incluídos na lista de permissões receberão mensagens de email dessa sandbox. Quando desativado, todos os recipients receberão emails."
 
 Quando a lista de permissões for [ative](#enable-allow-list), aplica-se a seguinte lógica:
 

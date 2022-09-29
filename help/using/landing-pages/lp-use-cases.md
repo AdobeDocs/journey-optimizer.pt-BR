@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 13a2bbcb0fb9bfb60e79bc3444d2a1b9f0b37627
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 17%
+source-wordcount: '913'
+ht-degree: 16%
 
 ---
 
@@ -53,7 +53,7 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
 1. [Criar o email](../messages/get-started-content.md) para anunciar que o registro agora está aberto para o seu evento.
 
-1. [Inserir um link](../design/message-tracking.md#insert-links) no conteúdo da mensagem. Selecionar **[!UICONTROL Landing page]** como **[!UICONTROL Link type]** e escolha a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para registro.
+1. [Inserir um link](../design/message-tracking.md#insert-links) no conteúdo da mensagem. Selecionar **[!UICONTROL Página de aterrissagem]** como **[!UICONTROL Tipo de link]** e escolha a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para registro.
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -67,13 +67,13 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
 Além disso, você pode enviar um email de confirmação para os recipients que se registraram para o seu evento. Para isso, siga as etapas abaixo.
 
-1. Criar outro [jornada](../building-journeys/journey.md). Você pode fazer isso diretamente da landing page clicando no link **[!UICONTROL Create journey]** botão. Saiba mais [aqui](create-lp.md#configure-primary-page)
+1. Criar outro [jornada](../building-journeys/journey.md). Você pode fazer isso diretamente da landing page clicando no link **[!UICONTROL Criar jornada]** botão. Saiba mais [aqui](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Expanda a **[!UICONTROL Events]** categoria e solte uma **[!UICONTROL Segment Qualification]** atividade na tela. Saiba mais [aqui](../building-journeys/segment-qualification-events.md)
+1. Expanda a **[!UICONTROL Eventos]** categoria e solte uma **[!UICONTROL Qualificação do segmento]** atividade na tela. Saiba mais [aqui](../building-journeys/segment-qualification-events.md)
 
-1. Clique no botão **[!UICONTROL Segment]** e selecione a lista de subscrição criada.
+1. Clique no botão **[!UICONTROL Segmento]** e selecione a lista de subscrição criada.
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
@@ -108,7 +108,7 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
 1. Defina a página primária. [Saiba mais](create-lp.md#configure-primary-page)
 
-1. [Design](design-lp.md) o conteúdo principal da página: usar a página de aterrissagem específica **[!UICONTROL Form]** , defina um **[!UICONTROL Opt-out]** e escolha atualizar **[!UICONTROL Channel (email)]**: o perfil que marcar a caixa de opção de não participação na página de aterrissagem será rejeitado em todas as suas comunicações.
+1. [Design](design-lp.md) o conteúdo principal da página: usar a página de aterrissagem específica **[!UICONTROL Formulário]** , defina um **[!UICONTROL Recusar]** e escolha atualizar **[!UICONTROL Canal (email)]**: o perfil que marcar a caixa de opção de não participação na página de aterrissagem será rejeitado em todas as suas comunicações.
 
    ![](assets/lp_opt-out-primary-lp.png)
 
@@ -120,7 +120,7 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
    >[!NOTE]
    >
-   >Certifique-se de fazer referência à subpágina no **[!UICONTROL Call to action]** da seção **[!UICONTROL Form]** componente. [Saiba mais](design-lp.md)
+   >Certifique-se de fazer referência à subpágina no **[!UICONTROL Chamada à ação]** da seção **[!UICONTROL Formulário]** componente. [Saiba mais](design-lp.md)
 
 1. Após configurar e definir o conteúdo de suas páginas, [publicar](create-lp.md#publish) a landing page.
 
@@ -132,7 +132,7 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
    ![](assets/lp_opt-out-insert-link.png)
 
-1. Selecionar **[!UICONTROL Landing page]** do **[!UICONTROL Link type]** e selecione a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para rejeitar.
+1. Selecionar **[!UICONTROL Página de aterrissagem]** do **[!UICONTROL Tipo de link]** e selecione a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para rejeitar.
 
    ![](assets/lp_opt-out-landing-page.png)
 
@@ -156,7 +156,7 @@ Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Ex
 
 ![](assets/lp_opt-out-profile-choice.png)
 
-No **[!UICONTROL Attributes]** , você pode ver que o valor de **[!UICONTROL choice]** mudou para **[!UICONTROL no]**.
+No **[!UICONTROL Atributos]** , você pode ver que o valor de **[!UICONTROL choice]** mudou para **[!UICONTROL não]**.
 
 <!--
 
@@ -171,4 +171,60 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 * **Unsubscribe link in header**
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-header)
--->
+
+////////
+
+
+## Leverage landing page submission event {#leverage-lp-event}
+
+You can use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.
+
+To do this, you need to create an event containing the landing page submission information and use it in a journey. Follow the steps below.
+
+1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**, and in the **[!UICONTROL Events]** section, select **[!UICONTROL Manage]**.
+
+    ![](assets/lp_subscription-uc-configurations.png)
+
+1. The list of events displays. Select **[!UICONTROL Create Event]**.
+
+    ![](assets/lp_subscription-uc-create-event.png)
+
+1. The event configuration pane opens on the right side of the screen. Configure a rule-based unitary event. [Learn more](../event/about-creating.md)
+
+1. Define the schema: select **[!UICONTROL AJO Email Tracking Experience Event Schema v.1]** (available by default in [!DNL Journey Optimizer]).
+
+    ![](assets/lp_subscription-uc-event-schema.png)
+
+1. In the **[!UICONTROL Fields]** section, select the following elements:
+
+    * **[!UICONTROL _experience]** > **[!UICONTROL customerJourneyManagement]** > **[!UICONTROL messageInteraction]** > **[!UICONTROL Interaction Type]**
+    
+    * **[!UICONTROL _experience]** > **[!UICONTROL customerJourneyManagement]** > **[!UICONTROL messageInteraction]** > **[!UICONTROL Landing Page Details]** > **[!UICONTROL Landing Page ID]**
+
+    ![](assets/lp_subscription-uc-event-fields.png)
+
+1. Click inside the **[!UICONTROL Event ID condition]** field. Using the simple expression editor, define the condition for the **[!UICONTROL Interaction Type]** and **[!UICONTROL Landing Page ID]** fields. This will be used by the system to identify the events that will trigger your journey.
+
+    ![](assets/lp_subscription-uc-event-id-condition.png)
+
+    >[!NOTE]
+    >
+    >To find the landing page ID, you can insert the landing page as a link into an email and select the source code from the contextual toolbar to display the landing page information.
+    >
+    >![](assets/lp_subscription-uc-lp-id.png)
+
+1. Save your changes.
+
+1. Create a [journey](../building-journeys/journey.md). You can do it directly from the landing page by clicking the **[!UICONTROL Create journey]** button. Learn more [here](create-lp.md#configure-primary-page)
+
+    ![](assets/lp_subscription-uc-event-create-journey.png)
+
+1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/segment-qualification-events.md)
+
+    ![](assets/lp_subscription-uc-journey-event.png)
+
+1. Unfold the **[!UICONTROL Actions]** category and drop an email action into the canvas.
+
+    ![](assets/lp_subscription-uc-journey-email.png)
+
+///How do you use the information from the event to send an email to the users? -->

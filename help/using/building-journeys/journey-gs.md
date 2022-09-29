@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 10%
+source-wordcount: '1147'
+ht-degree: 11%
 
 ---
 
@@ -46,11 +46,11 @@ Essa etapa é executada pela **usuário empresarial**. É aqui que você cria su
 
 Estas são as principais etapas para enviar mensagens por meio do jornada:
 
-1. Na seção do menu GERENCIAMENTO DE JORNADAS , clique em **[!UICONTROL Journeys]**. A lista de jornadas é exibida.
+1. Na seção do menu GERENCIAMENTO DE JORNADAS , clique em **[!UICONTROL Jornada]**. A lista de jornadas é exibida.
 
    ![](assets/interface-journeys.png)
 
-1. Clique em **[!UICONTROL Create Journey]** para criar uma nova jornada.
+1. Clique em **[!UICONTROL Criar Jornada]** para criar uma nova jornada.
 
 1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Saiba mais nesta [seção](journey-gs.md#change-properties).
 
@@ -81,7 +81,7 @@ Estas são as principais etapas para enviar mensagens por meio do jornada:
 
 Clique no ícone de lápis, na parte superior direita para acessar as propriedades da jornada.
 
-Você pode alterar o nome da jornada, adicionar uma descrição, permitir nova entrada, escolher datas de início e término e, como um usuário administrador, definir uma **[!UICONTROL Timeout and error]** duração. Se estiver habilitado para sua organização, você também poderá ativar [mensagem de explosão](#burst).
+Você pode alterar o nome da jornada, adicionar uma descrição, permitir nova entrada, escolher datas de início e término e, como um usuário administrador, definir uma **[!UICONTROL Tempo limite e erro]** duração.
 
 Para jornadas ao vivo, essa tela exibe a data da publicação e o nome do usuário que publicou a jornada.
 
@@ -93,17 +93,21 @@ O **Copiar detalhes técnicos** O permite copiar informações técnicas sobre a
 
 Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção por jornadas de &quot;uma ocorrência&quot;, por exemplo, se quiser oferecer um presente único quando uma pessoa entrar em uma loja. Nesse caso, você não deseja que o cliente possa entrar novamente na jornada e receber a oferta novamente.
 
-Quando uma jornada &quot;terminar&quot;, ela terá o status **[!UICONTROL Closed]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. Pessoas que já estão na jornada vão terminar a jornada normalmente.
+Quando uma jornada &quot;terminar&quot;, ela terá o status **[!UICONTROL Fechado]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. Pessoas que já estão na jornada vão terminar a jornada normalmente.
 
 Após o tempo limite global padrão de 30 dias, a jornada será alternada para a variável **Concluído** status. Veja isso [seção](../building-journeys/journey-gs.md#global_timeout).
 
+>[!NOTE]
+>
+>As jornadas Unitárias (começando com um evento ou uma qualificação de segmento) incluem uma garantia que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. A reentrada do perfil é temporariamente bloqueada por padrão por 5 minutos. Por exemplo, se um evento acionar uma jornada às 12:01 para um perfil específico e outra chegar às 12:03 (se for o mesmo evento ou outro acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
+
 ### Tempo limite e erro nas atividades do jornada {#timeout_and_error}
 
-Ao editar uma ação ou atividade de condição, você pode definir um caminho alternativo em caso de erro ou tempo limite. Se o tratamento da atividade de interrogação de um sistema de terceiros exceder o tempo limite definido nas propriedades da jornada (**[!UICONTROL Timeout and  error]** ), o segundo caminho será escolhido para executar uma ação de fallback potencial.
+Ao editar uma ação ou atividade de condição, você pode definir um caminho alternativo em caso de erro ou tempo limite. Se o tratamento da atividade de interrogação de um sistema de terceiros exceder o tempo limite definido nas propriedades da jornada (**[!UICONTROL Tempo limite e erro]** ), o segundo caminho será escolhido para executar uma ação de fallback potencial.
 
 Os valores autorizados estão entre 1 e 30 segundos.
 
-Recomendamos que você defina uma **[!UICONTROL Timeout and error]** se sua jornada for sensível ao tempo (por exemplo: reação ao local em tempo real de uma pessoa) porque não é possível atrasar a ação por mais de alguns segundos. Se sua jornada for menos sensível ao tempo, você poderá usar um valor mais longo para dar mais tempo ao sistema chamado para enviar uma resposta válida.
+Recomendamos que você defina uma **[!UICONTROL Tempo limite e erro]** se sua jornada for sensível ao tempo (por exemplo: reação ao local em tempo real de uma pessoa) porque não é possível atrasar a ação por mais de alguns segundos. Se sua jornada for menos sensível ao tempo, você poderá usar um valor mais longo para dar mais tempo ao sistema chamado para enviar uma resposta válida.
 
 O Jornada também usa um tempo limite global. Consulte a [próxima seção](#global_timeout).
 
@@ -127,31 +131,8 @@ Se um fuso horário for definido no perfil do Adobe Experience Platform, ele pod
 
 Para obter mais informações sobre o gerenciamento de fuso horário, consulte [esta página](../building-journeys/timezone-management.md).
 
-### Modo de interrupção {#burst}
+### Gerenciar acesso {#access}
 
-O modo Burst é um complemento Journey Optimizer que permite o envio muito rápido de mensagens de push em grandes volumes. É usado para jornadas simples que incluem um **Ler segmento** e uma mensagem de push simples. O Burst é usado quando o atraso na entrega de mensagens é essencial para os negócios, quando você deseja enviar um alerta por push urgente em telefones celulares, por exemplo, uma notícia de última hora para os usuários que instalaram seu aplicativo de canal de notícias.
+Para atribuir rótulos de uso de dados personalizados ou principais à jornada, clique no botão **[!UICONTROL Gerenciar acesso]** botão. [Saiba mais sobre o Controle de acesso no nível do objeto (OLA)](../administration/object-based-access.md)
 
-As mensagens de interrupção são fornecidas com os seguintes requisitos:
-
-* A jornada deve começar com um **Ler segmento** atividade . Eventos não são permitidos.
-* A próxima etapa deve ser uma mensagem de push. Nenhum outro canal, atividade ou etapa é permitido.
-* Nenhuma personalização é permitida na mensagem de push.
-* A mensagem deve ser pequena (&lt;2KB).
-
->[!CAUTION]
->
->Se algum dos requisitos não for cumprido, o modo burst não estará disponível na jornada.
-
-Para ativar **Modo de interrupção**, abra a jornada e clique no ícone de lápis, na parte superior direita, para acessar as propriedades da jornada. Em seguida, ative o **Ativar modo de explosão** alternar.
-
-![](assets/burst.png)
-
-O modo de burst é desativado automaticamente se você modificar uma jornada de burst e adicionar uma atividade que não esteja em conformidade com as mensagens de burst, como uma mensagem de email, qualquer outra ação, um evento etc.
-
-![](assets/burst2.png)
-
-Em seguida, teste e publique sua jornada como de costume. Observe que, no modo de teste, as mensagens não são enviadas por meio do modo burst.
-
-Entenda os casos de uso aplicáveis para mensagens de interrupção e como configurar uma jornada para mensagens de interrupção, neste vídeo:
-
->[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
+![](assets/journeys-manage-access.png)

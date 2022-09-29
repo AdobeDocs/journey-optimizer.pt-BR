@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
+source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1571'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Com [!DNL Journey Optimizer], é possível configurar superfícies do canal (ou 
 > * Você deve executar o [Configuração de email](#configure-email-settings), [Configuração por push](../configuration/push-configuration.md) e [Configuração de SMS](../configuration/sms-configuration.md) etapas antes de criar superfícies de canal.
 
 
-Depois que as superfícies do canal forem configuradas, você poderá selecioná-las ao criar mensagens de uma jornada.
+Depois que as superfícies do canal forem configuradas, você poderá selecioná-las ao criar mensagens de uma jornada ou campanha.
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
@@ -35,14 +35,12 @@ Depois que as superfícies do canal forem configuradas, você poderá selecioná
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Configurações de superfície do canal"
->abstract="Ao configurar uma superfície de canal, selecione o canal ao qual ele se aplica e defina todos os parâmetros técnicos necessários para suas mensagens, como tipo de email, subdomínio, nome do remetente, aplicativos móveis, configuração de SMS e muito mais."
+>abstract="Ao configurar uma superfície de canal, selecione o canal ao qual ele se aplica e defina todos os parâmetros técnicos necessários para seu envio, como tipo de email, nome do remetente, aplicativos móveis, configuração de SMS e muito mais."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Configurações de superfície do canal"
->abstract="Ao configurar uma superfície de canal, selecione o canal ao qual ele se aplica e defina todos os parâmetros técnicos necessários para suas mensagens, como tipo de email, nome do remetente, aplicativos móveis, configuração de SMS e muito mais."
-
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
+>abstract="Para criar ações, como emails de uma jornada ou campanha, primeiro crie uma superfície de canal que defina todas as configurações técnicas necessárias para suas mensagens. Você deve ter a permissão Gerenciar superfície do canal para criar, editar e excluir superfícies do canal."
 
 Para criar uma superfície de canal, siga estas etapas:
 
@@ -90,7 +88,10 @@ Para criar uma superfície de canal, siga estas etapas:
 
 1. Depois que a superfície do canal for criada, ela será exibida na lista com a variável **[!UICONTROL Processamento]** status.
 
-   Durante essa etapa, várias verificações serão executadas para verificar se foram configuradas corretamente. O tempo de processamento está por vir **48h-72h** e pode **7 a 10 dias úteis**.
+   Durante essa etapa, várias verificações serão executadas para verificar se foram configuradas corretamente. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+
+   >[!NOTE]
+   >Ao criar a primeira superfície de canal para um determinado subdomínio, o tempo de processamento pode demorar **10 minutos a 10 dias**. Se o subdomínio selecionado já estiver sendo usado em outra superfície, levará apenas 3 horas.
 
    Essas verificações incluem testes técnicos e de configuração realizados pela equipe de Adobe:
 
@@ -101,6 +102,7 @@ Para criar uma superfície de canal, siga estas etapas:
    * Verificação do anfitrião
    * Verificação de pool de IPs
    * Registro A/PTR, verificação de subdomínio t/m/res
+   * Registro FBL (essa verificação será executada somente na primeira vez que uma superfície de email for criada para um determinado subdomínio)
 
    >[!NOTE]
    >

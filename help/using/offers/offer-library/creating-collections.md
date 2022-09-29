@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 3%
+source-wordcount: '310'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ As coleções permitem organizar as ofertas, reagrupando-as em categorias de sua
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-A lista de coleções de ofertas pode ser acessada na variável **[!UICONTROL Offers]** menu.
+A lista de coleções de ofertas pode ser acessada na variável **[!UICONTROL Ofertas]** menu.
 
 ![](../assets/collections_list.png)
 
@@ -36,13 +36,13 @@ Você pode criar dois tipos de coleções:
 
 Para criar uma coleção, siga estas etapas:
 
-1. Vá para o **[!UICONTROL Collections]** e, em seguida, clique em **[!UICONTROL Create collection]**.
+1. Vá para o **[!UICONTROL Coleções]** e, em seguida, clique em **[!UICONTROL Criar coleção]**.
 
 1. Especifique o nome e o tipo de coleção a ser criada.
 
    ![](../assets/collection_create.png)
 
-1. Para criar uma coleção dinâmica, use o painel esquerdo para selecionar a tag das ofertas a serem adicionadas à coleção e clique em **[!UICONTROL Save]**. Todas as ofertas com a tag selecionada serão salvas na coleção.
+1. Para criar uma coleção dinâmica, use o painel esquerdo para selecionar a tag das ofertas a serem adicionadas à coleção e clique em **[!UICONTROL Salvar]**. Todas as ofertas com a tag selecionada serão salvas na coleção.
 
    Para obter mais informações sobre a criação de tags, consulte [Criar tags](../offer-library/creating-tags.md).
 
@@ -55,6 +55,8 @@ Para criar uma coleção, siga estas etapas:
    >[!NOTE]
    >
    >As coleções estáticas não são atualizadas automaticamente. Para adicionar ofertas a uma coleção estática, é necessário editá-la e adicioná-la manualmente.
+
+1. Para atribuir rótulos de uso de dados personalizados ou principais a uma coleção estática, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o Controle de Acesso no Nível do Objeto (OLAC)](../../administration/object-based-access.md)
 
 1. Depois que a coleção é criada, ela é exibida na lista. Você pode selecioná-lo para editá-lo ou excluí-lo.
 
