@@ -2,10 +2,10 @@
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3895b0d6a73c1618f417d28e971c5b3c9b89b4e
+source-git-commit: 056ff0d4532126e22884d73e92fb2e7d3a2319b9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '961'
+ht-degree: 19%
 
 ---
 
@@ -198,7 +198,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ### Outras alterações{#sept-2022-other}
 
-* O Modo de Burst do Jornada foi substituído pelo modo de delivery Campaign Rapid. [Saiba mais](../campaigns/create-campaign.md#rapid-delivery})
+* O Modo de Burst do Jornada foi substituído pelo modo de delivery Campaign Rapid. [Saiba mais](../campaigns/create-campaign.md#rapid-delivery)
 * Para melhorar o desempenho, os grupos de campos de evento da Experiência não podem mais ser usados em jornadas que começam com um segmento Lido, uma qualificação de Segmento ou uma atividade de evento comercial. Essa alteração se aplica somente a novas jornadas. Os existentes manterão o comportamento atual. [Saiba mais](../start/guardrails.md#expression-editor)
 * A limitação de 1 hora para jornadas de segmento de leitura programadas foi removida. Essas jornadas agora podem ser executadas sem atraso.
 
