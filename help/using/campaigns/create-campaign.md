@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: bb1a9b35ce93f9b0ba635a89e781856f19b7d655
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 9%
@@ -115,7 +115,6 @@ O modo de entrega rápida, anteriormente conhecido como modo Burst no jornada, �
 A entrega rápida é usada quando o atraso na entrega de mensagens é essencial para os negócios, quando você deseja enviar um alerta por push urgente em telefones celulares, por exemplo, uma notícia de última hora para os usuários que instalaram seu aplicativo de canal de notícias.
 
 Para obter mais informações sobre desempenho ao usar o modo Rapid delivery, consulte [Descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
-
 
 ### Pré-requisitos {#prerequisites}
 
