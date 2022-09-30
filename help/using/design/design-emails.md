@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 20%
+source-wordcount: '256'
+ht-degree: 18%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 20%
 
 * Encontrar **fotos do Adobe Stock** para criar seu conteúdo e melhorar o design de emails. [Saiba mais](../design/stock.md)
 
-* Melhore a experiência dos clientes criando mensagens personalizadas com base em seus atributos de perfil. [Saiba mais](../personalization/personalize.md)
+* Melhore a experiência dos clientes criando mensagens personalizadas e dinâmicas com base em seus atributos de perfil. Saiba mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md).
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
 Depois de [criou a mensagem](../messages/get-started-content.md), você pode começar a criar o conteúdo do email.
 
-1. Na mensagem recém-criada, selecione **[!UICONTROL Email designer]** no **[!UICONTROL Body]** seção.
+1. Na mensagem recém-criada, selecione **[!UICONTROL Designer de email]** no **[!UICONTROL Corpo]** seção.
 
    ![](assets/import-html_1.png)
 

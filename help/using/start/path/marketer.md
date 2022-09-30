@@ -3,10 +3,10 @@ title: Journey Optimizer - Introdução aos profissionais de marketing
 description: Como Jornada, aprenda mais sobre como trabalhar com a Journey Optimizer
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 8%
+source-wordcount: '453'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ Consulte as seguintes seções para configurar a primeira jornada, adicionar ofe
 
 1. **Criar segmentos**. O Journey Optimizer permite criar segmentos de público-alvo diretamente do **Segmentos** e aproveite-as em suas jornadas.  Saiba mais sobre segmentos [nesta página](../../segment/about-segments.md). Descubra como criar segmentos [nesta amostra](../../segment/creating-a-segment.md).
 
-1. **Adicionar personalização**. Aproveite os recursos de personalização do Journey Optimizer para adaptar sua mensagem ao seu público-alvo. Saiba mais sobre a personalização [nesta seção](../../personalization/personalize.md).
+1. **Adicionar personalização e conteúdo dinâmico**. Aproveite a personalização do Journey Optimizer e os recursos de conteúdo dinâmico para adaptar sua mensagem ao seu público-alvo. Saiba mais sobre [personalização](../../personalization/personalize.md) e [conteúdo dinâmico](../../personalization/get-started-dynamic-content.md).
 
    ![](../assets/perso_ee2.png)
 

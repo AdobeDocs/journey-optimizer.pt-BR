@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,10 @@ Para começar a criar seu conteúdo de email com o designer de email, siga as et
 1. Adicione campos de personalização para personalizar o conteúdo dos dados de perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md).
 
    ![](assets/email_designer_6.png)
+
+1. Adicione conteúdo dinâmico para adaptar o conteúdo aos perfis segmentados com base em regras condicionais. [Introdução ao conteúdo dinâmico](../personalization/get-started-dynamic-content.md).
+
+   ![](assets/email_designer_dynamic-content.png)
 
 1. No **[!UICONTROL Links]** no painel esquerdo, verifique a lista de todos os URLs do seu conteúdo que serão rastreados. Você pode modificar as **[!UICONTROL Tipo de rastreamento]**, **[!UICONTROL Rótulo]** e **[!UICONTROL Tags]** se necessário.
 

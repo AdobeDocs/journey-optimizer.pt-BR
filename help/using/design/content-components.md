@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 2%
+source-wordcount: '1246'
+ht-degree: 1%
 
 ---
 
@@ -89,8 +89,7 @@ Use o **[!UICONTROL Texto]** componente para inserir texto no email. É possíve
    * **[!UICONTROL Duplicar]**: adicione uma cópia do seu componente de texto.
    * **[!UICONTROL Excluir]**: exclua o componente de texto selecionado do seu email.
    * **[!UICONTROL Adicionar personalização]**: adicione campos de personalização para personalizar o conteúdo dos dados de seus perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md).
-
-1. Para obter uma melhor experiência do usuário, você pode adicionar campos de personalização para direcionar seu público-alvo. Para obter mais informações, consulte esta [seção](../personalization/personalize.md).
+   * **[!UICONTROL Habilitar conteúdo condicional]**: adicione conteúdo condicional para adaptar o conteúdo do componente aos perfis segmentados. [Saiba mais sobre conteúdo dinâmico](../personalization/get-started-dynamic-content.md).
 
 1. Ajuste o **[!UICONTROL Cor do texto]**, **[!UICONTROL Família de fontes]** e **[!UICONTROL Tamanho]** no **[!UICONTROL Configurações de componentes]**.
 
@@ -208,7 +207,7 @@ Use o **[!UICONTROL Social]** para inserir links às páginas de mídia social n
 
 ## Decisão da oferta {#offer-decision}
 
-Use o **[!UICONTROL Decisão da oferta]** para inserir decisões nas mensagens. As decisões aproveitarão o Gerenciamento de decisões para escolher a melhor oferta a ser entregue aos clientes.
+Use o **[!UICONTROL Decisão da oferta]** componente para inserir decisões (anteriormente conhecido como atividades de oferta) em suas mensagens. As decisões aproveitarão o Gerenciamento de decisões para escolher a melhor oferta a ser entregue aos clientes.
 
 Tópicos relacionados:
 

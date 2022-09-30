@@ -5,12 +5,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-hidefromtoc: true
-hide: true
-source-git-commit: 0fbcdbbf547f24ef78f810e34ba14c78956c760c
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 2%
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +16,15 @@ ht-degree: 2%
 # Introdução ao conteúdo dinâmico {#start-dynamic-content}
 
 >[!CONTEXTUALHELP]
->id="ajo_expression_editor_conditions"
+>id="ajo_conditions_list"
 >title="Condições"
->abstract="As condições são conjuntos de regras que definem qual conteúdo deve ser exibido nas mensagens, dependendo de vários critérios, como atributos de perfis, associação de segmentos ou eventos contextuais."
+>abstract="As regras condicionais permitem exibir várias variantes de conteúdo em suas mensagens com base em atributos de perfil, eventos contextuais ou segmentos de público-alvo."
+
+O conteúdo dinâmico permite adaptar o conteúdo de suas mensagens com base em regras condicionais que podem ser compostas de atributos de perfil, eventos contextuais ou segmentos de público-alvo.
+
+Regras condicionais são criadas usando um construtor de regras visuais no Editor de expressão, onde você pode armazená-las para reutilização adicional em suas jornadas e campanhas.
+
+![](assets/conditions-overview.png)
+
+* [Saiba como trabalhar com regras condicionais](create-conditions.md)
+* [Saiba como criar conteúdo dinâmico](dynamic-content.md)
