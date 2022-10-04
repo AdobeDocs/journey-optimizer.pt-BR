@@ -5,9 +5,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 3205b992a1dd6774d3ef89533d9ae6af9ff50ba3
+source-git-commit: e98bde090129ad1c32662719911ec6a3e68f69d6
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -28,3 +28,9 @@ As regras condicionais podem ser aproveitadas no Email Designer e no editor de e
 
 * [Saiba como trabalhar com regras condicionais](create-conditions.md)
 * [Saiba como criar conteúdo dinâmico](dynamic-content.md)
+
+## Vídeo tutorial {#video}
+
+Saiba como Criar conteúdo dinâmico com o construtor de regras de condição.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
