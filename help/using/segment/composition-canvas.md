@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f439e4387139b3136c46d25ecb43f304e29b0f17
+source-git-commit: e68a234e52b40fbf988b74dfa90b347659203ea0
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,11 @@ O **[!UICONTROL Excluir]** permite excluir perfis de sua composição. Dois tipo
 >title="Atividade de classificação"
 >abstract="A atividade Classificação permite classificar perfis com base em um atributo específico e incluí-los na composição. Por exemplo, inclua os 50 perfis com a maior quantidade de pontos de fidelidade."
 
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="Adicionar limite de perfil"
+>abstract="Ative essa opção para especificar um número máximo de perfis para incluir na composição.
+
 O **[!UICONTROL Classificação]** permite classificar perfis com base em um atributo específico e incluí-los na composição. Você pode, por exemplo, incluir os 50 perfis com a maior quantidade de pontos de fidelidade.
 
 1. Selecione o atributo que deseja pesquisar e especifique uma ordem de classificação (crescente ou decrescente).
@@ -138,6 +143,11 @@ O **[!UICONTROL Classificação]** permite classificar perfis com base em um atr
 >id="ajo_ao_split_type"
 >title="Tipo de divisão"
 >abstract="Use o tipo de divisão de porcentagem para dividir aleatoriamente perfis em vários caminhos. O tipo de divisão de atributo permite dividir perfis com base em um atributo específico."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="Outros perfis"
+>abstract="Ative essa opção para criar um caminho adicional com os perfis restantes que não correspondem a nenhuma das condições especificadas nos outros caminhos."
 
 O **[!UICONTROL Split]** permite dividir sua composição em vários caminhos.
 
