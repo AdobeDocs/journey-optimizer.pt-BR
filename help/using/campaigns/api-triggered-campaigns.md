@@ -2,7 +2,7 @@
 title: Acione campanhas usando APIs
 description: Saiba como acionar campanhas usando o [!DNL Journey Optimizer] APIs
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 1fb9c759032211979d24daf8a885e82fc359060e
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 1%
@@ -96,7 +96,7 @@ Quando um perfil não existe no banco de dados, o Journey Optimizer permite que 
 >
 >Este recurso é fornecido para **criação de perfil de volume muito pequeno** em um caso de uso de envio transacional de grande volume, com a maior parte dos perfis já existentes na plataforma.
 
-Para ativar a criação de perfil na execução da campanha, alterne a **[!UCONTROL Criar novos perfis]** na opção **[!UICONTROL Público]** seção.
+Para ativar a criação de perfil na execução da campanha, alterne a **[!UICONTROL Criar novos perfis]** na opção **[!UICONTROL Público]** seção.
 
 ![](assets/api-triggered-create-profile.png)
 
