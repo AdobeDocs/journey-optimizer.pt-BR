@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d8537d27fab4472c64bd46b056cf221825051bfe
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -250,13 +250,13 @@ ht-degree: 94%
       + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
 + Rastrear e monitorar {#reporting}
    + Relatório ao vivo {#live-report}
-      + [Introdução ao Relatório ao vivo](using/reports/live-report.md)
+      + [Introdução aos relatórios em tempo real](using/reports/live-report.md)
       + [Relatório da jornada em tempo real](using/reports/journey-live-report.md)
       + [Relatório em tempo real da campanha](using/reports/campaign-live-report.md)
       + [Relatório em tempo real da página de destino](using/reports/lp-report-live.md)
       + [Relatório em tempo real da lista de assinaturas](using/reports/subscription-report-live.md)
    + Relatório global {#global-report}
-      + [Introdução ao Relatório global](using/reports/global-report.md)
+      + [Introdução aos relatórios globais](using/reports/global-report.md)
       + [Relatório global da jornada](using/reports/journey-global-report.md)
       + [Relatório global da campanha](using/reports/campaign-global-report.md)
       + [Relatório global da página de destino](using/reports/lp-report-global.md)
@@ -440,6 +440,6 @@ ht-degree: 94%
 + Privacidade {#privacy}
    + [Políticas de uso de dados](using/privacy/policies.md)
    + [Solicitações de privacidade](using/privacy/requests.md)
-   + [Ações de auditoria sobre recursos](using/privacy/audit-logs.md)
+   + [Ações de auditoria em recursos](using/privacy/audit-logs.md)
    + [Consentimento](using/action/consent.md)
    + [Governança de dados](using/action/action-privacy.md)
