@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ A tabela a seguir descreve quais ações, em quais recursos do Journey Optimizer
 
 | Recurso | Ação |
 |-----------|------------------|
-| Campanha AJO | Criar / Excluir / Atualizar / Ativar / Parar |
+| Campanha do AJO | Criar / Excluir / Atualizar / Ativar / Interromper |
 | Configuração geral do canal do AJO | Criar / Excluir / Atualizar |
 | Pool de IP do AJO | Criar / Excluir / Atualizar |
 | Páginas de destino do AJO | Criar / Excluir / Atualizar / Publicar / Desfazer a publicação |
