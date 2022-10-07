@@ -3,9 +3,9 @@ title: Notas de versão de 2022
 description: Notas de versão do Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2519'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -147,7 +147,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <tbody>
 <tr>
 <td>
-<p>Agora você pode usar sistemas de modelos de otimização personalizados no gerenciamento de decisões. Esse novo tipo de modelo permite otimizar e personalizar ofertas com base em segmentos e oferecer desempenho.</p>
+<p>Agora você pode usar sistemas de modelo de otimização personalizados na gestão de decisões. Esse novo tipo de modelo permite otimizar e personalizar ofertas com base em segmentos e oferecer desempenho.</p>
 <p>O uso de modelos de AI de otimização personalizada está atualmente restrito a usuários selecionados e será implantado em todos os ambientes em uma versão futura.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Para obter mais informações, consulte a <a href="../offers/ranking/personalized-optimization-model.md">documentação detalhada</a>.</p>
@@ -179,7 +179,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 * **Parâmetros de rastreamento de URL** — agora você pode usar o Editor de expressão para configurar parâmetros de rastreamento de URL em suas superfícies de email (ou seja, predefinições). [Saiba mais](../configuration/email-settings.md#url-tracking)
 
-**Gerenciamento de decisão**
+**Gestão de decisões**
 
 * **Tamanho do público-alvo** — Um novo componente de estimativa de tamanho de público-alvo agora é exibido na interface ao criar uma regra de decisão, ao selecionar um segmento ou uma regra para definir uma qualificação de oferta ou ao adicionar um segmento ou uma regra a um escopo de decisão.
 
@@ -406,7 +406,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 * **Preenchimento prévio de campos de páginas de destino** - Agora é possível conceder aos usuários a capacidade de preencher previamente os campos da página de destino com informações de perfil. [Saiba mais](../landing-pages/create-lp.md#configure-primary-page)
 
-**Gerenciamento de decisão**
+**Gestão de decisões**
 
 * **API de decisão do Edge** — A API de decisão do Edge pode fornecer e renderizar ofertas personalizadas que são gerenciadas na gestão de decisões. É possível criar suas ofertas e outros objetos relacionados usando a interface ou as APIs da gestão de decisões. [Saiba mais](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
@@ -443,7 +443,7 @@ Como cliente do Adobe Campaign Standard, agora você pode enviar emails, notific
 * Para evitar campos desnecessários no esquema de perfil unificado, o esquema de eventos de etapas da jornada não é mais habilitado para perfis por padrão. Se necessário, você pode ativá-lo. [Saiba mais](../reports/sharing-overview.md)
 * Os novos eventos de etapa relacionados aos processos de exportação agora são enviados pelo Journey Optimizer para a Adobe Experience Platform. Exemplos de consultas foram adicionados à documentação. [Saiba mais](../reports/query-examples.md)
 
-**Gerenciamento de decisão**
+**Gestão de decisões**
 
 * Agora é possível especificar se o limite de oferta é aplicado a todos os usuários ou a um perfil específico, bem como a todos os posicionamentos ou por posicionamento. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 * A API de decisão em lote permite que as organizações usem a funcionalidade de gestão de decisões para todos os perfis em um determinado segmento, através de uma única chamada. O conteúdo da oferta de cada perfil no segmento é colocado em um conjunto de dados da AEP, onde ele estará disponível para fluxos de trabalho em lote personalizados. [Saiba mais](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
@@ -592,7 +592,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 * Os eventos de etapa do Journey Optimizer agora podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR). O campo **profileID**, no esquema incorporado Evento de Etapas da Jornada, agora está definido como um campo de identidade. [Saiba mais](../reports/sharing-overview.md#integration-cja)
 
-**Gerenciamento de decisão**
+**Gestão de decisões**
 
 * Ao atualizar uma oferta, oferta substituta, coleção de ofertas ou decisão de oferta que é mencionada direta ou indiretamente em uma mensagem publicada, as atualizações agora são refletidas automaticamente na mensagem correspondente, sem a necessidade de publicá-la novamente. [Saiba mais](../offers/offers-e2e.md#insert-decision-in-email)
 
