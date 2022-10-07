@@ -3,9 +3,9 @@ title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2002'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,16 +15,16 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Setembro de 2022 {#september-2022}
 
-* Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 22 de setembro foi detalhada na documentação. [Leia mais](release-notes.md)
+* Todos os novos recursos e aprimoramentos da versão de setembro de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
 * Adição de uma prática recomendada relacionada ao uso de atividades de espera em jornadas de segmentos de leitura recorrentes. [Leia mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Adição de novos exemplos de consulta de evento de etapa, bem como informações sobre a diferença entre id, instanceid e profileid. [Leia mais](../reports/query-examples.md).
-* Atualização das páginas relacionadas ao [toDateOnly](../building-journeys/functions/functiontodateonly.md) e [toString](../building-journeys/functions/functiontostring.md) funções.
+* Atualização das páginas relacionadas às funções [toDateOnly](../building-journeys/functions/functiontodateonly.md) e [toString](../building-journeys/functions/functiontostring.md).
 * Adição de detalhes sobre os parâmetros da condição de tempo. [Leia mais](../building-journeys/condition-activity.md#time_condition)
 * Adição de informações sobre conjuntos de dados incorporados. [Leia mais](../start/get-started-datasets.md#access-datasets)
-* As seções Relatório global e Relatório ao vivo foram reorganizadas para melhorar a legibilidade. [Leia mais](../reports/global-report.md)
+* As seções Relatório global e Relatório em tempo real foram reorganizadas para facilitar a leitura. [Leia mais](../reports/global-report.md)
 * Uma lista de cada métrica de relatório disponível no Adobe Journey Optimizer foi adicionada.
    [Leia mais](../reports/global-report.md#email-and-sms-metrics)
-* A seção de email CCO foi movida para a nova página Suporte para arquivamento . [Leia mais](../configuration/archiving-support.md)
+* A seção sobre CCO de email foi movida para a nova página Suporte para arquivamento. [Leia mais](../configuration/archiving-support.md)
 
 ## Agosto de 2022 {#august-2022}
 
@@ -60,7 +60,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * A página Lista de supressão foi atualizada para esclarecer algumas informações, incluindo o fato de que todos os caracteres ASCII entre 32 e 126 são permitidos no campo de motivo da supressão. [Leia mais](../configuration/manage-suppression-list.md)
 * Foi adicionado o link para as medidas de proteção e limites estáticos para a gestão de decisões. [Leia mais](../start/guardrails.md)
 * A Otimização de tempo de envio agora está disponível para todos os clientes. A menção ao beta foi removida. [Leia mais](../messages/send-time-optimization.md)
-* A API de decisão em lote foi adicionada à lista de APIs disponíveis para fornecer ofertas personalizadas. [Leia mais](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+* A API de decisão em lote foi adicionada à lista de APIs disponíveis para ofertas personalizadas de entrega. [Leia mais](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Maio de 2022 {#may-2022}
 
