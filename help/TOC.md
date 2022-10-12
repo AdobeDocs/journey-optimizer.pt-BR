@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
+source-git-commit: 1b81ed696d4b2b47ab9b736be695983f5e18d8ae
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1183'
 ht-degree: 97%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 97%
    + [Acione campanhas usando APIs](using/campaigns/api-triggered-campaigns.md)
 + Mensagens {#messages}
    + Introdução a mensagens{#get-started-msg}
-      + [Criar mensagens](using/messages/get-started-content.md)
+      + [Visão geral](using/messages/get-started-content.md)
       + [Adicionar mensagens em jornadas](using/messages/messages-in-journeys.md)
       + [Adicionar mensagens em campanhas](using/messages/messages-in-campaigns.md)
    + [Criar um email](using/messages/create-email.md)
