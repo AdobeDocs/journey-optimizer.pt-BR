@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 405d99f14512727f8d5e4aa9513f07f1e87f1a39
+source-git-commit: ec1a889bf849f27d492d0c42e375327b0dc9c067
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -175,7 +175,7 @@ Depois que a mensagem for enviada por meio de uma [jornada](../building-journeys
 >id="ajo_admin_preset_unsubscribe"
 >title="Adicionar link de cancelamento de inscrição ao cabeçalho do email"
 >abstract="Ative o List-Unsubscribe para adicionar um link de cancelamento de inscrição ao cabeçalho do email. Para definir um URL de cancelamento de inscrição, insira um link para opção de não participação de um clique no conteúdo da mensagem de email."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent.html?lang=en#one-click-opt-out" text="Recusar com um clique"
+>additional-url="https://experienceleague.corp.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="Recusar com um clique"
 
 Se a [opção Lista-Cancelar inscrição](../configuration/channel-surfaces.md#list-unsubscribe) estiver ativada no nível da superfície de canal, os emails correspondentes enviados com o [!DNL Journey Optimizer] incluirão um link de cancelamento de inscrição no cabeçalho do email.
 
