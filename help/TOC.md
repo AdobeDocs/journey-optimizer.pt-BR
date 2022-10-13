@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1b81ed696d4b2b47ab9b736be695983f5e18d8ae
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1188'
 ht-degree: 97%
 
 ---
@@ -52,7 +52,6 @@ ht-degree: 97%
    + [Criar uma mensagem de SMS.](using/messages/create-sms.md)
    + [Criar uma correspondência direta](using/messages/create-direct-mail.md)
    + [Verificar alertas](using/messages/alerts.md)
-   + [Gerenciar consentimento](using/messages/consent.md)
    + [Otimização do tempo de envio](using/messages/send-time-optimization.md)
 + Criação de conteúdo {#design}
    + [Introdução ao design de email](using/design/design-emails.md)
@@ -442,5 +441,7 @@ ht-degree: 97%
    + [Políticas de uso de dados](using/privacy/policies.md)
    + [Solicitações de privacidade](using/privacy/requests.md)
    + [Ações de auditoria em recursos](using/privacy/audit-logs.md)
-   + [Consentimento](using/action/consent.md)
+   + Gerenciar consentimento {#consent}
+      + [Gerenciar recusa](using/privacy/opt-out.md)
+      + [Trabalhar com políticas de consentimento](using/action/consent.md)
    + [Governança de dados](using/action/action-privacy.md)

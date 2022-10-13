@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '628'
 ht-degree: 12%
 
 ---
@@ -19,7 +19,7 @@ Use [!DNL Journey Optimizer] para adicionar links ao seu conteúdo e rastrear as
 
 ## Habilitar rastreamento {#enable-tracking}
 
-Você pode ativar o rastreamento no nível da mensagem de email marcando a variável **[!UICONTROL Email opens]** e/ou **[!UICONTROL Click on email]** opções ao [criação da mensagem](../messages/get-started-content.md).
+Você pode ativar o rastreamento no nível da mensagem de email marcando a variável **[!UICONTROL Aberturas de email]** e/ou **[!UICONTROL Clique no email]** opções ao [criação da mensagem](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ Você pode ativar o rastreamento no nível da mensagem de email marcando a vari�
 
 Isso permitirá rastrear o comportamento dos recipients por meio de:
 
-* **[!UICONTROL Email opens]**: Mensagens que foram abertas.
-* **[!UICONTROL Click on email]**: Cliques em links em um email.
+* **[!UICONTROL Aberturas de email]**: Mensagens que foram abertas.
+* **[!UICONTROL Clique no email]**: Cliques em links em um email.
 
 ## Inserir links {#insert-links}
 
@@ -42,21 +42,21 @@ Ao criar uma mensagem, você pode adicionar links ao seu conteúdo.
 
 Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
-1. Selecione um elemento e clique em **[!UICONTROL Insert link]** na barra de ferramentas contextual.
+1. Selecione um elemento e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
 
    ![](assets/message-tracking-insert-link.png)
 
 1. Escolha o tipo de link que deseja criar:
 
-   * **[!UICONTROL External link]**: Insira um link para um URL externo.
+   * **[!UICONTROL Link externo]**: Insira um link para um URL externo.
 
-   * **[!UICONTROL Landing page]**: Insira um link para uma landing page. Saiba mais [nesta seção](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL Página de aterrissagem]**: Insira um link para uma landing page. Saiba mais [nesta seção](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL One click Opt-out]**: Insira um link para permitir que os usuários cancelem rapidamente a assinatura de suas comunicações, sem a necessidade de confirmar a recusa. Saiba mais [nesta seção](../messages/consent.md#one-click-opt-out).
+   * **[!UICONTROL Um clique para recusar]**: Insira um link para permitir que os usuários cancelem rapidamente a assinatura de suas comunicações, sem a necessidade de confirmar a recusa. Saiba mais [nesta seção](../privacy/opt-out.md#one-click-opt-out).
 
-   * **[!UICONTROL External Opt-in/Subscription]**: Insira um link para aceitar as comunicações de recebimento da sua marca.
+   * **[!UICONTROL Aceitação/assinatura externa]**: Insira um link para aceitar as comunicações de recebimento da sua marca.
 
-   * **[!UICONTROL External Opt-out/Unsubscription]**: Insira um link para cancelar a assinatura do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de recusa [nesta seção](../messages/consent.md#opt-out-management).
+   * **[!UICONTROL Cancelamento/cancelamento de subscrição externo]**: Insira um link para cancelar a assinatura do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de recusa [nesta seção](../privacy/opt-out.md#opt-out-management).
 
    * **[!UICONTROL Mirror page]**: Insira um link para exibir o conteúdo do email em um navegador da Web. Saiba mais [nesta seção](#mirror-page).
 
@@ -66,7 +66,7 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
 1. Salve as alterações.
 
-1. Depois que o link for criado, você ainda poderá modificá-lo da variável **[!UICONTROL Component settings]** painel à direita.
+1. Depois que o link for criado, você ainda poderá modificá-lo da variável **[!UICONTROL Configurações do componente]** painel à direita.
 
    * Você pode editar o link e alterar seu tipo.
    * Você pode optar por sublinhar o link ou não, marcando a opção correspondente.
@@ -75,7 +75,7 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
 >[!NOTE]
 >
->As mensagens de email de tipo de marketing devem incluir um [link para opção de não participação](../messages/consent.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) é definida no nível da [superfície de canal](../configuration/channel-surfaces.md#email-type) (ou seja, predefinição da mensagem) e ao [criar a mensagem](../messages/get-started-content.md#create-new-message).
+>As mensagens de email de tipo de marketing devem incluir um [link para opção de não participação](../privacy/opt-out.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida no nível da [superfície de canal](../configuration/channel-surfaces.md#email-type) (ou seja, predefinição da mensagem) e ao [criar a mensagem](../messages/get-started-content.md#create-new-message).
 
 ## Link para uma mirror page {#mirror-page}
 
@@ -111,15 +111,15 @@ O [Email Designer](create-email-content.md) permite gerenciar os URLs rastreados
 
    ![](assets/message-tracking-edit-links.png)
 
-1. Você pode modificar o **[!UICONTROL Tracking Type]** se necessário:
+1. Você pode modificar o **[!UICONTROL Tipo de rastreamento]** se necessário:
 
    ![](assets/message-tracking-edit-a-link.png)
 
    Para cada URL rastreado, é possível definir o modo de rastreamento para um destes valores:
 
-   * **[!UICONTROL Tracked]**: Ativa o rastreamento nesse URL.
-   * **[!UICONTROL Opt out]**: Considera esse URL como recusa ou cancelamento de subscrição.
+   * **[!UICONTROL Rastreado]**: Ativa o rastreamento nesse URL.
+   * **[!UICONTROL Recusar]**: Considera esse URL como recusa ou cancelamento de subscrição.
    * **[!UICONTROL Mirror page]**: Considera esse URL como sendo de mirror page.
-   * **[!UICONTROL Never]**: Nunca ativa o rastreamento desse URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Nunca]**: Nunca ativa o rastreamento desse URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 Os relatórios sobre aberturas e cliques estão disponíveis no [Relatório ao vivo](../reports/live-report.md) e na [Relatório global](../reports/global-report.md).

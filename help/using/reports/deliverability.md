@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: ad1aadd8b10b05d96ee0de5988d82728aca57d5e
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '650'
 ht-degree: 26%
 
 ---
@@ -33,7 +33,7 @@ Para um mergulho mais profundo sobre o que é a capacidade de entrega e para sab
 
 ## Reduza a taxa de reclamação {#reduce-complaint-rate}
 
-Geralmente, os provedores de internet têm um meio proeminente de reportar uma mensagem recebida como spam. Isso permite identificar fontes não confiáveis. Ao atender rapidamente às solicitações de recusa e, portanto, mostrar que você é um remetente confiável, é possível reduzir as taxas de reclamação. [Saiba mais sobre o gerenciamento de não participação](../messages/consent.md#opt-out-management).
+Geralmente, os provedores de internet têm um meio proeminente de reportar uma mensagem recebida como spam. Isso permite identificar fontes não confiáveis. Ao atender rapidamente às solicitações de recusa e, portanto, mostrar que você é um remetente confiável, é possível reduzir as taxas de reclamação. [Saiba mais sobre o gerenciamento de não participação](../privacy/opt-out.md#opt-out-management).
 
 Como regra geral, não tente impedir os recipients que desejam fazer o opt-out exigindo que eles preencham campos como endereço de email ou nome, por exemplo. A landing page de unsubscription deve ter apenas um botão de validação.
 
@@ -51,7 +51,7 @@ Para proteger seu deliverability, os recipients cujos endereços estão na lista
 
 Use os recursos oferecidos por [!DNL Journey Optimizer] para monitorar sua capacidade de delivery.
 
-O **[!UICONTROL Executions]** da lista de mensagens permite verificar o desempenho dos deliveries por meio de um conjunto de indicadores em tempo real. Entre outras coisas, essa guia exibe:
+O **[!UICONTROL Execuções]** da lista de mensagens permite verificar o desempenho dos deliveries por meio de um conjunto de indicadores em tempo real. Entre outras coisas, essa guia exibe:
 * O número de mensagens executadas, enviadas e entregues com êxito.
 * O número de mensagens que foram abertas e o número de mensagens/links que foram clicados.
 

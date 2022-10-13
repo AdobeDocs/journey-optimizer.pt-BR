@@ -2,10 +2,10 @@
 title: Notas de versão anteriores (2021)
 description: Notas de versão do Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2070'
+ht-degree: 95%
 
 ---
 
@@ -270,7 +270,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 **Design de conteúdo**
 
 * **Plano de fundo** - Imagens de planos de fundo agora são compatíveis com a pré-visualização ao vivo. [Saiba mais](../design/preview.md)
-* **Link para opção de não participação com um clique** - É possível inserir um novo tipo de link no conteúdo de email: o link para **opção de não participação** permite que os usuários cancelem o recebimento de suas comunicações com apenas um clique, sem serem redirecionados para uma página de aterrissagem para confirmar a recusa. [Saiba mais](../messages/consent.md#one-click-opt-out-link)
+* **Link para opção de não participação com um clique** - É possível inserir um novo tipo de link no conteúdo de email: o link para **opção de não participação** permite que os usuários cancelem o recebimento de suas comunicações com apenas um clique, sem serem redirecionados para uma página de aterrissagem para confirmar a recusa. [Saiba mais](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalização**
 
@@ -340,11 +340,11 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 * Para fontes de dados externas, uma regra de limitação de 15 chamadas por segundo agora é definida automaticamente. [Leia mais](../configuration/external-systems.md#capping)
 * Para as jornadas em tempo real, a tela de propriedades da jornada agora exibe a data da publicação e o nome do usuário que publicou a jornada. [Leia mais](../building-journeys/journey-gs.md#change-properties)
 * Na tela da lista de jornadas, o filtro Tipo de jornada foi adicionado. [Leia mais](../start/user-interface.md#filter-lists)
-* O parâmetro **[!UICONTROL Throttling rate]** foi adicionado na atividade Ler segmento. [Leia mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* O **[!UICONTROL Taxa de limitação]** foi adicionado na atividade Read segment . [Leia mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Visualizar e testar**
 
-* A identidade e o namespace agora estão visíveis na **[!UICONTROL Preview]** tela. [Leia mais](../design/preview.md#preview-your-messages)
+* A identidade e o namespace agora estão visíveis no **[!UICONTROL Visualizar]** tela. [Leia mais](../design/preview.md#preview-your-messages)
 * O número de emails de teste para provas agora está restrito a 10.
 * Caracteres permitidos nas provas de **prefixo da linha de assunto** agora são limitadas. [Leia mais](../design/preview.md#send-proofs)
 

@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
-title: Consentimento
-description: Consentimento
+title: Trabalhar com políticas de consentimento
+description: Saiba como trabalhar com as políticas de consentimento do Adobe Experience Platform
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 30171e362e0dc70f5647bb2413031946062e8df3
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 1%
+source-wordcount: '913'
+ht-degree: 5%
 
 ---
 
-# Gerenciamento de consentimento {#consent-management}
+# Trabalhar com políticas de consentimento {#consent-management}
 
-O Adobe Experience Platform permite que você adote e aplique facilmente políticas de marketing para respeitar as preferências de consentimento dos clientes. As políticas de consentimento são definidas no Adobe Experience Platform. Consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
+A Adobe Experience Platform permite adotar e aplicar facilmente políticas de marketing para respeitar as preferências de consentimento dos clientes. As políticas de consentimento são definidas na Adobe Experience Platform. Consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
 No Journey Optimizer, você pode aplicar essas políticas de consentimento às ações personalizadas. Por exemplo, você pode definir políticas de consentimento para excluir clientes que não consentiram em receber email, push ou comunicação por SMS.
 

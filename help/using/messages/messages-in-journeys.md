@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 92%
@@ -50,7 +50,7 @@ Para adicionar mensagens em uma jornada, adicione uma atividade de push, SMS ou 
    >
    >* Se você definiu [regras de frequência](../configuration/frequency-rules.md) para um canal e categoria específicos, elas são aplicadas automaticamente à mensagem ao selecionar esse canal e categoria. Atualmente, somente a categoria **[!UICONTROL Marketing]** está disponível para regras de frequência.
    >
-   >* As mensagens de marketing devem incluir um [link para opção de não participação](../messages/consent.md#opt-out-management). Isso não é necessário para mensagens transacionais, pois essas mensagens podem ser enviadas a perfis que cancelaram a assinatura de comunicações de marketing.
+   >* As mensagens de marketing devem incluir um [link para opção de não participação](../privacy/opt-out.md#opt-out-management). Isso não é necessário para mensagens transacionais, pois essas mensagens podem ser enviadas a perfis que cancelaram a assinatura de comunicações de marketing.
 
 
 1. Selecione a **[!UICONTROL Superfície]** de canal (ou seja, predefinição de mensagem) a ser usada para enviar a mensagem.
