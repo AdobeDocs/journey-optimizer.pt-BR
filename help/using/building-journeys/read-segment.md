@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1292'
 ht-degree: 5%
 
 ---
@@ -84,7 +84,9 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
 
    ![](assets/read-segment-schedule-list.png)
 
-   **Leitura incremental** opção: quando uma jornada com uma **Ler segmento** é executado pela primeira vez, todos os perfis no segmento entram na jornada. Na próxima ocorrência, todos os perfis entram na jornada novamente, mesmo que já estivessem dentro. A instância antiga do perfil na jornada é interrompida e uma nova instância é criada. O **Leitura incremental** permite direcionar, após a primeira ocorrência, os indivíduos que entraram no segmento desde a última execução da jornada.
+   **Leitura incremental** opção: quando uma jornada com uma **Ler segmento** é executado pela primeira vez, todos os perfis no segmento entram na jornada. Essa opção permite direcionar, após a primeira ocorrência, apenas os indivíduos que entraram no segmento desde a última execução da jornada.
+
+   **Forçar a reentrada na recorrência**: essa opção permite fazer com que todos os perfis ainda estejam presentes na jornada automaticamente os saia na próxima execução. Por exemplo, se você tiver 2 dias de espera em uma jornada diária recorrente ativando essa opção, os perfis sempre serão movidos na próxima execução da jornada (ou seja, no dia seguinte), estejam ou não no próximo público-alvo de execução. Se a duração dos perfis nessa jornada for maior que a frequência de recorrência, não ative essa opção para garantir que os perfis possam concluir a jornada.
 
 <!--
 
@@ -108,8 +110,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >[!NOTE]
 >
 >As jornadas de segmento de Leitura única são movidas para o status Finished 30 dias após a execução da jornada. Para segmentos de leitura agendados, isso acontece 30 dias após a execução da última ocorrência.
->
->Você precisa ter cuidado ao usar atividades de espera em jornadas de segmentos de leitura recorrentes, pois o tempo de vida dessas jornadas termina na próxima execução. Isso significa que se uma jornada for executada diariamente, a instância do jornada que começou hoje durará até a execução de amanhã. Por exemplo, se você tiver adicionado um período de espera de 2 dias nessa jornada, os perfis sempre serão movidos na próxima execução da jornada (ou seja, no dia seguinte), estejam ou não no próximo público-alvo de execução. Os perfis nunca poderão ficar nessa jornada por 2 dias.
 
 ### Testar e publicar a jornada {#testing-publishing}
 

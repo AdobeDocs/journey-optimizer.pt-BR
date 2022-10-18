@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 3012d5492205e99f4d6c22d4cc07ddef696e6f1f
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -311,7 +311,17 @@ Conjunto de dados para armazenar metadados da entidade para mensagens enviadas a
 
 O schema relacionado é o Esquema de Entidade AJO.
 
-Esse conjunto de dados permite enriquecer vários conjuntos de dados com metadados amigáveis para o profissional de marketing. O atributo messageID ajuda a compilar vários conjuntos de dados, como Conjunto de dados de feedback de mensagem e Conjuntos de dados de rastreamento de eventos de experiência, para obter detalhes sobre o delivery de uma mensagem do envio para o rastreamento em um nível de perfil.
+Esse conjunto de dados fornece acesso aos metadados definidos pelo profissional de marketing, o que permite obter melhores insights de relatório quando os conjuntos de dados do Journey Optimizer são exportados para visualização de relatórios em ferramentas externas. Isso é obtido usando o atributo messageID que ajuda a compilar vários conjuntos de dados, como Conjunto de dados de feedback de mensagem e Conjuntos de dados de rastreamento de evento de experiência, para obter detalhes do delivery de mensagem do envio para o rastreamento no nível do perfil.
+
+**Observações importantes**
+
+* Uma entrada para uma mensagem é criada somente após a publicação da jornada ou campanha.
+
+* Você pode ver a entrada 30 minutos após a publicação da campanha/jornada.
+
+>[!NOTE]
+>
+>Por enquanto, há duas entradas para cada publicação de mensagem no conjunto de dados da entidade por motivos de compatibilidade futuros. Isso não afeta sua capacidade de usar consultas de associação conforme necessário em todos os conjuntos de dados para buscar as informações desejadas.
 
 A consulta a seguir ajuda a obter o template de mensagem associado para uma determinada campanha:
 

@@ -6,10 +6,10 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: f2f55f42739509c50223d01e25fb1f16bf19a0de
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 0%
+source-wordcount: '922'
+ht-degree: 15%
 
 ---
 
@@ -18,13 +18,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->O uso de DULE (Label Usage Labeling and Enforcement) está atualmente restrito a clientes selecionados e será implantado em todos os ambientes em uma versão futura.
+>O uso de DULE está atualmente restrito a clientes selecionados e será implantado em todos os ambientes em uma versão futura.
 
-Com sua estrutura de governança DULE (Label Usage Labeling and Enforcement), a Journey Optimizer agora pode aproveitar as políticas de governança da Adobe Experience Platform para impedir que campos confidenciais sejam exportados para sistemas de terceiros por meio de ações personalizadas. Se o sistema identificar um campo restrito nos parâmetros de ação personalizados, um erro será exibido, impedindo que você publique a jornada.
+Com sua estrutura de governança DULE (Aplicação e rotulagem de uso de dados), o Journey Optimizer agora pode aproveitar as políticas de governança da Adobe Experience Platform para impedir que campos confidenciais sejam exportados para sistemas de terceiros por meio de ações personalizadas. Se o sistema identificar um campo restrito nos parâmetros de ação personalizados, um erro será exibido, impedindo que você publique a jornada.
 
 O Adobe Experience Platform permite rotular os campos e criar ações de marketing para cada canal. Em seguida, você define uma política de governança vinculada a um rótulo e uma ação de marketing.
 
 No Journey Optimizer, você pode aplicar essas políticas às ações personalizadas para impedir que campos específicos sejam exportados para sistemas de terceiros.
+
+Para obter mais informações sobre a estrutura de governança de dados e como trabalhar com rótulos e políticas, consulte a documentação da Adobe Experience Platform:
+
+* [Visão geral do serviço de governança de dados](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=pt-BR)
+* [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=pt-BR)
+* [Políticas de uso de dados](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=pt-BR)
 
 ## Observações importantes {#important-notes}
 
