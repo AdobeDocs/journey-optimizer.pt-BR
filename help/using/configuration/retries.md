@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Tentativas
 description: Saiba como as tentativas são executadas antes de enviar um endereço para a lista de supressão
 feature: Application Settings
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 2%
+source-wordcount: '454'
+ht-degree: 1%
 
 ---
 
@@ -39,9 +41,9 @@ Se um delivery for bem-sucedido após uma tentativa, o contador de erros do ende
 
 Caso o valor padrão de 5 não atenda às suas necessidades, você poderá modificar o limite de erro seguindo as etapas abaixo.
 
-1. Vá para **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**.
+1. Ir para **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** > **[!UICONTROL Lista de supressão]**.
 
-1. Selecione o botão **[!UICONTROL Edit suppression rules]**.
+1. Selecione o **[!UICONTROL Editar regras de supressão]** botão.
 
    ![](assets/suppression-list-edit-retries.png)
 

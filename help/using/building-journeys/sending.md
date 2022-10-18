@@ -1,10 +1,12 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Iniciar a execução da jornada
 description: Saiba como iniciar a jornada e enviar mensagens
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 9%
+source-wordcount: '292'
+ht-degree: 7%
 
 ---
 
@@ -40,25 +42,25 @@ Depois que uma mensagem é enviada, é possível monitorar a execução por meio
 
 ## Programar mensagens {#schedule-messages}
 
-As mensagens podem ser agendadas por meio do **[!UICONTROL Read Segment]** em uma [jornada](journey.md). Você pode especificar quando o segmento entrará na jornada. [Saiba mais sobre a atividade Ler segmento](read-segment.md).
+As mensagens podem ser agendadas por meio do **[!UICONTROL Ler segmento]** em uma [jornada](journey.md). Você pode especificar quando o segmento entrará na jornada. [Saiba mais sobre a atividade Ler segmento](read-segment.md).
 
 Para fazer isso, siga as etapas abaixo:
 
-1. Editar uma jornada, arrastar e soltar uma **[!UICONTROL Read Segment]** e comece a configurá-la. [Saiba mais sobre como configurar a atividade Ler segmento](read-segment.md#configuring-segment-trigger-activity).
+1. Editar uma jornada, arrastar e soltar uma **[!UICONTROL Ler segmento]** e comece a configurá-la. [Saiba mais sobre como configurar a atividade Ler segmento](read-segment.md#configuring-segment-trigger-activity).
 
-1. Clique no botão **[!UICONTROL Edit journey schedule]** para acessar as propriedades da jornada.
+1. Clique no botão **[!UICONTROL Editar programação de jornada]** para acessar as propriedades da jornada.
 
    ![](assets/message-read-segment-schedule.png)
 
-1. Configure o **[!UICONTROL Scheduler type]** campo : selecione o valor desejado na lista para fazer com que o segmento insira a jornada em uma data/hora específica ou em uma base recorrente.
+1. Configure o **[!UICONTROL Tipo de agendador]** campo : selecione o valor desejado na lista para fazer com que o segmento insira a jornada em uma data/hora específica ou em uma base recorrente.
 
    >[!NOTE]
    >
-   >O **[!UICONTROL Schedule]** só estará disponível quando uma **[!UICONTROL Read Segment]** foi colocada na tela.
+   >O **[!UICONTROL Agendar]** só estará disponível quando uma **[!UICONTROL Ler segmento]** foi colocada na tela.
 
    ![](assets/message-read-segment-scheduler.png)
 
-1. Se você selecionar **[!UICONTROL Once]**, defina uma data e hora específicas em que o segmento entrará na jornada.
+1. Se você selecionar **[!UICONTROL Uma vez]**, defina uma data e hora específicas em que o segmento entrará na jornada.
 
    ![](assets/message-read-segment-scheduler-once.png)
 
@@ -68,7 +70,7 @@ Para fazer isso, siga as etapas abaixo:
 
    >[!NOTE]
    >
-   >Por padrão, os segmentos entram na jornada **[!UICONTROL As soon as possible]**, o que significa 1 hora após a publicação da jornada.
+   >Por padrão, os segmentos entram na jornada **[!UICONTROL Logo que possível]**, o que significa 1 hora após a publicação da jornada.
 
 1. Clique em **[!UICONTROL OK]** para salvar as alterações.
 

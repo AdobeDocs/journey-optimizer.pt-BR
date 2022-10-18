@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Versões de jornada
 description: Saiba mais sobre as versões do jornada
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '294'
 ht-degree: 3%
 
 ---
@@ -31,7 +33,7 @@ Se precisar modificar para uma jornada ao vivo, será necessário criar uma nova
 >
 >Para saber mais sobre as medidas de proteção e limitações das versões do jornada, consulte [esta página](../start/guardrails.md#journey-versions-limitations)
 
-1. Abra a versão mais recente da jornada dinâmica e clique em **[!UICONTROL Create a new version]** e confirme.
+1. Abra a versão mais recente da jornada dinâmica e clique em **[!UICONTROL Criar uma nova versão]** e confirme.
 
    ![](assets/journeyversions2.png)
 
@@ -39,7 +41,7 @@ Se precisar modificar para uma jornada ao vivo, será necessário criar uma nova
    >
    >Você só pode criar uma nova versão a partir da versão mais recente de uma jornada.
 
-1. Faça as modificações, clique em **[!UICONTROL Publish]** e confirme.
+1. Faça as modificações, clique em **[!UICONTROL Publicar]** e confirme.
 
    ![](assets/journeyversions3.png)
 

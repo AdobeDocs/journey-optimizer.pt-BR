@@ -1,19 +1,21 @@
 ---
-title: Introdução às páginas de aterrissagem
+solution: Journey Optimizer
+product: journey optimizer
+title: Introdução às páginas de destino
 description: Saiba mais sobre landing pages no Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 8%
 
 ---
 
-# Introdução às páginas de aterrissagem {#get-sarted-lp}
+# Introdução às páginas de destino {#get-sarted-lp}
 
 Uma página de aterrissagem é uma página da Web independente para a qual o usuário é direcionado depois de clicar por email, por um site, por um anúncio ou por qualquer outro local digital.
 

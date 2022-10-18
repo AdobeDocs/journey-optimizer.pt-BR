@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Visualizar mensagens e enviar provas
 description: Saiba como visualizar e testar suas mensagens
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1079'
 ht-degree: 1%
 
 ---
@@ -53,11 +55,11 @@ Use [Testar perfis](../segment/creating-test-profiles.md) para direcionar recipi
 
 Para selecionar perfis de teste, siga as etapas abaixo:
 
-1. Na interface da mensagem ou no designer de email, clique no link **[!UICONTROL Simulate Content]** para acessar a seleção de perfil de teste.
+1. Na interface da mensagem ou no designer de email, clique no link **[!UICONTROL Simular conteúdo]** para acessar a seleção de perfil de teste.
 
    ![](assets/email-preview-button.png)
 
-1. Selecione o namespace a ser usado para identificar perfis de teste clicando no botão **[!UICONTROL Identity namespace]** ícone de seleção.
+1. Selecione o namespace a ser usado para identificar perfis de teste clicando no botão **[!UICONTROL Namespace de identidade]** ícone de seleção.
 
    ![](assets/previewselect-namespace.png)
 
@@ -65,11 +67,11 @@ Para selecionar perfis de teste, siga as etapas abaixo:
 
    No exemplo abaixo, usaremos a variável **Email** namespace.
 
-1. Use o campo de pesquisa para localizar o namespace, selecione-o e clique em **[!UICONTROL Select]**
+1. Use o campo de pesquisa para localizar o namespace, selecione-o e clique em **[!UICONTROL Selecionar]**
 
    ![](assets/preview-email-namespace.png)
 
-1. Insira o valor para identificar o perfil de teste e clique em **[!UICONTROL Add profile]**.
+1. Insira o valor para identificar o perfil de teste e clique em **[!UICONTROL Adicionar perfil]**.
 
    ![](assets/preview-identity-value.png)
 
@@ -87,13 +89,13 @@ Uma vez [perfis de teste](#select-test-profiles) forem selecionadas, você poder
 
 Para visualizar um conteúdo de email, siga as etapas abaixo:
 
-1. Clique no botão **[!UICONTROL Simulate content]** acima do conteúdo do email.
+1. Clique no botão **[!UICONTROL Simular conteúdo]** acima do conteúdo do email.
 
 1. Selecione um perfil de teste. Você pode verificar os valores disponíveis nas colunas. Use as setas para a direita/esquerda para navegar pelos dados.
 
    ![](assets/preview-tab-select-profile.png)
 
-1. Clique no botão **[!UICONTROL Select data]** ícone acima da lista para adicionar ou remover colunas.
+1. Clique no botão **[!UICONTROL Selecionar dados]** ícone acima da lista para adicionar ou remover colunas.
 
    ![](assets/preview-select-data.png)
 
@@ -111,11 +113,11 @@ Para visualizar um conteúdo de email, siga as etapas abaixo:
 
 Para visualizar um conteúdo de notificação por push, siga as etapas abaixo:
 
-1. Clique no botão **[!UICONTROL Simulate content]** acima do conteúdo de push.
+1. Clique no botão **[!UICONTROL Simular conteúdo]** acima do conteúdo de push.
 
 1. Selecione um perfil de teste. Você pode verificar os valores disponíveis nas colunas. Use as setas para a direita/esquerda para navegar pelos dados.
 
-1. Alterne para **[!UICONTROL Push]** mensagem.
+1. Alterne para **[!UICONTROL Empurrar]** mensagem.
 
 1. Siga as mesmas etapas descritas acima para selecionar um perfil de teste e selecione o tipo de dispositivo para visualizar o conteúdo: **[!UICONTROL iOS]** ou **[!UICONTROL Android]**.
 
@@ -133,11 +135,11 @@ Uma prova é uma mensagem específica que permite testar uma mensagem antes de e
 
 Uma vez [perfis de teste](#select-test-profiles) forem selecionadas, você poderá enviar provas.
 
-1. No **[!UICONTROL Preview]** clique no botão **[!UICONTROL Send proof]** botão.
+1. No **[!UICONTROL Visualizar]** clique no botão **[!UICONTROL Enviar prova]** botão.
 
    ![](assets/send-proof-button.png)
 
-1. No **[!UICONTROL Send proof]** , digite o email do destinatário e clique em **[!UICONTROL Add]** para enviar a prova para você mesmo ou para membros de sua organização.
+1. No **[!UICONTROL Enviar prova]** , digite o email do destinatário e clique em **[!UICONTROL Adicionar]** para enviar a prova para você mesmo ou para membros de sua organização.
 
    Observe que você pode adicionar até dez recipients para o delivery de prova.
 
@@ -149,11 +151,11 @@ Uma vez [perfis de teste](#select-test-profiles) forem selecionadas, você poder
 
 1. Você pode adicionar um prefixo à linha de assunto da prova, se necessário. Apenas caracteres alfanuméricos e caracteres especiais, por exemplo, . - _ ( ) [ ], são permitidos como prefixo na linha de assunto.
 
-1. Clique em **[!UICONTROL Send proof]**.
+1. Clique em **[!UICONTROL Enviar prova]**.
 
    ![](assets/send-proof-select.png)
 
-1. De volta ao  **[!UICONTROL Preview]** clique no botão  **[!UICONTROL View proofs]** para verificar o status.
+1. De volta ao  **[!UICONTROL Visualizar]** clique no botão  **[!UICONTROL Exibir provas]** para verificar o status.
 
    ![](assets/send-proof-view.png)
 
@@ -174,7 +176,7 @@ Para acessar os recursos de renderização de email, é necessário:
 
 Em seguida, siga as etapas abaixo:
 
-1. No Designer de email, clique no botão **[!UICONTROL Preview]** e selecione o **[!UICONTROL Email rendering]** guia .
+1. No Designer de email, clique no botão **[!UICONTROL Visualizar]** e selecione o **[!UICONTROL Renderização de email]** guia .
 
 1. Clique em **Conecte sua conta Litmus** na seção superior direita.
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Fonte de dados da Adobe Experience Platform
 description: Saiba como configurar a fonte de dados do Adobe Experience Platform
 feature: Data Sources
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '430'
 ht-degree: 10%
 
 ---
@@ -38,12 +40,12 @@ Estas são as etapas principais para adicionar grupos de campos à fonte de dado
 
    ![](assets/journey23.png)
 
-1. Clique em **[!UICONTROL Add a New Field Group]** para definir uma nova série de campos a serem recuperados. Consulte [esta página](../datasource/configure-data-sources.md#define-field-groups).
+1. Clique em **[!UICONTROL Adicionar um novo grupo de campos]** para definir uma nova série de campos a serem recuperados. Consulte [esta página](../datasource/configure-data-sources.md#define-field-groups).
 
    ![](assets/journey24.png)
 
-1. Selecione um schema no **[!UICONTROL Schema]** lista suspensa. Este campo lista os esquemas Perfil e Eventos de experiência disponíveis no Adobe Experience Platform. A criação do schema não é executada em [!DNL Journey Optimizer]. Ele é executado no Adobe Experience Platform.
+1. Selecione um schema no **[!UICONTROL Esquema]** lista suspensa. Este campo lista os esquemas Perfil e Eventos de experiência disponíveis no Adobe Experience Platform. A criação do schema não é executada em [!DNL Journey Optimizer]. Ele é executado no Adobe Experience Platform.
 1. Selecione os campos que deseja usar.
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
-Ao colocar o cursor no nome de um grupo de campos, você verá dois ícones à direita. Eles permitem excluir e duplicar o grupo de campos. Observe que a variável **[!UICONTROL Delete]** O ícone só estará disponível se o grupo de campos não for usado em nenhuma jornada ao vivo ou de rascunho (as informações exibidas no **[!UICONTROL Used in]** campo ).
+Ao colocar o cursor no nome de um grupo de campos, você verá dois ícones à direita. Eles permitem excluir e duplicar o grupo de campos. Observe que a variável **[!UICONTROL Excluir]** O ícone só estará disponível se o grupo de campos não for usado em nenhuma jornada ao vivo ou de rascunho (as informações exibidas no **[!UICONTROL Usado em]** campo ).

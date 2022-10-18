@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configurar jornadas
 description: Saiba como configurar fontes de dados, eventos e ações.
 feature: Application Settings
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 44%
+source-wordcount: '406'
+ht-degree: 43%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 44%
 >title="Sobre a configuração do jornada"
 >abstract="Para enviar mensagens com jornadas, é necessário configurar as Fontes de dados, os Eventos e as Ações. As fontes de dados permitem definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas, por exemplo, em suas condições. Os eventos permitem acionar as jornadas quando um evento é recebido. As ações personalizadas permitem conectar-se a um sistema de terceiros para enviar suas mensagens. Se estiver usando recursos de mensagem integrada do Journey Optimizer, não será necessário configurar uma ação."
 
-Para enviar mensagens com o jornada, é necessário configurar **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**.
+Para enviar mensagens com o jornada, é necessário configurar **[!UICONTROL Fontes de dados]**, **[!UICONTROL Eventos]** e **[!UICONTROL Ações]**.
 
 ![](assets/admin-menu.png)
 

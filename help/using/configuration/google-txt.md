@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Adicionar um registro TXT do Google a um subdomínio
 description: Saiba como adicionar um registro TXT do Google a um subdomínio
 feature: Application Settings
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: d568480005d9b4aad5982c26184a5add0be6c83a
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '212'
 ht-degree: 21%
 
 ---
@@ -26,13 +28,13 @@ Para garantir o delivery ideal e o delivery bem-sucedido de emails para endereç
 
 >[!CAUTION]
 >
-> Essa operação só pode ser executada depois que um subdomínio tiver a variável **[!UICONTROL Success]** status. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](access-subdomains.md).
+> Essa operação só pode ser executada depois que um subdomínio tiver a variável **[!UICONTROL Sucesso]** status. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](access-subdomains.md).
 
 Para adicionar um registro TXT do Google ao seu subdomínio, siga estas etapas:
 
-1. Abra o subdomínio do **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** menu.
+1. Abra o subdomínio do **[!UICONTROL Canais]** / **[!UICONTROL Subdomínios]** menu.
 
-1. No **[!UICONTROL Google txt record]** , digite o código de verificação gerado a partir de [Google Workspace](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->, depois clique em **[!UICONTROL Save]**.
+1. No **[!UICONTROL Registro de txt do Google]** , digite o código de verificação gerado a partir de [Google Workspace](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->, depois clique em **[!UICONTROL Salvar]**.
 
    ![](assets/subdomain-google-txt.png)
 

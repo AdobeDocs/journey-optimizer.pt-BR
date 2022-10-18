@@ -1,15 +1,16 @@
 ---
-title: Sobre as atividades de jornada
+solution: Journey Optimizer
+product: journey optimizer
 description: Saiba mais sobre as atividades do jornada
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 29%
+source-wordcount: '277'
+ht-degree: 22%
 
 ---
 
@@ -43,7 +44,7 @@ Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração e
 
 ## Atividades de ação {#action-activities}
 
-Na paleta, no lado esquerdo da tela, abaixo **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, você encontrará o **[!UICONTROL Actions]** categoria . As seguintes atividades de ação estão disponíveis:
+Na paleta, no lado esquerdo da tela, abaixo **[!UICONTROL Eventos]** e **[!UICONTROL Orquestração]**, você encontrará o **[!UICONTROL Ações]** categoria . As seguintes atividades de ação estão disponíveis:
 
 * [Email, SMS, Push](../building-journeys/journeys-message.md)
 * [Ações personalizadas](../building-journeys/using-custom-actions.md)
@@ -57,10 +58,10 @@ Se você configurou ações personalizadas, elas serão exibidas aqui (consulte 
 
 ## Práticas recomendadas {#best-practices}
 
-A maioria das atividades permite definir um **[!UICONTROL Label]**. Isso adiciona um sufixo ao nome que aparecerá sob sua atividade na tela. Isso é útil se você usar a mesma atividade várias vezes na jornada e quiser identificá-las mais facilmente. Também facilitará a depuração em caso de erros e facilitará a leitura dos relatórios. Você também pode adicionar uma **[!UICONTROL Description]**.
+A maioria das atividades permite definir um **[!UICONTROL Rótulo]**. Isso adiciona um sufixo ao nome que aparecerá sob sua atividade na tela. Isso é útil se você usar a mesma atividade várias vezes na jornada e quiser identificá-las mais facilmente. Também facilitará a depuração em caso de erros e facilitará a leitura dos relatórios. Você também pode adicionar uma **[!UICONTROL Descrição]**.
 
 ![](assets/journey59bis.png)
 
-A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. O único modo de fazê-la continuar é marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
+A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcando a caixa **[!UICONTROL Adicione um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)

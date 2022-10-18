@@ -1,14 +1,16 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Controle de acesso no nível do objeto
 description: Saiba mais sobre o controle de acesso no nível do objeto
 feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 

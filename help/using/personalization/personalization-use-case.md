@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Caso de uso de personalização &dois pontos; notificação de status do pedido
 description: Saiba como personalizar uma mensagem com informações de perfil, decisão de oferta e contexto.
 feature: Personalization
@@ -6,9 +8,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '497'
 ht-degree: 2%
 
 ---
@@ -30,7 +32,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
 ## Etapa 1 - Criar a jornada {#create-journey}
 
-1. Clique no botão **[!UICONTROL Journeys]** e crie uma nova jornada.
+1. Clique no botão **[!UICONTROL Jornada]** e crie uma nova jornada.
 
    ![](assets/perso-uc4.png)
 
@@ -73,7 +75,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
    ![](assets/perso-uc12.png)
 
-1. Digite a mensagem e insira, no **[!UICONTROL Contextual attributes]** , o nome do item da ordem e o andamento da ordem.
+1. Digite a mensagem e insira, no **[!UICONTROL Atributos contextuais]** , o nome do item da ordem e o andamento da ordem.
 
    ![](assets/perso-uc13.png)
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Atualizar perfil
 description: Saiba como usar a atividade Atualizar perfil em uma jornada
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -20,7 +22,7 @@ ht-degree: 0%
 >title="Atividade Atualizar perfil"
 >abstract="A atividade de ação Atualizar perfil permite atualizar um perfil do Adobe Experience Platform existente com informações provenientes do evento, fonte de dados ou usando um valor específico."
 
-Use o **[!UICONTROL Update Profile]** atividade de ação para atualizar um perfil do Adobe Experience Platform existente com informações provenientes de um evento, uma fonte de dados ou com um valor específico.
+Use o **[!UICONTROL Atualizar perfil]** atividade de ação para atualizar um perfil do Adobe Experience Platform existente com informações provenientes de um evento, uma fonte de dados ou com um valor específico.
 
 ## Recomendações
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Visão geral do compartilhamento de etapas da jornada
 description: Visão geral do compartilhamento de etapas da jornada
 feature: Reporting
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '480'
 ht-degree: 5%
 
 ---
@@ -29,7 +31,7 @@ A lista de campos XDM que são passados é abrangente. Alguns contêm códigos g
 
 >[!CAUTION]
 >
->Os conjuntos de dados não podem ser ativados para o serviço de perfil em tempo real. Certifique-se de que a variável **[!UICONTROL Profile]** está desligado.
+>Os conjuntos de dados não podem ser ativados para o serviço de perfil em tempo real. Certifique-se de que a variável **[!UICONTROL Perfil]** está desligado.
 
 [!DNL Journey Optimizer] envia dados conforme ocorre, de forma contínua. Você pode consultar esses dados usando o Serviço de query. Você pode se conectar ao Customer Journey Analytics ou a outras ferramentas de BI para exibir dados relacionados a essas etapas.
 

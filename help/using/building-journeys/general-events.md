@@ -1,5 +1,6 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: Eventos gerais
 description: Saiba como usar eventos gerais
 feature: Journeys
@@ -7,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '437'
 ht-degree: 2%
 
 ---
@@ -37,11 +38,11 @@ A jornada ouvirá o evento durante o tempo especificado no tempo limite. Se um e
 
 Para configurar um tempo limite para um evento, siga estas etapas:
 
-1. Ative o **[!UICONTROL Define the event timeout]** nas propriedades do evento.
+1. Ative o **[!UICONTROL Definir o tempo limite do evento]** nas propriedades do evento.
 
 1. Especifique a quantidade de tempo que a jornada aguardará pelo evento.
 
-1. Se desejar enviar os indivíduos para um caminho de tempo limite quando nenhum evento for recebido dentro do tempo limite especificado, habilite o **[!UICONTROL Set a timeout path]** opção. Se essa opção não estiver ativada, a jornada terminará para o indivíduo depois que o tempo limite for atingido.
+1. Se desejar enviar os indivíduos para um caminho de tempo limite quando nenhum evento for recebido dentro do tempo limite especificado, habilite o **[!UICONTROL Definir um caminho de tempo limite]** opção. Se essa opção não estiver ativada, a jornada terminará para o indivíduo depois que o tempo limite for atingido.
 
    ![](assets/event-timeout.png)
 
@@ -50,8 +51,8 @@ Neste exemplo, a jornada envia um primeiro push de boas-vindas a um cliente. Em 
 * Se o evento do restaurante for recebido menos de 1 dia após o push de boas-vindas, a atividade de push de desconto para refeições será enviada.
 * Se nenhum evento de restaurante for recebido no dia seguinte, a pessoa percorre o caminho de tempo limite.
 
-Observe que se você quiser configurar um tempo limite em vários eventos posicionados após uma **[!UICONTROL Wait]** , é necessário configurar o tempo limite em um desses eventos somente.
+Observe que se você quiser configurar um tempo limite em vários eventos posicionados após uma **[!UICONTROL Aguardar]** , é necessário configurar o tempo limite em um desses eventos somente.
 
-O tempo limite será aplicado a todos os eventos posicionados após a **[!UICONTROL Wait]** atividade . Se nenhum evento for recebido antes do tempo limite especificado, os indivíduos fluirão para um único caminho de tempo limite ou encerrarão sua jornada.
+O tempo limite será aplicado a todos os eventos posicionados após a **[!UICONTROL Aguardar]** atividade . Se nenhum evento for recebido antes do tempo limite especificado, os indivíduos fluirão para um único caminho de tempo limite ou encerrarão sua jornada.
 
 ![](assets/event-timeout-group.png)

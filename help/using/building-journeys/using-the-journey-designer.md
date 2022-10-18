@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Projetar a jornada
 description: Saiba como criar sua jornada
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1490'
 ht-degree: 4%
 
 ---
@@ -24,31 +26,31 @@ A interface de jornada permite arrastar e soltar facilmente as atividades da pal
 
 ## Introdução ao design do jornada {#gs-journey-design}
 
-O **paleta** está no lado esquerdo da tela. Todas as atividades disponíveis são classificadas em várias categorias: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** e **[!UICONTROL Actions]**. É possível expandir/recolher as diferentes categorias clicando no nome. Para usar uma atividade na jornada, arraste-a e solte-a da paleta na tela.
+O **paleta** está no lado esquerdo da tela. Todas as atividades disponíveis são classificadas em várias categorias: **[!UICONTROL Eventos]**, **[!UICONTROL Orquestração]** e **[!UICONTROL Ações]**. É possível expandir/recolher as diferentes categorias clicando no nome. Para usar uma atividade na jornada, arraste-a e solte-a da paleta na tela.
 
 Ao iniciar uma nova jornada, os elementos que não podem ser soltos na tela como a primeira etapa são ocultos. Isso se refere a todas as ações, à atividade de condição, espera e reação.
 
 ![](assets/journey38.png)
 
-O **[!UICONTROL Filter items]** no canto superior esquerdo, é possível exibir os seguintes filtros:
+O **[!UICONTROL Filtrar itens]** no canto superior esquerdo, é possível exibir os seguintes filtros:
 
 * **Mostrar apenas itens disponíveis**: ocultar ou exibir elementos indisponíveis na paleta, por exemplo, os eventos que usam um namespace diferente daqueles usados na jornada. Por padrão, os itens indisponíveis ficam ocultos. Se você optar por exibi-las, elas aparecerão esmaecidas.
 
 * **Mostrar apenas itens recentes**: esse filtro permite exibir somente os cinco últimos eventos e ações usados, além dos prontos para uso. Isso é específico para cada usuário. Por padrão, todos os itens são exibidos.
 
-Também é possível usar a variável **[!UICONTROL Search]** campo. Somente eventos e ações são filtrados.
+Também é possível usar a variável **[!UICONTROL Pesquisar]** campo. Somente eventos e ações são filtrados.
 
 O **tela** é a zona central no designer de jornadas. É nessa zona que você pode soltar suas atividades e configurá-las. Clique em uma atividade na tela para configurá-la. Isso abre o painel de configuração da atividade no lado direito.
 
 ![](assets/journey39.png)
 
-O **painel de configuração da atividade** é exibida ao clicar em uma atividade na paleta. Preencha os campos obrigatórios. Clique no botão **[!UICONTROL Delete]** ícone para excluir a atividade. Clique em **[!UICONTROL Cancel]** para anular as modificações ou **[!UICONTROL Ok]** para confirmar. Para excluir atividades, você também pode selecionar uma atividade (ou várias) e pressionar a tecla Backspace. Pressionar a tecla escape fechará o painel de configuração da atividade.
+O **painel de configuração da atividade** é exibida ao clicar em uma atividade na paleta. Preencha os campos obrigatórios. Clique no botão **[!UICONTROL Excluir]** ícone para excluir a atividade. Clique em **[!UICONTROL Cancelar]** para anular as modificações ou **[!UICONTROL Ok]** para confirmar. Para excluir atividades, você também pode selecionar uma atividade (ou várias) e pressionar a tecla Backspace. Pressionar a tecla escape fechará o painel de configuração da atividade.
 
 Por padrão, os campos somente leitura ficam ocultos. Para mostrar campos somente leitura, clique no botão **Mostrar campos somente leitura** ícone na parte superior esquerda do painel de configuração da atividade. Essa configuração se aplica a todas as atividades em todas as jornadas.
 
 ![](assets/journey59bis.png)
 
-Dependendo do status da jornada, você pode executar ações diferentes em sua jornada usando os botões disponíveis no canto superior direito: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Esses botões são exibidos quando nenhuma atividade é selecionada. Alguns botões serão exibidos contextualmente. O botão log do modo de teste é exibido quando o modo de teste é ativado.
+Dependendo do status da jornada, você pode executar ações diferentes em sua jornada usando os botões disponíveis no canto superior direito: **[!UICONTROL Publicar]**, **[!UICONTROL Duplicar]**, **[!UICONTROL Excluir]**, **[!UICONTROL Propriedades da jornada]**, **[!UICONTROL Teste]**. Esses botões são exibidos quando nenhuma atividade é selecionada. Alguns botões serão exibidos contextualmente. O botão log do modo de teste é exibido quando o modo de teste é ativado.
 
 ![](assets/journey41.png)
 
@@ -88,9 +90,9 @@ Você também encontrará as ações personalizadas que configurou para enviar m
 
 ## Adicionar caminhos alternativos{#paths}
 
-Você pode definir uma ação de fallback em caso de erro ou tempo limite para as seguintes atividades de jornada: **[!UICONTROL Condition]** e **[!UICONTROL Action]**.
+Você pode definir uma ação de fallback em caso de erro ou tempo limite para as seguintes atividades de jornada: **[!UICONTROL Condição]** e **[!UICONTROL Ação]**.
 
-Para adicionar uma ação de fallback a uma atividade, selecione a **[!UICONTROL Add an alternative path in case of a timeout or an error]** nas propriedades da atividade: outro caminho é adicionado após a atividade . A duração do tempo limite é definida pelos usuários administradores na variável [Propriedades da jornada](../building-journeys/journey-gs.md#change-properties). Por exemplo, se um email demorar muito para ser enviado ou estiver com erro, você pode decidir enviar uma notificação por push.
+Para adicionar uma ação de fallback a uma atividade, selecione a **[!UICONTROL Adicione um caminho alternativo em caso de tempo limite ou erro]** nas propriedades da atividade: outro caminho é adicionado após a atividade . A duração do tempo limite é definida pelos usuários administradores na variável [Propriedades da jornada](../building-journeys/journey-gs.md#change-properties). Por exemplo, se um email demorar muito para ser enviado ou estiver com erro, você pode decidir enviar uma notificação por push.
 
 ![](assets/journey42.png)
 
@@ -98,7 +100,7 @@ Várias atividades (evento, ação, espera) permitem adicionar vários caminhos 
 
 Ao ouvir um evento, recomendamos que você não espere o evento indefinidamente. Não é obrigatório, é apenas uma boa prática. Se quiser ouvir um ou vários eventos somente durante um determinado tempo, você colocará um ou vários eventos e uma atividade de espera em paralelo. Consulte [esta seção](../building-journeys/general-events.md#events-specific-time).
 
-Para excluir o caminho, coloque o cursor nele e clique no botão **[!UICONTROL Delete path]** ícone .
+Para excluir o caminho, coloque o cursor nele e clique no botão **[!UICONTROL Excluir caminho]** ícone .
 
 ![](assets/journey42ter.png)
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Trabalhar com expressões salvas
 description: Saiba como trabalhar com expressões salvas do [!DNL Journey Optimizer] biblioteca.
 feature: Personalization
@@ -6,9 +8,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '354'
 ht-degree: 8%
 
 ---
@@ -24,7 +26,7 @@ ht-degree: 8%
 
 ➡️ [Saiba como trabalhar com expressões salvas neste vídeo](#video-preview)
 
-Para acessar as expressões salvas, clique no botão **[!UICONTROL Library]** no painel esquerdo. A lista exibe todas as expressões que foram salvas por usuários administradores (consulte [Salvar expressões na biblioteca](#save-expressions)).
+Para acessar as expressões salvas, clique no botão **[!UICONTROL Biblioteca]** no painel esquerdo. A lista exibe todas as expressões que foram salvas por usuários administradores (consulte [Salvar expressões na biblioteca](#save-expressions)).
 
 >[!NOTE]
 >
@@ -42,7 +44,7 @@ Clique em + para inserir a expressão no editor. Em seguida, você pode personal
 
 Para salvar uma expressão na biblioteca, siga estas etapas:
 
-1. Na interface do editor, crie a expressão e clique em **[!UICONTROL Add to library]**.
+1. Na interface do editor, crie a expressão e clique em **[!UICONTROL Adicionar à biblioteca]**.
 
    >[!NOTE]
    >
@@ -50,7 +52,7 @@ Para salvar uma expressão na biblioteca, siga estas etapas:
 
    ![](assets/library-save.png)
 
-1. No painel direito, insira um título e uma descrição para a expressão para ajudar os usuários a encontrá-la mais facilmente, em seguida, clique em **[!UICONTROL Add]**.
+1. No painel direito, insira um título e uma descrição para a expressão para ajudar os usuários a encontrá-la mais facilmente, em seguida, clique em **[!UICONTROL Adicionar]**.
 
    ![](assets/add-expression.png)
 
@@ -65,9 +67,9 @@ Para salvar uma expressão na biblioteca, siga estas etapas:
 
 
 
-Para editar uma expressão existente, adicione-a ao editor e, em seguida, modifique-a de acordo com suas necessidades. Clique em **[!UICONTROL Add to library]** para validar a sintaxe e salvar a expressão.
+Para editar uma expressão existente, adicione-a ao editor e, em seguida, modifique-a de acordo com suas necessidades. Clique em **[!UICONTROL Adicionar à biblioteca]** para validar a sintaxe e salvar a expressão.
 
-Para excluir uma expressão, clique no botão de elipse e clique em **[!UICONTROL Delete]**.
+Para excluir uma expressão, clique no botão de elipse e clique em **[!UICONTROL Excluir]**.
 
 ## Vídeo tutorial{#video}
 

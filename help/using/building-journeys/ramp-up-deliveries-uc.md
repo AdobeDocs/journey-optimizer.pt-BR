@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Aumente suas entregas
 description: Saiba como aumentar suas entregas
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '267'
 ht-degree: 3%
 
 ---
@@ -23,19 +25,19 @@ A finalidade desse caso de uso é criar uma jornada para aumentar seus deliverie
 
 1. Criar uma jornada. [Leia mais](journey-gs.md).
 
-1. Adicione um **[!UICONTROL Condition]** para a jornada. [Leia mais](condition-activity.md).
+1. Adicione um **[!UICONTROL Condição]** para a jornada. [Leia mais](condition-activity.md).
 
-1. No **[!UICONTROL Condition]** configurações de atividade, defina o número máximo de recipients para seu delivery:
+1. No **[!UICONTROL Condição]** configurações de atividade, defina o número máximo de recipients para seu delivery:
 
-   1. No **[!UICONTROL Condition]** configurações da atividade, defina a variável **[!UICONTROL Type]** campo para **[!UICONTROL Profile cap]**. [Leia mais](condition-activity.md#profile_cap).
+   1. No **[!UICONTROL Condição]** configurações da atividade, defina a variável **[!UICONTROL Tipo]** campo para **[!UICONTROL Tampa do perfil]**. [Leia mais](condition-activity.md#profile_cap).
 
-   1. Defina as **[!UICONTROL Limit]** para o número máximo de recipients para esse delivery.
+   1. Defina as **[!UICONTROL Limite]** para o número máximo de recipients para esse delivery.
 
    ![](assets/profile-cap-condition.png)
 
    Você pode aumentar gradualmente esse limite até o número total de assinantes.
 
-1. Adicione um **[!UICONTROL Email]** atividade de ação para o caminho nominal após a **[!UICONTROL Condition]** atividade .
+1. Adicione um **[!UICONTROL Email]** atividade de ação para o caminho nominal após a **[!UICONTROL Condição]** atividade .
 
    ![](assets/ramp-up-deliveries-message.png)
 

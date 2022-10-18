@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Caso de uso de personalização &dois pontos; email de abandono do carrinho
 description: Saiba como personalizar o corpo de uma mensagem de email por meio de um caso de uso.
 feature: Personalization
@@ -6,10 +8,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 4%
+source-wordcount: '1049'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +61,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 
 ## Etapa 2: Criar o email{#configure-email}
 
-1. No **Email** atividade , clique em **[!UICONTROL Edit content]**, depois clique em **[!UICONTROL Email Designer]**.
+1. No **Email** atividade , clique em **[!UICONTROL Editar conteúdo]**, depois clique em **[!UICONTROL Email Designer]**.
    ![](assets/personalization-uc-helpers-1.png)
 
 1. Na paleta esquerda da página inicial do Designer de email, arraste e solte três componentes da estrutura no corpo da mensagem.
@@ -71,12 +73,12 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 ## Etapa 3: Inserir o nome do cliente em maiúsculas {#uppercase-function}
 
 1. Na página inicial do Designer de email, clique no componente HTML, onde deseja adicionar o nome do cliente.
-1. Na barra de ferramentas contextual, clique em **[!UICONTROL Show the source code]**.
+1. Na barra de ferramentas contextual, clique em **[!UICONTROL Mostrar o código-fonte]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. No **[!UICONTROL Edit HTML]** , adicione a `upperCase` função de string:
-   1. No menu esquerdo, selecione **[!UICONTROL Helper functions]**.
+1. No **[!UICONTROL Editar HTML]** , adicione a `upperCase` função de string:
+   1. No menu esquerdo, selecione **[!UICONTROL Funções auxiliares]**.
    1. Use o campo de pesquisa para localizar &quot;maiúsculas&quot;.
    1. Nos resultados da pesquisa, adicione o `upperCase` . Para fazer isso, clique no sinal de adição (+) ao lado de `{%= upperCase(string) %}: string`.
 
@@ -90,9 +92,9 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 
 1. Remova o espaço reservado &quot;string&quot; da expressão.
 1. Adicione o token de nome:
-   1. No menu esquerdo, selecione **[!UICONTROL Profile attributes]**.
-   1. Selecione **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
-   1. Adicione o **[!UICONTROL First name]** para a expressão.
+   1. No menu esquerdo, selecione **[!UICONTROL Atributos do perfil]**.
+   1. Selecionar **[!UICONTROL Pessoa]** > **[!UICONTROL Nome completo]**.
+   1. Adicione o **[!UICONTROL Nome]** para a expressão.
 
       O editor de expressão mostra esta expressão:
 
@@ -104,7 +106,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 
       Saiba mais sobre o tipo de dados do nome da pessoa em [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
-1. Clique em **[!UICONTROL Validate]** e depois em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Validar]**, depois clique em **[!UICONTROL Salvar]**.
 
    ![](assets/personalization-uc-helpers-6.png)
 1. Salve a mensagem.
@@ -114,12 +116,12 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 1. Reabra o conteúdo da mensagem.
 
 1. Na página inicial do Designer de email, clique no componente HTML, onde deseja listar o conteúdo do carrinho.
-1. Na barra de ferramentas contextual, clique em **[!UICONTROL Show the source code]**.
+1. Na barra de ferramentas contextual, clique em **[!UICONTROL Mostrar o código-fonte]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. No **[!UICONTROL Edit HTML]** , adicione a `each` auxiliar:
-   1. No menu esquerdo, selecione **[!UICONTROL Helper functions]**.
+1. No **[!UICONTROL Editar HTML]** , adicione a `each` auxiliar:
+   1. No menu esquerdo, selecione **[!UICONTROL Funções auxiliares]**.
    1. Use o campo de pesquisa para localizar &quot;cada&quot;.
    1. Nos resultados da pesquisa, adicione o `each` auxiliar.
 
@@ -134,15 +136,15 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 1. Adicione o `productListItems` para a expressão:
 
    1. Remova o espaço reservado &quot;someArray&quot; da expressão.
-   1. No menu esquerdo, selecione **[!UICONTROL Contextual attributes]**.
+   1. No menu esquerdo, selecione **[!UICONTROL Atributos contextuais]**.
 
-      **[!UICONTROL Contextual attributes]** estão disponíveis somente após o contexto da jornada ter sido passado para a mensagem.
+      **[!UICONTROL Atributos contextuais]** estão disponíveis somente após o contexto da jornada ter sido passado para a mensagem.
 
-   1. Selecionar **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, em seguida, expanda a **[!UICONTROL productListItems]** nó .
+   1. Selecionar **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Eventos]** > ***[!UICONTROL event_name]***, em seguida, expanda a **[!UICONTROL productListItems]** nó .
 
       Neste exemplo, *event_name* representa o nome do evento.
 
-   1. Adicione o **[!UICONTROL Product]** para a expressão.
+   1. Adicione o **[!UICONTROL Produto]** para a expressão.
 
       O editor de expressão mostra esta expressão:
 
@@ -179,11 +181,11 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 1. Adicione os tokens de personalização para o nome do item, a quantidade e o preço:
 
    1. Remova o espaço reservado &quot;#name&quot; da tabela HTML.
-   1. Nos resultados da pesquisa anterior, adicione o **[!UICONTROL Name]** para a expressão.
+   1. Nos resultados da pesquisa anterior, adicione o **[!UICONTROL Nome]** para a expressão.
 
    Repita estas etapas duas vezes:
-   * Substitua o espaço reservado &quot;#quantity&quot; pelo **[!UICONTROL Quantity]** token.
-   * Substitua o espaço reservado &quot;#priceTotal&quot; pelo **[!UICONTROL Total price]** token.
+   * Substitua o espaço reservado &quot;#quantity&quot; pelo **[!UICONTROL Quantidade]** token.
+   * Substitua o espaço reservado &quot;#priceTotal&quot; pelo **[!UICONTROL Preço total]** token.
 
    Este exemplo mostra a expressão modificada:
 
@@ -200,18 +202,18 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
       </table>
    {{/each}}
    ```
-1. Clique em **[!UICONTROL Validate]** e depois em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Validar]**, depois clique em **[!UICONTROL Salvar]**.
    ![](assets/personalization-uc-helpers-11.png)
 
 ## Etapa 5: Inserir uma nota específica do produto {#if-helper}
 
 1. Na página inicial do Designer de email, clique no componente HTML onde deseja inserir a nota.
-1. Na barra de ferramentas contextual, clique em **[!UICONTROL Show the source code]**.
+1. Na barra de ferramentas contextual, clique em **[!UICONTROL Mostrar o código-fonte]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. No **[!UICONTROL Edit HTML]** , adicione a `if` auxiliar:
-   1. No menu esquerdo, selecione **[!UICONTROL Helper functions]**.
+1. No **[!UICONTROL Editar HTML]** , adicione a `if` auxiliar:
+   1. No menu esquerdo, selecione **[!UICONTROL Funções auxiliares]**.
    1. Use o campo de pesquisa para localizar &quot;if&quot;.
    1. Nos resultados da pesquisa, adicione o `if` auxiliar.
 
@@ -241,12 +243,12 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 
 1. Adicione o token de nome de produto à condição:
    1. Remova o espaço reservado &quot;condition1&quot; da expressão.
-   1. No menu esquerdo, selecione **[!UICONTROL Contextual attributes]**.
-   1. Selecionar **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, em seguida, expanda a **[!UICONTROL productListItems]** nó .
+   1. No menu esquerdo, selecione **[!UICONTROL Atributos contextuais]**.
+   1. Selecionar **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Eventos]** > ***[!UICONTROL event_name]***, em seguida, expanda a **[!UICONTROL productListItems]** nó .
 
       Neste exemplo, *event_name* representa o nome do evento.
 
-   1. Adicione o **[!UICONTROL Name]** para a expressão.
+   1. Adicione o **[!UICONTROL Nome]** para a expressão.
 
       O editor de expressão mostra esta expressão:
 
@@ -287,7 +289,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
       {%/if%}
       ```
    1. Remova o espaço reservado &quot;default_render&quot; da expressão.
-1. Clique em **[!UICONTROL Validate]** e depois em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Validar]**, depois clique em **[!UICONTROL Salvar]**.
 
    ![](assets/personalization-uc-helpers-14.png)
 
@@ -295,11 +297,11 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 
 ## Etapa 6: Testar e publicar a jornada {#test-and-publish}
 
-1. Ative o **[!UICONTROL Test]** alterne e clique em **[!UICONTROL Trigger an event]**.
+1. Ative o **[!UICONTROL Teste]** alterne e clique em **[!UICONTROL Acionar um evento]**.
 
    ![](assets/personalization-uc-helpers-15.png)
 
-1. No **[!UICONTROL Event configuration]** , insira os valores de entrada e clique em **[!UICONTROL Send]**.
+1. No **[!UICONTROL Configuração do evento]** , insira os valores de entrada e clique em **[!UICONTROL Enviar]**.
 
    O modo de teste funciona somente com perfis de teste.
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Teste a jornada
 description: Saiba como testar sua jornada
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1548'
 ht-degree: 3%
 
 ---
@@ -30,11 +32,11 @@ Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode c
 
 Para usar o modo de teste, siga estas etapas:
 
-1. Para ativar o modo de teste, ative o **[!UICONTROL Test]** alternar, localizado no canto superior direito.
+1. Para ativar o modo de teste, ative o **[!UICONTROL Teste]** alternar, localizado no canto superior direito.
 
    ![](assets/journeytest1.png)
 
-1. Se a jornada tiver pelo menos um **Aguardar** , defina a variável **[!UICONTROL Wait time]** para definir o tempo que cada atividade de espera e o tempo limite do evento durarão no modo de teste. O tempo padrão é de 10 segundos para esperas e tempos limite do evento. Isso garantirá que os resultados do teste sejam obtidos rapidamente.
+1. Se a jornada tiver pelo menos um **Aguardar** , defina a variável **[!UICONTROL Tempo de espera]** para definir o tempo que cada atividade de espera e o tempo limite do evento durarão no modo de teste. O tempo padrão é de 10 segundos para esperas e tempos limite do evento. Isso garantirá que os resultados do teste sejam obtidos rapidamente.
 
    ![](assets/journeytest_wait.png)
 
@@ -42,7 +44,7 @@ Para usar o modo de teste, siga estas etapas:
    >
    >Quando um evento de reação com tempo limite é usado em uma jornada, o tempo de espera padrão e o valor mínimo são 40 segundos. Consulte [esta seção](../building-journeys/reaction-events.md).
 
-1. Use o **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada.
+1. Use o **[!UICONTROL Acionar um evento]** para configurar e enviar eventos para a jornada.
 
    ![](assets/journeyuctest1.png)
 
@@ -50,7 +52,7 @@ Para usar o modo de teste, siga estas etapas:
 
    ![](assets/journeyuctest1-bis.png)
 
-1. Depois que os eventos forem recebidos, clique no link **[!UICONTROL Show log]** para visualizar o resultado do teste e verificá-lo. Consulte [esta seção](#viewing_logs).
+1. Depois que os eventos forem recebidos, clique no link **[!UICONTROL Mostrar registro]** para visualizar o resultado do teste e verificá-lo. Consulte [esta seção](#viewing_logs).
 
    ![](assets/journeyuctest2.png)
 
@@ -75,7 +77,7 @@ Para usar o modo de teste, siga estas etapas:
 >title="Configurar o modo de teste"
 >abstract="Se a jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento."
 
-Use o **[!UICONTROL Trigger an event]** para configurar um evento que fará com que uma pessoa entre na jornada.
+Use o **[!UICONTROL Acionar um evento]** para configurar um evento que fará com que uma pessoa entre na jornada.
 
 >[!NOTE]
 >
@@ -87,13 +89,13 @@ Se a jornada contiver vários eventos, use a lista suspensa para selecionar um e
 
 ![](assets/journeytest4.png)
 
-A interface permite que você passe parâmetros de evento simples. Se quiser transmitir coleções ou outros objetos avançados no evento, clique em **[!UICONTROL Code View]** para ver todo o código do payload e modificá-lo. Por exemplo, você pode copiar e colar informações do evento preparadas por um usuário técnico.
+A interface permite que você passe parâmetros de evento simples. Se quiser transmitir coleções ou outros objetos avançados no evento, clique em **[!UICONTROL Visualização de código]** para ver todo o código do payload e modificá-lo. Por exemplo, você pode copiar e colar informações do evento preparadas por um usuário técnico.
 
 ![](assets/journeytest5.png)
 
 Um usuário técnico também pode usar essa interface para compor cargas de evento e acionar eventos sem precisar usar uma ferramenta de terceiros.
 
-Ao clicar no botão **[!UICONTROL Send]** , o teste será iniciado. A progressão do indivíduo na jornada é representada por um fluxo visual. O caminho se torna progressivamente verde à medida que o indivíduo se move pela jornada. Se ocorrer um erro, um símbolo de aviso será exibido na etapa correspondente. Você pode colocar o cursor nele para exibir mais informações sobre o erro e acessar detalhes completos (quando disponível).
+Ao clicar no botão **[!UICONTROL Enviar]** , o teste será iniciado. A progressão do indivíduo na jornada é representada por um fluxo visual. O caminho se torna progressivamente verde à medida que o indivíduo se move pela jornada. Se ocorrer um erro, um símbolo de aviso será exibido na etapa correspondente. Você pode colocar o cursor nele para exibir mais informações sobre o erro e acessar detalhes completos (quando disponível).
 
 ![](assets/journeytest6.png)
 
@@ -113,7 +115,7 @@ Ao acionar um evento, a variável **Configuração do evento** permite definir o
 
 ## Modo de teste para eventos comerciais {#test-business}
 
-Ao usar um [evento comercial](../event/about-events.md), use o modo de teste para acionar uma única entrada do perfil de teste na jornada, simular o evento e passar a ID de perfil correta. Você deve passar os parâmetros de evento e o identificador do perfil de teste que inserirá a jornada em teste. Não é possível usar a variável **[!UICONTROL Up to 100 profiles at once]** que existe para outras jornadas baseadas em segmentos. No modo de teste, não há modo de &quot;Visualização de código&quot; disponível para jornadas com base em eventos comerciais.
+Ao usar um [evento comercial](../event/about-events.md), use o modo de teste para acionar uma única entrada do perfil de teste na jornada, simular o evento e passar a ID de perfil correta. Você deve passar os parâmetros de evento e o identificador do perfil de teste que inserirá a jornada em teste. Não é possível usar a variável **[!UICONTROL Até 100 perfis ao mesmo tempo]** que existe para outras jornadas baseadas em segmentos. No modo de teste, não há modo de &quot;Visualização de código&quot; disponível para jornadas com base em eventos comerciais.
 
 Observe que, ao acionar um evento comercial pela primeira vez, não é possível alterar a definição de evento comercial na mesma sessão de teste. Você só pode fazer o mesmo indivíduo ou um indivíduo diferente inserir a jornada que passa o mesmo ou outro identificador. Se quiser alterar os parâmetros de evento comercial, pare e inicie novamente o modo de teste.
 
@@ -124,7 +126,7 @@ Observe que, ao acionar um evento comercial pela primeira vez, não é possível
 >title="Logs do modo de teste"
 >abstract="O botão Mostrar log exibe os resultados do teste no formato JSON. Esses resultados exibem o número de indivíduos dentro da jornada e seu status."
 
-O **[!UICONTROL Show log]** permite visualizar os resultados do teste. Esta página exibe as informações atuais da jornada no formato JSON. Um botão permite copiar nós inteiros. Você precisa atualizar manualmente a página para atualizar os resultados de teste da jornada.
+O **[!UICONTROL Mostrar registro]** permite visualizar os resultados do teste. Esta página exibe as informações atuais da jornada no formato JSON. Um botão permite copiar nós inteiros. Você precisa atualizar manualmente a página para atualizar os resultados de teste da jornada.
 
 ![](assets/journeytest3.png)
 

@@ -1,5 +1,6 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: Sobre ações
 description: Saiba como configurar uma ação
 feature: Actions
@@ -7,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 56%
+source-wordcount: '256'
+ht-degree: 55%
 
 ---
 
@@ -37,9 +38,9 @@ As ações personalizadas permitem configurar a conexão de um sistema de tercei
 >
 >A configuração de ações personalizadas deve ser executada por um **usuário técnico**.
 
-As ações estão disponíveis na paleta esquerda da sua jornada, no **[!UICONTROL Action]** categoria . Consulte [esta página](../building-journeys/about-journey-activities.md#action-activities).
+As ações estão disponíveis na paleta esquerda da sua jornada, no **[!UICONTROL Ação]** categoria . Consulte [esta página](../building-journeys/about-journey-activities.md#action-activities).
 
-Para exibir a lista de ações ou configurar uma nova ação, selecione **[!UICONTROL Configurations]** na seção do menu ADMINISTRATION. No  **[!UICONTROL Actions]** seção , clique em **[!UICONTROL Manage]**. A lista de ações é exibida. Consulte [esta página](../start/user-interface.md) para obter mais informações sobre a interface.
+Para exibir a lista de ações ou configurar uma nova ação, selecione **[!UICONTROL Configurações]** na seção do menu ADMINISTRATION. No  **[!UICONTROL Ações]** seção , clique em **[!UICONTROL Gerenciar]**. A lista de ações é exibida. Consulte [esta página](../start/user-interface.md) para obter mais informações sobre a interface.
 
 ![](assets/custom1.png)
 

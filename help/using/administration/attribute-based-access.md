@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Controle de acesso baseado em atributos
 description: Saiba mais sobre o controle de acesso baseado em atributos
 feature: Access Management
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -17,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->O uso do controle de acesso baseado em atributos está atualmente restrito a clientes selecionados e será implantado em todos os ambientes em uma versão futura.
+>O uso do controle de acesso baseado em atributos está atualmente restrito a usuários selecionados e será implantado em todos os ambientes em uma versão futura.
 
 O ABAC (Attribute-based access control) permite definir autorizações para gerenciar o acesso a dados para equipes ou grupos de usuários específicos. Seu objetivo é proteger ativos digitais sensíveis de usuários não autorizados, permitindo uma maior proteção dos dados pessoais.
 

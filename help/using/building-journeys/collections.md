@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: Envio dinâmico de coleções usando ações personalizadas
 description: Envio de uma mensagem usando o Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '430'
 ht-degree: 5%
 
 ---
@@ -100,7 +101,7 @@ Você pode ver que &quot;produtos&quot; é uma matriz de dois objetos. Você pre
 
 1. Crie sua ação personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-1. No **[!UICONTROL Action parameters]** , cole o exemplo JSON. A estrutura exibida é estática: ao colar a carga útil, todos os campos são definidos como constantes.
+1. No **[!UICONTROL Parâmetros de ação]** , cole o exemplo JSON. A estrutura exibida é estática: ao colar a carga útil, todos os campos são definidos como constantes.
 
    ![](assets/uc-collection-1.png)
 
@@ -122,7 +123,7 @@ Você pode ver que &quot;produtos&quot; é uma matriz de dois objetos. Você pre
 
 1. Crie sua jornada e adicione a ação personalizada criada. Consulte [esta página](../building-journeys/using-custom-actions.md).
 
-1. No **[!UICONTROL Action parameters]** , defina o parâmetro de matriz (&quot;products&quot; no nosso exemplo) usando o editor de expressão avançado.
+1. No **[!UICONTROL Parâmetros de ação]** , defina o parâmetro de matriz (&quot;products&quot; no nosso exemplo) usando o editor de expressão avançado.
 
    ![](assets/uc-collection-3.png)
 

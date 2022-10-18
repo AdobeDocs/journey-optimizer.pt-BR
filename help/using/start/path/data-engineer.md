@@ -1,11 +1,13 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Introdução da Journey Optimizer para engenheiros de dados
 description: Como engenheiro de dados, saiba mais sobre como trabalhar com a Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '580'
 ht-degree: 9%
 
 ---
@@ -34,7 +36,7 @@ As etapas para criar um namespace de identidade e um conjunto de dados habilitad
 1. **Criar perfis de teste**. Os perfis de teste são necessários ao usar o [modo de teste](../../building-journeys/testing-the-journey.md) em uma jornada, e para [visualizar e testar suas mensagens](../../design/preview.md) antes de enviar. As etapas para criar perfis de teste são detalhadas [nesta página](../../segment/creating-test-profiles.md).
 
 
-Além disso, para poder enviar mensagens no jornada, você deve configurar **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**. Saiba mais [nesta seção](../../configuration/about-data-sources-events-actions.md).
+Além disso, para poder enviar mensagens no jornada, você deve configurar **[!UICONTROL Fontes de dados]**, **[!UICONTROL Eventos]** e **[!UICONTROL Ações]**. Saiba mais [nesta seção](../../configuration/about-data-sources-events-actions.md).
 
 ![](../assets/admin-menu.png)
 

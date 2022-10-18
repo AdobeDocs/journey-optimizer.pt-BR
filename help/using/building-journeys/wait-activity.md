@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Atividade de espera
 description: Saiba mais sobre a atividade de espera
 feature: Journeys
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 8%
+source-wordcount: '327'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 8%
 >title="Atividade de espera"
 >abstract="Se desejar esperar antes de executar a próxima atividade no caminho, você pode usar uma atividade Wait . Ela permite definir o momento em que a próxima atividade será executada. Duas opções estão disponíveis: duração e personalizado."
 
-Se quiser esperar antes de executar a próxima atividade no caminho, use um **[!UICONTROL Wait]** atividade . Ela permite definir o momento em que a próxima atividade será executada. Três opções estão disponíveis:
+Se quiser esperar antes de executar a próxima atividade no caminho, use um **[!UICONTROL Aguardar]** atividade . Ela permite definir o momento em que a próxima atividade será executada. Três opções estão disponíveis:
 
 * [Duração](#duration)
 * [Personalizado](#custom)
@@ -32,7 +34,7 @@ Se quiser esperar antes de executar a próxima atividade no caminho, use um **[!
 
 ## Sobre a atividade Wait{#about_wait}
 
-A duração máxima da espera é de 30 dias. No modo de teste, a variável **[!UICONTROL Wait time in test]** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que os resultados do teste sejam obtidos rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
+A duração máxima da espera é de 30 dias. No modo de teste, a variável **[!UICONTROL Tempo de espera no teste]** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que os resultados do teste sejam obtidos rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
 Tenha cuidado ao usar várias atividades de Espera em uma jornada, pois o tempo limite da jornada global é de 30 dias, o que significa que um perfil sempre deixará de participar da jornada no máximo 30 dias após ter entrado nela.
 

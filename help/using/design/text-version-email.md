@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Criar a versão de texto de um email
 description: Saiba como criar a versão de texto de um email
 feature: Overview
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -17,15 +19,15 @@ ht-degree: 0%
 
 É recomendável criar uma versão de texto do corpo do email, que é usada quando o conteúdo do HTML não pode ser exibido.
 
-Por padrão, o Designer de email cria um **[!UICONTROL Plain text]** versão do email, incluindo campos de personalização. Esta versão é gerada e sincronizada automaticamente com a versão HTML do seu conteúdo.
+Por padrão, o Designer de email cria um **[!UICONTROL Texto sem formatação]** versão do email, incluindo campos de personalização. Esta versão é gerada e sincronizada automaticamente com a versão HTML do seu conteúdo.
 
 Se preferir usar um conteúdo diferente para a versão de texto sem formatação, siga as etapas abaixo:
 
-1. Em seu email, selecione o **[!UICONTROL Plain text]** guia .
+1. Em seu email, selecione o **[!UICONTROL Texto sem formatação]** guia .
 
    ![](assets/text_version_3.png)
 
-1. Use o **[!UICONTROL Sync with HTML]** alternar para desativar a sincronização.
+1. Use o **[!UICONTROL Sincronizar com o HTML]** alternar para desativar a sincronização.
 
    ![](assets/text_version_1.png)
 
@@ -37,7 +39,7 @@ Se preferir usar um conteúdo diferente para a versão de texto sem formatação
 
 >[!CAUTION]
 >
->* Alterações feitas em **[!UICONTROL Plain text]** não são refletidas na exibição HTML.
+>* Alterações feitas em **[!UICONTROL Texto sem formatação]** não são refletidas na exibição HTML.
 >
->* Se você reativar o **[!UICONTROL Sync with HTML]** após atualizar o conteúdo de texto sem formatação, as alterações serão perdidas e substituídas pelo conteúdo de texto gerado pela versão HTML.
+>* Se você reativar o **[!UICONTROL Sincronizar com o HTML]** após atualizar o conteúdo de texto sem formatação, as alterações serão perdidas e substituídas pelo conteúdo de texto gerado pela versão HTML.
 

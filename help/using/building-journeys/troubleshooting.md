@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Solução de problemas do Jornada
 description: Saiba como solucionar erros no jornada
 feature: Journeys
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 81%
+source-wordcount: '1027'
+ht-degree: 74%
 
 ---
 
@@ -29,17 +31,17 @@ Por exemplo, caso duas atividades estejam desconectadas na tela, um aviso é exi
 
 ![](assets/canvas-disconnected.png)
 
-Um sinal de aviso pode ser exibido próximo aos botões **[!UICONTROL Test]** e **[!UICONTROL Publish]**. Este sinal de aviso mostra erros detectados pelo sistema e impede a ativação do modo de teste ou a publicação da jornada. Na maioria das vezes, os erros detectados pelo sistema estão vinculados aos erros visíveis nas atividades, mas às vezes estão vinculados a outros problemas. Nesse caso, você pode exibi-los e tentar identificar o problema usando a descrição do erro. Se não conseguir identificar o problema, você pode copiar os detalhes e enviá-los ao administrador ou ao suporte. Observe que os erros que bloqueiam o teste e os erros que bloqueiam a publicação são semelhantes.
+Ao lado do **[!UICONTROL Teste]** alternar e **[!UICONTROL Publicar]** , um sinal de aviso pode ser exibido. Este sinal de aviso mostra erros detectados pelo sistema e impede a ativação do modo de teste ou a publicação da jornada. Na maioria das vezes, os erros detectados pelo sistema estão vinculados aos erros visíveis nas atividades, mas às vezes estão vinculados a outros problemas. Nesse caso, você pode exibi-los e tentar identificar o problema usando a descrição do erro. Se não conseguir identificar o problema, você pode copiar os detalhes e enviá-los ao administrador ou ao suporte. Observe que os erros que bloqueiam o teste e os erros que bloqueiam a publicação são semelhantes.
 
 O sistema detecta dois tipos de problemas: erros e avisos. Os erros bloqueiam a publicação e a ativação de teste. Os avisos indicam possíveis problemas que não estão bloqueando a ativação de teste ou a publicação. Você verá uma descrição do problema e uma ID de registro de problemas do tipo ERR_XXX_XXX. Essas informações ajudarão o suporte técnico a identificar o problema.
 
-Duas cores diferentes podem ser exibidas no sinal próximo aos botões **[!UICONTROL Test]** e **[!UICONTROL Publish]**. Em caso de erro, o sinal é exibido em vermelho. Em caso de aviso, é exibido em laranja.
+Duas cores diferentes podem ser exibidas no sinal ao lado do **[!UICONTROL Teste]** alternar e **[!UICONTROL Publicar]** botão. Em caso de erro, o sinal é exibido em vermelho. Em caso de aviso, é exibido em laranja.
 
 ![](assets/journey75.png)
 
-Erros e avisos globais para a jornada aparecem primeiro na lista. Os erros e avisos relacionados a atividades específicas são listados depois, por ordem de atividade ou aparência na jornada, da esquerda para a direita. O botão **[!UICONTROL Copy details]** copia informações técnicas sobre a jornada que a equipe de suporte pode usar para a solução de problemas.
+Erros e avisos globais para a jornada aparecem primeiro na lista. Os erros e avisos relacionados a atividades específicas são listados depois, por ordem de atividade ou aparência na jornada, da esquerda para a direita. O **[!UICONTROL Copiar detalhes]** copia informações técnicas sobre a jornada que a equipe de suporte pode usar para solucionar problemas.
 
-A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. O único modo de fazê-la continuar é marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
+A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcando a caixa **[!UICONTROL Adicione um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Verifique se os eventos foram enviados corretamente{#checking-that-events-are-properly-sent}
 

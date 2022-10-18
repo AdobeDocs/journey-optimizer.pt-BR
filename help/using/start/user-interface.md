@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Interface do usuário
 description: Saiba mais sobre a interface do usuário do Journey Optimizer
 feature: Overview
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: d21ab858913844d655a2b23d22b562b62eb7743c
-workflow-type: ht
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 100%
 
@@ -17,7 +19,7 @@ ht-degree: 100%
 
 Conecte-se à [Adobe Experience Cloud ](http://experience.adobe.com) e navegue até [!DNL Journey Optimizer].
 
-Os principais conceitos de navegação na interface do usuário são comuns à Adobe Experience Platform. Consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=pt-BR#adobe-experience-platform-ui-guide) {target=&quot;_blank&quot;} para obter mais detalhes.
+Os principais conceitos de navegação na interface do usuário são comuns à Adobe Experience Platform. Consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=pt-BR#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} para obter mais detalhes.
 
 Os componentes e recursos disponíveis na interface do usuário dependem das suas [ permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}. Em caso de dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe.
 
@@ -213,7 +215,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
   <tr>
     <td>Campo de texto</td>
     <td>Selecionar todo o texto no campo selecionado</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Janela pop-up</td>
@@ -237,7 +239,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
   <tr>
     <td>Visualização do conteúdo</td>
     <td>Selecionar o conteúdo</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
 </table>
 
@@ -289,7 +291,7 @@ Na maioria das listas, uma barra de pesquisa permite procurar um item específic
 
 Filtros podem ser acessados com um clique no ícone de filtro na parte superior esquerda da lista. O menu de filtros permite filtrar os elementos exibidos de acordo com diferentes critérios. Você pode optar por exibir apenas os elementos de determinado tipo ou status, os que você criou ou os que foram modificados nos últimos 30 dias. As opções diferem dependendo do contexto.
 
-Na lista de jornadas, você pode filtrar jornadas de acordo com o status, tipo e versão por meio do menu **[!UICONTROL Filtros de status e versão]**. O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação do segmento]**, **[!UICONTROL Segmento de leitura]**, **[!UICONTROL Evento comercial]** ou **[!UICONTROL Intermitência]**. Você pode optar por exibir somente jornadas que usam um evento, grupo de campos ou ação específica a partir dos **[!UICONTROL Filtros de atividade]** e **[!UICONTROL Filtros de dados]**. Os **[!UICONTROL Filtros de publicação]** permitem selecionar uma data de publicação ou um usuário. Por exemplo, você pode optar por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. [Saiba mais](../building-journeys/using-the-journey-designer.md).
+Na lista de jornadas, você pode filtrar jornadas de acordo com o status, tipo e versão por meio do menu **[!UICONTROL Filtros de status e versão]**. O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação do segmento]**, **[!UICONTROL Segmento de leitura]**, **[!UICONTROL Evento comercial]** ou **[!UICONTROL Disparo]**. Você pode optar por exibir somente jornadas que usam um evento, grupo de campos ou ação específica a partir dos **[!UICONTROL Filtros de atividade]** e **[!UICONTROL Filtros de dados]**. Os **[!UICONTROL Filtros de publicação]** permitem selecionar uma data de publicação ou um usuário. Por exemplo, você pode optar por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. [Saiba mais](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >

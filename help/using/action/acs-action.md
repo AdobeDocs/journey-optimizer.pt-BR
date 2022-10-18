@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Integrar ao Adobe Campaign Standard
 description: Saiba como fazer a integração com o Adobe Campaign Standard
 feature: Actions
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '426'
 ht-degree: 5%
 
 ---
@@ -35,7 +37,7 @@ A mensagem transacional do Campaign Standard e seu evento associado devem ser pu
 
 Estas são as etapas para configurá-lo:
 
-1. Selecionar **[!UICONTROL Configurations]** na seção do menu ADMINISTRATION. No  **[!UICONTROL Actions]** seção , clique em **[!UICONTROL Manage]**. A lista de ações é exibida.
+1. Selecionar **[!UICONTROL Configurações]** na seção do menu ADMINISTRATION. No  **[!UICONTROL Ações]** seção , clique em **[!UICONTROL Gerenciar]**. A lista de ações é exibida.
 
 1. Selecione o **[!UICONTROL AdobeCampaignStandard]** ação. O painel de configuração de ação é aberto no lado direito da tela.
 
@@ -43,7 +45,7 @@ Estas são as etapas para configurá-lo:
 
 1. Copie o URL da instância do Adobe Campaign Standard e cole-o no **[!UICONTROL URL]** campo.
 
-1. Clique no botão **[!UICONTROL Test the instance URL]** para testar a validade da instância.
+1. Clique no botão **[!UICONTROL Teste o URL da instância]** para testar a validade da instância.
 
    >[!NOTE]
    >
@@ -55,7 +57,7 @@ Estas são as etapas para configurá-lo:
    >
    >A ORG associada a essa instância do Adobe Campaign Standard é a mesma que a ORG do Journey Optimizer.
 
-Ao projetar sua jornada, três ações estarão disponíveis no **[!UICONTROL Action]** categoria: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Usar ações do Adobe Campaign](../building-journeys/using-adobe-campaign-standard.md)).
+Ao projetar sua jornada, três ações estarão disponíveis no **[!UICONTROL Ação]** categoria: **[!UICONTROL Email]**, **[!UICONTROL Empurrar]**, **[!UICONTROL SMS]** (consulte [Usar ações do Adobe Campaign](../building-journeys/using-adobe-campaign-standard.md)).
 
 ![](assets/journey58.png)
 

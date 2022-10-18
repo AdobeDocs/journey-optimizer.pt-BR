@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Personalize o plano de fundo do email
 description: Saiba como personalizar o plano de fundo do email
 feature: Overview
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -28,11 +30,11 @@ Quando se trata de definir planos de fundo com o Email Designer, o Adobe recomen
 
 Abaixo estão as configurações de fundo disponíveis que você pode usar.
 
-* Defina um **[!UICONTROL Background color]** para todo o email. Selecione as configurações de corpo na árvore de navegação acessível na paleta esquerda.
+* Defina um **[!UICONTROL Cor do plano de fundo]** para todo o email. Selecione as configurações de corpo na árvore de navegação acessível na paleta esquerda.
 
    ![](assets/background_1.png)
 
-* Defina a mesma cor de plano de fundo para todos os componentes da estrutura selecionando **[!UICONTROL Viewport background color]**. Essa opção permite selecionar uma configuração diferente da cor do plano de fundo.
+* Defina a mesma cor de plano de fundo para todos os componentes da estrutura selecionando **[!UICONTROL Cor de fundo da janela de visualização]**. Essa opção permite selecionar uma configuração diferente da cor do plano de fundo.
 
    ![](assets/background_2.png)
 
@@ -42,7 +44,7 @@ Abaixo estão as configurações de fundo disponíveis que você pode usar.
 
    ![](assets/background_3.png)
 
-* Defina um **[!UICONTROL Background image]** para o conteúdo de um componente de estrutura.
+* Defina um **[!UICONTROL Imagem de plano de fundo]** para o conteúdo de um componente de estrutura.
 
    >[!NOTE]
    >

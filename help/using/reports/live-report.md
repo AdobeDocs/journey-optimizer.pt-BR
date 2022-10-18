@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Relatório ao vivo
 description: Saiba como usar dados do relatório ao vivo
 feature: Reporting
@@ -6,14 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 6%
 
 ---
 
-# Introdução ao Relatório ao vivo {#live-report}
+# Introdução aos relatórios em tempo real {#live-report}
 
 Use o **[!UICONTROL Relatório ao vivo]** para medir e visualizar em tempo real o impacto e o desempenho de suas jornadas e suas mensagens em um painel integrado.
 Os dados estão disponíveis na variável **[!UICONTROL Relatório ao vivo]** assim que seu delivery for enviado ou sua jornada for executada do **[!UICONTROL Últimas 24 horas]** guia .

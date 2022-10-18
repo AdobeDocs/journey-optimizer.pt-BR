@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Modificar ou interromper uma campanha
 description: Saiba como modificar, parar ou duplicar campanhas ao vivo no [!DNL Journey Optimizer]
 feature: Overview
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 2%
+source-wordcount: '236'
+ht-degree: 3%
 
 ---
 
@@ -23,9 +25,9 @@ Além disso, você pode duplicar campanhas ativas (executadas uma vez ou com uma
 
 Para modificar e criar uma nova versão de uma campanha recorrente, siga estas etapas:
 
-1. Abra a campanha e clique no botão **[!UICONTROL Modify campaign]** botão.
+1. Abra a campanha e clique no botão **[!UICONTROL Modificar campanha]** botão.
 
-1. Uma nova versão da campanha é criada. Você pode verificar a versão ao vivo clicando em **[!UICONTROL Open live version]**.
+1. Uma nova versão da campanha é criada. Você pode verificar a versão ao vivo clicando em **[!UICONTROL Abrir versão ao vivo]**.
 
    ![](assets/create-campaign-draft.png)
 
@@ -41,7 +43,7 @@ Para modificar e criar uma nova versão de uma campanha recorrente, siga estas e
 
 ## Interromper uma campanha recorrente {#stop}
 
-Para interromper uma campanha recorrente, abra-a e clique no botão **[!UICONTROL Stop campaign]** botão.
+Para interromper uma campanha recorrente, abra-a e clique no botão **[!UICONTROL Parar campanha]** botão.
 
 ![](assets/create-campaign-stop.png)
 
@@ -53,6 +55,6 @@ Para interromper uma campanha recorrente, abra-a e clique no botão **[!UICONTRO
 
 ## Duplicar uma campanha {#duplicate}
 
-Você pode duplicar uma campanha ao vivo para criar uma nova. Para fazer isso, abra a campanha e clique em **[!UICONTROL Duplicate]**.
+Você pode duplicar uma campanha ao vivo para criar uma nova. Para fazer isso, abra a campanha e clique em **[!UICONTROL Duplicar]**.
 
 ![](assets/create-campaign-duplicate.png)

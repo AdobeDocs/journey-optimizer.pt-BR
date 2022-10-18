@@ -1,14 +1,15 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
+product: journey optimizer
 title: Funções de gerenciamento de coleções
 description: Saiba mais sobre tipos de dados em funções de gerenciamento de coleções
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '600'
 ht-degree: 2%
 
 ---

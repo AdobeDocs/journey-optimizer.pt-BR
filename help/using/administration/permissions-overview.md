@@ -1,15 +1,17 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Visão geral do gerenciamento de usuários
-description: Saiba mais sobre permissão
+description: Saiba como definir e gerenciar permissões
 feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 23%
+source-wordcount: '201'
+ht-degree: 21%
 
 ---
 
@@ -21,13 +23,13 @@ ht-degree: 23%
 
 Gerenciamento de usuários em [!DNL Journey Optimizer] O é baseado em três conceitos:
 
-* **[!UICONTROL Product profile]**: Um conjunto de direitos unitários que permite aos usuários acessar determinadas funcionalidades ou objetos na interface. Consulte a [Perfis de produto prontos para uso](ootb-product-profiles.md) seção
+* **[!UICONTROL Perfil de produto]**: Um conjunto de direitos unitários que permite aos usuários acessar determinadas funcionalidades ou objetos na interface. Consulte a [Perfis de produto prontos para uso](ootb-product-profiles.md) seção
 
-* **[!UICONTROL Permissions]**: Direitos unitários que permitem definir as autorizações atribuídas a **[!UICONTROL Product profile]**. Cada permissão é coletada em recursos, por exemplo, Jornada ou Ofertas, que representam as diferentes funcionalidades ou objetos em [!DNL Journey Optimizer]. Consulte a [Níveis de permissão](high-low-permissions.md) seção.
+* **[!UICONTROL Permissões]**: Direitos unitários que permitem definir as autorizações atribuídas a **[!UICONTROL Perfil de produto]**. Cada permissão é coletada em recursos, por exemplo, Jornada ou Ofertas, que representam as diferentes funcionalidades ou objetos em [!DNL Journey Optimizer]. Consulte a [Níveis de permissão](high-low-permissions.md) seção.
 
 * **[!UICONTROL Sandbox]**: As sandboxes virtuais que particionam instâncias em ambientes virtuais separados e isolados. Consulte a [Uso de sandboxes](sandboxes.md)
 
-Cada conceito pode ser gerenciado por **[!UICONTROL Product administrators]** que têm acesso ao Admin Console. [Saiba mais sobre o Adobe Admin Console](https://helpx.adobe.com/br/enterprise/managing/user-guide.html).
+Cada conceito pode ser gerenciado por **[!UICONTROL Administradores de produtos]** que têm acesso ao Admin Console. [Saiba mais sobre o Adobe Admin Console](https://helpx.adobe.com/br/enterprise/managing/user-guide.html).
 
 ![](assets/do-not-localize/permissions_2.png)
 

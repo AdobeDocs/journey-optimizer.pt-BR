@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Gerenciamento de fuso horário
 description: Saiba mais sobre o gerenciamento de fuso horário
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---
@@ -39,7 +41,7 @@ Você pode selecionar um fuso horário ou optar por usar o fuso horário definid
 
 O fuso horário também pode ser corrigido. Limpe o fuso horário predefinido e escolha um na lista suspensa. Se você usar um fuso horário fixo, será o mesmo para todos os indivíduos que inseriram a jornada.
 
-Para fazer isso, no **[!UICONTROL Journey Properties]** selecione um fuso horário.
+Para fazer isso, no **[!UICONTROL Propriedades da Jornada]** selecione um fuso horário.
 
 ![](assets/journey72.png)
 

@@ -1,11 +1,13 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Acione campanhas usando APIs
 description: Saiba como acionar campanhas usando o [!DNL Journey Optimizer] APIs
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 1fb9c759032211979d24daf8a885e82fc359060e
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -13,7 +15,7 @@ ht-degree: 1%
 
 ## Sobre campanhas acionadas por API {#about}
 
-Com [!DNL Journey Optimizer], você pode criar campanhas e depois invocá-las de um sistema externo com base no acionador do usuário usando a [API REST de Execução de Mensagens Interativas](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Isso permite cobrir várias necessidades operacionais e de mensagens transacionais, como redefinições de senha, token OTP, entre outras.
+Com [!DNL Journey Optimizer], você pode criar campanhas e depois invocá-las de um sistema externo com base no acionador do usuário usando a [API REST de Execução de Mensagens Interativas](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Isso permite cobrir várias necessidades de mensagens operacionais e transacionais, como redefinições de senha, token OTP, entre outras.
 
 Para fazer isso, primeiro crie uma campanha acionada por API no Journey Optimizer e, em seguida, inicie a execução por meio de uma chamada de API.
 

@@ -1,14 +1,16 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Contextos de personalização
-description: 'Saiba mais sobre como personalizar o conteúdo e a exibição de suas mensagens. '
+description: Saiba mais sobre como personalizar o conteúdo e a exibição de suas mensagens.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '283'
 ht-degree: 15%
 
 ---
@@ -23,7 +25,7 @@ Em cada campo com o ícone do editor, é possível abrir o editor de personaliza
 
 ## Personalize seus emails {#personalize-emails}
 
-Ao criar um email, você pode adicionar personalização ao **[!UICONTROL Subject line]** campo da mensagem.
+Ao criar um email, você pode adicionar personalização ao **[!UICONTROL Linha de assunto]** campo da mensagem.
 
 ![](assets/perso_subject.png)
 

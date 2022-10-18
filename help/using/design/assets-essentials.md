@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Usar o Assets Essentials no Journey Optimizer
 description: Introdução ao Assets Essentials
 feature: Overview
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 3%
+source-wordcount: '477'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +25,7 @@ Reúna fluxos de trabalho de marketing e criação usando [!DNL Adobe Experience
 
 Saiba mais em [Documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
 
-[!DNL Adobe Experience Manager Assets Essentials] pode ser acessada diretamente de [!DNL Adobe Journey Optimizer] no menu esquerdo **[!UICONTROL Assets]** seção. Também é possível acessar ativos e pastas ao [design de conteúdo de email](design-emails.md).
+[!DNL Adobe Experience Manager Assets Essentials] pode ser acessada diretamente de [!DNL Adobe Journey Optimizer] no menu esquerdo **[!UICONTROL Ativos]** seção. Também é possível acessar ativos e pastas ao [design de conteúdo de email](design-emails.md).
 
 ## Pré-requisitos{#assets-prerequisites}
 
@@ -38,21 +40,21 @@ Para importar arquivos para [!DNL Assets Essentials], primeiro é necessário pr
 
 Para obter mais informações sobre como fazer upload de ativos, consulte [Documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}.
 
-1. De [!DNL Adobe Journey Optimizer] página inicial, selecione o **[!UICONTROL Assets]** na guia **[!UICONTROL Content management]** para acessar o menu [!DNL Assets Essentials].
+1. De [!DNL Adobe Journey Optimizer] página inicial, selecione o **[!UICONTROL Ativos]** na guia **[!UICONTROL Gestão de conteúdo]** para acessar o menu [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
 
 1. Clique duas vezes em uma pasta na seção central ou na visualização em árvore para abri-la.
 
-   Você também pode clicar em **[!UICONTROL Create folder]** para criar uma nova pasta.
+   Você também pode clicar em **[!UICONTROL Criar pasta]** para criar uma nova pasta.
 
    ![](assets/media_library_8.png)
 
-1. Uma vez na pasta selecionada ou criada, clique em **[!UICONTROL Add Assets]** para fazer upload do novo ativo para a sua pasta.
+1. Uma vez na pasta selecionada ou criada, clique em **[!UICONTROL Adicionar ativos]** para fazer upload do novo ativo para a sua pasta.
 
    ![](assets/media_library_2.png)
 
-1. No **[!UICONTROL Upload files]**, clique em **[!UICONTROL Browse]** e escolha se deseja **[!UICONTROL Browse files]** ou **[!UICONTROL Browse folders]**.
+1. No **[!UICONTROL Upload de arquivos]**, clique em **[!UICONTROL Procurar]** e escolha se deseja **[!UICONTROL Procurar arquivos]** ou **[!UICONTROL Procurar pastas]**.
 
    ![](assets/media_library_3.png)
 
@@ -66,7 +68,7 @@ Para obter mais informações sobre como fazer upload de ativos, consulte [Docum
 
    ![](assets/media_library_12.png)
 
-1. De [!DNL Adobe Journey Optimizer], selecione **[!UICONTROL Asset picker]** no painel esquerdo do designer de email.
+1. De [!DNL Adobe Journey Optimizer], selecione **[!UICONTROL Seletor de ativos]** no painel esquerdo do designer de email.
 
    ![](assets/media_library_5.png)
 
@@ -83,7 +85,7 @@ Para obter mais informações sobre como fazer upload de ativos, consulte [Docum
     ![](assets/media_library_14.png)
 -->
 
-1. Você pode personalizar ainda mais seus ativos, como adicionar um link externo ou um texto com a variável **[!UICONTROL Components settings]**. [Saiba mais sobre configurações de componentes](content-components.md)
+1. Você pode personalizar ainda mais seus ativos, como adicionar um link externo ou um texto com a variável **[!UICONTROL Configurações de componentes]**. [Saiba mais sobre configurações de componentes](content-components.md)
 
    ![](assets/media_library_13.png)
 
