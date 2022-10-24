@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e3ae60321aac340328e1fcd7b1060192fbc7ee06
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 97%
+source-wordcount: '1203'
+ht-degree: 95%
 
 ---
 
@@ -243,11 +243,14 @@ ht-degree: 97%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Casos de uso {#journey-use-cases}
-      + [Enviar mensagens de vários canais](using/building-journeys/journeys-uc.md)
-      + [Enviar uma mensagem usando o Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-      + [Envio dinâmico de coleções usando ações personalizadas](using/building-journeys/collections.md)
-      + [Enviar uma mensagem aos assinantes](using/building-journeys/message-to-subscribers-uc.md)
-      + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
+      + Casos de uso de negócios {#business-use-cases}
+         + [Enviar mensagens de vários canais](using/building-journeys/journeys-uc.md)
+         + [Enviar uma mensagem usando o Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+         + [Enviar uma mensagem aos assinantes](using/building-journeys/message-to-subscribers-uc.md)
+      + Casos de uso técnico {#technical-use-cases}
+         + [Envio dinâmico de coleções usando ações personalizadas](using/building-journeys/collections.md)
+         + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
 + Rastrear e monitorar {#reporting}
    + Relatório ao vivo {#live-report}
       + [Introdução aos relatórios em tempo real](using/reports/live-report.md)
