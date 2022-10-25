@@ -11,7 +11,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -189,7 +189,7 @@ Por exemplo, o link de cancelamento de inscrição será exibido assim no Gmail:
 >
 >Para exibir o link de cancelamento de inscrição no cabeçalho do email, o cliente de email dos destinatários deve ser compatível com esse recurso.
 
-O endereço de cancelamento de assinatura é o endereço **[!UICONTROL Mailto (cancelar assinatura)]** padrão exibido na superfície de canal correspondente. [Saiba mais](../configuration/channel-surfaces.md#list-unsubscribe).
+O endereço de cancelamento de inscrição é o endereço **[!UICONTROL Mailto (cancelar assinatura)]** padrão exibido na superfície de canal correspondente. [Saiba mais](../configuration/channel-surfaces.md#list-unsubscribe).
 
 Para definir um URL de cancelamento de inscrição personalizado, insira um link de recusa de um clique no conteúdo da mensagem de email e insira o URL de sua escolha. [Saiba mais](#one-click-opt-out)
 
@@ -213,14 +213,14 @@ Por exemplo, ao baixar ou ao usar seu aplicativo, eles podem optar por parar as 
 
 ## Gerenciamento de recusa de SMS {#sms-opt-out-management}
 
-De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os recipients cancelarem facilmente a assinatura. Após a unsubscription, os perfis serão removidos automaticamente do público-alvo de futuras mensagens de marketing.
+De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os recipients cancelarem facilmente a inscrição. Após o cancelamento da assinatura, os perfis serão removidos automaticamente do público-alvo de futuras mensagens de marketing.
 
 >[!NOTE]
 >
 >A adição de um link de unsubscription não é obrigatória para mensagens transacionais.
 
-O Adobe Journey Optimizer processa automaticamente as seguintes palavras-chave nas mensagens recebidas: **INICIAR**, **PARAR** e **DESPARAR**. Essas palavras-chave acionam respostas padrão automáticas do provedor de SMS.
+O Adobe Journey Optimizer processa automaticamente as seguintes palavras-chave nas mensagens recebidas: **INICIAR**, **PARAR** e **REINICIAR**. Essas palavras-chave acionam respostas padrão automáticas do provedor de SMS.
 
-Para saber mais sobre como o suporte nativo a palavras-chave de entrada (iniciar, parar e desfazer) funciona para SMS, consulte o seguinte vídeo:
+Para saber mais sobre como o suporte nativo a palavras-chave de entrada (iniciar, parar e reiniciar) funciona para SMS, assista ao seguinte vídeo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 85%
+source-wordcount: '134'
+ht-degree: 38%
 
 ---
 
@@ -19,11 +19,11 @@ Cada evento enviado quando uma decisão é tomada contém quatro pontos de dados
 
 ![](../assets/events-dataset-preview.png)
 
-* **[!UICONTROL Fallback]**: nome e ID da oferta substituta, se nenhuma oferta personalizada foi selecionada,
-* **[!UICONTROL Placement]**: nome, ID e canal do posicionamento usado para entregar a oferta,
-* **[!UICONTROL Selections]**: nome e ID da oferta selecionada para o perfil,
-* **[!UICONTROL Activity]**: Nome e ID da decisão.
+* **[!UICONTROL Fallback]**: Nome e ID da oferta de fallback, se nenhuma oferta personalizada foi selecionada,
+* **[!UICONTROL Posicionamento]**: Nome, ID e canal da disposição usada para entregar a oferta,
+* **[!UICONTROL Seleções]**: Nome e ID da oferta selecionada para o perfil,
+* **[!UICONTROL Atividade]**: Nome e ID da decisão.
 
-Além disso, você também pode aproveitar os campos **[!UICONTROL identityMap]** e **[!UICONTROL Timestamp]** para recuperar informações sobre o perfil e a hora em que a oferta foi entregue.
+Além disso, você também pode aproveitar a **[!UICONTROL identityMap]** e **[!UICONTROL Carimbo de data e hora]** para recuperar informações sobre o perfil e a hora em que a oferta foi entregue.
 
 Para obter mais informações sobre todos os campos XDM enviados com cada decisão, consulte [esta seção](xdm-fields.md).

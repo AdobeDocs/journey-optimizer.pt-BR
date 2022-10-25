@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 9%
+source-wordcount: '309'
+ht-degree: 7%
 
 ---
 
@@ -26,24 +26,24 @@ ht-degree: 9%
 
 Para criar um modelo de IA, siga as etapas abaixo:
 
-1. No **[!UICONTROL Components]** acesse o **[!UICONTROL Ranking]** e selecione **[!UICONTROL AI models]**.
+1. No **[!UICONTROL Componentes]** acesse o **[!UICONTROL Classificação]** e selecione **[!UICONTROL Modelos de IA]**.
 
    ![](../assets/ai-ranking-list.png)
 
    Todos os modelos de IA criados até agora são listados.
 
-1. Clique no botão **[!UICONTROL Create AI model]**.
+1. Clique no botão **[!UICONTROL Criar modelo de IA]** botão.
 
 1. Especifique um nome exclusivo e uma descrição para o modelo de IA e selecione o tipo de modelo de IA que deseja criar:
 
-   * **[!UICONTROL Auto-optimization]** O otimiza as ofertas com base no desempenho da oferta anterior. [Saiba mais](auto-optimization-model.md)
-   * **[!UICONTROL Personalized]** otimiza e personaliza as ofertas com base em segmentos e no desempenho da oferta. [Saiba mais](personalized-optimization-model.md)
+   * **[!UICONTROL Otimização automática]** O otimiza as ofertas com base no desempenho da oferta anterior. [Saiba mais](auto-optimization-model.md)
+   * **[!UICONTROL Personalizado]** otimiza e personaliza as ofertas com base em segmentos e no desempenho da oferta. [Saiba mais](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
    >[!NOTE]
    >
-   >O **[!UICONTROL Optimization metric]** A seção fornece informações sobre o evento de conversão usado pelo modelo de IA para calcular a classificação das ofertas.
+   >O **[!UICONTROL Métrica de otimização]** A seção fornece informações sobre o evento de conversão usado pelo modelo de IA para calcular a classificação das ofertas.
    >
    >[!DNL Journey Optimizer] Classifique as ofertas com base na **taxa de conversão** (Índice de conversão = Número total de eventos de conversão / Número total de eventos de impressão). A taxa de conversão é calculada usando dois tipos de métricas:
    >* **Eventos de impressão** (ofertas exibidas)
@@ -58,9 +58,9 @@ Para criar um modelo de IA, siga as etapas abaixo:
 
    >[!CAUTION]
    >
-   >Somente os conjuntos de dados criados a partir de esquemas associados ao **[!UICONTROL Experience Event - Proposition Interactions]** grupo de campos (anteriormente conhecido como mixin) são exibidos na lista suspensa.
+   >Somente os conjuntos de dados criados a partir de esquemas associados ao **[!UICONTROL Evento de experiência - Interações de proposta]** grupo de campos (anteriormente conhecido como mixin) são exibidos na lista suspensa.
 
-1. Se você estiver criando um **[!UICONTROL Personalization]** Modelo de IA, selecione os segmentos a serem usados para treinar o modelo de IA.
+1. Se você estiver criando um **[!UICONTROL Personalização]** Modelo de IA, selecione os segmentos a serem usados para treinar o modelo de IA.
 
    ![](../assets/ai-ranking-segments.png)
 

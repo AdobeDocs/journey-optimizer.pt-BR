@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -128,10 +128,10 @@ ht-degree: 94%
       + [Criar perfis de teste](using/segment/creating-test-profiles.md)
    + [Identidades](using/segment/get-started-identity.md)
    + Compor públicos-alvo {#audience-orchestration}
-      + [Introdução à composição do público-alvo](using/segment/get-started-audience-orchestration.md)
+      + [Introdução à composição de público-alvo](using/segment/get-started-audience-orchestration.md)
       + [Criar workflows de composição](using/segment/create-compositions.md)
       + [Trabalhar com a tela de composição](using/segment/composition-canvas.md)
-      + [Acessar e gerenciar públicos](using/segment/access-audiences.md)
+      + [Acessar e gerenciar públicos-alvo](using/segment/access-audiences.md)
    + [Uso da licença](using/segment/license-usage.md)
 + Jornadas {#orchestrate-journeys}
    + Sobre jornadas{#about-journeys}

@@ -238,7 +238,7 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#leftTrim">Aparar à esquerda</a></td><td>Essa função remove espaços em branco do início de uma string</td>
     </tr>
     <tr>
-        <td><a href="string.md#length">Length</a></td><td>Essa função é usada para obter o número de caracteres em uma string ou expressão</td>
+        <td><a href="string.md#length">Comprimento</a></td><td>Essa função é usada para obter o número de caracteres em uma string ou expressão</td>
     </tr>
     <tr>
         <td><a href="string.md#like">Like</a></td><td>Essa função é usada para determinar se uma string corresponde a um padrão especificado</td>

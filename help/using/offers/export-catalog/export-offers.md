@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2008'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ O lote bem-sucedido mais recente no conjunto de dados é exibido à direita. A e
 >
 >Saiba como acessar os conjuntos de dados exportados para cada objeto da Biblioteca de ofertas em [esta seção](../export-catalog/access-dataset.md).
 
-Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decision Object Repository - Personalized Offers]** conjunto de dados.
+Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Repositório de objetos de decisão - Ofertas personalizadas]** conjunto de dados.
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 

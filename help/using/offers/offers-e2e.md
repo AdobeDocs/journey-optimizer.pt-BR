@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1085'
 ht-degree: 6%
 
 ---
@@ -63,7 +63,7 @@ O processo geral de Gerenciamento de decisões para usar ofertas em um email pod
 
 Antes de começar a criar ofertas, você deve definir vários componentes que usará em suas ofertas.
 
-Você os encontrará sob a **[!UICONTROL Decision Management]** > **[!UICONTROL Components menu]**.
+Você os encontrará sob a **[!UICONTROL Gerenciamento de decisões]** > **[!UICONTROL Menu Componentes]**.
 
 1. Comece criando **disposições** para suas ofertas.
 
@@ -83,7 +83,7 @@ Você os encontrará sob a **[!UICONTROL Decision Management]** > **[!UICONTROL 
 
    As regras de decisão fornecerão a melhor oferta a um perfil no Adobe Experience Platform.
 
-   Configure duas regras simples usando o **[!UICONTROL XDM Individual Profile > Person > Gender]** atributo:
+   Configure duas regras simples usando o **[!UICONTROL Perfil individual XDM > Pessoa > Gênero]** atributo:
 
    * *Clientes do sexo feminino*
    * *Clientes masculinos*
@@ -132,13 +132,13 @@ Agora você pode criar e configurar suas ofertas. Neste exemplo, você criará q
 
    ![](assets/offers-e2e-representations.png)
 
-1. No **[!UICONTROL Offer eligibility]** seção , selecione **[!UICONTROL By defined decision rule]** e arraste e solte a regra de sua escolha.
+1. No **[!UICONTROL Elegibilidade da oferta]** seção , selecione **[!UICONTROL Por regra de decisão definida]** e arraste e solte a regra de sua escolha.
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. Preencha o **[!UICONTROL Priority]**. Neste exemplo, adicione *25.*.
+1. Preencha o **[!UICONTROL Prioridade]**. Neste exemplo, adicione *25.*.
 
-1. Revise sua oferta e clique em **[!UICONTROL Save and approve]**.
+1. Revise sua oferta e clique em **[!UICONTROL Salvar e aprovar]**.
 
    ![](assets/offers-e2e-review.png)
 
@@ -167,7 +167,7 @@ As etapas detalhadas para criar e configurar ofertas são descritas em [esta se�
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. Revise sua oferta de fallback e clique em **[!UICONTROL Save and approve]**.
+1. Revise sua oferta de fallback e clique em **[!UICONTROL Salvar e aprovar]**.
 
 ![](assets/offers-e2e-fallback.png)
 
@@ -213,7 +213,7 @@ Para criar e configurar uma decisão de oferta, siga as principais etapas abaixo
 
    ![](assets/offers-e2e-decision-fallback.png)
 
-1. Revise sua decisão e clique em **[!UICONTROL Save and approve]**.
+1. Revise sua decisão e clique em **[!UICONTROL Salvar e aprovar]**.
 
    ![](assets/offers-e2e-review-decision.png)
 

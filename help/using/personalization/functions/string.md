@@ -401,7 +401,7 @@ O `leftTrim` é usada para remover espaços em branco do início de uma string.
 {%= leftTrim(string) %}
 ```
 
-## Length {#length}
+## Comprimento {#length}
 
 O `length` é usada para obter o número de caracteres em uma string ou expressão.
 

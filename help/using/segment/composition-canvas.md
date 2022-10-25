@@ -12,7 +12,7 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -181,6 +181,6 @@ Quando sua composição estiver pronta, você poderá publicá-la. [Saiba como c
 
 Saiba mais:
 
-* [Introdução à composição do público-alvo](get-started-audience-orchestration.md)
+* [Introdução à composição de público-alvo](get-started-audience-orchestration.md)
 * [Criar workflows de composição](create-compositions.md)
-* [Acessar e gerenciar públicos](access-audiences.md)
+* [Acessar e gerenciar públicos-alvo](access-audiences.md)

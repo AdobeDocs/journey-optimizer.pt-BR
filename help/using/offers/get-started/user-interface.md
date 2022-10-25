@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 64%
+source-wordcount: '642'
+ht-degree: 40%
 
 ---
 
@@ -21,33 +21,33 @@ A Biblioteca de ofertas permite criar e gerenciar as disposições e ofertas em 
 >
 >Se tiver problemas ao acessar a Biblioteca de ofertas ou alguns de seus recursos, verifique com um usuário administrador se você recebeu os direitos necessários. Consulte [Conceder acesso ao gerenciamento de decisões](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
-Use o menu **[!UICONTROL Offers]** para gerenciar ofertas personalizadas e substitutas, organizá-las em coleções e entregá-las criando decisões:
+Use o  **[!UICONTROL Ofertas]** para gerenciar ofertas personalizadas e de fallback, organizá-las em coleções e enviá-las criando decisões:
 
-* **[!UICONTROL Overview]**: Novo em [!DNL decision management]? Siga as etapas na tela para começar a configurar disposições, ofertas e coleções. Quando já estiver familiarizado com [!DNL decision management], obtenha uma visão geral sobre as ofertas, coleções e decisões mais recentes. Consulte [Visão geral](#overview).
+* **[!UICONTROL Visão geral]**: Novo em [!DNL decision management]? Siga as etapas na tela para começar a configurar disposições, ofertas e coleções. Quando já estiver familiarizado com [!DNL decision management], obtenha uma visão geral sobre as ofertas, coleções e decisões mais recentes. Consulte [Visão geral](#overview).
 
-* **[!UICONTROL Offers]**: Acesse as ofertas personalizadas e substitutas ou crie novas. Consulte [Criação de uma oferta](../offer-library/creating-personalized-offers.md) e [Criação de uma oferta substituta](../offer-library/creating-fallback-offers.md).
+* **[!UICONTROL Ofertas]**: Acesse as ofertas personalizadas e de fallback ou crie novas. Consulte [Criação de uma oferta](../offer-library/creating-personalized-offers.md) e [Criação de uma oferta substituta](../offer-library/creating-fallback-offers.md).
 
-* **[!UICONTROL Collections]**: crie e gerencie coleções de ofertas estáticas e dinâmicas. Consulte [Sobre coleções de ofertas](../offer-library/creating-collections.md).
+* **[!UICONTROL Coleções]**: Crie e gerencie coleções de ofertas estáticas e dinâmicas. Consulte [Sobre coleções de ofertas](../offer-library/creating-collections.md).
 
-* **[!UICONTROL Decisions]**: crie e gerencie decisões para entregar suas ofertas. Consulte [Criar decisões](../offer-activities/create-offer-activities.md).
+* **[!UICONTROL Decisões]**: Crie e gerencie decisões para fornecer suas ofertas. Consulte [Criar decisões](../offer-activities/create-offer-activities.md).
 
 ![](../assets/offers_menu.png)
 
-Use o menu **[!UICONTROL Components]** para gerenciar os componentes necessários para criar ofertas:
+Use o  **[!UICONTROL Componentes]** para gerenciar os componentes necessários para criar ofertas:
 
-* **[!UICONTROL Placements]**: crie e gerencie disposições onde suas ofertas serão exibidas. Consulte [Criação de inserções](../offer-library/creating-placements.md).
+* **[!UICONTROL Posicionamentos]**: Crie e gerencie disposições onde suas ofertas serão exibidas. Consulte [Criação de inserções](../offer-library/creating-placements.md).
 
-* **[!UICONTROL Tags]**: crie e gerencie tags para organizar e filtrar suas ofertas. Consulte [Criação de tags](../offer-library/creating-tags.md).
+* **[!UICONTROL Tags]**: Crie e gerencie tags para organizar e filtrar suas ofertas. Consulte [Criação de tags](../offer-library/creating-tags.md).
 
-* **[!UICONTROL Rules]**: gerencie as condições em que suas ofertas são apresentadas. Consulte [Criação de uma regra de decisão](../offer-library/creating-decision-rules.md).
+* **[!UICONTROL Regras]**: Gerencie as condições em que suas ofertas são apresentadas. Consulte [Criação de uma regra de decisão](../offer-library/creating-decision-rules.md).
 
-* **[!UICONTROL Rankings]**: crie e gerencie fórmulas de classificação para determinar qual oferta deve ser apresentada primeiro para uma determinada inserção. Consulte [Criação de fórmulas de classificação](../ranking/create-ranking-formulas.md).
+* **[!UICONTROL Classificações]**: Crie e gerencie fórmulas de classificação para determinar qual oferta deve ser apresentada primeiro para uma determinada disposição. Consulte [Criação de fórmulas de classificação](../ranking/create-ranking-formulas.md).
 
 ![](../assets/offer_activities.png)
 
 ## Visão geral {#overview}
 
-Quando você é novo no [!DNL decision management], o **[!UICONTROL Overview]** guia você pelas principais etapas necessárias para começar a criar sua primeira decisão de oferta.
+Quando você é novo no [!DNL decision management], o **[!UICONTROL Visão geral]** guia você pelas principais etapas necessárias para começar a criar sua primeira decisão de oferta.
 
 ![](../assets/overview_onboarding.png)
 
@@ -61,11 +61,11 @@ Depois de concluir essas primeiras etapas, você será solicitado a criar decis�
 >
 >As principais etapas para criar ofertas e usá-las em uma decisão são apresentadas em [esta seção](../offer-library/key-steps.md).
 
-Quando você estiver mais familiarizado com o [!DNL decision management] e você já criou pelo menos uma decisão de oferta, a **[!UICONTROL Overview]** exibe suas ofertas, coleções e decisões mais recentes.
+Quando você estiver mais familiarizado com o [!DNL decision management] e você já criou pelo menos uma decisão de oferta, a **[!UICONTROL Visão geral]** exibe suas ofertas, coleções e decisões mais recentes.
 
 Clique em uma oferta ou em uma decisão para acessar diretamente os detalhes do item selecionado.
 
-Clique no botão **[!UICONTROL View all]** para acessar as listas de oferta, coleção ou decisão.
+Clique no botão **[!UICONTROL Exibir tudo]** para acessar as listas de oferta, coleção ou decisão.
 
 ![](../assets/overview_view-all.png)
 
@@ -97,13 +97,13 @@ As listas de ofertas e decisões agora permitem executar ações em massa em vá
 
 ![](../assets/bulk-actions.png)
 
-Observe que você também pode duplicar uma oferta existente ou decisões para criar uma cópia com o status **[!UICONTROL Draft]**. Isso pode ser executado no painel de informações ou em uma oferta ou na visualização detalhada de uma decisão.
+Observe que você também pode duplicar uma oferta existente ou decisões para criar uma cópia com a **[!UICONTROL Rascunho]** status. Isso pode ser executado no painel de informações ou em uma oferta ou na visualização detalhada de uma decisão.
 
 ![](../assets/duplicate-offer.png)
 
 ## Registros de alteração de ofertas e decisões {#changes-logs}
 
-A Biblioteca de ofertas permite visualizar todas as alterações feitas em uma oferta ou decisão. Para fazer isso, abra a oferta ou a decisão clicando no nome na lista e selecione a guia **[!UICONTROL Change log]**.
+A Biblioteca de ofertas permite visualizar todas as alterações feitas em uma oferta ou decisão. Para fazer isso, abra a oferta ou a decisão clicando no nome na lista e selecione o **[!UICONTROL Log de alterações]** guia .
 
 Todas as alterações feitas são exibidas nessa tela, bem como no nome do usuário que executou as alterações.
 

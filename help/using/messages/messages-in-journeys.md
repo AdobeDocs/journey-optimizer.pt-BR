@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 92%
 >title="Superfície de canal"
 >abstract="Uma superfície de canal é uma instância desse canal que tem todas as configurações para fornecer uma ação com sucesso por meio de uma campanha ou jornada. É definida por um administrador do sistema."
 
-Em suas jornadas, use as ações do canal para projetar e personalizar a mensagem que deseja enviar ao público-alvo. Ao adicionar um email, um SMS ou uma ação de Push à tela de jornada, você está criando um envio acionado. Quando os contatos atingem essa ação de canal, o Adobe Journey Optimizer envia a mensagem automaticamente.
+Em suas jornadas, use as ações do canal para projetar e personalizar a mensagem que deseja enviar ao público-alvo. Ao adicionar um email, um SMS ou uma ação de push às telas de jornada, você está criando um envio acionado. Quando os contatos atingem essa ação de canal, o Adobe Journey Optimizer envia a mensagem automaticamente.
 
 
 >[!NOTE]
 >Você também pode criar campanhas para enviar mensagens programadas. Saiba mais [nesta seção](../campaigns/get-started-with-campaigns.md).
 
 
-Para adicionar mensagens em uma jornada, adicione uma atividade de push, SMS ou email na tela de jornada.
+Para adicionar mensagens em uma jornada, basta adicionar uma atividade de push, SMS ou email na tela da jornada.
 
 1. Inicie a jornada com uma atividade de [Evento](../building-journeys/general-events.md) ou [Segmento de leitura](../building-journeys/read-segment.md).
 
@@ -124,7 +124,7 @@ Para fazer isso, siga as etapas abaixo:
 
 1. Pressione **Crtl+V** para colar a mensagem.
 
-   A mensagem é adicionada à tela de jornada. Todas as definições e configurações serão copiadas para a nova mensagem.
+   A mensagem será adicionada às telas de jornada. Todas as definições e configurações serão copiadas para a nova mensagem.
 
    ![](assets/message-duplicated.png)
 

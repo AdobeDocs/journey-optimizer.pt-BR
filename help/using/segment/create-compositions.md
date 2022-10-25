@@ -12,7 +12,7 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -80,6 +80,6 @@ Todas as composições criadas podem ser acessadas na **[!UICONTROL Composiçõe
 
 Saiba mais:
 
-* [Introdução à composição do público-alvo](get-started-audience-orchestration.md)
+* [Introdução à composição de público-alvo](get-started-audience-orchestration.md)
 * [Trabalhar com a tela de composição](composition-canvas.md)
-* [Acessar e gerenciar públicos](access-audiences.md)
+* [Acessar e gerenciar públicos-alvo](access-audiences.md)

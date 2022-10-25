@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '451'
 ht-degree: 6%
 
 ---
@@ -46,11 +46,11 @@ Depois que uma fórmula de classificação é criada, você pode atribuí-la a u
 
 1. Para cada disposição, adicione uma coleção. Consulte [Criar coleções](../offer-library/creating-collections.md).
 
-1. Selecionar **[!UICONTROL Ranking formula]** como método de classificação, clique em **[!UICONTROL Add ranking]**.
+1. Selecionar **[!UICONTROL Fórmula de classificação]** como método de classificação, clique em **[!UICONTROL Adicionar classificação]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. Selecione a fórmula de classificação desejada e clique em **[!UICONTROL Select]**.
+1. Selecione a fórmula de classificação desejada e clique em **[!UICONTROL Selecionar]**.
 
    ![](../assets/ranking-selection.png)
 
@@ -72,7 +72,7 @@ Depois que uma estratégia de classificação for criada, você poderá atribuí
 
 1. Para cada disposição, adicione uma coleção. Consulte [Criar coleções](../offer-library/creating-collections.md).
 
-1. Escolha classificar ofertas por **[!UICONTROL AI ranking]** na lista suspensa e clique em **[!UICONTROL Add ranking]**.
+1. Escolha classificar ofertas por **[!UICONTROL Classificação AI]** na lista suspensa e clique em **[!UICONTROL Adicionar classificação]**.
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
@@ -80,7 +80,7 @@ Depois que uma estratégia de classificação for criada, você poderá atribuí
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Clique em **[!UICONTROL Select]**. A estratégia de classificação agora está associada ao posicionamento.
+1. Clique em **[!UICONTROL Selecionar]**. A estratégia de classificação agora está associada ao posicionamento.
 
 Se várias ofertas forem elegíveis, o sistema de modelo treinado determinará qual oferta deve ser apresentada primeiro para uma determinada disposição.
 

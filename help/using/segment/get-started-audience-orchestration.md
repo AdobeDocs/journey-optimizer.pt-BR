@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução à composição do público-alvo
+title: Introdução à composição de público-alvo
 description: Saiba mais sobre a composição do público-alvo
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# Introdução à composição do público-alvo {#get-start-audience-composition}
+# Introdução à composição de público-alvo {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -57,4 +57,4 @@ Saiba mais:
 
 * [Criar workflows de composição](create-compositions.md)
 * [Trabalhar com a tela de composição](composition-canvas.md)
-* [Acessar e gerenciar públicos](access-audiences.md)
+* [Acessar e gerenciar públicos-alvo](access-audiences.md)

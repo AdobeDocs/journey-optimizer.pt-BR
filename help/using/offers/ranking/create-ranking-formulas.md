@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -27,11 +27,11 @@ Depois que uma fórmula de classificação é criada, você pode atribuí-la a u
 
 Para criar uma fórmula de classificação, siga as etapas abaixo:
 
-1. Acesse o **[!UICONTROL Components]** , em seguida, selecione o **[!UICONTROL Rankings]** guia . A lista de classificações criadas anteriormente é exibida.
+1. Acesse o **[!UICONTROL Componentes]** , em seguida, selecione o **[!UICONTROL Classificações]** guia . A lista de classificações criadas anteriormente é exibida.
 
    ![](../assets/rankings-list.png)
 
-1. Clique em **[!UICONTROL Create ranking]** para criar uma nova fórmula de classificação.
+1. Clique em **[!UICONTROL Criar classificação]** para criar uma nova fórmula de classificação.
 
    ![](../assets/ranking-create-formula.png)
 
@@ -41,7 +41,7 @@ Para criar uma fórmula de classificação, siga as etapas abaixo:
 
    ![](../assets/ranking-syntax.png)
 
-1. Clique em **[!UICONTROL Save]**. Sua fórmula de classificação é criada, você pode selecioná-la na lista para obter detalhes e editá-la ou excluí-la.
+1. Clique em **[!UICONTROL Salvar]**. Sua fórmula de classificação é criada, você pode selecioná-la na lista para obter detalhes e editá-la ou excluí-la.
 
    Agora ele está pronto para ser usado em uma decisão para classificar ofertas elegíveis para uma disposição (consulte [Configurar seleção de ofertas em decisões](../offer-activities/configure-offer-selection.md)).
 

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '865'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Isso permite testar e refinar várias versões das ofertas sem afetar os recipie
 >
 >Esse recurso simula uma única solicitação para o [!DNL Decisioning] API. Saiba mais sobre [Entregar ofertas usando a API do Decisioning](../api-reference/offer-delivery-api/decisioning-api.md).
 
-Para acessar esse recurso, selecione o **[!UICONTROL Simulation]** na guia do **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** menu.
+Para acessar esse recurso, selecione o **[!UICONTROL Simulação]** na guia do **[!UICONTROL Gestão de decisões]** > **[!UICONTROL Ofertas]** menu.
 
 ![](../assets/offers_simulation-tab.png)
 
@@ -53,7 +53,7 @@ Primeiro, é necessário selecionar os perfis de teste que serão usados para si
 >
 >Você deve ter perfis de teste disponíveis para simular quais ofertas serão entregues a eles. Saiba como [criar perfis de teste](../../segment/creating-test-profiles.md).
 
-1. Clique em **[!UICONTROL Manage profile]**.
+1. Clique em **[!UICONTROL Gerenciar perfil]**.
 
    ![](../assets/offers_simulation-manage-profile.png)
 
@@ -63,7 +63,7 @@ Primeiro, é necessário selecionar os perfis de teste que serão usados para si
    >
    >Um namespace de identidade define o contexto de um identificador, como um endereço de email ou ID de CRM. Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../../segment/get-started-identity.md){target=&quot;_blank&quot;}.
 
-1. Insira o valor de identidade e clique em **[!UICONTROL View]** para listar os perfis disponíveis.
+1. Insira o valor de identidade e clique em **[!UICONTROL Exibir]** para listar os perfis disponíveis.
 
    ![](../assets/offers_simulation-add-profile.png)
 
@@ -71,15 +71,15 @@ Primeiro, é necessário selecionar os perfis de teste que serão usados para si
 
    ![](../assets/offers_simulation-save-profiles.png)
 
-1. Depois de adicionados, todos os perfis são listados na lista suspensa em **[!UICONTROL Test profile]**. Você pode alternar entre os perfis de teste salvos para exibir os resultados de cada perfil selecionado.
+1. Depois de adicionados, todos os perfis são listados na lista suspensa em **[!UICONTROL Perfil de teste]**. Você pode alternar entre os perfis de teste salvos para exibir os resultados de cada perfil selecionado.
 
    ![](../assets/offers_simulation-saved-profiles.png)
 
    >[!NOTE]
    >
-   >Os perfis selecionados permanecerão listados como perfis de teste na **[!UICONTROL Simulation]** guia de sessão em sessão até que sejam removidos usando **[!UICONTROL Manage profile]**.
+   >Os perfis selecionados permanecerão listados como perfis de teste na **[!UICONTROL Simulação]** guia de sessão em sessão até que sejam removidos usando **[!UICONTROL Gerenciar perfil]**.
 
-1. Você pode clicar no botão **[!UICONTROL Profile details]** link para exibir os dados de perfil selecionados.
+1. Você pode clicar no botão **[!UICONTROL Detalhes do perfil]** link para exibir os dados de perfil selecionados.
 
 <!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
@@ -87,7 +87,7 @@ Primeiro, é necessário selecionar os perfis de teste que serão usados para si
 
 Em seguida, selecione as decisões de oferta que deseja simular nos perfis de teste.
 
-1. Selecione **[!UICONTROL Add decision scope]**.
+1. Selecionar **[!UICONTROL Adicionar escopo de decisão]**.
 
    ![](../assets/offers_simulation-add-decision.png)
 
@@ -98,9 +98,9 @@ Em seguida, selecione as decisões de oferta que deseja simular nos perfis de te
 1. As decisões disponíveis são exibidas.
 
    * Você pode usar o campo de pesquisa para refinar a seleção.
-   * Você pode clicar no botão **[!UICONTROL Open offer decisions]** para abrir a lista de todas as decisões criadas. Saiba mais sobre [decisões](create-offer-activities.md).
+   * Você pode clicar no botão **[!UICONTROL Abrir decisões de oferta]** para abrir a lista de todas as decisões criadas. Saiba mais sobre [decisões](create-offer-activities.md).
 
-   Selecione a decisão de sua escolha e clique em **[!UICONTROL Add]**.
+   Selecione a decisão de sua escolha e clique em **[!UICONTROL Adicionar]**.
 
    ![](../assets/offers_simulation-add-decision-scope-add.png)
 
@@ -126,11 +126,11 @@ Em seguida, selecione as decisões de oferta que deseja simular nos perfis de te
 
 Para editar as configurações padrão das simulações, siga as etapas abaixo.
 
-1. Clique em **[!UICONTROL Settings]**.
+1. Clique em **[!UICONTROL Configurações]**.
 
    ![](../assets/offers_simulation-settings.png)
 
-1. No **[!UICONTROL Deduplication]** , é possível optar por permitir ofertas duplicadas entre decisões e/ou disposições. Isso significa que várias decisões/disposições podem receber a mesma oferta.
+1. No **[!UICONTROL Desduplicação]** , é possível optar por permitir ofertas duplicadas entre decisões e/ou disposições. Isso significa que várias decisões/disposições podem receber a mesma oferta.
 
    ![](../assets/offers_simulation-settings-deduplication.png)
 
@@ -138,7 +138,7 @@ Para editar as configurações padrão das simulações, siga as etapas abaixo.
    >
    >Por padrão, todos os sinalizadores de Desduplicação são ativados para simulação, o que significa que o mecanismo de decisão permite duplicatas e, portanto, pode fazer a mesma apresentação em várias decisões/disposições. Saiba mais sobre o [!DNL Decisioning] Propriedades da solicitação de API em [esta seção](../api-reference/offer-delivery-api/decisioning-api.md).
 
-1. No **[!UICONTROL Response format]** , você pode optar por incluir metadados na visualização de código. Marque a opção correspondente e selecione os metadados de sua escolha. Eles serão exibidos nas cargas de solicitação e resposta ao selecionar **[!UICONTROL View code]**. Saiba mais na [Exibir resultados da simulação](#simulation-results) seção.
+1. No **[!UICONTROL Formato de resposta]** , você pode optar por incluir metadados na visualização de código. Marque a opção correspondente e selecione os metadados de sua escolha. Eles serão exibidos nas cargas de solicitação e resposta ao selecionar **[!UICONTROL Exibir código]**. Saiba mais na [Exibir resultados da simulação](#simulation-results) seção.
 
    ![](../assets/offers_simulation-settings-response-format.png)
 
@@ -146,7 +146,7 @@ Para editar as configurações padrão das simulações, siga as etapas abaixo.
    >
    >Ao ativar a opção , todos os itens são selecionados por padrão.
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
 >[!NOTE]
 >
@@ -170,7 +170,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 Depois de adicionar um escopo de decisão e selecionar um perfil de teste, você poderá visualizar os resultados.
 
-1. Clique em **[!UICONTROL View results]**.
+1. Clique em **[!UICONTROL Exibir resultados]**.
 
    ![](../assets/offers_simulation-view-results.png)
 
@@ -180,7 +180,7 @@ Depois de adicionar um escopo de decisão e selecionar um perfil de teste, você
 
    ![](../assets/offers_simulation-offer-details.png)
 
-1. Clique em **[!UICONTROL View code]** para exibir as cargas de solicitação e resposta. [Saiba mais](#view-code)
+1. Clique em **[!UICONTROL Exibir código]** para exibir as cargas de solicitação e resposta. [Saiba mais](#view-code)
 
 1. Selecione outro perfil na lista para exibir os resultados das decisões de oferta para um perfil de teste diferente.
 
@@ -188,23 +188,23 @@ Depois de adicionar um escopo de decisão e selecionar um perfil de teste, você
 
 >[!NOTE]
 >
->Sempre que alterar perfis ou atualizar escopos de decisão, será necessário atualizar os resultados usando o **[!UICONTROL View results]** botão.
+>Sempre que alterar perfis ou atualizar escopos de decisão, será necessário atualizar os resultados usando o **[!UICONTROL Exibir resultados]** botão.
 
 ## Exibir código {#view-code}
 
-1. Use o **[!UICONTROL View code]** para exibir as cargas de solicitação e resposta.
+1. Use o **[!UICONTROL Exibir código]** para exibir as cargas de solicitação e resposta.
 
    ![](../assets/offers_simulation-view-code.png)
 
-   A exibição de código mostra as informações do desenvolvedor para o usuário atual. Por padrão, a variável **[!UICONTROL Response payload]** é exibida.
+   A exibição de código mostra as informações do desenvolvedor para o usuário atual. Por padrão, a variável **[!UICONTROL Carga de resposta]** é exibida.
 
    ![](../assets/offers_simulation-request-payload.png)
 
-1. Clique em **[!UICONTROL Response payload]** ou **[!UICONTROL Request payload]** para navegar entre as duas guias.
+1. Clique em **[!UICONTROL Carga de resposta]** ou **[!UICONTROL Solicitar carga]** para navegar entre as duas guias.
 
    ![](../assets/offers_simulation-response-payload.png)
 
-1. Para usar a carga da solicitação fora de [!DNL Journey Optimizer] - para fins de solução de problemas, por exemplo, copie-o usando o **[!UICONTROL Copy to clipboard]** na parte superior da visualização de código.
+1. Para usar a carga da solicitação fora de [!DNL Journey Optimizer] - para fins de solução de problemas, por exemplo, copie-o usando o **[!UICONTROL Copiar para a área de transferência]** na parte superior da visualização de código.
 
    ![](../assets/offers_simulation-copy-payload.png)
 

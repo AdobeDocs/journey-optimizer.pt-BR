@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Acessar e gerenciar públicos
+title: Acessar e gerenciar públicos-alvo
 description: Saiba como acessar e gerenciar públicos-alvo
 feature: Journeys
 topic: Content Management
@@ -12,12 +12,12 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
 
-# Acessar e gerenciar públicos {#access-manage-audiences}
+# Acessar e gerenciar públicos-alvo {#access-manage-audiences}
 
 Os públicos-alvo podem ser acessados a partir da variável **[!UICONTROL Públicos-alvo]** na guia no **[!UICONTROL Segmentos]** menu.
 
@@ -43,6 +43,6 @@ Para atribuir rótulos de uso de dados personalizados ou principais a um públic
 
 Saiba mais:
 
-* [Introdução à composição do público-alvo](get-started-audience-orchestration.md)
+* [Introdução à composição de público-alvo](get-started-audience-orchestration.md)
 * [Criar workflows de composição](create-compositions.md)
 * [Trabalhar com a tela de composição](composition-canvas.md)

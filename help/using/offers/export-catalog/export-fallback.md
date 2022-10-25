@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1050'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ O lote bem-sucedido mais recente no conjunto de dados é exibido à direita. A e
 >
 >Saiba como acessar os conjuntos de dados exportados para cada objeto da Biblioteca de ofertas em [esta seção](../export-catalog/access-dataset.md).
 
-Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decision Object Repository - Fallback Offers]** conjunto de dados.
+Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Repositório de objetos de decisão - Ofertas de fallback]** conjunto de dados.
 
 ## Identificador {#identifier}
 
