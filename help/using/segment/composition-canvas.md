@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '989'
 ht-degree: 2%
 
 ---
@@ -121,7 +121,7 @@ O **[!UICONTROL Classificação]** permite classificar perfis com base em um atr
 
 1. Selecione o atributo que deseja pesquisar e especifique uma ordem de classificação (crescente ou decrescente).
 
-   >[ OBSERVAÇÃO ]
+   >[!NOTE]
    >
    >Você pode selecionar atributos com os seguintes tipos de dados: número inteiro, números, curto <!--(other?)-->
 

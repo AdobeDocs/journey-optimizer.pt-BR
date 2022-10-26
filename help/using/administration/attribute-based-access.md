@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 4%
@@ -127,7 +127,7 @@ No nosso exemplo, um primeiro usuário X com acesso a objetos rotulados como C2 
 
    ![](assets/journey_1.png)
 
-1. Adicione um novo **[!UICONTROL Grupo de campos]** de seus **[!UICONTROL Esquema]** para o **[!UICONTROL Fonte de dados]**. Você também pode criar um novo **[!UICONTROLDfonte de dados]** e associadas **[!UICONTROL Grupos de campos]**.
+1. Adicione um novo **[!UICONTROL Grupo de campos]** de seus **[!UICONTROL Esquema]** para o **[!UICONTROL Fonte de dados]**. Você também pode criar um novo **[!UICONTROL fonte de dados]** e associadas **[!UICONTROL Grupos de campos]**.
 
    ![](assets/journey_2.png)
 

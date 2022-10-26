@@ -4,7 +4,7 @@ product: journey optimizer
 title: Acione campanhas usando APIs
 description: Saiba como acionar campanhas usando o [!DNL Journey Optimizer] APIs
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 3%
@@ -76,6 +76,7 @@ O `{{context.<contextualAttribute>}}` A sintaxe é mapeada somente para um tipo 
 >[!IMPORTANT]
 >
 >O `context.system` A sintaxe é restrita somente ao uso interno do Adobe e não deve ser usada para transmitir atributos contextuais.
+
 Observe que, por enquanto, nenhum atributo contextual está disponível para uso no menu do painel à esquerda. Os atributos devem ser digitados diretamente na expressão de personalização, sem que nenhuma verificação seja executada por [!DNL Journey Optimizer].
 
 ## Executar a campanha {#execute}

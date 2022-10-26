@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 13%
+source-wordcount: '400'
+ht-degree: 14%
 
 ---
 
@@ -26,7 +26,7 @@ Para criar e visualizar rapidamente suas experiências da Web, a extensão do na
 
 Para obter e instalar a extensão do navegador do Visual Editing Helper, siga as etapas abaixo.
 
-1. Na Google Chrome Web Store, navegue até o [Adobe Experience Cloud Visual Editing Helper ]((https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}) extensão do navegador.
+1. Na Google Chrome Web Store, navegue até o [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)Extensão do navegador {target=&quot;_blank&quot;}.
 
 1. Clique em **[!UICONTROL Adicionar ao Chrome]** > **[!UICONTROL Adicionar extensão]**.
 

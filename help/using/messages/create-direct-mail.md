@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: fe6fedfd3fb0a8b083f7b047e2879ef6510b041b
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 8%
@@ -30,6 +30,7 @@ As mensagens de correspondência direta só podem ser criadas no contexto de cam
 >[!IMPORTANT]
 >
 >Antes de enviar uma mensagem de mala direta, verifique se você configurou:
+>
 >* A [configuração de roteamento de arquivos](../configuration/direct-mail-configuration.md#file-routing-configuration) que especifica o servidor onde o arquivo de extração deve ser carregado e armazenado,
 >* A [superfície da mensagem de correspondência direta](../configuration/direct-mail-configuration.md#direct-mail-surface) que referenciará a configuração de roteamento de arquivos.
 

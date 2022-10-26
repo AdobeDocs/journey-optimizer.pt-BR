@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '352'
 ht-degree: 6%
 
 ---
@@ -51,7 +51,7 @@ Os fluxos de trabalho de composição permitem combinar e organizar os públicos
 
    ![](assets/audiences-publish.png)
 
-1. Quando a composição estiver pronta, clique no botão [**!UICONTROL Publicar]** para publicar a composição e salvar os públicos resultantes no Adobe Experience Platform.
+1. Quando a composição estiver pronta, clique no botão **[!UICONTROL Publicar]** para publicar a composição e salvar os públicos resultantes no Adobe Experience Platform.
 
    Se ocorrer algum erro durante a publicação, serão exibidos alertas com informações sobre como resolver o problema.
 

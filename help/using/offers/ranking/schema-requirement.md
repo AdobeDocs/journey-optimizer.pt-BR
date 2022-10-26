@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Agora, cada vez que uma oferta é exibida e/ou clicada, você deseja que o event
 
 Para poder enviar tipos de evento (oferta exibida ou oferta clicada), você deve definir o valor correto para cada tipo de evento em um evento de experiência enviado para o Adobe Experience Platform. Abaixo estão os requisitos de esquema que você precisa implementar no código JavaScript:
 
-### Cenário exibido da oferta
+## Cenário exibido da oferta
 
 **Tipo de evento:** `decisioning.propositionDisplay`
 **Fonte:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou a ingestão por lotes
@@ -49,8 +49,8 @@ Para poder enviar tipos de evento (oferta exibida ou oferta clicada), você deve
                     "xdm:id": "personalized-offer:f67bab756ed6ee5",
                 }
             ],
-            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for “nextBestOffer”
-            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for “nextBestOffer”
+            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for "nextBestOffer"
+            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for "nextBestOffer"
         }
     ]
 }

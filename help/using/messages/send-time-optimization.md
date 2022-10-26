@@ -8,21 +8,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 1%
 
 ---
 
-## Otimização de tempo de envio{#send-time-optimization}
+# Otimização de tempo de envio{#send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="Sobre a otimização de tempo enviado"
->abstract="O recurso de Otimização de tempo de envio da Adobe Journey Optimizer, desenvolvido pelos serviços de IA do Adobe, pode prever o melhor momento para enviar um email ou mensagem de push para maximizar o engajamento com base nas taxas de abertura e cliques do histórico."
+>abstract="O recurso de Otimização de Envio da Adobe Journey Optimizer, desenvolvido pelos serviços de Adobe, pode prever o melhor momento para enviar um email ou mensagem de push para maximizar o engajamento com base nas taxas de abertura e cliques do histórico."
 
-O recurso de Otimização de tempo de envio da Adobe Journey Optimizer, desenvolvido pelos serviços de IA do Adobe, pode prever o melhor momento para enviar um email ou mensagem de push para maximizar o engajamento com base nas taxas de abertura e cliques do histórico. Use nosso modelo de aprendizado de máquina para agendar tempos de envio personalizados para cada usuário a fim de aumentar as taxas de abertura e cliques de suas mensagens.
+O recurso de Otimização de Envio da Adobe Journey Optimizer, desenvolvido pelos serviços de Adobe, pode prever o melhor momento para enviar um email ou mensagem de push para maximizar o engajamento com base nas taxas de abertura e cliques do histórico. Use nosso modelo de aprendizado de máquina para agendar tempos de envio personalizados para cada usuário a fim de aumentar as taxas de abertura e cliques de suas mensagens.
 
 O modelo de Otimização de tempo de envio assimila seus dados do Adobe Journey Optimizer e verifica as taxas de abertura no nível do usuário (para email e push) e de clique (para email) para determinar quando os clientes têm maior probabilidade de se envolver com suas mensagens. A otimização de tempo de envio requer no mínimo um mês de dados de rastreamento de mensagem para fazer recomendações informadas. Para cada usuário, o sistema selecionará automaticamente o melhor horário usando as seguintes pontuações:
 
@@ -41,7 +41,7 @@ Essas informações são armazenadas com o perfil do usuário e são referenciad
 >
 >Este recurso não é compatível com o modo de interrupção.
 
-### Ativar otimização de tempo de envio{#activate-send-time-optimization}
+## Ativar otimização de tempo de envio{#activate-send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"

@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de versão de 2022
 description: Notas de versão do Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '2519'
 ht-degree: 100%
@@ -525,7 +525,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>No conteúdo da mensagem do Journey Optimizer, agora é possível adicionar parâmetros UTM aos links: eles podem fornecer dados adicionais sobre esse link e ajudar a identificar onde e por que uma pessoa clicou em seu link.</p>
-<p>Para obter mais informações, consulte a <a href="../configuration/channel-surfaces.md#configure-email-settings">documentação detalhada</a>.</p-->
+<p>Para obter mais informações, consulte a <a href="../configuration/channel-surfaces.md#configure-email-settings">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
