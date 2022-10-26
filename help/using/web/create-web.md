@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: d94f0690629f924245d7a672ecf81decd0724861
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1045'
 ht-degree: 6%
 
 ---
@@ -40,7 +40,9 @@ Para acessar e criar páginas da Web no [!DNL Journey Optimizer] na interface do
 
 Para que a experiência da Web seja entregue corretamente, as seguintes configurações devem ser definidas:
 
-* No [Coleta de dados do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=pt-BR){target=&quot;_blank&quot;}, verifique se você tem um conjunto de dados definido como no **[!UICONTROL Adobe Experience Platform]** você tem o **[!UICONTROL Segmentação de borda]** e **[!UICONTROL Adobe Journey Optimizer]** opções ativadas. Isso garante que os eventos de entrada do Journey Optimizer sejam manipulados corretamente pelo Adobe Experience Platform Edge. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
+* No [Coleta de dados do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=pt-BR){target=&quot;_blank&quot;}, verifique se você tem um conjunto de dados definido como no **[!UICONTROL Adobe Experience Platform]** você tem o **[!UICONTROL Segmentação de borda]** e **[!UICONTROL Adobe Journey Optimizer]** opções ativadas.
+
+   Isso garante que os eventos de entrada do Journey Optimizer sejam manipulados corretamente pelo Adobe Experience Platform Edge. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
 
    ![](assets/web-aep-datastream-ajo.png)
 
@@ -49,6 +51,8 @@ Para que a experiência da Web seja entregue corretamente, as seguintes configur
    >O **[!UICONTROL Adobe Journey Optimizer]** pode ser ativada somente quando a variável **[!UICONTROL Segmentação de borda]** já está ativada.
 
 * Em [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target=&quot;_blank&quot;}, verifique se você tem uma política de mesclagem com o **[!UICONTROL Política de Mesclagem Ativa On-Edge]** opção habilitada. Para fazer isso, selecione uma política no campo **[!UICONTROL Cliente]** > **[!UICONTROL Perfis]** > **[!UICONTROL Políticas de Mesclagem]** Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target=&quot;_blank&quot;}
+
+   Essa política de mesclagem é usada por [!DNL Journey Optimizer] canais de entrada para ativar e publicar corretamente campanhas de entrada na borda. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}
 
    ![](assets/web-aep-merge-policy.png)
 
