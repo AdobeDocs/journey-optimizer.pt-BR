@@ -7,9 +7,9 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '274'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ No menu esquerdo, em **Administração**, clique em **Alertas**. Um alerta pré-
 
 ![](assets/alerts1.png)
 
-Se tal comportamento inesperado ocorrer, uma notificação de alerta será enviada aos assinantes do alerta por email e por notificação no aplicativo, no canto superior direito da interface.
+Se tal comportamento inesperado ocorrer, uma notificação de alerta será enviada aos assinantes do alerta por email, no canto superior direito da interface.
 
 ![](assets/alerts2.png)
 

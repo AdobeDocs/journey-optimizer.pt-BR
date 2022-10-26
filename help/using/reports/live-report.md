@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '1011'
 ht-degree: 6%
 
 ---
@@ -228,25 +228,13 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
   <td>Rejeições<br/> </td> 
    <td>Número de pessoas que não interagiram com a landing page e não concluíram a ação de assinatura.<br/> </td> 
 </tr>
- <tr> 
-   <td>Taxa de rejeição<br/> </td> 
-   <td>Número de pessoas que não interagiram com a landing page e não concluíram a ação de assinatura.<br/> </td> 
-</tr>
  <tr>
   <tr> 
    <td>Cliques<br/> </td> 
    <td>Número de vezes que um conteúdo foi clicado na página de aterrissagem.<br/> </td> 
 </tr>
- <tr> 
-   <td>Taxa de cliques<br/> </td> 
-   <td>Porcentagem de cliques na página de aterrissagem.<br/> </td>
-</tr>
 <tr>
 <td>Conversão<br/> </td> 
-   <td>Número de pessoas que interagiram com a landing page, por exemplo, assinaram um formulário.<br/> </td> 
-</tr>
-<tr>
-   <td>Índice de conversão<br/> </td> 
    <td>Número de pessoas que interagiram com a landing page, por exemplo, assinaram um formulário.<br/> </td> 
 </tr>
  <tr> 
@@ -272,3 +260,77 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
  </tbody> 
 </table>
 
+### Métricas de notificação por push {#push-notification-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Métrica<br/> </th> 
+   <th> Definição<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Ações<br/> </td> 
+   <td> Número total de ações na notificação por push entregue, por exemplo, clique no botão ou descarta.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Rejeições<br/> </td> 
+   <td> Total de erros acumulados durante o delivery e o processamento automático de retorno.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Entregues<br/> </td> 
+   <td> Número de mensagens enviadas com êxito.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Envolvimentos<br/> </td> 
+   <td> Número total de aberturas e ações para essa notificação por push, ou seja, se o perfil abriu o push ou se um botão foi clicado.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Erros<br/> </td> 
+   <td> Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Excluído<br/> </td> 
+   <td> Número de perfis que foram excluídos pelo Adobe Journey Optimizer.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Aberturas<br/> </td> 
+   <td> Número total de notificações por push enviadas ao dispositivo e clicadas pelos usuários, abrindo o aplicativo. Isso é semelhante ao Clique de push, exceto que a opção Abrir por push não será acionada se a notificação for descartada.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Enviado<br/> </td> 
+   <td> Número total de envios para o delivery.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Direcionado<br/> </td> 
+   <td> Número total de mensagens de push processadas durante a análise de delivery.<br/> </td> 
+</tr>  
+ </tbody> 
+</table>
+
+<!--
+### In-app metrics {#inapp-metrics}
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metric<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Clicks<br/> </td> 
+   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Impressions<br/> </td> 
+   <td> Total number of In-app messages delivered to all users.<br/> </td>
+</tr>
+  <tr> 
+   <td>Unique impressions<br/> </td> 
+   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+-->
