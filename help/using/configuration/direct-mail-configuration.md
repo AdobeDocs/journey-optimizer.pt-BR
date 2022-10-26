@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ef66b30870fabf882bd368294e8a3b388d7ec182
+source-git-commit: 1f6b29d781abc17e238e4a3e051dc61d250b37a0
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '823'
 ht-degree: 3%
 
 ---
@@ -69,7 +69,7 @@ Para enviar uma mensagem de correspondência direta, é necessário criar um arq
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. Se você selecionou **[!UICONTROL Amazon S3]**, é possível escolher a região do AWS para a qual deseja exportar e carregar seus arquivos de correspondência direta.
+1. Se você selecionou **[!UICONTROL Amazon S3]**, escolha a região do AWS onde deseja exportar e fazer upload de seus arquivos de correspondência direta.
 
    ![](assets/file-routing-config-aws-region.png)
 
