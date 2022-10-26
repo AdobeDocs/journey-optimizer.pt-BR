@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: f64a6571609c69262670ac45a88cda0112aea5fa
+source-git-commit: ef66b30870fabf882bd368294e8a3b388d7ec182
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '825'
 ht-degree: 3%
 
 ---
@@ -27,12 +27,12 @@ Para enviar uma mensagem de correspondência direta, é necessário criar um arq
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="Definir as configurações da configuração de roteamento de arquivos"
->abstract="Você precisa definir onde o arquivo será exportado e carregado para que seu provedor de correspondência direta use."
+>abstract="Ao criar a mensagem de correspondência direta, você gerará o arquivo contendo todas as informações de perfil necessárias. Esse arquivo precisa ser exportado e carregado em um servidor para que seu provedor de correspondência direta possa acessar e usar esse arquivo para delivery de correspondência direta."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
 >title="Definir as configurações da configuração de roteamento de arquivos"
->abstract="Ao criar a mensagem de correspondência direta, você gerará o arquivo contendo todas as informações de perfil necessárias. Esse arquivo precisa ser exportado e carregado em um servidor para que seu provedor de correspondência direta possa acessar e usar esse arquivo para delivery de correspondência direta."
+>abstract="Você precisa definir onde o arquivo será exportado e carregado para que seu provedor de correspondência direta use."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
@@ -42,12 +42,12 @@ Para enviar uma mensagem de correspondência direta, é necessário criar um arq
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Selecione o tipo de servidor para o roteamento de arquivos"
->abstract="Selecione o servidor que deseja usar para carregar e armazenar os arquivos de correspondência direta."
+>abstract="Escolha o servidor que deseja usar para fazer upload e armazenar os arquivos de correspondência direta. Atualmente, somente o Amazon S3 e SFTP são compatíveis."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="Escolha a região do AWS"
->abstract="Selecione o servidor que deseja usar para carregar e armazenar os arquivos de correspondência direta. Atualmente, somente o Amazon S3 e SFTP são compatíveis."
+>abstract="Selecione a região geográfica onde deseja exportar e carregar seus arquivos de correspondência direta. Para um uso ideal, é recomendável escolher a região mais próxima para hospedar sua infraestrutura de nuvem."
 
 1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração do roteamento de arquivos]** > **[!UICONTROL Roteamento de arquivo]** , em seguida, clique em **[!UICONTROL Criar configuração de roteamento]**.
 
@@ -55,7 +55,7 @@ Para enviar uma mensagem de correspondência direta, é necessário criar um arq
 
 1. Defina um nome para sua configuração.
 
-1. Selecione a configuração **[!UICONTROL Tipo]**, ou seja, o servidor que você deseja usar para carregar e armazenar os arquivos de correspondência direta.<!--why is it Type and not Server or Server type? asked to PM-->
+1. Selecione a configuração **[!UICONTROL Tipo de servidor]**, ou seja, o servidor que você deseja usar para carregar e armazenar os arquivos de correspondência direta.
 
    ![](assets/file-routing-config-type.png)
 
@@ -65,9 +65,7 @@ Para enviar uma mensagem de correspondência direta, é necessário criar um arq
 
    Ao criar a mensagem de correspondência direta, você gerará o arquivo contendo todas as informações de perfil necessárias. Esse arquivo precisa ser exportado e carregado em um servidor para que seu provedor de correspondência direta possa acessar e usar esse arquivo para delivery de correspondência direta.
 
-1. Preencha os detalhes e as credenciais específicas do tipo de configuração selecionado, como endereço do servidor, chave de acesso, etc. <!--need to detail more?-->
-
-   <!--![](assets/file-routing-config-aws-details.png)-->
+1. Preencha os detalhes e as credenciais específicas do tipo de configuração selecionado, como endereço do servidor, chave de acesso, etc.
 
    ![](assets/file-routing-config-sftp-details.png)
 
@@ -90,12 +88,13 @@ Para enviar uma mensagem de correspondência direta, é necessário criar um arq
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Definir as configurações de correspondência direta"
->abstract="Uma superfície de correspondência direta contém as configurações relacionadas à formatação do arquivo que contém os dados de perfil para correspondência direta. Você pode (definir a configuração de classificação), remover linhas duplicadas, dividir registros em vários arquivos e selecionar a configuração de roteamento de arquivos."
+>abstract="Uma superfície de correspondência direta contém as configurações relacionadas à formatação do arquivo que contém os dados de perfil para correspondência direta. Você também deve definir onde o arquivo será exportado selecionando a configuração de roteamento do arquivo."
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_sort"
->title="Definir a ordem de classificação"
->abstract="Se você selecionar essa opção, a classificação será por ID de perfil, crescente ou decrescente. Se você desmarcá-la, a configuração de classificação será definida ao criar a mensagem de correspondência direta em uma jornada ou campanha."
+>title="Define the sort order"
+>abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
@@ -128,7 +127,7 @@ Depois que o roteamento de arquivos for configurado, é necessário criar uma su
    >
    >É possível definir qualquer número entre 1 e 200.000 registros, o que significa que cada arquivo deve conter pelo menos 1 linha e não mais de 200.000 linhas.
 
-1. Finalmente, selecione o [configuração de roteamento de arquivos](#file-routing-configuration) entre os que você criou. Isso define onde o arquivo será exportado e carregado para que seu provedor de correspondência direta use.
+1. Finalmente, selecione o **[!UICONTROL Configuração do roteamento de arquivos]** entre os que você criou. Isso define onde o arquivo será exportado e carregado para que seu provedor de correspondência direta use.
 
    >[!CAUTION]
    >

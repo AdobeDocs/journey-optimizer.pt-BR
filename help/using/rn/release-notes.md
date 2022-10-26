@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 95%
+source-wordcount: '1112'
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,10 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 **Jornadas**
 
 * O **Forçar a reentrada na recorrência** foi adicionada em parâmetros de programação de segmentos de leitura recorrentes. Essa opção permite que todos os perfis ainda presentes na jornada o saiam automaticamente na próxima execução. Quando a opção estiver desativada, os perfis devem concluir a jornada antes que possam entrar novamente em outra ocorrência. [Saiba mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**Campanhas**
+
+* Agora é possível arquivar campanhas concluídas e interrompidas. [Saiba mais](../campaigns/modify-stop-campaign.md#archive)
 
 ## Versão de setembro de 2022{#sept-2022-release}
 
