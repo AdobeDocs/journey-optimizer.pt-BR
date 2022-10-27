@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
+source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ Para criar uma mensagem no aplicativo, siga as etapas abaixo:
    1. Na lista suspensa esquerda, selecione o evento necessário para acionar a mensagem.
    1. Na lista suspensa direita, selecione a validação necessária no evento selecionado.
    1. Clique no botão **[!UICONTROL Adicionar]** se desejar que o acionador considere vários eventos ou critérios. Em seguida, repita as etapas acima.
-   1. Selecione como seus eventos são vinculados, por exemplo **[!UICONTROL E]** se desejar **both** aciona como true para que uma mensagem seja exibida e **[!UICONTROL Ou]** se quiser que a mensagem seja exibida, se **ou** dos acionadores são verdadeiros.
+   1. Selecione como seus eventos são vinculados, por exemplo, escolha **[!UICONTROL E]** se desejar **both** aciona como true para que uma mensagem seja exibida ou escolha **[!UICONTROL Ou]** se quiser que a mensagem seja exibida, se **ou** dos acionadores são verdadeiros.
 
    ![](assets/in_app_create_3.png)
 
