@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 8%
+source-wordcount: '478'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 8%
 
 A mala direta é um canal offline que permite personalizar e gerar os arquivos de extração exigidos por provedores de mala direta para enviar mala para seus clientes.
 
-Ao criar uma correspondência direta, o Journey Optimizer gera um arquivo incluindo todos os perfis segmentados e os dados escolhidos (endereço postal, atributos de perfil, por exemplo). Você poderá enviar esse arquivo para seu provedor de correspondência direta que irá cuidar realmente do envio.
+Ao criar uma correspondência direta, o Journey Optimizer gera um arquivo incluindo todos os perfis segmentados e os dados escolhidos (endereço postal, atributos de perfil, por exemplo). Seu provedor de correspondência direta poderá recuperar esse arquivo e cuidar do envio real.
 
 As mensagens de correspondência direta só podem ser criadas no contexto de campanhas programadas. Eles não estão disponíveis para uso em campanhas acionadas por API ou em jornadas.
 
@@ -31,15 +31,15 @@ As mensagens de correspondência direta só podem ser criadas no contexto de cam
 >
 >Antes de enviar uma mensagem de mala direta, verifique se você configurou:
 >
->* A [configuração de roteamento de arquivos](../configuration/direct-mail-configuration.md#file-routing-configuration) que especifica o servidor onde o arquivo de extração deve ser carregado e armazenado,
->* A [superfície da mensagem de correspondência direta](../configuration/direct-mail-configuration.md#direct-mail-surface) que referenciará a configuração de roteamento de arquivos.
+>1. A [configuração de roteamento de arquivos](../configuration/direct-mail-configuration.md#file-routing-configuration) que especifica o servidor onde o arquivo de extração deve ser carregado e armazenado,
+>1. A [superfície da mensagem de correspondência direta](../configuration/direct-mail-configuration.md#direct-mail-surface) que referenciará a configuração de roteamento de arquivos.
 
 
 ## Criar a mensagem de mala direta {#create}
 
-As etapas para criar e enviar uma mensagem de correspondência direta são as seguintes:
+As etapas para criar e enviar uma mensagem de mala direta são as seguintes:
 
-1. Crie uma nova campanha agendada, selecione **[!UICONTROL Correspondência direta]** como sua ação e escolha a superfície da mensagem a ser usada.
+1. Crie uma nova campanha agendada, selecione **[!UICONTROL Correspondência direta]** como sua ação e escolha a superfície do canal a ser usada. [Saiba como criar uma superfície de correspondência direta](../configuration/direct-mail-configuration.md#direct-mail-surface)
 
    ![](assets/direct-mail-campaign.png)
 
@@ -75,4 +75,4 @@ As etapas para criar e enviar uma mensagem de correspondência direta são as se
 
 1. Após definir o conteúdo da correspondência direta, conclua a configuração da campanha.
 
-   Quando a campanha for iniciada, o arquivo de extração será gerado e carregado automaticamente no servidor especificado em [configuração de roteamento de arquivos](../configuration/direct-mail-configuration.md).
+   Quando a campanha for iniciada, o arquivo de extração será gerado e exportado automaticamente para o servidor especificado em [configuração de roteamento de arquivos](../configuration/direct-mail-configuration.md).
