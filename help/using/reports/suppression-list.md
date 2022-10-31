@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '770'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 Uma lista de supressão consiste em endereços de email que você deseja excluir de seus deliveries, pois o envio para esses contatos pode prejudicar sua reputação de envio e as taxas de delivery.
 
-O [!DNL Journey Optimizer] a lista de supressão é gerenciada no seu próprio nível de ambiente.
+O [!DNL Journey Optimizer] a lista de supressão é gerenciada no seu próprio nível de ambiente, ou seja, para uma determinada sandbox.
 
 Ele reúne endereços de email e domínios que são suprimidos em todas as correspondências em um único ambiente de cliente, ou seja, são específicos de uma ID da organização associada a uma ID de sandbox.
 

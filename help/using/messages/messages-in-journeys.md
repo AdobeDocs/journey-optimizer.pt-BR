@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ Use a **[!UICONTROL Otimização de hora de envio]** para agendar tempos de envi
 
 Parâmetros avançados são somente leitura e ocultos por padrão.
 
-Para acessar os parâmetros avançados, clique no ícone **[!UICONTROL Mostrar campos somente leitura]** na parte superior do painel de mensagens.
+Para acessar os parâmetros avançados, clique no ícone **[!UICONTROL Mostrar campos somente leitura]** na parte superior do painel de mensagens. Clique no mesmo ícone para ocultar as configurações avançadas.
 
 ![](assets/show-read-only.png)
 
@@ -93,14 +93,20 @@ Para notificações por push, é possível exibir os seguintes parâmetros: Toke
 
 ![](assets/push-adv-parameters.png)
 
-Para emails, é possível exibir o endereço de email principal.
+Para email, você pode exibir a variável [endereço de email principal](../configuration/primary-email-addresses.md).
 
-Para uso específico, é possível substituir esses valores em contextos específicos. Para forçar um valor, clique no ícone **Habilitar substituição de parâmetro** à direita do campo. Essa opção pode ser útil, por exemplo, para:
+Em contextos específicos, é possível substituir esses valores para uso específico. Para forçar um valor, clique no ícone **[!UICONTROL Habilitar substituição de parâmetro]** à direita do campo.
 
-* Testar um email; você pode adicionar seu endereço de email. Após publicar a jornada, o email será enviado para você.
+![](assets/email-adv-parameters.png)
+
+Essa opção pode ser útil, por exemplo, para:
+
+* Teste um email. Você pode adicionar seu endereço de email; depois de publicar a jornada, o email será enviado para você.
 * Consultar o endereço de email dos assinantes de uma lista. Saiba mais [neste caso de uso](../building-journeys/message-to-subscribers-uc.md).
 
-Clique no mesmo ícone para ocultar as configurações avançadas.
+>[!NOTE]
+>
+>A substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, não é necessário alterar o endereço de email, pois o valor é definido como o endereço principal na **[!UICONTROL Campos de execução]** é o que deve ser usado. [Saiba mais](../configuration/primary-email-addresses.md)
 
 ## Procurar mensagens{#browse-message}
 

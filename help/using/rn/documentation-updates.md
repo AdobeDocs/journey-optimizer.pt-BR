@@ -4,10 +4,10 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '2054'
-ht-degree: 97%
+source-wordcount: '2128'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,8 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * A seção do caso de uso de jornada foi reorganizada em duas categorias: [Casos de uso de negócios](../building-journeys/journeys-uc.md) e [Casos de uso técnico](../building-journeys/collections.md).
 * O **Conjunto de dados da entidade** foi atualizada com mais detalhes. [Saiba mais](../start/datasets-query-examples.md#entity-dataset)
 * As informações relacionadas ao gerenciamento de recusa e às políticas de consentimento foram reorganizadas em uma nova seção. [Leia mais](../privacy/opt-out.md)
+* A seção sobre parâmetros avançados nas mensagens do jornada foi esclarecida e agora especifica que a substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, o valor é definido como o endereço principal na variável **Campos de execução** é o que deve ser usado. [Leia mais](../messages/messages-in-journeys.md#adv-settings)
+* Adição de uma observação ao **Configurar subdomínios de página de aterrissagem** para especificar que letras maiúsculas não são permitidas em subdomínios de página de aterrissagem. [Leia mais](../configuration/lp-subdomains.md)
 
 ## Setembro de 2022 {#september-2022}
 

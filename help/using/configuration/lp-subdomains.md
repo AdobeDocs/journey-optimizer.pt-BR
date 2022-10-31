@@ -6,9 +6,9 @@ description: Saiba como configurar subdomínios de página de aterrissagem com o
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,12 @@ ht-degree: 1%
 Para poder [criar predefinições de página de aterrissagem](lp-presets.md), você deve configurar os subdomínios que serão usados para as landing pages.
 
 Você pode usar um subdomínio que já tenha sido delegado ao Adobe ou pode configurar outro subdomínio. Saiba mais sobre como delegar subdomínios ao Adobe [esta seção](delegate-subdomain.md).
+
+>[!CAUTION]
+>
+>A configuração do subdomínio da página de aterrissagem é comum a todos os ambientes. Portanto, qualquer modificação em um subdomínio de página de aterrissagem também afetará as sandboxes de produção.
+
+Observe que letras maiúsculas não devem ser permitidas em um subdomínio
 
 ## Usar um subdomínio existente {#lp-use-existing-subdomain}
 
@@ -63,6 +69,8 @@ Para usar um subdomínio que já tenha sido delegado ao Adobe, siga as etapas ab
    >[!NOTE]
    >
    >Não é possível selecionar um subdomínio que já esteja sendo usado como subdomínio de página de aterrissagem.
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
    ![](assets/lp_prefix-and-subdomain.png)
 
@@ -106,6 +114,8 @@ Para configurar um novo subdomínio, siga as etapas abaixo.
    >[!CAUTION]
    >
    >Não é possível usar um subdomínio de página de aterrissagem existente.
+   >
+   >Letras maiúsculas não são permitidas em subdomínios.
 
    Não é permitido delegar um subdomínio inválido para Adobe. Certifique-se de inserir um subdomínio válido que seja de propriedade de sua organização, como marketing.suaempresa.com.
 

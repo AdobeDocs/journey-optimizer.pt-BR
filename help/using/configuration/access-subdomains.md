@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '192'
 ht-degree: 4%
 
 ---
@@ -28,10 +28,17 @@ O **[!UICONTROL Status]** fornece informações sobre o processo de delegação 
 * **[!UICONTROL Sucesso]**: O subdomínio passou pelas verificações com êxito e pode ser usado para enviar mensagens,
 * **[!UICONTROL Falha]**: Uma ou várias verificações falharam após o envio da delegação de subdomínio.
 
-Para acessar informações detalhadas sobre um subdomínio, abra-o na lista. É possível:
+Para acessar informações detalhadas sobre um subdomínio com a variável **[!UICONTROL Sucesso]** , abra-o na lista.
+
+![](assets/subdomain-delegated.png)
+
+É possível:
 
 * Recupere o nome do subdomínio (somente leitura) configurado durante o processo de delegação, bem como os URLs gerados (recursos, mirror pages, URLs de rastreamento),
 
 * Adicione um registro TXT de verificação do site do Google ao seu subdomínio para garantir que ele seja verificado (consulte [Adicionar um registro TXT do Google a um subdomínio](google-txt.md)).
 
-![](assets/subdomain-delegated.png)
+
+>[!CAUTION]
+>
+>A configuração de subdomínio é comum a todos os ambientes. Portanto, qualquer modificação em um subdomínio também afetará as sandboxes de produção.

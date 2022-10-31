@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '755'
 ht-degree: 1%
 
 ---
@@ -48,11 +48,9 @@ Você pode modificar um registro PTR para editar o subdomínio associado a um en
 
 >[!CAUTION]
 >
->Continue com muito cuidado ao editar registros de PTR. Em caso de dúvidas, entre em contato com um especialista em capacidade de delivery.<!--why?-->
-
->[!NOTE]
+>Os registros PTR são comuns a todos os ambientes. Portanto, qualquer modificação em um registro PTR também afetará as sandboxes de produção.
 >
->Não é possível modificar o **[!UICONTROL IP]** e **[!UICONTROL Registro PTR]** campos.
+>Continue com muito cuidado ao editar registros de PTR. Em caso de dúvidas, entre em contato com um especialista em capacidade de delivery.
 
 ### Subdomínios totalmente delegados {#fully-delegated-subdomains}
 
@@ -67,6 +65,10 @@ Para editar um registro PTR com um subdomínio que esteja [plenamente delegado](
    ![](assets/ptr-record-subdomain.png)
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar as alterações.
+
+>[!NOTE]
+>
+>Não é possível modificar o **[!UICONTROL IP]** e **[!UICONTROL Registro PTR]** campos.
 
 ### Subdomínios delegados usando o método CNAME {#edit-ptr-subdomains-cname}
 
@@ -92,6 +94,10 @@ Para editar um registro PTR com um subdomínio que é delegado ao Adobe usando o
 
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar as alterações.
+
+>[!NOTE]
+>
+>Não é possível modificar o **[!UICONTROL IP]** e **[!UICONTROL Registro PTR]** campos.
 
 ## Verificar detalhes de atualização do registro PTR {#check-ptr-record-update}
 

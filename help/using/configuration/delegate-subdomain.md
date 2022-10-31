@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1725'
 ht-degree: 9%
 
 ---
@@ -34,6 +34,8 @@ Você pode delegar totalmente um subdomínio ou criar um subdomínio usando CNAM
 >[!CAUTION]
 >
 >A delegação completa de subdomínio é o método recomendado. Saiba mais sobre as diferenças entre as duas [métodos de configuração de subdomínio](about-subdomain-delegation.md#subdomain-delegation-methods).
+>
+>A configuração de subdomínio é comum a todos os ambientes. Portanto, qualquer modificação em um subdomínio também afetará as sandboxes de produção.
 
 ## Delegação de subdomínio completa {#full-subdomain-delegation}
 
@@ -67,6 +69,8 @@ Para delegar totalmente um novo subdomínio ao Adobe, siga as etapas abaixo:
    >
    >Observe que subdomínios de vários níveis, como email.marketing.suaempresa.com, não são suportados no momento.
 
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
+
 1. A lista de registros que serão colocados em seus servidores DNS é exibida. Copie esses registros, um por um ou baixando um arquivo CSV, e navegue até a solução de hospedagem de domínio para gerar os registros DNS correspondentes.
 
 1. Verifique se todos os registros DNS foram gerados na solução de hospedagem de domínio. Se tudo estiver configurado corretamente, marque a caixa &quot;I confirm...&quot; e clique em **[!UICONTROL Enviar]**.
@@ -92,8 +96,6 @@ Para delegar totalmente um novo subdomínio ao Adobe, siga as etapas abaixo:
    >[!NOTE]
    >
    >O subdomínio será marcado como **[!UICONTROL Falha]** se você não criar o registro de validação em sua solução de hospedagem.
-
-   <!-- later on, users will be notified in Pulse -->
 
 Depois que um subdomínio é delegado ao Adobe in [!DNL Journey Optimizer], um registro PTR é criado e associado automaticamente a este subdomínio. [Saiba mais](ptr-records.md)
 
@@ -133,6 +135,8 @@ Para delegar um subdomínio usando CNAMEs, siga as etapas abaixo:
    >Não é permitido delegar um subdomínio inválido para Adobe. Certifique-se de inserir um subdomínio válido que seja de propriedade de sua organização, como marketing.suaempresa.com.
    >
    >Observe que subdomínios de vários níveis, como email.marketing.suaempresa.com, não são suportados no momento.
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
 1. A lista de registros que serão colocados em seus servidores DNS é exibida. Copie esses registros, um por um ou baixando um arquivo CSV, e navegue até a solução de hospedagem de domínio para gerar os registros DNS correspondentes.
 
