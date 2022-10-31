@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1293'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Com [!DNL Journey Optimizer], é possível monitorar todos os endereços de emai
 
 >[!NOTE]
 >
->A lista de supressão é operada no nível da sandbox.
+>A lista de supressão é gerenciada no nível da sandbox.
 
 Esses endereços de email são coletados automaticamente na Journey Optimizer **lista de supressão**. Saiba mais sobre o conceito e o uso da lista de supressão em [esta seção](../reports/suppression-list.md).
 
@@ -90,7 +90,7 @@ Para exportar a lista de supressão como um arquivo CSV, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >O tempo de download depende do tamanho do arquivo, o que significa o número de endereços de email que estão na lista de supressão.
+   >O tempo de download depende do tamanho do arquivo, o que significa o número de endereços que estão na lista de supressão.
    >
    >Uma solicitação de download pode ser processada de cada vez para uma determinada sandbox.
 
