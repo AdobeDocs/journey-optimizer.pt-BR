@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1605'
 ht-degree: 3%
 
 ---
@@ -60,15 +60,17 @@ Dependendo do status da jornada, você pode executar ações diferentes em sua j
 
 Ao projetar sua jornada, a primeira pergunta que você deseja fazer é como os perfis entrarão na jornada. Há duas possibilidades:
 
-**Começar com um evento**: quando uma jornada é definida para ouvir eventos, os indivíduos entram na jornada **unitaneamente** em tempo real. As mensagens incluídas na sua jornada são enviadas à pessoa que está fluindo atualmente para a jornada. [Saiba mais sobre eventos](../event/about-events.md)
+1. **Começar com um evento**: quando uma jornada é definida para ouvir eventos, os indivíduos entram na jornada **unitaneamente** em tempo real. As mensagens incluídas na sua jornada são enviadas à pessoa que está fluindo atualmente para a jornada. [Saiba mais sobre eventos](../event/about-events.md)
 
-**Começar com um segmento de leitura**: é possível definir a jornada para ouvir os segmentos do Adobe Experience Platform. Nesse caso, todos os indivíduos pertencentes ao segmento especificado entram na jornada. As mensagens incluídas na jornada são enviadas aos indivíduos pertencentes ao segmento. [Saiba mais sobre como ler segmentos](read-segment.md).
+1. **Começar com um segmento de leitura**: é possível definir a jornada para ouvir os segmentos do Adobe Experience Platform. Nesse caso, todos os indivíduos pertencentes ao segmento especificado entram na jornada. As mensagens incluídas na jornada são enviadas aos indivíduos pertencentes ao segmento. [Saiba mais sobre como ler segmentos](read-segment.md).
 
 ## Definir as próximas etapas{#define-next-steps}
 
 Após o primeiro evento ou Ler segmento, é possível combinar as diferentes atividades para criar cenários de vários canais em várias etapas. Escolha, na paleta, as etapas necessárias.
 
 ### Eventos{#jo-event}
+
+Eventos são o que aciona uma jornada personalizada, como uma compra online. Uma vez que alguém entra em uma jornada, eles se movem como um indivíduo, e nenhum dos dois indivíduos se movem ao mesmo ritmo ou ao longo do mesmo caminho.
 
 Quando você inicia a jornada com um evento, a jornada é acionada quando o evento é recebido. Cada pessoa na jornada segue, individualmente, as próximas etapas definidas na jornada.
 
@@ -80,11 +82,15 @@ Use **Qualificação do segmento** atividade de evento para fazer indivíduos en
 
 ### Orquestração{#jo-orch}
 
-Nas atividades de orquestração, use a variável **Ler segmento** atividade que deve definir a jornada para ouvir um segmento do Adobe Experience Platform. [Saiba mais sobre a atividade Ler segmento](read-segment.md).
+As atividades de orquestração são condições diferentes que ajudam a determinar a próxima etapa na jornada.
+
+Nas atividades de orquestração, use a variável **Ler segmento** para definir sua jornada para ouvir um segmento do Adobe Experience Platform. [Saiba mais sobre a atividade Ler segmento](read-segment.md).
 
 As outras atividades permitem adicionar condições à jornada para definir vários caminhos, definir um tempo de espera antes de executar a próxima atividade ou terminar a jornada. [Saiba mais sobre atividades de orquestração](about-journey-activities.md#orchestration-activities).
 
 ### Ações{#jo-actions}
+
+As ações são o que você deseja que ocorra como resultado de algum tipo de acionador, como enviar uma mensagem. É a jornada que o cliente experimenta. Pode ser um email, SMS ou mensagem de push ou uma ação de terceiros, como uma mensagem de Slack.
 
 As atividades de ação de canal permitem incluir uma mensagem criada em [!DNL Journey Optimizer]. [Saiba mais sobre as atividades de ação de canal](journeys-message.md)
 

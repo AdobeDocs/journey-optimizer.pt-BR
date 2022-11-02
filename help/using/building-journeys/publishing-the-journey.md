@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 8%
@@ -21,7 +21,7 @@ Você pode publicar uma jornada após testar sua validade.
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-Se precisar fazer modificações em uma jornada publicada, será necessário criar uma nova versão da jornada. Consulte [esta página](../building-journeys/journey-versions.md). Quando uma jornada é somente leitura, você só pode modificar os rótulos e as descrições da atividade, o nome da jornada e a descrição da jornada.
+Se precisar fazer modificações em uma jornada publicada, será necessário criar uma nova versão da jornada. Consulte [esta página](../building-journeys/journey.md). Quando uma jornada é somente leitura, você só pode modificar os rótulos e as descrições da atividade, o nome da jornada e a descrição da jornada.
 
 Se parar uma jornada, ela será interrompida permanentemente. Todas as pessoas que fluem na jornada serão permanentemente suspensas e a jornada deixará de permitir novas entradas. Se precisar usar a jornada novamente, será necessário duplicá-la e publicá-la.
 

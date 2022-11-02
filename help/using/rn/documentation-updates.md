@@ -4,7 +4,7 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '2128'
 ht-degree: 94%
@@ -63,7 +63,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Uma nova seção sobre solicitações de privacidade foi adicionada à documentação. [Leia mais](../privacy/requests.md)
 * Uma nova seção sobre logs de auditoria em recursos foi adicionada à documentação. [Leia mais](../privacy/audit-logs.md)
 * Uma nova seção sobre como adicionar conteúdo HTML ou JSON provenientes da biblioteca de ativos da Adobe Experience Cloud a uma representação de oferta foi adicionada à documentação. [Leia mais](../offers/offer-library/add-representations.md#html-json)
-* Nova página adicionada ao ciclo de vida da jornada. [Leia mais](../building-journeys/journey-end.md)
+* Nova página adicionada ao ciclo de vida da jornada. [Leia mais](../building-journeys/journey.md#journey-versions)
 * Atualização da página da atividade de espera. [Leia mais](../building-journeys/wait-activity.md)
 * Adição da lista de conjuntos de dados do Adobe Journey Optimizer com exemplos de consulta. [Leia mais](../start/datasets-query-examples.md)
 * A página Lista de permissões foi movida para a seção Configuração. [Leia mais](../configuration/allow-list.md)

@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1244'
 ht-degree: 95%
 
 ---
@@ -32,10 +32,7 @@ ht-degree: 95%
    + [Interface do usuário](using/start/user-interface.md)
    + [Medidas de proteção](using/start/guardrails.md)
 + Jornadas {#orchestrate-journeys}
-   + Introdução a jornadas{#about-journeys}
-      + [Princípio geral](using/building-journeys/journey.md)
-      + [Ciclo de vida da jornada](using/building-journeys/journey-end.md)
-      + [Versões de jornada](using/building-journeys/journey-versions.md)
+   + [Introdução a jornadas](using/building-journeys/journey.md)
    + Criar uma jornada{#create-journey}
       + [Criar a primeira jornada](using/building-journeys/journey-gs.md)
       + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
@@ -46,7 +43,7 @@ ht-degree: 95%
       + [Solucionar problemas da jornada](using/building-journeys/troubleshooting.md)
       + [Integrar a serviços inteligentes](using/building-journeys/ai-services-overview.md)
    + Atividades {#about-journey-building}
-      + [Sobre as atividades de jornada](using/building-journeys/about-journey-activities.md)
+      + [Introdução às atividades do jornada](using/building-journeys/about-journey-activities.md)
       + [Eventos gerais](using/building-journeys/general-events.md)
       + [Reação](using/building-journeys/reaction-events.md)
       + [Qualificação do segmento](using/building-journeys/segment-qualification-events.md)
