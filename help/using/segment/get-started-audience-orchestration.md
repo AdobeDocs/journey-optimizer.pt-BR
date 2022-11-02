@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 9%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 9%
 
 A composição do público-alvo permite criar **workflows da composição**, onde é possível combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir..) para criar novos públicos-alvo.
 
-Depois de concluído, o **públicos-alvo resultantes** são salvos no Adobe Experience Platform junto com os públicos-alvo existentes e podem ser **aproveitado em campanhas** para direcionar clientes.
+Depois de concluído, o **públicos-alvo resultantes** são salvos no Adobe Experience Platform junto com os públicos-alvo existentes e podem ser **aproveitado em campanhas** para direcionar clientes. [Saiba como trabalhar com campanhas](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 

@@ -6,9 +6,9 @@ description: Saiba mais sobre privacidade no Adobe Journey Optimizer e Adobe Exp
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '201'
 ht-degree: 9%
 
 ---
@@ -24,11 +24,9 @@ A Adobe Experience Platform e a Journey Optimizer fornecem várias ferramentas p
 
 * **Auditar ações dos usuários**: Aproveite os logs de auditoria para identificar ações executadas pelos usuários no sistema, solucionar problemas e ajudar sua empresa a cumprir as regulamentações e as políticas corporativas de gerenciamento de dados. [Saiba mais](audit-logs.md)
 
-* **Rastrear e gerenciar consentimento**:
+* **Rastrear e gerenciar consentimento**: Rastreie o consentimento dos clientes para comunicação e gerencie suas preferências e assinaturas. [Saiba mais](opt-out.md)
 
-   Rastreie o consentimento dos clientes para comunicação e gerencie suas preferências e assinaturas. [Saiba mais](opt-out.md)
-
-   Defina as políticas de consentimento da Adobe Experience Platform e as aplique às suas ações personalizadas para respeitar as preferências dos clientes. [Saiba mais](../action/consent.md)
+* **Aplicar políticas de consentimento**: Defina as políticas de consentimento da Adobe Experience Platform e as aplique às suas ações personalizadas para respeitar as preferências dos clientes. [Saiba mais](../action/consent.md)
 
 * **Aplicar políticas de governança**: Aproveite as políticas de governança do Adobe Experience Platform para evitar que campos confidenciais sejam exportados para sistemas de terceiros por meio de ações personalizadas. [Saiba mais](../action/action-privacy.md)
 
@@ -37,7 +35,7 @@ A Adobe Experience Platform e a Journey Optimizer fornecem várias ferramentas p
 <td><img src="../assets/do-not-localize/icon-privacy-request.svg" width="60px"><p><a href="requests.md">Gerenciar solicitações de dados</a></p></td>
 <td><img src="../assets/do-not-localize/icon-privacy-audit.svg" width="60px"><p><a href="audit-logs.md">Auditar ações dos usuários</a></p></td>
 <td><img src="../assets/do-not-localize/icon-privacy-optout.svg" width="60px"><p><a href="opt-out.md">Rastrear e gerenciar consentimento</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="../action/consent.md">Rastrear e gerenciar consentimento</a></p></td>
+<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="../action/consent.md">Aplicar políticas de consentimento</a></p></td>
 <td><img src="../assets/do-not-localize/icon-privacy-governance.svg" width="60px"><p><a href="../action/action-privacy.md">Aplicar políticas de governança</a></p></td>
 </tr>
 </table>
