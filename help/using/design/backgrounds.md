@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 Quando se trata de definir planos de fundo com o Email Designer, o Adobe recomenda o seguinte:
 
 1. Aplique uma cor de fundo ao corpo do email, se exigido pelo design.
-1. Na maioria dos casos, defina as cores do plano de fundo no nível da coluna.
+1. Normalmente, defina as cores do plano de fundo no nível da coluna.
 1. Tente não usar as cores de fundo em componentes de imagem ou texto, pois elas são difíceis de gerenciar.
 
 Abaixo estão as configurações de fundo disponíveis que você pode usar.
