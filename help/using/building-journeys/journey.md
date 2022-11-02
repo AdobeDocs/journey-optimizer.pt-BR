@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 19%
+source-wordcount: '573'
+ht-degree: 18%
 
 ---
 
@@ -32,27 +32,38 @@ Crie designs de cenários avançados com várias etapas e com os seguintes recur
 
 ## Etapas para criar uma jornada{#steps-journey}
 
-O Adobe Journey Optimizer inclui uma tela de orquestração omnicanal que permite que os profissionais de marketing harmonizem o alcance de marketing com o envolvimento de um para um cliente. A interface do usuário permite arrastar e soltar facilmente as atividades da paleta na tela para criar a jornada. Observe que também é possível clicar duas vezes em uma atividade para adicioná-la à tela, na próxima etapa disponível.
+Use o Adobe Journey Optimizer para projetar e orquestrar jornadas personalizadas de uma única tela.
+
+O Adobe Journey Optimizer inclui uma tela de orquestração omnicanal que permite que os profissionais de marketing harmonizem o alcance de marketing com o envolvimento de um para um cliente. A interface do usuário permite arrastar e soltar facilmente as atividades da paleta na tela para criar a jornada.
+
+![](assets/interface-journeys.png)
 
 Saiba como iniciar e criar sua primeira jornada em [esta página](journey-gs.md).
 
-Saiba como usar o designer do jornada e combinar atividades para orquestrar jornadas omnicanais poderosas no [esta seção](using-the-journey-designer.md).
+O designer de jornada omnicanal ajuda você a criar jornadas de várias etapas com públicos-alvo direcionados, atualizações baseadas em interações comerciais ou clientes em tempo real e mensagens omnicanais usando uma interface intuitiva de arrastar e soltar.
 
-Como engenheiro de dados, saiba como configurar suas jornadas, incluindo Fontes de dados, Eventos e Ações em [esta seção](../configuration/about-data-sources-events-actions.md).
+![](assets/journey38.png)
+
+Leia mais em [esta seção](using-the-journey-designer.md).
+
+Como engenheiro de dados, as etapas para configurar suas jornadas, incluindo Fontes de dados, Eventos e Ações são detalhadas em [esta seção](../configuration/about-data-sources-events-actions.md).
 
 
 ## Casos de uso{#uc-journey}
 
-Descubra os seguintes casos de uso completos para alavancar
-* Casos de uso de negócios
-   * [Enviar mensagens de vários canais](journeys-uc.md)
-   * [Enviar uma mensagem usando o Campaign v7/v8](campaign-classic-use-case.md)
-   * [Enviar uma mensagem aos assinantes](message-to-subscribers-uc.md)
+Saiba como criar jornadas nos seguintes casos de uso completos.
 
-* Casos de uso técnico
-   * [Envio dinâmico de coleções usando ações personalizadas](collections.md)
-   * [Incrementar entregas](ramp-up-deliveries-uc.md)
-   * [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](limit-throughput.md)
+Casos de uso comercial:
+
+* [Enviar mensagens de vários canais](journeys-uc.md)
+* [Enviar uma mensagem usando o Campaign v7/v8](campaign-classic-use-case.md)
+* [Enviar uma mensagem aos assinantes](message-to-subscribers-uc.md)
+
+Casos de uso técnico:
+
+* [Envio dinâmico de coleções usando ações personalizadas](collections.md)
+* [Incrementar entregas](ramp-up-deliveries-uc.md)
+* [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](limit-throughput.md)
 
 ## Versões de jornada{#journey-versions}
 
