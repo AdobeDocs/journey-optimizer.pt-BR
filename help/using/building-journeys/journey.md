@@ -1,14 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Princípio geral
-description: Princípio geral
+title: Introdução a jornadas
+description: Introdução a jornadas
 feature: Journeys
-topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -16,9 +15,9 @@ ht-degree: 0%
 ---
 
 
-# Princípio geral{#jo-general-principle}
+# Introdução a jornadas{#jo-general-principle}
 
-Use [!DNL Journey Optimizer] para criar casos de uso de orquestração em tempo real aproveitando dados contextuais armazenados em eventos ou fontes de dados.
+Use [!DNL Journey Optimizer] para criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados.
 
 Crie designs de cenários avançados com várias etapas e com os seguintes recursos:
 
@@ -75,7 +74,7 @@ Quando você pesquisa por uma jornada, as versões mais recentes são exibidas n
 
 >[!NOTE]
 >
->Na maioria dos casos, um perfil não pode estar presente várias vezes na mesma jornada, ao mesmo tempo. Se a reentrada estiver ativada, um perfil poderá inserir uma jornada novamente, mas não poderá fazer isso até que ele tenha saído totalmente da instância anterior da jornada. [Leia mais](end-journey.md).
+>Geralmente, um perfil não pode estar presente várias vezes na mesma jornada, ao mesmo tempo. Se a reentrada estiver ativada, um perfil poderá inserir uma jornada novamente, mas não poderá fazer isso até que ele tenha saído totalmente da instância anterior da jornada. [Leia mais](end-journey.md).
 
 Se precisar modificar para uma jornada ao vivo, crie uma nova versão da jornada.
 
