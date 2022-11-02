@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 4%
+source-wordcount: '1507'
+ht-degree: 3%
 
 ---
 
@@ -22,11 +22,13 @@ ht-degree: 4%
 >title="Projetar a jornada"
 >abstract="A interface de jornada permite arrastar e soltar facilmente as atividades da paleta na tela. Você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível."
 
-A interface de jornada permite arrastar e soltar facilmente as atividades da paleta na tela. Você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível. Cada atividade tem uma função e um lugar específicos no processo. As atividades são sequenciadas. Quando uma atividade é concluída, o fluxo continua e processa a próxima atividade e assim por diante.
+O Adobe Journey Optimizer inclui uma tela de orquestração omnicanal que permite que os profissionais de marketing harmonizem o alcance de marketing com o envolvimento de um para um cliente. A interface do usuário permite arrastar e soltar facilmente as atividades da paleta na tela para criar a jornada. Observe que também é possível clicar duas vezes em uma atividade para adicioná-la à tela, na próxima etapa disponível.
+
+Os eventos, as atividades de orquestração e ação têm uma função e um lugar específicos no processo. As atividades são sequenciadas: quando uma atividade é concluída, o fluxo continua e processa a próxima atividade e assim por diante.
 
 ## Introdução ao design do jornada {#gs-journey-design}
 
-O **paleta** está no lado esquerdo da tela. Todas as atividades disponíveis são classificadas em várias categorias: **[!UICONTROL Eventos]**, **[!UICONTROL Orquestração]** e **[!UICONTROL Ações]**. É possível expandir/recolher as diferentes categorias clicando no nome. Para usar uma atividade na jornada, arraste-a e solte-a da paleta na tela.
+O **paleta** está no lado esquerdo da tela. Todas as atividades disponíveis são classificadas em várias categorias: [Eventos](#jo-event), [Orquestração](#jo-orch) e [Ações](#jo-actions). É possível expandir/recolher as diferentes categorias clicando no nome. Para usar uma atividade na jornada, arraste-a e solte-a da paleta na tela.
 
 Ao iniciar uma nova jornada, os elementos que não podem ser soltos na tela como a primeira etapa são ocultos. Isso se refere a todas as ações, à atividade de condição, espera e reação.
 
@@ -66,27 +68,27 @@ Ao projetar sua jornada, a primeira pergunta que você deseja fazer é como os p
 
 Após o primeiro evento ou Ler segmento, é possível combinar as diferentes atividades para criar cenários de vários canais em várias etapas. Escolha, na paleta, as etapas necessárias.
 
-**Eventos**
+### Eventos{#jo-event}
 
-Quando você inicia a jornada com um evento, a jornada é acionada quando o evento é recebido. A pessoa seguirá, individualmente, as próximas etapas definidas na sua jornada.
+Quando você inicia a jornada com um evento, a jornada é acionada quando o evento é recebido. Cada pessoa na jornada segue, individualmente, as próximas etapas definidas na jornada.
 
-Você pode adicionar **vários eventos** na sua jornada, desde que eles usem o mesmo namespace. Os eventos são configurados antecipadamente. [Saiba mais sobre eventos](about-journey-activities.md#event-activities)
+Você pode adicionar **vários eventos** na sua jornada, desde que eles usem o mesmo namespace. Os eventos são configurados antecipadamente. [Saiba mais sobre eventos do jornada](about-journey-activities.md#event-activities)
 
-Você também pode adicionar uma **Reação** depois de uma mensagem para reagir a dados de rastreamento relacionados à mensagem. Isso permite, por exemplo, enviar outra mensagem se o indivíduo tiver aberto a mensagem anterior ou clicado nela. Saiba mais nesta [seção](reaction-events.md).
+Você também pode adicionar uma **Reação** depois de uma mensagem para reagir a dados de rastreamento relacionados à mensagem. Isso permite, por exemplo, enviar outra mensagem se o indivíduo tiver aberto a mensagem anterior ou clicado nela. [Saiba mais sobre eventos de reação](reaction-events.md).
 
-O **Qualificação do segmento** A atividade de evento permite que você insira ou avance indivíduos em uma jornada com base nas entradas e saídas do segmento Adobe Experience Platform. Você pode fazer com que todos os novos clientes prateados insiram uma jornada e enviem mensagens personalizadas. Saiba mais nesta [seção](segment-qualification-events.md).
+Use **Qualificação do segmento** atividade de evento para fazer indivíduos entrarem ou avançarem em uma jornada com base nas entradas e saídas do segmento do Adobe Experience Platform. Você pode fazer com que todos os novos clientes prateados insiram uma jornada e enviem mensagens personalizadas. Saiba mais nesta [seção](segment-qualification-events.md).
 
-**Orquestração**
+### Orquestração{#jo-orch}
 
-Nas atividades de orquestração, você encontrará a variável **Ler segmento** atividade que permite definir a jornada para ouvir um segmento do Adobe Experience Platform. [Saiba mais sobre a atividade Ler segmento](read-segment.md).
+Nas atividades de orquestração, use a variável **Ler segmento** atividade que deve definir a jornada para ouvir um segmento do Adobe Experience Platform. [Saiba mais sobre a atividade Ler segmento](read-segment.md).
 
-As outras atividades permitem adicionar condições à jornada para definir vários caminhos, definir um tempo de espera antes de executar a próxima atividade ou terminar a jornada. Saiba mais nesta [seção](about-journey-activities.md#orchestration-activities).
+As outras atividades permitem adicionar condições à jornada para definir vários caminhos, definir um tempo de espera antes de executar a próxima atividade ou terminar a jornada. [Saiba mais sobre atividades de orquestração](about-journey-activities.md#orchestration-activities).
 
-**Ações**
+### Ações{#jo-actions}
 
-Você encontrará aqui a atividade de ação de canal , que permite incluir uma mensagem criada em [!DNL Journey Optimizer]. [Saiba mais sobre as atividades de ação de canal](journeys-message.md)
+As atividades de ação de canal permitem incluir uma mensagem criada em [!DNL Journey Optimizer]. [Saiba mais sobre as atividades de ação de canal](journeys-message.md)
 
-Você também encontrará as ações personalizadas que configurou para enviar mensagens com sistemas de terceiros. Saiba mais nesta [seção](about-journey-activities.md#action-activities).
+Nas atividades de ação, use ações personalizadas para enviar mensagens com sistemas de terceiros. [Saiba mais sobre ações personalizadas](about-journey-activities.md#action-activities).
 
 ## Adicionar caminhos alternativos{#paths}
 
