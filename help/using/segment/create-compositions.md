@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 6%
+source-wordcount: '365'
+ht-degree: 7%
 
 ---
 
@@ -39,13 +39,11 @@ Os fluxos de trabalho de composição permitem combinar e organizar os públicos
    * **[!UICONTROL Salvar]**: o último passo da sua composição. Essa atividade permite salvar o resultado do fluxo de trabalho em um novo público-alvo.
    Para obter mais informações sobre como configurar atividades na tela de fluxo de trabalho de composição, consulte [Trabalhar com a tela de composição](composition-canvas.md).
 
-1. Selecione o **[!UICONTROL Público]** , em seguida, especifique um rótulo para sua composição.
+1. Abra as propriedades da composição para especificar um título e uma descrição.
 
-   >[!IMPORTANT]
-   >
-   >O **[!UICONTROL Público]** rótulo de atividade é o rótulo de sua composição. Certifique-se de fornecer um nome significativo para recuperar a composição mais facilmente na lista.
+   Se nenhum título estiver definido nas propriedades, o rótulo da composição será o do início **[!UICONTROL Público]** atividade .
 
-   ![](assets/audiences-new-composition.png)
+   ![](assets/audiences-properties.png)
 
 1. Configure sua composição adicionando quantas atividades forem necessárias entre as **[!UICONTROL Público]** e **[!UICONTROL Salvar]** atividades. [Saiba como trabalhar com a tela de composição](composition-canvas.md)
 
@@ -57,7 +55,7 @@ Os fluxos de trabalho de composição permitem combinar e organizar os públicos
 
    ![](assets/audiences-alerts.png)
 
-1. A composição é publicada. Os públicos-alvo resultantes são salvos no Adobe Experience Platform. <!-- and are ready to be targeted in Journey Optimizer campaigns. [Get started with campaigns](../campaigns/get-started-with-campaigns.md)-->
+1. A composição é publicada. Os públicos-alvo resultantes são salvos no Adobe Experience Platform e estão prontos para serem direcionados em campanhas do Journey Optimizer. [Introdução às campanhas](../campaigns/get-started-with-campaigns.md)
 
 ## Composições de acesso {#access}
 
@@ -69,7 +67,7 @@ Os fluxos de trabalho de composição permitem combinar e organizar os públicos
 Todas as composições criadas podem ser acessadas na **[!UICONTROL Composições]** guia . Eles podem ter vários status:
 
 * **[!UICONTROL Rascunho]**: a composição está em curso e não foi publicada.
-* **[!UICONTROL Publicado]**: a composição foi publicada, os públicos resultantes foram salvos. <!-- and are available for use.-->
+* **[!UICONTROL Publicado]**: a composição foi publicada, os públicos-alvo resultantes foram salvos e estão disponíveis para uso.
 * **[!UICONTROL Arquivado]**: a composição foi arquivada.
 
 ![](assets/audiences-compositions.png)

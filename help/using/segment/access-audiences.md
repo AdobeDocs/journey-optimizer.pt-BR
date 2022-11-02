@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 14%
+source-wordcount: '146'
+ht-degree: 15%
 
 ---
 
@@ -20,10 +20,6 @@ ht-degree: 14%
 # Acessar e gerenciar públicos-alvo {#access-manage-audiences}
 
 Os públicos-alvo podem ser acessados a partir da variável **[!UICONTROL Públicos-alvo]** na guia no **[!UICONTROL Segmentos]** menu.
-
->[!IMPORTANT]
->
->Por enquanto, os públicos-alvo resultantes de workflows de composição não podem ser direcionados para o Journey Optimizer.
 
 Esta guia lista todos os públicos armazenados no Adobe Experience Platform. Os públicos-alvo criados usando composições de público-alvo são identificáveis pela variável **[!UICONTROL Composição do público-alvo]** origem.
 

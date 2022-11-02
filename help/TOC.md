@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1246'
 ht-degree: 95%
 
 ---
@@ -31,114 +31,6 @@ ht-degree: 95%
       + [Introdução para desenvolvedores](using/start/path/developer.md)
    + [Interface do usuário](using/start/user-interface.md)
    + [Medidas de proteção](using/start/guardrails.md)
-+ Campanhas{#campaigns}
-   + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
-   + [Criar uma campanha](using/campaigns/create-campaign.md)
-   + [Revisar e ativar uma campanha](using/campaigns/review-activate-campaign.md)
-   + [Gerenciar campanhas ativas](using/campaigns/modify-stop-campaign.md)
-   + Experimento de conteúdo {#content-experiment}
-      + [Introdução ao experimento de conteúdo](using/campaigns/get-started-experiment.md)
-      + [Criar um experimento de conteúdo](using/campaigns/content-experiment.md)
-      + [Compreender cálculos estatísticos](using/campaigns/experiment-calculations.md)
-      + [Configurar relatórios de experimentação](using/campaigns/reporting-configuration.md)
-   + [Acione campanhas usando APIs](using/campaigns/api-triggered-campaigns.md)
-+ Mensagens {#messages}
-   + Introdução a mensagens{#get-started-msg}
-      + [Visão geral](using/messages/get-started-content.md)
-      + [Adicionar mensagens em jornadas](using/messages/messages-in-journeys.md)
-      + [Adicionar mensagens em campanhas](using/messages/messages-in-campaigns.md)
-   + [Criar um email](using/messages/create-email.md)
-   + [Criar uma notificação por push](using/messages/create-push.md)
-   + [Criar uma mensagem de SMS.](using/messages/create-sms.md)
-   + [Criar uma correspondência direta](using/messages/create-direct-mail.md)
-   + [Verificar alertas](using/messages/alerts.md)
-   + [Otimização do tempo de envio](using/messages/send-time-optimization.md)
-+ Canal da Web{#web}
-   + [Introdução ao canal da Web](using/web/get-started-web.md)
-   + [Criar experiências da Web](using/web/create-web.md)
-   + [Páginas da Web do autor](using/web/author-web.md)
-   + [Extensão Auxiliar de edição visual](using/web/visual-editing-helper.md)
-   + [Relatórios da Web](using/web/web-report.md)
-+ Canal no aplicativo{#in-app}
-   + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
-   + [Configurar canal no aplicativo](using/in-app/inapp-configuration.md)
-   + [Criar uma mensagem no aplicativo](using/in-app/create-in-app.md)
-   + [Projetar o conteúdo no aplicativo](using/in-app/design-in-app.md)
-   + [Relatório no aplicativo](using/in-app/inapp-report.md)
-+ Criação de conteúdo {#design}
-   + [Introdução ao design de email](using/design/design-emails.md)
-   + [Iniciar do zero ](using/design/create-email-content.md)
-   + [Importar o conteúdo do email](using/design/existing-content.md)
-   + [Programar seu próprio conteúdo](using/design/code-content.md)
-   + [Trabalhar com modelos](using/design/email-templates.md)
-   + Criação de conteúdo {#design-content}
-      + [Usar componentes de conteúdo](using/design/content-components.md)
-      + [Configurações de fundo](using/design/backgrounds.md)
-      + [Ajustar o alinhamento vertical e o preenchimento](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [Definir um estilo para links](using/design/styling-links.md)
-      + [Adicionar atributos de estilo em linha](using/design/adding-inline-styling-attributes.md)
-   + Configurações de email {#design-email}
-      + [Gerar a versão de texto](using/design/text-version-email.md)
-      + [Adicionar um pré-cabeçalho](using/design/preheader.md)
-   + Adicionar e gerenciar ativos {#manage-asset}
-      + [Trabalhar com o Assets Essentials](using/design/assets-essentials.md)
-      + [Trabalhar com o Adobe Stock](using/design/stock.md)
-   + [Adicionar ofertas personalizadas](using/design/deliver-personalized-offers.md)
-   + [Adicionar links e rastrear mensagens](using/design/message-tracking.md)
-   + [Pré-visualização e provas](using/design/preview.md)
-+ Páginas de destino {#landing-pages}
-   + [Introdução às páginas de destino](using/landing-pages/get-started-lp.md)
-   + [Criar uma página de destino](using/landing-pages/create-lp.md)
-   + Criação de conteúdo {#landing-pages-design}
-      + [Sobre modelos de página de destino](using/landing-pages/design-lp.md)
-      + [Criar o conteúdo da página de destino](using/landing-pages/lp-content.md)
-      + [Criar modelos](using/landing-pages/lp-templates.md)
-      + [Adicionar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
-   + [Criar uma lista de assinaturas](using/landing-pages/subscription-list.md)
-   + [Casos de uso](using/landing-pages/lp-use-cases.md)
-+ Personalização e conteúdo dinâmico {#personalized-dynamic-content}
-   + Personalização {#personalization}
-      + [Introdução à personalização](using/personalization/personalize.md)
-      + [Contextos de personalização](using/personalization/personalization-contexts.md)
-      + Criar expressões {#build-expressions}
-         + [Sintaxe de personalização](using/personalization/personalization-syntax.md)
-         + Trabalhar com o editor de expressão {#expression-editor}
-            + [Sobre o editor de expressão](using/personalization/personalization-build-expressions.md)
-            + [Adicionar atributos aos favoritos](using/personalization/personalization-favorites.md)
-            + [Trabalhar com expressões salvas](using/personalization/personalization-library.md)
-            + [Validação de personalização](using/personalization/personalization-validation.md)
-         + Funções auxiliares {#functions}
-            + [Introdução a funções auxiliares](using/personalization/functions/functions.md)
-            + [Funções de agregação](using/personalization/functions/aggregation.md)
-            + [Funções aritméticas](using/personalization/functions/arithmetic-functions.md)
-            + [Matrizes e funções de lista](using/personalization/functions/arrays-list.md)
-            + [Funções de data](using/personalization/functions/dates.md)
-            + [Funções booleanas e de comparação](using/personalization/functions/operators.md)
-            + [Auxiliares](using/personalization/functions/helpers.md)
-            + [Funções do mapa](using/personalization/functions/maps.md)
-            + [Funções do objeto](using/personalization/functions/objects.md)
-            + [Funções de string](using/personalization/functions/string.md)
-      + Casos de uso{#personalization-use-cases}
-         + [Notificação do status do pedido](using/personalization/personalization-use-case.md)
-         + [Email de abandono do carrinho](using/personalization/personalization-use-case-helper-functions.md)
-   + Conteúdo dinâmico {#dynamic}
-      + [Introdução ao conteúdo dinâmico](using/personalization/get-started-dynamic-content.md)
-      + [Criar regras condicionais](using/personalization/create-conditions.md)
-      + [Criar conteúdo dinâmico](using/personalization/dynamic-content.md)
-+ Segmentos, perfis e identidade{#segment}
-   + Segmentos {#segments}
-      + [Introdução aos segmentos](using/segment/about-segments.md)
-      + [Construir segmentos](using/segment/creating-a-segment.md)
-   + Perfis{#profiles}
-      + [Introdução aos perfis](using/segment/get-started-profiles.md)
-      + [Criar perfis de teste](using/segment/creating-test-profiles.md)
-   + [Identidades](using/segment/get-started-identity.md)
-   + Compor públicos-alvo {#audience-orchestration}
-      + [Introdução à composição de público-alvo](using/segment/get-started-audience-orchestration.md)
-      + [Criar workflows de composição](using/segment/create-compositions.md)
-      + [Trabalhar com a tela de composição](using/segment/composition-canvas.md)
-      + [Acessar e gerenciar públicos-alvo](using/segment/access-audiences.md)
-   + [Uso da licença](using/segment/license-usage.md)
 + Jornadas {#orchestrate-journeys}
    + Sobre jornadas{#about-journeys}
       + [Princípio geral](using/building-journeys/journey.md)
@@ -255,6 +147,114 @@ ht-degree: 95%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Casos de uso {#journey-use-cases}
++ Campanhas{#campaigns}
+   + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
+   + [Criar uma campanha](using/campaigns/create-campaign.md)
+   + [Revisar e ativar uma campanha](using/campaigns/review-activate-campaign.md)
+   + [Gerenciar campanhas ativas](using/campaigns/modify-stop-campaign.md)
+   + Experimento de conteúdo {#content-experiment}
+      + [Introdução ao experimento de conteúdo](using/campaigns/get-started-experiment.md)
+      + [Criar um experimento de conteúdo](using/campaigns/content-experiment.md)
+      + [Compreender cálculos estatísticos](using/campaigns/experiment-calculations.md)
+      + [Configurar relatórios de experimentação](using/campaigns/reporting-configuration.md)
+   + [Acione campanhas usando APIs](using/campaigns/api-triggered-campaigns.md)
++ Mensagens {#messages}
+   + Introdução a mensagens{#get-started-msg}
+      + [Visão geral](using/messages/get-started-content.md)
+      + [Adicionar mensagens em jornadas](using/messages/messages-in-journeys.md)
+      + [Adicionar mensagens em campanhas](using/messages/messages-in-campaigns.md)
+   + [Criar um email](using/messages/create-email.md)
+   + [Criar uma notificação por push](using/messages/create-push.md)
+   + [Criar uma mensagem de SMS.](using/messages/create-sms.md)
+   + [Criar uma correspondência direta](using/messages/create-direct-mail.md)
+   + [Verificar alertas](using/messages/alerts.md)
+   + [Otimização do tempo de envio](using/messages/send-time-optimization.md)
++ Canal da Web{#web}
+   + [Introdução ao canal da Web](using/web/get-started-web.md)
+   + [Criar experiências da Web](using/web/create-web.md)
+   + [Páginas da Web do autor](using/web/author-web.md)
+   + [Extensão Auxiliar de edição visual](using/web/visual-editing-helper.md)
+   + [Relatórios da Web](using/web/web-report.md)
++ Canal no aplicativo{#in-app}
+   + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
+   + [Configurar canal no aplicativo](using/in-app/inapp-configuration.md)
+   + [Criar uma mensagem no aplicativo](using/in-app/create-in-app.md)
+   + [Projetar o conteúdo no aplicativo](using/in-app/design-in-app.md)
+   + [Relatório no aplicativo](using/in-app/inapp-report.md)
++ Criação de conteúdo {#design}
+   + [Introdução ao design de email](using/design/design-emails.md)
+   + [Iniciar do zero ](using/design/create-email-content.md)
+   + [Importar o conteúdo do email](using/design/existing-content.md)
+   + [Programar seu próprio conteúdo](using/design/code-content.md)
+   + [Trabalhar com modelos](using/design/email-templates.md)
+   + Criação de conteúdo {#design-content}
+      + [Usar componentes de conteúdo](using/design/content-components.md)
+      + [Configurações de fundo](using/design/backgrounds.md)
+      + [Ajustar o alinhamento vertical e o preenchimento](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [Definir um estilo para links](using/design/styling-links.md)
+      + [Adicionar atributos de estilo em linha](using/design/adding-inline-styling-attributes.md)
+   + Configurações de email {#design-email}
+      + [Gerar a versão de texto](using/design/text-version-email.md)
+      + [Adicionar um pré-cabeçalho](using/design/preheader.md)
+   + Adicionar e gerenciar ativos {#manage-asset}
+      + [Trabalhar com o Assets Essentials](using/design/assets-essentials.md)
+      + [Trabalhar com o Adobe Stock](using/design/stock.md)
+   + [Adicionar ofertas personalizadas](using/design/deliver-personalized-offers.md)
+   + [Adicionar links e rastrear mensagens](using/design/message-tracking.md)
+   + [Pré-visualização e provas](using/design/preview.md)
++ Páginas de destino {#landing-pages}
+   + [Introdução às páginas de destino](using/landing-pages/get-started-lp.md)
+   + [Criar uma página de destino](using/landing-pages/create-lp.md)
+   + Criação de conteúdo {#landing-pages-design}
+      + [Sobre modelos de página de destino](using/landing-pages/design-lp.md)
+      + [Criar o conteúdo da página de destino](using/landing-pages/lp-content.md)
+      + [Criar modelos](using/landing-pages/lp-templates.md)
+      + [Adicionar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
+   + [Criar uma lista de assinaturas](using/landing-pages/subscription-list.md)
+   + [Casos de uso](using/landing-pages/lp-use-cases.md)
++ Personalização e conteúdo dinâmico {#personalized-dynamic-content}
+   + Personalização {#personalization}
+      + [Introdução à personalização](using/personalization/personalize.md)
+      + [Contextos de personalização](using/personalization/personalization-contexts.md)
+      + Criar expressões {#build-expressions}
+         + [Sintaxe de personalização](using/personalization/personalization-syntax.md)
+         + Trabalhar com o editor de expressão {#expression-editor}
+            + [Sobre o editor de expressão](using/personalization/personalization-build-expressions.md)
+            + [Adicionar atributos aos favoritos](using/personalization/personalization-favorites.md)
+            + [Trabalhar com expressões salvas](using/personalization/personalization-library.md)
+            + [Validação de personalização](using/personalization/personalization-validation.md)
+         + Funções auxiliares {#functions}
+            + [Introdução a funções auxiliares](using/personalization/functions/functions.md)
+            + [Funções de agregação](using/personalization/functions/aggregation.md)
+            + [Funções aritméticas](using/personalization/functions/arithmetic-functions.md)
+            + [Matrizes e funções de lista](using/personalization/functions/arrays-list.md)
+            + [Funções de data](using/personalization/functions/dates.md)
+            + [Funções booleanas e de comparação](using/personalization/functions/operators.md)
+            + [Auxiliares](using/personalization/functions/helpers.md)
+            + [Funções do mapa](using/personalization/functions/maps.md)
+            + [Funções do objeto](using/personalization/functions/objects.md)
+            + [Funções de string](using/personalization/functions/string.md)
+      + Casos de uso{#personalization-use-cases}
+         + [Notificação do status do pedido](using/personalization/personalization-use-case.md)
+         + [Email de abandono do carrinho](using/personalization/personalization-use-case-helper-functions.md)
+   + Conteúdo dinâmico {#dynamic}
+      + [Introdução ao conteúdo dinâmico](using/personalization/get-started-dynamic-content.md)
+      + [Criar regras condicionais](using/personalization/create-conditions.md)
+      + [Criar conteúdo dinâmico](using/personalization/dynamic-content.md)
++ Segmentos, perfis e identidade{#segment}
+   + Segmentos {#segments}
+      + [Introdução aos segmentos](using/segment/about-segments.md)
+      + [Construir segmentos](using/segment/creating-a-segment.md)
+   + Perfis{#profiles}
+      + [Introdução aos perfis](using/segment/get-started-profiles.md)
+      + [Criar perfis de teste](using/segment/creating-test-profiles.md)
+   + [Identidades](using/segment/get-started-identity.md)
+   + [Uso da licença](using/segment/license-usage.md)
+   + Compor públicos-alvo {#audience-orchestration}
+      + [Introdução à composição de público-alvo](using/segment/get-started-audience-orchestration.md)
+      + [Criar workflows de composição](using/segment/create-compositions.md)
+      + [Trabalhar com a tela de composição](using/segment/composition-canvas.md)
+      + [Acessar e gerenciar públicos-alvo](using/segment/access-audiences.md)
       + Casos de uso de negócios {#business-use-cases}
          + [Enviar mensagens de vários canais](using/building-journeys/journeys-uc.md)
          + [Enviar uma mensagem usando o Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
@@ -454,6 +454,7 @@ ht-degree: 95%
    + [Controle de acesso baseado em atributos](using/administration/attribute-based-access.md)
    + [Controle de acesso no nível do objeto](using/administration/object-based-access.md)
 + Privacidade {#privacy}
+   + [Introdução à privacidade](using/privacy/get-started-privacy.md)
    + [Solicitações de privacidade](using/privacy/requests.md)
    + [Ações de auditoria em recursos](using/privacy/audit-logs.md)
    + Gerenciar consentimento {#consent}

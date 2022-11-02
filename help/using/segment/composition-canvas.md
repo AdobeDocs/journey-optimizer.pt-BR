@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1040'
 ht-degree: 2%
 
 ---
@@ -28,24 +28,28 @@ As etapas para configurar uma composição na tela de composição são as segui
 
 ## Selecionar o público-alvo inicial {#starting-audience}
 
->[!CONTEXTUALHELP]
->id="ajo_ao_merge_types"
->title="Tipos de mesclagem"
->abstract="Especifique como os perfis dos públicos-alvo selecionados devem ser mesclados."
-
 A primeira etapa para criar uma composição é selecionar um ou vários públicos-alvo existentes como base de sua composição.
 
-Selecione o **[!UICONTROL Público]** e clique no botão **[!UICONTROL Adicionar público-alvo]** em seguida, selecione um ou vários públicos-alvo.
+1. Selecione o **[!UICONTROL Público]** em seguida, forneça um rótulo para a atividade.
+
+1. Escolha o público-alvo para direcionar:
+
+   * Clique no botão **[!UICONTROL Adicionar público-alvo]** botão para selecionar um ou vários públicos-alvo existentes,
+   * Clique no botão **[!UICONTROL Regra de criação]** para criar uma nova definição de segmento usando o [Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+
+   ![](assets/audiences-choose-audience.png)
+
+1. Se vários públicos-alvo forem selecionados, especifique como os perfis desses públicos-alvo devem ser mesclados:
+
+* **[!UICONTROL União]**: incluir todos os perfis dos públicos-alvo selecionados,
+* **[!UICONTROL Interseção]**: incluir perfis comuns a todos os públicos-alvo selecionados,
+* **[!UICONTROL Excluir sobreposição]**: inclua perfis que pertençam a um dos públicos-alvo somente. Os perfis pertencentes a mais de um público-alvo não serão incluídos.
 
 Neste exemplo, queremos direcionar todos os perfis pertencentes aos públicos-alvo gold e prata.
 
 ![](assets/audiences-starting-audience.png)
 
-Se você selecionar vários públicos, especifique como os perfis desses públicos-alvo devem ser mesclados:
-
-* **[!UICONTROL União]**: incluir todos os perfis dos públicos-alvo selecionados,
-* **[!UICONTROL Interseção]**: incluir perfis comuns a todos os públicos-alvo selecionados,
-* **[!UICONTROL Excluir sobreposição]**: inclua perfis que pertençam a um dos públicos-alvo somente. Os perfis pertencentes a mais de um público-alvo não serão incluídos.
+Depois que os públicos-alvo forem selecionados, o número estimado de perfis será exibido na parte inferior da atividade.
 
 ## Adicionar atividades {#action-activities}
 
@@ -74,6 +78,11 @@ As atividades disponíveis são:
 >id="ajo_ao_audience"
 >title="Atividade Audience"
 >abstract="A atividade Audience permite incluir em sua composição perfis adicionais pertencentes a um público-alvo existente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="Tipos de mesclagem"
+>abstract="Especifique como os perfis dos públicos-alvo selecionados devem ser mesclados."
 
 O **[!UICONTROL Público]** permite incluir em sua composição perfis adicionais pertencentes a um público-alvo existente.
 

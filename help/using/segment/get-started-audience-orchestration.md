@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '250'
 ht-degree: 9%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 9%
 
 A composição do público-alvo permite criar **workflows da composição**, onde é possível combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir..) para criar novos públicos-alvo.
 
-Depois de concluído, o **públicos-alvo resultantes** são salvas no Adobe Experience Platform junto com os públicos-alvo existentes.<!--, and can be **leveraged in campaigns** to target customers.-->
+Depois de concluído, o **públicos-alvo resultantes** são salvos no Adobe Experience Platform junto com os públicos-alvo existentes e podem ser **aproveitado em campanhas** para direcionar clientes.
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Por enquanto, os públicos-alvo resultantes de workflows de composição não podem ser direcionados para o Journey Optimizer. Eles não podem ser direcionados para o Adobe Experience Platform Destinations.
+>Os públicos-alvo resultantes de workflows de composição podem ser direcionados somente para campanhas do Journey Optimizer . Eles não estão disponíveis para uso no jornada.
 
 ## Acessar composição do público-alvo {#access}
 
