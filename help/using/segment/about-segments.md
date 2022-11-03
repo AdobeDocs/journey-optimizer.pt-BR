@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: df16e6be53629ef529b765c9e36a293234244867
+source-git-commit: bfd262db2fd12afbb7df6c73c68b29d18a1abf98
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '460'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Você pode aproveitar os segmentos em jornadas de diferentes maneiras:
 
 * Criar **condições complexas** em suas jornadas usando o editor de expressão simples ou avançado. Saiba mais [nesta seção](../building-journeys/condition-activity.md#using-a-segment).
 
-## Método de avaliação no Adobe Journey Optimizer {#evaluation-method-in-journey-optimizer}
+## Métodos de avaliação do público-alvo{#evaluation-method-in-journey-optimizer}
 
 No Adobe Journey Optimizer, os públicos-alvo são gerados a partir das definições de segmento usando um destes métodos de avaliação:
 
