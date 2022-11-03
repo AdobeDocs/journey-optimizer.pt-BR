@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: df16e6be53629ef529b765c9e36a293234244867
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '463'
 ht-degree: 2%
 
 ---
@@ -35,8 +35,9 @@ Você pode aproveitar os segmentos em jornadas de diferentes maneiras:
 
 No Adobe Journey Optimizer, os públicos-alvo são gerados a partir das definições de segmento usando um destes métodos de avaliação:
 
-* Segmentação de fluxo - a lista de públicos-alvo do segmento é mantida atualizada em tempo real, enquanto novos dados fluem para o sistema.
-* Segmentação em lote - a lista de públicos-alvo do segmento é atualizada de hora em hora, com base nos dados que chegaram na última hora.
+* Segmentação de fluxo - a lista de públicos-alvo do segmento é mantida atualizada em tempo real, enquanto novos dados fluem para o sistema. A segmentação de streaming é um processo contínuo de seleção de dados que atualiza seus segmentos em resposta à atividade do usuário. Depois que um segmento é criado e salvo, a definição do segmento é aplicada em relação aos dados recebidos no Journey Optimizer. Adições e remoções de segmentos são processadas regularmente, garantindo que o público-alvo permaneça relevante.
+
+* Segmentação em lote - a lista de públicos-alvo do segmento é avaliada a cada 24 horas. Como alternativa a um processo de seleção de dados contínuo, a segmentação em lote move todos os dados do perfil de uma só vez por meio das definições de segmento para produzir públicos correspondentes. Depois de criado, esse segmento é salvo e armazenado, para que você possa exportá-lo para uso.
 
 A determinação entre a segmentação de lote e a segmentação de fluxo é feita pelo sistema para cada definição de segmento, com base na complexidade e no custo da avaliação da regra de segmento.
 
