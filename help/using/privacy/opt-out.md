@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: b35ae530ec23da1ecb0ae99c4d9659481d296f09
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 99%
+source-wordcount: '1687'
+ht-degree: 77%
 
 ---
 
@@ -215,12 +215,28 @@ Por exemplo, ao baixar ou ao usar seu aplicativo, eles podem optar por parar as 
 
 De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os recipients cancelarem facilmente a inscrição. Após o cancelamento da assinatura, os perfis serão removidos automaticamente do público-alvo de futuras mensagens de marketing.
 
->[!NOTE]
+Por padrão, o Adobe Journey Optimizer lida com mensagens de resposta em inglês padrão, como STOP, UNSTOP e START para mensagens de código gratuito e longo, de acordo com os padrões do setor para integração nativa, como Sinch e Twilio. Essas palavras-chave normalmente acionam uma resposta padrão automática do provedor de terceiros (por exemplo, Twilio, Sinch etc.). Você pode confirmar isso diretamente com seu provedor ou por meio do site da documentação.
+
+Nenhuma etapa é necessária para garantir que os recursos de recusa de SMS estejam funcionando no Adobe Journey Optimizer, já que as respostas de palavra-chave PARAR, UNSTOP e START serão reconhecidas automaticamente.
+
+Além de Adobe Journey Optimizer interromper o envio com base no status de recusa (para integrações diretas com Twilio ou Sinch), a maioria dos provedores de gateway SMS também mantém uma lista de bloqueios, garantindo que uma mensagem SMS não seja entregue a um indivíduo que optou por não participar. Se você estiver usando um provedor diferente de Sinch ou Twilio e enviar um SMS via [canal personalizado](../building-journeys/using-custom-actions.md), é necessário confirmar isso com o provedor.
+
+>[!IMPORTANT]
 >
->A adição de um link de unsubscription não é obrigatória para mensagens transacionais.
+>As campanhas de mensagem de texto podem estar sujeitas a vários requisitos de conformidade legal, dependendo da natureza de sua campanha de mensagens de texto, do local de onde você está enviando suas mensagens de texto e do local de seus recipients. <br>Embora o Adobe Journey Optimizer trate as mensagens em códigos longos e números de chamada gratuita conforme detalhado acima, você deve consultar seu departamento jurídico para garantir que sua campanha de mensagem de texto esteja em conformidade com todos os requisitos de conformidade legal aplicáveis.
 
-O Adobe Journey Optimizer processa automaticamente as seguintes palavras-chave nas mensagens recebidas: **INICIAR**, **PARAR** e **REINICIAR**. Essas palavras-chave acionam respostas padrão automáticas do provedor de SMS.
+### Códigos curtos {#short-codes}
 
-Para saber mais sobre como o suporte nativo a palavras-chave de entrada (iniciar, parar e reiniciar) funciona para SMS, assista ao seguinte vídeo:
+Por padrão, o Adobe Journey Optimizer não lidará com palavras-chave de opt-out, opt-in ou ajuda para números de código curtos.
+
+Você deve garantir que seu código curto esteja em conformidade com todas as regras e regulamentos do setor para o controle de opt out.
+
+### ID alfanumérica do remetente {#alphanumeric}
+
+As IDs alfanuméricas do remetente são somente para mensagens unidirecionais e não podem receber mensagens de entrada. Como resultado, as palavras-chave Adobe Journey Optimizer SMS STOP, START e HELP não se aplicam às IDs do remetente alfa. Você deve fornecer outras instruções, como escrever para a equipe de suporte, chamar uma linha telefônica de suporte ou enviar um texto com outro número de telefone ou código para permitir que os usuários optem por não receber mensagens enviadas por meio da ID alfanumérica do remetente.
+
+#### Vídeo {#video-sms}
+
+Para saber mais sobre como o suporte nativo a palavras-chave de entrada (START, STOP e UNSTOP) funciona para SMS, consulte o seguinte vídeo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
