@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2acc398732805d5fdb9f6ba2feaabcb0fa22093e
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -147,14 +147,14 @@ ht-degree: 94%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Casos de uso {#journey-use-cases}
-      + Casos de uso de negócios {#business-use-cases}
+      + Casos de uso comercial {#business-use-cases}
          + [Enviar mensagens de vários canais](using/building-journeys/journeys-uc.md)
          + [Enviar uma mensagem usando o Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
          + [Enviar uma mensagem aos assinantes](using/building-journeys/message-to-subscribers-uc.md)
-      + Casos de uso técnico {#technical-use-cases}
+      + Casos de uso técnicos {#technical-use-cases}
          + [Envio dinâmico de coleções usando ações personalizadas](using/building-journeys/collections.md)
          + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
+         + [Limite a taxa de transferência com Fontes de dados externas e Ações personalizadas](using/building-journeys/limit-throughput.md)
 + Campanhas{#campaigns}
    + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
    + [Criar uma campanha](using/campaigns/create-campaign.md)
@@ -178,16 +178,16 @@ ht-degree: 94%
    + [Verificar alertas](using/messages/alerts.md)
    + [Otimização do tempo de envio](using/messages/send-time-optimization.md)
 + Canal da Web{#web}
-   + [Introdução ao canal da Web](using/web/get-started-web.md)
-   + [Criar experiências da Web](using/web/create-web.md)
-   + [Páginas da Web do autor](using/web/author-web.md)
+   + [Introdução ao canal Web](using/web/get-started-web.md)
+   + [Criação de experiências da Web](using/web/create-web.md)
+   + [Páginas da Web de autor](using/web/author-web.md)
    + [Extensão Auxiliar de edição visual](using/web/visual-editing-helper.md)
    + [Relatórios da Web](using/web/web-report.md)
 + Canal no aplicativo{#in-app}
    + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
-   + [Configurar canal no aplicativo](using/in-app/inapp-configuration.md)
-   + [Criar uma mensagem no aplicativo](using/in-app/create-in-app.md)
-   + [Projetar o conteúdo no aplicativo](using/in-app/design-in-app.md)
+   + [Configuração do canal no aplicativo](using/in-app/inapp-configuration.md)
+   + [Criação de uma mensagem no aplicativo](using/in-app/create-in-app.md)
+   + [Projete seu conteúdo no aplicativo](using/in-app/design-in-app.md)
    + [Relatório no aplicativo](using/in-app/inapp-report.md)
 + Criação de conteúdo {#design}
    + [Introdução ao design de email](using/design/design-emails.md)
