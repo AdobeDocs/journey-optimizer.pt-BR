@@ -5,9 +5,9 @@ title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -48,12 +48,12 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Jornadas**
 
-* O **Forçar a reentrada na recorrência** foi adicionada em parâmetros de programação de segmentos de leitura recorrentes. Essa opção permite que todos os perfis ainda presentes na jornada o saiam automaticamente na próxima execução. Quando a opção estiver desativada, os perfis devem concluir a jornada antes que possam entrar novamente em outra ocorrência. [Saiba mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* A opção de **Forçar a reentrada na recorrência** foi adicionada em parâmetros de programação de segmentos de leitura recorrentes. Essa opção permite fazer com que todos os perfis ainda presentes na jornada saiam automaticamente na próxima execução. Quando a opção estiver desativada, os perfis devem concluir a jornada antes de entrar novamente em outra ocorrência. [Saiba mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Administração**
 
-* Uma mensagem foi adicionada à interface do usuário para avisar que as configurações de subdomínio, subdomínio de página de aterrissagem, registro PTR e pool de IP são comuns a todas as sandboxes e, portanto, qualquer modificação em uma dessas configurações também afetará as sandboxes de produção.
-* As etapas para fazer upload da lista de supressão como um arquivo CSV da interface do usuário foram modificadas. [Saiba mais](../configuration/manage-suppression-list.md#download-suppression-list)
+* Uma mensagem foi adicionada à interface para avisar que as configurações de subdomínio, subdomínio de página de destino, registro PTR e pool de IP são comuns a todas as sandboxes e, portanto, qualquer modificação em uma dessas configurações também afetará as sandboxes de produção.
+* As etapas para fazer upload da lista de supressão como um arquivo CSV da interface foram modificadas. [Saiba mais](../configuration/manage-suppression-list.md#download-suppression-list)
 
 **Campanhas**
 
