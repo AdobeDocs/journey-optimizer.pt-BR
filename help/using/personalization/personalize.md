@@ -8,10 +8,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 27%
+source-wordcount: '322'
+ht-degree: 28%
 
 ---
 
@@ -58,6 +58,6 @@ Saiba como usar informações de evento contextual de uma jornada para personali
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Saiba como usar informações de evento contextual de uma jornada para personalizar uma mensagem.
+Saiba como adicionar uma personalização baseada em perfil a uma mensagem e como usar a associação de segmento como uma pré-condição para um bloco de personalização.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

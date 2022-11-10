@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1235'
 ht-degree: 3%
 
 ---
@@ -64,15 +64,7 @@ A configuração de endereço de email CCO é imediatamente salva e processada n
 
 ![](assets/preset-bcc-in-msg.png)
 
-No entanto, o endereço CCO é selecionado para enviar comunicações seguindo a lógica abaixo:
-
-* Para jornadas em lote e em burst, não se aplica à execução em lote ou em burst que já havia sido iniciada antes da definição de Cco ser feita. A alteração será selecionada na próxima recorrência ou nova execução.
-
-* Para mensagens transacionais, a alteração é selecionada imediatamente para a próxima comunicação (atraso de até um minuto).
-
->[!NOTE]
->
->Não é necessário republicar sua jornada para que a configuração Cco seja selecionada.
+No entanto, o endereço CCO é selecionado para enviar comunicações seguindo a lógica descrita [here](email-settings.md).
 
 ### Recommendations e limitações {#bcc-recommendations-limitations}
 

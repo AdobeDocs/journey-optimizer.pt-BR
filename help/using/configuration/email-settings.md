@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1418'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,16 @@ ht-degree: 2%
 Defina as configurações de email na seção dedicada da configuração da superfície do canal (ou seja, predefinição de mensagem). Saiba como criar superfícies no [esta seção](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
+
+A configuração da superfície do email é selecionada para enviar comunicações seguindo a lógica abaixo:
+
+* Para jornadas em lote e em burst, não se aplica à execução em lote ou em burst que já havia sido iniciada antes da configuração da superfície do email ser feita. As alterações serão selecionadas na próxima recorrência ou nova execução.
+
+* Para mensagens transacionais, a alteração é selecionada imediatamente para a próxima comunicação (atraso de até cinco minutos).
+
+>[!NOTE]
+>
+>As configurações atualizadas da superfície do email serão automaticamente selecionadas na(s) jornada(s) ou campanha(s) em que a superfície é usada.
 
 ## Tipo de email {#email-type}
 
@@ -96,25 +106,39 @@ Saiba mais sobre como adicionar um link de cancelamento de subscrição de cabe�
 
 No **[!UICONTROL Parâmetros de cabeçalho]** , insira os nomes do remetente e os endereços de email associados ao tipo de emails enviados usando essa superfície.
 
->[!CAUTION]
->
->Os endereços de email devem usar o [subdomínio delegado](about-subdomain-delegation.md).
-
 * **[!UICONTROL Nome do remetente]**: O nome do remetente, como o nome da sua marca.
 
-* **[!UICONTROL Email do remetente]**: O endereço de email que deseja usar para suas comunicações. Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você pode usar *contact@marketing.luma.com*.
+* **[!UICONTROL Email do remetente]**: O endereço de email que deseja usar para suas comunicações.
 
 * **[!UICONTROL Responder a (nome)]**: O nome que será usado quando o recipient clicar no **Responder** no software cliente de email.
 
-* **[!UICONTROL Responder para (email)]**: O endereço de email que será usado quando o recipient clicar no link **Responder** no software cliente de email. Você deve usar um endereço definido no subdomínio delegado (por exemplo, *reply@marketing.luma.com*), caso contrário, os emails serão descartados.
+* **[!UICONTROL Responder para (email)]**: O endereço de email que será usado quando o recipient clicar no link **Responder** no software cliente de email. [Saiba mais](#reply-to-email)
 
 * **[!UICONTROL Email de erro]**: Todos os erros gerados pelos ISPs após alguns dias de envio de email (rejeições assíncronas) são recebidos neste endereço.
+
+>[!CAUTION]
+>
+>O **[!UICONTROL Email do remetente]** e **[!UICONTROL Email de erro]** os endereços devem usar o [subdomínio delegado](about-subdomain-delegation.md). Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você pode usar *contact@marketing.luma.com* e *error@marketing.luma.com*.
 
 ![](assets/preset-header.png)
 
 >[!NOTE]
 >
 >Os endereços devem começar com uma letra (A-Z) e só podem conter caracteres alfanuméricos. Você também pode usar o sublinhado `_`, ponto`.` e hífen `-` caracteres.
+
+### Responder ao email {#reply-to-email}
+
+Ao definir a variável **[!UICONTROL Responder para (email)]** , você pode especificar qualquer endereço de email, desde que ele seja válido, no formato correto e sem qualquer erro de digitação.
+
+Para garantir o gerenciamento adequado de respostas, siga as recomendações abaixo:
+
+* A caixa de entrada usada para respostas receberá todos os emails de resposta, incluindo notificações de ausência do escritório e respostas de desafio, portanto, verifique se você tem um processo manual ou automatizado em vigor para processar os emails que chegam a essa caixa de entrada.
+
+* Certifique-se de que a caixa de entrada dedicada tenha capacidade de recebimento suficiente para receber todos os emails de resposta que são enviados usando a superfície do email. Se a caixa de entrada retornar rejeições, algumas respostas de seus clientes podem não ser recebidas.
+
+* As respostas devem ser processadas tendo em conta as obrigações de privacidade e conformidade, pois podem conter informações de identificação pessoal (PII).
+
+* Não marque mensagens como spam na caixa de entrada de resposta, pois isso afetará todas as outras respostas enviadas para esse endereço.
 
 ### Encaminhar email {#forward-email}
 
