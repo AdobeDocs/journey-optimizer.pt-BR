@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1505'
 ht-degree: 2%
 
 ---
@@ -51,6 +51,12 @@ Clique nos três pontos ao lado de uma página de aterrissagem para selecionar a
 >abstract="Para criar uma landing page, você precisa selecionar uma predefinição, configurar a página primária e as subpáginas e, finalmente, testar sua página antes de publicá-la."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de aterrissagem"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Publicar a landing page"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_management_labels"
+>title="Atribuir rótulos à página inicial"
+>abstract="Para proteger ativos digitais confidenciais, você pode definir autorizações para gerenciar o acesso aos dados da sua página de aterrissagem usando rótulos."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Criar predefinições de página de aterrissagem"
 
 As etapas para criar uma landing page são as seguintes.
 

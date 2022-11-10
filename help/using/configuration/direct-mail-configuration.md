@@ -7,9 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
+exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
+source-git-commit: dbb668b219b8d2ccea4d340c019918d6a6e387bb
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -129,21 +130,11 @@ Uma superfície de correspondência direta também deve incluir a configuração
 
    ![](assets/surface-direct-mail-settings.png)
 
+   <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
+
 1. Selecione o formato de arquivo: **[!UICONTROL CSV]** ou **[!UICONTROL Delimitado por texto]**.
 
-1. No **[!UICONTROL Inserção]** , é possível optar por remover automaticamente linhas duplicadas.
-
-1. Defina o número máximo de registros (ou seja, linhas) para cada arquivo que contenha dados de perfil. Depois que o limite especificado for atingido, outro arquivo será criado para os registros restantes.
-
-   ![](assets/surface-direct-mail-split.png)
-
-   Por exemplo, se houver 100.000 registros no arquivo e o limite for definido como 60.000, os registros serão divididos em dois arquivos. O primeiro arquivo terá 60.000 linhas e o segundo arquivo conterá as 40.000 linhas restantes.
-
-   >[!NOTE]
-   >
-   >É possível definir qualquer número entre 1 e 200.000 registros, o que significa que cada arquivo deve conter pelo menos 1 linha e não mais de 200.000 linhas.
-
-1. Finalmente, selecione o **[!UICONTROL Configuração do roteamento de arquivos]** entre os que você criou. Isso define onde o arquivo será exportado para que seu provedor de correspondência direta use.
+1. Selecione o **[!UICONTROL Configuração do roteamento de arquivos]** entre os que você criou. Isso define onde o arquivo será exportado para que seu provedor de correspondência direta use.
 
    >[!CAUTION]
    >
@@ -151,6 +142,29 @@ Uma superfície de correspondência direta também deve incluir a configuração
 
    ![](assets/surface-direct-mail-file-routing.png)
 
+   <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
+
 1. Envie a superfície da correspondência direta.
 
 Agora você pode [criar uma mensagem de mala direta](../messages/create-direct-mail.md) dentro de uma campanha. Quando a campanha for iniciada, o arquivo contendo os dados do público-alvo direcionado será automaticamente exportado para o servidor que você definiu. O provedor de correspondência direta poderá recuperar esse arquivo e prosseguir com o delivery de correspondência direta.
+
+>[!NOTE]
+>
+>As linhas duplicadas serão removidas automaticamente.
+>
+>Se o número máximo de registros (ou seja, linhas) para cada arquivo contendo dados de perfil for muito alto, outro arquivo será criado automaticamente para os registros restantes.
+
+<!--
+    In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.
+
+    Define the maximum number of records (i.e. rows) for each file containing profile data. After the specified threshold is reached, another file will be created for the remaining records.
+
+    ![](assets/surface-direct-mail-split.png)
+
+    For example, if there are 100,000 records in the file and the threshold limit is set to 60,000, the records will be split into two files. The first file will contain 60,000 rows, and the second file will contain the remaining 40,000 rows.
+
+    >[!NOTE]
+    >
+    >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
+
+-->
