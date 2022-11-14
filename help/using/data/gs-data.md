@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 34f6f25560cbe7873f8aea9edda3d63dab63935a
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -34,7 +34,10 @@ Em geral, a flexibilidade que você deseja de seus dados é três vezes:
     <br>
   </td>
   <td>
-    <div>Disponível em outros destinos - embora a Journey Optimizer sinalize e integre dados para uma experiência hiper-personalizada do cliente, você deseja que esses dados sejam usados em outros sistemas em seu cenário tecnológico geral, enquanto procura outras maneiras de aproveitar esses dados. <a href="../start/ajo-integrations.md">Saiba mais</a>&lt;</div>
+    <div>Disponível em outros destinos - embora a Journey Optimizer sinalize e integre dados para uma experiência hiper-personalizada do cliente, você deseja que esses dados sejam usados em outros sistemas em seu cenário tecnológico geral, enquanto procura outras maneiras de aproveitar esses dados.
+    <div>
+     <a href="../start/ajo-integrations.md">Saiba mais</a></div>
+    </div>
     <br>
   </td>
 </tr>
