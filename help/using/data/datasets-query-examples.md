@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -19,14 +19,14 @@ ht-degree: 0%
 
 Nesta página, você encontrará a lista de conjuntos de dados do Adobe Journey Optimizer e casos de uso relacionados:
 
-[Conjunto de dados de eventos de experiência de rastreamento de email](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
-[Conjunto de dados do evento de feedback de mensagem](../data/datasets-query-examples.md#message-feedback-event-dataset)
-[Conjunto de dados do evento de experiência de rastreamento de push](../data/datasets-query-examples.md#push-tracking-experience-event-dataset)
-[Evento de etapa de Jornada](../data/datasets-query-examples.md#journey-step-event)
-[Conjunto de dados do evento de decisão](../data/datasets-query-examples.md#ode-decisionevents)
-[Conjunto de dados do serviço de consentimento](../data/datasets-query-examples.md#consent-service-dataset)
-[Conjunto de dados do evento de feedback CCO](../data/datasets-query-examples.md#bcc-feedback-event-dataset)
-[Conjunto de dados da entidade](../data/datasets-query-examples.md#entity-dataset)
+[Conjunto de dados de eventos de experiência de rastreamento de email](#email-tracking-experience-event-dataset)
+[Conjunto de dados do evento de feedback de mensagem](#message-feedback-event-dataset)
+[Conjunto de dados do evento de experiência de rastreamento de push](#push-tracking-experience-event-dataset)
+[Evento de etapa de Jornada](#journey-step-event)
+[Conjunto de dados do evento de decisão](#ode-decisionevents)
+[Conjunto de dados do serviço de consentimento](#consent-service-dataset)
+[Conjunto de dados do evento de feedback CCO](#bcc-feedback-event-dataset)
+[Conjunto de dados da entidade](#entity-dataset)
 
 ## Conjunto de dados de eventos de experiência de rastreamento de email{#email-tracking-experience-event-dataset}
 
