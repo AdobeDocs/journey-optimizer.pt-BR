@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 Nesta página, você encontrará a lista de conjuntos de dados do Adobe Journey Optimizer e casos de uso relacionados:
 
 [Conjunto de dados de eventos de experiência de rastreamento de email](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
-[Conjunto de dados do evento de feedback de mensagem](../start/datasets-query-examples.md#message-feedback-event-dataset)
-[Conjunto de dados do evento de experiência de rastreamento de push](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
-[Evento de etapa de Jornada](../start/datasets-query-examples.md#journey-step-event)
-[Conjunto de dados do evento de decisão](../start/datasets-query-examples.md#ode-decisionevents)
-[Conjunto de dados do serviço de consentimento](../start/datasets-query-examples.md#consent-service-dataset)
-[Conjunto de dados do evento de feedback CCO](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
-[Conjunto de dados da entidade](../start/datasets-query-examples.md#entity-dataset)
+[Conjunto de dados do evento de feedback de mensagem](../data/datasets-query-examples.md#message-feedback-event-dataset)
+[Conjunto de dados do evento de experiência de rastreamento de push](../data/datasets-query-examples.md#push-tracking-experience-event-dataset)
+[Evento de etapa de Jornada](../data/datasets-query-examples.md#journey-step-event)
+[Conjunto de dados do evento de decisão](../data/datasets-query-examples.md#ode-decisionevents)
+[Conjunto de dados do serviço de consentimento](../data/datasets-query-examples.md#consent-service-dataset)
+[Conjunto de dados do evento de feedback CCO](../data/datasets-query-examples.md#bcc-feedback-event-dataset)
+[Conjunto de dados da entidade](../data/datasets-query-examples.md#entity-dataset)
 
 ## Conjunto de dados de eventos de experiência de rastreamento de email{#email-tracking-experience-event-dataset}
 

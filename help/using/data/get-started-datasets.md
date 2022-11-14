@@ -6,7 +6,7 @@ description: Saiba como usar conjuntos de dados do Adobe Experience Platform no 
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 7%
@@ -91,7 +91,7 @@ Saiba mais sobre a criação de conjunto de dados em [Documentação do Adobe Ex
 
 Saiba como usar a interface do usuário de conjuntos de dados no [Documentação de visão geral da Ingestão de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
-Uma lista de casos de uso com exemplos de consulta está disponível [here](../start/datasets-query-examples.md).
+Uma lista de casos de uso com exemplos de consulta está disponível [here](../data/datasets-query-examples.md).
 
 **Consulte também**
 

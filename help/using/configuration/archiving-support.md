@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 3%
@@ -23,7 +23,7 @@ Regulamentos como o HIPAA exigem que [!DNL Journey Optimizer] O deve fornecer um
 
 * Para o canal de email, [!DNL Journey Optimizer] O fornece um recurso de email CCO integrado. [Saiba mais](#bcc-email)
 
-* Além disso, para todos os canais, você pode usar o campo &quot;Template&quot; no **Conjunto de dados da entidade**, que contém os detalhes dos templates de mensagem não personalizados. Exporte o conjunto de dados com este campo para salvar metadados como: quem enviou a mensagem, para quem e quando. Observe que os dados personalizados não são exportados - somente o modelo (formato e estrutura da mensagem) é levado em conta. [Saiba mais](../start/datasets-query-examples.md#entity-dataset)
+* Além disso, para todos os canais, você pode usar o campo &quot;Template&quot; no **Conjunto de dados da entidade**, que contém os detalhes dos templates de mensagem não personalizados. Exporte o conjunto de dados com este campo para salvar metadados como: quem enviou a mensagem, para quem e quando. Observe que os dados personalizados não são exportados - somente o modelo (formato e estrutura da mensagem) é levado em conta. [Saiba mais](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
@@ -119,11 +119,11 @@ Para fazer isso, siga as etapas abaixo.
 
 Os relatórios como tal no CCO não estão disponíveis na jornada e nos relatórios de mensagem. No entanto, as informações são armazenadas em um conjunto de dados do sistema chamado **[!UICONTROL Conjunto de dados do evento de feedback CCO AJO]**. Você pode executar consultas em relação a esse conjunto de dados para encontrar informações úteis para fins de depuração, por exemplo.
 
-Você pode acessar esse conjunto de dados por meio da interface do usuário do . Selecionar **[!UICONTROL Gestão de dados]** > **[!UICONTROL Conjuntos de dados]** > **[!UICONTROL Procurar]** e ativar **[!UICONTROL Mostrar conjuntos de dados do sistema]** alterne do filtro para exibir os conjuntos de dados gerados pelo sistema. Saiba mais sobre como acessar conjuntos de dados no [esta seção](../start/get-started-datasets.md#access-datasets).
+Você pode acessar esse conjunto de dados por meio da interface do usuário do . Selecionar **[!UICONTROL Gestão de dados]** > **[!UICONTROL Conjuntos de dados]** > **[!UICONTROL Procurar]** e ativar **[!UICONTROL Mostrar conjuntos de dados do sistema]** alterne do filtro para exibir os conjuntos de dados gerados pelo sistema. Saiba mais sobre como acessar conjuntos de dados no [esta seção](../data/get-started-datasets.md#access-datasets).
 
 ![](assets/preset-bcc-dataset.png)
 
-Para executar consultas em relação a esse conjunto de dados, você pode usar o Editor de consultas fornecido pelo [Serviço de query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}. Para acessá-lo, selecione **[!UICONTROL Gestão de dados]** > **[!UICONTROL Queries]** e clique em **[!UICONTROL Criar query]**. [Saiba mais](../start/get-started-queries.md)
+Para executar consultas em relação a esse conjunto de dados, você pode usar o Editor de consultas fornecido pelo [Serviço de query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}. Para acessá-lo, selecione **[!UICONTROL Gestão de dados]** > **[!UICONTROL Queries]** e clique em **[!UICONTROL Criar query]**. [Saiba mais](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 

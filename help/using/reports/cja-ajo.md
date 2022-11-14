@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 8%
@@ -29,9 +29,9 @@ Antes de usar [!DNL Customer Journey Analytics] para suas jornadas, você deve p
 1. [Criar uma conexão](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=pt-BR) em [!DNL Customer Journey Analytics] com o **[!UICONTROL Conjunto de dados]** você deseja enviar para o Adobe Experience Platform.
 
    O seguinte [!DNL Journey Optimizer] pode ser configurado:
-   * [Evento de etapa de Jornada](../start/datasets-query-examples.md#journey-step-event): permite visualizar quem entra em suas jornadas e até que ponto elas chegam.
-   * [Conjuntos de dados de feedback/rastreamento de mensagens](../start/datasets-query-examples.md#message-feedback-event-dataset): permite exibir informações do delivery sobre as mensagens enviadas por [!DNL Journey Optimizer].
-   * [Conjuntos de dados de entidade e Jornada](../start/datasets-query-examples.md#entity-dataset): O permite pesquisar nomes amigáveis e usá-los no relatório.
+   * [Evento de etapa de Jornada](../data/datasets-query-examples.md#journey-step-event): permite visualizar quem entra em suas jornadas e até que ponto elas chegam.
+   * [Conjuntos de dados de feedback/rastreamento de mensagens](../data/datasets-query-examples.md#message-feedback-event-dataset): permite exibir informações do delivery sobre as mensagens enviadas por [!DNL Journey Optimizer].
+   * [Conjuntos de dados de entidade e Jornada](../data/datasets-query-examples.md#entity-dataset): O permite pesquisar nomes amigáveis e usá-los no relatório.
 
 1. [Criar uma visualização de dados](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=pt-BR) para configurar as dimensões e métricas que deseja usar no relatório.
 
