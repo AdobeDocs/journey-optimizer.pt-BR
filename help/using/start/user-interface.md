@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 100%
 
@@ -62,11 +62,11 @@ A página inicial do [!DNL Journey Optimizer] contém os links e recursos princi
 
 **[!UICONTROL GERENCIAMENTO DE DADOS]**
 
-* **[!UICONTROL Esquemas]** - use a Adobe Experience Platform para criar e gerenciar esquemas do Experience Data Model (XDM) em uma tela visual interativa chamada de Editor de esquemas. [Saiba mais](get-started-schemas.md)
+* **[!UICONTROL Esquemas]** - use a Adobe Experience Platform para criar e gerenciar esquemas do Experience Data Model (XDM) em uma tela visual interativa chamada de Editor de esquemas. [Saiba mais](../data/get-started-schemas.md)
 
-* **[!UICONTROL Conjuntos de dados]** - todos os dados assimilados na Adobe Experience Platform são mantidos no Data Lake como conjuntos de dados. Um conjunto de dados é uma construção de armazenamento e gerenciamento para uma coleção de dados, normalmente uma tabela, que contém um esquema (colunas) e campos (linhas). [Saiba mais](get-started-datasets.md)
+* **[!UICONTROL Conjuntos de dados]** - todos os dados assimilados na Adobe Experience Platform são mantidos no Data Lake como conjuntos de dados. Um conjunto de dados é uma construção de armazenamento e gerenciamento para uma coleção de dados, normalmente uma tabela, que contém um esquema (colunas) e campos (linhas). [Saiba mais](../data/get-started-datasets.md)
 
-* **[!UICONTROL Consultas]** - use o serviço de consulta da Adobe Experience Platform para gravar e executar consultas, exibir consultas executadas anteriormente e acessar consultas salvas por usuários em sua organização. [Saiba mais](get-started-queries.md)
+* **[!UICONTROL Consultas]** - use o serviço de consulta da Adobe Experience Platform para gravar e executar consultas, exibir consultas executadas anteriormente e acessar consultas salvas por usuários em sua organização. [Saiba mais](../data/get-started-queries.md)
 
 * **[!UICONTROL Monitoramento]** - use esse menu para monitorar a ingestão de dados na interface da Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=pt-BR){target=&quot;_blank&quot;}
 
@@ -215,7 +215,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
   <tr>
     <td>Campo de texto</td>
     <td>Selecionar todo o texto no campo selecionado</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Janela pop-up</td>
@@ -239,7 +239,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
   <tr>
     <td>Visualização do conteúdo</td>
     <td>Selecionar o conteúdo</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
 </table>
 

@@ -5,8 +5,8 @@ title: Introdução do Journey Optimizer ao engenheiro de dados
 description: Como engenheiro de dados, saiba mais sobre como trabalhar com o Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ As etapas para criar um namespace de identidade e um conjunto de dados habilitad
 
 1. **Criar um namespace de identidade**. Na Adobe [!DNL Journey Optimizer], as **Identidades** vinculam consumidores em dispositivos e canais, e o resultado é um gráfico de identidade. O gráfico de identidade vinculado é usado para personalizar experiências com base em interações em todos os pontos de contato comerciais.  Saiba mais sobre identidades e namespaces de identidade [nesta página](../../segment/get-started-identity.md).
 
-1. **Crie um esquema** e ative-o para perfis. Um esquema é um conjunto de regras que representam e validam a estrutura e o formato dos dados. Em um alto nível, os esquemas fornecem uma definição abstrata de um objeto do mundo real (como uma pessoa) e destacam quais dados devem ser incluídos em cada instância desse objeto (como nome, sobrenome, aniversário e assim por diante).  Saiba mais sobre esquemas [nesta página](../get-started-schemas.md).
+1. **Crie um esquema** e ative-o para perfis. Um esquema é um conjunto de regras que representam e validam a estrutura e o formato dos dados. Em um alto nível, os esquemas fornecem uma definição abstrata de um objeto do mundo real (como uma pessoa) e destacam quais dados devem ser incluídos em cada instância desse objeto (como nome, sobrenome, aniversário e assim por diante).  Saiba mais sobre esquemas [nesta página](../../data/get-started-schemas.md).
 
 1. **Crie conjuntos de dados** e ative-os para perfis. Um conjunto de dados é uma construção de armazenamento e gerenciamento para uma coleção de dados, normalmente uma tabela, que contém um esquema (colunas) e campos (linhas). Os conjuntos de dados também contêm metadados que descrevem vários aspectos dos dados armazenados. Depois que um conjunto de dados é criado, é possível mapeá-lo para um esquema existente e adicionar dados a ele. Saiba mais sobre conjuntos de dados [nesta página](../get-started-datasets.md).
 
