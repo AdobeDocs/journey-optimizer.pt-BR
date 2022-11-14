@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 73%
+source-wordcount: '1417'
+ht-degree: 72%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 73%
 >abstract="Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias."
 
 Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
+
+>[!NOTE]
+>
+>As medidas de proteção ao trabalhar com sistemas externos estão listadas em [esta página](../configuration/external-systems.md).
 
 As APIs REST que usam POST ou GET e devolvem JSON são compatíveis. A chave de API, os modos de autenticação básicos e personalizados são compatíveis.
 

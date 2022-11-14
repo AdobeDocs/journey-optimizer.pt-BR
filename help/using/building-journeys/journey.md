@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '577'
+ht-degree: 26%
 
 ---
 
@@ -55,14 +55,14 @@ Saiba como criar jornadas nos seguintes casos de uso completos.
 Casos de uso comercial:
 
 * [Enviar mensagens de vários canais](journeys-uc.md)
-* [Enviar uma mensagem usando o Campaign v7/v8](campaign-classic-use-case.md)
+* [Enviar uma mensagem usando o Campaign v7/v8](ajo-ac.md)
 * [Enviar uma mensagem aos assinantes](message-to-subscribers-uc.md)
 
-Casos de uso técnico:
+Casos de uso técnicos:
 
 * [Envio dinâmico de coleções usando ações personalizadas](collections.md)
 * [Incrementar entregas](ramp-up-deliveries-uc.md)
-* [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](limit-throughput.md)
+* [Limite a taxa de transferência com Fontes de dados externas e Ações personalizadas](limit-throughput.md)
 
 ## Versões de jornada{#journey-versions}
 

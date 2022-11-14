@@ -8,20 +8,21 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 10%
+source-wordcount: '566'
+ht-degree: 8%
 
 ---
 
 # Configurar uma fonte de dados {#configure-data-source}
 
-Estas são as etapas principais de configuração da fonte de dados:
 
 >[!NOTE]
 >
 >A configuração da fonte de dados é sempre executada por um **usuário técnico**.
+
+Para configurar uma fonte de dados, siga as etapas abaixo:
 
 1. Na seção do menu ADMINISTRATION (ADMINISTRAÇÃO), selecione **[!UICONTROL Configurações]**. No  **[!UICONTROL Fontes de dados]** seção , clique em **[!UICONTROL Gerenciar]**. A lista das fontes de dados é exibida. Consulte [esta página](../start/user-interface.md) para obter mais informações sobre a interface.
 

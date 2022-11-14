@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 7%
@@ -26,7 +26,7 @@ Essa integração está disponível para o Adobe Campaign Classic v7 a partir da
 
 A conexão entre as instâncias do Journey Optimizer e do Campaign é configurada pelo Adobe no momento do provisionamento.
 
-Um caso de uso completo é apresentado nesta [seção](../building-journeys/campaign-classic-use-case.md).
+Um caso de uso completo é apresentado nesta [seção](../building-journeys/ajo-ac.md).
 
 Para cada ação configurada, uma atividade de ação está disponível na paleta Designer de jornadas. Consulte esta [seção](../building-journeys/using-adobe-campaign-classic.md).
 

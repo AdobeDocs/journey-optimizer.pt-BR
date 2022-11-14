@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c92587670a56adf6811fcad49873a8ef0c5b7e84
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 98%
+source-wordcount: '1264'
+ht-degree: 97%
 
 ---
 
@@ -150,7 +150,7 @@ ht-degree: 98%
    + Casos de uso {#journey-use-cases}
       + Casos de uso comercial {#business-use-cases}
          + [Enviar mensagens de vários canais](using/building-journeys/journeys-uc.md)
-         + [Enviar uma mensagem usando o Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+         + [Enviar uma mensagem usando o Campaign v7/v8](using/building-journeys/ajo-ac.md)
          + [Enviar uma mensagem aos assinantes](using/building-journeys/message-to-subscribers-uc.md)
       + Casos de uso técnicos {#technical-use-cases}
          + [Envio dinâmico de coleções usando ações personalizadas](using/building-journeys/collections.md)
@@ -389,11 +389,12 @@ ht-degree: 98%
          + [API de decisão do Edge](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API de decisão em lote](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Gerenciamento de dados {#data-management}
-   + [Schemas](using/start/get-started-schemas.md)
-   + Conjuntos de dados {#datasets}
-      + [Introdução aos conjuntos de dados](using/start/get-started-datasets.md)
-      + [Exemplos de consultas](using/start/datasets-query-examples.md)
-   + [Consultas](using/start/get-started-queries.md)
+   + [Introdução ao gerenciamento de dados](using/data/gs-data.md)
+   + [Trabalhar com esquemas](using/data/get-started-schemas.md)
+   + Conjuntos de dados do Journey Optimizer {#datasets}
+      + [Introdução aos conjuntos de dados](using/data/get-started-datasets.md)
+      + [Exemplos de consultas](using/data/datasets-query-examples.md)
+   + [Consultas](using/data/get-started-queries.md)
 + Configuração {#configuration}
    + [Introdução à configuração do Journey Optimizer](using/configuration/get-started-configuration.md)
    + Configurar mensagens {#configuration-message}

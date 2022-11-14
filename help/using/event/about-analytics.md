@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '196'
 ht-degree: 8%
 
 ---
 
 # Aproveite os dados do Adobe Analytics{#analytics-data}
 
-Você pode aproveitar todos os dados de evento comportamental do Adobe Analytics que já estão sendo capturados e transmitidos na plataforma para acionar jornadas e automatizar experiências para seus clientes.
+Você pode aproveitar todos os dados de evento comportamental do Adobe Analytics que já estão sendo capturados e transmitidos no Adobe Experience Platform para acionar jornadas e automatizar experiências para seus clientes.
 
 >[!NOTE]
 >

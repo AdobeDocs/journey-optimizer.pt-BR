@@ -7,9 +7,10 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 6%
 
 ---
@@ -29,7 +30,7 @@ Se tal comportamento inesperado ocorrer, uma notificação de alerta será envia
 
 ![](assets/alerts2.png)
 
-When [exibição de regras de alerta na interface do usuário da plataforma](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), é possível assinar cada regra individualmente. Ao assinar alertas por meio de [Notificações de Evento de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html), no entanto, as regras de alerta são organizadas em pacotes de assinatura diferentes. O nome da assinatura do evento de E/S correspondente ao alerta de segmento Lido é: &quot;Jornada atrasos, falhas e erros do segmento de leitura&quot;.
+When [exibição de regras de alerta na interface do usuário do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), é possível assinar cada regra individualmente. Ao assinar alertas por meio de [Notificações de Evento de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html), no entanto, as regras de alerta são organizadas em pacotes de assinatura diferentes. O nome da assinatura do evento de E/S correspondente ao alerta de segmento Lido é: &quot;Jornada atrasos, falhas e erros do segmento de leitura&quot;.
 
 >[!WARNING]
 >
