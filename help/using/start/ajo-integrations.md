@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 34d768502bfb2ce792beae8b1257fdddefc55ed7
+source-git-commit: 9331c5de057a8de0b52bc4db34c17bc3ab79f193
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '525'
 ht-degree: 5%
 
 ---
@@ -71,6 +71,6 @@ Saiba mais sobre [ações personalizadas](../action/about-custom-action-configur
 
 ## Sistemas externos{#integration-external-systems}
 
-O Journey Optimizer permite configurar conexões com sistemas externos por meio de fontes de dados personalizadas e ações personalizadas. Isso permite, por exemplo, enriquecer suas jornadas com dados provenientes de um sistema de reservas externo ou enviar mensagens usando um sistema de terceiros, como Epsilon ou Facebook.
+O Journey Optimizer permite configurar conexões com sistemas externos por meio de fontes de dados personalizadas e ações personalizadas. Isso permite, por exemplo, enriquecer suas jornadas com dados provenientes de um sistema de reservas externo.
 
 Saiba como usar fontes de dados externas para definir uma conexão com um sistema de terceiros no [esta seção](../datasource/external-data-sources.md).
