@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 8%
@@ -17,8 +17,10 @@ ht-degree: 8%
 
 # Trabalhar com o [!DNL Customer Journey Analytics] {#cja-ajo}
 
-![](assets/cja.png)
+
 [!DNL Journey Optimizer] integração com [!DNL Customer Journey Analytics] O fornece uma visualização holística de todas as jornadas com distribuição automatizada de relatórios e visualizações personalizadas dos dados.
+
+![](assets/cja.png)
 
 Depois de criar a jornada em [!DNL Journey Optimizer], é possível importar os dados do cliente para o [!DNL Customer Journey Analytics] para iniciar relatórios e entender o impacto de cada interação que um cliente tem com suas jornadas.
 
