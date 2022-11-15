@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 440c75dfd69c945ce01b73d8241138a70c7dd02b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 12%
+source-wordcount: '677'
+ht-degree: 11%
 
 ---
 
@@ -89,9 +89,9 @@ Para adicionar um link a uma mirror page no seu email, [inserir um link](#insert
 
 A mirror page é criada automaticamente.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Não é possível editar o link gerado automaticamente.
+>Os links de mirror pages são gerados automaticamente e não podem ser editados. Eles contêm todos os dados personalizados criptografados necessários para renderizar o email original. Como resultado, o uso de atributos personalizados com valores grandes pode gerar URLs de mirror pages longas, o que pode impedir que o link funcione em navegadores da Web com tamanho máximo de URLs.
 
 Depois que o email for enviado, quando os recipients clicarem no link da mirror page, o conteúdo do email será exibido no navegador padrão.
 

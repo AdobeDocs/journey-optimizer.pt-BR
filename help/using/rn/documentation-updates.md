@@ -4,16 +4,20 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 440c75dfd69c945ce01b73d8241138a70c7dd02b
 workflow-type: tm+mt
-source-wordcount: '2128'
-ht-degree: 100%
+source-wordcount: '2143'
+ht-degree: 99%
 
 ---
 
 # Atualizações de documentação {#latest-updates}
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
+
+## Novembro de 2022 {#november-2022}
+
+Uma recomendação foi adicionada sobre o comprimento dos URLs de mirror pages. [Leia mais](../design/message-tracking.md)
 
 ## Outubro de 2022 {#october-2022}
 
