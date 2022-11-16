@@ -1,5 +1,5 @@
 ---
-title: Páginas da Web do autor
+title: Páginas da Web de autor
 description: Saiba como criar uma página da Web e editar seu conteúdo no Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
+source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 3%
+source-wordcount: '916'
+ht-degree: 4%
 
 ---
 
-# Páginas da Web do autor {#author-web}
+# Páginas da Web de autor {#author-web}
 
 >[!AVAILABILITY]
 >
@@ -28,7 +29,11 @@ Para acessar e criar páginas da Web no [!DNL Journey Optimizer] na interface do
 
 Depois de criar uma ação da Web a partir da campanha, você pode editar o conteúdo usando o web designer. Para isso, siga as etapas abaixo.
 
-1. No **[!UICONTROL Ação]** da campanha, selecione **[!UICONTROL Editar conteúdo]** para começar a criar sua campanha da Web. [Saiba mais](create-web.md#configure-web-campaign)
+>[!CAUTION]
+>
+>Para ser acessado em [!DNL Journey Optimizer], sua página da Web deve ser implementada usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target=&quot;_blank&quot;}.
+
+1. No **[!UICONTROL Ação]** da campanha, selecione **[!UICONTROL Editar conteúdo]** para começar a criar sua campanha da Web.
 
 1. Se você criou uma regra de correspondência de páginas, deve inserir qualquer URL que corresponda a esta regra. As alterações serão aplicadas a todas as páginas que correspondem à regra.
 
@@ -42,7 +47,7 @@ Depois de criar uma ação da Web a partir da campanha, você pode editar o cont
 
    >[!CAUTION]
    >
-   >Para ser acessada, a página da Web deve ser implementada usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target=&quot;_blank&quot;}.
+   >A página da Web deve incluir a variável [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
 
 1. Clique em **[!UICONTROL Abrir web designer]** para editá-lo. [Saiba mais](author-web.md)
 
