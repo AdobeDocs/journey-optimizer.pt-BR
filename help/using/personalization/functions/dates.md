@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 6%
@@ -24,7 +24,7 @@ O `age` é usada para recuperar a idade de uma determinada data.
 **Formato**
 
 ```sql
- {%= age(date) %}
+ {%= age(datetime) %}
 ```
 
 <!--
@@ -33,7 +33,7 @@ O `age` é usada para recuperar a idade de uma determinada data.
 The following operation gets the value of the identity map for the key `example@example.com`.
 
 ```sql
- {%= age(date) %}
+ {%= age(datetime) %}
 ```
 -->
 
@@ -125,7 +125,7 @@ O `formatDate` é usada para formatar um valor de data e hora. O formato deve se
 **Formato**
 
 ```sql
-{%= formatDate(date, format) %}
+{%= formatDate(datetime, format) %}
 ```
 
 Onde a primeira string é o atributo date e o segundo valor é como você gostaria que a data fosse convertida e exibida.
@@ -151,7 +151,7 @@ O `setDays` é usada para definir o dia do mês para determinada data-hora.
 **Formato**
 
 ```sql
-{%= setDays(date, day) %}
+{%= setDays(datetime, day) %}
 ```
 
 <!--
@@ -171,7 +171,7 @@ O `setHours` é usada para definir a hora da data-hora.
 **Formato**
 
 ```sql
-{%= setHours(date, hour) %}
+{%= setHours(datetime, hour) %}
 ```
 
 <!--
