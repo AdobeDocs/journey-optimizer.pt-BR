@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 2%
@@ -62,6 +62,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 ## Etapa 2: Criar o email{#configure-email}
 
 1. No **Email** atividade , clique em **[!UICONTROL Editar conteúdo]**, depois clique em **[!UICONTROL Email Designer]**.
+
    ![](assets/personalization-uc-helpers-1.png)
 
 1. Na paleta esquerda da página inicial do Designer de email, arraste e solte três componentes da estrutura no corpo da mensagem.
@@ -109,6 +110,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
 1. Clique em **[!UICONTROL Validar]**, depois clique em **[!UICONTROL Salvar]**.
 
    ![](assets/personalization-uc-helpers-6.png)
+
 1. Salve a mensagem.
 
 ## Etapa 4: Inserir a lista de itens do carrinho {#each-helper}
@@ -164,6 +166,8 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
+
+
 1. Cole este código entre a opção de abertura `{{#each}}` e o fechamento `{/each}}` tag:
 
    ```html
@@ -184,6 +188,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
    1. Nos resultados da pesquisa anterior, adicione o **[!UICONTROL Nome]** para a expressão.
 
    Repita estas etapas duas vezes:
+
    * Substitua o espaço reservado &quot;#quantity&quot; pelo **[!UICONTROL Quantidade]** token.
    * Substitua o espaço reservado &quot;#priceTotal&quot; pelo **[!UICONTROL Preço total]** token.
 
@@ -202,7 +207,9 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
       </table>
    {{/each}}
    ```
+
 1. Clique em **[!UICONTROL Validar]**, depois clique em **[!UICONTROL Salvar]**.
+
    ![](assets/personalization-uc-helpers-11.png)
 
 ## Etapa 5: Inserir uma nota específica do produto {#if-helper}
@@ -225,6 +232,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-12.png)
 
 1. Remova essa condição da expressão:
@@ -258,6 +266,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-13.png)
 
 1. Modifique a expressão:
@@ -288,6 +297,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, é 
          {%else%} default_render
       {%/if%}
       ```
+
    1. Remova o espaço reservado &quot;default_render&quot; da expressão.
 1. Clique em **[!UICONTROL Validar]**, depois clique em **[!UICONTROL Salvar]**.
 
