@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: f418570a82d7b56dfb4c83df22b8109f506ec73a
+source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Você pode usar a flexibilidade de dados da Journey Optimizer para atender aos s
 
 * **Mecanismos de limpeza e arquivamento**: A limpeza de dados e arquivamento pode ser definida e automatizada livremente no Journey Optimizer para automatizar as políticas de retenção de dados. É possível definir diferentes estratégias de envelhecimento para as diferentes entidades de dados. Os mecanismos de exportação também podem ser definidos para exportar automaticamente os dados antigos antes que sejam limpos ou arquivados.
 
-   A área de trabalho Higiene de dados na interface do usuário do Adobe Experience Platform permite criar e monitorar várias tarefas de higiene de dados, incluindo a exclusão das identidades do consumidor e o agendamento das expirações do conjunto de dados. Saiba mais em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
+   A área de trabalho Higiene de dados na interface do usuário do Adobe Experience Platform permite criar e monitorar várias tarefas de higiene de dados, incluindo a exclusão das identidades do consumidor e o agendamento das expirações do conjunto de dados. Este espaço de trabalho está disponível com o Security &amp; Privacy Shield e com o Healthcare Shield. Saiba mais em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
 
 * **Data Lake e Exclusões**: Os dados do cliente armazenados no Data Lake podem ser retidos pela Journey Optimizer:
 

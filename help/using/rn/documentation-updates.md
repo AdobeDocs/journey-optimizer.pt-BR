@@ -4,10 +4,10 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
+source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 99%
+source-wordcount: '2145'
+ht-degree: 98%
 
 ---
 
@@ -17,15 +17,15 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Novembro de 2022 {#november-2022}
 
-<!--* Added a new page about Journey Optimizer integration. [Read more](../start/ajo-integrations.md)-->
-* Uma recomendação foi adicionada sobre o comprimento dos URLs de mirror pages. [Leia mais](../design/message-tracking.md)
+* Adição de uma nova página sobre integrações do Journey Optimizer. [Leia mais](../start/ajo-integrations.md)
+* Adição de uma recomendação sobre o comprimento dos URLs de mirror pages. [Leia mais](../design/message-tracking.md)
 
 ## Outubro de 2022 {#october-2022}
 
 * Foi adicionado um caso de uso de jornada sobre como limitar a taxa de transferência usando Fontes de dados externas e Ações personalizadas. [Leia mais](../building-journeys/limit-throughput.md)
 * A seção caso de uso de jornada foi reorganizada em duas categorias: [Casos de uso de negócios](../building-journeys/journeys-uc.md) e [Casos de uso técnico](../building-journeys/collections.md).
 * A seção **Conjunto de dados da entidade** foi atualizada com mais detalhes. [Leia mais](../data/datasets-query-examples.md#entity-dataset)
-* As informações relacionadas ao gerenciamento de recusa e às políticas de consentimento foram reorganizadas em uma nova seção. [Leia mais](../privacy/opt-out.md)
+* As seções de gerenciamento de recusa e políticas de consentimento foram reorganizadas. [Leia mais](../privacy/opt-out.md)
 * A seção sobre parâmetros avançados nas mensagens da jornada foi esclarecida e agora especifica que a substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, o valor é definido como o endereço principal nos **Campos de execução** é o que deve ser usado. [Leia mais](../messages/messages-in-journeys.md#adv-settings)
 * Uma observação foi adicionada à seção **Configurar subdomínios da página de destino** para especificar que letras maiúsculas não são permitidas nos subdomínios da página de destino. [Leia mais](../configuration/lp-subdomains.md)
 
@@ -37,7 +37,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Atualização das páginas relacionadas às funções [toDateOnly](../building-journeys/functions/functiontodateonly.md) e [toString](../building-journeys/functions/functiontostring.md).
 * Adição de detalhes sobre os parâmetros da condição de tempo. [Leia mais](../building-journeys/condition-activity.md#time_condition)
 * Adição de informações sobre conjuntos de dados incorporados. [Leia mais](../data/get-started-datasets.md#access-datasets)
-* As seções Relatório global e Relatório em tempo real foram reorganizadas para facilitar a leitura. [Leia mais](../reports/global-report.md)
+* As seções Relatório global e Relatório ao vivo foram aprimoradas e reorganizadas. [Leia mais](../reports/global-report.md)
 * Uma lista de cada métrica de relatório disponível no Adobe Journey Optimizer foi adicionada.
    [Leia mais](../reports/global-report.md#email-and-sms-metrics)
 * A seção sobre CCO de email foi movida para a nova página Suporte para arquivamento. [Leia mais](../configuration/archiving-support.md)
