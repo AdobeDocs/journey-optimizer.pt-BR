@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '210'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="Definir qual endereço usar"
->abstract="Quando vários endereços estão disponíveis no banco de dados (pessoal, profissional etc.), você pode escolher qual endereço priorizar para envio."
+>abstract="Quando vários endereços de email ou números de telefone estão disponíveis no banco de dados (pessoal, profissional etc.), você pode escolher qual deles priorizar para envio."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_execution_address_header"
+>title="Definir qual endereço usar"
+>abstract="Edite os campos usados para determinar o endereço de email ou número de telefone dos perfis para priorizar o envio."
 
 Ao direcionar um perfil, vários endereços de email ou números de telefone podem estar disponíveis no banco de dados (endereço de email profissional, número de telefone pessoal etc.).
 

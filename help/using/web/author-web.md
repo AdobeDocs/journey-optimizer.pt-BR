@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '1051'
 ht-degree: 4%
 
 ---
@@ -26,6 +26,14 @@ Em [!DNL Journey Optimizer] a criação na web é disponibilizada pela extensão
 Para acessar e criar páginas da Web no [!DNL Journey Optimizer] na interface do usuário, siga os pré-requisitos listados em [esta seção](create-web.md#prerequesites).
 
 ## Editar conteúdo da página da Web {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_personalize_header"
+>title="Insira o URL para editar"
+>abstract="Insira o URL de uma página da Web específica para usar na edição do conteúdo que será aplicado na superfície da Web definida acima. A página deve ser implementada usando o SDK da Web da Adobe Experience Platform."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Saiba mais"
+
+<!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
 Depois de criar uma ação da Web a partir da campanha, você pode editar o conteúdo usando o web designer. Para isso, siga as etapas abaixo.
 
@@ -73,6 +81,11 @@ Depois de criar uma ação da Web a partir da campanha, você pode editar o cont
 
 ## Usar componentes de conteúdo {#content-components}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_components"
+>title="Adicionar componentes de conteúdo à página da Web"
+>abstract="Você pode adicionar vários componentes à sua página da Web e editá-los conforme necessário."
+
 1. No **[!UICONTROL Componentes]** no painel à esquerda, você pode adicionar os seguintes componentes à sua página da Web e editá-los conforme necessário:
 
    * [Divisor](../design/content-components.md#divider)
@@ -113,6 +126,11 @@ Depois de criar uma ação da Web a partir da campanha, você pode editar o cont
 
 ### Trocar para o modo de navegação {#browse-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_browse"
+>title="Usar o modo de navegação"
+>abstract="Nesse modo, você pode navegar até a página exata da superfície selecionada que deseja personalizar."
+
 Você pode trocar a partir do padrão **[!UICONTROL Design]** para **[!UICONTROL Procurar]** usando o botão dedicado.
 
 ![](assets/web-designer-browse-mode.png)
@@ -130,6 +148,11 @@ Também é possível alterar o foco do zoom - de 25% para 400%.
 ![](assets/web-designer-device.png)
 
 ## Gerenciar modificações {#manage-modifications}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_modifications"
+>title="Gerencie facilmente todas as alterações"
+>abstract="Usando esse painel, você pode navegar e gerenciar todos os ajustes e estilos adicionados à sua página da Web."
 
 Você pode gerenciar facilmente todos os componentes, ajustes e estilos adicionados à sua página da Web.
 
@@ -164,6 +187,11 @@ Use o **[!UICONTROL Decisão da oferta]** componente a ser inserido [ofertas](..
 ![](assets/web-designer-offer.png)
 
 ## Testar a campanha da Web {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="Visualizar a experiência da Web"
+>abstract="Obtenha uma simulação de como sua experiência da Web será."
 
 Para exibir uma pré-visualização da experiência da Web modificada, siga as etapas abaixo.
 
