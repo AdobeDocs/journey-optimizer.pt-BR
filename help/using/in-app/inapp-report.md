@@ -7,13 +7,13 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 3d496efc-1bf9-4895-906c-3757f92c6fe3
+source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 2%
+source-wordcount: '608'
+ht-degree: 4%
 
 ---
-
 
 # Relatório no aplicativo {#inapp-report}
 
@@ -63,3 +63,72 @@ O **[!UICONTROL Cliques por botão]** gráfico e tabela contêm os dados dispon�
 * [Criar mensagem no aplicativo](../in-app/create-in-app.md)
 * [Criar mensagem no aplicativo](../in-app/design-in-app.md)
 * [Configuração no aplicativo](../in-app/inapp-configuration.md)
+
+
+>[!BEGINTABS]
+
+>[!TAB Adicionar um push a uma Jornada]
+
+1. Abra a jornada e arraste e solte uma atividade de Push da seção Ações da paleta.
+
+1. Forneça informações básicas sobre a mensagem (rótulo, descrição, categoria) e escolha a superfície da mensagem a ser usada.
+
+>[!TAB Adicionar um push a uma campanha]
+
+1. Crie uma nova campanha agendada ou acionada por API, selecione **[!UICONTROL Notificação por push]** como sua ação e escolha o **[!UICONTROL Superfície do aplicativo]** para usar.
+
+1. Clique em **[!UICONTROL Criar]**.
+
+1. No **[!UICONTROL Propriedades]** edite o **[!UICONTROL Título]** e **[!UICONTROL Descrição]**.
+
+1. Clique no botão **[!UICONTROL Seleção do público-alvo]** para definir o público-alvo a ser direcionado a partir da lista de segmentos disponíveis do Adobe Experience Platform.
+
+1. No **[!UICONTROL Namespace de identidade]** , escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado.
+
+1. As campanhas são projetadas para serem executadas em uma data específica ou em uma frequência recorrente. Saiba como configurar o **[!UICONTROL Agendar]** da sua campanha.
+
+1. No **[!UICONTROL Acionadores de ação]** escolha o **[!UICONTROL Frequência]** da sua notificação por push:
+
+   * Uma vez
+   * Diariamente
+   * Semanalmente
+   * Mensalmente
+
+>[!ENDTABS]
+
+Teste 2:
+
+1. Este é um teste
+
+>[!BEGINTABS]
+
+>[!TAB Adicionar um push a uma Jornada]
+
+    1. Abra a jornada e arraste e solte uma atividade de Push da seção Ações da paleta.
+    
+    1. Forneça informações básicas sobre a mensagem (rótulo, descrição, categoria) e escolha a superfície da mensagem a ser usada.
+
+>[!TAB Adicionar um push a uma campanha]
+
+    1. Crie uma nova campanha agendada ou acionada por API, selecione **[!UICONTROL Notificação por push]** como sua ação e escolha o **[!UICONTROL Superfície do aplicativo]** para usar.
+    
+    1. Clique em **[!UICONTROL Criar]**.
+    
+    1. No **[!UICONTROL Propriedades]**, edite o ** de sua campanha[!UICONTROL Título]** e **[!UICONTROL Descrição]**.
+    
+    1. Clique no **[!UICONTROL Seleção do público-alvo]** para definir o público-alvo a ser direcionado a partir da lista de segmentos disponíveis do Adobe Experience Platform.
+    
+    1. No **[!UICONTROL Namespace de identidade]**, escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado.
+    
+    1. As campanhas são projetadas para serem executadas em uma data específica ou em uma frequência recorrente. Saiba como configurar o **[!UICONTROL Agendar]** da sua campanha.
+    
+    1. No **[!UICONTROL Acionadores de ação]**, escolha o menu **[!UICONTROL Frequência]** da sua notificação por push:
+    
+    * Uma vez
+    * Diariamente
+    * Semanalmente
+    * Mensal
+
+>[!ENDTABS]
+
+1. Isso faz parte do teste
