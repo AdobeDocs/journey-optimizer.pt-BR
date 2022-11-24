@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 29f01b1c92c2b82a7cb11264b29604e74252b19b
+source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -46,9 +46,9 @@ A página inicial do [!DNL Journey Optimizer] contém os links e recursos princi
 
 **[!UICONTROL GERENCIAMENTO DA JORNADA]**
 
-* **[!UICONTROL Jornadas]** - crie, configure e orquestre as jornadas do cliente. [Saiba mais](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Jornada]** - Crie, configure e orquestre as jornadas do cliente. [Saiba mais](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Páginas de destino]** - crie, projete, teste e publique páginas de destino. [Saiba mais](../landing-pages/get-started-lp.md)
+* **[!UICONTROL Landing pages]** - Criar, projetar, testar e publicar landing pages. [Saiba mais](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL GESTÃO DE DECISÕES]**
 
@@ -275,7 +275,7 @@ Para alterar o idioma:
 * Clique em **Preferências** em seu avatar, no canto superior direito.
    ![](assets/preferences.png)
 * Em seguida, clique no idioma exibido sob seu endereço de email
-* Selecione o idioma de sua preferência e clique em **Salvar**. Você poderá selecionar um segundo idioma, caso o componente que está usando não esteja traduzido em seu primeiro idioma.
+* Selecione o idioma de sua preferência e clique em **Salvar**. Você pode selecionar um segundo idioma caso o componente que está usando não esteja localizado em seu primeiro idioma.
    ![](assets/select-language.png)
 
 ## Pesquisa{#unified-search}
