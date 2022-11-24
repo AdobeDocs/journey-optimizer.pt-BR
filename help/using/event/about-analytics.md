@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: a6735063ec68b40b1441b379a20cba8953b59447
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 8%
+source-wordcount: '203'
+ht-degree: 11%
 
 ---
 
@@ -23,11 +23,12 @@ Você pode aproveitar todos os dados de evento comportamental do Adobe Analytics
 >
 >Esta seção se aplica somente a eventos com base em regras e clientes que precisam usar dados do Adobe Analytics.
 
-Para que isso funcione, é necessário ativar, no Adobe Experience Platform, o conjunto de relatórios que deseja aproveitar:
+Para que isso funcione, é necessário ativar, no Adobe Experience Platform, o conjunto de relatórios que deseja usar. Para fazer isso, siga as etapas abaixo:
 
-1. No Adobe Experience Platform, selecione **[!UICONTROL Fontes]** then **[!UICONTROL Adicionar dados]** na seção Adobe Analytics . A lista de conjuntos de relatórios disponíveis do Adobe Analytics é exibida.
+1. Conecte-se ao Adobe Experience Platform e navegue até **[!UICONTROL Fontes]**.
+1. Na seção Adobe Analytics , selecione **[!UICONTROL Adicionar dados]**: a lista de conjuntos de relatórios disponíveis do Adobe Analytics é exibida.
 
-1. Escolha o conjunto de relatórios que deseja ativar, clique em **[!UICONTROL Próximo]** e clique em **[!UICONTROL Concluir]**.
+1. Selecione o conjunto de relatórios que será ativado, clique em **[!UICONTROL Próximo]** e **[!UICONTROL Concluir]**.
 
 1. Compartilhe a ID de dados de origem com o ponto de contato do programa Beta.
 
