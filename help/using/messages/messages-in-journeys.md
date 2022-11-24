@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: ht
+exl-id: acb5b65b-8787-4428-9924-36aa0a115926
+source-git-commit: 88182f9f685efbd45dd5ecf8a09745f55305a78f
+workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
-
 
 # Adicionar mensagens em jornadas{#messages-in-journeys}
 
