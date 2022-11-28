@@ -7,9 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 5c12ea559876d30a08f9aaf593d1b40b1f5b8bae
+exl-id: 617d623c-e038-4b5b-a367-5254116b7815
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '897'
 ht-degree: 9%
 
 ---
@@ -34,10 +35,12 @@ ht-degree: 9%
 
    ![](assets/create-campaign.png)
 
-1. No **[!UICONTROL Propriedades]** , especifique quando deseja executar a campanha:
+1. No **[!UICONTROL Propriedades]** especifique como deseja executar a campanha:
 
-   * **[!UICONTROL Programado]**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas têm como objetivo enviar **marketing** digite mensagens.
-   * **[!UICONTROL Acionado por API]**: execute a campanha usando uma chamada de API . As campanhas acionadas por API são destinadas ao envio de **transacional** mensagens, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, abandono de cartão etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
+   * **[!UICONTROL Programado]**
+   * **[!UICONTROL Acionado por API]**
+
+   Para obter mais informações sobre o tipo de campanha e os envolvimentos associados, consulte esta seção [seção](#campaigntype).
 
 1. No **[!UICONTROL Ações]** escolha o canal e a superfície do canal a serem usados para enviar a mensagem e clique em **[!UICONTROL Criar]**.
 
@@ -95,7 +98,40 @@ ht-degree: 9%
 
 Quando a campanha estiver pronta, você poderá revisá-la e publicá-la. [Saiba mais](#review-activate)
 
+## Tipo de campanha {#campaigntype}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_type"
+>title="Tipo de campanha"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_category"
+>title="Categoria de campanha"
+>abstract="TBC"
+
+Há dois tipos de campanha disponíveis:
+
+* **[!UICONTROL Programado]**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas têm como objetivo enviar **marketing** digite mensagens.
+
+* **[!UICONTROL Acionado por API]**: execute a campanha usando uma chamada de API . As campanhas acionadas por API são destinadas ao envio de **transacional** mensagens, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, abandono de cartão etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
+
 ## Programar uma campanha {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="Início da campanha"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="Fim da campanha"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="Acionadores de ação da campanha"
+>abstract="TBC"
 
 Por padrão, as campanhas começam assim que são ativadas manualmente e terminam assim que a mensagem é enviada uma vez.
 
@@ -105,7 +141,7 @@ Se não quiser executar a campanha logo após a ativação, você pode especific
 
 ![](assets/create-campaign-schedule.png)
 
-## Modo de entrega rápida {#rapid-delivery}
+## Modo de entrega rápida para a campanha de push {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"

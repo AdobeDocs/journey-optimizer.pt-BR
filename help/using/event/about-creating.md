@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1530'
 ht-degree: 11%
 
 ---
@@ -107,6 +107,11 @@ A definição de carga permite escolher as informações que o sistema espera re
    ![](assets/journey12.png)
 
 ## Selecionar namespace {#select-the-namespace}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_namespace"
+>title="Namespace de identidade"
+>abstract="TBC"
 
 O namespace permite definir o tipo de chave usada para identificar a pessoa associada ao evento. Sua configuração é opcional. É necessário se você quiser recuperar, em suas jornadas, informações adicionais provenientes do [Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target=&quot;_blank&quot;}. A definição do namespace não é necessária se você estiver usando apenas dados provenientes de um sistema de terceiros por meio de uma fonte de dados personalizada.
 
