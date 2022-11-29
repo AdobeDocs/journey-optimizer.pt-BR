@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -325,6 +325,8 @@ Esse conjunto de dados fornece acesso aos metadados definidos pelo profissional 
 >[!NOTE]
 >
 >Por enquanto, há duas entradas para cada publicação de mensagem no conjunto de dados da entidade por motivos de compatibilidade futuros. Isso não afeta sua capacidade de usar consultas de associação conforme necessário em todos os conjuntos de dados para buscar as informações desejadas.
+
+Se desejar classificar, em seus relatórios, os emails enviados por uma jornada específica de acordo com a ação que os enviou. você pode ingressar no conjunto de dados do Feedback de mensagem com o conjunto de dados da entidade. Os campos a serem usados são: `_experience.decisioning.propositions.scopeDetails.correlationID` e `_id field in entity dataset`.
 
 A consulta a seguir ajuda a obter o template de mensagem associado para uma determinada campanha:
 

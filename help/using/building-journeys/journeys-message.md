@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 27%
+source-wordcount: '223'
+ht-degree: 20%
 
 ---
 
@@ -39,4 +39,12 @@ Para adicionar uma mensagem em uma jornada, siga as etapas abaixo:
 
    Todas as etapas para configurar a mensagem e definir seu conteúdo são detalhadas em [esta seção](../messages/get-started-content.md).
 
+## Atualizar conteúdo ao vivo{#update-live-content}
 
+Você pode atualizar o conteúdo de uma mensagem (email, sms, push) em uma jornada ao vivo.
+
+Para fazer isso, abra a jornada ao vivo, selecione a atividade de mensagem e clique em **Editar conteúdo**.
+
+![](assets/add-a-message2.png)
+
+No entanto, não é possível alterar os atributos usados na personalização, sejam eles atributos de perfil ou dados contextuais (das propriedades de evento ou jornada).
