@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 146e2384e44fc040ddb73a96742cae0dea6f17da
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 26%
+source-wordcount: '695'
+ht-degree: 24%
 
 ---
 
 # Introdução à capacidade de entrega {#manage-deliverability}
 
 A capacidade de delivery é uma medida do sucesso dos deliveries em chegar às caixas de entrada dos recipients.
+
+>[!NOTE]
+>
+>Para clientes que licenciam o Healthcare Shield, o Adobe usa o Transport Layer Security (TLS) 1.2 para proteger a troca de dados entre os sistemas (recipients) e o Journey Optimizer (remetente) dos usuários. Se o servidor de email de recebimento não for compatível com TLS 1.2, os clientes enfrentarão problemas de deliverability, incluindo o email devolvido ao remetente de origem.
 
 A **capacidade de delivery de email** refere-se ao conjunto de características que determinam a capacidade de uma mensagem de alcançar seu destino por meio de um endereço de email pessoal, dentro de um curto período e com a qualidade esperada em termos de conteúdo e formato. Essas características estão em quatro categorias principais: qualidade de dados, mensagem e conteúdo, infraestrutura de envio e reputação. Juntos, elas formam a base de um programa bem-sucedido de capacidade de fornecimento de email.
 
