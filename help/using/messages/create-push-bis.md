@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Criar uma notificação por push {#create-push-notification-bis}
 
-## Criar a notificação por push em uma jornada ou campanha {#create}
+## Criar a notificação por push em uma jornada ou campanha
 
 Para criar uma notificação por push, siga as etapas abaixo:
 
@@ -71,7 +71,7 @@ Para criar uma notificação por push, siga as etapas abaixo:
 
 >[!ENDTABS]
 
-## Modo de entrega rápida {#rapid-delivery}
+## Modo de entrega rápida
 
 O modo de entrega rápida, anteriormente conhecido como modo Burst no jornada, é um [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens de push em grandes volumes por meio de campanhas.
 
@@ -79,7 +79,7 @@ A entrega rápida é usada quando o atraso na entrega de mensagens é essencial 
 
 Para obter mais informações sobre desempenho ao usar o modo Rapid delivery, consulte.
 
-### Pré-requisitos {#prerequisites}
+### Pré-requisitos
 
 As mensagens de delivery rápidas vêm com os seguintes requisitos:
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 >
 >De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os recipients cancelarem facilmente a inscrição. Para fazer isso, os recipients do SMS podem responder com palavras-chave de aceitação e recusa.
 
-## Criar uma mensagem SMS em uma jornada ou campanha {#sms-content}
+## Criar uma mensagem SMS em uma jornada ou campanha
 
 Para começar a personalizar a mensagem SMS, siga estas etapas:
 
@@ -65,7 +65,7 @@ Agora você pode começar a projetar o conteúdo de sua mensagem SMS do **[!UICO
 
 >[!ENDTABS]
 
-## Definir o conteúdo do SMS{#sms-content}
+## Definir o conteúdo do SMS
 
 1. Na tela de configuração da jornada ou campanha, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo do SMS.
 
@@ -77,7 +77,7 @@ Agora você pode começar a projetar o conteúdo de sua mensagem SMS do **[!UICO
 
 1. Quando a mensagem SMS estiver pronta, conclua a configuração de seu para enviá-la.
 
-## Validar o SMS{#sms-preview}
+## Validar o SMS
 
 >[!NOTE]
 >
