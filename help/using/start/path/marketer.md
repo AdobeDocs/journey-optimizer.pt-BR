@@ -6,9 +6,9 @@ description: Como usuário de jornadas, aprenda a trabalhar com o Journey Optimi
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Consulte as seguintes seções para configurar a primeira jornada, adicionar ofe
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Testar e validar**. Após definir o conteúdo, é possível usar perfis de teste para pré-visualizar e testar o conteúdo. Se você inseriu [conteúdo personalizado](../../personalization/personalize.md), você poderá verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste. Além disso, use a conta do **Litmus** no [!DNL Journey Optimizer] para pré-visualizar instantaneamente a **renderização de email** em clientes de email populares. Em seguida, você pode melhorar seu conteúdo de email e garantir que ele e funcione corretamente em cada caixa de entrada. Saiba como testar e validar suas mensagens [nesta seção](../../design/preview.md).
+1. **Testar e validar**. Após definir o conteúdo, é possível usar perfis de teste para pré-visualizar e testar o conteúdo. Se você inseriu [conteúdo personalizado](../../personalization/personalize.md), será possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste. Além disso, use a conta do **Litmus** no [!DNL Journey Optimizer] para pré-visualizar instantaneamente a **renderização de email** em clientes de email populares. Em seguida, você pode melhorar seu conteúdo de email e garantir que ele e funcione corretamente em cada caixa de entrada. Saiba como testar e validar suas mensagens [nesta seção](../../design/preview.md).
 
-1. **Crie jornadas do cliente** para fornecer experiências personalizadas e contextuais. [!DNL Journey Optimizer] permitem criar casos de uso de orquestração em tempo real com dados contextuais armazenados em eventos ou fontes de dados. Crie designs de cenários avançados com várias etapas e com os seguintes recursos:
+1. **Crie jornadas do cliente** para fornecer experiências personalizadas e contextuais. O [!DNL Journey Optimizer] permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. Crie designs de cenários avançados com várias etapas e com os seguintes recursos:
 
    * Envie **entrega unitária** em tempo real acionada quando um evento é recebido, ou **em lote** usando segmentos da Adobe Experience Platform.
 
