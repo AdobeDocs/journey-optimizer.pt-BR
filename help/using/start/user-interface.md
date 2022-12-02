@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1578'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,9 +46,9 @@ A página inicial do [!DNL Journey Optimizer] contém os links e recursos princi
 
 **[!UICONTROL GERENCIAMENTO DA JORNADA]**
 
-* **[!UICONTROL Jornada]** - Crie, configure e orquestre as jornadas do cliente. [Saiba mais](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Jornadas]** - crie, configure e orquestre suas jornadas de cliente. [Saiba mais](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Landing pages]** - Criar, projetar, testar e publicar landing pages. [Saiba mais](../landing-pages/get-started-lp.md)
+* **[!UICONTROL Páginas de destino]** - crie, projete, teste e publique páginas de destino. [Saiba mais](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL GESTÃO DE DECISÕES]**
 
@@ -215,7 +215,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
   <tr>
     <td>Campo de texto</td>
     <td>Selecionar todo o texto no campo selecionado</td>
-    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Janela pop-up</td>
@@ -239,7 +239,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
   <tr>
     <td>Visualização do conteúdo</td>
     <td>Selecionar o conteúdo</td>
-    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
 </table>
 
@@ -275,7 +275,7 @@ Para alterar o idioma:
 * Clique em **Preferências** em seu avatar, no canto superior direito.
    ![](assets/preferences.png)
 * Em seguida, clique no idioma exibido sob seu endereço de email
-* Selecione o idioma de sua preferência e clique em **Salvar**. Você pode selecionar um segundo idioma caso o componente que está usando não esteja localizado em seu primeiro idioma.
+* Selecione o idioma de sua preferência e clique em **Salvar**. Você poderá selecionar um segundo idioma caso o componente utilizado não esteja traduzido para o seu primeiro idioma.
    ![](assets/select-language.png)
 
 ## Pesquisa{#unified-search}
