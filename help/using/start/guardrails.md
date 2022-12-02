@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ As medidas de proteção de desempenho e os limites estáticos para a tomada de 
 * Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida.
 * O evento **Reação** integrado permite que você reaja a ações predefinidas. Saiba mais [nesta página](../building-journeys/reaction-events.md). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado.
 * Não é possível colocar duas ações em paralelo, é necessário adicioná-las uma após a outra.
-* Geralmente, um perfil não pode estar presente várias vezes na mesma jornada, ao mesmo tempo. Se a reentrada estiver ativada, um perfil poderá inserir uma jornada novamente, mas não poderá fazer isso até que ele tenha saído totalmente da instância anterior da jornada. [Leia mais](../building-journeys/end-journey.md)
+* Geralmente, um perfil não pode estar presente várias vezes na mesma jornada ao mesmo tempo. Se a reentrada estiver ativada, um perfil poderá inserir uma jornada novamente, mas não poderá fazer isso até que ele tenha saído totalmente da instância anterior da jornada. [Leia mais](../building-journeys/end-journey.md)
 
 ### Versões de jornada {#journey-versions-g}
 
