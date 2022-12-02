@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '2189'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -17,9 +17,9 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Novembro de 2022 {#november-2022}
 
-* Adição de uma nova página sobre integrações do Journey Optimizer. [Leia mais](../start/ajo-integrations.md)
-* Adição de uma recomendação sobre o comprimento dos URLs de mirror pages. [Leia mais](../design/message-tracking.md)
-* Uma nova subseção na configuração das configurações de email foi adicionada na resposta ao endereço de email, incluindo recomendações para garantir o gerenciamento de resposta adequado. [Leia mais](../configuration/email-settings.md#reply-to-email)
+* Uma nova página sobre as integrações do Journey Optimizer foi adicionada. [Leia mais](../start/ajo-integrations.md)
+* Uma recomendação sobre o comprimento dos URLs de mirror pages foi adicionada. [Leia mais](../design/message-tracking.md)
+* Uma nova subseção nas configurações de email foi adicionada na resposta ao endereço de email, incluindo recomendações para garantir o gerenciamento de resposta adequado. [Leia mais](../configuration/email-settings.md#reply-to-email)
 * Adição de uma seção sobre como modificar o conteúdo de uma mensagem em uma jornada ao vivo. [Leia mais](../building-journeys/journeys-message.md#update-live-content)
 
 ## Outubro de 2022 {#october-2022}

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,15 +39,15 @@ ht-degree: 97%
       + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
       + [Teste a jornada](using/building-journeys/testing-the-journey.md)
       + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
-   + Gerencie suas jornadas{#mannage-journey}
+   + Gerenciar suas jornadas{#mannage-journey}
       + [Encerrar sua jornada](using/building-journeys/end-journey.md)
       + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
-      + [Gerenciamento de entrada do perfil](using/building-journeys/entry-management.md)
+      + [Gerenciamento de entrada de perfis](using/building-journeys/entry-management.md)
       + [Copiar uma jornada para outra sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Solucionar problemas da jornada](using/building-journeys/troubleshooting.md)
       + [Integrar a serviços inteligentes](using/building-journeys/ai-services-overview.md)
    + Atividades {#about-journey-building}
-      + [Introdução às atividades do jornada](using/building-journeys/about-journey-activities.md)
+      + [Introdução às atividades de jornada](using/building-journeys/about-journey-activities.md)
       + [Eventos gerais](using/building-journeys/general-events.md)
       + [Reação](using/building-journeys/reaction-events.md)
       + [Qualificação do segmento](using/building-journeys/segment-qualification-events.md)
