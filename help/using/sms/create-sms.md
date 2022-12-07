@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 13%
@@ -26,7 +26,7 @@ ht-degree: 13%
 >
 >De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os recipients cancelarem facilmente a inscrição. Para fazer isso, os recipients do SMS podem responder com palavras-chave de aceitação e recusa. [Saiba como gerenciar a recusa](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
-## Criar uma mensagem SMS em uma jornada ou campanha {#sms-content}
+## Criar uma mensagem SMS em uma jornada ou campanha {#create-sms-journey-campaign}
 
 Para começar a personalizar a mensagem SMS, siga estas etapas:
 
