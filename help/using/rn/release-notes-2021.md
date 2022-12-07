@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de versão anteriores (2021)
 description: Notas de versão do Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 95%
@@ -182,7 +182,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 <td>
 <p>Envie sua mensagem por push ou de email automaticamente na melhor hora para cada cliente com quem você interagir usando o Adobe Journey Optimizer. A Otimização de tempo de envio, viabilizada pelos serviços de IA da Adobe, prevê o melhor momento para enviar um email ou mensagem por push. Isso maximiza o engajamento com base no histórico das taxas de abertura e de cliques pronto para uso.</p>
 <p>No momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.</p>
-<p>Para obter mais informações, consulte a <a href="../messages/send-time-optimization.md"> documentação detalhada </a>.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/journeys-message.md#send-time-optimization"> documentação detalhada </a>.</p>
 </td>
 </tr>
 </tbody>
@@ -271,7 +271,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 
 **Design de conteúdo**
 
-* **Plano de fundo** - Imagens de planos de fundo agora são compatíveis com a pré-visualização ao vivo. [Saiba mais](../design/preview.md)
+* **Plano de fundo** - Imagens de planos de fundo agora são compatíveis com a pré-visualização ao vivo. [Saiba mais](../email/preview.md)
 * **Link para opção de não participação com um clique** - É possível inserir um novo tipo de link no conteúdo de email: o link para **opção de não participação** permite que os usuários cancelem o recebimento de suas comunicações com apenas um clique, sem serem redirecionados para uma página de aterrissagem para confirmar a recusa. [Saiba mais](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalização**
@@ -346,9 +346,9 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 
 **Visualizar e testar**
 
-* A identidade e o namespace agora estão visíveis no **[!UICONTROL Visualizar]** tela. [Leia mais](../design/preview.md#preview-your-messages)
+* A identidade e o namespace agora estão visíveis no **[!UICONTROL Visualizar]** tela. [Leia mais](../email/preview.md#preview-your-messages)
 * O número de emails de teste para provas agora está restrito a 10.
-* Caracteres permitidos nas provas de **prefixo da linha de assunto** agora são limitadas. [Leia mais](../design/preview.md#send-proofs)
+* Caracteres permitidos nas provas de **prefixo da linha de assunto** agora são limitadas. [Leia mais](../email/preview.md#send-proofs)
 
 **Editor de expressão de personalização**
 

@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 2%
@@ -40,7 +40,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
    ![](assets/perso-uc5.png)
 
-1. Configure e projete sua mensagem de notificação por push. Consulte esta [seção](../messages/get-started-content.md).
+1. Configure e projete sua mensagem de notificação por push. Consulte esta [seção](../push/create-push.md).
 
 ## Etapa 2 - Adicionar personalização ao perfil {#add-perso}
 

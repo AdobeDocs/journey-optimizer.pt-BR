@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 1%
@@ -124,7 +124,7 @@ O **[!UICONTROL Email - Domínio do recipient principal]** gráfico e tabela det
 
 >[!NOTE]
 >
->O **[!UICONTROL Otimizado vs não otimizado]** e **[!UICONTROL Enviar otimização de tempo]**  os widgets só estarão disponíveis se a opção Send-Time Otimization estiver ativada para o seu delivery. Para obter mais informações sobre Otimização de tempo de envio, consulte [esta página](../messages/send-time-optimization.md).
+>O **[!UICONTROL Otimizado vs não otimizado]** e **[!UICONTROL Enviar otimização de tempo]**  os widgets só estarão disponíveis se a opção Send-Time Otimization estiver ativada para o seu delivery. Para obter mais informações sobre Otimização de tempo de envio, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
 
 O **[!UICONTROL Otimizado vs não otimizado]** O gráfico detalha as informações principais relativas à sua mensagem, sejam elas otimizadas ou não:
 
@@ -192,7 +192,7 @@ O **[!UICONTROL Resumo da notificação por push]** O gráfico contém os dados 
 
 >[!NOTE]
 >
->O **[!UICONTROL Otimizado vs não otimizado]** e **[!UICONTROL Enviar otimização de tempo]**  os widgets só estarão disponíveis se a opção Send-Time Otimization estiver ativada para o seu delivery. Para obter mais informações sobre Otimização de tempo de envio, consulte [esta página](../messages/send-time-optimization.md).
+>O **[!UICONTROL Otimizado vs não otimizado]** e **[!UICONTROL Enviar otimização de tempo]**  os widgets só estarão disponíveis se a opção Send-Time Otimization estiver ativada para o seu delivery. Para obter mais informações sobre Otimização de tempo de envio, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
 
 O **[!UICONTROL Otimizado vs não otimizado]** O gráfico detalha as informações principais relativas à sua mensagem, sejam elas otimizadas ou não:
 

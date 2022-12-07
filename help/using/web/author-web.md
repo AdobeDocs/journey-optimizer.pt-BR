@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: f39e2094db24e7d0e8a304750624c985ff631572
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 5%
@@ -94,13 +94,13 @@ Depois de criar uma ação da Web a partir da campanha, você pode editar o cont
 
 1. No **[!UICONTROL Componentes]** no painel à esquerda, você pode adicionar os seguintes componentes à sua página da Web e editá-los conforme necessário:
 
-   * [Divisor](../design/content-components.md#divider)
-   * [HTML](../design/content-components.md#HTML)
-   * [Imagem](../design/content-components.md#image)
-   * Cabeçalho - O uso desse componente é semelhante ao uso da variável **[!UICONTROL Texto]** no designer de email. [Saiba mais](../design/content-components.md#text)
-   * Parágrafo - O uso desse componente é semelhante ao uso da variável **[!UICONTROL Texto]** no designer de email. [Saiba mais](../design/content-components.md#text)
-   * Link - Saiba como definir o estilo do link em [esta seção](../design/styling-links.md)
-   * [Decisão da oferta](../design/deliver-personalized-offers.md)
+   * [Divisor](../email/content-components.md#divider)
+   * [HTML](../email/content-components.md#HTML)
+   * [Imagem](../email/content-components.md#image)
+   * Cabeçalho - O uso desse componente é semelhante ao uso da variável **[!UICONTROL Texto]** no designer de email. [Saiba mais](../email/content-components.md#text)
+   * Parágrafo - O uso desse componente é semelhante ao uso da variável **[!UICONTROL Texto]** no designer de email. [Saiba mais](../email/content-components.md#text)
+   * Link - Saiba como definir o estilo do link em [esta seção](../email/styling-links.md)
+   * [Decisão da oferta](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
@@ -188,7 +188,7 @@ Para adicionar personalização, selecione um container e selecione o ícone de 
 
 ![](assets/web-designer-personalization.png)
 
-Use o **[!UICONTROL Decisão da oferta]** componente a ser inserido [ofertas](../offers/get-started/starting-offer-decisioning.md) nas páginas da Web. O processo é o mesmo de quando [adicionar uma oferta a um email](../design/deliver-personalized-offers.md). Ele usará o Gerenciamento de decisões para escolher a melhor oferta para oferecer aos clientes.
+Use o **[!UICONTROL Decisão da oferta]** componente a ser inserido [ofertas](../offers/get-started/starting-offer-decisioning.md) nas páginas da Web. O processo é o mesmo de quando [adicionar uma oferta a um email](../email/add-offers-email.md). Ele usará o Gerenciamento de decisões para escolher a melhor oferta para oferecer aos clientes.
 
 ![](assets/web-designer-offer.png)
 

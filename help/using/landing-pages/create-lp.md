@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 2%
@@ -182,7 +182,7 @@ Para definir as configurações de subpágina, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Você pode inserir um link para a página primária de qualquer subpágina da mesma landing page. Por exemplo, para redirecionar usuários que cometeram um erro e desejam se inscrever novamente, é possível adicionar um link da subpágina de confirmação à página principal da assinatura. Saiba como inserir links em [esta seção](../design/message-tracking.md#insert-links).
+   >Você pode inserir um link para a página primária de qualquer subpágina da mesma landing page. Por exemplo, para redirecionar usuários que cometeram um erro e desejam se inscrever novamente, é possível adicionar um link da subpágina de confirmação à página principal da assinatura. Saiba como inserir links em [esta seção](../email/message-tracking.md#insert-links).
 
 1. Defina o URL da página de aterrissagem. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem. [Saiba mais](../configuration/lp-subdomains.md)
 
@@ -212,7 +212,7 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 
    ![](assets/lp_test-profiles.png)
 
-   As etapas para selecionar perfis de teste são as mesmas que ao testar uma mensagem. Eles são detalhados [nesta seção](../design/preview.md#select-test-profiles).
+   As etapas para selecionar perfis de teste são as mesmas que ao testar uma mensagem. Eles são detalhados [nesta seção](../email/preview.md#select-test-profiles).
 
 1. Selecione o **[!UICONTROL Visualizar]** e clique em **[!UICONTROL Abrir visualização]** para testar sua landing page.
 
@@ -275,7 +275,7 @@ Quando a landing page estiver pronta, você poderá publicá-la para disponibili
 
 Depois que a landing page é publicada, ela é adicionada à lista de landing page com a variável **[!UICONTROL Publicado]** status.
 
-Agora ele está ativo e pronto para ser usado em um [!DNL Journey Optimizer] [message](../messages/get-started-content.md) que será enviado por meio de um [jornada](../building-journeys/journey.md).
+Agora ele está ativo e pronto para ser usado em um [!DNL Journey Optimizer] mensagem que será enviada por meio de um [jornada](../building-journeys/journey.md).
 
 >[!NOTE]
 >

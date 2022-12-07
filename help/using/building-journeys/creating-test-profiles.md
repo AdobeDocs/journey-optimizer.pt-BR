@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Criar perfis de teste {#create-test-profiles}
 
-Os perfis de teste são necessários ao usar o [modo de teste](../building-journeys/testing-the-journey.md) em uma jornada, e para [visualizar e testar seu conteúdo](../design/preview.md).
+Os perfis de teste são necessários ao usar o [modo de teste](../building-journeys/testing-the-journey.md) em uma jornada, e para [visualizar e testar seu conteúdo](../email/preview.md).
 
 Há várias maneiras de criar perfis de teste. Você pode encontrar nesta página detalhes para:
 

@@ -5,8 +5,8 @@ title: Journey Optimizer - Introdução para profissionais de marketing
 description: Como usuário de jornadas, aprenda a trabalhar com o Journey Optimizer
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
-workflow-type: ht
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
 
@@ -24,13 +24,13 @@ Consulte as seguintes seções para configurar a primeira jornada, adicionar ofe
 
    ![](../assets/perso_ee2.png)
 
-1. **Criar e gerenciar ativos**. O [!DNL Adobe Experience Manager Assets Essentials] fornece um repositório único e centralizado de ativos que você pode usar para preencher suas mensagens. Saiba mais [nesta seção](../../design/assets-essentials.md).
+1. **Criar e gerenciar ativos**. O [!DNL Adobe Experience Manager Assets Essentials] fornece um repositório único e centralizado de ativos que você pode usar para preencher suas mensagens. Saiba mais [nesta seção](../../email/assets-essentials.md).
 
 1. **Adicionar ofertas**. Use o [!DNL Journey Optimizer] para fornecer a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa. Depois de projetado, direcione os públicos com ofertas personalizadas. Saiba mais sobre Gestão de decisões [nesta seção](../../offers/get-started/starting-offer-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Testar e validar**. Após definir o conteúdo, é possível usar perfis de teste para pré-visualizar e testar o conteúdo. Se você inseriu [conteúdo personalizado](../../personalization/personalize.md), será possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste. Além disso, use a conta do **Litmus** no [!DNL Journey Optimizer] para pré-visualizar instantaneamente a **renderização de email** em clientes de email populares. Em seguida, você pode melhorar seu conteúdo de email e garantir que ele e funcione corretamente em cada caixa de entrada. Saiba como testar e validar suas mensagens [nesta seção](../../design/preview.md).
+1. **Testar e validar**. Após definir o conteúdo, é possível usar perfis de teste para pré-visualizar e testar o conteúdo. Se você inseriu [conteúdo personalizado](../../personalization/personalize.md), será possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste. Além disso, use a conta do **Litmus** no [!DNL Journey Optimizer] para pré-visualizar instantaneamente a **renderização de email** em clientes de email populares. Em seguida, você pode melhorar seu conteúdo de email e garantir que ele e funcione corretamente em cada caixa de entrada. Saiba como testar e validar suas mensagens [nesta seção](../../email/preview.md).
 
 1. **Crie jornadas do cliente** para fornecer experiências personalizadas e contextuais. O [!DNL Journey Optimizer] permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. Crie designs de cenários avançados com várias etapas e com os seguintes recursos:
 

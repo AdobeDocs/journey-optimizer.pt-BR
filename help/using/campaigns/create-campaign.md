@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 9%
+source-wordcount: '559'
+ht-degree: 11%
 
 ---
 
@@ -56,25 +56,58 @@ ht-degree: 9%
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
-1. No **[!UICONTROL Ações]** , configure a mensagem a ser enviada com a campanha:
+1. Para atribuir rótulos de uso de dados personalizados ou principais à campanha, clique no botão **[!UICONTROL Gerenciar acesso]** botão. [Saiba mais sobre o Controle de acesso no nível do objeto (OLA)](../administration/object-based-access.md)
 
-   1. Clique no botão **[!UICONTROL Editar conteúdo]** , em seguida, configure e crie o conteúdo da mensagem. [Saiba mais sobre mensagens](../messages/get-started-content.md).
+## Criar a mensagem {#content}
 
-      Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem na página a seguir:
+No **[!UICONTROL Ações]** , crie a mensagem a ser enviada com a campanha.
 
-      * [Criar um email](../messages/create-email.md)
-      * [Criar uma notificação por push](../messages/create-push.md)
-      * [Criar uma mensagem de SMS.](../messages/create-sms.md)
-   1. Depois que o conteúdo for definido, use a variável **[!UICONTROL Simular conteúdo]** para visualizar e testar seu conteúdo com perfis de teste. [Saiba mais](../design/preview.md).
+1. Clique no botão **[!UICONTROL Editar conteúdo]** , em seguida, crie e crie o conteúdo da mensagem.
 
-   1. Clique na seta para voltar à tela de criação da campanha.
+   Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem nas seguintes páginas:
 
-      ![](assets/create-campaign-design.png)
+   <table style="table-layout:fixed">
+    <tr style="border: 0;">
+    <td>
+    <a href="../email/create-email.md">
+    <img alt="Cliente potencial" src="../assets/do-not-localize/email.jpg">
+    </a>
+    <div><a href="../email/create-email.md"><strong>Criar emails</strong>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../push/create-push.md">
+      <img alt="Pouco frequentes" src="../assets/do-not-localize/push.jpg">
+    </a>
+    <div>
+    <a href="../push/create-push.md"><strong>Criar notificações por push</strong></a>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../sms/create-sms.md">
+      <img alt="Validação" src="../assets/do-not-localize/sms.jpg">
+    </a>
+    <div>
+    <a href="../sms/create-sms.md"><strong>Criar mensagens SMS</strong></a>
+    </div>
+    <p>
+    </td>
+    </tr>
+    </table>
 
-   1. No **[!UICONTROL Rastreamento de ações]** , especifique se deseja rastrear como os recipients reagem ao seu delivery: você pode rastrear cliques e/ou aberturas.
+1. Depois que o conteúdo for definido, use a variável **[!UICONTROL Simular conteúdo]** para visualizar e testar seu conteúdo com perfis de teste. [Saiba mais](../email/preview.md).
 
-      Os resultados do rastreamento serão acessíveis no relatório da campanha após a execução da campanha. [Saiba mais sobre relatórios de campanha](../reports/campaign-global-report.md)
+1. Clique na seta para voltar à tela de criação da campanha.
 
+   ![](assets/create-campaign-design.png)
+
+1. No **[!UICONTROL Rastreamento de ações]** , especifique se deseja rastrear como os recipients reagem ao seu delivery: você pode rastrear cliques e/ou aberturas.
+
+   Os resultados do rastreamento serão acessíveis no relatório da campanha após a execução da campanha. [Saiba mais sobre relatórios de campanha](../reports/campaign-global-report.md)
+
+## Definir a audiência {#audience}
 
 1. Defina o público-alvo como meta. Para fazer isso, clique no botão **[!UICONTROL Seleção do público-alvo]** para exibir a lista de segmentos disponíveis do Adobe Experience Platform. [Saiba mais sobre segmentos](../segment/about-segments.md)
 
@@ -91,6 +124,8 @@ ht-degree: 9%
    >Os indivíduos pertencentes a um segmento que não tem a identidade (namespace) selecionada entre suas diferentes identidades não serão direcionados pela campanha.
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+
+## Agendar a campanha {#schedule}
 
 1. Para executar sua campanha em uma data específica ou em uma frequência recorrente, configure a variável **[!UICONTROL Agendar]** seção. [Saiba como agendar campanhas](#schedule)
 
@@ -115,64 +150,3 @@ Há dois tipos de campanha disponíveis:
 * **[!UICONTROL Programado]**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas têm como objetivo enviar **marketing** digite mensagens.
 
 * **[!UICONTROL Acionado por API]**: execute a campanha usando uma chamada de API . As campanhas acionadas por API são destinadas ao envio de **transacional** mensagens, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, abandono de cartão etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
-
-## Programar uma campanha {#schedule}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_schedule_start"
->title="Início da campanha"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_schedule_end"
->title="Fim da campanha"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_schedule_triggers"
->title="Acionadores de ação da campanha"
->abstract="TBC"
-
-Por padrão, as campanhas começam assim que são ativadas manualmente e terminam assim que a mensagem é enviada uma vez.
-
-Você pode definir uma frequência na qual a mensagem da campanha deve ser enviada. Para fazer isso, use o **[!UICONTROL Acionadores de ação]** na tela de criação da campanha para especificar se a campanha deve ser executada diariamente, semanalmente ou mensalmente.
-
-Se não quiser executar a campanha logo após a ativação, você pode especificar a data e a hora em que a mensagem deve ser enviada usando o **[!UICONTROL Início da campanha]** opção. O  **[!UICONTROL Fim da campanha]** permite especificar quando uma campanha recorrente deve parar de ser executada.
-
-![](assets/create-campaign-schedule.png)
-
-## Modo de entrega rápida para a campanha de push {#rapid-delivery}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_rapid_delivery"
->title="Modo de entrega rápida"
->abstract="O modo de entrega rápida permite que você execute o envio de mensagens de alta velocidade no canal de push para um tamanho de público-alvo inferior a 30M."
-
-O modo de entrega rápida, anteriormente conhecido como modo Burst no jornada, é um [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens de push em grandes volumes por meio de campanhas.
-
-A entrega rápida é usada quando o atraso na entrega de mensagens é essencial para os negócios, quando você deseja enviar um alerta por push urgente em telefones celulares, por exemplo, uma notícia de última hora para os usuários que instalaram seu aplicativo de canal de notícias.
-
-Para obter mais informações sobre desempenho ao usar o modo Rapid delivery, consulte [Descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
-
-### Pré-requisitos {#prerequisites}
-
-As mensagens de delivery rápidas vêm com os seguintes requisitos:
-
-* A entrega rápida está disponível para **[!UICONTROL Programado]** somente campanhas e não está disponível para campanhas acionadas por API,
-* Nenhuma personalização é permitida na mensagem de push,
-* O público-alvo deve conter menos de 30 M perfis,
-* Você pode executar até 5 campanhas simultaneamente usando o modo Rapid delivery .
-
-### Ativar modo de entrega rápida
-
-1. Criar uma campanha de notificação por push e ativar **[!UICONTROL Entrega rápida]** opção.
-
-![](assets/create-campaign-burst.png)
-
-1. Configure o conteúdo da mensagem e selecione o público-alvo a ser direcionado. [Saiba como criar uma campanha](#create)
-
-   >[!IMPORTANT]
-   >
-   >Certifique-se de que o conteúdo da mensagem não inclua nenhuma personalização e que o público-alvo contenha menos de 30M perfis.
-
-1. Revise e ative sua campanha como de costume. Observe que, no modo de teste, as mensagens não são enviadas por meio do modo Rapid delivery . [Saiba como revisar e ativar uma campanha](review-activate-campaign.md)

@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de versão de 2022
 description: Notas de versão do Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
-workflow-type: ht
-source-wordcount: '3461'
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
+source-wordcount: '3453'
 ht-degree: 100%
 
 ---
@@ -232,7 +232,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <td>
 <p>Agora você pode criar, personalizar e enviar SMS no Journey Optimizer por meio de uma integração com o <b>Sinch</b> ou <b>Twilio</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>Saiba como criar e enviar um SMS nesta <a href="../messages/create-sms.md">documentação detalhada</a>.</p>
+<p>Saiba como criar e enviar um SMS nesta <a href="../sms/create-sms.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -284,7 +284,6 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <td>
 <p>O Journey Optimizer oferece um novo fluxo para a criação de mensagens em jornadas. As mensagens incorporadas economizarão tempo significativo dos usuários e simplificarão o processo do fluxo de trabalho para criar e entregar um email, uma notificação por push ou um SMS no Journey Optimizer. Ao remover a criação das mensagens como uma etapa separada e, em vez disso, incorporar sua edição como parte de uma ação na tela de jornada, os usuários poderão clicar em menos botões e navegar em menos telas para criar e editar seus conteúdos.</p>
 <img src="assets/do-not-localize/inline.gif"/>
-<p>Para obter mais informações, consulte a <a href="../messages/get-started-content.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -364,7 +363,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 * **Atualização lógica da lista de permissões** — Agora a lógica da lista de permissões se aplica assim que o recurso é ativado, mesmo que a lista esteja vazia. [Saiba mais](../configuration/allow-list.md#logic)
 
-* **Parâmetros de rastreamento de URL** — agora você pode usar o Editor de expressão para configurar parâmetros de rastreamento de URL em suas superfícies de email (ou seja, predefinições). [Saiba mais](../configuration/email-settings.md#url-tracking)
+* **Parâmetros de rastreamento de URL** — agora você pode usar o Editor de expressão para configurar parâmetros de rastreamento de URL em suas superfícies de email (ou seja, predefinições). [Saiba mais](../email/email-settings.md#url-tracking)
 
 **Gestão de decisões**
 
@@ -387,7 +386,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <p>Agora você pode criar, personalizar e enviar SMS no Journey Optimizer por meio de uma integração com o <b>Sinch</b> ou <b>Twilio</b>.</p>
 <!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>No momento, o canal SMS está disponível apenas para algumas organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.</p>
-<p>Saiba como criar e enviar um SMS nesta <a href="../messages/create-sms.md">documentação detalhada</a>.</p>
+<p>Saiba como criar e enviar um SMS nesta <a href="../sms/create-sms.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -405,7 +404,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <td>
 <p>O plug-in de integração do Designer de email do Adobe Stock e Adobe Journey Optimizer fornece aos clientes uma maneira fácil de navegar, licenciar e salvar imagens para uso na criação de mensagens. </br> A nova opção <b>Localizar fotos semelhantes do Stock</b> também permite localizar fotos do Stock que correspondam ao conteúdo, cor e composição de suas imagens. </p>
 <!--img src="assets/do-not-localize/stock-rn.gif"/-->
-<p>Para obter mais informações, consulte a <a href="../design/stock.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../email/stock.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -474,12 +473,12 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 **Email**
 
-* **Salvar como modelo** - agora, você pode salvar um conteúdo de email como modelo e reutilizá-lo ao criar outras mensagens. [Saiba mais](../design/email-templates.md)
+* **Salvar como modelo** - agora, você pode salvar um conteúdo de email como modelo e reutilizá-lo ao criar outras mensagens. [Saiba mais](../email/email-templates.md)
 
 
 **Administração**
 
-* **Visualizar parâmetros de URL de rastreamento** - ao configurar uma predefinição de mensagem, se você definir parâmetros de rastreamento de URL, uma visualização dinâmica do URL de rastreamento resultante será exibida. [Saiba mais](../configuration/email-settings.md#url-tracking)
+* **Visualizar parâmetros de URL de rastreamento** - ao configurar uma predefinição de mensagem, se você definir parâmetros de rastreamento de URL, uma visualização dinâmica do URL de rastreamento resultante será exibida. [Saiba mais](../email/email-settings.md#url-tracking)
 
 * **Edição de predefinição de mensagem** - Agora, ao atualizar uma predefinição de mensagem, o tempo de processamento pode levar até 3 horas. [Saiba mais](../configuration/channel-surfaces.md#edit-channel-surface)
 

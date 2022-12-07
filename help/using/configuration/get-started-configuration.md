@@ -8,49 +8,46 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 11%
+source-wordcount: '319'
+ht-degree: 40%
 
 ---
 
 
 # Introdução a [!DNL Journey Optimizer] configuração {#start-optimizer-configuration}
 
-Ao acessar [!DNL Journey Optimizer] pela primeira vez, você é provisionado com uma sandbox de produção e recebe um determinado número de IPs dependendo do seu contrato.
+Ao acessar [!DNL Journey Optimizer] pela primeira vez, você é provisionado com uma sandbox de produção e aloca um determinado número de IPs dependendo do seu contrato.
 
-Para criar suas jornadas e enviar mensagens, você precisa seguir estas etapas de configuração:
+Para criar suas jornadas e enviar mensagens, você precisa seguir as etapas de configuração abaixo.
 
-1. **Configurar mensagens e canais**: defina as superfícies do canal, adapte e personalize as mensagens.
+## Configurar mensagens e canais
 
-   * Crie superfícies de canal para configurar todos os parâmetros técnicos necessários para enviar mensagens. [Saiba mais](channel-surfaces.md)
+Defina as superfícies do canal, adapte e personalize as mensagens.
 
-   * Determine qual endereço de email deve ser usado com prioridade para seus recipients quando vários endereços estiverem disponíveis no Adobe Experience Platform. [Saiba mais](primary-email-addresses.md)
+* [Delegar para Adobe dos subdomínios](about-subdomain-delegation.md) deseja usar para enviar emails e [criar pools de IP](ip-pools.md) para agrupar endereços IP provisionados com sua instância.
 
-   * Gerencie o número de dias durante os quais as tentativas são executadas antes de enviar endereços de email para a lista de supressão. [Saiba mais](manage-suppression-list.md)
+* Gerencie o número de dias durante os quais são executadas tentativas antes do envio de endereços de email para a lista de supressão. [Saiba mais](manage-suppression-list.md)
 
-   * Defina as configurações de notificações por push em [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Saiba mais](../configuration/push-gs.md)
+* Definir configurações de notificações por push em ambos [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Saiba mais](../push/push-gs.md)
 
-   <!--* Understand the push notification flow. [Learn more](../configuration/push-gs.md)-->
+   <!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
 
-   * Configure sua instância para enviar SMS (atualmente disponível apenas para um conjunto de organizações - Disponibilidade limitada). [Saiba mais](sms-configuration.md)
+* Configure sua instância para enviar SMS (atualmente disponível apenas para um conjunto de organizações - Disponibilidade limitada). [Saiba mais](../sms/sms-configuration.md)
 
+* Crie superfícies de canal para configurar todos os parâmetros técnicos necessários para enviar mensagens. [Saiba mais](channel-surfaces.md)
 
-1. **Delegar subdomínios**: para qualquer novo subdomínio ser usado no Journey Optimizer, a primeira etapa será delegá-lo. [Saiba mais](about-subdomain-delegation.md)
+* Determine qual endereço de email e/ou número de telefone deve ser usado com prioridade para seus recipients quando vários endereços/números estiverem disponíveis no Adobe Experience Platform. [Saiba mais](primary-email-addresses.md)
 
-   ![](assets/subdomain.png)
+## Configurar jornadas
 
-1. **Criar pools de IP**: melhore a capacidade de delivery de email e a reputação, agrupando os endereços IP provisionados com sua instância. [Saiba mais](ip-pools.md)
+Para criar jornadas, é necessário configurar **[!UICONTROL Fontes de dados]**, **[!UICONTROL Eventos]** e **[!UICONTROL Ações]**. [Saiba mais](about-data-sources-events-actions.md)
 
-   ![](assets/ip-pool.png)
+![](assets/admin-menu.png)
 
-1. **Configurar jornadas**: para criar o jornada, é necessário configurar **[!UICONTROL Fontes de dados]**, **[!UICONTROL Eventos]** e **[!UICONTROL Ações]**. [Saiba mais](about-data-sources-events-actions.md)
+* O **fonte de dados** A configuração do permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas. [Saiba mais](../datasource/about-data-sources.md)
 
-   ![](assets/admin-menu.png)
+* Os **Eventos** permitem acionar as jornadas de forma unitária para enviar mensagens, em tempo real, ao indivíduo que flui para a jornada. Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são padronizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de ingestão de streaming para eventos autenticados e não autenticados (como eventos do Adobe Mobile SDK). [Saiba mais](../event/about-events.md)
 
-   * O **fonte de dados** A configuração do permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas. [Saiba mais](../datasource/about-data-sources.md)
-
-   * **Eventos** permite acionar as jornadas de forma unitária para enviar mensagens, em tempo real, ao indivíduo que flui para a jornada. Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são normalizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de assimilação de streaming para eventos autenticados e não autenticados (como eventos do Adobe Mobile SDK). [Saiba mais](../event/about-events.md)
-
-   * [!DNL Journey Optimizer] O vem com recursos de mensagem integrados que permitem projetar e enviar o conteúdo. Se você estiver usando um sistema de terceiros para enviar mensagens, crie um **ação personalizada**. [Saiba mais](../action/action.md)
+* [!DNL Journey Optimizer] O vem com recursos de mensagem integrados que permitem projetar e enviar o conteúdo. Se você estiver usando um sistema de terceiros para enviar mensagens, crie um **ação personalizada**. [Saiba mais](../action/action.md)

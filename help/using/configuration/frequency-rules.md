@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 3%
@@ -115,7 +115,7 @@ O status da regra será alterado para **[!UICONTROL Inativo]** e a regra não se
 
 Para aplicar uma regra de frequência a uma mensagem, siga as etapas abaixo.
 
-1. [Criar uma mensagem](../messages/get-started-content.md#create-new-message) ao selecionar um dos canais definidos para a regra.
+1. Crie uma mensagem selecionando um dos canais definidos para a regra.
 
 1. Selecione a categoria definida para a variável [regra criada](#create-new-rule).
 
@@ -162,9 +162,9 @@ Você pode combinar várias regras de frequência de mensagem, como descrito no 
 
 1. Salvar e [ativar](#activate-rule) a regra.
 
-1. Crie um email e selecione o **[!UICONTROL Marketing]** categoria para essa mensagem. [Saiba mais](../messages/get-started-content.md#create-new-message)
+1. Crie um email e selecione o **[!UICONTROL Marketing]** categoria para essa mensagem. [Saiba mais](../email/create-email.md)
 
-1. Crie uma notificação por push e selecione o **[!UICONTROL Marketing]** categoria para essa mensagem. [Saiba mais](../messages/get-started-content.md#create-new-message)
+1. Crie uma notificação por push e selecione o **[!UICONTROL Marketing]** categoria para essa mensagem. [Saiba mais](../push/create-push.md)
 
 Nesse cenário, um perfil individual:
 * Pode receber até 12 mensagens de marketing por mês;

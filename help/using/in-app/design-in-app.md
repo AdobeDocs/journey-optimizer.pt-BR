@@ -1,5 +1,5 @@
 ---
-title: Projetar o conteúdo no aplicativo
+title: Projete seu conteúdo no aplicativo
 description: Saiba como criar seu conteúdo no aplicativo no Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# Projetar o conteúdo no aplicativo {#design-content}
+# Projete seu conteúdo no aplicativo {#design-content}
 
 É possível editar o conteúdo no aplicativo para configurar as opções de experiência, incluindo o layout e a exibição da mensagem, o texto e as opções de botão.
 
@@ -80,7 +81,7 @@ O **[!UICONTROL Mídia]** permite adicionar mídia à mensagem no aplicativo par
 
 ![](assets/in_app_content_3.png)
 
-Digite seu URL de mídia ou clique no link **[!UICONTROL Selecionar ativos]** ícone para adicionar diretamente ativos armazenados na biblioteca de Ativos à mensagem no aplicativo. [Saiba mais sobre o gerenciamento de ativos](../design/assets-essentials.md).
+Digite seu URL de mídia ou clique no link **[!UICONTROL Selecionar ativos]** ícone para adicionar diretamente ativos armazenados na biblioteca de Ativos à mensagem no aplicativo. [Saiba mais sobre o gerenciamento de ativos](../email/assets-essentials.md).
 Você também pode adicionar um **[!UICONTROL Texto alternativo]** para aplicativos de leitura de tela.
 
 +++Mais opções com formatação avançada
@@ -192,4 +193,3 @@ Se a variável **[!UICONTROL Modo de formatação avançado]** estiver ativada, 
 * [Criar mensagem no aplicativo](create-in-app.md)
 * [Relatório no aplicativo](inapp-report.md)
 * [Configuração no aplicativo](inapp-configuration.md)
-

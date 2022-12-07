@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 4%
+source-wordcount: '148'
+ht-degree: 15%
 
 ---
 
@@ -32,9 +33,39 @@ Antes de enviar mensagens no aplicativo, é necessário:
 
 Depois de concluída, você pode criar, configurar e enviar sua primeira mensagem no aplicativo. Saiba como fazer isso em [esta seção](create-in-app.md).
 
-**Tópicos relacionados:**
-
-* [Criar mensagem no aplicativo](create-in-app.md)
-* [Criar mensagem no aplicativo](design-in-app.md)
-* [Relatório no aplicativo](inapp-report.md)
-* [Configuração no aplicativo](inapp-configuration.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-in-app.md">
+<img alt="Cliente potencial" src="../assets/do-not-localize/inapp-create.jpeg">
+</a>
+<div><a href="create-in-app.md"><strong>Criar mensagem no aplicativo</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="design-in-app.md">
+<img alt="Pouco frequentes" src="../assets/do-not-localize/inapp-design.jpg">
+</a>
+<div>
+<a href="design-in-app.md"><strong>Projete seu conteúdo no aplicativo</strong></a>
+</div>
+<p></td>
+<td>
+<a href="inapp-report.md">
+<img alt="Validação" src="../assets/do-not-localize/inapp-report.jpg">
+</a>
+<div>
+<a href="inapp-report.md"><strong>Relatório no aplicativo</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="inapp-configuration.md">
+<img alt="Validação" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="inapp-configuration.md"><strong>Configuração do canal no aplicativo</strong></a>
+</div>
+<p>
+</td>
+</tr></table>

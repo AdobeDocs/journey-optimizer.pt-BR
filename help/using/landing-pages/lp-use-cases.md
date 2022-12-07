@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 16%
@@ -53,9 +53,9 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
    ![](assets/lp_subscription-uc-journey.png)
 
-1. [Criar o email](../messages/get-started-content.md) para anunciar que o registro agora está aberto para o seu evento.
+1. [Criar o email](../email/get-started-email-design.md) para anunciar que o registro agora está aberto para o seu evento.
 
-1. [Inserir um link](../design/message-tracking.md#insert-links) no conteúdo da mensagem. Selecionar **[!UICONTROL Página de aterrissagem]** como **[!UICONTROL Tipo de link]** e escolha a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para registro.
+1. [Inserir um link](../email/message-tracking.md#insert-links) no conteúdo da mensagem. Selecionar **[!UICONTROL Página de aterrissagem]** como **[!UICONTROL Tipo de link]** e escolha a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para registro.
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -128,9 +128,9 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [Criar uma mensagem de email](../messages/get-started-content.md) em uma jornada.
+1. [Criar uma mensagem de email](../email/get-started-email-design.md) em uma jornada.
 
-1. Selecione o texto no seu conteúdo e [insira um link](../design/message-tracking.md#insert-links) usando a barra de ferramentas contextual. Você também pode usar um link em um botão.
+1. Selecione o texto no seu conteúdo e [insira um link](../email/message-tracking.md#insert-links) usando a barra de ferramentas contextual. Você também pode usar um link em um botão.
 
    ![](assets/lp_opt-out-insert-link.png)
 

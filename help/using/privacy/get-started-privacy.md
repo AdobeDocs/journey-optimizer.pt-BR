@@ -7,16 +7,18 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
-source-git-commit: a153db2adcea4d65cac0d6a4f08c7b997b9ddda1
-workflow-type: ht
-source-wordcount: '205'
-ht-degree: 100%
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 90%
 
 ---
 
 # Introdução à privacidade {#privacy}
 
 O Journey Optimizer é uma ferramenta avançada que permite coletar e processar quantidades extremamente grandes de dados, incluindo informações pessoais e dados confidenciais. É por isso que a privacidade precisa ser gerenciada com cuidado.
+
+Além disso, regulamentos como o GDPR estipulam que você deve estar em conformidade com requisitos específicos antes de poder usar informações de titulares de dados. Além disso, os titulares de dados devem poder modificar o consentimento a qualquer momento.
 
 A Adobe Experience Platform e o Journey Optimizer fornecem várias ferramentas para ajudar a realizar o gerenciamento da privacidade.
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 2%
@@ -23,13 +23,13 @@ Você pode definir o conteúdo da sua página de aterrissagem usando JavaScript 
 
 Para inserir JavaScript personalizado no conteúdo da página de aterrissagem, você pode fazer o seguinte:
 
-* Importe o conteúdo HTML existente ao começar a criar o conteúdo e selecione o arquivo que inclui o código JavaScript personalizado. Saiba como importar conteúdo [nesta seção](../design/existing-content.md).
+* Importe o conteúdo HTML existente ao começar a criar o conteúdo e selecione o arquivo que inclui o código JavaScript personalizado. Saiba como importar conteúdo [nesta seção](../email/existing-content.md).
 
-* Projete a landing page do zero ou de um template salvo. Arraste e solte a **[!UICONTROL HTML]** componente de conteúdo na tela e mostra o código-fonte para adicionar seu JavaScript ao componente. Saiba como usar o componente HTML em [esta seção](../design/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* Projete a landing page do zero ou de um template salvo. Arraste e solte a **[!UICONTROL HTML]** componente de conteúdo na tela e mostra o código-fonte para adicionar seu JavaScript ao componente. Saiba como usar o componente HTML em [esta seção](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
    ![](assets/lp_designer-html-component.png)
 
-* Insira ou cole o código JavaScript diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../design/code-content.md).
+* Insira ou cole o código JavaScript diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../email/code-content.md).
 
 >[!NOTE]
 >

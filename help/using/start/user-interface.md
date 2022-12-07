@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
-workflow-type: ht
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ A página inicial do [!DNL Journey Optimizer] contém os links e recursos princi
 
 **[!UICONTROL GERENCIAMENTO DE CONTEÚDO]**
 
-* **[!UICONTROL Ativos]** - o [!DNL Adobe Experience Manager Assets Essentials] é um repositório centralizado de ativos que podem ser usados para preencher as suas mensagens. [Saiba mais](../design/assets-essentials.md)
+* **[!UICONTROL Ativos]** - o [!DNL Adobe Experience Manager Assets Essentials] é um repositório centralizado de ativos que podem ser usados para preencher as suas mensagens. [Saiba mais](../email/assets-essentials.md)
 
 **[!UICONTROL GERENCIAMENTO DE DADOS]**
 
@@ -215,7 +215,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
   <tr>
     <td>Campo de texto</td>
     <td>Selecionar todo o texto no campo selecionado</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Janela pop-up</td>
@@ -239,7 +239,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
   <tr>
     <td>Visualização do conteúdo</td>
     <td>Selecionar o conteúdo</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
 </table>
 

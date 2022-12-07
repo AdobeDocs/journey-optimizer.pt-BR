@@ -5,8 +5,8 @@ title: Introdução do Journey Optimizer ao engenheiro de dados
 description: Como engenheiro de dados, saiba mais sobre como trabalhar com o Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
-workflow-type: ht
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ As etapas para criar um namespace de identidade e um conjunto de dados habilitad
 
 1. **Configurar conectores de fontes**. O Adobe Journey Optimizer permite que os dados sejam assimilados de fontes externas e, ao mesmo tempo, fornece a capacidade de estruturar, rotular e aprimorar os dados recebidos usando os serviços da plataforma. Você pode assimilar dados de várias fontes, como aplicativos Adobe, armazenamentos baseados em nuvem, bancos de dados e muitas outras. Saiba mais sobre conectores de fonte [nesta página](../get-started-sources.md).
 
-1. **Criar perfis de teste**. Os perfis de teste são necessários ao usar o [modo de teste](../../building-journeys/testing-the-journey.md) em uma jornada, e para [visualizar e testar suas mensagens](../../design/preview.md) antes de enviar. As etapas para criar perfis de teste são detalhadas [nesta página](../../segment/creating-test-profiles.md).
+1. **Criar perfis de teste**. Os perfis de teste são necessários ao usar o [modo de teste](../../building-journeys/testing-the-journey.md) em uma jornada, e para [visualizar e testar suas mensagens](../../email/preview.md) antes de enviar. As etapas para criar perfis de teste são detalhadas [nesta página](../../segment/creating-test-profiles.md).
 
 
 Além disso, para poder enviar mensagens em jornadas, você deve configurar as **[!UICONTROL Fontes de dados]**, os **[!UICONTROL Eventos]** e as **[!UICONTROL Ações]**. Saiba mais [nesta seção](../../configuration/about-data-sources-events-actions.md).
@@ -44,4 +44,4 @@ Além disso, para poder enviar mensagens em jornadas, você deve configurar as *
 
 * Os **Eventos** permitem acionar as jornadas de forma unitária para enviar mensagens, em tempo real, ao indivíduo que flui para a jornada. Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são padronizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de ingestão de streaming para eventos autenticados e não autenticados (como eventos do Adobe Mobile SDK). Saiba mais sobre eventos [nesta seção](../../event/about-events.md).
 
-* [!DNL Journey Optimizer] vem com [recursos de mensagem incorporados](../../messages/get-started-content.md): você pode criar suas mensagens em uma jornada e criar seu conteúdo. Se você estiver usando um sistema de terceiros para enviar mensagens, por exemplo, Adobe Campaign, crie uma **ação personalizada**. Saiba mais sobre ações [nesta seção](../../action/action.md).
+* [!DNL Journey Optimizer] vem com recursos de mensagem incorporados: você pode criar suas mensagens em uma jornada e criar seu conteúdo. Se você estiver usando um sistema de terceiros para enviar mensagens, por exemplo, Adobe Campaign, crie uma **ação personalizada**. Saiba mais sobre ações [nesta seção](../../action/action.md).

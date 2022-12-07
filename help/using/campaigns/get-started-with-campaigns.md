@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 9%
+source-wordcount: '403'
+ht-degree: 12%
 
 ---
 
@@ -66,32 +66,6 @@ Verifique os seguintes pré-requisitos antes de começar a criar sua primeira ca
 
 1. **Você precisa de um público-alvo**. Segmentos de público-alvo precisam estar disponíveis antes de criar a campanha. Saiba mais sobre a criação de público-alvo [nesta página](../segment/about-segments.md).
 1. **Você precisa de uma superfície de canal**. Para selecionar um canal, é necessário criar e disponibilizar a superfície do canal correspondente (ou seja, predefinição). Saiba mais sobre superfícies de canais [nesta página](../configuration/channel-surfaces.md).
-
-## Acessar campanhas {#access}
-
-As campanhas podem ser acessadas a partir da variável **[!UICONTROL Campanhas]** menu.
-
-Por padrão, a lista mostra todas as campanhas com a variável **[!UICONTROL Rascunho]**, **[!UICONTROL Programado]** e **[!UICONTROL Ao vivo]** status.
-
-Para exibir campanhas interrompidas, concluídas e arquivadas, é necessário limpar o filtro.
-
-![](assets/create-campaign-list.png)
-
-## Status da campanha {#statuses}
-
-As campanhas podem ter vários status:
-
-* **[!UICONTROL Rascunho]**: A campanha está sendo editada e não foi ativada.
-* **[!UICONTROL Ativando]**: A campanha está sendo ativada.
-* **[!UICONTROL Ao vivo]**: A campanha foi ativada.
-* **[!UICONTROL Programado]**: A campanha está configurada para ser ativada em uma data de início específica.
-* **[!UICONTROL Parado]**: A campanha foi interrompida manualmente. Não é possível ativá-la ou reutilizá-la. [Saiba como parar uma campanha](modify-stop-campaign.md#stop)
-* **[!UICONTROL Concluído]**: A campanha foi concluída. Esse status é automaticamente atribuído 3 dias após a ativação de uma campanha ou na data de término da campanha, se ela tiver uma execução recorrente.
-* **[!UICONTROL Arquivado]**: A campanha foi arquivada. [Saiba como arquivar campanhas](modify-stop-campaign.md#archive)
-
->[!NOTE]
->
->O ícone &quot;Abrir versão de rascunho&quot; ao lado de um **[!UICONTROL Ao vivo]** ou **[!UICONTROL Programado]** indica que uma nova versão da campanha foi criada e ainda não foi ativada. [Saiba mais](modify-stop-campaign.md#modify).
 
 ## Vídeo tutorial {#video}
 

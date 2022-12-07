@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 3%
@@ -23,14 +23,14 @@ Para começar a criar conteúdo para sua página inicial [página primária](cre
 
 A partir daí, é possível:
 
-* **Projetar a landing page do zero** por meio da interface do designer de conteúdo e aproveite imagens de [Adobe Experience Manager Assets Essentials](../design/assets-essentials.md). Saiba como criar seu conteúdo <!--or use built-in templates--> [nesta seção](../design/create-email-content.md).
+* **Projetar a landing page do zero** por meio da interface do designer de conteúdo e aproveite imagens de [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). Saiba como criar seu conteúdo <!--or use built-in templates--> [nesta seção](../email/content-from-scratch.md).
 
-* **Código ou cole HTML bruto** diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../design/code-content.md).
+* **Código ou cole HTML bruto** diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../email/code-content.md).
 
-* **Importar conteúdo HTML existente** de um arquivo ou uma pasta .zip. Saiba como importar conteúdo [nesta seção](../design/existing-content.md).
+* **Importar conteúdo HTML existente** de um arquivo ou uma pasta .zip. Saiba como importar conteúdo [nesta seção](../email/existing-content.md).
 
 * **Usar um modelo de página de aterrissagem salvo** criado em [!DNL Journey Optimizer]. [Saiba mais](lp-templates.md)
 
 >[!NOTE]
 >
->O designer de conteúdo da página de aterrissagem é semelhante ao designer de email. Saiba mais sobre [criar conteúdo com [!DNL Journey Optimizer]](../design/design-emails.md).
+>O designer de conteúdo da página de aterrissagem é semelhante ao designer de email. Saiba mais sobre [criar conteúdo com [!DNL Journey Optimizer]](../email/get-started-email-design.md).

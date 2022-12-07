@@ -10,7 +10,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 1%
@@ -61,7 +61,7 @@ As métricas de objetivo podem ser agrupadas em duas classes principais:
 * Métricas diretas, em que o usuário reage diretamente ao tratamento, por exemplo, abrir um email ou clicar em um link.
 * Métricas indiretas ou de &quot;fundo de funil&quot;, que ocorrem após o usuário ter sido exposto ao tratamento.
 
-Para métricas de objetivo direto em que o Adobe Journey Optimizer acompanha suas mensagens, os eventos de resposta dos usuários finais são automaticamente marcados com a campanha e os identificadores de tratamento, permitindo a associação direta da métrica de resposta a um tratamento. [Saiba mais sobre o rastreamento](../design/message-tracking.md).
+Para métricas de objetivo direto em que o Adobe Journey Optimizer acompanha suas mensagens, os eventos de resposta dos usuários finais são automaticamente marcados com a campanha e os identificadores de tratamento, permitindo a associação direta da métrica de resposta a um tratamento. [Saiba mais sobre o rastreamento](../email/message-tracking.md).
 
 ![](assets/technote_2.png)
 

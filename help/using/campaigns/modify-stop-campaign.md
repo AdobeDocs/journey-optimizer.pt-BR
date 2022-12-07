@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '478'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,32 @@ ht-degree: 2%
 Depois que uma campanha é ativada, você pode modificá-la ou interrompê-la a qualquer momento. Essas operações estão disponíveis apenas para campanhas com uma execução recorrente.
 
 Além disso, você pode duplicar campanhas ao vivo (executadas uma vez ou com uma execução recorrente) para criar novas campanhas e arquivar campanhas concluídas ou interrompidas.
+
+## Acessar campanhas {#access}
+
+As campanhas podem ser acessadas a partir da variável **[!UICONTROL Campanhas]** menu.
+
+Por padrão, a lista mostra todas as campanhas com a variável **[!UICONTROL Rascunho]**, **[!UICONTROL Programado]** e **[!UICONTROL Ao vivo]** status.
+
+Para exibir campanhas interrompidas, concluídas e arquivadas, é necessário limpar o filtro.
+
+![](assets/create-campaign-list.png)
+
+## Status da campanha {#statuses}
+
+As campanhas podem ter vários status:
+
+* **[!UICONTROL Rascunho]**: A campanha está sendo editada e não foi ativada.
+* **[!UICONTROL Ativando]**: A campanha está sendo ativada.
+* **[!UICONTROL Ao vivo]**: A campanha foi ativada.
+* **[!UICONTROL Programado]**: A campanha está configurada para ser ativada em uma data de início específica.
+* **[!UICONTROL Parado]**: A campanha foi interrompida manualmente. Não é possível ativá-la ou reutilizá-la. [Saiba como parar uma campanha](modify-stop-campaign.md#stop)
+* **[!UICONTROL Concluído]**: A campanha foi concluída. Esse status é automaticamente atribuído 3 dias após a ativação de uma campanha ou na data de término da campanha, se ela tiver uma execução recorrente.
+* **[!UICONTROL Arquivado]**: A campanha foi arquivada. [Saiba como arquivar campanhas](modify-stop-campaign.md#archive)
+
+>[!NOTE]
+>
+>O ícone &quot;Abrir versão de rascunho&quot; ao lado de um **[!UICONTROL Ao vivo]** ou **[!UICONTROL Programado]** indica que uma nova versão da campanha foi criada e ainda não foi ativada. [Saiba mais](modify-stop-campaign.md#modify).
 
 ## Modificar uma campanha recorrente {#modify}
 

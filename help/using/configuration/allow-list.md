@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 2%
@@ -73,7 +73,7 @@ A lógica de lista de permissões se aplica quando o recurso está ativo. Saiba 
 
 >[!NOTE]
 >
->Quando ativado, o recurso de lista de permissões é honrado ao executar jornadas, mas também ao testar mensagens com o [provas](../design/preview.md#send-proofs) e teste de jornadas usando o [modo de teste](../building-journeys/testing-the-journey.md).
+>Quando ativado, o recurso de lista de permissões é honrado ao executar jornadas, mas também ao testar mensagens com o [provas](../email/preview.md#send-proofs) e teste de jornadas usando o [modo de teste](../building-journeys/testing-the-journey.md).
 
 ## Desativar a lista de permissões {#deactivate-allow-list}
 

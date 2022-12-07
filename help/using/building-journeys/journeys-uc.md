@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 1%
@@ -88,7 +88,7 @@ O evento agora está configurado e pronto para ser usado em sua jornada. Usando 
 
    ![](assets/jo-uc4.png)
 
-1. Solte uma **Email** atividade de ação e defina o conteúdo da &quot;primeira mensagem&quot;. Esta mensagem é enviada a todos os indivíduos na jornada. Consulte esta [seção](../messages/create-email.md) para saber como configurar e criar um email.
+1. Solte uma **Email** atividade de ação e defina o conteúdo da &quot;primeira mensagem&quot;. Esta mensagem é enviada a todos os indivíduos na jornada. Consulte esta [seção](../email/create-email.md) para saber como configurar e criar um email.
 
    ![](assets/jo-uc5.png)
 
@@ -104,11 +104,11 @@ O evento agora está configurado e pronto para ser usado em sua jornada. Usando 
    >
    >Ao configurar um tempo limite em vários eventos (as duas reações, neste caso), é necessário apenas configurar o tempo limite em um desses eventos.
 
-1. No caminho de tempo limite, solte um **Email** atividade de ação e definir o conteúdo da mensagem de &quot;acompanhamento&quot;. Esta mensagem é enviada aos indivíduos que não abrem o email ou enviam a primeira mensagem no dia seguinte. Consulte esta [seção](../messages/create-email.md) para saber como configurar e criar um email.
+1. No caminho de tempo limite, solte um **Email** atividade de ação e definir o conteúdo da mensagem de &quot;acompanhamento&quot;. Esta mensagem é enviada aos indivíduos que não abrem o email ou enviam a primeira mensagem no dia seguinte. Consulte esta [seção](../email/create-email.md) para saber como configurar e criar um email.
 
 1. Conecte os três caminhos ao evento de compra criado anteriormente. O evento é acionado quando um indivíduo faz uma compra.
 
-1. Depois do evento , solte uma **Empurrar** atividade de ação e defina o conteúdo da mensagem &quot;obrigado&quot;. Consulte esta [seção](../messages/create-push.md) para saber como configurar e projetar um push.
+1. Depois do evento , solte uma **Empurrar** atividade de ação e defina o conteúdo da mensagem &quot;obrigado&quot;. Consulte esta [seção](../push/create-push.md) para saber como configurar e projetar um push.
 
 ## Testar e publicar a jornada
 
