@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 64e53e250504f5fd42f84d51809fd38c8e0d99a9
+source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 >id="ajo_dm_surface_settings"
 >title="Definir as configurações de correspondência direta"
 >abstract="Uma superfície de mala direta contém as configurações para a formatação do arquivo que contém os dados do público-alvo direcionado e será usada pelo provedor de email. Você também deve definir onde o arquivo será exportado selecionando a configuração de roteamento do arquivo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/direct-mail-configuration.html#file-routing-configuration" text="Configurar roteamento de arquivos"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="Configurar roteamento de arquivos"
 
 <!--
 >[!CONTEXTUALHELP]
