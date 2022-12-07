@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução a jornadas
+title: Criar a primeira jornada
 description: Etapas principais para criar sua primeira jornada com o Adobe Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 13%
 
 ---
 
-# Introdução a jornadas{#jo-quick-start}
+# Criar a primeira jornada{#jo-quick-start}
 
 ## Pré-requisitos{#start-prerequisites}
 
