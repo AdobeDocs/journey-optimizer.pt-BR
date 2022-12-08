@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 2%
@@ -72,7 +72,7 @@ As etapas para criar uma landing page são as seguintes.
 
    <!--You can add a tag. See AEP documentation?-->
 
-1. Selecione uma predefinição. Saiba como criar predefinições de página de aterrissagem em [esta seção](../configuration/lp-presets.md#lp-create-preset).
+1. Selecione uma predefinição. Saiba como criar predefinições de página de aterrissagem em [esta seção](../landing-pages/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -113,7 +113,7 @@ Para definir as configurações da página primária, siga as etapas abaixo.
 
    ![](assets/lp_open-designer.png)
 
-1. Defina o URL da página de aterrissagem. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem como parte do [predefinição](../configuration/lp-presets.md#lp-create-preset) você selecionou. [Saiba mais](../configuration/lp-subdomains.md)
+1. Defina o URL da página de aterrissagem. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem como parte do [predefinição](../landing-pages/lp-presets.md#lp-create-preset) você selecionou. [Saiba mais](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -184,7 +184,7 @@ Para definir as configurações de subpágina, siga as etapas abaixo.
    >
    >Você pode inserir um link para a página primária de qualquer subpágina da mesma landing page. Por exemplo, para redirecionar usuários que cometeram um erro e desejam se inscrever novamente, é possível adicionar um link da subpágina de confirmação à página principal da assinatura. Saiba como inserir links em [esta seção](../email/message-tracking.md#insert-links).
 
-1. Defina o URL da página de aterrissagem. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem. [Saiba mais](../configuration/lp-subdomains.md)
+1. Defina o URL da página de aterrissagem. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem. [Saiba mais](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >

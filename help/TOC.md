@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 94%
+source-wordcount: '1296'
+ht-degree: 93%
 
 ---
 
@@ -183,10 +183,11 @@ ht-degree: 94%
          + Gerenciar assets {#manage-asset}
             + [Trabalhar com o Assets Essentials](using/email/assets-essentials.md)
             + [Trabalhar com o Adobe Stock](using/email/stock.md)
-         + [Adicionar ofertas personalizadas](using/email/add-offers-email.md)
+         + [Inserir ofertas personalizadas](using/email/add-offers-email.md)
          + [Gerar a versão de texto](using/email/text-version-email.md)
          + [Adicionar um pré-cabeçalho](using/email/preheader.md)
       + Editar estilo {#edit-style}
+         + [Introdução ao estilo de email](using/email/get-started-email-style.md)
          + [Editar configurações de fundo](using/email/backgrounds.md)
          + [Ajustar o alinhamento vertical e o preenchimento](using/email/alignment-and-padding.md)
          + [Definir um estilo para links](using/email/styling-links.md)
@@ -234,7 +235,10 @@ ht-degree: 94%
       + [Criar modelos](using/landing-pages/lp-templates.md)
       + [Adicionar JavaScript personalizado](using/landing-pages/lp-custom-js.md)
    + [Criar uma lista de assinaturas](using/landing-pages/subscription-list.md)
-   + [Casos de uso](using/landing-pages/lp-use-cases.md)
+   + [Saiba mais por meio de casos de uso](using/landing-pages/lp-use-cases.md)
+   + Configurar páginas de destino {#lp-configuration}
+      + [Configurar subdomínios de página de destino](using/landing-pages/lp-subdomains.md)
+      + [Definir predefinições da página de destino](using/landing-pages/lp-presets.md)
 + Personalização e conteúdo dinâmico {#personalized-dynamic-content}
    + Personalização {#personalization}
       + [Introdução à personalização](using/personalization/personalize.md)
@@ -411,28 +415,20 @@ ht-degree: 94%
    + [Consultas](using/data/get-started-queries.md)
 + Configuração {#configuration}
    + [Introdução à configuração do Journey Optimizer](using/configuration/get-started-configuration.md)
-   + Configurar mensagens {#configuration-message}
-      + Configurar emails {#email-configuration}
-         + Delegar subdomínios {#delegate-subdomains}
-            + [Introdução à delegação de subdomínio](using/configuration/about-subdomain-delegation.md)
-            + [Delegar um subdomínio](using/configuration/delegate-subdomain.md)
-            + [Acessar subdomínios delegados](using/configuration/access-subdomains.md)
-         + Gerenciar ações relacionadas ao subdomínio {#subdomain-related-actions}
-            + [Adicionar um registro TXT do Google](using/configuration/google-txt.md)
-            + [Acessar e editar registros PTR](using/configuration/ptr-records.md)
-            + [Criar pools de IP](using/configuration/ip-pools.md)
-         + Monitorar endereços de email {#monitor-reputation}
-            + [Lista de supressão](using/configuration/manage-suppression-list.md)
-            + [Tentativas](using/configuration/retries.md)
-            + [Lista de permissões](using/configuration/allow-list.md)
-      + Configurar superfícies do canal {#set-up-channels}
-         + [Criar superfícies de canal](using/configuration/channel-surfaces.md)
-      + [Suporte para arquivamento](using/configuration/archiving-support.md)
-      + [Gerenciar endereços de execução](using/configuration/primary-email-addresses.md)
-      + [Configurar regras de frequência](using/configuration/frequency-rules.md)
-   + Configurar páginas de destino {#lp-configuration}
-      + [Configurar subdomínios de página de destino](using/configuration/lp-subdomains.md)
-      + [Definir predefinições da página de destino](using/configuration/lp-presets.md)
+   + Delegar subdomínios de email {#delegate-subdomains}
+      + [Introdução à delegação de subdomínio](using/configuration/about-subdomain-delegation.md)
+      + [Delegar um subdomínio](using/configuration/delegate-subdomain.md)
+      + [Adicionar um registro TXT do Google](using/configuration/google-txt.md)
+      + [Acessar e editar registros PTR](using/configuration/ptr-records.md)
+      + [Criar pools de IP](using/configuration/ip-pools.md)
+   + [Configurar superfícies do canal](using/configuration/channel-surfaces.md)
+   + Monitorar endereços de email {#monitor-reputation}
+      + [Lista de supressão](using/configuration/manage-suppression-list.md)
+      + [Tentativas](using/configuration/retries.md)
+      + [Lista de permissões](using/configuration/allow-list.md)
+   + [Suporte para arquivamento](using/configuration/archiving-support.md)
+   + [Configurar regras de frequência](using/configuration/frequency-rules.md)
+   + [Gerenciar endereços de execução](using/configuration/primary-email-addresses.md)
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
       + [Integrar a sistemas externos](using/configuration/external-systems.md)

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 21%
@@ -28,7 +28,7 @@ Para garantir o delivery ideal e o delivery bem-sucedido de emails para endereç
 
 >[!CAUTION]
 >
-> Essa operação só pode ser executada depois que um subdomínio tiver a variável **[!UICONTROL Sucesso]** status. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](access-subdomains.md).
+> Essa operação só pode ser executada depois que um subdomínio tiver a variável **[!UICONTROL Sucesso]** status. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](about-subdomain-delegation.md#access-delegated-subdomains).
 
 Para adicionar um registro TXT do Google ao seu subdomínio, siga estas etapas:
 

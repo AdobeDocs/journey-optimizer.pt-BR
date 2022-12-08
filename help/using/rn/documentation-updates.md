@@ -4,16 +4,24 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 99%
+source-wordcount: '2209'
+ht-degree: 98%
 
 ---
 
 # Atualizações de documentação {#latest-updates}
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
+
+## Dezembro de 2022 {#december-2022}
+
+* O guia Mensagens foi reorganizado e dividido em guias dedicados para cada canal:
+
+   * [Canal de email](../email/get-started-email.md)
+   * [Canal de notificação por push](../push/get-started-push.md)
+   * [Canal de SMS](../sms/get-started-sms.md)
 
 ## Novembro de 2022 {#november-2022}
 
@@ -29,7 +37,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * A seção **Conjunto de dados da entidade** foi atualizada com mais detalhes. [Leia mais](../data/datasets-query-examples.md#entity-dataset)
 * As seções de gerenciamento de recusa e políticas de consentimento foram reorganizadas. [Leia mais](../privacy/opt-out.md)
 * A seção sobre parâmetros avançados nas mensagens da jornada foi esclarecida e agora especifica que a substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, o valor é definido como o endereço principal nos **Campos de execução** é o que deve ser usado.
-* Uma observação foi adicionada à seção **Configurar subdomínios da página de destino** para especificar que letras maiúsculas não são permitidas nos subdomínios da página de destino. [Leia mais](../configuration/lp-subdomains.md)
+* Uma observação foi adicionada à seção **Configurar subdomínios da página de destino** para especificar que letras maiúsculas não são permitidas nos subdomínios da página de destino. [Leia mais](../landing-pages/lp-subdomains.md)
 
 ## Setembro de 2022 {#september-2022}
 
@@ -88,7 +96,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * As capturas de tela para relatórios de página de destino e subscrição foram atualizadas. [Leia mais](../reports/live-report.md)
 * Uma observação foi adicionada informando que o método DELETE não é compatível com ações personalizadas. [Leia mais](../action/about-custom-action-configuration.md)
 * Os links para vídeos de instrução foram atualizados.
-* As seções [Configuração de email](../configuration/about-subdomain-delegation.md), [Predefinições de mensagem](../configuration/channel-surfaces.md) e [Configurar páginas de destino](../configuration/lp-subdomains.md) foram reorganizadas para facilitar a leitura.
+* As seções [Configuração de email](../configuration/about-subdomain-delegation.md), [Predefinições de mensagem](../configuration/channel-surfaces.md) e [Configurar páginas de destino](../landing-pages/lp-subdomains.md) foram reorganizadas para facilitar a leitura.
 * A seção Rastreamento de URL foi atualizada e aprimorada com exemplos. [Leia mais](../email/email-settings.md#url-tracking)
 * Uma nova subseção sobre como configurar um endereço de email de encaminhamento foi adicionada. Observe que não é possível fazer isso por meio da interface. [Leia mais](../email/email-settings.md#forward-email)
 

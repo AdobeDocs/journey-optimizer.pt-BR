@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 32%
+source-wordcount: '897'
+ht-degree: 26%
 
 ---
 
@@ -69,3 +69,31 @@ A tabela abaixo apresenta um resumo de como esses métodos funcionam, bem como o
 Informações adicionais sobre a configuração de domínio estão disponíveis em [esta documentação](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
 Em caso de dúvida sobre os métodos de configuração de subdomínio, entre em contato com o Adobe ou entre em contato com o Atendimento ao cliente para solicitar consultoria sobre Deliverability.
+
+## Acessar subdomínios delegados {#access-delegated-subdomains}
+
+Todos os subdomínios delegados são exibidos na variável **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Subdomínios]** menu. Os filtros estão disponíveis para ajudar você a refinar a lista (data de delegação, usuário ou status).
+
+![](assets/subdomain-list.png)
+
+O **[!UICONTROL Status]** fornece informações sobre o processo de delegação de subdomínio:
+
+* **[!UICONTROL Rascunho]**: A delegação de subdomínio foi salva como rascunho. Clique no nome do subdomínio para retomar o processo de delegação,
+* **[!UICONTROL Processamento]**: O subdomínio está passando por várias verificações de configuração antes de poder ser usado,
+* **[!UICONTROL Sucesso]**: O subdomínio passou pelas verificações com êxito e pode ser usado para enviar mensagens,
+* **[!UICONTROL Falha]**: Uma ou várias verificações falharam após o envio da delegação de subdomínio.
+
+Para acessar informações detalhadas sobre um subdomínio com a variável **[!UICONTROL Sucesso]** , abra-o na lista.
+
+![](assets/subdomain-delegated.png)
+
+É possível:
+
+* Recupere o nome do subdomínio (somente leitura) configurado durante o processo de delegação, bem como os URLs gerados (recursos, mirror pages, URLs de rastreamento),
+
+* Adicione um registro TXT de verificação do site do Google ao seu subdomínio para garantir que ele seja verificado (consulte [Adicionar um registro TXT do Google a um subdomínio](google-txt.md)).
+
+
+>[!CAUTION]
+>
+>A configuração de subdomínio é comum a todos os ambientes. Portanto, qualquer modificação em um subdomínio também afetará as sandboxes de produção.
