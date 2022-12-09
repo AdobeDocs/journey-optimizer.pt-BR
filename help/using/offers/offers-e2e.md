@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 6%
+source-wordcount: '1065'
+ht-degree: 0%
 
 ---
 
-# Caso de uso: configurar ofertas personalizadas para usá-las em um email {#configure-add-personalized-offers-email}
+# Caso de uso: Configurar ofertas personalizadas para usá-las em um email {#configure-add-personalized-offers-email}
 
 Esta seção apresenta um exemplo completo para mostrar como configurar ofertas e usá-las em um email, com base em uma decisão criada anteriormente.
 
@@ -23,7 +23,7 @@ As principais etapas para configurar ofertas, incluí-las em uma decisão e apro
 
 1. Antes de criar ofertas, [definir seus componentes](#define-components)
 
-   * Criar inserções
+   * Criar disposições
    * Criar regras de decisão
    * Criar tags
    * Criar classificações (opcional)
@@ -37,7 +37,7 @@ As principais etapas para configurar ofertas, incluí-las em uma decisão e apro
       * Adicionar uma regra para cada oferta
       * Definir uma prioridade para cada oferta
 
-1. [Criar uma oferta substituta](#create-fallback)
+1. [Criar uma oferta de fallback](#create-fallback)
 
 1. [Criar uma coleção](#create-collection) para incluir as ofertas personalizadas que você criou
 
@@ -63,7 +63,7 @@ O processo geral de Gerenciamento de decisões para usar ofertas em um email pod
 
 Antes de começar a criar ofertas, você deve definir vários componentes que usará em suas ofertas.
 
-Você os encontrará sob a **[!UICONTROL Gerenciamento de decisões]** > **[!UICONTROL Menu Componentes]**.
+Você os encontrará sob a **[!UICONTROL Decision Management]** > **[!UICONTROL Components menu]**.
 
 1. Comece criando **disposições** para suas ofertas.
 
@@ -81,9 +81,9 @@ Você os encontrará sob a **[!UICONTROL Gerenciamento de decisões]** > **[!UIC
 
 1. Criar **regras de decisão**.
 
-   As regras de decisão fornecerão a melhor oferta a um perfil no Adobe Experience Platform.
+   As regras de decisão fornecerão a melhor oferta a um perfil na Adobe Experience Platform.
 
-   Configure duas regras simples usando o **[!UICONTROL Perfil individual XDM > Pessoa > Gênero]** atributo:
+   Configure duas regras simples usando o **[!UICONTROL XDM Individual Profile > Person > Gender]** atributo:
 
    * *Clientes do sexo feminino*
    * *Clientes masculinos*
@@ -114,7 +114,7 @@ Você os encontrará sob a **[!UICONTROL Gerenciamento de decisões]** > **[!UIC
 
 Agora você pode criar e configurar suas ofertas. Neste exemplo, você criará quatro ofertas que deseja exibir de acordo com cada perfil específico.
 
-1. Criar uma oferta. Saiba mais [nesta seção](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
+1. Crie uma oferta. Saiba mais em [esta seção](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
 
 1. Nesta oferta, crie três representações. Cada representação deve ser uma combinação de uma disposição criada anteriormente com um ativo:
 
@@ -132,13 +132,13 @@ Agora você pode criar e configurar suas ofertas. Neste exemplo, você criará q
 
    ![](assets/offers-e2e-representations.png)
 
-1. No **[!UICONTROL Elegibilidade da oferta]** seção , selecione **[!UICONTROL Por regra de decisão definida]** e arraste e solte a regra de sua escolha.
+1. No **[!UICONTROL Offer eligibility]** seção , selecione **[!UICONTROL By defined decision rule]** e arraste e solte a regra de sua escolha.
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. Preencha o **[!UICONTROL Prioridade]**. Neste exemplo, adicione *25.*.
+1. Preencha o **[!UICONTROL Priority]**. Neste exemplo, adicione *25.*.
 
-1. Revise sua oferta e clique em **[!UICONTROL Salvar e aprovar]**.
+1. Revise sua oferta e clique em **[!UICONTROL Save and approve]**.
 
    ![](assets/offers-e2e-review.png)
 
@@ -153,9 +153,9 @@ Agora você pode criar e configurar suas ofertas. Neste exemplo, você criará q
 
 As etapas detalhadas para criar e configurar ofertas são descritas em [esta seção](../../using/offers/offer-library/creating-personalized-offers.md).
 
-## Criar uma oferta substituta {#create-fallback}
+## Criar uma oferta de fallback {#create-fallback}
 
-1. Criar uma oferta substituta.
+1. Crie uma oferta de fallback.
 
 1. Defina as mesmas representações que para as ofertas, com os ativos apropriados (eles devem ser diferentes dos usados nas ofertas).
 
@@ -167,7 +167,7 @@ As etapas detalhadas para criar e configurar ofertas são descritas em [esta se�
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. Revise sua oferta de fallback e clique em **[!UICONTROL Salvar e aprovar]**.
+1. Revise sua oferta de fallback e clique em **[!UICONTROL Save and approve]**.
 
 ![](assets/offers-e2e-fallback.png)
 
@@ -195,7 +195,7 @@ Essa combinação será usada pelo mecanismo de decisão para encontrar a melhor
 
 Para criar e configurar uma decisão de oferta, siga as principais etapas abaixo:
 
-1. Criar uma decisão. Saiba mais [nesta seção](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
+1. Crie uma decisão. Saiba mais em [esta seção](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
 
 1. Selecione o *Web - Imagem*, *Email - Imagem* e *Não digital - Texto* disposições.
 
@@ -213,7 +213,7 @@ Para criar e configurar uma decisão de oferta, siga as principais etapas abaixo
 
    ![](assets/offers-e2e-decision-fallback.png)
 
-1. Revise sua decisão e clique em **[!UICONTROL Salvar e aprovar]**.
+1. Revise sua decisão e clique em **[!UICONTROL Save and approve]**.
 
    ![](assets/offers-e2e-review-decision.png)
 

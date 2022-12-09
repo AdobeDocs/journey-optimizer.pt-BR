@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 2%
+source-wordcount: '936'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Com o Gerenciamento de decisões, você pode criar e fornecer experiências de ofertas personalizadas para o usuário final, em canais e aplicativos, usando a lógica de negócios e as regras de decisão. Uma oferta é uma mensagem de marketing que pode ter regras associadas a ela que especificam quem está qualificado para ver a oferta.
 
-Você pode criar e entregar ofertas fazendo uma solicitação de POST para a [!DNL Decisioning] API.
+Você pode criar e entregar ofertas fazendo uma solicitação POST para a [!DNL Decisioning] API.
 
 Este tutorial requer uma compreensão funcional das APIs, especificamente em relação ao Gerenciamento de decisões. Para obter mais informações, consulte o [Guia do desenvolvedor da API de gerenciamento de decisões](../getting-started.md). Este tutorial também exige que você tenha uma ID de posicionamento exclusiva e um valor de ID de decisão disponíveis. Se você não adquiriu esses valores, consulte os tutoriais para [criação de uma inserção](../offers-api/placements/create.md) e [criação de uma decisão](../activities-api/activities/create.md).
 
@@ -29,7 +29,7 @@ A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de c
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
+| Aceitar | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Tipo de conteúdo | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
 
 **Formato da API**
@@ -193,13 +193,13 @@ Uma resposta bem-sucedida retorna informações sobre sua proposta, incluindo su
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | Um URL opcional para ler o ativo de uma rede de entrega de conteúdo ou ponto de extremidade de serviço. Esse URL é usado para acessar o ativo publicamente de um agente do usuário. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | A hora em que a mensagem de resposta da decisão foi criada. Isso é representado como uma época. | `"ode:createDate": 1566497582038` |
 
-## Tutorial em vídeo {#video}
+## Vídeo tutorial {#video}
 
 O vídeo a seguir é destinado a auxiliar a compreensão dos componentes do Gerenciamento de decisões.
 
 >[!NOTE]
 >
->Este vídeo se aplica ao serviço de aplicativo do Offer Decisioning criado no Adobe Experience Platform. No entanto, fornece orientação genérica para usar a Oferta no contexto do Journey Optimizer.
+>Este vídeo se aplica ao serviço de aplicativo Offer Decisioning criado na Adobe Experience Platform. No entanto, ela fornece orientação genérica para usar a Oferta no contexto do Journey Otimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 

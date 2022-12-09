@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 9%
+source-wordcount: '165'
+ht-degree: 0%
 
 ---
 
 # Atualizar uma coleção {#update-collection}
 
-Você pode modificar ou atualizar uma coleção fazendo uma solicitação de PATCH para o [!DNL Offer Library] API
+Você pode modificar ou atualizar uma coleção fazendo uma solicitação PATCH para o [!DNL Offer Library] API
 
 Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação do patch JSON](http://jsonpatch.com/).
 
@@ -25,7 +25,7 @@ A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de c
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Aceitar | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Tipo de conteúdo | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
 **Formato da API**

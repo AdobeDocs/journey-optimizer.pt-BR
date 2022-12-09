@@ -7,13 +7,13 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 25%
+ht-degree: 0%
 
 ---
-
 
 # Introdução ao conteúdo dinâmico {#start-dynamic-content}
 
@@ -22,7 +22,7 @@ ht-degree: 25%
 >title="Condições"
 >abstract="As regras condicionais permitem exibir várias variantes de conteúdo em suas mensagens com base em atributos de perfil, eventos contextuais ou segmentos de público-alvo."
 
-O conteúdo dinâmico permite adaptar o conteúdo de suas mensagens com base em **regras condicionais** que pode ser composto de atributos de perfil, eventos contextuais ou segmentos de público-alvo. Regras condicionais são criadas com um construtor visual de regras no Editor de expressão, onde você pode armazená-las para reutilização em suas jornadas e campanhas.
+O conteúdo dinâmico permite adaptar o conteúdo de suas mensagens com base em **regras condicionais** que pode ser composto de atributos de perfil, eventos contextuais ou segmentos de público-alvo. Regras condicionais são criadas usando um construtor de regras visuais no Editor de expressão, onde você pode armazená-las para reutilização adicional em suas jornadas e campanhas.
 
 As regras condicionais podem ser aproveitadas no Email Designer e no editor de expressão para **criar conteúdo dinâmico** que se adaptará aos perfis direcionados em suas mensagens.
 

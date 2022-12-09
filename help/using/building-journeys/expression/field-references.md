@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 3%
+source-wordcount: '558'
+ht-degree: 0%
 
 ---
 
@@ -108,7 +108,7 @@ Exemplo :
 
 ## Referência a um campo definido em um mapa
 
-### Função `entry` 
+### `entry` função
 
 Para recuperar um elemento em um mapa, usamos a função de entrada com uma determinada chave. Por exemplo, ele é usado ao definir a chave de um evento, de acordo com o namespace selecionado. Para obter mais informações, consulte [esta página](../../event/about-creating.md#select-the-namespace).
 
@@ -118,7 +118,7 @@ Para recuperar um elemento em um mapa, usamos a função de entrada com uma dete
 
 Nesta expressão, estamos obtendo a entrada da chave &#39;Email&#39; do campo &#39;IdentityMap&#39; de um evento. A entrada &quot;Email&quot; é uma coleção, da qual tiramos o &quot;id&quot; no primeiro elemento usando &quot;first()&quot;. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
 
-### Função `firstEntryKey` 
+### `firstEntryKey` função
 
 Para recuperar a primeira chave de entrada de um mapa, use o `firstEntryKey` .
 
@@ -130,7 +130,7 @@ Este exemplo mostra como recuperar o primeiro endereço de email dos assinantes 
 
 Neste exemplo, a lista de assinaturas é nomeada `daily-email`. Os endereços de email são definidos como chaves na variável `subscribers` , que é vinculado ao mapa de lista de assinaturas.
 
-### Função `keys` 
+### `keys` função
 
 Para recuperar todas as chaves de um mapa, use o `keys` .
 

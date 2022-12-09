@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 5%
+source-wordcount: '1003'
+ht-degree: 0%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
 >title="Ações personalizadas"
->abstract="Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que o jornada envie chamadas de API para um sistema de terceiros, use ações personalizadas para configurar a conexão com a jornada. Por exemplo, você pode se conectar aos seguintes sistemas com ações personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com/), Firebase, etc."
+>abstract="Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que jornadas enviem chamadas de API para um sistema de terceiros, use ações personalizadas para configurar a conexão com sua jornada. Por exemplo, você pode se conectar aos seguintes sistemas com ações personalizadas: Epsilon, Slack, [Desenvolvedor da Adobe](https://developer.adobe.com), Firebase, etc."
 
-Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que o jornada envie chamadas de API para um sistema de terceiros, use ações personalizadas para configurar a conexão com a jornada. Por exemplo, você pode se conectar aos seguintes sistemas com ações personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase, etc.
+Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que jornadas enviem chamadas de API para um sistema de terceiros, use ações personalizadas para configurar a conexão com sua jornada. Por exemplo, você pode se conectar aos seguintes sistemas com ações personalizadas: Epsilon, Slack, [Desenvolvedor da Adobe](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase, etc.
 
-As ações personalizadas são ações adicionais definidas por usuários técnicos e disponibilizadas para os profissionais de marketing. Depois de configuradas, elas são exibidas na paleta esquerda da jornada, no **[!UICONTROL Ação]** categoria . Saiba mais [nesta página](../building-journeys/about-journey-activities.md#action-activities).
+As ações personalizadas são ações adicionais definidas por usuários técnicos e disponibilizadas para os profissionais de marketing. Depois de configurados, eles são exibidos na paleta esquerda da jornada, na variável **[!UICONTROL Action]** categoria . Saiba mais em [esta página](../building-journeys/about-journey-activities.md#action-activities).
 
 ## Limitações{#custom-actions-limitations}
 
@@ -36,7 +36,7 @@ Observe também que os parâmetros de ações personalizadas têm um formato esp
 
 ## Consentimento e governança de dados {#privacy}
 
-No Journey Optimizer, você pode aplicar políticas de controle e consentimento de dados às ações personalizadas para impedir que campos específicos sejam exportados para sistemas de terceiros ou excluir clientes que não consentiram em receber email, mensagens de push ou comunicações por SMS. Para obter mais informações, consulte as seguintes páginas:
+No Journey Otimizer, você pode aplicar políticas de consentimento e governança de dados às suas ações personalizadas para impedir que campos específicos sejam exportados para sistemas de terceiros ou excluir clientes que não consentiram em receber email, push ou comunicação por SMS. Para obter mais informações, consulte as seguintes páginas:
 
 * [Governança de dados](../action/action.md).
 * [Consentimento](../action/action.md).
@@ -46,7 +46,7 @@ No Journey Optimizer, você pode aplicar políticas de controle e consentimento 
 
 Estas são as principais etapas necessárias para configurar uma ação personalizada:
 
-1. Na seção do menu ADMINISTRATION (ADMINISTRAÇÃO), selecione **[!UICONTROL Configurações]**. No  **[!UICONTROL Ações]** seção , clique em **[!UICONTROL Gerenciar]**. Clique em **[!UICONTROL Criar ação]** para criar uma nova ação. O painel de configuração de ação é aberto no lado direito da tela.
+1. Na seção do menu ADMINISTRATION (ADMINISTRAÇÃO), selecione **[!UICONTROL Configurations]**. No  **[!UICONTROL Actions]** seção , clique em **[!UICONTROL Manage]**. Clique em **[!UICONTROL Create Action]** para criar uma nova ação. O painel de configuração de ação é aberto no lado direito da tela.
 
    ![](assets/custom2.png)
 
@@ -57,21 +57,21 @@ Estas são as principais etapas necessárias para configurar uma ação personal
    >Não use espaços ou caracteres especiais. Não use mais de 30 caracteres.
 
 1. Adicione uma descrição à ação. Esta etapa é opcional.
-1. O número de jornadas que usam essa ação é exibido na variável **[!UICONTROL Usado em]** campo. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas usando essa ação.
-1. Defina as variáveis **[!UICONTROL Configuração de URL]** parâmetros. Consulte [esta página](../action/about-custom-action-configuration.md#url-configuration).
-1. Configure o **[!UICONTROL Autenticação]** seção. Essa configuração é igual à das fontes de dados.  Consulte [esta seção](../datasource/external-data-sources.md#custom-authentication-mode).
-1. Defina as **[!UICONTROL Parâmetros de ação]**. Consulte [esta página](../action/about-custom-action-configuration.md#define-the-message-parameters).
-1. Clique em **[!UICONTROL Salvar]**.
+1. O número de jornadas que usam essa ação é exibido na variável **[!UICONTROL Used in]** campo. Você pode clicar no botão **[!UICONTROL View journeys]** para exibir a lista de jornadas usando essa ação.
+1. Defina as variáveis **[!UICONTROL URL Configuration]** parâmetros. Consulte [esta página](../action/about-custom-action-configuration.md#url-configuration).
+1. Configure o **[!UICONTROL Authentication]** seção. Essa configuração é igual à das fontes de dados.  Consulte [esta seção](../datasource/external-data-sources.md#custom-authentication-mode).
+1. Defina as **[!UICONTROL Action parameters]**. Consulte [esta página](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Clique em **[!UICONTROL Save]**.
 
    A ação personalizada agora está configurada e pronta para ser usada em suas jornadas. Consulte [esta página](../building-journeys/about-journey-activities.md#action-activities).
 
    >[!NOTE]
    >
-   >Quando uma ação personalizada é usada em uma jornada, a maioria dos parâmetros é somente leitura. Você só pode modificar o **[!UICONTROL Nome]**, **[!UICONTROL Descrição]**, **[!UICONTROL URL]** e **[!UICONTROL Autenticação]** seção.
+   >Quando uma ação personalizada é usada em uma jornada, a maioria dos parâmetros é somente leitura. Você só pode modificar o **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** e **[!UICONTROL Authentication]** seção.
 
-## Configurar o URL {#url-configuration}
+## Configuração do URL {#url-configuration}
 
-Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UICONTROL Configuração de URL]** parâmetros:
+Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UICONTROL URL Configuration]** parâmetros:
 
 ![](assets/journeyurlconfiguration.png)
 
@@ -86,33 +86,33 @@ Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UIC
       Você especificará o caminho dinâmico do URL ao adicionar a ação personalizada a uma jornada. [Saiba mais](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
-   >Por motivos de segurança, recomendamos que você use o esquema HTTPS para o URL. Não permitimos o uso de endereços Adobe que não são públicos e o uso de endereços IP.
+   >Por motivos de segurança, recomendamos que você use o esquema HTTPS para o URL. Não permitimos o uso de endereços da Adobe que não são públicos e o uso de endereços IP.
    >
    >Somente as portas padrão são permitidas ao definir uma ação personalizada: 80 para http e 443 para https.
 
-1. Selecione a chamada **[!UICONTROL Método]**: pode ser **[!UICONTROL POST]** ou **[!UICONTROL PUT]**.
+1. Selecione a chamada **[!UICONTROL Method]**: pode ser **[!UICONTROL POST]** ou **[!UICONTROL PUT]**.
 
    >[!NOTE]
    >
-   > O **DELETE** não é suportado. Se precisar atualizar um recurso existente, selecione o **PUT** método .
+   > O **EXCLUIR** não é suportado. Se precisar atualizar um recurso existente, selecione o **PUT** método .
 
-1. No **[!UICONTROL Cabeçalhos]** , defina os cabeçalhos HTTP da mensagem de solicitação a ser enviada ao serviço externo:
-   1. Para adicionar um campo de cabeçalho, clique em **[!UICONTROL Adicionar um campo de cabeçalho]**.
+1. No **[!UICONTROL Headers]** , defina os cabeçalhos HTTP da mensagem de solicitação a ser enviada ao serviço externo:
+   1. Para adicionar um campo de cabeçalho, clique em **[!UICONTROL Add a header field]**.
    1. Insira a chave do campo de cabeçalho.
-   1. Para definir um valor dinâmico para o par de valores chave, selecione **[!UICONTROL Variável]**. Caso contrário, selecione **[!UICONTROL Constante]**.
+   1. Para definir um valor dinâmico para o par de valores chave, selecione **[!UICONTROL Variable]**. Caso contrário, selecione **[!UICONTROL Constant]**.
 
       Por exemplo, para um carimbo de data e hora, é possível definir um valor dinâmico.
 
-   1. Se você selecionou **[!UICONTROL Constante]**, em seguida, insira o valor constante.
+   1. Se você selecionou **[!UICONTROL Constant]**, em seguida, insira o valor constante.
 
-      Se você selecionou **[!UICONTROL Variável]**, você especificará essa variável ao adicionar a ação personalizada a uma jornada. [Saiba mais](../building-journeys/using-custom-actions.md).
+      Se você selecionou **[!UICONTROL Variable]**, você especificará essa variável ao adicionar a ação personalizada a uma jornada. [Saiba mais](../building-journeys/using-custom-actions.md).
 
       ![](assets/journeyurlconfiguration2.png)
 
-   1. Para excluir um campo de cabeçalho, aponte para o campo de cabeçalho e clique no botão **[!UICONTROL Excluir]** ícone .
-   O **[!UICONTROL Tipo de conteúdo]** e **[!UICONTROL Charset]** os campos de cabeçalho são definidos por padrão. Não é possível modificar ou excluir esses campos.
+   1. Para excluir um campo de cabeçalho, aponte para o campo de cabeçalho e clique no botão **[!UICONTROL Delete]** ícone .
+   O **[!UICONTROL Content-Type]** e **[!UICONTROL Charset]** os campos de cabeçalho são definidos por padrão. Não é possível modificar ou excluir esses campos.
 
-   Após adicionar a ação personalizada a uma jornada, você ainda poderá adicionar campos de cabeçalho a ela se a jornada estiver em status de rascunho. Se não quiser que a jornada seja afetada por alterações de configuração, duplique a ação personalizada e adicione os campos de cabeçalho à nova ação personalizada.
+   Depois de ter adicionado a ação personalizada a uma jornada, você ainda poderá adicionar campos de cabeçalho a ela se a jornada estiver em status de rascunho. Se você não quiser que a jornada seja afetada por alterações de configuração, duplique a ação personalizada e adicione os campos de cabeçalho à nova ação personalizada.
 
    >[!NOTE]
    >
@@ -122,7 +122,7 @@ Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UIC
 
 ![](assets/messageparameterssection.png)
 
-No **[!UICONTROL Parâmetros de ação]** cole um exemplo da carga JSON para enviar ao serviço externo.
+No **[!UICONTROL Action parameters]** cole um exemplo da carga JSON para enviar ao serviço externo.
 
 ![](assets/customactionpayloadmessage.png)
 
@@ -134,7 +134,7 @@ Você poderá definir o tipo de parâmetro (por exemplo: string, número inteiro
 
 Você também terá uma escolha entre especificar se um parâmetro é uma constante ou variável:
 
-* Constante significa que o valor do parâmetro é definido no painel de configuração da ação por uma pessoa técnica. O valor será sempre o mesmo em jornadas. Ele não variará e o profissional de marketing não a verá ao usar a ação personalizada na jornada. Pode ser, por exemplo, uma ID que o sistema de terceiros espera. Nesse caso, o campo à direita da constante/variável de alternância é o valor transmitido.
-* Variável significa que o valor do parâmetro varia. Os profissionais de marketing que usam essa ação personalizada em uma jornada poderão transmitir o valor desejado ou especificar onde recuperar o valor desse parâmetro (por exemplo, do evento, do Adobe Experience Platform etc.). Nesse caso, o campo à direita da variável/constante de alternância é o rótulo que os profissionais de marketing verão na jornada para nomear esse parâmetro.
+* Constante significa que o valor do parâmetro é definido no painel de configuração da ação por uma pessoa técnica. O valor será sempre o mesmo em várias jornadas. Ele não varia e o profissional de marketing não o verá ao usar a ação personalizada na jornada. Pode ser, por exemplo, uma ID que o sistema de terceiros espera. Nesse caso, o campo à direita da constante/variável de alternância é o valor transmitido.
+* Variável significa que o valor do parâmetro varia. Os profissionais de marketing que usam essa ação personalizada em uma jornada serão livres para transmitir o valor desejado ou especificar onde recuperar o valor desse parâmetro (por exemplo, do evento, da Adobe Experience Platform etc.). Nesse caso, o campo à direita da variável/constante de alternância é o rótulo que os profissionais de marketing verão na jornada para nomear esse parâmetro.
 
 ![](assets/customactionpayloadmessage2.png)

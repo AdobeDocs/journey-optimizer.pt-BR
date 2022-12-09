@@ -1,6 +1,6 @@
 ---
 title: Introdução para desenvolvedores
-description: Como desenvolvedor, saiba mais sobre como trabalhar com o Journey Optimizer
+description: Como desenvolvedor, saiba mais sobre como trabalhar com o Journey Otimizer
 level: Intermediate
 hide: true
 hidefromtoc: true

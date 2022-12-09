@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Casos de uso da página de aterrissagem
-description: Descubra os casos de uso mais comuns com landing pages no Journey Optimizer
+description: Descubra os casos de uso mais comuns com landing pages no Journey Otimizer
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 16%
+source-wordcount: '874'
+ht-degree: 0%
 
 ---
 
@@ -55,7 +55,7 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
 1. [Criar o email](../email/get-started-email-design.md) para anunciar que o registro agora está aberto para o seu evento.
 
-1. [Inserir um link](../email/message-tracking.md#insert-links) no conteúdo da mensagem. Selecionar **[!UICONTROL Página de aterrissagem]** como **[!UICONTROL Tipo de link]** e escolha a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para registro.
+1. [Inserir um link](../email/message-tracking.md#insert-links) no conteúdo da mensagem. Selecionar **[!UICONTROL Landing page]** como **[!UICONTROL Link type]** e escolha a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para registro.
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -67,19 +67,19 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
 ### Enviar um email de confirmação {#send-confirmation-email}
 
-Além disso, você pode enviar um email de confirmação para os recipients que se registraram para o seu evento. Para isso, siga as etapas abaixo.
+Além disso, você pode enviar um email de confirmação para os recipients que se registraram para o seu evento. Para fazer isso, siga as etapas abaixo.
 
-1. Criar outro [jornada](../building-journeys/journey.md). Você pode fazer isso diretamente da landing page clicando no link **[!UICONTROL Criar jornada]** botão. Saiba mais [aqui](create-lp.md#configure-primary-page)
+1. Criar outro [jornada](../building-journeys/journey.md). Você pode fazer isso diretamente da landing page clicando no link **[!UICONTROL Create journey]** botão. Saiba mais [here](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Expanda a **[!UICONTROL Eventos]** categoria e solte uma **[!UICONTROL Qualificação do segmento]** atividade na tela. Saiba mais [aqui](../building-journeys/segment-qualification-events.md)
+1. Expanda a **[!UICONTROL Events]** categoria e solte uma **[!UICONTROL Segment Qualification]** atividade na tela. Saiba mais [here](../building-journeys/segment-qualification-events.md)
 
-1. Clique no botão **[!UICONTROL Segmento]** e selecione a lista de subscrição criada.
+1. Clique no botão **[!UICONTROL Segment]** e selecione a lista de subscrição criada.
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
-1. Adicione um email de confirmação de sua escolha e envie-o por meio da jornada.
+1. Adicione um email de confirmação de sua escolha e envie-o pela jornada.
 
    ![](assets/lp_subscription-uc-confirm-email.png)
 
@@ -93,13 +93,13 @@ Para permitir que seus recipients cancelem a assinatura de suas comunicações, 
 
 Saiba mais sobre como gerenciar o consentimento dos recipients e por que isso é importante em [esta seção](../privacy/opt-out.md).
 
-### Gerenciamento de recusa {#opt-out-management}
+### Gerenciamento de não participação {#opt-out-management}
 
-Oferecer aos recipients a capacidade de cancelar a inscrição para receber comunicações de uma marca é um requisito legal. Saiba mais sobre a legislação aplicável na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=pt-BR#regulations){target=&quot;_blank&quot;}.
+Fornecer a capacidade de cancelar a assinatura dos recipients ao receberem comunicações de uma marca é um requisito legal. Saiba mais sobre a legislação aplicável no [Documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target=&quot;_blank&quot;}.
 
-Portanto, você sempre deve incluir um **link para cancelar a inscrição** em cada email enviado aos recipients:
+Portanto, você sempre deve incluir um **link de cancelamento de inscrição** em cada email enviado aos recipients:
 
-* Ao clicar nesse link, os recipients serão direcionados a uma página de aterrissagem que inclui um botão para confirmar a recusa.
+* Ao clicar nesse link, os recipients serão direcionados a uma landing page, incluindo um botão para confirmar a recusa.
 * Ao clicar no botão recusar, os dados do perfil serão atualizados com essas informações.
 
 ### Configurar recusa {#configure-opt-out}
@@ -110,7 +110,7 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
 1. Defina a página primária. [Saiba mais](create-lp.md#configure-primary-page)
 
-1. [Design](design-lp.md) o conteúdo principal da página: usar a página de aterrissagem específica **[!UICONTROL Formulário]** , defina um **[!UICONTROL Recusar]** e escolha atualizar **[!UICONTROL Canal (email)]**: o perfil que marcar a caixa de opção de não participação na página de aterrissagem será rejeitado em todas as suas comunicações.
+1. [Design](design-lp.md) o conteúdo principal da página: usar a página de aterrissagem específica **[!UICONTROL Form]** , defina um **[!UICONTROL Opt-out]** e escolha atualizar **[!UICONTROL Channel (email)]**: o perfil que marcar a caixa de opção de não participação na página de aterrissagem será rejeitado em todas as suas comunicações.
 
    ![](assets/lp_opt-out-primary-lp.png)
 
@@ -122,7 +122,7 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
    >[!NOTE]
    >
-   >Certifique-se de fazer referência à subpágina no **[!UICONTROL Chamada à ação]** da seção **[!UICONTROL Formulário]** componente. [Saiba mais](design-lp.md)
+   >Certifique-se de fazer referência à subpágina no **[!UICONTROL Call to action]** da seção **[!UICONTROL Form]** componente. [Saiba mais](design-lp.md)
 
 1. Após configurar e definir o conteúdo de suas páginas, [publicar](create-lp.md#publish) a landing page.
 
@@ -130,11 +130,11 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
 1. [Criar uma mensagem de email](../email/get-started-email-design.md) em uma jornada.
 
-1. Selecione o texto no seu conteúdo e [insira um link](../email/message-tracking.md#insert-links) usando a barra de ferramentas contextual. Você também pode usar um link em um botão.
+1. Selecione o texto no seu conteúdo e [inserir um link](../email/message-tracking.md#insert-links) usando a barra de ferramentas contextual. Você também pode usar um link em um botão.
 
    ![](assets/lp_opt-out-insert-link.png)
 
-1. Selecionar **[!UICONTROL Página de aterrissagem]** do **[!UICONTROL Tipo de link]** e selecione a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para rejeitar.
+1. Selecionar **[!UICONTROL Landing page]** do **[!UICONTROL Link type]** e selecione a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para rejeitar.
 
    ![](assets/lp_opt-out-landing-page.png)
 
@@ -154,11 +154,11 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
    * Os dados do perfil são atualizados e não receberão comunicações da sua marca, a menos que sejam subscritos novamente.
 
-Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target=&quot;_blank&quot;}.
+Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [Documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 
-No **[!UICONTROL Atributos]** , você pode ver que o valor de **[!UICONTROL choice]** mudou para **[!UICONTROL não]**.
+No **[!UICONTROL Attributes]** , você pode ver que o valor de **[!UICONTROL choice]** mudou para **[!UICONTROL no]**.
 
 <!--
 

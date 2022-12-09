@@ -9,7 +9,7 @@ exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 10%
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 Coleções são subconjuntos de ofertas com base em condições predefinidas definidas por um profissional de marketing, como a categoria da oferta.
 
-Você pode criar uma coleção fazendo uma solicitação de POST para a [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
+Você pode criar uma coleção fazendo uma solicitação POST para o [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
 
 ## Aceitar e digitar cabeçalhos de tipo de conteúdo {#accept-and-content-type-headers}
 
@@ -25,7 +25,7 @@ A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de c
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Aceitar | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Tipo de conteúdo | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
 **Formato da API**

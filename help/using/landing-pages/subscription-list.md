@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Criar uma lista de assinaturas
-description: Saiba como configurar uma lista de assinaturas no Journey Optimizer
+description: Saiba como configurar uma lista de assinaturas no Journey Otimizer
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 4%
+source-wordcount: '403'
+ht-degree: 0%
 
 ---
 
@@ -41,11 +41,11 @@ Os perfis podem ser adicionados a uma lista de assinaturas por meio de uma [pág
 
 Para criar uma lista de subscrição, siga as etapas abaixo.
 
-1. Para acessar as listas de subscrição, selecione **[!UICONTROL Cliente]** > **[!UICONTROL Lista de assinaturas]**.
+1. Para acessar as listas de subscrição, selecione **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
 
    ![](assets/lp_subscription-lists.png)
 
-1. Selecione o **[!UICONTROL Criar lista de assinaturas]** botão.
+1. Selecione o **[!UICONTROL Create subscription list]** botão.
 
    ![](assets/lp_create-subscription-list.png)
 
@@ -55,13 +55,13 @@ Para criar uma lista de subscrição, siga as etapas abaixo.
 
    >[!CAUTION]
    >
-   >Atualmente, não é possível usar o espaçamento ou inserir um nome que já existe para outra lista de assinaturas no **[!UICONTROL Título]** campo.
+   >Atualmente, não é possível usar o espaçamento ou inserir um nome que já existe para outra lista de assinaturas no **[!UICONTROL Title]** campo.
 
 1. Você pode definir uma data de início e uma data de término.
 
    ![](assets/lp_subscription-list-dates.png)
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Save]**.
 
 A lista exibe todas as listas de assinaturas criadas. Você pode filtrá-los com base na data de criação ou na data de modificação e em seu status.
 
@@ -69,9 +69,9 @@ A lista exibe todas as listas de assinaturas criadas. Você pode filtrá-los com
 
 Os status possíveis são os seguintes:
 
-* **[!UICONTROL Não iniciado]**: Você definiu uma data de início posterior ao dia atual. Os perfis subscritos ainda não receberão comunicações relacionadas a esta lista de subscrição.
-* **[!UICONTROL Ao vivo]**: O dia atual é composto pela data de início e de término da lista de assinaturas ou por datas de término/início não definidas, o que significa que a lista de assinaturas está sempre ativa.
-* **[!UICONTROL Expirado]**: A data de término é passada, portanto, a lista de assinaturas não é mais válida. Qualquer perfil inscrito não receberá mais comunicações relacionadas a esta lista de assinaturas.
+* **[!UICONTROL Not started]**: Você definiu uma data de início posterior ao dia atual. Os perfis subscritos ainda não receberão comunicações relacionadas a esta lista de subscrição.
+* **[!UICONTROL Live]**: O dia atual é composto pela data de início e de término da lista de assinaturas ou por datas de término/início não definidas, o que significa que a lista de assinaturas está sempre ativa.
+* **[!UICONTROL Expired]**: A data de término é passada, portanto, a lista de assinaturas não é mais válida. Qualquer perfil inscrito não receberá mais comunicações relacionadas a esta lista de assinaturas.
 
 Depois que a lista de assinaturas for criada, você poderá usá-la em uma landing page. Os perfis que optarem pelo formulário de landing page serão adicionados à lista. [Saiba mais](design-lp.md)
 

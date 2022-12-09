@@ -1,5 +1,5 @@
 ---
-title: Criar uma oferta substituta
+title: Criar uma oferta de fallback
 description: Uma oferta de fallback é enviada para os clientes se eles não estiverem qualificados para outras ofertas
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
-# Criar uma oferta substituta {#create-fallback-offer}
+# Criar uma oferta de fallback {#create-fallback-offer}
 
 Você pode criar uma oferta de fallback fazendo uma solicitação de POST para a [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
 
@@ -23,7 +23,7 @@ A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de c
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Aceitar | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Tipo de conteúdo | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
 
 **Formato da API**

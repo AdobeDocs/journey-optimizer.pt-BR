@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 10%
+source-wordcount: '148'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +49,7 @@ Retorna &quot;Mundo Hexlo&quot;.
 
 ## Exemplo 2 {#example_2}
 
-Como o parâmetro de destino é RegExp, dependendo da string que você deseja substituir, talvez seja necessário evitar alguns caracteres. Exemplo:
+Como o parâmetro de destino é RegExp, dependendo da string que você deseja substituir, talvez seja necessário evitar alguns caracteres. Veja um exemplo:
 
 * string a ser avaliada: `|OFFER_A|OFFER_B`
 * fornecido por um atributo de perfil `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`

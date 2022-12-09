@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução a consultas no Journey Optimizer
-description: Saiba como criar consultas no Adobe Journey Optimizer
+title: Introdução a consultas no Journey Otimizer
+description: Saiba como criar consultas no Adobe Journey Otimizer
 feature: Schemas
 role: User
 level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 12%
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
@@ -26,5 +26,5 @@ Saiba como usar o Editor de consultas no [esta documentação](https://experienc
 
 **Consulte também**
 
-* [Documentação do Serviço de query](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR){target=&quot;_blank&quot;}
-* [Vídeo de visão geral do Serviço de query](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=pt-BR){target=&quot;_blank&quot;}
+* [Documentação do Serviço de query](https://experienceleague.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
+* [Vídeo de visão geral do Serviço de query](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}

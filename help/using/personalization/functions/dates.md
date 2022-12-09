@@ -8,14 +8,14 @@ level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 6%
+source-wordcount: '254'
+ht-degree: 0%
 
 ---
 
 # Funções de Data/Hora{#date-time}
 
-As funções de data e hora são usadas para executar operações de data e hora em valores no Journey Optimizer.
+As funções de data e hora são usadas para executar operações de data e hora em valores no Journey Otimizer.
 
 ## Idade{#age}
 
@@ -134,7 +134,7 @@ Onde a primeira string é o atributo date e o segundo valor é como você gostar
 >
 > Se um padrão de data for inválido, a data retornará para o formato padrão ISO.
 >
-> Você pode usar as funções de formatação de data Java como resumidas [na documentação do Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> Você pode usar as funções de formatação de data Java como resumidas [na documentação da Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Exemplo**
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Propriedades da jornada
-description: Saiba mais sobre as propriedades do jornada
+description: Saiba mais sobre as propriedades da jornada
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -10,13 +10,13 @@ exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
-# Jornada atributos de propriedades {#journey-properties}
+# Atributos das propriedades da jornada {#journey-properties}
 
-No editor de expressão avançado, você encontrará a variável **Propriedades da Jornada** , abaixo das categorias evento e fonte de dados. Esta categoria contém campos técnicos relacionados à jornada de um determinado perfil. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados.
+No editor de expressão avançado, você encontrará a variável **Propriedades da jornada** , abaixo das categorias evento e fonte de dados. Esta categoria contém campos técnicos relacionados à jornada de um determinado perfil. Essas são as informações recuperadas pelo sistema a partir de jornadas ao vivo, como a ID da jornada ou os erros específicos encontrados.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ No editor de expressão avançado, você encontrará a variável **Propriedades 
 
 Você encontrará informações, por exemplo, sobre:
 
-* Versão do jornada: Uid do jornada, uid da versão do jornada, uid da instância etc.
+* versão da jornada: uid da jornada, uid da versão da jornada, uid da instância etc.
 * erros: busca de dados, execução de ação etc.
 * etapa atual, última etapa atual etc.
 * perfis descartados
@@ -37,20 +37,20 @@ Veja alguns exemplos de casos de uso:
 
 * **Registrar perfis descartados**: é possível enviar todos os perfis excluídos de uma mensagem por uma regra de limitação para um sistema de terceiros para fins de registro. Para isso, configure um caminho em caso de tempo limite e erro e adicione uma condição para filtrar em um tipo de erro específico, por exemplo: &quot;descartar as pessoas ao limitar a regra&quot;. Em seguida, é possível enviar os perfis descartados para um sistema de terceiros por meio de uma ação personalizada.
 
-* **Enviar alertas em caso de erros**: você pode enviar uma notificação para um sistema de terceiros sempre que ocorrer um erro em uma mensagem. Para isso, configure um caminho em caso de erro, adicione uma condição e uma ação personalizada. Você pode enviar uma notificação em um canal de Slack, por exemplo, com a descrição do erro encontrado.
+* **Enviar alertas em caso de erros**: você pode enviar uma notificação para um sistema de terceiros sempre que ocorrer um erro em uma mensagem. Para isso, configure um caminho em caso de erro, adicione uma condição e uma ação personalizada. É possível enviar uma notificação em um canal Slack, por exemplo, com a descrição do erro encontrado.
 
 * **Refinar erros nos relatórios** : em vez de ter apenas um caminho para mensagens com erro, você pode definir uma condição por tipo de erro. Isso permitirá refinar os relatórios e exibir todos os dados de tipos de erro.
 
-## List of fields {#journey-properties-fields}
+## Lista de campos {#journey-properties-fields}
 
 | Categoria | Nome do campo | Rótulo | Descrição |
 |---|---|---|------------|
-| Versão do Jornada | journeyUID | Identificador de jornada |  |
-|  | journeyVersionUID | Identificador de versão do Jornada |  |
-|  | journeyVersionName | Nome da versão do Jornada |  |
-|  | journeyVersionDescription | Descrição da versão do Jornada |  |
-|  | journeyVersion | Versão do Jornada |  |
-| Instância do Jornada | instanceUID | Identificador de Instância do Jornada | ID da instância |
+| Versão da jornada | journeyUID | Identificador de jornada |  |
+|  | journeyVersionUID | Identificador da versão da jornada |  |
+|  | journeyVersionName | Nome da versão da jornada |  |
+|  | journeyVersionDescription | Descrição da versão da jornada |  |
+|  | journeyVersion | Versão da jornada |  |
+| Instância da jornada | instanceUID | Identificador de Instância da Jornada | ID da instância |
 |  | externalKey | Chave externa | Identificador individual que aciona a jornada |
 |  | organizationId | Identificador da organização | Organização da marca |
 |  | sandboxName | Nome da sandbox | Nome da sandbox |

@@ -1,6 +1,6 @@
 ---
 title: Configuração de correspondência direta
-description: Saiba como configurar o canal de correspondência direta no Journey Optimizer
+description: Saiba como configurar o canal de correspondência direta no Journey Otimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -10,7 +10,7 @@ hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -54,12 +54,12 @@ Antes de gerar esse arquivo, é necessário criar:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Selecione o tipo de servidor para o arquivo"
->abstract="Escolha o tipo de servidor que deseja usar para exportar seus arquivos de correspondência direta. Atualmente, somente o Amazon S3 e SFTP são compatíveis com a Journey Optimizer."
+>abstract="Escolha o tipo de servidor que deseja usar para exportar seus arquivos de correspondência direta. Atualmente, somente o Amazon S3 e o SFTP são compatíveis com o Journey Otimizer."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
->title="Escolha a região do AWS"
->abstract="Selecione a região geográfica do servidor do AWS onde deseja exportar seus arquivos de correspondência direta. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta."
+>title="Escolha a região AWS"
+>abstract="Selecione a região geográfica do servidor AWS onde deseja exportar seus arquivos de correspondência direta. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta."
 
 Para enviar uma mensagem de mala direta, [!DNL Journey Optimizer] gera e exporta o arquivo contendo os dados do público-alvo direcionado para um servidor.
 
@@ -67,37 +67,37 @@ Você precisa especificar os detalhes do servidor para que seu provedor de corre
 
 Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
-1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração do roteamento de arquivos]** > **[!UICONTROL Roteamento de arquivo]** , em seguida, clique em **[!UICONTROL Criar configuração de roteamento]**.
+1. Acesse o **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL File routing configuration]** > **[!UICONTROL File Routing]** , em seguida, clique em **[!UICONTROL Create routing configuration]**.
 
    ![](assets/file-routing-config-button.png)
 
 1. Defina um nome para sua configuração.
 
-1. Selecione o **[!UICONTROL Tipo de servidor]** que você deseja usar para exportar os arquivos de correspondência direta.
+1. Selecione o **[!UICONTROL Server type]** que você deseja usar para exportar os arquivos de correspondência direta.
 
    ![](assets/file-routing-config-type.png)
 
    >[!NOTE]
    >
-   >Atualmente, somente o Amazon S3 e SFTP são compatíveis com o [!DNL Journey Optimizer].
+   >Atualmente, somente o Amazon S3 e o SFTP são compatíveis com o [!DNL Journey Optimizer].
 
 1. Preencha os detalhes e as credenciais do servidor, como endereço do servidor, chave de acesso etc.
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. Se você selecionou **[!UICONTROL Amazon S3]**, escolha o **[!UICONTROL Região do AWS]** onde a infraestrutura do servidor estará localizada.
+1. Se você selecionou **[!UICONTROL Amazon S3]**, escolha o **[!UICONTROL AWS region]** onde a infraestrutura do servidor estará localizada.
 
    ![](assets/file-routing-config-aws-region.png)
 
    >[!NOTE]
    >
-   >As regiões do AWS são áreas geográficas que a AWS usa para hospedar suas infraestruturas de nuvem. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta.
+   >As regiões AWS são áreas geográficas que a AWS usa para hospedar suas infraestruturas de nuvem. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta.
 
-1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos é criada com a variável **[!UICONTROL Ativo]** status. Agora está pronto para ser usado em um [superfície de correspondência direta](#direct-mail-surface).
+1. Selecionar **[!UICONTROL Submit]**. A configuração de roteamento de arquivos é criada com a variável **[!UICONTROL Active]** status. Agora está pronto para ser usado em um [superfície de correspondência direta](#direct-mail-surface).
 
    >[!NOTE]
    >
-   >Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivos, mas você não poderá selecioná-la em uma superfície até que seja **[!UICONTROL Ativo]**.
+   >Você também pode selecionar **[!UICONTROL Save as draft]** para criar a configuração de roteamento de arquivos, mas você não poderá selecioná-la em uma superfície até que seja **[!UICONTROL Active]**.
 
 ## Criar uma superfície de correspondência direta {#direct-mail-surface}
 
@@ -124,7 +124,7 @@ Uma superfície de correspondência direta também deve incluir a configuração
 
 1. Crie uma superfície de canal. [Saiba mais](../configuration/channel-surfaces.md)
 
-1. Selecione o **[!UICONTROL Correspondência direta]** canal.
+1. Selecione o **[!UICONTROL Direct mail]** canal.
 
    ![](assets/surface-direct-mail-channel.png)
 
@@ -134,9 +134,9 @@ Uma superfície de correspondência direta também deve incluir a configuração
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
-1. Selecione o formato de arquivo: **[!UICONTROL CSV]** ou **[!UICONTROL Delimitado por texto]**.
+1. Selecione o formato de arquivo: **[!UICONTROL CSV]** ou **[!UICONTROL Text delimited]**.
 
-1. Selecione o **[!UICONTROL Configuração do roteamento de arquivos]** entre os que você criou. Isso define onde o arquivo será exportado para que seu provedor de correspondência direta use.
+1. Selecione o **[!UICONTROL File routing configuration]** entre os que você criou. Isso define onde o arquivo será exportado para que seu provedor de correspondência direta use.
 
    >[!CAUTION]
    >

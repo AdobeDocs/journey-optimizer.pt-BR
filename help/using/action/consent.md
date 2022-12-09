@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Trabalhar com políticas de consentimento
-description: Saiba como trabalhar com as políticas de consentimento do Adobe Experience Platform
+description: Saiba como trabalhar com as políticas de consentimento da Adobe Experience Platform
 feature: Actions
 topic: Administration
 role: Admin
@@ -10,42 +10,42 @@ level: Intermediate
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 5%
+source-wordcount: '905'
+ht-degree: 0%
 
 ---
 
 # Trabalhar com políticas de consentimento {#consent-management}
 
-A Adobe Experience Platform permite adotar e aplicar facilmente políticas de marketing para respeitar as preferências de consentimento dos clientes. As políticas de consentimento são definidas na Adobe Experience Platform. Consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
+A Adobe Experience Platform permite que você adote e aplique facilmente políticas de marketing para respeitar as preferências de consentimento dos clientes. As políticas de consentimento são definidas na Adobe Experience Platform. Consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
-No Journey Optimizer, você pode aplicar essas políticas de consentimento às ações personalizadas. Por exemplo, você pode definir políticas de consentimento para excluir clientes que não consentiram em receber email, push ou comunicação por SMS.
+No Journey Otimizer, você pode aplicar essas políticas de consentimento às suas ações personalizadas. Por exemplo, você pode definir políticas de consentimento para excluir clientes que não consentiram em receber email, push ou comunicação por SMS.
 
 >[!NOTE]
 >
 >Atualmente, as políticas de consentimento estão disponíveis apenas para organizações que compraram a oferta complementar do Healthcare Shield.
 
-No Journey Optimizer, o consentimento é definido em vários níveis:
+No Journey Otimizer, o consentimento é definido em vários níveis:
 
 * when **configuração de uma ação personalizada**, é possível definir um canal e uma ação de marketing. Veja isso [seção](../action/consent.md#consent-custom-action).
 * ao adicionar o **ação personalizada em uma jornada**, é possível definir uma ação de marketing adicional. Veja isso [seção](../action/consent.md#consent-journey).
 
 ## Observações importantes {#important-notes}
 
-No Journey Optimizer, o consentimento pode ser aproveitado em ações personalizadas. Se quiser usá-lo com os recursos de mensagem integrada, é necessário usar uma atividade de condição para filtrar os clientes na jornada.
+No Journey Otimizer, o consentimento pode ser aproveitado em ações personalizadas. Se quiser usá-lo com os recursos de mensagem integrada, é necessário usar uma atividade de condição para filtrar clientes em sua jornada.
 
-Com o gerenciamento de consentimento, duas atividades do jornada são analisadas:
+Com o gerenciamento de consentimento, duas atividades de jornada são analisadas:
 
 * Ler segmento: o segmento recuperado é considerado.
 * Ação personalizada: o gerenciamento de consentimento leva em conta os atributos usados ([parâmetros de ação](../action/about-custom-action-configuration.md#define-the-message-parameters)), bem como as ações de marketing definidas (ação de marketing necessária e ação de marketing adicional).
 * Os atributos que fazem parte de um grupo de campos usando o Esquema de União predefinido não são suportados. Esses atributos ficarão ocultos na interface. É necessário criar outro grupo de campos usando um schema diferente.
 * As políticas de consentimento só se aplicam quando uma ação de marketing (necessária ou adicional) é definida no nível de ação personalizada.
 
-Todas as outras atividades usadas em uma jornada não são consideradas. Se você iniciar a jornada com uma qualificação de Segmento, o segmento não será considerado.
+Todas as outras atividades usadas em uma jornada não são consideradas. Se você iniciar sua jornada com uma qualificação de Segmento, o segmento não será considerado.
 
-Em uma jornada, se um perfil for excluído por uma política de consentimento em uma ação personalizada, a mensagem não será enviada para ele, mas ele continuará a jornada. O perfil não atinge o tempo limite e o caminho de erro ao usar uma condição.
+Em uma jornada, se um perfil for excluído por uma política de consentimento em uma ação personalizada, a mensagem não será enviada a ele, mas ele continuará a jornada. O perfil não atinge o tempo limite e o caminho de erro ao usar uma condição.
 
-Antes de atualizar as políticas em uma ação personalizada posicionada em uma jornada, verifique se a jornada não tem erro.
+Antes de atualizar políticas em uma ação personalizada posicionada em uma jornada, verifique se a jornada não tem erro.
 
 <!--
 There are two types of latency regarding the use of consent policies:
@@ -75,7 +75,7 @@ Para certos tipos de comunicações importantes, por exemplo, uma mensagem trans
 
 As outras etapas para configurar uma ação personalizada estão detalhadas em [esta seção](../action/about-custom-action-configuration.md#consent-management).
 
-### Construção da jornada {#consent-journey}
+### Construir a jornada {#consent-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_canvas"
@@ -102,7 +102,7 @@ Você pode definir uma **Ação de marketing adicional** para definir o tipo de 
 
 ![](assets/consent3.png)
 
-Clique no botão **Atualizar políticas** na parte inferior da tela, para atualizar e verificar a lista de políticas consideradas para esta ação personalizada. Isso é somente para fins de informação, enquanto cria uma jornada. Com as jornadas ativas, as políticas de consentimento são recuperadas e atualizadas automaticamente a cada 6 horas.
+Clique no botão **Atualizar políticas** na parte inferior da tela, para atualizar e verificar a lista de políticas consideradas para esta ação personalizada. Isso é somente para fins informativos, enquanto constrói uma jornada. Com as jornadas ao vivo, as políticas de consentimento são recuperadas e atualizadas automaticamente a cada 6 horas.
 
 ![](assets/consent5.png)
 

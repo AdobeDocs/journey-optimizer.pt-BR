@@ -8,14 +8,14 @@ level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 6%
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
-# Excluir uma inserção {#delete-placement}
+# Excluir uma disposição {#delete-placement}
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma disposição. Somente as disposições criadas no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando a ID da instância da disposição que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (EXCLUIR) uma disposição. Somente as disposições criadas no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para a variável [!DNL Offer Library] API usando a ID da instância da disposição que você deseja excluir.
 
 **Formato da API**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Uma resposta bem-sucedida retorna o status HTTP 202 (Sem conteúdo) e um corpo em branco.
 
-É possível confirmar a exclusão tentando uma solicitação de pesquisa (GET) para a disposição. Você precisará incluir um cabeçalho Accept na solicitação, mas deve receber um status HTTP 404 (Not Found) porque a disposição foi removida do contêiner.
+Você pode confirmar a exclusão tentando uma solicitação de pesquisa (GET) para a disposição. Você precisará incluir um cabeçalho Accept na solicitação, mas deve receber um status HTTP 404 (Not Found) porque a disposição foi removida do contêiner.

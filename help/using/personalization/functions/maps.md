@@ -9,7 +9,7 @@ exl-id: de6a8da2-55cf-4105-ba93-40c556732626
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Use as funções de Mapa na personalização para facilitar a interação com mapas.
 
-## Obtenha{#get}
+## Get{#get}
 
 O `get` é usada para recuperar o valor de um mapa para uma determinada chave.
 

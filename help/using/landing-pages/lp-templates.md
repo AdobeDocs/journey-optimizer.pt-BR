@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Trabalhar com templates de landing page
-description: Saiba como salvar uma landing page como modelo e reutilizá-la no Journey Optimizer
+description: Saiba como salvar uma landing page como modelo e reutilizá-la no Journey Otimizer
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 4%
+source-wordcount: '178'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Depois de criar o [conteúdo da página de aterrissagem](lp-content.md), você p
 
 1. Clique nas reticências no canto superior direito da tela.
 
-1. Selecionar **[!UICONTROL Salvar modelo de design]** no menu suspenso.
+1. Selecionar **[!UICONTROL Save design template]** no menu suspenso.
 
    ![](assets/lp_designer-save-template.png)
 
@@ -31,7 +31,7 @@ Depois de criar o [conteúdo da página de aterrissagem](lp-content.md), você p
 
    ![](assets/lp_designer-template-name.png)
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Save]**.
 
 Na próxima vez que você criar uma landing page, poderá usar esse template para criar o conteúdo. Saiba como na [seção](#use-saved-template) abaixo.
 
@@ -41,7 +41,7 @@ Na próxima vez que você criar uma landing page, poderá usar esse template par
 
 1. Abra o [designer de conteúdo de página de aterrissagem](design-lp.md). A lista de todos os modelos salvos anteriormente é exibida.
 
-1. Você pode classificá-las **[!UICONTROL Por nome]**, **[!UICONTROL Última modificação]** e **[!UICONTROL Última criação]**.
+1. Você pode classificá-las **[!UICONTROL By name]**, **[!UICONTROL Last modified]** e **[!UICONTROL Last created]**.
 
    ![](assets/lp_designer-saved-templates.png)
 
@@ -51,7 +51,7 @@ Na próxima vez que você criar uma landing page, poderá usar esse template par
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. Clique em **[!UICONTROL Usar esta landing page]**.
+1. Clique em **[!UICONTROL Use this landing page]**.
 
 1. Edite seu conteúdo conforme desejado usando o designer de página de aterrissagem.
 

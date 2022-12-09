@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 3%
+source-wordcount: '489'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ O editor de expressão Avançado pode ser usado para criar condições para perm
 
 O editor de expressão avançado é obrigatório para executar consultas em séries de tempo, como uma lista de compras ou cliques anteriores em mensagens. Essas consultas não podem ser executadas usando o editor simples.
 
-Os eventos de experiência são recuperados do Adobe Experience Platform como uma coleção em ordem cronológica inversa, portanto:
+Os eventos de experiência são recuperados da Adobe Experience Platform como uma coleção em ordem cronológica inversa, portanto:
 
 * a primeira função retornará o evento mais recente
 * a última função retornará a mais antiga.
@@ -95,7 +95,7 @@ Essa expressão retorna um booleano.
                        .SKU}
    ```
 
-A partir daí, é possível adicionar outro caminho na jornada para quando o produto não estiver na loja e enviar uma notificação com a oferta de envolvimento. Configure as mensagens adequadamente e use dados de personalização para aprimorar o público-alvo da mensagem.
+A partir daí, você pode adicionar outro caminho em sua jornada para quando o produto não estiver na loja e enviar uma notificação com a oferta de envolvimento. Configure as mensagens adequadamente e use dados de personalização para aprimorar o público-alvo da mensagem.
 
 ## Exemplos de manipulações de sequência com o editor de expressão avançado
 
@@ -146,4 +146,4 @@ substr(
 
 Explicação: Esse exemplo usa `substr` e `lastIndexOf` para remover chaves que encerram a ID do CRM transmitida com um evento de inicialização de aplicativo móvel.
 
-Para obter mais informações sobre como usar o editor de expressão avançado, assista [este vídeo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=pt-BR).
+Para obter mais informações sobre como usar o editor de expressão avançado, assista [este vídeo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html).

@@ -9,13 +9,13 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 13%
+ht-degree: 0%
 
 ---
 
 # Criar uma decisão {#create-decision}
 
-Você pode criar uma decisão fazendo uma solicitação POST para a [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
+Você pode criar uma decisão fazendo uma solicitação POST para o [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
 
 ## Aceitar e digitar cabeçalhos de tipo de conteúdo {#accept-and-content-type-headers}
 
@@ -23,7 +23,7 @@ A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de c
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Aceitar | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Tipo de conteúdo | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
 
 **Formato da API**

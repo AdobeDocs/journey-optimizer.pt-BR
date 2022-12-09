@@ -9,7 +9,7 @@ exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Uma decisão contém a lógica que informa a seleção de uma oferta.
 
-É possível exibir uma lista de todas as decisões em um contêiner ao executar uma única solicitação de GET para a [!DNL Offer Library] API.
+Você pode exibir uma lista de todas as decisões em um contêiner executando uma única solicitação GET para o [!DNL Offer Library] API.
 
 **Formato da API**
 

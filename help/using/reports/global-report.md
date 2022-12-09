@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 5%
+source-wordcount: '1421'
+ht-degree: 0%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 5%
 >
 > Se consultas personalizadas forem realizadas por meio de APIs ao usar o serviço Query, espere algum atraso para seus relatórios.
 
-Use o **[!UICONTROL Relatório global]** para medir o impacto das jornadas e dos deliveries em um período selecionado.
+Use o **[!UICONTROL Global report]** para medir o impacto de suas jornadas e deliveries em um período selecionado.
 
-* Se desejar direcionar uma jornada ou deliveries no contexto de uma jornada, da **[!UICONTROL Jornada]** acesse a jornada e clique no menu **[!UICONTROL Exibir relatório]** botão. Em seguida, você pode encontrar os relatórios globais Jornada, Email, SMS e Push .
+* Se quiser direcionar uma jornada ou remessas no contexto de uma jornada, da **[!UICONTROL Journeys]** acesse sua jornada e clique no menu **[!UICONTROL View report]** botão. Em seguida, você pode encontrar os relatórios globais Journey, Email, SMS e Push .
 
    ![](assets/report_journey.png)
 
-* Se você deseja direcionar uma campanha, da **[!UICONTROL Campanhas]** acesse sua campanha e clique no menu **[!UICONTROL Relatórios]** botão.
+* Se você deseja direcionar uma campanha, da **[!UICONTROL Campaigns]** acesse sua campanha e clique no menu **[!UICONTROL Reports]** botão.
 
    ![](assets/report_campaign.png)
 
-* Se você quiser mudar do **[!UICONTROL Relatório ao vivo]** para **[!UICONTROL Relatório global]** para o delivery, clique em **[!UICONTROL Todo o tempo]** no alternador de guias.
+* Se você quiser mudar do **[!UICONTROL Live report]** para **[!UICONTROL Global report]** para o delivery, clique em **[!UICONTROL All time]** no alternador de guias.
 
    ![](assets/report_5.png)
 
-Para obter uma lista detalhada de todas as métricas disponíveis no Adobe Journey Optimizer, consulte [esta página](#list-of-components-global)
+Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Otimizer, consulte [esta página](#list-of-components-global)
 
 ## Personalizar painel {#modify-dashboard}
 
@@ -47,11 +47,11 @@ Cada painel de relatórios pode ser modificado alterando o período de tempo e r
 
 1. Escolha se deseja excluir eventos de teste de seus relatórios com a barra de alternância. Para obter mais informações sobre eventos de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-   Observe que a variável **[!UICONTROL Excluir eventos de teste]** só está disponível para relatórios de Jornada.
+   Observe que a variável **[!UICONTROL Exclude test events]** está disponível somente para relatórios de jornada.
 
    ![](assets/report_modify_2.png)
 
-1. Clique em **[!UICONTROL Modificar]** para começar a personalizar seu painel.
+1. Clique em **[!UICONTROL Modify]** para começar a personalizar seu painel.
 
    ![](assets/report_modify_3.png)
 
@@ -59,19 +59,19 @@ Cada painel de relatórios pode ser modificado alterando o período de tempo e r
 
    ![](assets/report_modify_4.png)
 
-1. Clique em **[!UICONTROL Remover]** para remover qualquer widget que você não precise.
+1. Clique em **[!UICONTROL Remove]** para remover qualquer widget que você não precise.
 
    ![](assets/report_modify_5.png)
 
-1. Quando estiver satisfeito com a ordem de exibição e o tamanho dos widgets, clique em **[!UICONTROL Salvar]**.
+1. Quando estiver satisfeito com a ordem de exibição e o tamanho dos widgets, clique em **[!UICONTROL Save]**.
 
-Seu painel agora é salvo. Suas diferentes alterações serão reaplicadas para um uso posterior dos seus relatórios ao vivo. Se necessário, use a **[!UICONTROL Redefinir]** para restaurar a ordem dos widgets e widgets padrão.
+Seu painel agora é salvo. Suas diferentes alterações serão reaplicadas para um uso posterior dos seus relatórios ao vivo. Se necessário, use a **[!UICONTROL Reset]** para restaurar a ordem dos widgets e widgets padrão.
 
 ## Lista de componentes {#list-of-components-global}
 
 As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas definições, dependendo do tipo de delivery.
 
-### Jornada métricas {#journey-metrics}
+### Métricas de jornada {#journey-metrics}
 
 <table> 
  <thead> 
@@ -119,7 +119,7 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
    <td> Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Taxa de rejeição <br/> </td> 
+   <td> Taxa de rejeição<br/> </td> 
    <td> Porcentagem de emails que retornaram em comparação aos emails enviados.<br/> </td> 
 </tr>
   <tr> 
@@ -127,7 +127,7 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
    <td> Número de vezes que um conteúdo foi clicado em um email.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Entregues <br/> </td> 
+   <td> Entregue <br/> </td> 
    <td> Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.<br/></td> 
 </tr> 
   <tr> 
@@ -144,7 +144,7 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
 </tr>
   <tr> 
    <td> Excluído<br/> </td> 
-   <td> Número de perfis que foram excluídos pelo Adobe Journey Optimizer.<br/> </td> 
+   <td> Número de perfis que foram excluídos pelo Adobe Journey Otimizer.<br/> </td> 
 </tr>
   <tr> 
    <td> Rejeição permanente<br/> </td> 
@@ -171,7 +171,7 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
    <td>Número total de envios para a oferta.<br/> </td> 
 </tr> 
   <tr>
-   <td>Aberturas<br/> </td> 
+   <td>Abre<br/> </td> 
    <td> Número de vezes que a mensagem foi aberta.<br/> </td> 
 </tr> 
   <tr> 
@@ -325,11 +325,11 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
    <td> Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Taxa de rejeição <br/> </td> 
+   <td> Taxa de rejeição<br/> </td> 
    <td> Porcentagem de notificações por push que rejeição em comparação às notificações por push enviadas.<br/> </td>
 </tr>
   <tr> 
-   <td> Entregues<br/> </td> 
+   <td> Entregue<br/> </td> 
    <td> Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.<br/> </td> 
 </tr> 
   <tr> 
@@ -354,10 +354,10 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
 </tr> 
   <tr> 
    <td> Excluído<br/> </td> 
-   <td> Número de perfis que foram excluídos pelo Adobe Journey Optimizer.<br/> </td> 
+   <td> Número de perfis que foram excluídos pelo Adobe Journey Otimizer.<br/> </td> 
 </tr>
   <tr> 
-   <td> Aberturas<br/> </td> 
+   <td> Abre<br/> </td> 
    <td> Número total de notificações por push enviadas ao dispositivo e clicadas pelos usuários, abrindo o aplicativo. Isso é semelhante ao Clique de push, exceto que a opção Abrir por push não será acionada se a notificação for descartada.<br/> </td> 
 </tr> 
   <tr> 
@@ -416,11 +416,11 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
 </tr>
  <tr> 
    <td>Outras fontes<br/> </td> 
-   <td>Número de visitas à sua página inicial provenientes de uma fonte externa em vez de uma jornada.<br/> </td> 
+   <td>Número de visitas à sua página de aterrissagem provenientes de uma fonte externa em vez de uma jornada.<br/> </td> 
 </tr>
  <tr> 
    <td>Total de visitas<br/> </td> 
-   <td> Número total de visitas à sua página inicial provenientes de jornadas e fontes externas, incluindo várias visitas de um recipient.<br/> </td> 
+   <td> Número total de visitas à sua página de aterrissagem provenientes de jornadas e fontes externas, incluindo várias visitas de um recipient.<br/> </td> 
 </tr>
  <tr> 
    <td>Visitantes únicos<br/> </td> 
@@ -452,11 +452,11 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
    <td> Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Taxa de rejeição <br/> </td> 
+   <td> Taxa de rejeição<br/> </td> 
    <td> Porcentagem de notificações por push que rejeição em comparação às notificações por push enviadas.<br/> </td>
 </tr>
   <tr> 
-   <td> Entregues<br/> </td> 
+   <td> Entregue<br/> </td> 
    <td> Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.<br/> </td> 
 </tr> 
   <tr> 
@@ -481,10 +481,10 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
 </tr> 
   <tr> 
    <td> Excluído<br/> </td> 
-   <td> Número de perfis que foram excluídos pelo Adobe Journey Optimizer.<br/> </td> 
+   <td> Número de perfis que foram excluídos pelo Adobe Journey Otimizer.<br/> </td> 
 </tr>
   <tr> 
-   <td> Aberturas<br/> </td> 
+   <td> Abre<br/> </td> 
    <td> Número total de notificações por push enviadas ao dispositivo e clicadas pelos usuários, abrindo o aplicativo. Isso é semelhante ao Clique de push, exceto que a opção Abrir por push não será acionada se a notificação for descartada.<br/> </td> 
 </tr> 
   <tr> 

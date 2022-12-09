@@ -1,5 +1,5 @@
 ---
-title: Criar uma inserção
+title: Criar uma disposição
 description: As disposições são contêineres usados para mostrar suas ofertas.
 feature: Offers
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
-# Criar uma inserção {#create-placement}
+# Criar uma disposição {#create-placement}
 
-Você pode criar uma disposição fazendo uma solicitação de POST para o [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
+Você pode criar uma disposição fazendo uma solicitação POST para o [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
 
 ## Aceitar e digitar cabeçalhos de tipo de conteúdo {#accept-and-content-type-headers}
 
@@ -23,7 +23,7 @@ A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de c
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Aceitar | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Tipo de conteúdo | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
 
 **Formato da API**

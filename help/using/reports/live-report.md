@@ -10,29 +10,29 @@ level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 6%
+source-wordcount: '987'
+ht-degree: 0%
 
 ---
 
-# Introdução aos relatórios em tempo real {#live-report}
+# Introdução ao Relatório ao vivo {#live-report}
 
-Use o **[!UICONTROL Relatório ao vivo]** para medir e visualizar em tempo real o impacto e o desempenho de suas jornadas e suas mensagens em um painel integrado.
-Os dados estão disponíveis na variável **[!UICONTROL Relatório ao vivo]** assim que seu delivery for enviado ou sua jornada for executada do **[!UICONTROL Últimas 24 horas]** guia .
+Use o **[!UICONTROL Live report]** para medir e visualizar em tempo real o impacto e o desempenho de suas jornadas e suas mensagens em um painel integrado.
+Os dados estão disponíveis na variável **[!UICONTROL Live report]** assim que seu delivery for enviado ou sua jornada for executada do **[!UICONTROL Last 24hrs]** guia .
 
-* Se desejar direcionar uma jornada no contexto de uma jornada, da **[!UICONTROL Jornada]** acesse a jornada e clique no menu **[!UICONTROL Exibir relatório]** botão.
+* Se você quiser direcionar uma jornada no contexto de uma jornada, da **[!UICONTROL Journeys]** acesse sua jornada e clique no menu **[!UICONTROL View report]** botão.
 
    ![](assets/report_journey.png)
 
-* Se você deseja direcionar uma campanha, da **[!UICONTROL Campanhas]** acesse sua campanha e clique no menu **[!UICONTROL Relatórios]** botão.
+* Se você deseja direcionar uma campanha, da **[!UICONTROL Campaigns]** acesse sua campanha e clique no menu **[!UICONTROL Reports]** botão.
 
    ![](assets/report_campaign.png)
 
-* Se você quiser mudar do **[!UICONTROL Relatório global]** para **[!UICONTROL Relatório ao vivo]** para o delivery, clique em **[!UICONTROL Últimas 24 horas]** no alternador de guias.
+* Se você quiser mudar do **[!UICONTROL Global report]** para **[!UICONTROL Live report]** para o delivery, clique em **[!UICONTROL Last 24hrs]** no alternador de guias.
 
    ![](assets/report_3.png)
 
-Para obter uma lista detalhada de todas as métricas disponíveis no Adobe Journey Optimizer, consulte [esta página](#list-of-components-live).
+Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Otimizer, consulte [esta página](#list-of-components-live).
 
 ## Personalizar painel {#modify-dashboard}
 
@@ -40,11 +40,11 @@ Cada painel de relatórios pode ser modificado redimensionando ou removendo widg
 
 1. Escolha se deseja excluir eventos de teste de seus relatórios com a barra de alternância. Para obter mais informações sobre eventos de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-   Observe que a variável **[!UICONTROL Excluir eventos de teste]** só está disponível para relatórios de Jornada.
+   Observe que a variável **[!UICONTROL Exclude test events]** está disponível somente para relatórios de jornada.
 
    ![](assets/report_modify_6.png)
 
-1. Para redimensionar ou remover widgets, clique em **[!UICONTROL Modificar]**.
+1. Para redimensionar ou remover widgets, clique em **[!UICONTROL Modify]**.
 
    ![](assets/report_modify_7.png)
 
@@ -52,19 +52,19 @@ Cada painel de relatórios pode ser modificado redimensionando ou removendo widg
 
    ![](assets/report_modify_8.png)
 
-1. Clique em **[!UICONTROL Remover]** para remover qualquer widget que você não precise.
+1. Clique em **[!UICONTROL Remove]** para remover qualquer widget que você não precise.
 
    ![](assets/report_modify_9.png)
 
-1. Quando estiver satisfeito com a ordem de exibição e o tamanho dos widgets, clique em **[!UICONTROL Salvar]**.
+1. Quando estiver satisfeito com a ordem de exibição e o tamanho dos widgets, clique em **[!UICONTROL Save]**.
 
-Seu painel agora é salvo. Suas diferentes alterações serão reaplicadas para um uso posterior dos seus relatórios ao vivo. Se necessário, use a **[!UICONTROL Redefinir]** para restaurar a ordem dos widgets e widgets padrão.
+Seu painel agora é salvo. Suas diferentes alterações serão reaplicadas para um uso posterior dos seus relatórios ao vivo. Se necessário, use a **[!UICONTROL Reset]** para restaurar a ordem dos widgets e widgets padrão.
 
 ## Lista de componentes {#list-of-components-live}
 
 As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas definições, dependendo do tipo de delivery.
 
-### Jornada métricas {#journey-metrics}
+### Métricas de jornada {#journey-metrics}
 
 <table> 
  <thead> 
@@ -112,7 +112,7 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
    <td> Total de erros acumulados durante o delivery e o processamento automático de retorno.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Taxa de rejeição <br/> </td> 
+   <td> Taxa de rejeição<br/> </td> 
    <td> Porcentagem de emails que retornaram em comparação aos emails enviados.<br/> </td> 
 </tr>
   <tr> 
@@ -120,7 +120,7 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
    <td> Número de vezes que um conteúdo foi clicado em um email.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Entregues <br/> </td> 
+   <td> Entregue <br/> </td> 
    <td> Número de mensagens enviadas com êxito.<br/></td> 
 </tr> 
   <tr> 
@@ -137,7 +137,7 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
 </tr>
   <tr> 
    <td> Excluído<br/> </td> 
-   <td> Número de perfis que foram excluídos pelo Adobe Journey Optimizer.<br/> </td> 
+   <td> Número de perfis que foram excluídos pelo Adobe Journey Otimizer.<br/> </td> 
 </tr>
   <tr> 
    <td> Rejeição permanente<br/> </td> 
@@ -164,7 +164,7 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
    <td>Número total de envios para a oferta.<br/> </td> 
 </tr> 
   <tr>
-   <td>Aberturas<br/> </td> 
+   <td>Abre<br/> </td> 
    <td> Número de vezes que a mensagem foi aberta.<br/> </td> 
 </tr> 
   <tr> 
@@ -243,11 +243,11 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
 </tr>
  <tr> 
    <td>Outras fontes<br/> </td> 
-   <td>Número de visitas à sua página inicial provenientes de uma fonte externa em vez de uma jornada.<br/> </td> 
+   <td>Número de visitas à sua página de aterrissagem provenientes de uma fonte externa em vez de uma jornada.<br/> </td> 
 </tr>
  <tr> 
    <td>Total de visitas<br/> </td> 
-   <td> Número total de visitas à sua página inicial provenientes de jornadas e fontes externas, incluindo várias visitas de um recipient.<br/> </td> 
+   <td> Número total de visitas à sua página de aterrissagem provenientes de jornadas e fontes externas, incluindo várias visitas de um recipient.<br/> </td> 
 </tr>
  <tr> 
    <td>Visitantes únicos<br/> </td> 
@@ -279,7 +279,7 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
    <td> Total de erros acumulados durante o delivery e o processamento automático de retorno.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Entregues<br/> </td> 
+   <td> Entregue<br/> </td> 
    <td> Número de mensagens enviadas com êxito.<br/> </td> 
 </tr> 
   <tr> 
@@ -292,10 +292,10 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
 </tr>
   <tr> 
    <td> Excluído<br/> </td> 
-   <td> Número de perfis que foram excluídos pelo Adobe Journey Optimizer.<br/> </td> 
+   <td> Número de perfis que foram excluídos pelo Adobe Journey Otimizer.<br/> </td> 
 </tr>
   <tr> 
-   <td> Aberturas<br/> </td> 
+   <td> Abre<br/> </td> 
    <td> Número total de notificações por push enviadas ao dispositivo e clicadas pelos usuários, abrindo o aplicativo. Isso é semelhante ao Clique de push, exceto que a opção Abrir por push não será acionada se a notificação for descartada.<br/> </td> 
 </tr> 
   <tr> 

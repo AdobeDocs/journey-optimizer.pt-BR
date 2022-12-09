@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 4%
+source-wordcount: '759'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Ele reúne endereços de email e domínios que são suprimidos em todas as corre
 
 >[!NOTE]
 >
->O Adobe mantém uma lista atualizada de endereços inválidos conhecidos que comprovadamente são prejudiciais ao engajamento e à reputação de endereçamento, e garante que os emails não sejam entregues a eles. Essa lista é gerenciada em uma lista de supressão global comum em todos os clientes do Adobe. Os endereços e os nomes de domínio contidos na lista de supressão global estão ocultos. Somente o número de recipients excluídos é indicado nos relatórios de delivery.
+>A Adobe mantém uma lista atualizada de endereços incorretos conhecidos que comprovadamente são prejudiciais ao engajamento e à reputação de endereçamento, e garante que os emails não sejam entregues a eles. Essa lista é gerenciada em uma lista de supressão global comum em todos os clientes da Adobe. Os endereços e os nomes de domínio contidos na lista de supressão global estão ocultos. Somente o número de recipients excluídos é indicado nos relatórios de delivery.
 
 ## Por que uma lista de supressão? {#why-suppression-list}
 
@@ -49,17 +49,17 @@ Saiba mais sobre devoluções permanentes e devoluções temporárias em [esta s
 
 >[!NOTE]
 >
->Os endereços de usuários sem assinatura não podem ser enviados para a lista de supressão, pois não estão recebendo emails de [!DNL Journey Optimizer]. A escolha é feita no nível do Experience Platform. Saiba mais sobre [opt out](../privacy/opt-out.md).
+>Os endereços de usuários sem assinatura não podem ser enviados para a lista de supressão, pois não estão recebendo emails de [!DNL Journey Optimizer]. Sua escolha é realizada no nível da Experience Platform. Saiba mais sobre [opt out](../privacy/opt-out.md).
 
 Para cada endereço, o motivo básico para a supressão e a categoria de supressão (macia, dura etc.) são exibidas na lista de supressão. Saiba mais sobre como acessar e gerenciar a lista de supressão em [esta seção](../configuration/manage-suppression-list.md).
 
 >[!NOTE]
 >
->Os perfis com **[!UICONTROL Suprimido]** são excluídos durante o processo de envio da mensagem. Portanto, enquanto a variável **Relatórios de Jornada** mostrará esses perfis como tendo sido movidos pela jornada ([Ler segmento](../building-journeys/read-segment.md) e [atividades de mensagem](../building-journeys/journeys-message.md)), **Relatórios de email** não os incluirá no **[!UICONTROL Enviado]** métricas como são filtradas antes do envio do email.
+>Os perfis com **[!UICONTROL Suppressed]** são excluídos durante o processo de envio da mensagem. Portanto, enquanto a variável **Relatórios de jornada** mostrará esses perfis como tendo se movido pela jornada ([Ler segmento](../building-journeys/read-segment.md) e [atividades de mensagem](../building-journeys/journeys-message.md)), **Relatórios de email** não os incluirá no **[!UICONTROL Sent]** métricas como são filtradas antes do envio do email.
 >
->Saiba mais sobre o [Relatório ao vivo](../reports/live-report.md) e [Relatório Global](../reports/global-report.md). Para descobrir o motivo de todos os casos de exclusão, é possível usar a variável [Serviço de query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>Saiba mais sobre o [Relatório ao vivo](../reports/live-report.md) e [Relatório Global](../reports/global-report.md). Para descobrir o motivo de todos os casos de exclusão, é possível usar a variável [Serviço de query da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
 
-### Falhas de entrega {#delivery-failures}
+### Falhas no delivery {#delivery-failures}
 
 Há dois tipos de erros quando um delivery falha:
 

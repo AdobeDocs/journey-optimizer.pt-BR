@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 5%
+source-wordcount: '958'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Para detectar possíveis erros no conteúdo do email ou nas configurações de p
 >
 >Você precisa ter perfis de teste disponíveis para pré-visualizar suas mensagens e enviar provas.
 >
->Saiba como criar perfis de teste [nesta página](../segment/creating-test-profiles.md).
+>Saiba como criar perfis de teste no [esta página](../segment/creating-test-profiles.md).
 
 Para testar seu conteúdo de email, é necessário:
 
@@ -34,11 +34,11 @@ Para testar seu conteúdo de email, é necessário:
 
 Você poderá [enviar provas](#send-proofs) aos seus perfis de teste.
 
-Além disso, use a conta do **Litmus** no [!DNL Journey Optimizer] para pré-visualizar instantaneamente a **renderização de email** em clientes de email populares. Em seguida, você pode melhorar seu conteúdo de email e garantir que ele e funcione corretamente em cada caixa de entrada. Saiba como desbloquear visualizações de email do Litmus em [esta seção](#email-rendering).
+Além disso, aproveite **Litmus** conta em [!DNL Journey Optimizer] para visualizar instantaneamente sua **renderização de email** em clientes de email populares. Em seguida, você pode garantir que seu conteúdo de email fique ótimo e funcione corretamente em cada caixa de entrada. Saiba como desbloquear visualizações de email do Litmus em [esta seção](#email-rendering).
 
 >[!CAUTION]
 >
->Ao visualizar uma mensagem ou enviar provas, somente os dados de personalização de perfil são exibidos. A personalização com base em dados de contexto, como informações de evento, só pode ser testada no contexto de uma jornada. Saiba como testar a personalização no [este caso de uso](../personalization/personalization-use-case.md).
+>Ao visualizar uma mensagem ou enviar provas, somente os dados de personalização de perfil são exibidos. A personalização com base em dados de contexto, como informações do evento, só pode ser testada no contexto de uma jornada. Saiba como testar a personalização no [este caso de uso](../personalization/personalization-use-case.md).
 
 ➡️ [Saiba como visualizar e provar seu email neste vídeo](#video-preview)
 
@@ -49,21 +49,21 @@ Além disso, use a conta do **Litmus** no [!DNL Journey Optimizer] para pré-vis
 >title="Visualizar e testar suas mensagens"
 >abstract="Após definir o conteúdo da mensagem, é possível usar perfis de teste para pré-visualizá-lo e testá-lo."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#email-rendering" text="Renderização de email"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#preview-email" text="Visualização"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#preview-email" text="Visualizar"
 
 Use [Testar perfis](../segment/creating-test-profiles.md) para direcionar recipients adicionais que não correspondem aos critérios de direcionamento definidos.
 
 Para selecionar perfis de teste, siga as etapas abaixo:
 
-1. No [Editar conteúdo](create-email.md#define-email-content) ou no Designer de email, clique no botão **[!UICONTROL Simular conteúdo]** para acessar a seleção de perfil de teste.
+1. No [Editar conteúdo](create-email.md#define-email-content) ou no Designer de email, clique no botão **[!UICONTROL Simulate content]** para acessar a seleção de perfil de teste.
 
    ![](assets/email-preview-button.png)
 
-1. Selecionar **[!UICONTROL Gerenciar perfis de teste]**.
+1. Selecionar **[!UICONTROL Manage test profiles]**.
 
    ![](assets/email-preview_manage-test-profiles.png)
 
-1. Selecione o namespace a ser usado para identificar perfis de teste clicando no botão **[!UICONTROL Namespace de identidade]** ícone de seleção.
+1. Selecione o namespace a ser usado para identificar perfis de teste clicando no botão **[!UICONTROL Identity namespace]** ícone de seleção.
 
    ![](assets/previewselect-namespace.png)
 
@@ -71,11 +71,11 @@ Para selecionar perfis de teste, siga as etapas abaixo:
 
    No exemplo abaixo, usaremos a variável **Email** namespace.
 
-1. Use o campo de pesquisa para localizar o namespace, selecione-o e clique em **[!UICONTROL Selecionar]**
+1. Use o campo de pesquisa para localizar o namespace, selecione-o e clique em **[!UICONTROL Select]**
 
    ![](assets/preview-email-namespace.png)
 
-1. No **[!UICONTROL Valor de identidade]** , insira o valor (aqui, o endereço de email) para identificar o perfil de teste e clique em **[!UICONTROL Adicionar perfil]**.
+1. No **[!UICONTROL Identity value]** , insira o valor (aqui, o endereço de email) para identificar o perfil de teste e clique em **[!UICONTROL Add profile]**.
 
    <!--![](assets/preview-identity-value.png)-->
 
@@ -89,7 +89,7 @@ Para selecionar perfis de teste, siga as etapas abaixo:
 
 Uma vez [perfis de teste](#select-test-profiles) forem selecionadas, você poderá visualizar seu conteúdo de email. Siga as etapas abaixo:
 
-1. No [Editar conteúdo](create-email.md#define-email-content) ou no Designer de email, clique no botão **[!UICONTROL Simular conteúdo]** botão.
+1. No [Editar conteúdo](create-email.md#define-email-content) ou no Designer de email, clique no botão **[!UICONTROL Simulate content]** botão.
 
 1. Selecione um perfil de teste. Você pode verificar os valores disponíveis nas colunas. Use as setas para a direita/esquerda para navegar pelos dados.
 
@@ -97,9 +97,9 @@ Uma vez [perfis de teste](#select-test-profiles) forem selecionadas, você poder
 
    >[!NOTE]
    >
-   >Para adicionar mais perfis de teste, selecione **[!UICONTROL Gerenciar perfis de teste]**. [Saiba mais](#select-test-profiles)
+   >Para adicionar mais perfis de teste, selecione **[!UICONTROL Manage test profiles]**. [Saiba mais](#select-test-profiles)
 
-1. Clique no botão **[!UICONTROL Selecionar dados]** ícone acima da lista para adicionar ou remover colunas.
+1. Clique no botão **[!UICONTROL Select data]** ícone acima da lista para adicionar ou remover colunas.
 
    ![](assets/preview-select-data.png)
 
@@ -119,11 +119,11 @@ Uma prova é uma mensagem específica que permite testar uma mensagem antes de e
 
 Uma vez [perfis de teste](#select-test-profiles) forem selecionadas, você poderá enviar provas.
 
-1. No **[!UICONTROL Simulate]** clique no botão **[!UICONTROL Enviar prova]** botão.
+1. No **[!UICONTROL Simulate]** clique no botão **[!UICONTROL Send proof]** botão.
 
    ![](assets/send-proof-button.png)
 
-1. No **[!UICONTROL Enviar prova]** , digite o email do destinatário e clique em **[!UICONTROL Adicionar]** para enviar a prova para você mesmo ou para membros de sua organização.
+1. No **[!UICONTROL Send proof]** , digite o email do destinatário e clique em **[!UICONTROL Add]** para enviar a prova para você mesmo ou para membros de sua organização.
 
    Observe que você pode adicionar até dez recipients para o delivery de prova.
 
@@ -135,11 +135,11 @@ Uma vez [perfis de teste](#select-test-profiles) forem selecionadas, você poder
 
 1. Você pode adicionar um prefixo à linha de assunto da prova, se necessário. Somente caracteres alfanuméricos e caracteres especiais, como . - _ ( ) [ ] são permitidos como prefixo na linha de assunto.
 
-1. Clique em **[!UICONTROL Enviar prova]**.
+1. Clique em **[!UICONTROL Send proof]**.
 
    ![](assets/send-proof-select.png)
 
-1. De volta ao  **[!UICONTROL Simulate]** clique no botão  **[!UICONTROL Exibir provas]** para verificar o status.
+1. De volta ao  **[!UICONTROL Simulate]** clique no botão  **[!UICONTROL View proofs]** para verificar o status.
 
    ![](assets/send-proof-view.png)
 
@@ -160,9 +160,9 @@ Para acessar os recursos de renderização de email, é necessário:
 
 Em seguida, siga as etapas abaixo:
 
-1. No [Editar conteúdo](create-email.md#define-email-content) ou no Designer de email, clique no botão **[!UICONTROL Simular conteúdo]** botão.
+1. No [Editar conteúdo](create-email.md#define-email-content) ou no Designer de email, clique no botão **[!UICONTROL Simulate content]** botão.
 
-1. Selecione o **[!UICONTROL Renderizar email]** botão.
+1. Selecione o **[!UICONTROL Render email]** botão.
 
    ![](assets/email-rendering-button.png)
 
@@ -182,7 +182,7 @@ Em seguida, siga as etapas abaixo:
 
 >[!CAUTION]
 >
->Ao conectar seu **Litmus** conta com [!DNL Journey Optimizer], você concorda que as mensagens de teste são enviadas ao Litmus: depois de enviados, esses emails não são mais gerenciados pelo Adobe. Como consequência, a política de email de retenção de dados Litmus se aplica a esses emails, incluindo dados de personalização que podem ser incluídos nessas mensagens de teste.
+>Ao conectar seu **Litmus** conta com [!DNL Journey Optimizer], você concorda que as mensagens de teste são enviadas ao Litmus: depois de enviados, esses emails não são mais gerenciados pela Adobe. Como consequência, a política de email de retenção de dados Litmus se aplica a esses emails, incluindo dados de personalização que podem ser incluídos nessas mensagens de teste.
 
 ## Vídeo tutorial {#video-preview}
 

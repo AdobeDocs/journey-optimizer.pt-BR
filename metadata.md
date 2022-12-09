@@ -9,29 +9,29 @@ feature-set: Journey Optimizer
 solution-title: Journey Optimizer Documentation
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 100%
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 
 
 # Metadados para uso interno
 
-O arquivo metadata.md inclui metadados de nível de repositório transmitidos para os arquivos TOC.md do guia do usuário no repositório. Se desejar alterar o conteúdo metadata.md para qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
+O arquivo metadata.md inclui metadados de nível de acordo de recompra que passam para os arquivos TOC.md do guia do usuário no acordo de recompra. Se quiser alterar o conteúdo metadata.md para qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
 
-| metadata | o que faz |
+| metadados | o que ele faz |
 |--- |--- |
-| solution-title | Usado no cabeçalho do artigo como link |
-| solution-hub-url | Abre a página helpx hub |
-| solution-icon | Exibe o ícone da solução próximo ao título da solução. Ainda não implementado |
-| getting-started-url | Link para a página de introdução ao helpx |
-| tutorials-url | Link para tutoriais em vídeo—tutoriais helpx ou tutoriais do KT |
-| mini-toc-levels | Determina o número de níveis de cabeçalho que aparecem no painel à direita. o padrão é 2 |
-| git-repo | Especifica o local do acordo principal para uso interno |
+| título da solução | Usado no cabeçalho do artigo como link |
+| url do hub da solução | Abre a página do hub helpx |
+| ícone da solução | Exibe o ícone da solução ao lado do título da solução. Ainda não implementado |
+| url de introdução | Link para a página de introdução ao helpx |
+| url de tutoriais | Link para tutoriais em vídeo — tutoriais do helpx ou tutoriais do KT |
+| níveis minitoc | Determina o número de níveis de cabeçalho exibidos no painel direito. o padrão é 2 |
+| git-repo | Especifica o local do acordo de recompra principal para uso interno |
 
 No arquivo TOC.md
 
-| metadados | o que faz |
+| metadados | o que ele faz |
 |--- |--- |
-| user-guide-title | Usado no cabeçalho do artigo como link |
-| user-guide-url | Abre a página helpx hub |
+| título do guia do usuário | Usado no cabeçalho do artigo como link |
+| url de guia do usuário | Abre a página do hub helpx |

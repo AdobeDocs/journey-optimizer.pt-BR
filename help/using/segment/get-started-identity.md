@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução às identidades no Journey Optimizer
-description: Saiba como gerenciar identidades no Adobe Journey Optimizer
+title: Introdução às identidades no Journey Otimizer
+description: Saiba como gerenciar identidades no Adobe Journey Otimizer
 feature: Profiles
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 9%
+source-wordcount: '332'
+ht-degree: 0%
 
 ---
 
@@ -24,13 +24,13 @@ Em [!DNL Adobe Journey Optimizer], **Identidades** vincular consumidores em disp
 
 ![](assets/identities-home.png)
 
-Saiba mais sobre **Serviço de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
+Saiba mais sobre **Serviço de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target=&quot;_blank&quot;}.
 
 ## Namespaces de identidade {#identity-namespaces}
 
-**** Os namespaces de identidade são um componente do Identity Service que serve como indicadores do contexto ao qual uma identidade está relacionada. Por exemplo, eles distinguem um valor de `name@email.com` como endereço de email ou `443522` como uma ID de CRM numérica. Trabalhar com namespaces de identidade requer uma compreensão dos vários serviços da Adobe Experience Platform envolvidos. Antes de começar a trabalhar com namespaces, reveja a documentação dos seguintes serviços:
+**Namespaces de identidade** são um componente do Serviço de identidade que serve como indicadores do contexto ao qual uma identidade está relacionada. Por exemplo, eles distinguem um valor de `name@email.com` como endereço de email ou `443522` como uma ID de CRM numérica. Trabalhar com namespaces de identidade requer uma compreensão dos vários serviços da Adobe Experience Platform envolvidos. Antes de começar a trabalhar com namespaces, reveja a documentação dos seguintes serviços:
 
-Saiba mais sobre **Namespaces de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=pt-BR){target=&quot;_blank&quot;}.
+Saiba mais sobre **Namespaces de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target=&quot;_blank&quot;}.
 
 ## Gráfico de identidade{#id-graph}
 

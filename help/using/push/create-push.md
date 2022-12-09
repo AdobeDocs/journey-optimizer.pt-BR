@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configurar uma notificação por push
-description: Saiba como criar uma notificação por push no Journey Optimizer
+description: Saiba como criar uma notificação por push no Journey Otimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 4%
+source-wordcount: '655'
+ht-degree: 0%
 
 ---
 
@@ -28,9 +28,9 @@ Para criar uma notificação por push, siga as etapas abaixo:
 
 >[!BEGINTABS]
 
->[!TAB Adicionar um push a uma Jornada]
+>[!TAB Adicionar um push a uma jornada]
 
-1. Abra a jornada e arraste e solte uma atividade de Push da seção Ações da paleta.
+1. Abra a jornada, em seguida, arraste e solte uma atividade de Push da seção Ações da paleta.
 
    ![](assets/push_create_1.png)
 
@@ -40,11 +40,11 @@ Para criar uma notificação por push, siga as etapas abaixo:
 
    >[!NOTE]
    >
-   >Se estiver enviando uma notificação por push de uma jornada, você pode aproveitar o recurso de Otimização de tempo de envio da Adobe Journey Optimizer para prever o melhor momento para enviar a mensagem para maximizar o envolvimento com base nas taxas de abertura e clique do histórico. [Saiba como trabalhar com a Otimização de tempo de envio](../building-journeys/journeys-message.md#send-time-optimization)
+   >Se estiver enviando uma notificação por push de uma jornada, você pode aproveitar o recurso de Otimização de tempo de envio do Adobe Journey Otimizer para prever o melhor momento para enviar a mensagem para maximizar o envolvimento com base nas taxas de abertura e clique do histórico. [Saiba como trabalhar com a Otimização de tempo de envio](../building-journeys/journeys-message.md#send-time-optimization)
 
    Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md)
 
-1. Na tela de configuração da jornada, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo de push. [Criar uma notificação por push](design-push.md)
+1. Na tela de configuração da jornada, clique no botão **[!UICONTROL Edit content]** para configurar o conteúdo de push. [Criar uma notificação por push](design-push.md)
 
 1. Após definir o conteúdo da mensagem, é possível usar perfis de teste para pré-visualizá-lo e testá-lo.
 
@@ -54,32 +54,32 @@ Para criar uma notificação por push, siga as etapas abaixo:
 
 >[!TAB Adicionar um push a uma campanha]
 
-1. Crie uma nova campanha agendada ou acionada por API, selecione **[!UICONTROL Notificação por push]** como sua ação e escolha o **[!UICONTROL Superfície do aplicativo]** para usar. [Saiba mais sobre a configuração de push](push-configuration.md).
+1. Crie uma nova campanha agendada ou acionada por API, selecione **[!UICONTROL Push notification]** como sua ação e escolha o **[!UICONTROL App surface]** para usar. [Saiba mais sobre a configuração de push](push-configuration.md).
 
    ![](assets/push_create_3.png)
 
-1. Clique em **[!UICONTROL Criar]**.
+1. Clique em **[!UICONTROL Create]**.
 
-1. No **[!UICONTROL Propriedades]** edite o **[!UICONTROL Título]** e **[!UICONTROL Descrição]**.
+1. No **[!UICONTROL Properties]** edite o **[!UICONTROL Title]** e **[!UICONTROL Description]**.
 
    ![](assets/push_create_4.png)
 
-1. Clique no botão **[!UICONTROL Seleção do público-alvo]** para definir o público-alvo a ser direcionado a partir da lista de segmentos disponíveis do Adobe Experience Platform. [Saiba mais](../segment/about-segments.md).
+1. Clique no botão **[!UICONTROL Select audience]** para definir o público-alvo a ser direcionado a partir da lista de segmentos disponíveis da Adobe Experience Platform. [Saiba mais](../segment/about-segments.md).
 
-1. No **[!UICONTROL Namespace de identidade]** , escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado. [Saiba mais](../event/about-creating.md#select-the-namespace).
+1. No **[!UICONTROL Identity namespace]** , escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado. [Saiba mais](../event/about-creating.md#select-the-namespace).
 
    ![](assets/push_create_5.png)
 
-1. As campanhas são projetadas para serem executadas em uma data específica ou em uma frequência recorrente. Saiba como configurar o **[!UICONTROL Agendar]** da sua campanha em [esta seção](../campaigns/create-campaign.md#schedule).
+1. As campanhas são projetadas para serem executadas em uma data específica ou em uma frequência recorrente. Saiba como configurar o **[!UICONTROL Schedule]** da sua campanha em [esta seção](../campaigns/create-campaign.md#schedule).
 
-1. No **[!UICONTROL Acionadores de ação]** escolha o **[!UICONTROL Frequência]** da sua notificação por push:
+1. No **[!UICONTROL Action triggers]** escolha o **[!UICONTROL Frequency]** da sua notificação por push:
 
    * Uma vez
    * Diariamente
    * Semanalmente
    * Mensalmente
 
-1. Na tela de configuração da campanha, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo de push. [Criar uma notificação por push](design-push.md)
+1. Na tela de configuração da campanha, clique no botão **[!UICONTROL Edit content]** para configurar o conteúdo de push. [Criar uma notificação por push](design-push.md)
 
 1. Após definir o conteúdo da mensagem, é possível usar perfis de teste para pré-visualizá-lo e testá-lo.
 
@@ -101,24 +101,24 @@ Para criar uma notificação por push, siga as etapas abaixo:
 >title="Modo de entrega rápida"
 >abstract="O modo de entrega rápida permite que você execute o envio de mensagens de alta velocidade no canal de push para um tamanho de público-alvo inferior a 30M."
 
-O modo de entrega rápida, anteriormente conhecido como modo Burst no jornada, é um [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens de push em grandes volumes por meio de campanhas.
+O modo de delivery rápido, anteriormente conhecido como modo Burst em jornadas, é um [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens de push em grandes volumes por meio de campanhas.
 
 A entrega rápida é usada quando o atraso na entrega de mensagens é essencial para os negócios, quando você deseja enviar um alerta por push urgente em telefones celulares, por exemplo, uma notícia de última hora para os usuários que instalaram seu aplicativo de canal de notícias.
 
-Para obter mais informações sobre desempenho ao usar o modo Rapid delivery, consulte [Descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
+Para obter mais informações sobre desempenho ao usar o modo Rapid delivery, consulte [Descrição do produto Adobe Journey Otimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
 
 ### Pré-requisitos {#prerequisites}
 
 As mensagens de delivery rápidas vêm com os seguintes requisitos:
 
-* A entrega rápida está disponível para **[!UICONTROL Programado]** somente campanhas e não está disponível para campanhas acionadas por API,
+* A entrega rápida está disponível para **[!UICONTROL Scheduled]** somente campanhas e não está disponível para campanhas acionadas por API,
 * Nenhuma personalização é permitida na mensagem de push,
 * O público-alvo deve conter menos de 30 M perfis,
 * Você pode executar até 5 campanhas simultaneamente usando o modo Rapid delivery .
 
 ### Ativar modo de entrega rápida
 
-1. Criar uma campanha de notificação por push e ativar **[!UICONTROL Entrega rápida]** opção.
+1. Criar uma campanha de notificação por push e ativar **[!UICONTROL Rapid delivery]** opção.
 
 ![](assets/create-campaign-burst.png)
 

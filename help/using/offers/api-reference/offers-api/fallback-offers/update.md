@@ -1,5 +1,5 @@
 ---
-title: Atualizar uma oferta substituta
+title: Atualizar uma oferta de fallback
 description: Uma oferta de fallback é enviada para os clientes se eles não estiverem qualificados para outras ofertas
 feature: Offers
 topic: Integrations
@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 11%
+source-wordcount: '168'
+ht-degree: 0%
 
 ---
 
-# Atualizar uma oferta substituta {#update-fallback-offer}
+# Atualizar uma oferta de fallback {#update-fallback-offer}
 
-Você pode modificar ou atualizar uma oferta de fallback em seu contêiner fazendo uma solicitação de PATCH para a [!DNL Offer Library] API.
+Você pode modificar ou atualizar uma oferta de fallback em seu contêiner fazendo uma solicitação PATCH para o [!DNL Offer Library] API.
 
 Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação do patch JSON](http://jsonpatch.com/).
 
@@ -25,7 +25,7 @@ A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de c
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Aceitar | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Tipo de conteúdo | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
 
 **Formato da API**

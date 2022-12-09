@@ -1,5 +1,5 @@
 ---
-title: Excluir uma oferta substituta
+title: Excluir uma oferta de fallback
 description: Uma oferta de fallback é enviada para os clientes se eles não estiverem qualificados para outras ofertas
 feature: Offers
 topic: Integrations
@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 9%
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
-# Excluir uma oferta substituta {#delete-fallback-offer}
+# Excluir uma oferta de fallback {#delete-fallback-offer}
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma oferta de fallback. Somente as ofertas de fallback que você criar no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando o $id da oferta de fallback que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (EXCLUIR) uma oferta de fallback. Somente as ofertas de fallback que você criar no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para a variável [!DNL Offer Library] API usando o $id da oferta de fallback que você deseja excluir.
 
 **Formato da API**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Uma resposta bem-sucedida retorna o status HTTP 202 (Sem conteúdo) e um corpo em branco.
 
-É possível confirmar a exclusão tentando uma solicitação de pesquisa (GET) para a oferta de fallback. Você precisará incluir um cabeçalho Accept na solicitação, mas deve receber um status HTTP 404 (Not Found) porque a oferta de fallback foi removida do contêiner.
+Você pode confirmar a exclusão tentando uma solicitação de pesquisa (GET) para a oferta de fallback. Você precisará incluir um cabeçalho Accept na solicitação, mas deve receber um status HTTP 404 (Not Found) porque a oferta de fallback foi removida do contêiner.

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 8%
+source-wordcount: '1396'
+ht-degree: 0%
 
 ---
 
@@ -37,39 +37,39 @@ Esses tipos de condições estão disponíveis:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
 >title="Sobre o editor de expressões simples"
->abstract="O modo editor de expressão simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível."
+>abstract="O modo editor de expressão simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Em seguida, você pode selecionar um operador lógico para combinar elementos no mesmo nível."
 
 Ao usar várias condições em uma jornada, você pode definir rótulos para cada uma delas para identificá-las mais facilmente.
 
-Clique em **[!UICONTROL Adicionar um caminho]** se desejar definir várias condições. Para cada condição, um novo caminho é adicionado na tela após a atividade .
+Clique em **[!UICONTROL Add a path]** se desejar definir várias condições. Para cada condição, um novo caminho é adicionado na tela após a atividade .
 
 ![](assets/journey47.png)
 
 Observe que o design das jornadas tem impactos funcionais. Quando vários caminhos são definidos após uma condição, somente o primeiro caminho elegível é executado. Isso significa que você pode variar a priorização de caminhos, colocando-os acima ou abaixo uns dos outros.
 
-Por exemplo, vamos considerar o exemplo de uma condição de primeiro caminho &quot;A pessoa é um VIP&quot; e uma condição de segundo caminho &quot;A pessoa é um homem&quot;. Se uma pessoa que cumpre ambas as condições (um homem que é um VIP) passar por esta etapa, o primeiro caminho será escolhido mesmo que essa pessoa também seja elegível para a segunda, porque o primeiro caminho está &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades para outra ordem vertical.
+Por exemplo, vamos considerar o exemplo de uma condição de primeiro caminho &quot;A pessoa é um VIP&quot; e uma condição de segundo caminho &quot;A pessoa é um homem&quot;. Se uma pessoa que cumpre ambas as condições (um homem que é um VIP) passar esta etapa, o primeiro caminho será escolhido mesmo que essa pessoa também seja elegível para o segundo, porque o primeiro caminho está &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades para outra ordem vertical.
 
 ![](assets/journey48.png)
 
-Você pode criar outro caminho para públicos-alvo que não estejam qualificados para as condições definidas ao verificar **[!UICONTROL Mostrar caminho para outros casos além do acima]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão de porcentagem](#percentage_split).
+Você pode criar outro caminho para públicos-alvo que não estejam qualificados para as condições definidas ao verificar **[!UICONTROL Show path for other cases than the one(s) above]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão de porcentagem](#percentage_split).
 
-O modo simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
+O modo simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Em seguida, você pode selecionar um operador lógico para combinar elementos no mesmo nível:
 
 * E: uma interseção de dois critérios. Somente os elementos que correspondem a todos os critérios são considerados.
-* OU: uma união de dois critérios. Os elementos correspondentes a pelo menos um dos critérios são considerados.
+* OU: uma união de dois critérios. Os elementos correspondentes a pelo menos um dos dois critérios são considerados.
 
 ![](assets/journey64.png)
 
-Se estiver usando o [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;} para criar seus segmentos, você pode aproveitá-los em suas condições de jornada. Consulte [Uso de segmentos em condições](../building-journeys/condition-activity.md#using-a-segment).
+Se estiver usando o [Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;} para criar seus segmentos, você pode aproveitá-los em suas condições de jornada. Consulte [Uso de segmentos em condições](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
 >
 >Não é possível executar consultas em séries de tempo (por exemplo, uma lista de compras, cliques anteriores em mensagens) com o editor simples. Para isso, será necessário usar o editor avançado. Consulte [esta página](expression/expressionadvanced.md).
 
-A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcando a caixa **[!UICONTROL Adicione um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
+Quando ocorre um erro em uma ação ou condição, a jornada de um indivíduo para. A única maneira de fazê-lo continuar é marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
-No editor simples, você também encontrará a categoria Propriedades da Jornada, abaixo das categorias de evento e fonte de dados. Esta categoria contém campos técnicos relacionados à jornada de um determinado perfil. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados. [Saiba mais](expression/journey-properties.md)
+No editor simples, você também encontrará a categoria Propriedades da jornada, abaixo das categorias de evento e fonte de dados. Esta categoria contém campos técnicos relacionados à jornada de um determinado perfil. Essas são as informações recuperadas pelo sistema a partir de jornadas ao vivo, como a ID da jornada ou os erros específicos encontrados. [Saiba mais](expression/journey-properties.md)
 
 ## Condição da fonte de dados {#data_source_condition}
 
@@ -119,7 +119,7 @@ Isso permite definir um fluxo diferente com base na data. Por exemplo, se a pess
 
 ## Tampa do perfil {#profile_cap}
 
-Use esse tipo de condição para definir um número máximo de perfis para um caminho de jornada. Quando esse limite é atingido, os perfis que entram pegam um caminho alternativo. Isso garante que suas jornadas nunca excedam o limite definido.
+Use esse tipo de condição para definir um número máximo de perfis para um caminho de jornada. Quando esse limite é atingido, os perfis de entrada assumem um caminho alternativo. Isso garante que suas jornadas nunca excedam o limite definido.
 
 >[!NOTE]
 >
@@ -129,11 +129,11 @@ Você pode usar esse tipo de condição para aumentar o volume de seus deliverie
 
 O limite padrão é 1000.
 
-O contador se aplica somente à versão do jornada selecionada. O contador é redefinido para zero após um mês. Após uma redefinição, os perfis de entrada seguem o caminho nominal novamente até que o limite do contador seja atingido.
+O contador se aplica somente à versão da jornada selecionada. O contador é redefinido para zero após um mês. Após uma redefinição, os perfis de entrada seguem o caminho nominal novamente até que o limite do contador seja atingido.
 
-O caminho nominal sempre tem prioridade sobre o caminho alternativo, mesmo se você mover o caminho alternativo acima do caminho nominal na tela de jornada.
+O caminho nominal sempre tem prioridade sobre o caminho alternativo, mesmo se você mover o caminho alternativo acima do caminho nominal na tela da jornada.
 
-Para jornadas ao vivo, aqui estão os limites a serem considerados para garantir que o limite seja atingido:
+Para jornadas ao vivo, aqui estão os limiares a serem considerados para garantir que o limite seja atingido:
 
 * Para uma tampa superior a 10000, o número de perfis distintos a injetar deve ser, pelo menos, 1,3 vezes a tampa.
 * Para uma tampa inferior a 10000, o número de perfis distintos a injetar deve ser 1000 mais a tampa.
@@ -148,14 +148,14 @@ Esta seção explica como usar um segmento em uma condição de jornada. Para ob
 
 Para usar um segmento em uma condição de jornada, siga estas etapas:
 
-1. Abra uma jornada, solte uma **[!UICONTROL Condição]** e escolha a **Condição da fonte de dados**.
+1. Abra uma jornada, solte uma **[!UICONTROL Condition]** e escolha a **Condição da fonte de dados**.
    ![](assets/journey47.png)
 
-1. Clique em **[!UICONTROL Adicionar um caminho]** para cada caminho extra necessário. Para cada caminho, clique no botão **[!UICONTROL Expressão]** campo.
+1. Clique em **[!UICONTROL Add a path]** para cada caminho extra necessário. Para cada caminho, clique no botão **[!UICONTROL Expression]** campo.
 
    ![](assets/segment3.png)
 
-1. No lado esquerdo, expanda-se **[!UICONTROL Segmentos]** nó . Arraste e solte o segmento que deseja usar para sua condição. Por padrão, a condição no segmento é verdadeira.
+1. No lado esquerdo, expanda-se **[!UICONTROL Segments]** nó . Arraste e solte o segmento que deseja usar para sua condição. Por padrão, a condição no segmento é verdadeira.
 
    ![](assets/segment4.png)
 

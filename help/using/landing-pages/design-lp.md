@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Projetar uma página de aterrissagem
-description: Saiba como criar o conteúdo de uma landing page no Journey Optimizer
+title: Criar uma landing page
+description: Saiba como criar o conteúdo de uma landing page no Journey Otimizer
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -10,20 +10,20 @@ level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 3%
+source-wordcount: '153'
+ht-degree: 0%
 
 ---
 
 # Criar o conteúdo da página de aterrissagem {#design-lp}
 
-Para começar a criar conteúdo para sua página inicial [página primária](create-lp.md#configure-primary-page) ou [subpágina](create-lp.md#configure-subpages), passe o mouse sobre o conteúdo da página e clique em **[!UICONTROL Abrir Designer]**. Você também pode clicar no botão correspondente da paleta direita.
+Para começar a criar conteúdo para sua página inicial [página primária](create-lp.md#configure-primary-page) ou [subpágina](create-lp.md#configure-subpages), passe o mouse sobre o conteúdo da página e clique em **[!UICONTROL Open Designer]**. Você também pode clicar no botão correspondente da paleta direita.
 
 ![](assets/lp_open-designer.png)
 
 A partir daí, é possível:
 
-* **Projetar a landing page do zero** por meio da interface do designer de conteúdo e aproveite imagens de [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). Saiba como criar seu conteúdo <!--or use built-in templates--> [nesta seção](../email/content-from-scratch.md).
+* **Projetar a landing page do zero** por meio da interface do designer de conteúdo e aproveite imagens de [Fundamentos dos ativos do Adobe Experience Manager](../email/assets-essentials.md). Saiba como criar seu conteúdo <!--or use built-in templates--> [nesta seção](../email/content-from-scratch.md).
 
 * **Código ou cole HTML bruto** diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../email/code-content.md).
 

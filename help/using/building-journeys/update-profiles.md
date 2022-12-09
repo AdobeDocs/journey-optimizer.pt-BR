@@ -20,13 +20,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="Atividade Atualizar perfil"
->abstract="A atividade de ação Atualizar perfil permite atualizar um perfil do Adobe Experience Platform existente com informações provenientes do evento, fonte de dados ou usando um valor específico."
+>abstract="A atividade de ação Atualizar perfil permite atualizar um perfil existente da Adobe Experience Platform com informações provenientes do evento, uma fonte de dados ou usando um valor específico."
 
-Use o **[!UICONTROL Atualizar perfil]** atividade de ação para atualizar um perfil do Adobe Experience Platform existente com informações provenientes de um evento, uma fonte de dados ou com um valor específico.
+Use o **[!UICONTROL Update Profile]** atividade de ação para atualizar um perfil existente da Adobe Experience Platform com informações provenientes de um evento, uma fonte de dados ou com um valor específico.
 
 ## Recomendações
 
-* O **Atualizar perfil** só pode ser usada em jornadas que iniciam com um evento que tenha um namespace.
+* O **Atualizar perfil** só pode ser usada em jornadas que comecem com um evento que tenha um namespace.
 * A ação atualiza apenas os campos existentes, mas não cria novos campos de perfil.
 * Não é possível usar a variável **Atualizar perfil** para gerar eventos de experiência, por exemplo, uma compra.
 * Assim como qualquer outra ação, você pode definir um caminho alternativo em caso de erro ou tempo limite e não pode colocar duas ações em paralelo.
@@ -35,7 +35,7 @@ Use o **[!UICONTROL Atualizar perfil]** atividade de ação para atualizar um pe
 
 ## Usar a atualização de perfil
 
-1. Crie a jornada começando com um evento. Veja isso [seção](../building-journeys/journey.md).
+1. Projete sua jornada começando com um evento. Veja isso [seção](../building-journeys/journey.md).
 
 1. No **Ação** da paleta, solte a guia **Atualizar perfil** atividade na tela.
 
@@ -72,6 +72,6 @@ O **Atualizar perfil** agora está configurado.
 
 No modo de teste, a atualização do perfil não será simulada. A atualização será executada no perfil de teste.
 
-Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. No Adobe Experience Platform, é possível atualizar os atributos de perfil por meio de uma importação de arquivo csv ou chamadas de API. Um método mais simples é usar um **Atualizar perfil** atividade de ação e altere o campo booleano do perfil de teste de false para true.
+Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. Na Adobe Experience Platform, você pode atualizar atributos de perfil por meio de uma importação de arquivo csv ou chamadas de API. Um método mais simples é usar um **Atualizar perfil** atividade de ação e altere o campo booleano do perfil de teste de false para true.
 
 Para obter mais informações sobre como transformar um perfil existente em um perfil de teste, consulte esta seção [seção](../segment/creating-test-profiles.md#create-test-profiles-csv).

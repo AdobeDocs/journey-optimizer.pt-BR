@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 3%
+source-wordcount: '163'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,9 @@ Nesse ponto, você deve ter:
 * definiu qual tipo de evento você deseja capturar - oferta exibida (impressão) e/ou oferta clicada (conversão),
 * e em qual conjunto de dados você deseja coletar os dados do evento.
 
-Agora, cada vez que uma oferta é exibida e/ou clicada, você deseja que o evento correspondente seja capturado automaticamente pela variável **[!UICONTROL Evento de experiência - Interações de proposta]** grupo de campos que usa a variável [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} ou SDK do Mobile.
+Agora, cada vez que uma oferta é exibida e/ou clicada, você deseja que o evento correspondente seja capturado automaticamente pela variável **[!UICONTROL Experience Event - Proposition Interactions]** grupo de campos que usa a variável [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} ou SDK do Mobile.
 
-Para poder enviar tipos de evento (oferta exibida ou oferta clicada), você deve definir o valor correto para cada tipo de evento em um evento de experiência enviado para o Adobe Experience Platform. Abaixo estão os requisitos de esquema que você precisa implementar no código JavaScript:
+Para poder enviar tipos de evento (oferta exibida ou oferta clicada), você deve definir o valor correto para cada tipo de evento em um evento de experiência enviado para a Adobe Experience Platform. Abaixo estão os requisitos de esquema que você precisa implementar no código JavaScript:
 
 ## Cenário exibido da oferta
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 20%
+source-wordcount: '94'
+ht-degree: 0%
 
 ---
 
@@ -29,15 +29,15 @@ Lista
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| listar | listString |
-| listar | listBoolean |
-| listar | listInteger |
-| listar | listDecimal |
-| listar | listDuration |
-| listar | listDateTime |
-| listar | listDateTimeOnly |
-| listar | listDateOnly |
-| índice | integer |
+| lista | listString |
+| lista | listBoolean |
+| lista | listInteger |
+| lista | listDecimal |
+| lista | listDuration |
+| lista | listDateTime |
+| lista | listDateTimeOnly |
+| lista | listDateOnly |
+| index | integer |
 
 ## Assinaturas e tipo retornado
 

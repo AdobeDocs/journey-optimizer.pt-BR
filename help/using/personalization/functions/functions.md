@@ -1,6 +1,6 @@
 ---
 title: Introdução às funções do Helper
-description: Biblioteca de funções do Journey Optimizer Helper
+description: Biblioteca de funções do Auxiliar do Journey Otimizer
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 3%
+source-wordcount: '1744'
+ht-degree: 0%
 
 ---
 
@@ -85,7 +85,7 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="arrays-list.md#subset">Subconjunto de</a></td><td>Essa função determina se uma matriz específica (matriz A) é um subconjunto de outra matriz (matriz B), ou seja, se todos os elementos na matriz A são elementos da matriz B</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#sum">Sum</a></td><td>Essa função retorna a soma de todos os valores selecionados na matriz</td>
+        <td><a href="aggregation.md#sum">Soma</a></td><td>Essa função retorna a soma de todos os valores selecionados na matriz</td>
     </tr>
     <tr>
     <td><a href="arrays-list.md#superset">Superconjunto de</a></td><td>Essa função determina se uma matriz específica (matriz A) é um superconjunto de outra matriz (matriz B), ou seja, se essa matriz A contém todos os elementos na matriz B</td>
@@ -132,7 +132,7 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
 
 <table>
     <tr>
-        <td><a href="maps.md#get">Obtenha</a></td><td>Essa função é usada para recuperar o valor de um mapa para uma determinada chave</td>
+        <td><a href="maps.md#get">Get</a></td><td>Essa função é usada para recuperar o valor de um mapa para uma determinada chave</td>
     </tr>
     <tr>
         <td><a href="maps.md#keys">Teclas</a></td><td>Essa função é usada para recuperar todas as chaves de um determinado mapa</td>
@@ -146,7 +146,7 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
 
 <table>
     <tr>
-        <td><a href="objects.md#absolute">Absoluto   </a></td><td>Essa função converte um número em seu valor absoluto</td>
+        <td><a href="objects.md#absolute">Absoluto</a></td><td>Essa função converte um número em seu valor absoluto</td>
     </tr>
     <tr>
         <td><a href="objects.md#random">Random</a></td><td>Essa função retorna um valor aleatório entre 0 e 1</td>
@@ -186,7 +186,7 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#concat">Concat</a></td><td>Essa função é usada para combinar duas strings em uma</td>
     </tr>
     <tr>
-        <td><a href="string.md#contains">Contains</a></td><td>Essa função é usada para determinar se uma string contém uma substring especificada</td>
+        <td><a href="string.md#contains">Contém</a></td><td>Essa função é usada para determinar se uma string contém uma substring especificada</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotContain">Não contém</a></td><td>Essa função é usada para determinar se uma string não contém uma substring especificada</td>
@@ -195,7 +195,7 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#doesNotEndWith">Não termina com</a></td><td>Essa função é usada para determinar se uma string não termina com uma substring especificada</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotStartWith">Does not start with</a></td><td>Essa função é usada para determinar se uma string não inicia com uma substring especificada</td>
+        <td><a href="string.md#doesNotStartWith">Não inicia com</a></td><td>Essa função é usada para determinar se uma string não inicia com uma substring especificada</td>
     </tr>
     <tr>
         <td><a href="string.md#encode64">Codificação 64</a></td><td>Essa função é usada para codificar ou decodificar uma string</td>
@@ -205,7 +205,7 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
     </tr>
         </tr>
     <tr>
-        <td><a href="string.md#equals">Igual a</a></td><td>Essa função é usada para determinar se uma string não inicia com uma substring especificada, com diferenciação entre maiúsculas e minúsculas</td>
+        <td><a href="string.md#equals">Igual</a></td><td>Essa função é usada para determinar se uma string não inicia com uma substring especificada, com diferenciação entre maiúsculas e minúsculas</td>
     </tr>
     <tr>
         <td><a href="string.md#equalsIgnoreCase">Igual a Ignorar Maiúsculas e Minúsculas</a></td><td>Essa função é usada para determinar se uma string não inicia com uma substring especificada, sem diferenciação entre maiúsculas e minúsculas</td>
@@ -238,7 +238,7 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#leftTrim">Aparar à esquerda</a></td><td>Essa função remove espaços em branco do início de uma string</td>
     </tr>
     <tr>
-        <td><a href="string.md#length">Comprimento</a></td><td>Essa função é usada para obter o número de caracteres em uma string ou expressão</td>
+        <td><a href="string.md#length">Length</a></td><td>Essa função é usada para obter o número de caracteres em uma string ou expressão</td>
     </tr>
     <tr>
         <td><a href="string.md#like">Like</a></td><td>Essa função é usada para determinar se uma string corresponde a um padrão especificado</td>
@@ -274,7 +274,7 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#rightTrim">Aparar à direita</a></td><td>Essa função remove espaços em branco do final de uma string </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">Dividir</a></td><td>Essa função é usada para dividir uma string por um determinado caractere</td>
+        <td><a href="string.md#split">Split</a></td><td>Essa função é usada para dividir uma string por um determinado caractere</td>
     </tr>
     <tr>
         <td><a href="string.md#startsWith">Começa com</a></td><td>Essa função é usada para determinar se uma string começa com uma substring especificada</td>
@@ -318,7 +318,7 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
 </table>
 
 
-## Auxiliares{#helper-helper}
+## Ajudantes{#helper-helper}
 
 Os assistentes estão detalhados em [esta página](helpers.md).
 
@@ -331,7 +331,7 @@ Os assistentes estão detalhados em [esta página](helpers.md).
         <td><a href="helpers.md#each">Cada</a></td><td>Essa função é usada para iterar sobre uma matriz</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#if-function">Se</a></td><td>Essa função é usada para definir um bloco condicional - se a avaliação da expressão retornar true, o bloco será renderizado</td>
+        <td><a href="helpers.md#if-function">If</a></td><td>Essa função é usada para definir um bloco condicional - se a avaliação da expressão retornar true, o bloco será renderizado</td>
     </tr>
     <tr>
         <td><a href="helpers.md#let">Let</a></td><td>Essa função permite que uma expressão seja armazenada como uma variável para ser usada posteriormente em uma query</td>
@@ -389,10 +389,10 @@ As funções de comparação são usadas para comparar diferentes expressões e 
 
 <table>
     <tr>
-        <td><a href="operators.md#equals">Igual a</a></td><td>Esta operação verifica se os valores são iguais</td>
+        <td><a href="operators.md#equals">Igual</a></td><td>Esta operação verifica se os valores são iguais</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthan">Greater than</a></td><td>Esse operador verifica se o primeiro valor é maior que o segundo</td>
+        <td><a href="operators.md#greaterthan">Maior que</a></td><td>Esse operador verifica se o primeiro valor é maior que o segundo</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthanorequal">Maior ou igual a</a></td><td>Esse operador verifica se o primeiro valor é maior ou igual ao segundo valor</td>
@@ -407,6 +407,6 @@ As funções de comparação são usadas para comparar diferentes expressões e 
 
 ## Vídeo tutorial{#video}
 
-Saiba como transformar valores de personalização usando funções de ajuda de personalização e entenda diferentes casos de uso para funções de ajuda.
+Saiba como transformar valores de personalização usando funções de ajuda de personalização e entender casos de uso diferentes para funções de ajuda.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

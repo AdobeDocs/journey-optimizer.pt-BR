@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Sobre schemas ExperienceEvent para eventos jornada
+title: Sobre schemas ExperienceEvent para eventos de jornada
 description: Saiba mais sobre Esquemas ExperienceEvent para eventos de jornada
 feature: Schemas
 topic: Administration
@@ -10,20 +10,20 @@ level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 4%
+source-wordcount: '762'
+ht-degree: 0%
 
 ---
 
 # Sobre schemas ExperienceEvent para [!DNL Journey Optimizer] Eventos {#about-experienceevent-schemas}
 
-[!DNL Journey Optimizer] são Eventos de experiência XDM enviados para a Adobe Experience Platform por assimilação de fluxo.
+[!DNL Journey Optimizer] são Eventos de experiência XDM enviados para a Adobe Experience Platform por meio da assimilação de fluxo.
 
-Dessa forma, um pré-requisito importante para configurar eventos para [!DNL Journey Optimizer] O é que você está familiarizado com o Experience Data Model (ou XDM) da Adobe Experience Platform e como compor schemas de evento de experiência XDM, bem como como fazer o stream de dados formatados em XDM para o Adobe Experience Platform.
+Dessa forma, um pré-requisito importante para configurar eventos para [!DNL Journey Optimizer] O é que você está familiarizado com o Experience Data Model (ou XDM) da Adobe Experience Platform e como compor schemas de evento de experiência XDM, bem como como fazer o stream de dados formatados em XDM para a Adobe Experience Platform.
 
 ## Requisitos de esquema para [!DNL Journey Optimizer] Eventos  {#schema-requirements}
 
-A primeira etapa na configuração de um evento para [!DNL Journey Optimizer] O é garantir que você tenha um esquema XDM definido para representar o evento e um conjunto de dados criado para registrar instâncias do evento no Adobe Experience Platform. Ter um conjunto de dados para seus eventos não é estritamente necessário, mas enviar os eventos para um conjunto de dados específico permitirá manter o histórico de eventos dos usuários para referência e análise futuras, portanto, é sempre uma boa ideia. Se você ainda não tiver um esquema e conjunto de dados adequados para o evento, ambas as tarefas podem ser realizadas na interface da Web do Adobe Experience Platform.
+A primeira etapa na configuração de um evento para [!DNL Journey Optimizer] O é garantir que você tenha um esquema XDM definido para representar o evento e um conjunto de dados criado para registrar instâncias do evento na Adobe Experience Platform. Ter um conjunto de dados para seus eventos não é estritamente necessário, mas enviar os eventos para um conjunto de dados específico permitirá manter o histórico de eventos dos usuários para referência e análise futuras, portanto, é sempre uma boa ideia. Se ainda não tiver um esquema e conjunto de dados adequados para o evento, ambas as tarefas podem ser realizadas na interface da Web da Adobe Experience Platform.
 
 ![](assets/schema1.png)
 
@@ -41,7 +41,7 @@ Qualquer esquema XDM que será usado para [!DNL Journey Optimizer] Os eventos de
 
    ![](assets/schema4.png)
 
-* Se desejar que esses dados estejam disponíveis para pesquisa posteriormente em uma Jornada, marque o esquema e o conjunto de dados para o perfil.
+* Se desejar que esses dados estejam disponíveis para pesquisa posteriormente em uma jornada, marque o esquema e o conjunto de dados para o perfil.
 
    ![](assets/schema5.png)
 
@@ -53,7 +53,7 @@ Qualquer esquema XDM que será usado para [!DNL Journey Optimizer] Os eventos de
 
    ![](assets/schema8.png)
 
-## Aproveitar relacionamentos de esquema{#leverage_schema_relationships}
+## Aproveitar relacionamentos de schema{#leverage_schema_relationships}
 
 A Adobe Experience Platform permite definir relações entre esquemas para usar um conjunto de dados como uma tabela de pesquisa para outro.
 
@@ -71,16 +71,16 @@ Este é o schema de compra com o relacionamento definido no campo ID do produto.
 
 >[!NOTE]
 >
->Saiba mais sobre relações de schema no [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>Saiba mais sobre relações de schema no [Documentação da Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
-No Journey Optimizer, você pode aproveitar todos os campos das tabelas vinculadas:
+No Journey Otimizer, você pode aproveitar todos os campos das tabelas vinculadas:
 
 * ao configurar um evento comercial ou unitário, [Leia mais](../event/experience-event-schema.md#unitary_event_configuration)
-* ao usar condições em uma jornada, [Leia mais](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* ao utilizar condições numa viagem, [Leia mais](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * na personalização de mensagens, [Leia mais](../event/experience-event-schema.md#message_personalization)
 * na personalização da ação personalizada, [Leia mais](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### Configuração de evento{#unitary_event_configuration}
+### Configuração do evento{#unitary_event_configuration}
 
 Os campos de esquema vinculados estão disponíveis na configuração de evento unitário e comercial:
 
@@ -114,9 +114,9 @@ Os campos vinculados estão disponíveis ao personalizar uma mensagem. Os campos
 
 Para saber como personalizar uma mensagem com informações de jornada contextual, consulte esta seção [página](../personalization/personalization-use-case.md).
 
-### Personalização de ação personalizada com o contexto de evento de jornada{#custom_action_personalization_with_journey_event_context}
+### Personalização de ação personalizada com contexto de evento da jornada{#custom_action_personalization_with_journey_event_context}
 
-Os campos vinculados estão disponíveis ao configurar os parâmetros de ação de uma atividade de ação personalizada do jornada.
+Os campos vinculados estão disponíveis ao configurar os parâmetros de ação de uma atividade de ação personalizada de jornada.
 
 ![](assets/schema13.png)
 

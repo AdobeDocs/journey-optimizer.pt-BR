@@ -1,5 +1,5 @@
 ---
-title: Conjunto de dados de decisões
+title: Conjunto de dados Decisões
 description: Esta seção lista todos os campos usados no conjunto de dados exportado para decisões
 feature: Offers
 topic: Integrations
@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 3%
+source-wordcount: '1524'
+ht-degree: 0%
 
 ---
 
-# Conjunto de dados de decisões {#decisions-dataset}
+# Conjunto de dados Decisões {#decisions-dataset}
 
 Cada vez que uma oferta é modificada, o conjunto de dados gerado automaticamente para decisões (anteriormente conhecido como atividades) é atualizado.
 
@@ -25,7 +25,7 @@ O lote bem-sucedido mais recente no conjunto de dados é exibido à direita. A e
 >
 >Saiba como acessar os conjuntos de dados exportados para cada objeto da Biblioteca de ofertas em [esta seção](../export-catalog/access-dataset.md).
 
-Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Repositório de objetos de decisão - decisões]** conjunto de dados (anteriormente conhecido como Repositório de objetos de decisão - Atividades).
+Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decision Object Repository - Decisions]** conjunto de dados (anteriormente conhecido como Repositório de objetos de decisão - Atividades).
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
@@ -34,7 +34,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 **Campo:** _id
 **Título:** Identificador
 **Descrição:** Um identificador exclusivo para o registro.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 ## _experiência {#experience}
 
@@ -58,7 +58,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 **Campo:** descrição
 **Título:** Descrição
 **Descrição:** Descrição do critério. É utilizado para transmitir intenções legíveis ao ser humano sobre a forma como este critério foi construído e como está a afetar a decisão.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 **_experience > decisioning > critérios > optionSelection**
 
@@ -72,21 +72,21 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
    **Campo:** descrição
    **Título:** Descrição
    **Descrição:** Descrição da seleção da opção. Ele é usado para transmitir intenções legíveis humanas sobre como ou por que essa seleção de opção foi construída e/ou qual opção corresponderá.
-   **Tipo:** sequência de caracteres
+   **Tipo:** string
 
 * **Filtro de opções**
 
    **Campo:** filter
    **Título:** Filtro de opções
    **Descrição:** A referência a um filtro baseado em tag que corresponde às opções de um inventário usando suas tags anexadas. O valor é o URI (@id) da regra de decisão referenciada. Consulte esquema https://ns.adobe.com/experience/decisioning/filter.
-   **Tipo:** sequência de caracteres
+   **Tipo:** string
 
 * **Tipo de restrição do perfil**
 
    **Campo:** optionSelectionType
    **Título:** Tipo de restrição do perfil
    **Descrição:** Determina se alguma restrição está definida no momento e como as restrições são expressas. Pode ser por meio de uma consulta de filtro ou por meio de uma ou mais associações de segmento.
-   **Tipo:** sequência de caracteres
+   **Tipo:** string
    **Valores possíveis:** &quot;none&quot; (padrão), &quot;directList&quot;, &quot;filter&quot;
 
 * **Lista de opções**
@@ -109,7 +109,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 
    **Título:** Identificador de disposição
    **Descrição:** Uma referência a uma entidade de disposição. O valor é o URI (@id) da disposição referenciada. Consulte esquema https://ns.adobe.com/experience/decisioning/placement.
-   **Tipo:** sequência de caracteres
+   **Tipo:** string
 
 **_experience > decisioning > critérios > profileConstraints**
 
@@ -123,21 +123,21 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
    **Campo:** descrição
    **Título:** Descrição
    **Descrição:** Descrição de restrição de perfil. É usado para transmitir intenções legíveis humanas sobre como ou por que essa restrição de perfil foi construída e/ou qual opção será incluída ou excluída por ela.
-   **Tipo:** sequência de caracteres
+   **Tipo:** string
 
 * **_experience > decisioning > critérios > profileConstraints > Regra de elegibilidade**
 
    **Campo:** ibilityRule
    **Título:** Regra de elegibilidade
    **Descrição:** Uma referência a uma regra de decisão que avalia como true ou false para um determinado perfil e/ou outros objetos XDM contextuais específicos. A regra é usada para decidir se a opção se qualifica para um determinado perfil. O valor é o URI (@id) da regra de decisão referenciada. Consulte esquema https://ns.adobe.com/experience/decisioning/rule.
-   **Tipo:** sequência de caracteres
+   **Tipo:** string
 
 * **_experience > decisioning > critérios > profileConstraints > Tipo de restrição de perfil**
 
    **Campo:** profileConstraintType
    **Título:** Tipo de restrição do perfil
    **Descrição:** Determina se alguma restrição está definida no momento e como as restrições são expressas. Pode ser por meio de uma regra ou por meio de uma ou mais associações de segmento.
-   **Tipo:** sequência de caracteres
+   **Tipo:** string
    **Valores possíveis:**
    * &quot;none&quot; (padrão)
    * &quot;eligentRule&quot;: &quot;A restrição de perfil é expressa como uma única regra que deve ser avaliada como true antes que a ação restrita seja permitida.&quot;
@@ -157,7 +157,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
       **Campo:** _id
       **Título:** Identificador
       **Descrição:** Identidade do segmento no namespace relacionado.
-      **Tipo:** sequência de caracteres
+      **Tipo:** string
 
    * **namespace**
 
@@ -172,13 +172,13 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
          **Campo:** código
          **Título:** Código
          **Descrição:** O código é um identificador legível para o namespace e pode ser usado para solicitar a id de namespace técnico, que é usada para o processamento de gráficos de identidade.
-         **Tipo:** sequência de caracteres
+         **Tipo:** string
    * **Identificador da experiência**
 
       **Campo:** xid
       **Título:** Identificador da experiência
       **Descrição:** Quando presente, esse valor representa um identificador de namespace cruzado que é exclusivo em todos os identificadores de escopo de namespace em todos os namespaces.
-      **Tipo:** sequência de caracteres
+      **Tipo:** string
 
 
 **_experience > decisão > critérios > classificação**
@@ -200,14 +200,14 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
       **Campo:** função
       **Título:** Função de pontuação
       **Descrição:** Uma referência a uma função que calcula uma pontuação numérica para essa opção de decisão. As opções de decisão serão ordenadas (classificadas) de acordo com essa pontuação. O valor dessa propriedade é o URI (@id) da função a ser chamada com a opção on de cada vez. Consulte esquema https://ns.adobe.com/experience/decisioning/function.
-      **Tipo:** sequência de caracteres
+      **Tipo:** string
 
    * **Tipo de Avaliação de Pedido**
 
       **Campo:** orderEvaluationType
       **Título:** Tipo de Avaliação de Pedido
       **Descrição:** Especifica qual mecanismo de avaliação de ordem é usado, prioridade estática das opções de decisão, uma função de pontuação que calcula um valor numérico para cada opção ou uma estratégia de classificação que recebe uma lista para solicitá-la.
-      **Tipo:** sequência de caracteres
+      **Tipo:** string
       **Valores possíveis:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
    * **Estratégia de classificação**
@@ -215,7 +215,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
       **Campo:** rankingStrategy
       **Título:** Estratégia de classificação
       **Descrição:** Uma referência a uma estratégia que classifica uma lista de opções de decisão. As opções de decisão serão retornadas em uma lista ordenada. O valor dessa propriedade é o URI (@id) da função a ser chamada com a opção on de cada vez. Consulte esquema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-      **Tipo:** sequência de caracteres
+      **Tipo:** string
 
 * **_experience > decisioning > critérios > classificação > Prioridade**
 
@@ -231,28 +231,28 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 **Campo:** endTime
 **Título:** Data e hora de término da atividade
 **Descrição:** Data e hora de término da decisão (anteriormente conhecida como atividade). A propriedade tem a semântica da propriedade &#39;endTime&#39; de schema.org definida em http://schema.org/Action.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 #### _experience > decisioning > Opção de fallback
 
 **Campo:** fallback
 **Título:** Opção de fallback
 **Descrição:** A referência a uma opção de fallback que é usada ao tomar decisões no contexto desta decisão não qualifica nenhuma das opções regulares (isso normalmente acontece quando as restrições rígidas são aplicadas). O valor é o URI (@id) da opção de fallback referenciada.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 #### _experience > decisioning > Nome da atividade
 
 **Campo:** name
 **Título:** Nome da atividade
 **Descrição:** Nome da decisão (anteriormente conhecido como atividade) que é exibido em várias interfaces do usuário.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 #### _experience > decisioning > Data e hora de início da atividade
 
 **Campo:** startTime
 **Título:** Data e hora de início da atividade
 **Descrição:** Data e hora de início e término da decisão (anteriormente conhecida como atividade). A propriedade tem a semântica da propriedade &#39;startTime&#39; de schema.org definida em http://schema.org/Action.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 ## _repo {#repo}
 
@@ -264,4 +264,4 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 **Campo:** tag
 **Título:** ETag da atividade
 **Descrição:** A revisão de que o objeto da decisão (anteriormente conhecido como atividade) estava no momento em que o instantâneo foi tirado.
-**Tipo:** sequência de caracteres
+**Tipo:** string

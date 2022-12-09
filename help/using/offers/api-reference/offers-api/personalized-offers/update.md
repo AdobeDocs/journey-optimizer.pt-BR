@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 9d8f2df6-aa04-4e66-8555-d51c2e409063
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 10%
+source-wordcount: '156'
+ht-degree: 0%
 
 ---
 
 # Atualizar uma oferta personalizada {#update-personalized-offer}
 
-Você pode modificar ou atualizar uma oferta personalizada fazendo uma solicitação de PATCH para a [!DNL Offer Library] API
+Você pode modificar ou atualizar uma oferta personalizada fazendo uma solicitação PATCH para a [!DNL Offer Library] API
 
 Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação do patch JSON](http://jsonpatch.com/).
 
@@ -25,7 +25,7 @@ A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de c
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Aceitar | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Tipo de conteúdo | `Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **Formato da API**

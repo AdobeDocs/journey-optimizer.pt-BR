@@ -7,8 +7,8 @@ role: Data Engineer
 level: Experienced
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 8%
+source-wordcount: '96'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 Saiba como usar funções de Matemática no Editor de expressão.
 
-## Absoluto    {#absolute}
+## Absoluto {#absolute}
 
 O `absolute` é usada para converter um número, seu valor absoluto.
 

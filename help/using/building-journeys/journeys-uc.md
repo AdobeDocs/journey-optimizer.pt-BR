@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Casos de uso do Jornada
-description: Casos de uso do Jornada
+title: Casos de uso de jornadas
+description: Casos de uso de jornadas
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 1%
+source-wordcount: '840'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Em seguida, aguardamos uma compra e enviamos uma mensagem de push para agradecer
 
 Para que esse caso de uso funcione, é necessário configurar o seguinte:
 
-* um segmento para todos os clientes que moram em Atlanta, São Francisco ou Seattle e nascem após 1980.
+* um segmento para todos os clientes que moram em Atlanta, São Francisco ou Seattle e nascem depois de 1980.
 * um evento de compra
 
 ### Criar o segmento
@@ -44,15 +44,15 @@ Em nossa jornada, queremos aproveitar um segmento específico de clientes. Todos
 
 Para obter mais informações sobre segmentos, consulte esta seção [página](../segment/about-segments.md).
 
-1. Na seção do menu CLIENTE , selecione **[!UICONTROL Segmentos]**.
+1. Na seção do menu CLIENTE , selecione **[!UICONTROL Segments]**.
 
-1. Clique no botão **[!UICONTROL Criar segmento]** que está localizado na parte superior direita da lista de segmentos.
+1. Clique no botão **[!UICONTROL Create segment]** que está localizado na parte superior direita da lista de segmentos.
 
-1. No **[!UICONTROL Propriedades do segmento]** , insira um nome para o segmento.
+1. No **[!UICONTROL Segment properties]** , insira um nome para o segmento.
 
 1. Arraste e solte os campos desejados do painel esquerdo para o espaço de trabalho central e configure-os de acordo com suas necessidades. Neste exemplo, usamos a variável **Cidade** e **Ano de nascimento** campos de atributos.
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Save]**.
 
    ![](assets/add-attributes.png)
 
@@ -60,23 +60,23 @@ O segmento agora é criado e pronto para ser usado em sua jornada. Uso de uma **
 
 ### Configurar o evento
 
-Você precisa configurar um evento enviado para sua jornada quando um cliente fizer uma compra. Quando a jornada recebe o evento, ela aciona a mensagem &quot;obrigado&quot;.
+Você precisa configurar um evento enviado à sua jornada quando um cliente fizer uma compra. Quando a jornada recebe o evento, ela aciona a mensagem &quot;obrigado&quot;.
 
 Para isso, usamos um evento com base em regras. Para obter mais informações sobre eventos, consulte esta seção [página](../event/about-events.md).
 
-1. Na seção do menu ADMINISTRATION (ADMINISTRAÇÃO), selecione **[!UICONTROL Configurações]**, depois clique em **[!UICONTROL Eventos]**. Clique em **[!UICONTROL Criar evento]** para criar um novo evento.
+1. Na seção do menu ADMINISTRATION (ADMINISTRAÇÃO), selecione **[!UICONTROL Configurations]**, depois clique em **[!UICONTROL Events]**. Clique em **[!UICONTROL Create event]** para criar um novo evento.
 
 1. Insira o nome do evento.
 
-1. No **[!UICONTROL Tipo de ID de evento]** , selecione **[!UICONTROL Baseado em regras]**.
+1. No **[!UICONTROL Event ID type]** , selecione **[!UICONTROL Rule Based]**.
 
-1. Defina as **[!UICONTROL Esquema]** e carga **[!UICONTROL Campos]**. Você pode usar vários campos, por exemplo, o produto comprado, a data de compra e a id de compra.
+1. Defina as **[!UICONTROL Schema]** e carga **[!UICONTROL Fields]**. Você pode usar vários campos, por exemplo, o produto comprado, a data de compra e a id de compra.
 
-1. No **[!UICONTROL Condição de ID de evento]** , defina a condição usada pelo sistema para identificar os eventos que acionam a jornada. Por exemplo, é possível adicionar uma `purchaseMessage` e defina a seguinte regra: `purchaseMessage="thank you"`
+1. No **[!UICONTROL Event ID condition]** , defina a condição usada pelo sistema para identificar os eventos que acionam sua jornada. Por exemplo, é possível adicionar uma `purchaseMessage` e defina a seguinte regra: `purchaseMessage="thank you"`
 
-1. Defina as **[!UICONTROL Namespace]** e **[!UICONTROL Identificador de perfil]**.
+1. Defina as **[!UICONTROL Namespace]** e **[!UICONTROL Profile Identifier]**.
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Save]**.
 
    ![](assets/jo-uc2.png)
 

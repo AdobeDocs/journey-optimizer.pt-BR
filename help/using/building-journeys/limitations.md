@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Limitações da jornada
-description: Saiba mais sobre as limitações do Jornada
+description: Saiba mais sobre as limitações da jornada
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,12 @@ Estas são limitações relacionadas ao uso de jornadas.
 * O **Reação** permite que você reaja a ações predefinidas (consulte esta seção) [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado. 
 * Não é possível colocar duas ações em paralelo, é necessário adicioná-las uma após a outra.
 
-## Limitações das versões do Jornada {#journey-versions-limitations}
+## Limitações das versões de jornada {#journey-versions-limitations}
 
-* Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com uma **Qualificação do segmento** evento.
+* Uma jornada que começa com uma atividade de evento na v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com uma **Qualificação do segmento** evento.
 * Uma jornada que começa com uma **Qualificação do segmento** atividade em v1 deve sempre começar com um **Qualificação do segmento** em outras versões.
 * O segmento e o namespace escolhidos em **Qualificação do segmento** (primeiro nó) não pode ser alterado em novas versões.
-* A regra de reentrada deve ser a mesma em todas as versões do jornada.
+* A regra de reentrada deve ser a mesma em todas as versões da jornada.
 * Uma jornada que começa com uma **Ler segmento** O não pode começar com outro evento nas próximas versões.
  
 
@@ -41,12 +41,12 @@ Estas são limitações relacionadas ao uso de jornadas.
 * Somente métodos de chamada POST e PUT são compatíveis. 
 * O nome do parâmetro de consulta ou cabeçalho não deve começar com &quot;.&quot; ou &quot;$&quot;. 
 * Endereços IP não são permitidos. 
-* Endereços Adobe internos (.adobe.) não são permitidas.
+* Endereços internos da Adobe (.adobe.) não são permitidas.
  
 
 ## Limitações de eventos
 
-* Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada à carga de transmissão que entra no Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
+* Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Otimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada à carga de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
  
 
 ## Limitações das fontes de dados
@@ -55,15 +55,15 @@ Estas são limitações relacionadas ao uso de jornadas.
 
 ## Jornadas que começam ao mesmo tempo que uma criação de perfil {#journeys-limitation-profile-creation}
 
-Há um atraso associado à criação/atualização de perfil com base em API no Adobe Experience Platform. O Service Level Target (SLT) em termos de latência é &lt; 1 min desde a assimilação até o Perfil unificado, por 95% das solicitações, em um volume de 20 mil solicitações por segundo (RPS).
+Há um atraso associado à criação/atualização de perfil com base em API na Adobe Experience Platform. O Service Level Target (SLT) em termos de latência é &lt; 1 min desde a assimilação até o Perfil unificado, por 95% das solicitações, em um volume de 20 mil solicitações por segundo (RPS).
 
-Se uma Jornada for acionada simultaneamente à criação de um perfil e verificar/recuperar imediatamente as informações do Serviço de perfil, ela pode não funcionar corretamente.
+Se uma jornada for acionada simultaneamente à criação de um perfil e verificar/recuperar imediatamente as informações do Serviço de perfil, ela pode não funcionar corretamente.
 
 Você pode escolher uma dessas duas soluções:
 
-* Adicione uma atividade de espera após o primeiro evento para conceder ao Adobe Experience Platform o tempo necessário para executar a assimilação no Serviço de perfil.
+* Adicione uma atividade de espera após o primeiro evento para conceder à Adobe Experience Platform o tempo necessário para executar a assimilação no Serviço de perfil.
 
-* Configure uma jornada que não use o perfil imediatamente. Por exemplo, se a jornada foi projetada para confirmar a criação de uma conta, o evento de experiência pode conter as informações necessárias para enviar a primeira mensagem de confirmação (nome, sobrenome, endereço de email etc.).
+* Configure uma jornada que não use o perfil imediatamente. Por exemplo, se a jornada for projetada para confirmar a criação de uma conta, o evento de experiência poderá conter as informações necessárias para enviar a primeira mensagem de confirmação (nome, sobrenome, endereço de email etc.).
 
 ## Ler limitações do segmento
 

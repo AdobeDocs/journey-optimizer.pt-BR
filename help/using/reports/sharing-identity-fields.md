@@ -11,13 +11,13 @@ exl-id: c447fcf0-51ec-4d88-8b2d-f15db076bfbc
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 26%
+ht-degree: 0%
 
 ---
 
 # campos de identidade do evento journeyStep {#sharing-identity-fields}
 
-Esse grupo de campos é específico para journeyStepEvent: esse evento está relacionado ao jornada e não tem o identityMap, descrevendo a identidade do perfil, se houver.
+Esse grupo de campos é específico para journeyStepEvent: esse evento está relacionado à jornada, e não tem o identityMap, descrevendo a identidade do perfil, se houver.
 
 Para journeyStepEvent, também precisamos adicionar campos relacionados à identidade:
 
@@ -25,10 +25,10 @@ Para journeyStepEvent, também precisamos adicionar campos relacionados à ident
 
 Identificador de perfil
 
-Tipo: sequência de caracteres
+Tipo: string
 
 ## profileNamespace
 
 Namespace do identificador de perfil
 
-Tipo: sequência de caracteres
+Tipo: string

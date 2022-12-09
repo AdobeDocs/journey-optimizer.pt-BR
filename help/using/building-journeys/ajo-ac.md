@@ -11,7 +11,7 @@ exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Este caso de uso apresenta todas as etapas necessárias para enviar um email usando a integração com o Adobe Campaign Classic v7 e o Adobe Campaign v8.
 
-Primeiro, criaremos um template de email transacional no Campaign. Em seguida, no Journey Optimizer, criaremos o evento, a ação e projetaremos a jornada.
+Primeiro, criaremos um template de email transacional no Campaign. Em seguida, no Journey Otimizer, criaremos o evento, a ação e projetaremos a jornada.
 
 Para saber mais sobre a integração do Campaign, consulte estas páginas:
 
@@ -32,7 +32,7 @@ Sua instância do Campaign precisa ser provisionada para essa integração. O re
 
 1. Faça logon na instância de controle do Campaign.
 
-1. Em **Administração** > **Plataforma** > **Enumerações**, selecione o **Tipo de evento** Enumeração (eventType). Crie um novo tipo de evento (&quot;jornada-evento&quot;, no nosso exemplo). Você precisará usar o nome interno do tipo de evento ao gravar o arquivo JSON posteriormente.
+1. Em **Administração** > **Plataforma** > **Enumerações**, selecione o **Tipo de evento** Enumeração (eventType). Crie um novo tipo de evento (&quot;evento da jornada&quot;, no nosso exemplo). Você precisará usar o nome interno do tipo de evento ao gravar o arquivo JSON posteriormente.
 
    ![](assets/accintegration-uc-1.png)
 
@@ -42,7 +42,7 @@ Sua instância do Campaign precisa ser provisionada para essa integração. O re
 
    ![](assets/accintegration-uc-2.png)
 
-1. Projete seu modelo. Neste exemplo, usamos personalização no nome do perfil e no número do pedido. O primeiro nome está na fonte de dados do Adobe Experience Platform e o número do pedido é um campo do evento do Journey Optimizer. Certifique-se de usar os nomes de campo corretos no Campaign.
+1. Projete seu modelo. Neste exemplo, usamos personalização no nome do perfil e no número do pedido. O primeiro nome está na fonte de dados da Adobe Experience Platform e o número do pedido é um campo do evento do Journey Otimizer. Certifique-se de usar os nomes de campo corretos no Campaign.
 
    ![](assets/accintegration-uc-3.png)
 
@@ -68,13 +68,13 @@ Sua instância do Campaign precisa ser provisionada para essa integração. O re
 * O endereço de email será uma variável, portanto, você pode digitar qualquer rótulo.
 * Em ctx, os campos de personalização também são variáveis.
 
-**Journey Optimizer**
+**Journey Otimizer**
 
 1. Primeiro, você precisa criar um evento . Certifique-se de incluir o campo &quot;purchaseOrderNumber&quot;.
 
    ![](assets/accintegration-uc-5.png)
 
-1. Em seguida, é necessário criar, no Journey Optimizer, uma ação correspondente ao seu modelo de Campanha. No **Tipo de ação** , selecione **Adobe Campaign Classic**.
+1. Em seguida, é necessário criar, no Journey Otimizer, uma ação correspondente ao seu modelo de Campanha. No **Tipo de ação** , selecione **Adobe Campaign Classic**.
 
    ![](assets/accintegration-uc-6.png)
 
@@ -90,11 +90,11 @@ Sua instância do Campaign precisa ser provisionada para essa integração. O re
 
    ![](assets/accintegration-uc-9.png)
 
-1. Adicione a ação e mapeie cada campo para o campo correto no Journey Optimizer.
+1. Adicione a ação e mapeie cada campo para o campo correto no Journey Otimizer.
 
    ![](assets/accintegration-uc-10.png)
 
-1. Teste a jornada.
+1. Teste sua jornada.
 
    ![](assets/accintegration-uc-11.png)
 

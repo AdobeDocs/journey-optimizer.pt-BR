@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 6%
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
 # Excluir uma tag {#delete-tag}
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma tag . Somente as tags criadas no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando o $id da tag que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (EXCLUIR) uma tag. Somente as tags criadas no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para a variável [!DNL Offer Library] API usando o $id da tag que você deseja excluir.
 
 **Formato da API**
 

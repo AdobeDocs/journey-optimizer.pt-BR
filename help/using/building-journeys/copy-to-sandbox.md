@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 2%
+source-wordcount: '836'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
 >title="Copiar uma jornada para outra sandbox"
->abstract="O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox de preparo para a sandbox de produção. Além da própria Jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende."
+>abstract="O Journey Otimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox de preparo para a sandbox de produção. Além da própria Jornada, o Journey Otimizer também copia a maioria dos objetos dos quais a jornada depende."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
@@ -35,21 +35,21 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
 >title="Objetos dependentes"
->abstract="Esta é a lista de objetos associados usados na jornada. Essa lista exibe o nome, o tipo de objeto e a Journey Optimizer ID interna."
+>abstract="Esta é a lista de objetos associados usados na jornada. Essa lista exibe o nome, o tipo de objeto e a ID interna do Journey Otimizer."
 
-O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox de Preparo para a sandbox de Produção. Além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: segmentos, superfícies (ou seja, predefinições), esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte esta seção [seção](../building-journeys/copy-to-sandbox.md#limitations).
+O Journey Otimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente da sandbox de Preparo para a sandbox de Produção. Além da própria jornada, o Journey Otimizer também copia a maioria dos objetos dos quais a jornada depende: segmentos, superfícies (ou seja, predefinições), esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte esta seção [seção](../building-journeys/copy-to-sandbox.md#limitations).
 
 >[!CAUTION]
 >
 >Não garantimos que todos os elementos vinculados sejam copiados para a sandbox de destino. Recomendamos que você faça uma verificação completa antes de publicar a jornada. Isso permitirá identificar qualquer objeto em potencial ausente.
 
-Os objetos copiados na sandbox de destino são exclusivos e não há risco de substituir elementos existentes. Tanto a jornada quanto as mensagens dentro da jornada são trazidas para o modo de rascunho. Isso permite executar uma validação completa antes da publicação na sandbox de destino. O processo de cópia copia apenas os metadados sobre a jornada e os objetos nessa Jornada. Nenhum perfil ou conjunto de dados está sendo copiado como parte desse processo.
+Os objetos copiados na sandbox de destino são exclusivos e não há risco de substituir elementos existentes. Tanto a jornada quanto as mensagens dentro da jornada são trazidas para o modo de rascunho. Isso permite executar uma validação completa antes da publicação na sandbox de destino. O processo de cópia copia apenas os metadados sobre a jornada e os objetos nessa jornada. Nenhum perfil ou conjunto de dados está sendo copiado como parte desse processo.
 
 Para copiar uma jornada para outra sandbox, siga estas etapas:
 
-1. Na seção do menu GERENCIAMENTO DE JORNADAS , clique em **[!UICONTROL Jornada]**. A lista de jornadas é exibida.
+1. Na seção do menu GERENCIAMENTO DE JORNADAS , clique em **[!UICONTROL Journeys]**. A lista de jornadas é exibida.
 
-2. Procure a jornada que deseja copiar, clique no botão **Mais ações** ícone (os três pontos ao lado do nome da jornada) e clique em **Copiar para sandbox**.
+2. Procure a jornada que deseja copiar, clique no link **Mais ações** ícone (os três pontos ao lado do nome da jornada) e clique em **Copiar para sandbox**.
 
    ![](assets/copy-sandbox1.png)
 
@@ -59,7 +59,7 @@ Para copiar uma jornada para outra sandbox, siga estas etapas:
 
 3. Selecione o **sandbox de destino** no campo suspenso . Somente sandboxes na organização de IMS estão disponíveis.
 
-4. Revise o **Objetos dependentes** seção. Esta é a lista de objetos associados usados na jornada. Essa lista exibe o nome, o tipo de objeto e a Journey Optimizer ID interna.
+4. Revise o **Objetos dependentes** seção. Esta é a lista de objetos associados usados na jornada. Essa lista exibe o nome, o tipo de objeto e a ID interna do Journey Otimizer.
 
 5. Clique no botão **Copiar** , no canto superior direito, para começar a copiar a jornada para a sandbox de destino.
 
@@ -89,7 +89,7 @@ Os seguintes objetos são copiados:
 
 * Mensagem
 
-   As atividades de ação do canal usadas na jornada. Os campos usados para personalização na mensagem não são verificados quanto à integridade. Os blocos de conteúdo não são copiados.
+   As atividades de ação de canal usadas na jornada. Os campos usados para personalização na mensagem não são verificados quanto à integridade. Os blocos de conteúdo não são copiados.
 
 * Jornada - detalhes da tela
 
@@ -107,4 +107,4 @@ As superfícies (ou seja, as predefinições) não são copiadas. O sistema sele
 
 Para Esquemas, Mesclar Políticas e Segmentos, na segunda vez que esses objetos tentarem ser copiados, eles só serão referenciados. Eles serão tratados como objetos que já existem e serão copiados novamente. Isso significa que esses objetos só podem ser copiados uma vez.
 
-Há um atraso de cinco minutos antes que o Adobe Journey Optimizer possa fazer referência aos Esquemas, às Políticas e aos Segmentos de Mesclagem sem ver um erro na tela. Aguarde cinco minutos e essas referências estarão disponíveis.
+Há um atraso de cinco minutos até que o Adobe Journey Otimizer possa fazer referência a Esquemas, Políticas e Segmentos de Mesclagem sem ver um erro na tela. Aguarde cinco minutos e essas referências estarão disponíveis.

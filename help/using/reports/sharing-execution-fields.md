@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 13%
+source-wordcount: '323'
+ht-degree: 0%
 
 ---
 
@@ -25,19 +25,19 @@ Se a etapa tiver uma ação a ser processada, esses campos serão adicionados ao
 
 ID da ação que está sendo executada.
 
-Tipo: sequência de caracteres
+Tipo: string
 
 ## actionName {#actionname-field}
 
 Nome da ação. Se nenhum nome tiver sido definido, o stepName será executado.
 
-Tipo: sequência de caracteres
+Tipo: string
 
 ## actionType {#actionType-field}
 
 Tipo da ação.
 
-Tipo: sequência de caracteres
+Tipo: string
 
 ## actionParameterized {#actionparameterized-field}
 
@@ -55,19 +55,19 @@ Tipo: long
 
 Tipo de erro que ocorre quando a ação é chamada.
 
-Tipo: sequência de caracteres
+Tipo: string
 
 Valores:
 * http
 * limite
 * timeout
-* error
+* erro
 
 ## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
 Código para erro de execução de ação. Apresentar se o erro tiver um código, como um HTTP.
 
-Tipo: sequência de caracteres
+Tipo: string
 
 ## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
@@ -89,13 +89,13 @@ Por exemplo, um email está sendo enviado e um erro HTTP 500 é retornado na pri
     "actionExecOrigErrorCode": "500"
 ```
 
-Tipo: sequência de caracteres
+Tipo: string
 
 ## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
 Código de erro de actionExecOrigError.
 
-Tipo: sequência de caracteres
+Tipo: string
 
 ## actionBusinessType {#actionbusinesstype-field}
 
@@ -111,23 +111,23 @@ Valores:
 * Epsilon
 * ...
 
-Tipo: sequência de caracteres
+Tipo: string
 
 ## deliveryJobID {#deliveryjobid-field}
 
-Este artigo descreve a ID de trabalho de delivery para a Jornada em lote.
+Este artigo descreve a ID do trabalho de delivery para a jornada em lote.
 
-Tipo: sequência de caracteres
+Tipo: string
 
 ## batchDeliveryID {#batchdeliveryid-field}
 
-Este artigo descreve a ID de delivery da Jornada em lote.
+Esta descreve a ID de delivery da Jornada em lote.
 
-Tipo: sequência de caracteres
+Tipo: string
 
 ## fromSegmentTrigger {#fromsegmenttrigger-field}
 
-Isso descreve se a Jornada em lote é acionada pelo Segmento do público-alvo.
+Isso descreve se a jornada em lote é acionada pelo segmento de público-alvo.
 
 Tipo: booleano
 

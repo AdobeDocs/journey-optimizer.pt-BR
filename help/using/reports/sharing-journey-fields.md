@@ -11,40 +11,40 @@ exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 26%
+ht-degree: 0%
 
 ---
 
 # Campos de jornada {#sharing-journey-fields}
 
-Esse grupo de campos é usado no schema de jornada (em relação a journeyStepEvent). Ele contém os seguintes campos:
+Esse grupo de campos é usado no schema da jornada (em relação a journeyStepEvent). Ele contém os seguintes campos:
 
 ## journeyID {#journeyid-field}
 
-Id da jornada principal.
+ID da jornada principal.
 
-Tipo: sequência de caracteres
+Tipo: string
 
 ## journeyVersionID {#journeyversionid-field}
 
-Id da versão do jornada. Essa id representa a identidade de uma jornada.
+Id da versão da jornada. Essa id representa a identidade de uma jornada.
 
-Tipo: sequência de caracteres
+Tipo: string
 
 ## name {#name-field}
 
 Nome da jornada.
 
-Tipo: sequência de caracteres
+Tipo: string
 
 ## descrição {#description-field}
 
 Descrição da jornada.
 
-Tipo: sequência de caracteres
+Tipo: string
 
 ## version {#version-field}
 
 Versão, representada como `major`.`minor`
 
-Tipo: sequência de caracteres
+Tipo: string

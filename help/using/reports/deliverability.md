@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 24%
+source-wordcount: '691'
+ht-degree: 0%
 
 ---
 
@@ -21,27 +21,27 @@ A capacidade de delivery é uma medida do sucesso dos deliveries em chegar às c
 
 >[!NOTE]
 >
->Para clientes que licenciam o Healthcare Shield, o Adobe usa o Transport Layer Security (TLS) 1.2 para proteger a troca de dados entre os sistemas (recipients) e o Journey Optimizer (remetente) dos usuários. Se o servidor de email de recebimento não for compatível com TLS 1.2, os clientes enfrentarão problemas de deliverability, incluindo o email devolvido ao remetente de origem.
+>Para clientes que licenciam o Healthcare Shield, a Adobe usa o Transport Layer Security (TLS) 1.2 para proteger a troca de dados entre os sistemas dos usuários (recipients) e o Journey Otimizer (remetente). Se o servidor de email de recebimento não for compatível com TLS 1.2, os clientes enfrentarão problemas de deliverability, incluindo o email devolvido ao remetente de origem.
 
-A **capacidade de delivery de email** refere-se ao conjunto de características que determinam a capacidade de uma mensagem de alcançar seu destino por meio de um endereço de email pessoal, dentro de um curto período e com a qualidade esperada em termos de conteúdo e formato. Essas características estão em quatro categorias principais: qualidade de dados, mensagem e conteúdo, infraestrutura de envio e reputação. Juntos, elas formam a base de um programa bem-sucedido de capacidade de fornecimento de email.
+**Deliverability de email** refere-se ao conjunto de características que determinam a capacidade de uma mensagem de alcançar seu destino por meio de um endereço de email pessoal, dentro de um curto período e com a qualidade esperada em termos de conteúdo e formato. Essas características dividem-se em quatro categorias principais: qualidade de dados, mensagem e conteúdo, infraestrutura de envio e reputação. Juntas, elas formam a base de um programa bem-sucedido de capacidade de fornecimento de email.
 
 O **taxa de entrega** é o número de mensagens que acessaram as caixas de entrada dos recipients em comparação ao número de mensagens que foram entregues. Depende de vários fatores, especialmente:
 
 * Limitadas reclamações de spam
 * Taxas de rejeição rígidas
-* A qualidade dos endereços de destino
+* Qualidade dos endereços direcionados
 * Conteúdo da mensagem
 * Reputação do remetente
 
 Para otimizar a capacidade de entrega de seu [!DNL Journey Optimizer] experiências, recomendamos usar as práticas recomendadas listadas nesta seção. Os problemas de capacidade de delivery estão geralmente vinculados à proteção contra spam implementada por provedores de serviços de Internet (ISPs) e administradores de servidores de email.
 
-Para um mergulho mais profundo sobre o que é a capacidade de entrega e para saber mais sobre os principais termos, conceitos e abordagens da capacidade de entrega, consulte [Guia de práticas recomendadas de capacidade de entrega do Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=pt-BR){target=&quot;_blank&quot;}.
+Para um mergulho mais profundo sobre o que é a capacidade de entrega e para saber mais sobre os principais termos, conceitos e abordagens da capacidade de entrega, consulte [Guia de práticas recomendadas de entrega da Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target=&quot;_blank&quot;}.
 
 ## Reduza a taxa de reclamação {#reduce-complaint-rate}
 
-Geralmente, os provedores de internet têm um meio proeminente de reportar uma mensagem recebida como spam. Isso permite identificar fontes não confiáveis. Ao atender rapidamente às solicitações de recusa e, portanto, mostrar que você é um remetente confiável, é possível reduzir as taxas de reclamação. [Saiba mais sobre o gerenciamento de não participação](../privacy/opt-out.md#opt-out-management).
+Os ISPs geralmente têm um meio proeminente de reportar uma mensagem recebida como spam. Isso permite identificar fontes não confiáveis. Ao atender rapidamente às solicitações de recusa e, portanto, mostrar que você é um remetente confiável, é possível reduzir as taxas de reclamação. [Saiba mais sobre o gerenciamento de não participação](../privacy/opt-out.md#opt-out-management).
 
-Como regra geral, não tente impedir os recipients que desejam fazer o opt-out exigindo que eles preencham campos como endereço de email ou nome, por exemplo. A landing page de unsubscription deve ter apenas um botão de validação.
+Como regra geral, não tente impedir os recipients que desejam recusar exigindo que eles preencham campos como endereço de email ou nome, por exemplo. A landing page de unsubscription deve ter apenas um botão de validação.
 
 Tenha cuidado extra ao solicitar confirmação adicional: um usuário pode ter dois endereços de email redirecionados para a mesma caixa (por exemplo: firstname.lastname@club.com e firstname.lastname@internet-club.com). Se o perfil conseguir lembrar somente o primeiro endereço e desejar cancelar a assinatura por meio de uma mensagem enviada para o outro, o formulário recusará essa ação, pois o identificador criptografado e o endereço de email inserido não corresponderão.
 
@@ -57,7 +57,7 @@ Para proteger seu deliverability, os recipients cujos endereços estão na lista
 
 Use os recursos oferecidos por [!DNL Journey Optimizer] para monitorar sua capacidade de delivery.
 
-O **[!UICONTROL Execuções]** da lista de mensagens permite verificar o desempenho dos deliveries por meio de um conjunto de indicadores em tempo real. Entre outras coisas, essa guia exibe:
+O **[!UICONTROL Executions]** da lista de mensagens permite verificar o desempenho dos deliveries por meio de um conjunto de indicadores em tempo real. Entre outras coisas, essa guia exibe:
 * O número de mensagens executadas, enviadas e entregues com êxito.
 * O número de mensagens que foram abertas e o número de mensagens/links que foram clicados.
 
@@ -67,9 +67,9 @@ Em menor grau, o conteúdo de determinadas mensagens pode ser detectado como spa
 
 Para melhorar a taxa de delivery e garantir que seus emails cheguem aos recipients, siga os princípios abaixo ao projetar o conteúdo da mensagem:
 
-* **Nome e endereço do remetente**: O endereço deve identificar explicitamente o remetente. O domínio deve ser de propriedade do remetente e registrado por ele. O registro de domínio não deve ser privatizado.
+* **Nome e endereço do remetente**: O endereço deve identificar explicitamente o remetente. O domínio deve ser de propriedade e registrado pelo remetente. O registro de domínio não deve ser privatizado.
 
-* **Cancelar assinatura do link e da landing page**: O link de cancelamento de inscrição é essencial. Deve ser visível e válido e o formulário deve ser funcional.
+* **Cancelar assinatura do link e da landing page**: O link de cancelamento de inscrição é essencial. Ele deve ser visível e válido e o formulário deve ser funcional.
 
 [Saiba mais sobre como criar conteúdo de email](../email/get-started-email-design.md).
 

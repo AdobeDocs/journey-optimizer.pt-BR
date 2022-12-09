@@ -1,22 +1,23 @@
 ---
-title: Extensão Auxiliar de edição visual
-description: Descubra a extensão do Visual Editing Helper Chrome que permite criar e visualizar páginas da Web no Journey Optimizer
+title: Extensão do Visual Editing Helper
+description: Descubra a extensão do Visual Editing Helper Chrome que permite criar e visualizar páginas da Web no Journey Otimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 14%
+source-wordcount: '385'
+ht-degree: 0%
 
 ---
 
-# Extensão Auxiliar de edição visual {#visual-editing-helper}
+# Extensão do Visual Editing Helper {#visual-editing-helper}
 
-Para criar e visualizar rapidamente suas experiências da Web, a extensão do navegador Adobe Experience Cloud Visual Editing Helper para Google Chrome permite carregar sites de maneira confiável no Adobe. [!DNL Journey Optimizer] web designer.
+Para criar e visualizar rapidamente suas experiências da Web, a extensão do navegador do Adobe Experience Cloud Visual Editing Helper para Google Chrome permite carregar sites de maneira confiável na Adobe [!DNL Journey Optimizer] web designer.
 
 >[!NOTE]
 >
@@ -26,9 +27,9 @@ Para criar e visualizar rapidamente suas experiências da Web, a extensão do na
 
 Para obter e instalar a extensão do navegador do Visual Editing Helper, siga as etapas abaixo.
 
-1. Na Google Chrome Web Store, navegue até o [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)Extensão do navegador {target=&quot;_blank&quot;}.
+1. Na Google Chrome Web Store, navegue até o [Ajuda da edição visual da Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)Extensão do navegador {target=&quot;_blank&quot;}.
 
-1. Clique em **[!UICONTROL Adicionar ao Chrome]** > **[!UICONTROL Adicionar extensão]**.
+1. Clique em **[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**.
 
 1. Crie uma campanha de canal da Web em [!DNL Journey Optimizer]. [Saiba como](author-web.md#create-web-campaign)
 
@@ -38,7 +39,7 @@ Para obter e instalar a extensão do navegador do Visual Editing Helper, siga as
 
    ![](assets/web-visual-editing-extension.png)
 
-O Adobe Experience Cloud Visual Editing Helper agora é ativado automaticamente quando um site é aberto no [!DNL Journey Optimizer] web designer para criação de energia.
+O assistente de edição visual da Adobe Experience Cloud agora é ativado automaticamente quando um site é aberto na [!DNL Journey Optimizer] web designer para criação de energia.
 
 A extensão não tem configurações condicionais e trata todas as configurações automaticamente, incluindo configurações de cookies SameSite.
 
@@ -46,17 +47,17 @@ A extensão não tem configurações condicionais e trata todas as configuraçõ
 >
 >Alguns sites podem não abrir de forma confiável na [!DNL Journey Optimizer] web designer por um dos seguintes motivos:
 >
-> * O site tem políticas de segurança estritas.
+> * O site tem políticas de segurança rígidas.
 > * O site está em um iframe.
-> * O site de controle de qualidade e/ou preparo do cliente não está disponível para partes externas (o site é interno).
+> * O site de controle de qualidade ou estágio do cliente não está disponível para o mundo externo (o site é interno).
 
 
 ## Solução de problemas
 
-Ao usar o Adobe [!DNL Journey Optimizer] web designer, se você tentar carregar um site que não é carregado, uma mensagem será exibida sugerindo que você instale o [Extensão do navegador do Visual Editing Helper](#install-visual-editing-helper).
+Ao usar a Adobe [!DNL Journey Optimizer] web designer, se você tentar carregar um site que não é carregado, uma mensagem será exibida sugerindo que você instale o [Extensão do navegador do Visual Editing Helper](#install-visual-editing-helper).
 
-Se o SDK da Web da Adobe Experience Platform ainda não estiver implementado no site, uma mensagem será exibida no web designer sugerindo que você instale a extensão do navegador do Visual Editing Helper e implemente o [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target=&quot;_blank&quot;}.
+Se o SDK da Web da Adobe Experience Platform ainda não estiver implementado no site, uma mensagem será exibida no web designer sugerindo que você instale a extensão do navegador do Visual Editing Helper e implemente a variável [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
 
-Se o site não carregar ou se comportar inesperadamente, uma possível correção é aceitar cookies em seu site no navegador antes de tentar carregá-los no Adobe [!DNL Journey Optimizer].
+Se o site não carregar ou se comportar inesperadamente, uma possível correção é aceitar cookies no site no navegador antes de tentar carregá-los no Adobe [!DNL Journey Optimizer].
 
-Para páginas sob autenticação, se a página de logon não carregar ou se, depois de tentar fazer logon, você ainda não estiver conectado, tente fazer logon primeiro em uma guia diferente do navegador e, em seguida, carregar o site no Adobe [!DNL Journey Optimizer] web designer.
+Para páginas sob autenticação, se a página de logon não for carregada ou se, depois de tentar fazer logon, você ainda não estiver conectado, tente fazer logon primeiro em uma guia diferente do navegador e, em seguida, carregar o site na Adobe [!DNL Journey Optimizer] web designer.

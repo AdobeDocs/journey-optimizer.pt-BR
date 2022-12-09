@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 7%
+source-wordcount: '1678'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,7 @@ A função a seguir combinará a cidade e o país do perfil em uma única string
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
 ```
 
-## Contains {#contains}
+## Contém {#contains}
 
 O `contains` é usada para determinar se uma string contém uma substring especificada.
 
@@ -132,7 +132,7 @@ A consulta a seguir determina, com diferenciação entre maiúsculas e minúscul
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## Does not start with{#doesNotStartWith}
+## Não inicia com{#doesNotStartWith}
 
 O `doesNotStartWith` é usada para determinar se uma string não inicia com uma substring especificada.
 
@@ -191,7 +191,7 @@ A consulta a seguir determina, com diferenciação entre maiúsculas e minúscul
 ```
 
 
-## Igual a{#equals}
+## Igual{#equals}
 
 O `equals` é usada para determinar se uma string é igual à string especificada, com diferenciação entre maiúsculas e minúsculas.
 
@@ -401,7 +401,7 @@ O `leftTrim` é usada para remover espaços em branco do início de uma string.
 {%= leftTrim(string) %}
 ```
 
-## Comprimento {#length}
+## Length {#length}
 
 O `length` é usada para obter o número de caracteres em uma string ou expressão.
 
@@ -630,7 +630,7 @@ O `rightTrim` é usada para remover espaços em branco do final de uma string.
 {%= rightTrim(string) %}
 ```
 
-## Dividir {#split}
+## Split {#split}
 
 O `split` é usada para dividir uma string por um determinado caractere.
 

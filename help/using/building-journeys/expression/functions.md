@@ -10,7 +10,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 75%
+ht-degree: 0%
 
 ---
 
@@ -62,9 +62,9 @@ Esta é a lista de funções suportadas.
 | Data | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
 | Lista | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| Lista | [filtro](../functions/functionfilter.md) |
+| Lista | [filter](../functions/functionfilter.md) |
 | Lista | [getListItem](../functions/functiongetlistitem.md) |
-| Lista | [no](../functions/functionin.md) |
+| Lista | [em](../functions/functionin.md) |
 | Lista | [interseção](../functions/functionintersect.md) |
 | Lista | [listSize](../functions/functionlimit.md) |
 | Lista | [listSize](../functions/functionlistsize.md) |
@@ -82,7 +82,7 @@ Esta é a lista de funções suportadas.
 | String | [isEmpty](../functions/functionisempty.md) |
 | String | [isNotEmpty](../functions/functionisnotempty.md) |
 | String | [lastIndexOf](../functions/functionlastindexof.md) |
-| String | [comprimento](../functions/functionlength.md) |
+| String | [length](../functions/functionlength.md) |
 | String | [lower](../functions/functionlower.md) |
 | String | [matchRegExp](../functions/functionmatchregexp.md) |
 | String | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |

@@ -9,13 +9,13 @@ exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
 # Procure uma disposição {#look-up-placement}
 
-Você pode pesquisar disposições específicas fazendo uma solicitação de GET para a variável [!DNL Offer Library] A API que inclui a inserção `@id` ou o nome da disposição no caminho da solicitação.
+Você pode pesquisar disposições específicas fazendo uma solicitação GET para a variável [!DNL Offer Library] A API que inclui a inserção `@id` ou o nome da disposição no caminho da solicitação.
 
 **Formato da API**
 

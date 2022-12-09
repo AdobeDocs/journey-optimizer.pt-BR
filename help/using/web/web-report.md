@@ -7,13 +7,13 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 3%
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
-
 
 # Relatório da Web {#web-report}
 
@@ -25,24 +25,24 @@ O relatório da Web está disponível no relatório de Campanha.
 
 A página Relatório da campanha será exibida com as seguintes guias:
 
-* [Campaign](../reports/campaign-global-report.md#campaign-live)
+* [Campanha](../reports/campaign-global-report.md#campaign-live)
 * [Email](../reports/campaign-global-report.md#email-live)
-* [Push](../reports/campaign-global-report.md#push-live)
+* [Empurrar](../reports/campaign-global-report.md#push-live)
 * [SMS](../reports/campaign-global-report.md#sms-live)
 * [Web](#web-tab)
 
-A campanha **[!UICONTROL Relatório global]** O é dividido em diferentes widgets detalhando o sucesso e os erros da campanha. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações sobre isso, consulte esta seção [seção](../reports/global-report.md#modify-dashboard).
+A campanha **[!UICONTROL Global report]** O é dividido em diferentes widgets detalhando o sucesso e os erros da campanha. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações sobre isso, consulte esta seção [seção](../reports/global-report.md#modify-dashboard).
 
-Para obter uma lista detalhada de todas as métricas disponíveis no Adobe Journey Optimizer, consulte [esta página](../reports/global-report.md#list-of-components-global.md)
+Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Otimizer, consulte [esta página](../reports/global-report.md#list-of-components-global.md)
 
 ## Guia Web {#web-tab}
 
 ![](assets/web-report.png)
 
-O **[!UICONTROL Desempenho da Web]** Os KPIs detalham as principais informações relativas ao envolvimento de seus visitantes com suas experiências da Web, como:
+O **[!UICONTROL Web performance]** Os KPIs detalham as principais informações relativas ao envolvimento de seus visitantes com suas experiências da Web, como:
 
-* **[!UICONTROL Impressões únicas]**: número de usuários únicos para os quais a experiência da Web foi entregue.
+* **[!UICONTROL Unique impressions]**: número de usuários únicos para os quais a experiência da Web foi entregue.
 
-* **[!UICONTROL Impressões]**: número total de experiências da Web entregues a todos os usuários.
+* **[!UICONTROL Impressions]**: número total de experiências da Web entregues a todos os usuários.
 
-O **[!UICONTROL Resumo da Web]** gráfico mostra a evolução de suas experiências da Web (impressões e impressões exclusivas) para o período em questão.
+O **[!UICONTROL Web summary]** gráfico mostra a evolução de suas experiências da Web (impressões e impressões exclusivas) para o período em questão.
