@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 0%
+source-wordcount: '1541'
+ht-degree: 11%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
 >title="Eventos unitários"
->abstract="A configuração do evento permite definir as informações que o Journey Otimizer receberá como eventos. Você pode usar vários eventos (em diferentes etapas de uma jornada) e várias jornadas podem usar o mesmo evento. Os eventos unitários são vinculados a um perfil específico. Eles podem ser baseados em regras ou gerados pelo sistema."
+>abstract="A configuração do evento permite definir as informações que o Journey Optimizer receberá como eventos. É possível usar vários eventos (em etapas diferentes de uma jornada) e várias jornadas podem usar o mesmo evento. Os eventos unitários são vinculados a um perfil específico. Eles podem ser baseados em regras ou gerados pelo sistema."
 
 Os eventos unitários são vinculados a um perfil específico. Eles podem ser baseados em regras ou gerados pelo sistema.  Leia mais no evento unitário [esta seção](../event/about-events.md).
 
 Estas são as primeiras etapas para configurar um novo evento:
 
-1. Na seção do menu ADMINISTRATION (ADMINISTRAÇÃO), selecione **[!UICONTROL Configurations]**. No  **[!UICONTROL Events]** seção , clique em **[!UICONTROL Manage]**. A lista de eventos é exibida.
+1. Na seção do menu ADMINISTRATION (ADMINISTRAÇÃO), selecione **[!UICONTROL Configurações]**. No  **[!UICONTROL Eventos]** seção , clique em **[!UICONTROL Gerenciar]**. A lista dos eventos é exibida.
 
    ![](assets/jo-event1.png)
 
-1. Clique em **[!UICONTROL Create Event]** para criar um novo evento. O painel de configuração do evento é aberto no lado direito da tela.
+1. Clique em **[!UICONTROL Criar evento]** para criar um novo evento. O painel de configuração do evento é aberto no lado direito da tela.
 
    ![](assets/jo-event2.png)
 
@@ -42,51 +42,51 @@ Estas são as primeiras etapas para configurar um novo evento:
    >
    >Não use espaços ou caracteres especiais. Não use mais de 30 caracteres.
 
-1. No **[!UICONTROL Type]** , escolha **Unitário**.
+1. No **[!UICONTROL Tipo]** , escolha **Unitário**.
 
    ![](assets/jo-event3bis.png)
 
-1. No **[!UICONTROL Event ID type]** selecione o tipo de ID de evento que deseja usar: **Baseado em regras** ou **Sistema gerado**. Leia mais sobre os tipos de IDs de evento em [esta seção](../event/about-events.md#event-id-type).
+1. No **[!UICONTROL Tipo de ID de evento]** selecione o tipo de ID de evento que deseja usar: **Baseado em regras** ou **Sistema gerado**. Leia mais sobre os tipos de IDs de evento em [esta seção](../event/about-events.md#event-id-type).
 
    ![](assets/jo-event4.png)
 
-1. O número de jornadas que usam esse evento é exibido na variável **[!UICONTROL Used in]** campo. Você pode clicar no botão **[!UICONTROL View journeys]** para exibir a lista de jornadas usando esse evento.
+1. O número de jornadas que usam esse evento é exibido na variável **[!UICONTROL Usado em]** campo. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** ícone para exibir a lista de jornadas usando esse evento.
 
-1. Defina os campos schema e payload: é aqui que você seleciona as informações do evento (normalmente chamadas de carga útil) que as jornadas esperam receber. Você poderá usar essas informações em sua jornada. Consulte [esta seção](../event/about-creating.md#define-the-payload-fields).
+1. Defina os campos schema e payload: é aqui que você seleciona as informações do evento (normalmente chamadas de carga útil) que o jornada espera receber. Você poderá então usar essas informações em sua jornada. Consulte [esta seção](../event/about-creating.md#define-the-payload-fields).
 
    ![](assets/jo-event5.png)
 
    >[!NOTE]
    >
-   >Ao selecionar a variável **[!UICONTROL System Generated]** , somente os esquemas que têm o campo do tipo eventID estão disponíveis. Ao selecionar a variável **[!UICONTROL Rule Based]** , todos os esquemas de Evento de experiência estão disponíveis.
+   >Ao selecionar a variável **[!UICONTROL Sistema gerado]** , somente os esquemas que têm o campo do tipo eventID estão disponíveis. Ao selecionar a variável **[!UICONTROL Baseado em regras]** , todos os esquemas de Evento de experiência estão disponíveis.
 
-1. Para eventos baseados em regras, clique dentro do **[!UICONTROL Event ID condition]** campo. Usando o editor de expressão simples, defina a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
+1. Para eventos baseados em regras, clique dentro do **[!UICONTROL Condição de ID de evento]** campo. Usando o editor de expressões simples, defina a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
    ![](assets/jo-event6.png)
 
-   Em nosso exemplo, escrevemos uma condição baseada na cidade do perfil. Isso significa que sempre que o sistema receber um evento que corresponda a essa condição (**[!UICONTROL City]** e **[!UICONTROL Paris]** valor), ele o passará para jornadas.
+   Em nosso exemplo, escrevemos uma condição baseada na cidade do perfil. Isso significa que sempre que o sistema receber um evento que corresponda a essa condição (**[!UICONTROL Cidade]** e **[!UICONTROL Paris]** ), ele a passará para o jornada.
 
    >[!NOTE]
    >
-   >O editor de expressão avançado não está disponível ao definir a variável **[!UICONTROL Event ID condition]**. No editor de expressões simples, nem todos os operadores estão disponíveis, eles dependem do tipo de dados. Por exemplo, para um tipo de string de campo, é possível usar &quot;contains&quot; ou &quot;equal to&quot;.
+   >O editor de expressão avançado não está disponível ao definir a variável **[!UICONTROL Condição de ID de evento]**. No editor de expressões simples, nem todos os operadores estão disponíveis, eles dependem do tipo de dados. Por exemplo, para um tipo de string de campo, é possível usar &quot;contains&quot; ou &quot;equal to&quot;.
 
-1. Adicione um namespace. Essa etapa é opcional, mas é recomendada, pois a adição de namespace permite aproveitar as informações armazenadas no Serviço de perfil do cliente em tempo real. Ela define o tipo de chave que o evento tem. Consulte [esta seção](../event/about-creating.md#select-the-namespace).
-1. Defina o identificador do perfil: escolha um campo a partir dos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento. Essa chave é configurada automaticamente (mas ainda pode ser editada) se você selecionar um namespace. Na verdade, as jornadas escolhem a chave que deve corresponder ao namespace (por exemplo, se você selecionar um namespace de email, a chave de email será selecionada). Consulte [esta seção](../event/about-creating.md#define-the-event-key).
+1. Adicione um namespace. Esta etapa é opcional, mas é recomendada, pois a adição de namespace permite que você aproveite as informações armazenadas no Serviço de perfil do cliente em tempo real. Ela define o tipo de chave que o evento tem. Consulte [esta seção](../event/about-creating.md#select-the-namespace).
+1. Defina o identificador do perfil: escolha um campo a partir dos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento. Essa chave é configurada automaticamente (mas ainda pode ser editada) se você selecionar um namespace. Na verdade, o jornada escolhe a chave que deve corresponder ao namespace (por exemplo, se você selecionar um namespace de email, a chave de email será selecionada). Consulte [esta seção](../event/about-creating.md#define-the-event-key).
 
    ![](assets/jo-event7.png)
 
-1. Clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
-   O evento agora está configurado e pronto para ser lançado em uma jornada. Etapas de configuração adicionais são necessárias para receber eventos. Consulte [esta página](../event/additional-steps-to-send-events-to-journey.md).
+   Agora o evento está configurado e pronto para ser lançado em uma jornada. Etapas de configuração adicionais são necessárias para receber eventos. Consulte [esta página](../event/additional-steps-to-send-events-to-journey.md).
 
 ## Definir os campos de carga {#define-the-payload-fields}
 
-A definição de carga permite escolher as informações que o sistema espera receber do evento em sua jornada e a chave para identificar qual pessoa está associada ao evento. A carga é baseada na definição do campo XDM da Experience Cloud. Para obter mais informações sobre XDM, consulte [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+A definição de carga permite escolher as informações que o sistema espera receber do evento em sua jornada e a chave para identificar qual pessoa está associada ao evento. A carga é baseada na definição do campo Experience Cloud XDM. Para obter mais informações sobre XDM, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
-1. Selecione um esquema XDM na lista e clique no botão **[!UICONTROL Fields]** ou no **[!UICONTROL Edit]** ícone .
+1. Selecione um esquema XDM na lista e clique no botão **[!UICONTROL Campos]** ou no **[!UICONTROL Editar]** ícone .
 
    ![](assets/journey8.png)
 
-   Todos os campos definidos no schema são exibidos. A lista de campos varia de um schema para outro. Você pode pesquisar um campo específico ou usar os filtros para exibir todos os nós e campos ou somente os campos selecionados. De acordo com a definição do schema, alguns campos podem ser obrigatórios e pré-selecionados. Não é possível desmarcá-los. Todos os campos obrigatórios para o evento ser recebido corretamente por jornadas são selecionados por padrão.
+   Todos os campos definidos no schema são exibidos. A lista de campos varia de um schema para outro. Você pode pesquisar um campo específico ou usar os filtros para exibir todos os nós e campos ou somente os campos selecionados. De acordo com a definição do schema, alguns campos podem ser obrigatórios e pré-selecionados. Não é possível desmarcá-los. Todos os campos obrigatórios para o evento ser recebido corretamente pelo jornada são selecionados por padrão.
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ A definição de carga permite escolher as informações que o sistema espera re
 
 1. Quando terminar de selecionar os campos necessários, clique em **[!UICONTROL Ok]** ou pressione **[!UICONTROL Enter]**.
 
-   O número de campos selecionados é exibido na **[!UICONTROL Fields]** campo.
+   O número de campos selecionados é exibido na **[!UICONTROL Campos]** campo.
 
    ![](assets/journey12.png)
 
@@ -113,11 +113,11 @@ A definição de carga permite escolher as informações que o sistema espera re
 >title="Namespace de identidade"
 >abstract="Selecione a chave para identificar o perfil do cliente associado ao evento."
 
-O namespace permite definir o tipo de chave usada para identificar a pessoa associada ao evento. Sua configuração é opcional. É necessário se você quiser recuperar, em suas jornadas, informações adicionais provenientes do [Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}. A definição do namespace não é necessária se você estiver usando apenas dados provenientes de um sistema de terceiros por meio de uma fonte de dados personalizada.
+O namespace permite definir o tipo de chave usada para identificar a pessoa associada ao evento. Sua configuração é opcional. É necessário se você quiser recuperar, em suas jornadas, informações adicionais provenientes do [Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target=&quot;_blank&quot;}. A definição do namespace não é necessária se você estiver usando apenas dados provenientes de um sistema de terceiros por meio de uma fonte de dados personalizada.
 
-Você pode usar um dos predefinidos ou criar um novo usando o serviço Namespace de identidade. Consulte [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target=&quot;_blank&quot;}.
+Você pode usar um dos predefinidos ou criar um novo usando o serviço Namespace de identidade. Consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
-Se você selecionar um esquema que tenha uma identidade primária, a variável **[!UICONTROL Profiler identifier]** e **[!UICONTROL Namespace]** Os campos são pré-preenchidos. Se não houver identidade definida, selecionamos _identityMap > id_ como a chave primária. Em seguida, é necessário selecionar um namespace e a chave será pré-preenchida (abaixo de **[!UICONTROL Namespace]** campo) usando _identityMap > id_.
+Se você selecionar um esquema que tenha uma identidade primária, a variável **[!UICONTROL Identificador do criador de perfis]** e **[!UICONTROL Namespace]** Os campos são pré-preenchidos. Se não houver identidade definida, selecionamos _identityMap > id_ como a chave primária. Em seguida, é necessário selecionar um namespace e a chave será pré-preenchida (abaixo de **[!UICONTROL Namespace]** campo) usando _identityMap > id_.
 
 Ao selecionar campos, os campos de identidade primários são marcados.
 
@@ -132,11 +132,11 @@ Somente um namespace é permitido por jornada. Se você usar vários eventos na 
 
 ## Definir o identificador de perfil {#define-the-event-key}
 
-A chave é o campo, ou combinação de campos, que faz parte dos dados de payload do evento e permite que o sistema identifique a pessoa associada ao evento. A chave pode ser, por exemplo, a Experience Cloud ID, uma ID de CRM ou um endereço de email.
+A chave é o campo, ou combinação de campos, que faz parte dos dados de payload do evento e permite que o sistema identifique a pessoa associada ao evento. A chave pode ser, por exemplo, a ID do Experience Cloud, uma ID do CRM ou um endereço de email.
 
-Para usar os dados armazenados no banco de dados do Perfil do cliente em tempo real da Adobe, a chave do evento deve ser as informações definidas como a identidade de um perfil no [Serviço de perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
+Para usar os dados armazenados no banco de dados do Perfil do cliente em tempo real do Adobe, a chave do evento deve ser as informações definidas como a identidade de um perfil no [Serviço de perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
-O identificador de perfil permite que o sistema execute a reconciliação entre o evento e o perfil do indivíduo. Se você selecionar um esquema que tenha uma identidade primária, a variável **[!UICONTROL Profile identifier]** e **[!UICONTROL Namespace]** Os campos são pré-preenchidos. Se não houver identidade definida, a variável _identityMap > id_ é a chave primária. Em seguida, você deve selecionar um namespace e a chave é automaticamente pré-preenchida usando _identityMap > id_.
+O identificador de perfil permite que o sistema execute a reconciliação entre o evento e o perfil do indivíduo. Se você selecionar um esquema que tenha uma identidade primária, a variável **[!UICONTROL Identificador de perfil]** e **[!UICONTROL Namespace]** Os campos são pré-preenchidos. Se não houver identidade definida, a variável _identityMap > id_ é a chave primária. Em seguida, você deve selecionar um namespace e a chave é automaticamente pré-preenchida usando _identityMap > id_.
 
 Ao selecionar campos, os campos de identidade primários são marcados.
 
@@ -144,7 +144,7 @@ Ao selecionar campos, os campos de identidade primários são marcados.
 
 Se você precisar usar uma chave diferente, como uma ID do CRM ou um endereço de email, será necessário adicioná-la manualmente, conforme explicado abaixo:
 
-1. Clique dentro do **[!UICONTROL Profile identifier]** ou no ícone de lápis.
+1. Clique dentro do **[!UICONTROL Identificador de perfil]** ou no ícone de lápis.
 
    ![](assets/journey16.png)
 
@@ -152,10 +152,10 @@ Se você precisar usar uma chave diferente, como uma ID do CRM ou um endereço d
 
    ![](assets/journey20.png)
 
-Quando o evento é recebido, o valor da chave permite que o sistema identifique a pessoa associada ao evento. Associado a um namespace (consulte [esta seção](../event/about-creating.md#select-the-namespace)), a chave pode ser usada para executar consultas na Adobe Experience Platform. Consulte [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
+Quando o evento é recebido, o valor da chave permite que o sistema identifique a pessoa associada ao evento. Associado a um namespace (consulte [esta seção](../event/about-creating.md#select-the-namespace)), a chave pode ser usada para executar consultas no Adobe Experience Platform. Consulte [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
 A chave também é usada para verificar se uma pessoa está em uma jornada. Na verdade, uma pessoa não pode estar em dois lugares diferentes na mesma jornada. Como resultado, o sistema não permite que a mesma chave, por exemplo, a chave CRMID=3224, esteja em lugares diferentes na mesma jornada.
 
-Também é possível acessar as funções de expressão avançadas (**[!UICONTROL Advanced mode]**) se você quiser realizar manipulações adicionais. Essas funções permitem manipular os valores usados para realizar consultas específicas, como formatos móveis, realizar concatenações de campo, levando em conta apenas uma parte de um campo (por exemplo, os 10 primeiros caracteres). Veja isso [página](../building-journeys/expression/expressionadvanced.md).
+Também é possível acessar as funções de expressão avançadas (**[!UICONTROL Modo avançado]**) se você quiser realizar manipulações adicionais. Essas funções permitem manipular os valores usados para realizar consultas específicas, como formatos móveis, realizar concatenações de campo, levando em conta apenas uma parte de um campo (por exemplo, os 10 primeiros caracteres). Consulte esta [página](../building-journeys/expression/expressionadvanced.md).
 
 ## Visualizar a carga {#preview-the-payload}
 
@@ -165,7 +165,7 @@ A pré-visualização de carga permite validar a definição da carga útil.
 >
 >Para eventos gerados pelo sistema, ao criar um evento, antes de visualizar a pré-visualização do payload, salve o evento e abra-o novamente. Essa etapa é necessária para gerar uma ID de evento no payload.
 
-1. Clique no botão **[!UICONTROL View Payload]** ícone para visualizar a carga esperada pelo sistema.
+1. Clique no botão **[!UICONTROL Exibir carga]** ícone para visualizar a carga esperada pelo sistema.
 
    ![](assets/journey13.png)
 
