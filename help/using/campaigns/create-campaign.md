@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 5f8a765eefe4033a642c46e18be518d29b196bc3
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 0%
+source-wordcount: '628'
+ht-degree: 10%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Antes de criar uma nova campanha, verifique se você tem um canal de superfície (ou seja, uma predefinição de mensagem) e um segmento da Adobe Experience Platform pronto para uso. Saiba mais nestas seções:
+>Antes de criar uma nova campanha, verifique se você tem um canal de superfície (ou seja, uma predefinição de mensagem) e um segmento do Adobe Experience Platform pronto para uso. Saiba mais nestas seções:
 >
 >* [Criar superfícies de canal](../configuration/channel-surfaces.md)
->* [Introdução a segmentos](../segment/about-segments.md)
+>* [Introdução aos segmentos](../segment/about-segments.md)
 
 
 ## Criar sua primeira campanha {#create}
 
-1. Acesse o **[!UICONTROL Campaigns]** , em seguida, clique em **[!UICONTROL Create campaign]**.
+1. Acesse o **[!UICONTROL Campanhas]** , em seguida, clique em **[!UICONTROL Criar campanha]**.
 
    >[!NOTE]
    >
@@ -35,16 +35,16 @@ ht-degree: 0%
 
    ![](assets/create-campaign.png)
 
-1. No **[!UICONTROL Properties]** especifique como deseja executar a campanha:
+1. No **[!UICONTROL Propriedades]** especifique como deseja executar a campanha:
 
-   * **[!UICONTROL Scheduled]**
-   * **[!UICONTROL API-triggered]**
+   * **[!UICONTROL Programado]**
+   * **[!UICONTROL Acionado por API]**
 
    Para obter mais informações sobre o tipo de campanha e os envolvimentos associados, consulte esta seção [seção](#campaigntype).
 
-1. No **[!UICONTROL Actions]** escolha o canal e a superfície do canal a serem usados para enviar a mensagem e clique em **[!UICONTROL Create]**.
+1. No **[!UICONTROL Ações]** escolha o canal e a superfície do canal a serem usados para enviar a mensagem e clique em **[!UICONTROL Criar]**.
 
-   Uma superfície é uma configuração que foi definida por uma [Administrador do sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis, etc. [Saiba mais](../configuration/channel-surfaces.md).
+   Uma superfície é uma configuração que foi definida por um [Administrador do sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba mais](../configuration/channel-surfaces.md).
 
    ![](assets/create-campaign-action.png)
 
@@ -56,13 +56,13 @@ ht-degree: 0%
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
-1. Para atribuir rótulos de uso de dados personalizados ou principais à campanha, clique no botão **[!UICONTROL Manage access]** botão. [Saiba mais sobre o Controle de acesso no nível do objeto (OLA)](../administration/object-based-access.md)
+1. Para atribuir rótulos de uso de dados personalizados ou principais à campanha, clique no botão **[!UICONTROL Gerenciar acesso]** botão. [Saiba mais sobre o Controle de acesso no nível do objeto (OLA)](../administration/object-based-access.md)
 
 ## Criar a mensagem {#content}
 
-No **[!UICONTROL Actions]** , crie a mensagem a ser enviada com a campanha.
+No **[!UICONTROL Ações]** , crie a mensagem a ser enviada com a campanha.
 
-1. Clique no botão **[!UICONTROL Edit content]** , em seguida, crie e crie o conteúdo da mensagem.
+1. Clique no botão **[!UICONTROL Editar conteúdo]** , em seguida, crie e crie o conteúdo da mensagem.
 
    Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem nas seguintes páginas:
 
@@ -70,7 +70,7 @@ No **[!UICONTROL Actions]** , crie a mensagem a ser enviada com a campanha.
     <tr style="border: 0;">
     <td>
     <a href="../email/create-email.md">
-    <img alt="Líder" src="../assets/do-not-localize/email.jpg">
+    <img alt="Cliente potencial" src="../assets/do-not-localize/email.jpg">
     </a>
     <div><a href="../email/create-email.md"><strong>Criar emails</strong>
     </div>
@@ -97,25 +97,25 @@ No **[!UICONTROL Actions]** , crie a mensagem a ser enviada com a campanha.
     </tr>
     </table>
 
-1. Depois que o conteúdo for definido, use a variável **[!UICONTROL Simulate content]** para visualizar e testar seu conteúdo com perfis de teste. [Saiba mais](../email/preview.md).
+1. Depois que o conteúdo for definido, use a variável **[!UICONTROL Simular conteúdo]** para visualizar e testar seu conteúdo com perfis de teste. [Saiba mais](../email/preview.md).
 
 1. Clique na seta para voltar à tela de criação da campanha.
 
    ![](assets/create-campaign-design.png)
 
-1. No **[!UICONTROL Actions tracking]** , especifique se deseja rastrear como os recipients reagem ao seu delivery: você pode rastrear cliques e/ou aberturas.
+1. No **[!UICONTROL Rastreamento de ações]** , especifique se deseja rastrear como os recipients reagem ao seu delivery: você pode rastrear cliques e/ou aberturas.
 
    Os resultados do rastreamento serão acessíveis no relatório da campanha após a execução da campanha. [Saiba mais sobre relatórios de campanha](../reports/campaign-global-report.md)
 
-## Definir o público {#audience}
+## Definir a audiência {#audience}
 
-1. Defina o público-alvo como meta. Para fazer isso, clique no botão **[!UICONTROL Select audience]** para exibir a lista de segmentos disponíveis da Adobe Experience Platform. [Saiba mais sobre segmentos](../segment/about-segments.md)
+1. Defina o público-alvo como meta. Para fazer isso, clique no botão **[!UICONTROL Seleção do público-alvo]** para exibir a lista de segmentos disponíveis do Adobe Experience Platform. [Saiba mais sobre segmentos](../segment/about-segments.md)
 
    >[!NOTE]
    >
    >Para campanhas acionadas por API, o público-alvo precisa ser definido por meio de uma chamada de API. [Saiba mais](api-triggered-campaigns.md)
 
-   No **[!UICONTROL Identity namespace]** , escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace)
+   No **[!UICONTROL Namespace de identidade]** , escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace)
 
    ![](assets/create-campaign-namespace.png)
 
@@ -142,9 +142,9 @@ No **[!UICONTROL Actions]** , crie a mensagem a ser enviada com a campanha.
 >title="Acionadores de ação da campanha"
 >abstract="TBC"
 
-1. Para executar sua campanha em uma data específica ou em uma frequência recorrente, configure a variável **[!UICONTROL Schedule]** seção. [Saiba como agendar campanhas](#schedule)
+1. Para executar sua campanha em uma data específica ou em uma frequência recorrente, configure a variável **[!UICONTROL Agendar]** seção. [Saiba como agendar campanhas](#schedule)
 
-1. Para atribuir rótulos de uso de dados personalizados ou principais à campanha, clique no botão **[!UICONTROL Manage access]** botão. [Saiba mais sobre o Controle de acesso no nível do objeto (OLA)](../administration/object-based-access.md)
+1. Para atribuir rótulos de uso de dados personalizados ou principais à campanha, clique no botão **[!UICONTROL Gerenciar acesso]** botão. [Saiba mais sobre o Controle de acesso no nível do objeto (OLA)](../administration/object-based-access.md)
 
 Quando a campanha estiver pronta, você poderá revisá-la e publicá-la. [Saiba mais](#review-activate)
 
@@ -162,6 +162,6 @@ Quando a campanha estiver pronta, você poderá revisá-la e publicá-la. [Saiba
 
 Há dois tipos de campanha disponíveis:
 
-* **[!UICONTROL Scheduled]**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas têm como objetivo enviar **marketing** digite mensagens.
+* **[!UICONTROL Programado]**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas têm como objetivo enviar **marketing** digite mensagens.
 
-* **[!UICONTROL API-triggered]**: execute a campanha usando uma chamada de API . As campanhas acionadas por API são destinadas ao envio de **transacional** mensagens, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, abandono de cartão etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
+* **[!UICONTROL Acionado por API]**: execute a campanha usando uma chamada de API . As campanhas acionadas por API são destinadas ao envio de **transacional** mensagens, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, abandono de cartão etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
