@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Clique nos três pontos ao lado de uma página de aterrissagem para selecionar a
 >id="ajo_lp_create"
 >title="Definir e configurar a landing page"
 >abstract="Para criar uma landing page, você precisa selecionar uma predefinição, configurar a página primária e as subpáginas e, finalmente, testar sua página antes de publicá-la."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de aterrissagem"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de aterrissagem"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Publicar a landing page"
 
 >[!CONTEXTUALHELP]
@@ -100,8 +100,8 @@ Depois de configurar e projetar o [página primária](#configure-primary-page)e 
 >id="ajo_lp_access_settings"
 >title="Definir o URL da página de aterrissagem"
 >abstract="Nesta seção, defina um URL de página de aterrissagem exclusivo. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem como parte da predefinição selecionada."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Configurar subdomínios de página de aterrissagem"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de aterrissagem"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="Configurar subdomínios de página de aterrissagem"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de aterrissagem"
 
 A página primária é a página que é imediatamente exibida aos usuários depois que eles clicam no link de sua página inicial, como de um email ou de um site.
 
