@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -138,12 +138,12 @@ Quando a campanha estiver pronta, você poderá revisá-la e publicá-la. [Saiba
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campanha"
->abstract="TBC"
+>abstract="Para uma mensagem de marketing ao especificar uma data de envio, a variável **Programado** O tipo é o mais apropriado. No entanto, se você quiser enviar mensagens transacionais, como redefinição de senha ou abandono de cartão, a variável **Acionado por API** é a melhor opção."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Categoria de campanha"
->abstract="TBC"
+>abstract="O valor da Categoria é vinculado diretamente ao valor do tipo de campanha. Programe o tipo de campanha para a **Marketing** categoria e tipo acionado por API para a categoria **Transacional**"
 
 Há dois tipos de campanha disponíveis:
 
