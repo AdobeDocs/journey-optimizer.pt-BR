@@ -4,9 +4,9 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Saiba mais sobre as atualizações mais recentes da documentação
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Esta página lista todas as atualizações de documentação do [!DNL Journey Op
    * [Canal de email](../email/get-started-email.md)
    * [Canal de notificação por push](../push/get-started-push.md)
    * [Canal SMS](../sms/get-started-sms.md)
+
+* O guia Configuração foi reorganizado para melhorar a legibilidade. [Leia mais](../configuration/get-started-configuration.md)
 
 ## Novembro de 2022 {#november-2022}
 
