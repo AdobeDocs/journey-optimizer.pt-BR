@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução às landing pages
-description: Saiba mais sobre landing pages no Journey Otimizer
+title: Introdução às páginas de destino
+description: Saiba mais sobre landing pages no Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 0%
+source-wordcount: '202'
+ht-degree: 10%
 
 ---
 
-# Introdução às landing pages {#get-sarted-lp}
+# Introdução às páginas de destino {#get-sarted-lp}
 
 Uma página de aterrissagem é uma página da Web independente para a qual o usuário é direcionado depois de clicar por email, por um site, por um anúncio ou por qualquer outro local digital.
 
@@ -32,7 +32,7 @@ Uma página de aterrissagem é uma página da Web independente para a qual o usu
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="Líder" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="Cliente potencial" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
 <div><a href="create-lp.md"><strong>Criar landing pages</strong>
 </div>
@@ -60,7 +60,7 @@ Uma página de aterrissagem é uma página da Web independente para a qual o usu
 <img alt="Validação" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="../reports/lp-report-live.md"><strong>Relatório</strong></a>
+<a href="../reports/lp-report-live.md"><strong>Relatórios</strong></a>
 </div>
 <p>
 </td>

@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
@@ -28,30 +28,30 @@ Os campos de evento Step são organizados por categoria.
 
 | Nome do campo | Tipo | Descrição |
 |---|---|------------|
-| requestId | String | A ID de solicitação usada pelo Journey Otimizer para rastrear o fluxo de uma solicitação. |
+| requestId | String | A ID da solicitação usada pelo Journey Optimizer para rastrear o fluxo de uma solicitação. |
 
 ## jornada {#journey-field}
 
-Esse grupo de campos é usado no schema da jornada (em relação a journeyStepEvent). Ele contém os seguintes campos:
+Esse grupo de campos é usado no schema de jornada (em relação a journeyStepEvent). Ele contém os seguintes campos:
 
 | Nome do campo | Tipo | Descrição |
 |---|---|------------|
-| ID | String | Identificador para a jornada fornecida |
-| VersionID | String | Id da versão da jornada. Essa id representa a identidade de uma jornada |
+| ID | String | Identificador para a Jornada em questão |
+| VersionID | String | Id da versão do jornada. Essa id representa a identidade de uma jornada |
 | name | String | Nome da jornada |
 | descrição | String | Descrição da jornada |
 | version | String | versão, representada como `major`.`minor` |
 
 ## perfil {#profile-field}
 
-Esse grupo de campos é específico para journeyStepEvent: esse evento está relacionado à jornada e não tem o identityMap, descrevendo a identidade do perfil, se houver.
+Esse grupo de campos é específico para journeyStepEvent: esse evento está relacionado ao jornada e não tem o identityMap, descrevendo a identidade do perfil, se houver.
 
 Para journeyStepEvent, também precisamos adicionar campos relacionados à identidade:
 
 | Nome do campo | Tipo | Descrição |
 |---|---|------------|
 | ID | String | O identificador de perfil identifica o perfil enviado/usado em uma jornada. Por exemplo: foo@adobe.com. |
-| namespace | String | Este campo descreve o Namespace referenciado pelo Perfil usado na jornada. Por exemplo: Email, ECID |
+| namespace | String | Este campo descreve o Namespace referenciado pelo Perfil usado na Jornada. Por exemplo: Email, ECID |
 
 ## serviceEvents {#servicevents-field}
 

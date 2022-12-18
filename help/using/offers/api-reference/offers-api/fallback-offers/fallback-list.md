@@ -1,5 +1,5 @@
 ---
-title: Listar ofertas de fallback
+title: Listar ofertas substitutas
 description: Uma oferta de fallback é enviada para os clientes se eles não estiverem qualificados para outras ofertas
 feature: Offers
 topic: Integrations
@@ -9,15 +9,15 @@ exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Listar ofertas de fallback {#list-fallback-offers}
+# Listar ofertas substitutas {#list-fallback-offers}
 
 Uma oferta de fallback é enviada aos clientes se eles não estiverem qualificados para outras ofertas. As etapas para criar uma oferta de fallback consistem em criar uma ou várias representações, como ao criar uma oferta.
 
-Você pode exibir uma lista de todas as ofertas de fallback em um contêiner executando uma única solicitação GET para o [!DNL Offer Library] API.
+Você pode exibir uma lista de todas as ofertas de fallback em um contêiner executando uma única solicitação de GET para a [!DNL Offer Library] API.
 
 **Formato da API**
 

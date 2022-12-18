@@ -9,7 +9,7 @@ exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Coleções são subconjuntos de ofertas com base em condições predefinidas definidas por um profissional de marketing, como a categoria da oferta.
 
-Você pode pesquisar coleções específicas fazendo uma solicitação GET para o [!DNL Offer Library] API que inclui a coleção `@id` ou o nome da coleção no caminho da solicitação.
+Você pode pesquisar coleções específicas fazendo uma solicitação do GET para a variável [!DNL Offer Library] API que inclui a coleção `@id` ou o nome da coleção no caminho da solicitação.
 
 **Formato da API**
 

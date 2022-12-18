@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Usar o Assets Essentials no Journey Otimizer
+title: Usar o Assets Essentials no Journey Optimizer
 description: Introdução ao Assets Essentials
 feature: Overview
 topic: Content Management
@@ -10,14 +10,14 @@ level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 0%
+source-wordcount: '477'
+ht-degree: 10%
 
 ---
 
 # Crie e gerencie ativos com [!DNL Assets Essentials]{#experience-manager-assets}
 
-## Introdução a [!DNL Assets Essentials] {#get-started-assets-essentials}
+## Introdução ao [!DNL Assets Essentials] {#get-started-assets-essentials}
 
 Reúna fluxos de trabalho de marketing e criação usando [!DNL Adobe Experience Manager Assets Essentials]. Integrado nativamente com [!DNL Adobe Journey Optimizer], acesso [!DNL Assets Essentials] para armazenar, gerenciar, descobrir e distribuir ativos digitais. Ele fornece um repositório único e centralizado de ativos que você pode usar para preencher suas mensagens.
 
@@ -25,14 +25,14 @@ Reúna fluxos de trabalho de marketing e criação usando [!DNL Adobe Experience
 
 Saiba mais em [Documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
 
-[!DNL Adobe Experience Manager Assets Essentials] pode ser acessada diretamente de [!DNL Adobe Journey Optimizer] no menu esquerdo **[!UICONTROL Assets]** seção. Também é possível acessar ativos e pastas ao [design de conteúdo de email](get-started-email-design.md).
+[!DNL Adobe Experience Manager Assets Essentials] pode ser acessada diretamente de [!DNL Adobe Journey Optimizer] no menu esquerdo **[!UICONTROL Ativos]** seção. Também é possível acessar ativos e pastas ao [design de conteúdo de email](get-started-email-design.md).
 
 ## Pré-requisitos{#assets-prerequisites}
 
-Antes de usar [!DNL Adobe Experience Manager Assets Essentials], você deve adicionar usuários ao **Usuários do consumidor do Assets Essentials** ou/e **Usuários do Assets Essentials** Perfis de produto. Leia mais em [Documentação do Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+Antes de usar [!DNL Adobe Experience Manager Assets Essentials], você deve adicionar usuários ao **Usuários do cliente do Assets Essentials** ou/e **Usuários do Assets Essentials** Perfis de produto. Leia mais em [Documentação do Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 >[!NOTE]
->Para os produtos do Journey Otimizer obtidos antes de 6 de janeiro de 2022, é necessário implantar [!DNL Adobe Experience Manager Assets Essentials] para sua organização. Saiba mais na [Implantar ativos essenciais](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)seção {target=&quot;_blank&quot;}.
+>Para produtos do Journey Optimizer obtidos antes de 6 de janeiro de 2022, é necessário implantar [!DNL Adobe Experience Manager Assets Essentials] para sua organização. Saiba mais na seção [Implantar o Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 ## Fazer upload e inserir ativos{#add-asset}
 
@@ -40,21 +40,21 @@ Para importar arquivos para [!DNL Assets Essentials], primeiro é necessário pr
 
 Para obter mais informações sobre como fazer upload de ativos, consulte [Documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}.
 
-1. De [!DNL Adobe Journey Optimizer] página inicial, selecione o **[!UICONTROL Assets]** na guia **[!UICONTROL Content management]** para acessar o menu [!DNL Assets Essentials].
+1. De [!DNL Adobe Journey Optimizer] página inicial, selecione o **[!UICONTROL Ativos]** na guia **[!UICONTROL Gestão de conteúdo]** para acessar o menu [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
 
 1. Clique duas vezes em uma pasta na seção central ou na visualização em árvore para abri-la.
 
-   Você também pode clicar em **[!UICONTROL Create folder]** para criar uma nova pasta.
+   Você também pode clicar em **[!UICONTROL Criar pasta]** para criar uma nova pasta.
 
    ![](assets/media_library_8.png)
 
-1. Uma vez na pasta selecionada ou criada, clique em **[!UICONTROL Add Assets]** para fazer upload do novo ativo para a sua pasta.
+1. Uma vez na pasta selecionada ou criada, clique em **[!UICONTROL Adicionar ativos]** para fazer upload do novo ativo para a sua pasta.
 
    ![](assets/media_library_2.png)
 
-1. No **[!UICONTROL Upload files]**, clique em **[!UICONTROL Browse]** e escolha se deseja **[!UICONTROL Browse files]** ou **[!UICONTROL Browse folders]**.
+1. No **[!UICONTROL Upload de arquivos]**, clique em **[!UICONTROL Procurar]** e escolha se deseja **[!UICONTROL Procurar arquivos]** ou **[!UICONTROL Procurar pastas]**.
 
    ![](assets/media_library_3.png)
 
@@ -68,17 +68,17 @@ Para obter mais informações sobre como fazer upload de ativos, consulte [Docum
 
    ![](assets/media_library_12.png)
 
-1. De [!DNL Adobe Journey Optimizer], selecione **[!UICONTROL Asset picker]** no painel esquerdo do designer de email.
+1. De [!DNL Adobe Journey Optimizer], selecione **[!UICONTROL Seletor de ativos]** no painel esquerdo do designer de email.
 
    ![](assets/media_library_5.png)
 
-1. Selecione seu **[!UICONTROL Assets]** pasta. Você também pode pesquisar seu ativo ou sua pasta na barra de pesquisa.
+1. Selecione seu **[!UICONTROL Ativos]** pasta. Você também pode pesquisar seu ativo ou sua pasta na barra de pesquisa.
 
 1. Arraste e solte o ativo no seu conteúdo de email.
 
    ![](assets/media_library_6.png)
 
-1. Você pode personalizar ainda mais seus ativos, como adicionar um link externo ou um texto usando a variável **[!UICONTROL Components settings]**. [Saiba mais sobre configurações de componentes](content-components.md)
+1. Você pode personalizar ainda mais seus ativos, como adicionar um link externo ou um texto usando a variável **[!UICONTROL Configurações de componentes]**. [Saiba mais sobre configurações de componentes](content-components.md)
 
    ![](assets/media_library_13.png)
 

@@ -10,19 +10,19 @@ level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
 # Casos de uso do conjunto de dados {#tracking-datasets}
 
-Nesta página, você encontrará a lista de conjuntos de dados do Adobe Journey Otimizer e casos de uso relacionados:
+Nesta página, você encontrará a lista de conjuntos de dados do Adobe Journey Optimizer e casos de uso relacionados:
 
 [Conjunto de dados de eventos de experiência de rastreamento de email](#email-tracking-experience-event-dataset)
 [Conjunto de dados do evento de feedback de mensagem](#message-feedback-event-dataset)
 [Conjunto de dados do evento de experiência de rastreamento de push](#push-tracking-experience-event-dataset)
-[Evento Journey Step](#journey-step-event)
+[Evento de etapa de Jornada](#journey-step-event)
 [Conjunto de dados do evento de decisão](#ode-decisionevents)
 [Conjunto de dados do serviço de consentimento](#consent-service-dataset)
 [Conjunto de dados do evento de feedback CCO](#bcc-feedback-event-dataset)
@@ -32,7 +32,7 @@ Nesta página, você encontrará a lista de conjuntos de dados do Adobe Journey 
 
 _Nome na interface : Conjunto de dados de eventos de experiência de rastreamento de email CJM_
 
-Conjunto de dados do sistema para assimilar eventos de experiência de rastreamento de email do Journey Otimizer.
+Conjunto de dados do sistema para assimilar eventos de experiência de rastreamento de email do Journey Optimizer.
 
 O schema relacionado é o Esquema de evento da experiência de rastreamento de email CJM.
 
@@ -72,7 +72,7 @@ limit 100;
 
 _Nome na interface: Conjunto de dados do evento de feedback de mensagem CJM_
 
-Conjunto de dados para assimilar eventos de feedback de aplicativos de email e push do Journey Otimizer.
+Conjunto de dados para assimilar eventos de feedback de aplicativos de email e de push do Journey Optimizer.
 
 O schema relacionado é o Esquema de Evento de Feedback de Mensagem CJM.
 
@@ -148,7 +148,7 @@ SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefail
 
 _Nome na interface: Conjunto de dados do evento de experiência de rastreamento de push CJM_
 
-Conjunto de dados para assimilar eventos de experiência de rastreamento móvel para push do Journey Otimizer.
+Conjunto de dados para assimilar eventos de experiência de rastreamento móvel para push do Journey Optimizer.
 
 O schema relacionado é o Esquema de Evento de Experiência de Rastreamento de Push CJM.
 
@@ -162,13 +162,13 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
-## Evento Journey Step{#journey-step-event}
+## Evento de etapa de Jornada{#journey-step-event}
 
-_Nome interno: Eventos de etapas da jornada (conjunto de dados do sistema)_
+_Nome interno: Eventos de etapa do Jornada (conjunto de dados do sistema)_
 
 Conjunto de dados para assimilar eventos de etapa na jornada.
 
-O schema relacionado é o schema do Evento de etapa da jornada do Journey Orchestration.
+O schema relacionado é o schema Jornada Step Event para o Journey Orchestration.
 
 Esta consulta mostra o detalhamento das contagens de sucesso de ação por rótulo de ação para uma determinada jornada:
 
@@ -237,7 +237,7 @@ group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.rank
 
 _Nome na interface: Conjunto de dados do serviço de consentimento CJM (conjunto de dados do sistema)_
 
-Conjunto de dados para o serviço de consentimento do Journey Otimizer.
+Conjunto de dados para o serviço Journey Optimizer Consent.
 
 O schema relacionado é o Esquema do Serviço de Consentimento CJM.
 
@@ -314,11 +314,11 @@ Conjunto de dados para armazenar metadados da entidade para mensagens enviadas a
 
 O schema relacionado é o Esquema de Entidade AJO.
 
-Esse conjunto de dados fornece acesso aos metadados definidos pelo profissional de marketing, o que permite obter melhores insights de relatórios quando os conjuntos de dados do Journey Otimizer são exportados para visualização de relatórios em ferramentas externas. Isso é obtido usando o atributo messageID que ajuda a compilar vários conjuntos de dados, como Conjunto de dados de feedback de mensagem e Conjuntos de dados de rastreamento de evento de experiência, para obter detalhes do delivery de mensagem do envio para o rastreamento no nível do perfil.
+Esse conjunto de dados fornece acesso aos metadados definidos pelo profissional de marketing, o que permite obter melhores insights de relatório quando os conjuntos de dados do Journey Optimizer são exportados para visualização de relatórios em ferramentas externas. Isso é obtido usando o atributo messageID que ajuda a compilar vários conjuntos de dados, como Conjunto de dados de feedback de mensagem e Conjuntos de dados de rastreamento de evento de experiência, para obter detalhes do delivery de mensagem do envio para o rastreamento no nível do perfil.
 
 **Observações importantes**
 
-* Uma entrada para uma mensagem é criada somente após a publicação de uma jornada ou campanha.
+* Uma entrada para uma mensagem é criada somente após a publicação da jornada ou campanha.
 
 * Você pode ver a entrada 30 minutos após a publicação da campanha/jornada.
 
@@ -338,7 +338,7 @@ from
     WHERE AE._experience.customerJourneyManagement.entities.campaign.campaignVersionID = 'd7a01136-b113-4ef2-8f59-b6001f7eef6e'
 ```
 
-A consulta a seguir ajuda a obter os Detalhes da jornada e o assunto do email associados a todos os eventos de feedback:
+A consulta a seguir ajuda a obter os Detalhes da Jornada e o assunto do email associado a todos os eventos de feedback:
 
 ```sql
 SELECT 
@@ -355,7 +355,7 @@ WHERE
   AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```
 
-É possível compilar eventos de etapa de jornada, Feedback de mensagem e conjuntos de dados de rastreamento para obter as estatísticas de um perfil específico:
+É possível compilar eventos de etapa do jornada, Feedback de mensagem e conjuntos de dados de rastreamento para obter as estatísticas de um perfil específico:
 
 ```sql
 SELECT 

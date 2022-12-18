@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 0%
+source-wordcount: '600'
+ht-degree: 2%
 
 ---
 
@@ -203,7 +203,7 @@ O resultado é &quot;token_2&quot;.
 
 >[!NOTE]
 >
->Os eventos de experiência são recuperados da Adobe Experience Platform como uma coleção em ordem cronológica inversa, portanto:
+>Os eventos de experiência são recuperados do Adobe Experience Platform como uma coleção em ordem cronológica inversa, portanto:
 >
 >* **[!UICONTROL first]** retornará o evento mais recente
 >* **[!UICONTROL last]** retornará a função mais antiga.

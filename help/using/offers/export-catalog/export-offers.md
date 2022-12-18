@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 0%
+source-wordcount: '2008'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ O lote bem-sucedido mais recente no conjunto de dados é exibido à direita. A e
 >
 >Saiba como acessar os conjuntos de dados exportados para cada objeto da Biblioteca de ofertas em [esta seção](../export-catalog/access-dataset.md).
 
-Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decision Object Repository - Personalized Offers]** conjunto de dados.
+Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Repositório de objetos de decisão - Ofertas personalizadas]** conjunto de dados.
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
@@ -34,7 +34,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decisio
 **Campo:** _id
 **Título:** Identificador
 **Descrição:** Um identificador exclusivo para o registro.
-**Tipo:** string
+**Tipo:** sequência de caracteres
 
 ## _experiência {#experience}
 
@@ -58,20 +58,20 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decisio
    **Campo:** endDate
    **Título:** Data e hora finais
    **Descrição:** A data final de uma validade de opções de decisão. As opções que ultrapassaram sua data final não podem mais ser propostas no processo de decisão.
-   **Tipo:** string
+   **Tipo:** sequência de caracteres
 
 * **Data e hora de início**
 
    **Campo:** startDate
    **Título:** Data e hora de início
    **Descrição:** A data de início de uma validade de opções de decisão. As opções que não atingiram a data de início ainda não podem ser propostas no processo de decisão.
-   **Tipo:** string
+   **Tipo:** sequência de caracteres
 
 #### _experience > decisioning > características
 
 **Campo:** características
 **Título:** Características da opção de decisão
-**Descrição:** Propriedades ou atributos adicionais pertencentes a esta opção de decisão específica. Instâncias diferentes podem ter características diferentes (chaves no mapa). As características são pares de nome/valor usados para distinguir uma opção de decisão de outras. As características são usadas como valores no conteúdo que representa essa opção de decisão e como recursos para analisar e otimizar o desempenho de uma opção. Quando cada instância tem o mesmo atributo ou propriedade, esse aspecto deve ser modelado como um schema de extensão que deriva dos detalhes da opção de decisão.
+**Descrição:** Propriedades ou atributos adicionais pertencentes a esta opção de decisão específica. Instâncias diferentes podem ter características diferentes (chaves no mapa). As características são pares de valores de nome usados para distinguir uma opção de decisão de outras. As características são usadas como valores no conteúdo que representa essa opção de decisão e como recursos para analisar e otimizar o desempenho de uma opção. Quando cada instância tem o mesmo atributo ou propriedade, esse aspecto deve ser modelado como um schema de extensão que deriva dos detalhes da opção de decisão.
 **Tipo:** objeto
 
 #### _experience > decisioning > content
@@ -93,7 +93,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decisio
    **Campo:** _type
    **Título:** Tipo de componente de conteúdo
    **Descrição:** Um conjunto enumerado de URIs em que cada valor mapeia para um tipo fornecido ao componente de conteúdo. Alguns consumidores das representações de conteúdo esperam que o valor @type seja uma referência ao schema que descreve propriedades adicionais do componente de conteúdo.
-   **Tipo:** string
+   **Tipo:** sequência de caracteres
 
 * **_experience > decisioning > content > components > _dc**
 
@@ -106,7 +106,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decisio
       **Campo:** format
       **Título:** Formato
       **Descrição:** A manifestação física ou digital do recurso. Normalmente, Formato deve incluir o tipo de mídia do recurso. O formato pode ser usado para determinar o software, hardware ou outro equipamento necessário para exibir ou operar o recurso. A prática recomendada é selecionar um valor de um vocabulário controlado (por exemplo, a lista de [Tipos de mídia da Internet](http://www.iana.org/assignments/media-types/) definindo formatos de mídia de computador).
-      **Tipo:** string
+      **Tipo:** sequência de caracteres
       **Exemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Idioma**
@@ -125,47 +125,47 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decisio
 
       **Campo:** id
       **Descrição:** Um identificador exclusivo opcional para fazer referência ao ativo em um repositório de conteúdo. Quando as APIs da Platform são usadas para recuperar a representação, o cliente pode esperar uma propriedade adicional \&quot;repo:resolveUrl\&quot; para recuperar o ativo.
-      **Tipo:** string
+      **Tipo:** sequência de caracteres
       **Exemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
       **Campo:** name
       **Descrição:** Algumas dicas sobre onde localizar o repositório que armazena o ativo externo pelo \&quot;repo:id\&quot;.
-      **Tipo:** string
+      **Tipo:** sequência de caracteres
 
    * **repositoryID**
 
       **Campo:** repositoryID
       **Descrição:** Um identificador exclusivo opcional para fazer referência ao ativo em um repositório de conteúdo. Quando as APIs da Platform são usadas para recuperar a representação, o cliente pode esperar uma propriedade adicional \&quot;repo:resolveUrl\&quot; para recuperar o ativo.
-      **Tipo:** string
+      **Tipo:** sequência de caracteres
       **Exemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
       **Campo:** resolveURL
       **Descrição:** Um localizador de recurso exclusivo opcional para ler o ativo em um repositório de conteúdo. Isso facilitará a obtenção do ativo sem que o cliente saiba onde o ativo é gerenciado e quais APIs chamar. Isso é semelhante a um link HAL, mas a semântica é mais simples e objetiva.
-      **Tipo:** string
+      **Tipo:** sequência de caracteres
       **Exemplo:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisioning > content > components > content**
 
    **Campo:** conteúdo
    **Descrição:** Um campo opcional para armazenar conteúdo diretamente. Em vez de fazer referência ao conteúdo em um repositório de ativos, o componente pode armazenar conteúdo simples diretamente. Este campo não é usado para ativos de conteúdo composto, complexo e binário.
-   **Tipo:** string
+   **Tipo:** sequência de caracteres
 
 * **_experience > decisioning > content > components > deliveryURL**
 
    **Campo:** deliveryURL
    **Descrição:** Um endereço de recurso exclusivo opcional para obter o ativo de uma rede de entrega de conteúdo ou de um terminal de serviço. Esse URL é usado para acessar o ativo publicamente por um agente do usuário.
-   **Tipo:** string
+   **Tipo:** sequência de caracteres
    **Exemplo:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > content > components > linkURL**
 
    **Campo:** linkURL
    **Descrição:** Um localizador de recurso exclusivo opcional para interações de usuário. Esse URL é usado para fazer referência ao usuário final em um agente do usuário e pode ser rastreado.
-   **Tipo:** string
+   **Tipo:** sequência de caracteres
    **Exemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 **_experience > decisioning > content > Placement**
@@ -173,7 +173,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decisio
 **Campo:** placement
 **Título:** Posicionamento
 **Descrição:** Posicionamento para estar em conformidade. O valor é o URI (@id) da disposição da oferta referenciada. Consulte esquema https://ns.adobe.com/experience/decisioning/placement.
-**Tipo:** string
+**Tipo:** sequência de caracteres
 
 #### _experience > decisioning > Status do ciclo de vida
 
@@ -188,7 +188,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decisio
 **Campo:** name
 **Título:** Nome da opção de decisão
 **Descrição:** Nome da opção que é exibida em várias interfaces do usuário.
-**Tipo:** string
+**Tipo:** sequência de caracteres
 
 #### _experience > decisioning > profileConstraints
 
@@ -202,14 +202,14 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decisio
 **Campo:** descrição
 **Título:** Descrição
 **Descrição:** Descrição de restrição de perfil. É usado para transmitir intenções legíveis humanas sobre como ou por que essa restrição de perfil foi construída e/ou qual opção será incluída ou excluída por ela.
-**Tipo:** string
+**Tipo:** sequência de caracteres
 
 **_experience > decisioning > profileConstraints > Regra de elegibilidade**
 
 **Campo:** ibilityRule
 **Título:** Regra de elegibilidade
 **Descrição:** Uma referência a uma regra de decisão que avalia como true ou false para um determinado perfil e/ou outros objetos XDM contextuais específicos. A regra é usada para decidir se a opção se qualifica para um determinado perfil. O valor é o URI (@id) da regra de decisão referenciada. Consulte esquema https://ns.adobe.com/experience/decisioning/rule.
-**Tipo:** string
+**Tipo:** sequência de caracteres
 
 **_experience > decisioning > profileConstraints > Tipo de restrição de perfil**
 
@@ -236,7 +236,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decisio
    **Campo:** _id
    **Título:** Identificador
    **Descrição:** Identidade do segmento no namespace relacionado.
-   **Tipo:** string
+   **Tipo:** sequência de caracteres
 
 * **Namespace**
 
@@ -251,14 +251,14 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decisio
       **Campo:** código
       **Título:** Código
       **Descrição:** O código é um identificador legível para o namespace e pode ser usado para solicitar a id de namespace técnico, que é usada para o processamento de gráficos de identidade.
-      **Tipo:** string
+      **Tipo:** sequência de caracteres
 
 * **Identificador da experiência**
 
    **Campo:** xid
    **Título:** Identificador da experiência
    **Descrição:** Quando presente, esse valor representa um identificador de namespace cruzado que é exclusivo em todos os identificadores de escopo de namespace em todos os namespaces.
-   **Tipo:** string
+   **Tipo:** sequência de caracteres
 
 #### _experience > decisão > classificação
 
@@ -279,14 +279,14 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decisio
    **Campo:** função
    **Título:** Função de pontuação
    **Descrição:** Uma referência a uma função que calcula uma pontuação numérica para essa opção de decisão. As opções de decisão serão ordenadas (classificadas) de acordo com essa pontuação. O valor dessa propriedade é o URI (@id) da função a ser chamada com a opção on de cada vez. Consulte esquema https://ns.adobe.com/experience/decisioning/function.
-   **Tipo:** string
+   **Tipo:** sequência de caracteres
 
 * **Tipo de Avaliação de Pedido**
 
    **Campo:** orderEvaluationType
    **Título:** Tipo de Avaliação de Pedido
    **Descrição:** Especifica qual mecanismo de avaliação de ordem é usado, prioridade estática das opções de decisão, uma função de pontuação que calcula um valor numérico para cada opção ou uma estratégia de classificação que recebe uma lista para solicitá-la.
-   **Tipo:** string
+   **Tipo:** sequência de caracteres
    **Valores possíveis:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * **Estratégia de classificação**
@@ -294,7 +294,7 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decisio
    **Campo:** rankingStrategy
    **Título:** Estratégia de classificação
    **Descrição:** Uma referência a uma estratégia que classifica uma lista de opções de decisão. As opções de decisão serão retornadas em uma lista ordenada. O valor dessa propriedade é o URI (@id) da função a ser chamada com a opção on de cada vez. Consulte esquema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-   **Tipo:** string
+   **Tipo:** sequência de caracteres
 
 **_experience > decisioning > classificação > Prioridade**
 
@@ -324,4 +324,4 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Decisio
 **Campo:** tag
 **Título:** Opção de decisão ETag
 **Descrição:** A revisão de que o objeto da opção de decisão estava no momento em que o instantâneo foi tirado.
-**Tipo:** string
+**Tipo:** sequência de caracteres

@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 0%
+source-wordcount: '1375'
+ht-degree: 3%
 
 ---
 
 # Criar perfis de teste {#create-test-profiles}
 
-Os perfis de teste são necessários ao usar o [modo de teste](../building-journeys/testing-the-journey.md) em uma jornada, e [visualizar e testar seu conteúdo](../email/preview.md).
+Os perfis de teste são necessários ao usar o [modo de teste](../building-journeys/testing-the-journey.md) em uma jornada, e para [visualizar e testar seu conteúdo](../email/preview.md).
 
 Há várias maneiras de criar perfis de teste. Você pode encontrar nesta página detalhes para:
 
@@ -25,11 +25,11 @@ Há várias maneiras de criar perfis de teste. Você pode encontrar nesta págin
 
 * Crie perfis de teste carregando um [arquivo csv](#create-test-profiles-csv) ou usando [Chamadas de API](#create-test-profiles-api).
 
-   Além desses dois métodos, o Adobe Journey Otimizer vem com um [caso de uso no produto](#use-case-1) para facilitar a criação do perfil de teste.
+   Além desses dois métodos, o Adobe Journey Optimizer vem com um [caso de uso no produto](#use-case-1) para facilitar a criação do perfil de teste.
 
 Você também pode fazer upload de um arquivo json em um conjunto de dados existente. Para obter mais informações, consulte [Documentação da assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}.
 
-Observe que criar um perfil de teste é semelhante à criação de perfis regulares na Adobe Experience Platform. Para obter mais informações, consulte [Documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
+Observe que criar um perfil de teste é semelhante à criação de perfis regulares no Adobe Experience Platform. Para obter mais informações, consulte [Documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 ➡️ [Saiba como criar perfis de teste neste vídeo](#video)
 
@@ -39,27 +39,27 @@ Para criar perfis, primeiro é necessário criar um esquema e um conjunto de dad
 
 Para **criar um schema** siga estas etapas:
 
-1. Na seção do menu GERENCIAMENTO DE DADOS , clique em **[!UICONTROL Schemas]**.
+1. Na seção do menu GERENCIAMENTO DE DADOS , clique em **[!UICONTROL Esquemas]**.
    ![](assets/test-profiles-0.png)
-1. Clique em **[!UICONTROL Create schema]**, na parte superior direita e, em seguida, selecione um tipo de schema, por exemplo **Perfil individual XDM**.
+1. Clique em **[!UICONTROL Criar esquema]**, na parte superior direita e, em seguida, selecione um tipo de schema, por exemplo **Perfil individual XDM**.
    ![](assets/test-profiles-1.png)
 1. Selecione os grupos de campos apropriados. Certifique-se de adicionar o **Detalhes do teste de perfil** grupo de campos.
    ![](assets/test-profiles-1-ter.png)
-Depois de concluído, clique em **[!UICONTROL Add field groups]**: a lista de grupos de campos é exibida na tela de visão geral do schema.
+Depois de concluído, clique em **[!UICONTROL Adicionar grupos de campos]**: a lista de grupos de campos é exibida na tela de visão geral do schema.
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
    >* Clique no nome do schema para alterá-lo e atualizar suas propriedades.
    >
-   >* Clique no botão **[!UICONTROL Add]** na seção Field groups para selecionar outros grupos de campos a serem adicionados no esquema
+   >* Clique no botão **[!UICONTROL Adicionar]** na seção Field groups para selecionar outros grupos de campos a serem adicionados no esquema
 
 
 1. Na lista de campos, clique no campo que deseja definir como a identidade primária.
    ![](assets/test-profiles-3.png)
-1. No **[!UICONTROL Field properties]** no painel direito, marque a opção **[!UICONTROL Identity]** e **[!UICONTROL Primary Identity]** e selecione um namespace. Se quiser que a identidade primária seja um endereço de email, escolha a variável **[!UICONTROL Email]** namespace. Clique em **[!UICONTROL Apply]**.
+1. No **[!UICONTROL Propriedades do campo]** no painel direito, marque a opção **[!UICONTROL Identidade]** e **[!UICONTROL Identidade principal]** e selecione um namespace. Se quiser que a identidade primária seja um endereço de email, escolha a variável **[!UICONTROL Email]** namespace. Clique em **[!UICONTROL Aplicar]**.
    ![](assets/test-profiles-4bis.png)
-1. Selecione o esquema e habilite o **[!UICONTROL Profile]** na **[!UICONTROL Schema properties]** painel.
+1. Selecione o esquema e habilite o **[!UICONTROL Perfil]** na **[!UICONTROL Propriedades do schema]** painel.
    ![](assets/test-profiles-5.png)
 1. Clique em **Salvar**.
 
@@ -69,15 +69,15 @@ Depois de concluído, clique em **[!UICONTROL Add field groups]**: a lista de gr
 
 Então você precisa **criar o conjunto de dados** em que os perfis serão importados. Siga estas etapas:
 
-1. Navegue até **[!UICONTROL Datasets]**, depois clique em **[!UICONTROL Create dataset]**.
+1. Navegue até **[!UICONTROL Conjuntos de dados]**, depois clique em **[!UICONTROL Criar conjunto de dados]**.
    ![](assets/test-profiles-6.png)
-1. Choose **[!UICONTROL Create dataset from schema]**.
+1. Choose **[!UICONTROL Criar conjunto de dados a partir do esquema]**.
    ![](assets/test-profiles-7.png)
-1. Selecione o schema criado anteriormente e clique em **[!UICONTROL Next]**.
+1. Selecione o schema criado anteriormente e clique em **[!UICONTROL Próximo]**.
    ![](assets/test-profiles-8.png)
-1. Escolha um nome e clique em **[!UICONTROL Finish]**.
+1. Escolha um nome e clique em **[!UICONTROL Concluir]**.
    ![](assets/test-profiles-9.png)
-1. Ative o **[!UICONTROL Profile]** opção.
+1. Ative o **[!UICONTROL Perfil]** opção.
    ![](assets/test-profiles-10.png)
 
 >[!NOTE]
@@ -86,11 +86,11 @@ Então você precisa **criar o conjunto de dados** em que os perfis serão impor
 
 ## Caso de uso no produto{#use-case-1}
 
-Na página inicial do Adobe Journey Otimizer, você pode aproveitar os perfis de teste no caso de uso do produto. Esse caso de uso facilita a criação de perfis de teste usados para testar jornadas antes da publicação.
+Na página inicial do Adobe Journey Optimizer, você pode aproveitar os perfis de teste no caso de uso do produto. Esse caso de uso facilita a criação de perfis de teste usados para testar jornadas antes da publicação.
 
 ![](assets/use-cases-home.png)
 
-Clique no botão **[!UICONTROL Begin]** para iniciar o caso de uso.
+Clique no botão **[!UICONTROL Começar]** para iniciar o caso de uso.
 
 As seguintes informações são obrigatórias:
 
@@ -106,7 +106,7 @@ As seguintes informações são obrigatórias:
    1. **País**: País de residência do perfil de teste
    1. **Gênero**: Gênero do perfil de teste. Os valores disponíveis são **macho**, **fêmea** e **non_specified**
 
-Depois de selecionar o namespace de identidade e fornecer o arquivo CSV com base no formato acima, clique em **[!UICONTROL Run]** no canto superior direito. O caso de uso pode levar alguns minutos para ser concluído. Quando o caso de uso concluir o processamento e criar os perfis de teste, uma notificação será enviada para notificar o usuário.
+Depois de selecionar o namespace de identidade e fornecer o arquivo CSV com base no formato acima, clique em **[!UICONTROL Executar]** no canto superior direito. O caso de uso pode levar alguns minutos para ser concluído. Quando o caso de uso concluir o processamento e criar os perfis de teste, uma notificação será enviada para notificar o usuário.
 
 >[!NOTE]
 >
@@ -116,9 +116,9 @@ Depois de selecionar o namespace de identidade e fornecer o arquivo CSV com base
 
 Você pode transformar um perfil existente em um perfil de teste: é possível atualizar os atributos de perfil da mesma maneira que criar um perfil.
 
-Uma maneira simples de fazer isso é usando um **[!UICONTROL Update Profile]** atividade de ação em uma jornada e altere a **testProfile** campo booleano de false para true.
+Uma maneira simples de fazer isso é usando um **[!UICONTROL Atualizar perfil]** atividade de ação em uma jornada e altere a **testProfile** campo booleano de false para true.
 
-Sua jornada será composta por um **[!UICONTROL Read Segment]** e um **[!UICONTROL Update Profile]** atividade . Primeiro, é necessário criar um segmento direcionado aos perfis que você deseja transformar em perfis de teste.
+Sua jornada será composta por um **[!UICONTROL Ler segmento]** e um **[!UICONTROL Atualizar perfil]** atividade . Primeiro, é necessário criar um segmento direcionado aos perfis que você deseja transformar em perfis de teste.
 
 >[!NOTE]
 >
@@ -135,23 +135,23 @@ Sua jornada será composta por um **[!UICONTROL Read Segment]** e um **[!UICONTR
    >
    > O cálculo de segmentos pode levar algum tempo. Saiba mais sobre segmentos em [esta seção](../segment/about-segments.md).
 
-1. Agora crie uma nova jornada e comece com uma **[!UICONTROL Read Segment]** atividade de orquestração.
+1. Agora crie uma nova jornada e comece com uma **[!UICONTROL Ler segmento]** atividade de orquestração.
 1. Escolha o segmento criado anteriormente e o namespace que seus perfis usam.
    ![](assets/test-profiles-25.png)
-1. Adicione um **[!UICONTROL Update Profile]** atividade de ação.
-1. Selecione o schema, a variável **testProfiles** , o conjunto de dados e defina o valor como **Verdadeiro**. Para fazer isso, no **[!UICONTROL VALUE]** clique no campo **Caneta** no ícone à direita, selecione **[!UICONTROL Advanced mode]** e insira **true**.
+1. Adicione um **[!UICONTROL Atualizar perfil]** atividade de ação.
+1. Selecione o schema, a variável **testProfiles** , o conjunto de dados e defina o valor como **Verdadeiro**. Para fazer isso, no **[!UICONTROL VALOR]** clique no campo **Caneta** no ícone à direita, selecione **[!UICONTROL Modo avançado]** e insira **true**.
    ![](assets/test-profiles-26.png)
-1. Clique em **[!UICONTROL Publish]**.
-1. No **[!UICONTROL Segments]** verifique se os perfis foram atualizados corretamente.
+1. Clique em **[!UICONTROL Publicar]**.
+1. No **[!UICONTROL Segmentos]** verifique se os perfis foram atualizados corretamente.
    ![](assets/test-profiles-28.png)
 
    >[!NOTE]
    >
-   > Para obter mais informações sobre o **[!UICONTROL Update Profile]** atividade , consulte [esta seção](../building-journeys/update-profiles.md).
+   > Para obter mais informações sobre o **[!UICONTROL Atualizar perfil]** atividade , consulte [esta seção](../building-journeys/update-profiles.md).
 
 ## Criar um perfil de teste usando um arquivo csv{#create-test-profiles-csv}
 
-Na Adobe Experience Platform, é possível criar perfis carregando um arquivo csv contendo os diferentes campos de perfil no conjunto de dados. Este é o método mais fácil.
+No Adobe Experience Platform, é possível criar perfis carregando um arquivo csv contendo os diferentes campos de perfil no conjunto de dados. Este é o método mais fácil.
 
 1. Crie um arquivo csv simples usando um software de planilha.
 1. Adicione uma coluna para cada campo necessário. Certifique-se de adicionar o campo de identidade primário (&quot;personID&quot; no nosso exemplo acima) e o campo &quot;testProfile&quot; definidos como &quot;true&quot;.
@@ -181,7 +181,7 @@ Seus perfis de teste são adicionados e agora podem ser usados ao testar uma jor
 
 ## Criar perfis de teste usando chamadas de API{#create-test-profiles-api}
 
-Também é possível criar perfis de teste por meio de chamadas de API. Saiba mais em [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
+Também é possível criar perfis de teste por meio de chamadas de API. Saiba mais em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 Você deve usar um Esquema de perfil que contenha o grupo de campos &quot;Detalhes do teste de perfil&quot;. O sinalizador testProfile faz parte desse grupo de campos.
 Ao criar um perfil, transmita o valor: testProfile = true.

@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
 workflow-type: tm+mt
 source-wordcount: '2220'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Dezembro de 2022 {#december-2022}
 
-* O guia Mensagens foi reorganizado e dividido em guias dedicados para cada canal:
+* O guia de mensagens foi reorganizado e dividido em manuais dedicados para cada canal:
 
    * [Canal de email](../email/get-started-email.md)
    * [Canal de notificação por push](../push/get-started-push.md)
@@ -30,7 +30,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Uma nova página sobre as integrações do Journey Optimizer foi adicionada. [Leia mais](../start/ajo-integrations.md)
 * Uma recomendação sobre o comprimento dos URLs de mirror pages foi adicionada. [Leia mais](../email/message-tracking.md)
 * Uma nova subseção nas configurações de email foi adicionada na resposta ao endereço de email, incluindo recomendações para garantir o gerenciamento de resposta adequado. [Leia mais](../email/email-settings.md#reply-to-email)
-* Adição de uma seção sobre como modificar o conteúdo de uma mensagem em uma jornada ao vivo. [Leia mais](../building-journeys/journeys-message.md#update-live-content)
+* Adição de uma seção sobre como modificar o conteúdo de uma mensagem em uma jornada em tempo real. [Leia mais](../building-journeys/journeys-message.md#update-live-content)
 
 ## Outubro de 2022 {#october-2022}
 
@@ -38,7 +38,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * A seção caso de uso de jornada foi reorganizada em duas categorias: [Casos de uso de negócios](../building-journeys/journeys-uc.md) e [Casos de uso técnico](../building-journeys/collections.md).
 * A seção **Conjunto de dados da entidade** foi atualizada com mais detalhes. [Leia mais](../data/datasets-query-examples.md#entity-dataset)
 * As seções de gerenciamento de recusa e políticas de consentimento foram reorganizadas. [Leia mais](../privacy/opt-out.md)
-* A seção sobre parâmetros avançados nas mensagens da jornada foi esclarecida e agora especifica que a substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, o valor é definido como o endereço principal nos **Campos de execução** é o que deve ser usado.
+* A seção sobre parâmetros avançados nas mensagens da jornada foi esclarecida e agora especifica que a substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, o valor definido como o endereço principal nos **Campos de execução** é o que deve ser usado.
 * Uma observação foi adicionada à seção **Configurar subdomínios da página de destino** para especificar que letras maiúsculas não são permitidas nos subdomínios da página de destino. [Leia mais](../landing-pages/lp-subdomains.md)
 
 ## Setembro de 2022 {#september-2022}

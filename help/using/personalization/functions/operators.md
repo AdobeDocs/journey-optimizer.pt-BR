@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 0%
+source-wordcount: '302'
+ht-degree: 11%
 
 ---
 
@@ -80,7 +80,7 @@ not (homeAddress.countryISO = "CA")
 
 As funções de comparação são usadas para comparar diferentes expressões e valores, retornando verdadeiro ou falso de acordo.
 
-### Igual{#equals}
+### Igual a{#equals}
 
 O `=` (igual) verifica se um valor ou expressão é igual a outro valor ou expressão.
 
@@ -116,7 +116,7 @@ A operação seguinte verifica se o país de endereço de origem não é a Fran�
 {%= profile.homeAddress.country != "France" %}
 ```
 
-### Maior que{#greaterthan}
+### Greater than{#greaterthan}
 
 O `>` (greater than) é usada para verificar se o primeiro valor é maior que o segundo valor.
 
@@ -152,7 +152,7 @@ A operação a seguir define pessoas nascidas em ou após 1970.
 {%= profile.person.birthYear >= 1970 %}
 ```
 
-### Menor que{#lessthan}
+### Menos que{#lessthan}
 
 O `<` (less than) é usada para verificar se o primeiro valor é menor que o segundo valor.
 
@@ -170,7 +170,7 @@ A operação a seguir define pessoas nascidas antes de 2000.
 {%= profile.person.birthYear < 2000 %}
 ```
 
-### Menor que ou igual a{#lessthanorequal}
+### Less than or equal to{#lessthanorequal}
 
 O `<=` A função de comparação (menor que ou igual a) é usada para verificar se o primeiro valor é menor que ou igual ao segundo valor.
 

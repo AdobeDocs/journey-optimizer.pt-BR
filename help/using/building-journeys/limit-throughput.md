@@ -1,12 +1,12 @@
 ---
 solution: Journey Optimizer
-title: Limite a taxa de transferência com fontes de dados externas e ações personalizadas
-description: Limite a taxa de transferência com fontes de dados externas e ações personalizadas
+title: Limite a taxa de transferência com Fontes de dados externas e Ações personalizadas
+description: Limite a taxa de transferência com Fontes de dados externas e Ações personalizadas
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 0%
+source-wordcount: '619'
+ht-degree: 3%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 ## Descrição do caso de uso
 
-O Adobe Journey Otimizer permite que profissionais enviem chamadas de API para sistemas externos por meio do uso de Ações personalizadas e Fontes de dados.
+O Adobe Journey Optimizer permite que os profissionais enviem chamadas de API para sistemas externos por meio do uso de Ações personalizadas e Fontes de dados.
 
 Isso pode ser feito com :
 
-* **Fontes de dados**: para coletar informações de sistemas externos e usá-las no contexto da jornada, por exemplo, para obter informações meteorológicas sobre a cidade do perfil e ter um fluxo de jornada dedicado com base nisso.
+* **Fontes de dados**: para coletar informações de sistemas externos e usá-las no contexto de jornada, por exemplo, para obter informações meteorológicas sobre a cidade do perfil e ter um fluxo de jornada dedicado com base nisso.
 
-* **Ações personalizadas**: para enviar informações para sistemas externos, por exemplo, para enviar emails por meio de uma solução externa usando os recursos de orquestração do Journey Otimizer junto às informações de perfil, dados do público-alvo e contexto da jornada.
+* **Ações personalizadas**: para enviar informações para sistemas externos, por exemplo, para enviar emails por meio de uma solução externa usando os recursos de orquestração do Journey Optimizer juntamente com informações de perfil, dados do público-alvo e contexto de jornada.
 
-Se você estiver trabalhando com fontes de dados externas ou ações personalizadas, convém proteger seus sistemas externos limitando o rendimento da jornada: até 5000 instâncias/segundo para jornadas unitárias e até 20000 instâncias/segundo para as acionadas por segmento. Você pode definir limites no nível do ponto de extremidade para evitar sobrecarregar esses sistemas externos por meio das APIs de limitação do Journey Otimizer. No entanto, todas as solicitações restantes após o limite ser atingido serão descartadas.
+Se você estiver trabalhando com fontes de dados externas ou ações personalizadas, convém proteger seus sistemas externos limitando a taxa de transferência da jornada: até 5000 instâncias/segundo para jornadas unitárias e até 20000 instâncias/segundo para as acionadas por segmento. Você pode definir limites no nível do ponto de extremidade para evitar sobrecarregar esses sistemas externos por meio de APIs de limitação do Journey Optimizer. No entanto, todas as solicitações restantes após o limite ser atingido serão descartadas.
 
 Nesta seção, você encontrará soluções alternativas que podem ser usadas para otimizar sua taxa de transferência. Para obter mais informações sobre como integrar com sistemas externos, consulte esta seção [página](../configuration/external-systems.md).
 
@@ -32,7 +32,7 @@ Para **jornadas acionadas por segmento**, é possível definir a taxa de limita�
 
 ![](assets/limit-throughput-1.png)
 
-Você pode modificar esse valor de 500 a 20.000 instâncias por segundo. Se você precisar ir além de 500/s, também poderá adicionar condições de &quot;divisão de porcentagem&quot; com atividades de espera para dividir sua jornada em várias ramificações e fazer com que elas sejam executadas em um horário específico.
+Você pode modificar esse valor de 500 a 20.000 instâncias por segundo. Se você precisar ir além de 500/s, também poderá adicionar condições de &quot;divisão de porcentagem&quot; com atividades de espera para dividir a jornada em várias ramificações e executá-las em um horário específico.
 
 ![](assets/limit-throughput-2.png)
 
@@ -64,4 +64,4 @@ Como garantia adicional, você também pode usar os recursos de Limitação.
 
 >[!NOTE]
 >
->Ao contrário dos recursos de limitação, que protegem um endpoint ao serem globais para todas as jornadas de uma sandbox, essa solução alternativa funciona somente no nível da jornada. Isso significa que, se várias jornadas estiverem sendo executadas em paralelo e estiverem direcionando o mesmo terminal, será necessário levar isso em consideração ao projetar sua jornada. Portanto, essa solução alternativa não é adequada para todos os casos de uso.
+>Ao contrário dos recursos de limitação, que protegem um endpoint ao serem globais para todas as jornadas de uma sandbox, essa solução alternativa funciona somente no nível da jornada. Isso significa que, se várias jornadas estiverem sendo executadas simultaneamente e estiverem direcionando o mesmo endpoint, será necessário levar isso em consideração ao projetar a jornada. Portanto, essa solução alternativa não é adequada para todos os casos de uso.

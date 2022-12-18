@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 0%
+source-wordcount: '582'
+ht-degree: 9%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 Esse grupo de campos será compartilhado por journeyStepEvent e journeyStepProfileEvent.
 
-Esses são os campos XDM comuns que [!DNL Journey Optimizer] envia para a Adobe Experience Platform. Campos comuns serão enviados para cada etapa que é processada em uma jornada. Campos mais específicos são usados para ações e enriquecimentos personalizados.
+Esses são os campos XDM comuns que [!DNL Journey Optimizer] envia para o Adobe Experience Platform. Campos comuns serão enviados para cada etapa que é processada em uma jornada. Campos mais específicos são usados para ações e enriquecimentos personalizados.
 
 Alguns desses campos estão disponíveis apenas em padrões de processamento específicos (execução de ação, busca de dados etc.) para limitar o tamanho dos eventos.
 
 ## entrada {#entrance-field}
 
-Indica se o usuário entrou na jornada. Se não estiver presente, assumimos que o valor é false.
+Indica se o usuário inseriu a jornada. Se não estiver presente, assumimos que o valor é false.
 
 Tipo: booleano
 
@@ -49,31 +49,31 @@ Tipo: booleano
 
 ID do evento no processamento, para o processamento da etapa. Se o evento for externo, o valor será eventId. Se o evento for interno, o valor será eventId interno (como scheduledNotificationReceived, executionAction, etc.).
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## nodeID {#nodeid-field}
 
 ID do nó do cliente (na tela).
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## stepID {#stepdid-field}
 
 Id exclusiva da etapa que está sendo processada no momento.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## stepName {#stepname-field}
 
 Nome da etapa que está sendo processada no momento.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## stepType {#steptype-field}
 
 Tipo da etapa.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 Valores possíveis:
 
@@ -86,7 +86,7 @@ Valores possíveis:
 
 Status da etapa, representando o status da etapa, quando o processamento foi concluído (e o evento de etapa foi acionado).
 
-Tipo: string
+Tipo: sequência de caracteres
 
 O status pode ser:
 
@@ -101,65 +101,65 @@ O status pode ser:
 
 ID da jornada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## journeyVersionID {#journeyversionid-field}
 
-ID da versão da jornada. Essa id representa a referência de identidade para a jornada, no caso de journeyStepEvent.
+ID da versão do jornada. Essa id representa a referência de identidade para a jornada, no caso de journeyStepEvent.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## journeyVersionName {#journeyversionname-field}
 
-Nome da versão da jornada.
+Nome da versão do jornada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## journeyVersion {#journeyversion-field}
 
-Versão da versão da jornada.
+Versão da versão do jornada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## instanceID {#instanceid-field}
 
-ID interna da instância da jornada.
+ID interna da instância do jornada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## externalKey {#externalkey-field}
 
 Chave externa extraída do evento para processá-la.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## parentStepID {#parenstepid-field}
 
 ID da etapa principal da etapa processada atual na instância.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## parentStepName {#parentstepname-field}
 
 Nome da etapa do pai da etapa atual.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## parentTransitionID {#parenttransitionid-field}
 
 Id da transição que trouxe a instância para a etapa processada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## parentTransitionName {#parenttransitionname-field}
 
 Nome da transição que trouxe a instância para a etapa processada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## inTest {#intest-field}
 
-Indicado se a jornada está no modo de teste ou não.
+Indicado se essa jornada está no modo de teste ou não.
 
 Tipo: booleano
 
@@ -173,7 +173,7 @@ Tipo: long
 
 Indica o tipo de instância, se for em lote ou unitário.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 Valores: lote/unidade
 
@@ -193,16 +193,16 @@ Tipo: booleano
 
 Chave externa para o evento batch.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## batchInstanceID {#batchinstanceid-field}
 
 essa é a ID da instância de lote.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 se a instância tiver sido acionada a partir de uma instância de lote, a ID de ramificação unitária.
 
-Tipo: string
+Tipo: sequência de caracteres

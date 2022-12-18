@@ -134,7 +134,7 @@ Somente um namespace é permitido por jornada. Se você usar vários eventos na 
 
 A chave é o campo, ou combinação de campos, que faz parte dos dados de payload do evento e permite que o sistema identifique a pessoa associada ao evento. A chave pode ser, por exemplo, a ID do Experience Cloud, uma ID do CRM ou um endereço de email.
 
-Para usar os dados armazenados no banco de dados do Perfil do cliente em tempo real do Adobe, a chave do evento deve ser as informações definidas como a identidade de um perfil no [Serviço de perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
+Para usar os dados armazenados no banco de dados do Perfil do cliente em tempo real do Adobe, a chave do evento deve ser as informações definidas como a identidade de um perfil no [Serviço de perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 O identificador de perfil permite que o sistema execute a reconciliação entre o evento e o perfil do indivíduo. Se você selecionar um esquema que tenha uma identidade primária, a variável **[!UICONTROL Identificador de perfil]** e **[!UICONTROL Namespace]** Os campos são pré-preenchidos. Se não houver identidade definida, a variável _identityMap > id_ é a chave primária. Em seguida, você deve selecionar um namespace e a chave é automaticamente pré-preenchida usando _identityMap > id_.
 

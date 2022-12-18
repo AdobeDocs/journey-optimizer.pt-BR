@@ -1,5 +1,5 @@
 ---
-title: Introdução à exportação de catálogo de ofertas
+title: Introdução à exportação do catálogo de ofertas
 description: Saiba como exportar seu catálogo de ofertas como um conjunto de dados
 feature: Offers
 topic: Integrations
@@ -9,23 +9,23 @@ exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# Introdução à exportação de catálogo de ofertas {#export-catalog}
+# Introdução à exportação do catálogo de ofertas {#export-catalog}
 
-O Journey Otimizer permite exportar automaticamente seu catálogo de ofertas para a Adobe Experience Platform.
+O Journey Optimizer permite exportar automaticamente seu catálogo de ofertas para o Adobe Experience Platform.
 
-A exportação cria um conjunto de dados para cada objeto da Biblioteca de ofertas (consulte [Acessar conjuntos de dados exportados](../export-catalog/access-dataset.md)). Inclui:
+A exportação cria um conjunto de dados para cada objeto da Biblioteca de ofertas (consulte [Acessar conjuntos de dados exportados](../export-catalog/access-dataset.md)). O serviço inclui:
 
 * Ofertas personalizadas
-* Ofertas de fallback
-* Posicionamentos
+* Ofertas substitutas
+* Disposições
 * Decisões
 
 Cada vez que um desses objetos é modificado na Biblioteca de ofertas, um novo trabalho de exportação é executado automaticamente para atualizar os conjuntos de dados.
 
 >[!NOTE]
 >
->Esse recurso não é habilitado por padrão. Se quiser usá-lo, entre em contato com a Adobe para ativá-lo para o catálogo. Após habilitá-los, os trabalhos de exportação serão automatizados e não exigirão nenhuma ação do seu lado.
+>Esse recurso não é habilitado por padrão. Se quiser usá-lo, entre em contato com o Adobe para ativá-lo para o catálogo. Após habilitá-los, os trabalhos de exportação serão automatizados e não exigirão nenhuma ação do seu lado.

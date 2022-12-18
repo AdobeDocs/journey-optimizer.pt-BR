@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Usar o JavaScript personalizado em uma página de aterrissagem
-description: Saiba como criar o conteúdo de uma landing page no Journey Otimizer
+description: Saiba como criar o conteúdo de uma landing page no Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Você pode definir o conteúdo da sua página de aterrissagem usando JavaScript 
 
 Para inserir JavaScript personalizado no conteúdo da página de aterrissagem, você pode fazer o seguinte:
 
-* Importe conteúdo HTML existente ao começar a criar o conteúdo e selecione o arquivo que inclui o código JavaScript personalizado. Saiba como importar conteúdo [nesta seção](../email/existing-content.md).
+* Importe o conteúdo HTML existente ao começar a criar o conteúdo e selecione o arquivo que inclui o código JavaScript personalizado. Saiba como importar conteúdo [nesta seção](../email/existing-content.md).
 
 * Projete a landing page do zero ou de um template salvo. Arraste e solte a **[!UICONTROL HTML]** componente de conteúdo na tela e mostra o código-fonte para adicionar seu JavaScript ao componente. Saiba como usar o componente HTML em [esta seção](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
@@ -59,7 +59,7 @@ function init(lpRuntime){
 }
 ```
 
-## Ganchos
+## Ganchos 
 
 Usando ganchos, você pode anexar um método durante o ciclo de vida do envio do formulário. Por exemplo, é possível usar ganchos para executar a validação do formulário antes que ele seja realmente enviado.
 

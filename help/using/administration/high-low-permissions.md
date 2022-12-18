@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -21,28 +21,28 @@ ht-degree: 0%
 Cada perfil de produto é composto de permissões que permitem aos usuários acessar os diferentes recursos.
 Eles podem ser divididos em dois tipos:
 
-* **Permissão de alto nível**: representa as diferentes permissões que podem ser atribuídas a **[!UICONTROL Product profile]** no [!DNL Admin console], como **[!DNL Publish journeys]** e **[!DNL Manage subdomains delegation]**. As permissões de alto nível abrangem permissões de baixo nível.
+* **Permissão de alto nível**: representa as diferentes permissões que podem ser atribuídas a **[!UICONTROL Perfil de produto]** no [!DNL Admin console], como **[!DNL Publish journeys]** e **[!DNL Manage subdomains delegation]**. As permissões de alto nível abrangem permissões de baixo nível.
 
 * **Permissão de baixo nível**: representa as diferentes permissões que vêm da permissão de alto nível.
 
-Por exemplo, a variável **[!DNL Journey administrator]** O perfil de produto é atribuído ao **[!DNL Manage journeys]** permissão. Dessa permissão resulta as permissões de baixo nível que permitirão ao administrador de Jornada gravar, ler e excluir jornadas.
+Por exemplo, a variável **[!DNL Journey administrator]** O perfil de produto é atribuído ao **[!DNL Manage journeys]** permissão. Dessa permissão resulta as permissões de baixo nível que permitirão ao administrador do Jornada gravar, ler e excluir jornadas.
 
 ## Recurso de jornada {#journey-capability}
 
 ### [!DNL Manage journeys] permissão {#manage-journeys}
 
-O **[!DNL Manage journeys]** a permissão de alto nível permite que os usuários criem jornadas novas e editem/excluam jornadas existentes, bem como o acesso aos objetos usados na tela da jornada para criar o fluxo da jornada.
+O **[!DNL Manage journeys]** a permissão de alto nível permite que os usuários criem Jornadas novas e editem/excluam existentes, bem como acesso aos objetos que são usados na tela de jornada para criar o fluxo de jornada.
 
 Ele inclui as seguintes permissões de baixo nível:
 
-* Específico do Journey Otimizer:
+* Específico do Journey Optimizer:
 
    * journeys.read
    * journeys.write
    * journeys.delete
    * messages.read
 
-* Específico da Adobe Experience Platform:
+* Específico do Adobe Experience Platform:
 
    * segments.read
    * profiles.read
@@ -51,24 +51,24 @@ Ele inclui as seguintes permissões de baixo nível:
 
 ### [!DNL Publish journeys] permissão {#publish-journeys}
 
-O **[!DNL Publish journeys]** a permissão de alto nível permite que os usuários publiquem jornadas.
+O **[!DNL Publish journeys]** permissão de alto nível permite que os usuários publiquem jornadas.
 
 Ele inclui as seguintes permissões de baixo nível:
 
-* Específico do Journey Otimizer:
+* Específico do Journey Optimizer:
    * journeys.publish
    * journeys.read
 
 ### [!DNL View journeys] permissão {#view-journeys}
 
-O **[!DNL View journeys]** a permissão de alto nível permite que os usuários naveguem e visualizem jornadas.
+O **[!DNL View journeys]** permissão de alto nível permite que os usuários naveguem e visualizem jornadas.
 
 Ele inclui as seguintes permissões de baixo nível:
 
-* Específico do Journey Otimizer:
+* Específico do Journey Optimizer:
    * journeys.read
 
-* Específico da Adobe Experience Platform:
+* Específico do Adobe Experience Platform:
    * segments.read
    * profiles.read
 
@@ -78,49 +78,49 @@ O **[!DNL Manage journeys events, data sources and actions]** a permissão de al
 
 Ele inclui as seguintes permissões de baixo nível:
 
-* Específico do Journey Otimizer:
-   * journey_events.read
-   * journey_events.write
-   * journey_events.delete
-   * journey_data_sources.read
-   * journey_data_sources.write
-   * journey_data_sources.delete
-   * journey_actions.read
-   * journey_actions.write
-   * journey_actions.delete
+* Específico do Journey Optimizer:
+   * jornada_events.read
+   * jornada_events.write
+   * jornada_events.delete
+   * jornada_data_sources.read
+   * jornada_data_sources.write
+   * jornada_data_sources.delete
+   * jornada_actions.read
+   * jornada_actions.write
+   * jornada_actions.delete
 
-* Específico da Adobe Experience Platform:
+* Específico do Adobe Experience Platform:
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
 ### [!DNL View journeys events, data sources and actions] permissão {#view-journeys-event}
 
-O **[!DNL View journeys events, data sources and actions]** a permissão de alto nível permite que os usuários usem eventos e dados no fluxo da jornada.
+O **[!DNL View journeys events, data sources and actions]** a permissão de alto nível permite que os usuários usem eventos e dados no fluxo de jornadas.
 
 Ele inclui as seguintes permissões de baixo nível:
 
-* Específico do Journey Otimizer:
-   * journey_events.read
-   * journey_data_sources.read
-   * journey_actions.read
+* Específico do Journey Optimizer:
+   * jornada_events.read
+   * jornada_data_sources.read
+   * jornada_actions.read
 
-* Específico da Adobe Experience Platform:
+* Específico do Adobe Experience Platform:
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
 ### [!DNL View journeys report] permissão {#view-journeys-report}
 
-O **[!DNL View journeys report]** a permissão de alto nível permite que os usuários criem relatórios de jornada somente leitura.
+O **[!DNL View journeys report]** permissão de alto nível permite que os usuários leiam relatórios de jornada somente leitura.
 
 Ele inclui as seguintes permissões de baixo nível:
 
-* Específico do Journey Otimizer:
-   * journey_report.read
+* Específico do Journey Optimizer:
+   * jornada_report.read
    * messages_report.read
 
-* Específico da Adobe Experience Platform:
+* Específico do Adobe Experience Platform:
    * datasets.read
    * queries.read
    * queries.write
@@ -146,7 +146,7 @@ Ele inclui as seguintes permissões de baixo nível:
    * placements.delete
    * ranking_strategy.read
 
-* Específico da Adobe Experience Platform:
+* Específico do Adobe Experience Platform:
    * datasets.read
    * datasets.write
    * datasets.delete
@@ -166,7 +166,7 @@ Ele inclui as seguintes permissões de baixo nível:
    * placements.read
    * ranking_strategy.read
 
-* Específico da Adobe Experience Platform:
+* Específico do Adobe Experience Platform:
    * schemas.read
    * segment.read
    * datasets.read
@@ -189,7 +189,7 @@ Ele inclui as seguintes permissões de baixo nível:
    * placements.delete
    * ranking_strategy.read
 
-* Específico da Adobe Experience Platform:
+* Específico do Adobe Experience Platform:
    * schemas.read
    * segment.read
    * datasets.read
@@ -282,7 +282,7 @@ O **[!DNL Manage channel surface]** a permissão de alto nível permite que os u
 
 Ele inclui as seguintes permissões de baixo nível:
 
-* Específico do Journey Otimizer:
+* Específico do Journey Optimizer:
    * messages_presets.read
    * messages_presets.write
    * messages_presets.delete
@@ -299,7 +299,7 @@ Ele inclui as seguintes permissões de baixo nível:
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read (da Coleta de dados da Adobe Experience Platform)
+* mobile_setting.read (da Coleta de dados do Adobe Experience Platform)
 
 ### [!DNL Manage suppression] permissão {#manage-suppression}
 
@@ -319,10 +319,10 @@ O **[!DNL View suppression list]** a permissão de alto nível permite que os us
 
 Ele inclui as seguintes permissões de baixo nível:
 
-* Específico do Journey Otimizer:
+* Específico do Journey Optimizer:
    * suppression_list.view
 
-* Específico da Adobe Experience Platform:
+* Específico do Adobe Experience Platform:
    * profiles.read
    * datasets.read
 
@@ -332,10 +332,10 @@ O **[!DNL Export suppression list]** a permissão de alto nível permite que os 
 
 Ele inclui as seguintes permissões de baixo nível:
 
-* Específico do Journey Otimizer:
+* Específico do Journey Optimizer:
    * suppression_list.export
 
-* Específico da Adobe Experience Platform:
+* Específico do Adobe Experience Platform:
    * profiles.read
    * datasets.read
 
@@ -345,7 +345,7 @@ O **[!DNL Manage landing page settings]** a permissão de alto nível permite qu
 
 Ele inclui as seguintes permissões de baixo nível:
 
-* Específico do Journey Otimizer:
+* Específico do Journey Optimizer:
    * landing_page_subdomain.read
    * landing_page_subdomain.write
    * landing_page_subdomain.delete
@@ -359,7 +359,7 @@ O **[!DNL Manage frequency rules]** a permissão de alto nível permite que os u
 
 Ele inclui as seguintes permissões de baixo nível:
 
-* Específico do Journey Otimizer:
+* Específico do Journey Optimizer:
    * frequency_rules.read
    * frequency_rules.write
    * frequency_rules.delete
@@ -370,5 +370,5 @@ O **[!DNL View frequency rules]** a permissão de alto nível permite que os usu
 
 Ele inclui as seguintes permissões de baixo nível:
 
-* Específico do Journey Otimizer:
+* Específico do Journey Optimizer:
    * frequency_rules.read

@@ -1,5 +1,5 @@
 ---
-title: Introdução às APIs de entrega de oferta
+title: Introdução às APIs de entrega de ofertas
 description: Saiba mais sobre as APIs disponíveis para fornecer ofertas personalizadas.
 feature: Offers
 topic: Integrations
@@ -9,24 +9,24 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Introdução às APIs de entrega de oferta {#about-decisioning-apis}
+# Introdução às APIs de entrega de ofertas {#about-decisioning-apis}
 
-Você pode fornecer ofertas usando a variável **Decisão** ou **Edge Decisioning** API. Além disso, a variável **Decisão em lote** A API permite fornecer ofertas a todos os perfis em um determinado segmento em uma chamada. O conteúdo da oferta para cada perfil no segmento é colocado em um conjunto de dados da Adobe Experience Platform, onde está disponível para fluxos de trabalho em lote personalizados.
+Você pode fornecer ofertas usando a variável **Decisão** ou **Edge Decisioning** API. Além disso, a variável **Decisão em lote** A API permite fornecer ofertas a todos os perfis em um determinado segmento em uma chamada. O conteúdo da oferta para cada perfil no segmento é colocado em um conjunto de dados do Adobe Experience Platform, onde está disponível para fluxos de trabalho em lote personalizados.
 
 Nesta página, você encontrará informações sobre funcionalidades específicas disponíveis com o **Decisão** e **Edge Decisioning** APIs. Embora ambos permitam que você entregue ofertas aos seus clientes, recomendamos usar a variável **Edge Decisioning** API sempre que possível para casos de uso de entrada e para garantir melhor latência e throughput na plataforma.
 
 |  | Solicitações/s | Latência |
 |---|---|---|
-| API de decisão | 2000 | &lt;500 ms |
-| API do Edge Decisioning | 5000 | &lt;250 ms |
+| API de decisão | 2000 | &lt;500ms |
+| API de decisão do Edge | 5000 | &lt;250ms |
 
 Para obter mais informações sobre como trabalhar com as APIs, consulte estas seções:
 * [API de decisão](decisioning-api.md)
-* [API do Edge Decisioning](edge-decisioning-api.md)
+* [API de decisão do Edge](edge-decisioning-api.md)
 * [API de decisão em lote](batch-decisioning-api.md)
 
 ## Recursos da API do Edge Decisioning {#edge}
@@ -37,11 +37,11 @@ Com a API do Edge Decisioning, você pode enviar em uma única solicitação o e
 
 Por exemplo, se um cliente visitar seu site, a solicitação incluirá o evento de experiência (a visita do cliente à página) e obterá uma oferta de volta para preencher a página visitada.
 
-**Armazenamento de dados de contexto na Adobe Experience Platform**
+**Armazenamento de dados de contexto no Adobe Experience Platform**
 
 Os dados de contexto se referem a dados que você só conhece no momento em que deseja que uma oferta volte. Por exemplo, a cor do artigo comprado, o tempo no momento da compra etc.
 
-Ao transmitir dados de contexto com uma solicitação de API do Edge Decisioning, os dados são armazenados no perfil da Adobe Experience Platform, permitindo a reutilização futura.
+Ao transmitir dados de contexto com uma solicitação de API do Edge Decisioning, os dados são armazenados no perfil do Adobe Experience Platform, permitindo uma futura reutilização.
 
 >[!NOTE]
 >

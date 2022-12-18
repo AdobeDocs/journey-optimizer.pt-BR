@@ -10,19 +10,19 @@ level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 0%
+source-wordcount: '275'
+ht-degree: 6%
 
 ---
 
 # Introdução aos alertas {#alerts}
 
-O Journey Otimizer aproveita os recursos de alerta da Adobe Experience Platform. Isso permite que você acesse alertas do sistema por meio da interface do usuário. Você pode exibir os alertas disponíveis e assinar eles. Quando um determinado conjunto de condições em suas operações é atingido (como um possível problema quando o sistema viola um limite), as mensagens de alerta são enviadas a todos os usuários em sua organização que se inscreveram neles. Essas mensagens podem se repetir em um intervalo de tempo predefinido até que o alerta seja resolvido.
+O Journey Optimizer aproveita os recursos de alerta do Adobe Experience Platform. Isso permite que você acesse alertas do sistema por meio da interface do usuário. Você pode visualizar os alertas disponíveis e assiná-los. Quando um determinado conjunto de condições em suas operações é atingido (como um possível problema quando o sistema viola um limite), as mensagens de alerta são enviadas a todos os usuários em sua organização que se inscreveram neles. Essas mensagens podem se repetir em um intervalo de tempo predefinido até que o alerta seja resolvido.
 
-Saiba mais sobre alertas na Adobe Experience Platform [documentação](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html).
+Saiba mais sobre alertas no Adobe Experience Platform [documentação](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR).
 Para saber como se inscrever em alertas e configurá-los, consulte esta seção [página](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
-No menu esquerdo, em **Administração**, clique em **Alertas**. Um alerta pré-configurado para o Journey Otimizer está disponível. Esse alerta avisará se um nó de segmento de leitura não processou nenhum perfil durante o período de tempo definido.
+No menu esquerdo, em **Administração**, clique em **Alertas**. Um alerta pré-configurado para Journey Optimizer está disponível. Esse alerta avisará se um nó de segmento de leitura não processou nenhum perfil durante o período de tempo definido.
 
 ![](assets/alerts1.png)
 
@@ -30,8 +30,8 @@ Se tal comportamento inesperado ocorrer, uma notificação de alerta será envia
 
 ![](assets/alerts2.png)
 
-When [exibição de regras de alerta na interface do usuário da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), é possível assinar cada regra individualmente. Ao assinar alertas por meio de [Notificações de Evento de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html), no entanto, as regras de alerta são organizadas em pacotes de assinatura diferentes. O nome da assinatura do evento de E/S correspondente ao alerta de segmento Lido é: &quot;Atrasos, falhas e erros do segmento de leitura de jornada&quot;.
+When [exibição de regras de alerta na interface do usuário do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), é possível assinar cada regra individualmente. Ao assinar alertas por meio de [Notificações de Evento de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html), no entanto, as regras de alerta são organizadas em pacotes de assinatura diferentes. O nome da assinatura do evento de E/S correspondente ao alerta de segmento Lido é: &quot;Jornada atrasos, falhas e erros do segmento de leitura&quot;.
 
 >[!WARNING]
 >
->Esses alertas se aplicam apenas a jornadas ao vivo. Os alertas não serão acionados para jornadas no modo de teste.
+>Esses alertas se aplicam apenas às jornadas ativas. Os alertas não serão acionados para jornadas no modo de teste.

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Gerenciar a lista de supressão
-description: Saiba como acessar e gerenciar a lista de supressão do Journey Otimizer
+description: Saiba como acessar e gerenciar a lista de supressão do Journey Optimizer
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 0%
+source-wordcount: '1293'
+ht-degree: 4%
 
 ---
 
 # Gerenciar a lista de supressão {#manage-suppression-list}
 
-Com [!DNL Journey Optimizer], é possível monitorar todos os endereços de email que são excluídos automaticamente do envio em uma jornada ou campanha, como:
+Com [!DNL Journey Optimizer], é possível monitorar todos os endereços de email que são excluídos automaticamente de enviarem em uma jornada ou campanha, como:
 
 * Endereços inválidos (devoluções permanentes).
 * Endereços que consistentemente dão soft-bounce e podem afetar negativamente sua reputação de email se você continuar a incluí-los em seus deliveries.
@@ -27,7 +27,7 @@ Com [!DNL Journey Optimizer], é possível monitorar todos os endereços de emai
 >
 >A lista de supressão é gerenciada no nível da sandbox.
 
-Esses endereços de email são coletados automaticamente no Journey Otimizer **lista de supressão**. Saiba mais sobre o conceito e o uso da lista de supressão em [esta seção](../reports/suppression-list.md).
+Esses endereços de email são coletados automaticamente na Journey Optimizer **lista de supressão**. Saiba mais sobre o conceito e o uso da lista de supressão em [esta seção](../reports/suppression-list.md).
 
 Você também pode [**manualmente** adicionar um endereço ou um domínio](#add-addresses-and-domains) à lista de supressão.
 
@@ -37,11 +37,11 @@ Você também pode [**manualmente** adicionar um endereço ou um domínio](#add-
 
 ## Acessar a lista de supressão {#access-suppression-list}
 
-Para acessar a lista detalhada de endereços de email excluídos, acesse **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** e selecione **[!UICONTROL Suppression list]**.
+Para acessar a lista detalhada de endereços de email excluídos, acesse **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** e selecione **[!UICONTROL Lista de supressão]**.
 
 >[!CAUTION]
 >
->As permissões para visualizar, exportar e gerenciar a lista de supressão estão restritas a [Administradores de jornada](../administration/ootb-product-profiles.md#journey-administrator). Saiba mais sobre como gerenciar [!DNL Journey Optimizer] direitos de acesso dos usuários em [esta seção](../administration/permissions-overview.md).
+>As permissões para visualizar, exportar e gerenciar a lista de supressão estão restritas a [Administradores do Jornada](../administration/ootb-product-profiles.md#journey-administrator). Saiba mais sobre como gerenciar [!DNL Journey Optimizer] direitos de acesso dos usuários em [esta seção](../administration/permissions-overview.md).
 
 ![](assets/suppression-list-access.png)
 
@@ -49,25 +49,25 @@ Os filtros estão disponíveis para ajudar você a navegar pela lista.
 
 ![](assets/suppression-list-filters.png)
 
-Você pode filtrar na variável **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]** ou **[!UICONTROL Reason]**. Selecione as opções escolhidas para cada critério. Após a seleção, é possível limpar cada filtro ou todos os filtros exibidos na parte superior da lista.
+Você pode filtrar na variável **[!UICONTROL Categoria de supressão]**, **[!UICONTROL Tipo de endereço]** ou **[!UICONTROL Motivo]**. Selecione as opções escolhidas para cada critério. Após a seleção, é possível limpar cada filtro ou todos os filtros exibidos na parte superior da lista.
 
 ![](assets/suppression-list-filtering-example.png)
 
-Se você adicionar manualmente um endereço de email ou um domínio por engano, a variável **[!UICONTROL Delete]** permite remover essa entrada.
+Se você adicionar manualmente um endereço de email ou um domínio por engano, a variável **[!UICONTROL Excluir]** permite remover essa entrada.
 
 >[!CAUTION]
 >
->Nunca use o **[!UICONTROL Delete]** para remover domínios ou endereços de email suprimidos.
+>Nunca use o **[!UICONTROL Excluir]** para remover domínios ou endereços de email suprimidos.
 
 ![](assets/suppression-list-delete.png)
 
-Excluir um endereço de email ou um domínio da lista de supressão significa que você recomeçará a fazer o delivery para esse endereço ou domínio. Consequentemente, isso pode ter graves impactos na capacidade de entrega e reputação do IP, o que pode eventualmente levar ao bloqueio do seu endereço IP ou domínio de envio. Saiba mais sobre a importância de manter uma lista de supressão em [esta seção](../reports/suppression-list.md).
+Excluir um endereço de email ou um domínio da lista de supressão significa que você recomeçará a fazer o delivery para esse endereço ou domínio. Consequentemente, isso pode ter graves impactos na sua capacidade de entrega e reputação de IP, o que pode eventualmente levar ao bloqueio do seu endereço IP ou domínio de envio. Saiba mais sobre a importância de manter uma lista de supressão em [esta seção](../reports/suppression-list.md).
 
 >[!NOTE]
 >
->Continue com muito cuidado ao considerar a exclusão de qualquer endereço de email ou domínio. Em caso de dúvida, entre em contato com um especialista em deliverability.
+>Continue com muito cuidado ao considerar a exclusão de qualquer endereço de email ou domínio. Em caso de dúvidas, entre em contato com um especialista em capacidade de delivery.
 
-No **[!UICONTROL Suppression list]** , também é possível editar as regras de supressão. [Saiba mais](retries.md)
+No **[!UICONTROL Lista de supressão]** , também é possível editar as regras de supressão. [Saiba mais](retries.md)
 
 ## Baixe a lista de supressão {#download-suppression-list}
 
@@ -80,7 +80,7 @@ No **[!UICONTROL Suppression list]** , também é possível editar as regras de 
 
 Para exportar a lista de supressão como um arquivo CSV, siga as etapas abaixo.
 
-1. Selecione o **[!UICONTROL Download CSV]** botão.
+1. Selecione o **[!UICONTROL Baixar CSV]** botão.
 
    ![](assets/suppression-list-download-csv.png)
 
@@ -112,7 +112,7 @@ Para exportar a lista de supressão como um arquivo CSV, siga as etapas abaixo.
 
 ## Categorias e motivos de supressão {#suppression-categories-and-reasons}
 
-Quando uma mensagem não é entregue a um endereço de email, [!DNL Journey Optimizer] determina por que o delivery falhou e associa-o a um **[!UICONTROL Suppression category]**.
+Quando uma mensagem não é entregue a um endereço de email, [!DNL Journey Optimizer] determina por que o delivery falhou e associa-o a um **[!UICONTROL Categoria de supressão]**.
 
 As categorias de supressão são as seguintes:
 
@@ -130,7 +130,7 @@ As categorias de supressão são as seguintes:
 >
 >Saiba mais sobre devoluções temporárias e devoluções permanentes na [Tipos de falha de delivery](../reports/suppression-list.md#delivery-failures) seção.
 
-Para cada endereço de email listado, você também pode verificar a variável **[!UICONTROL Type]** (email ou domínio), **[!UICONTROL Reason]** para excluí-lo, quem o adicionou e a data/hora em que foi adicionado à lista de supressão.
+Para cada endereço de email listado, você também pode verificar a variável **[!UICONTROL Tipo]** (email ou domínio), **[!UICONTROL Motivo]** para excluí-lo, quem o adicionou e a data/hora em que foi adicionado à lista de supressão.
 
 ![](assets/suppression-list.png)
 
@@ -138,24 +138,24 @@ Os possíveis motivos para uma falha de delivery são:
 
 | Motivo | Descrição | Categoria de supressão |
 | --- | --- | --- |
-| **[!UICONTROL Invalid Recipient]** | O recipient é inválido ou não existe. | Disco rígido |
-| **[!UICONTROL Soft Bounce]** | A mensagem retornou por um motivo diferente dos erros suaves listados nesta tabela, como ao enviar pela taxa permitida recomendada por um ISP. | Suave |
-| **[!UICONTROL DNS Failure]** | A mensagem retornou devido a uma falha de DNS. | Suave |
-| **[!UICONTROL Mailbox Full]** | A mensagem retornou devido à caixa de entrada do recipient estar cheia e não poder aceitar mais mensagens. | Suave |
-| **[!UICONTROL Relaying Denied]** | A mensagem foi bloqueada pelo receptor porque a retransmissão não é permitida. | Suave |
-| **[!UICONTROL Challenge-Response]** | A mensagem é um teste de resposta a desafio. | Suave |
-| **[!UICONTROL Spam Complaint]** | A mensagem foi bloqueada porque foi marcada como spam pelo recipient. | Disco rígido |
+| **[!UICONTROL Recipient Inválido]** | O recipient é inválido ou não existe. | Grave |
+| **[!UICONTROL Rejeição temporária]** | A mensagem retornou por um motivo diferente dos erros suaves listados nesta tabela, como ao enviar pela taxa permitida recomendada por um ISP. | Suave |
+| **[!UICONTROL Falha de DNS]** | A mensagem retornou devido a uma falha de DNS. | Suave |
+| **[!UICONTROL Caixa de entrada cheia]** | A mensagem retornou devido à caixa de entrada do recipient estar cheia e não poder aceitar mais mensagens. | Suave |
+| **[!UICONTROL Retransmissão Negada]** | A mensagem foi bloqueada pelo receptor porque a retransmissão não é permitida. | Suave |
+| **[!UICONTROL Resposta ao desafio]** | A mensagem é um teste de resposta a desafio. | Suave |
+| **[!UICONTROL Reclamação de spam]** | A mensagem foi bloqueada porque foi marcada como spam pelo recipient. | Grave |
 
 >[!NOTE]
 >
->Usuários sem assinatura não recebem emails de [!DNL Journey Optimizer], portanto, seus endereços de email não podem ser enviados para a lista de supressão. Sua escolha é realizada no nível da Experience Platform. [Saiba mais sobre a opção de não participação](../privacy/opt-out.md)
+>Usuários sem assinatura não recebem emails de [!DNL Journey Optimizer], portanto, seus endereços de email não podem ser enviados para a lista de supressão. A escolha é feita no nível do Experience Platform. [Saiba mais sobre a opção de não participação](../privacy/opt-out.md)
 
 ## Adicionar endereços e domínios manualmente {#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
 >title="Adicionar emails ou domínios à lista de supressão"
->abstract="Você pode preencher manualmente a lista de supressão do Journey Otimizer para excluir domínios e/ou endereços de email específicos do seu envio."
+>abstract="Você pode preencher manualmente a lista de supressão do Journey Optimizer para excluir domínios e/ou endereços de email específicos do envio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
@@ -168,7 +168,7 @@ No entanto, também é possível preencher manualmente a variável [!DNL Journey
 
 Você pode adicionar endereços de email ou domínios [uma de cada vez](#add-one-address-or-domain)ou [no modo em massa](#upload-csv-file) por meio de um upload de arquivo CSV.
 
-Para fazer isso, selecione o **[!UICONTROL Add email or domain]** , em seguida, siga um dos métodos abaixo.
+Para fazer isso, selecione o **[!UICONTROL Adicionar email ou domínio]** , em seguida, siga um dos métodos abaixo.
 
 ![](assets/suppression-list-add-email.png)
 
@@ -179,11 +179,11 @@ Para fazer isso, selecione o **[!UICONTROL Add email or domain]** , em seguida, 
 >title="Adicionar um item à lista de supressão"
 >abstract="Você pode preencher a lista de supressão adicionando endereços de email e/ou domínios, um por um."
 
-1. Selecione o **[!UICONTROL One by one]** opção.
+1. Selecione o **[!UICONTROL Um por um]** opção.
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. Escolha o tipo de endereço: **[!UICONTROL Email address]** ou **[!UICONTROL Domain address]**.
+1. Escolha o tipo de endereço: **[!UICONTROL Endereço de email]** ou **[!UICONTROL Endereço do domínio]**.
 
 1. Insira o endereço de email ou domínio que deseja excluir do envio.
 
@@ -195,9 +195,9 @@ Para fazer isso, selecione o **[!UICONTROL Add email or domain]** , em seguida, 
 
    >[!NOTE]
    >
-   >Todos os caracteres ASCII compreendidos entre 32 e 126 são permitidos no **[!UICONTROL Reason]** campo. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por exemplo.
+   >Todos os caracteres ASCII compreendidos entre 32 e 126 são permitidos no **[!UICONTROL Motivo]** campo. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por exemplo.
 
-1. Clique em **[!UICONTROL Submit]**.
+1. Clique em **[!UICONTROL Enviar]**.
 
 ### Fazer upload de um arquivo CSV {#upload-csv-file}
 
@@ -206,7 +206,7 @@ Para fazer isso, selecione o **[!UICONTROL Add email or domain]** , em seguida, 
 >title="Fazer upload do CSV para adicionar itens à lista de supressão"
 >abstract="Você pode preencher a lista de supressão carregando um arquivo CSV preenchido com os endereços de email/domínios que deseja excluir."
 
-1. Selecione o **[!UICONTROL Upload CSV]** opção.
+1. Selecione o **[!UICONTROL Fazer upload de CSV]** opção.
 
    ![](assets/suppression-list-upload-csv.png)
 
@@ -230,7 +230,7 @@ Para fazer isso, selecione o **[!UICONTROL Add email or domain]** , em seguida, 
    >
    >Todos os caracteres ASCII compreendidos entre 32 e 126 são permitidos no **Comentário** coluna. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} por exemplo.
 
-1. Depois de concluído, arraste e solte seu arquivo CSV e clique em **[!UICONTROL Submit]**.
+1. Depois de concluído, arraste e solte seu arquivo CSV e clique em **[!UICONTROL Enviar]**.
 
    ![](assets/suppression-list-upload-csv-submit.png)
 
@@ -242,7 +242,7 @@ Para fazer isso, selecione o **[!UICONTROL Add email or domain]** , em seguida, 
 
 Você pode verificar a lista dos arquivos CSV mais recentes que você carregou.
 
-Para fazer isso, no **[!UICONTROL Suppression list]** , clique no botão **[!UICONTROL Recent uploads]** botão.
+Para fazer isso, no **[!UICONTROL Lista de supressão]** , clique no botão **[!UICONTROL Uploads recentes]** botão.
 
 ![](assets/suppression-list-recent-uploads-button.png)
 

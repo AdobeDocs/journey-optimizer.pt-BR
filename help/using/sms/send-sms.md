@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Visualizar sua mensagem SMS
-description: Saiba como visualizar e testar sua mensagem SMS no Journey Otimizer
+description: Saiba como visualizar e testar sua mensagem SMS no Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 0%
+source-wordcount: '277'
+ht-degree: 6%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Após definir o conteúdo da mensagem, é possível usar perfis de teste para pré-visualizá-lo e testá-lo. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, aproveitando os dados do perfil de teste.
 
-1. Clique em **[!UICONTROL Simulate content]**.
+1. Clique em **[!UICONTROL Simular conteúdo]**.
 
-1. Clique em **[!UICONTROL Manage test profiles]** para adicionar um perfil de teste.
+1. Clique em **[!UICONTROL Gerenciar perfis de teste]** para adicionar um perfil de teste.
 
-1. Encontre seu perfil de teste com a **[!UICONTROL Identity namespace]** e **[!UICONTROL Identity value]** campos. Em seguida, clique em **[!UICONTROL Add profile]**.
+1. Encontre seu perfil de teste com a **[!UICONTROL Namespace de identidade]** e **[!UICONTROL Valor de identidade]** campos. Em seguida, clique em **[!UICONTROL Adicionar perfil]**.
 
    ![](assets/sms_preview_3.png)
 
-1. Depois de selecionar seu perfil de teste, você pode fechar o **[!UICONTROL Add test profile]** janela.
+1. Depois de selecionar seu perfil de teste, você pode fechar o **[!UICONTROL Adicionar perfil de teste]** janela.
 
    ![](assets/sms_preview_1.png)
 
@@ -57,7 +57,7 @@ Quando a mensagem SMS estiver pronta, conclua a configuração de seu [jornada](
 
 **Tópicos relacionados**
 
-* [Configurar canal SMS](sms-configuration.md)
-* [Relatório SMS](../reports/journey-global-report.md#sms-global)
-* [Criar uma mensagem SMS](create-sms.md)
+* [Configurar canal de SMS](sms-configuration.md)
+* [Relatório de SMS](../reports/journey-global-report.md#sms-global)
+* [Criar uma mensagem de SMS.](create-sms.md)
 * [Adicionar uma mensagem em uma jornada](../building-journeys/journeys-message.md)

@@ -12,8 +12,8 @@ hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 0%
+source-wordcount: '1040'
+ht-degree: 2%
 
 ---
 
@@ -31,20 +31,20 @@ As etapas para configurar uma composição na tela de composição são as segui
 
 A primeira etapa para criar uma composição é selecionar um ou vários públicos-alvo existentes como base de sua composição.
 
-1. Selecione o **[!UICONTROL Audience]** em seguida, forneça um rótulo para a atividade.
+1. Selecione o **[!UICONTROL Público]** em seguida, forneça um rótulo para a atividade.
 
 1. Escolha o público-alvo para direcionar:
 
-   * Clique no botão **[!UICONTROL Add audience]** botão para selecionar um ou vários públicos-alvo existentes,
-   * Clique no botão **[!UICONTROL Build rule]** para criar uma nova definição de segmento usando o [Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   * Clique no botão **[!UICONTROL Adicionar público-alvo]** botão para selecionar um ou vários públicos-alvo existentes,
+   * Clique no botão **[!UICONTROL Regra de criação]** para criar uma nova definição de segmento usando o [Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/audiences-choose-audience.png)
 
 1. Se vários públicos-alvo forem selecionados, especifique como os perfis desses públicos-alvo devem ser mesclados:
 
-* **[!UICONTROL Union]**: incluir todos os perfis dos públicos-alvo selecionados,
-* **[!UICONTROL Intersection]**: incluir perfis comuns a todos os públicos-alvo selecionados,
-* **[!UICONTROL Exclude overlap]**: inclua perfis que pertençam a um dos públicos-alvo somente. Os perfis pertencentes a mais de um público-alvo não serão incluídos.
+* **[!UICONTROL União]**: incluir todos os perfis dos públicos-alvo selecionados,
+* **[!UICONTROL Interseção]**: incluir perfis comuns a todos os públicos-alvo selecionados,
+* **[!UICONTROL Excluir sobreposição]**: inclua perfis que pertençam a um dos públicos-alvo somente. Os perfis pertencentes a mais de um público-alvo não serão incluídos.
 
 Neste exemplo, queremos direcionar todos os perfis pertencentes aos públicos-alvo gold e prata.
 
@@ -62,7 +62,7 @@ Para fazer isso, clique no botão + no caminho da composição e selecione a ati
 
 >[!NOTE]
 >
->Você pode adicionar quantos **[!UICONTROL Audience]** e **[!UICONTROL Exclude]** conforme necessário na sua composição. No entanto, nenhuma atividade adicional pode ser adicionada após **[!UICONTROL Rank]** e **[!UICONTROL Split]** atividades.
+>Você pode adicionar quantos **[!UICONTROL Público]** e **[!UICONTROL Excluir]** conforme necessário na sua composição. No entanto, nenhuma atividade adicional pode ser adicionada após **[!UICONTROL Classificação]** e **[!UICONTROL Split]** atividades.
 
 Você pode remover uma atividade da tela a qualquer momento clicando no botão Excluir no painel direito. Todas as atividades adicionadas após essa atividade também serão removidas da tela.
 
@@ -85,7 +85,7 @@ As atividades disponíveis são:
 >title="Tipos de mesclagem"
 >abstract="Especifique como os perfis dos públicos-alvo selecionados devem ser mesclados."
 
-O **[!UICONTROL Audience]** permite incluir em sua composição perfis adicionais pertencentes a um público-alvo existente.
+O **[!UICONTROL Público]** permite incluir em sua composição perfis adicionais pertencentes a um público-alvo existente.
 
 A configuração dessa atividade é idêntica ao início [Atividade Audience](#starting-audience).
 
@@ -101,15 +101,15 @@ A configuração dessa atividade é idêntica ao início [Atividade Audience](#s
 >title="Excluir atividade"
 >abstract="A atividade Excluir permite excluir perfis de sua composição ao selecionar um público-alvo existente ou usar uma regra."
 
-O **[!UICONTROL Exclude]** permite excluir perfis de sua composição. Dois tipos de exclusão estão disponíveis:
+O **[!UICONTROL Excluir]** permite excluir perfis de sua composição. Dois tipos de exclusão estão disponíveis:
 
-* **[!UICONTROL Exclude Audience]**: Excluir perfis pertencentes a um público-alvo existente.
+* **[!UICONTROL Excluir público-alvo]**: Excluir perfis pertencentes a um público-alvo existente.
 
-   Clique no botão **[!UICONTROL Add audience]** em seguida, selecione o público a ser excluído.
+   Clique no botão **[!UICONTROL Adicionar público-alvo]** em seguida, selecione o público a ser excluído.
 
    ![](assets/audiences-exclude-audience.png)
 
-* **[!UICONTROL Exclude using attribute]**: Excluir perfis com base em um atributo específico.
+* **[!UICONTROL Excluir usando atributo]**: Excluir perfis com base em um atributo específico.
 
    Selecione o atributo a ser procurado e especifique o valor a ser excluído. Neste exemplo, estamos excluindo os perfis de composição cujo endereço residencial está no Japão.
 
@@ -127,7 +127,7 @@ O **[!UICONTROL Exclude]** permite excluir perfis de sua composição. Dois tipo
 >title="Adicionar limite de perfil"
 >abstract="Ative essa opção para especificar um número máximo de perfis para incluir na composição."
 
-O **[!UICONTROL Rank]** permite classificar perfis com base em um atributo específico e incluí-los na composição. Você pode, por exemplo, incluir os 50 perfis com a maior quantidade de pontos de fidelidade.
+O **[!UICONTROL Classificação]** permite classificar perfis com base em um atributo específico e incluí-los na composição. Você pode, por exemplo, incluir os 50 perfis com a maior quantidade de pontos de fidelidade.
 
 1. Selecione o atributo que deseja pesquisar e especifique uma ordem de classificação (crescente ou decrescente).
 
@@ -135,7 +135,7 @@ O **[!UICONTROL Rank]** permite classificar perfis com base em um atributo espec
    >
    >Você pode selecionar atributos com os seguintes tipos de dados: número inteiro, números, curto <!--(other?)-->
 
-1. Ative o **[!UICONTROL Add profile limit]** em e especifique um número máximo de perfis para incluir na composição.
+1. Ative o **[!UICONTROL Adicionar limite de perfil]** em e especifique um número máximo de perfis para incluir na composição.
 
    ![](assets/audiences-rank.png)
 
@@ -149,7 +149,7 @@ O **[!UICONTROL Rank]** permite classificar perfis com base em um atributo espec
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
 >title="Atividade Split"
->abstract="A atividade Split permite dividir a composição em vários caminhos. Ao publicar a composição, um público-alvo será salvo na Adobe Experience Platform para cada caminho."
+>abstract="A atividade Split permite dividir a composição em vários caminhos. Ao publicar a composição, um público-alvo será salvo no Adobe Experience Platform para cada caminho."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
@@ -163,27 +163,27 @@ O **[!UICONTROL Rank]** permite classificar perfis com base em um atributo espec
 
 O **[!UICONTROL Split]** permite dividir sua composição em vários caminhos.
 
-Essa operação adiciona automaticamente uma **[!UICONTROL Save]** no final de cada caminho. Ao publicar a composição, um público-alvo será salvo na Adobe Experience Platform para cada caminho.
+Essa operação adiciona automaticamente uma **[!UICONTROL Salvar]** no final de cada caminho. Ao publicar a composição, um público-alvo será salvo no Adobe Experience Platform para cada caminho.
 
 Estão disponíveis dois tipos de operações divididas:
 
-* **[!UICONTROL Percent split]**: dividir aleatoriamente perfis em dois ou mais caminhos. Por exemplo, você pode dividir os perfis em 2 caminhos distintos de 45% cada e adicionar um caminho adicional para o grupo de controle.
+* **[!UICONTROL Divisão de porcentagem]**: dividir aleatoriamente perfis em dois ou mais caminhos. Por exemplo, você pode dividir os perfis em 2 caminhos distintos de 45% cada e adicionar um caminho adicional para o grupo de controle.
 
    ![](assets/audiences-split-percentage.png)
 
-* **[!UICONTROL Attribute split]**: dividir perfis com base em um atributo específico. Neste exemplo, estamos dividindo perfis com base em suas preferências de tipo de quarto.
+* **[!UICONTROL Divisão de atributo]**: dividir perfis com base em um atributo específico. Neste exemplo, estamos dividindo perfis com base em suas preferências de tipo de quarto.
 
    ![](assets/audiences-split.png)
 
    >[!NOTE]
    >
-   >O **[!UICONTROL Other profiles]** permite criar um caminho adicional com os perfis restantes que não correspondem a nenhuma das condições especificadas nos outros caminhos.
+   >O **[!UICONTROL Outros perfis]** permite criar um caminho adicional com os perfis restantes que não correspondem a nenhuma das condições especificadas nos outros caminhos.
 
 ## Salvar públicos {#save}
 
-Configure os públicos resultantes que serão salvos na Adobe Experience Platform.
+Configure os públicos resultantes que serão salvos no Adobe Experience Platform.
 
-Para fazer isso, selecione o **[!UICONTROL Save audience]** ao final de cada caminho, em seguida, especifique o nome do novo público-alvo a ser criado.
+Para fazer isso, selecione o **[!UICONTROL Salvar público-alvo]** ao final de cada caminho, em seguida, especifique o nome do novo público-alvo a ser criado.
 
 ![](assets/audiences-publish.png)
 
@@ -191,6 +191,6 @@ Quando sua composição estiver pronta, você poderá publicá-la. [Saiba como c
 
 Saiba mais:
 
-* [Introdução à composição do público-alvo](get-started-audience-orchestration.md)
+* [Introdução à composição de público-alvo](get-started-audience-orchestration.md)
 * [Criar workflows de composição](create-compositions.md)
-* [Acessar e gerenciar públicos](access-audiences.md)
+* [Acessar e gerenciar públicos-alvo](access-audiences.md)

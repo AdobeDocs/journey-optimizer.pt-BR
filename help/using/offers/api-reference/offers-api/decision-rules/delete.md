@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 0%
+source-wordcount: '159'
+ht-degree: 6%
 
 ---
 
 # Excluir uma regra de decisão {#delete-decision-rule}
 
-Ocasionalmente, pode ser necessário remover (EXCLUIR) uma regra de decisão. Somente as regras de decisão criadas no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para a variável [!DNL Offer Library] API usando a ID da instância da regra de decisão que você deseja excluir.
+Por vezes, pode ser necessário remover (DELETE) uma regra de decisão. Somente as regras de decisão criadas no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando a ID da instância da regra de decisão que você deseja excluir.
 
 **Formato da API**
 

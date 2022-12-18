@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Medidas de proteção e limitações do Journey Otimizer
-description: Saiba mais sobre as medidas de proteção do Journey Otimizer
+title: Medidas de proteção e limitações do Journey Optimizer
+description: Saiba mais sobre as medidas de proteção do Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,89 +10,89 @@ level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 0%
+source-wordcount: '856'
+ht-degree: 100%
 
 ---
 
 # Medidas de proteção e limitações {#limitations}
 
-Os direitos, as limitações de produtos e as medidas de proteção do desempenho estão listados em [Página de descrição do produto Adobe Journey Otimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
+Os direitos, as limitações de produto e as medidas de proteção de desempenho estão listados na [página de descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}.
 
-Você encontrará abaixo medidas de proteção e limitações adicionais ao usar [!DNL Adobe Journey Optimizer].
+Abaixo você encontrará medidas de proteção e limitações adicionais para uso do [!DNL Adobe Journey Optimizer].
 
 ## Medidas de proteção de mensagens {#message-guardrails}
 
 * Não é possível adicionar anexos a um email com [!DNL Journey Optimizer].
-* Você não pode usar o mesmo domínio de envio para enviar mensagens de [!DNL Adobe Journey Optimizer] e de outro produto, como [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage] por exemplo.
+* Você não pode usar o mesmo domínio de envio para enviar mensagens do [!DNL Adobe Journey Optimizer] e de outro produto, como o [!DNL Adobe Campaign] ou o [!DNL Adobe Marketo Engage] por exemplo.
 
 
 ## Medidas de proteção de gestão de decisões {#offer-guardrails}
 
-As medidas de proteção de desempenho e os limites estáticos para a tomada de decisões estão listados na seção [Página de descrição do produto Serviço de aplicativo Adobe Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+As medidas de proteção de desempenho e os limites estáticos para a tomada de decisões estão listados na [Página de descrição do produto Serviço de aplicativo do Adobe Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
 
 
-## Medidas de proteção das páginas de aterrissagem {#lp-guardrails}
+## Medidas de proteção das páginas de destino {#lp-guardrails}
 
-* Somente um **Formulário** pode ser usado em uma única página primária.
-* O **Formulário** não pode ser usado em subpáginas.
-* Não é possível adicionar um precabeçalho a uma página de aterrissagem.
-* Não é possível selecionar a variável **Codifique seu próprio** ao criar uma página primária de aterrissagem.
+* Somente um componente de **Formulário** pode ser usado em uma única página principal.
+* O componente de **Formulário** não pode ser usado em subpáginas.
+* Não é possível adicionar um pré-cabeçalho a uma página de destino.
+* Não é possível selecionar a opção **Codifique você mesmo** ao criar uma página de destino principal.
 
-## Medidas de proteção da viagem {#journeys-guardrails}
+## Medidas de proteção de jornada {#journeys-guardrails}
 
 ### Ações gerais {#general-actions-g}
 
 * Não há limitação de envio.
 * Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida.
-* O **Reação** permite que você reaja a ações predefinidas. Saiba mais em [esta página](../building-journeys/reaction-events.md). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado.
+* O evento **Reação** integrado permite que você reaja a ações predefinidas. Saiba mais [nesta página](../building-journeys/reaction-events.md). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado.
 * Não é possível colocar duas ações em paralelo, é necessário adicioná-las uma após a outra.
-* Geralmente, um perfil não pode estar presente várias vezes na mesma jornada, ao mesmo tempo. Se a reentrada estiver ativada, um perfil poderá entrar novamente em uma jornada, mas não poderá fazê-lo até que ele tenha saído totalmente dessa instância anterior da jornada. [Leia mais](../building-journeys/end-journey.md)
+* Geralmente, um perfil não pode estar presente várias vezes na mesma jornada ao mesmo tempo. Se a reentrada estiver ativada, um perfil poderá inserir uma jornada novamente, mas não poderá fazer isso até que ele tenha saído totalmente da instância anterior da jornada. [Leia mais](../building-journeys/end-journey.md)
 
 ### Versões de jornada {#journey-versions-g}
 
-* Uma jornada que começa com uma atividade de evento na v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com uma **Qualificação do segmento** evento.
-* Uma jornada que começa com uma **Qualificação do segmento** atividade em v1 deve sempre começar com um **Qualificação do segmento** em outras versões.
-* O segmento e o namespace escolhidos em **Qualificação do segmento** (primeiro nó) não pode ser alterado em novas versões.
+* Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação do segmento**.
+* Uma jornada que começa com uma atividade de **Qualificação de segmento** em v1 deve sempre começar com uma **Qualificação de segmento** em outras versões.
+* O segmento e o namespace escolhidos na **Qualificação de segmento** (primeiro nó) não podem ser alterados em novas versões.
 * A regra de reentrada deve ser a mesma em todas as versões da jornada.
-* Uma jornada que começa com uma **Ler segmento** O não pode começar com outro evento nas próximas versões.
+* Uma jornada que começa com um **Segmento de leitura** não pode começar com outro evento nas próximas versões.
 
 ### Ações personalizadas {#custom-actions-g}
 
-* O URL de ação personalizada não suporta parâmetros dinâmicos.
-* Somente métodos de chamada POST e PUT são compatíveis
-* O nome do parâmetro de consulta ou cabeçalho não deve começar com &quot;.&quot; ou &quot;$&quot;
+* O URL de ação personalizada não aceita parâmetros dinâmicos.
+* Somente os métodos de chamada POST e PUT são compatíveis
+* O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou “$”
 * Endereços IP não são permitidos
-* Endereços internos da Adobe (.adobe.) não são permitidas.
+* Endereços da Adobe internos (.adobe.) não são permitidos.
 
 ### Eventos {#events-g}
 
-* Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Otimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada à carga de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
+* Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
 * Os eventos comerciais não podem ser usados junto com eventos unitários ou atividades de qualificação de segmento.
-* As jornadas unitárias (começando com um evento ou uma qualificação de segmento) incluem uma garantia que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. A reentrada do perfil é temporariamente bloqueada por padrão por 5 minutos. Por exemplo, se um evento acionar uma jornada às 12:01 para um perfil específico e outra chegar às 12:03 (se for o mesmo evento ou um evento diferente que aciona a mesma jornada), essa jornada não será iniciada novamente para esse perfil.
+* As jornadas unitárias (começando com um evento ou uma qualificação de segmento) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. A reentrada do perfil é temporariamente bloqueada por padrão por 5 minutos. Por exemplo, se um evento acionar uma jornada às 12h01 para um perfil específico e outra chegar às 12h03 (se for o mesmo evento ou outro acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
 
 ### Fontes de dados {#data-sources-g}
 
-* As fontes de dados externas podem ser aproveitadas em uma jornada do cliente para pesquisar dados externos em tempo real. Essas fontes devem ser utilizáveis por meio da API REST, devem ser compatíveis com JSON e podem lidar com o volume de solicitações.
+* As fontes de dados externas podem ser aproveitadas em uma jornada do cliente para pesquisar dados externos em tempo real. Essas fontes devem ser utilizáveis por meio da API REST, devem ser compatíveis com JSON e poder lidar com o volume de solicitações.
 
-### Jornadas e criação de perfis {#journeys-limitation-profile-creation}
+### Criação de jornadas e perfis {#journeys-limitation-profile-creation}
 
-Há um atraso associado à criação/atualização de perfil com base em API na Adobe Experience Platform. O Service Level Target (SLT) em termos de latência é &lt; 1 min desde a assimilação até o Perfil unificado, por 95% das solicitações, em um volume de 20 mil solicitações por segundo (RPS).
+Há um atraso associado à criação/atualização de perfil com base em API na Adobe Experience Platform. O Service Level Target (SLT) em termos de latência é &lt; 1 min desde a ingestão até o Perfil unificado, por 95% das solicitações, em um volume de 20 mil solicitações por segundo (RPS).
 
-Se uma jornada for acionada simultaneamente à criação de um perfil e verificar/recuperar imediatamente as informações do Serviço de perfil, talvez não funcione corretamente.
+Se uma jornada for acionada simultaneamente à criação de um perfil e verificar/recuperar imediatamente as informações do Serviço de perfil, ela pode não funcionar corretamente.
 
 Você pode escolher uma dessas duas soluções:
 
-* Adicione uma atividade de espera após o primeiro evento para conceder à Adobe Experience Platform o tempo necessário para executar a assimilação no Serviço de perfil.
+* Adicione uma atividade de espera depois do primeiro evento para conceder à Adobe Experience Platform o tempo necessário para executar a ingestão no Serviço de Perfil.
 
-* Configure uma jornada que não use o perfil imediatamente. Por exemplo, se a jornada for projetada para confirmar a criação de uma conta, o evento de experiência poderá conter as informações necessárias para enviar a primeira mensagem de confirmação (nome, sobrenome, endereço de email etc.).
+* Configure uma jornada que não use o perfil imediatamente. Por exemplo, se a jornada for projetada para confirmar a criação de uma conta, o evento da experiência pode conter informações necessárias para enviar a primeira mensagem de confirmação (nome, sobrenome, endereço de email etc.).
 
 ### Ler segmento {#read-segment-g}
 
-* Os segmentos continuados estão sempre atualizados, mas os segmentos em lote não serão calculados no momento da recuperação. Só são avaliados todos os dias no momento da avaliação diária do lote.
-* Para jornadas que usam uma atividade Ler segmento , há um número máximo de jornadas que podem começar exatamente ao mesmo tempo. As tentativas serão executadas pelo sistema, mas evite ter mais de cinco jornadas (com Segmento de leitura, programado ou iniciando &quot;o mais rápido possível&quot;), iniciando exatamente ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
+* Os segmentos exibidos estão sempre atualizados, mas os segmentos em lote não serão calculados no momento da recuperação. Só são avaliados diariamente no momento da avaliação diária do lote.
+* Para jornadas que usam uma atividade Segmento de Leitura, há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. As tentativas serão executadas pelo sistema, mas evite ter mais do que cinco jornadas (com Segmento de Leitura, programado ou iniciando &quot;o mais rápido possível&quot;), iniciando exatamente ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
 
 ### Editor de expressão {#expression-editor}
 
-* Os grupos de campos de evento de experiência não podem ser usados em jornadas que começam com um segmento Lido, uma qualificação de Segmento ou uma atividade de evento comercial.
+* Grupos de campos de evento de experiência não podem ser usados em jornadas que começam com um Segmento de Leitura, uma qualificação de Segmento ou uma atividade de evento comercial.
 

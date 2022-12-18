@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Personalizar conteúdo no Journey Otimizer
+title: Personalizar conteúdo no Journey Optimizer
 description: Introdução à personalização.
 feature: Personalization
 topic: Personalization
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 0%
+source-wordcount: '322'
+ht-degree: 28%
 
 ---
 
@@ -31,11 +31,11 @@ Discover [!DNL Adobe Journey Optimizer] recursos de personalização para adapta
 * `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
 * `Hello {{profile.person.name.fullName}}`
 
-Ao processar a mensagem (email e push), o Journey Otimizer substitui a expressão pelos dados contidos no banco de dados da Experience Platform:  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` torna-se &quot;Olá, John Doe&quot;.
+Ao processar a mensagem (email e push), o Journey Optimizer substitui a expressão pelos dados contidos no banco de dados do Experience Platform:  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` torna-se &quot;Olá, John Doe&quot;.
 
 ## Aproveite os dados do perfil para personalizar suas mensagens {#data}
 
-A personalização é baseada nos dados de perfil gerenciados pela variável **Perfil individual XDM** definido na Adobe Experience Platform. Saiba mais em [Documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+A personalização é baseada nos dados de perfil gerenciados pelo esquema do **Perfil individual XDM** definido na Adobe Experience Platform. Saiba mais em [Documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 >O **Perfil individual XDM** schema é o único schema que pode ser usado para personalizar o conteúdo em [!DNL Journey Optimizer].

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 0%
+source-wordcount: '730'
+ht-degree: 9%
 
 ---
 
@@ -29,7 +29,7 @@ Exemplo de expressão simples:
 em que:
 
 * `profile` é um namespace.
-* `person.name` é um token composto por atributos. A estrutura de atributos é definida em um Esquema XDM da Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+* `person.name` é um token composto por atributos. A estrutura de atributos é definida em um Esquema XDM da Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 ## Regras gerais de sintaxe {#general-rules}
 
@@ -43,7 +43,7 @@ A sintaxe diferencia maiúsculas e minúsculas.
 
 As palavras **true**, **false**, **null** e **indefinido** são permitidas somente na primeira parte de uma expressão de caminho.
 
-Em Handlebars, os valores retornados pela variável {{expression}} são **Com escape de HTML**. Se a expressão contiver `&`, a saída de saída de HTML retornada é gerada como `&amp;`. Se você não quiser que o Handlebars escape um valor, use o &quot;traço triplo&quot;.
+Em Handlebars, os valores retornados pela variável {{expression}} são **HTML-escaped**. Se a expressão contiver `&`, a saída HTML-escaped retornada é gerada como `&amp;`. Se você não quiser que o Handlebars escape um valor, use o &quot;traço triplo&quot;.
 
 No que diz respeito aos argumentos de funções literais, o analisador de linguagem de modelo não suporta uma barra invertida única sem escape (`\`). Esse caractere deve ser evitado com uma barra invertida adicional (`\`). Exemplo :
 
@@ -51,7 +51,7 @@ No que diz respeito aos argumentos de funções literais, o analisador de lingua
 
 ## Perfil
 
-Esse namespace permite fazer referência a todos os atributos definidos no esquema de perfil descrito em [Documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+Esse namespace permite fazer referência a todos os atributos definidos no esquema de perfil descrito em [Documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 Os atributos precisam ser definidos no schema antes de serem referenciados em um [!DNL Journey Optimizer] bloco de personalização.
 
@@ -116,12 +116,12 @@ Todas as referências são validadas em relação ao Esquema de ofertas com um m
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* Conteúdo HTML da oferta proveniente do mecanismo de decisão:
+* HTML da oferta proveniente do mecanismo de decisão:
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## Ajudantes{#helpers-all}
+## Auxiliares{#helpers-all}
 
 Um Handlebars helper é um identificador simples que pode ser seguido por parâmetros.
 Cada parâmetro é uma expressão Handlebars. Essas ajuda podem ser acessadas de qualquer contexto em um modelo.
@@ -151,9 +151,9 @@ Blocos são expressões que têm uma abertura de bloco ({{# }}) and closing ({{/
 
 ## Personalização de URL{#perso-urls}
 
-Os URLs personalizados levam os recipients para páginas específicas de um site ou para um microsite personalizado, dependendo dos atributos do perfil. No Adobe Journey Otimizer, você pode adicionar personalização a URLs no conteúdo da mensagem. A personalização do URL pode ser aplicada ao texto e às imagens, e usar os dados do perfil ou dados contextuais.
+Os URLs personalizados levam os recipients para páginas específicas de um site ou para um microsite personalizado, dependendo dos atributos do perfil. No Adobe Journey Optimizer, é possível adicionar personalização a URLs no conteúdo da mensagem. A personalização de URLs pode ser aplicada ao texto e às imagens, e usar dados do perfil ou dados contextuais.
 
-O Journey Otimizer permite personalizar um ou vários URLs na mensagem adicionando campos de personalização a eles. Para personalizar um URL, siga as etapas abaixo:
+O Journey Optimizer permite personalizar um ou vários URLs na mensagem, adicionando campos de personalização a eles. Para personalizar um URL, siga as etapas abaixo:
 
 1. Crie um link no conteúdo da mensagem. [Saiba mais](../email/message-tracking.md#insert-links)
 1. No ícone de personalização, selecione os atributos. O ícone de personalização só está disponível para esses tipos de links: **Link externo**, **Link de cancelamento de assinatura** e **Opção de rejeição**.

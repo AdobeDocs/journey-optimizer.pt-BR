@@ -1,6 +1,6 @@
 ---
-title: Introdução ao canal da Web
-description: Saiba mais sobre o canal da Web no Journey Otimizer
+title: Introdução ao canal Web
+description: Saiba mais sobre o canal da Web no Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -11,11 +11,11 @@ exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# Introdução ao canal da Web {#get-sarted-web}
+# Introdução ao canal Web {#get-sarted-web}
 
 >[!AVAILABILITY]
 >
@@ -37,8 +37,8 @@ Por meio de uma interface visual intuitiva, esse recurso permite modificar suas 
 
 <table>
 <tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-web.md">Criar experiências da Web</a></p></td>
-<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="author-web.md">Páginas da Web do autor</a></p></td>
+<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-web.md">Criação de experiências da Web</a></p></td>
+<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="author-web.md">Páginas da Web de autor</a></p></td>
 <td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="web-report.md">Relatórios da Web</a></p></td>
 </tr>
 </table>

@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ listString,listString : listString
 
 **Uso**
 
-A instrução condicional permite otimizar o fluxo de trabalho da jornada, reduzindo o número de atividades de condição. Por exemplo, na mesma atividade de ação, é possível especificar duas alternativas para uma definição de campo usando apenas uma expressão de condição.
+A instrução condicional permite otimizar o workflow do jornada, reduzindo o número de atividades de condição. Por exemplo, na mesma atividade de ação, é possível especificar duas alternativas para uma definição de campo usando apenas uma expressão de condição.
 
 Exemplo para uma atividade de ação (para um campo que espera uma string como resultado da instrução condicional):
 

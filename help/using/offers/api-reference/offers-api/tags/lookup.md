@@ -9,13 +9,13 @@ exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 # Pesquisar uma tag {#look-up-tag}
 
-Você pode pesquisar tags específicas fazendo uma solicitação GET para a variável [!DNL Offer Library] API que inclui a tag `@id` ou o nome da tag no caminho da solicitação.
+Você pode pesquisar tags específicas fazendo uma solicitação do GET para a variável [!DNL Offer Library] API que inclui a tag `@id` ou o nome da tag no caminho da solicitação.
 
 **Formato da API**
 

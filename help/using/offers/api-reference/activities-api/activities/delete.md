@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 0%
+source-wordcount: '141'
+ht-degree: 7%
 
 ---
 
 # Excluir uma decisão {#delete-decision}
 
-Ocasionalmente, pode ser necessário remover (EXCLUIR) uma decisão. Somente as decisões que você criar no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para a variável [!DNL Offer Library] API usando o $id da oferta de fallback que você deseja excluir.
+Por vezes, pode ser necessário retirar (DELETE) uma decisão. Somente as decisões que você criar no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando o $id da oferta de fallback que você deseja excluir.
 
 **Formato da API**
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar relatórios do Journey Otimizer para experimentação
+title: Configurar relatórios do Journey Optimizer para experimentação
 description: Saiba como configurar a fonte de dados de relatórios
 feature: Data Sources
 topic: Administration
@@ -12,8 +12,8 @@ hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 0%
+source-wordcount: '727'
+ht-degree: 29%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="Configurar conjuntos de dados para relatórios"
->abstract="A configuração de relatórios permite recuperar métricas adicionais que serão usadas na guia Objetivos dos relatórios de campanha. Ele deve ser executado por um usuário técnico."
+>abstract="A configuração de relatórios permite recuperar métricas adicionais que serão usadas na guia Objetivos dos relatórios de campanha. Ela deve ser feita por um usuário técnico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
-A configuração da fonte de dados de relatórios permite recuperar métricas adicionais que serão usadas no **[!UICONTROL Objectives]** dos relatórios da campanha. [Saiba mais](content-experiment.md#objectives-global)
+A configuração da fonte de dados de relatórios permite recuperar métricas adicionais que serão usadas no **[!UICONTROL Objetivos]** dos relatórios da campanha. [Saiba mais](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >
@@ -46,11 +46,11 @@ Para essa configuração, é necessário adicionar um ou mais conjuntos de dados
 ## Pré-requisitos
 
 
-Antes de poder adicionar um conjunto de dados à configuração do relatório, você deve criar esse conjunto de dados. Saiba como na [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#create){target=&quot;_blank&quot;}.
+Antes de poder adicionar um conjunto de dados à configuração do relatório, você deve criar esse conjunto de dados. Saiba mais na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR#create){target=&quot;_blank&quot;}.
 
 * Você só pode adicionar conjuntos de dados do tipo evento.
 
-* Esses conjuntos de dados devem conter pelo menos um dos seguintes [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}: **Detalhes do aplicativo**, **Detalhes de comércio**, **Detalhes da Web**.
+* Esses conjuntos de dados devem conter pelo menos um dos seguintes [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target=&quot;_blank&quot;}: **Detalhes do aplicativo**, **Detalhes de comércio**, **Detalhes da Web**.
 
    >[!NOTE]
    >
@@ -66,11 +66,11 @@ Antes de poder adicionar um conjunto de dados à configuração do relatório, v
 
 >[!NOTE]
 >
->Saiba mais sobre esquemas XDM e grupos de campos no [Documentação de visão geral do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en){target=&quot;_blank&quot;}.
+>Saiba mais sobre esquemas XDM e grupos de campos na [documentação de visão geral do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 ## Objetivos correspondentes a cada grupo de campos {#objective-list}
 
-A tabela abaixo mostra quais métricas serão adicionadas ao **[!UICONTROL Objectives]** dos relatórios da campanha para cada grupo de campos.
+A tabela abaixo mostra quais métricas serão adicionadas ao **[!UICONTROL Objetivos]** dos relatórios da campanha para cada grupo de campos.
 
 | Grupo de campos | Objetivos |
 |--- |--- |
@@ -80,57 +80,57 @@ A tabela abaixo mostra quais métricas serão adicionadas ao **[!UICONTROL Objec
 
 ## Adicionar conjuntos de dados {#add-datasets}
 
-1. No **[!UICONTROL ADMINISTRATION]** selecione **[!UICONTROL Configurations]**. No  **[!UICONTROL Reporting]** seção , clique em **[!UICONTROL Manage]**.
+1. No **[!UICONTROL ADMINISTRAÇÃO]** selecione **[!UICONTROL Configurações]**. No  **[!UICONTROL Relatório]** seção , clique em **[!UICONTROL Gerenciar]**.
 
    ![](assets/reporting-config-menu.png)
 
    A lista de conjuntos de dados que já foram adicionados é exibida.
 
-1. No **[!UICONTROL Dataset]** clique em **[!UICONTROL Add dataset]**.
+1. No **[!UICONTROL Conjunto de dados]** clique em **[!UICONTROL Adicionar conjunto de dados]**.
 
    ![](assets/reporting-config-add.png)
 
    >[!NOTE]
    >
-   >Se você selecionar a variável **[!UICONTROL System dataset]** , somente os conjuntos de dados criados pelo sistema são exibidos. Não será possível adicionar outros conjuntos de dados.
+   >Se você selecionar a variável **[!UICONTROL Conjunto de dados do sistema]** , somente os conjuntos de dados criados pelo sistema são exibidos. Não será possível adicionar outros conjuntos de dados.
 
-1. No **[!UICONTROL Dataset]** na lista suspensa, selecione o conjunto de dados que deseja usar para seus relatórios.
+1. No **[!UICONTROL Conjunto de dados]** na lista suspensa, selecione o conjunto de dados que deseja usar para seus relatórios.
 
    >[!CAUTION]
    >
-   >Você só pode selecionar um conjunto de dados do tipo evento, que deve conter pelo menos um dos [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}: **Detalhes do aplicativo**, **Detalhes de comércio**, **Detalhes da Web**. Se você selecionar um conjunto de dados que não corresponda a esses critérios, não será possível salvar suas alterações.
+   >Você só pode selecionar um conjunto de dados do tipo evento, que deve conter pelo menos um dos [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target=&quot;_blank&quot;}: **Detalhes do aplicativo**, **Detalhes de comércio**, **Detalhes da Web**. Se você selecionar um conjunto de dados que não corresponda a esses critérios, não será possível salvar suas alterações.
 
    ![](assets/reporting-config-datasets.png)
 
-   Saiba mais sobre conjuntos de dados no [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
+   Saiba mais sobre conjuntos de dados na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
-1. No **[!UICONTROL Profile ID]** na lista suspensa, selecione o atributo de campo do conjunto de dados que será usado para identificar cada perfil em seus relatórios.
+1. No **[!UICONTROL ID do perfil]** na lista suspensa, selecione o atributo de campo do conjunto de dados que será usado para identificar cada perfil em seus relatórios.
 
    ![](assets/reporting-config-profile-id.png)
 
    >[!NOTE]
    >
-   >Somente as IDs disponíveis para relatório são exibidas.
+   >Somente as IDs disponíveis para relatórios são exibidas.
 
-1. O **[!UICONTROL Use Primary ID namespace]** está ativada por padrão. Se a opção **[!UICONTROL Profile ID]** é **[!UICONTROL Identity Map]**, você pode desativar essa opção e escolher outro namespace na lista suspensa que é exibida.
+1. O **[!UICONTROL Usar namespace da ID primária]** está ativada por padrão. Se a opção **[!UICONTROL ID do perfil]** é **[!UICONTROL Mapa de identidade]**, você pode desativar essa opção e escolher outro namespace na lista suspensa que é exibida.
 
    ![](assets/reporting-config-namespace.png)
 
-   Saiba mais sobre namespaces no [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target=&quot;_blank&quot;}.
+   Saiba mais sobre namespaces na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 1. Salve as alterações para adicionar o conjunto de dados selecionado à lista de configuração de relatórios.
 
    >[!CAUTION]
    >
-   >Se você selecionou um conjunto de dados que não é do tipo de evento, não será possível continuar.
+   >Se você selecionou um conjunto de dados que não é do tipo evento, não será possível continuar.
 
-Ao criar relatórios de campanha, agora é possível visualizar as métricas correspondentes aos grupos de campos usados nos conjuntos de dados adicionados. Vá para o **[!UICONTROL Objectives]** e selecione as métricas de sua escolha para ajustar melhor seus relatórios. [Saiba mais](content-experiment.md#objectives-global)
+Ao criar relatórios de campanha, agora é possível visualizar as métricas correspondentes aos grupos de campos usados nos conjuntos de dados adicionados. Vá para o **[!UICONTROL Objetivos]** e selecione as métricas de sua escolha para ajustar melhor seus relatórios. [Saiba mais](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
 >[!NOTE]
 >
->Se você adicionar vários conjuntos de dados, todos os dados de todos os conjuntos de dados estarão disponíveis para relatórios.
+>Se você adicionar vários conjuntos de dados, todos os dados de todos os conjuntos de dados estarão disponíveis para os relatórios.
 
 <!--
 ## How-to video {#video}

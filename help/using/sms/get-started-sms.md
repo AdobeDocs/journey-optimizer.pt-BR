@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução ao SMS
-description: Saiba como criar um SMS no Journey Otimizer
+title: Introdução a SMS
+description: Saiba como criar um SMS no Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 0%
+source-wordcount: '193'
+ht-degree: 22%
 
 ---
 
-# Introdução ao SMS {#get-started-sms}
+# Introdução a SMS {#get-started-sms}
 
 >[!IMPORTANT]
 >
@@ -25,9 +25,9 @@ Use [!DNL Journey Optimizer] para enviar mensagens de texto aos clientes em seus
 
 Deliveries de SMS podem ser criados:
 
-* Em um **Jornada**: Depois de adicionar uma atividade de SMS em sua jornada e definir configurações básicas, use a **[!UICONTROL Actions: SMS]** painel direito para criar o conteúdo da mensagem SMS.
+* Em um **Jornada**: Depois de adicionar uma atividade de SMS na jornada e definir as configurações básicas, use a **[!UICONTROL Ações: SMS]** painel direito para criar o conteúdo da mensagem SMS.
 
-   Para obter mais informações sobre como configurar sua jornada, consulte esta seção [página](../building-journeys/journey-gs.md).
+   Para obter mais informações sobre como configurar a jornada, consulte esta seção [página](../building-journeys/journey-gs.md).
 
 * Em um **Campanha**: Depois de criar uma campanha, selecione SMS como ação e defina configurações básicas.
 
@@ -38,9 +38,9 @@ Se esta for a primeira vez que você cria uma mensagem SMS, verifique se o canal
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="Líder" src="../assets/do-not-localize/sms-create.jpeg">
+<img alt="Cliente potencial" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-sms.md"><strong>Criar uma mensagem SMS</strong>
+<div><a href="create-sms.md"><strong>Criar uma mensagem de SMS.</strong>
 </div>
 <p>
 </td>
@@ -49,7 +49,7 @@ Se esta for a primeira vez que você cria uma mensagem SMS, verifique se o canal
 <img alt="Pouco frequentes" src="../assets/do-not-localize/sms-sending.jpg">
 </a>
 <div>
-<a href="send-sms.md"><strong>Enviar uma mensagem SMS</strong></a>
+<a href="send-sms.md"><strong>Enviar uma mensagem de SMS</strong></a>
 </div>
 <p></td>
 <td>
@@ -57,7 +57,7 @@ Se esta for a primeira vez que você cria uma mensagem SMS, verifique se o canal
 <img alt="Validação" src="../assets/do-not-localize/sms-opt-out.jpg">
 </a>
 <div>
-<a href="sms-opt-out.md"><strong>Gerenciamento de recusa de SMS</strong></a>
+<a href="sms-opt-out.md"><strong>Gerenciamento de opção de não participação de SMS</strong></a>
 </div>
 <p>
 </td>
@@ -66,7 +66,7 @@ Se esta for a primeira vez que você cria uma mensagem SMS, verifique se o canal
 <img alt="Validação" src="../assets/do-not-localize/sms-config.jpg">
 </a>
 <div>
-<a href="sms-configuration.md"><strong>Configurar canal SMS</strong></a>
+<a href="sms-configuration.md"><strong>Configurar canal de SMS</strong></a>
 </div>
 <p>
 </td>

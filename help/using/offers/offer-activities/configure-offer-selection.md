@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 0%
+source-wordcount: '451'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 Se várias ofertas estiverem qualificadas para uma determinada disposição, você poderá escolher o método que selecionará a melhor oferta para cada perfil ao configurar uma decisão. Você pode classificar ofertas por:
 * Prioridade da oferta
 * Fórmula de classificação
-* [Classificação AI](#use-ranking-strategy)
+* [Classificação de IA](#use-ranking-strategy)
 
 ![](../assets/offer-rank-by.png)
 
@@ -32,11 +32,11 @@ As pontuações de prioridade das ofertas são atribuídas ao criar uma oferta. 
 
 ## Fórmula de classificação {#assign-ranking-formula}
 
-Além da prioridade da oferta, o Journey Otimizer permite criar **fórmulas de classificação**. Essas são fórmulas que determinam qual oferta deve ser apresentada primeiro para uma determinada disposição, em vez de considerar as pontuações de prioridade das ofertas.
+Além da prioridade da oferta, o Journey Optimizer permite criar **fórmulas de classificação**. Essas são fórmulas que determinam qual oferta deve ser apresentada primeiro para uma determinada disposição, em vez de considerar as pontuações de prioridade das ofertas.
 
 Por exemplo, você pode aumentar a prioridade de todas as ofertas em que a data final seja daqui a menos de 24 horas, ou impulsionar ofertas da categoria &quot;em execução&quot; se o ponto de interesse do perfil estiver &quot;em execução&quot;.
 
-Saiba como criar uma fórmula de classificação em [esta seção](../ranking/create-ranking-formulas.md).
+Saiba como criar uma fórmula de classificação no [esta seção](../ranking/create-ranking-formulas.md).
 
 Depois que uma fórmula de classificação é criada, você pode atribuí-la a uma disposição em uma decisão. Para fazer isso, siga as etapas abaixo:
 
@@ -46,11 +46,11 @@ Depois que uma fórmula de classificação é criada, você pode atribuí-la a u
 
 1. Para cada disposição, adicione uma coleção. Consulte [Criar coleções](../offer-library/creating-collections.md).
 
-1. Selecionar **[!UICONTROL Ranking formula]** como método de classificação, clique em **[!UICONTROL Add ranking]**.
+1. Selecionar **[!UICONTROL Fórmula de classificação]** como método de classificação, clique em **[!UICONTROL Adicionar classificação]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. Selecione a fórmula de classificação desejada e clique em **[!UICONTROL Select]**.
+1. Selecione a fórmula de classificação desejada e clique em **[!UICONTROL Selecionar]**.
 
    ![](../assets/ranking-selection.png)
 
@@ -58,7 +58,7 @@ A fórmula de classificação agora está associada à disposição.
 
 Se várias ofertas estiverem qualificadas para serem apresentadas nesta disposição, a decisão usará a fórmula de classificação para calcular qual oferta entregar primeiro.
 
-## Classificação AI {#use-ranking-strategy}
+## Classificação de IA {#use-ranking-strategy}
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
@@ -72,7 +72,7 @@ Depois que uma estratégia de classificação for criada, você poderá atribuí
 
 1. Para cada disposição, adicione uma coleção. Consulte [Criar coleções](../offer-library/creating-collections.md).
 
-1. Escolha classificar ofertas por **[!UICONTROL AI ranking]** na lista suspensa e clique em **[!UICONTROL Add ranking]**.
+1. Escolha classificar ofertas por **[!UICONTROL Classificação AI]** na lista suspensa e clique em **[!UICONTROL Adicionar classificação]**.
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
@@ -80,7 +80,7 @@ Depois que uma estratégia de classificação for criada, você poderá atribuí
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Clique em **[!UICONTROL Select]**. A estratégia de classificação agora está associada ao posicionamento.
+1. Clique em **[!UICONTROL Selecionar]**. A estratégia de classificação agora está associada ao posicionamento.
 
 Se várias ofertas forem elegíveis, o sistema de modelo treinado determinará qual oferta deve ser apresentada primeiro para uma determinada disposição.
 

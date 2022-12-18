@@ -10,8 +10,8 @@ topic: Administration
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 0%
+source-wordcount: '207'
+ht-degree: 21%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Para enviar emails por meio de jornadas e campanhas no [!DNL Journey Optimizer], é necessário executar várias etapas de configuração.
 
-1. Para garantir o delivery ideal e proteger sua reputação, comece delegando à Adobe os subdomínios que você usará para enviar seus emails com a [!DNL Journey Optimizer]. Esses subdomínios determinarão elementos, como as páginas da Web a serem rastreadas e os URLs da mirror page. [Saiba mais](../configuration/about-subdomain-delegation.md)
+1. Para garantir o deliverability ideal e proteger sua reputação, comece delegando ao Adobe os subdomínios que você usará para enviar seus emails com a [!DNL Journey Optimizer]. Esses subdomínios determinarão elementos, como as páginas da Web a serem rastreadas e os URLs da mirror page. [Saiba mais](../configuration/about-subdomain-delegation.md)
 
    ![](../configuration/assets/subdomain-list.png)
 
@@ -38,14 +38,14 @@ Para enviar emails por meio de jornadas e campanhas no [!DNL Journey Optimizer],
 
    ![](assets/preset-subdomain-ip-pool.png)
 
-   * O **[!UICONTROL Sender email]** e **[!UICONTROL Error email]** os endereços devem usar o subdomínio delegado selecionado atual. [Saiba mais](email-settings.md#email-header)
+   * O **[!UICONTROL Email do remetente]** e **[!UICONTROL Email de erro]** os endereços devem usar o subdomínio delegado selecionado atual. [Saiba mais](email-settings.md#email-header)
 
    ![](assets/preset-header.png)
 
-1. Determine qual endereço de email deve ser usado com prioridade para seus recipients quando vários endereços estiverem disponíveis na Adobe Experience Platform. [Saiba mais](../configuration/primary-email-addresses.md)
+1. Determine qual endereço de email deve ser usado com prioridade para seus recipients quando vários endereços estiverem disponíveis no Adobe Experience Platform. [Saiba mais](../configuration/primary-email-addresses.md)
 
    ![](../configuration/assets/primary-address-execution-fields.png)
 
-1. Gerencie o número de dias durante os quais as tentativas são executadas antes de enviar endereços de email para a lista de supressão. [Saiba mais](../configuration/manage-suppression-list.md)
+1. Gerencie o número de dias durante os quais são executadas tentativas antes do envio de endereços de email para a lista de supressão. [Saiba mais](../configuration/manage-suppression-list.md)
 
    ![](../configuration/assets/suppression-list-edit-retries.png)

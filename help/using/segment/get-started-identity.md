@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução às identidades no Journey Otimizer
-description: Saiba como gerenciar identidades no Adobe Journey Otimizer
+title: Introdução às identidades no Journey Optimizer
+description: Saiba como gerenciar identidades no Adobe Journey Optimizer
 feature: Profiles
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 0%
+source-wordcount: '348'
+ht-degree: 18%
 
 ---
 
@@ -20,17 +20,17 @@ Uma identidade são dados exclusivos de uma entidade, normalmente uma pessoa ind
 
 As Informações pessoais identificáveis (PII), como endereço de email e número de telefone, servem para identificar diretamente um cliente. Como resultado, a PII é usada para corresponder as várias identidades de um cliente em todos os sistemas.
 
-Em [!DNL Adobe Journey Optimizer], **Identidades** vincular consumidores em dispositivos e canais, o resultado é um [gráfico de identidade](#id-graph). O gráfico de identidade vinculado é usado para personalizar experiências com base em interações em todos os pontos de contato comerciais.
+Na [!DNL Adobe Journey Optimizer], as **Identidades**[ vinculam consumidores em dispositivos e canais, e o resultado é um gráfico de identidade](#id-graph). O gráfico de identidade vinculado é usado para personalizar experiências com base em interações em todos os pontos de contato comerciais.
 
 ![](assets/identities-home.png)
 
-Saiba mais sobre **Serviço de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target=&quot;_blank&quot;}.
+Saiba mais sobre **Serviço de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 ## Namespaces de identidade {#identity-namespaces}
 
-**Namespaces de identidade** são um componente do Serviço de identidade que serve como indicadores do contexto ao qual uma identidade está relacionada. Por exemplo, eles distinguem um valor de `name@email.com` como endereço de email ou `443522` como uma ID de CRM numérica. Trabalhar com namespaces de identidade requer uma compreensão dos vários serviços da Adobe Experience Platform envolvidos. Antes de começar a trabalhar com namespaces, reveja a documentação dos seguintes serviços:
+**** Os namespaces de identidade são um componente do Identity Service que serve como indicadores do contexto ao qual uma identidade está relacionada. Por exemplo, eles distinguem um valor de `name@email.com` como endereço de email ou `443522` como uma ID de CRM numérica. Trabalhar com namespaces de identidade requer uma compreensão dos vários serviços da Adobe Experience Platform envolvidos. Antes de começar a trabalhar com namespaces, reveja a documentação dos seguintes serviços:
 
-Saiba mais sobre **Namespaces de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target=&quot;_blank&quot;}.
+Saiba mais sobre **Namespaces de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
 ## Gráfico de identidade{#id-graph}
 

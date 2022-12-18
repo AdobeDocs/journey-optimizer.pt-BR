@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 0%
+source-wordcount: '605'
+ht-degree: 66%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 >abstract="Use o editor de expressão avançado para criar expressões avançadas em várias telas da interface. Por exemplo, você pode criar expressões ao configurar e usar jornadas e ao definir uma condição de fonte de dados."
 
 Use o editor de expressão avançado para criar expressões avançadas em várias telas da interface. Por exemplo, você pode criar expressões ao configurar e usar jornadas e ao definir uma condição de fonte de dados.
-Ele também está disponível sempre que for necessário definir parâmetros de ação que exijam manipulações de dados específicos. Você pode aproveitar os dados provenientes dos eventos ou informações adicionais recuperadas da fonte de dados. Em uma jornada, a lista exibida dos campos de evento é contextual e varia de acordo com os eventos adicionados na jornada.
+Ele também está disponível sempre que for necessário definir parâmetros de ação que exijam manipulações de dados específicos. Você pode usar os dados provenientes dos eventos ou informações adicionais recuperadas da fonte de dados. Em uma jornada, a lista exibida de campos de evento é contextual e varia de acordo com os eventos adicionados na jornada.
 
 O editor de expressão avançado oferece um conjunto de funções e operadores integrados, permitindo manipular valores e definir uma expressão que se ajuste especificamente às suas necessidades. O editor de expressão avançado também permite definir os valores do parâmetro de fonte de dados externa, manipular campos de mapa e coleções, como eventos de experiência.
 
@@ -30,13 +30,13 @@ O editor de expressão avançado oferece um conjunto de funções e operadores i
 
 _A interface do editor de expressão avançado_
 
-O editor de expressão avançado pode ser usado para:
+O editor avançado de expressões pode ser usado para:
 
-* criar [condições avançadas](../condition-activity.md#about_condition) sobre fontes de dados e informações sobre eventos
-* definir personalizado [atividades de espera](../wait-activity.md#custom)
+* criar [condições avançadas](../condition-activity.md#about_condition) em fontes de dados e informações do evento
+* definir [atividades de espera](../wait-activity.md#custom) personalizadas
 * definir mapeamento de parâmetros de ação
 
-Quando possível, você pode alternar entre os dois modos usando o **[!UICONTROL Advanced mode]** / **[!UICONTROL Simple mode]** botão. O modo simples é descrito [here](../condition-activity.md#about_condition).
+Quando possível, você pode alternar entre os dois modos usando o **[!UICONTROL Modo avançado]** / **[!UICONTROL Modo simples]** botão. O modo simples é descrito [aqui](../condition-activity.md#about_condition).
 
 >[!NOTE]
 >
@@ -48,26 +48,26 @@ Quando possível, você pode alternar entre os dois modos usando o **[!UICONTROL
 
 Você pode acessar o editor de expressão avançado de diferentes maneiras:
 
-* Ao criar uma condição de fonte de dados, você pode acessar o editor avançado clicando em **[!UICONTROL Advanced mode]**.
+* Ao criar uma condição de fonte de dados, você pode acessar o editor avançado clicando em **[!UICONTROL Modo avançado]**.
 
    ![](../assets/journeyuc2_33.png)
 
 * Ao criar um temporizador personalizado, o editor avançado será exibido diretamente.
-* Ao mapear o parâmetro de ação, clique em **[!UICONTROL Advanced mode]**.
+* Ao mapear o parâmetro de ação, clique em **[!UICONTROL Modo avançado]**.
 
 ## Descobrir a interface{#discovering-the-interface}
 
-Essa tela permite que você grave manualmente a expressão.
+Nesta tela você pode escrever manualmente a expressão.
 
 ![](../assets/journey70.png)
 
-Na parte esquerda da tela, são exibidos os campos e as funções disponíveis:
+Na parte esquerda da tela são exibidos os campos e as funções disponíveis:
 
-* **[!UICONTROL Events]**: escolha um dos campos recebidos a partir do evento de entrada. A lista exibida dos campos de evento é contextual e varia de acordo com os eventos adicionados na jornada. [Leia mais](../../event/about-events.md)
-* **[!UICONTROL Segments]**: se tiver deixado cair uma **[!UICONTROL Segment qualification]** , escolha o segmento que deseja usar na expressão. [Leia mais](../condition-activity.md#using-a-segment)
-* **[!UICONTROL Data Sources]**: escolha na lista de campos disponíveis nos grupos de campos de suas fontes de dados. [Leia mais](../../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**: esta seção agrupa os campos técnicos relacionados à jornada de um determinado perfil. [Leia mais](journey-properties.md)
-* **[!UICONTROL Functions]**: escolha entre uma lista de funções integradas que permitem fazer uma filtragem complexa. As funções são organizadas por categorias. [Leia mais](functions.md)
+* **[!UICONTROL Eventos]**: escolha um dos campos recebidos a partir do evento de entrada. A lista exibida dos campos do evento é contextual e varia de acordo com os eventos adicionados na jornada. [Leia mais](../../event/about-events.md)
+* **[!UICONTROL Segmentos]**: se tiver deixado cair uma **[!UICONTROL Qualificação do segmento]** , escolha o segmento que deseja usar na expressão. [Leia mais](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Fontes de dados]**: escolha na lista de campos disponíveis nos grupos de campos de suas fontes de dados. [Leia mais](../../datasource/about-data-sources.md)
+* **[!UICONTROL Propriedades da jornada]**: esta seção agrupa os campos técnicos relacionados à jornada de um determinado perfil. [Leia mais](journey-properties.md)
+* **[!UICONTROL Funções]**: escolha entre uma lista de funções integradas que permitem fazer uma filtragem complexa. As funções são organizadas por categorias. [Leia mais](functions.md)
 
 ![](../assets/journey65.png)
 
@@ -85,4 +85,4 @@ Se você selecionar um campo de uma fonte externa de dados que requer um parâme
 
 ![](../assets/journeyuc2_19.png)
 
-Para casos de uso mais complexos, se você quiser incluir os parâmetros da fonte de dados na expressão principal, poderá definir seus valores usando a palavra-chave &quot;params&quot;. Consulte [esta página](../expression/field-references.md).
+Para casos de uso mais complexos, caso queira incluir os parâmetros da fonte de dados na expressão principal, é possível definir os valores usando a palavra-chave &quot;params&quot;. Consulte [esta página](../expression/field-references.md).

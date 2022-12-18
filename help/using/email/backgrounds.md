@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="Configurações de plano de fundo"
+>title="Configurações de fundo"
 >abstract="Você pode personalizar a cor do plano de fundo ou a imagem do plano de fundo para o seu conteúdo. Observe que a imagem de fundo não é suportada por todos os clientes de email."
 
-Quando se trata de definir planos de fundo com o Email Designer, a Adobe recomenda o seguinte:
+Quando se trata de definir planos de fundo com o Email Designer, o Adobe recomenda o seguinte:
 
 1. Aplique uma cor de fundo ao corpo do email, se exigido pelo design.
 1. Normalmente, defina as cores do plano de fundo no nível da coluna.
@@ -30,11 +30,11 @@ Quando se trata de definir planos de fundo com o Email Designer, a Adobe recomen
 
 Abaixo estão as configurações de fundo disponíveis que você pode usar.
 
-* Defina um **[!UICONTROL Background color]** para todo o email. Selecione as configurações de corpo na árvore de navegação acessível na paleta esquerda.
+* Defina um **[!UICONTROL Cor do plano de fundo]** para todo o email. Selecione as configurações de corpo na árvore de navegação acessível na paleta esquerda.
 
    ![](assets/background_1.png)
 
-* Defina a mesma cor de plano de fundo para todos os componentes da estrutura selecionando **[!UICONTROL Viewport background color]**. Essa opção permite selecionar uma configuração diferente da cor do plano de fundo.
+* Defina a mesma cor de plano de fundo para todos os componentes da estrutura selecionando **[!UICONTROL Cor de fundo da janela de visualização]**. Essa opção permite selecionar uma configuração diferente da cor do plano de fundo.
 
    ![](assets/background_2.png)
 
@@ -44,7 +44,7 @@ Abaixo estão as configurações de fundo disponíveis que você pode usar.
 
    ![](assets/background_3.png)
 
-* Defina um **[!UICONTROL Background image]** para o conteúdo de um componente de estrutura.
+* Defina um **[!UICONTROL Imagem de plano de fundo]** para o conteúdo de um componente de estrutura.
 
    >[!NOTE]
    >
@@ -56,7 +56,7 @@ Abaixo estão as configurações de fundo disponíveis que você pode usar.
 
    >[!NOTE]
    >
-   >Esse é o caso de uso mais comum. A Adobe recomenda configurar as cores de fundo no nível da coluna, pois isso permite mais flexibilidade ao editar todo o conteúdo de email.
+   >Esse é o caso de uso mais comum. O Adobe recomenda configurar as cores de fundo no nível da coluna, pois isso permite mais flexibilidade ao editar todo o conteúdo de email.
 
    Você também pode definir uma imagem de plano de fundo no nível da coluna, mas isso raramente é usado.
 

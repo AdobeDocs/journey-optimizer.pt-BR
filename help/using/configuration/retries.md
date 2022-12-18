@@ -11,7 +11,7 @@ exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -41,9 +41,9 @@ Se um delivery for bem-sucedido após uma tentativa, o contador de erros do ende
 
 Caso o valor padrão de 5 não atenda às suas necessidades, você poderá modificar o limite de erro seguindo as etapas abaixo.
 
-1. Ir para **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**.
+1. Ir para **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** > **[!UICONTROL Lista de supressão]**.
 
-1. Selecione o **[!UICONTROL Edit suppression rules]** botão.
+1. Selecione o **[!UICONTROL Editar regras de supressão]** botão.
 
    ![](assets/suppression-list-edit-retries.png)
 
@@ -55,9 +55,9 @@ Caso o valor padrão de 5 não atenda às suas necessidades, você poderá modif
 
    >[!CAUTION]
    >
-   >Qualquer valor maior que 10 pode causar problemas de reputação de entrega, bem como limitação de IP ou lista de bloqueios por ISPs. [Saiba mais sobre a capacidade de entrega](../reports/deliverability.md)
+   >Qualquer valor maior que 10 pode causar problemas de reputação de entrega, bem como limitação de IP ou  de incluir na lista de bloqueios por ISPs. [Saiba mais sobre a capacidade de entrega](../reports/deliverability.md)
 
-## Período de tempo de repetição {#retry-duration}
+## Período de repetição {#retry-duration}
 
 O **período de tempo de nova tentativa** é o período no qual qualquer mensagem de email do delivery que encontrou um erro temporário ou uma rejeição temporária será repetida.
 

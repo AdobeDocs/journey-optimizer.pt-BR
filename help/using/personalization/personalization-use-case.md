@@ -11,7 +11,7 @@ exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
 ## Etapa 1 - Criar a jornada {#create-journey}
 
-1. Clique no botão **[!UICONTROL Journeys]** e criar uma nova jornada.
+1. Clique no botão **[!UICONTROL Jornada]** e crie uma nova jornada.
 
    ![](assets/perso-uc4.png)
 
@@ -60,10 +60,10 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
    ![](assets/perso-uc9.png)
 
-1. Selecione o **Atributos contextuais** menu. Os atributos contextuais só estarão disponíveis se uma jornada tiver passado dados contextuais para a mensagem. Clique em **Orquestração de jornadas**. As seguintes informações contextuais são exibidas:
+1. Selecione o **Atributos contextuais** menu. Atributos contextuais só estarão disponíveis se uma jornada tiver passado dados contextuais para a mensagem. Clique em **Journey Orchestration**. As seguintes informações contextuais são exibidas:
 
    * **Eventos**: esta categoria agrupa todos os campos do(s) evento(s) colocado(s) antes da atividade de ação de canal na jornada.
-   * **Propriedades da jornada**: os campos técnicos relacionados à jornada de um determinado perfil, por exemplo, a ID da jornada ou os erros específicos encontrados. Saiba mais em [Documentação do Journey Orchestration](../building-journeys/expression/journey-properties.md).
+   * **Propriedades da Jornada**: os campos técnicos relacionados à jornada de um determinado perfil, por exemplo, a ID da jornada ou os erros específicos encontrados. Saiba mais em [Documentação do Journey Orchestration](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
 
@@ -75,7 +75,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
    ![](assets/perso-uc12.png)
 
-1. Digite a mensagem e insira, no **[!UICONTROL Contextual attributes]** , o nome do item da ordem e o andamento da ordem.
+1. Digite a mensagem e insira, no **[!UICONTROL Atributos contextuais]** , o nome do item da ordem e o andamento da ordem.
 
    ![](assets/perso-uc13.png)
 

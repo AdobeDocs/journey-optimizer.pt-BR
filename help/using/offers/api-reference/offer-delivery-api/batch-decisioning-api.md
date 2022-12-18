@@ -8,25 +8,25 @@ level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 0%
+source-wordcount: '750'
+ht-degree: 4%
 
 ---
 
 
 # Delivery de ofertas usando o [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-O [!DNL Batch Decisioning] A API permite que as organizações usem a funcionalidade de decisão para todos os perfis em um determinado segmento em uma chamada. O conteúdo da oferta para cada perfil no segmento é colocado em um conjunto de dados da Adobe Experience Platform, onde está disponível para fluxos de trabalho em lote personalizados.
+O [!DNL Batch Decisioning] A API permite que as organizações usem a funcionalidade de decisão para todos os perfis em um determinado segmento em uma chamada. O conteúdo da oferta para cada perfil no segmento é colocado em um conjunto de dados do Adobe Experience Platform, onde está disponível para fluxos de trabalho em lote personalizados.
 
-Com o [!DNL Batch Decisioning] API, é possível preencher um conjunto de dados com as melhores ofertas para todos os perfis em um segmento da Adobe Experience Platform para escopos de decisão. Por exemplo, uma organização pode querer executar [!DNL Batch Decisioning] para que possam enviar ofertas a um fornecedor de delivery de mensagens. Essas ofertas são então usadas como conteúdo que é enviado para delivery de mensagens em lote para o mesmo segmento de usuários.
+Com o [!DNL Batch Decisioning] API, é possível preencher um conjunto de dados com as melhores ofertas para todos os perfis em um segmento do Adobe Experience Platform para escopos de decisão. Por exemplo, uma organização pode querer executar [!DNL Batch Decisioning] para que possam enviar ofertas a um fornecedor de delivery de mensagens. Essas ofertas são então usadas como conteúdo que é enviado para delivery de mensagens em lote para o mesmo segmento de usuários.
 
 Para fazer isso, a organização:
 
 * Execute o [!DNL Batch Decisioning] API, que contém duas solicitações:
 
-   1. A **Solicitação POST em lote** para iniciar uma carga de trabalho para processar em lote as seleções de ofertas.
+   1. A **Solicitação de POST em lote** para iniciar uma carga de trabalho para processar em lote as seleções de ofertas.
 
-   2. A **Solicitação GET em lote** para obter o status da carga de trabalho em lote.
+   2. A **Solicitação de GET em lote** para obter o status da carga de trabalho em lote.
 
 * Exporte o conjunto de dados para a API do fornecedor do delivery de mensagens.
 
@@ -34,7 +34,7 @@ Para fazer isso, a organização:
 
 >[!NOTE]
 >
->A decisão em lote também pode ser executada usando a interface do Journey Otimizer. Para obter mais informações, consulte [esta seção](../../batch-delivery.md), que fornece informações sobre pré-requisitos e limitações globais a serem considerados ao usar a decisão em lote.
+>A decisão em lote também pode ser executada usando a interface do Journey Optimizer. Para obter mais informações, consulte [esta seção](../../batch-delivery.md), que fornece informações sobre pré-requisitos e limitações globais a serem considerados ao usar a decisão em lote.
 
 * **O número de trabalhos em lote em execução por conjunto de dados**: É possível executar até cinco trabalhos em lote por vez, por conjunto de dados. Quaisquer outras solicitações em lote com o mesmo conjunto de dados de saída são adicionadas à fila. Um trabalho em fila é selecionado para o processamento quando o trabalho anterior terminar de ser executado.
 * **Limite de frequência**: Um lote é executado do instantâneo do perfil que ocorre uma vez por dia. O [!DNL Batch Decisioning] A API limita a frequência e sempre carrega perfis do instantâneo mais recente.
@@ -58,7 +58,7 @@ Todos [!DNL Batch Decisioning] para além dos referidos no [Guia do desenvolvedo
 
 ## Iniciar um processo em lote {#start-a-batch-process}
 
-Para iniciar uma carga de trabalho para decisões de processo em lote, faça uma solicitação POST para o `/workloads/decisions` endpoint .
+Para iniciar uma carga de trabalho para decisões de processo em lote, faça uma solicitação de POST para a `/workloads/decisions` endpoint .
 
 >[!NOTE]
 >
@@ -136,7 +136,7 @@ Consulte a [Documentação do Gerenciamento de decisões](../../get-started/star
 
 ## Recuperar informações de uma decisão de lote {#retrieve-information-on-a-batch-decision}
 
-Para recuperar informações sobre uma decisão específica, faça uma solicitação GET para a `/workloads/decisions` endpoint ao fornecer o valor da ID da carga de trabalho correspondente para sua decisão.
+Para recuperar informações sobre uma decisão específica, faça uma solicitação GET ao `/workloads/decisions` endpoint ao fornecer o valor da ID da carga de trabalho correspondente para sua decisão.
 
 **Formato da API**
 

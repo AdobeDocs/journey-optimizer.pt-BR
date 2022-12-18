@@ -1,5 +1,5 @@
 ---
-title: Listar disposições
+title: Listar inserções
 description: As disposições são contêineres usados para mostrar suas ofertas.
 feature: Offers
 topic: Integrations
@@ -9,15 +9,15 @@ exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
-# Listar disposições {#list-placements}
+# Listar inserções {#list-placements}
 
 As disposições são contêineres usados para mostrar suas ofertas. Uma disposição ajuda a garantir que o conteúdo de oferta correto seja exibido no local certo dentro da mensagem. Ao adicionar conteúdo a uma oferta, você será solicitado a selecionar uma disposição na qual o conteúdo possa ser exibido.
 
-Você pode exibir uma lista de todas as disposições em um contêiner executando uma única solicitação GET para o [!DNL Offer Library] API.
+É possível exibir uma lista de todas as disposições em um contêiner ao executar uma única solicitação de GET para a [!DNL Offer Library] API.
 
 **Formato da API**
 

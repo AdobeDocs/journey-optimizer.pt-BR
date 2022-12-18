@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 0%
+source-wordcount: '1056'
+ht-degree: 2%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 ## Introdução e pré-requisitos {#edge-overview-and-prerequisites}
 
-O [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) é uma biblioteca JavaScript do lado do cliente que permite que os clientes da Adobe Experience Cloud interajam com os vários serviços na Experience Cloud por meio da rede de borda da Experience Platform.
+O [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) é uma biblioteca JavaScript do lado do cliente que permite que os clientes da Adobe Experience Cloud interajam com os vários serviços no Experience Cloud por meio da Experience Platform Edge Network.
 
-O SDK da Web da Experience Platform é compatível com a consulta de soluções de personalização na Adobe, incluindo o Gerenciamento de decisões, permitindo recuperar e renderizar ofertas personalizadas que você criou usando APIs ou a Biblioteca de ofertas. Para obter instruções mais detalhadas, consulte a documentação em [criação de uma oferta](../../get-started/starting-offer-decisioning.md).
+O Experience Platform Web SDK oferece suporte à consulta de soluções de personalização no Adobe, incluindo o Gerenciamento de decisões, permitindo recuperar e renderizar ofertas personalizadas que você criou usando APIs ou a Biblioteca de ofertas. Para obter instruções mais detalhadas, consulte a documentação em [criação de uma oferta](../../get-started/starting-offer-decisioning.md).
 
-Há duas maneiras de implementar o gerenciamento de decisões com o [SDK da Web da plataforma](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Uma maneira é voltada para desenvolvedores e requer conhecimento de sites e programação. Outra maneira é usar a interface do usuário da Adobe Experience Platform para configurar ofertas que exigem apenas um pequeno script para ser referenciado no cabeçalho da página HTML.
+Há duas maneiras de implementar o gerenciamento de decisões com o [SDK da Web da plataforma](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Uma maneira é voltada para desenvolvedores e requer conhecimento de sites e programação. Outra maneira é usar a interface do usuário do Adobe Experience Platform para configurar ofertas que exigem apenas um pequeno script para ser referenciado no cabeçalho da página HTML.
 
 Consulte a documentação em [gestão de decisões](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) para obter mais informações sobre como fornecer ofertas personalizadas usando o SDK da Web da Adobe Experience Platform.
 
 >[!NOTE]
 >
->O uso do Gerenciamento de decisões no SDK da Web da Adobe Experience Platform está disponível somente para um conjunto de organizações (Disponibilidade limitada). Se quiser aproveitar esse recurso, entre em contato com o executivo da sua conta da Adobe.
+>O uso do Gerenciamento de decisões no SDK da Web da Adobe Experience Platform só está disponível para um conjunto de organizações (Disponibilidade limitada). Se quiser aproveitar esse recurso, entre em contato com o executivo da sua conta Adobe.
 
 ## SDK da Web da Adobe Experience Platform {#aep-web-sdk}
 
@@ -66,13 +66,13 @@ Essa opção é mais fácil de usar para pessoas que podem ter menos experiênci
 
 1. [Adicionar o código incorporado](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
-1. Instale e configure a extensão SDK da Web da Adobe Experience Platform com o conjunto de dados criado ao selecionar a configuração na lista suspensa &quot;Conjunto de dados&quot;. Consulte a documentação em [extensões](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. Instale e configure a extensão Adobe Experience Platform Web SDK com o Datastream criado selecionando a configuração na lista suspensa &quot;Datastream&quot;. Consulte a documentação em [extensões](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
 
    ![SDK da Web da Adobe Experience Platform](../../assets/installed-catalog-web-sdk.png)
 
    ![Configurar extensão](../../assets/configure-sdk-extension.png)
 
-1. Crie o [Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). No mínimo, você deve criar um Mapa de identidade do SDK da Web da plataforma e um elemento de dados do Objeto XDM do SDK da Web da plataforma.
+1. Crie o [Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=pt-BR). No mínimo, você deve criar um Mapa de identidade do SDK da Web da plataforma e um elemento de dados do Objeto XDM do SDK da Web da plataforma.
 
    ![Mapa de identidade](../../assets/sdk-identity-map.png)
 
@@ -92,7 +92,7 @@ Essa opção é mais fácil de usar para pessoas que podem ter menos experiênci
 
 Estas são as etapas necessárias para usar o gerenciamento de decisões usando a instalação independente pré-criada do SDK da Web. Este guia pressupõe que esta seja a primeira vez que você implementa o SDK, de modo que todas as etapas podem não se aplicar a você. Este guia também assume alguma experiência de desenvolvimento.
 
-Inclua o seguinte trecho do JavaScript da Opção 2: A versão independente pré-criada em [esta página](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) no `<head>` da sua página HTML.
+Inclua o seguinte trecho do JavaScript da Opção 2: A versão independente pré-criada em [esta página](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) no `<head>` da sua página do HTML.
 
 ```
 javascript
@@ -105,7 +105,7 @@ javascript
     <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
 ```
 
-Você precisará de duas IDs da sua conta da Adobe para configurar o SDK - sua edgeConfigId e sua orgId. O edgeConfigId é o mesmo da ID do conjunto de dados, que você deve ter configurado nos Pré-requisitos.
+Você precisará de duas IDs da sua conta do Adobe para configurar o SDK - sua edgeConfigId e sua orgId. O edgeConfigId é o mesmo da ID do conjunto de dados, que você deve ter configurado nos Pré-requisitos.
 
 Para encontrar a ID edgeConfigID/datastream, vá para Coleta de dados e selecione o Datastream. Para encontrar o orgId, acesse o seu perfil.
 
@@ -129,7 +129,7 @@ Instale a extensão do Chrome do Debugger para usar com a depuração. Isso pode
 
 Em seguida, faça logon em sua conta no depurador da . Em seguida, acesse Logs e verifique se você está conectado ao espaço de trabalho correto. Agora, copie a versão codificada da base64 do escopo de decisão da sua oferta.
 
-Ao editar seu site, inclua o script com a configuração e o `sendEvent` para enviar o escopo de decisão para a Adobe.
+Ao editar seu site, inclua o script com a configuração e o `sendEvent` para enviar o escopo de decisão para o Adobe.
 
 **Exemplo**:
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 3%
 
 ---
 
@@ -31,11 +31,11 @@ Ao direcionar um perfil, vários endereços de email ou números de telefone pod
 
 Com [!DNL Journey Optimizer], você pode determinar qual endereço de email ou número de telefone usar no serviço de perfil e priorizar quando vários endereços estiverem disponíveis. Para fazer isso, siga as etapas abaixo.
 
-1. Acesse o  **[!UICONTROL Channels]** > **[!UICONTROL General]** > **[!UICONTROL Executions fields]** menu.
+1. Acesse o  **[!UICONTROL Canais]** > **[!UICONTROL Geral]** > **[!UICONTROL Campos de execuções]** menu.
 
    ![](assets/primary-address-execution-fields.png)
 
-1. Os campos que são usados atualmente por padrão para determinar o endereço de email e o número de telefone dos perfis são exibidos nessa tela. Clique em **[!UICONTROL Edit]** para alterá-las.
+1. Os campos que são usados atualmente por padrão para determinar o endereço de email e o número de telefone dos perfis são exibidos nessa tela. Clique em **[!UICONTROL Editar]** para alterá-las.
 
    ![](assets/primary-address.png)
 
@@ -47,7 +47,7 @@ Com [!DNL Journey Optimizer], você pode determinar qual endereço de email ou n
 
    ![](assets/primary-address-select-field.png)
 
-1. Clique em **[!UICONTROL Save]** para confirmar sua escolha.
+1. Clique em **[!UICONTROL Salvar]** para confirmar sua escolha.
 
 O campo de execução é atualizado e agora será usado como o endereço principal.
 

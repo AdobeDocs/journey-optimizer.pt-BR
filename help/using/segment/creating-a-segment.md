@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 0%
+source-wordcount: '344'
+ht-degree: 5%
 
 ---
 
@@ -26,7 +26,7 @@ Neste exemplo, criaremos um segmento para direcionar todos os clientes que moram
 
 ➡️ [Saiba como criar segmentos neste vídeo](#video-segment)
 
-1. Acesse o **[!UICONTROL Segments]** , em seguida, clique no botão **[!UICONTROL Create segment]** botão.
+1. Acesse o **[!UICONTROL Segmentos]** , em seguida, clique no botão **[!UICONTROL Criar segmento]** botão.
 
    ![](assets/create-segment.png)
 
@@ -34,7 +34,7 @@ Neste exemplo, criaremos um segmento para direcionar todos os clientes que moram
 
    ![](assets/segment-builder.png)
 
-1. No **[!UICONTROL Segment properties]** , forneça um nome e uma descrição (opcional) para o segmento.
+1. No **[!UICONTROL Propriedades do segmento]** , forneça um nome e uma descrição (opcional) para o segmento.
 
    ![](assets/segment-properties.png)
 
@@ -42,7 +42,7 @@ Neste exemplo, criaremos um segmento para direcionar todos os clientes que moram
 
    >[!NOTE]
    >
-   >Observe que os campos disponíveis no painel esquerdo variam dependendo de como a variável **Perfil individual XDM** e **ExperiênciaEvento XDM** os esquemas foram configurados para sua organização.  Saiba mais na [Documentação do Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+   >Observe que os campos disponíveis no painel esquerdo variam dependendo de como a variável **Perfil individual XDM** e **ExperiênciaEvento XDM** os esquemas foram configurados para sua organização.  Saiba mais na [Documentação do Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
 
    ![](assets/drag-fields.png)
 
@@ -56,11 +56,11 @@ Neste exemplo, criaremos um segmento para direcionar todos os clientes que moram
 
       ![](assets/add-events.png)
 
-1. À medida que você adiciona e configura novos campos no espaço de trabalho, a variável **[!UICONTROL Segment Properties]** O painel é atualizado automaticamente com informações sobre os perfis estimados pertencentes ao segmento.
+1. À medida que você adiciona e configura novos campos no espaço de trabalho, a variável **[!UICONTROL Propriedades do segmento]** O painel é atualizado automaticamente com informações sobre os perfis estimados pertencentes ao segmento.
 
    ![](assets/segment-estimate.png)
 
-1. Quando o segmento estiver pronto, clique em **[!UICONTROL Save]**. Ele é exibido na lista de segmentos da Adobe Experience Platform. Observe que uma barra de pesquisa está disponível para ajudá-lo a pesquisar um segmento específico na lista.
+1. Quando o segmento estiver pronto, clique em **[!UICONTROL Salvar]**. É exibido na lista de segmentos do Adobe Experience Platform. Observe que uma barra de pesquisa está disponível para ajudá-lo a pesquisar um segmento específico na lista.
 
 O segmento agora pode ser usado em suas jornadas. Para obter mais informações, consulte [esta seção](../segment/about-segments.md).
 

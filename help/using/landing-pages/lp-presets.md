@@ -1,24 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Definir predefinições da landing page
-description: Saiba como configurar seu ambiente para criar e usar landing pages com o Journey Otimizer
+title: Definir predefinições da página de destino
+description: Saiba como configurar seu ambiente para criar e usar landing pages com o Journey Optimizer
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 0%
+source-wordcount: '340'
+ht-degree: 5%
 
 ---
 
-# Definir predefinições da landing page {#lp-presets}
+# Definir predefinições da página de destino {#lp-presets}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
 >title="Criar uma predefinição de página de aterrissagem"
->abstract="Para criar uma página de aterrissagem e aproveitá-la por meio do Journey Otimizer, você deve criar uma predefinição de página de aterrissagem que inclua o subdomínio a ser usado."
+>abstract="Para criar uma página de aterrissagem e aproveitá-la pelo Journey Optimizer, você deve criar uma predefinição de página de aterrissagem que inclua o subdomínio a ser usado."
 
 When [criação de uma landing page](../landing-pages/create-lp.md#create-a-lp), você deve selecionar uma predefinição de página de aterrissagem para criar a página de aterrissagem e aproveitá-la **[!DNL Journey Optimizer]**.
 
@@ -26,9 +26,9 @@ When [criação de uma landing page](../landing-pages/create-lp.md#create-a-lp),
 
 Para acessar as predefinições da landing page, siga as etapas abaixo.
 
-1. Acesse o **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu.
+1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** menu.
 
-1. Selecionar **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
+1. Selecionar **[!UICONTROL Marca]** > **[!UICONTROL Predefinições de página de aterrissagem]**.
 
    ![](assets/lp_presets-access.png)
 
@@ -44,9 +44,9 @@ Para criar uma predefinição de página de aterrissagem, siga as etapas abaixo.
 >
 >Para criar uma predefinição, verifique se você configurou anteriormente pelo menos um subdomínio de página de aterrissagem. [Saiba como](lp-subdomains.md)
 
-1. Acesse o **[!UICONTROL Administration]** > **[!UICONTROL Channels]** e selecione **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
+1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Marca]** > **[!UICONTROL Predefinições de página de aterrissagem]**.
 
-1. Selecionar **[!UICONTROL Create landing page preset]**.
+1. Selecionar **[!UICONTROL Criar predefinição de página de aterrissagem]**.
 
    ![](assets/lp_create-preset-temp.png)
 
@@ -66,17 +66,17 @@ Para criar uma predefinição de página de aterrissagem, siga as etapas abaixo.
 
    As configurações correspondentes ao subdomínio selecionado são exibidas.
 
-1. Se desejar selecionar o subdomínio da página de aterrissagem para o URL de rastreamento, verifique o **[!UICONTROL Same as landing page subdomain]** opção. [Saiba mais sobre o rastreamento](../email/message-tracking.md)
+1. Se desejar selecionar o subdomínio da página de aterrissagem para o URL de rastreamento, verifique o **[!UICONTROL Igual ao subdomínio da página de aterrissagem]** opção. [Saiba mais sobre o rastreamento](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    Por exemplo, se o URL da página de aterrissagem for &#39;pages.mail.luma.com&#39; e o URL de rastreamento for &#39;data.mail.luma.com&#39;, você poderá escolher &#39;pages.mail.luma.com&#39; para ser usado como o subdomínio de rastreamento.
 
-1. Clique em **[!UICONTROL Submit]** para confirmar a criação da predefinição de landing page. <!--You can also save the preset as draft and resume its configuration later on.-->
+1. Clique em **[!UICONTROL Enviar]** para confirmar a criação da predefinição de landing page. <!--You can also save the preset as draft and resume its configuration later on.-->
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
-1. Depois que a predefinição de landing page for criada, ela será exibida na lista com a variável **[!UICONTROL Active]** status. Ele está pronto para ser usado em suas landing pages.
+1. Depois que a predefinição de landing page for criada, ela será exibida na lista com a variável **[!UICONTROL Ativo]** status. Ele está pronto para ser usado em suas landing pages.
 
    ![](assets/lp-preset-active-temp.png)
 
@@ -88,5 +88,5 @@ Agora você está pronto para [criar landing pages](../landing-pages/create-lp.m
 
 **Tópicos relacionados**:
 
-* [Introdução às landing pages](../landing-pages/get-started-lp.md)
-* [Criar uma landing page](../landing-pages/create-lp.md#create-a-lp)
+* [Introdução às páginas de destino](../landing-pages/get-started-lp.md)
+* [Criar uma página de destino](../landing-pages/create-lp.md#create-a-lp)
