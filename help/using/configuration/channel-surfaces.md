@@ -11,7 +11,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1605'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -42,7 +42,7 @@ Depois que as superfícies do canal forem configuradas, você poderá selecioná
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Configurações de superfície do canal"
->abstract="Ao configurar uma superfície de canal, selecione o canal ao qual ele se aplica e defina todos os parâmetros técnicos necessários para seu envio, como tipo de email, nome do remetente, aplicativos móveis, configuração de SMS e muito mais."
+>abstract="Ao configurar uma superfície de canal, selecione o canal ao qual se aplica e defina todos os parâmetros técnicos necessários para seu envio, como tipo de email, nome do remetente, aplicativos móveis, configuração de SMS e muito mais."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
