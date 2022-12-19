@@ -35,7 +35,7 @@ Se um delivery for bem-sucedido após uma tentativa, o contador de erros do ende
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
->title="Atualizar o limite de repetição"
+>title="Atualizar limite de novas tentativas"
 >abstract="Se o valor padrão não atender às suas necessidades, você poderá modificar o número permitido de devoluções temporárias consecutivas. Quando o contador de tentativas atinge o limite de erro de um endereço de email específico, esse endereço é adicionado à lista de supressão."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Entender a lista de supressão"
 
