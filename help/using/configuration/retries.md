@@ -11,7 +11,7 @@ exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ Na configuração padrão, o limite é definido como 5 erros.
 
 Se um delivery for bem-sucedido após uma tentativa, o contador de erros do endereço será reinicializado.
 
-## Retentar edição de limite {#edit-retry-threshold}
+## Edição do limite de novas tentativas {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
