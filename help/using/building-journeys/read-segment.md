@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 12%
+source-wordcount: '1328'
+ht-degree: 11%
 
 ---
 
@@ -64,7 +64,7 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
 
    >[!NOTE]
    >
-   >Os indivíduos pertencentes a um segmento que não tem a identidade (namespace) selecionada entre suas identidades diferentes não podem inserir a jornada.
+   >Os indivíduos pertencentes a um segmento que não tem a identidade (namespace) selecionada entre suas identidades diferentes não podem inserir a jornada. Você só pode selecionar um namespace de identidade com base em pessoas. Se você tiver definido um namespace para uma tabela de pesquisa (por exemplo: Namespace do ProductID para uma Pesquisa de produto), ele não estará disponível no **Namespace** lista suspensa.
 
 1. Defina as **[!UICONTROL Taxa de limitação]** para o limite de taxa de transferência da atividade de segmento de leitura.
 

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 57%
+source-wordcount: '975'
+ht-degree: 53%
 
 ---
 
@@ -57,7 +57,9 @@ Para eventos unitários, há dois tipos de ID de evento:
 
 * **Eventos gerados pelo sistema**: esses eventos exigem uma eventID. Esse campo eventID é gerado automaticamente ao criar o evento. O sistema que envia o evento não deve gerar uma ID, mas sim passar a disponível na pré-visualização de carga.
 
-O Journey Optimizer requer que os eventos sejam transmitidos ou armazenados em lote no Adobe Experience Platform. Esses dados não precisam necessariamente acessar o Perfil em tempo real. Se você quiser usar os eventos para segmentação ou pesquisa em uma jornada separada, recomendamos ativar o conjunto de dados para perfil.
+>[!NOTE]
+>
+>O Journey Optimizer requer que os eventos sejam transmitidos para o DCCS (Data Collection Core Service) para acionar uma jornada. Eventos assimilados em lote ou eventos de conjuntos de dados internos da Journey Optimizer (Feedback de mensagem, Rastreamento de email etc.) não pode ser usada para acionar uma jornada. Para casos de uso em que não é possível obter eventos transmitidos, crie um segmento com base nesses eventos e use a variável **Ler segmento** atividade em vez disso. A qualificação de segmentos pode ser tecnicamente usada, mas pode causar desafios de downstream com base nas ações usadas. Esses dados não precisam necessariamente acessar o Perfil em tempo real. Se você quiser usar os eventos para segmentação ou pesquisa em uma jornada separada, recomendamos ativar o conjunto de dados para perfil.
 
 ## Ciclo de dados {#data-cycle}
 

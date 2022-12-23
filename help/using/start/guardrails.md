@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '939'
+ht-degree: 91%
 
 ---
 
@@ -70,6 +70,7 @@ As medidas de proteção de desempenho e os limites estáticos para a tomada de 
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
 * Os eventos comerciais não podem ser usados junto com eventos unitários ou atividades de qualificação de segmento.
 * As jornadas unitárias (começando com um evento ou uma qualificação de segmento) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. A reentrada do perfil é temporariamente bloqueada por padrão por 5 minutos. Por exemplo, se um evento acionar uma jornada às 12h01 para um perfil específico e outra chegar às 12h03 (se for o mesmo evento ou outro acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
+* O Journey Optimizer requer que os eventos sejam transmitidos para o DCCS (Data Collection Core Service) para acionar uma jornada. Eventos assimilados em lote ou eventos de conjuntos de dados internos da Journey Optimizer (Feedback de mensagem, Rastreamento de email etc.) não pode ser usada para acionar uma jornada. Para casos de uso em que não é possível obter eventos transmitidos, crie um segmento com base nesses eventos e use a variável **Ler segmento** atividade em vez disso. A qualificação de segmentos pode ser tecnicamente usada, mas pode causar desafios de downstream com base nas ações usadas.
 
 ### Fontes de dados {#data-sources-g}
 

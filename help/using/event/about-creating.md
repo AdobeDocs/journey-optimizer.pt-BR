@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1577'
 ht-degree: 11%
 
 ---
@@ -70,6 +70,7 @@ Estas são as primeiras etapas para configurar um novo evento:
    >O editor de expressão avançado não está disponível ao definir a variável **[!UICONTROL Condição de ID de evento]**. No editor de expressões simples, nem todos os operadores estão disponíveis, eles dependem do tipo de dados. Por exemplo, para um tipo de string de campo, é possível usar &quot;contains&quot; ou &quot;equal to&quot;.
 
 1. Adicione um namespace. Esta etapa é opcional, mas é recomendada, pois a adição de namespace permite que você aproveite as informações armazenadas no Serviço de perfil do cliente em tempo real. Ela define o tipo de chave que o evento tem. Consulte [esta seção](../event/about-creating.md#select-the-namespace).
+
 1. Defina o identificador do perfil: escolha um campo a partir dos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento. Essa chave é configurada automaticamente (mas ainda pode ser editada) se você selecionar um namespace. Na verdade, o jornada escolhe a chave que deve corresponder ao namespace (por exemplo, se você selecionar um namespace de email, a chave de email será selecionada). Consulte [esta seção](../event/about-creating.md#define-the-event-key).
 
    ![](assets/jo-event7.png)
@@ -123,12 +124,15 @@ Ao selecionar campos, os campos de identidade primários são marcados.
 
 ![](assets/primary-identity.png)
 
-
 Selecione um namespace na lista suspensa.
 
 ![](assets/journey17.png)
 
 Somente um namespace é permitido por jornada. Se você usar vários eventos na mesma jornada, eles precisarão usar o mesmo namespace. Consulte [esta página](../building-journeys/journey.md).
+
+>[!NOTE]
+>
+>Você só pode selecionar um namespace de identidade com base em pessoas. Se você tiver definido um namespace para uma tabela de pesquisa (por exemplo: Namespace do ProductID para uma Pesquisa de produto), ele não estará disponível no **Namespace** lista suspensa.
 
 ## Definir o identificador de perfil {#define-the-event-key}
 

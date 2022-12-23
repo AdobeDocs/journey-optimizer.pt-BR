@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 4%
+source-wordcount: '834'
+ht-degree: 3%
 
 ---
 
@@ -79,6 +79,16 @@ No Journey Optimizer, você pode aproveitar todos os campos das tabelas vinculad
 * ao usar condições em uma jornada, [Leia mais](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * na personalização de mensagens, [Leia mais](../event/experience-event-schema.md#message_personalization)
 * na personalização da ação personalizada, [Leia mais](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+
+### Matrizes{#relationships_limitations}
+
+Você pode definir uma relação de schema em uma matriz de strings, por exemplo, uma lista de IDs de produto.
+
+![](assets/schema15.png)
+
+No entanto, não é possível definir uma relação de schema com um atributo dentro de uma matriz de objetos, por exemplo, uma lista de informações de compra (ID do produto, nome do produto, preço, desconto). Os valores de pesquisa não estarão disponíveis em jornadas (condições, ações personalizadas, etc.) e personalização de mensagens.
+
+![](assets/schema16.png)
 
 ### Configuração de evento{#unitary_event_configuration}
 

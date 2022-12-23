@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '924'
 ht-degree: 3%
 
 ---
@@ -66,6 +66,10 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posterior na j
    >Observe que **[!UICONTROL Enter]** e **[!UICONTROL Sair]** correspondem à **Realizado** e **Saída** status de participação do segmento da Adobe Experience Platform. Para obter mais informações sobre como avaliar um segmento, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
 1. Selecione um namespace. Isso só será necessário se o evento for posicionado como a primeira etapa da jornada.
+
+   >[!NOTE]
+   >
+   >Você só pode selecionar um namespace de identidade com base em pessoas. Se você tiver definido um namespace para uma tabela de pesquisa (por exemplo: Namespace do ProductID para uma Pesquisa de produto), ele não estará disponível no **Namespace** lista suspensa.
 
    ![](assets/segment7.png)
 
