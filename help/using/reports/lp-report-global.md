@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
 # Relatório global da página de aterrissagem {#lp-report-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_global_report"
+>title="Relatório global da página de aterrissagem"
+>abstract="O relatório global Landing page permite medir o impacto das landing pages em um período selecionado. Seu relatório é dividido em diferentes widgets detalhando o sucesso e os erros da página de aterrissagem. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
 A landing page **[!UICONTROL Relatório global]** O relatório exibe detalhes sobre o impacto das landing pages em um período selecionado. Para medir os dados da landing page somente nas últimas 24 horas, consulte o [Relatório ao vivo da página de aterrissagem](lp-report-live.md).
 

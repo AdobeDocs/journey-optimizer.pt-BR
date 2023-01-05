@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
 # Relatório ao vivo da página de aterrissagem {#lp-report-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_live_report"
+>title="Relatório ao vivo da página de aterrissagem"
+>abstract="O relatório ao vivo da Landing page permite medir e visualizar em tempo real o impacto e o desempenho da landing page somente nas últimas 24 horas. Seu relatório é dividido em diferentes widgets detalhando o sucesso e os erros da página de aterrissagem. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
 A landing page **[!UICONTROL Relatório ao vivo]** O relatório exibe detalhes sobre o impacto de suas landing pages somente nas últimas 24 horas. Para medir os dados da landing page em um período selecionado, consulte [Relatório global da página de aterrissagem](lp-report-global.md).
 

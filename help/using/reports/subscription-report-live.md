@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
 # Relatório ao vivo da assinatura {#subscription-report-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_subscription_live_report"
+>title="Relatório ao vivo da assinatura"
+>abstract="O relatório Subscription live permite medir e visualizar em tempo real a atividade dos assinantes somente nas últimas 24 horas. Seu relatório é dividido em diferentes widgets detalhando suas assinaturas e unsubscriptions. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
 A assinatura **[!UICONTROL Relatório ao vivo]** O exibe detalhes sobre a atividade dos assinantes somente nas últimas 24 horas. Para medir suas subscrições por um período selecionado, consulte [Relatório global de subscrição](subscription-report-global.md).
 

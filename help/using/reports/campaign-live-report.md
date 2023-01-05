@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
 
 # Relatório em tempo real da campanha {#campaign-live-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_report"
+>title="Relatório em tempo real da campanha"
+>abstract="O Relatório ao vivo da campanha permite medir e visualizar em tempo real o impacto e o desempenho de suas campanhas somente nas últimas 24 horas. O relatório é dividido em diferentes widgets detalhando o sucesso e os erros da campanha. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
 O relatório ao vivo da campanha pode ser acessado diretamente da sua campanha com o **[!UICONTROL Exibição ao vivo]** botão.
 
@@ -25,7 +30,6 @@ A campanha **[!UICONTROL Relatório ao vivo]** será exibida com as seguintes gu
 * [Email](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
-
 
 A campanha **[!UICONTROL Relatório ao vivo]** O é dividido em diferentes widgets detalhando o sucesso e os erros da campanha. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações sobre isso, consulte esta seção [seção](../reports/live-report.md#modify-dashboard).
 
