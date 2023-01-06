@@ -11,7 +11,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -104,7 +104,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Definir as configurações de correspondência direta"
->abstract="Uma superfície de mala direta contém as configurações para a formatação do arquivo que contém os dados do público-alvo direcionado e será usada pelo provedor de email. Você também deve definir onde o arquivo será exportado selecionando a configuração de roteamento do arquivo."
+>abstract="A superfície de correspondência direta contém as configurações para a formatação do arquivo que contém os dados do público direcionado e será usada pelo provedor de email. Você também pode definir para onde o arquivo será exportado selecionando a configuração de roteamento do arquivo."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="Configurar roteamento de arquivos"
 
 <!--
@@ -116,7 +116,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="Definir o limite de divisão de arquivo"
->abstract="É necessário definir o número máximo de registros para cada arquivo contendo dados de público-alvo. Você pode selecionar qualquer número entre 1 e 200.000 registros. Depois que o limite especificado for atingido, outro arquivo será criado para os registros restantes."
+>abstract="É necessário definir o número máximo de registros para cada arquivo contendo dados de público. Você pode selecionar qualquer número entre 1 e 200.000 registros. Depois que o limite especificado for atingido, outro arquivo será criado para os registros restantes."
 
 Para enviar mala direta com o [!DNL Journey Optimizer], é necessário criar uma superfície de canal para definir as configurações de formatação do arquivo que será usado pelo provedor de email.
 
