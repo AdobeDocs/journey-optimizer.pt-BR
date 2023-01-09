@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Abaixo você encontrará medidas de proteção e limitações adicionais para us
 
 ## Medidas de proteção de gestão de decisões {#offer-guardrails}
 
-As medidas de proteção de desempenho e os limites estáticos para a tomada de decisões estão listados na [Página de descrição do produto Serviço de aplicativo do Adobe Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+As medidas de proteção de desempenho e os limites estáticos para a tomada de decisões estão listados na [Página de descrição do produto Serviço de aplicativo do Adobe Offer Decisioning](https://helpx.adobe.com/br/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
 
 
 ## Medidas de proteção das páginas de destino {#lp-guardrails}
@@ -70,7 +70,7 @@ As medidas de proteção de desempenho e os limites estáticos para a tomada de 
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
 * Os eventos comerciais não podem ser usados junto com eventos unitários ou atividades de qualificação de segmento.
 * As jornadas unitárias (começando com um evento ou uma qualificação de segmento) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. A reentrada do perfil é temporariamente bloqueada por padrão por 5 minutos. Por exemplo, se um evento acionar uma jornada às 12h01 para um perfil específico e outra chegar às 12h03 (se for o mesmo evento ou outro acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
-* O Journey Optimizer requer que os eventos sejam transmitidos para o DCCS (Data Collection Core Service) para acionar uma jornada. Eventos assimilados em lote ou eventos de conjuntos de dados internos da Journey Optimizer (Feedback de mensagem, Rastreamento de email etc.) não pode ser usada para acionar uma jornada. Para casos de uso em que não é possível obter eventos transmitidos, crie um segmento com base nesses eventos e use a variável **Ler segmento** atividade em vez disso. A qualificação de segmentos pode ser tecnicamente usada, mas pode causar desafios de downstream com base nas ações usadas.
+* O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço principal de coleção de dados (DCCS) para acionar uma jornada. Eventos assimilados em lote ou eventos de conjuntos de dados internos do Journey Optimizer (feedback de mensagem, rastreamento de email etc.) não podem ser usados para acionar uma jornada. Para casos de uso nos quais não é possível obter eventos transmitidos, crie um segmento com base nesses eventos e use a atividade **Ler segmento** em vez disso. Tecnicamente, a qualificação de segmentos pode ser usada, mas ela pode causar desafios posteriores com base nas ações usadas.
 
 ### Fontes de dados {#data-sources-g}
 
