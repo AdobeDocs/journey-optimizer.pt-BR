@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
+source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1739'
 ht-degree: 3%
 
 ---
@@ -146,22 +146,22 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
 
 <table>
     <tr>
-        <td><a href="objects.md#absolute">Absoluto   </a></td><td>Essa função converte um número em seu valor absoluto</td>
+        <td><a href="math.md#absolute">Absoluto   </a></td><td>Essa função converte um número seu valor absoluto</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">Random</a></td><td>Essa função retorna um valor aleatório entre 0 e 1</td>
+        <td><a href="math.md#random">Random</a></td><td>Essa função retorna um valor aleatório entre 0 e 1</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-down">Arredondar para baixo</a></td><td>Esta função arredonda um número</td>
+        <td><a href="math.md#round-down">Arredondar para baixo</a></td><td>Esta função arredonda um número</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-up">Arredondar para cima</a></td><td>Esta função arredonda um número</td>
+        <td><a href="math.md#round-up">Arredondar para cima</a></td><td>Esta função arredonda um número</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-percentage">Porcentagem de destino</a></td><td>Essa função converte um número em porcentagem</td>
+        <td><a href="math.md#to-percentage">Porcentagem de destino</a></td><td>Essa função converte um número em porcentagem</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-precision">Para precisão</a></td><td>Essa função converte um número para a precisão necessária</td>
+        <td><a href="math.md#to-precision">Para precisão</a></td><td>Essa função converte um número para a precisão necessária</td>
     </tr>
 </table>
 
@@ -325,7 +325,7 @@ Os assistentes estão detalhados em [esta página](helpers.md).
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">Valor de fallback padrão</a></td><td>Essa função permite renderizar uma variável com o padrão</td>
+        <td><a href="helpers.md#default">Valor de fallback padrão</a></td><td>Essa função é usada para renderizar uma variável com o padrão</td>
     </tr>
     <tr>
         <td><a href="helpers.md#each">Cada</a></td><td>Essa função é usada para iterar sobre uma matriz</td>
