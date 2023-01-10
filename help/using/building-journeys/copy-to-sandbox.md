@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b320a69b12abe14f745097403d7447e47c101596
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 2%
 >title="Objetos dependentes"
 >abstract="Esta é a lista de objetos associados usados na jornada. Essa lista exibe o nome, o tipo de objeto e a Journey Optimizer ID interna."
 
-O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox de Preparo para a sandbox de Produção. Além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: segmentos, superfícies (ou seja, predefinições), esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte esta seção [seção](../building-journeys/copy-to-sandbox.md#limitations).
+O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox de Preparo para a sandbox de Produção. Além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: segmentos, superfícies (ou seja, predefinições), esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte esta seção [seção](#limitations).
 
 >[!CAUTION]
 >
@@ -75,7 +75,7 @@ Para copiar uma jornada para outra sandbox, siga estas etapas:
 
 ## Copiar processo e limitações {#limitations}
 
-Não garantimos que todos os elementos vinculados sejam copiados para a sandbox de destino. Recomendamos que você faça uma verificação completa. Identifique qualquer objeto potencialmente ausente e crie-o manualmente antes de publicar a jornada.
+Nem todos os elementos vinculados podem ser copiados para a sandbox de destino. O Adobe recomenda que você faça uma verificação completa. Identifique qualquer objeto potencialmente ausente e crie-o manualmente antes de publicar a jornada.
 
 Os seguintes objetos são copiados:
 
