@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
+source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1203'
 ht-degree: 5%
 
 ---
@@ -104,7 +104,7 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
  </tbody> 
 </table>
 
-### Métricas de email e SMS {#email-and-sms-metrics}
+### Dimensões e métricas de email e SMS {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -430,75 +430,6 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
    <td>Visitas<br/> </td> 
    <td>Número de visitas à sua página inicial, incluindo várias visitas de um recipient.<br/> </td> 
 </tr>
- </tbody> 
-</table>
-
-### Métricas de notificação por push
-
-<table> 
- <thead> 
-  <tr> 
-   <th> Métrica<br/> </th> 
-   <th> Definição<br/> </th> 
-</tr>
- </thead> 
- <tbody>
- <tr> 
-   <td>Ações<br/> </td> 
-   <td> Número total de ações na notificação por push entregue, por exemplo, clique no botão ou descarta.<br/> </td> 
-</tr>
-  <tr> 
-   <td>Rejeições<br/> </td> 
-   <td> Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Taxa de rejeição <br/> </td> 
-   <td> Porcentagem de notificações por push que rejeição em comparação às notificações por push enviadas.<br/> </td>
-</tr>
-  <tr> 
-   <td> Entregues<br/> </td> 
-   <td> Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Taxa de delivery<br/> </td> 
-   <td> Porcentagem de notificações por push enviadas com êxito.<br/> </td> 
-</tr>
-  <tr> 
-   <td>Envolvimentos<br/> </td> 
-   <td> Número total de aberturas e ações para essa notificação por push, ou seja, se o perfil abriu o push ou se um botão foi clicado.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Taxa de participação<br/> </td> 
-   <td> Porcentagem de aberturas e ações para essa notificação por push, ou seja, se o perfil abriu o push ou se um botão foi clicado.<br/> </td> 
-</tr>
-  <tr> 
-   <td> Erros<br/> </td> 
-   <td> Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.<br/> </td> 
-</tr>
-  <tr> 
-   <td> Taxa de erro<br/> </td> 
-   <td> Porcentagem de erros que ocorreram durante um delivery e impediram seu envio em comparação ao envio de notificações por push.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Excluído<br/> </td> 
-   <td> Número de perfis que foram excluídos pelo Adobe Journey Optimizer.<br/> </td> 
-</tr>
-  <tr> 
-   <td> Aberturas<br/> </td> 
-   <td> Número total de notificações por push enviadas ao dispositivo e clicadas pelos usuários, abrindo o aplicativo. Isso é semelhante ao Clique de push, exceto que a opção Abrir por push não será acionada se a notificação for descartada.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Taxa de abertura<br/> </td> 
-   <td> Porcentagem de notificações por push abertas.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Enviado<br/> </td> 
-   <td> Número total de envios para o delivery.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Direcionado<br/> </td> 
-   <td> Número total de mensagens de push processadas durante a análise de delivery.<br/> </td> 
-</tr>  
  </tbody> 
 </table>
 
