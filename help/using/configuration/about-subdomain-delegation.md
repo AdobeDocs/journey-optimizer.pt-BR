@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: a5b49f113fa0f1375f74368a63ea19789f3798c2
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 26%
+ht-degree: 25%
 
 ---
 
@@ -23,7 +23,7 @@ A criação de um subdomínio para campanhas de email permite que as marcas isol
 >
 >Você não pode usar o mesmo domínio de envio para enviar mensagens de [!DNL Adobe Journey Optimizer] e de outro produto, como [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage].
 
-## Por que configurar subdomínios? {#why-setting-up-subdomains}
+## Por que configurar subdomínios? {#why-set-up-subdomains}
 
 Um subdomínio é uma divisão do seu domínio que pode ser usada para isolar suas marcas ou vários tipos de tráfego, por exemplo, mensagens transacionais e comunicações de marketing.
 
