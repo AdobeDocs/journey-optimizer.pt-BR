@@ -5,13 +5,14 @@ title: Gerenciamento de sandboxes
 description: Saiba como gerenciar sandboxes
 feature: Sandboxes
 topic: Administration
-role: Admin
-level: Intermediate
+role: Admin, Architect, Developer
+level: Experienced
+keywords: sandboxes, virtual, ambientes, organização, plataforma
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 54%
+source-wordcount: '387'
+ht-degree: 58%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 54%
 O [!DNL Journey Optimizer] permite particionar sua instância em ambientes virtuais separados chamados de sandboxes.
 As sandboxes são atribuídas por meio de perfis de produto no Admin Console. [Saiba como atribuir sandboxes](permissions.md#create-product-profile).
 
-O [!DNL Journey Optimizer] reflete as sandboxes da Adobe Experience Platform que foram criadas para uma determinada organização. As sandboxes da Adobe Experience Platform podem ser criadas ou redefinidas pela instância da Adobe Experience Platform. [Saiba mais no guia de usuário de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR){target=&quot;_blank&quot;}.
+O [!DNL Journey Optimizer] reflete as sandboxes da Adobe Experience Platform que foram criadas para uma determinada organização. As sandboxes da Adobe Experience Platform podem ser criadas ou redefinidas pela instância da Adobe Experience Platform. [Saiba mais no guia do usuário de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR){target="_blank"}.
 
 Você pode encontrar o controle do alternador de sandbox na parte superior direita da tela, ao lado do nome da organização. Para alternar a sandbox, clique na sandbox atualmente ativa no alternador e selecione outra sandbox na lista suspensa.
 
@@ -34,7 +35,7 @@ Você pode encontrar o controle do alternador de sandbox na parte superior direi
 
 >[!IMPORTANT]
 >
-> O gerenciamento de sandboxes só pode ser realizado por um **[!UICONTROL Produto]** ou **[!UICONTROL Sistema]** administrador. Para obter mais informações sobre isso, consulte o [Documentação do Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}.
+> O gerenciamento de sandboxes só pode ser realizado por um **[!UICONTROL Produto]** ou **[!UICONTROL Sistema]** administrador. Para obter mais informações sobre isso, consulte o [Documentação do Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
 Você pode optar por atribuir sandboxes diferentes para predefinidas ou personalizadas **[!UICONTROL Perfis de produto]**.
 
@@ -52,7 +53,7 @@ Para atribuir sandboxes:
 
    ![](assets/sandbox_2.png)
 
-1. Em **[!UICONTROL Itens de Permissões Disponíveis]**, clique no ícone de adição (+) para atribuir sandboxes ao perfil. [Saiba mais sobre sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
+1. Em **[!UICONTROL Itens de Permissões Disponíveis]**, clique no ícone de adição (+) para atribuir sandboxes ao perfil. [Saiba mais sobre sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR){target="_blank"}.
 
    ![](assets/sandbox_3.png)
 
@@ -70,7 +71,7 @@ Para configurar a acessibilidade do conteúdo, é necessário atribuir uma pasta
 
 Observe que para que o conteúdo seja sincronizado com a sandbox correta, é necessário seguir a mesma sintaxe da sandbox. Por exemplo, se a sandbox for chamada de desenvolvimento, a pasta compartilhada deverá ter o mesmo nome.
 
-[Saiba como gerenciar pastas compartilhadas](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target=&quot;_blank&quot;}.
+[Saiba como gerenciar pastas compartilhadas](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
 
 ## Vídeo tutorial{#video}
 

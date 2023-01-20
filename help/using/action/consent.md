@@ -3,14 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Trabalhar com políticas de consentimento
 description: Saiba como trabalhar com as políticas de consentimento do Adobe Experience Platform
-feature: Actions
+feature: Data Governance
 topic: Administration
-role: Admin
-level: Intermediate
+role: Admin,Developer
+level: Experienced
+keywords: políticas, governança, plataforma, blindagem de saúde, consentimento
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '919'
 ht-degree: 35%
 
 ---

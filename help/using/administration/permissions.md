@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Gerenciar usuários e perfis de produtos
-description: Saiba como gerenciar permissões
+description: Saiba como gerenciar usuários e perfis de produtos
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+keywords: produto, perfis, sandbox
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 7%
+source-wordcount: '838'
+ht-degree: 8%
 
 ---
 
@@ -99,7 +100,7 @@ Se necessário, também é possível criar um novo perfil de produto com permiss
 
 [!DNL Journey Optimizer] permite criar seu próprio **[!UICONTROL Perfis de produto]** e atribua um conjunto de permissões e sandboxes aos usuários. Com **[!UICONTROL Perfis de produto]**, é possível autorizar ou negar acesso a determinadas funcionalidades ou objetos na interface.
 
-Para obter mais informações sobre como criar e gerenciar sandboxes, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR){target=&quot;_blank&quot;}.
+Para obter mais informações sobre como criar e gerenciar sandboxes, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR){target="_blank"}.
 
 Neste exemplo, criaremos um perfil de produto chamado **Somente leitura do Jornada** , onde concederemos direitos somente leitura ao recurso Jornada. Os usuários só poderão acessar e visualizar jornadas e não poderão acessar outros recursos, como **[!DNL  Decision management]** em [!DNL Journey Optimizer].
 
