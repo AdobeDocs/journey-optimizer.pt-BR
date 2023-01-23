@@ -3,12 +3,13 @@ product: journey optimizer
 title: toBool
 description: Saiba mais sobre a função para Bool
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: Ferramenta, função, expressão, jornada
 exl-id: 0bb68d05-bb90-48b7-aff3-82ab15d55ebe
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '78'
 ht-degree: 10%
 
 ---

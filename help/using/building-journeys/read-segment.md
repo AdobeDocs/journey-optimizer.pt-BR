@@ -7,10 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: atividade, jornada, ler, segmento, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1331'
 ht-degree: 11%
 
 ---
@@ -50,7 +51,7 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
 
    >[!NOTE]
    >
-   >Somente os indivíduos com a variável **Realizado** e **Existente** os status de participação do segmento inserirão a jornada. Para obter mais informações sobre como avaliar um segmento, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Somente os indivíduos com a variável **Realizado** e **Existente** os status de participação do segmento inserirão a jornada. Para obter mais informações sobre como avaliar um segmento, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
    ![](assets/read-segment-selection.png)
 

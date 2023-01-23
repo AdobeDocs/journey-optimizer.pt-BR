@@ -7,10 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: qualificação, eventos, segmento, jornada, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '925'
 ht-degree: 3%
 
 ---
@@ -63,7 +64,7 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posterior na j
 
    >[!NOTE]
    >
-   >Observe que **[!UICONTROL Enter]** e **[!UICONTROL Sair]** correspondem à **Realizado** e **Saída** status de participação do segmento da Adobe Experience Platform. Para obter mais informações sobre como avaliar um segmento, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Observe que **[!UICONTROL Enter]** e **[!UICONTROL Sair]** correspondem à **Realizado** e **Saída** status de participação do segmento da Adobe Experience Platform. Para obter mais informações sobre como avaliar um segmento, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Selecione um namespace. Isso só será necessário se o evento for posicionado como a primeira etapa da jornada.
 
@@ -113,7 +114,7 @@ Não use em **[!UICONTROL Qualificação do segmento]** , um segmento de lote im
 
 ![](assets/segment-error.png)
 
-Coloque uma regra de limitação para fontes de dados e ações usadas em jornadas para evitar sobrecarregá-las. Saiba mais em [Documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. Observe que a regra de limitação não tem nenhuma tentativa. Se precisar tentar novamente, use um caminho alternativo na jornada marcando a caixa **[!UICONTROL Adicione um caminho alternativo em caso de tempo limite ou erro]** em condições ou ações.
+Coloque uma regra de limitação para fontes de dados e ações usadas em jornadas para evitar sobrecarregá-las. Saiba mais em [Documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. Observe que a regra de limitação não tem nenhuma tentativa. Se precisar tentar novamente, use um caminho alternativo na jornada marcando a caixa **[!UICONTROL Adicione um caminho alternativo em caso de tempo limite ou erro]** em condições ou ações.
 
 Antes de usar o segmento em uma jornada de produção, sempre avalie primeiro o volume de indivíduos qualificados para esse segmento a cada dia. Para fazer isso, você pode verificar a variável **[!UICONTROL Segmentos]** abra o segmento e olhe para o menu **[!UICONTROL Perfis ao longo do tempo]** gráfico.
 
