@@ -5,12 +5,13 @@ title: Fonte de dados da Adobe Experience Platform
 description: Saiba como configurar a fonte de dados do Adobe Experience Platform
 feature: Data Sources
 topic: Administration
-role: Admin
+role: Admin, Developer
 level: Intermediate
+keywords: integrado, fonte, dados, plataforma, integração
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '425'
 ht-degree: 14%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 14%
 >title="Fonte de dados da Adobe Experience Platform"
 >abstract="A fonte de dados da Adobe Experience Platform define a conexão com o Perfil do cliente em tempo real do Adobe. Essa fonte de dados é incorporada e pré-configurada e não pode ser excluída. Ele foi projetado para recuperar e usar dados do Serviço de perfil do cliente em tempo real (por exemplo, verifique se a pessoa que inseriu uma jornada é uma mulher). Ela permite usar os dados de Perfil e de Eventos de experiência."
 
-A fonte de dados da Adobe Experience Platform define a conexão com o Perfil do cliente em tempo real do Adobe. Essa fonte de dados é incorporada e pré-configurada e não pode ser excluída. Essa fonte de dados foi projetada para recuperar e usar dados do Serviço de perfil do cliente em tempo real (por exemplo, verifique se a pessoa que inseriu uma jornada é uma mulher). Ela permite usar os dados de Perfil e de Eventos de experiência. Para obter mais informações sobre o Perfil do cliente em tempo real do Adobe, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
+A fonte de dados da Adobe Experience Platform define a conexão com o Perfil do cliente em tempo real do Adobe. Essa fonte de dados é incorporada e pré-configurada e não pode ser excluída. Essa fonte de dados foi projetada para recuperar e usar dados do Serviço de perfil do cliente em tempo real (por exemplo, verifique se a pessoa que inseriu uma jornada é uma mulher). Ela permite usar os dados de Perfil e de Eventos de experiência. Para obter mais informações sobre o Perfil do cliente em tempo real do Adobe, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
 
 
 Para permitir a conexão com o Serviço de perfil do cliente em tempo real, devemos usar uma chave para identificar uma pessoa e um namespace que contextualize a chave. Como resultado, você só poderá usar essa fonte de dados se suas jornadas começarem com um evento contendo uma chave e um namespace. [Saiba mais](../building-journeys/journey.md).

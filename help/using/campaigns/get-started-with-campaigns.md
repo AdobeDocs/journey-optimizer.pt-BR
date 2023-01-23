@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introdução às campanhas
-description: Saiba mais sobre campanhas em [!DNL Journey Optimizer]
+description: Saiba mais sobre campanhas no Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: campanha, como , iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '406'
 ht-degree: 12%
 
 ---
@@ -41,13 +42,13 @@ Verifique os seguintes pré-requisitos antes de começar a criar sua primeira ca
 
 1. **Você precisa de permissões adequadas**. As campanhas só estão disponíveis para usuários com acesso a uma campanha relacionada **[!UICONTROL Perfil de produto]** Como administrador do Campaign, aprovador do Campaign, gerente de campanha e/ou visualizador do Campaign.
 
-   Se não conseguir acessar campanhas, suas permissões devem ser estendidas. Se você tiver acesso a [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} para sua organização, siga as etapas abaixo. Caso contrário, entre em contato com o administrador da Journey Optimizer.
+   Se não conseguir acessar campanhas, suas permissões devem ser estendidas. Se você tiver acesso a [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} para sua organização, siga as etapas abaixo. Caso contrário, entre em contato com o administrador da Journey Optimizer.
 
    +++Saiba como atribuir permissões de campanha
 
    Para atribuir o **[!UICONTROL Perfil de produto]** para seus usuários:
 
-   1. De [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}, selecione o [!DNL Adobe Experience Platform] produto.
+   1. De [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}, selecione o [!DNL Adobe Experience Platform] produto.
 
    1. Navegue até o **[!UICONTROL Perfil de produto]** selecione uma das campanhas internas relacionadas **[!UICONTROL Perfil de produto]**: Administrador de campanha, aprovador da campanha, gerente de campanha ou visualizador da campanha.
 

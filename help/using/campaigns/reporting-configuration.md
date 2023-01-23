@@ -7,13 +7,14 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: configuração, experimentação, relatórios, otimizador
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 29%
+source-wordcount: '719'
+ht-degree: 28%
 
 ---
 
@@ -46,11 +47,11 @@ Para essa configuração, é necessário adicionar um ou mais conjuntos de dados
 ## Pré-requisitos
 
 
-Antes de poder adicionar um conjunto de dados à configuração do relatório, você deve criar esse conjunto de dados. Saiba mais na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR#create){target=&quot;_blank&quot;}.
+Antes de poder adicionar um conjunto de dados à configuração do relatório, você deve criar esse conjunto de dados. Saiba mais na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR#create){target="_blank"}.
 
 * Você só pode adicionar conjuntos de dados do tipo evento.
 
-* Esses conjuntos de dados devem conter pelo menos um dos seguintes [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target=&quot;_blank&quot;}: **Detalhes do aplicativo**, **Detalhes de comércio**, **Detalhes da Web**.
+* Esses conjuntos de dados devem conter pelo menos um dos seguintes [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"}: **Detalhes do aplicativo**, **Detalhes de comércio**, **Detalhes da Web**.
 
    >[!NOTE]
    >
@@ -66,7 +67,7 @@ Antes de poder adicionar um conjunto de dados à configuração do relatório, v
 
 >[!NOTE]
 >
->Saiba mais sobre esquemas XDM e grupos de campos na [documentação de visão geral do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
+>Saiba mais sobre esquemas XDM e grupos de campos na [documentação de visão geral do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
 
 ## Objetivos correspondentes a cada grupo de campos {#objective-list}
 
@@ -98,11 +99,11 @@ A tabela abaixo mostra quais métricas serão adicionadas ao **[!UICONTROL Objet
 
    >[!CAUTION]
    >
-   >Você só pode selecionar um conjunto de dados do tipo evento, que deve conter pelo menos um dos [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target=&quot;_blank&quot;}: **Detalhes do aplicativo**, **Detalhes de comércio**, **Detalhes da Web**. Se você selecionar um conjunto de dados que não corresponda a esses critérios, não será possível salvar suas alterações.
+   >Você só pode selecionar um conjunto de dados do tipo evento, que deve conter pelo menos um dos [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"}: **Detalhes do aplicativo**, **Detalhes de comércio**, **Detalhes da Web**. Se você selecionar um conjunto de dados que não corresponda a esses critérios, não será possível salvar suas alterações.
 
    ![](assets/reporting-config-datasets.png)
 
-   Saiba mais sobre conjuntos de dados na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target=&quot;_blank&quot;}.
+   Saiba mais sobre conjuntos de dados na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target="_blank"}.
 
 1. No **[!UICONTROL ID do perfil]** na lista suspensa, selecione o atributo de campo do conjunto de dados que será usado para identificar cada perfil em seus relatórios.
 
@@ -116,7 +117,7 @@ A tabela abaixo mostra quais métricas serão adicionadas ao **[!UICONTROL Objet
 
    ![](assets/reporting-config-namespace.png)
 
-   Saiba mais sobre namespaces na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=pt-BR){target=&quot;_blank&quot;}.
+   Saiba mais sobre namespaces na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=pt-BR){target="_blank"}.
 
 1. Salve as alterações para adicionar o conjunto de dados selecionado à lista de configuração de relatórios.
 

@@ -5,8 +5,9 @@ title: Integrar o Journey Optimizer a sistemas externos
 description: Conheça as práticas recomendadas ao integrar o Journey Optimizer a sistemas externos
 role: User
 level: Beginner
+keywords: externo, API, otimizador, limitação
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 3%
@@ -43,7 +44,7 @@ Uma regra de limitação é específica de um ponto de extremidade, mas global p
 
 Por exemplo, digamos que você tenha definido uma regra de limite de 100 chamadas por segundo para seu sistema externo. Seu sistema é chamado por uma ação personalizada em 10 jornadas diferentes. Se uma jornada receber 200 chamadas por segundo, ela usará os 100 slots disponíveis e descartará os 100 slots restantes. Como a taxa máxima foi excedida, as outras 9 jornadas não terão mais nenhum slot. Essa granularidade ajuda a proteger o sistema externo contra sobrecarga e falha.
 
-Para saber mais sobre a API de limitação e como configurar regras de limitação, consulte [Documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
+Para saber mais sobre a API de limitação e como configurar regras de limitação, consulte [Documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}.
 
 ## Tempo limite e tentativas{#timeout}
 
@@ -71,7 +72,7 @@ Vamos tomar um exemplo por um tempo limite de 5 segundos.
 
 **Como posso configurar uma regra de limitação? Existe uma regra de limitação padrão?**
 
-Por padrão, não há regra de limitação. As regras de limitação são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação. Consulte [esta seção](../configuration/external-systems.md#capping) e [Documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
+Por padrão, não há regra de limitação. As regras de limitação são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação. Consulte [esta seção](../configuration/external-systems.md#capping) e [Documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}.
 
 **Quantas tentativas são executadas? Posso alterar o número de tentativas ou definir um período mínimo de espera entre as tentativas?**
 

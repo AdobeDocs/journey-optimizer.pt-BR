@@ -7,10 +7,11 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: arquivo, mensagens, HIPAA, BCC, emails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 43137871e8f45e05c6fe00c51bc3c9847fabd0da
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1133'
 ht-degree: 3%
 
 ---
@@ -113,7 +114,7 @@ Para fazer isso, siga as etapas abaixo.
 
 >[!NOTE]
 >
->Saiba mais sobre como gerenciar a privacidade e os regulamentos aplicáveis na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
+>Saiba mais sobre como gerenciar a privacidade e os regulamentos aplicáveis na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target="_blank"}.
 
 ### Dados de relatórios CCO {#bcc-reporting}
 
@@ -123,7 +124,7 @@ Você pode acessar esse conjunto de dados por meio da interface do usuário do .
 
 ![](assets/preset-bcc-dataset.png)
 
-Para executar consultas em relação a esse conjunto de dados, você pode usar o Editor de consultas fornecido pelo [Serviço de query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}. Para acessá-lo, selecione **[!UICONTROL Gestão de dados]** > **[!UICONTROL Queries]** e clique em **[!UICONTROL Criar query]**. [Saiba mais](../data/get-started-queries.md)
+Para executar consultas em relação a esse conjunto de dados, você pode usar o Editor de consultas fornecido pelo [Serviço de query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acessá-lo, selecione **[!UICONTROL Gestão de dados]** > **[!UICONTROL Queries]** e clique em **[!UICONTROL Criar query]**. [Saiba mais](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 

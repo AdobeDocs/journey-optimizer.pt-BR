@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Revisar e ativar uma campanha
-description: Saiba como revisar e ativar campanhas em [!DNL Journey Optimizer]
+description: Saiba como revisar e ativar campanhas no Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: campanha, revisão, validação, ativação, ativação, otimizador
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: fa5a3cc25fa083754e00dbde7743e032c065f210
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '252'
 ht-degree: 7%
 
 ---
