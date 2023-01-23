@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: opt-out, email, link, cancelar inscrição
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 87%
+source-wordcount: '1037'
+ht-degree: 83%
 
 ---
 
@@ -59,7 +60,7 @@ Primeiro, é necessário adicionar um link para cancelar inscrição em uma mens
 
 ### Implementar uma chamada de API para opção de não participação {#opt-out-api}
 
-Para efetivar a opção de não participação dos seus recipients ao enviarem suas escolhas a partir da página de destino, é preciso implementar uma **chamada de API de inscrição** por meio do [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} para atualizar as preferências dos perfis correspondentes.
+Para que seus recipients optem ao enviar sua escolha a partir da landing page, você deve implementar uma **Chamada da API de assinatura** through [Adobe Developer](https://developer.adobe.com){target="_blank"} para atualizar as preferências dos perfis correspondentes.
 
 Essa chamada POST é a seguinte:
 
@@ -97,7 +98,7 @@ Corpo da solicitação:
 }
 ```
 
-O [!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio da chamada de API do [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}.
+[!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio do [Adobe Developer](https://developer.adobe.com){target="_blank"} Chamada de API.
 
 ### Enviar a mensagem com link para cancelar inscrição {#send-message-unsubscribe-link}
 
@@ -117,7 +118,7 @@ Depois de configurar o link para cancelar inscrição para a página de destino 
 
    Como resultado, esse usuário não receberá a comunicação da sua marca, a menos que faça a assinatura novamente.
 
-1. Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target=&quot;_blank&quot;}.
+1. Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
 
    ![](assets/opt-out-profile-choice.png)
 
@@ -185,4 +186,4 @@ Dependendo do cliente de email, clicar no link para cancelar a inscrição no ca
    >
    >Se você não adicionar um link de recusa de um clique no conteúdo da mensagem, nenhuma página de destino será exibida.
 
-* O perfil correspondente é cancelado imediatamente e essa escolha é atualizada na Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target=&quot;_blank&quot;}.
+* O perfil correspondente é cancelado imediatamente e essa escolha é atualizada na Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.

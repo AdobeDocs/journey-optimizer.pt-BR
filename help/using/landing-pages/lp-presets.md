@@ -5,10 +5,11 @@ title: Definir predefinições da página de destino
 description: Saiba como configurar seu ambiente para criar e usar landing pages com o Journey Optimizer
 role: Admin
 level: Intermediate
+keywords: inicial, página de aterrissagem, configurar, ambiente, subdomínio, predefinições
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '347'
 ht-degree: 5%
 
 ---

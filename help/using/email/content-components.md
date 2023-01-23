@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: componentes, designer de email, editor, email
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1383'
 ht-degree: 0%
 
 ---
@@ -157,7 +158,7 @@ Use o **[!UICONTROL Imagem]** componente para inserir um arquivo de imagem de se
 
 1. Clique em **[!UICONTROL Procurar]** para escolher um arquivo de imagem de seus ativos.
 
-   Para saber mais sobre [!DNL Assets Essentials], consulte [Documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
+   Para saber mais sobre [!DNL Assets Essentials], consulte [Documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 1. Clique no componente recém-adicionado e configure as propriedades da imagem usando o **[!UICONTROL Configurações de componentes]** painel:
 

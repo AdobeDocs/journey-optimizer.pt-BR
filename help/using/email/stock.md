@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: stock, imagens, integração, fotos
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 1%
 
 O [!DNL Adobe Stock] e [!DNL Adobe Journey Optimizer] O plug-in de integração do Designer de email fornece aos clientes uma maneira fácil de navegar, licenciar e salvar imagens para uso na criação de mensagens.
 
-[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;} fornece acesso a milhões de fotos, vídeos, ilustrações e gráficos vetoriais de alta qualidade e com curadoria e isenta de royalties. Você pode optar por comprar um pacote de crédito para licenciar ativos ou comprar apenas uma licença Standard ou Extended para o ativo necessário. O Adobe Stock também fornece uma coleção gratuita de ativos.
+[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} fornece acesso a milhões de fotos, vídeos, ilustrações e gráficos vetoriais de alta qualidade e com curadoria e isentos de royalties. Você pode optar por comprar um pacote de crédito para licenciar ativos ou comprar apenas uma licença Standard ou Extended para o ativo necessário. O Adobe Stock também fornece uma coleção gratuita de ativos.
 
 Com [!DNL Adobe Journey Optimizer], você pode carregar imagens em seus emails diretamente de [!DNL Adobe Stock] e adicione-o ao **[!UICONTROL Ativos]** usando a **[!UICONTROL Localizar fotos do Adobe Stock]** opção. Além disso, a variável **[!UICONTROL Localizar fotos de Ações Semelhantes]** ajuda a encontrar imagens que correspondam ao conteúdo, à cor e à composição do ativo usado no delivery.
 
@@ -29,7 +30,7 @@ Com [!DNL Adobe Journey Optimizer], você pode carregar imagens em seus emails d
 
 O **[!UICONTROL Localizar fotos do Adobe Stock]** e **[!UICONTROL Localizar Imagem Semelhante]** estão disponíveis para usuários com acesso a um Perfil de produto do AEM Assets Essentials.
 
-Para obter mais informações, consulte [Documentação essencial dos ativos](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target=&quot;_blank&quot;}.
+Para obter mais informações, consulte [Documentação essencial dos ativos](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## Inserir uma imagem de [!DNL Adobe Stock] {#add-stock-image}
 
@@ -87,7 +88,7 @@ Para licenciar e baixar a imagem, siga as etapas abaixo:
 
    Essa compra depende do plano ou da assinatura da Adobe Stock. Observe que, se você tiver várias contas Adobe Stock, será redirecionado para a última ID de estoque usada. Nesse caso, verifique se você está conectado à conta correta antes de licenciar seu ativo.
 
-   Para obter mais informações sobre os planos e preços da Adobe Stock em [Documentação do Adobe Stock](https://stock.adobe.com/plans){target=&quot;_blank&quot;}.
+   Para obter mais informações sobre os planos e preços da Adobe Stock em [Documentação do Adobe Stock](https://stock.adobe.com/plans){target="_blank"}.
 
    >[!WARNING]
    > Se um email incluindo uma imagem não licenciada for enviado, a imagem manterá seu formulário não licenciado com a marca d&#39;água.
@@ -102,5 +103,5 @@ Para licenciar e baixar a imagem, siga as etapas abaixo:
 
 * [Design de email no Journey Optimizer](get-started-email-design.md)
 * [Configurações de componentes para design de email](content-components.md)
-* [Adobe Stock Introdução](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;}.
+* [Adobe Stock Introdução](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 
