@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: dados, gerenciamento, plataforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 0%
+source-wordcount: '675'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ Você pode usar o [!DNL Journey Optimizer]A flexibilidade dos dados do para aten
 
 * **Mecanismos de limpeza e arquivamento**: A limpeza de dados e arquivamento pode ser definida e automatizada livremente no [!DNL Adobe Journey Optimizer] para automatizar as políticas de retenção de dados. É possível definir diferentes estratégias de envelhecimento para as diferentes entidades de dados. Os mecanismos de exportação também podem ser definidos para exportar automaticamente os dados antigos antes que sejam limpos ou arquivados.
 
-   A área de trabalho Higiene de dados na interface do usuário do Adobe Experience Platform permite criar e monitorar várias tarefas de higiene de dados, incluindo a exclusão das identidades do consumidor e o agendamento das expirações do conjunto de dados. Este espaço de trabalho está disponível com o Security &amp; Privacy Shield e com o Healthcare Shield. Saiba mais em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target="_blank"}.
+   O espaço de trabalho Higiene de dados permite criar e monitorar várias tarefas de higiene de dados, incluindo a exclusão de identidades de consumidores e o agendamento de expirações do conjunto de dados. Este espaço de trabalho está disponível com o Security &amp; Privacy Shield e com o Healthcare Shield. Saiba mais [nesta página](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
