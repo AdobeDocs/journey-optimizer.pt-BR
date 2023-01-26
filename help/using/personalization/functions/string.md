@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1808'
 ht-degree: 7%
 
 ---
@@ -702,7 +702,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 
 ## Sequência de caracteres para data {#string-to-date}
 
-A função `stringToDate&#39; converte um valor de string em um valor de data e hora. São necessários dois argumentos: representação de string de uma representação de data e hora e string do formatador.
+O `stringToDate` converte um valor de string em um valor de data e hora. São necessários dois argumentos: representação de string de uma representação de data e hora e string do formatador.
 
 **Sintaxe**
 
