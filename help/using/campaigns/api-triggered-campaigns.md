@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '817'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,8 @@ Para fazer isso, primeiro crie uma campanha acionada por API no Journey Optimize
 Os canais disponíveis para campanhas acionadas por API são mensagens de email, SMS e push.
 
 ## Criar uma campanha acionada por API {#create}
+
+### Configurar e ativar a campanha {#create-activate}
 
 O processo para criar campanhas acionadas por API permanece o mesmo que as campanhas programadas, exceto pela seleção de público-alvo que é executada na carga da API. Informações detalhadas sobre como criar uma campanha estão disponíveis em [esta seção](create-campaign.md).
 
@@ -55,11 +57,23 @@ Para criar uma campanha acionada por API, siga estas etapas:
 
    Se você configurar uma data de início e/ou término específica para uma campanha, ela não será executada fora dessas datas, e as chamadas de API falharão se a campanha for acionada pelas APIs.
 
-1. No **[!UICONTROL Solicitação cURL]** , recupere a **[!UICONTROL ID da campanha]** para usar na carga da API.
+1. Clique em **[!UICONTROL Revisar para ativar]** para verificar se a campanha está configurada corretamente, ative-a.
+
+Agora você está pronto para executar a campanha a partir das APIs. [Saiba mais](#execute)
+
+### Executar a campanha {#execute}
+
+Depois que a campanha tiver sido ativada, é necessário recuperar a solicitação de cURL de amostra gerada e usá-la na API para criar a carga útil e acionar a campanha.
+
+1. Abra a campanha e copie e cole a solicitação de amostra do **[!UICONTROL Solicitação cURL]** seção.
 
    ![](assets/api-triggered-curl.png)
 
-1. Clique em **[!UICONTROL Revisar para ativar]** para verificar se a campanha está configurada corretamente, ative-a.
+1. Use essa solicitação de cURL nas APIs para criar sua carga e acionar a campanha. Para obter mais informações, consulte [Documentação da API de execução de mensagem interativa](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+
+   >[!NOTE]
+   >
+   >Se você configurou uma data de início e/ou término específica ao criar a campanha, ela não será executada fora dessas datas, e as chamadas de API falharão.
 
 ## Usar atributos contextuais em campanhas acionadas por API {#contextual}
 
@@ -82,16 +96,6 @@ O `{{context.<contextualAttribute>}}` A sintaxe é mapeada somente para um tipo 
 >O `context.system` A sintaxe é restrita somente ao uso interno do Adobe e não deve ser usada para transmitir atributos contextuais.
 
 Observe que, por enquanto, nenhum atributo contextual está disponível para uso no menu do painel à esquerda. Os atributos devem ser digitados diretamente na expressão de personalização, sem que nenhuma verificação seja executada por [!DNL Journey Optimizer].
-
-## Executar a campanha {#execute}
-
-Para executar uma campanha acionada por API, primeiro recupere a ID e passe-a para a carga da API. Para fazer isso, abra a campanha e copie e cole a ID do **[!UICONTROL Solicitação cURL]** seção.
-
-![](assets/api-triggered-id.png)
-
-Em seguida, você pode usar essa ID na carga da API para acionar a campanha. Consulte a [Documentação da API de execução de mensagem interativa](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) para obter mais informações.
-
-Observe que, se você tiver configurado uma data de início e/ou término específica ao criar a campanha, ela não será executada fora dessas datas, e as chamadas de API falharão.
 
 ## Criação de perfil na execução da campanha {#profile-creation}
 

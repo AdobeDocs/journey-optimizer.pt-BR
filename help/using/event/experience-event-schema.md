@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: schemas, XDM, plataforma, streaming, ingestão, jornada
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 3%
@@ -38,7 +38,7 @@ Qualquer esquema XDM que será usado para [!DNL Journey Optimizer] Os eventos de
 
    ![](assets/schema3.png)
 
-* Declarar um campo de identidade para identificar o assunto do evento. Se nenhuma identidade for especificada, um mapa de identidade poderá ser usado. Isso não é recomendado.
+* Declare um campo de identidade para identificar perfis individuais no evento. Se nenhuma identidade for especificada, um mapa de identidade poderá ser usado. Isso não é recomendado.
 
    ![](assets/schema4.png)
 

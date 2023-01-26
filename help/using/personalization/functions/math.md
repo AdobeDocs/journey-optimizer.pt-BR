@@ -5,10 +5,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 8%
+source-wordcount: '215'
+ht-degree: 6%
 
 ---
 
@@ -20,17 +20,39 @@ Saiba como usar funções de Matemática no Editor de expressão.
 
 O `absolute` é usada para converter um número, seu valor absoluto.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= absolute(int) %}: int
+```
+
+## formatNumber {#format-number}
+
+O `formatNumber` é usada para formatar qualquer número em sua representação sensível ao idioma.
+
+Ele aceita um número e uma string que representa a localidade e retorna uma string formatada do número na localidade desejada.
+
+**Sintaxe**
+
+```sql
+{%= formatNumber(number/double,string) %}: string
+```
+
+Você pode usar a formatação e as localidades válidas, conforme resumido em [Documentação do oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Localidades suportadas](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+
+**Exemplo**
+
+Esse query retorna uma string formatada em árabe correspondente a 123456.789 como número de entrada.
+
+```sql
+{%= formatNumber(123456.789, "ar_EG") %}
 ```
 
 ## Random {#random}
 
 O `random` é usada para retornar um valor aleatório entre 0 e 1.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= random() %}: double
@@ -40,7 +62,7 @@ O `random` é usada para retornar um valor aleatório entre 0 e 1.
 
 O `roundDown` é usada para arredondar um número.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= roundDown(double) %}: double
@@ -50,17 +72,35 @@ O `roundDown` é usada para arredondar um número.
 
 O `Count only null` é usada para arredondar um número.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= roundUp(double) %}: double
+```
+
+## Sequência de caracteres hexadecimal {#to-hex-string}
+
+O `toHexString` converte qualquer número em sua string hexadecimal.
+
+**Sintaxe**
+
+```sql
+{%= toHexString(number) %}: string
+```
+
+**Exemplo**
+
+Esse query retorna o valor hexadecimal de 158, ou seja, 9e.
+
+```sql
+{%= toHexString(158) %}
 ```
 
 ## Porcentagem para {#to-percentage}
 
 O `toPercentage` é usada para converter um número em porcentagem.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= toPercentage(double) %}: string
@@ -70,8 +110,26 @@ O `toPercentage` é usada para converter um número em porcentagem.
 
 O `toPrecision` é usada para converter um número para a precisão necessária.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= toPrecision(double,int) %}: string
+```
+
+## Para string {#to-string}
+
+O **toString** converte qualquer número em sua representação da string.
+
+**Sintaxe**
+
+```sql
+{%= toString(string) %}: string
+```
+
+**Exemplo**
+
+Essa query retorna &quot;12&quot;.
+
+```sql
+{%= toString(12) %} 
 ```

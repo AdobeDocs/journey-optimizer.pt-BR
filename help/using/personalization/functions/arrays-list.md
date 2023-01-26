@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 91f221781f1655066ec0f6b1c3f2c1faefd09d69
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 6%
@@ -21,7 +21,7 @@ Use essas funções para facilitar a interação com arrays, listas e strings.
 
 O `countOnlyNull` é usada para contar o número de valores nulos em uma lista.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= countOnlyNull(array) %}
@@ -39,7 +39,7 @@ Retorna 3.
 
 O `countWithNull` é usada para contar todos os elementos de uma lista, incluindo valores nulos.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= countWithNull(array) %}
@@ -57,7 +57,7 @@ Retorna 6.
 
 O `distinct` é usada para obter valores de uma matriz ou lista com valores duplicados removidos.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= distinct(array) %}
@@ -75,7 +75,7 @@ A operação a seguir especifica pessoas que fizeram pedidos em mais de um armaz
 
 O `distinctCountWithNull` é usada para contar o número de valores diferentes em uma lista, incluindo os valores nulos.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= distinctCountWithNull(array) %}
@@ -93,7 +93,7 @@ Retorna 3.
 
 O `head` é usada para retornar o primeiro item em uma matriz ou lista.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= head(array) %}
@@ -111,7 +111,7 @@ A operação a seguir retorna o primeiro dos cinco principais pedidos com o pre�
 
 O `topN` é usada para retornar a primeira `N` itens em uma matriz, quando classificados em ordem crescente com base na expressão numérica fornecida.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= topN(array, value, amount) %}
@@ -135,7 +135,7 @@ A operação a seguir retorna os cinco primeiros pedidos com o preço mais baixo
 
 O `in` é usada para determinar se um item é membro de uma matriz ou lista.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= in(value, array) %}
@@ -153,7 +153,7 @@ A operação a seguir define as pessoas com aniversários em março, junho ou se
 
 O `includes` é usada para determinar se uma matriz ou lista contém um determinado item.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= includes(array,item) %}
@@ -171,7 +171,7 @@ A operação a seguir define as pessoas cuja cor favorita inclui o vermelho.
 
 O `intersects` é usada para determinar se duas matrizes ou listas têm pelo menos um membro comum.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= intersects(array1, array2) %}
@@ -190,7 +190,7 @@ A operação a seguir define as pessoas cujas cores favoritas incluem pelo menos
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
-**Format**
+**Syntax**
 
 ```sql
 intersection({ARRAY},{ARRAY})
@@ -209,7 +209,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 O `bottomN` é usada para retornar a última `N` itens em uma matriz, quando classificados em ordem crescente com base na expressão numérica fornecida.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= bottomN(array, value, amount) %}
@@ -237,7 +237,7 @@ O `notIn` é usada para determinar se um item não é membro de uma matriz ou li
 >
 >O `notIn` função *also* garante que nenhum dos valores seja igual a nulo. Portanto, os resultados não são uma negação exata do `in` .
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= notIn(value, array) %}
@@ -256,7 +256,7 @@ A operação a seguir define pessoas com aniversários que não estão em março
 
 O `subsetOf` é usada para determinar se uma matriz específica (matriz A) é um subconjunto de outra matriz (matriz B). Em outras palavras, todos os elementos na matriz A são elementos da matriz B.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= subsetOf(array1, array2) %}
@@ -274,7 +274,7 @@ A operação a seguir define as pessoas que visitaram todas as cidades favoritas
 
 O `supersetOf` é usada para determinar se uma matriz específica (matriz A) é um superconjunto de outra matriz (matriz B). Em outras palavras, essa matriz A contém todos os elementos na matriz B.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= supersetOf(array1, array2) %}

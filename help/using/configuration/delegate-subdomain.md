@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: subdomínio, delegação, domínio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 8%
@@ -167,13 +167,15 @@ Para delegar um subdomínio usando CNAMEs, siga as etapas abaixo:
 
 1. O Adobe gera um registro de validação de URL CDN SSL. Copie esse registro de validação para sua plataforma de hospedagem. Se você tiver criado corretamente esse registro em sua solução de hospedagem, marque a caixa &quot;Eu confirmo..&quot; e clique em **[!UICONTROL Enviar]**.
 
-   ![](assets/subdomain-cdn-url-validation.png)
+   <!--![](assets/subdomain-cdn-url-validation.png)-->
 
    >[!NOTE]
    >
    >Você também pode criar o registro de validação e enviar a configuração de subdomínio posteriormente usando o **[!UICONTROL Salvar como rascunho]** botão. Você poderá retomar a delegação do subdomínio abrindo-a a partir da lista de subdomínios.
 
 1. Depois que a delegação de subdomínio CNAME for enviada, o subdomínio será exibido na lista com a variável **[!UICONTROL Processamento]** status. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](about-subdomain-delegation.md#access-delegated-subdomains).
+
+   ![](assets/subdomain-cname-processing.png)
 
    Antes de poder usar esse subdomínio para enviar mensagens, você deve aguardar até que o Adobe execute as verificações necessárias, que geralmente levam de 2 a 3 horas. Saiba mais [nesta seção](#subdomain-validation).
 

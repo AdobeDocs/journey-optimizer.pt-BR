@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: supressão, lista, devolução, email, otimizador
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1350'
 ht-degree: 4%
 
 ---
@@ -247,11 +247,17 @@ Para fazer isso, no **[!UICONTROL Lista de supressão]** , clique no botão **[!
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
-Os uploads mais recentes enviados e seus status correspondentes são exibidos.
+Os uploads mais recentes enviados e seus status correspondentes são exibidos:
 
-Se um relatório de erros estiver associado a um arquivo, é possível baixá-lo para verificar os erros encontrados.
+* **[!UICONTROL Pending]**: O upload do arquivo está sendo processado.
+* **[!UICONTROL Erro]**: O processo de upload do arquivo falhou devido a um problema técnico ou a um erro de formato de arquivo.
+* **[!UICONTROL Concluído]**: O processo de upload de arquivo foi concluído com êxito.
 
-![](assets/suppression-list-recent-uploads-error.png)
+Durante o upload, se alguns endereços não estiverem no formato correto, eles não serão adicionados ao [!DNL Journey Optimizer] lista de supressão.
+
+Nesse caso, quando o upload é concluído, ele é associado a um relatório. Você pode baixá-lo para verificar os erros encontrados<!-- and understand why they were not added to the suppression list-->.
+
+![](assets/suppression-list-recent-uploads-report.png)
 
 Abaixo está um exemplo do tipo de entradas que você pode encontrar no relatório de erro:
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: email, design, estoque, ativos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 21%
+source-wordcount: '317'
+ht-degree: 18%
 
 ---
 
@@ -52,6 +52,10 @@ Depois de [adição de um email](create-email.md) para uma jornada ou campanha, 
    * **Selecionar um conteúdo existente** em uma lista de modelos incorporados ou personalizados. Saiba como trabalhar com modelos de email [esta seção](email-templates.md).
 
    ![](assets/email_designer_create_options.png)
+
+1. Depois que o conteúdo do email tiver sido definido e personalizado, você poderá exportar o conteúdo para validação ou para uso posterior. Clique em **[!UICONTROL Exportar HTML]** para salvar em seu computador um arquivo zip que incluirá o HTML e os ativos.
+
+   ![](assets/email_designer_export.png)
 
 ## Vídeo tutorial {#video}
 

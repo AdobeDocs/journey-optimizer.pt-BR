@@ -4,16 +4,57 @@ product: journey optimizer
 title: Notas de versão de 2022
 description: Notas de versão do Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '3453'
-ht-degree: 100%
+source-wordcount: '3583'
+ht-degree: 99%
 
 ---
 
 # Notas de versão de 2022 {#release-notes-2022}
 
 Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] lançado em 2022.
+
+
+
+## Versão de outubro de 2022 {#oct-2022-release}
+
+<!--
+
+### New capability{#oct-2022-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Direct Mail Channel (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now add direct mail messages in your campaigns and journeys. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+-->
+
+### Melhorias {#oct-2022-improvements}
+
+**Jornadas**
+
+* A opção de **Forçar a reentrada na recorrência** foi adicionada em parâmetros de programação de segmentos de leitura recorrentes. Essa opção permite fazer com que todos os perfis ainda presentes na jornada saiam automaticamente na próxima execução. Quando a opção estiver desativada, os perfis devem concluir a jornada antes de entrar novamente em outra ocorrência. [Saiba mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**Administração**
+
+* Uma mensagem foi adicionada à interface para avisar que as configurações de subdomínio, subdomínio de página de destino, registro PTR e pool de IP são comuns a todas as sandboxes e, portanto, qualquer modificação em uma dessas configurações também afetará as sandboxes de produção.
+* As etapas para fazer upload da lista de supressão como um arquivo CSV da interface foram modificadas. [Saiba mais](../configuration/manage-suppression-list.md#download-suppression-list)
+
+**Campanhas**
+
+* Agora é possível arquivar campanhas concluídas e interrompidas. [Saiba mais](../campaigns/modify-stop-campaign.md#archive)
 
 
 ## Versão de setembro de 2022{#sept-2022-release}
@@ -346,7 +387,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 **Jornadas**
 
-* **Encerramento de uma jornada** - Na tela da jornada, a atividade **Fim** foi removida da paleta. As tags finais agora são adicionadas por padrão no final de cada caminho e não podem ser removidas. Essa melhoria permite obter relatórios melhores sobre onde um cliente saiu da jornada, sem nenhuma ação necessária por parte do profissional de jornada. Consulte a [documentação](../building-journeys/end-journey.md) e o [vídeo em destaque](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
+* **Encerramento de uma jornada** - Na tela da jornada, a atividade **Fim** foi removida da paleta. As tags finais agora são adicionadas por padrão no final de cada caminho e não podem ser removidas. Essa melhoria permite obter relatórios melhores sobre onde um cliente saiu da jornada, sem nenhuma ação necessária por parte do profissional de jornada. Consulte a [documentação](../building-journeys/end-journey.md) e [vídeo de recurso](https://video.tv.adobe.com/v/345376){target="_blank"}.
 
 
 * A opção de **Fuso horário do perfil** agora está desmarcada por padrão nas propriedades da jornada. [Saiba mais](../building-journeys/timezone-management.md#timezone-from-profiles)

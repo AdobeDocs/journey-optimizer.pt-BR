@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, segmento, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 13%
+source-wordcount: '1061'
+ht-degree: 12%
 
 ---
 
@@ -94,9 +94,35 @@ O **Copiar detalhes técnicos** O permite copiar informações técnicas sobre a
 
 ### Entrada{#entrance}
 
-Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção por jornadas de &quot;uma ocorrência&quot;, por exemplo, se quiser oferecer um presente único quando uma pessoa entrar em uma loja.
-
+Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a variável **Permitir reentrada** opção para jornadas de &quot;uma tomada&quot;, por exemplo, se você quiser oferecer um presente único quando uma pessoa entrar em uma loja.
+<!--
+When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
+-->
 Saiba mais sobre o gerenciamento de entrada de perfil, em [esta seção](entry-management.md).
+
+### Gerenciar acesso {#access}
+
+Para atribuir rótulos de uso de dados personalizados ou principais à jornada, clique no botão **[!UICONTROL Gerenciar acesso]** botão. [Saiba mais sobre o Controle de acesso no nível do objeto (OLA)](../administration/object-based-access.md)
+
+![](assets/journeys-manage-access.png)
+
+### Fuso horário e fuso horário do perfil {#timezone}
+
+O fuso horário é definido no nível da jornada.
+
+Você pode inserir um fuso horário fixo ou usar perfis do Adobe Experience Platform para definir o fuso horário da jornada.
+
+Se um fuso horário for definido no perfil do Adobe Experience Platform, ele poderá ser recuperado na jornada.
+
+Para obter mais informações sobre o gerenciamento de fuso horário, consulte [esta página](../building-journeys/timezone-management.md).
+
+### Datas de início e término {#dates}
+<!--
+You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
+
+You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
+-->
+Você pode definir uma **Data de início**. Você também pode adicionar um **Data final**. Isso permite que os perfis saiam automaticamente quando a data for atingida. Se você não especificar uma data de término, os perfis poderão permanecer até o tempo limite padrão da jornada.
 
 ### Tempo limite e erro nas atividades do jornada {#timeout_and_error}
 
@@ -118,18 +144,3 @@ Além do [timeout](#timeout_and_error) usada em atividades de jornada, também h
 
 Devido ao tempo limite da jornada de 30 dias, quando a reentrada da jornada não é permitida, não podemos garantir que o bloqueio de reentrada funcione por mais de 30 dias. Na verdade, à medida que removemos todas as informações sobre pessoas que entraram na jornada 30 dias depois de terem entrado, não podemos conhecer a pessoa que entrou anteriormente, há mais de 30 dias.
 
-### Fuso horário e fuso horário do perfil {#timezone}
-
-O fuso horário é definido no nível da jornada.
-
-Você pode inserir um fuso horário fixo ou usar perfis do Adobe Experience Platform para definir o fuso horário da jornada.
-
-Se um fuso horário for definido no perfil do Adobe Experience Platform, ele poderá ser recuperado na jornada.
-
-Para obter mais informações sobre o gerenciamento de fuso horário, consulte [esta página](../building-journeys/timezone-management.md).
-
-### Gerenciar acesso {#access}
-
-Para atribuir rótulos de uso de dados personalizados ou principais à jornada, clique no botão **[!UICONTROL Gerenciar acesso]** botão. [Saiba mais sobre o Controle de acesso no nível do objeto (OLA)](../administration/object-based-access.md)
-
-![](assets/journeys-manage-access.png)

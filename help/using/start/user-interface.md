@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 100%
+source-wordcount: '1642'
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 Conecte-se à [Adobe Experience Cloud ](http://experience.adobe.com) e navegue até [!DNL Journey Optimizer].
 
-Os principais conceitos de navegação na interface do usuário são comuns à Adobe Experience Platform. Consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=pt-BR#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} para obter mais detalhes.
+Os principais conceitos de navegação na interface do usuário são comuns à Adobe Experience Platform. Consulte a [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=pt-BR#adobe-experience-platform-ui-guide) para obter mais detalhes.{target="_blank"}
 
-Os componentes e recursos disponíveis na interface do usuário dependem das suas [ permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}. Em caso de dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe.
+Os componentes e recursos disponíveis na interface do usuário dependem das suas [ permissões](../administration/permissions.md) e do seu [pacote de licenciamento](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}. Em caso de dúvidas, entre em contato com o Gerente de sucesso do cliente da Adobe.
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ A página inicial do [!DNL Journey Optimizer] contém os links e recursos princi
 
 * **[!UICONTROL Consultas]** - use o serviço de consulta da Adobe Experience Platform para gravar e executar consultas, exibir consultas executadas anteriormente e acessar consultas salvas por usuários em sua organização. [Saiba mais](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoramento]** - use esse menu para monitorar a ingestão de dados na interface da Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=pt-BR){target=&quot;_blank&quot;}
+* **[!UICONTROL Monitoramento]** - use esse menu para monitorar a ingestão de dados na interface da Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=pt-BR){target="_blank"}
 
 **[!UICONTROL CONEXÕES]**
 
@@ -88,7 +88,7 @@ A página inicial do [!DNL Journey Optimizer] contém os links e recursos princi
 
 * **[!UICONTROL Sandboxes]** - a Adobe Experience Platform fornece sandboxes que dividem uma única instância em ambientes virtuais separados para ajudar a desenvolver e evoluir aplicativos de experiência digital. [Saiba mais](../administration/sandboxes.md)
 
-* **[!UICONTROL Alertas]** - a interface permite visualizar um histórico de alertas recebidos com base em métricas reveladas pelos Insights de observação da Adobe Experience Platform. A interface também permite visualizar, ativar e desativar as regras de alerta disponíveis. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR){target=&quot;_blank&quot;}
+* **[!UICONTROL Alertas]** - a interface permite visualizar um histórico de alertas recebidos com base em métricas reveladas pelos Insights de observação da Adobe Experience Platform. A interface também permite visualizar, ativar e desativar as regras de alerta disponíveis. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR){target="_blank"}
 
 
 ## Casos de uso no produto {#in-product-uc}
@@ -118,7 +118,7 @@ Os recursos de acessibilidade no [!DNL Adobe Journey Optimizer] são herdados da
 * Contraste de cores
 * Validação de campos obrigatórios
 
-[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=pt-BR){target=&quot;_blank&quot;} na documentação da Adobe Experience Platform.
+[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=pt-BR){target="_blank"} na documentação do Adobe Experience Platform.
 
 Você pode usar esses atalhos de teclado comuns no [!DNL Journey Optimizer]:
 
@@ -130,7 +130,7 @@ Você pode usar esses atalhos de teclado comuns no [!DNL Journey Optimizer]:
 | Selecionar ou limpar um elemento em foco | Enter ou Barra de espaço |
 | Cancelar uma seleção, recolher um painel ou fechar uma caixa de diálogo | Esc |
 
-[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=pt-BR){target=&quot;_blank&quot;} na documentação da Adobe Experience Platform.
+[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=pt-BR){target="_blank"} na documentação do Adobe Experience Platform.
 
 Você pode usar esses atalhos em partes específicas do Journey Optimizer:
 
@@ -154,12 +154,32 @@ Você pode usar esses atalhos em partes específicas do Journey Optimizer:
   </tr>
   <tr>
     <td>Selecione todas as atividades</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>CTRL + A (Windows)<br/>CMD + A (Mac)</td>
   </tr>
   <tr>
     <td>Excluir as atividades selecionadas</td>
     <td>Delete ou Backspace, em seguida, tecle Enter para confirmar a exclusão</td>
   </tr>
+  <tr>
+    <td>Aumentar e diminuir o zoom (foco na tela ou em qualquer um de seus elementos filho)</td>
+    <td>CTRL +/- (Windows) ou CMD +/- (Mac)</td>
+  </tr>  
+  <tr>
+    <td>Navegar entre cada atividade e caminho (foco na tela) ou entre botões da barra de ferramentas (foco na barra de ferramentas)</td>
+    <td>Teclas de SETA</td>
+  </tr>   
+  <tr>
+    <td>Mova o foco para o próximo elemento acionável na tela, sendo a barra de ferramentas o primeiro</td>
+    <td>Guia</td>
+  </tr>  
+  <tr>
+    <td>Abra o painel de configuração correto (concentre-se em uma atividade)</td>
+    <td>ENTER</td>
+  </tr>   
+  <tr>
+    <td>Mover uma atividade na tela (foco em uma atividade)</td>
+    <td>Shift + teclas de SETA</td>
+  </tr>  
   <tr>
   <td rowspan="3">
 

@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1809'
 ht-degree: 7%
 
 ---
@@ -21,7 +21,7 @@ Saiba como usar funções de String no Editor de expressão.
 
 O `camelCase` maiúscula a primeira letra de cada palavra de uma string.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= camelCase(string)%}
@@ -35,11 +35,29 @@ A função a seguir capitalizará a primeira letra de palavra no endereço de ru
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
+## Código de barras em {#char-code-at}
+
+O `charCodeAt` retorna o valor ASCII de um caractere, como a função charCodeAt no JavaScript. Pega uma string e um inteiro (definindo a posição do caractere) como argumentos de entrada e retorna seu valor ASCII correspondente.
+
+**Sintaxe**
+
+```sql
+{%= charCodeAt(string,int) %}: int
+```
+
+**Exemplo**
+
+A função a seguir retorna o valor ASCII de o, ou seja, 111.
+
+```sql
+{%= charCodeAt("some", 1)%}
+```
+
 ## Concat {#concate}
 
 O `concat` combina duas strings em uma.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= concat(string,string) %}
@@ -57,7 +75,7 @@ A função a seguir combinará a cidade e o país do perfil em uma única string
 
 O `contains` é usada para determinar se uma string contém uma substring especificada.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= contains(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -87,7 +105,7 @@ O `contains` é usada para determinar se uma string contém uma substring especi
 
 O `doesNotContain` é usada para determinar se uma string não contém uma substring especificada.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= doesNotContain(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -112,7 +130,7 @@ A consulta a seguir determina, com diferenciação entre maiúsculas e minúscul
 
 O `doesNotEndWith` é usada para determinar se uma string não termina com uma substring especificada.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= doesNotEndWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -136,7 +154,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 O `doesNotStartWith` é usada para determinar se uma string não inicia com uma substring especificada.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= doesNotStartWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -160,7 +178,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 
 O `encode64` é usada para codificar uma string para preservar as Informações pessoais (PI), caso deseje ser incluída, por exemplo, em um URL.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= encode64(string) %}
@@ -170,7 +188,7 @@ O `encode64` é usada para codificar uma string para preservar as Informações 
 
 O `endsWith` é usada para determinar se uma string termina com uma substring especificada.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= endsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -195,7 +213,7 @@ A consulta a seguir determina, com diferenciação entre maiúsculas e minúscul
 
 O `equals` é usada para determinar se uma string é igual à string especificada, com diferenciação entre maiúsculas e minúsculas.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= equals(STRING_1, STRING_2) %}
@@ -218,7 +236,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 
 O `equalsIgnoreCase` é usada para determinar se uma string é igual à string especificada, sem diferenciação entre maiúsculas e minúsculas.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= equalsIgnoreCase(STRING_1, STRING_2) %}
@@ -241,7 +259,7 @@ A consulta a seguir determina, sem distinção entre maiúsculas e minúsculas, 
 
 O `extractEmailDomain` é usada para extrair o domínio de um endereço de email.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= extractEmailDomain(string) %}
@@ -255,11 +273,29 @@ A consulta a seguir extrai o domínio de email do endereço de email pessoal.
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## Formatar moeda {#format-currency}
+
+O `formatCurrency` é usada para converter qualquer número em sua representação de moeda sensível ao idioma correspondente, dependendo da localidade passada como uma string no segundo argumento.
+
+**Sintaxe**
+
+```sql
+{%= formatCurrency(number/double,string) %}: string
+```
+
+**Exemplo**
+
+Este query retorna £ 56,00
+
+```sql
+{%= formatCurrency(56L,"en_GB") %}
+```
+
 ## Obter host de url {#get-url-host}
 
 O `getUrlHost` é usada para recuperar o nome do host de um URL.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= getUrlHost(string) %}: string
@@ -277,7 +313,7 @@ Retorna &quot;www.myurl.com&quot;
 
 O `getUrlPath` é usada para recuperar o caminho após o nome de domínio de um URL.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= getUrlPath(string) %}: string
@@ -295,7 +331,7 @@ Retorna &quot;/contact.html&quot;
 
 O `getUrlProtocol` é usada para recuperar o protocolo de um URL.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= getUrlProtocol(string) %}: string
@@ -313,7 +349,7 @@ Retorna &quot;http&quot;
 
 O `indexOf` é usada para retornar a posição (no primeiro argumento) da primeira ocorrência do segundo parâmetro. Retorna -1 se não houver correspondência.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= indexOf(STRING_1, STRING_2) %}: integer
@@ -336,7 +372,7 @@ Retorna 6.
 
 O `isEmpty` é usada para determinar se uma string está vazia.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= isEmpty(string) %}
@@ -354,7 +390,7 @@ A função a seguir retornará &#39;true&#39; se o número de telefone celular d
 
 O `isNotEmpty` é usada para determinar se uma string não está vazia.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {= isNotEmpty(string) %}: boolean
@@ -372,7 +408,7 @@ A função a seguir retornará &#39;true&#39; se o número de telefone celular d
 
 O `lastIndexOf` é usada para retornar a posição (no primeiro argumento) da última ocorrência do segundo parâmetro. Retorna -1 se não houver correspondência.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {= lastIndexOf(STRING_1, STRING_2) %}: integer
@@ -395,7 +431,7 @@ Retorna 7.
 
 O `leftTrim` é usada para remover espaços em branco do início de uma string.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= leftTrim(string) %}
@@ -405,7 +441,7 @@ O `leftTrim` é usada para remover espaços em branco do início de uma string.
 
 O `length` é usada para obter o número de caracteres em uma string ou expressão.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= length(string) %}
@@ -423,7 +459,7 @@ A função a seguir retorna o comprimento do nome da cidade do perfil.
 
 O `like` é usada para determinar se uma string corresponde a um padrão especificado.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= like(STRING_1, STRING_2) %}
@@ -464,7 +500,7 @@ Essa função converte o nome do perfil em letras minúsculas.
 
 O `matches` é usada para determinar se uma string corresponde a uma expressão regular específica. Consulte [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obter mais informações sobre padrões correspondentes em expressões regulares.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= matches(STRING_1, STRING_2) %}
@@ -482,7 +518,7 @@ A consulta a seguir determina, sem distinção entre maiúsculas e minúsculas, 
 
 O `Mask` é usada para substituir uma parte de uma string por caracteres &quot;X&quot;.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= mask(string,integer,integer) %}
@@ -502,7 +538,7 @@ O query retorna `1XXXXXX89`.
 
 O `md5` é usada para calcular e retornar o hash md5 de uma string.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= md5(string) %}: string
@@ -520,7 +556,7 @@ Retorna &quot;5eb63bbbe01eed093cb22bb8f5acdc3&quot;
 
 O `notEqualTo` é usada para determinar se uma string não é igual à string especificada.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= notEqualTo(STRING_1, STRING_2) %}
@@ -543,7 +579,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 
 O `notEqualWithIgnoreCase` é usada para comparar duas strings que ignoram letras maiúsculas e minúsculas.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
@@ -566,7 +602,7 @@ A consulta a seguir determina se o nome da pessoa não é &quot;john&quot;, sem 
 
 O `Group` é usada para extrair informações específicas, com base na expressão regular fornecida.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= regexGroup(STRING, EXPRESSION, GROUP) %}
@@ -590,7 +626,7 @@ A consulta a seguir é usada para extrair o nome de domínio de um endereço de 
 
 O `replace` é usada para substituir uma determinada substring em uma string por outra substring.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= replace(STRING_1,STRING_2,STRING_3) %}:string
@@ -614,7 +650,7 @@ Retorna &quot;Hello Mark, aqui está seu boletim informativo mensal!&quot;
 
 O `replaceAll` é usada para substituir todas as subsequências de texto que correspondem ao &quot;target&quot; pela sequência literal de &quot;substituição&quot; especificada. A substituição prossegue do início da string para o final, por exemplo, a substituição de &quot;aa&quot; por &quot;b&quot; na string &quot;aaa&quot; resultará em &quot;ba&quot; em vez de &quot;ab&quot;.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= replaceAll(string,string,string) %}
@@ -624,7 +660,7 @@ O `replaceAll` é usada para substituir todas as subsequências de texto que cor
 
 O `rightTrim` é usada para remover espaços em branco do final de uma string.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= rightTrim(string) %}
@@ -634,7 +670,7 @@ O `rightTrim` é usada para remover espaços em branco do final de uma string.
 
 O `split` é usada para dividir uma string por um determinado caractere.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= split(string,string) %}
@@ -644,7 +680,7 @@ O `split` é usada para dividir uma string por um determinado caractere.
 
 O `startsWith` é usada para determinar se uma string começa com uma substring especificada.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= startsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -664,11 +700,27 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## Sequência de caracteres para data {#string-to-date}
+
+A função `stringToDate&#39; converte um valor de string em um valor de data e hora. São necessários dois argumentos: representação de string de uma representação de data e hora e string do formatador.
+
+**Sintaxe**
+
+```sql
+{= stringToDate("date-time value","formatter" %}
+```
+
+**Exemplo**
+
+```sql
+{= stringToDate("2023-01-10 23:13:26", "yyyy-MM-dd HH:mm:ss") %}
+```
+
 ## String to integer {#string-to-integer}
 
 O `string_to_integer` é usada para converter um valor de string em um valor inteiro.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {= string_to_integer(string) %}: int
@@ -678,7 +730,7 @@ O `string_to_integer` é usada para converter um valor de string em um valor int
 
 O `stringToNumber` é usada para converter uma string em número. Retorna a mesma cadeia de caracteres da saída para entrada inválida.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= stringToNumber(string) %}: double
@@ -687,7 +739,7 @@ O `stringToNumber` é usada para converter uma string em número. Retorna a mesm
 ## Sub string {#sub-string}
 
 O `Count string` é usada para retornar a substring da expressão da string entre o índice begin e o índice end.
-**Formato**
+**Sintaxe**
 
 ```sql
 {= substr(string, integer, integer) %}: string
@@ -715,7 +767,7 @@ Se a pessoa vive na rua alta de Washington, essa função retornará a Rua Alta 
 
 O `toBool` é usada para converter um valor de argumento em um valor booleano, dependendo de seu tipo.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {= toBool(string) %}: boolean
@@ -725,7 +777,7 @@ O `toBool` é usada para converter um valor de argumento em um valor booleano, d
 
 O `toDateTime` é usada para converter a string em data. Retorna a data da época como saída para entrada inválida.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= toDateTime(string, string) %}: date-time
@@ -733,15 +785,15 @@ O `toDateTime` é usada para converter a string em data. Retorna a data da époc
 
 ## Somente Data/Hora {#to-date-time-only}
 
-O `toDateTimeOnly` é usada para converter um valor de argumento em um valor somente de data e hora. Retorna a data da época como saída para entrada inválida.
+O `toDateTimeOnly` é usada para converter um valor de argumento em um valor somente de data e hora. Retorna a data da época como saída para entrada inválida. Essa função aceita tipos de campos string, date, long e int.
 
-**Formato**
+**Sintaxe**
 
 ```sql
-{%= toDateTimeOnly(string) %}: date-time
+{%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## Aparar{#trim}
+## Aparar {#trim}
 
 O **trim** remove todos os espaços em branco do início e do final de uma string.
 
@@ -769,11 +821,11 @@ Essa função converte o sobrenome do perfil em letras maiúsculas.
 {%= upperCase(profile.person.name.lastName) %}
 ```
 
-## decodificação de url {#url-decode}
+## Decodificação de URL {#url-decode}
 
 O `urlDecode` é usada para decodificar uma string codificada em url.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= urlDecode(string) %}: string
@@ -783,7 +835,7 @@ O `urlDecode` é usada para decodificar uma string codificada em url.
 
 O `Count only null` é usada para codificar uma string no url.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= urlEncode(string) %}: string

@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 7%
@@ -21,7 +21,7 @@ As funções aritméticas são usadas para executar cálculos básicos em valore
 
 O `+` (adição) é usada para encontrar a soma de duas expressões de argumento.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= double + double %}
@@ -39,7 +39,7 @@ A operação seguinte soma o preço de dois produtos diferentes.
 
 O `*` (multiplicação) é usada para encontrar o produto de duas expressões de argumento.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= double * double %}
@@ -57,7 +57,7 @@ A operação seguinte indica o produto do inventário e o preço de um produto p
 
 O `-` (subtração) é usada para encontrar a diferença de duas expressões de argumento.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= double - double %}
@@ -75,7 +75,7 @@ A operação seguinte indica a diferença de preço entre dois produtos diferent
 
 O `/` (divisão) é usada para encontrar o quociente de duas expressões de argumento.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= double / double %}
@@ -93,7 +93,7 @@ A operação a seguir encontra o quociente entre o total de produtos vendidos e 
 
 O `%` (modulo/rest) é usada para encontrar o restante após dividir as duas expressões de argumento.
 
-**Formato**
+**Sintaxe**
 
 ```sql
 {%= double % double %}

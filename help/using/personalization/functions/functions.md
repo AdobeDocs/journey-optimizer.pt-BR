@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1805'
 ht-degree: 3%
 
 ---
@@ -146,7 +146,10 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">Absoluto   </a></td><td>Essa função converte um número seu valor absoluto</td>
+        <td><a href="math.md#absolute">Absoluto   </a></td><td>Essa função formata qualquer número em sua representação sensível ao idioma.</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#format-number">Número do formato</a></td><td>Essa função formata qualquer número em sua representação sensível ao idioma.</td>
     </tr>
     <tr>
         <td><a href="math.md#random">Random</a></td><td>Essa função retorna um valor aleatório entre 0 e 1</td>
@@ -158,10 +161,16 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="math.md#round-up">Arredondar para cima</a></td><td>Esta função arredonda um número</td>
     </tr>
     <tr>
+    <td><a href="math.md#to-hex-string">Sequência de caracteres hexadecimal</a></td><td>converte qualquer número em sua string hexadecimal.</td>
+    </tr>
+    <tr>
         <td><a href="math.md#to-percentage">Porcentagem de destino</a></td><td>Essa função converte um número em porcentagem</td>
     </tr>
     <tr>
         <td><a href="math.md#to-precision">Para precisão</a></td><td>Essa função converte um número para a precisão necessária</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#to-string">Para string</a></td><td>Essa função converte qualquer número em sua representação de string. </td>
     </tr>
 </table>
 
@@ -181,6 +190,9 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
 <table>
     <tr>
         <td><a href="string.md#camelCase">Camel Case</a></td><td>Essa função é usada para capitalizar a primeira letra de cada palavra de uma string</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#char-code-at">Código de barras em</a></td><td>Essa função retorna o valor ASCII de um caractere, como a função charCodeAt no JavaScript</td>
     </tr>
     <tr>
         <td><a href="string.md#concat">Concat</a></td><td>Essa função é usada para combinar duas strings em uma</td>
@@ -212,6 +224,9 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
     </tr>
     <tr>
         <td><a href="string.md#extractEmailDomain">Extrair domínio de email</a></td><td>Essa função é usada para extrair o domínio de um endereço de email</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#format-currency">Formatar moeda</a></td><td>Essa função converte qualquer número em sua representação de moeda sensível ao idioma correspondente, dependendo da localidade passada como uma string no segundo argumento</td>
     </tr>
     <tr>
         <td><a href="string.md#get-url-host">Obter host de url</a></td><td>Essa função é usada para obter o host do url.</td>
@@ -280,7 +295,7 @@ Clique no botão `...` para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#startsWith">Começa com</a></td><td>Essa função é usada para determinar se uma string começa com uma substring especificada</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">Sequência de caracteres para data</a></td><td>Essa função é usada para converter a string em data. Retorna a data da época como saída para entrada inválida.</td>
+        <td><a href="string.md#string-to-date">Sequência de caracteres para data</a></td><td>Essa função converte um valor de string em um valor de data e hora</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">String to integer</a></td><td>Essa função Converte um valor de string em um valor inteiro.</td>
