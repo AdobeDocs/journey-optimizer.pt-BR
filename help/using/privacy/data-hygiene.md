@@ -6,9 +6,9 @@ description: Saiba como executar operações de higiene de dados
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 645db980155993155a10d27f4ff59967b000442f
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '135'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->Atualmente, os recursos de Higiene de Dados estão disponíveis apenas para organizações que compraram a oferta complementar do Healthcare Shield. Ele também está disponível para o Privacy and Security Shield, além do Healthcare Shield
+>No momento, os recursos de Higiene de dados estão disponíveis apenas para organizações que compraram a variável **Escudo da Saúde** e **Privacy e Security Shield** ofertas complementares.
 
 
 À medida que os dados são assimilados continuamente no Adobe Experience Platform, é fundamental garantir que eles sejam usados conforme planejado, atualizados quando necessário e excluídos de acordo com as políticas organizacionais.

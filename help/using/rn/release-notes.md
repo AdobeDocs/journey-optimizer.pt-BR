@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 645db980155993155a10d27f4ff59967b000442f
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 20%
+source-wordcount: '461'
+ht-degree: 19%
 
 ---
 
@@ -38,8 +38,8 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <td>
 <p>O Adobe Experience Platform fornece um conjunto de recursos de higiene de dados que permitem gerenciar seus dados armazenados por meio de exclusões programáticas de registros e conjuntos de dados do consumidor. Esse recurso agora está disponível para o Adobe Journey Optimizer. </p>
 <p>Você pode gerenciar seus armazenamentos de dados para garantir que as informações sejam usadas conforme esperado, sejam atualizadas quando a correção de necessidades de dados estiver incorreta e excluídas quando as políticas organizacionais o considerarem necessário.</p>
-<p><strong>Cuidado</strong> - Atualmente, os recursos de Higiene de Dados estão disponíveis apenas para organizações que compraram a oferta complementar do Healthcare Shield.</p>
-<p>Para obter mais informações, consulte a <a href="../privacy/data-hygiene.md">documentação detalhada</a>.
+<p><strong>Cuidado</strong> - Os recursos de Higiene de dados estão disponíveis atualmente apenas para organizações que compraram a variável <strong>Escudo da Saúde</strong> e <strong>Privacy e Security Shield</strong> ofertas complementares.</p><p>Para obter mais informações, consulte a <a href="../privacy/data-hygiene.md">documentação detalhada</a>.
+
 </td>
 </tr>
 </tbody>
