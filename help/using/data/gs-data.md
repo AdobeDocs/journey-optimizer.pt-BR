@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: dados, gerenciamento, plataforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
+source-git-commit: ef34cb0207d3011eca6d76ad6568f3edc00e13a3
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,11 @@ Em geral, a flexibilidade que você deseja de seus dados é:
 <tr style="border: 0;">
   <td>
     <div><img alt="política" src="assets/do-not-localize/policy.png" /> 
-    <br>Baseada excluída em um cronograma acordado ou em sua política - A exclusão de dados é um aspecto essencial da proteção de dados e é uma etapa fundamental em todos os processos de governança de dados. [!DNL Adobe Journey Optimizer] pode produzir mais dados do que o necessário. Além disso, você deseja tomar o máximo cuidado com o que acontece após a duração necessária para um conjunto de dados, seja por causa do utilitário ou da regulamentação. O controle necessário é excluir dados em qualquer momento. <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">Saiba mais sobre higiene de dados na documentação do Adobe Experience Platform</a></div>
+    <br>Baseada excluída em um cronograma acordado ou em sua política - A exclusão de dados é um aspecto essencial da proteção de dados e é uma etapa fundamental em todos os processos de governança de dados. [!DNL Adobe Journey Optimizer] pode produzir mais dados do que o necessário. Além disso, você deseja tomar o máximo cuidado com o que acontece após a duração necessária para um conjunto de dados, seja por causa do utilitário ou da regulamentação. O controle necessário é excluir dados em qualquer momento. 
+    </div>
+      <div>
+     <a href="../privacy/data-hygiene.md">Saiba mais</a></div>
+    </div>
   </td>
 </tr>
 </table>
