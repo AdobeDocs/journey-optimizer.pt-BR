@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 94%
     <p>
     <em></em>
     <p>
-    <p>GERENCIAMENTO DA JORNADA</p>
+    <p>GERENCIAMENTO DE JORNADA</p>
     <li>
       <a href="using/campaigns/get-started-with-campaigns.md">Campanhas</a>
     </li>
@@ -185,7 +185,7 @@ ht-degree: 94%
 </table>
 
 
-![Informativo](using/assets/do-not-localize/nl-icon.png) Cadastre-se para a [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje!
+![Informativo](using/assets/do-not-localize/nl-icon.png) Assine o [Informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje.
 
 Receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, diretamente em sua caixa de entrada a cada trimestre.
 
