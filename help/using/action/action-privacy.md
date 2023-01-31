@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Governança de dados
-description: Definir uma política de governança vinculada a um rótulo e uma ação de marketing
+description: Defina uma política de governança vinculada a um rótulo e uma ação de marketing
 feature: Privacy
 topic: Administration
 role: Admin
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: dados, governança, DULE, rótulos, rotulagem, plataforma, política
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
