@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Trabalhar com políticas de consentimento
-description: Saiba como trabalhar com as políticas de consentimento do Adobe Experience Platform
+description: Saiba como trabalhar com as políticas de consentimento da Adobe Experience Platform
 feature: Privacy
 topic: Administration
 role: Admin,Developer
 level: Experienced
-keywords: políticas, governança, plataforma, blindagem de saúde, consentimento
+keywords: políticas, governança, plataforma, healthcare shield, consentimento
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 35%
 
 A Adobe Experience Platform permite adotar e aplicar facilmente políticas de marketing para respeitar as preferências de consentimento dos clientes. As políticas de consentimento são definidas na Adobe Experience Platform. Consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=pt-BR#consent-policy).
 
-No Journey Optimizer, você pode aplicar essas políticas de consentimento às ações personalizadas. Por exemplo, você pode definir políticas de consentimento para excluir clientes que não consentiram em receber email, push ou comunicação por SMS.
+No Journey Optimizer, você pode aplicar essas políticas de consentimento às ações personalizadas. Por exemplo, você pode definir políticas de consentimento para excluir clientes que não consentiram em receber comunicações por email, push ou SMS.
 
 >[!NOTE]
 >
@@ -28,25 +28,25 @@ No Journey Optimizer, você pode aplicar essas políticas de consentimento às a
 
 No Journey Optimizer, o consentimento é definido em vários níveis:
 
-* when **configuração de uma ação personalizada**, é possível definir um canal e uma ação de marketing. Veja isso [seção](../action/consent.md#consent-custom-action).
-* ao adicionar o **ação personalizada em uma jornada**, é possível definir uma ação de marketing adicional. Veja isso [seção](../action/consent.md#consent-journey).
+* ao **configurar uma ação personalizada**, é possível definir um canal e uma ação de marketing. Consulte esta [seção](../action/consent.md#consent-custom-action).
+* ao adicionar a **ação personalizada em uma jornada**, é possível definir uma ação de marketing adicional. Consulte esta [seção](../action/consent.md#consent-journey).
 
 ## Observações importantes {#important-notes}
 
-No Journey Optimizer, o consentimento pode ser aproveitado em ações personalizadas. Se quiser usá-lo com os recursos de mensagem integrada, é necessário usar uma atividade de condição para filtrar os clientes na jornada.
+No Journey Optimizer, o consentimento pode ser utilizado em ações personalizadas. Se quiser usá-lo com os recursos de mensagem integrados, é necessário usar uma atividade de condição para filtrar os clientes na jornada.
 
-Com o gerenciamento de consentimento, duas atividades do jornada são analisadas:
+Com o gerenciamento de consentimento, duas atividades de jornada são analisadas:
 
-* Ler segmento: o segmento recuperado é considerado.
-* Ação personalizada: o gerenciamento de consentimento leva em conta os atributos usados ([parâmetros de ação](../action/about-custom-action-configuration.md#define-the-message-parameters)), bem como as ações de marketing definidas (ação de marketing necessária e ação de marketing adicional).
+* Ler segmento: o segmento recuperado é levado em conta.
+* Ação personalizada: o gerenciamento de consentimento leva em conta os atributos usados ([parâmetros de ação](../action/about-custom-action-configuration.md#define-the-message-parameters)) e as ações de marketing definidas (a ação de marketing necessária e a adicional).
 * Os atributos que fazem parte de um grupo de campos usando o esquema de união predefinido não são compatíveis. Esses atributos ficarão ocultos na interface. É necessário criar outro grupo de campos usando um schema diferente.
-* As políticas de consentimento só se aplicam quando uma ação de marketing (necessária ou adicional) é definida no nível de ação personalizada.
+* As políticas de consentimento só se aplicam quando uma ação de marketing (necessária ou adicional) é definida no nível da ação personalizada.
 
-Todas as outras atividades usadas em uma jornada não são consideradas. Se você iniciar a jornada com uma qualificação de Segmento, o segmento não será considerado.
+Todas as outras atividades usadas em uma jornada não são consideradas. Se você iniciar a jornada com uma Qualificação de segmento, o segmento não será considerado.
 
-Em uma jornada, se um perfil for excluído por uma política de consentimento em uma ação personalizada, a mensagem não será enviada para ele, mas ele continuará a jornada. O perfil não atinge o tempo limite e o caminho de erro ao usar uma condição.
+Em uma jornada, se um perfil for excluído por causa de uma política de consentimento em uma ação personalizada, a mensagem não será enviada para ele, mas ele permanecerá na jornada. O perfil não irá para o caminho  de erro e de tempo limite ao usar uma condição.
 
-Antes de atualizar as políticas em uma ação personalizada posicionada em uma jornada, verifique se a jornada não tem erro.
+Antes de atualizar as políticas em uma ação personalizada inserida em uma jornada, verifique se a jornada não tem nenhum erro.
 
 <!--
 There are two types of latency regarding the use of consent policies:
@@ -60,7 +60,7 @@ There are two types of latency regarding the use of consent policies:
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_admin"
 >title="Definir uma ação de marketing necessária"
->abstract="A Ação de marketing necessária permite definir a ação de marketing relacionada à sua ação personalizada. Por exemplo, se você usar essa ação personalizada para enviar emails, poderá selecionar Direcionamento de email. Quando usadas em uma jornada, todas as políticas de consentimento associadas a essa ação de marketing serão recuperadas e aproveitadas. Isso não pode ser modificado na tela."
+>abstract="A Ação de marketing necessária permite definir a ação de marketing relacionada à sua ação personalizada. Por exemplo, se você usar essa ação personalizada para enviar emails, será possível selecionar a opção Direcionamento de email. Quando usadas em uma jornada, todas as políticas de consentimento associadas a essa ação de marketing serão recuperadas e aproveitadas. Isso não pode ser modificado na tela."
 
 Ao configurar uma ação personalizada, dois campos podem ser usados para o gerenciamento de consentimento.
 
@@ -68,11 +68,11 @@ O campo **Canal** permite selecionar o canal relacionado a esta ação personali
 
 ![](assets/consent1.png)
 
-A **Ação de marketing necessária** permite definir a ação de marketing relacionada à sua ação personalizada. Por exemplo, se você usar essa ação personalizada para enviar emails, poderá selecionar **Direcionamento de email**. Quando usadas em uma jornada, todas as políticas de consentimento associadas a essa ação de marketing serão recuperadas e aproveitadas. Uma ação de marketing padrão é selecionada, mas você pode clicar na seta para baixo para selecionar qualquer ação de marketing disponível na lista.
+A **Ação de marketing necessária** permite definir a ação de marketing relacionada à sua ação personalizada. Por exemplo, se você usar essa ação personalizada para enviar emails, será possível selecionar a opção **Direcionamento de email**. Quando usadas em uma jornada, todas as políticas de consentimento associadas a essa ação de marketing serão recuperadas e aproveitadas. Uma ação de marketing padrão estará selecionada, mas você pode clicar na seta para baixo para selecionar qualquer ação de marketing disponível na lista.
 
 ![](assets/consent2.png)
 
-Para certos tipos de comunicações importantes, por exemplo, uma mensagem transacional enviada para redefinir a senha do cliente, talvez você não queira aplicar uma política de consentimento. Em seguida, você selecionará **Nenhum** no **Ação de marketing necessária** campo.
+Para certos tipos de comunicações importantes (por exemplo, uma mensagem transacional enviada para redefinir a senha de um cliente), talvez você não queira aplicar uma política de consentimento. Então você pode selecionar **Nenhum** no campo **Ação de marketing necessária**.
 
 As outras etapas para configurar uma ação personalizada estão detalhadas [nesta seção](../action/about-custom-action-configuration.md#consent-management).
 
@@ -81,19 +81,19 @@ As outras etapas para configurar uma ação personalizada estão detalhadas [nes
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_canvas"
 >title="Ação de marketing necessária"
->abstract="Uma ação de marketing necessária é definida ao criar uma ação personalizada. Essa ação de marketing necessária não pode ser removida da ação ou modificada."
+>abstract="Uma ação de marketing necessária é definida ao criar uma ação personalizada. Essa ação de marketing necessária não pode ser removida da ação nem ser modificada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_consent_additional_marketing_action_canvas"
 >title="Ação de marketing adicional"
->abstract="Adicione outra ação de marketing além da ação necessária. As políticas de consentimento relacionadas às duas ações de marketing serão aplicadas."
+>abstract="Adicione outra ação de marketing além da necessária. As políticas de consentimento relacionadas a ambas as ações de marketing serão aplicadas. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_consent_refresh_policies_canvas"
->title="Visualizar políticas de consentimento que serão aplicadas no tempo de execução"
->abstract="As ações de marketing trazem políticas de consentimento que combinam parâmetros de ação e valores de consentimento de perfil individuais para filtrar usuários. Obtenha a definição mais recente dessas políticas clicando no botão para atualizar."
+>title="Visualize as políticas de consentimento que serão aplicadas no tempo de execução"
+>abstract="As ações de marketing trazem políticas de consentimento que combinam os parâmetros de ação e valores de consentimento dos perfis individuais para filtrar os usuários. Obtenha a definição mais recente dessas políticas clicando no botão para atualizar."
 
-Ao adicionar a ação personalizada em uma jornada, várias opções permitem gerenciar o consentimento. Clique em **Mostrar campos somente leitura** para exibir todos os parâmetros.
+Ao adicionar a ação personalizada em uma jornada, há várias opções que permitem gerenciar o consentimento. Clique em **Mostrar campos somente leitura** para exibir todos os parâmetros.
 
 O **Canal** e a **Ação de marketing necessária**, definidos ao configurar a ação personalizada, são exibidos na parte superior da tela. Não é possível modificar esses campos.
 
@@ -103,7 +103,7 @@ Você pode configurar uma **Ação de marketing adicional** para definir o tipo 
 
 ![](assets/consent3.png)
 
-Clique no botão **Atualizar políticas** na parte inferior da tela, para atualizar e verificar a lista de políticas consideradas para esta ação personalizada. Isso é somente para fins de informação, enquanto cria uma jornada. Com as jornadas ativas, as políticas de consentimento são recuperadas e atualizadas automaticamente a cada 6 horas.
+Clique no botão **Atualizar políticas** na parte inferior da tela para atualizar e verificar a lista de políticas consideradas para esta ação personalizada. Isso é somente para fins informativos durante a criação de uma jornada. Em jornadas ativas, as políticas de consentimento são recuperadas e atualizadas automaticamente a cada 6 horas.
 
 ![](assets/consent5.png)
 
