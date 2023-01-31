@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 645db980155993155a10d27f4ff59967b000442f
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '509'
 ht-degree: 19%
 
 ---
@@ -45,22 +45,25 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Email content templates</strong><br/></th>
+<th><strong>Modelos de conteúdo de email</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create standalone content templates that can be leveraged across journeys and campaigns for quick reuse.</p> 
-<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
+<p>Agora você pode criar modelos de conteúdo independentes que podem ser aproveitados em jornadas e campanhas para reutilização rápida.</p> 
+</p>
+<!--img src="assets/do-not-localize/"/-->
+<p>Saiba como criar, editar e usar modelos de conteúdo em <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">este vídeo</a>.
+<p>Para obter mais informações, consulte a <a href="../email/content-templates.md">documentação detalhada</a>.
+</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 ### Melhorias {#jan-2023-improvements}
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: email, design, estoque, ativos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 18%
@@ -45,7 +45,6 @@ Depois de [adição de um email](create-email.md) para uma jornada ou campanha, 
       >[!NOTE]
       >
       >Em uma campanha, você também pode selecionar a variável **[!UICONTROL Editor de códigos]** do botão **[!UICONTROL Editar conteúdo]** tela. [Saiba mais](create-email.md#define-email-content)
-
 
    * **Importar conteúdo HTML existente** de um arquivo ou uma pasta .zip. Saiba como importar conteúdo de email no [esta seção](existing-content.md).
 
