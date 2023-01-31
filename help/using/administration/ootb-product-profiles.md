@@ -9,38 +9,14 @@ role: Admin, User
 level: Intermediate
 keywords: permissões, criação, mensagens
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 9%
+source-wordcount: '1026'
+ht-degree: 10%
 
 ---
 
 # Perfis de produto incorporados {#ootb-product-profiles}
-
-
-## Sobre permissões relacionadas a mensagens{#message-permissions}
-
-O Adobe Journey Optimizer lançou novos recursos de criação em linha que permitem criar e criar suas mensagens diretamente de uma jornada ou campanha.
-
-Esse recurso afetará as permissões da seguinte maneira:
-
-| Nome da permissão | Será incluído em |
-|:-:|:-:|
-| **[!DNL View Messages]** | **[!DNL View Journeys]** |
-| **[!DNL View Message reports]** | **[!DNL View Journeys Report]** |
-| **[!DNL Manage Messages]** | **[!DNL Manage Journey]** |
-| **[!DNL Publish Messages]** | **[!DNL Publish Journeys]** |
-| **[!DNL Manage Messages Preview and Test]** | **[!DNL Manage Journeys]** |
-
-**Após 25 de julho**, permissões relacionadas a **Mensagens** ainda estão disponíveis, pois as mensagens ainda podem ser acessadas para habilitar a transição e você ainda pode salvá-las como template.
-
-**Em 6 de setembro**, permissões relacionadas a **Mensagens** serão removidas e as mensagens não estarão mais acessíveis.
-
->[!WARNING]
->
->Se você tiver usuários atribuídos ao **[!DNL Message Manager]** somente perfil de produto, sem o **[!DNL Journey manager]** perfil de produto, é necessário atribuir um novo perfil de produto para que eles possam continuar editando o conteúdo.
-
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
@@ -94,6 +70,7 @@ Este perfil de produto conta com as seguintes permissões:
 |Administração|<ul><li>**[!DNL Manage subdomains delegation]**: ler, criar, editar e excluir delegação de subdomínio.</li><li>**[!DNL Manage IP pools]**: ler, criar, editar e excluir o pool ip.</li><li>**[!DNL Manage PTR records]**: ler e editar registros PTR.</li><li>**[!DNL View PTR records]**: acesso somente leitura a registros PTR.</li><li>**[!DNL Manage channel surfaces]**: ler, criar, editar e excluir marcas de conteúdo.</li><li>**[!DNL Manage Landing page settings]**: crie, edite e exclua subdomínios de página de aterrissagem e predefinições de página de aterrissagem.</li><li> **[!DNL Manage messages general settings]**: ler, criar, editar e excluir configurações gerais de mensagens.</li><li>**[!DNL Manage SMS settings]**: crie, edite e exclua as credenciais da API e as superfícies do canal SMS necessárias para habilitar o canal SMS.</li><li>**[!DNL Manage suppression rules]**: acesse ler, criar, editar e excluir regras de supressão.</li><li>**[!DNL View suppression list]**: ler e exportar lista de supressão local.</li><li>**[!DNL Manage alerts]**: ativar/desativar alertas para jornadas e direitos.</li></ul>|
 |Gerenciamento de decisão|<ul><li>**[!DNL Manage decisions]**: ler, criar, editar e excluir decisões.</li><li>**[!DNL Manage ranking strategies]**: ler, criar, editar e excluir estratégias de classificação.</li></ul>|
 |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: conceda acesso a sandboxes.</li><li>**[!DNL Manage segments]**: ler, criar, editar e excluir segmentos.</li><li>**[!DNL Manage profiles]**: ler, criar, editar e excluir perfis.</li><li>**[!DNL Read datasets]**: acesso somente leitura a conjuntos de dados.</li><li>**[!DNL Read schemas]**: acesso somente leitura a schemas.</li><li>**[!DNL Read Identity namespace]**: acesso somente leitura ao namespace de identidade.</li><li>**[!DNL Manage merge policies]**: ler, criar, editar e excluir políticas de mesclagem.</li></ul>| |Biblioteca da Journey Optimizer|<ul><li>**[!DNL Manage Library Items]**: adicionar e excluir expressões salvas na [!DNL Journey Optimizer] Biblioteca.</li></ul>|
+|Governança de dados|<ul><li>**[!DNL Manage usage label]**: ler, criar e excluir rótulos de uso.</li><li>**[!DNL Manage data usage policies]**: ler, criar, editar e excluir políticas de uso de dados.</li><li>**[!DNL View data usage policies]**: acesso somente leitura às políticas de uso de dados.</li><li>**[!DNL View user activity log]**: ler e exportar logs de auditoria.</li></ul>|
 
 ## [!DNL Journey Approver] {#journey-approver}
 

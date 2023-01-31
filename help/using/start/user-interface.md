@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 94%
+source-wordcount: '1220'
+ht-degree: 97%
 
 ---
 
@@ -110,158 +110,6 @@ Clique no botão **[!UICONTROL Começar]** para iniciar o caso de uso.
 
 Você pode acessar casos de uso executados a partir do botão **[!UICONTROL Exibir biblioteca de casos de uso]**.
 
-## Acessibilidade{#accessibility}
-
-Os recursos de acessibilidade no [!DNL Adobe Journey Optimizer] são herdados da Adobe Experience Platform:
-
-* Acessibilidade do teclado
-* Contraste de cores
-* Validação de campos obrigatórios
-
-[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=pt-BR){target="_blank"} na documentação do Adobe Experience Platform.
-
-Você pode usar esses atalhos de teclado comuns no [!DNL Journey Optimizer]:
-
-| Ação | Atalho |
-| --- | --- |
-| Mover entre elementos da interface do usuário, seções e grupos de menu | Guia |
-| Retroceder entre elementos da interface do usuário, seções e grupos de menu | Shift + Tab |
-| Mover dentro de seções para definir o foco de elementos individuais | Seta |
-| Selecionar ou limpar um elemento em foco | Enter ou Barra de espaço |
-| Cancelar uma seleção, recolher um painel ou fechar uma caixa de diálogo | Esc |
-
-[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=pt-BR){target="_blank"} na documentação do Adobe Experience Platform.
-
-Você pode usar esses atalhos em partes específicas do Journey Optimizer:
-
-<table>
-  <thead>
-    <tr>
-      <th>Elemento da interface</th>
-      <th>Ação</th>
-      <th>Atalho</th>
-    </tr>
-  </thead>
-  <tr>
-    <td>Lista de jornadas, ações, fontes de dados ou eventos</td>
-    <td>Criar uma jornada, uma ação, uma fonte de dados ou um evento</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td rowspan="3">Tela da jornada no status de rascunho</td>
-    <td>Adicionar uma atividade da paleta esquerda na primeira posição disponível, de cima para baixo</td>
-    <td>Clique duas vezes na atividade</td>
-  </tr>
-  <tr>
-    <td>Selecione todas as atividades</td>
-    <td>CTRL + A (Windows)<br/>CMD + A (Mac)</td>
-  </tr>
-  <tr>
-    <td>Excluir as atividades selecionadas</td>
-    <td>Delete ou Backspace, em seguida, tecle Enter para confirmar a exclusão</td>
-  </tr>
-  <tr>
-    <td>Aumentar e diminuir o zoom (foco na tela ou em qualquer um de seus elementos filho)</td>
-    <td>CTRL +/- (Windows) ou CMD +/- (Mac)</td>
-  </tr>  
-  <tr>
-    <td>Navegar entre cada atividade e caminho (foco na tela) ou entre botões da barra de ferramentas (foco na barra de ferramentas)</td>
-    <td>Teclas de SETA</td>
-  </tr>   
-  <tr>
-    <td>Mova o foco para o próximo elemento acionável na tela, sendo a barra de ferramentas o primeiro</td>
-    <td>Guia</td>
-  </tr>  
-  <tr>
-    <td>Abra o painel de configuração correto (concentre-se em uma atividade)</td>
-    <td>ENTER</td>
-  </tr>   
-  <tr>
-    <td>Mover uma atividade na tela (foco em uma atividade)</td>
-    <td>Shift + teclas de SETA</td>
-  </tr>  
-  <tr>
-  <td rowspan="3">
-
-Painel de configuração destes elementos:
-
-<ul>
-  <li>Atividade em uma jornada</li>
-  <li>Evento</li>
-  <li>Fonte de dados</li>
-  <li>Ação</li>
-</ul>
-
-</td>
-    <td>Mover para o próximo campo a ser configurado</td>
-    <td>Guia</td>
-  </tr>
-  <tr>
-    <td>Salve as alterações e feche o painel de configuração</td>
-    <td>Enter</td>
-  </tr>
-  <tr>
-    <td>Descartar alterações e fechar o painel de configuração</td>
-    <td>Esc</td>
-  </tr>
-  <tr>
-    <td rowspan="4">Jornada no modo de teste</td>
-    <td>Ative ou desative o modo de teste</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>Acionar um evento em uma jornada baseada em eventos</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>
-
-Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UICONTROL Um único perfil por vez]** está ativada
-
-</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>Exibir os logs de teste</td>
-    <td>L</td>
-  </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
-  <tr>
-    <td>Page with a search bar</td>
-    <td>Select the search bar</td>
-    <td>Ctrl/Command + F</td>
-  </tr>
--->
-  <tr>
-    <td>Campo de texto</td>
-    <td>Selecionar todo o texto no campo selecionado</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Janela pop-up</td>
-    <td>Salvar alterações ou confirmar a ação</td>
-    <td>Enter</td>
-  </tr>
-  <tr>
-    <td>Fechar a janela</td>
-    <td>Esc</td>
-  </tr>
-  <tr>
-    <td>Editor de expressão simples</td>
-    <td>Selecionar e adicionar um campo</td>
-    <td>Clique duas vezes em um campo</td>
-  </tr>
-  <tr>
-    <td>Navegar pelos campos XDM</td>
-    <td>Selecionar todos os campos de um nó</td>
-    <td>Selecione o nó principal</td>
-  </tr>
-  <tr>
-    <td>Visualização do conteúdo</td>
-    <td>Selecionar o conteúdo</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
-  </tr>
-</table>
 
 ## Obter ajuda e suporte {#find-help}
 
@@ -312,9 +160,9 @@ Pressione **Enter** para acessar todos os resultados e filtrar por objeto comerc
 
 ## Listas de filtros{#filter-lists}
 
-Na maioria das listas, uma barra de pesquisa permite procurar um item específico e selecionar critérios de filtragem.
+Na maioria das listas, use a barra de pesquisa para localizar itens específicos e definir critérios de filtragem.
 
-Filtros podem ser acessados com um clique no ícone de filtro na parte superior esquerda da lista. O menu de filtros permite filtrar os elementos exibidos de acordo com diferentes critérios. Você pode optar por exibir apenas os elementos de determinado tipo ou status, os que você criou ou os que foram modificados nos últimos 30 dias. As opções diferem dependendo do contexto.
+Os filtros podem ser acessados clicando no ícone de filtro na parte superior esquerda de uma lista. O menu de filtros permite filtrar os elementos exibidos de acordo com diferentes critérios. Você pode optar por exibir apenas os elementos de determinado tipo ou status, os que você criou ou os que foram modificados nos últimos 30 dias. As opções diferem dependendo do contexto.
 
 Na lista de jornadas, você pode filtrar jornadas de acordo com o status, tipo e versão por meio do menu **[!UICONTROL Filtros de status e versão]**. O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação do segmento]**, **[!UICONTROL Segmento de leitura]**, **[!UICONTROL Evento comercial]** ou **[!UICONTROL Disparo]**. Você pode optar por exibir somente jornadas que usam um evento, grupo de campos ou ação específica a partir dos **[!UICONTROL Filtros de atividade]** e **[!UICONTROL Filtros de dados]**. Os **[!UICONTROL Filtros de publicação]** permitem selecionar uma data de publicação ou um usuário. Por exemplo, você pode optar por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. [Saiba mais](../building-journeys/using-the-journey-designer.md).
 

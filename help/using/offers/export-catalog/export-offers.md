@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 3%
@@ -29,24 +29,30 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## Identificador {#identifier}
++++ Identificador
 
 **Campo:** _id
 **Título:** Identificador
 **Descrição:** Um identificador exclusivo para o registro.
 **Tipo:** sequência de caracteres
 
-## _experiência {#experience}
++++
+
++++ _experiência {#experience}
 
 **Campo:** _experiência
 **Tipo:** objeto
 
-### _experience > decisão
++++
+
++++ _experience > decisão
 
 **Campo:** decisão
 **Tipo:** objeto
 
-#### _experience > decisioning > calendarConstraints
++++
+
++++ _experience > decisioning > calendarConstraints
 
 **Campo:** calendarConstraints
 **Título:** Detalhes da Restrição de Calendário
@@ -67,21 +73,27 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
    **Descrição:** A data de início de uma validade de opções de decisão. As opções que não atingiram a data de início ainda não podem ser propostas no processo de decisão.
    **Tipo:** sequência de caracteres
 
-#### _experience > decisioning > características
++++
+
++++ _experience > decisioning > características
 
 **Campo:** características
 **Título:** Características da opção de decisão
 **Descrição:** Propriedades ou atributos adicionais pertencentes a esta opção de decisão específica. Instâncias diferentes podem ter características diferentes (chaves no mapa). As características são pares de valores de nome usados para distinguir uma opção de decisão de outras. As características são usadas como valores no conteúdo que representa essa opção de decisão e como recursos para analisar e otimizar o desempenho de uma opção. Quando cada instância tem o mesmo atributo ou propriedade, esse aspecto deve ser modelado como um schema de extensão que deriva dos detalhes da opção de decisão.
 **Tipo:** objeto
 
-#### _experience > decisioning > content
++++
+
++++ _experience > decisioning > content
 
 **Campo:** conteúdo
 **Título:** Detalhes do conteúdo
 **Descrição:** Itens de conteúdo para renderizar o item de decisão em contextos diferentes. Uma única opção de decisão pode ter várias variantes de conteúdo. Conteúdo são informações direcionadas a um público-alvo para consumo em uma experiência (digital). O conteúdo é entregue por canais em uma disposição específica.
 **Tipo:** array
 
-**_experience > decisão > conteúdo > componentes**
++++
+
+++_experience > decisão > conteúdo > componentes
 
 **Campo:** componentes
 **Descrição:** Os componentes do conteúdo que representam a opção de decisão, incluindo todas as variantes de idioma. Componentes específicos são encontrados por &#39;dx:format&#39;, &#39;dc:subject&#39; e &#39;dc:language&#39; ou uma combinação deles. Esses metadados são usados para localizar ou representar o conteúdo associado a uma oferta e integrá-lo de acordo com o contrato de colocação.
@@ -168,14 +180,16 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
    **Tipo:** sequência de caracteres
    **Exemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_experience > decisioning > content > Placement**
++++_experience > decisão > conteúdo > Disposição
 
 **Campo:** placement
 **Título:** Posicionamento
 **Descrição:** Posicionamento para estar em conformidade. O valor é o URI (@id) da disposição da oferta referenciada. Consulte esquema https://ns.adobe.com/experience/decisioning/placement.
 **Tipo:** sequência de caracteres
 
-#### _experience > decisioning > Status do ciclo de vida
++++
+
++++ _experience > decisioning > Status do ciclo de vida
 
 **Campo:** lifecycleStatus
 **Título:** Status do ciclo de vida
@@ -183,35 +197,45 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 **Tipo:** string
 **Valores possíveis:** &quot;Rascunho&quot; (padrão), &quot;Aprovado&quot;, &quot;Em tempo real&quot;, &quot;Concluído&quot;, &quot;Arquivado&quot;
 
-#### _experience > decisioning > Nome da opção de decisão
++++
+
++++ _experience > decisioning > Nome da opção de decisão
 
 **Campo:** name
 **Título:** Nome da opção de decisão
 **Descrição:** Nome da opção que é exibida em várias interfaces do usuário.
 **Tipo:** sequência de caracteres
 
-#### _experience > decisioning > profileConstraints
++++
+
++++ _experience > decisioning > profileConstraints
 
 **Campo:** profileConstraints
 **Título:** Detalhes da restrição de perfil
 **Descrição:** As restrições de perfil decidem se uma opção está qualificada para essa identidade de perfil, neste momento, neste contexto. Se a restrição de perfil não precisar considerar valores de cada opção, ou seja, se for invariável das opções da seleção de opção, a restrição de perfil que resulta em &quot;falso&quot; cancelará toda a seleção de opção. Por outro lado, uma regra de restrição de perfil que utiliza uma opção como parâmetro é avaliada para cada opção de qualificação da seleção de opção.
 **Tipo:** objeto
 
-**_experience > decisioning > profileConstraints > Description**
++++
+
+++_experience > decisioning > profileConstraints > Descrição
 
 **Campo:** descrição
 **Título:** Descrição
 **Descrição:** Descrição de restrição de perfil. É usado para transmitir intenções legíveis humanas sobre como ou por que essa restrição de perfil foi construída e/ou qual opção será incluída ou excluída por ela.
 **Tipo:** sequência de caracteres
 
-**_experience > decisioning > profileConstraints > Regra de elegibilidade**
++++
+
+++_experience > decisioning > profileConstraints > Regra de elegibilidade
 
 **Campo:** ibilityRule
 **Título:** Regra de elegibilidade
 **Descrição:** Uma referência a uma regra de decisão que avalia como true ou false para um determinado perfil e/ou outros objetos XDM contextuais específicos. A regra é usada para decidir se a opção se qualifica para um determinado perfil. O valor é o URI (@id) da regra de decisão referenciada. Consulte esquema https://ns.adobe.com/experience/decisioning/rule.
 **Tipo:** sequência de caracteres
 
-**_experience > decisioning > profileConstraints > Tipo de restrição de perfil**
++++
+
++++_experience > decisioning > profileConstraints > Tipo de restrição de perfil
 
 **Campo:** profileConstraintType
 **Título:** Tipo de restrição do perfil
@@ -224,7 +248,9 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 * &quot;allSegments&quot;: &quot;A restrição de perfil é expressa como um ou mais segmentos e o perfil deve ser um membro de todos eles antes que a ação restrita seja permitida.&quot;
 * &quot;rules&quot;: &quot;A restrição de perfil é expressa como um número de regras diferentes, por exemplo, qualificação, aplicabilidade, adequação, que devem ser avaliadas como true antes que a ação restrita seja permitida.&quot;
 
-**_experience > decisioning > profileConstraints > Identificadores de segmento**
++++
+
++++_experience > decisão > profileConstraints > Identificadores de segmento
 
 **Campo:** segmentIdentities
 **Título:** Identificadores de segmento
@@ -260,14 +286,18 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
    **Descrição:** Quando presente, esse valor representa um identificador de namespace cruzado que é exclusivo em todos os identificadores de escopo de namespace em todos os namespaces.
    **Tipo:** sequência de caracteres
 
-#### _experience > decisão > classificação
++++
+
++++ _experience > decisão > classificação
 
 **Campo:** classificação
 **Título:** Detalhes da classificação
 **Descrição:** Classificação (prioridade). Define o que é considerado a \&quot;melhor ação\&quot;, dado o contexto do critério de decisão. Entre todas as opções selecionadas que atendem à restrição de qualificação, a ordem de classificação decidirá a(s) opção(ões) principal(s) (ou N superior) a ser proposta.
 **Tipo:** objeto
 
-**_experience > decisioning > classificação > Avaliação de pedidos**
++++
+
++++_experience > decisão > classificação > Avaliação de pedidos
 
 **Campo:** pedido
 **Título:** Avaliação de pedidos
@@ -296,7 +326,9 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
    **Descrição:** Uma referência a uma estratégia que classifica uma lista de opções de decisão. As opções de decisão serão retornadas em uma lista ordenada. O valor dessa propriedade é o URI (@id) da função a ser chamada com a opção on de cada vez. Consulte esquema https://ns.adobe.com/experience/decisioning/rankingStrategy.
    **Tipo:** sequência de caracteres
 
-**_experience > decisioning > classificação > Prioridade**
++++
+
+++_experience > decisão > classificação > Prioridade
 
 **Campo:** priority
 **Título:** Prioridade
@@ -305,23 +337,31 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 **Valor mínimo:** 0
 **Valor padrão:** 0
 
-#### _experience > decisioning > tags
++++
+
++++ _experience > decisioning > tags
 
 **Campo:** tags
 **Título:** Tags
 **Descrição:** O conjunto de tags associado a esta entidade. As tags são usadas em expressões de filtro para restringir o inventário geral a um subconjunto (categoria).
 **Tipo:** array
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++_repo
 
 **Campo:** _repo
 **Tipo:** objeto
 
-### _repo > ETag da opção de decisão
++++
+
++++ _repo > ETag da opção de decisão
 
 **Campo:** tag
 **Título:** Opção de decisão ETag
 **Descrição:** A revisão de que o objeto da opção de decisão estava no momento em que o instantâneo foi tirado.
 **Tipo:** sequência de caracteres
+
++++

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '754'
 ht-degree: 8%
 
 ---
@@ -52,11 +52,13 @@ Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** , em seguida, 
 
    Uma superfície é uma configuração que foi definida por um [Administrador do sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba mais](../configuration/channel-surfaces.md).
 
+   Somente superfícies de canal compatíveis com o tipo de campanha de marketing são listadas na lista suspensa.
+
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >Somente superfícies de canal compatíveis com o tipo de campanha de marketing são listadas na lista suspensa.
+   >Se estiver criando uma campanha de notificação por push, é possível ativar a variável **[!UICONTROL Modo de entrega rápida]**, que é um complemento do Journey Optimizer que permite o envio muito rápido de mensagens de push em grandes volumes. [Saiba mais](../push/create-push.md#rapid-delivery)
 
 1. Clique em **[!UICONTROL Criar]** para criar a campanha.
 

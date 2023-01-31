@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de versão de 2022
 description: Notas de versão do Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '3583'
 ht-degree: 99%
@@ -234,7 +234,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 ### Outras alterações{#sept-2022-other}
 
-* O modo de disparo de jornada foi substituído pelo modo de entrega rápida de campanha. [Saiba mais](../campaigns/create-campaign.md#rapid-delivery)
+* O modo de disparo de jornada foi substituído pelo modo de entrega rápida de campanha. [Saiba mais](../push/create-push.md#rapid-delivery)
 * Para melhorar o desempenho, os grupos de campos de evento de experiência não podem mais ser usados em jornadas que começam com um segmento de leitura, uma qualificação de segmento ou uma atividade de evento comercial. Essa alteração se aplica somente a novas jornadas. As existentes manterão o comportamento atual. [Saiba mais](../start/guardrails.md#expression-editor)
 * A limitação de 1 hora para jornadas de segmento de leitura programadas foi removida. Essas jornadas agora podem ser executadas sem atraso.
 
