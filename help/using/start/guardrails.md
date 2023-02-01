@@ -31,7 +31,7 @@ Abaixo você encontrará medidas de proteção e limitações adicionais para us
 
 ## Medidas de proteção de gestão de decisões {#offer-guardrails}
 
-As medidas de proteção de desempenho e os limites estáticos para a tomada de decisões estão listados na [Página de descrição do produto Serviço de aplicativo do Adobe Offer Decisioning](https://helpx.adobe.com/br/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
+As medidas de proteção de desempenho e os limites estáticos para a tomada de decisões estão listados na [página de descrição do produto Serviço de aplicativo do Adobe Offer Decisioning](https://helpx.adobe.com/br/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
 ## Medidas de proteção das páginas de destino {#lp-guardrails}

@@ -7,19 +7,19 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 19%
+ht-degree: 92%
 
 ---
 
 # Notas de versão {#release-notes}
 
-[!DNL Adobe Journey Optimizer] O fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas na última semana de cada mês nessas notas de versão.
+O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão.
 
-As notas de versão anteriores estão disponíveis em [esta página](release-notes-2022.md). Também é possível consultar a página das [atualizações mais recentes da documentação](documentation-updates.md) para conhecer mais alterações.
+As notas de versão anteriores estão disponíveis [nesta página](release-notes-2022.md). Também é possível consultar a página das [atualizações mais recentes da documentação](documentation-updates.md) para conhecer mais alterações.
 
 O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
-![Informativo](../assets/do-not-localize/nl-icon.png) Cadastre-se para a [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais diretamente para sua caixa de entrada a cada trimestre.
+![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
 
 ## Versão de janeiro de 2023 {#jan-2023-release}
@@ -36,9 +36,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>O Adobe Experience Platform fornece um conjunto de recursos de higiene de dados que permitem gerenciar seus dados armazenados por meio de exclusões programáticas de registros e conjuntos de dados do consumidor. Esse recurso agora está disponível para o Adobe Journey Optimizer. </p>
-<p>Você pode gerenciar seus armazenamentos de dados para garantir que as informações sejam usadas conforme esperado, sejam atualizadas quando a correção de necessidades de dados estiver incorreta e excluídas quando as políticas organizacionais o considerarem necessário.</p>
-<p><strong>Cuidado</strong> - Os recursos de Higiene de dados estão disponíveis atualmente apenas para organizações que compraram a variável <strong>Escudo da Saúde</strong> e <strong>Privacy e Security Shield</strong> ofertas complementares.</p><p>Para obter mais informações, consulte a <a href="../privacy/data-hygiene.md">documentação detalhada</a>.
+<p>A Adobe Experience Platform fornece um conjunto de recursos de higiene de dados que permitem gerenciar seus dados armazenados por meio de exclusões programáticas de conjuntos de dados e registros do consumidor. Esse recurso está disponível agora para o Adobe Journey Optimizer. </p>
+<p>Você pode gerenciar seus armazenamentos de dados para garantir que as informações sejam usadas conforme esperado, atualizadas quando dados incorretos precisarem de correção e excluídas quando as políticas organizacionais considerarem necessário.</p>
+<p><strong>Atenção</strong> - Atualmente, os recursos de Higiene de dados estão disponíveis apenas para as organizações que compraram as ofertas complementares do <strong>Healthcare Shield</strong> e do <strong>Privacy and Security Shield</strong>.</p><p>Para obter mais informações, consulte a <a href="../privacy/data-hygiene.md">documentação detalhada</a>.
 
 </td>
 </tr>
@@ -75,31 +75,31 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 * Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. For **Read segment** journeys, you can now add an end date. This allows profiles to exit automatically when the date is reached. [Learn more](../building-journeys/journey-gs.md#dates)
 -->
 
-* Ao adicionar uma **Qualificação do segmento** ou **Ler segmento** em uma jornada, o namespace agora é pré-preenchido, por padrão, com o último namespace usado. Consulte a [Qualificação do segmento](../building-journeys/segment-qualification-events.md#about-segment-qualification) e [Ler segmento](../building-journeys/read-segment.md#configuring-segment-trigger-activity) seções.
+* Ao adicionar uma **Qualificação de segmento** ou um **Segmento de leitura** em uma jornada, o namespace agora é pré-preenchido, por padrão, com o último namespace usado. Consulte as seções [Qualificação de segmento](../building-journeys/segment-qualification-events.md#about-segment-qualification) e [Segmento de leitura](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
 
-* Na tela jornada , um novo botão está disponível na barra de ferramentas, que permite baixar uma captura de tela da jornada.
+* Um novo botão está disponível na barra de ferramentas da tela de jornada, que permite baixar uma captura de tela da sua jornada.
 
-**Email Designer**
+**Designer de email**
 
-* Agora você pode exportar o conteúdo de email do **Exportar HTML** menu. Os arquivos exportados estão disponíveis em um arquivo de arquivamento (.ZIP).
+* Agora você pode exportar o conteúdo de email do menu **Exportar HTML**. Os arquivos exportados são disponibilizados em um arquivo compactado (.zip).
 
 **Administração**
 
-* Uma nova subseção fornece recomendações sobre a criação da variável **Responder para (email)** endereço e assegurar uma gestão adequada das respostas. [Saiba mais](../email/email-settings.md#reply-to-email)
+* Uma nova subseção fornece recomendações sobre a criação de um endereço **Responder para (email)** e sobre como garantir uma gestão adequada das respostas. [Saiba mais](../email/email-settings.md#reply-to-email)
 
-* Ao criar ou editar **pools de IP**, os registros PTR associados agora são exibidos na lista de IP e ao passar o cursor do mouse sobre os endereços IP selecionados. [Saiba mais](../configuration/ip-pools.md#create-ip-pool)
+* Ao criar ou editar **pools de IPs**, os registros PTR associados agora são exibidos na lista de IP e ao passar o cursor do mouse sobre os endereços IP selecionados. [Saiba mais](../configuration/ip-pools.md#create-ip-pool)
 
-* Depois que um pool de IP é selecionado em uma superfície de canal, as informações de registro PTR agora ficam visíveis ao passar o mouse sobre os endereços IP. [Saiba mais](../email/email-settings.md#subdomains-and-ip-pools)
+* Depois que um pool de IP é selecionado em uma superfície de canal, as informações do registro PTR agora são visíveis ao passar o cursor do mouse sobre os endereços IP. [Saiba mais](../email/email-settings.md#subdomains-and-ip-pools)
 
-* A interface do usuário para edição [Registros PTR](../configuration/ptr-records.md#edit-ptr-record) e [campos de execução](../configuration/primary-email-addresses.md) foi atualizada.
+* A interface de edição de [registros PTR](../configuration/ptr-records.md#edit-ptr-record) e [campos de execução](../configuration/primary-email-addresses.md) foi atualizada.
 
-* A interface do usuário para criar e editar subdomínios foi aprimorada. [Saiba mais](../configuration/delegate-subdomain.md)
+* A interface de criação e edição de subdomínios foi aprimorada. [Saiba mais](../configuration/delegate-subdomain.md)
 
-* A lista de supressão **Uploads recentes** foi atualizada. [Saiba mais](../configuration/manage-suppression-list.md#recent-uploads)
+* A tela de **Uploads recentes** da lista de supressão foi atualizada. [Saiba mais](../configuration/manage-suppression-list.md#recent-uploads)
 
 **Campanhas**
 
-* Um exemplo de solicitação de cURL que permite a execução de campanhas acionadas por API agora é gerado automaticamente e disponibilizado na tela da campanha. [Saiba mais](../campaigns/api-triggered-campaigns.md)
+* Uma solicitação cURL de exemplo que permite a execução de campanhas acionadas por API agora é gerada automaticamente e disponibilizada na tela da campanha. [Saiba mais](../campaigns/api-triggered-campaigns.md)
 
 <!--
 **Decision management**
@@ -110,4 +110,4 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Personalização**
 
-* Novas funções de ajuda estão disponíveis: formatCurrency, charCodeAt, stringToDate, toString, formatNumber e toHexString. Além disso, a função toDateTimeOnly agora aceita tipos de campos string, date, long e int. [Saiba mais](../personalization/functions/functions.md)
+* Novas funções de ajuda estão disponíveis: formatCurrency, charCodeAt, stringToDate, toString, formatNumber e toHexString. Além disso, a função toDateTimeOnly agora aceita os tipos de campos string, data, longo e int. [Saiba mais](../personalization/functions/functions.md)

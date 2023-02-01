@@ -44,7 +44,7 @@ Veja abaixo uma lista completa de serviços e recursos disponíveis na navegaç�
 
 A página inicial do [!DNL Journey Optimizer] contém os links e recursos principais para iniciar. A lista **[!UICONTROL Recentes]** fornece atalhos para as jornadas e eventos criados recentemente. Esta lista mostra as datas de criação e modificação e o status.
 
-**[!UICONTROL GERENCIAMENTO DA JORNADA]**
+**[!UICONTROL GERENCIAMENTO DE JORNADA]**
 
 * **[!UICONTROL Jornadas]** - crie, configure e orquestre suas jornadas de cliente. [Saiba mais](../building-journeys/journey-gs.md#jo-build)
 
