@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
-source-wordcount: '272'
+workflow-type: ht
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Sobre o gerenciamento da opção de não participação {#about}
 
-Oferecer aos recipients a capacidade de cancelar a inscrição para receber comunicações de uma marca é um requisito legal. Saiba mais sobre a legislação aplicável na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=pt-BR#regulations){target=&quot;_blank&quot;}.
+Oferecer aos destinatários a capacidade de cancelar a inscrição de recebimento de comunicações de uma marca é um requisito legal. Saiba mais sobre a legislação aplicável na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=pt-BR#regulations){target="_blank"}.
 
 **Por que é importante?**
 
@@ -55,4 +55,4 @@ Saiba como gerenciar a opção de não participação em emails e mensagens SMS 
 
 >[!NOTE]
 >
->No [!DNL Journey Optimizer], o consentimento é gerido pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target=&quot;_blank&quot;} da Experience Platform. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações. Durante a integração, é possível modificar esse valor padrão para um dos valores possíveis listados [aqui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values){target=&quot;_blank&quot;}.
+>No [!DNL Journey Optimizer], o consentimento é tratado pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR) da Experience Platform{target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values){target="_blank"}.
