@@ -6,8 +6,8 @@ description: Como administrador do sistema, saiba mais sobre como trabalhar com 
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 9f67172f31ddc1caef9d014c365f71e470e45390
-workflow-type: tm+mt
-source-wordcount: '735'
+workflow-type: ht
+source-wordcount: '723'
 ht-degree: 100%
 
 ---
@@ -19,30 +19,30 @@ Antes de começar a usar [!DNL Adobe Journey Optimizer], várias etapas são nec
 
 Como um **Administrador do sistema**, é necessário **compreender perfis de produtos e atribuir permissões** para administração de sandbox e configuração de canal. Você também precisa configurar sandboxes e gerenciá-las para os perfis de produto disponíveis. É possível atribuir membros da equipe a perfis de produtos.
 
-Esses recursos podem ser gerenciados por **[!UICONTROL Administradores do produto]** com acesso ao Admin Console. [Saiba mais sobre o Adobe Admin Console](https://helpx.adobe.com/br/enterprise/admin-guide.html){target=&quot;_blank&quot;}.
+Esses recursos podem ser gerenciados por **[!UICONTROL Administradores do produto]** com acesso ao Admin Console. [Saiba mais sobre o Adobe Admin Console](https://helpx.adobe.com/br/enterprise/admin-guide.html){target="_blank"}.
 
 Saiba mais sobre o gerenciamento de acesso nas seguintes páginas:
 
 1. **Criar sandboxes** para particionar suas instâncias em ambientes virtuais separados e isolados. Os **Sandboxes** são criados em [!DNL Journey Optimizer]. Saiba mais na seção [Sandboxes](../../administration/sandboxes.md).
 
    >[!NOTE]
-   >Como um **Administrador do sistema**, se você não conseguir ver o menu **[!UICONTROL Sandboxes]** no [!DNL Journey Optimizer], atualize suas permissões no [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Saiba como atualizar o perfil de produto [nesta página](../../administration/permissions.md#edit-product-profile).
+   >Como um **Administrador do sistema**, se você não conseguir ver o menu **[!UICONTROL Sandboxes]** no [!DNL Journey Optimizer], atualize suas permissões no [Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Saiba como atualizar o perfil de produto [nesta página](../../administration/permissions.md#edit-product-profile).
 
 1. **Entender os perfis de produto**. Os perfis de produto são um conjunto de direitos unitários que permitem aos usuários acessarem determinadas funcionalidades ou objetos na interface. Saiba mais na seção [Perfis de produto prontos para uso](../../administration/ootb-product-profiles.md).
 
-1. **Defina permissões** para perfis de produtos, incluindo **Sandboxes**, e conceda acesso aos membros da sua equipe, atribuindo-os a perfis de produtos diferentes. Essa etapa é executada no [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. As permissões são direitos unitários que permitem definir as autorizações atribuídas ao **[!UICONTROL Perfil do produto]**. Cada permissão é coletada em recursos, por exemplo, Jornada ou Ofertas, que representam as diferentes funcionalidades ou objetos em [!DNL Journey Optimizer]. Saiba mais na seção [Níveis de permissão](../../administration/high-low-permissions.md).
+1. **Defina permissões** para perfis de produtos, incluindo **Sandboxes**, e conceda acesso aos membros da sua equipe, atribuindo-os a perfis de produtos diferentes. Essa etapa é executada no [Admin Console](https://adminconsole.adobe.com/){target="_blank"}. As permissões são direitos unitários que permitem definir as autorizações atribuídas ao **[!UICONTROL Perfil do produto]**. Cada permissão é coletada em recursos, por exemplo, Jornada ou Ofertas, que representam as diferentes funcionalidades ou objetos em [!DNL Journey Optimizer]. Saiba mais na seção [Níveis de permissão](../../administration/high-low-permissions.md).
 
-Além disso, você deve adicionar usuários que precisam de acesso ao Assets Essentials para os perfis do produto **Usuários do cliente do Assets Essentials** e/ou **Usuários do Assets Essentials**. [Leia mais na documentação do Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=pt-BR){target=&quot;_blank&quot;}.
+Além disso, você deve adicionar usuários que precisam de acesso ao Assets Essentials para os perfis do produto **Usuários do cliente do Assets Essentials** e/ou **Usuários do Assets Essentials**. [Leia mais na documentação do Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=pt-BR){target="_blank"}.
 
 >[!NOTE]
->Para produtos do Journey Optimizer obtidos antes de 6 de janeiro de 2022, é necessário implantar [!DNL Adobe Experience Manager Assets Essentials] para sua organização. Saiba mais na seção [Implantar o Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=pt-BR){target=&quot;_blank&quot;}.
+>Para produtos do Journey Optimizer obtidos antes de 6 de janeiro de 2022, é necessário implantar o [!DNL Adobe Experience Manager Assets Essentials] para sua organização. Saiba mais na seção [Implantar o Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=pt-BR){target="_blank"}.
 
 Ao acessar [!DNL Journey Optimizer] pela primeira vez, você é provisionado com uma sandbox de produção e aloca um determinado número de IPs dependendo do seu contrato.
 
 Para criar suas jornadas e enviar mensagens, acesse o menu **ADMINISTRAÇÃO**. Navegue pelo menu **[!UICONTROL Canais]** para configurar suas mensagens e superfícies do canal (ou seja, predefinições de mensagem).
 
 >[!NOTE]
->Como um **Administrador do sistema**, se você não conseguir ver o menu **[!UICONTROL Canais]** no [!DNL Journey Optimizer], atualize suas permissões no [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Saiba como atualizar o perfil de produto [nesta página](../../administration/permissions.md#edit-product-profile).
+>Como um **Administrador do sistema**, se você não conseguir ver o menu **[!UICONTROL Canais]** no [!DNL Journey Optimizer], atualize suas permissões no [Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Saiba como atualizar o perfil de produto [nesta página](../../administration/permissions.md#edit-product-profile).
 
 Siga as etapas listadas abaixo:
 
