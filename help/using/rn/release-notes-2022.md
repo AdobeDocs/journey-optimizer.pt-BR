@@ -5,9 +5,9 @@ title: Notas de versão de 2022
 description: Notas de versão do Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3583'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -387,7 +387,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 **Jornadas**
 
-* **Encerramento de uma jornada** - Na tela da jornada, a atividade **Fim** foi removida da paleta. As tags finais agora são adicionadas por padrão no final de cada caminho e não podem ser removidas. Essa melhoria permite obter relatórios melhores sobre onde um cliente saiu da jornada, sem nenhuma ação necessária por parte do profissional de jornada. Consulte a [documentação](../building-journeys/end-journey.md) e [vídeo de recurso](https://video.tv.adobe.com/v/345376){target="_blank"}.
+* **Encerramento de uma jornada** - Na tela da jornada, a atividade **Fim** foi removida da paleta. As tags finais agora são adicionadas por padrão no final de cada caminho e não podem ser removidas. Essa melhoria permite obter relatórios melhores sobre onde um cliente saiu da jornada, sem nenhuma ação necessária por parte do profissional de jornada. Consulte a [documentação](../building-journeys/end-journey.md) e o [vídeo em destaque](https://video.tv.adobe.com/v/345376){target="_blank"}.
 
 
 * A opção de **Fuso horário do perfil** agora está desmarcada por padrão nas propriedades da jornada. [Saiba mais](../building-journeys/timezone-management.md#timezone-from-profiles)
