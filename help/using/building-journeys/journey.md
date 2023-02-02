@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: jornada, discover, get-start
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 29%
+source-wordcount: '590'
+ht-degree: 28%
 
 ---
 
@@ -32,7 +32,9 @@ Crie designs de cenários avançados com várias etapas e com os seguintes recur
 
 ## Etapas para criar uma jornada{#steps-journey}
 
-Use o Adobe Journey Optimizer para projetar e orquestrar jornadas personalizadas de uma única tela.
+Use o Adobe Journey Optimizer para projetar e orquestrar jornadas personalizadas de uma única tela. As principais etapas para criar uma jornada são as seguintes:
+
+![](assets/journey-creation-process.png)
 
 O Adobe Journey Optimizer inclui uma tela de orquestração omnicanal que permite que os profissionais de marketing harmonizem o alcance de marketing com o envolvimento de um para um cliente. A interface do usuário permite arrastar e soltar facilmente as atividades da paleta na tela para criar a jornada.
 

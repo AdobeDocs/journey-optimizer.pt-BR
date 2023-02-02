@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrissagem, landing page, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 2%
@@ -59,7 +59,9 @@ Clique nos três pontos ao lado de uma página de aterrissagem para selecionar a
 >abstract="Para proteger ativos digitais confidenciais, você pode definir autorizações para gerenciar o acesso aos dados da sua página de aterrissagem usando rótulos."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Controle de acesso no nível do objeto"
 
-As etapas para criar uma landing page são as seguintes.
+As principais etapas para criar landing pages são as seguintes:
+
+![](assets/lp-creation-process.png)
 
 1. Na lista de landing page, clique em **[!UICONTROL Criar página de aterrissagem]**.
 
