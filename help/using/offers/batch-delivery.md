@@ -2,9 +2,9 @@
 title: Decisão em lote
 description: Saiba como fornecer decisões de oferta a todos os perfis em um determinado segmento do Adobe Experience Platform.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
+source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Antes de configurar uma solicitação de trabalho, verifique se você criou:
 
    >[!NOTE]
    >
-   >Um trabalho em lote é executado do instantâneo de perfil que ocorre uma vez por dia. A decisão em lote limita a frequência e sempre carrega perfis do instantâneo mais recente.
+   >Um trabalho em lote é executado do instantâneo de perfil que ocorre uma vez por dia. A decisão em lote limita a frequência e sempre carrega perfis do instantâneo mais recente. Aguarde até 24 horas após criar um segmento antes de tentar a API de decisão em lote.
 
 * **Uma decisão** no Adobe Journey Optimizer. [Saiba como criar uma decisão](offer-activities/create-offer-activities.md)
 
