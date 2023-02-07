@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: supressão, lista, devolução, email, otimizador, quarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0c5b0ff95ccfc1140eb380bf321c810a594946e6
+source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1516'
 ht-degree: 1%
 
 ---
@@ -30,17 +30,19 @@ Saiba mais sobre o conceito e o uso da lista de supressão em [esta seção](../
 
 Para acessar a lista detalhada de domínios e endereços de email excluídos, navegue até **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** e selecione **[!UICONTROL Lista de supressão]**.
 
+
+![](assets/suppression-list-access.png)
+
 >[!CAUTION]
 >
 >As permissões para visualizar, exportar e gerenciar a lista de supressão estão restritas a [Administradores do Jornada](../administration/ootb-product-profiles.md#journey-administrator). Saiba mais sobre como gerenciar [!DNL Journey Optimizer] direitos de acesso dos usuários em [esta seção](../administration/permissions-overview.md).
 
-![](assets/suppression-list-access.png)
 
 Os filtros estão disponíveis para ajudar você a navegar pela lista.
 
 ![](assets/suppression-list-filters.png)
 
-Você pode filtrar na variável **[!UICONTROL Categoria de supressão]**, **[!UICONTROL Tipo de endereço]** ou **[!UICONTROL Motivo]**. Selecione as opções escolhidas para cada critério. Após a seleção, é possível limpar cada filtro ou todos os filtros exibidos na parte superior da lista.
+Você pode filtrar na variável **[!UICONTROL Categoria de supressão]**, **[!UICONTROL Tipo de endereço]** ou **[!UICONTROL Motivo]**. Selecione uma ou mais opções para cada critério. Após a seleção, é possível limpar cada filtro ou todos os filtros exibidos na parte superior da lista.
 
 ![](assets/suppression-list-filtering-example.png)
 
