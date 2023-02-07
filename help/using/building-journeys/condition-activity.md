@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: c247fe725492a2f3997564bae52ebddeb69c5272
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1469'
 ht-degree: 8%
 
 ---
@@ -130,7 +130,9 @@ Você pode usar esse tipo de condição para aumentar o volume de seus deliverie
 
 O limite padrão é 1000.
 
-O contador se aplica somente à versão do jornada selecionada. O contador é redefinido para zero após um mês. Após uma redefinição, os perfis de entrada seguem o caminho nominal novamente até que o limite do contador seja atingido.
+O contador se aplica somente à versão do jornada selecionada. O contador é redefinido para zero após um mês, após uma nova versão do jornada ou em uma versão duplicada da jornada. Após uma redefinição, os perfis de entrada seguem o caminho nominal novamente até que o limite do contador seja atingido.
+
+Quando o limite de perfil é definido em uma jornada recorrente, o contador não é redefinido após cada recorrência.
 
 O caminho nominal sempre tem prioridade sobre o caminho alternativo, mesmo se você mover o caminho alternativo acima do caminho nominal na tela de jornada.
 
