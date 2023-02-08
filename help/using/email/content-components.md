@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: componentes, designer de email, editor, email
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -168,44 +168,6 @@ Use o **[!UICONTROL Imagem]** componente para inserir um arquivo de imagem de se
    ![](assets/email_designer_10.png)
 
 1. Ajuste os outros atributos de estilo, como margem, borda etc. ou adicionar um link para redirecionar seu público para outro conteúdo do **[!UICONTROL Configurações do componente]** painel.
-
-## Vídeo {#Video}
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_email"
->title="Configurações de vídeo"
->abstract="Use esse componente para inserir um vídeo no seu email. Observe que os vídeos não funcionam em todos os clientes de email. Recomendamos definir uma imagem de fallback."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_landing_page"
->title="Configurações de vídeo"
->abstract="Use esse componente para inserir um vídeo na página de aterrissagem. Observe que os vídeos não funcionam em todos os clientes de mensagem. Recomendamos definir uma imagem de fallback."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_fragment"
->title="Configurações de vídeo"
->abstract="Use esse componente para inserir um vídeo no fragmento. Observe que os vídeos não funcionam em todos os clientes de mensagem. Recomendamos definir uma imagem de fallback."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_template"
->title="Configurações de vídeo"
->abstract="Use esse componente para inserir um vídeo no modelo. Observe que os vídeos não funcionam em todos os clientes de mensagem. Recomendamos definir uma imagem de fallback."
-
-Use o **[!UICONTROL Vídeo]** para inserir um vídeo no seu conteúdo de email por meio de um link de URL.
-
-1. De **[!UICONTROL Componentes de conteúdo]**, arraste e solte a **[!UICONTROL Vídeo]** componente em um **[!UICONTROL Componente Estrutura]**.
-
-   ![](assets/email_designer_17.png)
-
-1. Clique no componente recém-adicionado.
-
-1. No **[!UICONTROL Link de vídeo]** do **[!UICONTROL Configurações de componentes]** adicione o URL do vídeo.
-
-   ![](assets/email_designer_18.png)
-
-1. Você pode adicionar uma **[!UICONTROL Imagem do cartaz]** ao vídeo para especificar uma imagem a ser exibida até o público clicar no botão Reproduzir.
-
-1. Ajuste os outros atributos de estilo, como estilo, margem, borda etc. do **[!UICONTROL Configurações do componente]** painel.
 
 ## Social {#social}
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: aterrissagem, página de aterrissagem, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '952'
 ht-degree: 16%
 
 ---
@@ -96,7 +96,7 @@ Saiba mais sobre como gerenciar o consentimento dos recipients e por que isso é
 
 ### Gerenciamento de recusa {#opt-out-management}
 
-Oferecer aos recipients a capacidade de cancelar a inscrição para receber comunicações de uma marca é um requisito legal. Saiba mais sobre a legislação aplicável na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=pt-BR#regulations){target="_blank"}.
+Oferecer aos destinatários a capacidade de cancelar a inscrição de recebimento de comunicações de uma marca é um requisito legal. Saiba mais sobre a legislação aplicável na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=pt-BR#regulations){target="_blank"}.
 
 Portanto, você sempre deve incluir um **link para cancelar a inscrição** em cada email enviado aos recipients:
 
@@ -160,6 +160,13 @@ Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Ex
 ![](assets/lp_opt-out-profile-choice.png)
 
 No **[!UICONTROL Atributos]** , você pode ver que o valor de **[!UICONTROL choice]** mudou para **[!UICONTROL não]**.
+
+As informações de não participação são armazenadas na variável **Conjunto de dados do serviço de consentimento**. [Saiba mais sobre conjuntos de dados](../data/get-started-datasets.md)
+
+>[!NOTE]
+>
+>Se o método de mesclagem para o seu padrão [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+
 
 <!--
 

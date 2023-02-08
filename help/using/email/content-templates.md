@@ -7,19 +7,14 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '985'
 ht-degree: 2%
 
 ---
 
 # Trabalhar com modelos de conteúdo {#content-templates}
-
->[!CONTEXTUALHELP]
->id="ajo_content_templates"
->title="Criar modelos de conteúdo"
->abstract="Crie modelos independentes para reutilizar conteúdo em jornadas e campanhas."
 
 Para um processo de design acelerado e aprimorado, você pode criar modelos independentes para reutilizar facilmente o conteúdo personalizado em [!DNL Journey Optimizer] campanhas e jornadas.
 
@@ -58,6 +53,11 @@ Para excluir um modelo, selecione o ícone de lixeira ao lado do modelo desejado
 >Quando um modelo é editado ou excluído, campanhas ou jornadas, incluindo emails criados com esse modelo, não são afetadas.
 
 ## Criar modelos de conteúdo {#create-content-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_template"
+>title="Definir seu próprio modelo de conteúdo"
+>abstract="Crie um modelo personalizado independente do zero para tornar seu conteúdo reutilizável em várias jornadas e campanhas."
 
 Há duas maneiras de criar modelos de conteúdo:
 

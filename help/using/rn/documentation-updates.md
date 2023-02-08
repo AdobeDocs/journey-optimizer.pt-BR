@@ -4,10 +4,10 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '2307'
-ht-degree: 96%
+source-wordcount: '2330'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,8 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 ## Fevereiro de 2023 {#feb-2023}
 
 * Uma observação foi adicionada na documentação de campanhas acionadas pela API para especificar que os atributos contextuais passados na solicitação não podem exceder 50 kb. [Leia mais](../campaigns/api-triggered-campaigns.md#contextual)
+
+* Adição de informações sobre como as informações de recusa são armazenadas no **Conjunto de dados do serviço de consentimento** depois que a subscrição é cancelada por meio de uma landing page. [Leia mais](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Janeiro de 2023 {#jan-2023}
 

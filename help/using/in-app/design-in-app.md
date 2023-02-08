@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: no aplicativo, mensagem, design, formatação
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '884'
 ht-degree: 5%
 
 ---
@@ -194,3 +194,9 @@ Se a variável **[!UICONTROL Modo de formatação avançado]** estiver ativada, 
 * [Criar mensagem no aplicativo](create-in-app.md)
 * [Relatório no aplicativo](inapp-report.md)
 * [Configuração no aplicativo](inapp-configuration.md)
+
+## Vídeo tutorial{#video}
+
+O vídeo abaixo mostra como criar e testar mensagens no aplicativo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)
