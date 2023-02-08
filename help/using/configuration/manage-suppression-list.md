@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: supressão, lista, devolução, email, otimizador, quarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
+source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 1%
@@ -84,7 +84,7 @@ Os possíveis motivos para uma falha de delivery são:
 
 ### Regras de supressão  {#suppression-rules}
 
-No **[!UICONTROL Lista de supressão]** também é possível editar o parâmetro de tentativa associado às regras de supressão no **[!UICONTROL Botão Editar regras de supressão]**. Use esta opção para atualizar o limite de repetição da sandbox atual. [Saiba mais](retries.md)
+No **[!UICONTROL Lista de supressão]** também é possível editar o parâmetro de tentativa associado às regras de supressão no **[!UICONTROL Editar regras de supressão]** botão. Use esta opção para atualizar o limite de repetição da sandbox atual. [Saiba mais sobre tentativas](retries.md).
 
 
 ## Adicionar endereços e domínios à lista de supressão{#add-addresses-and-domains}
@@ -126,7 +126,7 @@ Para adicionar um endereço de email ou domínio à lista de supressão, siga as
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. Selecione o tipo de endereço: **[!UICONTROL Endereço de email]** ou **[!UICONTROL Endereço do domínio]**.
+1. Selecione o tipo de endereço: **[!UICONTROL Email]** ou **[!UICONTROL Domínio]**.
 
 1. Insira o endereço de email ou domínio que deseja excluir do envio.
 
