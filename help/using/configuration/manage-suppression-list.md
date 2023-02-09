@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: supressão, lista, devolução, email, otimizador, quarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
+source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 1%
@@ -220,13 +220,13 @@ Para remover um endereço da lista de supressão, use o **[!UICONTROL Excluir]**
 >Continue com muito cuidado ao considerar a exclusão de qualquer endereço de email ou domínio. Em caso de dúvidas, entre em contato com um especialista em capacidade de delivery.
 
 
-Por exemplo, no caso de uma interrupção do Provedor de serviços de Internet (ISP), os emails são marcados incorretamente como devoluções permanentes porque não podem ser entregues com êxito ao recipient. Esses endereços de email devem ser removidos da lista de supressão.
+Por exemplo, no caso de uma interrupção do Provedor de serviços de Internet (ISP), os emails podem ser marcados incorretamente como devoluções permanentes porque não podem ser entregues com êxito ao recipient. Esses endereços de email devem ser removidos da lista de supressão.
 
 Para fazer isso, filtre a lista de supressão para exibir os domínios ou endereços de email afetados. Por exemplo, se uma interrupção do ISP aconteceu de 11 de novembro de 2022 a 13 de novembro de 2022 no **test.com** , filtre os endereços adicionados à lista de supressão nesse período, conforme abaixo:
 
 ![](assets/remove-from-supp-list.png)
 
-Também é necessário adicionar um filtro no tipo de rejeição permanente, dependendo dos detalhes da interrupção. Esses detalhes são fornecidos pelo ISP, como o código de erro exato retornado ao remetente. Por exemplo: `550 <email address> recipient rejected` ou `550 5.1.1 ‘email address’: user lookup success but no user record found`.
+Também é necessário adicionar um filtro no tipo de rejeição, dependendo dos detalhes da interrupção. Esses detalhes são fornecidos pelo ISP, como o código de erro exato retornado ao remetente. Por exemplo: `550 <email address> recipient rejected` ou `550 5.1.1 ‘email address’: user lookup success but no user record found`.
 
 Depois de identificados, esses endereços podem ser removidos manualmente da lista de supressão usando o **[!UICONTROL Excluir]** botão. Esses endereços podem ser incluídos em campanhas de email futuras.
 
