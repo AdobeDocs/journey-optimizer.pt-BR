@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '328'
 ht-degree: 12%
 
 ---
@@ -59,7 +59,7 @@ Para criar uma regra de decisão, siga estas etapas:
 
 >[!CAUTION]
 >
->No momento, as ofertas baseadas em eventos não são compatíveis com o [!DNL Journey Optimizer]. Se você criar uma regra de decisão com base em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, você não poderá aproveitá-lo em uma oferta.
+>No momento, as ofertas baseadas em eventos não são compatíveis com o [!DNL Journey Optimizer]. Se você criar uma regra de decisão com base em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, você não poderá aproveitá-lo em uma oferta.
 
 ## Tutorial em vídeo {#video}
 

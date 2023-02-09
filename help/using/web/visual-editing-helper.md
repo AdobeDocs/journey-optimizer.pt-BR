@@ -10,7 +10,7 @@ hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '396'
 ht-degree: 14%
 
 ---
@@ -27,7 +27,7 @@ Para criar e visualizar rapidamente suas experiências da Web, a extensão do na
 
 Para obter e instalar a extensão do navegador do Visual Editing Helper, siga as etapas abaixo.
 
-1. Na Google Chrome Web Store, navegue até o [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)Extensão do navegador {target=&quot;_blank&quot;}.
+1. Na Google Chrome Web Store, navegue até o [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extensão do navegador.
 
 1. Clique em **[!UICONTROL Adicionar ao Chrome]** > **[!UICONTROL Adicionar extensão]**.
 
@@ -56,7 +56,7 @@ A extensão não tem configurações condicionais e trata todas as configuraçõ
 
 Ao usar o Adobe [!DNL Journey Optimizer] web designer, se você tentar carregar um site que não é carregado, uma mensagem será exibida sugerindo que você instale o [Extensão do navegador do Visual Editing Helper](#install-visual-editing-helper).
 
-Se o SDK da Web da Adobe Experience Platform ainda não estiver implementado no site, uma mensagem será exibida no web designer sugerindo que você instale a extensão do navegador do Visual Editing Helper e implemente o [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target=&quot;_blank&quot;}.
+Se o SDK da Web da Adobe Experience Platform ainda não estiver implementado no site, uma mensagem será exibida no web designer sugerindo que você instale a extensão do navegador do Visual Editing Helper e implemente o [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"}.
 
 Se o site não carregar ou se comportar inesperadamente, uma possível correção é aceitar cookies em seu site no navegador antes de tentar carregá-los no Adobe [!DNL Journey Optimizer].
 

@@ -15,7 +15,7 @@ ht-degree: 12%
 
 # Criar uma tag {#create-tag}
 
-Você pode criar uma tag, fazendo uma solicitação de POST para [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
+Você pode criar uma tag, fazendo uma solicitação de POST para a variável [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
 
 ## Aceitar e digitar cabeçalhos de tipo de conteúdo {#accept-and-content-type-headers}
 

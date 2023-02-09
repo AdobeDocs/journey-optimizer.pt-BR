@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1713'
 ht-degree: 2%
 
 ---
@@ -99,7 +99,7 @@ O **[!UICONTROL Elegibilidade da oferta]** permite restringir a oferta a perfis 
 
    >[!CAUTION]
    >
-   >No momento, as ofertas baseadas em eventos não são compatíveis com o [!DNL Journey Optimizer]. Se você criar uma regra de decisão com base em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, você não poderá aproveitá-lo em uma oferta.
+   >No momento, as ofertas baseadas em eventos não são compatíveis com o [!DNL Journey Optimizer]. Se você criar uma regra de decisão com base em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, você não poderá aproveitá-lo em uma oferta.
 
 Ao selecionar segmentos ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar os dados.
 

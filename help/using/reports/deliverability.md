@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 24%
+source-wordcount: '693'
+ht-degree: 28%
 
 ---
 
@@ -35,7 +35,7 @@ O **taxa de entrega** é o número de mensagens que acessaram as caixas de entra
 
 Para otimizar a capacidade de entrega de seu [!DNL Journey Optimizer] experiências, recomendamos usar as práticas recomendadas listadas nesta seção. Os problemas de capacidade de delivery estão geralmente vinculados à proteção contra spam implementada por provedores de serviços de Internet (ISPs) e administradores de servidores de email.
 
-Para um mergulho mais profundo sobre o que é a capacidade de entrega e para saber mais sobre os principais termos, conceitos e abordagens da capacidade de entrega, consulte [Guia de práticas recomendadas de capacidade de entrega do Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=pt-BR){target=&quot;_blank&quot;}.
+Para aprofundar o assunto e saber mais sobre os termos, conceitos e abordagens principais da capacidade de delivery, consulte o [Manual de práticas recomendadas de capacidade de delivery da Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=pt-BR){target="_blank"}.
 
 ## Reduza a taxa de reclamação {#reduce-complaint-rate}
 

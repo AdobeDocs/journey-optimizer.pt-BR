@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1536'
 ht-degree: 4%
 
 ---
@@ -32,11 +32,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### Configurar permissões {#setup-permissions}
 
-Antes de criar um aplicativo móvel, primeiro verifique se você tem ou atribui as permissões de usuário corretas para tags no Adobe Experience Platform. Saiba mais em [Documentação de tags](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}.
+Antes de criar um aplicativo móvel, primeiro verifique se você tem ou atribui as permissões de usuário corretas para tags no Adobe Experience Platform. Saiba mais em [Documentação de tags](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
->A configuração de push deve ser executada por um usuário especialista. Dependendo do modelo de implementação e das pessoas envolvidas nessa implementação, talvez seja necessário atribuir o conjunto completo de permissões a um único perfil de produto ou compartilhar permissões entre o desenvolvedor do aplicativo e a **Adobe Journey Optimizer** administrador. Saiba mais sobre **Tags** permissões em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}.
+>A configuração de push deve ser executada por um usuário especialista. Dependendo do modelo de implementação e das pessoas envolvidas nessa implementação, talvez seja necessário atribuir o conjunto completo de permissões a um único perfil de produto ou compartilhar permissões entre o desenvolvedor do aplicativo e a **Adobe Journey Optimizer** administrador. Saiba mais sobre **Tags** permissões em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 <!--ou need to your have access to perform following roles :
 
@@ -53,7 +53,7 @@ Para atribuir **Propriedade** e **Empresa** , siga as etapas abaixo:
 
    ![](assets/push_product_1.png)
 
-1. Selecione um **[!UICONTROL Perfil de produto]** ou criar um novo com o **[!UICONTROL Novo perfil]** botão. Saiba como criar um novo **[!UICONTROL Novo perfil]** no [Documentação do Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target=&quot;_blank&quot;}.
+1. Selecione um **[!UICONTROL Perfil de produto]** ou criar um novo com o **[!UICONTROL Novo perfil]** botão. Saiba como criar um novo **[!UICONTROL Novo perfil]** no [Documentação do Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 
 1. No **[!UICONTROL Permissões]** guia , selecione **[!UICONTROL Direitos de propriedade]**.
 
@@ -109,14 +109,14 @@ A configuração técnica envolve uma estreita colaboração entre o desenvolved
 
 Siga as etapas de implementação detalhadas nos links abaixo:
 
-* Para **Apple iOS**: Saiba como registrar seu aplicativo com APNs em [Documentação do Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target=&quot;_blank&quot;}
-* Para **Google Android**: Saiba como configurar um aplicativo cliente Firebase Cloud Messaging no Android em [Documentação do Google](https://firebase.google.com/docs/cloud-messaging/android/client){target=&quot;_blank&quot;}
+* Para **Apple iOS**: Saiba como registrar seu aplicativo com APNs em [Documentação do Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
+* Para **Google Android**: Saiba como configurar um aplicativo cliente Firebase Cloud Messaging no Android em [Documentação do Google](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
 
 ### Integrar seu aplicativo móvel ao SDK do Adobe Experience Platform {#integrate-mobile-app}
 
-O Adobe Experience Platform Mobile SDK fornece APIs de integração do lado do cliente para dispositivos móveis por meio de SDKs compatíveis com Android e iOS. Seguir [Documentação do SDK do Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/getting-started/overview){target=&quot;_blank&quot;} para obter a configuração com os SDKs do Adobe Experience Platform Mobile em seu aplicativo.
+O Adobe Experience Platform Mobile SDK fornece APIs de integração do lado do cliente para dispositivos móveis por meio de SDKs compatíveis com Android e iOS. Seguir [Documentação do SDK do Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/getting-started/overview){target="_blank"} para obter a configuração com os SDKs do Adobe Experience Platform Mobile em seu aplicativo.
 
-Ao final disso, você também deve ter criado e configurado uma propriedade móvel no [!DNL Adobe Experience Platform Data Collection]. Normalmente, você cria uma propriedade móvel para cada aplicativo móvel que deseja gerenciar. Saiba como criar e configurar uma propriedade móvel no [Documentação do SDK do Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;}.
+Ao final disso, você também deve ter criado e configurado uma propriedade móvel no [!DNL Adobe Experience Platform Data Collection]. Normalmente, você cria uma propriedade móvel para cada aplicativo móvel que deseja gerenciar. Saiba como criar e configurar uma propriedade móvel no [Documentação do SDK do Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target="_blank"}.
 
 
 ## Etapa 1: Adicionar suas credenciais de push do aplicativo na Coleta de dados do Adobe Experience Platform {#push-credentials-launch}
@@ -156,7 +156,7 @@ O registro de credenciais de push do aplicativo móvel é necessário para autor
 
       1. Ligado o **[!UICONTROL Credenciais de push]** para adicionar suas credenciais.
 
-      1. Arraste e solte as credenciais de push do FCM. Para obter mais detalhes sobre como obter as credenciais de push, consulte [Documentação do Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target=&quot;_blank&quot;}.
+      1. Arraste e solte as credenciais de push do FCM. Para obter mais detalhes sobre como obter as credenciais de push, consulte [Documentação do Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
 
 
@@ -184,7 +184,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 O **Extensão do Adobe Journey Optimizer** para SDKs do Adobe Experience Platform Mobile, o aciona notificações por push para aplicativos móveis e ajuda a coletar tokens por push do usuário e gerencia a medição de interação com os serviços da Adobe Experience Platform.
 
-Saiba como configurar a extensão do Journey Optimizer no [Documentação do SDK do Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target=&quot;_blank&quot;}.
+Saiba como configurar a extensão do Journey Optimizer no [Documentação do SDK do Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target="_blank"}.
 
 
 <!-- 
@@ -261,7 +261,7 @@ Depois de configurar seu aplicativo móvel no Adobe Experience Platform e no [!D
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-Para que essa jornada funcione, é necessário criar um esquema XDM. Para obter mais informações, consulte [Documentação XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target=&quot;_blank&quot;}.
+Para que essa jornada funcione, é necessário criar um esquema XDM. Para obter mais informações, consulte [Documentação XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
 
 1. No menu esquerdo, navegue até **[!UICONTROL Esquemas]**.
 
@@ -271,7 +271,7 @@ Para que essa jornada funcione, é necessário criar um esquema XDM. Para obter 
 
 1. Selecionar **[!UICONTROL Criar um novo grupo de campos]**.
 
-1. Insira um **[!UICONTROL Nome de exibição]** e **[!UICONTROL Descrição]**. Clique em **[!UICONTROL Adicionar grupos de campos]** quando concluído. Para obter mais informações sobre como criar grupos de campos, consulte [Documentação do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR){target=&quot;_blank&quot;}.
+1. Insira um **[!UICONTROL Nome de exibição]** e **[!UICONTROL Descrição]**. Clique em **[!UICONTROL Adicionar grupos de campos]** quando concluído. Para obter mais informações sobre como criar grupos de campos, consulte [Documentação do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR){target="_blank"}.
 
 
    ![](assets/test_push_4.png)

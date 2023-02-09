@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '109'
 ht-degree: 22%
 
 ---
@@ -24,4 +24,4 @@ Saiba mais sobre conectores de origem e como configurá-los no Journey Optimizer
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-Saiba mais sobre como assimilar dados de fontes externas com conectores de origem em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
+Saiba mais sobre como assimilar dados de fontes externas com conectores de origem em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR){target="_blank"}.

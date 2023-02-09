@@ -10,7 +10,7 @@ exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -32,7 +32,7 @@ Data
 |--- |--- |
 | data e hora | dateTime |
 | data e hora sem considerar fuso horário | dateTimeOnly |
-| dias | integer |
+| dias | inteiro |
 
 ## Assinaturas e tipo retornado
 

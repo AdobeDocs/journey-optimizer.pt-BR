@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,17 @@ A utilização de modelos de otimização automática para o gerenciamento de de
 
 Os seguintes termos são úteis quando falamos de Otimização automática:
 
-* **Multi-armed bandit**: A [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit)A abordagem {target=&quot;_blank&quot;} à otimização equilibra o aprendizado exploratório e o aproveitamento desse aprendizado.
+* **Multi-armed bandit**: A [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit){target="_blank"} A abordagem à otimização equilibra o aprendizado exploratório e o aproveitamento desse aprendizado.
 
 * **Amostragem de Thomson**: a Amostragem de Thompson é um algoritmo para problemas de decisão online, onde as ações são executadas sequencialmente de uma maneira que deve equilibrar entre explorar o que é conhecido para maximizar o desempenho imediato e investir para acumular novas informações que podem melhorar o desempenho futuro. [Saiba mais](#thompson-sampling)
 
-* [**Distribuição beta**](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}: Conjunto contínuo [distribuições de probabilidade](https://en.wikipedia.org/wiki/Probability_distribution){target=&quot;_blank&quot;} definido no intervalo [0, 1] [parametrizado](https://en.wikipedia.org/wiki/Statistical_parameter){target=&quot;_blank&quot;} por dois positivos [parâmetros de forma](https://en.wikipedia.org/wiki/Shape_parameter){target=&quot;_blank&quot;}.
+* [**Distribuição beta**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Set of continuous [probability distributions](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} defined on the interval [0, 1] [parameterized](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} by two positive [shape parameters](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
 
 ## Amostragem de Thompson {#thompson-sampling}
 
 O algoritmo subjacente à otimização automática é **Amostragem de Thompson**. Nesta seção, discutimos a intuição por trás da amostragem de Thompson.
 
-[Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target=&quot;_blank&quot;}, ou bandidos bayesianos, é uma abordagem bayesiana do problema multi-armed bandit.  A ideia básica é tratar a recompensa média? de cada oferta como uma **variável aleatória** e usar os dados que coletamos até agora, para atualizar nossa &quot;crença&quot; sobre a recompensa média. Essa &quot;crença&quot; é representada matematicamente por um **distribuição de probabilidade posterior** - essencialmente uma gama de valores para a recompensa média, juntamente com a plausibilidade (ou probabilidade) de a recompensa ter esse valor para cada oferta. Então, para cada decisão, nós vamos **amostra de um ponto de cada uma dessas distribuições de recompensa posterior** e selecione a oferta cuja recompensa de amostra tinha o valor mais alto.
+[Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, ou bandidos bayesianos, é uma abordagem bayesiana para o problema multi-armed bandit.  A ideia básica é tratar a recompensa média? de cada oferta como uma **variável aleatória** e usar os dados que coletamos até agora, para atualizar nossa &quot;crença&quot; sobre a recompensa média. Essa &quot;crença&quot; é representada matematicamente por um **distribuição de probabilidade posterior** - essencialmente uma gama de valores para a recompensa média, juntamente com a plausibilidade (ou probabilidade) de a recompensa ter esse valor para cada oferta. Então, para cada decisão, nós vamos **amostra de um ponto de cada uma dessas distribuições de recompensa posterior** e selecione a oferta cuja recompensa de amostra tinha o valor mais alto.
 
 Esse processo é ilustrado na figura abaixo, onde temos 3 ofertas diferentes. Inicialmente, não temos provas dos dados e supomos que todas as ofertas têm uma distribuição posterior uniforme de recompensas. Desenvolvemos uma amostra da distribuição posterior de recompensa de cada oferta. A amostra selecionada da distribuição da Oferta 2 tem o valor mais alto. Este é um exemplo de **exploração**. Após mostrar a Oferta 2, coletamos qualquer recompensa potencial (por exemplo, conversão/não conversão) e atualizamos a distribuição posterior da Oferta 2 usando o Bayes Theorem, conforme explicado abaixo.  Continuamos esse processo e atualizamos as distribuições posteriores sempre que uma oferta é mostrada e a recompensa é coletada. Na segunda figura, a Oferta 3 é selecionada - apesar da Oferta 1 ter a recompensa média mais alta (sua distribuição de recompensa posterior é mais à direita), o processo de amostragem de cada distribuição nos levou a escolher uma Oferta 3 aparentemente subotimizada. Ao fazê-lo, damos a nós mesmos a oportunidade de aprender mais sobre a verdadeira distribuição de recompensas da Oferta 3.
 
@@ -71,7 +71,7 @@ A otimização automática é projetada para considerar recompensas binantes (cl
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-A função Probabilidade, como explicamos acima, é modelada por uma distribuição Binômica, com os sucessos de s (conversões) e de falhas (sem conversões) e q é um [variável aleatória](https://en.wikipedia.org/wiki/Random_variable){target=&quot;_blank&quot;} com um [distribuição beta](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}.
+A função Probabilidade, como explicamos acima, é modelada por uma distribuição Binômica, com os sucessos de s (conversões) e de falhas (sem conversões) e q é um [variável aleatória](https://en.wikipedia.org/wiki/Random_variable){target="_blank"} with a [beta distribution](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}.
 
 O anterior é modelado pela distribuição Beta e a distribuição posterior assume a seguinte forma:
 
@@ -85,8 +85,8 @@ Para otimização automática, como mostrado no exemplo acima, começamos com um
 **Tópicos relacionados**:
 
 Para aprofundar a amostragem de Thompson, leia os seguintes trabalhos de pesquisa:
-* [Avaliação Empírica da Amostragem de Thompson](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target=&quot;_blank&quot;}
-* [Análise da Amostragem de Thompson para o Problema Multi-armed Bandit](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target=&quot;_blank&quot;}
+* [Avaliação Empírica da Amostragem de Thompson](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
+* [Análise da Amostragem de Thompson para o Problema Multi-armed Bandit](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## Problema de arranque a frio {#cold-start}
 

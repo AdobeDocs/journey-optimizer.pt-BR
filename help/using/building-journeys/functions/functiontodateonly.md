@@ -10,7 +10,7 @@ exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ Conversão
 | Representação de string de uma data como &quot;AAAA-MM-DD&quot; (formato XDM). Também suporta o formato ISO-8601: only **data completa** parte é considerada (consulte [RFC 3339, seção 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
 | data e hora | dateTime |
 | data e hora sem fuso horário | dateTimeOnly |
-| valor inteiro de uma época em milissegundos | integer |
+| valor inteiro de uma época em milissegundos | inteiro |
 
 ## Assinaturas e tipos retornados
 

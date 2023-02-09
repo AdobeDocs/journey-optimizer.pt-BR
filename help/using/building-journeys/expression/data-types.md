@@ -51,7 +51,7 @@ Formato de serialização: UTF-8
 'hello world'
 ```
 
-## integer {#integer}
+## inteiro {#integer}
 
 **Descrição**
 

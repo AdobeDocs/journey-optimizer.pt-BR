@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 16%
+source-wordcount: '269'
+ht-degree: 15%
 
 ---
 
@@ -28,7 +28,7 @@ Antes de criar um modelo de IA, é necessário criar um conjunto de dados em que
 
    >[!NOTE]
    >
-   >Saiba mais sobre esquemas XDM e grupos de campos na [documentação de visão geral do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
+   >Saiba mais sobre esquemas XDM e grupos de campos na [documentação de visão geral do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
 
 1. No **[!UICONTROL Grupos de campos]** à esquerda, selecione **[!UICONTROL Adicionar]**.
 
@@ -53,7 +53,7 @@ Antes de criar um modelo de IA, é necessário criar um conjunto de dados em que
 
 >[!NOTE]
 >
->Saiba mais sobre como criar schemas no [Noções básicas da composição do schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target=&quot;_blank&quot;}.
+>Saiba mais sobre como criar schemas no [Noções básicas da composição do schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target="_blank"}.
 
 Agora você está pronto para criar um conjunto de dados usando esse esquema. Para fazer isso, siga as etapas abaixo:
 

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '476'
 ht-degree: 5%
 
 ---
@@ -58,11 +58,11 @@ As listas de campos XDM passados para o Adobe Experience Platform são detalhada
 
 ## Integração com o Customer Journey Analytics {#integration-cja}
 
-[!DNL Journey Optimizer] os eventos da etapa podem ser vinculados a outros conjuntos de dados em [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR){target=&quot;_blank&quot;}.
+[!DNL Journey Optimizer] os eventos da etapa podem ser vinculados a outros conjuntos de dados em [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR){target="_blank"}.
 
 O fluxo de trabalho geral é:
 
 * [!DNL Customer Journey Analytics] assimila o conjunto de dados &quot;Evento de etapa do Jornada&quot;.
 * O **profileID** no &quot;Jornada Step Event schema for Journey Orchestration&quot; associado é definido como um campo Identity . Em [!DNL Customer Journey Analytics], é possível vincular esse conjunto de dados a qualquer outro conjunto de dados que tenha o mesmo valor do identificador baseado em pessoas.
-* Para usar esse conjunto de dados em [!DNL Customer Journey Analytics]para análise de jornada entre canais, consulte [Documentação do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target=&quot;_blank&quot;}.
+* Para usar esse conjunto de dados em [!DNL Customer Journey Analytics]para análise de jornada entre canais, consulte [Documentação do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 

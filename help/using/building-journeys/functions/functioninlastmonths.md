@@ -10,7 +10,7 @@ exl-id: 4933ef43-66b8-462d-867c-03edd4c34947
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -31,7 +31,7 @@ Data
 | Parâmetro | Tipo |
 |-----------|------------------|
 | data e hora | dateTime |
-| delta | integer |
+| delta | inteiro |
 
 ## Assinaturas e tipo retornado
 

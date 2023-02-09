@@ -12,7 +12,7 @@ exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -26,7 +26,7 @@ Para que isso funcione, é necessário configurar uma ação dedicada. Consulte 
 
 Um caso de uso completo é apresentado nesta [seção](../building-journeys/ajo-ac.md).
 
-1. Projete a jornada, começando por um evento. Veja isso [seção](../building-journeys/journey.md).
+1. Projete a jornada, começando por um evento. Consulte esta [seção](../building-journeys/journey.md).
 1. No **Ação** da paleta, selecione uma ação Campanha e adicione-a à jornada.
 1. No **Parâmetros de ação**, todos os campos esperados no payload da mensagem são exibidos. Você precisa mapear cada um desses campos com o campo que deseja usar, do evento ou da fonte de dados. Isso é semelhante às ações personalizadas. Consulte esta [seção](../building-journeys/using-custom-actions.md).
 

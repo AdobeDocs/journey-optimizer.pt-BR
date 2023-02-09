@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '336'
 ht-degree: 8%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 8%
 
 Depois de criar a jornada em [!DNL Journey Optimizer], é possível importar os dados do cliente para o [!DNL Customer Journey Analytics] para iniciar relatórios e entender o impacto de cada interação que um cliente tem com suas jornadas.
 
-➡️ [Customer Journey Analytics do Discover](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.translate.html){target=&quot;_blank&quot;}
+➡️ [Customer Journey Analytics do Discover](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.translate.html){target="_blank"}
 
 Antes de usar [!DNL Customer Journey Analytics] para suas jornadas, você deve primeiro configurar essa integração:
 

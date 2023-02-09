@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 54%
+ht-degree: 69%
 
 ---
 
@@ -60,18 +60,18 @@ Você pode usar esses atalhos em áreas específicas de [!DNL Journey Optimizer]
   </tr>
   <tr>
     <td>Selecione todas as atividades</td>
-    <td>CTRL + A (Windows)<br/>CMD + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Cmd + A (Mac)</td>
   </tr>
   <tr>
     <td>Excluir as atividades selecionadas</td>
     <td>Delete ou Backspace, em seguida, tecle Enter para confirmar a exclusão</td>
   </tr>
   <tr>
-    <td>Aumentar e diminuir o zoom (foco na tela ou em qualquer um de seus elementos filho)</td>
-    <td>CTRL +/- (Windows) ou CMD +/- (Mac)</td>
+    <td>Aumentar e diminuir o zoom (foco na tela ou em qualquer um de seus elementos secundários)</td>
+    <td>Ctrl +/- (Windows) ou Cmd +/- (Mac)</td>
   </tr>  
   <tr>
-    <td>Navegar entre cada atividade e caminho (foco na tela) ou entre botões da barra de ferramentas (foco na barra de ferramentas)</td>
+    <td>Navegar entre cada atividade e caminho (foco na tela) ou entre os botões da barra de ferramentas (foco na barra de ferramentas)</td>
     <td>Teclas de SETA</td>
   </tr>   
   <tr>
@@ -79,7 +79,7 @@ Você pode usar esses atalhos em áreas específicas de [!DNL Journey Optimizer]
     <td>Guia</td>
   </tr>  
   <tr>
-    <td>Abra o painel de configuração correto (concentre-se em uma atividade)</td>
+    <td>Abra o painel de configuração direito (foco em uma atividade)</td>
     <td>ENTER</td>
   </tr>   
   <tr>

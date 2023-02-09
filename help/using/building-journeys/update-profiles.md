@@ -12,7 +12,7 @@ exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ Use o **[!UICONTROL Atualizar perfil]** atividade de ação para atualizar um pe
 
 ## Usar a atualização de perfil
 
-1. Crie a jornada começando com um evento. Veja isso [seção](../building-journeys/journey.md).
+1. Crie a jornada começando com um evento. Consulte esta [seção](../building-journeys/journey.md).
 
 1. No **Ação** da paleta, solte a guia **Atualizar perfil** atividade na tela.
 
@@ -73,6 +73,6 @@ O **Atualizar perfil** agora está configurado.
 
 No modo de teste, a atualização do perfil não será simulada. A atualização será executada no perfil de teste.
 
-Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. No Adobe Experience Platform, é possível atualizar os atributos de perfil por meio de uma importação de arquivo csv ou chamadas de API. Um método mais simples é usar um **Atualizar perfil** atividade de ação e altere o campo booleano do perfil de teste de false para true.
+Somente perfis de teste podem entrar em uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. No Adobe Experience Platform, é possível atualizar os atributos de perfil por meio de uma importação de arquivo csv ou chamadas de API. Um método mais simples é usar um **Atualizar perfil** atividade de ação e altere o campo booleano do perfil de teste de false para true.
 
 Para obter mais informações sobre como transformar um perfil existente em um perfil de teste, consulte esta seção [seção](../segment/creating-test-profiles.md#create-test-profiles-csv).

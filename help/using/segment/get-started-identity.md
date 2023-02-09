@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '342'
 ht-degree: 18%
 
 ---
@@ -24,13 +24,13 @@ Na [!DNL Adobe Journey Optimizer], as **Identidades**[ vinculam consumidores em 
 
 ![](assets/identities-home.png)
 
-Saiba mais sobre **Serviço de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR){target=&quot;_blank&quot;}.
+Saiba mais sobre **Serviço de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR){target="_blank"}.
 
 ## Namespaces de identidade {#identity-namespaces}
 
 **** Os namespaces de identidade são um componente do Identity Service que serve como indicadores do contexto ao qual uma identidade está relacionada. Por exemplo, eles distinguem um valor de `name@email.com` como endereço de email ou `443522` como uma ID de CRM numérica. Trabalhar com namespaces de identidade requer uma compreensão dos vários serviços da Adobe Experience Platform envolvidos. Antes de começar a trabalhar com namespaces, reveja a documentação dos seguintes serviços:
 
-Saiba mais sobre **Namespaces de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=pt-BR){target=&quot;_blank&quot;}.
+Saiba mais sobre **Namespaces de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=pt-BR){target="_blank"}.
 
 ## Gráfico de identidade{#id-graph}
 
@@ -38,4 +38,4 @@ O **Gráfico de identidade** é um mapa de relacionamentos entre diferentes iden
 
 O visualizador do gráfico de identidade em [!DNL Adobe Journey Optimizer] A interface do usuário do permite visualizar e entender melhor quais identidades de cliente são unidas e de que maneiras. O visualizador permite que você arraste e interaja com diferentes partes do gráfico, permitindo examinar relacionamentos de identidade complexos, depurar com mais eficiência e aproveitar o aumento da transparência com a forma como as informações estão sendo utilizadas.
 
-Saiba mais sobre **Gráfico de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html){target=&quot;_blank&quot;}.
+Saiba mais sobre **Gráfico de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html){target="_blank"}.

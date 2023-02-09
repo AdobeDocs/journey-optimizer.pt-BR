@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '861'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Primeiro, é necessário selecionar os perfis de teste que serão usados para si
 
    >[!NOTE]
    >
-   >Um namespace de identidade define o contexto de um identificador, como um endereço de email ou ID de CRM. Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../../segment/get-started-identity.md){target=&quot;_blank&quot;}.
+   >Um namespace de identidade define o contexto de um identificador, como um endereço de email ou ID de CRM. Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../../segment/get-started-identity.md){target="_blank"}.
 
 1. Insira o valor de identidade e clique em **[!UICONTROL Exibir]** para listar os perfis disponíveis.
 
@@ -212,5 +212,5 @@ Depois de adicionar um escopo de decisão e selecionar um perfil de teste, você
 
    >[!NOTE]
    >
-   >Ao copiar as cargas de solicitação ou resposta em seu próprio código, substitua {USER_TOKEN} e {API_KEY} por valores válidos. Saiba como recuperar esses valores no [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html)Documentação {target=&quot;_blank&quot;}.
+   >Ao copiar as cargas de solicitação ou resposta em seu próprio código, substitua {USER_TOKEN} e {API_KEY} por valores válidos. Saiba como recuperar esses valores no [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} documentação.
 

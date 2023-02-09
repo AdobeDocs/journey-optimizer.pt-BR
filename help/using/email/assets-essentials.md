@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -33,7 +33,7 @@ Saiba mais em [Documentação do Adobe Experience Manager Assets Essentials](htt
 Antes de usar [!DNL Adobe Experience Manager Assets Essentials], você deve adicionar usuários ao **Usuários do cliente do Assets Essentials** ou/e **Usuários do Assets Essentials** Perfis de produto. Leia mais em [Documentação do Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=pt-BR){target="_blank"}.
 
 >[!NOTE]
->Para produtos do Journey Optimizer obtidos antes de 6 de janeiro de 2022, é necessário implantar [!DNL Adobe Experience Manager Assets Essentials] para sua organização. Saiba mais na [Implantar o Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=pt-BR){target="_blank"} seção.
+>Para produtos do Journey Optimizer obtidos antes de 6 de janeiro de 2022, é necessário implantar o [!DNL Adobe Experience Manager Assets Essentials] para sua organização. Saiba mais na seção [Implantar o Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=pt-BR){target="_blank"}.
 
 ## Fazer upload e inserir ativos{#add-asset}
 

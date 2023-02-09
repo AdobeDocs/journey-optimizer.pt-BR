@@ -25,7 +25,7 @@ ht-degree: 3%
 
 Use perfis de teste para testar sua jornada antes de publicá-la. Esse modo permite que você execute um teste de sua jornada e identifique problemas usando perfis de teste.
 
-Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar novos perfis de teste ou transformar perfis existentes em perfis de teste. Saiba mais sobre perfis de teste em [esta seção](../segment/creating-test-profiles.md).
+Somente perfis de teste podem entrar em uma jornada no modo de teste. Você pode criar novos perfis de teste ou transformar perfis existentes em perfis de teste. Saiba mais sobre perfis de teste em [esta seção](../segment/creating-test-profiles.md).
 
 >[!NOTE]
 >

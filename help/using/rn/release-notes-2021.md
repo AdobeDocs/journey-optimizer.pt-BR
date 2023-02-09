@@ -6,8 +6,8 @@ description: Notas de versão do Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '2070'
-ht-degree: 95%
+source-wordcount: '2068'
+ht-degree: 94%
 
 ---
 
@@ -73,7 +73,7 @@ Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lan
 </table>
 
 
-Consulte também as [Notas de versão de outubro da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=pt-BR){target=&quot;_blank&quot;} para mais alterações.
+Consulte também [Notas de versão de outubro do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=pt-BR){target="_blank"} para obter mais alterações.
 
 ### Melhorias
 
