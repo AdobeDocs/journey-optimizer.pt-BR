@@ -1,14 +1,14 @@
 ---
 title: Criação de experiências da Web
 description: Saiba como criar uma página da Web e editar seu conteúdo no Journey Optimizer
-feature: Overview
+feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
+source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 6%
