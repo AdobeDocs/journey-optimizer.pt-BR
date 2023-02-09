@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: supressão, lista, devolução, email, otimizador, quarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
+source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1488'
 ht-degree: 1%
 
 ---
@@ -219,16 +219,15 @@ Para remover um endereço da lista de supressão, use o **[!UICONTROL Excluir]**
 >
 >Continue com muito cuidado ao considerar a exclusão de qualquer endereço de email ou domínio. Em caso de dúvidas, entre em contato com um especialista em capacidade de delivery.
 
+Por exemplo, no caso de uma interrupção do Provedor de serviços de Internet (ISP), os emails são marcados incorretamente como devoluções permanentes porque não podem ser entregues com êxito ao recipient. Esses endereços de email devem ser removidos da lista de supressão.
 
-Por exemplo, no caso de uma interrupção do Provedor de serviços de Internet (ISP), os emails podem ser marcados incorretamente como devoluções permanentes porque não podem ser entregues com êxito ao recipient. Esses endereços de email devem ser removidos da lista de supressão.
+Para recuperar esses endereços, execute uma consulta específica com parâmetros personalizados, com base no contexto da interrupção. [Saiba mais nesta amostra](../data/datasets-query-examples.md#isp-outageisp-outage-query).
 
-Para fazer isso, filtre a lista de supressão para exibir os domínios ou endereços de email afetados. Por exemplo, se uma interrupção do ISP aconteceu de 11 de novembro de 2022 a 13 de novembro de 2022 no **test.com** , filtre os endereços adicionados à lista de supressão nesse período, conforme abaixo:
+Depois que os endereços de email afetados forem identificados, filtre a lista de supressão para exibi-los. Por exemplo, se uma interrupção do ISP aconteceu de 11 de novembro de 2022 a 13 de novembro de 2022 no **test.com** , filtre os endereços adicionados à lista de supressão nesse período, conforme abaixo:
 
 ![](assets/remove-from-supp-list.png)
 
-Também é necessário adicionar um filtro no tipo de rejeição, dependendo dos detalhes da interrupção. Esses detalhes são fornecidos pelo ISP, como o código de erro exato retornado ao remetente. Por exemplo: `550 <email address> recipient rejected` ou `550 5.1.1 ‘email address’: user lookup success but no user record found`.
-
-Depois de identificados, esses endereços podem ser removidos manualmente da lista de supressão usando o **[!UICONTROL Excluir]** botão. Esses endereços podem ser incluídos em campanhas de email futuras.
+Você pode remover endereços de email em quarentena da lista de supressão usando o **[!UICONTROL Excluir]** botão.
 
 ## Baixe a lista de supressão {#download-suppression-list}
 
@@ -236,7 +235,7 @@ Depois de identificados, esses endereços podem ser removidos manualmente da lis
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_download"
 >title="Export the list as a CSV file"
->abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
+>abstract="To download the suppression list, Qou can either export the current list by generating a new file, or download the file that was previously generated."
 -->
 
 Para exportar a lista de supressão como um arquivo CSV, siga as etapas abaixo:
