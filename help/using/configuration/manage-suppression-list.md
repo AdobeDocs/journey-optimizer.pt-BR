@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: supressão, lista, devolução, email, otimizador, quarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 1%
@@ -221,7 +221,7 @@ Para remover um endereço da lista de supressão, use o **[!UICONTROL Excluir]**
 
 Por exemplo, no caso de uma interrupção do Provedor de serviços de Internet (ISP), os emails são marcados incorretamente como devoluções permanentes porque não podem ser entregues com êxito ao recipient. Esses endereços de email devem ser removidos da lista de supressão.
 
-Para recuperar esses endereços, execute uma consulta específica com parâmetros personalizados, com base no contexto da interrupção. [Saiba mais nesta amostra](../data/datasets-query-examples.md#isp-outageisp-outage-query).
+Para recuperar esses endereços, execute uma consulta específica com parâmetros personalizados, com base no contexto da interrupção. [Saiba mais nesta amostra](../data/datasets-query-examples.md#isp-outage-query).
 
 Depois que os endereços de email afetados forem identificados, filtre a lista de supressão para exibi-los. Por exemplo, se uma interrupção do ISP aconteceu de 11 de novembro de 2022 a 13 de novembro de 2022 no **test.com** , filtre os endereços adicionados à lista de supressão nesse período, conforme abaixo:
 
