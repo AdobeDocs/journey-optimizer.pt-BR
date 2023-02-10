@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -167,7 +167,7 @@ ht-degree: 99%
       + [Criar um experimento de conteúdo](using/campaigns/content-experiment.md)
       + [Compreender cálculos estatísticos](using/campaigns/experiment-calculations.md)
       + [Configurar relatórios de experimentação](using/campaigns/reporting-configuration.md)
-      + [Cálculos estatísticos no relatório de Experiência](using/campaigns/experiment-report-calculations.md)
+      + [Cálculos estatísticos no relatório de Experimentação](using/campaigns/experiment-report-calculations.md)
    + [Acione campanhas usando APIs](using/campaigns/api-triggered-campaigns.md)
 + Canal de email {#email}
    + [Introdução a emails](using/email/get-started-email.md)

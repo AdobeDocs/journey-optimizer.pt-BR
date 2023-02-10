@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '2330'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -17,14 +17,14 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Fevereiro de 2023 {#feb-2023}
 
-* Uma observação foi adicionada na documentação de campanhas acionadas pela API para especificar que os atributos contextuais passados na solicitação não podem exceder 50 kb. [Leia mais](../campaigns/api-triggered-campaigns.md#contextual)
+* Uma observação foi adicionada na documentação de campanhas acionadas pela API para especificar que os atributos contextuais passados na solicitação não podem exceder 50 KB. [Leia mais](../campaigns/api-triggered-campaigns.md#contextual)
 
 * Adição de informações sobre como as informações de recusa são armazenadas no **Conjunto de dados do serviço de consentimento** depois que a subscrição é cancelada por meio de uma landing page. [Leia mais](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Janeiro de 2023 {#jan-2023}
 
-* Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 23 de janeiro foi detalhada na documentação. [Leia mais](release-notes.md)
-* Recursos de acessibilidade em [!DNL Journey Optimizer] agora são agrupadas em uma página dedicada. [Leia mais](../start/accessibility.md)
+* Todos os novos recursos e aprimoramentos da versão de janeiro de 2023 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
+* Os recursos de acessibilidade no [!DNL Journey Optimizer] agora estão agrupados em uma página dedicada. [Leia mais](../start/accessibility.md)
 * Adição de uma nova página sobre o gerenciamento de dados no [!DNL Journey Optimizer]. [Leia mais](../data/gs-data.md)
 * Adição de uma tabela listando todos os códigos que podem ser retornados na resposta ao entregar ofertas usando a API de decisão. [Leia mais](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
