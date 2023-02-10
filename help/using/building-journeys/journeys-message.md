@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 5297edd0df4ffb9dc7470cbbc68781fc1cec0d27
+source-git-commit: 8c8b00cc68cec3602e9094188ebecc55d502c076
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '828'
 ht-degree: 6%
 
 ---
@@ -134,6 +134,6 @@ Vejamos um exemplo com a seguinte configuração:
 * Ação deve começar às 10:00
 * A janela é de 3 horas
 
-Um perfil pode ter um horário de abertura ideal, que está fora da janela. Por exemplo, John tem a abertura ideal ao clicar às 5:00 PM.
+Um perfil pode ter um horário de abertura ideal, que está fora da janela. Por exemplo, a abertura ideal do John ao clicar é às 17h.
 
-No nível do perfil, há pontuações para cada hora da semana. Neste exemplo, o email sempre será enviado dentro da janela . Em tempo de execução, o sistema verifica a lista de pontuações dentro dessa janela (janela de 3 horas começando às 10h). O sistema então compara as pontuações para 10, 11 e meio-dia e decide qual das três é a mais alta. O email é enviado no momento.
+No nível do perfil, há pontuações para cada hora da semana. Neste exemplo, o email sempre será enviado dentro da janela . Em tempo de execução, o sistema verifica a lista de pontuações dentro dessa janela (janela de 3 horas começando às 10h). O sistema então compara as pontuações para 10, 11 e meio-dia e seleciona a mais alta. O email é enviado no momento.
