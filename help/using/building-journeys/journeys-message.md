@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 5297edd0df4ffb9dc7470cbbc68781fc1cec0d27
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 7%
+source-wordcount: '832'
+ht-degree: 6%
 
 ---
 
@@ -125,3 +125,15 @@ Ative a Otimização de tempo de envio em um email ou mensagem de push seleciona
 Para mensagens de email, escolha se deseja otimizar as aberturas de email ou click-throughs de email selecionando o botão de opção apropriado. O padrão das mensagens de push é a opção de abertura, pois os cliques não são aplicáveis às mensagens de push.
 
 Você também pode optar por colchar os tempos de envio usados pelo sistema, inserindo um valor para a variável **Enviar na próxima** opção. Se você escolher &quot;seis horas&quot; como o valor, [!DNL Journey Optimizer] O verificará cada perfil de usuário e selecionará o tempo de envio ideal em seis horas a partir do tempo de execução da jornada.
+
+**O que acontece se o horário ideal estiver fora da janela?**
+
+Vejamos um exemplo com a seguinte configuração:
+
+* Otimizar em cliques
+* Ação deve começar às 10:00
+* A janela é de 3 horas
+
+Um perfil pode ter um horário de abertura ideal, que está fora da janela. Por exemplo, John tem a abertura ideal ao clicar às 5:00 PM.
+
+No nível do perfil, há pontuações para cada hora da semana. Neste exemplo, o email sempre será enviado dentro da janela . Em tempo de execução, o sistema verifica a lista de pontuações dentro dessa janela (janela de 3 horas começando às 10h). O sistema então compara as pontuações para 10, 11 e meio-dia e decide qual das três é a mais alta. O email é enviado no momento.
