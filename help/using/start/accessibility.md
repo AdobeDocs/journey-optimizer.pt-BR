@@ -2,22 +2,22 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Recursos de acessibilidade no Journey Optimizer
-description: Saiba mais sobre acessibilidade na interface do usuário do Journey Optimizer
+description: Saiba mais sobre a acessibilidade na interface do Journey Optimizer
 feature: Accessibility
 role: User
 level: Beginner
 source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 # Acessibilidade no Journey Optimizer{#accessibility}
 
-Acessibilidade refere-se a uma série de recursos que tornam um produto de software utilizável, com o mínimo esforço possível, para usuários com deficiências visuais, auditivas, cognitivas, motoras ou de outros tipos. O Adobe é líder do setor em acessibilidade e oferece suporte à criação de experiências excelentes na Web, incentivando os desenvolvedores a produzir conteúdo rico e envolvente, acessível a todos os usuários. Saiba mais sobre compromisso do Adobe com acessibilidade no [Página de acessibilidade do Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
+Acessibilidade refere-se a uma série de recursos que tornam um produto de software utilizável, com o mínimo esforço possível, para usuários com deficiências visuais, auditivas, cognitivas, motoras ou de outros tipos. A Adobe é líder do setor em acessibilidade e oferece suporte à criação de experiências web excelentes, incentivando os desenvolvedores a produzir conteúdo rico e envolvente que seja acessível a todos os usuários. Saiba mais sobre o compromisso da Adobe com acessibilidade na [página de acessibilidade da Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
 
-Para ajudar a atingir a meta de conformidade de acessibilidade, [!DNL Journey Optimizer] O segue as práticas recomendadas internacionalmente reconhecidas nas Web Content Accessibility Guidelines (WCAG) 2.1, Nível A e Nível AA. Saiba mais na versão mais recente [Relatório de conformidade para acessibilidade do Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
+Para ajudar a atingir a meta de conformidade de acessibilidade, o [!DNL Journey Optimizer] segue as práticas recomendadas internacionalmente reconhecidas nas Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.1, Nível A e Nível AA. Saiba mais na versão mais recente do [relatório de conformidade para acessibilidade do Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
 
 
 Os recursos de acessibilidade no [!DNL Adobe Journey Optimizer] são herdados da Adobe Experience Platform:
@@ -26,9 +26,9 @@ Os recursos de acessibilidade no [!DNL Adobe Journey Optimizer] são herdados da
 * Contraste de cores
 * Validação de campos obrigatórios
 
-Os recursos de acessibilidade no Adobe Experience Platform são detalhados [nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=pt-BR){target="_blank"}.
+Os recursos de acessibilidade na Adobe Experience Platform são detalhados [nessa documentação](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=pt-BR){target="_blank"}.
 
-Os seguintes atalhos comuns do teclado estão disponíveis em [!DNL Journey Optimizer]:
+Os seguintes atalhos de teclado comuns estão disponíveis no [!DNL Journey Optimizer]:
 
 | Ação | Atalho |
 | --- | --- |
@@ -38,7 +38,7 @@ Os seguintes atalhos comuns do teclado estão disponíveis em [!DNL Journey Opti
 | Selecionar ou limpar um elemento em foco | Enter ou Barra de espaço |
 | Cancelar uma seleção, recolher um painel ou fechar uma caixa de diálogo | Esc |
 
-Você pode usar esses atalhos em áreas específicas de [!DNL Journey Optimizer] interface do usuário:
+Você pode usar esses atalhos em áreas específicas da interface do [!DNL Journey Optimizer]:
 
 <table>
   <thead>
