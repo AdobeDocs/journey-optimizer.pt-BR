@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 11%
+source-wordcount: '695'
+ht-degree: 8%
 
 ---
 
@@ -88,7 +88,7 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
 >[!NOTE]
 >
->As mensagens de email de tipo de marketing devem incluir um [link para opção de não participação](../privacy/opt-out.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida no nível da [superfície de canal](../configuration/channel-surfaces.md#email-type) (ou seja, predefinição da mensagem) e ao criar a mensagem.
+>As mensagens de email de tipo de marketing devem incluir um [link para opção de não participação](../privacy/opt-out.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definido na variável [superfície do canal](../configuration/channel-surfaces.md#email-type) (ou seja, predefinição de mensagem) ao criar a mensagem.
 
 ## Link para uma mirror page {#mirror-page}
 

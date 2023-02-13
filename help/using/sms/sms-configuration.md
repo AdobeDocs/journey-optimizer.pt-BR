@@ -6,9 +6,9 @@ description: Saiba como configurar seu ambiente para enviar SMS com o Journey Op
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: d0ef261f81bf9d193a426c0a260d701908afb4d9
+source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '790'
 ht-degree: 2%
 
 ---
@@ -73,12 +73,12 @@ Para configurar seu fornecedor de SMS com o Journey Optimizer, siga estas etapas
 
 Depois de criar e configurar sua credencial de API, agora é necessário criar uma superfície de canal (ou seja, predefinição de mensagem) para mensagens SMS.
 
-## Criar uma superfície de canal {#message-preset-sms}
+## Criar uma superfície de SMS {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="Definir a categoria SMS"
->abstract="Selecione o tipo de mensagens SMS que serão enviadas ao usar esta superfície: Marketing para mensagens SMS promocionais, que exigem consentimento do usuário, ou Transacional para mensagens SMS não comerciais, que também podem ser enviadas para perfis sem assinatura em contextos específicos."
+>abstract="Selecione o tipo de mensagens SMS usando esta superfície: Marketing para mensagens SMS promocionais, que exigem consentimento do usuário, ou Transacional para mensagens SMS não comerciais, como redefinição de senha."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Recusar em mensagens SMS de marketing"
 
 Depois que o canal SMS for configurado, é necessário criar uma superfície de canal para enviar mensagens SMS de **[!DNL Journey Optimizer]**.
@@ -103,6 +103,15 @@ Para criar uma superfície de canal, siga estas etapas:
 
    * Selecione o **[!UICONTROL Tipo de SMS]** que será enviado com a superfície: **[!UICONTROL Transacional]** ou **[!UICONTROL Marketing]**.
 
+      * Choose **Marketing** para SMS promocional: essas mensagens exigem o consentimento do usuário.
+      * Choose **Transacional** para mensagens não comerciais, como confirmação de pedido, notificações de redefinição de senha ou informações de delivery, por exemplo.
+
+      >[!CAUTION]
+      >
+      >**Transacional** As mensagens SMS podem ser enviadas a perfis que cancelaram a assinatura nas comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
+
+      Ao criar uma mensagem SMS, você deve escolher uma superfície de canal válida que corresponda à categoria selecionada para sua mensagem.
+
    * Selecione o **[!UICONTROL Configuração de SMS]** para associar com a superfície.
 
       Para obter mais informações sobre como configurar seu ambiente para enviar mensagens SMS, consulte [esta seção](#create-api).
@@ -110,6 +119,7 @@ Para criar uma superfície de canal, siga estas etapas:
    * Insira o **[!UICONTROL Número do remetente]** &#x200B; você deseja usar para suas comunicações.
 
    * Selecione seu **[!UICONTROL Campo de execução do SMS]** para selecionar o **[!UICONTROL Atributo de perfil]** associado aos números de telefone dos perfis.
+
 
 1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Enviar]** para confirmar. Você também pode salvar a superfície do canal como rascunho e retomar sua configuração posteriormente.
 
