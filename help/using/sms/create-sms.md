@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '430'
 ht-degree: 13%
 
 ---
@@ -19,22 +19,18 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="Criação de SMS"
->abstract="Adicione a mensagem de texto e comece a personalizá-la com o editor de expressão."
+>title="Criar uma mensagem de SMS."
+>abstract="Adicione sua mensagem SMS e comece a personalizá-la com o editor de expressão."
 
->[!NOTE]
->
->De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os recipients cancelarem facilmente a inscrição. Para fazer isso, os recipients do SMS podem responder com palavras-chave de aceitação e recusa. [Saiba como gerenciar a recusa](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+## Adicionar uma mensagem SMS {#create-sms-journey-campaign}
 
-## Criar uma mensagem SMS em uma jornada ou campanha {#create-sms-journey-campaign}
-
-Para começar a personalizar a mensagem SMS, siga estas etapas:
+Navegue pelas guias abaixo para saber como adicionar um SMS em uma campanha ou jornada.
 
 >[!BEGINTABS]
 
 >[!TAB Adicionar uma mensagem SMS a uma Jornada]
 
-1. Abra a jornada e arraste e solte uma atividade de SMS da seção Ações da paleta.
+1. Abra a jornada e arraste e solte uma atividade de SMS do **Ações** da paleta.
 
    ![](assets/sms_create_1.png)
 
@@ -44,7 +40,7 @@ Para começar a personalizar a mensagem SMS, siga estas etapas:
 
    Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md)
 
-Agora você pode começar a projetar o conteúdo de sua mensagem SMS do **[!UICONTROL Editar conteúdo]** botão. [Projetar o conteúdo do SMS](#sms-content)
+Agora você pode começar a projetar o conteúdo de sua mensagem SMS do **[!UICONTROL Editar conteúdo]** botão. [Definir o conteúdo do SMS](#sms-content)
 
 >[!TAB Adicionar uma mensagem SMS a uma campanha]
 
@@ -79,6 +75,7 @@ Agora você pode começar a projetar o conteúdo de sua mensagem SMS do **[!UICO
 
 >[!ENDTABS]
 
+
 ## Definir o conteúdo do SMS{#sms-content}
 
 1. Na tela de configuração da jornada ou campanha, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo do SMS.
@@ -93,8 +90,13 @@ Agora você pode começar a projetar o conteúdo de sua mensagem SMS do **[!UICO
 
    ![](assets/sms-content-preview.png)
 
+>[!NOTE]
+>
+>De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os recipients cancelarem facilmente a inscrição. Para fazer isso, os recipients do SMS podem responder com palavras-chave de aceitação e recusa. [Saiba como gerenciar a recusa](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
 **Tópicos relacionados**
 
 * [Configurar canal de SMS](sms-configuration.md)
 * [Relatório de SMS](../reports/journey-global-report.md#sms-global)
 * [Adicionar uma mensagem em uma jornada](../building-journeys/journeys-message.md)
+* [Adicionar uma mensagem em uma campanha](../campaigns/create-campaign.md)

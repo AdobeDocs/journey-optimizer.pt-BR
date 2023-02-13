@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Visualizar mensagens e enviar provas
-description: Saiba como visualizar e testar suas mensagens
+description: Saiba como visualizar e testar seu email
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: visualização, conteúdo, email, prova, teste, perfil
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 5%
 
 ---
 
-# Visualizar e testar suas mensagens {#preview-and-proof}
+# Visualizar e testar o email {#preview-and-proof}
 
 Após definir o conteúdo do email, é possível usar perfis de teste para pré-visualizá-lo e testá-lo. Se você inseriu [conteúdo personalizado](../personalization/personalize.md), é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
 
