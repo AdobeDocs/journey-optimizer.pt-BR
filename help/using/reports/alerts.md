@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 37516cfb61ce30c3dcff4bf10a96ee4d8f76791e
+source-git-commit: 46fe345d424a5a201cf75a8ee0e2035bc68621fe
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 7%
@@ -37,7 +37,6 @@ No menu esquerdo, em **Administração**, clique em **Alertas**.
 Se ocorrer um comportamento inesperado, uma notificação de alerta será enviada para os assinantes do alerta por email, no canto superior direito da interface.
 
 <!--![](assets/alerts2.png)-->
-
 
 
 When [exibição de regras de alerta na interface do usuário do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), é possível assinar cada regra individualmente. Ao assinar alertas por meio de [Notificações de Evento de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html), no entanto, as regras de alerta são organizadas em pacotes de assinatura diferentes.
