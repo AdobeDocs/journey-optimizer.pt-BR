@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aterrissagem, landing page, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1544'
 ht-degree: 2%
 
 ---
@@ -196,6 +196,12 @@ Para definir as configurações de subpágina, siga as etapas abaixo.
 ![](assets/lp_subpage-settings.png)
 
 ## Testar a landing page {#test-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_lp_profiles"
+>title="Visualizar e testar a landing page"
+>abstract="Depois de definir as configurações e o conteúdo da landing page, você pode usar perfis de teste para visualizá-los."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="Selecionar perfis de teste"
 
 Depois que as configurações e o conteúdo da landing page forem definidos, você poderá usar perfis de teste para visualizá-los. Se você inseriu [conteúdo personalizado](../personalization/personalize.md), você poderá verificar como esse conteúdo é exibido na landing page, usando dados de perfil de teste.
 

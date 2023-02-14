@@ -9,22 +9,45 @@ role: User
 level: Beginner
 keywords: inicial, página de aterrissagem, criação, página, formulário, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1194'
 ht-degree: 4%
 
 ---
 
 # Definir o conteúdo específico da página de aterrissagem {#lp-content}
 
-Para definir um conteúdo específico que permitirá que os usuários selecionem e enviem suas opções a partir da página de aterrissagem, use o **[!UICONTROL Formulário]** componente. Para isso, siga as etapas abaixo.
+>[!CONTEXTUALHELP]
+>id="ac_lp_components"
+>title="Usar componentes de conteúdo"
+>abstract="Os componentes do conteúdo são espaços reservados vazios para o conteúdo que você pode usar para criar o layout de uma página de aterrissagem. Para definir um conteúdo específico que permitirá aos usuários selecionar e enviar suas opções, use o componente de formulário."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Adicionar componentes de conteúdo"
+
+Para criar o conteúdo da página de aterrissagem, você pode usar os mesmos componentes de um email. [Saiba mais](../email/content-components.md#add-content-components)
+
+Para projetar conteúdo específico que permitirá aos usuários selecionar e enviar suas opções, [usar o componente de formulário](#use-form-component) e defina [estilos específicos da página de aterrissagem](#lp-form-styles).
 
 >[!NOTE]
 >
 >Você também pode criar uma página de aterrissagem de cliques sem uma **[!UICONTROL Formulário]** componente. Nesse caso, a landing page será exibida para os usuários, mas eles não precisarão enviar nenhum formulário. Isso pode ser útil se você quiser apenas mostrar uma landing page sem exigir qualquer ação dos recipients, como aceitar ou rejeitar, ou se desejar fornecer informações que não exigem entrada do usuário.
 
+Usando o designer de conteúdo da página de aterrissagem, também é possível aproveitar os dados contextuais provenientes da página primária em uma subpágina. [Saiba mais](#use-primary-page-context)
+
 ## Usar o componente de formulário {#use-form-component}
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_formfield"
+>title="Definir os campos do componente de formulário"
+>abstract="Defina como os recipients serão vistos e envie suas opções da landing page."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Definir estilos de formulário de landing page"
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_submission"
+>title="O que acontece ao clicar no botão"
+>abstract="Defina o que acontecerá após os usuários enviarem o formulário de landing page."
+
+Para definir um conteúdo específico que permitirá que os usuários selecionem e enviem suas opções a partir da página de aterrissagem, use o **[!UICONTROL Formulário]** componente. Para isso, siga as etapas abaixo.
 
 1. Arraste e solte a página de aterrissagem específica **[!UICONTROL Formulário]** componente da paleta esquerda para o espaço de trabalho principal.
 
@@ -129,13 +152,13 @@ Para definir um conteúdo específico que permitirá que os usuários selecionem
 
 Você pode usar dados contextuais provenientes de outra página dentro da mesma landing page.
 
-Por exemplo, se você vincular uma caixa de seleção<!-- or the submission of the page--> para [lista de assinaturas](subscription-list.md) na página de aterrissagem primária, você pode usar essa lista de subscrição na subpágina &quot;thank you&quot;.
+Por exemplo, se você vincular uma caixa de seleção <!-- or the submission of the page--> para [lista de assinaturas](subscription-list.md) na página de aterrissagem primária, você pode usar essa lista de subscrição na subpágina &quot;thank you&quot;.
 
 Digamos que você vincule duas caixas de seleção na página principal a duas listas de assinatura diferentes. Se um usuário assinar um desses itens, você deseja exibir uma mensagem específica ao enviar o formulário, dependendo da caixa de seleção selecionada.
 
 Para isso, siga as etapas abaixo:
 
-1. Na página principal, vincule cada caixa de seleção à lista de subscrição relevante. [Saiba mais](#use-form-component).
+1. Na página primária, vincule cada caixa de seleção do **[!UICONTROL Formulário]** para a lista de subscrição relevante. [Saiba mais](#use-form-component).
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
