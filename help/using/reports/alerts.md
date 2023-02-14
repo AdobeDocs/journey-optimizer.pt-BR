@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 46fe345d424a5a201cf75a8ee0e2035bc68621fe
+source-git-commit: 1832f3395b07580e62f32c886a0a4256267b2970
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 7%
+source-wordcount: '258'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ Para saber como se inscrever em alertas e configurá-los, consulte esta seção 
 
 >[!AVAILABILITY]
 >
->Algumas alterações de design estão em andamento para o alerta &quot;Acionador de segmento de leitura malsucedido&quot;, portanto, esse alerta é pausado por enquanto. Depois que as alterações forem lançadas, esse alerta será exibido novamente e você poderá se inscrever nele.
+>Algumas alterações de design estão em andamento para o alerta &quot;Acionador de segmento de leitura malsucedido&quot;, portanto, esse alerta é pausado por enquanto e foi removido temporariamente da interface do usuário. Depois que essas alterações forem lançadas, o alerta será exibido novamente e você poderá se inscrever nele.
 
 No menu esquerdo, em **Administração**, clique em **Alertas**.
 
