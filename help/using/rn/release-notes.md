@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad0ca954d2ba15293bdde2715a7aaed62b040cce
+source-git-commit: f07a46e6fc42afb80275557dfe8bd27f51e4fad9
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '907'
+ht-degree: 57%
 
 ---
 
@@ -20,6 +20,43 @@ As notas de versão anteriores estão disponíveis [nesta página](release-notes
 O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
+
+
+## Notas de versão anteriores de fevereiro de 2023 {#feb-2023}
+
+Esta seção contém informações de pré-lançamento. As datas de lançamento, os recursos e outras informações estão sujeitos à mudança sem aviso prévio. A documentação detalhada estará disponível na data de lançamento.
+
+Disponibilidade: **22 de fevereiro de 2023**
+
+### Melhorias {#feb-2023-improvements}
+
+**Jornadas**
+
+* O **Período de espera de reentrada** foi adicionado às propriedades da jornada. Este campo permite definir o tempo de espera antes de permitir que um perfil insira a jornada novamente em jornadas unitárias (começando com um evento ou uma qualificação de segmento). Isso impede que as jornadas sejam acionadas incorretamente várias vezes para o mesmo evento. Por padrão, o campo é definido como 5 minutos.
+
+* Foram introduzidas melhorias para **Datas de início e término da jornada**. Se você não tiver especificado uma data de início, ela agora será adicionada automaticamente no momento da publicação. Para **Ler segmento** jornadas, agora é possível adicionar uma data de término. Isso permite que os perfis saiam automaticamente quando a data for atingida.
+
+* A tela de Jornada foi aprimorada para oferecer uma experiência do usuário mais simples e aprimorada. No final de cada caminho na tela, os espaços reservados vazios foram removidos. Agora você pode simplesmente adicionar suas atividades, arrastando-as para qualquer lugar entre nós.
+
+* O tempo limite e o gerenciamento de erros foram aprimorados no jornada. Agora, os caminhos de tempo limite e erro são sempre adicionados na tela. Um novo botão da barra de ferramentas está disponível para mostrar/ocultar esses caminhos.
+
+* Um novo tipo de alerta do sistema foi introduzido. Agora você pode ser notificado quando uma ação personalizada falhar.
+
+
+**Administração**
+
+* **Lista de permissões** - Agora é possível baixar a lista de permissões como um arquivo .csv .
+
+* **Superfície do email** - Uma verificação adicional foi adicionada às configurações da superfície do email: se o registro MX para o subdomínio usado no **Responder para endereço (email)** ou na **Endereço de email CCO** não estiver configurado corretamente, a superfície do email não poderá mais ser criada. Você deve configurá-lo ou usar outro.
+
+* **Superfície do email** - Na seção Parâmetros de rastreamento de URL das configurações da superfície do email, o limite para cada **Valor** O campo foi atualizado de 255 caracteres para 5 KB para compatibilidade com o rastreamento do Adobe Analytics.
+
+**Gestão de decisões**
+
+* **Posicionamentos** - Parâmetros adicionais foram adicionados na tela de criação de disposições. Eles permitem controlar se uma oferta pode ser duplicada em várias disposições e especificar se o conteúdo e os metadados da oferta devem ser incluídos na resposta da API.
+
+* **Personalização do URL** - Ao adicionar URLs como conteúdo às representações de suas ofertas, agora é possível personalizar esses URLs usando o Editor de expressão.
+
 
 
 ## Versão de janeiro de 2023 {#jan-2023-release}
