@@ -11,9 +11,9 @@ keywords: introdução, início, conteúdo, experimento
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1983'
 ht-degree: 1%
 
 ---
@@ -111,6 +111,11 @@ Para obter insights de negócios verdadeiros, você deve se manter em apenas um 
 +++
 
 ## Interpretar os resultados dos seus experimentos {#interpret-results}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_summary"
+>title="Dispositivo de resumo"
+>abstract="O widget Resumo fornece uma visão geral dos resultados do experimento, incluindo se são conclusivos ou não. Ele oferece uma maneira rápida e fácil de entender o resultado de seu experimento."
 
 ![](assets/experimentation_report_3.png)
 
