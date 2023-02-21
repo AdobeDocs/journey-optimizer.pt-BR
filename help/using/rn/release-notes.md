@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d160baac2eb454cfd10097e29147562f83c1cd50
+source-git-commit: 1565a61f2bd3b8168eaefc2e69b40c9949a0af23
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 57%
+source-wordcount: '816'
+ht-degree: 64%
 
 ---
 
@@ -35,13 +35,6 @@ Disponibilidade: **22 de fevereiro de 2023**
 * O **Período de espera de reentrada** foi adicionado às propriedades da jornada. Este campo permite definir o tempo de espera antes de permitir que um perfil insira a jornada novamente em jornadas unitárias (começando com um evento ou uma qualificação de segmento). Isso impede que as jornadas sejam acionadas incorretamente várias vezes para o mesmo evento. Por padrão, o campo é definido como 5 minutos.
 
 * Foram introduzidas melhorias para **Datas de início e término da jornada**. Se você não tiver especificado uma data de início, ela agora será adicionada automaticamente no momento da publicação. Para **Ler segmento** jornadas, agora é possível adicionar uma data de término. Isso permite que os perfis saiam automaticamente quando a data for atingida.
-
-* A tela de Jornada foi aprimorada para oferecer uma experiência do usuário mais simples e aprimorada. No final de cada caminho na tela, os espaços reservados vazios foram removidos. Agora você pode simplesmente adicionar suas atividades, arrastando-as para qualquer lugar entre nós.
-
-* O tempo limite e o gerenciamento de erros foram aprimorados no jornada. Agora, os caminhos de tempo limite e erro são sempre adicionados na tela. Um novo botão da barra de ferramentas está disponível para mostrar/ocultar esses caminhos.
-
-* Um novo tipo de alerta do sistema foi introduzido. Agora você pode ser notificado quando uma ação personalizada falhar.
-
 
 **Administração**
 
