@@ -5,9 +5,9 @@ title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2330'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * Uma observação foi adicionada na documentação de campanhas acionadas pela API para especificar que os atributos contextuais passados na solicitação não podem exceder 50 KB. [Leia mais](../campaigns/api-triggered-campaigns.md#contextual)
 
-* Adição de informações sobre como as informações de recusa são armazenadas no **Conjunto de dados do serviço de consentimento** depois que a subscrição é cancelada por meio de uma landing page. [Leia mais](../landing-pages/lp-use-cases.md#configure-opt-out)
+* Adição de detalhes sobre como as informações de recusa são armazenadas no **Conjunto de dados do serviço de consentimento** depois que os destinatários cancelam sua inscrição por meio de uma página de destino. [Leia mais](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Janeiro de 2023 {#jan-2023}
 
