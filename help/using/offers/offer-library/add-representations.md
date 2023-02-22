@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,17 @@ Para reutilizar o conteúdo em uma representação, navegue pelo **Biblioteca de
 
 Para adicionar conteúdo de um local público externo, selecione **[!UICONTROL URL]**, em seguida, insira o endereço de URL do conteúdo a ser adicionado.
 
+Você pode personalizar URLs usando o editor de expressão. Saiba mais sobre [personalização](../../personalization/personalize.md#use-expression-editor).
+
 ![](../assets/offer-content-url.png)
+
+Por exemplo, você deseja personalizar a imagem mostrada como uma oferta. Você quer que os usuários que favorecem as férias da cidade vejam a linha do horizonte da NYC e os usuários que favorecem as férias de praia para ver o nordeste do Havaí.
+
+Use o Editor de expressão para recuperar atributos de perfil armazenados no Adobe Experience Platform usando esquemas de união. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+
+![](../assets/offer-content-url-personalization.png)
+
+Se você especificar uma **[!UICONTROL Link de destino]**, também é possível personalizar o URL para o qual os usuários que clicarem na oferta serão direcionados.
 
 ### Adicionar texto personalizado {#custom-text}
 

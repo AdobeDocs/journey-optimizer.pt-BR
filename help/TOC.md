@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
-workflow-type: ht
-source-wordcount: '1312'
-ht-degree: 100%
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+workflow-type: tm+mt
+source-wordcount: '1314'
+ht-degree: 99%
 
 ---
 
@@ -202,10 +202,9 @@ ht-degree: 100%
       + [Definir configurações de superfície de email](using/email/email-settings.md)
 + Canal no aplicativo{#in-app}
    + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
-   + [Configuração do canal no aplicativo](using/in-app/inapp-configuration.md)
    + [Criação de uma mensagem no aplicativo](using/in-app/create-in-app.md)
    + [Projete seu conteúdo no aplicativo](using/in-app/design-in-app.md)
-   + [Relatório no aplicativo](using/in-app/inapp-report.md)
+   + [Configuração do canal no aplicativo](using/in-app/inapp-configuration.md)
 + Canal de notificação por push{#push}
    + [Introdução à notificação por push](using/push/get-started-push.md)
    + [Criar uma notificação por push](using/push/create-push.md)
@@ -416,6 +415,7 @@ ht-degree: 100%
    + [Consultas](using/data/get-started-queries.md)
    + Conjuntos de dados do Journey Optimizer {#datasets}
       + [Introdução aos conjuntos de dados](using/data/get-started-datasets.md)
+      + [Exportar conjuntos de dados do Journey Optimizer](using/data/export-datasets.md)
       + [Exemplos de consultas](using/data/datasets-query-examples.md)
 + Configuração {#configuration}
    + [Introdução à configuração do Journey Optimizer](using/configuration/get-started-configuration.md)

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 2%
@@ -90,7 +90,7 @@ Você pode duplicar uma campanha ao vivo para criar uma nova. Para fazer isso, a
 
 Com o tempo, a lista de campanhas continua crescendo e, eventualmente, torna mais difícil navegar pelas campanhas concluídas e interrompidas.
 
-Para evitar isso, você pode arquivar campanhas concluídas e interrompidas que não são mais necessárias. Para fazer isso, clique no botão elipse e selecione **[!UICONTROL Arquivar]**.
+Para evitar isso, você pode arquivar campanhas concluídas e interrompidas que não são mais necessárias. Para fazer isso, clique no botão de reticências e selecione **[!UICONTROL Arquivar]**.
 
 ![](assets/create-campaign-archive.png)
 

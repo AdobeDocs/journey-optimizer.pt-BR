@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1276'
 ht-degree: 5%
 
 ---
@@ -306,6 +306,39 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
 </table>
 -->
 
+### Métricas no aplicativo {#inapp-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Métrica<br/> </th> 
+   <th> Definição<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Cliques<br/> </td> 
+   <td>Número total de recipients que interagiram com os botões incluídos na mensagem no aplicativo.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Taxa de cliques<br/> </td> 
+   <td>Porcentagem de usuários que interagiram com os botões incluídos na mensagem no aplicativo em comparação aos usuários que visualizaram a mensagem.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Taxa de rejeição<br/> </td> 
+   <td> Porcentagem de mensagens no aplicativo que os recipients rejeitaram.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Impressões<br/> </td> 
+   <td> Número total de mensagens no aplicativo entregues a todos os usuários.<br/> </td>
+</tr>
+  <tr> 
+   <td>Impressões únicas<br/> </td> 
+   <td>Número de usuários únicos para os quais a mensagem no aplicativo foi entregue.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+
 ### Métricas de notificação por push
 
 <table> 
@@ -433,36 +466,5 @@ As tabelas abaixo fornecem a lista de métricas usadas nos relatórios e suas de
  </tbody> 
 </table>
 
-<!--
-### In-app metrics {#inapp-metrics}
-<table> 
- <thead> 
-  <tr> 
-   <th> Metric<br/> </th> 
-   <th> Definition<br/> </th> 
-</tr>
- </thead> 
- <tbody>
- <tr> 
-   <td>Clicks<br/> </td> 
-   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
-</tr>
-  <tr> 
-   <td>Click rate<br/> </td> 
-   <td>Percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.<br/> </td> 
-</tr> 
-  <tr> 
-   <td>Dismiss rate<br/> </td> 
-   <td> Percentage of In-app messages that recipients dismissed.<br/> </td> 
-</tr> 
-  <tr> 
-   <td>Impressions<br/> </td> 
-   <td> Total number of In-app messages delivered to all users.<br/> </td>
-</tr>
-  <tr> 
-   <td>Unique impressions<br/> </td> 
-   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
-</tr>
- </tbody> 
-</table>
--->
+
+

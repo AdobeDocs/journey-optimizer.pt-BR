@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: arquivo, mensagens, HIPAA, BCC, emails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 3%
@@ -82,7 +82,6 @@ No entanto, o endereço CCO é selecionado para enviar comunicações seguindo a
 * Não abra ou clique nos emails enviados para o endereço CCO, pois são considerados no total de aberturas e cliques da análise de envio, o que pode causar alguns erros de cálculo no [relatórios](../reports/global-report.md).
 
 * Não marque mensagens como spam na caixa de entrada CCO, pois isso afetará todos os outros emails enviados para esse endereço.
-
 
 >[!CAUTION]
 >

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: lista de permissões, lista, seguro, configuração
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1129'
 ht-degree: 2%
 
 ---
@@ -155,6 +155,34 @@ Para preencher a lista de permissões, você também pode chamar a API de supres
 Você pode executar o **Adicionar**, **Excluir** e **Get** operações.
 
 Saiba mais sobre como fazer chamadas de API no [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} documentação de referência.
+
+## Baixe a lista de permissões {#download-allowed-list}
+
+Para exportar a lista de permissões como um arquivo CSV, siga as etapas abaixo:
+
+1. Selecione o **[!UICONTROL Baixar CSV]** botão.
+
+   ![](assets/allowed-list-download-csv.png)
+
+1. Aguarde até que o arquivo seja gerado.
+
+   ![](assets/allowed-list-download-generate.png)
+
+   >[!NOTE]
+   >
+   >O tempo de download depende do tamanho do arquivo, o que significa o número de endereços que estão na lista de permissões.
+   >
+   >Uma solicitação de download pode ser processada de cada vez para uma determinada sandbox.
+
+1. Depois que o arquivo for gerado, você receberá uma notificação. Clique no ícone de sino na parte superior direita da tela para exibi-lo.
+
+1. Clique na notificação propriamente dita para baixar o arquivo.
+
+   ![](assets/allowed-list-download-notification.png)
+
+   >[!NOTE]
+   >
+   >O link é válido por 24 horas.
 
 ## Lógica da lista de permissões {#logic}
 

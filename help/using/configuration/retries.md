@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: tentativas, rejeição, suave, otimizador, erro
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 2%
@@ -72,5 +72,5 @@ Por exemplo, você pode definir o período de nova tentativa como 24 horas para 
 >
 >O período de repetição não pode exceder 84 horas. O período mínimo de tentativas é de 6 horas para emails de marketing e 10 minutos para emails transacionais.
 
-Saiba como ajustar os parâmetros de repetição de email ao criar uma superfície de canal em [esta seção](channel-surfaces.md#create-channel-surface).
+Saiba como ajustar os parâmetros de repetição de email ao criar uma superfície de canal em [esta seção](../email/email-settings.md#email-retry).
 

@@ -5,18 +5,21 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: no aplicativo, mensagem, design, formatação
+badge: label="Beta" type="Informative"
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 5%
+source-wordcount: '910'
+ht-degree: 6%
 
 ---
 
 # Projete seu conteúdo no aplicativo {#design-content}
+
+>[!IMPORTANT]
+>
+>O recurso No aplicativo está disponível atualmente como um beta para selecionar somente usuários. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
 
 É possível editar o conteúdo no aplicativo para configurar as opções de experiência, incluindo o layout e a exibição da mensagem, o texto e as opções de botão.
 
@@ -192,7 +195,7 @@ Se a variável **[!UICONTROL Modo de formatação avançado]** estiver ativada, 
 **Tópicos relacionados:**
 
 * [Criar mensagem no aplicativo](create-in-app.md)
-* [Relatório no aplicativo](inapp-report.md)
+* [Relatório no aplicativo](../reports/campaign-global-report.md#inapp-report)
 * [Configuração no aplicativo](inapp-configuration.md)
 
 ## Vídeo tutorial{#video}

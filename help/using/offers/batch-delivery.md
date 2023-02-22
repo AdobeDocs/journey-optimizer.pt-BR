@@ -2,7 +2,7 @@
 title: Decisão em lote
 description: Saiba como fornecer decisões de oferta a todos os perfis em um determinado segmento do Adobe Experience Platform.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -76,7 +76,7 @@ Depois que uma solicitação de trabalho é criada, o trabalho em lote passa por
 
 >[!NOTE]
 >
->Para garantir que você esteja obtendo as informações mais recentes sobre o status de uma solicitação de trabalho, use o botão de elipse ao lado da tarefa para atualizá-la.
+>Para garantir que você esteja obtendo as informações mais recentes sobre o status de uma solicitação de trabalho, use o botão de reticências ao lado da tarefa para atualizá-la.
 
 1. **[!UICONTROL Em fila]**: A solicitação de trabalho foi criada e entrou na fila de processamento. É possível executar até 5 trabalhos em lote por vez, por conjunto de dados. Quaisquer outras solicitações em lote com o mesmo conjunto de dados de saída são adicionadas à fila. Um trabalho em fila é selecionado para o processamento quando o trabalho anterior terminar de ser executado.
 1. **[!UICONTROL Processamento]**: A solicitação de trabalho está sendo processada

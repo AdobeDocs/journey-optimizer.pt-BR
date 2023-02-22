@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: aterrissagem, página de aterrissagem, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '970'
 ht-degree: 16%
 
 ---
@@ -166,6 +166,8 @@ As informações de não participação são armazenadas na variável **Conjunto
 >[!NOTE]
 >
 >Se o método de mesclagem para o seu padrão [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>
+>Mesmo que nenhum lote tenha sido adicionado a esse conjunto de dados, ele ainda conterá as informações de aceitação/recusa.
 
 
 <!--

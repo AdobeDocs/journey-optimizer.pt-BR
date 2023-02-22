@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, condicional, regras
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 1%
@@ -90,7 +90,7 @@ Se houver regras de condição que serão reutilizadas com frequência, você po
 
 ## Editar e excluir regras condicionais salvas {#edit-delete}
 
-É possível excluir uma regra condicional a qualquer momento usando o botão de elipse.
+É possível excluir uma regra condicional a qualquer momento usando o botão de reticências.
 
 ![](assets/conditions-open.png)
 

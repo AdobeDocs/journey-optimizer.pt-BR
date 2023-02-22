@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 2%
+source-wordcount: '1652'
+ht-degree: 1%
 
 ---
 
@@ -151,6 +151,14 @@ Para garantir o gerenciamento adequado de respostas, siga as recomendações aba
 
 * Não marque mensagens como spam na caixa de entrada de resposta, pois isso afetará todas as outras respostas enviadas para esse endereço.
 
+Além disso, ao definir a variável **[!UICONTROL Responder para (email)]** endereço, certifique-se de usar um subdomínio que tenha uma configuração de registro MX válida, caso contrário, o processamento da superfície do email falhará.
+
+Se ocorrer um erro ao enviar a superfície do email, significa que o registro MX não está configurado para o subdomínio do endereço inserido. Entre em contato com o administrador para configurar o registro MX correspondente ou use outro endereço com uma configuração de registro MX válida.
+
+>[!NOTE]
+>
+>Se o subdomínio do endereço inserido for um domínio que foi [plenamente delegado](../configuration/delegate-subdomain.md#full-subdomain-delegation) para o Adobe, entre em contato com o executivo da sua conta Adobe.
+
 ### Encaminhar email {#forward-email}
 
 Se quiser encaminhar para um endereço de email específico todos os emails recebidos por [!DNL Journey Optimizer] para o subdomínio delegado, entre em contato com o Atendimento ao Cliente do Adobe. Você precisará fornecer:
@@ -173,6 +181,10 @@ Você pode enviar uma cópia idêntica (ou cópia oculta de carbono) de emails e
 Para fazer isso, ative a **[!UICONTROL Email CCO]** recurso opcional no nível da superfície do canal. [Saiba mais](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
+
+Além disso, ao definir a variável **[!UICONTROL Email de Cco]** endereço, certifique-se de usar um subdomínio que tenha uma configuração de registro MX válida, caso contrário, o processamento da superfície do email falhará.
+
+Se ocorrer um erro ao enviar a superfície do email, significa que o registro MX não está configurado para o subdomínio do endereço inserido. Entre em contato com o administrador para configurar o registro MX correspondente ou use outro endereço com uma configuração de registro MX válida.
 
 ## Parâmetros de nova tentativa de email {#email-retry}
 
@@ -237,7 +249,7 @@ Também é possível editar cada **[!UICONTROL Valor]** usando o [Editor de expr
 
 >[!NOTE]
 >
->É possível combinar a digitação de valores de texto e o uso de atributos contextuais no Editor de expressão. Cada **[!UICONTROL Valor]** pode conter até 255 caracteres no total.
+>É possível combinar a digitação de valores de texto e o uso de atributos contextuais no Editor de expressão. Cada **[!UICONTROL Valor]** pode conter um número de caracteres até o limite de 5 KB.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

@@ -5,24 +5,25 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: no aplicativo, mensagem, criação, iniciar
+badge: label="Beta" type="Informative"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 15%
+source-wordcount: '197'
+ht-degree: 16%
 
 ---
 
 # Introdução ao canal no aplicativo {#gs-in-app}
 
-As mensagens no aplicativo são notificações que você pode enviar aos usuários dentro do aplicativo para direcioná-las para pontos de interesse específicos. As notificações no aplicativo podem ser usadas para propor um serviço, promover um novo recurso, uma oferta especial ou integrar um novo usuário.
+>[!IMPORTANT]
+>
+>O recurso No aplicativo está disponível atualmente como um beta para selecionar somente usuários. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
+
+As mensagens no aplicativo são notificações que podem ser enviadas aos usuários dentro do aplicativo, guiando-as para pontos de interesse específicos. Essas notificações podem ser usadas para diferentes propósitos, como a promoção de novos recursos, a apresentação de ofertas especiais ou a facilitação da integração de usuários. Ao utilizar as mensagens no aplicativo, você pode interagir com seu público e direcioná-las para aspectos importantes de seu aplicativo.
 
 Use o Journey Optimizer para criar notificações no aplicativo e configurar as opções de experiência, incluindo o layout e a exibição da mensagem, o texto e as opções de botão.
-
-![](assets/new-in-app.png)
 
 ## Pré-requisitos{#prerequisites-in-app}
 
@@ -52,11 +53,11 @@ Depois de concluída, você pode criar, configurar e enviar sua primeira mensage
 </div>
 <p></td>
 <td>
-<a href="inapp-report.md">
+<a href="../reports/campaign-global-report.md#inapp-global">
 <img alt="Validação" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="inapp-report.md"><strong>Relatório no aplicativo</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>Relatório no aplicativo</strong></a>
 </div>
 <p>
 </td>

@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 15%
@@ -31,7 +31,7 @@ Esta guia lista todos os públicos armazenados no Adobe Experience Platform. Os 
 
 O **[!UICONTROL Contagem de perfis]** fornece informações sobre o número de perfis incluídos em um público-alvo. Clique no botão &quot;i&quot; para obter mais informações sobre a data em que essas informações foram calculadas.
 
-Para atribuir rótulos de uso de dados personalizados ou principais a um público-alvo, clique no botão de elipse e selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o Controle de acesso no nível do objeto (OLA)](../administration/object-based-access.md)
+Para atribuir rótulos de uso de dados personalizados ou principais a um público-alvo, clique no botão de reticências e selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o Controle de acesso no nível do objeto (OLA)](../administration/object-based-access.md)
 
 <!--
 -edit an audience?

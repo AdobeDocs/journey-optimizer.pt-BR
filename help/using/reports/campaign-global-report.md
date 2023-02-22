@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 1%
+source-wordcount: '1904'
+ht-degree: 2%
 
 ---
 
@@ -30,6 +30,7 @@ A campanha **[!UICONTROL Relatório global]** será exibida com as seguintes gui
 
 * [Campaign](#campaign-global)
 * [Email](#email-global)
+* [No aplicativo](#inapp-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
 
@@ -141,6 +142,37 @@ O **[!UICONTROL Enviar otimização de tempo]** detalha o sucesso do delivery, d
 
 * **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 * **[!UICONTROL Rejeições]**: Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.
++++
+
+## Guia No aplicativo {#inapp-global}
+
+>[!IMPORTANT]
+>
+>O recurso No aplicativo está disponível atualmente como um beta para selecionar somente usuários. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
+
+Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL No aplicativo]** detalha as informações principais relativas aos deliveries no aplicativo enviados na campanha.
+
+![](assets/campaign_report_global_6.png)
+
++++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório no aplicativo.
+
+O **[!UICONTROL Desempenho no aplicativo]** Os KPIs detalham as principais informações relativas ao envolvimento de seus visitantes com suas mensagens no aplicativo, como:
+
+* **[!UICONTROL Impressões únicas]**: número de usuários únicos para os quais a mensagem no aplicativo foi entregue.
+
+* **[!UICONTROL Impressões]**: número total de mensagens no aplicativo entregues a todos os usuários.
+
+* **[!UICONTROL Taxa de cliques]**: porcentagem de usuários que interagiram com os botões incluídos na mensagem no aplicativo em comparação aos usuários que visualizaram a mensagem.
+
+* **[!UICONTROL Taxa de rejeição]**: porcentagem de mensagens no aplicativo que os recipients rejeitaram.
+
+O **[!UICONTROL Resumo no aplicativo]** gráfico mostra a evolução de suas impressões no aplicativo para o período relacionado.
+
+O **[!UICONTROL Cliques por botão]** gráfico e tabela contêm os dados disponíveis para o comportamento do recipient por botão:
+
+* **[!UICONTROL Cliques]**: número total de recipients que interagiram com os botões incluídos na mensagem no aplicativo.
+
+* **[!UICONTROL Taxa de cliques]**: porcentagem de usuários que interagiram com os botões incluídos na mensagem no aplicativo em comparação aos usuários que visualizaram a mensagem.
 +++
 
 ## Guia Notificação por push {#push-global}
