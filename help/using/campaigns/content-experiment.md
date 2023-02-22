@@ -11,9 +11,9 @@ keywords: conteúdo, experimento, múltiplo, público-alvo, tratamento
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
+source-git-commit: 2bf4883fa4b649a807608403d48f6a68b73a8626
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1137'
 ht-degree: 4%
 
 ---
@@ -166,8 +166,8 @@ Observe que cada widget pode ser redimensionado e excluído, se necessário. Par
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
->title="Cliques únicos por perfil"
->abstract="A métrica Cliques únicos por perfil ajuda você a entender com que eficácia seu experimento está engajando seu público-alvo e direcionando cliques para seu destino. Ele calcula o número de cliques distintos em um link específico, dividido pelo número total de perfis que foram expostos ao link."
+>title="Métrica de sucesso"
+>abstract="O valor total da métrica Sucesso, anteriormente selecionado ao criar seus Experimentos, dividido pelo número de perfis."
 
 >[!AVAILABILITY]
 >
