@@ -5,7 +5,7 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1a756b7277a6c01768f320745b81ef942c6f6b0f
+source-git-commit: e856786cfad58cc3f602a31ad1354a497e090764
 workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 99%
@@ -40,7 +40,7 @@ ht-degree: 99%
       + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
       + [Teste a jornada](using/building-journeys/testing-the-journey.md)
       + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
-   + Gerenciar suas jornadas{#mannage-journey}
+   + Gerenciar suas jornadas{#manage-journey}
       + [Encerrar sua jornada](using/building-journeys/end-journey.md)
       + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
       + [Gerenciamento de entrada de perfis](using/building-journeys/entry-management.md)
