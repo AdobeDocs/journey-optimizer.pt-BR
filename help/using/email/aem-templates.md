@@ -10,7 +10,7 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informativo"
-source-git-commit: c909e366ba5e911f685656140caf53cc122552ee
+source-git-commit: a162f70dceb3bef635085840fc304e0da2c33eed
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 1%
@@ -89,7 +89,7 @@ Quando o modelo de Experience Manager estiver disponível no Journey Optimizer c
 
    ![](assets/aem_ajo_2.png)
 
-1. Na janela Propriedades do modelo, clique na guia **[!UICONTROL Gerenciar acesso]** botão para atribuir rótulos de uso de dados personalizados ou principais ao modelo. [Saiba mais sobre o OLAC (Object Level Access Control)](../administration/object-based-access.md)
+1. No **[!UICONTROL Propriedades do modelo]** clique na guia **[!UICONTROL Gerenciar acesso]** botão para atribuir rótulos de uso de dados personalizados ou principais ao modelo. [Saiba mais sobre o OLAC (Object Level Access Control)](../administration/object-based-access.md)
 
 1. Para personalizar ainda mais seu modelo de AEM e adicionar personalização personalizada ao seu conteúdo, clique em **[!UICONTROL Editar conteúdo]**. Isso permitirá que você faça alterações facilmente e personalize o modelo de acordo com suas necessidades específicas. [Saiba mais](get-started-email-design.md)
 
