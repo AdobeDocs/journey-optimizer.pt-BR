@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
+source-git-commit: 2e22b44b2139ab37c5b62573c9bdeaa0fbfc8b12
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1727'
 ht-degree: 2%
 
 ---
@@ -144,10 +144,10 @@ Basicamente, a saída de um segmento é uma lista de perfis, enquanto uma regra 
 >title="Definir a frequência de limite"
 >abstract="Você pode optar por redefinir o contador de limite de oferta diariamente, semanalmente ou mensalmente."
 
-[!CONTEXTUALHELP]
->id=&quot;ajo_decisioning_frequency_capping_impression&quot;
->title=&quot;Impressão&quot;
->abstract=&quot;O uso de impressões como eventos de limite está disponível somente para canais de entrada.&quot;
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="Impressão"
+>abstract="O uso de impressões como eventos de limite está disponível somente para canais de entrada."
 
 O limite é usado como uma restrição para definir o número máximo de vezes que uma oferta pode ser apresentada.
 
