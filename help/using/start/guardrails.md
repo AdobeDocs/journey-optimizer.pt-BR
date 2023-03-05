@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ As medidas de proteção de desempenho e os limites estáticos para a tomada de 
 * Somente os métodos de chamada POST e PUT são compatíveis
 * O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou “$”
 * Endereços IP não são permitidos
-* Endereços de Adobe interno (`.adobe.*`) não são permitidas em URLs e APIs.
+* Endereços internos da Adobe (`.adobe.*`) não são permitidos em URLs e APIs.
 
 ### Eventos {#events-g}
 
@@ -77,7 +77,7 @@ As medidas de proteção de desempenho e os limites estáticos para a tomada de 
 ### Fontes de dados {#data-sources-g}
 
 * As fontes de dados externas podem ser aproveitadas em uma jornada do cliente para pesquisar dados externos em tempo real. Essas fontes devem ser utilizáveis por meio da API REST, devem ser compatíveis com JSON e poder lidar com o volume de solicitações.
-* Endereços de Adobe interno (`.adobe.*`) não são permitidas em URLs e APIs.
+* Endereços internos da Adobe (`.adobe.*`) não são permitidos em URLs e APIs.
 
 ### Criação de jornadas e perfis {#journeys-limitation-profile-creation}
 
