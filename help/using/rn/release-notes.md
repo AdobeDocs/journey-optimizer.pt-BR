@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>Agora você pode enviar mensagens personalizadas no aplicativo para os usuários do aplicativo em uma campanha. Use o Journey Optimizer para criar notificações e personalizar o layout da mensagem, a exibição, o texto e os botões para criar uma experiência perfeita.</p>
-<p><strong>Cuidado</strong> - No momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.</p>
+<p>Agora você pode enviar mensagens personalizadas no aplicativo para os usuários do aplicativo em uma campanha. Use o Journey Optimizer para criar notificações e personalizar o layout, a exibição, o texto e os botões das mensagens para criar uma experiência perfeita.</p>
+<p><strong>Aviso</strong>: no momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>Para obter mais informações, consulte a <a href="../in-app/get-started-in-app.md"> documentação detalhada </a>.</p>
 </td>
@@ -52,8 +52,8 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>Agora é possível estabelecer uma conexão ativa com locais de armazenamento na nuvem para exportar o conteúdo de seus conjuntos de dados. Os destinos disponíveis são: Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
-<p><strong>Cuidado</strong> - No momento, esse recurso está na versão beta e está disponível para todos os usuários do Adobe Journey Optimizer. Entre em contato com o representante da Adobe para obter acesso aos Destinos, caso ainda não tenha acesso.</p>
+<p>Agora é possível estabelecer uma conexão ativa com locais de armazenamento na nuvem para exportar o conteúdo de seus conjuntos de dados. Os destinos disponíveis são: Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage e SFTP.</p>
+<p><strong>Aviso</strong>: esse recurso está atualmente na versão beta e está disponível para todos os usuários do Adobe Journey Optimizer. Entre em contato com seu representante da Adobe para obter acesso aos destinos, caso ainda não o tenha.</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 <p>Para obter mais informações, consulte a <a href="../data/export-datasets.md">documentação detalhada</a>.</p>
 </td>
@@ -117,9 +117,9 @@ Note that each widget can be resized and deleted as needed.
 
 **Jornadas**
 
-* A variável **Período de espera de reentrada** O campo foi adicionado às propriedades da jornada. Esse campo permite definir o tempo de espera antes de permitir que um perfil entre na jornada novamente em jornadas unitárias (começando com um evento ou uma qualificação de segmento). Isso evita que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, o campo é definido como 5 minutos. [Saiba mais](../building-journeys/journey-gs.md#entrance)
+* O campo **Período de espera de reentrada** foi adicionado às propriedades da jornada. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de segmento). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. [Saiba mais](../building-journeys/journey-gs.md#entrance)
 
-* Foram introduzidas melhorias no que respeita à **jornada datas de início e término**. Se você não tiver especificado uma data de início, ela agora será adicionada automaticamente no momento da publicação. Para **Ler segmento** jornadas, agora é possível adicionar uma data de término. Isso permite que os perfis saiam automaticamente quando a data é atingida. [Saiba mais](../building-journeys/journey-gs.md#dates)
+* Foram realizadas melhorias nas **datas de início e término da jornada**. Se você não tiver especificado uma data de início, ela agora será adicionada automaticamente no momento da publicação. Para jornadas de **Segmento de leitura**, agora é possível adicionar uma data de término. Isso permite que os perfis saiam automaticamente quando a data for atingida. [Saiba mais](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -137,11 +137,11 @@ Note that each widget can be resized and deleted as needed.
 
 **Administração**
 
-* **Lista de permissões** - Agora você pode baixar a lista de permissões como um arquivo .csv. [Saiba mais](../configuration/allow-list.md#download-allowed-list)
+* **Lista de permissões**: agora é possível baixar a lista de permissões como um arquivo .csv. [Saiba mais](../configuration/allow-list.md#download-allowed-list)
 
-* **Superfície de email** - Uma verificação adicional foi adicionada às configurações de superfície de email: se o registro MX do subdomínio usado no **Responder ao endereço (email)** ou no **Endereço de email CCO** não estiver configurado corretamente, a superfície de email não poderá mais ser criada. Você deve configurá-lo ou usar outro. [Saiba mais](../email/email-settings.md#reply-to-email)
+* **Superfície de email**: uma verificação adicional foi incluída nas configurações da superfície de email. Se o registro MX do subdomínio usado no endereço **Responder para (email)** ou no **endereço de email Cco** não estiver configurado corretamente, a superfície de email não poderá mais ser criada. Você precisa configurá-lo ou usar outro. [Saiba mais](../email/email-settings.md#reply-to-email)
 
-* **Superfície de email** - No **Parâmetros de rastreamento de URL** das configurações da superfície de email, o limite para cada **Valor** O campo foi atualizado de 255 caracteres para 5 KB para compatibilidade com o rastreamento do Adobe Analytics. [Saiba mais](../email/email-settings.md#url-tracking)
+* **Superfície de email**: na seção **Parâmetros de rastreamento de URL** das configurações da superfície de email, o limite para cada campo de **Valor** foi atualizado de 255 caracteres para 5 KB, a fim de oferecer compatibilidade com o rastreamento do Adobe Analytics. [Saiba mais](../email/email-settings.md#url-tracking)
 
 **Gestão de decisões**
 
@@ -149,7 +149,7 @@ Note that each widget can be resized and deleted as needed.
 * **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
 -->
 
-* **Personalização de URL** - Ao adicionar URLs como conteúdo às representações das ofertas, agora é possível personalizar esses URLs usando o Editor de expressão. [Saiba mais](../offers/offer-library/add-representations.md)
+* **Personalização de URL**: ao adicionar URLs como conteúdo às representações de suas ofertas, agora é possível personalizar esses URLs usando o editor de expressão. [Saiba mais](../offers/offer-library/add-representations.md)
 
 <!--
 * **Capping** - You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
