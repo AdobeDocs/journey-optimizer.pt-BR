@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 89%
+source-wordcount: '1063'
+ht-degree: 87%
 
 ---
 
@@ -164,11 +164,9 @@ Note that each widget can be resized and deleted as needed.
 
 * **Personalização de URL**: ao adicionar URLs como conteúdo às representações de suas ofertas, agora é possível personalizar esses URLs usando o editor de expressão. [Saiba mais](../offers/offer-library/add-representations.md)
 
-<!--
-* **Capping** - You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
+* **Limite** - Agora você pode redefinir o contador de limite de oferta diariamente, semanalmente ou mensalmente. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
-* **Capping** - You can now choose which Adobe Experience Platform event should be looked at for offer decisioning capping. [Learn more](../offers/offer-library/add-constraints.md#capping)
--->
+* **Limite** - Agora você pode escolher qual evento do Adobe Experience Platform deve ser observado para o limite de offer decisioning. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
 ## Versão de janeiro de 2023 {#jan-2023-release}
 

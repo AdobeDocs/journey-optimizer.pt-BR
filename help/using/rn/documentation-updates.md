@@ -4,16 +4,20 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
-workflow-type: ht
-source-wordcount: '2330'
-ht-degree: 100%
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+workflow-type: tm+mt
+source-wordcount: '2366'
+ht-degree: 98%
 
 ---
 
 # Atualizações de documentação {#latest-updates}
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
+
+## Março de 2023 {#march-2023}
+
+* Uma nova seção foi criada no guia Gestão de decisões sobre como coletar comentários do offer decisioning no Adobe Experience Platform, incluindo quais ofertas são exibidas e como os usuários interagem com elas.  [Leia mais](../offers/data-collection/data-collection.md)
 
 ## Fevereiro de 2023 {#feb-2023}
 
@@ -145,7 +149,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * Todos os novos recursos e aprimoramentos da versão de janeiro de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
 * A seção **Classificações de IA do Offer Decisioning** foi atualizada com uma descrição mais detalhada do modelo de otimização automática. [Leia mais](../offers/ranking/auto-optimization-model.md)
-* Foi adicionada uma nova seção sobre os requisitos de esquema necessários para poder enviar tipos de evento ao usar uma estratégia de classificação. [Leia mais](../offers/ranking/schema-requirement.md)
+* Foi adicionada uma nova seção sobre os requisitos de esquema necessários para poder enviar tipos de evento ao usar uma estratégia de classificação. [Leia mais](../offers/data-collection/schema-requirement.md)
 * A seção relacionada aos recursos de personalização do [!DNL Journey Optimizer] foi reorganizada para melhorar a compreensão. [Leia mais](../personalization/personalize.md)
 * A seção **Criar predefinições de mensagem** foi dividida em várias seções para maior clareza. [Leia mais](../configuration/channel-surfaces.md#create-channel-surface)
 * A seção **Gerenciamento de opção de não participação** foi esclarecida e levemente reorganizada. [Leia mais](../privacy/opt-out.md#opt-out-management)
