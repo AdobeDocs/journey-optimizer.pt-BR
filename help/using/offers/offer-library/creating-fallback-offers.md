@@ -1,60 +1,60 @@
 ---
 title: Criar ofertas substitutas
-description: Saiba como criar ofertas de fallback a serem exibidas para clientes que não estão qualificados para qualquer oferta
+description: Saiba como criar ofertas substitutas para exibir clientes que não estão qualificados para nenhuma oferta
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '299'
 ht-degree: 3%
 
 ---
 
 # Criar ofertas substitutas {#create-fallback-offers}
 
-A oferta de fallback é enviada aos clientes se eles não estiverem qualificados para outras ofertas. As etapas para criar uma oferta de fallback consistem em criar uma ou várias representações, como ao criar uma oferta.
+A oferta substituta é enviada aos clientes se eles não estiverem qualificados para outras ofertas. As etapas para criar uma oferta substituta consistem na criação de uma ou várias representações, como ao criar uma oferta.
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-A lista de ofertas de fallback pode ser acessada na **[!UICONTROL Ofertas]** menu.
+A lista de ofertas substitutas está acessível no **[!UICONTROL Ofertas]** menu.
 
 ![](../assets/offers_list.png)
 
-Para criar uma oferta de fallback, siga estas etapas:
+Para criar uma oferta substituta, siga estas etapas:
 
 >[!NOTE]
 >
->Observe que, ao contrário das ofertas personalizadas, as ofertas de fallback não têm regras de elegibilidade e parâmetros de restrição, pois são apresentadas aos clientes como últimos recursos sem condição.
+>Observe que, diferentemente das ofertas personalizadas, as ofertas substitutas não têm regras de qualificação e parâmetros de restrição, pois são apresentadas aos clientes como últimos recursos sem condição.
 
-1. Clique em **[!UICONTROL Criar oferta]**, em seguida selecione **[!UICONTROL Oferta de fallback]**.
+1. Clique em **[!UICONTROL Criar oferta]** e selecione **[!UICONTROL Oferta substituta]**.
 
    ![](../assets/create_fallback.png)
 
-1. Especifique o nome da oferta de fallback. Também é possível associar uma ou várias tags existentes a elas, permitindo pesquisar e organizar a Biblioteca de ofertas com mais facilidade.
+1. Especifique o nome da oferta substituta. Você também pode associar um ou vários qualificadores de coleção existentes (anteriormente conhecidos como &quot;tags&quot;) a eles, permitindo pesquisar e organizar a Biblioteca de ofertas com mais facilidade.
 
    ![](../assets/fallback_details.png)
 
-1. Para atribuir rótulos de uso de dados personalizados ou principais à oferta, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o Controle de Acesso no Nível do Objeto (OLAC)](../../administration/object-based-access.md)
+1. Para atribuir rótulos de uso de dados personalizados ou principais à oferta, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Object Level Access Control)](../../administration/object-based-access.md)
 
-1. Crie uma ou várias representações para a oferta de fallback. Para fazer isso, arraste e solte disposições do painel esquerdo, como ao criar uma oferta personalizada. Consulte [Criar ofertas personalizadas](../offer-library/creating-personalized-offers.md).
+1. Crie uma ou várias representações para a oferta substituta. Para fazer isso, arraste e solte disposições do painel esquerdo, como ao criar uma oferta personalizada. Consulte [Criar ofertas personalizadas](../offer-library/creating-personalized-offers.md).
 
    ![](../assets/fallback_content.png)
 
-1. Depois que as representações da oferta de fallback forem adicionadas, um resumo será exibido. Se tudo estiver configurado corretamente e a oferta de fallback estiver pronta para ser apresentada aos clientes, clique em **[!UICONTROL Concluir]**, em seguida selecione **[!UICONTROL Salvar e aprovar]**.
+1. Depois que as representações da oferta substituta forem adicionadas, um resumo será exibido. Se tudo estiver configurado corretamente e sua oferta substituta estiver pronta para ser apresentada aos clientes, clique em **[!UICONTROL Concluir]** e selecione **[!UICONTROL Salvar e aprovar]**.
 
-   Você também pode salvar a oferta de fallback como rascunho, para editá-la e aprová-la posteriormente.
+   Você também pode salvar a oferta substituta como rascunho para editá-la e aprová-la posteriormente.
 
    ![](../assets/fallback_review.png)
 
-1. A oferta de fallback é exibida na lista com a variável **[!UICONTROL Ao vivo]** ou **[!UICONTROL Rascunho]** , dependendo de você ter aprovado ou não na etapa anterior.
+1. A oferta substituta é exibida na lista com a variável **[!UICONTROL Ao vivo]** ou **[!UICONTROL Rascunho]** Status, dependendo se você o aprovou ou não na etapa anterior.
 
-   Agora ele está pronto para ser entregue aos clientes. Você pode selecioná-lo para exibir suas propriedades e editá-lo. <!-- no suppression? -->
+   Agora ele está pronto para ser entregue aos clientes. Você pode selecioná-la para exibir suas propriedades e editá-la. <!-- no suppression? -->
 
    ![](../assets/fallback_created.png)
 
-## Vídeo tutorial {#video}
+## Vídeo explicativo {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

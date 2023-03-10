@@ -1,23 +1,23 @@
 ---
-title: Criar uma tag
-description: Tags permitem organizar e classificar melhor suas ofertas.
+title: Criar um qualificador de coleção
+description: Os qualificadores de coleção permitem organizar e classificar melhor suas ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
-source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 12%
+source-wordcount: '141'
+ht-degree: 7%
 
 ---
 
-# Criar uma tag {#create-tag}
+# Criar um qualificador de coleção {#create-tag}
 
-Você pode criar uma tag, fazendo uma solicitação de POST para a variável [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
+Você pode criar um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;) fazendo uma solicitação POST para o [!DNL Offer Library] ao fornecer a ID do contêiner.
 
-## Aceitar e digitar cabeçalhos de tipo de conteúdo {#accept-and-content-type-headers}
+## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
 A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
@@ -34,8 +34,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde as tags estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O contêiner onde os qualificadores de coleta estão localizados. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Solicitação**
 
@@ -55,7 +55,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a tag recém-criada, incluindo sua ID de instância e seu posicionamento exclusivos `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua tag. Você pode usar sua tag exclusiva `@id` em tutoriais posteriores para criar coleções e ofertas personalizadas.
+Uma resposta bem-sucedida retorna informações sobre o qualificador de coleção recém-criado, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou deletar o qualificador de coleta. Você pode usar seu qualificador de coleta exclusivo `@id` em tutoriais posteriores, para criar coleções e ofertas personalizadas.
 
 ```json
 {

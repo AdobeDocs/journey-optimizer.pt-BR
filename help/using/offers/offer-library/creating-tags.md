@@ -1,47 +1,47 @@
 ---
-title: Criar tags
-description: Saiba como criar tags para suas ofertas
+title: Criar qualificadores de coleção
+description: Saiba como criar qualificadores de coleção para suas ofertas
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 6%
+source-wordcount: '185'
+ht-degree: 2%
 
 ---
 
-# Criar tags {#create-tags}
+# Criar qualificadores de coleção {#create-tags}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
->title="Tags"
->abstract="Associe uma ou várias tags à oferta para manter a Biblioteca de ofertas organizada e localizar ofertas com mais facilidade. As tags são criadas no menu &quot;Componente&quot;."
+>title="Qualificadores de coleção"
+>abstract="Associe um ou vários qualificadores de coleção à oferta para manter sua Biblioteca de ofertas organizada e localizar ofertas mais facilmente. Os qualificadores de coleção são criados no menu &quot;Componente&quot;."
 
-A associação de tags às suas ofertas facilita a organização dessas tags. Por exemplo, você pode rotular as ofertas de Black Friday com a tag &quot;Black Friday&quot;. Em seguida, você pode usar a funcionalidade de pesquisa na Biblioteca de ofertas para localizar facilmente todas as ofertas com essa tag.
+Associar qualificadores de coleção (anteriormente conhecidos como &quot;tags&quot;) às suas ofertas facilita a organização. Por exemplo, você pode rotular as ofertas de Black Friday com o qualificador de coleção &quot;Black Friday&quot;. Em seguida, você pode usar a funcionalidade de pesquisa na Biblioteca de ofertas para localizar facilmente todas as ofertas com esse qualificador de coleção.
 
-Tags também podem ser usadas para agrupar ofertas em coleções de ofertas. Consulte [Criar coleções](../offer-library/creating-collections.md).
+Os qualificadores de coleção também podem ser usados para agrupar ofertas em coleções de ofertas. Consulte [Criar coleções](../offer-library/creating-collections.md).
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-A lista de tags criadas pode ser acessada na **[!UICONTROL Componentes]** menu.
+A lista de qualificadores de coleta criados pode ser acessada na **[!UICONTROL Componentes]** menu.
 
 ![](../assets/tags_list.png)
 
-Para criar uma tag, siga estas etapas:
+Para criar um qualificador de coleta, siga estas etapas:
 
-1. Vá para o **[!UICONTROL Tags]** e, em seguida, clique em **[!UICONTROL Criar tag]**.
+1. Vá para a **[!UICONTROL Qualificadores de coleção]** e clique em **[!UICONTROL Criar qualificador de coleção]**.
 
-1. Especifique o nome da tag e clique em **[!UICONTROL Salvar]**.
+1. Especifique o nome do qualificador de coleta e clique em **[!UICONTROL Salvar]**.
 
    ![](../assets/tags_create.png)
 
-1. Depois que a tag for criada, ela será exibida na lista. Você pode selecioná-lo para exibir suas propriedades e editá-lo ou suprimi-lo.
+1. Depois que o qualificador de coleta é criado, ele é exibido na lista. Você pode selecioná-lo para exibir suas propriedades e editá-lo ou suprimi-lo.
 
    ![](../assets/tags_created.png)
 
-## Vídeo tutorial {#video}
+## Vídeo explicativo {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

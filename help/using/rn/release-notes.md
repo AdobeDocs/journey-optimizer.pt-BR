@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 95%
+source-wordcount: '1025'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,12 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 **Gerenciar tags em suas Jornadas**
 
 Como um profissional da Journey Optimizer, agora você pode organizar seus objetos de negócios usando tags do. Tags são uma maneira rápida e fácil de classificar objetos para melhorar a pesquisa. No momento, esse recurso está na versão beta e só está disponível para Jornada. [Saiba mais](../building-journeys/tags.md)
+
+**Tags de gestão de decisão renomeadas para Qualificadores de coleção**
+
+Para evitar qualquer confusão em potencial com o recurso de lançamento recente de tags na Adobe Experience Platform, as tags do Gerenciamento de decisão foram renomeadas para &quot;Qualificadores de coleção&quot;.
+
+Observe que, embora o termo &quot;tag&quot; não seja mais usado na interface do usuário do Gerenciamento de decisão, ele ainda é usado em serviços de back-end, como APIs e conjuntos de dados.
 
 ## Notas de versão de fevereiro de 2023 {#feb-2023}
 

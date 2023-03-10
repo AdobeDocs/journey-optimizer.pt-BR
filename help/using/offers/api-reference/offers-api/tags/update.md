@@ -1,25 +1,25 @@
 ---
-title: Atualizar tags
-description: Tags permitem organizar e classificar melhor suas ofertas.
+title: Atualizar qualificadores de coleção
+description: Os qualificadores de coleção permitem organizar e classificar melhor suas ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 9%
+source-wordcount: '171'
+ht-degree: 7%
 
 ---
 
-# Atualizar uma tag {#update-tag}
+# Atualizar um qualificador de coleção {#update-collection qualifier}
 
-Você pode modificar ou atualizar uma tag em seu contêiner fazendo uma solicitação de PATCH para o [!DNL Offer Library] API.
+Você pode modificar ou atualizar um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;) no seu contêiner fazendo uma solicitação PATCH para o [!DNL Offer Library] API.
 
-Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação do patch JSON](http://jsonpatch.com/).
+Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação de patch de JSON](http://jsonpatch.com/).
 
-## Aceitar e digitar cabeçalhos de tipo de conteúdo {#accept-and-content-type-headers}
+## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
 A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
@@ -36,9 +36,9 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde as tags estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | O ID da instância da tag que você deseja atualizar. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O container onde as tags estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | A ID de instância da tag que você deseja atualizar. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **Solicitação**
 
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | Parâmetro | Descrição |
 | --------- | ----------- |
-| `op` | A chamada de operação usada para definir a ação necessária para atualizar a conexão. As operações incluem: `add`, `replace`e `remove`. |
+| `op` | A chamada de operação usada para definir a ação necessária para atualizar a conexão. As operações incluem: `add`, `replace`, e `remove`. |
 | `path` | O caminho do parâmetro a ser atualizado. |
 | `value` | O novo valor com o qual você deseja atualizar seu parâmetro. |
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes atualizados da tag , incluindo a ID da instância e a tag exclusivas `@id`.
+Uma resposta bem-sucedida retorna os detalhes atualizados do qualificador de coleta, incluindo sua ID de instância exclusiva e o qualificador de coleta `@id`.
 
 ```json
 {

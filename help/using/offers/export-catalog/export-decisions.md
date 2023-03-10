@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1552'
 ht-degree: 3%
 
 ---
@@ -19,13 +19,13 @@ Cada vez que uma oferta é modificada, o conjunto de dados gerado automaticament
 
 ![](../assets/dataset-activities.png)
 
-O lote bem-sucedido mais recente no conjunto de dados é exibido à direita. A exibição hierárquica do esquema do conjunto de dados é exibida no painel esquerdo.
+O lote bem-sucedido mais recente no conjunto de dados é exibido à direita. A visualização hierárquica do esquema do conjunto de dados é exibida no painel esquerdo.
 
 >[!NOTE]
 >
->Saiba como acessar os conjuntos de dados exportados para cada objeto da Biblioteca de ofertas em [esta seção](../export-catalog/access-dataset.md).
+>Saiba como acessar os conjuntos de dados exportados para cada objeto da Biblioteca de ofertas no [nesta seção](../export-catalog/access-dataset.md).
 
-Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Repositório de objetos de decisão - decisões]** conjunto de dados (anteriormente conhecido como Repositório de objetos de decisão - Atividades).
+Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTROL Repositório de objetos de decisão - Decisões]** (anteriormente conhecido como Repositório de objetos de decisão - Atividades).
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
@@ -33,68 +33,68 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 
 **Campo:** _id
 **Título:** Identificador
-**Descrição:** Um identificador exclusivo para o registro.
+**Descrição:** Um identificador exclusivo do registro.
 **Tipo:** sequência de caracteres
 
 +++
 
 +++ _experiência
 
-**Campo:** _experiência
+**Campo:** _experience
 **Tipo:** objeto
 
 +++
 
-+++ _experience > decisão
++++ _experience > decisioning
 
 **Campo:** decisão
 **Tipo:** objeto
 
 +++
 
-+++ _experience > decisioning > critérios
++++ _experience > decisioning > criteria
 
 **Campo:** critérios
 **Título:** Critérios
-**Descrição:** Define um conjunto de critérios de decisão, onde cada um contém um conjunto de restrições.
-**Tipo:** array
+**Descrição:** Define um conjunto de critérios de decisão em que cada um contém um conjunto de restrições.
+**Tipo:** matriz
 
 +++
 
-+++ _experience > decisioning > critérios > descrição
++++ _experience > decisioning > criteria > description
 
 **Campo:** descrição
 **Título:** Descrição
-**Descrição:** Descrição do critério. É utilizado para transmitir intenções legíveis ao ser humano sobre a forma como este critério foi construído e como está a afetar a decisão.
+**Descrição:** Descrição do critério. É usado para transmitir intenções legíveis por humanos sobre como ou por que esse critério foi construído e como ele está afetando a decisão.
 **Tipo:** sequência de caracteres
 
 +++
 
-++_experience > decisão > critérios > opçãoSeleção
++++_experience > decisão > critérios > optionSelection
 
 **Campo:** optionSelection
 **Título:** Seleção de opção
-**Descrição:** A seleção de opção define a validade/aplicabilidade das opções neste contexto.
+**Descrição:** A seleção de opções define a validade/aplicabilidade das opções neste contexto.
 **Tipo:** objeto
 
 * Descrição
 
    **Campo:** descrição
    **Título:** Descrição
-   **Descrição:** Descrição da seleção da opção. Ele é usado para transmitir intenções legíveis humanas sobre como ou por que essa seleção de opção foi construída e/ou qual opção corresponderá.
+   **Descrição:** Descrição da seleção de opção. É usado para transmitir intenções legíveis por humanos sobre como ou por que essa seleção de opção foi construída e/ou qual opção corresponderá.
    **Tipo:** sequência de caracteres
 
-* Filtro de opções
+* Filtro de opção
 
-   **Campo:** filter
-   **Título:** Filtro de opções
-   **Descrição:** A referência a um filtro baseado em tag que corresponde às opções de um inventário usando suas tags anexadas. O valor é o URI (@id) da regra de decisão referenciada. Consulte esquema https://ns.adobe.com/experience/decisioning/filter.
+   **Campo:** filtro
+   **Título:** Filtro de opção
+   **Descrição:** A referência a um filtro baseado em qualificador de coleção (anteriormente conhecido como &quot;etiqueta&quot;) que corresponde às opções de um estoque usando seus qualificadores de coleção anexados. O valor é o URI (@id) da regra de decisão referenciada. Consulte schema https://ns.adobe.com/experience/decisioning/filter.
    **Tipo:** sequência de caracteres
 
-* Tipo de restrição do perfil
+* Tipo de Restrição de Perfil
 
    **Campo:** optionSelectionType
-   **Título:** Tipo de restrição do perfil
+   **Título:** Tipo de Restrição de Perfil
    **Descrição:** Determina se alguma restrição está definida no momento e como as restrições são expressas. Pode ser por meio de uma consulta de filtro ou por meio de uma ou mais associações de segmento.
    **Tipo:** sequência de caracteres
    **Valores possíveis:** &quot;none&quot; (padrão), &quot;directList&quot;, &quot;filter&quot;
@@ -104,75 +104,75 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
    **Campo:** opções
    **Título:** Lista de opções
    **Descrição:** Uma lista que especifica diretamente as opções sem avaliar uma consulta de filtro. É possível especificar uma lista de opções ou uma regra de filtro de opções.
-   **Tipo:** array
+   **Tipo:** matriz
 
 <!--Missing title under Option List? Desc = An identifier of an decision option entity. The value value refers to an `@id` property of a decision option. Type: string-->
 
 +++
 
-++_experience > decisão > critérios > disposições
++++_experience > decisão > critérios > inserções
 
 **Campo:** disposições
-**Título:** Restrições de disposição
-**Descrição:** A restrição de posicionamento declara que esse critério só é aplicável para as disposições listadas. Somente quando o posicionamento direcionado estiver na variável `xdm:placements` lista é a seleção de opção considerada. Caso contrário, todos os critérios de decisão serão ignorados. Quando a lista &quot;xdm:disposições&quot; é omitida ou está vazia, o critério é considerado para qualquer disposição direcionada. As disposições listadas aqui impõem critérios implícitos para a seleção da opção. Uma opção a ser considerada deve ter uma representação para a disposição direcionada.
-**Tipo:** array
+**Título:** Restrições de posicionamento
+**Descrição:** A restrição de posicionamento declara que esse critério só é aplicável para os posicionamentos listados. Somente quando o posicionamento direcionado estiver na `xdm:placements` list é a seleção de opção considerada. Caso contrário, todo o critério de decisão será ignorado. Quando a lista &quot;xdm:placements&quot; é omitida ou está vazia, o critério é considerado para qualquer posicionamento direcionado. As disposições listadas aqui impõem critérios implícitos para a seleção de opções. Uma opção a ser considerada deve ter uma representação para a inserção direcionada.
+**Tipo:** matriz
 
-* Identificador de disposição
+* Identificador de posicionamento
 
-   **Título:** Identificador de disposição
-   **Descrição:** Uma referência a uma entidade de disposição. O valor é o URI (@id) da disposição referenciada. Consulte esquema https://ns.adobe.com/experience/decisioning/placement.
+   **Título:** Identificador de posicionamento
+   **Descrição:** Uma referência a uma entidade de posicionamento. O valor é o URI (@id) do posicionamento referenciado. Consulte schema https://ns.adobe.com/experience/decisioning/placement.
    **Tipo:** sequência de caracteres
 
 +++
 
-++_experience > decisão > critérios > profileConstraints
++++_experience > decisão > critérios > profileConstraints
 
 **Campo:** profileConstraints
 **Título:** Restrição de perfil
-**Descrição:** A restrição de perfil decide se uma seleção de opção está qualificada para essa identidade de perfil no momento, neste contexto. Se a restrição de perfil não precisar considerar valores de cada opção, ou seja, se for invariável das opções da seleção de opção, a restrição de perfil que resulta em &quot;falso&quot; cancelará toda a seleção de opção. Por outro lado, uma regra de restrição de perfil que utiliza uma opção como parâmetro é avaliada para cada opção de qualificação da seleção de opção.
+**Descrição:** A restrição de perfil decide se uma seleção de opção é elegível para essa identidade de perfil neste momento, neste contexto. Se a restrição de perfil não precisar considerar valores de cada opção, ou seja, se for invariável das opções da seleção da opção, a restrição de perfil avaliada como &#39;falsa&#39; cancelará toda a seleção da opção. Por outro lado, uma regra de restrição de perfil que usa uma opção como parâmetro é avaliada para cada opção de qualificação da seleção da opção.
 **Tipo:** objeto
 
 +++
 
-++_experience > decisão > critérios > profileConstraints > Descrição
++++_experience > decisão > critérios > profileConstraints > Descrição
 
 **Campo:** descrição
 **Título:** Descrição
-**Descrição:** Descrição de restrição de perfil. É usado para transmitir intenções legíveis humanas sobre como ou por que essa restrição de perfil foi construída e/ou qual opção será incluída ou excluída por ela.
+**Descrição:** Descrição de restrição de perfil. É usado para transmitir intenções legíveis por humanos sobre como ou por que essa restrição de perfil foi construída e/ou qual opção será incluída ou excluída por ela.
 **Tipo:** sequência de caracteres
 
 +++
 
-+++ _experience > decisioning > critérios > profileConstraints > Regra de elegibilidade
++++ _experience > decisão > critérios > profileConstraints > Regra de elegibilidade
 
-**Campo:** ibilityRule
+**Campo:** eligibilityRule
 **Título:** Regra de elegibilidade
-**Descrição:** Uma referência a uma regra de decisão que avalia como true ou false para um determinado perfil e/ou outros objetos XDM contextuais específicos. A regra é usada para decidir se a opção se qualifica para um determinado perfil. O valor é o URI (@id) da regra de decisão referenciada. Consulte esquema https://ns.adobe.com/experience/decisioning/rule.
+**Descrição:** Uma referência a uma regra de decisão que é avaliada como verdadeira ou falsa para um determinado perfil e/ou outros objetos XDM contextuais fornecidos. A regra é usada para decidir se a opção se qualifica para um determinado perfil. O valor é o URI (@id) da regra de decisão referenciada. Consulte schema https://ns.adobe.com/experience/decisioning/rule.
 **Tipo:** sequência de caracteres
 
 +++
 
-+++ _experience > decisioning > critérios > profileConstraints > Tipo de restrição de perfil
++++ _experience > decisão > critérios > profileConstraints > Tipo de restrição do perfil
 
 **Campo:** profileConstraintType
-**Título:** Tipo de restrição do perfil
-**Descrição:** Determina se alguma restrição está definida no momento e como as restrições são expressas. Pode ser por meio de uma regra ou por meio de uma ou mais associações de segmento.
+**Título:** Tipo de Restrição de Perfil
+**Descrição:** Determina se alguma restrição está definida no momento e como as restrições são expressas. Pode ser por meio de uma regra ou de uma ou mais associações de segmento.
 **Tipo:** string
 **Valores possíveis:**
 * &quot;none&quot; (padrão)
-* &quot;eligentRule&quot;: &quot;A restrição de perfil é expressa como uma única regra que deve ser avaliada como true antes que a ação restrita seja permitida.&quot;
+* &quot;eligibilityRule&quot;: &quot;A restrição de perfil é expressa como uma única regra que deve ser avaliada como verdadeira antes que a ação restrita seja permitida.&quot;
 * &quot;anySegments&quot;: &quot;A restrição de perfil é expressa como um ou mais segmentos e o perfil deve ser um membro de pelo menos um deles antes que a ação restrita seja permitida.&quot;
-* &quot;allSegments&quot;: &quot;A restrição de perfil é expressa como um ou mais segmentos e o perfil deve ser um membro de todos eles antes que a ação restrita seja permitida.&quot;
-* &quot;rules&quot;: &quot;A restrição de perfil é expressa como um número de regras diferentes, por exemplo, qualificação, aplicabilidade, adequação, que devem ser avaliadas como true antes que a ação restrita seja permitida.&quot;
+* &quot;allSegments&quot;: &quot;A restrição de perfil é expressa como um ou mais segmentos e o perfil deve ser um membro de todos eles antes da ação restrita ser permitida.&quot;
+* &quot;regras&quot;: &quot;A restrição de perfil é expressa como um número de regras diferentes, por exemplo, elegibilidade, aplicabilidade, adequação, que devem ser avaliadas como verdadeiras antes que a ação restrita seja permitida.&quot;
 
 +++
 
-+++ _experience > decisioning > critérios > profileConstraints > segmentIdentities
++++ _experience > decisão > critérios > profileConstraints > segmentIdentities
 
 **Campo:** segmentIdentities
 **Título:** Identificadores de segmento
 **Descrição:** Identificadores dos segmentos.
-**Tipo:** array
+**Tipo:** matriz
 
 * Identificador
 
@@ -193,46 +193,46 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 
       **Campo:** código
       **Título:** Código
-      **Descrição:** O código é um identificador legível para o namespace e pode ser usado para solicitar a id de namespace técnico, que é usada para o processamento de gráficos de identidade.
+      **Descrição:** O código é um identificador legível por humanos para o namespace e pode ser usado para solicitar a id técnica do namespace que é usada para o processamento do gráfico de identidade.
       **Tipo:** sequência de caracteres
 
-* Identificador da experiência
+* Identificador de experiência
 
    **Campo:** xid
-   **Título:** Identificador da experiência
+   **Título:** Identificador de experiência
    **Descrição:** Quando presente, esse valor representa um identificador de namespace cruzado que é exclusivo em todos os identificadores de escopo de namespace em todos os namespaces.
    **Tipo:** sequência de caracteres
 
 +++
 
-++_experience > decisão > critérios > classificação
++++_experience > decisão > critérios > classificação
 
 **Campo:** classificação
 **Título:** Detalhes da classificação
-**Descrição:** Classificação (prioridade). Define como o \&quot;melhor opção\&quot; é determinado no contexto do critério de decisão. Entre todas as opções selecionadas que atendem às restrições de perfil, a classificação decidirá as opções principais (ou N principais) a serem propostas.
+**Descrição:** Classificação (prioridade). Define como a \&quot;melhor opção\&quot; é determinada dado o contexto do critério de decisão. Entre todas as opções selecionadas que atendem às restrições de perfil, a classificação decidirá as opções principais (ou N principais) a serem propostas.
 **Tipo:** objeto
 
 +++
 
-++_experience > decisão > critérios > classificação > ordem
++++_experience > decisão > critérios > classificação > ordem
 
 **Campo:** pedido
-**Título:** Avaliação de pedidos
-**Descrição:** Avaliação de uma ordem relativa de uma ou mais opções de decisão. Opções com valores ordinais mais altos são selecionadas em qualquer opção com valores ordinais mais baixos. Os valores determinados por este método podem ser ordenados, mas as distâncias entre eles não podem ser medidas, nem os montantes nem os produtos podem ser calculados. A mediana e o modo são as únicas medidas de tendência central que podem ser usadas para dados ordinais.
+**Título:** Avaliação do pedido
+**Descrição:** Avaliação de uma ordem relativa de uma ou mais opções de decisão. As opções com valores ordinais mais altos são selecionadas sobre qualquer opção com valores ordinais mais baixos. Os valores determinados por este método podem ser ordenados, mas as distâncias entre eles não podem ser medidas e nem somas nem produtos podem ser calculados. A mediana e o modo são as únicas medidas de tendência central que podem ser usadas para dados ordinais.
 **Tipo:** objeto
 
 * Função de pontuação
 
    **Campo:** função
    **Título:** Função de pontuação
-   **Descrição:** Uma referência a uma função que calcula uma pontuação numérica para essa opção de decisão. As opções de decisão serão ordenadas (classificadas) de acordo com essa pontuação. O valor dessa propriedade é o URI (@id) da função a ser chamada com a opção on de cada vez. Consulte esquema https://ns.adobe.com/experience/decisioning/function.
+   **Descrição:** Uma referência a uma função que calcula uma pontuação numérica para essa opção de decisão. As opções de decisão serão classificadas por essa pontuação. O valor dessa propriedade é o URI (@id) da função a ser chamada com uma opção de cada vez. Consulte schema https://ns.adobe.com/experience/decisioning/function.
    **Tipo:** sequência de caracteres
 
 * Tipo de avaliação do pedido**
 
    **Campo:** orderEvaluationType
-   **Título:** Tipo de Avaliação de Pedido
-   **Descrição:** Especifica qual mecanismo de avaliação de ordem é usado, prioridade estática das opções de decisão, uma função de pontuação que calcula um valor numérico para cada opção ou uma estratégia de classificação que recebe uma lista para solicitá-la.
+   **Título:** Tipo de avaliação do pedido
+   **Descrição:** Especifica qual mecanismo de avaliação de ordem é usado, prioridade estática das opções de decisão, uma função de pontuação que calcula um valor numérico para cada opção ou uma estratégia de classificação que recebe uma lista para ordená-la.
    **Tipo:** sequência de caracteres
    **Valores possíveis:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
@@ -240,23 +240,23 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 
    **Campo:** rankingStrategy
    **Título:** Estratégia de classificação
-   **Descrição:** Uma referência a uma estratégia que classifica uma lista de opções de decisão. As opções de decisão serão retornadas em uma lista ordenada. O valor dessa propriedade é o URI (@id) da função a ser chamada com a opção on de cada vez. Consulte esquema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+   **Descrição:** Uma referência a uma estratégia que classifica uma lista de opções de decisão. As opções de decisão serão retornadas em uma lista ordenada. O valor dessa propriedade é o URI (@id) da função a ser chamada com uma opção de cada vez. Consulte schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
    **Tipo:** sequência de caracteres
 
 +++
 
-+++ _experience > decisioning > critérios > classificação > Prioridade
++++ _experiência > decisão > critérios > classificação > Prioridade
 
-**Campo:** priority
+**Campo:** prioridade
 **Título:** Prioridade
-**Descrição:** A prioridade de uma única opção de decisão em relação a todas as outras opções. As opções para as quais nenhuma função de pedido é fornecida são priorizadas usando essa propriedade. As opções com valores de prioridade mais alta são selecionadas antes de qualquer opção de prioridade mais baixa. Se duas ou mais opções qualificadas compartilharem o valor de prioridade mais alto, uma é escolhida aleatoriamente e usada para a proposta de decisão.
-**Tipo:** integer
+**Descrição:** A prioridade de uma única opção de decisão em relação a todas as outras opções. As opções para as quais nenhuma função de ordem é fornecida são priorizadas usando essa propriedade. As opções com valores de prioridade mais altos são selecionadas antes de qualquer opção de prioridade mais baixa. Se duas ou mais opções qualificadas compartilharem o valor de prioridade mais alto, uma será escolhida aleatoriamente e usada para a apresentação de decisão.
+**Tipo:** inteiro
 **Valor mínimo:** 0
 **Valor padrão:** 0
 
 +++
 
-+++ _experience > decisioning > Data e hora de término da atividade
++++ _experience > decisão > Data e hora de término da atividade
 
 **Campo:** endTime
 **Título:** Data e hora de término da atividade
@@ -265,11 +265,11 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 
 +++
 
-+++ _experience > decisioning > Opção de fallback
++++ _experience > decisão > Opção de Fallback
 
 **Campo:** fallback
-**Título:** Opção de fallback
-**Descrição:** A referência a uma opção de fallback que é usada ao tomar decisões no contexto desta decisão não qualifica nenhuma das opções regulares (isso normalmente acontece quando as restrições rígidas são aplicadas). O valor é o URI (@id) da opção de fallback referenciada.
+**Título:** Opção de Fallback
+**Descrição:** A referência a uma opção de fallback usada ao tomar decisões no contexto desta decisão não qualifica nenhuma das opções regulares (isso normalmente acontece quando restrições rígidas são aplicadas). O valor é o URI (@id) da opção de fallback referenciada.
 **Tipo:** sequência de caracteres
 
 +++
@@ -278,16 +278,16 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 
 **Campo:** name
 **Título:** Nome da atividade
-**Descrição:** Nome da decisão (anteriormente conhecido como atividade) que é exibido em várias interfaces do usuário.
+**Descrição:** Nome da decisão (anteriormente conhecida como atividade) que é exibido em várias interfaces do usuário.
 **Tipo:** sequência de caracteres
 
 +++
 
-++_experience > decisioning > Data e hora de início da atividade
++++_experience > decisioning > Data e hora de início da atividade
 
 **Campo:** startTime
 **Título:** Data e hora de início da atividade
-**Descrição:** Data e hora de início e término da decisão (anteriormente conhecida como atividade). A propriedade tem a semântica da propriedade &#39;startTime&#39; de schema.org definida em http://schema.org/Action.
+**Descrição:** Data de início e hora de término da decisão (anteriormente conhecida como atividade). A propriedade tem a semântica da propriedade &#39;startTime&#39; de schema.org definida em http://schema.org/Action.
 **Tipo:** sequência de caracteres
 
 +++
@@ -299,11 +299,11 @@ Esta é a lista de todos os campos que podem ser usados no **[!UICONTROL Reposit
 
 +++
 
-+++ _repo > ETag da atividade
++++ _repo > ETag Atividade
 
-**Campo:** tag
-**Título:** ETag da atividade
-**Descrição:** A revisão de que o objeto da decisão (anteriormente conhecido como atividade) estava no momento em que o instantâneo foi tirado.
+**Campo:** etag
+**Título:** ETag de atividade
+**Descrição:** A revisão na qual o objeto de decisão (anteriormente conhecido como atividade) estava quando o instantâneo foi tirado.
 **Tipo:** sequência de caracteres
 
 +++
