@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 87%
+source-wordcount: '1064'
+ht-degree: 86%
 
 ---
 
@@ -33,6 +33,12 @@ Como um profissional da Journey Optimizer, agora você pode organizar seus objet
 Para evitar qualquer confusão em potencial com o recurso de lançamento recente de tags na Adobe Experience Platform, as tags do Gerenciamento de decisão foram renomeadas para &quot;Qualificadores de coleção&quot;.
 
 Observe que, embora o termo &quot;tag&quot; não seja mais usado na interface do usuário do Gerenciamento de decisão, ele ainda é usado em serviços de back-end, como APIs e conjuntos de dados.
+
+**Limite da gestão de decisões**
+
+* Agora é possível redefinir o contador de limite de oferta diariamente, semanalmente ou mensalmente. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
+
+* Você também pode escolher qual evento do Adobe Experience Platform deve ser observado para o limite de offer decisioning. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
 ## Notas de versão de fevereiro de 2023 {#feb-2023}
 
@@ -163,10 +169,6 @@ Note that each widget can be resized and deleted as needed.
 -->
 
 * **Personalização de URL**: ao adicionar URLs como conteúdo às representações de suas ofertas, agora é possível personalizar esses URLs usando o editor de expressão. [Saiba mais](../offers/offer-library/add-representations.md)
-
-* **Limite** - Agora você pode redefinir o contador de limite de oferta diariamente, semanalmente ou mensalmente. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
-
-* **Limite** - Agora você pode escolher qual evento do Adobe Experience Platform deve ser observado para o limite de offer decisioning. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
 ## Versão de janeiro de 2023 {#jan-2023-release}
 
