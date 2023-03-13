@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
 workflow-type: tm+mt
-source-wordcount: '2290'
+source-wordcount: '2323'
 ht-degree: 2%
 
 ---
@@ -200,14 +200,21 @@ A variável **[!UICONTROL Evento de limite]** permite definir quais **[!UICONTRO
 
    <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   No exemplo abaixo, você deseja limitar o número de subscrições. Selecionar **[!UICONTROL Evento personalizado]** na lista e use o **[!UICONTROL Criar regras de evento personalizadas]** construtor para selecionar os eventos relevantes.
+   No exemplo abaixo, você deseja limitar o número de check-outs.
 
-   ![](../assets/offer-capping-custom-event.png)
+   1. Selecionar **[!UICONTROL Evento personalizado]** na lista e use o **[!UICONTROL Adicionar evento personalizado]** botão.
 
-   Depois que a regra é criada, ela é exibida no **[!UICONTROL Consulta de evento personalizada]** campo.
+      ![](../assets/offer-capping-custom-event-add.png)
 
-   ![](../assets/offer-capping-custom-event-query.png)
+   1. Use o **[!UICONTROL Criar regras de evento personalizadas]** construtor para selecionar o evento relevante. Você pode escolher qualquer ação do usuário para a qual deseja limitar as ofertas.
 
+      Escolha aqui **[!UICONTROL Commerce]** > **[!UICONTROL Check-outs]** > **[!UICONTROL Valor]** e selecione **[!UICONTROL existe]** na lista suspensa.
+
+      ![](../assets/offer-capping-custom-event.png)
+
+   1. Depois que a regra é criada, ela é exibida no **[!UICONTROL Consulta de evento personalizada]** campo.
+
+      ![](../assets/offer-capping-custom-event-query.png)
    >[!CAUTION]
    >
    >Para todos os eventos de limitação, exceto o evento de decisão, o feedback da gestão de decisões pode não ser coletado automaticamente, portanto, verifique se os dados estão chegando. [Saiba mais sobre a coleção de dados](../data-collection/data-collection.md)
@@ -222,7 +229,7 @@ A variável **[!UICONTROL Contagem de limite]** permite especificar o número de
 >
 >O número deve ser um inteiro maior que 0.
 
-Por exemplo, se você definiu um evento de limite personalizado, como assinaturas, que são consideradas, insira 10 na caixa **[!UICONTROL Contagem de limite]** , nenhuma oferta a mais será enviada após 10 assinaturas.
+Por exemplo, você definiu um evento de limite personalizado, como o número de check-outs que são considerados. Se você inserir 10 no campo **[!UICONTROL Contagem de limite]** não serão enviadas mais ofertas após 10 check-outs.
 
 ### Tipo de limite {#capping-type}
 
