@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introdução à composição de público-alvo
-description: Saiba mais sobre a composição do público-alvo
+description: Saiba mais sobre a composição de público-alvo
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,10 +10,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+badge: label="Beta" type="Informativo"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 9%
+source-wordcount: '307'
+ht-degree: 14%
 
 ---
 
@@ -22,40 +23,45 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Criar uma composição"
->abstract="Crie um fluxo de trabalho de composição para combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir..) para criar novos públicos-alvo."
+>abstract="Crie um fluxo de trabalho de composição para combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo."
+
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>O que você encontrará nesta documentação:<br/><ul>
+<li><b><a href="get-started-audience-orchestration.md">Introdução à composição de público-alvo</a></b></li>
+<li><a href="create-compositions.md">Criar o primeiro fluxo de trabalho de composição</a></li>
+<li><a href="composition-canvas.md">Trabalhar com a tela de composição</a></li>
+<li><a href="access-audiences.md">Acessar e gerenciar públicos-alvo</a></li></ul></td></tr></table>
 
 >[!AVAILABILITY]
 >
->Atualmente, a composição do público-alvo está disponível apenas como um beta privado e pode estar sujeita a atualizações frequentes sem aviso prévio.
+>A composição de público-alvo está disponível no momento apenas como um beta privado e pode estar sujeita a atualizações frequentes sem aviso prévio. O beta é provisionado no nível da Organização IMS, o que significa que afetará todas as sandboxes na organização.
 
-## Sobre a composição do público-alvo {#about}
+A composição do público-alvo permite criar **workflows de composição**, em que é possível combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo.
 
-A composição do público-alvo permite criar **workflows da composição**, onde é possível combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir..) para criar novos públicos-alvo.
-
-Depois de concluído, o **públicos-alvo resultantes** são salvos no Adobe Experience Platform junto com os públicos-alvo existentes e podem ser **aproveitado em campanhas** para direcionar clientes. [Saiba como trabalhar com campanhas](../campaigns/get-started-with-campaigns.md)
+Depois de concluído, o **públicos resultantes** são salvos na Adobe Experience Platform junto com os públicos existentes e podem ser **aproveitado em campanhas** para clientes-alvo. [Saiba como trabalhar com campanhas](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Os públicos-alvo resultantes de workflows de composição podem ser direcionados somente para campanhas do Journey Optimizer . Eles não estão disponíveis para uso no jornada.
+>Os públicos resultantes de workflows de composição podem ser direcionados somente para campanhas do Journey Optimizer. Eles não estão disponíveis para uso no jornada.
 
-## Acessar composição do público-alvo {#access}
+A composição de público-alvo pode ser acessada no Adobe Journey Optimizer **[!UICONTROL Segmentos]** menu:
 
-A composição do público-alvo pode ser acessada no **[!UICONTROL Segmentos]** menu:
+![](assets/audiences-browse.png)
 
-* O **[!UICONTROL Públicos-alvo]** lista todos os públicos-alvo existentes armazenados no Adobe Experience Platform. [Saiba como acessar e gerenciar públicos-alvo](access-audiences.md)
+* A variável **[!UICONTROL Visão geral]** A guia fornece um painel dedicado com métricas principais relacionadas aos dados de segmento de sua organização. Para saber mais, consulte [Guia de painéis do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html).
 
-* O **[!UICONTROL Composições]** permite criar fluxos de trabalho de composição, onde é possível combinar e organizar públicos para criar novos fluxos. [Saiba como criar workflows de composição](create-compositions.md)
+* A variável **[!UICONTROL Procurar]** A guia lista todos os públicos-alvo existentes armazenados no Adobe Experience Platform.
 
-![](assets/audiences-list.png)
+* A variável **[!UICONTROL Composições]** A guia permite criar workflows de composição em que você pode combinar e organizar públicos para criar novos.
 
->[!NOTE]
->
->Esta documentação se aplica somente à composição do público-alvo. O **[!UICONTROL Visão geral]** e **[!UICONTROL Segmentos]** são usadas no contexto da criação de definições de segmento. Para obter mais informações, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+Clique em cada cartão para saber como trabalhar com a composição de público-alvo:
 
-Saiba mais:
-
-* [Criar workflows de composição](create-compositions.md)
-* [Trabalhar com a tela de composição](composition-canvas.md)
-* [Acessar e gerenciar públicos-alvo](access-audiences.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="create-compositions.md"><img alt="Criar workflows de composição" src="../assets/do-not-localize/ao-workflows.jpg"></a>
+<div><a href="create-compositions.md"><strong>Criar o primeiro fluxo de trabalho de composição</strong></a></div></td>
+<td><a href="composition-canvas.md"><img alt="Trabalhar com a tela de composição" src="../assets/do-not-localize/ao-canvas.jpg"></a>
+<div><a href="composition-canvas.md"><strong>Trabalhar com a tela de composição</strong></a></div></td>
+<td><a href="access-audiences.md"><img alt="Acessar e gerenciar públicos-alvo" src="../assets/do-not-localize/ao-audiences.jpeg"></a>
+<div><a href="access-audiences.md"><strong>Acessar e gerenciar públicos-alvo</strong></a></div></td>
+</tr></table>
