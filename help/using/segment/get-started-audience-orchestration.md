@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informativo"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 14%
@@ -25,11 +25,16 @@ ht-degree: 14%
 >title="Criar uma composição"
 >abstract="Crie um fluxo de trabalho de composição para combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo."
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>O que você encontrará nesta documentação:<br/><ul>
-<li><b><a href="get-started-audience-orchestration.md">Introdução à composição de público-alvo</a></b></li>
-<li><a href="create-compositions.md">Criar o primeiro fluxo de trabalho de composição</a></li>
-<li><a href="composition-canvas.md">Trabalhar com a tela de composição</a></li>
-<li><a href="access-audiences.md">Acessar e gerenciar públicos-alvo</a></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+O que você encontrará nesta documentação:
+
+* **[Introdução à composição de público-alvo](get-started-audience-orchestration.md)**
+* [Criar o primeiro fluxo de trabalho de composição](create-compositions.md)
+* [Trabalhar com a tela de composição](composition-canvas.md)
+* [Acessar e gerenciar públicos-alvo](access-audiences.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

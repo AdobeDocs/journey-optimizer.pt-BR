@@ -8,28 +8,41 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+badge: label="Beta" type="Informativo"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 15%
+source-wordcount: '147'
+ht-degree: 23%
 
 ---
 
 # Introdução ao canal Web {#get-sarted-web}
 
+>[!BEGINSHADEBOX]
+
+O que você encontrará nesta documentação:
+
+* **[Introdução ao canal Web](get-started-web.md)**
+* [Criação de experiências da Web](create-web.md)
+* [Páginas da Web de autor](author-web.md)
+* [Extensão Auxiliar de edição visual](visual-editing-helper.md)
+* [Relatórios da Web](web-report.md)
+
+>[!ENDSHADEBOX]
+
 >[!AVAILABILITY]
 >
->O recurso de canal da Web está disponível no momento como um beta somente para usuários selecionados.
+>O recurso de canal da Web está disponível no momento como uma versão beta somente para usuários selecionados.
 
-[!DNL Journey Optimizer] O permite criar visualmente e entregar experiências personalizadas da Web para seus clientes.
+[!DNL Journey Optimizer] O permite criar visualmente e fornecer experiências personalizadas da web aos clientes.
 
-Se já estiver usando canais de saída, como email, SMS ou notificações por push, agora é possível aproveitar o canal da Web de entrada para oferecer uma experiência verdadeiramente personalizada que se estende por todos os canais.
+Se você já estiver usando canais de saída, como email, SMS ou notificações por push, agora poderá aproveitar o canal de entrada da Web para oferecer uma experiência verdadeiramente personalizada que se estende por todos os canais.
 
 >[!CAUTION]
 >
 >Atualmente em [!DNL Journey Optimizer] você só pode criar experiências da web usando **campanhas**.
 
-Por meio de uma interface visual intuitiva, esse recurso permite modificar suas propriedades da Web facilmente para experimentar, otimizar e personalizar suas campanhas de usuário final.
+Por meio de uma interface visual intuitiva, esse recurso permite modificar facilmente as propriedades da Web para experimentar, otimizar e personalizar as campanhas do usuário final.
 
 <!--
 [Learn more on web channel in this video](#video)
