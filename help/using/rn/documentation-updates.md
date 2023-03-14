@@ -4,9 +4,9 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2386'
 ht-degree: 97%
 
 ---
@@ -21,8 +21,8 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Fevereiro de 2023 {#feb-2023}
 
+* Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de fevereiro de 2023 foi detalhada na documentação. [Leia mais](release-notes.md)
 * Uma observação foi adicionada na documentação de campanhas acionadas pela API para especificar que os atributos contextuais passados na solicitação não podem exceder 50 KB. [Leia mais](../campaigns/api-triggered-campaigns.md#contextual)
-
 * Foram adicionadas informações sobre como as informações de recusa são armazenadas na **Conjunto de dados do serviço de consentimento** após o cancelamento de inscrição dos recipients em uma landing page. [Leia mais](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Janeiro de 2023 {#jan-2023}
@@ -31,6 +31,8 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Os recursos de acessibilidade no [!DNL Journey Optimizer] agora estão agrupados em uma página dedicada. [Leia mais](../start/accessibility.md)
 * Adição de uma nova página sobre o gerenciamento de dados no [!DNL Journey Optimizer]. [Leia mais](../data/gs-data.md)
 * Adição de uma tabela listando todos os códigos que podem ser retornados na resposta ao entregar ofertas usando a API de decisão. [Leia mais](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+
++++ 2022
 
 ## Dezembro de 2022 {#december-2022}
 
@@ -155,11 +157,14 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * A seção **Gerenciamento de opção de não participação** foi esclarecida e levemente reorganizada. [Leia mais](../privacy/opt-out.md#opt-out-management)
 * A seção **Inserir links** foi atualizada para refletir as alterações recentes na interface do usuário. [Leia mais](../email/message-tracking.md#insert-links)
 
++++
+
++++ 2021
+
 ## Novembro de 2021 {#november-2021}
 
 * Uma descrição completa do **editor de expressão avançado** usado em jornadas está disponível. [Leia mais](../building-journeys/expression/expressionadvanced.md)
 * Foi adicionada uma nova seção sobre o **método de delegação de subdomínio CNAME**. [Leia mais](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
-
 
 ## Outubro de 2021 {#october-2021}
 
@@ -202,7 +207,6 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * Subseção sobre como editar pools de IP adicionada. [Leia mais](../configuration/ip-pools.md#edit-ip-pool)
 
-
 ## Agosto de 2021 {#august-2021}
 
 * Todos os novos recursos e aprimoramentos chegando com [!DNL Journey Optimizer] a versão de agosto de 2021 foram detalhados na documentação. [Leia mais](release-notes.md)
@@ -221,7 +225,6 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Seção adicionada para descrever como adicionar manualmente endereços de email e domínios à lista de supressão. [Leia mais](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Seções [Acessar a lista de supressão](../configuration/manage-suppression-list.md#access-suppression-list) e [Tentativas](../configuration/retries.md) atualizadas para refletir a nova interface de usuário.
 * O novo fluxo para adicionar e configurar representações ao criar uma oferta foi documentado. [Leia mais](../offers/offer-library/creating-personalized-offers.md#representations)
-
 
 ## Julho de 2021 {#july-2021}
 
@@ -242,3 +245,4 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * A nova guia **[!UICONTROL Visão geral]** da gestão de decisões foi documentada. [Leia mais](../offers/get-started/user-interface.md#overview)
 * Novas seções adicionadas para descrever as ações disponíveis nas listas de oferta e decisão: [Lista de ofertas](../offers/offer-library/creating-personalized-offers.md#offer-list) e [Lista de decisões](../offers/offer-activities/create-offer-activities.md#decision-list).
 
++++
