@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: d690e066e5a6ec51b0cc86f9e4f375e72cd7f661
+source-git-commit: c9e970bc231fc3d19f0243b71256ea0f5a981af7
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 2%
+source-wordcount: '397'
+ht-degree: 3%
 
 ---
 
@@ -39,25 +39,20 @@ As impressões e os cliques do gerenciamento de decisões são definidos da segu
 
 O feedback sobre impressões e cliques é capturado dependendo do [!DNL Journey Optimizer] canal usado.
 
-1. Por um lado, alguns canais **automaticamente** rastrear impressões e cliques. São as seguintes:
+**Emails** criado por [!DNL Journey Optimizer] **automaticamente** rastrear impressões e cliques.
 
-   * Emails criados por [!DNL Journey Optimizer]
-   * Notificações por push em dispositivos móveis criadas por [!DNL Journey Optimizer]
+No entanto, **mais canais** exigir que os dados de impressões e cliques sejam enviados para o Adobe Experience Platform como um **evento de experiência**. Isso inclui:
 
-   <!--If Adobe renders the offer visually to the end user on the channel, you can assume that Adobe will auto-send in the feedback.-->
+* Páginas da Web usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} para renderizar ofertas
 
-1. Por outro lado, alguns canais exigem que os dados de impressões e cliques sejam enviados para o Adobe Experience Platform como um **evento de experiência**.
+* Aplicativos para dispositivos móveis que usam o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* Quiosque
+* Mensagens enviadas por aplicativos de terceiros
+   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
 
-   Todos os canais que usam uma solicitação de API de decisão para receber ofertas precisam que o feedback seja enviado como um evento de experiência. Isso inclui:
-
-   * Páginas da Web usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} para renderizar ofertas
-   * Aplicativos para dispositivos móveis que usam o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} para renderizar ofertas
-   * Quiosque
-   * Mensagens enviadas por aplicativos de terceiros
-
-   >[!NOTE]
-   >
-   >Se a oferta precisar de instruções sobre como renderizar, você pode assumir que deve enviar feedback como eventos de experiência.
+>[!NOTE]
+>
+>Os canais que usam uma solicitação de API de decisão para receber ofertas precisam que o feedback seja enviado como um evento de experiência. Em outras palavras, se a oferta precisar de instruções sobre como renderizar, você poderá assumir que deve enviar feedback como eventos de experiência.
 
 ### Eventos personalizados
 
