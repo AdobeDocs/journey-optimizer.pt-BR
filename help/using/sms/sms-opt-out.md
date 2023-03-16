@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 676e2d6788c8110b76a38e857a62ba9c1be5842c
+source-git-commit: 63237c02f632d289dba845acdcd0859f2d6de9c9
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 45%
+source-wordcount: '442'
+ht-degree: 31%
 
 ---
 
@@ -25,11 +25,11 @@ De acordo com os padrões e regulamentos do setor, todas as mensagens de marketi
 
 ## Palavras-chave de entrada nativas{#sms-native-keywords}
 
-Por padrão, o Adobe Journey Optimizer lida com mensagens de resposta padrão em inglês, como STOP, UNSTOP e START para mensagens gratuitas e de código longo, de acordo com os padrões do setor para integrações nativas, como Sinch e Twilio.
+Por padrão, o Adobe Journey Optimizer processa as seguintes mensagens de resposta em inglês padrão para mensagens de código gratuito e longo: PARAR, DESPARAR, INICIAR, SAIR, CANCELAR, TERMINAR E CANCELAR A SUBSCRIÇÃO. Observe que somente o Sinch suporta palavras-chave nativas quando usado com o Journey Optimizer.
 
-Essas palavras-chave normalmente acionam uma resposta padrão automática do seu provedor de terceiros (como Twilio ou Sinch). Você pode confirmar isso diretamente com seu provedor ou por meio do site de documentação dele.
+Normalmente, essas palavras-chave acionam uma resposta padrão automática do provedor de terceiros. Você pode confirmar isso diretamente com seu provedor ou por meio do site de documentação dele.
 
-Nenhuma etapa é necessária para garantir que os recursos de recusa de SMS estejam funcionando no Adobe Journey Optimizer, pois as respostas de palavra-chave PARAR, UNSTOP e START são reconhecidas automaticamente. Os status de recusa de perfis são atualizados em tempo real no Adobe Journey Optimizer.
+Nenhuma etapa é necessária para garantir que os recursos de recusa de SMS estejam funcionando no Adobe Journey Optimizer, à medida que as respostas de palavra-chave PARAR, UNSTOP, START, SAIR, CANCEL, END e UNSUBSCRIBE são reconhecidas automaticamente. Os status de recusa de perfis são atualizados em tempo real no Adobe Journey Optimizer.
 
 
 ## listas de bloqueios{#sms-blocklists}
@@ -39,7 +39,9 @@ Além de Adobe Journey Optimizer interromper o envio com base no status de recus
 
 ## Códigos curtos {#short-codes}
 
-Por padrão, o Adobe Journey Optimizer não lida com palavras-chave de opt-out, opt-in ou ajuda para números de código curtos. Você deve garantir que seu código curto esteja em conformidade com todas as regras e regulamentos do setor para o controle de recusa.
+Por padrão, palavras-chave de aceitação ou ajuda para números de código curtos não são tratadas pela Adobe Journey Optimizer. Para garantir a conformidade com os regulamentos do setor e as regras de controle de opt-out, é essencial verificar se o código curto segue todas as diretrizes.
+
+No entanto, o Journey Optimizer oferece suporte a opções globais com base em palavras-chave recebidas com diferentes IDs de remetente.
 
 ## ID alfanumérica do remetente {#alphanumeric}
 
