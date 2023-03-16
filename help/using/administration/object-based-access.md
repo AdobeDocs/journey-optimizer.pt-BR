@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -31,7 +31,7 @@ O OLAC (Object Level Access Control, controle de acesso a nível de objeto) perm
 
 * Jornada
 * Campaign
-* Landing page
+* Página de destino
 * Ofertas
 * Coleção de ofertas
 * Offer decisioning
@@ -46,7 +46,7 @@ No Adobe Journey Optimizer, o OLAC permite proteger dados e conceder acesso espe
 >
 >Para criar rótulos, você deve fazer parte de uma função com o **[!UICONTROL Gerenciar rótulos de uso]** permissão.
 
-**[!UICONTROL Rótulos]** permitem categorizar os conjuntos de dados e campos de acordo com as políticas de uso que se aplicam a esses dados. **[!UICONTROL Rótulos]** pode ser aplicada a qualquer momento, fornecendo flexibilidade na maneira como você escolhe administrar os dados.
+**[!UICONTROL Os rótulos permitem categorizar conjuntos de dados e campos de acordo com as políticas de uso que se aplicam a esses dados.]** **[!UICONTROL Rótulos]** pode ser aplicada a qualquer momento, fornecendo flexibilidade na maneira como você escolhe administrar os dados.
 
 Você pode criar rótulos na variável [!DNL Permissions] produto. Para obter mais informações, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html).
 

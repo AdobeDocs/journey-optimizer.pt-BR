@@ -7,7 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: principal, execução, e-mail, destino, perfil, otimizador
+keywords: primário, execução, email, target, perfil, otimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
@@ -21,12 +21,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="Definir qual endereço usar"
->abstract="Quando vários endereços de email ou números de telefone estiverem disponíveis no banco de dados (pessoal, profissional etc.), você poderá escolher qual deles priorizar para envio."
+>abstract="Quando vários endereços de email ou números de telefone estão disponíveis no banco de dados (pessoal, profissional etc.), você pode escolher qual deles priorizar para envio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="Definir qual endereço usar"
->abstract="Edite os campos usados para determinar o endereço de email ou o número de telefone dos perfis que serão priorizados para envio."
+>abstract="Edite os campos usados para determinar o endereço de email ou número de telefone dos perfis para priorizar o envio."
 
 Ao direcionar um perfil, vários endereços de email ou números de telefone podem estar disponíveis no banco de dados (endereço de email profissional, número de telefone pessoal etc.).
 
@@ -36,7 +36,7 @@ Com [!DNL Journey Optimizer], você pode determinar qual endereço de email ou n
 
    ![](assets/primary-address-execution-fields.png)
 
-1. Os campos atualmente usados por padrão para determinar o endereço de email e o número de telefone dos perfis são exibidos nesta tela. Clique em **[!UICONTROL Editar]** para alterá-los.
+1. Os campos que são usados atualmente por padrão para determinar o endereço de email e o número de telefone dos perfis são exibidos nessa tela. Clique em **[!UICONTROL Editar]** para alterá-las.
 
    ![](assets/primary-address.png)
 
@@ -44,7 +44,7 @@ Com [!DNL Journey Optimizer], você pode determinar qual endereço de email ou n
 
    ![](assets/primary-address-edit.png)
 
-1. A lista de campos XDM do tipo email disponíveis é exibida. Selecione o campo a ser usado.
+1. A lista de campos XDM do tipo de email disponíveis é exibida. Selecione o campo a ser usado.
 
    ![](assets/primary-address-select-field.png)
 

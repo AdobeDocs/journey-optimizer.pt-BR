@@ -12,7 +12,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 1%
+ht-degree: 12%
 
 ---
 
@@ -26,7 +26,7 @@ Saiba mais sobre o conceito e o uso da lista de supressão em [esta seção](../
 
 
 
-## Acessar a lista de supressão {#access-suppression-list}
+## Acessar a lista de supressão  {#access-suppression-list}
 
 Para acessar a lista detalhada de domínios e endereços de email excluídos, navegue até **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** e selecione **[!UICONTROL Lista de supressão]**.
 
@@ -38,7 +38,7 @@ Para acessar a lista detalhada de domínios e endereços de email excluídos, na
 >As permissões para visualizar, exportar e gerenciar a lista de supressão estão restritas a [Administradores do Jornada](../administration/ootb-product-profiles.md#journey-administrator). Saiba mais sobre como gerenciar [!DNL Journey Optimizer] direitos de acesso dos usuários em [esta seção](../administration/permissions-overview.md).
 
 
-Os filtros estão disponíveis para ajudar você a navegar pela lista.
+Há filtros disponíveis para ajudar na navegação pela lista.
 
 ![](assets/suppression-list-filters.png)
 
@@ -107,7 +107,7 @@ No entanto, também é possível preencher manualmente a variável [!DNL Journey
 >
 >Pode levar até 60 minutos para [!DNL Journey Optimizer] para considerar os endereços suprimidos em emails de saída.
 
-Você pode adicionar endereços de email ou domínios [uma de cada vez](#add-one-address-or-domain)ou [no modo em massa](#upload-csv-file) por meio de um upload de arquivo CSV.
+Você pode adicionar os endereços de email ou domínios [um de cada vez](#add-one-address-or-domain) ou [em massa](#upload-csv-file) por meio do upload de um arquivo CSV.
 
 ### Adicionar um endereço ou domínio {#add-one-address-or-domain}
 
@@ -132,9 +132,9 @@ Para adicionar um endereço de email ou domínio à lista de supressão, siga as
 
    >[!NOTE]
    >
-   >Certifique-se de inserir um endereço de email válido (como abc@company.com) ou domínio (como abc.company.com).
+   >Certifique-se de inserir um endereço de email (como abc@empresa.com) ou de domínio (como abc.empresa.com) válido.
 
-1. (opcional) Insira um motivo. Todos os caracteres de impressão ASCII compreendidos entre 32 e 126 são permitidos neste campo.
+1. (opcional) Insira um motivo. Todos os caracteres ASCII imprimíveis compreendidos entre 32 e 126 são permitidos neste campo.
 
 1. Use o **[!UICONTROL Enviar]** para confirmar.
 
@@ -166,7 +166,7 @@ Para adicionar um grupo de endereços de email ou domínios à lista de supress�
    >
    >Não altere o nome das colunas no modelo CSV.
    >
-   >O tamanho do arquivo não deve exceder 1 MB.
+   >O tamanho do arquivo não pode exceder a 1 MB.
 
 1. Depois de concluído, arraste e solte seu arquivo CSV e use a **[!UICONTROL Enviar]** para confirmar.
 
@@ -182,9 +182,9 @@ Use o **[!UICONTROL Uploads recentes]** para verificar o status dos arquivos CSV
 
 Os status possíveis são:
 
-* **[!UICONTROL Pending]**: O upload do arquivo está sendo processado.
-* **[!UICONTROL Erro]**: O processo de upload do arquivo falhou devido a um problema técnico ou a um erro de formato de arquivo.
-* **[!UICONTROL Concluído]**: O processo de upload de arquivo foi concluído com êxito.
+* **[!UICONTROL Pendente]**: o upload do arquivo está sendo processado.
+* **[!UICONTROL Erro]**: o processo de upload do arquivo falhou devido a um problema técnico ou a um erro no formato do arquivo.
+* **[!UICONTROL Concluído]**: o processo de upload de arquivo foi concluído com sucesso.
 
 Durante o upload, se alguns endereços não estiverem no formato correto, eles não serão adicionados ao [!DNL Journey Optimizer] lista de supressão.
 

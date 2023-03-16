@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -96,7 +96,7 @@ O **Copiar detalhes técnicos** O permite copiar informações técnicas sobre a
 
 Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a variável **Permitir reentrada** opção para jornadas de &quot;uma tomada&quot;, por exemplo, se você quiser oferecer um presente único quando uma pessoa entrar em uma loja.
 
-Quando a variável **Permitir reentrada** estiver ativada, a opção **Período de espera de reentrada** é exibido. Este campo permite definir o tempo de espera antes de permitir que um perfil insira a jornada novamente em jornadas unitárias (começando com um evento ou uma qualificação de segmento). Isso impede que as jornadas sejam acionadas incorretamente várias vezes para o mesmo evento. Por padrão, o campo é definido como 5 minutos.
+Quando a variável **Permitir reentrada** estiver ativada, a opção **Período de espera de reentrada** é exibido. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de segmento). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos.
 
 Saiba mais sobre o gerenciamento de entrada de perfil, em [esta seção](entry-management.md).
 
