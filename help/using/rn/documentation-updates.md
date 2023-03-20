@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
 workflow-type: tm+mt
 source-wordcount: '2386'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -17,13 +17,13 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Março de 2023 {#march-2023}
 
-* Uma nova seção foi criada no guia Gestão de decisões sobre como coletar comentários do offer decisioning no Adobe Experience Platform, incluindo quais ofertas são exibidas e como os usuários interagem com elas. [Leia mais](../offers/data-collection/data-collection.md)
+* Uma nova seção foi criada no guia da gestão de decisões sobre como coletar feedback das definições de ofertas na Adobe Experience Platform, incluindo quais ofertas são exibidas e como os usuários interagem com elas. [Leia mais](../offers/data-collection/data-collection.md)
 
 ## Fevereiro de 2023 {#feb-2023}
 
-* Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de fevereiro de 2023 foi detalhada na documentação. [Leia mais](release-notes.md)
+* Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 23 de fevereiro foi detalhada na documentação. [Leia mais](release-notes.md)
 * Uma observação foi adicionada na documentação de campanhas acionadas pela API para especificar que os atributos contextuais passados na solicitação não podem exceder 50 KB. [Leia mais](../campaigns/api-triggered-campaigns.md#contextual)
-* Foram adicionadas informações sobre como as informações de recusa são armazenadas na **Conjunto de dados do serviço de consentimento** após o cancelamento de inscrição dos recipients em uma landing page. [Leia mais](../landing-pages/lp-use-cases.md#configure-opt-out)
+* Adição de detalhes sobre como as informações de recusa são armazenadas no **conjunto de dados do serviço de consentimento** depois que os destinatários cancelam sua inscrição por meio de uma página de destino. [Leia mais](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Janeiro de 2023 {#jan-2023}
 
