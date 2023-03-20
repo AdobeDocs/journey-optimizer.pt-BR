@@ -5,9 +5,9 @@ title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1064'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -24,21 +24,21 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ## Melhorias em março de 2023 {#march-2023}
 
-**Gerenciar tags em suas Jornadas**
+**Gerenciar tags em suas jornadas**
 
-Como um profissional da Journey Optimizer, agora você pode organizar seus objetos de negócios usando tags do. Tags são uma maneira rápida e fácil de classificar objetos para melhorar a pesquisa. No momento, esse recurso está na versão beta e só está disponível para Jornada. [Saiba mais](../building-journeys/tags.md)
+Como um profissional do Journey Optimizer, agora você pode organizar seus objetos de negócios usando tags. As tags são uma maneira rápida e fácil de classificar objetos para melhorar a pesquisa. No momento, esse recurso está na versão beta e só está disponível para jornadas. [Saiba mais](../building-journeys/tags.md)
 
-**Tags de gestão de decisão renomeadas para Qualificadores de coleção**
+**As tags da gestão de decisões agora são chamadas de Qualificadores de coleção**
 
-Para evitar qualquer confusão em potencial com o recurso de lançamento recente de tags na Adobe Experience Platform, as tags do Gerenciamento de decisão foram renomeadas para &quot;Qualificadores de coleção&quot;.
+Para evitar qualquer possível confusão com o lançamento recente do recurso de tags na Adobe Experience Platform, as tags da gestão de decisões agora são chamadas de “Qualificadores de coleção”.
 
-Observe que, embora o termo &quot;tag&quot; não seja mais usado na interface do usuário do Gerenciamento de decisão, ele ainda é usado em serviços de back-end, como APIs e conjuntos de dados.
+Observe que, embora o termo “tag” não seja mais usado na interface da gestão de decisões, ele ainda é usado nos serviços de back-end, como APIs e conjuntos de dados.
 
 **Limite da gestão de decisões**
 
-* Agora é possível redefinir o contador de limite de oferta diariamente, semanalmente ou mensalmente. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
+* Agora é possível redefinir o contador de limite de oferta por dia, por semana ou por mês. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
-* Você também pode escolher qual evento do Adobe Experience Platform deve ser observado para o limite de offer decisioning. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
+* Você também pode escolher qual evento da Adobe Experience Platform deve ser observado para o limite de definição de ofertas. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
 ## Notas de versão de fevereiro de 2023 {#feb-2023}
 
