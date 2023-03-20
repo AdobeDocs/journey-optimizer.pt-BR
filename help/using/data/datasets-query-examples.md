@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: conjunto de dados, otimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Nesta página, você encontrará a lista de conjuntos de dados do Adobe Journey 
 [Conjunto de dados do serviço de consentimento](#consent-service-dataset)
 [Conjunto de dados do evento de feedback CCO](#bcc-feedback-event-dataset)
 [Conjunto de dados da entidade](#entity-dataset)
+
+Para exibir a lista completa de campos e atributos para cada schema, consulte o [Dicionário de esquema Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 ## Conjunto de dados de eventos de experiência de rastreamento de email{#email-tracking-experience-event-dataset}
 

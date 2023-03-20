@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: esquemas, plataforma, dados, estrutura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 30%
+source-wordcount: '332'
+ht-degree: 28%
 
 ---
 
@@ -32,6 +32,8 @@ O **Esquemas** espaço de trabalho em [!DNL Adobe Journey Optimizer] a interface
 Saiba como usar a interface do usuário Esquemas no [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target="_blank"}
 
 A documentação passo a passo para criar um esquema usando o Editor de esquemas está disponível em [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR){target="_blank"}
+
+Para exibir a lista completa de campos e atributos para cada schema, consulte o [Dicionário de esquema Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 
 ## Vídeo tutorial{#video-schema}

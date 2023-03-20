@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: plataforma, data lake, criar, lago, conjuntos de dados, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 8%
+source-wordcount: '836'
+ht-degree: 9%
 
 ---
 
@@ -54,6 +54,8 @@ Estes são os diferentes conjuntos de dados disponíveis:
 **Serviços inteligentes**
 
 * _Pontuações de otimização por tempo de envio/Pontuações de engajamento_: Pontuações de saída do Jornada AI.
+
+Para exibir a lista completa de campos e atributos para cada schema, consulte o [Dicionário de esquema Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 ## Visualizar conjuntos de dados{#preview-datasets}
 
