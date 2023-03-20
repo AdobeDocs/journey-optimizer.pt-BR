@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 96%
       + [Copiar uma jornada para outra sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Solucionar problemas da jornada](using/building-journeys/troubleshooting.md)
       + [Integrar a serviços inteligentes](using/building-journeys/ai-services-overview.md)
-      + [Gerenciar tags no jornada](using/building-journeys/tags.md)
+      + [Gerenciar tags em jornadas](using/building-journeys/tags.md)
    + Atividades {#about-journey-building}
       + [Introdução às atividades de jornada](using/building-journeys/about-journey-activities.md)
       + [Eventos gerais](using/building-journeys/general-events.md)
@@ -197,7 +197,7 @@ ht-degree: 96%
          + [Adicionar atributos de estilo em linha](using/email/inline-styling.md)
    + [Visualizar e testar o email](using/email/preview.md)
    + [Criar modelos de conteúdo](using/email/content-templates.md)
-   + [Usar modelos de Experience Manager](using/email/aem-templates.md)
+   + [Usar modelos do Experience Manager](using/email/aem-templates.md)
    + [Gerenciar opção de não participação de email](using/email/email-opt-out.md)
    + Configurar canal de email {#configure-email}
       + [Introdução à configuração de email](using/email/get-started-email-config.md)
@@ -346,14 +346,14 @@ ht-degree: 96%
       + [Criar decisões](using/offers/offer-activities/create-offer-activities.md)
       + [Configurar seleção de ofertas em decisões](using/offers/offer-activities/configure-offer-selection.md)
       + [Criar simulações](using/offers/offer-activities/simulation.md)
-   + [Usar decisão em lote](using/offers/batch-delivery.md)
+   + [Usar decisões em lote](using/offers/batch-delivery.md)
    + Coletar dados do evento {#collect-event-data}
-      + [Introdução à coleção de dados](using/offers/data-collection/data-collection.md)
+      + [Introdução à coleta de dados](using/offers/data-collection/data-collection.md)
       + [Criar um conjunto de dados para coletar eventos](using/offers/data-collection/create-dataset.md)
       + [Configurar captura de eventos](using/offers/data-collection/schema-requirement.md)
    + Criar relatórios da Gestão de decisões {#create-reports}
       + [Introdução aos eventos da Gestão de decisões](using/offers/reports/get-started-events.md)
-      + [Informações-chave sobre eventos de gestão de decisão](using/offers/reports/key-information.md)
+      + [Informações importantes sobre eventos da gestão de decisões](using/offers/reports/key-information.md)
       + [Acessar campos XDM de eventos](using/offers/reports/xdm-fields.md)
    + Exportar seu catálogo de ofertas {#export-catalog}
       + [Introdução à exportação do catálogo de ofertas ](using/offers/export-catalog/get-started-export.md)
@@ -382,7 +382,7 @@ ht-degree: 96%
             + [Pesquisar um qualificador de coleção](using/offers/api-reference/offers-api/tags/lookup.md)
             + [Criar um qualificador de coleção](using/offers/api-reference/offers-api/tags/create.md)
             + [Atualizar um qualificador de coleção](using/offers/api-reference/offers-api/tags/update.md)
-            + [Deletar um qualificador de coleta](using/offers/api-reference/offers-api/tags/delete.md)
+            + [Excluir um qualificador de coleção](using/offers/api-reference/offers-api/tags/delete.md)
          + Ofertas personalizadas {#personalized-offers}
             + [Listar ofertas personalizadas](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [Pesquisar uma oferta personalizada](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
