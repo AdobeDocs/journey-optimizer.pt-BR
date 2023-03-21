@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1868'
 ht-degree: 7%
 
 ---
@@ -496,7 +496,7 @@ Essa função converte o nome do perfil em letras minúsculas.
 {%= lowerCase(profile.person.name.firstName) %}
 ```
 
-## Corresponde{#matches}
+## Corresponde {#matches}
 
 O `matches` é usada para determinar se uma string corresponde a uma expressão regular específica. Consulte [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obter mais informações sobre padrões correspondentes em expressões regulares.
 
@@ -648,13 +648,20 @@ Retorna &quot;Hello Mark, aqui está seu boletim informativo mensal!&quot;
 
 ## Substituir tudo{#replaceAll}
 
-O `replaceAll` é usada para substituir todas as subsequências de texto que correspondem ao &quot;target&quot; pela sequência literal de &quot;substituição&quot; especificada. A substituição prossegue do início da string para o final, por exemplo, a substituição de &quot;aa&quot; por &quot;b&quot; na string &quot;aaa&quot; resultará em &quot;ba&quot; em vez de &quot;ab&quot;.
+O `replaceAll` é usada para substituir todas as subsequências de um texto que corresponde à expressão &quot;regex&quot; pela sequência literal de &quot;substituição&quot; especificada. O Regex tem tratamento especial de &quot;\&quot; e &quot;+&quot; e todas as expressões regex seguem a estratégia de escape PQL. A substituição prossegue do início da string para o final, por exemplo, a substituição de &quot;aa&quot; por &quot;b&quot; na string &quot;aaa&quot; resultará em &quot;ba&quot; em vez de &quot;ab&quot;.
 
 **Sintaxe**
 
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+>[!NOTE]
+>
+> Se a expressão regex considerada como segundo argumento for um caractere regex especial, precisamos usar barra invertida dupla (`//`) para lidar com tais casos.
+>
+> Lista de caracteres regex especiais [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> 
+> Isso é resumido em [Documentação do oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
 
 ## Aparar à direita {#rightTrim}
 
