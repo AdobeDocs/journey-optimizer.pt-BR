@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
+source-git-commit: 9301d02be37c6aabad9c10a4cc43c20d3e3ee23e
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1857'
 ht-degree: 7%
 
 ---
@@ -655,13 +655,12 @@ O `replaceAll` é usada para substituir todas as subsequências de um texto que 
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+
 >[!NOTE]
 >
-> Se a expressão regex considerada como segundo argumento for um caractere regex especial, precisamos usar barra invertida dupla (`//`) para lidar com tais casos.
->
-> Lista de caracteres regex especiais [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> Quando a expressão considerada como segundo argumento for um caractere regex especial, use uma barra invertida dupla (`//`).  Caracteres regex especiais são: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
 > 
-> Isso é resumido em [Documentação do oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
+> Saiba mais em [Documentação do oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 
 ## Aparar à direita {#rightTrim}
 
