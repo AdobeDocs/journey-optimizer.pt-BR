@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 759ad1d84d9a74584c6a3d59450e4aa5af641442
+source-git-commit: abdc20ed5f73d3822d5cbfa21a60f568f7ad5e4d
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1342'
 ht-degree: 99%
 
 ---
@@ -445,7 +445,7 @@ ht-degree: 99%
          + Configurar um evento unitário {#unitary-events}
             + [Introdução a eventos unitários](using/event/about-creating.md)
             + [Sobre schemas ExperienceEvent](using/event/experience-event-schema.md)
-            + [Aproveitar o Adobe Analytics](using/event/about-analytics.md)
+            + [Trabalhar com a Adobe Analytics](using/event/about-analytics.md)
          + [Configurar um evento comercial](using/event/about-creating-business.md)
          + [Etapas adicionais para enviar eventos](using/event/additional-steps-to-send-events-to-journey.md)
       + Configuração de fonte de dados{#data-source-journeys}

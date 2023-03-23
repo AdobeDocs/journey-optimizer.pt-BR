@@ -2,33 +2,43 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Integração do Adobe Analytics
-description: Saiba como aproveitar os dados do Adobe Analytics
+description: Saiba como aproveitar os dados do Adobe Analytics no Journey Optimizer
 feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: analytics, integração, web sdk, plataforma
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 16752d94647b25b4a86c34b77bda0f72fcfaf169
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 10%
+source-wordcount: '768'
+ht-degree: 7%
 
 ---
 
-# Integração do Adobe Analytics {#analytics-data}
+# Trabalhar com dados do Adobe Analytics {#analytics-data}
 
-## Aproveite os dados do Adobe Analytics ou do SDK da Web {#leverage-analytics-data}
+Você pode aproveitar todos os dados de evento comportamental da Web que já estão sendo capturados por meio do Adobe Analytics ou do SDK da Web e streaming no Adobe Experience Platform, para acionar jornadas e automatizar experiências para seus clientes.
 
-Você pode aproveitar todos os dados de evento comportamental da Web (por meio do Adobe Analytics ou do SDK da Web) que já estão sendo capturados e transmitidos no Adobe Experience Platform para acionar jornadas e automatizar experiências para seus clientes.
+Para que isso funcione com o Adobe Analytics, é necessário:
+
+1. Ative o conjunto de relatórios que deseja usar. [Saiba mais](#leverage-analytics-data)
+1. Ative o Journey Optimizer para usar sua fonte de dados do Adobe Analytics. [Saiba mais](#activate-analytics-data)
+1. Adicione um evento específico na jornada. [Saiba mais](#event-analytic)
 
 >[!NOTE]
 >
->Esta seção se aplica somente a eventos com base em regras e clientes que precisam usar dados do Adobe Analytics ou do WebSDK.
+>Esta seção se aplica somente a eventos com base em regras e clientes que precisam usar dados do Adobe Analytics ou do SDK da Web.
+> 
+>Se estiver usando o Adobe Customer Journey Analytics, consulte [esta página](../reports/cja-ajo.md).
 
-Para que isso funcione com o Adobe Analytics, é necessário ativar, no Adobe Experience Platform, o conjunto de relatórios que deseja usar. Para fazer isso, siga as etapas abaixo:
+## Configurar dados do Adobe Analytics ou do SDK da Web {#leverage-analytics-data}
 
-1. Conecte-se ao Adobe Experience Platform e navegue até **[!UICONTROL Fontes]**.
+Os dados provenientes do Adobe Analytics ou do Adobe Experience Platform Web SDK precisam ser ativados para serem usados nas jornadas.
+
+Para fazer isso, siga as etapas abaixo:
+
+1. Navegue até o **[!UICONTROL Fontes]** menu.
 
 1. Na seção Adobe Analytics , selecione **[!UICONTROL Adicionar dados]**
 
@@ -52,14 +62,31 @@ Isso ativa o conector de origem do Analytics para esse conjunto de relatórios. 
 
 Saiba mais sobre o conector de origem do Adobe Analytics em  [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=pt-BR){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=pt-BR){target="_blank"}.
 
+## Ativar esta configuração {#activate-analytics-data}
+
+Quando essa configuração for concluída, entre em contato com o Adobe para permitir que seu ambiente Journey Optimizer use essa fonte de dados. Essa etapa só é necessária para fontes de dados Adobe Analytics. Para executar isso:
+
+1. Obtenha a ID da fonte de dados. Essas informações estão disponíveis na interface do usuário do : navegue até a fonte de dados criada a partir do **Fluxos de dados** da guia **Fontes** menu. A maneira mais fácil de encontrá-lo é filtrar nas fontes do Adobe Analytics.
+1. Entre em contato com o Atendimento ao cliente do Adobe com os seguintes detalhes:
+
+   * Assunto: Ativar eventos do Adobe Analytics para jornada
+
+   * Conteúdo: Ative meu ambiente para usar eventos AA.
+
+      * ID da organização: &quot;XXX@AdobeOrg&quot;
+
+      * ID da fonte de dados: &quot;ID: xxxxx&quot;
+
+1. Depois de ter uma confirmação de que seu ambiente está pronto, você pode usar os dados do Adobe Analytics em suas jornadas.
+
 ## Criar uma jornada com um evento usando dados do Adobe Analytics ou do SDK da Web {#event-analytics}
 
-Após implementar sua integração com o Adobe Analytics com a [Fontes Adobe Analytics](#leverage-analytics-data) ou com a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR), é possível criar um evento que pode ser usado posteriormente em uma jornada.
+Agora você pode criar um evento com base nos dados do SDK da Web da Adobe Analytics ou Adobe Experience Platform para ser usado em uma jornada.
 
-Neste exemplo, vamos direcionar os usuários que adicionaram um produto aos carrinhos:
+No exemplo abaixo, saiba como direcionar usuários que adicionaram um produto aos carrinhos:
 
-* Se o pedido for concluído, eles receberão um email de acompanhamento dois dias depois para solicitar feedback.
-* Se o pedido não estiver concluído, eles receberão um email para lembrá-los de concluir o pedido.
+* Se o pedido for concluído, os usuários receberão um email de acompanhamento dois dias depois para solicitar comentários.
+* Se o pedido não estiver concluído, os usuários receberão um email para lembrá-los de concluir o pedido.
 
 1. No Adobe Journey Optimizer, acesse o **[!UICONTROL Configuração]** menu.
 
@@ -74,24 +101,26 @@ Neste exemplo, vamos direcionar os usuários que adicionaram um produto aos carr
    * **[!UICONTROL Nome]**: Personalize o nome do seu **[!UICONTROL Evento]**.
    * **[!UICONTROL Tipo]**: Escolha a **[!UICONTROL Unitário]** Tipo. [Saiba mais](../event/about-events.md)
    * **[!UICONTROL Tipo de ID de evento]**: Escolha a **[!UICONTROL Baseado em regras]** Tipo de ID de evento. [Saiba mais](../event/about-events.md#event-id-type)
-   * **[!UICONTROL Esquema]**: Selecione o esquema Analytics ou WebSDK criado na seção acima.
+   * **[!UICONTROL Esquema]**: Selecione o esquema Analytics ou WebSDK [criado antes](#leverage-analytics-data).
    * **[!UICONTROL Campos]**: Selecione os campos Carga. [Saiba mais](../event/about-creating.md#define-the-payload-fields)
-   * **[!UICONTROL Condição de ID de evento]**: Defina a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
+   * **[!UICONTROL Condição de ID de evento]**: Defina a condição para identificar os eventos que acionarão a jornada.
 
       Aqui, o Evento é acionado quando os clientes adicionam um item ao carrinho.
    * **[!UICONTROL Identificador de perfil]**: Escolha um campo nos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento.
 
    ![](assets/ajo-aa_6.png)
 
-1. Quando configurado, selecione **[!UICONTROL Salvar]**. Seu evento agora está pronto para ser usado em uma jornada.
+1. Quando configurado, selecione **[!UICONTROL Salvar]**.
 
-1. No **[!UICONTROL Jornada]**, agora é possível começar a criar a jornada. Para obter mais informações, consulte [esta seção](../building-journeys/journey-gs.md).
+Agora que o evento estiver pronto, crie uma jornada para usá-la.
 
-1. Adicione à jornada os eventos do Analytics configurados anteriormente.
+1. No **[!UICONTROL Jornada]** abra ou crie uma jornada. Para obter mais informações, consulte [esta seção](../building-journeys/journey-gs.md).
+
+1. Adicione o evento do Analytics configurado anteriormente à jornada.
 
    ![](assets/ajo-aa_8.png)
 
-1. Adicione um Evento que será acionado se um pedido for concluído.
+1. Adicione um evento que será acionado se um pedido for concluído.
 
 1. Em seu **[!UICONTROL Menu Evento]**, selecione o **[!UICONTROL Definir o tempo limite do evento]** e **[!UICONTROL Definir um caminho de tempo limite]** opções.
 
@@ -105,6 +134,6 @@ Neste exemplo, vamos direcionar os usuários que adicionaram um produto aos carr
 
 1. Em seguida, adicione um **[!UICONTROL Ação de email]**. Neste email, os clientes serão solicitados a fornecer feedback sobre o pedido colocado.
 
-Agora você pode publicar sua jornada após testar sua validade. [Saiba mais](../building-journeys/publishing-the-journey.md)
+Agora você pode testar e publicar sua jornada. [Saiba mais](../building-journeys/publishing-the-journey.md)
 
 ![](assets/ajo-aa_7.png)
