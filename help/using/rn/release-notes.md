@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
-workflow-type: ht
-source-wordcount: '1064'
-ht-degree: 100%
+source-git-commit: 4399d1665fd27fdd3b2cca6cfe448464c3c79f0c
+workflow-type: tm+mt
+source-wordcount: '1413'
+ht-degree: 77%
 
 ---
 
@@ -22,23 +22,96 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
 
-## Melhorias em março de 2023 {#march-2023}
+## Notas de versão anteriores de março de 2023 {#mar-2023}
 
-**Gerenciar tags em suas jornadas**
+As informações abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilização do lançamento. A documentação atualizada será publicada na data de lançamento, e os links diretos serão adicionados nesta página.
 
-Como um profissional do Journey Optimizer, agora você pode organizar seus objetos de negócios usando tags. As tags são uma maneira rápida e fácil de classificar objetos para melhorar a pesquisa. No momento, esse recurso está na versão beta e só está disponível para jornadas. [Saiba mais](../building-journeys/tags.md)
+**Data de disponibilidade**: 29 de março
 
-**As tags da gestão de decisões agora são chamadas de Qualificadores de coleção**
+### Novos recursos{#mar-2023-features}
 
-Para evitar qualquer possível confusão com o lançamento recente do recurso de tags na Adobe Experience Platform, as tags da gestão de decisões agora são chamadas de “Qualificadores de coleção”.
 
-Observe que, embora o termo “tag” não seja mais usado na interface da gestão de decisões, ele ainda é usado nos serviços de back-end, como APIs e conjuntos de dados.
+<table>
+<thead>
+<tr>
+<th><strong>Canal no aplicativo (Disponibilidade geral)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode enviar mensagens personalizadas no aplicativo para os usuários do aplicativo em uma campanha. Use o Journey Optimizer para criar notificações e personalizar o layout, a exibição, o texto e os botões das mensagens para criar uma experiência perfeita.</p>
+<img src="assets/do-not-localize/in-app.gif"/>
+<p>Para obter mais informações, consulte a <a href="../in-app/get-started-in-app.md">documentação detalhada</a>.</p>
+</tr>
+</tbody>
+</table>
 
-**Limite da gestão de decisões**
+<table>
+<thead>
+<tr>
+<th><strong>Rastreamento de cliques em SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Com o rastreamento de cliques em SMS, você pode monitorar o desempenho de seus URLs encurtados, identificar quem clicou neles e usar esses dados para redirecionar esses clientes com campanhas subsequentes.</p>
+<!--p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
-* Agora é possível redefinir o contador de limite de oferta por dia, por semana ou por mês. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
-* Você também pode escolher qual evento da Adobe Experience Platform deve ser observado para o limite de definição de ofertas. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
+<table>
+<thead>
+<tr>
+<th><strong>Usar tags em suas Jornadas (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Como um profissional do Journey Optimizer, agora você pode organizar seus objetos de negócios usando tags. As tags são uma maneira rápida e fácil de classificar objetos para melhorar a pesquisa. No momento, esse recurso está na versão beta e só está disponível para jornadas.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/tags.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Melhorias {#mar-2023-improvements}
+
+**Jornadas**
+
+* O novo **API de limitação** O permite definir um limite para o número de eventos enviados por segundo, evitando picos de tráfego avassaladores em sistemas externos ou API. Quando o limite definido é atingido, todas as chamadas de API subsequentes são enfileiradas e processadas o mais rápido possível, na ordem em que foram recebidas. Observe que esse recurso suporta apenas uma configuração de limitação em todas as sandboxes.
+* A tela de Jornada foi aprimorada para oferecer uma experiência do usuário mais simples e aprimorada. No final de cada caminho na tela, os espaços reservados vazios foram removidos. Agora é possível simplesmente adicionar suas atividades, arrastando-as ao final de um caminho. <!--[Learn more](../building-journeys/using-the-journey-designer.md)-->
+* O tempo limite padrão e a duração do erro nas propriedades da jornada foram alterados de 5 para 30 segundos. A taxa de limitação padrão em atividades de segmento de leitura foi alterada de 20.000 para 5.000 mensagens por segundo.
+* Uma garantia foi adicionada ao modo de teste para ouvir apenas os eventos enviados pela interface. Os eventos enviados por uma ferramenta externa não são considerados.
+* Ao adicionar uma ação de Email, SMS ou Push em uma jornada, a superfície agora é pré-preenchida, por padrão, com a última superfície usada para esse canal.
+
+<!-- * A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)-->
+
+<!--
+* Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
+
+* The Journey dashboard is now split in two tabs:
+    * Use the **Overview** tab to access a new dashboard which displays key metrics related to your journeys.
+    * Use the **Browse** tab to access list of all journeys.
+-->
+
+**Gestão de decisões**
+
+* Para evitar qualquer possível confusão com o lançamento recente do recurso de tags na Adobe Experience Platform, as tags da gestão de decisões agora são chamadas de “Qualificadores de coleção”.
+
+   Observe que, embora o termo “tag” não seja mais usado na interface da gestão de decisões, ele ainda é usado nos serviços de back-end, como APIs e conjuntos de dados.
+
+* Agora é possível redefinir o contador de limite de oferta por dia, por semana ou por mês.<!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+
+* Você também pode escolher qual evento da Adobe Experience Platform deve ser observado para o limite de definição de ofertas.<!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+
+* Parâmetros adicionais foram adicionados na tela de criação de disposições. Eles permitem controlar se uma oferta pode ser duplicada em várias disposições e especificar se o conteúdo e os metadados da oferta devem ser incluídos na resposta da API. <!--[Learn more](../offers/offer-library/creating-placements.md)-->
 
 ## Notas de versão de fevereiro de 2023 {#feb-2023}
 
@@ -55,7 +128,6 @@ Observe que, embora o termo “tag” não seja mais usado na interface da gest�
 <td>
 <p>Agora você pode enviar mensagens personalizadas no aplicativo para os usuários do aplicativo em uma campanha. Use o Journey Optimizer para criar notificações e personalizar o layout, a exibição, o texto e os botões das mensagens para criar uma experiência perfeita.</p>
 <p><strong>Aviso</strong>: no momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.</p>
-<img src="assets/do-not-localize/in-app.gif"/>
 <p>Para obter mais informações, consulte a <a href="../in-app/get-started-in-app.md"> documentação detalhada </a>.</p>
 </td>
 </tr>
@@ -111,25 +183,6 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 Note that each widget can be resized and deleted as needed.
 +++
-
-
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Use Tags in your Journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. Tags are currently only available for Journeys.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 -->
 
 ### Melhorias {#feb-2023-improvements}
@@ -163,10 +216,6 @@ Note that each widget can be resized and deleted as needed.
 * **Superfície de email**: na seção **Parâmetros de rastreamento de URL** das configurações da superfície de email, o limite para cada campo de **Valor** foi atualizado de 255 caracteres para 5 KB, a fim de oferecer compatibilidade com o rastreamento do Adobe Analytics. [Saiba mais](../email/email-settings.md#url-tracking)
 
 **Gestão de decisões**
-
-<!--
-* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
--->
 
 * **Personalização de URL**: ao adicionar URLs como conteúdo às representações de suas ofertas, agora é possível personalizar esses URLs usando o editor de expressão. [Saiba mais](../offers/offer-library/add-representations.md)
 
