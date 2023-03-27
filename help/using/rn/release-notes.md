@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4399d1665fd27fdd3b2cca6cfe448464c3c79f0c
+source-git-commit: 2a6c5ab81a1fa708756fd2da029febd056f81f7a
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1397'
 ht-degree: 77%
 
 ---
@@ -26,7 +26,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 As informações abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilização do lançamento. A documentação atualizada será publicada na data de lançamento, e os links diretos serão adicionados nesta página.
 
-**Data de disponibilidade**: 29 de março
+**Data de disponibilidade**: 29 de março de 2023
 
 ### Novos recursos{#mar-2023-features}
 
@@ -42,7 +42,7 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 <td>
 <p>Agora você pode enviar mensagens personalizadas no aplicativo para os usuários do aplicativo em uma campanha. Use o Journey Optimizer para criar notificações e personalizar o layout, a exibição, o texto e os botões das mensagens para criar uma experiência perfeita.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>Para obter mais informações, consulte a <a href="../in-app/get-started-in-app.md">documentação detalhada</a>.</p>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
 </table>
@@ -74,7 +74,7 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 <tr>
 <td>
 <p>Como um profissional do Journey Optimizer, agora você pode organizar seus objetos de negócios usando tags. As tags são uma maneira rápida e fácil de classificar objetos para melhorar a pesquisa. No momento, esse recurso está na versão beta e só está disponível para jornadas.</p>
-<p>Para obter mais informações, consulte a <a href="../building-journeys/tags.md">documentação detalhada</a>.</p>
+<!--p>For more information, refer to the <a href="../building-journeys/tags.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
