@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2a6c5ab81a1fa708756fd2da029febd056f81f7a
+source-git-commit: 1dcaab6dba62e3c8119e45ce87dbe6f902e37921
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1398'
 ht-degree: 77%
 
 ---
@@ -89,13 +89,11 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 * A tela de Jornada foi aprimorada para oferecer uma experiência do usuário mais simples e aprimorada. No final de cada caminho na tela, os espaços reservados vazios foram removidos. Agora é possível simplesmente adicionar suas atividades, arrastando-as ao final de um caminho. <!--[Learn more](../building-journeys/using-the-journey-designer.md)-->
 * O tempo limite padrão e a duração do erro nas propriedades da jornada foram alterados de 5 para 30 segundos. A taxa de limitação padrão em atividades de segmento de leitura foi alterada de 20.000 para 5.000 mensagens por segundo.
 * Uma garantia foi adicionada ao modo de teste para ouvir apenas os eventos enviados pela interface. Os eventos enviados por uma ferramenta externa não são considerados.
-* Ao adicionar uma ação de Email, SMS ou Push em uma jornada, a superfície agora é pré-preenchida, por padrão, com a última superfície usada para esse canal.
 
-<!-- * A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)-->
-
-<!--
+<!-- 
+* When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
+* A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
-
 * The Journey dashboard is now split in two tabs:
     * Use the **Overview** tab to access a new dashboard which displays key metrics related to your journeys.
     * Use the **Browse** tab to access list of all journeys.
@@ -112,6 +110,10 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 * Você também pode escolher qual evento da Adobe Experience Platform deve ser observado para o limite de definição de ofertas.<!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
 
 * Parâmetros adicionais foram adicionados na tela de criação de disposições. Eles permitem controlar se uma oferta pode ser duplicada em várias disposições e especificar se o conteúdo e os metadados da oferta devem ser incluídos na resposta da API. <!--[Learn more](../offers/offer-library/creating-placements.md)-->
+
+**Personalização**
+
+* Agora é possível incluir texto de fallback padrão para atributos de perfil baseados em sequência no Editor de expressão. Esses valores serão exibidos se os atributos selecionados não retornarem nenhum resultado. <!--[Learn more](../personalization/personalization-build-expressions.md#add)-->
 
 ## Notas de versão de fevereiro de 2023 {#feb-2023}
 
