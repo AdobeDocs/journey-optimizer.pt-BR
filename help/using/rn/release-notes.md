@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1dcaab6dba62e3c8119e45ce87dbe6f902e37921
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 77%
+source-wordcount: '1320'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
 
-## Notas de versão anteriores de março de 2023 {#mar-2023}
+## Notas de versão de março de 2023 {#mar-2023}
 
 As informações abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilização do lançamento. A documentação atualizada será publicada na data de lançamento, e os links diretos serão adicionados nesta página.
 
@@ -30,22 +30,23 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 
 ### Novos recursos{#mar-2023-features}
 
-
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Canal no aplicativo (Disponibilidade geral)</strong><br/></th>
+<th><strong>In-app channel (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode enviar mensagens personalizadas no aplicativo para os usuários do aplicativo em uma campanha. Use o Journey Optimizer para criar notificações e personalizar o layout, a exibição, o texto e os botões das mensagens para criar uma experiência perfeita.</p>
+<p>You can now send personalized In-app messages to your app users within a campaign. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -57,7 +58,8 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 <tr>
 <td>
 <p>Com o rastreamento de cliques em SMS, você pode monitorar o desempenho de seus URLs encurtados, identificar quem clicou neles e usar esses dados para redirecionar esses clientes com campanhas subsequentes.</p>
-<!--p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p-->
+<img src="assets/do-not-localize/sms-tracking.gif"/>
+<p>Para obter mais informações, consulte a <a href="../sms/create-sms.md#sms-content">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +76,7 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 <tr>
 <td>
 <p>Como um profissional do Journey Optimizer, agora você pode organizar seus objetos de negócios usando tags. As tags são uma maneira rápida e fácil de classificar objetos para melhorar a pesquisa. No momento, esse recurso está na versão beta e só está disponível para jornadas.</p>
-<!--p>For more information, refer to the <a href="../building-journeys/tags.md">detailed documentation</a>.</p-->
+<p>Para obter mais informações, consulte a <a href="../building-journeys/tags.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -85,10 +87,11 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 
 **Jornadas**
 
-* O novo **API de limitação** O permite definir um limite para o número de eventos enviados por segundo, evitando picos de tráfego avassaladores em sistemas externos ou API. Quando o limite definido é atingido, todas as chamadas de API subsequentes são enfileiradas e processadas o mais rápido possível, na ordem em que foram recebidas. Observe que esse recurso suporta apenas uma configuração de limitação em todas as sandboxes.
-* A tela de Jornada foi aprimorada para oferecer uma experiência do usuário mais simples e aprimorada. No final de cada caminho na tela, os espaços reservados vazios foram removidos. Agora é possível simplesmente adicionar suas atividades, arrastando-as ao final de um caminho. <!--[Learn more](../building-journeys/using-the-journey-designer.md)-->
-* O tempo limite padrão e a duração do erro nas propriedades da jornada foram alterados de 5 para 30 segundos. A taxa de limitação padrão em atividades de segmento de leitura foi alterada de 20.000 para 5.000 mensagens por segundo.
-* Uma garantia foi adicionada ao modo de teste para ouvir apenas os eventos enviados pela interface. Os eventos enviados por uma ferramenta externa não são considerados.
+* O novo **API de limitação** O permite definir um limite para o número de eventos enviados por segundo, evitando picos de tráfego avassaladores em sistemas externos ou API. Quando o limite definido é atingido, todas as chamadas de API subsequentes são enfileiradas e processadas o mais rápido possível, na ordem em que foram recebidas. Observe que esse recurso suporta apenas uma configuração de limitação em todas as sandboxes. [Saiba mais](../configuration/external-systems.md)
+* A tela de Jornada foi aprimorada para oferecer uma experiência do usuário mais simples e aprimorada. No final de cada caminho na tela, os espaços vazios foram removidos. Agora é possível simplesmente adicionar suas atividades, arrastando-as ao final de um caminho.
+* Na tela da jornada, o rótulo da **End** não é mais definida automaticamente com o nome da atividade anterior. Os usuários podem adicionar manualmente um rótulo personalizado, se necessário.
+* O tempo limite padrão e a duração do erro nas propriedades da jornada foram alterados de 5 para 30 segundos. [Saiba mais](../configuration/external-systems.md#timeout)
+* A taxa de limitação padrão em atividades de segmento de leitura foi alterada de 20.000 para 5.000 mensagens por segundo. [Saiba mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
@@ -105,15 +108,23 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 
    Observe que, embora o termo “tag” não seja mais usado na interface da gestão de decisões, ele ainda é usado nos serviços de back-end, como APIs e conjuntos de dados.
 
-* Agora é possível redefinir o contador de limite de oferta por dia, por semana ou por mês.<!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+* Agora é possível redefinir o contador de limite de oferta por dia, por semana ou por mês. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
-* Você também pode escolher qual evento da Adobe Experience Platform deve ser observado para o limite de definição de ofertas.<!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+* Você também pode escolher qual evento da Adobe Experience Platform deve ser observado para o limite de definição de ofertas. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
-* Parâmetros adicionais foram adicionados na tela de criação de disposições. Eles permitem controlar se uma oferta pode ser duplicada em várias disposições e especificar se o conteúdo e os metadados da oferta devem ser incluídos na resposta da API. <!--[Learn more](../offers/offer-library/creating-placements.md)-->
+<!--* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
 
-**Personalização**
+<!--**Personalization**
 
-* Agora é possível incluir texto de fallback padrão para atributos de perfil baseados em sequência no Editor de expressão. Esses valores serão exibidos se os atributos selecionados não retornarem nenhum resultado. <!--[Learn more](../personalization/personalization-build-expressions.md#add)-->
+* You can now include default fallback text for string-based profile attributes in the Expression Editor. These values will display if the selected attributes return no result. [Learn more](../personalization/personalization-build-expressions.md#add)-->
+
+<!--
+**Reporting**
+
+* The reporting widget functionality has been improved with the ability to customize how users view their data. With this improvement, users can now choose between multiple visualization options, including graph, table, and donut charts.
+
+    To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to the [detailed documentation](../reports/global-report.md#modify-dashboard).
+-->
 
 ## Notas de versão de fevereiro de 2023 {#feb-2023}
 
@@ -130,6 +141,7 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 <td>
 <p>Agora você pode enviar mensagens personalizadas no aplicativo para os usuários do aplicativo em uma campanha. Use o Journey Optimizer para criar notificações e personalizar o layout, a exibição, o texto e os botões das mensagens para criar uma experiência perfeita.</p>
 <p><strong>Aviso</strong>: no momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.</p>
+<img src="assets/do-not-localize/in-app.gif"/>
 <p>Para obter mais informações, consulte a <a href="../in-app/get-started-in-app.md"> documentação detalhada </a>.</p>
 </td>
 </tr>
@@ -185,6 +197,25 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 Note that each widget can be resized and deleted as needed.
 +++
+
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Use Tags in your Journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. Tags are currently only available for Journeys.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 -->
 
 ### Melhorias {#feb-2023-improvements}
@@ -218,6 +249,10 @@ Note that each widget can be resized and deleted as needed.
 * **Superfície de email**: na seção **Parâmetros de rastreamento de URL** das configurações da superfície de email, o limite para cada campo de **Valor** foi atualizado de 255 caracteres para 5 KB, a fim de oferecer compatibilidade com o rastreamento do Adobe Analytics. [Saiba mais](../email/email-settings.md#url-tracking)
 
 **Gestão de decisões**
+
+<!--
+* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
+-->
 
 * **Personalização de URL**: ao adicionar URLs como conteúdo às representações de suas ofertas, agora é possível personalizar esses URLs usando o editor de expressão. [Saiba mais](../offers/offer-library/add-representations.md)
 

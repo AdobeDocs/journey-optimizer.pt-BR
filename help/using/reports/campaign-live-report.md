@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '926'
 ht-degree: 3%
 
 ---
@@ -135,7 +135,7 @@ Da sua campanha **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL SMS]** deta
 
 +++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório de SMS.
 
-O **[!UICONTROL SMS - Envio de estatísticas]** tabela detalha o sucesso do delivery:
+O **[!UICONTROL SMS - Estatísticas]** tabela detalha o sucesso do delivery:
 
 * **[!UICONTROL Direcionado]**: Número de perfis de usuário que se qualificaram como perfis de público-alvo para este delivery.
 
@@ -148,6 +148,8 @@ O **[!UICONTROL SMS - Envio de estatísticas]** tabela detalha o sucesso do deli
 * **[!UICONTROL Rejeições]**: Total de erros acumulados durante o delivery e o processamento automático de retorno.
 
 * **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
+
+* **[!UICONTROL Cliques]**: Número total de visitas ao URL.
 
 O **[!UICONTROL Desempenho do SMS por data]** o widget detalha as informações principais relativas à sua mensagem com um gráfico:
 

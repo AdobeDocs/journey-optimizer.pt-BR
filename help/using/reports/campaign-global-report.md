@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1926'
 ht-degree: 2%
 
 ---
@@ -282,6 +282,9 @@ O **[!UICONTROL Desempenho do SMS por data]** o widget detalha as informações 
 * **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery, impedindo que ele fosse enviado a perfis.
 
 O **[!UICONTROL Excluir motivos]**, **[!UICONTROL Motivos das rejeições]** e **[!UICONTROL Motivos do erro]** gráficos e tabelas permitem ver quais erros e exclusões ocorreram durante o delivery.
+
+O **[!UICONTROL SMS - Cliques por links]** e **[!UICONTROL SMS - Estatísticas de rastreamento]** Os widgets detalham as principais informações relativas ao envolvimento de seus visitantes com seus URLs.
+
 +++
 
 ## Recursos adicionais

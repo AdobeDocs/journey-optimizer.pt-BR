@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
-workflow-type: ht
-source-wordcount: '969'
-ht-degree: 100%
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 97%
 
 ---
 
@@ -58,6 +58,7 @@ As medidas de proteção de desempenho e os limites estáticos para a tomada de 
 * O segmento e o namespace escolhidos na **Qualificação de segmento** (primeiro nó) não podem ser alterados em novas versões.
 * A regra de reentrada deve ser a mesma em todas as versões da jornada.
 * Uma jornada que começa com um **Segmento de leitura** não pode começar com outro evento nas próximas versões.
+* Não é possível criar uma nova versão de uma jornada de segmento de leitura com leitura incremental. Você precisa duplicar a jornada.
 
 ### Ações personalizadas {#custom-actions-g}
 

@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: inicial, página de aterrissagem, subdomínios, configuração
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '807'
 ht-degree: 1%
 
 ---
@@ -40,8 +40,6 @@ Você pode usar um subdomínio que já tenha sido delegado ao Adobe ou pode conf
 >[!CAUTION]
 >
 >A configuração do subdomínio da página de aterrissagem é comum a todos os ambientes. Portanto, qualquer modificação em um subdomínio de página de aterrissagem também afetará as sandboxes de produção.
-
-Observe que letras maiúsculas não devem ser permitidas em um subdomínio
 
 ## Usar um subdomínio existente {#lp-use-existing-subdomain}
 
@@ -138,7 +136,7 @@ Para configurar um novo subdomínio, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Antes de poder usar esse subdomínio para enviar mensagens, você deve aguardar até que o Adobe execute as verificações necessárias, que podem levar até 4 horas.<!--Learn more in [this section](#subdomain-validation).-->
+   >Antes de poder usar esse subdomínio para suas landing pages, você deve aguardar até que o Adobe execute as verificações necessárias, que podem levar até 4 horas.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Depois que as verificações são bem-sucedidas, o subdomínio recebe o **[!UICONTROL Sucesso]** status. Ele está pronto para ser usado para criar predefinições de página de aterrissagem.
 

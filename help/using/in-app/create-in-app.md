@@ -5,13 +5,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: no aplicativo, mensagem, criação, iniciar
 badge: label="Beta" type="Informative"
+keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 5%
+source-wordcount: '624'
+ht-degree: 6%
 
 ---
 
@@ -37,7 +37,7 @@ Para criar uma mensagem no aplicativo, siga as etapas abaixo:
 
 1. No **[!UICONTROL Propriedades]** edite o **[!UICONTROL Título]** e **[!UICONTROL Descrição]**.
 
-1. Para atribuir rótulos de uso de dados personalizados ou principais à página inicial, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais](../administration/object-based-access.md).
+1. Para atribuir rótulos de uso de dados personalizados ou principais à mensagem no aplicativo, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais](../administration/object-based-access.md).
 
 1. Clique no botão **[!UICONTROL Seleção do público-alvo]** para definir o público-alvo a ser direcionado a partir da lista de segmentos disponíveis do Adobe Experience Platform. [Saiba mais](../segment/about-segments.md).
 
@@ -45,27 +45,22 @@ Para criar uma mensagem no aplicativo, siga as etapas abaixo:
 
 1. No **[!UICONTROL Namespace de identidade]** , escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado. [Saiba mais](../event/about-creating.md#select-the-namespace).
 
+1. Clique em **[!UICONTROL Editar acionadores]** para escolher os eventos e critérios que acionarão sua mensagem:
+
+   1. Clique em **[!UICONTROL Adicionar] condição** se desejar que o acionador considere vários eventos ou critérios.
+   1. Selecione como seus eventos são vinculados, por exemplo, escolha **[!UICONTROL E]** se desejar **both** aciona como true para que uma mensagem seja exibida ou escolha **[!UICONTROL Ou]** se quiser que a mensagem seja exibida, se **ou** dos acionadores são verdadeiros.
+   1. Clique em **[!UICONTROL Criar grupo]** para agrupar acionadores.
+
+   ![](assets/in_app_create_3.png)
+
 1. Escolha a frequência do acionador quando a mensagem no aplicativo estiver ativa:
 
-   * **[!UICONTROL Mostrar sempre]**: Sempre mostrar a mensagem quando os eventos selecionados no **[!UICONTROL Acionador do aplicativo móvel]** ocorre.
-   * **[!UICONTROL Mostrar uma vez]**: Mostrar esta mensagem somente na primeira vez que os eventos selecionados no **[!UICONTROL Acionador do aplicativo móvel]** ocorre.
-   * **[!UICONTROL Mostrar até o click-through]**: Mostrar esta mensagem quando os eventos forem selecionados no **[!UICONTROL Acionador do aplicativo móvel]** ocorre até que um evento de interação seja enviado pelo SDK com uma ação &quot;clicada&quot;.
+   * **[!UICONTROL Todas as vezes]**: Sempre mostrar a mensagem quando os eventos selecionados no **[!UICONTROL Acionador do aplicativo móvel]** ocorre.
+   * **[!UICONTROL Uma vez]**: Mostrar esta mensagem somente na primeira vez que os eventos selecionados no **[!UICONTROL Acionador do aplicativo móvel]** ocorre.
+   * **[!UICONTROL Até o click-through]**: Mostrar esta mensagem quando os eventos forem selecionados no **[!UICONTROL Acionador do aplicativo móvel]** ocorre até que um evento de interação seja enviado pelo SDK com uma ação &quot;clicada&quot;.
+   * **[!UICONTROL X número de vezes]**: Mostrar esta mensagem X hora.
 
-1. No **[!UICONTROL Acionador do aplicativo móvel]** selecione os eventos e critérios que acionarão sua mensagem:
-
-   1. Na lista suspensa esquerda, selecione o evento necessário para acionar a mensagem.
-   1. Na lista suspensa direita, selecione a validação necessária no evento selecionado.
-   1. Clique no botão **[!UICONTROL Adicionar]** se desejar que o acionador considere vários eventos ou critérios. Em seguida, repita as etapas acima.
-   1. Selecione como seus eventos são vinculados, por exemplo, escolha **[!UICONTROL E]** se desejar **both** aciona como true para que uma mensagem seja exibida ou escolha **[!UICONTROL Ou]** se quiser que a mensagem seja exibida, se **ou** dos acionadores são verdadeiros.
-
-   ![](assets/in_app_create_3.png)
-
-1. Escolha o evento que aciona sua mensagem do **[!UICONTROL Acionador do aplicativo móvel]**
-lista suspensa.
-
-   Ao escolher um acionador, você escolhe qual ação do usuário faz com que a mensagem no aplicativo seja exibida.
-
-   ![](assets/in_app_create_3.png)
+1. Se necessário, escolha qual **[!UICONTROL Dia da semana]** ou **[!UICONTROL Hora do dia]** a mensagem no aplicativo será exibida.
 
 1. As campanhas são projetadas para serem executadas em uma data específica ou em uma frequência recorrente. Saiba como configurar o **[!UICONTROL Agendar]** da sua campanha em [esta seção](../campaigns/create-campaign.md#schedule).
 
@@ -111,7 +106,7 @@ Para fazer isso, siga as etapas abaixo:
 
 Sua campanha agora está ativada. A notificação no aplicativo configurada na campanha é enviada imediatamente ou na data especificada.
 
-Depois de enviado, você pode medir o impacto de suas mensagens no aplicativo no relatório de Campanha. Para obter mais informações sobre relatórios, consulte [esta seção](../reports/campaign-global-report.md#inapp-report).
+Depois de enviado, você pode medir o impacto das mensagens no aplicativo nos relatórios de Campanha ou Jornada. Para obter mais informações sobre relatórios, consulte [esta seção](../reports/campaign-global-report.md#inapp-report).
 
 **Tópicos relacionados:**
 

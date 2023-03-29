@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1522'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ Para usar o modo de teste, siga estas etapas:
 
 ## Observações importantes {#important_notes}
 
-* Uma interface é fornecida para acionar eventos na jornada testada, mas os eventos também podem ser enviados por sistemas de terceiros, como o Postman.
+* No modo de teste, é possível acionar eventos usando a interface do .
 * Somente indivíduos sinalizados como &quot;perfis de teste&quot; no Serviço de perfil do cliente em tempo real poderão entrar na jornada testada. Consulte esta [seção](../segment/creating-test-profiles.md).
 * O modo de teste só está disponível em jornadas de rascunho que usam um namespace. O modo de teste precisa verificar se uma pessoa que entra na jornada é ou não um perfil de teste e, portanto, deve conseguir acessar o Adobe Experience Platform.
 * O número máximo de perfis de teste que podem ser inseridos em uma jornada durante uma sessão de teste é 100.
@@ -103,8 +103,6 @@ Ao clicar no botão **[!UICONTROL Enviar]** , o teste será iniciado. A progress
 Quando você seleciona um perfil de teste diferente na tela de configuração do evento e executa o teste novamente, o fluxo visual é limpo e mostra o caminho do novo indivíduo.
 
 Ao abrir uma jornada no teste, o caminho exibido corresponde ao último teste executado.
-
-O fluxo visual funciona se o evento é acionado via interface ou externamente (usando Postman, por exemplo).
 
 ## Modo de teste para jornadas baseadas em regras {#test-rule-based}
 

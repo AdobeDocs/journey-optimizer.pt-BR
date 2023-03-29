@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: externo, API, otimizador, limitação
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 2%
+source-wordcount: '1178'
+ht-degree: 3%
 
 ---
 
@@ -26,37 +26,50 @@ Todos os sistemas externos são diferentes em termos de desempenho. Você precis
 
 Quando o Journey Optimizer executa uma chamada para uma API externa, as medidas de proteção técnicas são executadas da seguinte maneira:
 
-1. As regras de limitação são aplicadas: se a taxa máxima for atingida, as chamadas restantes serão descartadas.
+1. As regras de limitação ou limitação são aplicadas: se a taxa máxima for atingida, as chamadas restantes serão descartadas ou enfileiradas.
 
 2. Tempo limite e tentativa: se a regra de limitação for cumprida, o Journey Optimizer tentará executar a chamada até que o fim do tempo limite seja atingido.
 
-## Limitação{#capping}
+## Limitação e limitação de APIs {#capping}
 
-A API de limitação integrada oferece uma garantia técnica de upstream que ajuda a proteger seu sistema externo.
+### Sobre APIs de limitação e limitação
 
-Para fontes de dados externas, o número máximo de chamadas por segundo é definido como 15. Se o número de chamadas exceder 15 por segundo, as chamadas restantes serão descartadas. É possível aumentar esse limite para fontes de dados externas privadas. Entre em contato com o Adobe para incluir o ponto de extremidade na  de lista de permissões. Isso não é possível para fontes de dados externas públicas.
+Ao configurar uma fonte de dados ou uma ação, você estabelece uma conexão com um sistema para recuperar informações adicionais para usar em suas jornadas ou enviar mensagens ou chamadas de API.
+
+As APIs do Jornada suportam até 5000 eventos por segundo, mas alguns sistemas externos ou APIs podem não ter uma taxa de transferência equivalente. Para evitar sobrecarga desses sistemas, você pode usar o **Limitação** e **Limitação** APIs para limitar o número de eventos enviados por segundo.
+
+Toda vez que uma chamada de API é executada pelo jornada, ela passa pelo mecanismo de API. Se o limite definido na API for atingido, a chamada será rejeitada se você estiver usando a API de limitação ou colocada em fila e processada assim que possível na ordem em que foram recebidas se estiver usando a API de limitação.
+
+Por exemplo, digamos que você tenha definido uma regra de limitação ou limitação de 100 chamadas por segundo para seu sistema externo. Seu sistema é chamado por uma ação personalizada em 10 jornadas diferentes. Se uma jornada receber 200 chamadas por segundo, ela usará os 100 slots disponíveis e descartará ou colocará em fila os 100 slots restantes. Como a taxa máxima foi excedida, as outras 9 jornadas não terão mais nenhum slot. Essa granularidade ajuda a proteger o sistema externo contra sobrecarga e falha.
+
+>[!IMPORTANT]
+>
+>**Regras de limitação** são configuradas no nível da sandbox, para um endpoint específico (o URL chamado), mas globais para todas as jornadas da sandbox.
+>
+>**Regras de limitação** são configuradas apenas em sandboxes de produção, para um endpoint específico, mas globais para todas as jornadas em todas as sandboxes. Você pode ter apenas uma configuração de limitação por organização.
+
+Para obter mais informações sobre como trabalhar com as APIs, consulte estas seções:
+
+* [Limitação da API](capping.md)
+* [API de limitação](throttling.md)
+
+### Fontes de dados e capacidade de ações personalizadas {#capacity}
+
+Para **fontes de dados externas**, o número máximo de chamadas por segundo é limitado a 15. Se esse limite for excedido, as chamadas adicionais serão descartadas ou enfileiradas, dependendo da API em uso. É possível aumentar esse limite para fontes de dados externas privadas entrando em contato com o Adobe para incluir o endpoint na  de lista de permissões, mas essa não é uma opção para fontes de dados externas públicas. * [Saiba como configurar fontes de dados](../datasource/about-data-sources.md).
 
 >[!NOTE]
 >
-> Se uma fonte de dados usar uma autenticação personalizada com um terminal diferente daquele usado para a fonte de dados, será necessário entrar em contato com o Adobe para também incluir esse terminal na  de lista de permissões.
+>Se uma fonte de dados usar uma autenticação personalizada com um terminal diferente daquele usado para a fonte de dados, será necessário entrar em contato com o Adobe para também incluir esse terminal na  de lista de permissões.
 
-Para ações personalizadas, é necessário avaliar a capacidade da API externa. Por exemplo, se o Journey Optimizer enviar 1000 chamadas por segundo e o sistema suportar apenas 100 chamadas por segundo, é necessário definir uma regra de limitação para que o sistema não fique saturado.
-
-As regras de limitação são definidas no nível da sandbox para um endpoint específico (o URL chamado). No tempo de execução, o Journey Optimizer verifica se há uma regra de limitação definida e aplica a taxa definida durante as chamadas para esse terminal. Se o número de chamadas exceder a taxa definida, as chamadas restantes serão descartadas e serão contadas como erros no relatório.
-
-Uma regra de limitação é específica de um ponto de extremidade, mas global para todas as jornadas de uma sandbox. Isso significa que os slots de limitação são compartilhados entre todas as jornadas de uma sandbox.
-
-Por exemplo, digamos que você tenha definido uma regra de limite de 100 chamadas por segundo para seu sistema externo. Seu sistema é chamado por uma ação personalizada em 10 jornadas diferentes. Se uma jornada receber 200 chamadas por segundo, ela usará os 100 slots disponíveis e descartará os 100 slots restantes. Como a taxa máxima foi excedida, as outras 9 jornadas não terão mais nenhum slot. Essa granularidade ajuda a proteger o sistema externo contra sobrecarga e falha.
-
-Para saber mais sobre a API de limitação e como configurar regras de limitação, consulte [Documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}.
+Para **ações personalizadas**, é necessário avaliar a capacidade da API externa do . Por exemplo, se o Journey Optimizer enviar 1000 chamadas por segundo e o sistema suportar apenas 100 chamadas por segundo, é necessário definir uma configuração de limitação ou limitação para que o sistema não fique saturado. [Saiba como configurar ações](../action/action.md)
 
 ## Tempo limite e tentativas{#timeout}
 
-Se a regra de limitação for cumprida, a regra de tempo limite será aplicada.
+Se a regra de limitação ou limitação for cumprida, a regra de tempo limite será aplicada.
 
 Em cada jornada, é possível definir uma duração de tempo limite. Isso permite definir uma duração máxima ao chamar um sistema externo. A duração do tempo limite é configurada nas propriedades de uma jornada. Consulte [esta página](../building-journeys/journey-gs.md#timeout_and_error).
 
-Esse tempo limite é global para todas as chamadas externas (chamadas de API externas em ações personalizadas e fontes de dados personalizadas). Por padrão, é definido como 5 segundos.
+Esse tempo limite é global para todas as chamadas externas (chamadas de API externas em ações personalizadas e fontes de dados personalizadas). Por padrão, é definido como 30 segundos.
 
 Durante o tempo limite definido, a Journey Optimizer tenta chamar o sistema externo. Após a primeira chamada, um máximo de três tentativas pode ser executado até que o fim do tempo limite seja atingido. Não é possível alterar o número de tentativas.
 
@@ -74,9 +87,9 @@ Vamos tomar um exemplo por um tempo limite de 5 segundos.
 
 ## Perguntas frequentes{#faq}
 
-**Como posso configurar uma regra de limitação? Existe uma regra de limitação padrão?**
+**Como posso configurar uma regra de limitação ou limitação? Existe uma regra padrão?**
 
-Por padrão, não há regra de limitação. As regras de limitação são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação. Consulte [esta seção](../configuration/external-systems.md#capping) e [Documentação do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}.
+Por padrão, não há regra de limitação ou limitação. As regras são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação ou limitação. Consulte [esta seção](../configuration/external-systems.md#capping).
 
 **Quantas tentativas são executadas? Posso alterar o número de tentativas ou definir um período mínimo de espera entre as tentativas?**
 

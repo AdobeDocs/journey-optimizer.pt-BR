@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, ler, segmento, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 11%
@@ -69,7 +69,7 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
 
 1. Defina as **[!UICONTROL Taxa de limitação]** para o limite de taxa de transferência da atividade de segmento de leitura.
 
-   Esse valor é armazenado na carga da versão do jornada. O valor padrão é 20.000 mensagens por segundo. Você pode modificar esse valor de 500 a 20.000 mensagens por segundo.
+   Esse valor é armazenado na carga da versão do jornada. O valor padrão é 5.000 mensagens por segundo. Você pode modificar esse valor de 500 a 20.000 mensagens por segundo.
 
    >[!NOTE]
    >

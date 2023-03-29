@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '447'
 ht-degree: 6%
 
 ---
@@ -38,7 +38,7 @@ Por exemplo, você pode aumentar a prioridade de todas as ofertas em que a data 
 
 Saiba como criar uma fórmula de classificação no [esta seção](../ranking/create-ranking-formulas.md).
 
-Depois que uma fórmula de classificação é criada, você pode atribuí-la a uma disposição em uma decisão. Para fazer isso, siga as etapas abaixo:
+Depois que uma fórmula é criada, você pode atribuí-la a uma disposição em uma decisão. Para fazer isso, siga as etapas abaixo:
 
 1. Crie uma decisão ou edite uma existente. Consulte [Criar decisões](../offer-activities/create-offer-activities.md).
 
@@ -46,17 +46,17 @@ Depois que uma fórmula de classificação é criada, você pode atribuí-la a u
 
 1. Para cada disposição, adicione uma coleção. Consulte [Criar coleções](../offer-library/creating-collections.md).
 
-1. Selecionar **[!UICONTROL Fórmula de classificação]** como método de classificação, clique em **[!UICONTROL Adicionar classificação]**.
+1. Selecionar **[!UICONTROL Fórmula]** como método de classificação, clique em **[!UICONTROL Adicionar classificação]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. Selecione a fórmula de classificação desejada e clique em **[!UICONTROL Selecionar]**.
+1. Selecione a fórmula desejada e clique em **[!UICONTROL Selecionar]**.
 
    ![](../assets/ranking-selection.png)
 
 A fórmula de classificação agora está associada à disposição.
 
-Se várias ofertas estiverem qualificadas para serem apresentadas nesta disposição, a decisão usará a fórmula de classificação para calcular qual oferta entregar primeiro.
+Se várias ofertas estiverem qualificadas para serem apresentadas nesta disposição, a decisão usará a fórmula selecionada para calcular qual oferta entregar primeiro.
 
 ## Classificação de IA {#use-ranking-strategy}
 

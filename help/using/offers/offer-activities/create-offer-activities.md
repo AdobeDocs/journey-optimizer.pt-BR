@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1402'
 ht-degree: 3%
 
 ---
@@ -98,19 +98,19 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. Defina o método de classificação que deseja usar para selecionar a melhor oferta para cada perfil.
+1. Defina o método de classificação que deseja usar para selecionar a melhor oferta para cada perfil. [Saiba mais](../offer-activities/configure-offer-selection.md).
 
    ![](../assets/activity_ranking-method.png)
 
-   * Por padrão, se várias ofertas estiverem qualificadas para essa disposição, a oferta com a pontuação de prioridade mais alta será entregue ao cliente.
+   * Por padrão, se várias ofertas estiverem qualificadas para essa disposição, a variável **[!UICONTROL Prioridade da oferta]** O método usa o valor definido nas ofertas: a oferta com a pontuação de prioridade mais alta será entregue ao usuário.
 
-   * Se quiser usar uma fórmula específica para escolher qual oferta qualificada entregar, selecione **[!UICONTROL Fórmula de classificação]**. Saiba como classificar ofertas em [esta seção](../offer-activities/configure-offer-selection.md).
+   * Se desejar usar uma pontuação calculada específica para escolher qual oferta qualificada entregar, selecione **[!UICONTROL Fórmula]** ou **[!UICONTROL Modelo de IA]**. [Saiba mais](../offer-activities/configure-offer-selection.md).
 
 1. Clique em **[!UICONTROL Adicionar]** para definir mais critérios para a mesma disposição.
 
    ![](../assets/activity_add-collection.png)
 
-1. Ao adicionar vários critérios, eles serão avaliados em uma ordem específica. A primeira coleção que foi adicionada à sequência será avaliada primeiro e assim por diante.
+1. Ao adicionar vários critérios, eles serão avaliados em uma ordem específica. A primeira coleção que foi adicionada à sequência será avaliada primeiro e assim por diante. [Saiba mais](#evaluation-criteria-order)
 
    Para alterar a sequência padrão, você pode arrastar e soltar as coleções para reorganizá-las conforme desejado.
 
@@ -120,13 +120,27 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
    ![](../assets/activity_move-collection.png)
 
-   Agora têm a mesma classificação e serão avaliadas ao mesmo tempo.
+   Agora têm a mesma classificação e serão avaliadas ao mesmo tempo. [Saiba mais](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
 
 1. Para adicionar outra disposição para suas ofertas como parte dessa decisão, use o **[!UICONTROL Novo escopo]** botão. Repita as etapas acima para cada escopo de decisão.
 
    ![](../assets/activity_new-scope.png)
+
+### Ordem dos critérios de avaliação {#evaluation-criteria-order}
+
+Como descrito acima, um critério de avaliação consiste em uma coleção, restrições de elegibilidade e um método de classificação. Você pode definir a ordem sequencial desejada para que os critérios de avaliação sejam avaliados, mas também pode combinar vários critérios de avaliação para que sejam avaliados juntos e não separadamente.
+
+Por exemplo, você tem duas coleções, uma no critério de avaliação A e outra no critério de avaliação B. A solicitação é que duas ofertas sejam enviadas de volta. Digamos que há duas ofertas elegíveis do critério de avaliação A e três ofertas elegíveis do critério de avaliação B.
+
+* Se os dois critérios de avaliação forem **não combinados** e/ou na ordem sequencial (1 e 2), as duas principais ofertas elegíveis dos critérios de avaliação serão retornadas na primeira linha. Se não houver duas ofertas elegíveis para os primeiros critérios de avaliação, o mecanismo de decisão avançará para os próximos critérios de avaliação em sequência para localizar quantas ofertas ainda forem necessárias e, em última análise, retornará um fallback se necessário.
+
+   ![](../assets/activity_consecutive-rank-collections.png)
+
+* Se as duas coleções forem **avaliado ao mesmo tempo**, dado que existem duas ofertas elegíveis dos critérios de avaliação A e três ofertas elegíveis dos critérios de avaliação B, as cinco ofertas serão todas agrupadas em conjunto com base no valor determinado pelos respectivos métodos de classificação. Duas ofertas são solicitadas, portanto as duas principais ofertas elegíveis dessas cinco ofertas serão retornadas.
+
+   ![](../assets/activity_same-rank-collections.png)
 
 ## Adicionar uma oferta de fallback {#add-fallback}
 

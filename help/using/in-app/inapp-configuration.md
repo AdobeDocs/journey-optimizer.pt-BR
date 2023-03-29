@@ -3,13 +3,13 @@ title: Configuração no aplicativo
 description: Saiba como configurar seu ambiente para enviar mensagens no aplicativo com o Journey Optimizer
 role: Admin
 level: Intermediate
-keywords: no aplicativo, mensagem, configuração, plataforma
 badge: label="Beta" type="Informative"
+keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -55,7 +55,7 @@ Antes de enviar mensagens no aplicativo, é necessário configurar o canal no ap
 
 1. No menu Extensões da propriedade recém-criada, instale as seguintes extensões:
 
-   * Rede de borda Adobe Experience Platform
+   * Rede de borda da Adobe Experience Platform
    * Adobe Journey Optimizer
    * Garantia da AEP
    * Consentimento

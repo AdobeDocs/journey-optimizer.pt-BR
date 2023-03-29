@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: externo, fontes, dados, configuração, conexão, terceiros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 71%
+source-wordcount: '1462'
+ht-degree: 70%
 
 ---
 
@@ -82,6 +82,11 @@ Para o conjunto de parâmetros &quot;long/lat&quot;, criamos um grupo de campos 
 * **[!UICONTROL Método]**: selecione o método POST ou GET . No nosso caso, selecionamos o método GET.
 * **[!UICONTROL Valores dinâmicos]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas jornadas. [Saiba mais](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Carga de resposta]**: clique dentro do **[!UICONTROL Carga]** e cole um exemplo da carga útil retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API de meteorologia. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. Observe que você pode clicar em **[!UICONTROL Colar uma nova carga]** se desejar alterar a carga útil transmitida no momento.
+
+   >[!NOTE]
+   >
+   >Matrizes escalares não são suportadas na definição de carga de resposta.
+
 * **[!UICONTROL Carga enviada]**: esse campo não aparece no nosso exemplo. Ele só estará disponível se você selecionar o método POST. Cole a carga útil que será enviada para o sistema de terceiros.
 
 No caso de uma chamada GET que requer parâmetros, você informa os parâmetros na variável **[!UICONTROL Valores dinâmicos]** e são automaticamente adicionados no final da chamada. No caso de uma chamada POST, é necessário:

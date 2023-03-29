@@ -8,9 +8,9 @@ role: User, Developer
 level: Experienced
 keywords: jornada, fontes de dados, limite, taxa de transferência, personalizado, ações
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '644'
 ht-degree: 3%
 
 ---
@@ -27,9 +27,13 @@ Isso pode ser feito com :
 
 * **Ações personalizadas**: para enviar informações para sistemas externos, por exemplo, para enviar emails por meio de uma solução externa usando os recursos de orquestração do Journey Optimizer juntamente com informações de perfil, dados do público-alvo e contexto de jornada.
 
-Se você estiver trabalhando com fontes de dados externas ou ações personalizadas, convém proteger seus sistemas externos limitando a taxa de transferência da jornada: até 5000 instâncias/segundo para jornadas unitárias e até 20000 instâncias/segundo para as acionadas por segmento. Você pode definir limites no nível do ponto de extremidade para evitar sobrecarregar esses sistemas externos por meio de APIs de limitação do Journey Optimizer. No entanto, todas as solicitações restantes após o limite ser atingido serão descartadas.
+Se você estiver trabalhando com fontes de dados externas ou ações personalizadas, convém proteger seus sistemas externos limitando a taxa de transferência da jornada: até 5000 instâncias/segundo para jornadas unitárias e até 20000 instâncias/segundo para as acionadas por segmento.
 
-Nesta seção, você encontrará soluções alternativas que podem ser usadas para otimizar sua taxa de transferência. Para obter mais informações sobre como integrar com sistemas externos, consulte esta seção [página](../configuration/external-systems.md).
+Para ações personalizadas, os recursos de limitação estão disponíveis no nível do produto. Consulte esta [página](../configuration/external-systems.md#capping).
+
+Para fontes de dados externas, é possível definir limites no nível do endpoint para evitar sobrecarregar esses sistemas externos por meio de APIs de limitação do Journey Optimizer. No entanto, todas as solicitações restantes após o limite ser atingido serão descartadas. Nesta seção, você encontrará soluções alternativas que podem ser usadas para otimizar sua taxa de transferência.
+
+Para obter mais informações sobre como integrar com sistemas externos, consulte esta seção [página](../configuration/external-systems.md).
 
 ## Implementação
 

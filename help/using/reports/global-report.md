@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1298'
 ht-degree: 5%
 
 ---
@@ -64,6 +64,10 @@ Cada painel de relatórios pode ser modificado alterando o período de tempo e r
    ![](assets/report_modify_5.png)
 
 1. Quando estiver satisfeito com a ordem de exibição e o tamanho dos widgets, clique em **[!UICONTROL Salvar]**.
+
+1. Para personalizar a forma como seus dados são exibidos, é possível alternar de diferentes opções de visualização, como gráficos, tabelas e gráficos de rosca.
+
+   ![](assets/report_modify_10.png)
 
 Seu painel agora é salvo. Suas diferentes alterações serão reaplicadas para um uso posterior dos seus relatórios ao vivo. Se necessário, use a **[!UICONTROL Redefinir]** para restaurar a ordem dos widgets e widgets padrão.
 

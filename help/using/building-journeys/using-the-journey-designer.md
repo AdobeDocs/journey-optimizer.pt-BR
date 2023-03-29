@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: design, tela, jornada, interface, arrastar e soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1611'
+source-wordcount: '1642'
 ht-degree: 3%
 
 ---
@@ -46,6 +46,12 @@ Também é possível usar a variável **[!UICONTROL Pesquisar]** campo. Somente 
 O **tela** é a zona central no designer de jornadas. É nessa zona que você pode soltar suas atividades e configurá-las. Clique em uma atividade na tela para configurá-la. Isso abre o painel de configuração da atividade no lado direito.
 
 ![](assets/journey39.png)
+
+O **barra de ferramentas**, localizado no canto superior direito da tela, permite mostrar/ocultar a grade, aumentar/diminuir o zoom e baixar uma captura de tela da tela. Consulte esta [seção](../building-journeys/journey-gs.md#timeout_and_error).
+
+<!--and show/hide timeout and error paths-->
+
+![](assets/toolbar.png){width="70%" align="left"}
 
 O **painel de configuração da atividade** é exibida ao clicar em uma atividade na paleta. Preencha os campos obrigatórios. Clique no botão **[!UICONTROL Excluir]** ícone para excluir a atividade. Clique em **[!UICONTROL Cancelar]** para anular as modificações ou **[!UICONTROL Ok]** para confirmar. Para excluir atividades, você também pode selecionar uma atividade (ou várias) e pressionar a tecla Backspace. Pressionar a tecla escape fechará o painel de configuração da atividade.
 

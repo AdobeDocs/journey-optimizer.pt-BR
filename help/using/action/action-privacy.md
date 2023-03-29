@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: dados, governança, DULE, rótulos, rotulagem, plataforma, política
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '904'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,6 @@ Para obter mais informações sobre a estrutura de governança de dados e como t
 
 * A governança de dados se aplica somente às ações personalizadas nas jornadas. As ações do Campaign Classic e do Campaign Standard não são compatíveis.
 * As políticas de governança só se aplicam quando uma ação de marketing (necessária ou adicional) é definida no nível de ação personalizada.
-* Os atributos que fazem parte de um grupo de campos usando o esquema de união predefinido não são compatíveis. Esses atributos ficarão ocultos na interface. É necessário criar outro grupo de campos usando um schema diferente.
 
 ## Definir políticas de governança {#governance-policies}
 
