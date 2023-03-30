@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -420,7 +420,7 @@ ht-degree: 98%
       + [Introdução aos conjuntos de dados](using/data/get-started-datasets.md)
       + [Exportar conjuntos de dados do Journey Optimizer](using/data/export-datasets.md)
       + [Exemplos de consultas](using/data/datasets-query-examples.md)
-      + [Schemas incorporados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
+      + [Esquemas incorporados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
    + [Consultas](using/data/get-started-queries.md)
 + Configuração {#configuration}
    + [Introdução à configuração do Journey Optimizer](using/configuration/get-started-configuration.md)
@@ -449,7 +449,7 @@ ht-degree: 98%
          + Configurar um evento unitário {#unitary-events}
             + [Introdução a eventos unitários](using/event/about-creating.md)
             + [Sobre schemas ExperienceEvent](using/event/experience-event-schema.md)
-            + [Trabalhar com a Adobe Analytics](using/event/about-analytics.md)
+            + [Compatível com o Adobe Analytics](using/event/about-analytics.md)
          + [Configurar um evento comercial](using/event/about-creating-business.md)
          + [Etapas adicionais para enviar eventos](using/event/additional-steps-to-send-events-to-journey.md)
       + Configuração de fonte de dados{#data-source-journeys}

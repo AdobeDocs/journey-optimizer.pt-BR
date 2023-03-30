@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '2445'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -18,13 +18,13 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 ## Março de 2023 {#march-2023}
 
 * Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 23 de março foi detalhada na documentação. [Leia mais](release-notes.md)
-* Foi adicionada uma etapa para ativar os eventos do Adobe Analytics em suas jornadas. [Leia mais](../event/about-analytics.md)
+* Adição de uma etapa para ativar os eventos do Adobe Analytics em suas jornadas. [Leia mais](../event/about-analytics.md)
 * Uma nova seção foi criada no guia da gestão de decisões sobre como coletar feedback das definições de ofertas na Adobe Experience Platform, incluindo quais ofertas são exibidas e como os usuários interagem com elas. [Leia mais](../offers/data-collection/data-collection.md)
 * Uma nova subseção foi adicionada à **Criar decisão** para explicar a diferença entre avaliar critérios em uma ordem sequencial ou ao mesmo tempo. [Leia mais](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 
 ## Fevereiro de 2023 {#feb-2023}
 
-* Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 23 de fevereiro foi detalhada na documentação. [Leia mais](release-notes.md)
+* Todos os novos recursos e aprimoramentos da versão de fevereiro de 2023 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
 * Uma observação foi adicionada na documentação de campanhas acionadas pela API para especificar que os atributos contextuais passados na solicitação não podem exceder 50 KB. [Leia mais](../campaigns/api-triggered-campaigns.md#contextual)
 * Adição de detalhes sobre como as informações de recusa são armazenadas no **conjunto de dados do serviço de consentimento** depois que os destinatários cancelam sua inscrição por meio de uma página de destino. [Leia mais](../landing-pages/lp-use-cases.md#configure-opt-out)
 
