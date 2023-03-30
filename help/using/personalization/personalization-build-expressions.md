@@ -9,14 +9,14 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 9%
+source-wordcount: '421'
+ht-degree: 6%
 
 ---
 
-# Sobre o editor de expressão {#build-personalization-expressions}
+# Introdução ao Editor de expressão {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
@@ -29,11 +29,9 @@ Na interface do editor de expressão, você selecionará, organizará, personali
 
 ![](assets/perso_ee1.png)
 
-A parte esquerda da tela exibe um seletor de domínio que permite selecionar a fonte para personalização.
+## Fontes de personalização disponíveis {#sources}
 
-![](assets/perso_ee3.png)
-
-As fontes disponíveis são:
+A parte esquerda da tela exibe um seletor de domínio que permite selecionar a fonte para personalização. As fontes disponíveis são:
 
 * **[!UICONTROL Atributos do perfil]** : lista todas as referências associadas ao esquema de perfil descrito em [Documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
 * **[!UICONTROL Associações de segmento]** : lista todos os segmentos criados no serviço de Segmentação do Adobe Experience Platform. Mais informações sobre a segmentação disponíveis [here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
@@ -41,11 +39,13 @@ As fontes disponíveis são:
 * **[!UICONTROL Atributos contextuais]** : quando uma atividade de ação de canal (Email, push, SMS) é usada em uma jornada, campos de jornada contextual ficam disponíveis por meio desse menu. Saiba mais [nesta seção](personalization-use-case.md).
 * **[!UICONTROL Funções auxiliares]** : lista todas as funções auxiliares disponíveis para executar operações em dados, como cálculos, formatação de dados ou conversões, condições e manipulá-las no contexto de personalização. Saiba mais [nesta seção](functions/functions.md).
 
-Clique no botão + para adicionar um atributo ao editor.
+## Adicionar atributos de personalização {#add}
 
->[!NOTE]
->
->O menu de elipse ao lado do ícone &quot;+&quot; permite obter mais detalhes para cada variável e adicionar os atributos usados com mais frequência ao [favoritos](personalization-favorites.md).
+Clique no botão + para adicionar um atributo à expressão de personalização.
+
+O menu de reticências ao lado do ícone &quot;+&quot; permite obter mais detalhes para cada variável e adicionar os atributos usados com mais frequência aos favoritos. [Saiba como adicionar atributos a favoritos](personalization-favorites.md)
+
+Além disso, é possível definir o texto de fallback padrão que será exibido se um atributo de perfil do tipo string estiver vazio. Para fazer isso, clique no botão de reticências ao lado do atributo e selecione **[!UICONTROL Inserir com texto de fallback]**. Escreva o texto que deve ser exibido por padrão se o valor do atributo estiver vazio para um perfil e clique em **[!UICONTROL Adicionar]**.
 
 ![](assets/attribute-details.png)
 
