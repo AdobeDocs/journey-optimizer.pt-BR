@@ -3,21 +3,16 @@ title: Configuração no aplicativo
 description: Saiba como configurar seu ambiente para enviar mensagens no aplicativo com o Journey Optimizer
 role: Admin
 level: Intermediate
-badge: label="Beta" type="Informative"
 keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 13%
+source-wordcount: '281'
+ht-degree: 11%
 
 ---
 
 # Configuração do canal no aplicativo {#inapp-configuration}
-
->[!AVAILABILITY]
->
->O recurso No aplicativo está disponível atualmente como um beta para selecionar somente usuários. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
 
 Antes de enviar mensagens no aplicativo, é necessário configurar o canal no aplicativo em [!DNL Adobe Experience Platform Data Collection].
 
