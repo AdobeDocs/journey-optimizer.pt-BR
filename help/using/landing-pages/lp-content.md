@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: inicial, página de aterrissagem, criação, página, formulário, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -93,7 +93,19 @@ Para definir um conteúdo específico que permitirá que os usuários selecionem
 
    ![](assets/lp_designer-form-checkbox-2.png)
 
-1. Depois de adicionar todas as caixas de seleção desejadas, clique em **[!UICONTROL Chamada à ação]** para expandir a seção correspondente. Ela permite definir o comportamento do botão na variável **[!UICONTROL Formulário]** componente.
+1. Você também pode adicionar uma **[!UICONTROL Campo de texto]**.
+
+   ![](assets/lp_designer-form-add-text-field.png)
+
+   * Insira o **[!UICONTROL Rótulo]** que será exibido na parte superior do campo no formulário.
+
+   * Insira um **[!UICONTROL Espaço reservado]** texto. Ele será exibido dentro do campo antes que o usuário preencha o campo .
+
+   * Verifique a **[!UICONTROL Torne o campo de formulário obrigatório]** , se necessário. Nesse caso, a landing page só poderá ser enviada se o usuário tiver preenchido esse campo. Se um campo obrigatório não for preenchido, uma mensagem de erro será exibida quando o usuário enviar a página.
+
+   ![](assets/lp_designer-form-text-field.png)
+
+1. Depois de adicionar todas as caixas de seleção e/ou campos de texto desejados, clique em **[!UICONTROL Chamada à ação]** para expandir a seção correspondente. Ela permite definir o comportamento do botão na variável **[!UICONTROL Formulário]** componente.
 
    ![](assets/lp_designer-form-call-to-action.png)
 
