@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0199b6b2ce7f3e03c7b5e49ff45f744ecc7c1885
+source-git-commit: 3dffd032edb3ffda4a1bcd460d554f7ecc253a8e
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 76%
+source-wordcount: '1540'
+ht-degree: 74%
 
 ---
 
@@ -114,13 +114,11 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 
 * Agora é possível incluir texto de fallback padrão para atributos de perfil baseados em sequência no Editor de expressão. Esses valores serão exibidos se os atributos selecionados não retornarem nenhum resultado. [Saiba mais](../personalization/personalization-build-expressions.md#add)
 
-<!--
-**Reporting**
+**Relatórios**
 
-* The reporting widget functionality has been improved with the ability to customize how users view their data. With this improvement, users can now choose between multiple visualization options, including graph, table, and donut charts.
+* A funcionalidade de widget de relatórios foi aprimorada com a capacidade de personalizar a forma como os usuários visualizam seus dados. Com essa melhoria, os usuários agora podem escolher entre várias opções de visualização, incluindo gráficos, tabelas e gráficos de rosca.
 
-    To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to the [detailed documentation](../reports/global-report.md#modify-dashboard).
--->
+   Para ter acesso aos widgets mais recentes, observe que será necessário redefinir os diferentes painéis de relatórios. Para obter mais informações sobre a personalização de painéis, consulte a [documentação detalhada](../reports/global-report.md#modify-dashboard).
 
 ## Notas de versão de fevereiro de 2023 {#feb-2023}
 
