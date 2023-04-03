@@ -11,7 +11,7 @@ keywords: dados, governança, DULE, rótulos, rotulagem, plataforma, política
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: ht
-source-wordcount: '904'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
