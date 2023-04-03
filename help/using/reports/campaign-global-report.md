@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
 workflow-type: tm+mt
-source-wordcount: '1926'
-ht-degree: 2%
+source-wordcount: '1904'
+ht-degree: 1%
 
 ---
 
@@ -145,10 +145,6 @@ O **[!UICONTROL Enviar otimização de tempo]** detalha o sucesso do delivery, d
 +++
 
 ## Guia No aplicativo {#inapp-global}
-
->[!IMPORTANT]
->
->O recurso No aplicativo está disponível atualmente como um beta para selecionar somente usuários. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
 
 Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL No aplicativo]** detalha as informações principais relativas aos deliveries no aplicativo enviados na campanha.
 
