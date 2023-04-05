@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
+source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: '714'
+ht-degree: 80%
 
 ---
 
@@ -37,6 +37,25 @@ Saiba mais sobre o [Journey Optimizer + Customer Journey Analytics](../reports/c
 Você pode aproveitar todos os dados de evento comportamentais do Adobe Analytics que já estão sendo capturados e transmitidos à Adobe Experience Platform para acionar jornadas em tempo real e automatizar as experiências de seus clientes. Esses dados também podem ser usados para criar segmentos que podem ser engajados usando o Journey Optimizer.
 
 Saiba mais sobre o [Journey Optimizer + Analytics](../event/about-analytics.md).
+
+
+## Adobe Experience Manager Assets Essentials{#integration-assets}
+
+Reúna fluxos de trabalho de marketing e criação usando [!DNL Adobe Experience Manager Assets Essentials]. Integrado nativamente com [!DNL Adobe Journey Optimizer], acesso [!DNL Assets Essentials] para armazenar, gerenciar, descobrir e distribuir ativos digitais. Ele fornece um repositório único e centralizado de ativos que você pode usar para preencher suas mensagens.
+
+[!DNL Adobe Experience Manager Assets Essentials] pode ser acessada diretamente de [!DNL Adobe Journey Optimizer] no menu esquerdo **[!UICONTROL Ativos]** seção.
+
+Saiba mais sobre [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
+
+
+## Adobe Stock{#integration-stock}
+
+O [!DNL Adobe Stock] e [!DNL Adobe Journey Optimizer] O plug-in de integração do Designer de email fornece aos clientes uma maneira fácil de navegar, licenciar e salvar imagens para uso na criação de mensagens.
+
+Com [!DNL Adobe Journey Optimizer], você pode carregar imagens em seus emails diretamente de [!DNL Adobe Stock] e adicione-o ao **[!UICONTROL Ativos]** usando a **[!UICONTROL Localizar fotos do Adobe Stock]** opção. Além disso, a variável **[!UICONTROL Localizar fotos de Ações Semelhantes]** ajuda a encontrar imagens que correspondam ao conteúdo, à cor e à composição do ativo usado no delivery.
+
+Saiba mais sobre [Journey Optimizer + Stock](../email/stock.md).
+
 
 ## Serviços inteligentes da Adobe{#integration-intelligent-service}
 
