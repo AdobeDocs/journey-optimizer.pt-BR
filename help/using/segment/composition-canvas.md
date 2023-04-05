@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 1%
@@ -76,7 +76,7 @@ As atividades disponíveis são:
 
 * [Público](#audience): incluir perfis adicionais pertencentes a um ou vários públicos-alvo existentes,
 * [Excluir](#exclude): excluir perfis pertencentes a um público-alvo existente ou excluir perfis com base em atributos específicos,
-* [Enriquecer]{#enrich}: enriquecer seu público-alvo com atributos adicionais provenientes de conjuntos de dados do Adobe Experience Platform,
+* [Enriquecer](#enrich): enriquecer seu público-alvo com atributos adicionais provenientes de conjuntos de dados do Adobe Experience Platform,
 * [Classificação](#rank): classificar perfis com base em um atributo específico, especifique o número de perfis a serem mantidos e inclua-os em sua composição,
 * [Split](#split): divida sua composição em vários caminhos com base em porcentagens aleatórias ou em atributos.
 
