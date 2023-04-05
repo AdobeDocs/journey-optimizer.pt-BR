@@ -6,9 +6,9 @@ description: Saiba como trabalhar com a API de limitação
 role: User
 level: Beginner
 keywords: externo, API, otimizador, limitação
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,8 @@ Esta seção fornece informações globais sobre como trabalhar com a API. Uma d
 >Atualmente, apenas uma configuração é permitida por organização. Uma configuração deve ser definida em uma sandbox de produção (fornecida por meio de x-sandbox-name nos cabeçalhos).
 >
 >Uma configuração é aplicada no nível da organização.
+>
+>Quando o limite definido na API é atingido, outros eventos são enfileirados por até 6 horas. Este valor não pode ser modificado.
 
 ## Descrição da API de limitação {#description}
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: externo, API, otimizador, limitação
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 65da82fd67442cfa2b5d45ec753fb3c5a86d4cc7
+source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 3%
+source-wordcount: '1201'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ Ao configurar uma fonte de dados ou uma ação, você estabelece uma conexão co
 
 As APIs do Jornada suportam até 5000 eventos por segundo, mas alguns sistemas externos ou APIs podem não ter uma taxa de transferência equivalente. Para evitar sobrecarga desses sistemas, você pode usar o **Limitação** e **Limitação** APIs para limitar o número de eventos enviados por segundo.
 
-Toda vez que uma chamada de API é executada pelo jornada, ela passa pelo mecanismo de API. Se o limite definido na API for atingido, a chamada será rejeitada se você estiver usando a API de limitação ou colocada em fila e processada assim que possível na ordem em que foram recebidas se estiver usando a API de limitação.
+Toda vez que uma chamada de API é executada pelo jornada, ela passa pelo mecanismo de API. Se o limite definido na API for atingido, a chamada será rejeitada se você estiver usando a API de limitação ou colocada em fila por até 6 horas e processada o mais rápido possível na ordem em que foi recebida se estiver usando a API de limitação.
 
 Por exemplo, digamos que você tenha definido uma regra de limitação ou limitação de 100 chamadas por segundo para seu sistema externo. Seu sistema é chamado por uma ação personalizada em 10 jornadas diferentes. Se uma jornada receber 200 chamadas por segundo, ela usará os 100 slots disponíveis e descartará ou colocará em fila os 100 slots restantes. Como a taxa máxima foi excedida, as outras 9 jornadas não terão mais nenhum slot. Essa granularidade ajuda a proteger o sistema externo contra sobrecarga e falha.
 
