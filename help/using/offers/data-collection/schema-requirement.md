@@ -2,7 +2,7 @@
 product: experience platform
 solution: Experience Platform
 title: Configurar captura de eventos
-description: Saiba como configurar seu esquema de oferta para capturar eventos
+description: Saiba como configurar o schema de ofertas para capturar eventos
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -14,26 +14,26 @@ ht-degree: 2%
 
 ---
 
-# Configurar coleção de dados {#schema-requirements}
+# Configurar a coleta de dados {#schema-requirements}
 
 <!--To send in feedback data, you must define how the experience events will be captured.-->
 
-Para obter feedback sobre tipos de evento diferentes dos eventos de decisão, você deve definir o valor correto para cada tipo de evento em um **evento de experiência** que é enviado para o Adobe Experience Platform.
+Para obter feedback sobre tipos de evento diferentes de eventos de decisão, você deve definir o valor correto para cada tipo de evento em um **evento de experiência** que é enviado para o Adobe Experience Platform.
 
-Para cada tipo de evento, verifique se o esquema usado no conjunto de dados tem o **[!UICONTROL Evento de experiência - Interações de apresentação]** grupo de campos associado a ele. [Saiba mais](create-dataset.md)
+Para cada tipo de evento, verifique se o esquema usado no conjunto de dados tem o **[!UICONTROL Evento de experiência - Interações de proposta]** grupo de campos associado a ele. [Saiba mais](create-dataset.md)
 
-Abaixo estão os requisitos de esquema que você precisa implementar no seu código JavaScript.
+Abaixo estão os requisitos de esquema que você precisa implementar no código JavaScript.
 
 >[!NOTE]
 >
->Os eventos de decisão não precisam ser enviados, pois a Gestão de decisão gerará esses eventos automaticamente e os colocará na **[!UICONTROL ODE DecisionEvents]** conjunto de dados<!--to check--> que é gerado automaticamente.
+>Os eventos de decisão não precisam ser enviados no , pois o Gerenciamento de decisões gerará automaticamente esses eventos e os colocará no **[!UICONTROL Eventos de decisão do ODE]** conjunto de dados<!--to check--> que é gerado automaticamente.
 
 ## Rastrear impressões
 
-Verifique se o tipo e a origem do evento são os seguintes:
+Verifique se o tipo e a fonte do evento são os seguintes:
 
 **Tipo de evento de experiência:** `decisioning.propositionDisplay`
-**Fonte:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou assimilação em lote
+**Fonte:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou a ingestão por lotes
 +++**Carga de exemplo:**
 
 ```
@@ -64,10 +64,10 @@ Verifique se o tipo e a origem do evento são os seguintes:
 
 ## Rastrear cliques
 
-Verifique se o tipo e a origem do evento são os seguintes:
+Verifique se o tipo e a fonte do evento são os seguintes:
 
 **Tipo de evento de experiência:** `decisioning.propositionInteract`
-**Fonte:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou assimilação em lote
+**Fonte:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou a ingestão por lotes
 +++**Carga de exemplo:**
 
 ```
@@ -98,7 +98,7 @@ Verifique se o tipo e a origem do evento são os seguintes:
 
 ## Rastrear eventos personalizados
 
-Para eventos personalizados, o esquema usado no conjunto de dados também deve ter o **[!UICONTROL Evento de experiência - Interações de apresentação]** grupo de campos associado a ele, mas não há requisito específico no tipo de evento de experiência que deve ser usado para marcar esses eventos.
+Para eventos personalizados, o esquema usado no conjunto de dados também deve ter a variável **[!UICONTROL Evento de experiência - Interações de proposta]** grupo de campos associado a ele, mas não há requisito específico no tipo de evento de experiência que deve ser usado para marcar esses eventos.
 
 <!--
 ## Using a ranking strategy {#using-ranking}

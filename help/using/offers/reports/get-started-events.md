@@ -1,6 +1,6 @@
 ---
 title: Introdução aos eventos de Gerenciamento de decisão
-description: Saiba como criar relatórios do Gestão de decisões no Adobe Experience Platform.
+description: Saiba como criar relatórios de Gerenciamento de decisões no Adobe Experience Platform.
 feature: Offers
 topic: Integrations
 role: User
@@ -15,15 +15,15 @@ ht-degree: 56%
 
 # Introdução aos eventos da Gestão de decisões {#monitor-offer-events}
 
-Cada vez que a Gestão de decisões toma uma decisão para determinado perfil, as informações relacionadas a esses eventos são automaticamente enviadas para a Adobe Experience Platform.
+Sempre que o Gerenciamento de decisões tomar um determinado perfil, as informações relacionadas a esses eventos são automaticamente enviadas para a Adobe Experience Platform.
 
 Isso permite exportar esses dados para analisá-los no seu próprio sistema de relatórios. Você também pode aproveitar o Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR) em combinação com outras ferramentas para fins de análise e relatório aprimorados.
 
-Os conjuntos de dados contendo eventos de Gestão de decisão podem ser acessados no Adobe Experience Platform **[!UICONTROL Conjuntos de dados]** menu. Um conjunto de dados é criado automaticamente no provisionamento para cada uma de suas instâncias.
+Os conjuntos de dados que contêm eventos de Gerenciamento de decisões são acessíveis no Adobe Experience Platform **[!UICONTROL Conjuntos de dados]** menu. Um conjunto de dados é criado automaticamente no provisionamento para cada uma de suas instâncias.
 
 ![](../assets/events-datasets-list.png)
 
-Esses conjuntos de dados são baseados na variável **[!UICONTROL ODE DecisionEvents]** esquema, que contém todos os campos XDM necessários para enviar informações da Gestão de decisões para a Adobe Experience Platform.
+Esses conjuntos de dados são baseados na variável **[!UICONTROL Eventos de decisão do ODE]** , que contém todos os campos XDM necessários para enviar informações do Gerenciamento de decisão para a Adobe Experience Platform.
 
 >[!NOTE]
 >

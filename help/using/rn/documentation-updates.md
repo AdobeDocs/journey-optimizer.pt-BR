@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
 workflow-type: tm+mt
 source-wordcount: '2518'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -22,12 +22,12 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Março de 2023 {#march-2023}
 
-* O dicionário de esquema do Journey Optimizer está disponível. Você encontrará a lista completa de campos e atributos para cada schema.  [Leia mais](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
-* Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 23 de março foi detalhada na documentação. [Leia mais](release-notes.md)
+* O dicionário de esquemas do Journey Optimizer está disponível agora. Você encontrará a lista completa de campos e atributos para cada esquema.  [Leia mais](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
+* Todos os novos recursos e aprimoramentos da versão de março de 2023 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
 * Adição de uma etapa para ativar os eventos do Adobe Analytics em suas jornadas. [Leia mais](../event/about-analytics.md)
 * Uma nova seção foi criada no guia da gestão de decisões sobre como coletar feedback das definições de ofertas na Adobe Experience Platform, incluindo quais ofertas são exibidas e como os usuários interagem com elas. [Leia mais](../offers/data-collection/data-collection.md)
-* Uma nova subseção foi adicionada à **Criar decisão** para explicar a diferença entre avaliar critérios em uma ordem sequencial ou ao mesmo tempo. [Leia mais](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* Uma garantia foi adicionada para jornadas de segmento de leitura com leitura incremental. Não é possível criar uma nova versão, é necessário duplicar a jornada. [Leia mais](../start/guardrails.md#journey-versions-g)
+* Uma nova subseção foi adicionada à seção **Criar decisão** para explicar a diferença entre avaliar critérios em uma ordem sequencial ou simultaneamente. [Leia mais](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* Uma medida de proteção foi adicionada para jornadas de segmento de leitura com leitura incremental. Não é possível criar uma nova versão. É necessário duplicar a jornada. [Leia mais](../start/guardrails.md#journey-versions-g)
 
 ## Fevereiro de 2023 {#feb-2023}
 

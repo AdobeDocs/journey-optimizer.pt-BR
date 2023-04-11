@@ -98,7 +98,7 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 
 **Personalização**
 
-* **Nova função auxiliar para a formatação de data** - Agora é possível especificar como uma cadeia de caracteres de data deve ser representada. [Saiba mais](../personalization/functions/dates.md#format-date)
+* **Nova função auxiliar para a formatação de data** - Agora é possível especificar como uma string de data deve ser representada. [Saiba mais](../personalization/functions/dates.md#format-date)
 
 
 **Gerenciamento de decisão**
@@ -160,7 +160,7 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 * Os esquemas e conjuntos de dados gerados pelo sistema que foram criados durante o provisionamento para eventos da etapa agora estão no modo somente leitura, protegendo contra qualquer modificação inadvertida em esquemas críticos. [Saiba mais](../reports/sharing-overview.md)
 * Rotule claramente a atividade **Aguardar** com um rótulo que será exibido na tela. O rótulo também é usado em logs de relatórios e modos de teste para identificar claramente o que você está fazendo. [Saiba mais](../building-journeys/about-journey-activities.md#best-practices)
 * Encontre os seus eventos e ações com mais rapidez filtrando os elementos nas categorias **Eventos** e **Ação** usando a pesquisa. As atividades de orquestração não são mais filtradas. [Saiba mais](../building-journeys/using-the-journey-designer.md)
-* Ao definir uma condição de ID de evento em um evento com base em regras ou de negócios, o operador &quot;contém&quot; agora está disponível para tipos de cadeias de caracteres de campos. [Saiba mais](../event/about-creating.md)
+* Ao definir uma condição de ID de evento em um evento com base em regras ou de negócios, o operador &quot;contém&quot; agora está disponível para tipos de strings de campos. [Saiba mais](../event/about-creating.md)
 
 **Configuração de email**
 
@@ -272,7 +272,7 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 **Design de conteúdo**
 
 * **Plano de fundo** - Imagens de planos de fundo agora são compatíveis com a pré-visualização ao vivo. [Saiba mais](../email/preview.md)
-* **Link para opção de não participação com um clique** - É possível inserir um novo tipo de link no conteúdo de email: o link para **opção de não participação** permite que os usuários cancelem o recebimento de suas comunicações com apenas um clique, sem serem redirecionados para uma página de aterrissagem para confirmar a recusa. [Saiba mais](../privacy/opt-out.md#one-click-opt-out-link)
+* **Link para opção de não participação com um clique** - É possível inserir um novo tipo de link no conteúdo de email: o link para **opção de não participação** permite que os usuários cancelem o recebimento de suas comunicações com apenas um clique, sem serem redirecionados para uma página de destino para confirmar a recusa. [Saiba mais](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalização**
 

@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Pesquisar um qualificador de coleção {#look-up-tag}
 
-Você pode pesquisar qualificadores de coleção específicos (anteriormente conhecidos como &quot;tags&quot;) fazendo uma solicitação GET para o [!DNL Offer Library] API que inclui o qualificador de coleção `@id` ou o nome do qualificador de coleção no caminho da solicitação.
+Você pode pesquisar qualificadores de coleção específicos (anteriormente conhecidos como &quot;tags&quot;), fazendo uma solicitação GET para a variável [!DNL Offer Library] API que inclui o qualificador de coleção `@id` ou o nome do qualificador de coleção no caminho da solicitação.
 
 **Formato da API**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde os qualificadores de coleta estão localizados. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | Define o esquema associado aos qualificadores da coleção. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `id` | Uma string usada para corresponder ao `@id` propriedade das entidades. A string é exatamente igual. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:tag:124e147572cd7866` |
-| `name` | Uma sequência de caracteres usada para corresponder à propriedade xdm:name das entidades. A string é exatamente igual, com maiúsculas e minúsculas, mas caracteres curinga podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Holiday sales and promotions` |
+| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O container onde os qualificadores de coleção estão localizados. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | Define o schema associado aos qualificadores de coleção. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `id` | Uma string usada para corresponder a `@id` propriedade das entidades. A sequência de caracteres corresponde exatamente. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:tag:124e147572cd7866` |
+| `name` | Uma string usada para corresponder à propriedade xdm:name das entidades. A string é correspondida exatamente com maiúsculas, mas caracteres curingas podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Holiday sales and promotions` |
 
 **Solicitação**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes do qualificador de coleta, incluindo informações sobre ID do contêiner, ID da instância e qualificador de coleta exclusivo `@id`.
+Uma resposta bem-sucedida retorna os detalhes do qualificador de coleção, incluindo informações sobre a ID do contêiner, a ID da instância e o qualificador de coleção exclusiva `@id`.
 
 ```json
 {

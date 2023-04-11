@@ -11,7 +11,7 @@ exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ Ele reúne endereços de email e domínios que são suprimidos em todas as corre
 
 >[!NOTE]
 >
->O Adobe mantém uma lista atualizada de endereços inválidos conhecidos que comprovadamente são prejudiciais ao engajamento e à reputação de endereçamento, e garante que os emails não sejam entregues a eles. Essa lista é gerenciada em uma lista de supressão global comum em todos os clientes do Adobe. Os endereços e os nomes de domínio contidos na lista de supressão global estão ocultos. Somente o número de recipients excluídos é indicado nos relatórios de delivery.
+>O Adobe mantém uma lista atualizada de endereços inválidos conhecidos que comprovadamente são prejudiciais ao engajamento e à reputação de endereçamento, e garante que os emails não sejam entregues a eles. Essa lista é gerenciada em uma lista de supressão global comum a todos os clientes da Adobe. Os endereços e os nomes de domínio contidos na lista de supressão global estão ocultos. Somente o número de destinatários excluídos é indicado nos relatórios de entrega.
 
 ## Por que uma lista de supressão? {#why-suppression-list}
 

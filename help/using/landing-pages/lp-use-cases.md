@@ -100,7 +100,7 @@ Oferecer aos destinatários a capacidade de cancelar a inscrição de recebiment
 
 Portanto, você sempre deve incluir um **link para cancelar a inscrição** em cada email enviado aos recipients:
 
-* Ao clicar nesse link, os recipients serão direcionados a uma página de aterrissagem que inclui um botão para confirmar a recusa.
+* Ao clicar nesse link, os recipients serão direcionados a uma página de destino que inclui um botão para confirmar a recusa.
 * Ao clicar no botão recusar, os dados do perfil serão atualizados com essas informações.
 
 ### Configurar recusa {#configure-opt-out}

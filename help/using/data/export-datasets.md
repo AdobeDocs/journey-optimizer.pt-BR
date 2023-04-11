@@ -10,7 +10,7 @@ keywords: plataforma, data lake, criar, lago, conjuntos de dados, perfil
 source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->No momento, o recurso de exportação de conjuntos de dados está em beta e disponível para todos os usuários do Adobe Journey Optimizer. Entre em contato com seu representante do Adobe para obter acesso a Destinos, caso ainda não tenha acesso a eles.
+>No momento, o recurso de exportação de conjuntos de dados está em beta e disponível para todos os usuários do Adobe Journey Optimizer. Entre em contato com seu representante da Adobe para obter acesso aos destinos, caso ainda não o tenha.
 
 O Journey Optimizer permite estabelecer uma conexão ativa com locais de armazenamento em nuvem para exportar o conteúdo de seus conjuntos de dados.
 

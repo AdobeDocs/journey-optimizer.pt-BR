@@ -59,6 +59,6 @@ Saiba como usar informações de evento contextual de uma jornada para personali
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Saiba como adicionar uma personalização baseada em perfil a uma mensagem e como usar a associação de segmento como uma pré-condição para um bloco de personalização.
+Saiba como adicionar uma personalização baseada em perfil a uma mensagem e como usar o segmento de afiliação como uma pré-condição para um bloco de personalização.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

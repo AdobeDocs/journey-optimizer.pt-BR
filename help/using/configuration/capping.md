@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Limitação da API
+title: API de limitação
 description: Saiba como trabalhar com a API de limitação
 role: User
 level: Beginner

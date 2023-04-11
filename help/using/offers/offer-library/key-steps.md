@@ -25,13 +25,13 @@ Para obter um exemplo completo mostrando como configurar ofertas, usá-las em um
 
 Antes de começar a criar ofertas, você deve definir vários componentes que usará em suas ofertas.
 
-1. **Criar posicionamentos**, que são contêineres que serão usados para exibir suas ofertas. Por exemplo, é possível criar uma disposição que será dedicada às ofertas somente no formato de imagem e situada na parte superior das mensagens.
+1. **Criar disposições**, que são contêineres que serão usados para mostrar suas ofertas. Você pode, por exemplo, criar uma disposição que será dedicada apenas a ofertas no formato de imagem e situada na parte superior das mensagens.
 
 1. **Criar regras de decisão** que especificará as condições em que as ofertas serão apresentadas.
 
-1. **Criar qualificadores de coleção** (anteriormente conhecido como &quot;tags&quot;) que você associará às ofertas, permitindo que organize e pesquise facilmente na biblioteca.
+1. **Criar qualificadores de coleção** (anteriormente conhecidas como &quot;tags&quot;) que você associará às ofertas, permitindo que você organize e pesquise-as facilmente na biblioteca.
 
-1. Se quiser definir regras que determinarão qual oferta deve ser apresentada primeiro para uma determinada inserção (em vez de considerar as pontuações de prioridade das ofertas), você poderá **criar uma fórmula de classificação**.
+1. Se você quiser definir regras que determinam qual oferta deve ser apresentada primeiro para uma determinada disposição (em vez de considerar as pontuações de prioridade das ofertas), poderá **criar uma fórmula de classificação**.
 
 <table>
 <tr>
@@ -45,7 +45,7 @@ Antes de começar a criar ofertas, você deve definir vários componentes que us
 
 1. **Criar ofertas** e configure o conteúdo e as propriedades.
 
-1. **Criar ofertas substitutas**, que são as ofertas de último recurso a serem exibidas se os clientes não estiverem qualificados para nenhuma das ofertas selecionadas.
+1. **Criar ofertas de fallback**, que são as últimas ofertas de recurso a serem exibidas se os clientes não estiverem qualificados para qualquer uma das ofertas selecionadas.
 
 1. **Criar uma coleção** para incluir as ofertas personalizadas que você criou e usá-las em uma decisão.
 
@@ -58,11 +58,11 @@ Antes de começar a criar ofertas, você deve definir vários componentes que us
 
 ## Criar e configurar decisões {#create-and-configure-decisions}
 
-1. **Criar uma decisão** que combinará disposições com as ofertas personalizadas e as ofertas substitutas. Essa combinação será usada pelo mecanismo de decisão para encontrar a melhor oferta para um perfil específico.
+1. **Criar uma decisão** que combinará disposições com as ofertas personalizadas e as ofertas de fallback. Essa combinação será usada pelo mecanismo de decisão para encontrar a melhor oferta para um perfil específico.
 
-1. **Configurar a decisão**. Para fazer isso, selecione os posicionamentos e, para cada posicionamento, selecione uma coleção e um fallback.
+1. **Configure a decisão**. Para fazer isso, selecione as disposições e, para cada disposição, selecione uma coleção e um fallback.
 
-1. Se necessário, você pode **atribuir uma fórmula de classificação** para um posicionamento ao configurar a decisão.
+1. Se necessário, você pode **atribuir uma fórmula de classificação** para uma disposição ao configurar a decisão.
 
 <table>
 <tr>

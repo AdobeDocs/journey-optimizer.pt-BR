@@ -5,7 +5,7 @@ title: Notas de versão de 2022
 description: Notas de versão do Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%
 
@@ -207,7 +207,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 **Jornadas**
 
 * O **Conjunto de dados da entidade** agora está disponível como um conjunto de dados pronto para uso no Adobe Journey Optimizer. Esse conjunto de dados de pesquisa inclui metadados para enriquecer as informações dos conjuntos de dados de rastreamento e feedback. Isso ajudará você a melhorar seus relatórios e consultas com dados mais compreensíveis. [Saiba mais](../data/datasets-query-examples.md#entity-dataset)
-* Uma nova garantia foi adicionada às jornadas unitárias (que começam com um evento ou uma qualificação de segmento) para impedir que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada no perfil agora será temporariamente bloqueada por 5 minutos. [Saiba mais](../start/guardrails.md#events-g)
+* Foi adicionada uma nova medida de proteção às jornadas unitárias (que começam com um evento ou uma qualificação de segmento) para impedir que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada no perfil agora será temporariamente bloqueada por 5 minutos. [Saiba mais](../start/guardrails.md#events-g)
 
 **Administração**
 

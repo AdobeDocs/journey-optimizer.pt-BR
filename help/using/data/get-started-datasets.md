@@ -55,7 +55,7 @@ Estes são os diferentes conjuntos de dados disponíveis:
 
 * _Pontuações de otimização por tempo de envio/Pontuações de engajamento_: Pontuações de saída do Jornada AI.
 
-Para exibir a lista completa de campos e atributos para cada schema, consulte o [Dicionário de esquema Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+Para exibir a lista completa de campos e atributos para cada schema, consulte o [Dicionário de esquema Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}.
 
 ## Visualizar conjuntos de dados{#preview-datasets}
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Projetar uma página de aterrissagem
+title: Projetar uma página de destino
 description: Saiba como criar o conteúdo de uma landing page no Journey Optimizer
 feature: Landing Pages
 topic: Content Management
@@ -12,7 +12,7 @@ exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ Para começar a criar conteúdo para sua página inicial [página primária](cre
 
 A partir daí, é possível:
 
-* **Projetar a landing page do zero** por meio da interface do designer de conteúdo e aproveite imagens de [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). Saiba como criar seu conteúdo <!--or use built-in templates--> [nesta seção](../email/content-from-scratch.md).
+* **Projetar a landing page do zero** por meio da interface do designer de conteúdo e aproveite imagens de [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). Saiba como criar conteúdo de <!--or use built-in templates--> [nesta seção](../email/content-from-scratch.md).
 
 * **Código ou cole HTML bruto** diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../email/code-content.md).
 

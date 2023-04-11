@@ -9,13 +9,13 @@ exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
-# Deletar um qualificador de coleta {#delete-tag}
+# Excluir um qualificador de coleção {#delete-tag}
 
-Ocasionalmente, pode ser necessário remover (DELETE) um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;). Somente qualificadores de coleção criados no contêiner de locatário podem ser excluídos. Isso é feito executando uma solicitação DELETE para o [!DNL Offer Library] API usando a $id do qualificador de coleção que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;). Somente os qualificadores de coleção criados no contêiner do locatário podem ser excluídos. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando o $id do qualificador de coleção que você deseja excluir.
 
 **Formato da API**
 
@@ -25,9 +25,9 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde os qualificadores de coleta estão localizados. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | A ID da instância do qualificador de coleta que você deseja atualizar. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O container onde os qualificadores de coleção estão localizados. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | A ID da instância do qualificador de coleção que você deseja atualizar. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **Solicitação**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Uma resposta bem-sucedida retorna o status HTTP 202 (Sem conteúdo) e um corpo em branco.
 
-Você pode confirmar a exclusão tentando uma solicitação de pesquisa (GET) para o qualificador de coleção. Você precisará incluir um cabeçalho Aceitar na solicitação, mas deverá receber um status HTTP 404 (Não encontrado) porque o qualificador de coleção foi removido do container.
+Você pode confirmar a exclusão tentando uma solicitação de pesquisa (GET) para o qualificador da coleção. Você precisará incluir um cabeçalho Accept na solicitação, mas deve receber um status HTTP 404 (Not Found), pois o qualificador de coleção foi removido do contêiner.

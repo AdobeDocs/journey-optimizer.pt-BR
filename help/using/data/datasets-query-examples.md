@@ -29,7 +29,7 @@ Nesta página, você encontrará a lista de conjuntos de dados do Adobe Journey 
 [Conjunto de dados do evento de feedback CCO](#bcc-feedback-event-dataset)
 [Conjunto de dados da entidade](#entity-dataset)
 
-Para exibir a lista completa de campos e atributos para cada schema, consulte o [Dicionário de esquema Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+Para exibir a lista completa de campos e atributos para cada schema, consulte o [Dicionário de esquema Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}.
 
 ## Conjunto de dados de eventos de experiência de rastreamento de email{#email-tracking-experience-event-dataset}
 

@@ -16,15 +16,15 @@ ht-degree: 17%
 
 # Criar um conjunto de dados para coletar eventos {#create-dataset}
 
-Para coletar eventos de experiência, primeiro é necessário criar um conjunto de dados para onde esses eventos serão enviados.
+Para coletar eventos de experiência, primeiro é necessário criar um conjunto de dados para enviar esses eventos.
 
-Comece criando o esquema que será usado no seu conjunto de dados:
+Comece criando o schema que será usado em seu conjunto de dados:
 
-1. No **[!UICONTROL Gerenciamento de dados]** selecione **[!UICONTROL Esquema]**, vá para a **[!UICONTROL Procurar]** e clique em **[!UICONTROL Criar esquema]**.
+1. No **[!UICONTROL Gerenciamento de dados]** selecione **[!UICONTROL Esquema]**, acesse o **[!UICONTROL Procurar]** e clique em **[!UICONTROL Criar esquema]**.
 
    ![](../assets/ai-ranking-create-schema.png)
 
-1. Escolher **[!UICONTROL XDM ExperienceEvent]**.
+1. Choose **[!UICONTROL ExperiênciaEvento XDM]**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
@@ -36,30 +36,30 @@ Comece criando o esquema que será usado no seu conjunto de dados:
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. No **[!UICONTROL Pesquisar]** digite &quot;interação de proposta&quot; e selecione o campo **[!UICONTROL Evento de experiência - Interações de apresentação]** grupo de campos.
+1. No **[!UICONTROL Pesquisar]** , digite &quot;interação de proposta&quot; e selecione o **[!UICONTROL Evento de experiência - Interações de proposta]** grupo de campos.
 
    ![](../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
-   >O esquema que será usado no conjunto de dados deve ter a **[!UICONTROL Evento de experiência - Interações de apresentação]** grupo de campos associado a ele. Caso contrário, você não poderá usá-lo na estratégia de classificação.
+   >O esquema que será usado em seu conjunto de dados deve ter a variável **[!UICONTROL Evento de experiência - Interações de proposta]** grupo de campos associado a ele. Caso contrário, você não poderá usá-lo em sua estratégia de classificação.
 
 1. Clique em **[!UICONTROL Adicionar grupos de campos]**.
 
    ![](../assets/ai-ranking-add-field-group.png)
 
    >[!NOTE]
-   >O grupo de campo era anteriormente conhecido como mixin.
+   >O grupo de campos era anteriormente conhecido como mixin.
 
 1. Digite um nome e salve o esquema.
 
 >[!NOTE]
 >
->Saiba mais sobre a criação de esquemas em [Noções básicas da composição do esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target="_blank"}.
+>Saiba mais sobre como criar schemas no [Noções básicas da composição do schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target="_blank"}.
 
-Agora você está pronto para criar um conjunto de dados usando este esquema. Para fazer isso, siga as etapas abaixo:
+Agora você está pronto para criar um conjunto de dados usando esse esquema. Para fazer isso, siga as etapas abaixo:
 
-1. No **[!UICONTROL Gerenciamento de dados]** selecione **[!UICONTROL Conjuntos de dados]**, vá para a **[!UICONTROL Procurar]** e clique em **[!UICONTROL Criar conjunto de dados]**.
+1. No **[!UICONTROL Gerenciamento de dados]** selecione **[!UICONTROL Conjuntos de dados]**, acesse o **[!UICONTROL Procurar]** e clique em **[!UICONTROL Criar conjunto de dados]**.
 
    ![](../assets/ai-ranking-create-dataset.png)
 
@@ -67,7 +67,7 @@ Agora você está pronto para criar um conjunto de dados usando este esquema. Pa
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. Selecione o schema que acabou de criar na lista.
+1. Selecione o schema que você acabou de criar na lista.
 
    ![](../assets/ai-ranking-dataset-select-schema.png)
 
@@ -79,4 +79,4 @@ Agora você está pronto para criar um conjunto de dados usando este esquema. Pa
 
 >[!NOTE]
 >
->Esse conjunto de dados agora pode ser selecionado para coletar dados do evento quando [criação de uma estratégia de classificação](#create-ranking-strategy).
+>Esse conjunto de dados agora pode ser selecionado para coletar dados de evento quando [criar uma estratégia de classificação](#create-ranking-strategy).

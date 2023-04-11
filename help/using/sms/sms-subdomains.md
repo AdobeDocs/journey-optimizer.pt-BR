@@ -8,7 +8,7 @@ level: Intermediate
 keywords: SMS, subdomínios, configuração
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---

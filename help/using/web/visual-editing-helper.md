@@ -1,6 +1,6 @@
 ---
 title: Extensão Auxiliar de edição visual
-description: Descubra a extensão Chrome do Auxiliar de edição visual que permite criar e visualizar páginas da Web no Journey Optimizer
+description: Descubra a extensão do Visual Editing Helper Chrome que permite criar e visualizar páginas da Web no Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
-badge: label="Beta" type="Informativo"
+badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '409'
@@ -30,31 +30,31 @@ O que você encontrará nesta documentação:
 
 >[!ENDSHADEBOX]
 
-Para criar e visualizar rapidamente suas experiências na web, a extensão de navegador da Adobe Experience Cloud para o Google Chrome, Auxiliar de edição visual, permite carregar sites de maneira confiável no Adobe [!DNL Journey Optimizer] web designer.
+Para criar e visualizar rapidamente suas experiências da Web, a extensão do navegador Adobe Experience Cloud Visual Editing Helper para Google Chrome permite carregar sites de maneira confiável no Adobe. [!DNL Journey Optimizer] web designer.
 
-## Instalar a extensão Auxiliar de edição visual {#install-visual-editing-helper}
+## Instalar a extensão do Visual Editing Helper {#install-visual-editing-helper}
 
-Para obter e instalar a extensão de navegador Auxiliar de edição visual, siga as etapas abaixo.
+Para obter e instalar a extensão do navegador do Visual Editing Helper, siga as etapas abaixo.
 
-1. Na loja da Web do Google Chrome, navegue até a [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extensão do navegador.
+1. Na Google Chrome Web Store, navegue até o [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extensão do navegador.
 
 1. Clique em **[!UICONTROL Adicionar ao Chrome]** > **[!UICONTROL Adicionar extensão]**.
 
-1. Criar uma campanha de canal da Web no [!DNL Journey Optimizer]. [Saiba como](author-web.md#create-web-campaign)
+1. Crie uma campanha de canal da Web em [!DNL Journey Optimizer]. [Saiba como](author-web.md#create-web-campaign)
 
 1. Abra o [!DNL Journey Optimizer] web designer para começar a criar sua experiência na web. [Saiba mais](author-web.md)
 
-1. Certifique-se de que a extensão de navegador Auxiliar de edição visual está ativada na barra de ferramentas do navegador Chrome clicando no ícone correspondente.
+1. Certifique-se de que a extensão do navegador do Visual Editing Helper está ativada na barra de ferramentas do navegador Chrome clicando no ícone correspondente.
 
    ![](assets/web-visual-editing-extension.png)
 
-O Auxiliar de edição visual do Adobe Experience Cloud agora é ativado automaticamente quando um site é aberto na [!DNL Journey Optimizer] web designer para potencializar a criação.
+O Adobe Experience Cloud Visual Editing Helper agora é ativado automaticamente quando um site é aberto no [!DNL Journey Optimizer] web designer para criação de energia.
 
-A extensão não tem configurações condicionais e lida com todas as configurações automaticamente, incluindo configurações de cookies SameSite.
+A extensão não tem configurações condicionais e trata todas as configurações automaticamente, incluindo configurações de cookies SameSite.
 
 >[!NOTE]
 >
->Alguns sites podem não abrir de forma confiável no [!DNL Journey Optimizer] web designer devido a um dos seguintes motivos:
+>Alguns sites podem não abrir de forma confiável na [!DNL Journey Optimizer] web designer por um dos seguintes motivos:
 >
 > * O site tem políticas de segurança estritas.
 > * O site está em um iframe.
@@ -63,10 +63,10 @@ A extensão não tem configurações condicionais e lida com todas as configura�
 
 ## Solução de problemas
 
-Ao usar o Adobe [!DNL Journey Optimizer] web designer, se você tentar carregar um site que não é carregado, uma mensagem será exibida sugerindo que você instale o [Extensão de navegador Auxiliar de edição visual](#install-visual-editing-helper).
+Ao usar o Adobe [!DNL Journey Optimizer] web designer, se você tentar carregar um site que não é carregado, uma mensagem será exibida sugerindo que você instale o [Extensão do navegador do Visual Editing Helper](#install-visual-editing-helper).
 
-Se o SDK da Web do Adobe Experience Platform ainda não estiver implementado no site, uma mensagem será exibida no designer da Web sugerindo que você instale a extensão de navegador Auxiliar de edição visual e implemente a [SDK da Web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"}.
+Se o SDK da Web da Adobe Experience Platform ainda não estiver implementado no site, uma mensagem será exibida no web designer sugerindo que você instale a extensão do navegador do Visual Editing Helper e implemente o [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"}.
 
-Se o site não carregar ou se comportar inesperadamente, uma possível correção é aceitar cookies em seu site no navegador antes de tentar carregá-lo no Adobe [!DNL Journey Optimizer].
+Se o site não carregar ou se comportar inesperadamente, uma possível correção é aceitar cookies em seu site no navegador antes de tentar carregá-los no Adobe [!DNL Journey Optimizer].
 
-Para páginas em autenticação, se a página de logon não for carregada ou se, após tentar fazer logon, você ainda não estiver conectado, tente fazer logon primeiro em uma guia diferente do navegador e carregue o site na Adobe [!DNL Journey Optimizer] web designer.
+Para páginas sob autenticação, se a página de logon não carregar ou se, depois de tentar fazer logon, você ainda não estiver conectado, tente fazer logon primeiro em uma guia diferente do navegador e, em seguida, carregar o site no Adobe [!DNL Journey Optimizer] web designer.

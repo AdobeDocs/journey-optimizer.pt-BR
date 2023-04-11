@@ -1,5 +1,5 @@
 ---
-title: Teste e envie sua notificação no aplicativo
+title: Teste e envie a sua notificação no aplicativo
 description: Saiba como testar e enviar uma mensagem no aplicativo no Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -9,11 +9,11 @@ keywords: no aplicativo, mensagem, criação, iniciar
 source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
-# Teste e envie sua notificação no aplicativo {#create-in-app}
+# Teste e envie a sua notificação no aplicativo {#create-in-app}
 
 ## Visualizar no dispositivo {#preview-device}
 

@@ -10,7 +10,7 @@ exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
 source-wordcount: '1201'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -50,7 +50,7 @@ Por exemplo, digamos que você tenha definido uma regra de limitação ou limita
 
 Para obter mais informações sobre como trabalhar com as APIs, consulte estas seções:
 
-* [Limitação da API](capping.md)
+* [API de limitação](capping.md)
 * [API de limitação](throttling.md)
 
 Uma descrição detalhada das APIs está disponível em [Documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)

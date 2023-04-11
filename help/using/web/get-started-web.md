@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-badge: label="Beta" type="Informativo"
+badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '147'
@@ -32,17 +32,17 @@ O que você encontrará nesta documentação:
 
 >[!AVAILABILITY]
 >
->O recurso de canal da Web está disponível no momento como uma versão beta somente para usuários selecionados.
+>O recurso de canal da Web está disponível no momento como um beta somente para usuários selecionados.
 
-[!DNL Journey Optimizer] O permite criar visualmente e fornecer experiências personalizadas da web aos clientes.
+[!DNL Journey Optimizer] O permite criar visualmente e entregar experiências personalizadas da Web para seus clientes.
 
-Se você já estiver usando canais de saída, como email, SMS ou notificações por push, agora poderá aproveitar o canal de entrada da Web para oferecer uma experiência verdadeiramente personalizada que se estende por todos os canais.
+Se já estiver usando canais de saída, como email, SMS ou notificações por push, agora é possível aproveitar o canal da Web de entrada para oferecer uma experiência verdadeiramente personalizada que se estende por todos os canais.
 
 >[!CAUTION]
 >
 >Atualmente em [!DNL Journey Optimizer] você só pode criar experiências da web usando **campanhas**.
 
-Por meio de uma interface visual intuitiva, esse recurso permite modificar facilmente as propriedades da Web para experimentar, otimizar e personalizar as campanhas do usuário final.
+Por meio de uma interface visual intuitiva, esse recurso permite modificar suas propriedades da Web facilmente para experimentar, otimizar e personalizar suas campanhas de usuário final.
 
 <!--
 [Learn more on web channel in this video](#video)
