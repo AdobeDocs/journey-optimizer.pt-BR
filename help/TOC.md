@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5e1485b33608d55d878d311c2448669f898486b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1361'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -206,7 +206,7 @@ ht-degree: 98%
    + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
    + [Criação de uma mensagem no aplicativo](using/in-app/create-in-app.md)
    + [Projete seu conteúdo no aplicativo](using/in-app/design-in-app.md)
-   + [Teste e envie sua notificação no aplicativo](using/in-app/send-in-app.md)
+   + [Teste e envie a sua notificação no aplicativo](using/in-app/send-in-app.md)
    + [Configuração do canal no aplicativo](using/in-app/inapp-configuration.md)
 + Canal de notificação por push{#push}
    + [Introdução à notificação por push](using/push/get-started-push.md)
@@ -222,7 +222,7 @@ ht-degree: 98%
    + [Visualizar e testar o SMS](using/sms/send-sms.md)
    + [Gerenciar opção de não participação de SMS](using/sms/sms-opt-out.md)
    + [Configurar canal de SMS](using/sms/sms-configuration.md)
-   + [Configurar subdomínios SMS](using/sms/sms-subdomains.md)
+   + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
 + Correspondência direta {#direct-mail}
    + [Criar uma correspondência direta](using/direct-mail/create-direct-mail.md)
    + [Configurar correspondência direta](using/direct-mail/direct-mail-configuration.md)
@@ -442,8 +442,8 @@ ht-degree: 98%
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
       + Integrar a sistemas externos {#external-systems}
-         + [Integração do Jornada com sistemas externos](using/configuration/external-systems.md)
-         + [Limitação da API](using/configuration/capping.md)
+         + [Integração das jornadas com sistemas externos](using/configuration/external-systems.md)
+         + [API de limitação](using/configuration/capping.md)
          + [API de limitação](using/configuration/throttling.md)
       + Configuração de evento {#events-journeys}
          + [Princípio geral](using/event/about-events.md)
