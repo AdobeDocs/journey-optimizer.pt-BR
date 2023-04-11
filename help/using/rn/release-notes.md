@@ -5,9 +5,9 @@ title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3dffd032edb3ffda4a1bcd460d554f7ecc253a8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1540'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ## Notas de versão de março de 2023 {#mar-2023}
 
-As informações abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilização do lançamento. A documentação atualizada será publicada na data de lançamento, e os links diretos serão adicionados nesta página.
+As informações abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilização da versão. A documentação atualizada será publicada na data de lançamento, e os links diretos serão adicionados a esta página.
 
 
 ### Novos recursos{#mar-2023-features}
@@ -32,7 +32,7 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 <table>
 <thead>
 <tr>
-<th><strong>Canal no aplicativo (Disponibilidade geral)</strong><br/></th>
+<th><strong>Canal no aplicativo (disponibilidade geral)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -48,13 +48,13 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 <table>
 <thead>
 <tr>
-<th><strong>Rastreamento de cliques em SMS</strong><br/></th>
+<th><strong>Rastreamento de cliques de SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Com o rastreamento de cliques em SMS, você pode monitorar o desempenho de seus URLs encurtados, identificar quem clicou neles e usar esses dados para redirecionar esses clientes com campanhas subsequentes.</p>
+<p>Com o rastreamento de cliques de SMS, você pode monitorar o desempenho de seus URLs encurtados, identificar quem os clicou e usar esses dados para redirecionar esses clientes com campanhas subsequentes.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
 <p>Para obter mais informações, consulte a <a href="../sms/create-sms.md#sms-content">documentação detalhada</a>.</p>
 </td>
@@ -65,7 +65,7 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 <table>
 <thead>
 <tr>
-<th><strong>Usar tags em suas Jornadas (Beta)</strong><br/></th>
+<th><strong>Usar tags em suas jornadas (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -83,10 +83,10 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 
 **Jornadas**
 
-* O novo **API de limitação** O permite definir um limite para o número de eventos enviados por segundo, evitando picos de tráfego avassaladores em sistemas externos ou API. Quando o limite definido é atingido, todas as chamadas de API subsequentes são enfileiradas e processadas o mais rápido possível, na ordem em que foram recebidas. Observe que esse recurso suporta apenas uma configuração de limitação em todas as sandboxes. [Saiba mais](../configuration/external-systems.md)
-* A tela de Jornada foi aprimorada para oferecer uma experiência do usuário mais simples e aprimorada. No final de cada caminho na tela, os espaços vazios foram removidos. Agora é possível simplesmente adicionar suas atividades, arrastando-as ao final de um caminho.
-* Na tela da jornada, o rótulo da **End** não é mais definida automaticamente com o nome da atividade anterior. Os usuários podem adicionar manualmente um rótulo personalizado, se necessário.
-* O tempo limite padrão e a duração do erro nas propriedades da jornada foram alterados de 5 para 30 segundos. [Saiba mais](../configuration/external-systems.md#timeout)
+* A nova **API de limitação** permite definir um limite para o número de eventos enviados por segundo, evitando picos de tráfego grandes demais em sistemas externos ou APIs. Quando o limite definido é atingido, todas as chamadas de API subsequentes são enfileiradas e processadas o mais rápido possível, na ordem em que forem recebidas. Observe que esse recurso suporta apenas uma configuração de limitação em todas as suas sandboxes. [Saiba mais](../configuration/external-systems.md)
+* A tela da jornada foi aperfeiçoada para oferecer uma experiência do usuário mais simples e polida. No final de cada caminho na tela, os espaços reservados vazios foram removidos. Agora é possível adicionar suas atividades simplesmente arrastando-as para o final de um caminho.
+* Na tela da jornada, o rótulo da tag **Fim** não é mais definida automaticamente com o nome da atividade anterior. Os usuários podem adicionar manualmente um rótulo personalizado, se necessário.
+* O tempo limite padrão e a duração de erro nas propriedades da jornada foram alterados de 5 para 30 segundos. [Saiba mais](../configuration/external-systems.md#timeout)
 * A taxa de limitação padrão em atividades de segmento de leitura foi alterada de 20.000 para 5.000 mensagens por segundo. [Saiba mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 <!-- 
@@ -108,15 +108,15 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 
 * Você também pode escolher qual evento da Adobe Experience Platform deve ser observado para o limite de definição de ofertas. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
-* Parâmetros adicionais foram adicionados na tela de criação de disposições. Eles permitem controlar se uma oferta pode ser duplicada em várias disposições e especificar se o conteúdo e os metadados da oferta devem ser incluídos na resposta da API. [Saiba mais](../offers/offer-library/creating-placements.md)
+* Parâmetros complementares foram adicionados à tela de criação de posicionamentos. Eles permitem controlar se uma oferta pode ser duplicada em vários posicionamentos e especificar se o conteúdo e os metadados da oferta devem ser incluídos na resposta da API. [Saiba mais](../offers/offer-library/creating-placements.md)
 
 **Personalização**
 
-* Agora é possível incluir texto de fallback padrão para atributos de perfil baseados em sequência no Editor de expressão. Esses valores serão exibidos se os atributos selecionados não retornarem nenhum resultado. [Saiba mais](../personalization/personalization-build-expressions.md#add)
+* Agora é possível incluir texto de fallback padrão para atributos de perfil baseados em sequência de caracteres no Editor de expressão. Esses valores serão exibidos se os atributos selecionados não retornarem nenhum resultado. [Saiba mais](../personalization/personalization-build-expressions.md#add)
 
 **Relatórios**
 
-* A funcionalidade de widget de relatórios foi aprimorada com a capacidade de personalizar a forma como os usuários visualizam seus dados. Com essa melhoria, os usuários agora podem escolher entre várias opções de visualização, incluindo gráficos, tabelas e gráficos de rosca.
+* A funcionalidade do widget de relatórios foi aprimorada com a capacidade de personalizar a forma como os usuários visualizam seus dados. Com esse aprimoramento, os usuários agora podem escolher entre várias opções de visualização, incluindo gráficos, tabelas e gráficos de rosca.
 
    Para ter acesso aos widgets mais recentes, observe que será necessário redefinir os diferentes painéis de relatórios. Para obter mais informações sobre a personalização de painéis, consulte a [documentação detalhada](../reports/global-report.md#modify-dashboard).
 
@@ -244,7 +244,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Gestão de decisões**
 
-* **Posicionamentos** - Parâmetros adicionais foram adicionados na tela de criação de disposições. Eles permitem controlar se uma oferta pode ser duplicada em várias disposições e especificar se o conteúdo e os metadados da oferta devem ser incluídos na resposta da API. [Saiba mais](../offers/offer-library/creating-placements.md)
+* **Posicionamentos** - Parâmetros complementares foram adicionados à tela de criação de posicionamentos. Eles permitem controlar se uma oferta pode ser duplicada em vários posicionamentos e especificar se o conteúdo e os metadados da oferta devem ser incluídos na resposta da API. [Saiba mais](../offers/offer-library/creating-placements.md)
 
 * **Personalização de URL**: ao adicionar URLs como conteúdo às representações de suas ofertas, agora é possível personalizar esses URLs usando o editor de expressão. [Saiba mais](../offers/offer-library/add-representations.md)
 
