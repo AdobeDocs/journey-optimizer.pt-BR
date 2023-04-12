@@ -4,10 +4,10 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
+source-git-commit: 54ea3573e4fb6e24c3e56349292528bc6da42d67
 workflow-type: tm+mt
-source-wordcount: '2518'
-ht-degree: 99%
+source-wordcount: '2537'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 ## Abril de 2023 {#apr-2023}
 
 * O Adobe Experience Manager Assets Essentials e o Adobe Stock foram adicionados à página de integração de várias soluções . [Leia mais](../start/ajo-integrations.md)
-
+* O aviso em subdomínios de email de vários níveis que não estão sendo permitidos foi removido, pois eles agora são compatíveis. [Leia mais](../configuration/delegate-subdomain.md)
 
 ## Março de 2023 {#march-2023}
 

@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 9%
+source-wordcount: '1091'
+ht-degree: 8%
 
 ---
 
@@ -72,6 +72,11 @@ Para que a experiência da Web seja entregue corretamente, as seguintes configur
 >id="ajo_web_surface"
 >title="Definir uma superfície da Web"
 >abstract="Uma superfície da Web pode corresponder a um URL de página única ou várias páginas, permitindo que você faça modificações no conteúdo em uma ou várias páginas da Web."
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface_rule"
+>title="Criar uma regra de correspondência de páginas"
+>abstract="Uma regra de correspondência de páginas permite direcionar vários URLs que correspondem à mesma regra - por exemplo, se você deseja aplicar as alterações a um banner principal em todo um site ou adicionar uma imagem principal que é exibida em todas as páginas de produto de um site."
 
 Para começar a criar sua experiência da Web por meio de uma campanha, siga as etapas abaixo.
 
