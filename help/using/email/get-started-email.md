@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: email, iniciar, criação, visualização
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '152'
 ht-degree: 17%
 
 ---
@@ -26,7 +26,7 @@ Use [!DNL Journey Optimizer] para enviar mensagens de email aos clientes. Você 
 
 Deliveries de email podem ser criados:
 
-* Em um **Jornada**: depois de adicionar um **[!UICONTROL Email]** para sua jornada e para definir as configurações básicas, use a **[!UICONTROL Ações: Email]** painel direito para criar o conteúdo da mensagem SMS.
+* Em um **Jornada**: depois de adicionar um **[!UICONTROL Email]** para sua jornada e para definir as configurações básicas, use a **[!UICONTROL Ações: Email]** painel direito para criar o conteúdo da mensagem.
 
    Para obter mais informações sobre como configurar a jornada, consulte esta seção [página](../building-journeys/journey-gs.md).
 
