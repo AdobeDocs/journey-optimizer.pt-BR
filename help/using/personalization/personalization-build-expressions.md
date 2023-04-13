@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 6%
@@ -35,7 +35,7 @@ A parte esquerda da tela exibe um seletor de domínio que permite selecionar a f
 
 * **[!UICONTROL Atributos do perfil]** : lista todas as referências associadas ao esquema de perfil descrito em [Documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
 * **[!UICONTROL Associações de segmento]** : lista todos os segmentos criados no serviço de Segmentação do Adobe Experience Platform. Mais informações sobre a segmentação disponíveis [here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
-* **[!UICONTROL Decisões de oferta]** : lista todas as ofertas associadas a uma disposição específica. Selecione a disposição e insira as ofertas no seu conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [esta seção](../email/add-offers-email.md).
+* **[!UICONTROL Decisões de oferta]** : lista todas as ofertas associadas a uma disposição específica. Selecione a disposição e insira as ofertas no seu conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [esta seção](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL Atributos contextuais]** : quando uma atividade de ação de canal (Email, push, SMS) é usada em uma jornada, campos de jornada contextual ficam disponíveis por meio desse menu. Saiba mais [nesta seção](personalization-use-case.md).
 * **[!UICONTROL Funções auxiliares]** : lista todas as funções auxiliares disponíveis para executar operações em dados, como cálculos, formatação de dados ou conversões, condições e manipulá-las no contexto de personalização. Saiba mais [nesta seção](functions/functions.md).
 

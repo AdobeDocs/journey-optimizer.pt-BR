@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 3%
+source-wordcount: '1449'
+ht-degree: 2%
 
 ---
 
@@ -184,6 +184,10 @@ Na lista de decisões, é possível selecionar a decisão de exibir suas proprie
 ![](../assets/decision_created.png)
 
 Selecione o **[!UICONTROL Editar]** botão para voltar para o modo de edição de decisão, onde você pode modificar o [detalhes](#create-activity), [escopos de decisão](#add-decision-scopes) e [oferta de fallback](#add-fallback).
+
+>[!IMPORTANT]
+>
+>Se forem feitas alterações em uma decisão de oferta que está sendo usada em uma mensagem do jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas na mensagem da jornada e que a mensagem seja consistente com as atualizações mais recentes.
 
 Selecione uma decisão ativa e clique em **[!UICONTROL Desativar]** para definir o status da decisão novamente como **[!UICONTROL Rascunho]**.
 

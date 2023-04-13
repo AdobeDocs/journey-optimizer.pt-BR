@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: publicar, jornada, live, validade, verificar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 8%
+source-wordcount: '242'
+ht-degree: 7%
 
 ---
 
@@ -32,6 +32,10 @@ Se parar uma jornada, ela será interrompida permanentemente. Todas as pessoas q
    ![](assets/journeyuc1_18.png)
 
 Quando a jornada é publicada, ela está no modo somente leitura.
+
+>[!IMPORTANT]
+>
+>Se forem feitas alterações em uma decisão de oferta que está sendo usada em uma mensagem do jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas na mensagem da jornada e que a mensagem seja consistente com as atualizações mais recentes.
 
 ## Vídeo tutorial {#video}
 

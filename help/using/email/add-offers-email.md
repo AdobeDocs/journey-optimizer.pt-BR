@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ofertas, decisão, emails, personalização, decisão
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 1%
+source-wordcount: '639'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,12 @@ Em [!DNL Journey Optimizer] por email, você pode inserir decisões que aproveit
 
 Por exemplo, você pode adicionar uma decisão que exibirá em seu email uma oferta de desconto especial que varia de acordo com o nível de fidelidade do recipient.
 
-Para obter mais informações sobre como criar e gerenciar ofertas, consulte [esta seção](../offers/get-started/starting-offer-decisioning.md).
+>[!IMPORTANT]
+>
+>Se forem feitas alterações em uma decisão de oferta que está sendo usada em uma mensagem do jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas na mensagem da jornada e que a mensagem seja consistente com as atualizações mais recentes.
 
-Para um **exemplo completo** mostrando como configurar ofertas, usá-las em uma decisão e aproveitar essa decisão em um email, confira [esta seção](../offers/offers-e2e.md#insert-decision-in-email).
+* Para obter mais informações sobre como criar e gerenciar ofertas, consulte [esta seção](../offers/get-started/starting-offer-decisioning.md).
+* Para um **exemplo completo** mostrando como configurar ofertas, usá-las em uma decisão e aproveitar essa decisão em um email, confira [esta seção](../offers/offers-e2e.md#insert-decision-in-email).
 
 ➡️ [Saiba como adicionar ofertas como personalização neste vídeo](#video-offers)
 

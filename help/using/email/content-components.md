@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: componentes, designer de email, editor, email
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1223'
 ht-degree: 1%
 
 ---
@@ -197,3 +197,6 @@ Use o **[!UICONTROL Decisão da oferta]** componente para inserir ofertas em sua
 
 Saiba como adicionar ofertas personalizadas a um email em [esta seção](add-offers-email.md).
 
+>[!IMPORTANT]
+>
+>Se forem feitas alterações em uma decisão de oferta que está sendo usada em uma mensagem do jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas na mensagem da jornada e que a mensagem seja consistente com as atualizações mais recentes.
