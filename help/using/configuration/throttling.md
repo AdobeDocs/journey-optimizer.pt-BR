@@ -6,16 +6,17 @@ description: Saiba como trabalhar com a API de limitação
 role: User
 level: Beginner
 keywords: externo, API, otimizador, limitação
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '824'
 ht-degree: 2%
 
 ---
 
 # Trabalhar com a API de limitação
 
-A API de limitação ajuda a criar, configurar e monitorar as configurações de limitação.
+A API de limitação ajuda a criar, configurar e monitorar as configurações de limitação para limitar o número de eventos enviados por segundo.
 
 Esta seção fornece informações globais sobre como trabalhar com a API. Uma descrição detalhada da API está disponível em [Documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
 

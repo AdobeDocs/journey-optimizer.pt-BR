@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: externo, API, otimizador, limitação
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1202'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Quando o Journey Optimizer executa uma chamada para uma API externa, as medidas 
 
 1. As regras de limitação ou limitação são aplicadas: se a taxa máxima for atingida, as chamadas restantes serão descartadas ou enfileiradas.
 
-2. Tempo limite e tentativa: se a regra de limitação for cumprida, o Journey Optimizer tentará executar a chamada até que o fim do tempo limite seja atingido.
+2. Tempo limite e tentativa: se a regra de limitação ou limitação for cumprida, o Journey Optimizer tentará executar a chamada até que o fim do tempo limite seja atingido.
 
 ## Limitação e limitação de APIs {#capping}
 
