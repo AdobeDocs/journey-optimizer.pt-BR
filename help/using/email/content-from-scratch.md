@@ -1,74 +1,74 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criar emails no Journey Optimizer
-description: Saiba como criar seu conteúdo de e-mails do zero
+title: Criar conteúdo do zero no Journey Optimizer
+description: Saiba como criar o conteúdo do zero
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 keywords: conteúdo, editor, email, iniciar
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 1%
+source-wordcount: '637'
+ht-degree: 0%
 
 ---
 
-# Iniciar do zero {#content-from-scratch}
+# Design de conteúdo do zero {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="Sobre componentes da estrutura"
->abstract="Os componentes da estrutura definem o layout do email."
+>title="Adicionar componentes da estrutura"
+>abstract="Os componentes da estrutura definem o layout do email. Arraste e solte uma **Estrutura** na tela para iniciar a criação do conteúdo de email."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="Sobre componentes da estrutura"
->abstract="Componentes da estrutura definem o layout da landing page."
+>title="Adicionar componentes da estrutura"
+>abstract="Componentes da estrutura definem o layout da landing page. Arraste e solte uma **Estrutura** na tela para começar a projetar o conteúdo da página de aterrissagem."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="Sobre componentes da estrutura"
->abstract="Componentes da estrutura definem o layout do fragmento."
+>title="Adicionar componentes da estrutura"
+>abstract="Componentes da estrutura definem o layout do fragmento. Arraste e solte uma **Estrutura** na tela para começar a projetar o conteúdo do fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="Sobre componentes da estrutura"
->abstract="Componentes da estrutura definem o layout do modelo."
+>title="Adicionar componentes da estrutura"
+>abstract="Componentes da estrutura definem o layout do modelo. Arraste e solte uma **Estrutura** na tela para começar a projetar o conteúdo do modelo."
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
->title="Definição de colunas de email"
->abstract="O Designer de email permite definir facilmente o layout do email definindo a estrutura da coluna."
+>title="Definir colunas de email"
+>abstract="O Designer de email permite definir facilmente o layout do email selecionando a estrutura da coluna."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Definição de colunas de página de aterrissagem"
->abstract="O Designer de email permite definir facilmente o layout da página de aterrissagem definindo a estrutura da coluna."
+>title="Definir colunas de página de aterrissagem"
+>abstract="O Designer permite definir facilmente o layout da landing page selecionando a estrutura da coluna."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Definição das colunas do fragmento"
->abstract="O Designer de email permite definir facilmente o layout do fragmento definindo a estrutura da coluna."
+>title="Definir colunas de fragmento"
+>abstract="O Designer permite definir facilmente o layout do fragmento selecionando a estrutura da coluna."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
->title="Definição de colunas de modelo"
->abstract="O Designer de email permite definir facilmente o layout do modelo definindo a estrutura da coluna."
+>title="Definir colunas de modelo"
+>abstract="O Designer permite definir facilmente o layout do modelo, selecionando a estrutura da coluna."
 
 
-O Designer de email permite que você defina facilmente a estrutura do seu email. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode projetar a forma do seu email em segundos.
+Use o Adobe Journey Optimizer Designer para definir facilmente a estrutura do seu conteúdo. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode projetar a forma do seu conteúdo em segundos.
 
-Para começar a criar seu conteúdo de email, siga as etapas abaixo:
+Para começar a criar seu conteúdo, siga as etapas abaixo:
 
-1. Na página inicial do Designer de email, selecione o **[!UICONTROL Design do zero]** opção.
+1. Na página inicial do Designer, selecione o **[!UICONTROL Design do zero]** opção.
 
    ![](assets/email_designer.png)
 
-1. Comece a criar o conteúdo de email arrastando e soltando **[!UICONTROL Componentes da estrutura]** na tela para definir o layout do email.
+1. Inicie a criação de conteúdo arrastando e soltando **[!UICONTROL Estruturas]** na tela para definir o layout do email.
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo:
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. Adicionar quantos **[!UICONTROL Componentes da estrutura]** conforme necessário, e edite suas configurações no painel dedicado à direita.
+1. Adicionar quantos **[!UICONTROL Estruturas]** conforme necessário, e edite suas configurações no painel dedicado à direita.
 
    ![](assets/email_designer_structure_components.png)
 
@@ -86,7 +86,7 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo:
    >
    >Cada tamanho de coluna não pode estar abaixo de 10% da largura total do componente de estrutura. Não é possível remover uma coluna que não esteja vazia.
 
-1. No **[!UICONTROL Componentes de conteúdo]** , adicione quantos elementos forem necessários em um ou mais componentes de estrutura. [Saiba mais sobre componentes de conteúdo](content-components.md)
+1. Expanda o **[!UICONTROL Conteúdo]** e adicione quantos elementos forem necessários em um ou mais componentes de estrutura. [Saiba mais sobre componentes de conteúdo](content-components.md)
 
 1. Cada componente pode ser personalizado ainda mais usando o **[!UICONTROL Configurações]** ou **[!UICONTROL Estilo]** no menu à direita. Por exemplo, é possível alterar o estilo do texto, o preenchimento ou a margem de cada componente. [Saiba mais sobre alinhamento e preenchimento](alignment-and-padding.md)
 
@@ -98,7 +98,7 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo:
 
    ![](assets/email_designer_asset_picker.png)
 
-1. Insira campos de personalização para personalizar seu conteúdo de email a partir de dados de perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
+1. Insira campos de personalização para personalizar o conteúdo de atributos de perfis, associações de segmentos, atributos contextuais e muito mais. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 
@@ -106,21 +106,21 @@ Para começar a criar seu conteúdo de email, siga as etapas abaixo:
 
    ![](assets/email_designer_dynamic-content.png)
 
-1. Clique no botão **[!UICONTROL Links]** no painel esquerdo para exibir todos os URLs do seu conteúdo que serão rastreados. Você pode modificar as **[!UICONTROL Tipo de rastreamento]** ou **[!UICONTROL Rótulo]** e adicionar **[!UICONTROL Tags]** se necessário. [Saiba mais sobre links e rastreamento de mensagens](message-tracking.md)
+1. Clique no botão **[!UICONTROL Links]** no painel esquerdo para exibir todos os URLs do seu conteúdo que serão rastreados. Você pode modificar as **[!UICONTROL Tipo de rastreamento]** ou **[!UICONTROL Rótulo]** e adicionar **[!UICONTROL Tags]** se necessário. [Saiba mais sobre links e rastreamento](message-tracking.md)
 
    ![](assets/email_designer_links.png)
 
-1. Você pode personalizar ainda mais seu email clicando em **[!UICONTROL Alternar para editor de código]** no menu avançado. [Saiba mais sobre o editor de código](code-content.md)
+1. Se necessário, é possível personalizar ainda mais seu conteúdo clicando em **[!UICONTROL Alternar para editor de código]** na parte superior **Mais** botão. [Saiba mais sobre o editor de código](code-content.md)
 
    ![](assets/email_designer_switch-to-code.png)
 
    >[!CAUTION]
    >
-   >Não será possível reverter para o designer visual desse email após alternar para o editor de códigos.
+   >Não é possível reverter para o designer visual desse conteúdo após alternar para o editor de código.
 
-1. Quando o conteúdo estiver pronto, clique em **[!UICONTROL Simular conteúdo]** para verificar a renderização de email. Você pode escolher a área de trabalho ou exibição móvel. [Saiba mais sobre como visualizar seu email](preview.md)
+1. Quando o conteúdo estiver pronto, clique no botão **[!UICONTROL Simular conteúdo]** para verificar a renderização. Você pode escolher a área de trabalho ou exibição móvel. [Saiba mais sobre como visualizar seu email](preview.md)
 
    ![](assets/email_designer_simulate_content.png)
 
-1. Quando o email estiver pronto, clique em **[!UICONTROL Salvar]**.
+1. Quando o conteúdo estiver pronto, clique em **[!UICONTROL Salvar]**.
 
