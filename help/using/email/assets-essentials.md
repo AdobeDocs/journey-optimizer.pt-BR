@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: ativos, essenciais, experience manager, integração
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '468'
 ht-degree: 9%
 
 ---
@@ -57,29 +57,23 @@ Para obter mais informações sobre como fazer upload de ativos, consulte [Docum
 
 1. No **[!UICONTROL Upload de arquivos]**, clique em **[!UICONTROL Procurar]** e escolha se deseja **[!UICONTROL Procurar arquivos]** ou **[!UICONTROL Procurar pastas]**.
 
-   ![](assets/media_library_3.png)
+1. Selecione o arquivo que deseja fazer upload. Quando terminar, clique em **[!UICONTROL Upload]**. Para saber mais sobre como gerenciar os ativos, consulte esta seção [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
-1. Selecione o arquivo que deseja fazer upload. Quando terminar, clique em **[!UICONTROL Upload]**.
-
-   Para saber mais sobre como gerenciar os ativos, consulte esta seção [página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
-
-1. Depois que o ativo é carregado, agora é possível inserir os ativos em uma das mensagens por meio do Designer de email.
-
-   Seu ativo também pode ser editado posteriormente com a variável **Editar** modo de [!DNL Assets Essentials]. [Saiba mais](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
+1. Para editar seus ativos com a Adobe Photoshop Express, clique duas vezes nos ativos. Em seguida, no menu à direita, selecione a opção **[!UICONTROL Modo de Edição]** ícone . [Saiba mais](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
 
    ![](assets/media_library_12.png)
 
-1. De [!DNL Adobe Journey Optimizer], selecione **[!UICONTROL Seletor de ativos]** no painel esquerdo do designer de email.
+1. De [!DNL Adobe Journey Optimizer], selecione o **[!UICONTROL Seletor de ativos]** no painel esquerdo do designer de email.
 
    ![](assets/media_library_5.png)
 
-1. Selecione seu **[!UICONTROL Ativos]** pasta. Você também pode pesquisar seu ativo ou sua pasta na barra de pesquisa.
+1. Selecione o que foi criado anteriormente **[!UICONTROL Ativos]** pasta. Você também pode pesquisar seu ativo ou sua pasta na barra de pesquisa.
 
 1. Arraste e solte o ativo no seu conteúdo de email.
 
    ![](assets/media_library_6.png)
 
-1. Você pode personalizar ainda mais seus ativos, como adicionar um link externo ou um texto usando a variável **[!UICONTROL Configurações de componentes]**. [Saiba mais sobre configurações de componentes](content-components.md)
+1. Você pode personalizar ainda mais seus ativos, como adicionar um link externo ou um texto usando a variável **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** guias. [Saiba mais sobre configurações de componentes](content-components.md)
 
    ![](assets/media_library_13.png)
 

@@ -7,7 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 4%
@@ -108,9 +109,7 @@ Para criar um template de conteúdo do zero, siga as etapas abaixo.
 
 1. O [Email Designer](get-started-email-design.md) será exibido. Edite seu conteúdo conforme necessário, da mesma forma que faria com qualquer email dentro de uma jornada ou campanha, de acordo com a opção selecionada.
 
-   ![](assets/content-template-designer.png)
-
-1. Você pode testar seu conteúdo, se necessário. [Saiba como](#test-template)
+   Você pode testar seu conteúdo, se necessário. [Saiba como](#test-template)
 
 1. Quando o template estiver pronto, clique em **[!UICONTROL Salvar]**.
 

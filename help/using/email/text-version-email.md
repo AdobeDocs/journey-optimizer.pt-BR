@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: texto, email, versão, simples, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Por padrão, o Designer de email cria um **[!UICONTROL Texto sem formatação]**
 
 Se preferir usar um conteúdo diferente para a versão de texto sem formatação, siga as etapas abaixo:
 
-1. Em seu email, selecione o **[!UICONTROL Texto sem formatação]** guia .
+1. Em seu email, selecione o **[!UICONTROL Texto sem formatação]** ícone .
 
    ![](assets/text_version_3.png)
 

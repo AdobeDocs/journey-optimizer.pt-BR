@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrissagem, landing page, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 2%
@@ -209,15 +209,15 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 >
 >Você deve ter perfis de teste disponíveis para visualizar suas mensagens e enviar provas. Saiba como [criar perfis de teste](../segment/creating-test-profiles.md).
 
-1. Na interface da landing page, clique no link **[!UICONTROL Visualizar e testar]** para acessar a seleção de perfil de teste.
+1. Na interface da landing page, clique no link **[!UICONTROL Simular conteúdo]** para acessar a seleção de perfil de teste.
 
-   ![](assets/lp_preview-button.png)
+   ![](assets/lp_simulate-button.png)
 
    >[!NOTE]
    >
-   >O **[!UICONTROL Visualizar]** também é acessível no designer de conteúdo.
+   >O **[!UICONTROL Simular conteúdo]** também é acessível no designer de conteúdo.
 
-1. No **[!UICONTROL Visualizar e testar]** selecione um ou mais perfis de teste.
+1. No **[!UICONTROL Simulate]** selecione um ou mais perfis de teste.
 
    ![](assets/lp_test-profiles.png)
 

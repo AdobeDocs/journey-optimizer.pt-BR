@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, biblioteca, personalização
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 8%
@@ -31,9 +31,7 @@ Para acessar as expressões salvas, clique no botão **[!UICONTROL Biblioteca]**
 
 >[!NOTE]
 >
->Você pode usar o botão info para obter mais informações sobre o conteúdo de uma expressão salva. Se você tiver as permissões apropriadas para gerenciar itens de biblioteca, o botão de informações será exibido no menu da elipse.
-
-![](assets/library-list.png)
+>Você pode obter mais informações sobre o conteúdo de uma expressão salva no botão de reticências. Observe que o botão de informações aparecerá nas reticências se você tiver as permissões apropriadas para gerenciar itens de biblioteca.
 
 Clique em + para inserir a expressão no editor. Em seguida, você pode personalizar e validar seu conteúdo de personalização como de costume. [Saiba mais](../personalization/personalization-build-expressions.md)
 

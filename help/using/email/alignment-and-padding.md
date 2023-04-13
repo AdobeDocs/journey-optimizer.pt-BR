@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: alinhamento vertical, editor de email, preenchimento
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '148'
 ht-degree: 5%
 
 ---
@@ -22,23 +22,19 @@ Neste exemplo, ajustaremos o preenchimento e o alinhamento vertical dentro de um
 
 1. Selecione o componente de estrutura diretamente no email ou usando o **[!UICONTROL Árvore de navegação]** disponível no menu à esquerda.
 
-   ![](assets/alignment_1.png)
-
 1. Na barra de ferramentas, clique em **[!UICONTROL Selecionar uma coluna]** e escolha aquele que deseja editar. Também é possível selecioná-lo na árvore de estrutura.
 
-   Os parâmetros editáveis para essa coluna são exibidos no **[!UICONTROL Configurações de coluna]** menu.
+   Os parâmetros editáveis para essa coluna são exibidos no **[!UICONTROL Estilos]** guia .
 
    ![](assets/alignment_2.png)
 
-1. Em **[!UICONTROL Alinhamento vertical]**, selecione **[!UICONTROL Inferior]**.
-
-   O componente de conteúdo é movido para a parte inferior da coluna.
+1. Em **[!UICONTROL Alinhamento]**, selecione **[!UICONTROL Topo]**, **[!UICONTROL Meio]** ou **[!UICONTROL Inferior]**.
 
    ![](assets/alignment_3.png)
 
-1. Em **[!UICONTROL Preenchimento]**, defina o preenchimento superior dentro da coluna. Clique no ícone de bloqueio para interromper a sincronização com o preenchimento inferior.
+1. Em **[!UICONTROL Preenchimento]**, defina o preenchimento para todos os lados.
 
-   Defina o preenchimento à esquerda e à direita para essa coluna.
+   Selecionar **[!UICONTROL Preenchimento diferente para cada lado]** se quiser ajustar o preenchimento. Clique no ícone de bloqueio para interromper a sincronização.
 
    ![](assets/alignment_4.png)
 

@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, sintaxe, personalização
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 9%
@@ -159,7 +159,7 @@ O Journey Optimizer permite personalizar um ou vários URLs na mensagem, adicion
 1. Crie um link no conteúdo da mensagem. [Saiba mais](../email/message-tracking.md#insert-links)
 1. No ícone de personalização, selecione os atributos. O ícone de personalização só está disponível para esses tipos de links: **Link externo**, **Link de cancelamento de assinatura** e **Opção de rejeição**.
 
-![](assets/perso-url.png)
+   ![](assets/perso-url.png)
 
 >[!NOTE]
 >

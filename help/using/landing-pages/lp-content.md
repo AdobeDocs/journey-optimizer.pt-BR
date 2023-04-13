@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: inicial, página de aterrissagem, criação, página, formulário, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1324'
 ht-degree: 3%
 
 ---
@@ -63,7 +63,7 @@ Para definir um conteúdo específico que permitirá que os usuários selecionem
 
    >[!NOTE]
    >
-   >Alterne para **[!UICONTROL Estilo do formulário]** a qualquer momento para editar os estilos do conteúdo do componente de formulário. [Saiba mais](#define-lp-styles)
+   >Alterne para **[!UICONTROL Estilos]** a qualquer momento para editar os estilos do conteúdo do componente de formulário. [Saiba mais](#define-lp-styles)
 
 1. No **[!UICONTROL Caixa de seleção 1]** , você pode editar o rótulo correspondente a essa caixa de seleção.
 
@@ -83,7 +83,7 @@ Para definir um conteúdo específico que permitirá que os usuários selecionem
 
    * **[!UICONTROL Lista de assinaturas]**: Você deve selecionar a lista de subscrição que será atualizada se o perfil marcar essa caixa de seleção. Saiba mais sobre [listas de assinaturas](subscription-list.md).
 
-      ![](assets/lp_designer-form-subs-list.png)
+      <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL Canal (email)]**: A aceitação ou recusa se aplica a todo o canal. Por exemplo, se um perfil que recusa tiver dois endereços de email, ambos os endereços serão excluídos de todas as suas comunicações.
 
@@ -136,21 +136,25 @@ Para definir um conteúdo específico que permitirá que os usuários selecionem
 
 ## Definir estilos de formulário de landing page {#lp-form-styles}
 
-1. Para modificar os estilos do conteúdo do componente de formulário, alterne a qualquer momento para a função **[!UICONTROL Estilo do formulário]** guia .
+1. Para modificar os estilos do conteúdo do componente de formulário, alterne a qualquer momento para a função **[!UICONTROL Estilo]** guia .
 
    ![](assets/lp_designer-form-style.png)
 
-1. Expanda o **[!UICONTROL Caixas de seleção]** para definir a aparência das caixas de seleção e do texto correspondente. Por exemplo, você pode ajustar a família ou o tamanho da fonte e a cor da borda da caixa de seleção.
+1. O **[!UICONTROL Campos]** A seção é expandida por padrão e permite editar a aparência do campo de texto, como a fonte do rótulo e do espaço reservado, a posição do rótulo, a cor do fundo do campo ou a borda do campo.
+
+   ![](assets/lp_designer-form-style-fields.png)
+
+1. Expanda o **[!UICONTROL Caixas de seleção]** para definir a aparência das caixas de seleção e do texto correspondente. Por exemplo, é possível ajustar a família ou o tamanho da fonte ou a cor da borda da caixa de seleção.
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Expanda o **[!UICONTROL Botões]** para modificar a aparência do botão no formulário componente. Por exemplo, você pode adicionar uma borda, editar a cor do rótulo ao passar o mouse ou ajustar o alinhamento do botão.
+1. Expanda o **[!UICONTROL Botões]** para modificar a aparência do botão no formulário componente. Por exemplo, é possível alterar a fonte, adicionar uma borda, editar a cor do rótulo ao passar o mouse ou ajustar o alinhamento do botão.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Você pode visualizar algumas de suas configurações, como a cor do rótulo do botão ao passar o mouse **[!UICONTROL Visualizar]** botão. Saiba mais sobre como testar landing pages [here](create-lp.md#test-landing-page).
+   Você pode visualizar algumas de suas configurações, como a cor do rótulo do botão ao passar o mouse **[!UICONTROL Simular conteúdo]** botão. Saiba mais sobre como testar landing pages [here](create-lp.md#test-landing-page).
 
-   ![](assets/lp_designer-form-style-buttons-preview.png)
+   <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
 1. Expanda o **[!UICONTROL Layout do formulário]** seção para editar as configurações de layout, como cor do plano de fundo, preenchimento ou margem.
 
@@ -194,11 +198,15 @@ Para isso, siga as etapas abaixo:
 
 1. Salve as alterações.
 
+Agora, quando os usuários selecionam uma das caixas de seleção,
+
 ![](assets/lp_designer-form-preview-checked-box.png)
 
-Agora, quando os usuários selecionam uma das caixas de seleção, a mensagem correspondente à caixa de seleção selecionada é exibida ao enviar o formulário.
+a mensagem correspondente à caixa de seleção selecionada é exibida ao enviar o formulário.
 
 ![](assets/lp_designer-form-thankyou-preview.png)
+
+<!--![](assets/lp_designer-form-subscription-preview.png)-->
 
 >[!NOTE]
 >

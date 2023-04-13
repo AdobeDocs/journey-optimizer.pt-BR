@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: plano de fundo, email, cor, editor
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -60,5 +60,3 @@ Abaixo estão as configurações de fundo disponíveis que você pode usar.
    >Esse é o caso de uso mais comum. O Adobe recomenda configurar as cores de fundo no nível da coluna, pois isso permite mais flexibilidade ao editar todo o conteúdo de email.
 
    Você também pode definir uma imagem de plano de fundo no nível da coluna, mas isso raramente é usado.
-
-   ![](assets/background_5.png)

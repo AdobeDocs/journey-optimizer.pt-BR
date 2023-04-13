@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: opt-out, email, link, cancelar inscrição
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 83%
@@ -132,14 +132,6 @@ Para adicionar um link para opção de não participação no seu email, siga as
 
    ![](assets/message-tracking-opt-out.png)
 
-1. Selecione como deseja aplicar a opção de não participação: no nível de canal, identidade ou inscrição.
-
-   ![](assets/message-tracking-opt-out-level.png)
-
-   * **[!UICONTROL Canal]**: a opção de não participação se aplica a mensagens futuras enviadas ao público-alvo do perfil (ou seja, endereço de email) do canal atual. Se vários destinos estiverem associados a um perfil, a opção de não participação se aplica a todos os destinos (ou seja, endereços de email) no perfil desse canal.
-   * **[!UICONTROL Identidade]**: a opção de não participação se aplica a mensagens futuras enviadas ao público-alvo específico (ou seja, endereço de email) que está sendo usado para a mensagem atual.
-   * **[!UICONTROL Assinatura]**: a opção de não participação se aplica a mensagens futuras associadas a uma lista de assinaturas específica. Essa opção só poderá ser selecionada se a mensagem atual estiver associada a uma lista de inscrições.
-
 1. Insira o URL da página de destino para onde o usuário será redirecionado após cancelar a inscrição. Esta página está aqui somente para confirmar a não participação.
 
    >[!NOTE]
@@ -149,6 +141,14 @@ Para adicionar um link para opção de não participação no seu email, siga as
    ![](assets/message-tracking-opt-out-confirmation.png)
 
    Você pode personalizar seus links. Saiba mais sobre URLs personalizados [nesta seção](../personalization/personalization-syntax.md).
+
+1. Selecione como deseja aplicar a opção de não participação: no nível de canal, identidade ou inscrição.
+
+   ![](assets/message-tracking-opt-out-level.png)
+
+   * **[!UICONTROL Canal]**: a opção de não participação se aplica a mensagens futuras enviadas ao público-alvo do perfil (ou seja, endereço de email) do canal atual. Se vários destinos estiverem associados a um perfil, a opção de não participação se aplica a todos os destinos (ou seja, endereços de email) no perfil desse canal.
+   * **[!UICONTROL Identidade]**: a opção de não participação se aplica a mensagens futuras enviadas ao público-alvo específico (ou seja, endereço de email) que está sendo usado para a mensagem atual.
+   * **[!UICONTROL Assinatura]**: a opção de não participação se aplica a mensagens futuras associadas a uma lista de assinaturas específica. Essa opção só poderá ser selecionada se a mensagem atual estiver associada a uma lista de inscrições.
 
 1. Salve as alterações.
 

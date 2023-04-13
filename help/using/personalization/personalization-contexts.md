@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, contexto, personalização
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '283'
 ht-degree: 15%
 
 ---
@@ -32,7 +32,7 @@ Ao criar um email, você pode adicionar personalização ao **[!UICONTROL Linha 
 
 No Designer de email, é possível personalizar o conteúdo:
 
-* No **message**: clique dentro de um bloco de texto, clique no botão **Personalizar** ícone na barra de ferramentas contextual e selecione **Inserir personalização** campo. Para obter mais informações sobre a interface do Designer de email, consulte esta seção [seção](../email/get-started-email-design.md).
+* No **message**: clique dentro de um bloco de texto, clique no botão **Adicionar personalização** na barra de ferramentas contextual. Para obter mais informações sobre a interface do Designer de email, consulte esta seção [seção](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 

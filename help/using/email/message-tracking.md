@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 8%
@@ -73,8 +73,6 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
    * **[!UICONTROL Mirror page]**: Insira um link para exibir o conteúdo do email em um navegador da Web. Saiba mais [nesta seção](#mirror-page).
 
-   ![](assets/message-tracking-links.png)
-
 1. Você pode personalizar seus links. Saiba mais sobre URLs personalizados [nesta seção](../personalization/personalization-syntax.md#perso-urls).
 
 1. Salve as alterações.
@@ -121,8 +119,6 @@ O [Email Designer](content-from-scratch.md) permite gerenciar os URLs rastreados
    Essa lista permite que você tenha uma visualização centralizada e localize cada URL no conteúdo do email.
 
 1. Para editar um link, clique no ícone de lápis correspondente.
-
-   ![](assets/message-tracking-edit-links.png)
 
 1. Você pode modificar o **[!UICONTROL Tipo de rastreamento]** se necessário:
 

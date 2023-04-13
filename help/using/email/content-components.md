@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: componentes, designer de email, editor, email
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1353'
 ht-degree: 1%
 
 ---
@@ -60,13 +60,17 @@ Para adicionar componentes de conteúdo ao seu email e ajustá-los às suas nece
    >
    >É possível adicionar vários componentes em um único componente de estrutura e em cada coluna de um componente de estrutura.
 
-1. Ajuste os atributos de estilo para cada componente usando o **[!UICONTROL Configurações do componente]** painel à direita. Por exemplo, é possível alterar o estilo do texto, o preenchimento ou a margem de cada componente. [Saiba mais sobre alinhamento e preenchimento](alignment-and-padding.md)
+1. Ajuste os atributos de estilo para cada componente usando o **[!UICONTROL Configurações]** e **[!UICONTROL Estilo]** à direita. Por exemplo, é possível alterar o estilo do texto, o preenchimento ou a margem de cada componente. [Saiba mais sobre alinhamento e preenchimento](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
+1. No menu avançado de **[!UICONTROL Componente de conteúdo]**, você pode excluir ou duplicar facilmente todos os componentes de conteúdo, conforme necessário.
+
+   ![](assets/email_designer_content_components_settings_2.png)
+
 ## Contêiner {#container}
 
-Você pode adicionar um contêiner simples dentro do qual poderá adicionar outro componente de conteúdo. Isso permite aplicar um estilo específico ao contêiner, que será diferente do componente usado no .
+Para aplicar um estilo específico a um grupo de componentes de conteúdo, é possível adicionar um **[!UICONTROL Contêiner]** e, em seguida, adicione os componentes de conteúdo desejados. Isso permite aplicar um estilo distinto ao contêiner, que será diferente do estilo aplicado aos componentes de conteúdo dentro.
 
 Por exemplo, adicione uma **[!UICONTROL Contêiner]** e, em seguida, adicione um [Botão](#button) componente dentro desse contêiner. Você pode usar um plano de fundo específico para o contêiner e outro para o botão .
 
@@ -78,7 +82,7 @@ Use o **[!UICONTROL Botão]** para inserir um ou vários botões no email e redi
 
 1. De **[!UICONTROL Componentes de conteúdo]**, arraste e solte a **[!UICONTROL Botão]** em um **[!UICONTROL Componente Estrutura]**.
 
-1. Clique no botão recém-adicionado para personalizar o texto e ter acesso ao **[!UICONTROL Configurações de componentes]** no painel direito do Email Designer.
+1. Clique no botão recém-adicionado para personalizar o texto e ter acesso ao **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** no painel direito do Designer de email.
 
    ![](assets/email_designer_button_component.png)
 
@@ -98,13 +102,13 @@ Use o **[!UICONTROL Botão]** para inserir um ou vários botões no email e redi
 
 ## Texto {#text}
 
-Use o **[!UICONTROL Texto]** componente para inserir texto no email e ajustar o estilo (borda, tamanho, preenchimento etc.) usando o **[!UICONTROL Configurações do componente]** painel.
+Use o **[!UICONTROL Texto]** componente para inserir texto no email e ajustar o estilo (borda, tamanho, preenchimento etc.) usando o **[!UICONTROL Estilos]** guia .
 
 ![](assets/email_designer_text_component.png)
 
 1. De **[!UICONTROL Componentes de conteúdo]**, arraste e solte a **[!UICONTROL Texto]** em um **[!UICONTROL Componente Estrutura]**.
 
-1. Clique no componente recém-adicionado para personalizar o texto e ter acesso ao **[!UICONTROL Configurações de componentes]** no painel direito do Designer de email.
+1. Clique no componente recém-adicionado para personalizar o texto e ter acesso ao **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** no painel direito do Designer de email.
 
 1. Altere o texto com as seguintes opções disponíveis na barra de ferramentas:
 
@@ -115,20 +119,25 @@ Use o **[!UICONTROL Texto]** componente para inserir texto no email e ajustar o 
    * **[!UICONTROL Criar lista]**: adicione marcadores ou listas de números ao texto.
    * **[!UICONTROL Definir cabeçalho]**: adicione até seis níveis de cabeçalho ao texto.
    * **Tamanho da fonte**: selecione o tamanho da fonte do texto em pixels.
+   * **[!UICONTROL Alterar cor da fonte]**: escolha a cor da fonte.
+   * **[!UICONTROL Inserir link]**: adicione qualquer tipo de link ao seu conteúdo.
    * **[!UICONTROL Editar imagem]**: adicione uma imagem ou um ativo ao seu componente de texto. [Saiba mais sobre o gerenciamento de ativos](assets-essentials.md)
+   * **[!UICONTROL Alterar cor da fonte]**: escolha a cor da fonte.
+   * **[!UICONTROL Adicionar personalização]**: adicione campos de personalização para personalizar o conteúdo dos dados de seus perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
    * **[!UICONTROL Mostrar o código-fonte]**: exibir o código-fonte do texto. Ele não pode ser modificado.
+   * **[!UICONTROL Habilitar conteúdo condicional]**: adicione conteúdo condicional para adaptar o conteúdo do componente aos perfis segmentados. [Saiba mais sobre conteúdo dinâmico](../personalization/get-started-dynamic-content.md)
    * **[!UICONTROL Duplicar]**: adicione uma cópia do seu componente de texto.
    * **[!UICONTROL Excluir]**: exclua o componente de texto selecionado do seu email.
-   * **[!UICONTROL Adicionar personalização]**: adicione campos de personalização para personalizar o conteúdo dos dados de seus perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
-   * **[!UICONTROL Habilitar conteúdo condicional]**: adicione conteúdo condicional para adaptar o conteúdo do componente aos perfis segmentados. [Saiba mais sobre conteúdo dinâmico](../personalization/get-started-dynamic-content.md)
 
-1. Ajuste os outros atributos de estilo, como cor do texto, família da fonte, borda, preenchimento, margem etc. do **[!UICONTROL Configurações do componente]** painel.
+1. Ajuste os outros atributos de estilo, como cor do texto, família da fonte, borda, preenchimento, margem etc. do **[!UICONTROL Estilos]** guia .
+
+   ![](assets/email_designer_text_component_2.png)
 
 ## Divisor {#divider}
 
 Use o **[!UICONTROL Divisor]** para inserir uma linha divisória para organizar o layout e o conteúdo do seu email.
 
-É possível ajustar atributos de estilo, como cor da linha, estilo e altura da **[!UICONTROL Configurações do componente]** painel.
+É possível ajustar atributos de estilo, como cor da linha, estilo e altura da **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** guias.
 
 ![](assets/email_designer_divider.png)
 
@@ -156,18 +165,22 @@ Use o **[!UICONTROL Imagem]** componente para inserir um arquivo de imagem de se
 
 1. De **[!UICONTROL Componentes de conteúdo]**, arraste e solte a **[!UICONTROL Imagem]** em um **[!UICONTROL Componente Estrutura]**.
 
+   ![](assets/email_designer_image_content.png)
+
 1. Clique em **[!UICONTROL Procurar]** para escolher um arquivo de imagem de seus ativos.
 
    Para saber mais sobre [!DNL Assets Essentials], consulte [Documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-1. Clique no componente recém-adicionado e configure as propriedades da imagem usando o **[!UICONTROL Configurações de componentes]** painel:
+1. Clique no componente recém-adicionado e configure as propriedades da imagem no **[!UICONTROL Configurações]** guia :
 
    * **[!UICONTROL Título da imagem]** permite definir um título para a imagem.
    * **[!UICONTROL Texto alternativo]** permite definir a legenda vinculada à imagem. Isso corresponde ao atributo HTML alt.
 
    ![](assets/email_designer_10.png)
 
-1. Ajuste os outros atributos de estilo, como margem, borda etc. ou adicionar um link para redirecionar seu público para outro conteúdo do **[!UICONTROL Configurações do componente]** painel.
+1. Você também pode optar por **[!UICONTROL Localizar fotos semelhantes do Stock]**. [Saiba mais](stock.md)
+
+1. No **[!UICONTROL Estilos]** , ajuste os outros atributos de estilo, como margem, borda etc. ou adicionar um link para redirecionar seu público para outro conteúdo do **[!UICONTROL Configurações do componente]** painel.
 
 ## Social {#social}
 
@@ -175,9 +188,9 @@ Use o **[!UICONTROL Social]** componente para inserir links às páginas de míd
 
 1. De **[!UICONTROL Componentes de conteúdo]**, arraste e solte a **[!UICONTROL Social]** em um **[!UICONTROL Componente Estrutura]**.
 
-1. Clique no componente recém-adicionado.
+1. Selecione o componente recém-adicionado.
 
-1. No **[!UICONTROL Social]** do **[!UICONTROL Configurações de componentes]** escolha que mídia social deseja adicionar ou remover.
+1. No **[!UICONTROL Social]** do **[!UICONTROL Configurações]** escolha a mídia social que deseja adicionar ou remover.
 
    ![](assets/email_designer_20.png)
 
@@ -187,13 +200,25 @@ Use o **[!UICONTROL Social]** componente para inserir links às páginas de míd
 
    ![](assets/email_designer_21.png)
 
-1. Você também pode alterar os ícones de cada uma das redes sociais, se necessário, na variável **[!UICONTROL Imagem]** campo.
+1. Você também pode alterar os ícones de cada uma das mídias sociais, se necessário, em seus Ativos.
 
-1. Ajuste os outros atributos de estilo, como estilo, margem, borda etc. do **[!UICONTROL Configurações do componente]** painel.
+1. Ajuste os outros atributos de estilo, como estilo, margem, borda etc. do **[!UICONTROL Estilos]** guia .
 
 ## Decisão da oferta {#offer-decision}
 
 Use o **[!UICONTROL Decisão da oferta]** componente para inserir ofertas em suas mensagens. O [gestão de decisões](../offers/get-started/starting-offer-decisioning.md) O mecanismo escolherá a melhor oferta a ser entregue aos clientes.
+
+1. De **[!UICONTROL Componentes de conteúdo]**, arraste e solte a **[!UICONTROL Decisão da oferta]** em um **[!UICONTROL Componente Estrutura]**.
+
+1. Clique em **[!UICONTROL Adicionar]** para selecionar seu **[!UICONTROL Decisão da oferta]**.
+
+   ![](assets/component_offers.png)
+
+1. No menu suspenso , selecione o **[!UICONTROL Posicionamentos]**.  Em seguida, selecione o **[!UICONTROL Decisão da oferta]** você deseja adicionar ao seu conteúdo e clique em **[!UICONTROL Adicionar]**.
+
+   ![](assets/component_offers_2.png)
+
+1. No **[!UICONTROL Decisão da oferta]** , é possível visualizar ou alterar a Oferta inserida.
 
 Saiba como adicionar ofertas personalizadas a um email em [esta seção](add-offers-email.md).
 
