@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
+source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '411'
 ht-degree: 3%
 
 ---
@@ -63,6 +63,10 @@ Para criar um fluxo de trabalho de composição, siga estas etapas:
    ![](assets/audiences-publish.png)
 
 1. Quando a composição estiver pronta, clique no botão **[!UICONTROL Publicar]** para publicar a composição e salvar os públicos resultantes no Adobe Experience Platform.
+
+   >[!IMPORTANT]
+   >
+   >Você pode publicar até 75 composições em uma determinada sandbox. Se você atingiu esse limite, é necessário excluir uma composição para liberar espaço e publicar uma nova.
 
    Se ocorrer algum erro durante a publicação, serão exibidos alertas com informações sobre como resolver o problema.
 
