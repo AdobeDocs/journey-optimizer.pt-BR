@@ -8,10 +8,11 @@ level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 hide: true
 hidefromtoc: true
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
+source-git-commit: 252011710574122c1f321a388b65bdafb7c666df
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 2%
+source-wordcount: '553'
+ht-degree: 3%
 
 ---
 
@@ -67,10 +68,11 @@ Para obter mais informações sobre como configurar uma jornada, consulte [esta 
 
 * A personalização só pode conter atributos de perfil.
 
-* A exibição no aplicativo está vinculada ao tempo de vida da jornada, o que significa que quando a jornada terminar para um perfil, todas as mensagens no aplicativo nessa jornada deixarão de ser exibidas para esse perfil. Isso significa que não é possível interromper uma atividade no aplicativo diretamente de uma atividade do jornada. Você tem que acabar com essa jornada.
-* A exibição no aplicativo está vinculada à duração de uma jornada, o que significa que, uma vez concluída a jornada de um perfil de usuário específico, todas as mensagens no aplicativo dentro dessa jornada deixarão de ser exibidas para esse perfil. Consequentemente, não é possível parar uma mensagem no aplicativo diretamente de uma atividade do jornada. Em vez disso, será necessário encerrar a jornada inteira para impedir que as mensagens no aplicativo sejam exibidas no perfil.
+* A exibição no aplicativo está vinculada ao tempo de vida da jornada, o que significa que quando a jornada terminar para um perfil, todas as mensagens no aplicativo dentro dessa jornada deixarão de ser exibidas para esse perfil.  Consequentemente, não é possível parar uma mensagem no aplicativo diretamente de uma atividade do jornada. Em vez disso, será necessário encerrar a jornada inteira para impedir que as mensagens no aplicativo sejam exibidas no perfil.
 
-* Com esse recurso, você ainda não poderá usar **[!UICONTROL Reação]** para reagir a uma abertura ou clique no aplicativo.
+* No modo de teste, a exibição no aplicativo depende da duração da jornada. Para evitar que a jornada termine muito cedo durante o teste, ajuste a **[!UICONTROL Tempo de espera]** para seu **[!UICONTROL Aguardar]** atividades.
+
+* **[!UICONTROL Reação]** não podem ser usadas para reagir a uma abertura ou clique no aplicativo.
 
 * Um atraso de ativação ocorre entre o momento em que um perfil de usuário atinge uma atividade no aplicativo na tela e o momento em que ele começa a ver essa mensagem no aplicativo. Esse atraso pode variar de 15 minutos a 1 hora.
 
