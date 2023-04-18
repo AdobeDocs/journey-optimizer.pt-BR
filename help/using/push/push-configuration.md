@@ -6,7 +6,7 @@ description: Saiba como configurar seu ambiente para enviar notificações por p
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
 workflow-type: tm+mt
 source-wordcount: '1536'
 ht-degree: 4%
@@ -16,6 +16,13 @@ ht-degree: 4%
 # Configurar canal de notificação por push {#push-notification-configuration}
 
 [!DNL Journey Optimizer] O permite criar suas jornadas e enviar mensagens para o público-alvo. Antes de começar a enviar notificações por push com [!DNL Journey Optimizer], é necessário garantir que as configurações e integrações estejam em vigor no aplicativo móvel e para tags no Adobe Experience Platform. Para entender o fluxo de dados das notificações por push em [!DNL Adobe Journey Optimizer] consulte [esta página](push-gs.md).
+
+<!--
+>[!AVAILABILITY]
+>
+>The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
+>
+-->
 
 ## Antes de começar {#before-starting}
 
