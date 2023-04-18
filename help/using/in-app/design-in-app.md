@@ -7,24 +7,28 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, design, formatação
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '886'
 ht-degree: 5%
 
 ---
 
 # Projete seu conteúdo no aplicativo {#design-content}
 
-É possível editar o conteúdo no aplicativo para configurar as opções de experiência, incluindo o layout e a exibição da mensagem, o texto e as opções de botão.
+Você pode editar o conteúdo no aplicativo para configurar as opções de experiência:
 
-Para configurar o conteúdo da mensagem, clique no link **[!UICONTROL Editar conteúdo]** e use as opções na seção à direita da tela para criar o conteúdo da mensagem no aplicativo.
+* Em um **[!UICONTROL Campanha]** do **[!UICONTROL Ação]** para configurar o conteúdo da mensagem, clique no botão **[!UICONTROL Editar conteúdo]** botão.
 
-![](assets/in_app_create_4.png)
+   ![](assets/edit-in-app-content.png)
+
+* Em um **[!UICONTROL Jornada]** no menu avançado do aplicativo **[!UICONTROL Ação]**, você pode começar a projetar seu conteúdo com o **[!UICONTROL Editar conteúdo]** botão.
+
+   ![](assets/design_inapp_journey.png)
 
 O **[!UICONTROL Formatação avançada]** ativar a alternância ativa opções adicionais para personalizar a experiência.
 
-Depois que a mensagem no aplicativo é criada e o conteúdo é definido e personalizado, é possível revisá-la e ativá-la. As notificações serão enviadas de acordo com o agendamento da campanha. Saiba mais [nesta página](create-in-app.md#in-app-send).
+Depois que a mensagem no aplicativo é criada e o conteúdo é definido e personalizado, é possível revisá-la e ativá-la. As notificações serão enviadas de acordo com o agendamento da campanha. Saiba mais [nesta página](send-in-app.md).
 
 ## Layout de mensagem {#message-layout}
 

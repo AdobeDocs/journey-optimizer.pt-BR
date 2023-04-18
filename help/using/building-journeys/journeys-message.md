@@ -7,18 +7,18 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: jornada, mensagem, push, sms, email
+keywords: jornada, mensagem, push, sms, email, no aplicativo
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 45d508b284c23235518fab37095413091208e497
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 6%
+source-wordcount: '864'
+ht-degree: 3%
 
 ---
 
-# Email, SMS, Push{#add-a-message-in-a-journey}
+# Email, No aplicativo, Push, SMS{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] O vem com recursos de mensagem integrados. Você pode simplesmente adicionar, em sua jornada, uma atividade de push, SMS ou mensagem de email e definir configurações e conteúdo. Em seguida, é executado e enviado no contexto da jornada.
+[!DNL Journey Optimizer] O vem com recursos de mensagem integrados. Você pode simplesmente adicionar, em sua jornada, um push, um SMS, uma atividade no aplicativo ou de mensagem de email e definir configurações e conteúdo. Em seguida, é executado e enviado no contexto da jornada.
 
 Você também pode configurar ações específicas para enviar mensagens:
 
@@ -33,7 +33,7 @@ Para adicionar uma mensagem em uma jornada, siga as etapas abaixo:
 
 1. Inicie a jornada com uma atividade de [Evento](general-events.md) ou [Segmento de leitura](read-segment.md).
 
-1. Na seção **Ações** da paleta, arraste e solte na tela uma atividade de **email**, **SMS** ou **push**.
+1. No **Ações** seção da paleta, arraste e solte uma **email**, um **No aplicativo**, um **SMS** ou **Empurrar** atividade na tela.
 
 1. Configure sua atividade. Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem nas seguintes páginas:
 
@@ -44,6 +44,14 @@ Para adicionar uma mensagem em uma jornada, siga as etapas abaixo:
    <img alt="Cliente potencial" src="../assets/do-not-localize/email.jpg">
    </a>
    <div><a href="../email/create-email.md"><strong>Criar emails</strong>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../in-app/create-in-app.md">
+   <img alt="Cliente potencial" src="../assets/do-not-localize/in-app.jpg">
+   </a>
+   <div><a href="../in-app/create-in-app.md"><strong>Criar mensagens no aplicativo</strong>
    </div>
    <p>
    </td>
@@ -70,13 +78,15 @@ Para adicionar uma mensagem em uma jornada, siga as etapas abaixo:
 
 ## Atualizar conteúdo ao vivo{#update-live-content}
 
-Você pode atualizar o conteúdo de uma mensagem (email, sms, push) em uma jornada ao vivo.
+Você pode atualizar o conteúdo de uma mensagem (email, no aplicativo, Push, SMS) em uma jornada ao vivo.
 
 Para fazer isso, abra a jornada ao vivo, selecione a atividade de mensagem e clique em **Editar conteúdo**.
 
 ![](assets/add-a-message2.png)
 
 No entanto, não é possível alterar os atributos usados na personalização, sejam eles atributos de perfil ou dados contextuais (das propriedades de evento ou jornada).
+
+Observe que para a atividade no aplicativo, todas as alterações podem ser feitas no conteúdo enquanto a jornada está ativa, mas os acionadores no aplicativo não podem ser modificados.
 
 ## Otimização de tempo de envio{#send-time-optimization}
 

@@ -6,10 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 17%
+source-wordcount: '285'
+ht-degree: 14%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 17%
 
 ## Visualizar no dispositivo {#preview-device}
 
-Uma vez [criada a mensagem no aplicativo](create-in-app.md) e [definia seu conteúdo](design-in-app.md), é possível visualizar a notificação no aplicativo em um dispositivo específico.
+Se quiser obter uma prévia da notificação no aplicativo antes de ela entrar em vigor para todos os usuários, você poderá visualizá-la em um dispositivo específico. Essa funcionalidade permite garantir que a notificação tenha a aparência e funcione conforme pretendido no dispositivo escolhido, fornecendo uma melhor experiência ao usuário para seu público-alvo.
 
 Para fazer isso, siga as etapas abaixo:
 
@@ -37,7 +38,7 @@ A mensagem no aplicativo agora pode ser acionada diretamente no dispositivo, per
 
 ## Revisar e ativar sua notificação no aplicativo{#in-app-review}
 
-Quando a mensagem no aplicativo estiver pronta, você poderá revisá-la e ativá-la.
+Depois que a mensagem no aplicativo é criada e o conteúdo é definido e personalizado, é possível revisá-la e ativá-la.
 
 Para fazer isso, siga as etapas abaixo:
 
