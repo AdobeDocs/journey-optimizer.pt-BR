@@ -5,9 +5,9 @@ title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2572'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Abril de 2023 {#apr-2023}
 
-* O Adobe Experience Manager Assets Essentials e o Adobe Stock foram adicionados à página de integração de várias soluções . [Leia mais](../start/ajo-integrations.md)
-* O aviso em subdomínios de email de vários níveis que não estão sendo permitidos foi removido, pois eles agora são compatíveis. [Leia mais](../configuration/delegate-subdomain.md)
-* Uma observação foi adicionada para especificar que, se forem feitas alterações em uma decisão de oferta que esteja sendo usada em uma mensagem de jornada, será necessário desfazer a publicação da jornada e republicá-la. [Leia mais](../building-journeys/publishing-the-journey.md)
+* O Adobe Experience Manager Assets Essentials e o Adobe Stock foram adicionados à página de integração de várias soluções. [Leia mais](../start/ajo-integrations.md)
+* O aviso sobre subdomínios de email de vários níveis não serem permitidos foi removido, pois eles agora são compatíveis. [Leia mais](../configuration/delegate-subdomain.md)
+* Uma observação foi adicionada para especificar que, se forem feitas alterações em uma decisão de oferta que esteja sendo usada em uma mensagem da jornada, será necessário desfazer a publicação da jornada e republicá-la. [Leia mais](../building-journeys/publishing-the-journey.md)
 
 ## Março de 2023 {#march-2023}
 
