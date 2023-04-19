@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: aterrissagem, página de aterrissagem, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 16%
+source-wordcount: '968'
+ht-degree: 15%
 
 ---
 
@@ -70,11 +70,11 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
 Além disso, você pode enviar um email de confirmação para os recipients que se registraram para o seu evento. Para isso, siga as etapas abaixo.
 
-1. Criar outro [jornada](../building-journeys/journey.md). Você pode fazer isso diretamente da landing page clicando no link **[!UICONTROL Criar jornada]** botão. Saiba mais [aqui](create-lp.md#configure-primary-page)
+1. Criar outro [jornada](../building-journeys/journey.md). Você pode fazer isso diretamente da landing page clicando no link **[!UICONTROL Criar jornada]** botão. [Saiba mais](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Expanda a **[!UICONTROL Eventos]** categoria e solte uma **[!UICONTROL Qualificação do segmento]** atividade na tela. Saiba mais [aqui](../building-journeys/segment-qualification-events.md)
+1. Expanda a **[!UICONTROL Eventos]** categoria e solte uma **[!UICONTROL Qualificação do segmento]** atividade na tela. [Saiba mais](../building-journeys/segment-qualification-events.md)
 
 1. Clique no botão **[!UICONTROL Segmento]** e selecione a lista de subscrição criada.
 
@@ -127,13 +127,9 @@ Para permitir que os recipients de um email cancelem a assinatura de suas comuni
 
 1. Após configurar e definir o conteúdo de suas páginas, [publicar](create-lp.md#publish) a landing page.
 
-   ![](assets/lp_opt-out-publish.png)
-
 1. [Criar uma mensagem de email](../email/get-started-email-design.md) em uma jornada.
 
 1. Selecione o texto no seu conteúdo e [insira um link](../email/message-tracking.md#insert-links) usando a barra de ferramentas contextual. Você também pode usar um link em um botão.
-
-   ![](assets/lp_opt-out-insert-link.png)
 
 1. Selecionar **[!UICONTROL Página de aterrissagem]** do **[!UICONTROL Tipo de link]** e selecione a [página de aterrissagem](create-lp.md#configure-primary-page) que você criou para rejeitar.
 
