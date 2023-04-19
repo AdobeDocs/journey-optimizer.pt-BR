@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -41,20 +41,20 @@ Saiba mais sobre o [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 ## Adobe Experience Manager Assets Essentials{#integration-assets}
 
-Reúna fluxos de trabalho de marketing e criação usando [!DNL Adobe Experience Manager Assets Essentials]. Integrado nativamente com [!DNL Adobe Journey Optimizer], acesso [!DNL Assets Essentials] para armazenar, gerenciar, descobrir e distribuir ativos digitais. Ele fornece um repositório único e centralizado de ativos que você pode usar para preencher suas mensagens.
+Junte os fluxos de trabalho de marketing e de criação usando o [!DNL Adobe Experience Manager Assets Essentials]. Integrado nativamente no [!DNL Adobe Journey Optimizer], acesse o [!DNL Assets Essentials] para armazenar, gerenciar, descobrir e distribuir ativos digitais. Ele fornece um repositório único e centralizado de ativos que você pode usar para preencher suas mensagens.
 
-[!DNL Adobe Experience Manager Assets Essentials] pode ser acessada diretamente de [!DNL Adobe Journey Optimizer] no menu esquerdo **[!UICONTROL Ativos]** seção.
+O [!DNL Adobe Experience Manager Assets Essentials] pode ser acessado diretamente a partir do [!DNL Adobe Journey Optimizer], através da seção **[!UICONTROL Ativos]** no menu esquerdo.
 
-Saiba mais sobre [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
+Saiba mais sobre o [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
 
 
 ## Adobe Stock{#integration-stock}
 
-O [!DNL Adobe Stock] e [!DNL Adobe Journey Optimizer] O plug-in de integração do Designer de email fornece aos clientes uma maneira fácil de navegar, licenciar e salvar imagens para uso na criação de mensagens.
+O plug-in de integração do Designer de email para o [!DNL Adobe Stock] e [!DNL Adobe Journey Optimizer] fornece aos clientes uma maneira fácil de navegar, licenciar e salvar imagens para uso na criação de mensagens.
 
-Com [!DNL Adobe Journey Optimizer], você pode carregar imagens em seus emails diretamente de [!DNL Adobe Stock] e adicione-o ao **[!UICONTROL Ativos]** usando a **[!UICONTROL Localizar fotos do Adobe Stock]** opção. Além disso, a variável **[!UICONTROL Localizar fotos de Ações Semelhantes]** ajuda a encontrar imagens que correspondam ao conteúdo, à cor e à composição do ativo usado no delivery.
+Com o [!DNL Adobe Journey Optimizer], você pode fazer upload de imagens para seus emails diretamente do [!DNL Adobe Stock] e adicioná-las à pasta **[!UICONTROL Ativos]** usando a opção **[!UICONTROL Encontrar fotos do Adobe Stock]**. Além disso, a opção **[!UICONTROL Encontrar fotos semelhantes do Stock]** ajuda a encontrar imagens que correspondam ao conteúdo, à cor e à composição do ativo usado na entrega.
 
-Saiba mais sobre [Journey Optimizer + Stock](../email/stock.md).
+Saiba mais sobre o [Journey Optimizer + Stock](../email/stock.md).
 
 
 ## Serviços inteligentes da Adobe{#integration-intelligent-service}
