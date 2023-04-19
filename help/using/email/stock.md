@@ -12,7 +12,7 @@ exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 ## Introdução ao [!DNL Adobe Stock] {#get-started-stock}
 
-O [!DNL Adobe Stock] e [!DNL Adobe Journey Optimizer] O plug-in de integração do Designer de email fornece aos clientes uma maneira fácil de navegar, licenciar e salvar imagens para uso na criação de mensagens.
+O plug-in de integração do Designer de email para o [!DNL Adobe Stock] e [!DNL Adobe Journey Optimizer] fornece aos clientes uma maneira fácil de navegar, licenciar e salvar imagens para uso na criação de mensagens.
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} fornece acesso a milhões de fotos, vídeos, ilustrações e gráficos vetoriais de alta qualidade e com curadoria e isentos de royalties. Você pode optar por comprar um pacote de crédito para licenciar ativos ou comprar apenas uma licença Standard ou Extended para o ativo necessário. O Adobe Stock também fornece uma coleção gratuita de ativos.
 
-Com [!DNL Adobe Journey Optimizer], você pode carregar imagens em seus emails diretamente de [!DNL Adobe Stock] e adicione-o ao **[!UICONTROL Ativos]** usando a **[!UICONTROL Localizar fotos do Adobe Stock]** opção. Além disso, a variável **[!UICONTROL Localizar fotos de Ações Semelhantes]** ajuda a encontrar imagens que correspondam ao conteúdo, à cor e à composição do ativo usado no delivery.
+Com o [!DNL Adobe Journey Optimizer], você pode fazer upload de imagens para seus emails diretamente do [!DNL Adobe Stock] e adicioná-las à pasta **[!UICONTROL Ativos]** usando a opção **[!UICONTROL Encontrar fotos do Adobe Stock]**. Além disso, a opção **[!UICONTROL Encontrar fotos semelhantes do Stock]** ajuda a encontrar imagens que correspondam ao conteúdo, à cor e à composição do ativo usado na entrega.
 
 ## Permissões{#stock-permissions}
 

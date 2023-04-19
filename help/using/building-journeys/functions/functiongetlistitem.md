@@ -30,14 +30,14 @@ Lista
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| listar | listString |
-| listar | listBoolean |
-| listar | listInteger |
-| listar | listDecimal |
-| listar | listDuration |
-| listar | listDateTime |
-| listar | listDateTimeOnly |
-| listar | listDateOnly |
+| list | listString |
+| list | listBoolean |
+| list | listInteger |
+| list | listDecimal |
+| list | listDuration |
+| list | listDateTime |
+| list | listDateTimeOnly |
+| list | listDateOnly |
 | índice | inteiro |
 
 ## Assinaturas e tipo retornado

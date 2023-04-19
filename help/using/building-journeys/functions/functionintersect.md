@@ -30,8 +30,8 @@ Lista
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| lista 1 | listar |
-| lista 2 | listar |
+| lista 1 | list |
+| lista 2 | list |
 
 ## Assinaturas e tipos retornados
 

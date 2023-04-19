@@ -47,7 +47,7 @@ Esta tabela mostra um exemplo de configuração:
 | Campo | Valor |
 | --- | --- |
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
-| Path | `The id of marketingCampaign + '/messages'` |
+| Caminho | `The id of marketingCampaign + '/messages'` |
 
 O URL concatenado tem este formulário:
 

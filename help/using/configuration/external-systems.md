@@ -10,7 +10,7 @@ exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 3%
+ht-degree: 32%
 
 ---
 
@@ -34,36 +34,36 @@ Quando o Journey Optimizer executa uma chamada para uma API externa, as medidas 
 
 ### Sobre APIs de limitação e limitação
 
-Ao configurar uma fonte de dados ou uma ação, você estabelece uma conexão com um sistema para recuperar informações adicionais para usar em suas jornadas ou enviar mensagens ou chamadas de API.
+Ao configurar uma fonte de dados ou uma ação, você estabelece uma conexão com um sistema para recuperar informações adicionais e usar em suas jornadas ou enviar mensagens ou chamadas de API.
 
-As APIs do Jornada suportam até 5000 eventos por segundo, mas alguns sistemas externos ou APIs podem não ter uma taxa de transferência equivalente. Para evitar sobrecarga desses sistemas, você pode usar o **Limitação** e **Limitação** APIs para limitar o número de eventos enviados por segundo.
+As APIs de jornadas comportam até 5000 eventos por segundo, mas alguns sistemas externos ou APIs podem não ter uma taxa de transferência equivalente. Para evitar sobrecarga desses sistemas, você pode usar o **Limitação** e **Limitação** APIs para limitar o número de eventos enviados por segundo.
 
-Toda vez que uma chamada de API é executada pelo jornada, ela passa pelo mecanismo de API. Se o limite definido na API for atingido, a chamada será rejeitada se você estiver usando a API de limitação ou colocada em fila por até 6 horas e processada o mais rápido possível na ordem em que foi recebida se estiver usando a API de limitação.
+Toda vez que uma chamada de API é executada pelas jornadas, ela passa pelo mecanismo da API. Se o limite definido na API for atingido, a chamada será rejeitada se você estiver usando a API de limitação ou colocada em fila por até 6 horas e processada o mais rápido possível na ordem em que foi recebida se estiver usando a API de limitação.
 
-Por exemplo, digamos que você tenha definido uma regra de limitação ou limitação de 100 chamadas por segundo para seu sistema externo. Seu sistema é chamado por uma ação personalizada em 10 jornadas diferentes. Se uma jornada receber 200 chamadas por segundo, ela usará os 100 slots disponíveis e descartará ou colocará em fila os 100 slots restantes. Como a taxa máxima foi excedida, as outras 9 jornadas não terão mais nenhum slot. Essa granularidade ajuda a proteger o sistema externo contra sobrecarga e falha.
+Por exemplo, digamos que você tenha definido uma regra de limite ou limitação de 100 chamadas por segundo para seu sistema externo. Seu sistema é chamado por uma ação personalizada em 10 jornadas diferentes. Se uma jornada receber 200 chamadas por segundo, ela usará os 100 slots disponíveis e descartará ou colocará em fila os 100 slots restantes. Como a taxa máxima foi excedida, não restará nenhum slot para as outras 9 jornadas. Essa granularidade ajuda a proteger o sistema externo contra sobrecarga e falhas.
 
 >[!IMPORTANT]
 >
->**Regras de limitação** são configuradas no nível da sandbox, para um endpoint específico (o URL chamado), mas globais para todas as jornadas da sandbox.
+>As **regras de limite** são configuradas no nível da sandbox para um ponto de acesso específico (o URL chamado), porém, são globais para todas as jornadas dessa sandbox.
 >
->**Regras de limitação** são configuradas apenas em sandboxes de produção, para um endpoint específico, mas globais para todas as jornadas em todas as sandboxes. Você pode ter apenas uma configuração de limitação por organização.
+>As **regras de limitação** são configuradas apenas em sandboxes de produção para um ponto de acesso específico, porém, são globais para todas as jornadas em todas as sandboxes. Você pode ter apenas uma configuração de limitação por organização.
 
 Para obter mais informações sobre como trabalhar com as APIs, consulte estas seções:
 
-* [API de limitação](capping.md)
+* [API de limite](capping.md)
 * [API de limitação](throttling.md)
 
 Uma descrição detalhada das APIs está disponível em [Documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
 
-### Fontes de dados e capacidade de ações personalizadas {#capacity}
+### Capacidade de ações personalizadas e fontes de dados {#capacity}
 
-Para **fontes de dados externas**, o número máximo de chamadas por segundo é limitado a 15. Se esse limite for excedido, as chamadas adicionais serão descartadas ou enfileiradas, dependendo da API em uso. É possível aumentar esse limite para fontes de dados externas privadas entrando em contato com o Adobe para incluir o endpoint na  de lista de permissões, mas essa não é uma opção para fontes de dados externas públicas. * [Saiba como configurar fontes de dados](../datasource/about-data-sources.md).
+Para **fontes de dados externas**, o número máximo de chamadas por segundo é limitado a 15. Se esse limite for excedido, as chamadas adicionais serão descartadas ou enfileiradas, dependendo da API utilizada. É possível aumentar esse limite para fontes de dados externas privadas entrando em contato com a Adobe para incluir o ponto de acesso na lista de permissões, mas essa não é uma opção para fontes de dados externas públicas. * [Saiba como configurar fontes de dados](../datasource/about-data-sources.md).
 
 >[!NOTE]
 >
->Se uma fonte de dados usar uma autenticação personalizada com um terminal diferente daquele usado para a fonte de dados, será necessário entrar em contato com o Adobe para também incluir esse terminal na  de lista de permissões.
+>Se uma fonte de dados usar uma autenticação personalizada com um ponto de acesso diferente daquele usado para a fonte de dados, também será necessário entrar em contato com a Adobe para incluir esse ponto de acesso na lista de permissões.
 
-Para **ações personalizadas**, é necessário avaliar a capacidade da API externa do . Por exemplo, se o Journey Optimizer enviar 1000 chamadas por segundo e o sistema suportar apenas 100 chamadas por segundo, é necessário definir uma configuração de limitação ou limitação para que o sistema não fique saturado. [Saiba como configurar ações](../action/action.md)
+Para **ações personalizadas**, é necessário avaliar a capacidade de sua API externa. Por exemplo, se o Journey Optimizer envia 1000 chamadas por segundo e o sistema permite apenas 100 chamadas por segundo, é necessário definir uma configuração de limite ou limitação para não sobrecarregar o sistema. [Saiba como configurar ações](../action/action.md)
 
 ## Tempo limite e tentativas{#timeout}
 
