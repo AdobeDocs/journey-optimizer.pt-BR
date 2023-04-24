@@ -11,16 +11,16 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
-source-git-commit: 1332bc6caf18eaa735d1c99b8e5f70f8a4eaaf2b
+source-git-commit: 62954221f9797fc4ac7b5e066ffea6f99c17ad45
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 5%
+source-wordcount: '368'
+ht-degree: 6%
 
 ---
 
 # Fluxo de trabalho de início rápido de integração móvel {#mobile-wf}
 
-O novo **fluxo de trabalho de início rápido de integração móvel** O é um novo recurso do produto para configurar rapidamente o Mobile SDK, começar a coletar e validar dados de eventos móveis e enviar notificações por push com [!DNL Journey Optimizer].
+O novo **fluxo de trabalho de início rápido de integração móvel** O é um novo recurso do produto para configurar rapidamente o SDK do Adobe Experience Platform Mobile, começar a coletar e validar dados de eventos móveis e enviar notificações por push com [!DNL Journey Optimizer].
 
 Esse recurso pode ser acessado por meio da variável **[!DNL Adobe Experience Platform Data Collection]** página inicial para todos os clientes como uma versão beta pública.
 
@@ -35,8 +35,8 @@ Para acessar o novo fluxo de trabalho de início rápido da integração móvel,
 Abaixo estão alguns recursos adicionais:
 
 * Fluxo de trabalho fácil de quatro etapas e interface do usuário.
-* Fornece uma configuração básica para iniciar a coleta de dados do evento móvel por meio do SDK móvel em minutos.
-* Capacidade de testar e validar um evento básico de push móvel que aproveita o Assurance.
+* Fornece uma configuração básica para começar a coletar dados de eventos de dispositivos móveis por meio do [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} em minutos.
+* Capacidade de testar e validar um evento básico de push móvel aproveitando [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 * Cria e configura automaticamente toda a coleta de dados necessária, além dos ativos do Journey Optimizer.
 * Em orientações e dicas de ferramentas do produto.
 * Fornece uma transição natural para uma implementação mais avançada, se necessário.
