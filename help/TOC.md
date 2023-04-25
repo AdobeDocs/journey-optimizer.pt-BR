@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
       + [Condição](using/building-journeys/condition-activity.md)
       + [Aguardar](using/building-journeys/wait-activity.md)
       + [Ler segmento](using/building-journeys/read-segment.md)
-      + [Email, No aplicativo, Push, SMS](using/building-journeys/journeys-message.md)
+      + [Email, no aplicativo, push, SMS](using/building-journeys/journeys-message.md)
       + [Ações personalizadas](using/building-journeys/using-custom-actions.md)
       + [Ações do Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Ações do Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
@@ -176,8 +176,8 @@ ht-degree: 98%
    + Projetar o conteúdo de email {#design-email}
       + [Introdução ao design de email](using/email/get-started-email-design.md)
       + Começar a criar conteúdo {#start-creating-content}
-         + [Design de conteúdo do zero](using/email/content-from-scratch.md)
-         + [Importe seu conteúdo](using/email/existing-content.md)
+         + [Crie um conteúdo do zero](using/email/content-from-scratch.md)
+         + [Importar seu conteúdo](using/email/existing-content.md)
          + [Programar seu próprio conteúdo](using/email/code-content.md)
          + [Trabalhar com modelos](using/email/email-templates.md)
       + Projetar o conteúdo {#add-content}
@@ -205,8 +205,8 @@ ht-degree: 98%
 + Canal no aplicativo{#in-app}
    + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
    + [Criação de uma mensagem no aplicativo](using/in-app/create-in-app.md)
-   + [Criar uma mensagem no aplicativo em uma Jornada](using/in-app/create-in-app-journey.md)
-   + [Projete seu conteúdo no aplicativo](using/in-app/design-in-app.md)
+   + [Criar uma mensagem no aplicativo em uma jornada](using/in-app/create-in-app-journey.md)
+   + [Criar seu conteúdo no aplicativo](using/in-app/design-in-app.md)
    + [Teste e envie a sua notificação no aplicativo](using/in-app/send-in-app.md)
    + [Configuração do canal no aplicativo](using/in-app/inapp-configuration.md)
 + Canal de notificação por push{#push}
@@ -217,7 +217,7 @@ ht-degree: 98%
    + Configurar notificações por push{#push-config}
       + [Fluxo de notificação por push](using/push/push-gs.md)
       + [Configurar canal de notificação por push](using/push/push-configuration.md)
-      + [Fluxo de trabalho de início rápido de integração móvel](using/push/mobile-onboarding-wf.md)
+      + [Fluxo de trabalho de início rápido de integração para dispositivos móveis](using/push/mobile-onboarding-wf.md)
 + Canal SMS{#sms}
    + [Introdução a SMS](using/sms/get-started-sms.md)
    + [Criar uma mensagem de SMS.](using/sms/create-sms.md)
