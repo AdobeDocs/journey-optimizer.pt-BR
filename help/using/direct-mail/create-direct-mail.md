@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="Criação de correspondência direta"
->abstract="Crie mensagens de mala direta em campanhas programadas e crie os arquivos de extração exigidos pelos provedores de mala direta para enviar mala para seus clientes."
+>abstract="Crie mensagens de correspondência direta em campanhas programadas e crie os arquivos de extração exigidos pelos provedores de correspondência direta para enviar para seus clientes."
 
 >[!BEGINSHADEBOX]
 
@@ -85,9 +85,9 @@ As etapas para criar e enviar uma mensagem de mala direta são as seguintes:
 
 1. Repita essas etapas para adicionar quantas colunas forem necessárias para criar seu arquivo de extração. Observe que é possível adicionar até 50 colunas.
 
-   ![](assets/direct-mail-complete.png)
-
    É possível excluir uma coluna a qualquer momento selecionando-a e clicando no botão **[!UICONTROL Remover]** do botão **[!UICONTROL Formatação]** seção.
+
+   ![](assets/direct-mail-complete.png)
 
 1. Após definir o conteúdo da correspondência direta, conclua a configuração da campanha.
 

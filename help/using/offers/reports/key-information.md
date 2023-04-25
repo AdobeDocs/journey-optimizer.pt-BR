@@ -6,24 +6,12 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 38%
+source-wordcount: '22'
+ht-degree: 45%
 
 ---
 
 # Informações importantes sobre eventos da Gestão de decisões {#events-key-information}
 
-Cada evento enviado quando uma decisão é tomada contém quatro pontos de dados principais que podem ser aproveitados para fins de análise e relatórios.
-
-![](../assets/events-dataset-preview.png)
-
-* **[!UICONTROL Fallback]**: Nome e ID da oferta de fallback, se nenhuma oferta personalizada foi selecionada,
-* **[!UICONTROL Posicionamento]**: Nome, ID e canal da disposição usada para entregar a oferta,
-* **[!UICONTROL Seleções]**: Nome e ID da oferta selecionada para o perfil,
-* **[!UICONTROL Atividade]**: Nome e ID da decisão.
-
-Além disso, você também pode aproveitar a **[!UICONTROL identityMap]** e **[!UICONTROL Carimbo de data e hora]** para recuperar informações sobre o perfil e a hora em que a oferta foi entregue.
-
-Para obter mais informações sobre todos os campos XDM enviados com cada decisão, consulte [esta seção](xdm-fields.md).
