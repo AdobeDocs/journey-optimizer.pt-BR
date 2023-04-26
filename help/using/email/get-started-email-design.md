@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: email, design, estoque, ativos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 18%
+source-wordcount: '461'
+ht-degree: 12%
 
 ---
 
@@ -29,6 +29,14 @@ ht-degree: 18%
 * Melhore a experiência dos clientes criando mensagens personalizadas e dinâmicas com base em seus atributos de perfil. Saiba mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md).
 
 ➡️ [Descubra este recurso no vídeo](#video)
+
+## Práticas recomendadas de design de email {#best-practices}
+
+Ao enviar emails, é importante considerar que os recipients podem encaminhá-los, o que pode às vezes causar problemas com a renderização do email. Isso é particularmente verdadeiro ao usar classes CSS que podem não ser compatíveis com o provedor de email usado para encaminhamento, por exemplo, se estiver usando a classe CSS &quot;is-desktop-hidden&quot; para ocultar uma imagem em dispositivos móveis.
+
+Para minimizar esses problemas de renderização, recomendamos manter sua estrutura de design de email o mais simples possível. Tente usar um único design que funcione bem para desktops e dispositivos móveis e evite usar classes CSS complexas ou outros elementos de design que possam não ser totalmente compatíveis com todos os clientes de email. Ao seguir essas práticas recomendadas, você pode ajudar a garantir que seus emails sejam renderizados corretamente de forma consistente, independentemente de como sejam visualizados ou encaminhados pelos recipients.
+
+## Etapas principais para criar conteúdo de email {#key-steps}
 
 Depois de [adição de um email](create-email.md) para uma jornada ou campanha, você pode começar a criar o conteúdo do seu email.
 
