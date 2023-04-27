@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -36,7 +36,7 @@ A lista de ofertas personalizadas pode ser acessada na variável **[!UICONTROL O
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_attributes"
->title="Atributos da oferta"
+>title="Atributos de oferta"
 >abstract="Com atributos de oferta, é possível associar pares de valores chave à oferta para fins de análise e geração de relatórios."
 
 Para criar um **oferta** siga estas etapas:

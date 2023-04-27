@@ -10,7 +10,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 6%
+ht-degree: 17%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
->title="Criar uma predefinição de página de aterrissagem"
->abstract="Para criar uma página de aterrissagem e aproveitá-la pelo Journey Optimizer, você deve criar uma predefinição de página de aterrissagem que inclua o subdomínio a ser usado."
+>title="Criar uma predefinição de página de destino"
+>abstract="Para criar uma página de destino e aproveitá-la no Journey Optimizer, você deve criar uma predefinição de página de destino que inclua o subdomínio a ser usado."
 
 When [criação de uma landing page](../landing-pages/create-lp.md#create-a-lp), você deve selecionar uma predefinição de página de aterrissagem para criar a página de aterrissagem e aproveitá-la **[!DNL Journey Optimizer]**.
 
@@ -37,7 +37,7 @@ Para acessar as predefinições da landing page, siga as etapas abaixo.
 
    ![](assets/lp_preset-details.png)
 
-## Criar uma predefinição de página de aterrissagem {#lp-create-preset}
+## Criar uma predefinição de página de destino {#lp-create-preset}
 
 Para criar uma predefinição de página de aterrissagem, siga as etapas abaixo.
 

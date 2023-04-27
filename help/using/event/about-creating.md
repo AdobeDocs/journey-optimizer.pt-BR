@@ -12,7 +12,7 @@ exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
 >title="Eventos unitários"
->abstract="A configuração do evento permite definir as informações que o Journey Optimizer receberá como eventos. É possível usar vários eventos (em etapas diferentes de uma jornada) e várias jornadas podem usar o mesmo evento. Os eventos unitários são vinculados a um perfil específico. Eles podem ser baseados em regras ou gerados pelo sistema."
+>abstract="A configuração do evento permite definir as informações que o Journey Optimizer receberá como eventos. Você pode usar vários eventos (em diferentes etapas de uma jornada), e várias jornadas podem usar o mesmo evento. Os eventos unitários são vinculados a um perfil específico. Eles podem ser baseados em regras ou gerados pelo sistema."
 
 Os eventos unitários são vinculados a um perfil específico. Eles podem ser baseados em regras ou gerados pelo sistema.  Leia mais no evento unitário [esta seção](../event/about-events.md).
 

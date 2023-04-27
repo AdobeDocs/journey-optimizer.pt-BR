@@ -12,7 +12,7 @@ exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="Atividade Atualizar perfil"
->abstract="A atividade de ação Atualizar perfil permite atualizar um perfil do Adobe Experience Platform existente com informações provenientes do evento, fonte de dados ou usando um valor específico."
+>abstract="A ação Atualizar perfil permite atualizar um perfil da Adobe Experience Platform existente com informações provenientes do evento, de uma fonte de dados ou usando um valor específico."
 
 Use o **[!UICONTROL Atualizar perfil]** atividade de ação para atualizar um perfil do Adobe Experience Platform existente com informações provenientes de um evento, uma fonte de dados ou com um valor específico.
 

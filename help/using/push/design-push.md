@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -79,7 +79,7 @@ Na versão do iOS, é possível adicionar até quatro botões. Na versão do And
 >[!CONTEXTUALHELP]
 >id="ajo_message_push_silent_notification"
 >title="Sobre notificação silenciosa"
->abstract="Enviar notificações sem perturbar o usuário, as notificações não são mostradas no centro de notificações ou na barra de notificação."
+>abstract="Enviar notificações sem perturbar o usuário. As notificações não são mostradas no centro de notificações ou na barra de notificação."
 
 Uma notificação por push silenciosa (ou notificação em segundo plano) é uma instrução oculta fornecida ao aplicativo. É usado para, por exemplo, notificar seu aplicativo sobre a disponibilidade de novo conteúdo ou iniciar um download em segundo plano.
 

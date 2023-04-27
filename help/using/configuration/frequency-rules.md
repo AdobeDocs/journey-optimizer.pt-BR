@@ -12,7 +12,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '977'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
@@ -52,7 +52,7 @@ Saiba mais sobre permissões em [esta seção](../administration/high-low-permis
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
->title="Selecione a categoria da regra de mensagem"
+>title="Selecionar a categoria da regra de mensagem"
 >abstract="Quando ativadas e aplicadas a uma mensagem, todas as regras de frequência correspondentes à categoria selecionada serão automaticamente aplicadas a essa mensagem. Atualmente, somente a categoria Marketing está disponível."
 
 >[!CONTEXTUALHELP]
@@ -63,7 +63,7 @@ Saiba mais sobre permissões em [esta seção](../administration/high-low-permis
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
 >title="Definir os canais aos quais a regra se aplica"
->abstract="Selecione pelo menos um canal. A limitação se aplica em canais como uma contagem total."
+>abstract="Selecione pelo menos um canal. O limite se aplica em canais como uma contagem total."
 
 Para criar uma nova regra, siga as etapas abaixo.
 
@@ -75,7 +75,7 @@ Para criar uma nova regra, siga as etapas abaixo.
 
    ![](assets/message-rules-details.png)
 
-1. Selecione a categoria da regra de mensagem.
+1. Selecionar a categoria da regra de mensagem.
 
    >[!NOTE]
    >

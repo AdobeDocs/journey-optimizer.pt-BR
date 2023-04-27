@@ -15,7 +15,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '2013'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -127,8 +127,8 @@ Para obter insights de negócios verdadeiros, você deve se manter em apenas um 
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_summary"
->title="Dispositivo de resumo"
->abstract="O widget Resumo fornece uma visão geral dos resultados do experimento, incluindo se são conclusivos ou não. Ele oferece uma maneira rápida e fácil de entender o resultado de seu experimento."
+>title="Widget de resumo"
+>abstract="O widget Resumo fornece uma visão geral dos resultados do experimento, incluindo se são conclusivos ou não. Ele oferece uma maneira rápida e fácil de entender o resultado do experimento."
 
 ![](assets/experimentation_report_3.png)
 

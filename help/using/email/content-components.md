@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -20,23 +20,23 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="Sobre componentes de conteúdo"
->abstract="Os componentes do conteúdo são espaços reservados para o conteúdo vazio que podem ser usados para criar o layout de um email."
+>title="Sobre os componentes de conteúdo"
+>abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um email."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
 >title="Sobre componentes de conteúdo"
->abstract="Os componentes do conteúdo são espaços reservados vazios para o conteúdo que você pode usar para criar o layout de uma página de aterrissagem."
+>abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="Sobre componentes de conteúdo"
->abstract="Os componentes do conteúdo são espaços reservados vazios para o conteúdo que você pode usar para criar o layout de um fragmento."
+>title="Sobre os componentes de conteúdo"
+>abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de um fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="Sobre componentes de conteúdo"
->abstract="Os componentes de conteúdo são espaços reservados para o conteúdo vazio que podem ser usados para criar o layout de um modelo."
+>title="Sobre os componentes de conteúdo"
+>abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um modelo."
 
 Ao criar o conteúdo do email, **[!UICONTROL Componentes de conteúdo]** O permite personalizar ainda mais o email com componentes brutos que podem ser editados depois de colocados no email.
 

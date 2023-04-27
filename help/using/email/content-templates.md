@@ -11,7 +11,7 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -58,7 +58,7 @@ Para excluir um modelo, selecione o ícone de lixeira ao lado do modelo desejado
 >[!CONTEXTUALHELP]
 >id="ajo_create_template"
 >title="Definir seu próprio modelo de conteúdo"
->abstract="Crie um modelo personalizado independente do zero para tornar seu conteúdo reutilizável em várias jornadas e campanhas."
+>abstract="Crie um modelo personalizado independente partindo do zero para tornar seu conteúdo reutilizável em várias jornadas e campanhas."
 
 Há duas maneiras de criar modelos de conteúdo:
 
@@ -123,8 +123,8 @@ Esse template está pronto para ser usado ao criar qualquer email no [!DNL Journ
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
->title="Saiba como migrar suas mensagens"
->abstract="Em 25 de julho de 2022, o menu Mensagens desapareceu e as mensagens agora são criadas diretamente de uma Jornada. Se você quiser reutilizar suas mensagens herdadas no jornada, é necessário salvá-las como modelos."
+>title="Saiba como migrar as mensagens"
+>abstract="Em 25 de julho de 2022, o menu Mensagens desapareceu e as mensagens agora são criadas diretamente na jornada. Se você quiser reutilizar as mensagens herdadas nas jornadas, é necessário salvá-las como modelos."
 
 Ao projetar uma [email](get-started-email-design.md) em uma campanha ou jornada, você pode salvar seu conteúdo de email para futura reutilização. Para fazer isso, siga as etapas abaixo.
 

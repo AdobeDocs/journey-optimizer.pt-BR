@@ -12,7 +12,7 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
 >title="Sobre o editor de expressão"
->abstract="O editor de expressão permite selecionar, organizar, personalizar e validar todos os dados para criar uma personalização personalizada para o seu conteúdo."
+>abstract="O editor de expressão permite selecionar, organizar, personalizar e validar todos os dados para criar uma personalização para o seu conteúdo."
 
 O editor de expressão é a peça central da personalização no [!DNL Journey Optimizer]. Ela está disponível em todos os contextos onde é necessário definir personalização como emails, push e ofertas.
 

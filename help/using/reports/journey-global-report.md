@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '2044'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_global_report"
 >title="Relatório global da jornada"
->abstract="O relatório global de Jornada permite medir o impacto das jornadas em um período selecionado. Seu relatório é dividido em diferentes widgets detalhando o sucesso e os erros da jornada. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
+>abstract="O relatório global da jornada permite medir o impacto das jornadas em um período selecionado. O relatório é dividido em diferentes widgets detalhando o sucesso e os erros da jornada. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
 O relatório global do Jornada pode ser acessado diretamente da sua jornada com o **[!UICONTROL Exibir relatório]** botão.
 

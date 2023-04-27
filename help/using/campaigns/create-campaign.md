@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 8%
+source-wordcount: '753'
+ht-degree: 20%
 
 ---
 
@@ -28,19 +28,17 @@ ht-degree: 8%
 
 Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** , em seguida, clique em **[!UICONTROL Criar campanha]**. Você também pode duplicar uma campanha ao vivo existente para criar uma nova. [Saiba mais](modify-stop-campaign.md#duplicate)
 
-![](assets/create-campaign.png)
-
 ## Escolha o tipo de campanha e o canal {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campanha"
->abstract="Para uma mensagem de marketing ao especificar uma data de envio, a variável **Programado** O tipo é o mais apropriado. No entanto, se você quiser enviar mensagens transacionais, como redefinição de senha ou abandono do carrinho, a variável **Acionado por API** é a melhor opção."
+>abstract="Para uma mensagem de marketing ao especificar uma data de envio, a variável **Programado** O tipo é o mais apropriado. No entanto, se você quiser enviar mensagens transacionais, como redefinição de senha ou abandono do carrinho, o tipo **Acionado por API** é a melhor opção."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
->title="Categoria de campanha"
->abstract="O valor da Categoria é diretamente associado ao valor do tipo de campanha. Programe o tipo de campanha para a **Marketing** categoria e tipo acionado por API para a categoria **Transacional**"
+>title="Categoria da campanha"
+>abstract="O valor da categoria é diretamente associado ao valor do tipo de campanha. Programe o tipo de campanha para a categoria **Marketing** e o tipo Acionado por API para a categoria **Transacional**"
 
 1. No **[!UICONTROL Propriedades]** especifique como deseja executar a campanha. Há dois tipos de campanha disponíveis:
 
@@ -64,15 +62,13 @@ Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** , em seguida, 
 
 ## Definir as propriedades da campanha {#create}
 
-1. Especifique um título e uma descrição para a campanha.
+1. No **[!UICONTROL Propriedades]** especifique um nome e uma descrição para a campanha.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
 1. Para atribuir rótulos de uso de dados personalizados ou principais à campanha, clique no botão **[!UICONTROL Gerenciar acesso]** botão. [Saiba mais sobre o Controle de acesso no nível do objeto (OLA)](../administration/object-based-access.md)
 
-   ![](assets/create-campaign-properties.png)
-
-## Criar a mensagem {#content}
+## Criar a mensagem e configurar o rastreamento {#content}
 
 No **[!UICONTROL Ações]** , crie a mensagem a ser enviada com a campanha.
 
@@ -123,21 +119,21 @@ No **[!UICONTROL Ações]** , crie a mensagem a ser enviada com a campanha.
 
 ## Definir o público {#audience}
 
-1. Defina o público-alvo como meta. Para fazer isso, clique no botão **[!UICONTROL Seleção do público-alvo]** para exibir a lista de segmentos disponíveis do Adobe Experience Platform. [Saiba mais sobre segmentos](../segment/about-segments.md)
+Clique no botão **[!UICONTROL Seleção do público-alvo]** para exibir a lista de segmentos disponíveis do Adobe Experience Platform. [Saiba mais sobre segmentos](../segment/about-segments.md)
 
-   >[!NOTE]
-   >
-   >Para campanhas acionadas por API, o público-alvo precisa ser definido por meio de uma chamada de API. [Saiba mais](api-triggered-campaigns.md)
+>[!NOTE]
+>
+>Para campanhas acionadas por API, o público-alvo precisa ser definido por meio de uma chamada de API. [Saiba mais](api-triggered-campaigns.md)
 
-   No **[!UICONTROL Namespace de identidade]** , escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace)
+No **[!UICONTROL Namespace de identidade]** , escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace)
 
-   ![](assets/create-campaign-namespace.png)
+![](assets/create-campaign-namespace.png)
 
-   >[!NOTE]
-   >
-   >Os indivíduos pertencentes a um segmento que não tem a identidade (namespace) selecionada entre suas diferentes identidades não serão direcionados pela campanha.
+>[!NOTE]
+>
+>Os indivíduos pertencentes a um segmento que não tem a identidade (namespace) selecionada entre suas diferentes identidades não serão direcionados pela campanha.
 
-   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+<!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## Agendar a campanha {#schedule}
 

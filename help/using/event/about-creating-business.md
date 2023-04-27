@@ -12,7 +12,7 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business"
 >title="Eventos de negócios"
->abstract="A configuração do evento permite definir as informações que o Journey Optimizer receberá como eventos. É possível usar vários eventos (em etapas diferentes de uma jornada) e várias jornadas podem usar o mesmo evento. Ao contrário de eventos unitários, os eventos de negócios não estão vinculados a um perfil específico. O tipo de ID de evento sempre se baseia em regras."
+>abstract="A configuração do evento permite definir as informações que o Journey Optimizer receberá como eventos. Você pode usar vários eventos (em diferentes etapas de uma jornada) e várias jornadas podem usar o mesmo evento. Ao contrário de eventos unitários, os eventos de negócios não estão vinculados a um perfil específico. O tipo de ID de evento sempre se baseia em regras."
 
 Ao contrário de eventos unitários, os eventos de negócios não estão vinculados a um perfil específico. O tipo de ID de evento sempre se baseia em regras. Leia mais sobre eventos comerciais em [esta seção](../event/about-events.md).
 

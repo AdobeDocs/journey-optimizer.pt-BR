@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Relatório ao vivo da página de aterrissagem
+title: Relatório em tempo real da página de destino
 description: Saiba como usar dados do seu relatório ao vivo de landing pages
 feature: Journeys
 topic: Content Management
@@ -11,16 +11,16 @@ exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Relatório ao vivo da página de aterrissagem {#lp-report-live}
+# Relatório em tempo real da página de destino {#lp-report-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_live_report"
->title="Relatório ao vivo da página de aterrissagem"
->abstract="O relatório ao vivo da Landing page permite medir e visualizar em tempo real o impacto e o desempenho da landing page somente nas últimas 24 horas. Seu relatório é dividido em diferentes widgets detalhando o sucesso e os erros da página de aterrissagem. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
+>title="Relatório em tempo real da página de destino"
+>abstract="O relatório em tempo real da página de destino permite medir e visualizar em tempo real o impacto e o desempenho da página de destino somente nas últimas 24 horas. O relatório é dividido em diferentes widgets detalhando o sucesso e os erros da página de destino. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
 A landing page **[!UICONTROL Relatório ao vivo]** O relatório exibe detalhes sobre o impacto de suas landing pages somente nas últimas 24 horas. Para medir os dados da landing page em um período selecionado, consulte [Relatório global da página de aterrissagem](lp-report-global.md).
 

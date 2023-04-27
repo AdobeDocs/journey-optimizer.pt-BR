@@ -10,7 +10,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '807'
-ht-degree: 1%
+ht-degree: 24%
 
 ---
 
@@ -18,20 +18,20 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
->title="Delegar um subdomínio de página de aterrissagem"
->abstract="Você configurará seu subdomínio para um uso de página de aterrissagem. Você pode usar um subdomínio que já tenha sido delegado ao Adobe ou configurar outro subdomínio."
+>title="Delegar um subdomínio de página de destino"
+>abstract="Você vai configurar o subdomínio que será usado pela página de destino. Você pode usar um subdomínio que já tenha sido delegado à Adobe ou configurar outro subdomínio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
->title="Delegar um subdomínio de página de aterrissagem"
->abstract="Você deve configurar um subdomínio para usar nas landing pages, pois ele precisará para criar uma predefinição de landing page. Você pode usar um subdomínio já delegado ao Adobe ou configurar um novo subdomínio."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de aterrissagem"
+>title="Delegar um subdomínio de página de destino"
+>abstract="Você deve configurar um subdomínio para usar nas páginas de destino, pois ele é necessário para criar uma predefinição de página de destino. Você pode usar um subdomínio já delegado à Adobe ou configurar um novo subdomínio."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de destino"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
->title="Criar uma predefinição de página de aterrissagem"
->abstract="Para criar uma predefinição de página de aterrissagem, verifique se você configurou anteriormente pelo menos um subdomínio de página de aterrissagem para escolher na lista Nome de subdomínio ."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de aterrissagem"
+>title="Criar uma predefinição de página de destino"
+>abstract="Para criar uma predefinição de página de destino, verifique se você configurou anteriormente pelo menos um subdomínio de página de destino para escolher na lista Nome de subdomínio ."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de destino"
 
 Para poder [criar predefinições de página de aterrissagem](lp-presets.md), você deve configurar os subdomínios que serão usados para as landing pages.
 
@@ -96,7 +96,7 @@ Para usar um subdomínio que já tenha sido delegado ao Adobe, siga as etapas ab
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
 >title="Gerar o registro DNS correspondente"
->abstract="Para configurar um novo subdomínio de página de aterrissagem, você precisa copiar as informações do servidor de nomes do Adobe exibidas na interface do Journey Optimizer e colá-las em sua solução de hospedagem de domínio para gerar o registro DNS correspondente. Depois que as verificações forem bem-sucedidas, o subdomínio estará pronto para ser usado para criar predefinições de páginas de aterrissagem."
+>abstract="Para configurar um novo subdomínio de página de destino, você precisa copiar as informações do servidor de nomes da Adobe exibidas na interface do Journey Optimizer e colá-las em sua solução de hospedagem de domínio para gerar o registro DNS correspondente. Depois que as verificações forem bem-sucedidas, o subdomínio estará pronto para ser usado para criar predefinições de página de destino."
 
 Para configurar um novo subdomínio, siga as etapas abaixo.
 

@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="Criar uma regra"
->abstract="O método de criação Criar regra permite criar uma nova definição de segmento usando o Serviço de segmentação da Adobe Experience Platform."
+>abstract="O método de criação Criar regra permite criar uma nova definição de segmento usando o Adobe Experience Platform Segmentation Service."
 
 Neste exemplo, criaremos um segmento para direcionar todos os clientes que moram em Atlanta, São Francisco ou Seattle e nascem depois de 1980. Todos esses clientes devem ter aberto o aplicativo Luma nos últimos 7 dias, e então fizeram uma compra dentro de 2 horas após abrir o aplicativo.
 

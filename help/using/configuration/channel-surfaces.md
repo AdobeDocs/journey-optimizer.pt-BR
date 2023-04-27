@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -42,12 +42,12 @@ Depois que as superfícies do canal forem configuradas, você poderá selecioná
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
->title="Configurações de superfície do canal"
+>title="Configurações da superfície de canal"
 >abstract="Ao configurar uma superfície de canal, selecione o canal ao qual se aplica e defina todos os parâmetros técnicos necessários para seu envio, como tipo de email, nome do remetente, aplicativos móveis, configuração de SMS e muito mais."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Configurações de superfície do canal"
+>title="Configurações da superfície de canal"
 >abstract="Para criar ações, como emails de uma jornada ou campanha, primeiro crie uma superfície de canal que defina todas as configurações técnicas necessárias para suas mensagens. Você deve ter a permissão Gerenciar superfície de canal para criar, editar e excluir superfícies de canal."
 
 Para criar uma superfície de canal, siga estas etapas:

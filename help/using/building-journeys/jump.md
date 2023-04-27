@@ -12,7 +12,7 @@ exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"
->title="Atividade de jump"
->abstract="A atividade Jump permite encaminhar indivíduos de uma jornada para outra. Esse recurso permite simplificar o design de jornadas muito complexas e criar jornadas com base em padrões de jornadas comuns e reutilizáveis."
+>title="Atividade saltar"
+>abstract="A ação “Saltar” permite enviar pessoas de uma jornada para outra. Esse recurso permite simplificar o design de jornadas muito complexas e criar jornadas com base em padrões de jornadas comuns e reutilizáveis."
 
 O **[!UICONTROL Salto]** A atividade de ação permite enviar indivíduos de uma jornada para outra. Esse recurso permite:
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Relatório ao vivo da assinatura
+title: Relatório ao vivo de inscrições
 description: Saiba como usar dados de seus serviços de assinatura com o Relatório online de assinatura
 feature: Journeys
 topic: Content Management
@@ -11,16 +11,16 @@ exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# Relatório ao vivo da assinatura {#subscription-report-live}
+# Relatório ao vivo de inscrições {#subscription-report-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_live_report"
->title="Relatório ao vivo da assinatura"
->abstract="O relatório Subscription live permite medir e visualizar em tempo real a atividade dos assinantes somente nas últimas 24 horas. Seu relatório é dividido em diferentes widgets detalhando suas assinaturas e unsubscriptions. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
+>title="Relatório ao vivo de inscrições"
+>abstract="O relatório em tempo real de inscrições permite medir e visualizar em tempo real a atividade de inscritos somente nas últimas 24 horas. O relatório é dividido em diferentes widgets detalhando inscrições e cancelamentos de inscrição. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
 A assinatura **[!UICONTROL Relatório ao vivo]** O exibe detalhes sobre a atividade dos assinantes somente nas últimas 24 horas. Para medir suas subscrições por um período selecionado, consulte [Relatório global de subscrição](subscription-report-global.md).
 

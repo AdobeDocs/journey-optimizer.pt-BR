@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 6c255d66fb89ba756add062d8a4315dd622fd8e7
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
 >title="Segmento"
->abstract="Ao aproveitar os dados de Perfil do cliente em tempo real, o Adobe Experience Platform permite criar segmentos direcionados com facilidade, que capturam os comportamentos e preferências exclusivos de seus clientes."
+>abstract="Ao aproveitar os dados do perfil do cliente em tempo real, a Adobe Experience Platform permite criar segmentos direcionados com facilidade, que capturam os comportamentos e preferências exclusivos de seus clientes."
 
 [!DNL Journey Optimizer]  permite criar segmentos do Adobe Experience Platform usando dados de Perfil do cliente em tempo real diretamente do **[!UICONTROL Segmentos]** e usá-las em suas jornadas ou campanhas.
 
@@ -48,7 +48,7 @@ No Adobe Journey Optimizer, os públicos-alvo são gerados a partir das definiç
 
 * **Segmentação de streaming**: A lista de públicos-alvo do segmento é mantida atualizada em tempo real à medida que novos dados fluem para o sistema.
 
-   A segmentação de streaming é um processo contínuo de seleção de dados que atualiza seus segmentos em resposta à atividade do usuário. Depois que um segmento é criado e salvo, a definição do segmento é aplicada em relação aos dados recebidos no Journey Optimizer. Isso significa que os indivíduos são adicionados ou removidos do segmento à medida que seus dados de perfil são alterados, garantindo que o público-alvo seja sempre relevante.
+   A segmentação de transmissão é um processo contínuo de seleção de dados que atualiza os segmentos em resposta à atividade do usuário. Depois que um segmento é criado e salvo, a definição do segmento é aplicada em relação aos dados recebidos no Journey Optimizer. Isso significa que os indivíduos são adicionados ou removidos do segmento à medida que seus dados de perfil são alterados, garantindo que o público-alvo seja sempre relevante.
 
 * **Segmentação em lote**: A lista de públicos-alvo do segmento é avaliada a cada 24 horas.
 

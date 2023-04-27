@@ -12,7 +12,7 @@ exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1324'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="Usar componentes de conteúdo"
->abstract="Os componentes do conteúdo são espaços reservados vazios para o conteúdo que você pode usar para criar o layout de uma página de aterrissagem. Para definir um conteúdo específico que permitirá aos usuários selecionar e enviar suas opções, use o componente de formulário."
+>abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino. Para definir um conteúdo específico que permitirá aos usuários selecionar e enviar suas opções, use o componente de formulário."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Adicionar componentes de conteúdo"
 
 Para criar o conteúdo da página de aterrissagem, você pode usar os mesmos componentes de um email. [Saiba mais](../email/content-components.md#add-content-components)
@@ -39,13 +39,13 @@ Usando o designer de conteúdo da página de aterrissagem, também é possível 
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="Definir os campos do componente de formulário"
->abstract="Defina como os recipients serão vistos e envie suas opções da landing page."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Definir estilos de formulário de landing page"
+>abstract="Defina como os recipients verão a página de destino e enviarão suas opções."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Definir estilos de formulário de página de destino"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
 >title="O que acontece ao clicar no botão"
->abstract="Defina o que acontecerá após os usuários enviarem o formulário de landing page."
+>abstract="Defina o que acontecerá depois que as pessoas enviarem o formulário da página de destino."
 
 Para definir um conteúdo específico que permitirá que os usuários selecionem e enviem suas opções a partir da página de aterrissagem, use o **[!UICONTROL Formulário]** componente. Para isso, siga as etapas abaixo.
 
@@ -134,7 +134,7 @@ Para definir um conteúdo específico que permitirá que os usuários selecionem
 
    ![](assets/lp_designer-form-save.png)
 
-## Definir estilos de formulário de landing page {#lp-form-styles}
+## Definir estilos de formulário de página de destino {#lp-form-styles}
 
 1. Para modificar os estilos do conteúdo do componente de formulário, alterne a qualquer momento para a função **[!UICONTROL Estilo]** guia .
 

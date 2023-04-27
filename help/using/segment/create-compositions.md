@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -78,8 +78,8 @@ Para criar um fluxo de trabalho de composição, siga estas etapas:
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
->title="Publicar seu público-alvo"
->abstract="Publique sua composição para salvar os públicos-alvo resultantes no Adobe Experience Platform."
+>title="Publicar o público"
+>abstract="Publique a composição para salvar os públicos resultantes na Adobe Experience Platform."
 
 Todas as composições criadas podem ser acessadas na **[!UICONTROL Composições]** guia . Eles podem ter vários status:
 

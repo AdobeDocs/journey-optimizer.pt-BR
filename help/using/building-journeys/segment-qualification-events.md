@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Eventos de qualificação de segmento"
->abstract="Essa atividade permite que sua jornada escute as entradas e saídas dos perfis nos segmentos do Adobe Experience Platform para fazer com que os indivíduos entrem ou avancem em uma jornada."
+>abstract="Essa atividade permite que sua jornada considere as entradas e saídas dos perfis nos segmentos da Adobe Experience Platform, fazendo com que as pessoas entrem ou avancem em uma jornada."
 
-Essa atividade permite que sua jornada escute as entradas e saídas dos perfis nos segmentos do Adobe Experience Platform para fazer com que os indivíduos entrem ou avancem em uma jornada. Para obter mais informações sobre a criação de segmentos, consulte esta seção [seção](../segment/about-segments.md).
+Essa atividade permite que sua jornada considere as entradas e saídas dos perfis nos segmentos da Adobe Experience Platform, fazendo com que as pessoas entrem ou avancem em uma jornada. Para obter mais informações sobre a criação de segmentos, consulte esta seção [seção](../segment/about-segments.md).
 
 Digamos que você tenha um segmento de &quot;cliente prateado&quot;. Com essa atividade, você pode fazer com que todos os novos clientes de prata insiram uma jornada e enviem uma série de mensagens personalizadas.
 

@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Atividade Ler segmento"
->abstract="A atividade Ler segmento permite que você faça com que todos os indivíduos pertencentes a um segmento do Adobe Experience Platform entrem em uma jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente."
+>abstract="A atividade Ler segmento permite que todas as pessoas pertencentes a um segmento da Adobe Experience Platform possam entrar em uma jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente."
 
 Use o **Ler segmento** atividade para fazer com que todos os indivíduos de um segmento entrem na jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente.
 

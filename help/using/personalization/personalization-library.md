@@ -12,7 +12,7 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 8%
+ht-degree: 14%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
->title="Sobre a Biblioteca de expressões"
->abstract="[!DNL Journey Optimizer] O fornece uma biblioteca onde você pode acessar expressões de personalização salvas que foram configuradas por usuários administradores. "
+>title="Sobre a biblioteca de expressão"
+>abstract="O [!DNL Journey Optimizer] fornece uma biblioteca onde você pode acessar expressões de personalização salvas que foram configuradas por usuários administradores. "
 
 [!DNL Journey Optimizer] O fornece uma biblioteca onde você pode acessar expressões de personalização salvas anteriormente que foram adicionadas por usuários administradores.
 

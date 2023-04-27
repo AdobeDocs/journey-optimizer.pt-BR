@@ -12,7 +12,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1133'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -35,7 +35,7 @@ Regulamentos como o HIPAA exigem que [!DNL Journey Optimizer] O deve fornecer um
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Definir um endereço de email CCO"
->abstract="Você pode manter uma cópia dos emails enviados enviando-os para uma caixa de entrada CCO. Digite o endereço de email de sua escolha para que cada email enviado seja copiado para o CCO. Observe que o domínio de endereço CCO não deve ser o mesmo que qualquer subdomínio delegado ao Adobe. Este recurso é opcional."
+>abstract="Você pode manter uma cópia dos emails enviados enviando-os para uma caixa de entrada CCO. Digite o endereço de email de sua escolha para que cada email enviado seja copiado para o CCO. Observe que o domínio de endereço CCO não deve ser igual a algum subdomínio delegado à Adobe. Esse recurso é opcional."
 
 Você pode enviar uma cópia idêntica (ou cópia oculta de carbono) de um email enviado por [!DNL Journey Optimizer] para uma caixa de entrada CCO. Esse recurso opcional permite reter cópias das comunicações por email enviadas aos usuários para fins de conformidade e/ou arquivamento. Isso será invisível para os recipients do delivery.
 

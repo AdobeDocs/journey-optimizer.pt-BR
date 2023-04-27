@@ -15,7 +15,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Experimento de conteúdo"
->abstract="Você pode optar por variar o conteúdo, o assunto ou o remetente do delivery para definir vários tratamentos de delivery e determinar a melhor combinação para seus públicos-alvo."
+>abstract="Você pode optar por variar o conteúdo, o assunto ou o remetente da entrega para definir vários tratamentos de entrega e determinar a melhor combinação para os públicos."
 
 >[!BEGINSHADEBOX]
 
@@ -185,7 +185,7 @@ Observe que cada widget pode ser redimensionado e excluído, se necessário. Par
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
 >title="Métrica de sucesso"
->abstract="O valor total da métrica Sucesso, anteriormente selecionado ao criar seus Experimentos, dividido pelo número de perfis."
+>abstract="O valor total da métrica sucesso, anteriormente selecionado ao criar seus experimentos, dividido pelo número de perfis."
 
 >[!AVAILABILITY]
 >

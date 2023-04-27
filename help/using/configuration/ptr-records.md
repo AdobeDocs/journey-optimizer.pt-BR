@@ -12,7 +12,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
 >title="Registros PTR de subdomínios"
->abstract="Um registro de ponteiro (PTR) é um tipo de registro DNS que fornece o nome de domínio vinculado a um endereço IP, o que ajuda os servidores de email de recebimento a verificar os endereços IP dos remetentes. Edite apenas um registro de PTR após considerações e discussões apropriadas com seu especialista em deliverability."
+>abstract="Um registro de ponteiro (PTR) é um tipo de registro DNS que fornece o nome de domínio vinculado a um endereço IP, o que ajuda os servidores de email de recebimento a verificar os endereços IP dos remetentes. Edite um registro de PTR somente após considerações e discussões apropriadas com seu especialista em capacidade de entrega."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="Registros PTR de subdomínios"
->abstract="Depois que um subdomínio é delegado ao Adobe no Journey Optimizer, um registro PTR é criado automaticamente e associado a esse subdomínio."
+>abstract="Depois que um subdomínio é delegado à Adobe no Journey Optimizer, um registro PTR é criado automaticamente e associado a esse subdomínio."
 
 ## Sobre registros PTR {#about-ptr-records}
 

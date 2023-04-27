@@ -12,7 +12,7 @@ exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -37,8 +37,8 @@ Se um delivery for bem-sucedido após uma tentativa, o contador de erros do ende
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
 >title="Atualizar limite de novas tentativas"
->abstract="Se o valor padrão não atender às suas necessidades, você poderá modificar o número permitido de devoluções temporárias consecutivas. Quando o contador de tentativas atinge o limite de erro de um endereço de email específico, esse endereço é adicionado à lista de supressão."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Entender a lista de supressão"
+>abstract="Se o valor padrão não atender às suas necessidades, você poderá modificar o número permitido de rejeições temporárias consecutivas. Quando o contador de tentativas atinge o limite de erro de um endereço de email específico, esse endereço é adicionado à lista de supressão."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Saiba mais sobre a lista de supressão"
 
 Caso o valor padrão de 5 não atenda às suas necessidades, você poderá modificar o limite de erro seguindo as etapas abaixo.
 

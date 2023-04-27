@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 54ea3573e4fb6e24c3e56349292528bc6da42d67
 workflow-type: tm+mt
 source-wordcount: '1757'
-ht-degree: 16%
+ht-degree: 23%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
->title="Delegação de subdomínio"
+>title="Delegação de subdomínios"
 >abstract="O Journey Optimizer permite delegar os subdomínios à Adobe. Você pode delegar totalmente um subdomínio à Adobe, que é o método recomendado. Você também pode criar um subdomínio usando CNAMEs para apontar para registros específicos da Adobe, mas esse método exige que você mantenha e gerencie registros DNS por conta própria."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="Métodos de configuração de subdomínio"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
->title="Delegação de subdomínio"
+>title="Delegação de subdomínios"
 >abstract="Para começar a enviar emails, você deve delegar seu subdomínio à Adobe. Após a delegação, serão configurados registros DNS, caixas de entrada, remetente e endereços de resposta e rejeição para você."
 
 A delegação de nome de domínio é um método que permite ao proprietário de um nome de domínio (tecnicamente: uma zona DNS) para delegar uma subdivisão dessa zona (tecnicamente: uma zona DNS sob ela, que pode ser chamada de subzona) para outra entidade. Basicamente, como cliente, se estiver lidando com a zona &quot;example.com&quot;, você pode delegar a subzona &quot;marketing.example.com&quot; ao Adobe. Saiba mais sobre [delegação de subdomínio](about-subdomain-delegation.md)
@@ -112,12 +112,12 @@ Depois que um subdomínio é delegado ao Adobe in [!DNL Journey Optimizer], um r
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
 >title="Gerar o DNS correspondente e os registros de validação"
->abstract="Para delegar um subdomínio usando CNAMEs, é necessário copiar e colar as informações do servidor de nomes do Adobe e o registro de validação do URL CDN do SSL exibido na interface do Journey Optimizer em sua plataforma de hospedagem. Depois que as verificações forem bem-sucedidas, o subdomínio estará pronto para ser usado para entregar mensagens."
+>abstract="Para delegar um subdomínio usando CNAMEs, é necessário copiar e colar as informações do servidor de nomes da Adobe e o registro de validação do URL CDN do SSL exibido na interface do Journey Optimizer em sua plataforma de hospedagem. Depois que as verificações forem bem-sucedidas, o subdomínio estará pronto para ser usado para entregar mensagens."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_cdn_cname"
 >title="Copiar o registro de validação"
->abstract="Adobe gera um registro de validação. Você precisa criar o registro correspondente em sua plataforma de hospedagem para validação de URL CDN."
+>abstract="A Adobe gera um registro de validação. Você precisa criar o registro correspondente em sua plataforma de hospedagem para validação de URL de CDN."
 
 Se você tiver políticas de restrição específicas de domínio e quiser que o Adobe tenha apenas controle parcial sobre DNS, poderá optar por realizar todas as atividades relacionadas a DNS de seu lado.
 

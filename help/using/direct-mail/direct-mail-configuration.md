@@ -13,7 +13,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 7%
+ht-degree: 32%
 
 ---
 
@@ -42,12 +42,12 @@ Antes de gerar esse arquivo, é necessário criar:
 >
 >Se não tiver configurado nenhuma opção de roteamento de arquivos, você não poderá criar uma superfície de correspondência direta.
 
-## Configurar roteamento de arquivos {#file-routing-configuration}
+## Configurar o roteamento de arquivos {#file-routing-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="Definir a configuração de roteamento de arquivos"
->abstract="Após criar uma mensagem de correspondência direta, o arquivo contendo os dados do público-alvo direcionado será gerado e exportado para um servidor. Você precisa especificar os detalhes do servidor para que seu provedor de correspondência direta possa acessar e usar esse arquivo para delivery de correspondência direta."
+>abstract="Após criar uma mensagem de correspondência direta, o arquivo contendo os dados do público-alvo direcionado será gerado e exportado para um servidor. Você precisa especificar os detalhes do servidor para que seu provedor de correspondência direta possa acessar e usar esse arquivo para a entrega da correspondência direta."
 
 <!--
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
@@ -55,22 +55,22 @@ Antes de gerar esse arquivo, é necessário criar:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
 >title="Definir a configuração de roteamento de arquivos"
->abstract="Você precisa definir onde o arquivo será exportado para que seu provedor de correspondência direta use."
+>abstract="Você precisa definir para onde o arquivo será exportado para que seu provedor de correspondência direta o use."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
 >title="Configuração do roteamento de arquivos"
->abstract="Selecione a configuração de roteamento de arquivos de sua escolha, que define onde o arquivo será exportado para que seu provedor de correspondência direta use."
+>abstract="Selecione a configuração de roteamento de arquivos de sua escolha, que define para onde o arquivo será exportado para que seu provedor de correspondência direta o use."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
->title="Selecione o tipo de servidor para o arquivo"
->abstract="Escolha o tipo de servidor que deseja usar para exportar seus arquivos de correspondência direta. Atualmente, somente o Amazon S3 e SFTP são compatíveis com a Journey Optimizer."
+>title="Selecionar o tipo de servidor para o arquivo"
+>abstract="Escolha o tipo de servidor que deseja usar para exportar os arquivos de correspondência direta. Atualmente, somente o Amazon S3 e SFTP são compatíveis com o Journey Optimizer."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="Escolha a região do AWS"
->abstract="Selecione a região geográfica do servidor do AWS onde deseja exportar seus arquivos de correspondência direta. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta."
+>abstract="Selecione a região geográfica do servidor do AWS para onde deseja exportar os arquivos de correspondência direta. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta."
 
 Para enviar uma mensagem de mala direta, [!DNL Journey Optimizer] gera e exporta o arquivo contendo os dados do público-alvo direcionado para um servidor.
 
@@ -114,9 +114,9 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
->title="Definir as configurações de correspondência direta"
+>title="Definir as configurações da correspondência direta"
 >abstract="A superfície de correspondência direta contém as configurações para a formatação do arquivo que contém os dados do público direcionado e será usada pelo provedor de email. Você também pode definir para onde o arquivo será exportado selecionando a configuração de roteamento do arquivo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="Configurar roteamento de arquivos"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=br#file-routing-configuration" text="Configurar o roteamento de arquivos"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -127,7 +127,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="Definir o limite de divisão de arquivo"
->abstract="É necessário definir o número máximo de registros para cada arquivo contendo dados de público. Você pode selecionar qualquer número entre 1 e 200.000 registros. Depois que o limite especificado for atingido, outro arquivo será criado para os registros restantes."
+>abstract="É necessário definir o número máximo de registros para cada arquivo contendo dados de público. Você pode selecionar qualquer número entre 1 e 200.000 registros.. Depois que o limite especificado for atingido, outro arquivo será criado para os registros restantes."
 
 Para enviar mala direta com o [!DNL Journey Optimizer], é necessário criar uma superfície de canal para definir as configurações de formatação do arquivo que será usado pelo provedor de email.
 

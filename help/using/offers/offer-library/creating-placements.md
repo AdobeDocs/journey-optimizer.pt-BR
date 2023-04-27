@@ -18,7 +18,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
 >title="Disposição"
->abstract="Uma inserção é um container usado para exibir ofertas. Isso ajuda a garantir que o conteúdo de oferta correto seja exibido no local certo na mensagem. As inserções são criadas no menu “Componentes”."
+>abstract="Um posicionamento é um container usado para exibir ofertas. Isso ajuda a garantir que o conteúdo de oferta correto seja exibido no local certo na mensagem. Os posicionamentos são criados no menu “Componentes”."
 
 Uma disposição ajuda a garantir que o conteúdo de oferta correto seja exibido no local certo dentro da mensagem. Ao adicionar conteúdo a uma oferta, você será solicitado a selecionar uma disposição na qual o conteúdo possa ser exibido.
 

@@ -9,7 +9,7 @@ exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 7%
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
 >title="Qualificadores de coleção"
->abstract="Associe um ou vários qualificadores de coleção à oferta para manter a Biblioteca de ofertas organizada e localizar ofertas mais facilmente. Os qualificadores de coleção são criados no menu &quot;Componente&quot;."
+>abstract="Associe um ou vários qualificadores de coleção à oferta para manter a Biblioteca de ofertas organizada e localizar ofertas com mais facilidade. Os qualificadores de coleção são criados no menu “Componente”."
 
 Associar os qualificadores de coleta (anteriormente conhecidos como &quot;tags&quot;) às suas ofertas facilita a organização deles. Por exemplo, você pode rotular as ofertas de Black Friday com o qualificador de coleção &quot;Black Friday&quot;. Em seguida, você pode usar a funcionalidade de pesquisa na Biblioteca de ofertas para localizar facilmente todas as ofertas com esse qualificador de coleção.
 

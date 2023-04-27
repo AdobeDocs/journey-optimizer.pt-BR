@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 12%
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campanhas"
->abstract="Crie campanhas para fornecer conteúdo único a um segmento específico em vários canais. Antes de criar sua campanha, verifique se você tem uma superfície de canal (ou seja, uma predefinição de mensagem) e um segmento do Adobe Experience Platform pronto para uso."
+>abstract="Crie campanhas para fornecer conteúdo único a um segmento específico em vários canais. Antes de criar a campanha, verifique se você tem uma superfície de canal (ou seja, uma predefinição de mensagem) e um segmento da Adobe Experience Platform pronto para uso."
 
 Use campanhas do Journey Optimizer para fornecer conteúdo único a um segmento específico usando vários canais. Ao usar jornadas, as ações são executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado.
 

@@ -12,7 +12,7 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Atividade de condição"
->abstract="Essa atividade permite definir como o indivíduo fluirá na jornada. Vários caminhos serão criados com base em vários critérios. Você também pode criar um caminho alternativo no caso de um tempo limite ou um erro."
+>abstract="Essa atividade permite definir como a pessoa fluirá na jornada. Vários caminhos serão criados com base em vários critérios. Você também pode criar um caminho alternativo no caso de tempo limite ou erro."
 
 Esses tipos de condições estão disponíveis:
 
@@ -37,8 +37,8 @@ Esses tipos de condições estão disponíveis:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
->title="Sobre o editor de expressões simples"
->abstract="O modo editor de expressão simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível."
+>title="Sobre o editor de expressão simples"
+>abstract="O modo editor de expressão simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os elementos diferentes, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível."
 
 Ao usar várias condições em uma jornada, você pode definir rótulos para cada uma delas para identificá-las mais facilmente.
 
@@ -54,7 +54,7 @@ Por exemplo, vamos considerar o exemplo de uma condição de primeiro caminho &q
 
 Você pode criar outro caminho para públicos-alvo que não estejam qualificados para as condições definidas ao verificar **[!UICONTROL Mostrar caminho para outros casos além do acima]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão de porcentagem](#percentage_split).
 
-O modo simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
+O modo simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os elementos diferentes, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
 
 * E: uma interseção de dois critérios. Somente os elementos que correspondem a todos os critérios são considerados.
 * OU: uma união de dois critérios. Os elementos correspondentes a pelo menos um dos critérios são considerados.

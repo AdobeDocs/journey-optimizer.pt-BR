@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 1%
+ht-degree: 27%
 
 ---
 
@@ -84,33 +84,33 @@ Você pode adicionar quantos **[!UICONTROL Público]** e **[!UICONTROL Excluir]*
 
 Você pode remover uma atividade da tela a qualquer momento clicando no botão Excluir no painel direito.  Se a atividade que deseja excluir for a principal de outras atividades na composição, uma mensagem é exibida, permitindo especificar se deseja excluir somente a atividade selecionada ou todas as suas atividades secundárias.
 
-### Atividade Audience {#audience}
+### Atividade de público {#audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
->title="Atividade Audience"
->abstract="A atividade Audience permite incluir em sua composição perfis adicionais pertencentes a um público-alvo existente."
+>title="Atividade de público"
+>abstract="A atividade de público permite incluir em sua composição perfis adicionais pertencentes a um público existente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
 >title="Tipos de mesclagem"
->abstract="Especifique como os perfis dos públicos-alvo selecionados devem ser mesclados."
+>abstract="Especifique como os perfis dos públicos selecionados devem ser mesclados."
 
 O **[!UICONTROL Público]** permite incluir em sua composição perfis adicionais pertencentes a um público-alvo existente.
 
 A configuração dessa atividade é idêntica ao início [Atividade Audience](#starting-audience).
 
-### Excluir atividade {#exclude}
+### Atividade Excluir {#exclude}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="Excluir tipo"
->abstract="Use o tipo Exclude audience para excluir perfis pertencentes a um público-alvo existente. O tipo Exclude using attribute permite excluir perfis com base em um atributo específico."
+>abstract="Use o tipo Excluir público para excluir perfis pertencentes a um público existente. O tipo Excluir usando atributo permite excluir perfis com base em um atributo específico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
->title="Excluir atividade"
->abstract="A atividade Excluir permite excluir perfis de sua composição ao selecionar um público-alvo existente ou usar uma regra."
+>title="Atividade Excluir"
+>abstract="A atividade Excluir permite excluir perfis de sua composição ao selecionar um público existente ou usar uma regra."
 
 O **[!UICONTROL Excluir]** permite excluir perfis de sua composição. Dois tipos de exclusão estão disponíveis:
 
@@ -130,23 +130,23 @@ O **[!UICONTROL Excluir]** permite excluir perfis de sua composição. Dois tipo
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
->title="Enriquecer atividade"
->abstract="Use a atividade Enrich para excluir perfis pertencentes a um público-alvo existente. O tipo Exclude using attribute permite excluir perfis com base em um atributo específico."
+>title="Atividade Enriquecer"
+>abstract="Use a atividade Enriquecer para excluir perfis pertencentes a um público existente. O tipo Excluir usando atributo permite excluir perfis com base em um atributo específico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
 >title="Conjunto de dados de enriquecimento"
->abstract="Selecione o conjunto de dados de enriquecimento que contém os dados que você deseja associar ao público-alvo."
+>abstract="Selecione o conjunto de dados de enriquecimento que contém os dados que você deseja associar ao público."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_criteria"
 >title="Critérios de enriquecimento"
->abstract="Selecione os campos a serem usados como chave de reconciliação entre o conjunto de dados de origem, ou seja, o público-alvo, e o conjunto de dados de enriquecimento."
+>abstract="Selecione os campos a serem usados como chave de reconciliação entre o conjunto de dados de origem, ou seja, o público, e o conjunto de dados de enriquecimento."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="Atributos de enriquecimento"
->abstract="Selecione um ou vários atributos do conjunto de dados de enriquecimento para associar ao público-alvo. Depois que a composição é publicada, esses atributos são associados ao público-alvo e podem ser aproveitados em campanhas para personalizar deliveries."
+>abstract="Selecione um ou vários atributos do conjunto de dados de enriquecimento para associar ao público. Depois que a composição é publicada, esses atributos são associados ao público e podem ser aproveitados em campanhas para personalizar entregas."
 
 O **[!UICONTROL Enriquecer]** permite enriquecer seu público-alvo com atributos adicionais provenientes de conjuntos de dados do Adobe Experience Platform. Por exemplo, você pode adicionar informações relacionadas ao produto comprado, como seu nome, preço ou ID do fabricante, e aproveitar essas informações para personalizar os deliveries enviados ao público.
 
@@ -190,7 +190,7 @@ O **[!UICONTROL Classificação]** permite classificar perfis com base em um atr
 
    ![](assets/audiences-rank.png)
 
-### Atividade Split {#split}
+### Atividade de divisão {#split}
 
 <!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
@@ -199,13 +199,13 @@ O **[!UICONTROL Classificação]** permite classificar perfis com base em um atr
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
->title="Atividade Split"
->abstract="A atividade Split permite dividir a composição em vários caminhos. Ao publicar a composição, um público-alvo será salvo no Adobe Experience Platform para cada caminho."
+>title="Atividade de divisão"
+>abstract="A atividade de divisão permite dividir a composição em vários caminhos. Ao publicar a composição, um público será salvo na Adobe Experience Platform para cada caminho."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
 >title="Tipo de divisão"
->abstract="Use o tipo de divisão de porcentagem para dividir aleatoriamente perfis em vários caminhos. O tipo de divisão de atributo permite dividir perfis com base em um atributo específico."
+>abstract="Use o tipo de divisão de porcentagem para dividir perfis aleatoriamente em vários caminhos. O tipo de divisão de atributo permite dividir perfis com base em um atributo específico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
@@ -214,7 +214,7 @@ O **[!UICONTROL Classificação]** permite classificar perfis com base em um atr
 
 O **[!UICONTROL Split]** permite dividir sua composição em vários caminhos.
 
-Essa operação adiciona automaticamente uma **[!UICONTROL Salvar]** no final de cada caminho. Ao publicar a composição, um público-alvo será salvo no Adobe Experience Platform para cada caminho.
+Essa operação adiciona automaticamente uma **[!UICONTROL Salvar]** no final de cada caminho. Ao publicar a composição, um público será salvo na Adobe Experience Platform para cada caminho.
 
 Estão disponíveis dois tipos de operações divididas:
 
