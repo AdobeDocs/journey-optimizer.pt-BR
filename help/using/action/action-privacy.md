@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: dados, governança, DULE, rótulos, rotulagem, plataforma, política
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 100%
@@ -53,11 +53,9 @@ Para obter mais informações sobre como gerenciar permissões, consulte esta [d
 Vamos ver o exemplo do campo de tipo de sangue que você precisa rotular como confidencial e impedí-lo de ser exportado para terceiros. Estas são as etapas:
 
 1. No menu esquerdo, em **Privacidade**, clique em **Políticas**.
-   ![](assets/action-privacy0.png)
 1. Selecione a guia **Rótulos** e clique em **Criar rótulo**.
    ![](assets/action-privacy1.png)
 1. Defina um nome e um nome amigável para este rótulo. Por exemplo, _ePHI1_.
-   ![](assets/action-privacy2.png)
 1. No menu esquerdo, em **Gestão de dados**, clique em **Esquemas** e clique no botão **Aplicar rótulos de acesso e de governança de dados**. Selecione o esquema e o campo (tipo de sangue) e selecione o rótulo criado anteriormente, _ePHI1_ no nosso exemplo.
    ![](assets/action-privacy3.png)
 1. Volte para o menu **Políticas** selecione a guia **Ação de marketing** e clique em **Criar ação de marketing**. Recomendamos que você crie uma ação de marketing para cada ação personalizada de terceiros usada em suas jornadas. Por exemplo, vamos criar uma _Ação de marketing Slack_ que será usada para sua ação personalizada de Slack.

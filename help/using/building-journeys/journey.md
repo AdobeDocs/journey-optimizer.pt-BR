@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: jornada, discover, get-start
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '588'
 ht-degree: 28%
 
 ---
@@ -29,6 +29,11 @@ Crie designs de cenários avançados com várias etapas e com os seguintes recur
 * Use o **ações integradas** para enviar mensagens projetadas no [!DNL Journey Optimizer] ou criar **ações personalizadas** se estiver usando um sistema de terceiros para enviar mensagens.
 
 * Com o **Designer de jornadas**, crie seus casos de uso em várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de segmento de leitura, adicione condições e envie mensagens personalizadas.
+
+
+>[!NOTE]
+>
+>As medidas de proteção e limitações da jornada são detalhadas em [esta página](../start/guardrails.md)
 
 ## Etapas para criar uma jornada{#steps-journey}
 
@@ -98,7 +103,3 @@ A partir do momento em que a jornada for publicada, os indivíduos começarão a
 As versões do Jornada podem ser interrompidas individualmente. Todas as versões do jornada têm o mesmo nome.
 
 Ao publicar uma nova versão de uma jornada, a versão anterior automaticamente termina e alterna para a **Fechado** status. Nenhuma entrada na jornada pode acontecer. Mesmo que você pare a versão mais recente, a versão anterior permanecerá fechada.
-
->[!NOTE]
->
->Saiba mais sobre as medidas de proteção e limitações das versões do jornada, em [esta página](../start/guardrails.md#journey-versions-limitations)

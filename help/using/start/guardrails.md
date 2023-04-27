@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b86e42f95e92d4fad3d20bfbab329ae6d80c2d50
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 92%
 
 ---
 
@@ -43,6 +43,11 @@ As medidas de proteção de desempenho e os limites estáticos para a tomada de 
 
 ## Medidas de proteção de jornada {#journeys-guardrails}
 
+### Medidas de proteção gerais de jornada {#journeys-guardrails-journeys}
+
+* O número de atividades em uma jornada é limitado a 50. O número de atividades é exibido na seção superior esquerda da tela da jornada.
+* O número de **jornadas ao vivo** em uma organização é limitada a 100 por sandbox. Quando esse limite for atingido, não será mais possível publicar uma nova jornada.
+
 ### Ações gerais {#general-actions-g}
 
 * Não há limitação de envio.
@@ -67,6 +72,7 @@ As medidas de proteção de desempenho e os limites estáticos para a tomada de 
 * O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou “$”
 * Endereços IP não são permitidos
 * Endereços internos da Adobe (`.adobe.*`) não são permitidos em URLs e APIs.
+* As ações personalizadas incorporadas não podem ser removidas.
 
 ### Eventos {#events-g}
 
@@ -99,5 +105,6 @@ Você pode escolher uma dessas duas soluções:
 
 ### Editor de expressão {#expression-editor}
 
-* Grupos de campos de evento de experiência não podem ser usados em jornadas que começam com um Segmento de Leitura, uma qualificação de Segmento ou uma atividade de evento comercial.
+* Grupos de campos de evento de experiência não podem ser usados em jornadas que começam com um Segmento de Leitura, uma qualificação de Segmento ou uma atividade de evento comercial. Você precisa criar um novo segmento e usar uma condição de segmento na jornada.
+
 

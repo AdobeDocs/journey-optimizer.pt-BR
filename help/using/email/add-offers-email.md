@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: ofertas, decisão, emails, personalização, decisão
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -47,25 +47,21 @@ Para inserir uma decisão em uma mensagem de email, siga as etapas abaixo:
 
    Saiba como usar componentes de conteúdo no [esta seção](content-components.md).
 
-1. O **[!UICONTROL Decisão da oferta]** é exibida na paleta direita. Clique em **[!UICONTROL Selecionar decisão da oferta]**.
+1. O **[!UICONTROL Decisão da oferta]** é exibida na paleta direita. Clique em **[!UICONTROL Selecionar decisão da oferta]**:
 
-   ![](assets/deliver-offer-tab.png)
+   1. Na janela exibida, selecione a disposição correspondente às ofertas que deseja exibir.
 
-1. Na janela exibida, selecione a disposição correspondente às ofertas que deseja exibir.
+      [Posicionamentos](../offers/offer-library/creating-placements.md) são contêineres usados para mostrar suas ofertas. Neste exemplo, usaremos a disposição &quot;imagem superior do email&quot;. Essa disposição foi criada na Biblioteca de ofertas para exibir ofertas do tipo imagem situadas na parte superior das mensagens.
 
-   [Posicionamentos](../offers/offer-library/creating-placements.md) são contêineres usados para mostrar suas ofertas. Neste exemplo, usaremos a disposição &quot;imagem superior do email&quot;. Essa disposição foi criada na Biblioteca de ofertas para exibir ofertas do tipo imagem situadas na parte superior das mensagens.
+   1. As decisões que correspondem à exibição de disposição selecionada. Selecione a decisão a ser usada no componente de conteúdo e clique em **[!UICONTROL Adicionar]**.
 
-1. As decisões que correspondem à exibição de disposição selecionada. Selecione a decisão a ser usada no componente de conteúdo e clique em **[!UICONTROL Adicionar]**.
+      >[!NOTE]
+      >
+      >Somente as decisões compatíveis com a disposição selecionada são exibidas na lista. Neste exemplo, apenas uma atividade de oferta corresponde à disposição &quot;imagem superior do email&quot;.
 
-   >[!NOTE]
-   >
-   >Somente as decisões compatíveis com a disposição selecionada são exibidas na lista. Neste exemplo, apenas uma atividade de oferta corresponde à disposição &quot;imagem superior do email&quot;.
+      ![](assets/deliver-offer-placement.png)
 
-   ![](assets/deliver-offer-placement.png)
-
-A decisão agora é adicionada ao componente .
-
-Depois de salvar as alterações, as ofertas estão prontas para serem exibidas aos perfis relevantes ao enviar a mensagem como parte de uma jornada.
+A decisão agora é adicionada ao componente . Depois de salvar as alterações, as ofertas estão prontas para serem exibidas aos perfis relevantes ao enviar a mensagem como parte de uma jornada.
 
 >[!NOTE]
 >
@@ -79,39 +75,34 @@ Depois de salvar as alterações, as ofertas estão prontas para serem exibidas 
 
 Para exibir as diferentes ofertas que fazem parte da decisão com um perfil de cliente, siga as etapas abaixo.
 
-1. Clique no botão **[!UICONTROL Botão Simular conteúdo]** botão.
+>[!NOTE]
+>
+>Você precisa ter perfis de teste disponíveis para poder visualizar suas mensagens. Saiba como [criar perfis de teste](../segment/creating-test-profiles.md).
 
-   >[!NOTE]
-   >
-   >Você precisa ter perfis de teste disponíveis para poder visualizar suas mensagens. Saiba como [criar perfis de teste](../segment/creating-test-profiles.md).
+1. Selecione os perfis de teste a serem usados para visualizar a oferta:
 
-1. Para escolher o namespace a ser usado para identificar perfis de teste, selecione **[!UICONTROL Email]** do **[!UICONTROL Namespace de identidade]** campo.
+   1. Clique no botão **[!UICONTROL Botão Simular conteúdo]** em seguida, escolha o namespace a ser usado para identificar perfis de teste do **[!UICONTROL Namespace de identidade]** campo.
 
-   >[!NOTE]
-   >
-   >Neste exemplo, usaremos a variável **Email** namespace. Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../segment/get-started-identity.md).
+      >[!NOTE]
+      >
+      >Neste exemplo, usamos a variável **Email** namespace. Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../segment/get-started-identity.md).
 
-1. Na lista de namespaces de identidade, selecione **[!UICONTROL Email]** e clique em **[!UICONTROL Selecionar]**.
-
-1. No **[!UICONTROL Valor de identidade]** , insira o valor para identificar o perfil de teste. Neste exemplo, insira o endereço de email de um perfil de teste.
+   1. No **[!UICONTROL Valor de identidade]** , insira o valor para identificar o perfil de teste. Neste exemplo, insira o endereço de email de um perfil de teste.
 
    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
-1. Adicione outros perfis para testar diferentes variantes da mensagem, dependendo dos dados do perfil.
+   1. Adicione outros perfis para testar diferentes variantes da mensagem, dependendo dos dados do perfil.
 
-   ![](assets/deliver-offer-test-profiles.png)
+      ![](assets/deliver-offer-test-profiles.png)
 
-1. Clique no botão **[!UICONTROL Visualizar]** para testar sua mensagem.
 
-1. Selecione um perfil de teste. A oferta correspondente ao perfil selecionado (uma mulher) é exibida.
+1. Clique no botão **[!UICONTROL Visualizar]** para testar sua mensagem e, em seguida, selecione um perfil de teste. A oferta correspondente ao perfil selecionado (uma mulher) é exibida.
 
    ![](assets/deliver-offer-test-profile-female-preview.png)
 
-1. Selecione outros perfis de teste para visualizar o conteúdo de email de cada variante de sua mensagem. No conteúdo da mensagem, a oferta correspondente ao perfil de teste selecionado (agora um homem) agora é exibida.
+   Você pode selecionar outros perfis de teste para visualizar o conteúdo do email para cada variante da mensagem. No conteúdo da mensagem, a oferta correspondente ao perfil de teste selecionado (agora um homem) agora é exibida.
 
-   ![](assets/deliver-offer-test-profile-male-preview.png)
-
-Saiba mais sobre as etapas detalhadas para verificar a pré-visualização da mensagem em [esta seção](#preview-your-messages).
+Saiba mais sobre as etapas detalhadas para verificar a pré-visualização de mensagem em [esta seção](#preview-your-messages).
 
 ## Vídeo tutorial{#video-offers}
 

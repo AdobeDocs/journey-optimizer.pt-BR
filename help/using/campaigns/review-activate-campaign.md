@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: campanha, revisão, validação, ativação, ativação, otimizador
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
@@ -31,8 +31,6 @@ Após a configuração da campanha, é necessário revisar o parâmetro e o cont
    ![](assets/create-campaign-alerts.png)
 
 1. Verifique se a campanha está configurada corretamente e clique em **[!UICONTROL Ativar]**.
-
-   ![](assets/create-campaign-review.png)
 
 1. A campanha agora é ativada. Seu status é **[!UICONTROL Ao vivo]** ou **[!UICONTROL Programado]** se você tiver inserido uma data de início. [Saiba mais sobre status de campanhas](get-started-with-campaigns.md#statuses).
 

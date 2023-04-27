@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, segmento, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 16%
+ht-degree: 22%
 
 ---
 
@@ -38,12 +38,34 @@ Para enviar mensagens com o jornada, as seguintes configurações são necessár
 
    ![](assets/custom2.png)
 
-## Crie sua jornada{#jo-build}
+<!--
+## Access journeys {#journey-access}
+
+In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
+
+**Browse**: this tab displays the list of existing journeys. You can search for journeys, use filters and perform basic actions on each element. For example, you can duplicate or delete an item. For more information, refer to [this section](../start/user-interface.md#filter-lists).
+
+![](assets/journeys-browse.png)  
+
+**Overview**: this tab displays a dashboard with key metrics related to your journeys:
+
+* **Profiles processed**: total number of profiles processed in last 24 hours
+* **Live journeys**: total number of live journeys
+* **Unitary journeys**: total number of unitary live journeys (event-based journeys)
+* **Batch journeys**: total number of batch live journeys (read segment journeys)
+* **Error rate**: ratio of all profiles in error compared with the total number of profiles who entered. 
+* **Discard rate**: ratio of all profiles dicarded compared with the total number of profiles who entered. 
+
+![](assets/journeys-dashboard.png)  
+
+-->
+
+## Criar sua jornada{#jo-build}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
->title="Crie sua jornada"
->abstract="Esta tela exibe a lista de jornadas existentes. Abra uma jornada ou clique em &quot;Criar jornada&quot; e combine as diferentes atividades de evento, orquestração e ação para criar os cenários de vários canais em várias etapas."
+>title="Criar sua jornada"
+>abstract="Essa tela exibe a lista de jornadas existentes. Abra uma jornada ou clique em “Criar jornada” e combine as diferentes atividades de evento, orquestração e ação para criar os cenários de vários canais em várias etapas."
 
 Essa etapa é executada pela **usuário empresarial**. É aqui que você cria suas jornadas. Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas.
 
@@ -54,6 +76,10 @@ Estas são as principais etapas para enviar mensagens por meio do jornada:
    ![](assets/interface-journeys.png)
 
 1. Clique em **[!UICONTROL Criar Jornada]** para criar uma nova jornada.
+
+<!--
+1. From the **Journeys** menu, click **[!UICONTROL Create Journey]** to create a new journey. 
+-->
 
 1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Saiba mais nesta [seção](journey-gs.md#change-properties).
 
@@ -80,7 +106,7 @@ Estas são as principais etapas para enviar mensagens por meio do jornada:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propriedades da jornada"
->abstract="Esta seção mostra as propriedades da jornada. Por padrão, os parâmetros somente leitura ficam ocultos. As configurações disponíveis dependem do status da jornada, das permissões e da configuração do produto."
+>abstract="Essa seção mostra as propriedades da jornada. Por padrão, os parâmetros somente leitura ficam ocultos. As configurações disponíveis dependem do status da jornada, das permissões e da configuração do produto."
 
 Clique no ícone de lápis, na parte superior direita para acessar as propriedades da jornada.
 

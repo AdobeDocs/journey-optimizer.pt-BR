@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 14%
+source-wordcount: '306'
+ht-degree: 23%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Criar uma composição"
->abstract="Crie um fluxo de trabalho de composição para combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir..) para criar novos públicos-alvo."
+>abstract="Crie um fluxo de trabalho de composição para combinar públicos existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir..) para criar novos públicos."
 
 >[!BEGINSHADEBOX]
 
@@ -38,7 +38,7 @@ O que você encontrará nesta documentação:
 
 >[!AVAILABILITY]
 >
->Atualmente, a composição do público-alvo está disponível apenas como um beta privado e pode estar sujeita a atualizações frequentes sem aviso prévio. O beta é provisionado no nível da Organização IMS, o que significa que afetará todas as sandboxes na organização.
+>Atualmente, a composição do público-alvo está disponível apenas como um beta privado e pode estar sujeita a atualizações frequentes sem aviso prévio. O beta é provisionado no nível da organização, o que significa que afetará todas as sandboxes na organização.
 
 A composição do público-alvo permite criar **workflows da composição**, onde é possível combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir..) para criar novos públicos-alvo.
 

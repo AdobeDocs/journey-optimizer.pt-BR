@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: código, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 8%
+source-wordcount: '195'
+ht-degree: 6%
 
 ---
 
@@ -36,9 +36,13 @@ Use o **[!UICONTROL Codifique seu próprio]** modo para importar HTML bruto e/ou
 
    ![](assets/code-editor.png)
 
-1. Para abrir o Designer de email para iniciar seu email a partir de um novo design, selecione **[!UICONTROL Alterar o design]** no menu de opções.
+1. Se quiser limpar o conteúdo de email e iniciar o email a partir de um novo design, selecione **[!UICONTROL Alterar o design]** no menu de opções.
 
    ![](assets/code-editor-change-design.png)
+
+   >[!NOTE]
+   >
+   >Essa ação abre o modelo selecionado no Designer de email. A partir daí, você pode concluir o design do seu email ou voltar para o editor de códigos usando o **[!UICONTROL Alternar para editor de código]** opção.
 
 1. Clique no botão **[!UICONTROL Visualizar]** para verificar o design e a personalização da mensagem usando perfis de teste. [Saiba mais](preview.md)
 

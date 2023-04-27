@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: sandbox, jornada, cópia, ambiente
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 2%
+source-wordcount: '835'
+ht-degree: 20%
 
 ---
 
@@ -21,22 +21,22 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
 >title="Copiar uma jornada para outra sandbox"
->abstract="O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox de preparo para a sandbox de produção. Além da própria Jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende."
+>abstract="O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox de preparo para a sandbox de produção. Além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="Detalhes da sandbox"
->abstract="Selecione a sandbox de destino para a qual deseja copiar a jornada. Somente sandboxes na organização de IMS estão disponíveis."
+>abstract="Selecione a sandbox de destino para a qual deseja copiar a jornada. Estão disponíveis somente as sandbox da sua Organização "
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
 >title="Detalhes do objeto"
->abstract="Esta é a jornada que você vai copiar."
+>abstract="Essa é a jornada que você vai copiar."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
 >title="Objetos dependentes"
->abstract="Esta é a lista de objetos associados usados na jornada. Essa lista exibe o nome, o tipo de objeto e a Journey Optimizer ID interna."
+>abstract="Essa é a lista de objetos associados usados na jornada. Essa lista exibe o nome, o tipo de objeto e a ID interna do Journey Optimizer."
 
 O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox de Preparo para a sandbox de Produção. Além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: segmentos, superfícies (ou seja, predefinições), esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte esta seção [seção](#limitations).
 
@@ -58,9 +58,9 @@ Para copiar uma jornada para outra sandbox, siga estas etapas:
 
    ![](assets/copy-sandbox2.png)
 
-3. Selecione o **sandbox de destino** no campo suspenso . Somente sandboxes na organização de IMS estão disponíveis.
+3. Selecione o **sandbox de destino** no campo suspenso . Estão disponíveis somente as sandbox da sua Organização 
 
-4. Revise o **Objetos dependentes** seção. Esta é a lista de objetos associados usados na jornada. Essa lista exibe o nome, o tipo de objeto e a Journey Optimizer ID interna.
+4. Revise o **Objetos dependentes** seção. Essa é a lista de objetos associados usados na jornada. Essa lista exibe o nome, o tipo de objeto e a ID interna do Journey Optimizer.
 
 5. Clique no botão **Copiar** , no canto superior direito, para começar a copiar a jornada para a sandbox de destino.
 

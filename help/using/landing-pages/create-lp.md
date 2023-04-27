@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: aterrissagem, landing page, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 2%
+source-wordcount: '1539'
+ht-degree: 28%
 
 ---
 
@@ -48,15 +48,15 @@ Clique nos três pontos ao lado de uma página de aterrissagem para selecionar a
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_create"
->title="Definir e configurar a landing page"
->abstract="Para criar uma landing page, você precisa selecionar uma predefinição, configurar a página primária e as subpáginas e, finalmente, testar sua página antes de publicá-la."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de aterrissagem"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Publicar a landing page"
+>title="Definir e configurar a página de destino"
+>abstract="Para criar uma página de destino, você precisa selecionar uma predefinição, configurar a página principal e as subpáginas e, por fim, testar a página antes de publicá-la."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de destino"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Publicar a página de destino"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
->title="Atribuir rótulos à página inicial"
->abstract="Para proteger ativos digitais confidenciais, você pode definir autorizações para gerenciar o acesso aos dados da sua página de aterrissagem usando rótulos."
+>title="Atribuir rótulos à página de destino"
+>abstract="Para proteger ativos digitais confidenciais, você pode definir autorizações para gerenciar o acesso aos dados da página de destino usando rótulos."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Controle de acesso no nível do objeto"
 
 As principais etapas para criar landing pages são as seguintes:
@@ -95,16 +95,16 @@ Depois de configurar e projetar o [página primária](#configure-primary-page)e 
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_primary_page"
->title="Definir as configurações da página primária"
->abstract="A página primária é exibida imediatamente aos usuários depois que eles clicam no link de sua página inicial, como de um email ou de um site."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Criar o conteúdo da página de aterrissagem"
+>title="Definir as configurações da página principal"
+>abstract="A página principal é exibida imediatamente depois que as pessoas clicam no link de página de destino que consta em um email ou site."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Criar o conteúdo da página de destino"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
->title="Definir o URL da página de aterrissagem"
->abstract="Nesta seção, defina um URL de página de aterrissagem exclusivo. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem como parte da predefinição selecionada."
+>title="Definir o URL da página de destino"
+>abstract="Nesta seção, defina um URL de página de destino exclusivo. A primeira parte do URL requer a configuração prévia de um subdomínio de página de destino como parte da predefinição selecionada."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="Configurar subdomínios de página de destino"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de aterrissagem"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de destino"
 
 A página primária é a página que é imediatamente exibida aos usuários depois que eles clicam no link de sua página inicial, como de um email ou de um site.
 
@@ -116,7 +116,7 @@ Para definir as configurações da página primária, siga as etapas abaixo.
 
    ![](assets/lp_open-designer.png)
 
-1. Defina o URL da página de aterrissagem. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem como parte do [predefinição](../landing-pages/lp-presets.md#lp-create-preset) você selecionou. [Saiba mais](../landing-pages/lp-subdomains.md)
+1. Definir o URL da página de destino. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem como parte do [predefinição](../landing-pages/lp-presets.md#lp-create-preset) você selecionou. [Saiba mais](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -165,17 +165,17 @@ Para definir as configurações da página primária, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="ajo_lp_subpage"
 >title="Definir as configurações de subpágina"
->abstract="É possível adicionar até 2 subpáginas. Por exemplo, você pode criar uma página de &#39;agradecimento&#39; que será exibida depois que os usuários enviarem o formulário e você pode definir uma página de erro que será chamada se ocorrer um problema com a landing page."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Criar o conteúdo da página de aterrissagem"
+>abstract="Você pode adicionar até 2 subpáginas. Por exemplo, você pode criar uma página de “agradecimento” que será exibida depois que as pessoas enviarem o formulário e você pode definir uma página de erro que será chamada se ocorrer um problema com a página de destino."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Criar o conteúdo da página de destino"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
->title="Definir o URL da página de aterrissagem"
->abstract="Nesta seção, defina um URL de página de aterrissagem exclusivo. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem como parte da predefinição selecionada."
+>title="Definir o URL da página de destino"
+>abstract="Nesta seção, defina um URL de página de destino exclusivo. A primeira parte do URL requer a configuração prévia de um subdomínio de página de destino como parte da predefinição selecionada."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="Configurar subdomínios de página de destino"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de aterrissagem"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Criar predefinições de página de destino"
 
-É possível adicionar até 2 subpáginas. Por exemplo, você pode criar uma página de &#39;agradecimento&#39; que será exibida depois que os usuários enviarem o formulário e você pode definir uma página de erro que será chamada se ocorrer um problema com a landing page.
+Você pode adicionar até 2 subpáginas. Por exemplo, você pode criar uma página de “agradecimento” que será exibida depois que as pessoas enviarem o formulário e você pode definir uma página de erro que será chamada se ocorrer um problema com a página de destino.
 
 Para definir as configurações de subpágina, siga as etapas abaixo.
 
@@ -187,7 +187,7 @@ Para definir as configurações de subpágina, siga as etapas abaixo.
    >
    >Você pode inserir um link para a página primária de qualquer subpágina da mesma landing page. Por exemplo, para redirecionar usuários que cometeram um erro e desejam se inscrever novamente, é possível adicionar um link da subpágina de confirmação à página principal da assinatura. Saiba como inserir links em [esta seção](../email/message-tracking.md#insert-links).
 
-1. Defina o URL da página de aterrissagem. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem. [Saiba mais](../landing-pages/lp-subdomains.md)
+1. Definir o URL da página de destino. A primeira parte do URL requer a configuração prévia de um subdomínio de página de aterrissagem. [Saiba mais](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -199,8 +199,8 @@ Para definir as configurações de subpágina, siga as etapas abaixo.
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"
->title="Visualizar e testar a landing page"
->abstract="Depois de definir as configurações e o conteúdo da landing page, você pode usar perfis de teste para visualizá-los."
+>title="Visualizar e testar a página de destino"
+>abstract="Depois de definir as configurações e o conteúdo da página de destino, você pode usar perfis de teste para visualizar."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="Selecionar perfis de teste"
 
 Depois que as configurações e o conteúdo da landing page forem definidos, você poderá usar perfis de teste para visualizá-los. Se você inseriu [conteúdo personalizado](../personalization/personalize.md), você poderá verificar como esse conteúdo é exibido na landing page, usando dados de perfil de teste.
@@ -223,13 +223,13 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 
    As etapas para selecionar perfis de teste são as mesmas que ao testar uma mensagem. Eles são detalhados [nesta seção](../email/preview.md#select-test-profiles).
 
-1. Selecione o **[!UICONTROL Visualizar]** e clique em **[!UICONTROL Abrir visualização]** para testar sua landing page.
+1. Selecionar **[!UICONTROL Abrir visualização]** para testar sua landing page.
 
    ![](assets/lp_open-preview.png)
 
 1. A visualização da landing page é aberta em uma nova guia. Os elementos personalizados são substituídos pelos dados de perfil de teste selecionados.
 
-   ![](assets/lp_preview.png)
+   <!--![](assets/lp_preview.png)-->
 
 1. Selecione outros perfis de teste para visualizar a renderização de cada variante da landing page.
 
@@ -272,7 +272,7 @@ Dois tipos de alertas podem acontecer:
 > To be able to publish your message, you must resolve all **error** alerts.
 -->
 
-## Publicar a landing page {#publish-landing-page}
+## Publicar a página de destino {#publish-landing-page}
 
 Quando a landing page estiver pronta, você poderá publicá-la para disponibilizá-la para uso em uma mensagem.
 

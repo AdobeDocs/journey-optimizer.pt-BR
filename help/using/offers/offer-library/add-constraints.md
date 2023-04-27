@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '2323'
-ht-degree: 16%
+source-wordcount: '2357'
+ht-degree: 17%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
 >title="Sobre restrições de oferta"
->abstract="Com as restrições, é possível especificar como a oferta será priorizada e apresentada ao usuário em comparação a outras ofertas."
+>abstract="Com as restrições, é possível especificar como a oferta será priorizada e apresentada ao usuário em comparação com outras ofertas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_constraints"
 >title="Sobre restrições de oferta"
->abstract="Com as restrições, é possível especificar como a oferta será priorizada e apresentada ao usuário em comparação a outras ofertas."
+>abstract="Com as restrições, é possível especificar como a oferta será priorizada e apresentada ao usuário em comparação com outras ofertas."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
@@ -33,7 +33,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="Definir prioridade"
->abstract="A prioridade ajuda a definir a prioridade da oferta em comparação às outras caso o usuário se qualifique para mais de uma oferta. Quanto maior for a prioridade de uma oferta, maior será sua prioridade em comparação a outras ofertas."
+>abstract="A prioridade ajuda a definir a prioridade da oferta em comparação com outras caso o usuário se qualifique para mais de uma oferta. Quanto maior for a prioridade de uma oferta, maior será sua prioridade em comparação a outras ofertas."
 
 As restrições permitem definir as condições em que uma oferta será exibida.
 
@@ -69,12 +69,12 @@ Por exemplo, se você definir as seguintes restrições:
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
 >title="Sobre a elegibilidade da oferta"
->abstract="Nesta seção, é possível usar regras de decisão para determinar quais usuários estão qualificados a receber a oferta."
+>abstract="Nesta seção, é possível usar regras de decisão para definir as pessoas elegíveis para receber a oferta."
 >additional-url="https://video.tv.adobe.com/v/329373" text="Assistir ao vídeo de demonstração"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
->title="Estimativa total do perfil"
+>title="Estimativa total de perfis"
 >abstract="Ao selecionar segmentos ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados."
 
 O **[!UICONTROL Elegibilidade da oferta]** permite restringir a oferta a perfis específicos que você define usando segmentos ou regras de decisão.
@@ -137,17 +137,17 @@ Basicamente, a saída de um segmento é uma lista de perfis, enquanto uma regra 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="Usar limite"
->abstract="Para evitar o excesso de solicitações aos seus clientes, use o limite para definir o número máximo de vezes que uma oferta pode ser apresentada."
+>abstract="Para evitar o excesso de solicitações aos clientes, use o limite para definir o número máximo de vezes que uma oferta pode ser apresentada."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Alterar datas pode afetar o limite"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="Definir a frequência limite"
->abstract="Você pode optar por redefinir o contador de limite de oferta diariamente, semanalmente ou mensalmente. Observe que, depois de salvar sua oferta, você não poderá alterar a frequência selecionada."
+>abstract="Você pode optar por redefinir o contador de limite de oferta diariamente, semanalmente ou mensalmente. Observe que, depois de salvar a oferta, você não poderá alterar a frequência selecionada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
->title="Impressão"
+>title="impressão"
 >abstract="O uso de impressões como eventos de limite está disponível somente para canais de entrada."
 
 O limite é usado como uma restrição para definir o número máximo de vezes que uma oferta pode ser apresentada.
@@ -215,9 +215,12 @@ O **[!UICONTROL Evento de limitação]** permite definir qual **[!UICONTROL Even
    1. Depois que a regra é criada, ela é exibida na variável **[!UICONTROL Consulta de evento personalizado]** campo.
 
       ![](../assets/offer-capping-custom-event-query.png)
-   >[!CAUTION]
-   >
-   >Para todos os eventos de limitação, exceto o evento de decisão, o feedback do gerenciamento de decisões pode não ser coletado automaticamente, portanto, verifique se os dados estão chegando. [Saiba mais sobre a coleta de dados](../data-collection/data-collection.md)
+
+>[!CAUTION]
+>
+>Para todos os eventos de limitação, exceto o evento de decisão, o feedback do gerenciamento de decisão pode não ser coletado automaticamente, o que pode fazer com que o contador de limitação não seja incrementado corretamente. [Saiba mais](../data-collection/data-collection.md)
+>
+>Para garantir que cada evento de limitação seja rastreado e contabilizado no contador de limitação, verifique se o esquema usado para coletar eventos de experiência inclui o grupo de campos correto para esse evento. [Saiba mais](../data-collection/schema-requirement.md)
 
 ### Limite da contagem {#capping-count}
 

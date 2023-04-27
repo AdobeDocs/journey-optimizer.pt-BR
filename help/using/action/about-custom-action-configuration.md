@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ação, terceiros, personalizado, jornadas, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 6%
+source-wordcount: '1045'
+ht-degree: 15%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
 >title="Ações personalizadas"
->abstract="Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que o jornada envie chamadas de API para um sistema de terceiros, use ações personalizadas para configurar a conexão com a jornada. Por exemplo, você pode se conectar aos seguintes sistemas com ações personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com), Firebase, etc."
+>abstract="Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que as jornadas enviem chamadas de API para um sistema de terceiros, use ações personalizadas para configurar a conexão com sua jornada. Por exemplo, você pode conectar aos seguintes sistemas com ações personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com), Firebase etc."
 
-Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que o jornada envie chamadas de API para um sistema de terceiros, use ações personalizadas para configurar a conexão com a jornada. Por exemplo, você pode se conectar aos seguintes sistemas com ações personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc.
+Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que as jornadas enviem chamadas de API para um sistema de terceiros, use ações personalizadas para configurar a conexão com sua jornada. Por exemplo, você pode se conectar aos seguintes sistemas com ações personalizadas: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc.
 
 As ações personalizadas são ações adicionais definidas por usuários técnicos e disponibilizadas aos profissionais de marketing. Depois de configuradas, elas são exibidas na paleta esquerda da jornada, no **[!UICONTROL Ação]** categoria . Saiba mais [nesta página](../building-journeys/about-journey-activities.md#action-activities).
 
@@ -97,35 +97,31 @@ Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UIC
    >
    > O **DELETE** não é suportado. Se precisar atualizar um recurso existente, selecione o **PUT** método .
 
-1. No **[!UICONTROL Cabeçalhos]** , defina os cabeçalhos HTTP da mensagem de solicitação a ser enviada ao serviço externo:
-   1. Para adicionar um campo de cabeçalho, clique em **[!UICONTROL Adicionar um campo de cabeçalho]**.
-   1. Insira a chave do campo de cabeçalho.
-   1. Para definir um valor dinâmico para o par de valores chave, selecione **[!UICONTROL Variável]**. Caso contrário, selecione **[!UICONTROL Constante]**.
+1. Defina os cabeçalhos e os parâmetros de consulta:
 
-      Por exemplo, para um carimbo de data e hora, é possível definir um valor dinâmico.
+   * No **[!UICONTROL Cabeçalhos]** seção , clique em **[!UICONTROL Adicionar um campo de cabeçalho]** para definir os cabeçalhos HTTP da mensagem de solicitação a ser enviada ao serviço externo. O **[!UICONTROL Tipo de conteúdo]** e **[!UICONTROL Charset]** os campos de cabeçalho são definidos por padrão. Não é possível modificar ou excluir esses campos.
 
-   1. Se você selecionou **[!UICONTROL Constante]**, em seguida, insira o valor constante.
+   * No **[!UICONTROL Parâmetros de consulta]** seção , clique em **[!UICONTROL Adicionar um campo de parâmetro Query]** para definir os parâmetros que deseja adicionar ao URL.
 
-      Se você selecionou **[!UICONTROL Variável]**, você especificará essa variável ao adicionar a ação personalizada a uma jornada. [Saiba mais](../building-journeys/using-custom-actions.md).
+   ![](assets/journeyurlconfiguration2bis.png)
 
-      ![](assets/journeyurlconfiguration2.png)
+1. Insira o rótulo ou o nome do campo.
 
-   1. Para excluir um campo de cabeçalho, aponte para o campo de cabeçalho e clique no botão **[!UICONTROL Excluir]** ícone .
-   O **[!UICONTROL Tipo de conteúdo]** e **[!UICONTROL Charset]** os campos de cabeçalho são definidos por padrão. Não é possível modificar ou excluir esses campos.
+1. Selecione o tipo : **[!UICONTROL Constante]** ou **[!UICONTROL Variável]**. Se você selecionou **[!UICONTROL Constante]**, em seguida, insira o valor constante no **[!UICONTROL Valor]** campo. Se você selecionou **[!UICONTROL Variável]**, você especificará essa variável ao adicionar a ação personalizada a uma jornada. [Saiba mais](../building-journeys/using-custom-actions.md).
 
-   Após adicionar a ação personalizada a uma jornada, você ainda poderá adicionar campos de cabeçalho a ela se a jornada estiver em status de rascunho. Se não quiser que a jornada seja afetada por alterações de configuração, duplique a ação personalizada e adicione os campos de cabeçalho à nova ação personalizada.
+   ![](assets/journeyurlconfiguration2.png)
 
    >[!NOTE]
+   >
+   >Após adicionar a ação personalizada a uma jornada, ainda é possível adicionar campos de cabeçalho ou parâmetros de consulta a ela, se a jornada estiver em status de rascunho. Se não quiser que a jornada seja afetada por alterações de configuração, duplique a ação personalizada e adicione os campos à nova ação personalizada.
    >
    >Os cabeçalhos são validados de acordo com as regras de análise de campo. Saiba mais em [esta documentação](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## Definir os parâmetros de ação {#define-the-message-parameters}
 
-![](assets/messageparameterssection.png)
-
 No **[!UICONTROL Parâmetros de ação]** cole um exemplo da carga JSON para enviar ao serviço externo.
 
-![](assets/customactionpayloadmessage.png)
+![](assets/messageparameterssection.png)
 
 >[!NOTE]
 >
@@ -135,7 +131,7 @@ Você poderá definir o tipo de parâmetro (por exemplo: string, número inteiro
 
 Você também terá uma escolha entre especificar se um parâmetro é uma constante ou variável:
 
-* Constante significa que o valor do parâmetro é definido no painel de configuração da ação por uma pessoa técnica. O valor será sempre o mesmo em jornadas. Ele não variará e o profissional de marketing não a verá ao usar a ação personalizada na jornada. Pode ser, por exemplo, uma ID que o sistema de terceiros espera. Nesse caso, o campo à direita da constante/variável de alternância é o valor transmitido.
-* Variável significa que o valor do parâmetro varia. Os profissionais de marketing que usam essa ação personalizada em uma jornada poderão transmitir o valor desejado ou especificar onde recuperar o valor desse parâmetro (por exemplo, do evento, do Adobe Experience Platform etc.). Nesse caso, o campo à direita da variável/constante de alternância é o rótulo que os profissionais de marketing verão na jornada para nomear esse parâmetro.
+* **Constante** significa que o valor do parâmetro é definido no painel de configuração da ação por uma pessoa técnica. O valor será sempre o mesmo em jornadas. Ele não variará e o profissional de marketing não a verá ao usar a ação personalizada na jornada. Pode ser, por exemplo, uma ID que o sistema de terceiros espera. Nesse caso, o campo à direita da constante/variável de alternância é o valor transmitido.
+* **Variável** significa que o valor do parâmetro varia. Os profissionais de marketing que usam essa ação personalizada em uma jornada poderão transmitir o valor desejado ou especificar onde recuperar o valor desse parâmetro (por exemplo, do evento, do Adobe Experience Platform etc.). Nesse caso, o campo à direita da variável/constante de alternância é o rótulo que os profissionais de marketing verão na jornada para nomear esse parâmetro.
 
 ![](assets/customactionpayloadmessage2.png)

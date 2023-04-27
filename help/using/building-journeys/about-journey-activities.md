@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, atividades, começar, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 17%
+source-wordcount: '507'
+ht-degree: 18%
 
 ---
 
@@ -66,9 +66,27 @@ Se você configurou ações personalizadas, elas também são exibidas aqui. [Sa
 
 ## Práticas recomendadas {#best-practices}
 
+### Adicionar um rótulo
+
 A maioria das atividades permite definir um **[!UICONTROL Rótulo]**. Isso adiciona um sufixo ao nome que aparecerá sob sua atividade na tela. Isso é útil se você usar a mesma atividade várias vezes na jornada e quiser identificá-las mais facilmente. Também facilitará a depuração em caso de erros e facilitará a leitura dos relatórios. Você também pode adicionar uma **[!UICONTROL Descrição]**.
 
-![](assets/journey59bis.png)
+![](assets/journey-action-label.png)
+
+### Gerenciar os parâmetros avançados {#advanced-parameters}
+
+A maioria das atividades exibe diversos parâmetros avançados e/ou técnicos que não podem ser modificados.
+
+![](assets/journey-advanced-parameters.png)
+
+Para melhorar a legibilidade, você pode ocultar esses parâmetros usando a variável **[!UICONTROL Ocultar campos somente leitura]** botão.
+
+![](assets/journey-hide-read-only-fields.png)
+
+Em alguns contextos específicos, é possível substituir os valores desses parâmetros para uso específico. Para forçar um valor, clique no ícone **[!UICONTROL Habilitar substituição de parâmetro]** à direita do campo. [Saiba mais](../configuration/primary-email-addresses.md#journey-parameters)
+
+![](assets/journey-enable-parameter-override.png)
+
+### Adicionar um caminho alternativo
 
 A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcando a caixa **[!UICONTROL Adicione um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 

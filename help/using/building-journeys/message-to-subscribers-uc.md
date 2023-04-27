@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, caso de uso, mensagem, assinantes, lista, ler
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 4%
+source-wordcount: '331'
+ht-degree: 17%
 
 ---
 
@@ -56,3 +56,7 @@ Para configurar essa jornada, siga estas etapas:
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. No **[!UICONTROL Adicionar uma expressão]** , clique em **[!UICONTROL Ok]**.
+
+>[!CAUTION]
+>
+>A substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, não é necessário alterar o endereço de email, pois o valor definido como o endereço principal nos **[!UICONTROL Campos de execução]** é o que deve ser usado. [Saiba mais](../configuration/primary-email-addresses.md)

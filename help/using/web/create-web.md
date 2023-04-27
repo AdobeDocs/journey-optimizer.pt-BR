@@ -5,30 +5,15 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-badge: label="Beta" type="Informative"
-source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '662'
 ht-degree: 8%
 
 ---
 
 # Criação de experiências da Web {#create-web}
-
->[!BEGINSHADEBOX]
-
-O que você encontrará nesta documentação:
-
-* [Introdução ao canal Web](get-started-web.md)
-* **[Criação de experiências da Web](create-web.md)**
-* [Páginas da Web de autor](author-web.md)
-* [Extensão Auxiliar de edição visual](visual-editing-helper.md)
-* [Relatórios da Web](web-report.md)
-
->[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] O permite personalizar a experiência da Web que você oferece para seus clientes por meio de campanhas da Web de entrada.
 
@@ -36,35 +21,7 @@ O que você encontrará nesta documentação:
 >
 >Atualmente em [!DNL Journey Optimizer] você só pode criar experiências da web usando **campanhas**.
 
-## Pré-requisitos {#prerequesites}
-
-Para acessar e criar páginas da Web no [!DNL Journey Optimizer] na interface do usuário, siga os pré-requisitos abaixo:
-
-* Para adicionar modificações ao seu site, é necessário implementar a variável [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"} no seu site.
-
-* Para acessar o [!DNL Journey Optimizer] web designer, você deve baixar o [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extensão do navegador no Chrome. [Saiba mais](visual-editing-helper.md)
-
->[!CAUTION]
->
->O Google Chrome é atualmente o único navegador compatível com a criação de páginas da Web no [!DNL Journey Optimizer].
-
-Para que a experiência da Web seja entregue corretamente, as seguintes configurações devem ser definidas:
-
-* No [Coleta de dados do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=pt-BR){target="_blank"}, verifique se você tem um conjunto de dados definido como no **[!UICONTROL Adobe Experience Platform]** você tem o **[!UICONTROL Segmentação de borda]** e **[!UICONTROL Adobe Journey Optimizer]** opções ativadas.
-
-   Isso garante que os eventos de entrada do Journey Optimizer sejam manipulados corretamente pelo Adobe Experience Platform Edge. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR){target="_blank"}
-
-   ![](assets/web-aep-datastream-ajo.png)
-
-   >[!NOTE]
-   >
-   >O **[!UICONTROL Adobe Journey Optimizer]** pode ser ativada somente quando a variável **[!UICONTROL Segmentação de borda]** já está ativada.
-
-* Em [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
-
-   Essa política de mesclagem é usada por [!DNL Journey Optimizer] canais de entrada para ativar e publicar corretamente campanhas de entrada na borda. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
-
-   ![](assets/web-aep-merge-policy.png)
+[Saiba como criar uma campanha da Web neste vídeo](#video)
 
 ## Criar uma campanha da Web {#create-web-campaign}
 
@@ -76,17 +33,19 @@ Para que a experiência da Web seja entregue corretamente, as seguintes configur
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="Criar uma regra de correspondência de páginas"
->abstract="Uma regra de correspondência de páginas permite direcionar vários URLs que correspondem à mesma regra - por exemplo, se você deseja aplicar as alterações a um banner principal em todo um site ou adicionar uma imagem principal que é exibida em todas as páginas de produto de um site."
+>abstract="Uma regra de correspondência de páginas permite direcionar vários URLs que correspondem à mesma regra - por exemplo, se você deseja aplicar as alterações a um banner principal em um site inteiro ou adicionar uma imagem principal que é exibida em todas as páginas de produto de um site."
 
 Para começar a criar sua experiência da Web por meio de uma campanha, siga as etapas abaixo.
+
+>[!NOTE]
+>
+>Se esta for a primeira vez que você cria uma experiência da Web, siga os pré-requisitos descritos em [esta seção](web-prerequisites.md).
 
 1. Criar uma campanha. [Saiba mais](../campaigns/create-campaign.md)
 
 1. Selecione o **[!UICONTROL Web]** ação.
 
-   ![](assets/web-create-campaign.png)
-
-1. Defina uma superfície da Web.
+1. Definir uma superfície da Web.
 
    >[!NOTE]
    >
@@ -112,47 +71,13 @@ Para começar a criar sua experiência da Web por meio de uma campanha, siga as 
 
    ![](assets/web-pages-matching-rule-example.png)
 
-1. Depois de definir a superfície da Web, selecione **[!UICONTROL Criar]**. Agora é possível definir as propriedades e configurações da campanha.
+1. Depois de definir a superfície da Web, selecione **[!UICONTROL Criar]**.
 
-## Configurar a campanha da Web {#configure-web-campaign}
+1. Complete as etapas para criar uma campanha da Web, como as propriedades da campanha, [público](../segment/about-segments.md)e [programação](../campaigns/create-campaign.md#schedule).
 
-1. No **[!UICONTROL Propriedades]** , edite o nome da campanha e adicione uma descrição, se necessário.
+   ![](assets/web-campaign-steps.png)
 
-   ![](assets/web-campaign-properties.png)
-
-1. Para atribuir rótulos de uso de dados personalizados ou principais à campanha da Web, selecione o **[!UICONTROL Gerenciar acesso]** na parte superior da tela. [Saiba mais sobre o Controle de Acesso no Nível do Objeto (OLAC)](../administration/object-based-access.md)
-
-1. Você pode selecionar **[!UICONTROL Experiência de conteúdo]** para testar os tratamentos de conteúdo com partes do público-alvo, a fim de determinar qual tratamento tem melhor desempenho em relação a uma métrica específica. [Saiba mais](../campaigns/content-experiment.md)
-
-   >[!AVAILABILITY]
-   >
-   >O **Experiência de conteúdo** No momento, o recurso está disponível somente para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
-
-1. No **[!UICONTROL Ação]** da campanha, selecione **[!UICONTROL Editar conteúdo]** para começar a criar sua campanha da Web. [Saiba mais](author-web.md)
-
-   ![](assets/web-edit-content.png)
-
-1. No **[!UICONTROL Público]** , defina quem poderá ver sua campanha da Web. Por padrão, a campanha da Web estará visível para todos os visitantes.
-
-   ![](assets/web-campaign-audience.png)
-
-   Você também pode selecionar um público-alvo específico. Use o **[!UICONTROL Seleção do público-alvo]** para exibir a lista de segmentos disponíveis do Adobe Experience Platform. [Saiba mais sobre segmentos](../segment/about-segments.md)
-
-   >[!NOTE]
-   >
-   >Para campanhas acionadas por API, o público-alvo precisa ser definido por meio de uma chamada de API. [Saiba mais](../campaigns/api-triggered-campaigns.md)
-
-   ![](assets/web-campaign-select-audience.png)
-
-1. No **[!UICONTROL Namespace de identidade]** , escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace)
-
-1. Defina um **[!UICONTROL Agendar]** para sua campanha da Web. [Saiba mais](../campaigns/create-campaign.md#schedule)
-
-   ![](assets/web-campaign-schedule.png)
-
-   Por padrão, ele é iniciado quando ativado manualmente e termina quando parado manualmente, mas você também pode definir datas e horários específicos para que suas modificações fiquem visíveis.
-
-   ![](assets/web-campaign-schedule-start.png)
+Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 ## Ativar a campanha da Web {#activate-web-campaign}
 
@@ -164,9 +89,7 @@ Depois de definir o [configurações da campanha da Web](#configure-web-campaign
 
 1. Em sua campanha da Web, selecione **[!UICONTROL Revisar para ativar]**.
 
-   ![](assets/web-campaign-review.png)
-
-1. Revise e edite, se necessário, o conteúdo, as propriedades, a superfície, o público-alvo e o agendamento.
+1. Verifique e edite, se necessário, o conteúdo, as propriedades, a superfície, o público-alvo e o agendamento.
 
 1. Selecionar **[!UICONTROL Ativar]**.
 
@@ -201,3 +124,9 @@ Quando uma campanha da Web está ativa, você pode interrompê-la para impedir q
 >[!NOTE]
 >
 >Quando uma campanha da Web é interrompida, não é possível editá-la ou ativá-la novamente. Você só pode duplicá-la e ativar a campanha duplicada.
+
+## Vídeo tutorial{#video}
+
+O vídeo abaixo mostra como criar uma campanha da Web, configurar suas propriedades, revisar e publicá-la.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

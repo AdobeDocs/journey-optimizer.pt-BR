@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 11%
+source-wordcount: '578'
+ht-degree: 13%
 
 ---
 
@@ -40,7 +40,7 @@ Navegue pelas guias abaixo para saber como adicionar uma mensagem SMS a uma camp
 
    Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md)
 
-<!-- The **[!UICONTROL Surface]**field is pre-filled, by default, with the last surface used for that channel by the user. -->
+   O **[!UICONTROL Superfície]** por padrão, o campo é preenchido previamente com a última superfície usada para esse canal pelo usuário.
 
 Agora você pode começar a projetar o conteúdo de sua mensagem SMS do **[!UICONTROL Editar conteúdo]** botão. [Definir o conteúdo do SMS](#sms-content)
 

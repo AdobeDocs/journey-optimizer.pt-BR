@@ -5,60 +5,47 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 6%
+source-wordcount: '1623'
+ht-degree: 13%
 
 ---
 
 # Páginas da Web de autor {#author-web}
 
->[!BEGINSHADEBOX]
+Uma vez [adição de uma ação da web](create-web.md#create-web-campaign) para sua campanha, você pode editar o conteúdo de seu site usando o web designer.
 
-O que você encontrará nesta documentação:
+Em [!DNL Journey Optimizer], a criação na Web é disponibilizada pelo **Adobe Experience Cloud Visual Helper** extensão do navegador chrome. [Saiba mais](web-prerequisites.md#visual-authoring-prerequisites)
 
-* [Introdução ao canal Web](get-started-web.md)
-* [Criação de experiências da Web](create-web.md)
-* **[Páginas da Web de autor](author-web.md)**
-* [Extensão Auxiliar de edição visual](visual-editing-helper.md)
-* [Relatórios da Web](web-report.md)
+>[!CAUTION]
+>
+>Para acessar e criar páginas da Web no [!DNL Journey Optimizer] na interface do usuário, certifique-se de seguir os pré-requisitos listados em [esta seção](web-prerequisites.md).
 
->[!ENDSHADEBOX]
-
-Em [!DNL Journey Optimizer] a criação na web é disponibilizada pela extensão de navegador do chrome do Adobe Experience Cloud Visual Helper. [Saiba mais](visual-editing-helper.md)
-
-Para acessar e criar páginas da Web no [!DNL Journey Optimizer] na interface do usuário, siga os pré-requisitos listados em [esta seção](create-web.md#prerequesites).
+[Saiba como criar uma campanha da Web neste vídeo](#video)
 
 ## Editar conteúdo da página da Web {#edit-web-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="Confirme o URL para editar"
+>title="Confirmar o URL para editar"
 >abstract="Confirme o URL da página da Web específica a ser usada para editar o conteúdo que será aplicado na superfície da Web definida acima. A página da Web deve ser implementada usando o SDK da Web da Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR" text="Saiba mais"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
->title="Insira o URL para editar"
+>title="Inserir o URL para editar"
 >abstract="Insira o URL de uma página da Web específica a ser usada para editar o conteúdo que será aplicado a todas as páginas que correspondem à regra. A página da Web deve ser implementada usando o SDK da Web da Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR" text="Saiba mais"
 
-<!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
+Para começar a criar sua campanha da Web, siga as etapas abaixo.
 
-Depois de criar uma ação da Web a partir da campanha, você pode editar o conteúdo usando o web designer. Para isso, siga as etapas abaixo.
+1. No **[!UICONTROL Ação]** da guia [campanha](create-web.md#create-web-campaign), selecione **[!UICONTROL Editar conteúdo]**.<!--change screen with rule-->
 
->[!CAUTION]
->
->Para ser acessado em [!DNL Journey Optimizer], sua página da Web deve ser implementada usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"}.
+   ![](assets/web-campaign-edit-content.png)
 
-1. No **[!UICONTROL Ação]** da campanha, selecione **[!UICONTROL Editar conteúdo]** para começar a criar sua campanha da Web.
-
-1. Se você criou uma regra de correspondência de páginas, deve inserir qualquer URL que corresponda a esta regra. As alterações serão aplicadas a todas as páginas que correspondem à regra.
+1. Se você criou uma regra de correspondência de páginas, deve inserir qualquer URL que corresponda a esta regra: as alterações serão aplicadas a todas as páginas correspondentes à regra. O conteúdo da página é exibido.
 
    >[!NOTE]
    >
@@ -66,21 +53,21 @@ Depois de criar uma ação da Web a partir da campanha, você pode editar o cont
 
    ![](assets/web-edit-enter-url.png)
 
-1. O conteúdo da página é exibido.
-
    >[!CAUTION]
    >
-   >A página da Web deve incluir a variável [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"}.
+   >A página da Web deve incluir a variável [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"}. [Saiba mais](web-prerequisites.md#implementation-prerequisites)
 
-1. Clique em **[!UICONTROL Abrir web designer]** para editá-lo. [Saiba mais](author-web.md)
-
-   ![](assets/web-open-designer.png)
-
-1. O web designer é exibido.
+1. Clique em **[!UICONTROL Editar página da Web]** para começar a criá-lo. O web designer é exibido.
 
    ![](assets/web-designer.png)
 
-1. Selecione qualquer elemento da tela de desenho, como imagem, botão, parágrafo, texto, contêiner, cabeçalho, link etc. e utilizar:
+   >[!NOTE]
+   >
+   >Se você tentar carregar um site que não seja carregado, uma mensagem será exibida sugerindo que você instale o [Extensão do navegador do Visual Editing Helper](#install-visual-editing-helper). Veja algumas dicas para solução de problemas em [esta seção](web-prerequisites.md#troubleshooting).
+
+1. Selecione qualquer elemento da tela de desenho, como imagem, botão, parágrafo, texto, contêiner, cabeçalho, link etc. [Saiba mais](#content-components)
+
+1. Use:
 
    * O menu contextual para editar seu conteúdo, layout, inserir links ou personalização, etc.
 
@@ -94,21 +81,25 @@ Depois de criar uma ação da Web a partir da campanha, você pode editar o cont
 
       ![](assets/web-designer-right-panel.png)
 
-## Usar componentes de conteúdo {#content-components}
+>[!NOTE]
+>
+>O web content designer é em sua maioria semelhante ao designer de email. Saiba mais sobre [criar conteúdo com [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+
+## Usar componentes {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
->title="Adicionar componentes de conteúdo à página da Web"
+>title="Adicionar componentes à sua página da Web"
 >abstract="Você pode adicionar vários componentes à sua página da Web e editá-los conforme necessário."
 
-1. No **[!UICONTROL Componentes]** no painel à esquerda, você pode adicionar os seguintes componentes à sua página da Web e editá-los conforme necessário:
+1. No **[!UICONTROL Componentes]** à esquerda, selecione um item. Você pode adicionar os seguintes componentes à sua página da Web e editá-los conforme necessário:
 
    * [Divisor](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [Imagem](../email/content-components.md#image)
    * Cabeçalho - O uso desse componente é semelhante ao uso da variável **[!UICONTROL Texto]** no designer de email. [Saiba mais](../email/content-components.md#text)
    * Parágrafo - O uso desse componente é semelhante ao uso da variável **[!UICONTROL Texto]** no designer de email. [Saiba mais](../email/content-components.md#text)
-   * Link - Saiba como definir o estilo do link em [esta seção](../email/styling-links.md)
+   * Link
    * [Decisão da oferta](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
@@ -117,17 +108,94 @@ Depois de criar uma ação da Web a partir da campanha, você pode editar o cont
 
    ![](assets/web-designer-insert-components.png)
 
-1. No contêiner exibido para esse componente, edite o conteúdo do componente conforme necessário.
+   >[!NOTE]
+   >
+   >Para desmarcar um componente, clique no botão **[!UICONTROL ESC]** no banner azul contextual exibido na parte superior da tela.
 
-   ![](assets/web-designer-edit-html.png)
+1. Edite o componente conforme necessário diretamente no conteúdo da página.
 
-1. Ajuste os estilos exibidos da variável **[!UICONTROL Contêiner]** painel à direita, como plano de fundo, cor do texto, borda, tamanho, posição etc. dependendo do componente selecionado.
+   ![](assets/web-designer-edit-header.png)
 
-   ![](assets/web-designer-html-style.png)
+1. Ajuste os estilos exibidos no painel contextual à direita, como plano de fundo, cor do texto, borda, tamanho, posição etc. - dependendo do componente selecionado.
 
-## Navegar pelo web designer
+   ![](assets/web-designer-header-style.png)
 
-### Usar navegação estrutural
+## Adicionar personalização e ofertas
+
+Para adicionar personalização, selecione um container e selecione o ícone de personalização na barra de menu contextual que é exibida. Adicione as alterações usando o editor de expressão. [Saiba mais](../personalization/personalization-build-expressions.md)
+
+![](assets/web-designer-personalization.png)
+
+Use o **[!UICONTROL Decisão da oferta]** componente a ser inserido [ofertas](../offers/get-started/starting-offer-decisioning.md) nas páginas da Web. O processo é o mesmo de quando [adicionar uma oferta a um email](../email/add-offers-email.md). Ele usará o Gerenciamento de decisões para escolher a melhor oferta para oferecer aos clientes.
+
+![](assets/web-designer-offer.png)
+
+## Gerenciar modificações {#manage-modifications}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_modifications"
+>title="Gerenciar facilmente todas as alterações"
+>abstract="Usando esse painel, você pode navegar e gerenciar todos os ajustes e estilos adicionados à sua página da Web."
+
+Você pode gerenciar facilmente todos os componentes, ajustes e estilos adicionados à sua página da Web.
+
+1. Selecione o **[!UICONTROL Modificações]** ícone para exibir o painel correspondente à esquerda.
+
+   ![](assets/web-designer-modifications-pane.png)
+
+1. Você pode revisar cada uma das alterações feitas na página.
+
+1. Selecione uma modificação indesejada e clique no ícone excluir para removê-la.
+
+   ![](assets/web-designer-modifications-delete.png)
+
+   >[!CAUTION]
+   >
+   >Continue com cuidado ao excluir uma ação, pois ela pode afetar as ações subsequentes.
+
+1. Use o **[!UICONTROL Mais ações]** na parte superior do **[!UICONTROL Modificações]** painel para excluir todas as modificações ao mesmo tempo.
+
+   ![](assets/web-designer-delete-modifications.png)
+
+1. No **[!UICONTROL Mais ações]** também é possível excluir somente as modificações inválidas, o que significa que as alterações foram substituídas por outras alterações. Por exemplo, se você modificar a cor de um texto e depois excluir esse texto, a modificação de cor se tornará inválida, pois o texto não existe mais.
+
+1. Também é possível cancelar e refazer ações usando o **[!UICONTROL Desfazer/Refazer]** na parte superior direita da tela.
+
+   ![](assets/web-designer-undo-redo.png)
+
+   Clique e mantenha pressionado o botão para alternar entre as **[!UICONTROL Desfazer]** e **[!UICONTROL Refazer]** opções. Em seguida, clique no botão para aplicar a ação desejada.
+
+## Usar o rastreamento de cliques {#use-click-tracing}
+
+Essa capacidade no web designer permite que você selecione qualquer elemento de seu site e rastreie os cliques nesse elemento.
+
+Assim que sua campanha estiver ativa, você poderá verificar o número de cliques para cada elemento no relatório da Web da campanha. Essas informações podem ser úteis para melhorar a experiência dos usuários do site. Por exemplo, se a variável [relatórios da web](../reports/campaign-global-report.md#web-tab) mostrar que muitos usuários clicam em um elemento que não é clicável, talvez você queira adicionar um link a esse elemento.
+
+1. Selecione um elemento na página e escolha **[!UICONTROL Clique no elemento de rastreamento]** no menu contextual.
+
+   ![](assets/web-designer-click-track.png)
+
+   >[!NOTE]
+   >
+   >Qualquer item, clicável ou não, pode ser selecionado.
+
+1. A ação rastreada correspondente é exibida automaticamente no **[!UICONTROL Rastreamento de cliques]** painel à esquerda.
+
+   ![](assets/web-designer-click-track-pane.png)
+
+1. Adicione um rótulo significativo para gerenciar todos os elementos rastreados e encontrá-los facilmente nos relatórios. O **[!UICONTROL Seletor de CSS]** mostra informações para localizar o elemento selecionado.
+
+1. Repita as etapas acima para selecionar quantos outros elementos forem necessários para o rastreamento de cliques. As ações correspondentes são listadas no painel esquerdo.
+
+   ![](assets/web-designer-click-tracking-actions.png)
+
+1. Para remover o rastreamento de cliques em um elemento, selecione o ícone de exclusão correspondente.
+
+Quando a campanha está ativa, você pode verificar o relatório da campanha **[!UICONTROL Web]** para comparar o número de impressões, a taxa de cliques e o número de cliques por elemento. [Saiba mais](../reports/campaign-global-report.md#web-tab)
+
+## Navegar pelo web designer {#navigate-web-designer}
+
+### Usar navegação estrutural {#breadcrumbs}
 
 1. Selecione qualquer elemento da tela de desenho.
 
@@ -154,59 +222,28 @@ No **[!UICONTROL Procurar]** , você pode navegar até a página exata da superf
 
 É especialmente útil ao lidar com páginas que estão por trás da autenticação ou que não estão disponíveis desde o início em um determinado URL. Por exemplo, você poderá autenticar, navegar até a página da sua conta ou até a página do carrinho e, em seguida, alternar de volta para **[!UICONTROL Design]** para executar as alterações na página desejada.
 
-### Alterar tamanho do dispositivo
+### Alterar tamanho do dispositivo {#change-device-size}
 
-Você pode alterar o tamanho do dispositivo para um tamanho predefinido, como **[!UICONTROL Comprimido]** ou **[!UICONTROL Paisagem móvel]** ou defina um tamanho personalizado. Insira o número desejado de pixels para definir um tamanho personalizado.
+Você pode alterar o tamanho do dispositivo da exibição do web designer para um tamanho predefinido, como **[!UICONTROL Comprimido]** ou **[!UICONTROL Paisagem móvel]** ou defina um tamanho personalizado inserindo o número desejado de pixels.
 
 Também é possível alterar o foco do zoom - de 25% para 400%.
 
 ![](assets/web-designer-device.png)
 
-## Gerenciar modificações {#manage-modifications}
+A capacidade de alterar o tamanho do dispositivo é projetada para sites responsivos que são renderizados em vários dispositivos, janelas e tamanhos de tela. Sites responsivos ajustam-se e se adaptam automaticamente a qualquer tamanho de tela, incluindo desktops, laptops, tablets ou telefones celulares.
 
->[!CONTEXTUALHELP]
->id="ajo_web_designer_modifications"
->title="Gerencie facilmente todas as alterações"
->abstract="Usando esse painel, você pode navegar e gerenciar todos os ajustes e estilos adicionados à sua página da Web."
-
-Você pode gerenciar facilmente todos os componentes, ajustes e estilos adicionados à sua página da Web.
-
-1. Selecione o **[!UICONTROL Modificações]** para exibir o painel correspondente à esquerda.
-
-   ![](assets/web-designer-modifications-pane.png)
-
-1. Você pode revisar cada uma das alterações feitas na página.
-
-1. Selecione uma modificação indesejada e clique no ícone excluir para removê-la.
-
-   ![](assets/web-designer-modifications-delete.png)
-
-   >[!CAUTION]
-   >
-   >Continue com cuidado ao excluir uma ação, pois ela pode afetar as ações subsequentes.
-
-1. Também é possível cancelar e refazer ações usando o **[!UICONTROL Desfazer/Refazer]** na parte superior direita da tela.
-
-   ![](assets/web-designer-undo-redo.png)
-
-   Clique e mantenha pressionado o botão para alternar entre as **[!UICONTROL Desfazer]** e **[!UICONTROL Refazer]** opções. Em seguida, clique no botão para aplicar a ação desejada.
-
-## Adicionar personalização e ofertas
-
-Para adicionar personalização, selecione um container e selecione o ícone de personalização na barra de menu contextual que é exibida. Adicione as alterações usando o editor de expressão. [Saiba mais](../personalization/personalization-build-expressions.md)
-
-![](assets/web-designer-personalization.png)
-
-Use o **[!UICONTROL Decisão da oferta]** componente a ser inserido [ofertas](../offers/get-started/starting-offer-decisioning.md) nas páginas da Web. O processo é o mesmo de quando [adicionar uma oferta a um email](../email/add-offers-email.md). Ele usará o Gerenciamento de decisões para escolher a melhor oferta para oferecer aos clientes.
-
-![](assets/web-designer-offer.png)
+>[!CAUTION]
+>
+>Você pode editar uma experiência da Web com um tamanho de dispositivo específico. No entanto, desde que os seletores sejam os mesmos, essas alterações se aplicam a todos os tamanhos e dispositivos, não apenas ao tamanho do dispositivo em que você está trabalhando. Da mesma forma, editar uma experiência na exibição de desktop normal aplica as alterações a todos os tamanhos de tela, não apenas à exibição de desktop.
+>
+>Atualmente, [!DNL Journey Optimizer] não suporta alterações de página específicas de tamanho de dispositivo. Isso significa que, por exemplo, se você tiver um site móvel separado com uma estrutura de site separada, você deve fazer as alterações específicas para seu site móvel em uma campanha diferente.
 
 ## Testar a campanha da Web {#test-web-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
 >title="Visualizar a experiência da Web"
->abstract="Obtenha uma simulação de como sua experiência da Web será."
+>abstract="Acesse uma simulação de como sua experiência da Web será."
 
 Para exibir uma pré-visualização da experiência da Web modificada, siga as etapas abaixo.
 
@@ -214,13 +251,25 @@ Para exibir uma pré-visualização da experiência da Web modificada, siga as e
 >
 >Você deve ter perfis de teste disponíveis para simular quais ofertas serão entregues a eles. Saiba como [criar perfis de teste](../segment/creating-test-profiles.md).
 
-1. Em qualquer uma das **[!UICONTROL Editar conteúdo]** ou do web designer, selecione **[!UICONTROL Simular conteúdo]**.
+1. Na tela de conteúdo de edição de campanha da Web, selecione **[!UICONTROL Simular conteúdo]**.
 
-   ![](assets/web-designer-simulate.png)
+   <!--![](assets/web-designer-simulate.png)-->
+
+   ![](assets/web-campaign-simulate.png)
 
 1. Clique em **[!UICONTROL Gerenciar perfis de teste]** para selecionar um ou mais perfis de teste.
 1. Uma pré-visualização da página da Web modificada é exibida.
 
    ![](assets/web-designer-preview.png)
 
-1. Você também pode copiar o URL de teste para colá-lo em qualquer navegador, ou abri-lo no navegador padrão.
+1. Você também pode abri-lo no navegador padrão ou copiar o URL de teste para colá-lo em qualquer navegador. Isso permite que você compartilhe o link com sua equipe e com as partes interessadas, que poderão visualizar a nova experiência da Web em qualquer navegador antes que a campanha seja ativada.
+
+   >[!NOTE]
+   >
+   >Ao copiar o URL de teste, o conteúdo exibido é o personalizado para o perfil de teste usado quando a simulação de conteúdo foi gerada em [!DNL Journey Optimizer].
+
+## Vídeo tutorial{#video}
+
+O vídeo abaixo mostra como criar uma experiência da Web usando o web designer em [!DNL Journey Optimizer] campanhas.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

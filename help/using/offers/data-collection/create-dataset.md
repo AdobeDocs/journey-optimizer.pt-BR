@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 17%
+source-wordcount: '263'
+ht-degree: 15%
 
 ---
 
@@ -20,11 +20,9 @@ Para coletar eventos de experiência, primeiro é necessário criar um conjunto 
 
 Comece criando o schema que será usado em seu conjunto de dados:
 
-1. No **[!UICONTROL Gerenciamento de dados]** selecione **[!UICONTROL Esquema]**, acesse o **[!UICONTROL Procurar]** e clique em **[!UICONTROL Criar esquema]**.
+1. No **[!UICONTROL Gerenciamento de dados]** selecione **[!UICONTROL Esquema]** e vá para o **[!UICONTROL Procurar]** guia .
 
-   ![](../assets/ai-ranking-create-schema.png)
-
-1. Choose **[!UICONTROL ExperiênciaEvento XDM]**.
+1. Clique em **[!UICONTROL Criar esquema]** e escolha **[!UICONTROL ExperiênciaEvento XDM]**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
@@ -36,20 +34,15 @@ Comece criando o schema que será usado em seu conjunto de dados:
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. No **[!UICONTROL Pesquisar]** , digite &quot;interação de proposta&quot; e selecione o **[!UICONTROL Evento de experiência - Interações de proposta]** grupo de campos.
+1. No **[!UICONTROL Pesquisar]** , digite &quot;interação de proposta&quot;.
 
-   ![](../assets/ai-ranking-proposition-interactions.png)
+1. Selecione o **[!UICONTROL Evento de experiência - Interações de proposta]** grupo de campos e clique em **[!UICONTROL Adicionar grupos de campos]**.
+
+   ![](../assets/ai-ranking-add-field-group.png)
 
    >[!CAUTION]
    >
    >O esquema que será usado em seu conjunto de dados deve ter a variável **[!UICONTROL Evento de experiência - Interações de proposta]** grupo de campos associado a ele. Caso contrário, você não poderá usá-lo em sua estratégia de classificação.
-
-1. Clique em **[!UICONTROL Adicionar grupos de campos]**.
-
-   ![](../assets/ai-ranking-add-field-group.png)
-
-   >[!NOTE]
-   >O grupo de campos era anteriormente conhecido como mixin.
 
 1. Digite um nome e salve o esquema.
 
@@ -59,19 +52,13 @@ Comece criando o schema que será usado em seu conjunto de dados:
 
 Agora você está pronto para criar um conjunto de dados usando esse esquema. Para fazer isso, siga as etapas abaixo:
 
-1. No **[!UICONTROL Gerenciamento de dados]** selecione **[!UICONTROL Conjuntos de dados]**, acesse o **[!UICONTROL Procurar]** e clique em **[!UICONTROL Criar conjunto de dados]**.
+1. No **[!UICONTROL Gerenciamento de dados]** selecione **[!UICONTROL Conjuntos de dados]** e vá para o **[!UICONTROL Procurar]** guia .
 
-   ![](../assets/ai-ranking-create-dataset.png)
-
-1. Selecione **[!UICONTROL Criar conjunto de dados a partir do esquema]**.
+1. Clique em **[!UICONTROL Criar conjunto de dados]** e selecione **[!UICONTROL Criar conjunto de dados a partir do esquema]**.
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. Selecione o schema que você acabou de criar na lista.
-
-   ![](../assets/ai-ranking-dataset-select-schema.png)
-
-1. Clique em **[!UICONTROL Próximo]**.
+1. Selecione o schema que você acabou de criar na lista e clique em **[!UICONTROL Próximo]**.
 
 1. Forneça um nome exclusivo para o conjunto de dados na **[!UICONTROL Nome]** e clique em **[!UICONTROL Concluir]**.
 

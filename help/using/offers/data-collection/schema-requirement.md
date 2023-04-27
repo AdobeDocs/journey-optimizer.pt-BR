@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 2%
@@ -16,11 +16,11 @@ ht-degree: 2%
 
 # Configurar a coleta de dados {#schema-requirements}
 
-<!--To send in feedback data, you must define how the experience events will be captured.-->
-
 Para obter feedback sobre tipos de evento diferentes de eventos de decisão, você deve definir o valor correto para cada tipo de evento em um **evento de experiência** que é enviado para o Adobe Experience Platform.
 
-Para cada tipo de evento, verifique se o esquema usado no conjunto de dados tem o **[!UICONTROL Evento de experiência - Interações de proposta]** grupo de campos associado a ele. [Saiba mais](create-dataset.md)
+>[!CAUTION]
+>
+>Para cada tipo de evento, verifique se o esquema usado no conjunto de dados tem o **[!UICONTROL Evento de experiência - Interações de proposta]** grupo de campos associado a ele. [Saiba mais](create-dataset.md)
 
 Abaixo estão os requisitos de esquema que você precisa implementar no código JavaScript.
 

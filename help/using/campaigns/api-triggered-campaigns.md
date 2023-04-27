@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '831'
 ht-degree: 3%
 
 ---
@@ -39,9 +39,7 @@ Para criar uma campanha acionada por API, siga estas etapas:
 
    ![](assets/api-triggered-type.png)
 
-1. Especifique um título e uma descrição para a campanha, em seguida, configure a mensagem a ser enviada.
-
-   ![](assets/api-triggered-properties.png)
+1. Especifique um título e uma descrição para a campanha, em seguida, clique em **[!UICONTROL Editar conteúdo]** para configurar a mensagem a ser enviada.
 
    >[!NOTE]
    >

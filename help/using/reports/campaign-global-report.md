@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 1%
+source-wordcount: '2036'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_report"
 >title="Relatório global da campanha"
->abstract="O relatório Campaign global permite medir o impacto de suas campanhas durante um período selecionado. O relatório é dividido em diferentes widgets detalhando o sucesso e os erros da campanha. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
+>abstract="O relatório global da campanha permite medir o impacto de suas campanhas durante um período selecionado. O relatório é dividido em diferentes widgets detalhando o sucesso e os erros da campanha. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
 O relatório global da campanha pode ser acessado diretamente da sua campanha com o **[!UICONTROL Exibir relatório]** botão.
 
@@ -33,6 +33,7 @@ A campanha **[!UICONTROL Relatório global]** será exibida com as seguintes gui
 * [No aplicativo](#inapp-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
+* [Web](#web-tab)
 
 A campanha **[!UICONTROL Relatório global]** O é dividido em diferentes widgets detalhando o sucesso e os erros da campanha. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações sobre isso, consulte esta seção [seção](../reports/global-report.md#modify-dashboard).
 
@@ -281,6 +282,27 @@ O **[!UICONTROL Excluir motivos]**, **[!UICONTROL Motivos das rejeições]** e *
 
 O **[!UICONTROL SMS - Cliques por links]** e **[!UICONTROL SMS - Estatísticas de rastreamento]** Os widgets detalham as principais informações relativas ao envolvimento de seus visitantes com seus URLs.
 
++++
+
+## Guia Web {#web-tab}
+
+Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Web]** detalha as informações principais relativas às suas páginas da Web.
+
+![](assets/web-report.png)
+
++++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório da Web.
+
+O **[!UICONTROL Desempenho da Web]** Os KPIs detalham as principais informações relativas ao envolvimento de seus visitantes com suas experiências da Web, como:
+
+* **[!UICONTROL Impressões únicas]**: número de usuários únicos para os quais a experiência da Web foi entregue.
+
+* **[!UICONTROL Impressões]**: número total de experiências da Web entregues a todos os usuários.
+
+* **[!UICONTROL Taxa de cliques]**: porcentagem de visitantes que interagiram com os vários elementos em suas páginas da Web.
+
+O **[!UICONTROL Resumo da Web]** gráfico mostra a evolução de suas experiências da Web (impressões, impressões exclusivas e cliques) para o período relacionado.
+
+O **[!UICONTROL Cliques por elemento]** A tabela detalha as informações principais relativas ao envolvimento de seus visitantes com os vários elementos em suas páginas da Web.
 +++
 
 ## Recursos adicionais

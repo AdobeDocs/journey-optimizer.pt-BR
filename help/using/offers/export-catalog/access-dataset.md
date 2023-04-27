@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 10%
+source-wordcount: '86'
+ht-degree: 11%
 
 ---
 
@@ -21,10 +21,8 @@ O catálogo de ofertas exportado está acessível no Adobe Experience Platform *
 
 Clique em um conjunto de dados para acessar seus detalhes.
 
+O **[!UICONTROL Visualizar conjunto de dados]** permite exibir o lote bem-sucedido mais recente no conjunto de dados.
+
 ![](../assets/dataset-activity.png)
-
-O **[!UICONTROL Visualizar conjunto de dados]** permite exibir o lote bem-sucedido mais recente no conjunto de dados. O painel esquerdo fornece informações sobre os tipos de dados que foram exportados.
-
-![](../assets/dataset-preview.png)
 
 Para obter mais informações sobre como navegar e usar conjuntos de dados, consulte [esta página](../../data/get-started-datasets.md).

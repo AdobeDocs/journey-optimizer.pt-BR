@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1522'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="Teste a jornada"
->abstract="Use perfis de teste para testar sua jornada antes de publicá-la. Isso permite analisar como os indivíduos fluem na jornada e solucionam problemas antes da publicação."
+>abstract="Use perfis de teste para testar a jornada antes de publicá-la. Isso permite analisar como as pessoas fluem na jornada e solucionam problemas antes da publicação."
 
-Use perfis de teste para testar sua jornada antes de publicá-la. Esse modo permite que você execute um teste de sua jornada e identifique problemas usando perfis de teste.
+Use perfis de teste para testar a jornada antes de publicá-la. Esse modo permite que você execute um teste de sua jornada e identifique problemas usando perfis de teste.
 
 Somente perfis de teste podem entrar em uma jornada no modo de teste. Você pode criar novos perfis de teste ou transformar perfis existentes em perfis de teste. Saiba mais sobre perfis de teste em [esta seção](../segment/creating-test-profiles.md).
 
@@ -123,11 +123,12 @@ Observe que, ao acionar um evento comercial pela primeira vez, não é possível
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="Logs do modo de teste"
->abstract="O botão Mostrar log exibe os resultados do teste no formato JSON. Esses resultados exibem o número de indivíduos dentro da jornada e seu status."
+>abstract="O botão Mostrar log exibe os resultados do teste no formato JSON. Esses resultados exibem o número de pessoas dentro da jornada e seu status."
 
 O **[!UICONTROL Mostrar registro]** permite visualizar os resultados do teste. Esta página exibe as informações atuais da jornada no formato JSON. Um botão permite copiar nós inteiros. Você precisa atualizar manualmente a página para atualizar os resultados de teste da jornada.
 
 ![](assets/journeytest3.png)
+
 
 >[!NOTE]
 >

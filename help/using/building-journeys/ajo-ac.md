@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: jornada, mensagem, campanha, integração
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '412'
 ht-degree: 3%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 3%
 # Caso de uso: enviar uma mensagem usando o Campaign v7/v8 {#campaign-classic-use-case}
 
 Este caso de uso apresenta todas as etapas necessárias para enviar um email usando a integração com o Adobe Campaign Classic v7 e o Adobe Campaign v8.
+
+>[!NOTE]
+>
+>Para usar essa integração, você deve ter o Campaign Classic build 9125 ou superior.
 
 Primeiro, criaremos um template de email transacional no Campaign. Em seguida, no Journey Optimizer, criaremos o evento, a ação e projetaremos a jornada.
 

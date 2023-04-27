@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: criar, email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 5%
+source-wordcount: '856'
+ht-degree: 9%
 
 ---
 
@@ -41,7 +41,7 @@ Adicione um **[!UICONTROL Email]** para uma jornada ou campanha e siga as etapas
 
    ![](assets/email_journey.png)
 
-<!-- The field is pre-filled, by default, with the last surface used for that channel by the user. -->
+   O campo é preenchido previamente, por padrão, com a última superfície usada para esse canal pelo usuário.
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="Configurar conteúdo de email"
->abstract="Crie o conteúdo do seu email. Defina seu assunto e aproveite o Designer de email para criar e personalizar o corpo do email."
+>abstract="Crie o conteúdo do seu email. Defina o assunto e aproveite o Designer de email para criar e personalizar o corpo do email."
 
 1. Na tela de configuração da jornada ou campanha, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo do email. [Saiba mais](get-started-email-design.md)
 

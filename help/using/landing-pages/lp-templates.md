@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: inicial, página de aterrissagem, criação, modelos
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 4%
@@ -24,7 +24,7 @@ Depois de criar o [conteúdo da página de aterrissagem](lp-content.md), você p
 
 1. Clique nas reticências no canto superior direito da tela.
 
-1. Selecionar **[!UICONTROL Salvar modelo de design]** no menu suspenso.
+1. Selecionar **[!UICONTROL Salvar como modelo de conteúdo]** no menu suspenso.
 
    ![](assets/lp_designer-save-template.png)
 
@@ -52,7 +52,7 @@ Na próxima vez que você criar uma landing page, poderá usar esse template par
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. Clique em **[!UICONTROL Usar esta landing page]**.
+1. Clique em **[!UICONTROL Usar este modelo]**.
 
 1. Edite seu conteúdo conforme desejado usando o designer de página de aterrissagem.
 

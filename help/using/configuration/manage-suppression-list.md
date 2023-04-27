@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: supressão, lista, devolução, email, otimizador, quarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 12%
+source-wordcount: '1558'
+ht-degree: 22%
 
 ---
 
@@ -24,7 +24,9 @@ Esses endereços de email são coletados automaticamente na Journey Optimizer **
 
 Saiba mais sobre o conceito e o uso da lista de supressão em [esta seção](../reports/suppression-list.md).
 
-
+>[!NOTE]
+>
+>O Adobe mantém uma lista atualizada de endereços inválidos conhecidos que comprovadamente são prejudiciais ao engajamento e à reputação de endereçamento, e garante que os emails não sejam entregues a eles. Essa lista é gerenciada em uma lista de supressão global comum a todos os clientes da Adobe. Os endereços e os nomes de domínio contidos na lista de supressão global estão ocultos. Somente o número de destinatários excluídos é indicado nos relatórios de entrega.
 
 ## Acessar a lista de supressão  {#access-suppression-list}
 

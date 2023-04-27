@@ -9,34 +9,34 @@ role: User
 level: Intermediate
 keywords: conteúdo, editor, email, iniciar
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 0%
+source-wordcount: '654'
+ht-degree: 6%
 
 ---
 
-# Design de conteúdo do zero {#content-from-scratch}
+# Crie um conteúdo do zero {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="Adicionar componentes da estrutura"
->abstract="Os componentes da estrutura definem o layout do email. Arraste e solte uma **Estrutura** na tela para iniciar a criação do conteúdo de email."
+>abstract="Os componentes de estrutura definem o layout do email. Arraste e solte uma **Estrutura** na tela para iniciar a criação do conteúdo de email."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="Adicionar componentes da estrutura"
->abstract="Componentes da estrutura definem o layout da landing page. Arraste e solte uma **Estrutura** na tela para começar a projetar o conteúdo da página de aterrissagem."
+>abstract="Os componentes de estrutura definem o layout da página de destino. Arraste e solte uma **Estrutura** na tela para começar a projetar o conteúdo da página de aterrissagem."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Adicionar componentes da estrutura"
->abstract="Componentes da estrutura definem o layout do fragmento. Arraste e solte uma **Estrutura** na tela para começar a projetar o conteúdo do fragmento."
+>abstract="Os componentes de estrutura definem o layout do fragmento. Arraste e solte uma **Estrutura** na tela para começar a projetar o conteúdo do fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="Adicionar componentes da estrutura"
->abstract="Componentes da estrutura definem o layout do modelo. Arraste e solte uma **Estrutura** na tela para começar a projetar o conteúdo do modelo."
+>abstract="Os componentes de estrutura definem o layout do modelo. Arraste e solte uma **Estrutura** na tela para começar a projetar o conteúdo do modelo."
 
 
 >[!CONTEXTUALHELP]
@@ -110,13 +110,11 @@ Para começar a criar seu conteúdo, siga as etapas abaixo:
 
    ![](assets/email_designer_links.png)
 
-1. Se necessário, é possível personalizar ainda mais seu conteúdo clicando em **[!UICONTROL Alternar para editor de código]** na parte superior **Mais** botão. [Saiba mais sobre o editor de código](code-content.md)
-
-   ![](assets/email_designer_switch-to-code.png)
+1. Se necessário, você pode personalizar ainda mais seu email clicando em **[!UICONTROL Alternar para editor de código]** no menu avançado. Isso permite editar o código-fonte do email, por exemplo, para adicionar rastreamento ou tags de HTML personalizadas. [Saiba mais sobre o editor de código](code-content.md)
 
    >[!CAUTION]
    >
-   >Não é possível reverter para o designer visual desse conteúdo após alternar para o editor de código.
+   >Não é possível reverter para o designer visual desse email após alternar para o editor de código.
 
 1. Quando o conteúdo estiver pronto, clique no botão **[!UICONTROL Simular conteúdo]** para verificar a renderização. Você pode escolher a área de trabalho ou exibição móvel. [Saiba mais sobre como visualizar seu email](preview.md)
 

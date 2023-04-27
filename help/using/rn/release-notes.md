@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 81%
+source-wordcount: '1859'
+ht-degree: 82%
 
 ---
 
@@ -24,9 +24,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ## Notas de versão antecipadas de abril de 2023 {#apr-e-rn-2023}
 
-As informações abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilização da versão. A documentação atualizada será publicada na data de lançamento, e os links diretos serão adicionados a esta página.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Data de lançamento**: 27 de abril de 2023
+**Release date**: April 27, 2023-->
 
 ### Novos recursos{#apr-2023-features}
 
@@ -42,7 +42,7 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 <td>
 <p>A Adobe Journey Optimizer está expandindo seus recursos entre canais adicionando suporte para canal da Web. Agora é possível criar, alterar e visualizar experiências da Web como qualquer outro canal, por meio de uma interface visual inteligente e intuitiva para personalizar a experiência dos usuários finais. Observe que, atualmente, no Journey Optimizer, você só pode criar experiências da Web em campanhas.</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Para obter mais informações, consulte a <a href="../web/get-started-web.md">documentação detalhada</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -65,27 +65,27 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Novo painel do Jornada (beta)</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> O painel de Jornadas agora é dividido em duas guias:</p>
-<ul><li>Use o <strong>Visão geral</strong> para acessar um novo painel que exibe as métricas principais relacionadas às suas jornadas.</li>
-<li>Use o <strong>Procurar</strong> para acessar a lista de todas as jornadas.</li></ul>
-<p>Esse recurso pode ser acessado em todas as jornadas como um beta público.</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
@@ -107,14 +107,14 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 
 **Jornadas**
 
-* A tela jornada agora exibe a ID da atividade nos nós de ação e tags finais. Isso melhora o relatório e o redirecionamento.
+* A tela jornada agora exibe a ID da atividade nas atividades de mensagem e tags finais. Isso melhora o relatório e o redirecionamento.
 * O layout do painel de configuração, que aparece em ações, fontes de dados, eventos e jornadas, foi aprimorado.
 * Novas grades de proteção foram adicionadas ao jornada:
-   * O número de nós em uma jornada agora está limitado a 50 no máximo
-   * O número de jornadas ativas em uma organização agora está limitado ao máximo de 100. Jornadas no modo de teste não são consideradas.
+   * O número de atividades em uma jornada agora está limitado a 50. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
+   * O número de **jornadas ao vivo** em uma organização, agora está limitada a 100 por sandbox. Jornadas no modo de teste não são consideradas. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
 
-* Ao adicionar uma ação de Email, SMS ou Push em uma jornada, a superfície agora é pré-preenchida, por padrão, com a última superfície usada para esse canal.
-* Agora é possível definir parâmetros de consulta estáticos ou dinâmicos em suas ações personalizadas.
+* Ao adicionar uma [Email](../email/create-email.md), [SMS](../sms/create-sms.md) ou [Empurrar](../push/create-push.md) em uma jornada, a superfície agora é pré-preenchida, por padrão, com a última superfície usada para esse canal, na jornada atual.
+* Agora é possível definir parâmetros de consulta estáticos ou dinâmicos em suas ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#url-configuration)
 
 **Relatórios**
 
@@ -190,6 +190,8 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 * Na tela da jornada, o rótulo da tag **Fim** não é mais definida automaticamente com o nome da atividade anterior. Os usuários podem adicionar manualmente um rótulo personalizado, se necessário.
 * O tempo limite padrão e a duração de erro nas propriedades da jornada foram alterados de 5 para 30 segundos. [Saiba mais](../configuration/external-systems.md#timeout)
 * A taxa de limitação padrão em atividades de segmento de leitura foi alterada de 20.000 para 5.000 mensagens por segundo. [Saiba mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Uma garantia foi adicionada ao modo de teste para ouvir apenas os eventos enviados pela interface. Os eventos enviados por uma ferramenta externa não são considerados. [Saiba mais](../building-journeys/testing-the-journey.md)
+
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.

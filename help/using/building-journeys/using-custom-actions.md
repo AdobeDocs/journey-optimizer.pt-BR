@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: ação, personalizado, API, jornada, configuração, serviço
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 25%
+source-wordcount: '400'
+ht-degree: 26%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom"
 >title="Ações personalizadas"
->abstract="As ações personalizadas permitem configurar a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API. Uma ação pode ser configurada com qualquer serviço de qualquer provedor que possa ser chamado por meio de uma REST API com uma carga útil formatada em JSON."
+>abstract="As ações personalizadas permitem configurar a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API. Uma ação pode ser configurada com qualquer serviço de qualquer provedor que possa ser chamado por meio de uma REST API com conteúdo formatado em JSON."
 
-As ações personalizadas permitem configurar a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API. Uma ação pode ser configurada com qualquer serviço de qualquer provedor que possa ser chamado por meio de uma REST API com uma carga útil formatada em JSON.
+As ações personalizadas permitem configurar a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API. Uma ação pode ser configurada com qualquer serviço de qualquer provedor que possa ser chamado por meio de uma REST API com conteúdo formatado em JSON.
 
 ## Consentimento e governança de dados {#privacy}
 
@@ -55,18 +55,13 @@ O URL concatenado tem este formulário:
 
 ![](assets/journey-custom-action-url.png)
 
-### Cabeçalhos
+### Cabeçalhos e parâmetros de consulta {#headers}
 
-O **[!UICONTROL Configuração de URL]** mostra os campos de cabeçalho dinâmicos, mas não os campos de cabeçalho constantes. Os campos de cabeçalho dinâmicos são campos de cabeçalho HTTP cujo valor é configurado como uma variável. [Saiba mais](../action/about-custom-action-configuration.md).
+O **[!UICONTROL Configuração de URL]** mostra o cabeçalho dinâmico e os campos de parâmetro de consulta, mas não os campos constantes. Os campos de cabeçalho dinâmico e parâmetro de consulta são definidos como variáveis na tela de configuração de ação. [Saiba mais](../action/about-custom-action-configuration.md#url-configuration)
 
-Se necessário, especifique o valor dos campos de cabeçalho dinâmico:
+Para especificar o valor dos campos dynamic header e query parameter , clique dentro do campo ou no ícone de lápis e selecione o campo desejado.
 
-1. Selecione a ação personalizada na jornada.
-1. No painel de configuração, clique no ícone de lápis ao lado do campo de cabeçalho no **[!UICONTROL Configuração de URL]** seção.
-
-   ![](assets/journey-dynamicheaderfield.png)
-
-1. Selecione um campo e clique em **[!UICONTROL OK]**.
+![](assets/journey-dynamicheaderfield.png)
 
 ## Parâmetros de ação
 

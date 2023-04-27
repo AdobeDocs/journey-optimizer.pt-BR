@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 4%
+source-wordcount: '699'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
 >title="Criação de mensagens por push"
->abstract="Adicione sua mensagem de push e comece a personalizá-la com o editor de expressão."
+>abstract="Adicione sua mensagem por push e comece a personalizá-la com o editor de expressão."
 
 ## Criar a notificação por push em uma jornada ou campanha {#create}
 
@@ -34,7 +34,7 @@ Para criar uma notificação por push, siga as etapas abaixo:
 
    ![](assets/push_create_1.png)
 
-1. Forneça informações básicas sobre a mensagem (rótulo, descrição, categoria) e escolha a superfície da mensagem a ser usada.
+1. Forneça informações básicas sobre a mensagem (rótulo, descrição, categoria) e escolha a superfície da mensagem a ser usada. O **[!UICONTROL Superfície]** por padrão, o campo é preenchido previamente com a última superfície usada para esse canal pelo usuário.
 
    ![](assets/push_create_2.png)
 
@@ -46,7 +46,7 @@ Para criar uma notificação por push, siga as etapas abaixo:
 
 1. Na tela de configuração da jornada, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo de push. [Criar uma notificação por push](design-push.md)
 
-1. Após definir o conteúdo da mensagem, é possível usar perfis de teste para pré-visualizá-lo e testá-lo.
+1. Após definir o conteúdo da mensagem, é possível usar perfis de teste para visualizar e testar o conteúdo.
 
 1. Quando o push estiver pronto, conclua a configuração do [jornada](../building-journeys/journey-gs.md) para enviá-lo.
 
@@ -81,7 +81,7 @@ Para criar uma notificação por push, siga as etapas abaixo:
 
 1. Na tela de configuração da campanha, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo de push. [Criar uma notificação por push](design-push.md)
 
-1. Após definir o conteúdo da mensagem, é possível usar perfis de teste para pré-visualizá-lo e testá-lo.
+1. Após definir o conteúdo da mensagem, é possível usar perfis de teste para visualizar e testar o conteúdo.
 
 1. Quando o push estiver pronto, conclua a configuração do [campanha](../campaigns/create-campaign.md) para enviá-lo.
 
@@ -99,7 +99,7 @@ Para criar uma notificação por push, siga as etapas abaixo:
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Modo de entrega rápida"
->abstract="O modo de entrega rápida permite que você execute o envio de mensagens de alta velocidade no canal de push para um tamanho de público-alvo inferior a 30M."
+>abstract="O modo de entrega rápida permite que você execute o envio de mensagens de alta velocidade no canal de push para um tamanho de público inferior a 30 milhões."
 
 O modo de entrega rápida, anteriormente conhecido como modo Burst no jornada, é um [!DNL Journey Optimizer] que permite o envio muito rápido de mensagens de push em grandes volumes por meio de campanhas.
 

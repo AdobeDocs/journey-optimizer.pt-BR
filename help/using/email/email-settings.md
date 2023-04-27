@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 1%
+source-wordcount: '1739'
+ht-degree: 9%
 
 ---
 
@@ -39,7 +39,7 @@ A configuração da superfície do email é selecionada para enviar comunicaçõ
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definir a categoria de email"
->abstract="Selecione o tipo de emails que será enviado ao usar esta superfície: Marketing para emails promocionais, que exigem consentimento do usuário, ou Transacional para emails não comerciais, que também podem ser enviados para perfis sem assinatura em contextos específicos."
+>abstract="Selecione o tipo de email que será enviado usando essa superfície: Marketing para emails promocionais, que exigem consentimento do usuário, ou Transacional para emails não comerciais, que também podem ser enviados para perfis sem assinatura em contextos específicos."
 
 No **TIPO DE EMAIL** selecione o tipo de mensagem que será enviada com a superfície: **Marketing** ou **Transacional**.
 
@@ -190,8 +190,8 @@ Se ocorrer um erro ao enviar a superfície do email, significa que o registro MX
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
->title="Ajustar o período de tempo de nova tentativa"
->abstract="As tentativas são executadas por 3,5 dias (84 horas) quando um delivery de email falha devido a um erro temporário de devolução temporária. Você pode ajustar esse período de tentativas padrão para atender melhor às suas necessidades."
+>title="Ajustar o período de nova tentativa"
+>abstract="As tentativas são executadas por 3,5 dias (84 horas) quando uma entrega de email falha devido a um erro de rejeição temporária. Você pode ajustar esse período de tentativas padrão para atender melhor às suas necessidades."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="Sobre tentativas"
 
 Você pode configurar o **Parâmetros de nova tentativa de email**.
@@ -213,14 +213,14 @@ Saiba mais sobre tentativas em [esta seção](../configuration/retries.md).
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
 >title="Definir parâmetros de rastreamento de URL"
->abstract="Use esta seção para anexar automaticamente parâmetros de rastreamento aos URLs presentes no seu conteúdo de email. Este recurso é opcional."
+>abstract="Use essa seção para anexar automaticamente parâmetros de rastreamento aos URLs presentes no seu conteúdo de email. Esse recurso é opcional."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
 >title="Visualizar parâmetros de rastreamento do URL"
 >abstract="Analise como os parâmetros de rastreamento serão anexados aos URLs presentes no seu conteúdo de email."
 
-Você pode usar **[!UICONTROL Parâmetros de rastreamento de URL]** para medir a eficácia de seus esforços de marketing em todos os canais. Este recurso é opcional.
+Você pode usar **[!UICONTROL Parâmetros de rastreamento de URL]** para medir a eficácia de seus esforços de marketing em todos os canais. Esse recurso é opcional.
 
 Os parâmetros definidos nesta seção serão anexados ao final dos URLs incluídos no conteúdo da mensagem de email. Em seguida, você pode capturar esses parâmetros em ferramentas de análise da Web, como Adobe Analytics ou Google Analytics, e criar vários relatórios de desempenho.
 
@@ -243,9 +243,23 @@ Para configurar um parâmetro de rastreamento de URL, você pode inserir diretam
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-Também é possível editar cada **[!UICONTROL Valor]** usando o [Editor de expressão](../personalization/personalization-build-expressions.md). Clique no ícone de edição para abrir o editor. A partir daí, é possível selecionar os atributos contextuais de sua escolha e/ou editar diretamente o texto.
+Também é possível editar cada **[!UICONTROL Valor]** usando o [Editor de expressão](../personalization/personalization-build-expressions.md). Clique no ícone de edição para abrir o editor. A partir daí, é possível selecionar os atributos contextuais disponíveis e/ou editar diretamente o texto.
 
 ![](assets/preset-url-tracking-editor.png)
+
+Os seguintes valores predefinidos estão disponíveis no Editor de expressão:
+
+* **ID da ação de origem**: ID da ação Email adicionada à jornada ou campanha.
+
+* **Nome da ação de origem**: nome da ação Email adicionada à jornada ou campanha.
+
+* **ID de origem**: ID da jornada ou campanha para a qual o email foi enviado.
+
+* **Nome da origem**: nome da jornada ou campanha para a qual o email foi enviado.
+
+* **ID da versão de origem**: ID da versão da jornada ou campanha para a qual o email foi enviado.
+
+* **ID da oferta**: ID da oferta usada no email.
 
 >[!NOTE]
 >
