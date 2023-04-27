@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c523783b0984a36f919a581053e994ca131a0115
+source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
 workflow-type: tm+mt
 source-wordcount: '1897'
 ht-degree: 81%
@@ -41,7 +41,7 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 <tr>
 <td>
 <p>A Adobe Journey Optimizer está expandindo seus recursos entre canais adicionando suporte para canal da Web. Agora é possível criar, alterar e visualizar experiências da Web como qualquer outro canal, por meio de uma interface visual inteligente e intuitiva para personalizar a experiência dos usuários finais. Observe que, atualmente, no Journey Optimizer, você só pode criar experiências da Web em campanhas.</p>
-<img src="assets/do-not-localize/create-web-campaign.gif"/>
+<img src="assets/do-not-localize/web-authoring.gif"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
