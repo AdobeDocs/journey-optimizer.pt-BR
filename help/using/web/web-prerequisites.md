@@ -5,14 +5,15 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
+source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '835'
 ht-degree: 11%
 
 ---
 
-# Pré-requisitos do canal da Web {#web-prerequisites}
+# Pré-requisitos e medidas de proteção {#web-prerequisites}
 
 Para acessar e criar páginas da Web no [!DNL Journey Optimizer] na interface do usuário, siga os pré-requisitos abaixo:
 
@@ -21,6 +22,13 @@ Para acessar e criar páginas da Web no [!DNL Journey Optimizer] na interface do
 * Para acessar o [!DNL Journey Optimizer] web designer, você deve ter uma extensão de navegador Google Chrome específica instalada. [Saiba mais](#visual-authoring-prerequesites)
 
 * Para que a experiência da Web seja entregue corretamente, defina as configurações do Adobe Experience Platform detalhadas [here](#delivery-prerequisites).
+
+## Precauções
+
+Atualmente em [!DNL Journey Optimizer] você só pode criar experiências da web usando **campanhas**. [Saiba mais](../campaigns/create-campaign.md#configure)
+
+
+[!DNL Journey Optimizer] campanhas da Web segmentam novos perfis que não foram envolvidos antes em outros canais. Isso aumentará sua contagem total de perfis envolventes, o que pode ter implicações de custo se o número contratual de perfis envolventes comprados for excedido. As métricas de licença para cada pacote estão listadas no [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html) página.
 
 ## Pré-requisitos da implementação {#implementation-prerequisites}
 
@@ -123,6 +131,3 @@ Para que a experiência da Web seja entregue corretamente, as seguintes configur
 Branded domains for assets
 
 When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)-->
-
-
-

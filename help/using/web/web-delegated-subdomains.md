@@ -8,9 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: web, subdomínios, configuração
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
+source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -29,8 +30,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="Definir um subdomínio padrão"
->abstract="Você pode criar vários subdomínios da Web, mas somente o subdomínio padrão será usado. Você pode alterar o subdomínio da Web padrão, mas somente um pode ser usado de cada vez."
+>title="Definir um subdomínio da Web"
+>abstract="Selecione um subdomínio da lista de subdomínios delegados ao Adobe. É possível definir esse subdomínio da Web como padrão, mas apenas um subdomínio padrão pode ser usado de cada vez."
 
 Ao criar experiências da Web, se você adicionar conteúdo proveniente do [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) , você deve configurar o subdomínio que será usado para publicar esse conteúdo.
 
@@ -67,11 +68,15 @@ Você pode criar vários subdomínios da Web, mas somente a variável **default*
 
    >[!NOTE]
    >
-   >Somente a variável **default** será usado. Você pode alterar o subdomínio da Web padrão, mas somente um pode ser usado de cada vez.
+   >Somente a variável **default** será usado.
 
 1. Clique em **[!UICONTROL Enviar]**. O subdomínio obtém a variável **[!UICONTROL Sucesso]** status. Ele está pronto para ser usado em suas experiências da Web.
 
 1. O **[!UICONTROL Padrão]** o selo é exibido ao lado do subdomínio que está sendo usado como padrão no momento. Para alterar o subdomínio padrão, selecione **[!UICONTROL Definir como padrão]** do **[!UICONTROL Mais ações]** ao lado do subdomínio desejado.
+
+   >[!NOTE]
+   >
+   >Você pode alterar o subdomínio da Web padrão, mas somente um pode ser usado de cada vez.
 
    ![](assets/web-subdomain-default.png)
 
@@ -80,4 +85,3 @@ Você pode criar vários subdomínios da Web, mas somente a variável **default*
 1. Você só pode excluir um **[!UICONTROL Falha]** subdomínio para limpar a lista. Para fazer isso, selecione **[!UICONTROL Excluir]** do **[!UICONTROL Mais ações]** ao lado do subdomínio desejado.
 
 <!--You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
-
