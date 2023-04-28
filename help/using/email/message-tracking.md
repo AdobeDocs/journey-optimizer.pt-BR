@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 8%
+source-wordcount: '885'
+ht-degree: 7%
 
 ---
 
@@ -86,7 +86,7 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
 >[!NOTE]
 >
->As mensagens de email de tipo de marketing devem incluir um [link para opção de não participação](../privacy/opt-out.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definido na variável [superfície do canal](../configuration/channel-surfaces.md#email-type) (ou seja, predefinição de mensagem) ao criar a mensagem.
+>As mensagens de email de tipo de marketing devem incluir um [link para opção de não participação](../privacy/opt-out.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definido na variável [superfície do canal](../configuration/channel-surfaces.md#email-type) ao criar a mensagem.
 
 ## Link para uma mirror page {#mirror-page}
 
@@ -132,3 +132,29 @@ O [Email Designer](content-from-scratch.md) permite gerenciar os URLs rastreados
    * **[!UICONTROL Nunca]**: Nunca ativa o rastreamento desse URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 Os relatórios sobre aberturas e cliques estão disponíveis no [Relatório ao vivo](../reports/live-report.md) e na [Relatório global](../reports/global-report.md).
+
+## Rastreamento de URL {#url-tracking}
+
+Normalmente [Rastreamento de URL](email-settings.md#url-tracking) é gerenciado no nível da superfície, mas os atributos do perfil não são suportados. Atualmente, a única maneira de fazer isso é [personalizar URLs](../personalization/personalization-syntax.md#perso-urls) no designer de email.
+
+Para adicionar parâmetros de rastreamento de URL personalizados aos links, siga as etapas abaixo.
+
+1. Selecione um link e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
+
+1. Selecione o ícone de personalização. Ela só está disponível para esses tipos de links: **Link externo**, **Link de cancelamento de assinatura** e **Opção de rejeição**.
+
+   ![](assets/message-tracking-insert-link-perso.png)
+
+1. Adicione o parâmetro de rastreamento do URL e selecione o atributo de perfil de sua escolha no editor de expressão.
+
+   ![](assets/message-tracking-perso-parameter.png)
+
+1. Salve as alterações.
+
+1. Repita as etapas acima para cada link ao qual deseja adicionar este parâmetro de rastreamento.
+
+Agora, quando o email for enviado, esse parâmetro será anexado automaticamente ao final do URL. Em seguida, você pode capturar esse parâmetro em ferramentas de análise da Web ou em relatórios de desempenho.
+
+>[!NOTE]
+>
+>Para verificar o URL final, é possível [enviar uma prova](preview.md#send-proofs) e clique no link no conteúdo do email depois de receber a prova. O URL deve exibir o parâmetro de rastreamento. No exemplo acima, o URL final será: https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number
