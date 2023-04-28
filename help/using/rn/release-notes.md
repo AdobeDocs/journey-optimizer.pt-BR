@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c2ce36d65df939f2445f783eea7376b0765bdcd7
+source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1860'
 ht-degree: 82%
 
 ---
@@ -117,7 +117,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Relatórios**
 
-* Agora é possível exportar relatórios do Journey Optimizer como PDF.
+* Agora é possível exportar relatórios do Journey Optimizer como PDF. [Saiba mais](../reports/global-report.md#export-reports)
 
 **Designer de conteúdo**
 
