@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 68a1a36c06b430d3fbb614ca24cc1e87399e1f38
+source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 9%
+source-wordcount: '1779'
+ht-degree: 8%
 
 ---
 
@@ -263,3 +263,7 @@ Abaixo estão exemplos de URLs compatíveis com Adobe Analytics e Google Analyti
 Você pode visualizar dinamicamente o URL de rastreamento resultante. Cada vez que você adiciona, edita ou remove um parâmetro, a visualização é atualizada automaticamente.
 
 ![](assets/preset-url-tracking-preview.png)
+
+>[!NOTE]
+>
+>Você também pode adicionar parâmetros de rastreamento dinâmico e personalizado aos links presentes no seu conteúdo de email, mas isso não é possível no nível da superfície. É necessário fazer isso ao criar sua mensagem usando o designer de email. [Saiba mais](message-tracking.md#url-tracking)
