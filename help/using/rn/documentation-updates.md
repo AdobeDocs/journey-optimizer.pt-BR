@@ -4,7 +4,7 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 126d3afcca9801cddeff451fac60f469905f3b85
 workflow-type: tm+mt
 source-wordcount: '2711'
 ht-degree: 94%
@@ -23,7 +23,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Uma nota foi adicionada para especificar que, se forem feitas alterações em uma decisão de oferta que esteja sendo usada em uma mensagem de jornada, será necessário desfazer a publicação da jornada e republicá-la. [Leia mais](../building-journeys/publishing-the-journey.md)
 * Explicação sobre como se certificar de que os eventos são corretamente contabilizados no contador de limites foi esclarecida na gestão de decisões **Evento de limitação** seção. [Leia mais](../offers/offer-library/add-constraints.md#capping-event)
 * Uma nova seção foi adicionada à **Alterar endereços de execução** página. Especifica que é possível substituir o campo de execução definido globalmente nos parâmetros avançados do jornada, mas a substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, o valor é definido como o endereço principal nos **Campos de execução** é o que deve ser usado. [Leia mais](../configuration/primary-email-addresses.md#journey-parameters)
-* O **Rastreamento de URL** agora fornece a lista e a descrição de todos os atributos contextuais que podem ser definidos para rastreamento de URL em uma superfície de canal de email. [Leia mais](../offers/offer-library/add-constraints.md)
+* O **Rastreamento de URL** agora fornece a lista e a descrição de todos os atributos contextuais que podem ser definidos para rastreamento de URL em uma superfície de canal de email. [Leia mais](../email/email-settings.md#url-tracking)
 
 ## Março de 2023 {#march-2023}
 
