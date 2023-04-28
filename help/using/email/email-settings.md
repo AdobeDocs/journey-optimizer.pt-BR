@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
+source-git-commit: 68a1a36c06b430d3fbb614ca24cc1e87399e1f38
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 9%
@@ -224,26 +224,11 @@ Você pode usar **[!UICONTROL Parâmetros de rastreamento de URL]** para medir a
 
 Os parâmetros definidos nesta seção serão anexados ao final dos URLs incluídos no conteúdo da mensagem de email. Em seguida, você pode capturar esses parâmetros em ferramentas de análise da Web, como Adobe Analytics ou Google Analytics, e criar vários relatórios de desempenho.
 
-<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
-
 Você pode adicionar até 10 parâmetros de rastreamento usando a variável **[!UICONTROL Adicionar novo parâmetro]** botão.
 
 ![](assets/preset-url-tracking.png)
 
 Para configurar um parâmetro de rastreamento de URL, você pode inserir diretamente os valores desejados no **[!UICONTROL Nome]** e **[!UICONTROL Valor]** campos.
-
-<!--You can also choose from a list of predefined values by navigating to the following objects:
-* Journey attributes: **Source id**, **Source name**, **Source version id**
-* Action attributes: **Action id**, **Action name**
-* Offer decisioning attributes: **Offer id**, **Offer name**
-
-
-
->[!CAUTION]
->
->Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
-
-![](assets/preset-url-tracking-source.png)
 
 Também é possível editar cada **[!UICONTROL Valor]** usando o [Editor de expressão](../personalization/personalization-build-expressions.md). Clique no ícone de edição para abrir o editor. A partir daí, é possível selecionar os atributos contextuais disponíveis e/ou editar diretamente o texto.
 
