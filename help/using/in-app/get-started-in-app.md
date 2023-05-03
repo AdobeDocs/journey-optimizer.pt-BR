@@ -8,34 +8,34 @@ level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
 # Introdução ao canal no aplicativo {#gs-in-app}
 
-As mensagens no aplicativo são notificações que podem ser enviadas aos usuários dentro do aplicativo, guiando-as para pontos de interesse específicos. Essas notificações podem ser usadas para diferentes propósitos, como a promoção de novos recursos, a apresentação de ofertas especiais ou a facilitação da integração de usuários. Ao utilizar as mensagens no aplicativo, você pode interagir com seu público e direcioná-las para aspectos importantes de seu aplicativo.
+As mensagens no aplicativo são notificações que podem ser enviadas aos usuários dentro do aplicativo, guiando-os para pontos de interesse específicos. Essas notificações podem ser usadas para diferentes propósitos, como a promoção de novos recursos, a apresentação de ofertas especiais ou a facilitação da integração de usuários. Ao utilizar as mensagens no aplicativo, você pode interagir com seu público de forma eficaz e direcioná-lo para aspectos importantes de seu aplicativo.
 
-Use o Journey Optimizer para criar notificações no aplicativo e configurar as opções de experiência, incluindo o layout e a exibição da mensagem, o texto e as opções de botão.
+Use o Journey Optimizer para criar notificações no aplicativo e configurar as opções de experiência, incluindo o layout e a exibição de mensagem, texto e as opções de botão.
 
 ## Pré-requisitos{#prerequisites-in-app}
 
 Antes de enviar mensagens no aplicativo, é necessário:
 
-* Configure o canal no aplicativo. [Saiba mais](inapp-configuration.md)
+* Configurar o canal no aplicativo. [Saiba mais](inapp-configuration.md)
 
 * Verifique se você tem as permissões corretas nas campanhas do Journey Optimizer antes de começar. [Saiba mais](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
-Depois de concluída, você pode criar, configurar e enviar sua primeira mensagem no aplicativo. Saiba como fazer isso em [esta seção](create-in-app.md).
+Depois de concluída, você pode criar, configurar e enviar sua primeira mensagem no aplicativo. Saiba como fazer isso [nesta seção](create-in-app.md).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-in-app.md">
 <img alt="Cliente potencial" src="../assets/do-not-localize/inapp-create.jpeg">
 </a>
-<div><a href="create-in-app.md"><strong>Criar mensagem no aplicativo</strong>
+<div><a href="create-in-app.md"><strong>Criar uma mensagem no aplicativo</strong>
 </div>
 <p>
 </td>
