@@ -2,32 +2,32 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introdução às páginas de destino
-description: Saiba mais sobre landing pages no Journey Optimizer
+description: Saiba mais sobre páginas de destino no Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-keywords: inicial, página de aterrissagem, início, obter início
+keywords: destino, página de destino, início, introdução
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
 # Introdução às páginas de destino {#get-sarted-lp}
 
-Uma página de aterrissagem é uma página da Web independente para a qual o usuário é direcionado depois de clicar por email, por um site, por um anúncio ou por qualquer outro local digital.
+Uma página de destino é uma página da Web independente para a qual o usuário é direcionado depois de clicar em um email, site, anúncio ou qualquer outro local digital.
 
-[!DNL Journey Optimizer] O permite criar e criar páginas de aterrissagem para direcionar seus usuários para formulários online, onde eles podem aceitar ou recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo.
+O [!DNL Journey Optimizer] permite criar e projetar páginas de destino para direcionar seus usuários a formulários online, em que eles podem aceitar ou recusar receber suas comunicações ou assinar um serviço específico, como um boletim informativo.
 
-➡️ [Saiba mais sobre como configurar assinaturas e criar landing pages neste vídeo](#video)
+➡️ [Saiba mais sobre como configurar assinaturas e criar páginas de destino neste vídeo](#video)
 
-* Aproveitamento [!DNL Journey Optimizer] recursos de design de conteúdo para criar com facilidade **páginas de aterrissagem responsivas**.
-* Configurar **fluxos de participação e não participação** rápida e perfeitamente.
-* Criar listas de subscrição para permitir aos utilizadores **assinar um serviço**. [Leia mais](lp-use-cases.md#subscription-to-a-service)
-* Forneça aos recipients a **capacidade de cancelar a assinatura** ao receber suas comunicações. [Leia mais](lp-use-cases.md#opt-out)
+* Aproveite os recursos de design de conteúdo do [!DNL Journey Optimizer] para criar com facilidade **páginas de destino responsivas**.
+* Configure **fluxos de aceitação e recusa** de forma rápida e fácil.
+* Criar listas de assinaturas para permitir que usuários **assinem um serviço**. [Leia mais](lp-use-cases.md#subscription-to-a-service)
+* Forneça aos destinatários a **capacidade de cancelar inscrição** ao receber suas comunicações. [Leia mais](lp-use-cases.md#opt-out)
 * Envie um **email de confirmação** após a aceitação ou recusa. [Leia mais](lp-use-cases.md#send-confirmation-email)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -35,7 +35,7 @@ Uma página de aterrissagem é uma página da Web independente para a qual o usu
 <a href="create-lp.md">
 <img alt="Cliente potencial" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="create-lp.md"><strong>Criar landing pages</strong>
+<div><a href="create-lp.md"><strong>Criar páginas de destino</strong>
 </div>
 <p>
 </td>
@@ -52,7 +52,7 @@ Uma página de aterrissagem é uma página da Web independente para a qual o usu
 <img alt="Validação" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
-<a href="design-lp.md"><strong>Páginas de aterrissagem de design</strong></a>
+<a href="design-lp.md"><strong>Projetar páginas de destino</strong></a>
 </div>
 <p>
 </td>
@@ -67,8 +67,8 @@ Uma página de aterrissagem é uma página da Web independente para a qual o usu
 </td>
 </tr></table>
 
-## Vídeo tutorial{#video}
+## Vídeo explicativo{#video}
 
-O vídeo abaixo mostra como criar uma lista de assinaturas, configurar landing pages para oferecer assinaturas ou cancelar assinaturas de um serviço, integrar a opção (un)subscrição a uma mensagem e configurar jornadas relevantes.
+O vídeo abaixo mostra como criar uma lista de assinaturas, configurar páginas de destino para oferecer assinaturas ou cancelar assinaturas de um serviço, integrar a opção de assinatura ou cancelamento a uma mensagem e configurar jornadas relevantes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
