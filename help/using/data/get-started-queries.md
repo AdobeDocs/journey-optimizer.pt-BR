@@ -6,26 +6,26 @@ description: Saiba como criar consultas no Adobe Journey Optimizer
 feature: Schemas
 role: User
 level: Beginner
-keywords: queries, plataforma, dados, exploração
+keywords: consultas, plataforma, dados, exploração
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
 # Introdução a consultas {#queries-gs}
 
-O Editor de consultas é uma ferramenta interativa fornecida pelo Serviço de consultas da Adobe Experience Platform, que permite gravar, validar e executar consultas para dados de experiência do cliente no [!DNL Adobe Journey Optimizer] interface do usuário.
+O Editor de consulta é uma ferramenta interativa fornecida pelo Serviço de consulta da Adobe Experience Platform que permite gravar, validar e executar consultas para dados de experiência do cliente na interface [!DNL Adobe Journey Optimizer].
 
-O Editor de consultas oferece suporte ao desenvolvimento de consultas para análise e exploração de dados e permite que você execute consultas interativas para fins de desenvolvimento, bem como consultas não interativas para preencher [conjuntos de dados](get-started-datasets.md).
+O Editor de consulta oferece suporte ao desenvolvimento de consultas para análise e exploração de dados e permite que você execute consultas interativas para fins de desenvolvimento, bem como consultas não interativas para preencher [conjuntos de dados](get-started-datasets.md).
 
 ![](assets/queries-home.png)
 
-Saiba como usar o Editor de consultas no [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target="_blank"}.
+Saiba como usar o Editor de consulta [nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=pt-BR){target="_blank"}.
 
 **Consulte também**
 
-* [Documentação do Serviço de query](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR){target="_blank"}
-* [Vídeo de visão geral do Serviço de query](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=pt-BR){target="_blank"}
+* [Documentação do Serviço de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR){target="_blank"}
+* [Vídeo de visão geral do serviço de consulta](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=pt-BR){target="_blank"}
