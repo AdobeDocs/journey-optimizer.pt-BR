@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introdução ao estilo de email
-description: Descubra as diferentes maneiras de ajustar o estilo do conteúdo do email
+description: Descubra as diferentes maneiras de ajustar o estilo do conteúdo de email
 feature: Overview
 topic: Content Management
 role: User
@@ -10,15 +10,15 @@ level: Intermediate
 keywords: email, estilo, css, corpo, estrutura
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 # Introdução ao estilo de email {#get-started-email-style}
 
-Depois de começar a criar o conteúdo de email em [!DNL Journey Optimizer], é possível ajustar diversos parâmetros e atributos de estilo do painel de configurações do Designer de email.
+Depois de começar a criar o conteúdo de email em [!DNL Journey Optimizer], é possível ajustar diversos parâmetros e atributos de estilo no painel de configurações do Designer de email.
 
 Você pode aplicar as alterações ao corpo do email, a um componente de estrutura ou a um componente de conteúdo.
 
@@ -27,6 +27,6 @@ Você pode aplicar as alterações ao corpo do email, a um componente de estrutu
 Siga os links abaixo para descobrir como ajustar algumas das configurações de estilo no seu email.
 
 * Saiba como [personalizar o plano de fundo do email](backgrounds.md)
-* Saiba como [gerenciar alinhamento vertical e preenchimento](alignment-and-padding.md)
+* Saiba como [gerenciar o alinhamento vertical e o preenchimento](alignment-and-padding.md)
 * Saiba como [definir um estilo para os links no seu email](styling-links.md)
 * Saiba como [personalizar atributos de estilo em linha](inline-styling.md)
