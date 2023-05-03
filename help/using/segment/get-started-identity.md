@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução às identidades no Journey Optimizer
+title: Introdução a Identidades no Journey Optimizer
 description: Saiba como gerenciar identidades no Adobe Journey Optimizer
 feature: Profiles
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
@@ -18,24 +18,24 @@ ht-degree: 18%
 
 Uma identidade são dados exclusivos de uma entidade, normalmente uma pessoa individual. Uma identidade como uma ID de logon, ECID ou ID de fidelidade é chamada de identidade conhecida.
 
-As Informações pessoais identificáveis (PII), como endereço de email e número de telefone, servem para identificar diretamente um cliente. Como resultado, a PII é usada para corresponder as várias identidades de um cliente em todos os sistemas.
+As Informações de identificação pessoal (PII), como endereço de email e número de telefone, servem para identificar diretamente um cliente. Como resultado, as PII são usadas para corresponder às várias identidades de um cliente nos sistemas.
 
-Na [!DNL Adobe Journey Optimizer], as **Identidades**[ vinculam consumidores em dispositivos e canais, e o resultado é um gráfico de identidade](#id-graph). O gráfico de identidade vinculado é usado para personalizar experiências com base em interações em todos os pontos de contato comerciais.
+No [!DNL Adobe Journey Optimizer], as **Identidades**[ vinculam consumidores em dispositivos e canais, e o resultado é um gráfico de identidade](#id-graph). O gráfico de identidade vinculado é usado para personalizar experiências com base em interações em todos os pontos de contato comerciais.
 
 ![](assets/identities-home.png)
 
-Saiba mais sobre **Serviço de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre **Serviço de identidade** [nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR){target="_blank"}.
 
 ## Namespaces de identidade {#identity-namespaces}
 
-**** Os namespaces de identidade são um componente do Identity Service que serve como indicadores do contexto ao qual uma identidade está relacionada. Por exemplo, eles distinguem um valor de `name@email.com` como endereço de email ou `443522` como uma ID de CRM numérica. Trabalhar com namespaces de identidade requer uma compreensão dos vários serviços da Adobe Experience Platform envolvidos. Antes de começar a trabalhar com namespaces, reveja a documentação dos seguintes serviços:
+Os **namespaces de identidade** são um componente do Serviço de identidade que serve como indicadores do contexto ao qual uma identidade está relacionada. Por exemplo, eles distinguem um valor de `name@email.com` como um endereço de email ou `443522` como uma ID do CRM numérica. Trabalhar com namespaces de identidade requer uma compreensão dos vários serviços envolvidos da Adobe Experience Platform. Antes de começar a trabalhar com namespaces, reveja a documentação dos seguintes serviços:
 
-Saiba mais sobre **Namespaces de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre **Namespaces de identidade** [nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=pt-BR){target="_blank"}.
 
 ## Gráfico de identidade{#id-graph}
 
-O **Gráfico de identidade** é um mapa de relacionamentos entre diferentes identidades de um cliente específico, que fornece uma representação visual de como seu cliente interage com sua marca em diferentes canais. Todos os gráficos de identidade do cliente são gerenciados e atualizados coletivamente pelo Adobe Experience Platform Identity Service em tempo quase real, em resposta às atividades do cliente.
+O **Gráfico de identidade** é um mapa de relacionamentos entre diferentes identidades de um cliente específico, que fornece uma representação visual de como seu cliente interage com sua marca em diferentes canais. Todos os gráficos de identidade do cliente são gerenciados e atualizados coletivamente pelo Serviço de identidade da Adobe Experience Platform em tempo quase real, em resposta à atividade do cliente.
 
-O visualizador do gráfico de identidade em [!DNL Adobe Journey Optimizer] A interface do usuário do permite visualizar e entender melhor quais identidades de cliente são unidas e de que maneiras. O visualizador permite que você arraste e interaja com diferentes partes do gráfico, permitindo examinar relacionamentos de identidade complexos, depurar com mais eficiência e aproveitar o aumento da transparência com a forma como as informações estão sendo utilizadas.
+O visualizador do gráfico de identidade na interface do [!DNL Adobe Journey Optimizer] permite visualizar e entender melhor quais identidades de cliente são unidas e de que maneiras. O visualizador permite que você arraste e interaja com diferentes partes do gráfico, possibilitando examinar relacionamentos de identidade complexos, depurar com mais eficiência e aproveitar o aumento da transparência com a forma como as informações estão sendo utilizadas.
 
-Saiba mais sobre **Gráfico de identidade** em [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html){target="_blank"}.
+Saiba mais sobre **Gráfico de identidade** [nesta documentação](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html?lang=pt-BR){target="_blank"}.
