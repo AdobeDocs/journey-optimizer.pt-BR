@@ -8,20 +8,20 @@ role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 22%
+ht-degree: 100%
 
 ---
 
-# Introdução aos conectores de fontes {#sources-gs}
+# Introdução a conectores de fontes {#sources-gs}
 
-O Adobe Journey Optimizer permite que os dados sejam assimilados de fontes externas e, ao mesmo tempo, fornece a capacidade de estruturar, rotular e aprimorar os dados recebidos usando os serviços da plataforma. Você pode assimilar dados de várias fontes, como aplicativos Adobe, armazenamentos baseados em nuvem, bancos de dados e muitas outras.
+O Adobe Journey Optimizer permite que os dados sejam assimilados de fontes externas e, ao mesmo tempo, fornece a capacidade de estruturar, rotular e aprimorar os dados recebidos usando os serviços do Platform. Você pode assimilar dados de várias fontes, como aplicativos Adobe, armazenamentos baseados na nuvem, bancos de dados e muitas outras.
 
 ![](assets/sources-home.png)
 
-Saiba mais sobre conectores de origem e como configurá-los no Journey Optimizer neste vídeo:
+Saiba mais sobre conectores de fonte e como configurá-los no Journey Optimizer neste vídeo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-Saiba mais sobre como assimilar dados de fontes externas com conectores de origem em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre como assimilar dados de fontes externas com conectores de fontes na [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR){target="_blank"}.
