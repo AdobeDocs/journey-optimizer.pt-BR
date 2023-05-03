@@ -9,25 +9,25 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
 # Introdução a SMS {#get-started-sms}
 
-Use [!DNL Journey Optimizer] para enviar mensagens de texto aos clientes em seus dispositivos móveis. Você pode criar, personalizar e visualizar mensagens em formato de texto no editor de SMS.
+Use o [!DNL Journey Optimizer] para enviar mensagens de texto aos clientes em seus dispositivos móveis. Você pode criar, personalizar e visualizar mensagens em formato de texto no editor de SMS.
 
-Deliveries de SMS podem ser criados:
+Entregas de SMS podem ser criadas:
 
-* Em um **Jornada**: Depois de adicionar uma atividade de SMS na jornada e definir as configurações básicas, use a **[!UICONTROL Ações: SMS]** painel direito para criar o conteúdo da mensagem SMS.
+* Em uma **Jornada**: Depois de adicionar uma atividade de SMS na jornada e definir as configurações básicas, use o painel direito **[!UICONTROL Ações: SMS]** para criar o conteúdo da mensagem de SMS.
 
-   Para obter mais informações sobre como configurar a jornada, consulte esta seção [página](../building-journeys/journey-gs.md).
+   Para obter mais informações sobre como configurar sua jornada, consulte esta [página](../building-journeys/journey-gs.md).
 
-* Em um **Campanha**: Depois de criar uma campanha, selecione SMS como ação e defina configurações básicas.
+* Em uma **Campanha**: Depois de criar uma campanha, selecione SMS como ação e defina as configurações básicas.
 
-   Para obter mais informações sobre como configurar sua campanha, consulte esta seção [página](../campaigns/create-campaign.md#configure).
+   Para obter mais informações sobre como configurar sua campanha, consulte esta [página](../campaigns/create-campaign.md#configure).
 
 
 >[!IMPORTANT]
@@ -39,7 +39,7 @@ Deliveries de SMS podem ser criados:
 <a href="create-sms.md">
 <img alt="Cliente potencial" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-sms.md"><strong>Criar uma mensagem de SMS.</strong>
+<div><a href="create-sms.md"><strong>Criar uma mensagem de SMS</strong>
 </div>
 <p>
 </td>
@@ -71,8 +71,8 @@ Deliveries de SMS podem ser criados:
 </td>
 </tr></table>
 
-## Vídeo tutorial
+## Vídeo explicativo
 
-Saiba como configurar, criar e incluir mensagens SMS nas jornadas do cliente.
+Saiba como configurar, criar e incluir mensagens de SMS nas jornadas do cliente.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
