@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 99%
    + [Configurar correspondência direta](using/direct-mail/direct-mail-configuration.md)
 + Canal da Web{#web}
    + [Introdução ao canal Web](using/web/get-started-web.md)
-   + [Pré-requisitos do canal da Web](using/web/web-prerequisites.md)
+   + [Pré-requisitos do canal web](using/web/web-prerequisites.md)
    + [Criação de experiências da Web](using/web/create-web.md)
    + [Páginas da Web de autor](using/web/author-web.md)
    + [Configurar subdomínios da Web](using/web/web-delegated-subdomains.md)
@@ -357,8 +357,8 @@ ht-degree: 99%
       + [Introdução à coleta de dados](using/offers/data-collection/data-collection.md)
       + [Criar um conjunto de dados para coletar eventos](using/offers/data-collection/create-dataset.md)
       + [Configurar captura de eventos](using/offers/data-collection/schema-requirement.md)
-   + Criar relatórios da Gestão de decisões {#create-reports}
-      + [Trabalhar com eventos de gerenciamento de decisões](using/offers/reports/get-started-events.md)
+   + Criar relatórios de gestão de decisões {#create-reports}
+      + [Trabalhar com eventos de gestão de decisões](using/offers/reports/get-started-events.md)
       + [Acessar campos XDM de eventos](using/offers/reports/xdm-fields.md)
    + Exportar seu catálogo de ofertas {#export-catalog}
       + [Introdução à exportação do catálogo de ofertas ](using/offers/export-catalog/get-started-export.md)
