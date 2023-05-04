@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 126d3afcca9801cddeff451fac60f469905f3b85
 workflow-type: tm+mt
 source-wordcount: '2711'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Abril de 2023 {#apr-2023}
 
-* Todos os novos recursos e aprimoramentos estão surgindo com [!DNL Journey Optimizer] A versão de 23 de abril foi detalhada na documentação. [Leia mais](release-notes.md)
+* Todos os novos recursos e aprimoramentos da versão de abril de 2023 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
 * O Adobe Experience Manager Assets Essentials e o Adobe Stock foram adicionados à página de integração de várias soluções. [Leia mais](../start/ajo-integrations.md)
 * O aviso sobre subdomínios de email de vários níveis não serem permitidos foi removido, pois eles agora são compatíveis. [Leia mais](../configuration/delegate-subdomain.md)
-* Uma nota foi adicionada para especificar que, se forem feitas alterações em uma decisão de oferta que esteja sendo usada em uma mensagem de jornada, será necessário desfazer a publicação da jornada e republicá-la. [Leia mais](../building-journeys/publishing-the-journey.md)
-* Explicação sobre como se certificar de que os eventos são corretamente contabilizados no contador de limites foi esclarecida na gestão de decisões **Evento de limitação** seção. [Leia mais](../offers/offer-library/add-constraints.md#capping-event)
-* Uma nova seção foi adicionada à **Alterar endereços de execução** página. Especifica que é possível substituir o campo de execução definido globalmente nos parâmetros avançados do jornada, mas a substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, o valor é definido como o endereço principal nos **Campos de execução** é o que deve ser usado. [Leia mais](../configuration/primary-email-addresses.md#journey-parameters)
-* O **Rastreamento de URL** agora fornece a lista e a descrição de todos os atributos contextuais que podem ser definidos para rastreamento de URL em uma superfície de canal de email. [Leia mais](../email/email-settings.md#url-tracking)
+* Uma observação foi adicionada para especificar que, se forem feitas alterações em uma decisão de oferta que esteja sendo usada em uma mensagem da jornada, será necessário desfazer a publicação da jornada e republicá-la. [Leia mais](../building-journeys/publishing-the-journey.md)
+* A explicação sobre como se certificar de que os eventos foram corretamente contabilizados no contador de limites foi esclarecida na seção **Evento de limitação** da gestão de decisões. [Leia mais](../offers/offer-library/add-constraints.md#capping-event)
+* Uma nova seção foi adicionada à página **Alterar endereços de execução**. Ela especifica que é possível sobrepor o campo de execução definido globalmente nos parâmetros avançados da jornada, mas que a sobreposição de endereços de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, o valor é definido como o endereço principal nos **Campos de execução** é o que deve ser usado. [Leia mais](../configuration/primary-email-addresses.md#journey-parameters)
+* A seção **Rastreamento de URL** agora fornece a lista e a descrição de todos os atributos contextuais que podem ser definidos para rastreamento de URL em uma superfície de canal de email. [Leia mais](../email/email-settings.md#url-tracking)
 
 ## Março de 2023 {#march-2023}
 

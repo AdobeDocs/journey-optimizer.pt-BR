@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
 workflow-type: tm+mt
 source-wordcount: '1860'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
 
-## Notas de versão de abril de 2023 {#apr-rn-2023}
+## Notas da versão de abril de 2023 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -33,13 +33,13 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Canal da Web (Disponibilidade Geral)</strong><br/></th>
+<th><strong>Canal web (disponibilidade geral)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A Adobe Journey Optimizer está expandindo seus recursos entre canais adicionando suporte para canal da Web. Agora é possível criar, alterar e visualizar experiências da Web como qualquer outro canal, por meio de uma interface visual inteligente e intuitiva para personalizar a experiência dos usuários finais. Observe que, atualmente, no Journey Optimizer, você só pode criar experiências da Web em campanhas.</p>
+<p>O Adobe Journey Optimizer está expandindo seus recursos entre canais adicionando compatibilidade com o canal web. Agora é possível criar, alterar e visualizar experiências da Web como em qualquer outro canal, por meio de uma interface visual inteligente e intuitiva, a fim de personalizar a experiência dos usuários finais. Observe que, atualmente, o Journey Optimizer só permite a criação de experiências da Web em campanhas.</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
 <p>Para obter mais informações, consulte a <a href="../web/get-started-web.md">documentação detalhada</a>.</p>
 </tr>
@@ -50,13 +50,13 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Fluxo de trabalho de início rápido de integração móvel (beta)</strong><br/></th>
+<th><strong>Fluxo de trabalho de início rápido de integração para dispositivos móveis (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O novo fluxo de trabalho de início rápido da integração móvel está disponível. Use esse novo recurso do produto para configurar rapidamente o SDK móvel para começar a coletar e validar dados de eventos móveis e enviar notificações por push com o Adobe Journey Optimizer. Esse recurso é acessível por meio da página inicial da Coleta de dados como um beta público.</p>
+<p>O novo fluxo de trabalho de início rápido de integração para dispositivos móveis está disponível. Use esse novo recurso do produto para configurar rapidamente o SDK móvel para começar a coletar e validar dados de eventos móveis e enviar notificações por push para dispositivos móveis com o Adobe Journey Optimizer. Esse recurso é acessível por meio da página inicial da Coleção de dados, na forma de um beta público.</p>
 <img src="../push/assets/mobile-wf-home.png"/>
 <p>Para obter mais informações, consulte a <a href="../push/mobile-onboarding-wf.md">documentação detalhada</a>.</p>
 </td>
@@ -106,26 +106,26 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Jornadas**
 
-* A tela jornada agora exibe a ID da atividade nas atividades de mensagem e tags finais. Isso melhora o relatório e o redirecionamento.
+* A tela da jornada agora exibe a ID da atividade nas atividades de mensagem e tags finais. Isso melhora os relatórios e o redirecionamento.
 * O layout do painel de configuração, que aparece em ações, fontes de dados, eventos e jornadas, foi aprimorado.
-* Novas grades de proteção foram adicionadas ao jornada:
-   * O número de atividades em uma jornada agora está limitado a 50. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
-   * O número de **jornadas ao vivo** em uma organização, agora está limitada a 100 por sandbox. Jornadas no modo de teste não são consideradas. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
+* Novas medidas de proteção foram adicionadas às jornadas:
+   * O limite de número de atividades em uma jornada agora é de 50. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
+   * O número de **jornadas ativas** em uma organização agora está limitado a 100 por sandbox. As jornadas no modo de teste não são consideradas. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
 
-* Ao adicionar uma [Email](../email/create-email.md), [SMS](../sms/create-sms.md) ou [Empurrar](../push/create-push.md) em uma jornada, a superfície agora é pré-preenchida, por padrão, com a última superfície usada para esse canal, na jornada atual.
+* Ao adicionar uma ação de [email](../email/create-email.md), [SMS](../sms/create-sms.md) ou [push](../push/create-push.md) em uma jornada, a superfície agora é pré-preenchida, por padrão, com a última superfície usada para esse canal na jornada atual.
 * Agora é possível definir parâmetros de consulta estáticos ou dinâmicos em suas ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#url-configuration)
 
 **Relatórios**
 
-* Agora é possível exportar relatórios do Journey Optimizer como PDF. [Saiba mais](../reports/global-report.md#export-reports)
+* Agora é possível exportar os relatórios do Journey Optimizer como um arquivo PDF. [Saiba mais](../reports/global-report.md#export-reports)
 
 **Designer de conteúdo**
 
-* O Adobe Journey Optimizer Content Designer foi atualizado e o acesso a estilos e componentes de design agora é mais fácil. Esta nova versão propõe uma melhor experiência do usuário e vem com desempenho aumentado, compatibilidade parcial do modo escuro e suporte a novos padrões de acessibilidade.
+* O Designer de conteúdo do Adobe Journey Optimizer foi atualizado e o acesso aos estilos e componentes de design foi simplificado. Esta nova versão propõe uma melhor experiência do usuário e vem com um desempenho aprimorado, compatibilidade parcial com o modo escuro e suporte aos novos padrões de acessibilidade.
 
 
 
-## Notas de versão de março de 2023 {#mar-2023}
+## Notas da versão de março de 2023 {#mar-2023}
 
 ### Novos recursos{#mar-2023-features}
 
@@ -189,7 +189,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 * Na tela da jornada, o rótulo da tag **Fim** não é mais definida automaticamente com o nome da atividade anterior. Os usuários podem adicionar manualmente um rótulo personalizado, se necessário.
 * O tempo limite padrão e a duração de erro nas propriedades da jornada foram alterados de 5 para 30 segundos. [Saiba mais](../configuration/external-systems.md#timeout)
 * A taxa de limitação padrão em atividades de segmento de leitura foi alterada de 20.000 para 5.000 mensagens por segundo. [Saiba mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* Uma garantia foi adicionada ao modo de teste para ouvir apenas os eventos enviados pela interface. Os eventos enviados por uma ferramenta externa não são considerados. [Saiba mais](../building-journeys/testing-the-journey.md)
+* Uma medida de proteção foi adicionada ao modo de teste para ouvir apenas os eventos enviados através da interface. Os eventos enviados por uma ferramenta externa não são considerados. [Saiba mais](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
@@ -223,7 +223,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
    Para ter acesso aos widgets mais recentes, observe que será necessário redefinir os diferentes painéis de relatórios. Para obter mais informações sobre a personalização de painéis, consulte a [documentação detalhada](../reports/global-report.md#modify-dashboard).
 
-## Notas de versão de fevereiro de 2023 {#feb-2023}
+## Notas da versão de fevereiro de 2023 {#feb-2023}
 
 ### Novos recursos{#feb-2023-features}
 
@@ -351,7 +351,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **Personalização de URL**: ao adicionar URLs como conteúdo às representações de suas ofertas, agora é possível personalizar esses URLs usando o editor de expressão. [Saiba mais](../offers/offer-library/add-representations.md)
 
-## Notas de versão de janeiro de 2023{#jan-2023-release}
+## Notas da versão de janeiro de 2023{#jan-2023-release}
 
 ### Novos recursos{#jan-2023-features}
 
