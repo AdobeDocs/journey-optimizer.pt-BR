@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução ao email
+title: Introdução a email
 description: Saiba como criar um email no Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -12,27 +12,27 @@ exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
-# Introdução ao email {#get-started-email}
+# Introdução a email {#get-started-email}
 
 >[!IMPORTANT]
 >
->Se esta for a primeira vez que você cria um email, verifique se o canal de email foi configurado. [Saiba mais](email-settings.md)
+>Se esta é a primeira vez que você cria um email, verifique se o canal de email foi configurado. [Saiba mais](email-settings.md)
 
 Use [!DNL Journey Optimizer] para enviar mensagens de email aos clientes. Você pode criar, personalizar e visualizar mensagens no Designer de email.
 
-Deliveries de email podem ser criados:
+Entregas de email podem ser criadas:
 
-* Em um **Jornada**: depois de adicionar um **[!UICONTROL Email]** para sua jornada e para definir as configurações básicas, use a **[!UICONTROL Ações: Email]** painel direito para criar o conteúdo da mensagem.
+* Em uma **Jornada**: depois de adicionar uma atividade de **[!UICONTROL Email]** para sua jornada e definir as configurações básicas, use o painel direito **[!UICONTROL Ações: Email]** para criar o conteúdo da mensagem.
 
-   Para obter mais informações sobre como configurar a jornada, consulte esta seção [página](../building-journeys/journey-gs.md).
+   Para obter mais informações sobre como configurar sua jornada, consulte esta [página](../building-journeys/journey-gs.md).
 
-* Em um **Campanha**: depois de criar uma campanha, selecione **[!UICONTROL Email]** como sua ação e defina as configurações básicas.
+* Em uma **Campanha**: depois de criar uma campanha, selecione **[!UICONTROL Email]** como sua ação e defina as configurações básicas.
 
-   Para obter mais informações sobre como configurar sua campanha, consulte esta seção [página](../campaigns/create-campaign.md#configure).
+   Para obter mais informações sobre como configurar sua campanha, consulte esta [página](../campaigns/create-campaign.md#configure).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -48,7 +48,7 @@ Deliveries de email podem ser criados:
 <img alt="Pouco frequentes" src="../assets/do-not-localize/email-design.jpg">
 </a>
 <div>
-<a href="get-started-email-design.md"><strong>Criar um e-mail</strong></a>
+<a href="get-started-email-design.md"><strong>Criar um email</strong></a>
 </div>
 <p></td>
 <td>

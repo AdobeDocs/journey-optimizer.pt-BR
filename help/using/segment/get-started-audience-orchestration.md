@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução à composição de público-alvo
-description: Saiba mais sobre a composição do público-alvo
+title: Introdução à composição de público
+description: Saiba mais sobre a composição de público
 feature: Journeys
 topic: Content Management
 role: User
@@ -14,22 +14,22 @@ badge: label="Beta" type="Informative"
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 23%
+ht-degree: 93%
 
 ---
 
-# Introdução à composição de público-alvo {#get-start-audience-composition}
+# Introdução à composição de público {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Criar uma composição"
->abstract="Crie um fluxo de trabalho de composição para combinar públicos existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir..) para criar novos públicos."
+>abstract="Crie um fluxo de trabalho de composição para combinar públicos existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos."
 
 >[!BEGINSHADEBOX]
 
 O que você encontrará nesta documentação:
 
-* **[Introdução à composição de público-alvo](get-started-audience-orchestration.md)**
+* **[Introdução à composição de público](get-started-audience-orchestration.md)**
 * [Criar seu primeiro fluxo de trabalho de composição](create-compositions.md)
 * [Trabalhar com a tela de composição](composition-canvas.md)
 * [Acessar e gerenciar públicos-alvo](access-audiences.md)
@@ -38,33 +38,33 @@ O que você encontrará nesta documentação:
 
 >[!AVAILABILITY]
 >
->Atualmente, a composição do público-alvo está disponível apenas como um beta privado e pode estar sujeita a atualizações frequentes sem aviso prévio. O beta é provisionado no nível da organização, o que significa que afetará todas as sandboxes na organização.
+>Atualmente, a composição do público está disponível apenas como um beta privado e pode estar sujeita a atualizações frequentes sem aviso prévio. O beta é provisionado no nível da organização, o que significa que afetará todas as sandboxes na organização.
 
-A composição do público-alvo permite criar **workflows da composição**, onde é possível combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir..) para criar novos públicos-alvo.
+A composição do público permite criar **workflows de composição**, em que é possível combinar públicos existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos.
 
-Depois de concluído, o **públicos-alvo resultantes** são salvos no Adobe Experience Platform junto com os públicos-alvo existentes e podem ser **aproveitado em campanhas** para direcionar clientes. [Saiba como trabalhar com campanhas](../campaigns/get-started-with-campaigns.md)
+Depois de concluído, os **públicos resultantes** são salvos na Adobe Experience Platform junto com os públicos existentes e podem ser **aproveitados em campanhas** para direcionar clientes. [Saiba como trabalhar com campanhas](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Os públicos-alvo resultantes de workflows de composição podem ser direcionados somente para campanhas do Journey Optimizer . Eles não estão disponíveis para uso no jornada.
+>Os públicos resultantes de workflows de composição podem ser direcionados somente para campanhas do Journey Optimizer . Eles não estão disponíveis para uso em jornadas.
 
-A composição do público-alvo é acessível no Adobe Journey Optimizer **[!UICONTROL Segmentos]** menu:
+A composição de públicos é acessível no menu **[!UICONTROL Segmentos]** do Adobe Journey Optimizer:
 
 ![](assets/audiences-browse.png)
 
-* O **[!UICONTROL Visão geral]** A guia fornece um painel dedicado com métricas principais relacionadas aos dados de segmento da sua organização. Para saber mais, consulte [Guia de painéis do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html).
+* A guia **[!UICONTROL Visão geral]** fornece um painel dedicado com métricas principais relacionadas aos dados de segmento da sua organização. Para saber mais, consulte [Guia de painéis da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=pt-BR).
 
-* O **[!UICONTROL Procurar]** lista todos os públicos-alvo existentes armazenados no Adobe Experience Platform.
+* A guia **[!UICONTROL Procurar]** lista todos os públicos existentes armazenados na Adobe Experience Platform.
 
-* O **[!UICONTROL Composições]** permite criar fluxos de trabalho de composição, onde é possível combinar e organizar públicos para criar novos fluxos.
+* A guia **[!UICONTROL Composições]** permite criar workflows de composição em que é possível combinar e organizar públicos para criar novos.
 
-Clique em cada cartão para saber como trabalhar com a composição do público-alvo:
+Clique em cada cartão para saber como trabalhar com a composição de público:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="create-compositions.md"><img alt="Criar workflows de composição" src="../assets/do-not-localize/ao-workflows.jpg"></a>
-<div><a href="create-compositions.md"><strong>Criar seu primeiro fluxo de trabalho de composição</strong></a></div></td>
+<div><a href="create-compositions.md"><strong>Criar seu primeiro workflow de composição</strong></a></div></td>
 <td><a href="composition-canvas.md"><img alt="Trabalhar com a tela de composição" src="../assets/do-not-localize/ao-canvas.jpg"></a>
 <div><a href="composition-canvas.md"><strong>Trabalhar com a tela de composição</strong></a></div></td>
 <td><a href="access-audiences.md"><img alt="Acessar e gerenciar públicos-alvo" src="../assets/do-not-localize/ao-audiences.jpeg"></a>

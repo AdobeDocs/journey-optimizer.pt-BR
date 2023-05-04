@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criar emails
-description: Saiba como criar seus emails
+title: Design de emails
+description: Saiba como criar o design dos emails
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: email, design, estoque, ativos
+keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 12%
+ht-degree: 68%
 
 ---
 
 # Introdução ao design de email {#get-started-content-design}
 
-É possível importar um conteúdo existente no [!DNL Journey Optimizer] ou utilize os recursos de design de conteúdo:
+É possível importar um conteúdo existente para o [!DNL Journey Optimizer] ou aproveitar os recursos de design de conteúdo:
 
-* Use [!DNL Journey Optimizer] **recursos de design de email** para criar ou importar emails responsivos. [Saiba mais](content-from-scratch.md)
+* Usar os **recursos de design de email** do [!DNL Journey Optimizer] para criar ou importar emails responsivos. [Saiba mais](content-from-scratch.md)
 
 * Aproveitar o **Adobe Experience Manager Assets Essentials** para enriquecer seus emails e criar e gerenciar seu próprio banco de dados de ativos. [Saiba mais](assets-essentials.md)
 
@@ -38,33 +38,33 @@ Para minimizar esses problemas de renderização, recomendamos manter sua estrut
 
 ## Etapas principais para criar conteúdo de email {#key-steps}
 
-Depois de [adição de um email](create-email.md) para uma jornada ou campanha, você pode começar a criar o conteúdo do seu email.
+Depois de [adicionar um email](create-email.md) em uma jornada ou campanha, você pode começar a criar o conteúdo do email.
 
-1. Na tela de configuração da jornada ou campanha, acesse o **[!UICONTROL Editar conteúdo]** para acessar o Designer de email. [Saiba mais](create-email.md#define-email-content)
+1. Na tela de configuração da jornada ou campanha, vá até a tela **[!UICONTROL Editar conteúdo]** para acessar o Designer de email. [Saiba mais](create-email.md#define-email-content)
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. Na página inicial do Designer de email, escolha como deseja criar o email com as seguintes opções:
+1. Na página inicial do Designer de email, escolha uma das seguintes opções para criar o design do email:
 
-   * **Crie seu email do zero** por meio da interface do designer de email e aproveite imagens de [Adobe Experience Manager Assets Essentials](assets-essentials.md). Saiba como criar o conteúdo de email no [esta seção](content-from-scratch.md).
+   * **Crie o design do email do zero** por meio da interface do Designer de email e aproveite imagens do [Adobe Experience Manager Assets Essentials](assets-essentials.md). Saiba como criar o design do conteúdo de email [nesta seção](content-from-scratch.md).
 
-   * **Código ou cole HTML bruto** diretamente no designer de email. Saiba como codificar seu próprio conteúdo no [esta seção](code-content.md).
+   * **Codifique ou cole um HTML bruto** diretamente no Designer de email. Saiba como codificar seu próprio conteúdo [nesta seção](code-content.md).
 
       >[!NOTE]
       >
-      >Em uma campanha, você também pode selecionar a variável **[!UICONTROL Editor de códigos]** do botão **[!UICONTROL Editar conteúdo]** tela. [Saiba mais](create-email.md#define-email-content)
+      >Em uma campanha, você também pode selecionar o botão **[!UICONTROL Editor de código]** da tela **[!UICONTROL Editar conteúdo]**. [Saiba mais](create-email.md#define-email-content)
 
-   * **Importar conteúdo HTML existente** de um arquivo ou uma pasta .zip. Saiba como importar conteúdo de email no [esta seção](existing-content.md).
+   * **Importar conteúdo HTML existente** de um arquivo ou uma pasta .zip. Saiba como importar um conteúdo de email [nesta seção](existing-content.md).
 
-   * **Selecionar um conteúdo existente** em uma lista de modelos incorporados ou personalizados. Saiba como trabalhar com modelos de email [esta seção](email-templates.md).
+   * **Selecionar um conteúdo existente** de uma lista de modelos incorporados ou personalizados. Saiba como trabalhar com modelos de email [nesta seção](email-templates.md).
 
    ![](assets/email_designer_create_options.png)
 
-1. Depois que o conteúdo do email tiver sido definido e personalizado, você poderá exportar o conteúdo para validação ou para uso posterior. Clique em **[!UICONTROL Exportar HTML]** para salvar em seu computador um arquivo zip que incluirá o HTML e os ativos.
+1. Depois que o conteúdo do email tiver sido definido e personalizado, você poderá exportar o conteúdo para validação ou para uso posterior. Clique em **[!UICONTROL Exportar HTML]** para salvar em seu computador um arquivo zip que contém o HTML e os ativos.
 
    ![](assets/email_designer_export.png)
 
-## Vídeo tutorial {#video}
+## Vídeo explicativo {#video}
 
 Saiba como criar conteúdo de email com o editor de mensagens.
 

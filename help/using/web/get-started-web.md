@@ -1,6 +1,6 @@
 ---
 title: Introdução ao canal Web
-description: Saiba mais sobre o canal da Web no Journey Optimizer
+description: Saiba mais sobre o canal Web no Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
@@ -9,19 +9,19 @@ exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 11%
+ht-degree: 68%
 
 ---
 
 # Introdução ao canal Web {#get-sarted-web}
 
-[!DNL Journey Optimizer] O permite criar visualmente e entregar experiências personalizadas da Web para seus clientes.
+O [!DNL Journey Optimizer] permite criar visualmente e entregar experiências personalizadas da Web para seus clientes.
 
 Por meio de uma interface visual intuitiva, esse recurso permite modificar suas propriedades da Web facilmente para experimentar, otimizar e personalizar suas campanhas de usuário final.
 
-Se já estiver usando canais de saída, como email, SMS ou notificações por push, agora é possível aproveitar o canal da Web de entrada para oferecer uma experiência verdadeiramente personalizada que se estende por todos os canais.
+Se já estiver usando canais de saída, como email, SMS ou notificações por push, agora é possível aproveitar o canal Web de entrada para oferecer uma experiência verdadeiramente personalizada que se estenda por todos os canais.
 
-Após criar uma campanha, selecione **Web** como sua ação e defina as configurações básicas. Para obter mais informações sobre como configurar sua campanha, consulte esta seção [página](../campaigns/create-campaign.md#configure).
+Após criar uma campanha, selecione **Web** como sua ação e defina as configurações básicas. Para obter mais informações sobre como configurar sua campanha, consulte esta [página](../campaigns/create-campaign.md#configure).
 
 >[!NOTE]
 >
