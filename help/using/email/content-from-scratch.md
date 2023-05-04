@@ -12,7 +12,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 6%
+ht-degree: 31%
 
 ---
 
@@ -21,22 +21,22 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="Adicionar componentes da estrutura"
->abstract="Os componentes de estrutura definem o layout do email. Arraste e solte uma **Estrutura** na tela para iniciar a criação do conteúdo de email."
+>abstract="Os componentes de estrutura definem o layout do email. Arraste e solte um componente de **Estrutura** na tela para iniciar a criação do conteúdo de email."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="Adicionar componentes da estrutura"
->abstract="Os componentes de estrutura definem o layout da página de destino. Arraste e solte uma **Estrutura** na tela para começar a projetar o conteúdo da página de aterrissagem."
+>abstract="Os componentes de estrutura definem o layout da página de destino. Arraste e solte um componente de **Estrutura** na tela para começar a criação do conteúdo da página de destino."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Adicionar componentes da estrutura"
->abstract="Os componentes de estrutura definem o layout do fragmento. Arraste e solte uma **Estrutura** na tela para começar a projetar o conteúdo do fragmento."
+>abstract="Os componentes de estrutura definem o layout do fragmento. Arraste e solte um componente de **Estrutura** na tela para começar a criação do conteúdo do fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="Adicionar componentes da estrutura"
->abstract="Os componentes de estrutura definem o layout do modelo. Arraste e solte uma **Estrutura** na tela para começar a projetar o conteúdo do modelo."
+>abstract="Os componentes de estrutura definem o layout do modelo. Arraste e solte um componente de **Estrutura** na tela para começar a criação do conteúdo do modelo."
 
 
 >[!CONTEXTUALHELP]
@@ -46,8 +46,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Definir colunas de página de aterrissagem"
->abstract="O Designer permite definir facilmente o layout da landing page selecionando a estrutura da coluna."
+>title="Definir as colunas da página de destino"
+>abstract="O Designer permite definir facilmente o layout da página de destino selecionando a estrutura da coluna."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
@@ -57,7 +57,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="Definir colunas de modelo"
->abstract="O Designer permite definir facilmente o layout do modelo, selecionando a estrutura da coluna."
+>abstract="O Designer permite definir facilmente o layout do modelo selecionando a estrutura da coluna."
 
 
 Use o Adobe Journey Optimizer Designer para definir facilmente a estrutura do seu conteúdo. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode projetar a forma do seu conteúdo em segundos.

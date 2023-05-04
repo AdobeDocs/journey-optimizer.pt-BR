@@ -11,7 +11,7 @@ exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 11%
+ht-degree: 20%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_global_report"
 >title="Relatório global de inscrições"
->abstract="O relatório global Subscription permite medir e visualizar a atividade dos assinantes durante um período selecionado. O relatório é dividido em diferentes widgets detalhando inscrições e cancelamentos de inscrição. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
+>abstract="O relatório global de assinaturas permite medir e visualizar a atividade dos assinantes em um período selecionado. O relatório é dividido em diferentes widgets detalhando inscrições e cancelamentos de inscrição. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
 A assinatura **[!UICONTROL Relatório global]** exibe detalhes sobre a atividade dos assinantes durante um período selecionado. Para medir suas subscrições somente nas últimas 24 horas, consulte o [Relatório ao vivo da assinatura](subscription-report-live.md).
 
