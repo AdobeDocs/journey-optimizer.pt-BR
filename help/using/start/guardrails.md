@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: c212ecb02a8feee67d49610d8919d559a22bcfa0
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1037'
 ht-degree: 92%
 
 ---
@@ -27,11 +27,6 @@ Abaixo você encontrará medidas de proteção e limitações adicionais para us
 
 * Não é possível adicionar anexos a um email com [!DNL Journey Optimizer].
 * Você não pode usar o mesmo domínio de envio para enviar mensagens do [!DNL Adobe Journey Optimizer] e de outro produto, como o [!DNL Adobe Campaign] ou o [!DNL Adobe Marketo Engage] por exemplo.
-
-
-## Medidas de proteção de gestão de decisões {#offer-guardrails}
-
-As medidas de proteção de desempenho e os limites estáticos para a tomada de decisões estão listados na [página de descrição do produto Serviço de aplicativo do Adobe Offer Decisioning](https://helpx.adobe.com/br/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
 ## Medidas de proteção das páginas de destino {#lp-guardrails}
