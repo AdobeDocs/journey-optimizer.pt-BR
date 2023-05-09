@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, segmento, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 22%
+source-wordcount: '1325'
+ht-degree: 20%
 
 ---
 
@@ -38,27 +38,26 @@ Para enviar mensagens com o jornada, as seguintes configurações são necessár
 
    ![](assets/custom2.png)
 
-<!--
-## Access journeys {#journey-access}
+## Jornadas de acesso {#journey-access}
 
-In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
+Na seção do menu GERENCIAMENTO DE JORNADAS , clique em **[!UICONTROL Jornada]**. Duas guias estão disponíveis:
 
-**Browse**: this tab displays the list of existing journeys. You can search for journeys, use filters and perform basic actions on each element. For example, you can duplicate or delete an item. For more information, refer to [this section](../start/user-interface.md#filter-lists).
+**Procurar**: essa guia exibe a lista de jornadas existentes. Você pode pesquisar jornadas, usar filtros e executar ações básicas em cada elemento. Por exemplo, você pode duplicar ou excluir um item. Para obter mais informações, consulte [esta seção](../start/user-interface.md#filter-lists).
 
-![](assets/journeys-browse.png)  
+![](assets/journeys-browse.png)
 
-**Overview**: this tab displays a dashboard with key metrics related to your journeys:
+**Visão geral**: essa guia exibe um painel com as métricas principais relacionadas às suas jornadas:
 
-* **Profiles processed**: total number of profiles processed in last 24 hours
-* **Live journeys**: total number of live journeys
-* **Unitary journeys**: total number of unitary live journeys (event-based journeys)
-* **Batch journeys**: total number of batch live journeys (read segment journeys)
-* **Error rate**: ratio of all profiles in error compared with the total number of profiles who entered. 
-* **Discard rate**: ratio of all profiles dicarded compared with the total number of profiles who entered. 
+* **Perfis processados**: número total de perfis processados nas últimas 24 horas
+* **Live jornada**: número total de jornadas ativas com tráfego nas últimas 24 horas. O Live jornada inclui **Jornadas Unitárias** (baseado em eventos) e **Jornadas em lote** (ler segmento).
+* **Taxa de erro**: proporção de todos os perfis com erro em comparação ao número total de perfis que entraram nas últimas 24 horas.
+* **Taxa de rejeição**: proporção de todos os perfis descartados em comparação ao número total de perfis que entraram nas últimas 24 horas.
 
-![](assets/journeys-dashboard.png)  
+>[!NOTE]
+>
+>Esse painel considera as jornadas com tráfego nas últimas 24 horas. Somente as jornadas às quais você tem acesso são exibidas.
 
--->
+![](assets/journeys-dashboard.png)
 
 ## Criar sua jornada{#jo-build}
 
@@ -71,15 +70,7 @@ Essa etapa é executada pela **usuário empresarial**. É aqui que você cria su
 
 Estas são as principais etapas para enviar mensagens por meio do jornada:
 
-1. Na seção do menu GERENCIAMENTO DE JORNADAS , clique em **[!UICONTROL Jornada]**. A lista de jornadas é exibida.
-
-   ![](assets/interface-journeys.png)
-
-1. Clique em **[!UICONTROL Criar Jornada]** para criar uma nova jornada.
-
-<!--
-1. From the **Journeys** menu, click **[!UICONTROL Create Journey]** to create a new journey. 
--->
+1. No **Procurar** clique em **[!UICONTROL Criar Jornada]** para criar uma nova jornada.
 
 1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Saiba mais nesta [seção](journey-gs.md#change-properties).
 
