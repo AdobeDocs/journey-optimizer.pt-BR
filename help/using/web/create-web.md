@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->Atualmente em [!DNL Journey Optimizer] você só pode criar experiências da web usando **campanhas**.
+>Atualmente, no [!DNL Journey Optimizer], você só pode criar experiências da web usando **campanhas**.
 
 [Saiba como criar uma campanha da Web neste vídeo](#video)
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="Criar uma regra de correspondência de páginas"
->abstract="Uma regra de correspondência de páginas permite direcionar vários URLs que correspondem à mesma regra - por exemplo, se você deseja aplicar as alterações a um banner principal em um site inteiro ou adicionar uma imagem principal que é exibida em todas as páginas de produto de um site."
+>abstract="Uma regra de correspondência de páginas permite direcionar vários URLs que correspondem à mesma regra, por exemplo, se você deseja aplicar as alterações em um banner principal no site inteiro ou adicionar uma imagem superior que é exibida em todas as páginas de produtos de um site."
 
 Para começar a criar sua experiência da Web por meio de uma campanha, siga as etapas abaixo.
 
@@ -125,7 +125,7 @@ Quando uma campanha da Web está ativa, você pode interrompê-la para impedir q
 >
 >Quando uma campanha da Web é interrompida, não é possível editá-la ou ativá-la novamente. Você só pode duplicá-la e ativar a campanha duplicada.
 
-## Vídeo tutorial{#video}
+## Vídeo explicativo{#video}
 
 O vídeo abaixo mostra como criar uma campanha da Web, configurar suas propriedades, revisar e publicá-la.
 

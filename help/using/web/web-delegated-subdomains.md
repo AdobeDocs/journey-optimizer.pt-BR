@@ -10,7 +10,7 @@ exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
 source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 2%
+ht-degree: 27%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
->title="Delegar um subdomínio da Web"
->abstract="Você configurará seu subdomínio para uso do canal da Web. Escolha entre os subdomínios que já foram delegados ao Adobe."
+>title="Delegar um subdomínio da web"
+>abstract="Você configurará o subdomínio para uso do canal web. Escolha entre os subdomínios que já foram delegados à Adobe."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
->title="Delegar um subdomínio da Web"
->abstract="Se você adicionar conteúdo proveniente do Adobe Experience Manager Assets Essentials às suas experiências da Web, deverá configurar o subdomínio que será usado para publicar esse conteúdo. Selecione entre os subdomínios já delegados ao Adobe."
+>title="Delegar um subdomínio da web"
+>abstract="Se adicionar conteúdo proveniente do Adobe Experience Manager Assets Essentials às suas experiências da web, será necessário configurar o subdomínio que será usado para publicar esse conteúdo. Selecione entre os subdomínios já delegados à Adobe."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="Definir um subdomínio da Web"
->abstract="Selecione um subdomínio da lista de subdomínios delegados ao Adobe. É possível definir esse subdomínio da Web como padrão, mas apenas um subdomínio padrão pode ser usado de cada vez."
+>title="Definir um subdomínio da web"
+>abstract="Selecione um subdomínio da lista de subdomínios delegados à Adobe. É possível definir esse subdomínio da web como o padrão, mas apenas um subdomínio padrão pode ser definido de cada vez."
 
 Ao criar experiências da Web, se você adicionar conteúdo proveniente do [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) , você deve configurar o subdomínio que será usado para publicar esse conteúdo.
 

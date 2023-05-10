@@ -26,7 +26,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="Detalhes da sandbox"
->abstract="Selecione a sandbox de destino para a qual deseja copiar a jornada. Estão disponíveis somente as sandbox da sua Organização "
+>abstract="Selecione a sandbox de destino para a qual deseja copiar a jornada. Somente as sandboxes da sua organização estão disponíveis."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
@@ -58,7 +58,7 @@ Para copiar uma jornada para outra sandbox, siga estas etapas:
 
    ![](assets/copy-sandbox2.png)
 
-3. Selecione o **sandbox de destino** no campo suspenso . Estão disponíveis somente as sandbox da sua Organização 
+3. Selecione o **sandbox de destino** no campo suspenso . Somente as sandboxes da sua organização estão disponíveis.
 
 4. Revise o **Objetos dependentes** seção. Essa é a lista de objetos associados usados na jornada. Essa lista exibe o nome, o tipo de objeto e a ID interna do Journey Optimizer.
 

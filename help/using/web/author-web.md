@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1623'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -89,7 +89,7 @@ Para começar a criar sua campanha da Web, siga as etapas abaixo.
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
->title="Adicionar componentes à sua página da Web"
+>title="Adicionar componentes à página da Web"
 >abstract="Você pode adicionar vários componentes à sua página da Web e editá-los conforme necessário."
 
 1. No **[!UICONTROL Componentes]** à esquerda, selecione um item. Você pode adicionar os seguintes componentes à sua página da Web e editá-los conforme necessário:
@@ -268,7 +268,7 @@ Para exibir uma pré-visualização da experiência da Web modificada, siga as e
    >
    >Ao copiar o URL de teste, o conteúdo exibido é o personalizado para o perfil de teste usado quando a simulação de conteúdo foi gerada em [!DNL Journey Optimizer].
 
-## Vídeo tutorial{#video}
+## Vídeo explicativo{#video}
 
 O vídeo abaixo mostra como criar uma experiência da Web usando o web designer em [!DNL Journey Optimizer] campanhas.
 
