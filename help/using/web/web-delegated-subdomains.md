@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 keywords: web, subdomínios, configuração
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 66ef57c263d29572ce0377e41bf0a8010e2f22d1
+source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 2%
@@ -78,11 +78,11 @@ Você pode criar vários subdomínios da Web, mas somente a variável **default*
 
 1. O **[!UICONTROL Padrão]** o selo é exibido ao lado do subdomínio que está sendo usado como padrão no momento. Para alterar o subdomínio padrão, selecione **[!UICONTROL Definir como padrão]** do **[!UICONTROL Mais ações]** ao lado do subdomínio desejado.
 
+   ![](assets/web-subdomain-default.png)
+
    >[!NOTE]
    >
    >Você pode alterar o subdomínio da Web padrão, mas somente um pode ser usado de cada vez.
-
-   ![](assets/web-subdomain-default.png)
 
    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 
