@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: web, subdomínios, configuração
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: b05c7e88c223af44cd2f7d10ea76c39359662cbd
+source-git-commit: 66ef57c263d29572ce0377e41bf0a8010e2f22d1
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '413'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Você pode criar vários subdomínios da Web, mas somente a variável **default*
    >
    >Não é possível selecionar um subdomínio que já esteja sendo usado como subdomínio da Web.
 
-1. O prefixo que será exibido no URL da Web é adicionado automaticamente.
+1. O prefixo que será exibido no URL da Web é adicionado automaticamente. Não é possível alterá-lo.
 
 1. Para definir esse subdomínio como padrão, selecione a opção correspondente.
 
@@ -72,6 +72,10 @@ Você pode criar vários subdomínios da Web, mas somente a variável **default*
 
 1. Clique em **[!UICONTROL Enviar]**. O subdomínio obtém a variável **[!UICONTROL Sucesso]** status. Ele está pronto para ser usado em suas experiências da Web.
 
+   >[!NOTE]
+   >
+   >Em raras ocasiões, uma configuração de subdomínio pode falhar. Nesse caso, é possível excluir a variável **[!UICONTROL Falha]** subdomínio para limpar a lista usando o **[!UICONTROL Excluir]** do botão **[!UICONTROL Mais ações]** ícone .
+
 1. O **[!UICONTROL Padrão]** o selo é exibido ao lado do subdomínio que está sendo usado como padrão no momento. Para alterar o subdomínio padrão, selecione **[!UICONTROL Definir como padrão]** do **[!UICONTROL Mais ações]** ao lado do subdomínio desejado.
 
    >[!NOTE]
@@ -81,7 +85,5 @@ Você pode criar vários subdomínios da Web, mas somente a variável **default*
    ![](assets/web-subdomain-default.png)
 
    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
-
-    You can only delete a **[!UICONTROL Failed]** subdomain to clean up the list. To do so, select **[!UICONTROL Delete]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
 
     You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
