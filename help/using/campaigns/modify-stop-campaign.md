@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '520'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,11 @@ Além disso, você pode duplicar campanhas ao vivo (executadas uma vez ou com um
 
 As campanhas podem ser acessadas a partir da variável **[!UICONTROL Campanhas]** menu.
 
-Por padrão, a lista mostra todas as campanhas com a variável **[!UICONTROL Rascunho]**, **[!UICONTROL Programado]** e **[!UICONTROL Ao vivo]** status.
-
-Para exibir campanhas interrompidas, concluídas e arquivadas, é necessário limpar o filtro.
+Por padrão, a lista mostra todas as campanhas com a variável **[!UICONTROL Rascunho]**, **[!UICONTROL Programado]** e **[!UICONTROL Ao vivo]** status. Para exibir campanhas interrompidas, concluídas e arquivadas, é necessário limpar o filtro.
 
 ![](assets/create-campaign-list.png)
+
+Além disso, você pode filtrar a lista com base no tipo de campanha e canal, ou nas tags que foram atribuídas às campanhas ao criá-las. [Saiba como atribuir tags a uma campanha](create-campaign.md#create)
 
 ## Status da campanha {#statuses}
 

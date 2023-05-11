@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c212ecb02a8feee67d49610d8919d559a22bcfa0
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1066'
 ht-degree: 92%
 
 ---
@@ -22,6 +22,10 @@ Os direitos, as limitações de produto e as medidas de proteção de desempenho
 Você também precisa estar ciente das [Medidas de proteção aos dados de perfil do cliente em tempo real antes de iniciar](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR){target="_blank"}.
 
 Abaixo você encontrará medidas de proteção e limitações adicionais para uso do [!DNL Adobe Journey Optimizer].
+
+## Navegadores compatíveis {#browsers}
+
+A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de maneira ideal na versão mais recente do Google Chrome. Você pode ter problemas ao usar determinados recursos em versões mais antigas ou outros navegadores.
 
 ## Medidas de proteção de mensagens {#message-guardrails}
 

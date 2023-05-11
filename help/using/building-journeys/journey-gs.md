@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, segmento, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1325'
-ht-degree: 20%
+source-wordcount: '1512'
+ht-degree: 27%
 
 ---
 
@@ -42,10 +42,6 @@ Para enviar mensagens com o jornada, as seguintes configurações são necessár
 
 Na seção do menu GERENCIAMENTO DE JORNADAS , clique em **[!UICONTROL Jornada]**. Duas guias estão disponíveis:
 
-**Procurar**: essa guia exibe a lista de jornadas existentes. Você pode pesquisar jornadas, usar filtros e executar ações básicas em cada elemento. Por exemplo, você pode duplicar ou excluir um item. Para obter mais informações, consulte [esta seção](../start/user-interface.md#filter-lists).
-
-![](assets/journeys-browse.png)
-
 **Visão geral**: essa guia exibe um painel com as métricas principais relacionadas às suas jornadas:
 
 * **Perfis processados**: número total de perfis processados nas últimas 24 horas
@@ -58,6 +54,22 @@ Na seção do menu GERENCIAMENTO DE JORNADAS , clique em **[!UICONTROL Jornada]*
 >Esse painel considera as jornadas com tráfego nas últimas 24 horas. Somente as jornadas às quais você tem acesso são exibidas.
 
 ![](assets/journeys-dashboard.png)
+
+**Procurar**: essa guia exibe a lista de jornadas existentes. Você pode pesquisar jornadas, usar filtros e executar ações básicas em cada elemento. Por exemplo, você pode duplicar ou excluir um item. Para obter mais informações, consulte [esta seção](../start/user-interface.md#filter-lists).
+
+![](assets/journeys-browse.png)
+
+Na lista de jornadas, você pode filtrar jornadas de acordo com o status, tipo e versão por meio do menu **[!UICONTROL Filtros de status e versão]**. O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação do segmento]**, **[!UICONTROL Segmento de leitura]**, **[!UICONTROL Evento comercial]** ou **[!UICONTROL Disparo]**.
+
+Você pode optar por exibir somente jornadas que usam um evento, grupo de campos ou ação específica a partir dos **[!UICONTROL Filtros de atividade]** e **[!UICONTROL Filtros de dados]**. Além disso, a variável **[!UICONTROL Filtros de publicação]** permite selecionar uma data de publicação ou um usuário. Por exemplo, você pode optar por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. [Saiba mais](../building-journeys/using-the-journey-designer.md).
+
+![](assets/filter-journeys.png)
+
+Use as colunas **[!UICONTROL Última atualização]** e **[!UICONTROL Última atualização por]** para verificar quando aconteceu a última atualização de suas jornadas e quem as salvou.
+
+Nos painéis de configuração Evento, Fonte de dados e Ação, o campo **[!UICONTROL Usado em]** exibe o número de jornadas que usam aquele determinado evento, grupo de campo ou ação. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas correspondentes.
+
+![](assets/journey3bis.png)
 
 ## Criar sua jornada{#jo-build}
 
@@ -101,7 +113,7 @@ Estas são as principais etapas para enviar mensagens por meio do jornada:
 
 Clique no ícone de lápis, na parte superior direita para acessar as propriedades da jornada.
 
-Você pode alterar o nome da jornada, adicionar uma descrição, permitir nova entrada, escolher datas de início e término e, como um usuário administrador, definir uma **[!UICONTROL Tempo limite e erro]** duração.
+Você pode alterar o nome da jornada, adicionar uma descrição, permitir nova entrada, escolher datas de início e término e, como um usuário administrador, definir uma **[!UICONTROL Tempo limite e erro]** duração. Também é possível atribuir Tags unificadas do Adobe Experience Platform à jornada. Isso permite classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
 
 Para jornadas ao vivo, essa tela exibe a data da publicação e o nome do usuário que publicou a jornada.
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 22%
+source-wordcount: '789'
+ht-degree: 21%
 
 ---
 
@@ -65,6 +65,8 @@ Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** , em seguida, 
 1. No **[!UICONTROL Propriedades]** especifique um nome e uma descrição para a campanha.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
+
+1. O **Tags** permite atribuir Tags unificadas do Adobe Experience Platform à campanha. Isso permite classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
 
 1. Para atribuir rótulos de uso de dados personalizados ou principais à campanha, clique no botão **[!UICONTROL Gerenciar acesso]** botão. [Saiba mais sobre o Controle de acesso no nível do objeto (OLA)](../administration/object-based-access.md)
 
@@ -129,9 +131,9 @@ No **[!UICONTROL Namespace de identidade]** , escolha o namespace a ser usado pa
 
 ![](assets/create-campaign-namespace.png)
 
->[!NOTE]
->
->Os indivíduos pertencentes a um segmento que não tem a identidade (namespace) selecionada entre suas diferentes identidades não serão direcionados pela campanha.
+    >[!OBSERVAÇÃO]
+    >
+    >Os indivíduos pertencentes a um segmento que não tem a identidade selecionada (namespace) entre suas diferentes identidades não serão direcionados pela campanha.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

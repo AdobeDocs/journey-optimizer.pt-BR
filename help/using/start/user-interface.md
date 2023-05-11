@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,6 @@ Os componentes e recursos disponíveis na interface do usuário dependem das sua
 >[!NOTE]
 >
 >Essa documentação é atualizada com frequência para refletir as alterações mais recentes na interface do usuário do produto. Entretanto, algumas capturas de tela podem ser um pouco diferentes de sua interface do usuário.
-
 
 ## Navegação à esquerda {#left-nav}
 
@@ -90,7 +89,6 @@ A página inicial do [!DNL Journey Optimizer] contém os links e recursos princi
 
 * **[!UICONTROL Alertas]** - a interface permite visualizar um histórico de alertas recebidos com base em métricas reveladas pelos Insights de observação da Adobe Experience Platform. A interface também permite visualizar, ativar e desativar as regras de alerta disponíveis. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR){target="_blank"}
 
-
 ## Casos de uso no produto {#in-product-uc}
 
 Aproveite os casos de uso do [!DNL Adobe Journey Optimizer] na home page e forneça algumas informações rápidas para criar uma jornada do cliente.
@@ -110,7 +108,6 @@ Clique no botão **[!UICONTROL Começar]** para iniciar o caso de uso.
 
 Você pode acessar casos de uso executados a partir do botão **[!UICONTROL Exibir biblioteca de casos de uso]**.
 
-
 ## Obter ajuda e suporte {#find-help}
 
 Acesse as principais páginas de ajuda do Adobe Journey Optimizer na seção inferior da home page.
@@ -118,10 +115,6 @@ Acesse as principais páginas de ajuda do Adobe Journey Optimizer na seção inf
 Use o ícone **Ajuda** para acessar páginas de ajuda, entrar em contato com o suporte e compartilhar feedback. Você pode pesquisar artigos e vídeos de ajuda no campo de pesquisa.
 
 ![](assets/ajo-help.png)
-
-## Navegadores compatíveis {#browsers}
-
-A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de maneira ideal na versão mais recente do Google Chrome. Você pode ter problemas ao usar determinados recursos em versões mais antigas ou outros navegadores.
 
 ## Preferências de idioma {#language-pref}
 
@@ -145,39 +138,3 @@ Para alterar o idioma:
 * Em seguida, clique no idioma exibido sob seu endereço de email
 * Selecione o idioma de sua preferência e clique em **Salvar**. Você poderá selecionar um segundo idioma caso o componente utilizado não esteja traduzido para o seu primeiro idioma.
    ![](assets/select-language.png)
-
-## Pesquisa{#unified-search}
-
-Em qualquer lugar na interface do Adobe Journey Optimizer, use o recurso de pesquisa unificada da Adobe Experience Cloud no centro da barra superior para localizar ativos, jornadas, conjuntos de dados e muito mais em suas sandboxes.
-
-Comece a inserir conteúdo para exibir os principais resultados. Artigos de ajuda sobre as palavras-chave inseridas também são exibidos nos resultados.
-
-![](assets/unified-search.png)
-
-Pressione **Enter** para acessar todos os resultados e filtrar por objeto comercial.
-
-![](assets/search-and-filter.png)
-
-## Listas de filtros{#filter-lists}
-
-Na maioria das listas, use a barra de pesquisa para localizar itens específicos e definir critérios de filtragem.
-
-Os filtros podem ser acessados com um clique no ícone de filtro na parte superior esquerda de uma lista. O menu de filtros permite filtrar os elementos exibidos de acordo com diferentes critérios. Você pode optar por exibir apenas os elementos de determinado tipo ou status, os que você criou ou os que foram modificados nos últimos 30 dias. As opções diferem dependendo do contexto.
-
-Na lista de jornadas, você pode filtrar jornadas de acordo com o status, tipo e versão por meio do menu **[!UICONTROL Filtros de status e versão]**. O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação do segmento]**, **[!UICONTROL Segmento de leitura]**, **[!UICONTROL Evento comercial]** ou **[!UICONTROL Disparo]**. Você pode optar por exibir somente jornadas que usam um evento, grupo de campos ou ação específica a partir dos **[!UICONTROL Filtros de atividade]** e **[!UICONTROL Filtros de dados]**. Os **[!UICONTROL Filtros de publicação]** permitem selecionar uma data de publicação ou um usuário. Por exemplo, você pode optar por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. [Saiba mais](../building-journeys/using-the-journey-designer.md).
-
->[!NOTE]
->
->Observe que as colunas exibidas podem ser personalizadas usando o botão de configuração na parte superior direita das listas. A personalização é salva para cada usuário.
-
-Use as colunas **[!UICONTROL Última atualização]** e **[!UICONTROL Última atualização por]** para verificar quando aconteceu a última atualização de suas jornadas e quem as salvou.
-
-![](assets/filter-journeys.png)
-
-Nos painéis de configuração Evento, Fonte de dados e Ação, o campo **[!UICONTROL Usado em]** exibe o número de jornadas que usam aquele determinado evento, grupo de campo ou ação. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas correspondentes.
-
-![](assets/journey3bis.png)
-
-Nas listas, é possível executar ações básicas em cada elemento. Por exemplo, você pode duplicar ou excluir um item.
-
-![](assets/journey4.png)
