@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 33%
@@ -53,7 +53,7 @@ Com Adobe Experience Platform [Tags unificadas](https://experienceleague.adobe.c
 >
 >As tags unificadas estão atualmente na versão beta. A documentação e a funcionalidade estão sujeitas a alterações.
 
-## Adicionar tags a um objeto
+### Adicionar tags a um objeto
 
 O **Tags** no campo [jornada](../building-journeys/journey-gs.md#change-properties) ou [campanha](../campaigns/create-campaign.md#create) , permite definir tags para o objeto. Você pode selecionar uma tag existente ou criar uma nova.
 
@@ -69,7 +69,7 @@ A lista de tags definidas é exibida abaixo do **Tags** campo.
 > 
 > Se você duplicar ou criar uma nova versão de uma jornada ou campanha, as tags serão preservadas.
 
-## Filtrar em tags
+### Filtrar em tags
 
 As listas de jornadas e campanhas exibem uma coluna dedicada para que você possa visualizar facilmente suas tags.
 
@@ -81,7 +81,7 @@ Você pode adicionar ou remover tags de qualquer tipo de jornada ou campanha (ao
 
 ![](assets/tags3.png)
 
-## Gerenciar tags
+### Gerenciar tags
 
 Os administradores podem excluir tags e organizá-las por categorias usando o **Tags** menu, em **ADMINISTRAÇÃO**. Saiba mais sobre o gerenciamento de tags no [Documentação de Tags unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
 
