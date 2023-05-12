@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '596'
 ht-degree: 13%
 
 ---
@@ -90,6 +90,10 @@ Agora você pode começar a projetar o conteúdo de sua mensagem SMS do **[!UICO
 1. Após definir o conteúdo, você pode adicionar os URLs de rastreamento à mensagem. Para fazer isso, acesse o **[!UICONTROL Funções auxiliares]** e selecione **[!UICONTROL Ajudantes]**.
 
    Observe que para usar a função de redução de URL, primeiro você deve configurar um subdomínio que será vinculado à sua superfície. [Saiba mais](sms-subdomains.md)
+
+   >[!CAUTION]
+   >
+   > Para acessar e editar subdomínios SMS, você deve ter a variável **[!UICONTROL Gerenciar subdomínios de SMS]** permissão na sandbox de produção.
 
    ![](assets/sms_tracking_1.png)
 
