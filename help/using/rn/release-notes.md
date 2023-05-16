@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 1c4a2f19bd929720e93f4019bb1646c82bed9265
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 97%
+source-wordcount: '1970'
+ht-degree: 95%
 
 ---
 
@@ -81,22 +81,21 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>New Journey dashboard (beta)</strong><br/></th>
+<th><strong>Novo painel do Jornada (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> The Journey dashboard is now split in two tabs:</p>
-<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
-<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
-<p>This capability is accessible in all journeys as a public beta.</p>
+<p> O painel de Jornadas agora é dividido em duas guias:</p>
+<ul><li>Use o <strong>Visão geral</strong> para acessar um novo painel que exibe as métricas principais relacionadas às suas jornadas.</li>
+<li>Use o <strong>Procurar</strong> para acessar a lista de todas as jornadas.</li></ul>
+<p>Esse recurso pode ser acessado em todas as jornadas como um beta público.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/journey-gs.md#journey-access">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
