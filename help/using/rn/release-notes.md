@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 1c4a2f19bd929720e93f4019bb1646c82bed9265
 workflow-type: tm+mt
 source-wordcount: '1970'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -21,18 +21,18 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
-## Melhorias em maio de 2023 {#may-improvements}
+## Melhorias de maio de 2023 {#may-improvements}
 
 <table>
 <thead>
 <tr>
-<th><strong>Use Tags em suas campanhas</strong><br/></th>
+<th><strong>Usar tags em suas campanhas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível atribuir Tags unificadas do Adobe Experience Platform às campanhas. Isso permite classificá-las facilmente e melhorar a pesquisa na lista de campanhas. Observe que o recurso de tags unificadas está atualmente na versão beta.
+<p>Agora é possível atribuir tags unificadas da Adobe Experience Platform às campanhas. Isso permite classificá-las facilmente e melhorar a pesquisa na lista de campanhas. Observe que o recurso de tags unificadas está atualmente na versão beta.
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Para obter mais informações, consulte a <a href="../start/search-filter-categorize.md#tags">documentação detalhada</a>.</p>
 </td>
@@ -84,13 +84,13 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Novo painel do Jornada (beta)</strong><br/></th>
+<th><strong>Novo painel de Jornada (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> O painel de Jornadas agora é dividido em duas guias:</p>
+<p> O painel de Jornada agora está dividido em duas guias:</p>
 <ul><li>Use o <strong>Visão geral</strong> para acessar um novo painel que exibe as métricas principais relacionadas às suas jornadas.</li>
 <li>Use o <strong>Procurar</strong> para acessar a lista de todas as jornadas.</li></ul>
 <p>Esse recurso pode ser acessado em todas as jornadas como um beta público.</p>
