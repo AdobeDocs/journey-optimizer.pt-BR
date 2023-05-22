@@ -10,9 +10,9 @@ level: Intermediate
 keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 68%
 
 ## Práticas recomendadas de design de email {#best-practices}
 
-Ao enviar emails, é importante considerar que os recipients podem encaminhá-los, o que pode às vezes causar problemas com a renderização do email. Isso é particularmente verdadeiro ao usar classes CSS que podem não ser compatíveis com o provedor de email usado para encaminhamento, por exemplo, se estiver usando a classe CSS &quot;is-desktop-hidden&quot; para ocultar uma imagem em dispositivos móveis.
+Ao enviar emails, é importante considerar que os destinatários podem encaminhá-los, o que pode às vezes causar problemas com a renderização do email. Isso acontece particularmente ao usar classes CSS que podem não ser compatíveis com o provedor de email usado para encaminhamento, por exemplo, se estiver usando a classe CSS “is-desktop-hidden” para ocultar uma imagem em dispositivos móveis.
 
-Para minimizar esses problemas de renderização, recomendamos manter sua estrutura de design de email o mais simples possível. Tente usar um único design que funcione bem para desktops e dispositivos móveis e evite usar classes CSS complexas ou outros elementos de design que possam não ser totalmente compatíveis com todos os clientes de email. Ao seguir essas práticas recomendadas, você pode ajudar a garantir que seus emails sejam renderizados corretamente de forma consistente, independentemente de como sejam visualizados ou encaminhados pelos recipients.
+Para minimizar esses problemas de renderização, é recomendado manter a estrutura do design de emails o mais simples possível. Tente usar um único design que funcione bem tanto para desktops quanto para dispositivos móveis e evite usar classes CSS complexas ou outros elementos de design que possam não ser totalmente compatíveis com todos os clientes de email. Ao seguir essas práticas recomendadas, você ajuda a garantir que seus emails sejam renderizados corretamente de forma consistente, independentemente de como sejam visualizados ou encaminhados pelos destinatários.
 
 ## Etapas principais para criar conteúdo de email {#key-steps}
 
