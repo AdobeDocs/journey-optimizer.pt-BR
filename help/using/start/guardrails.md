@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1066'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Os direitos, as limitações de produto e as medidas de proteção de desempenho
 
 Você também precisa estar ciente das [Medidas de proteção aos dados de perfil do cliente em tempo real antes de iniciar](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR){target="_blank"}.
 
-Abaixo você encontrará medidas de proteção e limitações adicionais para uso do [!DNL Adobe Journey Optimizer].
+Abaixo você encontrará medidas de proteção e limitações adicionais para o uso do [!DNL Adobe Journey Optimizer].
 
 ## Navegadores compatíveis {#browsers}
 
@@ -42,10 +42,10 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 
 ## Medidas de proteção de jornada {#journeys-guardrails}
 
-### Medidas de proteção gerais de jornada {#journeys-guardrails-journeys}
+### Medidas de proteção gerais da jornada {#journeys-guardrails-journeys}
 
-* O número de atividades em uma jornada é limitado a 50. O número de atividades é exibido na seção superior esquerda da tela da jornada.
-* O número de **jornadas ao vivo** em uma organização é limitada a 100 por sandbox. Quando esse limite for atingido, não será mais possível publicar uma nova jornada.
+* O limite de número de atividades em uma jornada é de 50. O número de atividades é exibido na seção superior esquerda da tela da jornada.
+* O limite de número de **jornadas ativas** em uma organização é de 100 por sandbox. Quando esse limite for atingido, não será mais possível publicar uma nova jornada.
 
 ### Ações gerais {#general-actions-g}
 
@@ -104,6 +104,6 @@ Você pode escolher uma dessas duas soluções:
 
 ### Editor de expressão {#expression-editor}
 
-* Grupos de campos de evento de experiência não podem ser usados em jornadas que começam com um Segmento de Leitura, uma qualificação de Segmento ou uma atividade de evento comercial. Você precisa criar um novo segmento e usar uma condição de segmento na jornada.
+* Grupos de campos de evento de experiência não podem ser usados em jornadas que começam com um segmento de leitura, uma qualificação de segmento ou uma atividade de evento comercial. É necessário criar um novo segmento e usar uma condição de segmento na jornada.
 
 
