@@ -1,5 +1,5 @@
 ---
-title: Trabalhar com eventos de Gerenciamento de decisões
+title: Trabalhar com eventos de gestão de decisões
 description: Saiba como criar relatórios de Gestão de decisões na Adobe Experience Platform.
 feature: Offers
 topic: Integrations
@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -17,20 +17,20 @@ ht-degree: 55%
 
 Cada vez que a Gestão de decisões toma uma decisão para determinado perfil, as informações relacionadas a esses eventos são automaticamente enviadas para a Adobe Experience Platform.
 
-Isso permite obter insights sobre suas decisões, por exemplo, para saber qual oferta foi apresentada a um determinado perfil. Você pode exportar esses dados para analisá-los em seu próprio sistema de relatórios ou aproveitar o Adobe Experience Platform [Serviço de query](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR) em combinação com outras ferramentas para efeitos de análise e de informação melhorados.
+Isso permite obter insights sobre suas decisões, por exemplo, para saber qual oferta foi apresentada a um determinado perfil. É possível exportar esses dados para analisá-los em seu próprio sistema de relatórios ou aproveitar o [serviço de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR) da Adobe Experience Platform em combinação com outras ferramentas para aprimorar a análise e os relatórios.
 
-## Informações-chave disponíveis em conjuntos de dados {#key-information}
+## Informações importantes disponíveis em conjuntos de dados {#key-information}
 
 Cada evento enviado quando uma decisão é tomada contém quatro pontos de dados principais que podem ser aproveitados para fins de análise e relatórios:
 
 ![](../assets/events-dataset-preview.png)
 
-* **[!UICONTROL Fallback]**: Nome e ID da oferta de fallback, se nenhuma oferta personalizada foi selecionada,
-* **[!UICONTROL Posicionamento]**: Nome, ID e canal da disposição usada para entregar a oferta,
-* **[!UICONTROL Seleções]**: Nome e ID da oferta selecionada para o perfil,
-* **[!UICONTROL Atividade]**: Nome e ID da decisão.
+* **[!UICONTROL Substituta]**: nome e ID da oferta substituta, se nenhuma oferta personalizada foi selecionada,
+* **[!UICONTROL Posicionamento]**: nome, ID e canal do posicionamento usado para entregar a oferta,
+* **[!UICONTROL Seleções]**: nome e ID da oferta selecionada para o perfil,
+* **[!UICONTROL Atividade]**: nome e ID da decisão.
 
-Além disso, você também pode aproveitar a **[!UICONTROL identityMap]** e **[!UICONTROL Carimbo de data e hora]** para recuperar informações sobre o perfil e a hora em que a oferta foi entregue.
+Além disso, também é possível aproveitar os campos **[!UICONTROL identityMap]** e **[!UICONTROL Carimbo de data e hora]** para recuperar informações sobre o perfil e a hora na qual a oferta foi entregue.
 
 Para obter mais informações sobre todos os campos XDM enviados com cada decisão, consulte [esta seção](xdm-fields.md).
 
@@ -44,4 +44,4 @@ Esses conjuntos de dados são baseados no esquema **[!UICONTROL ODE DecisionEven
 
 >[!NOTE]
 >
->Observe que os conjuntos de dados do ODE DecisionEvents são **conjuntos de dados que não são de perfil**, o que significa que eles não podem ser assimilados no Experience Platform para uso pelo perfil do cliente em tempo real.
+>Observe que os conjuntos de dados do ODE DecisionEvents são **conjuntos de dados que não são de perfil**, o que significa que eles não podem ser assimilados na Experience Platform para serem usados pelo perfil do cliente em tempo real.
