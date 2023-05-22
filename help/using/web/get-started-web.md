@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -19,15 +19,15 @@ O [!DNL Journey Optimizer] permite criar visualmente e entregar experiências pe
 
 Por meio de uma interface visual intuitiva, esse recurso permite modificar suas propriedades da Web facilmente para experimentar, otimizar e personalizar suas campanhas de usuário final.
 
-Se já estiver usando canais de saída, como email, SMS ou notificações por push, agora é possível aproveitar o canal Web de entrada para oferecer uma experiência verdadeiramente personalizada que se estenda por todos os canais.
+Se já estiver usando canais de saída, como email, SMS ou notificações por push, agora é possível aproveitar o canal web de entrada para oferecer uma experiência verdadeiramente personalizada que se estenda por todos os canais.
 
-Após criar uma campanha, selecione **Web** como sua ação e defina as configurações básicas. Para obter mais informações sobre como configurar sua campanha, consulte esta [página](../campaigns/create-campaign.md#configure).
+Uma vez criada a campanha, selecione **Web** como sua ação e defina as configurações básicas. Para obter mais informações sobre como configurar sua campanha, consulte esta [página](../campaigns/create-campaign.md#configure).
 
 >[!NOTE]
 >
->Se esta for a primeira vez que você cria uma experiência da Web, siga os pré-requisitos descritos em [esta seção](web-prerequisites.md).
+>Se esta for a primeira vez que estiver criando uma experiência online, certifique-se de seguir os pré-requisitos descritos [nesta seção](web-prerequisites.md).
 
-Descubra as etapas detalhadas para criar uma campanha da Web em [este vídeo](create-web.md#video).
+Conheça as etapas detalhadas para criar uma campanha da web [neste vídeo](create-web.md#video).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -43,7 +43,7 @@ Descubra as etapas detalhadas para criar uma campanha da Web em [este vídeo](cr
 <img alt="Pouco frequentes" src="../assets/do-not-localize/web-create.jpg">
 </a>
 <div>
-<a href="create-web.md"><strong>Criar uma experiência da Web</strong></a>
+<a href="create-web.md"><strong>Criar uma experiência online</strong></a>
 </div>
 <p></td>
 <td>
@@ -51,7 +51,7 @@ Descubra as etapas detalhadas para criar uma campanha da Web em [este vídeo](cr
 <img alt="Validação" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="author-web.md"><strong>Páginas da Web de autor</strong></a>
+<a href="author-web.md"><strong>Criar páginas da Web</strong></a>
 </div>
 <p>
 </td>
