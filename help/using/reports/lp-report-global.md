@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Relatório global da página de destino
-description: Saiba como usar dados do relatório global de landing pages
+description: Saiba como usar os dados do relatório global de landing pages
 feature: Journeys
 topic: Content Management
 role: User
@@ -20,53 +20,53 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_global_report"
 >title="Relatório global da página de destino"
->abstract="O relatório global da página de destino permite medir o impacto das páginas de destino em um período selecionado. O relatório é dividido em diferentes widgets detalhando o sucesso e os erros da página de destino. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
+>abstract="O Relatório global da página de destino permite medir o impacto das páginas de destino em um período selecionado. Seu relatório é dividido em diferentes widgets detalhando o sucesso e os erros da página de destino. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
-A landing page **[!UICONTROL Relatório global]** O relatório exibe detalhes sobre o impacto das landing pages em um período selecionado. Para medir os dados da landing page somente nas últimas 24 horas, consulte o [Relatório ao vivo da página de aterrissagem](lp-report-live.md).
+A landing page **[!UICONTROL Relatório global]** O relatório de exibe detalhes sobre o impacto das páginas de aterrissagem em um período selecionado. Para medir os dados da landing page somente nas últimas 24 horas, consulte [Relatório de landing page em tempo real](lp-report-live.md).
 
-Para acessar os relatórios, selecione **[!UICONTROL Relatório]** no menu avançado da landing page selecionada.
+Para acessar seus relatórios, selecione **[!UICONTROL Relatório]** no menu avançado da landing page selecionada.
 
 ![](assets/landing_page_report.png)
 
-A landing page **[!UICONTROL Relatório global]** é dividido em diferentes widgets detalhando o sucesso e os erros do delivery. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte [seção](global-report.md).
+A landing page **[!UICONTROL Relatório global]** O é dividido em widgets diferentes detalhando o sucesso e os erros do delivery. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte este [seção](global-report.md).
 
 ![](assets/landing_page_global.png)
 
-+++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório global da página de aterrissagem.
++++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório global de Página de aterrissagem.
 
-O **[!UICONTROL Número de visitas]** e **[!UICONTROL Número de visitas ao longo do tempo]** os widgets permitem ver o impacto da página de aterrissagem durante o período de tempo selecionado em um gráfico e KPIs com as seguintes métricas:
+A variável **[!UICONTROL Número de visitas]** e **[!UICONTROL Número de visitas ao longo do tempo]** Os widgets permitem ver o impacto da página de aterrissagem no período selecionado por meio de um gráfico e KPIs com as seguintes métricas:
 
-* **[!UICONTROL Total de visitas]**: Número total de visitas à sua página inicial provenientes de jornadas e fontes externas, incluindo várias visitas de um recipient.
+* **[!UICONTROL Total de visitas]**: número total de visitas à página de aterrissagem provenientes de jornadas e fontes externas, incluindo várias visitas de um recipient.
 
-* **[!UICONTROL Visitantes únicos]**: Número de pessoas que visitaram sua landing page, várias visitas de um recipient não são consideradas.
+* **[!UICONTROL Visitantes únicos]**: Número de pessoas que visitaram a landing page, várias visitas de um recipient não são consideradas.
 
-O **[!UICONTROL Desempenho da página de aterrissagem]** o widget detalha as informações principais relativas à sua mensagem por meio de KPIs:
+A variável **[!UICONTROL Desempenho da landing page]** O widget detalha as principais informações relacionadas à sua mensagem por meio dos KPIs:
 
-* **[!UICONTROL Índice de conversão]**: Número de pessoas que interagiram com a landing page, por exemplo, assinaram um formulário em relação ao número total de visitas.
+* **[!UICONTROL Índice de conversão]**: Número de pessoas que interagiram com a landing page, por exemplo, inscritas em um formulário, em relação ao número total de visitas.
 
 * **[!UICONTROL Taxa de rejeição]**: Número de pessoas que não interagiram com a landing page e não concluíram a ação de assinatura em relação ao número total de visitas.
 
-O **[!UICONTROL Fontes de visita]** O widget representa como os visitantes estão acessando sua página de aterrissagem:
+A variável **[!UICONTROL Origens de visita]** O widget representa como os visitantes acessam a página de aterrissagem:
 
-* **[!UICONTROL Jornada(s)]**: Número de visitas à sua página de aterrissagem provenientes de uma jornada.
+* **[!UICONTROL Jornada(s)]**: Número de visitas à página de aterrissagem provenientes de uma jornada.
 
-* **[!UICONTROL Outras fontes]**: Número de visitas à sua página inicial provenientes de uma fonte externa em vez de uma jornada.
+* **[!UICONTROL Outras origens]**: Número de visitas à página de aterrissagem provenientes de uma fonte externa em vez de uma jornada.
 
-O **[!UICONTROL Principais links clicados]** identifica a interação dos visitantes com o delivery:
+A variável **[!UICONTROL Links mais clicados]** identifica a interação dos visitantes com a entrega:
 
-* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado na página de aterrissagem.
+* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado na landing page.
 
-* **[!UICONTROL Taxa de cliques]**: Porcentagem de cliques na página de aterrissagem.
+* **[!UICONTROL Taxa de cliques]**: Porcentagem de cliques na landing page.
 
-O **[!UICONTROL Jornada(s)]** O widget representa o número de visitas à página de aterrissagem de uma jornada:
+A variável **[!UICONTROL Jornada(s)]** O widget representa o número de visitas à sua página de aterrissagem a partir de uma jornada:
 
-* **[!UICONTROL Visitas]**: Número de visitas à sua página inicial, incluindo várias visitas de um recipient.
+* **[!UICONTROL Visitas]**: número de visitas à página de aterrissagem, incluindo várias visitas de um recipient.
 
-O **[!UICONTROL Outras fontes]** O widget representa o número de visitas à página de aterrissagem de uma fonte externa em vez de uma jornada.
+A variável **[!UICONTROL Outras origens]** O widget representa o número de visitas à sua página de aterrissagem a partir de uma fonte externa em vez de uma jornada.
 
-O **[!UICONTROL Visitas por mensagens]** / **[!UICONTROL Conversões por mensagens]** Os gráficos representam o número total de visitas e pessoas que interagiram com êxito com sua landing page do período relacionado, dependendo das mensagens enviadas.
+A variável **[!UICONTROL Visitas por mensagens]** / **[!UICONTROL Conversões por mensagens]** os gráficos representam o número total de visitas e pessoas que interagiram com êxito com sua landing page para o período relacionado, dependendo das mensagens enviadas.
 
-O **[!UICONTROL Visitas por canais]** / **[!UICONTROL Conversões por canais]** Os gráficos representam o número total de visitas e pessoas que interagiram com êxito com sua landing page do período relacionado, dependendo dos canais.
+A variável **[!UICONTROL Visitas por canais]** / **[!UICONTROL Conversões por canais]** os gráficos representam o número total de visitas e pessoas que interagiram com êxito com sua landing page pelo período relacionado, dependendo dos canais.
 +++
 
-Para obter uma lista detalhada de todas as métricas disponíveis no Adobe Journey Optimizer, consulte [esta página](global-report.md#list-of-components-global).
+Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Optimizer, consulte [esta página](global-report.md#list-of-components-global).
