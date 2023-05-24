@@ -49,4 +49,4 @@ Retorna &quot;HelloWorld&quot;.
 
 `concat(["Hello"," ","World"])`
 
-Retorna &quot;Hello World&quot;.
+Retorna &quot;Olá, Mundo&quot;.

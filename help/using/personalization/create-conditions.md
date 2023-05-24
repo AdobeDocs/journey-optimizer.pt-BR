@@ -18,23 +18,23 @@ ht-degree: 8%
 
 # Trabalhar com regras condicionais {#conditions}
 
-As regras condicionais são conjuntos de regras que definem qual conteúdo deve ser exibido nas mensagens, dependendo de vários critérios, como atributos de perfis, associação de segmentos ou eventos contextuais.
+As regras condicionais são conjuntos de regras que definem qual conteúdo deve ser exibido em suas mensagens, dependendo de vários critérios, como atributos de perfis, associação de segmento ou eventos contextuais.
 
-As regras condicionais são criadas usando o editor de expressão e podem ser armazenadas se você quiser reutilizá-las em seu conteúdo. [Saiba como salvar uma regra condicional na biblioteca](#save)
+As regras condicionais são criadas usando o editor de expressão e podem ser armazenadas se você desejar reutilizá-las no conteúdo. [Saiba como salvar uma regra condicional na biblioteca](#save)
 
 >[!NOTE]
 >
->Os indivíduos precisarão da [Gerenciar itens da biblioteca](../administration/ootb-product-profiles.md) permissão para salvar ou excluir regras condicionais. As condições salvas estão disponíveis para uso por todos os usuários em uma organização.
+>Os indivíduos precisarão da [Gerenciar itens de biblioteca](../administration/ootb-product-profiles.md) permissão para salvar ou excluir regras condicionais. As condições salvas estão disponíveis para uso por todos os usuários em uma organização.
 
 ## Acessar o construtor de regras condicionais {#access}
 
-As regras condicionais são criadas a partir da variável **[!UICONTROL Condições]** no editor de expressão, que pode ser acessado do seguinte modo:
+Regras condicionais são criadas a partir do **[!UICONTROL Condições]** no editor de expressão, que pode ser acessado:
 
-* No Designer de email, ao ativar o conteúdo dinâmico de um componente no corpo do email. [Saiba como adicionar conteúdo dinâmico aos emails](dynamic-content.md#emails)
+* No Designer de email, ao ativar o conteúdo dinâmico para um componente no corpo do email. [Saiba como adicionar conteúdo dinâmico a emails](dynamic-content.md#emails)
 
    ![](assets/conditions-access-email.png)
 
-* Em qualquer campo em que você pode adicionar personalização usando a variável [Editor de expressão](personalization-build-expressions.md).
+* Em qualquer campo onde você possa adicionar personalização usando o [Editor de expressão](personalization-build-expressions.md).
 
    ![](assets/conditions-access-editor.png)
 
@@ -52,37 +52,37 @@ As regras condicionais são criadas a partir da variável **[!UICONTROL Condiç�
 
 As etapas para criar uma regra condicional são as seguintes:
 
-1. Acesse o **[!UICONTROL Condições]** no Editor de expressão ou no Designer de email, em seguida, clique em **[!UICONTROL Criar novo]**.
+1. Acesse o **[!UICONTROL Condições]** no Editor de expressão ou no Designer de email e, em seguida, clique em **[!UICONTROL Criar novo]**.
 
-1. Crie a regra condicional de acordo com suas necessidades. Para fazer isso, arraste e solte e organize os atributos desejados do menu esquerdo para a tela.
+1. Crie a regra condicional de acordo com suas necessidades. Para fazer isso, arraste e solte e organize os atributos desejados do menu esquerdo na tela de desenho.
 
-   As etapas para combinar atributos na tela são semelhantes à experiência de criação de segmento. Para obter mais informações sobre como trabalhar com a tela do construtor de regras, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#rule-builder-canvas).
+   As etapas para combinar atributos na tela são semelhantes à experiência de construção de segmentos. Para obter mais informações sobre como trabalhar com a tela do construtor de regras, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
    Os atributos são organizados em três guias:
 
    * **[!UICONTROL Perfil]**:
-      * **[!UICONTROL Associação de segmento]** lista todos os atributos do segmento (ou seja, status, versão etc.) para [Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
-      * **[!UICONTROL Perfis individuais XDM]** lista todos os atributos de perfil associados à variável [Esquema do Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR) definido no Adobe Experience Platform.
-   * **[!UICONTROL Contextual]**: quando a mensagem é usada em uma jornada, campos de jornada contextual ficam disponíveis por meio dessa guia.
-   * **[!UICONTROL Públicos-alvo]**: lista todos os públicos-alvo gerados a partir de segmentos criados no [Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+      * **[!UICONTROL Associação de segmento]** lista todos os atributos de segmento (ou seja, status, versão etc.) para [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
+      * **[!UICONTROL Perfis individuais XDM]** lista todos os atributos de perfil associados ao [Esquema do Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR) definido no Adobe Experience Platform.
+   * **[!UICONTROL Contextual]**: quando a mensagem é usada em uma jornada, os campos de jornada contextual ficam disponíveis por meio dessa guia.
+   * **[!UICONTROL Públicos-alvo]**: lista todos os públicos-alvo gerados a partir de segmentos criados no [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 1. Quando a regra condicional estiver pronta, você poderá adicioná-la à mensagem para criar conteúdo dinâmico. [Saiba como adicionar conteúdo dinâmico](dynamic-content.md)
 
-   Também é possível salvar a regra para permitir mais reutilização. [Saiba como salvar uma condição](#save)
+   Você também pode salvar a regra para permitir mais reutilização. [Saiba como salvar uma condição](#save)
 
 ## Salvar uma regra condicional {#save}
 
-Se houver regras de condição que serão reutilizadas com frequência, você poderá salvá-las na biblioteca de condições. Todas as regras salvas são compartilhadas e podem ser acessadas e usadas por indivíduos em sua organização.
+Se houver regras de condição que serão reutilizadas com frequência, salve-as na biblioteca de condições. Todas as regras salvas são compartilhadas e podem ser acessadas e usadas por indivíduos em sua organização.
 
 >[!NOTE]
 >
->Regras condicionais que aproveitam atributos contextuais do jornada não podem ser salvas na biblioteca.
+>Regras condicionais que usam atributos contextuais do jornada não podem ser salvas na biblioteca.
 
-1. Na tela de edição de condição, clique no botão **[!UICONTROL Salvar condição]** botão.
+1. Na tela de edição de condição, clique na guia **[!UICONTROL Salvar condição]** botão.
 
-1. Dê um nome e uma descrição (opcional) à regra, em seguida, clique em **[!UICONTROL Adicionar]**.
+1. Dê um nome e uma descrição (opcional) à regra e clique em **[!UICONTROL Adicionar]**.
 
    ![](assets/conditions-name-description.png)
 

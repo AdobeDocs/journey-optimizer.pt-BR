@@ -16,11 +16,11 @@ ht-degree: 8%
 
 # filtro{#filter}
 
-Retorna um listObject com objetos com o atributo de chave correspondente a um dos valores de chave fornecidos.
+Retorna um listObject com objetos que têm o atributo de chave correspondente a um dos valores de chave fornecidos.
 
 >[!NOTE]
 >
->Se a lista de destino for um listObject, essa função só poderá ser usada em expressões de ação personalizada.
+>Se a lista de destino for um listObject, essa função só poderá ser usada em expressões de ação personalizadas.
 
 ## Categoria
 
@@ -60,7 +60,7 @@ Retorna um listObject.
 
 ## Exemplos
 
-Este é um exemplo de uma carga transmitida em um evento de entrada &quot;myevent&quot;:
+Este é um exemplo de uma carga útil transmitida em um evento de entrada &quot;myevent&quot;:
 
 ```json
 "productListItems": [{

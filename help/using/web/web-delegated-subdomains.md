@@ -31,20 +31,20 @@ ht-degree: 27%
 >title="Definir um subdomínio da web"
 >abstract="Selecione um subdomínio da lista de subdomínios delegados à Adobe. É possível definir esse subdomínio da web como o padrão, mas apenas um subdomínio padrão pode ser definido de cada vez."
 
-Ao criar experiências da Web, se você adicionar conteúdo proveniente do [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) , você deve configurar o subdomínio que será usado para publicar esse conteúdo.
+Ao criar experiências na Web, se você adicionar conteúdo proveniente da [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) , você deve configurar o subdomínio que será usado para publicar esse conteúdo.
 
-Para fazer isso, você deve escolher na lista de subdomínios já delegados ao Adobe. Saiba mais sobre como delegar subdomínios ao Adobe [esta seção](../configuration/delegate-subdomain.md).
+Para fazer isso, você deve escolher na lista de subdomínios já delegados ao Adobe. Saiba mais sobre como delegar subdomínios para o Adobe em [nesta seção](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
->A configuração de subdomínio da Web é comum a todos os ambientes. Portanto:
+>A configuração do subdomínio da Web é comum a todos os ambientes. Portanto:
 >
->* Para acessar e editar subdomínios da Web, é necessário ter a variável **[!UICONTROL Gerenciar subdomínios da Web]** permissão na sandbox de produção.
+>* Para acessar e editar subdomínios da Web, você deve ter o **[!UICONTROL Gerenciar subdomínios da Web]** permissão na sandbox de produção.
 >
 > * Qualquer modificação em um subdomínio da Web também afetará as sandboxes de produção.
 
 
-Você pode criar vários subdomínios da Web, mas somente a variável **default** será usado. Você pode alterar o subdomínio da Web padrão, mas somente um pode ser usado de cada vez.
+Você pode criar vários subdomínios da Web, mas somente o **padrão** subdomínio será usado. Você pode alterar o subdomínio padrão da Web, mas somente um pode ser usado de cada vez.
 
 1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Configuração da Web]** > **[!UICONTROL Subdomínios da Web]**.
 
@@ -60,7 +60,7 @@ Você pode criar vários subdomínios da Web, mas somente a variável **default*
    >
    >Não é possível selecionar um subdomínio que já esteja sendo usado como subdomínio da Web.
 
-1. O prefixo que será exibido no URL da Web é adicionado automaticamente. Não é possível alterá-lo.
+1. O prefixo que será exibido no URL da Web é adicionado automaticamente. Você não pode alterá-la.
 
 1. Para definir esse subdomínio como padrão, selecione a opção correspondente.
 
@@ -68,21 +68,21 @@ Você pode criar vários subdomínios da Web, mas somente a variável **default*
 
    >[!NOTE]
    >
-   >Somente a variável **default** será usado.
+   >Somente o **padrão** subdomínio será usado.
 
-1. Clique em **[!UICONTROL Enviar]**. O subdomínio obtém a variável **[!UICONTROL Sucesso]** status. Ele está pronto para ser usado em suas experiências da Web.
+1. Clique em **[!UICONTROL Enviar]**. O subdomínio obtém o **[!UICONTROL Sucesso]** status. Ele está pronto para ser usado nas experiências da Web.
 
    >[!NOTE]
    >
-   >Em raras ocasiões, uma configuração de subdomínio pode falhar. Nesse caso, é possível excluir a variável **[!UICONTROL Falha]** subdomínio para limpar a lista usando o **[!UICONTROL Excluir]** do botão **[!UICONTROL Mais ações]** ícone .
+   >Em ocasiões muito raras, uma configuração de subdomínio pode falhar. Nesse caso, você pode excluir o **[!UICONTROL Failed]** subdomínio para limpar a lista usando o **[!UICONTROL Excluir]** botão no **[!UICONTROL Mais ações]** ícone.
 
-1. O **[!UICONTROL Padrão]** o selo é exibido ao lado do subdomínio que está sendo usado como padrão no momento. Para alterar o subdomínio padrão, selecione **[!UICONTROL Definir como padrão]** do **[!UICONTROL Mais ações]** ao lado do subdomínio desejado.
+1. A variável **[!UICONTROL Padrão]** O selo é exibido ao lado do subdomínio usado atualmente como padrão. Para alterar o subdomínio padrão, selecione **[!UICONTROL Definir como padrão]** do **[!UICONTROL Mais ações]** botão ao lado do subdomínio desejado.
 
    ![](assets/web-subdomain-default.png)
 
    >[!NOTE]
    >
-   >Você pode alterar o subdomínio da Web padrão, mas somente um pode ser usado de cada vez.
+   >Você pode alterar o subdomínio padrão da Web, mas somente um pode ser usado de cada vez.
 
    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 

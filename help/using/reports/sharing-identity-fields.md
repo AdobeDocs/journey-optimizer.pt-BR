@@ -17,9 +17,9 @@ ht-degree: 26%
 
 # campos de identidade do evento journeyStep {#sharing-identity-fields}
 
-Esse grupo de campos é específico para journeyStepEvent: esse evento está relacionado ao jornada e não tem o identityMap, descrevendo a identidade do perfil, se houver.
+Este grupo de campos é específico do journeyStepEvent: este evento está relacionado ao jornada e não tem o identityMap, que descreve a identidade do perfil, se houver.
 
-Para journeyStepEvent, também precisamos adicionar campos relacionados à identidade:
+Para journeyStepEvent, também é necessário adicionar campos relacionados à identidade:
 
 ## profileID
 

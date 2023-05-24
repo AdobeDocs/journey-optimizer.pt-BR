@@ -7,7 +7,7 @@ feature: Data Sources
 topic: Administration
 role: Admin, Developer
 level: Intermediate
-keywords: dados, fonte, jornada, plataforma
+keywords: dados, origem, jornada, plataforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
@@ -32,7 +32,7 @@ A configuração da fonte de dados permite definir uma conexão com um sistema p
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-Essa configuração não é necessária se suas jornadas só usarem os dados locais provenientes de uma carga útil do evento. Por exemplo, se a jornada for composta de um evento seguido por uma atividade de ação de canal que usa somente os dados do evento, não será necessário configurar uma fonte de dados.
+Essa configuração não é necessária se suas jornadas só usarem os dados locais provenientes de uma carga útil do evento. Por exemplo, se sua jornada for composta por um evento seguido por uma atividade de ação de canal que usa apenas dados do evento, não será necessário configurar uma fonte de dados.
 
 Há dois tipos de fontes de dados:
 
@@ -43,11 +43,11 @@ Para cada fonte de dados, você define as informações que serão recuperadas u
 
 >[!NOTE]
 >
->As relações de esquema não são suportadas em fontes de dados.
+>Não há suporte para relações de esquema em fontes de dados.
 
 Para obter mais informações sobre como configurar uma fonte de dados da Adobe Experience Platform e uma fonte de dados externa, e como localizar e usar dados em uma jornada, assista a este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
-## Vídeo tutorial {#video}
+## Vídeo explicativo {#video}
 
 Entenda o que é uma fonte de dados e saiba como configurar fontes de dados da Experience Platform e externas.
 

@@ -1,6 +1,6 @@
 ---
 title: Criar uma oferta substituta
-description: Uma oferta de fallback é enviada para os clientes se eles não estiverem qualificados para outras ofertas
+description: Uma oferta substituta é enviada aos clientes se eles não estiverem qualificados para outras ofertas
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,9 +15,9 @@ ht-degree: 12%
 
 # Criar uma oferta substituta {#create-fallback-offer}
 
-Você pode criar uma oferta de fallback fazendo uma solicitação de POST para a [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
+Você pode criar uma oferta substituta fazendo uma solicitação POST para o [!DNL Offer Library] ao fornecer a ID do contêiner.
 
-## Aceitar e digitar cabeçalhos de tipo de conteúdo {#accept-and-content-type-headers}
+## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
 A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
@@ -34,8 +34,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde as ofertas de fallback estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O container onde as ofertas substitutas estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Solicitação**
 
@@ -71,7 +71,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a oferta de fallback recém-criada, incluindo sua ID de instância exclusiva e seu posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua oferta de fallback. Você pode usar sua oferta exclusiva de fallback `@id` em um tutorial posterior para criar uma decisão.
+Uma resposta bem-sucedida retorna informações sobre a oferta substituta recém-criada, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID de instância em etapas posteriores para atualizar ou excluir sua oferta substituta. Você pode usar sua oferta substituta exclusiva `@id` em um tutorial posterior para criar uma decisão.
 
 
 ```json

@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: inLastYears
-description: Saiba mais sobre a função emLastYears
+description: Saiba mais sobre a função inLastYears
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # inLastYears {#inLastYears}
 
-Retorna true se uma determinada data ou dateTime estiver entre agora e agora - anos delta.
+Retorna verdadeiro se uma determinada data ou dateTime estiver entre agora e agora - anos delta.
 
 ## Categoria
 
@@ -37,10 +37,10 @@ Data
 
 `inLastYears(<dateTime>,<integer>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplos
 
 `inLastYears(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-Retorna true.
+Retorna verdadeiro.

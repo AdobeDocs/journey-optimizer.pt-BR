@@ -65,12 +65,12 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
 
    ![](assets/journey27.png)
 
-1. Configure a autenticação dependendo da configuração do serviço externo: **[!UICONTROL Sem autenticação]**, **[!UICONTROL Básico]**, **[!UICONTROL Personalizado]** ou **[!UICONTROL Chave da API]**. Para obter mais informações sobre o modo de autenticação personalizado, consulte [esta seção](../datasource/external-data-sources.md#custom-authentication-mode). Em nosso exemplo, escolhemos:
+1. Configure a autenticação dependendo da configuração do serviço externo: **[!UICONTROL Sem autenticação]**, **[!UICONTROL Básico]**, **[!UICONTROL Personalizado]** ou **[!UICONTROL Chave de API]**. Para obter mais informações sobre o modo de autenticação personalizado, consulte [nesta seção](../datasource/external-data-sources.md#custom-authentication-mode). Em nosso exemplo, escolhemos:
 
    * **[!UICONTROL Tipo]**: &quot;Chave de API&quot;
    * **[!UICONTROL Nome]**: &quot;appid&quot; (este é o nome do parâmetro da chave de API)
    * **[!UICONTROL Valor]**: &quot;1234&quot; (este é o valor da nossa chave de API)
-   * **[!UICONTROL Localização]**: &quot;Parâmetro de consulta&quot; (a chave de API está localizada no URL)
+   * **[!UICONTROL Localização]**: &quot;Parâmetro de query&quot; (a chave de API está localizada no URL)
 
    ![](assets/journey28.png)
 
@@ -78,20 +78,20 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
 
 Para o conjunto de parâmetros &quot;long/lat&quot;, criamos um grupo de campos com as seguintes informações:
 
-* **[!UICONTROL Usado em]**: exibe o número de jornadas que usam um grupo de campos. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** ícone para exibir a lista de jornadas usando esse grupo de campos.
-* **[!UICONTROL Método]**: selecione o método POST ou GET . No nosso caso, selecionamos o método GET.
+* **[!UICONTROL Usado em]**: exibe o número de jornadas que usam um grupo de campos. Você pode clicar no link **[!UICONTROL Exibir jornadas]** ícone para exibir a lista de jornadas usando este grupo de campos.
+* **[!UICONTROL Método]**: selecione o método POST ou GET. No nosso caso, selecionamos o método GET.
 * **[!UICONTROL Valores dinâmicos]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas jornadas. [Saiba mais](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL Carga de resposta]**: clique dentro do **[!UICONTROL Carga]** e cole um exemplo da carga útil retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API de meteorologia. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. Observe que você pode clicar em **[!UICONTROL Colar uma nova carga]** se desejar alterar a carga útil transmitida no momento.
+* **[!UICONTROL Carga de resposta]**: clique dentro do **[!UICONTROL Carga]** e cole um exemplo da carga útil retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API de meteorologia. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. Observe que você pode clicar em **[!UICONTROL Colar uma nova carga]** se quiser alterar a carga útil transmitida no momento.
 
    >[!NOTE]
    >
-   >Matrizes escalares não são suportadas na definição de carga de resposta.
+   >Matrizes escalares não são compatíveis com a definição de carga de resposta.
 
-* **[!UICONTROL Carga enviada]**: esse campo não aparece no nosso exemplo. Ele só estará disponível se você selecionar o método POST. Cole a carga útil que será enviada para o sistema de terceiros.
+* **[!UICONTROL Conteúdo enviado]**: este campo não aparece no nosso exemplo. Ele só estará disponível se você selecionar o método POST. Cole a carga útil que será enviada para o sistema de terceiros.
 
-No caso de uma chamada GET que requer parâmetros, você informa os parâmetros na variável **[!UICONTROL Valores dinâmicos]** e são automaticamente adicionados no final da chamada. No caso de uma chamada POST, é necessário:
+No caso de uma chamada GET que exige parâmetros, você informa os parâmetros na variável **[!UICONTROL Valores dinâmicos]** e são adicionados automaticamente no final da chamada. No caso de uma chamada POST, é necessário:
 
-* listar os parâmetros a serem transmitidos no momento da chamada na **[!UICONTROL Valores dinâmicos]** (no exemplo abaixo: &quot;identificador&quot;).
+* listar os parâmetros que serão transmitidos no momento da chamada no **[!UICONTROL Valores dinâmicos]** (no exemplo abaixo: &quot;identificador&quot;).
 * especificá-los também com a mesma sintaxe no corpo da carga útil enviada. Para fazer isso, é necessário adicionar: &quot;param&quot;: &quot;nome do parâmetro&quot; (no exemplo abaixo: &quot;identificador&quot;). Siga a sintaxe abaixo:
 
    ```
@@ -132,10 +132,10 @@ A definição do endpoint que será chamado para gerar o token de acesso:
 
 * endpoint: URL que será usado para gerar o endpoint
 * método da solicitação HTTP no endpoint (GET ou POST)
-* cabeçalhos: pares de valores-chave a serem inseridos como cabeçalhos nesta chamada, se necessário
+* cabeçalhos: pares de valores chave que serão inseridos como cabeçalhos nesta chamada, se necessário
 * corpo: descreve o corpo da chamada se o método for POST. Oferecemos suporte a uma estrutura de corpo limitada, definida em bodyParams (pares de valores chave). O bodyType descreve o formato e a codificação do corpo na chamada:
-   * &#39;form&#39;: o que significa que o tipo de conteúdo será application/x-www-form-urlencoded (charset UTF-8) e os pares de valores chave serão serializados da seguinte maneira: key1=value1&amp;key2=value2&amp;...
-   * &#39;json&#39;: o que significa que o tipo de conteúdo será application/json (charset UTF-8) e os pares de valores chave serão serializados como um objeto json da seguinte maneira: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+   * &#39;form&#39;: significa que o tipo de conteúdo será application/x-www-form-urlencoded (charset UTF-8) e que os pares de valor-chave serão serializados como estão: key1=value1&amp;key2=value2&amp;...
+   * &quot;json&quot;: significa que o tipo de conteúdo será application/json (charset UTF-8) e que os pares de valores chave serão serializados como um objeto json como a seguir: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 A definição da forma como o token de acesso deve ser inserido na solicitação HTTP da ação:
 
@@ -176,7 +176,7 @@ O formato dessa autenticação é:
 
 É possível alterar a duração do cache do token para uma fonte de dados de autenticação personalizada. Encontre abaixo um exemplo de payload de autenticação personalizada. A duração do cache é definida no parâmetro &quot;cacheDuration&quot;. Especifica a duração de retenção do token gerado no cache. A unidade pode ser milissegundos, segundos, minutos, horas, dias, meses, anos.
 
-Este é um exemplo do tipo de autenticação do portador:
+Veja um exemplo do tipo de autenticação de portador:
 
 ```
 {
@@ -208,9 +208,9 @@ Este é um exemplo do tipo de autenticação do portador:
 
 >[!NOTE]
 >
->A duração do cache ajuda a evitar muitas chamadas para os pontos de extremidade de autenticação. A retenção de token de autenticação está armazenada em cache nos serviços, não há persistência. Se um serviço for reiniciado, ele será iniciado com um cache limpo. A duração padrão do cache é de 1 hora. Na carga de autenticação personalizada, ela pode ser adaptada especificando outra duração de retenção.
+>A duração do cache ajuda a evitar muitas chamadas para os pontos de extremidade de autenticação. A retenção do token de autenticação é armazenada em cache nos serviços; não há persistência. Se um serviço for reiniciado, ele será iniciado com um cache limpo. A duração padrão do cache é de 1 hora. Na carga de autenticação personalizada, ela pode ser adaptada especificando outra duração de retenção.
 
-Este é um exemplo do tipo de autenticação do cabeçalho:
+Veja um exemplo do tipo de autenticação de cabeçalho:
 
 ```
 {

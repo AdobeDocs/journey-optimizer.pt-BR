@@ -15,11 +15,11 @@ ht-degree: 7%
 
 # Funções aritméticas {#maths}
 
-As funções aritméticas são usadas para executar cálculos básicos em valores.
+Funções aritméticas são usadas para realizar cálculos básicos em valores.
 
 ## Add{#add}
 
-O `+` (adição) é usada para encontrar a soma de duas expressões de argumento.
+A variável `+` (adição) é usada para encontrar a soma de duas expressões de argumento.
 
 **Sintaxe**
 
@@ -29,7 +29,7 @@ O `+` (adição) é usada para encontrar a soma de duas expressões de argumento
 
 **Exemplo**
 
-A operação seguinte soma o preço de dois produtos diferentes.
+A operação a seguir soma o preço de dois produtos diferentes.
 
 ```sql
 {%= product1.price + product2.price %}
@@ -37,7 +37,7 @@ A operação seguinte soma o preço de dois produtos diferentes.
 
 ## Multiplicar{#multiply}
 
-O `*` (multiplicação) é usada para encontrar o produto de duas expressões de argumento.
+A variável `*` A função (multiplicação) é usada para encontrar o produto de duas expressões de argumento.
 
 **Sintaxe**
 
@@ -47,7 +47,7 @@ O `*` (multiplicação) é usada para encontrar o produto de duas expressões de
 
 **Exemplo**
 
-A operação seguinte indica o produto do inventário e o preço de um produto para determinar o valor bruto do produto.
+A operação a seguir localiza o produto do estoque e o preço de um produto para localizar o valor bruto do produto.
 
 ```sql
 {%= product.inventory * product.price %}
@@ -55,7 +55,7 @@ A operação seguinte indica o produto do inventário e o preço de um produto p
 
 ## Subtrair{#substract}
 
-O `-` (subtração) é usada para encontrar a diferença de duas expressões de argumento.
+A variável `-` A função (subtração) é usada para encontrar a diferença de duas expressões de argumento.
 
 **Sintaxe**
 
@@ -65,15 +65,15 @@ O `-` (subtração) é usada para encontrar a diferença de duas expressões de 
 
 **Exemplo**
 
-A operação seguinte indica a diferença de preço entre dois produtos diferentes.
+A operação a seguir encontra a diferença de preço entre dois produtos diferentes.
 
 ```sql
 {%= product1.price - product2.price %}
 ```
 
-## Dividir{#divide}
+## Divisão{#divide}
 
-O `/` (divisão) é usada para encontrar o quociente de duas expressões de argumento.
+A variável `/` A função (divisão) é usada para encontrar o quociente de duas expressões de argumento.
 
 **Sintaxe**
 
@@ -83,15 +83,15 @@ O `/` (divisão) é usada para encontrar o quociente de duas expressões de argu
 
 **Exemplo**
 
-A operação a seguir encontra o quociente entre o total de produtos vendidos e o total de dinheiro ganho para ver o custo médio por item.
+A operação a seguir encontra o quociente entre o total de produtos vendidos e o dinheiro total ganho para ver o custo médio por item.
 
 ```sql
 {%= totalProduct.price / totalProduct.sold %}
 ```
 
-## Remanescente{#remainder}
+## Restante{#remainder}
 
-O `%` (modulo/rest) é usada para encontrar o restante após dividir as duas expressões de argumento.
+A variável `%` A função (modulo/resto) é usada para encontrar o restante após dividir as duas expressões de argumento.
 
 **Sintaxe**
 

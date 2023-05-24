@@ -16,7 +16,7 @@ ht-degree: 21%
 
 # containIgnoreCase {#containIgnoreCase}
 
-Verifica se a segunda string de argumento está contida na primeira string de argumento, sem considerar o caso.
+Verifica se a segunda cadeia de caracteres do argumento está contida na primeira cadeia de caracteres do argumento, sem levar em conta maiúsculas e minúsculas.
 
 ## Categoria
 
@@ -31,16 +31,16 @@ String
 | Parâmetro | Tipo |
 |-----------|------------------|
 | string | string |
-| string pesquisada | string |
+| sequência de caracteres pesquisada | string |
 
 ## Assinatura e tipo retornado
 
 `containIgnoreCase(<string>,<string>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplo
 
 `containIgnoreCase("rowing is great", "GREAT")`
 
-Retorna true.
+Retorna verdadeiro.

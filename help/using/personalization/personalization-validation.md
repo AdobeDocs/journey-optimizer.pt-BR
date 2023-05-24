@@ -20,10 +20,10 @@ ht-degree: 2%
 
 ## Mecanismos de validação {#validation-mechanisms}
 
-No **Editor de expressão** use a **Validar** para verificar a sintaxe de personalização.
+No **Editor de expressão** , use o **Validar** botão para verificar a sintaxe de personalização.
 
 >[!NOTE]
-> A validação é executada automaticamente ao clicar no botão **Adicionar** para fechar a janela do editor.
+> A validação é executada automaticamente ao clicar no ícone **Adicionar** botão para fechar a janela do editor.
 
 ![](assets/perso_validation1.png)
 
@@ -34,9 +34,9 @@ No **Editor de expressão** use a **Validar** para verificar a sintaxe de person
 
 * **Caminho &quot;XYZ&quot; não encontrado**
 
-Ao tentar fazer referência a um campo que não está definido no esquema.
+Ao tentar referenciar um campo que não está definido no esquema.
 
-Nesse caso **firstName1** não é definido como atributo no schema de perfil:
+Nesse caso **firstName1** não está definido como atributo no esquema de perfil:
 
 ```
 {{profile.person.name.firstName1}}
@@ -44,7 +44,7 @@ Nesse caso **firstName1** não é definido como atributo no schema de perfil:
 
 * **Incompatibilidade de tipo para a variável &quot;XYZ&quot;. Matriz esperada. Sequência de caracteres encontrada.**
 
-Ao tentar iterar sobre uma string em vez de array:
+Ao tentar iterar sobre uma cadeia de caracteres em vez de uma matriz:
 
 Nesse caso **produto** não é uma matriz:
 
@@ -54,11 +54,11 @@ Nesse caso **produto** não é uma matriz:
 {{/each}}
 ```
 
-* **Sintaxe de handlebars inválida. Encontrado`‘[XYZ}}’`**
+* **Sintaxe de manipuladores inválida. Encontrado`‘[XYZ}}’`**
 
-Quando uma sintaxe de handlebars inválida é usada.
+Quando a sintaxe de manipuladores inválidos é usada.
 
-As expressões Handlebars são cercadas por **{{expression}}**
+Expressões Handlebars são cercadas por **{{expression}}**
 
 ```
    {{[profile.person.name.firstName}}
@@ -72,49 +72,49 @@ No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 
 ## Erros específicos relacionados às ofertas {#specific-errors}
 
-Os erros relacionados à integração de ofertas em um email ou mensagem de push têm o seguinte padrão:
+Os erros relacionados à integração de ofertas em uma mensagem de email ou push têm o seguinte padrão:
 
 ```
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-A validação é realizada durante a validação do conteúdo de personalização no editor de expressão.
+A validação é executada durante a validação do conteúdo de personalização no editor de expressão.
 
 <table> 
  <thead> 
   <tr> 
    <th> Título do erro<br /> </th> 
-   <th> Validação / Resolução <br /> </th> 
+   <th> Validação/resolução <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>Recurso com id placementID e tipo OfferPlacement não encontrado <br/>
 Recurso com id activityID e tipo OfferActivity não encontrado<br/></td> 
-   <td>Verifique se ActivityID e/ou PlacementID estão disponíveis</td> 
+   <td>Verificar se ActivityID e/ou PlacementID estão disponíveis</td> 
   </tr> 
    <tr> 
-   <td>O recurso não pôde ser validado.</td> 
-   <td>O componentType na Disposição deve corresponder à oferta offerType</td> 
+   <td>Não foi possível validar o recurso.</td> 
+   <td>O componentType no Posicionamento deve corresponder à oferta offerType</td> 
   </tr> 
    <tr> 
    <td>O URL público não está presente em offerId.</td> 
-   <td>As Ofertas de imagem (todas Personalizadas e de fallback associadas à decisão e ao par de disposições) devem ter o URL público preenchido (deliveryURL não deve estar vazio).</td> 
+   <td>As Ofertas de imagem (todas as Personalizadas e substitutas associadas ao par de decisão e posicionamento) devem ter o URL público preenchido (deliveryURL não deve estar vazio).</td> 
   </tr> 
   <tr> 
    <td>A decisão contém atributos que não são de perfil.</td> 
-   <td>O uso do Modelo de ofertas deve conter somente os atributos do perfil.</td> 
+   <td>O uso do modelo de ofertas deve conter somente os atributos do perfil.</td> 
   </tr> 
   <tr> 
-   <td>Ocorreu um erro ao obter o uso de decisão.</td> 
+   <td>Ocorreu um erro ao buscar o uso de decisão.</td> 
    <td>Esse erro pode ocorrer quando a API está tentando buscar o modelo de oferta.</td> 
   </tr>
   <tr> 
-   <td>O atributo de oferta Atributo de Oferta é inválido.</td> 
-   <td>Verifique se o atributo de oferta referenciado no drp de oferta é válido. A seguir estão os atributos válidos: <br/>
+   <td>Atributo de oferta atributo de oferta inválido.</td> 
+   <td>Verifique se o atributo de oferta referenciado na queda da oferta é válido. A seguir estão os atributos válidos: <br/>
 Imagem: deliveryURL, linkURL<br/>
 Texto: conteúdo<br/>
-HTML: conteúdo<br/></td> 
+HTML: content<br/></td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,7 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: espera, atividade, jornada, próximo, tela
+keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -23,7 +23,7 @@ ht-degree: 23%
 >title="Atividade de espera"
 >abstract="Se quiser esperar antes de executar a próxima atividade no caminho, você pode usar uma atividade Esperar. Ela permite definir o momento em que a próxima atividade será executada. Duas opções estão disponíveis: duração e personalizado."
 
-Se quiser esperar antes de executar a próxima atividade no caminho, use um **[!UICONTROL Aguardar]** atividade . Ela permite definir o momento em que a próxima atividade será executada. Três opções estão disponíveis:
+Se quiser aguardar antes de executar a próxima atividade no caminho, você poderá usar um **[!UICONTROL Aguardar]** atividade. Ela permite definir o momento em que a próxima atividade será executada. Três opções estão disponíveis:
 
 * [Duração](#duration)
 * [Personalizado](#custom)
@@ -35,11 +35,11 @@ Se quiser esperar antes de executar a próxima atividade no caminho, use um **[!
 
 ## Sobre a atividade Wait{#about_wait}
 
-A duração máxima da espera é de 30 dias. No modo de teste, a variável **[!UICONTROL Tempo de espera no teste]** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que os resultados do teste sejam obtidos rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
+A duração máxima de espera é de 30 dias. No modo de teste, a variável **[!UICONTROL Tempo de espera no teste]** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
-Tenha cuidado ao usar várias atividades de Espera em uma jornada, pois o tempo limite da jornada global é de 30 dias, o que significa que um perfil sempre deixará de participar da jornada no máximo 30 dias após ter entrado nela.
+Tenha cuidado ao usar várias atividades de espera em uma jornada, pois o tempo limite da jornada global é de 30 dias, o que significa que um perfil sempre desaparecerá do máximo da jornada 30 dias após ter entrado.
 
-## Duração da espera{#duration}
+## Espera de duração{#duration}
 
 Selecione a duração da espera antes da execução da próxima atividade.
 
@@ -54,19 +54,19 @@ Select the date for the execution of the next activity.
 
 -->
 
-## Aguardar personalizado{#custom}
+## Espera personalizada{#custom}
 
-Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de 2020 às 17h, usando uma expressão avançada com base em um campo proveniente de um evento ou uma fonte de dados. Ela não permite definir uma duração personalizada, por exemplo, 7 dias. A expressão no editor de expressão deve fornecer um formato dateTimeOnly . Consulte esta [página](expression/expressionadvanced.md). Para obter mais informações sobre o formato dateTimeOnly , consulte [página](expression/data-types.md).
+Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de 2020 às 17h, usando uma expressão avançada com base em um campo proveniente de um evento ou de uma fonte de dados. Isso não permite definir uma duração personalizada, por exemplo, 7 dias. A expressão no editor de expressão deve fornecer um formato dateTimeOnly. Consulte esta [página](expression/expressionadvanced.md). Para obter mais informações sobre o formato dateTimeOnly, consulte esta [página](expression/data-types.md).
 
 >[!NOTE]
 >
->Você pode utilizar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), sendo o campo do evento o formulário 2016-08-12T09:46:06Z.
+>Você pode usar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), o campo no evento será do formulário 2016-08-12T09:46:06Z
 >
->O **fuso horário** é esperado nas propriedades da sua jornada. Como resultado, hoje não é possível da interface apontar diretamente para um carimbo de data e hora ISO-8601 completo, tempo de combinação e deslocamento de fuso horário como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
+>A variável **fuso horário** é esperado nas propriedades da jornada. Como resultado, não é possível, hoje, a partir da interface apontar diretamente para um carimbo de data e hora ISO-8601 completo misturando deslocamento de tempo e fuso horário como 2016-08-12T09:46:06.982-05 Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](assets/journey57.png)
 
-Para validar se a atividade de espera funciona conforme o esperado, você pode usar eventos de etapa . Consulte [esta página](../reports/query-examples.md#common-queries).
+Para validar se a atividade de espera funciona como esperado, você pode usar os eventos da etapa. Consulte [esta página](../reports/query-examples.md#common-queries).
 
 <!--## Email send time optimization{#email_send_time_optimization}
 

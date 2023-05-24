@@ -17,9 +17,9 @@ ht-degree: 13%
 
 # campos de execução de ação de eventos journeyStep {#sharing-execution-fields}
 
-Esse grupo de campos será compartilhado por journeyStepEvent e journeyStepProfileEvent.
+Este grupo de campos será compartilhado por journeyStepEvent e journeyStepProfileEvent.
 
-Se a etapa tiver uma ação a ser processada, esses campos serão adicionados ao payload do evento.
+Se a etapa tiver uma ação a ser processada, esses campos serão adicionados à carga do evento.
 
 ## actionID {#actionid-field}
 
@@ -29,19 +29,19 @@ Tipo: sequência de caracteres
 
 ## actionName {#actionname-field}
 
-Nome da ação. Se nenhum nome tiver sido definido, o stepName será executado.
+Nome da ação. Se nenhum nome tiver sido definido, stepName será usado.
 
 Tipo: sequência de caracteres
 
 ## actionType {#actionType-field}
 
-Tipo da ação.
+Tipo de ação.
 
 Tipo: sequência de caracteres
 
 ## actionParameterized {#actionparameterized-field}
 
-Indica se a ação está parametrizada ou não.
+Indica se a ação tem ou não parâmetros.
 
 Tipo: booleano
 
@@ -49,7 +49,7 @@ Tipo: booleano
 
 O tempo (em milissegundos) necessário para executar uma ação atual.
 
-Tipo: long
+Tipo: longo
 
 ## actionExecutionError {#actionexecutionerror-field}
 
@@ -65,7 +65,7 @@ Valores:
 
 ## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
-Código para erro de execução de ação. Apresentar se o erro tiver um código, como um HTTP.
+Código do erro de execução da ação. Presente se o erro tiver um código, como um HTTP.
 
 Tipo: sequência de caracteres
 
@@ -73,10 +73,10 @@ Tipo: sequência de caracteres
 
 Um tempo limite pode ocorrer, em dois casos:
 
-* na primeira tentativa, uma ação é executada. Nesse caso, a execução não está concluída, portanto, não há erro subjacente
-* em uma nova tentativa: nesse caso, o actionExecOrigError/actionExecOrigErrorCode descreve o erro encontrado na tentativa antes da nova tentativa.
+* na primeira tentativa, uma ação é executada. Nesse caso, a execução não é concluída, portanto, não há erro subjacente
+* em uma tentativa: nesse caso, actionExecOrigError/actionExecOrigErrorCode descreve o erro encontrado na tentativa antes da tentativa.
 
-Por exemplo, um email está sendo enviado e um erro HTTP 500 é retornado na primeira tentativa. A busca é repetida, mas a duração das 2 tentativas excede o tempo limite. Em seguida, a execução da ação é marcada como tempo limite. A parte de ação terá a seguinte aparência:
+Por exemplo, um email está sendo enviado e um erro HTTP 500 é retornado na primeira tentativa. A busca é repetida, mas a duração das 2 tentativas excede o tempo limite. Em seguida, a execução da ação é marcada como tempo limite. A parte da ação será semelhante a:
 
 ```
     ...
@@ -93,7 +93,7 @@ Tipo: sequência de caracteres
 
 ## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
-Código de erro de actionExecOrigError.
+Código de erro do actionExecOrigError.
 
 Tipo: sequência de caracteres
 
@@ -103,36 +103,36 @@ Indica o tipo de ação.
 
 Valores:
 
-* construção
-* Email ACS
-* SMS ACS
-* Envio ACS
+* interno
+* Email do ACS
+* SMS DO ACS
+* ACS Push
 * cliente
-* Epsilon
+* Épsilon
 * ...
 
 Tipo: sequência de caracteres
 
 ## deliveryJobID {#deliveryjobid-field}
 
-Este artigo descreve a ID de trabalho de delivery para a Jornada em lote.
+Isso descreve a ID da tarefa de entrega para a Jornada em lote.
 
 Tipo: sequência de caracteres
 
 ## batchDeliveryID {#batchdeliveryid-field}
 
-Este artigo descreve a ID de delivery da Jornada em lote.
+Isso descreve a Id de delivery da Jornada em lote.
 
 Tipo: sequência de caracteres
 
 ## fromSegmentTrigger {#fromsegmenttrigger-field}
 
-Isso descreve se a Jornada em lote é acionada pelo Segmento do público-alvo.
+Descreve se a Jornada em lote é acionada a partir do segmento do público-alvo.
 
 Tipo: booleano
 
 ## actionSchedulerCount {#actionschedulercount-field}
 
-Contagem de solicitações de notificação do programador enviadas ao serviço do programador durante o processamento da etapa.
+Contagem de solicitações de notificação do agendador enviadas ao serviço do agendador durante o processamento da etapa.
 
-Tipo: long
+Tipo: longo

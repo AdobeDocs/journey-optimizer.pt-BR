@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Controle de acesso no nível do objeto
-description: Saiba mais sobre o controle de acesso do nível de Objeto que permite definir autorizações para gerenciar o acesso a dados de uma seleção de objetos
+description: Saiba mais sobre o controle de acesso em nível de objeto que permite definir autorizações para gerenciar o acesso a dados a uma seleção de objetos
 feature: Access Management
 topic: Administration
 role: Admin, Developer, Architect
@@ -25,9 +25,9 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->O uso do controle de acesso do nível de objeto está atualmente restrito a clientes selecionados e será implantado em todos os ambientes em uma versão futura.
+>O uso do controle de acesso no nível do objeto está atualmente restrito a clientes selecionados e será implantado em todos os ambientes em uma versão futura.
 
-O OLAC (Object Level Access Control, controle de acesso a nível de objeto) permite definir autorizações para gerenciar o acesso a dados de uma seleção de objetos:
+O controle de acesso em nível de objeto (OLAC) permite definir autorizações para gerenciar o acesso aos dados de uma seleção de objetos:
 
 * Jornada
 * Campaign
@@ -36,7 +36,7 @@ O OLAC (Object Level Access Control, controle de acesso a nível de objeto) perm
 * Coleção de ofertas
 * Offer decisioning
 
-Seu objetivo é proteger ativos digitais sensíveis de usuários não autorizados, permitindo uma maior proteção dos dados pessoais.
+Seu objetivo é proteger ativos digitais sensíveis de usuários não autorizados, permitindo maior proteção de dados pessoais.
 
 No Adobe Journey Optimizer, o OLAC permite proteger dados e conceder acesso específico a objetos específicos.
 
@@ -46,17 +46,17 @@ No Adobe Journey Optimizer, o OLAC permite proteger dados e conceder acesso espe
 >
 >Para criar rótulos, você deve fazer parte de uma função com o **[!UICONTROL Gerenciar rótulos de uso]** permissão.
 
-**[!UICONTROL Os rótulos permitem categorizar conjuntos de dados e campos de acordo com as políticas de uso que se aplicam a esses dados.]** **[!UICONTROL Rótulos]** pode ser aplicada a qualquer momento, fornecendo flexibilidade na maneira como você escolhe administrar os dados.
+**[!UICONTROL Os rótulos permitem categorizar conjuntos de dados e campos de acordo com as políticas de uso que se aplicam a esses dados.]** **[!UICONTROL Rótulos]** pode ser aplicado a qualquer momento, proporcionando flexibilidade na maneira como você escolhe administrar os dados.
 
-Você pode criar rótulos na variável [!DNL Permissions] produto. Para obter mais informações, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html).
+É possível criar rótulos na [!DNL Permissions] produto. Para obter mais informações, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html).
 
-**[!UICONTROL Rótulos]** também pode ser criado diretamente no Journey Optimizer:
+**[!UICONTROL Rótulos]** O também pode ser criado diretamente no Journey Optimizer:
 
-1. Em um objeto do Adobe Journey Optimizer, aqui um objeto recém-criado **[!UICONTROL Campanha]**, clique no botão **[!UICONTROL Gerenciar acesso]** botão.
+1. De um objeto do Adobe Journey Optimizer, aqui um **[!UICONTROL Campaign]**, clique no link **[!UICONTROL Gerenciar acesso]** botão.
 
    ![](assets/olac_1.png)
 
-1. No **[!UICONTROL Gerenciar acesso]** , clique em **[!UICONTROL Criar rótulo]**.
+1. No **[!UICONTROL Gerenciar acesso]** clique em **[!UICONTROL Criar rótulo]**.
 
    ![](assets/olac_2.png)
 
@@ -67,23 +67,23 @@ Você pode criar rótulos na variável [!DNL Permissions] produto. Para obter ma
 
    ![](assets/olac_3.png)
 
-1. Clique em **[!UICONTROL Criar]** para salvar **[!UICONTROL Rótulo]**.
+1. Clique em **[!UICONTROL Criar]** para salvar seu **[!UICONTROL Rótulo]**.
 
-Seu recém-criado **[!UICONTROL Rótulo]** agora está disponível na lista. Se necessário, você pode modificá-lo na função [!DNL Permissions] produto.
+Seu recém-criado **[!UICONTROL Rótulo]** O agora está disponível na lista. Se necessário, você pode modificá-lo nas [!DNL Permissions] produto.
 
 ## Atribuir rótulos {#assign-labels}
 
 >[!IMPORTANT]
 >
->Para atribuir rótulos, você deve fazer parte de uma função com uma permissão Gerenciar , ou seja, [!DNL Manage journeys], [!DNL Manage Campaigns] ou [!DNL Manage decisions]. Sem essa permissão, o **[!UICONTROL Gerenciar acesso]** será esmaecido.
+>Para atribuir rótulos, você deve fazer parte de uma função com uma permissão Gerenciar, ou seja, [!DNL Manage journeys], [!DNL Manage Campaigns] ou [!DNL Manage decisions]. Sem essa permissão, a variável **[!UICONTROL Gerenciar acesso]** estará esmaecido.
 
-Para atribuir rótulos de uso de dados personalizados ou principais aos objetos Journey Optimizer:
+Para atribuir rótulos de uso de dados personalizados ou principais aos objetos do Journey Optimizer:
 
-1. Em um objeto do Adobe Journey Optimizer, aqui um objeto recém-criado **[!UICONTROL Campanha]**, clique no botão **[!UICONTROL Gerenciar acesso]** botão.
+1. De um objeto do Adobe Journey Optimizer, aqui um **[!UICONTROL Campaign]**, clique no link **[!UICONTROL Gerenciar acesso]** botão.
 
    ![](assets/olac_1.png)
 
-1. No **[!UICONTROL Gerenciar acesso]** selecione os rótulos de uso de dados personalizados ou principais para gerenciar o acesso a esse objeto.
+1. No **[!UICONTROL Gerenciar acesso]** selecione o(s) rótulo(s) personalizado(s) ou de uso dos dados principais para gerenciar o acesso a este objeto.
 
    Para obter mais informações sobre rótulos de uso de dados principais, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html).
 
@@ -91,7 +91,7 @@ Para atribuir rótulos de uso de dados personalizados ou principais aos objetos 
 
 1. Clique em **[!UICONTROL Salvar]** para aplicar essa restrição de rótulo.
 
-Para ter acesso a esse objeto, os usuários precisarão ter o **[!UICONTROL Rótulo]** , incluindo **[!UICONTROL Funções]**.
-Por exemplo, um usuário com o rótulo C1 terá acesso apenas a objetos rotulados ou não como C1.
+Para ter acesso a esse objeto, os usuários precisarão ter as **[!UICONTROL Rótulo]** incluídos na sua **[!UICONTROL Funções]**.
+Por exemplo, um usuário com o rótulo C1 terá acesso somente a objetos com ou sem rótulo C1.
 
-Para obter mais informações sobre como atribuir **[!UICONTROL Rótulo]** para **[!UICONTROL Função]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
+Para obter mais informações sobre como atribuir **[!UICONTROL Rótulo]** para um **[!UICONTROL Função]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).

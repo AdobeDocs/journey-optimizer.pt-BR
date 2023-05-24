@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: min
-description: Saiba mais sobre o min da função
+description: Saiba mais sobre a função principal
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 # min {#min}
 
-Retorna o valor mínimo entre um conjunto de expressões, considerando como uma lista ou duas expressões. Valores nulos são ignorados.
+Retorna o valor mínimo entre um conjunto de expressões, fornecido como uma lista ou duas expressões. Valores nulos são ignorados.
 
 ## Categoria
 
@@ -34,7 +34,7 @@ Agregação
 * listDateTime
 * listDateTimeOnly
 * listDateOnly
-* duration
+* duração
 * inteiro
 * decimal
 * dateTime
@@ -52,7 +52,7 @@ Retorna uma duração.
 
 `min(<listDateTimeOnly>)`
 
-Retorna um datetime sem considerar o fuso horário.
+Retorna uma data e hora sem considerar o fuso horário.
 
 `min(<listDateTime>)`
 
@@ -80,11 +80,11 @@ Retorna um datetime.
 
 `min(<dateTimeOnly>,<dateTimeOnly>)`
 
-Retorna um datetime sem considerar o fuso horário.
+Retorna uma data e hora sem considerar o fuso horário.
 
 `min(<integer>,<integer>)`
 
-Retorna um número inteiro.
+Retorna um inteiro.
 
 ## Exemplos
 

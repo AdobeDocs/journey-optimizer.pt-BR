@@ -37,7 +37,7 @@ Os benefícios incluem:
 
 >[!NOTE]
 >
->Se você for um [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target="_blank"} o usuário que utiliza o **offer decisioning** serviço de aplicativos, todos os recursos de Gerenciamento de decisões descritos nesta seção também se aplicam a você.
+>Se você é um [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target="_blank"} usuário que utiliza o **Offer decisioning** serviço de aplicativos, todos os recursos da Gestão de decisões descritos nesta seção também se aplicam a você.
 
 ## Sobre ofertas e decisões {#about-offers-and-decisions}
 

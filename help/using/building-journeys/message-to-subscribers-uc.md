@@ -18,25 +18,25 @@ ht-degree: 17%
 
 # Caso de uso: enviar uma mensagem aos assinantes de uma lista{#send-a-message-to-the-subscribers-of-a-list}
 
-A finalidade desse caso de uso é criar uma jornada para enviar uma mensagem aos assinantes de uma lista.
+O objetivo deste caso de uso é criar uma jornada para enviar uma mensagem aos assinantes de uma lista.
 
-Neste exemplo, a variável **[!UICONTROL Detalhes de consentimento e preferência]** grupo de campos de [!DNL Adobe Experience Platform] é usada. Para localizar esse grupo de campos, no **[!UICONTROL Gerenciamento de dados]** escolha **[!UICONTROL Esquemas]**. No **[!UICONTROL Grupos de campos]** , digite o nome do grupo de campos no campo de pesquisa.
+Neste exemplo, a variável **[!UICONTROL Detalhes sobre consentimento e preferência]** grupo de campos de [!DNL Adobe Experience Platform] é usada. Para localizar este grupo de campos, no campo **[!UICONTROL Gerenciamento de dados]** escolha **[!UICONTROL Esquemas]**. No **[!UICONTROL Grupos de campos]** insira o nome do grupo de campos no campo de pesquisa.
 
-![Esse grupo de campos inclui o elemento de assinaturas](assets/consent-and-preference-details-field-group.png)
+![Este grupo de campos inclui o elemento de assinaturas](assets/consent-and-preference-details-field-group.png)
 
 Para configurar essa jornada, siga estas etapas:
 
-1. Crie uma jornada que comece com uma **[!UICONTROL Ler]** atividade . [Leia mais](journey-gs.md).
-1. Adicione um **[!UICONTROL Email]** atividade de ação para a jornada. [Leia mais](journeys-message.md).
-1. No **[!UICONTROL Parâmetros de email]** da seção **[!UICONTROL Email]** configurações da atividade, substitua o endereço de email padrão (`PersonalEmail.adress`) com o endereço de email dos assinantes da lista:
+1. Crie uma jornada que comece com uma **[!UICONTROL Ler]** atividade. [Leia mais](journey-gs.md).
+1. Adicionar um **[!UICONTROL E-mail]** atividade de ação para a jornada. [Leia mais](journeys-message.md).
+1. No **[!UICONTROL Parâmetros de email]** seção do **[!UICONTROL E-mail]** configurações de atividade, substitua o endereço de email padrão (`PersonalEmail.adress`) com o endereço de email dos assinantes da lista:
 
-   1. Clique no botão **[!UICONTROL Habilitar substituição de parâmetro]** ícone à direita do **[!UICONTROL Endereço]** , em seguida, clique no botão **[!UICONTROL Editar]** ícone .
+   1. Clique em **[!UICONTROL Habilitar substituição de parâmetro]** ícone à direita do **[!UICONTROL Endereço]** e clique no botão **[!UICONTROL Editar]** ícone.
 
       ![](assets/message-to-subscribers-uc-1.png)
 
    1. No editor de expressão, insira a expressão para recuperar os endereços de email dos assinantes. [Leia mais](expression/expressionadvanced.md).
 
-      Este exemplo mostra uma expressão que inclui referências para campos de mapa:
+      Este exemplo mostra uma expressão que inclui referências a campos de mapa:
 
       ```json
       #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
@@ -46,10 +46,10 @@ Para configurar essa jornada, siga estas etapas:
 
       | Função | Descrição | Exemplo |
       | --- | --- | --- |
-      | `entry` | Consulte um elemento de mapa de acordo com o namespace selecionado | Consulte uma lista de assinaturas específica |
-      | `firstEntryKey` | Recuperar a primeira chave de entrada de um mapa | Recuperar o primeiro endereço de email dos assinantes |
+      | `entry` | Consultar um elemento de mapa de acordo com o namespace selecionado | Consultar uma lista de assinaturas específica |
+      | `firstEntryKey` | Recuperar a primeira chave de entrada de um mapa | Recuperar o primeiro email dos assinantes |
 
-      Neste exemplo, a lista de assinaturas é nomeada `daily-email`. Os endereços de email são definidos como chaves na variável `subscribers` , que é vinculado ao mapa de lista de assinaturas.
+      Neste exemplo, a lista de assinaturas é nomeada `daily-email`. Os endereços de email são definidos como chaves na variável `subscribers` que é vinculado ao mapa da lista de assinaturas.
 
       Leia mais sobre [referências a campos](expression/field-references.md) em expressões.
 

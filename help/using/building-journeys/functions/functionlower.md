@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: lower
-description: Saiba mais sobre a função inferior
+description: Saiba mais sobre a função mais abaixo
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 20%
 
 # lower {#lower}
 
-Retorna uma versão em minúsculas do parâmetro .
+Retorna uma versão em minúsculas do parâmetro.
 
 ## Categoria
 

@@ -2,10 +2,10 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: API de limite
-description: Saiba como trabalhar com a API de limitação
+description: Saiba como trabalhar com a API de limite
 role: User
 level: Beginner
-keywords: externo, API, otimizador, limitação
+keywords: external, API, otimizer, capping
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
@@ -14,31 +14,31 @@ ht-degree: 30%
 
 ---
 
-# Trabalhar com a API de limitação {#work}
+# Trabalhar com a API de limite {#work}
 
-A API de limitação ajuda a criar, configurar e monitorar as configurações de limite.
+A API de limite ajuda a criar, configurar e monitorar as configurações de limite.
 
 Esta seção fornece informações globais sobre como trabalhar com a API. Uma descrição detalhada da API está disponível em [Documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
 
-## Limitação da descrição da API
+## Descrição da API de limite
 
 | Método | Caminho | Descrição |
 |---|---|---|
-| [!DNL POST] | list/endpointConfigs | Obter uma lista das configurações de limite do ponto de extremidade |
-| [!DNL POST] | /endpointConfigs | Criar uma configuração de limite de ponto de extremidade |
-| [!DNL POST] | /endpointConfigs/`{uid}`/implantar | Implantar uma configuração de limite de ponto de extremidade |
-| [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | Desimplantar uma configuração de limite de ponto de extremidade |
-| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | Verifique se uma configuração de limite de ponto de extremidade pode ser implantada ou não |
+| [!DNL POST] | list/endpointConfigs | Obter uma lista das configurações de limite de endpoint |
+| [!DNL POST] | /endpointConfigs | Criar uma configuração de limite de endpoint |
+| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | Implantar uma configuração de limite de ponto de extremidade |
+| [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | Desimplantar uma configuração de limite de endpoint |
+| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | Verificar se uma configuração de limite de ponto de extremidade pode ser implantada ou não |
 | [!DNL PUT] | /endpointConfigs/`{uid}` | Atualizar uma configuração de limite de ponto de extremidade |
 | [!DNL GET] | /endpointConfigs/`{uid}` | Recuperar uma configuração de limite de ponto de extremidade |
 | [!DNL DELETE] | /endpointConfigs/`{uid}` | Excluir uma configuração de limite de ponto de extremidade |
 
 Quando uma configuração é criada ou atualizada, uma verificação é executada automaticamente para garantir a sintaxe e a integridade do payload.
-Se ocorrerem alguns problemas, a operação retornará um aviso ou erros para ajudar você a corrigir a configuração.
+Se ocorrerem alguns problemas, a operação retornará um aviso ou erros para ajudá-lo a corrigir a configuração.
 
-## Configuração do terminal
+## Configuração do endpoint
 
-Esta é a estrutura básica de uma configuração de ponto de extremidade:
+Esta é a estrutura básica de uma configuração de endpoint:
 
 ```
 {
@@ -80,7 +80,7 @@ Esta é a estrutura básica de uma configuração de ponto de extremidade:
 
 ## Aviso e erros
 
-Quando uma **canDeploy** é chamado, o processo valida a configuração e retorna o status de validação identificado por sua ID exclusiva:
+Quando um **canDeploy** for chamado, o processo validará a configuração e retornará o status de validação identificado por seu identificador exclusivo:
 
 ```
 "ok" or "error"
@@ -88,24 +88,24 @@ Quando uma **canDeploy** é chamado, o processo valida a configuração e retorn
 
 Os possíveis erros são:
 
-* **ERR_ENDPOINTCONFIG_100**: configuração de limitação: url ausente ou inválido
-* **ERR_ENDPOINTCONFIG_101**: configuração de limitação: url malformado
-* **ERR_ENDPOINTCONFIG_102**: configuração de limitação: url malformado: wildchar no url não permitido em host:port
-* **ERR_ENDPOINTCONFIG_103**: configuração de limitação: métodos HTTP ausentes
-* **ERR_ENDPOINTCONFIG_104**: configuração de limitação: sem classificação de chamada definida
+* **ERR_ENDPOINTCONFIG_100**: configuração de limite: url ausente ou inválido
+* **ERR_ENDPOINTCONFIG_101**: configuração de limite: url malformado
+* **ERR_ENDPOINTCONFIG_102**: configuração de limitação: url malformado: curinga no url não permitido em host:port
+* **ERR_ENDPOINTCONFIG_103**: configuração de limite: métodos HTTP ausentes
+* **ERR_ENDPOINTCONFIG_104**: configuração de limite: nenhuma classificação de chamada definida
 * **ERR_ENDPOINTCONFIG_107**: configuração de limitação: contagem máxima de chamadas inválida (maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**: configuração de limitação: contagem máxima de chamadas inválida (periodInMs)
-* **ERR_ENDPOINTCONFIG_111**: configuração de limitação: não é possível criar a configuração do ponto de extremidade: carga inválida
-* **ERR_ENDPOINTCONFIG_112**: configuração de limitação: não é possível criar a configuração do ponto de extremidade: esperando uma carga JSON
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nome de serviço inválido `<!--<given value>-->`: deve ser &#39;dataSource&#39; ou &#39;action&#39;
+* **ERR_ENDPOINTCONFIG_108**: configuração de limite: contagem máxima de chamadas inválida (periodInMs)
+* **ERR_ENDPOINTCONFIG_111**: configuração de limite: não é possível criar a configuração do endpoint: carga inválida
+* **ERR_ENDPOINTCONFIG_112**: configuração de limitação: não é possível criar a configuração de endpoint: espera de uma carga JSON
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nome de serviço inválido `<!--<given value>-->`: deve ser &quot;dataSource&quot; ou &quot;action&quot;
 
-O possível aviso é:
+O aviso potencial é:
 
-**ERR_ENDPOINTCONFIG_106**: configuração de limitação: conexões HTTP máximas não definidas: sem limitação por defeito
+**ERR_ENDPOINTCONFIG_106**: configuração de limitação: máximo de conexões HTTP não definidas: sem limitação por padrão
 
 ## Casos de uso
 
-Nesta seção, você encontrará os cinco principais casos de uso que podem ser executados para gerenciar a configuração de limitação no [!DNL Journey Optimizer].
+Nesta seção, você encontrará os cinco principais casos de uso que podem ser executados para gerenciar a configuração de limite no [!DNL Journey Optimizer].
 
 Para ajudá-lo nos testes e configurações, uma coleção do Postman está disponível [aqui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
@@ -118,14 +118,14 @@ Após o download e o upload para o Postman, é necessário adicionar três vari�
 
 Na seção a seguir, você encontrará a lista ordenada de chamadas API REST para executar o caso de uso.
 
-Caso de uso n°1: **Criação e implantação de uma nova configuração de limitação**
+Caso de utilização n.º 1: **Criação e implantação de uma nova configuração de limite**
 
 1. list
 1. create
 1. candeploy
 1. deploy
 
-Caso de uso n°2: **Atualizar e implantar uma configuração de limitação ainda não implantada**
+Caso de uso n.º 2: **Atualizar e implantar uma configuração de limite ainda não implantada**
 
 1. list
 1. get
@@ -133,19 +133,19 @@ Caso de uso n°2: **Atualizar e implantar uma configuração de limitação aind
 1. candeploy
 1. deploy
 
-Caso de uso n° 3: **Desimplantar e excluir uma configuração de limite implantada**
+Caso de utilização n.º 3: **Desimplantar e excluir uma configuração de limite implantada**
 
 1. list
 1. undeploy
 1. delete
 
-Caso de uso n°4: **Exclua uma configuração de limite implantada.**
+Caso de uso n.º 4: **Excluir uma configuração de limite implantada.**
 
 Em apenas uma chamada de API, é possível desimplantar e excluir a configuração com o uso do parâmetro forceDelete.
 1. list
 1. delete, com o parâmetro forceDelete
 
-Caso de uso n°5: **Atualizar uma configuração de limitação já implantada**
+Caso de utilização n.º 5: **Atualizar uma configuração de limite já implantada**
 
 1. list
 1. get

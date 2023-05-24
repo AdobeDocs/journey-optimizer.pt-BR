@@ -12,17 +12,17 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 7%
+ht-degree: 38%
 
 ---
 
 # Adicionar links e rastrear mensagens {#tracking}
 
-Use [!DNL Journey Optimizer] para adicionar links ao seu conteúdo e rastrear as mensagens enviadas para monitorar o comportamento dos recipients.
+Uso [!DNL Journey Optimizer] para adicionar links ao seu conteúdo e rastrear as mensagens enviadas para monitorar o comportamento dos recipients.
 
-## Habilitar rastreamento {#enable-tracking}
+## Ativar rastreamento {#enable-tracking}
 
-Você pode ativar o rastreamento no nível da mensagem de email marcando a variável **[!UICONTROL Aberturas de email]** e/ou **[!UICONTROL Clique no email]** ao criar sua mensagem dentro de uma jornada ou campanha.
+Você pode ativar o rastreamento no nível da mensagem de email marcando a opção **[!UICONTROL Aberturas de email]** e/ou **[!UICONTROL Clique no email]** opções ao criar sua mensagem dentro de uma jornada ou campanha.
 
 >[!BEGINTABS]
 
@@ -38,12 +38,12 @@ Você pode ativar o rastreamento no nível da mensagem de email marcando a vari�
 
 >[!NOTE]
 >
->Ambas as opções são ativadas por padrão.
+>Ambas as opções estão ativadas por padrão.
 
 Isso permitirá rastrear o comportamento dos recipients por meio de:
 
 * **[!UICONTROL Aberturas de email]**: Mensagens que foram abertas.
-* **[!UICONTROL Clique no email]**: Cliques em links em um email.
+* **[!UICONTROL Clique no email]**: cliques nos links em um email.
 
 ## Inserir links {#insert-links}
 
@@ -51,9 +51,9 @@ Ao criar uma mensagem, você pode adicionar links ao seu conteúdo.
 
 >[!NOTE]
 >
->When [o rastreamento está ativado](#enable-tracking), todos os links incluídos no conteúdo da mensagem são rastreados.
+>Quando [rastreamento ativado](#enable-tracking), todos os links incluídos no conteúdo da mensagem serão rastreados.
 
-Para inserir links no seu conteúdo de email, siga as etapas abaixo:
+Para inserir links no conteúdo do email, siga as etapas abaixo:
 
 1. Selecione um elemento e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
 
@@ -61,36 +61,36 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
 1. Escolha o tipo de link que deseja criar:
 
-   * **[!UICONTROL Link externo]**: Insira um link para um URL externo.
+   * **[!UICONTROL Link externo]**: insira um link para um URL externo.
 
-   * **[!UICONTROL Página de aterrissagem]**: Insira um link para uma landing page. Saiba mais [nesta seção](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL Landing page]**: insira um link para uma landing page. Saiba mais [nesta seção](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Um clique para recusar]**: Insira um link para permitir que os usuários cancelem rapidamente a assinatura de suas comunicações, sem a necessidade de confirmar a recusa. Saiba mais [nesta seção](../privacy/opt-out.md#one-click-opt-out).
+   * **[!UICONTROL Opção de não participação em um clique]**: insira um link para permitir que os usuários cancelem rapidamente a inscrição de suas comunicações sem a necessidade de confirmar a recusa. Saiba mais [nesta seção](../privacy/opt-out.md#one-click-opt-out).
 
-   * **[!UICONTROL Aceitação/assinatura externa]**: Insira um link para aceitar as comunicações de recebimento da sua marca.
+   * **[!UICONTROL Consentimento/Assinatura externa]**: insira um link para aceitar receber comunicações da sua marca.
 
-   * **[!UICONTROL Cancelamento/cancelamento de subscrição externo]**: Insira um link para cancelar a assinatura do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de recusa [nesta seção](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL Opção de não participação/Cancelamento de assinatura externo]**: insira um link para cancelar a inscrição do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de recusa [nesta seção](../privacy/opt-out.md#opt-out-management).
 
-   * **[!UICONTROL Mirror page]**: Insira um link para exibir o conteúdo do email em um navegador da Web. Saiba mais [nesta seção](#mirror-page).
+   * **[!UICONTROL Mirror page]**: insira um link para exibir o conteúdo do email em um navegador da Web. Saiba mais [nesta seção](#mirror-page).
 
 1. Você pode personalizar seus links. Saiba mais sobre URLs personalizados [nesta seção](../personalization/personalization-syntax.md#perso-urls).
 
 1. Salve as alterações.
 
-1. Depois que o link for criado, você ainda poderá modificá-lo da variável **[!UICONTROL Configurações do componente]** painel à direita.
+1. Depois que o link for criado, você ainda poderá modificá-lo no painel **[!UICONTROL Configurações do componente]** à direita.
 
-   * Você pode editar o link e alterar seu tipo.
+   * É possível editar o link e alterar seu tipo.
    * Você pode optar por sublinhar o link ou não, marcando a opção correspondente.
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
->As mensagens de email de tipo de marketing devem incluir um [link para opção de não participação](../privacy/opt-out.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definido na variável [superfície do canal](../configuration/channel-surfaces.md#email-type) ao criar a mensagem.
+>As mensagens de email do tipo Marketing devem incluir uma [link para opção de não participação](../privacy/opt-out.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definido na variável [superfície de canal](../configuration/channel-surfaces.md#email-type) ao criar a mensagem.
 
 ## Link para uma mirror page {#mirror-page}
 
-A mirror page é uma página HTML acessível online através de um navegador da Web. Seu conteúdo é idêntico ao conteúdo do email.
+A mirror page é uma página HTML acessível online através de um navegador da Web. Seu conteúdo é idêntico ao conteúdo do seu email.
 
 Para adicionar um link a uma mirror page no seu email, [inserir um link](#insert-links) e selecione **[!UICONTROL Mirror page]** como o tipo de link.
 
@@ -100,60 +100,60 @@ A mirror page é criada automaticamente.
 
 >[!IMPORTANT]
 >
->Os links de mirror pages são gerados automaticamente e não podem ser editados. Eles contêm todos os dados personalizados criptografados necessários para renderizar o email original. Como resultado, o uso de atributos personalizados com valores grandes pode gerar URLs de mirror pages longas, o que pode impedir que o link funcione em navegadores da Web com tamanho máximo de URLs.
+>Os links de mirror pages são gerados automaticamente e não podem ser editados. Eles contêm todos os dados personalizados criptografados necessários para renderizar o email original. Como resultado, o uso de atributos personalizados com valores grandes pode gerar URLs de mirror pages longos, o que pode impedir que o link funcione em navegadores da Web com tamanho máximo de URLs.
 
-Depois que o email for enviado, quando os recipients clicarem no link da mirror page, o conteúdo do email será exibido no navegador padrão.
+Depois que o email for enviado, quando os recipients clicarem no link da mirror page, o conteúdo do email será exibido no navegador web padrão.
 
 >[!NOTE]
 >
->No [prova](preview.md#send-proofs) enviado aos perfis de teste, o link para a mirror page não está ativo. Ela só é ativada nas mensagens finais.
+>No [prova](preview.md#send-proofs) enviado aos perfis de teste, o link para a mirror page não está ativo. Ele só é ativado nas mensagens finais.
 
 O período de retenção de uma mirror page é de 60 dias. Após esse atraso, a mirror page não estará mais disponível.
 
 ## Gerenciar rastreamento {#manage-tracking}
 
-O [Email Designer](content-from-scratch.md) permite gerenciar os URLs rastreados, como editar o tipo de rastreamento para cada link.
+O [Designer de email](content-from-scratch.md) permite gerenciar os URLs rastreados, como editar o tipo de rastreamento de cada link.
 
-1. Clique no botão **[!UICONTROL Links]** ícone do painel esquerdo para exibir a lista de todos os URLs do seu conteúdo que serão rastreados.
+1. Clique em **[!UICONTROL Links]** ícone no painel esquerdo para exibir a lista de todos os URLs do seu conteúdo que serão rastreados.
 
-   Essa lista permite que você tenha uma visualização centralizada e localize cada URL no conteúdo do email.
+   Essa lista oferece uma visualização centralizada, permitindo localizar cada URL no conteúdo do email.
 
 1. Para editar um link, clique no ícone de lápis correspondente.
 
-1. Você pode modificar o **[!UICONTROL Tipo de rastreamento]** se necessário:
+1. Você pode modificar o **[!UICONTROL Tipo de rastreamento]**, se necessário:
 
    ![](assets/message-tracking-edit-a-link.png)
 
-   Para cada URL rastreado, é possível definir o modo de rastreamento para um destes valores:
+   Para cada URL rastreado é possível definir o modo de rastreamento utilizando um destes valores:
 
-   * **[!UICONTROL Rastreado]**: Ativa o rastreamento nesse URL.
-   * **[!UICONTROL Recusar]**: Considera esse URL como recusa ou cancelamento de subscrição.
-   * **[!UICONTROL Mirror page]**: Considera esse URL como sendo de mirror page.
-   * **[!UICONTROL Nunca]**: Nunca ativa o rastreamento desse URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Rastrear]**: ativa o rastreamento nesse URL.
+   * **[!UICONTROL Opt out]**: considera-o como um URL de recusa ou cancelamento de assinatura.
+   * **[!UICONTROL Mirror page]**: considera-o como um URL de mirror page.
+   * **[!UICONTROL Nunca]**: nunca ativa o rastreamento desse URL.<!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Os relatórios sobre aberturas e cliques estão disponíveis no [Relatório ao vivo](../reports/live-report.md) e na [Relatório global](../reports/global-report.md).
+Relatórios sobre aberturas e cliques estão disponíveis no [Relatório ao vivo](../reports/live-report.md) e no [Relatório global](../reports/global-report.md).
 
 ## Rastreamento de URL {#url-tracking}
 
-Normalmente [Rastreamento de URL](email-settings.md#url-tracking) é gerenciado no nível da superfície, mas os atributos do perfil não são suportados. Atualmente, a única maneira de fazer isso é [personalizar URLs](../personalization/personalization-syntax.md#perso-urls) no designer de email.
+Normalmente [Rastreamento de URL](email-settings.md#url-tracking) O é gerenciado no nível da superfície, mas os atributos de perfil não são compatíveis. Atualmente, a única maneira de fazer isso é [personalizar URLs](../personalization/personalization-syntax.md#perso-urls) no designer de email.
 
 Para adicionar parâmetros de rastreamento de URL personalizados aos links, siga as etapas abaixo.
 
 1. Selecione um link e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
 
-1. Selecione o ícone de personalização. Ela só está disponível para esses tipos de links: **Link externo**, **Link de cancelamento de assinatura** e **Opção de rejeição**.
+1. Selecione o ícone de personalização. Ela só está disponível para esses tipos de links: **Link externo**, **Link de cancelamento de subscrição** e **Recusar**.
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. Adicione o parâmetro de rastreamento do URL e selecione o atributo de perfil de sua escolha no editor de expressão.
+1. Adicione o parâmetro de rastreamento de URL e selecione o atributo de perfil de sua escolha no editor de expressão.
 
    ![](assets/message-tracking-perso-parameter.png)
 
 1. Salve as alterações.
 
-1. Repita as etapas acima para cada link ao qual deseja adicionar este parâmetro de rastreamento.
+1. Repita as etapas acima para cada link ao qual deseja adicionar esse parâmetro de rastreamento.
 
-Agora, quando o email for enviado, esse parâmetro será anexado automaticamente ao final do URL. Em seguida, você pode capturar esse parâmetro em ferramentas de análise da Web ou em relatórios de desempenho.
+Agora, quando o email for enviado, esse parâmetro será anexado automaticamente ao final do URL. Em seguida, você pode capturar esse parâmetro nas ferramentas do Web Analytics ou nos relatórios de desempenho.
 
 >[!NOTE]
 >

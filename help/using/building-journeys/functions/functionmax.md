@@ -16,7 +16,7 @@ ht-degree: 7%
 
 # max{#max}
 
-Retorna o valor máximo entre um conjunto de expressões, considerando como uma lista ou duas expressões. Valores nulos são ignorados.
+Retorna o valor máximo entre um conjunto de expressões, fornecido como uma lista ou duas expressões. Valores nulos são ignorados.
 
 ## Categoria
 
@@ -34,7 +34,7 @@ Agregação
 * listDateTime
 * listDateTimeOnly
 * listDateOnly
-* duration
+* duração
 * inteiro
 * decimal
 * dateTime
@@ -52,7 +52,7 @@ Retorna uma duração.
 
 `max(<listDateTimeOnly>)`
 
-Retorna um datetime sem considerar o fuso horário.
+Retorna uma data e hora sem considerar o fuso horário.
 
 `max(<listDateTime>)`
 
@@ -80,11 +80,11 @@ Retorna um datetime.
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-Retorna um datetime sem considerar o fuso horário.
+Retorna uma data e hora sem considerar o fuso horário.
 
 `max(<integer>,<integer>)`
 
-Retorna um número inteiro.
+Retorna um inteiro.
 
 ## Exemplos
 

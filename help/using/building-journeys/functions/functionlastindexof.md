@@ -37,7 +37,7 @@ String
 
 `lastIndexOf(<string>,<string>)`
 
-Retorna um número inteiro.
+Retorna um inteiro.
 
 ## Exemplo
 
@@ -47,4 +47,4 @@ Retorna 3.
 
 Explicação:
 
-Em &quot;Hello&quot;, a última ocorrência de &quot;l&quot; está na posição 3.
+Em &quot;Olá&quot;, a última ocorrência de &quot;l&quot; está na posição 3.

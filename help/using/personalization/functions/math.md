@@ -15,11 +15,11 @@ ht-degree: 6%
 
 # Funções matemáticas {#math}
 
-Saiba como usar funções de Matemática no Editor de expressão.
+Saiba como usar funções matemáticas no editor de expressão.
 
 ## Absoluto    {#absolute}
 
-O `absolute` é usada para converter um número, seu valor absoluto.
+A variável `absolute` é usada para converter um número em seu valor absoluto.
 
 **Sintaxe**
 
@@ -29,9 +29,9 @@ O `absolute` é usada para converter um número, seu valor absoluto.
 
 ## formatNumber {#format-number}
 
-O `formatNumber` é usada para formatar qualquer número em sua representação sensível ao idioma.
+A variável `formatNumber` é usada para formatar qualquer número em sua representação sensível a linguagem.
 
-Ele aceita um número e uma string que representa a localidade e retorna uma string formatada do número na localidade desejada.
+Ele aceita um número e uma string representando o local e retorna uma string formatada do número no local desejado.
 
 **Sintaxe**
 
@@ -39,11 +39,11 @@ Ele aceita um número e uma string que representa a localidade e retorna uma str
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Você pode usar a formatação e as localidades válidas, conforme resumido em [Documentação do oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Localidades suportadas](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+Você pode usar formatação e códigos de idiomas válidos, conforme resumido em [Documentação do Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Localidades suportadas](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **Exemplo**
 
-Esse query retorna uma string formatada em árabe correspondente a 123456.789 como número de entrada.
+Esta consulta retorna uma string formatada em árabe correspondente a 123456.789 como número de entrada.
 
 ```sql
 {%= formatNumber(123456.789, "ar_EG") %}
@@ -51,7 +51,7 @@ Esse query retorna uma string formatada em árabe correspondente a 123456.789 co
 
 ## Random {#random}
 
-O `random` é usada para retornar um valor aleatório entre 0 e 1.
+A variável `random` é usada para retornar um valor aleatório entre 0 e 1.
 
 **Sintaxe**
 
@@ -61,7 +61,7 @@ O `random` é usada para retornar um valor aleatório entre 0 e 1.
 
 ## Arredondar para baixo {#round-down}
 
-O `roundDown` é usada para arredondar um número.
+A variável `roundDown` é usada para arredondar para baixo um número.
 
 **Sintaxe**
 
@@ -71,7 +71,7 @@ O `roundDown` é usada para arredondar um número.
 
 ## Arredondar para cima {#round-up}
 
-O `Count only null` é usada para arredondar um número.
+A variável `Count only null` é usada arredondar um número para cima.
 
 **Sintaxe**
 
@@ -79,9 +79,9 @@ O `Count only null` é usada para arredondar um número.
 {%= roundUp(double) %}: double
 ```
 
-## Sequência de caracteres hexadecimal {#to-hex-string}
+## Para hex string {#to-hex-string}
 
-O `toHexString` converte qualquer número em sua string hexadecimal.
+A variável `toHexString` A função converte qualquer número em sua sequência de caracteres hexadecimal.
 
 **Sintaxe**
 
@@ -91,15 +91,15 @@ O `toHexString` converte qualquer número em sua string hexadecimal.
 
 **Exemplo**
 
-Esse query retorna o valor hexadecimal de 158, ou seja, 9e.
+Este query retorna o valor hexadecimal de 158, ou seja, 9e.
 
 ```sql
 {%= toHexString(158) %}
 ```
 
-## Porcentagem para {#to-percentage}
+## Para porcentagem {#to-percentage}
 
-O `toPercentage` é usada para converter um número em porcentagem.
+A variável `toPercentage` é usada para converter um número em porcentagem.
 
 **Sintaxe**
 
@@ -109,7 +109,7 @@ O `toPercentage` é usada para converter um número em porcentagem.
 
 ## Para precisão {#to-precision}
 
-O `toPrecision` é usada para converter um número para a precisão necessária.
+A variável `toPrecision` é usada para converter um número para a precisão necessária.
 
 **Sintaxe**
 
@@ -119,7 +119,7 @@ O `toPrecision` é usada para converter um número para a precisão necessária.
 
 ## Para string {#to-string}
 
-O **toString** converte qualquer número em sua representação da string.
+A variável **toString** A função converte qualquer número em sua representação de sequência de caracteres.
 
 **Sintaxe**
 
@@ -129,7 +129,7 @@ O **toString** converte qualquer número em sua representação da string.
 
 **Exemplo**
 
-Essa query retorna &quot;12&quot;.
+Essa consulta retorna &quot;12&quot;.
 
 ```sql
 {%= toString(12) %} 

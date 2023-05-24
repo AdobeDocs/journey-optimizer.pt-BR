@@ -1,6 +1,6 @@
 ---
-title: Procure uma disposição
-description: As disposições são contêineres usados para mostrar suas ofertas.
+title: Pesquisar um posicionamento
+description: Posicionamentos são contêineres usados para exibir suas ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,9 +13,9 @@ ht-degree: 4%
 
 ---
 
-# Procure uma disposição {#look-up-placement}
+# Pesquisar um posicionamento {#look-up-placement}
 
-Você pode pesquisar disposições específicas fazendo uma solicitação de GET para a variável [!DNL Offer Library] A API que inclui a inserção `@id` ou o nome da disposição no caminho da solicitação.
+Você pode pesquisar inserções específicas fazendo uma solicitação GET para a [!DNL Offer Library] API que inclui a inserção `@id` ou o nome do posicionamento no caminho da solicitação.
 
 **Formato da API**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde as disposições estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `SCHEMA_PLACEMENT}` | Define o schema associado às disposições. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `id` | Uma string usada para corresponder a `@id` propriedade das entidades. A sequência de caracteres corresponde exatamente. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:offer-placement:124541309805b7e8` |
-| `name` | Uma string usada para corresponder à propriedade xdm:name das entidades. A string é correspondida exatamente com maiúsculas, mas caracteres curingas podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Sales and Promotions Placement` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O container onde os posicionamentos estão localizados. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `SCHEMA_PLACEMENT}` | Define o esquema associado a disposições. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
+| `id` | Uma string usada para corresponder ao `@id` propriedade das entidades. A string é exatamente igual. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:offer-placement:124541309805b7e8` |
+| `name` | Uma sequência de caracteres usada para corresponder à propriedade xdm:name das entidades. A string é exatamente igual, com maiúsculas e minúsculas, mas caracteres curinga podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \
@@ -43,7 +43,7 @@ curl -X GET \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes da disposição, incluindo informações sobre a ID do contêiner, a ID da instância e o posicionamento exclusivo `@id`.
+Uma resposta bem-sucedida retorna os detalhes do posicionamento, incluindo informações sobre ID do container, ID da instância e posicionamento exclusivo `@id`.
 
 ```json
 {

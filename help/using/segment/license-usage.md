@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Painel de uso da licença
-description: Saiba mais sobre o painel de uso da licença da Journey Optimizer
+description: Saiba mais sobre o painel de uso da licença do Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -17,15 +17,15 @@ ht-degree: 12%
 
 # Painel de uso da licença {#license-usage}
 
-O [!DNL Adobe Journey Optimizer] [interface do usuário](../start/user-interface.md) O fornece um painel que exibe informações importantes sobre o uso da licença de sua organização, conforme capturado durante um instantâneo diário.
+A variável [!DNL Adobe Journey Optimizer] [interface do usuário](../start/user-interface.md) O fornece um painel que exibe informações importantes sobre o uso de licença de sua organização, conforme capturadas durante um instantâneo diário.
 
-Para acessar esse painel, acesse **[!UICONTROL Administração]** > **[!UICONTROL Uso de licença]**. Isso abre o **[!UICONTROL Visão geral]** exibindo o painel.
+Para acessar esse painel, acesse **[!UICONTROL Administração]** > **[!UICONTROL Uso da licença]**. Isso abre o **[!UICONTROL Visão geral]** exibindo o painel.
 
 ![](assets/license-usage-dashboard.png)
 
 >[!NOTE]
 >
->Para visualizar o painel, você deve receber a [Exibir painel de uso de licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target="_blank"} permissão.
+>Para visualizar o painel, você deve receber a permissão [Exibir Painel de Uso da Licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target="_blank"} permissão.
 
 Saiba mais na documentação do Adobe Experience Platform:
 

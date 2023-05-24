@@ -1,6 +1,6 @@
 ---
-title: Biblioteca de funções de Data e Hora
-description: Biblioteca de funções de Data e Hora
+title: Biblioteca de funções de Data e hora
+description: Biblioteca de funções de Data e hora
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -13,13 +13,13 @@ ht-degree: 4%
 
 ---
 
-# Funções de Data/Hora{#date-time}
+# Funções de data e hora{#date-time}
 
-As funções de data e hora são usadas para executar operações de data e hora em valores no Journey Optimizer.
+As funções de data e hora são usadas para executar operações de data e hora em valores dentro do Journey Optimizer.
 
 ## Idade{#age}
 
-O `age` é usada para recuperar a idade de uma determinada data.
+A variável `age` é usada para recuperar a idade de uma determinada data.
 
 **Sintaxe**
 
@@ -37,9 +37,9 @@ The following operation gets the value of the identity map for the key `example@
 ```
 -->
 
-## Hora atual em milissegundos{#current-time}
+## Tempo atual em milissegundos{#current-time}
 
-O `currentTimeInMillis` é usada para recuperar o tempo atual em milissegundos de época.
+A variável `currentTimeInMillis` esta função é usada para recuperar a hora atual em milissegundos da época.
 
 **Sintaxe**
 
@@ -59,7 +59,7 @@ The following operation gets all the keys for the map `identityMap`.
 
 ## Diferença de data{#date-diff}
 
-O `dateDiff` é usada para recuperar a diferença entre duas datas em número de dias.
+A variável `dateDiff` é usada para recuperar a diferença entre duas datas em número de dias.
 
 **Sintaxe**
 
@@ -80,7 +80,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Dia da semana{#day-week}
 
-O `dayOfWeek` é usada para recuperar o dia da semana.
+A variável `dayOfWeek` é usada para recuperar o dia da semana.
 
 **Sintaxe**
 
@@ -100,7 +100,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Dia do ano{#day-year}
 
-O `dayOfYear` é usada para recuperar o dia do ano.
+A variável `dayOfYear` é usada para recuperar o dia do ano.
 
 **Sintaxe**
 
@@ -118,9 +118,9 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## Data de formato{#format-date}
+## Formatar data{#format-date}
 
-O `formatDate` é usada para formatar um valor de data e hora. O formato deve ser um padrão Java DateTimeFormat válido.
+A variável `formatDate` é usada para formatar um valor de data e hora. O formato deve ser um padrão DateTimeFormat do Java válido.
 
 **Sintaxe**
 
@@ -128,25 +128,25 @@ O `formatDate` é usada para formatar um valor de data e hora. O formato deve se
 {%= formatDate(datetime, format) %}
 ```
 
-Onde a primeira string é o atributo date e o segundo valor é como você gostaria que a data fosse convertida e exibida.
+Onde a primeira string é o atributo de data e o segundo valor é como você gostaria que a data fosse convertida e exibida.
 
 >[!NOTE]
 >
-> Se um padrão de data for inválido, a data retornará para o formato padrão ISO.
+> Se um padrão de data for inválido, a data fallback será para o formato padrão ISO.
 >
-> Você pode usar as funções de formatação de data Java, conforme resumido em [Documentação do oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> Você pode usar as funções de formatação de data Java conforme resumido em [Documentação do Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Exemplo**
 
-A seguinte operação retornará a data no seguinte formato: DD/MM/YY
+A operação a seguir retornará a data no seguinte formato: MM/DD/AA.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
 ```
 
-## Formatar data com suporte para localidade{#format-date-locale}
+## Formatar data com suporte local{#format-date-locale}
 
-O `formatDate` é usada para formatar um valor de data/hora em sua representação correspondente sensível ao idioma, ou seja, em uma localidade desejada. O formato deve ser um padrão Java DateTimeFormat válido.
+A variável `formatDate` A função é usada para formatar um valor de data e hora em sua representação sensível a idioma correspondente, ou seja, em um local desejado. O formato deve ser um padrão DateTimeFormat do Java válido.
 
 **Sintaxe**
 
@@ -154,20 +154,20 @@ O `formatDate` é usada para formatar um valor de data/hora em sua representaç�
 {%= formatDate(datetime, format, locale) %}
 ```
 
-Onde a primeira string é o atributo date , o segundo valor é como você deseja que a data seja convertida e exibida, e o terceiro valor representa o local no formato string.
+Onde a primeira string é o atributo de data, o segundo valor é como você gostaria que a data fosse convertida e exibida, e o terceiro valor representa o local no formato de string.
 
 >[!NOTE]
 >
-> Se um padrão de data for inválido, a data retornará para o formato padrão ISO.
+> Se um padrão de data for inválido, a data fallback será para o formato padrão ISO.
 >
-> Você pode usar as funções de formatação de data Java, conforme resumido em [Documentação do oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> Você pode usar as funções de formatação de data Java conforme resumido em [Documentação do Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> Você pode usar a formatação e as localidades válidas, conforme resumido em [Documentação do oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Localidades suportadas](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> Você pode usar formatação e códigos de idiomas válidos, conforme resumido em [Documentação do Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Localidades suportadas](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 
 **Exemplo**
 
-A seguinte operação retornará a data no seguinte formato: DD/MM/YY e localidade FRANÇA.
+A operação a seguir retornará a data no seguinte formato: MM/DD/AA e local FRANÇA.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}
@@ -175,7 +175,7 @@ A seguinte operação retornará a data no seguinte formato: DD/MM/YY e localida
 
 ## Definir dias{#set-days}
 
-O `setDays` é usada para definir o dia do mês para determinada data-hora.
+A variável `setDays` é usada para definir o dia do mês para a data-hora especificada.
 
 **Sintaxe**
 
@@ -195,7 +195,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Definir horas{#set-hours}
 
-O `setHours` é usada para definir a hora da data-hora.
+A variável `setHours` é usada para definir a hora da data-hora.
 
 **Sintaxe**
 
@@ -216,7 +216,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Para UTC{#to-utc}
 
-O `toUTC` é usada para converter um datetime em UTC.
+A variável `toUTC` é usada para converter um datetime em UTC.
 
 
 **Sintaxe**
@@ -238,7 +238,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Semana do ano UTC{#week-of-year}
 
-O `weekOfYear` é usada para recuperar a semana do ano.
+A variável `weekOfYear` é usada para recuperar a semana do ano.
 
 **Sintaxe**
 

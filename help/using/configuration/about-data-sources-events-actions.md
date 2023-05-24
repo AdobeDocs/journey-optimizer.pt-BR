@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configurar jornadas
-description: Saiba como configurar fontes de dados, eventos e ações
+description: Saiba como configurar Fontes de dados, Eventos e Ações
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -23,7 +23,7 @@ ht-degree: 80%
 >title="Sobre a configuração de jornada"
 >abstract="Para enviar mensagens com jornadas, é necessário configurar as Fontes de dados, os Eventos e as Ações. As fontes de dados permitem definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas, por exemplo, em suas condições. Os eventos permitem acionar as jornadas quando um evento é recebido. As ações personalizadas permitem conectar-se a um sistema de terceiros para enviar mensagens. Se estiver usando recursos de mensagem integrada do Journey Optimizer, não será necessário configurar uma ação."
 
-Para enviar mensagens com o jornada, é necessário configurar **[!UICONTROL Fontes de dados]**, **[!UICONTROL Eventos]** e **[!UICONTROL Ações]**.
+Para enviar mensagens com jornadas, é necessário configurar **[!UICONTROL Fontes de dados]**, **[!UICONTROL Eventos]** e **[!UICONTROL Ações]**.
 
 ![](assets/admin-menu.png)
 
@@ -33,13 +33,13 @@ A configuração da fonte de dados permite definir uma conexão com um sistema p
 
 ## Eventos {#events}
 
-Os Eventos permitem acionar as jornadas de forma unitária para enviar mensagens, em tempo real, ao indivíduo que flui para a jornada.
+Os Eventos permitem acionar as jornadas de forma unitária para enviar mensagens, em tempo real, à pessoa física que flui para a jornada.
 
-Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são normalizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de ingestão de streaming para eventos autenticados e não autenticados (como eventos do Adobe Mobile SDK). [Saiba mais](../../using/event/about-events.md)
+Na configuração do evento, configure os eventos esperados nas jornadas. Os dados de entrada dos eventos são padronizados de acordo com o Adobe Experience Data Model (XDM). Os eventos vêm das APIs de ingestão de streaming para eventos autenticados e não autenticados (como eventos do SDK móvel da Adobe). [Saiba mais](../../using/event/about-events.md)
 
 ## Ações {#actions}
 
-Os recursos de mensagem do Journey Optimizer são incorporados: você só precisa adicionar uma atividade de ação de canal à jornada. Se você estiver usando um sistema de terceiros para enviar mensagens, é possível criar uma ação personalizada. [Saiba mais](../../using/action/action.md)
+Os recursos de mensagem do Journey Optimizer são incorporados: basta adicionar uma atividade de ação de canal à jornada. Se você estiver usando um sistema de terceiros para enviar mensagens, poderá criar uma ação personalizada. [Saiba mais](../../using/action/action.md)
 
 ## Procurar nos campos da Adobe Experience Platform {#friendly-names-display}
 

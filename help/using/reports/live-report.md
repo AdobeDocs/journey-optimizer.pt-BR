@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Relatório ao vivo
-description: Saiba como usar dados do relatório ao vivo
+description: Saiba como usar os dados do relatório em tempo real
 feature: Reporting
 topic: Content Management
 role: User
@@ -17,32 +17,32 @@ ht-degree: 5%
 
 # Introdução aos relatórios em tempo real {#live-report}
 
-Use o **[!UICONTROL Relatório ao vivo]** para medir e visualizar em tempo real o impacto e o desempenho de suas jornadas e suas mensagens em um painel integrado.
-Os dados estão disponíveis na variável **[!UICONTROL Relatório ao vivo]** assim que seu delivery for enviado ou sua jornada for executada do **[!UICONTROL Últimas 24 horas]** guia .
+Use o **[!UICONTROL Relatório ao vivo]** para medir e visualizar em tempo real o impacto e o desempenho de suas jornadas e mensagens em um painel integrado.
+Os dados estão disponíveis no **[!UICONTROL Relatório ao vivo]** assim que o delivery for enviado ou a jornada for executada no **[!UICONTROL Últimas 24 horas]** guia.
 
-* Se desejar direcionar uma jornada no contexto de uma jornada, da **[!UICONTROL Jornada]** acesse a jornada e clique no menu **[!UICONTROL Exibir relatório]** botão.
+* Se quiser direcionar uma jornada no contexto de uma jornada, na **[!UICONTROL Jornadas]** , acesse sua jornada e clique no botão **[!UICONTROL Exibir relatório]** botão.
 
    ![](assets/report_journey.png)
 
-* Se você deseja direcionar uma campanha, da **[!UICONTROL Campanhas]** acesse sua campanha e clique no menu **[!UICONTROL Relatórios]** botão.
+* Se quiser direcionar uma campanha, no **[!UICONTROL Campanhas]** , acesse sua campanha e clique no link **[!UICONTROL Relatórios]** botão.
 
    ![](assets/report_campaign.png)
 
-* Se você quiser mudar do **[!UICONTROL Relatório global]** para **[!UICONTROL Relatório ao vivo]** para o delivery, clique em **[!UICONTROL Últimas 24 horas]** no alternador de guias.
+* Se você deseja alternar do **[!UICONTROL Relatório global]** para o **[!UICONTROL Relatório ao vivo]** para o seu delivery, clique em **[!UICONTROL Últimas 24 horas]** no alternador de guias.
 
    ![](assets/report_3.png)
 
-Para obter uma lista detalhada de todas as métricas disponíveis no Adobe Journey Optimizer, consulte [esta página](#list-of-components-live).
+Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Optimizer, consulte [esta página](#list-of-components-live).
 
 ## Personalizar painel {#modify-dashboard}
 
-Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets. Alterar os widgets só afeta o painel do usuário atual. Outros usuários verão seus próprios painéis ou os definidos por padrão.
+Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets. Alterar os widgets afeta apenas o painel do usuário atual. Outros usuários verão seus próprios painéis ou os definidos por padrão.
 
-1. No **[!UICONTROL Ações]** selecione se deseja criar um relatório sobre uma ação específica de suas jornadas.
+1. No **[!UICONTROL Ações]** escolha se deseja criar relatórios sobre uma ação específica de suas jornadas.
 
 1. Escolha se deseja excluir eventos de teste de seus relatórios com a barra de alternância. Para obter mais informações sobre eventos de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-   Observe que a variável **[!UICONTROL Excluir eventos de teste]** só está disponível para relatórios de Jornada.
+   Observe que **[!UICONTROL Excluir eventos de teste]** A opção só está disponível para relatórios de Jornada.
 
    ![](assets/report_modify_6.png)
 
@@ -54,23 +54,23 @@ Cada painel de relatórios pode ser modificado redimensionando ou removendo widg
 
    ![](assets/report_modify_8.png)
 
-1. Clique em **[!UICONTROL Remover]** para remover qualquer widget que você não precise.
+1. Clique em **[!UICONTROL Remover]** para remover qualquer widget desnecessário.
 
    ![](assets/report_modify_9.png)
 
 1. Quando estiver satisfeito com a ordem de exibição e o tamanho dos widgets, clique em **[!UICONTROL Salvar]**.
 
-1. Para personalizar a forma como seus dados são exibidos, é possível alternar de diferentes opções de visualização, como gráficos, tabelas e gráficos de rosca.
+1. Para personalizar a forma como seus dados são exibidos, você pode alternar entre diferentes opções de visualização, como gráficos, tabelas e gráficos de rosca.
 
    ![](assets/report_modify_11.png)
 
-Seu painel agora é salvo. Suas diferentes alterações serão reaplicadas para um uso posterior dos seus relatórios ao vivo. Se necessário, use a **[!UICONTROL Redefinir]** para restaurar a ordem dos widgets e widgets padrão.
+O painel foi salvo. Suas diferentes alterações serão reaplicadas para um uso posterior de seus relatórios ao vivo. Se necessário, use o **[!UICONTROL Redefinir]** opção para restaurar os widgets padrão e a ordem dos widgets.
 
 ## Exportar seus relatórios {#export-reports}
 
-Você pode exportar facilmente seus diferentes relatórios para o formato PDF, o que permite compartilhá-los ou imprimi-los.
+É possível exportar facilmente seus diferentes relatórios para o formato PDF, o que permite compartilhá-los ou imprimi-los.
 
-1. Em seu relatório, clique em **[!UICONTROL Exportar]**.
+1. No seu relatório, clique em **[!UICONTROL Exportar]**.
 
    ![](assets/export_2.png)
 
@@ -78,6 +78,6 @@ Você pode exportar facilmente seus diferentes relatórios para o formato PDF, o
 
 1. Escolha imprimir ou salvar seu relatório como PDF.
 
-1. Localize a pasta onde deseja salvar o arquivo, renomeie-a, se necessário, e clique em Salvar.
+1. Localize a pasta onde deseja salvar o arquivo, renomeie-a se necessário e clique em Salvar.
 
-Seu relatório agora está disponível para exibição ou compartilhamento em um arquivo pdf.
+Seu relatório agora está disponível para visualização ou compartilhamento em um arquivo pdf.

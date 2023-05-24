@@ -13,7 +13,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -28,19 +28,19 @@ O que você encontrará nesta documentação:
 
 >[!ENDSHADEBOX]
 
-[!DNL Journey Optimizer] permite personalizar e gerar os arquivos exigidos por provedores de correspondência direta para enviar emails para seus clientes.
+[!DNL Journey Optimizer] O permite personalizar e gerar os arquivos exigidos por provedores de correspondência direta para enviar emails a seus clientes.
 
-When [criação de uma mensagem de mala direta](../direct-mail/create-direct-mail.md), você define os dados do público-alvo, incluindo as informações de contato escolhidas (endereço postal por exemplo). Um arquivo contendo esses dados será gerado e exportado automaticamente para um servidor, onde seu provedor de correspondência direta poderá recuperá-lo e cuidar do envio real.
+Quando [criação de uma mensagem de correspondência direta](../direct-mail/create-direct-mail.md), você define os dados do público-alvo, incluindo as informações de contato escolhidas (endereço postal por exemplo). Um arquivo contendo esses dados será gerado e exportado automaticamente para um servidor, onde seu provedor de correspondência direta poderá recuperá-lo e cuidar do envio real.
 
-Antes de gerar esse arquivo, é necessário criar:
+Antes de poder gerar esse arquivo, é necessário criar:
 
-1. A [configuração de roteamento de arquivos](#file-routing-configuration) para especificar o servidor onde o arquivo será exportado.
+1. A [configuração de roteamento de arquivos](#file-routing-configuration) para especificar o servidor para o qual o arquivo será exportado.
 
 1. A [superfície de correspondência direta](#direct-mail-surface) que referenciará a configuração de roteamento de arquivos.
 
 >[!CAUTION]
 >
->Se não tiver configurado nenhuma opção de roteamento de arquivos, você não poderá criar uma superfície de correspondência direta.
+>Se você não tiver configurado nenhuma opção de roteamento de arquivo, não será possível criar uma superfície de correspondência direta.
 
 ## Configurar o roteamento de arquivos {#file-routing-configuration}
 
@@ -72,17 +72,17 @@ Antes de gerar esse arquivo, é necessário criar:
 >title="Escolha a região do AWS"
 >abstract="Selecione a região geográfica do servidor do AWS para onde deseja exportar os arquivos de correspondência direta. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta."
 
-Para enviar uma mensagem de mala direta, [!DNL Journey Optimizer] gera e exporta o arquivo contendo os dados do público-alvo direcionado para um servidor.
+Para enviar uma mensagem de correspondência direta, [!DNL Journey Optimizer] O gera e exporta o arquivo contendo os dados do público-alvo direcionado para um servidor.
 
-Você precisa especificar os detalhes do servidor para que seu provedor de correspondência direta possa acessar e usar esse arquivo para delivery de correspondência.
+Você precisa especificar esses detalhes do servidor para que o provedor de correspondência direta possa acessar e usar esse arquivo para entregar email.
 
 Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
-1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração do roteamento de arquivos]** > **[!UICONTROL Roteamento de arquivo]** , em seguida, clique em **[!UICONTROL Criar configuração de roteamento]**.
+1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de roteamento de arquivos]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
 
    ![](assets/file-routing-config-button.png)
 
-1. Defina um nome para sua configuração.
+1. Defina um nome para a sua configuração.
 
 1. Selecione o **[!UICONTROL Tipo de servidor]** que você deseja usar para exportar os arquivos de correspondência direta.
 
@@ -90,9 +90,9 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Atualmente, somente o Amazon S3 e SFTP são compatíveis com o [!DNL Journey Optimizer].
+   >Atualmente, somente o Amazon S3 e o SFTP são compatíveis com o [!DNL Journey Optimizer].
 
-1. Preencha os detalhes e as credenciais do servidor, como endereço do servidor, chave de acesso etc.
+1. Preencha os detalhes e as credenciais do seu servidor, como endereço do servidor, chave de acesso etc.
 
    ![](assets/file-routing-config-sftp-details.png)
 
@@ -102,13 +102,13 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >As regiões do AWS são áreas geográficas que a AWS usa para hospedar suas infraestruturas de nuvem. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta.
+   >As regiões do AWS são áreas geográficas que o AWS usa para hospedar sua infraestrutura em nuvem. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta.
 
-1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos é criada com a variável **[!UICONTROL Ativo]** status. Agora está pronto para ser usado em um [superfície de correspondência direta](#direct-mail-surface).
+1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos é criada com o **[!UICONTROL Ativo]** status. Agora ele está pronto para ser usado em um [superfície de correspondência direta](#direct-mail-surface).
 
    >[!NOTE]
    >
-   >Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivos, mas você não poderá selecioná-la em uma superfície até que seja **[!UICONTROL Ativo]**.
+   >Também é possível selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas você não poderá selecioná-la em uma superfície até que ela seja **[!UICONTROL Ativo]**.
 
 ## Criar uma superfície de correspondência direta {#direct-mail-surface}
 
@@ -129,9 +129,9 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 >title="Definir o limite de divisão de arquivo"
 >abstract="É necessário definir o número máximo de registros para cada arquivo contendo dados de público. Você pode selecionar qualquer número entre 1 e 200.000 registros.. Depois que o limite especificado for atingido, outro arquivo será criado para os registros restantes."
 
-Para enviar mala direta com o [!DNL Journey Optimizer], é necessário criar uma superfície de canal para definir as configurações de formatação do arquivo que será usado pelo provedor de email.
+Para poder enviar mala direta com [!DNL Journey Optimizer], é necessário criar uma superfície de canal para definir as configurações de formatação do arquivo que será usado pelo provedor de email.
 
-Uma superfície de correspondência direta também deve incluir a configuração de roteamento de arquivos que define o servidor onde seu arquivo de correspondência direta será exportado.
+Uma superfície de correspondência direta também deve incluir a configuração de roteamento de arquivos, que define o servidor para o qual o arquivo de correspondência direta será exportado.
 
 1. Crie uma superfície de canal. [Saiba mais](../configuration/channel-surfaces.md)
 
@@ -139,7 +139,7 @@ Uma superfície de correspondência direta também deve incluir a configuração
 
    ![](assets/surface-direct-mail-channel.png)
 
-1. Defina as configurações de correspondência direta na seção dedicada da configuração da superfície do canal.
+1. Defina as configurações de correspondência direta na seção dedicada da configuração da superfície de canal.
 
    ![](assets/surface-direct-mail-settings.png)
 
@@ -147,19 +147,19 @@ Uma superfície de correspondência direta também deve incluir a configuração
 
 1. Selecione o formato de arquivo: **[!UICONTROL CSV]** ou **[!UICONTROL Delimitado por texto]**.
 
-1. Selecione o **[!UICONTROL Configuração do roteamento de arquivos]** entre os que você criou. Isso define onde o arquivo será exportado para que seu provedor de correspondência direta use.
+1. Selecione o **[!UICONTROL Configuração de roteamento de arquivos]** entre os que você criou. Isso define para onde o arquivo será exportado para ser usado pelo provedor de correspondência direta.
 
    >[!CAUTION]
    >
-   >Se não tiver configurado nenhuma opção de roteamento de arquivos, você não poderá criar uma superfície de correspondência direta. [Saiba mais](#file-routing-configuration)
+   >Se você não tiver configurado nenhuma opção de roteamento de arquivo, não será possível criar uma superfície de correspondência direta. [Saiba mais](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png)
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
-1. Envie a superfície da correspondência direta.
+1. Envie a superfície de correspondência direta.
 
-Agora você pode [criar uma mensagem de mala direta](../direct-mail/create-direct-mail.md) dentro de uma campanha. Quando a campanha for iniciada, o arquivo contendo os dados do público-alvo direcionado será automaticamente exportado para o servidor que você definiu. O provedor de correspondência direta poderá recuperar esse arquivo e prosseguir com o delivery de correspondência direta.
+Agora você pode [criar uma mensagem de correspondência direta](../direct-mail/create-direct-mail.md) dentro de uma campanha. Depois que a campanha for iniciada, o arquivo que contém os dados do público-alvo serão exportados automaticamente para o servidor definido. O provedor de correspondência direta poderá recuperar esse arquivo e prosseguir com o delivery de correspondência direta.
 
 >[!NOTE]
 >

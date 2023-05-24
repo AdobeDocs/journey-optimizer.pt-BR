@@ -38,11 +38,11 @@ not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 ## Observações importantes{#important-notes}
 
-* Ao usar uma multiplicação (`*`), ambos os campos de operação devem ter o mesmo tipo, número inteiro ou decimal. Exemplo :
+* Ao usar uma multiplicação (`*`), ambos os campos de operação devem ter o mesmo tipo, seja inteiro ou decimal. Exemplo :
    * o exemplo a seguir está correto: `3.0 * 4.0`
    * `3 * 4.0` resultará em um erro
 
-## Lógica  {#logical}
+## Lógico  {#logical}
 
 ### e
 
@@ -72,7 +72,7 @@ Exemplo:
 3.14 > 2 or 3.15 < 1
 ```
 
-### not
+### não
 
 ```json
 not <expression>
@@ -96,7 +96,7 @@ not 3.15 < 1
 
 O resultado é booleano.
 
-Observe que null significa que a expressão não tem um valor avaliado.
+Observe que nulo significa que a expressão não tem um valor avaliado.
 
 Exemplo:
 
@@ -112,7 +112,7 @@ Exemplo:
 
 O resultado é booleano.
 
-Observe que null significa que a expressão não tem um valor avaliado.
+Observe que nulo significa que a expressão não tem um valor avaliado.
 
 Exemplo:
 
@@ -120,7 +120,7 @@ Exemplo:
 @{BarBeacon.location} is not null
 ```
 
-### tem um valor nulo
+### tem nulo
 
 ```json
 <expression> has null
@@ -142,7 +142,7 @@ Retorna verdadeiro
 ["foo", "bar", ""] has null
 ```
 
-Retorna false porque &quot;&quot; não é considerado nulo.
+Retorna falso porque &quot;&quot; não é considerado nulo.
 
 ### ==
 
@@ -191,11 +191,11 @@ Exemplo:
 <expression1> > <expression2>
 ```
 
-A Datetime pode ser comparada com a Datetime.
+Datetime pode ser comparado com Datetime.
 
-O Datetimeonly pode ser comparado com Datetimeonly.
+Datetimeonly pode ser comparado com Datetimeonly.
 
-Tanto o número inteiro como o número decimal podem ser comparados com o número inteiro ou o número decimal.
+O inteiro ou o decimal podem ser comparados com o inteiro ou o decimal.
 
 Qualquer outra combinação é proibida.
 
@@ -213,11 +213,11 @@ Exemplo:
 <expression1> >= <expression2>
 ```
 
-A Datetime pode ser comparada com a Datetime.
+Datetime pode ser comparado com Datetime.
 
-O Datetimeonly pode ser comparado com Datetimeonly.
+Datetimeonly pode ser comparado com Datetimeonly.
 
-Tanto o número inteiro como o número decimal podem ser comparados com o número inteiro ou o número decimal.
+O inteiro ou o decimal podem ser comparados com o inteiro ou o decimal.
 
 Qualquer outra combinação é proibida.
 
@@ -235,11 +235,11 @@ Exemplo:
 <expression1> < <expression2>
 ```
 
-A Datetime pode ser comparada com a Datetime.
+Datetime pode ser comparado com Datetime.
 
-O Datetimeonly pode ser comparado com Datetimeonly.
+Datetimeonly pode ser comparado com Datetimeonly.
 
-Tanto o número inteiro como o número decimal podem ser comparados com o número inteiro ou o número decimal.
+O inteiro ou o decimal podem ser comparados com o inteiro ou o decimal.
 
 Qualquer outra combinação é proibida.
 
@@ -257,11 +257,11 @@ Exemplo:
 <expression1> <= <expression2>
 ```
 
-A Datetime pode ser comparada com a Datetime.
+Datetime pode ser comparado com Datetime.
 
-O Datetimeonly pode ser comparado com Datetimeonly.
+Datetimeonly pode ser comparado com Datetimeonly.
 
-Tanto o número inteiro como o número decimal podem ser comparados com o número inteiro ou o número decimal.
+O inteiro ou o decimal podem ser comparados com o inteiro ou o decimal.
 
 Qualquer outra combinação é proibida.
 
@@ -281,7 +281,7 @@ Exemplo:
 <expression1> + <expression2>
 ```
 
-Ambas as expressões devem ser numéricas (número inteiro ou decimal).
+Ambas as expressões devem ser numéricas (números inteiros ou decimais).
 
 O resultado também é numérico.
 
@@ -291,7 +291,7 @@ Exemplo:
 1 + 2
 ```
 
-Retorna 3
+Devoluções 3
 
 ### -
 
@@ -299,7 +299,7 @@ Retorna 3
 <expression1> - <expression2>
 ```
 
-Ambas as expressões devem ser numéricas (número inteiro ou decimal).
+Ambas as expressões devem ser numéricas (números inteiros ou decimais).
 
 O resultado também é numérico.
 
@@ -309,7 +309,7 @@ Exemplo:
 2 - 1 
 ```
 
-Retorna 1
+Devoluções 1
 
 ### /
 
@@ -317,7 +317,7 @@ Retorna 1
 <expression1> / <expression2>
 ```
 
-Ambas as expressões devem ser numéricas (número inteiro ou decimal).
+Ambas as expressões devem ser numéricas (números inteiros ou decimais).
 
 O resultado também é numérico.
 
@@ -329,7 +329,7 @@ Exemplo:
 4 / 2
 ```
 
-Retorna 2
+Devoluções 2
 
 ### *
 
@@ -337,7 +337,7 @@ Retorna 2
 <expression1> * <expression2>
 ```
 
-Ambas as expressões devem ser numéricas (número inteiro ou decimal).
+Ambas as expressões devem ser numéricas (números inteiros ou decimais).
 
 O resultado também é numérico.
 
@@ -355,7 +355,7 @@ Retorna 12
 <expression1> % <expression2>
 ```
 
-Ambas as expressões devem ser numéricas (número inteiro ou decimal).
+Ambas as expressões devem ser numéricas (números inteiros ou decimais).
 
 O resultado também é numérico.
 
@@ -389,7 +389,7 @@ Exemplo:
 <expression> is integer
 ```
 
-O tipo da expressão é integer.
+O tipo da expressão é inteiro.
 
 Exemplo:
 
@@ -423,9 +423,9 @@ Exemplo:
 <expression> + <string>
 ```
 
-Concatena duas expressões.
+Ela concatena duas expressões.
 
-Uma expressão deve ser uma string encadeada.
+Uma expressão deve ser uma sequência de caracteres encadeada.
 
 Exemplo:
 
@@ -433,13 +433,13 @@ Exemplo:
 "the current time is " + (now())
 ```
 
-Retorna &quot;a hora atual é 2019-09-23T09:30:06.693Z&quot;
+Retorna &quot;a hora atual é 23/09/2019:30:06.693Z&quot;
 
 ```json
 (now()) + " is the current time"
 ```
 
-Retorna &quot;2019-09-23T09:30:06.693Z é a hora atual&quot;
+Retorna &quot;23/09/2019:30:06.693Z é a hora atual&quot;
 
 ```json
 "a" + "b" + "c" + 1234
@@ -455,7 +455,7 @@ Retorna &quot;abc1234&quot;.
 <expression> + <duration>
 ```
 
-Anexe uma duração a dateTime, a dateTimeOnly ou a duração.
+Anexe uma duração a um dateTime, um dateTimeOnly ou uma duração.
 
 Exemplo:
 
@@ -469,7 +469,7 @@ Retorna um _dateTime_ 2011-12-03T15:30:30Z
 (toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-Retorna um _dateTimeOnly_ 2011-12-03T15:30:30º
+Retorna um _dateTimeOnly_ 2011-12-03T15:30:30
 
 ```json
 (now()) + (toDuration("PT1H"))
@@ -481,4 +481,4 @@ Retorna um _dateTime_ (com fuso horário UTC) uma hora depois da hora atual
 (toDuration("PT1H")) + (toDuration("PT1H"))
 ```
 
-Retorna um _duration_ PT2H
+Retorna um _duração_ PT2H

@@ -17,7 +17,7 @@ ht-degree: 7%
 
 ## É nulo{#isNull}
 
-O `isNull` determina se uma referência de objeto não existe.
+A variável `isNull` determina se uma referência de objeto não existe.
 
 **Sintaxe**
 
@@ -35,7 +35,7 @@ A operação a seguir verifica se o endereço residencial da pessoa não existe.
 
 ## Não é nulo{#isNotNull}
 
-O `isNotNull` determina se existe uma referência de objeto.
+A variável `isNotNull` determina se existe uma referência de objeto.
 
 **Sintaxe**
 

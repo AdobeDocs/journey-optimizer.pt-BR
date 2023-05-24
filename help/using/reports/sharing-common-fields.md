@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: campos comuns de eventos journeystep
-description: campos comuns de eventos journeystep
+title: campos comuns de eventos journey steps
+description: campos comuns de eventos journey steps
 feature: Reporting
 topic: Content Management
 role: User
@@ -15,13 +15,13 @@ ht-degree: 9%
 
 ---
 
-# campos comuns de eventos journeystep {#sharing-common-fields}
+# campos comuns de eventos journey steps {#sharing-common-fields}
 
-Esse grupo de campos será compartilhado por journeyStepEvent e journeyStepProfileEvent.
+Este grupo de campos será compartilhado por journeyStepEvent e journeyStepProfileEvent.
 
-Esses são os campos XDM comuns que [!DNL Journey Optimizer] envia para o Adobe Experience Platform. Campos comuns serão enviados para cada etapa que é processada em uma jornada. Campos mais específicos são usados para ações e enriquecimentos personalizados.
+Esses são os campos XDM comuns que [!DNL Journey Optimizer] envia para a Adobe Experience Platform. Campos comuns serão enviados para cada etapa processada em uma jornada. Campos mais específicos são usados para ações e enriquecimentos personalizados.
 
-Alguns desses campos estão disponíveis apenas em padrões de processamento específicos (execução de ação, busca de dados etc.) para limitar o tamanho dos eventos.
+Alguns desses campos só estão disponíveis em padrões de processamento específicos (execução de ação, busca de dados etc.) para limitar o tamanho dos eventos.
 
 ## entrada {#entrance-field}
 
@@ -33,7 +33,7 @@ Valores: true/false
 
 ## reentrada {#reentrance-field}
 
-Indica se o usuário entrou novamente na jornada com a mesma instância. Se não estiver presente, assumimos que o valor é false.
+Indica se o usuário inseriu novamente a jornada com a mesma instância. Se não estiver presente, assumimos que o valor é false.
 
 Tipo: booleano
 
@@ -41,31 +41,31 @@ Valores: true/false
 
 ## instanceEnded {#instance-ended-field}
 
-Indica se a instância terminou (com êxito ou não).
+Indica se a instância terminou (com sucesso ou não).
 
 Tipo: booleano
 
 ## eventID {#eventid-field}
 
-ID do evento no processamento, para o processamento da etapa. Se o evento for externo, o valor será eventId. Se o evento for interno, o valor será eventId interno (como scheduledNotificationReceived, executionAction, etc.).
+ID do evento em processamento, para o processamento da etapa. Se o evento for externo, o valor será seu eventId. Se o evento for interno, o valor será o eventId interno (como scheduledNotificationReceived, performedAction, etc.).
 
 Tipo: sequência de caracteres
 
 ## nodeID {#nodeid-field}
 
-ID do nó do cliente (na tela).
+ID do nó do cliente (da tela).
 
 Tipo: sequência de caracteres
 
 ## stepID {#stepdid-field}
 
-Id exclusiva da etapa que está sendo processada no momento.
+Identificador exclusivo da etapa que está sendo processada.
 
 Tipo: sequência de caracteres
 
 ## stepName {#stepname-field}
 
-Nome da etapa que está sendo processada no momento.
+Nome da etapa que está sendo processada.
 
 Tipo: sequência de caracteres
 
@@ -84,16 +84,16 @@ Valores possíveis:
 
 ## stepStatus {#stepstatus-field}
 
-Status da etapa, representando o status da etapa, quando o processamento foi concluído (e o evento de etapa foi acionado).
+Status da etapa, representando o status da etapa, quando seu processamento foi concluído (e o evento da etapa foi acionado).
 
 Tipo: sequência de caracteres
 
 O status pode ser:
 
-* encerrado: a etapa não tem transição e seu processamento foi concluído com êxito.
+* encerrado: a etapa não tem transição e seu processamento foi encerrado com êxito.
 * erro: o processamento da etapa gerou um erro.
-* transições: a etapa está aguardando a transição de um evento para outra etapa.
-* limitado: a etapa falhou em um erro de limitação, gerado durante uma ação ou enriquecimento.
+* transições: a etapa está aguardando um evento passar para outra etapa.
+* capped: a etapa falhou em um erro de limite, gerado durante uma ação ou enriquecimento.
 * tempo limite: a etapa falhou em um erro de tempo limite, gerado durante uma ação ou enriquecimento.
 * instanceTimedout: a etapa interrompeu o processamento porque a instância atingiu o tempo limite.
 
@@ -105,7 +105,7 @@ Tipo: sequência de caracteres
 
 ## journeyVersionID {#journeyversionid-field}
 
-ID da versão do jornada. Essa id representa a referência de identidade para a jornada, no caso de journeyStepEvent.
+ID da versão do jornada. No caso de journeyStepEvent, essa id representa a referência de identidade para a jornada.
 
 Tipo: sequência de caracteres
 
@@ -129,7 +129,7 @@ Tipo: sequência de caracteres
 
 ## externalKey {#externalkey-field}
 
-Chave externa extraída do evento para processá-la.
+Chave externa extraída do evento para processá-lo.
 
 Tipo: sequência de caracteres
 
@@ -141,7 +141,7 @@ Tipo: sequência de caracteres
 
 ## parentStepName {#parentstepname-field}
 
-Nome da etapa do pai da etapa atual.
+Nome da etapa principal da etapa atual.
 
 Tipo: sequência de caracteres
 
@@ -153,7 +153,7 @@ Tipo: sequência de caracteres
 
 ## parentTransitionName {#parenttransitionname-field}
 
-Nome da transição que trouxe a instância para a etapa processada.
+Nome da transição que levou a instância à etapa processada.
 
 Tipo: sequência de caracteres
 
@@ -165,44 +165,44 @@ Tipo: booleano
 
 ## processingTime {#processingtime-field}
 
-Tempo total em milissegundos desde a entrada da etapa da instância até o fim do processamento.
+Tempo total em milissegundos desde a entrada da etapa da instância até o final do processamento.
 
-Tipo: long
+Tipo: longo
 
 ## instanceType {#instancetype-field}
 
-Indica o tipo de instância, se for em lote ou unitário.
+Indica o tipo de instância, se for batch ou unitário.
 
 Tipo: sequência de caracteres
 
-Valores: lote/unidade
+Valores: batch/unitário
 
-## periodicidadeIndex {#recurrenceindex-field}
+## recurrenceIndex {#recurrenceindex-field}
 
-Índice da recorrência se a jornada for em lote e recorrente (a primeira execução tem recorrênciaIndex = 1).
+Índice da recorrência se a jornada for em lote e recorrente (a primeira execução tem recurrenceIndex = 1).
 
-Tipo: long
+Tipo: longo
 
 ## isBatchToUnitary {#isbatchtounitary-field}
 
-Indica se essa instância unitária foi acionada a partir de uma instância de lote.
+Indica se esta instância unitária foi disparada de uma instância em lote.
 
 Tipo: booleano
 
 ## batchExternalKey {#batchexternalkey-field}
 
-Chave externa para o evento batch.
+Chave externa para evento batch.
 
 Tipo: sequência de caracteres
 
 ## batchInstanceID {#batchinstanceid-field}
 
-essa é a ID da instância de lote.
+essa é a ID da instância do lote.
 
 Tipo: sequência de caracteres
 
 ## batchUnitaryBranchID {#batchunitarybranchid-field}
 
-se a instância tiver sido acionada a partir de uma instância de lote, a ID de ramificação unitária.
+se a instância tiver sido acionada a partir de uma instância de lote, ID de ramificação unitária.
 
 Tipo: sequência de caracteres

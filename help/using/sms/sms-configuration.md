@@ -15,23 +15,23 @@ ht-degree: 19%
 
 # Configurar canal de SMS {#sms-configuration}
 
-[!DNL Journey Optimizer] O permite criar suas jornadas e enviar mensagens para o público-alvo.
+[!DNL Journey Optimizer] O permite criar suas jornadas e enviar mensagens para o público-alvo direcionado.
 
-Antes de enviar SMS, configure sua instância. Você precisa [integrar as configurações do provedor](#create-api) com a Journey Optimizer e [criar uma superfície de SMS](#message-preset-sms) (ou seja, predefinição de SMS). Essas etapas devem ser executadas por um [administrador do sistema do Adobe Journey Optimizer](../start/path/administrator.md).
+Antes de enviar SMS, configure sua instância. Você precisa [integrar as configurações do provedor](#create-api) com o Journey Optimizer e [criar uma superfície de SMS](#message-preset-sms) (ou seja, predefinição de SMS). Essas etapas devem ser executadas por um [administrador do sistema do Adobe Journey Optimizer](../start/path/administrator.md).
 
 ## Pré-requisitos{#sms-prerequisites}
 
-Atualmente, a Adobe Journey Optimizer integra-se com provedores de terceiros, como Sinch e Twilio, que oferecem serviços SMS independentes da Adobe Journey Optimizer.
+Atualmente, o Adobe Journey Optimizer está integrado a provedores de terceiros, como Sinch e Twilio, que oferecem serviços SMS independentes do Adobe Journey Optimizer.
 
-Antes da configuração do SMS, você deve criar uma conta com um desses provedores de SMS para receber o Token de API e a ID de serviço que permitirá estabelecer a conexão entre o Adobe Journey Optimizer e o provedor de SMS aplicável.
+Antes da configuração do SMS, você deve criar uma conta com um desses provedores de SMS para receber o token da API e a ID de serviço que permitirá estabelecer a conexão entre o Adobe Journey Optimizer e o provedor de SMS aplicável.
 
-O uso de serviços de SMS estará sujeito aos termos e condições adicionais do provedor de SMS aplicável. Como o Sinch e o Twilio são produtos de terceiros disponíveis para os usuários do Adobe Journey Optimizer por meio de uma integração, para quaisquer problemas ou consultas relacionadas aos serviços SMS, os usuários do Sinch ou do Twilio precisarão entrar em contato com o provedor de SMS aplicável para obter assistência. O Adobe não controla e não é responsável por produtos de terceiros.
+Seu uso de serviços SMS estará sujeito a termos e condições adicionais do provedor de SMS aplicável. Como a Sinch e a Twilio são produtos de terceiros disponíveis para os usuários do Adobe Journey Optimizer por meio de uma integração, para quaisquer problemas ou consultas relacionadas aos serviços SMS, os usuários da Sinch ou da Twilio precisarão entrar em contato com o provedor de SMS aplicável para obter assistência. A Adobe não controla e não é responsável por produtos de terceiros.
 
 >[!CAUTION]
 >
->Para acessar e editar subdomínios SMS, você deve ter a variável **[!UICONTROL Gerenciar subdomínios de SMS]** permissão na sandbox de produção.
+>Para acessar e editar subdomínios SMS, você deve ter a **[!UICONTROL Gerenciar subdomínios de SMS]** permissão na sandbox de produção.
 
-## Criar nova credencial da API {#create-api}
+## Criar nova credencial de API {#create-api}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
@@ -51,30 +51,30 @@ O uso de serviços de SMS estará sujeito aos termos e condições adicionais do
 
 Para configurar seu fornecedor de SMS com o Journey Optimizer, siga estas etapas:
 
-1. No painel esquerdo, navegue até **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione o **[!UICONTROL Credenciais da API]** menu. Clique no botão **[!UICONTROL Criar novas credenciais da API]** botão.
+1. No painel esquerdo, navegue até **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione o **[!UICONTROL Credenciais da API]** menu. Clique em **[!UICONTROL Criar novas credenciais de API]** botão.
 
    ![](assets/sms_6.png)
 
-1. Selecione seu **[!UICONTROL Fornecedor de SMS]**:
+1. Selecione o **[!UICONTROL Fornecedor de SMS]**:
 
    * **[!DNL Sinch]**
 
-      Para encontrar seu **[!UICONTROL ID do serviço]** e **[!UICONTROL Token de API]**, acesse o menu SMS > APIs em sua conta do Sinch .
+      Para encontrar o **[!UICONTROL ID do serviço]** e **[!UICONTROL Token de API]**, acesse o menu SMS > APIs na sua conta Sinch.
 
    * **[!DNL Twilio]**
 
-      Para encontrar seu **[!UICONTROL ID do serviço]** e **[!UICONTROL Token de API]**, acesse o painel Informações da conta da página Painel do console .
+      Para encontrar o **[!UICONTROL ID do serviço]** e **[!UICONTROL Token de API]**, acesse o painel Informações da conta da página Painel de controle do console.
 
 
-1. Insira um **[!UICONTROL Nome]** para sua Credencial da API.
+1. Insira um **[!UICONTROL Nome]** para a credencial da API.
 
 1. Insira seu **[!UICONTROL ID do serviço]** e **[!UICONTROL Token de API]**.
 
    ![](assets/sms_7.png)
 
-1. Clique em **[!UICONTROL Enviar]** ao concluir a configuração das credenciais da API.
+1. Clique em **[!UICONTROL Enviar]** quando você concluiu a configuração das credenciais da API.
 
-Depois de criar e configurar sua credencial de API, agora é necessário criar uma superfície de canal (ou seja, predefinição de mensagem) para mensagens SMS.
+Depois de criar e configurar a credencial de API, agora é necessário criar uma superfície de canal (ou seja, predefinição de mensagem) para mensagens SMS.
 
 ## Criar uma superfície de SMS {#message-preset-sms}
 
@@ -84,11 +84,11 @@ Depois de criar e configurar sua credencial de API, agora é necessário criar u
 >abstract="Selecione o tipo de mensagens SMS usando esta superfície: Marketing para mensagens SMS promocionais, que exigem consentimento do usuário, ou Transacional para mensagens SMS não comerciais, como redefinição de senha."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Recusa em mensagens SMS de marketing"
 
-Depois que o canal SMS for configurado, é necessário criar uma superfície de canal para enviar mensagens SMS de **[!DNL Journey Optimizer]**.
+Depois que o canal SMS for configurado, você deverá criar uma superfície de canal para enviar mensagens SMS do **[!DNL Journey Optimizer]**.
 
 Para criar uma superfície de canal, siga estas etapas:
 
-1. No painel esquerdo, navegue até **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Marca]** > **[!UICONTROL Superfícies do canal]**. Clique no botão **[!UICONTROL Criar superfície de canal]** botão.
+1. No painel esquerdo, navegue até **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Marcas]** > **[!UICONTROL Superfícies de canal]**. Clique em **[!UICONTROL Criar superfície de canal]** botão.
 
    ![](assets/preset-create.png)
 
@@ -98,49 +98,49 @@ Para criar uma superfície de canal, siga estas etapas:
 
    >[!NOTE]
    >
-   > Os nomes devem começar com uma letra (A-Z). Ela só pode conter caracteres alfanuméricos. Você também pode usar o sublinhado `_`, ponto`.` e hífen `-` caracteres.
+   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
 
-1. Defina as **Configurações de SMS**.
+1. Defina o **Configurações de SMS**.
 
    ![](assets/preset-sms.png)
 
-   * Selecione o **[!UICONTROL Tipo de SMS]** que será enviado com a superfície: **[!UICONTROL Transacional]** ou **[!UICONTROL Marketing]**.
+   * Selecione o **[!UICONTROL Tipo de SMS]** que serão enviados com a superfície: **[!UICONTROL Transacional]** ou **[!UICONTROL Marketing]**.
 
-      * Choose **Marketing** para SMS promocional: essas mensagens exigem o consentimento do usuário.
-      * Choose **Transacional** para mensagens não comerciais, como confirmação de pedido, notificações de redefinição de senha ou informações de delivery, por exemplo.
+      * Escolher **Marketing** para SMS promocional: essas mensagens exigem o consentimento do usuário.
+      * Escolher **Transacional** para mensagens não comerciais, como confirmação de pedidos, notificações de redefinição de senha ou informações de entrega, por exemplo.
 
       >[!CAUTION]
       >
-      >**Transacional** As mensagens SMS podem ser enviadas a perfis que cancelaram a assinatura nas comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
+      >**Transacional** Mensagens SMS podem ser enviadas a perfis que cancelaram a assinatura de comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
 
-      Ao criar uma mensagem SMS, você deve escolher uma superfície de canal válida que corresponda à categoria selecionada para sua mensagem.
+      Ao criar uma mensagem SMS, você deve escolher uma superfície de canal válida que corresponda à categoria selecionada para a mensagem.
 
-   * Selecione o **[!UICONTROL Configuração de SMS]** para associar com a superfície.
+   * Selecione o **[!UICONTROL Configuração de SMS]** para associar à superfície.
 
-      Para obter mais informações sobre como configurar seu ambiente para enviar mensagens SMS, consulte [esta seção](#create-api).
+      Para obter mais informações sobre como configurar o seu ambiente para enviar mensagens SMS, consulte [nesta seção](#create-api).
 
-   * Insira o **[!UICONTROL Número do remetente]** &#x200B; você deseja usar para suas comunicações.
+   * Insira o **[!UICONTROL Número do remetente]** &#x200B;que você deseja usar para suas comunicações.
 
-   * Selecione seu **[!UICONTROL Campo de execução do SMS]** para selecionar o **[!UICONTROL Atributo de perfil]** associado aos números de telefone dos perfis.
+   * Selecione o **[!UICONTROL Campo de execução do SMS]** para selecionar o **[!UICONTROL Atributo de perfil]** associados aos números de telefone dos perfis.
 
 
-1. Se quiser usar a função de redução de URL em suas mensagens SMS, selecione um item no **[!UICONTROL Subdomínio]** lista.
+1. Se quiser usar a função de redução de URL em suas mensagens SMS, selecione um item na lista suspensa **[!UICONTROL Subdomínio]** lista.
 
    >[!NOTE]
    >
    >Para selecionar um subdomínio, verifique se você configurou anteriormente pelo menos um subdomínio SMS. [Saiba como](sms-subdomains.md)
 
-1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Enviar]** para confirmar. Você também pode salvar a superfície do canal como rascunho e retomar sua configuração posteriormente.
+1. Após configurar todos os parâmetros, clique em **[!UICONTROL Enviar]** para confirmar. Você também pode salvar a superfície de canal como rascunho e retomar sua configuração posteriormente.
 
    ![](assets/sms_preset_2.png)
 
-1. Depois que a superfície do canal for criada, ela será exibida na lista com a variável **[!UICONTROL Processamento]** status.
+1. Depois que a superfície de canal é criada, ela é exibida na lista com o **[!UICONTROL Processando]** status.
 
    >[!NOTE]
    >
-   >Se as verificações não forem bem-sucedidas, saiba mais sobre os possíveis motivos de falha em [esta seção](#monitor-channel-surfaces).
+   >Se as verificações não forem bem-sucedidas, saiba mais sobre os possíveis motivos de falha no [nesta seção](#monitor-channel-surfaces).
 
-1. Depois que as verificações são bem-sucedidas, a superfície do canal recebe a variável **[!UICONTROL Ativo]** status. Ele está pronto para ser usado para entregar mensagens.
+1. Depois que as verificações forem bem-sucedidas, a superfície de canal obterá a variável **[!UICONTROL Ativo]** status. Ele está pronto para ser usado para enviar mensagens.
 
    ![](assets/preset-active.png)
 

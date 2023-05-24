@@ -1,6 +1,6 @@
 ---
 title: Pesquisar uma coleção
-description: Coleções são subconjuntos de ofertas com base em condições predefinidas definidas por um profissional de marketing, como a categoria da oferta.
+description: Coleções são subconjuntos de ofertas com base em condições predefinidas por um profissional de marketing, como a categoria da oferta.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,9 +15,9 @@ ht-degree: 3%
 
 # Pesquisar uma coleção {#look-up-collection}
 
-Coleções são subconjuntos de ofertas com base em condições predefinidas definidas por um profissional de marketing, como a categoria da oferta.
+Coleções são subconjuntos de ofertas com base em condições predefinidas por um profissional de marketing, como a categoria da oferta.
 
-Você pode pesquisar coleções específicas fazendo uma solicitação do GET para a variável [!DNL Offer Library] API que inclui a coleção `@id` ou o nome da coleção no caminho da solicitação.
+Você pode pesquisar coleções específicas fazendo uma solicitação GET para a [!DNL Offer Library] API que inclui a coleção `@id` ou o nome da coleção no caminho da solicitação.
 
 **Formato da API**
 
@@ -27,11 +27,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde as coleções estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | Define o schema associado às coleções. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | Uma string usada para corresponder a `@id` propriedade das entidades. A sequência de caracteres corresponde exatamente. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | Uma string usada para corresponder à propriedade xdm:name das entidades. A string é correspondida exatamente com maiúsculas, mas caracteres curingas podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Mobile demo` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O container onde as coleções estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FILTER}` | Define o esquema associado às coleções. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
+| `id` | Uma string usada para corresponder ao `@id` propriedade das entidades. A string é exatamente igual. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | Uma sequência de caracteres usada para corresponder à propriedade xdm:name das entidades. A string é exatamente igual, com maiúsculas e minúsculas, mas caracteres curinga podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Mobile demo` |
 
 **Solicitação**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes da disposição, incluindo informações sobre a ID do contêiner, a ID da instância e a coleção exclusiva `@id`.
+Uma resposta bem-sucedida retorna os detalhes do posicionamento, incluindo informações sobre ID do contêiner, ID da instância e coleção exclusiva `@id`.
 
 ```json
 {

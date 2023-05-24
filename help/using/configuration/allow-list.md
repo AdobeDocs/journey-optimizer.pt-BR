@@ -12,7 +12,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 6%
 
 É possível definir uma lista específica de segurança de envio no [sandbox](../administration/sandboxes.md) nível.
 
-Essa lista de permissões permite especificar endereços de email ou domínios individuais que serão os únicos recipients ou domínios autorizados a receber os emails enviados de uma sandbox específica.
+Essa lista de permissões permite especificar endereços de email ou domínios individuais que serão os únicos destinatários ou domínios autorizados a receber os emails enviados de uma sandbox específica.
 
 >[!NOTE]
 >
 >Esse recurso está disponível em sandboxes de produção e não produção.
 
-Por exemplo, em uma instância de não produção, em que podem ocorrer erros, a lista de permissões garante que você não tenha risco de enviar mensagens indesejadas para endereços de clientes reais e, portanto, fornece um ambiente seguro para fins de teste.
+Por exemplo, em uma instância de não produção, em que podem ocorrer erros, a lista de permissões garante que você não tenha risco de enviar mensagens indesejadas para endereços reais de clientes e, portanto, fornece um ambiente seguro para fins de teste.
 
-Além disso, quando a lista de permissões estiver ativa, mas estiver vazia, nenhum email será enviado. Portanto, se você encontrar algum problema importante, poderá usar esse recurso para interromper todas as comunicações de saída do [!DNL Journey Optimizer] até que você corrija o problema. Saiba mais sobre o [Lógica da lista de permissões](#logic).
+Além disso, quando a lista de permissões estiver ativa, mas vazia, nenhum email será enviado. Portanto, se você encontrar algum problema grave, poderá usar esse recurso para interromper todas as comunicações de saída do [!DNL Journey Optimizer] até que você corrija o problema. Saiba mais sobre o [Lógica de lista de permissões](#logic).
 
 >[!CAUTION]
 >
@@ -42,13 +42,13 @@ Para acessar a lista detalhada de domínios e endereços de email permitidos, ac
 
 >[!CAUTION]
 >
->As permissões para visualizar, exportar e gerenciar a lista de permissões estão restritas a [Administradores do Jornada](../administration/ootb-product-profiles.md#journey-administrator). Saiba mais sobre como gerenciar [!DNL Journey Optimizer] direitos de acesso dos usuários em [esta seção](../administration/permissions-overview.md).
+>As permissões para exibir, exportar e gerenciar a lista de permissões são restritas a [Administradores do Jornada](../administration/ootb-product-profiles.md#journey-administrator). Saiba mais sobre gerenciamento [!DNL Journey Optimizer] direitos de acesso dos usuários no [nesta seção](../administration/permissions-overview.md).
 
-Para exportar a lista de permissões como um arquivo CSV, selecione a **[!UICONTROL Baixar CSV]** botão.
+Para exportar a lista de permissões como um arquivo CSV, selecione o **[!UICONTROL Baixar CSV]** botão.
 
-Use o **[!UICONTROL Excluir]** para remover permanentemente uma entrada.
+Use o **[!UICONTROL Excluir]** botão para remover permanentemente uma entrada.
 
-Você pode pesquisar por domínios ou endereços de email e filtrar no **[!UICONTROL Tipo de endereço]**. Depois de selecionado, você pode limpar o filtro exibido na parte superior da lista.
+Você pode pesquisar por endereços de email ou domínios e filtrar por **[!UICONTROL Tipo de endereço]**. Depois de selecionado, é possível limpar o filtro exibido na parte superior da lista.
 
 ![](assets/allowed-list-filtering-example.png)
 
@@ -74,7 +74,7 @@ A lógica de lista de permissões se aplica quando o recurso está ativo. Saiba 
 
 >[!NOTE]
 >
->Quando ativado, o recurso de lista de permissões é honrado ao executar jornadas, mas também ao testar mensagens com o [provas](../email/preview.md#send-proofs) e teste de jornadas usando o [modo de teste](../building-journeys/testing-the-journey.md).
+>Quando ativado, o recurso de lista de permissões é respeitado ao executar jornadas, mas também ao testar mensagens com [provas](../email/preview.md#send-proofs) e jornadas de teste usando o [modo de teste](../building-journeys/testing-the-journey.md).
 
 ## Desativar a lista de permissões {#deactivate-allow-list}
 
@@ -92,13 +92,13 @@ Para desativar a lista de permissões, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Após desativar a lista de permissões, há uma latência de 5 minutos para que ela entre em vigor nas jornadas e campanhas.
+   >Depois de desativar a lista de permissões, há uma latência de 5 minutos para que ela entre em vigor em suas jornadas e campanhas.
 
 A lógica de lista de permissões não se aplica quando o recurso é desativado. Saiba mais [nesta seção](#logic).
 
 ## Adicionar entidades à lista de permissões {#add-entities}
 
-Para adicionar novos endereços de email ou domínios à lista de permissões para uma sandbox específica, você pode [preencher manualmente a lista](#manually-populate-list)ou use uma [Chamada de API](#api-call-allowed-list).
+Para adicionar novos domínios ou endereços de email à lista de permissões para uma sandbox específica, você pode [preencher manualmente a lista](#manually-populate-list)ou use um [Chamada de API](#api-call-allowed-list).
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ Para adicionar novos endereços de email ou domínios à lista de permissões pa
 >title="Adicionar endereços ou domínios à lista de permissões"
 >abstract="Você pode adicionar manualmente novos endereços de email ou domínios à lista de permissões selecionando-os um por um."
 
-Você pode preencher manualmente a variável [!DNL Journey Optimizer] lista de permissões adicionando um endereço de email ou um domínio por meio da interface do usuário.
+É possível preencher manualmente a variável [!DNL Journey Optimizer] lista de permissões adicionando um endereço de email ou um domínio por meio da interface.
 
 >[!NOTE]
 >
@@ -142,21 +142,21 @@ Para fazer isso, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Todos os caracteres ASCII compreendidos entre 32 e 126 são permitidos no **[!UICONTROL Motivo]** campo. Para referência, a lista completa pode ser encontrada [nesta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}.
+   >Todos os caracteres ASCII entre 32 e 126 são permitidos na variável **[!UICONTROL Motivo]** campo. Para referência, a lista completa pode ser encontrada [nesta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}.
 
 1. Clique em **[!UICONTROL Enviar]**.
 
 ### Adicionar entidades usando uma chamada de API {#api-call-allowed-list}
 
-Para preencher a lista de permissões, você também pode chamar a API de supressão com a variável `ALLOWED` para a variável `listType` atributo. Por exemplo:
+Para preencher a lista de permissões, você também pode chamar a API de supressão com a variável `ALLOWED` valor para o `listType` atributo. Por exemplo:
 
 ![](assets/allow-list-api.png)
 
-Você pode executar o **Adicionar**, **Excluir** e **Get** operações.
+Você pode executar a **Adicionar**, **Excluir** e **Obter** operações.
 
 Saiba mais sobre como fazer chamadas de API no [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} documentação de referência.
 
-## Baixe a lista de permissões {#download-allowed-list}
+## Baixar a lista de permissões {#download-allowed-list}
 
 Para exportar a lista de permissões como um arquivo CSV, siga as etapas abaixo:
 
@@ -164,19 +164,19 @@ Para exportar a lista de permissões como um arquivo CSV, siga as etapas abaixo:
 
    ![](assets/allowed-list-download-csv.png)
 
-1. Aguarde até que o arquivo seja gerado.
+1. Espere até que o arquivo seja gerado.
 
    ![](assets/allowed-list-download-generate.png)
 
    >[!NOTE]
    >
-   >O tempo de download depende do tamanho do arquivo, o que significa o número de endereços que estão na lista de permissões.
+   >O tempo de download depende do tamanho do arquivo, o que significa o número de endereços na lista de permissões.
    >
    >Uma solicitação de download pode ser processada de cada vez para uma determinada sandbox.
 
 1. Depois que o arquivo for gerado, você receberá uma notificação. Clique no ícone de sino na parte superior direita da tela para exibi-lo.
 
-1. Clique na notificação propriamente dita para baixar o arquivo.
+1. Clique na própria notificação para baixar o arquivo.
 
    ![](assets/allowed-list-download-notification.png)
 
@@ -184,34 +184,34 @@ Para exportar a lista de permissões como um arquivo CSV, siga as etapas abaixo:
    >
    >O link é válido por 24 horas.
 
-## Lógica da lista de permissões {#logic}
+## Lógica de lista de permissões {#logic}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="Gerenciar a lista de permissões"
 >abstract="Quando a lista de permissões for ativada, somente os recipients incluídos na lista de permissões receberão mensagens de email dessa sandbox. Quando desativado, todos os recipients receberão emails."
 
-Quando a lista de permissões for [ative](#enable-allow-list), aplica-se a seguinte lógica:
+Quando a lista de permissões é [ativo](#enable-allow-list), aplica-se a seguinte lógica:
 
-* Se a lista de permissões for **empty**, nenhum email será enviado.
+* Se a lista de permissões for **vazio**, nenhum email será enviado.
 
-* Se uma entidade for **na lista de permissões**, e não na lista de supressão, o email é enviado para os recipients correspondentes. No entanto, se a entidade também estiver no [lista de supressão](../reports/suppression-list.md), os recipients correspondentes não receberão o email, sendo o motivo **[!UICONTROL Suprimido]**.
+* Se uma entidade for **na lista de permissões**, e não na lista de supressão, o email é enviado aos recipients correspondentes. No entanto, se a entidade também estiver [lista de supressão](../reports/suppression-list.md), os recipients correspondentes não receberão o email, o motivo é **[!UICONTROL Suprimido]**.
 
-* Se uma entidade for **não na lista de permissões** (e não na lista de supressão), os recipients correspondentes não receberão o email, o motivo sendo **[!UICONTROL Não permitido]**.
+* Se uma entidade for **não está na lista de permissões** (e não na lista de supressão), os recipients correspondentes não receberão o email, o motivo sendo **[!UICONTROL Não permitido]**.
 
 >[!NOTE]
 >
->Os perfis com **[!UICONTROL Não permitido]** são excluídos durante o processo de envio da mensagem. Portanto, enquanto a variável **Relatórios de Jornada** mostrará esses perfis como tendo sido movidos pela jornada ([Ler segmento](../building-journeys/read-segment.md) e [atividades de mensagem](../building-journeys/journeys-message.md)), **Relatórios de email** não os incluirá no **[!UICONTROL Enviado]** métricas como são filtradas antes do envio do email.
+>Os perfis com **[!UICONTROL Não permitido]** Os status de são excluídos durante o processo de envio da mensagem. Por conseguinte, embora a **Jornada relatórios** mostrará esses perfis como tendo passado pela jornada ([Segmento de leitura](../building-journeys/read-segment.md) e [atividades de mensagem](../building-journeys/journeys-message.md)), o **Relatórios de email** não os incluirá no **[!UICONTROL Enviado]** métricas conforme são filtradas antes do envio de email.
 >
->Saiba mais sobre o [Relatório ao vivo](../reports/live-report.md) e [Relatório Global](../reports/global-report.md).
+>Saiba mais sobre o [Relatório ao vivo](../reports/live-report.md) e [Relatório global](../reports/global-report.md).
 
-Quando a lista de permissões for [desativado](#deactivate-allow-list), todos os emails que você está enviando da sandbox atual são enviados para todos os recipients (desde que não estejam na lista de supressão), incluindo endereços de cliente real.
+Quando a lista de permissões é [desativado](#deactivate-allow-list), todos os emails enviados da sandbox atual são enviados para todos os recipients (desde que não estejam na lista de supressão), incluindo endereços reais de clientes.
 
-## Relatórios de exclusão {#reporting}
+## Relatório de exclusão {#reporting}
 
-Quando a lista de permissões está ativa, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. Para fazer isso, você pode usar a variável [Serviço de query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para fazer as chamadas de API abaixo.
+Quando a lista de permissões está ativa, é possível recuperar endereços de email ou domínios que foram excluídos de um envio porque não estavam na lista de permissões. Para fazer isso, você pode usar o [Serviço de consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para fazer as chamadas de API abaixo.
 
-Para obter o **número de emails** que não foram enviados porque os recipients não estavam na lista de permissões, use a seguinte query:
+Para obter a **número de emails** que não foram enviados porque os destinatários não estavam na lista de permissões, use a seguinte query:
 
 ```sql
 SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
@@ -220,7 +220,7 @@ _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = '
 _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
 ```
 
-Para obter o **lista de endereços de email** que não foram enviados porque os recipients não estavam na lista de permissões, use a seguinte query:
+Para obter a **lista de endereços de email** que não foram enviados porque os destinatários não estavam na lista de permissões, use a seguinte query:
 
 ```sql
 SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE

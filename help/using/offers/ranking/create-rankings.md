@@ -16,6 +16,6 @@ ht-degree: 26%
 
 visão geral
 
-fórmulas de classificação de diferenças/modelos de AI
+fórmulas de classificação de diferenças/modelos de IA
 
-link para a seção de classificação
+link para seção de classificação

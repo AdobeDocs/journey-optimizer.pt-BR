@@ -7,7 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: publicar, jornada, live, validade, verificar
+keywords: publicar, jornada, ao vivo, validade, verificar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
@@ -22,12 +22,12 @@ Você pode publicar uma jornada após testar sua validade.
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-Se precisar fazer modificações em uma jornada publicada, será necessário criar uma nova versão da jornada. Consulte [esta página](../building-journeys/journey.md). Quando uma jornada é somente leitura, você só pode modificar os rótulos e as descrições da atividade, o nome da jornada e a descrição da jornada.
+Se você precisar fazer modificações em uma jornada publicada, será necessário criar uma nova versão da jornada. Consulte [esta página](../building-journeys/journey.md). Quando uma jornada é somente leitura, você só pode modificar os rótulos e as descrições da atividade, o nome da jornada e a descrição da jornada.
 
-Se parar uma jornada, ela será interrompida permanentemente. Todas as pessoas que fluem na jornada serão permanentemente suspensas e a jornada deixará de permitir novas entradas. Se precisar usar a jornada novamente, será necessário duplicá-la e publicá-la.
+Se você interromper uma jornada, ela será interrompida permanentemente. Todas as pessoas que fluem na jornada serão interrompidas permanentemente e a jornada deixará de permitir novas entradas. Se precisar usar a jornada novamente, duplique-a e publique-a.
 
-1. Antes de publicar sua jornada, verifique se ela é válida e se não há erro. Você não poderá publicar uma jornada com erros. Consulte [esta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Também é recomendável testar sua jornada antes da publicação. Consulte [esta página](../building-journeys/testing-the-journey.md).
-1. Para publicar a jornada, clique no botão **[!UICONTROL Publicar]** , localizada no menu suspenso superior direito.
+1. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Você não poderá publicar uma jornada com erros. Consulte [esta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Também é recomendável testar sua jornada antes da publicação. Consulte [esta página](../building-journeys/testing-the-journey.md).
+1. Para publicar a jornada, clique no link **[!UICONTROL Publish]** localizada no menu suspenso superior direito.
 
    ![](assets/journeyuc1_18.png)
 
@@ -35,9 +35,9 @@ Quando a jornada é publicada, ela está no modo somente leitura.
 
 >[!IMPORTANT]
 >
->Se forem feitas alterações em uma decisão de oferta que está sendo usada em uma mensagem do jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas na mensagem da jornada e que a mensagem seja consistente com as atualizações mais recentes.
+>Se forem feitas alterações em uma decisão de oferta que está sendo usada na mensagem de uma jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas à mensagem da jornada e que ela seja consistente com as atualizações mais recentes.
 
-## Vídeo tutorial {#video}
+## Vídeo explicativo {#video}
 
 Saiba como publicar uma jornada.
 

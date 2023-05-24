@@ -16,7 +16,7 @@ ht-degree: 20%
 
 # getListItem {#gestListItem}
 
-Retorna o item da lista no índice especificado.
+Retorna o item da lista no índice fornecido.
 
 ## Categoria
 
@@ -44,7 +44,7 @@ Lista
 
 `getListItem(<listInteger>,<index>)`
 
-Retorna um número inteiro.
+Retorna um inteiro.
 
 `getListItem(<listDecimal>,<index>)`
 
@@ -56,7 +56,7 @@ Retorna uma string.
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-Retorna um datetime sem considerar o fuso horário.
+Retorna uma data e hora sem considerar o fuso horário.
 
 `getListItem(<listDateTime>,<index>)`
 
@@ -68,7 +68,7 @@ Retorna uma lista de datas.
 
 `getListItem(<listBoolean>,<index>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 `getListItem(<listDuration>,<index>)`
 
@@ -83,7 +83,7 @@ Retorna &quot;2&quot;
 `getListItem(["A", "B", "C"], 2)`
 Retorna &quot;C&quot;
 
-Exemplos com um campo de evento &#39;event.appVersion&#39; com o valor: &quot;20.45.2.3434&quot;
+Exemplos com um campo de evento &quot;event.appVersion&quot; com valor: &quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 

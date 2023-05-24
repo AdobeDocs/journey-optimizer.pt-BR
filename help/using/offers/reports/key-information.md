@@ -1,6 +1,6 @@
 ---
 title: Informações importantes sobre eventos da Gestão de decisões
-description: Saiba mais sobre as principais informações enviadas com cada evento de Gerenciamento de decisões.
+description: Saiba mais sobre as principais informações enviadas com cada evento da Gestão de decisões.
 feature: Offers
 topic: Integrations
 role: User

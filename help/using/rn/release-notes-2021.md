@@ -49,7 +49,7 @@ Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lan
 <tbody>
 <tr>
 <td>
-<p>Agora é possível simular quais ofertas serão entregues a um perfil de teste para um determinado posicionamento na interface do Journey Optimizer. Isso permite validar facilmente a sua lógica de decisão, incluindo restrições de qualificação e algoritmos de classificação, antes de colocá-los em produção. Esse recurso permite que usuários não técnicos e técnicos testem rapidamente o gerenciamento de decisões e solucionem possíveis problemas.</p>
+<p>Agora é possível simular quais ofertas serão entregues a um perfil de teste para um determinado posicionamento na interface do Journey Optimizer. Isso permite validar facilmente a sua lógica de decisão, incluindo restrições de qualificação e algoritmos de classificação, antes de colocá-los em produção. Esse recurso permite que usuários técnicos e não técnicos testem rapidamente a gestão de decisões e solucionem possíveis problemas.</p>
 <p>Para obter mais informações, consulte a <a href="../offers/offer-activities/simulation.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -342,11 +342,11 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 * Para fontes de dados externas, uma regra de limitação de 15 chamadas por segundo agora é definida automaticamente. [Leia mais](../configuration/external-systems.md#capping)
 * Para as jornadas em tempo real, a tela de propriedades da jornada agora exibe a data da publicação e o nome do usuário que publicou a jornada. [Leia mais](../building-journeys/journey-gs.md#change-properties)
 * Na tela da lista de jornadas, o filtro Tipo de jornada foi adicionado. [Leia mais](../start/user-interface.md#filter-lists)
-* O **[!UICONTROL Taxa de limitação]** foi adicionado na atividade Read segment . [Leia mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* A variável **[!UICONTROL Taxa de limitação]** foi adicionado na atividade Ler segmento. [Leia mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-**Visualizar e testar**
+**Pré-visualização e teste**
 
-* A identidade e o namespace agora estão visíveis no **[!UICONTROL Visualizar]** tela. [Leia mais](../email/preview.md#preview-your-messages)
+* A identidade e o namespace agora estão visíveis na **[!UICONTROL Visualizar]** tela. [Leia mais](../email/preview.md#preview-your-messages)
 * O número de emails de teste para provas agora está restrito a 10.
 * Caracteres permitidos nas provas de **prefixo da linha de assunto** agora são limitadas. [Leia mais](../email/preview.md#send-proofs)
 
@@ -359,6 +359,6 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 * Correção de um problema que gerava mensagens duplicadas sendo entregues para delivery de emails em lote.
 * Agora os eventos são gerados adequadamente quando o envio de email não é executado após o término do período de nova tentativa.
 * Correção de um problema em que as informações de IP estavam ausentes na tela Registros PTR .
-* A localização no painel de ofertas no Editor de expressão agora está implementada.
+* A localização no painel de ofertas no editor de expressão agora está implementada.
 * Corrigido o espaçamento incorreto em pop-ups de informações.
 * Correção de um problema no Designer de email ao fazer upload de um arquivo HTML no qual a folha de estilos interna com as propriedades `background-image` não era suportada.

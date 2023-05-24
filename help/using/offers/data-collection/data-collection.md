@@ -1,6 +1,6 @@
 ---
 title: Coleta de dados
-description: Saiba mais sobre a coleta de dados de feedback do Gerenciamento de decisões
+description: Saiba mais sobre a coleção de dados de feedback do Gestão de decisões
 feature: Offers
 topic: Integrations
 role: User
@@ -13,56 +13,56 @@ ht-degree: 3%
 
 ---
 
-# Coleta de dados da gestão de decisões {#data-collection}
+# Coleta de dados de gestão de decisão {#data-collection}
 
-## Como entender a coleta de dados
+## Noções básicas sobre a coleta de dados
 
 Você pode coletar comentários do offer decisioning no Adobe Experience Platform, incluindo quais ofertas são exibidas e como os usuários interagem com elas. Esses dados podem ser usados para:
-* Composição [Relatórios de gestão de decisões](../reports/get-started-events.md);
-* Usando [limite de frequência](../offer-library/add-constraints.md#capping) regras;
-* Construção [Modelos de IA](../ranking/create-ranking-strategies.md) que pode ser usado como um método de classificação.
+* Composição [Relatórios de gestão de decisão](../reports/get-started-events.md);
+* Usar [limite de frequência](../offer-library/add-constraints.md#capping) regras;
+* Criação [Modelos de IA](../ranking/create-ranking-strategies.md) que pode ser usado como um método de classificação.
 
 ## Tipos de eventos
 
-A maneira como os dados são coletados varia de acordo com o tipo de evento que você deseja capturar.
+A forma como os dados são coletados varia de acordo com o tipo de evento que você deseja capturar.
 
 ### Eventos de decisão
 
-Sempre que a gerência de decisão tomar uma decisão, as informações relacionadas a esse evento de decisão serão **automaticamente** enviado ao Adobe Experience Platform para todos os canais. [Saiba mais](../reports/get-started-events.md)
+Cada vez que a Gestão de decisões toma uma decisão, as informações relacionadas a esse evento de decisão são **automaticamente** enviado à Adobe Experience Platform para todos os canais. [Saiba mais](../reports/get-started-events.md)
 
 ### Eventos de impressão e clique
 
-As impressões e os cliques do gerenciamento de decisões são definidos da seguinte maneira:
+As impressões e os cliques da gestão de decisão são definidos da seguinte maneira:
 
-* Um **impressão** é quando uma oferta é exibida para um usuário.
+* Um **impressão** evento é quando uma oferta é exibida a um usuário.
 
-* A **click** é quando um usuário clica ou interage com uma oferta.
+* A **click** evento é quando um usuário clica ou interage com uma oferta.
 
-O feedback sobre impressões e cliques é capturado dependendo do [!DNL Journey Optimizer] canal usado.
+O feedback sobre impressões e cliques é capturado, dependendo da [!DNL Journey Optimizer] que é usado.
 
 **Emails** criado por [!DNL Journey Optimizer] **automaticamente** rastrear impressões e cliques.
 
-No entanto, **mais canais** exigir que os dados de impressões e cliques sejam enviados para o Adobe Experience Platform como um **evento de experiência**. Isso inclui:
+No entanto, **maioria dos canais** exigir que os dados de impressões e cliques sejam enviados para o Adobe Experience Platform como um **evento de experiência**. Isso inclui:
 
-* Páginas da Web usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} para renderizar ofertas
+* Páginas da Web que usam o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} para renderizar ofertas
 
-* Aplicativos para dispositivos móveis que usam o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
-* Quiosque
+* Aplicativos móveis que usam o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* Quiosques
 * Mensagens enviadas por aplicativos de terceiros
    <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
 
 >[!NOTE]
 >
->Os canais que usam uma solicitação de API de decisão para receber ofertas precisam que o feedback seja enviado como um evento de experiência. Em outras palavras, se a oferta precisar de instruções sobre como renderizar, você poderá assumir que deve enviar feedback como eventos de experiência.
+>Os canais que usam uma solicitação de API de decisão para receber ofertas precisam de feedback enviado como um evento de experiência. Em outras palavras, se a oferta precisar de instruções sobre como renderizar, você pode supor que deve enviar feedback como eventos de experiência.
 
 ### Eventos personalizados
 
-Os comentários sobre eventos personalizados vinculados a uma oferta podem ser enviados para o Adobe Experience Platform de acordo com suas próprias preferências. Por exemplo, se uma oferta tiver vários botões, como *Interessado*, *Não interessado*, etc., você pode enviar esses eventos separadamente, mas eles também podem ser enviados como eventos de experiência.
+Os comentários sobre eventos personalizados vinculados a uma oferta podem ser enviados para o Adobe Experience Platform de acordo com suas próprias preferências. Por exemplo, se uma oferta tiver vários botões, como *Interesse*, *Não está interessado*, etc., convém enviar esses eventos separadamente, mas eles também podem ser enviados como eventos de experiência.
 
 ## Envio de dados de feedback
 
 Para enviar dados de feedback, é necessário criar um conjunto de dados para coletar eventos e, para cada tipo de evento, definir um evento de experiência que será enviado para o Adobe Experience Platform.
 
-* Saiba como criar um conjunto de dados no qual os eventos de experiência serão coletados [esta seção](create-dataset.md).
+* Saiba como criar um conjunto de dados em que os eventos de experiência serão coletados [nesta seção](create-dataset.md).
 
-* Saiba como definir eventos de experiência para enviar dados de feedback em [esta seção](schema-requirement.md).
+* Saiba como definir eventos de experiência para enviar dados de feedback no [nesta seção](schema-requirement.md).

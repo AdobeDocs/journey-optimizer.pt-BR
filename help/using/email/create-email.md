@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: criar, email, iniciar, jornada, campanha
+keywords: criar, enviar email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -23,43 +23,43 @@ ht-degree: 9%
 >title="Criação de email"
 >abstract="Defina seus parâmetros de email em apenas três etapas simples."
 
-Para criar um email em [!DNL Journey Optimizer]siga as etapas abaixo.
+Para criar um email no [!DNL Journey Optimizer], siga as etapas abaixo.
 
 ## Criar um email em uma jornada ou campanha {#create-email-journey-campaign}
 
-Adicione um **[!UICONTROL Email]** para uma jornada ou campanha e siga as etapas abaixo de acordo com seu caso.
+Adicionar um **[!UICONTROL E-mail]** para uma jornada ou campanha, e siga as etapas abaixo de acordo com seu caso.
 
 >[!BEGINTABS]
 
 >[!TAB Adicionar um email a uma jornada]
 
-1. Abra a jornada e arraste e solte uma **[!UICONTROL Email]** da **[!UICONTROL Ações]** da paleta.
+1. Abra a jornada, arraste e solte um **[!UICONTROL E-mail]** atividade do **[!UICONTROL Ações]** seção da paleta.
 
-1. Forneça informações básicas sobre sua mensagem (rótulo, descrição, categoria).
+1. Forneça informações básicas sobre a mensagem (rótulo, descrição, categoria).
 
-1. Escolha a [superfície do email](email-settings.md) para usar.
+1. Escolha o [superfície de email](email-settings.md) para usar.
 
    ![](assets/email_journey.png)
 
-   O campo é preenchido previamente, por padrão, com a última superfície usada para esse canal pelo usuário.
+   O campo é pré-preenchido, por padrão, com a última superfície usada para esse canal pelo usuário.
 
 >[!NOTE]
 >
->Se estiver enviando um email de uma jornada, você pode aproveitar o recurso de Otimização de tempo de envio da Adobe Journey Optimizer para prever o melhor momento para enviar a mensagem para maximizar o envolvimento com base nas taxas de abertura e clique do histórico. [Saiba como trabalhar com a Otimização de tempo de envio](../building-journeys/journeys-message.md#send-time-optimization)
+>Se estiver enviando um email de uma jornada, você pode aproveitar o recurso de Otimização de tempo de envio do Adobe Journey Optimizer para prever o melhor momento para enviar a mensagem e maximizar o engajamento com base no histórico de taxas de abertura e de clique. [Saiba como trabalhar com a Otimização de tempo de envio](../building-journeys/journeys-message.md#send-time-optimization)
 
 Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
 
 >[!TAB Adicionar um email a uma campanha]
 
-1. Crie uma nova campanha agendada ou acionada por API e selecione **[!UICONTROL Email]** como sua ação.
+1. Crie uma nova campanha agendada ou acionada por API e selecione **[!UICONTROL E-mail]** como sua ação.
 
-1. Escolha a [superfície do email](email-settings.md) para usar.
+1. Escolha o [superfície de email](email-settings.md) para usar.
 
    ![](assets/email_campaign.png)
 
 1. Clique em **[!UICONTROL Criar]**.
 
-1. Complete as etapas para criar uma campanha de email, como as propriedades da campanha, [público](../segment/about-segments.md)e [programação](../campaigns/create-campaign.md#schedule).
+1. Conclua as etapas para criar uma campanha de email, como as propriedades da campanha, [público](../segment/about-segments.md), e [programação](../campaigns/create-campaign.md#schedule).
 
    ![](assets/email_campaign_steps.png)
 
@@ -82,21 +82,21 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 >title="Configurar conteúdo de email"
 >abstract="Crie o conteúdo do seu email. Defina o assunto e aproveite o Designer de email para criar e personalizar o corpo do email."
 
-1. Na tela de configuração da jornada ou campanha, clique no botão **[!UICONTROL Editar conteúdo]** para configurar o conteúdo do email. [Saiba mais](get-started-email-design.md)
+1. Na tela de configuração do jornada ou da campanha, clique no link **[!UICONTROL Editar conteúdo]** botão para configurar o conteúdo do email. [Saiba mais](get-started-email-design.md)
 
    ![](assets/email_campaign_edit_content.png)
 
-1. No **[!UICONTROL Cabeçalho]** da seção **[!UICONTROL Editar conteúdo]** , a **[!UICONTROL Nome de origem]**, **[!UICONTROL Do email]** e **[!UICONTROL CCO]** O campo vem da superfície de email selecionada. [Saiba mais](email-settings.md) <!--check if same for journey-->
+1. No **[!UICONTROL Cabeçalho]** seção do **[!UICONTROL Editar conteúdo]** tela, a variável **[!UICONTROL Do nome]**, **[!UICONTROL Do email]** e **[!UICONTROL CCO]** vem da superfície de email selecionada. [Saiba mais](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. Você pode adicionar uma linha de assunto. Digite o texto simples diretamente no campo correspondente ou use o [Editor de expressão](../personalization/personalization-build-expressions.md) para personalizar a linha de assunto.
+1. Você pode adicionar uma linha de assunto. Digite o texto sem formatação diretamente no campo correspondente ou use [Editor de expressão](../personalization/personalization-build-expressions.md) para personalizar a linha de assunto.
 
-1. Clique no botão **[!UICONTROL Editar corpo do email]** botão para começar a criar o conteúdo usando o [!DNL Journey Optimizer] Email Designer. [Saiba mais](get-started-email-design.md)
+1. Clique em **[!UICONTROL Editar corpo do email]** botão para começar a criar o conteúdo usando o [!DNL Journey Optimizer] Designer de email. [Saiba mais](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. Se você estiver em uma campanha, também poderá clicar no link **[!UICONTROL Editor de códigos]** botão para codificar seu próprio conteúdo no plain HTML usando a janela pop-up exibida.
+1. Se você estiver em uma campanha, também poderá clicar no link **[!UICONTROL Editor de código]** botão para codificar seu próprio conteúdo em HTML simples usando a janela pop-up que é exibida.
 
    ![](assets/email_designer_edit_code_editor.png)
 
@@ -106,58 +106,58 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 
 ## Verificar alertas {#check-email-alerts}
 
-Ao projetar suas mensagens, os alertas são exibidos na interface (na parte superior direita da tela) quando as configurações principais estiverem ausentes.
+À medida que você projeta suas mensagens, os alertas são exibidos na interface (na parte superior direita da tela) quando as principais configurações estão ausentes.
 
 ![](assets/email_journey_alerts_details.png)
 
 >[!NOTE]
 >
->Se você não vir este botão, nenhum alerta foi detectado.
+>Se você não vir esse botão, nenhum alerta foi detectado.
 
-As configurações e elementos verificados pelo sistema estão listados abaixo. Você também encontrará informações sobre como adaptar sua configuração para resolver os problemas correspondentes.
+As configurações e os elementos verificados pelo sistema estão listados abaixo. Você também encontrará informações sobre como adaptar sua configuração para resolver os problemas correspondentes.
 
-Dois tipos de alertas podem acontecer:
+Dois tipos de alertas podem ocorrer:
 
 * **Avisos** consulte recomendações e práticas recomendadas, como:
 
-   * **[!UICONTROL O link para opção de não participação não está presente no corpo do email]**: adicionar um link de unsubscription ao corpo do email é uma prática recomendada. Saiba como configurá-lo em [esta seção](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL O link para opção de não participação não está presente no corpo do email]**: adicionar um link de cancelamento de subscrição ao corpo do email é uma prática recomendada. Saiba como configurá-lo no [nesta seção](../privacy/opt-out.md#opt-out-management).
 
       >[!NOTE]
       >
-      >As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definido na variável [superfície do canal](email-settings.md#email-type) nível e quando [criação da mensagem](#create-email-journey-campaign) de uma jornada ou campanha.
+      >As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida no [superfície de canal](email-settings.md#email-type) e quando [criação da mensagem](#create-email-journey-campaign) de uma jornada ou campanha.
 
-   * **[!UICONTROL A versão de texto do HTML está vazia]**: não se esqueça de definir uma versão de texto do corpo do email, pois ela será usada quando o conteúdo do HTML não puder ser exibido. Saiba como criar a versão de texto em [esta seção](text-version-email.md).
+   * **[!UICONTROL A versão de texto do HTML está vazia]**: não se esqueça de definir uma versão de texto do corpo do email, pois ela será usada quando o conteúdo do HTML não puder ser exibido. Saiba como criar a versão de texto no [nesta seção](text-version-email.md).
 
-   * **[!UICONTROL Link vazio está presente no corpo do email]**: verifique se todos os links no seu email estão corretos. Saiba como gerenciar conteúdo e links no [esta seção](content-from-scratch.md).
+   * **[!UICONTROL Um link vazio está presente no corpo do email]**: verifique se todos os links no seu email estão corretos. Saiba como gerenciar conteúdo e links no [nesta seção](content-from-scratch.md).
 
-   * **[!UICONTROL O tamanho do email excedeu o limite de 100 KB]**: para obter o delivery ideal, verifique se o tamanho do seu email não excede 100 KB. Saiba como editar conteúdo de email no [esta seção](content-from-scratch.md).
+   * **[!UICONTROL O tamanho do email excedeu o limite de 100 KB]**: para obter o delivery ideal, verifique se o tamanho do seu email não excede 100KB. Saiba como editar conteúdo de email no [nesta seção](content-from-scratch.md).
 
-* **Erros** impedir que você teste ou ative a jornada/campanha, desde que elas não sejam resolvidas, como:
+* **Erros** impedir que você teste ou ative a jornada/campanha desde que não sejam resolvidos, como:
 
-   * **[!UICONTROL A linha de assunto está ausente]**: a linha de assunto do email é obrigatória. Saiba como defini-lo e personalizá-lo em [esta seção](create-email.md).
+   * **[!UICONTROL Linha de assunto ausente]**: a linha de assunto do email é obrigatória. Saiba como defini-lo e personalizá-lo no [nesta seção](create-email.md).
 
    <!--HTML is empty when Amp HTML is present-->
 
-   * **[!UICONTROL A versão de email da mensagem está vazia]**: esse erro é exibido quando o conteúdo do email não foi configurado. Saiba como criar conteúdo de email no [esta seção](get-started-email-design.md).
+   * **[!UICONTROL A versão de email da mensagem está vazia]**: esse erro é exibido quando o conteúdo do email não foi configurado. Saiba como projetar conteúdo de email no [nesta seção](get-started-email-design.md).
 
-   * **[!UICONTROL Superfície não existe]**: não será possível usar a mensagem se a superfície selecionada for excluída após a criação da mensagem. Se este erro ocorrer, selecione outra superfície na mensagem **[!UICONTROL Propriedades]**. Saiba mais sobre as superfícies dos canais em [esta seção](../configuration/channel-surfaces.md).
+   * **[!UICONTROL A superfície não existe]**: não será possível usar a mensagem se a superfície selecionada for excluída após a criação da mensagem. Se este erro ocorrer, selecione outra superfície na mensagem **[!UICONTROL Propriedades]**. Saiba mais sobre superfícies de canal em [nesta seção](../configuration/channel-surfaces.md).
 
 
 >[!CAUTION]
 >
->Para testar ou ativar a jornada/campanha usando o email, você deve resolver todos os **erro** alertas.
+>Para testar ou ativar a jornada/campanha usando o email, você deve resolver todos **erro** alertas.
 
 ## Pré-visualizar e enviar seu email
 
-Após definir o conteúdo da mensagem, é possível pré-visualizá-lo para controlar a renderização do email e verificar as configurações de personalização com perfis de teste. [Saiba mais](preview.md)
+Depois que o conteúdo da mensagem for definido, você poderá pré-visualizá-lo para controlar a renderização do email e verificar as configurações de personalização com perfis de teste. [Saiba mais](preview.md)
 
 ![](assets/email_designer_edit_simulate.png)
 
-Quando o email estiver pronto, conclua a configuração do [jornada](../building-journeys/journey-gs.md) ou [campanha](../campaigns/create-campaign.md)e ativá-la para enviar a mensagem.
+Quando o email estiver pronto, conclua a configuração de [jornada](../building-journeys/journey-gs.md) ou [campaign](../campaigns/create-campaign.md)e ativá-lo para enviar a mensagem.
 
 >[!NOTE]
 >
->Para rastrear o comportamento dos recipients por meio de aberturas e/ou interações de email, verifique se as opções dedicadas na variável **[!UICONTROL Rastreamento]** estão ativadas na jornada [atividade de email](../building-journeys/journeys-message.md) ou no email [campanha](../campaigns/create-campaign.md).<!--to move?-->
+>Para acompanhar o comportamento dos recipients por meio de aberturas e/ou interações de email, verifique se as opções dedicadas no **[!UICONTROL Rastreamento]** são ativadas na jornada [atividade de email](../building-journeys/journeys-message.md) ou no email [campaign](../campaigns/create-campaign.md).<!--to move?-->
 
 <!--
 

@@ -1,6 +1,6 @@
 ---
 title: Listar coleções
-description: Coleções são subconjuntos de ofertas com base em condições predefinidas definidas por um profissional de marketing, como a categoria da oferta.
+description: Coleções são subconjuntos de ofertas com base em condições predefinidas por um profissional de marketing, como a categoria da oferta.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,9 +15,9 @@ ht-degree: 5%
 
 # Listar coleções {#list-collections}
 
-Coleções são subconjuntos de ofertas com base em condições predefinidas definidas por um profissional de marketing, como a categoria da oferta.
+Coleções são subconjuntos de ofertas com base em condições predefinidas por um profissional de marketing, como a categoria da oferta.
 
-Você pode exibir uma lista de todas as coleções em um contêiner executando uma única solicitação de GET para a [!DNL Offer Library] API.
+É possível exibir uma lista de todas as coleções em um contêiner executando uma única solicitação GET para [!DNL Offer Library] API.
 
 **Formato da API**
 
@@ -27,10 +27,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde as coleções estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | Define o schema associado às coleções. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `{QUERY_PARAMS}` | Parâmetros de consulta opcionais para filtrar os resultados por. | `limit=1` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O container onde as coleções estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FILTER}` | Define o esquema associado às coleções. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
+| `{QUERY_PARAMS}` | Parâmetros de consulta opcionais para filtrar os resultados. | `limit=1` |
 
 **Solicitação**
 
@@ -46,7 +46,7 @@ curl -X GET \
 
 ## Uso de parâmetros de consulta {#using-query-parameters}
 
-Você pode usar parâmetros de consulta para página e filtrar resultados ao listar recursos.
+Você pode usar parâmetros de consulta para paginar e filtrar resultados ao listar recursos.
 
 ### Paginação {#paging}
 
@@ -54,15 +54,15 @@ Os parâmetros de consulta mais comuns para paginação incluem:
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `q` | Uma string de consulta opcional a ser procurada nos campos selecionados. A sequência de consulta deve estar em letras minúsculas e pode ser cercada por aspas duplas para evitar que seja tocada e para evitar caracteres especiais. Os caracteres `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm um significado especial e devem ser evitadas com uma barra invertida ao aparecerem na string de consulta. | `demo collection` |
-| `qop` | Aplica operador AND ou OR a valores em q parâmetro da string de consulta. | `AND` / `OR` |
-| `field` | Lista opcional de campos para os quais limitar a pesquisa. Esse parâmetro pode ser repetido da seguinte maneira: field=field1[,field=field2,...] e (expressões de caminho estão na forma de caminhos separados por pontos, como _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Classifique os resultados por uma propriedade específica. Adicionar um `-` antes do título (`orderby=-title`) classificará os itens por título em ordem decrescente (Z-A). | `-repo:createdDate` |
-| `limit` | Limite o número de coleções retornadas. | `limit=5` |
+| `q` | Uma sequência de consulta opcional a ser pesquisada nos campos selecionados. A sequência de consulta deve estar em minúsculas e pode estar entre aspas duplas para impedir que seja tokenizada e para evitar caracteres especiais. Os caracteres `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm significado especial e devem ser evitadas com uma barra invertida ao serem exibidas na sequência de consulta. | `demo collection` |
+| `qop` | Aplica o operador AND ou OR a valores no parâmetro de sequência de consulta q. | `AND` / `OR` |
+| `field` | Lista opcional de campos aos quais limitar a pesquisa. Esse parâmetro pode ser repetido da seguinte maneira: field=field1[,campo=campo2,...] e (expressões de caminho estão no formato de caminhos separados por pontos, como _instance.xdm:name) | `_instance.xdm:name` |
+| `orderBy` | Classificar os resultados por uma propriedade específica. Adicionar um `-` antes do título (`orderby=-title`) classificará os itens por título em ordem decrescente (Z-A). | `-repo:createdDate` |
+| `limit` | Limitar o número de coleções retornadas. | `limit=5` |
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna uma lista de coleções que estão presentes no contêiner ao qual você tem acesso.
+Uma resposta bem-sucedida retorna uma lista de coleções presentes no contêiner ao qual você tem acesso.
 
 ```json
 {

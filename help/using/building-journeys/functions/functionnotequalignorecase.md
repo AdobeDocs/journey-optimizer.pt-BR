@@ -16,7 +16,7 @@ ht-degree: 12%
 
 # notEqualIgnoreCase {#notEqualIgnoreCase}
 
-Verifique se a primeira string de argumento com a segunda string de argumento é diferente, ignorando considerações de caso.
+Verifique se a primeira string do argumento com a segunda string do argumento é diferente, ignorando as considerações sobre maiúsculas e minúsculas.
 
 ## Categoria
 
@@ -34,7 +34,7 @@ String
 
 `notEqualIgnoreCase(<string>,<string>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplo
 

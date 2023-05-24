@@ -1,6 +1,6 @@
 ---
 title: atualizar uma inserção
-description: As disposições são contêineres usados para mostrar suas ofertas.
+description: Posicionamentos são contêineres usados para exibir suas ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 9%
 
 # Atualizar uma inserção {#update-placement}
 
-Você pode modificar ou atualizar uma disposição em seu contêiner fazendo uma solicitação de PATCH para a [!DNL Offer Library] API.
+Você pode modificar ou atualizar um posicionamento no seu contêiner fazendo uma solicitação PATCH para o [!DNL Offer Library] API.
 
-Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação do patch JSON](http://jsonpatch.com/).
+Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação de patch de JSON](http://jsonpatch.com/).
 
-## Aceitar e digitar cabeçalhos de tipo de conteúdo {#accept-and-content-type-headers}
+## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
 A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
@@ -36,9 +36,9 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde as disposições estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | A ID da instância da disposição que você deseja atualizar. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O container onde os posicionamentos estão localizados. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | A ID da instância do posicionamento que você deseja atualizar. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
 
 **Solicitação**
 
@@ -67,13 +67,13 @@ curl -X PATCH \
 
 | Parâmetro | Descrição |
 | --------- | ----------- |
-| `op` | A chamada de operação usada para definir a ação necessária para atualizar a conexão. As operações incluem: `add`, `replace`e `remove`. |
+| `op` | A chamada de operação usada para definir a ação necessária para atualizar a conexão. As operações incluem: `add`, `replace`, e `remove`. |
 | `path` | O caminho do parâmetro a ser atualizado. |
 | `value` | O novo valor com o qual você deseja atualizar seu parâmetro. |
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes atualizados da disposição, incluindo a ID da instância e o posicionamento exclusivos `@id`.
+Uma resposta bem-sucedida retorna os detalhes atualizados do posicionamento, incluindo a ID de instância exclusiva e o posicionamento `@id`.
 
 ```json
 {

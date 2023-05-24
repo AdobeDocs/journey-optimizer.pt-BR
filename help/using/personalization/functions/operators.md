@@ -1,6 +1,6 @@
 ---
-title: Biblioteca de funções dos operadores
-description: Biblioteca de funções dos operadores
+title: Biblioteca de funções de operadores
+description: Biblioteca de funções de operadores
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -17,11 +17,11 @@ ht-degree: 11%
 
 ## Funções booleanas {#boolean-functions}
 
-As funções booleanas são usadas para executar lógica booleana em elementos diferentes.
+Funções booleanas são usadas para executar lógica booleana em elementos diferentes.
 
 ### E{#and}
 
-O `and` é usada para criar uma conjunção lógica.
+A variável `and` é usada para criar uma conjunção lógica.
 
 **Sintaxe**
 
@@ -31,7 +31,7 @@ O `and` é usada para criar uma conjunção lógica.
 
 **Exemplo**
 
-A operação seguinte irá devolver todas as pessoas com o país de origem como França e ano de nascimento de 1985.
+A operação a seguir retornará todas as pessoas com país de origem como França e ano de nascimento de 1985.
 
 ```sql
 {%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
@@ -39,7 +39,7 @@ A operação seguinte irá devolver todas as pessoas com o país de origem como 
 
 ### Ou{#or}
 
-O `or` é usada para criar uma disjunção lógica.
+A variável `or` é usada para criar uma disjunção lógica.
 
 **Sintaxe**
 
@@ -49,7 +49,7 @@ O `or` é usada para criar uma disjunção lógica.
 
 **Exemplo**
 
-A operação seguinte irá devolver todas as pessoas com o país de origem como França ou ano de nascimento de 1985.
+A operação a seguir retornará todas as pessoas com o país de origem como França ou ano de nascimento de 1985.
 
 ```sql
 {%= profile.homeAddress.country = "France" or profile.person.birthYear = 1985 %}
@@ -78,11 +78,11 @@ not (homeAddress.countryISO = "CA")
 
 ## Funções de comparação {#comparison-functions}
 
-As funções de comparação são usadas para comparar diferentes expressões e valores, retornando verdadeiro ou falso de acordo.
+As funções de comparação são usadas para comparar entre diferentes expressões e valores, retornando verdadeiro ou falso de acordo.
 
 ### Igual a{#equals}
 
-O `=` (igual) verifica se um valor ou expressão é igual a outro valor ou expressão.
+A variável `=` (igual a) verifica se um valor ou expressão é igual a outro valor ou expressão.
 
 **Sintaxe**
 
@@ -92,7 +92,7 @@ O `=` (igual) verifica se um valor ou expressão é igual a outro valor ou expre
 
 **Exemplo**
 
-A operação a seguir referida verifica se o país de endereço de origem é a França.
+A operação a seguir verifica se o país do endereço residencial é a França.
 
 ```sql
 {%= profile.homeAddress.country = "France" %}
@@ -100,7 +100,7 @@ A operação a seguir referida verifica se o país de endereço de origem é a F
 
 ### Diferente de{#notequal}
 
-O `!=` (não é igual) verifica se um valor ou expressão é **not** igual a outro valor ou expressão.
+A variável `!=` (diferente de) função verifica se um valor ou expressão é **não** igual a outro valor ou expressão.
 
 **Sintaxe**
 
@@ -110,7 +110,7 @@ O `!=` (não é igual) verifica se um valor ou expressão é **not** igual a out
 
 **Exemplo**
 
-A operação seguinte verifica se o país de endereço de origem não é a França.
+A operação a seguir verifica se o país do endereço residencial não é a França.
 
 ```sql
 {%= profile.homeAddress.country != "France" %}
@@ -118,7 +118,7 @@ A operação seguinte verifica se o país de endereço de origem não é a Fran�
 
 ### Greater than{#greaterthan}
 
-O `>` (greater than) é usada para verificar se o primeiro valor é maior que o segundo valor.
+A variável `>` (maior que) é usada para verificar se o primeiro valor é maior que o segundo valor.
 
 **Sintaxe**
 
@@ -128,7 +128,7 @@ O `>` (greater than) é usada para verificar se o primeiro valor é maior que o 
 
 **Exemplo**
 
-A operação a seguir define pessoas que nasceram estritamente após 1970.
+A operação a seguir define pessoas nascidas estritamente após 1970.
 
 ```sql
 {%= profile.person.birthYear > 1970 %}
@@ -136,7 +136,7 @@ A operação a seguir define pessoas que nasceram estritamente após 1970.
 
 ### Maior que ou igual a{#greaterthanorequal}
 
-O `>=` (maior que ou igual a) é usada para verificar se o primeiro valor é maior ou igual ao segundo valor.
+A variável `>=` (maior que ou igual a) é usada para verificar se o primeiro valor é maior que ou igual ao segundo valor.
 
 **Sintaxe**
 
@@ -154,7 +154,7 @@ A operação a seguir define pessoas nascidas em ou após 1970.
 
 ### Menos que{#lessthan}
 
-O `<` (less than) é usada para verificar se o primeiro valor é menor que o segundo valor.
+A variável `<` (menor que) a função de comparação é usada para verificar se o primeiro valor é menor que o segundo valor.
 
 **Sintaxe**
 
@@ -172,7 +172,7 @@ A operação a seguir define pessoas nascidas antes de 2000.
 
 ### Less than or equal to{#lessthanorequal}
 
-O `<=` A função de comparação (menor que ou igual a) é usada para verificar se o primeiro valor é menor que ou igual ao segundo valor.
+A variável `<=` (menor que ou igual a) a função de comparação é usada para verificar se o primeiro valor é menor que ou igual ao segundo valor.
 
 **Sintaxe**
 

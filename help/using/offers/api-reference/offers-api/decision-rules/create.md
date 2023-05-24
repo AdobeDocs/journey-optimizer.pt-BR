@@ -1,6 +1,6 @@
 ---
 title: Criar uma regra de decisão
-description: As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a qualificação.
+description: As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a elegibilidade.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,9 +15,9 @@ ht-degree: 12%
 
 # Criar uma regra de decisão {#create-decision-rule}
 
-As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a qualificação.
+As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a elegibilidade.
 
-## Aceitar e digitar cabeçalhos de tipo de conteúdo {#accept-and-content-type-headers}
+## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
 A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
@@ -34,7 +34,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | O contêiner onde as regras de decisão estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Solicitação**
@@ -72,7 +72,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a regra de decisão recém-criada, incluindo a ID e a disposição da instância exclusiva `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua regra de decisão. Você pode usar sua regra de decisão exclusiva `@id` em um tutorial posterior para criar ofertas personalizadas.
+Uma resposta bem-sucedida retorna informações sobre a regra de decisão recém-criada, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua regra de decisão. Você pode usar sua regra de decisão exclusiva `@id` em um tutorial posterior para criar ofertas personalizadas.
 
 ```json
 {

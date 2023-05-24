@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Relatório ao vivo de inscrições
-description: Saiba como usar dados de seus serviços de assinatura com o Relatório online de assinatura
+description: Saiba como usar os dados de seus serviços de assinatura com o relatório online de assinatura
 feature: Journeys
 topic: Content Management
 role: User
@@ -22,24 +22,24 @@ ht-degree: 22%
 >title="Relatório ao vivo de inscrições"
 >abstract="O relatório em tempo real de inscrições permite medir e visualizar em tempo real a atividade de inscritos somente nas últimas 24 horas. O relatório é dividido em diferentes widgets detalhando inscrições e cancelamentos de inscrição. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
-A assinatura **[!UICONTROL Relatório ao vivo]** O exibe detalhes sobre a atividade dos assinantes somente nas últimas 24 horas. Para medir suas subscrições por um período selecionado, consulte [Relatório global de subscrição](subscription-report-global.md).
+A Assinatura **[!UICONTROL Relatório ao vivo]** exibe detalhes sobre a atividade dos assinantes nas últimas 24 horas somente. Para medir as assinaturas em um período de tempo selecionado, consulte o [Relatório global da assinatura](subscription-report-global.md).
 
-Para acessar seus relatórios, clique no botão **[!UICONTROL Relatório]** ícone da lista de assinaturas selecionada.
+Para acessar seus relatórios, clique no link **[!UICONTROL Relatório]** ícone da lista de assinaturas selecionada.
 
 ![](assets/subscription_report_7.png)
 
-A assinatura **[!UICONTROL Relatório ao vivo]** O é dividido em diferentes widgets detalhando suas assinaturas e unsubscriptions. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte [seção](live-report.md).
+A assinatura **[!UICONTROL Relatório ao vivo]** O é dividido em diferentes widgets detalhando suas assinaturas e unsubscriptions. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte este [seção](live-report.md).
 
 ![](assets/subscription_report_3.png)
 
-O **[!UICONTROL Desempenho da assinatura]** KPIs e o **[!UICONTROL Assinaturas por jornada]**/**[!UICONTROL Cancelamentos de assinatura por jornada]** as tabelas detalham as informações principais relativas ao envolvimento dos visitantes com a página de aterrissagem. As tabelas e os KPIs contêm os dados disponíveis relacionados à página de aterrissagem, como:
+A variável **[!UICONTROL Desempenho da assinatura]** Os KPIs e o **[!UICONTROL Assinaturas por jornada]**/**[!UICONTROL Cancelamentos de assinatura por jornada]** as tabelas detalham as principais informações relativas ao engajamento dos visitantes com a página de aterrissagem. As tabelas e os KPIs contêm os dados disponíveis relacionados à sua página de aterrissagem, como:
 
-* **[!UICONTROL Assinaturas]**: Número total de subscrições nas últimas 24 horas.
+* **[!UICONTROL Inscreve]**: número total de assinaturas nas últimas 24 horas.
 
-* **[!UICONTROL Cancelamentos de assinatura]**: Número total de cancelamentos de subscrições nas últimas 24 horas.
+* **[!UICONTROL Cancelamentos de assinatura]**: número total de cancelamentos de subscrições nas últimas 24 horas.
 
-O **[!UICONTROL Desempenho da assinatura]** gráfico mostra a evolução das subscrições nas últimas 24 horas.
+A variável **[!UICONTROL Desempenho da assinatura]** o gráfico mostra a evolução das assinaturas nas últimas 24 horas.
 
 ![](assets/subscription_report_4.png)
 
-O **Subscrições - Detalhamento** e **Cancelamentos de assinatura - Detalhamento** Os gráficos representam o número total de pessoas que assinaram ou cancelaram a assinatura nas últimas 24 horas, dependendo das mensagens, das páginas de aterrissagem e dos canais.
+A variável **Assinaturas - Detalhamento** e **Cancelamentos de assinatura - Detalhamento** os gráficos representam o número total de pessoas que assinaram ou cancelaram assinaturas nas últimas 24 horas, dependendo das mensagens, páginas de aterrissagem e canais.

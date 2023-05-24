@@ -16,7 +16,7 @@ ht-degree: 17%
 
 # endWithIgnoreCase {#endWithIgnoreCase}
 
-Verifica se a primeira string de argumento termina com uma string específica (segunda string de argumento), não considerando o caso.
+Verifica se a primeira sequência de argumento termina com uma sequência específica (segunda sequência de argumento), sem levar em conta maiúsculas e minúsculas.
 
 ## Categoria
 
@@ -37,10 +37,10 @@ String
 
 `endWithIgnoreCase(<string>,<string>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplo
 
 `endWithIgnoreCase("rowing is great", "AT")`
 
-Retorna true.
+Retorna verdadeiro.

@@ -1,6 +1,6 @@
 ---
-title: ofertas de fallback de pesquisa
-description: Uma oferta de fallback é enviada para os clientes se eles não estiverem qualificados para outras ofertas
+title: pesquisar ofertas substitutas
+description: Uma oferta substituta é enviada aos clientes se eles não estiverem qualificados para outras ofertas
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,9 +13,9 @@ ht-degree: 4%
 
 ---
 
-# Pesquisar ofertas de fallback {#look-up-fallback-offers}
+# Pesquisar ofertas substitutas {#look-up-fallback-offers}
 
-Você pode pesquisar ofertas de fallback específicas fazendo uma solicitação do GET para a variável [!DNL Offer Library] API que inclui a oferta de fallback `@id` ou o nome da oferta de fallback no caminho da solicitação.
+Você pode pesquisar ofertas substitutas específicas fazendo uma solicitação GET para o [!DNL Offer Library] API que inclui a oferta substituta `@id` ou o nome da oferta substituta no caminho da solicitação.
 
 **Formato da API**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde as ofertas de fallback estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FALLBACK_OFFER}` | Define o schema associado às ofertas de fallback. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `id` | Uma string usada para corresponder a `@id` propriedade das entidades. A sequência de caracteres corresponde exatamente. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | Uma string usada para corresponder à propriedade xdm:name das entidades. A string é correspondida exatamente com maiúsculas, mas caracteres curingas podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `F1: Web fallback` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O container onde as ofertas substitutas estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FALLBACK_OFFER}` | Define o esquema associado às ofertas substitutas. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
+| `id` | Uma string usada para corresponder ao `@id` propriedade das entidades. A string é exatamente igual. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:fallback-offer:122206064e0d98df` |
+| `name` | Uma sequência de caracteres usada para corresponder à propriedade xdm:name das entidades. A string é exatamente igual, com maiúsculas e minúsculas, mas caracteres curinga podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `F1: Web fallback` |
 
 **Solicitação**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes da disposição, incluindo informações sobre a ID do contêiner, a ID da instância e a oferta de fallback exclusiva `@id`.
+Uma resposta bem-sucedida retorna os detalhes do posicionamento, incluindo informações sobre ID do contêiner, ID da instância e, oferta substituta exclusiva `@id`.
 
 ```json
 {

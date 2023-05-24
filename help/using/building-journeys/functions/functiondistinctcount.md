@@ -16,7 +16,7 @@ ht-degree: 30%
 
 # distinctCount{#distinctCount}
 
-Conta o número de valores diferentes que ignoram os valores nulos.
+Conta o número de valores diferentes ignorando os valores nulos.
 
 ## Categoria
 
@@ -43,7 +43,7 @@ Agregação
 
 `distinctCount(<listAny>)`
 
-Retorna um número inteiro.
+Retorna um inteiro.
 
 ## Exemplo
 

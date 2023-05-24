@@ -16,13 +16,13 @@ ht-degree: 15%
 
 # Criar um conjunto de dados para coletar eventos {#create-dataset}
 
-Para coletar eventos de experiência, primeiro é necessário criar um conjunto de dados para enviar esses eventos.
+Para coletar eventos de experiência, primeiro é necessário criar um conjunto de dados para onde esses eventos serão enviados.
 
-Comece criando o schema que será usado em seu conjunto de dados:
+Comece criando o esquema que será usado no seu conjunto de dados:
 
-1. No **[!UICONTROL Gerenciamento de dados]** selecione **[!UICONTROL Esquema]** e vá para o **[!UICONTROL Procurar]** guia .
+1. No **[!UICONTROL Gerenciamento de dados]** selecione **[!UICONTROL Esquema]** e vá para a página **[!UICONTROL Procurar]** guia.
 
-1. Clique em **[!UICONTROL Criar esquema]** e escolha **[!UICONTROL ExperiênciaEvento XDM]**.
+1. Clique em **[!UICONTROL Criar esquema]** e escolha **[!UICONTROL XDM ExperienceEvent]**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
@@ -34,31 +34,31 @@ Comece criando o schema que será usado em seu conjunto de dados:
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. No **[!UICONTROL Pesquisar]** , digite &quot;interação de proposta&quot;.
+1. No **[!UICONTROL Pesquisar]** digite &quot;interação de proposta&quot;.
 
-1. Selecione o **[!UICONTROL Evento de experiência - Interações de proposta]** grupo de campos e clique em **[!UICONTROL Adicionar grupos de campos]**.
+1. Selecione o **[!UICONTROL Evento de experiência - Interações de apresentação]** grupo de campos e clique **[!UICONTROL Adicionar grupos de campos]**.
 
    ![](../assets/ai-ranking-add-field-group.png)
 
    >[!CAUTION]
    >
-   >O esquema que será usado em seu conjunto de dados deve ter a variável **[!UICONTROL Evento de experiência - Interações de proposta]** grupo de campos associado a ele. Caso contrário, você não poderá usá-lo em sua estratégia de classificação.
+   >O esquema que será usado no conjunto de dados deve ter a **[!UICONTROL Evento de experiência - Interações de apresentação]** grupo de campos associado a ele. Caso contrário, você não poderá usá-lo na estratégia de classificação.
 
 1. Digite um nome e salve o esquema.
 
 >[!NOTE]
 >
->Saiba mais sobre como criar schemas no [Noções básicas da composição do schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target="_blank"}.
+>Saiba mais sobre a criação de esquemas em [Noções básicas da composição do esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target="_blank"}.
 
-Agora você está pronto para criar um conjunto de dados usando esse esquema. Para fazer isso, siga as etapas abaixo:
+Agora você está pronto para criar um conjunto de dados usando este esquema. Para fazer isso, siga as etapas abaixo:
 
-1. No **[!UICONTROL Gerenciamento de dados]** selecione **[!UICONTROL Conjuntos de dados]** e vá para o **[!UICONTROL Procurar]** guia .
+1. No **[!UICONTROL Gerenciamento de dados]** selecione **[!UICONTROL Conjuntos de dados]** e vá para a página **[!UICONTROL Procurar]** guia.
 
 1. Clique em **[!UICONTROL Criar conjunto de dados]** e selecione **[!UICONTROL Criar conjunto de dados a partir do esquema]**.
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. Selecione o schema que você acabou de criar na lista e clique em **[!UICONTROL Próximo]**.
+1. Selecione o schema que acabou de criar na lista e clique em **[!UICONTROL Próxima]**.
 
 1. Forneça um nome exclusivo para o conjunto de dados na **[!UICONTROL Nome]** e clique em **[!UICONTROL Concluir]**.
 
@@ -66,4 +66,4 @@ Agora você está pronto para criar um conjunto de dados usando esse esquema. Pa
 
 >[!NOTE]
 >
->Esse conjunto de dados agora pode ser selecionado para coletar dados de evento quando [criar uma estratégia de classificação](#create-ranking-strategy).
+>Esse conjunto de dados agora pode ser selecionado para coletar dados do evento quando [criação de uma estratégia de classificação](#create-ranking-strategy).

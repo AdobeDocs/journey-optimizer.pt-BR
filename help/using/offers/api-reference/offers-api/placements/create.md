@@ -1,6 +1,6 @@
 ---
 title: Criar uma inserção
-description: As disposições são contêineres usados para mostrar suas ofertas.
+description: Posicionamentos são contêineres usados para exibir suas ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,9 +15,9 @@ ht-degree: 12%
 
 # Criar uma inserção {#create-placement}
 
-Você pode criar uma disposição fazendo uma solicitação de POST para o [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
+Você pode criar uma inserção fazendo uma solicitação POST para o [!DNL Offer Library] ao fornecer a ID do contêiner.
 
-## Aceitar e digitar cabeçalhos de tipo de conteúdo {#accept-and-content-type-headers}
+## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
 A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
@@ -34,8 +34,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde as disposições estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O container onde os posicionamentos estão localizados. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Solicitação**
 
@@ -58,7 +58,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes da disposição recém-criada, incluindo a ID da instância e a disposição exclusivas `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua disposição. Você pode usar sua disposição exclusiva `@id` em tutoriais posteriores para criar decisões, regras de decisão e ofertas de fallback.
+Uma resposta bem-sucedida retorna os detalhes do posicionamento recém-criado, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID de instância em etapas posteriores para atualizar ou excluir seu posicionamento. Você pode usar sua disposição exclusiva `@id` em tutoriais posteriores, para criar decisões, regras de decisão e ofertas substitutas.
 
 ```json
 {

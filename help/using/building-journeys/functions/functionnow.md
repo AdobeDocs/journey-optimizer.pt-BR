@@ -5,7 +5,7 @@ description: Saiba mais sobre a função agora
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: now, function, expression, jornada
+keywords: agora, função, expressão, jornada
 exl-id: 16dcc772-e48d-4f10-be75-62dd39473556
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 16%
 
 # now {#now}
 
-Retorna a data atual no formato de data/hora. Para obter mais informações sobre tipos de dados, consulte [esta página](../expression/data-types.md).
+Retorna a data atual no formato de data e hora. Para obter mais informações sobre tipos de dados, consulte [esta página](../expression/data-types.md).
 
 ## Categoria
 

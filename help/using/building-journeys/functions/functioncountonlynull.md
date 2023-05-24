@@ -5,7 +5,7 @@ description: Saiba mais sobre a função countOnlyNull
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: countOnlyNull, function, expression, jornada
+keywords: countOnlyNull, função, expressão, jornada
 exl-id: d06fc594-33dd-48ce-8c62-2f2892a867da
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -43,7 +43,7 @@ Agregação
 
 `countOnlyNull(<listAny>)`
 
-Retorna um número inteiro.
+Retorna um inteiro.
 
 ## Exemplo
 

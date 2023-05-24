@@ -1,6 +1,6 @@
 ---
 title: Pesquisar uma regra de decisão
-description: As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a qualificação.
+description: As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a elegibilidade.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Pesquisar uma regra de decisão {#lookup-decision-rule}
 
-Você pode procurar uma regra de decisão específica fazendo uma solicitação GET para a variável [!DNL Offer Library] API que inclui a regra de decisão `@id` ou o nome da regra de decisão no caminho da solicitação.
+Você pode pesquisar uma regra de decisão específica fazendo uma solicitação GET para a [!DNL Offer Library] API que inclui a regra de decisão `@id` ou o nome da regra de decisão no caminho da solicitação.
 
 **Formato da API**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | O contêiner onde as regras de decisão estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ELIGIBILITY_RULE}` | Define o schema associado às regras de decisão. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | Uma string usada para corresponder a `@id` propriedade das entidades. A sequência de caracteres corresponde exatamente. O parâmetro s `id` e `name` não podem ser usados juntos. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | Uma string usada para corresponder à propriedade xdm:name das entidades. A string é correspondida exatamente com maiúsculas, mas caracteres curingas podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Sales rule` |
+| `{SCHEMA_ELIGIBILITY_RULE}` | Define o esquema associado às regras de decisão. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
+| `id` | Uma string usada para corresponder ao `@id` propriedade das entidades. A string é exatamente igual. O parâmetro s `id` e `name` não podem ser usados juntos. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `name` | Uma sequência de caracteres usada para corresponder à propriedade xdm:name das entidades. A string é exatamente igual, com maiúsculas e minúsculas, mas caracteres curinga podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Sales rule` |
 
 **Solicitação**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes da regra de decisão específica que você pesquisou, incluindo informações sobre sua ID de contêiner, ID de instância e regra de decisão exclusiva `@id`.
+Uma resposta bem-sucedida retorna os detalhes da regra de decisão específica pesquisada, incluindo informações sobre ID de contêiner, ID de instância e regra de decisão exclusiva `@id`.
 
 ```json
 {

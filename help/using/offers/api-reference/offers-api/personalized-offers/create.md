@@ -1,6 +1,6 @@
 ---
 title: Criar uma oferta personalizada
-description: Uma oferta personalizada é uma mensagem de marketing personalizável com base em regras e restrições de elegibilidade.
+description: Uma oferta personalizada é uma mensagem de marketing personalizável baseada em regras de elegibilidade e restrições.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 10%
 
 # Criar uma oferta personalizada {#create-personalized-offer}
 
-Uma oferta personalizada é uma mensagem de marketing personalizável com base em regras e restrições de elegibilidade.
+Uma oferta personalizada é uma mensagem de marketing personalizável baseada em regras de elegibilidade e restrições.
 
-Você pode criar uma oferta personalizada fazendo uma solicitação de POST para a [!DNL Offer Library] API, enquanto fornece a ID do contêiner.
+Você pode criar uma oferta personalizada fazendo uma solicitação POST para o [!DNL Offer Library] ao fornecer a ID do contêiner.
 
-## Aceitar e digitar cabeçalhos de tipo de conteúdo {#accept-and-content-type-headers}
+## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
 A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
@@ -36,7 +36,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | O container onde as ofertas personalizadas estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Solicitação**
@@ -86,7 +86,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a oferta personalizada recém-criada, incluindo sua ID de instância exclusiva e seu posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua oferta personalizada.
+Uma resposta bem-sucedida retorna informações sobre a oferta personalizada recém-criada, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID de instância em etapas posteriores para atualizar ou excluir sua oferta personalizada.
 
 ```json
 {
@@ -104,4 +104,4 @@ Uma resposta bem-sucedida retorna informações sobre a oferta personalizada rec
 
 ## Limitações {#limitations}
 
-Atualmente, as representações de oferta e algumas restrições de oferta não são compatíveis com o dispositivo móvel [!DNL Experience Edge] fluxos de trabalho, por exemplo `Capping`. O `Capping` O valor do campo especifica o número de vezes que uma oferta pode ser apresentada em todos os usuários. Para obter mais detalhes, consulte [Documentação de regras e restrições de qualificação de oferta](../../../offer-library/creating-personalized-offers.md).
+Representações de oferta e algumas restrições de oferta não são compatíveis com o dispositivo móvel no momento [!DNL Experience Edge] workflows, por exemplo `Capping`. A variável `Capping` field value especifica o número de vezes que uma oferta pode ser apresentada a todos os usuários. Para obter mais detalhes, consulte [Documentação de regras de elegibilidade e restrições da oferta](../../../offer-library/creating-personalized-offers.md).

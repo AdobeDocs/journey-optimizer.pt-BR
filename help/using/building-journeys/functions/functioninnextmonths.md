@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: inNextMonths
-description: Saiba mais sobre a função em NextMonths
+description: Saiba mais sobre a função inNextMonths
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # inNextMonths {#inNextMonths}
 
-Retorna true se uma determinada data ou dateTime estiver entre agora e agora + meses delta.
+Retorna verdadeiro se uma determinada data ou dateTime estiver entre agora e agora + meses delta.
 
 ## Categoria
 
@@ -37,10 +37,10 @@ Data
 
 `inNextMonths(<dateTime>,<integer>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplos
 
 `inNextMonths(toDateTime('2020-01-12T01:11:00Z'), 4)`
 
-Retorna true.
+Retorna verdadeiro.

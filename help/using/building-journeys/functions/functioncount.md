@@ -5,7 +5,7 @@ description: Saiba mais sobre a contagem de funções
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: contagem, função, expressão, jornada
+keywords: count, function, expression, jornada
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
 source-git-commit: ad113c0414b20ac2f758ad06a44315b24a3d3d0c
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 28%
 
 # count {#count}
 
-Conta os elementos da lista que não consideram os valores nulos.
+Conta os elementos da lista sem levar em conta os valores nulos.
 
 ## Categoria
 
@@ -43,7 +43,7 @@ Agregação
 
 `count(<listAny>)`
 
-Retorna um número inteiro.
+Retorna um inteiro.
 
 ## Exemplo
 

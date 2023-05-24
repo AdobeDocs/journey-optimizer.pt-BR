@@ -7,7 +7,7 @@ feature: Actions
 topic: Content Management
 role: User, Developer
 level: Intermediate
-keywords: ação, personalizado, API, jornada, configuração, serviço
+keywords: action, custom, API, jornada, configuration, service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -27,20 +27,20 @@ As ações personalizadas permitem configurar a conexão de um sistema de tercei
 
 ## Consentimento e governança de dados {#privacy}
 
-No Journey Optimizer, você pode aplicar políticas de controle e consentimento de dados às ações personalizadas para impedir que campos específicos sejam exportados para sistemas de terceiros ou excluir clientes que não consentiram em receber email, mensagens de push ou comunicações por SMS. Para obter mais informações, consulte as seguintes páginas:
+No Journey Optimizer, você pode aplicar políticas de consentimento e governança de dados às ações personalizadas para impedir que campos específicos sejam exportados para sistemas de terceiros ou excluir clientes que não consentiram em receber comunicações por email, push ou SMS. Para obter mais informações, consulte as seguintes páginas:
 
 * [Governança de dados](../action/action-privacy.md).
 * [Consentimento](../action/consent.md).
 
 ## Configurar o URL
 
-O painel de configuração do **Ação personalizada** mostra os parâmetros de configuração do URL e os parâmetros de autenticação configurados para a ação personalizada. Não é possível configurar a parte estática do URL na jornada, mas na configuração global da ação personalizada. [Saiba mais](../action/about-custom-action-configuration.md).
+O painel de configuração do **Ação personalizada** Atividade mostra os parâmetros de configuração de URL e os parâmetros de autenticação configurados para a ação personalizada. Não é possível definir a parte estática do URL na jornada, mas na configuração global da ação personalizada. [Saiba mais](../action/about-custom-action-configuration.md).
 
 ### Caminho dinâmico
 
 Se o URL incluir um caminho dinâmico, especifique o caminho na variável **[!UICONTROL Caminho]** campo.
 
-Para concatenar campos e strings de texto sem formatação, use as funções String ou o sinal de Mais (+) no editor de expressão avançado. Insira sequências de texto sem formatação em aspas simples (&#39;) ou aspas duplas (&quot;). [Saiba mais](expression/expressionadvanced.md).
+Para concatenar campos e cadeias de caracteres de texto sem formatação, use as funções String ou o sinal de adição (+) no editor de expressão avançado. Coloque cadeias de texto sem formatação entre aspas simples (&#39;) ou entre aspas duplas (&quot;). [Saiba mais](expression/expressionadvanced.md).
 
 Esta tabela mostra um exemplo de configuração:
 
@@ -49,7 +49,7 @@ Esta tabela mostra um exemplo de configuração:
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
 | Caminho | `The id of marketingCampaign + '/messages'` |
 
-O URL concatenado tem este formulário:
+O URL concatenado tem este formato:
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
@@ -57,15 +57,15 @@ O URL concatenado tem este formulário:
 
 ### Cabeçalhos e parâmetros de consulta {#headers}
 
-O **[!UICONTROL Configuração de URL]** mostra o cabeçalho dinâmico e os campos de parâmetro de consulta, mas não os campos constantes. Os campos de cabeçalho dinâmico e parâmetro de consulta são definidos como variáveis na tela de configuração de ação. [Saiba mais](../action/about-custom-action-configuration.md#url-configuration)
+A variável **[!UICONTROL Configuração de URL]** mostra os campos de cabeçalho dinâmico e parâmetro de consulta, mas não os campos constantes. Os campos de parâmetro de cabeçalho e consulta dinâmicos são definidos como variáveis na tela de configuração de ação. [Saiba mais](../action/about-custom-action-configuration.md#url-configuration)
 
-Para especificar o valor dos campos dynamic header e query parameter , clique dentro do campo ou no ícone de lápis e selecione o campo desejado.
+Para especificar o valor dos campos de cabeçalho dinâmico e parâmetro de consulta, clique dentro do campo ou no ícone de lápis e selecione o campo desejado.
 
 ![](assets/journey-dynamicheaderfield.png)
 
 ## Parâmetros de ação
 
-No **[!UICONTROL Parâmetros de ação]** , você verá os parâmetros da mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (exemplo: eventos, fontes de dados), passe os valores manualmente ou use o editor de expressão avançado para casos de uso avançado. Casos de uso avançados podem ser manipulação de dados e outro uso da função. Consulte esta [página](expression/expressionadvanced.md).
+No **[!UICONTROL Parâmetros de ação]** você verá os parâmetros de mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (por exemplo: eventos, fontes de dados), transmitir valores manualmente ou usar o editor de expressão avançado para casos de uso avançados. Casos de uso avançados podem ser manipulação de dados e outro uso de função. Consulte esta [página](expression/expressionadvanced.md).
 
 **Tópicos relacionados**
 

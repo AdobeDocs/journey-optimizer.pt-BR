@@ -7,7 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: primário, execução, email, target, perfil, otimizador
+keywords: principal, execução, e-mail, destino, perfil, otimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -30,13 +30,13 @@ ht-degree: 23%
 
 Ao direcionar um perfil, vários endereços de email ou números de telefone podem estar disponíveis no banco de dados (endereço de email profissional, número de telefone pessoal etc.).
 
-Nesse caso, [!DNL Journey Optimizer] uses **[!UICONTROL Campos de execução]** para determinar qual endereço de email ou número de telefone usar do serviço de perfil em prioridade.
+Nesse caso, [!DNL Journey Optimizer] usos **[!UICONTROL Campos de execução]** para determinar qual endereço de email ou número de telefone usar no serviço de perfil em prioridade.
 
-Para verificar os campos que são usados atualmente por padrão, acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Geral]** > **[!UICONTROL Campos de execuções]** menu.
+Para verificar os campos que são usados por padrão, acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Geral]** > **[!UICONTROL Campos de execuções]** menu.
 
 ![](assets/primary-address-execution-fields.png)
 
-Os valores atuais são usados para todas as entregas no nível da sandbox. Você pode atualizar esses campos, se necessário.
+Os valores atuais são usados para todos os deliveries no nível da sandbox. Você pode atualizar esses campos, se necessário.
 
 Na maioria dos casos, você alterará um campo de execução globalmente e definirá um valor que deve ser usado para todas as mensagens de email ou SMS. <!--[Learn how](#admin-settings)-->
 
@@ -56,7 +56,7 @@ Para alterar os campos de execução globalmente no nível da sandbox, siga as e
 
    ![](assets/primary-address-edit.png)
 
-1. A lista de campos XDM do tipo de email disponíveis é exibida. Selecione o campo a ser usado.
+1. A lista de campos XDM do tipo email disponíveis é exibida. Selecione o campo a ser usado.
 
    ![](assets/primary-address-select-field.png)
 
@@ -70,9 +70,9 @@ O campo de execução é atualizado e agora será usado como o endereço princip
 
 Somente para casos de uso específicos, é possível substituir o conjunto de campos de execução globalmente e definir um valor diferente no nível da jornada, especialmente para o canal de email.
 
-Ao adicionar uma **[!UICONTROL Email]** a uma [jornada](../email/create-email.md#create-email-journey-campaign), o endereço de email principal é exibido nos parâmetros avançados do jornada.
+Ao adicionar uma **[!UICONTROL E-mail]** ação para um [jornada](../email/create-email.md#create-email-journey-campaign), o endereço de email principal é exibido nos parâmetros avançados do jornada.
 
-Em alguns contextos específicos, você pode substituir esse valor usando a variável **[!UICONTROL Habilitar substituição de parâmetro]** à direita do **[!UICONTROL endereço]** campo.
+Em alguns contextos específicos, é possível substituir esse valor usando o **[!UICONTROL Habilitar substituição de parâmetro]** ícone à direita do **[!UICONTROL endereço]** campo.
 
 ![](assets/journey-enable-parameter-override.png)
 
@@ -80,7 +80,7 @@ Em alguns contextos específicos, você pode substituir esse valor usando a vari
 >
 >A substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, não é necessário alterar o endereço de email, pois o valor definido como o endereço principal nos **[!UICONTROL Campos de execução]** é o que deve ser usado.
 
-A substituição desse valor pode ser útil, por exemplo, para:
+Substituir esse valor pode ser útil, por exemplo, para:
 
-* Teste um email. Você pode adicionar seu próprio endereço de email: depois de publicar a jornada, o email será enviado para você.
-* Envie um email para os assinantes de uma lista. Saiba mais [neste caso de uso](../building-journeys/message-to-subscribers-uc.md).
+* Teste um email. É possível adicionar seu próprio endereço de email: depois de publicar a jornada, o email será enviado para você.
+* Enviar um email aos assinantes de uma lista. Saiba mais [neste caso de uso](../building-journeys/message-to-subscribers-uc.md).

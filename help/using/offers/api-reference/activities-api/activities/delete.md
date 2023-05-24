@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Excluir uma decisão {#delete-decision}
 
-Por vezes, pode ser necessário retirar (DELETE) uma decisão. Somente as decisões que você criar no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando o $id da oferta de fallback que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma decisão. Somente decisões criadas no contêiner de locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para o [!DNL Offer Library] API usando a $id da oferta substituta que você deseja excluir.
 
 **Formato da API**
 
@@ -25,9 +25,9 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | O contêiner onde as decisões estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | O ID da instância da decisão. | `f88c9be0-1245-11eb-8622-b77b60702882` |
+| `{INSTANCE_ID}` | A ID da instância da decisão. | `f88c9be0-1245-11eb-8622-b77b60702882` |
 
 **Solicitação**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Uma resposta bem-sucedida retorna o status HTTP 202 (Sem conteúdo) e um corpo em branco.
 
-Você pode confirmar a exclusão tentando uma solicitação de pesquisa (GET) para a decisão. Você precisará incluir um cabeçalho Accept na solicitação, mas deve receber um status HTTP 404 (Not Found) porque a decisão foi removida do contêiner.
+Você pode confirmar a exclusão tentando uma solicitação de pesquisa (GET) para a decisão. Você precisará incluir um cabeçalho Aceitar na solicitação, mas deverá receber um status HTTP 404 (Não encontrado) porque a decisão foi removida do container.

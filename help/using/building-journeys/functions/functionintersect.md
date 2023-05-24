@@ -16,7 +16,7 @@ ht-degree: 12%
 
 # interseção{#intersect}
 
-Retorna os valores comuns nas duas listas de entrada. Se uma das duas listas for nula, retornará uma lista vazia.
+Retorna os valores comuns nas duas listas de entrada. Se uma das duas listas for nula, retorna uma lista vazia.
 
 ## Categoria
 
@@ -64,7 +64,7 @@ intersect(
 )
 ```
 
-Retorna itens comuns entre atributos de perfil e uma determinada lista de categorias.
+Retorna itens comuns entre atributos de perfil e determinada lista de categorias.
 
 ```json
 intersect(
@@ -73,4 +73,4 @@ intersect(
 )
 ```
 
-Retorna itens comuns entre atributos de perfil e determinado campo de evento.
+Retorna itens comuns entre os atributos de perfil e o campo de evento especificado.

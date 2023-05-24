@@ -20,7 +20,7 @@ Conta o número de valores diferentes, incluindo os valores nulos.
 
 >[!NOTE]
 >
->Se a lista de destino for um listObject, essa função só poderá ser usada em expressões de ação personalizada.
+>Se a lista de destino for um listObject, essa função só poderá ser usada em expressões de ação personalizadas.
 
 ## Categoria
 
@@ -47,7 +47,7 @@ Agregação
 
 `distinctCountWithNull(<listAny>)`
 
-Retorna um número inteiro.
+Retorna um inteiro.
 
 ## Exemplo
 

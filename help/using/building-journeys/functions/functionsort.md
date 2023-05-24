@@ -5,7 +5,7 @@ description: Saiba mais sobre a classificação de função
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: classificar, função, expressão, jornada
+keywords: sort, function, expression, jornada
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -20,7 +20,7 @@ Classifica uma lista de valores ou objetos na ordem natural.
 
 >[!NOTE]
 >
->Se a lista de destino for um listObject, essa função só poderá ser usada em expressões de ação personalizada.
+>Se a lista de destino for um listObject, essa função só poderá ser usada em expressões de ação personalizadas.
 
 ## Categoria
 
@@ -34,15 +34,15 @@ Lista
 
 | Parâmetro | Tipo | Descrição |
 |-----------|------------------|------------------|
-| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista para classificar. Para listObject, deve ser uma referência de campo. |
-| keyAttributeName | string | Esse parâmetro é somente para listObject. O nome do atributo nos objetos da lista fornecida é usado como chave para classificação. |
-| sortingOrder | booleano | Crescente (true) ou decrescente (false) |
+| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista para classificar. Para listObject, ele deve ser uma referência de campo. |
+| keyAttributeName | string | Este parâmetro é somente para listObject. O nome do atributo nos objetos da lista fornecida é usado como chave para classificação. |
+| sortingOrder | booleano | Crescente (verdadeiro) ou decrescente (falso) |
 
 ## Assinatura e tipo retornado
 
 `sort(<listInteger>,<boolean>)`
 
-Retorna uma lista de números inteiros.
+Retorna uma lista de inteiros.
 
 `sort(<listDecimal>,<boolean>)`
 
@@ -50,7 +50,7 @@ Retorna uma lista de decimais.
 
 `sort(<listString>,<boolean>)`
 
-Retorna uma lista de cadeias de caracteres.
+Retorna uma lista de strings.
 
 `sort(<listDateTimeOnly>,<boolean>)`
 

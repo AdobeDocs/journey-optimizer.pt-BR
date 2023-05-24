@@ -5,12 +5,12 @@ title: API de limitação
 description: Saiba como trabalhar com a API de limitação
 role: User
 level: Beginner
-keywords: externo, API, otimizador, limitação
+keywords: external, API, otimizer, capping
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: b95d3a709075c388b1784bd18407258acd786851
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '825'
+ht-degree: 91%
 
 ---
 

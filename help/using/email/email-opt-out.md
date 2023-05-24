@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Gerenciamento de opção de não participação de email
-description: Saiba como gerenciar a recusa com emails
+description: Saiba como gerenciar a opção de não participação com emails
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: opt-out, email, link, cancelar inscrição
+keywords: recusar, email, link, cancelar inscrição
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -18,15 +18,15 @@ ht-degree: 83%
 
 # Gerenciamento de opção de não participação de email {#email-opt-out}
 
-Para fornecer a capacidade de cancelar a assinatura dos recipients do recebimento de comunicações por email, você deve sempre incluir um **link de cancelamento de inscrição** em cada email enviado aos recipients. [Saiba mais sobre privacidade e gerenciamento de recusa](../privacy/opt-out.md)
+Para fornecer aos recipients a capacidade de cancelar a inscrição para receber comunicações por email, você deve sempre incluir um **link para cancelar inscrição** em cada email enviado aos recipients. [Saiba mais sobre privacidade e gerenciamento de recusa](../privacy/opt-out.md)
 
 Para fazer isso, é possível:
 
-* Insira um **link para uma página de aterrissagem externa** em um email para permitir que os usuários cancelem a assinatura do recebimento de comunicações de sua marca. [Saiba como adicionar um link de recusa externo](#opt-out-external-lp)
+* Inserir um **link para uma landing page externa** em um email para permitir que os usuários cancelem a inscrição do recebimento de comunicações da sua marca. [Saiba como adicionar um link externo para opção de não participação](#opt-out-external-lp)
 
-* Adicione um **link para opção de não participação com um clique** no seu conteúdo de email. Esse link permitirá que seus recipients cancelem rapidamente a inscrição de suas comunicações, sem ser redirecionados para uma página de destino em que precisam confirmar o cancelamento, agilizando o processo de cancelamento de inscrição. [Saiba como adicionar um link para opção de não participação com um clique](#one-click-opt-out)
+* Adicionar um **link para opção de não participação com um clique** no seu conteúdo de email. Esse link permitirá que seus recipients cancelem rapidamente a inscrição de suas comunicações, sem ser redirecionados para uma página de destino em que precisam confirmar o cancelamento, agilizando o processo de cancelamento de inscrição. [Saiba como adicionar um link para opção de não participação com um clique](#one-click-opt-out)
 
-Além disso, se a variável **[!UICONTROL List-Unsubscribe]** estiver ativada no nível da superfície do canal, os emails correspondentes enviados com o Journey Optimizer incluirão um link de cancelamento de inscrição no cabeçalho do email. [Saiba mais sobre a opção de não participação no cabeçalho do email](#unsubscribe-header)
+Além disso, se a variável **[!UICONTROL List-Unsubscribe]** estiver ativada no nível da superfície de canal, os emails correspondentes enviados com o Journey Optimizer incluirão um link de cancelamento de inscrição no cabeçalho do email. [Saiba mais sobre a opção de não participação no cabeçalho do email](#unsubscribe-header)
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Primeiro, é necessário adicionar um link para cancelar inscrição em uma mens
 
 ### Implementar uma chamada de API para opção de não participação {#opt-out-api}
 
-Para que seus recipients optem ao enviar sua escolha a partir da landing page, você deve implementar uma **Chamada da API de assinatura** through [Adobe Developer](https://developer.adobe.com){target="_blank"} para atualizar as preferências dos perfis correspondentes.
+Para efetivar a opção de não participação dos seus recipients ao enviarem suas escolhas a partir da landing page, é necessário implementar uma **Chamada de API de assinatura** até [Adobe Developer](https://developer.adobe.com){target="_blank"} para atualizar as preferências dos perfis correspondentes.
 
 Essa chamada POST é a seguinte:
 
@@ -98,7 +98,7 @@ Corpo da solicitação:
 }
 ```
 
-[!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio do [Adobe Developer](https://developer.adobe.com){target="_blank"} Chamada de API.
+[!DNL Journey Optimizer] usará esses parâmetros para atualizar a escolha do perfil correspondente por meio da [Adobe Developer](https://developer.adobe.com){target="_blank"} chamada à API.
 
 ### Enviar a mensagem com link para cancelar inscrição {#send-message-unsubscribe-link}
 

@@ -5,7 +5,7 @@ description: Saiba mais sobre a função isNotEmpty
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: isNotEmpty, function, expression, jornada
+keywords: isNotEmpty, função, expressão, jornada
 exl-id: 654d0e3d-10d9-4a40-b9be-7979c08e0e97
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 # isNotEmpty {#isNotEmpty}
 
-Retorna true se a string no parâmetro não estiver vazia.
+Retorna verdadeiro se a string no parâmetro não estiver vazia.
 
 ## Categoria
 
@@ -34,14 +34,14 @@ String
 
 `isNotEmpty(<string>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplo
 
 `isNotEmpty("")`
 
-Retorna false.
+Retorna falso.
 
 `isNotEmpty("hello")`
 
-Retorna true.
+Retorna verdadeiro.

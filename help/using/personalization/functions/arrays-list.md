@@ -1,6 +1,6 @@
 ---
-title: Biblioteca de funções de arrays
-description: Biblioteca de funções de arrays
+title: Biblioteca de funções de matrizes
+description: Biblioteca de funções de matrizes
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 6%
 
 # Matrizes e funções de lista {#arrays}
 
-Use essas funções para facilitar a interação com arrays, listas e strings.
+Use essas funções para facilitar a interação com matrizes, listas e sequências de caracteres.
 
-## Contar somente como nulo {#count-only-null}
+## Somente contagem nula {#count-only-null}
 
-O `countOnlyNull` é usada para contar o número de valores nulos em uma lista.
+A variável `countOnlyNull` é usada para contar o número de valores nulos em uma lista.
 
 **Sintaxe**
 
@@ -35,9 +35,9 @@ O `countOnlyNull` é usada para contar o número de valores nulos em uma lista.
 
 Retorna 3.
 
-## Contar com Null {#count-with-null}
+## Contagem com nulo {#count-with-null}
 
-O `countWithNull` é usada para contar todos os elementos de uma lista, incluindo valores nulos.
+A variável `countWithNull` é usada para contar todos os elementos de uma lista, incluindo valores nulos.
 
 **Sintaxe**
 
@@ -53,9 +53,9 @@ O `countWithNull` é usada para contar todos os elementos de uma lista, incluind
 
 Retorna 6.
 
-## Distinct{#distinct}
+## Distinto{#distinct}
 
-O `distinct` é usada para obter valores de uma matriz ou lista com valores duplicados removidos.
+A variável `distinct` é usada para obter valores de uma matriz ou lista com valores duplicados removidos.
 
 **Sintaxe**
 
@@ -65,7 +65,7 @@ O `distinct` é usada para obter valores de uma matriz ou lista com valores dupl
 
 **Exemplo**
 
-A operação a seguir especifica pessoas que fizeram pedidos em mais de um armazenamento.
+A operação a seguir especifica as pessoas que fizeram pedidos em mais de um armazenamento.
 
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
@@ -73,7 +73,7 @@ A operação a seguir especifica pessoas que fizeram pedidos em mais de um armaz
 
 ## Contagem distinta com nulo {#distinct-count-with-null}
 
-O `distinctCountWithNull` é usada para contar o número de valores diferentes em uma lista, incluindo os valores nulos.
+A variável `distinctCountWithNull` é usada para contar o número de valores diferentes em uma lista, incluindo os valores nulos.
 
 **Sintaxe**
 
@@ -91,7 +91,7 @@ Retorna 3.
 
 ## Primeiro item{#head}
 
-O `head` é usada para retornar o primeiro item em uma matriz ou lista.
+A variável `head` é usada para retornar o primeiro item em uma matriz ou lista.
 
 **Sintaxe**
 
@@ -101,15 +101,15 @@ O `head` é usada para retornar o primeiro item em uma matriz ou lista.
 
 **Exemplo**
 
-A operação a seguir retorna o primeiro dos cinco principais pedidos com o preço mais alto. Mais informações sobre o `topN` pode ser encontrada no [first `n` em matriz](#first-n) seção.
+A operação a seguir retorna a primeira das cinco ordens principais com o preço mais alto. Mais informações sobre o `topN` pode ser encontrada na variável [primeiro `n` na matriz](#first-n) seção.
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## First `n` em matriz {#first-n}
+## Primeiro `n` na matriz {#first-n}
 
-O `topN` é usada para retornar a primeira `N` itens em uma matriz, quando classificados em ordem crescente com base na expressão numérica fornecida.
+A variável `topN` é usada para retornar a primeira `N` itens em uma matriz, quando classificados em ordem crescente com base na expressão numérica fornecida.
 
 **Sintaxe**
 
@@ -125,7 +125,7 @@ O `topN` é usada para retornar a primeira `N` itens em uma matriz, quando class
 
 **Exemplo**
 
-A operação a seguir retorna os cinco primeiros pedidos com o preço mais baixo.
+A operação a seguir retorna as cinco primeiras ordens com o preço mais baixo.
 
 ```sql
 {%= topN(orders,price, 5) %}
@@ -133,7 +133,7 @@ A operação a seguir retorna os cinco primeiros pedidos com o preço mais baixo
 
 ## Em{#in}
 
-O `in` é usada para determinar se um item é membro de uma matriz ou lista.
+A variável `in` é usada para determinar se um item é membro de uma matriz ou lista.
 
 **Sintaxe**
 
@@ -151,7 +151,7 @@ A operação a seguir define as pessoas com aniversários em março, junho ou se
 
 ## Inclui{#includes}
 
-O `includes` é usada para determinar se uma matriz ou lista contém um determinado item.
+A variável `includes` é usada para determinar se uma matriz ou lista contém um determinado item.
 
 **Sintaxe**
 
@@ -161,15 +161,15 @@ O `includes` é usada para determinar se uma matriz ou lista contém um determin
 
 **Exemplo**
 
-A operação a seguir define as pessoas cuja cor favorita inclui o vermelho.
+A operação a seguir define as pessoas cuja cor favorita inclui vermelho.
 
 ```sql
 {%= includes(person.favoriteColors,"red") %}
 ```
 
-## Intersetos{#intersects}
+## Interseta{#intersects}
 
-O `intersects` é usada para determinar se duas matrizes ou listas têm pelo menos um membro comum.
+A variável `intersects` é usada para determinar se duas matrizes ou listas têm pelo menos um membro comum.
 
 **Sintaxe**
 
@@ -179,7 +179,7 @@ O `intersects` é usada para determinar se duas matrizes ou listas têm pelo men
 
 **Exemplo**
 
-A operação a seguir define as pessoas cujas cores favoritas incluem pelo menos um vermelho, azul ou verde.
+A operação a seguir define as pessoas cujas cores favoritas incluem pelo menos uma das cores vermelha, azul ou verde.
 
 ```sql
 {%= intersects(person.favoriteColors,["red", "blue", "green"]) %}
@@ -205,9 +205,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## Último `n` em matriz{#last-n}
+## Último `n` na matriz{#last-n}
 
-O `bottomN` é usada para retornar a última `N` itens em uma matriz, quando classificados em ordem crescente com base na expressão numérica fornecida.
+A variável `bottomN` é usada para retornar a última `N` itens em uma matriz, quando classificados em ordem crescente com base na expressão numérica fornecida.
 
 **Sintaxe**
 
@@ -223,7 +223,7 @@ O `bottomN` é usada para retornar a última `N` itens em uma matriz, quando cla
 
 **Exemplo**
 
-A operação a seguir retorna os últimos cinco pedidos com o preço mais alto.
+A operação a seguir retorna as cinco últimas ordens com o preço mais alto.
 
 ```sql
 {%= bottomN(orders,price, 5) %}
@@ -231,11 +231,11 @@ A operação a seguir retorna os últimos cinco pedidos com o preço mais alto.
 
 ## Não está em{#notin}
 
-O `notIn` é usada para determinar se um item não é membro de uma matriz ou lista.
+A variável `notIn` é usada para determinar se um item não é membro de uma matriz ou lista.
 
 >[!NOTE]
 >
->O `notIn` função *also* garante que nenhum dos valores seja igual a nulo. Portanto, os resultados não são uma negação exata do `in` .
+>A variável `notIn` função *também* garante que nenhum dos valores seja igual a nulo. Portanto, os resultados não são uma negação exata do `in` função.
 
 **Sintaxe**
 
@@ -245,7 +245,7 @@ O `notIn` é usada para determinar se um item não é membro de uma matriz ou li
 
 **Exemplo**
 
-A operação a seguir define pessoas com aniversários que não estão em março, junho ou setembro.
+A operação a seguir define as pessoas com aniversários que não são em março, junho ou setembro.
 
 ```sql
 {%= notIn(person.birthMonth ,[3, 6, 9]) %}
@@ -254,7 +254,7 @@ A operação a seguir define pessoas com aniversários que não estão em março
 
 ## Subconjunto de{#subset}
 
-O `subsetOf` é usada para determinar se uma matriz específica (matriz A) é um subconjunto de outra matriz (matriz B). Em outras palavras, todos os elementos na matriz A são elementos da matriz B.
+A variável `subsetOf` é usada para determinar se uma matriz específica (matriz A) é um subconjunto de outra matriz (matriz B). Em outras palavras, que todos os elementos na matriz A são elementos da matriz B.
 
 **Sintaxe**
 
@@ -272,7 +272,7 @@ A operação a seguir define as pessoas que visitaram todas as cidades favoritas
 
 ## Superconjunto de{#superset}
 
-O `supersetOf` é usada para determinar se uma matriz específica (matriz A) é um superconjunto de outra matriz (matriz B). Em outras palavras, essa matriz A contém todos os elementos na matriz B.
+A variável `supersetOf` é usada para determinar se uma matriz específica (matriz A) é um superconjunto de outra matriz (matriz B). Em outras palavras, essa matriz A contém todos os elementos na matriz B.
 
 **Sintaxe**
 
@@ -282,7 +282,7 @@ O `supersetOf` é usada para determinar se uma matriz específica (matriz A) é 
 
 **Exemplo**
 
-A operação a seguir define pessoas que comeram sushi e pizza pelo menos uma vez.
+A operação seguinte define as pessoas que comeram sushi e pizza pelo menos uma vez.
 
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}

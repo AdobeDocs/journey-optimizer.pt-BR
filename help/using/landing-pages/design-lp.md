@@ -7,26 +7,26 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-keywords: aterrissagem, página de aterrissagem, design, HTML
+keywords: landing page, landing page, design, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 7%
+ht-degree: 17%
 
 ---
 
-# Criar o conteúdo da página de aterrissagem {#design-lp}
+# Criar o conteúdo da página de destino {#design-lp}
 
-Para começar a criar conteúdo para sua página inicial [página primária](create-lp.md#configure-primary-page) ou [subpágina](create-lp.md#configure-subpages), passe o mouse sobre o conteúdo da página e clique em **[!UICONTROL Abrir Designer]**. Você também pode clicar no botão correspondente da paleta direita.
+Para começar a criar conteúdo para sua landing page [página principal](create-lp.md#configure-primary-page) ou [subpágina](create-lp.md#configure-subpages), passe o mouse sobre o conteúdo da página e clique em **[!UICONTROL Abrir Designer]**. Você também pode clicar no botão correspondente na paleta direita.
 
 ![](assets/lp_open-designer.png)
 
-A partir daí, é possível:
+A partir daí, você pode:
 
-* **Projetar a landing page do zero** por meio da interface do designer de conteúdo e aproveite imagens de [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). Saiba como criar conteúdo de <!--or use built-in templates--> [nesta seção](../email/content-from-scratch.md).
+* **Projetar a página de aterrissagem do zero** por meio da interface do designer de conteúdo e aproveite imagens de [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). Saiba como criar conteúdo de <!--or use built-in templates--> [nesta seção](../email/content-from-scratch.md).
 
-* **Código ou cole HTML bruto** diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../email/code-content.md).
+* **Codificar ou colar HTML bruto** diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../email/code-content.md).
 
 * **Importar conteúdo HTML existente** de um arquivo ou uma pasta .zip. Saiba como importar conteúdo [nesta seção](../email/existing-content.md).
 
@@ -34,4 +34,4 @@ A partir daí, é possível:
 
 >[!NOTE]
 >
->O designer de conteúdo da página de aterrissagem é semelhante ao designer de email. Saiba mais sobre [criar conteúdo com [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>O designer de conteúdo da página de aterrissagem é semelhante ao designer de email. Saiba mais sobre [criação de conteúdo com [!DNL Journey Optimizer]](../email/get-started-email-design.md).

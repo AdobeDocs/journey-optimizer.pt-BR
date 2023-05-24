@@ -27,19 +27,19 @@ ht-degree: 14%
 
 ➡️ [Saiba como trabalhar com expressões salvas neste vídeo](#video-preview)
 
-Para acessar as expressões salvas, clique no botão **[!UICONTROL Biblioteca]** no painel esquerdo. A lista exibe todas as expressões que foram salvas por usuários administradores (consulte [Salvar expressões na biblioteca](#save-expressions)).
+Para acessar as expressões salvas, clique no link **[!UICONTROL Biblioteca]** no painel esquerdo. A lista exibe todas as expressões que foram salvas por usuários administradores (consulte [Salvar expressões na biblioteca](#save-expressions)).
 
 >[!NOTE]
 >
->Você pode obter mais informações sobre o conteúdo de uma expressão salva no botão de reticências. Observe que o botão de informações aparecerá nas reticências se você tiver as permissões apropriadas para gerenciar itens de biblioteca.
+>Você pode obter mais informações sobre o conteúdo de uma expressão salva por meio do botão de reticências. Observe que o botão de informações será exibido nas reticências se você tiver as permissões apropriadas para gerenciar itens de biblioteca.
 
-Clique em + para inserir a expressão no editor. Em seguida, você pode personalizar e validar seu conteúdo de personalização como de costume. [Saiba mais](../personalization/personalization-build-expressions.md)
+Clique em + para inserir a expressão no editor. Em seguida, você pode personalizar e validar o conteúdo de personalização como de costume. [Saiba mais](../personalization/personalization-build-expressions.md)
 
 ![](assets/library-add.png)
 
 ## Salvar uma expressão na biblioteca {#save-expressions}
 
-[!DNL Journey Optimizer] permite que usuários administradores salvem expressões de personalização na biblioteca. Essas expressões serão disponibilizadas para todos os usuários para criar conteúdo de personalização.
+[!DNL Journey Optimizer] O permite que usuários administradores salvem expressões de personalização na biblioteca. Essas expressões estarão disponíveis para todos os usuários criarem conteúdo de personalização.
 
 Para salvar uma expressão na biblioteca, siga estas etapas:
 
@@ -51,11 +51,11 @@ Para salvar uma expressão na biblioteca, siga estas etapas:
 
    ![](assets/library-save.png)
 
-1. No painel direito, insira um título e uma descrição para a expressão para ajudar os usuários a encontrá-la mais facilmente, em seguida, clique em **[!UICONTROL Adicionar]**.
+1. No painel direito, insira um título e uma descrição para a expressão para ajudar os usuários a encontrá-la mais facilmente e, em seguida, clique em **[!UICONTROL Adicionar]**.
 
    ![](assets/add-expression.png)
 
-1. A expressão é adicionada à biblioteca. Agora os usuários podem usá-lo para criar o conteúdo de personalização.
+1. A expressão é adicionada à biblioteca. Os usuários agora poderão usá-lo para criar seu conteúdo de personalização.
 
 
 >[!NOTE]
@@ -66,11 +66,11 @@ Para salvar uma expressão na biblioteca, siga estas etapas:
 
 
 
-Para editar uma expressão existente, adicione-a ao editor e, em seguida, modifique-a de acordo com suas necessidades. Clique em **[!UICONTROL Adicionar à biblioteca]** para validar a sintaxe e salvar a expressão.
+Para editar uma expressão existente, adicione-a ao editor e modifique-a de acordo com suas necessidades. Clique em **[!UICONTROL Adicionar à biblioteca]** para validar a sintaxe e salvar a expressão.
 
 Para excluir uma expressão, clique no botão de reticências e clique em **[!UICONTROL Excluir]**.
 
-## Vídeo tutorial{#video}
+## Vídeo explicativo{#video}
 
 Saiba como usar em uma mensagem os itens da biblioteca de personalização salvos e como criar e gerenciar itens da biblioteca de personalização.
 

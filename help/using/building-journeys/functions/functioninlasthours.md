@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: inLastHours
-description: Saiba mais sobre a função emLastHours
+description: Saiba mais sobre a função em Últimas horas
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # inLastHours {#inLastHours}
 
-Retorna verdadeiro se a hora da data especificada estiver entre agora e agora - horas delta.
+Retorna verdadeiro se a data e hora especificadas estiverem entre agora e agora - delta horas.
 
 ## Categoria
 
@@ -37,14 +37,14 @@ Data
 
 `inLastHours(<dateTime>,<integer>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplos
 
 `inLastHours(toDateTime('2019-12-12T01:11:00Z'), 4)`
 
-Retorna true.
+Retorna verdadeiro.
 
 `inLastHours(@{MyEvent.timestamp}, 4)`
 
-Retorna true.
+Retorna verdadeiro.

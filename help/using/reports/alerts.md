@@ -15,18 +15,18 @@ ht-degree: 6%
 
 ---
 
-# Introdução aos alertas {#alerts}
+# Introdução a alertas {#alerts}
 
-O Journey Optimizer aproveita os recursos de alerta do Adobe Experience Platform. Isso permite que você acesse alertas do sistema por meio da interface do usuário. Você pode visualizar os alertas disponíveis e assiná-los.
+O Journey Optimizer aproveita os recursos de alerta do Adobe Experience Platform. Isso permite que você acesse alertas do sistema por meio da interface. Você pode visualizar os alertas disponíveis e assiná-los.
 
-Quando um determinado conjunto de condições em suas operações é atingido (como um possível problema quando o sistema viola um limite), as mensagens de alerta são enviadas a todos os usuários em sua organização que se inscreveram neles. Essas mensagens podem se repetir em um intervalo de tempo predefinido até que o alerta seja resolvido.
+Quando um determinado conjunto de condições em suas operações é atingido (como um problema em potencial quando o sistema ultrapassa um limite), as mensagens de alerta são entregues a todos os usuários em sua organização que se subscreveram a elas. Essas mensagens podem se repetir em um intervalo predefinido até que o alerta seja resolvido.
 
 Saiba mais sobre alertas no Adobe Experience Platform [documentação](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR).
-Para saber como se inscrever em alertas e configurá-los, consulte esta seção [página](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
+Para saber como assinar alertas e configurá-los, consulte este [página](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
 >[!AVAILABILITY]
 >
->Algumas alterações de design estão em andamento para o alerta &quot;Acionador de segmento de leitura malsucedido&quot;, portanto, esse alerta é pausado por enquanto e foi removido temporariamente da interface do usuário. Depois que essas alterações forem lançadas, o alerta será exibido novamente e você poderá se inscrever nele.
+>Algumas alterações de design estão em andamento para o alerta &quot;Acionador de segmento de leitura malsucedido&quot;, portanto, esse alerta está pausado por enquanto e foi removido temporariamente da interface do usuário. Quando essas alterações forem liberadas, o alerta será exibido novamente e você poderá assinar.
 
 No menu esquerdo, em **Administração**, clique em **Alertas**.
 
@@ -34,12 +34,12 @@ No menu esquerdo, em **Administração**, clique em **Alertas**.
 
 ![](assets/alerts1.png)-->
 
-Se ocorrer um comportamento inesperado, uma notificação de alerta será enviada para os assinantes do alerta por email, no canto superior direito da interface.
+Se ocorrer um comportamento inesperado, uma notificação de alerta será enviada aos assinantes do alerta por email, no canto superior direito da interface.
 
 <!--![](assets/alerts2.png)-->
 
 
-When [exibição de regras de alerta na interface do usuário do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), é possível assinar cada regra individualmente. Ao assinar alertas por meio de [Notificações de Evento de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html), no entanto, as regras de alerta são organizadas em pacotes de assinatura diferentes.
+Quando [exibição de regras de alerta na interface do usuário do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), você pode assinar cada regra individualmente. Ao assinar alertas por meio do [Notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)No entanto, as regras de alerta são organizadas em diferentes pacotes de assinatura.
 
 <!--The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".
 

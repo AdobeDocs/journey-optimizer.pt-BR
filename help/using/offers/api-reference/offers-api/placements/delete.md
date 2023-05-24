@@ -1,6 +1,6 @@
 ---
-title: excluir disposições
-description: As disposições são contêineres usados para mostrar suas ofertas.
+title: excluir posicionamentos
+description: Posicionamentos são contêineres usados para exibir suas ofertas.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Excluir uma inserção {#delete-placement}
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma disposição. Somente as disposições criadas no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando a ID da instância da disposição que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma inserção. Somente as disposições criadas no contêiner de locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para o [!DNL Offer Library] API usando a ID de instância do posicionamento que você deseja excluir.
 
 **Formato da API**
 
@@ -25,9 +25,9 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde as disposições estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | A ID da instância da disposição que você deseja atualizar. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O container onde os posicionamentos estão localizados. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | A ID da instância do posicionamento que você deseja atualizar. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
 
 **Solicitação**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Uma resposta bem-sucedida retorna o status HTTP 202 (Sem conteúdo) e um corpo em branco.
 
-É possível confirmar a exclusão tentando uma solicitação de pesquisa (GET) para a disposição. Você precisará incluir um cabeçalho Accept na solicitação, mas deve receber um status HTTP 404 (Not Found) porque a disposição foi removida do contêiner.
+Você pode confirmar a exclusão tentando uma solicitação de pesquisa (GET) para o posicionamento. Você precisará incluir um cabeçalho Aceitar na solicitação, mas deverá receber um status HTTP 404 (Não encontrado) porque o posicionamento foi removido do container.

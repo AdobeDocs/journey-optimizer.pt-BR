@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: sum
-description: Saiba mais sobre a soma de funções
+description: Saiba mais sobre a soma das funções
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -30,7 +30,7 @@ Agregação
 
 * listInteger
 * listDecimal
-* duration
+* duração
 * inteiro
 * decimal
 
@@ -42,11 +42,11 @@ Retorna um decimal.
 
 `sum(<listInteger>)`
 
-Retorna um número inteiro.
+Retorna um inteiro.
 
 `sum(<integer>,<integer>)`
 
-Retorna um número inteiro.
+Retorna um inteiro.
 
 `sum(<decimal>,<decimal>)`
 
@@ -62,4 +62,4 @@ Retorna 21.
 
 `sum([10.5,null,8.1])`
 
-Retorna 18.6.
+Retorna 18,6.

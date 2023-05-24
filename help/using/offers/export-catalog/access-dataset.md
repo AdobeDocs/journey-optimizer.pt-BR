@@ -1,6 +1,6 @@
 ---
 title: Acessar o catálogo de ofertas exportado
-description: Saiba como acessar o catálogo de ofertas no Adobe Experience Platform depois de exportá-lo
+description: Saiba como acessar o catálogo de ofertas no Adobe Experience Platform depois que ele for exportado
 feature: Offers
 topic: Integrations
 role: User
@@ -15,14 +15,14 @@ ht-degree: 11%
 
 # Acessar o catálogo de ofertas exportado {#access-exported-catalog}
 
-O catálogo de ofertas exportado está acessível no Adobe Experience Platform **[!UICONTROL Conjuntos de dados]** menu. Um conjunto de dados é criado para cada objeto da Biblioteca de ofertas.
+O catálogo de ofertas exportado pode ser acessado no Adobe Experience Platform **[!UICONTROL Conjuntos de dados]** menu. Um conjunto de dados é criado para cada objeto da Biblioteca de ofertas.
 
 ![](../assets/datasets-list.png)
 
-Clique em um conjunto de dados para acessar seus detalhes.
+Clique em um conjunto de dados para acessar os detalhes.
 
-O **[!UICONTROL Visualizar conjunto de dados]** permite exibir o lote bem-sucedido mais recente no conjunto de dados.
+A variável **[!UICONTROL Visualizar conjunto de dados]** permite exibir o lote bem-sucedido mais recente no conjunto de dados.
 
 ![](../assets/dataset-activity.png)
 
-Para obter mais informações sobre como navegar e usar conjuntos de dados, consulte [esta página](../../data/get-started-datasets.md).
+Para obter mais informações sobre como procurar e usar conjuntos de dados, consulte [esta página](../../data/get-started-datasets.md).

@@ -1,6 +1,6 @@
 ---
 title: Excluir regras de decisão
-description: As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a qualificação.
+description: As regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a elegibilidade.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Excluir uma regra de decisão {#delete-decision-rule}
 
-Por vezes, pode ser necessário remover (DELETE) uma regra de decisão. Somente as regras de decisão criadas no contêiner do locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para [!DNL Offer Library] API usando a ID da instância da regra de decisão que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma regra de decisão. Somente as regras de decisão criadas no contêiner de locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para o [!DNL Offer Library] API usando a ID de instância da regra de decisão que você deseja excluir.
 
 **Formato da API**
 
@@ -25,9 +25,9 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do terminal para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | O contêiner onde as regras de decisão estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | O ID da instância da regra de decisão que você deseja atualizar. | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
+| `{INSTANCE_ID}` | A ID da instância da regra de decisão que você deseja atualizar. | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
 
 **Solicitação**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Uma resposta bem-sucedida retorna o status HTTP 202 (Sem conteúdo) e um corpo em branco.
 
-Você pode confirmar a exclusão tentando uma solicitação de pesquisa (GET) para a regra de decisão. Você precisará incluir um cabeçalho Accept na solicitação, mas deve receber um status HTTP 404 (Not Found) porque a regra de decisão foi removida do contêiner.
+Você pode confirmar a exclusão tentando uma solicitação de pesquisa (GET) para a regra de decisão. Você precisará incluir um cabeçalho Aceitar na solicitação, mas deverá receber um status HTTP 404 (Não encontrado) porque a regra de decisão foi removida do container.

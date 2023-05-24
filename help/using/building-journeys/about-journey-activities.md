@@ -7,7 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: jornada, atividades, começar, eventos, ação
+keywords: jornada, atividades, introdução, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -22,9 +22,9 @@ Combine diferentes atividades de evento, orquestração e ação para criar cen�
 
 ## Atividades de eventos {#event-activities}
 
-Eventos são o que aciona uma jornada personalizada, como uma compra online. Uma vez que alguém entra em uma jornada, eles se movem como um indivíduo, e nenhum dos dois indivíduos se movem ao mesmo ritmo ou ao longo do mesmo caminho. Quando você inicia a jornada com um evento, a jornada é acionada quando o evento é recebido. Cada pessoa na jornada segue, individualmente, as próximas etapas definidas na jornada.
+Eventos são o que aciona uma jornada personalizada, como uma compra online. Uma vez que alguém entra em uma jornada, ele se move como um indivíduo, e não há dois indivíduos se movendo ao longo da mesma taxa ou ao longo do mesmo caminho. Ao iniciar a jornada com um evento, a jornada é acionada ao receber o evento. Cada pessoa na jornada segue, individualmente, as próximas etapas definidas na jornada.
 
-Eventos configurados pelo usuário técnico (consulte [esta página](../event/about-events.md)) são exibidas na primeira categoria da paleta, no lado esquerdo da tela. As seguintes atividades de eventos estão disponíveis:
+Eventos configurados pelo usuário técnico (consulte [esta página](../event/about-events.md)) são exibidos na primeira categoria da paleta, no lado esquerdo da tela. As seguintes atividades de eventos estão disponíveis:
 
 * [Eventos gerais](../building-journeys/general-events.md)
 * [Reação](../building-journeys/reaction-events.md)
@@ -38,21 +38,21 @@ Inicie a jornada arrastando e soltando uma atividade de evento. Você também po
 
 ## Atividades de orquestração {#orchestration-activities}
 
-As atividades de orquestração são condições diferentes que ajudam a determinar a próxima etapa na jornada. Pode ser que a pessoa tenha ou não um caso de apoio aberto, as previsões meteorológicas no seu local atual, se tiver concluído uma compra ou não, ou tenha atingido 10.000 pontos de fidelidade.
+As atividades de orquestração são condições diferentes que ajudam a determinar a próxima etapa da jornada. Pode ser se a pessoa tiver um caso de suporte aberto ou não, a previsão do tempo em seu local atual, se ela concluiu uma compra ou não, ou atingiu 10.000 pontos de fidelidade.
 
 Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração estão disponíveis:
 
 * [Condição](../building-journeys/condition-activity.md)
 * [Aguardar](../building-journeys/wait-activity.md)
-* [Ler segmento](../building-journeys/read-segment.md)
+* [Segmento de leitura](../building-journeys/read-segment.md)
 
 ![](assets/journey49.png)
 
 ## Atividades de ação {#action-activities}
 
-As ações são o que você deseja que ocorra como resultado de algum tipo de acionador, como enviar uma mensagem. É a jornada que o cliente experimenta.
+As ações são o que você deseja que aconteça como resultado de algum tipo de acionador, como enviar uma mensagem. É a parte da jornada que o cliente experimenta.
 
-Na paleta, no lado esquerdo da tela, abaixo **[!UICONTROL Eventos]** e **[!UICONTROL Orquestração]**, você pode encontrar o **[!UICONTROL Ações]** categoria . As seguintes atividades de ação estão disponíveis:
+Na paleta, no lado esquerdo da tela, abaixo de **[!UICONTROL Eventos]** e **[!UICONTROL Orquestração]**, você pode encontrar o **[!UICONTROL Ações]** categoria. As seguintes atividades de ação estão disponíveis:
 
 * [Email, SMS, Push](../building-journeys/journeys-message.md)
 * [Ações personalizadas](../building-journeys/using-custom-actions.md)
@@ -62,23 +62,23 @@ Na paleta, no lado esquerdo da tela, abaixo **[!UICONTROL Eventos]** e **[!UICON
 
 Essas atividades representam os diferentes canais de comunicação disponíveis. É possível combiná-los para criar um cenário entre canais.
 
-Se você configurou ações personalizadas, elas também são exibidas aqui. [Saiba mais](../building-journeys/using-custom-actions.md)).
+Se você tiver configurado ações personalizadas, elas também aparecerão aqui. [Saiba mais](../building-journeys/using-custom-actions.md)).
 
 ## Práticas recomendadas {#best-practices}
 
 ### Adicionar um rótulo
 
-A maioria das atividades permite definir um **[!UICONTROL Rótulo]**. Isso adiciona um sufixo ao nome que aparecerá sob sua atividade na tela. Isso é útil se você usar a mesma atividade várias vezes na jornada e quiser identificá-las mais facilmente. Também facilitará a depuração em caso de erros e facilitará a leitura dos relatórios. Você também pode adicionar uma **[!UICONTROL Descrição]**.
+A maioria das atividades permite definir um **[!UICONTROL Rótulo]**. Isso adiciona um sufixo ao nome que aparecerá na atividade na tela. Isso é útil se você usar a mesma atividade várias vezes na jornada e quiser identificá-la mais facilmente. Também facilitará a depuração em caso de erros e facilitará a leitura dos relatórios. Você também pode adicionar um **[!UICONTROL Descrição]**.
 
 ![](assets/journey-action-label.png)
 
 ### Gerenciar os parâmetros avançados {#advanced-parameters}
 
-A maioria das atividades exibe diversos parâmetros avançados e/ou técnicos que não podem ser modificados.
+A maioria das atividades do exibe vários parâmetros avançados e/ou técnicos que você não pode modificar.
 
 ![](assets/journey-advanced-parameters.png)
 
-Para melhorar a legibilidade, você pode ocultar esses parâmetros usando a variável **[!UICONTROL Ocultar campos somente leitura]** botão.
+Para melhorar a compreensão, é possível ocultar esses parâmetros usando o **[!UICONTROL Ocultar campos somente leitura]** botão.
 
 ![](assets/journey-hide-read-only-fields.png)
 
@@ -88,6 +88,6 @@ Em alguns contextos específicos, é possível substituir os valores desses par�
 
 ### Adicionar um caminho alternativo
 
-A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcando a caixa **[!UICONTROL Adicione um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
+A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcando a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)
