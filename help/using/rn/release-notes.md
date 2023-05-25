@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 89909c8a1465c40bc1201eeba2deb98969e5575e
+source-git-commit: 0622911847dddfff553bbcfdaa9aef451b64101c
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 77%
+source-wordcount: '2504'
+ht-degree: 78%
 
 ---
 
@@ -173,7 +173,7 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 
 
 
-* Foram feitos aprimoramentos no seletor de público em jornadas ou campanhas, com a adição de novas colunas que exibem a origem e a frequência de atualização dos públicos.
+<!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
 **Canal SMS**
 
