@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
+source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 38%
+source-wordcount: '1063'
+ht-degree: 34%
 
 ---
 
@@ -63,30 +63,59 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
    * **[!UICONTROL Link externo]**: insira um link para um URL externo.
 
-   * **[!UICONTROL Landing page]**: insira um link para uma landing page. Saiba mais [nesta seção](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL Landing page]**: insira um link para uma landing page. [Saiba mais ](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Opção de não participação em um clique]**: insira um link para permitir que os usuários cancelem rapidamente a inscrição de suas comunicações sem a necessidade de confirmar a recusa. Saiba mais [nesta seção](../privacy/opt-out.md#one-click-opt-out).
+   * **[!UICONTROL Opção de não participação em um clique]**: insira um link para permitir que os usuários cancelem rapidamente a inscrição de suas comunicações sem a necessidade de confirmar a recusa. [Saiba mais](email-opt-out.md#one-click-opt-out).
 
    * **[!UICONTROL Consentimento/Assinatura externa]**: insira um link para aceitar receber comunicações da sua marca.
 
-   * **[!UICONTROL Opção de não participação/Cancelamento de assinatura externo]**: insira um link para cancelar a inscrição do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de recusa [nesta seção](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL Opção de não participação/Cancelamento de assinatura externo]**: insira um link para cancelar a inscrição do recebimento de comunicações da sua marca. Saiba mais sobre o gerenciamento de recusa [nesta seção](email-opt-out.md#opt-out-management).
 
-   * **[!UICONTROL Mirror page]**: insira um link para exibir o conteúdo do email em um navegador da Web. Saiba mais [nesta seção](#mirror-page).
+   * **[!UICONTROL Mirror page]**: adicione um link para exibir o conteúdo do email em um navegador da Web. [Saiba mais](#mirror-page)
 
-1. Você pode personalizar seus links. Saiba mais sobre URLs personalizados [nesta seção](../personalization/personalization-syntax.md#perso-urls).
+1. Insira o URL desejado no campo correspondente ou selecione uma landing page e defina as configurações e os estilos do link. [Saiba mais](#adjust-links)
+
+   >[!NOTE]
+   >
+   >Para interpretar URLs, [!DNL Journey Optimizer] está em conformidade com a sintaxe do URI ([Padrão RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), que desativa alguns caracteres internacionais especiais nos URLs. Ao tentar enviar a prova ou o email, se você retornar um erro envolvendo um URL adicionado ao seu conteúdo, será possível codificar o URL da sequência de caracteres como uma solução alternativa.
+
+1. Você pode personalizar seus links. [Saiba mais](../personalization/personalization-syntax.md#perso-urls)
 
 1. Salve as alterações.
 
-1. Depois que o link for criado, você ainda poderá modificá-lo no painel **[!UICONTROL Configurações do componente]** à direita.
-
-   * É possível editar o link e alterar seu tipo.
-   * Você pode optar por sublinhar o link ou não, marcando a opção correspondente.
+1. Depois que o link for criado, você ainda poderá modificá-lo no **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** painéis à direita.
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
 >As mensagens de email do tipo Marketing devem incluir uma [link para opção de não participação](../privacy/opt-out.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definido na variável [superfície de canal](../configuration/channel-surfaces.md#email-type) ao criar a mensagem.
+
+## Ajustar links {#adjust-links}
+
+É possível fazer ajustes nos links usando o **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** painéis à direita. É possível sublinhar um link, editar sua cor e selecionar seu público alvo.
+
+1. Em um componente **[!UICONTROL Texto]**, no qual um link é inserido, selecione seu link.
+
+1. No **[!UICONTROL Configurações]** escolha como o público-alvo será redirecionado com a **[!UICONTROL Target]** lista suspensa:
+
+   * **[!UICONTROL Nenhum]**: abre o link no mesmo quadro em que foi clicado (padrão).
+   * **[!UICONTROL Branco]**: abre o link em uma nova janela ou guia.
+   * **[!UICONTROL Auto]**: abre o link no mesmo quadro em que foi clicado.
+   * **[!UICONTROL Principal]**: abre o link no quadro principal.
+   * **[!UICONTROL Superior]**: abre o link no corpo completo da janela.
+
+   ![](assets/link_2.png)
+
+1. Marcar **[!UICONTROL Sublinhar link]** para sublinhar o texto do rótulo do seu link.
+
+   ![](assets/link_1.png)
+
+1. Para alterar a cor do link, clique em **[!UICONTROL Cor do link]** do **[!UICONTROL Estilos]** guia.
+
+   ![](assets/link_3.png)
+
+1. Salve as alterações.
 
 ## Link para uma mirror page {#mirror-page}
 

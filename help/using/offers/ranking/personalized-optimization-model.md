@@ -7,18 +7,14 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 0%
+source-wordcount: '781'
+ht-degree: 1%
 
 ---
 
 # Modelo de otimização personalizado {#personalized-optimization-model}
-
->[!CAUTION]
->
->O uso de modelos de Otimização personalizada está disponível no momento no acesso antecipado apenas para usuários selecionados.
 
 ## Visão geral {#overview}
 
@@ -35,14 +31,14 @@ Por exemplo, se um banco tiver duas ofertas de cartões de crédito com a única
 
 ## Como funciona {#how}
 
-A personalização automática aprende interações de recursos complexos entre ofertas, informações dos usuários e informações contextuais para recomendar ofertas personalizadas aos usuários finais. Os recursos são entradas no modelo.
+O modelo aprende interações de recursos complexos entre ofertas, informações dos usuários e informações contextuais para recomendar ofertas personalizadas aos usuários finais. Os recursos são entradas no modelo.
 
 Há três tipos de recursos:
 
 | Tipos de recursos | Como adicionar recursos aos modelos |
 |--------------|----------------------------|
-| Objetos de decisão (placementID, activityID, decisionScopeID) | Parte dos eventos de experiência de feedback da gestão de decisões enviados para a AEP |
 | Segmentos | De 0 a 50 segmentos podem ser adicionados como recursos ao criar o modelo de IA de classificação |
+| Objetos de decisão (placementID, activityID, decisionScopeID) | Parte dos eventos de experiência de feedback da gestão de decisões enviados para a AEP |
 | Dados de contexto | Parte dos Eventos de experiência de feedback de decisão enviados para a AEP. Dados de contexto disponíveis para adicionar ao esquema: Detalhes do comércio, Detalhes do canal, Detalhes do aplicativo, Detalhes da Web, Detalhes do ambiente, Detalhes do dispositivo, placeContext |
 
 O modelo tem duas fases:
@@ -66,7 +62,7 @@ Basicamente, essa é a ideia de aprender e memorizar interações com caracterí
 O problema de partida a frio ocorre quando não há dados suficientes para fazer a recomendação. Para a personalização automática, há dois tipos de problemas de inicialização forçada.
 
 * **Após criar uma nova estratégia de classificação sem dados históricos**, as ofertas serão fornecidas aleatoriamente por um período para coletar dados e os dados serão usados para treinar o primeiro modelo.
-* A **Depois que o primeiro modelo é lançado**, 10% do tráfego total será alocado para veiculação aleatória, enquanto 90% do tráfego será usado para recomendações de modelo. Portanto, se novas ofertas fossem adicionadas à estratégia de classificação, elas seriam entregues como parte dos 10% do tráfego. Os dados coletados nessas ofertas determinariam o número de vezes que são selecionados entre os 90% do tráfego à medida que o modelo continua a ser atualizado.
+* **Depois que o primeiro modelo for lançado**, 10% do tráfego total será alocado para veiculação aleatória, enquanto 90% do tráfego será usado para recomendações de modelo. Portanto, se novas ofertas fossem adicionadas à estratégia de classificação, elas seriam entregues como parte dos 10% do tráfego. Os dados coletados nessas ofertas determinariam o número de vezes que são selecionados entre os 90% do tráfego à medida que o modelo continua a ser atualizado.
 
 ## Retreinamento {#re-training}
 

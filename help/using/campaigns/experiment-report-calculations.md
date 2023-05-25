@@ -5,30 +5,14 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta" type="Informative"
-exl-id: b3336381-bc73-4c8f-938f-f10fe37305b0
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 4%
+source-wordcount: '932'
+ht-degree: 0%
 
 ---
 
-# Cálculos estatísticos no relatório de Experimentação {#experiment-report-calculations}
-
->[!BEGINSHADEBOX]
-
-O que você encontrará nesta documentação:
-
-* [Introdução ao experimento de conteúdo](get-started-experiment.md)
-* [Criar um experimento de conteúdo](content-experiment.md)
-* [Compreender cálculos estatísticos](experiment-calculations.md)
-* [Configurar relatórios de experimentação](reporting-configuration.md)
-* **[Cálculos estatísticos no relatório de Experimentação](experiment-report-calculations.md)**
-
->[!ENDSHADEBOX]
+# Entender cálculos estatísticos no relatório de experimentação {#experiment-report-calculations}
 
 Esta página documenta os cálculos estatísticos detalhados usados no relatório Experimentação para campanhas no Adobe Journey Optimizer.
 

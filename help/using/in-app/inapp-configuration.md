@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '279'
 ht-degree: 11%
 
 ---
@@ -58,7 +58,7 @@ Antes de enviar mensagens no aplicativo, é necessário configurar o canal no ap
    * Núcleo móvel
    * Perfil
 
-   Consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en#add-a-new-extension) para o procedimento detalhado.
+   Consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension) para o procedimento detalhado.
 
    ![](assets/inapp_config_5.png)
 

@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 badge: label="Beta" type="Informative"
-source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
+source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 33%
+source-wordcount: '898'
+ht-degree: 32%
 
 ---
 
@@ -90,7 +90,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Atualmente, somente o Amazon S3 e o SFTP são compatíveis com o [!DNL Journey Optimizer].
+   >Atualmente, o Amazon S3, SFTP e Azure são compatíveis com o [!DNL Journey Optimizer].
 
 1. Preencha os detalhes e as credenciais do seu servidor, como endereço do servidor, chave de acesso etc.
 
@@ -116,7 +116,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 >id="ajo_dm_surface_settings"
 >title="Definir as configurações da correspondência direta"
 >abstract="A superfície de correspondência direta contém as configurações para a formatação do arquivo que contém os dados do público direcionado e será usada pelo provedor de email. Você também pode definir para onde o arquivo será exportado selecionando a configuração de roteamento do arquivo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=br#file-routing-configuration" text="Configurar o roteamento de arquivos"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="Configurar o roteamento de arquivos"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -146,6 +146,10 @@ Uma superfície de correspondência direta também deve incluir a configuração
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
 1. Selecione o formato de arquivo: **[!UICONTROL CSV]** ou **[!UICONTROL Delimitado por texto]**.
+
+1. Se você selecionar **[!UICONTROL Delimitado por texto]**, defina o separador de coluna de sua escolha: tabulação, ponto e vírgula, barra vertical ou e comercial.
+
+   ![](assets/surface-direct-mail-column-separator.png)
 
 1. Selecione o **[!UICONTROL Configuração de roteamento de arquivos]** entre os que você criou. Isso define para onde o arquivo será exportado para ser usado pelo provedor de correspondência direta.
 

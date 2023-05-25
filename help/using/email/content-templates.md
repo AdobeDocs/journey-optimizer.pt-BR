@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 12%
@@ -81,8 +81,6 @@ Para criar um template de conteúdo do zero, siga as etapas abaixo.
 
 1. Acesse a lista de templates de conteúdo por meio da **[!UICONTROL Gestão de conteúdo]** > **[!UICONTROL Modelos de conteúdo]** menu esquerdo.
 
-   ![](assets/content-template-list.png)
-
 1. Selecionar **[!UICONTROL Criar modelo]**.
 
 1. Preencha os detalhes do template.
@@ -95,7 +93,7 @@ Para criar um template de conteúdo do zero, siga as etapas abaixo.
 
 1. Para atribuir rótulos de uso de dados principais ou personalizados ao modelo, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Object Level Access Control)](../administration/object-based-access.md).
 
-1. Clique em **[!UICONTROL Criar]** e escolha como deseja criar seu email com base nas diferentes opções:
+1. Clique em **[!UICONTROL Criar]** e escolha como deseja criar seu modelo a partir das diferentes opções:
 
    * [Projetar o email do zero](content-from-scratch.md) por meio da interface do Designer de email.
 

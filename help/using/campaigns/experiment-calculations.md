@@ -8,34 +8,19 @@ topic: Content Management
 role: User
 level: Experienced
 keywords: conteúdo, experimento, estatístico, cálculo
-hide: true
-hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 6%
+source-wordcount: '1057'
+ht-degree: 2%
 
 ---
 
 # Compreender cálculos estatísticos {#experiment-calculations}
 
->[!BEGINSHADEBOX]
-
-O que você encontrará nesta documentação:
-
-* [Introdução ao experimento de conteúdo](get-started-experiment.md)
-* [Criar um experimento de conteúdo](content-experiment.md)
-* **[Compreender cálculos estatísticos](experiment-calculations.md)**
-* [Configurar relatórios de experimentação](reporting-configuration.md)
-* [Cálculos estatísticos no relatório de Experimentação](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
 Este artigo descreve os cálculos estatísticos usados quando você executa experimentos no Adobe Journey Optimizer.
 
-A experimentação usa métodos estatísticos avançados para calcular **Sequências de confiança** e **Confiança**, que permitem executar seus experimentos enquanto for necessário e monitorar continuamente os resultados.
+Usos de experimentação [métodos estatísticos avançados](../campaigns/assets/confidence_sequence_technical_details.pdf) para calcular **Sequências de confiança** e **Confiança**, que permitem executar seus experimentos enquanto for necessário e monitorar continuamente os resultados.
 
 Este artigo descreve como a Experimentação funciona e fornece uma introdução intuitiva ao Adobe verificação **Sequências de confiança válidas a qualquer momento**.
 
@@ -43,12 +28,23 @@ Para usuários especialistas, as referências e os detalhes técnicos são detal
 
 ## Teste estatístico e controle de erros {#statistical-testing}
 
+Quando você executa um experimento você está tentando determinar se há uma diferença entre duas populações e a probabilidade de que a diferença se deve ao acaso.
+
+Geralmente, há duas hipóteses:
+
+* o **Hipótese Nula** que não tem efeito sobre o tratamento.
+* o **Hipótese alternativa** significa que há um efeito no tratamento.
+
+Em significância estatística, o objetivo é tentar avaliar a força da evidência para rejeitar a hipótese nula. Um ponto importante a ser observado é que significância estatística é usada para julgar quão provável os tratamentos são diferentes, não quão provável eles são para ser bem sucedidos. É por esta razão que a significância estatística é utilizada em **Elevação**.
+
+A experimentação eficaz requer que sejam considerados os diferentes tipos de erros que podem causar inferências incorretas.
+
 ![](assets/technote_1.png)
 
-Como ilustrado na tabela acima, muitas metodologias de inferência estatística foram projetadas para controlar dois tipos de erros:
+A tabela acima ilustra os diferentes tipos de erros:
 
-* **Falsos positivos (erros de tipo I)**: é uma rejeição incorreta da hipótese nula, quando, na verdade, é verdadeira. No contexto de experimentos online, isso significa que concluímos falsamente que a métrica de resultado é diferente entre cada tratamento, embora seja a mesma.
-   </br>Antes de executarmos o experimento, normalmente escolhemos um limite `\alpha`. Após a execução do experimento, a variável `p-value` é calculado e rejeitamos a variável `null if p < \alpha`. Um limite usado com frequência é `\alpha = 0.05`, o que significa que, a longo prazo, esperamos que 5 em cada 100 experimentos sejam falsos positivos.
+* **Falsos positivos (erros de tipo I)**: são uma rejeição incorreta da hipótese nula, quando, na verdade, é verdadeira. No contexto de experimentos online, isso significa que concluímos falsamente que a métrica de resultado é diferente entre cada tratamento, embora seja a mesma.
+   </br>Antes de executarmos o experimento, normalmente escolhemos um limite `\alpha`. Após a execução do experimento, a variável `p-value` é calculado e rejeitamos a variável `null if p < \alpha`.Escolha de um `/alpha` é baseado nas consequências de obter a resposta errada, por exemplo, em um ensaio clínico em que a vida de alguém pode ser afetada, você pode decidir ter um `\alpha = 0.005`. Um limite comumente usado em experimentação online é `\alpha = 0.05`, o que significa que, a longo prazo, esperamos que 5 em cada 100 experimentos sejam falsos positivos.
 
 * **Falsos negativos (erros tipo II)**: significa que não rejeitamos a hipótese nula, embora ela seja falsa. Para experimentos, isso significa que não rejeitamos a hipótese nula, quando na verdade ela é diferente. Para controlar esse tipo de erro, geralmente precisamos ter usuários suficientes em nosso experimento para garantir uma determinada Potência, definida como `1 - \beta`(isto é, um menos a probabilidade de um erro de tipo II).
 
@@ -70,7 +66,7 @@ Os fundamentos teóricos da **Sequências de confiança** vêm do estudo de sequ
 
 >[!NOTE]
 >
->As sequências de confiança podem ser interpretadas como análogos sequenciais seguros de intervalos de confiança. Você pode observar e interpretar dados em seus Experimentos a qualquer momento que desejar e parar ou continuar com experimentos com segurança. a confiança válida a qualquer momento correspondente, ou `p-value`, também é seguro de interpretar.
+>Sequências de confiança podem ser interpretadas como análogos sequenciais seguros de intervalos de confiança. Com intervalos de confiança, só é possível interpretar o experimento depois de atingir o tamanho predeterminado da amostra. No entanto, com sequências de confiança, você pode observar e interpretar os dados em seus Experimentos a qualquer momento que desejar e interromper ou continuar com os experimentos com segurança. a confiança válida a qualquer momento correspondente, ou `p-value`O, também é seguro para interpretar a qualquer momento.
 
 É importante observar que, como as sequências de confiança são &quot;válidas a qualquer momento&quot;, elas serão mais conservadoras do que uma metodologia de horizonte fixo usada no mesmo tamanho de amostra. Os limites da sequência de confiança geralmente são mais amplos do que um cálculo de intervalo de confiança, enquanto a confiança válida a qualquer momento será menor do que um cálculo de confiança de horizonte fixo. O benefício deste conservadorismo é que você pode interpretar com segurança seus resultados em todos os momentos.
 

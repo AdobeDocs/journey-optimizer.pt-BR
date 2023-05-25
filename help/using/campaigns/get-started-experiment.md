@@ -8,34 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
-hide: true
-hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '1961'
 ht-degree: 100%
 
 ---
 
 # Introdução aos experimentos de conteúdo {#get-started-experiment}
-
->[!BEGINSHADEBOX]
-
-O que você encontrará nesta documentação:
-
-* **[Introdução ao experimento de conteúdo](get-started-experiment.md)**
-* [Criar um experimento de conteúdo](content-experiment.md)
-* [Compreender cálculos estatísticos](experiment-calculations.md)
-* [Configurar relatórios de experimentação](reporting-configuration.md)
-* [Cálculos estatísticos no relatório de Experimentação](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->O recurso Experimento de conteúdo está disponível apenas para algumas organizações (disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
 
 ## O que é um experimento de conteúdo?
 

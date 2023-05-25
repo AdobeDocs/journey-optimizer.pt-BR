@@ -9,18 +9,15 @@ keywords: no aplicativo, mensagem, criação, iniciar
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 252011710574122c1f321a388b65bdafb7c666df
+badge: label="Beta" type="Informative"
+source-git-commit: 50afe137c618153278c596f1553216c20637e40b
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 5%
+source-wordcount: '535'
+ht-degree: 4%
 
 ---
 
 # Criar uma mensagem no aplicativo em uma jornada {#create-in-app-journey}
-
->[!AVAILABILITY]
->
->A atividade no aplicativo está disponível atualmente como um beta apenas para usuários selecionados. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
 
 1. Abra a jornada, arraste e solte um **[!UICONTROL No aplicativo]** atividade do **[!UICONTROL Ações]** seção da paleta.
 

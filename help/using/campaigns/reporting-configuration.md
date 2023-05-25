@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: configuração, experimentação, relatórios, otimizador
-hide: true
-hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+hide: true
+hidefromtoc: true
+source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 38%
+source-wordcount: '719'
+ht-degree: 34%
 
 ---
 
@@ -30,18 +30,6 @@ ht-degree: 38%
 >id="ajo_admin_reporting_dataset"
 >title="Selecionar um conjunto de dados"
 >abstract="Você só pode selecionar um conjunto de dados do tipo evento, que deve conter pelo menos um dos grupos de campos compatíveis: Detalhes do aplicativo, Detalhes do comércio, Detalhes da Web."
-
->[!BEGINSHADEBOX]
-
-O que você encontrará nesta documentação:
-
-* [Introdução ao experimento de conteúdo](get-started-experiment.md)
-* [Criar um experimento de conteúdo](content-experiment.md)
-* [Compreender cálculos estatísticos](experiment-calculations.md)
-* **[Configurar relatórios de experimentação](reporting-configuration.md)**
-* [Cálculos estatísticos no relatório de Experimentação](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
@@ -60,7 +48,7 @@ Para essa configuração, é necessário adicionar um ou mais conjuntos de dados
 ## Pré-requisitos
 
 
-Antes de poder adicionar um conjunto de dados à configuração de relatórios, você deve criar esse conjunto de dados. Saiba mais na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR#create){target="_blank"}.
+Antes de poder adicionar um conjunto de dados à configuração de relatórios, você deve criar esse conjunto de dados. Saiba mais na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * Você só pode adicionar conjuntos de dados do tipo evento.
 

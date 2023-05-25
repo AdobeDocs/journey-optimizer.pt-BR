@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: objeto, nível, acesso, controle, rótulos, olac, autorização
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '457'
 ht-degree: 14%
 
 ---
@@ -94,4 +94,4 @@ Para atribuir rótulos de uso de dados personalizados ou principais aos objetos 
 Para ter acesso a esse objeto, os usuários precisarão ter as **[!UICONTROL Rótulo]** incluídos na sua **[!UICONTROL Funções]**.
 Por exemplo, um usuário com o rótulo C1 terá acesso somente a objetos com ou sem rótulo C1.
 
-Para obter mais informações sobre como atribuir **[!UICONTROL Rótulo]** para um **[!UICONTROL Função]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
+Para obter mais informações sobre como atribuir **[!UICONTROL Rótulo]** para um **[!UICONTROL Função]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role).

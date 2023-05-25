@@ -9,14 +9,14 @@ role: Admin, Architect
 level: Intermediate
 keywords: permissões, direitos, restrições, acesso, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 31%
+source-wordcount: '208'
+ht-degree: 29%
 
 ---
 
-# Visão geral do gerenciamento de usuários {#permissions-overview}
+# Introdução ao gerenciamento de usuários {#permissions-overview}
 
 [!DNL Journey Optimizer]O permite definir e gerenciar as permissões atribuídas a usuários diferentes. As permissões são um conjunto de direitos e restrições que autorizam ou negam acesso aos recursos e funcionalidades do produto.
 

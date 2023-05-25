@@ -9,14 +9,18 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 28%
+source-wordcount: '1583'
+ht-degree: 27%
 
 ---
 
 # Criar e publicar páginas de destino {#create-lp}
+
+>[!CAUTION]
+>
+>Para testar e publicar páginas de aterrissagem, é necessário ter o **[!UICONTROL Publicar mensagens]** permissão.
 
 ## Acessar páginas de destino {#access-landing-pages}
 
@@ -207,6 +211,8 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 
 >[!CAUTION]
 >
+>Para testar landing pages, você deve ter a **[!UICONTROL Publicar mensagens]** permissão.
+>
 >Você deve ter perfis de teste disponíveis para poder visualizar suas mensagens e enviar provas. Saiba como [criar perfis de teste](../segment/creating-test-profiles.md).
 
 1. Na interface da landing page, clique na guia **[!UICONTROL Simular conteúdo]** botão para acessar a seleção de perfil de teste.
@@ -274,6 +280,10 @@ Dois tipos de alertas podem ocorrer:
 
 ## Publicar a página de destino {#publish-landing-page}
 
+>[!CAUTION]
+>
+>Para publicar páginas de aterrissagem, é necessário ter o **[!UICONTROL Publicar mensagens]** permissão.
+
 Quando a landing page estiver pronta, você poderá publicá-la para disponibilizá-la para uso em uma mensagem.
 
 ![](assets/lp_publish.png)
@@ -284,7 +294,7 @@ Quando a landing page estiver pronta, você poderá publicá-la para disponibili
 
 Quando a landing page for publicada, ela será adicionada à lista de landing pages com a **[!UICONTROL Publicado]** status.
 
-Agora ele está ativo e pronto para ser usado em uma [!DNL Journey Optimizer] mensagem que será enviada por meio de um [jornada](../building-journeys/journey.md).
+Agora está ativo e pronto para ser usado em um [!DNL Journey Optimizer] mensagem que será enviada por meio de um [jornada](../building-journeys/journey.md).
 
 >[!NOTE]
 >

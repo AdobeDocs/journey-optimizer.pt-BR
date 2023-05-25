@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recusar, email, link, cancelar inscrição
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 83%
+source-wordcount: '1033'
+ht-degree: 80%
 
 ---
 
@@ -30,7 +30,7 @@ Além disso, se a variável **[!UICONTROL List-Unsubscribe]** estiver ativada no
 
 >[!NOTE]
 >
->As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida no nível da [superfície de canal](../configuration/channel-surfaces.md#email-type) (ou seja, predefinição da mensagem) e ao criar a mensagem).
+>As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida no [superfície de canal](../configuration/channel-surfaces.md#email-type) e ao criar a mensagem).
 
 ## Opção de não participação externa {#opt-out-external-lp}
 
@@ -64,12 +64,11 @@ Para efetivar a opção de não participação dos seus recipients ao enviarem s
 
 Essa chamada POST é a seguinte:
 
-Ponto de acesso: platform.adobe.io/journey/imp/consent/preferences
+Endpoint: https://platform.adobe.io/journey/imp/consent/preferences
 
 Parâmetros de consulta:
 
 * **params**: contém o conteúdo criptografado
-* **sig**: assinatura
 * **pid**: ID de perfil criptografada
 
 Esses três parâmetros serão incluídos no URL da página de destino de terceiros enviado ao seu recipient:

@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: landing page, landing page, subdomínios, configuração
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '827'
 ht-degree: 24%
 
 ---
@@ -39,7 +39,12 @@ Você pode usar um subdomínio que já foi delegado ao Adobe ou configurar outro
 
 >[!CAUTION]
 >
->A configuração de subdomínio da página de aterrissagem é comum a todos os ambientes. Portanto, qualquer modificação em um subdomínio de página de aterrissagem também afetará as sandboxes de produção.
+>A configuração de subdomínio da página de aterrissagem é comum a todos os ambientes. Portanto:
+>
+>* Para acessar e editar subdomínios de páginas de aterrissagem, é necessário ter **[!UICONTROL Gerenciar subdomínios da página de aterrissagem]** permissão na sandbox de produção.
+>
+> * Qualquer modificação em um subdomínio de página de aterrissagem também afetará as sandboxes de produção.
+
 
 ## Usar um subdomínio existente {#lp-use-existing-subdomain}
 
