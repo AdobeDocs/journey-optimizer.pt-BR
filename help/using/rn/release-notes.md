@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
+source-git-commit: 104a5d3def95272e09be050c822f5eafed6a6cb0
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2485'
 ht-degree: 78%
 
 ---
@@ -167,11 +167,11 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 **Canal SMS**
 
 * O Infobip foi adicionado como provedor de fornecedores ao configurar suas superfícies de canal de SMS. [Leia mais](../sms/sms-configuration.md)
-* Twillio - A configuração de credencial da API agora inclui a capacidade de adicionar SID de serviço de mensagens para integração perfeita com sua conta do Twilio.
+* Twillio - A configuração de credencial da API agora inclui a capacidade de adicionar SID de serviço de mensagens para integração perfeita com sua conta do Twilio. [Leia mais](../sms/sms-configuration.md)
 
 **Canal no aplicativo**
 
-* Adição de novas regras de acionador de mensagem para o Serviço do Adobe Places.
+* Adição de novas regras de acionador de mensagem para o Serviço do Adobe Places. [Leia mais](../in-app/inapp-configuration.md)
 * Adicionados novos recursos do Adobe Experience Platform Assurance para capturar eventos de dispositivos para adicionar como regras de acionador.
 
 **Jornadas**
@@ -180,13 +180,13 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Campanhas**
 
-* Agora é possível duplicar uma campanha na tela de inventário usando o menu de ação de reticências.
+* Agora é possível duplicar uma campanha na tela de inventário usando o menu de ação de reticências. [Leia mais](../campaigns/modify-stop-campaign.md#duplicate)
 * Agora você pode excluir modificações de rascunho em uma campanha ao vivo.
-* As etapas para ativar uma campanha agora foram simplificadas.
+* As etapas para ativar uma campanha agora foram simplificadas. [Leia mais](../campaigns/modify-stop-campaign.md)
 
 **Gestão de decisões**
 
-* Agora é possível editar o limite de frequência se a oferta tiver o **[!UICONTROL Rascunho]** e nunca foi publicado antes com o limite de frequência ativado. [Saiba mais](../offers/offer-library/add-constraints.md#frequency-capping)
+* Agora é possível editar o limite de frequência se a oferta tiver o **[!UICONTROL Rascunho]** e nunca foi publicado antes com o limite de frequência ativado. [Leia mais](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalização**
 
