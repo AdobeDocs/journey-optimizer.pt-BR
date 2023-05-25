@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -99,6 +99,15 @@ Verifique se o tipo e a origem do evento são os seguintes:
 ## Rastrear eventos personalizados
 
 Para eventos personalizados, o esquema usado no conjunto de dados também deve ter o **[!UICONTROL Evento de experiência - Interações de apresentação]** grupo de campos associado a ele, mas não há requisito específico no tipo de evento de experiência que deve ser usado para marcar esses eventos.
+
+>[!NOTE]
+>
+>Para contabilizar os eventos personalizados no [limite de frequência](../offer-library/add-constraints.md#capping), é necessário conectar o evento de experiência aos endpoints do Adobe Experience Platform, enviando-o para um desses dois endpoints de coleta de dados do Edge:
+>
+>* POST /ee/v2/interaction
+>* POST /ee/v2/collect
+>
+>Se você estiver usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, a conexão é feita automaticamente.
 
 <!--
 ## Using a ranking strategy {#using-ranking}
