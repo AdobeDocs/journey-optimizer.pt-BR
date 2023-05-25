@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0622911847dddfff553bbcfdaa9aef451b64101c
+source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
 workflow-type: tm+mt
-source-wordcount: '2504'
+source-wordcount: '2477'
 ht-degree: 78%
 
 ---
@@ -22,11 +22,11 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
 
-## Notas de versão antecipadas de maio de 2023 {#may-rn-2023}
+## Notas de versão de maio de 2023 {#may-rn-2023}
 
-As informações abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilização da versão. A documentação atualizada será publicada na data de lançamento, e os links diretos serão adicionados a esta página.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Data de lançamento**: 25 de maio de 2023
+**Release date**: May 25, 2023-->
 
 ### Novos recursos{#may-2023-features}
 
@@ -60,7 +60,7 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 <td>
 <p>O Adobe Journey Optimizer agora oferece suporte a experimentos em campanhas. Experimentos são testes aleatórios, o que, no contexto de testes online, significa que você expõe alguns usuários selecionados aleatoriamente a uma determinada variação de uma mensagem e outro conjunto de usuários selecionado aleatoriamente a outra variação ou tratamento. Após a exposição, é possível medir as métricas de resultado em que está interessado, como abertura de emails, assinaturas ou compras.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+<p>Para obter mais informações, consulte a <a href="../campaigns/content-experiment.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -97,7 +97,7 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 <td>
 <p>Agora é possível criar, usar e gerenciar fragmentos para reunir rapidamente emails e modelos de conteúdo. Um fragmento é um componente reutilizável pré-construído que pode ser referenciado em vários emails em campanhas e jornadas do Journey Optimizer para um processo de design aprimorado e acelerado.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+<p>Para obter mais informações, consulte a <a href="../email/fragments.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -144,14 +144,6 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 
 ### Melhorias {#may-2023-improvements}
 
-<!--
-**Terminology**
-
-* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
--->
-
-<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
--->
 
 
 **Públicos-alvo**
@@ -163,21 +155,18 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 
    Como resultado, no Adobe Journey Optimizer e na interface do usuário do Adobe Experience Platform, &quot;Segmentos&quot; será substituído por &quot;Públicos-alvo&quot; para refletir esse novo caminho de criação e gerenciamento de público-alvo.
 
-   As alterações serão implementadas gradualmente com as próximas versões da interface do usuário e da documentação.
-
-   As traduções do termo &quot;público-alvo&quot; ao se referir a um grupo de perfis direcionados para receber uma mensagem foram harmonizadas em todos os produtos da Digital Experience para os seguintes idiomas:
+   As traduções do termo &quot;público-alvo&quot; ao se referir a um grupo de perfis direcionados para receber uma mensagem foram harmonizadas em todos os produtos de experiência digital para alguns idiomas:
 
    * Alemão: Zielgruppe
    * Português (Brasil): público-alvo
    * Espanhol: público-destino
 
 
-
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
 **Canal SMS**
 
-* O Infobip foi adicionado como provedor de fornecedores ao configurar suas superfícies de canal de SMS.
+* O Infobip foi adicionado como provedor de fornecedores ao configurar suas superfícies de canal de SMS. [Leia mais](../sms/sms-configuration.md)
 * Twillio - A configuração de credencial da API agora inclui a capacidade de adicionar SID de serviço de mensagens para integração perfeita com sua conta do Twilio.
 
 **Canal no aplicativo**
@@ -197,7 +186,7 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 
 **Gestão de decisões**
 
-* Agora é possível editar o limite de frequência se a oferta tiver o status Rascunho e nunca tiver sido publicada antes.
+* Agora é possível editar o limite de frequência se a oferta tiver o **[!UICONTROL Rascunho]** e nunca foi publicado antes com o limite de frequência ativado. [Saiba mais](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalização**
 
