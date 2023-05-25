@@ -6,10 +6,10 @@ description: Saiba como configurar seu ambiente para enviar SMS com o Journey Op
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 19%
+source-wordcount: '920'
+ht-degree: 18%
 
 ---
 
@@ -55,20 +55,25 @@ Para configurar seu fornecedor de SMS com o Journey Optimizer, siga estas etapas
 
    ![](assets/sms_6.png)
 
-1. Selecione o **[!UICONTROL Fornecedor de SMS]**:
+1. Configurar suas credenciais da API de SMS:
 
-   * **[!DNL Sinch]**
+   * Para **[!DNL Sinch]**:
 
-      Para encontrar o **[!UICONTROL ID do serviço]** e **[!UICONTROL Token de API]**, acesse o menu SMS > APIs na sua conta Sinch.
+      * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
 
-   * **[!DNL Twilio]**
+      * **[!UICONTROL ID do serviço]** e **[!UICONTROL Token de API]**: para acessar a página APIs, você pode encontrar suas credenciais na guia SMS.  [Saiba mais](https://developers.sinch.com/docs/sms/getting-started/)
+   * Para **[!DNL Twilio]**:
 
-      Para encontrar o **[!UICONTROL ID do serviço]** e **[!UICONTROL Token de API]**, acesse o painel Informações da conta da página Painel de controle do console.
+      * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
 
+      * **[!UICONTROL SID da conta]** e **[!UICONTROL Token de autenticação]**: acesse o painel Informações da conta da página Painel do Twilio Console para encontrar suas credenciais.
 
-1. Insira um **[!UICONTROL Nome]** para a credencial da API.
+      * **[!UICONTROL SID da Mensagem]**: digite o identificador exclusivo atribuído a cada mensagem criada pela API do Twilio. [Saiba mais](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+   * Para **[!DNL Infobip]**:
 
-1. Insira seu **[!UICONTROL ID do serviço]** e **[!UICONTROL Token de API]**.
+      * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
+
+      * **[!UICONTROL URL de base da API]** e **[!UICONTROL Token de API]**: acesse a página inicial da interface da Web ou a página de gerenciamento de chaves da API para encontrar suas credenciais. [Saiba mais](https://www.infobip.com/docs/api)
 
    ![](assets/sms_7.png)
 
