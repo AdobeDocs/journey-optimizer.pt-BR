@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a6f66bd1b2b0050830e4ba5b102a3b48faa8202
+source-git-commit: 89909c8a1465c40bc1201eeba2deb98969e5575e
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 82%
+source-wordcount: '2530'
+ht-degree: 77%
 
 ---
 
@@ -155,6 +155,23 @@ As informações abaixo estão sujeitas a alterações sem aviso prévio até a 
 
 
 **Públicos-alvo**
+
+* Em preparação para a disponibilidade geral do recurso Portal de público-alvo, o Adobe Experience Platform está atualizando o uso de &quot;públicos-alvo&quot; e &quot;segmentos&quot; no sistema e na documentação.
+
+   * Público-alvo: um conjunto de pessoas, contas, famílias ou outras entidades que compartilham características e comportamentos comuns.
+   * Definição de segmento: no Adobe Experience Platform, as regras usadas para descrever as principais características ou comportamento de um público-alvo. Esse termo era anteriormente conhecido como &quot;segmento&quot;.
+
+   Como resultado, no Adobe Journey Optimizer e na interface do usuário do Adobe Experience Platform, &quot;Segmentos&quot; será substituído por &quot;Públicos-alvo&quot; para refletir esse novo caminho de criação e gerenciamento de público-alvo.
+
+   As alterações serão implementadas gradualmente com as próximas versões da interface do usuário e da documentação.
+
+   As traduções do termo &quot;público-alvo&quot; ao se referir a um grupo de perfis direcionados para receber uma mensagem foram harmonizadas em todos os produtos da Digital Experience para os seguintes idiomas:
+
+   * Alemão: Zielgruppe
+   * Português (Brasil): público-alvo
+   * Espanhol: público-destino
+
+
 
 * Foram feitos aprimoramentos no seletor de público em jornadas ou campanhas, com a adição de novas colunas que exibem a origem e a frequência de atualização dos públicos.
 
