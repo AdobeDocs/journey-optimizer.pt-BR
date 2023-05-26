@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 78%
+source-wordcount: '2466'
+ht-degree: 79%
 
 ---
 
@@ -174,9 +174,11 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 * Adição de novas regras de acionador de mensagem para o Serviço do Adobe Places. [Leia mais](../in-app/inapp-configuration.md)
 * Adicionados novos recursos do Adobe Experience Platform Assurance para capturar eventos de dispositivos para adicionar como regras de acionador.
 
-**Jornadas**
+<!--
+**Journeys**
 
-* Agora você pode aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas.
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+-->
 
 **Campanhas**
 
