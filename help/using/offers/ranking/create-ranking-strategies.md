@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
+source-git-commit: d2f0a6db7cd86512febfd307039d06ae4b60232e
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 6%
+source-wordcount: '424'
+ht-degree: 7%
 
 ---
 
@@ -64,6 +64,8 @@ Para criar um modelo de IA, siga as etapas abaixo:
 
 1. Se você estiver criando uma **[!UICONTROL Otimização personalizada]** Modelo de IA, selecione os segmentos a serem usados para treinar o modelo de IA.
 
+   ➡️ [Descubra este recurso no vídeo](#video)
+
    ![](../assets/ai-ranking-segments.png)
 
    >[!NOTE]
@@ -83,3 +85,9 @@ Para criar um modelo de IA, siga as etapas abaixo:
 Agora, sempre que uma oferta for exibida e/ou clicada, você desejará que o evento correspondente seja capturado automaticamente pelo **[!UICONTROL Evento de experiência - Interações de apresentação]** grupo de campos usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} ou Mobile SDK.
 
 Para enviar tipos de evento (oferta exibida ou oferta clicada), você deve definir o valor correto para cada tipo de evento em um evento de experiência enviado para o Adobe Experience Platform. [Saiba como](../data-collection/schema-requirement.md)
+
+## Vídeo explicativo {#video}
+
+Saiba como criar um modelo de otimização personalizado e como aplicá-lo a uma decisão.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
