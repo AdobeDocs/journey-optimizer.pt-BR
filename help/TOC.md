@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -168,8 +168,8 @@ ht-degree: 98%
       + [Criar um experimento de conteúdo](using/campaigns/content-experiment.md)
       + [Configurar relatórios de experimentação](using/campaigns/reporting-configuration.md)
       + Notas técnicas {#technotes}
-         + [Compreender cálculos estatísticos](using/campaigns/experiment-calculations.md)
-         + [Entender cálculos estatísticos no relatório de experimentação](using/campaigns/experiment-report-calculations.md)
+         + [Compreenda cálculos estatísticos](using/campaigns/experiment-calculations.md)
+         + [Compreenda cálculos estatísticos no Relatório de experimentação](using/campaigns/experiment-report-calculations.md)
    + [Acione campanhas usando APIs](using/campaigns/api-triggered-campaigns.md)
 + Canal de email {#email}
    + [Introdução a emails](using/email/get-started-email.md)
@@ -194,7 +194,7 @@ ht-degree: 98%
          + [Introdução ao estilo de email](using/email/get-started-email-style.md)
          + [Editar configurações de fundo](using/email/backgrounds.md)
          + [Ajustar o alinhamento vertical e o preenchimento](using/email/alignment-and-padding.md)
-         + [Adicionar atributos de estilo em linha](using/email/inline-styling.md)
+         + [Adicionar atributos de estilo incorporado](using/email/inline-styling.md)
    + [Visualizar e testar o email](using/email/preview.md)
    + [Criar modelos de conteúdo](using/email/content-templates.md)
    + [Usar modelos do Experience Manager](using/email/aem-templates.md)
@@ -473,7 +473,7 @@ ht-degree: 98%
    + Visão geral do controle de acesso {#privacy}
       + [Introdução ao gerenciamento de usuários](using/administration/permissions-overview.md)
       + [Funções integradas](using/administration/ootb-product-profiles.md)
-      + [Permissões incorporadas](using/administration/ootb-permissions.md)
+      + [Permissões integradas](using/administration/ootb-permissions.md)
       + [Níveis de permissão](using/administration/high-low-permissions.md)
    + [Gerenciar usuários e funções](using/administration/permissions.md)
    + [Controle de acesso baseado em atributos](using/administration/attribute-based-access.md)
