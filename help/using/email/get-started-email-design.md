@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
@@ -64,8 +64,12 @@ Depois de [adicionar um email](create-email.md) em uma jornada ou campanha, voc�
 
    ![](assets/email_designer_export.png)
 
-## Vídeo explicativo {#video}
+## Vídeos tutoriais {#video}
 
 Saiba como criar conteúdo de email com o editor de mensagens.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
+
+Saiba como configurar experimentos de conteúdo para testes A/B e explorar o conteúdo de email que melhor direciona seus objetivos de negócios.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
