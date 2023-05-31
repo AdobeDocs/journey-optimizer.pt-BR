@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
 source-wordcount: '2466'
-ht-degree: 79%
+ht-degree: 97%
 
 ---
 
@@ -58,7 +58,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>O Adobe Journey Optimizer agora oferece suporte a experimentos em campanhas. Experimentos são testes aleatórios, o que, no contexto de testes online, significa que você expõe alguns usuários selecionados aleatoriamente a uma determinada variação de uma mensagem e outro conjunto de usuários selecionado aleatoriamente a outra variação ou tratamento. Após a exposição, é possível medir as métricas de resultado em que está interessado, como abertura de emails, assinaturas ou compras.</p>
+<p>O Adobe Journey Optimizer agora oferece suporte a experimentos em campanhas. Experimentos são ensaios aleatórios, o que, no contexto de testes online, significa que você expõe alguns usuários selecionados aleatoriamente a uma determinada variação de uma mensagem e outro conjunto de usuários selecionados aleatoriamente a outra variação ou tratamento. Após a exposição, é possível medir as métricas de resultado em que está interessado, como abertura de emails, assinaturas ou compras.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
 <p>Para obter mais informações, consulte a <a href="../campaigns/content-experiment.md">documentação detalhada</a>.</p>
 </td>
@@ -113,7 +113,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>Agora é possível atribuir tags unificadas da Adobe Experience Platform às campanhas. Isso permite classificá-las facilmente e melhorar a pesquisa na lista de campanhas. Observe que o recurso de tags unificadas está atualmente na versão beta.</p>
+<p>Agora é possível atribuir tags unificadas da Adobe Experience Platform às campanhas. Isso permite classificá-las facilmente e melhorar a pesquisa na lista de campanhas. Observe que o recurso de Tags unificadas está atualmente na versão beta.</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Para obter mais informações, consulte a <a href="../start/search-filter-categorize.md#tags">documentação detalhada</a>.</p>
 </td>
@@ -126,13 +126,13 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Modelo de classificação de AI de otimização personalizada (Disponibilidade geral)</strong><br/></th>
+<th><strong>Modelo de classificação de IA de otimização personalizada (Disponibilidade geral)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Os modelos de classificação de AI de otimização personalizada agora estão disponíveis no Gerenciamento de decisão. Esse novo tipo de modelo permite otimizar e personalizar ofertas com base em segmentos e oferecer desempenho.</p>
+<p>Os modelos de classificação de IA de otimização personalizada agora estão disponíveis na Gestão de decisões. Esse novo tipo de modelo permite otimizar e personalizar ofertas com base em segmentos e desempenho da oferta.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Para obter mais informações, consulte a <a href="../offers/ranking/personalized-optimization-model.md">documentação detalhada</a>.</p>
 </td>
@@ -148,18 +148,18 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Públicos-alvo**
 
-* Em preparação para a disponibilidade geral do recurso Portal de público-alvo, o Adobe Experience Platform está atualizando o uso de &quot;públicos-alvo&quot; e &quot;segmentos&quot; no sistema e na documentação.
+* Em preparação para a disponibilidade geral do recurso Portal de público-alvo, a Adobe Experience Platform está atualizando o uso de “públicos-alvo” e “segmentos” no sistema e na documentação.
 
    * Público-alvo: um conjunto de pessoas, contas, famílias ou outras entidades que compartilham características e comportamentos comuns.
-   * Definição de segmento: no Adobe Experience Platform, as regras usadas para descrever as principais características ou comportamento de um público-alvo. Esse termo era anteriormente conhecido como &quot;segmento&quot;.
+   * Definição de segmento: na Adobe Experience Platform, as regras usadas para descrever as principais características ou comportamentos de um público-alvo. Esse termo era anteriormente conhecido apenas como “segmento”.
 
-   Como resultado, no Adobe Journey Optimizer e na interface do usuário do Adobe Experience Platform, &quot;Segmentos&quot; será substituído por &quot;Públicos-alvo&quot; para refletir esse novo caminho de criação e gerenciamento de público-alvo.
+   Como resultado, na na interface do Adobe Journey Optimizer e da Adobe Experience Platform, “Segmentos” será substituído por “Públicos-alvo” para refletir esse novo caminho de criação e gerenciamento de público-alvo.
 
-   As traduções do termo &quot;público-alvo&quot; ao se referir a um grupo de perfis direcionados para receber uma mensagem foram harmonizadas em todos os produtos de experiência digital para alguns idiomas:
+   As traduções do termo “público-alvo” ao se referir a um grupo de perfis direcionados para receber uma mensagem foram harmonizadas em todos os produtos de Experiência digital para alguns idiomas:
 
    * Alemão: Zielgruppe
    * Português (Brasil): público-alvo
-   * Espanhol: público-destino
+   * Espanhol: público destinatario
 
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
@@ -167,12 +167,12 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 **Canal SMS**
 
 * O Infobip foi adicionado como provedor de fornecedores ao configurar suas superfícies de canal de SMS. [Leia mais](../sms/sms-configuration.md)
-* Twillio - A configuração de credencial da API agora inclui a capacidade de adicionar SID de serviço de mensagens para integração perfeita com sua conta do Twilio. [Leia mais](../sms/sms-configuration.md)
+* Twillio - A configuração de credencial da API agora inclui a capacidade de adicionar SID de serviço de mensagens para integração perfeita com sua conta do Twillio. [Leia mais](../sms/sms-configuration.md)
 
 **Canal no aplicativo**
 
-* Adição de novas regras de acionador de mensagem para o Serviço do Adobe Places. [Leia mais](../in-app/inapp-configuration.md)
-* Adicionados novos recursos do Adobe Experience Platform Assurance para capturar eventos de dispositivos para adicionar como regras de acionador.
+* Adição de novas regras de acionador de mensagem para o serviço do Adobe Places. [Leia mais](../in-app/inapp-configuration.md)
+* Adição de novos recursos da Adobe Experience Platform Assurance para capturar eventos de dispositivos e adicionar como regras de acionador.
 
 <!--
 **Journeys**
@@ -182,13 +182,13 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Campanhas**
 
-* Agora é possível duplicar uma campanha na tela de inventário usando o menu de ação de reticências. [Leia mais](../campaigns/modify-stop-campaign.md#duplicate)
-* Agora você pode excluir modificações de rascunho em uma campanha ao vivo.
+* Agora é possível duplicar uma campanha a partir da tela de inventário usando o menu de ação de reticências. [Leia mais](../campaigns/modify-stop-campaign.md#duplicate)
+* Agora é possível excluir modificações de rascunho em uma campanha ativa.
 * As etapas para ativar uma campanha agora foram simplificadas. [Leia mais](../campaigns/modify-stop-campaign.md)
 
 **Gestão de decisões**
 
-* Agora é possível editar o limite de frequência se a oferta tiver o **[!UICONTROL Rascunho]** e nunca foi publicado antes com o limite de frequência ativado. [Leia mais](../offers/offer-library/add-constraints.md#frequency-capping)
+* Agora é possível editar o limite de frequência se a oferta tiver o status **[!UICONTROL Rascunho]** e nunca tiver sido publicada antes com o limite de frequência habilitado. [Leia mais](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalização**
 
@@ -196,7 +196,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ### Correções{#may-2023-fixes}
 
-* Mensagens no aplicativo - correção de um problema em que o agendamento da campanha entrava em conflito com as configurações de frequência da mensagem.
+* Mensagens no aplicativo - correção de um problema no qual o agendamento da campanha entrava em conflito com as configurações de frequência da mensagem.
 
 
 ## Notas da versão de abril de 2023 {#apr-rn-2023}
@@ -226,7 +226,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Fluxo de trabalho de início rápido da integração móvel (Beta)</strong><br/></th>
+<th><strong>Fluxo de trabalho de início rápido de integração para dispositivos móveis (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -243,15 +243,15 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Novo painel de Jornada (Beta)</strong><br/></th>
+<th><strong>Novo painel da jornada (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> O painel de Jornada agora está dividido em duas guias:</p>
-<ul><li>Use o <strong>Visão geral</strong> para acessar um novo painel que exibe as métricas principais relacionadas às suas jornadas.</li>
-<li>Use o <strong>Procurar</strong> para acessar a lista de todas as jornadas.</li></ul>
+<p> O painel da jornada agora está dividido em duas guias:</p>
+<ul><li>Use a guia <strong>Visão geral</strong> para acessar um novo painel que exibe as métricas principais relacionadas às suas jornadas.</li>
+<li>Use a guia <strong>Procurar</strong> para acessar a lista de todas as jornadas.</li></ul>
 <p>Esse recurso pode ser acessado em todas as jornadas como um beta público.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/journey-gs.md#journey-access">documentação detalhada</a>.</p>
