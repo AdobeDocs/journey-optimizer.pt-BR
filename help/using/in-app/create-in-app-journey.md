@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 2d3cb7e9981e7df1f2cdd6eff1506fce24a5a962
+source-git-commit: 8ca779efd237174c3ac9b7694b1cb81fc8b3ea3e
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '531'
 ht-degree: 4%
 
 ---
@@ -52,6 +52,8 @@ ht-degree: 4%
    * **[!UICONTROL Mostrar uma vez]**: mostrar esta mensagem somente na primeira vez que os eventos forem selecionados na **[!UICONTROL Acionador do aplicativo móvel]** lista suspensa.
    * **[!UICONTROL Mostrar até clicar]**: mostrar esta mensagem quando os eventos selecionados no **[!UICONTROL Acionador do aplicativo móvel]** As listas suspensas ocorrem até que um evento de interação seja enviado pelo SDK com uma ação de &quot;clicado&quot;.
 
+1. Selecione o dia da semana e o horário específico em que deseja que a mensagem no aplicativo seja acionada e clique em **[!UICONTROL Salvar]**.
+
 1. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
 
 1. Quando a mensagem no aplicativo estiver pronta, finalize a configuração e publique sua jornada para ativá-la.
@@ -70,7 +72,7 @@ Para obter mais informações sobre como configurar uma jornada, consulte [esta 
 
 * **[!UICONTROL Reação]** As atividades do não podem ser usadas para reagir a uma abertura no aplicativo ou a um clique.
 
-* Ocorre um atraso de ativação entre o momento em que um perfil de usuário atinge uma atividade no aplicativo na tela e o momento em que ele começa a ver essa mensagem no aplicativo. Esse atraso pode variar de 15 minutos a 1 hora.
+* Um atraso de ativação pode ocorrer entre o momento em que um perfil de usuário atinge uma atividade no aplicativo na tela e o momento em que ele começa a ver essa mensagem no aplicativo.
 
 **Tópicos relacionados:**
 
