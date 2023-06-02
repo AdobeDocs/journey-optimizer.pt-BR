@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 50afe137c618153278c596f1553216c20637e40b
+source-git-commit: 2d3cb7e9981e7df1f2cdd6eff1506fce24a5a962
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '516'
 ht-degree: 4%
 
 ---
@@ -37,21 +37,20 @@ ht-degree: 4%
 
    ![](assets/in_app_journey_4.png)
 
+1. No **[!UICONTROL Acionador de mensagem no aplicativo]** escolha o(s) evento(s) e os critérios que acionarão sua mensagem:
+
+   1. Clique em **[!UICONTROL Adicionar condição]** se desejar que o acionador considere vários eventos ou critérios.
+   1. No **[!UICONTROL Selecionar um evento]** selecione o tipo de evento para o seu acionador.
+   1. Selecione como seus eventos são vinculados, por exemplo, escolha **[!UICONTROL E]** se desejar **ambos** será verdadeiro para que uma mensagem seja exibida ou escolha **[!UICONTROL Ou]** se quiser que a mensagem seja exibida se **ou** dos acionadores são verdadeiros.
+   1. Clique em **[!UICONTROL Criar grupo]** para agrupar acionadores.
+
+   ![](assets/in_app_journey_3.png)
+
 1. Escolha a frequência do acionador quando a mensagem no aplicativo estiver ativa:
 
    * **[!UICONTROL Mostrar sempre]**: sempre mostrar a mensagem quando os eventos selecionados no **[!UICONTROL Acionador do aplicativo móvel]** lista suspensa.
    * **[!UICONTROL Mostrar uma vez]**: mostrar esta mensagem somente na primeira vez que os eventos forem selecionados na **[!UICONTROL Acionador do aplicativo móvel]** lista suspensa.
    * **[!UICONTROL Mostrar até clicar]**: mostrar esta mensagem quando os eventos selecionados no **[!UICONTROL Acionador do aplicativo móvel]** As listas suspensas ocorrem até que um evento de interação seja enviado pelo SDK com uma ação de &quot;clicado&quot;.
-
-1. No **[!UICONTROL Acionador do aplicativo móvel]** selecione os eventos e critérios que acionarão sua mensagem:
-
-   1. Na lista suspensa à esquerda, selecione o evento necessário para acionar a mensagem.
-   1. Na lista suspensa à direita, selecione a validação necessária no evento selecionado.
-   1. Clique em **[!UICONTROL Adicionar]** se quiser que o acionador considere vários eventos ou critérios. Em seguida, repita as etapas acima.
-   1. Selecione como seus eventos são vinculados, por exemplo, escolha **[!UICONTROL E]** se desejar **ambos** será verdadeiro para que uma mensagem seja exibida ou escolha **[!UICONTROL Ou]** se quiser que a mensagem seja exibida se **ou** dos acionadores são verdadeiros.
-   1. Clique em **[!UICONTROL Salvar]** quando os Acionadores forem configurados.
-
-   ![](assets/in_app_journey_3.png)
 
 1. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
 
