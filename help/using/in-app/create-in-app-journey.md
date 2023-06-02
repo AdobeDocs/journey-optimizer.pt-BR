@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 9994bc6076f55128f5aa2c316433986eeff714b3
+source-git-commit: 8b966ddc9f96485e27cc7e9aa360d6d2ead84153
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '552'
 ht-degree: 4%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 4%
 
 1. Escolha a frequência do acionador quando a mensagem no aplicativo estiver ativa:
 
-   * **[!UICONTROL Mostrar sempre]**: sempre mostrar a mensagem quando os eventos selecionados no **[!UICONTROL Acionador do aplicativo móvel]** lista suspensa.
-   * **[!UICONTROL Mostrar uma vez]**: mostrar esta mensagem somente na primeira vez que os eventos forem selecionados na **[!UICONTROL Acionador do aplicativo móvel]** lista suspensa.
-   * **[!UICONTROL Mostrar até clicar]**: mostrar esta mensagem quando os eventos selecionados no **[!UICONTROL Acionador do aplicativo móvel]** As listas suspensas ocorrem até que um evento de interação seja enviado pelo SDK com uma ação de &quot;clicado&quot;.
+   * **[!UICONTROL Toda vez]**: sempre mostrar a mensagem quando os eventos selecionados no **[!UICONTROL Acionador do aplicativo móvel]** lista suspensa.
+   * **[!UICONTROL Uma vez]**: mostrar esta mensagem somente na primeira vez que os eventos forem selecionados na **[!UICONTROL Acionador do aplicativo móvel]** lista suspensa.
+   * **[!UICONTROL Até o click-through]**: mostrar esta mensagem quando os eventos selecionados no **[!UICONTROL Acionador do aplicativo móvel]** As listas suspensas ocorrem até que um evento de interação seja enviado pelo SDK com uma ação de &quot;clicado&quot;.
    * **[!UICONTROL X número de vezes]**: mostrar a mensagem apenas um número específico de vezes, determinado pelo valor definido na variável **[!UICONTROL Horários para exibir]** campo.
 
 1. Selecione o dia da semana e o horário específico em que deseja que a mensagem no aplicativo seja acionada e clique em **[!UICONTROL Salvar]**.
