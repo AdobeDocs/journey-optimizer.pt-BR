@@ -5,9 +5,9 @@ title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2466'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>Agora é possível criar, usar e gerenciar fragmentos para reunir rapidamente emails e modelos de conteúdo. Um fragmento é um componente reutilizável pré-construído que pode ser referenciado em vários emails em campanhas e jornadas do Journey Optimizer para um processo de design aprimorado e acelerado.</p>
+<p>Agora é possível criar, usar e gerenciar fragmentos para produzir rapidamente emails e modelos de conteúdo. Um fragmento é um componente reutilizável pré-construído que pode ser referenciado em vários emails em campanhas e jornadas do Journey Optimizer para um processo de design aprimorado e acelerado.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
 <p>Para obter mais informações, consulte a <a href="../email/fragments.md">documentação detalhada</a>.</p>
 </td>
