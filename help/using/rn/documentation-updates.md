@@ -5,9 +5,9 @@ title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2876'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Uma nova seção foi adicionada para descrever como garantir que a escolha de seus clientes que optam por não terem seus dados de perfil usados para personalização seja respeitada. [Leia mais](../privacy/opt-out.md#opt-out-personalization)
 * Foi adicionada uma nota sobre o uso de caracteres internacionais especiais em URLs incluídos em conteúdos de email. [Leia mais](../email/message-tracking.md#insert-links)
 * A permissão necessária para testar e publicar páginas de destino foi adicionada. [Leia mais](../landing-pages/create-lp.md)
-* Adição de uma observação sobre os endpoints do Adobe Experience Platform necessários para que seus eventos personalizados sejam considerados no limite de frequência da Gestão de decisões. [Leia mais](../offers/data-collection/schema-requirement.md#track-custom-events)
+* Foi adicionada uma nota sobre os ponto de acesso da Adobe Experience Platform necessários para contabilizar seus eventos personalizados no limite de frequência da Gestão de decisões. [Leia mais](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## Abril de 2023 {#apr-2023}
 
