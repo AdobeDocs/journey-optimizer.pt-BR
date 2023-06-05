@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -248,7 +248,7 @@ Você também pode especificar se deseja que o limite seja aplicado a todos os u
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="Definir a frequência limite"
->abstract="Você pode optar por redefinir o contador de limite de oferta diariamente, semanalmente ou mensalmente. Observe que, após publicar a oferta com o limite de frequência ativado, você não poderá alterar a frequência que foi definida."
+>abstract="Você pode optar por redefinir o contador de limite de oferta diariamente, semanalmente ou mensalmente. Observe que, após publicar a oferta com o limite de frequência habilitado, não será possível alterar a frequência que foi definida."
 
 A variável **[!UICONTROL Frequência]** permite definir com que frequência a contagem de limite é redefinida. Para fazer isso, defina o período de tempo para a contagem (diariamente, semanalmente ou mensalmente) e insira o número de dias/semanas/meses de sua escolha.
 

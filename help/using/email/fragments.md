@@ -11,7 +11,7 @@ exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
 source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
 workflow-type: tm+mt
 source-wordcount: '1453'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -124,7 +124,7 @@ Depois de salvo, o fragmento fica disponível para uso em uma jornada, campanha 
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="Definir o próprio fragmento"
+>title="Defina seu próprio fragmento"
 >abstract="Crie um fragmento independente do zero para tornar seu conteúdo reutilizável em várias jornadas e campanhas."
 
 Para criar um fragmento do zero, siga as etapas abaixo.

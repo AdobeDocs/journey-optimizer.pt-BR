@@ -12,7 +12,7 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -49,8 +49,8 @@ Além disso, use a conta do **Litmus** no [!DNL Journey Optimizer] para pré-vis
 >id="ac_preview_testprofiles"
 >title="Visualizar e testar suas mensagens"
 >abstract="Após definir o conteúdo da mensagem, é possível usar perfis de teste para visualizar e testar o conteúdo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#email-rendering" text="Renderização de email"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#preview-email" text="Visualização"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=pt-BR#email-rendering" text="Renderização de email"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=pt-BR#preview-email" text="Visualização"
 
 Uso [Perfis de teste](../segment/creating-test-profiles.md) para direcionar recipients adicionais que não correspondem aos critérios de direcionamento definidos.
 

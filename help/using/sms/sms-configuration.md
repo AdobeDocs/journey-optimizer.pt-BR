@@ -42,7 +42,7 @@ Seu uso de serviços SMS estará sujeito a termos e condições adicionais do pr
 >id="ajo_admin_sms_api"
 >title="Configurar o fornecedor de SMS com o Journey Optimizer"
 >abstract="Antes de enviar SMS, você deve integrar as configurações do provedor com o Journey Optimizer. Depois de concluído, você precisará criar uma superfície de SMS. Essas etapas devem ser executadas por um administrador do sistema do Adobe Journey Optimizer."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=br#message-preset-sms" text="Criar uma superfície de canal SMS"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=pt-BR#message-preset-sms" text="Criar uma superfície de canal SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
