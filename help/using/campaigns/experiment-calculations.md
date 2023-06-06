@@ -16,7 +16,7 @@ ht-degree: 2%
 
 ---
 
-# Compreender cálculos estatísticos {#experiment-calculations}
+# Compreenda cálculos estatísticos {#experiment-calculations}
 
 Este artigo descreve os cálculos estatísticos usados quando você executa experimentos no Adobe Journey Optimizer.
 

@@ -154,7 +154,7 @@ Para fazer isso, selecione-o na lista de ofertas substitutas disponíveis para o
 >
 >Você pode clicar no link **[!UICONTROL Abrir biblioteca de ofertas]** para exibir a lista de ofertas em uma nova guia.
 
-## Revisar e salvar a decisão {#review}
+## Revise e salve a decisão {#review}
 
 Se tudo estiver configurado corretamente, um resumo das propriedades de decisão será exibido.
 

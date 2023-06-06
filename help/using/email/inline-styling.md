@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adicionar atributos de estilo em linha
+title: Adicionar atributos de estilo incorporado
 description: Saiba como adicionar atributos de estilo em linha
 feature: Overview
 topic: Content Management
@@ -16,7 +16,7 @@ ht-degree: 36%
 
 ---
 
-# Adicionar atributos de estilo em linha {#inline-styling}
+# Adicionar atributos de estilo incorporado {#inline-styling}
 
 Na interface do Designer de email, ao selecionar um elemento e exibir suas configurações no painel lateral, você pode personalizar os atributos em linha e seus valores para esse elemento específico.
 

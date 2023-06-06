@@ -294,7 +294,7 @@ Quando a landing page estiver pronta, você poderá publicá-la para disponibili
 
 Quando a landing page for publicada, ela será adicionada à lista de landing pages com a **[!UICONTROL Publicado]** status.
 
-Agora está ativo e pronto para ser usado em um [!DNL Journey Optimizer] mensagem que será enviada por meio de um [jornada](../building-journeys/journey.md).
+Agora ele está ativo e pronto para ser usado em uma [!DNL Journey Optimizer] mensagem que será enviada por meio de um [jornada](../building-journeys/journey.md).
 
 >[!NOTE]
 >
