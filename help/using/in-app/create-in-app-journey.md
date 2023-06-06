@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 8b966ddc9f96485e27cc7e9aa360d6d2ead84153
+source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 4%
+source-wordcount: '735'
+ht-degree: 3%
 
 ---
 
@@ -74,6 +74,35 @@ Para obter mais informações sobre como configurar uma jornada, consulte [esta 
 * **[!UICONTROL Reação]** As atividades do não podem ser usadas para reagir a uma abertura no aplicativo ou a um clique.
 
 * Um atraso de ativação pode ocorrer entre o momento em que um perfil de usuário atinge uma atividade no aplicativo na tela e o momento em que ele começa a ver essa mensagem no aplicativo.
+
+## Relatório no aplicativo {#inapp-report}
+
+Da sua Jornada **[!UICONTROL Relatório global]**, o **[!UICONTROL No aplicativo]** A guia detalha as principais informações relacionadas aos deliveries no aplicativo enviados em suas jornadas.
+
+Saiba mais sobre [Jornada relatório global](../reports/journey-global-report.md).
+
+![](assets/in-app-journey-report.png)
+
++++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório No aplicativo.
+
+A variável **[!UICONTROL Desempenho no aplicativo]** Os KPIs detalham as principais informações relativas ao envolvimento dos visitantes com as mensagens no aplicativo, como:
+
+* **[!UICONTROL Impressões exclusivas]**: número de usuários únicos para os quais a mensagem no aplicativo foi entregue.
+
+* **[!UICONTROL Impressões]**: número total de mensagens no aplicativo entregues a todos os usuários.
+
+* **[!UICONTROL Taxa de cliques]**: porcentagem de usuários que interagiram com os botões incluídos na mensagem no aplicativo em comparação aos usuários que viram a mensagem.
+
+* **[!UICONTROL Taxa de descarte]**: porcentagem de mensagens no aplicativo que os recipients rejeitaram.
+
+A variável **[!UICONTROL Resumo no aplicativo]** O gráfico mostra a evolução das impressões no aplicativo para o período relacionado.
+
+A variável **[!UICONTROL Cliques por botão]** os gráficos e a tabela contêm os dados disponíveis para o comportamento do recipient por botão:
+
+* **[!UICONTROL Cliques]**: número total de recipients que interagiram com os botões incluídos na mensagem no aplicativo.
+
+* **[!UICONTROL Taxa de cliques]**: porcentagem de usuários que interagiram com os botões incluídos na mensagem no aplicativo em comparação aos usuários que viram a mensagem.
++++
 
 **Tópicos relacionados:**
 
