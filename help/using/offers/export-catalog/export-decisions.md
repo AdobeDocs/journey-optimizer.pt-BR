@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 3%
@@ -260,7 +260,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 
 **Campo:** endTime
 **Título:** Data e hora de término da atividade
-**Descrição:** Data e hora de término da decisão (anteriormente conhecida como atividade). A propriedade tem a semântica da propriedade &#39;endTime&#39; de schema.org definida em http://schema.org/Action.
+**Descrição:** Data e hora de término da decisão (anteriormente conhecida como atividade). A propriedade tem a semântica da propriedade &#39;endTime&#39; de schema.org definida em https://schema.org/Action.
 **Tipo:** sequência de caracteres
 
 +++
@@ -287,7 +287,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 
 **Campo:** startTime
 **Título:** Data e hora de início da atividade
-**Descrição:** Data de início e hora de término da decisão (anteriormente conhecida como atividade). A propriedade tem a semântica da propriedade &#39;startTime&#39; de schema.org definida em http://schema.org/Action.
+**Descrição:** Data de início e hora de término da decisão (anteriormente conhecida como atividade). A propriedade tem a semântica da propriedade &#39;startTime&#39; de schema.org definida em https://schema.org/Action.
 **Tipo:** sequência de caracteres
 
 +++

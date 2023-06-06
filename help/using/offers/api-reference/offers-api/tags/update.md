@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 230f4915baedf557fe8effe216f463fca6af4849
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 9%
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 Você pode modificar ou atualizar um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;) no seu contêiner fazendo uma solicitação PATCH para o [!DNL Offer Library] API.
 
-Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação de patch de JSON](http://jsonpatch.com/).
+Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação de patch de JSON](https://jsonpatch.com/).
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 

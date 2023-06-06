@@ -2,7 +2,7 @@
 title: Decisão em lote
 description: Saiba como fornecer decisões de oferta a todos os perfis em um determinado segmento do Adobe Experience Platform.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Antes de configurar uma solicitação de tarefa, verifique se você criou:
 
 * **Um conjunto de dados** no Adobe Experience Platform. Esse conjunto de dados será usado para armazenar o resultado da decisão usando o schema &quot;ODE DecisionEvents&quot;. Saiba mais na [Documentação de conjuntos de dados](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR).
 
-* **Um segmento** no Adobe Experience Platform. O segmento deve ser avaliado e depois atualizado. Saiba como atualizar a avaliação de associação de segmento no [Documentação do Serviço de segmentação](http://www.adobe.com/go/segmentation-overview-en)
+* **Um segmento** no Adobe Experience Platform. O segmento deve ser avaliado e depois atualizado. Saiba como atualizar a avaliação de associação de segmento no [Documentação do Serviço de segmentação](https://www.adobe.com/go/segmentation-overview-en)
 
    >[!NOTE]
    >
