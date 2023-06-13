@@ -57,15 +57,15 @@ Os recursos e a integração da Gestão de decisões com a Adobe Experience Plat
 
 * Exiba em seu site as ofertas da página inicial que corresponderão ao ponto de interesse do cliente visitante, com base nos dados da Adobe Experience Platform.
 
-   ![](../assets/website.png)
+  ![](../assets/website.png)
 
 * Se os clientes se aproximarem de uma de suas lojas, envie a eles notificações por push lembrando sobre as ofertas disponíveis de acordo com seus atributos (nível de fidelidade, gênero, compras anteriores etc.).
 
-   ![](../assets/push_sample.png)
+  ![](../assets/push_sample.png)
 
 * A Gestão de decisões também ajuda você a aprimorar a experiência dos clientes ao entrar em contato com a equipe de suporte. As APIS da Gestão de decisões permitem exibir no portal de agentes da central de atendimento informações sobre as melhores ofertas resgatadas do cliente e as próximas melhores ofertas.
 
-   ![](../../assets/do-not-localize/call-center.png)
+  ![](../../assets/do-not-localize/call-center.png)
 
 ## Conceder acesso à Gestão de decisões {#granting-acess-to-decision-management}
 
