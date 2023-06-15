@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 82%
 
 ---
 
@@ -38,7 +38,7 @@ O que você encontrará nesta documentação:
 
 >[!AVAILABILITY]
 >
->Atualmente, a composição do público está disponível apenas como um beta privado e pode estar sujeita a atualizações frequentes sem aviso prévio. O beta é provisionado no nível da organização, o que significa que afetará todas as sandboxes na organização.
+>A composição de público-alvo só está disponível para um grupo limitado de clientes no momento. Entre em contato com o representante da Adobe em caso de dúvidas.
 
 A composição do público permite criar **workflows de composição**, em que é possível combinar públicos existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos.
 
@@ -49,6 +49,8 @@ Depois de concluído, os **públicos resultantes** são salvos na Adobe Experien
 >[!IMPORTANT]
 >
 >Os públicos resultantes de workflows de composição podem ser direcionados somente para campanhas do Journey Optimizer . Eles não estão disponíveis para uso em jornadas.
+>
+>As campanhas no Adobe Journey Optimizer ainda não estão integradas ao serviço de aplicação de políticas. Portanto, quaisquer rótulos de uso de dados que você aplicar aos atributos de público não serão aplicados nas campanhas do Journey Optimizer.
 
 A composição de públicos é acessível no menu **[!UICONTROL Segmentos]** do Adobe Journey Optimizer:
 

@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 14%
+source-wordcount: '405'
+ht-degree: 15%
 
 ---
 
@@ -50,6 +50,7 @@ Para criar um fluxo de trabalho de composição, siga estas etapas:
    * **[!UICONTROL Público]**: o ponto inicial da sua composição. Essa atividade permite selecionar um ou vários públicos-alvo como base para o fluxo de trabalho,
 
    * **[!UICONTROL Salvar]**: a última etapa da sua composição. Essa atividade permite salvar o resultado do fluxo de trabalho em um novo público-alvo.
+
    Para obter mais informações sobre como configurar atividades na tela de workflow de composição, consulte [Trabalhar com a tela de composição](composition-canvas.md).
 
 1. Abra as propriedades de composição para especificar um título e uma descrição.
@@ -66,7 +67,7 @@ Para criar um fluxo de trabalho de composição, siga estas etapas:
 
    >[!IMPORTANT]
    >
-   >Você pode publicar até 75 composições em uma determinada sandbox. Se tiver atingido esse limite, será necessário excluir uma composição para liberar espaço e publicar uma nova.
+   >Você pode publicar até 10 composições em uma determinada sandbox. Se tiver atingido esse limite, será necessário excluir uma composição para liberar espaço e publicar uma nova.
 
    Se ocorrer algum erro durante a publicação, os alertas serão exibidos com informações sobre como resolver o problema.
 
@@ -85,7 +86,6 @@ Todas as composições criadas podem ser acessadas no **[!UICONTROL Composiçõe
 
 * **[!UICONTROL Rascunho]**: a composição está em andamento e não foi publicada.
 * **[!UICONTROL Publicado]**: a composição foi publicada, os públicos resultantes foram salvos e estão disponíveis para uso.
-* **[!UICONTROL Arquivado]**: a composição foi arquivada.
 
 ![](assets/audiences-compositions.png)
 
