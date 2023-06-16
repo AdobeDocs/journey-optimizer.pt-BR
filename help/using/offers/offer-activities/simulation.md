@@ -9,7 +9,7 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
->title="Simular decisões de oferta"
->abstract="A simulação permite simular quais ofertas serão entregues a um perfil de teste para uma determinada inserção. Isso permite testar e refinar várias versões de suas ofertas sem impacto nos recipients direcionados."
+>title="Simulação de decisões de ofertas"
+>abstract="Uma simulação permite simular quais ofertas serão entregues a um perfil de teste para uma determinada inserção. Dessa forma, é possível testar e refinar várias versões de suas ofertas sem impacto nos destinatários direcionados."
 
 ## Sobre a simulação {#about-simulation}
 
@@ -26,7 +26,7 @@ Para validar a lógica de decisão, é possível simular quais ofertas serão en
 
 <!--Simulation allows you to view the results of offer decisions as a selected profile.-->
 
-Isso permite testar e refinar várias versões de suas ofertas sem impacto nos recipients direcionados.
+Dessa forma, é possível testar e refinar várias versões de suas ofertas sem impacto nos destinatários direcionados.
 
 >[!NOTE]
 >
