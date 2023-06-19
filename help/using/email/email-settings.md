@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
+source-git-commit: 958e0c4352e150ebabdf53f0cc4f0eae2a478714
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1787'
 ht-degree: 9%
 
 ---
@@ -43,13 +43,9 @@ A configuração da superfície de email é selecionada para envio de comunicaç
 
 No **TIPO DE EMAIL** selecione o tipo de mensagem que será enviada com a superfície: **Marketing** ou **Transacional**.
 
-* Escolher **Marketing** para email promocional: essas mensagens exigem o consentimento do usuário.
+* Escolher **Marketing** para email promocional, como promoções semanais para uma loja de varejo. Essas mensagens exigem o consentimento do usuário.
 
-* Escolher **Transacional** para emails não comerciais, como confirmação de pedidos, notificações de redefinição de senha ou informações de entrega, por exemplo.
-
->[!CAUTION]
->
->**Transacional** os emails podem ser enviados a perfis que cancelaram a assinatura de comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
+* Escolher **Transacional** para emails não comerciais, como confirmações de pedidos, notificações de redefinição de senha ou informações de entrega, por exemplo. Esses emails podem ser enviados a perfis que **cancelado** de comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
 
 Ao criar uma mensagem, você deve escolher uma superfície de canal válida que corresponda à categoria selecionada para o seu email.
 
@@ -95,19 +91,19 @@ O link de cancelamento de inscrição consiste em dois elementos:
 
 * Um **cancelar inscrição de endereço de email**, para a qual todas as solicitações de cancelamento de inscrição serão enviadas.
 
-   Entrada [!DNL Journey Optimizer], o endereço de email de cancelamento de inscrição é o padrão **[!UICONTROL Mailto (cancelar inscrição)]** endereço exibido na superfície de canal, com base na variável [subdomínio selecionado](#subdomains-and-ip-pools).
+  Entrada [!DNL Journey Optimizer], o endereço de email de cancelamento de inscrição é o padrão **[!UICONTROL Mailto (cancelar inscrição)]** endereço exibido na superfície de canal, com base na variável [subdomínio selecionado](#subdomains-and-ip-pools).
 
-   ![](assets/preset-list-unsubscribe-mailto.png)
+  ![](assets/preset-list-unsubscribe-mailto.png)
 
 * A variável **cancelar inscrição do URL**, que é o URL da página de aterrissagem para a qual o usuário será redirecionado após cancelar a inscrição.
 
-   Se você adicionar um [link para opção de não participação com um clique](../privacy/opt-out.md#one-click-opt-out) para uma mensagem criada usando essa superfície, o URL de cancelamento de inscrição será o URL definido para o link de recusa de um clique.
+  Se você adicionar um [link para opção de não participação com um clique](../privacy/opt-out.md#one-click-opt-out) para uma mensagem criada usando essa superfície, o URL de cancelamento de inscrição será o URL definido para o link de recusa de um clique.
 
-   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+  ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   >[!NOTE]
-   >
-   >Se você não adicionar um link de recusa de um clique no conteúdo da mensagem, nenhuma página de aterrissagem será exibida para o usuário.
+  >[!NOTE]
+  >
+  >Se você não adicionar um link de recusa de um clique no conteúdo da mensagem, nenhuma página de aterrissagem será exibida para o usuário.
 
 Saiba mais sobre como adicionar um link de cancelamento de inscrição de cabeçalho às suas mensagens no [nesta seção](../privacy/opt-out.md#unsubscribe-header).
 
