@@ -6,9 +6,9 @@ description: Saiba como configurar seu ambiente para enviar SMS com o Journey Op
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
+source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '921'
 ht-degree: 18%
 
 ---
@@ -21,7 +21,7 @@ Antes de enviar SMS, configure sua instância. Você precisa [integrar as config
 
 ## Pré-requisitos{#sms-prerequisites}
 
-Atualmente, o Adobe Journey Optimizer está integrado a provedores de terceiros, como Sinch e Twilio, que oferecem serviços SMS independentes do Adobe Journey Optimizer.
+Atualmente, o Adobe Journey Optimizer está integrado a provedores de terceiros, como Sinch, Twilio e Infobip, que oferecem serviços SMS independentes do Adobe Journey Optimizer.
 
 Antes da configuração do SMS, você deve criar uma conta com um desses provedores de SMS para receber o token da API e a ID de serviço que permitirá estabelecer a conexão entre o Adobe Journey Optimizer e o provedor de SMS aplicável.
 
@@ -62,6 +62,7 @@ Para configurar seu fornecedor de SMS com o Journey Optimizer, siga estas etapas
       * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
 
       * **[!UICONTROL ID do serviço]** e **[!UICONTROL Token de API]**: para acessar a página APIs, você pode encontrar suas credenciais na guia SMS.  [Saiba mais](https://developers.sinch.com/docs/sms/getting-started/)
+
    * Para **[!DNL Twilio]**:
 
       * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
@@ -69,6 +70,7 @@ Para configurar seu fornecedor de SMS com o Journey Optimizer, siga estas etapas
       * **[!UICONTROL SID da conta]** e **[!UICONTROL Token de autenticação]**: acesse o painel Informações da conta da página Painel do Twilio Console para encontrar suas credenciais.
 
       * **[!UICONTROL SID da Mensagem]**: digite o identificador exclusivo atribuído a cada mensagem criada pela API do Twilio. [Saiba mais](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+
    * Para **[!DNL Infobip]**:
 
       * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
@@ -114,20 +116,19 @@ Para criar uma superfície de canal, siga estas etapas:
       * Escolher **Marketing** para SMS promocional: essas mensagens exigem o consentimento do usuário.
       * Escolher **Transacional** para mensagens não comerciais, como confirmação de pedidos, notificações de redefinição de senha ou informações de entrega, por exemplo.
 
-      >[!CAUTION]
-      >
-      >**Transacional** Mensagens SMS podem ser enviadas a perfis que cancelaram a assinatura de comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
+     >[!CAUTION]
+     >
+     >**Transacional** Mensagens SMS podem ser enviadas a perfis que cancelaram a assinatura de comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
 
-      Ao criar uma mensagem SMS, você deve escolher uma superfície de canal válida que corresponda à categoria selecionada para a mensagem.
+     Ao criar uma mensagem SMS, você deve escolher uma superfície de canal válida que corresponda à categoria selecionada para a mensagem.
 
    * Selecione o **[!UICONTROL Configuração de SMS]** para associar à superfície.
 
-      Para obter mais informações sobre como configurar o seu ambiente para enviar mensagens SMS, consulte [nesta seção](#create-api).
+     Para obter mais informações sobre como configurar o seu ambiente para enviar mensagens SMS, consulte [nesta seção](#create-api).
 
    * Insira o **[!UICONTROL Número do remetente]** &#x200B;que você deseja usar para suas comunicações.
 
    * Selecione o **[!UICONTROL Campo de execução do SMS]** para selecionar o **[!UICONTROL Atributo de perfil]** associados aos números de telefone dos perfis.
-
 
 1. Se quiser usar a função de redução de URL em suas mensagens SMS, selecione um item na lista suspensa **[!UICONTROL Subdomínio]** lista.
 
