@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: indexOf, função, expressão, jornada
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 383ab306401bc52717a9818e871100993e1ff2ff
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 18%
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # indexOf {#indexOf}
 
-Verifica se a primeira cadeia de caracteres do argumento termina com uma cadeia de caracteres específica (segunda cadeia de caracteres do argumento). Se a sequência de caracteres não for encontrada, retorne -1.
+Retorna a posição (no primeiro argumento) da primeira ocorrência do segundo parâmetro. Retorna -1 se não houver correspondência.
 
 ## Categoria
 
