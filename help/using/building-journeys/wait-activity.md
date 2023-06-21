@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 428f670eef8b5bda112692eaff29d5e1a983fe1a
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 23%
+source-wordcount: '350'
+ht-degree: 24%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 23%
 >title="Atividade de espera"
 >abstract="Se quiser esperar antes de executar a próxima atividade no caminho, você pode usar uma atividade Esperar. Ela permite definir o momento em que a próxima atividade será executada. Duas opções estão disponíveis: duração e personalizado."
 
-Se quiser aguardar antes de executar a próxima atividade no caminho, você poderá usar um **[!UICONTROL Aguardar]** atividade. Ela permite definir o momento em que a próxima atividade será executada. Três opções estão disponíveis:
+Se quiser aguardar antes de executar a próxima atividade no caminho, você poderá usar um **[!UICONTROL Aguardar]** atividade. Ela permite definir o momento em que a próxima atividade será executada. As opções disponíveis são as seguintes:
 
 * [Duração](#duration)
 * [Personalizado](#custom)
