@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: reentrada, jornada, perfil, recorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: deb3646235377bf48b91b019e3442e4a3d6f0cf8
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 22%
@@ -42,6 +42,6 @@ Em uma jornada de segmento de leitura:
 
 * Para jornadas não recorrentes: o perfil insere uma vez e somente uma vez na jornada.
 
-* Para jornadas recorrentes: o perfil insere a jornada em cada recorrência, se ele estiver no status segmento/esperado. Se ele ainda estava na jornada de uma recorrência anterior, ele a reiniciará do início.
+* Para jornadas recorrentes: o perfil insere a jornada em cada recorrência, se elas estiverem no status segmento/ esperado. Se eles ainda estavam na jornada de uma recorrência anterior, eles a reiniciarão do início.
 
-Em jornadas de eventos comerciais que começam com um **Ler segmento** Atividade: sabendo que essa jornada se baseia na recepção de um evento comercial, se o perfil for qualificado no segmento esperado, ele inserirá a jornada para cada evento comercial recebido, o que significa que esse perfil pode ser várias vezes na mesma jornada, ao mesmo tempo, mas no contexto de diferentes eventos comerciais.
+Em jornadas de eventos comerciais que começam com um **Ler segmento** Atividade: sabendo que essa jornada se baseia na recepção de um evento comercial, se o perfil for qualificado no segmento esperado, eles inserirão a jornada para cada evento comercial recebido, o que significa que esse perfil pode ser várias vezes na mesma jornada, ao mesmo tempo, mas no contexto de diferentes eventos comerciais.
