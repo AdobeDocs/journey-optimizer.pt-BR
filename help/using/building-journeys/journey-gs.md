@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, segmento, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1549'
 ht-degree: 28%
 
 ---
@@ -40,7 +40,7 @@ Para enviar mensagens com jornadas, as seguintes configurações são necessári
 
 ## Acessar jornadas {#journey-access}
 
-Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]**. Duas guias estão disponíveis:
+Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]**. Duas guias estarão disponíveis:
 
 **Visão geral**: esta guia exibe um painel com as métricas principais relacionadas às suas jornadas:
 
@@ -153,7 +153,7 @@ Você também pode adicionar um **Data final**. Isso permite que os perfis saiam
 
 ### Tempo limite e erro em atividades de jornada {#timeout_and_error}
 
-Ao editar uma atividade de ação ou condição, é possível definir um caminho alternativo em caso de erro ou tempo limite. Se o processamento da atividade que interroga um sistema de terceiros exceder a duração do tempo limite definida nas propriedades da jornada (**[!UICONTROL Tempo limite e erro]** ), o segundo caminho será escolhido para executar uma possível ação de fallback.
+Ao editar uma atividade de ação ou condição, você tem a opção de especificar um caminho alternativo no caso de um erro ou tempo limite. Se o processamento da atividade, que envolve a consulta de um sistema de terceiros, exceder a duração especificada nas propriedades da jornada para tempo limite e tratamento de erros (**[!UICONTROL Tempo limite e erro]** ), o segundo caminho será selecionado para executar uma ação de fallback, se necessário.
 
 Os valores autorizados estão entre 1 e 30 segundos.
 

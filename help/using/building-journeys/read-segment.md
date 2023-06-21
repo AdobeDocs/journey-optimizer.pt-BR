@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, segmento, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 834e2bbf00d1169ca3f15127fe380f6ee40ae88a
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
 source-wordcount: '1338'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -112,7 +112,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->As jornadas de segmento de leitura única são movidas para o status Concluído 30 dias após a execução da jornada. Para segmentos de leitura agendados, isso acontece 30 dias após a execução da última ocorrência.
+>Uma foto **Ler segmento** As jornadas são movidas para a **Concluído** status 30 dias após a execução da jornada. Para programado **Ler segmentos**, isso acontece 30 dias após a execução da última ocorrência.
 
 ### Testar e publicar a jornada {#testing-publishing}
 
