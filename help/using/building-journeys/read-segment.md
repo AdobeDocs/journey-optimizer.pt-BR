@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, segmento, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 61acbad019ead6bfd86c6fb39d7de1920f28d984
+source-git-commit: 834e2bbf00d1169ca3f15127fe380f6ee40ae88a
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1338'
 ht-degree: 13%
 
 ---
@@ -87,9 +87,9 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
 
    ![](assets/read-segment-schedule-list.png)
 
-   **Leitura incremental** opção: quando uma jornada com um evento recorrente **Ler segmento** O executa pela primeira vez, todos os perfis no segmento entram na jornada. Essa opção permite direcionar, após a primeira ocorrência, somente os indivíduos que entraram no segmento desde a última execução da jornada.
+   Quando uma jornada com um evento recorrente **Ler segmento** O executa pela primeira vez, todos os perfis no segmento entram na jornada. Use o **Leitura incremental** opção para direcionar, após a primeira ocorrência, somente os indivíduos que entraram no segmento desde a última execução da jornada.
 
-   **Forçar reentrada na recorrência**: essa opção permite fazer com que todos os perfis ainda presentes no jornada saiam automaticamente na próxima execução. Por exemplo, se você tiver 2 dias de espera em uma jornada recorrente diária, ao ativar essa opção os perfis sempre serão movidos na próxima execução da jornada (ou seja, no dia seguinte), estejam ou não no público da próxima execução. Se a duração dos perfis nesta jornada for maior que a frequência de recorrência, não ative essa opção para garantir que os perfis possam concluir a jornada.
+   Habilitando o **Forçar reentrada na recorrência** permite remover automaticamente todos os perfis que estão na jornada durante a próxima execução. Por exemplo, se houver uma espera de 2 dias em uma jornada recorrente diária, a ativação dessa opção moverá os perfis consistentemente para a execução da jornada subsequente (o dia seguinte), independentemente de fazerem parte do público da próxima execução. No entanto, se a duração dos perfis nessa jornada puder exceder a frequência de recorrência, é aconselhável não ativar essa opção para garantir que os perfis possam concluir sua jornada.
 
 <!--
 
