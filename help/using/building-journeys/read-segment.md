@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, segmento, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
+source-git-commit: a278b217882f2646e106600e110226941e7e4f10
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1337'
 ht-degree: 12%
 
 ---
@@ -75,7 +75,7 @@ As etapas para configurar a atividade Ler segmento são as seguintes:
    >
    >A taxa de limitação geral por sandbox está definida como 20.000 mensagens por segundo. Portanto, a taxa de limitação de todos os segmentos de leitura executados simultaneamente na mesma sandbox adiciona no máximo 20.000 mensagens por segundo. Não é possível modificar esse limite.
 
-1. A variável **[!UICONTROL Segmento de leitura]** A atividade permite especificar a hora em que o segmento entrará na jornada. Para fazer isso, clique no link **[!UICONTROL Editar programação de jornada]** link para acessar as propriedades da jornada e configurar o **[!UICONTROL Tipo de scheduler]** campo.
+1. A variável **[!UICONTROL Segmento de leitura]** A atividade permite especificar a hora em que o segmento entrará na jornada. Para fazer isso, clique no link **[!UICONTROL Editar programação de jornada]** para acessar as propriedades da jornada. Em seguida, configure o **[!UICONTROL Tipo de scheduler]** campo.
 
    ![](assets/read-segment-schedule.png)
 
