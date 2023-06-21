@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: jornada, descobrir, começar
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 17c13b54d59e254543eb3340f791745ea24208c8
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '596'
 ht-degree: 28%
 
 ---
@@ -47,7 +47,7 @@ O Adobe Journey Optimizer inclui uma tela de orquestração omnicanal que permit
 
 Saiba como iniciar e criar sua primeira jornada no [esta página](journey-gs.md).
 
-O designer de jornada omnicanal ajuda você a criar jornadas em várias etapas com públicos-alvo direcionados, atualizações com base em interações de clientes ou negócios em tempo real e mensagens omnicanal usando uma interface intuitiva de arrastar e soltar.
+O designer de jornadas omnicanal auxilia você na construção de jornadas de várias etapas, direcionando públicos especificamente e incorporando atualizações com base em interações de clientes ou negócios em tempo real. Ela também permite criar mensagens omnicanal por meio de uma interface intuitiva de arrastar e soltar.
 
 ![](assets/journey38.png)
 
