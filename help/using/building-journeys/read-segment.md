@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, segmento, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 61acbad019ead6bfd86c6fb39d7de1920f28d984
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 13%
@@ -118,11 +118,11 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 A variável **[!UICONTROL Segmento de leitura]** A atividade permite testar a jornada em um perfil unitário ou em 100 perfis de teste aleatórios selecionados entre os perfis qualificados para o segmento.
 
-Para fazer isso, ative o modo de teste e selecione a opção desejada no painel esquerdo.
+Para fazer isso, ative a variável **modo de teste**. Em seguida, selecione a opção desejada no painel esquerdo.
 
 ![](assets/read-segment-test-mode.png)
 
-Em seguida, você pode configurar e executar o modo de teste como de costume. [Saiba como testar uma jornada](testing-the-journey.md).
+Em seguida, você pode configurar e executar o **modo de teste** como de costume. [Saiba como testar uma jornada](testing-the-journey.md).
 
 Quando o teste estiver em execução, a variável **[!UICONTROL Mostrar logs]** O botão permite ver os resultados do teste de acordo com a opção de teste selecionada:
 
@@ -130,9 +130,9 @@ Quando o teste estiver em execução, a variável **[!UICONTROL Mostrar logs]** 
 
 * **[!UICONTROL Até 100 perfis de uma só vez]**: os logs de teste permitem rastrear o progresso da exportação de segmentos do Adobe Experience Platform, bem como o progresso individual de todas as pessoas que entraram na jornada.
 
-   Observe que testar a jornada usando até 100 perfis de uma só vez não permite rastrear o progresso dos indivíduos na jornada usando o fluxo visual.
+  Observe que testar a jornada usando até 100 perfis de uma só vez não permite rastrear o progresso dos indivíduos na jornada usando o fluxo visual.
 
-   ![](assets/read-segment-log.png)
+  ![](assets/read-segment-log.png)
 
 Depois que os testes forem concluídos com êxito, você poderá publicar sua jornada (consulte [Publicação da jornada](publishing-the-journey.md)). Os indivíduos pertencentes ao segmento informarão a jornada na data/hora especificada nas propriedades da jornada **[!UICONTROL Scheduler]** seção.
 
