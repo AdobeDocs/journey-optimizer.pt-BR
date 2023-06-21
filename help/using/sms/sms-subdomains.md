@@ -19,7 +19,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
 >title="Delegar um subdomínio de SMS"
->abstract="Você deve configurar o subdomínio para uso de SMS. Você pode usar um subdomínio que já tenha sido delegado à Adobe ou configurar outro subdomínio."
+>abstract="Você definirá seu subdomínio para uso de SMS. Você pode usar um subdomínio que já tenha sido delegado à Adobe ou configurar outro subdomínio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
@@ -44,7 +44,6 @@ Você pode usar um subdomínio que já foi delegado ao Adobe ou configurar outro
 >* Para acessar e editar subdomínios SMS, você deve ter a **[!UICONTROL Gerenciar subdomínios de SMS]** permissão na sandbox de produção.
 >
 > * Qualquer modificação em um subdomínio SMS também afetará as sandboxes de produção.
-
 
 ## Usar um subdomínio existente {#sms-use-existing-subdomain}
 
