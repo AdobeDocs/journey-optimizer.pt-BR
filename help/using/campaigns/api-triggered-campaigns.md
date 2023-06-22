@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 3%
+source-wordcount: '917'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 ## Sobre campanhas acionadas por API {#about}
 
-Com [!DNL Journey Optimizer], você pode criar campanhas e chamá-las de um sistema externo com base no acionador do usuário usando o [API REST de execução de mensagem interativa](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Isso permite cobrir várias necessidades de mensagens operacionais e transacionais, como redefinições de senha, token OTP, entre outras.
+Com [!DNL Journey Optimizer], você pode criar campanhas e chamá-las de um sistema externo com base no acionador do usuário usando o [API REST de execução de mensagem interativa](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Isso permite cobrir várias necessidades de mensagens de marketing e transacionais, como redefinições de senha, token OTP, entre outras.
 
 Para fazer isso, primeiro é necessário criar uma campanha acionada por API no Journey Optimizer e, em seguida, iniciar a execução por meio de uma chamada de API.
 
@@ -29,15 +29,19 @@ Os canais disponíveis para campanhas acionadas por API são mensagens de email,
 
 ### Configurar e ativar a campanha {#create-activate}
 
-O processo para criar campanhas acionadas por API permanece o mesmo que campanhas programadas, exceto para a seleção de público que é executada na carga da API. Informações detalhadas sobre como criar uma campanha estão disponíveis em [nesta seção](create-campaign.md).
-
-Para criar uma campanha acionada por API, siga estas etapas:
+Para criar uma campanha acionada por API, siga as etapas abaixo. Informações detalhadas sobre como criar uma campanha estão disponíveis em [nesta seção](create-campaign.md).
 
 1. Crie uma nova campanha com o **[!UICONTROL Acionado pela API]** tipo.
 
-1. Escolha o canal e a superfície de canal a serem usados para enviar a mensagem e clique em **[!UICONTROL Criar]**.
+1. Escolha o **[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]** categoria dependendo do tipo de comunicação que você deseja enviar.
+
+1. Escolha um dos canais com suporte e a superfície de canal associada a serem usados para enviar a mensagem. Em seguida, clique em **[!UICONTROL Criar]**.
 
    ![](assets/api-triggered-type.png)
+
+   >[!NOTE]
+   >
+   >Por enquanto, a Entrega rápida não é compatível com campanhas acionadas por API de notificação por push.
 
 1. Especifique um título e uma descrição para a campanha e clique em **[!UICONTROL Editar conteúdo]** para configurar a mensagem a ser enviada.
 
@@ -47,9 +51,11 @@ Para criar uma campanha acionada por API, siga estas etapas:
    >
    >O uso de um grande número ou de dados contextuais pesados em seu conteúdo pode afetar o desempenho.
 
-1. No **[!UICONTROL Público]** especifique o namespace a ser usado para identificar os indivíduos do segmento.
+1. No **[!UICONTROL Público]** especifique o namespace a ser usado para identificar os indivíduos.
 
-   A variável **[!UICONTROL Criar novos perfis]** permite criar automaticamente perfis que não existem no banco de dados. [Saiba mais sobre a criação de perfil na execução da campanha](#profile-creation)
+   * Se você estiver criando uma **transacional** tipo campanha, os perfis segmentados precisam ser definidos na chamada de API. A variável **[!UICONTROL Criar novos perfis]** permite criar automaticamente perfis que não existem no banco de dados. [Saiba mais sobre a criação de perfil na execução da campanha](#profile-creation)
+
+   * Para **marketing** campanhas do tipo, clique no link **[!UICONTROL Público]** botão para escolher o público-alvo a ser direcionado.
 
 1. Configure as datas de início e término da campanha.
 
@@ -68,6 +74,8 @@ Depois que sua campanha for ativada, é necessário recuperar a solicitação de
    ![](assets/api-triggered-curl.png)
 
 1. Use essa solicitação de cURL nas APIs para criar sua carga e acionar a campanha. Para obter mais informações, consulte [Documentação da API de execução de mensagem interativa](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+
+   Exemplos de chamada de API também estão disponíveis em [esta página](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
 
    >[!NOTE]
    >
@@ -92,7 +100,7 @@ A variável `{{context.<contextualAttribute>}}` A sintaxe é mapeada somente par
 
 >[!IMPORTANT]
 >
->Os atributos contextuais passados para a solicitação não podem exceder 50kb.
+>Os atributos contextuais passados para a solicitação não podem exceder 50 kb e são sempre considerados do tipo string.
 >
 >A variável `context.system` a sintaxe é restrita somente ao uso interno do Adobe e não deve ser usada para transmitir atributos contextuais.
 
@@ -106,9 +114,9 @@ Quando um perfil não existe no banco de dados, o Journey Optimizer permite que 
 
 >[!IMPORTANT]
 >
->Este recurso é fornecido para **criação de perfil de volume muito pequeno** em um caso de uso de envio transacional de grande volume, com a maior parte dos perfis já existentes na platform.
+>No caso de mensagens transacionais, esse recurso é fornecido para **criação de perfil de volume muito pequeno** em um caso de uso de envio transacional de grande volume, com a maior parte dos perfis já existentes na platform.
 
-Para ativar a criação de perfil na execução da campanha, alterne a variável **[!UICONTROL Criar novos perfis]** opção ativada no **[!UICONTROL Público]** seção.
+Para ativar a criação de perfil na execução da campanha, alterne a variável **[!UICONTROL Criar novos perfis]** opção ativada no **[!UICONTROL Público]** seção. Se essa opção estiver desativada, perfis desconhecidos serão rejeitados para qualquer envio e a chamada à API falhará.
 
 ![](assets/api-triggered-create-profile.png)
 

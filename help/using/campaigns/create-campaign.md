@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 23%
+source-wordcount: '864'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 23%
 >* [Criar superfícies de canal](../configuration/channel-surfaces.md)
 >* [Introdução aos segmentos](../segment/about-segments.md)
 
-
 Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**. Você também pode duplicar uma campanha ao vivo existente para criar uma nova. [Saiba mais](modify-stop-campaign.md#duplicate)
 
 ## Escolha o tipo de campanha e o canal {#campaigntype}
@@ -33,18 +32,20 @@ Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** e clique em **
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campanha"
->abstract="Ao especificar uma data de envio para a mensagem de marketing, o tipo **Programado** é o mais apropriado. No entanto, se você quiser enviar mensagens transacionais, como redefinição de senha ou abandono do carrinho, o tipo **Acionado por API** é a melhor opção."
+>abstract="**Campanhas programadas** são executados imediatamente ou em uma data especificada e devem enviar mensagens de tipo de marketing. **Acionado pela API** As campanhas do são executadas usando uma chamada de API. O objetivo é enviar mensagens de marketing ou mensagens transacionais, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, abandono de carrinho etc."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Categoria da campanha"
->abstract="O valor da categoria é diretamente associado ao valor do tipo de campanha. Programe o tipo de campanha para a categoria **Marketing** e o tipo Acionado por API para a categoria **Transacional**"
+>abstract="Se você estiver criando uma campanha programada, a variável **marketing** O tipo é selecionado automaticamente. Para campanhas acionadas por API, escolha se deseja enviar uma **marketing** ou **transacional** mensagem, ou seja, uma mensagem enviada após uma ação executada por um indivíduo: redefinição de senha, abandono de carrinho etc."
 
 1. No **[!UICONTROL Propriedades]** especifique como deseja executar a campanha. Há dois tipos de campanha disponíveis:
 
-   * **[!UICONTROL Agendado]**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas são destinadas ao envio **marketing** digite mensagens.
+   * **[!UICONTROL Agendado]**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas são destinadas ao envio **marketing** mensagens. Eles são configurados e executados na interface do usuário do.
 
-   * **[!UICONTROL Acionado pela API]**: execute a campanha usando uma chamada de API. As campanhas acionadas por API têm como objetivo enviar **transacional** mensagens, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, abandono de carrinho etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
+   * **[!UICONTROL Acionado pela API]**: execute a campanha usando uma chamada de API. As campanhas acionadas por API têm como objetivo enviar **marketing** ou **transacional** mensagens, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
+
+1. Se você estiver criando uma campanha programada, a variável **marketing** O tipo é selecionado automaticamente. Para campanhas acionadas por API, escolha se deseja enviar uma **marketing** ou **transacional** mensagem.&quot;
 
 1. No **[!UICONTROL Ações]** escolha o canal e a superfície de canal a serem usados para enviar a mensagem.
 

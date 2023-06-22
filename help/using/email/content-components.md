@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: componentes, designer de email, editor, email
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 54%
+source-wordcount: '1354'
+ht-degree: 57%
 
 ---
 
@@ -60,7 +60,7 @@ Para adicionar componentes de conteúdo ao seu email e ajustá-los às suas nece
    >
    >É possível adicionar vários componentes em um único componente de estrutura e em cada coluna de um componente de estrutura.
 
-1. Ajuste os atributos de estilo de cada componente usando o **[!UICONTROL Configurações]** e **[!UICONTROL Estilo]** guias à direita. Por exemplo, é possível alterar o estilo do texto, o preenchimento ou a margem de cada componente. [Saiba mais sobre alinhamento e preenchimento](alignment-and-padding.md)
+1. Ajuste os atributos e o estilo de cada componente usando o **[!UICONTROL Configurações]** e **[!UICONTROL Estilo]** guias à direita. Por exemplo, é possível alterar o estilo do texto, o preenchimento ou a margem de cada componente. [Saiba mais sobre alinhamento e preenchimento](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
@@ -137,7 +137,7 @@ Use o componente de **[!UICONTROL Texto]** para inserir texto no email e ajustar
 
 Use o componente **[!UICONTROL Divisor]** para inserir uma linha divisória para organizar o layout e o conteúdo do email.
 
-É possível ajustar atributos de estilo, como cor, estilo e altura da linha no **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** guias.
+É possível ajustar atributos de estilo, como cor da linha, estilo e altura, a partir das guias **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]**.
 
 ![](assets/email_designer_divider.png)
 
@@ -190,7 +190,7 @@ Use o componente **[!UICONTROL Social]** para inserir links às páginas de rede
 
 1. Selecione o componente recém-adicionado.
 
-1. No **[!UICONTROL Social]** do campo **[!UICONTROL Configurações]** escolha as mídias sociais que deseja adicionar ou remover.
+1. No campo **[!UICONTROL Social]** da guia **[!UICONTROL Configurações]**, escolha qual rede social deseja adicionar ou remover.
 
    ![](assets/email_designer_20.png)
 
@@ -224,4 +224,4 @@ Saiba como adicionar ofertas personalizadas a um email no [nesta seção](add-of
 
 >[!IMPORTANT]
 >
->Se forem feitas alterações em uma decisão de oferta que está sendo usada na mensagem de uma jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas à mensagem da jornada e que ela seja consistente com as atualizações mais recentes.
+>Se forem feitas alterações em uma decisão de oferta em uso na mensagem de uma jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas à mensagem da jornada e que ela seja consistente com as atualizações mais recentes.

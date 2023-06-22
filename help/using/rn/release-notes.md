@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 877c4e871beebdd5a050df1a5d44f06cba07e109
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2527'
 ht-degree: 96%
 
 ---
@@ -23,14 +23,15 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 
 
-## Notas de versão antecipadas de junho de 2023 {#june-rn-2023}
-
-As informações abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilização da versão. A documentação atualizada será publicada na data de lançamento, e os links diretos serão adicionados a esta página.
-
-**Data de lançamento**: 21-22 de junho de 2023
+## Notas de versão de junho de 2023 {#june-rn-2023}
 
 <!--
-### New capabilities{#june-2023-features}-->
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+
+**Release date**: June 21-22, 2023-->
+
+
+<!-- ### New capabilities{#june-2023-features}-->
 
 <table>
 <thead>
