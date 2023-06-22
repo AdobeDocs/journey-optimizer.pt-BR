@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4b3b7ef3ec83705758374ca9e9170ce2933fa8de
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -25,6 +25,10 @@ Para fazer isso, primeiro é necessário criar uma campanha acionada por API no 
 
 Os canais disponíveis para campanhas acionadas por API são mensagens de email, SMS e push.
 
+>[!NOTE]
+>
+>Por enquanto, a Entrega rápida não é compatível com campanhas acionadas por API de notificação por push.
+
 ## Criar uma campanha acionada por API {#create}
 
 ### Configurar e ativar a campanha {#create-activate}
@@ -38,10 +42,6 @@ Para criar uma campanha acionada por API, siga as etapas abaixo. Informações d
 1. Escolha um dos canais com suporte e a superfície de canal associada a serem usados para enviar a mensagem. Em seguida, clique em **[!UICONTROL Criar]**.
 
    ![](assets/api-triggered-type.png)
-
-   >[!NOTE]
-   >
-   >Por enquanto, a Entrega rápida não é compatível com campanhas acionadas por API de notificação por push.
 
 1. Especifique um título e uma descrição para a campanha e clique em **[!UICONTROL Editar conteúdo]** para configurar a mensagem a ser enviada.
 
