@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, segmento, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a278b217882f2646e106600e110226941e7e4f10
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 12%
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 Use o **Segmento de leitura** atividade para fazer com que todos os indivíduos de um segmento entrem na jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente.
 
-Vamos ver como exemplo o segmento &quot;Abertura e finalização do aplicativo Luma&quot; criado no [Construir segmentos](../segment/about-segments.md) caso de uso. Com a atividade Ler segmento, você pode fazer com que todos os indivíduos pertencentes a esse segmento insiram uma jornada e façam com que eles fluam para jornadas individualizadas que aproveitarão todas as funcionalidades da jornada: condições, temporizadores, eventos, ações.
+Vamos ver como exemplo o segmento &quot;Abertura e finalização do aplicativo Luma&quot; criado no [Caso de uso de criação de segmentos](../segment/about-segments.md). Com o **[!UICONTROL Segmento de leitura]** atividade, é possível fazer com que todos os indivíduos pertencentes a um segmento insiram uma jornada e façam com que eles fluam para jornadas individualizadas que aproveitarão todas as funcionalidades da jornada: condições, temporizadores, eventos, ações.
 
 >[!NOTE]
 >
