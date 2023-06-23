@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: bd805d9a52572e284b5846166e1f799f1f71fc59
+source-git-commit: fdfee4f88b4ed29c5083d1f755f488a43cc38f95
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 67%
@@ -42,7 +42,7 @@ O que você encontrará nesta documentação:
 
 A composição do público permite criar **workflows de composição**, em que é possível combinar públicos existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos.
 
-Depois de concluído, o **públicos resultantes** são salvas no Adobe Experience Platform juntamente com os públicos-alvo existentes e podem ser aproveitadas para direcionar os clientes no [Campanhas do Journey Optimizer](../campaigns/get-started-with-campaigns.md), ou em Adobe [Destinos do Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR).
+Depois de concluído, o **públicos resultantes** são salvas no Adobe Experience Platform juntamente com os públicos-alvo existentes e podem ser aproveitadas para direcionar os clientes no [Campanhas do Journey Optimizer](../campaigns/get-started-with-campaigns.md), ou em Adobe [Destinos do Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR){target="_blank"}.
 
 ![](assets/audiences-process.png)
 
