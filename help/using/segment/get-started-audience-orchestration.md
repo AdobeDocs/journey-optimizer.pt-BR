@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
+source-git-commit: bd805d9a52572e284b5846166e1f799f1f71fc59
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 82%
+source-wordcount: '329'
+ht-degree: 67%
 
 ---
 
@@ -42,13 +42,13 @@ O que você encontrará nesta documentação:
 
 A composição do público permite criar **workflows de composição**, em que é possível combinar públicos existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos.
 
-Depois de concluído, os **públicos resultantes** são salvos na Adobe Experience Platform junto com os públicos existentes e podem ser **aproveitados em campanhas** para direcionar clientes. [Saiba como trabalhar com campanhas](../campaigns/get-started-with-campaigns.md)
+Depois de concluído, o **públicos resultantes** são salvas no Adobe Experience Platform juntamente com os públicos-alvo existentes e podem ser aproveitadas para direcionar os clientes no [Campanhas do Journey Optimizer](../campaigns/get-started-with-campaigns.md), ou em Adobe [Destinos do Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR).
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Os públicos resultantes de workflows de composição podem ser direcionados somente para campanhas do Journey Optimizer . Eles não estão disponíveis para uso em jornadas.
+>A partir de agora, os públicos-alvo resultantes de fluxos de trabalho de composição não estarão disponíveis para uso em jornadas.
 >
 >As campanhas no Adobe Journey Optimizer ainda não estão integradas ao serviço de aplicação de políticas. Portanto, quaisquer rótulos de uso de dados que você aplicar aos atributos de público não serão aplicados nas campanhas do Journey Optimizer.
 
