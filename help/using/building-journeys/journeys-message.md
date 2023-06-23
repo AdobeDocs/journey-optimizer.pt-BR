@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 23%
+source-wordcount: '886'
+ht-degree: 24%
 
 ---
 
@@ -115,10 +115,6 @@ O modelo varia se você estiver falando sobre pontuação ou treinamento. O trei
 * Pontuação - a aplicação de uma pontuação a perfis individuais com base no modelo treinado
 
 Essas informações são armazenadas com o perfil do usuário e são referenciadas na execução da jornada para informar ao Adobe Journey Optimizer quando enviar sua mensagem.
-
->[!CAUTION]
->
->Este recurso não é compatível com o modo de intermitência.
 
 ### Ativar otimização da hora de envio{#activate-send-time-optimization}
 

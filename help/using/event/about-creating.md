@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: event, unitário, create, jornada
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 16%
+source-wordcount: '1623'
+ht-degree: 15%
 
 ---
 
@@ -69,6 +69,8 @@ Estas são as primeiras etapas para configurar um novo evento:
    >[!NOTE]
    >
    >O editor de expressão avançado não está disponível ao definir o **[!UICONTROL Condição de ID de evento]**. No editor de expressões simples, nem todos os operadores estão disponíveis, eles dependem do tipo de dados. Por exemplo, para um tipo de sequência de caracteres de campo, é possível usar &quot;contém&quot; ou &quot;igual a&quot;.
+   >
+   >Se você modificar seu esquema com novos valores de enumeração depois de criar o evento, será necessário seguir estas etapas para aplicar as alterações ao evento existente: desmarque o campo de enumeração dos campos de evento, confirme a seleção e selecione o campo de enumeração novamente. O novo valor de enumeração agora é exibido.
 
 1. Adicione um namespace. Esta etapa é opcional, mas é recomendada, pois a adição de namespace permite que você aproveite as informações armazenadas no Serviço de perfil do cliente em tempo real. Ela define o tipo de chave que o evento tem. Consulte [esta seção](../event/about-creating.md#select-the-namespace).
 

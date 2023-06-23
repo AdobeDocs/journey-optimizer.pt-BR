@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 15%
@@ -39,8 +39,8 @@ Observe também que os parâmetros de ações personalizadas têm um formato esp
 
 No Journey Optimizer, você pode aplicar políticas de consentimento e governança de dados às ações personalizadas para impedir que campos específicos sejam exportados para sistemas de terceiros ou excluir clientes que não consentiram em receber comunicações por email, push ou SMS. Para obter mais informações, consulte as seguintes páginas:
 
-* [Governança de dados](../action/action.md).
-* [Consentimento](../action/action.md).
+* [Governança de dados](../action/action-privacy.md).
+* [Consentimento](../action/action-privacy.md).
 
 
 ## Etapas de configuração {#configuration-steps}
@@ -82,9 +82,10 @@ Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UIC
 
    * Se o URL incluir um caminho dinâmico, insira apenas a parte estática do URL, ou seja, o esquema, o host, a porta e, opcionalmente, uma parte estática do caminho.
 
-      Exemplo: `https://xxx.yyy.com/somethingstatic/`
+     Exemplo: `https://xxx.yyy.com/somethingstatic/`
 
-      Você especificará o caminho dinâmico do URL ao adicionar a ação personalizada a uma jornada. [Saiba mais](../building-journeys/using-custom-actions.md).
+     Você especificará o caminho dinâmico do URL ao adicionar a ação personalizada a uma jornada. [Saiba mais](../building-journeys/using-custom-actions.md).
+
    >[!NOTE]
    >
    >Por motivos de segurança, recomendamos que você use o esquema HTTPS para o URL. Não permitimos o uso de endereços Adobe que não sejam públicos e o uso de endereços IP.

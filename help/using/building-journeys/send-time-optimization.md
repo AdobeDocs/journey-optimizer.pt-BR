@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: send-time, send, message, otimization, jornada, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '482'
 ht-degree: 36%
 
 ---
@@ -37,10 +37,6 @@ O modelo varia se você estiver falando sobre pontuação ou treinamento. O trei
 * Pontuação - a aplicação de uma pontuação a perfis individuais com base no modelo treinado
 
 Essas informações são armazenadas com o perfil do usuário e são referenciadas na execução da jornada para informar ao Adobe Journey Optimizer quando enviar sua mensagem.
-
->[!CAUTION]
->
->Este recurso não é compatível com o modo de intermitência.
 
 ## Ativar otimização da hora de envio{#activate-send-time-optimization}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '719'
 ht-degree: 16%
 
 ---
@@ -103,7 +103,7 @@ Para criar uma notificação por push, siga as etapas abaixo:
 >title="Modo de entrega rápida"
 >abstract="O modo de entrega rápida permite que você execute o envio de mensagens de alta velocidade no canal de push para um tamanho de público inferior a 30 milhões."
 
-O modo de entrega rápida, anteriormente conhecido como modo de intermitência no jornada, é um [!DNL Journey Optimizer] complemento que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas.
+O modo de entrega rápida é um [!DNL Journey Optimizer] complemento que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas.
 
 A entrega rápida é usada quando o atraso na entrega da mensagem é essencial para os negócios, quando você deseja enviar um alerta de push urgente em telefones celulares, por exemplo, notícias de última hora para usuários que instalaram seu aplicativo de canal de notícias.
 
