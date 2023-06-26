@@ -4,16 +4,22 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
+source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 100%
+source-wordcount: '2949'
+ht-degree: 97%
 
 ---
 
 # Atualizações de documentação {#latest-updates}
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
+
+## Junho de 2023 {#june-2023}
+
+* Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de junho de 2023 do foi detalhada na documentação. [Leia mais](release-notes.md)
+* Exemplos adicionais na ordem de critérios de avaliação foram adicionados ao **Criar decisões** para ilustrar os casos em que vários critérios e escopos de decisão são usados. [Leia mais](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* A documentação da Gestão de decisões foi esclarecida com uma nota especificando que o uso do Controle de acesso em nível de objeto não está disponível para coleções dinâmicas. [Leia mais](../offers/offer-library/creating-collections.md)
 
 ## Maio de 2023 {#may-2023}
 
@@ -95,7 +101,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Adição de informações sobre conjuntos de dados incorporados. [Leia mais](../data/get-started-datasets.md#access-datasets)
 * As seções Relatório global e Relatório ao vivo foram aprimoradas e reorganizadas. [Leia mais](../reports/global-report.md)
 * Uma lista de cada métrica de relatório disponível no Adobe Journey Optimizer foi adicionada.
-   [Leia mais](../reports/global-report.md#email-and-sms-metrics)
+  [Leia mais](../reports/global-report.md#email-and-sms-metrics)
 * A seção sobre CCO de email foi movida para a nova página Suporte para arquivamento. [Leia mais](../configuration/archiving-support.md)
 
 ## Agosto de 2022 {#august-2022}
