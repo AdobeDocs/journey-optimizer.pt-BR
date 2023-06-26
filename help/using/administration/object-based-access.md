@@ -9,7 +9,7 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: objeto, nível, acesso, controle, rótulos, olac, autorização
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: e3628950dbc59b6f2570245651e79b4e203b75c3
+source-git-commit: 9cb6164f029fa0bd198a51ff934b272ae09ac3c3
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 14%
@@ -31,12 +31,12 @@ O controle de acesso em nível de objeto (OLAC) permite definir autorizações p
 
 * Jornada
 * Campaign
+* Modelo
 * Fragmento
 * Página de destino
-* Ofertas
+* Oferta
 * Coleção de ofertas estática
-* Offer decisioning
-* Modelo
+* Decisão de oferta
 
 Seu objetivo é proteger ativos digitais sensíveis de usuários não autorizados, permitindo maior proteção de dados pessoais.
 
