@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 97%
+source-wordcount: '1119'
+ht-degree: 91%
 
 ---
 
@@ -45,6 +45,7 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 ### Medidas de proteção gerais da jornada {#journeys-guardrails-journeys}
 
 * O limite de número de atividades em uma jornada é de 50. O número de atividades é exibido na seção superior esquerda da tela da jornada. Isso ajudará na legibilidade, controle de qualidade e solução de problemas.
+* À medida que você publica jornadas, dimensionamos e ajustamos automaticamente para garantir a taxa de transferência e a estabilidade máximas. Ao se aproximar do marco de 100 jornadas ativas de uma só vez, você verá uma notificação aparecer na interface do usuário sobre essa conquista. Se você vir esta notificação e precisar estender suas jornadas além de 100 jornadas ao vivo de cada vez, crie um tíquete para o Atendimento ao cliente e ajudaremos você a atingir suas metas.
 
 ### Ações gerais {#general-actions-g}
 

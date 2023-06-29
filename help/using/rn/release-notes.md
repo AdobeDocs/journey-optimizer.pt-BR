@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 96%
+source-wordcount: '2595'
+ht-degree: 93%
 
 ---
 
@@ -301,9 +301,11 @@ You can now leverage API call responses in custom actions and orchestrate your j
 
 * A tela da jornada agora exibe a ID da atividade nas atividades de mensagem e tags finais. Isso melhora os relatórios e o redirecionamento.
 * O layout do painel de configuração, que aparece em ações, fontes de dados, eventos e jornadas, foi aprimorado.
-* Novo insight sobre o número de nós na tela com proteções para ajudar no crescimento: mantenha as jornadas fáceis de ler, controlar a qualidade e solucionar problemas com um número máximo de nós por jornada de 50. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
 * Ao adicionar uma ação de [email](../email/create-email.md), [SMS](../sms/create-sms.md) ou [push](../push/create-push.md) em uma jornada, a superfície agora é pré-preenchida, por padrão, com a última superfície usada para esse canal na jornada atual.
 * Agora é possível definir parâmetros de consulta estáticos ou dinâmicos em suas ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#url-configuration)
+* Novas medidas de proteção para gerenciar o crescimento das experiências oferecidas pelas Jornadas:
+   * Recomendamos que você mantenha o número de nós limitado a 50 ou menos para manter o desempenho do jornada, a facilidade de leitura, o controle de qualidade e a solução de problemas. O número de atividades será exibido na seção superior esquerda da tela de jornada. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
+   * À medida que você desenvolve e inicia jornadas, você será notificado quando se aproximar do marco de 100 jornadas ativas de uma só vez. Caso seus planos exijam mais de 100 jornadas por vez, crie um tíquete para suporte depois de ver a notificação e nós o ajudaremos. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
 
 **Relatórios**
 
@@ -377,7 +379,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 * Na tela da jornada, o rótulo da tag **Fim** não é mais definida automaticamente com o nome da atividade anterior. Os usuários podem adicionar manualmente um rótulo personalizado, se necessário.
 * O tempo limite padrão e a duração de erro nas propriedades da jornada foram alterados de 5 para 30 segundos. [Saiba mais](../configuration/external-systems.md#timeout)
 * A taxa de limitação padrão em atividades de segmento de leitura foi alterada de 20.000 para 5.000 mensagens por segundo. [Saiba mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* Uma medida de proteção foi adicionada ao modo de teste para ouvir apenas os eventos enviados através da interface. Os eventos enviados por uma ferramenta externa não são considerados. [Saiba mais](../building-journeys/testing-the-journey.md)
+* Uma medida de proteção foi adicionada ao modo de teste para ouvir apenas os eventos enviados através da interface. Eventos enviados por uma ferramenta externa não são considerados. [Saiba mais](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
