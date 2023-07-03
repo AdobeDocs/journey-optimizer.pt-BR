@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 9%
@@ -39,7 +39,6 @@ Após definir o conteúdo da mensagem, é possível usar perfis de teste para vi
 
 ## Validar sua notificação por push {#push-validate}
 
-
 Você deve verificar os alertas na seção superior do editor. Alguns deles são avisos simples, mas outros podem impedir que você envie a mensagem. Dois tipos de alertas podem ocorrer: avisos e erros.
 
 * **Avisos** consulte recomendações e práticas recomendadas.
@@ -52,7 +51,7 @@ Você deve verificar os alertas na seção superior do editor. Alguns deles são
 
    * **[!UICONTROL A carga do Push iOS/Android excedeu o limite de 4 KB]**: o tamanho da notificação por push não pode exceder 4 KB. Para respeitar esse limite, tente reduzir o uso de imagens ou emojis. Saiba como gerenciar o conteúdo de notificação por push no [nesta seção](../push/create-push.md).
 
-   ![](assets/push_alert.png)
+  ![](assets/push_alert.png)
 
 
 >[!NOTE]

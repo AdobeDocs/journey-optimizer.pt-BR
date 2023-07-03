@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
+source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 100%
+source-wordcount: '1384'
+ht-degree: 99%
 
 ---
 
@@ -363,7 +363,7 @@ ht-degree: 100%
       + [Trabalhar com eventos de gestão de decisões](using/offers/reports/get-started-events.md)
       + [Acessar campos XDM de eventos](using/offers/reports/xdm-fields.md)
    + Exportar seu catálogo de ofertas {#export-catalog}
-      + [Introdução à exportação do catálogo de ofertas ](using/offers/export-catalog/get-started-export.md)
+      + [Introdução à exportação do catálogo de ofertas](using/offers/export-catalog/get-started-export.md)
       + [Acessar o catálogo de ofertas exportado](using/offers/export-catalog/access-dataset.md)
       + [Conjunto de dados de ofertas personalizadas](using/offers/export-catalog/export-offers.md)
       + [Conjunto de dados de decisões](using/offers/export-catalog/export-decisions.md)
@@ -426,7 +426,7 @@ ht-degree: 100%
       + [Introdução aos conjuntos de dados](using/data/get-started-datasets.md)
       + [Exportar conjuntos de dados do Journey Optimizer](using/data/export-datasets.md)
       + [Exemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas incorporados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
+      + [Esquemas incorporados >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
    + [Consultas](using/data/get-started-queries.md)
 + Configuração {#configuration}
    + [Introdução à configuração do Journey Optimizer](using/configuration/get-started-configuration.md)
@@ -488,3 +488,4 @@ ht-degree: 100%
       + [Gerenciar recusa](using/privacy/opt-out.md)
       + [Trabalhar com políticas de consentimento](using/action/consent.md)
    + [Governança de dados](using/action/action-privacy.md)
+   + [Configurar e gerenciar Chaves gerenciadas pelo cliente](using/privacy/cmk.md)
