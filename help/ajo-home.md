@@ -5,10 +5,10 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: cb5e5781002650c4ddb1f62dcc66d8196675b3a4
+source-git-commit: ddb2d916d24b6931ec43ce2f4e5a89a746c0d5e0
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 100%
+source-wordcount: '330'
+ht-degree: 88%
 
 ---
 
@@ -32,40 +32,44 @@ ht-degree: 100%
     <div>
       <a href="using/rn/release-notes.md">Notas de versão</a>
     </div>
-    <p>Novos recursos, melhorias e correções mais recentes
+    <p>Novos recursos, melhorias e correções mais recentes</p>
    <p>
     <div>
       <a href="using/start/quick-start.md">Guia de início rápido</a>
     </div>
-    <p>
-    Saiba como iniciar como administrador, engenheiro de dados ou profissional de jornada
+    <p>Saiba como iniciar como administrador, engenheiro de dados ou profissional de jornada</p>
     <p>
     <p>
     <div>
       <a href="using/email/get-started-email-design.md">Criar um conteúdo de email</a>
     </div>
-    <p>
-    Criar um novo email ou importar um conteúdo de HTML existente
+    <p>Criar um novo email ou importar um conteúdo de HTML existente</p>
     <p>
     <div>
     <a href="using/building-journeys/journey-gs.md">Criar a primeira jornada</a>
     </div>
     <p>Aprenda como construir e executar uma jornada
     <p>
+     <div>
+      <a href="using/campaigns/create-campaign.md">Criar e gerenciar campanhas</a>
+    </div>
+    <p>Crie, configure e envie sua primeira campanha</p>
+    <p>
+    <div>
     <div>
     <a href="using/configuration/get-started-configuration.md">Configurar [!DNL Journey Optimizer]</a>
     </div>
-    <p>Saiba mais sobre as principais etapas para configurar o [!DNL Journey Optimizer]
+    <p>Saiba mais sobre as principais etapas para configurar o [!DNL Journey Optimizer]</p>
     <p>
     <div>
     <a href="using/administration/permissions-overview.md">Conceder acesso ao [!DNL Journey Optimizer]</a>
     </div>
-    <p>Definir e gerenciar as permissões atribuídas aos usuários do [!DNL Journey Optimizer]
+    <p>Definir e gerenciar as permissões atribuídas aos usuários do [!DNL Journey Optimizer]</p>
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Gestão de decisões</a>
     </div>
-    <p>Criar ofertas e fornecer a melhor oferta e experiência para os seus clientes
+    <p>Criar ofertas e fornecer a melhor oferta e experiência para os seus clientes</p>
     <p>
     <p>
     <div><strong>Recursos adicionais</strong>
@@ -92,6 +96,24 @@ ht-degree: 100%
       <a href="https://www.adobe.com/br/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos de desenvolvedores da Adobe Experience Platform</a>
     </li>
     </div>
+    <p>
+    </p>
+    <p>
+    </p>
+    <div>
+    </div>
+    <div><strong>Informativo</strong>
+    </div>
+    <p>
+    <p>
+    <div>
+    <p>Inscreva-se para o <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html" target="_blank">Informativo trimestral do Adobe Journey Optimizer</a>.</p>
+    <p>Receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, diretamente em sua caixa de entrada a cada trimestre. Em cada informativo você encontrará:</p>
+    <li>Notícias e atualizações de produto, incluindo recursos recém-lançados</li>
+    <li>Convites para eventos e webinários e gravações de webinários recentes</li>
+    <li>As principais discussões na comunidade da Experience League do Adobe Journey Optimizer </li>
+    <li>Estudos de caso e casos de uso de outros clientes do Adobe Journey Optimizer</li>
+    <li>Dicas e truques para ajudar a fornecer experiências ao cliente que impulsionam o sucesso dos negócios</li>
   </td>
    <td>
    <div><strong>Links diretos para os principais recursos </strong>
@@ -125,6 +147,9 @@ ht-degree: 100%
     <li>
       <a href="using/email/content-templates.md">Modelos de conteúdo</a>
     </li>
+      <li>
+      <a href="using/email/fragments.md">Fragmentos</a>
+    </li>
     <p>
     <p>GERENCIAMENTO DE DADOS</p>
     <li>
@@ -142,7 +167,7 @@ ht-degree: 100%
     <p>
     <p>CONEXÕES</p>
       <li>
-      <a href="using/data/get-started-datasets.md">Destinos</a>
+      <a href="using/data/export-datasets.md">Destinos</a>
     </li>
     <li>
       <a href="using/start/get-started-sources.md">Fontes</a>
@@ -165,10 +190,16 @@ ht-degree: 100%
     <p>
     <p>PRIVACIDADE</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR" target="_blank">Políticas</a>
+      <a href="using/action/action-privacy.md">Políticas</a>
     </li>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR"target="_blank">Solicitações</a>
+      <a href="using/privacy/requests.md">Solicitações</a>
+    </li>
+        <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR"target="_blank">Auditoria</a>
+    </li>
+        <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR"target="_blank">Higiene de dados</a>
     </li>
     <p>
     <p>ADMINISTRAÇÃO</p>
@@ -178,24 +209,19 @@ ht-degree: 100%
     <li>
       <a href="using/configuration/frequency-rules.md">Regras</a>
     </li>
+        <li>
+      <a href="using/reports/alerts.md">Alertas</a>
+    </li>
     <li>
       <a href="using/configuration/get-started-configuration.md">Canais</a>
     </li>
      <li>
       <a href="using/administration/sandboxes.md">Sandboxes</a>
     </li>
+     <li>
+      <a href="using/start/search-filter-categorize.md#work-with-unified-tags">Tags</a>
+    </li>
   </td>
 </tr>
 </table>
 
-
-![Informativo](using/assets/do-not-localize/nl-icon.png) Assine o [Informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje.
-
-Receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, diretamente em sua caixa de entrada a cada trimestre.
-
-Em cada informativo você encontrará:
-* Notícias e atualizações de produto, incluindo recursos recém-lançados
-* Convites para eventos e webinários e gravações de webinários recentes
-* As principais discussões na comunidade da Experience League do Adobe Journey Optimizer
-* Estudos de caso e casos de uso de outros clientes do Adobe Journey Optimizer
-* Dicas e truques para ajudar a fornecer experiências excepcionais para os clientes e impulsionar o sucesso do negócio
