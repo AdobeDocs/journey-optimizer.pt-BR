@@ -5,10 +5,10 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: ddb2d916d24b6931ec43ce2f4e5a89a746c0d5e0
+source-git-commit: c45598877441765405c7ca29373801f1d095ff3a
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 88%
+source-wordcount: '316'
+ht-degree: 80%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 88%
     <div>
       <a href="using/rn/release-notes.md">Notas de versão</a>
     </div>
-    <p>Novos recursos, melhorias e correções mais recentes</p>
+    <p>Novos recursos, melhorias mais recentes e correções</p>
    <p>
     <div>
       <a href="using/start/quick-start.md">Guia de início rápido</a>
     </div>
-    <p>Saiba como iniciar como administrador, engenheiro de dados ou profissional de jornada</p>
+    <p>Saiba como iniciar como administrador, engenheiro de dados ou profissional do Jornada</p>
     <p>
     <p>
     <div>
@@ -108,7 +108,7 @@ ht-degree: 88%
     <p>
     <div>
     <p>Inscreva-se para o <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html" target="_blank">Informativo trimestral do Adobe Journey Optimizer</a>.</p>
-    <p>Receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, diretamente em sua caixa de entrada a cada trimestre. Em cada informativo você encontrará:</p>
+    <p>Receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, diretamente em sua caixa de entrada a cada trimestre. Em cada informativo, você pode encontrar:</p>
     <li>Notícias e atualizações de produto, incluindo recursos recém-lançados</li>
     <li>Convites para eventos e webinários e gravações de webinários recentes</li>
     <li>As principais discussões na comunidade da Experience League do Adobe Journey Optimizer </li>
@@ -196,10 +196,10 @@ ht-degree: 88%
       <a href="using/privacy/requests.md">Solicitações</a>
     </li>
         <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR"target="_blank">Auditoria</a>
+      <a href="using/privacy/audit-logs.md"target="_blank">Auditoria</a>
     </li>
         <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR"target="_blank">Higiene de dados</a>
+      <a href="using/privacy/data-hygiene.md"target="_blank">Higiene de dados</a>
     </li>
     <p>
     <p>ADMINISTRAÇÃO</p>
