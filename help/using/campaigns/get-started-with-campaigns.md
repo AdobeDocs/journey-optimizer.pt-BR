@@ -10,9 +10,9 @@ level: Intermediate
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Use campanhas do Journey Optimizer para fornecer conteúdo único a um segmento 
 Você pode criar dois tipos de campanhas:
 
 * **Campanhas programadas** permite comunicações em lote ad-hoc simples para casos de uso de marketing, como ofertas promocionais, campanhas de engajamento, anúncios, avisos legais ou atualizações de políticas.
-* **Campanhas acionadas por API** permite que as comunicações de marketing alcancem um público-alvo na hora certa ou que mensagens transacionais/operacionais cheguem a um indivíduo, como uma redefinição de senha, em que a necessidade pode envolver a personalização, não apenas usando o atributo de perfil, mas também os dados de contexto em tempo real no acionador, que é uma carga de API REST.
+* **Campanhas acionadas por API** permitem que as comunicações de marketing alcancem um público-alvo na hora certa ou que mensagens transacionais/operacionais cheguem a uma pessoa física, como uma redefinição de senha, em que a necessidade pode envolver personalização, não apenas usando o atributo de perfil, mas também os dados de contexto em tempo real no acionador, que é um conteúdo da API REST.
 
 As principais etapas para criar uma campanha são as seguintes:
 
