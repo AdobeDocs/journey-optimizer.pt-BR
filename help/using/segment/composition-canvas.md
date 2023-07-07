@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 66cf0332c62a9c3b034398c3a6046cbcec622d40
+source-git-commit: 715674d48d01526b5e6a328ed3951357edc2b73b
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 28%
+source-wordcount: '1373'
+ht-degree: 26%
 
 ---
 
@@ -116,22 +116,22 @@ A variável **[!UICONTROL Excluir]** A atividade permite excluir perfis da sua c
 
 * **[!UICONTROL Excluir público-alvo]**: exclua os perfis que pertencem a um público-alvo existente.
 
-   Clique em **[!UICONTROL Adicionar público-alvo]** e selecione o público-alvo a ser excluído.
+  Clique em **[!UICONTROL Adicionar público-alvo]** e selecione o público-alvo a ser excluído.
 
-   ![](assets/audiences-exclude-audience.png)
+  ![](assets/audiences-exclude-audience.png)
 
 * **[!UICONTROL Excluir usando atributo]**: exclua perfis com base em um atributo específico.
 
-   Selecione o atributo a ser pesquisado e especifique o valor a ser excluído. Neste exemplo, estamos excluindo dos perfis de composição cujo endereço residencial está no Japão.
+  Selecione o atributo a ser pesquisado e especifique o valor a ser excluído. Neste exemplo, estamos excluindo dos perfis de composição cujo endereço residencial está no Japão.
 
-   ![](assets/audiences-exclude-attribute.png)
+  ![](assets/audiences-exclude-attribute.png)
 
 ### Enriquecer {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="Atividade Enriquecer"
->abstract="Use a atividade Enriquecer para excluir perfis pertencentes a um público existente. O tipo Excluir usando atributo permite excluir perfis com base em um atributo específico."
+>abstract="Use a atividade Enrich para enriquecer seu público-alvo com atributos adicionais provenientes de conjuntos de dados da Adobe Experience Platform. Por exemplo, você pode adicionar informações relacionadas ao produto comprado como nome, preço ou ID do fabricante e aproveitar essas informações para personalizar os deliveries enviados ao público."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
@@ -220,15 +220,15 @@ Dois tipos de operações de split estão disponíveis:
 
 * **[!UICONTROL Divisão percentual]**: divida perfis aleatoriamente em dois ou mais caminhos. Por exemplo, você pode dividir os perfis em 2 caminhos distintos de 50% cada. <!--and add an additional path for control group.-->
 
-   ![](assets/audiences-split-percentage.png)
+  ![](assets/audiences-split-percentage.png)
 
 * **[!UICONTROL Divisão de atributo]**: divide perfis com base em um atributo específico. Neste exemplo, estamos dividindo perfis com base nas preferências de tipo de quarto.
 
-   ![](assets/audiences-split.png)
+  ![](assets/audiences-split.png)
 
-   >[!NOTE]
-   >
-   >A variável **[!UICONTROL Outros perfis]** permite criar um caminho adicional com os perfis restantes que não correspondem a nenhuma das condições especificadas nos outros caminhos.
+  >[!NOTE]
+  >
+  >A variável **[!UICONTROL Outros perfis]** permite criar um caminho adicional com os perfis restantes que não correspondem a nenhuma das condições especificadas nos outros caminhos.
 
 ## Salve os públicos {#save}
 
