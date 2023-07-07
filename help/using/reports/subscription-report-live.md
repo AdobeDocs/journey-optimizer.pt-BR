@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 22%
+source-wordcount: '264'
+ht-degree: 20%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 22%
 >title="Relatório ao vivo de inscrições"
 >abstract="O relatório em tempo real de inscrições permite medir e visualizar em tempo real a atividade de inscritos somente nas últimas 24 horas. O relatório é dividido em diferentes widgets detalhando inscrições e cancelamentos de inscrição. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
-A Assinatura **[!UICONTROL Relatório ao vivo]** exibe detalhes sobre a atividade dos assinantes nas últimas 24 horas somente. Para medir as assinaturas em um período de tempo selecionado, consulte o [Relatório global da assinatura](subscription-report-global.md).
+Os relatórios em tempo real, acessíveis a partir da guia Últimas 24 horas, exibem eventos que ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos a partir da ocorrência do evento. Em comparação, os Relatórios globais se concentram em eventos que ocorreram há pelo menos duas horas e abrangem eventos durante um período selecionado.
 
 Para acessar seus relatórios, clique no link **[!UICONTROL Relatório]** ícone da lista de assinaturas selecionada.
 

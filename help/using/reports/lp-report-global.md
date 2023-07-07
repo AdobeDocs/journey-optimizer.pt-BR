@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '532'
 ht-degree: 10%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 10%
 >title="Relatório global da página de destino"
 >abstract="O Relatório global da página de destino permite medir o impacto das páginas de destino em um período selecionado. Seu relatório é dividido em diferentes widgets detalhando o sucesso e os erros da página de destino. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
-A landing page **[!UICONTROL Relatório global]** O relatório de exibe detalhes sobre o impacto das páginas de aterrissagem em um período selecionado. Para medir os dados da landing page somente nas últimas 24 horas, consulte [Relatório de landing page em tempo real](lp-report-live.md).
+Os relatórios globais, acessíveis na guia Todos os tempos, exibem eventos que ocorreram pelo menos duas horas atrás e abordam eventos em um período selecionado. Em comparação, os Relatórios em tempo real focalizam eventos que ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos a partir da ocorrência do evento.
 
 Para acessar seus relatórios, selecione **[!UICONTROL Relatório]** no menu avançado da landing page selecionada.
 
