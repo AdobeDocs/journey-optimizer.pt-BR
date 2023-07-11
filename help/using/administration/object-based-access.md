@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: objeto, nível, acesso, controle, rótulos, olac, autorização
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 9cb6164f029fa0bd198a51ff934b272ae09ac3c3
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 14%
+source-wordcount: '436'
+ht-degree: 15%
 
 ---
 
@@ -22,10 +22,6 @@ ht-degree: 14%
 >id="ajo_olac_manage_access"
 >title="Controle de acesso no nível do objeto"
 >abstract="Se você aplicar qualquer rótulo ao qual não tenha acesso, seu acesso a esse objeto será revogado."
-
->[!IMPORTANT]
->
->O uso do controle de acesso no nível do objeto está atualmente restrito a clientes selecionados e será implantado em todos os ambientes em uma versão futura.
 
 O controle de acesso em nível de objeto (OLAC) permite definir autorizações para gerenciar o acesso aos dados de uma seleção de objetos:
 

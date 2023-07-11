@@ -9,22 +9,20 @@ role: Admin, User
 level: Intermediate
 keywords: permissões, criação, mensagens
 exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
-source-git-commit: f5b4beb327804c23e58835de3218d67f1ab4e87e
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 2%
+source-wordcount: '573'
+ht-degree: 3%
 
 ---
 
 # Permissões integradas {#ootb-permissions}
 
 | Recurso | Permissões |
-|---|---|
-| Alertas | **[!DNL Manage alerts]**: ativar/desativar regras de alertas para jornadas e direitos.</br>**[!DNL Resolve alerts]**: permite resolver alertas acionados.</br>**[!DNL View alerts]**: permite exibir as mensagens de alerta recebidas e acessar a guia Alerts. </br>**[!DNL View alerts history]**: permite visualizar um histórico de alertas recebidos. |
+|-|-|
 | Campanhas | **[!DNL Manage campaigns]**: ler, criar, editar e excluir campanhas. </br>**[!DNL Publish campaigns]**: direito de publicar campanhas.</br>**[!DNL View campaigns]**: acesso somente leitura às campanhas. </br>**[!DNL View campaigns report]**: leia e edite os relatórios da campanha. |
-| Configuração de canal | **[!DNL View messages general settings]**: acesso somente leitura às configurações gerais da mensagem.</br>**[!DNL Manage web subdomain]**: ler, criar, editar e excluir subdomínios da Web.</br>**[!DNL Manage messages general settings]**: leia, crie, edite e exclua as configurações gerais de mensagens.</br>**[!DNL Manage suppression]**: ler, criar, editar e excluir regras de supressão.</br>**[!DNL Manage messages presets]**: ler, criar, editar e excluir a identidade visual do conteúdo.</br>**[!DNL View messages presets]**: acesso somente leitura a predefinições de mensagens.</br>**[!DNL Manage SMS subdomains]**: leia, crie, edite e exclua subdomínios SMS.</br>**[!DNL Manage subdomains delegation]**: leia, crie, edite e exclua a delegação de subdomínio.</br>**[!DNL Manage IP pools]**: leia, crie, edite e exclua o pool de ips.</br>**[!DNL Manage PTR records]**: ler e editar registros PTR.</br>**[!DNL View PTR records]**: acesso somente leitura a registros PTR.</br>**[!DNL Manage channel surfaces]**: ler, criar, editar e excluir a identidade visual do conteúdo.</br>**[!DNL Manage Landing page settings]**: leia, crie, edite e exclua subdomínios e predefinições de página de destino.</br>**[!DNL Manage SMS settings]**: leia, crie, edite e exclua as credenciais de API e as superfícies de canal de SMS necessárias para habilitar o canal de SMS.</br>**[!DNL Export suppression list]**: acesso à lista de supressão de exportação como um csv.</br>**[!DNL View suppression list]**: leia e exporte a lista de supressão local. |
 | Painéis | **[!DNL View license usage dashboards]**: acesso somente leitura ao painel de uso da licença. </br>**[!DNL Manage custom dashboards]**: permite criar um novo painel ou editar um painel existente.</br>**[!DNL View custom dashboards]**: acesso somente leitura aos painéis definidos pelo usuário. </br>**[!DNL View standard dashboards]**: acesso somente leitura aos painéis Perfis, Destinos e Segmentos.</br>**[!DNL Manage standard dashboards]**: permite criar widgets personalizados e editar o esquema de widget por meio da biblioteca Widget. |
-| Coleta de dados | **[!DNL Manage datastream]**: leia, crie e edite fluxos de dados.</br>**[!DNL View datastream]**: acesso somente leitura a fluxos de dados. |
+| Coleção de dados | **[!DNL Manage datastream]**: leia, crie e edite fluxos de dados.</br>**[!DNL View datastream]**: acesso somente leitura a fluxos de dados. |
 | Governança de dados | **[!DNL Manage usage labels]**: ler, criar, editar e excluir rótulos.</br>**[!DNL Manage data usage policies]**: leia, crie, edite e exclua políticas de uso de dados.</br>**[!DNL View data usage policies]**: acesso somente leitura para políticas de uso de dados pertencentes à sua organização.</br>**[!DNL View user activity log]**: acesso somente leitura para visualizar logs de auditoria registrados de atividades da Platform. |
 | Higiene de dados | **[!DNL View data hygiene]**: acesso somente leitura para higiene de dados.</br>**[!DNL Manage data hygiene]**: leia, crie, edite e exclua a higiene de dados. |
 | Assimilação de dados | **[!DNL Manage sources]**: ler, criar, editar e desativar fontes.</br>**[!DNL View sources]**: acesso somente leitura a fontes disponíveis na guia Catálogo e fontes autenticadas na guia Procurar. |
