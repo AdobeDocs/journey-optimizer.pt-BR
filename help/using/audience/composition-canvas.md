@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1345'
 ht-degree: 24%
 
 ---
@@ -138,8 +138,6 @@ A variável **[!UICONTROL Excluir]** A atividade permite excluir perfis da sua c
 A variável **[!UICONTROL Enriquecer]** A atividade permite enriquecer seu público-alvo com atributos adicionais provenientes de conjuntos de dados da Adobe Experience Platform. Por exemplo, você pode adicionar informações relacionadas ao produto comprado como nome, preço ou ID do fabricante e aproveitar essas informações para personalizar os deliveries enviados ao público.
 
 >[!IMPORTANT]
->
->O enriquecimento está disponível para **[!UICONOTROL Adobe Journey Optimizer]** somente usuários.
 >
 >Por enquanto, os rótulos no conjunto de dados, no nível do conjunto de dados ou no nível do campo, não são propagados para o público recém-criado. Isso pode afetar o controle de acesso e/ou o controle de dados do público-alvo resultante. Por esse motivo, use somente dados de teste ao compor públicos-alvo.
 
