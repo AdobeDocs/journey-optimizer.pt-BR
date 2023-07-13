@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 17%
+source-wordcount: '136'
+ht-degree: 6%
 
 ---
 
 # Acessar e gerenciar públicos-alvo {#access-manage-audiences}
-
->[!BEGINSHADEBOX]
-
-O que você encontrará nesta documentação:
-
-* [Introdução à composição de público](get-started-audience-orchestration.md)
-* [Criar seu primeiro fluxo de trabalho de composição](create-compositions.md)
-* [Trabalhar com a tela de composição](composition-canvas.md)
-* **[Acessar e gerenciar públicos-alvo](access-audiences.md)**
-
->[!ENDSHADEBOX]
 
 Os públicos-alvo resultantes da composição do público-alvo podem ser acessados pelo **[!UICONTROL Procurar]** na guia **[!UICONTROL Públicos-alvo]** menu.
 
@@ -38,8 +25,6 @@ Essa guia lista todos os públicos-alvo armazenados no Adobe Experience Platform
 ![](assets/audiences-list.png)
 
 >[!NOTE]
->
->Para esta versão beta, vários componentes e/ou metadados que foram exibidos inicialmente no inventário de públicos-alvo não aparecem nesta guia (por exemplo, detalhamento, método de avaliação etc.).
 >
 >Para obter mais informações sobre outros tipos de público-alvo disponíveis no Adobe Experience Platform, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 

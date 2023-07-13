@@ -7,14 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 91%
+source-wordcount: '273'
+ht-degree: 90%
 
 ---
 
@@ -25,22 +23,7 @@ ht-degree: 91%
 >title="Criar uma composição"
 >abstract="Crie um fluxo de trabalho de composição para combinar públicos existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos."
 
->[!BEGINSHADEBOX]
-
-O que você encontrará nesta documentação:
-
-* **[Introdução à composição de público](get-started-audience-orchestration.md)**
-* [Criar seu primeiro fluxo de trabalho de composição](create-compositions.md)
-* [Trabalhar com a tela de composição](composition-canvas.md)
-* [Acessar e gerenciar públicos-alvo](access-audiences.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->A composição de público-alvo só está disponível a um grupo limitado de clientes no momento. Entre em contato com o representante da Adobe em caso de dúvidas.
-
-A composição do público-alvo permite criar **fluxos de trabalho de composição**, em que é possível combinar públicos-alvo já existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos-alvo.
+A composição do público permite criar **workflows de composição**, em que é possível combinar públicos existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos.
 
 Depois de concluído, os **públicos resultantes** são salvos na Adobe Experience Platform junto com os públicos existentes e podem ser **aproveitados em campanhas** para direcionar clientes. [Saiba como trabalhar com campanhas](../campaigns/get-started-with-campaigns.md)
 
