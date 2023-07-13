@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -56,9 +56,9 @@ Agora é possível começar a projetar o conteúdo da sua mensagem SMS usando o 
 
    ![](assets/sms_create_4.png)
 
-1. Clique em **[!UICONTROL Selecionar público]** botão para definir o público-alvo a ser direcionado na lista de segmentos disponíveis do Adobe Experience Platform. [Saiba mais](../segment/about-segments.md).
+1. Clique em **[!UICONTROL Selecionar público]** botão para definir o público-alvo a ser direcionado na lista de públicos-alvo disponíveis do Adobe Experience Platform. [Saiba mais](../audience/about-audiences.md).
 
-1. No **[!UICONTROL Namespace de identidade]** escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado. [Saiba mais](../event/about-creating.md#select-the-namespace).
+1. No **[!UICONTROL Namespace de identidade]** escolha o namespace a ser usado para identificar os indivíduos do público-alvo selecionado. [Saiba mais](../event/about-creating.md#select-the-namespace).
 
    ![](assets/sms_create_5.png)
 
@@ -105,7 +105,7 @@ Agora é possível começar a projetar o conteúdo da sua mensagem SMS usando o 
 
 1. No `originalUrl` cole o URL que deseja encurtar.
 
-1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na pré-visualização. Você pode usar **[!UICONTROL Simular conteúdo]** para visualizar seus URLs encurtados ou conteúdo personalizado.
+1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na visualização. Você pode usar **[!UICONTROL Simular conteúdo]** para visualizar seus URLs encurtados ou conteúdo personalizado.
 
    ![](assets/sms-content-preview.png)
 

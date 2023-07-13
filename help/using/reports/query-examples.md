@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1458'
 ht-degree: 2%
 
 ---
@@ -26,10 +26,6 @@ Verifique se os campos usados em suas consultas têm valores associados no esque
 * id: exclusiva para todas as entradas de evento de etapa. Dois eventos de etapa diferentes não podem ter a mesma ID.
 * instanceId: instanceID é o mesmo para todos os eventos de etapa associados a um perfil em uma execução de jornada. Se um perfil entrar novamente na jornada, uma instanceId diferente será usada. Essa nova instanceId será a mesma para todos os eventos de etapa da instância reinserida (do início ao fim).
 * profileID: a identidade do perfil que corresponde ao namespace da jornada.
-
->[!NOTE]
->
->Para fins de solução de problemas, recomendamos usar journeyVersionID em vez de journeyVersionName ao consultar jornadas.
 
 ## Casos de uso básicos/consultas comuns {#common-queries}
 
@@ -431,9 +427,9 @@ ORDER BY DATE(timestamp) desc
 
 O query retorna, para o período definido, o número de perfis que entraram na jornada a cada dia. Se um perfil inserido por meio de várias identidades, ele será contado duas vezes. Se a reentrada estiver ativada, a contagem de perfis poderá ser duplicada em dias diferentes se ela entrar novamente na jornada em dias diferentes.
 
-## Consultas relacionadas ao segmento de leitura {#read-segment-queries}
+## Consultas relacionadas ao público-alvo de leitura {#read-segment-queries}
 
-**Tempo necessário para concluir um trabalho de exportação de segmento**
+**Tempo necessário para concluir um trabalho de exportação de público**
 
 _Consulta do Data Lake_
 
@@ -463,7 +459,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-A consulta retorna a diferença de tempo, em minutos, entre o momento em que o trabalho de exportação de segmento foi enfileirado e o momento em que foi encerrado.
+A consulta retorna a diferença de tempo, em minutos, entre o momento em que o trabalho de exportação de público-alvo foi enfileirado e o momento em que foi encerrado.
 
 **Número de perfis descartados pela jornada porque estavam duplicados**
 
@@ -575,7 +571,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 A consulta retorna todas as IDs de perfil que foram descartadas pela jornada devido a um erro interno.
 
-**Visão geral do segmento de leitura para uma determinada versão do jornada**
+**Visão geral do público-alvo de leitura para uma determinada versão do jornada**
 
 _Consulta do Data Lake_
 
@@ -604,7 +600,7 @@ Ele retornará todos os eventos de serviço relacionados à versão do jornada f
 
 Também podemos detectar problemas como:
 
-* erros no tópico ou na criação de trabalhos de exportação (incluindo tempos limite em chamadas de API de exportação de segmento)
+* erros no tópico ou na criação do trabalho de exportação (incluindo tempos limite em chamadas da API de exportação de público)
 * trabalhos de exportação que podem ficar paralisados (caso em que, para uma determinada versão do jornada, não temos nenhum evento relacionado ao encerramento do trabalho de exportação)
 * problemas do trabalhador, se recebermos um evento de desligamento do trabalho de exportação, mas nenhum trabalhador estiver processando um desligamento
 
@@ -613,7 +609,7 @@ IMPORTANTE: se não houver nenhum evento retornado por essa consulta, talvez sej
 * a versão do jornada não atingiu o cronograma
 * se a versão do jornada deveria ter acionado o trabalho de exportação chamando o orchestrator, algo deu errado no fluxo upstram: problema na implantação do jornada, evento comercial ou problema com o scheduler.
 
-**Obter erros de segmento de leitura para uma determinada versão do jornada**
+**Obter erros de público-alvo de leitura para uma determinada versão do jornada**
 
 _Consulta do Data Lake_
 
@@ -728,7 +724,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**Obter métricas agregadas (trabalhos de exportação de segmentos e descartes) em todos os trabalhos de exportação**
+**Obter métricas agregadas (trabalhos de exportação de público-alvo e descartes) em todos os trabalhos de exportação**
 
 _Consulta do Data Lake_
 
@@ -791,9 +787,9 @@ Esta consulta é diferente da anterior.
 
 Ele retorna as métricas gerais de uma determinada versão do jornada, independentemente das tarefas que podem ter sido executadas para ele (no caso de jornadas recorrentes, eventos comerciais acionados por meio da reutilização de tópicos).
 
-## Consultas relacionadas à qualificação de segmento {#segment-qualification-queries}
+## Consultas relacionadas à qualificação de público-alvo {#segment-qualification-queries}
 
-**Perfil descartado devido a uma realização de segmento diferente da configurada**
+**Perfil descartado devido a uma realização de público-alvo diferente da configurada**
 
 _Consulta do Data Lake_
 
@@ -815,9 +811,9 @@ _experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
-Esta consulta retorna todas as IDs de perfil que foram descartadas pela versão do jornada devido à realização de segmento incorreta.
+Esta consulta retorna todas as IDs de perfil que foram descartadas pela versão do jornada devido à realização incorreta do público-alvo.
 
-**Eventos de qualificação de segmento descartados por qualquer outro motivo para um perfil específico**
+**Eventos de qualificação de público-alvo descartados por qualquer outro motivo para um perfil específico**
 
 _Consulta do Data Lake_
 
@@ -841,7 +837,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-Essa consulta retorna todos os eventos (eventos externos/eventos de qualificação de segmento) que foram descartados por qualquer outro motivo para um perfil.
+Esta consulta retorna todos os eventos (eventos externos/eventos de qualificação de público-alvo) que foram descartados por qualquer outro motivo para um perfil.
 
 ## Consultas baseadas em eventos {#event-based-queries}
 

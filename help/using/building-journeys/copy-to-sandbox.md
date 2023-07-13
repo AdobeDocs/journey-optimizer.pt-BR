@@ -9,7 +9,7 @@ role: User, Developer
 level: Intermediate
 keywords: sandbox, jornada, cópia, ambiente
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 20%
@@ -38,7 +38,7 @@ ht-degree: 20%
 >title="Objetos dependentes"
 >abstract="Essa é a lista de objetos associados usados na jornada. Essa lista exibe o nome, o tipo de objeto e a ID interna do Journey Optimizer."
 
-O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox do Stage para a sandbox de produção. Além da jornada em si, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: segmentos, superfícies (ou seja, predefinições), esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte esta [seção](#limitations).
+O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox do Stage para a sandbox de produção. Além da jornada em si, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: públicos-alvo, superfícies (ou seja, predefinições), esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte esta [seção](#limitations).
 
 >[!CAUTION]
 >
@@ -80,32 +80,32 @@ Nem todos os elementos vinculados podem ser copiados para a sandbox de destino. 
 
 Os seguintes objetos são copiados:
 
-* Segmento
+* Público-alvo
 
-   Um segmento só pode ser copiado de uma sandbox para outra. Depois que um segmento é copiado, ele não é editável na sandbox de destino.
+  Um público-alvo só pode ser copiado de uma sandbox para outra. Depois que um público-alvo é copiado, ele não pode ser editado na sandbox de destino.
 
 * Esquema
 
-   Os esquemas usados nesta jornada são copiados.
+  Os esquemas usados nesta jornada são copiados.
 
 * Mensagem
 
-   As atividades de ação do canal usadas na jornada. Os campos usados para personalização na mensagem não são verificados quanto à integridade. Os blocos de conteúdo não são copiados.
+  As atividades de ação do canal usadas na jornada. Os campos usados para personalização na mensagem não são verificados quanto à integridade. Os blocos de conteúdo não são copiados.
 
 * Jornada - detalhes da tela
 
-   A representação da jornada na tela de desenho, incluindo os objetos na jornada, como condições, ações, eventos, segmentos de leitura etc. A atividade de salto é excluída da cópia.
+  A representação da jornada na tela, incluindo os objetos na jornada, como condições, ações, eventos, públicos-alvo de leitura etc. A atividade de salto é excluída da cópia.
 
 * Evento
 
-   Os eventos e os detalhes do evento usados na jornada são copiados.
+  Os eventos e os detalhes do evento usados na jornada são copiados.
 
 * Ação
 
-   As ações e os detalhes de ação usados na jornada são copiados.
+  As ações e os detalhes de ação usados na jornada são copiados.
 
 As superfícies (ou seja, predefinições) não são copiadas. O sistema seleciona automaticamente a correspondência mais próxima possível na sandbox de destino, com base no tipo de mensagem e no nome da superfície. Se nenhuma superfície for encontrada na sandbox de destino, a cópia de superfície falhará. Isso significa que a cópia da mensagem também falhará, pois uma mensagem requer que uma superfície esteja disponível para configuração. Nesse caso, pelo menos uma superfície precisa ser criada para que o canal direito da mensagem funcione.
 
-Para Esquemas, Políticas de mesclagem e Segmentos, na segunda vez que esses objetos tentarem ser copiados, eles só serão referenciados. Eles serão tratados como objetos que já existem e serão copiados novamente. Isso significa que esses objetos só podem ser copiados uma vez.
+Para Esquemas, Políticas de mesclagem e Públicos-alvo, na segunda vez que esses objetos tentarem ser copiados, eles só serão referenciados. Eles serão tratados como objetos que já existem e serão copiados novamente. Isso significa que esses objetos só podem ser copiados uma vez.
 
-Há um atraso de cinco minutos antes de a Adobe Journey Optimizer poder fazer referência a esquemas, políticas de mesclagem e segmentos sem ver um erro na tela. Aguarde cinco minutos e essas referências estarão disponíveis.
+Há um atraso de cinco minutos antes de a Adobe Journey Optimizer poder fazer referência a esquemas, políticas de mesclagem e públicos-alvo sem ver um erro na tela. Aguarde cinco minutos e essas referências estarão disponíveis.

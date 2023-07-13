@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,7 @@ Com o Adobe Journey Optimizer, você pode gerenciar, manter e exportar facilment
 >[!NOTE]
 >
 > Integrado na Adobe Experience Platform, o Adobe Journey Optimizer é conectado nativamente ao [Perfil do cliente em tempo real da Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}. Essa fonte de dados integrada é pré-configurada e projetada para recuperar e usar dados do Perfil do cliente em tempo real (por exemplo, verificar se a pessoa que entrou em uma jornada é um cliente ou não). Ela permite usar os dados de Perfil e de Eventos de experiência. [Saiba mais](../datasource/adobe-experience-platform-data-source.md).
+>
 
 ## Adobe Customer Journey Analytics{#integration-cja}
 
@@ -34,7 +35,7 @@ Saiba mais sobre o [Journey Optimizer + Customer Journey Analytics](../reports/c
 
 ## Adobe Analytics{#integration-aa}
 
-Você pode aproveitar todos os dados de evento comportamentais do Adobe Analytics que já estão sendo capturados e transmitidos à Adobe Experience Platform para acionar jornadas em tempo real e automatizar as experiências de seus clientes. Esses dados também podem ser usados para criar segmentos que podem ser engajados usando o Journey Optimizer.
+Você pode aproveitar todos os dados de evento comportamentais do Adobe Analytics que já estão sendo capturados e transmitidos à Adobe Experience Platform para acionar jornadas em tempo real e automatizar as experiências de seus clientes. Esses dados também podem ser usados para criar públicos-alvo que podem ser envolvidos usando o Journey Optimizer.
 
 Saiba mais sobre o [Journey Optimizer + Analytics](../event/about-analytics.md).
 

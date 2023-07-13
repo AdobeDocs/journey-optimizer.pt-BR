@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Intermediate
 keywords: campaign, standard, integration, capping, action
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 5%
@@ -30,7 +30,7 @@ A mensagem transacional Campaign Standard e o evento associado devem ser publica
 
 * A integração do Adobe Campaign Standard é configurada por meio de uma ação incorporada dedicada na lista de ações. Isso precisa ser configurado para cada sandbox.
 
-* Não é possível usar uma ação de Campaign Standard com uma atividade de qualificação de Segmento ou Ler segmento.
+* Não é possível usar uma ação Campaign Standard com uma atividade de qualificação de Público-alvo ou Ler público-alvo.
 
 * Uma jornada não pode usar mensagens e ações Campaign Standard.
 

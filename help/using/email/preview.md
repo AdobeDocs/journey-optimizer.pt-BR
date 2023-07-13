@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: pré-visualização, conteúdo, email, prova, teste, perfil
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 12%
@@ -26,7 +26,7 @@ Para detectar possíveis erros no conteúdo do email ou nas configurações de p
 >
 >Você precisa ter perfis de teste disponíveis para poder visualizar suas mensagens e enviar provas.
 >
->Saiba como criar perfis de teste [nesta página](../segment/creating-test-profiles.md).
+>Saiba como criar perfis de teste [nesta página](../audience/creating-test-profiles.md).
 
 Para testar o conteúdo do email, é necessário:
 
@@ -52,7 +52,7 @@ Além disso, use a conta do **Litmus** no [!DNL Journey Optimizer] para pré-vis
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=pt-BR#email-rendering" text="Renderização de email"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=pt-BR#preview-email" text="Visualização"
 
-Uso [Perfis de teste](../segment/creating-test-profiles.md) para direcionar recipients adicionais que não correspondem aos critérios de direcionamento definidos.
+Uso [Perfis de teste](../audience/creating-test-profiles.md) para direcionar recipients adicionais que não correspondem aos critérios de direcionamento definidos.
 
 Para selecionar perfis de teste, siga as etapas abaixo:
 
@@ -68,7 +68,7 @@ Para selecionar perfis de teste, siga as etapas abaixo:
 
    ![](assets/previewselect-namespace.png)
 
-   Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../segment/get-started-identity.md).
+   Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../audience/get-started-identity.md).
 
    No exemplo abaixo, usaremos o **E-mail** namespace.
 

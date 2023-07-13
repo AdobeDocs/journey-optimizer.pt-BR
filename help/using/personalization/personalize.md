@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: expressão, editor, início, personalização
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 28%
+ht-degree: 21%
 
 ---
 
@@ -59,6 +59,6 @@ Saiba como usar informações de evento contextual de uma jornada para personali
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Saiba como adicionar uma personalização baseada em perfil a uma mensagem e como usar o segmento de afiliação como uma pré-condição para um bloco de personalização.
+Saiba como adicionar uma personalização baseada em perfil a uma mensagem e como usar a associação de público-alvo como uma pré-condição para um bloco de personalização.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

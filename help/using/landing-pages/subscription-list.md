@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing page, landing page, lista, assinatura, serviço
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 12%
@@ -76,7 +76,7 @@ Os status possíveis são os seguintes:
 
 Depois que a lista de assinaturas for criada, você poderá usá-la em uma landing page. Os perfis que optarem por usar o formulário de página de aterrissagem serão adicionados à lista. [Saiba mais](design-lp.md)
 
-Também é possível usar listas de assinaturas como segmentos quando [criação de jornadas](../building-journeys/journey-gs.md#jo-build) e adicionar personalização.
+Você também pode usar listas de assinaturas como públicos-alvo quando [criação de jornadas](../building-journeys/journey-gs.md#jo-build) e adicionar personalização.
 
 >[!NOTE]
 >

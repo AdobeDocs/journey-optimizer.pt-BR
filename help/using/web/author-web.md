@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 14%
@@ -71,15 +71,15 @@ Para começar a criar sua campanha da Web, siga as etapas abaixo.
 
    * O menu contextual para editar conteúdo, layout, inserir links ou personalização, etc.
 
-      ![](assets/web-designer-contextual-bar.png)
+     ![](assets/web-designer-contextual-bar.png)
 
    * Os ícones na parte superior do painel direito permitem editar, duplicar, excluir ou ocultar cada elemento.
 
-      ![](assets/web-designer-right-panel-icons.png)
+     ![](assets/web-designer-right-panel-icons.png)
 
    * O painel direito que muda dinamicamente de acordo com o elemento selecionado. Por exemplo, você pode editar o plano de fundo, a tipografia, a borda, o tamanho, a posição, o espaçamento, os efeitos ou os estilos embutidos de um elemento.
 
-      ![](assets/web-designer-right-panel.png)
+     ![](assets/web-designer-right-panel.png)
 
 >[!NOTE]
 >
@@ -249,7 +249,7 @@ Para exibir uma pré-visualização de sua experiência da Web modificada, siga 
 
 >[!CAUTION]
 >
->Você deve ter perfis de teste disponíveis para simular quais ofertas serão entregues a eles. Saiba como [criar perfis de teste](../segment/creating-test-profiles.md).
+>Você deve ter perfis de teste disponíveis para simular quais ofertas serão entregues a eles. Saiba como [criar perfis de teste](../audience/creating-test-profiles.md).
 
 1. Na tela de conteúdo de edição da campanha da Web, selecione **[!UICONTROL Simular conteúdo]**.
 

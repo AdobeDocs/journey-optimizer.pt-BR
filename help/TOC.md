@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1378'
 ht-degree: 99%
 
 ---
@@ -52,10 +52,10 @@ ht-degree: 99%
       + [Introdução às atividades de jornada](using/building-journeys/about-journey-activities.md)
       + [Eventos gerais](using/building-journeys/general-events.md)
       + [Reação](using/building-journeys/reaction-events.md)
-      + [Qualificação do segmento](using/building-journeys/segment-qualification-events.md)
+      + [Qualificação de público](using/building-journeys/audience-qualification-events.md)
       + [Condição](using/building-journeys/condition-activity.md)
       + [Aguardar](using/building-journeys/wait-activity.md)
-      + [Ler segmento](using/building-journeys/read-segment.md)
+      + [Ler público](using/building-journeys/read-audience.md)
       + [Email, no aplicativo, push, SMS](using/building-journeys/journeys-message.md)
       + [Ações personalizadas](using/building-journeys/using-custom-actions.md)
       + [Ações do Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
@@ -278,20 +278,20 @@ ht-degree: 99%
       + [Introdução ao conteúdo dinâmico](using/personalization/get-started-dynamic-content.md)
       + [Criar regras condicionais](using/personalization/create-conditions.md)
       + [Criar conteúdo dinâmico](using/personalization/dynamic-content.md)
-+ Segmentos, perfis e identidade{#segment}
-   + Segmentos {#segments}
-      + [Introdução aos segmentos](using/segment/about-segments.md)
-      + [Construir segmentos](using/segment/creating-a-segment.md)
++ Públicos, perfis e identidade{#audiences-profiles-identities}
+   + Públicos-alvo {#audiences}
+      + [Introdução aos públicos](using/audience/about-audiences.md)
+      + [Criar definições de segmento](using/audience/creating-a-segment-definition.md)
    + Perfis{#profiles}
-      + [Introdução aos perfis](using/segment/get-started-profiles.md)
-      + [Criar perfis de teste](using/segment/creating-test-profiles.md)
-   + [Identidades](using/segment/get-started-identity.md)
+      + [Introdução aos perfis](using/audience/get-started-profiles.md)
+      + [Criar perfis de teste](using/audience/creating-test-profiles.md)
+   + [Identidades](using/audience/get-started-identity.md)
    + Compor públicos-alvo {#audience-orchestration}
-      + [Introdução à composição de público-alvo](using/segment/get-started-audience-orchestration.md)
-      + [Criar workflows de composição](using/segment/create-compositions.md)
-      + [Trabalhar com a tela de composição](using/segment/composition-canvas.md)
-      + [Acessar e gerenciar públicos-alvo](using/segment/access-audiences.md)
-   + [Uso da licença](using/segment/license-usage.md)
+      + [Introdução à composição de público-alvo](using/audience/get-started-audience-orchestration.md)
+      + [Criar workflows de composição](using/audience/create-compositions.md)
+      + [Trabalhar com a tela de composição](using/audience/composition-canvas.md)
+      + [Acessar e gerenciar públicos-alvo](using/audience/access-audiences.md)
+   + [Uso da licença](using/audience/license-usage.md)
 + Rastrear e monitorar {#reporting}
    + Relatório ao vivo {#live-report}
       + [Introdução aos relatórios em tempo real](using/reports/live-report.md)
@@ -488,4 +488,3 @@ ht-degree: 99%
       + [Gerenciar recusa](using/privacy/opt-out.md)
       + [Trabalhar com políticas de consentimento](using/action/consent.md)
    + [Governança de dados](using/action/action-privacy.md)
-   + [Configurar e gerenciar Chaves gerenciadas pelo cliente](using/privacy/cmk.md)

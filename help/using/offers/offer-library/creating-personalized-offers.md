@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -69,7 +69,7 @@ Para criar uma **oferta**, siga estas etapas:
 
    >[!NOTE]
    >
-   >Ao selecionar segmentos ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
+   >Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
    >
    >Observe que as estimativas de perfil não estão disponíveis quando os parâmetros da regra incluem dados que não estão no perfil, como dados de contexto. Por exemplo, uma regra de elegibilidade que exige que o tempo atual seja ≥ 80 graus.
 
@@ -122,11 +122,11 @@ A variável **[!UICONTROL Mais ações]** permite as ações descritas abaixo.
 * **[!UICONTROL Duplicar]**: cria uma oferta com as mesmas propriedades, representações, regras de elegibilidade e restrições. Por padrão, a nova oferta tem a variável **[!UICONTROL Rascunho]** status.
 * **[!UICONTROL Excluir]**: remove a oferta da lista.
 
-   >[!CAUTION]
-   >
-   >A oferta e seu conteúdo não estarão mais acessíveis. Esta ação não pode ser desfeita.
-   >
-   >Se a oferta for usada em uma coleção ou em uma decisão, ela não poderá ser excluída. Você deve remover a oferta de qualquer objeto primeiro.
+  >[!CAUTION]
+  >
+  >A oferta e seu conteúdo não estarão mais acessíveis. Esta ação não pode ser desfeita.
+  >
+  >Se a oferta for usada em uma coleção ou em uma decisão, ela não poderá ser excluída. Você deve remover a oferta de qualquer objeto primeiro.
 
 * **[!UICONTROL Arquivar]**: define o status da oferta como **[!UICONTROL Arquivado]**. A oferta ainda está disponível na lista, mas você não pode definir seu status novamente como **[!UICONTROL Rascunho]** ou **[!UICONTROL Aprovado]**. Você só pode duplicá-la ou excluí-la.
 

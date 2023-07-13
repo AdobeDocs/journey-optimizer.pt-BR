@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: perfil, atualização, jornada, atividade
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 9%
@@ -58,11 +58,11 @@ Use o **[!UICONTROL Atualizar perfil]** atividade de ação para atualizar um pe
 
    * Usando o editor de expressões simples, é possível selecionar um campo de uma fonte de dados ou do evento de entrada.
 
-      ![](assets/profileupdate4.png)
+     ![](assets/profileupdate4.png)
 
    * Se quiser definir um valor específico ou aproveitar funções avançadas, clique em **Modo avançado**.
 
-      ![](assets/profileupdate3.png)
+     ![](assets/profileupdate3.png)
 
 A variável **Atualizar perfil** O agora está configurado.
 
@@ -75,4 +75,4 @@ No modo de teste, a atualização do perfil não será simulada. A atualização
 
 Somente perfis de teste podem entrar em uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. No Adobe Experience Platform, você pode atualizar atributos de perfis por meio de uma importação de arquivo csv ou chamadas de API. Um método mais simples é usar um **Atualizar perfil** atividade de ação e alterar o campo booleano do perfil de teste de falso para verdadeiro.
 
-Para obter mais informações sobre como transformar um perfil existente em um perfil de teste, consulte este [seção](../segment/creating-test-profiles.md#create-test-profiles-csv).
+Para obter mais informações sobre como transformar um perfil existente em um perfil de teste, consulte este [seção](../audience/creating-test-profiles.md#create-test-profiles-csv).

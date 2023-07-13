@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão anteriores (2021)
 description: Notas de versão do Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 94%
+ht-degree: 89%
 
 ---
 
@@ -65,7 +65,7 @@ Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lan
 <tbody>
 <tr>
 <td>
-<p>Agora é possível personalizar o conteúdo de suas ofertas usando atributos e segmentos de perfil da Adobe Experience Platform, usando o mesmo componente do editor de expressão encontrado na interface do Journey Optimizer. </p>
+<p>Agora é possível personalizar o conteúdo de suas ofertas usando atributos de perfil e públicos do Adobe Experience Platform, usando o mesmo componente do editor de expressão encontrado na interface do Journey Optimizer. </p>
 <p>Para obter mais informações, consulte a <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -79,7 +79,7 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 
 **Jornadas**
 
-* **Editor de expressão** - Como um usuário avançado, agora você pode usar funções para trabalhar com mapas. Esse recurso pode ser aproveitado com as listas de assinaturas. Como exemplo de um segmento, agora é possível obter um endereço de email de uma lista de assinaturas. [Saiba mais neste exemplo ](../building-journeys/message-to-subscribers-uc.md)
+* **Editor de expressão** - Como um usuário avançado, agora você pode usar funções para trabalhar com mapas. Esse recurso pode ser aproveitado com as listas de assinaturas. Como exemplo, de um público-alvo, agora é possível obter um endereço de email de uma lista de assinaturas. [Saiba mais neste exemplo ](../building-journeys/message-to-subscribers-uc.md)
 
 * **Monitoramento** - Os eventos de etapa para jornadas ativas e modo de teste foram aprimorados. [Novos campos](../reports/sharing-field-list.md#serviceevents) foram adicionados relacionados a trabalhos de exportação de perfil. Para obter uma melhor experiência do usuário, os campos de evento de etapa agora estão organizados em categorias diferentes. Todos os campos de eventos de etapa anteriores ainda estão disponíveis na categoria [stepEvents](../reports/sharing-legacy-fields.md).
 * **Acessibilidade** - As melhorias de acessibilidade foram implementadas nas jornadas.
@@ -262,12 +262,12 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 
 * **Cabeçalhos dinâmicos** - Agora é possível transferir dados dinâmicos em parâmetros de cabeçalho HTTP. Esses parâmetros podem ser usados pelos sistemas de integração que recebem as chamadas HTTP da ação de jornada, por exemplo, carimbo de data e hora ou ID de rastreamento.   [Saiba mais](../action/about-custom-action-configuration.md#url-configuration)
 * **Caminhos dinâmicos de URL** - Agora é possível configurar caminhos dinâmicos de URL para ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#url-configuration)
-* A taxa de limitação geral para ler segmentos foi alterada de 17.000 para 20.000 mensagens por segundo. [Saiba mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* A taxa de limitação geral para públicos-alvo de leitura foi alterada de 17.000 para 20.000 mensagens por segundo. [Saiba mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Interface do usuário**
 
 * **Pesquisa** - Em cada página, agora é possível pesquisar objetos de negócios e artigos de ajuda diretamente do campo de pesquisa inificada da Experience Cloud. [Saiba mais](../start/user-interface.md#unified-search)
-* **Recentes** - A exibição de elementos recentes da página inicial do Adobe Journey Optimizer agora se estende a objetos comerciais adicionais. Com essa atualização, os atalhos para o que você acessou recentemente incluem Mensagens, Jornadas, Segmentos, Esquemas, Conjuntos de dados, Fontes de dados, Eventos, Ações, Fontes e Destinos. [Saiba mais](../action/about-custom-action-configuration.md#passing-collection)
+* **Recentes** - A exibição de elementos recentes da página inicial do Adobe Journey Optimizer agora se estende a objetos comerciais adicionais. Com essa atualização, os atalhos para o que você acessou recentemente incluem Mensagens, Jornadas, Públicos-alvo, Esquemas, Conjuntos de dados, Fontes de dados, Eventos, Ações, Fontes e Destinos. [Saiba mais](../action/about-custom-action-configuration.md#passing-collection)
 
 **Design de conteúdo**
 
@@ -337,12 +337,12 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 
 **Jornadas**
 
-* A taxa de limitação geral de todos os segmentos de leitura executados simultaneamente na mesma sandbox é limitada a 17.000 mensagens por segundo. [Leia mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* A taxa de limitação geral de todos os públicos-alvo de leitura executados simultaneamente na mesma sandbox é limitada a 17.000 mensagens por segundo. [Leia mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * O campo **Duração do cache** foi removido do painel de configuração da fonte de dados. [Leia mais](../datasource/about-data-sources.md)
 * Para fontes de dados externas, uma regra de limitação de 15 chamadas por segundo agora é definida automaticamente. [Leia mais](../configuration/external-systems.md#capping)
 * Para as jornadas em tempo real, a tela de propriedades da jornada agora exibe a data da publicação e o nome do usuário que publicou a jornada. [Leia mais](../building-journeys/journey-gs.md#change-properties)
 * Na tela da lista de jornadas, o filtro Tipo de jornada foi adicionado. [Leia mais](../start/user-interface.md#filter-lists)
-* A variável **[!UICONTROL Taxa de limitação]** foi adicionado na atividade Ler segmento. [Leia mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* A variável **[!UICONTROL Taxa de limitação]** foi adicionado na atividade Ler público. [Leia mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Pré-visualização e teste**
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 15%
@@ -39,8 +39,8 @@ Observe também que os parâmetros de ações personalizadas têm um formato esp
 
 No Journey Optimizer, você pode aplicar políticas de consentimento e governança de dados às ações personalizadas para impedir que campos específicos sejam exportados para sistemas de terceiros ou excluir clientes que não consentiram em receber comunicações por email, push ou SMS. Para obter mais informações, consulte as seguintes páginas:
 
-* [Governança de dados](../action/action-privacy.md).
-* [Consentimento](../action/action-privacy.md).
+* [Governança de dados](../action/action.md).
+* [Consentimento](../action/action.md).
 
 
 ## Etapas de configuração {#configuration-steps}

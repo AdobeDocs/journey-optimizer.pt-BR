@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: jornada, integração, padrão, campanha, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 0f7a0732025e11a92292704743242f688b9629a1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '925'
 ht-degree: 4%
 
 ---
@@ -48,7 +48,7 @@ Para **[!UICONTROL E-mail]** e **[!UICONTROL SMS]**, os parâmetros são idênti
 
 >[!NOTE]
 >
->Ao utilizar o template transacional de um perfil para email, o mecanismo de cancelamento de subscrição é manipulado automaticamente pelo Adobe Campaign Standard. Para implementar isso, você pode incluir facilmente uma **[!UICONTROL Link de cancelamento de subscrição]** bloco de conteúdo em [o template de email transacional](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR). No entanto, se estiver usando um template baseado em evento (rtEvent), você deve incorporar um link na mensagem que transmite o email do recipient como um parâmetro de URL e os direciona para uma landing page de cancelamento de subscrição. É necessário criar essa landing page e garantir que a decisão do recipient de cancelar a inscrição seja efetivamente transmitida ao Adobe.
+>Para email, se estiver usando um template transacional de perfis, o mecanismo de cancelamento de subscrição é manipulado integrado pelo Campaign Standard. Basta adicionar um **[!UICONTROL Link de cancelamento de subscrição]** bloco de conteúdo no modelo ([saiba mais](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR)). Se estiver usando um template baseado em evento (rtEvent), você precisará adicionar, na mensagem, um link que passa o email da pessoa no parâmetro de URL e aponta para uma landing page de cancelamento de subscrição. Você precisa criar essa landing page e garantir que a decisão da pessoa de cancelar a inscrição seja transmitida ao Adobe.
 
 Primeiro, você precisa escolher um template de mensagem transacional.
 

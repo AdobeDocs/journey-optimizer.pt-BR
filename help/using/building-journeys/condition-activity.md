@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 17%
@@ -61,7 +61,7 @@ O modo simples permite executar consultas simples com base em uma combinação d
 
 ![](assets/journey64.png)
 
-Se você estiver usando o [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} para criar segmentos, você pode aproveitá-los nas condições de jornada. Consulte [Uso de segmentos em condições](../building-journeys/condition-activity.md#using-a-segment).
+Se você estiver usando o [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} para criar públicos-alvo, você pode aproveitá-los nas condições de jornada. Consulte [Uso do público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -145,11 +145,11 @@ O limite de perfil não é considerado no modo de teste.
 
 ![](assets/profile-cap-condition.png)
 
-## Uso de segmentos em condições {#using-a-segment}
+## Uso de públicos-alvo em condições {#using-a-segment}
 
-Esta seção explica como usar um segmento em uma condição de jornada. Para obter mais informações sobre segmentos e como criá-los, consulte [nesta seção](../segment/about-segments.md).
+Esta seção explica como usar um público-alvo em uma condição de jornada. Para obter mais informações sobre públicos-alvo e como criá-los, consulte [nesta seção](../audience/about-audiences.md).
 
-Para usar um segmento em uma condição de jornada, siga estas etapas:
+Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
 1. Abra uma jornada, solte uma **[!UICONTROL Condição]** e escolha a **Condição da fonte de dados**.
    ![](assets/journey47.png)
@@ -158,10 +158,10 @@ Para usar um segmento em uma condição de jornada, siga estas etapas:
 
    ![](assets/segment3.png)
 
-1. No lado esquerdo, expanda **[!UICONTROL Segmentos]** nó. Arraste e solte o segmento que deseja usar para a sua condição. Por padrão, a condição no segmento é verdadeira.
+1. No lado esquerdo, expanda **[!UICONTROL Públicos-alvo]** nó. Arraste e solte o público-alvo que deseja usar com sua condição. Por padrão, a condição no público-alvo é verdadeira.
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o **Realizado** e **Existente** os status de participação do segmento serão considerados membros do segmento. Para obter mais informações sobre como avaliar um segmento, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com o **Realizado** e **Existente** os status de participação do público serão considerados membros do público. Para obter mais informações sobre como avaliar um público-alvo, consulte a [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

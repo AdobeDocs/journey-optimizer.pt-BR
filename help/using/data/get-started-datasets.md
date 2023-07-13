@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -40,9 +40,9 @@ Estes são os diferentes conjuntos de dados disponíveis:
 
 **Relatórios**
 
-* _Relatório - Conjunto de dados do evento de feedback de mensagem_: Logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e segmentos. O feedback dos ISPs de email sobre rejeições também são registrados neste conjunto de dados.
-* _Relatórios - Conjunto de dados do evento de experiência de rastreamento de email_: Logs de interação para o canal de email usado para fins de criação de relatórios e segmentos. As informações armazenadas informam as ações executadas pelo usuário final no email (aberturas, cliques etc.).
-* _Relatórios - Conjunto de dados do evento de experiência de rastreamento de push_: Logs de interação para o canal de push usado para fins de criação de relatórios e segmentos. As informações armazenadas informam as ações executadas pelo usuário final nas notificações por push.
+* _Relatório - Conjunto de dados do evento de feedback de mensagem_: Logs de entrega de mensagens. Informações sobre toda a entrega de mensagens do Journey Optimizer para fins de relatório e criação de público-alvo. O feedback dos ISPs de email sobre rejeições também são registrados neste conjunto de dados.
+* _Relatórios - Conjunto de dados de evento de experiência de rastreamento de email_: logs de interação para o canal de email usado para fins de criação de relatórios e público-alvo. As informações armazenadas informam as ações executadas pelo usuário final no email (aberturas, cliques etc.).
+* _Relatórios - Conjunto de dados do evento de experiência de rastreamento de push_: logs de interação para canal de push usado para relatórios e criação de público-alvo. As informações armazenadas informam as ações executadas pelo usuário final nas notificações por push.
 * _Relatórios - Evento de etapa da jornada_: Captura todos os eventos de experiência em etapas da jornada gerados no Journey Optimizer para serem consumidos por serviços como Relatórios. Também é essencial para criar relatórios no Customer Journey Analytics para análise YoY. Vinculado a um Metadado de jornada.
 * _Relatórios - Jornadas_: Informações de hospedagem do conjunto de dados de metadados de cada etapa em uma jornada.
 * _Relatórios - Cco_: Conjunto de dados de evento de feedback que armazena os logs de entrega para emails CCO. A ser usado para fins de relatório.
@@ -88,7 +88,7 @@ Saiba mais sobre Governança de dados e rótulos de uso de dados na [Documentaç
 
 ## Exemplos e casos de uso{#uc-datasets}
 
-Saiba como criar um esquema, um conjunto de dados e assimilar dados para adicionar perfis de teste no Adobe Journey Optimizer [nesta amostra completa](../segment/creating-test-profiles.md)
+Saiba como criar um esquema, um conjunto de dados e assimilar dados para adicionar perfis de teste no Adobe Journey Optimizer [nesta amostra completa](../audience/creating-test-profiles.md)
 
 Saiba mais sobre a criação de conjuntos de dados na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target="_blank"}.
 

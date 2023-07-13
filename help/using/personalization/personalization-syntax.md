@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, sintaxe, personalização
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '735'
 ht-degree: 9%
 
 ---
@@ -76,12 +76,12 @@ Os atributos precisam ser definidos no esquema antes de serem referenciados em u
 
 `{{profile.faxPhone.number}}`
 
-## Segmentos{#perso-segments}
+## Públicos-alvo{#perso-segments}
 
 Saiba como aproveitar os atributos de perfil nas condições do [nesta seção](functions/helpers.md#if-function).
 
 >[!NOTE]
->Para saber mais sobre o serviço de segmentação, consulte [nesta seção](../segment/about-segments.md).
+>Para saber mais sobre o serviço de segmentação, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 
 ## Ofertas {#offers-syntax}
 
@@ -107,19 +107,19 @@ Todas as referências são validadas em relação ao Esquema de ofertas com um m
 
 * Local onde a imagem está hospedada:
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
 * URL do Target ao clicar na imagem:
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
 * Conteúdo de texto da oferta proveniente do mecanismo de decisão:
 
-   `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 * Conteúdo HTML da oferta proveniente do mecanismo de decisão:
 
-   `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
 ## Auxiliares{#helpers-all}
@@ -134,6 +134,7 @@ Blocos são expressões que têm uma abertura de bloco ({{# }}) and closing ({{/
 >[!NOTE]
 >
 >As funções auxiliares são detalhadas em [nesta seção](functions/helpers.md).
+>
 
 ## Tipos literais {#literal-types}
 
@@ -163,7 +164,8 @@ O Journey Optimizer permite personalizar um ou vários URLs em sua mensagem adic
 
 >[!NOTE]
 >
->No editor de expressão, ao editar um URL personalizado, as funções auxiliares e a associação de segmentos são desativadas por motivos de segurança.
+>No editor de expressão, ao editar um URL personalizado, as funções auxiliares e a associação de públicos-alvo são desabilitadas por motivos de segurança.
+>
 
 **Amostras de URLs personalizados**
 

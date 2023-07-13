@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: jornada, descobrir, começar
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 24%
+source-wordcount: '588'
+ht-degree: 21%
 
 ---
 
@@ -22,13 +22,13 @@ Uso [!DNL Journey Optimizer] para criar casos de uso de orquestração em tempo 
 
 Crie designs de cenários avançados com várias etapas e com os seguintes recursos:
 
-* Envie **entrega unitária** em tempo real acionada quando um evento é recebido, ou **em lote** usando segmentos da Adobe Experience Platform.
+* Enviar em tempo real **entrega unitária** acionado quando um evento é recebido ou **em lote** usando públicos da Adobe Experience Platform.
 
 * Aproveite **dados contextuais** de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros.
 
 * Use o **ações integradas** para enviar mensagens projetadas no [!DNL Journey Optimizer] ou criar **ações personalizadas** se você estiver usando um sistema de terceiros para enviar mensagens.
 
-* Com o **Designer de jornadas**, crie seus casos de uso em várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de segmento de leitura, adicione condições e envie mensagens personalizadas.
+* Com o **Designer de jornada**, crie seus casos de uso em várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
 
 
 >[!NOTE]
@@ -47,7 +47,7 @@ O Adobe Journey Optimizer inclui uma tela de orquestração omnicanal que permit
 
 Saiba como iniciar e criar sua primeira jornada no [esta página](journey-gs.md).
 
-O designer de jornadas omnicanal auxilia você na construção de jornadas de várias etapas, direcionando públicos especificamente e incorporando atualizações com base em interações de clientes ou negócios em tempo real. Ela também permite criar mensagens omnicanal por meio de uma interface intuitiva de arrastar e soltar.
+O designer de jornada omnicanal ajuda você a criar jornadas em várias etapas com públicos-alvo direcionados, atualizações com base em interações de clientes ou negócios em tempo real e mensagens omnicanal usando uma interface intuitiva de arrastar e soltar.
 
 ![](assets/journey38.png)
 

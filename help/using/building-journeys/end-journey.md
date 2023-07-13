@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: inserir novamente, jornada, finalizar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 3%
@@ -54,7 +54,7 @@ Uma jornada pode ser fechada pelos seguintes motivos:
 
 * A jornada é fechada manualmente por meio do **[!UICONTROL Fechar para novas entradas]** botão.
 * Uma jornada única baseada em segmento que terminou de ser executada.
-* Após a última ocorrência de uma jornada baseada em segmento recorrente.
+* Após a última ocorrência de uma jornada baseada em público-alvo recorrente.
 
 Fechar uma jornada manualmente garante que os clientes que já entraram na jornada possam concluir seu caminho, mas os novos usuários não podem entrar na jornada. Quando uma jornada for fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Fechado]**. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente. Após o tempo limite global padrão de 30 dias, a jornada será alternada para a variável **Concluído** status. Consulte esta [seção](../building-journeys/journey-gs.md#global_timeout).
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 24%
+source-wordcount: '894'
+ht-degree: 22%
 
 ---
 
@@ -31,7 +31,7 @@ Você também pode configurar ações específicas para enviar mensagens para vo
 
 Para adicionar uma mensagem em uma jornada, siga as etapas abaixo:
 
-1. Inicie a jornada com uma atividade de [Evento](general-events.md) ou [Segmento de leitura](read-segment.md).
+1. Inicie sua jornada com um [Evento](general-events.md) ou um [Ler público-alvo](read-audience.md) atividade.
 
 1. No **Ações** da paleta, arraste e solte uma **email**, um **No aplicativo**, um **SMS** ou um **Push** atividade na tela.
 
@@ -115,6 +115,10 @@ O modelo varia se você estiver falando sobre pontuação ou treinamento. O trei
 * Pontuação - a aplicação de uma pontuação a perfis individuais com base no modelo treinado
 
 Essas informações são armazenadas com o perfil do usuário e são referenciadas na execução da jornada para informar ao Adobe Journey Optimizer quando enviar sua mensagem.
+
+>[!CAUTION]
+>
+>Este recurso não é compatível com o modo de intermitência.
 
 ### Ativar otimização da hora de envio{#activate-send-time-optimization}
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: b5fa17bfc888236994e73474c35b1aaafcda3ebe
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 36%
@@ -26,7 +26,7 @@ Use o **[!UICONTROL Ofertas]** menu para gerenciar e entregar suas ofertas:
 * **[!UICONTROL Ofertas]**: crie e acesse suas ofertas personalizadas e substitutas. Saiba como criar [ofertas](../offer-library/creating-personalized-offers.md) e [ofertas substitutas](../offer-library/creating-fallback-offers.md)
 * **[!UICONTROL Coleções]**: organize suas ofertas em coleções estáticas e dinâmicas. [Saiba mais](../offer-library/creating-collections.md)
 * **[!UICONTROL Decisões]**: crie e gerencie decisões para entregar suas ofertas. [Saiba mais](../offer-activities/create-offer-activities.md)
-* **[!UICONTROL Decisão em lote]**: forneça decisões de oferta a todos os perfis em um determinado segmento do Adobe Experience Platform. [Saiba mais](../batch-delivery.md)
+* **[!UICONTROL Decisão em lote]**: forneça decisões de oferta a todos os perfis em um determinado público-alvo da Adobe Experience Platform. [Saiba mais](../batch-delivery.md)
 * **[!UICONTROL Simulação]**: valide a lógica de decisão simulando quais ofertas serão entregues a um perfil de teste para uma determinada inserção. [Saiba mais](../offer-activities/simulation.md)
 
 Use o **[!UICONTROL Componentes]** para criar e gerenciar os componentes necessários para criar ofertas e decisões:

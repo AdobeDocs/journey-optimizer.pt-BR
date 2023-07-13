@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jump, activity, jornada, split, dividir
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 9%
@@ -58,8 +58,8 @@ Na jornada B, o primeiro evento é acionado internamente, por meio do **[!UICONT
 
 * A variável **[!UICONTROL Salto]** A atividade só está disponível em jornadas que usam namespace.
 * Você só pode pular para uma jornada que use o mesmo namespace que a jornada de origem.
-* Não é possível pular para uma jornada que começa com um **Qualificação do segmento** evento ou **Segmento de leitura**.
-* Você não pode ter um **[!UICONTROL Salto]** atividade e um **Qualificação do segmento** evento ou **Segmento de leitura** na mesma jornada.
+* Não é possível pular para uma jornada que começa com um **Qualificação do público-alvo** evento ou **Ler público-alvo**.
+* Você não pode ter um **[!UICONTROL Salto]** atividade e um **Qualificação do público-alvo** evento ou **Ler público-alvo** na mesma jornada.
 * Você pode incluir quantos **[!UICONTROL Salto]** conforme necessário em uma jornada. Depois de um **[!UICONTROL Salto]**, você pode adicionar qualquer atividade necessária.
 * Você pode ter quantos níveis de salto forem necessários. Por exemplo, a Jornada A salta para a jornada B, que salta para a jornada C e assim por diante.
 * A jornada do target também pode incluir quantos **[!UICONTROL Salto]** conforme necessário.
@@ -81,7 +81,7 @@ Na jornada B, o primeiro evento é acionado internamente, por meio do **[!UICONT
    ![](assets/jump2.png)
 
 1. Clique dentro do **Jornada do Target** campo.
-A lista exibe todas as versões do jornada que são modo de rascunho, ativo ou de teste. Jornadas que usam um namespace diferente ou que começam com um **Qualificação do segmento** evento não estão disponíveis. As jornadas do Target que criariam um padrão de loop também são filtradas.
+A lista exibe todas as versões do jornada que são modo de rascunho, ativo ou de teste. Jornadas que usam um namespace diferente ou que começam com um **Qualificação do público-alvo** evento não estão disponíveis. As jornadas do Target que criariam um padrão de loop também são filtradas.
 
    ![](assets/jump3.png)
 

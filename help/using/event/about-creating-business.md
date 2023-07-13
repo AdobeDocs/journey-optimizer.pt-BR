@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: evento, jornada, negócios, configuração
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 15%
 
 Ao contrário de eventos unitários, os eventos de negócios não estão vinculados a um perfil específico. O tipo de ID de evento sempre se baseia em regras. Leia mais sobre eventos comerciais em [nesta seção](../event/about-events.md).
 
-As jornadas baseadas em segmentos de leitura podem ser acionadas de uma só vez, por um scheduler regularmente ou por um evento comercial, quando o evento ocorrer.
+As jornadas de leitura baseadas no público-alvo podem ser acionadas de uma só vez, por um scheduler regularmente ou por um evento comercial, quando o evento ocorrer.
 
 Eventos comerciais podem ser &quot;um produto está de volta no estoque&quot;, &quot;o preço das ações de uma empresa atinge um determinado valor&quot;, etc.
 
@@ -39,12 +39,12 @@ Eventos comerciais podem ser &quot;um produto está de volta no estoque&quot;, &
 * O esquema de evento deve conter uma identidade primária baseada em pessoas. Os seguintes campos devem ser selecionados ao definir o evento: `_id` e `timestamp`
 * Eventos comerciais só podem ser descartados como a primeira etapa de uma jornada.
 * Ao soltar um evento comercial como a primeira etapa de uma jornada, o tipo de scheduler da jornada será &quot;evento comercial&quot;.
-* Somente uma atividade de segmento de leitura pode ser descartada após um evento comercial. Ele é adicionado automaticamente como a próxima etapa.
+* Somente uma atividade de leitura de público pode ser descartada após um evento comercial. Ele é adicionado automaticamente como a próxima etapa.
 * Para permitir várias execuções de eventos comerciais, ative a opção correspondente no **[!UICONTROL Execução]** seção das propriedades da jornada.
-* Depois que um evento comercial é acionado, haverá um atraso para que o segmento seja exportado de 15 minutos para até uma hora.
+* Depois que um evento comercial é acionado, haverá um atraso para que o público-alvo seja exportado de 15 minutos para até uma hora.
 * Ao testar um evento comercial, você precisa passar os parâmetros do evento e o identificador do perfil de teste que inserirá a jornada em teste. Além disso, ao testar uma jornada baseada em evento comercial, você só pode acionar uma única entrada de perfil. Consulte [esta seção](../building-journeys/testing-the-journey.md#test-business). No modo de teste, não há modo de &quot;Visualização de código&quot; disponível.
 * O que acontece com os indivíduos que estão atualmente na jornada se um novo evento comercial chegar? Ela se comporta da mesma forma que quando os indivíduos ainda estão em uma jornada recorrente quando uma nova recorrência acontece. O caminho deles foi finalizado. Como resultado, os profissionais de marketing devem prestar atenção para evitar a criação de jornadas muito longas se esperam eventos comerciais frequentes.
-* Os eventos comerciais não podem ser usados junto com eventos unitários ou atividades de qualificação de segmento.
+* Os eventos comerciais não podem ser usados juntamente com eventos unitários ou atividades de qualificação de público-alvo.
 
 ## Vários eventos comerciais {#multiple-business-events}
 
@@ -54,9 +54,9 @@ Estas são algumas observações importantes que se aplicam quando vários event
 
 Os eventos comerciais seguem as regras de reentrada da mesma forma que para eventos unitários. Se uma jornada permitir a reentrada, o próximo evento comercial será processado.
 
-**Quais são as medidas de proteção para evitar a sobrecarga de segmentos materializados?**
+**Quais são as medidas de proteção para evitar o excesso de públicos materializados?**
 
-No caso de eventos comerciais instantâneos, para determinada jornada, os dados enviados pelo primeiro trabalho de evento são reutilizados durante uma janela de tempo de 1 hora. Para jornadas programadas, não há garantia. Saiba mais sobre segmentos na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+No caso de eventos comerciais instantâneos, para determinada jornada, os dados enviados pelo primeiro trabalho de evento são reutilizados durante uma janela de tempo de 1 hora. Para jornadas programadas, não há garantia. Saiba mais sobre públicos-alvo na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Introdução a eventos comerciais {#gs-business-events}
 

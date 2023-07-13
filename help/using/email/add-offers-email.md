@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ofertas, decisão, emails, personalização, decisão
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 1%
@@ -77,7 +77,7 @@ Para exibir as diferentes ofertas que fazem parte da decisão com um perfil de c
 
 >[!NOTE]
 >
->Você precisa ter perfis de teste disponíveis para poder visualizar suas mensagens. Saiba como [criar perfis de teste](../segment/creating-test-profiles.md).
+>Você precisa ter perfis de teste disponíveis para poder visualizar suas mensagens. Saiba como [criar perfis de teste](../audience/creating-test-profiles.md).
 
 1. Selecione os perfis de teste que serão usados para visualizar a oferta:
 
@@ -85,7 +85,7 @@ Para exibir as diferentes ofertas que fazem parte da decisão com um perfil de c
 
       >[!NOTE]
       >
-      >Neste exemplo, usamos o **E-mail** namespace. Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../segment/get-started-identity.md).
+      >Neste exemplo, usamos o **E-mail** namespace. Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../audience/get-started-identity.md).
 
    1. No **[!UICONTROL Valor de identidade]** insira o valor para identificar o perfil de teste. Neste exemplo, insira o endereço de email de um perfil de teste.
 
@@ -94,7 +94,6 @@ Para exibir as diferentes ofertas que fazem parte da decisão com um perfil de c
    1. Adicione outros perfis para testar diferentes variantes da mensagem, dependendo dos dados do perfil.
 
       ![](assets/deliver-offer-test-profiles.png)
-
 
 1. Clique em **[!UICONTROL Visualizar]** para testar a mensagem e selecionar um perfil de teste. A oferta correspondente ao perfil selecionado (uma mulher) é exibida.
 

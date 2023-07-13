@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 11%
@@ -25,7 +25,7 @@ ht-degree: 11%
 
 Use perfis de teste para testar a jornada antes de publicá-la. Esse modo permite executar um teste da jornada e identificar problemas usando perfis de teste.
 
-Somente perfis de teste podem entrar em uma jornada no modo de teste. Você pode criar novos perfis de teste ou transformar perfis existentes em perfis de teste. Saiba mais sobre perfis de teste no [nesta seção](../segment/creating-test-profiles.md).
+Somente perfis de teste podem entrar em uma jornada no modo de teste. Você pode criar novos perfis de teste ou transformar perfis existentes em perfis de teste. Saiba mais sobre perfis de teste no [nesta seção](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Para usar o modo de teste, siga estas etapas:
 ## Observações importantes {#important_notes}
 
 * No modo de teste, é possível acionar eventos usando a interface.
-* Somente indivíduos sinalizados como &quot;perfis de teste&quot; no Serviço de perfil do cliente em tempo real poderão entrar na jornada testada. Consulte esta [seção](../segment/creating-test-profiles.md).
+* Somente indivíduos sinalizados como &quot;perfis de teste&quot; no Serviço de perfil do cliente em tempo real poderão entrar na jornada testada. Consulte esta [seção](../audience/creating-test-profiles.md).
 * O modo de teste só está disponível em jornadas de rascunho que usam um namespace. O modo de teste precisa verificar se uma pessoa que entra na jornada é um perfil de teste ou não e, portanto, deve ser capaz de acessar o Adobe Experience Platform.
 * O número máximo de perfis de teste que podem inserir uma jornada durante uma sessão de teste é 100.
 * Quando você desativa o modo de teste, ele esvazia as jornadas de todas as pessoas que entraram anteriormente ou que estão atualmente nele. Também apaga os relatórios.
@@ -114,7 +114,7 @@ Ao acionar um evento, a variável **Configuração do evento** permite definir o
 
 ## Modo de teste para eventos comerciais {#test-business}
 
-Ao usar uma [evento comercial](../event/about-events.md), use o modo de teste para acionar uma única entrada de perfil de teste na jornada, simular o evento e passar a ID de perfil correta. Você precisa passar os parâmetros de evento e o identificador do perfil de teste que inserirá a jornada em teste. Você não pode usar o **[!UICONTROL Até 100 perfis de uma só vez]** que existe para outras jornadas baseadas em segmento. No modo de teste, não há modo de &quot;Visualização de código&quot; disponível para jornadas com base em eventos comerciais.
+Ao usar uma [evento comercial](../event/about-events.md), use o modo de teste para acionar uma única entrada de perfil de teste na jornada, simular o evento e passar a ID de perfil correta. Você precisa passar os parâmetros de evento e o identificador do perfil de teste que inserirá a jornada em teste. Você não pode usar o **[!UICONTROL Até 100 perfis de uma só vez]** que existe para outras jornadas baseadas em público-alvo. No modo de teste, não há modo de &quot;Visualização de código&quot; disponível para jornadas com base em eventos comerciais.
 
 Observe que, quando você aciona um evento de negócios pela primeira vez, não é possível alterar a definição do evento de negócios na mesma sessão de teste. Você só pode fazer com que a mesma pessoa ou uma pessoa diferente insira a jornada que passa o mesmo ou outro identificador. Se quiser alterar os parâmetros do evento comercial, você deverá interromper e iniciar novamente o modo de teste.
 

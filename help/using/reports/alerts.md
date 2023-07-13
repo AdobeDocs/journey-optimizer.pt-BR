@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 1832f3395b07580e62f32c886a0a4256267b2970
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 6%
@@ -26,7 +26,8 @@ Para saber como assinar alertas e configurá-los, consulte este [página](https:
 
 >[!AVAILABILITY]
 >
->Algumas alterações de design estão em andamento para o alerta &quot;Acionador de segmento de leitura malsucedido&quot;, portanto, esse alerta está pausado por enquanto e foi removido temporariamente da interface do usuário. Quando essas alterações forem liberadas, o alerta será exibido novamente e você poderá assinar.
+>Algumas alterações de design estão em andamento para o alerta &quot;Acionador de leitura de público-alvo malsucedido&quot;, portanto, esse alerta está pausado por enquanto e foi removido temporariamente da interface do usuário. Quando essas alterações forem liberadas, o alerta será exibido novamente e você poderá assinar.
+>
 
 No menu esquerdo, em **Administração**, clique em **Alertas**.
 

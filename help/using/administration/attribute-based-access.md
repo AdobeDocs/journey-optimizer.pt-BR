@@ -9,7 +9,7 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, atributo, autorizações, dados, acesso, confidencial, ativos
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 O controle de acesso baseado em atributos (ABAC) permite definir autorizações para gerenciar o acesso aos dados de equipes ou grupos de usuários específicos. Seu objetivo é proteger ativos digitais sensíveis de usuários não autorizados, permitindo maior proteção de dados pessoais.
 
-No Adobe Journey Optimizer, o ABAC permite proteger dados e conceder acesso específico a elementos de campo específicos, incluindo esquemas do Experience Data Model (XDM), atributos de perfil e segmentos.
+No Adobe Journey Optimizer, o ABAC permite proteger dados e conceder acesso específico a elementos de campo específicos, incluindo esquemas do Experience Data Model (XDM), atributos de perfil e públicos-alvo.
 
 Para obter uma lista mais detalhada da terminologia usada com o ABAC, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
 
@@ -90,7 +90,7 @@ Os usuários na **Demografia de função restrita** agora têm acesso aos objeto
 **[!UICONTROL Rótulos]** pode ser usado para atribuir áreas de recursos específicos usando o controle de acesso baseado em atributo.
 Neste exemplo, queremos restringir o acesso ao **Nacionalidade** campo. Este campo só poderá ser acessado por usuários com as **[!UICONTROL Rótulo]** aos seus  **[!UICONTROL Função]**.
 
-Observe que você também pode adicionar  **[!UICONTROL Rótulo]** para  **[!UICONTROL Esquema]**,  **[!UICONTROL Conjuntos de dados]** e  **[!UICONTROL Segmentos]**.
+Observe que você também pode adicionar  **[!UICONTROL Rótulo]** para  **[!UICONTROL Esquema]**,  **[!UICONTROL Conjuntos de dados]** e  **[!UICONTROL Públicos-alvo]**.
 
 1. Crie seu **[!UICONTROL Esquema]**. Para obter mais informações, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR).
 

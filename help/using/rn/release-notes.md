@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '2595'
+source-wordcount: '2453'
 ht-degree: 95%
 
 ---
@@ -22,46 +22,47 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
 
-
-## Notas de versão de junho de 2023 {#june-rn-2023}
-
 <!--
+## June 2023 early release notes {#june-rn-2023}
+
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Release date**: June 21-22, 2023-->
+**Release date**: June 21-22, 2023
 
-
-<!-- ### New capabilities{#june-2023-features}-->
+### New capabilities{#june-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Campanhas acionadas por API para casos de uso de marketing</strong><br/></th>
+<th><strong>API-triggered campaigns for marketing use cases</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível usar APIs para acionar campanhas de marketing no Adobe Journey Optimizer a partir de um sistema externo.</p>
-<p>Até essa versão, o recurso de campanhas acionadas por API cobria várias necessidades de mensagens operacionais e transacionais, como redefinições de senha ou token OTP, mas não podia ser usado para criar campanhas de marketing. Os canais disponíveis para campanhas acionadas por API são: email, SMS e mensagens por push.</p>
+<p>You can now use APIs to trigger marketing campaigns in Adobe Journey Optimizer from an external system.</p>
+<p>Until this release, API-triggered campaigns capability was covering various operational and transactional messaging needs like password resets or OTP token, but could not be used to create marketing campaigns. Available channels for API-triggered campaigns are: Email, SMS and Push messages.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>Para obter mais informações, consulte a <a href="../campaigns/api-triggered-campaigns.md">documentação detalhada</a>.
+<p>For more information, refer to the <a href="../campaigns/api-triggered-campaigns.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+
 ### Improvements {#june-2023-improvements}
 
 
 **Audiences**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.	
+
 
 **Journeys**
 
-You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.	 
+
+* A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
 ## Notas de versão de maio de 2023 {#may-rn-2023}
@@ -79,7 +80,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 <tr>
 <td>
 <p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
-<img src="../segment/assets/audiences-publish.png"/>
+<img src="../audience/assets/audiences-publish.png"/>
 <!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -170,7 +171,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 <tbody>
 <tr>
 <td>
-<p>Os modelos de classificação de IA de otimização personalizada agora estão disponíveis na Gestão de decisões. Esse novo tipo de modelo permite otimizar e personalizar ofertas com base em segmentos e desempenho da oferta.</p>
+<p>Os modelos de classificação de IA de otimização personalizada agora estão disponíveis na Gestão de decisões. Esse novo tipo de modelo permite otimizar e personalizar ofertas com base nos públicos e no desempenho da oferta.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Para obter mais informações, consulte a <a href="../offers/ranking/personalized-optimization-model.md">documentação detalhada</a>.</p>
 </td>
@@ -301,11 +302,9 @@ You can now leverage API call responses in custom actions and orchestrate your j
 
 * A tela da jornada agora exibe a ID da atividade nas atividades de mensagem e tags finais. Isso melhora os relatórios e o redirecionamento.
 * O layout do painel de configuração, que aparece em ações, fontes de dados, eventos e jornadas, foi aprimorado.
+* Novo insight para um número de nós em telas com proteções para ajudar no crescimento: mantenha as jornadas fáceis de ler, controle a qualidade e solucione problemas com um número máximo de 50 nós por jornada. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
 * Ao adicionar uma ação de [email](../email/create-email.md), [SMS](../sms/create-sms.md) ou [push](../push/create-push.md) em uma jornada, a superfície agora é pré-preenchida, por padrão, com a última superfície usada para esse canal na jornada atual.
 * Agora é possível definir parâmetros de consulta estáticos ou dinâmicos em suas ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#url-configuration)
-* Novas medidas de proteção para gerenciar o crescimento das experiências oferecidas pelas Jornadas:
-   * Recomendamos que você mantenha o número de nós limitado a 50 ou menos para manter o desempenho do jornada, a facilidade de leitura, o controle de qualidade e a solução de problemas. O número de atividades será exibido na seção superior esquerda da tela de jornada. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
-   * À medida que você desenvolve e inicia jornadas, você será notificado quando se aproximar do marco de 100 jornadas ativas de uma só vez. Caso seus planos exijam mais de 100 jornadas por vez, crie um tíquete para suporte depois de ver a notificação e nós o ajudaremos. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
 
 **Relatórios**
 
@@ -378,8 +377,8 @@ You can now leverage API call responses in custom actions and orchestrate your j
 * A tela da jornada foi aperfeiçoada para oferecer uma experiência do usuário mais simples e polida. No final de cada caminho na tela, os espaços reservados vazios foram removidos. Agora é possível adicionar suas atividades simplesmente arrastando-as para o final de um caminho.
 * Na tela da jornada, o rótulo da tag **Fim** não é mais definida automaticamente com o nome da atividade anterior. Os usuários podem adicionar manualmente um rótulo personalizado, se necessário.
 * O tempo limite padrão e a duração de erro nas propriedades da jornada foram alterados de 5 para 30 segundos. [Saiba mais](../configuration/external-systems.md#timeout)
-* A taxa de limitação padrão em atividades de segmento de leitura foi alterada de 20.000 para 5.000 mensagens por segundo. [Saiba mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* Uma medida de proteção foi adicionada ao modo de teste para ouvir apenas os eventos enviados através da interface. Eventos enviados por uma ferramenta externa não são considerados. [Saiba mais](../building-journeys/testing-the-journey.md)
+* A taxa de limitação padrão em atividades de leitura de público foi alterada de 20.000 para 5.000 mensagens por segundo. [Saiba mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* Uma medida de proteção foi adicionada ao modo de teste para ouvir apenas os eventos enviados através da interface. Os eventos enviados por uma ferramenta externa não são considerados. [Saiba mais](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
@@ -509,9 +508,9 @@ Note that each widget can be resized and deleted as needed.
 
 **Jornadas**
 
-* O campo **Período de espera de reentrada** foi adicionado às propriedades da jornada. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de segmento). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. [Saiba mais](../building-journeys/journey-gs.md#entrance)
+* O campo **Período de espera de reentrada** foi adicionado às propriedades da jornada. Esse campo permite definir o tempo de espera antes de permitir que um perfil entre na jornada novamente em jornadas unitárias (começando com um evento ou uma qualificação de público-alvo). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. [Saiba mais](../building-journeys/journey-gs.md#entrance)
 
-* Foram realizadas melhorias nas **datas de início e término da jornada**. Se você não tiver especificado uma data de início, ela agora será adicionada automaticamente no momento da publicação. Para jornadas de **Segmento de leitura**, agora é possível adicionar uma data de término. Isso permite que os perfis saiam automaticamente quando a data for atingida. [Saiba mais](../building-journeys/journey-gs.md#dates)
+* Foram realizadas melhorias nas **datas de início e término da jornada**. Se você não tiver especificado uma data de início, ela agora será adicionada automaticamente no momento da publicação. Para **Ler público** jornadas, agora é possível adicionar uma data de término. Isso permite que os perfis saiam automaticamente quando a data for atingida. [Saiba mais](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -585,7 +584,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Jornadas**
 
-* Ao adicionar uma **Qualificação de segmento** ou um **Segmento de leitura** em uma jornada, o namespace agora é pré-preenchido, por padrão, com o último namespace usado. Consulte as seções [Qualificação de segmento](../building-journeys/segment-qualification-events.md#about-segment-qualification) e [Segmento de leitura](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+* Ao adicionar uma **Qualificação de público** ou **Ler público** em uma jornada, o namespace agora é pré-preenchido, por padrão, com o último namespace usado. Consulte a [Qualificação de público](../building-journeys/audience-qualification-events.md#about-segment-qualification) e [Ler público](../building-journeys/read-audience.md#configuring-segment-trigger-activity) seções.
 
 * Um novo botão está disponível na barra de ferramentas da tela de jornada, que permite baixar uma captura de tela da sua jornada.
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 3%
@@ -79,32 +79,32 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 
 * Descrição
 
-   **Campo:** descrição
-   **Título:** Descrição
-   **Descrição:** Descrição da seleção de opção. É usado para transmitir intenções legíveis por humanos sobre como ou por que essa seleção de opção foi construída e/ou qual opção corresponderá.
-   **Tipo:** sequência de caracteres
+  **Campo:** descrição
+  **Título:** Descrição
+  **Descrição:** Descrição da seleção de opção. É usado para transmitir intenções legíveis por humanos sobre como ou por que essa seleção de opção foi construída e/ou qual opção corresponderá.
+  **Tipo:** sequência de caracteres
 
 * Filtro de opção
 
-   **Campo:** filtro
-   **Título:** Filtro de opção
-   **Descrição:** A referência a um filtro baseado em qualificador de coleção (anteriormente conhecido como &quot;etiqueta&quot;) que corresponde às opções de um estoque usando seus qualificadores de coleção anexados. O valor é o URI (@id) da regra de decisão referenciada. Consulte schema https://ns.adobe.com/experience/decisioning/filter.
-   **Tipo:** sequência de caracteres
+  **Campo:** filtro
+  **Título:** Filtro de opção
+  **Descrição:** A referência a um filtro baseado em qualificador de coleção (anteriormente conhecido como &quot;etiqueta&quot;) que corresponde às opções de um estoque usando seus qualificadores de coleção anexados. O valor é o URI (@id) da regra de decisão referenciada. Consulte schema https://ns.adobe.com/experience/decisioning/filter.
+  **Tipo:** sequência de caracteres
 
 * Tipo de Restrição de Perfil
 
-   **Campo:** optionSelectionType
-   **Título:** Tipo de Restrição de Perfil
-   **Descrição:** Determina se alguma restrição está definida no momento e como as restrições são expressas. Pode ser por meio de uma consulta de filtro ou por meio de uma ou mais associações de segmento.
-   **Tipo:** sequência de caracteres
-   **Valores possíveis:** &quot;none&quot; (padrão), &quot;directList&quot;, &quot;filter&quot;
+  **Campo:** optionSelectionType
+  **Título:** Tipo de Restrição de Perfil
+  **Descrição:** Determina se alguma restrição está definida no momento e como as restrições são expressas. Pode ser por meio de uma consulta de filtro ou por meio de uma ou mais associações de público-alvo.
+  **Tipo:** sequência de caracteres
+  **Valores possíveis:** &quot;none&quot; (padrão), &quot;directList&quot;, &quot;filter&quot;
 
 * Lista de opções
 
-   **Campo:** opções
-   **Título:** Lista de opções
-   **Descrição:** Uma lista que especifica diretamente as opções sem avaliar uma consulta de filtro. É possível especificar uma lista de opções ou uma regra de filtro de opções.
-   **Tipo:** matriz
+  **Campo:** opções
+  **Título:** Lista de opções
+  **Descrição:** Uma lista que especifica diretamente as opções sem avaliar uma consulta de filtro. É possível especificar uma lista de opções ou uma regra de filtro de opções.
+  **Tipo:** matriz
 
 <!--Missing title under Option List? Desc = An identifier of an decision option entity. The value value refers to an `@id` property of a decision option. Type: string-->
 
@@ -119,9 +119,9 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 
 * Identificador de posicionamento
 
-   **Título:** Identificador de posicionamento
-   **Descrição:** Uma referência a uma entidade de posicionamento. O valor é o URI (@id) do posicionamento referenciado. Consulte schema https://ns.adobe.com/experience/decisioning/placement.
-   **Tipo:** sequência de caracteres
+  **Título:** Identificador de posicionamento
+  **Descrição:** Uma referência a uma entidade de posicionamento. O valor é o URI (@id) do posicionamento referenciado. Consulte schema https://ns.adobe.com/experience/decisioning/placement.
+  **Tipo:** sequência de caracteres
 
 +++
 
@@ -156,13 +156,13 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 
 **Campo:** profileConstraintType
 **Título:** Tipo de Restrição de Perfil
-**Descrição:** Determina se alguma restrição está definida no momento e como as restrições são expressas. Pode ser por meio de uma regra ou de uma ou mais associações de segmento.
+**Descrição:** Determina se alguma restrição está definida no momento e como as restrições são expressas. Pode ser por meio de uma regra ou de uma ou mais associações de público-alvo.
 **Tipo:** string
 **Valores possíveis:**
 * &quot;none&quot; (padrão)
 * &quot;eligibilityRule&quot;: &quot;A restrição de perfil é expressa como uma única regra que deve ser avaliada como verdadeira antes que a ação restrita seja permitida.&quot;
-* &quot;anySegments&quot;: &quot;A restrição de perfil é expressa como um ou mais segmentos e o perfil deve ser um membro de pelo menos um deles antes que a ação restrita seja permitida.&quot;
-* &quot;allSegments&quot;: &quot;A restrição de perfil é expressa como um ou mais segmentos e o perfil deve ser um membro de todos eles antes da ação restrita ser permitida.&quot;
+* &quot;anySegments&quot;: &quot;A restrição de perfil é expressa como um ou mais públicos-alvo e o perfil deve ser um membro de pelo menos um deles antes que a ação restrita seja permitida.&quot;
+* &quot;allSegments&quot;: &quot;a restrição de perfil é expressa como um ou mais públicos-alvo e o perfil deve ser um membro de todos eles antes que a ação restrita seja permitida.&quot;
 * &quot;regras&quot;: &quot;A restrição de perfil é expressa como um número de regras diferentes, por exemplo, elegibilidade, aplicabilidade, adequação, que devem ser avaliadas como verdadeiras antes que a ação restrita seja permitida.&quot;
 
 +++
@@ -171,37 +171,37 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 
 **Campo:** segmentIdentities
 **Título:** Identificadores de segmento
-**Descrição:** Identificadores dos segmentos.
+**Descrição:** Identificadores do público-alvo.
 **Tipo:** matriz
 
 * Identificador
 
-   **Campo:** _id
-   **Título:** Identificador
-   **Descrição:** Identidade do segmento no namespace relacionado.
-   **Tipo:** sequência de caracteres
+  **Campo:** _id
+  **Título:** Identificador
+  **Descrição:** Identidade do público no namespace relacionado.
+  **Tipo:** sequência de caracteres
 
 * namespace
 
-   **Campo:** namespace
-   **Título:** Namespace
-   **Descrição:** O namespace associado à variável `xid` atributo.
-   **Tipo:** objeto
-   **Obrigatório:** &quot;code&quot;
+  **Campo:** namespace
+  **Título:** Namespace
+  **Descrição:** O namespace associado à variável `xid` atributo.
+  **Tipo:** objeto
+  **Obrigatório:** &quot;code&quot;
 
    * Código
 
-      **Campo:** código
-      **Título:** Código
-      **Descrição:** O código é um identificador legível por humanos para o namespace e pode ser usado para solicitar a id técnica do namespace que é usada para o processamento do gráfico de identidade.
-      **Tipo:** sequência de caracteres
+     **Campo:** código
+     **Título:** Código
+     **Descrição:** O código é um identificador legível por humanos para o namespace e pode ser usado para solicitar a id técnica do namespace que é usada para o processamento do gráfico de identidade.
+     **Tipo:** sequência de caracteres
 
 * Identificador de experiência
 
-   **Campo:** xid
-   **Título:** Identificador de experiência
-   **Descrição:** Quando presente, esse valor representa um identificador de namespace cruzado que é exclusivo em todos os identificadores de escopo de namespace em todos os namespaces.
-   **Tipo:** sequência de caracteres
+  **Campo:** xid
+  **Título:** Identificador de experiência
+  **Descrição:** Quando presente, esse valor representa um identificador de namespace cruzado que é exclusivo em todos os identificadores de escopo de namespace em todos os namespaces.
+  **Tipo:** sequência de caracteres
 
 +++
 
@@ -223,25 +223,25 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 
 * Função de pontuação
 
-   **Campo:** função
-   **Título:** Função de pontuação
-   **Descrição:** Uma referência a uma função que calcula uma pontuação numérica para essa opção de decisão. As opções de decisão serão classificadas por essa pontuação. O valor dessa propriedade é o URI (@id) da função a ser chamada com uma opção de cada vez. Consulte schema https://ns.adobe.com/experience/decisioning/function.
-   **Tipo:** sequência de caracteres
+  **Campo:** função
+  **Título:** Função de pontuação
+  **Descrição:** Uma referência a uma função que calcula uma pontuação numérica para essa opção de decisão. As opções de decisão serão classificadas por essa pontuação. O valor dessa propriedade é o URI (@id) da função a ser chamada com uma opção de cada vez. Consulte schema https://ns.adobe.com/experience/decisioning/function.
+  **Tipo:** sequência de caracteres
 
 * Tipo de avaliação do pedido**
 
-   **Campo:** orderEvaluationType
-   **Título:** Tipo de avaliação do pedido
-   **Descrição:** Especifica qual mecanismo de avaliação de ordem é usado, prioridade estática das opções de decisão, uma função de pontuação que calcula um valor numérico para cada opção ou uma estratégia de classificação que recebe uma lista para ordená-la.
-   **Tipo:** sequência de caracteres
-   **Valores possíveis:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
+  **Campo:** orderEvaluationType
+  **Título:** Tipo de avaliação do pedido
+  **Descrição:** Especifica qual mecanismo de avaliação de ordem é usado, prioridade estática das opções de decisão, uma função de pontuação que calcula um valor numérico para cada opção ou uma estratégia de classificação que recebe uma lista para ordená-la.
+  **Tipo:** sequência de caracteres
+  **Valores possíveis:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * Estratégia de classificação
 
-   **Campo:** rankingStrategy
-   **Título:** Estratégia de classificação
-   **Descrição:** Uma referência a uma estratégia que classifica uma lista de opções de decisão. As opções de decisão serão retornadas em uma lista ordenada. O valor dessa propriedade é o URI (@id) da função a ser chamada com uma opção de cada vez. Consulte schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-   **Tipo:** sequência de caracteres
+  **Campo:** rankingStrategy
+  **Título:** Estratégia de classificação
+  **Descrição:** Uma referência a uma estratégia que classifica uma lista de opções de decisão. As opções de decisão serão retornadas em uma lista ordenada. O valor dessa propriedade é o URI (@id) da função a ser chamada com uma opção de cada vez. Consulte schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+  **Tipo:** sequência de caracteres
 
 +++
 

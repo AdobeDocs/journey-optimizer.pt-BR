@@ -7,32 +7,32 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment, função, expressão, jornada
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '201'
 ht-degree: 6%
 
 ---
 
 # inSegment {#inSegment}
 
-Verifica se um indivíduo pertence a um determinado segmento.
+Verifica se um indivíduo pertence a um determinado público-alvo.
 
 >[!NOTE]
 >
->Você pode recuperar até 100 segmentos.
+>Você pode recuperar até 100 públicos-alvo.
 
-O nome do segmento deve ser uma constante de sequência. Não pode ser uma referência de campo nem uma expressão.
+O nome do público-alvo deve ser uma constante de sequência. Não pode ser uma referência de campo nem uma expressão.
 
-Os segmentos são definidos na variável [Adobe Experience Platform](https://platform.adobe.com/segment/overview). O editor de expressão fornece uma lista de segmentos preenchida automaticamente.
+Os públicos-alvo são definidos no [Adobe Experience Platform](https://platform.adobe.com/audience/overview). O editor de expressão fornece uma lista de públicos preenchida automaticamente.
 
-Os segmentos podem ter três status:
+Os públicos-alvo podem ter três status:
 
-* existente: a entidade continua a estar no segmento.
-* realizado: a entidade está informando o segmento.
-* encerrado: a entidade está saindo do segmento.
+* existente: a entidade continua no público-alvo.
+* percebido: a entidade está entrando no público-alvo.
+* encerrado: a entidade está saindo do público-alvo.
 
-Somente os indivíduos com o **Realizado** e **Existente** os status de participação do segmento serão considerados membros do segmento. Para obter mais informações sobre como avaliar um segmento, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
+Somente os indivíduos com o **Realizado** e **Existente** os status de participação do público serão considerados membros do público. Para obter mais informações sobre como avaliar um público-alvo, consulte a [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` significa que você tem um segmentMembership com o status inserido/existente.
 
@@ -50,7 +50,7 @@ Adobe Experience Platform
 
 | Parâmetro | Descrição | Tipo |
 |--- |--- |--- |
-| Segmento | O nome do segmento | `<string>` |
+| Segmento | O nome do público | `<string>` |
 
 ## Assinatura e tipo retornado
 
@@ -64,4 +64,4 @@ Retorna um valor booleano.
 
 Explicação:
 
-A função retornará **[!UICONTROL true]** se o indivíduo na instância do jornada fizer parte do segmento do Adobe Experience Platform chamado &quot;homens acima de 50&quot;, **[!UICONTROL false]** caso contrário.
+A função retornará **[!UICONTROL true]** se o indivíduo na instância do jornada fizer parte do público-alvo da Adobe Experience Platform chamado &quot;homens com mais de 50 anos&quot;, **[!UICONTROL false]** caso contrário.

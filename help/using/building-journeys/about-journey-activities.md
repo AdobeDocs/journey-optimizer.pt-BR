@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, atividades, introdução, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 18%
@@ -28,7 +28,7 @@ Eventos configurados pelo usuário técnico (consulte [esta página](../event/ab
 
 * [Eventos gerais](../building-journeys/general-events.md)
 * [Reação](../building-journeys/reaction-events.md)
-* [Qualificação do segmento](../building-journeys/segment-qualification-events.md)
+* [Qualificação do público-alvo](../building-journeys/audience-qualification-events.md)
 
 ![](assets/journey43.png)
 
@@ -44,7 +44,7 @@ Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração e
 
 * [Condição](../building-journeys/condition-activity.md)
 * [Aguardar](../building-journeys/wait-activity.md)
-* [Segmento de leitura](../building-journeys/read-segment.md)
+* [Ler público-alvo](../building-journeys/read-audience.md)
 
 ![](assets/journey49.png)
 

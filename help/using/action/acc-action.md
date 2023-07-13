@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Intermediate
 keywords: campaign, acc, integração
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 22%
@@ -33,7 +33,7 @@ Para cada ação configurada, uma atividade de ação está disponível na palet
 
 ## Observações importantes {#important-notes}
 
-* Não há limitação de mensagens. O sistema limita o número de mensagens que podem ser enviadas a 4000 a cada 5 minutos, com base no SLA do Campaign atual. Por esse motivo, o Journey Optimizer só deve ser usado em casos de uso unitários (eventos individuais, não segmentos).
+* Não há limitação de mensagens. O sistema limita o número de mensagens que podem ser enviadas a 4000 a cada 5 minutos, com base no SLA do Campaign atual. Por esse motivo, o Journey Optimizer só deve ser usado em casos de uso unitários (eventos individuais, não públicos).
 
 * Você precisa configurar uma ação na tela por modelo que deseja usar. É necessário configurar uma ação no Journey Optimizer para cada modelo que você deseja usar do Adobe Campaign.
 
@@ -41,7 +41,7 @@ Para cada ação configurada, uma atividade de ação está disponível na palet
 
 * Não há validação para indicar que a carga ou mensagem da campanha está correta.
 
-* Não é possível usar uma ação do Campaign com um evento de qualificação de segmento.
+* Não é possível usar uma ação do Campaign com um evento de qualificação de público-alvo.
 
 ## Pré-requisitos {#prerequisites}
 

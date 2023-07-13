@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 382aa7089a84a9c4e0d37800ae77a53918c380f2
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 6%
@@ -65,9 +65,9 @@ O objetivo aqui é ver se os recipients interagirão com o email dependendo do e
    * **[!UICONTROL Nome]**
    * **[!UICONTROL Descrição]**
 
-1. Defina o público-alvo para o target. Para fazer isso, clique no link **[!UICONTROL Selecionar público]** botão para exibir a lista de segmentos do Adobe Experience Platform disponíveis. [Saiba mais sobre segmentos](../segment/about-segments.md)
+1. Defina o público-alvo para o target. Para fazer isso, clique no link **[!UICONTROL Selecionar público]** botão para exibir a lista de públicos-alvo disponíveis do Adobe Experience Platform. [Saiba mais sobre públicos](../audience/about-audiences.md)
 
-   No **[!UICONTROL Namespace de identidade]** escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado. [Saiba mais](get-started-experiment.md#content-experiment-work)
+   No **[!UICONTROL Namespace de identidade]** escolha o namespace a ser usado para identificar os indivíduos do público-alvo selecionado. [Saiba mais](get-started-experiment.md#content-experiment-work)
 
    ![](assets/content_experiment_16.png)
 

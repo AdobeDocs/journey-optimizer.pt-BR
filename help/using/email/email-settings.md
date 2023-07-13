@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1787'
 ht-degree: 9%
 
 ---
@@ -26,7 +26,7 @@ Defina as configurações de email na seção dedicada da configuração da supe
 
 A configuração da superfície de email é selecionada para envio de comunicações seguindo a lógica abaixo:
 
-* Para jornadas em lote, isso não se aplica à execução em lote que já foi iniciada antes da configuração da superfície de email ser feita. As alterações serão selecionadas na próxima recorrência ou nova execução.
+* Para jornadas em lote e de intermitência, isso não se aplica à execução em lote ou de intermitência que já foi iniciada antes de a configuração da superfície de email ser feita. As alterações serão selecionadas na próxima recorrência ou nova execução.
 
 * Para mensagens transacionais, a alteração é recebida imediatamente para a próxima comunicação (atraso de até cinco minutos).
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 21%
@@ -73,7 +73,7 @@ Para começar a criar sua experiência da Web por meio de uma campanha, siga as 
 
 1. Depois de definir a superfície da Web, selecione **[!UICONTROL Criar]**.
 
-1. Conclua as etapas para criar uma campanha da Web, como as propriedades da campanha, [público](../segment/about-segments.md), e [programação](../campaigns/create-campaign.md#schedule).
+1. Conclua as etapas para criar uma campanha da Web, como as propriedades da campanha, [público](../audience/about-audiences.md), e [programação](../campaigns/create-campaign.md#schedule).
 
    ![](assets/web-campaign-steps.png)
 

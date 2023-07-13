@@ -8,10 +8,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 98957bfff8fdc719dc81d3064eb3332c3f9f2cc4
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '579'
+ht-degree: 8%
 
 ---
 
@@ -50,7 +50,7 @@ Verifique os seguintes pré-requisitos antes de começar a exportar seus conjunt
 
 * Para exportar conjuntos de dados, é necessário **Gerenciar destinos**, **Exibir destinos**, **Ativar destinos**, e **Gerenciar e ativar destinos do conjunto de dados** [permissões de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Leia o [visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) ou entre em contato com o administrador do produto para obter as permissões necessárias.
 
-* Verifique se o conjunto de dados que você deseja exportar não contém dados de segunda geração. Esse recurso suporta a exportação de dados somente da primeira geração, ou seja, dados brutos conforme definidos na variável [Descrição do produto Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Os dados de primeira geração incluem conjuntos de dados trazidos por fontes da Adobe Experience Platform ou conjuntos de dados coletados usando soluções de Adobe, como o Conector de dados do Analytics e logs/conjuntos de dados de relatórios do Journey Optimizer.
+* Esse recurso suporta a exportação de dados somente da primeira geração, ou seja, dados brutos conforme definidos na variável [Descrição do produto Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Verifique se o conjunto de dados que você deseja exportar não contém dados de segunda geração.
 
 ## Etapas principais para exportar conjuntos de dados {#main-steps}
 
@@ -70,7 +70,7 @@ Informações detalhadas sobre cada etapa estão disponíveis na documentação 
 
    >[!NOTE]
    >
-   >Se você estiver usando o Adobe Journey Optimizer juntamente com perfis de clientes em tempo real, os cartões de destino exibirão um botão &quot;Ativar&quot;, permitindo exportar conjuntos de dados e ativar segmentos para esse destino, dependendo das permissões ativadas.
+   >Se você estiver usando o Adobe Journey Optimizer juntamente com perfis de clientes em tempo real, os cartões de destino exibirão um botão &quot;Ativar&quot;, permitindo exportar conjuntos de dados e ativar públicos-alvo para esse destino, dependendo das permissões ativadas.
 
 1. **Selecionar os conjuntos de dados** que deseja exportar para o destino selecionado.
 

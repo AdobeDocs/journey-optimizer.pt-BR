@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 8%
@@ -55,7 +55,7 @@ Para cada endereço, o motivo básico para ser suprimido e a categoria de supres
 
 >[!NOTE]
 >
->Os perfis com **[!UICONTROL Suprimido]** Os status de são excluídos durante o processo de envio da mensagem. Por conseguinte, embora a **Jornada relatórios** mostrará esses perfis como tendo passado pela jornada ([Segmento de leitura](../building-journeys/read-segment.md) e [atividades de mensagem](../building-journeys/journeys-message.md)), o **Relatórios de email** não os incluirá no **[!UICONTROL Enviado]** métricas conforme são filtradas antes do envio de email.
+>Os perfis com **[!UICONTROL Suprimido]** Os status de são excluídos durante o processo de envio da mensagem. Por conseguinte, embora a **Jornada relatórios** mostrará esses perfis como tendo passado pela jornada ([Ler público-alvo](../building-journeys/read-audience.md) e [atividades de mensagem](../building-journeys/journeys-message.md)), o **Relatórios de email** não os incluirá no **[!UICONTROL Enviado]** métricas conforme são filtradas antes do envio de email.
 >
 >Saiba mais sobre o [Relatório ao vivo](../reports/live-report.md) e [Relatório global](../reports/global-report.md). Para descobrir o motivo de todos os casos de exclusão, use o [Serviço de consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
 

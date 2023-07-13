@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornadas, limitação
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 74%
+ht-degree: 62%
 
 ---
 
@@ -29,13 +29,12 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 
 ## Limitações de versões do Jornada {#journey-versions-limitations}
 
-* Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação do segmento**.
-* Uma jornada que começa com uma atividade de **Qualificação de segmento** em v1 deve sempre começar com uma **Qualificação de segmento** em outras versões.
-* O segmento e o namespace escolhidos em **Qualificação do segmento** (primeiro nó) não pode ser alterado em novas versões.
+* Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um **Qualificação do público-alvo** evento.
+* Uma jornada que começa com um **Qualificação do público-alvo** a atividade em v1 sempre deve começar com um **Qualificação do público-alvo** em outras versões.
+* O público-alvo e o namespace escolhidos em **Qualificação do público-alvo** (primeiro nó) não pode ser alterado em novas versões.
 * A regra de reentrada deve ser a mesma em todas as versões da jornada.
-* Uma jornada que começa com um **Segmento de leitura** não pode começar com outro evento nas próximas versões.
+* Uma jornada que começa com um **Ler público-alvo** O não pode começar com outro evento nas próximas versões.
  
-
 ## Limitações de ações personalizadas
 
 * O URL de ação personalizada não aceita parâmetros dinâmicos. 
@@ -44,12 +43,10 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 * Endereços IP não são permitidos. 
 * Endereços da Adobe internos (.adobe.) não são permitidos.
  
-
 ## Limitações de eventos
 
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra no Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
  
-
 ## Limitações das fontes de dados
 
 * As fontes de dados externas podem ser aproveitadas em uma jornada do cliente para pesquisar dados externos em tempo real. Essas fontes devem ser utilizáveis por meio da API REST, devem ser compatíveis com JSON e poder lidar com o volume de solicitações.
@@ -66,6 +63,6 @@ Você pode escolher uma dessas duas soluções:
 
 * Configure uma jornada que não use o perfil imediatamente. Por exemplo, se a jornada for projetada para confirmar a criação de uma conta, o evento da experiência pode conter informações necessárias para enviar a primeira mensagem de confirmação (nome, sobrenome, endereço de email etc).
 
-## Ler limitações de segmentos
+## Ler limitações de público
 
-* Os segmentos exibidos estão sempre atualizados, mas os segmentos em lote não serão calculados no momento da recuperação. Só são avaliados diariamente no momento da avaliação diária do lote.
+* Os públicos-alvo transmitidos estão sempre atualizados, mas os públicos-alvo em lote não serão calculados no momento da recuperação. Só são avaliados diariamente no momento da avaliação diária do lote.

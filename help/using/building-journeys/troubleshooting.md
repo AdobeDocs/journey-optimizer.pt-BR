@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: solução de problemas, solução de problemas, jornada, verificação, erros
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 41c01f2a32e0f60d7b189dbe2e0be68e998881c8
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 73%
+source-wordcount: '1030'
+ht-degree: 74%
 
 ---
 
@@ -58,7 +58,7 @@ O relatório de Jornada mede a entrada das pessoas em uma jornada em tempo real.
 
 Se você enviar o evento com sucesso, mas não vir nenhuma entrada na jornada, significa que há algo de errado entre o envio do evento e a recepção do evento na jornada.
 
-Você pode começar a solucionar problemas com as perguntas abaixo:
+Veja alguns itens que o administrador deve verificar:
 
 * Você tem certeza de que a jornada em que você espera o evento de entrada está no modo de teste ou ativa?
 * Você salvou o evento antes de copiar o payload da pré-visualização de payload?

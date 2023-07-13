@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 9%
@@ -38,6 +38,7 @@ Após definir o conteúdo da mensagem, é possível usar perfis de teste para vi
    ![](assets/push_preview_3.png)
 
 ## Validar sua notificação por push {#push-validate}
+
 
 Você deve verificar os alertas na seção superior do editor. Alguns deles são avisos simples, mas outros podem impedir que você envie a mensagem. Dois tipos de alertas podem ocorrer: avisos e erros.
 

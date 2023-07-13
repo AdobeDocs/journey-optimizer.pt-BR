@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 3%
@@ -111,7 +111,7 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | O identificador de decisão exclusivo. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | O número de ofertas a serem retornadas. O número máximo é 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Esse objeto mantém informações sobre o perfil para o qual a decisão é solicitada. Para uma solicitação de API, ela conterá um perfil. |
-| `xdm:profiles.xdm:identityMap` | Esse objeto mantém um conjunto de identidades de usuário final com base no código de integração de namespace da identidade. O mapa de identidade pode conter mais de uma identidade de cada namespace. Para obter mais informações sobre namespaces, consulte [esta página](../../../segment/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | Esse objeto mantém um conjunto de identidades de usuário final com base no código de integração de namespace da identidade. O mapa de identidade pode conter mais de uma identidade de cada namespace. Para obter mais informações sobre namespaces, consulte [esta página](../../../audience/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | A ID gerada pelo cliente que pode ser usada para identificar exclusivamente uma solicitação de decisão de perfil. Essa ID é retomada na resposta do e não influencia o resultado da decisão. | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
 | `xdm:allowDuplicatePropositions` | Esse objeto controla a estrutura das regras de desduplicação. Consiste em uma série de sinalizadores que indicam se a mesma opção pode ser proposta através de uma determinada dimensão. Um sinalizador definido como verdadeiro significa que duplicatas são permitidas e não devem ser removidas na categoria indicada pelo sinalizador. Um sinalizador definido como falso significa que o mecanismo de decisão não deve fazer a mesma proposta na dimensão e, em vez disso, escolher a próxima melhor opção para uma das subdecisões. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Se definido como verdadeiro, várias decisões podem receber a mesma opção. | `"xdm:acrossActivities": true` |

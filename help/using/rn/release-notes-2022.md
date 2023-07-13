@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão de 2022
 description: Notas de versão do Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '3575'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -45,7 +45,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 **Jornadas**
 
-* A opção de **Forçar a reentrada na recorrência** foi adicionada em parâmetros de programação de segmentos de leitura recorrentes. Essa opção permite fazer com que todos os perfis ainda presentes na jornada saiam automaticamente na próxima execução. Quando a opção estiver desativada, os perfis devem concluir a jornada antes de entrar novamente em outra ocorrência. [Saiba mais](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* A variável **Forçar reentrada na recorrência** foi adicionada uma opção em parâmetros de programação de públicos-alvo de leitura recorrentes. Essa opção permite fazer com que todos os perfis ainda presentes na jornada saiam automaticamente na próxima execução. Quando a opção estiver desativada, os perfis devem concluir a jornada antes de entrar novamente em outra ocorrência. [Saiba mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Administração**
 
@@ -176,7 +176,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <tbody>
 <tr>
 <td>
-<p>Como usuário do Journey Optimizer, agora você pode acessar alertas do sistema por meio da interface para ser notificado quando a jornada não funcionar conforme o esperado. Você pode visualizar os alertas disponíveis e assiná-los. O primeiro alerta disponível nesta versão avisa se uma atividade Ler segmento não houver processado nenhum perfil durante o intervalo de tempo definido. Mais informações serão disponibilizadas agora que esse fluxo de trabalho está desbloqueado.</p>
+<p>Como usuário do Journey Optimizer, agora você pode acessar alertas do sistema por meio da interface para ser notificado quando a jornada não funcionar conforme o esperado. Você pode visualizar os alertas disponíveis e assiná-los. O primeiro alerta disponível nesta versão avisa se uma atividade Ler público-alvo não processou nenhum perfil durante o período definido. Mais informações serão disponibilizadas agora que esse fluxo de trabalho está desbloqueado.</p>
 <!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -196,7 +196,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <p>Adobe Experience Platform provides a suite of data hygiene capabilities that allow you manage your stored data through programmatic deletions of consumer records and datasets. This capability is now available for Adobe Journey Optimizer. </p>
 <p>You can manage your data stores to ensure that information is used as expected, is updated when incorrect data needs fixing, and is deleted when organizational policies deem it necessary.</p>
 <p><strong>Caution</strong> - Data Hygiene capabilities are currently only available for organizations that have purchased the Healthcare Shield add-on offering.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 **Jornadas**
 
 * O **Conjunto de dados da entidade** agora está disponível como um conjunto de dados pronto para uso no Adobe Journey Optimizer. Esse conjunto de dados de pesquisa inclui metadados para enriquecer as informações dos conjuntos de dados de rastreamento e feedback. Isso ajudará você a melhorar seus relatórios e consultas com dados mais compreensíveis. [Saiba mais](../data/datasets-query-examples.md#entity-dataset)
-* Foi adicionada uma nova medida de proteção às jornadas unitárias (que começam com um evento ou uma qualificação de segmento) para impedir que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada no perfil agora será temporariamente bloqueada por 5 minutos. [Saiba mais](../start/guardrails.md#events-g)
+* Uma nova garantia foi adicionada às jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) para impedir que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada no perfil agora será temporariamente bloqueada por 5 minutos. [Saiba mais](../start/guardrails.md#events-g)
 
 **Administração**
 
@@ -235,8 +235,8 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 ### Outras alterações{#sept-2022-other}
 
 * O modo de disparo de jornada foi substituído pelo modo de entrega rápida de campanha. [Saiba mais](../push/create-push.md#rapid-delivery)
-* Para melhorar o desempenho, os grupos de campos de evento de experiência não podem mais ser usados em jornadas que começam com um segmento de leitura, uma qualificação de segmento ou uma atividade de evento comercial. Essa alteração se aplica somente a novas jornadas. As existentes manterão o comportamento atual. [Saiba mais](../start/guardrails.md#expression-editor)
-* A limitação de 1 hora para jornadas de segmento de leitura programadas foi removida. Essas jornadas agora podem ser executadas sem atraso.
+* Para melhorar o desempenho, os grupos de campos de evento de experiência não podem mais ser usados em jornadas que começam com um público-alvo de leitura, uma qualificação de público-alvo ou uma atividade de evento comercial. Essa alteração se aplica somente a novas jornadas. As existentes manterão o comportamento atual. [Saiba mais](../start/guardrails.md#expression-editor)
+* A limitação de 1 hora para jornadas de público-alvo de leitura agendadas foi removida. Essas jornadas agora podem ser executadas sem atraso.
 
 
 
@@ -254,7 +254,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <tbody>
 <tr>
 <td>
-<p>Use campanhas do Journey Optimizer para fornecer conteúdo único a um segmento específico usando vários canais. Ao usar jornadas, as ações são projetadas para serem executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado. </p>
+<p>Use campanhas do Journey Optimizer para fornecer conteúdo único a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são projetadas para serem executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
 <p>Saiba como criar uma campanha na <a href="../campaigns/get-started-with-campaigns.md">documentação detalhada</a> e no <a href="https://video.tv.adobe.com/v/346680">vídeo do recurso</a>.
 </td>
@@ -290,7 +290,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <td>
 <p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
 <p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -303,7 +303,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 * A tabela e o gráfico de políticas de consentimento agora estão disponíveis nos relatórios globais da jornada. Esses widgets permitem rastrear os perfis excluídos das políticas em suas ações personalizadas. [Saiba mais](../reports/journey-global-report.md#journey-global)
 
-   Para ter acesso aos widgets mais recentes, observe que será necessário redefinir os diferentes painéis de relatórios. Para obter mais informações sobre a personalização de painéis, consulte a [documentação detalhada](../reports/global-report.md).
+  Para ter acesso aos widgets mais recentes, observe que será necessário redefinir os diferentes painéis de relatórios. Para obter mais informações sobre a personalização de painéis, consulte a [documentação detalhada](../reports/global-report.md).
 
 **Administração**
 
@@ -374,7 +374,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <tbody>
 <tr>
 <td>
-<p>Agora você pode usar sistemas de modelo de otimização personalizados na gestão de decisões. Esse novo tipo de modelo permite otimizar e personalizar ofertas com base em segmentos e oferecer desempenho.</p>
+<p>Agora você pode usar sistemas de modelo de otimização personalizados na gestão de decisões. Esse novo tipo de modelo permite otimizar e personalizar ofertas com base nos públicos e no desempenho da oferta.</p>
 <p>O uso de modelos de AI de otimização personalizada está atualmente restrito a usuários selecionados e será implantado em todos os ambientes em uma versão futura.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Para obter mais informações, consulte a <a href="../offers/ranking/personalized-optimization-model.md">documentação detalhada</a>.</p>
@@ -408,7 +408,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 **Gestão de decisões**
 
-* **Tamanho do público-alvo** — Um novo componente de estimativa de tamanho de público-alvo agora é exibido na interface ao criar uma regra de decisão, ao selecionar um segmento ou uma regra para definir uma qualificação de oferta ou ao adicionar um segmento ou uma regra a um escopo de decisão.
+* **Tamanho do público** - Um novo componente de estimativa de tamanho de público-alvo agora é exibido na interface ao criar uma regra de decisão, ao selecionar um público-alvo ou uma regra para definir uma qualificação de oferta ou ao adicionar um público-alvo ou uma regra a um escopo de decisão.
 
 
 ## Versão de junho de 2022 {#june-2022-release}
@@ -477,7 +477,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 <tbody>
 <tr>
 <td>
-<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on audiences and offer performance.</p>
 <p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
@@ -615,12 +615,12 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 **Jornadas**
 
-* **Segmento de leitura** - Jornadas de segmento de leitura única agora são atualizadas para o status “Concluído” 30 dias após a execução da jornada. Para segmentos de leitura agendados, isso acontece 30 dias após a execução da última ocorrência. [Saiba mais](../building-journeys/read-segment.md)
+* **Ler público** - jornadas de público-alvo de Leitura única agora são movidas para o status Concluído 30 dias após a execução da jornada. Para públicos-alvo de leitura agendados, isso acontece 30 dias após a execução da última ocorrência. [Saiba mais](../building-journeys/read-audience.md)
 * **Editor de expressão** - A função [limite](../building-journeys/functions/functionlimit.md) foi adicionada para limitar o número de itens de uma lista. A função [classificar](../building-journeys/functions/functionsort.md) agora permite classificar um objeto de lista. O suporte a listObject também foi adicionado às funções [disctinct](../building-journeys/functions/functiondistinct.md) e [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
 
 **Administração**
 
-* **Atualização do painel de uso da licença** - o painel de uso da licença, disponível na interface do [!DNL Adobe Journey Optimizer], agora reflete o valor preciso para a riqueza do perfil da média **Licenciada**. Você verá uma queda nessa representação de métrica, o que significa que o limite de licença agora é relatado corretamente. [Saiba mais](../segment/license-usage.md)
+* **Atualização do painel de uso da licença** - o painel de uso da licença, disponível na interface do [!DNL Adobe Journey Optimizer], agora reflete o valor preciso para a riqueza do perfil da média **Licenciada**. Você verá uma queda nessa representação de métrica, o que significa que o limite de licença agora é relatado corretamente. [Saiba mais](../audience/license-usage.md)
 
 
 ## Versão de abril de 2022 {#april-2022-release}
@@ -673,7 +673,7 @@ Como cliente do Adobe Campaign Standard, agora você pode enviar emails, notific
 **Gestão de decisões**
 
 * Agora é possível especificar se o limite de oferta é aplicado a todos os usuários ou a um perfil específico, bem como a todos os posicionamentos ou por posicionamento. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
-* A API de decisão em lote permite que as organizações usem a funcionalidade de gestão de decisões para todos os perfis em um determinado segmento, através de uma única chamada. O conteúdo da oferta de cada perfil no segmento é colocado em um conjunto de dados da AEP, onde ele estará disponível para fluxos de trabalho em lote personalizados. [Saiba mais](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* A API de decisão em lote permite que as organizações usem a funcionalidade de gestão de decisões para todos os perfis em um determinado público-alvo em uma única chamada. O conteúdo da oferta de cada perfil no público-alvo é colocado em um conjunto de dados da AEP, onde ele estará disponível para fluxos de trabalho em lote personalizados. [Saiba mais](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administração**
 
@@ -800,14 +800,14 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <table>
 <thead>
 <tr>
-<th><strong>Jornadas - melhorias no segmento de leitura</strong><br/></th>
+<th><strong>Jornada - melhorias no público-alvo de leitura</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A opção <strong>Leitura incremental</strong> foi adicionada às atividades recorrentes de <strong>Ler segmento</strong>. Essa opção permite direcionar somente a pessoas físicas que entraram no segmento desde a última execução da jornada. A primeira execução sempre direciona a todos os membros do segmento.</p>
-<p>Para obter mais informações, consulte a <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">documentação detalhada</a>.
+<p>A variável <strong>Leitura incremental</strong> foi adicionada uma opção a recorrentes <strong>Ler público</strong> atividades. Essa opção permite direcionar somente aos indivíduos que entraram no público-alvo desde a última execução da jornada. A primeira execução sempre direciona a todos os membros do público-alvo.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">documentação detalhada</a>.
 </td>
 </tr>
 </tbody>

@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Para maximizar a vantagem de usar a personalização automática, há algumas su
 
 * **As ofertas são diferentes o suficiente para que os usuários tenham preferências diferentes entre as ofertas em consideração**. Se as ofertas forem muito semelhantes, um modelo resultante terá menos impacto, pois as respostas são aparentemente aleatórias.
 Por exemplo, se um banco tiver duas ofertas de cartões de crédito com a única diferença sendo a cor, pode não importar qual cartão é recomendado, mas se cada cartão tiver termos diferentes, isso fornece uma explicação para por que determinados clientes escolheriam um e forneceriam diferença suficiente entre as ofertas para criar um modelo mais impactante.
-* **A composição do tráfego do usuário é estável**. Se a composição do tráfego do usuário mudar drasticamente durante o treinamento e a previsão do modelo, o desempenho do modelo poderá diminuir. Por exemplo, suponha que, na fase de treinamento do modelo, apenas os dados para usuários no segmento A estejam disponíveis, mas o modelo treinado seja usado para gerar previsões para usuários no segmento B, então o desempenho do modelo poderá ser afetado.
+* **A composição do tráfego do usuário é estável**. Se a composição do tráfego do usuário mudar drasticamente durante o treinamento e a previsão do modelo, o desempenho do modelo poderá diminuir. Por exemplo, suponha que, na fase de treinamento do modelo, apenas os dados para usuários no público-alvo A estejam disponíveis, mas o modelo treinado seja usado para gerar previsões para usuários no público-alvo B, então o desempenho do modelo pode ser afetado.
 * **Os desempenhos das ofertas não mudam drasticamente em um curto período** à medida que esse modelo é atualizado semanalmente e as alterações no desempenho são transmitidas como atualizações do modelo. Por exemplo, um produto era muito popular antes, mas um relatório público identifica o produto como prejudicial à nossa saúde, e esse produto se torna impopular extremamente rápido. Nesse cenário, o modelo pode continuar a prever esse produto até que o modelo seja atualizado com alterações no comportamento do usuário.
 
 ## Como funciona {#how}
@@ -37,8 +37,8 @@ Há três tipos de recursos:
 
 | Tipos de recursos | Como adicionar recursos aos modelos |
 |--------------|----------------------------|
-| Segmentos | De 0 a 50 segmentos podem ser adicionados como recursos ao criar o modelo de IA de classificação |
 | Objetos de decisão (placementID, activityID, decisionScopeID) | Parte dos eventos de experiência de feedback da gestão de decisões enviados para a AEP |
+| Públicos-alvo | De 0 a 50 públicos-alvo podem ser adicionados como recursos ao criar o modelo de IA de classificação |
 | Dados de contexto | Parte dos Eventos de experiência de feedback de decisão enviados para a AEP. Dados de contexto disponíveis para adicionar ao esquema: Detalhes do comércio, Detalhes do canal, Detalhes do aplicativo, Detalhes da Web, Detalhes do ambiente, Detalhes do dispositivo, placeContext |
 
 O modelo tem duas fases:

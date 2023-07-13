@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: conteúdo, editor, email, iniciar
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 60%
@@ -98,7 +98,7 @@ Para começar a criar o conteúdo de , siga as etapas abaixo:
 
    ![](assets/email_designer_asset_picker.png)
 
-1. Insira campos de personalização para personalizar seu conteúdo de atributos de perfis, associações de segmento, atributos contextuais e muito mais. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
+1. Insira campos de personalização para personalizar seu conteúdo de atributos de perfis, associações de público-alvo, atributos contextuais e muito mais. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 

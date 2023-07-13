@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 18%
@@ -59,12 +59,12 @@ Este mixin contém todos os campos correspondentes a um trabalho de exportação
 
 | Nome do campo | Tipo | Descrição |
 |---|---|------------|
-| ID | String | O identificador do trabalho de exportação de segmento acionado |
-| status | String | O status do trabalho de exportação de segmento: em fila, iniciado, concluído |
-| exportCountTotal | Número inteiro | O valor máximo possível do trabalho de exportação de segmento |
-| exportCountRealized | Número inteiro | O número real de segmentos exportados através do trabalho |
-| exportCountFailed | Número inteiro | O número de segmentos que falharam ao exportar pelo trabalho |
-| exportSegmentID | String | O identificador do segmento sendo exportado |
+| ID | String | O identificador do trabalho de exportação de público acionado |
+| status | String | O status do trabalho de exportação de público: em fila, iniciado, concluído |
+| exportCountTotal | Número inteiro | O valor máximo possível do trabalho de exportação de público |
+| exportCountRealized | Número inteiro | O número real de públicos-alvo exportados através do trabalho |
+| exportCountFailed | Número inteiro | O número de públicos-alvo que falharam ao exportar pelo trabalho |
+| exportSegmentID | String | O identificador do público que está sendo exportado |
 | eventType | String | O tipo de evento que indica se é um evento de erro do evento info: Info, Error |
 | eventCode | String | O código de erro que indica o motivo para eventType correspondente |
 

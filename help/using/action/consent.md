@@ -9,10 +9,10 @@ role: Admin,Developer
 level: Experienced
 keywords: políticas, governança, plataforma, healthcare shield, consentimento
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
-workflow-type: ht
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -37,14 +37,14 @@ No Journey Optimizer, o consentimento pode ser utilizado em ações personalizad
 
 Com o gerenciamento de consentimento, duas atividades de jornada são analisadas:
 
-* Ler segmento: o segmento recuperado é levado em conta.
+* Ler público-alvo: o público-alvo recuperado é levado em conta.
 * Ação personalizada: o gerenciamento de consentimento leva em conta os atributos usados ([parâmetros de ação](../action/about-custom-action-configuration.md#define-the-message-parameters)) e as ações de marketing definidas (a ação de marketing necessária e a adicional).
 * Os atributos que fazem parte de um grupo de campos usando o esquema de união predefinido não são compatíveis. Esses atributos ficarão ocultos na interface. É necessário criar outro grupo de campos usando um schema diferente.
 * As políticas de consentimento só se aplicam quando uma ação de marketing (necessária ou adicional) é definida no nível da ação personalizada.
 
-Todas as outras atividades usadas em uma jornada não são consideradas. Se você iniciar a jornada com uma Qualificação de segmento, o segmento não será considerado.
+Todas as outras atividades usadas em uma jornada não são consideradas. Se você iniciar sua jornada com uma qualificação de Público-alvo, o público-alvo não será considerado.
 
-Em uma jornada, se um perfil for excluído por uma política de consentimento em uma ação personalizada, a mensagem não será enviada a ele, mas ele continuará na jornada. O perfil não irá para o caminho  de erro e de tempo limite ao usar uma condição.
+Em uma jornada, se um perfil for excluído por causa de uma política de consentimento em uma ação personalizada, a mensagem não será enviada para ele, mas ele permanecerá na jornada. O perfil não irá para o caminho  de erro e de tempo limite ao usar uma condição.
 
 Antes de atualizar as políticas em uma ação personalizada inserida em uma jornada, verifique se a jornada não tem nenhum erro.
 
@@ -112,7 +112,7 @@ The following data is taken into account for consent:
 
 * marketing actions and additional marketing actions defined in the custom action
 * action parameters defined in the custom action, see this [section](../action/about-custom-action-configuration.md#define-the-message-parameters) 
-* attributes used as criteria in a segment when the journey starts with a Read segment, see this [section](../building-journeys/read-segment.md) 
+* attributes used as criteria in a segment when the journey starts with a Read segment, see this [section](../building-journeys/read-audience.md) 
 
 >[!NOTE]
 >

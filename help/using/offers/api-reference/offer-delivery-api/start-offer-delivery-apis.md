@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 6%
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Introdução às APIs de entrega de ofertas {#about-decisioning-apis}
 
-É possível entregar ofertas usando a variável **Decisão** ou o **Edge Decisioning** API. Além disso, a **Decisão em lote** A API permite entregar ofertas a todos os perfis em um determinado segmento em uma chamada. O conteúdo da oferta de cada perfil no segmento é colocado em um conjunto de dados do Adobe Experience Platform, onde ele estará disponível para fluxos de trabalho em lote personalizados.
+É possível entregar ofertas usando a variável **Decisão** ou o **Edge Decisioning** API. Além disso, a **Decisão em lote** A API permite entregar ofertas a todos os perfis em um determinado público-alvo com uma única chamada. O conteúdo da oferta de cada perfil no público-alvo é colocado em um conjunto de dados do Adobe Experience Platform, onde ele estará disponível para fluxos de trabalho em lote personalizados.
 
 Nesta página, você encontrará informações sobre funcionalidades específicas disponíveis com o **Decisão** e **Edge Decisioning** APIs. Embora ambos permitam que você forneça ofertas aos seus clientes, recomendamos usar o **Edge Decisioning** sempre que possível para casos de uso de entrada e para garantir melhor latência e taxa de transferência na sua plataforma.
 

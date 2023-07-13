@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: criar, enviar email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 9%
@@ -59,7 +59,7 @@ Para obter mais informações sobre como configurar uma jornada, consulte [esta 
 
 1. Clique em **[!UICONTROL Criar]**.
 
-1. Conclua as etapas para criar uma campanha de email, como as propriedades da campanha, [público](../segment/about-segments.md), e [programação](../campaigns/create-campaign.md#schedule).
+1. Conclua as etapas para criar uma campanha de email, como as propriedades da campanha, [público](../audience/about-audiences.md), e [programação](../campaigns/create-campaign.md#schedule).
 
    ![](assets/email_campaign_steps.png)
 
@@ -122,9 +122,9 @@ Dois tipos de alertas podem ocorrer:
 
    * **[!UICONTROL O link para opção de não participação não está presente no corpo do email]**: adicionar um link de cancelamento de subscrição ao corpo do email é uma prática recomendada. Saiba como configurá-lo no [nesta seção](../privacy/opt-out.md#opt-out-management).
 
-      >[!NOTE]
-      >
-      >As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida no [superfície de canal](email-settings.md#email-type) e quando [criação da mensagem](#create-email-journey-campaign) de uma jornada ou campanha.
+     >[!NOTE]
+     >
+     >As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida no [superfície de canal](email-settings.md#email-type) e quando [criação da mensagem](#create-email-journey-campaign) de uma jornada ou campanha.
 
    * **[!UICONTROL A versão de texto do HTML está vazia]**: não se esqueça de definir uma versão de texto do corpo do email, pois ela será usada quando o conteúdo do HTML não puder ser exibido. Saiba como criar a versão de texto no [nesta seção](text-version-email.md).
 
@@ -136,12 +136,11 @@ Dois tipos de alertas podem ocorrer:
 
    * **[!UICONTROL Linha de assunto ausente]**: a linha de assunto do email é obrigatória. Saiba como defini-lo e personalizá-lo no [nesta seção](create-email.md).
 
-   <!--HTML is empty when Amp HTML is present-->
+  <!--HTML is empty when Amp HTML is present-->
 
    * **[!UICONTROL A versão de email da mensagem está vazia]**: esse erro é exibido quando o conteúdo do email não foi configurado. Saiba como projetar conteúdo de email no [nesta seção](get-started-email-design.md).
 
    * **[!UICONTROL A superfície não existe]**: não será possível usar a mensagem se a superfície selecionada for excluída após a criação da mensagem. Se este erro ocorrer, selecione outra superfície na mensagem **[!UICONTROL Propriedades]**. Saiba mais sobre superfícies de canal em [nesta seção](../configuration/channel-surfaces.md).
-
 
 >[!CAUTION]
 >

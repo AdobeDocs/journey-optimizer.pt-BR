@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: jornada, primeiro, iniciar, início rápido, segmento, evento, ação
+keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 27%
+source-wordcount: '1537'
+ht-degree: 25%
 
 ---
 
@@ -26,7 +26,7 @@ Para enviar mensagens com jornadas, as seguintes configurações são necessári
 
    ![](assets/jo-event7bis.png)
 
-1. **Criar um segmento**: sua jornada também pode ouvir segmentos do Adobe Experience Platform para enviar mensagens em lote para um conjunto especificado de perfis. Para isso, você precisa criar segmentos. [Leia mais](../segment/about-segments.md).
+1. **Criar um público**: sua jornada também pode ouvir os públicos da Adobe Experience Platform para enviar mensagens em lote para um conjunto especificado de perfis. Para isso, você precisa criar públicos. [Leia mais](../audience/about-audiences.md).
 
    ![](assets/segment2.png)
 
@@ -45,7 +45,7 @@ Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]*
 **Visão geral**: esta guia exibe um painel com as métricas principais relacionadas às suas jornadas:
 
 * **Perfis processados**: número total de perfis processados nas últimas 24 horas
-* **Jornada ao vivo**: número total de jornadas ativas com tráfego nas últimas 24 horas. As jornadas em tempo real incluem **Jornadas unitárias** (com base em eventos) e **Jornadas em lote** (ler segmento).
+* **Jornada ao vivo**: número total de jornadas ativas com tráfego nas últimas 24 horas. As jornadas em tempo real incluem **Jornadas unitárias** (com base em eventos) e **Jornadas em lote** (leia público).
 * **Taxa de erros**: taxa de todos os perfis com erro em comparação ao número total de perfis que entraram nas últimas 24 horas.
 * **Taxa de descarte**: taxa de todos os perfis descartados em comparação ao número total de perfis que entraram nas últimas 24 horas. Um perfil descartado representa alguém que não está qualificado para entrar na jornada, por exemplo, devido a um namespace incorreto ou a regras de reentrada.
 
@@ -59,7 +59,7 @@ Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]*
 
 ![](assets/journeys-browse.png)
 
-Na lista de jornadas, você pode filtrar jornadas de acordo com o status, tipo e versão por meio do menu **[!UICONTROL Filtros de status e versão]**. O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação do segmento]**, **[!UICONTROL Ler segmento]** ou **[!UICONTROL Evento comercial]**.
+Na lista de jornadas, você pode filtrar jornadas de acordo com o status, tipo e versão por meio do menu **[!UICONTROL Filtros de status e versão]**. O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação de público]**, **[!UICONTROL Ler público]**, **[!UICONTROL Evento comercial]** ou **[!UICONTROL Intermitência]**.
 
 Você pode optar por exibir somente jornadas que usam um evento, grupo de campos ou ação específica a partir dos **[!UICONTROL Filtros de atividade]** e **[!UICONTROL Filtros de dados]**. Além disso, a **[!UICONTROL Filtros de publicação]** permite selecionar uma data de publicação ou um usuário. Por exemplo, você pode optar por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. [Saiba mais](../building-journeys/using-the-journey-designer.md).
 
@@ -88,7 +88,7 @@ Estas são as etapas principais para enviar mensagens por meio do jornada:
 
    ![](assets/jo-properties.png)
 
-1. Comece arrastando e soltando um evento ou uma **Segmento de leitura** atividade da paleta para a tela. Para saber mais sobre o design do jornada, consulte [nesta seção](using-the-journey-designer.md).
+1. Comece arrastando e soltando um evento ou uma **Ler público-alvo** atividade da paleta para a tela. Para saber mais sobre o design do jornada, consulte [nesta seção](using-the-journey-designer.md).
 
    ![](assets/read-segment.png)
 
@@ -125,7 +125,7 @@ A variável **Copiar detalhes técnicos** O permite copiar informações técnic
 
 Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção **Permitir reentrada** opção para jornadas &quot;one shot&quot;, por exemplo, se você quiser oferecer um presente único quando uma pessoa entrar em uma loja.
 
-Quando a variável **Permitir reentrada** estiver ativada, a variável **Período de espera de reentrada** é exibido. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de segmento). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos.
+Quando a variável **Permitir reentrada** estiver ativada, a variável **Período de espera de reentrada** é exibido. Esse campo permite definir o tempo de espera antes de permitir que um perfil entre na jornada novamente em jornadas unitárias (começando com um evento ou uma qualificação de público-alvo). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos.
 
 Saiba mais sobre o gerenciamento de entrada de perfis, em [nesta seção](entry-management.md).
 
@@ -149,11 +149,11 @@ Para obter mais informações sobre o gerenciamento de fuso horário, consulte [
 
 Você pode definir um **Data inicial**. Se não tiver especificado um, ele será definido automaticamente no momento da publicação.
 
-Você também pode adicionar um **Data final**. Isso permite que os perfis saiam automaticamente quando a data for atingida. Se você não especificar uma data de término, os perfis poderão permanecer até o tempo limite padrão da jornada (geralmente 30 dias, 7 dias com a oferta complementar Healthcare Shield). A única exceção são as jornadas recorrentes de segmentos de leitura com **Forçar reentrada na recorrência** ativadas, que terminam na data de início da próxima ocorrência.
+Você também pode adicionar um **Data final**. Isso permite que os perfis saiam automaticamente quando a data for atingida. Se você não especificar uma data de término, os perfis poderão permanecer até o tempo limite padrão da jornada (geralmente 30 dias, 7 dias com a oferta complementar Healthcare Shield). A única exceção são as jornadas recorrentes de leitura de público com **Forçar reentrada na recorrência** ativadas, que terminam na data de início da próxima ocorrência.
 
 ### Tempo limite e erro em atividades de jornada {#timeout_and_error}
 
-Ao editar uma atividade de ação ou condição, você tem a opção de especificar um caminho alternativo no caso de um erro ou tempo limite. Se o processamento da atividade, que envolve a consulta de um sistema de terceiros, exceder a duração especificada nas propriedades da jornada para tempo limite e tratamento de erros (**[!UICONTROL Tempo limite e erro]** ), o segundo caminho será selecionado para executar uma ação de fallback, se necessário.
+Ao editar uma atividade de ação ou condição, é possível definir um caminho alternativo em caso de erro ou tempo limite. Se o processamento da atividade que interroga um sistema de terceiros exceder a duração do tempo limite definida nas propriedades da jornada (**[!UICONTROL Tempo limite e erro]** ), o segundo caminho será escolhido para executar uma possível ação de fallback.
 
 Os valores autorizados estão entre 1 e 30 segundos.
 

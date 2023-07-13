@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '726'
 ht-degree: 16%
 
 ---
@@ -64,9 +64,9 @@ Para criar uma notificação por push, siga as etapas abaixo:
 
    ![](assets/push_create_4.png)
 
-1. Clique em **[!UICONTROL Selecionar público]** botão para definir o público-alvo a ser direcionado na lista de segmentos disponíveis do Adobe Experience Platform. [Saiba mais](../segment/about-segments.md).
+1. Clique em **[!UICONTROL Selecionar público]** botão para definir o público-alvo a ser direcionado na lista de públicos-alvo disponíveis do Adobe Experience Platform. [Saiba mais](../audience/about-audiences.md).
 
-1. No **[!UICONTROL Namespace de identidade]** escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado. [Saiba mais](../event/about-creating.md#select-the-namespace).
+1. No **[!UICONTROL Namespace de identidade]** escolha o namespace a ser usado para identificar os indivíduos do público-alvo selecionado. [Saiba mais](../event/about-creating.md#select-the-namespace).
 
    ![](assets/push_create_5.png)
 
@@ -103,7 +103,7 @@ Para criar uma notificação por push, siga as etapas abaixo:
 >title="Modo de entrega rápida"
 >abstract="O modo de entrega rápida permite que você execute o envio de mensagens de alta velocidade no canal de push para um tamanho de público inferior a 30 milhões."
 
-O modo de entrega rápida é um [!DNL Journey Optimizer] complemento que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas.
+O modo de entrega rápida, anteriormente conhecido como modo de intermitência no jornada, é um [!DNL Journey Optimizer] complemento que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas.
 
 A entrega rápida é usada quando o atraso na entrega da mensagem é essencial para os negócios, quando você deseja enviar um alerta de push urgente em telefones celulares, por exemplo, notícias de última hora para usuários que instalaram seu aplicativo de canal de notícias.
 

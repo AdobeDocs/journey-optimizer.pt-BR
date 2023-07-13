@@ -1,12 +1,12 @@
 ---
 title: API de decisão em lote
-description: Saiba como usar a API de decisão em lote para selecionar as melhores ofertas para perfis segmentados em um escopo de decisão predefinido.
+description: Saiba como usar a API de decisão em lote para selecionar as melhores ofertas para perfis de públicos-alvo em um escopo de decisão predefinido.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 4%
@@ -16,9 +16,9 @@ ht-degree: 4%
 
 # Entregar ofertas usando o [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-A variável [!DNL Batch Decisioning] A API permite que as organizações usem a funcionalidade de decisão para todos os perfis em um determinado segmento em uma única chamada. O conteúdo da oferta de cada perfil no segmento é colocado em um conjunto de dados do Adobe Experience Platform, onde ele estará disponível para fluxos de trabalho em lote personalizados.
+A variável [!DNL Batch Decisioning] A API permite que as organizações usem a funcionalidade de decisão para todos os perfis em um determinado público-alvo em uma chamada. O conteúdo da oferta de cada perfil no público-alvo é colocado em um conjunto de dados do Adobe Experience Platform, onde ele estará disponível para fluxos de trabalho em lote personalizados.
 
-Com o [!DNL Batch Decisioning] , você pode preencher um conjunto de dados com as melhores ofertas para todos os perfis em um segmento do Adobe Experience Platform para escopos de decisão. Por exemplo, uma organização pode querer executar [!DNL Batch Decisioning] para que possam enviar ofertas a um fornecedor de delivery de mensagens. Essas ofertas são usadas como conteúdo enviado para entrega de mensagens em lote para o mesmo segmento de usuários.
+Com o [!DNL Batch Decisioning] , você pode preencher um conjunto de dados com as melhores ofertas para todos os perfis em um público-alvo da Adobe Experience Platform para escopos de decisão. Por exemplo, uma organização pode querer executar [!DNL Batch Decisioning] para que possam enviar ofertas a um fornecedor de delivery de mensagens. Essas ofertas são usadas como conteúdo enviado para entrega de mensagens em lote para o mesmo público-alvo de usuários.
 
 Para fazer isso, a organização deve:
 
@@ -30,7 +30,7 @@ Para fazer isso, a organização deve:
 
 * Exportar o conjunto de dados para a API do fornecedor de delivery de mensagens.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting segments.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Antes de usar essa API, verifique se você concluiu as seguintes etapas de pré-
 
 ### Preparar a decisão {#prepare-decision}
 
-Para preparar uma ou mais decisões, verifique se você criou um conjunto de dados, um segmento e uma decisão. Esses pré-requisitos são detalhados em [nesta seção](../../batch-delivery.md).
+Para preparar uma ou mais decisões, verifique se você criou um conjunto de dados, um público-alvo e uma decisão. Esses pré-requisitos são detalhados em [nesta seção](../../batch-delivery.md).
 
 ### Requisitos da API {#api-requirements}
 
@@ -104,7 +104,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 
 | Propriedade | Descrição | Exemplo |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | O valor é uma matriz que contém o identificador exclusivo do segmento. Ele só pode conter um valor. | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:segmentIds` | O valor é uma matriz que contém o identificador exclusivo do público-alvo. Ele só pode conter um valor. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 | `xdm:dataSetId` | O dataSet de saída no qual os eventos de decisão podem ser gravados. | `6196b4a1a63bd118dafe093c` |
 | `xdm:propositionRequests` | Um invólucro que contenha a variável `placementId` e `activityId` |  |
 | `xdm:activityId` | O identificador exclusivo da decisão. | `xcore:offer-activity:1410cdcda196707b` |

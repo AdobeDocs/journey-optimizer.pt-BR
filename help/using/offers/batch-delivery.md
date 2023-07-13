@@ -1,11 +1,11 @@
 ---
 title: Decisão em lote
-description: Saiba como fornecer decisões de oferta a todos os perfis em um determinado segmento do Adobe Experience Platform.
+description: Saiba como fornecer decisões de oferta a todos os perfis em um determinado público-alvo da Adobe Experience Platform.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 2%
 
 ## Introdução à decisão em lote {#start}
 
-O Journey Optimizer permite que você forneça decisões de oferta a todos os perfis em um determinado segmento do Adobe Experience Platform.
+O Journey Optimizer permite que você forneça decisões de oferta para todos os perfis em um determinado público-alvo da Adobe Experience Platform.
 
-Para fazer isso, você precisa criar uma solicitação de trabalho no Journey Optimizer que conterá informações sobre o segmento a ser direcionado e a decisão de oferta a ser usada. O conteúdo da oferta de cada perfil no segmento é colocado em um conjunto de dados do Adobe Experience Platform, onde ele estará disponível para fluxos de trabalho em lote personalizados.
+Para fazer isso, você precisa criar uma solicitação de trabalho no Journey Optimizer que conterá informações sobre o público-alvo a ser direcionado e a decisão de oferta a ser usada. O conteúdo da oferta de cada perfil no público-alvo é então colocado em um conjunto de dados do Adobe Experience Platform, onde ele estará disponível para fluxos de trabalho em lote personalizados.
 
 A entrega em lote também pode ser executada usando APIs. Para obter mais informações, consulte [Documentação da API de decisão em lote](api-reference/offer-delivery-api/batch-decisioning-api.md).
 
@@ -25,11 +25,11 @@ Antes de configurar uma solicitação de tarefa, verifique se você criou:
 
 * **Um conjunto de dados** no Adobe Experience Platform. Esse conjunto de dados será usado para armazenar o resultado da decisão usando o schema &quot;ODE DecisionEvents&quot;. Saiba mais na [Documentação de conjuntos de dados](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR).
 
-* **Um segmento** no Adobe Experience Platform. O segmento deve ser avaliado e depois atualizado. Saiba como atualizar a avaliação de associação de segmento no [Documentação do Serviço de segmentação](https://www.adobe.com/go/segmentation-overview-en)
+* **Um público** no Adobe Experience Platform. O público-alvo deve ser avaliado e depois atualizado. Saiba como atualizar a avaliação de associação de público-alvo no [Documentação do Serviço de segmentação](http://www.adobe.com/go/segmentation-overview-en)
 
-   >[!NOTE]
-   >
-   >Um trabalho em lote é executado fora do instantâneo do perfil que ocorre uma vez por dia. A decisão em lote limita a frequência e sempre carrega perfis do instantâneo mais recente. Aguarde até 24 horas após a criação de um segmento antes de tentar a API de decisão em lote.
+  >[!NOTE]
+  >
+  >Um trabalho em lote é executado fora do instantâneo do perfil que ocorre uma vez por dia. A decisão em lote limita a frequência e sempre carrega perfis do instantâneo mais recente. Aguarde até 24 horas após a criação de um público-alvo antes de tentar a API de decisão em lote.
 
 * **Uma decisão** no Adobe Journey Optimizer. [Saiba como criar uma decisão](offer-activities/create-offer-activities.md)
 
@@ -45,9 +45,9 @@ Para criar uma nova solicitação de trabalho, siga as etapas abaixo.
 
 1. Nomeie sua solicitação de trabalho e selecione o conjunto de dados para o qual os dados de trabalho devem ser enviados.
 
-1. Selecione o segmento do Adobe Experience Platform a ser direcionado.
+1. Selecione o público-alvo do Adobe Experience Platform para direcionar.
 
-1. Selecione um ou vários escopos de decisão de oferta que deseja usar para entregar ofertas ao segmento:
+1. Selecione um ou vários escopos de decisão de oferta que você deseja usar para entregar ofertas ao público:
    1. Selecione uma disposição na lista.
    1. As decisões disponíveis para a disposição selecionada são exibidas. Selecione a decisão de sua escolha e clique em **[!UICONTROL Adicionar]**.
    1. Repita a operação para adicionar quantos escopos de decisão desejar.
@@ -93,11 +93,11 @@ Se ocorrer um erro enquanto a solicitação de trabalho estiver sendo executada,
 
 A hora de ponta a ponta para cada processo em lote é a duração da hora em que a carga de trabalho é criada até o momento em que o resultado da decisão está disponível no conjunto de dados de saída.
 
-O tamanho do segmento é o principal fator que afeta o tempo completo de decisão do lote. Se a oferta elegível tiver um limite de frequência global ativado, a decisão em lote levará mais tempo para ser concluída. Abaixo estão algumas aproximações do tempo de processamento completo para seus respectivos tamanhos de segmento, com e sem limite de frequência para ofertas elegíveis:
+O tamanho do público-alvo é o principal fator que afeta o tempo completo de decisão do lote. Se a oferta elegível tiver um limite de frequência global ativado, a decisão em lote levará mais tempo para ser concluída. Abaixo estão algumas aproximações do tempo de processamento completo para seus respectivos tamanhos de público, com e sem limite de frequência para ofertas elegíveis:
 
 Com o limite de frequência habilitado para ofertas qualificadas:
 
-| Tamanho do segmento | Tempo de processamento de ponta a ponta |
+| Tamanho do público | Tempo de processamento de ponta a ponta |
 |--------------|----------------------------|
 | 10 mil perfis ou menos | 7 minutos |
 | 1 milhão de perfis ou menos | 30 minutos |
@@ -105,7 +105,7 @@ Com o limite de frequência habilitado para ofertas qualificadas:
 
 Sem limite de frequência para ofertas elegíveis:
 
-| Tamanho do segmento | Tempo de processamento de ponta a ponta |
+| Tamanho do público | Tempo de processamento de ponta a ponta |
 |--------------|----------------------------|
 | 10 mil perfis ou menos | 6 minutos |
 | 1 milhão de perfis ou menos | 8 minutos |

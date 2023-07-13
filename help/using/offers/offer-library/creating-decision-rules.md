@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 15%
+source-wordcount: '322'
+ht-degree: 14%
 
 ---
 
@@ -33,7 +33,7 @@ Para criar uma regra de decisão, siga estas etapas:
 
 1. Nomeie a regra, forneça uma descrição e configure-a de acordo com suas necessidades.
 
-   Para fazer isso, a variável **Construtor de segmentos** O está disponível para ajudar você a criar as condições da regra. [Saiba mais](../../segment/about-segments.md)
+   Para fazer isso, o Adobe Experience Platform **Construtor de segmentos** O está disponível para ajudar você a criar as condições da regra. [Saiba como criar definições de segmento](../../audience/creating-a-segment-definition.md)
 
    <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
@@ -41,9 +41,9 @@ Para criar uma regra de decisão, siga estas etapas:
 
    >[!NOTE]
    >
-   >O Construtor de segmentos fornecido para criar regras de decisão apresenta algumas especificidades em comparação à usada com o **[!UICONTROL Segmentação]** serviço. Por exemplo, a variável **[!UICONTROL Segmentos]** não está disponível para uso. No entanto, o processo global descrito no [Construtor de segmentos](../../segment/about-segments.md) a documentação ainda é válida para criar regras de decisões de ofertas. Saiba mais na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-br).
+   >O Construtor de segmentos fornecido para criar regras de decisão apresenta algumas especificidades em comparação à usada com o **[!UICONTROL Segmentação]** serviço. No entanto, o processo global descrito no [Construtor de segmentos](../../audience/creating-a-segment-definition.md) a documentação ainda é válida para criar regras de decisões de ofertas. Saiba mais na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-br).
 
-1. À medida que você adiciona e configura novos campos no espaço de trabalho, a variável **[!UICONTROL Propriedades do segmento]** exibe informações sobre os perfis estimados pertencentes ao segmento. Clique em **[!UICONTROL Atualizar estimativa]** para atualizar dados.
+1. À medida que você adiciona e configura novos campos no espaço de trabalho, a variável **[!UICONTROL Propriedades do público]** exibe informações sobre os perfis estimados pertencentes ao público. Clique em **[!UICONTROL Atualizar estimativa]** para atualizar dados.
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
 

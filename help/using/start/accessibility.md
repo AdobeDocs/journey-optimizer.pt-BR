@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ Painel de configuração destes elementos:
   <tr>
     <td>
 
-Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UICONTROL Um único perfil por vez]** está ativada
+Acionar um evento em uma jornada baseada em público-alvo para a qual o **[!UICONTROL Um único perfil por vez]** a opção está ativada
 
 </td>
     <td>P</td>

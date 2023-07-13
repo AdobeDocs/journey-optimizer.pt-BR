@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: componentes, designer de email, editor, email
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1353'
 ht-degree: 57%
 
 ---
@@ -60,7 +60,7 @@ Para adicionar componentes de conteúdo ao seu email e ajustá-los às suas nece
    >
    >É possível adicionar vários componentes em um único componente de estrutura e em cada coluna de um componente de estrutura.
 
-1. Ajuste os atributos e o estilo de cada componente usando o **[!UICONTROL Configurações]** e **[!UICONTROL Estilo]** guias à direita. Por exemplo, é possível alterar o estilo do texto, o preenchimento ou a margem de cada componente. [Saiba mais sobre alinhamento e preenchimento](alignment-and-padding.md)
+1. Ajuste os atributos de estilo de cada componente usando o **[!UICONTROL Configurações]** e **[!UICONTROL Estilo]** guias à direita. Por exemplo, é possível alterar o estilo do texto, o preenchimento ou a margem de cada componente. [Saiba mais sobre alinhamento e preenchimento](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
@@ -224,4 +224,4 @@ Saiba como adicionar ofertas personalizadas a um email no [nesta seção](add-of
 
 >[!IMPORTANT]
 >
->Se forem feitas alterações em uma decisão de oferta em uso na mensagem de uma jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas à mensagem da jornada e que ela seja consistente com as atualizações mais recentes.
+>Se forem feitas alterações em uma decisão de oferta que está sendo usada na mensagem de uma jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas à mensagem da jornada e que ela seja consistente com as atualizações mais recentes.
