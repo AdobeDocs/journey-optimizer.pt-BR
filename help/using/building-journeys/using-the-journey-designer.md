@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: design, tela, jornada, interface, arrastar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 9270f706d3b0693178ffc076aea2e631ba736afe
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 5%
@@ -69,11 +69,11 @@ Quando você cria sua jornada, a primeira pergunta que deseja fazer é como os p
 
 1. **Iniciar com um evento**: quando uma jornada é definida para acompanhar eventos, os indivíduos entram na jornada **unitário** em tempo real. As mensagens incluídas na jornada são enviadas à pessoa que atualmente flui para a jornada. [Saiba mais sobre eventos](../event/about-events.md)
 
-1. **Começar com um segmento de leitura**: você pode definir sua jornada para ouvir segmentos do Adobe Experience Platform. Nesse caso, todos os indivíduos pertencentes ao segmento especificado entram na jornada. As mensagens incluídas na jornada são enviadas aos indivíduos pertencentes ao segmento. [Saiba mais sobre como ler segmentos](read-segment.md).
+1. **Começar com um público-alvo de leitura**: você pode definir sua jornada para ouvir os públicos-alvo da Adobe Experience Platform. Nesse caso, todos os indivíduos pertencentes ao público-alvo especificado entram na jornada. As mensagens incluídas na sua jornada são enviadas aos indivíduos que pertencem ao público. Saiba mais sobre [ler público](read-audience.md).
 
 ## Definir as próximas etapas{#define-next-steps}
 
-Após o primeiro evento ou segmento de leitura, você pode combinar as diferentes atividades para criar cenários de canais em várias etapas. Escolha, na paleta, as etapas necessárias.
+Após o primeiro evento ou Ler públicos-alvo, você pode combinar as diferentes atividades para criar cenários de canais em várias etapas. Escolha, na paleta, as etapas necessárias.
 
 ### Eventos{#jo-event}
 
@@ -85,13 +85,13 @@ Você pode adicionar **vários eventos** na jornada, desde que usem o mesmo name
 
 Você também pode adicionar um **Reação** evento após uma mensagem para reagir aos dados de rastreamento relacionados à mensagem. Isso permite, por exemplo, enviar outra mensagem se o indivíduo tiver aberto a mensagem anterior ou clicado dentro dela. [Saiba mais sobre eventos de reação](reaction-events.md).
 
-Uso **Qualificação do segmento** atividade de evento para fazer com que indivíduos entrem ou avancem em uma jornada com base nas entradas e saídas do segmento Adobe Experience Platform. Você pode fazer com que todos os novos clientes Silver insiram uma jornada e enviem mensagens personalizadas. Saiba mais nesta [seção](segment-qualification-events.md).
+Uso **Qualificação do público-alvo** atividade de evento para fazer com que indivíduos entrem ou avancem em uma jornada com base nas entradas e saídas do público-alvo do Adobe Experience Platform. Você pode fazer com que todos os novos clientes Silver insiram uma jornada e enviem mensagens personalizadas. Saiba mais nesta [seção](audience-qualification-events.md).
 
 ### Orquestração{#jo-orch}
 
 As atividades de orquestração são condições diferentes que ajudam a determinar a próxima etapa da jornada.
 
-Nas atividades de orquestração, use o **Segmento de leitura** atividade para definir sua jornada para ouvir um segmento do Adobe Experience Platform. [Saiba mais sobre a atividade Ler segmento](read-segment.md).
+Nas atividades de orquestração, use o **Ler público-alvo** atividade para definir sua jornada para ouvir um público-alvo do Adobe Experience Platform. [Saiba mais sobre a atividade Ler público](read-audience.md).
 
 As outras atividades permitem adicionar condições à jornada para definir vários caminhos, definir um tempo de espera antes de executar a próxima atividade ou encerrar a jornada. [Saiba mais sobre atividades de orquestração](about-journey-activities.md#orchestration-activities).
 
