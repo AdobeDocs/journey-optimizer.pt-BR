@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 83%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campanhas"
->abstract="Crie campanhas para fornecer conteúdo único a um segmento específico em vários canais. Antes de criar a campanha, verifique se você tem uma superfície de canal (ou seja, uma predefinição de mensagem) e um segmento da Adobe Experience Platform pronto para uso."
+>abstract="Crie campanhas para fornecer conteúdo único a um público específico em vários canais. Antes de criar sua campanha, verifique se você tem uma superfície de canal (ou seja, predefinição de mensagem) e um público-alvo da Adobe Experience Platform pronto para uso."
 
-Use campanhas do Journey Optimizer para fornecer conteúdo único a um segmento específico usando vários canais. Ao usar jornadas, as ações são executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado.
+Use campanhas do Journey Optimizer para fornecer conteúdo único a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado.
 
 Você pode criar dois tipos de campanhas:
 
 * **Campanhas programadas** permite comunicações em lote ad-hoc simples para casos de uso de marketing, como ofertas promocionais, campanhas de engajamento, anúncios, avisos legais ou atualizações de políticas.
-* **Campanhas acionadas por API** permitem que as comunicações de marketing alcancem um público-alvo na hora certa ou que mensagens transacionais/operacionais cheguem a uma pessoa física, como uma redefinição de senha, em que a necessidade pode envolver personalização, não apenas usando o atributo de perfil, mas também os dados de contexto em tempo real no acionador, que é um conteúdo da API REST.
+* **Campanhas acionadas por API** permite mensagens transacionais/operacionais simples com APIs REST (redefinição de senha, abandono de carrinho etc.), em que a necessidade pode envolver personalização usando atributos de perfil e dados contextuais de conteúdo.
 
 As principais etapas para criar uma campanha são as seguintes:
 
@@ -66,7 +66,7 @@ Verifique os seguintes pré-requisitos antes de começar a criar sua primeira ca
 
 +++
 
-1. **Você precisa de um público**. Segmentos de público precisam estar disponíveis antes de criar a campanha. Saiba mais sobre criação de público [nesta página](../segment/about-segments.md).
+1. **Você precisa de um público**. Os públicos precisam estar disponíveis antes de criar a campanha. Saiba mais sobre públicos [nesta página](../audience/about-audiences.md).
 1. **Você precisa de uma superfície de canal**. Para selecionar um canal, é necessário ter a superfície do canal correspondente (ou seja, predefinição) criada e disponível. Saiba mais sobre superfícies de canal [nesta página](../configuration/channel-surfaces.md).
 
 ## Vídeo explicativo {#video}

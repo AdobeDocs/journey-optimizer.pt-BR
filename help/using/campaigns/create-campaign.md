@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 28%
+source-wordcount: '788'
+ht-degree: 24%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->Antes de criar uma nova campanha, verifique se você tem um canal de superfície (ou seja, predefinição de mensagem) e um segmento do Adobe Experience Platform pronto para uso. Saiba mais nestas seções:
+>Antes de criar uma nova campanha, verifique se você tem um canal de superfície (ou seja, predefinição de mensagem) e um público-alvo do Adobe Experience Platform pronto para uso. Saiba mais nestas seções:
 >
 >* [Criar superfícies de canal](../configuration/channel-surfaces.md)
->* [Introdução aos segmentos](../segment/about-segments.md)
+>* [Introdução aos públicos](../audience/about-audiences.md)
 
 Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**. Você também pode duplicar uma campanha ao vivo existente para criar uma nova. [Saiba mais](modify-stop-campaign.md#duplicate)
 
@@ -32,20 +32,18 @@ Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** e clique em **
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campanha"
->abstract="**Campanhas programadas** são executadas imediatamente ou em uma data especificada e devem enviar mensagens de marketing. Campanhas **acionadas por API** são executadas usando uma chamada de API. O objetivo é enviar mensagens de marketing ou mensagens transacionais, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, abandono de carrinho etc."
+>abstract="Ao especificar uma data de envio para a mensagem de marketing, o tipo **Programado** é o mais apropriado. No entanto, se você quiser enviar mensagens transacionais, como redefinição de senha ou abandono do carrinho, o tipo **Acionado por API** é a melhor opção."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Categoria da campanha"
->abstract="Se você estiver criando uma campanha programada, a campanha de **marketing** é selecionada automaticamente. Para campanhas acionadas por API, escolha se deseja enviar uma mensagem de **marketing** ou **transacional**, ou seja, uma mensagem enviada após uma ação executada por um indivíduo: redefinição de senha, abandono de carrinho etc."
+>abstract="O valor da categoria é diretamente associado ao valor do tipo de campanha. Programe o tipo de campanha para a categoria **Marketing** e o tipo Acionado por API para a categoria **Transacional**"
 
 1. No **[!UICONTROL Propriedades]** especifique como deseja executar a campanha. Há dois tipos de campanha disponíveis:
 
-   * **[!UICONTROL Agendado]**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas são destinadas ao envio **marketing** mensagens. Eles são configurados e executados na interface do usuário do.
+   * **[!UICONTROL Agendado]**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas são destinadas ao envio **marketing** digite mensagens.
 
-   * **[!UICONTROL Acionado pela API]**: execute a campanha usando uma chamada de API. As campanhas acionadas por API têm como objetivo enviar **marketing** ou **transacional** mensagens, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
-
-1. Se você estiver criando uma campanha programada, a campanha de **marketing** é selecionada automaticamente. Para campanhas acionadas por API, escolha se deseja enviar uma **marketing** ou **transacional** mensagem.&quot;
+   * **[!UICONTROL Acionado pela API]**: execute a campanha usando uma chamada de API. As campanhas acionadas por API têm como objetivo enviar **transacional** mensagens, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, abandono de carrinho etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
 
 1. No **[!UICONTROL Ações]** escolha o canal e a superfície de canal a serem usados para enviar a mensagem.
 
@@ -122,19 +120,19 @@ No **[!UICONTROL Ações]** crie a mensagem a ser enviada com a campanha.
 
 ## Definir o público {#audience}
 
-Clique em **[!UICONTROL Selecionar público]** botão para exibir a lista de segmentos do Adobe Experience Platform disponíveis. [Saiba mais sobre segmentos](../segment/about-segments.md)
+Clique em **[!UICONTROL Selecionar público]** botão para exibir a lista de públicos-alvo disponíveis do Adobe Experience Platform. [Saiba mais sobre públicos](../audience/about-audiences.md)
 
 >[!NOTE]
 >
 >Para campanhas acionadas por API, o público-alvo precisa ser definido por meio de uma chamada de API. [Saiba mais](api-triggered-campaigns.md)
 
-No **[!UICONTROL Namespace de identidade]** escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace)
+No **[!UICONTROL Namespace de identidade]** escolha o namespace a ser usado para identificar os indivíduos do público-alvo selecionado. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
 
-    >[!NOTE]
-    >
-    >Indivíduos pertencentes a um segmento que não tem a identidade selecionada (namespace) entre suas diferentes identidades não serão direcionados pela campanha.
+>[!NOTE]
+>
+>Os indivíduos pertencentes a um público-alvo que não tem a identidade selecionada (namespace) entre suas diferentes identidades não serão direcionados pela campanha.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

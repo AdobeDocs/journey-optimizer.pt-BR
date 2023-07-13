@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -64,7 +64,7 @@ Por exemplo, se você definir as seguintes restrições:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="Definir elegibilidade"
->abstract="Por padrão, qualquer perfil será elegível para receber a oferta, mas você pode usar segmentos ou regras de decisão para restringir a oferta a perfis específicos."
+>abstract="Por padrão, qualquer perfil poderá receber a oferta, mas você poderá usar públicos ou regras de decisão para restringir a oferta a perfis específicos."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -75,33 +75,33 @@ Por exemplo, se você definir as seguintes restrições:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="Estimativa total de perfis"
->abstract="Ao selecionar segmentos ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados."
+>abstract="Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados."
 
-A variável **[!UICONTROL Elegibilidade da oferta]** permite restringir a oferta a perfis específicos que você define usando segmentos ou regras de decisão.
+A variável **[!UICONTROL Elegibilidade da oferta]** permite restringir a oferta a perfis específicos que você define usando públicos ou regras de decisão.
 
 >[!NOTE]
 >
->Saiba mais sobre como usar o **segmentos** versus **regras de decisão** in [nesta seção](#segments-vs-decision-rules).
+>Saiba mais sobre como usar o **públicos** versus **regras de decisão** in [nesta seção](#segments-vs-decision-rules).
 
 * Por padrão, a variável **[!UICONTROL Todos os visitantes]** estiver selecionada, o que significa que qualquer perfil estará qualificado para receber a oferta.
 
-   ![](../assets/offer-eligibility-default.png)
+  ![](../assets/offer-eligibility-default.png)
 
-* Também é possível limitar a apresentação da oferta aos membros de um ou vários [Segmentos do Adobe Experience Platform](../../segment/about-segments.md).
+* Também é possível limitar a apresentação da oferta aos membros de um ou vários [Públicos da Adobe Experience Platform](../../audience/about-audiences.md).
 
-   Para fazer isso, ative a variável **[!UICONTROL Visitantes que se encaixam em um ou vários segmentos]** e, em seguida, adicione um ou vários segmentos do painel esquerdo e combine-os usando a **[!UICONTROL E]** / **[!UICONTROL Ou]** operadores lógicos.
+  Para fazer isso, ative a variável **[!UICONTROL Visitantes que se encaixam em um ou vários públicos-alvo]** e, em seguida, adicione um ou vários públicos-alvo do painel esquerdo e combine-os usando a **[!UICONTROL E]** / **[!UICONTROL Ou]** operadores lógicos.
 
-   ![](../assets/offer-eligibility-segment.png)
+  ![](../assets/offer-eligibility-segment.png)
 
 * Se quiser associar um evento [regra de decisão](../offer-library/creating-decision-rules.md) para a oferta, selecione **[!UICONTROL Por regra de decisão definida]** e, em seguida, arraste a regra desejada do painel esquerdo para a **[!UICONTROL Regra de decisão]** área.
 
-   ![](../assets/offer_rule.png)
+  ![](../assets/offer_rule.png)
 
-   >[!CAUTION]
-   >
-   >No momento, as ofertas baseadas em eventos não são compatíveis com o [!DNL Journey Optimizer]. Se você criar uma regra de decisão com base em uma [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, você não poderá aproveitá-lo em uma oferta.
+  >[!CAUTION]
+  >
+  >No momento, as ofertas baseadas em eventos não são compatíveis com o [!DNL Journey Optimizer]. Se você criar uma regra de decisão com base em uma [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, você não poderá aproveitá-lo em uma oferta.
 
-Ao selecionar segmentos ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
+Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -109,23 +109,23 @@ Ao selecionar segmentos ou regras de decisão, é possível ver informações so
 >
 >As estimativas de perfil não estão disponíveis quando os parâmetros da regra incluem dados que não estão no perfil, como dados de contexto. Por exemplo, uma regra de elegibilidade que exige que o tempo atual seja ≥ 80 graus.
 
-### Uso de segmentos vs. regras de decisão {#segments-vs-decision-rules}
+### Uso de públicos-alvo versus regras de decisão {#segments-vs-decision-rules}
 
-Para aplicar uma restrição, é possível restringir a seleção de ofertas aos membros de um ou vários **Segmentos do Adobe Experience Platform**, ou você pode usar um **regra de decisão**, ambas as soluções correspondentes a usos diferentes.
+Para aplicar uma restrição, é possível restringir a seleção de ofertas aos membros de um ou vários **Públicos da Adobe Experience Platform**, ou você pode usar um **regra de decisão**, ambas as soluções correspondentes a usos diferentes.
 
-Basicamente, a saída de um segmento é uma lista de perfis, enquanto uma regra de decisão é uma função executada sob demanda em relação a um único perfil durante o processo de decisão. A diferença entre esses dois usos é detalhada abaixo.
+Basicamente, a saída de um público-alvo é uma lista de perfis, enquanto uma regra de decisão é uma função executada sob demanda em relação a um único perfil durante o processo de decisão. A diferença entre esses dois usos é detalhada abaixo.
 
-* **Segmentos**
+* **Públicos-alvo**
 
-   Por um lado, os segmentos são um grupo de perfis do Adobe Experience Platform que correspondem a determinada lógica com base em atributos de perfil e eventos de experiência. No entanto, o Gerenciamento de ofertas não recalcula o segmento, que pode não estar atualizado ao apresentar a oferta.
+  Por um lado, os públicos-alvo são um grupo de perfis do Adobe Experience Platform que correspondem a determinada lógica com base em atributos de perfil e eventos de experiência. No entanto, o Gerenciamento de ofertas não recalcula o público-alvo, que pode não estar atualizado ao apresentar a oferta.
 
-   Saiba mais sobre segmentos em [nesta seção](../../segment/about-segments.md).
+  Saiba mais sobre públicos-alvo na [nesta seção](../../audience/about-audiences.md).
 
 * **Regras de decisão**
 
-   Por outro lado, uma regra de decisão se baseia nos dados disponíveis no Adobe Experience Platform e determina para quem uma oferta pode ser exibida. Uma vez selecionada em uma oferta ou em uma decisão para um determinado posicionamento, a regra é executada sempre que uma decisão é tomada, o que garante que cada perfil receba a melhor e mais recente oferta.
+  Por outro lado, uma regra de decisão se baseia nos dados disponíveis no Adobe Experience Platform e determina para quem uma oferta pode ser exibida. Uma vez selecionada em uma oferta ou em uma decisão para um determinado posicionamento, a regra é executada sempre que uma decisão é tomada, o que garante que cada perfil receba a melhor e mais recente oferta.
 
-   Saiba mais sobre regras de decisão no [nesta seção](creating-decision-rules.md).
+  Saiba mais sobre regras de decisão no [nesta seção](creating-decision-rules.md).
 
 ## Limite {#capping}
 
@@ -186,16 +186,16 @@ A variável **[!UICONTROL Evento de limite]** permite definir quais **[!UICONTRO
 * **[!UICONTROL Evento de decisão]** (valor padrão): Número máximo de vezes que uma oferta pode ser apresentada.
 * **[!UICONTROL Impressão]**: Número máximo de vezes que a oferta pode ser exibida a um usuário.
 
-   >[!NOTE]
-   >
-   >O uso de impressões como eventos de limite está disponível para **canais de entrada** somente.
+  >[!NOTE]
+  >
+  >O uso de impressões como eventos de limite está disponível para **canais de entrada** somente.
 
 * **[!UICONTROL Cliques]**: Número máximo de vezes que a oferta pode ser clicada por um usuário.
 * **[!UICONTROL Evento personalizado]**: você pode definir um evento personalizado que será usado para limitar o número de ofertas enviadas. Por exemplo, você pode limitar o número de resgates até que sejam iguais a 10000 ou até que um determinado perfil tenha resgatado uma vez. Para fazer isso, use [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"} esquemas para criar uma regra de evento personalizada.
 
-   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
+  <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   No exemplo abaixo, você deseja limitar o número de check-outs.
+  No exemplo abaixo, você deseja limitar o número de check-outs.
 
    1. Selecionar **[!UICONTROL Evento personalizado]** na lista e use o **[!UICONTROL Adicionar evento personalizado]** botão.
 
@@ -237,11 +237,11 @@ Você também pode especificar se deseja que o limite seja aplicado a todos os u
 
 * Selecionar **[!UICONTROL No total]** para definir quantas vezes uma oferta pode ser proposta através do público-alvo combinado, ou seja, entre todos os usuários.
 
-   Por exemplo, se você for um varejista de produtos eletrônicos com um &quot;contrato de portaria de TV&quot;, desejará que a oferta seja retornada apenas 200 vezes em todos os perfis.
+  Por exemplo, se você for um varejista de produtos eletrônicos com um &quot;contrato de portaria de TV&quot;, desejará que a oferta seja retornada apenas 200 vezes em todos os perfis.
 
 * Selecionar **[!UICONTROL Por perfil]** para definir quantas vezes uma oferta pode ser proposta ao mesmo usuário.
 
-   Por exemplo, se você for um banco com uma oferta de &quot;Cartão de crédito Platinum&quot;, não desejará que essa oferta seja exibida mais de 5 vezes por perfil. Na verdade, você acredita que, se o usuário tiver visto a oferta cinco vezes e não tiver atuado nela, ele terá uma chance maior de agir na próxima melhor oferta.
+  Por exemplo, se você for um banco com uma oferta de &quot;Cartão de crédito Platinum&quot;, não desejará que essa oferta seja exibida mais de 5 vezes por perfil. Na verdade, você acredita que, se o usuário tiver visto a oferta cinco vezes e não tiver atuado nela, ele terá uma chance maior de agir na próxima melhor oferta.
 
 ### Limite de frequência {#frequency-capping}
 
@@ -274,11 +274,11 @@ Se você tiver definido vários [representações](add-representations.md) para 
 
 * **[!UICONTROL Em todas as disposições]**: as contagens de limite totalizarão todas as decisões nos posicionamentos associados à oferta.
 
-   Por exemplo, se uma oferta tiver uma variável **E-mail** inserção e um **Web** inserção e você define o limite como **2 por perfil em todas as disposições**, cada perfil poderia receber a oferta até 2 vezes no total, independentemente da combinação de posicionamento.
+  Por exemplo, se uma oferta tiver uma variável **E-mail** inserção e um **Web** inserção e você define o limite como **2 por perfil em todas as disposições**, cada perfil poderia receber a oferta até 2 vezes no total, independentemente da combinação de posicionamento.
 
 * **[!UICONTROL Para cada posicionamento]**: as contagens de limite aplicarão as contagens de decisão para cada posicionamento separadamente.
 
-   Por exemplo, se uma oferta tiver uma variável **E-mail** inserção e um **Web** inserção e você define o limite como **2 por perfil para cada posicionamento**, cada perfil poderia receber a oferta até 2 vezes para a inserção do email e outras 2 vezes para a inserção da web.
+  Por exemplo, se uma oferta tiver uma variável **E-mail** inserção e um **Web** inserção e você define o limite como **2 por perfil para cada posicionamento**, cada perfil poderia receber a oferta até 2 vezes para a inserção do email e outras 2 vezes para a inserção da web.
 
 ### Impacto da alteração de datas no limite {#capping-change-date}
 

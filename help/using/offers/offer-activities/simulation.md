@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -50,13 +50,13 @@ Para acessar esse recurso, selecione a variável **[!UICONTROL Simulação]** na
 >id="ajo_decisioning_simulation_test_profile"
 >title="Adicionar perfis de teste"
 >abstract="Você pode adicionar um perfil de teste selecionando um namespace de identidade e um valor de identidade correspondente. Você deve ter perfis de teste já disponíveis para usá-los na simulação."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="Criar perfis de teste"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="Criar perfis de teste"
 
 Primeiro, é necessário selecionar os perfis de teste que você usará para simulação.
 
 >[!CAUTION]
 >
->Você deve ter perfis de teste disponíveis para simular quais ofertas serão entregues a eles. Saiba como [criar perfis de teste](../../segment/creating-test-profiles.md).
+>Você deve ter perfis de teste disponíveis para simular quais ofertas serão entregues a eles. Saiba como [criar perfis de teste](../../audience/creating-test-profiles.md).
 
 1. Clique em **[!UICONTROL Gerenciar perfil]**.
 
@@ -66,7 +66,7 @@ Primeiro, é necessário selecionar os perfis de teste que você usará para sim
 
    >[!NOTE]
    >
-   >Um namespace de identidade define o contexto de um identificador, como um endereço de email ou ID de CRM. Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../../segment/get-started-identity.md){target="_blank"}.
+   >Um namespace de identidade define o contexto de um identificador, como um endereço de email ou ID de CRM. Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../../audience/get-started-identity.md){target="_blank"}.
 
 1. Insira o valor da identidade e clique em **[!UICONTROL Exibir]** para listar os perfis disponíveis.
 
