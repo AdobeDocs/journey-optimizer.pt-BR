@@ -5,7 +5,7 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c67c7b7c6a8af1ea24c66df261ddd390e55675f7
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 99%
@@ -282,15 +282,15 @@ ht-degree: 99%
    + Públicos-alvo {#audiences}
       + [Introdução aos públicos](using/audience/about-audiences.md)
       + [Criar definições de segmento](using/audience/creating-a-segment-definition.md)
+      + Compor públicos-alvo {#audience-orchestration}
+         + [Introdução à composição de público-alvo](using/audience/get-started-audience-orchestration.md)
+         + [Criar workflows de composição](using/audience/create-compositions.md)
+         + [Trabalhar com a tela de composição](using/audience/composition-canvas.md)
+         + [Acessar e gerenciar públicos-alvo](using/audience/access-audiences.md)
    + Perfis{#profiles}
       + [Introdução aos perfis](using/audience/get-started-profiles.md)
       + [Criar perfis de teste](using/audience/creating-test-profiles.md)
    + [Identidades](using/audience/get-started-identity.md)
-   + Compor públicos-alvo {#audience-orchestration}
-      + [Introdução à composição de público-alvo](using/audience/get-started-audience-orchestration.md)
-      + [Criar workflows de composição](using/audience/create-compositions.md)
-      + [Trabalhar com a tela de composição](using/audience/composition-canvas.md)
-      + [Acessar e gerenciar públicos-alvo](using/audience/access-audiences.md)
    + [Uso da licença](using/audience/license-usage.md)
 + Rastrear e monitorar {#reporting}
    + Relatório ao vivo {#live-report}
