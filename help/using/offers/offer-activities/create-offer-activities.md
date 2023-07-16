@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 2%
+source-wordcount: '2164'
+ht-degree: 1%
 
 ---
 
@@ -128,9 +128,17 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
    ![](../assets/activity_new-scope.png)
 
+   >[!NOTE]
+   >
+   >Ao adicionar vários escopos de decisão, a ordem dos critérios de avaliação será afetada. [Saiba mais](#multiple-scopes)
+
 ### Ordem dos critérios de avaliação {#evaluation-criteria-order}
 
 Conforme descrito acima, um critério de avaliação consiste em uma coleção, restrições de elegibilidade e um método de classificação. Você pode definir a ordem sequencial desejada para que os critérios de avaliação sejam avaliados, mas também pode combinar vários critérios de avaliação para que eles sejam avaliados juntos e não separadamente.
+
+#### Com um escopo {#one-scope}
+
+Dentro de um único escopo de decisão, vários critérios e seus agrupamentos determinam a prioridade dos critérios e a classificação das ofertas qualificadas. O primeiro critério tem a prioridade mais alta e o critério combinado no mesmo &quot;grupo&quot; tem a mesma prioridade.
 
 Por exemplo, você tem duas coleções, uma no critério de avaliação A e outra no critério de avaliação B. A solicitação é para que duas ofertas sejam enviadas de volta. Digamos que existam duas ofertas elegíveis do critério de avaliação A e três ofertas elegíveis do critério de avaliação B.
 
@@ -141,6 +149,131 @@ Por exemplo, você tem duas coleções, uma no critério de avaliação A e outr
 * Se as duas coleções forem **avaliada ao mesmo tempo** No entanto, como há duas ofertas elegíveis do critério de avaliação A e três ofertas elegíveis do critério de avaliação B, as cinco ofertas serão empilhadas em conjunto com base no valor determinado pelos respectivos métodos de classificação. Duas ofertas são solicitadas, portanto, as duas principais ofertas qualificadas dessas cinco ofertas serão retornadas.
 
   ![](../assets/activity_same-rank-collections.png)
+
++++ **Exemplo com vários critérios**
+
+Agora, vamos considerar um exemplo em que você tem vários critérios para um único escopo dividido em grupos diferentes.
+
+Você definiu três critérios. O critério 1 e o critério 2 são combinados no grupo 1 e o critério 3 é independente (grupo 2).
+
+As ofertas elegíveis para cada critério e sua prioridade (usada na avaliação da função de classificação) são as seguintes:
+
+* Grupo 1:
+   * Critério 1 - (Oferta 1, Oferta 2, Oferta 3) - Prioridade 1
+   * Critério 2 - (Oferta 3, Oferta 4, Oferta 5) - Prioridade 1
+
+* Grupo 2:
+   * Critério 3 - (Oferta 5, Oferta 6) - Prioridade 0
+
+As ofertas de critérios de prioridade mais alta são avaliadas primeiro e adicionadas à lista de ofertas classificadas.
+
+**Iteração 1:**
+
+As ofertas dos Critérios 1 e 2 são avaliadas em conjunto (Oferta 1, Oferta 2, Oferta 3, Oferta 4, Oferta 5). Digamos que o resultado seja:
+
+Oferta 1 - 10 Oferta 2 - 20 Oferta 3 - 30 do Critério 1, 45 do Critério 2. O mais alto de ambos será considerado, portanto, 45 é considerado.
+Oferta 4 - 40 Oferta 5 - 50
+
+As ofertas classificadas agora são as seguintes: Oferta 5, Oferta 3, Oferta 4, Oferta 2, Oferta 1.
+
+**Iteração 2:**
+
+As ofertas do critério 3 são avaliadas (Oferta 5, Oferta 6). Digamos que o resultado seja:
+
+* Oferta 5 - Não será avaliado, pois já existe no resultado acima.
+* Oferta 6 - 60
+
+As ofertas classificadas agora são as seguintes: Oferta 5 , Oferta 3, Oferta 4, Oferta 2, Oferta 1, Oferta 6.
+
++++
+
+#### Com vários escopos {#multiple-scopes}
+
+**Se a duplicação estiver desativada**
+
+Ao adicionar vários escopos de decisão a uma decisão e se a duplicação não for permitida entre posicionamentos, as ofertas qualificadas serão selecionadas sequencialmente na ordem dos escopos de decisão na solicitação.
+
+>[!NOTE]
+>
+>A variável **[!UICONTROL Permitir duplicações em posicionamentos]** é definido no nível de posicionamento. Se a duplicação for definida como falso para qualquer posicionamento em uma solicitação de decisão, todas as inserções na solicitação herdarão a configuração falso. [Saiba mais sobre o parâmetro de duplicação](../offer-library/creating-placements.md)
+
+Vamos ver um exemplo em que você adicionou dois escopos de decisão, como:
+
+* Escopo 1: Há quatro ofertas qualificadas (Oferta 1, Oferta 2, Oferta 3, Oferta 4) e a solicitação é para duas ofertas serem enviadas de volta.
+* Escopo 2: há quatro ofertas qualificadas (Oferta 1, Oferta 2, Oferta 3, Oferta 4) e a solicitação é para duas ofertas serem enviadas de volta.
+
++++ **Exemplo 1**
+
+A seleção é a seguinte:
+
+1. As duas principais ofertas qualificadas do Escopo 1 serão retornadas (Oferta 1, Oferta 2).
+1. As duas principais ofertas qualificadas restantes do Escopo 2 serão retornadas (Oferta 3, Oferta 4).
+
++++
+
++++ **Exemplo 2**
+
+Neste exemplo, a Oferta 1 atingiu seu limite de frequência. [Saiba mais sobre limite de frequência](../offer-library/add-constraints.md#capping)
+
+A seleção é a seguinte:
+
+1. As duas principais ofertas qualificadas restantes do Escopo 1 serão retornadas (Oferta 2, Oferta 3).
+1. A oferta qualificada restante do Escopo 2 será retornada (Oferta 4).
+
++++
+
++++ **Exemplo 3**
+
+Neste exemplo, a Oferta 1 e a Oferta 3 atingiram seu limite de frequência. [Saiba mais sobre limite de frequência](../offer-library/add-constraints.md#capping)
+
+A seleção é a seguinte:
+
+1. As duas principais ofertas qualificadas restantes do Escopo 1 serão retornadas (Oferta 2, Oferta 4).
+1. Não há mais ofertas elegíveis para o Escopo 2, portanto, o [oferta substituta](#add-fallback) é retornado.
+
++++
+
+**Se a duplicação estiver ativada**
+
+Quando a duplicação é permitida em todos os posicionamentos, a mesma oferta pode ser proposta várias vezes em diferentes posicionamentos. Se ativado, o sistema considerará a mesma oferta para vários posicionamentos. [Saiba mais sobre o parâmetro de duplicação](../offer-library/creating-placements.md)
+
+Vamos ver o mesmo exemplo acima em que você adicionou dois escopos de decisão, como:
+
+* Escopo 1: Há quatro ofertas qualificadas (Oferta 1, Oferta 2, Oferta 3, Oferta 4) e a solicitação é para duas ofertas serem enviadas de volta.
+* Escopo 2: há quatro ofertas qualificadas (Oferta 1, Oferta 2, Oferta 3, Oferta 4) e a solicitação é para duas ofertas serem enviadas de volta.
+
++++ **Exemplo 1**
+
+A seleção é a seguinte:
+
+1. As duas principais ofertas qualificadas do Escopo 1 serão retornadas (Oferta 1, Oferta 2).
+1. As mesmas duas principais ofertas qualificadas do Escopo 2 serão retornadas (Oferta 1, Oferta 2).
+
++++
+
++++ **Exemplo 2**
+
+Neste exemplo, a Oferta 1 atingiu seu limite de frequência. [Saiba mais sobre limite de frequência](../offer-library/add-constraints.md#capping)
+
+A seleção é a seguinte:
+
+1. As duas principais ofertas qualificadas restantes do Escopo 1 serão retornadas (Oferta 2, Oferta 3).
+
+1. As mesmas duas principais ofertas qualificadas restantes do Escopo 2 serão retornadas (Oferta 2, Oferta 3).
+
++++
+
++++ **Exemplo 3**
+
+Neste exemplo, a Oferta 1 e a Oferta 3 atingiram seu limite de frequência. [Saiba mais sobre limite de frequência](../offer-library/add-constraints.md#capping)
+
+A seleção é a seguinte:
+
+1. As duas principais ofertas qualificadas restantes do Escopo 1 serão retornadas (Oferta 2, Oferta 4).
+
+1. As mesmas duas principais ofertas qualificadas restantes do Escopo 2 serão retornadas (Oferta 2, Oferta 4).
+
++++
 
 ## Adicionar uma oferta substituta {#add-fallback}
 
