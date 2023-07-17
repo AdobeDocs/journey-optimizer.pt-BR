@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40cd9df5b41fd622b8e447d7fc672502e9e29787
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 12%
@@ -42,7 +42,7 @@ Os parâmetros de consulta mais comuns para paginação incluem:
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `q` | Uma sequência de consulta opcional a ser pesquisada nos campos selecionados. A sequência de consulta deve estar em minúsculas e pode estar entre aspas duplas para impedir que seja tokenizada e para evitar caracteres especiais. Os caracteres `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm significado especial e devem ser evitadas com uma barra invertida ao serem exibidas na sequência de consulta. | JSON do site |
+| `q` | Uma sequência de consulta opcional a ser pesquisada nos campos selecionados. A sequência de consulta deve estar em minúsculas e pode estar entre aspas duplas para impedir que seja tokenizada e para evitar caracteres especiais. Os caracteres `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm significado especial e devem ser evitadas com uma barra invertida ao serem exibidas na sequência de consulta. | JSON do site |
 | `qop` | Aplica o operador AND ou OR a valores no parâmetro de sequência de consulta q. | `AND` / `OR` |
 | `field` | Lista opcional de campos aos quais limitar a pesquisa. Esse parâmetro pode ser repetido da seguinte maneira: field=field1[,campo=campo2,...] e (expressões de caminho estão no formato de caminhos separados por pontos, como _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Classificar os resultados por uma propriedade específica. Adicionar um `-` antes do título (`orderby=-title`) classificará os itens por título em ordem decrescente (Z-A). | `-repo:createdDate` |
