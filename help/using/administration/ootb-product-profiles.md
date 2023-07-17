@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: permissões, criação, mensagens
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1133'
 ht-degree: 6%
 
 ---
@@ -29,7 +29,7 @@ Essa função inclui as seguintes permissões:
 | Campanhas | <ul><li> **[!DNL Manage campaigns]**: ler, criar, editar e excluir campanhas.</li><li>**[!DNL Publish campaigns]**: publicar campanhas.</li><li>**[!DNL View campaigns report]**: leia e edite o relatório de campanhas.</li></ul> |
 | Configurações de canal | <ul><li>**[!DNL Manage subdomains delegation]**: leia, crie, edite e exclua a delegação de subdomínio.</li><li>**[!DNL Manage IP pools]**: leia, crie, edite e exclua o pool de ips.</li><li>**[!DNL Manage PTR records]**: ler e editar registros PTR.</li><li>**[!DNL View PTR records]**: acesso somente leitura a registros PTR.</li><li> **[!DNL Manage messages general settings]**: leia, crie, edite e exclua as configurações gerais de mensagens.</li><li>**[!DNL Manage messages presets]**: ler, criar, editar e excluir a identidade visual do conteúdo.</li><li>**[!DNL Manage suppression rules]**: acesse as regras de supressão de ler, criar, editar e excluir.</li><li>**[!DNL Export suppression list]**: acesso à lista de supressão de exportação como um arquivo CSV.</li><li>**[!DNL View suppression list]**: leia e exporte a lista de supressão local.</li><li>**[!DNL Manage alerts]**: ativar/desativar alertas para campanhas, mensagens e direitos.</li><li>**[!DNL Manage landing page settings]**: leia, crie, edite e exclua configurações de página de destino.</li><li>**[!DNL Manage SMS settings]**: leia, crie, edite e exclua configurações de SMS.</li></ul> |
 | Gerenciamento de decisão | <ul><li>**[!DNL Manage decisions]**: leia, crie, edite e exclua decisões.</li><li>**[!DNL Manage ranking strategies]**: ler, criar, editar e excluir estratégias de classificação.</li></ul> |
-| Adobe Experience Platform | <ul><li>**[!DNL Sandbox]**: conceder acesso a sandboxes.</li><li>**[!DNL Manage segments]**: leia, crie, edite e exclua definições de segmento. <li><li>**[!DNL Manage profiles]**: ler, criar, editar e excluir perfis.</li><li>**[!DNL Read datasets]**: acesso somente leitura a conjuntos de dados.</li><li>**[!DNL Read schemas]**: acesso somente leitura a esquemas.</li><li>**[!DNL Read Identity namespace]**: acesso somente leitura ao namespace de identidade.</li><li>**[!DNL Manage merge policies]**: ler, criar, editar e excluir políticas de mesclagem.</li></ul> |
+| Adobe Experience Platform | <ul><li>**[!DNL Sandbox]**: conceder acesso a sandboxes.</li><li>**[!DNL Manage segments]**: leia, crie, edite e exclua definições de segmento.</li><li>**[!DNL Manage profiles]**: ler, criar, editar e excluir perfis.</li><li>**[!DNL Read datasets]**: acesso somente leitura a conjuntos de dados.</li><li>**[!DNL Read schemas]**: acesso somente leitura a esquemas.</li><li>**[!DNL Read Identity namespace]**: acesso somente leitura ao namespace de identidade.</li><li>**[!DNL Manage merge policies]**: ler, criar, editar e excluir políticas de mesclagem.</li></ul> |
 
 ## [!DNL Campaign Approver] {#campaign-approver}
 
@@ -40,7 +40,7 @@ A variável **[!DNL Campaign Approver]** permite que os usuários aprovem delive
 | Campanhas | <ul><li>**[!DNL Manage campaigns]**: ler, criar, editar e excluir campanhas.</li><li>**[!DNL Publish campaigns]**: publicar campanhas.</li><li>**[!DNL View Campaigns report]**: leia, edite relatórios de jornada.</li></ul> |
 | Gerenciamento de decisão | <ul><li>**[!DNL Manage decisions]**: leia, crie, edite e exclua entidades de decisão.</li><li>**[!DNL Manage ranking strategies]**: leia, crie, edite e exclua relatórios de mensagens personalizadas e use recursos de ação.</li></ul> |
 | Adobe Experience Platform | <ul><li>**[!DNL Manage segments]**: leia, crie, edite e exclua definições de segmento.</li><li>**[!DNL Manage profiles]**: ler, criar, editar e excluir perfis.</li><li>**[!DNL Read datasets]**: acesso somente leitura a conjuntos de dados.</li><li>**[!DNL Read schemas]**: acesso somente leitura a esquemas.</li><li>**[!DNL Manage merge policies]**: ler, criar, editar e excluir políticas de mesclagem.</li></ul> |
-| Administração | <ul><li>**[!DNL View messages presets]**: acesso somente leitura a predefinições de mensagens.</li></ul> |
+| Configurações de canal | <ul><li>**[!DNL View messages presets]**: acesso somente leitura a predefinições de mensagens.</li></ul> |
 
 ## [!DNL Campaign Manager] {#campaign-manager}
 
@@ -53,7 +53,7 @@ Essa função inclui as seguintes permissões:
 | Campanhas | <ul><li>**[!DNL Manage campaigns]**: ler, criar, editar e excluir campanhas.</li><li>**[!DNL View campaigns report]**: leia, edite o relatório de jornadas.</li></ul> |
 | Gerenciamento de decisão | <ul><li>**[!DNL Manage decisions]**: leia, crie, edite e exclua entidades de decisão.</li><li>**[!DNL Manage ranking strategies]**: leia, crie, edite e exclua relatórios de mensagens personalizadas e use recursos de ação.</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**: leia, crie, edite e exclua definições de segmento.</li><li>**[!DNL Manage profiles]**: ler, criar, editar e excluir perfis.</li><li>**[!DNL Read datasets]**: acesso somente leitura a conjuntos de dados.</li><li>**[!DNL Read schemas]**: acesso somente leitura a esquemas.</li><li>**[!DNL Manage merge policies]**: ler, criar, editar e excluir políticas de mesclagem.</li></ul> |
-| Administração | <ul><li>**[!DNL View messages presets]**: acesso somente leitura a predefinições de mensagens.</li></ul> |
+| Configurações de canal | <ul><li>**[!DNL View messages presets]**: acesso somente leitura a predefinições de mensagens.</li></ul> |
 
 ## [!DNL Campaign Viewer] {#campaign-viewer}
 
@@ -94,7 +94,7 @@ Essa função inclui as seguintes permissões:
 | Jornadas | <ul><li>**[!DNL Manage journeys]**: leia, crie, edite e exclua jornadas.</li><li>**[!DNL Publish journey]**: publicar jornadas.</li><li>**[!DNL View journeys events, data sources and actions]**: acesso somente leitura a eventos do jornada, ações personalizadas do jornada e fontes de dados do jornada.</li><li>**[!DNL View journeys report]**: leia, edite relatórios de jornada.</li></ul> |
 | Gerenciamento de decisão | <ul><li>**[!DNL Manage decisions]**: leia, crie, edite e exclua entidades de decisão.</li><li>**[!DNL Manage ranking strategies]**: leia, crie, edite e exclua relatórios personalizados e use recursos de ação.</li></ul> |
 | Adobe Experience Platform | <ul><li>**[!DNL Manage segments]**: leia, crie, edite e exclua definições de segmento.</li><li>**[!DNL Manage profiles]**: ler, criar, editar e excluir perfis.</li><li>**[!DNL Read datasets]**: acesso somente leitura a conjuntos de dados.</li><li>**[!DNL Read schemas]**: acesso somente leitura a esquemas.</li><li>**[!DNL Manage merge policies]**: ler, criar, editar e excluir políticas de mesclagem.</li></ul> |
-| Administração | <ul><li>**[!DNL View channel surfaces]**: acesso somente leitura às superfícies de canal.</li></ul> |
+| Configurações de canal | <ul><li>**[!DNL View channel surfaces]**: acesso somente leitura às superfícies de canal.</li></ul> |
 
 ## [!DNL Journey Manager] {#journey-manager}
 
@@ -107,7 +107,7 @@ Essa função inclui as seguintes permissões:
 | Jornadas | <ul><li>**[!DNL Manage journeys]**: leia, crie, edite e exclua jornadas.</li><li>**[!DNL View journeys events]**: acesso somente leitura a eventos do jornada, ações personalizadas do jornada e fontes de dados do jornada.</li><li>**[!DNL View journeys report]**: leia, edite o relatório de jornadas.</li></ul> |
 | Gerenciamento de decisão | <ul><li>**[!DNL Manage decisions]**: leia, crie, edite e exclua entidades de decisão.</li><li>**[!DNL Manage ranking strategies]**: leia, crie, edite e exclua relatórios personalizados e use recursos de ação.</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**: leia, crie, edite e exclua definições de segmento.</li><li>**[!DNL Manage profiles]**: ler, criar, editar e excluir perfis.</li><li>**[!DNL Read datasets]**: acesso somente leitura a conjuntos de dados.</li><li>**[!DNL Read schemas]**: acesso somente leitura a esquemas.</li><li>**[!DNL Manage merge policies]**: ler, criar, editar e excluir políticas de mesclagem.</li></ul> |
-| Administração | <ul><li>**[!DNL View channel surfaces]**: acesso somente leitura às superfícies de canal.</li></ul> |
+| Configurações de canal | <ul><li>**[!DNL View channel surfaces]**: acesso somente leitura às superfícies de canal.</li></ul> |
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 

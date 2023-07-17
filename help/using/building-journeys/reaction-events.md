@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, eventos, reação, rastreamento, plataforma
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 21%
@@ -51,4 +51,4 @@ Estas são as diferentes etapas para configurar os eventos de reação:
 
 >[!IMPORTANT]
 >
->Clientes de email, como o Gmail, permitem o bloqueio de imagens. As aberturas de emails são rastreadas usando uma imagem de 0 pixel incluída no email. Se as imagens forem bloqueadas, as aberturas de email não serão consideradas.
+>Clientes de email, como o Gmail, permitem o bloqueio de imagens. As aberturas de email são rastreadas usando uma imagem de 0 pixel incluída no email. Se as imagens forem bloqueadas, as aberturas de email não serão consideradas.

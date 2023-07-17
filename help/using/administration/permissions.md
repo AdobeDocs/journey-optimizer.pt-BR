@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: produto, perfis, sandbox
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 8%
@@ -109,7 +109,7 @@ Para criar o nosso **Jornada somente leitura** **[!UICONTROL Função]**:
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. Selecione entre os diferentes recursos, como **[!DNL Journeys]**, **[!DNL Segments]** <!--CHECK--> ou **[!DNL Decision management]** disponível em [!DNL Journey Optimizer] listado no menu à esquerda.
+1. Selecione entre os diferentes recursos, como **[!DNL Journeys]**, **[!DNL Segments]** ou **[!DNL Decision management]** disponível em [!DNL Journey Optimizer] listado no menu à esquerda.
 
    Aqui selecionamos o **[!UICONTROL Jornadas]** recurso.
 

@@ -4,9 +4,9 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '2876'
+source-wordcount: '2949'
 ht-degree: 95%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 95%
 # Atualizações de documentação {#latest-updates}
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
+
+## Junho de 2023 {#june-2023}
+
+* Todos os novos recursos e aprimoramentos da versão de junho de 2023 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
+* Exemplos adicionais na ordem de critérios de avaliação foram adicionados à seção **Criar decisões** para ilustrar os casos em que vários critérios e escopos de decisão são usados. [Leia mais](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* A documentação da Gestão de decisões foi esclarecida com uma nota especificando que o uso do Controle de acesso em nível de objeto não está disponível para coleções dinâmicas. [Leia mais](../offers/offer-library/creating-collections.md)
 
 ## Maio de 2023 {#may-2023}
 
