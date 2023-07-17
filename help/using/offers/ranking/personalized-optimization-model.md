@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 1%
@@ -61,8 +61,8 @@ Basicamente, essa é a ideia de aprender e memorizar interações com caracterí
 
 O problema de partida a frio ocorre quando não há dados suficientes para fazer a recomendação. Para a personalização automática, há dois tipos de problemas de inicialização forçada.
 
-* **Após criar uma nova estratégia de classificação sem dados históricos**, as ofertas serão fornecidas aleatoriamente por um período para coletar dados e os dados serão usados para treinar o primeiro modelo.
-* **Depois que o primeiro modelo for lançado**, 10% do tráfego total será alocado para veiculação aleatória, enquanto 90% do tráfego será usado para recomendações de modelo. Portanto, se novas ofertas fossem adicionadas à estratégia de classificação, elas seriam entregues como parte dos 10% do tráfego. Os dados coletados nessas ofertas determinariam o número de vezes que são selecionados entre os 90% do tráfego à medida que o modelo continua a ser atualizado.
+* **Depois de criar um novo modelo de IA sem dados históricos**, as ofertas serão fornecidas aleatoriamente por um período para coletar dados e os dados serão usados para treinar o primeiro modelo.
+* **Depois que o primeiro modelo for lançado**, 10% do tráfego total será alocado para veiculação aleatória, enquanto 90% do tráfego será usado para recomendações de modelo. Portanto, se novas ofertas fossem adicionadas ao modelo de IA, elas seriam entregues como parte dos 10% do tráfego. Os dados coletados nessas ofertas determinariam o número de vezes que são selecionados entre os 90% do tráfego à medida que o modelo continua a ser atualizado.
 
 ## Retreinamento {#re-training}
 

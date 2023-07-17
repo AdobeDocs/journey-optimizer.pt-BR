@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 3%
@@ -315,7 +315,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 
   **Campo:** orderEvaluationType
   **Título:** Tipo de avaliação do pedido
-  **Descrição:** Especifica qual mecanismo de avaliação de ordem é usado, prioridade estática das opções de decisão, uma função de pontuação que calcula um valor numérico para cada opção ou uma estratégia de classificação que recebe uma lista para ordená-la.
+  **Descrição:** Especifica qual mecanismo de avaliação de pedido é usado, prioridade estática das opções de decisão, uma função de pontuação que calcula um valor numérico para cada opção ou um modelo de IA que recebe uma lista para ordená-lo.
   **Tipo:** sequência de caracteres
   **Valores possíveis:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 

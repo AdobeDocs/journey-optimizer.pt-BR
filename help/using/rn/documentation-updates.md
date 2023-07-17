@@ -4,7 +4,7 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '2949'
 ht-degree: 95%
@@ -182,7 +182,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * Todos os novos recursos e aprimoramentos da versão de janeiro de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
 * A seção **Classificações de IA do Offer Decisioning** foi atualizada com uma descrição mais detalhada do modelo de otimização automática. [Leia mais](../offers/ranking/auto-optimization-model.md)
-* Foi adicionada uma nova seção sobre os requisitos de esquema necessários para poder enviar tipos de evento ao usar uma estratégia de classificação. [Leia mais](../offers/data-collection/schema-requirement.md)
+* Foi adicionada uma nova seção sobre os requisitos de esquema necessários para poder enviar tipos de evento ao usar um modelo de IA. [Leia mais](../offers/data-collection/schema-requirement.md)
 * A seção relacionada aos recursos de personalização do [!DNL Journey Optimizer] foi reorganizada para melhorar a compreensão. [Leia mais](../personalization/personalize.md)
 * A seção **Criar predefinições de mensagem** foi dividida em várias seções para maior clareza. [Leia mais](../configuration/channel-surfaces.md#create-channel-surface)
 * A seção **Gerenciamento de opção de não participação** foi esclarecida e levemente reorganizada. [Leia mais](../privacy/opt-out.md#opt-out-management)

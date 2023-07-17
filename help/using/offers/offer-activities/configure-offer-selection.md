@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 6%
 
 ---
@@ -62,9 +62,9 @@ Se várias ofertas forem elegíveis para serem apresentadas neste posicionamento
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-Você também pode usar um sistema de modelo treinado que classifica automaticamente as ofertas para exibição em determinado perfil selecionando uma estratégia de classificação. Saiba como criar uma estratégia de classificação no [nesta seção](../ranking/create-ranking-strategies.md).
+Você também pode usar um sistema de modelo treinado que classifica automaticamente as ofertas para exibição em determinado perfil ao selecionar um modelo de IA. Saiba como criar um modelo de IA no [nesta seção](../ranking/create-ranking-strategies.md).
 
-Depois da criação de uma estratégia de classificação, é possível atribuí-la a uma inserção em uma decisão. Para fazer isso, siga as etapas abaixo:
+Depois que um modelo de IA é criado, é possível atribuí-lo a uma inserção em uma decisão. Para fazer isso, siga as etapas abaixo:
 
 1. Crie uma decisão ou edite uma existente. Consulte [Criar decisões](../offer-activities/create-offer-activities.md).
 
@@ -76,11 +76,11 @@ Depois da criação de uma estratégia de classificação, é possível atribuí
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
-1. Selecione a estratégia de classificação criada. Todos os detalhes da estratégia de classificação são exibidos.
+1. Selecione o modelo de IA criado. Todos os detalhes do modelo são exibidos.
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Clique em **[!UICONTROL Selecionar]**. A estratégia de classificação agora está associada à disposição.
+1. Clique em **[!UICONTROL Selecionar]**. O modelo de IA agora está associado à inserção.
 
 Se várias ofertas forem qualificadas, o sistema de modelo treinado determinará qual oferta deve ser apresentada primeiro para uma determinada inserção.
 
