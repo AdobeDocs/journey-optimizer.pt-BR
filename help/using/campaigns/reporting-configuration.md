@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configuração, experimentação, relatórios, otimizador
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
+source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '595'
 ht-degree: 43%
 
 ---
@@ -49,17 +49,19 @@ Antes de poder adicionar um conjunto de dados à configuração de relatórios, 
 
 * Você só pode adicionar conjuntos de dados do tipo evento.
 
-* Esses conjuntos de dados devem conter pelo menos um dos seguintes [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"}: **Detalhes do aplicativo**, **Detalhes do comércio**, **Detalhes da Web**.
+* Esses conjuntos de dados devem incluir a **Evento de experiência - Interações de apresentação** [grupo de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"}.
 
-   >[!NOTE]
-   >
-   >Somente esses grupos de campos são aceitos no momento.
+* Esses conjuntos de dados também podem conter um dos seguintes [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"}: **Detalhes do aplicativo**, **Detalhes do comércio**, **Detalhes da Web**.
 
-   Por exemplo, se você quiser saber o impacto de uma campanha de email nos dados de comércio, como compras ou pedidos, será necessário criar um conjunto de dados de evento de experiência com o **Detalhes do comércio** grupo de campos.
+  >[!NOTE]
+  >
+  >Outros grupos de campos também podem ser incluídos, mas somente os grupos de campos acima são compatíveis com os relatórios do Journey Optimizer no momento.
 
-   Da mesma forma, se quiser criar relatórios sobre interações móveis, será necessário criar um conjunto de dados de evento de experiência com o **Detalhes do aplicativo** grupo de campos.
+  Por exemplo, se você quiser saber o impacto de uma campanha de email nos dados de comércio, como compras ou pedidos, será necessário criar um conjunto de dados de evento de experiência com o **Detalhes do comércio** grupo de campos.
 
-   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
+  Da mesma forma, se quiser criar relatórios sobre interações móveis, será necessário criar um conjunto de dados de evento de experiência com o **Detalhes do aplicativo** grupo de campos.
+
+  <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * É possível adicionar esses grupos de campos a um ou vários esquemas que serão usados em um ou vários conjuntos de dados.
 
