@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 6%
+source-wordcount: '169'
+ht-degree: 5%
 
 ---
 
 # Acessar e gerenciar públicos-alvo {#access-manage-audiences}
+
+>[!BEGINSHADEBOX]
+
+Estas documentações fornecem informações detalhadas sobre como trabalhar com a composição de público-alvo no Adobe Journey Optimizer. Se você não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 Os públicos-alvo resultantes da composição do público-alvo podem ser acessados pelo **[!UICONTROL Procurar]** na guia **[!UICONTROL Públicos-alvo]** menu.
 

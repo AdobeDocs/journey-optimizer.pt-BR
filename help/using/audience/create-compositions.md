@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '410'
 ht-degree: 8%
 
 ---
 
 # Criar seu primeiro fluxo de trabalho de composição {#create-compositions}
+
+>[!BEGINSHADEBOX]
+
+Estas documentações fornecem informações detalhadas sobre como trabalhar com a composição de público-alvo no Adobe Journey Optimizer. Se você não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 ## Criar um fluxo de trabalho de composição {#create}
 

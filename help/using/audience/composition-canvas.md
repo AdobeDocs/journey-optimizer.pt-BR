@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 30%
+source-wordcount: '1415'
+ht-degree: 29%
 
 ---
 
 # Trabalhar com a tela de composição {#composition-canvas}
+
+>[!BEGINSHADEBOX]
+
+Estas documentações fornecem informações detalhadas sobre como trabalhar com a composição de público-alvo no Adobe Journey Optimizer. Se você não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 A composição de público-alvo fornece uma tela visual que permite criar públicos-alvo e usar várias atividades (dividir, enriquecer etc.).
 
@@ -137,9 +143,11 @@ A variável **[!UICONTROL Excluir]** A atividade permite excluir perfis da sua c
 
 A variável **[!UICONTROL Enriquecer]** A atividade permite enriquecer seu público-alvo com atributos adicionais provenientes de conjuntos de dados da Adobe Experience Platform. Por exemplo, é possível adicionar informações relacionadas ao produto comprado, como nome, preço ou ID do fabricante e aproveitar essas informações para personalizar as entregas enviadas ao público-alvo.
 
->[!IMPORTANT]
->
->Por enquanto, os rótulos no conjunto de dados, no nível do conjunto de dados ou no nível do campo, não são propagados para o público recém-criado. Isso pode afetar o controle de acesso e/ou o controle de dados do público-alvo resultante. Por esse motivo, use somente dados de teste ao compor públicos-alvo.
+Observe as seguintes limitações ao trabalhar com o **[!UICONTROL Enriquecer]** atividade:
+
+* **Conjuntos de dados** para enriquecimento deve ser do tipo de registro (em vez do tipo de evento), e não podem ser um conjunto de dados do sistema, nem podem ser marcados para perfil. Eles devem ter menos de 1 GB.
+* **O enriquecimento suporta uma associação 1:1**. Isso significa que se as chaves de junção tiverem mais de uma correspondência no conjunto de dados de enriquecimento, o sistema selecionará uma das correspondências e a usará para a associação 1:1.
+* **Os públicos-alvo podem ser ativados em destinos RTCDP**, mas seus atributos de enriquecimento, se houver, não poderão.
 
 Para configurar a atividade, siga estas etapas:
 
