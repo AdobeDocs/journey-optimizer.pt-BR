@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 208934b120d5273efc0a34ff35c254b819a84f3c
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2087'
 ht-degree: 2%
 
 ---
@@ -83,7 +83,7 @@ Da sua jornada **[!UICONTROL Relatório global]**, o **[!UICONTROL E-mail]** A g
 
 A variável **[!UICONTROL Estatísticas de envio de email]** O gráfico detalha o sucesso do seu delivery:
 
-* **[!UICONTROL Direcionado]**: Número de perfis direcionados pelo Journey Orchestration do Adobe para qualquer ação, como enviar email ou SMS.
+* **[!UICONTROL Direcionado]**: Número de perfis direcionados para qualquer ação, como enviar email ou SMS.
 
 * **[!UICONTROL Enviado]**: Número total de envios para o delivery.
 
@@ -193,7 +193,7 @@ Da sua jornada **[!UICONTROL Relatório global]**, o **[!UICONTROL Notificação
 
 A variável **[!UICONTROL Notificação por push - Estatísticas de envio]** A tabela detalha as principais informações relativas às notificações por push com gráfico e KPIs:
 
-* **[!UICONTROL Direcionado]**: Número de perfis direcionados pelo Journey Orchestration do Adobe para qualquer ação, como enviar email ou SMS.
+* **[!UICONTROL Direcionado]**: Número de perfis direcionados para qualquer ação, como enviar email ou SMS.
 
 * **[!UICONTROL Enviado]**: Número total de envios para o delivery.
 
