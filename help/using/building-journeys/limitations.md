@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornadas, limitação
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: aced11ffd80bcc0d79ef2e094b05dde8cb9a6248
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 62%
@@ -20,7 +20,7 @@ ht-degree: 62%
 
 Estas são as limitações relacionadas ao uso de jornadas do.
 
-## Limitações gerais de ações
+## Limitações gerais de ações {#action-limitations}
 
 * Não há limitação de envio. 
 * Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. 
@@ -35,7 +35,7 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 * A regra de reentrada deve ser a mesma em todas as versões da jornada.
 * Uma jornada que começa com um **Ler público-alvo** O não pode começar com outro evento nas próximas versões.
  
-## Limitações de ações personalizadas
+## Limitações de ações personalizadas {#custom-actions-limitations}
 
 * O URL de ação personalizada não aceita parâmetros dinâmicos. 
 * Somente os métodos de chamada POST e PUT são compatíveis. 
@@ -43,11 +43,11 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 * Endereços IP não são permitidos. 
 * Endereços da Adobe internos (.adobe.) não são permitidos.
  
-## Limitações de eventos
+## Limitações de eventos {#events-limitations}
 
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra no Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
  
-## Limitações das fontes de dados
+## Limitações das fontes de dados {#data-sources-limitations}
 
 * As fontes de dados externas podem ser aproveitadas em uma jornada do cliente para pesquisar dados externos em tempo real. Essas fontes devem ser utilizáveis por meio da API REST, devem ser compatíveis com JSON e poder lidar com o volume de solicitações.
 
@@ -63,6 +63,6 @@ Você pode escolher uma dessas duas soluções:
 
 * Configure uma jornada que não use o perfil imediatamente. Por exemplo, se a jornada for projetada para confirmar a criação de uma conta, o evento da experiência pode conter informações necessárias para enviar a primeira mensagem de confirmação (nome, sobrenome, endereço de email etc).
 
-## Ler limitações de público
+## Ler limitações de público {#read-audiences-limitations}
 
 * Os públicos-alvo transmitidos estão sempre atualizados, mas os públicos-alvo em lote não serão calculados no momento da recuperação. Só são avaliados diariamente no momento da avaliação diária do lote.
