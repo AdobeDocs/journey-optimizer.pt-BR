@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
+source-git-commit: dfee69e3573bed6029a0e12fbf4d16c169686683
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 29%
+source-wordcount: '1417'
+ht-degree: 27%
 
 ---
 
@@ -139,7 +139,7 @@ A variável **[!UICONTROL Excluir]** A atividade permite excluir perfis da sua c
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="Atributos de enriquecimento"
->abstract="Selecione um ou vários atributos do conjunto de dados de enriquecimento para associar ao público. Depois que a composição é publicada, esses atributos são associados ao público e podem ser aproveitados em campanhas para personalizar entregas."
+>abstract="Selecione um ou vários atributos do conjunto de dados de enriquecimento para associar ao público. Depois que a composição é publicada, esses atributos são associados ao público-alvo e podem ser aproveitados em campanhas do Journey Optimizer para personalizar os deliveries."
 
 A variável **[!UICONTROL Enriquecer]** A atividade permite enriquecer seu público-alvo com atributos adicionais provenientes de conjuntos de dados da Adobe Experience Platform. Por exemplo, é possível adicionar informações relacionadas ao produto comprado, como nome, preço ou ID do fabricante e aproveitar essas informações para personalizar as entregas enviadas ao público-alvo.
 
