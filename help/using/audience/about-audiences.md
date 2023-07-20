@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
 >title="Público-alvo"
->abstract="Ao utilizar os dados de Perfil do cliente em tempo real, o Adobe Experience Platform permite que você crie facilmente definições de segmento para criar públicos-alvo direcionados que capturem os comportamentos e preferências exclusivos de seus clientes."
+>abstract="Ao aproveitar os dados do perfil do cliente em tempo real, a Adobe Experience Platform permite gerar definições de segmentos com facilidade para criar públicos-alvo que capturam os comportamentos e preferências individuais de seus clientes."
 
 [!DNL Journey Optimizer] O permite criar e aproveitar públicos-alvo da Adobe Experience Platform usando dados do Perfil do cliente em tempo real diretamente da **[!UICONTROL Públicos-alvo]** e use-as em suas jornadas ou campanhas.
 

@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 84%
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campanhas"
->abstract="Crie campanhas para fornecer conteúdo único a um público específico em vários canais. Antes de criar sua campanha, verifique se você tem uma superfície de canal (ou seja, predefinição de mensagem) e um público-alvo da Adobe Experience Platform pronto para uso."
+>abstract="Crie campanhas para fornecer conteúdo único a um público-alvo específico em vários canais. Antes de criar a campanha, verifique se você tem uma superfície de canal (ou seja, uma predefinição de mensagem) e um público-alvo da Adobe Experience Platform prontos para uso."
 
 Use campanhas do Journey Optimizer para fornecer conteúdo único a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado.
 

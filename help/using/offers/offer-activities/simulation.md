@@ -9,7 +9,7 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -50,7 +50,7 @@ Para acessar esse recurso, selecione a variável **[!UICONTROL Simulação]** na
 >id="ajo_decisioning_simulation_test_profile"
 >title="Adicionar perfis de teste"
 >abstract="Você pode adicionar um perfil de teste selecionando um namespace de identidade e um valor de identidade correspondente. Você deve ter perfis de teste já disponíveis para usá-los na simulação."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="Criar perfis de teste"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=pt-BR" text="Criar perfis de teste"
 
 Primeiro, é necessário selecionar os perfis de teste que você usará para simulação.
 

@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -64,7 +64,7 @@ Por exemplo, se você definir as seguintes restrições:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="Definir elegibilidade"
->abstract="Por padrão, qualquer perfil poderá receber a oferta, mas você poderá usar públicos ou regras de decisão para restringir a oferta a perfis específicos."
+>abstract="Por padrão, qualquer perfil estará qualificado para receber a oferta, mas você pode usar públicos-alvo ou regras de decisão para restringir a oferta a perfis específicos."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -75,7 +75,7 @@ Por exemplo, se você definir as seguintes restrições:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="Estimativa total de perfis"
->abstract="Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados."
+>abstract="Ao selecionar públicos-alvo ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados."
 
 A variável **[!UICONTROL Elegibilidade da oferta]** permite restringir a oferta a perfis específicos que você define usando públicos ou regras de decisão.
 
@@ -101,7 +101,7 @@ A variável **[!UICONTROL Elegibilidade da oferta]** permite restringir a oferta
   >
   >No momento, as ofertas baseadas em eventos não são compatíveis com o [!DNL Journey Optimizer]. Se você criar uma regra de decisão com base em uma [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, você não poderá aproveitá-lo em uma oferta.
 
-Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
+Ao selecionar públicos-alvo ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 

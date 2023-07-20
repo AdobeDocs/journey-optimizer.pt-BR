@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
->title="Atividade Ler público"
->abstract="A atividade Ler público-alvo permite fazer com que todos os indivíduos pertencentes a um público-alvo do Adobe Experience Platform insiram uma jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente."
+>title="Atividade Ler público-alvo"
+>abstract="A atividade Ler público-alvo permite que todas as pessoas pertencentes a um público-alvo da Adobe Experience Platform entrem em uma jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente."
 
 Use o **Ler público-alvo** atividade para fazer com que todos os indivíduos de um público-alvo entrem na jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente.
 
