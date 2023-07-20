@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4d59989a32096190aec770364467a0a6fe31888f
+source-git-commit: 73ef16b03f76b61da95b48a411b07854c59c6487
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1626'
 ht-degree: 8%
 
 ---
@@ -101,7 +101,8 @@ Para criar uma superfície de canal, siga estas etapas:
    > Ao criar uma superfície de email para um subdomínio, o tempo de processamento varia conforme detalhado abaixo:
    >
    > * Para **novos subdomínios**, o processo de criação da primeira superfície de canal pode levar **10 minutos a 10 dias**.
-   > * Para **sandboxes de não produção** ou se o subdomínio selecionado for **já usado** em outra superfície de canal, o processo leva apenas **3 horas**.
+   > * Para **sandboxes de não produção** ou se o subdomínio selecionado for **já usado** em outra superfície de canal aprovada, o processo leva apenas até **3 horas**.
+
 
    Essas verificações incluem os testes técnicos e de configuração realizados pela equipe do Adobe:
 
