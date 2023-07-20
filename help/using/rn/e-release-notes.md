@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão anteriores do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
+source-git-commit: 1cfa4484329355310205421072af65f5dec32b5b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 22%
+source-wordcount: '626'
+ht-degree: 25%
 
 ---
 
@@ -55,9 +55,10 @@ Essa versão traz os novos recursos listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>A Adobe Journey Optimizer está expandindo seus recursos entre canais adicionando suporte para canal de mala direta. A correspondência direta é um canal offline que permite personalizar e gerar os arquivos de extração necessários para os provedores de correspondência direta enviarem emails para seus clientes.</p>
-<!--img src="assets/do-not-localize/web-authoring.gif"/>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p-->
+<p>Agora você pode adicionar mensagens de correspondência direta em suas campanhas e jornadas. Correspondência direta é um canal offline que permite personalizar e gerar os arquivos exigidos por provedores de correspondência direta para enviar mensagens para seus clientes.</p>
+<p>Quando você prepara um delivery direto de mala direta, o Journey Optimizer gera um arquivo incluindo todos os perfis do target e as informações de contato escolhidas (endereço postal por exemplo). Você poderá enviar esse arquivo para seu provedor de correspondência direta que irá cuidar realmente do envio.</p>
+<img src="../direct-mail/assets/direct-mail-properties.png">
+<p>Para obter mais informações, consulte a <a href="../direct-mail/create-direct-mail.md">documentação detalhada</a>.</p>
 </tr>
 </tbody>
 </table>
