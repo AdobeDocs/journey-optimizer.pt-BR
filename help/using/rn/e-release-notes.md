@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão anteriores do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: b677776becaabc15c85be0a5a46b741cebb9d87b
+source-git-commit: c9e8088cd460992b0c84e3e14e63c2388fa94fd1
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 25%
+source-wordcount: '617'
+ht-degree: 26%
 
 ---
 
@@ -90,7 +90,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Agora você pode atribuir Tags unificadas do Adobe Experience Platform a suas páginas de aterrissagem, modelos, fragmentos de conteúdo e listas de assinaturas, além de campanhas e jornadas. Isso permite classificá-los facilmente e melhorar a pesquisa e a navegação em todas as listas. No momento, esse recurso está disponível na disponibilidade geral.</p>
+<p>Além de campanhas e jornadas, agora é possível atribuir Tags unificadas do Adobe Experience Platform às suas páginas de aterrissagem, modelos, fragmentos de conteúdo e listas de assinaturas. Isso permite classificá-los facilmente e melhorar a pesquisa e a navegação em todas as listas. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Para obter mais informações, consulte a <a href="../start/search-filter-categorize.md#tags">documentação detalhada</a>.</p>
 </td>
@@ -103,6 +103,16 @@ Essa versão traz os novos recursos listados abaixo.
 
 Esta versão vem com as melhorias listadas abaixo.
 
+**Jornadas**
+
+* Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas.
+
+
+**Campanhas**
+
+* Eventos contextuais relacionados a campanhas agora estão disponíveis para uso no menu &quot;Contextual attributes&quot; do editor de personalização.
+
+
 **Públicos-alvo**
 
 Foram feitos aprimoramentos no seletor de público em jornadas ou campanhas, com a adição de novas colunas que exibem a origem e a frequência de atualização dos públicos.
@@ -114,13 +124,4 @@ Com o lançamento do portal Composição de público-alvo, a Adobe Experience Pl
 
 Como resultado, na na interface do Adobe Journey Optimizer e da Adobe Experience Platform, “Segmentos” será substituído por “Públicos-alvo” para refletir esse novo caminho de criação e gerenciamento de público-alvo.
 
-
-**Jornadas**
-
-* Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas.
-
-
-**Campanhas**
-
-* Eventos contextuais relacionados a campanhas agora estão disponíveis para uso no menu &quot;Contextual attributes&quot; do editor de personalização.
 
