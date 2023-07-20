@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 729150262a1e6823349e8025a1632dd37968bde9
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1623'
 ht-degree: 8%
 
 ---
@@ -30,7 +30,6 @@ Com [!DNL Journey Optimizer], você pode configurar superfícies de canal (ou se
 > * Para criar, editar e excluir superfícies de canal, você deve ter a [Gerenciar superfície de canal](../administration/high-low-permissions.md#manage-channel-surface) permissão.
 >
 > * Você deve executar o [Configuração de email](../email/get-started-email-config.md), [Configuração de push](../push/push-configuration.md) e [Configuração de SMS](../sms/sms-configuration.md) etapas antes de criar superfícies de canal.
-
 
 Depois que as superfícies de canal forem configuradas, você poderá selecioná-las ao criar mensagens de uma jornada ou campanha.
 
@@ -99,7 +98,10 @@ Para criar uma superfície de canal, siga estas etapas:
    Durante essa etapa, várias verificações serão executadas para verificar se ela foi configurada corretamente. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   >Ao criar a primeira superfície de email para um determinado subdomínio, o tempo de processamento pode levar **10 minutos a 10 dias**. Se o subdomínio selecionado já estiver sendo usado em outra superfície de email, levará apenas até 3 horas.
+   > Ao criar uma superfície de email para um subdomínio, o tempo de processamento varia, conforme detalhado abaixo:
+   >
+   > * Para novos subdomínios, o processo de criação da primeira superfície de canal pode levar **10 minutos a 10 dias**.
+   > * Para **sandboxes de não produção** ou se o subdomínio selecionado for **já usado** em outra superfície de canal, o processo leva apenas 3 horas.
 
    Essas verificações incluem os testes técnicos e de configuração realizados pela equipe do Adobe:
 
