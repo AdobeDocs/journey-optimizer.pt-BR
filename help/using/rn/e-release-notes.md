@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão anteriores do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 88dff30c5128884ba72ba64cf8ca9ceb460ed4ca
+source-git-commit: 1cfca1884bc35c93d36137b190e3062aa0d0de33
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 25%
+source-wordcount: '616'
+ht-degree: 23%
 
 ---
 
@@ -55,7 +55,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Agora você pode adicionar mensagens de correspondência direta em suas campanhas e jornadas. Correspondência direta é um canal offline que permite personalizar e gerar os arquivos exigidos por provedores de correspondência direta para enviar mensagens para seus clientes.</p>
+<p>Agora você pode adicionar mensagens de correspondência direta em suas campanhas. Correspondência direta é um canal offline que permite personalizar e gerar os arquivos exigidos por provedores de correspondência direta para enviar mensagens para seus clientes.</p>
 <p>Quando você prepara um delivery direto de mala direta, o Journey Optimizer gera um arquivo incluindo todos os perfis do target e as informações de contato escolhidas (endereço postal por exemplo). Você poderá enviar esse arquivo para seu provedor de correspondência direta que irá cuidar realmente do envio.</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
 <p>Para obter mais informações, consulte a <a href="../direct-mail/create-direct-mail.md">documentação detalhada</a>.</p>
@@ -90,7 +90,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Além de campanhas e jornadas, agora é possível atribuir Tags unificadas do Adobe Experience Platform às suas páginas de aterrissagem, modelos, fragmentos de conteúdo e listas de assinaturas. Isso permite classificá-los facilmente e melhorar a pesquisa e a navegação em todas as listas. </p>
+<p>Além de campanhas e jornadas, agora é possível atribuir Tags unificadas do Adobe Experience Platform às suas páginas de aterrissagem, modelos de conteúdo, fragmentos e listas de assinatura. Isso permite classificá-los facilmente e melhorar a pesquisa e a navegação em todas as listas. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Para obter mais informações, consulte a <a href="../start/search-filter-categorize.md#tags">documentação detalhada</a>.</p>
 </td>
@@ -105,7 +105,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Jornadas**
 
-* Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas.
+<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando uma ação personalizada falhar.
 
 
