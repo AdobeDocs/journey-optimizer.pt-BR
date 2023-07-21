@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1177'
 ht-degree: 5%
 
 ---
@@ -170,8 +170,6 @@ A variável **[!UICONTROL SMS - Estatísticas de envio]** a tabela detalha o suc
 
 * **[!UICONTROL Enviado]**: Número total de envios para o delivery.
 
-* **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito.
-
 * **[!UICONTROL Aberturas]**: Número de vezes que uma mensagem foi aberta em um delivery.
 
 * **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em um delivery.
@@ -181,8 +179,6 @@ A variável **[!UICONTROL SMS - Estatísticas de envio]** a tabela detalha o suc
 * **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
 
 A variável **[!UICONTROL Resumo do SMS]** O gráfico detalha o sucesso do seu delivery:
-
-* **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito.
 
 * **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processamento de delivery e retorno automático.
 
