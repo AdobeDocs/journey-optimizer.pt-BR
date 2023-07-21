@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão anteriores do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 1cfca1884bc35c93d36137b190e3062aa0d0de33
+source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 23%
+source-wordcount: '740'
+ht-degree: 20%
 
 ---
 
@@ -26,6 +26,23 @@ As notas de versão anteriores abaixo estão sujeitas a alterações sem aviso p
 ### Novos recursos{#july-2023-features}
 
 Essa versão traz os novos recursos listados abaixo.
+
+<table>
+<thead>
+<tr>
+<th><strong>APIs de modelos de conteúdo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível criar e gerenciar modelos de conteúdo do Adobe Journey Optimizer usando APIs dedicadas, fornecendo uma integração perfeita com seu sistema de conteúdo existente.</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -109,7 +126,6 @@ Esta versão vem com as melhorias listadas abaixo.
 * Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando uma ação personalizada falhar.
 
 
-
 **Campanhas**
 
 * Eventos contextuais relacionados a campanhas agora estão disponíveis para uso no menu &quot;Contextual attributes&quot; do editor de personalização.
@@ -126,5 +142,15 @@ Com o lançamento do portal Composição de público-alvo, a Adobe Experience Pl
 
 Como resultado, na na interface do Adobe Journey Optimizer e da Adobe Experience Platform, “Segmentos” será substituído por “Públicos-alvo” para refletir esse novo caminho de criação e gerenciamento de público-alvo.
 
+**APIs**
+
+Autenticação de APIs do Adobe Journey Optimizer - O método JWT para gerar tokens de acesso foi descontinuado. Todas as novas integrações devem ser criadas usando o método de autenticação OAuth de servidor para servidor. A Adobe também recomenda migrar suas integrações existentes para o método OAuth. [Saiba mais](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
 
 
+**Outras alterações**
+
+A exportação de conjuntos de dados do Journey Optimizer para Destinos de armazenamento na nuvem agora está disponível para todos os clientes. Esse recurso permite estabelecer uma conexão ativa com locais de armazenamento na nuvem para exportar o conteúdo de seus conjuntos de dados. [Saiba mais](../data/export-datasets.md)
+
+>[!AVAILABILITY]
+>
+>No momento, esse recurso está na versão beta e está sujeito a alterações.</p>
