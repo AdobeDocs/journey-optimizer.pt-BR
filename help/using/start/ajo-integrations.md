@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Saiba mais sobre o [Journey Optimizer + Customer Journey Analytics](../reports/c
 
 ## Adobe Analytics{#integration-aa}
 
-Você pode aproveitar todos os dados de evento comportamentais do Adobe Analytics que já estão sendo capturados e transmitidos à Adobe Experience Platform para acionar jornadas em tempo real e automatizar as experiências de seus clientes. Esses dados também podem ser usados para criar públicos-alvo que podem ser envolvidos usando o Journey Optimizer.
+Você pode aproveitar todos os dados de evento comportamentais do Adobe Analytics que já estão sendo capturados e transmitidos à Adobe Experience Platform para acionar jornadas em tempo real e automatizar as experiências de seus clientes. Esses dados também podem ser usados para criar públicos-alvo que podem ser engajados usando o Journey Optimizer.
 
 Saiba mais sobre o [Journey Optimizer + Analytics](../event/about-analytics.md).
 
