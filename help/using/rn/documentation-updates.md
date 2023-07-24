@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '2949'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -48,7 +48,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Adição de uma etapa para ativar os eventos do Adobe Analytics em suas jornadas. [Leia mais](../event/about-analytics.md)
 * Uma nova seção foi criada no guia da gestão de decisões sobre como coletar feedback das definições de ofertas na Adobe Experience Platform, incluindo quais ofertas são exibidas e como os usuários interagem com elas. [Leia mais](../offers/data-collection/data-collection.md)
 * Uma nova subseção foi adicionada à seção **Criar decisão** para explicar a diferença entre avaliar critérios em uma ordem sequencial ou simultaneamente. [Leia mais](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* Uma garantia foi adicionada para jornadas de público-alvo de leitura com leitura incremental. Não é possível criar uma nova versão. É necessário duplicar a jornada. [Leia mais](../start/guardrails.md#journey-versions-g)
+* Uma medida de proteção foi adicionada para jornadas de público-alvo de leitura com leitura incremental. Não é possível criar uma nova versão. É necessário duplicar a jornada. [Leia mais](../start/guardrails.md#journey-versions-g)
 
 ## Fevereiro de 2023 {#feb-2023}
 
@@ -94,7 +94,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 ## Setembro de 2022 {#september-2022}
 
 * Todos os novos recursos e aprimoramentos da versão de setembro de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
-* Adição de uma prática recomendada relacionada ao uso de atividades de espera em jornadas de leitura de público recorrentes. [Leia mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* Adição de uma prática recomendada relacionada ao uso de atividades de espera em jornadas de público-alvo de leitura recorrentes. [Leia mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * Adição de novos exemplos de consulta de evento de etapa, bem como informações sobre a diferença entre id, instanceid e profileid. [Leia mais](../reports/query-examples.md).
 * Atualização das páginas relacionadas às funções [toDateOnly](../building-journeys/functions/functiontodateonly.md) e [toString](../building-journeys/functions/functiontostring.md).
 * Adição de detalhes sobre os parâmetros da condição de tempo. [Leia mais](../building-journeys/condition-activity.md#time_condition)
@@ -109,7 +109,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Todos os novos recursos e aprimoramentos chegando com a versão de agosto de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
 * A seção Regras de frequência foi atualizada para refletir o novo fluxo de mensagens integrado. [Leia mais](../configuration/frequency-rules.md#apply-frequency-rule)
 * Um vídeo que mostra como configurar assinaturas e criar páginas de destino agora é referenciado na seção Introdução às páginas de destino. [Leia mais](../landing-pages/get-started-lp.md#video)
-* Uma limitação foi adicionada para jornadas que usam atividades Ler público. [Leia mais](../building-journeys/read-audience.md)
+* Uma limitação foi adicionada para jornadas que usam atividades de público-alvo de leitura. [Leia mais](../building-journeys/read-audience.md)
 * A página de operadores do editor de expressão foi aprimorada. [Leia mais](../building-journeys/expression/operators.md)
 * Uma seção sobre como programar uma campanha foi adicionada. [Leia mais](../campaigns/create-campaign.md)
 * A seção de regras de sintaxe gerais do editor de expressão foi atualizada para considerar a nova regra relacionada ao escape do símbolo de barra invertida em funções literais. As mensagens publicadas existentes não são afetadas por essa alteração. Somente as mensagens novas ou de rascunho devem ser atualizadas. [Leia mais](../personalization/personalization-syntax.md#general-rules)
@@ -120,7 +120,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * A seção **Criar superfícies de canal** foi esclarecida e atualizada com links para a página que descreve como configurar o canal de SMS. [Leia mais](../configuration/channel-surfaces.md#create-channel-surface)
 * Nas propriedades da jornada, a opção **Fuso horário do perfil** agora está desativada por padrão. [Leia mais](../building-journeys/timezone-management.md#timezone-from-profiles)
 * Na atividade **Aguardar**, a opção **Data fixa** não está mais disponível. [Leia mais](../building-journeys/wait-activity.md)
-* Foram adicionadas mais informações sobre o **Leitura incremental** opção no **Ler público** atividade. [Leia mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* Foram adicionadas mais informações sobre a opção **Leitura incremental** na atividade de **público-alvo de leitura**. [Leia mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * Recomendações adicionadas sobre o tipo de condição **Limite de perfil**. [Leia mais](../building-journeys/condition-activity.md#profile_cap)
 * Adição de uma limitação em eventos comerciais. [Leia mais](../start/guardrails.md#events-g)
 
@@ -142,7 +142,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 ## Maio de 2022 {#may-2022}
 
 * Todos os novos recursos e aprimoramentos da versão de maio de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
-* Novos exemplos de consulta relacionados a [qualificação de público](../reports/query-examples.md#segment-qualification-queries) e [events](../reports/query-examples.md#event-based-queries) foram adicionadas.
+* Foram adicionados novos exemplos de consulta relacionados a [qualificação de público-alvo](../reports/query-examples.md#segment-qualification-queries) e [eventos](../reports/query-examples.md#event-based-queries).
 * A seção de design de email agora menciona novos modelos integrados disponíveis para iniciar o conteúdo. As capturas de tela relacionadas foram atualizadas. [Leia mais](../email/get-started-email-design.md)
 * Os links para recursos principais foram atualizados na página inicial da documentação do Journey Optimizer.
 * As capturas de tela para relatórios de página de destino e subscrição foram atualizadas. [Leia mais](../reports/live-report.md)
@@ -166,7 +166,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * Todos os novos recursos e aprimoramentos da versão de março de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Saiba mais](release-notes.md)
 * Uma nova página de introdução aos modelos de IA foi adicionada à seção **Offer Decisioning**, incluindo uma descrição completa do [modelo de otimização automática](../offers/ranking/auto-optimization-model.md), o algoritmo que ele utiliza, entre outros detalhes técnicos. [Saiba mais](../offers/ranking/ai-models.md)
-* A página de criação do perfil de teste foi movida para a  **Público, perfis e identidade** seção. [Saiba mais](../audience/creating-test-profiles.md)
+* A página de criação do perfil de teste foi movida para a seção **Público-alvo, perfis e identidade**. [Saiba mais](../audience/creating-test-profiles.md)
 * Adição de um exemplo sobre como adicionar uma expressão como valor padrão no editor de expressão. [Saiba mais](../building-journeys/expression/field-references.md#default-value)
 * A seção **Criar ofertas personalizadas** foi reorganizada para melhorar a leitura. [Saiba mais](../offers/offer-library/creating-personalized-offers.md)
 * Uma nova seção foi adicionada para descrever os impactos que a alteração das datas de início e/ou término de uma oferta pode ter no limite de frequência dessa oferta. [Saiba mais](../offers/offer-library/add-constraints.md#capping-change-date)
@@ -232,7 +232,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * Agora, todos os recursos da Gestão de decisões descritos na seção dedicada também se aplicam aos usuários da Adobe Experience Platform que usam o serviço de aplicativos do Offer Decisioning. [Leia mais](../offers/get-started/starting-offer-decisioning.md)
 
-* Subseção adicionada para esclarecer as diferenças entre o uso de públicos-alvo versus regras de decisão ao aplicar uma restrição para restringir a seleção de ofertas para um determinado posicionamento. [Leia mais](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+* Subseção adicionada para elucidar as diferenças entre o uso de públicos-alvo e o uso de regras de decisão ao aplicar uma restrição contra a seleção de ofertas para um determinado posicionamento. [Leia mais](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
 * Exemplos específicos de fórmulas de classificação adicionados para ilustrar alguns casos de uso reais. [Leia mais](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
@@ -269,7 +269,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Subseção sobre mirror pages adicionada. [Leia mais](../email/message-tracking.md#mirror-page)
 * As &quot;atividades de oferta&quot; foram renomeadas como &quot;decisões&quot;, e as &quot;decisões&quot; como &quot;escopos de decisão&quot; na documentação e nas telas. [Leia mais](../offers/get-started/starting-offer-decisioning.md)
 * Novo caso de uso: [personalizar uma mensagem com funções auxiliares](../personalization/personalization-use-case-helper-functions.md)
-* Atualização da documentação sobre Ler público para refletir os impactos materializados sobre segmentos. [Leia mais](../building-journeys/read-audience.md)
+* Atualização da documentação relativa a público-alvo de leitura para refletir os impactos materializados sobre segmentos. [Leia mais](../building-journeys/read-audience.md)
 * Limitações da jornada atualizadas. [Leia mais](../start/guardrails.md)
 * Seleção Configurar ofertas atualizada na seção de decisões. [Leia mais](../offers/offer-activities/configure-offer-selection.md)
 * Adicionado um aviso para mencionar que as ofertas baseadas em eventos não são compatíveis no momento. [Leia mais](../offers/offer-library/creating-personalized-offers.md#eligibility)

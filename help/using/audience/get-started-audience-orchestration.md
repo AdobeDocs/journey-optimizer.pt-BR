@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 657bed1a3419fd536c5a80f3b9fc8d7c52ae1325
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 78%
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-Estas documentações fornecem informações detalhadas sobre como trabalhar com a composição de público-alvo no Adobe Journey Optimizer. Se você for um cliente somente do Perfil do cliente em tempo real e não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html).
+Estas documentações fornecem informações detalhadas sobre como trabalhar com a composição de público-alvo no Adobe Journey Optimizer. Se você for um cliente somente do Perfil do cliente em tempo real e não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=pt-BR).
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +40,11 @@ Depois de concluído, os **públicos resultantes** são salvos na Adobe Experien
 >
 >As campanhas no Adobe Journey Optimizer ainda não estão integradas ao serviço de aplicação de políticas. Portanto, os rótulos de uso de dados que você aplicar aos atributos de público-alvo não serão aplicados às campanhas do Journey Optimizer.
 
-A composição de público-alvo pode ser acessada no Adobe Journey Optimizer **[!UICONTROL Públicos-alvo]** menu:
+A composição de público-alvo é acessível no menu **[!UICONTROL Públicos-alvo]** do Adobe Journey Optimizer:
 
 ![](assets/audiences-browse.png)
 
-* A variável **[!UICONTROL Visão geral]** A guia fornece um painel dedicado com métricas principais relacionadas aos dados de público-alvo de sua organização. Para saber mais, consulte [Guia de painéis da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=pt-BR).
+* A guia **[!UICONTROL Visão geral]** fornece um painel dedicado com métricas principais relacionadas aos dados de público-alvo da sua organização. Para saber mais, consulte [Guia de painéis da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=pt-BR).
 
 * A guia **[!UICONTROL Procurar]** lista todos os públicos existentes armazenados na Adobe Experience Platform.
 
