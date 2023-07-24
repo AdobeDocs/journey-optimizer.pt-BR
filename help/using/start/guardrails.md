@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: e0f2a96054886737861e261173f68933cab56e99
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1119'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 
 ### Versões de jornada {#journey-versions-g}
 
-* Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um **Qualificação do público-alvo** evento.
-* Uma jornada que começa com um **Qualificação do público-alvo** a atividade em v1 sempre deve começar com um **Qualificação do público-alvo** em outras versões.
-* O público-alvo e o namespace escolhidos em **Qualificação do público-alvo** (primeiro nó) não pode ser alterado em novas versões.
-* A regra de reentrada deve ser a mesma em todas as versões da jornada.
-* Uma jornada que começa com um **Ler público-alvo** O não pode começar com outro evento nas próximas versões.
+* Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação de público-alvo**.
+* Uma jornada que começa com uma atividade de **Qualificação de público-alvo** em v1 deve sempre começar com uma **Qualificação de público-alvo** em outras versões.
+* O público-alvo e o namespace escolhidos na **Qualificação de público-alvo** (primeiro nó) não podem ser alterados em novas versões.
+* A regra de reentrada precisa ser a mesma em todas as versões da jornada.
+* Uma jornada que começa com um **Público-alvo de leitura** não pode começar com outro evento nas próximas versões.
 * Não é possível criar uma nova versão de uma jornada de público-alvo de leitura com leitura incremental. Você precisa duplicar a jornada.
 
 ### Ações personalizadas {#custom-actions-g}
@@ -76,9 +76,9 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 ### Eventos {#events-g}
 
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
-* Os eventos comerciais não podem ser usados juntamente com eventos unitários ou atividades de qualificação de público-alvo.
-* As jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) incluem uma proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. A reentrada do perfil é temporariamente bloqueada por padrão por 5 minutos. Por exemplo, se um evento acionar uma jornada às 12h01 para um perfil específico e outra chegar às 12h03 (se for o mesmo evento ou outro acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
-* O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço principal de coleção de dados (DCCS) para acionar uma jornada. Eventos assimilados em lote ou eventos de conjuntos de dados internos do Journey Optimizer (feedback de mensagem, rastreamento de email etc.) não podem ser usados para acionar uma jornada. Para casos de uso nos quais não é possível obter eventos transmitidos, crie um público-alvo com base nesses eventos e use o **Ler público-alvo** atividade em vez disso. Tecnicamente, a qualificação de público-alvo pode ser usada, mas ela pode causar desafios posteriores com base nas ações usadas.
+* Os eventos comerciais não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
+* As jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. A reentrada do perfil é temporariamente bloqueada por padrão por 5 minutos. Por exemplo, se um evento acionar uma jornada às 12h01 para um perfil específico e outra chegar às 12h03 (se for o mesmo evento ou outro acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
+* O Journey Optimizer requer que os eventos sejam transmitidos para o Serviço principal de coleção de dados (DCCS) para acionar uma jornada. Eventos assimilados em lote ou eventos de conjuntos de dados internos do Journey Optimizer (feedback de mensagem, rastreamento de email etc.) não podem ser usados para acionar uma jornada. Para casos de uso nos quais não é possível obter os eventos transmitidos, crie um público-alvo com base nesses eventos e use a atividade **Público-alvo de leitura**. Tecnicamente, a qualificação de público-alvo pode ser usada, mas pode causar desafios no downstream com base nas ações usadas.
 
 ### Fontes de dados {#data-sources-g}
 
@@ -97,12 +97,12 @@ Você pode escolher uma dessas duas soluções:
 
 * Configure uma jornada que não use o perfil imediatamente. Por exemplo, se a jornada for projetada para confirmar a criação de uma conta, o evento da experiência pode conter informações necessárias para enviar a primeira mensagem de confirmação (nome, sobrenome, endereço de email etc.).
 
-### Ler público {#read-segment-g}
+### Público-alvo de leitura {#read-segment-g}
 
-* Os públicos-alvo transmitidos estão sempre atualizados, mas os públicos-alvo em lote não serão calculados no momento da recuperação. Só são avaliados diariamente no momento da avaliação diária do lote.
-* Para jornadas que usam uma atividade Read Audience, há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. As tentativas serão executadas pelo sistema, mas evite ter mais do que cinco jornadas (com Ler público, programado ou iniciando &quot;o mais rápido possível&quot;), iniciando exatamente ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
+* Os públicos-alvo transmitidos estão sempre atualizados, mas os públicos-alvo em lote não serão calculados no momento da recuperação. Eles só são avaliados diariamente no momento da avaliação diária do lote.
+* Para jornadas que usam uma atividade Público-alvo de leitura, há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. Novas tentativas serão executadas pelo sistema, mas evite ter mais do que cinco jornadas (com Público-alvo de leitura, programadas ou iniciando “o mais rápido possível”), iniciando exatamente ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
 
 ### Editor de expressão {#expression-editor}
 
-* Grupos de campos de evento de experiência não podem ser usados em jornadas que começam com uma atividade Ler público, uma qualificação de Público ou um evento comercial. Você precisa criar um novo público-alvo e usar uma condição de inaudiência na jornada.
+* Os grupos de campos de evento de experiência não podem ser usados em jornadas que comecem com atividades de Público-alvo de leitura, de Qualificação de público-alvo ou de evento comercial. É necessário criar um novo público-alvo e usar uma condição de público-alvo na jornada.
 
