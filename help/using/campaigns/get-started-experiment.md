@@ -10,9 +10,9 @@ level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1961'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Os métodos estatísticos nos fornecem uma maneira de formalizar essa incerteza.
 
 +++Forme novas hipóteses e teste continuamente
 
-Para obter insights de negócios verdadeiros, você deve se manter em apenas um Experimento. Em vez disso, acompanhe experimentos formulando novas hipóteses e executando novos testes com alterações diferentes, em públicos diferentes e examinando o impacto nas diferentes métricas.
+Para obter insights de negócios verdadeiros, você deve se manter em apenas um Experimento. Em vez disso, acompanhe os experimentos formulando novas hipóteses e executando novos testes com alterações diferentes, em públicos-alvo diferentes, e examinando o impacto nas diferentes métricas.
 +++
 
 ## Interprete os resultados dos seus experimentos {#interpret-results}
@@ -172,7 +172,7 @@ Depois de executar seu Experimento, há várias ações de acompanhamento possí
 
 * **Fazer análises mais aprofundadas**
 
-  O tratamento que funciona bem para um público pode, às vezes, não ser o melhor tratamento para outro público. Fazer análises mais profundas sobre como os tratamentos se comportaram para públicos diferentes ajuda a gerar ideias para novos testes.
+  O tratamento que funciona bem para um público pode, às vezes, não ser o melhor tratamento para outro público. Fazer análises mais aprofundadas sobre como os tratamentos se comportam para públicos-alvo diferentes ajuda a gerar ideias para novos testes.
 
   Da mesma forma, estudar o desempenho de cada tratamento com métricas diferentes também pode oferecer uma visão mais abrangente dos seus Experimentos.
 
