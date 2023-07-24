@@ -6,9 +6,9 @@ description: Como usuário de jornadas, aprenda a trabalhar com o Journey Optimi
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Como **Profissional de marketing** ou **Usuário de jornadas**, você é respons
 
 Consulte as seguintes seções para configurar a primeira jornada, adicionar ofertas e ativos e enviar mensagens:
 
-1. **Criar públicos**. O Journey Optimizer permite criar públicos-alvo por meio de definições de segmento diretamente do **Públicos-alvo** e aproveite-as em suas jornadas.  Saiba mais sobre públicos [nesta página](../../audience/about-audiences.md). Descubra como criar definições de segmento [nesta amostra](../../audience/creating-a-segment-definition.md).
+1. **Criar públicos**. O Journey Optimizer permite criar públicos-alvo por meio de definições de segmento diretamente no menu **Públicos-alvo** e aproveitá-los em suas jornadas.  Saiba mais sobre públicos-alvo [nesta página](../../audience/about-audiences.md). Saiba como criar definições de segmento [nesta amostra](../../audience/creating-a-segment-definition.md).
 
 1. **Adicionar personalização e conteúdo dinâmico**. Aproveite a personalização do Journey Optimizer e os recursos de conteúdo dinâmico para adaptar sua mensagem ao seu público-alvo. Saiba mais sobre [personalização](../../personalization/personalize.md) e [conteúdo dinâmico](../../personalization/get-started-dynamic-content.md).
 
@@ -34,13 +34,13 @@ Consulte as seguintes seções para configurar a primeira jornada, adicionar ofe
 
 1. **Crie jornadas do cliente** para fornecer experiências personalizadas e contextuais. O [!DNL Journey Optimizer] permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. Crie designs de cenários avançados com várias etapas e com os seguintes recursos:
 
-   * Enviar em tempo real **entrega unitária** acionado quando um evento é recebido ou **em lote** usando públicos da Adobe Experience Platform.
+   * Envie uma **entrega unitária** em tempo real acionada quando um evento é recebido, ou **em lote** usando os públicos-alvo da Adobe Experience Platform.
 
    * Aproveite **dados contextuais** de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros.
 
    * Use as **ações de canal integradas** (Email, SMS, Push) para enviar mensagens projetadas no [!DNL Journey Optimizer] ou criar **ações personalizadas** se estiver usando um sistema de terceiros para enviar mensagens.
 
-   * Com o **Designer de jornada**, crie seus casos de uso em várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
+   * Com o **Designer de jornadas**, crie seus casos de uso de várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
 
    ![](../assets/journey-design.png)
 
