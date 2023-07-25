@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão anteriores do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
+source-git-commit: e384991599c19f72910f299350c0839fa16b4588
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 20%
+source-wordcount: '639'
+ht-degree: 27%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 20%
 O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas na última semana de cada mês no [notas de versão](release-notes.md).
 
 As notas de versão anteriores abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento. Links, telas e documentação atualizada são publicados no [notas de versão](release-notes.md), na data de lançamento.
-
 
 ## Notas de versão antecipadas de julho de 2023 {#july-rn-2023}
 
@@ -30,55 +29,37 @@ Essa versão traz os novos recursos listados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>APIs de modelos de conteúdo</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora é possível criar e gerenciar modelos de conteúdo do Adobe Journey Optimizer usando APIs dedicadas, fornecendo uma integração perfeita com seu sistema de conteúdo existente.</p>
-<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
 <th><strong>Composição de público</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível criar workflows de composição para combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, enriquecer...) para criar novos públicos-alvo. Os públicos-alvo recém-criados são salvos no Adobe Experience Platform junto com os públicos-alvo existentes e podem ser aproveitados nas campanhas do Journey Optimizer para direcionar os clientes.</p>
+<p>Agora é possível criar fluxos de trabalho de composição para combinar públicos já existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, enriquecer...) para criar novos públicos. Os públicos-alvo recém-criados são salvos na Adobe Experience Platform junto com os públicos-alvo existentes e podem ser aproveitados nas campanhas do Journey Optimizer para direcionar clientes.</p>
 <img src="../audience/assets/audiences-publish.png"/>
 <p>Para obter mais informações, consulte a <a href="../audience/get-started-audience-orchestration.md">documentação detalhada</a>.</p>
-<p>A composição de público-alvo vem totalmente integrada ao novo menu "Públicos-alvo" do Adobe Experience Platform, que serve como um portal centralizado para públicos-alvo. Agora você pode usar uma página de navegação que inclui um novo painel com tendências e sobreposições de segmentos para encontrar novos insights e explorar ferramentas organizacionais para pastas e marcação. Incorporados nessa experiência estão controles de governança para rotulagem de público-alvo padronizada, bem como recursos de gerenciamento do ciclo de vida do público-alvo para gerenciar workflows de ativação. Com essa nova experiência de gerenciamento, agora é possível gerenciar públicos-alvo de maneira fácil e segura em um único local. Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Documentação do Adobe Experience Platform</a>.</p></p>
+<p>A composição de público-alvo vem totalmente integrada ao novo menu "Públicos-alvo" do Adobe Experience Platform, que serve como um portal centralizado para públicos-alvo. Agora você pode usar uma página de navegação que inclui um novo painel com tendências e sobreposições de segmentos para encontrar novos insights e explorar ferramentas organizacionais para pastas e marcação. Incorporados nessa experiência estão controles de governança para rotulagem de público-alvo padronizada, bem como recursos de gerenciamento do ciclo de vida do público-alvo para gerenciar workflows de ativação. Com essa nova experiência de gerenciamento, agora é possível gerenciar públicos-alvo de maneira fácil e segura em um único local. Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR" target="_blank">Documentação do Adobe Experience Platform</a>.</p></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Canal de correspondência direta</strong><br/></th>
+<th><strong>Direct mail channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode adicionar mensagens de correspondência direta em suas campanhas. Correspondência direta é um canal offline que permite personalizar e gerar os arquivos exigidos por provedores de correspondência direta para enviar mensagens para seus clientes.</p>
-<p>Quando você prepara um delivery direto de mala direta, o Journey Optimizer gera um arquivo incluindo todos os perfis do target e as informações de contato escolhidas (endereço postal por exemplo). Você poderá enviar esse arquivo para seu provedor de correspondência direta que irá cuidar realmente do envio.</p>
+<p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
-<p>Para obter mais informações, consulte a <a href="../direct-mail/create-direct-mail.md">documentação detalhada</a>.</p>
+<p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -110,6 +91,23 @@ Essa versão traz os novos recursos listados abaixo.
 <p>Além de campanhas e jornadas, agora é possível atribuir Tags unificadas do Adobe Experience Platform às suas páginas de aterrissagem, modelos de conteúdo, fragmentos e listas de assinatura. Isso permite classificá-los facilmente e melhorar a pesquisa e a navegação em todas as listas. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Para obter mais informações, consulte a <a href="../start/search-filter-categorize.md#tags">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>APIs de modelos de conteúdo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível criar e gerenciar modelos de conteúdo do Adobe Journey Optimizer usando APIs dedicadas, fornecendo uma integração perfeita com seu sistema de conteúdo existente.</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -149,8 +147,8 @@ Autenticação de APIs do Adobe Journey Optimizer - O método JWT para gerar tok
 
 **Outras alterações**
 
-A exportação de conjuntos de dados do Journey Optimizer para Destinos de armazenamento na nuvem agora está disponível para todos os clientes. Esse recurso permite estabelecer uma conexão ativa com locais de armazenamento na nuvem para exportar o conteúdo de seus conjuntos de dados. [Saiba mais](../data/export-datasets.md)
+A exportação de conjuntos de dados do Journey Optimizer para Destinos de armazenamento na nuvem agora está disponível para todos os clientes como um beta público. Esse recurso permite estabelecer uma conexão ativa com locais de armazenamento na nuvem para exportar o conteúdo de seus conjuntos de dados. [Saiba mais](../data/export-datasets.md)
 
->[!AVAILABILITY]
->
->No momento, esse recurso está na versão beta e está sujeito a alterações.</p>
+
+
+
