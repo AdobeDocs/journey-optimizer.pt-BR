@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fa9b76803c286bb14925839e820fae1bab19e58
+source-git-commit: 380d07067a999de439ebf5a4198a203c1aa6b1d8
 workflow-type: tm+mt
-source-wordcount: '3126'
+source-wordcount: '3125'
 ht-degree: 85%
 
 ---
@@ -130,28 +130,26 @@ Esta versão vem com as melhorias listadas abaixo.
 **Jornadas**
 
 <!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-* Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando uma ação personalizada falhar.
+Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando uma ação personalizada falhar.
 
 
 **Campanhas**
 
-* Eventos contextuais relacionados a campanhas agora estão disponíveis para uso no menu &quot;Contextual attributes&quot; do editor de personalização.
+Eventos contextuais relacionados a campanhas agora estão disponíveis para uso no menu &quot;Contextual attributes&quot; do editor de personalização.
 
 
 **Públicos-alvo**
 
-Foram feitos aprimoramentos no seletor de público em jornadas ou campanhas, com a adição de novas colunas que exibem a origem e a frequência de atualização dos públicos.
-
-Com o lançamento do portal Composição de público-alvo, a Adobe Experience Platform e a Adobe Journey Optimizer atualizaram o uso de &quot;públicos-alvo&quot; e &quot;segmentos&quot; no sistema e na documentação.
+Foram feitos aprimoramentos no seletor de público em jornadas ou campanhas, com a adição de novas colunas que exibem a origem e a frequência de atualização dos públicos. Com o lançamento do portal Composição de público-alvo, a Adobe Experience Platform e a Adobe Journey Optimizer atualizaram o uso de &quot;públicos-alvo&quot; e &quot;segmentos&quot; no sistema e na documentação.
 
 * Público-alvo: um conjunto de pessoas, contas, famílias ou outras entidades que compartilham características e comportamentos comuns.
 * Definição de segmento: na Adobe Experience Platform, as regras usadas para descrever as principais características ou comportamentos de um público-alvo. Esse termo era anteriormente conhecido apenas como “segmento”.
 
-Como resultado, na na interface do Adobe Journey Optimizer e da Adobe Experience Platform, “Segmentos” será substituído por “Públicos-alvo” para refletir esse novo caminho de criação e gerenciamento de público-alvo.
+Como resultado, no Adobe Journey Optimizer e na interface do usuário do Adobe Experience Platform, os &quot;Segmentos&quot; são substituídos por &quot;Públicos-alvo&quot; para refletir esse novo caminho de criação e gerenciamento de público-alvo.
 
 **APIs**
 
-Autenticação de APIs do Adobe Journey Optimizer - O método JWT para gerar tokens de acesso foi descontinuado. Todas as novas integrações devem ser criadas usando o método de autenticação OAuth de servidor para servidor. A Adobe também recomenda migrar suas integrações existentes para o método OAuth. [Saiba mais](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
+O método JWT para gerar tokens de acesso para autenticação de APIs do Adobe Journey Optimizer foi descontinuado. Todas as novas integrações devem ser criadas usando o método de autenticação OAuth de servidor para servidor. A Adobe também recomenda migrar suas integrações existentes para o método OAuth. [Saiba mais](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 
 **Outras alterações**
