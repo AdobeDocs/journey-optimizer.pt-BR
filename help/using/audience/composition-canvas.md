@@ -11,7 +11,7 @@ exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '1416'
-ht-degree: 27%
+ht-degree: 31%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 27%
 
 >[!BEGINSHADEBOX]
 
-Estas documentações fornecem informações detalhadas sobre como trabalhar com a composição de público-alvo no Adobe Journey Optimizer. Se você não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+Estas documentações fornecem informações detalhadas sobre como trabalhar com a composição de público-alvo no Adobe Journey Optimizer. Se não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=pt-BR)
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ A primeira etapa para criar uma composição é selecionar um ou vários públic
 1. Escolha o público-alvo a ser direcionado:
 
    * Clique em **[!UICONTROL Adicionar público-alvo]** botão para selecionar um ou vários públicos-alvo existentes,
-   * Clique em **[!UICONTROL Criar regra]** botão para criar uma nova definição de público-alvo usando o [Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   * Clique em **[!UICONTROL Criar regra]** botão para criar uma nova definição de público-alvo usando o [Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR).
 
    ![](assets/audiences-choose-audience.png)
 
@@ -138,7 +138,7 @@ A variável **[!UICONTROL Excluir]** A atividade permite excluir perfis da sua c
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="Atributos de enriquecimento"
->abstract="Selecione um ou vários atributos do conjunto de dados de enriquecimento para associar ao público. Depois que a composição é publicada, esses atributos são associados ao público-alvo e podem ser aproveitados em campanhas do Journey Optimizer para personalizar os deliveries."
+>abstract="Selecione um ou vários atributos do conjunto de dados de enriquecimento para associar ao público. Após a publicação da composição, esses atributos são associados ao público-alvo e podem ser aproveitados em campanhas do Journey Optimizer para personalizar entregas."
 
 A variável **[!UICONTROL Enriquecer]** A atividade permite enriquecer seu público-alvo com atributos adicionais provenientes de conjuntos de dados da Adobe Experience Platform. Por exemplo, é possível adicionar informações relacionadas ao produto comprado, como nome, preço ou ID do fabricante e aproveitar essas informações para personalizar as entregas enviadas ao público-alvo.
 
