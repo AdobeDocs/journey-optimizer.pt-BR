@@ -5,9 +5,9 @@ title: Notas de versão
 description: Notas de versão anteriores do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: e384991599c19f72910f299350c0839fa16b4588
+source-git-commit: df5f5b82d6463973ba7fb19713eb1dc49c00d9db
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '638'
 ht-degree: 27%
 
 ---
@@ -36,7 +36,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tr>
 <td>
 <p>Agora é possível criar fluxos de trabalho de composição para combinar públicos já existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, enriquecer...) para criar novos públicos. Os públicos-alvo recém-criados são salvos na Adobe Experience Platform junto com os públicos-alvo existentes e podem ser aproveitados nas campanhas do Journey Optimizer para direcionar clientes.</p>
-<img src="../audience/assets/audiences-publish.png"/>
+<img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Para obter mais informações, consulte a <a href="../audience/get-started-audience-orchestration.md">documentação detalhada</a>.</p>
 <p>A composição de público-alvo vem totalmente integrada ao novo menu "Públicos-alvo" do Adobe Experience Platform, que serve como um portal centralizado para públicos-alvo. Agora você pode usar uma página de navegação que inclui um novo painel com tendências e sobreposições de segmentos para encontrar novos insights e explorar ferramentas organizacionais para pastas e marcação. Incorporados nessa experiência estão controles de governança para rotulagem de público-alvo padronizada, bem como recursos de gerenciamento do ciclo de vida do público-alvo para gerenciar workflows de ativação. Com essa nova experiência de gerenciamento, agora é possível gerenciar públicos-alvo de maneira fácil e segura em um único local. Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR" target="_blank">Documentação do Adobe Experience Platform</a>.</p></p>
 </td>
@@ -118,11 +118,12 @@ Essa versão traz os novos recursos listados abaixo.
 
 Esta versão vem com as melhorias listadas abaixo.
 
-**Jornadas**
+<!--
+**Journeys**
 
-<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando uma ação personalizada falhar.
-
+—>
 
 **Campanhas**
 
