@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: ed08b21f10246ef548d991807aa31d13ad8cbccc
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '743'
 ht-degree: 6%
 
 ---
@@ -155,15 +155,13 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 * O vídeo abaixo mostra como criar, configurar e publicar mensagens no aplicativo em suas campanhas.
 
-  +++Ver vídeo
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
-+++
+
 
 * O vídeo abaixo mostra como configurar e analisar experimentos de conteúdo para testar mensagens no aplicativo A/B.
 
-  +++Ver vídeo
   >[!VIDEO](https://video.tv.adobe.com/v/3419898)
-+++
+
 
 
 **Tópicos relacionados:**

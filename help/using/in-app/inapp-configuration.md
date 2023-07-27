@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '323'
 ht-degree: 11%
 
 ---
@@ -45,7 +45,7 @@ Antes de enviar mensagens no aplicativo, é necessário configurar o canal no ap
 
    ![](assets/inapp_config_3.png)
 
-   Seu **[!UICONTROL Superfície do aplicativo]** Agora estarão disponíveis ao criar uma nova campanha com uma mensagem no aplicativo. [Saiba mais](create-in-app.md)
+   Seu **[!UICONTROL Superfície do aplicativo]** agora estarão disponíveis ao criar uma nova campanha com uma mensagem no aplicativo. [Saiba mais](create-in-app.md)
 
 1. Depois de criar sua superfície de aplicativo, agora é necessário criar uma propriedade móvel.
 
@@ -81,6 +81,5 @@ O canal no aplicativo agora está configurado. Você pode começar a enviar mens
 
 * O vídeo abaixo mostra como atribuir a variável **Gerenciar configuração do aplicativo** permissão para acessar o menu Superfícies do aplicativo.
 
-  +++Ver vídeo
-  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
-+++
+>[!VIDEO](https://video.tv.adobe.com/v/3421607)
+
