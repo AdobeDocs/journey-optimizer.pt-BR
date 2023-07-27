@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '2283'
+source-wordcount: '2498'
 ht-degree: 4%
 
 ---
@@ -36,6 +36,7 @@ A campanha **[!UICONTROL Relatório global]** será exibida com as seguintes gui
 * [Push](#push-global)
 * [SMS](#sms-global)
 * [Web](#web-tab)
+* [Correspondência direta](#direct-mail-global)
 
 A campanha **[!UICONTROL Relatório global]** O é dividido em widgets diferentes detalhando o sucesso e os erros da campanha. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte esta [seção](../reports/global-report.md#modify-dashboard).
 
@@ -99,6 +100,15 @@ A tabela apresenta as seguintes métricas:
 * **[!UICONTROL Cliques/perfis de saída únicos]**: Valor total da métrica de Sucesso, selecionada anteriormente ao criar seus Experimentos, dividido pelo número de perfis.
 
 A variável **[!UICONTROL Intervalo de confiança]** O gráfico mede a incerteza em torno da melhoria. Ela detalha a diferença percentual de desempenho entre a linha de base e o tratamento com melhor desempenho. [Saiba mais](../campaigns/experiment-calculations.md#confidence-intervals).
+
+![](assets/experimentation_report_4.png)
+
+O último widget fornece dados relacionados ao **[!UICONTROL Métrica de sucesso]** você selecionou anteriormente para os tratamentos. Você tem a opção de selecionar uma métrica direcionada diferente da variável **[!UICONTROL Métrica]** menu suspenso para rastrear dados alternativos.
+
+>[!CAUTION]
+>
+>Ao trabalhar com métricas filtradas de experimentação, observe que alterar a seleção de Métrica do menu suspenso na página de comparação para experimentação não manterá o valor do filtro. Por exemplo, alternar de &quot;Cliques&quot; para &quot;Cliques únicos&quot; levará à perda do filtro aplicado, tornando a comparação imprecisa ou inválida.
+
 +++
 
 Para aprofundar esses resultados e como interpretá-los, consulte [esta página](../campaigns/get-started-experiment.md#interpret-results).
@@ -349,6 +359,25 @@ A variável **[!UICONTROL Desempenho da Web]** Os KPIs detalham as principais in
 A variável **[!UICONTROL Resumo da Web]** o gráfico mostra a evolução de suas experiências da web (impressões, impressões exclusivas e cliques) para o período relacionado.
 
 A variável **[!UICONTROL Cliques por elemento]** A tabela detalha as principais informações relativas ao envolvimento dos visitantes com os vários elementos em suas páginas da web.
++++
+
+## Guia Correspondência direta {#direct-mail-global}
+
+Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Correspondência direta]** A guia detalha as principais informações relacionadas aos deliveries de correspondência direta.
+
++++Saiba mais sobre as diferentes métricas e widgets disponíveis para o Relatório de correspondência direta.
+
+A variável **[!UICONTROL Correspondência direta - Estatísticas de envio]** a tabela detalha o sucesso do seu delivery:
+
+* **[!UICONTROL Direcionado]**: Número de perfis de usuário que se qualificam como perfis de público-alvo para este delivery.
+
+* **[!UICONTROL Enviado]**: Número total de envios para o delivery.
+
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+
+* **[!UICONTROL Excluído]**: Número de perfis de usuário, excluídos dos perfis direcionados, que não receberam o delivery.
+
+A variável **[!UICONTROL Correspondência direta - Motivos excluídos]** e **[!UICONTROL Correspondência direta - Motivos de erro]** gráficos e tabelas permitem ver quais erros e exclusões ocorreram durante o delivery.
 +++
 
 ## Recursos adicionais

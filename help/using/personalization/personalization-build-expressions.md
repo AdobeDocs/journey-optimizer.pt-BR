@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '432'
 ht-degree: 12%
 
 ---
@@ -34,9 +34,9 @@ Na interface do editor de expressões, você selecionará, organizará, personal
 A parte esquerda da tela exibe um seletor de domínio que permite selecionar a fonte para personalização. As fontes disponíveis são:
 
 * **[!UICONTROL Atributos do perfil]** : lista todas as referências associadas ao esquema de perfil descrito em [Documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
-* **[!UICONTROL Públicos-alvo]** : lista todos os públicos-alvo criados no serviço de Segmentação do Adobe Experience Platform. Mais informações sobre segmentação disponíveis [aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+* **[!UICONTROL Públicos-alvo]** : lista todos os públicos-alvo criados no serviço de Segmentação do Adobe Experience Platform. Mais informações sobre segmentação disponíveis [aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
 * **[!UICONTROL Decisões de oferta]** : lista todas as ofertas associadas a uma disposição específica. Selecione o posicionamento e insira as ofertas no conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [nesta seção](../offers/get-started/starting-offer-decisioning.md).
-* **[!UICONTROL Atributos contextuais]** : quando uma atividade de ação de canal (Email, push, SMS) é usada em uma jornada, os campos de jornada contextual ficam disponíveis por meio desse menu. Saiba mais [nesta seção](personalization-use-case.md).
+* **[!UICONTROL Atributos contextuais]** : quando uma atividade de ação de canal (Email, push, SMS) é usada em uma jornada ou campanha, atributos contextuais relacionados a eventos e propriedades ficam disponíveis para personalização. Um exemplo de personalização que utiliza atributos contextuais é apresentado em [nesta seção](personalization-use-case.md).
 * **[!UICONTROL Funções auxiliares]** : lista todas as funções auxiliares disponíveis para executar operações em dados, como cálculos, formatação ou conversões de dados, condições e as manipula no contexto de personalização. Saiba mais [nesta seção](functions/functions.md).
 
 ## Adicionar atributos de personalização {#add}

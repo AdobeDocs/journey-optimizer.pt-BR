@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 24%
+source-wordcount: '471'
+ht-degree: 19%
 
 ---
 
@@ -35,9 +35,13 @@ Se quiser aguardar antes de executar a próxima atividade no caminho, você pode
 
 ## Sobre a atividade Wait{#about_wait}
 
-A duração máxima de espera é de 30 dias. No modo de teste, a variável **[!UICONTROL Tempo de espera no teste]** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
+A duração máxima de espera é de 30 dias. No modo de teste, a variável **[!UICONTROL Tempo de espera no teste]** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md).
 
-Tenha cuidado ao usar várias atividades de espera em uma jornada, pois o tempo limite da jornada global é de 30 dias, o que significa que um perfil sempre desaparecerá do máximo da jornada 30 dias após ter entrado.
+Tenha cuidado ao usar várias atividades de espera em uma jornada, pois o tempo limite da jornada global é de 30 dias, o que significa que um perfil sempre desaparecerá do máximo da jornada 30 dias após ter entrado. Consulte [esta página](../building-journeys/journey-gs.md#global_timeout).
+
+Um indivíduo só poderá inserir uma atividade de espera se tiver tempo suficiente na jornada para concluir a duração da espera antes do tempo limite de jornada de 30 dias. Por exemplo, se você adicionar duas atividades de espera definidas para 20 dias cada, o sistema detectará que a segunda espera terminará após o tempo limite de 30 dias. A segunda espera será ignorada e o indivíduo sairá da jornada antes de iniciá-la. Nesse exemplo, o cliente permanecerá no total 20 dias na jornada.
+
+É uma prática recomendada não usar esperas para bloquear a reentrada. Use o botão **Permitir reentrada** no nível das propriedades da jornada. Consulte [esta página](../building-journeys/journey-gs.md#entrance).
 
 ## Espera de duração{#duration}
 
@@ -88,4 +92,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
 
 ![](assets/journey57bis.png)-->
 
-
+Você poderia, por favor, elaborar algo em torno disso?

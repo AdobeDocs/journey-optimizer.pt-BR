@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 4%
+source-wordcount: '1388'
+ht-degree: 12%
 
 ---
 
@@ -31,9 +31,9 @@ Vamos ver como exemplo o público-alvo &quot;Abertura e finalização do aplicat
 
 >[!NOTE]
 >
->Para jornadas que usam uma atividade Read Audience, há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. As tentativas serão executadas pelo sistema, mas evite ter mais do que cinco jornadas (com Ler público, programado ou iniciando &quot;o mais rápido possível&quot;), iniciando exatamente ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
+>Para jornadas que usam uma atividade Público-alvo de leitura, há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. Novas tentativas serão executadas pelo sistema, mas evite ter mais do que cinco jornadas (com Público-alvo de leitura, programadas ou iniciando “o mais rápido possível”), iniciando exatamente ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
 >
->Grupos de campos de evento de experiência não podem ser usados em jornadas que começam com uma atividade Ler público, uma qualificação de Público ou um evento comercial.
+>Os grupos de campos de evento de experiência não podem ser usados em jornadas que comecem com atividades de Público-alvo de leitura, de Qualificação de público-alvo ou de evento comercial.
 
 ### Configurar a atividade {#configuring-segment-trigger-activity}
 
@@ -67,13 +67,13 @@ As etapas para configurar a atividade Ler público-alvo são as seguintes:
    >
    >Os indivíduos pertencentes a um público-alvo que não tem a identidade (namespace) selecionada entre suas diferentes identidades não podem entrar na jornada. Você só pode selecionar um namespace de identidade com base em pessoas. Se você tiver definido um namespace para uma tabela de pesquisa (por exemplo: Namespace de ProductID para uma pesquisa de Produto), ele não estará disponível na **Namespace** lista suspensa.
 
-1. Defina o **[!UICONTROL Taxa de limitação]** para o limite de rendimento da atividade read audience.
+1. Defina o **[!UICONTROL Taxa de limitação]**. Este é o número máximo de perfis que podem entrar no público-alvo de leitura por segundo. Essa taxa se aplica somente a essa atividade. Isso não se aplica a outras atividades na jornada. Se você deseja definir uma taxa de limitação em ações personalizadas, por exemplo, é necessário usar a API de limitação. Consulte esta [página](../configuration/throttling.md).
 
-   Esse valor é armazenado na carga da versão do jornada. O valor padrão é de 5.000 mensagens por segundo. Você pode modificar esse valor de 500 a 20.000 mensagens por segundo.
+   Esse valor é armazenado na carga da versão do jornada. O valor padrão é de 5.000 perfis por segundo. Você pode modificar esse valor de 500 para 20.000 perfis por segundo.
 
    >[!NOTE]
    >
-   >A taxa de limitação geral por sandbox está definida como 20.000 mensagens por segundo. Portanto, a taxa de limitação de todos os públicos-alvo de leitura executados simultaneamente na mesma sandbox adiciona no máximo 20.000 mensagens por segundo. Não é possível modificar esse limite.
+   >A taxa de limitação geral por sandbox está definida como 20.000 perfis por segundo. Portanto, a taxa de limitação de todos os públicos-alvo de leitura executados simultaneamente na mesma sandbox adiciona no máximo 20.000 perfis por segundo. Não é possível modificar esse limite.
 
 1. A variável **[!UICONTROL Ler público-alvo]** A atividade permite especificar a hora em que o público-alvo inserirá a jornada. Para fazer isso, clique no link **[!UICONTROL Editar programação de jornada]** link para acessar as propriedades da jornada e configurar o **[!UICONTROL Tipo de scheduler]** campo.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 7%
+source-wordcount: '1342'
+ht-degree: 6%
 
 ---
 
@@ -30,9 +30,11 @@ A campanha **[!UICONTROL Relatório ao vivo]** será exibida com as seguintes gu
 
 * [Campaign](#campaign-live)
 * [Email](#email-live)
+* [No aplicativo](#inapp-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
 * [Web](#web-tab)
+* [Correspondência direta](#direct-mail-tab)
 
 A campanha **[!UICONTROL Relatório ao vivo]** O é dividido em widgets diferentes detalhando o sucesso e os erros da campanha. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte esta [seção](../reports/live-report.md#modify-dashboard).
 
@@ -97,6 +99,26 @@ A variável **[!UICONTROL Motivos de rejeição]**, **[!UICONTROL Categorias de 
 A variável **[!UICONTROL Motivos de erro]** e **[!UICONTROL Excluir motivos]** gráficos e tabelas permitem ver quais erros e exclusões ocorreram durante o delivery.
 
 A variável **[!UICONTROL Email - Principal domínio de destinatário]** O gráfico e a tabela detalham quais domínios são os mais usados pelos recipients para abrir o email.
++++
+
+## Guia No aplicativo {#inapp-live}
+
+Da sua campanha **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL No aplicativo]** A guia detalha as principais informações relativas aos deliveries no aplicativo enviados em sua campanha.
+
++++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório No aplicativo.
+
+A variável **[!UICONTROL Desempenho no aplicativo]** Os KPIs detalham as principais informações relativas ao envolvimento dos visitantes com as mensagens no aplicativo, como:
+
+* **[!UICONTROL Impressões exclusivas]**: número de usuários únicos para os quais a mensagem no aplicativo foi entregue.
+
+* **[!UICONTROL Impressões]**: número total de mensagens no aplicativo entregues a todos os usuários.
+
+A variável **[!UICONTROL Resumo no aplicativo]** O gráfico mostra a evolução das impressões no aplicativo para o período relacionado.
+
+A variável **[!UICONTROL Cliques por botão]** o gráfico e a tabela contêm os dados disponíveis para o comportamento do recipient por botão:
+
+* **[!UICONTROL Cliques]**: número total de recipients que interagiram com os botões incluídos na mensagem no aplicativo.
+
 +++
 
 ## Guia Notificação por push {#push-live}
@@ -180,6 +202,25 @@ A variável **[!UICONTROL Desempenho da Web]** Os KPIs detalham as principais in
 A variável **[!UICONTROL Resumo da Web]** o gráfico mostra a evolução de suas experiências da web (impressões, impressões exclusivas e cliques) para o período relacionado.
 
 A variável **[!UICONTROL Cliques por elemento]** A tabela detalha as principais informações relativas ao envolvimento dos visitantes com os vários elementos em suas páginas da web.
++++
+
+## Guia Correspondência direta {#direct-mail-tab}
+
+Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Correspondência direta]** A guia detalha as principais informações relacionadas aos deliveries de correspondência direta.
+
++++Saiba mais sobre as diferentes métricas e widgets disponíveis para o Relatório de correspondência direta.
+
+A variável **[!UICONTROL Correspondência direta - Estatísticas de envio]** a tabela detalha o sucesso do seu delivery:
+
+* **[!UICONTROL Direcionado]**: Número de perfis de usuário que se qualificam como perfis de público-alvo para este delivery.
+
+* **[!UICONTROL Enviado]**: Número total de envios para o delivery.
+
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+
+* **[!UICONTROL Excluído]**: Número de perfis de usuário, excluídos dos perfis direcionados, que não receberam o delivery.
+
+A variável **[!UICONTROL Correspondência direta - Motivos excluídos]** e **[!UICONTROL Correspondência direta - Motivos de erro]** gráficos e tabelas permitem ver quais erros e exclusões ocorreram durante o delivery.
 +++
 
 ## Recursos adicionais

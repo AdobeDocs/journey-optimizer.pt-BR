@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1065'
 ht-degree: 12%
 
 ---
@@ -22,6 +22,8 @@ Para um processo de design acelerado e aprimorado, é possível criar modelos in
 Essa funcionalidade permite que usuários orientados a conteúdo trabalhem em modelos fora de campanhas ou jornadas. Os usuários de marketing podem então reutilizar e adaptar esses modelos de conteúdo independentes em suas próprias jornadas ou campanhas.
 
 Por exemplo, um usuário em sua empresa é responsável apenas pelo conteúdo e, portanto, não tem acesso a campanhas ou jornadas. No entanto, esse usuário pode criar um modelo de email que os profissionais de marketing da sua organização poderão selecionar para uso em todos os emails como ponto de partida.
+
+Você também pode criar e gerenciar modelos de conteúdo usando APIs. Para obter mais informações, consulte [Documentação das APIs do Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/).
 
 ➡️ [Saiba como criar e usar modelos neste vídeo](#video-templates)
 
@@ -43,7 +45,7 @@ Você pode classificar modelos de conteúdo por data de criação ou modificaç�
 
 Para editar o conteúdo de um modelo, clique no item desejado na lista e selecione **[!UICONTROL Editar conteúdo]**.
 
-![](assets/content-template-list-edit.png)
+![](assets/content-template-edit.png)
 
 Para excluir um modelo, selecione o ícone de lixeira ao lado do modelo desejado.
 
@@ -74,7 +76,6 @@ Depois de salvo, seu template de conteúdo fica disponível para uso em uma camp
 >
 >* Da mesma forma, quando os modelos são usados em uma campanha ou jornada, as edições feitas na campanha e no conteúdo da jornada não afetam o modelo de conteúdo usado anteriormente.
 
-
 ### Criar modelo do zero {#create-template-from-scratch}
 
 Para criar um template de conteúdo do zero, siga as etapas abaixo.
@@ -92,6 +93,8 @@ Para criar um template de conteúdo do zero, siga as etapas abaixo.
    >Atualmente, somente o **E-mail** canal e **HTML** tipo são compatíveis.
 
 1. Para atribuir rótulos de uso de dados principais ou personalizados ao modelo, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Object Level Access Control)](../administration/object-based-access.md).
+
+1. Selecione ou crie tags do Adobe Experience Platform na **[!UICONTROL Tags]** para categorizar seu modelo para pesquisa aprimorada. [Saiba mais](../start/search-filter-categorize.md#tags)
 
 1. Clique em **[!UICONTROL Criar]** e escolha como deseja criar seu modelo a partir das diferentes opções:
 
@@ -136,6 +139,10 @@ Ao projetar um [email](get-started-email-design.md) em uma campanha ou jornada, 
 
    ![](assets/email_designer-template-name.png)
 
+1. Para atribuir rótulos de uso de dados principais ou personalizados ao modelo, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais](../administration/object-based-access.md).
+
+1. Selecione ou crie uma tag do Adobe Experience Platform na **Tags** para categorizar seu modelo. [Saiba mais](../start/search-filter-categorize.md#tags)
+
 1. Clique em **[!UICONTROL Salvar]**.
 
 1. O modelo é salvo na variável **[!UICONTROL Modelos de conteúdo]** , acessível na [!DNL Journey Optimizer] menu dedicado. Ele se torna um modelo de conteúdo independente que pode ser acessado, editado e excluído como qualquer outro item nessa lista. [Saiba mais](#access-manage-templates)
@@ -168,7 +175,7 @@ Você pode testar a renderização de qualquer template de conteúdo de email, s
 
    * Antes de enviar a prova, selecione a variável [superfície de email](../configuration/channel-surfaces.md) que serão usados para testar o conteúdo.
 
-      ![](assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 ## Vídeo explicativo {#video-templates}
 

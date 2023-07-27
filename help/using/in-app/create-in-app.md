@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '747'
 ht-degree: 6%
 
 ---
@@ -90,13 +90,45 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. Clique em **[!UICONTROL Criar experimento]** para começar a configurar seu experimento de conteúdo e criar tratamentos para medir seu desempenho e identificar a melhor opção para seu público-alvo. [Saiba mais](../campaigns/content-experiment.md)
 
-1. Clique em **[!UICONTROL Editar acionadores]** para escolher os eventos e critérios que acionarão sua mensagem:
+1. Clique em **[!UICONTROL Editar acionadores]** para escolher os eventos e critérios que acionarão sua mensagem. Os construtores de regras permitem que os usuários especifiquem critérios e valores que, quando atendidos, acionam um conjunto de ações, como o envio de uma mensagem no aplicativo.
 
-   1. Clique em **Adicionar condição** se desejar que o acionador considere vários eventos ou critérios.
-   1. Selecione como seus eventos são vinculados, por exemplo, escolha **[!UICONTROL E]** se desejar **ambos** será verdadeiro para que uma mensagem seja exibida ou escolha **[!UICONTROL Ou]** se quiser que a mensagem seja exibida se **ou** dos acionadores são verdadeiros.
+   1. Clique na lista suspensa de eventos para alterar o Acionador, se necessário.
+
+   1. Clique em **[!UICONTROL Adicionar condição]** se desejar que o acionador considere vários eventos ou critérios.
+
+   1. Escolha o **[!UICONTROL Ou]** se quiser adicionar mais **[!UICONTROL Triggers]** para expandir ainda mais sua regra.
+
+      ![](assets/in_app_create_3.png)
+
+   1. Escolha o **[!UICONTROL E]** condição se desejar adicionar **[!UICONTROL Características]** e ajustar melhor sua regra.
+
+      +++Consulte as Características disponíveis.
+
+      | Pacote | Características  | Definição |
+      |---|---|---|
+      | Informações do dispositivo | Nome da operadora | Acionado quando um dos nomes da operadora da lista é atendido. |
+      | Informações do dispositivo | Nome do dispositivo | Acionado quando um dos nomes do dispositivo é atendido. |
+      | Informações do dispositivo | Localidade | Acionado quando um dos idiomas da lista é atendido. |
+      | Informações do dispositivo | Versão do sistema operacional | Disparado quando uma das versões do sistema operacional especificadas é atendida. |
+      | Informações do dispositivo | Versão anterior do sistema operacional | Disparado quando uma das versões anteriores do sistema operacional é atendida. |
+      | Informações do dispositivo | Modo de execução | Acionado se o modo Executar for aplicativo ou extensão. |
+      | Ciclo de vida do aplicativo | ID do aplicativo | Acionado quando a ID do aplicativo especificada é atendida. |
+      | Ciclo de vida do aplicativo | Dia da semana | Acionado quando o dia da semana especificado é atendido. |
+      | Ciclo de vida do aplicativo | Dia desde a primeira visita | Disparado quando o número especificado de dias desde a primeira utilização é atingido. |
+      | Ciclo de vida do aplicativo | Dia desde a última visita | Disparado quando o número especificado de dias desde a última utilização é atingido. |
+      | Ciclo de vida do aplicativo | Dia desde a atualização | Disparado quando o número especificado de dias desde a última atualização é atingido. |
+      | Ciclo de vida do aplicativo | Data de instalação | Disparado quando a data de instalação especificada é atingida. |
+      | Ciclo de vida do aplicativo | Inicializações | Disparado quando o número especificado de inicializações é atingido. |
+      | Ciclo de vida do aplicativo | Hora do dia | Disparado quando o horário especificado é cumprido. |
+      | Places | POI atual | Acionado pelo SDK do Places quando o cliente insere o Ponto de interesse (POI) especificado. |
+      | Places | Último POI inserido | Acionado pelo SDK do Places, dependendo do último Ponto de interesse (POI) inserido pelo cliente. |
+      | Places | Último POI de saída | Acionado pelo SDK do Places, dependendo do último Ponto de interesse (POI) de saída do cliente. |
+
++++
+
+      ![](assets/in_app_create_8.png)
+
    1. Clique em **[!UICONTROL Criar grupo]** para agrupar acionadores.
-
-   ![](assets/in_app_create_3.png)
 
 1. Escolha a frequência do acionador quando a mensagem no aplicativo estiver ativa. As opções disponíveis são as seguintes:
 
@@ -121,13 +153,18 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 ## Vídeos tutoriais{#video}
 
-O vídeo abaixo mostra como criar, configurar e publicar mensagens no aplicativo em suas campanhas.
+* O vídeo abaixo mostra como criar, configurar e publicar mensagens no aplicativo em suas campanhas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  +++Ver vídeo
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
++++
 
-O vídeo abaixo mostra como configurar e analisar experimentos de conteúdo para testar mensagens no aplicativo A/B.
+* O vídeo abaixo mostra como configurar e analisar experimentos de conteúdo para testar mensagens no aplicativo A/B.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419898)
+  +++Ver vídeo
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898)
++++
+
 
 **Tópicos relacionados:**
 

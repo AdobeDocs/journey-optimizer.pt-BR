@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: e0f2a96054886737861e261173f68933cab56e99
-workflow-type: ht
-source-wordcount: '1119'
-ht-degree: 100%
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 ### Ações gerais {#general-actions-g}
 
 * Não há limitação de envio.
-* Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida.
+* Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. As tentativas são executadas para todos os erros HTTP, exceto para HTTP 401, 403 e 404.
 * O evento **Reação** integrado permite que você reaja a ações predefinidas. Saiba mais [nesta página](../building-journeys/reaction-events.md). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado.
 * Não é possível colocar duas ações em paralelo, é necessário adicioná-las uma após a outra.
 * Um perfil não pode estar presente várias vezes na mesma jornada ao mesmo tempo. Se a reentrada estiver ativada, um perfil poderá inserir uma jornada novamente, mas não poderá fazer isso até que ele tenha saído totalmente da instância anterior da jornada. [Leia mais](../building-journeys/end-journey.md)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
-source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 4%
+source-wordcount: '1495'
+ht-degree: 5%
 
 ---
 
@@ -63,7 +63,7 @@ No **[!UICONTROL Mais ações]** ícone ao lado de cada fragmento, é possível:
 Para editar um fragmento, siga as etapas abaixo.
 
 1. Clique no item desejado na guia **[!UICONTROL Fragmento]** lista.
-1. Nas propriedades do fragmento, é possível [explorar referências](#explore-references), [gerenciar seu acesso](../administration/object-based-access.md) e atualize os detalhes do fragmento.
+1. Nas propriedades do fragmento, é possível [explorar referências](#explore-references), [gerenciar seu acesso](../administration/object-based-access.md)e atualize os detalhes do fragmento, incluindo [tags](../start/search-filter-categorize.md#tags).
 
    ![](assets/fragment-edit-content.png)
 
@@ -143,6 +143,8 @@ Para criar um fragmento do zero, siga as etapas abaixo.
 
 1. Para atribuir rótulos de uso de dados personalizados ou principais ao fragmento, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Object Level Access Control)](../administration/object-based-access.md).
 
+1. Selecione ou crie tags do Adobe Experience Platform na **[!UICONTROL Tags]** para categorizar seu fragmento para pesquisa aprimorada. [Saiba mais](../start/search-filter-categorize.md#tags)
+
 1. Clique em **[!UICONTROL Criar]**.
 
 1. A variável [Email Designer](get-started-email-design.md) é exibido. Edite seu conteúdo conforme necessário, da mesma forma que faria para qualquer email dentro de uma jornada ou campanha.
@@ -188,6 +190,8 @@ Ao projetar um [template de conteúdo](content-templates.md) ou um [email](get-s
    >Atualmente, somente o **[!UICONTROL Fragmento visual]** e o **E-mail** canal são compatíveis.
 
 1. Para atribuir rótulos de uso de dados personalizados ou principais ao fragmento, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Object Level Access Control)](../administration/object-based-access.md).
+
+1. Selecione ou crie tags do Adobe Experience Platform na **Tags** para categorizar seu modelo para pesquisa aprimorada. [Saiba mais](../start/search-filter-categorize.md#tags)
 
 1. Clique em **[!UICONTROL Criar]** novamente. O fragmento é salvo na variável **[!UICONTROL Fragmentos]** , acessível na [!DNL Journey Optimizer] menu dedicado.
 

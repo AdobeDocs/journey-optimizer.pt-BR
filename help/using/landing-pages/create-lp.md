@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1604'
 ht-degree: 27%
 
 ---
@@ -77,7 +77,7 @@ As principais etapas para criar landing pages são as seguintes:
 
 1. Para atribuir rótulos de uso de dados personalizados ou principais à página de aterrissagem, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Object Level Access Control)](../administration/object-based-access.md)
 
-   <!--You can add a tag. See AEP documentation?-->
+1. Selecione ou crie tags do Adobe Experience Platform na **[!UICONTROL Tags]** para categorizar sua página de aterrissagem para pesquisa aprimorada. [Saiba mais](../start/search-filter-categorize.md#tags)
 
 1. Selecione uma predefinição. Saiba como criar predefinições de página de aterrissagem no [nesta seção](../landing-pages/lp-presets.md#lp-create-preset).
 
@@ -294,7 +294,7 @@ Quando a landing page estiver pronta, você poderá publicá-la para disponibili
 
 Quando a landing page for publicada, ela será adicionada à lista de landing pages com a **[!UICONTROL Publicado]** status.
 
-Agora ele está ativo e pronto para ser usado em uma [!DNL Journey Optimizer] mensagem que será enviada por meio de um [jornada](../building-journeys/journey.md).
+Agora está ativo e pronto para ser usado em um [!DNL Journey Optimizer] mensagem que será enviada por meio de um [jornada](../building-journeys/journey.md).
 
 >[!NOTE]
 >

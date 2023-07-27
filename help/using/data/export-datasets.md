@@ -8,10 +8,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 7%
+source-wordcount: '585'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->O recurso de exportação de conjuntos de dados está atualmente na versão beta e disponível para todos os usuários do Adobe Journey Optimizer. Entre em contato com seu representante da Adobe para obter acesso aos destinos, caso ainda não o tenha.
+>O recurso de exportação de conjuntos de dados está atualmente na versão beta e disponível para todos os usuários do Adobe Journey Optimizer.
 
 O Journey Optimizer permite estabelecer uma conexão ativa com locais de armazenamento na nuvem para exportar o conteúdo de seus conjuntos de dados.
 
@@ -48,9 +48,9 @@ Informações detalhadas sobre cada destino estão disponíveis na documentaçã
 
 Verifique os seguintes pré-requisitos antes de começar a exportar seus conjuntos de dados:
 
-* Para exportar conjuntos de dados, é necessário **Gerenciar destinos**, **Exibir destinos**, **Ativar destinos**, e **Gerenciar e ativar destinos do conjunto de dados** [permissões de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Leia o [visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) ou entre em contato com o administrador do produto para obter as permissões necessárias.
+* Para exportar conjuntos de dados, é necessário **Exibir destinos** e **Gerenciar e ativar destinos do conjunto de dados** [permissões de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Leia o [visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) ou entre em contato com o administrador do produto para obter as permissões necessárias.
 
-* Verifique se o conjunto de dados que você deseja exportar não contém dados de segunda geração. Esse recurso suporta a exportação de dados somente da primeira geração, ou seja, dados brutos conforme definidos na variável [Descrição do produto Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Os dados de primeira geração incluem conjuntos de dados trazidos por fontes da Adobe Experience Platform ou conjuntos de dados coletados usando soluções de Adobe, como o Conector de dados do Analytics e logs/conjuntos de dados de relatórios do Journey Optimizer.
+* Verifique se o conjunto de dados que você deseja exportar não contém dados de segunda geração. Esse recurso suporta a exportação de dados somente da primeira geração, ou seja, dados brutos, conforme definido na variável [Descrição do produto Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Os dados de primeira geração incluem conjuntos de dados trazidos por fontes da Adobe Experience Platform ou conjuntos de dados coletados usando soluções de Adobe, como o Conector de dados do Analytics e logs/conjuntos de dados de relatórios do Journey Optimizer.
 
 ## Etapas principais para exportar conjuntos de dados {#main-steps}
 
@@ -60,7 +60,7 @@ As principais etapas para exportar um conjunto de dados para um local de armazen
 
 Informações detalhadas sobre cada etapa estão disponíveis na documentação do Adobe Experience Platform: [Exportar conjuntos de dados para destinos de armazenamento na nuvem](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html).
 
-1. **Configurar o destino do armazenamento na nuvem**. Se ainda não tiver feito isso, conecte-se a um destino de armazenamento na nuvem do catálogo de destinos. [Saiba como criar uma nova conexão de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
+1. **Configurar o destino do armazenamento na nuvem**. Se ainda não tiver feito isso, conecte-se a um destino de armazenamento na nuvem no catálogo de destinos. [Saiba como criar uma nova conexão de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
 
    <!--![](assets/dataset-export-setup.png)-->
 

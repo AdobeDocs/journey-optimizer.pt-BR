@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 6%
+source-wordcount: '840'
+ht-degree: 5%
 
 ---
 
@@ -108,6 +108,10 @@ O objetivo aqui é ver se os recipients interagirão com o email dependendo do e
    Para nosso experimento, selecionamos **[!UICONTROL Email aberto]** para testar se os recipients abrirão seus emails se o código promocional estiver na linha de assunto.
 
    ![](assets/content_experiment_11.png)
+
+1. Ao configurar um experimento usando o canal no aplicativo ou na Web e escolher o **[!UICONTROL Cliques de entrada]**, **[!UICONTROL Cliques de entrada únicos]** , **[!UICONTROL Exibições de página]** ou **[!UICONTROL Métricas de Visualizações de página únicas]** , o **[!UICONTROL Ação do clique]**  permite rastrear e monitorar com precisão os cliques e as exibições em páginas específicas.
+
+   ![](assets/content_experiment_20.png)
 
 1. Clique em **[!UICONTROL Adicionar tratamento]** para criar quantos novos tratamentos forem necessários.
 

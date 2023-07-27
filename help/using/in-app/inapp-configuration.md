@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 12%
+source-wordcount: '325'
+ht-degree: 11%
 
 ---
 
@@ -26,9 +26,14 @@ Antes de enviar mensagens no aplicativo, é necessário configurar o canal no ap
 
 1. Em seguida, acesse o **[!UICONTROL Superfícies do aplicativo]** e clique em **[!UICONTROL Criar superfície do aplicativo]**.
 
+   >[!NOTE]
+   >
+   > Você precisa do **Gerenciar configuração do aplicativo** permissão para ter acesso à **[!UICONTROL Superfícies do aplicativo]** menu. Para obter mais informações, consulte [este vídeo](#video).
+
    ![](assets/inapp_config_1.png)
 
 1. Adicione um nome ao seu **[!UICONTROL Superfície do aplicativo]**.
+
 
 1. No menu suspenso Apple iOS, digite seu **ID do pacote do iOS**. Consulte [Documentação do Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) para obter mais informações sobre **ID do pacote**.
 
@@ -70,3 +75,12 @@ O canal no aplicativo agora está configurado. Você pode começar a enviar mens
 * [Criar uma campanha](../campaigns/create-campaign.md)
 * [Criar mensagem no aplicativo](design-in-app.md)
 * [Relatório no aplicativo](../reports/campaign-global-report.md#inapp-report)
+
+
+## Vídeos tutoriais{#video}
+
+* O vídeo abaixo mostra como atribuir a variável **Gerenciar configuração do aplicativo** permissão para acessar o menu Superfícies do aplicativo.
+
+  +++Ver vídeo
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
++++

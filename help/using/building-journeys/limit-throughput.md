@@ -8,10 +8,10 @@ role: User, Developer
 level: Experienced
 keywords: jornada, fontes de dados, limite, taxa de transferência, personalizado, ações
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 3%
+source-wordcount: '675'
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,11 @@ Para obter mais informações sobre como integrar com sistemas externos, consult
 
 ## Implementação
 
-Para **jornadas acionadas pelo público**, você pode definir a taxa de limitação da sua atividade Read Audience que afetará a taxa de transferência da jornada.  [Leia mais](../building-journeys/read-audience.md)
+Para **jornadas acionadas pelo público**, você pode definir a taxa de limitação da sua atividade Read Audience que afetará a taxa de transferência da jornada. [Leia mais](../building-journeys/read-audience.md)
+
+>[!NOTE]
+>
+> Este é o número máximo de perfis que podem entrar no público-alvo de leitura por segundo. Essa taxa se aplica somente a essa atividade e não a outras atividades na jornada. [Leia mais](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 
