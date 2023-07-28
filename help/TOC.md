@@ -16,7 +16,7 @@ ht-degree: 99%
 
 + [Documentação do Journey Optimizer](ajo-home.md)
 + Novidades {#whats-new}
-   + [Notas de versão anteriores](using/rn/e-release-notes.md)
+   + [Notas de versão antecipadas](using/rn/e-release-notes.md)
    + [Notas de versão mais recentes](using/rn/release-notes.md)
    + Notas de versão anteriores {#previous-rn-new}
       + [Notas de versão de 2022](using/rn/release-notes-2022.md)
