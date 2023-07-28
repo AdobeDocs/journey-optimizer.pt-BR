@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 446fa1ab7d8f897aa1b6997b9cc664100e30e5a2
+source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '3193'
 ht-degree: 84%
@@ -57,7 +57,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <p>Quando você prepara um delivery direto de mala direta, o Journey Optimizer gera um arquivo incluindo todos os perfis do target e as informações de contato escolhidas (endereço postal por exemplo). Você poderá enviar esse arquivo para seu provedor de correspondência direta que irá cuidar realmente do envio.</p>
 <p>Por enquanto, o Canal de mala direta não está disponível para organizações que compraram a oferta complementar do Adobe Healthcare Shield.</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
-<p>Para obter mais informações, consulte a <a href="../direct-mail/create-direct-mail.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../direct-mail/get-started-direct-mail.md">documentação detalhada</a>.</p>
 </tr>
 </tbody>
 </table>

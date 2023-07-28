@@ -6,18 +6,19 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
-source-git-commit: 40cd058475b37b8fa7d5c0286ad230422e027cf8
+source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
-# Criar uma mensagem de correspondência direta {#create-direct}
+# Introdução à correspondência direta {#create-direct}
 
 >[!AVAILABILITY]
 >
 >Por enquanto, o Canal de mala direta não está disponível para organizações que compraram a oferta complementar do Adobe Healthcare Shield.
+>
 
 A correspondência direta é um canal offline que permite personalizar e gerar os arquivos de extração necessários para os provedores de correspondência direta enviarem emails para seus clientes.
 
