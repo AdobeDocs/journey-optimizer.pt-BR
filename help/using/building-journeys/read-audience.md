@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1383'
 ht-degree: 12%
 
 ---
@@ -67,7 +67,7 @@ As etapas para configurar a atividade Ler público-alvo são as seguintes:
    >
    >Os indivíduos pertencentes a um público-alvo que não tem a identidade (namespace) selecionada entre suas diferentes identidades não podem entrar na jornada. Você só pode selecionar um namespace de identidade com base em pessoas. Se você tiver definido um namespace para uma tabela de pesquisa (por exemplo: Namespace de ProductID para uma pesquisa de Produto), ele não estará disponível na **Namespace** lista suspensa.
 
-1. Defina o **[!UICONTROL Taxa de limitação]**. Este é o número máximo de perfis que podem entrar no público-alvo de leitura por segundo. Essa taxa se aplica somente a essa atividade. Isso não se aplica a outras atividades na jornada. Se você deseja definir uma taxa de limitação em ações personalizadas, por exemplo, é necessário usar a API de limitação. Consulte esta [página](../configuration/throttling.md).
+1. Defina o **[!UICONTROL Taxa de limitação]**. Esse é o número máximo de perfis que podem entrar na jornada por segundo. Essa taxa se aplica somente a essa atividade e nenhuma outra na jornada. Se você deseja definir uma taxa de limitação em ações personalizadas, por exemplo, é necessário usar a API de limitação. Consulte esta [página](../configuration/throttling.md).
 
    Esse valor é armazenado na carga da versão do jornada. O valor padrão é de 5.000 perfis por segundo. Você pode modificar esse valor de 500 para 20.000 perfis por segundo.
 
