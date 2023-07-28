@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 10%
+source-wordcount: '560'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,19 @@ ht-degree: 10%
 >title="Criação de correspondência direta"
 >abstract="Crie mensagens de correspondência direta em campanhas programadas e crie os arquivos de extração exigidos pelos provedores de correspondência direta para enviar para seus clientes."
 
+Para criar mensagens de correspondência direta, crie uma campanha agendada e configure o arquivo de extração. Esse arquivo é exigido por provedores de correspondência direta para enviar emails aos clientes.
+
+>[!IMPORTANT]
+>
+>Antes de criar uma mensagem de correspondência direta, verifique se você configurou:
+>
+>1. A [configuração de roteamento de arquivos](../direct-mail/direct-mail-configuration.md#file-routing-configuration) que especifica o servidor onde o arquivo de extração deve ser carregado e armazenado,
+>1. A [superfície de mensagem de correspondência direta](../direct-mail/direct-mail-configuration.md#direct-mail-surface) que referenciará a configuração de roteamento de arquivos.
+
+
 ## Criar uma campanha de correspondência direta{#create-dm-campaign}
+
+Para criar uma campanha de correspondência direta, siga estas etapas:
 
 1. Crie uma nova campanha agendada e escolha **[!UICONTROL Correspondência direta]** como a ação.
 
@@ -46,6 +58,8 @@ ht-degree: 10%
 Agora você pode começar a configurar o arquivo de extração para enviar ao seu provedor de correspondência direta.
 
 ## Configurar o arquivo de extração {#extraction-file}
+
+O arquivo de extração é exigido por provedores de correspondência direta para enviar emails aos clientes. Para definir a configuração do arquivo de extração, siga estas etapas:
 
 1. Na tela de configuração da campanha, clique no link **[!UICONTROL Editar conteúdo]** botão para configurar o conteúdo do arquivo de extração.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
-source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,4 @@ As principais etapas para enviar mensagens de correspondência direta são as se
 
 Mensagens de correspondência direta só podem ser criadas no contexto de campanhas programadas. Eles não estão disponíveis para uso em campanhas acionadas por API ou em jornadas.
 
->[!IMPORTANT]
->
->Antes de enviar uma mensagem de mala direta, verifique se você configurou:
->
->1. A [configuração de roteamento de arquivos](../direct-mail/direct-mail-configuration.md#file-routing-configuration) que especifica o servidor onde o arquivo de extração deve ser carregado e armazenado,
->1. A [superfície de mensagem de correspondência direta](../direct-mail/direct-mail-configuration.md#direct-mail-surface) que referenciará a configuração de roteamento de arquivos.
+
