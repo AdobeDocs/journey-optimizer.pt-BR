@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
+source-git-commit: 598a5d5ef77d7c1fe5a8487abdb54c8cfb96a2bb
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1399'
 ht-degree: 99%
 
 ---
@@ -53,10 +53,10 @@ ht-degree: 99%
       + [Introdução às atividades de jornada](using/building-journeys/about-journey-activities.md)
       + [Eventos gerais](using/building-journeys/general-events.md)
       + [Reação](using/building-journeys/reaction-events.md)
-      + [Qualificação de público](using/building-journeys/audience-qualification-events.md)
+      + [Qualificação de público-alvo](using/building-journeys/audience-qualification-events.md)
       + [Condição](using/building-journeys/condition-activity.md)
       + [Aguardar](using/building-journeys/wait-activity.md)
-      + [Ler público](using/building-journeys/read-audience.md)
+      + [Público-alvo de leitura](using/building-journeys/read-audience.md)
       + [Email, no aplicativo, push, SMS](using/building-journeys/journeys-message.md)
       + [Ações personalizadas](using/building-journeys/using-custom-actions.md)
       + [Ações do Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
@@ -228,7 +228,9 @@ ht-degree: 99%
    + [Configurar canal de SMS](using/sms/sms-configuration.md)
    + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
 + Correspondência direta {#direct-mail}
+   + [Introdução à correspondência direta](using/direct-mail/get-started-direct-mail.md)
    + [Criar uma correspondência direta](using/direct-mail/create-direct-mail.md)
+   + [Testar e enviar uma mensagem de correspondência direta](using/direct-mail/test-send-direct-mail.md)
    + [Configurar correspondência direta](using/direct-mail/direct-mail-configuration.md)
 + Canal da Web{#web}
    + [Introdução ao canal Web](using/web/get-started-web.md)
@@ -279,12 +281,12 @@ ht-degree: 99%
       + [Introdução ao conteúdo dinâmico](using/personalization/get-started-dynamic-content.md)
       + [Criar regras condicionais](using/personalization/create-conditions.md)
       + [Criar conteúdo dinâmico](using/personalization/dynamic-content.md)
-+ Públicos, perfis e identidade{#audiences-profiles-identities}
++ Públicos-alvo, perfis e identidade{#audiences-profiles-identities}
    + Públicos-alvo {#audiences}
       + [Introdução aos públicos](using/audience/about-audiences.md)
       + [Criar definições de segmento](using/audience/creating-a-segment-definition.md)
       + Compor públicos-alvo {#audience-orchestration}
-         + [Introdução à composição de público-alvo](using/audience/get-started-audience-orchestration.md)
+         + [Introdução à composição de público](using/audience/get-started-audience-orchestration.md)
          + [Criar workflows de composição](using/audience/create-compositions.md)
          + [Trabalhar com a tela de composição](using/audience/composition-canvas.md)
          + [Acessar e gerenciar públicos-alvo](using/audience/access-audiences.md)

@@ -6,14 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
-hide: true
-hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-badge: label="Beta" type="Informative"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 11%
+source-wordcount: '459'
+ht-degree: 10%
 
 ---
 
@@ -24,69 +21,58 @@ ht-degree: 11%
 >title="Criação de correspondência direta"
 >abstract="Crie mensagens de correspondência direta em campanhas programadas e crie os arquivos de extração exigidos pelos provedores de correspondência direta para enviar para seus clientes."
 
->[!BEGINSHADEBOX]
+## Criar uma campanha de correspondência direta{#create-dm-campaign}
 
-O que você encontrará nesta documentação:
+1. Crie uma nova campanha agendada e escolha **[!UICONTROL Correspondência direta]** como a ação.
 
-* **[Criar uma correspondência direta](create-direct-mail.md)**
-* [Configurar correspondência direta](direct-mail-configuration.md)
+1. Selecione o **[!UICONTROL Superfície da correspondência direta]** para usar e clique em **[!UICONTROL Criar]**. [Saiba como criar uma superfície de correspondência direta](direct-mail-configuration.md#direct-mail-surface).
 
->[!ENDSHADEBOX]
+   ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
->[!AVAILABILITY]
->
->A correspondência direta está disponível no momento como um beta privado e pode estar sujeita a atualizações frequentes sem aviso prévio.
+1. No **[!UICONTROL Propriedades]** edite o da sua campanha **[!UICONTROL Título]** e **[!UICONTROL Descrição]**.
 
-A correspondência direta é um canal offline que permite personalizar e gerar os arquivos de extração necessários para os provedores de correspondência direta enviarem emails para seus clientes.
+1. Para definir seu público-alvo, clique no link **[!UICONTROL Selecionar público]** e escolha entre os públicos-alvo da Adobe Experience Platform disponíveis. [Saiba mais](../audience/about-audiences.md).
 
-Ao criar uma correspondência direta, o Journey Optimizer gera um arquivo incluindo todos os perfis segmentados e os dados escolhidos (endereço postal, atributos de perfil, por exemplo). O provedor de correspondência direta poderá recuperar esse arquivo e cuidará do envio real.
+   >[!IMPORTANT]
+   >
+   >Por enquanto, a seleção de público está restrita a 3 milhões de perfis. Essa limitação pode ser removida mediante solicitação ao representante da Adobe.
 
-Mensagens de correspondência direta só podem ser criadas no contexto de campanhas programadas. Eles não estão disponíveis para uso em campanhas acionadas por API ou em jornadas.
+1. No **[!UICONTROL Namespace de identidade]** selecione o namespace apropriado para identificar indivíduos no público-alvo escolhido. [Saiba mais](../event/about-creating.md#select-the-namespace).
 
->[!IMPORTANT]
->
->Antes de enviar uma mensagem de mala direta, verifique se você configurou:
->
->1. A [configuração de roteamento de arquivos](../direct-mail/direct-mail-configuration.md#file-routing-configuration) que especifica o servidor onde o arquivo de extração deve ser carregado e armazenado,
->1. A [superfície de mensagem de correspondência direta](../direct-mail/direct-mail-configuration.md#direct-mail-surface) que referenciará a configuração de roteamento de arquivos.
+   ![](assets/direct-mail-campaign-properties.png){width="800" align="center"}
 
+1. As campanhas podem ser agendadas para uma data específica ou definidas para recorrentes em intervalos regulares. Saiba como configurar o **[!UICONTROL Agendar]** da sua campanha no [nesta seção](../campaigns/create-campaign.md#schedule).
 
-## Criar sua mensagem de correspondência direta {#create}
+Agora você pode começar a configurar o arquivo de extração para enviar ao seu provedor de correspondência direta.
 
-As etapas para criar e enviar uma mensagem de correspondência direta são as seguintes:
+## Configurar o arquivo de extração {#extraction-file}
 
-1. Crie uma nova campanha agendada, selecione **[!UICONTROL Correspondência direta]** como sua ação e escolha a superfície de canal a ser usada. [Saiba como criar uma superfície de correspondência direta](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+1. Na tela de configuração da campanha, clique no link **[!UICONTROL Editar conteúdo]** botão para configurar o conteúdo do arquivo de extração.
 
-   ![](assets/direct-mail-campaign.png)
+1. Ajuste as propriedades do arquivo de extração:
 
-1. Clique em **[!UICONTROL Criar]** em seguida, defina as informações básicas sobre a campanha (nome, descrição). [Saiba como configurar uma campanha](../campaigns/create-campaign.md)
+   1. Especifique o desejado **[!UICONTROL Nome do arquivo]** para o arquivo de extração.
 
-1. Clique em **[!UICONTROL Editar conteúdo]** botão para configurar o arquivo de extração a ser enviado ao seu provedor de correspondência direta.
+   1. Como opção, ative a opção **[!UICONTROL Acrescentar carimbo de data/hora ao nome do arquivo de exportação]** opção se quiser adicionar um carimbo de data e hora automático ao nome de arquivo especificado.
 
-1. Defina o nome do arquivo de extração na variável **[!UICONTROL Nome do arquivo]** campo.
+   1. Às vezes, pode ser necessário adicionar informações ao início ou final do arquivo de extração. Para fazer isso, use o **[!UICONTROL Notas]** e especifique se deseja incluir a nota como cabeçalho ou rodapé.
 
-   Às vezes, pode ser necessário adicionar informações ao início ou final do arquivo de extração. Para fazer isso, use o **[!UICONTROL Notas]** e especifique se deseja incluir a nota como um cabeçalho ou rodapé.
+      ![](assets/direct-mail-properties.png){width="800" align="center"}
 
-   <!--Click on the button to the right of the Output file field and enter the desired label. You can use personalization fields, content blocks and dynamic text (see Defining content). For example, you can complete the label with the delivery ID or the extraction date.-->
+1. Configure as colunas e as informações a serem exibidas no arquivo de extração:
 
-   ![](assets/direct-mail-properties.png)
+   1. Clique em **[!UICONTROL Adicionar]** botão para criar uma nova coluna.
 
-1. Use a área do lado esquerdo para definir as informações a serem exibidas como colunas no arquivo de extração:
+   1. A variável **[!UICONTROL Formatação]** é exibido no lado direito, permitindo que você configure a coluna selecionada. Especificar um **[!UICONTROL Rótulo]** para a coluna.
 
-   1. Clique em **[!UICONTROL Adicionar]** botão para adicionar uma nova coluna, em seguida, selecione-a na lista.
+   1. No **[!UICONTROL Dados]** selecione os atributos de perfil a serem exibidos usando o [Editor de expressão](../personalization/personalization-build-expressions.md).
 
-   1. No **[!UICONTROL Formatação]** especifique um rótulo para a coluna e defina os atributos de perfil a serem exibidos usando a [Editor de expressão](../personalization/personalization-build-expressions.md).
+   1. Para classificar o arquivo de extração usando uma coluna, selecione a coluna e alterne no **[!UICONTROL Classificar por]** opção. A variável **[!UICONTROL Classificar por]** O ícone é exibido ao lado do rótulo da coluna na **[!UICONTROL Campos de dados]** seção.
 
-      ![](assets/direct-mail-content.png)
+      ![](assets/direct-mail-content.png){width="800" align="center"}
 
-   1. Para classificar o arquivo de extração usando a coluna selecionada, alterne a **[!UICONTROL Classificar por]** opção ativada. A variável **[!UICONTROL Classificar por]** O ícone será exibido ao lado do rótulo da coluna na estrutura do arquivo.
+   1. Repita essas etapas para adicionar quantas colunas forem necessárias para o arquivo de extração. Observe que você pode adicionar até 50 colunas.
 
-1. Repita essas etapas para adicionar quantas colunas forem necessárias para criar o arquivo de extração. Observe que você pode adicionar até 50 colunas.
+      Para alterar a posição de uma coluna, arraste-a e solte-a no local desejado na **[!UICONTROL Campo de dados]** seção. Para excluir uma coluna, selecione-a e clique no **[!UICONTROL Remover]** botão na caixa **[!UICONTROL Formatação]** painel.
 
-   Você pode deletar uma coluna a qualquer momento selecionando-a e clicando no **[!UICONTROL Remover]** botão no **[!UICONTROL Formatação]** seção.
-
-   ![](assets/direct-mail-complete.png)
-
-1. Depois que o conteúdo da correspondência direta for definido, conclua a configuração da campanha.
-
-   Quando a campanha for iniciada, o arquivo de extração será gerado e exportado automaticamente para o servidor especificado em [configuração de roteamento de arquivos](../direct-mail/direct-mail-configuration.md).
+Agora você pode testar sua mensagem de correspondência direta e enviá-la ao seu público-alvo. [Saiba como testar e enviar mensagens de correspondência direta](test-send-direct-mail.md)

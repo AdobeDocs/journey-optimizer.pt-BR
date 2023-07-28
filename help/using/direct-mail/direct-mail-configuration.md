@@ -6,27 +6,15 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-hide: true
-hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-badge: label="Beta" type="Informative"
-source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
+source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 33%
+source-wordcount: '881'
+ht-degree: 31%
 
 ---
 
 # Configuração de correspondência direta {#direct-mail-configuration}
-
->[!BEGINSHADEBOX]
-
-O que você encontrará nesta documentação:
-
-* [Criar uma correspondência direta](create-direct-mail.md)
-* **[Configurar correspondência direta](direct-mail-configuration.md)**
-
->[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] O permite personalizar e gerar os arquivos exigidos por provedores de correspondência direta para enviar emails a seus clientes.
 
@@ -80,13 +68,13 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de roteamento de arquivos]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
 
-   ![](assets/file-routing-config-button.png)
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Defina um nome para a sua configuração.
 
 1. Selecione o **[!UICONTROL Tipo de servidor]** que você deseja usar para exportar os arquivos de correspondência direta.
 
-   ![](assets/file-routing-config-type.png)
+   ![](assets/file-routing-config-type.png){width="800" align="center"}
 
    >[!NOTE]
    >
@@ -98,7 +86,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 1. Se você selecionou **[!UICONTROL Amazon S3]**, escolha o **[!UICONTROL Região do AWS]** onde a infraestrutura do servidor estará localizada.
 
-   ![](assets/file-routing-config-aws-region.png)
+   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
    >[!NOTE]
    >
@@ -137,11 +125,11 @@ Uma superfície de correspondência direta também deve incluir a configuração
 
 1. Selecione o **[!UICONTROL Correspondência direta]** canal.
 
-   ![](assets/surface-direct-mail-channel.png)
+   ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
 
 1. Defina as configurações de correspondência direta na seção dedicada da configuração da superfície de canal.
 
-   ![](assets/surface-direct-mail-settings.png)
+   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -157,7 +145,7 @@ Uma superfície de correspondência direta também deve incluir a configuração
    >
    >Se você não tiver configurado nenhuma opção de roteamento de arquivo, não será possível criar uma superfície de correspondência direta. [Saiba mais](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png)
+   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
