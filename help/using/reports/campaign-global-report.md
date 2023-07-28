@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
 workflow-type: tm+mt
 source-wordcount: '2498'
 ht-degree: 4%
@@ -364,6 +364,8 @@ A variável **[!UICONTROL Cliques por elemento]** A tabela detalha as principais
 ## Guia Correspondência direta {#direct-mail-global}
 
 Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Correspondência direta]** A guia detalha as principais informações relacionadas aos deliveries de correspondência direta.
+
+![](assets/direct-mail-report_1.png)
 
 +++Saiba mais sobre as diferentes métricas e widgets disponíveis para o Relatório de correspondência direta.
 
