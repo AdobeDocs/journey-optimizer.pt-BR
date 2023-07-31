@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing page, landing page, lista, assinatura, serviço
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: b7685798cec415c8a97992ddacf8f0ebcb393107
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 12%
@@ -58,11 +58,11 @@ Para criar uma lista de assinaturas, siga as etapas abaixo.
    >
    >No momento, não é possível usar o espaçamento ou inserir um nome que já existe para outra lista de assinaturas na **[!UICONTROL Título]** campo.
 
-1. Selecione ou crie tags do Adobe Experience Platform na **[!UICONTROL Tags]** para categorizar sua página de aterrissagem para pesquisa aprimorada. [Saiba mais](../start/search-filter-categorize.md#tags)
-
 1. Você pode definir uma data inicial e uma data final.
 
    ![](assets/lp_subscription-list-dates.png)
+
+1. Selecione ou crie tags do Adobe Experience Platform na **[!UICONTROL Tags]** para categorizar sua página de aterrissagem para pesquisa aprimorada. [Saiba mais](../start/search-filter-categorize.md#tags)
 
 1. Clique em **[!UICONTROL Salvar]**.
 
