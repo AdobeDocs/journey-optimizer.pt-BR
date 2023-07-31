@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -92,7 +92,7 @@ O objetivo aqui é ver se os recipients interagirão com o email dependendo do e
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_dimension"
 >title="Dimensão"
->abstract="Escolha a dimensão específica a ser monitorada para o seu Experimento, como cliques ou visualizações específicos de páginas específicas."
+>abstract="Escolha a dimensão específica a ser rastreada para o seu experimento, como certos cliques ou visualizações de determinadas páginas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_success_metric"
