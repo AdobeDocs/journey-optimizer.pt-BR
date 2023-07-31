@@ -4,9 +4,9 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
 workflow-type: tm+mt
-source-wordcount: '3001'
+source-wordcount: '3061'
 ht-degree: 97%
 
 ---
@@ -17,9 +17,11 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Julho de 2023 {#july-2023}
 
+* Todos os novos recursos e aprimoramentos chegando com a versão de [!DNL Journey Optimizer] 23 de julho estão detalhados na documentação. [Leia mais](release-notes.md)
 * A página de documentação da atividade de espera foi aprimorada com informações adicionais e práticas recomendadas relacionadas ao tempo limite global e ao uso de reentrada. [Leia mais](../building-journeys/wait-activity.md)
 * A página sobre o gerenciamento de entradas foi aprimorada. [Leia mais](../building-journeys/entry-management.md)
-* Foram adicionadas informações adicionais sobre a taxa de limitação na documentação de atividade Ler público. [Leia mais](../building-journeys/read-audience.md)
+* Foram adicionadas informações adicionais sobre a taxa de limitação na documentação de Ler atividade de público. [Leia mais](../building-journeys/read-audience.md)
+* A variável **Implementar consentimento de personalização** a seção foi atualizada para descrever como impor manualmente o consentimento de personalização em campanhas: você pode usar o construtor de regras de segmento para criar um público-alvo contendo perfis de recusa ou adicionar uma atividade dividida a um fluxo de trabalho de composição. [Leia mais](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## Junho de 2023 {#june-2023}
 
@@ -188,7 +190,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * Todos os novos recursos e aprimoramentos da versão de janeiro de 2022 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
 * A seção **Classificações de IA do Offer Decisioning** foi atualizada com uma descrição mais detalhada do modelo de otimização automática. [Leia mais](../offers/ranking/auto-optimization-model.md)
-* Foi adicionada uma nova seção sobre os requisitos de esquema necessários para poder enviar tipos de evento ao usar um modelo de IA. [Leia mais](../offers/data-collection/schema-requirement.md)
+* Foi adicionada uma nova seção sobre os requisitos de esquema necessários para poder enviar tipos de eventos ao usar um modelo de IA. [Leia mais](../offers/data-collection/schema-requirement.md)
 * A seção relacionada aos recursos de personalização do [!DNL Journey Optimizer] foi reorganizada para melhorar a compreensão. [Leia mais](../personalization/personalize.md)
 * A seção **Criar predefinições de mensagem** foi dividida em várias seções para maior clareza. [Leia mais](../configuration/channel-surfaces.md#create-channel-surface)
 * A seção **Gerenciamento de opção de não participação** foi esclarecida e levemente reorganizada. [Leia mais](../privacy/opt-out.md#opt-out-management)
