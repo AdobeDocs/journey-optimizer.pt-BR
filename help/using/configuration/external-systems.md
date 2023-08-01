@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
+source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1219'
 ht-degree: 32%
 
 ---
@@ -44,9 +44,9 @@ Por exemplo, digamos que você tenha definido uma regra de limite ou limitação
 
 >[!IMPORTANT]
 >
->As **regras de limite** são configuradas no nível da sandbox para um ponto de acesso específico (o URL chamado), porém, são globais para todas as jornadas dessa sandbox.
+>As **regras de limite** são configuradas no nível da sandbox para um ponto de acesso específico (o URL chamado), porém, são globais para todas as jornadas dessa sandbox. O limite está disponível em fontes de dados e ações personalizadas.
 >
->As **regras de limitação** são configuradas apenas em sandboxes de produção para um ponto de acesso específico, porém, são globais para todas as jornadas em todas as sandboxes. Você pode ter apenas uma configuração de limitação por organização.
+>As **regras de limitação** são configuradas apenas em sandboxes de produção para um ponto de acesso específico, porém, são globais para todas as jornadas em todas as sandboxes. Você pode ter apenas uma configuração de limitação por organização. A limitação só está disponível em ações personalizadas.
 
 Para obter mais informações sobre como trabalhar com as APIs, consulte estas seções:
 
@@ -81,7 +81,7 @@ O valor de duração do tempo limite depende do caso de uso. Se você quiser env
 
 Vamos ver um exemplo para um tempo limite de 5 segundos.
 
-* A primeira chamada dura menos de 5 segundos: a chamada é bem-sucedida, não há nova tentativa.
+* A primeira chamada dura menos de 5 segundos: a chamada é bem-sucedida, não há nenhuma tentativa nova.
 * A primeira chamada dura mais de 5 segundos: a chamada é cancelada e não há nenhuma tentativa. É contado como um erro de tempo limite no relatório.
 * A primeira chamada falha após 2 segundos (o sistema externo retorna um erro): restam 3 segundos para tentativas, se os slots de limite estiverem disponíveis.
    * Se uma das três tentativas for bem-sucedida antes do final dos 5 segundos, a chamada será executada e não haverá erro.
