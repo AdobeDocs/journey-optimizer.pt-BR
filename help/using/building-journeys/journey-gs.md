@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: ca2db9343f1362d3fe3e75b74c3c7bb12bb1c30f
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1591'
 ht-degree: 27%
 
 ---
@@ -51,7 +51,7 @@ Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]*
 
 >[!NOTE]
 >
->Esse painel considera as jornadas com tráfego nas últimas 24 horas. Somente as jornadas às quais você tem acesso são exibidas.
+>Esse painel considera as jornadas com tráfego nas últimas 24 horas. Somente as jornadas às quais você tem acesso são exibidas. As métricas são atualizadas a cada 30 minutos e somente quando novos dados estão disponíveis.
 
 ![](assets/journeys-dashboard.png)
 
