@@ -5,9 +5,9 @@ title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3193'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Composição de público</strong><br/></th>
+<th><strong>Composição de público-alvo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -38,7 +38,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <p>Agora é possível criar fluxos de trabalho de composição para combinar públicos já existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, enriquecer...) para criar novos públicos. Os públicos-alvo recém-criados são salvos na Adobe Experience Platform junto com os públicos-alvo existentes e podem ser aproveitados nas campanhas do Journey Optimizer para direcionar clientes.</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Para obter mais informações, consulte a <a href="../audience/get-started-audience-orchestration.md">documentação detalhada</a>.</p>
-<p>A composição de público-alvo vem totalmente integrada ao novo menu "Públicos-alvo" do Adobe Experience Platform, que serve como um portal centralizado para públicos-alvo. Agora você pode usar uma página de navegação que inclui um novo painel com tendências e sobreposições de segmentos para encontrar novos insights e explorar ferramentas organizacionais para pastas e marcação. Incorporados nessa experiência estão controles de governança para rotulagem de público-alvo padronizada, bem como recursos de gerenciamento do ciclo de vida do público-alvo para gerenciar workflows de ativação. Com essa nova experiência de gerenciamento, agora é possível gerenciar públicos-alvo de maneira fácil e segura em um único local. Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR" target="_blank">Documentação do Adobe Experience Platform</a>.</p></p>
+<p>A composição de público-alvo vem totalmente integrada ao novo menu “Públicos-alvo” da Adobe Experience Platform, que serve como um portal centralizado para públicos-alvo. Agora é possível usar uma página de navegação que inclui um novo painel com tendências de segmento e sobreposições para encontrar novos insights e explorar ferramentas organizacionais para organização em pastas e marcação. Incorporados nessa experiência estão controles de governança para rotulagem de público-alvo padronizada, bem como recursos de gerenciamento do ciclo de vida do público-alvo para gerenciar fluxos de trabalho de ativação. Com essa nova experiência de gerenciamento, agora é possível gerenciar públicos-alvo de maneira fácil e segura em um único local. Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR" target="_blank">Documentação da Adobe Experience Platform</a>.</p></p>
 </td>
 </tr>
 </tbody>
@@ -53,9 +53,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>Agora você pode adicionar mensagens de correspondência direta em suas campanhas. Correspondência direta é um canal offline que permite personalizar e gerar os arquivos exigidos por provedores de correspondência direta para enviar mensagens para seus clientes.</p>
-<p>Quando você prepara um delivery direto de mala direta, o Journey Optimizer gera um arquivo incluindo todos os perfis do target e as informações de contato escolhidas (endereço postal por exemplo). Você poderá enviar esse arquivo para seu provedor de correspondência direta que irá cuidar realmente do envio.</p>
-<p>Por enquanto, o Canal de mala direta não está disponível para organizações que compraram a oferta complementar do Adobe Healthcare Shield.</p>
+<p>Agora você pode adicionar mensagens de correspondência direta em suas campanhas. Correspondência direta é um canal offline que permite personalizar e gerar os arquivos exigidos por provedores de correspondência direta para enviar correspondência para seus clientes.</p>
+<p>Ao preparar uma entrega de correspondência direta, o Journey Optimizer gera um arquivo incluindo todos os perfis de destino e as informações do contato escolhido (endereço postal por exemplo). Será possível então enviar esse arquivo para seu provedor de correspondência direta que irá cuidar do envio em si.</p>
+<p>Por enquanto, o canal de Correspondência direta não está disponível para organizações que compraram a oferta complementar do Adobe Healthcare Shield.</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>Para obter mais informações, consulte a <a href="../direct-mail/get-started-direct-mail.md">documentação detalhada</a>.</p>
 </tr>
@@ -71,7 +71,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>Agora você pode importar e converter qualquer conteúdo de HTML no editor de email do Journey Optimizer. Os blocos de conteúdo são identificados automaticamente e disponibilizados no designer de email: use seus poderosos recursos de design para atualizá-los e personalizá-los!</p>
+<p>Agora é possível importar e converter qualquer conteúdo de HTML no editor de email do Journey Optimizer. Os blocos de conteúdo são identificados automaticamente e disponibilizados no designer de email: use seus recursos de design eficientes para atualizá-los e personalizá-los.</p>
 <img src="assets/html-convert.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -83,13 +83,13 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Usar tags na Journey Optimizer</strong><br/></th>
+<th><strong>Usar tags no Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Além de campanhas e jornadas, agora é possível atribuir Tags unificadas do Adobe Experience Platform às suas páginas de aterrissagem, modelos de conteúdo, fragmentos e listas de assinatura. Isso permite classificá-los facilmente e melhorar a pesquisa e a navegação em todas as listas. </p>
+<p>Além de campanhas e jornadas, agora é possível atribuir Tags unificadas da Adobe Experience Platform às suas páginas de destino, modelos de conteúdo, fragmentos e listas de assinatura. Isso permite classificá-los facilmente e melhorar a pesquisa e a navegação em todas as listas. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Para obter mais informações, consulte a <a href="../start/search-filter-categorize.md#tags">documentação detalhada</a>.</p>
 </td>
@@ -107,7 +107,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>Agora é possível criar e gerenciar modelos de conteúdo do Adobe Journey Optimizer usando APIs dedicadas, fornecendo uma integração perfeita com seu sistema de conteúdo existente.</p>
+<p>Agora é possível criar e gerenciar modelos de conteúdo do Adobe Journey Optimizer usando APIs dedicadas, proporcionando uma integração perfeita com seu sistema de conteúdo já existente.</p>
 <p>Para obter mais informações, consulte a <a href="https://developer.adobe.com/journey-optimizer-apis/references/content-templates/">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -126,26 +126,26 @@ A new type of system alert has been introduced. You can now get notified when a 
 
 **Campanhas**
 
-Eventos contextuais relacionados a campanhas agora estão disponíveis para uso no menu &quot;Contextual attributes&quot; do editor de personalização.
+Eventos contextuais relacionados a campanhas agora estão disponíveis para uso no menu “Atributos contextuais” do editor de personalização.
 
 
 **Públicos-alvo**
 
-Foram feitos aprimoramentos no seletor de público em jornadas ou campanhas, com a adição de novas colunas que exibem a origem e a frequência de atualização dos públicos. Com o lançamento do portal Composição de público-alvo, a Adobe Experience Platform e a Adobe Journey Optimizer atualizaram o uso de &quot;públicos-alvo&quot; e &quot;segmentos&quot; no sistema e na documentação.
+Foram feitos aprimoramentos no seletor de público-alvo em jornadas ou campanhas, com a adição de novas colunas que exibem a origem e a frequência de atualização dos públicos-alvo. Com o lançamento do portal Composição de público-alvo, a Adobe Experience Platform e o Adobe Journey Optimizer atualizaram oa utilização de “públicos-alvo” e “segmentos” no sistema e na documentação.
 
 * Público-alvo: um conjunto de pessoas, contas, famílias ou outras entidades que compartilham características e comportamentos comuns.
 * Definição de segmento: na Adobe Experience Platform, as regras usadas para descrever as principais características ou comportamentos de um público-alvo. Esse termo era anteriormente conhecido apenas como “segmento”.
 
-Como resultado, no Adobe Journey Optimizer e na interface do usuário do Adobe Experience Platform, os &quot;Segmentos&quot; são substituídos por &quot;Públicos-alvo&quot; para refletir esse novo caminho de criação e gerenciamento de público-alvo.
+Como resultado, na interface do Adobe Journey Optimizer e da Adobe Experience Platform, “Segmentos” será substituído por “Públicos-alvo” para refletir esse novo caminho de criação e gerenciamento de público-alvo.
 
 **APIs**
 
-O método JWT para gerar tokens de acesso para autenticação de APIs do Adobe Journey Optimizer foi descontinuado. Todas as novas integrações devem ser criadas usando o método de autenticação OAuth de servidor para servidor. A Adobe também recomenda migrar suas integrações existentes para o método OAuth. [Saiba mais](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+O método JWT para gerar tokens de acesso para a autenticação de APIs do Adobe Journey Optimizer foi descontinuado. Todas as novas integrações devem ser criadas usando o método de autenticação OAuth de servidor para servidor. A Adobe também recomenda migrar as integrações já existentes para o método OAuth. [Saiba mais](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 
 **Outras alterações**
 
-A exportação de conjuntos de dados do Journey Optimizer para Destinos de armazenamento na nuvem agora está disponível para todos os clientes como um beta público. Esse recurso permite estabelecer uma conexão ativa com locais de armazenamento na nuvem para exportar o conteúdo de seus conjuntos de dados. [Saiba mais](../data/export-datasets.md)
+A exportação de conjuntos de dados do Journey Optimizer para Destinos de armazenamento na nuvem agora está disponível para todos os clientes como um beta público. Com esse recurso, é possível estabelecer uma conexão ativa com locais de armazenamento na nuvem para exportar o conteúdo dos conjuntos de dados. [Saiba mais](../data/export-datasets.md)
 
 
 
