@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -49,9 +49,9 @@ Nas listas, é possível executar ações básicas em cada elemento. Por exemplo
 
 Com as [tags unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=pt-BR) da Adobe Experience Platform, é possível classificar facilmente suas jornadas e campanhas do Journey Optimizer para melhorar a pesquisa nas listas.
 
-### Adicionar tags a um objeto
+### Adição de tags a um objeto
 
-A variável **[!UICONTROL Tags]** permite definir tags para o seu objeto. Tags estão disponíveis para os seguintes objetos:
+O campo **[!UICONTROL Tags]** permite definir tags para o seu objeto. Tags estão disponíveis para os seguintes objetos:
 
 * [Jornadas](../building-journeys/journey-gs.md#change-properties)
 * [Campanhas](../campaigns/create-campaign.md#create)
@@ -62,7 +62,7 @@ A variável **[!UICONTROL Tags]** permite definir tags para o seu objeto. Tags e
 
 É possível selecionar uma tag já existente ou criar uma nova. Para isso, siga as etapas abaixo.
 
-1. Comece digitando o nome da tag desejada e/ou selecione-a na lista.
+1. Comece digitando o nome da tag desejada e selecione-a na lista.
 
    ![](assets/tags1.png)
 
@@ -70,21 +70,21 @@ A variável **[!UICONTROL Tags]** permite definir tags para o seu objeto. Tags e
    >
    > As tags não diferenciam maiúsculas de minúsculas.
 
-1. Se a tag que você está pesquisando não estiver disponível, clique em **[!UICONTROL Criar &quot;&quot;]** para definir um novo - ele será adicionado automaticamente ao objeto atual e ficará disponível para todos os outros objetos.
+1. Se a tag que está pesquisando não estiver disponível, clique em **[!UICONTROL Criar “”]** para definir uma nova. Ela será adicionada automaticamente ao objeto atual e ficará disponível para todos os outros.
 
    ![](assets/tags4.png)
 
-1. A lista de tags selecionadas ou criadas é exibida abaixo de **[!UICONTROL Tags]** campo. É possível definir quantas tags forem necessárias.
+1. A lista de tags selecionadas ou criadas é exibida abaixo do campo **[!UICONTROL Tags]**. É possível definir quantas tags forem necessárias.
 
 >[!NOTE]
 > 
-> Se você duplicar ou criar uma nova versão de um objeto, as tags serão preservadas.
+> Se duplicar ou criar uma nova versão de um objeto, as tags serão preservadas.
 
 ### Filtrar por tags
 
 Cada lista de objetos exibe uma coluna dedicada para que você possa visualizar facilmente suas tags.
 
-Um filtro também está disponível para exibir somente objetos com determinadas tags.
+Um filtro também está disponível para somente exibir objetos com determinadas tags.
 
 ![](assets/tags2.png)
 
