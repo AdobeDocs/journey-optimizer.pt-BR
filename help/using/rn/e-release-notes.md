@@ -6,9 +6,9 @@ description: Notas de versão antecipadas do Journey Optimizer
 hide: true
 hidefromtoc: true
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '638'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -122,7 +122,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 * You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando houver falha em uma ação personalizada.
-—>
+-->
 
 **Campanhas**
 
