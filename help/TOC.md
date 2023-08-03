@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 598a5d5ef77d7c1fe5a8487abdb54c8cfb96a2bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1399'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -229,8 +229,8 @@ ht-degree: 99%
    + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
 + Correspondência direta {#direct-mail}
    + [Introdução à correspondência direta](using/direct-mail/get-started-direct-mail.md)
-   + [Criar uma correspondência direta](using/direct-mail/create-direct-mail.md)
-   + [Testar e enviar uma mensagem de correspondência direta](using/direct-mail/test-send-direct-mail.md)
+   + [Criação de uma correspondência direta](using/direct-mail/create-direct-mail.md)
+   + [Teste e envio de uma mensagem de correspondência direta](using/direct-mail/test-send-direct-mail.md)
    + [Configurar correspondência direta](using/direct-mail/direct-mail-configuration.md)
 + Canal da Web{#web}
    + [Introdução ao canal Web](using/web/get-started-web.md)
