@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
+source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '879'
 ht-degree: 31%
 
 ---
@@ -78,7 +78,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Atualmente, o Amazon S3, SFTP e Azure são compatíveis com o [!DNL Journey Optimizer].
+   >Atualmente Amazon S3 e SFTP<!--and Azure--> são compatíveis com o [!DNL Journey Optimizer].
 
 1. Preencha os detalhes e as credenciais do seu servidor, como endereço do servidor, chave de acesso etc.
 
@@ -135,7 +135,7 @@ Uma superfície de correspondência direta também deve incluir a configuração
 
 1. Selecione o formato de arquivo: **[!UICONTROL CSV]** ou **[!UICONTROL Delimitado por texto]**.
 
-1. Se você selecionar **[!UICONTROL Delimitado por texto]**, defina o separador de coluna de sua escolha: tabulação, ponto e vírgula, barra vertical ou e comercial.
+1. Se você selecionar **[!UICONTROL Delimitado por texto]**, defina o separador de colunas de sua escolha: tabulação, ponto e vírgula ou barra vertical<!--or ampersand-->.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
