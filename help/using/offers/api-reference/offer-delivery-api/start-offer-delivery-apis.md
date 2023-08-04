@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 76661d574ffabf32c4c1db8d88744604e50d7b40
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 6%
+source-wordcount: '430'
+ht-degree: 4%
 
 ---
 
@@ -19,10 +19,6 @@ ht-degree: 6%
 
 Nesta página, você encontrará informações sobre funcionalidades específicas disponíveis com o **Decisão** e **Edge Decisioning** APIs. Embora ambos permitam que você forneça ofertas aos seus clientes, recomendamos usar o **Edge Decisioning** sempre que possível para casos de uso de entrada e para garantir melhor latência e taxa de transferência na sua plataforma.
 
-|  | Solicitações/s | Latência |
-|---|---|---|
-| API de decisão | 2000 | &lt;500ms |
-| API de decisão do Edge | 5000 | &lt;250ms |
 
 Para obter mais informações sobre como trabalhar com as APIs, consulte estas seções:
 * [API de decisão](decisioning-api.md)
