@@ -11,28 +11,28 @@ badge: label="Beta" type="Informative"
 keywords: action, third-party, custom, jornada, API
 hide: true
 hidefromtoc: true
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 10%
 
 ---
 
-# Aprimoramentos de ação personalizada {#configure-an-action}
+# Aprimoramentos de ação personalizada
 
 Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas.
 
 Esse recurso só estava disponível ao usar fontes de dados. Agora você pode usá-lo com ações personalizadas.
 
-> [!AVAILABILITY]
+>[!AVAILABILITY]
 >
-> No momento, esse recurso está disponível como um beta privado.
+>No momento, esse recurso está disponível como um beta privado.
 
 ## Definição da ação personalizada
 
 Ao definir a ação personalizada, duas melhorias foram disponibilizadas: a adição do método GET e o novo campo de resposta de carga útil. As outras opções e parâmetros permanecem inalterados. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-### Configuração do endpoint {#url-configuration}
+### Configuração do endpoint
 
 A variável **Configuração de URL** a seção foi renomeada **Configuração do endpoint**.
 
@@ -40,16 +40,16 @@ No **Método** , agora é possível selecionar **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### Cargas {#url-configuration}
+### Cargas
 
 A variável **Parâmetros de ação** a seção foi renomeada **Cargas**. Dois campos estão disponíveis:
 
 * A variável **Solicitação** field: este campo só está disponível para os métodos de chamada POST e PUT.
 * A variável **Resposta** field: este é o novo recurso. Esse campo estava disponível para todos os métodos de chamada.
 
-> [!NOTE]
+>[!NOTE]
 > 
-> Ambos os campos são opcionais.
+>Ambos os campos são opcionais.
 
 ![](assets/action-response2.png){width="70%" align="left"}
 
@@ -131,9 +131,9 @@ Você também pode aproveitar o **jo_status** para criar um novo caminho em caso
 
 ![](assets/action-response7.png){width="70%" align="left"}
 
-> [!WARNING]
+>[!WARNING]
 >
-> Somente as ações personalizadas recém-criadas incluem esse campo pronto para uso. Se quiser usá-la com uma ação personalizada existente, será necessário atualizar a ação. Por exemplo, você pode atualizar a descrição e salvar.
+>Somente as ações personalizadas recém-criadas incluem esse campo pronto para uso. Se quiser usá-la com uma ação personalizada existente, será necessário atualizar a ação. Por exemplo, você pode atualizar a descrição e salvar.
 
 Estes são os valores possíveis para este campo:
 
@@ -148,9 +148,9 @@ Você pode personalizar suas mensagens usando os campos de resposta. No nosso ex
 
 ![](assets/action-response8.png){width="70%" align="left"}
 
-> [!NOTE]
+>[!NOTE]
 >
-> A chamada é executada apenas uma vez por perfil em uma determinada jornada. Várias mensagens não dispararão novas chamadas.
+>A chamada é executada apenas uma vez por perfil em uma determinada jornada. Várias mensagens não dispararão novas chamadas.
 
 ## Sintaxe da expressão
 
