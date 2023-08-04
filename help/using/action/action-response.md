@@ -11,16 +11,16 @@ badge: label="Beta" type="Informative"
 keywords: action, third-party, custom, jornada, API
 hide: true
 hidefromtoc: true
-source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
+source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 10%
+source-wordcount: '497'
+ht-degree: 5%
 
 ---
 
 # Aprimoramentos de ação personalizada
 
-Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas.
+Agora você pode aproveitar as respostas de chamada da API em ações personalizadas e orquestrar suas jornadas com base nessas respostas.
 
 Esse recurso só estava disponível ao usar fontes de dados. Agora você pode usá-lo com ações personalizadas.
 
@@ -55,11 +55,11 @@ A variável **Parâmetros de ação** a seção foi renomeada **Cargas**. Dois c
 
 1. Clique dentro do **Resposta** campo.
 
-   ![](assets/action-response3.png){width="70%" align="left"}
+   ![](assets/action-response3.png){width="80%" align="left"}
 
 1. Cole um exemplo da carga útil retornada pela chamada. Verifique se os tipos de campo estão corretos (sequência, número inteiro etc.).
 
-   ![](assets/action-response4.png){width="70%" align="left"}
+   ![](assets/action-response4.png){width="80%" align="left"}
 
 1. Clique em **Salvar**.
 
@@ -121,15 +121,15 @@ Basta adicionar a ação personalizada a uma jornada. Em seguida, você pode apr
 
 Por exemplo, você pode adicionar uma condição para verificar a velocidade do vento. Quando a pessoa entra na loja de surf você pode enviar um push se o tempo está muito ventoso .
 
-![](assets/action-response5.png){width="70%" align="left"}
+![](assets/action-response5.png)
 
 Na condição, é necessário usar o editor avançado para aproveitar os campos de resposta de ação, sob a **Contexto** nó.
 
-![](assets/action-response6.png){width="70%" align="left"}
+![](assets/action-response6.png)
 
 Você também pode aproveitar o **jo_status** para criar um novo caminho em caso de erro.
 
-![](assets/action-response7.png){width="70%" align="left"}
+![](assets/action-response7.png)
 
 >[!WARNING]
 >
@@ -142,15 +142,19 @@ Estes são os valores possíveis para este campo:
 * erro de limite: **limitado**
 * erro interno: **internalError**
 
+Para obter mais informações sobre atividades de jornada, consulte [nesta seção](../building-journeys/about-journey-activities.md).
+
 ### Personalização da mensagem
 
 Você pode personalizar suas mensagens usando os campos de resposta. No nosso exemplo, na notificação por push, personalizamos o conteúdo usando o valor de velocidade.
 
-![](assets/action-response8.png){width="70%" align="left"}
+![](assets/action-response8.png)
 
 >[!NOTE]
 >
->A chamada é executada apenas uma vez por perfil em uma determinada jornada. Várias mensagens não dispararão novas chamadas.
+>A chamada é executada apenas uma vez por perfil em uma determinada jornada. Várias mensagens para o mesmo perfil não dispararão novas chamadas.
+
+Para obter mais informações sobre a personalização da mensagem, consulte [nesta seção](../personalization/personalize.md).
 
 ## Sintaxe da expressão
 
@@ -175,4 +179,4 @@ Veja alguns exemplos:
 @action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
 ```
 
-
+Para obter mais informações sobre referências de campo, consulte [nesta seção](../building-journeys/expression/field-references.md).
