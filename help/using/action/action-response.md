@@ -11,9 +11,9 @@ badge: label="Beta" type="Informative"
 keywords: action, third-party, custom, jornada, API
 hide: true
 hidefromtoc: true
-source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
+source-git-commit: 00535d5c50bb89b308a74ab95f7b68449ba5b819
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '665'
 ht-degree: 5%
 
 ---
@@ -28,7 +28,11 @@ Esse recurso só estava disponível ao usar fontes de dados. Agora você pode us
 >
 >No momento, esse recurso está disponível como um beta privado.
 
-## Definição da ação personalizada
+>[!WARNING]
+>
+>As ações personalizadas só devem ser usadas com endpoints privados ou internos e usadas com um limite máximo ou limitação apropriado. Consulte [esta página](../configuration/external-systems.md).
+
+## Definir a ação personalizada
 
 Ao definir a ação personalizada, duas melhorias foram disponibilizadas: a adição do método GET e o novo campo de resposta de carga útil. As outras opções e parâmetros permanecem inalterados. Consulte [esta página](../action/about-custom-action-configuration.md).
 
@@ -57,104 +61,80 @@ A variável **Parâmetros de ação** a seção foi renomeada **Cargas**. Dois c
 
    ![](assets/action-response3.png){width="80%" align="left"}
 
-1. Cole um exemplo da carga útil retornada pela chamada. Verifique se os tipos de campo estão corretos (sequência, número inteiro etc.).
+1. Cole um exemplo da carga útil retornada pela chamada. Verifique se os tipos de campo estão corretos (sequência, número inteiro etc.). Este é um exemplo de carga de resposta capturada durante a chamada. Nosso terminal local envia o número de pontos de fidelidade e o status de um perfil.
+
+   ```
+   {
+   "customerID" : "xY12hye",    
+   "status":"gold",
+   "points": 1290 }
+   ```
 
    ![](assets/action-response4.png){width="80%" align="left"}
 
+   Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil.
+
+1. Também vamos adicionar a customerID como parâmetro de consulta.
+
+   ![](assets/action-response9.png){width="80%" align="left"}
+
 1. Clique em **Salvar**.
 
-Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. Observe que você pode clicar em **Colar uma nova carga** se quiser alterar a carga útil transmitida no momento.
-
-Este é um exemplo de uma carga de resposta capturada durante a chamada para um serviço de API meteorológica:
-
-```
-{
-    "coord": {
-        "lon": 2.3488,
-        "lat": 48.8534
-    },
-    "weather": [
-        {
-            "id": 800,
-            "main": "Clear",
-            "description": "clear sky",
-            "icon": "01d"
-        }
-    ],
-    "base": "stations",
-    "main": {
-        "temp": 29.78,
-        "feels_like": 29.78,
-        "temp_min": 29.92,
-        "temp_max": 30.43,
-        "pressure": 1016,
-        "humidity": 31
-    },
-    "visibility": 10000,
-    "wind": {
-        "speed": 5.66,
-        "deg": 70
-    },
-    "clouds": {
-        "all": 0
-    },
-    "dt": 1686066467,
-    "sys": {
-        "type": 1,
-        "id": 6550,
-        "country": "FR",
-        "sunrise": 1686023350,
-        "sunset": 1686080973
-    },
-    "timezone": 7200,
-    "id": 2988507,
-    "name": "Paris",
-    "cod": 200
-}
-```
-
-## Como aproveitar a resposta em uma jornada
+## Aproveitar a resposta em uma jornada
 
 Basta adicionar a ação personalizada a uma jornada. Em seguida, você pode aproveitar os campos de carga de resposta em condições, outras ações e personalização de mensagens.
 
-### Condições e ações
-
-Por exemplo, você pode adicionar uma condição para verificar a velocidade do vento. Quando a pessoa entra na loja de surf você pode enviar um push se o tempo está muito ventoso .
+Por exemplo, você pode adicionar uma condição para verificar o número de pontos de fidelidade. Quando a pessoa entra no restaurante, o terminal local envia uma chamada com as informações de fidelidade do perfil. Você pode enviar um push se o perfil for um cliente gold. Se um erro for detectado na chamada, envie uma ação personalizada para notificar o administrador do sistema.
 
 ![](assets/action-response5.png)
 
-Na condição, é necessário usar o editor avançado para aproveitar os campos de resposta de ação, sob a **Contexto** nó.
+1. Adicione o evento e a ação personalizada Fidelidade criada anteriormente.
 
-![](assets/action-response6.png)
+1. Na ação personalizada de Fidelidade, mapeie o parâmetro de consulta da ID do cliente com a ID do perfil. Marque a opção **Adicionar um caminho alternativo em caso de tempo limite ou erro**.
 
-Você também pode aproveitar o **jo_status** para criar um novo caminho em caso de erro.
+   ![](assets/action-response10.png)
 
-![](assets/action-response7.png)
+1. Na primeira ramificação, adicione uma condição e use o editor avançado para aproveitar os campos de resposta de ação, sob o **Contexto** nó.
 
->[!WARNING]
->
->Somente as ações personalizadas recém-criadas incluem esse campo pronto para uso. Se quiser usá-la com uma ação personalizada existente, será necessário atualizar a ação. Por exemplo, você pode atualizar a descrição e salvar.
+   ![](assets/action-response6.png)
+
+1. Em seguida, adicione o push e personalize a mensagem usando os campos de resposta. No nosso exemplo, personalizamos o conteúdo usando o número de pontos de fidelidade e o status do cliente. Os campos de resposta de ação estão disponíveis em **Atributos contextuais** > **Journey Orchestration** > **Ações**.
+
+   ![](assets/action-response8.png)
+
+   >[!NOTE]
+   >
+   >Cada perfil que entra na ação personalizada acionará uma chamada. Mesmo que a resposta seja sempre a mesma, o Jornada ainda executará uma chamada por perfil.
+
+1. Na ramificação de tempo limite e erro, adicione uma condição e utilize o incorporado **jo_status_code** campo. No nosso exemplo, estamos usando a variável
+   **http_400** tipo de erro. Consulte [esta seção](#error-status).
+
+   ```
+   @action{ActionLoyalty.jo_status_code} == "http_400"
+   ```
+
+   ![](assets/action-response7.png)
+
+1. Adicione uma ação personalizada que será enviada para sua organização.
+
+   ![](assets/action-response11.png)
+
+## Status do erro{#error-status}
+
+A variável **jo_status_code** O campo está sempre disponível mesmo quando nenhuma carga de resposta é definida.
 
 Estes são os valores possíveis para este campo:
 
-* código de status http: por exemplo **http_200** ou **http_400**
+* código de status http: http_`<HTTP API call returned code>`, por exemplo http_200 ou http_400
 * erro de tempo limite: **tempo limite**
 * erro de limite: **limitado**
 * erro interno: **internalError**
 
-Para obter mais informações sobre atividades de jornada, consulte [nesta seção](../building-journeys/about-journey-activities.md).
+Uma chamada de ação é considerada com erro quando o código http retornado é maior que 2xx ou se ocorrer um erro. A jornada flui para a ramificação de tempo limite ou erro dedicada nesses casos.
 
-### Personalização da mensagem
-
-Você pode personalizar suas mensagens usando os campos de resposta. No nosso exemplo, na notificação por push, personalizamos o conteúdo usando o valor de velocidade.
-
-![](assets/action-response8.png)
-
->[!NOTE]
+>[!WARNING]
 >
->A chamada é executada apenas uma vez por perfil em uma determinada jornada. Várias mensagens para o mesmo perfil não dispararão novas chamadas.
-
-Para obter mais informações sobre a personalização da mensagem, consulte [nesta seção](../personalization/personalize.md).
+>Somente as ações personalizadas recém-criadas incluem a variável **jo_status_code** pronto para uso. Se quiser usá-la com uma ação personalizada existente, será necessário atualizar a ação. Por exemplo, você pode atualizar a descrição e salvar.
 
 ## Sintaxe da expressão
 
