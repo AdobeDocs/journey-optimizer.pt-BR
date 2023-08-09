@@ -5,9 +5,9 @@ title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3061'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Julho de 2023 {#july-2023}
 
-* Todos os novos recursos e aprimoramentos chegando com a versão de [!DNL Journey Optimizer] 23 de julho estão detalhados na documentação. [Leia mais](release-notes.md)
+* Todos os novos recursos e aprimoramentos da versão de 23 de julho do [!DNL Journey Optimizer] estão detalhados na documentação. [Leia mais](release-notes.md)
 * A página de documentação da atividade de espera foi aprimorada com informações adicionais e práticas recomendadas relacionadas ao tempo limite global e ao uso de reentrada. [Leia mais](../building-journeys/wait-activity.md)
 * A página sobre o gerenciamento de entradas foi aprimorada. [Leia mais](../building-journeys/entry-management.md)
-* Foram adicionadas informações adicionais sobre a taxa de limitação na documentação de Ler atividade de público. [Leia mais](../building-journeys/read-audience.md)
-* A variável **Implementar consentimento de personalização** a seção foi atualizada para descrever como impor manualmente o consentimento de personalização em campanhas: você pode usar o construtor de regras de segmento para criar um público-alvo contendo perfis de recusa ou adicionar uma atividade dividida a um fluxo de trabalho de composição. [Leia mais](../privacy/opt-out.md#opt-out-expression-editor)
+* Adição de mais informações sobre a taxa de limitação na documentação de atividade do público-alvo de leitura. [Leia mais](../building-journeys/read-audience.md)
+* A seção **Implementar consentimento de personalização** foi atualizada para descrever como aplicar manualmente o consentimento de personalização em campanhas: é possível usar o construtor de regras de segmento para criar um público-alvo contendo os perfis que recusaram ou adicionar uma atividade de divisão a um fluxo de trabalho de composição. [Leia mais](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## Junho de 2023 {#june-2023}
 
