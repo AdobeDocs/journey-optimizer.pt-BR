@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 2a443c1b264dd8c9a2a2f5082d4c2ac373cdddfa
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 27%
+source-wordcount: '1783'
+ht-degree: 24%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 27%
 >[!CAUTION]
 >
 >Para testar e publicar páginas de aterrissagem, é necessário ter o **[!UICONTROL Publicar mensagens]** permissão.
+
+Para direcionar seus clientes para uma página da Web definida que você deseja exibir ao clicar em um link específico, crie uma página de aterrissagem em [!DNL Journey Optimizer], configure a página principal e as subpáginas, teste-a e publique-a.
+
+>[!CAUTION]
+>
+>Não é possível acessar a landing page simplesmente copiando o URL definido ao colar em um navegador da Web [criação da página](#create-landing-page), mesmo se publicado. Em vez disso, você pode testá-lo usando a função de visualização, como descrito em [nesta seção](#test-landing-page).
 
 ## Acessar páginas de destino {#access-landing-pages}
 
@@ -95,6 +101,10 @@ As principais etapas para criar landing pages são as seguintes:
 
 Depois de configurar e projetar o [página principal](#configure-primary-page), e o [subpáginas](#configure-subpages) se houver, é possível [test](#test-landing-page) e [publicar](#publish-landing-page) sua landing page.
 
+>[!CAUTION]
+>
+>Você não pode acessar sua landing page simplesmente copiando e colando o URL definido em um navegador da Web, mesmo que publicado. Em vez disso, você pode testá-lo usando a função de visualização, como descrito em [nesta seção](#test-landing-page).
+
 ## Configurar a página principal {#configure-primary-page}
 
 >[!CONTEXTUALHELP]
@@ -125,12 +135,10 @@ Para definir as configurações de página principal, siga as etapas abaixo.
    >[!CAUTION]
    >
    >O URL da landing page deve ser exclusivo.
-
-   ![](assets/lp_access-url.png)
-
-   >[!NOTE]
    >
    >Você não pode acessar sua landing page simplesmente copiando esse URL em um navegador da Web, mesmo que publicado. Em vez disso, você pode testá-lo usando a função de visualização, como descrito em [nesta seção](#test-landing-page).
+
+   ![](assets/lp_access-url.png)
 
 1. Se desejar que a landing page pré-carregue os dados de formulário que já estão disponíveis, selecione a **[!UICONTROL Preencher previamente os campos de formulário com informações de perfil]**.
 
@@ -196,6 +204,8 @@ Para definir as configurações de subpágina, siga as etapas abaixo.
    >[!CAUTION]
    >
    >O URL da landing page deve ser exclusivo.
+   >
+   >Você não pode acessar sua subpágina simplesmente copiando e colando esse URL em um navegador da Web, mesmo se publicado. Em vez disso, você pode testá-lo usando a função de visualização, como descrito em [nesta seção](#test-landing-page).
 
 ![](assets/lp_subpage-settings.png)
 
@@ -294,9 +304,10 @@ Quando a landing page estiver pronta, você poderá publicá-la para disponibili
 
 Quando a landing page for publicada, ela será adicionada à lista de landing pages com a **[!UICONTROL Publicado]** status.
 
-Agora está ativo e pronto para ser usado em um [!DNL Journey Optimizer] mensagem que será enviada por meio de um [jornada](../building-journeys/journey.md).
+Agora ele está ativo e pronto para ser usado em uma [!DNL Journey Optimizer] mensagem que será enviada por meio de um [jornada](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->Você pode monitorar os impactos da landing page por meio de relatórios específicos. [Saiba mais](../reports/lp-report-live.md)
+>Não é possível acessar a landing page simplesmente copiando o URL definido ao colar em um navegador da Web [criação da página](#create-landing-page), mesmo se publicado. Em vez disso, você pode testá-lo usando a função de visualização, como descrito em [nesta seção](#test-landing-page).
 
+Você pode monitorar os impactos da landing page por meio de relatórios específicos. [Saiba mais](../reports/lp-report-live.md)
