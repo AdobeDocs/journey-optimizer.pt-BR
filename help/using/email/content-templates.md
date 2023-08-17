@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d5c9297ef3e504b0ef9462b30882cdc4dba5b106
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1113'
 ht-degree: 12%
 
 ---
@@ -176,6 +176,10 @@ Você pode testar a renderização de qualquer template de conteúdo de email, s
    * Antes de enviar a prova, selecione a variável [superfície de email](../configuration/channel-surfaces.md) que serão usados para testar o conteúdo.
 
      ![](assets/content-template-stimulate-proof-surface.png)
+
+>[!CAUTION]
+>
+>Atualmente, o rastreamento não é compatível ao testar modelos de conteúdo de email, o que significa que o rastreamento de eventos, parâmetros UTM e links de página de aterrissagem não será eficaz nas provas que estão sendo enviadas de um modelo. Para testar o rastreamento, [usar o modelo de conteúdo](email-templates.md) em um email e [enviar uma prova](preview.md#send-proofs).
 
 ## Vídeo explicativo {#video-templates}
 
