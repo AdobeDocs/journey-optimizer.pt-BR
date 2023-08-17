@@ -43,4 +43,3 @@ Se preferir usar um conteúdo diferente para a versão de texto sem formatação
 >* Alterações feitas na exibição de **[!UICONTROL Texto sem formatação]** não serão refletidas na exibição de HTML.
 >
 >* Se você reativar a opção **[!UICONTROL Sincronizar com o HTML]** após atualizar o conteúdo de texto sem formatação, as alterações serão perdidas e substituídas pelo conteúdo de texto gerado da versão do HTML.
-

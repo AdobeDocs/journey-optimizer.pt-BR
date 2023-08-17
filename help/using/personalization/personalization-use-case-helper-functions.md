@@ -25,7 +25,6 @@ Você usará estes tipos de funções auxiliares:
 * A variável `upperCase` função de sequência de caracteres, para inserir o nome do cliente em letras maiúsculas. [Saiba mais](functions/string.md#upper).
 * A variável `each` auxiliar, para listar os itens que estão no carrinho. [Saiba mais](functions/helpers.md#each).
 * A variável `if` auxiliar, para inserir uma observação específica do produto se o produto relacionado estiver no carrinho. [Saiba mais](functions/helpers.md#if-function).
-
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 ➡️ [Saiba como usar funções auxiliares neste vídeo](#video)
@@ -168,7 +167,6 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-
 
 1. Cole esse código entre a tag de abertura `{{#each}}` e o fechamento `{/each}}` tag:
 

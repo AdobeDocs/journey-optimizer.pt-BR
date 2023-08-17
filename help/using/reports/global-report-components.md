@@ -11,7 +11,7 @@ exl-id: a41e82db-1fa4-478d-a5a2-324d1df1f8ee
 source-git-commit: 1539e996105aa242c529acf35883d9dd4146ca7a
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
@@ -64,7 +64,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
  <tbody>
   <tr> 
    <td> Rejeições<br/> </td> 
-   <td> Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.<br/> </td> 
+   <td> Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas.<br/> </td> 
 </tr> 
   <tr> 
    <td> Taxa de rejeição <br/> </td> 
@@ -148,7 +148,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
 </tr>
   <tr> 
    <td> Direcionado<br/> </td> 
-   <td> Número total de mensagens processadas durante a análise de delivery.<br/> </td> 
+   <td> Número total de mensagens processadas durante a análise de entrega.<br/> </td> 
 </tr> 
   <tr> 
    <td> Cliques únicos<br/> </td> 
@@ -303,7 +303,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
 </tr>
   <tr> 
    <td>Rejeições<br/> </td> 
-   <td> Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.<br/> </td> 
+   <td> Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas.<br/> </td> 
 </tr> 
   <tr> 
    <td> Taxa de rejeição <br/> </td> 

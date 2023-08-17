@@ -83,7 +83,7 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 
    * **[!UICONTROL Lista de assinaturas]**: é necessário selecionar a lista de assinaturas que será atualizada se o perfil marcar essa caixa de seleção. Saiba mais sobre [listas de assinaturas](subscription-list.md).
 
-      <!--![](assets/lp_designer-form-subs-list.png)-->
+     <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL Canal (email)]**: a aceitação ou recusa se aplica a todo o canal. Por exemplo, se um perfil que recusar tiver dois endereços de email, ambos os endereços serão excluídos de todas as suas comunicações.
 

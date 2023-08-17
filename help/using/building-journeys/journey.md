@@ -11,7 +11,7 @@ exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 17%
+ht-degree: 24%
 
 ---
 
@@ -22,13 +22,13 @@ Uso [!DNL Journey Optimizer] para criar casos de uso de orquestração em tempo 
 
 Crie designs de cenários avançados com várias etapas e com os seguintes recursos:
 
-* Enviar em tempo real **entrega unitária** acionado quando um evento é recebido ou **em lote** usando públicos da Adobe Experience Platform.
+* Envie uma **entrega unitária** em tempo real acionada quando um evento é recebido, ou **em lote** usando os públicos-alvo da Adobe Experience Platform.
 
 * Aproveite **dados contextuais** de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros.
 
 * Use o **ações integradas** para enviar mensagens projetadas no [!DNL Journey Optimizer] ou criar **ações personalizadas** se você estiver usando um sistema de terceiros para enviar mensagens.
 
-* Com o **Designer de jornada**, crie seus casos de uso em várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
+* Com o **Designer de jornadas**, crie seus casos de uso de várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
 
 
 >[!NOTE]

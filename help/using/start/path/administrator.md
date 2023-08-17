@@ -27,6 +27,7 @@ Saiba mais sobre o gerenciamento de acesso nas seguintes páginas:
 
    >[!NOTE]
    >Como um **Administrador do sistema**, se você não conseguir ver o menu **[!UICONTROL Sandboxes]** no [!DNL Journey Optimizer], atualize suas permissões no [Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Saiba como atualizar o perfil de produto [nesta página](../../administration/permissions.md#edit-product-profile).
+   >
 
 1. **Entender os perfis de produto**. Os perfis de produto são um conjunto de direitos unitários que permitem aos usuários acessarem determinadas funcionalidades ou objetos na interface. Saiba mais na seção [Perfis de produto prontos para uso](../../administration/ootb-product-profiles.md).
 
@@ -43,6 +44,7 @@ Para criar suas jornadas e enviar mensagens, acesse o menu **ADMINISTRAÇÃO**. 
 
 >[!NOTE]
 >Como um **Administrador do sistema**, se você não conseguir ver o menu **[!UICONTROL Canais]** no [!DNL Journey Optimizer], atualize suas permissões no [Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Saiba como atualizar o perfil de produto [nesta página](../../administration/permissions.md#edit-product-profile).
+>
 
 Siga as etapas listadas abaixo:
 
@@ -67,7 +69,9 @@ Siga as etapas listadas abaixo:
 1. **Gerenciar a supressão e as listas de permissões**: melhore sua capacidade de entrega com supressão e listas de permissões
 
    * A [lista de supressão](../../reports/suppression-list.md) consiste em endereços de email que você deseja excluir de suas entregas, pois o envio para esses contatos pode prejudicar sua reputação de envio e as taxas de entrega. Você pode monitorar todos os endereços de email que são excluídos automaticamente do envio em uma jornada, como endereços inválidos, endereços que rejeitam de forma consistente e podem afetar negativamente sua reputação de email, e destinatários que emitem uma reclamação de spam de algum tipo contra uma de suas mensagens de email. Saiba como gerenciar a [lista de supressão](../../configuration/manage-suppression-list.md) e as [tentativas](../../configuration/retries.md).
+
    ![](../assets/suppression-list-filtering-example.png)
 
    * A [lista de permissões](../../configuration/allow-list.md) permite especificar endereços de email ou domínios individuais que serão os únicos destinatários ou domínios autorizados a receber os emails enviados de uma sandbox específica. Isso pode impedir que você envie emails acidentalmente para endereços de clientes reais quando estiver em um ambiente de teste. Saiba como [habilitar a lista de permissões](../../configuration/allow-list.md).
+
    Saiba mais sobre a gestão de capacidade de entrega [!DNL Adobe Journey Optimizer] [nesta página](../../reports/deliverability.md).

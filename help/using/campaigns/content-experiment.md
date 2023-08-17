@@ -71,7 +71,7 @@ O objetivo aqui é ver se os recipients interagirão com o email dependendo do e
 
    ![](assets/content_experiment_16.png)
 
-1. No **[!UICONTROL Rastreamento de ações]** especifique se deseja rastrear como seus recipients reagem ao seu delivery: é possível rastrear cliques e/ou aberturas.
+1. No **[!UICONTROL Rastreamento de ações]** especifique se deseja rastrear como os recipients reagem ao seu delivery: é possível rastrear cliques e/ou aberturas.
 
    Os resultados do rastreamento podem ser acessados no relatório da campanha após a execução da campanha.
 

@@ -11,7 +11,7 @@ exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 7%
+ht-degree: 17%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!BEGINSHADEBOX]
 
-Estas documentações fornecem informações detalhadas sobre como trabalhar com a composição de público-alvo no Adobe Journey Optimizer. Se você não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+Estas documentações fornecem informações detalhadas sobre como trabalhar com a composição de público-alvo no Adobe Journey Optimizer. Se não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=pt-BR)
 
 >[!ENDSHADEBOX]
 
@@ -35,7 +35,7 @@ Para criar um fluxo de trabalho de composição, siga estas etapas:
 
    >[!NOTE]
    >
-   >A variável **[!UICONTROL Criar regra]** método de criação permite criar uma nova definição de segmento usando o método [Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   >A variável **[!UICONTROL Criar regra]** método de criação permite criar uma nova definição de segmento usando o método [Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR).
 
 1. A tela de composição é exibida com duas atividades padrão:
 

@@ -20,6 +20,7 @@ ht-degree: 5%
 >[!AVAILABILITY]
 >
 >O novo **fluxo de trabalho de início rápido da integração com dispositivos móveis** O agora está disponível. Use esse novo recurso do produto para configurar rapidamente o SDK móvel para começar a coletar e validar dados de eventos móveis e enviar notificações por push em dispositivos móveis. Esse recurso é acessível por meio da página inicial da Coleção de dados, na forma de um beta público. [Saiba mais](mobile-onboarding-wf.md)
+>
 
 
 ## Antes de começar {#before-starting}
@@ -67,7 +68,7 @@ Para atribuir **Propriedade** e **Empresa** , siga as etapas abaixo:
 1. Clique em **[!UICONTROL Adicionar tudo]**. Isso adicionará o seguinte direito ao perfil de produto:
    * **[!UICONTROL Aprovar]**
    * **[!UICONTROL Desenvolver]**
-   * **[!UICONTROL Gerenciar ambientes]**
+   * **[!UICONTROL Gerenciamento de ambientes]**
    * **[!UICONTROL Gerenciar extensões]**
    * **[!UICONTROL Publicar]**
 
@@ -142,7 +143,7 @@ O registro da credencial de push do aplicativo móvel é necessário para autori
 
    * **Para iOS**
 
-      ![](assets/add-app-config-ios.png)
+     ![](assets/add-app-config-ios.png)
 
       1. Insira o aplicativo móvel **Id Do Pacote** no **[!UICONTROL ID do aplicativo (ID do pacote iOS)]** campo. A ID do pacote de aplicativos pode ser encontrada no **Geral** guia do público-alvo principal no **XCode**.
 
@@ -153,16 +154,16 @@ O registro da credencial de push do aplicativo móvel é necessário para autori
       1. Forneça o **ID da chave**. Esta é uma sequência de 10 caracteres atribuída durante a criação da chave de autenticação p8. Ele pode ser encontrado em **Chaves** guia em **Certificados**, **Identificadores** e **Perfis** página.
 
       1. Forneça o **ID da equipe**. Este é um valor de string que pode ser encontrado na guia Membros.
+
    * **Para Android**
 
-      ![](assets/add-app-config-android.png)
+     ![](assets/add-app-config-android.png)
 
       1. Forneça o **[!UICONTROL ID do aplicativo (nome do pacote Android)]**: geralmente, o nome do pacote é a id do aplicativo no `build.gradle` arquivo.
 
       1. Ligado o **[!UICONTROL Credenciais por push]** botão para adicionar suas credenciais.
 
       1. Arraste e solte as credenciais de push do FCM. Para obter mais detalhes sobre como obter as credenciais de push, consulte [Documentação do Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
-
 
 
 1. Clique em **[!UICONTROL Salvar]** para criar sua configuração de aplicativo.

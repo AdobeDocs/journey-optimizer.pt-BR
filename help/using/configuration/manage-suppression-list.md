@@ -57,7 +57,7 @@ As categorias de supressão são as seguintes:
 
 * **Rígido**: uma rejeição permanente indica um endereço de email inválido (ou seja, um endereço de email que não existe). Isso envolve uma mensagem de rejeição do servidor de email de recebimento que declara explicitamente que o endereço é inválido. O endereço de email é enviado imediatamente para a lista de supressão.
 
-   Quando o erro é o resultado de uma reclamação de spam, ele também entra na **Rígido** categoria. O endereço de email do recipient que emitiu a reclamação é enviado imediatamente para a lista de supressão.
+  Quando o erro é o resultado de uma reclamação de spam, ele também entra na **Rígido** categoria. O endereço de email do recipient que emitiu a reclamação é enviado imediatamente para a lista de supressão.
 
 * **Suave**: uma rejeição temporária é uma rejeição de email que ocorreu para um endereço de email válido. O endereço de email é adicionado à lista de supressão após várias tentativas. Os erros suaves enviam um endereço para a lista de supressão assim que o contador de erros atinge o limite. [Saiba mais sobre tentativas](retries.md)
 
@@ -169,6 +169,7 @@ Para adicionar um grupo de endereços de email ou um domínio à lista de supres
    >Não altere o nome das colunas no modelo CSV.
    >
    >O tamanho do arquivo não pode exceder a 1 MB.
+   >
 
 1. Depois de concluído, arraste e solte seu arquivo CSV e use o **[!UICONTROL Enviar]** botão para confirmar.
 

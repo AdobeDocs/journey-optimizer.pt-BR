@@ -30,4 +30,4 @@ Na interface do Designer de email, ao selecionar um elemento e exibir suas confi
 
    ![](assets/styles_2.png)
 
-O estilo é aplicado ao elemento selecionado. Se os elementos secundários não tiverem atributos de estilo específicos definidos, o estilo do elemento principal será herdado.
+O estilo é aplicado ao elemento selecionado. Se os elementos derivados não tiverem atributos de estilo específicos definidos, o estilo do elemento principal será herdado.

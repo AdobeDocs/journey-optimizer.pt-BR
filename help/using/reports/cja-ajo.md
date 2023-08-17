@@ -49,13 +49,13 @@ Usar [!DNL Journey Optimizer] com [!DNL Customer Journey Analytics] pode levar a
 
 * **Ambos [!DNL Journey Optimizer] e [!DNL Customer Journey Analytics] sincronizar dados do Azure Data Lake Storage (ADLS) para relatórios.**
 
-   O tempo de processamento dos dados recebidos pode ser um pouco diferente entre os produtos. Por isso, os dados podem não corresponder ao exibir relatórios de uma determinada data para o dia atual. Para reduzir a discrepância, use intervalos de datas, exceto o dia atual.
+  O tempo de processamento dos dados recebidos pode ser um pouco diferente entre os produtos. Por isso, os dados podem não corresponder ao exibir relatórios de uma determinada data para o dia atual. Para reduzir a discrepância, use intervalos de datas, exceto o dia atual.
 
 * **Entrada [!DNL Journey Optimizer] Relatórios, a métrica Enviado também inclui a métrica Repetir.**
 
-   **[!UICONTROL Tentativas]** não serão incluídos em **[!UICONTROL Enviado]** métrica em [!DNL Customer Journey Analytics]. Isso causará [!DNL Customer Journey Analytics] **[!UICONTROL Enviado]** métricas para mostrar valores menores que [!DNL Journey Optimizer]. No entanto, os dados de nova tentativa são convertidos para o **[!UICONTROL Mensagens enviadas com sucesso]** ou **[!UICONTROL Rejeições]** métrica.
+  **[!UICONTROL Tentativas]** não serão incluídos em **[!UICONTROL Enviado]** métrica em [!DNL Customer Journey Analytics]. Isso causará [!DNL Customer Journey Analytics] **[!UICONTROL Enviado]** métricas para mostrar valores menores que [!DNL Journey Optimizer]. No entanto, os dados de nova tentativa são convertidos para o **[!UICONTROL Mensagens enviadas com sucesso]** ou **[!UICONTROL Rejeições]** métrica.
 Para reduzir a discrepância, use intervalos de datas de uma semana atrás ou até mesmo mais tarde.
 
 * **Os relatórios estão sendo distribuídos a partir de uma fonte de dados diferente.**
 
-   Isso pode levar a discrepâncias de dados entre 1 e 2% entre produtos.
+  Isso pode levar a discrepâncias de dados entre 1 e 2% entre produtos.

@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campanhas"
->abstract="Crie campanhas para fornecer conteúdo único a um público-alvo específico em vários canais. Antes de criar a campanha, verifique se você tem uma superfície de canal (ou seja, uma predefinição de mensagem) e um público-alvo da Adobe Experience Platform prontos para uso."
+>abstract="Crie campanhas para fornecer conteúdo uma única vez a um público-alvo específico em vários canais. Antes de criar a campanha, certifique-se de ter uma superfície de canal (ou seja, uma predefinição de mensagem) e um público-alvo da Adobe Experience Platform pronto para uso."
 
-Use campanhas do Journey Optimizer para fornecer conteúdo único a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado.
+Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado.
 
 Você pode criar dois tipos de campanhas:
 
@@ -66,7 +66,7 @@ Verifique os seguintes pré-requisitos antes de começar a criar sua primeira ca
 
 +++
 
-1. **Você precisa de um público**. Os públicos precisam estar disponíveis antes de criar a campanha. Saiba mais sobre públicos [nesta página](../audience/about-audiences.md).
+1. **Você precisa de um público**. Os públicos-alvo precisam estar disponíveis antes de criar a campanha. Saiba mais sobre públicos-alvo [nesta página](../audience/about-audiences.md).
 1. **Você precisa de uma superfície de canal**. Para selecionar um canal, é necessário ter a superfície do canal correspondente (ou seja, predefinição) criada e disponível. Saiba mais sobre superfícies de canal [nesta página](../configuration/channel-surfaces.md).
 
 ## Vídeo explicativo {#video}

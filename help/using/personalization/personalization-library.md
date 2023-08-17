@@ -65,7 +65,6 @@ Para salvar uma expressão na biblioteca, siga estas etapas:
 >* As expressões salvas são classificadas por data de criação: a expressão adicionada recentemente será mostrada primeiro na lista.
 
 
-
 Para editar uma expressão existente, adicione-a ao editor e modifique-a de acordo com suas necessidades. Clique em **[!UICONTROL Adicionar à biblioteca]** para validar a sintaxe e salvar a expressão.
 
 Para excluir uma expressão, clique no botão de reticências e clique em **[!UICONTROL Excluir]**.

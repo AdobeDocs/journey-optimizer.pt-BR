@@ -84,7 +84,7 @@ Depois que sua campanha for ativada, é necessário recuperar a solicitação de
 
 ## Usar atributos contextuais em campanhas acionadas por API {#contextual}
 
-Com campanhas acionadas por API, você pode passar dados adicionais na carga da API e usá-los na campanha para personalizar sua mensagem.
+Com campanhas acionadas por API, você pode transmitir dados adicionais na carga da API e usá-los na campanha para personalizar sua mensagem.
 
 Vejamos este exemplo, em que os clientes desejam redefinir suas senhas e você deseja enviar a eles um URL de redefinição de senha gerado em uma ferramenta de terceiros. Com campanhas acionadas por API, é possível passar esse URL gerado para a carga da API e aproveitá-lo na campanha para adicioná-lo à mensagem.
 

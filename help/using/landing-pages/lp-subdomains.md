@@ -45,7 +45,6 @@ Você pode usar um subdomínio que já foi delegado ao Adobe ou configurar outro
 >
 > * Qualquer modificação em um subdomínio de página de aterrissagem também afetará as sandboxes de produção.
 
-
 ## Usar um subdomínio existente {#lp-use-existing-subdomain}
 
 Para usar um subdomínio que já está delegado ao Adobe, siga as etapas abaixo.

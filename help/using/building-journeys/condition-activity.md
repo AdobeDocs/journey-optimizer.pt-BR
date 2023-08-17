@@ -61,7 +61,7 @@ O modo simples permite executar consultas simples com base em uma combinação d
 
 ![](assets/journey64.png)
 
-Se você estiver usando o [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} para criar públicos-alvo, você pode aproveitá-los nas condições de jornada. Consulte [Uso do público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
+Se você estiver usando o [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"} para criar públicos-alvo, você pode aproveitá-los nas condições de jornada. Consulte [Uso do público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]

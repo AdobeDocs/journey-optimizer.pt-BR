@@ -43,7 +43,6 @@ Para fazer isso, você deve escolher na lista de subdomínios já delegados ao A
 >
 > * Qualquer modificação em um subdomínio da Web também afetará as sandboxes de produção.
 
-
 Você pode criar vários subdomínios da Web, mas somente o **padrão** subdomínio será usado. Você pode alterar o subdomínio padrão da Web, mas somente um pode ser usado de cada vez.
 
 1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Configuração da Web]** > **[!UICONTROL Subdomínios da Web]**.

@@ -116,7 +116,7 @@ No **[!UICONTROL Ações]** crie a mensagem a ser enviada com a campanha.
 
    ![](assets/create-campaign-design.png)
 
-1. No **[!UICONTROL Rastreamento de ações]** especifique se deseja rastrear como seus recipients reagem ao seu delivery: é possível rastrear cliques e/ou aberturas.
+1. No **[!UICONTROL Rastreamento de ações]** especifique se deseja rastrear como os recipients reagem ao seu delivery: é possível rastrear cliques e/ou aberturas.
 
    Os resultados do rastreamento podem ser acessados no relatório da campanha após a execução da campanha. [Saiba mais sobre relatórios de campanha](../reports/campaign-global-report.md)
 

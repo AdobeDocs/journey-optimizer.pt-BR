@@ -22,15 +22,15 @@ Os dados estão disponíveis no **[!UICONTROL Relatório ao vivo]** assim que o 
 
 * Se quiser direcionar uma jornada no contexto de uma jornada, na **[!UICONTROL Jornadas]** , acesse sua jornada e clique no botão **[!UICONTROL Exibir relatório]** botão.
 
-   ![](assets/report_journey.png)
+  ![](assets/report_journey.png)
 
 * Se quiser direcionar uma campanha, no **[!UICONTROL Campanhas]** , acesse sua campanha e clique no link **[!UICONTROL Relatórios]** botão.
 
-   ![](assets/report_campaign.png)
+  ![](assets/report_campaign.png)
 
 * Se você deseja alternar do **[!UICONTROL Relatório global]** para o **[!UICONTROL Relatório ao vivo]** para o seu delivery, clique em **[!UICONTROL Últimas 24 horas]** no alternador de guias.
 
-   ![](assets/report_3.png)
+  ![](assets/report_3.png)
 
 Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Optimizer, consulte [esta página](#list-of-components-live).
 

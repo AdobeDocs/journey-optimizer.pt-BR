@@ -1,5 +1,5 @@
 ---
-title: Coleta de dados
+title: Coleção de dados
 description: Saiba mais sobre a coleção de dados de feedback do Gestão de decisões
 feature: Offers
 topic: Integrations
@@ -49,7 +49,7 @@ No entanto, **maioria dos canais** exigir que os dados de impressões e cliques 
 * Aplicativos móveis que usam o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * Quiosques
 * Mensagens enviadas por aplicativos de terceiros
-   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
+  <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
 
 >[!NOTE]
 >

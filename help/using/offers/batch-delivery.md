@@ -97,7 +97,7 @@ O tamanho do público-alvo é o principal fator que afeta o tempo completo de de
 
 Com o limite de frequência habilitado para ofertas qualificadas:
 
-| Tamanho do público | Tempo de processamento de ponta a ponta |
+| Tamanho do público-alvo | Tempo de processamento de ponta a ponta |
 |--------------|----------------------------|
 | 10 mil perfis ou menos | 7 minutos |
 | 1 milhão de perfis ou menos | 30 minutos |
@@ -105,7 +105,7 @@ Com o limite de frequência habilitado para ofertas qualificadas:
 
 Sem limite de frequência para ofertas elegíveis:
 
-| Tamanho do público | Tempo de processamento de ponta a ponta |
+| Tamanho do público-alvo | Tempo de processamento de ponta a ponta |
 |--------------|----------------------------|
 | 10 mil perfis ou menos | 6 minutos |
 | 1 milhão de perfis ou menos | 8 minutos |

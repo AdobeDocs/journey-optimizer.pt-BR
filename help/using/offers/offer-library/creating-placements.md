@@ -1,5 +1,5 @@
 ---
-title: Criar posicionamentos
+title: Criar inserções
 description: Saiba como criar inserções para suas ofertas
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 12%
 
 ---
 
-# Criar posicionamentos {#create-placements}
+# Criar inserções {#create-placements}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
@@ -52,11 +52,12 @@ Para criar uma inserção, siga estas etapas:
 
    * **[!UICONTROL Permitir duplicações em posicionamentos]**: controla se a mesma oferta pode ser proposta várias vezes em diferentes posicionamentos. Se ativado, o sistema considerará a mesma oferta para vários posicionamentos. Por padrão, o parâmetro é definido como false.
 
-      Se essa opção for definida como falso para qualquer posicionamento em uma solicitação de decisão, todas as inserções na solicitação herdarão a configuração &quot;falso&quot;.
+     Se essa opção for definida como falso para qualquer posicionamento em uma solicitação de decisão, todas as inserções na solicitação herdarão a configuração &quot;falso&quot;.
 
    * **[!UICONTROL Solicitar oferta]**: por padrão, uma oferta do escopo de decisão é retornada para cada perfil. Você pode ajustar o número de ofertas retornadas usando essa opção. Por exemplo, se você selecionar 2, as 2 melhores ofertas serão exibidas para o escopo de decisão selecionado.
 
    * **[!UICONTROL Incluir conteúdo]** / **[!UICONTROL Incluir metadados]**: especifique se o conteúdo e os metadados da oferta devem ser retornados na resposta da API. É possível incluir todos os metadados ou campos específicos apenas. Por padrão, o valor dos metadados Incluir está definido como verdadeiro.
+
    Esses parâmetros também podem ser definidos diretamente na sua solicitação de API se você estiver trabalhando com o [API de decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). No entanto, configurá-los na interface pode ajudar a economizar tempo, pois não será necessário transmiti-los em cada solicitação de API. Observe que, se você configurar os parâmetros na interface do usuário do e na solicitação de API, os valores da solicitação de API prevalecerão sobre os da interface.
 
    >[!NOTE]

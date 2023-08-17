@@ -98,7 +98,6 @@ Para editar um registro PTR com um subdomínio que é delegado a Adobe usando o 
    >   * Verifique no provedor de DNS se o registro de DNS de encaminhamento foi criado com êxito.
    >   * Os registros no DNS podem não ser sincronizados imediatamente. Aguarde alguns minutos e tente novamente.
 
-
 1. Clique em **[!UICONTROL Salvar]** para confirmar as alterações.
 
 >[!NOTE]

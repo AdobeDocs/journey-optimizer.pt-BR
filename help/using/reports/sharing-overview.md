@@ -11,7 +11,7 @@ exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '476'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -64,5 +64,5 @@ O fluxo de trabalho geral é:
 
 * [!DNL Customer Journey Analytics] A assimila o conjunto de dados &quot;Evento de etapa de Jornada&quot;.
 * A variável **profileID** no &quot;Esquema de evento de etapa de Jornada para Journey Orchestration&quot; associado, é definido como um campo de identidade. Entrada [!DNL Customer Journey Analytics], você pode vincular esse conjunto de dados a qualquer outro que tenha o mesmo valor que o identificador com base em pessoas.
-* Para usar esse conjunto de dados no [!DNL Customer Journey Analytics], para análise de jornada entre canais, consulte [Documentação do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
+* Para usar esse conjunto de dados no [!DNL Customer Journey Analytics], para análise de jornada entre canais, consulte [Documentação do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=pt-BR){target="_blank"}.
 

@@ -61,7 +61,7 @@ Adobe usa Sequências de Confiança Assintótica, que para uma variante individu
 
 ![](assets/statistical_5.png){width="300" align="center"}
 
-em que:
+Em que:
 
 * `N` é o número de unidades dessa variante.
 * `σ` é uma amostra da estimativa do desvio-padrão (definido acima).

@@ -122,7 +122,7 @@ For more information on how to configure a journey, refer to [this page](../buil
       | Ciclo de vida do aplicativo | Hora do dia | Disparado quando o horário especificado é cumprido. |
       | Places | POI atual | Acionado pelo SDK do Places quando o cliente insere o Ponto de interesse (POI) especificado. |
       | Places | Último POI inserido | Acionado pelo SDK do Places, dependendo do último Ponto de interesse (POI) inserido pelo cliente. |
-      | Places | Último POI de saída | Acionado pelo SDK do Places, dependendo do último Ponto de interesse (POI) de saída do cliente. |
+      | Places | Último POI de saída | Acionado pelo SDK do Places, dependendo do último ponto de interesse (POI) de saída do cliente. |
 
 +++
 

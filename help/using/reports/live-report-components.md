@@ -148,7 +148,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
 </tr>
   <tr> 
    <td> Direcionado<br/> </td> 
-   <td> Número total de mensagens processadas durante a análise de delivery.<br/> </td> 
+   <td> Número total de mensagens processadas durante a análise de entrega.<br/> </td> 
 </tr> 
   <tr> 
    <td> Cliques únicos<br/> </td> 

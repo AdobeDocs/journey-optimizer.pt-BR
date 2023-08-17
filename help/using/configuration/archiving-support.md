@@ -77,7 +77,7 @@ No entanto, o endereço CCo é selecionado para envio de comunicações seguindo
 
 * As mensagens podem ser entregues no endereço de email de CCO antes dos recipients do público-alvo. As mensagens com CCO também podem ser enviadas mesmo que as mensagens originais [rejeitado](../reports/suppression-list.md#delivery-failures).
 
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+  <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
 * Não abra ou clique nos emails enviados para o endereço CCo, pois ele é considerado no total de aberturas e cliques da análise de envio, o que pode causar alguns erros de cálculo no [relatórios](../reports/global-report.md).
 

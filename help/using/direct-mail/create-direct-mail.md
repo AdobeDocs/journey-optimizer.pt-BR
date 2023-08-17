@@ -87,6 +87,6 @@ O arquivo de extração é exigido por provedores de correspondência direta par
 
    1. Repita essas etapas para adicionar quantas colunas forem necessárias para o arquivo de extração. Observe que você pode adicionar até 50 colunas.
 
-      Para alterar a posição de uma coluna, arraste-a e solte-a no local desejado na **[!UICONTROL Campo de dados]** seção. Para excluir uma coluna, selecione-a e clique no **[!UICONTROL Remover]** botão na caixa **[!UICONTROL Formatação]** painel.
+      Para alterar a posição de uma coluna, arraste-a e solte-a no local desejado na **[!UICONTROL Campo de dados]** seção. Para excluir uma coluna, selecione-a e clique no link **[!UICONTROL Remover]** botão na caixa **[!UICONTROL Formatação]** painel.
 
 Agora você pode testar sua mensagem de correspondência direta e enviá-la ao seu público-alvo. [Saiba como testar e enviar mensagens de correspondência direta](test-send-direct-mail.md)

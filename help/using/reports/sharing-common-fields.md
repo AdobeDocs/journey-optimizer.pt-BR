@@ -84,7 +84,7 @@ Valores possíveis:
 
 ## stepStatus {#stepstatus-field}
 
-Status da etapa, representando o status da etapa, quando seu processamento foi concluído (e o evento da etapa foi acionado).
+Status da etapa, representando o status da etapa, quando seu processamento foi concluído (e o evento da etapa acionado).
 
 Tipo: sequência de caracteres
 

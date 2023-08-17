@@ -180,7 +180,7 @@ Seus perfis de teste são adicionados e agora podem ser usados ao testar uma jor
 
 ## Criar perfis de teste usando chamadas de API{#create-test-profiles-api}
 
-Você também pode criar perfis de teste por meio de chamadas de API. Saiba mais em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
+Você também pode criar perfis de teste por meio de chamadas de API. Saiba mais em [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
 
 Você deve usar um esquema de Perfil que contenha o grupo de campos &quot;Detalhes do teste de perfil&quot;. O sinalizador testProfile faz parte deste grupo de campos.
 Ao criar um perfil, passe o valor: testProfile = true.

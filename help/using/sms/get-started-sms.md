@@ -23,11 +23,11 @@ Entregas de SMS podem ser criadas:
 
 * Em uma **Jornada**: Depois de adicionar uma atividade de SMS na jornada e definir as configurações básicas, use o painel direito **[!UICONTROL Ações: SMS]** para criar o conteúdo da mensagem de SMS.
 
-   Para obter mais informações sobre como configurar sua jornada, consulte esta [página](../building-journeys/journey-gs.md).
+  Para obter mais informações sobre como configurar sua jornada, consulte esta [página](../building-journeys/journey-gs.md).
 
 * Em uma **Campanha**: Depois de criar uma campanha, selecione SMS como ação e defina as configurações básicas.
 
-   Para obter mais informações sobre como configurar sua campanha, consulte esta [página](../campaigns/create-campaign.md#configure).
+  Para obter mais informações sobre como configurar sua campanha, consulte esta [página](../campaigns/create-campaign.md#configure).
 
 
 >[!IMPORTANT]

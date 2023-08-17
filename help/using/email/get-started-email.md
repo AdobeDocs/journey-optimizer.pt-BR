@@ -28,11 +28,11 @@ Entregas de email podem ser criadas:
 
 * Em uma **Jornada**: depois de adicionar uma atividade de **[!UICONTROL Email]** para sua jornada e definir as configurações básicas, use o painel direito **[!UICONTROL Ações: Email]** para criar o conteúdo da mensagem.
 
-   Para obter mais informações sobre como configurar sua jornada, consulte esta [página](../building-journeys/journey-gs.md).
+  Para obter mais informações sobre como configurar sua jornada, consulte esta [página](../building-journeys/journey-gs.md).
 
 * Em uma **Campanha**: depois de criar uma campanha, selecione **[!UICONTROL Email]** como sua ação e defina as configurações básicas.
 
-   Para obter mais informações sobre como configurar sua campanha, consulte esta [página](../campaigns/create-campaign.md#configure).
+  Para obter mais informações sobre como configurar sua campanha, consulte esta [página](../campaigns/create-campaign.md#configure).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

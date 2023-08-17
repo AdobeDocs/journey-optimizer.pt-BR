@@ -25,15 +25,15 @@ Use o **[!UICONTROL Relatório global]** para medir o impacto das jornadas e del
 
 * Se quiser direcionar uma jornada ou deliveries no contexto de uma jornada, no **[!UICONTROL Jornadas]** , acesse sua jornada e clique no botão **[!UICONTROL Exibir relatório]** botão. Você pode encontrar os relatórios globais de Jornada, Email, SMS e Push.
 
-   ![](assets/report_journey.png)
+  ![](assets/report_journey.png)
 
 * Se quiser direcionar uma campanha, no **[!UICONTROL Campanhas]** , acesse sua campanha e clique no link **[!UICONTROL Relatórios]** botão.
 
-   ![](assets/report_campaign.png)
+  ![](assets/report_campaign.png)
 
 * Se você deseja alternar do **[!UICONTROL Relatório ao vivo]** para o **[!UICONTROL Relatório global]** para o seu delivery, clique em **[!UICONTROL O tempo todo]** no alternador de guias.
 
-   ![](assets/report_5.png)
+  ![](assets/report_5.png)
 
 Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Optimizer, consulte [esta página](#list-of-components-global)
 

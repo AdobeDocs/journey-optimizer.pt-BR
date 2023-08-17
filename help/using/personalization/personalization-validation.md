@@ -24,11 +24,13 @@ No **Editor de expressão** , use o **Validar** botão para verificar a sintaxe 
 
 >[!NOTE]
 > A validação é executada automaticamente ao clicar no ícone **Adicionar** botão para fechar a janela do editor.
+>
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Se a sintaxe de personalização não for válida, não será possível fechar a janela do editor de expressão.
+>
 
 ## Erros comuns {#common-errors}
 

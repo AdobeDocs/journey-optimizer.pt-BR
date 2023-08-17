@@ -33,30 +33,30 @@ Veja abaixo as configurações de fundo disponíveis para uso.
 
 * Defina uma **[!UICONTROL cor de fundo]** para todo o email. Certifique-se de selecionar as configurações de corpo na árvore de navegação acessível na Paleta esquerda.
 
-   ![](assets/background_1.png)
+  ![](assets/background_1.png)
 
 * Defina a mesma cor de fundo para todos os componentes da estrutura selecionando **[!UICONTROL Cor de fundo do visor]**. Essa opção permite selecionar uma configuração de cor de fundo diferente.
 
-   ![](assets/background_2.png)
+  ![](assets/background_2.png)
 
 * Defina uma cor de fundo diferente para cada componente da estrutura. Selecione uma estrutura na árvore de navegação acessível na Paleta esquerda para aplicar uma cor de fundo específica somente a essa estrutura.
 
-   Certifique-se de não definir uma cor de fundo do visor, pois isso pode ocultar as cores de fundo da estrutura.
+  Certifique-se de não definir uma cor de fundo do visor, pois isso pode ocultar as cores de fundo da estrutura.
 
-   ![](assets/background_3.png)
+  ![](assets/background_3.png)
 
 * Defina uma **[!UICONTROL imagem de fundo]** para o conteúdo de um componente da estrutura.
 
-   >[!NOTE]
-   >
-   >Alguns programas de email não são compatíveis com imagens de fundo. Quando não houver suporte, a cor do plano de fundo da linha será usada. Certifique-se de selecionar uma cor de fundo sobressalente apropriada caso a imagem não possa ser exibida.
+  >[!NOTE]
+  >
+  >Alguns programas de email não são compatíveis com imagens de fundo. Quando não houver suporte, a cor do plano de fundo da linha será usada. Certifique-se de selecionar uma cor de fundo sobressalente apropriada caso a imagem não possa ser exibida.
 
-   ![](assets/background_4.png)
+  ![](assets/background_4.png)
 
 * Definir uma cor de fundo no nível da coluna.
 
-   >[!NOTE]
-   >
-   >Esse é o caso de uso mais comum. A Adobe recomenda configurar as cores de fundo no nível da coluna, pois isso permite mais flexibilidade ao editar todo o conteúdo do email.
+  >[!NOTE]
+  >
+  >Esse é o caso de uso mais comum. A Adobe recomenda configurar as cores de fundo no nível da coluna, pois isso permite mais flexibilidade ao editar todo o conteúdo do email.
 
-   Também é possível definir uma imagem de fundo no nível da coluna, mas isso raramente é usado.
+  Também é possível definir uma imagem de fundo no nível da coluna, mas isso raramente é usado.

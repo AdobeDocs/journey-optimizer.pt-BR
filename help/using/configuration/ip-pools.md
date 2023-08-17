@@ -119,6 +119,5 @@ Para verificar o status de atualização do pool de IPs, clique na guia **[!UICO
 >* alguns minutos antes de ser consumido pelas mensagens unitárias,
 >* até o próximo lote para que o pool de IP seja efetivo em mensagens em lote.
 
-
 Você também pode usar a variável **[!UICONTROL Excluir]** botão para excluir um pool de IPs. Observe que não é possível excluir um pool de IP que foi associado a uma superfície de canal.
 

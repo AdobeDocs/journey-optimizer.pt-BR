@@ -81,7 +81,7 @@ O valor de duração do tempo limite depende do caso de uso. Se você quiser env
 
 Vamos ver um exemplo para um tempo limite de 5 segundos.
 
-* A primeira chamada dura menos de 5 segundos: a chamada é bem-sucedida, não há nenhuma tentativa nova.
+* A primeira chamada dura menos de 5 segundos: a chamada é bem-sucedida, não há nova tentativa.
 * A primeira chamada dura mais de 5 segundos: a chamada é cancelada e não há nenhuma tentativa. É contado como um erro de tempo limite no relatório.
 * A primeira chamada falha após 2 segundos (o sistema externo retorna um erro): restam 3 segundos para tentativas, se os slots de limite estiverem disponíveis.
    * Se uma das três tentativas for bem-sucedida antes do final dos 5 segundos, a chamada será executada e não haverá erro.

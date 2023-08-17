@@ -22,6 +22,7 @@ De acordo com os padrões e regulamentos do setor, todas as mensagens de marketi
 >[!IMPORTANT]
 >
 >As comunicações de mensagem de texto podem estar sujeitas a vários requisitos de conformidade legal, dependendo da natureza, do local de onde você está enviando suas mensagens de texto e do local de seus destinatários. Embora a Adobe Journey Optimizer trate as mensagens em códigos longos e números de chamada gratuita conforme detalhado abaixo, consulte seu departamento jurídico para garantir que suas comunicações de mensagem de texto estejam em conformidade com todos os requisitos de conformidade legal aplicáveis.
+>
 
 ## Palavras-chave de entrada nativas{#sms-native-keywords}
 

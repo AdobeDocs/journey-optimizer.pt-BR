@@ -31,6 +31,7 @@ Para que isso funcione com o Adobe Analytics, é necessário:
 >Essa seção se aplica somente a eventos com base em regras e clientes que precisam usar dados do Adobe Analytics ou do SDK da Web.
 > 
 >Se você estiver usando o Adobe Customer Journey Analytics, consulte [esta página](../reports/cja-ajo.md).
+>
 
 ## Configurar dados do Adobe Analytics ou do SDK da Web {#leverage-analytics-data}
 
@@ -105,7 +106,7 @@ No exemplo abaixo, saiba como direcionar usuários que adicionaram um produto ao
    * **[!UICONTROL Campos]**: selecione os campos Carga. [Saiba mais](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL Condição de ID de evento]**: defina a condição para identificar os eventos que acionarão sua jornada.
 
-      Aqui, o Evento é acionado quando os clientes adicionam um item aos carrinhos.
+     Aqui, o Evento é acionado quando os clientes adicionam um item aos carrinhos.
    * **[!UICONTROL Identificador de perfil]**: escolha um campo nos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento.
 
    ![](assets/ajo-aa_6.png)

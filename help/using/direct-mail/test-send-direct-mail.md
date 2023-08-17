@@ -1,5 +1,5 @@
 ---
-title: Testar e enviar uma mensagem de correspondência direta
+title: Teste e envio de uma mensagem de correspondência direta
 description: Saiba como testar e enviar uma mensagem de correspondência direta no Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -9,11 +9,11 @@ keyword: direct, mail, configuration, direct-mail, provider
 source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Testar e enviar uma mensagem de correspondência direta {#direct-mail-test-send}
+# Teste e envio de uma mensagem de correspondência direta {#direct-mail-test-send}
 
 ## Visualizar o arquivo de extração {#preview-dm}
 

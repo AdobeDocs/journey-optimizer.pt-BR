@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
 workflow-type: tm+mt
 source-wordcount: '2164'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -90,7 +90,7 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
      Saiba como criar uma regra de decisão no [nesta seção](../offer-library/creating-decision-rules.md).
 
-1. Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
+1. Ao selecionar públicos-alvo ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
 
    >[!NOTE]
    >

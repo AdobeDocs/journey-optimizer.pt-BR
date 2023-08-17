@@ -12,7 +12,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 34%
+ht-degree: 36%
 
 ---
 
@@ -63,7 +63,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
    * **[!UICONTROL Link externo]**: insira um link para um URL externo.
 
-   * **[!UICONTROL Landing page]**: insira um link para uma landing page. [Saiba mais ](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL Landing page]**: insira um link para uma landing page. [Saiba mais](../landing-pages/get-started-lp.md)
 
    * **[!UICONTROL Opção de não participação em um clique]**: insira um link para permitir que os usuários cancelem rapidamente a inscrição de suas comunicações sem a necessidade de confirmar a recusa. [Saiba mais](email-opt-out.md#one-click-opt-out).
 
@@ -111,7 +111,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
    ![](assets/link_1.png)
 
-1. Para alterar a cor do link, clique em **[!UICONTROL Cor do link]** do **[!UICONTROL Estilos]** guia.
+1. Para alterar a cor do link, clique em **[!UICONTROL Cor do link]** na guia **[!UICONTROL Estilos]**.
 
    ![](assets/link_3.png)
 

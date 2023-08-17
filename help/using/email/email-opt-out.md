@@ -181,8 +181,8 @@ Dependendo do cliente de email, clicar no link para cancelar a inscrição no ca
 
 * O destinatário é direcionado para o URL da página de destino que você especificou ao adicionar o link de opção de não participação à mensagem.
 
-   >[!NOTE]
-   >
-   >Se você não adicionar um link de recusa de um clique no conteúdo da mensagem, nenhuma página de destino será exibida.
+  >[!NOTE]
+  >
+  >Se você não adicionar um link de recusa de um clique no conteúdo da mensagem, nenhuma página de destino será exibida.
 
 * O perfil correspondente é cancelado imediatamente e essa escolha é atualizada na Experience Platform. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.

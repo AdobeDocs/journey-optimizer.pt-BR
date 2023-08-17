@@ -36,7 +36,7 @@ As etapas para adicionar conteúdo dinâmico nas expressões são as seguintes:
 
    ![](assets/conditions-expression.png)
 
-1. Adicionar entre os `{%if}` e `{%/if}` O marca o conteúdo que você deseja exibir se a regra condicional for atendida. Você pode adicionar quantas regras forem necessárias para criar várias variantes de uma expressão.
+1. Adicionar entre os `{%if}` e `{%/if}` O marca o conteúdo que você deseja exibir se a regra condicional for atendida. É possível adicionar quantas regras forem necessárias para criar várias variantes de uma expressão.
 
    No exemplo abaixo, duas variantes foram criadas para um conteúdo SMS, dependendo do idioma preferencial do recipient.
 

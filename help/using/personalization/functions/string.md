@@ -91,15 +91,15 @@ A variável `contains` é usada para determinar se uma sequência de caracteres 
 
 * A função a seguir verificará se o nome do perfil contém a letra A (em maiúsculas ou minúsculas). Nesse caso, retornará &#39;true&#39;, ou &#39;false&#39;.
 
-   ```sql
-   {%= contains(profile.person.name.firstName, "A", false) %}
-   ```
+  ```sql
+  {%= contains(profile.person.name.firstName, "A", false) %}
+  ```
 
 * A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, se o endereço de email da pessoa contém a cadeia de caracteres &quot;2010@gm&quot;.
 
-   ```sql
-   {%= contains(profile.person.emailAddress,"2010@gm") %}
-   ```
+  ```sql
+  {%= contains(profile.person.emailAddress,"2010@gm") %}
+  ```
 
 ## Não contém{#doesNotContain}
 
@@ -658,9 +658,10 @@ A variável `replaceAll` A função é usada para substituir todas as subsequên
 
 >[!NOTE]
 >
-> Quando a expressão tomada como segundo argumento for um caractere regex especial, use barra invertida dupla (`//`).  Os caracteres de regex especiais são: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> Quando a expressão tomada como segundo argumento for um caractere regex especial, use barra invertida dupla (`//`).  Os caracteres de regex especiais são: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
 > Saiba mais em [Documentação do Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+>
 
 ## Cortar à direita {#rightTrim}
 

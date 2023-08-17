@@ -11,7 +11,7 @@ exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 4%
+ht-degree: 28%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-Estas documentações fornecem informações detalhadas sobre como trabalhar com a composição de público-alvo no Adobe Journey Optimizer. Se você não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+Estas documentações fornecem informações detalhadas sobre como trabalhar com a composição de público-alvo no Adobe Journey Optimizer. Se não estiver usando o Adobe Journey Optimizer, [clique aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=pt-BR)
 
 >[!ENDSHADEBOX]
 
@@ -31,7 +31,7 @@ Essa guia lista todos os públicos-alvo armazenados no Adobe Experience Platform
 
 >[!NOTE]
 >
->Para obter mais informações sobre outros tipos de público-alvo disponíveis no Adobe Experience Platform, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>Para obter mais informações sobre outros tipos de público-alvo disponíveis no Adobe Experience Platform, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR).
 
 A variável **[!UICONTROL Contagem de perfis]** A coluna fornece informações sobre o número de perfis incluídos em um público-alvo. Clique no botão &quot;i&quot; para obter mais informações sobre a data em que essas informações foram calculadas.
 
