@@ -4,16 +4,22 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '3061'
-ht-degree: 100%
+source-wordcount: '3171'
+ht-degree: 96%
 
 ---
 
 # Atualizações de documentação {#latest-updates}
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
+
+## Agosto de 2023 {#august-2023}
+
+* Uma nova seção foi adicionada sobre os pré-requisitos do experimento de conteúdo para o canal da Web. [Leia mais](../web/web-prerequisites.md#experiment-prerequisites)
+* Um aviso foi adicionado ao **Trabalhar com modelos de conteúdo** para indicar que o rastreamento atual não é compatível ao testar modelos de conteúdo de email. Para testar o rastreamento, você deve usar o template de conteúdo em um email e enviar uma prova. [Leia mais](../email/content-templates.md#test-template)
+* Vários avisos foram adicionados no **Criar e publicar páginas de destino** para especificar que você não pode acessar sua landing page simplesmente copiando e colando em um navegador da web o URL definido ao criar a página, mesmo que publicada. Em vez disso, você pode testá-lo usando a função de visualização. [Leia mais](../landing-pages/create-lp.md)
 
 ## Julho de 2023 {#july-2023}
 

@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 11%
+source-wordcount: '389'
+ht-degree: 10%
 
 ---
 
@@ -23,6 +23,12 @@ Antes de enviar mensagens no aplicativo, é necessário configurar o canal no ap
    [!DNL Edge Segmentation] e [!DNL Adobe Journey Optimizer] deve ser selecionado.
 
    ![](assets/inapp_config_6.png)
+
+   >[!NOTE]
+   >
+   >Para habilitar experimentos de conteúdo para o canal no aplicativo, verifique se [conjunto de dados](../data/get-started-datasets.md) usado no aplicativo [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=pt-BR){target="_blank"} O também está presente na configuração de relatórios; caso contrário, os dados no aplicativo não serão exibidos nos relatórios de experimento de conteúdo. [Saiba como adicionar conjuntos de dados](../campaigns/reporting-configuration.md#add-datasets)
+   >
+   >O conjunto de dados é usado como somente leitura pelo [!DNL Journey Optimizer] sistema de relatórios e não afeta a coleta ou a assimilação de dados.
 
 1. Em seguida, acesse o **[!UICONTROL Superfícies do aplicativo]** e clique em **[!UICONTROL Criar superfície do aplicativo]**.
 
