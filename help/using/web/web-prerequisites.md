@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: 827fd9a6e97b610234b2c43a469e71ed8d2f8199
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 11%
@@ -133,7 +133,7 @@ Para que a experiência da Web seja entregue corretamente, as seguintes configur
 
 ## Pré-requisitos do experimento de conteúdo {#experiment-prerequisites}
 
-Para habilitar experimentos de conteúdo para o canal da Web, verifique se [conjunto de dados](../data/get-started-datasets.md) usado na implementação da Web [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=pt-BR){target="_blank"} O também está presente na sua configuração de relatórios.
+Para habilitar experimentos de conteúdo para o canal da Web, verifique se [conjunto de dados](../data/get-started-datasets.md) usado na implementação da Web [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=pt-BR){target="_blank"} também está incluído na sua configuração de relatórios.
 
 Em outras palavras, ao configurar os relatórios de experimento, se você adicionar um conjunto de dados que não esteja presente no seu fluxo de dados da Web, os dados da Web não serão exibidos nos relatórios de experimento de conteúdo.
 
