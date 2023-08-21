@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reentrada, jornada, perfil, recorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: b3a047977fc4ffcab6674b573ef50018076d156a
+source-git-commit: 1bcc47389b128c6eb6e768578b2ae64c4b0fea89
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '613'
 ht-degree: 14%
 
 ---
@@ -37,7 +37,7 @@ Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção
 
 ![](assets/journey-re-entrance.png)
 
-Após o tempo limite global padrão de 30 dias, a jornada muda para a tag **Concluído** status. Os perfis que já estão na jornada concluem a jornada normalmente. Novos perfis não podem mais entrar na jornada. Esse comportamento é definido somente para 30 dias (valor padrão de tempo limite da jornada). Após esse período, os perfis poderão inserir novamente a jornada. Para evitar isso, adicione uma condição para testar se o perfil já entrou ou não. Saiba mais sobre o tempo limite da jornada em [nesta seção](journey-gs.md#global_timeout).
+Após o tempo limite global padrão de 30 dias, a jornada muda para a tag **Concluído** status. Os perfis que já estão na jornada concluem a jornada normalmente. Novos perfis não podem mais entrar na jornada. Esse comportamento é definido somente por 30 dias (valor padrão do tempo limite da jornada), à medida que removemos todas as informações sobre os perfis que entraram na jornada 30 dias após terem entrado. Após esse período, os perfis poderão inserir novamente a jornada. Para evitar isso, adicione uma condição para testar se o perfil já entrou ou não. Saiba mais sobre o tempo limite da jornada em [nesta seção](journey-gs.md#global_timeout).
 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
