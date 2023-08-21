@@ -5,9 +5,9 @@ title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3171'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 ## Agosto de 2023 {#august-2023}
 
 * Uma nova seção foi adicionada sobre os pré-requisitos do experimento de conteúdo para o canal da Web. [Leia mais](../web/web-prerequisites.md#experiment-prerequisites)
-* Um aviso foi adicionado ao **Trabalhar com modelos de conteúdo** para indicar que o rastreamento atual não é compatível ao testar modelos de conteúdo de email. Para testar o rastreamento, você deve usar o template de conteúdo em um email e enviar uma prova. [Leia mais](../email/content-templates.md#test-template)
-* Vários avisos foram adicionados no **Criar e publicar páginas de destino** para especificar que você não pode acessar sua landing page simplesmente copiando e colando em um navegador da web o URL definido ao criar a página, mesmo que publicada. Em vez disso, você pode testá-lo usando a função de visualização. [Leia mais](../landing-pages/create-lp.md)
+* Um aviso foi adicionado à página **Trabalhar com modelos de conteúdo** para indicar que o rastreamento atual não é compatível ao testar modelos de conteúdo de email. Para testar o rastreamento, você deve usar o modelo de conteúdo em um email e enviar uma prova. [Leia mais](../email/content-templates.md#test-template)
+* Vários avisos foram adicionados à seção **Criar e publicar páginas de destino** para especificar que você não pode acessar sua página de destino simplesmente copiando e colando em um navegador da web o URL definido ao criar a página, mesmo que esteja publicada. Em vez disso, você pode testá-lo usando a função de visualização. [Leia mais](../landing-pages/create-lp.md)
 
 ## Julho de 2023 {#july-2023}
 
