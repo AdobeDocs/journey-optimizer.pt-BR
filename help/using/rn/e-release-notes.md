@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 36634fc3993261756c081e71c47e7408c77c65ae
+source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 43%
+source-wordcount: '402'
+ht-degree: 41%
 
 ---
 
@@ -29,7 +29,7 @@ Essa versão traz os novos recursos listados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Canal no aplicativo no jornada</strong><br/></th>
+<th><strong>Enviar mensagens no aplicativo em suas jornadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -64,13 +64,14 @@ Essa versão traz os novos recursos listados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Assistente de conteúdo para texto e imagens</strong><br/></th>
+<th><strong>Gerar texto e imagens com o assistente de Conteúdo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Depois de criar e personalizar sua mensagem, leve o conteúdo ao próximo nível com o assistente de Conteúdo. Agora você pode usar o assistente de Conteúdo para otimizar o impacto da sua mensagem, experimentando com diferentes títulos principais e imagens. Cada variante é gerenciada como um Tratamento exclusivo, para medir e comparar qual título gera efetivamente mais cliques.</p>
+<p>No momento, esse recurso está disponível como um beta privado.</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -96,3 +97,9 @@ Uma nova API para criar e gerenciar Fragmentos de conteúdo agora está disponí
 
 * Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas.
 * Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando houver falha em uma ação personalizada.
+
+
+**Correspondência direta**
+
+* Suporte ao Azure Blob como destino de roteamento.
+* Suporte &quot;&amp;&quot; como um separador personalizado.
