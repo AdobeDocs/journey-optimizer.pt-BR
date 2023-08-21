@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
+source-git-commit: 0ff415fa209da7996254a60817ef69998fd47903
 workflow-type: tm+mt
-source-wordcount: '3193'
+source-wordcount: '3201'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <td>
 <p>Agora é possível importar e converter qualquer conteúdo de HTML no editor de email do Journey Optimizer. Os blocos de conteúdo são identificados automaticamente e disponibilizados no designer de email: use seus recursos de design eficientes para atualizá-los e personalizá-los.</p>
 <img src="assets/html-convert.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>Para obter mais informações, consulte a <a href="../email/existing-content.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -117,11 +117,6 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 ### Melhorias {#july-2023-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
-
-<!--**Journeys**
-
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
-A new type of system alert has been introduced. You can now get notified when a custom action fails.-->
 
 
 **Campanhas**
