@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 5d122a244b610c9dc6b53795b4e94bc2029df714
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 100%
+source-wordcount: '852'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,13 @@ Por padrão, somente os conjuntos de dados assimilados são exibidos. Se quiser 
 
 Selecione o nome de um conjunto de dados para acessar a tela de atividade do Conjunto de dados e ver os detalhes do conjunto de dados selecionado. A guia Atividade inclui um gráfico que visualiza a taxa de mensagens que estão sendo consumidas, bem como uma lista de lotes bem-sucedidos e com falha.
 
-Estes são os diferentes conjuntos de dados disponíveis:
+Os conjuntos de dados do sistema para o Adobe Journey Optimizer estão listados abaixo.
+
+
+>[!CAUTION]
+>
+> Conjuntos de dados do sistema **não deve ser modificado**. Qualquer alteração é revertida automaticamente com cada atualização de produto.
+>
 
 **Relatórios**
 
