@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 132121b4dd9c20149e4a5b24e90ebffd4ebbdcbc
+source-git-commit: f18fc404a238271edf9240a509f2f0df54c9503c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 38%
+source-wordcount: '411'
+ht-degree: 40%
 
 ---
 
@@ -97,7 +97,7 @@ Uma nova API para criar e gerenciar Fragmentos de conteúdo agora está disponí
 
 * Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. No momento, esse recurso está disponível como um beta privado.
 * Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando houver falha em uma ação personalizada.
-* Ao duplicar uma jornada, agora é possível definir o nome da cópia da jornada.
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **Correspondência direta**
