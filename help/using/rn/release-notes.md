@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
+source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3495'
 ht-degree: 93%
 
 ---
@@ -103,8 +103,8 @@ Uma nova opção está disponível nas configurações da superfície de email p
 **Jornadas**
 
 * Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. No momento, esse recurso está disponível como um beta privado.
-* Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando houver falha em uma ação personalizada.
-  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
+<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
+* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **Correspondência direta**
