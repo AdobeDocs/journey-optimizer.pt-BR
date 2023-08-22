@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reentrada, jornada, perfil, recorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: b0cda95aee58a3dd3a0e22d09b5938ff11abcf32
+source-git-commit: 35f52afe61bf3eda897cc96f5484778522e38d45
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '620'
 ht-degree: 13%
 
 ---
@@ -37,7 +37,7 @@ Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção
 
 ![](assets/journey-re-entrance.png)
 
-Após o padrão [tempo limite global](journey-gs.md#global_timeout) de 30 dias, a jornada muda para o estado **Concluído** status. Os perfis que já estão na jornada concluem a jornada normalmente. Novos perfis não podem mais entrar na jornada. Esse comportamento é definido somente por 30 dias (ou seja, o valor padrão do tempo limite da jornada), pois todas as informações sobre os perfis que entraram na jornada são removidas 30 dias depois de serem inseridas. Após esse período, os perfis poderão inserir novamente a jornada. Para evitar isso e desativar totalmente a reentrada desses perfis, você pode adicionar uma condição para testar se o perfil já entrou ou não.
+Após o padrão [tempo limite global](journey-gs.md#global_timeout) de 30 dias, a jornada muda para o estado **Concluído** status. Os perfis que já estão na jornada concluem a jornada normalmente. Novos perfis não podem mais entrar na jornada. Esse comportamento é definido somente por 30 dias (ou seja, o valor padrão do tempo limite da jornada), pois todas as informações sobre os perfis que entraram na jornada são removidas 30 dias depois de serem inseridas. Após esse período, os perfis poderão inserir novamente a jornada. Para evitar isso e desativar totalmente a reentrada desses perfis, você pode adicionar uma condição para testar se o perfil entrou já ou não, usando dados de perfil ou público-alvo.
 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
