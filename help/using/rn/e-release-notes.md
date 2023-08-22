@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f18fc404a238271edf9240a509f2f0df54c9503c
+source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 40%
+source-wordcount: '362'
+ht-degree: 45%
 
 ---
 
@@ -52,7 +52,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Agora você pode criar e gerenciar seed lists no Journey Optimizer. Uma lista de propagação consiste em endereços de email de teste para os quais você envia um email antes de enviá-lo para o público-alvo real. Use esse recurso para monitorar as cópias de email enviadas e garantir que todos os formatos de exibição, URLs, imagens e links estejam corretos.</p>
+<p>Agora você pode criar e gerenciar seed lists no Journey Optimizer. Uma lista de propagação consiste em endereços internos que podem ser adicionados ao público-alvo real e receber exatamente a mesma mensagem que os perfis direcionados no tempo de execução do delivery. Use esse recurso para monitorar as comunicações enviadas e garantir que todos os formatos de exibição, URLs, imagens e links estejam corretos.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -61,23 +61,23 @@ Essa versão traz os novos recursos listados abaixo.
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Gerar texto e imagens com o assistente de Conteúdo</strong><br/></th>
+<th><strong>Generate text and images with the Content assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Depois de criar e personalizar sua mensagem, leve o conteúdo ao próximo nível com o assistente de Conteúdo. Agora você pode usar o assistente de Conteúdo para otimizar o impacto da sua mensagem, experimentando com diferentes títulos principais e imagens. Cada variante é gerenciada como um Tratamento exclusivo, para medir e comparar qual título gera efetivamente mais cliques.</p>
-<p>No momento, esse recurso está disponível como um beta privado.</p>
+<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>This capability is currently available as a private beta.</p>
 <img src="assets/gen-ai-image-2.png"/>
-<!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 
@@ -91,7 +91,7 @@ Uma nova API para criar e gerenciar Fragmentos de conteúdo agora está disponí
 
 **Canal de email**
 
-* Uma nova opção está disponível nas configurações da superfície de email para incluir endereços de email suprimidos devido a reclamações de spam nos públicos-alvo de mensagens transacionais. Mesmo que marquem mensagens de marketing como spam, esses perfis poderão receber mensagens transacionais, como redefinição de senha ou declarações de conta. Essa opção está desabilitada por padrão.
+Uma nova opção está disponível nas configurações da superfície de email para incluir endereços de email suprimidos devido a reclamações de spam nos públicos-alvo de mensagens transacionais. Mesmo que marquem mensagens de marketing como spam, esses perfis poderão receber mensagens transacionais, como redefinição de senha ou declarações de conta. Essa opção está desabilitada por padrão.
 
 **Jornadas**
 
@@ -102,5 +102,5 @@ Uma nova API para criar e gerenciar Fragmentos de conteúdo agora está disponí
 
 **Correspondência direta**
 
-* Suporte ao Azure Blob como destino de roteamento.
-* Suporte `&` como separador personalizado.
+* O Azure agora pode ser selecionado como o tipo de servidor na configuração de roteamento de arquivos.
+* O E comercial agora está disponível como campo separador de coluna nas configurações de superfície de correspondência direta.
