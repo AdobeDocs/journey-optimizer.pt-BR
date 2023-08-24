@@ -12,7 +12,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 45%
+ht-degree: 48%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="Configurar conjuntos de dados para relatórios"
->abstract="A configuração dos relatórios permite recuperar métricas adicionais que serão usadas nos relatórios da campanha. Ela deve ser feita por um usuário técnico."
+>abstract="A configuração de relatórios permite recuperar métricas adicionais que serão usadas nos relatórios de campanha. Ela deve ser feita por um usuário técnico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
