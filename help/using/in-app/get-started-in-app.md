@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
+source-git-commit: cf3e56f2c87ad39d94cb412fc605f5b235d6d1e1
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 85%
+source-wordcount: '221'
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 
 As mensagens no aplicativo são notificações que podem ser enviadas aos usuários dentro do aplicativo, guiando-os para pontos de interesse específicos. Essas notificações podem ser usadas para diferentes propósitos, como a promoção de novos recursos, a apresentação de ofertas especiais ou a facilitação da integração de usuários. Ao utilizar as mensagens no aplicativo, você pode interagir com seu público de forma eficaz e direcioná-lo para aspectos importantes de seu aplicativo.
 
-Use o Journey Optimizer para criar notificações no aplicativo e configurar as opções de experiência, incluindo o layout e a exibição de mensagem, texto e as opções de botão.
+Use o Journey Optimizer para criar notificações no aplicativo e configurar as opções de experiência, incluindo o layout e a exibição de mensagem, texto e as opções de botão. Você pode adicionar mensagens no aplicativo em uma campanha e em uma jornada.
 
 >[!AVAILABILITY]
 >
@@ -40,7 +40,7 @@ Depois de concluída, você pode criar, configurar e enviar sua primeira mensage
 <a href="create-in-app.md">
 <img alt="Cliente potencial" src="../assets/do-not-localize/inapp-create.jpeg">
 </a>
-<div><a href="create-in-app.md"><strong>Criar uma mensagem no aplicativo</strong>
+<div><a href="create-in-app.md"><strong>Criar mensagem no aplicativo em uma campanha</strong>
 </div>
 <p>
 </td>
@@ -57,7 +57,7 @@ Depois de concluída, você pode criar, configurar e enviar sua primeira mensage
 <img alt="Validação" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>Relatório no aplicativo</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>Acessar o relatório no aplicativo</strong></a>
 </div>
 <p>
 </td>

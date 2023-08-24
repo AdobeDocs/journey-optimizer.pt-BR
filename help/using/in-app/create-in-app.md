@@ -1,20 +1,20 @@
 ---
-title: Criar uma notificação no aplicativo
-description: Saiba como criar uma mensagem no aplicativo no Journey Optimizer
+title: Criar uma notificação no aplicativo em uma campanha
+description: Saiba como criar uma mensagem no aplicativo em uma campanha no Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: ed08b21f10246ef548d991807aa31d13ad8cbccc
+source-git-commit: cf3e56f2c87ad39d94cb412fc605f5b235d6d1e1
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 6%
+source-wordcount: '763'
+ht-degree: 5%
 
 ---
 
-# Criação de uma mensagem no aplicativo {#create-in-app}
+# Criar uma mensagem no aplicativo em uma campanha {#create-in-app}
 
 <!--
 >[!BEGINTABS]
@@ -67,6 +67,8 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 >[!TAB Add an In-app message to a campaign]
 -->
+
+Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
 1. Acesse o **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**.
 
