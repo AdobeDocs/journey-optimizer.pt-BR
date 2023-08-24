@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: código, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 67%
@@ -24,7 +24,7 @@ Use o modo **[!UICONTROL Desenvolver você mesmo]** para importar um HTML bruto 
 
 >[!CAUTION]
 >
-> Imagens de [Adobe Experience Manager Assets Essentials](assets-essentials.md) não pode ser referenciado ao usar este método. As imagens referenciadas em seu código de HTML devem ser armazenadas em um local público.
+> Imagens de [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) não pode ser referenciado ao usar este método. As imagens referenciadas em seu código de HTML devem ser armazenadas em um local público.
 
 1. Na página inicial do Designer de email, selecione **[!UICONTROL Desenvolva o seu]**.
 

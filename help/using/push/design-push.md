@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '1260'
 ht-degree: 14%
@@ -50,7 +50,7 @@ Estão disponíveis duas opções. É possível:
 
 * Use o **[!UICONTROL Adicionar mídia]** botão para selecionar um ativo no **[!DNL Adobe Experience Manager Assets Essentials]**.
 
-  Saiba como usar o **[!DNL Adobe Experience Manager Assets Essentials]** in [esta página](../email/assets-essentials.md).
+  Saiba como usar o **[!DNL Adobe Experience Manager Assets Essentials]** in [esta página](../content-management/assets-essentials.md).
 
 * Ou insira o URL da mídia no campo **[!UICONTROL Adicionar mídia]** campo. Nesse caso, você pode adicionar personalização ao URL.
 

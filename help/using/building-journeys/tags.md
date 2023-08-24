@@ -8,22 +8,17 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: jornada, tags
-badge: label="Beta" type="Informative"
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 46%
+source-wordcount: '234'
+ht-degree: 42%
 
 ---
 
 # Gerenciar tags em jornadas {#journey_tags}
 
 Como um profissional da Journey Optimizer, você pode organizar suas jornadas usando tags. As tags são uma maneira rápida e fácil de classificar objetos para melhorar a pesquisa.
-
->[!AVAILABILITY]
->
-> As tags unificadas estão atualmente na versão beta. A documentação e a funcionalidade estão sujeitas a alterações.
 
 ## Adicionar tags a uma jornada
 

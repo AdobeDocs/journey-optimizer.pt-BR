@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 * Usar os **recursos de design de email** do [!DNL Journey Optimizer] para criar ou importar emails responsivos. [Saiba mais](content-from-scratch.md)
 
-* Aproveitar o **Adobe Experience Manager Assets Essentials** para enriquecer seus emails e criar e gerenciar seu próprio banco de dados de ativos. [Saiba mais](assets-essentials.md)
+* Aproveitar o **Adobe Experience Manager Assets Essentials** para enriquecer seus emails e criar e gerenciar seu próprio banco de dados de ativos. [Saiba mais](../content-management/assets-essentials.md)
 
-* Encontrar **fotos do Adobe Stock** para criar seu conteúdo e melhorar o design de emails. [Saiba mais](stock.md)
+* Encontrar **fotos do Adobe Stock** para criar seu conteúdo e melhorar o design de emails. [Saiba mais](../content-management/stock.md)
 
 * Melhore a experiência dos clientes criando mensagens personalizadas e dinâmicas com base em seus atributos de perfil. Saiba mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md).
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## Práticas recomendadas de design de email {#best-practices}
 
-Ao enviar emails, é importante considerar que os destinatários podem encaminhá-los, o que pode às vezes causar problemas com a renderização do email. Isso acontece particularmente ao usar classes CSS que podem não ser compatíveis com o provedor de email usado para encaminhamento, por exemplo, se estiver usando a classe CSS “is-desktop-hidden” para ocultar uma imagem em dispositivos móveis.
+Ao enviar emails, é importante levar em consideração que os destinatários podem encaminhá-los, o que às vezes pode causar problemas na renderização do email. Isso acontece especialmente ao usar classes CSS que podem não ser compatíveis com o provedor de email usado para encaminhamento. Por exemplo, se estiver usando a classe CSS “is-desktop-hidden” para ocultar uma imagem em dispositivos móveis.
 
 Para minimizar esses problemas de renderização, é recomendado manter a estrutura do design de emails o mais simples possível. Tente usar um único design que funcione bem tanto para desktops quanto para dispositivos móveis e evite usar classes CSS complexas ou outros elementos de design que possam não ser totalmente compatíveis com todos os clientes de email. Ao seguir essas práticas recomendadas, você ajuda a garantir que seus emails sejam renderizados corretamente de forma consistente, independentemente de como sejam visualizados ou encaminhados pelos destinatários.
 
@@ -46,7 +46,7 @@ Depois de [adicionar um email](create-email.md) em uma jornada ou campanha, voc�
 
 1. Na página inicial do Designer de email, escolha uma das seguintes opções para criar o design do email:
 
-   * **Crie o design do email do zero** por meio da interface do Designer de email e aproveite imagens do [Adobe Experience Manager Assets Essentials](assets-essentials.md). Saiba como criar o design do conteúdo de email [nesta seção](content-from-scratch.md).
+   * **Crie o design do email do zero** por meio da interface do Designer de email e aproveite imagens do [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md). Saiba como criar o design do conteúdo de email [nesta seção](content-from-scratch.md).
 
    * **Codifique ou cole um HTML bruto** diretamente no Designer de email. Saiba como codificar seu próprio conteúdo [nesta seção](code-content.md).
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: componentes, designer de email, editor, email
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: c4ea32bf25ab49e925d6f0610494c3729e779bf1
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 57%
@@ -121,7 +121,7 @@ Use o componente de **[!UICONTROL Texto]** para inserir texto no email e ajustar
    * **Tamanho da fonte**: selecione o tamanho da fonte do texto em pixels.
    * **[!UICONTROL Alterar cor da fonte]**: escolha a cor da fonte.
    * **[!UICONTROL Inserir link]**: adicione qualquer tipo de link ao seu conteúdo.
-   * **[!UICONTROL Editar imagem]**: adicione uma imagem ou um ativo ao seu componente de texto. [Saiba mais sobre o gerenciamento de ativos](assets-essentials.md)
+   * **[!UICONTROL Editar imagem]**: adicione uma imagem ou um ativo ao seu componente de texto. [Saiba mais sobre o gerenciamento de ativos](../content-management/assets-essentials.md)
    * **[!UICONTROL Alterar cor da fonte]**: escolha a cor da fonte.
    * **[!UICONTROL Adicionar personalização]**: adicione campos de personalização para personalizar o conteúdo dos dados de seus perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
    * **[!UICONTROL Mostrar o código-fonte]**: exibir o código-fonte do texto. Ele não pode ser modificado.
@@ -178,7 +178,7 @@ Use o **[!UICONTROL Imagem]** para inserir um arquivo de imagem do seu computado
 
    ![](assets/email_designer_10.png)
 
-1. Você também pode optar por **[!UICONTROL Encontrar fotos semelhantes do Stock]**. [Saiba mais](stock.md)
+1. Você também pode optar por **[!UICONTROL Encontrar fotos semelhantes do Stock]**. [Saiba mais](../content-management/stock.md)
 
 1. No **[!UICONTROL Estilos]** , ajuste os outros atributos de estilo, como margem, borda etc. ou adicione um link para redirecionar o seu público para outro conteúdo a partir do painel **[!UICONTROL Configurações do componente]**.
 
