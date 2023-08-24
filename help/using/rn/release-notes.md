@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5c8a985d19c82ecb79153dd8ba2e056f6a2c1f2b
+source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
 workflow-type: tm+mt
-source-wordcount: '3495'
-ht-degree: 93%
+source-wordcount: '3384'
+ht-degree: 96%
 
 ---
 
@@ -22,32 +22,27 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
 
-## Notas de versão antecipadas de agosto de 2023 {#aug-rn-2023}
-
-As notas de versão anteriores abaixo estão sujeitas a alterações sem aviso prévio até a data de lançamento. Links, telas e documentação atualizada são publicados na data de lançamento.
-
-
-**Data de lançamento**: 23 a 24 de agosto de 2023
+## Notas de versão de agosto de 2023 {#aug-rn-2023}
 
 ### Novos recursos{#aug-2023-features}
 
 Essa versão traz os novos recursos listados abaixo.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Enviar mensagens no aplicativo em suas jornadas</strong><br/></th>
+<th><strong>Send In-app messages in your journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode enviar mensagens personalizadas no aplicativo para os usuários do aplicativo em uma jornada. Use o Journey Optimizer para criar notificações e personalizar o layout, a exibição, o texto e os botões das mensagens para criar uma experiência perfeita.</p>
+<p>You can now send personalized In-app messages to your app users within a journey. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <img src="assets/in_app_journey_1.png"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../in-app/create-in-app-journey.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <table>
@@ -61,7 +56,7 @@ Essa versão traz os novos recursos listados abaixo.
 <td>
 <p>Agora você pode criar e gerenciar seed lists no Journey Optimizer. Uma lista de propagação consiste em endereços internos que podem ser adicionados ao público-alvo real e receber exatamente a mesma mensagem que os perfis direcionados no tempo de execução do delivery. Use esse recurso para monitorar as comunicações enviadas e garantir que todos os formatos de exibição, URLs, imagens e links estejam corretos.</p>
 <img src="../configuration/assets/seed-list-details.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>Para obter mais informações, consulte a <a href="../configuration/seed-lists.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -92,25 +87,26 @@ Essa versão traz os novos recursos listados abaixo.
 
 Esta versão vem com as melhorias listadas abaixo.
 
+<!--
 **APIs**
 
-Uma nova API para criar e gerenciar Fragmentos de conteúdo agora está disponível. [Saiba mais](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.-->
 
-**Canal de email**
+<!--**Email channel**
 
-Uma nova opção está disponível nas configurações da superfície de email para incluir endereços de email suprimidos devido a reclamações de spam nos públicos-alvo de mensagens transacionais. Mesmo que marquem mensagens de marketing como spam, esses perfis poderão receber mensagens transacionais, como redefinição de senha ou declarações de conta. Essa opção está desabilitada por padrão.
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.-->
 
 **Jornadas**
 
-Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. No momento, esse recurso está disponível como um beta privado.
-<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
-* When duplicating a journey, you can now define the name of the journey copy.-->
+* Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. No momento, esse recurso está disponível como um beta privado. [Saiba mais](../action/action-response.md).
+* Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando houver falha em uma ação personalizada. [Saiba mais](../reports/alerts.md).
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **Correspondência direta**
 
-* O Azure agora pode ser selecionado como o tipo de servidor na configuração de roteamento de arquivos.
-* O E comercial agora está disponível como campo separador de coluna nas configurações de superfície de correspondência direta.
+* O Azure agora pode ser selecionado como o tipo de servidor na configuração de roteamento de arquivos. [Saiba mais](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+* O E comercial agora está disponível como campo separador de coluna nas configurações de superfície de correspondência direta. [Saiba mais](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 
 

@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1424'
 ht-degree: 98%
 
 ---
@@ -437,20 +437,21 @@ ht-degree: 98%
    + [Consultas](using/data/get-started-queries.md)
 + Configuração {#configuration}
    + [Introdução à configuração do Journey Optimizer](using/configuration/get-started-configuration.md)
+   + [Configurar superfícies do canal](using/configuration/channel-surfaces.md)
    + Delegar subdomínios de email {#delegate-subdomains}
       + [Introdução à delegação de subdomínio](using/configuration/about-subdomain-delegation.md)
       + [Delegar um subdomínio](using/configuration/delegate-subdomain.md)
       + [Adicionar um registro TXT do Google](using/configuration/google-txt.md)
       + [Acessar e editar registros PTR](using/configuration/ptr-records.md)
       + [Criar pools de IP](using/configuration/ip-pools.md)
-   + [Configurar superfícies do canal](using/configuration/channel-surfaces.md)
    + Monitorar endereços de email {#monitor-reputation}
       + [Lista de supressão](using/configuration/manage-suppression-list.md)
       + [Tentativas](using/configuration/retries.md)
       + [Lista de permissões](using/configuration/allow-list.md)
+   + [Usar listas de propagação](using/configuration/seed-lists.md)
    + [Suporte para arquivamento](using/configuration/archiving-support.md)
+   + [Alterar endereços de execução](using/configuration/primary-email-addresses.md)
    + [Configurar regras de frequência](using/configuration/frequency-rules.md)
-   + [Gerenciar endereços de execução](using/configuration/primary-email-addresses.md)
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
       + Integrar a sistemas externos {#external-systems}
@@ -475,7 +476,7 @@ ht-degree: 98%
          + [Configurar uma ação](using/action/about-custom-action-configuration.md)
          + [Integrar ao Adobe Campaign Standard](using/action/acs-action.md)
          + [Integrar ao Adobe Campaign v7/v8](using/action/acc-action.md)
-         + [Sobre ações](using/action/action-response.md)
+         + [Usar respostas de chamada de API em ações personalizadas](using/action/action-response.md)
    + [Fontes](using/start/get-started-sources.md)
 + Controle de acesso {#access-control}
    + Visão geral do controle de acesso {#privacy}

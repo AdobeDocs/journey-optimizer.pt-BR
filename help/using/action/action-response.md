@@ -1,28 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar uma ação personalizada
-description: Saiba como configurar uma ação personalizada
+title: Aprimoramentos de ação personalizada
+description: Saiba mais sobre os últimos aprimoramentos das ações personalizadas
 feature: Actions
 topic: Administration
 role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: action, third-party, custom, jornada, API
-hide: true
-hidefromtoc: true
-source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
+source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '666'
 ht-degree: 5%
 
 ---
 
-# Aprimoramentos de ação personalizada
+# Aprimoramentos de ação personalizada {#custom-action-enhancements}
 
 Agora você pode aproveitar as respostas de chamada da API em ações personalizadas e orquestrar suas jornadas com base nessas respostas.
 
-Esse recurso só estava disponível ao usar fontes de dados. Agora você pode usá-lo com ações personalizadas.
+Anteriormente, esse recurso só estava disponível ao usar fontes de dados. Agora você pode usá-lo com ações personalizadas.
 
 >[!AVAILABILITY]
 >
@@ -32,11 +30,11 @@ Esse recurso só estava disponível ao usar fontes de dados. Agora você pode us
 >
 >As ações personalizadas só devem ser usadas com endpoints privados ou internos e usadas com um limite máximo ou limitação apropriado. Consulte [esta página](../configuration/external-systems.md).
 
-## Definir a ação personalizada
+## Definir a ação personalizada {#define-custom-action}
 
 Ao definir a ação personalizada, duas melhorias foram disponibilizadas: a adição do método GET e o novo campo de resposta de carga útil. As outras opções e parâmetros permanecem inalterados. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-### Configuração do endpoint
+### Configuração do endpoint {#endpoint-configuration}
 
 A variável **Configuração de URL** a seção foi renomeada **Configuração do endpoint**.
 
@@ -44,7 +42,7 @@ No **Método** , agora é possível selecionar **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### Cargas
+### Cargas {#payloads-new}
 
 A variável **Parâmetros de ação** a seção foi renomeada **Cargas**. Dois campos estão disponíveis:
 
@@ -80,7 +78,7 @@ A variável **Parâmetros de ação** a seção foi renomeada **Cargas**. Dois c
 
 1. Clique em **Salvar**.
 
-## Aproveitar a resposta em uma jornada
+## Aproveitar a resposta em uma jornada {#response-in-journey}
 
 Basta adicionar a ação personalizada a uma jornada. Em seguida, você pode aproveitar os campos de carga de resposta em condições, outras ações e personalização de mensagens.
 
@@ -119,7 +117,7 @@ Por exemplo, você pode adicionar uma condição para verificar o número de pon
 
    ![](assets/action-response11.png)
 
-## Status do erro{#error-status}
+## Status do erro {#error-status}
 
 A variável **jo_status_code** O campo está sempre disponível mesmo quando nenhuma carga de resposta é definida.
 
@@ -136,7 +134,7 @@ Uma chamada de ação é considerada com erro quando o código http retornado é
 >
 >Somente as ações personalizadas recém-criadas incluem a variável **jo_status_code** pronto para uso. Se quiser usá-la com uma ação personalizada existente, será necessário atualizar a ação. Por exemplo, você pode atualizar a descrição e salvar.
 
-## Sintaxe da expressão
+## Sintaxe da expressão {#exp-syntax}
 
 Esta é a sintaxe:
 
@@ -160,3 +158,4 @@ Veja alguns exemplos:
 ```
 
 Para obter mais informações sobre referências de campo, consulte [nesta seção](../building-journeys/expression/field-references.md).
+

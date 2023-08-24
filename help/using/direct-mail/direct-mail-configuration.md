@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
+source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '893'
 ht-degree: 31%
 
 ---
@@ -36,9 +36,7 @@ Antes de poder gerar esse arquivo, é necessário criar:
 >id="ajo_dm_file_routing_details"
 >title="Definir a configuração de roteamento de arquivos"
 >abstract="Após criar uma mensagem de correspondência direta, o arquivo contendo os dados do público-alvo direcionado será gerado e exportado para um servidor. Você precisa especificar os detalhes do servidor para que seu provedor de correspondência direta possa acessar e usar esse arquivo para a entrega da correspondência direta."
-
-<!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Criar uma mensagem de correspondência direta"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -78,7 +76,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Atualmente Amazon S3 e SFTP<!--and Azure--> são compatíveis com o [!DNL Journey Optimizer].
+   >Atualmente, o Amazon S3, SFTP e Azure são compatíveis com o [!DNL Journey Optimizer].
 
 1. Preencha os detalhes e as credenciais do seu servidor, como endereço do servidor, chave de acesso etc.
 
@@ -135,7 +133,7 @@ Uma superfície de correspondência direta também deve incluir a configuração
 
 1. Selecione o formato de arquivo: **[!UICONTROL CSV]** ou **[!UICONTROL Delimitado por texto]**.
 
-1. Se você selecionar **[!UICONTROL Delimitado por texto]**, defina o separador de colunas de sua escolha: tabulação, ponto e vírgula ou barra vertical<!--or ampersand-->.
+1. Se você selecionar **[!UICONTROL Delimitado por texto]**, defina o separador de coluna de sua escolha: tabulação, ponto e vírgula, barra vertical ou e comercial.
 
    ![](assets/surface-direct-mail-column-separator.png)
 

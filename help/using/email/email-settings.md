@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1941'
 ht-degree: 9%
 
 ---
@@ -181,6 +181,31 @@ Para fazer isso, ative a variável **[!UICONTROL Email com CCO]** recurso opcion
 Além disso, ao definir a variável **[!UICONTROL Email com Cco]** , certifique-se de usar um subdomínio que tenha uma configuração de registro MX válida, caso contrário, o processamento da superfície de email falhará.
 
 Se você receber um erro ao enviar a superfície de email, significa que o registro MX não está configurado para o subdomínio do endereço inserido. Entre em contato com o administrador para configurar o registro MX correspondente ou use outro endereço com uma configuração de registro MX válida.
+
+## Seed list {#seed-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_seed_list"
+>title="Adicionar uma lista de propagação"
+>abstract="Selecione a seed list de sua escolha para incluir automaticamente seed addresses específicos em seus deliveries. Esses endereços serão incluídos no tempo de execução do delivery e receberão uma cópia exata do delivery para fins de garantia."
+
+Uma lista de propagação em [!DNL Journey Optimizer] permite incluir automaticamente seed addresses de email específicos em seus deliveries. [Saiba mais](../configuration/seed-lists.md)
+
+>[!CAUTION]
+>
+>Atualmente, esse recurso se aplica somente ao canal de email.
+
+Selecione a lista que é relevante para você no **[!UICONTROL Seed list]** seção. Saiba como criar uma lista de propagação no [nesta seção](../configuration/seed-lists.md#create-seed-list).
+
+![](../configuration/assets/seed-list-surface.png)
+
+>[!NOTE]
+>
+>Somente uma lista de propagação pode ser selecionada de cada vez.
+
+Quando a superfície atual é usada em uma campanha ou jornada, os endereços de email na lista de seeds selecionada são incluídos no tempo de execução do delivery, o que significa que eles receberão uma cópia do delivery para fins de garantia.
+
+Saiba como usar a lista de propagação em uma campanha ou jornada no [nesta seção](../configuration/seed-lists.md#use-seed-list).
 
 ## Parâmetros de nova tentativa de email {#email-retry}
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 2281daefaf6b45c056ef9100b58f51dcd9c87257
+source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1662'
 ht-degree: 26%
 
 ---
@@ -172,3 +172,20 @@ Além do [timeout](#timeout_and_error) usado em atividades de jornada, também h
 Devido ao tempo limite de jornada de 30 dias, quando a reentrada da jornada não é permitida, não podemos garantir que o bloqueio de reentrada funcionará por mais de 30 dias. Na verdade, à medida que removemos todas as informações sobre as pessoas que entraram na jornada 30 dias depois de entrarem, não podemos saber a pessoa inserida anteriormente, há mais de 30 dias.
 
 Um indivíduo só poderá inserir uma atividade de espera se tiver tempo suficiente na jornada para concluir a duração da espera antes do tempo limite de jornada de 30 dias. Consulte [esta página](../building-journeys/wait-activity.md).
+
+## Duplicar uma jornada {#duplicate-a-journey}
+
+É possível duplicar uma jornada existente do **Procurar** guia. Todos os objetos e configurações são duplicados na cópia de jornada.
+
+Para fazer isso, siga as etapas abaixo:
+
+1. Navegue até a jornada que deseja copiar, clique na guia **Mais ações** ícone (os três pontos ao lado do nome da jornada).
+1. Selecione **Duplicar**.
+
+   ![Duplicar uma jornada](assets/duplicate-jo.png)
+
+<!--1. Enter the name of the journey and confirm. 
+
+    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+
+1. A nova jornada é criada e está disponível na lista de jornadas.
