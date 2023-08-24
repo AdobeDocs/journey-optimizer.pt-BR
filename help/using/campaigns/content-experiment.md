@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 11%
+source-wordcount: '838'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Experimento de conteúdo"
->abstract="Você pode optar por variar o conteúdo, o assunto ou o remetente da entrega para definir vários tratamentos de entrega e determinar a melhor combinação para os públicos."
+>abstract="Você pode optar por variar o conteúdo da mensagem, o assunto ou o remetente para definir vários tratamentos e determinar a melhor combinação para seus públicos."
 
 >[!NOTE]
 >
@@ -99,13 +99,13 @@ O objetivo aqui é ver se os recipients interagirão com o email dependendo do e
 >title="Métrica de sucesso"
 >abstract="A métrica de sucesso é usada para rastrear e avaliar o tratamento com melhor desempenho em um experimento. Certifique-se de configurar seu conjunto de dados para determinadas métricas antes de usá-lo."
 
-1. Quando o delivery for personalizado, na página Campaign summary, clique em **[!UICONTROL Criar experimento]** para configurar seu experimento de conteúdo.
+1. Quando a mensagem for personalizada, na página de resumo da campanha, clique em **[!UICONTROL Criar experimento]** para configurar seu experimento de conteúdo.
 
    ![](assets/content_experiment_3.png)
 
 1. Selecione o **[!UICONTROL Métrica de sucesso]** que deseja definir para o experimento.
 
-   Para nosso experimento, selecionamos **[!UICONTROL Email aberto]** para testar se os recipients abrirão seus emails se o código promocional estiver na linha de assunto.
+   Para este exemplo, selecione **[!UICONTROL Email aberto]** para testar se os perfis abrem seus emails se o código promocional estiver na linha de assunto.
 
    ![](assets/content_experiment_11.png)
 
