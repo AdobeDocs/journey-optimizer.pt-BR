@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: arquivamento, mensagens, HIPAA, CCO, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 315309fdede3aa095fc59266acf765dc4b782dd9
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 8%
+source-wordcount: '1137'
+ht-degree: 7%
 
 ---
 
@@ -35,9 +35,9 @@ Regulamentos como a HIPAA exigem que [!DNL Journey Optimizer] O deve fornecer um
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Definir um endereço de email CCO"
->abstract="Você pode manter uma cópia dos emails enviados enviando-os para uma caixa de entrada CCO. Digite o endereço de email de sua escolha para que cada email enviado seja copiado para o CCO. Observe que o domínio de endereço CCO não deve ser igual a algum subdomínio delegado à Adobe. Esse recurso é opcional."
+>abstract="Você pode manter uma cópia dos emails enviados enviando-os para uma caixa de entrada CCO. Digite o endereço de email de sua escolha para que cada email enviado seja copiado para o CCO. Observe que o domínio do endereço CCo deve ser diferente de qualquer subdomínio delegado ao Adobe. Esse recurso é opcional."
 
-É possível enviar uma cópia idêntica (ou cópia oculta) de um email enviado por [!DNL Journey Optimizer] para uma caixa de entrada CCO. Esse recurso opcional permite reter cópias das comunicações por e-mail enviadas aos usuários para fins de conformidade e/ou arquivamento. Ele ficará invisível para os recipients do delivery.
+Você pode enviar uma cópia oculta (Cco) de um email enviado por [!DNL Journey Optimizer] para um endereço CCO dedicado. Esse recurso opcional permite reter cópias das comunicações por e-mail enviadas aos usuários para fins de conformidade e/ou arquivamento. O endereço CCO não está visível para outros destinatários da mensagem.
 
 ### Habilitar email com CCO {#enable-bcc}
 
@@ -55,11 +55,11 @@ Para ativar o **[!UICONTROL Email com CCO]** opção, insira o endereço de emai
 
 ![](assets/preset-bcc.png)
 
-Todas as mensagens de email que usam essa superfície serão copiadas de forma oculta para o endereço de email CCO inserido. A partir daí, eles podem ser processados e arquivados usando um sistema externo.
+Quando a configuração for concluída, todas as mensagens de email baseadas nessa superfície serão copiadas de forma oculta para o endereço de email CCO inserido. A partir daí, as mensagens podem ser processadas e arquivadas usando um sistema externo.
 
 >[!CAUTION]
 >
->O uso do recurso CCO será contabilizado em relação ao número de mensagens para as quais você está licenciado. Portanto, ative-o somente nas superfícies usadas para comunicações críticas que você deseja arquivar. Verifique se há volumes licenciados em seu contrato.
+>O uso do recurso CCO é contabilizado em relação ao número de mensagens para as quais você está licenciado. Portanto, ative-o somente nas superfícies usadas para comunicações críticas que você deseja arquivar. Verifique se há volumes licenciados em seu contrato.
 
 A configuração de endereço de email com CCO é imediatamente salva e processada no nível da superfície. Ao criar uma nova mensagem usando essa superfície, o endereço de email de CCO é exibido automaticamente.
 
