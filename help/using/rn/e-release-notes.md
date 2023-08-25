@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 42%
+ht-degree: 76%
 
 ---
 
@@ -20,7 +20,7 @@ As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso 
 
 ## Notas de versão antecipadas de agosto de 2023 {#aug-rn-2023}
 
-**Data de lançamento**: 23 a 24 de agosto de 2023
+**Data de lançamento**: 23-24 de agosto de 2023
 
 ### Novos recursos{#aug-2023-features}
 
@@ -35,7 +35,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Agora você pode enviar mensagens personalizadas no aplicativo para os usuários do aplicativo em uma jornada. Use o Journey Optimizer para criar notificações e personalizar o layout, a exibição, o texto e os botões das mensagens para criar uma experiência perfeita.</p>
+<p>Agora é possível enviar mensagens personalizadas no aplicativo para os usuários e usuárias em uma campanha. Use o Journey Optimizer para criar notificações e personalizar o layout, a exibição, o texto e os botões das mensagens para criar uma experiência perfeita.</p>
 <img src="assets/in_app_journey_1.png"/>
 <p>Para obter mais informações, consulte a <a href="../in-app/get-started-in-app.md">documentação detalhada</a>.</p>
 </tr>
@@ -46,13 +46,13 @@ Essa versão traz os novos recursos listados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Validar seus emails com seed lists</strong><br/></th>
+<th><strong>Validação de seus emails com listas de seeds</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode criar e gerenciar seed lists no Journey Optimizer. Uma lista de propagação consiste em endereços internos que podem ser adicionados ao público-alvo real e receber exatamente a mesma mensagem que os perfis direcionados no tempo de execução do delivery. Use esse recurso para monitorar as comunicações enviadas e garantir que todos os formatos de exibição, URLs, imagens e links estejam corretos.</p>
+<p>Agora é possível criar e gerenciar listas de seeds no Journey Optimizer. Uma lista de propagação consiste em endereços internos que podem ser adicionados ao público-alvo real e receber exatamente a mesma mensagem que os perfis direcionados no tempo de execução do delivery. Use esse recurso para monitorar as comunicações enviadas e garantir que todos os formatos de exibição, URLs, imagens e links estejam corretos.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -91,11 +91,11 @@ Uma nova API para criar e gerenciar Fragmentos de conteúdo agora está disponí
 
 **Canal de email**
 
-Uma nova opção está disponível nas configurações da superfície de email para incluir endereços de email suprimidos devido a reclamações de spam nos públicos-alvo de mensagens transacionais. Mesmo que marquem mensagens de marketing como spam, esses perfis poderão receber mensagens transacionais, como redefinição de senha ou declarações de conta. Essa opção está desabilitada por padrão.
+Uma nova opção está disponível nas configurações da superfície do email para incluir endereços de email suprimidos devido a reclamações de spam nos públicos-alvo de mensagens transacionais. Mesmo que marquem mensagens de marketing como spam, esses perfis poderão receber mensagens transacionais, como redefinição de senha ou declarações de conta. Essa opção está desabilitada por padrão.
 
 **Jornadas**
 
-* Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. No momento, esse recurso está disponível como um beta privado.
+* Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. No momento, esse recurso está disponível como um private beta.
 <!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
 * When duplicating a journey, you can now define the name of the journey copy.-->
 

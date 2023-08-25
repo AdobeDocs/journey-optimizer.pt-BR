@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4b9992d3824111fbd9cf4dd712bdcc17f9a76817
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Agora você pode enviar mensagens personalizadas no aplicativo para os usuários do aplicativo em uma jornada. Use o Journey Optimizer para criar notificações e personalizar o layout, a exibição, o texto e os botões das mensagens para criar uma experiência perfeita.</p>
+<p>Agora é possível enviar mensagens personalizadas no aplicativo para os usuários e usuárias em uma campanha. Use o Journey Optimizer para criar notificações e personalizar o layout, a exibição, o texto e os botões das mensagens para criar uma experiência perfeita.</p>
 <img src="assets/do-not-localize/in-app-GA.gif"/>
 <p>Para obter mais informações, consulte a <a href="../in-app/create-in-app.md">documentação detalhada</a>.</p>
 </tr>
@@ -48,13 +48,13 @@ Essa versão traz os novos recursos listados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Validar seus emails com seed lists</strong><br/></th>
+<th><strong>Validação de seus emails com listas de seeds</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode criar e gerenciar seed lists no Journey Optimizer. Uma lista de propagação consiste em endereços internos que podem ser adicionados ao público-alvo real e receber exatamente a mesma mensagem que os perfis direcionados no tempo de execução do delivery. Use esse recurso para monitorar as comunicações enviadas e garantir que todos os formatos de exibição, URLs, imagens e links estejam corretos.</p>
+<p>Agora é possível criar e gerenciar listas de seeds no Journey Optimizer. Uma lista de propagação consiste em endereços internos que podem ser adicionados ao público-alvo real e receber exatamente a mesma mensagem que os perfis direcionados no tempo de execução do delivery. Use esse recurso para monitorar as comunicações enviadas e garantir que todos os formatos de exibição, URLs, imagens e links estejam corretos.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <p>Para obter mais informações, consulte a <a href="../configuration/seed-lists.md">documentação detalhada</a>.</p>
 </td>
@@ -98,7 +98,7 @@ A new option is available in the email surface settings to include email address
 
 **Jornadas**
 
-* Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. No momento, esse recurso está disponível como um beta privado. [Saiba mais](../action/action-response.md).
+* Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. No momento, esse recurso está disponível como um private beta. [Saiba mais](../action/action-response.md).
 * Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando houver falha em uma ação personalizada. [Saiba mais](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
