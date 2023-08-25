@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
+source-git-commit: 9245d6a93aaaa85bee56e2291a53ca7495b6ba9e
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1344'
 ht-degree: 4%
 
 ---
@@ -34,6 +34,7 @@ A JORNADA **[!UICONTROL Relatório ao vivo]** será exibida com as seguintes gui
 * [Email](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
+* [No aplicativo](#in-app-live)
 
 A JORNADA **[!UICONTROL Relatório ao vivo]** O é dividido em diferentes widgets detalhando o sucesso e os erros da sua jornada. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte esta [seção](live-report.md#modify-dashboard).
 
@@ -196,6 +197,14 @@ A variável **[!UICONTROL Excluir motivos]** gráficos e tabelas permitem ver qu
 A variável **[!UICONTROL Desempenho no aplicativo]** Os KPIs detalham as principais informações relativas ao envolvimento dos visitantes com as mensagens no aplicativo, como:
 
 * **[!UICONTROL Impressões]**: número total de mensagens no aplicativo entregues a todos os usuários.
+
+  >[!NOTE]
+  >
+  >Para garantir que uma Impressão seja contada, o usuário deve atender a dois critérios:
+  >* Qualificação dentro da experiência no aplicativo, obtida ao atingir a atividade específica no aplicativo em sua jornada.
+  >* Cumprimento das condições especificadas nas regras de acionador.
+  > 
+  >Devido ao segundo critério, pode haver variações notáveis entre o número de perfis segmentados e a contagem de impressões únicas.
 
 * **[!UICONTROL Interações]**: número total de envolvimentos com a mensagem no aplicativo. Isso inclui qualquer ação realizada pelos usuários, como cliques, rejeições ou quaisquer outras interações.
 
