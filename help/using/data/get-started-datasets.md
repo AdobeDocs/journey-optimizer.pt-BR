@@ -8,9 +8,9 @@ level: Beginner
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 5d122a244b610c9dc6b53795b4e94bc2029df714
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '852'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Os conjuntos de dados do sistema para o Adobe Journey Optimizer estão listados 
 
 >[!CAUTION]
 >
-> Conjuntos de dados do sistema **não deve ser modificado**. Qualquer alteração é revertida automaticamente com cada atualização de produto.
+> Os conjuntos de dados do sistema **não devem ser modificados**. Qualquer alteração será revertida automaticamente com cada atualização do produto.
 >
 
 **Relatórios**
