@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2258'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,7 @@ A JORNADA **[!UICONTROL Relatório global]** será exibida com as seguintes guia
 * [Email](#email-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
+* [No aplicativo](#in-app-global)
 
 A JORNADA **[!UICONTROL Relatório global]** O é dividido em diferentes widgets detalhando o sucesso e os erros da sua jornada. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte esta [seção](global-report.md#modify-dashboard).
 
@@ -287,4 +288,33 @@ A variável **[!UICONTROL Excluir motivos]** gráficos e tabelas permitem ver qu
 
 A variável **[!UICONTROL SMS - Cliques por links]** e **[!UICONTROL SMS - Estatísticas de rastreamento]** os widgets detalham as principais informações relativas ao engajamento dos visitantes com seus URLs.
 
++++
+
+## Guia No aplicativo {#in-app-global}
+
+Da sua Jornada **[!UICONTROL Relatório global]**, o **[!UICONTROL No aplicativo]** A guia detalha as principais informações relacionadas aos deliveries no aplicativo enviados em suas jornadas.
+
+![](assets/in-app-journey-report.png)
+
++++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório No aplicativo.
+
+A variável **[!UICONTROL Desempenho no aplicativo]** Os KPIs detalham as principais informações relativas ao envolvimento dos visitantes com as mensagens no aplicativo, como:
+
+* **[!UICONTROL Impressões exclusivas]**: número de usuários únicos para os quais a mensagem no aplicativo foi exibida.
+
+* **[!UICONTROL Impressões]**: número total de mensagens no aplicativo exibidas para todos os usuários.
+
+  >[!NOTE]
+  >
+  >Para garantir que uma Impressão seja contada, o usuário deve atender a dois critérios:
+  >* Qualificação dentro da experiência no aplicativo, obtida ao atingir a atividade específica no aplicativo em sua jornada.
+  >* Cumprimento das condições especificadas nas regras de acionador.
+  > 
+  >Devido ao segundo critério, pode haver variações notáveis entre o número de perfis segmentados e a contagem de impressões únicas.
+
+* **[!UICONTROL Taxa de interação]**: porcentagem de envolvimentos com a mensagem no aplicativo. Isso inclui qualquer ação realizada pelos usuários, como cliques, rejeições ou quaisquer outras interações.
+
+A variável **[!UICONTROL Resumo no aplicativo]** O gráfico mostra a evolução de suas impressões e interações no aplicativo para o período relacionado.
+
+A variável **[!UICONTROL Interações por tipo]** os gráficos e tabelas detalham como os usuários interagiram com a mensagem no aplicativo rastreando qualquer clique, descarte ou interação.
 +++

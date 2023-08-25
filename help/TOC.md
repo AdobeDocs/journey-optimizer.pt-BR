@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
+source-git-commit: e75e24852c5be51565706dc8844a90a8a9b7f8cd
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 97%
+source-wordcount: '1417'
+ht-degree: 98%
 
 ---
 
@@ -203,8 +203,7 @@ ht-degree: 97%
       + [Definir configurações de superfície de email](using/email/email-settings.md)
 + Canal no aplicativo{#in-app}
    + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
-   + [Criação de uma mensagem no aplicativo em uma campanha](using/in-app/create-in-app.md)
-   + [Criar uma mensagem no aplicativo em uma jornada](using/in-app/create-in-app-journey.md)
+   + [Criação de uma mensagem no aplicativo](using/in-app/create-in-app.md)
    + [Criar seu conteúdo no aplicativo](using/in-app/design-in-app.md)
    + [Teste e envie a sua notificação no aplicativo](using/in-app/send-in-app.md)
    + [Configuração do canal no aplicativo](using/in-app/inapp-configuration.md)

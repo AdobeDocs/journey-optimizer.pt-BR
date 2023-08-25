@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
+source-git-commit: c01195dbee3e14a356c58353169507678aec5d30
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 100%
+source-wordcount: '1296'
+ht-degree: 86%
 
 ---
 
@@ -105,3 +105,19 @@ Você pode escolher uma dessas duas soluções:
 
 * Os grupos de campos de evento de experiência não podem ser usados em jornadas que comecem com atividades de Público-alvo de leitura, de Qualificação de público-alvo ou de evento comercial. É necessário criar um novo público-alvo e usar uma condição de público-alvo na jornada.
 
+
+### Limitações de atividades no aplicativo {#in-app-activity-limitations}
+
+* No momento, esse recurso não está disponível para clientes do setor de saúde.
+
+* A personalização pode conter apenas atributos de perfil.
+
+* A exibição no aplicativo está vinculada à duração da jornada, o que significa que, quando a jornada terminar para um perfil, todas as mensagens no aplicativo dentro dessa jornada deixarão de ser exibidas para esse perfil.  Consequentemente, não é possível interromper uma mensagem no aplicativo diretamente de uma atividade do jornada. Em vez disso, você precisará encerrar a jornada inteira para impedir que as mensagens no aplicativo sejam exibidas no perfil.
+
+* No modo de teste, a Exibição no aplicativo depende da duração da jornada. Para evitar que a jornada termine muito cedo durante o teste, ajuste o **[!UICONTROL Tempo de espera]** valor para o seu **[!UICONTROL Aguardar]** atividades.
+
+* **[!UICONTROL Reação]** As atividades do não podem ser usadas para reagir a uma abertura no aplicativo ou a um clique.
+
+* Um atraso de ativação pode ocorrer entre o momento em que um perfil de usuário atinge uma atividade no aplicativo na tela e o momento em que ele começa a ver essa mensagem no aplicativo.
+
+* O tamanho do conteúdo da mensagem no aplicativo é limitado a 2 Mb. A inclusão de imagens grandes pode prejudicar o processo de publicação.
