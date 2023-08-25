@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cce45bfd11bfae07e07b69a488e58c282771d96a
+source-git-commit: 1d8d6e7f773b2bc88eeef1949af805d527911323
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1134'
 ht-degree: 4%
 
 ---
@@ -21,6 +21,8 @@ Você pode adicionar uma mensagem no aplicativo em uma campanha ou em uma jornad
 >[!BEGINTABS]
 
 >[!TAB Adicionar uma mensagem no aplicativo a uma jornada]
+
+Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
 
 1. Abra a jornada, arraste e solte um **[!UICONTROL No aplicativo]** atividade do **[!UICONTROL Ações]** seção da paleta.
 
