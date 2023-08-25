@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: seed list, seed list, seed, configuração
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 9%
+source-wordcount: '919'
+ht-degree: 8%
 
 ---
 
@@ -71,14 +71,14 @@ Você pode clicar no nome de uma lista de propagação para editá-la. <!--Use t
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
->title="Definir sua lista de seeds"
->abstract="Preencha os detalhes da lista de propagação para incluir automaticamente seed addresses específicos em seus deliveries. Esses endereços serão incluídos no tempo de execução do delivery e receberão uma cópia exata do delivery para fins de garantia."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=pt-BR" text="O que são listas de propagação"
+>title="Definir uma lista de propagação"
+>abstract="Use uma lista de propagação para adicionar automaticamente endereços internos específicos ao público-alvo do delivery para fins de garantia. As seed lists permitem monitorar as cópias de mensagens enviadas para garantir que todos os elementos de exibição estejam corretos e proteger sua lista de mala direta. Atualmente, esse recurso se aplica somente ao canal de email."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="O que são seed lists?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
->title="Especificar os seed addresses a serem usados"
->abstract="Adicione os seed addresses que serão incluídos automaticamente em seus deliveries. Você pode importar um arquivo CSV ou inserir manualmente endereços de email."
+>title="Preencher a lista de propagação"
+>abstract="Selecione os endereços que serão incluídos no tempo de execução do delivery e receberão uma cópia exata da mensagem. Você pode importar um arquivo CSV ou inserir manualmente endereços de email."
 
 Para criar uma lista de propagação, siga as etapas abaixo.
 
