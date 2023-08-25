@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: seed list, seed list, seed, configuração
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '912'
 ht-degree: 8%
 
 ---
@@ -49,9 +49,14 @@ Os seed addresses não são perfis reais nem perfis de teste, pois não incluem 
 
 Para acessar as listas de propagação já criadas, acesse **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** e selecione **[!UICONTROL Seed list]**.
 
+<!--
 >[!CAUTION]
 >
->As permissões para exibir, exportar e gerenciar as listas de propagação estão restritas a [Administradores do Jornada](../administration/ootb-product-profiles.md#journey-administrator). Saiba mais sobre gerenciamento [!DNL Journey Optimizer] direitos de acesso dos usuários no [nesta seção](../administration/permissions-overview.md).
+>Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+
+>[!CAUTION]
+>
+>Para visualizar, editar e gerenciar seed lists, você deve ter a **[!UICONTROL Gerenciar Seedlist]** permissão.
 
 ![](assets/seed-list-access.png)
 
