@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
+source-git-commit: d73f023a5eee538f110d044103bbeb8193a0703e
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '2257'
 ht-degree: 2%
 
 ---
@@ -312,7 +312,7 @@ A variável **[!UICONTROL Desempenho no aplicativo]** Os KPIs detalham as princi
   > 
   >Devido ao segundo critério, pode haver variações notáveis entre o número de perfis segmentados e a contagem de impressões únicas.
 
-* **[!UICONTROL Taxa de interação]**: porcentagem de envolvimentos com a mensagem no aplicativo. Isso inclui qualquer ação realizada pelos usuários, como cliques, rejeições ou quaisquer outras interações.
+* **[!UICONTROL Interação]**: número de envolvimentos com a mensagem no aplicativo. Isso inclui qualquer ação realizada pelos usuários, como cliques, rejeições ou quaisquer outras interações.
 
 A variável **[!UICONTROL Resumo no aplicativo]** O gráfico mostra a evolução de suas impressões e interações no aplicativo para o período relacionado.
 
