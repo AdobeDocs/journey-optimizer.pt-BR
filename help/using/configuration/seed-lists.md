@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: seed list, seed list, seed, configuração
-source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
+source-git-commit: ddd80da2577ef3006211a7f7d108bf263f539660
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '947'
 ht-degree: 8%
 
 ---
@@ -22,6 +22,8 @@ Seed lists em [!DNL Journey Optimizer] permite incluir automaticamente seed addr
 >[!CAUTION]
 >
 >Atualmente, esse recurso se aplica somente ao canal de email.
+>
+>As variantes não são compatíveis no momento. Como cada perfil do público-alvo direcionado, os seed addresses recebem uma única cópia da mensagem e não todas as variantes (como os diferentes tratamentos de um [experimento de conteúdo](../campaigns/get-started-experiment.md)).
 
 Seed addresses são usados para direcionar destinatários que não correspondem aos critérios de destino definidos. Dessa forma, os recipients que estiverem fora do escopo de delivery podem recebê-lo, como qualquer outro recipient target receberia.
 
