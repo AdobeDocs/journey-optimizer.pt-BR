@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
+source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
 workflow-type: tm+mt
 source-wordcount: '2164'
 ht-degree: 2%
@@ -146,7 +146,7 @@ Por exemplo, você tem duas coleções, uma no critério de avaliação A e outr
 
   ![](../assets/activity_consecutive-rank-collections.png)
 
-* Se as duas coleções forem **avaliada ao mesmo tempo** No entanto, como há duas ofertas elegíveis do critério de avaliação A e três ofertas elegíveis do critério de avaliação B, as cinco ofertas serão empilhadas em conjunto com base no valor determinado pelos respectivos métodos de classificação. Duas ofertas são solicitadas, portanto, as duas principais ofertas qualificadas dessas cinco ofertas serão retornadas.
+* Se as duas coleções forem **avaliada ao mesmo tempo**, como há duas ofertas elegíveis do critério de avaliação A e três ofertas elegíveis do critério de avaliação B, as cinco ofertas serão classificadas em pilha juntas com base no valor determinado pelos respectivos métodos de classificação. Duas ofertas são solicitadas, portanto, as duas principais ofertas qualificadas dessas cinco ofertas serão retornadas.
 
   ![](../assets/activity_same-rank-collections.png)
 
