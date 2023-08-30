@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4b9992d3824111fbd9cf4dd712bdcc17f9a76817
+source-git-commit: c494f614296bd90ddb1b49337f21a9121f47a78b
 workflow-type: tm+mt
 source-wordcount: '3432'
 ht-degree: 97%
@@ -38,7 +38,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tr>
 <td>
 <p>Agora é possível enviar mensagens personalizadas no aplicativo para os usuários e usuárias em uma campanha. Use o Journey Optimizer para criar notificações e personalizar o layout, a exibição, o texto e os botões das mensagens para criar uma experiência perfeita.</p>
-<img src="assets/do-not-localize/in-app-GA.gif"/>
+<img src="assets/do-not-localize/in-app-jo.gif"/>
 <p>Para obter mais informações, consulte a <a href="../in-app/create-in-app.md">documentação detalhada</a>.</p>
 </tr>
 </tbody>
