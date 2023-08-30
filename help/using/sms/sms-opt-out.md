@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 63237c02f632d289dba845acdcd0859f2d6de9c9
+source-git-commit: dbdc363ccfcaa99b02289fb365dbece5d08ed544
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 31%
+source-wordcount: '444'
+ht-degree: 27%
 
 ---
 
@@ -26,7 +26,7 @@ De acordo com os padrões e regulamentos do setor, todas as mensagens de marketi
 
 ## Palavras-chave de entrada nativas{#sms-native-keywords}
 
-Por padrão, o Adobe Journey Optimizer lida com as seguintes mensagens de resposta padrão em inglês para mensagens gratuitas e de código longo: STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE. Observe que somente a Sinch oferece suporte a palavras-chave nativas quando usadas com o Journey Optimizer.
+Por padrão, o Adobe Journey Optimizer lida com as seguintes mensagens de resposta padrão em inglês para mensagens gratuitas e de código longo: STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE. Observe que somente Sinch e Infobip suportam palavras-chave nativas quando usadas com o Journey Optimizer.
 
 Essas palavras-chave normalmente acionam uma resposta padrão automática do provedor de terceiros. Você pode confirmar isso diretamente com seu provedor ou por meio do site de documentação dele.
 
@@ -46,7 +46,7 @@ No entanto, o Journey Optimizer oferece suporte a opções de não participaçã
 
 ## ID alfanumérica do remetente {#alphanumeric}
 
-As IDs alfanuméricas do remetente são somente para mensagens unidirecionais e não podem receber mensagens de entrada. Como resultado, as palavras-chave STOP, START e HELP usadas em mensagens no Adobe Journey Optimizer não se aplicam às IDs do remetente alfa. Você deve fornecer outras instruções, seja escrevendo para a equipe de suporte, ligando para um número de suporte ou enviando um texto através de outro número de telefone ou código para permitir que os usuários recusem o recebimento de mensagens enviadas por meio da ID alfanumérica do remetente.
+As IDs alfanuméricas do remetente são somente para mensagens unidirecionais e não podem receber mensagens de entrada. Como resultado, as palavras-chave STOP, START e HELP do Adobe Journey Optimizer não se aplicam às IDs do remetente alfa. Você deve fornecer outras instruções, seja escrevendo para a equipe de suporte, ligando para um número de suporte ou enviando um texto através de outro número de telefone ou código para permitir que os usuários recusem o recebimento de mensagens enviadas por meio da ID alfanumérica do remetente.
 
 ## Vídeo {#video-sms}
 
