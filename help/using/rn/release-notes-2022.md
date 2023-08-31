@@ -5,7 +5,7 @@ title: Notas de versão de 2022
 description: Notas de versão do Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3575'
 ht-degree: 100%
 
@@ -806,7 +806,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tbody>
 <tr>
 <td>
-<p>A opção <strong>Leitura incremental</strong> foi adicionada às atividades recorrentes de <strong>Público-alvo de leitura</strong>. Essa opção permite direcionar somente às pessoas físicas que entraram no público desde a última execução da jornada. A primeira execução sempre direciona a todos os membros do público-alvo.</p>
+<p>A opção <strong>Leitura incremental</strong> foi adicionada às atividades recorrentes de <strong>Público-alvo de leitura</strong>. Essa opção permite direcionar somente às pessoas físicas que entraram no público-alvo desde a última execução da jornada. A primeira execução sempre direciona a todos os membros do público-alvo.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">documentação detalhada</a>.
 </td>
 </tr>
