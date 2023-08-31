@@ -8,9 +8,9 @@ level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Antes de enviar mensagens no aplicativo, é necessário:
 
 * Configurar o canal no aplicativo. [Saiba mais](inapp-configuration.md)
 
-* Verifique se você tem as permissões corretas nas campanhas do Journey Optimizer antes de iniciar, mesmo que planeje usar apenas mensagens no aplicativo no jornada. As permissões do Campaign ainda são necessárias. [Saiba mais](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* Certifique-se de ter as permissões corretas nas campanhas do Journey Optimizer antes de iniciar, mesmo que planeje usar nas jornadas apenas mensagens no aplicativo. As permissões de campanha ainda são necessárias. [Saiba mais](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 Depois de concluída, você pode criar, configurar e enviar sua primeira mensagem no aplicativo. Saiba como fazer isso [nesta seção](create-in-app.md).
 
