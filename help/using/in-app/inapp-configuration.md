@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '413'
 ht-degree: 10%
 
 ---
@@ -31,6 +31,10 @@ Antes de enviar mensagens no aplicativo, é necessário configurar o canal no ap
    >O conjunto de dados é usado como somente leitura pelo [!DNL Journey Optimizer] sistema de relatórios e não afeta a coleta ou a assimilação de dados.
 
 1. Em seguida, acesse o **[!UICONTROL Superfícies do aplicativo]** e clique em **[!UICONTROL Criar superfície do aplicativo]**.
+
+   >[!NOTE]
+   >
+   > Você precisa do **Gerenciar configuração do aplicativo** permissão para ter acesso à **[!UICONTROL Superfícies do aplicativo]** menu. Para obter mais informações, consulte [este vídeo](#video).
 
    >[!NOTE]
    >
@@ -87,5 +91,10 @@ O canal no aplicativo agora está configurado. Você pode começar a enviar mens
 
 * O vídeo abaixo mostra como atribuir a variável **Gerenciar configuração do aplicativo** permissão para acessar o menu Superfícies do aplicativo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421607)
+  +++Ver vídeo
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+
++++
+
 
