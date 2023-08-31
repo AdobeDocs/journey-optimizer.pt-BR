@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: d56053d9db3d7c07d629069c985640e694b32ce1
 workflow-type: tm+mt
 source-wordcount: '1296'
-ht-degree: 86%
+ht-degree: 99%
 
 ---
 
@@ -108,16 +108,16 @@ Você pode escolher uma dessas duas soluções:
 
 ### Limitações de atividades no aplicativo {#in-app-activity-limitations}
 
-* No momento, esse recurso não está disponível para clientes do setor de saúde.
+* No momento, esse recurso não está disponível para clientes do Healthcare.
 
 * A personalização pode conter apenas atributos de perfil.
 
-* A exibição no aplicativo está vinculada à duração da jornada, o que significa que, quando a jornada terminar para um perfil, todas as mensagens no aplicativo dentro dessa jornada deixarão de ser exibidas para esse perfil.  Consequentemente, não é possível interromper uma mensagem no aplicativo diretamente de uma atividade do jornada. Em vez disso, você precisará encerrar a jornada inteira para impedir que as mensagens no aplicativo sejam exibidas no perfil.
+* A exibição no aplicativo está vinculada à duração da jornada, o que significa que, quando a jornada terminar para um perfil, todas as mensagens no aplicativo dentro dessa jornada deixarão de ser exibidas para esse perfil.  Consequentemente, não é possível interromper uma mensagem no aplicativo diretamente de uma atividade da jornada. Em vez disso, será necessário encerrar toda a jornada para impedir que as mensagens no aplicativo sejam exibidas no perfil.
 
-* No modo de teste, a Exibição no aplicativo depende da duração da jornada. Para evitar que a jornada termine muito cedo durante o teste, ajuste o **[!UICONTROL Tempo de espera]** valor para o seu **[!UICONTROL Aguardar]** atividades.
+* No modo de teste, a exibição no aplicativo depende da duração da jornada. Para evitar que a jornada termine muito cedo durante o teste, ajuste o valor **[!UICONTROL Tempo de espera]** em suas atividades de **[!UICONTROL Espera]**.
 
-* **[!UICONTROL Reação]** As atividades do não podem ser usadas para reagir a uma abertura no aplicativo ou a um clique.
+* As atividades de **[!UICONTROL Reação]** não podem ser usadas para reagir a uma abertura ou clique no aplicativo.
 
-* Um atraso de ativação pode ocorrer entre o momento em que um perfil de usuário atinge uma atividade no aplicativo na tela e o momento em que ele começa a ver essa mensagem no aplicativo.
+* Um atraso na ativação pode ocorrer entre o momento em que um perfil de usuário ou usuária alcança uma atividade no aplicativo na tela e o momento em que começa a visualizar essa mensagem no aplicativo.
 
 * O tamanho do conteúdo da mensagem no aplicativo é limitado a 2 Mb. A inclusão de imagens grandes pode prejudicar o processo de publicação.
