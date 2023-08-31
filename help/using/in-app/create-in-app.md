@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 1d8d6e7f773b2bc88eeef1949af805d527911323
+source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 4%
+source-wordcount: '1940'
+ht-degree: 12%
 
 ---
 
@@ -38,25 +38,73 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
 
 1. Agora é possível começar a projetar o conteúdo com o **[!UICONTROL Editar conteúdo]** botão. [Saiba mais](design-in-app.md)
 
-1. Clique em **[!UICONTROL Editar acionador]** para configurar seu Acionador.
+1. Clique em **[!UICONTROL Editar acionadores]** para escolher os eventos e critérios que acionarão sua mensagem. Os construtores de regras permitem que os usuários especifiquem critérios e valores que, quando atendidos, acionam um conjunto de ações, como o envio de uma mensagem no aplicativo.
 
    ![](assets/in_app_journey_4.png)
 
-1. Escolha a frequência do acionador quando a mensagem no aplicativo estiver ativa:
+   1. Clique na lista suspensa de eventos para alterar o Acionador, se necessário.
 
-   * **[!UICONTROL Mostrar sempre]**: sempre mostrar a mensagem quando os eventos selecionados no **[!UICONTROL Acionador do aplicativo móvel]** lista suspensa.
-   * **[!UICONTROL Mostrar uma vez]**: mostrar esta mensagem somente na primeira vez que os eventos forem selecionados na **[!UICONTROL Acionador do aplicativo móvel]** lista suspensa.
-   * **[!UICONTROL Mostrar até clicar]**: mostrar esta mensagem quando os eventos selecionados no **[!UICONTROL Acionador do aplicativo móvel]** As listas suspensas ocorrem até que um evento de interação seja enviado pelo SDK com uma ação de &quot;clicado&quot;.
+      +++Consulte os Acionadores disponíveis.
 
-1. No **[!UICONTROL Acionador do aplicativo móvel]** selecione os eventos e critérios que acionarão sua mensagem:
+      | Pacote | Acionador | Definição |
+      |---|---|---|
+      | Enviar dados para a Platform | Dados enviados para a plataforma | Acionado quando o aplicativo móvel emite um evento de experiência de borda para enviar dados ao Adobe Experience Platform. Normalmente, a chamada de API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) na extensão AEP Edge. |
+      | Rastreamento principal | Rastrear ação | Acionado quando a funcionalidade herdada oferecida na API de código móvel [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) é chamado. |
+      | Rastreamento principal | Rastrear estado | Acionado quando a funcionalidade herdada oferecida na API de código móvel [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) é chamado. |
+      | Rastreamento principal | Coletar PII | Acionado quando a funcionalidade herdada oferecida na API de código móvel [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) é chamado. |
+      | Ciclo de vida do aplicativo | Inicialização do aplicativo | Acionadas a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo limite da sessão do ciclo de vida é excedido. |
+      | Ciclo de vida do aplicativo | Instalação do aplicativo | Disparado na primeira execução após a instalação ou reinstalação. |
+      | Ciclo de vida do aplicativo | Atualização de aplicativo | Disparado na primeira execução após uma atualização ou quando o número da versão é alterado. |
+      | Ciclo de vida do aplicativo | Fechamento do aplicativo | Disparado quando o aplicativo é fechado. |
+      | Ciclo de vida do aplicativo | Falha de aplicativo | Disparado quando o aplicativo não estiver em segundo plano antes do fechamento. O evento é enviado quando o aplicativo é inicializado após a falha. O relatório de falha do Adobe Mobile não implementa um gerenciador de exceção global não detectado. |
+      | Places | Inserir POI | Acionado pelo SDK do Places quando o cliente insere o Ponto de interesse (POI) que você configurou. |
+      | Places | POI de saída | Acionado pelo SDK do Places quando o cliente sair do ponto de interesse (POI) que você configurou. |
 
-   1. Na lista suspensa à esquerda, selecione o evento necessário para acionar a mensagem.
-   1. Na lista suspensa à direita, selecione a validação necessária no evento selecionado.
-   1. Clique em **[!UICONTROL Adicionar]** se quiser que o acionador considere vários eventos ou critérios. Em seguida, repita as etapas acima.
-   1. Selecione como seus eventos são vinculados, por exemplo, escolha **[!UICONTROL E]** se desejar **ambos** será verdadeiro para que uma mensagem seja exibida ou escolha **[!UICONTROL Ou]** se quiser que a mensagem seja exibida se **ou** dos acionadores são verdadeiros.
-   1. Clique em **[!UICONTROL Salvar]** quando os Acionadores forem configurados.
++++
 
-   ![](assets/in_app_journey_3.png)
+   1. Clique em **[!UICONTROL Adicionar condição]** se desejar que o acionador considere vários eventos ou critérios.
+
+   1. Escolha o **[!UICONTROL Ou]** se quiser adicionar mais **[!UICONTROL Triggers]** para expandir ainda mais sua regra.
+
+      ![](assets/in_app_create_3.png)
+
+   1. Escolha o **[!UICONTROL E]** condição se desejar adicionar **[!UICONTROL Características]** e ajustar melhor sua regra.
+
+      +++Consulte as Características disponíveis.
+
+      | Pacote | Características  | Definição |
+      |---|---|---|
+      | Informações do dispositivo | Nome da operadora | Acionado quando um dos nomes da operadora da lista é atendido. |
+      | Informações do dispositivo | Nome do dispositivo | Acionado quando um dos nomes do dispositivo é atendido. |
+      | Informações do dispositivo | Localidade | Acionado quando um dos idiomas da lista é atendido. |
+      | Informações do dispositivo | Versão do sistema operacional | Disparado quando uma das versões do sistema operacional especificadas é atendida. |
+      | Informações do dispositivo | Versão anterior do sistema operacional | Disparado quando uma das versões anteriores do sistema operacional é atendida. |
+      | Informações do dispositivo | Modo de execução | Acionado se o modo Executar for aplicativo ou extensão. |
+      | Ciclo de vida do aplicativo | ID do aplicativo | Acionado quando a ID do aplicativo especificada é atendida. |
+      | Ciclo de vida do aplicativo | Dia da semana | Acionado quando o dia da semana especificado é atendido. |
+      | Ciclo de vida do aplicativo | Dia desde a primeira visita | Disparado quando o número especificado de dias desde a primeira utilização é atingido. |
+      | Ciclo de vida do aplicativo | Dia desde a última visita | Disparado quando o número especificado de dias desde a última utilização é atingido. |
+      | Ciclo de vida do aplicativo | Dia desde a atualização | Disparado quando o número especificado de dias desde a última atualização é atingido. |
+      | Ciclo de vida do aplicativo | Data de instalação | Disparado quando a data de instalação especificada é atingida. |
+      | Ciclo de vida do aplicativo | Inicializações | Disparado quando o número especificado de inicializações é atingido. |
+      | Ciclo de vida do aplicativo | Hora do dia | Disparado quando o horário especificado é cumprido. |
+      | Places | POI atual | Acionado pelo SDK do Places quando o cliente insere o Ponto de interesse (POI) especificado. |
+      | Places | Último POI inserido | Acionado pelo SDK do Places, dependendo do último Ponto de interesse (POI) inserido pelo cliente. |
+      | Places | Último POI de saída | Acionado pelo SDK do Places, dependendo do último ponto de interesse (POI) de saída do cliente. |
+
++++
+
+      ![](assets/in_app_create_8.png)
+
+   1. Clique em **[!UICONTROL Criar grupo]** para agrupar acionadores.
+
+      ![](assets/in_app_journey_3.png)
+
+   1. Escolha a frequência do acionador quando a mensagem no aplicativo estiver ativa:
+
+      * **[!UICONTROL Mostrar sempre]**: sempre mostrar a mensagem quando os eventos selecionados no **[!UICONTROL Acionador do aplicativo móvel]** lista suspensa.
+      * **[!UICONTROL Mostrar uma vez]**: mostrar esta mensagem somente na primeira vez que os eventos forem selecionados na **[!UICONTROL Acionador do aplicativo móvel]** lista suspensa.
+      * **[!UICONTROL Mostrar até clicar]**: mostrar esta mensagem quando os eventos selecionados no **[!UICONTROL Acionador do aplicativo móvel]** As listas suspensas ocorrem até que um evento de interação seja enviado pelo SDK com uma ação de &quot;clicado&quot;.
 
 1. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
 
@@ -93,6 +141,24 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 1. Clique em **[!UICONTROL Editar acionadores]** para escolher os eventos e critérios que acionarão sua mensagem. Os construtores de regras permitem que os usuários especifiquem critérios e valores que, quando atendidos, acionam um conjunto de ações, como o envio de uma mensagem no aplicativo.
 
    1. Clique na lista suspensa de eventos para alterar o Acionador, se necessário.
+
+      +++Consulte os Acionadores disponíveis.
+
+      | Pacote | Acionador | Definição |
+      |---|---|---|
+      | Enviar dados para a Platform | Dados enviados para a plataforma | Acionado quando o aplicativo móvel emite um evento de experiência de borda para enviar dados ao Adobe Experience Platform. Normalmente, a chamada de API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) na extensão AEP Edge. |
+      | Rastreamento principal | Rastrear ação | Acionado quando a funcionalidade herdada oferecida na API de código móvel [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) é chamado. |
+      | Rastreamento principal | Rastrear estado | Acionado quando a funcionalidade herdada oferecida na API de código móvel [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) é chamado. |
+      | Rastreamento principal | Coletar PII | Acionado quando a funcionalidade herdada oferecida na API de código móvel [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) é chamado. |
+      | Ciclo de vida do aplicativo | Inicialização do aplicativo | Acionadas a cada execução, incluindo falhas e instalações. Também é acionado em um resumo do plano de fundo quando o tempo limite da sessão do ciclo de vida é excedido. |
+      | Ciclo de vida do aplicativo | Instalação do aplicativo | Disparado na primeira execução após a instalação ou reinstalação. |
+      | Ciclo de vida do aplicativo | Atualização de aplicativo | Disparado na primeira execução após uma atualização ou quando o número da versão é alterado. |
+      | Ciclo de vida do aplicativo | Fechamento do aplicativo | Disparado quando o aplicativo é fechado. |
+      | Ciclo de vida do aplicativo | Falha de aplicativo | Disparado quando o aplicativo não estiver em segundo plano antes do fechamento. O evento é enviado quando o aplicativo é inicializado após a falha. O relatório de falha do Adobe Mobile não implementa um gerenciador de exceção global não detectado. |
+      | Places | Inserir POI | Acionado pelo SDK do Places quando o cliente insere o Ponto de interesse (POI) que você configurou. |
+      | Places | POI de saída | Acionado pelo SDK do Places quando o cliente sair do ponto de interesse (POI) que você configurou. |
+
++++
 
    1. Clique em **[!UICONTROL Adicionar condição]** se desejar que o acionador considere vários eventos ou critérios.
 
@@ -153,14 +219,27 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
 * O vídeo abaixo mostra como criar, configurar e publicar mensagens no aplicativo em suas campanhas.
 
+  +++Ver vídeo
+
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
++++
 
-* O vídeo abaixo mostra como configurar e analisar experimentos de conteúdo para testar mensagens no aplicativo A/B.
+* O vídeo abaixo mostra como configurar e analisar experimentos de conteúdo para mensagens no aplicativo de teste A/B.
+
+  +++Ver vídeo
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419898)
 
++++
 
+* O vídeo abaixo mostra como criar uma mensagem no aplicativo em uma jornada e como testar e publicar sua jornada.
+
+  +++Ver vídeo
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077)
+
++++
 
 **Tópicos relacionados:**
 
