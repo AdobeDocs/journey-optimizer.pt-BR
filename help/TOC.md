@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: e75e24852c5be51565706dc8844a90a8a9b7f8cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1417'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -250,8 +250,8 @@ ht-degree: 98%
 + Gerenciamento de conteúdo {#content-management}
    + [Trabalhar com o Assets Essentials](using/content-management/assets-essentials.md)
    + [Trabalhar com o Adobe Stock](using/content-management/stock.md)
-   + Trabalhar com o assistente de Conteúdo{#content-assistant}
-      + [Introdução ao assistente de Conteúdo](using/content-management/gs-generative.md)
+   + Trabalhar com o Assistente de conteúdo{#content-assistant}
+      + [Introdução ao Assistente de conteúdo](using/content-management/gs-generative.md)
       + [Geração de título](using/content-management/generative-title.md)
       + [Geração de imagem](using/content-management/generative-image.md)
 + Personalização e conteúdo dinâmico {#personalized-dynamic-content}
@@ -436,7 +436,7 @@ ht-degree: 98%
    + [Consultas](using/data/get-started-queries.md)
 + Configuração {#configuration}
    + [Introdução à configuração do Journey Optimizer](using/configuration/get-started-configuration.md)
-   + [Configurar superfícies do canal](using/configuration/channel-surfaces.md)
+   + [Configurar superfícies de canais](using/configuration/channel-surfaces.md)
    + Delegar subdomínios de email {#delegate-subdomains}
       + [Introdução à delegação de subdomínio](using/configuration/about-subdomain-delegation.md)
       + [Delegar um subdomínio](using/configuration/delegate-subdomain.md)
@@ -447,7 +447,7 @@ ht-degree: 98%
       + [Lista de supressão](using/configuration/manage-suppression-list.md)
       + [Tentativas](using/configuration/retries.md)
       + [Lista de permissões](using/configuration/allow-list.md)
-   + [Usar listas de propagação](using/configuration/seed-lists.md)
+   + [Usar listas de seeds](using/configuration/seed-lists.md)
    + [Suporte para arquivamento](using/configuration/archiving-support.md)
    + [Alterar endereços de execução](using/configuration/primary-email-addresses.md)
    + [Configurar regras de frequência](using/configuration/frequency-rules.md)
@@ -475,7 +475,7 @@ ht-degree: 98%
          + [Configurar uma ação](using/action/about-custom-action-configuration.md)
          + [Integrar ao Adobe Campaign Standard](using/action/acs-action.md)
          + [Integrar ao Adobe Campaign v7/v8](using/action/acc-action.md)
-         + [Usar respostas de chamada de API em ações personalizadas](using/action/action-response.md)
+         + [Usar as respostas de chamada da API em ações personalizadas](using/action/action-response.md)
    + [Fontes](using/start/get-started-sources.md)
 + Controle de acesso {#access-control}
    + Visão geral do controle de acesso {#privacy}
