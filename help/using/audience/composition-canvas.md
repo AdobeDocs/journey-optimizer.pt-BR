@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
+source-git-commit: cfe7c04d6a45e468933a3e79f36365754d1e15d9
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1493'
 ht-degree: 30%
 
 ---
@@ -224,10 +224,10 @@ Dois tipos de operações de split estão disponíveis:
 
   ![](assets/audiences-split.png)
 
-  Para configurar uma atividade de split com base em atributos:
+  Para configurar uma atividade de divisão baseada em atributos, siga estas etapas:
 
-   1. clique no botão ao lado da guia **[!UICONTROL Atributo]** para escolher o atributo a ser selecionado como critério.
-   1. Adicione quantos caminhos desejar, especifique um rótulo para cada caminho e o valor a ser usado para selecionar os perfis a serem incluídos no caminho.
+   1. Clique no botão localizado ao lado da guia **[!UICONTROL Atributo]** para selecionar o atributo a ser usado como critério de divisão.
+   1. Adicione quantos caminhos forem necessários. Para cada caminho, forneça um rótulo e especifique o valor que será usado para determinar quais perfis devem ser incluídos nesse caminho específico.
 
       >[!NOTE]
       >
