@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 31%
+source-wordcount: '1482'
+ht-degree: 30%
 
 ---
 
@@ -116,9 +116,13 @@ A variável **[!UICONTROL Excluir]** A atividade permite excluir perfis da sua c
 
   Selecione o atributo a ser pesquisado e especifique o valor a ser excluído. Neste exemplo, estamos excluindo dos perfis de composição cujo endereço residencial está no Japão.
 
+  >[!NOTE]
+  >
+  >Somente um valor de exclusão pode ser especificado.
+
   ![](assets/audiences-exclude-attribute.png)
 
-### Enriquecer {#enrich}
+### Atividade Enriquecer {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -220,9 +224,16 @@ Dois tipos de operações de split estão disponíveis:
 
   ![](assets/audiences-split.png)
 
-  >[!NOTE]
-  >
-  >A variável **[!UICONTROL Outros perfis]** permite criar um caminho adicional com os perfis restantes que não correspondem a nenhuma das condições especificadas nos outros caminhos.
+  Para configurar uma atividade de split com base em atributos:
+
+   1. clique no botão ao lado da guia **[!UICONTROL Atributo]** para escolher o atributo a ser selecionado como critério.
+   1. Adicione quantos caminhos desejar, especifique um rótulo para cada caminho e o valor a ser usado para selecionar os perfis a serem incluídos no caminho.
+
+      >[!NOTE]
+      >
+      >Somente um valor pode ser especificado para cada caminho.
+
+   1. Ative a **[!UICONTROL Outros perfis]** opção para criar um caminho adicional com os perfis restantes que não correspondem a nenhuma das condições especificadas nos outros caminhos.
 
 ## Salve os públicos {#save}
 
