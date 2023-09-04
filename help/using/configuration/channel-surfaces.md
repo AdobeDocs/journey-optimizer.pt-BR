@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar superfícies do canal
+title: Configurar superfícies de canais
 description: Saiba como configurar e monitorar superfícies de canal
 feature: Application Settings, Surface
 topic: Administration
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 ---
 
-# Configurar superfícies do canal {#set-up-channel-surfaces}
+# Configurar superfícies de canais {#set-up-channel-surfaces}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"

@@ -12,7 +12,7 @@ keywords: action, third-party, custom, jornada, API
 source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Anteriormente, esse recurso só estava disponível ao usar fontes de dados. Agor
 
 >[!AVAILABILITY]
 >
->No momento, esse recurso está disponível como um beta privado.
+>No momento, esse recurso está disponível como um private beta.
 
 >[!WARNING]
 >

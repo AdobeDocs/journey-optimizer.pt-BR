@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 21%
+ht-degree: 28%
 
 ---
 
@@ -32,12 +32,12 @@ Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** e clique em **
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campanha"
->abstract="**Campanhas programadas** são executadas imediatamente ou em uma data especificada e devem enviar mensagens de marketing. Campanhas **acionadas por API** são executadas usando uma chamada de API. O objetivo é enviar mensagens de marketing (mensagens promocionais que exigem o consentimento do usuário) ou mensagens transacionais (mensagens não comerciais, que também podem ser enviadas a perfis com assinatura cancelada em contextos específicos)."
+>abstract="**Campanhas programadas** são executadas imediatamente ou em uma data especificada e devem enviar mensagens de marketing. Campanhas **acionadas por API** são executadas usando uma chamada de API. O objetivo é enviar mensagens de marketing (mensagens promocionais que exigem o consentimento da pessoa) ou mensagens transacionais (mensagens não comerciais, que também podem ser enviadas a perfis não assinantes em contextos específicos)."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Categoria da campanha"
->abstract="Se você estiver criando uma campanha programada, a campanha de **marketing** é selecionada automaticamente. Para campanhas acionadas por API, escolha se deseja enviar uma **marketing** (mensagem promocional que requer o consentimento do usuário) ou **transacional** (mensagem não comercial, que também pode ser enviada para perfis que cancelaram a assinatura em contextos específicos)."
+>abstract="Se você estiver criando uma campanha programada, a campanha de **marketing** é selecionada automaticamente. Para campanhas acionadas por API, escolha se deseja enviar uma mensagem de **marketing** (mensagem promocional que requer o consentimento da pessoa) ou uma mensagem **transacional** (mensagem não comercial, que também pode ser enviada para perfis não assinantes em contextos específicos)."
 
 1. No **[!UICONTROL Propriedades]** especifique como deseja executar a campanha. Há dois tipos de campanha disponíveis:
 

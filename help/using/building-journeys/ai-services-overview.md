@@ -10,13 +10,13 @@ exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
 # Integrar a serviços inteligentes {#ai-overview}
 
-A integração com a **[!DNL Adobe Intelligent Services]** O permite aproveitar o potencial da inteligência artificial e do aprendizado de máquina em casos de uso de experiência do cliente. Isso permite que os analistas de marketing definam previsões específicas para as necessidades de uma empresa usando configurações de nível empresarial sem a necessidade de conhecimento especializado em ciência de dados.
+A integração com a **[!DNL Adobe Intelligent Services]** O permite aproveitar o potencial da inteligência artificial e do aprendizado de máquina em casos de uso de experiência do cliente. Isso permite que os analistas de marketing estabeleçam previsões específicas para as necessidades de uma empresa usando configurações de nível empresarial, sem a necessidade de uma especialização em ciência de dados.
 
 [!DNL Intelligent Services]O, desenvolvido no Adobe Experience Platform, fornece aos profissionais de marketing responsáveis pela experiência do cliente acesso à IA como um serviço, facilitando a previsão do comportamento do cliente, a medição do impacto de uma campanha ou a garantia de melhor retorno sobre cada investimento. Para obter mais informações sobre [!DNL Adobe Intelligent Services], consulte o [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target="_blank"}.
 

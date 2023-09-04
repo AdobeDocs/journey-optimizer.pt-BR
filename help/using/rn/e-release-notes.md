@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Agora é possível criar e gerenciar listas de seeds no Journey Optimizer. Uma lista de propagação consiste em endereços internos que podem ser adicionados ao público-alvo real e receber exatamente a mesma mensagem que os perfis direcionados no tempo de execução do delivery. Use esse recurso para monitorar as comunicações enviadas e garantir que todos os formatos de exibição, URLs, imagens e links estejam corretos.</p>
+<p>Agora é possível criar e gerenciar listas de seeds no Journey Optimizer. Uma lista de seeds consiste em endereços internos que podem ser adicionados ao público-alvo em si e recebem exatamente a mesma mensagem que os perfis direcionados na hora da execução da entrega. Use esse recurso para monitorar as comunicações enviadas e garantir que todos os formatos de exibição, URLs, imagens e links estejam corretos.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -102,5 +102,5 @@ Uma nova opção está disponível nas configurações da superfície do email p
 
 **Correspondência direta**
 
-* O Azure agora pode ser selecionado como o tipo de servidor na configuração de roteamento de arquivos.
-* O E comercial agora está disponível como campo separador de coluna nas configurações de superfície de correspondência direta.
+* O Azure agora pode ser selecionado como o tipo de servidor na configuração de roteamento de arquivo.
+* O “E” comercial agora está disponível como campo separador de colunas nas configurações de superfície da correspondência direta.

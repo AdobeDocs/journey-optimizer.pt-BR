@@ -11,11 +11,11 @@ keywords: seed list, seed list, seed, configuração
 source-git-commit: f6708555d20fd04beb85574afd46e75be654d4e6
 workflow-type: tm+mt
 source-wordcount: '951'
-ht-degree: 8%
+ht-degree: 22%
 
 ---
 
-# Usar listas de propagação {#seed-lists}
+# Usar listas de seeds {#seed-lists}
 
 Seed lists em [!DNL Journey Optimizer] permite incluir automaticamente seed addresses específicos em seus deliveries.
 
@@ -78,14 +78,14 @@ Você pode clicar no nome de uma lista de propagação para editá-la. <!--Use t
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
->title="Definir uma lista de propagação"
->abstract="Use uma lista de propagação para adicionar automaticamente endereços internos específicos ao público-alvo do delivery para fins de garantia. As seed lists permitem monitorar as cópias de mensagens enviadas para garantir que todos os elementos de exibição estejam corretos e proteger sua lista de mala direta. Atualmente, esse recurso se aplica somente ao canal de email."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="O que são seed lists?"
+>title="Definir uma lista de sementes"
+>abstract="Use uma lista de sementes para adicionar automaticamente endereços internos específicos ao público-alvo da entrega para fins de garantia. As listas de sementes permitem monitorar as cópias das mensagens enviadas para garantir que todos os elementos de exibição estejam corretos e proteger sua lista de mala direta. Atualmente, esse recurso se aplica somente ao canal de email."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=pt-BR#use-seed-list" text="O que são listas de sementes?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
->title="Preencher a lista de propagação"
->abstract="Selecione os endereços que serão incluídos no tempo de execução do delivery e receberão uma cópia exata da mensagem. Você pode importar um arquivo CSV ou inserir manualmente endereços de email."
+>title="Preenchimento da lista de sementes"
+>abstract="Selecione os endereços que serão incluídos na execução da entrega e que receberão uma cópia exata da mensagem. É possível importar um arquivo CSV ou inserir manualmente endereços de email."
 
 Para criar uma lista de propagação, siga as etapas abaixo.
 
@@ -111,7 +111,7 @@ Para criar uma lista de propagação, siga as etapas abaixo.
    >
    >Somente um perfil de teste pode ser selecionado por vez.
 
-1. Adicione os seed addresses para os quais deseja enviar seus deliveries. Você pode importar um arquivo CSV ou inserir manualmente endereços de email.
+1. Adicione os seed addresses para os quais deseja enviar seus deliveries. É possível importar um arquivo CSV ou inserir manualmente endereços de email.
 
    ![](assets/seed-list-email-addresses.png)
 
