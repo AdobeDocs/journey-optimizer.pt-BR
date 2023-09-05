@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
+source-git-commit: ea56d3cac5e4c4bc95560734fa3b9e8f410c8691
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2466'
 ht-degree: 4%
 
 ---
@@ -145,9 +145,9 @@ A variável **[!UICONTROL Estatísticas de envio de email]** O gráfico detalha 
 
 A variável **[!UICONTROL Email - Estatísticas de rastreamento]** O widget contém os dados disponíveis para a atividade do recipient para seu delivery:
 
-* **[!UICONTROL Aberturas]**: Número de vezes que o delivery foi aberto em um delivery.
+* **[!UICONTROL Aberturas]**: Número de vezes que o email foi aberto.
 
-* **[!UICONTROL Aberturas únicas]**: Porcentagem de deliveries abertos.
+* **[!UICONTROL Aberturas únicas]**: porcentagem de emails abertos.
 
 * **[!UICONTROL Taxa de abertura]**: número total de emails abertos em comparação ao número de emails entregues.
 
@@ -196,7 +196,9 @@ A variável **[!UICONTROL Email - Principal domínio de destinatário]** O gráf
 A variável **[!UICONTROL Otimizado vs. não otimizado]** o gráfico detalha as principais informações relativas à mensagem, sejam elas otimizadas ou não:
 
 * **[!UICONTROL Enviado]**: Número total de envios para o delivery.
-* **[!UICONTROL Aberturas]**: Número de vezes que o delivery foi aberto em um delivery.
+
+* **[!UICONTROL Aberturas]**: Número de vezes que a mensagem foi aberta.
+
 * **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em um email.
 
 A variável **[!UICONTROL Otimização da hora de envio]** detalha o sucesso do delivery dependendo do método de envio: otimizado ou normal.
