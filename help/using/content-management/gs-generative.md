@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 280b1c2c7276b872143062aeba0939a899897d42
+source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '199'
 ht-degree: 14%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 14%
 **Índice**
 
 * **[Introdução ao Assistente de conteúdo](gs-generative.md)**
-* [Gerar texto com o assistente de Conteúdo](generative-title.md)
+* [Gerar texto com o assistente de Conteúdo](generative-content.md)
 * [Gerar imagens com o assistente de Conteúdo](generative-image.md)
 
 >[!ENDSHADEBOX]
@@ -36,7 +36,7 @@ O assistente de conteúdo do Adobe Jornada Otimizer traz sugestões proativas de
 
 
 
-Use o assistente de Conteúdo para otimizar o impacto da sua mensagem, experimentando com diferentes títulos e imagens principais. Gere várias variantes e crie um experimento para compará-las. Aproveitando o Experimento de conteúdo do Journey Optimizer, você pode definir vários tratamentos de mensagem para medir qual tem melhor desempenho para o público-alvo. Você pode optar por variar o conteúdo do delivery, o assunto ou o remetente. O público da mensagem é alocado aleatoriamente para cada tratamento para determinar qual funciona melhor em termos da métrica especificada. Saiba mais sobre o Experimento de conteúdo no [nesta seção](../campaigns/content-experiment.md).
+Use o assistente de Conteúdo para otimizar o impacto da sua mensagem, experimentando com diferentes títulos e imagens principais. Gere várias variantes e crie um experimento para compará-las. Aproveitando o Experimento de conteúdo do Journey Optimizer, você pode definir vários tratamentos de mensagem para medir qual tem melhor desempenho para o público-alvo. Você pode optar por variar o conteúdo do delivery ou o assunto. O público da mensagem é alocado aleatoriamente para cada tratamento para determinar qual funciona melhor em termos da métrica especificada. Saiba mais sobre o Experimento de conteúdo no [nesta seção](../campaigns/content-experiment.md).
 
 
 >[!AVAILABILITY]
