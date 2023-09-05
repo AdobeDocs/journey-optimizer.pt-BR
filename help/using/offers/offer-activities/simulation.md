@@ -9,7 +9,7 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -217,5 +217,5 @@ Depois de adicionar um escopo de decisão e selecionar um perfil de teste, você
 
    >[!NOTE]
    >
-   >Ao copiar as cargas da solicitação ou resposta para seu próprio código, substitua {USER_TOKEN} e {API_KEY} com valores válidos. Saiba como recuperar esses valores no [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} documentação.
+   >Ao copiar as cargas da solicitação ou resposta para seu próprio código, substitua {USER_TOKEN} e {API_KEY} com valores válidos. Saiba como recuperar esses valores no [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=pt-BR){target="_blank"} documentação.
 
