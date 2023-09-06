@@ -6,74 +6,84 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
-source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 13%
+source-wordcount: '139'
+ht-degree: 12%
 
 ---
 
 # Criar uma oferta substituta {#create-fallback-offer}
 
-Você pode criar uma oferta substituta fazendo uma solicitação POST para o [!DNL Offer Library] API.
+Você pode criar uma oferta substituta fazendo uma solicitação POST para o [!DNL Offer Library] ao fornecer a ID do contêiner.
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
-| Tipo de conteúdo | `application/json` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Tipo de conteúdo | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
 
 **Formato da API**
 
 ```http
-POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
+POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs de persistência. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | A ID da entidade que você deseja atualizar. | `fallbackOffer1234` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O container onde as ofertas substitutas estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Solicitação**
 
 ```shell
-curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?offer-type=fallback' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer  {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '[
-    {
-        "op": "replace",
-        "path": "/name",
-        "value": "Updated fallback offer"
-    },
-    {
-        "op": "replace",
-        "path": "/description",
-        "value": "Updated fallback offer description"
-    }
-]'
+curl -X POST \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}' \
+  -d '{
+        "xdm:status": "approved",
+        "xdm:name": "Fallback for sales",
+        "xdm:representations": [
+            {
+                "xdm:components": [
+                    {
+                        "dc:language": [
+                            "en"
+                        ],
+                        "@type": "https://ns.adobe.com/experience/offer-management/content-component-html",
+                        "dc:format": "text/html"
+                    }
+                ],
+                "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
+                "xdm:placement": "xcore:offer-placement:124e0be5699743d3"
+            }
+        ]
+}'
 ```
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a oferta substituta recém-criada, incluindo sua oferta substituta exclusiva `id`. Você pode usar o `id` em etapas posteriores, para atualizar ou excluir sua oferta substituta ou para criar uma decisão em um tutorial posterior.
+Uma resposta bem-sucedida retorna informações sobre a oferta substituta recém-criada, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID de instância em etapas posteriores para atualizar ou excluir sua oferta substituta. Você pode usar sua oferta substituta exclusiva `@id` em um tutorial posterior para criar uma decisão.
 
 
 ```json
 {
-    "etag": 2,
-    "createdBy": "{CREATED_BY}",
-    "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "{ID}",
-    "sandboxId": "{SANDBOX_ID}",
-    "createdDate": "2023-05-31T15:09:11.771Z",
-    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
-    "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "instanceId": "b3966680-13ec-11eb-9c20-8323709cfc65",
+    "@id": "xcore:fallback-offer:124e2e764b1ac1b9",
+    "repo:etag": 1,
+    "repo:createdDate": "2020-10-21T22:28:11.111732Z",
+    "repo:lastModifiedDate": "2020-10-21T22:28:11.111732Z",
+    "repo:createdBy": "{CREATED_BY}",
+    "repo:lastModifiedBy": "{MODIFIED_BY}",
+    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
