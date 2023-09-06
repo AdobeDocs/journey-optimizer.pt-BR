@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: 40cd9df5b41fd622b8e447d7fc672502e9e29787
+source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 5%
+source-wordcount: '184'
+ht-degree: 8%
 
 ---
 
@@ -17,31 +17,28 @@ ht-degree: 5%
 
 Uma decisão contém a lógica que informa a seleção de uma oferta.
 
-Você pode exibir uma lista de todas as decisões em um contêiner executando uma única solicitação do GET para [!DNL Offer Library] API.
+Você pode exibir uma lista de todas as decisões executando uma única solicitação GET para o [!DNL Offer Library] API.
 
 **Formato da API**
 
 ```http
-GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIES}&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/offer-decisions?{QUERY_PARAMS}
 ```
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde as decisões estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ACTIVITIES}` | Define o esquema associado às decisões. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs de persistência. | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | Parâmetros de consulta opcionais para filtrar os resultados. | `limit=2` |
 
 **Solicitação**
 
 ```shell
-curl -X GET \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5&limit=2' \
-  -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions?limit=2' \
+-H 'Accept: *,application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 ## Uso de parâmetros de consulta {#using-query-parameters}
@@ -54,15 +51,13 @@ Os parâmetros de consulta mais comuns para paginação incluem:
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `q` | Uma sequência de consulta opcional a ser pesquisada nos campos selecionados. A sequência de consulta deve estar em minúsculas e pode estar entre aspas duplas para impedir que seja tokenizada e para evitar caracteres especiais. Os caracteres `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm significado especial e devem ser evitadas com uma barra invertida ao serem exibidas na sequência de consulta. | `default` |
-| `qop` | Aplica o operador AND ou OR a valores no parâmetro de sequência de consulta q. | `AND` / `OR` |
-| `field` | Lista opcional de campos aos quais limitar a pesquisa. Esse parâmetro pode ser repetido da seguinte maneira: field=field1[,campo=campo2,...] e (expressões de caminho estão no formato de caminhos separados por pontos, como _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Classificar os resultados por uma propriedade específica. Adicionar um `-` antes do título (`orderby=-title`) classificará os itens por título em ordem decrescente (Z-A). | `-repo:createdDate` |
-| `limit` | Limite o número de decisões retornadas. | `limit=5` |
+| `property` | Um filtro de propriedade opcional: <br> <ul> - As propriedades são agrupadas por operação AND. <br><br> - Os parâmetros podem ser repetidos da seguinte maneira: property=<property-expr>[&amp;propriedade=<property-expr2>..] ou property=<property-expr1>[,<property-expr2>..] <br><br> - As expressões de propriedade estão no formato [!]campo[op]valor, com op em [==,!=,&lt;=,>=,&lt;,>,~], suportando expressões regulares | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | Classificar os resultados por uma propriedade específica. Adicionar um - antes do nome (orderby=-name) classificará os itens pelo nome em ordem decrescente (Z-A). As expressões de caminho estão no formato de caminhos separados por pontos. Esse parâmetro pode ser repetido da seguinte maneira: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `limit` | Limitar o número de entidades retornadas. | `limit=5` |
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna uma lista de decisões presentes no contêiner ao qual você tem acesso.
+Uma resposta bem-sucedida retorna uma lista de decisões às quais você tem acesso.
 
 ```json
 {
