@@ -6,20 +6,31 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: ce0cba88c5649b3efd557d6d539ffd7dc2c8f193
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 17%
+source-wordcount: '427'
+ht-degree: 14%
 
 ---
 
 # Criar regras de decisão {#create-decision-rules}
+
+## Sobre as regras de decisão {#about}
 
 É possível criar regras de decisão de oferta com base nos dados disponíveis no Adobe Experience Platform. As regras de decisão determinam para quem uma oferta pode ser exibida.
 
 Por exemplo, você pode especificar que deseja que somente uma &#39;Oferta de roupas de inverno femininas&#39; seja exibida quando (Gênero = &#39;Feminino&#39;) e (Região = &#39;Nordeste&#39;).
 
 ➡️ [Descubra este recurso no vídeo](#video)
+
+Esta é uma lista de limitações que devem ser observadas ao trabalhar com regras de decisão:
+
+* Ao criar uma regra, você pode usar eventos históricos, mas há limitações quanto ao momento em que essas regras podem ser usadas.
+* A decisão de borda usa o perfil de borda que não armazena eventos, portanto, qualquer regra usada em uma decisão de borda será inválida.
+* As jornadas que usam Decisões de oferta não observarão eventos históricos, portanto, essas regras serão inválidas.
+* As solicitações de decisão que usam o perfil do hub observarão os últimos 100 eventos de experiência no perfil para avaliar as regras que fazem referência a eventos de experiência históricos.
+
+## Criar uma regra de decisão {#create}
 
 A lista de regras de decisão criadas pode ser acessada no **[!UICONTROL Componentes]** menu.
 
