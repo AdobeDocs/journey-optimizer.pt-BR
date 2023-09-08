@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, atividades, introdução, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 865f8c3a2a598bdb90ab3cb85104684c160a560f
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 18%
+source-wordcount: '536'
+ht-degree: 17%
 
 ---
 
@@ -71,6 +71,10 @@ Se você tiver configurado ações personalizadas, elas também aparecerão aqui
 A maioria das atividades permite definir um **[!UICONTROL Rótulo]**. Isso adiciona um sufixo ao nome que aparecerá na atividade na tela. Isso é útil se você usar a mesma atividade várias vezes na jornada e quiser identificá-la mais facilmente. Também facilitará a depuração em caso de erros e facilitará a leitura dos relatórios. Você também pode adicionar um **[!UICONTROL Descrição]**.
 
 ![](assets/journey-action-label.png)
+
+>[!NOTE]
+>
+>Para algumas atividades, a ID também está visível no painel. Essa ID pode ser usada nos relatórios como uma chave mais estável do que o rótulo, que pode mudar.
 
 ### Gerenciar os parâmetros avançados {#advanced-parameters}
 
