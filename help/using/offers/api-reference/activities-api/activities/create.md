@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 13%
+source-wordcount: '107'
+ht-degree: 14%
 
 ---
 
@@ -23,8 +23,7 @@ A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de c
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Tipo de conteúdo | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
+| Tipo de conteúdo | `application/json` |
 
 **Formato da API**
 
@@ -72,7 +71,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a decisão recém-criada, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua decisão.
+Uma resposta bem-sucedida retorna informações sobre a decisão recém-criada, incluindo sua `id`. Você pode usar `id` em etapas posteriores, para atualizar ou excluir sua decisão.
 
 ```json
 {

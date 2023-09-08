@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 3%
+source-wordcount: '118'
+ht-degree: 5%
 
 ---
 
@@ -27,11 +27,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O container onde as coleções estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | Define o esquema associado às coleções. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | Uma string usada para corresponder ao `@id` propriedade das entidades. A string é exatamente igual. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | Uma sequência de caracteres usada para corresponder à propriedade xdm:name das entidades. A string é exatamente igual, com maiúsculas e minúsculas, mas caracteres curinga podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Mobile demo` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs de persistência. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | A ID da entidade que você deseja pesquisar. | `offerCollection1234` |
 
 **Solicitação**
 

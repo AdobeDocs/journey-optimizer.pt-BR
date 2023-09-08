@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '165'
 ht-degree: 4%
 
 ---
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes da regra de decisão específica pesquisada, incluindo informações sobre ID de contêiner, ID de instância e regra de decisão exclusiva `@id`.
+Uma resposta bem-sucedida retorna os detalhes da regra de decisão específica pesquisada, incluindo informações sobre sua regra de decisão exclusiva `id`.
 
 ```json
 {
