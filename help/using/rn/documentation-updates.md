@@ -302,3 +302,4 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Novas seções adicionadas para descrever as ações disponíveis nas listas de oferta e decisão: [Lista de ofertas](../offers/offer-library/creating-personalized-offers.md#offer-list) e [Lista de decisões](../offers/offer-activities/create-offer-activities.md#decision-list).
 
 +++
+
