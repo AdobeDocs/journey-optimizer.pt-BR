@@ -4,7 +4,7 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f6a9234b64247f7d1aef95eb3f1d1bf299be4710
+source-git-commit: 605354d25e5d6f74a6a3119ab88ff4ed89aff883
 workflow-type: tm+mt
 source-wordcount: '3597'
 ht-degree: 92%
@@ -99,7 +99,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Foram adicionadas informações sobre endpoints de autenticação personalizados na documentação de limitação. [Leia mais](../configuration/external-systems.md)
 * Um novo exemplo de autenticação personalizada foi adicionado na seção de fontes de dados externas. [Leia mais](../datasource/external-data-sources.md#custom-authentication-mode)
 * Adição de uma observação sobre o Serviço principal de coleta de dados (DCCS) para jornadas acionadas por eventos. [Leia mais](../start/guardrails.md#events-g)
-* Uma observação sobre a recuperação do namespace de identidade foi adicionada na [Ler público](../building-journeys/read-audience.md), [Qualificação do segmento](../building-journeys/segment-qualification-events.md) e [Criação de evento](../event/about-creating.md) seções.
+* Uma observação sobre a recuperação do namespace de identidade foi adicionada na [Ler público](../building-journeys/read-audience.md), [Qualificação de público](../building-journeys/audience-qualification-events.md) e [Criação de evento](../event/about-creating.md) seções.
 * Os recursos de acessibilidade no [!DNL Journey Optimizer] agora estão agrupados em uma página dedicada. [Leia mais](../start/accessibility.md)
 * Os exemplos foram atualizados na seção Operators da documentação avançada do editor de expressão. [Leia mais](../building-journeys/expression/operators.md)
 * Adição de uma observação sobre a limitação na pesquisa com a matriz de objetos. [Leia mais](../event/experience-event-schema.md#relationships_limitations)
