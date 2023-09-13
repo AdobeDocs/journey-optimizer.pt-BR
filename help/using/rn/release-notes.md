@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 41d31d27a844f47d46a22b64802b716b9600c6c7
+source-git-commit: 27b5d9d66cd2659b4254ee26ac7de928cdd13fe1
 workflow-type: tm+mt
-source-wordcount: '3432'
+source-wordcount: '3468'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,24 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
+## Atualização de setembro de 2023 {#sept-rn-2023}
+
+### Novo recurso {#sept-2023-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Armazenamento de credenciais do aplicativo móvel por sandbox</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Esse novo recurso permite gerenciar e associar facilmente as credenciais de push a uma sandbox dedicada nas Superfícies do aplicativo.</p>
+<p>Para obter mais informações, consulte a <a href="../in-app/inapp-configuration.md">documentação detalhada</a>.</p>
+</tr>
+</tbody>
+</table>
 
 ## Notas de versão de agosto de 2023 {#aug-rn-2023}
 
