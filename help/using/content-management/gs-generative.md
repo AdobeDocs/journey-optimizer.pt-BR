@@ -11,9 +11,9 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
@@ -24,22 +24,22 @@ ht-degree: 14%
 **Índice**
 
 * **[Introdução ao Assistente de conteúdo](gs-generative.md)**
-* [Gerar texto com o assistente de Conteúdo](generative-content.md)
-* [Gerar imagens com o assistente de Conteúdo](generative-image.md)
+* [Geração de texto com o Assistente de conteúdo](generative-content.md)
+* [Geração de imagens com o Assistente de conteúdo](generative-image.md)
 
 >[!ENDSHADEBOX]
 
 
-O assistente de conteúdo do Adobe Jornada Otimizer traz sugestões proativas de variação de conteúdo para texto e imagens. Ele está disponível para canais de email, push, SMS e da Web. Esse novo recurso fornece uma geração de texto e imagem com base em um prompt. A geração de imagens é gerenciada com o Adobe Firefly.
+O Assistente de conteúdo do Adobe Journey Optimizer traz sugestões proativas de variação de conteúdo para texto e imagens. Ele está disponível para canais de email, push, SMS e Web. Esse novo recurso fornece uma geração de texto e de imagens baseada em prompt. A geração de imagens é gerenciada pelo Adobe Firefly.
 
 ![](assets/image-gen-ai.png)
 
 
 
-Use o assistente de Conteúdo para otimizar o impacto da sua mensagem, experimentando com diferentes títulos e imagens principais. Gere várias variantes e crie um experimento para compará-las. Aproveitando o Experimento de conteúdo do Journey Optimizer, você pode definir vários tratamentos de mensagem para medir qual tem melhor desempenho para o público-alvo. Você pode optar por variar o conteúdo do delivery ou o assunto. O público da mensagem é alocado aleatoriamente para cada tratamento para determinar qual funciona melhor em termos da métrica especificada. Saiba mais sobre o Experimento de conteúdo no [nesta seção](../campaigns/content-experiment.md).
+Use o Assistente de conteúdo para otimizar o impacto da sua mensagem, experimentando diferentes títulos principais e imagens. Gere múltiplas variantes e crie um experimento para compará-las. Aproveitando o Experimento de conteúdo do Journey Optimizer, é possível definir vários tratamentos de mensagem para medir qual tem melhor desempenho para o seu público-alvo. É possível optar por variar o conteúdo da entrega ou o assunto. O público-alvo da mensagem é alocado aleatoriamente em cada tratamento para determinar qual funciona melhor de acordo com a métrica especificada. Saiba mais sobre o Experimento de conteúdo [nesta seção](../campaigns/content-experiment.md).
 
 
 >[!AVAILABILITY]
 >
->O assistente de conteúdo do Adobe Journey Optimizer está disponível no momento como um beta somente para usuários selecionados. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
+>No momento, o Assistente de conteúdo do Adobe Journey Optimizer está disponível como um beta somente para usuários(as) selecionados(as). Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
 
