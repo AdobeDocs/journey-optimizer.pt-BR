@@ -17,7 +17,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Setembro de 2023 (#september-2023)
 
-* Uma lista de limitações que devem ser observadas ao criar regras de decisões foi adicionada à documentação da gestão de decisões. [Leia mais](../offers/offer-library/creating-decision-rules.md)
+* Uma lista de limitações que devem ser observadas ao criar regras de decisão foi adicionada à documentação da Gestão de decisões. [Leia mais](../offers/offer-library/creating-decision-rules.md)
 
 ## Agosto de 2023 {#august-2023}
 
