@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: d56053d9db3d7c07d629069c985640e694b32ce1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1296'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 ### Ações personalizadas {#custom-actions-g}
 
 * O URL de ação personalizada não aceita parâmetros dinâmicos.
-* Os métodos POST, PUT e GET são compatíveis
+* Os métodos de chamada POST, PUT e GET são compatíveis
 * O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou “$”
 * Endereços IP não são permitidos
 * Endereços internos da Adobe (`.adobe.*`) não são permitidos em URLs e APIs.
