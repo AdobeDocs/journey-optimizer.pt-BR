@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: decf400bbdc0a063bd1714c6ce01595ef7fb222a
+source-git-commit: 1ac68f1b3a9657ce71a653011ab92fb817ca80b0
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1471'
 ht-degree: 96%
 
 ---
@@ -458,6 +458,7 @@ ht-degree: 96%
       + [Adicionar um registro TXT do Google](using/configuration/google-txt.md)
       + [Acessar e editar registros PTR](using/configuration/ptr-records.md)
       + [Criar pools de IP](using/configuration/ip-pools.md)
+   + [Implementar um plano de aquecimento de IP](using/configuration/ip-warmup.md)
    + Monitorar endereços de email {#monitor-reputation}
       + [Lista de supressão](using/configuration/manage-suppression-list.md)
       + [Tentativas](using/configuration/retries.md)
