@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: b0a842232259ef2b1b930927a8c61c32bfc45123
+source-git-commit: 2fb87752a3f9190a5e9b885f102423827545f9fe
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 39%
+source-wordcount: '517'
+ht-degree: 38%
 
 ---
 
@@ -37,7 +37,7 @@ Essa versão traz os novos recursos listados abaixo.
 <td>
 <p>O recurso Relatório de canal oferece aos analistas e profissionais de marketing uma visão geral abrangente das métricas de tráfego e engajamento no nível do canal. Para acessar o menu 'Relatório', você deve ter a permissão **Exibir relatórios do canal**.</p>
 <img src="assets/channel-reports.png"/>
-<p>Para obter mais informações, consulte a <a href="../in-app/get-started-in-app.md">documentação detalhada</a>.</p-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
 </table>
