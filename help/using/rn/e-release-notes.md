@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8aeb0c252a2c24442098fa1e88a75eb0e0a94d4e
+source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 38%
+source-wordcount: '594'
+ht-degree: 29%
 
 ---
 
@@ -29,13 +29,28 @@ Essa versão traz os novos recursos listados abaixo.
 <table>
 <thead>
 <tr>
+<th><strong>Armazenamento de credenciais do aplicativo móvel por sandbox</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Esse novo recurso permite gerenciar e associar facilmente as credenciais de push a uma sandbox dedicada nas Superfícies do aplicativo.</p>
+<p>Para obter mais informações, consulte a <a href="../in-app/inapp-configuration.md">documentação detalhada</a>.</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Relatórios de canal consolidado</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O recurso Relatório de canal oferece aos analistas e profissionais de marketing uma visão geral abrangente das métricas de tráfego e engajamento no nível do canal. Para acessar o menu 'Relatório', você deve ter a permissão **Exibir relatórios do canal**.</p>
+<p>O recurso Relatório de canal oferece aos analistas e profissionais de marketing uma visão geral abrangente das métricas de tráfego e engajamento no nível do canal. Para acessar o menu 'Relatório', você deve ter a permissão 'Exibir relatórios do canal'.</p>
 <img src="assets/channel-reports.png"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -52,7 +67,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>A exportação de conjuntos de dados do Journey Optimizer para Destinos de armazenamento na nuvem agora está disponível de forma geral. Com esse recurso, é possível estabelecer uma conexão ativa com locais de armazenamento na nuvem para exportar o conteúdo dos conjuntos de dados.</p>
+<p>A exportação de conjuntos de dados do Journey Optimizer para Destinos de armazenamento na nuvem agora está disponível para o público em geral. Com esse recurso, é possível estabelecer uma conexão ativa com locais de armazenamento na nuvem para exportar o conteúdo dos conjuntos de dados.</p>
 <img src="../data/assets/dataset-export-setup.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -78,7 +93,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Alertas**
 
-Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando um segmento de leitura falhar.
+* Foram introduzidos dois novos tipos de alertas de sistema. Agora você pode ser notificado quando uma ação personalizada ou um segmento de leitura falhar.
 
 **Canal da Web**
 
@@ -88,9 +103,9 @@ Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notifica
 
 **Jornadas**
 
-* Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando houver falha em uma ação personalizada.
+* Os recursos de resposta de ação personalizada agora estão disponíveis no mercado. Isso permite aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. Além disso, foi adicionada uma nova garantia para limitar todas as ações aduaneiras a 5000 chamadas/s por ponto de extremidade.
 * Ao duplicar uma jornada, agora é possível definir o nome da cópia da jornada.
-
+* A duração máxima que você pode definir na atividade de espera agora é de 29 dias, em vez de 30.
 
 **Canal de email**
 
