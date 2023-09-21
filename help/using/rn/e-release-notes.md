@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: e5e4825996359cbe6c5bf0a06fc32a2ef116d906
+source-git-commit: 127e7cee6c474ba1e7519985e5c768be8abc6b20
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 22%
+source-wordcount: '529'
+ht-degree: 23%
 
 ---
 
@@ -83,8 +83,7 @@ Esta versão vem com as melhorias listadas abaixo.
 **Públicos-alvo**
 
 * Agora é possível direcionar públicos-alvo carregados de um arquivo CSV para jornadas e campanhas.
-  <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
-* Agora você pode direcionar públicos-alvo resultantes de fluxos de trabalho de composição para jornadas.
+<!--* You can now target audiences resulting from composition workflows into journeys. -->
 
 **Personalização**
 
