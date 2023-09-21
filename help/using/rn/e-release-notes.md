@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
+source-git-commit: b0a842232259ef2b1b930927a8c61c32bfc45123
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '525'
+ht-degree: 39%
 
 ---
 
@@ -18,26 +18,26 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento. Links, telas e documentação atualizada são publicados nas [notas de versão](release-notes.md), na data de lançamento.
 
-## Notas de versão antecipadas de agosto de 2023 {#aug-rn-2023}
+## Notas de versão antecipadas de setembro de 2023 {#sept-rn-2023}
 
-**Data de lançamento**: 23-24 de agosto de 2023
+**Data de lançamento**: 26 a 27 de setembro de 2023
 
-### Novos recursos{#aug-2023-features}
+### Novos recursos{#sept-2023-features}
 
 Essa versão traz os novos recursos listados abaixo.
 
 <table>
 <thead>
 <tr>
-<th><strong>Enviar mensagens no aplicativo em suas jornadas</strong><br/></th>
+<th><strong>Relatórios de canal consolidado</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível enviar mensagens personalizadas no aplicativo para os usuários e usuárias em uma campanha. Use o Journey Optimizer para criar notificações e personalizar o layout, a exibição, o texto e os botões das mensagens para criar uma experiência perfeita.</p>
-<img src="assets/in_app_journey_1.png"/>
-<p>Para obter mais informações, consulte a <a href="../in-app/get-started-in-app.md">documentação detalhada</a>.</p>
+<p>O recurso Relatório de canal oferece aos analistas e profissionais de marketing uma visão geral abrangente das métricas de tráfego e engajamento no nível do canal. Para acessar o menu 'Relatório', você deve ter a permissão **Exibir relatórios do canal**.</p>
+<img src="assets/channel-reports.png"/>
+<p>Para obter mais informações, consulte a <a href="../in-app/get-started-in-app.md">documentação detalhada</a>.</p-->
 </tr>
 </tbody>
 </table>
@@ -46,14 +46,14 @@ Essa versão traz os novos recursos listados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Validação de seus emails com listas de seeds</strong><br/></th>
+<th><strong>Geração de exportação do conjunto de dados (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível criar e gerenciar listas de seeds no Journey Optimizer. Uma lista de seeds consiste em endereços internos que podem ser adicionados ao público-alvo em si e recebem exatamente a mesma mensagem que os perfis direcionados na hora da execução da entrega. Use esse recurso para monitorar as comunicações enviadas e garantir que todos os formatos de exibição, URLs, imagens e links estejam corretos.</p>
-<img src="../configuration/assets/seed-list-details.png">
+<p>A exportação de conjuntos de dados do Journey Optimizer para Destinos de armazenamento na nuvem agora está disponível de forma geral. Com esse recurso, é possível estabelecer uma conexão ativa com locais de armazenamento na nuvem para exportar o conteúdo dos conjuntos de dados.</p>
+<img src="../data/assets/dataset-export-setup.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -61,46 +61,41 @@ Essa versão traz os novos recursos listados abaixo.
 </table>
 
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Generate text and images with the Content assistant</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
-<p>This capability is currently available as a private beta.</p>
-<img src="assets/gen-ai-image-2.png"/>
-<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-
-
-### Melhorias {#aug-2023-improvements}
+### Melhorias {#sept-2023-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
-**APIs**
+**Públicos-alvo**
 
-Uma nova API para criar e gerenciar Fragmentos de conteúdo agora está disponível. [Saiba mais](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+* Agora é possível direcionar públicos-alvo carregados de um arquivo CSV para jornadas e campanhas.
+* Foram feitos aprimoramentos no seletor de público-alvo em jornadas ou campanhas, com a adição de novas colunas que exibem a origem e a frequência de atualização dos públicos-alvo.
+* Agora você pode direcionar públicos-alvo resultantes de fluxos de trabalho de composição para jornadas.
 
-**Canal de email**
+**Personalização**
 
-Uma nova opção está disponível nas configurações da superfície do email para incluir endereços de email suprimidos devido a reclamações de spam nos públicos-alvo de mensagens transacionais. Mesmo que marquem mensagens de marketing como spam, esses perfis poderão receber mensagens transacionais, como redefinição de senha ou declarações de conta. Essa opção está desabilitada por padrão.
+* Além dos fragmentos visuais, agora é possível criar, salvar e reutilizar fragmentos de expressão da interface do Journey Optimizer por meio do Editor de expressão. Os fragmentos de expressão substituem as expressões salvas anteriormente.
+* Agora você pode usar os atributos computados do Adobe Experience Platform para personalização no Journey Optimizer. Os atributos computados são valores agregados que são calculados com base em conjuntos de dados de Evento de experiência habilitados para perfil assimilados na Adobe Experience Platform.
+
+**Alertas**
+
+Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando um segmento de leitura falhar.
+
+**Canal da Web**
+
+* Agora é possível selecionar a quais exibições específicas você deseja aplicar as modificações da página da Web. Uma exibição pode ser definida como um site inteiro ou um grupo de elementos visuais em um site, como a página inicial, o site de produtos inteiro ou o quadro de preferências de entrega em todas as páginas de check-out.
+* Ao editar uma página usando o web designer, agora é possível adicionar novas alterações ao conteúdo diretamente do painel Modificações, sem a necessidade de selecionar um componente e editá-lo na interface do designer.
+* Ao configurar subdomínios da Web, agora há a opção de adicionar seu próprio subdomínio, além de usar um subdomínio já delegado ao Adobe.
 
 **Jornadas**
 
-* Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. No momento, esse recurso está disponível como um private beta.
-<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
-* When duplicating a journey, you can now define the name of the journey copy.-->
+* Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando houver falha em uma ação personalizada.
+* Ao duplicar uma jornada, agora é possível definir o nome da cópia da jornada.
 
 
-**Correspondência direta**
+**Canal de email**
 
-* O Azure agora pode ser selecionado como o tipo de servidor na configuração de roteamento de arquivo.
-* O “E” comercial agora está disponível como campo separador de colunas nas configurações de superfície da correspondência direta.
+Uma nova opção na configuração da superfície de email permite optar por enviar mensagens transacionais para perfis mesmo se os endereços de email estiverem na lista de supressão do Adobe Journey Optimizer.
+
+**Gestão de decisões**
+
+Foram feitos aprimoramentos no seletor de público-alvo em jornadas ou campanhas, com a adição de novas colunas que exibem a origem e a frequência de atualização dos públicos-alvo.
