@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, pools, grupo, subdomínios, capacidade de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 27%
 
 ---
@@ -73,4 +73,4 @@ As principais etapas para implementar um plano de aquecimento de IP são as segu
 
 1. Crie um plano de aquecimento de IP e faça upload do seu plano. [Saiba mais](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
-1. Ajuste cada fase do plano e ative as execuções. [Saiba mais](ip-warmup-running.md)
+1. Selecione uma campanha para cada fase do plano e ative as execuções correspondentes. [Saiba mais](ip-warmup-running.md)

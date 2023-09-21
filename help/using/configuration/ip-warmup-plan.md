@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, pools, grupo, subdomínios, capacidade de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '566'
 ht-degree: 5%
 
 ---
@@ -29,6 +29,8 @@ O que há neste guia de documentação:
 * [Executar o plano de aquecimento de IP](ip-warmup-running.md)
 
 >[!ENDSHADEBOX]
+
+Uma vez que [criou uma ou mais campanhas](ip-warmup-campaign.md) com uma superfície dedicada e a opção de aquecimento de IP ativada, você pode começar a criar seu plano de aquecimento de IP.
 
 ## Acessar e gerenciar planos de aquecimento de IP {#manage-ip-warmup-plans}
 
