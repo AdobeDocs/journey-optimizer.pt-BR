@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1ac68f1b3a9657ce71a653011ab92fb817ca80b0
+source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 96%
+source-wordcount: '1492'
+ht-degree: 95%
 
 ---
 
@@ -458,7 +458,11 @@ ht-degree: 96%
       + [Adicionar um registro TXT do Google](using/configuration/google-txt.md)
       + [Acessar e editar registros PTR](using/configuration/ptr-records.md)
       + [Criar pools de IP](using/configuration/ip-pools.md)
-   + [Implementar um plano de aquecimento de IP](using/configuration/ip-warmup.md)
+   + Implementar um plano de aquecimento de IP {#implement-ip-warmup-plan}
+      + [Introdução aos planos de aquecimento de IP](using/configuration/ip-warmup-gs.md)
+      + [Criar campanhas de aquecimento de IP](using/configuration/ip-warmup-campaign.md)
+      + [Criar um plano de aquecimento de IP](using/configuration/ip-warmup-plan.md)
+      + [Executar o plano de aquecimento de IP](using/configuration/ip-warmup-running.md)
    + Monitorar endereços de email {#monitor-reputation}
       + [Lista de supressão](using/configuration/manage-suppression-list.md)
       + [Tentativas](using/configuration/retries.md)
