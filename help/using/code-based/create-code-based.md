@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 3a2c9e34790aaf6d96d89244e66deb200d844564
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1007'
 ht-degree: 3%
 
 ---
@@ -68,7 +68,7 @@ Para começar a criar sua experiência baseada em código por meio de uma campan
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="Usar o editor de código"
+>title="Usar o editor de expressão"
 >abstract="Insira e edite o código que deseja entregar como parte desta ação de experiência baseada em código."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Introdução ao editor de expressão"
 
@@ -76,7 +76,7 @@ Para começar a criar sua experiência baseada em código por meio de uma campan
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. O editor de código é aberto. É uma interface de criação de experiência não visual.
+1. A variável [Editor de expressão](../personalization/personalization-build-expressions.md) é aberto. É uma interface de criação de experiência não visual que permite criar seu código.
 
 1. Você pode alternar o modo de criação de HTML para JSON e vice-versa.
 
@@ -84,7 +84,7 @@ Para começar a criar sua experiência baseada em código por meio de uma campan
    >
    >Alterar o modo de criação resultará na perda de todo o código atual, portanto, alterne os modos antes de iniciar a criação.
 
-1. Insira o código conforme necessário. O editor de código aproveita o [!DNL Journey Optimizer] Editor de expressão com todos os seus recursos de personalização e criação. [Saiba mais](../personalization/personalization-build-expressions.md)
+1. Insira o código conforme necessário. Você pode aproveitar o [!DNL Journey Optimizer] Editor de expressão com todos os seus recursos de personalização e criação. [Saiba mais](../personalization/personalization-build-expressions.md)
 
    ![](assets/code-based-campaign-code-editor.png)
 
@@ -113,7 +113,7 @@ Para exibir uma pré-visualização de sua experiência baseada em código modif
 >
 >Você deve ter perfis de teste disponíveis para simular quais ofertas serão entregues a eles. Saiba como [criar perfis de teste](../audience/creating-test-profiles.md).
 
-1. Na tela do editor de código ou da edição de conteúdo, selecione **[!UICONTROL Simular conteúdo]**.
+1. Na tela Editor de expressão ou Editar conteúdo, selecione **[!UICONTROL Simular conteúdo]**.
 
    ![](assets/code-based-campaign-simulate.png)
 

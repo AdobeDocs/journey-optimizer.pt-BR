@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 7%
@@ -111,7 +111,7 @@ Para executar casos de uso da Web, é possível usar o canal da Web ou a experi�
 * É focado no profissional de marketing.
 
 **Experiência baseada em código**
-* Editar seu conteúdo usando o [editor de código](create-code-based.md#edit-code).
+* Editar seu conteúdo usando o [Editor de expressão](create-code-based.md#edit-code).
 * A experiência baseada em código requer trabalho de desenvolvimento anterior em sua implementação para garantir que suas superfícies possam interpretar e entregar o conteúdo publicado na borda pelo [!DNL Journey Optimizer] para estas superfícies. [Saiba mais](#surface-definition)
 * Requer mais planejamento e pode alterar apenas as coisas que os desenvolvedores especificam. Portanto, é essencial identificar os componentes (banner inicial, imagem principal, barra de menu etc.) nas superfícies que precisam ser modificadas para personalização ou teste e trabalhe com sua equipe de desenvolvimento para criar a implementação necessária para lidar com essas alterações.
 * Ela permite usar o conteúdo do código JSON.
@@ -133,7 +133,7 @@ As principais etapas para implementar uma campanha baseada em código são as se
 
 1. Definir um [superfície](#surface-definition), que é basicamente o local em que você deseja adicionar sua experiência baseada em código e criar uma campanha no [!DNL Journey Optimizer] usando essa superfície. [Saiba como](create-code-based.md#create-code-based-campaign)
 
-1. Componha uma experiência especificando o conteúdo da superfície selecionada usando o [!DNL Journey Optimizer] editor de código. [Saiba como](create-code-based.md#edit-code)
+1. Componha uma experiência especificando o conteúdo da superfície selecionada usando o [!DNL Journey Optimizer] Editor de expressão. [Saiba como](create-code-based.md#edit-code)
 
 1. A equipe de implementação do aplicativo faz chamadas explícitas de API ou SDK para buscar conteúdo para as superfícies nomeadas, como &quot;Texto do banner&quot; ou &quot;Bandeja do Recommendations 1&quot;, ou pontos de decisão não relacionados à interface do usuário em um aplicativo, como &quot;parâmetros de algoritmo de pesquisa&quot;. Nesse caso, a equipe de implementação é responsável pela renderização ou outra forma de interpretar e agir sobre o conteúdo retornado.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 
