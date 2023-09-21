@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
+source-git-commit: e5e4825996359cbe6c5bf0a06fc32a2ef116d906
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 29%
+source-wordcount: '540'
+ht-degree: 22%
 
 ---
 
@@ -26,20 +26,6 @@ As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso 
 
 Essa versão traz os novos recursos listados abaixo.
 
-<table>
-<thead>
-<tr>
-<th><strong>Armazenamento de credenciais do aplicativo móvel por sandbox</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Esse novo recurso permite gerenciar e associar facilmente as credenciais de push a uma sandbox dedicada nas Superfícies do aplicativo.</p>
-<p>Para obter mais informações, consulte a <a href="../in-app/inapp-configuration.md">documentação detalhada</a>.</p>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -75,6 +61,20 @@ Essa versão traz os novos recursos listados abaixo.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Armazenamento de credenciais do aplicativo móvel por sandbox</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Esse novo recurso permite gerenciar e associar facilmente as credenciais de push a uma sandbox dedicada nas Superfícies do aplicativo.</p>
+<p>Para obter mais informações, consulte a <a href="../in-app/inapp-configuration.md">documentação detalhada</a>.</p>
+</tr>
+</tbody>
+</table>
 
 ### Melhorias {#sept-2023-improvements}
 
@@ -83,7 +83,7 @@ Esta versão vem com as melhorias listadas abaixo.
 **Públicos-alvo**
 
 * Agora é possível direcionar públicos-alvo carregados de um arquivo CSV para jornadas e campanhas.
-* Foram feitos aprimoramentos no seletor de público-alvo em jornadas ou campanhas, com a adição de novas colunas que exibem a origem e a frequência de atualização dos públicos-alvo.
+  <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 * Agora você pode direcionar públicos-alvo resultantes de fluxos de trabalho de composição para jornadas.
 
 **Personalização**
@@ -111,6 +111,6 @@ Esta versão vem com as melhorias listadas abaixo.
 
 Uma nova opção na configuração da superfície de email permite optar por enviar mensagens transacionais para perfis mesmo se os endereços de email estiverem na lista de supressão do Adobe Journey Optimizer.
 
-**Gestão de decisões**
+<!--**Decision management**
 
-Foram feitos aprimoramentos no seletor de público-alvo em jornadas ou campanhas, com a adição de novas colunas que exibem a origem e a frequência de atualização dos públicos-alvo.
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
