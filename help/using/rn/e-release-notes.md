@@ -5,7 +5,7 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 2fb87752a3f9190a5e9b885f102423827545f9fe
+source-git-commit: 8aeb0c252a2c24442098fa1e88a75eb0e0a94d4e
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 38%
@@ -46,7 +46,7 @@ Essa versão traz os novos recursos listados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Geração de exportação do conjunto de dados (GA)</strong><br/></th>
+<th><strong>Destinos de exportação do conjunto de dados (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
