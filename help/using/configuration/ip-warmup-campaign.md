@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP, pools, grupo, subdomínios, capacidade de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: ea86d44f7c9309ff69877e01cea6a13e7907a039
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 3%
@@ -43,7 +43,7 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Saiba como selecionar o domínio e os IPs a serem usados em uma superfície de email no [nesta seção](using/email/email-settings.md#subdomains-and-ip-pools).
+   >Saiba como selecionar o domínio e os IPs a serem usados em uma superfície de email no [nesta seção](../email/email-settings.md#subdomains-and-ip-pools).
 
 1. Criar um [campaign](../campaigns/create-campaign.md) e selecione o [E-mail](../email/create-email.md#create-email-journey-campaign) ação.
 
@@ -68,4 +68,6 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 >Para uma campanha ativa com o plano de aquecimento de IP ativado, a variável **[!UICONTROL Excluir]** estará disponível até ser associado a um plano de aquecimento de IP.
 
 Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+
+<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
 
