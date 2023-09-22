@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1242'
 ht-degree: 5%
 
 ---
@@ -181,11 +181,11 @@ As ofertas classificadas agora são as seguintes: Oferta 5 , Oferta 3, Oferta 4,
 
 ## Usar a política de decisão no editor de código {#use-decision-policy}
 
-Depois de criada, a política de decisão pode ser usada na variável [editor de código](../code-based/create-code-based.md#edit-code). Para isso, siga as etapas abaixo.
+Depois de criada, a política de decisão pode ser usada na variável [Editor de expressão](../code-based/create-code-based.md#edit-code). Para isso, siga as etapas abaixo.
 
 >[!NOTE]
 >
->O editor de código aproveita o [!DNL Journey Optimizer] Editor de expressão com todos os seus recursos de personalização e criação. [Saiba mais](../personalization/personalization-build-expressions.md)
+>A experiência baseada em código aproveita o [!DNL Journey Optimizer] Editor de expressão com todos os seus recursos de personalização e criação. [Saiba mais](../personalization/personalization-build-expressions.md)
 
 1. Clique no ícone +. O código correspondente à política de decisão é adicionado. Agora você pode adicionar todos os atributos de decisão desejados dentro desse código.
 
@@ -197,7 +197,7 @@ Depois de criada, a política de decisão pode ser usada na variável [editor de
 
 1. Clique na política de decisão. Os atributos de decisão são exibidos.
 
-   Esses atributos são armazenados no **[!UICONTROL Ofertas]** esquema do catálogo. Os atributos personalizados são armazenados no **_cjmstage** pasta e atributos padrão no **_experience** pasta. [Saiba mais sobre o schema do catálogo de ofertas](catalogs.md)
+   Esses atributos são armazenados no **[!UICONTROL Ofertas]** esquema do catálogo. Os atributos personalizados são armazenados no **`_<imsOrg`>** pasta e atributos padrão no **`_experience`** pasta. [Saiba mais sobre o schema do catálogo de ofertas](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 

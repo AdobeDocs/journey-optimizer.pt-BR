@@ -8,10 +8,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 3%
+source-wordcount: '1009'
+ht-degree: 4%
 
 ---
 
@@ -60,7 +60,7 @@ Para começar a criar sua experiência baseada em código por meio de uma campan
    >
    >Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
-1. Edite o conteúdo conforme desejado usando o [editor baseado em código](#edit-code).
+1. Edite o conteúdo conforme desejado usando o Editor de expressão. [Saiba mais](#edit-code)
 
    ![](assets/code-based-campaign-edit-content.png)
 
