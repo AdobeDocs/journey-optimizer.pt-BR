@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
->title="Criar conteúdo de email"
+>title="Criar o conteúdo do email"
 >abstract="O Assistente de conteúdo do Adobe Journey Optimizer traz sugestões proativas de variação de conteúdo para texto e imagens. Ele está disponível para canais de email, push, SMS e Web. Esse novo recurso fornece uma geração de texto e de imagens baseada em prompt."
 
 
