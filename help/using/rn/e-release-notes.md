@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 3df2e550c9ab2c83e6fa9c26dc62a882a523229a
+source-git-commit: 1bf010b247b3683c6171bc387c9b94ab1b5dcefc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '588'
+ht-degree: 23%
 
 ---
 
@@ -96,9 +96,9 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Canal da Web**
 
-* Agora, os aplicativos de página única (SPA) podem ser criados no editor visual da Web. Agora é possível selecionar a quais exibições específicas você deseja aplicar as modificações da página da Web. Uma exibição pode ser definida como um site inteiro ou um grupo de elementos visuais em um site, como a página inicial, o site de produtos inteiro ou o quadro de preferências de entrega em todas as páginas de check-out. É necessária uma configuração de desenvolvedor única para definir as exibições na implementação do SDK da Web da Adobe Experience Platform. Isso permite que os profissionais de marketing criem e executem campanhas da Web do Adobe Journey Optimizer no SPA.
+* Agora, os aplicativos de página única (SPA) podem ser criados no editor visual do designer da Web. Agora é possível selecionar a quais exibições específicas você deseja aplicar as modificações da página da Web. Uma exibição pode ser definida como um site inteiro ou um grupo de elementos visuais em um site, como a página inicial, o site de produtos inteiro ou o quadro de preferências de entrega em todas as páginas de check-out. É necessária uma configuração de desenvolvedor única para definir as exibições na implementação do SDK da Web da Adobe Experience Platform. Isso permite que os profissionais de marketing criem e executem campanhas da Web do Adobe Journey Optimizer no SPA.
 
-* Ao editar uma página usando o web designer, agora é possível adicionar novas alterações ao conteúdo diretamente do painel Modificações, sem a necessidade de selecionar um componente e editá-lo na interface do designer.
+* Ao editar uma página usando o web designer, agora é possível adicionar novas alterações ao seu conteúdo diretamente do **Modificações** painel - sem a necessidade de selecionar um componente e editá-lo na interface do designer.
 * Ao configurar subdomínios da Web, agora há a opção de adicionar seu próprio subdomínio, além de usar um subdomínio já delegado ao Adobe.
 
 **Jornadas**
