@@ -5,7 +5,7 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 94%
@@ -465,7 +465,7 @@ ht-degree: 94%
       + [Introdução aos planos de aquecimento de IP](using/configuration/ip-warmup-gs.md)
       + [Criar campanhas de aquecimento de IP](using/configuration/ip-warmup-campaign.md)
       + [Criar um plano de aquecimento de IP](using/configuration/ip-warmup-plan.md)
-      + [Executar o plano de aquecimento de IP](using/configuration/ip-warmup-running.md)
+      + [Executar o plano de aquecimento de IP](using/configuration/ip-warmup-execution.md)
    + Monitorar endereços de email {#monitor-reputation}
       + [Lista de supressão](using/configuration/manage-suppression-list.md)
       + [Tentativas](using/configuration/retries.md)

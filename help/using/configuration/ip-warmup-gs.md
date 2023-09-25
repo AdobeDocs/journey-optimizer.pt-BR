@@ -7,12 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Experienced
-keywords: IP, pools, grupo, subdomínios, capacidade de entrega
+keywords: IP, capacidade de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '295'
 ht-degree: 26%
 
 ---
@@ -33,7 +33,7 @@ O que há neste guia de documentação:
 * **[Introdução ao aquecimento de IP](ip-warmup-gs.md)**
 * [Criar campanhas de aquecimento de IP](ip-warmup-campaign.md)
 * [Criar um plano de aquecimento de IP](ip-warmup-plan.md)
-* [Executar o plano de aquecimento de IP](ip-warmup-running.md)
+* [Executar o plano de aquecimento de IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ Com [!DNL Journey Optimizer]No entanto, é possível executar facilmente workflo
 
 Quando os emails são enviados usando uma nova plataforma, os provedores de serviços de Internet (ISPs) suspeitam de endereços IP que não são reconhecidos. Se grandes volumes de emails forem enviados repentinamente, os ISPs freqüentemente os marcam como spam.
 
-Para evitar ser marcado como spam, você pode aumentar progressivamente o volume enviado usando o recurso de plano de aquecimento de IP. Uma nova opção no **[!UICONTROL Administração]** permite que você faça isso com mais tranquilidade em vez de criar jornadas diárias complexas. Isso deve garantir o desenvolvimento suave da fase de inicialização e permitir que você reduza a taxa geral de endereços inválidos.
+Para evitar ser marcado como spam, você poderá aumentar progressivamente o volume enviado usando o recurso de plano de aquecimento de IP. Esta nova opção no **[!UICONTROL Administração]** O menu permite que você faça isso mais facilmente de forma consolidada, em vez de criar jornadas diárias complexas. Isso deve garantir o desenvolvimento suave da fase de inicialização e permitir que você reduza a taxa geral de endereços inválidos.
 
 >[!NOTE]
 >
@@ -69,8 +69,8 @@ Benefits
 
 As principais etapas para implementar um plano de aquecimento de IP são as seguintes:
 
-1. Primeiro, é necessário criar uma ou mais campanhas com a opção de aquecimento de IP ativada. [Saiba mais](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
+1. Primeiro, é necessário criar uma ou mais campanhas com a opção de aquecimento de IP ativada. [Saiba mais](ip-warmup-campaign.md)
 
-1. Criar um plano de aquecimento de IP no [!DNL Journey Optimizer] e carregue a planilha do Excel preenchida anteriormente com seus dados de aquecimento de IP. [Saiba mais](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. Criar um plano de aquecimento de IP no [!DNL Journey Optimizer] e faça upload da planilha do Excel preparada com a ajuda de seu consultor de entrega. [Saiba mais](ip-warmup-plan.md)
 
-1. Selecione uma campanha para cada fase do plano e ative as execuções correspondentes. [Saiba mais](ip-warmup-running.md)
+1. Selecione uma campanha para cada fase do plano e ative as execuções correspondentes. [Saiba mais](ip-warmup-execution.md)

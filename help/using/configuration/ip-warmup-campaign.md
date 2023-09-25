@@ -6,13 +6,13 @@ description: Saiba como criar uma campanha de aquecimento de IP
 feature: Application Settings
 topic: Administration
 role: Admin
-level: Experienced
-keywords: IP, pools, grupo, subdomínios, capacidade de entrega
+level: Intermediate
+keywords: IP, pools, capacidade de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '348'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="Ativar a opção de plano de aquecimento de IP"
->abstract="Selecione a opção de ativação do plano de aquecimento de IP. Quando a campanha estiver ativa, ela poderá ser associada a um plano de aquecimento de IP."
+>abstract="Ao selecionar essa opção, a campanha pode ser usada em um plano de aquecimento de IP. O agendamento da campanha será determinado pelo plano de aquecimento de IP ao qual está associado."
 
 >[!BEGINSHADEBOX]
 
@@ -31,7 +31,7 @@ O que há neste guia de documentação:
 * [Introdução ao aquecimento de IP](ip-warmup-gs.md)
 * **[Criar campanhas de aquecimento de IP](ip-warmup-campaign.md)**
 * [Criar um plano de aquecimento de IP](ip-warmup-plan.md)
-* [Executar o plano de aquecimento de IP](ip-warmup-running.md)
+* [Executar o plano de aquecimento de IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
    >
    >Saiba como selecionar o domínio e os IPs a serem usados em uma superfície de email no [nesta seção](../email/email-settings.md#subdomains-and-ip-pools).
    >
-   >Se necessário, trabalhe com seu consultor de entrega para identificar o domínio e os IPs a serem usados para seu plano de aquecimento de IP.<!--TBC-->
+   >Trabalhe com seu consultor de entrega para identificar o domínio e os IPs a serem usados para o seu plano de aquecimento de IP.<!--TBC-->
 
 1. Criar um [campaign](../campaigns/create-campaign.md) e selecione o [E-mail](../email/create-email.md#create-email-journey-campaign) ação.
 
@@ -73,9 +73,9 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Para uma campanha ativa com o plano de aquecimento de IP ativado, a variável **[!UICONTROL Excluir]** estará disponível até ser associado a um plano de aquecimento de IP. Depois de usada em um plano de aquecimento de IP, a campanha não pode mais ser excluída.
+   >Para uma campanha ativa com o plano de aquecimento de IP ativado, a variável **[!UICONTROL Excluir]** estará disponível até ser associado a um plano de aquecimento de IP. Depois de usada em um plano, a campanha não pode mais ser excluída.
 
-1. A campanha é exibida na janela **[!UICONTROL Campanhas]** lista. Para recuperar facilmente todas as campanhas de aquecimento de IP criadas na sandbox atual, você pode filtrar na opção de campanha **[!UICONTROL Aquecimento de IP]**.
+1. A campanha é exibida na janela **[!UICONTROL Campanhas]** lista. Para recuperar facilmente todas as campanhas de aquecimento de IP criadas na sandbox atual, você pode filtrar no **[!UICONTROL Aquecimento de IP]** opção de campanha.
 
    ![](assets/ip-warmup-campaign-filter.png)
 
