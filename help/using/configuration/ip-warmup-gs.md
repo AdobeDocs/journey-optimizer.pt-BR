@@ -10,10 +10,10 @@ level: Experienced
 keywords: IP, pools, grupo, subdomínios, capacidade de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 27%
+source-wordcount: '293'
+ht-degree: 26%
 
 ---
 
@@ -71,6 +71,6 @@ As principais etapas para implementar um plano de aquecimento de IP são as segu
 
 1. Primeiro, é necessário criar uma ou mais campanhas com a opção de aquecimento de IP ativada. [Saiba mais](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
 
-1. Crie um plano de aquecimento de IP e faça upload do seu plano. [Saiba mais](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. Criar um plano de aquecimento de IP no [!DNL Journey Optimizer] e carregue a planilha do Excel preenchida anteriormente com seus dados de aquecimento de IP. [Saiba mais](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
 1. Selecione uma campanha para cada fase do plano e ative as execuções correspondentes. [Saiba mais](ip-warmup-running.md)

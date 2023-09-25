@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, pools, grupo, subdomínios, capacidade de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '1014'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,12 @@ O que há neste guia de documentação:
 * **[Executar o plano de aquecimento de IP](ip-warmup-running.md)**
 
 >[!ENDSHADEBOX]
+
+Depois de [um plano de aquecimento de IP foi criado](ip-warmup-plan.md) e fez upload do arquivo preparado com seu consultor de entrega, você pode definir as fases e as execuções em seu plano.
+
+Cada fase corresponde a um período composto por várias execuções, às quais você atribui uma única campanha.
+
+Para cada execução, você tem um determinado número de recipients e agenda quando essa execução será executada.
 
 ## Definir as fases {#define-phases}
 
@@ -96,7 +102,7 @@ No nível da fase, o sistema garante que perfis previamente direcionados + novos
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Selecione uma hora de término, que define a janela dentro da qual a campanha de aquecimento de IP pode ser executada em caso de atrasos na execução da tarefa de segmentação de público-alvo. Se nenhuma hora de término for especificada, a execução será tentada na hora de início e falhará se a segmentação não tiver sido concluída.
+1. Como opção, selecione a janela dentro da qual a campanha de aquecimento de IP pode ser executada em caso de atrasos na execução do trabalho de segmentação de público-alvo. Se nenhuma hora de término for especificada, a execução será tentada na hora de início e falhará se a segmentação não tiver sido concluída.
 
 1. Ativar cada execução. Certifique-se de agendar um horário com antecedência suficiente para permitir que o trabalho de segmentação seja executado. <!--explain how you can evaluate a proper time-->
 
@@ -132,18 +138,28 @@ You don't have to decide the campaign upfront. You can do a split later. It's a 
 But need to explain in which case you want to modify campaigns, provide examples
 -->
 
-## Monitorar o plano
+## Marcar um plano como concluído {#mark-as-completed}
 
-Uma execução pode ter os seguintes status<!--TBC with Medha-->:
+Se seu plano não estiver funcionando bem o suficiente ou se você quiser descartá-lo para criar outro, poderá marcá-lo como concluído.
 
-* **[!UICONTROL Concluído]**:
-* **[!UICONTROL Falha]**:
-* **[!UICONTROL Cancelado]**: você interrompeu a execução antes do início da execução da campanha.
+Para fazer isso, clique no link **[!UICONTROL Mais]** no canto superior direito, registre o plano de aquecimento de IP e selecione **[!UICONTROL Marcar como concluído]**.
 
-Benefícios :
+![](assets/ip-warmup-plan-mark-completed.png)
 
-* Os relatórios continuarão a ser exibidos no nível da campanha com recursos semelhantes aos de hoje. Mas o plano de aquecimento de IP também serve como um relatório consolidado em um único local de quantas execuções foram feitas e assim por diante.
+Essa opção só estará disponível se todas as execuções no plano estiverem em **[!UICONTROL Com êxito]** ou **[!UICONTROL Rascunho]** status. Nenhuma execução pode ser **[!UICONTROL Ao vivo]**.
 
-* Local único para gerenciar e visualizar como o aquecimento de IP está progredindo.
+Os diferentes status de execução são listados em [nesta seção](#monitor-plan).
 
-* Relatório consolidado no nível criativo/de campanha, pois todas as execuções são realizadas em uma fase
+## Monitorar o plano {#monitor-plan}
+
+Para medir o impacto do seu plano, você pode verificar o desempenho de suas campanhas de aquecimento de IP usando relatórios. Saiba mais sobre o email da campanha [relatório ao vivo](../reports/campaign-live-report.md#email-live) e [relatório global](../reports/campaign-global-report.md##email-global).
+
+O próprio plano de aquecimento de IP também serve como um relatório consolidado em um único local. É possível verificar elementos como o número de **[!UICONTROL Ao vivo]** ou **[!UICONTROL Com êxito]** O é executado para cada fase e visualizam o andamento de seu plano de aquecimento de IP.
+
+Uma execução pode ter os seguintes status:
+
+* **[!UICONTROL Rascunho]** : sempre que uma execução é criada, quando [fazendo upload de um novo plano](ip-warmup-plan.md) ou [adicionar uma execução](#define-runs) a partir da interface do usuário, é necessário **[!UICONTROL Rascunho]** status.
+* **[!UICONTROL Ao vivo]**: sempre que você ativar uma execução, será necessário **[!UICONTROL Ao vivo]** status.
+* **[!UICONTROL Com êxito]**<!--TBC-->: a execução da campanha para essa execução foi concluída. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL Cancelado]**: a **[!UICONTROL Ao vivo]** execução foi cancelada usando o **[!UICONTROL Parar]** botão. Esse botão só estará disponível se a execução da campanha não tiver sido iniciada. [Saiba mais](#define-runs)
+* **[!UICONTROL Failed]**: erro encontrado pelo sistema ou a campanha usada para a fase atual foi interrompida<!--what should the user do in that case?-->.
