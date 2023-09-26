@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e0564971b18932d311d44a31a0b3acafa467e809
+source-git-commit: 28c98b8982123f0538ca86870a82bdd6228dd674
 workflow-type: tm+mt
-source-wordcount: '3976'
-ht-degree: 88%
+source-wordcount: '4024'
+ht-degree: 87%
 
 ---
 
@@ -30,6 +30,23 @@ As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso 
 ### Novos recursos{#sept-2023-features}
 
 Essa versão traz os novos recursos listados abaixo.
+
+<table>
+<thead>
+<tr>
+<th><strong>Atributos computados</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Os atributos computados permitem resumir facilmente os dados do evento em atributos de perfil por meio de uma interface de usuário intuitiva para segmentação, personalização e ativação avançadas com base em comportamento. Com esse recurso, você pode criar atributos computados de maneira automatizada, gerenciá-los e usá-los na segmentação, destinos de Perfil do cliente em tempo real ou Journey Optimizer.<br/><br/>
+Além disso, os atributos computados simplificam a segmentação e os fluxos de trabalho de jornada para ajudá-lo a fornecer experiências relevantes de maneira contínua. Saiba mais na <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">documentação detalhada</a>.</p>
+<img src="assets/computed-attributes.png">
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -92,7 +109,6 @@ Esta versão vem com as melhorias listadas abaixo.
 **Personalização**
 
 * Além dos fragmentos visuais, agora é possível criar, salvar e reutilizar fragmentos de expressão da interface do Journey Optimizer por meio do Editor de expressão. Os fragmentos de expressão substituem as expressões salvas anteriormente.
-* Agora você pode usar os atributos computados do Adobe Experience Platform para personalização no Journey Optimizer. Os atributos computados são valores agregados que são calculados com base em conjuntos de dados de Evento de experiência habilitados para perfil assimilados na Adobe Experience Platform.
 
 **Alertas**
 
