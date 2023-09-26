@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+source-git-commit: 5edd643f7e93ade8d12515c83dc6321c96fe3c77
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 23%
+source-wordcount: '634'
+ht-degree: 21%
 
 ---
 
@@ -76,6 +76,22 @@ Essa versão traz os novos recursos listados abaixo.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Atributos computados</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Os atributos computados permitem resumir facilmente os dados do evento em atributos de perfil por meio de uma interface de usuário intuitiva para segmentação, personalização e ativação avançadas com base em comportamento. Com esse recurso, você pode criar atributos computados de maneira automatizada, gerenciá-los e usá-los na segmentação, destinos de Perfil do cliente em tempo real ou Journey Optimizer. <br/>
+Além disso, os atributos computados simplificam a segmentação e os fluxos de trabalho de jornada para ajudá-lo a fornecer experiências relevantes de maneira contínua. Saiba mais na <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">documentação detalhada</a>.</p>
+</tr>
+</tbody>
+</table>
+
+
 ### Melhorias {#sept-2023-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
@@ -88,7 +104,6 @@ Esta versão vem com as melhorias listadas abaixo.
 **Personalização**
 
 * Além dos fragmentos visuais, agora é possível criar, salvar e reutilizar fragmentos de expressão da interface do Journey Optimizer por meio do Editor de expressão. Os fragmentos de expressão substituem as expressões salvas anteriormente.
-* Agora você pode usar os atributos computados do Adobe Experience Platform para personalização no Journey Optimizer. Os atributos computados são valores agregados que são calculados com base em conjuntos de dados de Evento de experiência habilitados para perfil assimilados na Adobe Experience Platform.
 
 **Alertas**
 
