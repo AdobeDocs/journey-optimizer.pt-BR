@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 14%
+source-wordcount: '100'
+ht-degree: 15%
 
 ---
 
 # Criar uma decisão {#create-decision}
 
-Você pode criar uma decisão fazendo uma solicitação POST para o [!DNL Offer Library] ao fornecer a ID do contêiner.
+Você pode criar uma decisão fazendo uma solicitação POST para o [!DNL Offer Library] API.
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
@@ -28,61 +28,67 @@ A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de c
 **Formato da API**
 
 ```http
-POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
+POST /{ENDPOINT_PATH}/offer-decisions
 ```
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde as decisões estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs de persistência. | `https://platform.adobe.io/data/core/dps/` |
 
 **Solicitação**
 
 ```shell
-curl -X POST \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}' \
-  -d '{
-      "_instance": {
-          "xdm:name": "Test API",
-          "xdm:startDate": "2022-01-20T16:00:00Z",
-          "xdm:endDate": "2022-01-27T16:00:00Z",
-          "xdm:status": "live",
-          "xdm:criteria": [
-              {
-                  "xdm:placements": [
-                      "xcore:offer-placement:1457f9322f005194"
-                  ],
-                  "xdm:optionSelection": {
-                      "xdm:filter": "xcore:offer-filter:1457f93227d0b6f0"
-                  }
-              }
-          ],
-          "xdm:fallback": "xcore:fallback-offer:13c259399d8bf013"
-      },
-      "_links": {}
-  }'
+curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-d '{
+    "name": "Test Offer Decision",
+    "description": "Offer Decision description",
+    "status": "live",
+    "startDate": "2021-08-23T07:00:00.000+00:00",
+    "endDate": "2021-08-25T07:00:00.000+00:00",
+    "fallback": "fallbackOffer1234",
+    "criteria": [
+        {
+            "placements": [
+                "offerPlacement1234",
+                "offerPlacement5678"
+            ],
+            "rank": {
+                "priority": 0,
+                "order": {
+                    "orderEvaluationType": "ranking-strategy",
+                    "rankingStrategy": "123456789123"
+                }
+            },
+            "profileConstraint": {
+                "profileConstraintType": "none"
+            },
+            "optionSelection": {
+                "filter": "offerCollection1234"
+            }
+        }
+    ]
+}'
 ```
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a decisão recém-criada, incluindo sua `id`. Você pode usar `id` em etapas posteriores, para atualizar ou excluir sua decisão.
+Uma resposta bem-sucedida retorna informações sobre a decisão recém-criada, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a id em etapas posteriores para atualizar ou excluir sua decisão.
 
 ```json
 {
-    "instanceId": "f88c9be0-1245-11eb-8622-b77b60702882",
-    "@id": "xcore:offer-activity:124b79dc3ce2d720",
-    "repo:etag": 1,
-    "repo:createdDate": "2020-10-19T20:02:09.694067Z",
-    "repo:lastModifiedDate": "2020-10-19T20:02:09.694067Z",
-    "repo:createdBy": "{CREATED_BY}",
-    "repo:lastModifiedBy": "{MODIFIED_BY}",
-    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+  "etag": 1,
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "id": "{ID}",
+    "sandboxId": "{SANDBOX_ID}",
+    "createdDate": "2023-05-31T15:09:11.771Z",
+    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
+    "createdByClientId": "{CREATED_CLIENT_ID}",
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

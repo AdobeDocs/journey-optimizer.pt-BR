@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '146'
 ht-degree: 9%
 
 ---
 
 # Atualizar uma decisão {#update-decision}
 
-Você pode modificar ou atualizar uma decisão no seu contêiner fazendo uma solicitação PATCH para o [!DNL Offer Library] API.
+Você pode modificar ou atualizar uma decisão fazendo uma solicitação PATCH para o [!DNL Offer Library] API.
 
 Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação de patch de JSON](https://jsonpatch.com/).
 
@@ -25,61 +25,62 @@ A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de c
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Tipo de conteúdo | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
+| Tipo de conteúdo | `application/json` |
 
 **Formato da API**
 
 ```http
-PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
+PATCH /{ENDPOINT_PATH}/offer-decisions/{ID}
 ```
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde as decisões estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | A ID da instância da decisão. | `f88c9be0-1245-11eb-8622-b77b60702882` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs de persistência. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | A ID da entidade que você deseja atualizar. | `offerDecision1234` |
 
 **Solicitação**
 
 ```shell
-curl -X PATCH \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/f88c9be0-1245-11eb-8622-b77b60702882' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}' \
-  -d '[
-        {
-            "op": "replace",
-            "path": "/_instance/xdm:name",
-            "value": "Example Activity Name"
-        }
-    ]'
+curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDecision1234' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer  {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-d '[
+    {
+        "op": "replace",
+        "path": "/name",
+        "value": "Updated offer decision"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Updated offer decision description"
+    }
+]'
 ```
 
 | Parâmetro | Descrição |
 | --------- | ----------- |
-| `op` | A chamada de operação usada para definir a ação necessária para atualizar a conexão. As operações incluem: `add`, `replace`, e `remove`. |
+| `op` | A chamada de operação usada para definir a ação necessária para atualizar a conexão. As operações incluem: `add`, `replace`, `remove`, `copy` e &quot;test&quot;. |
 | `path` | O caminho do parâmetro a ser atualizado. |
 | `value` | O novo valor com o qual você deseja atualizar seu parâmetro. |
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes atualizados da decisão, incluindo a ID de instância exclusiva e a decisão `@id`.
+Uma resposta bem-sucedida retorna os detalhes atualizados da decisão, incluindo a decisão `id`.
 
 ```json
 {
-    "instanceId": "f88c9be0-1245-11eb-8622-b77b60702882",
-    "@id": "xcore:offer-activity:124b79dc3ce2d720",
-    "repo:etag": 2,
-    "repo:createdDate": "2020-10-19T20:02:09.694067Z",
-    "repo:lastModifiedDate": "2020-10-19T21:28:24.284719Z",
-    "repo:createdBy": "{CREATED_BY}",
-    "repo:lastModifiedBy": "{MODIFIED_BY}",
-    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "etag": 2,
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "id": "{ID}",
+    "sandboxId": "{SANDBOX_ID}",
+    "createdDate": "2023-05-31T15:09:11.771Z",
+    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
+    "createdByClientId": "{CREATED_CLIENT_ID}",
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

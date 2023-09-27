@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 5%
+source-wordcount: '242'
+ht-degree: 7%
 
 ---
 
@@ -19,31 +19,27 @@ Os qualificadores de coleção (anteriormente conhecidos como &quot;tags&quot;) 
 
 Qualificadores de coleção também podem ser usados para agrupar ofertas em coleções. Para obter mais informações, consulte o tutorial em [criação de coleções](../../../offer-library/creating-collections.md).
 
-Você pode exibir uma lista de todos os qualificadores de coleta em um contêiner executando uma única solicitação GET para a [!DNL Offer Library] API.
+Você pode exibir uma lista de todos os qualificadores de coleta executando uma única solicitação GET para a [!DNL Offer Library] API.
 
 **Formato da API**
 
 ```http
-GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/tags?{QUERY_PARAMS}
 ```
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | O contêiner onde os qualificadores de coleta estão localizados. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | Define o esquema associado aos qualificadores da coleção. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `{QUERY_PARAMS}` | Parâmetros de consulta opcionais para filtrar os resultados. | `limit=2` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs de persistência. | `https://platform.adobe.io/data/core/dps` |
 
 **Solicitação**
 
 ```shell
-curl -X GET \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/tag;version=0.1&limit=2' \
-  -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET 'https://platform.adobe.io/data/core/dps/tags?limit=2' \
+-H 'Accept: *,application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 ## Uso de parâmetros de consulta {#using-query-parameters}
@@ -56,90 +52,50 @@ Os parâmetros de consulta mais comuns para paginação incluem:
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `q` | Uma sequência de consulta opcional a ser pesquisada nos campos selecionados. A sequência de consulta deve estar em minúsculas e pode estar entre aspas duplas para impedir que seja tokenizada e para evitar caracteres especiais. Os caracteres `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm significado especial e devem ser evitadas com uma barra invertida ao serem exibidas na sequência de consulta. | JSON do site |
-| `qop` | Aplica o operador AND ou OR a valores no parâmetro de sequência de consulta q. | `AND` / `OR` |
-| `field` | Lista opcional de campos aos quais limitar a pesquisa. Esse parâmetro pode ser repetido da seguinte maneira: field=field1[,campo=campo2,...] e (expressões de caminho estão no formato de caminhos separados por pontos, como _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Classificar os resultados por uma propriedade específica. Adicionar um `-` antes do título (`orderby=-title`) classificará os itens por título em ordem decrescente (Z-A). | `-repo:createdDate` |
-| `limit` | Limite o número de qualificadores de coleção retornados. | `limit=5` |
+| `property` | Um filtro de propriedade opcional: <br> <ul> - As propriedades são agrupadas por operação AND. <br><br> - Os parâmetros podem ser repetidos da seguinte maneira: property=<property-expr>[&amp;propriedade=<property-expr2>..] ou property=<property-expr1>[,<property-expr2>..] <br><br> - As expressões de propriedade estão no formato [!]campo[op]valor, com op em [==,!=,&lt;=,>=,&lt;,>,~], suportando expressões regulares | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | Classificar os resultados por uma propriedade específica. Adicionar um - antes do nome (orderby=-name) classificará os itens pelo nome em ordem decrescente (Z-A). As expressões de caminho estão no formato de caminhos separados por pontos. Esse parâmetro pode ser repetido da seguinte maneira: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `limit` | Limitar o número de entidades retornadas. | `limit=5` |
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna uma lista de qualificadores de coleção que estão presentes no contêiner ao qual você tem acesso.
+Uma resposta bem-sucedida retorna uma lista de qualificadores de coleção presentes.
 
 ```json
 {
-    "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
-    "schemaNs": "https://ns.adobe.com/experience/offer-management/tag;version=0.1",
-    "requestTime": "2020-10-21T20:28:21.521267Z",
-    "_embedded": {
-        "results": [
-            {
-                "instanceId": "0adf2ef0-0f6e-11eb-b3be-9b775f952952",
-                "schemas": [
-                    "https://ns.adobe.com/experience/offer-management/tag;version=0.1"
-                ],
-                "productContexts": [
-                    "acp"
-                ],
-                "repo:etag": 2,
-                "repo:createdDate": "2020-10-16T05:11:26.815213Z",
-                "repo:lastModifiedDate": "2020-10-16T22:20:20.190006Z",
-                "repo:createdBy": "{CREATED_BY}",
-                "repo:lastModifiedBy": "{MODIFIED_BY}",
-                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
-                "_instance": {
-                    "xdm:name": "Sneakers",
-                    "@id": "xcore:tag:1246d138ec8cca1f"
-                },
-                "_links": {
-                    "self": {
-                        "name": "https://ns.adobe.com/experience/offer-management/tag;version=0.1#0adf2ef0-0f6e-11eb-b3be-9b775f952952",
-                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/0adf2ef0-0f6e-11eb-b3be-9b775f952952",
-                        "@type": "https://ns.adobe.com/experience/offer-management/tag;version=0.1"
-                    }
-                }
-            },
-            {
-                "instanceId": "149e0de0-ff5f-11ea-b017-f98866426d43",
-                "schemas": [
-                    "https://ns.adobe.com/experience/offer-management/tag;version=0.1"
-                ],
-                "productContexts": [
-                    "acp"
-                ],
-                "repo:etag": 1,
-                "repo:createdDate": "2020-09-25T18:44:02.109748Z",
-                "repo:lastModifiedDate": "2020-09-25T18:44:02.109748Z",
-                "repo:createdBy": "{CREATED_BY}",
-                "repo:lastModifiedBy": "{MODIFIED_BY}",
-                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
-                "_instance": {
-                    "xdm:name": "retirement",
-                    "@id": "xcore:tag:122c81d2804e69e3"
-                },
-                "_links": {
-                    "self": {
-                        "name": "https://ns.adobe.com/experience/offer-management/tag;version=0.1#149e0de0-ff5f-11ea-b017-f98866426d43",
-                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/149e0de0-ff5f-11ea-b017-f98866426d43",
-                        "@type": "https://ns.adobe.com/experience/offer-management/tag;version=0.1"
-                    }
-                },
-                "sandboxName": "ode-prod-va7-edge-testing"
-            }
-        ],
-        "total": 11,
-        "count": 2
-    },
+                "created": "2022-09-16T19:00:02.070+00:00",
+            "modified": "2022-09-16T19:00:02.070+00:00",
+            "etag": 1,
+            "schemas": [
+                "https://ns.adobe.com/experience/offer-management/tag;version=0.1"
+            ],
+            "createdBy": "{CREATED_BY}",
+            "lastModifiedBy": "{MODIFIED_BY}",
+            "id": "tag1234",
+            "name": "Sneakers"
+        },
+        {
+            "created": "2022-09-16T19:55:02.168+00:00",
+            "modified": "2022-09-16T19:55:02.168+00:00",
+            "etag": 1,
+            "schemas": [
+                "https://ns.adobe.com/experience/offer-management/tag;version=0.1"
+            ],
+            "createdBy": "{CREATED_BY}",
+            "lastModifiedBy": "{MODIFIED_BY}",
+            "id": "tag5678",
+            "name": "Black Friday"
+        }
+    ],
+    "count": 2,
+    "total": 5,
     "_links": {
         "self": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/tag;version=0.1&limit=2",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
+            "href": "/tags?href={SELF_HREF}&limit=2",
+            "type": "application/json"
         },
         "next": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?start=149e0de0-ff5f-11ea-b017-f98866426d43&orderby=instanceId&schema=https://ns.adobe.com/experience/offer-management/tag;version=0.1&limit=2",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
+            "href": "/tags?href={NEXT_HREF}&limit=2",
+            "type": "application/json"
         }
     }
 }
