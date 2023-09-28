@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
+source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 0%
+source-wordcount: '569'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,10 @@ O painel foi salvo. Suas diferentes alterações serão reaplicadas para um uso 
 
 ## Exportar seus relatórios {#export-reports}
 
-É possível exportar facilmente seus diferentes relatórios para formatos PDF ou CSV, o que permite compartilhá-los ou imprimi-los.
+É possível exportar facilmente seus diferentes relatórios para formatos PDF ou CSV, o que permite compartilhá-los ou imprimi-los. As etapas para exportar relatórios estão detalhadas nas guias abaixo.
+
+➡️ [Descubra este recurso no vídeo](#video-csv)
+
 
 >[!BEGINTABS]
 
@@ -110,3 +113,11 @@ Seu relatório agora está disponível para visualização ou compartilhamento e
 
 
 >[!ENDTABS]
+
+
+### Exportar relatórios (vídeo) {#video-csv}
+
+Saiba como baixar um relatório CSV para um relatório e um único widget no vídeo explicativo a seguir.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424603?quality=12)
+
