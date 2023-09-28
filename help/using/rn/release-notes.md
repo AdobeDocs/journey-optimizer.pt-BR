@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 94ad48537e6c13b17130f9f31d747bd9749e982c
+source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
 workflow-type: tm+mt
-source-wordcount: '4014'
+source-wordcount: '4010'
 ht-degree: 87%
 
 ---
@@ -57,7 +57,7 @@ Além disso, os atributos computados simplificam a segmentação e os fluxos de 
 <p>O recurso Relatório de canal oferece aos analistas e profissionais de marketing uma visão geral abrangente das métricas de tráfego e engajamento no nível do canal.</p>
 <p>Para acessar o <b>Relatório</b> , você deve ter o <b>Exibir Relatórios de Canal</b> permissão.</p>
 <img src="assets/channel-reports.png"/>
-<p>Para obter mais informações, consulte <a href="../reports/channel-report.md">documentação detalhada</a>, e &lt;a href="../reports/channel-report.md#how-to-video-channel-report-video" how-to="" video="" span="" id="2" translate="no" /&gt;.</a></p>
+<p>Para obter mais informações, consulte <a href="../reports/channel-report.md">documentação detalhada</a>, e <a href="../reports/channel-report.md#how-to-video-channel-report-video">vídeo explicativo</a>.</p>
 </tr>
 </tbody>
 </table>
