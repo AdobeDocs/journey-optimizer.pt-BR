@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: ce66888c4de157676e7a09f58beed4b4e237dbfc
+source-git-commit: bee5e067e70e065c9db14448c42224a9ec09c5bf
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '240'
 ht-degree: 7%
 
 ---
@@ -52,7 +52,7 @@ Os parâmetros de consulta mais comuns para paginação incluem:
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `property` | Um filtro de propriedade opcional: <br> <ul> - As propriedades são agrupadas por operação AND. <br><br> - Os parâmetros podem ser repetidos da seguinte maneira: property=<property-expr>[&amp;propriedade=<property-expr2>..] ou property=<property-expr1>[&amp;<property-expr2>..] <br><br> - As expressões de propriedade estão no formato [!]campo[op]valor, com op em [==,!=,&lt;=,>=,&lt;,>,~], suportando expressões regulares | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Um filtro de propriedade opcional: <ul><li> As propriedades são agrupadas por operação AND. <br><br> - Os parâmetros podem ser repetidos da seguinte maneira: property=`<property-expr>`[&amp;propriedade=`<property-expr2>`..] ou property=`<property-expr1>`[&amp;`<property-expr2>`..] <br><br> - As expressões de propriedade estão no formato `[!]field[op]` valor, com op em `[==,!=,'<=',>=,<,>,~]`, suportando expressões regulares  </li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Classificar os resultados por uma propriedade específica. Adicionar um - antes do nome (orderby=-name) classificará os itens pelo nome em ordem decrescente (Z-A). As expressões de caminho estão no formato de caminhos separados por pontos. Esse parâmetro pode ser repetido da seguinte maneira: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limitar o número de entidades retornadas. | `limit=5` |
 
