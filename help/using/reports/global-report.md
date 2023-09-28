@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
+source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -77,20 +77,6 @@ O painel foi salvo. Suas diferentes alterações serão reaplicadas para um uso 
 
 >[!BEGINTABS]
 
->[!TAB Exportar seu relatório como um arquivo PDF]
-
-1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL arquivo PDF]**.
-
-   ![](assets/export_2.png)
-
-1. Na janela Imprimir, configure o documento conforme necessário. Observe que as opções podem variar dependendo do navegador.
-
-1. Escolha imprimir ou salvar seu relatório como PDF.
-
-1. Localize a pasta onde deseja salvar o arquivo, renomeie-a se necessário e clique em Salvar.
-
-Seu relatório agora está disponível para visualização ou compartilhamento em um arquivo pdf.
-
 >[!TAB Exportar seu relatório como um arquivo CSV]
 
 1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL Arquivo CSV]** para gerar um arquivo CSV no nível geral do relatório.
@@ -106,5 +92,21 @@ Seu relatório agora está disponível para visualização ou compartilhamento e
    Se você gerou o arquivo no nível do relatório, ele contém informações detalhadas para cada widget, incluindo seu título e dados.
 
    Se você gerou o arquivo no nível do widget, ele fornece especificamente os dados para o widget selecionado.
+
+>[!TAB Exportar seu relatório como um arquivo PDF]
+
+1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL arquivo PDF]**.
+
+   ![](assets/export_2.png)
+
+1. Na janela Imprimir, configure o documento conforme necessário. Observe que as opções podem variar dependendo do navegador.
+
+1. Escolha imprimir ou salvar seu relatório como PDF.
+
+1. Localize a pasta onde deseja salvar o arquivo, renomeie-a se necessário e clique em Salvar.
+
+Seu relatório agora está disponível para visualização ou compartilhamento em um arquivo pdf.
+
+
 
 >[!ENDTABS]
