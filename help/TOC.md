@@ -5,7 +5,7 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+source-git-commit: c5c7d4d050958fac9b91e2a2a4c4a7a6640d1f06
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 93%
@@ -232,7 +232,6 @@ ht-degree: 93%
 + Canal da Web {#web}
    + [Introdução ao canal Web](using/web/get-started-web.md)
    + [Pré-requisitos do canal web](using/web/web-prerequisites.md)
-   + [Implementação de aplicativos de página única](using/web/web-spa-implementation.md)
    + [Criação de experiências da Web](using/web/create-web.md)
    + Páginas da Web de autor {#author-web-pages}
       + [Editar conteúdo da página da Web](using/web/edit-web-content.md)
@@ -480,6 +479,7 @@ ht-degree: 93%
    + [Suporte para arquivamento](using/configuration/archiving-support.md)
    + [Alterar endereços de execução](using/configuration/primary-email-addresses.md)
    + [Configurar regras de frequência](using/configuration/frequency-rules.md)
+   + [Implementar aplicativos de página única](using/web/web-spa-implementation.md)
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
       + Integrar a sistemas externos {#external-systems}
