@@ -4,17 +4,15 @@ description: Saiba como implementar visualizações do SPA no Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
-level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+level: Intermediate
+source-git-commit: 2c1b53120913580be627b0a26cf4b386f32fcf1b
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '830'
 ht-degree: 2%
 
 ---
 
-# Implementação de aplicativos de página única {#web-spa-implementation}
+# Implementar aplicativos de página única (SPA) {#web-spa-implementation}
 
 O SDK da Web da Adobe Experience Platform fornece recursos avançados que fazem com que sua empresa execute personalização em tecnologias de próxima geração no lado do cliente, como aplicativos de página única (SPA).
 
@@ -24,7 +22,7 @@ Aplicativos da Web modernos, como aplicativos de página única (SPA), adotaram 
 
 ![](assets/web-spa-vs-traditional-lifecycle.png)
 
-## Benefícios do SDK da Web da AEP para SPA
+## Benefícios do SDK da Web da Adobe Experience Platform para SPA {#web-spa-benefits}
 
 Estes são alguns benefícios de usar o SDK da Web da Adobe Experience Platform para seus aplicativos de página única:
 
@@ -32,7 +30,7 @@ Estes são alguns benefícios de usar o SDK da Web da Adobe Experience Platform 
 * Melhore bastante a experiência do usuário no site, pois as ofertas são exibidas imediatamente pelo cache, sem o tempo de atraso introduzido pelas chamadas do servidor tradicional.
 * A configuração de desenvolvedor única permite que os profissionais de marketing criem e executem atividades de personalização e experimentação por meio do editor visual da Web do Adobe Journey Optimizer no seu SPA.
 
-## Exibições XDM e aplicativos de página única
+## Exibições XDM e aplicativos de página única {#web-spa-xdm}
 
 O ADOBE **[!UICONTROL Journey Optimizer]** o editor da web aproveita um conceito chamado visualizações: um grupo lógico de elementos visuais que juntos constituem uma experiência de SPA. Um aplicativo de página única pode, portanto, ser considerado como uma transição entre exibições, em vez de URLs, com base nas interações do usuário. Normalmente, uma exibição pode representar um site inteiro, uma única página ou elementos visuais agrupados em uma página.
 
@@ -91,7 +89,7 @@ Isso requer a execução das seguintes etapas para concluir uma configuração d
 
 Esta seção descreve dois exemplos mostrando como chamar a variável `sendEvent()` função no React para um SPA hipotético de comércio eletrônico.
 
-### Exemplo 1: página inicial de teste A/B
+### Exemplo 1: página inicial de teste A/B {#web-spa-sample-1}
 
 A equipe de marketing deseja executar testes A/B em toda a página inicial.
 
@@ -136,7 +134,7 @@ history.listen(onViewChange);
 <Router history={hashHistory} onUpdate={onViewChange} >
 ```
 
-### Exemplo 2: produtos personalizados
+### Exemplo 2: produtos personalizados {#web-spa-sample-2}
 
 A equipe de marketing deseja personalizar a segunda linha de produtos alterando a cor do rótulo de preço para vermelho depois que um usuário clica para ver todos os produtos masculinos.
 
