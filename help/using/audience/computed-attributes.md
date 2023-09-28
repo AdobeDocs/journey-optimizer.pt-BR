@@ -6,9 +6,9 @@ description: Saiba como trabalhar com atributos computados.
 feature: Profiles
 role: User
 level: Beginner
-source-git-commit: d2619b3b3871073b35faf04adba71dbb1ddd29a1
+source-git-commit: 608394da88d42095a1adc517a067c725eac52707
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '546'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Cada atributo calculado é um atributo de perfil que você pode aproveitar para 
 
 Para criar atributos calculados, navegue até o **[!UICONTROL Atributos computados]** na guia **[!UICONTROL Perfis]** localizado no lado esquerdo.
 
-Nessa tela, você pode construir atributos calculados construindo regras que combinam atributos de evento, funções agregadas, juntamente com um período de pesquisa especificado. Por exemplo, você pode calcular a soma das compras feitas nos últimos três meses, identificar o item mais recente visualizado por um perfil com quem não fez uma compra na última semana ou calcular o total de pontos de premiação acumulados por cada perfil.
+Nessa tela, você pode construir atributos calculados construindo regras que combinam atributos de evento, funções agregadas, juntamente com um período de pesquisa especificado. Por exemplo, você pode calcular a soma das compras feitas nos últimos três meses, identificar o item mais recente visualizado por um perfil que não fez uma compra na última semana ou calcular o total de pontos de premiação acumulados por cada perfil.
 
 ![](assets/computed-attributes.png)
 
