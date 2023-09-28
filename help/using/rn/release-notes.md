@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6230eb26ca577398c09465207b27e87ea3d813d2
+source-git-commit: 94ad48537e6c13b17130f9f31d747bd9749e982c
 workflow-type: tm+mt
-source-wordcount: '4069'
-ht-degree: 86%
+source-wordcount: '4014'
+ht-degree: 87%
 
 ---
 
@@ -21,11 +21,8 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
-## Notas de versão antecipadas de setembro de 2023 {#sept-rn-2023}
 
-As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento. Links, telas e documentação atualizada são publicados na data de lançamento.
-
-**Data de lançamento**: 26 a 27 de setembro de 2023
+## Notas de versão de setembro de 2023 {#sept-rn-2023}
 
 ### Novos recursos{#sept-2023-features}
 
@@ -41,8 +38,8 @@ Essa versão traz os novos recursos listados abaixo.
 <tr>
 <td>
 <p>Os atributos computados permitem resumir facilmente os dados do evento em atributos de perfil por meio de uma interface de usuário intuitiva para segmentação, personalização e ativação avançadas com base em comportamento. Com esse recurso, você pode criar atributos computados de maneira automatizada, gerenciá-los e usá-los na segmentação, destinos de Perfil do cliente em tempo real ou Journey Optimizer.<br/><br/>
-Além disso, os atributos computados simplificam a segmentação e os fluxos de trabalho de jornada para ajudá-lo a fornecer experiências relevantes de maneira contínua. Saiba mais na <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">documentação detalhada</a>.</p>
-<img src="assets/computed-attributes.png">
+Além disso, os atributos computados simplificam a segmentação e os fluxos de trabalho de jornada para ajudá-lo a fornecer experiências relevantes de maneira contínua. Saiba mais na <a href="../audience/computed-attributes.md">documentação detalhada</a>.</p>
+<img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
 </table>
@@ -57,9 +54,10 @@ Além disso, os atributos computados simplificam a segmentação e os fluxos de 
 <tbody>
 <tr>
 <td>
-<p>O recurso Relatório de canal oferece aos analistas e profissionais de marketing uma visão geral abrangente das métricas de tráfego e engajamento no nível do canal. Para acessar o menu 'Relatório', você deve ter a permissão 'Exibir relatórios do canal'.</p>
+<p>O recurso Relatório de canal oferece aos analistas e profissionais de marketing uma visão geral abrangente das métricas de tráfego e engajamento no nível do canal.</p>
+<p>Para acessar o <b>Relatório</b> , você deve ter o <b>Exibir Relatórios de Canal</b> permissão.</p>
 <img src="assets/channel-reports.png"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Para obter mais informações, consulte <a href="../reports/channel-report.md">documentação detalhada</a>, e &lt;a href="../reports/channel-report.md#how-to-video-channel-report-video" how-to="" video="" span="" id="2" translate="no" /&gt;.</a></p>
 </tr>
 </tbody>
 </table>
@@ -76,7 +74,7 @@ Além disso, os atributos computados simplificam a segmentação e os fluxos de 
 <td>
 <p>A exportação de conjuntos de dados do Journey Optimizer para Destinos de armazenamento na nuvem agora está disponível para o público em geral. Com esse recurso, é possível estabelecer uma conexão ativa com locais de armazenamento na nuvem para exportar o conteúdo dos conjuntos de dados.</p>
 <img src="../data/assets/dataset-export-setup.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>Para obter mais informações, consulte a <a href="../data/export-datasets.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -101,50 +99,52 @@ Além disso, os atributos computados simplificam a segmentação e os fluxos de 
 
 Esta versão vem com as melhorias listadas abaixo.
 
-<!--**Audiences**
+<!--**Personalization**
 
-* You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* You can now target audiences resulting from composition workflows into journeys. -->
+* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.-->
 
-**Personalização**
+<!--
+**Alerting**
 
-* Além dos fragmentos visuais, agora é possível criar, salvar e reutilizar fragmentos de expressão da interface do Journey Optimizer por meio do Editor de expressão. Os fragmentos de expressão substituem as expressões salvas anteriormente.
-
-**Alertas**
-
-* Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando um público-alvo de leitura falhar.
+* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->
 
 **Canal da Web**
 
-* Agora, os aplicativos de página única (SPA) podem ser criados no editor visual da Web. Agora é possível selecionar a quais exibições específicas você deseja aplicar as modificações da página da Web. Uma exibição pode ser definida como um site inteiro ou um grupo de elementos visuais em um site, como a página inicial, o site de produtos inteiro ou o quadro de preferências de entrega em todas as páginas de check-out. É necessária uma configuração de desenvolvedor única para definir as exibições na implementação do SDK da Web da Adobe Experience Platform. Isso permite que os profissionais de marketing criem e executem campanhas da Web do Adobe Journey Optimizer no SPA.
+* Agora, os aplicativos de página única (SPA) podem ser criados no editor visual da Web, o que permite selecionar em quais exibições específicas você deseja aplicar as modificações da página da Web. Uma exibição pode ser definida como um site inteiro ou um grupo de elementos visuais em um site, como a página inicial, o site de produtos inteiro ou o quadro de preferências de entrega em todas as páginas de check-out. É necessária uma configuração de desenvolvedor única para definir as exibições na implementação do SDK da Web da Adobe Experience Platform. Isso permite que os profissionais de marketing criem e executem campanhas da Web do Adobe Journey Optimizer no SPA. [Saiba mais](../web/web-spa.md)
 
-* Ao editar uma página usando o web designer, agora é possível adicionar novas alterações ao conteúdo diretamente do painel Modificações, sem a necessidade de selecionar um componente e editá-lo na interface do designer.
-* Ao configurar subdomínios da Web, agora há a opção de adicionar seu próprio subdomínio, além de usar um subdomínio já delegado ao Adobe.
+* Ao editar uma página usando o web designer, agora é possível adicionar novas alterações ao conteúdo diretamente do painel Modificações, sem a necessidade de selecionar um componente e editá-lo na interface do designer. [Saiba mais](../web/manage-web-modifications.md#add-modifications)
+
+* Ao configurar subdomínios da Web, agora há a opção de adicionar seu próprio subdomínio, além de usar um subdomínio já delegado ao Adobe. [Saiba mais](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **Jornadas**
 
-* O suporte a respostas de ação personalizadas agora está disponível. Isso permite aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. Além disso, foi adicionada uma nova garantia para limitar todas as ações aduaneiras a 5000 chamadas/s por ponto de extremidade.
-* Ao duplicar uma jornada, agora é possível definir o nome da cópia da jornada.
+Ao duplicar uma jornada, agora é possível definir o nome da cópia da jornada. [Saiba mais](../building-journeys/journey-gs.md#uplicate-a-journey)
+
 
 <!--
+* Support of custom action responses is now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s per endpoint.
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
 **Canal de email**
 
-Uma nova opção na configuração da superfície de email permite optar por enviar mensagens transacionais para perfis mesmo se os endereços de email estiverem na lista de supressão do Adobe Journey Optimizer.
+Uma nova opção na configuração da superfície de email permite optar por enviar mensagens transacionais para perfis mesmo se os endereços de email estiverem no Adobe [!DNL Journey Optimizer] lista de supressão. [Saiba mais](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **Canal SMS**
 
-Dois novos campos, **Mensagem de Opt-in** e **Mensagem de ajuda**, foram adicionados à tela Configuração de API, permitindo que os usuários personalizem respostas para palavras-chave de entrada. Observe que isso só está disponível para o provedor de SMS Sinch.
+Dois novos campos, **Mensagem de Opt-in** e **Mensagem de ajuda**, foram adicionados à tela Configuração de API, permitindo que os usuários personalizem respostas para palavras-chave de entrada. Observe que isso só está disponível para o provedor de SMS Sinch. [Saiba mais](../sms/sms-configuration.md)
 
 **Canal de correspondência direta**
 
-Agora você pode criptografar arquivos destinados aos seus provedores de correspondência direta quando eles são transferidos para um servidor. Para fazer isso, um novo campo está disponível na tela de configuração de roteamento de arquivos, permitindo copiar e colar sua chave de criptografia.
+Agora você pode criptografar arquivos destinados aos seus provedores de correspondência direta quando eles são transferidos para um servidor. Para fazer isso, um novo campo está disponível na tela de configuração de roteamento de arquivos, permitindo copiar e colar sua chave de criptografia. [Saiba mais](../direct-mail/direct-mail-configuration.md)
 
 **Relatórios**
 
-Agora você pode exportar relatórios do Journey Optimizer como um arquivo CSV. <!--[Learn more](../reports/global-report.md#export-reports)-->
+Agora você pode exportar relatórios do Journey Optimizer como um arquivo CSV. [Saiba mais](../reports/global-report.md#export-reports)
+
+**Ativos**
+
+Uma nova opção do Assets permite escolher o repositório dos ativos no Journey Optimizer. Você pode optar por um repositório Assets Essentials ou as a Cloud Service do Assets, desde que seja o proprietário dessa solução. [Saiba mais](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
