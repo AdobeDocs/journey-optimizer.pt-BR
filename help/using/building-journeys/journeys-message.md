@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 22%
+source-wordcount: '1108'
+ht-degree: 18%
 
 ---
 
@@ -119,6 +119,24 @@ Essas informações são armazenadas com o perfil do usuário e são referenciad
 >[!CAUTION]
 >
 >Este recurso não é compatível com o modo de intermitência.
+
+### Perguntas frequentes {#faq-send-time}
+
+O que a Otimização de tempo de envio pode fazer? Como ele lida com novos perfis? Ele espalha o envio por uma janela de 12/6/24 horas?
+
+A Otimização de tempo de envio tenta prever o melhor momento para interagir com os clientes e otimizar as taxas de abertura/clique de emails. A pontuação está em um formato de `3*7*24` atributos para cada perfil. A variável `7*24` os atributos descrevem a classificação do melhor momento previsto para enviar emails para o recipient e o 3 é para otimizar a taxa de abertura de emails, a taxa de cliques de email e a taxa de abertura de push.
+
+Onde posso ver o tempo de envio esperado para cada perfil?
+
+Você pode ver a pontuação geral no **Perfis** interface. Para cada um dos três conjuntos de 168 pontuações, as posições vão de -83 a 84. Quanto maior a classificação, melhor o tempo foi escolhido para interagir com o recipient. Como é possível definir o início e a duração de uma jornada, a melhor classificação (84) pode não cair nessa janela de tempo. Nesse caso, recomendamos escolher uma hora com o valor de classificação mais alto.
+
+Quais relatórios estão disponíveis?
+
+Acesse sua jornada, clique no link **Exibir relatório** no canto superior direito e selecione o botão **Jornada** à esquerda. [Leia mais](../reports/journey-global-report.md)
+
+Como os dados da Otimização de tempo de envio afetam a riqueza do perfil?
+
+A Otimização de tempo de envio adiciona a pontuação/atributos a cada perfil, mas nenhum perfil novo é criado.
 
 ### Ativar otimização da hora de envio{#activate-send-time-optimization}
 

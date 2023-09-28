@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: qualificação, eventos, público-alvo, jornada, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '970'
 ht-degree: 10%
 
 ---
@@ -31,14 +31,17 @@ Digamos que você tenha um público-alvo de “cliente prata”. Com essa ativid
 
 Esse tipo de evento pode ser posicionado como a primeira etapa ou posteriormente na jornada.
 
->[!IMPORTANT]
->
->Lembre-se de que os públicos-alvo da Adobe Experience Platform são calculados uma vez por dia (**lote** públicos) ou em tempo real (**transmitido** públicos-alvo, usando a opção Públicos-alvo de alta frequência do Adobe Experience Platform).
->
->Se o público-alvo selecionado for transmitido, os indivíduos que pertencem a esse público-alvo potencialmente entrarão na jornada em tempo real. Se o público-alvo for em lote, as pessoas recém-qualificadas para esse público-alvo potencialmente inserirão a jornada quando o cálculo do público-alvo for executado no Adobe Experience Platform.
->
->Os grupos de campos de evento de experiência não podem ser usados em jornadas que comecem com atividades de Público-alvo de leitura, de Qualificação de público-alvo ou de evento comercial.
+### Observações importantes{#important-notes-segment-qualification}
 
+* Lembre-se de que os públicos-alvo da Adobe Experience Platform são calculados uma vez por dia (**lote** públicos) ou em tempo real (**transmitido** públicos-alvo, usando a opção Públicos-alvo de alta frequência do Adobe Experience Platform).
+
+* Se o público-alvo selecionado for transmitido, os indivíduos que pertencem a esse público-alvo potencialmente entrarão na jornada em tempo real. Se o público-alvo for em lote, as pessoas recém-qualificadas para esse público-alvo potencialmente inserirão a jornada quando o cálculo do público-alvo for executado no Adobe Experience Platform.
+
+* Os grupos de campos de evento de experiência não podem ser usados em jornadas que comecem com atividades de Público-alvo de leitura, de Qualificação de público-alvo ou de evento comercial.
+
+* Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até 10 minutos para ficar ativa e ouvir os perfis que entram ou saem do público-alvo.
+
+### Configurar a atividade{#cnfigure-segment-qualification}
 
 1. Expanda o **[!UICONTROL Eventos]** categoria e solte um **[!UICONTROL Qualificação do público-alvo]** atividade na tela.
 

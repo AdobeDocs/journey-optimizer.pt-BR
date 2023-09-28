@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 26%
+source-wordcount: '1689'
+ht-degree: 25%
 
 ---
 
@@ -184,8 +184,8 @@ Para fazer isso, siga as etapas abaixo:
 
    ![Duplicar uma jornada](assets/duplicate-jo.png)
 
-<!--1. Enter the name of the journey and confirm. 
+1. Insira o nome da jornada e confirme. Você também pode alterar o nome na tela de propriedades da jornada. Por padrão, o nome é definido da seguinte maneira: `[JOURNEY-NAME]_copy`
 
-    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+   ![](assets/duplicate-jo2.png)
 
 1. A nova jornada é criada e está disponível na lista de jornadas.

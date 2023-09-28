@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 11%
+source-wordcount: '1505'
+ht-degree: 12%
 
 ---
 
@@ -114,7 +114,7 @@ Ao acionar um evento, a variável **Configuração do evento** permite definir o
 
 ## Modo de teste para eventos comerciais {#test-business}
 
-Ao usar uma [evento comercial](../event/about-events.md), use o modo de teste para acionar uma única entrada de perfil de teste na jornada, simular o evento e passar a ID de perfil correta. Você precisa passar os parâmetros de evento e o identificador do perfil de teste que inserirá a jornada em teste. Você não pode usar o **[!UICONTROL Até 100 perfis de uma só vez]** que existe para outras jornadas baseadas em público-alvo. No modo de teste, não há modo de &quot;Visualização de código&quot; disponível para jornadas com base em eventos comerciais.
+Ao usar uma [evento comercial](../event/about-events.md), use o modo de teste para acionar uma única entrada de perfil de teste na jornada, simular o evento e passar a ID de perfil correta. Você precisa passar os parâmetros de evento e o identificador do perfil de teste que inserirá a jornada em teste. No modo de teste, não há modo de &quot;Visualização de código&quot; disponível para jornadas com base em eventos comerciais.
 
 Observe que, quando você aciona um evento de negócios pela primeira vez, não é possível alterar a definição do evento de negócios na mesma sessão de teste. Você só pode fazer com que a mesma pessoa ou uma pessoa diferente insira a jornada que passa o mesmo ou outro identificador. Se quiser alterar os parâmetros do evento comercial, você deverá interromper e iniciar novamente o modo de teste.
 

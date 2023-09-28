@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: cb5f3b042c1902add9b22d28eb24e2b6e8f1a20b
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 28%
+source-wordcount: '639'
+ht-degree: 26%
 
 ---
 
@@ -62,6 +62,8 @@ Esta é a estrutura básica de uma configuração de endpoint:
 >A variável **maxHttpConnections** é opcional. Ela permite restringir o número de conexões que o Journey Optimizer abrirá com o sistema externo.
 >
 >O valor máximo que pode ser definido é 400. Se nada for especificado, o sistema poderá abrir até vários milhares de conexões, dependendo do dimensionamento dinâmico do sistema.
+>
+>Quando a configuração de limitação é implantada, se nenhum valor &quot;maxHttpConnection&quot; for fornecido, um &quot;maxHttpConnection = -1&quot; padrão será adicionado à configuração implantada, significando que o Journey Optimizer usará o valor do sistema padrão.
 
 ### Exemplo:
 
@@ -73,14 +75,12 @@ Esta é a estrutura básica de uma configuração de endpoint:
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 50,
       "rating": {
         "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
-  },
-  "orgId": "<IMS Org Id>"
+  }
 }
 ```
 

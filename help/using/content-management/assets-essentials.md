@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: assets, essentials, experience manager, integração
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 1f4a49f9fc53cea21391d0e77bc151ebf84cc4f9
+source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 19%
+source-wordcount: '522'
+ht-degree: 17%
 
 ---
 
@@ -44,6 +44,19 @@ Para obter mais informações sobre como fazer upload de ativos, consulte [Docum
 1. De [!DNL Adobe Journey Optimizer] , selecione a **[!UICONTROL Assets]** na guia **[!UICONTROL Gestão de conteúdo]** menu para acessar [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
+
+1. Escolha o repositório dos ativos no Journey Optimizer. Você pode optar por um repositório Assets Essentials ou as a Cloud Service do Assets, desde que seja o proprietário dessa solução.
+
+   ![](assets/media_library_4.png)
+
++++
+Saiba como alternar o repositório de ativos.
+
+   Para alterar o repositório do Assets, selecione o ícone Conta no canto superior direito e clique em **[!UICONTROL Selecionar repositório]**.
+
+   ![](assets/media_library_3.png)
+
++++
 
 1. Clique duas vezes em uma pasta na seção central ou na exibição em árvore para abri-la.
 

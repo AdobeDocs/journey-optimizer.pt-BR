@@ -8,9 +8,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 398b5ac6-0bdc-402f-8b13-7edd9b524808
+source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '823'
 ht-degree: 5%
 
 ---
@@ -114,7 +115,7 @@ Se você tiver uma implementação do lado do servidor, poderá usar uma da API 
 ### Como funciona
 
 1. A página da Web é solicitada e todos os cookies armazenados anteriormente pelo navegador com o prefixo `kndctr_` estão incluídos.
-1. Quando a página é solicitada no servidor de aplicativos, um evento é enviado para o [ponto de extremidade de coleção de dados interativa](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en) para buscar conteúdo de personalização. Este aplicativo de amostra usa alguns métodos auxiliares para simplificar a criação e o envio de solicitações para a API (consulte [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Mas o pedido é simplesmente um `POST` com uma carga que contém um evento e uma consulta. Os cookies (se disponíveis) da etapa anterior estão incluídos com a solicitação na `meta>state>entries` matriz.
+1. Quando a página é solicitada no servidor de aplicativos, um evento é enviado para o [ponto de extremidade de coleção de dados interativa](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) para buscar conteúdo de personalização. Este aplicativo de amostra usa alguns métodos auxiliares para simplificar a criação e o envio de solicitações para a API (consulte [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Mas o pedido é simplesmente um `POST` com uma carga que contém um evento e uma consulta. Os cookies (se disponíveis) da etapa anterior estão incluídos com a solicitação na `meta>state>entries` matriz.
 
    ```javascript
    fetch(
@@ -275,4 +276,3 @@ Se você tiver uma implementação híbrida, verifique os links abaixo.
 
 * Blog da Adobe Tech: [Personalização híbrida no SDK da Web do Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * Documentação do SDK: [Personalização híbrida usando o SDK da Web e a API do servidor de rede de borda](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
-

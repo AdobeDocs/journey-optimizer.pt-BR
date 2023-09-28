@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
+source-git-commit: 280e311ca4515d2147f451af0fffbe6d5fc8029c
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 32%
+source-wordcount: '914'
+ht-degree: 31%
 
 ---
 
@@ -22,7 +22,7 @@ Quando [criação de uma mensagem de correspondência direta](../direct-mail/cre
 
 Antes de poder gerar esse arquivo, é necessário criar:
 
-1. A [configuração de roteamento de arquivos](#file-routing-configuration) para especificar o servidor para o qual o arquivo será exportado.
+1. A [configuração de roteamento de arquivos](#file-routing-configuration) para especificar o servidor para o qual o arquivo será exportado e criptografar o arquivo, se necessário.
 
 1. A [superfície de correspondência direta](#direct-mail-surface) que referenciará a configuração de roteamento de arquivos.
 
@@ -89,6 +89,8 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
    >[!NOTE]
    >
    >As regiões do AWS são áreas geográficas que o AWS usa para hospedar sua infraestrutura em nuvem. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta.
+
+1. Para criptografar o arquivo, copie e cole sua chave de criptografia na **[!UICONTROL Chave de criptografia PGP/GPG]** campo.
 
 1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos é criada com o **[!UICONTROL Ativo]** status. Agora ele está pronto para ser usado em um [superfície de correspondência direta](#direct-mail-surface).
 

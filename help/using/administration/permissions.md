@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: produto, perfis, sandbox
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '764'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
-> Cada um dos procedimentos a seguir especificados só pode ser executado por um **[!UICONTROL Produto]** ou **[!UICONTROL Sistema]** administrador. Para obter mais informações, consulte [Documentação do Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
+> Cada um dos procedimentos a seguir especificados só pode ser executado por um **[!UICONTROL Produto]** ou **[!UICONTROL Sistema]** administrador.
 
 **[!UICONTROL Funções]** consulte uma coleção de usuários que compartilham as mesmas permissões e sandboxes. Essas funções permitem gerenciar facilmente o acesso e as permissões para diferentes grupos de usuários em sua organização.
 
@@ -48,13 +48,13 @@ Para atribuir um **[!UICONTROL Função]**:
 
 1. Digite o nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
 
-   Se o usuário não tiver sido criado anteriormente na variável [!DNL Admin Console], consulte o [Adicionar documentação de usuários](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   Se o usuário não tiver sido criado anteriormente na variável [!DNL Admin Console], consulte o [Adicionar documentação de usuários](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html).
 
    ![](assets/do-not-localize/access_control_4.png)
 
 O usuário deve receber um email de redirecionamento para sua instância.
 
-Para obter mais informações sobre o gerenciamento de usuários, consulte [Documentação do Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
+Para obter mais informações sobre o gerenciamento de usuários, consulte [Documentação de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR).
 
 Ao acessar a instância, o usuário verá uma visualização específica, dependendo das permissões atribuídas no **[!UICONTROL Função]**. Se o usuário não tiver o acesso correto a um recurso, a seguinte mensagem será exibida:
 
@@ -125,4 +125,4 @@ Para criar o nosso **Jornada somente leitura** **[!UICONTROL Função]**:
 
 Seu **[!UICONTROL Função]** O agora é criado e configurado. Agora é necessário atribuí-lo aos usuários.
 
-Para obter mais informações sobre criação e gerenciamento de funções, consulte [Documentação do Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=pt-BR).
+Para obter mais informações sobre criação e gerenciamento de funções, consulte [Documentação do Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).

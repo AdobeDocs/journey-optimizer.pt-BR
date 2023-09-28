@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
 workflow-type: tm+mt
-source-wordcount: '1967'
-ht-degree: 12%
+source-wordcount: '2258'
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ A configuração da superfície de email é selecionada para envio de comunicaç
 >title="Definir a categoria de email"
 >abstract="Selecione o tipo de email que será enviado usando essa superfície: Marketing para emails promocionais, que exigem consentimento do usuário, ou Transacional para emails não comerciais, que também podem ser enviados para perfis sem assinatura em contextos específicos."
 
-No **TIPO DE EMAIL** selecione o tipo de mensagem que será enviada com a superfície: **Marketing** ou **Transacional**.
+No **TIPO DE EMAIL** selecione o tipo de mensagem que será enviada com a superfície: **[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**.
 
 * Escolher **Marketing** para email promocional, como promoções semanais para uma loja de varejo. Essas mensagens exigem o consentimento do usuário.
 
@@ -182,6 +182,36 @@ Além disso, ao definir a variável **[!UICONTROL Email com Cco]** , certifique-
 
 Se você receber um erro ao enviar a superfície de email, significa que o registro MX não está configurado para o subdomínio do endereço inserido. Entre em contato com o administrador para configurar o registro MX correspondente ou use outro endereço com uma configuração de registro MX válida.
 
+## Envio para endereços de email suprimidos {#send-to-suppressed-email-addresses}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_suppressed_addresses"
+>title="Substituir precedência da lista de supressão"
+>abstract="Você pode decidir enviar mensagens transacionais a perfis mesmo se os seus endereços de email estiverem na lista de supressão do Adobe Journey Optimizer devido a uma reclamação de spam. Essa opção está desabilitada por padrão."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="Gerenciar a lista de supressão"
+
+>[!IMPORTANT]
+>
+>Essa opção só estará disponível se você tiver selecionado a opção **[!UICONTROL Transacional]** tipo de email. [Saiba mais](#email-type)
+
+Entrada [!DNL Journey Optimizer], todos os endereços de email marcados como rejeições permanentes, rejeições temporárias e reclamações de spam são automaticamente coletados na [lista de supressão](../configuration/manage-suppression-list.md) e excluído do envio de uma jornada ou campanha.
+
+No entanto, você pode decidir continuar enviando mensagens do **transacional** digite para perfis mesmo se os endereços de email estiverem na lista de supressão devido à reclamação de spam do usuário.
+
+Na verdade, as mensagens transacionais geralmente contêm informações úteis e esperadas, como uma confirmação de pedido ou uma notificação de redefinição de senha. Portanto, mesmo que eles tenham relatado uma de suas mensagens de marketing como spam, na maioria das vezes você deseja que seus clientes recebam esse tipo de email não comercial.
+
+Para incluir endereços de email suprimidos devido a reclamação de spam no público-alvo da mensagem transacional, selecione a opção correspondente nas **[!UICONTROL Enviar para endereços de email suprimidos]** seção.
+
+![](assets/preset-suppressed-email-addresses.png)
+
+>[!NOTE]
+>
+>Essa opção está desabilitada por padrão.
+
+Como prática recomendada de delivery, essa opção é desabilitada por padrão para garantir que os clientes que optaram por não ser contatados. No entanto, você pode alterar essa opção padrão, que permite enviar mensagens transacionais para seus clientes.
+
+Quando essa opção estiver habilitada, embora um cliente tenha marcado seu email de marketing como spam, ele poderá receber suas mensagens transacionais usando a superfície atual. Sempre gerencie as preferências de recusa de acordo com as práticas recomendadas de capacidade de delivery.
+
 ## Seed list {#seed-list}
 
 >[!CONTEXTUALHELP]
@@ -189,7 +219,7 @@ Se você receber um erro ao enviar a superfície de email, significa que o regis
 >title="Adicionar uma lista de sementes"
 >abstract="Selecione uma lista de sementes de sua escolha para adicionar automaticamente endereços internos específicos aos seus públicos-alvo. Esses seed addresses serão incluídos na hora da execução da tarefa e receberão uma cópia exata da mensagem para fins de garantia."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=pt-BR#use-seed-list" text="O que são listas de sementes?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=pt-BR#create-seed-list" text="Criar uma lista de sementes"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#create-seed-list" text="Criar uma lista de sementes"
 
 
 Uma lista de propagação em [!DNL Journey Optimizer] permite incluir automaticamente seed addresses de email específicos em seus deliveries. [Saiba mais](../configuration/seed-lists.md)

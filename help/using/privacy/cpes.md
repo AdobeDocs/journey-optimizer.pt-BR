@@ -7,10 +7,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 58223b4b6e6e2ef5b7fc23c5b475e74ad72d0d13
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 100%
+source-wordcount: '583'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ Para criar um público-alvo dividido na composição do público-alvo, siga esta
 
 1. No Caminho 1 - escolha um rótulo para ajudar a definir o público-alvo não personalizado.
 
-1. Escolha o valor apropriado na lista: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values
+1. Escolha o valor apropriado na lista: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values
 
    Nesse caso, usaremos um “n” para indicar NÃO como recusa da personalização
 

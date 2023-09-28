@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 15%
+source-wordcount: '1277'
+ht-degree: 12%
 
 ---
 
@@ -34,6 +34,16 @@ As ações personalizadas vêm com algumas limitações listadas na [esta págin
 Em parâmetros de ação personalizados, você pode passar uma coleção simples, bem como uma coleção de objetos. Saiba mais sobre as limitações de coleção no [esta página](../building-journeys/collections.md#limitations).
 
 Observe também que os parâmetros de ações personalizadas têm um formato esperado (por exemplo: sequência, decimal etc.). Você deve ter cuidado para respeitar esses formatos esperados. Saiba mais nesta página [caso de uso](../building-journeys/collections.md).
+
+## Práticas recomendadas{#custom-action-enhancements-best-practices}
+
+Um limite de 5.000 chamadas/s é definido para todas as ações personalizadas. Esse limite foi definido com base no uso pelos clientes, para proteger endpoints externos direcionados por ações personalizadas. Você precisa considerar isso nas jornadas baseadas em público-alvo definindo uma taxa de leitura apropriada (5000 perfis/s quando ações personalizadas forem usadas). Se necessário, é possível substituir essa configuração definindo um limite máximo ou limite maior por meio das APIs de Limite/Limitação. Consulte [esta página](../configuration/external-systems.md).
+
+Você não deve direcionar endpoints públicos com ações personalizadas por vários motivos:
+
+* Sem limitação ou limitação adequada, há o risco de enviar muitas chamadas para um endpoint público que pode não suportar esse volume.
+* Os dados do perfil podem ser enviados por meio de ações personalizadas, portanto, o direcionamento a um endpoint público pode levar ao compartilhamento externo inadvertido de informações pessoais.
+* Você não tem controle sobre os dados que estão sendo retornados por pontos de extremidade públicos. Se um endpoint alterar sua API ou começar a enviar informações incorretas, elas serão disponibilizadas nas comunicações enviadas, com possíveis impactos negativos.
 
 ## Consentimento e governança de dados {#privacy}
 
@@ -70,11 +80,11 @@ Estas são as principais etapas necessárias para configurar uma ação personal
    >
    >Quando uma ação personalizada é usada em uma jornada, a maioria dos parâmetros é somente leitura. Você só pode modificar a variável **[!UICONTROL Nome]**, **[!UICONTROL Descrição]**, **[!UICONTROL URL]** e os **[!UICONTROL Autenticação]** seção.
 
-## Configurar o URL {#url-configuration}
+## Configuração do endpoint {#url-configuration}
 
-Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UICONTROL Configuração de URL]** parâmetros:
+Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UICONTROL Configuração do endpoint]** parâmetros:
 
-![](assets/journeyurlconfiguration.png)
+![](assets/action-response1bis.png){width="70%" align="left"}
 
 1. No **[!UICONTROL URL]** especifique o URL do serviço externo:
 
@@ -92,7 +102,7 @@ Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UIC
    >
    >Somente as portas padrão são permitidas ao definir uma ação personalizada: 80 para http e 443 para https.
 
-1. Selecionar a chamada **[!UICONTROL Método]**: pode ser **[!UICONTROL POST]** ou **[!UICONTROL PUT]**.
+1. Selecionar a chamada **[!UICONTROL Método]**: pode ser **[!UICONTROL POST]**, **[!UICONTROL GET]** ou **[!UICONTROL PUT]**.
 
    >[!NOTE]
    >
@@ -118,11 +128,17 @@ Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UIC
    >
    >Os cabeçalhos são validados de acordo com as regras de análise de campo. Saiba mais em [esta documentação](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## Definir os parâmetros de ação {#define-the-message-parameters}
+## Definir os parâmetros de carga {#define-the-message-parameters}
 
-No **[!UICONTROL Parâmetros de ação]** cole um exemplo da carga JSON para enviar ao serviço externo.
+1. No **[!UICONTROL Solicitação]** cole um exemplo da carga JSON para enviar ao serviço externo. Esse campo é opcional e só está disponível para métodos de chamada POST e PUT.
 
-![](assets/messageparameterssection.png)
+1. No **[!UICONTROL Resposta]** cole um exemplo da carga útil retornada pela chamada. Este campo é opcional e está disponível para todos os métodos de chamada. Para obter informações detalhadas sobre como aproveitar as respostas de chamada da API em ações do cliente, consulte [esta página](../action/action-response.md).
+
+>[!NOTE]
+>
+>O recurso de resposta está disponível atualmente na versão beta.
+
+![](assets/action-response2bis.png){width="70%" align="left"}
 
 >[!NOTE]
 >

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 11%
@@ -27,7 +27,7 @@ Para acessar e criar páginas da Web na [!DNL Journey Optimizer] siga os pré-re
 
 * Atualmente em [!DNL Journey Optimizer] você só pode criar experiências da web no **campanhas**. [Saiba mais](../campaigns/create-campaign.md#configure)
 
-* [!DNL Journey Optimizer] as campanhas da web têm como alvo novos perfis que não foram engajados antes em outros canais. Isso aumentará a contagem total de perfis utilizáveis, o que pode ter implicações de custo se o número contratual de perfis utilizáveis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas no [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html) página.
+* [!DNL Journey Optimizer] as campanhas da web têm como alvo novos perfis que não foram engajados antes em outros canais. Isso aumentará a contagem total de perfis utilizáveis, o que pode ter implicações de custo se o número contratual de perfis utilizáveis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas no [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} página.
 
 
 >[!AVAILABILITY]

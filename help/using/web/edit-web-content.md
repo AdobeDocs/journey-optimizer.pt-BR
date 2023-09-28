@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 17%
+source-wordcount: '1114'
+ht-degree: 16%
 
 ---
 
@@ -166,6 +166,8 @@ Você pode trocar do padrão **[!UICONTROL Design]** para o modo **[!UICONTROL P
 No **[!UICONTROL Procurar]** , você pode navegar para a página exata a partir da superfície selecionada que deseja personalizar.
 
 É especialmente útil ao lidar com páginas que estão por trás da autenticação ou que não estão disponíveis desde o início em um determinado URL. Por exemplo, você poderá se autenticar, navegar até a página da sua conta ou até a página do carrinho e voltar para **[!UICONTROL Design]** para executar as alterações na página desejada.
+
+Usar **[!UICONTROL Procurar]** O modo de também permite navegar por todas as exibições do site ao criar aplicativos de página única. [Saiba mais](web-spa.md)
 
 ### Alterar tamanho do dispositivo {#change-device-size}
 

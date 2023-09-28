@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: caso de uso, vários canais, mensagens, jornada, canal, eventos, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '850'
 ht-degree: 1%
 
 ---
@@ -115,6 +115,6 @@ Agora o evento está configurado e pronto para ser usado no jornada. Usando a at
 
 1. Antes de testar a jornada, verifique se ela é válida e se não há erros.
 
-1. Clique no link **Teste** alternar, localizado no canto superior direito, para ativar o modo de teste. Defina como deseja que os perfis de teste entrem no teste: um único perfil ou até 100 de uma vez. Consulte esta [seção](testing-the-journey.md) para saber como usar o modo de teste.
+1. Clique no link **Teste** alternar, localizado no canto superior direito, para ativar o modo de teste. Consulte esta [seção](testing-the-journey.md) para saber como usar o modo de teste.
 
 1. Quando a jornada estiver pronta, publique-a usando o **Publish** localizado no canto superior direito.

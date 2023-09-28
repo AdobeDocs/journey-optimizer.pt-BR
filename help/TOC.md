@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 94%
+source-wordcount: '1521'
+ht-degree: 93%
 
 ---
 
@@ -232,11 +232,13 @@ ht-degree: 94%
 + Canal da Web {#web}
    + [Introdução ao canal Web](using/web/get-started-web.md)
    + [Pré-requisitos do canal web](using/web/web-prerequisites.md)
+   + [Implementação de aplicativos de página única](using/web/web-spa-implementation.md)
    + [Criação de experiências da Web](using/web/create-web.md)
    + Páginas da Web de autor {#author-web-pages}
       + [Editar conteúdo da página da Web](using/web/edit-web-content.md)
       + [Gerenciar modificações](using/web/manage-web-modifications.md)
       + [Monitorar suas campanhas da Web](using/web/monitor-web-campaigns.md)
+      + [Criar aplicativos de página única](using/web/web-spa.md)
    + [Configurar subdomínios da Web](using/web/web-delegated-subdomains.md)
 + Experiência baseada em código {#code-based-experience}
    + [Introdução ao canal baseado em código](using/code-based/get-started-code-based.md)
@@ -303,6 +305,7 @@ ht-degree: 94%
    + Perfis{#profiles}
       + [Introdução aos perfis](using/audience/get-started-profiles.md)
       + [Criar perfis de teste](using/audience/creating-test-profiles.md)
+      + [Trabalhar com atributos computados](using/audience/computed-attributes.md)
    + [Identidades](using/audience/get-started-identity.md)
    + [Uso da licença](using/audience/license-usage.md)
 + Rastrear e monitorar {#reporting}
@@ -321,6 +324,9 @@ ht-degree: 94%
       + [Relatório de objetivo](using/reports/objective-report.md)
       + [Relatório global da página de destino](using/reports/lp-report-global.md)
       + [Relatório global da lista de assinaturas](using/reports/subscription-report-global.md)
+   + Relatórios de canal {#channel-report}
+      + [Introdução aos relatórios de canal](using/reports/channel-report-gs.md)
+      + [Relatórios de canal](using/reports/channel-report.md)
    + Relatórios de jornada {#reports}
       + [Criar relatórios de jornada](using/reports/sharing-overview.md)
       + [Lista de campos de evento de etapa](using/reports/sharing-field-list.md)

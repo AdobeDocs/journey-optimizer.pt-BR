@@ -1,42 +1,38 @@
 ---
-title: Configuração no aplicativo
+title: Pré-requisitos do canal no aplicativo
 description: Saiba como configurar seu ambiente para enviar mensagens no aplicativo com o Journey Optimizer
 role: Admin
 level: Intermediate
 keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
+source-git-commit: 42a1efc45268688d371d83efbafef2aab9d757ac
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 8%
+source-wordcount: '727'
+ht-degree: 10%
 
 ---
 
-# Configuração do canal no aplicativo {#inapp-configuration}
+# Pré-requisitos do canal no aplicativo {#inapp-configuration}
 
-Antes de enviar mensagens no aplicativo, é necessário configurar o canal no aplicativo no [!DNL Adobe Experience Platform Data Collection].
+## Pré-requisitos de entrega {#delivery-prerequisites}
 
-1. Do seu [!DNL Adobe Experience Platform Data Collection] , acesse o **[!UICONTROL Sequência de dados]** e clique em **[!UICONTROL Nova sequência de dados]**. Para obter mais informações sobre a criação de sequências de dados, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR).
+Para que as mensagens no aplicativo sejam entregues corretamente, as seguintes configurações devem ser definidas:
 
-1. Selecione o [!DNL Adobe Experience Platform] serviço.
+* No [Coleta de dados do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=pt-BR){target="_blank"}, verifique se você tem um fluxo de dados definido, como na seção **[!UICONTROL Adobe Experience Platform]** serviço que você tem o Adobe Experience Platform Edge e **[!UICONTROL Adobe Journey Optimizer]** opção ativada.
 
-   [!DNL Edge Segmentation] e [!DNL Adobe Journey Optimizer] deve ser selecionado.
+  Isso garante que os eventos de entrada do Journey Optimizer sejam manipulados corretamente pelo Adobe Experience Platform Edge. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR){target="_blank"}
 
-   ![](assets/inapp_config_6.png)
+  ![](assets/inapp_config_6.png)
 
-   >[!NOTE]
-   >
-   >Para habilitar experimentos de conteúdo para o canal no aplicativo, verifique se [conjunto de dados](../data/get-started-datasets.md) usado no aplicativo [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=pt-BR){target="_blank"} O também está presente na configuração de relatórios; caso contrário, os dados no aplicativo não serão exibidos nos relatórios de experimento de conteúdo. [Saiba como adicionar conjuntos de dados](../campaigns/reporting-configuration.md#add-datasets)
-   >
-   >O conjunto de dados é usado como somente leitura pelo [!DNL Journey Optimizer] sistema de relatórios e não afeta a coleta ou a assimilação de dados.
+* Entrada [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-1. Em seguida, acesse o **[!UICONTROL Superfícies do aplicativo]** e clique em **[!UICONTROL Criar superfície do aplicativo]**.
+  Esta política de mesclagem é usada por [!DNL Journey Optimizer] canais de entrada para ativar e publicar corretamente campanhas de entrada na borda. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=pt-BR){target="_blank"}
 
-   >[!NOTE]
-   >
-   > Você precisa do **Gerenciar configuração do aplicativo** permissão para ter acesso à **[!UICONTROL Superfícies do aplicativo]** menu. Para obter mais informações, consulte [este vídeo](#video).
+  ![](assets/inapp_config_8.png)
 
-   ![](assets/inapp_config_1.png)
+## Pré-requisitos de configuração de canal {#channel-prerequisites}
+
+1. Acesse o **[!UICONTROL Superfícies do aplicativo]** e clique em **[!UICONTROL Criar superfície do aplicativo]**.
 
 1. Adicione um nome ao seu **[!UICONTROL Superfície do aplicativo]**.
 
@@ -106,13 +102,23 @@ Antes de enviar mensagens no aplicativo, é necessário configurar o canal no ap
 
 O canal no aplicativo agora está configurado. Você pode começar a enviar mensagens no aplicativo para seus usuários.
 
-**Tópicos relacionados:**
+## Pré-requisitos do experimento de conteúdo {#experiment-prerequisites}
 
-* [Criação de uma mensagem no aplicativo](create-in-app.md)
-* [Criar uma campanha](../campaigns/create-campaign.md)
-* [Criar mensagem no aplicativo](design-in-app.md)
-* [Relatório no aplicativo](../reports/campaign-global-report.md#inapp-report)
+Para habilitar experimentos de conteúdo para o canal no aplicativo, verifique se [conjunto de dados](../data/get-started-datasets.md) usado na implementação no aplicativo [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=pt-BR){target="_blank"} também está incluído na sua configuração de relatórios.
 
+Em outras palavras, ao configurar os relatórios de experimento, se você adicionar um conjunto de dados que não esteja presente no seu fluxo de dados da Web, os dados da Web não serão exibidos nos relatórios de experimento de conteúdo.
+
+Saiba como adicionar conjuntos de dados para relatórios de experimento de conteúdo no [nesta seção](../campaigns/reporting-configuration.md#add-datasets).
+
+>[!NOTE]
+>
+>O conjunto de dados é usado como somente leitura pelo [!DNL Journey Optimizer] sistema de relatórios e não afeta a coleta ou a assimilação de dados.
+
+Se você estiver **não** usando as seguintes opções [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), adicione os seguintes grupos de campos: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, e `Web Details`. Estas são necessárias para a [!DNL Journey Optimizer] relatórios de experimento de conteúdo à medida que eles rastream em quais experimentos e tratamentos cada perfil está participando.
+
+>[!NOTE]
+>
+>A adição desses grupos de campos não afeta a coleta de dados normal. É aditivo apenas para as páginas em que um experimento está sendo executado, deixando todos os outros rastreamentos intactos.
 
 ## Vídeos tutoriais{#video}
 
@@ -124,4 +130,10 @@ O canal no aplicativo agora está configurado. Você pode começar a enviar mens
 
 +++
 
+**Tópicos relacionados:**
+
+* [Criação de uma mensagem no aplicativo](create-in-app.md)
+* [Criar uma campanha](../campaigns/create-campaign.md)
+* [Criar mensagem no aplicativo](design-in-app.md)
+* [Relatório no aplicativo](../reports/campaign-global-report.md#inapp-report)
 

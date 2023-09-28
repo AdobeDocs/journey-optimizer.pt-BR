@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d56053d9db3d7c07d629069c985640e694b32ce1
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 100%
+source-wordcount: '1354'
+ht-degree: 95%
 
 ---
 
@@ -46,6 +46,7 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 
 * O limite de número de atividades em uma jornada é de 50. O número de atividades é exibido na seção superior esquerda da tela da jornada. Isso ajudará na legibilidade, controle de qualidade e solução de problemas.
 * À medida que você publica jornadas, dimensionaremos e ajustaremos automaticamente para garantir uma máxima taxa de transferência e estabilidade. Ao se aproximar do marco de 100 jornadas ativas de uma só vez, você verá uma notificação aparecer na interface sobre essa conquista. Se vir esta notificação e precisar aumentar o número de jornadas para acima de 100 jornadas ativas por vez, crie um tíquete para o Atendimento ao cliente e ajudaremos a atingir suas metas.
+* Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até 10 minutos para ficar ativa e ouvir os perfis que entram ou saem do público-alvo.
 
 ### Ações gerais {#general-actions-g}
 
@@ -65,6 +66,7 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 
 ### Ações personalizadas {#custom-actions-g}
 
+* Um limite de 5.000 chamadas/s é definido para todas as ações personalizadas. Esse limite foi definido com base no uso pelos clientes, para proteger endpoints externos direcionados por ações personalizadas.
 * O URL de ação personalizada não aceita parâmetros dinâmicos.
 * Os métodos de chamada POST, PUT e GET são compatíveis
 * O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou “$”

@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment, função, expressão, jornada
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '199'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ Os públicos-alvo podem ter três status:
 * percebido: a entidade está entrando no público-alvo.
 * encerrado: a entidade está saindo do público-alvo.
 
-Somente os indivíduos com o **Realizado** e **Existente** os status de participação do público serão considerados membros do público. Para obter mais informações sobre como avaliar um público-alvo, consulte a [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+Somente os indivíduos com o **Realizado** e **Existente** os status de participação do público serão considerados membros do público. Para obter mais informações sobre como avaliar um público-alvo, consulte a [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` significa que você tem um segmentMembership com o status inserido/existente.
 

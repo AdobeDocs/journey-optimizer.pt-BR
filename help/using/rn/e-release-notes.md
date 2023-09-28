@@ -5,7 +5,8 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 75a03fbd6a369d9b8f75db819cfa995257eaf77f
+exl-id: 3a741a74-8fec-499d-be1f-17ac04106e54
+source-git-commit: 1d5bc1de8a33401c165eeee4c8159fc19087c9c9
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 21%
@@ -87,7 +88,7 @@ Essa versão traz os novos recursos listados abaixo.
 <td>
 <p>Os atributos computados permitem resumir facilmente os dados do evento em atributos de perfil por meio de uma interface de usuário intuitiva para segmentação, personalização e ativação avançadas com base em comportamento. Com esse recurso, você pode criar atributos computados de maneira automatizada, gerenciá-los e usá-los na segmentação, destinos de Perfil do cliente em tempo real ou Journey Optimizer.<br/><br/>
 Além disso, os atributos computados simplificam a segmentação e os fluxos de trabalho de jornada para ajudá-lo a fornecer experiências relevantes de maneira contínua. Saiba mais na <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">documentação detalhada</a>.</p>
-<img src="assets/computed-attributes.png">
+<img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
 </table>

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 5%
+source-wordcount: '527'
+ht-degree: 3%
 
 ---
 
@@ -68,11 +68,15 @@ O painel foi salvo. Suas diferentes alterações serão reaplicadas para um uso 
 
 ## Exportar seus relatórios {#export-reports}
 
-É possível exportar facilmente seus diferentes relatórios para o formato PDF, o que permite compartilhá-los ou imprimi-los.
+É possível exportar facilmente seus diferentes relatórios para formatos PDF ou CSV, o que permite compartilhá-los ou imprimi-los.
 
-1. No seu relatório, clique em **[!UICONTROL Exportar]**.
+>[!BEGINTABS]
 
-   ![](assets/export_2.png)
+>[!TAB Exportar seu relatório como um arquivo PDF]
+
+1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL arquivo PDF]**.
+
+   ![](assets/export_6.png)
 
 1. Na janela Imprimir, configure o documento conforme necessário. Observe que as opções podem variar dependendo do navegador.
 
@@ -81,3 +85,21 @@ O painel foi salvo. Suas diferentes alterações serão reaplicadas para um uso 
 1. Localize a pasta onde deseja salvar o arquivo, renomeie-a se necessário e clique em Salvar.
 
 Seu relatório agora está disponível para visualização ou compartilhamento em um arquivo pdf.
+
+>[!TAB Exportar seu relatório como um arquivo CSV]
+
+1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL Arquivo CSV]** para gerar um arquivo CSV no nível geral do relatório.
+
+   ![](assets/export_4.png)
+
+1. Você também pode optar por exportar dados de um widget específico. Clique em **[!UICONTROL Exportar dados do widget para CSV]** ao lado do widget selecionado.
+
+   ![](assets/export_5.png)
+
+1. O arquivo é baixado automaticamente e pode ser localizado em seus arquivos locais.
+
+   Se você gerou o arquivo no nível do relatório, ele contém informações detalhadas para cada widget, incluindo seu título e dados.
+
+   Se você gerou o arquivo no nível do widget, ele fornece especificamente os dados para o widget selecionado.
+
+>[!ENDTABS]

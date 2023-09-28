@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 12%
+source-wordcount: '1267'
+ht-degree: 13%
 
 ---
 
@@ -116,23 +116,17 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### Testar e publicar a jornada {#testing-publishing}
 
-A variável **[!UICONTROL Ler público-alvo]** A atividade permite testar a jornada em um perfil unitário ou em 100 perfis de teste aleatórios selecionados entre os perfis qualificados para o público-alvo.
+A variável **[!UICONTROL Ler público-alvo]** A atividade permite testar a jornada em um perfil unitário.
 
-Para fazer isso, ative o modo de teste e selecione a opção desejada no painel esquerdo.
+Para fazer isso, ative o modo de teste.
 
 ![](assets/read-segment-test-mode.png)
 
-Em seguida, você pode configurar e executar o modo de teste como de costume. [Saiba como testar uma jornada](testing-the-journey.md).
+Configure e execute o modo de teste como de costume. [Saiba como testar uma jornada](testing-the-journey.md).
 
-Quando o teste estiver em execução, a variável **[!UICONTROL Mostrar logs]** O botão permite ver os resultados do teste de acordo com a opção de teste selecionada:
+Quando o teste estiver em execução, a variável **[!UICONTROL Mostrar logs]** permite ver os resultados do teste. Para obter mais informações, consulte [esta seção](testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL Um único perfil por vez]**: os logs de teste exibem as mesmas informações que ao usar o modo de teste unitário. Para obter mais informações, consulte [esta seção](testing-the-journey.md#viewing_logs)
-
-* **[!UICONTROL Até 100 perfis de uma só vez]**: os logs de teste permitem rastrear o progresso da exportação de público-alvo do Adobe Experience Platform, bem como o progresso individual de todas as pessoas que entraram na jornada.
-
-  Observe que testar a jornada usando até 100 perfis de uma só vez não permite rastrear o progresso dos indivíduos na jornada usando o fluxo visual.
-
-  ![](assets/read-segment-log.png)
+![](assets/read-segment-log.png)
 
 Depois que os testes forem concluídos com êxito, você poderá publicar sua jornada (consulte [Publicação da jornada](publishing-the-journey.md)). Os indivíduos pertencentes ao público inserirão a jornada na data/hora especificada nas propriedades da jornada **[!UICONTROL Scheduler]** seção.
 
