@@ -8,7 +8,8 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 903c1cb0-3e15-4f44-a9bf-bdb436316531
+source-git-commit: 979970d05f52fdbdb76d03a232d405af7097ba30
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 6%
@@ -66,5 +67,3 @@ As principais etapas para trabalhar com o Experience Decisioning são as seguint
 1. **Criar estratégias de seleção**: crie estratégias de seleção que aproveitam coleções, regras de decisão e métodos de classificação para identificar os itens de decisão adequados para exibição em perfis.
 
 1. **Incorpore uma política de decisão à sua campanha baseada em código**: as políticas de decisão combinam várias estratégias de seleção para determinar os itens de decisão qualificados a serem exibidos para o público-alvo desejado.
-
-<!--## Glossary-->
