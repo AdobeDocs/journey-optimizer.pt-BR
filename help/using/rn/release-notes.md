@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 28c98b8982123f0538ca86870a82bdd6228dd674
+source-git-commit: 6230eb26ca577398c09465207b27e87ea3d813d2
 workflow-type: tm+mt
-source-wordcount: '4024'
-ht-degree: 87%
+source-wordcount: '4069'
+ht-degree: 86%
 
 ---
 
@@ -137,6 +137,10 @@ Uma nova opção na configuração da superfície de email permite optar por env
 **Canal SMS**
 
 Dois novos campos, **Mensagem de Opt-in** e **Mensagem de ajuda**, foram adicionados à tela Configuração de API, permitindo que os usuários personalizem respostas para palavras-chave de entrada. Observe que isso só está disponível para o provedor de SMS Sinch.
+
+**Canal de correspondência direta**
+
+Agora você pode criptografar arquivos destinados aos seus provedores de correspondência direta quando eles são transferidos para um servidor. Para fazer isso, um novo campo está disponível na tela de configuração de roteamento de arquivos, permitindo copiar e colar sua chave de criptografia.
 
 **Relatórios**
 
