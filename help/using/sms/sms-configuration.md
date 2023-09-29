@@ -6,7 +6,7 @@ description: Saiba como configurar seu ambiente para enviar SMS com o Journey Op
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: e2851c97dd14577a992625bcfd60fc7300b432d3
+source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 18%
@@ -143,6 +143,8 @@ Para criar uma superfície de canal, siga estas etapas:
 1. Após configurar todos os parâmetros, clique em **[!UICONTROL Enviar]** para confirmar. Você também pode salvar a superfície de canal como rascunho e retomar sua configuração posteriormente.
 
    ![](assets/sms_preset_2.png)
+<!--
+1. **[!UICONTROL Opt-out number]** But what we need to call out is that the opt-out is no longer at a channel level. Previously on receiving the opt-out keyword we used to opt-out the profile at the channel level. Now, we have made it short code specific. So if the customer is using multiple short codes within AJO to send out SMSs, they can continue to send messages to users from other shortcodes if the end user unsubscribes from 1.-->
 
 1. Depois que a superfície de canal é criada, ela é exibida na lista com o **[!UICONTROL Processando]** status.
 
