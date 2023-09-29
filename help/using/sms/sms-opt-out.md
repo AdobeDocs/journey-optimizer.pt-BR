@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: dbdc363ccfcaa99b02289fb365dbece5d08ed544
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 27%
@@ -24,7 +24,7 @@ De acordo com os padrões e regulamentos do setor, todas as mensagens de marketi
 >As comunicações de mensagem de texto podem estar sujeitas a vários requisitos de conformidade legal, dependendo da natureza, do local de onde você está enviando suas mensagens de texto e do local de seus destinatários. Embora a Adobe Journey Optimizer trate as mensagens em códigos longos e números de chamada gratuita conforme detalhado abaixo, consulte seu departamento jurídico para garantir que suas comunicações de mensagem de texto estejam em conformidade com todos os requisitos de conformidade legal aplicáveis.
 >
 
-## Palavras-chave de entrada nativas{#sms-native-keywords}
+## Palavras-chave de entrada nativas {#sms-native-keywords}
 
 Por padrão, o Adobe Journey Optimizer lida com as seguintes mensagens de resposta padrão em inglês para mensagens gratuitas e de código longo: STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE. Observe que somente Sinch e Infobip suportam palavras-chave nativas quando usadas com o Journey Optimizer.
 
@@ -33,7 +33,7 @@ Essas palavras-chave normalmente acionam uma resposta padrão automática do pro
 Nenhuma etapa é necessária para garantir que os recursos de recusa de SMS funcionem no Adobe Journey Optimizer, pois as respostas com palavras-chave STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE são reconhecidas automaticamente. Os status de recusa de perfis são atualizados em tempo real no Adobe Journey Optimizer.
 
 
-## ➡ Incluis na lista de bloqueios{#sms-blocklists}
+## ➡ Incluis na lista de bloqueios {#sms-blocklists}
 
 Além de o Adobe Journey Optimizer interromper o envio com base no status de recusa (para integrações diretas com o Twilio ou Sinch), a maioria dos provedores de gateway de SMS também mantém uma inclui na lista de bloqueios, garantindo que uma mensagem SMS não seja entregue a um indivíduo que recusou-se a participar. Se você estiver usando um provedor que não seja o Sinch ou Twilio e enviar um SMS por [canal personalizado](../building-journeys/using-custom-actions.md), é necessário confirmar isso com o provedor.
 

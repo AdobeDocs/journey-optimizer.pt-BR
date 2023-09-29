@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8e9d3f6916ee5a0b6919446b95c716cc6648fbbc
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
-source-wordcount: '4018'
-ht-degree: 87%
+source-wordcount: '4086'
+ht-degree: 86%
 
 ---
 
@@ -132,7 +132,9 @@ Uma nova opção na configuração da superfície de email permite optar por env
 
 **Canal SMS**
 
-Dois novos campos, **Mensagem de Opt-in** e **Mensagem de ajuda**, foram adicionados à tela Configuração de API, permitindo que os usuários personalizem respostas para palavras-chave de entrada. Observe que isso só está disponível para o provedor de SMS Sinch. [Saiba mais](../sms/sms-configuration.md)
+* Dois novos campos, **Mensagem de Opt-in** e **Mensagem de ajuda**, foram adicionados à tela Configuração de API, permitindo que os usuários personalizem respostas para palavras-chave de entrada. Observe que isso só está disponível para o provedor de SMS Sinch. [Saiba mais](../sms/sms-configuration.md#create-api)
+
+* A recusa de SMS não é mais gerenciada no nível do canal. Agora, ela é específica de número, o que significa que, se alguns perfis optarem por não participar de um determinado número ou código curto, você ainda poderá enviar mensagens para eles a partir de outros números que possa estar usando para enviar mensagens SMS. Uma nova opção permite selecionar a variável **Número de recusa** que você deseja usar em uma determinada superfície. [Saiba mais](../sms/sms-configuration.md#message-preset-sms)
 
 **Canal de correspondência direta**
 
