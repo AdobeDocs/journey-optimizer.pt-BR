@@ -5,9 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
+source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '464'
 ht-degree: 6%
 
 ---
@@ -22,7 +23,9 @@ ht-degree: 6%
 >abstract="As alterações serão aplicadas somente às exibições selecionadas. As exibições podem ser descobertas usando o **Procurar** e navegue até eles. Não consegue localizar a exibição que você está procurando?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR" text="Saiba mais"
 
-**Aplicativos de página única** (SPA) agora pode ser criado no editor visual do web designer. Isso permite selecionar em quais exibições específicas você deseja aplicar as modificações da página da Web.
+**Aplicativos de página única** (SPA) agora pode ser criado no editor visual do web designer. Isso permite selecionar quais opções **visualizações** você deseja aplicar as modificações da página da Web a.
+
+[Saiba como criar aplicativos de página única neste vídeo](#video)
 
 Uma exibição pode ser definida como um site inteiro ou um grupo de elementos visuais em um site, como a página inicial, o site de produtos inteiro ou o quadro de preferências de entrega em todas as páginas de check-out.
 
@@ -54,7 +57,7 @@ Depois que a configuração do SPA for concluída na implementação do SDK da W
 
 ## Aplicar modificações a outras exibições {#apply-modifications-views}
 
-Depois de ter modificado enquanto estava em uma exibição específica, você pode aplicá-la a outras exibições selecionadas. Siga as etapas abaixo.
+Após adicionar uma modificação enquanto estiver em uma exibição específica, você pode aplicá-la a outras exibições selecionadas. Siga as etapas abaixo.
 
 >[!CAUTION]
 >
@@ -77,3 +80,14 @@ Depois de ter modificado enquanto estava em uma exibição específica, você po
 1. Trocar para **[!UICONTROL Procurar]** para verificar se as modificações são aplicadas nas páginas desejadas.
 
    ![](assets/web-designer-modifications-applied-view.png)
+
+## Vídeo explicativo{#video}
+
+Este vídeo explica como:
+
+* Descubra visualizações do SPA usando **[!UICONTROL Procurar]** modo
+* Executar a criação na exibição atual
+* Aplicar modificações do site a várias exibições ou a todas as que foram descobertas
+* Realizar ações em massa em modificações
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

@@ -5,10 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-exl-id: da12c416-3dcb-4c45-806c-ebe298c386f4
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
+source-git-commit: f00843c54f18c6d9599d527101496d1d58df09f3
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '952'
 ht-degree: 7%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 7%
 
 Ao editar uma página usando o web designer, você pode adicionar novas alterações ao seu conteúdo diretamente do **[!UICONTROL Modificações]** painel - sem a necessidade de selecionar um componente e editá-lo na interface do web designer. Siga as etapas abaixo.
 
-1. No **[!UICONTROL Modificações]**, clique no link **[!UICONTROL Mais ações]** botão.
+1. No **[!UICONTROL Modificações]** clique no botão **[!UICONTROL Mais ações]** botão.
 
 1. Selecionar **[!UICONTROL Adicionar uma modificação]**.
 
@@ -66,7 +66,7 @@ Ao editar uma página usando o web designer, você pode adicionar novas alteraç
 
 1. Selecione o tipo de modificação:
 
-   * **[!UICONTROL Seletor de CSS]**- [Saiba mais](#css-selector)
+   * **[!UICONTROL Seletor de CSS]** - [Saiba mais](#css-selector)
    * **[!UICONTROL Página`<Head>`]** - [Saiba mais](#page-head)
 
 1. Insira seu conteúdo e **[!UICONTROL Salvar]** suas alterações.
@@ -184,4 +184,3 @@ Cada alteração cria um novo elemento na variável **[!UICONTROL Modificações
 Se você usar o **[!UICONTROL Página`<head>`]** Tipo de modificação para duas campanhas que afetam o mesmo URL, o JavaScript é inserido na página de ambas as campanhas. [!DNL Journey Optimizer] determina automaticamente a ordem do conteúdo entregue. Certifique-se de que o código não dependa da disposição. Cabe a você garantir que não haja conflitos no código.
 
 +++
-

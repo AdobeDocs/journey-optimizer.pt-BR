@@ -4,9 +4,9 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: eee717b9fb0ceec72df449abcf3e37b41fe31e15
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: '3711'
 ht-degree: 90%
 
 ---
@@ -20,16 +20,14 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de setembro de 2023 do foi detalhada na documentação. [Leia mais](release-notes.md)
 * Uma nova página foi adicionada com práticas recomendadas de dimensionamento e orientação de compilação em tempo real. [Leia mais](../start/best-practices.md)
 
-<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+  <!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
 
 * Uma seção de Perguntas frequentes foi adicionada para Otimização de tempo de envio. [Leia mais](../building-journeys/journeys-message.md#faq-send-time)
 * Uma observação foi adicionada para a atividade de qualificação de público-alvo. Pode levar até 10 minutos para ficar ativo e ouvir os perfis que entram ou saem do público-alvo. [Leia mais](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * Uma lista de limitações que devem ser observadas ao criar regras de decisão foi adicionada à documentação da Gestão de decisões. [Leia mais](../offers/offer-library/creating-decision-rules.md)
 * Os links para a documentação de controle de acesso foram atualizados. [Leia mais](../administration/permissions.md)
 * Os pré-requisitos do canal no aplicativo foram atualizados com os detalhes da Coleção de dados da Adobe Experience Platform. [Leia mais](../in-app/inapp-configuration.md)
-
-
-
+* Algumas expressões apresentadas em exemplos de fórmulas de classificação foram atualizadas para evitar erros de validação. [Leia mais](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
 ## Agosto de 2023 {#august-2023}
 
@@ -42,7 +40,6 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Um aviso foi adicionado à página **Trabalhar com modelos de conteúdo** para indicar que o rastreamento atual não é compatível ao testar modelos de conteúdo de email. Para testar o rastreamento, você deve usar o modelo de conteúdo em um email e enviar uma prova. [Leia mais](../email/content-templates.md#test-template)
 * Vários avisos foram adicionados à seção **Criar e publicar páginas de destino** para especificar que você não pode acessar sua página de destino simplesmente copiando e colando em um navegador da web o URL definido ao criar a página, mesmo que esteja publicada. Em vez disso, você pode testá-lo usando a função de visualização. [Leia mais](../landing-pages/create-lp.md)
 * Uma nova seção foi adicionada informando como **gerenciar o consentimento** no canal de correspondência direta. [Leia mais](../direct-mail/test-send-direct-mail.md)
-
 
 ## Julho de 2023 {#july-2023}
 
