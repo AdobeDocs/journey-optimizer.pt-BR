@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
+source-git-commit: 7437268e87cc2c71bec394fbef1b512b31946cf5
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 5%
+source-wordcount: '283'
+ht-degree: 6%
 
 ---
 
@@ -37,6 +38,8 @@ O que há neste guia de documentação:
 As regras de decisão permitem definir o público-alvo dos itens de decisão aplicando restrições, diretamente no nível do item de decisão ou em uma estratégia de seleção específica. Isso permite que você controle com precisão quais itens devem ser apresentados a quem.
 
 Por exemplo, vamos considerar um cenário onde você tem itens de decisão com produtos relacionados a Yoga projetados para mulheres. Com as regras de decisão, você pode especificar que esses itens só devem ser exibidos para perfis cujo gênero é &quot;Feminino&quot; e que indicaram um &quot;Ponto de interesse&quot; em &quot;Yoga&quot;.
+
+Além das regras de decisão em nível de estratégia de seleção e item, você também pode criar parâmetros adicionais para o público-alvo desejado no nível da campanha. [Saiba mais](../campaigns/create-campaign.md)
 
 A lista de regras de decisão está acessível no **[!UICONTROL Configuração]** / **[!UICONTROL Regras de decisões]** menu.
 

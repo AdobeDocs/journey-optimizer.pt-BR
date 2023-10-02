@@ -10,7 +10,8 @@ level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
+source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 4%
@@ -85,6 +86,8 @@ Use o **[!UICONTROL Grupo de domínio personalizado]** para definir um novo grup
 
 Por exemplo, se você adicionar o domínio personalizado Luma, desejará que os seguintes subdomínios sejam incluídos: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, etc.
 
+![](assets/ip-warmup-sample-file-custom.png)
+
 ## Acessar e gerenciar planos de aquecimento de IP {#manage-ip-warmup-plans}
 
 1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Planos de aquecimento de IP]** menu. Todos os planos de aquecimento de IP criados até o momento são exibidos.
@@ -95,7 +98,7 @@ Por exemplo, se você adicionar o domínio personalizado Luma, desejará que os 
 
    * **Não iniciado**: nenhuma execução foi ativada ainda. [Saiba mais](ip-warmup-execution.md#define-runs)
    * **Ao vivo**: o plano muda para esse status assim que a primeira execução na primeira fase é ativada com sucesso. [Saiba mais](ip-warmup-execution.md#define-runs)
-   * **Concluído**: o plano foi marcado como concluído. Essa opção só estará disponível se todas as execuções no plano estiverem em **[!UICONTROL Com êxito]** ou **[!UICONTROL Rascunho]** status (nenhuma execução pode ser **[!UICONTROL Ao vivo]**). [Saiba mais](ip-warmup-execution.md#define-runs#mark-as-completed)
+   * **Concluído**: o plano foi marcado como concluído. Essa opção só estará disponível se todas as execuções no plano estiverem em **[!UICONTROL Concluído]** ou **[!UICONTROL Rascunho]** status (nenhuma execução pode ser **[!UICONTROL Ao vivo]**). [Saiba mais](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. Para excluir um plano de aquecimento de IP, selecione o **[!UICONTROL Excluir]** ícone ao lado do nome de um plano e confirmar a exclusão.
