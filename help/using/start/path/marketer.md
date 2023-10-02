@@ -6,7 +6,7 @@ description: Como usuário de jornadas, aprenda a trabalhar com o Journey Optimi
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
 ht-degree: 100%
 
