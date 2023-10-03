@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '4086'
 ht-degree: 86%
@@ -469,7 +469,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Agora é possível criar, usar e gerenciar fragmentos para produzir rapidamente emails e modelos de conteúdo. Um fragmento é um componente reutilizável pré-construído que pode ser referenciado em vários emails em campanhas e jornadas do Journey Optimizer para um processo de design aprimorado e acelerado.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>Para obter mais informações, consulte a <a href="../email/fragments.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../content-management/fragments.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -906,7 +906,7 @@ Note that each widget can be resized and deleted as needed.
 <p>Agora você pode criar modelos de conteúdo independentes que possam ser aproveitados em jornadas e campanhas para reutilização rápida.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>Saiba como criar, editar e usar modelos de conteúdo <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=pt-BR">neste vídeo</a>. Para obter mais informações, consulte a <a href="../email/content-templates.md">documentação detalhada</a>.
+<p>Saiba como criar, editar e usar modelos de conteúdo <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=pt-BR">neste vídeo</a>. Para obter mais informações, consulte a <a href="../content-management/content-templates.md">documentação detalhada</a>.
 </p>
 </td>
 </tr>

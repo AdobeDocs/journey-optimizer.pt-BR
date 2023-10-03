@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 93%
+source-wordcount: '1527'
+ht-degree: 92%
 
 ---
 
@@ -182,9 +182,10 @@ ht-degree: 93%
          + [Crie um conteúdo do zero](using/email/content-from-scratch.md)
          + [Importar seu conteúdo](using/email/existing-content.md)
          + [Programar seu próprio conteúdo](using/email/code-content.md)
-         + [Trabalhar com modelos](using/email/email-templates.md)
+         + [Usar modelos de email](using/email/use-email-templates.md)
       + Projetar o conteúdo {#add-content}
          + [Usar componentes de conteúdo](using/email/content-components.md)
+         + [Aproveitar fragmentos visuais](using/email/use-visual-fragments.md)
          + [Adicionar links e rastrear mensagens](using/email/message-tracking.md)
          + [Inserir ofertas personalizadas](using/email/add-offers-email.md)
          + [Gerar a versão de texto](using/email/text-version-email.md)
@@ -195,9 +196,7 @@ ht-degree: 93%
          + [Ajustar o alinhamento vertical e o preenchimento](using/email/alignment-and-padding.md)
          + [Adicionar atributos de estilo incorporado](using/email/inline-styling.md)
    + [Visualizar e testar o email](using/email/preview.md)
-   + [Criar modelos de conteúdo](using/email/content-templates.md)
    + [Usar modelos do Experience Manager](using/email/aem-templates.md)
-   + [Trabalhar com fragmentos](using/email/fragments.md)
    + [Gerenciar opção de não participação de email](using/email/email-opt-out.md)
    + Configurar canal de email {#configure-email}
       + [Introdução à configuração de email](using/email/get-started-email-config.md)
@@ -271,7 +270,7 @@ ht-degree: 93%
       + Trabalhar com o editor de expressão {#expression-editor}
          + [Sobre o editor de expressão](using/personalization/personalization-build-expressions.md)
          + [Adicionar atributos aos favoritos](using/personalization/personalization-favorites.md)
-         + [Trabalhar com expressões salvas](using/personalization/personalization-library.md)
+         + [Usar fragmentos de expressão](using/personalization/use-expression-fragments.md)
          + [Validação de personalização](using/personalization/personalization-validation.md)
       + Funções auxiliares {#functions}
          + [Introdução a funções auxiliares](using/personalization/functions/functions.md)
@@ -288,6 +287,9 @@ ht-degree: 93%
       + Casos de uso de personalização{#personalization-use-cases}
          + [Notificação do status do pedido](using/personalization/personalization-use-case.md)
          + [Email de abandono do carrinho](using/personalization/personalization-use-case-helper-functions.md)
+   + Gerenciar conteúdo reutilizável {#reusable-content}
+      + [Trabalhar com modelos de conteúdo](using/content-management/content-templates.md)
+      + [Trabalhar com fragmentos](using/content-management/fragments.md)
    + Conteúdo dinâmico {#dynamic}
       + [Introdução ao conteúdo dinâmico](using/personalization/get-started-dynamic-content.md)
       + [Criar regras condicionais](using/personalization/create-conditions.md)
@@ -468,7 +470,7 @@ ht-degree: 93%
       + [Criar pools de IP](using/configuration/ip-pools.md)
    + Implementar um plano de aquecimento de IP {#implement-ip-warmup-plan}
       + [Introdução aos planos de aquecimento de IP](using/configuration/ip-warmup-gs.md)
-      + [Criar campanhas de aquecimento de IP](using/configuration/ip-warmup-campaign.md)
+      + [Criação de campanhas de aquecimento de IP](using/configuration/ip-warmup-campaign.md)
       + [Criar um plano de aquecimento de IP](using/configuration/ip-warmup-plan.md)
       + [Executar o plano de aquecimento de IP](using/configuration/ip-warmup-execution.md)
    + Monitorar endereços de email {#monitor-reputation}

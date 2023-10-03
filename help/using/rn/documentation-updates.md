@@ -4,7 +4,7 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: eee717b9fb0ceec72df449abcf3e37b41fe31e15
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '3711'
 ht-degree: 90%
@@ -37,7 +37,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * A **exportação de conjuntos de dados** do Offer Decisioning agora está habilitada por padrão. A observação sobre o comportamento anterior foi removida.  [Leia mais](../offers/export-catalog/get-started-export.md)
 * Várias **métricas de relatórios de campanha**, nos relatórios dinâmicos e globais, foram renomeadas. [Leia mais](../reports/campaign-global-report.md)
 * Uma nova seção foi adicionada sobre os pré-requisitos do experimento de conteúdo para o canal da Web. [Leia mais](../web/web-prerequisites.md#experiment-prerequisites)
-* Um aviso foi adicionado à página **Trabalhar com modelos de conteúdo** para indicar que o rastreamento atual não é compatível ao testar modelos de conteúdo de email. Para testar o rastreamento, você deve usar o modelo de conteúdo em um email e enviar uma prova. [Leia mais](../email/content-templates.md#test-template)
+* Um aviso foi adicionado à página **Trabalhar com modelos de conteúdo** para indicar que o rastreamento atual não é compatível ao testar modelos de conteúdo de email. Para testar o rastreamento, você deve usar o modelo de conteúdo em um email e enviar uma prova. [Leia mais](../content-management/content-templates.md#test-template)
 * Vários avisos foram adicionados à seção **Criar e publicar páginas de destino** para especificar que você não pode acessar sua página de destino simplesmente copiando e colando em um navegador da web o URL definido ao criar a página, mesmo que esteja publicada. Em vez disso, você pode testá-lo usando a função de visualização. [Leia mais](../landing-pages/create-lp.md)
 * Uma nova seção foi adicionada informando como **gerenciar o consentimento** no canal de correspondência direta. [Leia mais](../direct-mail/test-send-direct-mail.md)
 
