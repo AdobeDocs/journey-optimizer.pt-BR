@@ -10,10 +10,11 @@ level: Experienced
 keywords: IP, capacidade de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -31,7 +32,7 @@ ht-degree: 26%
 O que há neste guia de documentação:
 
 * **[Introdução ao aquecimento de IP](ip-warmup-gs.md)**
-* [Criar campanhas de aquecimento de IP](ip-warmup-campaign.md)
+* [Criação de campanhas de aquecimento de IP](ip-warmup-campaign.md)
 * [Criar um plano de aquecimento de IP](ip-warmup-plan.md)
 * [Executar o plano de aquecimento de IP](ip-warmup-execution.md)
 

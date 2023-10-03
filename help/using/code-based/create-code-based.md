@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -68,9 +69,9 @@ Para começar a criar sua experiência baseada em código por meio de uma campan
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="Usar o editor de expressão"
+>title="Use o Editor de expressão"
 >abstract="Insira e edite o código que deseja entregar como parte desta ação de experiência baseada em código."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Introdução ao editor de expressão"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=pt-BR" text="Introdução ao Editor de expressão"
 
 1. Na tela de edição da campanha, selecione **[!UICONTROL Editar código]**.
 
@@ -104,8 +105,8 @@ Agora, assim que o desenvolvedor fizer uma chamada de API ou SDK para buscar con
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
->title="Visualizar sua experiência baseada em código"
->abstract="Obtenha uma simulação de como será sua experiência baseada em código."
+>title="Visualize sua experiência baseada em código"
+>abstract="Acesse uma simulação de como será a sua experiência baseada em código."
 
 Para exibir uma pré-visualização de sua experiência baseada em código modificada, siga as etapas abaixo.
 

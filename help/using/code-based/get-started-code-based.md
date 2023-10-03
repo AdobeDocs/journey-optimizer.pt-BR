@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1172'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -141,8 +142,8 @@ As principais etapas para implementar uma campanha baseada em código são as se
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
->title="Definir uma superfície de experiência baseada em código"
->abstract="Uma superfície baseada em código é qualquer entidade projetada para interação do usuário ou do sistema, que é exclusivamente identificada por um URI."
+>title="Defina uma superfície de experiência baseada em código"
+>abstract="Uma superfície baseada em código é qualquer entidade projetada para interação do usuário ou do sistema, exclusivamente identificada por um URI."
 
 A **superfície de experiência baseada em código** é qualquer entidade projetada para interação do usuário ou do sistema<!--ask Robert to explain further-->, que é exclusivamente identificado por um **URI**.
 

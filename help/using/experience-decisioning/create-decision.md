@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 5%
+ht-degree: 17%
 
 ---
 
@@ -20,8 +21,8 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="O que é uma decisão?"
->abstract="As políticas de decisão usam o mecanismo de decisão da experiência para escolher o melhor conteúdo a ser entregue, dependendo do público-alvo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=pt-BR" text="Sobre o Experience Decisioning"
+>abstract="As políticas de decisão aproveitam o mecanismo do Offer Decisioning para escolher o melhor conteúdo a ser entregue, dependendo do público-alvo."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=pt-BR" text="Sobre o Offer Decisioning"
 
 >[!BEGINSHADEBOX]
 
@@ -50,19 +51,19 @@ As políticas de decisão são containers para suas ofertas que aproveitam o mec
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
->title="Definir o número de itens a serem retornados"
->abstract="Selecione o número de itens de decisão que você deseja retornar. Por exemplo, se você selecionar 2, as 2 melhores ofertas qualificadas serão apresentadas para a superfície atual."
+>title="Defina o número de itens a serem retornados"
+>abstract="Selecione o número de itens de decisão que deseja que sejam retornados. Por exemplo, se você selecionar 2, as 2 melhores ofertas elegíveis serão apresentadas para a superfície atual."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
->title="Selecionar um fallback"
->abstract="Um item de fallback é exibido ao usuário quando nenhuma das estratégias de seleção definidas para essa política de decisão é qualificada."
+>title="Selecione uma alternativa"
+>abstract="Um item alternativo é exibido ao usuário(a) quando nenhuma das estratégias de seleção definidas para essa política de decisão está qualificada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_strategy"
 >title="O que é uma estratégia?"
 >abstract="A sequência da estratégia de seleção determina qual estratégia será avaliada primeiro. Pelo menos uma estratégia é necessária. Os itens de decisão em estratégias combinadas serão avaliados em conjunto."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=pt-BR" text="Criar estratégias"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=pt-BR" text="Criação de estratégias"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=pt-BR" text="Ordem de avaliação"
 
 Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu site ou aplicativo móvel, adicione uma política de decisão a uma campanha baseada em código. Para isso, siga as etapas abaixo.
@@ -85,7 +86,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu s
 
    ![](assets/decision-code-based-details.png)
 
-1. Selecione o número de itens que você deseja retornar. Por exemplo, se você selecionar 2, as 2 melhores ofertas qualificadas serão apresentadas para a superfície atual. Clique em **[!UICONTROL Próximo]**
+1. Selecione o número de itens que você deseja retornar. Por exemplo, se você selecionar 2, as 2 melhores ofertas elegíveis serão apresentadas para a superfície atual. Clique em **[!UICONTROL Próximo]**
 
 1. Use o **[!UICONTROL Adicionar estratégia]** botão para definir as estratégias de seleção para sua política de decisão. Cada estratégia consiste em uma coleção de ofertas associada a uma restrição de qualificação e um método de classificação para determinar as ofertas a serem exibidas. [Saiba mais](selection-strategies.md)
 

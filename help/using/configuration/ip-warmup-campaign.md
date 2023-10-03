@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criar campanhas de aquecimento de IP
+title: Criação de campanhas de aquecimento de IP
 description: Saiba como criar uma campanha de aquecimento de IP
 feature: Application Settings
 topic: Administration
@@ -10,18 +10,19 @@ level: Intermediate
 keywords: IP, pools, capacidade de entrega
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
-# Criar campanhas de aquecimento de IP {#create-ip-warmup-campaign}
+# Criação de campanhas de aquecimento de IP {#create-ip-warmup-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
->title="Ativar a opção de plano de aquecimento de IP"
+>title="Ative a opção do plano de aquecimento de IP"
 >abstract="Ao selecionar essa opção, a campanha pode ser usada em um plano de aquecimento de IP. O agendamento da campanha será determinado pelo plano de aquecimento de IP ao qual está associado."
 
 >[!BEGINSHADEBOX]
@@ -29,7 +30,7 @@ ht-degree: 3%
 O que há neste guia de documentação:
 
 * [Introdução ao aquecimento de IP](ip-warmup-gs.md)
-* **[Criar campanhas de aquecimento de IP](ip-warmup-campaign.md)**
+* **[Criação de campanhas de aquecimento de IP](ip-warmup-campaign.md)**
 * [Criar um plano de aquecimento de IP](ip-warmup-plan.md)
 * [Executar o plano de aquecimento de IP](ip-warmup-execution.md)
 
@@ -82,4 +83,3 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 Uma vez ativa, a campanha estará pronta para uso em um plano de aquecimento de IP. [Saiba mais](ip-warmup-plan.md)
 
 <!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
-
