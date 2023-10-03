@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
+source-git-commit: 18d44b689a524dc2b031a32b8b79ac755d680e23
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2225'
 ht-degree: 2%
 
 ---
@@ -123,6 +123,12 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
    Agora eles têm a mesma classificação e, portanto, serão avaliados ao mesmo tempo. [Saiba mais](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
+
+   >[!CAUTION]
+   >
+   >* Se [Modelo de IA](../ranking/ai-models.md) for utilizado em um grupo de critérios de avaliação, todos os critérios de avaliação nesse grupo devem usar o método de classificação de IA e devem usar o mesmo modelo específico de IA.
+   >
+   >* Somente um grupo de critérios de avaliação pode usar o modelo de IA. Quaisquer outros grupos dentro de um escopo de decisão devem usar outros métodos de classificação (prioridade ou fórmula). [Saiba mais sobre métodos de classificação](../offer-activities/configure-offer-selection.md)
 
 1. Para adicionar outro posicionamento para suas ofertas como parte desta decisão, use o **[!UICONTROL Novo escopo]** botão. Repita as etapas acima para cada escopo de decisão.
 
@@ -320,7 +326,7 @@ Selecione o **[!UICONTROL Editar]** botão para voltar para o modo de edição d
 
 >[!IMPORTANT]
 >
->Se forem feitas alterações em uma decisão de oferta que está sendo usada na mensagem de uma jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas à mensagem da jornada e que ela seja consistente com as atualizações mais recentes.
+>Se forem feitas alterações em uma decisão de oferta em uso na mensagem de uma jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas à mensagem da jornada e que ela seja consistente com as atualizações mais recentes.
 
 Selecione uma decisão em tempo real e clique em **[!UICONTROL Desativar]** para retornar o status da decisão para **[!UICONTROL Rascunho]**.
 
