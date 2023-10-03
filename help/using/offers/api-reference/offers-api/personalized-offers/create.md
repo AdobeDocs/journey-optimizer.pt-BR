@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 439813d0e7430d2e009b1af6abb7a027b10a427c
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 12%
+source-wordcount: '157'
+ht-degree: 11%
 
 ---
 
@@ -26,7 +26,6 @@ A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de c
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
 | Tipo de conteúdo | `application/json` |
-| Tipo de conteúdo | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **Formato da API**
 
@@ -113,4 +112,4 @@ Uma resposta bem-sucedida retorna os detalhes da oferta personalizada recém-cri
 
 ## Limitações {#limitations}
 
-Representações de oferta e algumas restrições de oferta não são compatíveis com o dispositivo móvel no momento [!DNL Experience Edge] workflows, por exemplo `Capping`. A variável `Capping` field value especifica o número de vezes que uma oferta pode ser apresentada a todos os usuários. Para obter mais detalhes, consulte [Documentação de regras de elegibilidade e restrições da oferta](../../../offer-library/creating-personalized-offers.md).
+Representações de oferta e algumas restrições de oferta não são compatíveis com o dispositivo móvel no momento [!DNL Experience Edge] workflows, por exemplo `Capping`. A variável `Capping` field value especifica o número de vezes que uma oferta pode ser apresentada a todos os usuários. Para obter mais detalhes, consulte [Documentação de regras de elegibilidade e restrições da oferta](../../../../offers/offer-library/creating-personalized-offers.md).

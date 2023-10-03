@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: c00a93d223cf71ce616fa7f68c4fffc11b5dbf4e
+source-git-commit: 512b660202ff1534ccd30a35310f3ad065bba593
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 8%
+source-wordcount: '188'
+ht-degree: 7%
 
 ---
 
@@ -51,7 +51,7 @@ Os parâmetros de consulta mais comuns para paginação incluem:
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `property` | Um filtro de propriedade opcional: <ul><li> As propriedades são agrupadas por operação AND. <br><br> - Os parâmetros podem ser repetidos da seguinte maneira: property=`<property-expr>`[&amp;propriedade=`<property-expr2>`..] ou property=`<property-expr1>`[&amp;`<property-expr2>`..] <br><br> - As expressões de propriedade estão no formato `[!]field[op]` valor, com op em `[==,!=,'<=',>=,<,>,~]`, suportando expressões regulares  </li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Um filtro de propriedade opcional: <ul><li>As propriedades são agrupadas por operação AND.</li><li>Os parâmetros podem ser repetidos da seguinte maneira: property={PROPERTY_EXPR}[&amp;propriedade={PROPERTY_EXPR2}..] ou property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}..]</li><li>As expressões de propriedade estão no formato `[!]field[op]value`, com `op` in `[==,!=,<=,>=,<,>,~]`, que suporta expressões regulares.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Classificar os resultados por uma propriedade específica. Adicionar um - antes do nome (orderby=-name) classificará os itens pelo nome em ordem decrescente (Z-A). As expressões de caminho estão no formato de caminhos separados por pontos. Esse parâmetro pode ser repetido da seguinte maneira: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limitar o número de entidades retornadas. | `limit=5` |
 

@@ -6,12 +6,13 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
-source-git-commit: bee5e067e70e065c9db14448c42224a9ec09c5bf
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '208'
 ht-degree: 7%
 
 ---
+
 
 # Listar coleções {#list-collections}
 
@@ -51,7 +52,7 @@ Os parâmetros de consulta mais comuns para paginação incluem:
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `property` | Um filtro de propriedade opcional: <ul><li> As propriedades são agrupadas por operação AND. <br><br> - Os parâmetros podem ser repetidos da seguinte maneira: property=`<property-expr>`[&amp;propriedade=`<property-expr2>`..] ou property=`<property-expr1>`[&amp;`<property-expr2>`..] <br><br> - As expressões de propriedade estão no formato `[!]field[op]` valor, com op em `[==,!=,'<=',>=,<,>,~]`, suportando expressões regulares  </li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Um filtro de propriedade opcional: <ul><li>As propriedades são agrupadas por operação AND.</li><li>Os parâmetros podem ser repetidos da seguinte maneira: property={PROPERTY_EXPR}[&amp;propriedade={PROPERTY_EXPR2}..] ou property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}..]</li><li>As expressões de propriedade estão no formato `[!]field[op]value`, com `op` in `[==,!=,<=,>=,<,>,~]`, que suporta expressões regulares.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Classificar os resultados por uma propriedade específica. Adicionar um - antes do nome (orderby=-name) classificará os itens pelo nome em ordem decrescente (Z-A). As expressões de caminho estão no formato de caminhos separados por pontos. Esse parâmetro pode ser repetido da seguinte maneira: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limitar o número de entidades retornadas. | `limit=5` |
 
