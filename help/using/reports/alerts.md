@@ -8,18 +8,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
+source-git-commit: d46ed2b5bb5402ab5ce8d3c033261d0366a5de34
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '464'
 ht-degree: 1%
 
 ---
 
 # Introdução a alertas {#alerts}
 
-## Recursos de alerta {#alerting-capabilities}
+## Acessar e assinar alertas {#alerting-capabilities}
 
-Você pode acessar alertas do sistema por meio da interface ou receber um email quando ocorrer uma falha. No **Alertas** , é possível exibir os alertas disponíveis e assiná-los. Quando um determinado conjunto de condições em suas operações é atingido (como um problema em potencial quando o sistema ultrapassa um limite), as mensagens de alerta são entregues a todos os usuários em sua organização que se inscreveram neles.
+Quando ocorrer uma falha, você poderá receber alertas do sistema na central de notificações da Journey Optimizer e receber um email. No **Alertas** , é possível exibir os alertas disponíveis e assiná-los. Quando um determinado conjunto de condições em suas operações é atingido (como um problema em potencial quando o sistema ultrapassa um limite), as mensagens de alerta são entregues a todos os usuários em sua organização que se inscreveram neles.
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
