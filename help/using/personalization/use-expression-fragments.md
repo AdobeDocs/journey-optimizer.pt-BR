@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, biblioteca, personalização
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 4d74588b5df0afab7e56e540703891c48a94ab5f
+source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Para adicionar fragmentos de expressão ao seu conteúdo, siga as etapas abaixo.
 
 >[!NOTE]
 >
->Se você criar um fragmento de expressão que contenha várias quebras de linha e usá-lo no [SMS](usi..ng/sms/create-sms.md#sms-content) ou [push](../push/design-push.md) conteúdo, as quebras de linha são preservadas. Assim, pré-visualize e teste seu [SMS](../sms/send-sms.md) ou [push](../push/send-push.md) antes de enviá-la.
+>Se você criar um fragmento de expressão que contenha várias quebras de linha e usá-lo no [SMS](../sms/create-sms.md#sms-content) ou [push](../push/design-push.md) conteúdo, as quebras de linha são preservadas. Assim, pré-visualize e teste seu [SMS](../sms/send-sms.md) ou [push](../push/send-push.md) antes de enviá-la.
 
 ## Interromper herança {#break-inheritance}
 
