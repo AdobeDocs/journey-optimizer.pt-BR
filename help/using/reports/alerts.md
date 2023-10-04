@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 01bc2351b08fc7226c5e5633820f476c8621e404
+source-git-commit: 4f4912530f6d39ba937b346f9eaccceff4b974dd
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 1%
 
 ---
@@ -57,12 +57,12 @@ O nome de inscrição do evento de E/S correspondente ao alerta de ação person
 
 ## Acionador de segmento de leitura malsucedido {#alert-read-audiences}
 
-Esse alerta avisará se uma **Segmento de leitura** A atividade não processou nenhum perfil 10 minutos após o horário agendado de execução. Essa falha pode ser causada por problemas técnicos ou porque o público-alvo está vazio.
+Esse alerta avisará se uma **Ler público-alvo** A atividade não processou nenhum perfil 10 minutos após o horário agendado de execução. Essa falha pode ser causada por problemas técnicos ou porque o público-alvo está vazio.
 
 ![](assets/alerts1.png)
 
-Alertas ativados **Segmento de leitura** as atividades se aplicam somente a jornadas recorrentes. **Segmento de leitura** atividades em jornadas ativas com agendamento para execução **Uma vez** ou **Assim que possível** são ignorados.
+Alertas ativados **Ler público-alvo** as atividades se aplicam somente a jornadas recorrentes. **Ler público-alvo** atividades em jornadas ativas com agendamento para execução **Uma vez** ou **Assim que possível** são ignorados.
 
-Alertas ativados **Segmento de leitura** são resolvidos quando um perfil entra na variável **Segmento de leitura** nó.
+Alertas ativados **Ler público-alvo** são resolvidos quando um perfil entra na variável **Ler público-alvo** nó.
 
-O nome de inscrição do evento de E/S correspondente ao **Segmento de leitura** o alerta é **Atrasos, falhas e erros no segmento de leitura do Jornada**.
+O nome de inscrição do evento de E/S correspondente ao **Acionador de segmento de leitura malsucedido** o alerta é **Atrasos, falhas e erros no segmento de leitura do Jornada**.

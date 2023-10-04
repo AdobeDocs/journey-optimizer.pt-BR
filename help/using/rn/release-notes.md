@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
+source-git-commit: c6f0e43fd2dacbc1aa79aee3605f6a30c5f9c7b4
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4141'
 ht-degree: 85%
 
 ---
@@ -105,7 +105,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Alertas**
 
-* Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando um público-alvo de leitura falhar. [Saiba mais](../reports/alerts.md).
+* Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando um **Ler público-alvo** falha na atividade. [Saiba mais](../reports/alerts.md).
 
 **Canal da Web**
 
@@ -117,7 +117,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Jornadas**
 
-Ao duplicar uma jornada, agora é possível definir o nome da cópia da jornada. [Saiba mais](../building-journeys/journey-gs.md#uplicate-a-journey)
+* Ao duplicar uma jornada, agora é possível definir o nome da cópia da jornada. [Saiba mais](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 <!--
@@ -127,7 +127,7 @@ Ao duplicar uma jornada, agora é possível definir o nome da cópia da jornada.
 
 **Canal de email**
 
-Uma nova opção na configuração da superfície de email permite optar por enviar mensagens transacionais para perfis mesmo se os endereços de email estiverem no Adobe [!DNL Journey Optimizer] lista de supressão. [Saiba mais](../email/email-settings.md#send-to-suppressed-email-addresses)
+* Uma nova opção na configuração da superfície de email permite optar por enviar mensagens transacionais para perfis mesmo se os endereços de email estiverem no Adobe [!DNL Journey Optimizer] lista de supressão. [Saiba mais](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **Canal SMS**
 
@@ -137,15 +137,15 @@ Uma nova opção na configuração da superfície de email permite optar por env
 
 **Canal de correspondência direta**
 
-Agora você pode criptografar arquivos destinados aos seus provedores de correspondência direta quando eles são transferidos para um servidor. Para fazer isso, um novo campo está disponível na tela de configuração de roteamento de arquivos, permitindo copiar e colar sua chave de criptografia. [Saiba mais](../direct-mail/direct-mail-configuration.md)
+* Agora é possível criptografar arquivos destinados a seus provedores de correspondência direta quando eles são transferidos para um servidor. Para fazer isso, um novo campo está disponível na tela de configuração de roteamento de arquivos, permitindo copiar e colar sua chave de criptografia. [Saiba mais](../direct-mail/direct-mail-configuration.md)
 
 **Relatórios**
 
-Agora você pode exportar relatórios do Journey Optimizer como um arquivo CSV. Saiba mais na [documentação detalhada](../reports/global-report.md#export-reports) e a variável [vídeo explicativo](../reports/global-report.md#video-csv).
+* Agora você pode exportar relatórios do Journey Optimizer como um arquivo CSV. Saiba mais na [documentação detalhada](../reports/global-report.md#export-reports) e a variável [vídeo explicativo](../reports/global-report.md#video-csv).
 
 **Ativos**
 
-Uma nova opção do Assets permite escolher o repositório dos ativos no Journey Optimizer. Você pode optar por um repositório Assets Essentials ou as a Cloud Service do Assets, desde que seja o proprietário dessa solução. [Saiba mais](../content-management/assets-essentials.md)
+* Uma nova opção do Assets permite escolher o repositório dos ativos no Journey Optimizer. Você pode optar por um repositório Assets Essentials ou as a Cloud Service do Assets, desde que seja o proprietário dessa solução. [Saiba mais](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
