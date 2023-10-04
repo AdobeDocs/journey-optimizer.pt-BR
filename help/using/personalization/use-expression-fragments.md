@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, biblioteca, personalização
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 4d74588b5df0afab7e56e540703891c48a94ab5f
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,7 @@ ht-degree: 0%
 
 Ao usar o editor de expressão, você pode aproveitar todos os fragmentos de expressão que foram criados ou salvos na sandbox atual.
 
->[!NOTE]
->
->Saiba como criar e gerenciar fragmentos no [nesta seção](../content-management/fragments.md).
+Saiba como criar e gerenciar fragmentos no [nesta seção](../content-management/fragments.md).
 
 ➡️ [Saiba como gerenciar, criar e usar fragmentos neste vídeo](../content-management/fragments.md#video-fragments)
 
@@ -68,6 +66,10 @@ Para adicionar fragmentos de expressão ao seu conteúdo, siga as etapas abaixo.
 
 1. Em seguida, você pode personalizar e validar o conteúdo como de costume, usando todos os recursos de personalização e criação do [Editor de expressão](personalization-build-expressions.md).
 
+>[!NOTE]
+>
+>Se você criar um fragmento de expressão que contenha várias quebras de linha e usá-lo no [SMS](usi..ng/sms/create-sms.md#sms-content) ou [push](../push/design-push.md) conteúdo, as quebras de linha são preservadas. Assim, pré-visualize e teste seu [SMS](../sms/send-sms.md) ou [push](../push/send-push.md) antes de enviá-la.
+
 ## Interromper herança {#break-inheritance}
 
 Ao adicionar uma ID de fragmento ao editor de expressão, as alterações feitas no fragmento de expressão original são sincronizadas.
@@ -79,13 +81,4 @@ No entanto, também é possível colar o conteúdo de um fragmento de expressão
 Nesse caso, a herança do fragmento original é quebrada. O conteúdo do fragmento é copiado para o editor e as alterações não são mais sincronizadas.
 
 Ele se torna um elemento independente que não está mais vinculado ao fragmento original; você pode editá-lo como qualquer outro elemento no seu código.
-
-<!--
-TO REPLACE WITH UPDATED VIDEO ON EXPRESSION FRAGMENTS
-## How-to video{#video}
-
-Learn how to use saved personalization library items in a message and how to create and manage personalization library items.
-
->[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
--->
 
