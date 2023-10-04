@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 13%
+source-wordcount: '107'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,12 @@ Você pode criar uma decisão fazendo uma solicitação POST para o [!DNL Offer 
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-    @@ -22,61 +22,67 @@ A tabela a seguir mostra os valores válidos que compõem o *Content-Type* e
+A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
+
+| Nome do cabeçalho | Valor |
+| ----------- | ----- |
+| Tipo de conteúdo | `application/json` |
+
 **Formato da API**
 
 ```http

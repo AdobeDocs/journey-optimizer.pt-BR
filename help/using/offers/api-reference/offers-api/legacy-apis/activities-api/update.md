@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 10%
+source-wordcount: '158'
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,9 @@ Você pode modificar ou atualizar uma decisão no seu contêiner fazendo uma sol
 
 Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação de patch de JSON](https://jsonpatch.com/).
 
-    @@ -19,61 +19,62 @@ A tabela a seguir mostra os valores válidos que compõem o *Content-Type* e
+## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
+
+A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
