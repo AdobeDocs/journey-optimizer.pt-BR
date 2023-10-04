@@ -5,12 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 11%
+source-wordcount: '155'
+ht-degree: 10%
 
 ---
+
 
 # Criar uma coleção {#create-collection}
 
@@ -35,7 +36,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs de persistência. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O container onde as coleções estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Solicitação**
 
@@ -59,7 +61,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a coleção recém-criada, incluindo sua `id`. Você pode usar o `id` em etapas posteriores para atualizar ou excluir sua coleção ou em um tutorial posterior para criar uma decisão.
+Uma resposta bem-sucedida retorna informações sobre a coleção recém-criada, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID de instância em etapas posteriores para atualizar ou excluir sua coleção. Você pode usar sua coleção exclusiva `@id` em um tutorial posterior para criar uma decisão.
 
 ```json
 {

@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 5%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
@@ -27,8 +27,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs de persistência. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | A ID da entidade que você deseja pesquisar. | `offerCollection1234` |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O container onde as coleções estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FILTER}` | Define o esquema associado às coleções. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
+| `id` | Uma string usada para corresponder ao `@id` propriedade das entidades. A string é exatamente igual. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | Uma sequência de caracteres usada para corresponder à propriedade xdm:name das entidades. A string é exatamente igual, com maiúsculas e minúsculas, mas caracteres curinga podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Mobile demo` |
 
 **Solicitação**
 
@@ -36,10 +39,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 curl -X GET \
   'https://platform.adobe.io/data/core/xcore/ab574eca-f7a9-38d0-b3d9-297376ca9ee2/instances?schema=https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1&id=xcore:offer-filter:124bd44648f17ec1' \
   -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
--H 'Authorization: Bearer {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}'
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **Resposta**
