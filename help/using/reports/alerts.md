@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 4f4912530f6d39ba937b346f9eaccceff4b974dd
+source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,13 @@ No menu esquerdo, em **Administração**, clique em **Alertas**. Dois alertas pr
 
 ![](assets/alert-subscribe.png)
 
-Também é possível assinar alertas por meio do [Notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}No entanto, as regras de alerta são organizadas em diferentes pacotes de assinatura.
+Também é possível assinar alertas por meio do [Notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer são detalhadas abaixo.
 
 Se ocorrer um comportamento inesperado, uma notificação de alerta será enviada aos assinantes. Com base nas preferências do usuário, os alertas são enviados por email ou diretamente no centro de notificações da Journey Optimizer, no canto superior direito da interface do usuário.
 
 Quando um alerta é resolvido, os assinantes recebem uma notificação &quot;Resolvido&quot;.
 
->[!WARNING]
+>[!CAUTION]
 >
 >Os alertas específicos do Adobe Journey Optimizer se aplicam somente ao **live** jornadas. Os alertas não são acionados para jornadas no modo de teste.
 
@@ -51,7 +51,7 @@ Os alertas de ações personalizadas são resolvidos quando, nos últimos 5 minu
 
 * não ocorreu nenhum erro nessa ação personalizada (ou erros abaixo do limite de 1%),
 
-* Ou, nenhum perfil atingiu essa ação personalizada.
+* ou, nenhum perfil atingiu essa ação personalizada.
 
 O nome de inscrição do evento de E/S correspondente ao alerta de ação personalizada é **Falha na ação personalizada de Jornada**.
 
