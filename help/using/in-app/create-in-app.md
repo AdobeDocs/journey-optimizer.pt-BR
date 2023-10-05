@@ -7,14 +7,19 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
+source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1987'
 ht-degree: 12%
 
 ---
 
 # Criação de uma mensagem no aplicativo {#create-in-app}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_triggers"
+>title="Gerenciar acionadores no aplicativo"
+>abstract="Controle seus acionadores com eficiência selecionando os eventos e critérios específicos que ativarão suas mensagens. Com o construtor de regras, os usuários podem definir condições e valores precisos. Quando essas condições são atendidas, elas iniciam uma série de ações, incluindo o delivery de mensagens no aplicativo."
 
 Você pode adicionar uma mensagem no aplicativo em uma campanha ou em uma jornada. Siga as etapas detalhadas abaixo para criar uma mensagem no aplicativo em ambos os contextos.
 
