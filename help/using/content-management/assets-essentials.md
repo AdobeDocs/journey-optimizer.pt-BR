@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: assets, essentials, experience manager, integração
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: f6404776cc4cd2b83373617ce6d5e18c960d0371
+source-git-commit: 6295b7d5379b3a81d7917a8f1a6dba2a34fc3cde
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 17%
+source-wordcount: '524'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ O [!DNL Adobe Experience Manager Assets Essentials] pode ser acessado diretament
 
 ## Pré-requisitos{#assets-prerequisites}
 
-Antes de usar [!DNL Adobe Experience Manager Assets Essentials], é necessário adicionar usuários à **Usuários consumidores do Assets Essentials** ou/e **Usuários do Assets Essentials** Perfis de produto. Leia mais em [Documentação do Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=pt-BR){target="_blank"}.
+Antes de usar [!DNL Adobe Experience Manager Assets Essentials], é necessário adicionar usuários à **Usuários consumidores do Assets Essentials** ou/e **Usuários do Assets Essentials** Perfis de produto. Leia mais em [Documentação do Assets Essentials](https://experienceleague.corp.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-user-groups){target="_blank"}.
 
 >[!NOTE]
 >Para produtos do Journey Optimizer obtidos antes de 6 de janeiro de 2022, é necessário implantar o [!DNL Adobe Experience Manager Assets Essentials] para sua organização. Saiba mais na seção [Implantar o Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=pt-BR){target="_blank"}.
