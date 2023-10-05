@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d74588b5df0afab7e56e540703891c48a94ab5f
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4190'
+ht-degree: 84%
 
 ---
 
@@ -120,8 +120,9 @@ Esta versão vem com as melhorias listadas abaixo.
 * Ao duplicar uma jornada, agora é possível definir o nome da cópia da jornada. [Saiba mais](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
+
+* O suporte a respostas de ação personalizadas agora está disponível. Esse recurso permite aproveitar as respostas de chamada da API em ações personalizadas e orquestrar a jornada com base nessas respostas. Além disso, foi adicionada uma nova garantia para limitar todas as ações aduaneiras a 15.000 chamadas em 30 segundos por ponto de extremidade. [Saiba mais](../action/action-response.md)
 <!--
-* Support of custom action responses is now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s per endpoint.
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 

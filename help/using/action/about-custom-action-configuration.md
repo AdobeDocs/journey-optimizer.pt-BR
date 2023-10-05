@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1278'
 ht-degree: 12%
 
 ---
@@ -37,7 +37,7 @@ Observe também que os parâmetros de ações personalizadas têm um formato esp
 
 ## Práticas recomendadas{#custom-action-enhancements-best-practices}
 
-Um limite de 5.000 chamadas/s é definido para todas as ações personalizadas. Esse limite foi definido com base no uso pelos clientes, para proteger endpoints externos direcionados por ações personalizadas. Você precisa considerar isso nas jornadas baseadas em público-alvo definindo uma taxa de leitura apropriada (5000 perfis/s quando ações personalizadas forem usadas). Se necessário, é possível substituir essa configuração definindo um limite máximo ou limite maior por meio das APIs de Limite/Limitação. Consulte [esta página](../configuration/external-systems.md).
+Um limite de 150.000 chamadas em 30 segundos é definido para todas as ações personalizadas. Esse limite foi definido com base no uso pelos clientes, para proteger endpoints externos direcionados por ações personalizadas. Você precisa considerar isso nas jornadas baseadas em público-alvo definindo uma taxa de leitura apropriada (5000 perfis/s quando ações personalizadas forem usadas). Se necessário, é possível substituir essa configuração definindo um limite máximo ou limite maior por meio das APIs de Limite/Limitação. Consulte [esta página](../configuration/external-systems.md).
 
 Você não deve direcionar endpoints públicos com ações personalizadas por vários motivos:
 
@@ -148,7 +148,7 @@ Você poderá definir o tipo de parâmetro (por exemplo: sequência, número int
 
 Você também terá uma escolha entre especificar se um parâmetro é uma constante ou uma variável:
 
-* **Constante** significa que o valor do parâmetro é definido no painel de configuração de ação por uma pessoa técnica. O valor será sempre o mesmo nas jornadas. Ela não varia e o profissional de marketing não a verá ao usar a ação personalizada na jornada. Pode ser, por exemplo, uma ID que o sistema de terceiros espera. Nesse caso, o campo à direita da constante/variável de alternância é o valor transmitido.
+* **Constante** significa que o valor do parâmetro é definido no painel de configuração de ação por uma pessoa técnica. O valor será sempre o mesmo nas jornadas. Ela não variará e o profissional de marketing não a verá ao usar a ação personalizada na jornada. Pode ser, por exemplo, uma ID que o sistema de terceiros espera. Nesse caso, o campo à direita da constante/variável de alternância é o valor transmitido.
 * **Variável** significa que o valor do parâmetro varia. Os profissionais de marketing que usam essa ação personalizada em uma jornada poderão passar o valor desejado ou especificar onde recuperar o valor desse parâmetro (por exemplo, do evento, do Adobe Experience Platform etc.). Nesse caso, o campo à direita da constante/variável de alternância é o rótulo que os comerciantes verão na jornada para nomear esse parâmetro.
 
 ![](assets/customactionpayloadmessage2.png)
