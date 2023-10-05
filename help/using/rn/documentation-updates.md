@@ -4,10 +4,10 @@ product: journey optimizer
 title: Atualizações de documentação
 description: Conheça as atualizações de documentação mais recentes
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 16367587716c73c63c2f2207c29090b41500ecf8
 workflow-type: tm+mt
-source-wordcount: '3711'
-ht-degree: 90%
+source-wordcount: '3765'
+ht-degree: 88%
 
 ---
 
@@ -28,6 +28,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Os links para a documentação de controle de acesso foram atualizados. [Leia mais](../administration/permissions.md)
 * Os pré-requisitos do canal no aplicativo foram atualizados com os detalhes da Coleção de dados da Adobe Experience Platform. [Leia mais](../in-app/inapp-configuration.md)
 * Algumas expressões apresentadas em exemplos de fórmulas de classificação foram atualizadas para evitar erros de validação. [Leia mais](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
+* Um aviso foi adicionado ao **Definir escopos de decisão** para especificar que, se o modelo de IA for usado em um grupo de critérios de avaliação, todos os critérios de avaliação nesse grupo devem usar o método de classificação de IA, com o mesmo modelo de IA específico. Além disso, apenas um grupo de critérios de avaliação pode utilizar o modelo de IA. [Leia mais](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## Agosto de 2023 {#august-2023}
 
