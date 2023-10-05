@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '4190'
 ht-degree: 84%
@@ -121,7 +121,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 
 
-* O suporte a respostas de ação personalizadas agora está disponível. Esse recurso permite aproveitar as respostas de chamada da API em ações personalizadas e orquestrar a jornada com base nessas respostas. Além disso, foi adicionada uma nova garantia para limitar todas as ações aduaneiras a 15.000 chamadas em 30 segundos por ponto de extremidade. [Saiba mais](../action/action-response.md)
+* O suporte a respostas de ação personalizadas agora está disponível. Esse recurso permite aproveitar as respostas de chamada da API em ações personalizadas e orquestrar a jornada com base nessas respostas. Além disso, foi adicionada uma nova garantia para limitar todas as ações aduaneiras a 150.000 chamadas em 30 segundos por ponto de extremidade. [Saiba mais](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->

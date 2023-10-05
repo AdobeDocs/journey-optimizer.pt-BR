@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 12%
@@ -132,7 +132,7 @@ Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UIC
 
 1. No **[!UICONTROL Solicitação]** cole um exemplo da carga JSON para enviar ao serviço externo. Esse campo é opcional e só está disponível para métodos de chamada POST e PUT.
 
-1. No **[!UICONTROL Resposta]** cole um exemplo da carga útil retornada pela chamada. Este campo é opcional e está disponível para todos os métodos de chamada. Para obter informações detalhadas sobre como aproveitar as respostas de chamada da API em ações do cliente, consulte [esta página](../action/action-response.md).
+1. No **[!UICONTROL Resposta]** cole um exemplo da carga útil retornada pela chamada. Este campo é opcional e está disponível para todos os métodos de chamada. Para obter informações detalhadas sobre como aproveitar as respostas de chamada da API em ações personalizadas, consulte [esta página](../action/action-response.md).
 
 >[!NOTE]
 >
