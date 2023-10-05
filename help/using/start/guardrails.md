@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: ad590f7fedad10c49f5c45b34cc687df063e35a8
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 95%
+source-wordcount: '1402'
+ht-degree: 92%
 
 ---
 
@@ -66,7 +66,7 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 
 ### Ações personalizadas {#custom-actions-g}
 
-* Um limite de 150.000 chamadas em 30 segundos é definido para todas as ações personalizadas. Esse limite foi definido com base no uso pelos clientes, para proteger endpoints externos direcionados por ações personalizadas.
+* Um limite de 150.000 chamadas em 30 segundos é definido para todas as ações personalizadas. Esse limite foi definido com base no uso pelos clientes, para proteger endpoints externos direcionados por ações personalizadas. Você precisa considerar isso nas jornadas baseadas em público-alvo definindo uma taxa de leitura apropriada (5000 perfis/s quando ações personalizadas forem usadas). Se necessário, é possível substituir essa configuração definindo um limite máximo ou limite maior por meio das APIs de Limite/Limitação. Consulte [esta página](../configuration/external-systems.md).
 * O URL de ação personalizada não aceita parâmetros dinâmicos.
 * Os métodos de chamada POST, PUT e GET são compatíveis
 * O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou “$”
