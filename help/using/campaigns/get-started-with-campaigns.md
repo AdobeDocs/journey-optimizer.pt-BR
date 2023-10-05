@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 96%
 
 ---
 
 # Introdução às campanhas {#get-started-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card3"
+>title="Criar campanhas"
+>abstract="Uso **Adobe Journey Optimizer** para fornecer conteúdo único a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado."
+
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"

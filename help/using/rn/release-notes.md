@@ -4,14 +4,20 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '4190'
+source-wordcount: '4221'
 ht-degree: 84%
 
 ---
 
 # Notas de versão {#release-notes}
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card1"
+>title="Novidades?"
+>abstract="**Adobe Journey Optimizer** O oferece continuamente novos recursos, melhorias nos recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão."
 
 O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão.
 
