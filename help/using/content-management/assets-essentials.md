@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: assets, essentials, experience manager, integração
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
+source-git-commit: f6404776cc4cd2b83373617ce6d5e18c960d0371
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 17%
@@ -49,8 +49,7 @@ Para obter mais informações sobre como fazer upload de ativos, consulte [Docum
 
    ![](assets/media_library_4.png)
 
-+++
-Saiba como alternar o repositório de ativos.
++++ Saiba como alternar o repositório de ativos.
 
    Para alterar o repositório do Assets, selecione o ícone Conta no canto superior direito e clique em **[!UICONTROL Selecionar repositório]**.
 
