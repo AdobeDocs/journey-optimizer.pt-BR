@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 7906d28cbe770dd2debf079d3c646536bf7f74e4
+source-git-commit: 732b84a8945e85cb77a8d2c477f9c9a064988109
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 4%
@@ -127,7 +127,7 @@ Há duas maneiras de criar fragmentos:
 
 * Criar um fragmento do zero, usando o **[!UICONTROL Fragmentos]** menu dedicado. [Saiba como](#create-from-scratch)
 
-* Ao criar o conteúdo, salve uma parte do conteúdo como fragmento. [Saiba como](#save-as-template)
+* Ao criar o conteúdo, salve uma parte do conteúdo como fragmento. [Saiba como](#save-as-fragment)
 
 Depois de salvo, o fragmento fica disponível para uso em uma jornada, campanha ou template. Seja criado do zero ou a partir de um conteúdo existente, agora é possível usar esse fragmento ao criar qualquer conteúdo no [!DNL Journey Optimizer]. Consulte [Adicionar fragmentos visuais](../email/use-visual-fragments.md) e [Aproveitar fragmentos de expressão](../personalization/use-expression-fragments.md)
 
@@ -148,7 +148,7 @@ Para criar um fragmento do zero, siga as etapas abaixo.
 
    ![](assets/fragment-details.png)
 
-1. Selecione o tipo de fragmento: **[!UICONTROL Fragmento visual]** ou **[!UICONTROL Fragmento da expressão]**.
+1. Selecione o tipo de fragmento: [Fragmento visual](#create-visual-fragment) ou [Fragmento da expressão](#create-expression-fragment).
 
 1. Para atribuir rótulos de uso de dados personalizados ou principais ao fragmento, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Object Level Access Control)](../administration/object-based-access.md).
 
