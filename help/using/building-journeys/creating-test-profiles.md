@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: perfis de teste, teste, teste, jornada
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1367'
 ht-degree: 4%
 
 ---
@@ -42,18 +42,18 @@ Para **criar um esquema**, siga estas etapas:
 
 1. Na seção de menu DATA MANAGEMENT, clique em **[!UICONTROL Esquemas]**.
    ![](assets/test-profiles-0.png)
-1. Clique em **[!UICONTROL Criar esquema]**, na parte superior direita e selecione um tipo de esquema, por exemplo **Perfil individual XDM**.
+1. Clique em **[!UICONTROL Criar esquema]**, na parte superior direita, selecione um tipo de esquema, por exemplo **Perfil individual** e clique em **Próxima**.
    ![](assets/test-profiles-1.png)
-1. Selecione os grupos de campos apropriados. Certifique-se de adicionar o **Detalhes de teste do perfil** grupo de campos.
+1. Insira um nome para o esquema e clique em **Concluir**.
+   ![](assets/test-profiles-1-bis.png)
+1. No **Grupos de campos** , à esquerda, clique em **Adicionar$$ e selecione os grupos de campos apropriados. Certifique-se de adicionar o **Detalhes de teste do perfil** grupo de campos.
    ![](assets/test-profiles-1-ter.png)
 Depois de concluído, clique em **[!UICONTROL Adicionar grupos de campos]**: a lista de grupos de campos é exibida na tela de visão geral do schema.
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
-   >* Clique no nome do schema para alterá-lo e atualizar suas propriedades.
-   >
-   >* Clique em **[!UICONTROL Adicionar]** botão na seção Field groups para selecionar outros grupos de campos a serem adicionados ao schema
+   >Clique no nome do schema para atualizar suas propriedades.
 
 1. Na lista de campos, clique no campo que você deseja definir como a identidade principal.
    ![](assets/test-profiles-3.png)
