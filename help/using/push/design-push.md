@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 19440c38d5d663a6b5ea7e99817ee65496bb43e6
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 14%
+source-wordcount: '1407'
+ht-degree: 12%
 
 ---
 
 # Criar uma notificação por push {#design-push-notification}
 
 ## Título e corpo {#push-title-body}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-compose"
+>title="Personalize sua notificação por push."
+>abstract="Para compor a mensagem, insira o conteúdo nos campos Title e Body. Para incluir tokens de personalização, abra o diálogo de personalização."
 
 Para redigir a mensagem, clique no link **[!UICONTROL Título]** e **[!UICONTROL Corpo]** campos. Use o Editor de expressão para definir o conteúdo, personalizar os dados e adicionar conteúdo dinâmico. Saiba mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md) no Editor de expressão.
 
@@ -40,7 +45,12 @@ Você pode selecionar o comportamento quando um usuário clicar no corpo da noti
 
 ## Adicionar mídia {#add-media-push}
 
-Na versão para iOS da sua notificação por push, você pode adicionar uma imagem, um vídeo ou um GIF que será exibido na notificação.
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-media"
+>title="Adicionar mídia à notificação por push"
+>abstract="Você pode adicionar uma imagem, um vídeo ou um GIF que são exibidos em sua notificação."
+
+Na versão para iOS da notificação por push, é possível adicionar uma imagem, um vídeo ou um GIF que são exibidos na notificação.
 
 Na versão do Android, só é possível adicionar um ícone de imagem e uma imagem para notificações expandidas.
 
@@ -57,6 +67,11 @@ Estão disponíveis duas opções. É possível:
 Depois de adicionada, a mídia é exibida à direita do corpo de notificação.
 
 ## Adicionar botões {#add-buttons-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-buttons"
+>title="Adicione botões para que os usuários interajam com sua notificação por push."
+>abstract="Esta seção permitirá que você adicione botões de chamada para ação à mensagem. Para o iOS, especifique um identificador de categoria de notificação. Para o Android, você pode incluir texto personalizado e destinos para cada botão."
 
 Crie uma notificação acionável adicionando botões ao seu conteúdo de push.
 
@@ -85,11 +100,21 @@ Selecione o **[!UICONTROL Notificação silenciosa]** opção para notificar sil
 
 Use o **[!UICONTROL Dados personalizados]** seção para adicionar pares de valor-chave.
 
-## Dados personalizados
+## Dados personalizados {#custom-data}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-custom"
+>title="Configure dados personalizados para sua notificação por push."
+>abstract="Adicione variáveis personalizadas à carga, dependendo da configuração do aplicativo móvel."
 
 No **[!UICONTROL Dados personalizados]** você pode adicionar variáveis personalizadas à carga, dependendo da configuração do seu aplicativo móvel. Para obter mais informações sobre como configurar notificações por push no Adobe Experience Platform e no Adobe Launch, consulte [nesta seção](push-gs.md)
 
 ## Opções avançadas {#advanced-options-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-advanced"
+>title="Configure opções avançadas para sua notificação por push."
+>abstract="Esta seção permite aprimorar a personalização da sua notificação por push."
 
 Você pode configurar **[!UICONTROL Opções avançadas]** para sua notificação por push. Os parâmetros disponíveis estão listados abaixo:
 

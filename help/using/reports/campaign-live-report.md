@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: e5dec38e5dc38904378fc0685f4b056e097f29a3
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 6%
+source-wordcount: '1859'
+ht-degree: 4%
 
 ---
 
@@ -40,9 +40,9 @@ A campanha **[!UICONTROL Relatório ao vivo]** O é dividido em widgets diferent
 
 Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Optimizer, consulte [esta página](live-report.md#list-of-components-live).
 
-## Guia Campanha {#campaign-global}
+## Guia Campanha {#campaign-live}
 
-### Entrega {#delivery-global}
+### Entrega {#delivery-live}
 
 A variável **[!UICONTROL Estatísticas de campanha]** o widget detalha as principais informações relacionadas à sua campanha:
 
@@ -103,6 +103,21 @@ A variável **[!UICONTROL Email - Principal domínio de destinatário]** O gráf
 
 ## Guia No aplicativo {#inapp-live}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_performance"
+>title="Desempenho no aplicativo"
+>abstract="Os KPIs de desempenho no aplicativo fornecem insights essenciais sobre o envolvimento dos visitantes com mensagens no aplicativo nas últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_interactions"
+>title="Interações por tipo"
+>abstract="Os gráficos de Interações por tipo e a tabela detalham como os usuários interagiram com sua mensagem no aplicativo rastreando qualquer clique, descarte ou interação nas últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_summary"
+>title="Resumo no aplicativo"
+>abstract="O gráfico de resumo no aplicativo ilustra o progresso de suas impressões e interações no aplicativo nas últimas 24 horas."
+
 Da sua campanha **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL No aplicativo]** A guia detalha as principais informações relativas aos deliveries no aplicativo enviados em sua campanha.
 
 +++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório No aplicativo.
@@ -121,13 +136,43 @@ A variável **[!UICONTROL Interações por tipo]** os gráficos e tabelas detalh
 
 ## Guia Notificação por push {#push-live}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_sending_performance"
+>title="Notificação por push - Desempenho de envio"
+>abstract="O gráfico de Desempenho de envio de notificação por push resume dados essenciais sobre suas notificações por push, como Erros ou Mensagens entregues, das últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_statistics"
+>title="Notificação por push - Estatísticas"
+>abstract="A tabela Estatísticas de push fornece dados sobre a atividade do recipient para seu delivery das últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_sending_summary"
+>title="Notificação por push - Resumo de envio"
+>abstract="O gráfico Resumo do envio de notificações por push exibe os dados disponíveis para notificações por push enviadas nas últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_excluded_reasons"
+>title="Notificação por push - Motivos excluídos"
+>abstract="Os gráficos e a tabela Motivos excluídos ilustram os vários fatores que levaram aos perfis de usuário, excluídos do público-alvo direcionado, a não receber a mensagem nas últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_error_reasons"
+>title="Notificação por push - Motivos de erro"
+>abstract="Os gráficos e a tabela de Motivos de erro permitem identificar os erros específicos que ocorreram nas últimas 24 horas durante o delivery."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_breakdown_platform"
+>title="Notificação por push - Detalhamento por plataforma"
+>abstract="Os gráficos e a tabela Detalhamento por plataforma fornecem uma análise do sucesso de suas notificações por push nas últimas 24 horas com base no sistema operacional do recipient."
+
 Da sua campanha **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL Notificação por push]** A guia detalha as principais informações relativas aos deliveries por push enviados em sua campanha.
 
 ![](assets/campaign_report_live_2.png)
 
 +++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório Push.
 
-**[!UICONTROL Desempenho de envio de notificação por push]**, **[!UICONTROL Resumo da notificação por push]** e **[!UICONTROL Métricas de envio - por push]** widgets detalha as principais informações relacionadas à sua mensagem:
+**[!UICONTROL Desempenho de envio de notificação por push]**, **[!UICONTROL Resumo da notificação por push]** e **[!UICONTROL Notificação por push - Estatísticas]** widgets detalha as principais informações relacionadas à sua mensagem:
 
 * **[!UICONTROL Enviado]**: Número total de envios para o delivery.
 
@@ -151,6 +196,31 @@ A variável **[!UICONTROL Rastreamento por plataforma]**, **[!UICONTROL Envio po
 +++
 
 ## Guia SMS {#sms-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_statistics"
+>title="SMS - Estatísticas"
+>abstract="A tabela Estatísticas de envio de SMS resume dados essenciais sobre suas mensagens SMS, como mensagens Segmentadas ou Entregues nas últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_performance"
+>title="SMS - Desempenho por data"
+>abstract="O widget Desempenho por data do SMS fornece informações importantes das últimas 24 horas sobre suas mensagens por meio de uma representação gráfica."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_error_reasons"
+>title="SMS - Motivos de erro"
+>abstract="Os gráficos e a tabela SMS - Error Reasons permitem identificar os erros específicos que ocorreram nas últimas 24 horas durante o delivery."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_excluded_reasons"
+>title="SMS - Motivos excluídos"
+>abstract="Os gráficos e a tabela Motivos excluídos ilustram os vários fatores que levaram aos perfis de usuário, excluídos do público-alvo direcionado, a não receber a mensagem nas últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_bounces_reasons"
+>title="SMS - Motivos de rejeições"
+>abstract="Os gráficos e a tabela de Motivos de rejeições contêm os dados disponíveis nas últimas 24 horas relacionadas às mensagens rejeitadas."
 
 Da sua campanha **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL SMS]** A guia detalha as principais informações relativas aos deliveries de SMS enviados em sua campanha.
 
@@ -185,6 +255,21 @@ A variável **[!UICONTROL Excluir motivos]**, **[!UICONTROL Motivos de rejeiçõ
 
 ## Guia Web {#web-tab}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_performance"
+>title="Desempenho da Web"
+>abstract="Os KPIs de desempenho da Web fornecem informações abrangentes sobre o engajamento dos visitantes com as experiências da Web nas últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_summary"
+>title="Resumo da Web"
+>abstract="O gráfico Resumo da Web ilustra a progressão de suas experiências na Web, incluindo impressões, impressões exclusivas e interações, das últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_interactions"
+>title="Interações por elemento"
+>abstract="A tabela Interactions by Element fornece informações principais sobre o envolvimento dos visitantes com diferentes elementos em suas páginas da Web nas últimas 24 horas."
+
 Da sua campanha **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL Web]** A guia detalha as informações principais relativas às páginas da Web.
 
 +++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório da Web.
@@ -202,7 +287,22 @@ A variável **[!UICONTROL Interações por elemento]** A tabela detalha as princ
 
 ## Guia Correspondência direta {#direct-mail-tab}
 
-Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Correspondência direta]** A guia detalha as principais informações relacionadas aos deliveries de correspondência direta.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_sending_statistics"
+>title="Correspondência direta - Estatísticas de envio"
+>abstract="A tabela Estatísticas de envio de correspondência direta resume dados essenciais das últimas 24 horas sobre suas mensagens de correspondência direta, como mensagens direcionadas ou entregues."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_error_reasons"
+>title="Correspondência direta - Motivos de erro"
+>abstract="Os gráficos e a tabela Mala direta - Motivos de erro permitem identificar os erros específicos ocorridos nas últimas 24 horas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_excluded_reasons"
+>title="Correspondência direta - Motivos excluídos"
+>abstract="Os gráficos e a tabela Motivos excluídos da correspondência direta ilustram os vários fatores que levaram aos perfis de usuário, excluídos do público-alvo direcionado, a não receber a mensagem nas últimas 24 horas."
+
+Da sua campanha **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL Correspondência direta]** A guia detalha as principais informações relacionadas aos deliveries de correspondência direta.
 
 ![](assets/direct-mail-report_2.png)
 
