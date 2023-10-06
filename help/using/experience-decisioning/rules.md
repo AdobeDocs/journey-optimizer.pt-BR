@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 7437268e87cc2c71bec394fbef1b512b31946cf5
+source-git-commit: 4b23f9fa2d6d7d12988f3c590d6e835637c05bea
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '280'
 ht-degree: 6%
 
 ---
@@ -39,7 +39,10 @@ As regras de decisão permitem definir o público-alvo dos itens de decisão apl
 
 Por exemplo, vamos considerar um cenário onde você tem itens de decisão com produtos relacionados a Yoga projetados para mulheres. Com as regras de decisão, você pode especificar que esses itens só devem ser exibidos para perfis cujo gênero é &quot;Feminino&quot; e que indicaram um &quot;Ponto de interesse&quot; em &quot;Yoga&quot;.
 
-Além das regras de decisão em nível de estratégia de seleção e item, você também pode criar parâmetros adicionais para o público-alvo desejado no nível da campanha. [Saiba mais](../campaigns/create-campaign.md)
+>[!NOTE]
+>
+>Além das regras de decisão em nível de estratégia de seleção e item, você também pode definir o público-alvo desejado no nível da campanha. [Saiba mais](../campaigns/create-campaign.md#audience)
+
 
 A lista de regras de decisão está acessível no **[!UICONTROL Configuração]** / **[!UICONTROL Regras de decisões]** menu.
 
@@ -49,7 +52,7 @@ A lista de regras de decisão está acessível no **[!UICONTROL Configuração]*
 >
 >Journey Optimizer Por enquanto, as regras de decisão são gerenciadas usando o **Gerenciamento de decisão** menu. Como resultado, a **[!UICONTROL Regras de decisão]** A lista no Experience Decisioning inclui regras criadas com base na Journey Optimizer **[!UICONTROL Gerenciamento de decisão]** ou **[!UICONTROL Experience Decisioning]** menus.
 
-Para criar uma coleção, siga estas etapas:
+Para criar uma regra, siga estas etapas:
 
 1. Navegue até **[!UICONTROL Configuração]** / **[!UICONTROL Regras de decisão]**.
 1. A interface do usuário de Gestão de decisões da Journey Optimizer é exibida na área central. Siga as etapas detalhadas na seção [Documentação da gestão de decisões](../offers/offer-library/creating-decision-rules.md) para criar a regra com base nas suas necessidades.
