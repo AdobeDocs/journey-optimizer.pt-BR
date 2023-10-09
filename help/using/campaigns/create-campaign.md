@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
+source-git-commit: 78744537149a18b2e5c8b54689de97c350939a00
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 28%
+source-wordcount: '933'
+ht-degree: 27%
 
 ---
 
@@ -139,6 +139,11 @@ No **[!UICONTROL Namespace de identidade]** escolha o namespace a ser usado para
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## Programar a campanha {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule"
+>title="Programação de campanha"
+>abstract="Por padrão, as campanhas começam após a ativação manual e terminam imediatamente após a mensagem ser enviada uma vez. No entanto, você tem a flexibilidade de definir uma data e hora específicas para a mensagem a ser enviada. Além disso, é possível especificar uma data de término para campanhas recorrentes ou acionadas por API. Nos acionadores de Ação, você também pode configurar a frequência de envio da mensagem de acordo com suas preferências."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
