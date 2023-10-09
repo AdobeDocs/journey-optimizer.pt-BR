@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
-workflow-type: tm+mt
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
@@ -48,6 +48,9 @@ Nas listas, é possível executar ações básicas em cada elemento. Por exemplo
 ## Trabalhar com tags unificadas {#tags}
 
 Com as [tags unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=pt-BR) da Adobe Experience Platform, é possível classificar facilmente suas jornadas e campanhas do Journey Optimizer para melhorar a pesquisa nas listas.
+
+![](../rn/assets/do-not-localize/campaigns-tag.gif)
+
 
 ### Adição de tags a um objeto
 
