@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 6295b7d5379b3a81d7917a8f1a6dba2a34fc3cde
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -45,7 +45,7 @@ Para obter mais informações sobre como fazer upload de ativos, consulte [Docum
 
    ![](assets/media_library_1.png)
 
-1. Escolha o repositório dos ativos no Journey Optimizer. Você pode optar por um repositório Assets Essentials ou as a Cloud Service do Assets, desde que seja o proprietário dessa solução.
+1. Escolha o repositório dos ativos no Journey Optimizer. Você pode optar por um repositório do Assets Essentials ou um repositório do Assets as a Cloud Service, desde que seja o proprietário dessa solução.
 
    ![](assets/media_library_4.png)
 

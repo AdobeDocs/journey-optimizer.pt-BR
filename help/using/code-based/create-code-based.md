@@ -12,7 +12,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -31,7 +31,7 @@ O que há neste guia de documentação:
 
 >[!AVAILABILITY]
 >
->O canal de experiência baseado em código está disponível no momento como uma versão beta somente para usuários selecionados. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
+>O canal de experiência baseada em código está disponível no momento como um beta somente para usuários(as) selecionados. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
 
 ## Criar uma campanha baseada em código {#create-code-based-campaign}
 

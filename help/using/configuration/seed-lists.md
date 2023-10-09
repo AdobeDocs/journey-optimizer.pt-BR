@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: seed list, seed list, seed, configuração
-source-git-commit: f6708555d20fd04beb85574afd46e75be654d4e6
+exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 22%
@@ -154,4 +155,3 @@ Agora, sempre que uma mensagem de email for enviada aos seus clientes por meio d
 >[!NOTE]
 >
 >Para o jornada, o delivery de email é enviado aos seed addresses somente na primeira execução da jornada.
-

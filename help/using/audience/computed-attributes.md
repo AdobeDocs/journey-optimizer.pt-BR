@@ -6,13 +6,13 @@ description: Saiba como trabalhar com atributos computados.
 feature: Profiles
 role: User
 level: Beginner
-source-git-commit: 608394da88d42095a1adc517a067c725eac52707
+exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
-
 
 # Trabalhar com atributos computados {#computed-attributes}
 
@@ -34,7 +34,7 @@ Nessa tela, você pode construir atributos calculados construindo regras que com
 
 Quando a regra estiver pronta, publique o atributo computado para disponibilizá-lo em outros serviços downstream, incluindo o Journey Optimizer.
 
-Informações detalhadas sobre como criar e gerenciar atributos calculados estão disponíveis na [Documentação de atributos computados](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html)
+Informações detalhadas sobre como criar e gerenciar atributos calculados estão disponíveis na [Documentação de atributos computados](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=pt-BR)
 
 ## Adicionar atributos calculados à fonte de dados do Adobe Experience Platform {#source}
 

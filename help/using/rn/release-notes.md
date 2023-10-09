@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 9de7c9e6cf4a581ca089785467bf838f8e9943a7
 workflow-type: tm+mt
 source-wordcount: '4254'
-ht-degree: 83%
+ht-degree: 97%
 
 ---
 
@@ -43,8 +43,8 @@ Essa versão traz os novos recursos listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Os atributos computados permitem resumir facilmente os dados do evento em atributos de perfil por meio de uma interface de usuário intuitiva para segmentação, personalização e ativação avançadas com base em comportamento. Com esse recurso, você pode criar atributos computados de maneira automatizada, gerenciá-los e usá-los na segmentação, destinos de Perfil do cliente em tempo real ou Journey Optimizer.<br/><br/>
-Além disso, os atributos computados simplificam a segmentação e os fluxos de trabalho de jornada para ajudá-lo a fornecer experiências relevantes de maneira contínua. Saiba mais na <a href="../audience/computed-attributes.md">documentação detalhada</a>.</p>
+<p>Os atributos computados permitem resumir facilmente os dados do evento em atributos de perfil por meio de uma interface intuitiva para segmentação, personalização e ativação aprimoradas com base em comportamento. Com esse recurso, você pode criar atributos computados de maneira independente, gerenciá-los e usá-los na segmentação, nos destinos do Perfil do cliente em tempo real ou no Journey Optimizer.<br/><br/>
+Além disso, os atributos computados simplificam os fluxos de trabalho de jornada e segmentação, ajudando a fornecer experiências relevantes perfeitamente. Saiba mais na <a href="../audience/computed-attributes.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -54,16 +54,16 @@ Além disso, os atributos computados simplificam a segmentação e os fluxos de 
 <table>
 <thead>
 <tr>
-<th><strong>Relatórios de canal consolidado</strong><br/></th>
+<th><strong>Relatórios de canal consolidados</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>O recurso Relatório de canal oferece aos analistas e profissionais de marketing uma visão geral abrangente das métricas de tráfego e engajamento no nível do canal.</p>
-<p>Para acessar o <b>Relatório</b> , você deve ter o <b>Exibir Relatórios de Canal</b> permissão.</p>
+<p>Para acessar o menu <b>Relatório</b>, é necessário ter a permissão <b>Exibir Relatórios de Canal</b>.</p>
 <img src="assets/channel-reports.png"/>
-<p>Para obter mais informações, consulte <a href="../reports/channel-report.md">documentação detalhada</a>, e <a href="../reports/channel-report.md#channel-report-video">vídeo explicativo</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../reports/channel-report.md">documentação detalhada</a> e o <a href="../reports/channel-report.md#channel-report-video">vídeo explicativo</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -78,7 +78,7 @@ Além disso, os atributos computados simplificam a segmentação e os fluxos de 
 <tbody>
 <tr>
 <td>
-<p>A exportação de conjuntos de dados do Journey Optimizer para Destinos de armazenamento na nuvem agora está disponível para o público em geral. Com esse recurso, é possível estabelecer uma conexão ativa com locais de armazenamento na nuvem para exportar o conteúdo dos conjuntos de dados.</p>
+<p>A exportação de conjuntos de dados do Journey Optimizer para destinos de armazenamento na nuvem agora está disponível. Com esse recurso, é possível estabelecer uma conexão ativa com locais de armazenamento na nuvem para exportar o conteúdo dos conjuntos de dados.</p>
 <img src="../data/assets/dataset-export-setup.png">
 <p>Para obter mais informações, consulte a <a href="../data/export-datasets.md">documentação detalhada</a>.</p>
 </td>
@@ -119,32 +119,32 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Canal da Web**
 
-* Agora, os aplicativos de página única (SPA) podem ser criados no editor visual da Web, o que permite selecionar em quais exibições específicas você deseja aplicar as modificações da página da Web. Uma exibição pode ser definida como um site inteiro ou um grupo de elementos visuais em um site, como a página inicial, o site de produtos inteiro ou o quadro de preferências de entrega em todas as páginas de check-out. É necessária uma configuração de desenvolvedor única para definir as exibições na implementação do SDK da Web da Adobe Experience Platform. Isso permite que os profissionais de marketing criem e executem campanhas da Web do Adobe Journey Optimizer no SPA. [Saiba mais](../web/web-spa.md)
+* Agora, os aplicativos de página única (SPA) podem ser criados no editor visual da Web, o que permite selecionar em quais exibições específicas você deseja aplicar as modificações da página da Web. Uma exibição pode ser definida como um site inteiro ou um grupo de elementos visuais de um site, como a página inicial, a totalidade do site de produtos ou o quadro de preferências de entrega em todas as páginas de check-out. É necessária a configuração do desenvolvedor uma única vez para definir as exibições na implementação do SDK da Web da Adobe Experience Platform. Isso permite que os profissionais de marketing criem e executem campanhas da Web do Adobe Journey Optimizer em SPAs. [Saiba mais](../web/web-spa.md)
 
-* Ao editar uma página usando o web designer, agora é possível adicionar novas alterações ao conteúdo diretamente do painel Modificações, sem a necessidade de selecionar um componente e editá-lo na interface do designer. [Saiba mais](../web/manage-web-modifications.md#add-modifications)
+* Ao editar uma página usando o designer da Web, agora é possível adicionar novas alterações ao conteúdo diretamente do painel Modificações, sem a necessidade de selecionar um componente e editá-lo na interface do designer. [Saiba mais](../web/manage-web-modifications.md#add-modifications)
 
-* Ao configurar subdomínios da Web, agora há a opção de adicionar seu próprio subdomínio, além de usar um subdomínio já delegado ao Adobe. [Saiba mais](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
+* Ao configurar subdomínios da Web, agora há a opção de adicionar seu próprio subdomínio, além de usar um subdomínio já delegado à Adobe. [Saiba mais](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **Jornadas**
 
-* Ao duplicar uma jornada, agora é possível definir o nome da cópia da jornada. [Saiba mais](../building-journeys/journey-gs.md#uplicate-a-journey)
+* Agora é possível definir o nome da cópia da jornada ao duplicá-la. [Saiba mais](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 
-* O suporte a respostas de ação personalizadas agora está disponível. Esse recurso permite aproveitar as respostas de chamada da API em ações personalizadas e orquestrar a jornada com base nessas respostas. Além disso, foi adicionada uma nova garantia para limitar todas as ações aduaneiras a 150.000 chamadas em 30 segundos por ponto de extremidade. [Saiba mais](../action/action-response.md)
+* O suporte a respostas de ação personalizadas agora é GA. Esse recurso permite aproveitar as respostas de chamada da API em ações personalizadas e orquestrar a jornada com base nessas respostas. Além disso, foi adicionada uma nova garantia para limitar todas as ações aduaneiras a 150.000 chamadas em 30 segundos por ponto de extremidade. [Saiba mais](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
 **Canal de email**
 
-* Uma nova opção na configuração da superfície de email permite optar por enviar mensagens transacionais para perfis mesmo se os endereços de email estiverem no Adobe [!DNL Journey Optimizer] lista de supressão. [Saiba mais](../email/email-settings.md#send-to-suppressed-email-addresses)
+* Uma nova opção na configuração da superfície de email permite optar por enviar mensagens transacionais para perfis mesmo que os endereços de email estejam na lista de supressão do Adobe [!DNL Journey Optimizer]. [Saiba mais](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **Canal SMS**
 
-* Dois novos campos, **Mensagem de Opt-in** e **Mensagem de ajuda**, foram adicionados à tela Configuração de API, permitindo que os usuários personalizem respostas para palavras-chave de entrada. Observe que isso só está disponível para o provedor de SMS Sinch. [Saiba mais](../sms/sms-configuration.md#create-api)
+* Dois novos campos, **Mensagem de aceitação** e **Mensagem de ajuda**, foram adicionados à tela de configuração da API, permitindo personalizar respostas para palavras-chave de entrada. Observe que isso só está disponível para o provedor de SMS Sinch. [Saiba mais](../sms/sms-configuration.md#create-api)
 
-* A recusa de SMS não é mais gerenciada no nível do canal. Agora, ela é específica de número, o que significa que, se alguns perfis optarem por não participar de um determinado número ou código curto, você ainda poderá enviar mensagens para eles a partir de outros números que possa estar usando para enviar mensagens SMS. Uma nova opção permite selecionar a variável **Número de recusa** que você deseja usar em uma determinada superfície. [Saiba mais](../sms/sms-configuration.md#message-preset-sms)
+* A recusa de SMS não é mais gerenciada no nível do canal. Agora é específico para um número, o que significa que se alguns perfis optarem por não receber um determinado número ou código curto, você ainda poderá enviar mensagens de outros números que possa estar usando para enviar mensagens SMS. Uma nova opção permite selecionar o **Número de recusa** que deseja usar em uma determinada superfície. [Saiba mais](../sms/sms-configuration.md#message-preset-sms)
 
 **Canal de correspondência direta**
 
@@ -152,11 +152,11 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Relatórios**
 
-* Agora você pode exportar relatórios do Journey Optimizer como um arquivo CSV. Saiba mais na [documentação detalhada](../reports/global-report.md#export-reports) e a variável [vídeo explicativo](../reports/global-report.md#video-csv).
+* Agora é possível exportar os relatórios do Journey Optimizer como arquivos CSV. Saiba mais na [documentação detalhada](../reports/global-report.md#export-reports) e no [vídeo explicativo](../reports/global-report.md#video-csv).
 
 **Ativos**
 
-* Uma nova opção do Assets permite escolher o repositório dos ativos no Journey Optimizer. Você pode optar por um repositório Assets Essentials ou as a Cloud Service do Assets, desde que seja o proprietário dessa solução. [Saiba mais](../content-management/assets-essentials.md)
+* Uma nova opção de ativos permite escolher o repositório dos ativos no Journey Optimizer. Você pode optar por um repositório do Assets Essentials ou um repositório do Assets as a Cloud Service, desde que seja o proprietário dessa solução. [Saiba mais](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 

@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
@@ -36,7 +37,7 @@ Para poder usar ações de experiência baseadas em código no [!DNL Journey Opt
 
 ## Observações de cuidado {#caution-notes-web}
 
-* O canal de experiência baseado em código está disponível no momento como uma versão beta somente para usuários selecionados. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
+* O canal de experiência baseada em código está disponível no momento como um beta somente para usuários(as) selecionados. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
 
 * Atualmente em [!DNL Journey Optimizer] você só pode criar experiências baseadas em código no **campanhas**. [Saiba mais](../campaigns/create-campaign.md#configure)
 
@@ -79,5 +80,3 @@ Saiba como adicionar conjuntos de dados para relatórios de experimento de conte
 >[!NOTE]
 >
 >O conjunto de dados é usado como somente leitura pelo [!DNL Journey Optimizer] sistema de relatórios e não afeta a coleta ou a assimilação de dados.
-
-

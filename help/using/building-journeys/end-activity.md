@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Atividade “Fim”
+title: Terminar atividade
 description: Saiba como usar a atividade final
 feature: Journeys
 topic: Content Management
@@ -16,7 +16,7 @@ ht-degree: 78%
 
 ---
 
-# Atividade “Fim”{#end-activity}
+# Terminar atividade{#end-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_end"

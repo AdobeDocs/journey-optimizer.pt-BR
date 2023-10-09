@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 3%
 
 O que há neste guia de documentação:
 
-* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
+* [Introdução ao Offer Decisioning](gs-experience-decisioning.md)
 * Gerencie seus itens de decisão
    * [Configurar o catálogo de itens](catalogs.md)
    * [Criar itens de decisão](items.md)
@@ -117,4 +118,3 @@ Depois de criada, é possível usar essa fórmula em uma estratégia de seleçã
 Você também pode usar um sistema de modelo treinado que classifica automaticamente as ofertas para exibição em determinado perfil ao selecionar um modelo de IA. Saiba como criar um modelo de IA no [nesta seção](ranking.md).
 
 Depois que um modelo de IA é criado, você pode usá-lo em uma estratégia de seleção. Se várias ofertas forem qualificadas, o sistema de modelo treinado determinará qual oferta deve ser apresentada primeiro para essa estratégia de seleção.
-

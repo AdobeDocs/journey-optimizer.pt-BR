@@ -9,50 +9,50 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 7e9984aee1eba29a2757b025ca0aa1092d95a761
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 7%
+ht-degree: 93%
 
 ---
 
-# Guia do desenvolvedor da API de Gestão de decisões {#decision-management-api-developer-guide}
+# Manual do desenvolvedor da API de Gestão de decisões {#decision-management-api-developer-guide}
 
 >[!CONTEXTUALHELP]
 >id="od_api_support"
 >title="Novas APIs de gestão de decisões"
 >abstract="Novas APIs para criação e gerenciamento de objetos de gestão de decisões já estão disponíveis. As apis herdadas serão compatíveis até 27/03/2024."
 
-Este guia do desenvolvedor fornece etapas para ajudar você a começar a usar o [!DNL Offer Library] API. O guia fornece chamadas de API de amostra para executar operações importantes usando o mecanismo de decisão.
+Este manual do desenvolvedor fornece etapas para ajudar a começar a usar a API [!DNL Offer Library]. O manual fornece chamadas de API de amostra para executar operações importantes usando o mecanismo de decisão.
 
 ➡️ [Saiba mais sobre os componentes da Gestão de decisões neste vídeo](#video)
 
 ## Pré-requisitos {#prerequisites}
 
-Este guia requer uma compreensão funcional dos seguintes componentes do Adobe Experience Platform:
+Este manual necessita de uma compreensão funcional dos seguintes componentes da Adobe Experience Platform:
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}: o quadro normalizado pelo qual [!DNL Experience Platform] organiza os dados de experiência do cliente.
-   * [Noções básicas da composição do esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR){target="_blank"}: saiba mais sobre os blocos de construção básicos de esquemas XDM.
-* [Gerenciamento de decisão](../../../using/offers/get-started/starting-offer-decisioning.md): explica os conceitos e componentes usados no Experience Decisioning em geral e na gestão de decisões em particular. Ilustra as estratégias usadas para escolher a melhor opção a ser apresentada durante a experiência de um cliente.
-* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target="_blank"}: o PQL é uma linguagem avançada para gravar expressões em instâncias XDM. O PQL é usado para definir regras de decisão.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}: a estrutura padronizada pela qual a [!DNL Experience Platform] organiza os dados de experiência do cliente.
+   * [Noções básicas da composição de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR){target="_blank"}: saiba mais sobre os blocos de construção básicos de esquemas XDM.
+* [Gestão de decisões](../../../using/offers/get-started/starting-offer-decisioning.md): explica os conceitos e componentes usados no Offer Decisioning em geral, particularmente a gestão de decisões. Ilustra as estratégias usadas para escolher a melhor opção a ser apresentada durante a experiência de um(a) cliente.
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=pt-BR){target="_blank"}: o PQL é uma linguagem avançada para gravar expressões em instâncias XDM. O PQL é usado para definir regras de decisão.
 
 ## Leitura de chamadas de API de amostra {#reading-sample-api-calls}
 
-Este guia fornece exemplos de chamadas de API para demonstrar como formatar suas solicitações. Isso inclui caminhos, cabeçalhos necessários e cargas de solicitação formatadas corretamente. O exemplo de JSON retornado nas respostas da API também é fornecido. Para obter informações sobre as convenções usadas na documentação para chamadas de API de exemplo, consulte a seção sobre [como ler chamadas de API de exemplo](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target="_blank"} no [!DNL Experience Platform] guia de solução de problemas.
+Este manual fornece exemplos de chamadas de API para demonstrar como formatar suas solicitações. Isso inclui caminhos, cabeçalhos necessários e conteúdos de solicitação formatados corretamente. Também fornece exemplos de JSON retornado nas respostas da API. Para obter informações sobre as convenções usadas na documentação para chamadas de API de exemplo, consulte a seção sobre [como ler chamadas de API de exemplo](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=pt-BR#how-do-i-format-an-api-request){target="_blank"} no manual de solução de problemas da [!DNL Experience Platform].
 
-## Coletar valores para cabeçalhos obrigatórios {#gather-values-for-required-headers}
+## Coletar valores para cabeçalhos necessários {#gather-values-for-required-headers}
 
-Para fazer chamadas para [!DNL Adobe Experience Platform] APIs, primeiro conclua o [tutorial de autenticação](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=pt-BR){target="_blank"}. Concluir o tutorial de autenticação fornece os valores para cada um dos cabeçalhos necessários em todos os [!DNL Experience Platform] Chamadas de API, conforme mostrado abaixo:
+Para fazer chamadas para APIs da [!DNL Adobe Experience Platform], primeiro conclua o [tutorial de autenticação](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=pt-BR){target="_blank"}. Concluir o tutorial de autenticação fornece os valores para cada um dos cabeçalhos necessários em todas as chamadas de API da [!DNL Experience Platform], conforme mostrado abaixo:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
 * `x-gw-ims-org-id: {IMS_ORG}`
 * `x-sandbox-name: {SANDBOX_NAME}`
 
-Todas as solicitações que contêm uma carga (POST, PUT, PATCH) exigem um cabeçalho adicional:
+Todas as solicitações que contêm um conteúdo (POST, PUT, PATCH) exigem um cabeçalho adicional:
 
 * `Content-Type: application/json`
 
 ## Próximas etapas {#next-steps}
 
-Este documento cobriu os conhecimentos necessários para fazer chamadas para o [!DNL Offer Library] API. Agora você pode prosseguir para as chamadas de amostra fornecidas neste guia do desenvolvedor e seguir junto com as instruções.
+Este documento cobriu os conhecimento necessários para fazer chamadas para a API da [!DNL Offer Library]. Agora você pode prosseguir para as chamadas de amostra fornecidas neste manual do desenvolvedor e seguir suas instruções.
 <!--
 >[!NOTE]
 >

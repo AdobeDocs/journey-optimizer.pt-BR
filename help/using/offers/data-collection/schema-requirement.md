@@ -10,11 +10,11 @@ exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 2130d3b02d6d4f21518ce4e8eecc244d24b87ba2
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# Configurar coleção de dados {#schema-requirements}
+# Configurar a coleção de dados {#schema-requirements}
 
 Para obter feedback sobre tipos de evento diferentes dos eventos de decisão, você deve definir o valor correto para cada tipo de evento em um **evento de experiência** que é enviado para o Adobe Experience Platform.
 

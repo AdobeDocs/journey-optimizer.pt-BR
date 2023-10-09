@@ -14,7 +14,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 14%
 O que há neste guia de documentação:
 
 * [Introdução ao aquecimento de IP](ip-warmup-gs.md)
-* [Criação de campanhas de aquecimento de IP](ip-warmup-campaign.md)
+* [Criar campanhas de aquecimento de IP](ip-warmup-campaign.md)
 * **[Criar um plano de aquecimento de IP](ip-warmup-plan.md)**
 * [Executar o plano de aquecimento de IP](ip-warmup-execution.md)
 
@@ -121,7 +121,7 @@ Por exemplo, se você adicionar o domínio personalizado Luma, desejará que os 
 >title="Selecione uma superfície de marketing"
 >abstract="Você precisa selecionar a mesma superfície que a selecionada na campanha que deseja associar ao plano de aquecimento de IP."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=pt-BR" text="Configurar superfícies de canais"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=pt-BR" text="Criação de campanhas de aquecimento de IP"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=pt-BR" text="Criar campanhas de aquecimento de IP"
 
 Quando uma ou mais campanhas ativas com o **[!UICONTROL Ativação do plano de aquecimento de IP]** estiver ativada, você poderá associá-los a um plano de aquecimento de IP.
 

@@ -14,7 +14,7 @@ exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 27%
 O que há neste guia de documentação:
 
 * **[Introdução ao aquecimento de IP](ip-warmup-gs.md)**
-* [Criação de campanhas de aquecimento de IP](ip-warmup-campaign.md)
+* [Criar campanhas de aquecimento de IP](ip-warmup-campaign.md)
 * [Criar um plano de aquecimento de IP](ip-warmup-plan.md)
 * [Executar o plano de aquecimento de IP](ip-warmup-execution.md)
 
@@ -40,9 +40,9 @@ O que há neste guia de documentação:
 
 >[!AVAILABILITY]
 >
->O recurso de aquecimento de IP está disponível no momento como um beta apenas para usuários selecionados. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
+>O recurso de aquecimento de IP está disponível no momento como um beta somente para usuários(as) selecionados. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
 
-Com [!DNL Journey Optimizer]No entanto, é possível executar facilmente workflows de aquecimento de IP diretamente da interface do usuário, de forma padronizada e eficiente, seguindo as práticas recomendadas para a entrega ideal.
+Com o [!DNL Journey Optimizer], é possível executar facilmente fluxos de trabalho de aquecimento de IP diretamente da interface, de forma padronizada e eficiente, seguindo as práticas recomendadas para uma capacidade de entrega ideal.
 
 >[!CAUTION]
 >
@@ -50,11 +50,11 @@ Com [!DNL Journey Optimizer]No entanto, é possível executar facilmente workflo
 
 Quando os emails são enviados usando uma nova plataforma, os provedores de serviços de Internet (ISPs) suspeitam de endereços IP que não são reconhecidos. Se grandes volumes de emails forem enviados repentinamente, os ISPs freqüentemente os marcam como spam.
 
-Para evitar ser marcado como spam, você poderá aumentar progressivamente o volume enviado usando o recurso de plano de aquecimento de IP. Esta nova opção no **[!UICONTROL Administração]** O menu permite que você faça isso mais facilmente de forma consolidada, em vez de criar jornadas diárias complexas. Isso deve garantir o desenvolvimento suave da fase de inicialização e permitir que você reduza a taxa geral de endereços inválidos.
+Para evitar a marcação como spam, é possível aumentar progressivamente o volume enviado usando o recurso plano de aquecimento de IP. Essa nova opção no menu **[!UICONTROL Administração]** permite que você faça isso de forma mais fácil e consolidada, em vez de criar jornadas diárias complexas. Isso deve garantir o desenvolvimento suave da fase de inicialização e permitir que você reduza a taxa geral de endereços inválidos.
 
 >[!NOTE]
 >
->Saiba mais sobre como aumentar sua reputação de email com o aquecimento de IP no [Guia de práticas recomendadas de capacidade de delivery](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html).
+>Saiba mais sobre como aumentar sua reputação de email com o aquecimento de IP no [Guia de práticas recomendadas de capacidade de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=pt-BR).
 
 <!--
 Benefits
@@ -70,8 +70,8 @@ Benefits
 
 As principais etapas para implementar um plano de aquecimento de IP são as seguintes:
 
-1. Primeiro, é necessário criar uma ou mais campanhas com a opção de aquecimento de IP ativada. [Saiba mais](ip-warmup-campaign.md)
+1. Primeiro, é necessário criar uma ou mais campanhas com a opção aquecimento de IP habilitada. [Saiba mais](ip-warmup-campaign.md)
 
-1. Criar um plano de aquecimento de IP no [!DNL Journey Optimizer] e faça upload da planilha do Excel preparada com a ajuda de seu consultor de entrega. [Saiba mais](ip-warmup-plan.md)
+1. Crie um plano de aquecimento de IP no [!DNL Journey Optimizer] e faça upload da planilha do Excel preparada com a ajuda do consultor(a) de capacidade de entrega. [Saiba mais](ip-warmup-plan.md)
 
 1. Selecione uma campanha para cada fase do plano e ative as execuções correspondentes. [Saiba mais](ip-warmup-execution.md)

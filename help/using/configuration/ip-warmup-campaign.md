@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criação de campanhas de aquecimento de IP
+title: Criar campanhas de aquecimento de IP
 description: Saiba como criar uma campanha de aquecimento de IP
 feature: Application Settings
 topic: Administration
@@ -14,11 +14,11 @@ exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
-# Criação de campanhas de aquecimento de IP {#create-ip-warmup-campaign}
+# Criar campanhas de aquecimento de IP {#create-ip-warmup-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
@@ -30,7 +30,7 @@ ht-degree: 8%
 O que há neste guia de documentação:
 
 * [Introdução ao aquecimento de IP](ip-warmup-gs.md)
-* **[Criação de campanhas de aquecimento de IP](ip-warmup-campaign.md)**
+* **[Criar campanhas de aquecimento de IP](ip-warmup-campaign.md)**
 * [Criar um plano de aquecimento de IP](ip-warmup-plan.md)
 * [Executar o plano de aquecimento de IP](ip-warmup-execution.md)
 

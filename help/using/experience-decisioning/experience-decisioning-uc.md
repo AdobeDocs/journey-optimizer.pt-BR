@@ -11,7 +11,7 @@ badge: label="Beta"
 source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 10%
+ht-degree: 18%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 10%
 
 O que há neste guia de documentação:
 
-* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
+* [Introdução ao Offer Decisioning](gs-experience-decisioning.md)
 * Gerencie seus itens de decisão
    * [Configurar o catálogo de itens](catalogs.md)
    * [Criar itens de decisão](items.md)

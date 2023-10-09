@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
 workflow-type: tm+mt
 source-wordcount: '1656'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -326,7 +326,7 @@ ht-degree: 92%
       + [Relatório global da página de destino](using/reports/lp-report-global.md)
       + [Relatório global da lista de assinaturas](using/reports/subscription-report-global.md)
    + Relatórios de canal {#channel-report}
-      + [Introdução aos relatórios de canal](using/reports/channel-report-gs.md)
+      + [Introdução a Relatórios de canal](using/reports/channel-report-gs.md)
       + [Relatórios de canal](using/reports/channel-report.md)
    + Relatórios de jornada {#reports}
       + [Criar relatórios de jornada](using/reports/sharing-overview.md)
@@ -483,8 +483,8 @@ ht-degree: 92%
          + [API de decisão](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [API de decisão do Edge](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API de decisão em lote](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ Experience Decisioning {#experience-decisioning}
-   + [Introdução ao Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
++ Offer Decisioning {#experience-decisioning}
+   + [Introdução ao Offer Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
    + Gerencie seus itens de decisão {#decision-items}
       + [Configurar o catálogo de itens](using/experience-decisioning/catalogs.md)
       + [Criar itens de decisão](using/experience-decisioning/items.md)
@@ -514,7 +514,7 @@ ht-degree: 92%
       + [Criar pools de IP](using/configuration/ip-pools.md)
    + Implementar um plano de aquecimento de IP {#implement-ip-warmup-plan}
       + [Introdução aos planos de aquecimento de IP](using/configuration/ip-warmup-gs.md)
-      + [Criação de campanhas de aquecimento de IP](using/configuration/ip-warmup-campaign.md)
+      + [Criar campanhas de aquecimento de IP](using/configuration/ip-warmup-campaign.md)
       + [Criar um plano de aquecimento de IP](using/configuration/ip-warmup-plan.md)
       + [Executar o plano de aquecimento de IP](using/configuration/ip-warmup-execution.md)
    + Monitorar endereços de email {#monitor-reputation}

@@ -12,7 +12,7 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: 4b23f9fa2d6d7d12988f3c590d6e835637c05bea
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 6%
+ht-degree: 17%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 O que há neste guia de documentação:
 
-* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
+* [Introdução ao Offer Decisioning](gs-experience-decisioning.md)
 * Gerencie seus itens de decisão
    * [Configurar o catálogo de itens](catalogs.md)
    * [Criar itens de decisão](items.md)

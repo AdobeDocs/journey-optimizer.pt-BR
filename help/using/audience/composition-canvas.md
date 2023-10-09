@@ -188,7 +188,7 @@ A variável **[!UICONTROL Classificação]** A atividade de permite classificar 
 
    ![](assets/audiences-rank.png)
 
-### Atividade de divisão {#split}
+### Atividade Divisão {#split}
 
 <!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"

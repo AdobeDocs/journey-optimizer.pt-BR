@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Atividade de espera
+title: Atividade Aguardar
 description: Saiba mais sobre a atividade de espera
 feature: Journeys
 topic: Content Management
@@ -16,7 +16,7 @@ ht-degree: 19%
 
 ---
 
-# Atividade de espera{#wait-activity}
+# Atividade Aguardar{#wait-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"

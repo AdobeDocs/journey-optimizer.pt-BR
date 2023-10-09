@@ -9,7 +9,7 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 6%
+ht-degree: 20%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 [Saiba como criar aplicativos de página única neste vídeo](#video)
 
-Uma exibição pode ser definida como um site inteiro ou um grupo de elementos visuais em um site, como a página inicial, o site de produtos inteiro ou o quadro de preferências de entrega em todas as páginas de check-out.
+Uma exibição pode ser definida como um site inteiro ou um grupo de elementos visuais de um site, como a página inicial, a totalidade do site de produtos ou o quadro de preferências de entrega em todas as páginas de check-out.
 
 É necessária uma configuração de desenvolvedor única para definir as exibições na implementação do SDK da Web da Adobe Experience Platform. Isso permite criar e executar campanhas da Web do Adobe Journey Optimizer no SPA.
 
@@ -86,8 +86,8 @@ Após adicionar uma modificação enquanto estiver em uma exibição específica
 Este vídeo explica como:
 
 * Descubra visualizações do SPA usando **[!UICONTROL Procurar]** modo
-* Executar a criação na exibição atual
-* Aplicar modificações do site a várias exibições ou a todas as que foram descobertas
+* Criar na visualização atual
+* Aplicar modificações de site em várias exibições ou em todas as que foram descobertas
 * Realizar ações em massa em modificações
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
