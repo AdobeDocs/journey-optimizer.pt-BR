@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
+source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
-source-wordcount: '2955'
+source-wordcount: '3181'
 ht-degree: 3%
 
 ---
@@ -120,35 +120,80 @@ Para aprofundar esses resultados e como interpretá-los, consulte [esta página]
 
 ## Guia E-mail {#email-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sending_statistics"
+>title="Email - Estatísticas de envio"
+>abstract="A tabela de estatísticas de Email - Envio resume dados essenciais sobre seu email, como Segmentado ou Entregue."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_tracking_statistics"
+>title="Email - Estatísticas de rastreamento"
+>abstract="A tabela de estatísticas de Email - Rastreamento fornece dados sobre a atividade do perfil do seu Email."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sending_performance"
+>title="Email - Desempenho de envio"
+>abstract="O gráfico de desempenho Email - Envio apresenta dados abrangentes sobre emails enviados, oferecendo insights sobre métricas principais como entregas e devoluções, permitindo uma análise detalhada do processo de delivery de email."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounce_categories"
+>title="Email - Categorias de rejeição"
+>abstract="Os gráficos e a tabela Email - Bounce categories fornecem dados sobre erros temporários e permanentes."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounce_reasons"
+>title="Email - Motivos de rejeições"
+>abstract="Os gráficos e a tabela Email - Motivos de rejeições contêm os dados disponíveis relacionados às mensagens rejeitadas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_error_reasons"
+>title="Email - Motivos de erro"
+>abstract="Os gráficos e a tabela Email - Motivos de erro permitem identificar os erros específicos que ocorreram durante o processo de envio."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_excluded_reasons"
+>title="Email - Motivos excluídos"
+>abstract="Os gráficos e a tabela Motivos excluídos ilustram os vários fatores que levaram aos perfis de usuário, excluídos do público-alvo direcionado, a não receber a mensagem."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_top_url"
+>title="Email - URL superior"
+>abstract="O gráfico e a tabela Email - Top URL oferecem uma visão geral abrangente dos URLs no seu email que recebem o maior tráfego de visitantes, permitindo identificar os links mais populares."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_best_recipient"
+>title="Email - Melhor domínio de destinatário"
+>abstract="O gráfico e a tabela Email - Best recipient domain fornecem um detalhamento dos domínios que os recipients usam com mais frequência para abrir o email, oferecendo insights valiosos sobre o comportamento do recipient."
+
 ![](assets/campaign_report_global_2.png)
 
 Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL E-mail]** A guia detalha as principais informações relativas aos deliveries de email enviados no Campaign.
 
 +++Saiba mais sobre as diferentes métricas e widgets disponíveis para o Relatório de email.
 
-A variável **[!UICONTROL Estatísticas de envio de email]** O gráfico detalha o sucesso do seu delivery:
+A variável **[!UICONTROL Estatísticas de envio de email]** o gráfico detalha o sucesso do seu email:
 
-* **[!UICONTROL Direcionado]**: Número total de mensagens processadas durante a análise de delivery.
+* **[!UICONTROL Direcionado]**: Número total de mensagens processadas durante o processo de envio.
 
-* **[!UICONTROL Enviado]**: Número total de envios para o delivery.
+* **[!UICONTROL Enviado]**: Número total de envios para o seu email.
 
 * **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
 * **[!UICONTROL Taxa de entrega]**: Porcentagem de mensagens enviadas com êxito.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens enviadas.
 
 * **[!UICONTROL Taxa de rejeição]**: porcentagem de emails que foram rejeitados em comparação aos emails enviados.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado para perfis.
 
-* **[!UICONTROL Taxa de erro]**: Porcentagem de erros que ocorreram durante um delivery, impedindo que ele seja enviado, em comparação aos emails enviados.
+* **[!UICONTROL Taxa de erro]**: Porcentagem de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado, em comparação aos emails enviados.
 
 * **[!UICONTROL Tentativas]**: Número de emails na fila para tentativas.
 
 * **[!UICONTROL Excluído]**: Número de perfis excluídos pelo Adobe Journey Optimizer.
 
-A variável **[!UICONTROL Email - Estatísticas de rastreamento]** O widget contém os dados disponíveis para a atividade do recipient para seu delivery:
+A variável **[!UICONTROL Email - Estatísticas de rastreamento]** O widget contém os dados disponíveis para a atividade de perfil do seu email:
 
 * **[!UICONTROL Aberturas]**: Número de vezes que o email foi aberto.
 
@@ -158,23 +203,23 @@ A variável **[!UICONTROL Email - Estatísticas de rastreamento]** O widget cont
 
 * **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em um email.
 
-* **[!UICONTROL Cliques únicos]**: Número de recipients que clicaram em um conteúdo em um email.
+* **[!UICONTROL Cliques únicos]**: Número de perfis que clicaram em um conteúdo em um email.
 
-* **[!UICONTROL Taxa de cliques únicos]**: Porcentagem de usuários que interagiram com o delivery.
+* **[!UICONTROL Taxa de cliques únicos]**: Porcentagem de usuários que interagiram com seu email.
 
 * **[!UICONTROL Cancelamentos de assinatura]**: Número de cliques no link unsubscription.
 
 * **[!UICONTROL Reclamações de spam]**: Número de vezes que uma mensagem foi declarada como spam ou lixo eletrônico.
 
-A variável **[!UICONTROL Estatísticas de envio]** O gráfico contém os dados disponíveis para emails enviados, como:
+A variável **[!UICONTROL Desempenho de envio]** O gráfico contém os dados disponíveis para emails enviados, como:
 
 * **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens enviadas.
 
 * **[!UICONTROL Tentativas]**: Número de emails na fila para tentativas.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado para perfis.
 
 A variável **[!UICONTROL Motivos de rejeição]** e **[!UICONTROL Categorias de rejeição]** os widgets contêm os dados disponíveis relacionados às mensagens rejeitadas, como:
 
@@ -186,30 +231,31 @@ A variável **[!UICONTROL Motivos de rejeição]** e **[!UICONTROL Categorias de
 
 Para obter mais informações sobre rejeições, consulte o [Lista de supressão](../reports/suppression-list.md) página.
 
-A variável **[!UICONTROL Motivos de erro]** O gráfico e a tabela permitem ver qual erro ocorreu durante o delivery.
+A variável **[!UICONTROL Motivos de erro]** o gráfico e a tabela permitem que você veja qual erro ocorreu durante o processo de envio.
 
 A variável **[!UICONTROL Motivos excluídos]** o gráfico e a tabela exibem os diferentes motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem.
 
-A variável **[!UICONTROL Email - URL superior]** gráfico e tabela detalha quais URLs do seu delivery são os mais visitados.
+A variável **[!UICONTROL Email - URL superior]** gráfico e tabela detalha quais URLs do seu email são os mais visitados.
 
-A variável **[!UICONTROL Email - Principal domínio de destinatário]** O gráfico e a tabela detalham quais domínios são os mais usados pelos recipients para abrir o email.
+A variável **[!UICONTROL Email - Principal domínio de destinatário]** O gráfico e a tabela detalham quais domínios são os mais usados pelos perfis para abrir o email.
 
 >[!NOTE]
 >
->A variável **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimização da hora de envio]**  Os widgets do só estarão disponíveis se a opção Send-Time Otimization estiver ativada para o seu delivery. Para obter mais informações sobre a Otimização de tempo de envio, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
+>A variável **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimização da hora de envio]**  Os widgets do só estarão disponíveis se a opção Otimização de tempo de envio estiver ativada para o seu email. Para obter mais informações sobre a Otimização de tempo de envio, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
 
 A variável **[!UICONTROL Otimizado vs. não otimizado]** o gráfico detalha as principais informações relativas à mensagem, sejam elas otimizadas ou não:
 
-* **[!UICONTROL Enviado]**: Número total de envios para o delivery.
+* **[!UICONTROL Enviado]**: número total de envios.
 
 * **[!UICONTROL Aberturas]**: Número de vezes que a mensagem foi aberta.
 
 * **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em um email.
 
-A variável **[!UICONTROL Otimização da hora de envio]** detalha o sucesso do delivery dependendo do método de envio: otimizado ou normal.
+A variável **[!UICONTROL Otimização da hora de envio]** detalha o sucesso do seu email dependendo do método de envio: otimizado ou normal.
 
 * **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.
+
+* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens enviadas.
 +++
 
 ## Guia No aplicativo {#inapp-global}
@@ -258,7 +304,7 @@ A variável **[!UICONTROL Resumo no aplicativo]** O gráfico mostra a evolução
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_tracking_statistics"
 >title="Notificação por push - Estatísticas de rastreamento"
->abstract="As Estatísticas de rastreamento de push fornecem dados sobre a atividade do recipient para seu delivery."
+>abstract="As Estatísticas de rastreamento de push fornecem dados sobre a atividade de perfil para sua notificação por push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_summary"
@@ -273,12 +319,12 @@ A variável **[!UICONTROL Resumo no aplicativo]** O gráfico mostra a evolução
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_error_reasons"
 >title="Notificação por push - Motivos de erro"
->abstract="Os gráficos e a tabela Motivos de erro permitem identificar os erros específicos que ocorreram durante o delivery."
+>abstract="Os gráficos e a tabela de Motivos de erro permitem identificar os erros específicos que ocorreram durante o processo de envio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="Notificação por push - Detalhamento por plataforma"
->abstract="Os gráficos e a tabela Detalhamento por plataforma fornecem uma análise do sucesso de suas notificações por push com base no sistema operacional do recipient."
+>abstract="Os gráficos e a tabela Detalhamento por plataforma fornecem uma análise do sucesso de suas notificações por push com base no sistema operacional do perfil."
 
 Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Notificação por push]** A guia detalha as principais informações relativas aos deliveries por push enviados em sua campanha.
 
@@ -288,27 +334,27 @@ Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Notificaçã
 
 A variável **[!UICONTROL Notificação por push - Estatísticas de envio]** a tabela detalha as principais informações relativas às notificações por push
 
-* **[!UICONTROL Direcionado]**: Número total de mensagens processadas durante a análise de delivery.
+* **[!UICONTROL Direcionado]**: Número total de mensagens processadas durante a análise.
 
-* **[!UICONTROL Enviado]**: Número total de envios para o delivery.
+* **[!UICONTROL Enviado]**: número total de envios para a notificação por push.
 
 * **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
 * **[!UICONTROL Taxa de entrega]**: Porcentagem de mensagens enviadas com êxito.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens enviadas.
 
 * **[!UICONTROL Taxa de rejeição]**: Porcentagem de notificações por push que foram rejeitadas em comparação às notificações por push enviadas.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram que impediram o envio para perfis.
 
-* **[!UICONTROL Taxa de erro]**: Porcentagem de erros que ocorreram durante um delivery, impedindo que ele fosse enviado, em comparação ao envio de notificações por push.
+* **[!UICONTROL Taxa de erro]**: Porcentagem de erros que ocorreram durante a prevenção do envio em comparação às notificações por push enviadas.
 
 * **[!UICONTROL Excluído]**: Número de perfis excluídos pelo Adobe Journey Optimizer.
 
-A variável **[!UICONTROL Push - Estatísticas de rastreamento]** contém os dados disponíveis para a atividade de recipient para seu delivery:
+A variável **[!UICONTROL Push - Estatísticas de rastreamento]** contém os dados disponíveis para a atividade de perfil para sua notificação por push:
 
-* **[!UICONTROL Aberturas]**: Número de vezes que uma mensagem foi aberta em um delivery.
+* **[!UICONTROL Aberturas]**: Número de vezes que sua notificação por push foi aberta.
 
 * **[!UICONTROL Taxa de abertura]**: porcentagem de notificações por push abertas.
 
@@ -320,36 +366,39 @@ A variável **[!UICONTROL Push - Estatísticas de rastreamento]** contém os dad
 
 A variável **[!UICONTROL Resumo da notificação por push]** O gráfico contém os dados disponíveis para notificações por push enviadas, como:
 
-* **[!UICONTROL Aberturas]**: Número de vezes que uma mensagem foi aberta em um delivery.
+* **[!UICONTROL Aberturas]**: Número de vezes que sua notificação por push foi aberta.
 
 * **[!UICONTROL Ações]**: Número total de ações na notificação por push entregue, por exemplo, clique ou descarte de botões.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Rejeições]**: Total de erros acumulados e processamento de retorno automático em relação ao número total de mensagens enviadas.
 
 * **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram que impediram o envio para perfis.
 
 >[!NOTE]
 >
->A variável **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimização da hora de envio]**  Os widgets do só estarão disponíveis se a opção Send-Time Otimization estiver ativada para o seu delivery. Para obter mais informações sobre a Otimização de tempo de envio, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
+>A variável **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimização da hora de envio]**  Os widgets do só estarão disponíveis se a opção Otimização de tempo de envio estiver ativada para a notificação por push. Para obter mais informações sobre a Otimização de tempo de envio, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
 
 A variável **[!UICONTROL Otimizado vs. não otimizado]** o gráfico detalha as principais informações relativas à mensagem, sejam elas otimizadas ou não:
 
 * **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
-* **[!UICONTROL Aberturas]**: Número de vezes que o delivery foi aberto em um delivery.
+
+* **[!UICONTROL Aberturas]**: Número de vezes que sua notificação por push foi aberta.
+
 * **[!UICONTROL Ações]**: Número total de ações na notificação por push entregue, por exemplo, clique ou descarte de botões.
 
-A variável **[!UICONTROL Otimização da hora de envio]** detalha o sucesso do delivery dependendo do método de envio: otimizado ou normal.
+A variável **[!UICONTROL Otimização da hora de envio]** detalha o sucesso da sua notificação por push, dependendo do método de envio: otimizado ou normal.
 
 * **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.
 
-A variável **[!UICONTROL Motivos de erro]** os gráficos e a tabela permitem que você veja qual erro ocorreu durante o delivery.
+* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens enviadas.
+
+A variável **[!UICONTROL Motivos de erro]** os gráficos e a tabela permitem que você veja qual erro ocorreu.
 
 A variável **[!UICONTROL Motivos excluídos]** os gráficos e a tabela exibem os diferentes motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber a mensagem.
 
-A variável **[!UICONTROL Detalhamento por plataforma]** gráfico e tabela detalha o sucesso da sua notificação por push, dependendo do sistema operacional do recipient.
+A variável **[!UICONTROL Detalhamento por plataforma]** O gráfico e a tabela detalham o sucesso da sua notificação por push, dependendo do sistema operacional do seu perfil.
 +++
 
 ## Guia SMS {#sms-global}
@@ -362,7 +411,7 @@ A variável **[!UICONTROL Detalhamento por plataforma]** gráfico e tabela detal
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_error_reasons"
 >title="SMS - Motivos de erro"
->abstract="Os gráficos e a tabela SMS - Error Reasons permitem identificar os erros específicos que ocorreram durante o delivery."
+>abstract="Os gráficos e a tabela SMS - Motivos de erro permitem identificar os erros específicos que ocorreram durante o processo de envio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
@@ -390,27 +439,27 @@ Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL SMS]** A gui
 
 +++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório de SMS.
 
-A variável **[!UICONTROL SMS - Estatísticas de envio]** a tabela detalha o sucesso do seu delivery:
+A variável **[!UICONTROL SMS - Estatísticas de envio]** A tabela detalha o sucesso da mensagem SMS:
 
-* **[!UICONTROL Direcionado]**: Número de perfis de usuário que se qualificam como perfis de público-alvo para este delivery.
+* **[!UICONTROL Direcionado]**: Número de perfis de usuário qualificados como perfis de público-alvo.
 
 * **[!UICONTROL Excluído]**: Número de perfis de usuário, excluídos dos perfis direcionados, que não receberam a mensagem.
 
-* **[!UICONTROL Enviado]**: Número total de envios para o delivery.
+* **[!UICONTROL Enviado]**: Número total de envios para sua mensagem SMS.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens enviadas.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram que impediram o envio para perfis.
 
 A variável **[!UICONTROL Desempenho do SMS por data]** o widget detalha as principais informações relacionadas à sua mensagem com um gráfico:
 
-* **[!UICONTROL Enviado]**: Número total de envios para o delivery.
+* **[!UICONTROL Enviado]**: Número total de envios para suas mensagens SMS.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens enviadas.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram que impediram o envio para perfis.
 
-A variável **[!UICONTROL Excluir motivos]** e **[!UICONTROL Motivos de rejeições]** e **[!UICONTROL Motivos de erro]** gráficos e tabelas permitem ver quais erros e exclusões ocorreram durante o delivery.
+A variável **[!UICONTROL Excluir motivos]** e **[!UICONTROL Motivos de rejeições]** e **[!UICONTROL Motivos de erro]** gráficos e tabelas permitem ver quais erros e exclusões ocorreram durante o processo de envio.
 
 A variável **[!UICONTROL SMS - Cliques por links]** Os widgets detalham as principais informações relacionadas ao engajamento dos visitantes com seus URLs.
 
@@ -462,7 +511,7 @@ A variável **[!UICONTROL Interações por elemento]** A tabela detalha as princ
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_error_reasons"
 >title="Correspondência direta - Motivos de erro"
->abstract="Os gráficos e a tabela Direct Mail - Error Reasons permitem identificar os erros específicos ocorridos durante o delivery."
+>abstract="Os gráficos e a tabela Mala direta - Motivos de erro permitem identificar os erros específicos que ocorreram durante o processo de envio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
@@ -475,17 +524,17 @@ Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Correspondê
 
 +++Saiba mais sobre as diferentes métricas e widgets disponíveis para o Relatório de correspondência direta.
 
-A variável **[!UICONTROL Correspondência direta - Estatísticas de envio]** a tabela detalha o sucesso do seu delivery:
+A variável **[!UICONTROL Correspondência direta - Estatísticas de envio]** a tabela detalha o sucesso da sua correspondência direta:
 
-* **[!UICONTROL Direcionado]**: Número de perfis de usuário que se qualificam como perfis de público-alvo para este delivery.
+* **[!UICONTROL Direcionado]**: Número de perfis de usuário qualificados como perfis de público alvo para esta correspondência direta.
 
-* **[!UICONTROL Enviado]**: Número total de envios para o delivery.
+* **[!UICONTROL Enviado]**: Número total de envios para esta correspondência direta.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado para perfis.
 
-* **[!UICONTROL Excluído]**: Número de perfis de usuário, excluídos dos perfis direcionados, que não receberam o delivery.
+* **[!UICONTROL Excluído]**: Número de perfis de usuário, excluídos dos perfis direcionados, que não receberam sua correspondência direta.
 
-A variável **[!UICONTROL Correspondência direta - Motivos excluídos]** e **[!UICONTROL Correspondência direta - Motivos de erro]** gráficos e tabelas permitem ver quais erros e exclusões ocorreram durante o delivery.
+A variável **[!UICONTROL Correspondência direta - Motivos excluídos]** e **[!UICONTROL Correspondência direta - Motivos de erro]** gráficos e tabelas permitem ver quais erros e exclusões ocorreram durante o processo de envio.
 +++
 
 ## Recursos adicionais

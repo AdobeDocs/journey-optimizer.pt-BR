@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 7c0b0fe67a5a2665f7cf7bdce4a36207d7bcef56
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 12%
+source-wordcount: '1522'
+ht-degree: 11%
 
 ---
 
@@ -70,6 +70,7 @@ Para usar o modo de teste, siga estas etapas:
 * Não é possível modificar a jornada quando o modo de teste está ativado. Quando estiver no modo de teste, você poderá publicar a jornada diretamente; não é necessário desativar o modo de teste antes de.
 * Ao atingir uma divisão, a ramificação superior é sempre escolhida. É possível reorganizar a posição das ramificações de divisão se quiser que o teste escolha um caminho diferente.
 * Para otimizar o desempenho e evitar o uso de recursos obsoletos, todas as jornadas no modo de teste que não forem acionadas por uma semana retornarão para o **Rascunho** status.
+* Os eventos acionados pelo modo de teste são armazenados em conjuntos de dados dedicados. Esses conjuntos de dados são rotulados da seguinte maneira: `JOtestmode - <schema of your event>`
 
 ## Acionar os eventos {#firing_events}
 
