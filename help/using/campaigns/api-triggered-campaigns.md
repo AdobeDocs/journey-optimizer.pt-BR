@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -22,6 +22,8 @@ ht-degree: 1%
 Com [!DNL Journey Optimizer], você pode criar campanhas e chamá-las de um sistema externo com base no acionador do usuário usando o [API REST de execução de mensagem interativa](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Isso permite cobrir várias necessidades de mensagens de marketing e transacionais, como redefinições de senha, token OTP, entre outras.
 
 Para fazer isso, primeiro é necessário criar uma campanha acionada por API no Journey Optimizer e, em seguida, iniciar a execução por meio de uma chamada de API.
+
+![](../rn/assets/do-not-localize/api-triggered.gif)
 
 Os canais disponíveis para campanhas acionadas por API são mensagens de email, SMS e push.
 

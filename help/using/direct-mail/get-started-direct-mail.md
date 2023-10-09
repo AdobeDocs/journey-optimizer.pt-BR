@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 17%
@@ -24,6 +24,9 @@ ht-degree: 17%
 A correspondência direta é um canal offline que permite personalizar e gerar os arquivos de extração necessários para os provedores de correspondência direta enviarem emails para seus clientes.
 
 Ao criar uma campanha de correspondência direta, o Journey Optimizer gera automaticamente um arquivo contendo todos os perfis direcionados e dados selecionados, como endereços postais e atributos de perfil. Esse arquivo é enviado ao servidor de sua escolha para que seja acessível ao seu provedor de correspondência direta escolhido, que lidará com o processo de correspondência real para você.
+
+![](../rn/assets/do-not-localize/gif-dm.gif)
+
 
 As principais etapas para enviar mensagens de correspondência direta são as seguintes:
 

@@ -7,7 +7,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 5%
@@ -19,6 +19,10 @@ ht-degree: 5%
 Os atributos computados permitem resumir eventos comportamentais individuais em atributos de perfil computados disponíveis no Adobe Experience Platform. Esses atributos calculados são baseados em conjuntos de dados de Evento de experiência ativados por perfil assimilados na Adobe Experience Platform e servem como pontos de dados agregados armazenados em perfis de clientes.
 
 Cada atributo calculado é um atributo de perfil que você pode aproveitar para segmentação, personalização e ativação em jornadas e campanhas. Essa simplificação melhora a capacidade de fornecer experiências personalizadas oportunas e significativas aos seus clientes.
+
+
+![](../rn/assets/do-not-localize/computed-attributes.gif)
+
 
 >[!NOTE]
 >
