@@ -10,8 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: b99d77138f22839b40414979d36e26d7304947b1
-workflow-type: tm+mt
+exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+workflow-type: ht
 source-wordcount: '238'
 ht-degree: 100%
 
@@ -48,4 +49,3 @@ Use o Assistente de conteúdo para otimizar o impacto da sua mensagem, experimen
 >[!AVAILABILITY]
 >
 >No momento, o Assistente de conteúdo do Adobe Journey Optimizer está disponível como um beta somente para usuários(as) selecionados(as). Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
-
