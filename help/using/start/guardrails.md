@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: ad590f7fedad10c49f5c45b34cc687df063e35a8
+source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 95%
+source-wordcount: '1615'
+ht-degree: 83%
 
 ---
 
@@ -123,3 +123,32 @@ Você pode escolher uma dessas duas soluções:
 * Um atraso na ativação pode ocorrer entre o momento em que um perfil de usuário ou usuária alcança uma atividade no aplicativo na tela e o momento em que começa a visualizar essa mensagem no aplicativo.
 
 * O tamanho do conteúdo da mensagem no aplicativo é limitado a 2 Mb. A inclusão de imagens grandes pode prejudicar o processo de publicação.
+
+## Gestão de decisões {#decision-management}
+
+### Medidas de proteção de desempenho {#performance-guardrails}
+
+A taxa de transferência de delivery corresponde ao número de respostas de decisão que podem ser entregues pelo serviço de aplicativos Gerenciamento de decisões em um período especificado. O número de decisões por segundo é indicado na tabela abaixo.
+
+| API | Decisões por segundo |
+|---------|----------|
+| Solicitações de API de decisão | 500 por segundo |
+| Solicitações de API do Edge Decisioning | 5000 por segundo |
+
+### Limitações {#offers-limitations}
+
+As limitações da Gestão de decisões estão listadas abaixo.
+
+* **Ofertas personalizadas aprovadas + Ofertas substitutas** - Até 10.000 ofertas personalizadas combinadas aprovadas e ofertas substitutas aprovadas.
+* **Decisões** - Até 10.000 decisões.
+* **Decisões em tempo real** : o Serviço de aplicativos do Offer Decisioning oferece suporte a até 1.000 decisões em tempo real.
+* **Ofertas retornadas por resposta** - O Offer Decisioning oferece suporte a até 100 ofertas retornadas por solicitação em todos os escopos de decisão na solicitação.
+* **Coleções** - Até 10.000 coleções.
+* **Coleções por decisão** - Até 30 coleções por decisão.
+* **Regras de decisão + Funções de classificação** Até 10.000 regras de decisão combinadas e funções de classificação.
+* **Posicionamentos** - Até 1.000 inserções.
+* **Posicionamentos por decisão** - Até 30 colocações por decisão.
+* **Método de classificação por decisão** - O Serviço de aplicativos do Offer Decisioning oferece suporte a até 30 funções de classificação por decisão.
+* **Modelo de classificação de IA** - O Offer Decisioning App Service oferece suporte a até 5 modelos de classificação de IA.
+* **Qualificador de Coleção por Oferta ou Coleção** : o Serviço de aplicativos do Offer Decisioning oferece suporte a até 20 qualificadores de coleção em uma única oferta personalizada ou coleção.
+* **Total de Qualificadores de Coleção** - O Offer Decisioning App Service oferece suporte a até 1.000 Qualificadores de Coleção.
