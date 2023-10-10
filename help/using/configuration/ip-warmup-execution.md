@@ -14,7 +14,7 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 5%
+ht-degree: 20%
 
 ---
 
@@ -39,14 +39,14 @@ Cada fase é composta por várias execuções, às quais você atribui uma únic
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
->title="Excluir públicos da campanha"
->abstract="Selecione os públicos-alvo de outras campanhas que deseja excluir da fase atual. Isso evita que perfis de outras fases ou outros planos de aquecimento de IP contatados anteriormente sejam direcionados novamente."
+>title="Excluir públicos-alvo da campanha"
+>abstract="Selecione os públicos-alvo de outras campanhas que deseja excluir da fase atual. Isso evita que perfis contatados anteriormente (em outras fases ou planos de aquecimento de IP) sejam direcionados novamente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="Excluir grupos de domínio"
->abstract="Selecione os domínios que deseja excluir da fase atual. A exclusão de domínio requer uma fase não executada, portanto, talvez seja necessário dividir uma fase em execução para adicionar exclusões."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Dividir uma fase"
+>abstract="Selecione os domínios que deseja excluir da fase atual. A exclusão de domínios requer uma fase não executada, portanto, talvez seja necessário dividir uma fase em execução para adicionar exclusões."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=pt-BR#split-phase" text="Dividir uma fase"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
@@ -112,27 +112,27 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_run"
 >title="Definir cada execução"
->abstract="Definir e ativar cada execução para todas as fases."
+>abstract="Defina e ative cada execução para todas as fases."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_last_engagement"
->title="Filtrar no envolvimento"
->abstract="Essa coluna é um filtro que direciona somente os usuários envolvidos com sua marca nos últimos 20 dias, por exemplo. Também é possível alterar essa configuração por meio da **Editar execução** opção."
+>title="Filtrar no engajamento"
+>abstract="Essa coluna é um filtro que direciona somente os usuários engajados com sua marca nos últimos 20 dias, por exemplo. Também é possível alterar essa configuração por meio da opção **Editar execução**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"
 >title="Definir uma janela de tempo"
->abstract="Você pode definir uma janela de tempo durante a qual a campanha de aquecimento de IP poderá ser executada, caso haja atrasos no trabalho de segmentação."
+>abstract="Você pode definir uma janela de tempo durante a qual a campanha de aquecimento de IP poderá ser executada, caso haja atrasos no processo de segmentação."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
->title="Cancelar execuções com erros de público"
->abstract="Selecione essa opção para cancelar uma execução se os perfis qualificados forem menores que os perfis direcionados depois que o público-alvo tiver sido avaliado para essa execução."
+>title="Cancelar execuções com erros de público-alvo"
+>abstract="Selecione essa opção para cancelar uma execução se os perfis qualificados forem menores que os perfis direcionados após o público-alvo ter sido avaliado para a execução."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
 >title="Exibir os perfis qualificados"
->abstract="Essa coluna exibe o número de perfis qualificados. Depois que o público-alvo tiver sido avaliado para uma execução, se houver mais perfis direcionados do que perfis qualificados, a execução ainda será executada, a menos que **Pausar para erros** está ativada. Nesse caso, a execução é cancelada."
+>abstract="Essa coluna exibe o número de perfis qualificados. Caso haja mais perfis direcionados do que perfis qualificados após o público-alvo ter sido avaliado para uma execução, ela ainda será executada, a menos que a opção **Pausar em caso de erros** esteja habilitada. Nesse caso, a execução é cancelada."
 
 1. Selecione uma programação para cada execução.
 

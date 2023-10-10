@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
 source-wordcount: '2664'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_level_report"
 >title="Relatório de nível de canal"
->abstract="Os Relatórios de canal oferecem uma visão geral abrangente das métricas de tráfego e engajamento em todos os canais. Seus relatórios são divididos em widgets diferentes detalhando o sucesso e os erros da campanha e do jornada. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
+>abstract="Os relatórios de canal oferecem uma visão geral abrangente das métricas de engajamento e tráfego em todos os canais. Seus relatórios são divididos em diferentes dispositivos, os quais detalham o sucesso e os erros da campanha e das jornadas. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
 >[!IMPORTANT]
 >

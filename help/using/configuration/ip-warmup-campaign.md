@@ -14,7 +14,7 @@ exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 12%
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="Ative a opção do plano de aquecimento de IP"
->abstract="Ao selecionar essa opção, a campanha pode ser usada em um plano de aquecimento de IP. O agendamento da campanha será determinado pelo plano de aquecimento de IP ao qual está associado."
+>abstract="Ao selecionar essa opção, a campanha pode ser usada em um plano de aquecimento de IP. A programação da campanha será determinada pelo plano de aquecimento de IP ao qual está associada."
 
 >[!BEGINSHADEBOX]
 

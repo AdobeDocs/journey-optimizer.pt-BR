@@ -9,7 +9,7 @@ exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: f00843c54f18c6d9599d527101496d1d58df09f3
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
@@ -98,7 +98,7 @@ Para adicionar um **Seletor de CSS** tipo de modificação, siga as etapas abaix
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="Adicionar código personalizado"
->abstract="O elemento HEAD é um container de metadados e é colocado entre a tag HTML e a tag BODY. Adicionar apenas elementos SCRIPT e STYLE. Adicionar tags DIV e outros elementos pode fazer com que os elementos de HEAD restantes apareçam no CORPO."
+>abstract="O elemento HEAD é um container de metadados que é inserido entre a tag HTML e a tag BODY. Adicionar apenas elementos SCRIPT e STYLE. Adicionar tags DIV e outros elementos pode fazer com que os elementos HEAD restantes sejam exibidos em BODY. "
 
 É possível adicionar um código personalizado usando o **[!UICONTROL Página`<head>`]** tipo de modificação.
 

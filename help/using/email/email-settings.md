@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
 workflow-type: tm+mt
 source-wordcount: '2258'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -187,8 +187,8 @@ Se você receber um erro ao enviar a superfície de email, significa que o regis
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
 >title="Substituir precedência da lista de supressão"
->abstract="Você pode decidir enviar mensagens transacionais a perfis mesmo se os seus endereços de email estiverem na lista de supressão do Adobe Journey Optimizer devido a uma reclamação de spam. Essa opção está desabilitada por padrão."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="Gerenciar a lista de supressão"
+>abstract="Você pode decidir enviar mensagens transacionais a perfis mesmo que seus endereços de email estejam na lista de supressão do Adobe Journey Optimizer devido a uma reclamação de spam. Essa opção está desabilitada por padrão."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=pt-BR" text="Gerenciar a lista de supressão"
 
 >[!IMPORTANT]
 >
@@ -219,7 +219,7 @@ Quando essa opção estiver habilitada, embora um cliente tenha marcado seu emai
 >title="Adicionar uma lista de sementes"
 >abstract="Selecione uma lista de sementes de sua escolha para adicionar automaticamente endereços internos específicos aos seus públicos-alvo. Esses seed addresses serão incluídos na hora da execução da tarefa e receberão uma cópia exata da mensagem para fins de garantia."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=pt-BR#use-seed-list" text="O que são listas de sementes?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#create-seed-list" text="Criar uma lista de sementes"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=pt-BR#create-seed-list" text="Criar uma lista de sementes"
 
 
 Uma lista de propagação em [!DNL Journey Optimizer] permite incluir automaticamente seed addresses de email específicos em seus deliveries. [Saiba mais](../configuration/seed-lists.md)

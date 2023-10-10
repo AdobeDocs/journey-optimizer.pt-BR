@@ -10,7 +10,7 @@ exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 13%
+ht-degree: 21%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="Delegar um subdomínio da web"
->abstract="Se adicionar conteúdo proveniente do Adobe Experience Manager Assets Essentials às suas experiências da web, será necessário configurar o subdomínio que será usado para publicar esse conteúdo. Selecione entre os subdomínios já delegados no Adobe ou configure um novo subdomínio."
+>abstract="Se adicionar conteúdo proveniente do Adobe Experience Manager Assets Essentials às suas experiências da web, será necessário configurar o subdomínio que será usado para publicar esse conteúdo. Selecione entre os subdomínios já delegados à Adobe ou configure um novo subdomínio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
@@ -100,7 +100,7 @@ Para usar um subdomínio que já está delegado ao Adobe, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="Gerar o registro DNS correspondente"
->abstract="Para configurar um novo subdomínio da Web, você precisa copiar as informações do servidor de nomes do Adobe exibidas na interface do Journey Optimizer e colá-las na solução de hospedagem de domínio para gerar o registro DNS correspondente. Depois que as verificações forem bem-sucedidas, o subdomínio estará pronto para ser usado para publicar o conteúdo proveniente da biblioteca do Experience Manager Assets Essentials."
+>abstract="Para configurar um novo subdomínio da web, é necessário copiar as informações do servidor de nomes da Adobe exibidas na interface do Journey Optimizer e colá-las em sua solução de hospedagem de domínio, a fim de gerar o registro DNS correspondente. Depois que as verificações forem bem-sucedidas, o subdomínio estará pronto para publicar o conteúdo proveniente da biblioteca do Experience Manager Assets Essentials."
 
 Para configurar um novo subdomínio, siga as etapas abaixo.
 
