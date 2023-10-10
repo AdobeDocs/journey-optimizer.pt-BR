@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
+source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 10%
+source-wordcount: '721'
+ht-degree: 8%
 
 ---
 
@@ -58,6 +58,32 @@ Para criar uma campanha de correspondência direta, siga estas etapas:
 Agora você pode começar a configurar o arquivo de extração para enviar ao seu provedor de correspondência direta.
 
 ## Configurar o arquivo de extração {#extraction-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_data_fields"
+>title="Campos de dados"
+>abstract="Adicione e configure as colunas e as informações a serem exibidas no arquivo de extração exigido por provedores de correspondência direta para enviar email aos clientes. Você pode adicionar até 50 colunas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_sort"
+>title="Formatação do arquivo de extração"
+>abstract="A variável <b>Classificar por</b> permite usar o campo selecionado para classificar as colunas do arquivo de extração. Quando essa opção está desativada, as colunas são classificadas automaticamente com base no campo ID do perfil."
+
+1. Configure as colunas e as informações a serem exibidas no arquivo de extração:
+
+   1. Clique em **[!UICONTROL Adicionar]** botão para criar uma nova coluna.
+
+   1. A variável **[!UICONTROL Formatação]** é exibido no lado direito, permitindo que você configure a coluna selecionada. Especificar um **[!UICONTROL Rótulo]** para a coluna.
+
+   1. No **[!UICONTROL Dados]** selecione os atributos de perfil a serem exibidos usando o [Editor de expressão](../personalization/personalization-build-expressions.md).
+
+   1. Para classificar o arquivo de extração usando uma coluna, selecione a coluna e alterne no **[!UICONTROL Classificar por]** opção. A variável **[!UICONTROL Classificar por]** O ícone é exibido ao lado do rótulo da coluna na **[!UICONTROL Campos de dados]** seção.
+
+
+
+
+
+
 
 O arquivo de extração é exigido por provedores de correspondência direta para enviar emails aos clientes. Para definir a configuração do arquivo de extração, siga estas etapas:
 
