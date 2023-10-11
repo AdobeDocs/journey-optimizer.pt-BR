@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
+source-git-commit: 804ff95d2a19601d036e739bb1d5a629930247b9
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '720'
 ht-degree: 8%
 
 ---
@@ -65,9 +65,9 @@ Agora você pode começar a configurar o arquivo de extração para enviar ao se
 >abstract="Adicione e configure as colunas e as informações a serem exibidas no arquivo de extração exigido por provedores de correspondência direta para enviar email aos clientes. Você pode adicionar até 50 colunas."
 
 >[!CONTEXTUALHELP]
->id="ajo_direct_mail_sort"
+>id="ajo_direct_mail_formatting"
 >title="Formatação do arquivo de extração"
->abstract="A variável <b>Classificar por</b> permite usar o campo selecionado para classificar as colunas do arquivo de extração. Quando essa opção está desativada, as colunas são classificadas automaticamente com base no campo ID do perfil."
+>abstract="Para cada campo, especifique um rótulo e as informações a serem exibidas usando o Editor de expressão. <br/><br/> A variável <b>Classificar por</b> permite usar o campo selecionado para classificar as colunas do arquivo de extração."
 
 1. Configure as colunas e as informações a serem exibidas no arquivo de extração:
 
