@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
+source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
 workflow-type: tm+mt
-source-wordcount: '3181'
+source-wordcount: '3192'
 ht-degree: 3%
 
 ---
@@ -239,9 +239,9 @@ A variável **[!UICONTROL Email - URL superior]** gráfico e tabela detalha quai
 
 A variável **[!UICONTROL Email - Principal domínio de destinatário]** O gráfico e a tabela detalham quais domínios são os mais usados pelos perfis para abrir o email.
 
->[!NOTE]
+>[!CAUTION]
 >
->A variável **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimização da hora de envio]**  Os widgets do só estarão disponíveis se a opção Otimização de tempo de envio estiver ativada para o seu email. Para obter mais informações sobre a Otimização de tempo de envio, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
+> A variável **[!UICONTROL Email - Principal domínio de destinatário]** O widget tem uma taxa de precisão de 99,95%.
 
 A variável **[!UICONTROL Otimizado vs. não otimizado]** o gráfico detalha as principais informações relativas à mensagem, sejam elas otimizadas ou não:
 
@@ -256,6 +256,11 @@ A variável **[!UICONTROL Otimização da hora de envio]** detalha o sucesso do 
 * **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
 * **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens enviadas.
+
+>[!NOTE]
+>
+>A variável **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimização da hora de envio]**  Os widgets do só estarão disponíveis se a opção Otimização de tempo de envio estiver ativada para o seu email. Para obter mais informações sobre a Otimização de tempo de envio, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
+
 +++
 
 ## Guia No aplicativo {#inapp-global}
