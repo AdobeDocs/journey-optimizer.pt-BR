@@ -9,14 +9,19 @@ role: Admin
 level: Intermediate
 keywords: jornada, integração, campaign, v7, v8, classic
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 28%
+source-wordcount: '199'
+ht-degree: 39%
 
 ---
 
 # Ações do Adobe Campaign v7/v8 {#using_campaign_classic}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_acc"
+>title="Ações personalizadas"
+>abstract="Uma integração está disponível se você utilizar o Adobe Campaign v7 ou v8. Ela permite enviar emails, notificações por push e SMS usando os recursos de mensagens transacionais do Adobe Campaign."
 
 Uma integração está disponível se você utilizar o Adobe Campaign v7 ou v8. Ele permitirá enviar emails, notificações por push e SMS usando recursos de mensagens transacionais do Adobe Campaign.
 

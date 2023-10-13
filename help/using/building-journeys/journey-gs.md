@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 25%
+source-wordcount: '1727'
+ht-degree: 24%
 
 ---
 
@@ -44,6 +44,11 @@ Para enviar mensagens com jornadas, as seguintes configurações são necessári
    ![](assets/custom2.png)
 
 ## Acessar jornadas {#journey-access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="Jornadas"
+>abstract="Crie jornadas do cliente para fornecer experiências personalizadas e contextuais. O Journey Optimizer permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. A variável **Visão geral** exibe um painel com as métricas principais relacionadas às suas jornadas. A variável **Procurar** exibe a lista de jornadas existentes."
 
 Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]**. Duas guias estarão disponíveis:
 
@@ -77,11 +82,6 @@ Nos painéis de configuração Evento, Fonte de dados e Ação, o campo **[!UICO
 ![](assets/journey3bis.png)
 
 ## Criar sua jornada{#jo-build}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_create"
->title="Criar sua jornada"
->abstract="Essa tela exibe a lista de jornadas existentes. Abra uma jornada ou clique em “Criar jornada” e combine as diferentes atividades de evento, orquestração e ação para criar os cenários de vários canais em várias etapas."
 
 Esta etapa é executada pelo **usuário empresarial**. É aqui que você cria suas jornadas. Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas.
 
