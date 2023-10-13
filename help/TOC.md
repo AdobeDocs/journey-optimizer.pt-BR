@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0a97e30f07348922687aa98638f9be4936d2a860
+source-git-commit: f532e7cbafc3dde7a85cf0a89d1bbb01ccdd118e
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 98%
+source-wordcount: '1670'
+ht-degree: 97%
 
 ---
 
@@ -230,14 +230,16 @@ ht-degree: 98%
    + [Configurar correspondência direta](using/direct-mail/direct-mail-configuration.md)
 + Canal da Web {#web}
    + [Introdução ao canal Web](using/web/get-started-web.md)
-   + [Pré-requisitos do canal web](using/web/web-prerequisites.md)
+   + Configurar canal da Web {#configure-web-channel}
+      + [Pré-requisitos do canal web](using/web/web-prerequisites.md)
+      + [Configurar subdomínios da Web](using/web/web-delegated-subdomains.md)
+      + [Implementar aplicativos de página única](using/web/web-spa-implementation.md)
    + [Criação de experiências da Web](using/web/create-web.md)
    + Páginas da Web de autor {#author-web-pages}
       + [Editar conteúdo da página da Web](using/web/edit-web-content.md)
       + [Gerenciar modificações](using/web/manage-web-modifications.md)
       + [Monitorar suas campanhas da Web](using/web/monitor-web-campaigns.md)
       + [Criar aplicativos de página única](using/web/web-spa.md)
-   + [Configurar subdomínios da Web](using/web/web-delegated-subdomains.md)
 + Experiência baseada em código {#code-based-experience}
    + [Introdução ao canal baseado em código](using/code-based/get-started-code-based.md)
    + [Pré-requisitos baseados em código](using/code-based/code-based-prerequisites.md)
@@ -528,7 +530,6 @@ ht-degree: 98%
    + [Suporte para arquivamento](using/configuration/archiving-support.md)
    + [Alterar endereços de execução](using/configuration/primary-email-addresses.md)
    + [Configurar regras de frequência](using/configuration/frequency-rules.md)
-   + [Implementar aplicativos de página única](using/web/web-spa-implementation.md)
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
       + Integrar a sistemas externos {#external-systems}
