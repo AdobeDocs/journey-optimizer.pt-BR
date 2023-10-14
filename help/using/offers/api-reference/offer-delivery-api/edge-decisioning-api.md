@@ -1,12 +1,12 @@
 ---
 title: Fornecer ofertas usando a API do Edge Decisioning
 description: O Adobe Experience Platform Web SDK permite recuperar e renderizar ofertas personalizadas que você criou usando APIs ou a Biblioteca de ofertas.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 5%
