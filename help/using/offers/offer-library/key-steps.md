@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: fe295f020934893cbe90ba987742b5f9d3931158
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 14%
@@ -33,12 +33,13 @@ Antes de começar a criar ofertas, você deve definir vários componentes que us
 
 1. Se quiser definir regras que determinarão qual oferta deve ser apresentada primeiro para uma determinada inserção (em vez de considerar as pontuações de prioridade das ofertas), você poderá **criar uma fórmula de classificação**.
 
-<table>
+<table style="table-layout:fixed"><tr style="border: 0;">
 <tr>
 <td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">Criar inserções</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">Criar regras de decisão</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">Criar tags</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../ranking/create-ranking-formulas.md">Criar fórmulas de classificação</a></p></td>
+</tr>
 </table>
 
 ## Criar e gerenciar ofertas {#create-and-manage-offers}
@@ -49,11 +50,12 @@ Antes de começar a criar ofertas, você deve definir vários componentes que us
 
 1. **Criar uma coleção** para incluir as ofertas personalizadas que você criou e usá-las em uma decisão.
 
-<table>
+<table style="table-layout:fixed"><tr style="border: 0;">
 <tr>
 <td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">Criar ofertas</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">Criar ofertas substitutas</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Criar coleções</a></p></td></tr>
+<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Criar coleções</a></p></td>
+</tr>
 </table>
 
 ## Criar e configurar decisões {#create-and-configure-decisions}
@@ -64,7 +66,7 @@ Antes de começar a criar ofertas, você deve definir vários componentes que us
 
 1. Se necessário, você pode **atribuir uma fórmula de classificação** para um posicionamento ao configurar a decisão.
 
-<table>
+<table style="table-layout:fixed"><tr style="border: 0;">
 <tr>
 <td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">Criar decisões</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">Configurar decisões</a></p></td>
