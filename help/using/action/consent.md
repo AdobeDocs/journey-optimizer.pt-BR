@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Experienced
 keywords: políticas, governança, plataforma, healthcare shield, consentimento
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 77565a88d23f241a54a8622ceed0cd26fc4a31b2
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 100%
@@ -58,7 +58,7 @@ There are two types of latency regarding the use of consent policies:
 ## Configuração da ação personalizada {#consent-custom-action}
 
 >[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action_admin"
+>id="ajo_consent_required_marketing_action"
 >title="Definir uma ação de marketing necessária"
 >abstract="A Ação de marketing necessária permite definir a ação de marketing relacionada à sua ação personalizada. Por exemplo, se você usar essa ação personalizada para enviar emails, será possível selecionar a opção Direcionamento de email. Quando usadas em uma jornada, todas as políticas de consentimento associadas a essa ação de marketing serão recuperadas e aproveitadas. Isso não pode ser modificado na tela."
 
