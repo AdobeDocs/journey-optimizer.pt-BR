@@ -765,8 +765,8 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **Relatórios**
 
-* Os deliveries agora podem ser filtrados dependendo de seu status:
-   * Na lista Execução de mensagem , agora é possível excluir provas da lista de deliveries.
+* As entregas agora podem ser filtradas dependendo de seu status:
+   * Na lista Execução de mensagem , agora é possível excluir provas da lista de entregas.
    * Nos seus relatórios Live/Global, você pode optar por excluir eventos de teste.
 
 * Agora você pode acessar os relatórios em Enviar dados de Otimização de Tempo: o número de pessoas que receberam mensagens imediatamente e o número de pessoas que receberam mensagens com otimização de 1 hora, otimização de 2 horas etc.
