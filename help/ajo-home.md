@@ -69,7 +69,7 @@ ht-degree: 100%
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Gestão de decisões</a>
     </div>
-    <p>Criar ofertas e fornecer a melhor oferta e experiência para os seus clientes</p>
+    <p>Criar ofertas e entregar a melhor oferta e experiência para os seus clientes</p>
     <p>
     <p>
     <div><strong>Recursos adicionais</strong>
