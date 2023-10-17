@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Registros PTR
 description: Saiba como gerenciar registros PTR
-feature: Application Settings
+feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: subdomínio, PTR, registros, DNS, domínio, email
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 10%
@@ -56,7 +56,7 @@ Você pode modificar um registro PTR para editar o subdomínio associado a um en
 >
 >Os registros PTR são comuns a todos os ambientes. Portanto, qualquer modificação em um registro PTR também afetará as sandboxes de produção.
 >
->Continue com muito cuidado ao editar registros PTR. Em caso de dúvidas, entre em contato com um especialista em capacidade de delivery.
+>Continue com muito cuidado ao editar registros PTR. Em caso de dúvidas, entre em contato com um especialista em capacidade de entrega.
 
 ### Subdomínios totalmente delegados {#fully-delegated-subdomains}
 

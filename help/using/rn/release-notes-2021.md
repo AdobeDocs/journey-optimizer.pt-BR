@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Notas de versão anteriores (2021)
 description: Notas de versão do Journey Optimizer 2021
+feature: Release Notes
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -180,7 +181,7 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 <tbody>
 <tr>
 <td>
-<p>Envie sua mensagem por push ou de email automaticamente na melhor hora para cada cliente com quem você interagir usando o Adobe Journey Optimizer. A Otimização de tempo de envio, viabilizada pelos serviços de IA da Adobe, prevê o melhor momento para enviar um email ou mensagem por push. Isso maximiza o engajamento com base no histórico das taxas de abertura e de cliques pronto para uso.</p>
+<p>Envie sua mensagem por push ou de email automaticamente na melhor hora para cada cliente com quem você interagir usando o Adobe Journey Optimizer. A Otimização de tempo de envio, viabilizada pelos serviços de IA do Adobe, prevê o melhor momento para enviar um email ou mensagem por push. Isso maximiza o engajamento com base no histórico das taxas de abertura e de cliques pronto para uso.</p>
 <p>No momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/journeys-message.md#send-time-optimization"> documentação detalhada </a>.</p>
 </td>

@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configurar subdomínios de página de destino
 description: Saiba como configurar subdomínios de página de aterrissagem com o Journey Optimizer
+feature: Landing Pages, Subdomains
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: landing page, landing page, subdomínios, configuração
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 24%

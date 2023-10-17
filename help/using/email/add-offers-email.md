@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adicionar ofertas personalizadas
 description: Saiba como adicionar ofertas personalizadas às suas mensagens
-feature: Journeys
+feature: Email Design, Offers
 topic: Content Management
 role: User
 level: Intermediate
 keywords: ofertas, decisão, emails, personalização, decisão
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Por exemplo, você pode adicionar uma decisão que exibirá no email uma oferta 
 
 >[!IMPORTANT]
 >
->Se forem feitas alterações em uma decisão de oferta que está sendo usada na mensagem de uma jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas à mensagem da jornada e que ela seja consistente com as atualizações mais recentes.
+>Se forem feitas alterações em uma decisão de oferta em uso na mensagem de uma jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas à mensagem da jornada e que ela seja consistente com as atualizações mais recentes.
 
 * Para obter mais informações sobre como criar e gerenciar ofertas, consulte [nesta seção](../offers/get-started/starting-offer-decisioning.md).
 * Para um **exemplo completo** mostrando como configurar ofertas, usá-las em uma decisão e aproveitar esta decisão em um email, confira [nesta seção](../offers/offers-e2e.md#insert-decision-in-email).

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Trabalhar com modelos de página de aterrissagem
 description: Saiba como salvar uma landing page como modelo e reutilizá-la no Journey Optimizer
-feature: Landing Pages
+feature: Landing Pages, Templates
 topic: Content Management
 role: User
 level: Beginner
 keywords: landing page, landing page, criação, templates
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 12%

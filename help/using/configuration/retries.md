@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Tentativas
 description: Saiba como as tentativas são executadas antes de enviar um endereço para a lista de supressão
-feature: Application Settings
+feature: Deliverability, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: tentativas, rejeição, software, otimizador, erro
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 13%

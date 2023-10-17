@@ -1,12 +1,12 @@
 ---
 title: Pré-requisitos do canal web
 description: Para acessar e criar páginas da Web na interface do usuário do Journey Optimizer, siga os pré-requisitos desta página
-feature: Web Channel
+feature: Web Channel, Channel Configuration
 topic: Content Management
-role: User
-level: Beginner
+role: Admin
+level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 11%

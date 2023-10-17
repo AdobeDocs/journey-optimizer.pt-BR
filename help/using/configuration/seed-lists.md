@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Seed lists
 description: Saiba como usar listas de propagação no Journey Optimizer
-feature: Deliverability
+feature: Channel Configuration, Email
 topic: Content Management
 role: User
 level: Intermediate
 keywords: seed list, seed list, seed, configuração
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 22%
@@ -26,7 +26,7 @@ Seed lists em [!DNL Journey Optimizer] permite incluir automaticamente seed addr
 >
 >As variantes não são compatíveis no momento. Como cada perfil do público-alvo direcionado, os seed addresses recebem uma única cópia de cada mensagem, mas não todas as variantes da mesma mensagem (como os diferentes tratamentos de um [experimento de conteúdo](../campaigns/get-started-experiment.md)).
 
-Seed addresses são usados para direcionar destinatários que não correspondem aos critérios de destino definidos. Dessa forma, os recipients que estiverem fora do escopo de delivery podem recebê-lo, como qualquer outro recipient target receberia.
+Seed addresses são usados para direcionar destinatários que não correspondem aos critérios de destino definidos. Dessa forma, os recipients que estiverem fora do escopo de entrega podem recebê-lo, como qualquer outro recipient target receberia.
 
 Os seed addresses não são perfis reais nem perfis de teste, pois não incluem detalhes do perfil. São apenas recipients pertencentes a participantes internos armazenados no sistema. Quando selecionados em uma campanha ou jornada específica, eles são incluídos no tempo de execução do delivery, o que significa que receberão uma cópia do delivery para fins de garantia.
 
@@ -46,7 +46,7 @@ Os seed addresses não são perfis reais nem perfis de teste, pois não incluem 
 
 +++
 
-* Outro motivo para usar seed lists é a proteção da sua lista de endereçamento. Inserir seed addresses em sua lista de mala direta permite que você seja notado, se ela estiver sendo usada por um terceiro, pois esses seed addresses receberão os deliveries enviados à sua lista de mala direta.
+* Outro motivo para usar seed lists é a proteção da sua lista de endereçamento. Inserir seed addresses em sua lista de mala direta permite que você seja notado, se ela estiver sendo usada por um terceiro, pois esses seed addresses receberão as entregas enviadas à sua lista de mala direta.
 
 ## Acessar as listas de propagação {#access-seed-lists}
 

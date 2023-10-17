@@ -3,16 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Gerenciar a lista de supressão
 description: Saiba como acessar e gerenciar a lista de supressão do Journey Optimizer
-feature: Application Settings
+feature: Deliverability, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: supressão, lista, rejeição, email, otimizador, quarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -220,7 +220,7 @@ Para remover um endereço da lista de supressão, use o **[!UICONTROL Excluir]**
 
 >[!NOTE]
 >
->Continue com muito cuidado ao considerar a exclusão de qualquer endereço de email ou domínio. Em caso de dúvidas, entre em contato com um especialista em capacidade de delivery.
+>Continue com muito cuidado ao considerar a exclusão de qualquer endereço de email ou domínio. Em caso de dúvidas, entre em contato com um especialista em capacidade de entrega.
 
 Por exemplo, no caso de uma interrupção do provedor de serviços de Internet (ISP), os emails são marcados incorretamente como rejeições permanentes porque não podem ser entregues com êxito ao recipient. Esses endereços de email devem ser removidos da lista de supressão.
 

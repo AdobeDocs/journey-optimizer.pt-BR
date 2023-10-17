@@ -5,10 +5,10 @@ title: Lista de supressão
 description: Saiba como usar a lista de supressão é
 feature: Deliverability
 topic: Content Management
-role: User
-level: Intermediate
+role: Admin
+level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 8%
@@ -33,7 +33,7 @@ Para controlar as mensagens de email recebidas pelos proprietários de sua caixa
 
 Se você não receber seus comentários (como reclamações de spam, rejeições, etc.) levando em conta, eles irão avaliar sua reputação para baixo. A lista de supressão ajuda a honrar o feedback dos ISPs.
 
-Os recipients cujos endereços de email são suprimidos são excluídos automaticamente do delivery de mensagens. Isso irá acelerar os deliveries, pois a taxa de erro tem um efeito significativo na velocidade do delivery.
+Os recipients cujos endereços de email são suprimidos são excluídos automaticamente do delivery de mensagens. Isso irá acelerar as entregas, pois a taxa de erro tem um efeito significativo na velocidade da entrega.
 
 ## O que está na lista de supressão? {#what-s-on-suppression-list}
 

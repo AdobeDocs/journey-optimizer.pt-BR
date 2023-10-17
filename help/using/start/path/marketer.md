@@ -3,9 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer - Introdução para profissionais de marketing
 description: Como usuário de jornadas, aprenda a trabalhar com o Journey Optimizer
-level: Intermediate
+level: Beginner
+feature: Get Started
+Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
@@ -26,7 +28,7 @@ Consulte as seguintes seções para configurar a primeira jornada, adicionar ofe
 
 1. **Criar e gerenciar ativos**. O [!DNL Adobe Experience Manager Assets Essentials] fornece um repositório único e centralizado de ativos que você pode usar para preencher suas mensagens. Saiba mais [nesta seção](../../content-management/assets-essentials.md).
 
-1. **Adicionar ofertas**. Use o [!DNL Journey Optimizer] para fornecer a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa. Depois de projetado, direcione os públicos com ofertas personalizadas. Saiba mais sobre Gestão de decisões [nesta seção](../../offers/get-started/starting-offer-decisioning.md).
+1. **Adicionar ofertas**. Use o [!DNL Journey Optimizer] para entregar a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa. Depois de projetado, direcione os públicos com ofertas personalizadas. Saiba mais sobre Gestão de decisões [nesta seção](../../offers/get-started/starting-offer-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 

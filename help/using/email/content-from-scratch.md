@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Criar conteúdo do zero no Journey Optimizer
 description: Saiba como projetar seu conteúdo do zero
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: conteúdo, editor, email, iniciar
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 60%
