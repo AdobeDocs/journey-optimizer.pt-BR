@@ -53,7 +53,7 @@ Use os links na parte inferior da página inicial para saber como começar com o
 
 Crie campanhas e jornadas nesta seção.
 
-* **[!UICONTROL Campanhas]**: crie, configure e orquestre campanhas para fornecer conteúdo único a um público-alvo específico, usando vários canais. [Saiba mais](../campaigns/get-started-with-campaigns.md)
+* **[!UICONTROL Campanhas]**: crie, configure e orquestre campanhas para entregar conteúdo único a um público-alvo específico, usando vários canais. [Saiba mais](../campaigns/get-started-with-campaigns.md)
 
 * **[!UICONTROL Jornadas]**: crie, configure e orquestre suas jornadas de cliente. Combine as atividades de eventos, orquestração e ação para construir cenários entre canais de várias etapas. [Saiba mais](../building-journeys/journey-gs.md#jo-build)
 
