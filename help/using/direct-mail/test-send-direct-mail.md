@@ -7,21 +7,16 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 14%
+source-wordcount: '460'
+ht-degree: 15%
 
 ---
 
 # Teste e envio de uma mensagem de correspondência direta {#direct-mail-test-send}
 
 ## Visualizar o arquivo de extração {#preview-dm}
-
->[!CONTEXTUALHELP]
->id="ajo_direct_mail_preview"
->title="Visualização do arquivo de extração"
->abstract="Nesse painel, você pode visualizar como o arquivo de extração é exibido para cada perfil de teste selecionado no painel esquerdo. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido usando os dados do perfil de teste."
 
 Depois que o conteúdo do arquivo de extração for definido, você poderá usar perfis de teste para visualizá-lo. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
 

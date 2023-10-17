@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: pré-visualização, conteúdo, email, prova, teste, perfil
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 12%
+source-wordcount: '991'
+ht-degree: 10%
 
 ---
 
 # Visualizar e testar o email {#preview-and-proof}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="Visualizar e testar suas mensagens"
+>abstract="Após definir o conteúdo da mensagem, é possível usar perfis de teste para visualizar e testar o conteúdo."
 
 Depois que o conteúdo de email for definido, você poderá usar perfis de teste para pré-visualizá-lo e testá-lo. Se você inseriu [conteúdo personalizado](../personalization/personalize.md), é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
 
@@ -44,13 +49,6 @@ Além disso, use a conta do **Litmus** no [!DNL Journey Optimizer] para pré-vis
 ➡️ [Saiba como visualizar e revisar seu email neste vídeo](#video-preview)
 
 ## Selecionar perfis de teste {#select-test-profiles}
-
->[!CONTEXTUALHELP]
->id="ac_preview_testprofiles"
->title="Visualizar e testar suas mensagens"
->abstract="Após definir o conteúdo da mensagem, é possível usar perfis de teste para visualizar e testar o conteúdo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=pt-BR#email-rendering" text="Renderização de email"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=pt-BR#preview-email" text="Visualização"
 
 Uso [Perfis de teste](../audience/creating-test-profiles.md) para direcionar recipients adicionais que não correspondem aos critérios de direcionamento definidos.
 
