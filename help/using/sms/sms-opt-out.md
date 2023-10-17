@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: 43a1c170882c13c692d73fd78eac9989b1e5006d
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 27%
+source-wordcount: '447'
+ht-degree: 26%
 
 ---
 
@@ -21,12 +21,12 @@ De acordo com os padrões e regulamentos do setor, todas as mensagens de marketi
 
 >[!IMPORTANT]
 >
->As comunicações de mensagem de texto podem estar sujeitas a vários requisitos de conformidade legal, dependendo da natureza, do local de onde você está enviando suas mensagens de texto e do local de seus destinatários. Embora a Adobe Journey Optimizer trate as mensagens em códigos longos e números de chamada gratuita conforme detalhado abaixo, consulte seu departamento jurídico para garantir que suas comunicações de mensagem de texto estejam em conformidade com todos os requisitos de conformidade legal aplicáveis.
+>As comunicações de mensagem de texto podem estar sujeitas a vários requisitos de conformidade legal, dependendo da natureza, do local de onde você está enviando suas mensagens de texto e do local de seus destinatários. Enquanto a Adobe Journey Optimizer lida com as mensagens em códigos curtos, códigos longos e números de chamada gratuita conforme detalhado abaixo, consulte seu departamento jurídico para garantir que suas comunicações de mensagem de texto estejam em conformidade com todos os requisitos de conformidade legal aplicáveis.
 >
 
 ## Palavras-chave de entrada nativas {#sms-native-keywords}
 
-Por padrão, o Adobe Journey Optimizer lida com as seguintes mensagens de resposta padrão em inglês para mensagens gratuitas e de código longo: STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE. Observe que somente Sinch e Infobip suportam palavras-chave nativas quando usadas com o Journey Optimizer.
+Por padrão, o Adobe Journey Optimizer lida com as seguintes mensagens de resposta padrão em inglês para códigos curtos, chamadas gratuitas e mensagens de código longas: STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE. Observe que somente Sinch e Infobip suportam palavras-chave nativas quando usadas com o Journey Optimizer.
 
 Essas palavras-chave normalmente acionam uma resposta padrão automática do provedor de terceiros. Você pode confirmar isso diretamente com seu provedor ou por meio do site de documentação dele.
 
