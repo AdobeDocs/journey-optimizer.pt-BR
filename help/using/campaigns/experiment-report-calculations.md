@@ -1,12 +1,11 @@
 ---
 title: Cálculos estatísticos usados no relatório de experimentação
 description: Saiba mais sobre cálculos estatísticos usados ao executar relatórios de experimento
-feature: A/B Testing
-topic: Content Management
+feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 1%
@@ -45,7 +44,7 @@ O painel Experimentação do Jornada exibe intervalos de confiança &quot;válid
 
 A sequência de confiança de uma variante individual `ν` é fundamental para a metodologia estatística usada pelo Adobe. É possível encontrar sua definição em [esta página](https://doi.org/10.48550/arXiv.2103.06476) (reproduzido de [Waudby-Smith et al.]).
 
-Se você estiver interessado em estimar um parâmetro de direcionamento `ψ` como o índice de conversão de uma variante em um experimento, a dicotomia entre uma sequência de Intervalos de confiança (CIs) de &quot;tempo fixo&quot; e uma Sequência de confiança (CS) uniforme no tempo pode ser resumida da seguinte maneira:
+Se você estiver interessado em estimar um parâmetro de direcionamento `ψ` como a taxa de conversão de uma variante em um Experimento, a dicotomia entre uma sequência de Intervalos de confiança (CIs) de &quot;tempo fixo&quot; e uma Sequência de confiança (CS) uniforme no tempo pode ser resumida da seguinte maneira:
 
 ![](assets/statistical_4.png){width="500" align="center"}
 
