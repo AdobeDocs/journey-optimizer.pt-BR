@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: b00a4e174e978121687428147b5b3861077c5182
+source-git-commit: 0eec7788aa8292843812eba0282ea5219b5711df
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 >id="ajo_create_fragment"
 >title="Definir os próprios fragmentos"
 >abstract="Crie e gerencie fragmentos independentes para tornar seu conteúdo reutilizável em várias jornadas e campanhas."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/reusable-content/fragments.html#create-fragments" text="Criar fragmentos"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Criar fragmentos"
 
 Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails [!DNL Journey Optimizer] campanhas e jornadas.
 
@@ -194,7 +194,7 @@ Este fragmento agora está pronto para ser usado ao criar qualquer [email](../em
 >id="ajo_create_expression_fragment"
 >title="Selecionar o tipo de expressão"
 >abstract="Crie um fragmento de expressão independente para tornar seu conteúdo reutilizável em várias jornadas e campanhas. Ao usar o editor de expressão, você pode aproveitar todos os fragmentos de expressão que foram criados na sandbox atual."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/personalization/expression-editor/use-expression-fragments.html" text="Aproveitar fragmentos de expressão"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Aproveitar fragmentos de expressão"
 
 1. [Criar um fragmento](#create-from-scratch) do **[!UICONTROL Gestão de conteúdo]** > **[!UICONTROL Fragmentos]** e selecione a opção **[!UICONTROL Fragmento da expressão]** tipo.
 
