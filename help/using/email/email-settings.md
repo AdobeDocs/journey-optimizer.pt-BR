@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: aa71769719dce607e5392c9d8167f3afe3884d5f
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '2340'
 ht-degree: 13%
 
 ---
@@ -121,7 +121,12 @@ No **[!UICONTROL Parâmetros de cabeçalho]** insira os nomes dos remetentes e o
 
 * **[!UICONTROL Responder para (email)]**: O endereço de email que será usado quando o recipient clicar no **Responder** no software cliente de email. [Saiba mais](#reply-to-email)
 
-* **[!UICONTROL Email de erro]**: todos os erros gerados pelos ISPs após alguns dias da entrega de emails (rejeições assíncronas) são recebidos neste endereço.
+* **[!UICONTROL Email de erro]**: todos os erros gerados pelos ISPs após alguns dias da entrega de emails (rejeições assíncronas) são recebidos neste endereço. As notificações de ausência do escritório e as respostas a desafios também são recebidas neste endereço.
+
+  >[!NOTE]
+  >
+  >Se quiser receber as notificações de ausência do escritório e as respostas de desafio em um endereço de email específico que não esteja delegado ao Adobe, é necessário configurar um [processo de encaminhamento](#forward-email). Nesse caso, verifique se você tem uma solução manual ou automatizada para processar os emails que chegam a essa caixa de entrada.
+
 
 >[!CAUTION]
 >
@@ -137,9 +142,9 @@ No **[!UICONTROL Parâmetros de cabeçalho]** insira os nomes dos remetentes e o
 
 Ao definir a variável **[!UICONTROL Responder para (email)]** endereço, você poderá especificar qualquer endereço de email, desde que seja um endereço válido, no formato correto e sem qualquer erro de digitação.
 
-Para garantir o gerenciamento de respostas adequado, siga as recomendações abaixo:
+A caixa de entrada usada para respostas receberá todos os emails de resposta, exceto notificações de ausência temporária e respostas de desafio, que são recebidos no **[!UICONTROL Email de erro]** endereço.
 
-* A caixa de entrada usada para respostas receberá todos os emails de resposta, incluindo notificações de ausência temporária e respostas a desafios. Portanto, verifique se você tem um processo manual ou automatizado em vigor para processar os emails que chegam a essa caixa de entrada.
+Para garantir o gerenciamento de respostas adequado, siga as recomendações abaixo:
 
 * Verifique se a caixa de entrada dedicada tem capacidade de recepção suficiente para receber todos os emails de resposta enviados usando a superfície de email. Se a caixa de entrada retornar devoluções, algumas respostas dos clientes podem não ser recebidas.
 
@@ -157,18 +162,26 @@ Se você receber um erro ao enviar a superfície de email, significa que o regis
 
 ### Encaminhar email {#forward-email}
 
-Se quiser encaminhar para um endereço de email específico todos os emails recebidos por [!DNL Journey Optimizer] para o subdomínio delegado, entre em contato com o Atendimento ao cliente da Adobe. Será necessário fornecer:
+Para encaminhar para um endereço de email específico todos os emails recebidos por [!DNL Journey Optimizer] para o subdomínio delegado, entre em contato com o Atendimento ao cliente da Adobe.
+
+>[!NOTE]
+>
+>Se o subdomínio usado para o **[!UICONTROL Responder para (email)]** endereço não for delegado ao Adobe, o encaminhamento não poderá funcionar para esse endereço.
+
+Você precisa fornecer:
 
 * O endereço de email de encaminhamento de sua escolha. Observe que o domínio de endereço de email de encaminhamento não pode corresponder a nenhum subdomínio delegado ao Adobe.
 * O nome da sua sandbox.
-* O nome da superfície para a qual o endereço de email de encaminhamento será usado.
-* O atual **[!UICONTROL Responder para (email)]** endereço definido no nível da superfície de canal.
+* O nome da superfície ou do subdomínio para o qual o endereço de email de encaminhamento será usado.
+  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel surface level.-->
 
 >[!NOTE]
 >
 >Só pode haver um endereço de email de encaminhamento por subdomínio. Consequentemente, se várias superfícies usarem o mesmo subdomínio, o mesmo endereço de email de encaminhamento deverá ser usado para todas elas.
 
-O endereço de email de encaminhamento será configurado pelo Adobe. Isso pode levar de 3 a 4 dias.
+O endereço de email de encaminhamento é configurado pelo Adobe. Isso pode levar de 3 a 4 dias.
+
+Depois de concluído, todas as mensagens recebidas no **[!UICONTROL Responder para (email)]** e **[!UICONTROL Email de erro]** Os endereços são encaminhados para o endereço de email específico fornecido.
 
 ## Email com CCO {#bcc-email}
 
