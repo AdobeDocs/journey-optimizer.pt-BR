@@ -1,10 +1,11 @@
 ---
 title: Decisão em lote
 description: Saiba como fornecer decisões de oferta a todos os perfis em um determinado público-alvo da Adobe Experience Platform.
-Feature: Offers
-Level: Intermediate
+Feature: Decision Management
+role: User
+level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 3%

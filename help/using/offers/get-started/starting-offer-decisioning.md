@@ -1,12 +1,12 @@
 ---
 title: Introdução à Gestão de decisões
 description: Saiba como o Adobe Journey Optimizer pode ajudar você a enviar aos clientes a oferta certa na hora certa
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
-level: Beginner
+level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 97%
@@ -29,7 +29,7 @@ A capacidade de gerenciamento de decisão consiste em dois componentes principai
 Os benefícios incluem:
 
 * Melhor desempenho da campanha fornecendo ofertas personalizadas em vários canais,
-* Workflows aprimorados: em vez de criar vários deliveries ou campanhas, as equipes de marketing podem aprimorar os workflows criando um único delivery e variar as ofertas em diferentes partes do modelo,
+* Workflows aprimorados: em vez de criar várias entregas ou campanhas, as equipes de marketing podem aprimorar os workflows criando uma única entrega e variar as ofertas em diferentes partes do modelo,
 * Controle a quantidade de vezes que uma oferta é exibida em campanhas e clientes.
 
 ➡️ [Saiba mais sobre a Gestão de decisões nesses vídeos](#video)

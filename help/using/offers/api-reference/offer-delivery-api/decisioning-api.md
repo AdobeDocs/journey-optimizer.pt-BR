@@ -1,12 +1,12 @@
 ---
 title: Entregar ofertas
 description: A Gestão de decisões é uma coleção de serviços e programas de interface do usuário que permite aos profissionais de marketing criar e fornecer experiências de oferta personalizadas para o usuário final em canais e aplicativos usando lógica de negócios e regras de decisão.
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 5%
@@ -116,7 +116,7 @@ curl -X POST \
 | `xdm:allowDuplicatePropositions` | Esse objeto controla a estrutura das regras de desduplicação. Consiste em uma série de sinalizadores que indicam se a mesma opção pode ser proposta através de uma determinada dimensão. Um sinalizador definido como verdadeiro significa que duplicatas são permitidas e não devem ser removidas na categoria indicada pelo sinalizador. Um sinalizador definido como falso significa que o mecanismo de decisão não deve fazer a mesma proposta na dimensão e, em vez disso, escolher a próxima melhor opção para uma das subdecisões. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Se definido como verdadeiro, várias decisões podem receber a mesma opção. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | Se definido como verdadeiro, vários posicionamentos podem receber a mesma opção. | `"xdm:acrossPlacements": true` |
-| `xdm:mergePolicy.xdm:id` | Identifica a política de mesclagem pela qual controlar os dados retornados pelo serviço de acesso ao perfil. Se um não for especificado na solicitação, a Gestão de decisões não transmitirá nenhum serviço de acesso de perfil, caso contrário, transmitirá a ID fornecida pelo chamador. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
+| `xdm:mergePolicy.xdm:id` | Identifica a política de mesclagem pela qual controlar os dados retornados pelo serviço de acesso ao perfil. Se um não for especificado na solicitação, o Gerenciamento de decisões não transmitirá nenhum serviço de acesso de perfil, caso contrário, transmitirá a ID fornecida pelo chamador. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | Um conjunto de sinalizadores que formata o conteúdo da resposta. |
 | `xdm:responseFormat.xdm:includeContent` | Um valor booleano que, se definido como `true`, inclui conteúdo na resposta. | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | Um objeto usado para especificar quais metadados adicionais são retornados. Se essa propriedade não for incluída, `xdm:id` e `repo:etag` são retornados por padrão. | `name` |

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Limitações do Jornada
 description: Saiba mais sobre as limitações do Jornada
-feature: Journeys
+feature: Journeys, Best Practices, Guardrails
 topic: Content Management
 role: User
 level: Intermediate
 keywords: jornadas, limitação
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 64abe386cd0d7b7e849fb6f6cdc70c00b4365feb
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 68%

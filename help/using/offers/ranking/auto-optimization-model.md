@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: Modelos de otimização automática
 description: Saiba mais sobre os modelos de otimização automática
-feature: Ranking, Offers
+feature: Ranking, Decision Management
 role: User
-level: Intermediate
+level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 0%
@@ -41,7 +41,7 @@ O algoritmo subjacente à Otimização automática é **Amostragem de Thompson**
 
 [Amostragem de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, ou bandidos Bayesianos, é uma abordagem Bayesiana para o problema do bandido multi-armado.  A ideia básica é tratar a média de recompensa? de cada oferta como uma **variável aleatória** e usar os dados que coletamos até agora, para atualizar nossa &quot;crença&quot; sobre a recompensa média. Esta &quot;crença&quot; é representada matematicamente por um **distribuição de probabilidade posterior** - essencialmente um intervalo de valores para a recompensa média, juntamente com a plausibilidade (ou probabilidade) de que a recompensa tem esse valor para cada oferta. Então, para cada decisão, nós **exemplificar um ponto de cada uma dessas distribuições de recompensa posteriores** e selecione a oferta cuja amostra de recompensa teve o valor mais alto.
 
-Esse processo é ilustrado na figura abaixo, onde temos 3 ofertas diferentes. Inicialmente, não temos nenhuma evidência dos dados e assumimos que todas as ofertas têm uma distribuição de recompensa posterior uniforme. Tiramos uma amostra da distribuição de recompensa posterior de cada oferta. A amostra selecionada na distribuição da Oferta 2 tem o valor mais alto. Este é um exemplo de **exploração**. Depois de mostrar a Oferta 2, coletamos qualquer recompensa potencial (por exemplo, conversão/sem conversão) e atualizamos a distribuição posterior da Oferta 2 usando o Teorema de Bayes como explicado abaixo.  Continuamos esse processo e atualizamos as distribuições posteriores sempre que uma oferta é exibida e a recompensa é coletada. Na segunda figura, a Oferta 3 é selecionada - apesar de a Oferta 1 ter a maior recompensa média (sua distribuição de recompensa posterior é a mais à direita), o processo de amostragem de cada distribuição levou-nos a escolher uma Oferta 3 aparentemente abaixo do ideal. Ao fazer isso, oferecemos a nós mesmos a oportunidade de saber mais sobre a verdadeira distribuição de recompensas da Oferta 3.
+Esse processo é ilustrado na figura abaixo, onde temos 3 ofertas diferentes. Inicialmente, não temos nenhuma evidência dos dados e assumimos que todas as ofertas têm uma distribuição de recompensa posterior uniforme. Tiramos uma amostra da distribuição de recompensa posterior de cada oferta. A amostra selecionada na distribuição da Oferta 2 tem o valor mais alto. Este é um exemplo de **exploração**. Depois de mostrar a Oferta 2, coletamos qualquer recompensa potencial (por exemplo, conversão/sem conversão) e atualizamos a distribuição posterior da Oferta 2 usando o Teorema de Bayes como explicado abaixo.  Continuamos esse processo e atualizamos as distribuições posteriores sempre que uma oferta é exibida e a recompensa é coletada. Na segunda figura, a Oferta 3 é selecionada - apesar de a Oferta 1 ter a maior recompensa média (sua distribuição de recompensa posterior é a mais à direita), o processo de amostragem de cada distribuição levou-nos a escolher uma Oferta 3 aparentemente abaixo do ideal. Ao fazer isso, oferecemos a nós mesmos a oportunidade de aprender mais sobre a verdadeira distribuição de recompensas da Oferta 3.
 
 À medida que mais amostras são coletadas, a confiança aumenta e uma estimativa mais precisa da possível recompensa é obtida (correspondendo a distribuições de recompensa mais estreitas). Esse processo de atualização de nossas crenças à medida que mais evidências se tornam disponíveis é conhecido como **Inferência bayesiana**.
 

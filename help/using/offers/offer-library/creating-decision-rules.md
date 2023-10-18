@@ -1,12 +1,12 @@
 ---
 title: Criar regras de decisão
 description: Saiba como criar regras de decisão para definir para quem as ofertas podem ser exibidas
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: ce0cba88c5649b3efd557d6d539ffd7dc2c8f193
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 14%
