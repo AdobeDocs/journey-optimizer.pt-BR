@@ -12,7 +12,7 @@ exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
 >title="Design de emails"
->abstract="Uso **Adobe Journey Optimizer** para enviar mensagens de email aos clientes. Você pode criar, personalizar e visualizar mensagens no Designer de email."
+>abstract="Use o **Adobe Journey Optimizer** para enviar mensagens de email a clientes. Você pode criar, personalizar e visualizar mensagens no Designer de email."
 
 Use [!DNL Journey Optimizer] para enviar mensagens de email aos clientes. Você pode criar, personalizar e visualizar mensagens no Designer de email.
 

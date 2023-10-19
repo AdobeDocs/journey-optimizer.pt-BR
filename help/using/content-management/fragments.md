@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="Definir os próprios fragmentos"
->abstract="Crie e gerencie fragmentos independentes para tornar seu conteúdo reutilizável em várias jornadas e campanhas."
+>title="Definir seus próprios fragmentos"
+>abstract="Crie e gerencie fragmentos independentes para tornar o conteúdo reutilizável em várias jornadas e campanhas."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Criar fragmentos"
 
 Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails [!DNL Journey Optimizer] campanhas e jornadas.
@@ -162,9 +162,9 @@ Para criar um fragmento do zero, siga as etapas abaixo.
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
->title="Selecionar o tipo visual"
->abstract="Crie um fragmento visual independente para tornar o conteúdo reutilizável em um email em uma jornada, campanha ou modelo de conteúdo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="Adicionar fragmentos visuais aos seus emails"
+>title="Selecione o tipo “Visual”"
+>abstract="Crie um fragmento visual independente para tornar o conteúdo reutilizável em um email de uma jornada ou campanha ou em um modelo de conteúdo."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=pt-BR" text="Adicionar fragmentos visuais aos emails"
 
 1. [Criar um fragmento](#create-from-scratch) do **[!UICONTROL Gestão de conteúdo]** > **[!UICONTROL Fragmentos]** e selecione a opção **[!UICONTROL Fragmento visual]** tipo.
 
@@ -192,7 +192,7 @@ Este fragmento agora está pronto para ser usado ao criar qualquer [email](../em
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
->title="Selecionar o tipo de expressão"
+>title="Selecione o tipo “Expressão”"
 >abstract="Crie um fragmento de expressão independente para tornar seu conteúdo reutilizável em várias jornadas e campanhas. Ao usar o editor de expressão, você pode aproveitar todos os fragmentos de expressão que foram criados na sandbox atual."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Aproveitar fragmentos de expressão"
 
@@ -259,9 +259,9 @@ Agora você pode usar esse fragmento ao criar qualquer [email](../email/get-star
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="Salvar como fragmento de expressão"
->abstract="A variável [!DNL Journey Optimizer] O editor de expressão permite salvar o conteúdo como fragmentos de expressão. Essas expressões ficam disponíveis para criar conteúdo personalizado."
+>abstract="O editor de expressão do [!DNL Journey Optimizer] permite salvar o conteúdo como fragmentos de expressão. Essas expressões são disponibilizadas na criação de conteúdo personalizado."
 
-A variável [!DNL Journey Optimizer] O editor de expressão permite salvar o conteúdo como fragmentos de expressão. Essas expressões ficam disponíveis para criar conteúdo personalizado.
+O editor de expressão do [!DNL Journey Optimizer] permite salvar o conteúdo como fragmentos de expressão. Essas expressões são disponibilizadas na criação de conteúdo personalizado.
 
 Para salvar o conteúdo como um fragmento de expressão, siga as etapas abaixo.
 

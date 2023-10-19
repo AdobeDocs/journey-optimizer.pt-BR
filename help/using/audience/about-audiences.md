@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
->title="Selecionar o público da campanha"
->abstract="Esta lista exibe todos os públicos-alvo disponíveis da Adobe Experience Platform. Selecione o público a ser direcionado com sua campanha. A mensagem configurada na campanha será enviada a todos os indivíduos pertencentes ao público selecionado. [Saiba mais sobre públicos](../audience/about-audiences.md)"
+>title="Selecione o público-alvo da campanha"
+>abstract="Esta lista exibe todos os públicos-alvo disponíveis na Adobe Experience Platform. Selecione o público-alvo a ser direcionado pela campanha. A mensagem configurada na campanha será enviada a todas as pessoas pertencentes ao público-alvo selecionado. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)"
 
 O [!DNL Journey Optimizer] permite criar e aproveitar públicos-alvo da Adobe Experience Platform usando dados do Perfil do cliente em tempo real diretamente do menu **[!UICONTROL Públicos-alvo]** e usá-los em suas jornadas ou campanhas.
 

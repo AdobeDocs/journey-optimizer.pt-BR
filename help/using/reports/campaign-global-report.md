@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
 workflow-type: tm+mt
 source-wordcount: '3192'
-ht-degree: 3%
+ht-degree: 25%
 
 ---
 
@@ -49,7 +49,7 @@ Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Opt
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_delivery_global"
 >title="Estatísticas da campanha"
->abstract="O widget de Estatísticas da campanha detalha as principais informações relacionadas à sua campanha, como Perfis inseridos e Ações entregues."
+>abstract="O dispositivo Estatísticas da campanha detalha as principais informações relacionadas à campanha, como perfis inseridos e ações entregues."
 
 ![](assets/campaign_report_global_1.png)
 
@@ -122,48 +122,48 @@ Para aprofundar esses resultados e como interpretá-los, consulte [esta página]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"
->title="Email - Estatísticas de envio"
->abstract="A tabela de estatísticas de Email - Envio resume dados essenciais sobre seu email, como Segmentado ou Entregue."
+>title="Email: estatísticas de envio"
+>abstract="A tabela “Email: estatísticas de envio” resume dados essenciais sobre o email, como se ele foi direcionado ou entregue."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_tracking_statistics"
->title="Email - Estatísticas de rastreamento"
->abstract="A tabela de estatísticas de Email - Rastreamento fornece dados sobre a atividade do perfil do seu Email."
+>title="Email: estatísticas de rastreamento"
+>abstract="A tabela “Email: estatísticas de rastreamento” fornece dados sobre atividades de perfil do email."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_performance"
->title="Email - Desempenho de envio"
->abstract="O gráfico de desempenho Email - Envio apresenta dados abrangentes sobre emails enviados, oferecendo insights sobre métricas principais como entregas e devoluções, permitindo uma análise detalhada do processo de delivery de email."
+>title="Email: desempenho de envio"
+>abstract="O gráfico “Email: desempenho de envio” apresenta dados abrangentes sobre emails enviados, oferecendo insights acerca de métricas principais, como entregas e rejeições, o que permite uma análise detalhada do processo de entrega de email."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_categories"
->title="Email - Categorias de rejeição"
->abstract="Os gráficos e a tabela Email - Bounce categories fornecem dados sobre erros temporários e permanentes."
+>title="Email: categorias de rejeição"
+>abstract="A tabela “Email: categorias de rejeição” e seus gráficos fornecem dados sobre erros temporários e permanentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_reasons"
->title="Email - Motivos de rejeições"
->abstract="Os gráficos e a tabela Email - Motivos de rejeições contêm os dados disponíveis relacionados às mensagens rejeitadas."
+>title="Email: motivos de rejeições"
+>abstract="A tabela “Email: motivos de rejeições” e seus gráficos contêm dados relacionados às mensagens rejeitadas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_error_reasons"
->title="Email - Motivos de erro"
->abstract="Os gráficos e a tabela Email - Motivos de erro permitem identificar os erros específicos que ocorreram durante o processo de envio."
+>title="Email: motivos de erro"
+>abstract="A tabela “Email: motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram durante o processo de envio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_excluded_reasons"
->title="Email - Motivos excluídos"
->abstract="Os gráficos e a tabela Motivos excluídos ilustram os vários fatores que levaram aos perfis de usuário, excluídos do público-alvo direcionado, a não receber a mensagem."
+>title="Email: motivos de exclusão"
+>abstract="A tabela “Motivos de exclusão” e seus gráficos ilustram os vários fatores que levaram perfis de usuário excluídos do público-alvo a não receberem a mensagem."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_top_url"
->title="Email - URL superior"
->abstract="O gráfico e a tabela Email - Top URL oferecem uma visão geral abrangente dos URLs no seu email que recebem o maior tráfego de visitantes, permitindo identificar os links mais populares."
+>title="Email: URL principal"
+>abstract="A tabela “Email: URL principal” e seu gráfico oferecem uma visão geral abrangente dos URLs do email que recebem o maior tráfego de visitantes, permitindo identificar os links mais populares."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_best_recipient"
->title="Email - Melhor domínio de destinatário"
->abstract="O gráfico e a tabela Email - Best recipient domain fornecem um detalhamento dos domínios que os recipients usam com mais frequência para abrir o email, oferecendo insights valiosos sobre o comportamento do recipient."
+>title="Email: melhor domínio do destinatário"
+>abstract="A tabela “Email: melhor domínio do destinatário” e seu gráfico fornecem um detalhamento dos domínios que os destinatários usam com mais frequência para abrir o email, oferecendo insights valiosos sobre o comportamento do destinatário."
 
 ![](assets/campaign_report_global_2.png)
 
@@ -268,17 +268,17 @@ A variável **[!UICONTROL Otimização da hora de envio]** detalha o sucesso do 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_performance"
 >title="Desempenho no aplicativo"
->abstract="Os KPIs de desempenho no aplicativo fornecem insights essenciais sobre o envolvimento dos visitantes com as mensagens no aplicativo."
+>abstract="Os KPIs de desempenho no aplicativo fornecem insights essenciais sobre o engajamento de visitantes com as mensagens no aplicativo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_interactions"
 >title="Interações por tipo"
->abstract="Os gráficos de Interações por tipo e a tabela detalham como os usuários interagiram com sua mensagem no aplicativo rastreando qualquer clique, descarte ou interação."
+>abstract="A tabela “Interações por tipo” e seus gráficos detalham como usuários interagiram com a mensagem no aplicativo por meio do rastreamento de cliques, mensagens ignoradas ou interações."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_summary"
 >title="Resumo no aplicativo"
->abstract="O gráfico de resumo no aplicativo ilustra a progressão de suas impressões e interações no aplicativo durante o período especificado."
+>abstract="O gráfico “Resumo no aplicativo” ilustra a progressão das impressões e interações no aplicativo durante o período especificado."
 
 Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL No aplicativo]** A guia detalha as principais informações relativas aos deliveries no aplicativo enviados em sua campanha.
 
@@ -303,33 +303,33 @@ A variável **[!UICONTROL Resumo no aplicativo]** O gráfico mostra a evolução
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_statistics"
->title="Notificação por push - Estatísticas de envio"
->abstract="A tabela Estatísticas de envio de notificação por push resume dados essenciais sobre suas notificações por push, como mensagens direcionadas ou entregues."
+>title="Notificações por push: estatísticas de envio"
+>abstract="A tabela “Notificações por push: estatísticas de envio” resume dados essenciais sobre notificações por push, como mensagens direcionadas ou entregues."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_tracking_statistics"
->title="Notificação por push - Estatísticas de rastreamento"
->abstract="As Estatísticas de rastreamento de push fornecem dados sobre a atividade de perfil para sua notificação por push."
+>title="Notificações por push: estatísticas de rastreamento"
+>abstract="As “Estatísticas de rastreamento de push” fornecem dados sobre as atividades de perfil das notificações por push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_summary"
->title="Notificação por push - Resumo de envio"
->abstract="O gráfico Resumo do envio de notificação por push exibe os dados disponíveis para notificações por push enviadas."
+>title="Notificações por push: resumo de envio"
+>abstract="O gráfico “Notificações por push: resumo de envio” exibe os dados disponíveis para notificações por push enviadas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_excluded_reasons"
->title="Notificação por push - Motivos excluídos"
->abstract="Os gráficos e a tabela Motivos excluídos ilustram os vários fatores que levaram aos perfis de usuário, excluídos do público-alvo direcionado, a não receber a mensagem."
+>title="Notificações por push: motivos de exclusão"
+>abstract="A tabela “Motivos de exclusão” e seus gráficos ilustram os vários fatores que levaram perfis de usuário excluídos do público-alvo a não receberem a mensagem."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_error_reasons"
->title="Notificação por push - Motivos de erro"
->abstract="Os gráficos e a tabela de Motivos de erro permitem identificar os erros específicos que ocorreram durante o processo de envio."
+>title="Notificações por push: motivos de erro"
+>abstract="A tabela “Motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram durante o processo de envio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
->title="Notificação por push - Detalhamento por plataforma"
->abstract="Os gráficos e a tabela Detalhamento por plataforma fornecem uma análise do sucesso de suas notificações por push com base no sistema operacional do perfil."
+>title="Notificações por push: detalhamento por plataforma"
+>abstract="A tabela “Detalhamento por plataforma” e seus gráficos fornecem uma análise do sucesso das notificações por push baseada no sistema operacional do perfil."
 
 Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Notificação por push]** A guia detalha as principais informações relativas aos deliveries por push enviados em sua campanha.
 
@@ -410,33 +410,33 @@ A variável **[!UICONTROL Detalhamento por plataforma]** O gráfico e a tabela d
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
->title="SMS - Estatísticas de envio"
->abstract="A tabela Estatísticas de envio de SMS resume dados essenciais sobre suas mensagens SMS, como mensagens Segmentadas ou Entregues."
+>title="SMS: estatísticas de envio"
+>abstract="A tabela “SMS: estatísticas de envio” resume dados essenciais sobre as mensagens SMS, como mensagens direcionadas ou entregues."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_error_reasons"
->title="SMS - Motivos de erro"
->abstract="Os gráficos e a tabela SMS - Motivos de erro permitem identificar os erros específicos que ocorreram durante o processo de envio."
+>title="SMS: motivos de erro"
+>abstract="A tabela “SMS: motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram durante o processo de envio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
->title="SMS - Desempenho por data"
->abstract="O widget Desempenho por data do SMS fornece informações importantes sobre suas mensagens por meio de uma representação gráfica."
+>title="SMS: desempenho por data"
+>abstract="O dispositivo “SMS: desempenho por data” fornece informações importantes sobre as mensagens por meio de uma representação gráfica."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_excluded_reasons"
->title="SMS - Motivos excluídos"
->abstract="Os gráficos e a tabela Motivos excluídos ilustram os vários fatores que levaram aos perfis de usuário, excluídos do público-alvo direcionado, a não receber a mensagem."
+>title="SMS: motivos de exclusão"
+>abstract="A tabela “Motivos de exclusão” e seus gráficos ilustram os vários fatores que levaram perfis de usuário excluídos do público-alvo a não receberem a mensagem."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_bounces_reasons"
->title="SMS - Motivos de rejeições"
->abstract="Os gráficos e a tabela Motivos de rejeições contêm os dados disponíveis relacionados às mensagens rejeitadas."
+>title="SMS: motivos de rejeições"
+>abstract="A tabela “Motivos de rejeições” e seus gráficos contêm dados relacionados às mensagens rejeitadas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
->title="SMS - Cliques por links"
->abstract="O widget SMS - Cliques por links fornece insights essenciais sobre o envolvimento dos visitantes com os URLs em suas mensagens"
+>title="SMS: cliques por link"
+>abstract="O dispositivo “SMS: cliques por link” fornece insights essenciais sobre o engajamento de visitantes com os URLs nas mensagens"
 
 Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL SMS]** A guia detalha as principais informações relativas aos deliveries de SMS enviados em sua campanha.
 
@@ -474,18 +474,18 @@ A variável **[!UICONTROL SMS - Cliques por links]** Os widgets detalham as prin
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_performance"
->title="Desempenho da Web"
->abstract="Os KPIs de desempenho da Web fornecem informações abrangentes sobre o engajamento dos visitantes com as experiências da Web."
+>title="Desempenho na Web"
+>abstract="Os KPIs de desempenho na Web fornecem informações abrangentes sobre o engajamento de visitantes com as experiências da Web."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_summary"
 >title="Resumo da Web"
->abstract="O gráfico Resumo da Web ilustra a progressão de suas experiências da Web, incluindo impressões, impressões exclusivas e interações, durante o período especificado."
+>abstract="O gráfico “Resumo da Web” ilustra a progressão das experiências da Web, incluindo impressões, impressões únicas e interações, durante o período especificado."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_interactions"
 >title="Interações por elemento"
->abstract="A tabela Interações por elemento fornece informações importantes sobre o envolvimento de seus visitantes com diferentes elementos em suas páginas da Web."
+>abstract="A tabela “Interações por elemento” fornece informações importantes sobre o engajamento de visitantes com diferentes elementos em suas páginas da Web."
 
 Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Web]** A guia detalha as informações principais relativas às páginas da Web.
 
@@ -510,18 +510,18 @@ A variável **[!UICONTROL Interações por elemento]** A tabela detalha as princ
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_sending_statistics"
->title="Correspondência direta - Estatísticas de envio"
->abstract="A tabela Estatísticas de envio de correspondência direta resume dados essenciais sobre suas mensagens de correspondência direta, como mensagens direcionadas ou entregues."
+>title="Correspondência direta: estatísticas de envio"
+>abstract="A tabela “Correspondência direta: estatísticas de envio” resume dados essenciais sobre mensagens de correspondência direta, como mensagens direcionadas ou entregues."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_error_reasons"
->title="Correspondência direta - Motivos de erro"
->abstract="Os gráficos e a tabela Mala direta - Motivos de erro permitem identificar os erros específicos que ocorreram durante o processo de envio."
+>title="Correspondência direta: motivos de erro"
+>abstract="A tabela “Correspondência direta: motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram durante o processo de envio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
->title="Correspondência direta - Motivos excluídos"
->abstract="Os gráficos e a tabela Motivos excluídos da correspondência direta ilustram os vários fatores que levaram aos perfis de usuário, excluídos do público-alvo direcionado, a não receber a mensagem."
+>title="Correspondência direta: motivos de exclusão"
+>abstract="A tabela “Correspondência direta: motivos de exclusão” e seus gráficos ilustram os vários fatores que levaram perfis de usuário excluídos do público-alvo a não receberem a mensagem."
 
 Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Correspondência direta]** A guia detalha as principais informações relacionadas aos deliveries de correspondência direta.
 

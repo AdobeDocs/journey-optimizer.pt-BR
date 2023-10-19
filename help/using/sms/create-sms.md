@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -84,7 +84,7 @@ Agora é possível começar a projetar o conteúdo da sua mensagem SMS usando o 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definir o conteúdo do SMS"
->abstract="Personalize e personalize suas mensagens SMS usando o Editor de expressão para definir o conteúdo e incorporar elementos dinâmicos."
+>abstract="Personalize as mensagens SMS usando o editor de expressão para definir o conteúdo e incorporar elementos dinâmicos."
 
 1. Na tela de configuração do jornada ou da campanha, clique no link **[!UICONTROL Editar conteúdo]** botão para configurar o conteúdo do SMS.
 

@@ -12,7 +12,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 5ac3797db8115180094cc97f06ec330839a7a5ff
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 22%
+ht-degree: 35%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
 >title="Personalizar experiências"
->abstract="Uso **Adobe Journey Optimizer** para adaptar suas mensagens a cada recipient específico, aproveitando os dados e as informações que você tem sobre eles. Pode ser seu nome, interesses, onde vivem, o que compraram e muito mais."
+>abstract="Use o **Adobe Journey Optimizer** para adaptar as mensagens a cada destinatário, aproveitando seus dados e informações. Esses dados podem ser: nome, interesses, onde vivem, o que compraram etc."
 
 
-Descobrir [!DNL Adobe Journey Optimizer] recursos de personalização para adaptar suas mensagens a cada recipient específico, aproveitando os dados e as informações que você tem sobre eles. Pode ser seu nome, interesses, onde vivem, o que compraram e muito mais.
+Descobrir [!DNL Adobe Journey Optimizer] recursos de personalização para adaptar suas mensagens a cada recipient específico, aproveitando os dados e as informações que você tem sobre eles. Esses dados podem ser: nome, interesses, onde vivem, o que compraram etc.
 
 ➡️ [Saiba como personalizar uma mensagem nesses vídeos](#video-perso)
 ➡️ [Descubra casos de uso que usam a personalização](personalization-use-case.md)

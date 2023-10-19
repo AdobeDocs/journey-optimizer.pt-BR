@@ -10,7 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1987'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_triggers"
 >title="Gerenciar acionadores no aplicativo"
->abstract="Controle seus acionadores com eficiência selecionando os eventos e critérios específicos que ativarão suas mensagens. Com o construtor de regras, os usuários podem definir condições e valores precisos. Quando essas condições são atendidas, elas iniciam uma série de ações, incluindo o delivery de mensagens no aplicativo."
+>abstract="Controle os acionadores com eficiência selecionando os eventos e critérios específicos que ativarão as mensagens. O construtor de regras permite definir condições e valores precisos. Quando essas condições são atendidas, elas iniciam uma série de ações, incluindo a entrega de mensagens no aplicativo."
 
 Você pode adicionar uma mensagem no aplicativo em uma campanha ou em uma jornada. Siga as etapas detalhadas abaixo para criar uma mensagem no aplicativo em ambos os contextos.
 
