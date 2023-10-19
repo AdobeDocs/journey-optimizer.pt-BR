@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 37fda274025135f0577fd551971583e1b6d5c469
 workflow-type: tm+mt
-source-wordcount: '3829'
-ht-degree: 97%
+source-wordcount: '3845'
+ht-degree: 96%
 
 ---
 
@@ -19,13 +19,12 @@ ht-degree: 97%
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
 
-
-
 ## Outubro de 2023 {#oct-2023}
 
 * Adição de GIF para ilustrar alguns recursos principais, como: [Modelos de conteúdo](../content-management/content-templates.md), [Fragmentos](../content-management/fragments.md), [Atributos computados](../audience/computed-attributes.md), [Correspondência direta](../direct-mail/get-started-direct-mail.md), [Tags](../start/search-filter-categorize.md#tags), [Modelos de otimização de gestão de decisão](../offers/ranking/personalized-optimization-model.md), [Campanhas acionadas por API](../campaigns/api-triggered-campaigns.md), e [Experimento de conteúdo](../campaigns/content-experiment.md).
 * O processo de criação do Schema foi atualizado para refletir as atualizações mais recentes na interface, que vêm com alterações do Adobe Experience Platform. [Leia mais](../audience/creating-test-profiles.md)
 * As medidas de proteção do Gerenciamento de decisão foram adicionadas à página Medidas de proteção e limitações. [Leia mais](../start/guardrails.md#decision-management)
+* Uma nova seção sobre como pré-visualizar e testar seu conteúdo foi criada. [Leia mais](../content-management/preview-test.md)
 
 ## Setembro de 2023 {#september-2023}
 
