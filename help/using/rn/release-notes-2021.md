@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 88%
@@ -275,7 +275,7 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 
 **Design de conteúdo**
 
-* **Plano de fundo** - Imagens de planos de fundo agora são compatíveis com a pré-visualização ao vivo. [Saiba mais](../email/preview.md)
+* **Plano de fundo** - Imagens de planos de fundo agora são compatíveis com a pré-visualização ao vivo. [Saiba mais](../content-management/preview-test.md)
 * **Link para opção de não participação com um clique** - É possível inserir um novo tipo de link no conteúdo de email: o link para **opção de não participação** permite que os usuários cancelem o recebimento de suas comunicações com apenas um clique, sem serem redirecionados para uma página de destino para confirmar a recusa. [Saiba mais](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalização**
@@ -350,9 +350,9 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 
 **Pré-visualização e teste**
 
-* A identidade e o namespace agora estão visíveis na **[!UICONTROL Visualizar]** tela. [Leia mais](../email/preview.md#preview-your-messages)
+* A identidade e o namespace agora estão visíveis na **[!UICONTROL Visualizar]** tela. [Leia mais](../content-management/preview-test.md#preview-your-messages)
 * O número de emails de teste para provas agora está restrito a 10.
-* Caracteres permitidos nas provas de **prefixo da linha de assunto** agora são limitadas. [Leia mais](../email/preview.md#send-proofs)
+* Caracteres permitidos nas provas de **prefixo da linha de assunto** agora são limitadas. [Leia mais](../content-management/preview-test.md#send-proofs)
 
 **Editor de expressão de personalização**
 

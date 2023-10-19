@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 11%
@@ -68,7 +68,7 @@ O objetivo aqui é ver se os recipients interagirão com o email dependendo do e
    * **[!UICONTROL Nome]**
    * **[!UICONTROL Descrição]**
 
-1. Defina o público-alvo para o target. Para fazer isso, clique no link **[!UICONTROL Selecionar público]** botão para exibir a lista de públicos-alvo disponíveis do Adobe Experience Platform. [Saiba mais sobre públicos](../audience/about-audiences.md)
+1. Defina o público-alvo para o target. Para fazer isso, clique no link **[!UICONTROL Selecionar público]** botão para exibir a lista de públicos-alvo disponíveis do Adobe Experience Platform. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)
 
    No **[!UICONTROL Namespace de identidade]** escolha o namespace a ser usado para identificar os indivíduos do público-alvo selecionado. [Saiba mais](get-started-experiment.md#content-experiment-work)
 
@@ -154,7 +154,7 @@ O objetivo aqui é ver se os recipients interagirão com o email dependendo do e
 
    ![](assets/content_experiment_19.png)
 
-1. Após definir o conteúdo da mensagem, clique no link **[!UICONTROL Simular conteúdo]** para controlar a renderização do delivery e verificar as configurações de personalização com perfis de teste. [Saiba mais](../email/preview.md)
+1. Após definir o conteúdo da mensagem, clique no link **[!UICONTROL Simular conteúdo]** para controlar a renderização do delivery e verificar as configurações de personalização com perfis de teste. [Saiba mais](../content-management/preview-test.md)
 
 1. Quando o experimento de conteúdo estiver pronto, na página de resumo da campanha, você pode clicar em **[!UICONTROL Revisar para ativar]** para exibir um resumo da campanha. Os alertas são exibidos se qualquer parâmetro estiver incorreto ou ausente.
 

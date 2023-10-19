@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 64c255eb6bb4712d79547ae47fd1dc6f8b1e9089
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 98%
+source-wordcount: '1686'
+ht-degree: 95%
 
 ---
 
@@ -195,7 +195,6 @@ ht-degree: 98%
          + [Editar configurações de fundo](using/email/backgrounds.md)
          + [Ajustar o alinhamento vertical e o preenchimento](using/email/alignment-and-padding.md)
          + [Adicionar atributos de estilo incorporado](using/email/inline-styling.md)
-   + [Visualizar e testar o email](using/email/preview.md)
    + [Usar modelos do Experience Manager](using/email/aem-templates.md)
    + [Gerenciar opção de não participação de email](using/email/email-opt-out.md)
    + Configurar canal de email {#configure-email}
@@ -205,13 +204,13 @@ ht-degree: 98%
    + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
    + [Pré-requisitos do canal no aplicativo](using/in-app/inapp-configuration.md)
    + [Criação de uma mensagem no aplicativo](using/in-app/create-in-app.md)
-   + [Criar seu conteúdo no aplicativo](using/in-app/design-in-app.md)
-   + [Teste e envie a sua notificação no aplicativo](using/in-app/send-in-app.md)
+   + [Projete seu conteúdo no aplicativo](using/in-app/design-in-app.md)
+   + [Verifique e envie sua notificação no aplicativo](using/in-app/send-in-app.md)
 + Canal de notificação por push{#push}
    + [Introdução à notificação por push](using/push/get-started-push.md)
    + [Criar uma notificação por push](using/push/create-push.md)
    + [Projetar a notificação por push](using/push/design-push.md)
-   + [Enviar a notificação por push](using/push/send-push.md)
+   + [Marque e envie sua notificação por push](using/push/send-push.md)
    + Configurar notificações por push{#push-config}
       + [Fluxo de notificação por push](using/push/push-gs.md)
       + [Configurar canal de notificação por push](using/push/push-configuration.md)
@@ -219,14 +218,14 @@ ht-degree: 98%
 + Canal SMS{#sms}
    + [Introdução a SMS](using/sms/get-started-sms.md)
    + [Criar uma mensagem de SMS.](using/sms/create-sms.md)
-   + [Visualizar e testar o SMS](using/sms/send-sms.md)
+   + [Verifique e envie seu SMS](using/sms/send-sms.md)
    + [Gerenciar opção de não participação de SMS](using/sms/sms-opt-out.md)
    + [Configurar canal de SMS](using/sms/sms-configuration.md)
    + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
 + Correspondência direta {#direct-mail}
    + [Introdução à correspondência direta](using/direct-mail/get-started-direct-mail.md)
    + [Criação de uma correspondência direta](using/direct-mail/create-direct-mail.md)
-   + [Teste e envio de uma mensagem de correspondência direta](using/direct-mail/test-send-direct-mail.md)
+   + [Verificar e enviar uma mensagem de correspondência direta](using/direct-mail/test-send-direct-mail.md)
    + [Configurar correspondência direta](using/direct-mail/direct-mail-configuration.md)
 + Canal da Web {#web}
    + [Introdução ao canal Web](using/web/get-started-web.md)
@@ -257,15 +256,16 @@ ht-degree: 98%
    + Configurar páginas de destino {#lp-configuration}
       + [Configurar subdomínios de página de destino](using/landing-pages/lp-subdomains.md)
       + [Definir predefinições da página de destino](using/landing-pages/lp-presets.md)
-+ Gerenciamento de conteúdo {#content-management}
-   + [Trabalhar com o Assets Essentials](using/content-management/assets-essentials.md)
-   + [Trabalhar com o Adobe Stock](using/content-management/stock.md)
++ Gestão de conteúdo {#content-management}
    + Trabalhar com o Assistente de conteúdo{#content-assistant}
       + [Introdução ao Assistente de conteúdo](using/content-management/gs-generative.md)
       + [Geração de conteúdo](using/content-management/generative-content.md)
       + [Geração de imagem](using/content-management/generative-image.md)
    + Trabalhar com conteúdo multilíngue{#content-multilingual}
       + [Criar conteúdo multilíngue](using/content-management/multilingual-manual.md)
+   + Ativos/imagens {#assets-images}
+      + [Trabalhar com o Assets Essentials](using/content-management/assets-essentials.md)
+      + [Trabalhar com o Adobe Stock](using/content-management/stock.md)
    + Personalização {#personalization}
       + [Introdução à personalização](using/personalization/personalize.md)
       + [Contextos de personalização](using/personalization/personalization-contexts.md)
@@ -297,6 +297,12 @@ ht-degree: 98%
       + [Introdução ao conteúdo dinâmico](using/personalization/get-started-dynamic-content.md)
       + [Criar regras condicionais](using/personalization/create-conditions.md)
       + [Criar conteúdo dinâmico](using/personalization/dynamic-content.md)
+   + Pré-visualizar e testar o conteúdo {#preview-test}
+      + [Introdução a pré-visualização e teste](using/content-management/preview-test.md)
+      + [Selecionar perfis de teste](using/content-management/test-profiles.md)
+      + [Pré-visualizar seu conteúdo](using/content-management/preview.md)
+      + [Enviar provas de email](using/content-management/proofs.md)
+      + [Testar a renderização do email](using/content-management/rendering.md)
 + Públicos-alvo, perfis e identidade{#audiences-profiles-identities}
    + Públicos-alvo {#audiences}
       + [Introdução aos públicos](using/audience/about-audiences.md)

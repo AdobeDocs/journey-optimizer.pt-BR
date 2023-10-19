@@ -1,20 +1,20 @@
 ---
-title: Teste e envie a sua notificação no aplicativo
-description: Saiba como testar e enviar uma mensagem no aplicativo no Journey Optimizer
+title: Verifique e envie sua notificação no aplicativo
+description: Saiba como verificar e enviar uma mensagem no aplicativo no Journey Optimizer
 feature: In App
 topic: Content Management
 role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 17%
+ht-degree: 13%
 
 ---
 
-# Teste e envie a sua notificação no aplicativo {#create-in-app}
+# Verifique e envie sua notificação no aplicativo {#create-in-app}
 
 ## Visualizar no dispositivo {#preview-device}
 

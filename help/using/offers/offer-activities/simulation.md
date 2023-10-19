@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 13%
@@ -85,8 +85,6 @@ Primeiro, é necessário selecionar os perfis de teste que você usará para sim
    >Os perfis selecionados permanecerão listados como perfis de teste na **[!UICONTROL Simulação]** de sessão para sessão até que sejam removidos usando **[!UICONTROL Gerenciar perfil]**.
 
 1. Você pode clicar no link **[!UICONTROL Detalhes do perfil]** para exibir os dados de perfil selecionados.
-
-<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## Adicionar escopos de decisão {#add-decision-scopes}
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 36%
@@ -135,7 +135,7 @@ Depois que o email for enviado, quando os recipients clicarem no link da mirror 
 
 >[!NOTE]
 >
->No [prova](preview.md#send-proofs) enviado aos perfis de teste, o link para a mirror page não está ativo. Ele só é ativado nas mensagens finais.
+>No [prova](../content-management/proofs.md) enviado aos perfis de teste, o link para a mirror page não está ativo. Ele só é ativado nas mensagens finais.
 
 O período de retenção de uma mirror page é de 60 dias. Após esse atraso, a mirror page não estará mais disponível.
 
@@ -186,4 +186,4 @@ Agora, quando o email for enviado, esse parâmetro será anexado automaticamente
 
 >[!NOTE]
 >
->Para verificar o URL final, é possível [enviar uma prova](preview.md#send-proofs) e clique no link no conteúdo do email depois de receber a prova. O URL deve exibir o parâmetro de rastreamento. No exemplo acima, o URL final será: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>Para verificar o URL final, é possível [enviar uma prova](../content-management/preview-test.md#send-proofs) e clique no link no conteúdo do email depois de receber a prova. O URL deve exibir o parâmetro de rastreamento. No exemplo acima, o URL final será: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>

@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 100%
+source-wordcount: '455'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Consulte as seguintes seções para configurar a primeira jornada, adicionar ofe
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Testar e validar**. Após definir o conteúdo, é possível usar perfis de teste para pré-visualizar e testar o conteúdo. Se você inseriu [conteúdo personalizado](../../personalization/personalize.md), será possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste. Além disso, use a conta do **Litmus** no [!DNL Journey Optimizer] para pré-visualizar instantaneamente a **renderização de email** em clientes de email populares. Em seguida, você pode melhorar seu conteúdo de email e garantir que ele e funcione corretamente em cada caixa de entrada. Saiba como testar e validar suas mensagens [nesta seção](../../email/preview.md).
+1. **Testar e validar**. Depois que o conteúdo for definido, você poderá usar perfis de teste para visualizar seu conteúdo. Se você inseriu [conteúdo personalizado](../../personalization/personalize.md), será possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste. Além disso, use a conta do **Litmus** no [!DNL Journey Optimizer] para pré-visualizar instantaneamente a **renderização de email** em clientes de email populares. Em seguida, você pode melhorar seu conteúdo de email e garantir que ele e funcione corretamente em cada caixa de entrada. Saiba como testar e validar suas mensagens [nesta seção](../../content-management/preview-test.md).
 
 1. **Crie jornadas do cliente** para fornecer experiências personalizadas e contextuais. O [!DNL Journey Optimizer] permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. Crie designs de cenários avançados com várias etapas e com os seguintes recursos:
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1106'
 ht-degree: 12%
 
 ---
@@ -164,21 +164,17 @@ Agora você pode usar este modelo ao criar qualquer [email](../email/get-started
 
 Você pode testar a renderização de qualquer template de conteúdo de email, seja criado do zero ou por um email. Para isso, siga as etapas abaixo.
 
->[!CAUTION]
->
->Para simular o conteúdo, você deve ter o **[!DNL Manage Simulate Content]** permissão incluída na **[!DNL Content Library Manager]** perfil do produto. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. Acesse a lista de templates de conteúdo por meio da **[!UICONTROL Gestão de conteúdo]** > **[!UICONTROL Modelos de conteúdo]** e selecione qualquer modelo.
 
 1. Clique em **[!UICONTROL Editar conteúdo]** do **[!UICONTROL Propriedades do modelo]**.
 
-1. Clique em **[!UICONTROL Simular conteúdo]** e selecione um perfil de teste para verificar a renderização de email. Você pode escolher exibir no desktop ou em um dispositivo móvel. [Saiba mais](../email/preview.md)
+1. Clique em **[!UICONTROL Simular conteúdo]** e selecione um perfil de teste para verificar a renderização de email. Você pode escolher exibir no desktop ou em um dispositivo móvel. [Saiba mais](../content-management/preview-test.md)
 
    ![](../email/assets/content-template-stimulate.png)
 
 1. Você pode enviar uma prova para testar seu conteúdo e aprová-lo por alguns usuários internos antes de usá-lo em uma jornada ou campanha.
 
-   * Para fazer isso, clique no link **[!UICONTROL Enviar prova]** e siga as etapas descritas em [nesta seção](../email/preview.md#send-proofs).
+   * Para fazer isso, clique no link **[!UICONTROL Enviar prova]** e siga as etapas descritas em [nesta seção](../content-management/proofs.md).
 
    * Antes de enviar a prova, selecione a variável [superfície de email](../configuration/channel-surfaces.md) que serão usados para testar o conteúdo.
 
@@ -186,7 +182,7 @@ Você pode testar a renderização de qualquer template de conteúdo de email, s
 
 >[!CAUTION]
 >
->Atualmente, o rastreamento não é compatível ao testar modelos de conteúdo de email, o que significa que o rastreamento de eventos, parâmetros UTM e links de página de aterrissagem não será eficaz nas provas que estão sendo enviadas de um modelo. Para testar o rastreamento, [usar o modelo de conteúdo](../email/use-email-templates.md) em um email e [enviar uma prova](../email/preview.md#send-proofs).
+>Atualmente, o rastreamento não é compatível ao testar modelos de conteúdo de email, o que significa que o rastreamento de eventos, parâmetros UTM e links de página de aterrissagem não será eficaz nas provas que estão sendo enviadas de um modelo. Para testar o rastreamento, [usar o modelo de conteúdo](../email/use-email-templates.md) em um email e [enviar uma prova](../content-management/preview-test.md#send-proofs).
 
 ## Vídeo explicativo {#video-templates}
 

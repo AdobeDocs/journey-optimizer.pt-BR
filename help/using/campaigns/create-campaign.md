@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 27%
+ht-degree: 34%
 
 ---
 
@@ -110,7 +110,7 @@ No **[!UICONTROL Ações]** crie a mensagem a ser enviada com a campanha.
     </tr>
     </table>
 
-1. Depois que o conteúdo for definido, use o **[!UICONTROL Simular conteúdo]** botão para visualizar e testar seu conteúdo com perfis de teste. [Saiba mais](../email/preview.md).
+1. Depois que o conteúdo for definido, use o **[!UICONTROL Simular conteúdo]** botão para visualizar e testar seu conteúdo com perfis de teste. [Saiba mais](../content-management/preview-test.md).
 
 1. Clique na seta para voltar para a tela de criação da campanha.
 
@@ -122,7 +122,7 @@ No **[!UICONTROL Ações]** crie a mensagem a ser enviada com a campanha.
 
 ## Definir o público {#audience}
 
-Clique em **[!UICONTROL Selecionar público]** botão para exibir a lista de públicos-alvo disponíveis do Adobe Experience Platform. [Saiba mais sobre públicos](../audience/about-audiences.md)
+Clique em **[!UICONTROL Selecionar público]** botão para exibir a lista de públicos-alvo disponíveis do Adobe Experience Platform. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ No **[!UICONTROL Namespace de identidade]** escolha o namespace a ser usado para
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Programação de campanha"
->abstract="Por padrão, as campanhas começam após a ativação manual e terminam imediatamente após a mensagem ser enviada uma vez. No entanto, você tem a flexibilidade de definir uma data e hora específicas para a mensagem a ser enviada. Além disso, é possível especificar uma data de término para campanhas recorrentes ou acionadas por API. Nos acionadores de Ação, você também pode configurar a frequência de envio da mensagem de acordo com suas preferências."
+>abstract="Por padrão, as campanhas começam com uma ativação manual e terminam imediatamente após a mensagem ser enviada uma vez. No entanto, você tem a flexibilidade de definir a data e hora específicas para o envio da mensagem. Além disso, é possível especificar uma data de término para campanhas recorrentes ou acionadas por API. Nos acionadores de ação, você também pode configurar a frequência de envio de mensagens de acordo com suas preferências."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

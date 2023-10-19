@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: ofertas, decisão, emails, personalização, decisão
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -74,10 +74,6 @@ A decisão foi adicionada ao componente. Depois de salvar as alterações, as of
 ![](assets/deliver-offer-preview.png)
 
 Para exibir as diferentes ofertas que fazem parte da decisão com um perfil de cliente, siga as etapas abaixo.
-
->[!NOTE]
->
->Você precisa ter perfis de teste disponíveis para poder visualizar suas mensagens. Saiba como [criar perfis de teste](../audience/creating-test-profiles.md).
 
 1. Selecione os perfis de teste que serão usados para visualizar a oferta:
 

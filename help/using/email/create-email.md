@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: criar, enviar email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 9%
+source-wordcount: '916'
+ht-degree: 8%
 
 ---
 
@@ -146,11 +146,15 @@ Dois tipos de alertas podem ocorrer:
 >
 >Para testar ou ativar a jornada/campanha usando o email, você deve resolver todos **erro** alertas.
 
-## Pré-visualizar e enviar seu email
+## Verifique e envie seu email
 
-Depois que o conteúdo da mensagem for definido, você poderá pré-visualizá-lo para controlar a renderização do email e verificar as configurações de personalização com perfis de teste. [Saiba mais](preview.md)
+Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste para pré-visualizá-la, enviar provas e controlar sua renderização em clientes populares de desktop, dispositivos móveis e baseados na Web. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
+
+Para fazer isso, clique em **[!UICONTROL Simular conteúdo]** em seguida, adicione um perfil de teste para verificar sua mensagem usando os dados do perfil de teste.
 
 ![](assets/email_designer_edit_simulate.png)
+
+Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na [Gestão de conteúdo](../content-management/preview-test.md) seção.
 
 Quando o email estiver pronto, conclua a configuração de [jornada](../building-journeys/journey-gs.md) ou [campaign](../campaigns/create-campaign.md)e ativá-lo para enviar a mensagem.
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 53d2d09342979d8f277d1be9f2f72da067dc1763
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1785'
 ht-degree: 24%
 
 ---
@@ -237,7 +237,7 @@ Depois que as configurações e o conteúdo da landing page forem definidos, voc
 
    ![](assets/lp_test-profiles.png)
 
-   As etapas para selecionar perfis de teste são as mesmas que ao testar uma mensagem. Eles são detalhados [nesta seção](../email/preview.md#select-test-profiles).
+   As etapas para selecionar perfis de teste são as mesmas que ao testar uma mensagem. Eles são detalhados na seção [Gestão de conteúdo](../content-management/test-profiles.md) seção.
 
 1. Selecionar **[!UICONTROL Abrir pré-visualização]** para testar sua landing page.
 
