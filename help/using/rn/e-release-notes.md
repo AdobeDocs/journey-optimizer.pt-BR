@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 62f3836494ae40cb4676f3e62ad4c8de2daa3ed9
+source-git-commit: b5d489779b150bdd3b9d7382b5710f7430620233
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '414'
 ht-degree: 24%
 
 ---
@@ -31,24 +31,6 @@ As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso 
 
 Essa versão traz os novos recursos listados abaixo.
 
-
-<table>
-<thead>
-<tr>
-<th><strong>Serviço de Mensagens Multimídia (MMS) em SMS (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Com o Canal SMS, agora é possível aprimorar sua comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), permitindo o compartilhamento de imagens, GIF ou vídeos com seus clientes. Observe que esse recurso está disponível atualmente na versão Beta somente com o Sinch.</p>
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
-
 <table>
 <thead>
 <tr>
@@ -66,7 +48,38 @@ Essa versão traz os novos recursos listados abaixo.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Públicos-alvo compostos no jornada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode usar públicos-alvo criados em workflows de composição em suas jornadas para clientes-alvo. Depois que uma composição de público-alvo for publicada e o público-alvo for salvo, use uma atividade Ler público-alvo para selecionar esse novo público na tela de jornada.</p>
+<!--img src="assets/channel-reports.png"/-->
+<p>Para obter mais informações, consulte a <a href="../audience/get-started-audience-orchestration.md">documentação detalhada</a>.</p>
+</tr>
+</tbody>
+</table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Serviço de Mensagens Multimídia (MMS) em SMS (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Com o Canal SMS, agora é possível aprimorar sua comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), permitindo o compartilhamento de imagens, GIF ou vídeos com seus clientes. Observe que esse recurso está disponível atualmente na versão Beta somente com o Sinch.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### Melhorias {#oct-2023-improvements}
 
@@ -75,7 +88,6 @@ Esta versão vem com as melhorias listadas abaixo.
 **Públicos-alvo**
 
 * Agora é possível direcionar públicos-alvo carregados de um arquivo CSV para jornadas e campanhas.
-* Agora você pode direcionar públicos-alvo resultantes de fluxos de trabalho de composição para suas jornadas.
 
 **Pontuação de spam para emails**
 
