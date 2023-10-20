@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 70e507337c3eef1718de21c3c0199bda1b92db69
+source-git-commit: be1d0fef5e10073553a7437671820314923e0f25
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 28%
+source-wordcount: '296'
+ht-degree: 33%
 
 ---
 
@@ -63,23 +63,6 @@ Essa versão traz os novos recursos listados abaixo.
 </tr>
 </tbody>
 &lt;/table --&gt;
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Serviço de Mensagens Multimídia (MMS) em SMS (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Com o Canal SMS, agora é possível aprimorar sua comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), permitindo o compartilhamento de imagens, GIF ou vídeos com seus clientes. Observe que esse recurso está disponível atualmente na versão Beta somente com o Sinch.</p>
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
 
 ### Melhorias {#oct-2023-improvements}
 
