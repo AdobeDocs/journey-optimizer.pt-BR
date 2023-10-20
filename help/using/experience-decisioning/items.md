@@ -9,14 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '1014'
 ht-degree: 7%
 
 ---
 
 # Itens de decisão {#items}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_items"
+>title="Gerenciar itens de decisão"
+>abstract="O Journey Optimizer permite criar ofertas de marketing, conhecidas como itens de decisão, que você pode criar e organizar em um catálogo e coleções centralizados. Atualmente, todos os itens de decisão criados são consolidados em um único catálogo de &quot;Ofertas&quot;. Nessa tela, você também pode acessar o esquema do catálogo usando o **Editar esquema** e criar atributos personalizados para seus itens de decisão."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configurar o catálogo de itens"
 
 >[!BEGINSHADEBOX]
 
@@ -40,6 +46,24 @@ O Journey Optimizer permite criar ofertas de marketing, conhecidas como itens de
 Antes de criar um item de decisão, verifique se você criou um **regra de decisão** se quiser definir condições para determinar para quem o item de decisão pode ser exibido. [Saiba como criar regras de decisão](rules.md).
 
 ## Criar seu primeiro item de decisão
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_priority"
+>title="Definir a prioridade do item de decisão"
+>abstract="Se um perfil se qualificar para vários itens, a prioridade permitirá comparar esse item de decisão com outros. Uma prioridade mais alta concede ao item precedência sobre outros."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="Definir os atributos personalizados"
+>abstract="Atributos personalizados são atributos específicos adaptados às suas necessidades que você pode atribuir a um item de decisão. Eles são criados no schema do catálogo dos itens de decisão. Esta seção só será exibida se você tiver adicionado pelo menos um atributo personalizado ao esquema de catálogo."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configurar o catálogo de itens"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_constraints"
+>title="Adicionar públicos-alvo ou regras de decisão"
+>abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos ou regras para restringir o item somente a perfis específicos."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Usar públicos"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Usar regras de decisão"
 
 Para criar um item de decisão, siga estas etapas:
 
@@ -71,7 +95,7 @@ Para criar um item de decisão, siga estas etapas:
 
    ![](assets/item-constraints.png)
 
-   * Para limitar a apresentação do item de decisão aos membros de um ou vários públicos-alvo da Adobe Experience Platform, selecione o **[!UICONTROL Visitantes que se encaixam em um ou vários públicos-alvo]** e, em seguida, adicione um ou vários públicos-alvo do painel esquerdo e combine-os usando a **[!UICONTROL E]** / **[!UICONTROL Ou]** operadores lógicos. [Saiba mais sobre públicos](../audience/about-audiences.md).
+   * Para limitar a apresentação do item de decisão aos membros de um ou vários públicos-alvo da Adobe Experience Platform, selecione o **[!UICONTROL Visitantes que se encaixam em um ou vários públicos-alvo]** e, em seguida, adicione um ou vários públicos-alvo do painel esquerdo e combine-os usando a **[!UICONTROL E]** / **[!UICONTROL Ou]** operadores lógicos. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md).
 
    * Para associar uma regra de decisão específica ao item de decisão, selecione **[!UICONTROL Por regra]**, em seguida, arraste a regra desejada do painel esquerdo para a área central. [Saiba mais sobre regras de decisão](rules.md).
 

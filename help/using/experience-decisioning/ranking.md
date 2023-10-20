@@ -9,14 +9,19 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 25%
+source-wordcount: '229'
+ht-degree: 21%
 
 ---
 
 # Métodos de classificação {#rankings}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_formulas"
+>title="Criar fórmulas de classificação"
+>abstract="As fórmulas permitem definir regras que determinarão qual item deve ser apresentado primeiro, em vez de considerar as pontuações de prioridade do item. Depois que um método de classificação é criado, é possível atribuí-lo a uma estratégia de decisão para definir quais itens devem ser selecionados primeiro."
 
 >[!BEGINSHADEBOX]
 

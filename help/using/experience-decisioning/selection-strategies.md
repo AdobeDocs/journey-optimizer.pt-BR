@@ -9,14 +9,27 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 8%
+source-wordcount: '788'
+ht-degree: 7%
 
 ---
 
 # Criar estratégias de seleção {#selection-strategies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_strategies"
+>title="Definir as estratégias de seleção"
+>abstract="Uma estratégia de seleção é um item reutilizável, que consiste em uma coleção associada a uma restrição de qualificação e um método de classificação para determinar as ofertas a serem exibidas quando selecionadas em uma política de decisão."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html" text="Criar políticas de decisão"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_eligibility"
+>title="Restringir os perfis qualificados"
+>abstract="Você pode restringir a seleção de ofertas para essa estratégia de seleção. Por padrão, todos os perfis são qualificados, mas você pode usar públicos ou regras para limitar a seleção da oferta somente a perfis específicos."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Usar públicos"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Usar regras de decisão"
 
 >[!BEGINSHADEBOX]
 
@@ -69,7 +82,7 @@ Para criar uma estratégia de seleção, siga as etapas abaixo.
 
    ![](assets/strategy-create-screen.png)
 
-1. Selecionar a oferta [coleção](collections.md) que contém as ofertas a serem consideradas.
+1. Selecione o [coleção](collections.md) que contém as ofertas a serem consideradas.
 
 1. Use o **[!UICONTROL Elegibilidade]** para restringir a seleção de ofertas para essa estratégia de seleção.
 
@@ -90,6 +103,12 @@ Para criar uma estratégia de seleção, siga as etapas abaixo.
 1. Clique em **[!UICONTROL Criar]**. Agora ele está pronto para ser usado em um [decisão](create-decision.md)
 
 ## Selecionar um método de classificação {#select-ranking-method}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_ranking"
+>title="Definir como classificar ofertas"
+>abstract="Se várias ofertas estiverem qualificadas para uma determinada estratégia de seleção, escolha o método que selecionará a melhor oferta para cada perfil ao criar uma estratégia de seleção: prioridade ou fórmula de classificação."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html" text="Criar políticas de decisão"
 
 Se várias ofertas estiverem qualificadas para uma determinada estratégia de seleção, você poderá escolher o método que selecionará a melhor oferta para cada perfil ao criar uma estratégia de seleção. Você pode classificar ofertas por:
 
