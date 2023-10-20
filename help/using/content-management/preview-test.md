@@ -4,10 +4,10 @@ description: Saiba como pré-visualizar e testar o conteúdo.
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 3%
+source-wordcount: '308'
+ht-degree: 1%
 
 ---
 
@@ -15,8 +15,13 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="Visualizar e testar suas mensagens"
->abstract="Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste para visualizar seu conteúdo."
+>title="Verifique como o conteúdo está sendo renderizado"
+>abstract="Depois que o conteúdo for definido, você poderá usar perfis de teste para pré-visualizá-lo e verificar se a renderização está correta de acordo com o canal que está usando."
+
+>[!CONTEXTUALHELP]
+>id="ajo_preview_simulate"
+>title="Verifique como o conteúdo está sendo renderizado"
+>abstract="Depois que o conteúdo for definido, você poderá pré-visualizá-lo e verificar se a renderização está correta de acordo com o canal que está usando."
 
 ## Sobre a visualização e o teste do conteúdo {#about}
 

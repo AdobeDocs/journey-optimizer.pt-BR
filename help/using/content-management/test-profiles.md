@@ -4,14 +4,19 @@ description: Saiba como selecionar perfis de teste para visualizar e testar o co
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 3%
+source-wordcount: '230'
+ht-degree: 2%
 
 ---
 
 # Selecionar perfis de teste {#select-test-profiles}
+
+>[!CONTEXTUALHELP]
+>id="ajo_preview_test_profiles"
+>title="Usar perfis de teste para verificar seu conteúdo"
+>abstract="Use perfis de teste para visualizar e testar seu conteúdo. Se você adicionou campos personalizados, é possível verificar como eles são exibidos usando dados de perfil de teste."
 
 Antes de visualizar ou testar seu conteúdo, primeiro é necessário selecionar perfis de teste, que são recipients adicionais que não correspondem aos critérios de direcionamento definidos. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md)
 
