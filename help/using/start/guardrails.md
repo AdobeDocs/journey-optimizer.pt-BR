@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
+source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 83%
+source-wordcount: '1650'
+ht-degree: 81%
 
 ---
 
@@ -124,7 +124,11 @@ Você pode escolher uma dessas duas soluções:
 
 * O tamanho do conteúdo da mensagem no aplicativo é limitado a 2 Mb. A inclusão de imagens grandes pode prejudicar o processo de publicação.
 
-## Gestão de decisões {#decision-management}
+## Medidas de proteção de públicos {#audience}
+
+* Você pode publicar até 10 composições de público-alvo em uma determinada sandbox. Se tiver atingido esse limite, será necessário excluir uma composição para liberar espaço e publicar uma nova.
+
+## Medidas de proteção de gestão de decisões {#decision-management}
 
 ### Medidas de proteção de desempenho {#performance-guardrails}
 
