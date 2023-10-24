@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
+source-git-commit: 2776af02e88659a350dfa4126a73106753e079b2
 workflow-type: tm+mt
-source-wordcount: '4605'
+source-wordcount: '4584'
 ht-degree: 91%
 
 ---
@@ -120,10 +120,6 @@ Esta versão vem com as melhorias listadas abaixo.
    * o **Quantidade de tempo** no campo [atividade de espera](../building-journeys/wait-activity.md)
    * o **Período de espera de reentrada** in [jornada propriedades](../building-journeys/journey-gs.md#entrance)
    * o **Aguardar** na definição de tempo limite de [geral](../building-journeys/general-events.md#events-specific-time) e [reação](../building-journeys/reaction-events.md) eventos.
-
-**Páginas de destino**
-
-* Ao usar o componente de formulário da página de aterrissagem, agora é possível adicionar um campo de email com suas próprias opções específicas.
 
 **Consentimento na configuração do canal**
 
