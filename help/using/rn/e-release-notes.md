@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be1d0fef5e10073553a7437671820314923e0f25
+source-git-commit: 1b37da28e6dbb03c8c76dd9a6637dfd95447eb7e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 33%
+source-wordcount: '371'
+ht-degree: 24%
 
 ---
 
@@ -58,11 +58,27 @@ Essa versão traz os novos recursos listados abaixo.
 <tr>
 <td>
 <p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<!--img src="assets/channel-reports.png"/-->
-<p>Para obter mais informações, consulte a <a href="../audience/get-started-audience-orchestration.md">documentação detalhada</a>.</p>
+<img src="assets/channel-reports.png"/>
+<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-&lt;/table --&gt;
+</table -->
+
+<table>
+<thead>
+<tr>
+<th><strong>Serviço de Mensagens Multimídia (MMS) em SMS (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Com o Canal SMS, agora é possível aprimorar sua comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), permitindo o compartilhamento de imagens, GIF ou vídeos com seus clientes. Observe que esse recurso está disponível atualmente na versão Beta somente com o Sinch.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### Melhorias {#oct-2023-improvements}
 
@@ -71,14 +87,20 @@ Esta versão vem com as melhorias listadas abaixo.
 **Públicos-alvo**
 
 * Agora é possível direcionar públicos-alvo carregados de um arquivo CSV para jornadas e campanhas.
+* Agora é possível direcionar públicos-alvo criados por meio da composição de públicos-alvo e aproveitar os atributos de enriquecimento no Jornada.
 
-**Pontuação de spam para emails**
+>[!AVAILABILITY]
+>
+>No momento, esses recursos estão disponíveis como um beta privado.
 
-* Ao simular um conteúdo de email, uma nova opção permite verificar o desempenho do conteúdo em relação à filtragem de spam nas caixas de entrada. No momento, esse recurso é proposto apenas para um conjunto de clientes (disponibilidade limitada) e está disponível para o canal de email.
+<!--
+**Spam scoring for emails**
+
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
 
 **Alertas**
 
-* Novos alertas relacionados às campanhas do Journey Optimizer agora estão disponíveis no **Alertas** menu.
+* Quando ocorre um erro em uma de suas campanhas, um ícone de aviso agora é exibido na lista de campanhas ao lado do status da campanha.
 
 **Campanhas**
 
@@ -86,8 +108,16 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Jornadas**
 
-* A duração máxima que você pode definir na atividade de espera agora é de 29 dias, em vez de 30.
+* A duração máxima que você pode definir em qualquer tempo de espera agora é de 29 dias, em vez de 30. Isso se aplica a:
+
+   * o **Quantidade de tempo** no campo [atividade de espera](../building-journeys/wait-activity.md)
+   * o **Período de espera de reentrada** in [jornada propriedades](../building-journeys/journey-gs.md#entrance)
+   * o **Aguardar** na definição de tempo limite de [geral](../building-journeys/general-events.md#events-specific-time) e [reação](../building-journeys/reaction-events.md) eventos.
 
 **Consentimento na configuração do canal**
 
 * Agora é possível selecionar uma ação de marketing no nível da superfície de canal. Quando usadas em uma superfície, todas as políticas de consentimento associadas a essa ação de marketing são aproveitadas para respeitar as preferências dos clientes.
+
+**Gestão de decisões**
+
+* Vários rótulos relacionados ao limite de oferta na interface da gestão de decisões foram atualizados.
