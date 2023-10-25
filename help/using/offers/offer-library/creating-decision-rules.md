@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '419'
 ht-degree: 14%
 
 ---
@@ -25,10 +25,9 @@ Por exemplo, você pode especificar que deseja que somente uma &#39;Oferta de ro
 
 Esta é uma lista de limitações que devem ser observadas ao trabalhar com regras de decisão:
 
-* Ao criar uma regra, você pode usar eventos históricos, mas há limitações quanto ao momento em que essas regras podem ser usadas.
 * A decisão de borda usa o perfil de borda que não armazena eventos, portanto, qualquer regra usada em uma decisão de borda será inválida.
-* As jornadas que usam Decisões de oferta não observarão eventos históricos, portanto, essas regras serão inválidas.
-* As solicitações de decisão que usam o perfil do hub observarão os últimos 100 eventos de experiência no perfil para avaliar as regras que fazem referência a eventos de experiência históricos.
+* Ao criar uma regra de decisão, a retrospectiva de um período anterior não é compatível. Por exemplo, se você especificar um evento de experiência que ocorreu no último mês como um componente da regra. Qualquer tentativa de incluir um período de lookback durante a criação da regra acionará um erro ao salvá-la.
+  <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## Criar uma regra de decisão {#create}
 
