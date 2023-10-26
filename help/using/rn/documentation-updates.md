@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
 workflow-type: tm+mt
-source-wordcount: '3956'
-ht-degree: 94%
+source-wordcount: '4011'
+ht-degree: 93%
 
 ---
 
@@ -30,6 +30,10 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * A página Implementar aplicativos de página única foi movida para a documentação do SDK da Web da Adobe Experience Platform. [Leia mais](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * A seção Limite foi atualizada para refletir as alterações de rótulo relacionadas ao limite de oferta na interface da gestão de decisões. [Leia mais](../offers/offer-library/add-constraints.md#capping)
 * A seção Adicionar conteúdo dinâmico a emails foi atualizada com detalhes sobre como excluir uma variante. [Leia mais](../personalization/dynamic-content.md#emails)
+* O exemplo de para configurações de limitação e limitação foi atualizado. [Leia mais](../configuration/external-systems.md)
+* A limitação relacionada aos arrays escalares foi removida da seção fonte de dados externa. [Leia mais](../datasource/external-data-sources.md)
+* O caso de uso da jornada de vários canais foi atualizado. [Leia mais](../building-journeys/journeys-uc.md)
+* O conjunto de documentação do Journey Optimizer foi atualizado para refletir o novo processo de criação do esquema Experience Platform.
 
 ## Setembro de 2023 {#september-2023}
 
