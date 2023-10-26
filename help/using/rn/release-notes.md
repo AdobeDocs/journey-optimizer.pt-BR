@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ed42c04d8c653226e8512ced761519995ebd72c7
+source-git-commit: ca1296327fd750da626819c4b86d5c3a8cee75fb
 workflow-type: tm+mt
-source-wordcount: '4537'
-ht-degree: 92%
+source-wordcount: '4517'
+ht-degree: 93%
 
 ---
 
@@ -110,7 +110,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Campanhas**
 
-* Agora você pode interromper uma campanha única ao vivo, fazer modificações e retomá-la novamente. Essa melhoria está disponível na versão beta.
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
 * Quando ocorre um erro em uma de suas campanhas, um ícone de aviso agora é exibido na lista de campanhas ao lado do status da campanha.
 
 **Jornadas**
