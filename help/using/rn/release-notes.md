@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca1296327fd750da626819c4b86d5c3a8cee75fb
+source-git-commit: c4178c9954e94b64954a8631a49dc0cffccbaaee
 workflow-type: tm+mt
-source-wordcount: '4517'
-ht-degree: 93%
+source-wordcount: '4477'
+ht-degree: 94%
 
 ---
 
@@ -121,9 +121,10 @@ Esta versão vem com as melhorias listadas abaixo.
    * o **Período de espera de reentrada** in [jornada propriedades](../building-journeys/journey-gs.md#entrance)
    * o **Aguardar** na definição de tempo limite de [geral](../building-journeys/general-events.md#events-specific-time) e [reação](../building-journeys/reaction-events.md) eventos.
 
-**Consentimento na configuração do canal**
+<!--
+**Consent in channel configuration**
 
-* Agora é possível selecionar uma ação de marketing no nível da superfície de canal. Quando usadas em uma superfície, todas as políticas de consentimento associadas a essa ação de marketing são aproveitadas para respeitar as preferências dos clientes.
+* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
 
 **Gestão de decisões**
 
