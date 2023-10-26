@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -48,7 +48,7 @@ Para enviar mensagens com jornadas, as seguintes configurações são necessári
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Jornadas"
->abstract="Crie jornadas do cliente para fornecer experiências personalizadas e contextuais. O Journey Optimizer permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. A variável **Visão geral** exibe um painel com as métricas principais relacionadas às suas jornadas. A variável **Procurar** exibe a lista de jornadas existentes."
+>abstract="Crie jornadas do cliente para fornecer experiências personalizadas e contextuais. O Journey Optimizer permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. A guia **Visão geral** exibe um painel com as métricas principais relacionadas às suas jornadas. A guia **Procurar** exibe a lista de jornadas existentes."
 
 Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]**. Duas guias estarão disponíveis:
 

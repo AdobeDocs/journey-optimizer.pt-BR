@@ -12,7 +12,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_api_profile_creation"
 >title="Tipo de campanha"
->abstract="Para obter o recurso de disponibilidade limitada para enviar mensagens sem criar perfis, siga as etapas detalhadas na documentação."
+>abstract="Para que o recurso de disponibilidade limitada envie mensagens sem criar perfis, siga as etapas detalhadas na documentação."
 
 ## Sobre campanhas acionadas por API {#about}
 
