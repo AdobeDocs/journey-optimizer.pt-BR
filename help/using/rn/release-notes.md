@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 7dc3ddb92a8d47b135535107928e5b812c101d93
 workflow-type: tm+mt
-source-wordcount: '4558'
+source-wordcount: '4556'
 ht-degree: 92%
 
 ---
@@ -119,7 +119,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
    * o **Quantidade de tempo** no campo [atividade de espera](../building-journeys/wait-activity.md)
    * o **Período de espera de reentrada** in [jornada propriedades](../building-journeys/journey-gs.md#entrance)
-   * o **Aguardar** na definição de tempo limite de [geral](../building-journeys/general-events.md#events-specific-time) e [reação](../building-journeys/reaction-events.md) eventos.
+   * o **Aguardar** na definição de tempo limite de [atividades de evento](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
