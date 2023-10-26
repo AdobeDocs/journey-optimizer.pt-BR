@@ -11,9 +11,9 @@ keywords: IP, grupo, subdomínios, capacidade de entrega
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1730'
 ht-degree: 19%
 
 ---
@@ -61,20 +61,21 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. Para cada fase, selecione a campanha que deseja associar a esta fase do plano de aquecimento de IP.
 
+   >[!NOTE]
+   >
+   >Não é possível selecionar uma campanha que já esteja em uso em outro plano de aquecimento de IP. No entanto, a mesma campanha pode ser usada em uma ou mais fases do mesmo plano de aquecimento de IP.
+
    ![](assets/ip-warmup-plan-select-campaign.png)
 
    >[!IMPORTANT]
    >
-   >    * Somente as campanhas com o **[!UICONTROL Ativação do plano de aquecimento de IP]** opção ativada <!--and live?--> estão disponíveis para seleção. [Saiba mais](#create-ip-warmup-campaign)
+   >* Somente as campanhas com o **[!UICONTROL Ativação do plano de aquecimento de IP]** opções ativadas estão disponíveis para seleção. [Saiba mais](#create-ip-warmup-campaign)
    >
    >* Você deve selecionar uma campanha que use a mesma superfície que a selecionada para o plano de aquecimento de IP atual.
-   >
-   >* Não é possível selecionar uma campanha que já esteja em uso em outro plano de aquecimento de IP.
-
 
 1. No **[!UICONTROL Exclusão de perfil]** é possível ver que os perfis das execuções anteriores dessa fase são sempre excluídos. Por exemplo, se em Run #1 um perfil foi coberto nas primeiras 4.800 pessoas que foram alvos, o sistema garantirá automaticamente que o mesmo perfil não receba o email em Run #2.
 
-1. No **[!UICONTROL Públicos-alvo de campanha excluídos]** selecione os públicos-alvo de outros <!--executed/live?-->campanhas que você deseja excluir da fase atual.
+1. No **[!UICONTROL Públicos-alvo de campanha excluídos]** , selecione os públicos-alvo de outra campanha <!--executed/live?-->campanhas que você deseja excluir da fase atual.
 
    ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
@@ -155,7 +156,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >Se não quiser aplicar o **[!UICONTROL Último envolvimento]** para a execução atual, defina-o como 0.
+   >Se não quiser aplicar nenhum período de envolvimento a uma execução, digite 0 no campo **[!UICONTROL Último envolvimento]** campo.
 
 1. Selecione o **[!UICONTROL Pausar para erros]** opção para cancelar uma execução se os perfis qualificados forem menores que os perfis direcionados depois que o público-alvo tiver sido avaliado para essa execução.
 

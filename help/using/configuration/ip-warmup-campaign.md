@@ -11,10 +11,10 @@ keywords: IP, pools, capacidade de entrega
 hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 21%
+source-wordcount: '407'
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ O que há neste guia de documentação:
 
 >[!ENDSHADEBOX]
 
-Antes de criar o plano de aquecimento de IP em si [!DNL Journey Optimizer], primeiro é necessário criar uma ou mais campanhas com a opção dedicada ativada para que elas possam ser usadas em um plano de aquecimento de IP.
+Antes de criar o plano de aquecimento de IP em si [!DNL Journey Optimizer], primeiro é necessário criar uma ou mais campanhas especificamente projetadas para uso em um plano de aquecimento de IP<!--through a dedicated option-->.
 
 Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
@@ -48,8 +48,9 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
    >
    >Trabalhe com seu consultor de entrega para identificar o domínio e os IPs a serem usados para o seu plano de aquecimento de IP.<!--TBC-->
 
-1. Criar um [campaign](../campaigns/create-campaign.md) e selecione o [E-mail](../email/create-email.md#create-email-journey-campaign) ação.
+1. Criar um marketing agendado [campaign](../campaigns/create-campaign.md) e selecione o [E-mail](../email/create-email.md#create-email-journey-campaign) ação.
 
+   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.>
 1. Selecione a superfície criada para aquecimento de IP.
 
    ![](assets/ip-warmup-campaign-surface.png)
@@ -70,7 +71,7 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
    >
    >Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
-1. [Ativar](../campaigns/review-activate-campaign.md) a campanha.
+1. [Ativar](../campaigns/review-activate-campaign.md) a campanha. Seu status muda para **[!UICONTROL Ao vivo]**.
 
    >[!NOTE]
    >
@@ -82,4 +83,9 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
 Uma vez ativa, a campanha estará pronta para uso em um plano de aquecimento de IP. [Saiba mais](ip-warmup-plan.md)
 
-<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
+Uma campanha de aquecimento de IP só pode ser usada em um plano de aquecimento de IP. No entanto, a mesma campanha pode ser usada em uma ou mais fases do mesmo plano de aquecimento de IP. [Saiba mais](ip-warmup-plan.md#define-phases)
+
+>[!NOTE]
+>
+>Quando uma campanha ao vivo é usada em um plano de aquecimento de IP, depois que o plano é [marcado como concluído](ip-warmup-execution.md#mark-as-completed), o status dessa campanha muda para **[!UICONTROL Parado]**.
+
