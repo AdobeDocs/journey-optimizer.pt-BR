@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 17%
+source-wordcount: '1050'
+ht-degree: 16%
 
 ---
 
@@ -67,6 +67,12 @@ Para configurar seu fornecedor de SMS com o Journey Optimizer, siga estas etapas
       * **[!UICONTROL Mensagem de Opt-in]**: digite a resposta personalizada que é enviada automaticamente como **[!UICONTROL Mensagem de Opt-in]**.
 
       * **[!UICONTROL Mensagem de ajuda]**: digite a resposta personalizada que é enviada automaticamente como **Mensagem de ajuda**.
+
+   * Para **[!DNL Sinch MMS]**:
+
+      * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
+
+      * **[!UICONTROL ID do projeto]**, **[!UICONTROL ID do aplicativo]** e **[!UICONTROL Token de API]**: no menu da API de conversa, você pode encontrar suas credenciais no menu Aplicativo.  [Saiba mais](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html)
 
    * Para **[!DNL Twilio]**:
 

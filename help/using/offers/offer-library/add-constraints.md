@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2386'
 ht-degree: 17%
 
 ---
@@ -95,7 +95,7 @@ A variável **[!UICONTROL Elegibilidade da oferta]** permite restringir a oferta
 
 * Se quiser associar um evento [regra de decisão](../offer-library/creating-decision-rules.md) para a oferta, selecione **[!UICONTROL Por regra de decisão definida]** e, em seguida, arraste a regra desejada do painel esquerdo para a **[!UICONTROL Regra de decisão]** área.
 
-  ![](../assets/offer_rule.png)
+  ![](../assets/offer-rule.png)
 
   >[!CAUTION]
   >
@@ -146,7 +146,7 @@ Limitar o número de vezes que os usuários obtêm ofertas específicas permite 
 
 Para definir o limite, siga as etapas principais abaixo.
 
-1. Verifique se **[!UICONTROL Incluir limite]** botão de alternância estiver selecionado. O limite é incluído por padrão.
+1. Verifique se **[!UICONTROL Ativar limite]** botão de alternância estiver selecionado. O limite é ativado por padrão.
 
    >[!CAUTION]
    >
@@ -160,7 +160,7 @@ Para definir o limite, siga as etapas principais abaixo.
 
 1. Defina o **[!UICONTROL Frequência]** para definir a frequência com que a contagem de limite é redefinida. [Saiba mais](#frequency-capping)
 
-1. Se você tiver definido vários [representações](add-representations.md) para sua oferta, especifique se deseja aplicar o limite **[!UICONTROL Em todas as disposições]** ou **[!UICONTROL Para cada posicionamento]**. [Saiba mais](#placements)
+1. Se você tiver definido vários [representações](add-representations.md) para sua oferta, especifique se deseja aplicar o limite **em todas as disposições** ou **para cada posicionamento**. [Saiba mais](#placements)
 
 1. Depois de salva e aprovada, se a oferta tiver sido apresentada o número de vezes que você especificou nesse campo de acordo com os critérios e o período definido, o delivery será interrompido.
 
@@ -179,7 +179,7 @@ O número de vezes que uma oferta é proposta é calculado no momento da prepara
 >title="impressão"
 >abstract="O uso de impressões como eventos de limite está disponível somente para canais de entrada."
 
-A variável **[!UICONTROL Evento de limite]** permite definir quais **[!UICONTROL Evento de limite]** será considerado para aumentar o contador:
+A variável **[!UICONTROL Evento de limite]** permite definir qual evento será considerado para aumentar o contador:
 
 ![](../assets/offer-capping-event.png)
 
@@ -219,7 +219,7 @@ A variável **[!UICONTROL Evento de limite]** permite definir quais **[!UICONTRO
 
 ### Contagem de limite {#capping-count}
 
-A variável **[!UICONTROL Contagem de limite]** permite especificar o número de vezes que a oferta pode ser apresentada.
+A variável **[!UICONTROL Limite da contagem de limite]** permite especificar o número de vezes que a oferta pode ser apresentada.
 
 ![](../assets/offer-capping-times.png)
 
@@ -227,7 +227,7 @@ A variável **[!UICONTROL Contagem de limite]** permite especificar o número de
 >
 >O número deve ser um inteiro maior que 0.
 
-Por exemplo, você definiu um evento de limite personalizado, como o número de check-outs que são considerados. Se você inserir 10 no campo **[!UICONTROL Contagem de limite]** não serão enviadas mais ofertas após 10 check-outs.
+Por exemplo, você definiu um evento de limite personalizado, como o número de check-outs que são considerados. Se você inserir 10 no campo **[!UICONTROL Limite da contagem de limite]** não serão enviadas mais ofertas após 10 check-outs.
 
 ### Tipo de limite {#capping-type}
 
@@ -258,7 +258,7 @@ A variável **[!UICONTROL Frequência]** permite definir com que frequência a c
 >
 >A redefinição ocorre às 12h UTC, no dia definido ou no primeiro dia da semana/mês quando aplicável. O dia de início da semana é domingo. Qualquer duração escolhida não pode exceder 2 anos (ou seja, o número correspondente de meses, semanas ou dias).
 
-Por exemplo, se desejar que a contagem de limite seja redefinida a cada 2 semanas, selecione **[!UICONTROL Semanalmente]** do **[!UICONTROL Repetir]** lista suspensa e tipo **2** no outro campo. A restauração acontece todo domingo às 12h UTC.
+Por exemplo, se desejar que a contagem de limite seja redefinida a cada 2 semanas, selecione **[!UICONTROL Semanalmente]** na lista suspensa correspondente e digite **2** no outro campo. A restauração acontece todo domingo às 12h UTC.
 
 >[!CAUTION]
 >
@@ -268,15 +268,15 @@ Por exemplo, se desejar que a contagem de limite seja redefinida a cada 2 semana
 
 ### Limite e disposições {#placements}
 
-Se você tiver definido vários [representações](add-representations.md) para sua oferta, especifique se deseja aplicar o limite **[!UICONTROL Em todas as disposições]** ou **[!UICONTROL Para cada posicionamento]**.
+Se você tiver definido vários [representações](add-representations.md) para sua oferta, especifique se deseja aplicar o limite em todas as disposições ou em cada disposição.
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL Em todas as disposições]**: as contagens de limite totalizarão todas as decisões nos posicionamentos associados à oferta.
+* **[!UICONTROL Aplicar limite em todos os posicionamentos]**: as contagens de limite totalizarão todas as decisões nos posicionamentos associados à oferta.
 
   Por exemplo, se uma oferta tiver uma variável **E-mail** inserção e um **Web** inserção e você define o limite como **2 por perfil em todas as disposições**, cada perfil poderia receber a oferta até 2 vezes no total, independentemente da combinação de posicionamento.
 
-* **[!UICONTROL Para cada posicionamento]**: as contagens de limite aplicarão as contagens de decisão para cada posicionamento separadamente.
+* **[!UICONTROL Aplicar limite a cada posicionamento]**: as contagens de limite aplicarão as contagens de decisão para cada posicionamento separadamente.
 
   Por exemplo, se uma oferta tiver uma variável **E-mail** inserção e um **Web** inserção e você define o limite como **2 por perfil para cada posicionamento**, cada perfil poderia receber a oferta até 2 vezes para a inserção do email e outras 2 vezes para a inserção da web.
 

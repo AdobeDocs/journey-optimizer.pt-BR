@@ -9,36 +9,44 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, jornada, cópia, ambiente
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 20%
+source-wordcount: '612'
+ht-degree: 7%
 
 ---
 
 # Copiar uma jornada para outra sandbox {#copy-to-sandbox}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="Copiar uma jornada para outra sandbox"
->abstract="O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox de preparo para a sandbox de produção. Além da própria jornada, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende."
+>title="Copy a journey to another sandbox"
+>abstract="Journey Optimizer allows you to copy an entire journey from one sandbox to another. For example, you can copy a journey from the Stage sandbox environment to your Production sandbox. In addition to the Journey itself, Journey Optimizer also copies most of the objects the journey depends on."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
->title="Detalhes da sandbox"
->abstract="Selecione a sandbox de destino para a qual deseja copiar a jornada. Somente as sandboxes da sua organização estão disponíveis."
+>title="Sandbox details"
+>abstract="Select the destination sandbox you want to copy the journey to. Only sandboxes within your organization are available."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
->title="Detalhes do objeto"
->abstract="Essa é a jornada que você vai copiar."
+>title="Object details"
+>abstract="This is the journey you are going to copy."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
->title="Objetos dependentes"
->abstract="Essa é a lista de objetos associados usados na jornada. Essa lista exibe o nome, o tipo de objeto e a ID interna do Journey Optimizer."
+>title="Dependent objects"
+>abstract="This is the list of associated objects used in the journey. This list displays the name, the object type, as well as the internal Journey Optimizer ID."
+-->
 
-O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox do Stage para a sandbox de produção. Além da jornada em si, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: públicos-alvo, superfícies (ou seja, predefinições), esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte esta [seção](#limitations).
+As ferramentas de sandbox permitem copiar objetos em várias sandboxes aproveitando a exportação e a importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote devem ser da mesma sandbox.
+
+Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Journey Optimizer. Para obter mais informações sobre o recurso em si, consulte [Documentação do Experience Platform](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+
+## Introdução às ferramentas de sandbox{#sandbox-gs}
+
+O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox do Stage para a sandbox de produção. Além da jornada em si, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: públicos, esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte esta [seção](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
 
 >[!CAUTION]
 >
@@ -46,66 +54,58 @@ O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra
 
 Os objetos copiados na sandbox de destino são exclusivos e não há risco de substituir elementos existentes. A jornada jornada e qualquer mensagem dentro dela é trazida no modo de rascunho. Isso permite executar uma validação completa antes da publicação na sandbox de destino. O processo de cópia copia apenas os metadados sobre a jornada e os objetos nessa Jornada. Nenhum dado de perfil ou conjunto de dados está sendo copiado como parte desse processo.
 
+## Exportar a jornada {#export}
+
 Para copiar uma jornada para outra sandbox, siga estas etapas:
 
 1. Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]**. A lista de jornadas é exibida.
 
-2. Procure a jornada que deseja copiar, clique no link **Mais ações** (os três pontos ao lado do nome da jornada) e clique em **Copiar para sandbox**.
+1. Procure a jornada que deseja copiar, clique no link **Mais ações** (os três pontos ao lado do nome da jornada) e clique em **Adicionar ao pacote**.
 
-   ![](assets/copy-sandbox1.png)
+![](assets/journey-sandbox1.png)
 
-   A variável **Copiar para sandbox** é exibida.
+A variável **Adicionar ao pacote** é exibida.
 
-   ![](assets/copy-sandbox2.png)
+![](assets/journey-sandbox2.png)
 
-3. Selecione o **Sandbox do Target** no campo suspenso. Somente as sandboxes da sua organização estão disponíveis.
+1. Escolha se deseja adicionar a jornada a um pacote existente ou criar um novo pacote:
 
-4. Revise o **Objetos dependentes** seção. Essa é a lista de objetos associados usados na jornada. Essa lista exibe o nome, o tipo de objeto e a ID interna do Journey Optimizer.
+   * **Pacote existente**: selecione o pacote no menu suspenso.
+   * **Criar um novo pacote**: digite o nome do pacote. Você também pode adicionar uma descrição.
 
-5. Clique em **Copiar** no canto superior direito, para começar a copiar a jornada para a sandbox de destino.
+1. Na seção do menu ADMINISTRAÇÃO, clique em **[!UICONTROL Sandboxes]**, selecione o **Pacotes** e clique no pacote que deseja exportar.
 
-   ![](assets/copy-sandbox3.png)
+   ![](assets/journey-sandbox3.png)
 
-   O processo de cópia é iniciado e o progresso de cada objeto individual é exibido. O processo de cópia varia de acordo com a complexidade da jornada e com quantos objetos precisam ser copiados. Se um erro for encontrado, uma mensagem será exibida para o objeto relacionado.
+1. Selecione os objetos que deseja exportar e clique em **Publish**
 
-   ![](assets/copy-sandbox4.png)
+   ![](assets/journey-sandbox4.png)
 
-6. Quando a cópia estiver concluída, clique em **Fechar**.
+   Se a publicação falhar, você poderá verificar os logs para identificar o motivo da falha. Abra o pacote, clique em **Consulte trabalhos com falha**, selecione o trabalho de importação e clique em **Exibir detalhes da importação**.
 
-7. Acesse sua sandbox de destino e execute uma verificação completa de todos os objetos copiados.
+   ![](assets/journey-sandbox9.png)
 
-## Processo de cópia e limitações {#limitations}
+## Importar a jornada {#export}
 
-Nem todos os elementos vinculados podem ser copiados para a sandbox de destino. A Adobe recomenda que você execute uma verificação completa. Identifique qualquer objeto ausente em potencial e crie-o manualmente antes de publicar a jornada.
+1. Na lista de pacotes, clique no ícone +, ao lado do nome do pacote.
 
-Os seguintes objetos são copiados:
+   ![](assets/journey-sandbox5.png)
 
-* Público-alvo
+1. Selecione o **Sandbox do Target** no campo suspenso e clique em **Próxima**. Somente as sandboxes da sua organização estão disponíveis.
 
-  Um público-alvo só pode ser copiado de uma sandbox para outra. Depois que um público-alvo é copiado, ele não pode ser editado na sandbox de destino.
+   ![](assets/journey-sandbox6.png)
 
-* Esquema
+1. Revise os objetos e as dependências do pacote. Essa é a lista de objetos associados usados na jornada. Esta lista exibe o nome e o tipo de objeto. Para cada objeto, você pode optar por criar um novo ou usar um existente na sandbox de destino.
 
-  Os esquemas usados nesta jornada são copiados.
+   ![](assets/journey-sandbox7.png)
 
-* Mensagem
+1. Clique em **Concluir** no canto superior direito, para começar a copiar o pacote para a sandbox de destino. O processo de cópia varia de acordo com a complexidade da jornada e com quantos objetos precisam ser copiados.
 
-  As atividades de ação do canal usadas na jornada. Os campos usados para personalização na mensagem não são verificados quanto à integridade. Os blocos de conteúdo não são copiados.
+1. Clique no trabalho de importação para revisar o resultado da cópia:
 
-* Jornada - detalhes da tela
+   * Clique em **Exibir objetos importados** para exibir cada objeto individual copiado.
+   * Clique em **Exibir detalhes da importação** para verificar os resultados da importação para cada objeto.
 
-  A representação da jornada na tela, incluindo os objetos na jornada, como condições, ações, eventos, públicos-alvo de leitura etc. A atividade de salto é excluída da cópia.
+   ![](assets/journey-sandbox8.png)
 
-* Evento
-
-  Os eventos e os detalhes do evento usados na jornada são copiados.
-
-* Ação
-
-  As ações e os detalhes de ação usados na jornada são copiados.
-
-As superfícies (ou seja, predefinições) não são copiadas. O sistema seleciona automaticamente a correspondência mais próxima possível na sandbox de destino, com base no tipo de mensagem e no nome da superfície. Se nenhuma superfície for encontrada na sandbox de destino, a cópia de superfície falhará. Isso significa que a cópia da mensagem também falhará, pois uma mensagem requer que uma superfície esteja disponível para configuração. Nesse caso, pelo menos uma superfície precisa ser criada para que o canal direito da mensagem funcione.
-
-Para Esquemas, Políticas de mesclagem e Públicos-alvo, na segunda vez que esses objetos tentarem ser copiados, eles só serão referenciados. Eles serão tratados como objetos que já existem e serão copiados novamente. Isso significa que esses objetos só podem ser copiados uma vez.
-
-Há um atraso de cinco minutos antes de a Adobe Journey Optimizer poder fazer referência a esquemas, políticas de mesclagem e públicos-alvo sem ver um erro na tela. Aguarde cinco minutos e essas referências estarão disponíveis.
+1. Acesse sua sandbox de destino e execute uma verificação completa de todos os objetos copiados.

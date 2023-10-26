@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9e7b08db00ab6333bd5a20815e05bca48075dca3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '4477'
-ht-degree: 94%
+source-wordcount: '4558'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ Essa versão traz os novos recursos listados abaixo.
 <td>
 <p>As ferramentas de sandbox permitem copiar objetos em várias sandboxes aproveitando a exportação e a importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote devem ser da mesma sandbox.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>Para obter mais informações, consulte a <a href="../building-journeys/copy-to-sandbox.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -74,18 +74,18 @@ Essa versão traz os novos recursos listados abaixo.
 </tbody>
 </table -->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
+<th><strong>Serviço de Mensagens Multimídia (MMS) no SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available in Beta with Sinch only.</p>-->
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Com o Canal SMS, agora é possível aprimorar sua comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), permitindo o compartilhamento de imagens, GIF ou vídeos com seus clientes. Observe que esse recurso está disponível somente com o Sinch.</p>
+<img src="assets/do-not-localize/mms.gif"/>
+<p>Para obter mais informações, consulte a <a href="../sms/create-sms.md#sms-content">documentação detalhada</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -97,7 +97,7 @@ Esta versão vem com as melhorias listadas abaixo.
 **Públicos-alvo**
 
 * Agora é possível direcionar públicos-alvo carregados de um arquivo CSV para jornadas e campanhas.
-* Agora é possível direcionar públicos-alvo criados por meio da composição de públicos-alvo e aproveitar os atributos de enriquecimento no Jornada.
+* Agora é possível direcionar públicos-alvo criados por meio da composição de públicos-alvo e aproveitar os atributos de enriquecimento no Jornada. [Saiba mais](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -111,11 +111,11 @@ Esta versão vem com as melhorias listadas abaixo.
 **Campanhas**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Quando ocorre um erro em uma de suas campanhas, um ícone de aviso agora é exibido na lista de campanhas ao lado do status da campanha.
+* Quando ocorre um erro em uma de suas campanhas, um ícone de aviso agora é exibido na lista de campanhas ao lado do status da campanha. [Saiba mais](../campaigns/modify-stop-campaign.md#statuses)
 
 **Jornadas**
 
-* A duração máxima que você pode definir em qualquer tempo de espera agora é de 29 dias, em vez de 30. Isso se aplica a:
+* A duração máxima que você pode definir em qualquer tempo de espera agora é de 29 dias, em vez de 30. Essa melhoria foi introduzida para evitar que as durações de espera excedam a duração da jornada de 30 dias. Isso se aplica a:
 
    * o **Quantidade de tempo** no campo [atividade de espera](../building-journeys/wait-activity.md)
    * o **Período de espera de reentrada** in [jornada propriedades](../building-journeys/journey-gs.md#entrance)
@@ -128,7 +128,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Gestão de decisões**
 
-* Vários rótulos relacionados ao limite de oferta na interface da gestão de decisões foram atualizados.
+* Vários rótulos relacionados ao limite de oferta na interface da gestão de decisões foram atualizados. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
 ## Notas de versão de setembro de 2023 {#sept-rn-2023}
 

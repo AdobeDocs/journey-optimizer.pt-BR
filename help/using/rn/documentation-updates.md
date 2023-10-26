@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 37fda274025135f0577fd551971583e1b6d5c469
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '3845'
-ht-degree: 96%
+source-wordcount: '3956'
+ht-degree: 94%
 
 ---
 
@@ -21,10 +21,15 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Outubro de 2023 {#oct-2023}
 
+* Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de outubro de 2023 foi detalhada na documentação. [Leia mais](release-notes.md)
 * Adição de GIF para ilustrar alguns recursos principais, como: [Modelos de conteúdo](../content-management/content-templates.md), [Fragmentos](../content-management/fragments.md), [Atributos computados](../audience/computed-attributes.md), [Correspondência direta](../direct-mail/get-started-direct-mail.md), [Tags](../start/search-filter-categorize.md#tags), [Modelos de otimização de gestão de decisão](../offers/ranking/personalized-optimization-model.md), [Campanhas acionadas por API](../campaigns/api-triggered-campaigns.md), e [Experimento de conteúdo](../campaigns/content-experiment.md).
 * O processo de criação do Schema foi atualizado para refletir as atualizações mais recentes na interface, que vêm com alterações do Adobe Experience Platform. [Leia mais](../audience/creating-test-profiles.md)
 * As medidas de proteção do Gerenciamento de decisão foram adicionadas à página Medidas de proteção e limitações. [Leia mais](../start/guardrails.md#decision-management)
+* A seção Parâmetros de cabeçalho foi atualizada para refletir como as notificações de ausência do escritório e as respostas de desafio são tratadas (elas são recebidas no **[!UICONTROL Email de erro]**). [Leia mais](../email/email-settings.md#email-header)
 * Uma nova seção sobre como pré-visualizar e testar seu conteúdo foi criada. [Leia mais](../content-management/preview-test.md)
+* A página Implementar aplicativos de página única foi movida para a documentação do SDK da Web da Adobe Experience Platform. [Leia mais](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+* A seção Limite foi atualizada para refletir as alterações de rótulo relacionadas ao limite de oferta na interface da gestão de decisões. [Leia mais](../offers/offer-library/add-constraints.md#capping)
+* A seção Adicionar conteúdo dinâmico a emails foi atualizada com detalhes sobre como excluir uma variante. [Leia mais](../personalization/dynamic-content.md#emails)
 
 ## Setembro de 2023 {#september-2023}
 
@@ -39,7 +44,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Os links para a documentação do controle de acesso foram atualizados. [Leia mais](../administration/permissions.md)
 * Os pré-requisitos do canal no aplicativo foram atualizados com os detalhes da Coleção de dados da Adobe Experience Platform. [Leia mais](../in-app/inapp-configuration.md)
 * Algumas expressões apresentadas em exemplos de fórmulas de classificação foram atualizadas para evitar erros de validação. [Leia mais](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* Um aviso foi adicionado ao **Definir escopos de decisão** para especificar que, se o modelo de IA for usado em um grupo de critérios de avaliação, todos os critérios de avaliação nesse grupo devem usar o método de classificação de IA, com o mesmo modelo de IA específico. Além disso, apenas um grupo de critérios de avaliação pode utilizar o modelo de IA. [Leia mais](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* Um aviso foi adicionado à seção Definir escopos de decisão para especificar que, se o modelo de IA for usado em um grupo de critérios de avaliação, todos os critérios de avaliação desse grupo deverão usar o método de classificação de IA, com o mesmo modelo de IA específico. Além disso, apenas um grupo de critérios de avaliação pode utilizar o modelo de IA. [Leia mais](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## Agosto de 2023 {#august-2023}
 

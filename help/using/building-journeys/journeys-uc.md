@@ -9,9 +9,9 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso de uso, vários canais, mensagens, jornada, canal, eventos, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '759'
 ht-degree: 1%
 
 ---
@@ -24,13 +24,13 @@ Esta seção apresenta um caso de uso que combina um Público-alvo de leitura, u
 
 ## Descrição do caso de uso
 
-Nesse caso de uso, queremos enviar uma primeira mensagem (email e push) a todos os clientes pertencentes a um público-alvo específico.
+Nesse caso de uso, queremos enviar uma primeira mensagem de email para todos os clientes pertencentes a um público-alvo específico.
 
 Com base na reação deles à primeira mensagem, queremos enviar mensagens específicas.
 
-Após a primeira mensagem, aguardamos um dia até que os clientes abram o push ou o email. Se não houver reação, enviamos um email de acompanhamento.
+Se o cliente abrir o email, aguardaremos uma compra e enviaremos uma mensagem por push para agradecer ao cliente.
 
-Em seguida, aguardamos a compra e enviamos uma mensagem por push para agradecer ao cliente.
+Se não houver reação, enviamos um email de acompanhamento.
 
 ## Pré-requisitos
 
@@ -93,21 +93,13 @@ Agora o evento está configurado e pronto para ser usado no jornada. Usando a at
 
    ![](assets/jo-uc5.png)
 
-1. Coloque o cursor na atividade de email e clique no símbolo &quot;+&quot; para criar um novo caminho.
+1. Adicionar um **Reação** e selecione **Email aberto**. O evento é acionado quando um indivíduo pertencente ao público-alvo abre o email.
 
-1. No primeiro caminho, adicione um **Reação** e selecione **Push aberto**. O evento é acionado quando um indivíduo pertencente ao público-alvo abre a versão por push da primeira mensagem.
-
-1. No segundo caminho, adicione um **Reação** e selecione **Email aberto**. O evento é acionado quando o indivíduo abre o email.
-
-1. Em uma das atividades de reação, verifique a **Definir o tempo limite do evento** , defina uma duração (1 dia no exemplo) e marque **Definir um caminho de tempo limite**. Isso cria outro caminho para indivíduos que não abrem a primeira mensagem de push ou email.
-
-   >[!NOTE]
-   >
-   >Ao configurar um tempo limite em vários eventos (as duas reações neste caso), você só precisa configurar o tempo limite em um desses eventos.
+1. Verifique a **Definir o tempo limite do evento** , defina uma duração (1 dia no exemplo) e marque **Definir um caminho de tempo limite**. Isso cria outro caminho para indivíduos que não abrem a primeira mensagem de push ou email.
 
 1. No caminho de tempo limite, solte um **E-mail** ação e definir o conteúdo da mensagem de &quot;acompanhamento&quot;. Essa mensagem é enviada às pessoas físicas que não abrirem o email ou enviarem a primeira mensagem por push no dia seguinte. Consulte esta [seção](../email/create-email.md) para saber como configurar e projetar um email.
 
-1. Conecte os três caminhos ao evento de compra criado anteriormente. O evento é acionado quando um indivíduo faz uma compra.
+1. No primeiro caminho, adicione o evento de compra criado anteriormente. O evento é acionado quando um indivíduo faz uma compra.
 
 1. Depois do evento, solte um **Push** atividade de ação e definir o conteúdo da mensagem de agradecimento. Consulte esta [seção](../push/create-push.md) para saber como configurar e projetar um push.
 

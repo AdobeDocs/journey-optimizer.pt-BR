@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b6872806b3961bb2afbfc03999d984384492cc6d
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1710'
 ht-degree: 94%
 
 ---
@@ -218,6 +218,7 @@ ht-degree: 94%
 + Canal SMS{#sms}
    + [Introdução a SMS](using/sms/get-started-sms.md)
    + [Criar uma mensagem de SMS.](using/sms/create-sms.md)
+   + [Criar uma mensagem MMS](using/sms/create-mms.md)
    + [Verifique e envie seu SMS](using/sms/send-sms.md)
    + [Gerenciar opção de não participação de SMS](using/sms/sms-opt-out.md)
    + [Configurar canal de SMS](using/sms/sms-configuration.md)

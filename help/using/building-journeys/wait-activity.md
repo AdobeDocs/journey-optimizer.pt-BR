@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '469'
 ht-degree: 19%
 
 ---
@@ -45,7 +45,7 @@ Um indivíduo só poderá inserir uma atividade de espera se tiver tempo suficie
 
 ## Espera de duração{#duration}
 
-Selecione a duração da espera antes da execução da próxima atividade.
+Selecione a duração da espera antes da execução da próxima atividade. A duração máxima é de 29 dias.
 
 ![](assets/journey55.png)
 

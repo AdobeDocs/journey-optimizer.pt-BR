@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ Depois de concluído, os **públicos resultantes** são salvos na Adobe Experien
 
 >[!IMPORTANT]
 >
->Os públicos resultantes de workflows de composição podem ser direcionados somente para campanhas do Journey Optimizer . Eles não estão disponíveis para uso em jornadas.
+>Por enquanto, o uso de públicos-alvo resultantes de fluxos de trabalho de composição em jornadas está disponível como um beta privado. Para obter mais informações, entre em contato com o seu representante da Adobe.
 >
 >As campanhas no Adobe Journey Optimizer ainda não estão integradas ao serviço de aplicação de políticas. Portanto, os rótulos de uso de dados que você aplicar aos atributos de público-alvo não serão aplicados às campanhas do Journey Optimizer.
 

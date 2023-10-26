@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, dinâmico, conteúdo
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '564'
 ht-degree: 9%
 
 ---
@@ -60,13 +60,13 @@ As etapas para adicionar conteúdo dinâmico nas expressões são as seguintes:
 
 As etapas para criar variantes de um componente de conteúdo no Designer de email são as seguintes:
 
-1. No Designer de email, selecione um componente de conteúdo e clique em **[!UICONTROL Ativar conteúdo condicional]**.
+1. No [Email Designer](../email/content-from-scratch.md), selecione um componente de conteúdo e clique em **[!UICONTROL Ativar conteúdo condicional]**.
 
    ![](assets/conditions-enable-conditional.png)
 
 1. A variável **[!UICONTROL Conteúdo condicional]** é exibido à esquerda. Nesse painel, você pode criar várias variantes do componente de conteúdo selecionado usando condições.
 
-   Configure sua primeira variante selecionando o **[!UICONTROL Aplicar condição]** botão.
+   Configure sua primeira variante selecionando o **[!UICONTROL Selecionar condição]** botão.
 
    ![](assets/conditions-apply.png)
 
@@ -76,9 +76,11 @@ As etapas para criar variantes de um componente de conteúdo no Designer de emai
 
    Você também pode criar uma nova regra clicando em **[!UICONTROL Criar novo]**. [Saiba como criar condições](create-conditions.md)
 
-1. A regra condicional está associada à variante. Para melhorar a compreensão, recomendamos renomear a variante clicando no menu de reticências.
+1. A regra condicional está associada à variante. Para melhorar a compreensão, renomeie a variante selecionando o **[!UICONTROL Renomear]** ação do ícone Mais ações.
 
-   Agora, configure como o componente deve ser exibido se a regra for atendida ao enviar a mensagem. Neste exemplo, queremos exibir o texto em francês se for o idioma preferencial do recipient.
+   ![](assets/conditions-rename.png)
+
+1. Configure como o componente deve ser exibido se a regra for atendida ao enviar a mensagem. Neste exemplo, queremos exibir o texto em francês se for o idioma preferencial do recipient.
 
    ![](assets/conditions-design.png)
 
@@ -88,3 +90,7 @@ As etapas para criar variantes de um componente de conteúdo no Designer de emai
    >Se nenhuma das regras definidas nas variantes for atendida ao enviar a mensagem, o componente de conteúdo exibirá o conteúdo definido na variável **[!UICONTROL Variante padrão]**.
    >
    >O conteúdo condicional será avaliado em relação às regras associadas na ordem em que as variantes forem exibidas. A variante padrão é sempre exibida se nenhuma outra condição for atendida.
+
+1. Para excluir uma variante, clique no ícone Mais ações ao lado da variante desejada e selecione **[!UICONTROL Excluir]**.
+
+   ![](assets/conditions-delete.png)

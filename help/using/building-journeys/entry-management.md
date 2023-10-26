@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: reentrada, jornada, perfil, recorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 13%
+source-wordcount: '598'
+ht-degree: 5%
 
 ---
 
@@ -35,6 +35,8 @@ Em jornadas unitárias, você pode ativar ou desativar a reentrada:
 
 Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção para jornadas &quot;one shot&quot;, por exemplo, se quiser oferecer um presente único quando uma pessoa visitar uma loja. Nesse caso, o cliente não poderá inserir novamente a jornada e receber a oferta novamente. Quando uma jornada termina, seu status é **[!UICONTROL Fechado]**. Novos indivíduos não podem mais entrar na jornada. As pessoas que já estão na jornada terminam a jornada normalmente. [Saiba mais](journey-gs.md#entrance)
 
+Quando a variável **Permitir reentrada** estiver ativada, a variável **Período de espera de reentrada** permite definir o tempo de espera antes de permitir que um perfil entre na jornada novamente. Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. A duração máxima é de 29 dias.
+
 ![](assets/journey-re-entrance.png)
 
 Após o padrão [tempo limite global](journey-gs.md#global_timeout) de 30 dias, a jornada muda para o estado **Concluído** status. Os perfis que já estão na jornada concluem a jornada normalmente. Novos perfis não podem mais entrar na jornada. Esse comportamento é definido somente por 30 dias (ou seja, o valor padrão do tempo limite da jornada), pois todas as informações sobre os perfis que entraram na jornada são removidas 30 dias depois de serem inseridas. Após esse período, os perfis poderão inserir novamente a jornada. Para evitar isso e desativar totalmente a reentrada desses perfis, você pode adicionar uma condição para testar se o perfil entrou já ou não, usando dados de perfil ou público-alvo.
@@ -42,9 +44,7 @@ Após o padrão [tempo limite global](journey-gs.md#global_timeout) de 30 dias, 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
-As jornadas unitárias (começando com um evento ou uma qualificação de público-alvo) incluem uma medida de proteção que impede que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. A reentrada do perfil é temporariamente bloqueada por padrão por 5 minutos. Por exemplo, se um evento acionar uma jornada às 12h01 para um perfil específico e outra chegar às 12h03 (se for o mesmo evento ou outro acionando a mesma jornada), essa jornada não será reiniciada para esse perfil.
-
-A chave também é usada para verificar se uma pessoa está em uma jornada. De fato, uma pessoa não pode estar em dois lugares diferentes na mesma jornada. Como resultado, o sistema não permite que a mesma chave, por exemplo, a chave CRMID=3224, esteja em locais diferentes na mesma jornada.
+A chave é usada para verificar se uma pessoa está em uma jornada. De fato, uma pessoa não pode estar em dois lugares diferentes na mesma jornada. Como resultado, o sistema não permite que a mesma chave, por exemplo, a chave CRMID=3224, esteja em locais diferentes na mesma jornada.
 
 ## Ler jornadas de público{#entry-read-segment}
 

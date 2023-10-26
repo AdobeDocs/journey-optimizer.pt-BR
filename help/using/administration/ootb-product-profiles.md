@@ -9,14 +9,16 @@ role: Admin, User
 level: Intermediate
 keywords: permissões, criação, mensagens
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1167'
 ht-degree: 6%
 
 ---
 
 # Funções integradas {#ootb-product-profiles}
+
+As funções integradas são um conjunto de direitos unitários que permitem aos usuários acessar determinadas funcionalidades ou objetos na interface. Consulte [esta página](ootb-permissions.md) para obter a lista de permissões disponíveis para criar sua função.
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 

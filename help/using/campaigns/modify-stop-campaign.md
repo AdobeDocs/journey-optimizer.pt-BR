@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 2%
+source-wordcount: '572'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ Por padrão, a lista mostra todas as campanhas com **[!UICONTROL Rascunho]**, **
 
 Além disso, você pode filtrar a lista com base no tipo de campanha e no canal, ou nas tags atribuídas às campanhas ao criá-las. [Saiba como atribuir tags a uma campanha](create-campaign.md#create)
 
-## Status da campanha {#statuses}
+## Status e alertas da campanha {#statuses}
 
 As campanhas podem ter vários status:
 
@@ -47,6 +47,10 @@ As campanhas podem ter vários status:
 >[!NOTE]
 >
 >O ícone &quot;Abrir versão de rascunho&quot; ao lado de um **[!UICONTROL Ao vivo]** ou **[!UICONTROL Agendado]** O status indica que uma nova versão da campanha foi criada e ainda não foi ativada. [Saiba mais](modify-stop-campaign.md#modify).
+
+Quando ocorre um erro em uma de suas campanhas, um ícone de aviso é exibido junto com o status da campanha. Clique nele para exibir informações relacionadas ao alerta. Esses alertas podem ocorrer em várias situações, como quando a mensagem da campanha não foi publicada ou se a superfície escolhida estiver incorreta.
+
+![](assets/campaign-alerts.png)
 
 ## Modificar uma campanha recorrente {#modify}
 

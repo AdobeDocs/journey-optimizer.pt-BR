@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1227'
 ht-degree: 32%
 
 ---
@@ -41,13 +41,15 @@ As APIs de jornadas comportam até 5000 eventos por segundo, mas alguns sistemas
 
 Toda vez que uma chamada de API é executada pelas jornadas, ela passa pelo mecanismo da API. Se o limite definido na API for atingido, a chamada será rejeitada se você estiver usando a API de limitação ou colocada em fila por até 6 horas e processada assim que possível na ordem em que foi recebida se você estiver usando a API de limitação.
 
-Por exemplo, digamos que você tenha definido uma regra de limite ou limitação de 100 chamadas por segundo para seu sistema externo. Seu sistema é chamado por uma ação personalizada em 10 jornadas diferentes. Se uma jornada receber 200 chamadas por segundo, ela usará os 100 slots disponíveis e descartará ou colocará em fila os 100 slots restantes. Como a taxa máxima foi excedida, não restará nenhum slot para as outras 9 jornadas. Essa granularidade ajuda a proteger o sistema externo contra sobrecarga e falhas.
+Por exemplo, digamos que você tenha definido uma regra de limite ou limitação de 200 chamadas por segundo para seu sistema externo. Seu sistema é chamado por uma ação personalizada em 10 jornadas diferentes. Se uma jornada receber 300 chamadas por segundo, ela usará os 200 slots disponíveis e descartará ou colocará em fila os 100 slots restantes. Como a taxa máxima foi excedida, não restará nenhum slot para as outras 9 jornadas. Essa granularidade ajuda a proteger o sistema externo contra sobrecarga e falhas.
 
 >[!IMPORTANT]
 >
 >As **regras de limite** são configuradas no nível da sandbox para um ponto de acesso específico (o URL chamado), porém, são globais para todas as jornadas dessa sandbox. O limite está disponível em fontes de dados e ações personalizadas.
 >
 >As **regras de limitação** são configuradas apenas em sandboxes de produção para um ponto de acesso específico, porém, são globais para todas as jornadas em todas as sandboxes. Você pode ter apenas uma configuração de limitação por organização. A limitação só está disponível em ações personalizadas.
+>
+>A variável **maxCallsCount** o valor deve ser maior que 1.
 
 Para obter mais informações sobre como trabalhar com as APIs, consulte estas seções:
 
@@ -64,7 +66,7 @@ Para **fontes de dados externas**, o número máximo de chamadas por segundo é 
 >
 >Se uma fonte de dados usar uma autenticação personalizada com um ponto de acesso diferente daquele usado para a fonte de dados, também será necessário entrar em contato com a Adobe para incluir esse ponto de acesso na lista de permissões.
 
-Para **ações personalizadas**, é necessário avaliar a capacidade de sua API externa. Por exemplo, se o Journey Optimizer envia 1000 chamadas por segundo e o sistema permite apenas 100 chamadas por segundo, é necessário definir uma configuração de limite ou limitação para não sobrecarregar o sistema. [Saiba como configurar ações](../action/action.md)
+Para **ações personalizadas**, é necessário avaliar a capacidade de sua API externa. Por exemplo, se o Journey Optimizer envia 1000 chamadas por segundo e o sistema permite apenas 200 chamadas por segundo, é necessário definir uma configuração de limite ou limitação para não sobrecarregar o sistema. [Saiba como configurar ações](../action/action.md)
 
 ## Tempo limite e tentativas{#timeout}
 

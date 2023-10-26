@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 11%
+source-wordcount: '1068'
+ht-degree: 10%
 
 ---
 
@@ -152,7 +152,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
 </tr> 
   <tr> 
    <td> Cliques únicos<br/> </td> 
-   <td> Número de recipients que clicaram em um conteúdo em um email.<br/> </td> 
+   <td> Número de recipients que clicaram em um conteúdo em um email.<br> Observe que, ao calcular os cliques únicos, os últimos 10 dias são considerados. Se um perfil registrar vários cliques no período de 10 dias, eles serão contados como cliques únicos. No entanto, se um perfil tiver dois cliques com mais de 10 dias de intervalo, eles não serão considerados cliques exclusivos.<br/> </td> 
 </tr> 
   <tr> 
    <td>Taxa de cliques únicos<br/> </td> 
@@ -160,7 +160,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
 </tr>
   <tr> 
    <td> Aberturas únicas<br/> </td> 
-   <td>Número de destinatários que abriram o delivery.<br/> </td> 
+   <td>Número de destinatários que abriram o delivery. <br> Observe que ao calcular as aberturas exclusivas, os últimos 10 dias são considerados. Se um perfil registrar várias aberturas no período de 10 dias, elas serão contadas como aberturas exclusivas. No entanto, se um perfil tiver 2 aberturas com mais de 10 dias de intervalo, elas não serão consideradas aberturas exclusivas.<br/> </td> 
 </tr> 
   <tr> 
    <td> Cancelamentos de assinatura<br/> </td> 

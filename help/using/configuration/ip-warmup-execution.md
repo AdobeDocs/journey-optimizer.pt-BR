@@ -11,9 +11,9 @@ keywords: IP, grupo, subdomínios, capacidade de entrega
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1710'
 ht-degree: 19%
 
 ---
@@ -152,6 +152,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
 1. Se necessário, selecione **[!UICONTROL Editar execução]** no ícone Mais ações. Lá é possível atualizar os números de endereços em cada coluna. Você também pode atualizar a variável **[!UICONTROL Último envolvimento]** para direcionar somente os usuários engajados com sua marca nos últimos 20 dias, por exemplo.
 
    ![](assets/ip-warmup-plan-edit-run.png)
+
+   >[!NOTE]
+   >
+   >Se não quiser aplicar o **[!UICONTROL Último envolvimento]** para a execução atual, defina-o como 0.
 
 1. Selecione o **[!UICONTROL Pausar para erros]** opção para cancelar uma execução se os perfis qualificados forem menores que os perfis direcionados depois que o público-alvo tiver sido avaliado para essa execução.
 

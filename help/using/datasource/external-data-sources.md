@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fontes, dados, configuração, conexão, terceiros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 67%
+source-wordcount: '1484'
+ht-degree: 68%
 
 ---
 
@@ -82,10 +82,6 @@ Para o conjunto de parâmetros &quot;long/lat&quot;, criamos um grupo de campos 
 * **[!UICONTROL Método]**: selecione o método POST ou GET. No nosso caso, selecionamos o método GET.
 * **[!UICONTROL Valores dinâmicos]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas jornadas. [Saiba mais](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Carga de resposta]**: clique dentro do **[!UICONTROL Carga]** e cole um exemplo da carga útil retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API de meteorologia. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. Observe que você pode clicar em **[!UICONTROL Colar uma nova carga]** se quiser alterar a carga útil transmitida no momento.
-
-  >[!NOTE]
-  >
-  >Matrizes escalares não são compatíveis com a definição de carga de resposta.
 
 * **[!UICONTROL Conteúdo enviado]**: este campo não aparece no nosso exemplo. Ele só estará disponível se você selecionar o método POST. Cole a carga útil que será enviada para o sistema de terceiros.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 81%
+source-wordcount: '1698'
+ht-degree: 79%
 
 ---
 
@@ -39,6 +39,13 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 * O componente de **Formulário** não pode ser usado em subpáginas.
 * Não é possível adicionar um pré-cabeçalho a uma página de destino.
 * Não é possível selecionar a opção **Codifique você mesmo** ao criar uma página de destino principal.
+
+## Medidas de proteção de SMS {#sms-guardrails}
+
+* O recurso MMS está disponível somente para a Sinch.
+* Os arquivos de mídia para MMS podem ser incluídos por meio de um URL compatível. Verifique se o arquivo de mídia foi carregado separadamente.
+* A sincronização de feedback da mensagem não está disponível no momento para MMS.
+* O gerenciamento de consentimento opera no nível do canal SMS para MMS.
 
 ## Medidas de proteção de jornada {#journeys-guardrails}
 
