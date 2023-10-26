@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
+source-git-commit: 70c82f625903720e81cb73b226aaea98b2eb94b0
 workflow-type: tm+mt
-source-wordcount: '4526'
+source-wordcount: '4525'
 ht-degree: 93%
 
 ---
@@ -31,7 +31,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
-## Notas de versão antecipadas de outubro de 2023 {#oct-rn-2023}
+## Notas de versão de outubro de 2023 {#oct-rn-2023}
 
 ### Novos recursos{#oct-2023-features}
 
