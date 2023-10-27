@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1041'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +141,7 @@ Também é possível adicionar uma verificação de consentimento de personaliza
 
 1. Adicione seu público-alvo inicial usando o botão dedicado à direita.
 
-1. Clique em **+** e selecione um **[!UICONTROL Split]** atividade para criar um público-alvo dividido. [Saiba mais sobre a atividade de divisão](../audience/composition-canvas.md#split)
+1. Clique no ícone **+** e selecione a atividade de **[!UICONTROL Divisão]** para criar um público-alvo dividido. [Saiba mais sobre a atividade de divisão](../audience/composition-canvas.md#split)
 
    ![](assets/perso-consent-audience-split.png)
 
