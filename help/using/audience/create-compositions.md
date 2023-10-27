@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 17%
+source-wordcount: '461'
+ht-degree: 15%
 
 ---
 
@@ -74,7 +74,9 @@ Para criar um fluxo de trabalho de composição, siga estas etapas:
 >title="Publicar o público"
 >abstract="Publique a composição para salvar os públicos resultantes na Adobe Experience Platform."
 
-Todas as composições criadas podem ser acessadas no **[!UICONTROL Composições]** guia. Eles podem ter vários status:
+Todas as composições criadas podem ser acessadas no **[!UICONTROL Composições]** guia. É possível duplicar ou excluir uma composição existente a qualquer momento usando o botão de reticências na lista.
+
+As composições podem ter vários status:
 
 * **[!UICONTROL Rascunho]**: a composição está em andamento e não foi publicada.
 * **[!UICONTROL Publicado]**: a composição foi publicada, os públicos resultantes foram salvos e estão disponíveis para uso.
@@ -83,4 +85,4 @@ Todas as composições criadas podem ser acessadas no **[!UICONTROL Composiçõe
 
 >[!NOTE]
 >
->É possível duplicar ou excluir uma composição existente a qualquer momento usando o botão de reticências na lista.
+>No momento, a composição de público-alvo não está integrada ao recurso de redefinição da sandbox. Antes de iniciar uma redefinição de sandbox, é necessário excluir as composições manualmente para garantir que os dados do público-alvo associado sejam limpos corretamente. Informações detalhadas estão disponíveis no Adobe Experience Platform [Documentação de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
