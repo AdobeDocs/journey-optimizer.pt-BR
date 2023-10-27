@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
 ht-degree: 100%
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="od_api_support"
 >title="Novas APIs de gestão de decisões"
->abstract="Novas APIs para criação e gerenciamento de objetos de gestão de decisões já estão disponíveis. As APIs herdadas serão compatíveis até 27/03/2024."
+>abstract="Já estão disponíveis novas APIs para criação e gerenciamento de objetos de gestão de decisões. As APIs herdadas serão compatíveis até 27/03/2024."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_api_support"
 >title="Novas APIs de gestão de decisões"
->abstract="Novas APIs para criação e gerenciamento de objetos de gestão de decisões já estão disponíveis. As APIs herdadas serão compatíveis até 27/03/2024."
+>abstract="Já estão disponíveis novas APIs para criação e gerenciamento de objetos de gestão de decisões. As APIs herdadas serão compatíveis até 27/03/2024."
 
 Este manual do desenvolvedor fornece etapas para ajudar a começar a usar a API [!DNL Offer Library]. O manual fornece chamadas de API de amostra para executar operações importantes usando o mecanismo de decisão.
 
