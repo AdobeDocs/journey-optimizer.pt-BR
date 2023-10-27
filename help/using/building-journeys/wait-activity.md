@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: ce1e43ce2c439b02e5c263f26de5531b26dc0980
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 19%
@@ -35,7 +35,7 @@ Se quiser aguardar antes de executar a próxima atividade no caminho, você pode
 
 ## Sobre a atividade Wait{#about_wait}
 
-A duração máxima de espera é de 30 dias. No modo de teste, a variável **[!UICONTROL Tempo de espera no teste]** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md).
+A duração máxima de espera é de 29 dias. No modo de teste, a variável **[!UICONTROL Tempo de espera no teste]** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md).
 
 Tenha cuidado ao usar várias atividades de espera em uma jornada, pois o tempo limite da jornada global é de 30 dias, o que significa que um perfil sempre desaparecerá do máximo da jornada 30 dias após ter entrado. Consulte [esta página](../building-journeys/journey-gs.md#global_timeout).
 
