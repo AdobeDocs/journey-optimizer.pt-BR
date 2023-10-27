@@ -10,9 +10,9 @@ level: Beginner
 keywords: email, iniciar, criação, visualização
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
 >title="Design de emails"
->abstract="Use o **Adobe Journey Optimizer** para enviar mensagens de email a clientes. Você pode criar, personalizar e visualizar mensagens no Designer de email."
+>abstract="Use o **Adobe Journey Optimizer** para enviar mensagens de email aos clientes. Você pode criar, personalizar e visualizar mensagens no Designer de email."
 
 Use [!DNL Journey Optimizer] para enviar mensagens de email aos clientes. Você pode criar, personalizar e visualizar mensagens no Designer de email.
 
@@ -52,10 +52,10 @@ Entregas de email podem ser criadas:
 </td>
 <td>
 <a href="get-started-email-design.md">
-<img alt="Projeto" src="../assets/do-not-localize/email-design.jpg">
+<img alt="Design" src="../assets/do-not-localize/email-design.jpg">
 </a>
 <div>
-<a href="get-started-email-design.md"><strong>Criar um email</strong></a>
+<a href="get-started-email-design.md"><strong>Criar o design de um email</strong></a>
 </div>
 <p></td>
 <td>
@@ -72,7 +72,7 @@ Entregas de email podem ser criadas:
 <img alt="Configurar " src="../assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="email-settings.md"><strong>Configurar canal de email</strong></a>
+<a href="email-settings.md"><strong>Configurar o canal de email</strong></a>
 </div>
 <p>
 </td>
