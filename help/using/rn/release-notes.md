@@ -11,7 +11,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 70c82f625903720e81cb73b226aaea98b2eb94b0
 workflow-type: tm+mt
 source-wordcount: '4525'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
->title="Novidades?"
->abstract="O **Adobe Journey Optimizer** está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão."
+>title="Novidades"
+>abstract="O **Adobe Journey Optimizer** está sempre fornecendo novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão."
 
 O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão.
 
@@ -205,7 +205,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Gestão de decisões**
 
-* Novas APIs para criação e gerenciamento de objetos de gestão de decisões já estão disponíveis. Essas APIs fornecem melhor desempenho e experiência do usuário. As APIs herdadas serão compatíveis até 27/03/2024. [Saiba mais](../offers/api-reference/getting-started.md)
+* Já estão disponíveis novas APIs para criação e gerenciamento de objetos de gestão de decisões. Essas APIs fornecem maior desempenho e melhoria na experiência do usuário. As APIs herdadas serão compatíveis até 27/03/2024. [Saiba mais](../offers/api-reference/getting-started.md)
 
 **Personalização**
 
@@ -213,7 +213,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Alertas**
 
-* Foi introduzido um novo tipo de alerta de sistema. Agora você pode ser notificado quando um **Ler público-alvo** falha na atividade. [Saiba mais](../reports/alerts.md).
+* Foi introduzido um novo tipo de alerta de sistema. Agora é possível receber uma notificação quando uma atividade de **Público-alvo de leitura** falhar. [Saiba mais](../reports/alerts.md).
 
 **Canal da Web**
 
@@ -229,7 +229,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 
 
-* O suporte a respostas de ação personalizadas agora é GA. Esse recurso permite aproveitar as respostas de chamada da API em ações personalizadas e orquestrar a jornada com base nessas respostas. Além disso, foi adicionada uma nova garantia para limitar todas as ações aduaneiras a 150.000 chamadas em 30 segundos por ponto de extremidade. [Saiba mais](../action/action-response.md)
+* O suporte a respostas de ação personalizadas agora está disponível para o público geral. Esse recurso permite aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. Além disso, foi adicionada uma nova medida de proteção para limitar todas as ações personalizadas a 150.000 chamadas por ponto de acesso durante um período de 30 segundos. [Saiba mais](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
@@ -246,7 +246,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Canal de correspondência direta**
 
-* Agora é possível criptografar arquivos destinados a seus provedores de correspondência direta quando eles são transferidos para um servidor. Para fazer isso, um novo campo está disponível na tela de configuração de roteamento de arquivos, permitindo copiar e colar sua chave de criptografia. [Saiba mais](../direct-mail/direct-mail-configuration.md)
+* Agora é possível criptografar arquivos destinados aos seus provedores de correspondência direta quando eles são transferidos para um servidor. Para fazer isso, um novo campo está disponível na tela de configuração de roteamento de arquivos, permitindo copiar e colar sua chave de criptografia. [Saiba mais](../direct-mail/direct-mail-configuration.md)
 
 **Relatórios**
 

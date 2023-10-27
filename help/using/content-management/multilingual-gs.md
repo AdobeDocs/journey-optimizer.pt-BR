@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introdução ao conteúdo multilíngue
-description: Saiba mais sobre Conteúdo multilíngue no Journey Optimizer
+description: Saiba mais sobre o conteúdo multilíngue no Journey Optimizer
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 8%
+ht-degree: 26%
 
 ---
 
