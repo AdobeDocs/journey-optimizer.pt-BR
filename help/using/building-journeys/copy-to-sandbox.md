@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, jornada, cópia, ambiente
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
+source-git-commit: 25306e8300942d2d4683771a6d66ed6c5e5823fc
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 7%
+source-wordcount: '718'
+ht-degree: 6%
 
 ---
 
@@ -44,6 +44,10 @@ As ferramentas de sandbox permitem copiar objetos em várias sandboxes aproveita
 
 Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Journey Optimizer. Para obter mais informações sobre o recurso em si, consulte [Documentação do Experience Platform](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
+>[!NOTE]
+>
+>Esse recurso exige as seguintes permissões: manage-sandbox (ou view-sandbox) e manage-package.
+
 ## Introdução às ferramentas de sandbox{#sandbox-gs}
 
 O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox do Stage para a sandbox de produção. Além da jornada em si, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: públicos, esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte esta [seção](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
@@ -54,19 +58,24 @@ O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra
 
 Os objetos copiados na sandbox de destino são exclusivos e não há risco de substituir elementos existentes. A jornada jornada e qualquer mensagem dentro dela é trazida no modo de rascunho. Isso permite executar uma validação completa antes da publicação na sandbox de destino. O processo de cópia copia apenas os metadados sobre a jornada e os objetos nessa Jornada. Nenhum dado de perfil ou conjunto de dados está sendo copiado como parte desse processo.
 
-## Exportar a jornada {#export}
+O processo de cópia é realizado por meio de uma exportação e importação de pacotes entre as sandboxes de origem e de destino. Estas são as etapas gerais para copiar uma jornada de uma sandbox para outra:
 
-Para copiar uma jornada para outra sandbox, siga estas etapas:
+1. Adicione a jornada como um pacote na sandbox de origem.
+1. Exporte o pacote para a sandbox de destino.
+
+## Adicionar a jornada como um pacote{#export}
+
+Para copiar uma jornada para outra sandbox, primeiro adicione a jornada como um pacote na sandbox de origem. Siga estas etapas:
 
 1. Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]**. A lista de jornadas é exibida.
 
 1. Procure a jornada que deseja copiar, clique no link **Mais ações** (os três pontos ao lado do nome da jornada) e clique em **Adicionar ao pacote**.
 
-![](assets/journey-sandbox1.png)
+   ![](assets/journey-sandbox1.png)
 
-A variável **Adicionar ao pacote** é exibida.
+   A variável **Adicionar ao pacote** é exibida.
 
-![](assets/journey-sandbox2.png)
+   ![](assets/journey-sandbox2.png)
 
 1. Escolha se deseja adicionar a jornada a um pacote existente ou criar um novo pacote:
 
@@ -85,9 +94,11 @@ A variável **Adicionar ao pacote** é exibida.
 
    ![](assets/journey-sandbox9.png)
 
-## Importar a jornada {#import}
+## Exportar o pacote para a sandbox de destino {#import}
 
-1. Na lista de pacotes, clique no ícone +, ao lado do nome do pacote.
+Depois que o pacote for publicado, é necessário exportá-lo para a sandbox de destino.
+
+1. Na sandbox de origem, clique no botão **[!UICONTROL Sandboxes]** selecione o **Pacotes** e clique no ícone +, ao lado do pacote que você deseja exportar.
 
    ![](assets/journey-sandbox5.png)
 
