@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 13%
@@ -37,7 +37,7 @@ Vamos ver como exemplo o público-alvo &quot;Abertura e finalização do aplicat
 
 * Por enquanto, o uso de públicos-alvo [importado de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) ou resultantes de [workflows de composição](../audience/get-started-audience-orchestration.md) no jornada está disponível como um beta privado. Para obter mais informações, entre em contato com o seu representante da Adobe.
 
-### Configurar a atividade {#configuring-segment-trigger-activity}
+## Configurar a atividade {#configuring-segment-trigger-activity}
 
 As etapas para configurar a atividade Ler público-alvo são as seguintes:
 
@@ -116,7 +116,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >
 >As jornadas de público-alvo de Leitura única são movidas para o status Concluído 30 dias após a execução da jornada. Para públicos-alvo de leitura agendados, isso acontece 30 dias após a execução da última ocorrência.
 
-### Testar e publicar a jornada {#testing-publishing}
+## Testar e publicar a jornada {#testing-publishing}
 
 A variável **[!UICONTROL Ler público-alvo]** A atividade permite testar a jornada em um perfil unitário.
 
