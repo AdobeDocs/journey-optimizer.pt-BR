@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 70c82f625903720e81cb73b226aaea98b2eb94b0
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '4525'
+source-wordcount: '4527'
 ht-degree: 95%
 
 ---
@@ -92,7 +92,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Públicos-alvo**
 
-* Agora é possível direcionar públicos-alvo carregados de um arquivo CSV para jornadas e campanhas.
+* Agora é possível direcionar públicos-alvo carregados de um arquivo CSV para jornadas e campanhas. [Saiba mais](../audience/about-audiences.md#segments-in-journey-optimizer)
 * Agora é possível direcionar públicos-alvo criados por meio da composição de públicos-alvo e aproveitar os atributos de enriquecimento no Jornada. [Saiba mais](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]

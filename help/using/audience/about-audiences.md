@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 100%
+source-wordcount: '680'
+ht-degree: 92%
 
 ---
 
@@ -27,11 +27,15 @@ ht-degree: 100%
 >title="Selecione o público-alvo da campanha"
 >abstract="Esta lista exibe todos os públicos-alvo disponíveis na Adobe Experience Platform. Selecione o público-alvo a ser direcionado pela campanha. A mensagem configurada na campanha será enviada a todas as pessoas pertencentes ao público-alvo selecionado. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)"
 
-O [!DNL Journey Optimizer] permite criar e aproveitar públicos-alvo da Adobe Experience Platform usando dados do Perfil do cliente em tempo real diretamente do menu **[!UICONTROL Públicos-alvo]** e usá-los em suas jornadas ou campanhas.
-
-Saiba mais na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR).
+O [!DNL Journey Optimizer] permite criar e aproveitar públicos-alvo da Adobe Experience Platform usando dados do Perfil do cliente em tempo real diretamente do menu **[!UICONTROL Públicos-alvo]** e usá-los em suas jornadas ou campanhas. Saiba mais na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR).
 
 ## Utilização de públicos-alvo no [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+
+Você pode selecionar em campanhas e jornadas qualquer público da Adobe Experience Platform gerado usando [definições de segmento](../audience/creating-a-segment-definition.md).
+
+>[!NOTE]
+>
+>Além disso, também é possível direcionar públicos-alvo da Adobe Experience Platform criados com o [composições de público](../audience/get-started-audience-orchestration.md) ou [carregado de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. No momento, esses recursos estão disponíveis como um beta privado.
 
 É possível aproveitar os públicos-alvo no **[!DNL Journey Optimizer]** de maneiras diferentes:
 

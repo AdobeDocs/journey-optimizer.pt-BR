@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1356'
 ht-degree: 13%
 
 ---
@@ -47,13 +47,13 @@ As etapas para configurar a atividade Ler público-alvo são as seguintes:
 
 1. Adicionar um **[!UICONTROL Rótulo]** à atividade (opcional).
 
-1. No **[!UICONTROL Público]** escolha o público-alvo da Adobe Experience Platform que entrará na jornada e clique em **[!UICONTROL Salvar]**.
-
-   Observe que é possível personalizar as colunas exibidas na lista e classificá-las.
+1. No **[!UICONTROL Público]** escolha o público-alvo da Adobe Experience Platform que entrará na jornada e clique em **[!UICONTROL Salvar]**. Você pode selecionar qualquer público-alvo do Adobe Experience Platform gerado usando [definições de segmento](../audience/creating-a-segment-definition.md).
 
    >[!NOTE]
    >
-   >Somente os indivíduos com o **Realizado** e **Existente** os status de participação do público-alvo entrarão na jornada. Para obter mais informações sobre como avaliar um público-alvo, consulte a [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Além disso, também é possível direcionar públicos-alvo da Adobe Experience Platform criados com o [composições de público](../audience/get-started-audience-orchestration.md) ou [carregado de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. No momento, esses recursos estão disponíveis como um beta privado.
+
+   Observe que é possível personalizar as colunas exibidas na lista e classificá-las.
 
    ![](assets/read-segment-selection.png)
 
@@ -62,6 +62,10 @@ As etapas para configurar a atividade Ler público-alvo são as seguintes:
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
+
+   >[!NOTE]
+   >
+   >Somente os indivíduos com o **Realizado** e **Existente** os status de participação do público-alvo entrarão na jornada. Para obter mais informações sobre como avaliar um público-alvo, consulte a [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. No **[!UICONTROL Namespace]** escolha o namespace a ser usado para identificar os indivíduos. Por padrão, o campo é pré-preenchido com o último namespace usado. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace).
 
