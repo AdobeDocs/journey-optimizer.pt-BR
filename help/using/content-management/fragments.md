@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1578'
 ht-degree: 14%
 
 ---
@@ -36,6 +36,8 @@ Para aproveitar ao máximo os fragmentos:
 * Crie seus próprios fragmentos. Você pode criar fragmentos visuais ou fragmentos de expressão. [Saiba mais](#create-fragments)
 
 * Use-as quantas vezes forem necessárias em seu conteúdo. Consulte [Adicionar fragmentos visuais](../email/use-visual-fragments.md) e [Aproveitar fragmentos de expressão](../personalization/use-expression-fragments.md)
+
+Além disso, você pode aproveitar o Journey Optimizer **API REST de conteúdo** para gerenciar fragmentos de conteúdo. Para obter mais informações, consulte [Documentação das APIs do Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
 ## Antes de começar {#fragment-prerequisites}
 

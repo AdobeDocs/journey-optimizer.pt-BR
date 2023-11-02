@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: supressão, lista, rejeição, email, otimizador, quarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1595'
 ht-degree: 23%
 
 ---
@@ -27,6 +27,8 @@ Saiba mais sobre o conceito e o uso da lista de supressão no [nesta seção](..
 >[!NOTE]
 >
 >O Adobe mantém uma lista atualizada de endereços inválidos conhecidos que comprovadamente prejudicam a reputação de engajamento e mala direta e garante que os emails não sejam entregues a eles. Essa lista é gerenciada em uma lista de supressão global comum a todos os clientes da Adobe. Os endereços e os nomes de domínio contidos na lista de supressão global estão ocultos. Somente o número de destinatários excluídos é indicado nos relatórios de entrega.
+
+Além disso, você pode aproveitar o Journey Optimizer **API REST de supressão** para controlar as mensagens de saída usando supressão e listas de permissões. [Saiba como trabalhar com a API REST de supressão](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=pt-BR)
 
 ## Acessar a lista de supressão  {#access-suppression-list}
 

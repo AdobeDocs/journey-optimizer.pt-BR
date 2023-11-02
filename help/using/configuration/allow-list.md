@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: lista de permissões, lista, seguro, configuração
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 14%
+source-wordcount: '1165'
+ht-degree: 15%
 
 ---
 
@@ -22,17 +22,15 @@ ht-degree: 14%
 
 Essa lista de permissões permite especificar endereços de email ou domínios individuais que serão os únicos destinatários ou domínios autorizados a receber os emails enviados de uma sandbox específica.
 
->[!NOTE]
+>[!CAUTION]
 >
->Esse recurso está disponível em sandboxes de produção e não produção.
+>Esse recurso se aplica somente ao canal de email. Ele está disponível em sandboxes de produção e não produção.
 
 Por exemplo, em uma instância de não produção, em que podem ocorrer erros, a lista de permissões garante que você não tenha risco de enviar mensagens indesejadas para endereços reais de clientes e, portanto, fornece um ambiente seguro para fins de teste.
 
 Além disso, quando a lista de permissões estiver ativa, mas vazia, nenhum email será enviado. Portanto, se você encontrar algum problema grave, poderá usar esse recurso para interromper todas as comunicações de saída do [!DNL Journey Optimizer] até que você corrija o problema. Saiba mais sobre o [Lógica de lista de permissões](#logic).
 
->[!CAUTION]
->
->Esse recurso se aplica somente ao canal de email.
+Além disso, você pode aproveitar o Journey Optimizer **API REST de supressão** para controlar as mensagens de saída usando supressão e listas de permissões. [Saiba como trabalhar com a API REST de supressão](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=pt-BR)
 
 ## Acessar a lista de permissões {#access-allowed-list}
 
