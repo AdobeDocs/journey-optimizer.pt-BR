@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '347'
 ht-degree: 14%
 
 ---
@@ -26,7 +26,7 @@ Neste exemplo, criaremos um público-alvo para direcionar todos os clientes que 
 
 ➡️ [Saiba como criar públicos-alvo neste vídeo](#video-segment)
 
-1. Acesse o **[!UICONTROL Públicos-alvo]** e clique no botão **[!UICONTROL Criar público]** botão.
+1. No **[!UICONTROL Públicos-alvo]** clique no botão **[!UICONTROL Criar público]** e selecione **[!UICONTROL Criar regra]**.
 
    ![](assets/create-segment.png)
 
