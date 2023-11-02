@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 4729ceba99d0a1d356e1e44ee601c7b9eb871719
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '967'
 ht-degree: 3%
 
 ---
@@ -36,6 +36,8 @@ Os canais disponíveis para campanhas acionadas por API são mensagens de email,
 >[!NOTE]
 >
 >Por enquanto, o modo de entrega rápida não é compatível com campanhas acionadas por API de notificação por push.
+
+➡️ [Descubra este recurso no vídeo](#video)
 
 ## Criar uma campanha acionada por API {#create}
 
@@ -132,3 +134,9 @@ Para ativar a criação de perfil na execução da campanha, alterne a variável
 >[!NOTE]
 >
 >Perfis desconhecidos são criados no **Conjunto de dados do perfil de mensagens interativas do AJO** conjunto de dados, em três namespaces padrão (email, telefone e ECID) respectivamente para cada canal de saída (Email, SMS e Push).
+
+## Vídeo explicativo {#video}
+
+Saiba como criar uma campanha e acioná-la a partir de um sistema externo com base em interações do usuário, usando a API REST de execução de mensagem interativa.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
