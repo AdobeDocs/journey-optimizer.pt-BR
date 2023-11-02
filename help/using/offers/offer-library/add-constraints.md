@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2396'
 ht-degree: 17%
 
 ---
@@ -44,6 +44,10 @@ Restrições permitem definir as condições em que uma oferta será exibida.
 1. Defina o **[!UICONTROL Prioridade]** da oferta em comparação a outras se o usuário se qualificar para mais de uma oferta. Quanto maior for a prioridade de uma oferta, maior será sua prioridade em comparação a outras ofertas.
 
    ![](../assets/offer-priority.png)
+
+   >[!NOTE]
+   >
+   >A prioridade da oferta deve ser um valor inteiro (sem decimais).
 
 1. Especifique o da oferta **[!UICONTROL Limite]**, o que significa o número de vezes que a oferta será apresentada. [Saiba mais](#capping)
 

@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1034'
 ht-degree: 7%
 
 ---
@@ -76,6 +76,10 @@ Para criar um item de decisão, siga estas etapas:
    1. Defina o **[!UICONTROL Prioridade]** do item de decisão em comparação a outros, se um perfil se qualificar para vários itens. Uma prioridade mais alta concede ao item precedência sobre outros.
 
    ![](assets/item-attributes.png)
+
+   >[!NOTE]
+   >
+   >A prioridade é um tipo de dados inteiro. Todos os atributos que são tipos de dados inteiros devem conter valores inteiros (sem decimais).
 
 1. Atributos personalizados são atributos específicos adaptados às suas necessidades que você pode atribuir a um item de decisão. Eles são definidos no schema do catálogo dos itens de decisão. [Saiba como trabalhar com catálogos](catalogs.md)
 
