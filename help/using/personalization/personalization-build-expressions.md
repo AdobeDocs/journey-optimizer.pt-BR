@@ -16,7 +16,7 @@ ht-degree: 13%
 
 ---
 
-# Introdução ao Editor de expressão {#build-personalization-expressions}
+# Introdução ao editor de expressão {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"

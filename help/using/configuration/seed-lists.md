@@ -75,7 +75,7 @@ Use o **[!UICONTROL Excluir]** botão para remover permanentemente uma entrada.
 
 Você pode clicar no nome de uma lista de propagação para editá-la. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
-## Criar uma lista de propagação {#create-seed-list}
+## Criar uma lista de sementes {#create-seed-list}
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"

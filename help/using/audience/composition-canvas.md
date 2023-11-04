@@ -76,7 +76,7 @@ Você pode adicionar quantos **[!UICONTROL Público]** e **[!UICONTROL Excluir]*
 
 Você pode remover uma atividade da tela a qualquer momento clicando no botão Excluir no painel direito.  Se a atividade que você deseja excluir for principal de outras atividades na composição, uma mensagem será exibida, permitindo especificar se você deseja excluir apenas a atividade selecionada ou todas as suas atividades secundárias.
 
-### Atividade de público {#audience}
+### Atividade de público-alvo {#audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"

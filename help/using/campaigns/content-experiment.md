@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -90,7 +90,7 @@ O objetivo aqui é ver se os recipients interagirão com o email dependendo do e
 
    ![](assets/content_experiment_5.png)
 
-## Configurar seu experimento de conteúdo {#configure-experiment}
+## Configurar o experimento de conteúdo {#configure-experiment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_dimension"

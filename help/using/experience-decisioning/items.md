@@ -12,7 +12,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
 source-wordcount: '1034'
-ht-degree: 7%
+ht-degree: 33%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
 >title="Gerenciar itens de decisão"
->abstract="O Journey Optimizer permite criar ofertas de marketing, conhecidas como itens de decisão, que você pode criar e organizar em um catálogo e coleções centralizados. Atualmente, todos os itens de decisão criados são consolidados em um único catálogo de &quot;Ofertas&quot;. Nessa tela, você também pode acessar o esquema do catálogo usando o **Editar esquema** e criar atributos personalizados para seus itens de decisão."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configurar o catálogo de itens"
+>abstract="O Journey Optimizer permite gerar ofertas de marketing, conhecidas como itens de decisão, que você pode criar e organizar em catálogos e coleções centralizados. Atualmente, todos os itens de decisão criados são consolidados em um único catálogo de “Ofertas”. Nessa tela, você também pode acessar o esquema do catálogo clicando em **Editar esquema** e criar atributos personalizados para itens de decisão."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=pt-BR" text="Configurar o catálogo de itens"
 
 >[!BEGINSHADEBOX]
 
@@ -41,29 +41,29 @@ O que há neste guia de documentação:
 
 >[!ENDSHADEBOX]
 
-O Journey Optimizer permite criar ofertas de marketing, conhecidas como itens de decisão, que você pode criar e organizar em um catálogo e coleções centralizados. Eles são compostos de atributos padrão e personalizados projetados para se alinharem com precisão às suas necessidades. Além disso, incorporam restrições de perfil que permitem definir para quem um item de decisão pode ser exibido.
+O Journey Optimizer permite gerar ofertas de marketing, conhecidas como itens de decisão, que você pode criar e organizar em catálogos e coleções centralizados. Eles são compostos de atributos padrão e personalizados projetados para se alinharem com precisão às suas necessidades. Além disso, incorporam restrições de perfil que permitem definir para quem um item de decisão pode ser exibido.
 
 Antes de criar um item de decisão, verifique se você criou um **regra de decisão** se quiser definir condições para determinar para quem o item de decisão pode ser exibido. [Saiba como criar regras de decisão](rules.md).
 
-## Criar seu primeiro item de decisão
+## Crie o primeiro item de decisão
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
->title="Definir a prioridade do item de decisão"
->abstract="Se um perfil se qualificar para vários itens, a prioridade permitirá comparar esse item de decisão com outros. Uma prioridade mais alta concede ao item precedência sobre outros."
+>title="Defina a prioridade do item de decisão"
+>abstract="Se um perfil for qualificado para vários itens, a prioridade permitirá a comparação entre esse item de decisão e outros. Uma prioridade mais alta concede ao item precedência sobre outros."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
 >title="Definir os atributos personalizados"
->abstract="Atributos personalizados são atributos específicos adaptados às suas necessidades que você pode atribuir a um item de decisão. Eles são criados no schema do catálogo dos itens de decisão. Esta seção só será exibida se você tiver adicionado pelo menos um atributo personalizado ao esquema de catálogo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configurar o catálogo de itens"
+>abstract="Atributos personalizados são atributos específicos adaptados às suas necessidades que podem ser atribuídos a um item de decisão. Eles são criados no esquema de catálogo dos itens de decisão. Esta seção só será exibida se você tiver adicionado pelo menos um atributo personalizado ao esquema de catálogo."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=pt-BR" text="Configurar o catálogo de itens"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="Adicionar públicos-alvo ou regras de decisão"
->abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos ou regras para restringir o item somente a perfis específicos."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Usar públicos"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Usar regras de decisão"
+>abstract="Por padrão, todos os perfis estão qualificados para receber o item de decisão, mas você pode usar públicos-alvo ou regras para restringir o item somente a perfis específicos."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=pt-BR" text="Usar públicos-alvo"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=pt-BR" text="Usar regras de decisão"
 
 Para criar um item de decisão, siga estas etapas:
 
@@ -81,7 +81,7 @@ Para criar um item de decisão, siga estas etapas:
    >
    >A prioridade é um tipo de dados inteiro. Todos os atributos que são tipos de dados inteiros devem conter valores inteiros (sem decimais).
 
-1. Atributos personalizados são atributos específicos adaptados às suas necessidades que você pode atribuir a um item de decisão. Eles são definidos no schema do catálogo dos itens de decisão. [Saiba como trabalhar com catálogos](catalogs.md)
+1. Atributos personalizados são atributos específicos adaptados às suas necessidades que podem ser atribuídos a um item de decisão. Eles são definidos no schema do catálogo dos itens de decisão. [Saiba como trabalhar com catálogos](catalogs.md)
 
 1. Após definir os atributos do item de decisão, clique em **[!UICONTROL Próxima]** para definir restrições de perfil para o item.
 

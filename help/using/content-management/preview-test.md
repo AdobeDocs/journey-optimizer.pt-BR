@@ -1,27 +1,28 @@
 ---
-title: Pré-visualizar e testar o conteúdo
+title: Visualizar e testar o conteúdo
 description: Saiba como pré-visualizar e testar o conteúdo.
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
+exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 1%
+ht-degree: 25%
 
 ---
 
-# Pré-visualizar e testar o conteúdo {#preview-test}
+# Visualizar e testar o conteúdo {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
 >title="Verifique como o conteúdo está sendo renderizado"
->abstract="Depois que o conteúdo for definido, você poderá usar perfis de teste para pré-visualizá-lo e verificar se a renderização está correta de acordo com o canal que está usando."
+>abstract="Depois que o conteúdo for definido, você poderá usar perfis de teste para visualizá-lo e verificar se a renderização está correta, de acordo com o canal que está usando."
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_simulate"
 >title="Verifique como o conteúdo está sendo renderizado"
->abstract="Depois que o conteúdo for definido, você poderá pré-visualizá-lo e verificar se a renderização está correta de acordo com o canal que está usando."
+>abstract="Depois que o conteúdo for definido, você poderá visualizá-lo e verificar se a renderização está correta de acordo com o canal que está usando."
 
 ## Sobre a visualização e o teste do conteúdo {#about}
 

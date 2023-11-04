@@ -30,7 +30,7 @@ Regulamentos como a HIPAA exigem que [!DNL Journey Optimizer] O deve fornecer um
 >
 >[!DNL Journey Optimizer] O não é compatível com o requisito de arquivamento de SMS. Para obter suporte dedicado ao arquivamento, trabalhe com seu fornecedor de SMS (Synch ou Twilio).
 
-## Como usar o CCO para emails {#bcc-email}
+## Como usar o campo CCO para emails {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"

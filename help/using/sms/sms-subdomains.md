@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar subdomínios SMS
+title: Configurar subdomínios de SMS
 description: Saiba como configurar subdomínios SMS com o Journey Optimizer
 role: Admin
 feature: SMS, Channel Configuration
@@ -11,11 +11,11 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
-# Configurar subdomínios SMS {#lp-subdomains}
+# Configurar subdomínios de SMS {#lp-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"

@@ -12,7 +12,7 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -33,7 +33,7 @@ Estes tipos de condições estão disponíveis:
 
 ![](assets/journey49.png)
 
-## Sobre a atividade de Condição {#about_condition}
+## Sobre a atividade Condição {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"

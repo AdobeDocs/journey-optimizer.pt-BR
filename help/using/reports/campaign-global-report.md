@@ -118,7 +118,7 @@ O último widget fornece dados relacionados ao **[!UICONTROL Métrica de sucesso
 
 Para aprofundar esses resultados e como interpretá-los, consulte [esta página](../campaigns/get-started-experiment.md#interpret-results).
 
-## Guia E-mail {#email-global}
+## Guia Email {#email-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"

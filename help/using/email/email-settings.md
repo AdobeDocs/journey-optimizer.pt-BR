@@ -222,7 +222,7 @@ Como prática recomendada de delivery, essa opção é desabilitada por padrão 
 
 Quando essa opção estiver habilitada, embora um cliente tenha marcado seu email de marketing como spam, ele poderá receber suas mensagens transacionais usando a superfície atual. Sempre gerencie as preferências de recusa de acordo com as práticas recomendadas de capacidade de delivery.
 
-## Seed list {#seed-list}
+## Lista de sementes {#seed-list}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
@@ -250,7 +250,7 @@ Quando a superfície atual é usada em uma campanha ou jornada, os endereços de
 
 Saiba como usar a lista de propagação em uma campanha ou jornada no [nesta seção](../configuration/seed-lists.md#use-seed-list).
 
-## Parâmetros de nova tentativa de email {#email-retry}
+## Parâmetros de nova tentativa do email {#email-retry}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"

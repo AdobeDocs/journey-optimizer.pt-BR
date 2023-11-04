@@ -18,7 +18,7 @@ ht-degree: 13%
 
 # Usar um público em uma jornada {#segment-trigger-activity}
 
-## Adicionar uma atividade Ler público {#about-segment-trigger-actvitiy}
+## Adicionar uma atividade Ler público-alvo {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"

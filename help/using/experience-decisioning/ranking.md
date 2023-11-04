@@ -12,7 +12,7 @@ exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 21%
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="Criar fórmulas de classificação"
->abstract="As fórmulas permitem definir regras que determinarão qual item deve ser apresentado primeiro, em vez de considerar as pontuações de prioridade do item. Depois que um método de classificação é criado, é possível atribuí-lo a uma estratégia de decisão para definir quais itens devem ser selecionados primeiro."
+>abstract="As fórmulas permitem definir regras que determinam qual item deve ser apresentado primeiro, ao invés de considerar a pontuação de prioridade do item. Depois que um método de classificação é criado, é possível atribuí-lo a uma estratégia de decisão para definir quais itens devem ser selecionados primeiro."
 
 >[!BEGINSHADEBOX]
 
@@ -44,7 +44,7 @@ Os métodos de classificação permitem classificar itens para exibição em um 
 
 Os métodos de classificação podem ser acessados no **[!UICONTROL Configuração]** / **[!UICONTROL Métodos de classificação]** menu. Dois tipos de métodos de classificação estão disponíveis:
 
-* **Fórmulas** O permite definir regras que determinarão qual item deve ser apresentado primeiro, em vez de considerar as pontuações de prioridade do item.
+* **As fórmulas permitem definir regras que determinam qual item deve ser apresentado primeiro, ao invés de considerar a pontuação de prioridade do item.**
 
 * **Modelos de IA** O permite usar sistemas de modelo treinados que aproveitarão vários pontos de dados para determinar qual item deve ser apresentado primeiro.
 

@@ -12,7 +12,7 @@ exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 13%
+ht-degree: 61%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_collections"
 >title="Criar coleções"
->abstract="As coleções permitem categorizar e agrupar os itens de decisão de acordo com suas preferências. Essas categorias são criadas pela criação de regras que aproveitam os atributos de itens de decisão."
+>abstract="As coleções permitem categorizar e agrupar itens de decisão de acordo com as suas preferências. Essas categorias são criadas pela construção de regras que aproveitam os atributos de itens de decisão."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_collection_rules"
->title="Definir regras para a sua coleção"
+>title="Definir regras para a coleção"
 >abstract="Adicione uma ou várias regras para determinar os itens a serem incluídos na coleção. Escolha um atributo de item para usar como critério. Selecione o operador desejado e insira o valor para filtrar. Adicione quantas regras forem necessárias."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_collection"
 >title="Escolha uma coleção"
->abstract="Selecione a coleção que contém as ofertas a serem consideradas. Esta etapa é obrigatória ao criar uma estratégia de seleção. As coleções permitem categorizar e agrupar os itens de decisão de acordo com suas preferências. Por exemplo, você pode criar uma coleção que inclui todos os itens de decisão com o valor &quot;Yoga&quot; no atributo personalizado &quot;Categoria&quot;."
+>abstract="Selecione a coleção que contém as ofertas a serem consideradas. Esta etapa é obrigatória ao criar uma estratégia de seleção. As coleções permitem categorizar e agrupar itens de decisão de acordo com as suas preferências. Por exemplo, você pode criar uma coleção que inclui todos os itens de decisão com o valor “Yoga” no atributo personalizado “Categoria”."
 
 >[!BEGINSHADEBOX]
 
@@ -50,7 +50,7 @@ O que há neste guia de documentação:
 
 >[!ENDSHADEBOX]
 
-As coleções permitem categorizar e agrupar os itens de decisão de acordo com suas preferências. Essas categorias são criadas pela criação de regras que aproveitam os atributos de itens de decisão.
+As coleções permitem categorizar e agrupar itens de decisão de acordo com as suas preferências. Essas categorias são criadas pela construção de regras que aproveitam os atributos de itens de decisão.
 
 Por exemplo, digamos que você tenha adicionado um atributo personalizado de &quot;Categoria&quot; ao esquema de catálogo dos itens de decisão. Isso permite criar uma coleção que inclui todos os itens de decisão com o valor &quot;Yoga&quot; no atributo &quot;Categoria&quot;.
 

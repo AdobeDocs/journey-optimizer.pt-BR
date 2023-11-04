@@ -12,7 +12,7 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 15%
+ht-degree: 40%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="Criar regras de decisão"
->abstract="As regras de decisão permitem definir o público-alvo dos itens de decisão aplicando restrições, diretamente no nível do item de decisão ou em uma estratégia de seleção específica. Isso permite que você controle com precisão quais itens devem ser apresentados a quem."
+>abstract="As regras de decisão permitem definir o público-alvo dos itens de decisão aplicando restrições diretamente no nível do item de decisão ou em uma estratégia de seleção específica. Isso permite controlar com precisão quais itens devem ser apresentados a quem."
 
 >[!BEGINSHADEBOX]
 
@@ -40,7 +40,7 @@ O que há neste guia de documentação:
 
 >[!ENDSHADEBOX]
 
-As regras de decisão permitem definir o público-alvo dos itens de decisão aplicando restrições, diretamente no nível do item de decisão ou em uma estratégia de seleção específica. Isso permite que você controle com precisão quais itens devem ser apresentados a quem.
+As regras de decisão permitem definir o público-alvo dos itens de decisão aplicando restrições diretamente no nível do item de decisão ou em uma estratégia de seleção específica. Isso permite controlar com precisão quais itens devem ser apresentados a quem.
 
 Por exemplo, vamos considerar um cenário onde você tem itens de decisão com produtos relacionados a Yoga projetados para mulheres. Com as regras de decisão, você pode especificar que esses itens só devem ser exibidos para perfis cujo gênero é &quot;Feminino&quot; e que indicaram um &quot;Ponto de interesse&quot; em &quot;Yoga&quot;.
 

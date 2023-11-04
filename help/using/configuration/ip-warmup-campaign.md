@@ -22,7 +22,7 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
->title="Ative a opção do plano de aquecimento de IP"
+>title="Opção Ativar o plano de aquecimento de IP"
 >abstract="Ao selecionar essa opção, a campanha pode ser usada em um plano de aquecimento de IP. A programação da campanha será determinada pelo plano de aquecimento de IP ao qual está associada."
 
 >[!BEGINSHADEBOX]
