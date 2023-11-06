@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: plano de fundo, email, cor, editor
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Quando se trata de definir planos de fundo com o Designer de email, a Adobe reco
 
 Veja abaixo as configurações de fundo disponíveis para uso.
 
-* Defina uma **[!UICONTROL cor de fundo]** para todo o email. Certifique-se de selecionar as configurações de corpo na árvore de navegação acessível na Paleta esquerda.
+* Defina uma **[!UICONTROL cor de fundo]** para todo o email. Certifique-se de selecionar as configurações do corpo na árvore de navegação, acessada na paleta esquerda.
 
   ![](assets/background_1.png)
 
@@ -39,7 +39,7 @@ Veja abaixo as configurações de fundo disponíveis para uso.
 
   ![](assets/background_2.png)
 
-* Defina uma cor de fundo diferente para cada componente da estrutura. Selecione uma estrutura na árvore de navegação acessível na Paleta esquerda para aplicar uma cor de fundo específica somente a essa estrutura.
+* Defina uma cor de fundo diferente para cada componente da estrutura. Selecione uma estrutura na árvore de navegação, acessada na paleta esquerda, para aplicar uma cor de fundo específica somente a essa estrutura.
 
   Certifique-se de não definir uma cor de fundo do visor, pois isso pode ocultar as cores de fundo da estrutura.
 
@@ -49,7 +49,7 @@ Veja abaixo as configurações de fundo disponíveis para uso.
 
   >[!NOTE]
   >
-  >Alguns programas de email não são compatíveis com imagens de fundo. Quando não houver suporte, a cor do plano de fundo da linha será usada. Certifique-se de selecionar uma cor de fundo sobressalente apropriada caso a imagem não possa ser exibida.
+  >Alguns programas de email não são compatíveis com imagens de fundo. Quando não houver compatibilidade, a cor de fundo da linha será usada. Certifique-se de selecionar uma cor de fundo sobressalente apropriada caso a imagem não possa ser exibida.
 
   ![](assets/background_4.png)
 
