@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lan
 <tbody>
 <tr>
 <td>
-<p>Agora é possível simular quais ofertas serão entregues a um perfil de teste para um determinado posicionamento na interface do Journey Optimizer. Isso permite validar facilmente a sua lógica de decisão, incluindo restrições de qualificação e algoritmos de classificação, antes de colocá-los em produção. Esse recurso permite que usuários técnicos e não técnicos testem rapidamente a gestão de decisões e solucionem possíveis problemas.</p>
+<p>Agora é possível simular quais ofertas serão entregues a um perfil de teste para um determinado posicionamento na interface do Journey Optimizer. Isso permite validar facilmente a sua lógica de decisão, incluindo restrições de qualificação e algoritmos de classificação, antes de colocá-los em produção. Esse recurso permite que usuários(as) técnicos(as) e não técnicos(as) testem rapidamente a gestão de decisões e solucionem possíveis problemas.</p>
 <p>Para obter mais informações, consulte a <a href="../offers/offer-activities/simulation.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -69,7 +69,7 @@ Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lan
 <tbody>
 <tr>
 <td>
-<p>Agora é possível personalizar o conteúdo de suas ofertas usando atributos de perfil e públicos do Adobe Experience Platform, usando o mesmo componente do editor de expressão encontrado na interface do Journey Optimizer. </p>
+<p>Agora é possível personalizar o conteúdo de ofertas usando atributos de perfil e públicos-alvo da Adobe Experience Platform e o mesmo componente do editor de expressão encontrado na interface do Journey Optimizer. </p>
 <p>Para obter mais informações, consulte a <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -77,13 +77,13 @@ Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lan
 </table>
 
 
-Consulte também [Notas de versão de outubro do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=pt-BR){target="_blank"} para obter mais alterações.
+Consulte também as [Notas de versão de outubro da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=pt-BR){target="_blank"} para mais alterações.
 
 ### Melhorias
 
 **Jornadas**
 
-* **Editor de expressão** - Como um usuário avançado, agora você pode usar funções para trabalhar com mapas. Esse recurso pode ser aproveitado com as listas de assinaturas. Como exemplo, de um público-alvo, agora é possível obter um endereço de email de uma lista de assinaturas. [Saiba mais neste exemplo ](../building-journeys/message-to-subscribers-uc.md)
+* **Editor de expressão** - Como um usuário avançado, agora você pode usar funções para trabalhar com mapas. Esse recurso pode ser aproveitado com as listas de assinaturas. Como exemplo, em um público-alvo, agora é possível obter um endereço de email a partir de uma lista de assinaturas. [Saiba mais neste exemplo ](../building-journeys/message-to-subscribers-uc.md)
 
 * **Monitoramento** - Os eventos de etapa para jornadas ativas e modo de teste foram aprimorados. [Novos campos](../reports/sharing-field-list.md#serviceevents) foram adicionados relacionados a trabalhos de exportação de perfil. Para obter uma melhor experiência do usuário, os campos de evento de etapa agora estão organizados em categorias diferentes. Todos os campos de eventos de etapa anteriores ainda estão disponíveis na categoria [stepEvents](../reports/sharing-legacy-fields.md).
 * **Acessibilidade** - As melhorias de acessibilidade foram implementadas nas jornadas.
@@ -92,7 +92,7 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 
 **Relatórios**
 
-* **Formato de dados na Visualização global** - Agora é possível alternar entre números e porcentagens na **Visualização global** da guia de **Execução.**
+* **Formato de dados na Visualização global** - Agora é possível alternar entre números e porcentagens na **Visualização global** da guia **Execução**.
 
 
 **Administração**
@@ -184,7 +184,7 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 <tbody>
 <tr>
 <td>
-<p>Envie sua mensagem por push ou de email automaticamente na melhor hora para cada cliente com quem você interagir usando o Adobe Journey Optimizer. A Otimização de tempo de envio, viabilizada pelos serviços de IA do Adobe, prevê o melhor momento para enviar um email ou mensagem por push. Isso maximiza o engajamento com base no histórico das taxas de abertura e de cliques pronto para uso.</p>
+<p>Envie sua mensagem por push ou de email automaticamente na melhor hora para cada cliente com quem você interagir usando o Adobe Journey Optimizer. A Otimização do tempo de envio, viabilizada pelos serviços de IA da Adobe, prevê o melhor momento para enviar um email ou mensagem por push. Isso maximiza o engajamento com base no histórico disponível das taxas de abertura e de cliques.</p>
 <p>No momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/journeys-message.md#send-time-optimization"> documentação detalhada </a>.</p>
 </td>
@@ -271,7 +271,7 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 **Interface do usuário**
 
 * **Pesquisa** - Em cada página, agora é possível pesquisar objetos de negócios e artigos de ajuda diretamente do campo de pesquisa inificada da Experience Cloud. [Saiba mais](../start/user-interface.md#unified-search)
-* **Recentes** - A exibição de elementos recentes da página inicial do Adobe Journey Optimizer agora se estende a objetos comerciais adicionais. Com essa atualização, os atalhos para o que você acessou recentemente incluem Mensagens, Jornadas, Públicos-alvo, Esquemas, Conjuntos de dados, Fontes de dados, Eventos, Ações, Fontes e Destinos. [Saiba mais](../action/about-custom-action-configuration.md#passing-collection)
+* **Recentes** - A exibição de elementos recentes da página inicial do Adobe Journey Optimizer agora se estende a objetos comerciais adicionais. Com essa atualização, os atalhos para o que você acessou recentemente incluem Mensagens, Jornadas, Públicos-alvo, Esquemas, Conjuntos de dados, Fontes de dados, Eventos, Ações, Origens e Destinos. [Saiba mais](../action/about-custom-action-configuration.md#passing-collection)
 
 **Design de conteúdo**
 
@@ -280,7 +280,7 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 
 **Personalização**
 
-* **Editor de expressão** - Agora é possível adicionar facilmente um valor de fallback ao definir a personalização: quando o campo de personalização estiver vazio para um perfil, o valor de fallback será exibido. [Saiba mais](../personalization/functions/helpers.md)
+* **Editor de expressão**: agora é possível adicionar facilmente um valor substituto ao definir a personalização. Quando o campo de personalização estiver vazio para um perfil, o valor substituto será exibido. [Saiba mais](../personalization/functions/helpers.md)
 
 **Configuração de email**
 
@@ -295,7 +295,7 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 
 * Correção de um problema de acessibilidade na navegação da guia de mensagem.
 * Correção de um problema de localização nos rótulos do designer de email.
-* Correção de um problema ao selecionar mais de um nó em uma jornada e clicar em &quot;Excluir&quot; no painel de propriedades.
+* Correção de um problema ao selecionar mais de um nó em uma jornada e clicar em Excluir no painel de propriedades.
 * Correção de um problema que impedia a adição de um novo cabeçalho a uma ação usada em uma jornada.
 * Agora você pode descobrir o motivo pelo qual uma criação de predefinição de mensagem falhou por meio de um aviso mais explícito na interface do usuário.
 
@@ -341,16 +341,16 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 
 **Jornadas**
 
-* A taxa de limitação geral de todos os públicos-alvo de leitura executados simultaneamente na mesma sandbox é limitada a 17.000 mensagens por segundo. [Leia mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* A taxa de limitação geral de quaisquer públicos-alvo de leitura executados simultaneamente na mesma sandbox é de 17.000 mensagens por segundo. [Leia mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * O campo **Duração do cache** foi removido do painel de configuração da fonte de dados. [Leia mais](../datasource/about-data-sources.md)
 * Para fontes de dados externas, uma regra de limitação de 15 chamadas por segundo agora é definida automaticamente. [Leia mais](../configuration/external-systems.md#capping)
 * Para as jornadas em tempo real, a tela de propriedades da jornada agora exibe a data da publicação e o nome do usuário que publicou a jornada. [Leia mais](../building-journeys/journey-gs.md#change-properties)
 * Na tela da lista de jornadas, o filtro Tipo de jornada foi adicionado. [Leia mais](../start/user-interface.md#filter-lists)
-* A variável **[!UICONTROL Taxa de limitação]** foi adicionado na atividade Ler público. [Leia mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* O parâmetro **[!UICONTROL Taxa de limitação]** foi adicionado na atividade Público-alvo de leitura. [Leia mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
-**Pré-visualização e teste**
+**Visualização e teste**
 
-* A identidade e o namespace agora estão visíveis na **[!UICONTROL Visualizar]** tela. [Leia mais](../content-management/preview-test.md#preview-your-messages)
+* A identidade e o namespace agora estão visíveis na tela **[!UICONTROL Visualizar]**. [Leia mais](../content-management/preview-test.md#preview-your-messages)
 * O número de emails de teste para provas agora está restrito a 10.
 * Caracteres permitidos nas provas de **prefixo da linha de assunto** agora são limitadas. [Leia mais](../content-management/preview-test.md#send-proofs)
 
@@ -363,6 +363,6 @@ Consulte também [Notas de versão de outubro do Adobe Experience Platform](http
 * Correção de um problema que gerava mensagens duplicadas sendo entregues para delivery de emails em lote.
 * Agora os eventos são gerados adequadamente quando o envio de email não é executado após o término do período de nova tentativa.
 * Correção de um problema em que as informações de IP estavam ausentes na tela Registros PTR .
-* A localização no painel de ofertas no editor de expressão agora está implementada.
+* A localização no painel de ofertas no Editor de expressão agora está implementada.
 * Corrigido o espaçamento incorreto em pop-ups de informações.
 * Correção de um problema no Designer de email ao fazer upload de um arquivo HTML no qual a folha de estilos interna com as propriedades `background-image` não era suportada.
