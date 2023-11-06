@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4010'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,19 +21,19 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Outubro de 2023 {#oct-2023}
 
-* Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de outubro de 2023 foi detalhada na documentação. [Leia mais](release-notes.md)
+* Todos os novos recursos e aprimoramentos da versão de outubro de 2023 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
 * Adição de GIFs para ilustrar alguns dos principais recursos, como: [modelos de conteúdo](../content-management/content-templates.md), [fragmentos](../content-management/fragments.md), [atributos computados](../audience/computed-attributes.md), [correspondência direta](../direct-mail/get-started-direct-mail.md), [tags](../start/search-filter-categorize.md#tags), [modelos de otimização da gestão de decisões](../offers/ranking/personalized-optimization-model.md), [campanhas acionadas por API](../campaigns/api-triggered-campaigns.md) e [experimento de conteúdo](../campaigns/content-experiment.md).
 * O processo de criação do esquema foi atualizado para refletir as atualizações mais recentes na interface, como parte das alterações da Adobe Experience Platform. [Leia mais](../audience/creating-test-profiles.md)
 * Medidas de proteção para a gestão de decisões foram adicionadas à página Medidas de proteção e limitações. [Leia mais](../start/guardrails.md#decision-management)
-* A seção Parâmetros de cabeçalho foi atualizada para refletir como as notificações de ausência do escritório e as respostas de desafio são tratadas (elas são recebidas no **[!UICONTROL Email de erro]**). [Leia mais](../email/email-settings.md#email-header)
-* Uma nova seção sobre como pré-visualizar e testar seu conteúdo foi criada. [Leia mais](../content-management/preview-test.md)
-* A página Implementar aplicativos de página única foi movida para a documentação do SDK da Web da Adobe Experience Platform. [Leia mais](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
-* A seção Limite foi atualizada para refletir as alterações de rótulo relacionadas ao limite de oferta na interface da gestão de decisões. [Leia mais](../offers/offer-library/add-constraints.md#capping)
-* A seção Adicionar conteúdo dinâmico a emails foi atualizada com detalhes sobre como excluir uma variante. [Leia mais](../personalization/dynamic-content.md#emails)
-* O exemplo de configurações de limitação e limitação foi atualizado. [Leia mais](../configuration/external-systems.md)
-* A limitação relacionada aos arrays escalares foi removida da seção fonte de dados externa. [Leia mais](../datasource/external-data-sources.md)
+* A seção Parâmetros de cabeçalho foi atualizada para refletir como as notificações de ausência e as respostas de desafio são tratadas (elas são recebidas no **[!UICONTROL Email de erro]**). [Leia mais](../email/email-settings.md#email-header)
+* Uma nova seção sobre como visualizar e testar conteúdo foi criada. [Leia mais](../content-management/preview-test.md)
+* A página Implementar aplicativos de página única foi movida para a documentação do SDK da Web da Adobe Experience Platform. [Leia mais](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=pt-BR){target="_blank"}
+* A seção Limite foi atualizada para refletir as alterações de rótulo relacionadas ao limite de ofertas na interface da gestão de decisões. [Leia mais](../offers/offer-library/add-constraints.md#capping)
+* A adição de conteúdo dinâmico em emails foi atualizada com detalhes sobre como excluir uma variante. [Leia mais](../personalization/dynamic-content.md#emails)
+* O exemplo das configurações de limite e limitação foi atualizada. [Leia mais](../configuration/external-systems.md)
+* A limitação relacionada às matrizes escalares foi removida da seção fonte de dados externa. [Leia mais](../datasource/external-data-sources.md)
 * O caso de uso da jornada de vários canais foi atualizado. [Leia mais](../building-journeys/journeys-uc.md)
-* O conjunto de documentação do Journey Optimizer foi atualizado para refletir o novo processo de criação do esquema Experience Platform.
+* O conjunto da documentação do Journey Optimizer foi atualizado para refletir o novo processo de criação de esquema da Experience Platform.
 
 ## Setembro de 2023 {#september-2023}
 
@@ -48,7 +48,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * Os links para a documentação do controle de acesso foram atualizados. [Leia mais](../administration/permissions.md)
 * Os pré-requisitos do canal no aplicativo foram atualizados com os detalhes da Coleção de dados da Adobe Experience Platform. [Leia mais](../in-app/inapp-configuration.md)
 * Algumas expressões apresentadas em exemplos de fórmulas de classificação foram atualizadas para evitar erros de validação. [Leia mais](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* Um aviso foi adicionado à seção Definir escopos de decisão para especificar que, se o modelo de IA for usado em um grupo de critérios de avaliação, todos os critérios de avaliação desse grupo deverão usar o método de classificação de IA, com o mesmo modelo de IA específico. Além disso, apenas um grupo de critérios de avaliação pode utilizar o modelo de IA. [Leia mais](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* Um aviso foi adicionado na seção Definir escopos de decisão para especificar que, se o modelo de IA for usado em um grupo de critérios de avaliação, todos os critérios de avaliação desse grupo devem usar o método de classificação de IA com esse mesmo modelo de IA. Além disso, apenas um grupo de critérios de avaliação pode utilizar o modelo de IA. [Leia mais](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## Agosto de 2023 {#august-2023}
 
