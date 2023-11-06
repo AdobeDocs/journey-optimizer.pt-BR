@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1698'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -42,8 +42,8 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 
 ## Medidas de proteção de SMS {#sms-guardrails}
 
-* O recurso MMS está disponível somente para a Sinch.
-* Os arquivos de mídia para MMS podem ser incluídos por meio de um URL compatível. Verifique se o arquivo de mídia foi carregado separadamente.
+* O recurso MMS está disponível somente para o Sinch.
+* Os arquivos de mídia para MMS podem ser incluídos por meio de um URL compatível. Verifique se o arquivo de mídia foi enviado separadamente.
 * A sincronização de feedback da mensagem não está disponível no momento para MMS.
 * O gerenciamento de consentimento opera no nível do canal SMS para MMS.
 
@@ -73,7 +73,7 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 
 ### Ações personalizadas {#custom-actions-g}
 
-* Um limite de 150.000 chamadas em 30 segundos é definido para todas as ações personalizadas. Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. Você precisa considerar isso nas jornadas baseadas em público-alvo definindo uma taxa de leitura apropriada (5000 perfis/s quando ações personalizadas forem usadas). Se necessário, é possível substituir essa configuração definindo um limite máximo ou limite maior por meio das APIs de Limite/Limitação. Consulte [esta página](../configuration/external-systems.md).
+* Um limite máximo de 150.000 chamadas em 30 segundos é definido para todas as ações personalizadas. Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. É necessário considerar isso em jornadas baseadas em público-alvo, definindo uma taxa de leitura apropriada (5.000 perfis por segundo ao utilizar ações personalizadas). Se necessário, é possível substituir essa configuração aumentando o limite máximo por meio das APIs de limite e limitação. Consulte [esta página](../configuration/external-systems.md).
 * O URL de ação personalizada não aceita parâmetros dinâmicos.
 * Os métodos de chamada POST, PUT e GET são compatíveis
 * O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou “$”
@@ -131,35 +131,35 @@ Você pode escolher uma dessas duas soluções:
 
 * O tamanho do conteúdo da mensagem no aplicativo é limitado a 2 Mb. A inclusão de imagens grandes pode prejudicar o processo de publicação.
 
-## Medidas de proteção de públicos {#audience}
+## Medidas de proteção de públicos-alvo {#audience}
 
 * Você pode publicar até 10 composições de público-alvo em uma determinada sandbox. Se tiver atingido esse limite, será necessário excluir uma composição para liberar espaço e publicar uma nova.
 
-## Medidas de proteção de gestão de decisões {#decision-management}
+## Medidas de proteção da gestão de decisões {#decision-management}
 
 ### Medidas de proteção de desempenho {#performance-guardrails}
 
-A taxa de transferência de delivery corresponde ao número de respostas de decisão que podem ser entregues pelo serviço de aplicativos Gerenciamento de decisões em um período especificado. O número de decisões por segundo é indicado na tabela abaixo.
+A taxa de transferência de entrega corresponde ao número de respostas de decisão que podem ser entregues pelo serviço do aplicativo de gestão de decisões em um período especificado. O número de decisões por segundo é indicado na tabela abaixo.
 
 | API | Decisões por segundo |
 |---------|----------|
-| Solicitações de API de decisão | 500 por segundo |
-| Solicitações de API do Edge Decisioning | 5000 por segundo |
+| Solicitações da API de decisão | 500 por segundo |
+| Solicitações da API de decisão do Edge | 5000 por segundo |
 
 ### Limitações {#offers-limitations}
 
-As limitações da Gestão de decisões estão listadas abaixo.
+As limitações da gestão de decisões estão listadas abaixo.
 
-* **Ofertas personalizadas aprovadas + Ofertas substitutas** - Até 10.000 ofertas personalizadas combinadas aprovadas e ofertas substitutas aprovadas.
+* **Ofertas personalizadas aprovadas + ofertas substitutas** - Até 10.000 ofertas, considerando a combinação de ofertas personalizadas aprovadas e ofertas substitutas aprovadas.
 * **Decisões** - Até 10.000 decisões.
-* **Decisões em tempo real** : o Serviço de aplicativos do Offer Decisioning oferece suporte a até 1.000 decisões em tempo real.
-* **Ofertas retornadas por resposta** - O Offer Decisioning oferece suporte a até 100 ofertas retornadas por solicitação em todos os escopos de decisão na solicitação.
+* **Decisões em tempo real** - O serviço do aplicativo do Offer Decisioning oferece suporte a até 1.000 decisões em tempo real.
+* **Ofertas retornadas por resposta** - O Offer Decisioning oferece suporte a um retorno de até 100 ofertas por solicitação em todos os escopos de decisão.
 * **Coleções** - Até 10.000 coleções.
 * **Coleções por decisão** - Até 30 coleções por decisão.
-* **Regras de decisão + Funções de classificação** Até 10.000 regras de decisão combinadas e funções de classificação.
-* **Posicionamentos** - Até 1.000 inserções.
-* **Posicionamentos por decisão** - Até 30 colocações por decisão.
-* **Método de classificação por decisão** - O Serviço de aplicativos do Offer Decisioning oferece suporte a até 30 funções de classificação por decisão.
-* **Modelo de classificação de IA** - O Offer Decisioning App Service oferece suporte a até 5 modelos de classificação de IA.
-* **Qualificador de Coleção por Oferta ou Coleção** : o Serviço de aplicativos do Offer Decisioning oferece suporte a até 20 qualificadores de coleção em uma única oferta personalizada ou coleção.
-* **Total de Qualificadores de Coleção** - O Offer Decisioning App Service oferece suporte a até 1.000 Qualificadores de Coleção.
+* **Regras de decisão + funções de classificação** - Até 10.000, considerando a combinação de regras de decisão e funções de classificação.
+* **Posicionamentos** - Até 1.000 posicionamentos.
+* **Posicionamentos por decisão** - Até 30 posicionamentos por decisão.
+* **Método de classificação por decisão** - O serviço do aplicativo do Offer Decisioning oferece suporte a até 30 funções de classificação por decisão.
+* **Modelo de classificação de IA** - O serviço do aplicativo do Offer Decisioning oferece suporte a até 5 modelos de classificação de IA.
+* **Qualificador de coleção por oferta ou coleção** - O serviço do aplicativo do Offer Decisioning oferece suporte a até 20 qualificadores de coleção em uma única coleção ou oferta personalizada.
+* **Total de qualificadores de coleção** - O serviço do aplicativo do Offer Decisioning oferece suporte a até 1.000 qualificadores de coleção.
