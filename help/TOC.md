@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -205,32 +205,32 @@ ht-degree: 94%
    + [Pré-requisitos do canal no aplicativo](using/in-app/inapp-configuration.md)
    + [Criação de uma mensagem no aplicativo](using/in-app/create-in-app.md)
    + [Projete seu conteúdo no aplicativo](using/in-app/design-in-app.md)
-   + [Verifique e envie sua notificação no aplicativo](using/in-app/send-in-app.md)
+   + [Verificação e envio da notificação no aplicativo](using/in-app/send-in-app.md)
 + Canal de notificação por push{#push}
    + [Introdução à notificação por push](using/push/get-started-push.md)
    + [Criar uma notificação por push](using/push/create-push.md)
    + [Projetar a notificação por push](using/push/design-push.md)
-   + [Marque e envie sua notificação por push](using/push/send-push.md)
-   + Configurar notificações por push{#push-config}
+   + [Verificação e envio da notificação por push](using/push/send-push.md)
+   + Configuração de notificações por push{#push-config}
       + [Fluxo de notificação por push](using/push/push-gs.md)
       + [Configurar canal de notificação por push](using/push/push-configuration.md)
       + [Fluxo de trabalho de início rápido de integração para dispositivos móveis](using/push/mobile-onboarding-wf.md)
 + Canal SMS{#sms}
    + [Introdução a SMS](using/sms/get-started-sms.md)
    + [Criar uma mensagem de SMS.](using/sms/create-sms.md)
-   + [Criar uma mensagem MMS](using/sms/create-mms.md)
-   + [Verifique e envie seu SMS](using/sms/send-sms.md)
+   + [Criação de uma mensagem MMS](using/sms/create-mms.md)
+   + [Verificação e envio de SMS](using/sms/send-sms.md)
    + [Gerenciar opção de não participação de SMS](using/sms/sms-opt-out.md)
    + [Configurar canal de SMS](using/sms/sms-configuration.md)
    + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
 + Correspondência direta {#direct-mail}
    + [Introdução à correspondência direta](using/direct-mail/get-started-direct-mail.md)
    + [Criação de uma correspondência direta](using/direct-mail/create-direct-mail.md)
-   + [Verificar e enviar uma mensagem de correspondência direta](using/direct-mail/test-send-direct-mail.md)
+   + [Verificação e envio de uma mensagem de correspondência direta](using/direct-mail/test-send-direct-mail.md)
    + [Configurar correspondência direta](using/direct-mail/direct-mail-configuration.md)
 + Canal da Web {#web}
    + [Introdução ao canal Web](using/web/get-started-web.md)
-   + Configurar canal da Web {#configure-web-channel}
+   + Configurar o canal web {#configure-web-channel}
       + [Pré-requisitos do canal web](using/web/web-prerequisites.md)
       + [Configurar subdomínios da Web](using/web/web-delegated-subdomains.md)
    + [Criação de experiências da Web](using/web/create-web.md)
@@ -264,8 +264,8 @@ ht-degree: 94%
       + [Geração de imagem](using/content-management/generative-image.md)
    + Trabalhar com conteúdo multilíngue{#content-multilingual}
       + [Introdução ao conteúdo multilíngue](using/content-management/multilingual-gs.md)
-      + [Criar conteúdo multilíngue com tradução manual](using/content-management/multilingual-manual.md)
-      + [Criar conteúdo multilíngue com tradução automática](using/content-management/multilingual-automated.md)
+      + [Criação do conteúdo multilíngue com tradução manual](using/content-management/multilingual-manual.md)
+      + [Criação do conteúdo multilíngue com tradução automática](using/content-management/multilingual-automated.md)
       + [Relatório de campanha multilíngue](using/content-management/multilingual-report.md)
    + Ativos/imagens {#assets-images}
       + [Trabalhar com o Assets Essentials](using/content-management/assets-essentials.md)
@@ -301,13 +301,13 @@ ht-degree: 94%
       + [Introdução ao conteúdo dinâmico](using/personalization/get-started-dynamic-content.md)
       + [Criar regras condicionais](using/personalization/create-conditions.md)
       + [Criar conteúdo dinâmico](using/personalization/dynamic-content.md)
-   + Pré-visualizar e testar o conteúdo {#preview-test}
-      + [Introdução a pré-visualização e teste](using/content-management/preview-test.md)
-      + [Selecionar perfis de teste](using/content-management/test-profiles.md)
-      + [Pré-visualizar seu conteúdo](using/content-management/preview.md)
-      + [Enviar provas de email](using/content-management/proofs.md)
-      + [Testar a renderização do email](using/content-management/rendering.md)
-      + [Usar relatório de spam](using/content-management/spam-report.md)
+   + Visualização e teste do conteúdo {#preview-test}
+      + [Introdução à visualização e teste](using/content-management/preview-test.md)
+      + [Seleção de perfis de teste](using/content-management/test-profiles.md)
+      + [Visualização do conteúdo](using/content-management/preview.md)
+      + [Envio de provas de email](using/content-management/proofs.md)
+      + [Teste da renderização do email](using/content-management/rendering.md)
+      + [Uso do relatório de spam](using/content-management/spam-report.md)
 + Públicos-alvo, perfis e identidade{#audiences-profiles-identities}
    + Públicos-alvo {#audiences}
       + [Introdução aos públicos](using/audience/about-audiences.md)
