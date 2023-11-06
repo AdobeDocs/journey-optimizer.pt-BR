@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adicionar um pré-cabeçalho no Journey Optimizer
+title: Adição de um pré-cabeçalho no Journey Optimizer
 description: Saiba como criar conteúdo de email
 feature: Email Design
 topic: Content Management
@@ -10,13 +10,13 @@ level: Intermediate
 keywords: pré-cabeçalho, editor, resumo, email
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# Adicionar um pré-cabeçalho {#preheader}
+# Adição de um pré-cabeçalho {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
@@ -39,7 +39,7 @@ Para definir o pré-cabeçalho de email, siga as etapas abaixo:
 
    ![](assets/preheader_body.png)
 
-1. No **[!UICONTROL Configurações]** clique no ícone de personalização ao lado da guia **[!UICONTROL Pré-cabeçalho]** para adicionar conteúdo.
+1. Na guia **[!UICONTROL Configurações]**, clique no ícone de personalização ao lado do campo **[!UICONTROL Pré-cabeçalho]** para adicionar conteúdo.
 
    ![](assets/preheader_body_settings.png)
 
