@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>As ferramentas de sandbox permitem copiar objetos em várias sandboxes aproveitando a exportação e a importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote devem ser da mesma sandbox.</p>
+<p>As ferramentas de sandbox permitem copiar objetos em várias sandboxes aproveitando a exportação e a importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote precisam ser da mesma sandbox.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -73,7 +73,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Com o Canal SMS, agora é possível aprimorar sua comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), permitindo o compartilhamento de imagens, GIF ou vídeos com seus clientes. Observe que esse recurso está disponível atualmente na versão Beta somente com o Sinch.</p>
+<p>Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos com clientes. Observe que esse recurso está disponível atualmente na versão Beta somente com o Sinch.</p>
 <!--img src="assets/channel-reports.png"/-->
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -86,8 +86,8 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Públicos-alvo**
 
-* Agora é possível direcionar públicos-alvo carregados de um arquivo CSV para jornadas e campanhas.
-* Agora é possível direcionar públicos-alvo criados por meio da composição de públicos-alvo e aproveitar os atributos de enriquecimento no Jornada.
+* Agora é possível direcionar públicos-alvo enviados a partir de um arquivo CSV para jornadas e campanhas.
+* Agora é possível direcionar públicos-alvo criados por meio da composição de público-alvo e aproveitar os atributos de enriquecimento em jornadas.
 
 >[!AVAILABILITY]
 >
@@ -101,20 +101,20 @@ Esta versão vem com as melhorias listadas abaixo.
 **Campanhas**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Quando ocorre um erro em uma de suas campanhas, um ícone de aviso agora é exibido na lista de campanhas ao lado do status da campanha.
+* Quando ocorre um erro em uma das campanhas, um ícone de aviso agora é exibido na lista de campanhas junto com o status da campanha.
 
 **Jornadas**
 
 * A duração máxima que você pode definir em qualquer tempo de espera agora é de 29 dias, em vez de 30. Isso se aplica a:
 
-   * o **Quantidade de tempo** no campo [atividade de espera](../building-journeys/wait-activity.md)
-   * o **Período de espera de reentrada** in [jornada propriedades](../building-journeys/journey-gs.md#entrance)
-   * o **Aguardar** na definição de tempo limite de [geral](../building-journeys/general-events.md#events-specific-time) e [reação](../building-journeys/reaction-events.md) eventos.
+   * o campo **Quantidade de tempo** na [atividade de espera](../building-journeys/wait-activity.md)
+   * o **período de espera de reentrada** nas [propriedades da jornada](../building-journeys/journey-gs.md#entrance)
+   * o campo **Aguardar por** na definição de tempo limite dos eventos [geral](../building-journeys/general-events.md#events-specific-time) e [reação](../building-journeys/reaction-events.md).
 
-**Consentimento na configuração do canal**
+**Consentimento na configuração de canais**
 
-* Agora é possível selecionar uma ação de marketing no nível da superfície de canal. Quando usadas em uma superfície, todas as políticas de consentimento associadas a essa ação de marketing são aproveitadas para respeitar as preferências dos clientes.
+* Agora é possível selecionar uma ação de marketing no nível da superfície de canal. Quando usadas em uma superfície, todas as políticas de consentimento associadas a essa ação de marketing são aproveitadas para respeitar as preferências de clientes.
 
 **Gestão de decisões**
 
-* Vários rótulos relacionados ao limite de oferta na interface da gestão de decisões foram atualizados.
+* Vários rótulos relacionados ao limite de ofertas na interface da gestão de decisões foram atualizados.
