@@ -8,9 +8,9 @@ level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->Por enquanto, o Canal de mala direta não está disponível para organizações que compraram o Adobe **Healthcare Shield** e **Escudo de Proteção e Privacidade** ofertas complementares.
+>Por enquanto, o canal Correspondência direta não está disponível para organizações que compraram as ofertas complementares Adobe **Healthcare Shield** e **Privacy and Security Shield**.
 
 O canal de correspondência direta é offline e permite personalizar e gerar os arquivos de extração exigidos por provedores de correspondência direta para o envio a clientes.
 
