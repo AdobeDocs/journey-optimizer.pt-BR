@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '682'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 
 ## O que é o [!DNL Adobe Journey Optimizer]?{#about-cjm}
 
-O [!DNL Adobe Journey Optimizer] ajuda as empresas a fornecer experiências conectadas, contextuais e personalizadas aos clientes. A jornada do cliente envolve todo o processo de interação do cliente com a marca, desde o primeiro momento do contato até o cliente ir embora. Ela começa com a fase de percepção, onde o cliente aprende sobre a marca e começa a se envolver. O cliente interagirá ainda mais com a marca, visitará sites online e locais físicos e fará compras, enviará mensagens ou fará resenhas.
+O [!DNL Adobe Journey Optimizer] ajuda as empresas a fornecer experiências conectadas, contextuais e personalizadas aos clientes. A jornada do cliente é todo o processo de interação de clientes com a marca, desde o primeiro contato até a sua saída. Ela começa com a fase de percepção, onde o cliente aprende sobre a marca e começa a se envolver. O cliente interagirá ainda mais com a marca, visitará sites online e locais físicos e fará compras, enviará mensagens ou fará resenhas.
 
 O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e combina um perfil do cliente em tempo real unificado, uma estrutura aberta de priorização de API, um Offer Decisioning centralizado, além de inteligência artificial (IA) e aprendizado de máquina (ML) para personalização e otimização. O Journey Optimizer permite que as marcas determinem de forma inteligente a próxima melhor interação com escala, velocidade e flexibilidade durante toda a jornada do cliente. Com o [!DNL Adobe Journey Optimizer], as empresas podem criar e entregar campanhas de marketing agendadas (como promoções semanais para uma loja de varejo) e comunicações individuais personalizadas (como uma notificação por push sobre um item que um cliente de aplicativo de fidelidade tenha visto e que estava anteriormente indisponível), tudo no mesmo aplicativo.
 
@@ -28,9 +28,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ## Casos de uso {#use-cases}
 
-* Os profissionais de marketing podem usar o [!DNL Adobe Journey Optimizer] para enviar comunicações individualizadas, bem como comunicações em lote baseadas em públicos-alvo. Por exemplo, uma loja de roupas normalmente envia pesquisas pós-compra para todos os clientes que compraram produtos na última semana. Devido às intempéries, alguns carregamentos sofreram atrasos. Ao ver quais clientes não receberam suas remessas, a loja de roupas pode excluí-los do envio agendado de satisfação do cliente e, em vez disso, enviar um email personalizado pedindo desculpas pelo atraso e oferecendo um código de desconto com recomendações de produto baseadas nas compras anteriores do cliente.
+* Os profissionais de marketing podem usar o [!DNL Adobe Journey Optimizer] para enviar comunicações individualizadas, bem como comunicações em lote baseadas em públicos-alvo. Por exemplo, uma loja de roupas normalmente envia pesquisas pós-compra para todos os clientes que compraram produtos na última semana. Devido às intempéries, alguns carregamentos sofreram atrasos. Ao ver quais clientes não receberam suas remessas, a loja de roupas pode excluir essas pessoas do envio agendado da pesquisa de satisfação do cliente e, em vez disso, enviar um email personalizado pedindo desculpas pelo atraso e oferecendo um código de desconto com recomendações de produto baseadas em suas compras anteriores.
 
-  Os profissionais de marketing também podem usar o aplicativo para enviar comunicações em tempo real baseadas em comportamento. Por exemplo, o mesmo varejista poderia engajar um cliente fiel que entra no estacionamento da loja em tempo real enviando a ele uma notificação por push sobre um suéter que está de volta em estoque no tamanho do cliente.
+  Os profissionais de marketing também podem usar o aplicativo para enviar comunicações em tempo real baseadas em comportamento. Por exemplo, o mesmo varejista poderia engajar em tempo real um(a) cliente fiel que entra no estacionamento da loja, enviando uma notificação por push sobre um suéter do seu tamanho que está de volta ao estoque.
 
 * Os não profissionais de marketing, como as equipes de operações e suporte ao cliente envolvidas na experiência do cliente, podem usar o [!DNL Adobe Journey Optimizer] para gerenciar várias tarefas, como notificações operacionais ou até mesmo para monitorar o processo de integração de clientes. Pense por exemplo, um parque de diversões onde os visitantes baixam um aplicativo móvel como parte de sua experiência no parque. A equipe de manutenção pode usar o [!DNL Adobe Journey Optimizer] para notificar os visitantes sobre as atrações que estão fechadas atualmente devido à manutenção.
 
