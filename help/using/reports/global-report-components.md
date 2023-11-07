@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1100'
 ht-degree: 10%
 
 ---
@@ -89,6 +89,11 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   <tr> 
    <td> Taxa de erro<br/> </td> 
    <td> Porcentagem de erros que ocorreram durante um delivery impedindo que ele seja enviado em comparação aos emails enviados.<br/> </td> 
+</tr>
+</tr> 
+  <tr> 
+   <td> Motivo do erro<br/> </td> 
+   <td> Nome da causa original específica do erro. <a href="error-list.md">Saiba mais sobre motivos de erro</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Excluído<br/> </td> 
@@ -332,7 +337,11 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   <tr> 
    <td> Taxa de erro<br/> </td> 
    <td> Porcentagem de erros que ocorreram durante uma entrega, impedindo que ela fosse enviada, em comparação às notificações por push enviadas.<br/> </td> 
-</tr> 
+</tr>
+  <tr> 
+   <td> Motivo do erro<br/> </td> 
+   <td> Nome da causa original específica do erro. <a href="error-list.md">Saiba mais sobre motivos de erro</a>.<br/> </td> 
+</tr>
   <tr> 
    <td> Excluído<br/> </td> 
    <td> Número de perfis excluídos pelo Adobe Journey Optimizer.<br/> </td> 
@@ -356,7 +365,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
  </tbody> 
 </table>
 
-### Métricas de landing page {#landing-page-metrics}
+## Métricas de landing page {#landing-page-metrics}
 
 <table> 
  <thead> 

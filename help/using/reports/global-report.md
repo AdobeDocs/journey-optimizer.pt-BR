@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,12 @@ Cada painel de relatório pode ser modificado alterando o período de tempo e re
 1. No relatório Global, selecione uma hora de Início e Término para direcionar dados específicos.
 
    ![](assets/report_modify_1.png)
+
+1. Para seus relatórios de Jornada que envolvem várias configurações **[!UICONTROL Ações]**, escolha um específico **[!UICONTROL Ação]** no menu suspenso.
+
+1. Se quiser direcionar apenas uma ou várias mensagens recorrentes, selecione-as no **[!UICONTROL Tempo de execução]** menu suspenso.
+
+   ![](assets/report_modify_12.png)
 
 1. Escolha se deseja excluir eventos de teste de seus relatórios com a barra de alternância. Para obter mais informações sobre eventos de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 

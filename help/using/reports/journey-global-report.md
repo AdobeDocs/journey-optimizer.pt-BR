@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2408'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,7 @@ Para obter mais informações sobre ações personalizadas, consulte [a document
 Observe que para que esses widgets apareçam nos relatórios do Jornada, será necessário redefinir seus painéis. Para fazer isso, clique em **[!UICONTROL Modificar]** depois **[!UICONTROL Redefinir]** na parte superior do relatório.
 +++
 
-## Guia E-mail {#email-global}
+## Guia Email {#email-global}
 
 Da sua jornada **[!UICONTROL Relatório global]**, o **[!UICONTROL E-mail]** A guia detalha as principais informações relativas aos deliveries de email enviados no jornada.
 
@@ -83,6 +83,8 @@ Da sua jornada **[!UICONTROL Relatório global]**, o **[!UICONTROL E-mail]** A g
 +++Saiba mais sobre as diferentes métricas e widgets disponíveis para o Relatório de email.
 
 A variável **[!UICONTROL Estatísticas de envio de email]** O gráfico detalha o sucesso do seu delivery:
+
+* **[!UICONTROL Tempo de execução]**: hora de início de cada execução do email recorrente na jornada. Para direcionar apenas um ou vários emails recorrentes, selecione-o no **[!UICONTROL Tempo de execução]** menu suspenso.
 
 * **[!UICONTROL Direcionado]**: Número de perfis direcionados para qualquer ação, como enviar email ou SMS.
 
@@ -101,6 +103,8 @@ A variável **[!UICONTROL Estatísticas de envio de email]** O gráfico detalha 
 * **[!UICONTROL Taxa de erro]**: Porcentagem de erros que ocorreram durante um delivery, impedindo que ele seja enviado, em comparação aos emails enviados.
 
 A variável **[!UICONTROL Email - Estatísticas de rastreamento]** contém os dados disponíveis para a atividade de recipient para seu delivery:
+
+* **[!UICONTROL Tempo de execução]**: hora de início de cada execução do email recorrente na jornada. Para direcionar apenas um ou vários emails recorrentes, selecione-o no **[!UICONTROL Tempo de execução]** menu suspenso.
 
 * **[!UICONTROL Aberturas]**: Número de vezes que o delivery foi aberto em um delivery.
 
@@ -194,6 +198,8 @@ Da sua jornada **[!UICONTROL Relatório global]**, o **[!UICONTROL Notificação
 
 A variável **[!UICONTROL Notificação por push - Estatísticas de envio]** A tabela detalha as principais informações relativas às notificações por push com gráfico e KPIs:
 
+* **[!UICONTROL Tempo de execução]**: hora de início de cada execução da notificação por push recorrente no jornada. Para direcionar apenas uma ou várias notificações por push recorrentes, selecione-a no **[!UICONTROL Tempo de execução]** menu suspenso.
+
 * **[!UICONTROL Direcionado]**: Número de perfis direcionados para qualquer ação, como enviar email ou SMS.
 
 * **[!UICONTROL Enviado]**: Número total de envios para o delivery.
@@ -211,6 +217,8 @@ A variável **[!UICONTROL Notificação por push - Estatísticas de envio]** A t
 * **[!UICONTROL Taxa de erro]**: Porcentagem de erros que ocorreram durante um delivery, impedindo que ele fosse enviado, em comparação ao envio de notificações por push.
 
 A variável **[!UICONTROL Push - Estatísticas de rastreamento]** contém os dados disponíveis para a atividade de recipient para seu delivery:
+
+* **[!UICONTROL Tempo de execução]**: hora de início de cada execução da notificação por push recorrente no jornada. Para direcionar apenas uma ou várias notificações por push recorrentes, selecione-a no **[!UICONTROL Tempo de execução]** menu suspenso.
 
 * **[!UICONTROL Aberturas]**: Número de vezes que uma mensagem foi aberta em um delivery.
 
@@ -265,6 +273,8 @@ O SMS **[!UICONTROL Relatório global]** O é dividido em widgets diferentes det
 +++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório de SMS.
 
 A variável **[!UICONTROL SMS - Estatísticas de envio]** a tabela detalha o sucesso do seu delivery:
+
+* **[!UICONTROL Tempo de execução]**: Hora de início de cada execução da mensagem SMS recorrente no jornada. Para direcionar apenas uma ou várias mensagens SMS recorrentes, selecione-as no **[!UICONTROL Tempo de execução]** menu suspenso.
 
 * **[!UICONTROL Direcionado]**: Número de perfis de usuário que se qualificam como perfis de público-alvo para este delivery.
 

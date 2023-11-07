@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '3192'
-ht-degree: 25%
+source-wordcount: '3357'
+ht-degree: 24%
 
 ---
 
@@ -173,6 +173,8 @@ Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL E-mail]** A 
 
 A variável **[!UICONTROL Estatísticas de envio de email]** o gráfico detalha o sucesso do seu email:
 
+* **[!UICONTROL Tempo de execução]**: hora de início de cada execução do email recorrente. Para direcionar apenas um ou vários emails recorrentes, selecione-o no **[!UICONTROL Tempo de execução]** menu suspenso.
+
 * **[!UICONTROL Direcionado]**: Número total de mensagens processadas durante o processo de envio.
 
 * **[!UICONTROL Enviado]**: Número total de envios para o seu email.
@@ -194,6 +196,8 @@ A variável **[!UICONTROL Estatísticas de envio de email]** o gráfico detalha 
 * **[!UICONTROL Excluído]**: Número de perfis excluídos pelo Adobe Journey Optimizer.
 
 A variável **[!UICONTROL Email - Estatísticas de rastreamento]** O widget contém os dados disponíveis para a atividade de perfil do seu email:
+
+* **[!UICONTROL Tempo de execução]**: hora de início de cada execução do email recorrente. Para direcionar apenas um ou vários emails recorrentes, selecione-o no **[!UICONTROL Tempo de execução]** menu suspenso.
 
 * **[!UICONTROL Aberturas]**: Número de vezes que o email foi aberto.
 
@@ -243,7 +247,7 @@ A variável **[!UICONTROL Email - Principal domínio de destinatário]** O gráf
 >
 > A variável **[!UICONTROL Email - Principal domínio de destinatário]** O widget tem uma taxa de precisão de 99,95%.
 
-A variável **[!UICONTROL Otimizado vs. não otimizado]** o gráfico detalha as principais informações relativas à mensagem, sejam elas otimizadas ou não:
+A variável **[!UICONTROL Email - Otimizado vs. normal]** o gráfico detalha as principais informações relativas à mensagem, sejam elas otimizadas ou não:
 
 * **[!UICONTROL Enviado]**: número total de envios.
 
@@ -251,7 +255,7 @@ A variável **[!UICONTROL Otimizado vs. não otimizado]** o gráfico detalha as 
 
 * **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em um email.
 
-A variável **[!UICONTROL Otimização da hora de envio]** detalha o sucesso do seu email dependendo do método de envio: otimizado ou normal.
+A variável **[!UICONTROL Email - Otimização de hora de envio]** detalha o sucesso do seu email dependendo do método de envio: otimizado ou normal.
 
 * **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
@@ -337,7 +341,9 @@ Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Notificaçã
 
 +++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório Push.
 
-A variável **[!UICONTROL Notificação por push - Estatísticas de envio]** a tabela detalha as principais informações relativas às notificações por push
+A variável **[!UICONTROL Notificação por push - Estatísticas de envio]** A tabela detalha as principais informações relacionadas às notificações por push:
+
+* **[!UICONTROL Tempo de execução]**: hora de início de cada execução da notificação por push recorrente. Para direcionar apenas uma ou várias notificações por push recorrentes, selecione-a no **[!UICONTROL Tempo de execução]** menu suspenso.
 
 * **[!UICONTROL Direcionado]**: Número total de mensagens processadas durante a análise.
 
@@ -358,6 +364,8 @@ A variável **[!UICONTROL Notificação por push - Estatísticas de envio]** a t
 * **[!UICONTROL Excluído]**: Número de perfis excluídos pelo Adobe Journey Optimizer.
 
 A variável **[!UICONTROL Push - Estatísticas de rastreamento]** contém os dados disponíveis para a atividade de perfil para sua notificação por push:
+
+* **[!UICONTROL Tempo de execução]**: hora de início de cada execução da notificação por push recorrente. Para direcionar apenas uma ou várias notificações por push recorrentes, selecione-a no **[!UICONTROL Tempo de execução]** menu suspenso.
 
 * **[!UICONTROL Aberturas]**: Número de vezes que sua notificação por push foi aberta.
 
@@ -446,6 +454,8 @@ Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL SMS]** A gui
 
 A variável **[!UICONTROL SMS - Estatísticas de envio]** A tabela detalha o sucesso da mensagem SMS:
 
+* **[!UICONTROL Tempo de execução]**: hora de início de cada execução da mensagem SMS recorrente. Para direcionar apenas uma ou várias mensagens SMS recorrentes, selecione-as no **[!UICONTROL Tempo de execução]** menu suspenso.
+
 * **[!UICONTROL Direcionado]**: Número de perfis de usuário qualificados como perfis de público-alvo.
 
 * **[!UICONTROL Excluído]**: Número de perfis de usuário, excluídos dos perfis direcionados, que não receberam a mensagem.
@@ -530,6 +540,8 @@ Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Correspondê
 +++Saiba mais sobre as diferentes métricas e widgets disponíveis para o Relatório de correspondência direta.
 
 A variável **[!UICONTROL Correspondência direta - Estatísticas de envio]** a tabela detalha o sucesso da sua correspondência direta:
+
+* **[!UICONTROL Tempo de execução]**: hora de início de cada execução da correspondência direta recorrente. Para direcionar somente uma ou várias Correspondências diretas recorrentes, selecione-a no campo **[!UICONTROL Tempo de execução]** menu suspenso.
 
 * **[!UICONTROL Direcionado]**: Número de perfis de usuário qualificados como perfis de público alvo para esta correspondência direta.
 
