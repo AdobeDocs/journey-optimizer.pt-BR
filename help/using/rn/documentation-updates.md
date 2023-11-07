@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
-workflow-type: ht
-source-wordcount: '4010'
-ht-degree: 100%
+source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
+workflow-type: tm+mt
+source-wordcount: '4103'
+ht-degree: 97%
 
 ---
 
 # Atualizações de documentação {#latest-updates}
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
+
+## Novembro de 2023 {#nov-2023}
+
+* A garantia que limita todas as ações personalizadas foi alterada de 150.000 chamadas em 30 segundos para 300.000 chamadas em um minuto. Além disso, o limite padrão não se aplica mais a cada endpoint. Agora, ele é executado por host e por sandbox. Por exemplo, em uma sandbox, se você tiver dois endpoints com o mesmo host (por exemplo: `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), o limite será aplicado a todos os endpoints no host adobe.com. &quot;endpoint1&quot; e &quot;endpoint2&quot; compartilharão a mesma configuração de limitação e fazer com que um endpoint atinja o limite terá impacto no outro endpoint. [Leia mais](../action/about-custom-action-configuration.md)
 
 ## Outubro de 2023 {#oct-2023}
 

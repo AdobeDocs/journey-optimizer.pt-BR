@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 14%
+source-wordcount: '1342'
+ht-degree: 17%
 
 ---
 
@@ -37,7 +37,9 @@ Observe também que os parâmetros de ações personalizadas têm um formato esp
 
 ## Práticas recomendadas{#custom-action-enhancements-best-practices}
 
-Um limite de 150.000 chamadas em 30 segundos é definido para todas as ações personalizadas. Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. Você precisa considerar isso nas jornadas baseadas em público-alvo definindo uma taxa de leitura apropriada (5000 perfis/s quando ações personalizadas forem usadas). Se necessário, é possível substituir essa configuração definindo um limite máximo ou limite maior por meio das APIs de Limite/Limitação. Consulte [esta página](../configuration/external-systems.md).
+Um limite máximo de 300.000 chamadas em um minuto é definido para todas as ações personalizadas. Além disso, o limite padrão é executado por host e por sandbox. Por exemplo, em uma sandbox, se você tiver dois endpoints com o mesmo host (por exemplo: `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), o limite será aplicado a todos os endpoints no host adobe.com. &quot;endpoint1&quot; e &quot;endpoint2&quot; compartilharão a mesma configuração de limitação e fazer com que um endpoint atinja o limite terá impacto no outro endpoint.
+
+Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. É necessário considerar isso em jornadas baseadas em público-alvo, definindo uma taxa de leitura apropriada (5.000 perfis por segundo ao utilizar ações personalizadas). Se necessário, é possível substituir essa configuração aumentando o limite máximo por meio das APIs de limite e limitação. Consulte [esta página](../configuration/external-systems.md).
 
 Você não deve direcionar endpoints públicos com ações personalizadas por vários motivos:
 
