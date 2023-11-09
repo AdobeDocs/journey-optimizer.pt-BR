@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: 523c0cf8dd32eb9a1d2616258a7f5a142fd3499c
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2394'
 ht-degree: 2%
 
 ---
@@ -84,7 +84,7 @@ Da sua jornada **[!UICONTROL Relatório global]**, o **[!UICONTROL E-mail]** A g
 
 A variável **[!UICONTROL Estatísticas de envio de email]** O gráfico detalha o sucesso do seu delivery:
 
-* **[!UICONTROL Tempo de execução]**: hora de início de cada execução do email recorrente na jornada. Para direcionar apenas um ou vários emails recorrentes, selecione-o no **[!UICONTROL Tempo de execução]** menu suspenso.
+* **[!UICONTROL Tempo de execução]**: hora de início de cada execução de jornada em caso de jornadas recorrentes. Para direcionar apenas uma ou várias recorrências, selecione-a no **[!UICONTROL Tempo de execução]** menu suspenso.
 
 * **[!UICONTROL Direcionado]**: Número de perfis direcionados para qualquer ação, como enviar email ou SMS.
 
@@ -198,7 +198,7 @@ Da sua jornada **[!UICONTROL Relatório global]**, o **[!UICONTROL Notificação
 
 A variável **[!UICONTROL Notificação por push - Estatísticas de envio]** A tabela detalha as principais informações relativas às notificações por push com gráfico e KPIs:
 
-* **[!UICONTROL Tempo de execução]**: hora de início de cada execução da notificação por push recorrente no jornada. Para direcionar apenas uma ou várias notificações por push recorrentes, selecione-a no **[!UICONTROL Tempo de execução]** menu suspenso.
+* **[!UICONTROL Tempo de execução]**: hora de início de cada execução de jornada em caso de jornadas recorrentes. Para direcionar apenas uma ou várias recorrências, selecione-a no **[!UICONTROL Tempo de execução]** menu suspenso.
 
 * **[!UICONTROL Direcionado]**: Número de perfis direcionados para qualquer ação, como enviar email ou SMS.
 
@@ -218,7 +218,7 @@ A variável **[!UICONTROL Notificação por push - Estatísticas de envio]** A t
 
 A variável **[!UICONTROL Push - Estatísticas de rastreamento]** contém os dados disponíveis para a atividade de recipient para seu delivery:
 
-* **[!UICONTROL Tempo de execução]**: hora de início de cada execução da notificação por push recorrente no jornada. Para direcionar apenas uma ou várias notificações por push recorrentes, selecione-a no **[!UICONTROL Tempo de execução]** menu suspenso.
+* **[!UICONTROL Tempo de execução]**: hora de início de cada execução de jornada em caso de jornadas recorrentes. Para direcionar apenas uma ou várias recorrências, selecione-a no **[!UICONTROL Tempo de execução]** menu suspenso.
 
 * **[!UICONTROL Aberturas]**: Número de vezes que uma mensagem foi aberta em um delivery.
 
@@ -274,7 +274,7 @@ O SMS **[!UICONTROL Relatório global]** O é dividido em widgets diferentes det
 
 A variável **[!UICONTROL SMS - Estatísticas de envio]** a tabela detalha o sucesso do seu delivery:
 
-* **[!UICONTROL Tempo de execução]**: Hora de início de cada execução da mensagem SMS recorrente no jornada. Para direcionar apenas uma ou várias mensagens SMS recorrentes, selecione-as no **[!UICONTROL Tempo de execução]** menu suspenso.
+* **[!UICONTROL Tempo de execução]**: hora de início de cada execução de jornada em caso de jornadas recorrentes. Para direcionar apenas uma ou várias recorrências, selecione-a no **[!UICONTROL Tempo de execução]** menu suspenso.
 
 * **[!UICONTROL Direcionado]**: Número de perfis de usuário que se qualificam como perfis de público-alvo para este delivery.
 
