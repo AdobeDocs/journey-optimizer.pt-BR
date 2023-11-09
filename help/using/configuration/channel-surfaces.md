@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 8%
@@ -27,7 +27,7 @@ Com [!DNL Journey Optimizer], você pode configurar superfícies de canal (ou se
 
 >[!CAUTION]
 >
-> * Para criar, editar e excluir superfícies de canal, você deve ter a [Gerenciar superfície de canal](../administration/high-low-permissions.md#manage-channel-surface) permissão.
+> * Para criar, editar e excluir superfícies de canal, você deve ter a [Gerenciar predefinições de mensagens](../administration/high-low-permissions.md#administration-permissions) permissão.
 >
 > * Você deve executar o [Configuração de email](../email/get-started-email-config.md), [Configuração de push](../push/push-configuration.md) e [Configuração de SMS](../sms/sms-configuration.md) etapas antes de criar superfícies de canal.
 
@@ -47,7 +47,7 @@ Depois que as superfícies de canal forem configuradas, você poderá selecioná
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Configurações da superfície de canal"
->abstract="Para criar ações, como emails de uma jornada ou campanha, primeiro crie uma superfície de canal que defina todas as configurações técnicas necessárias para suas mensagens. Você deve ter a permissão Gerenciar superfície de canal para criar, editar e excluir superfícies de canal."
+>abstract="Para criar ações, como emails de uma jornada ou campanha, primeiro crie uma superfície de canal que defina todas as configurações técnicas necessárias para suas mensagens. É necessário ter a permissão Gerenciar predefinições de mensagens para criar, editar e excluir superfícies de canal."
 
 Para criar uma superfície de canal, siga estas etapas:
 

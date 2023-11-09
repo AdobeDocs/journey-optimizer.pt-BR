@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: permissão, alto nível, baixo nível, perfil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -288,20 +288,6 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 ## Recurso de configurações de canal {#administration-permissions}
 
-* **[!DNL Manage channel surface]** a permissão de alto nível permite que os usuários criem, editem e excluam superfícies de canal em canais no nível da sandbox.
-
-+++ Inclui as seguintes permissões de baixo nível:
-
-   * Específico do Journey Optimizer:
-      * messages_presets.read
-      * messages_presets.write
-      * messages_presets.delete
-      * subdomains_delegation.read
-      * IP_pools.read
-      * mobile_setting.read (do Adobe Experience Platform Launch)
-
-+++
-
 * **[!DNL Manage IP pools]** a permissão de alto nível permite que os usuários criem, editem e excluam a definição de afinidade.
 
 +++ Inclui as seguintes permissões de baixo nível:
@@ -341,7 +327,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Manage messages presets]** a permissão de alto nível permite que os usuários leiam, criem, editem e excluam marcas de conteúdo.
+* **[!DNL Manage messages presets]** a permissão de alto nível permite que os usuários leiam, criem, editem e excluam superfícies de canal em canais no nível da sandbox.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -353,7 +339,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
       * IP_pools.read
 
    * Específico da Coleção de dados:
-      * Mobile_setting.read
+      * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
 +++
 
@@ -390,7 +376,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Manage subdomains delegation]** a permissão de alto nível permite que os usuários criem, editem e excluam delegações de subdomínio (incluindo o pool de IP).
+* **[!DNL Manage subdomains delegations]** a permissão de alto nível permite que os usuários criem, editem e excluam delegações de subdomínio (incluindo o pool de IP).
 
 +++ Inclui as seguintes permissões de baixo nível:
    * Específico do Journey Optimizer:
