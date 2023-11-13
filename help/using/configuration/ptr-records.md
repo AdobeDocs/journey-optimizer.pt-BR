@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomínio, PTR, registros, DNS, domínio, email
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '773'
 ht-degree: 8%
 
 ---
@@ -40,7 +40,7 @@ Uma vez que [delegar](delegate-subdomain.md) seu primeiro subdomínio para o Ado
 
 ![](assets/ptr-records.png)
 
-A lista mostra os registros PTR gerados para cada subdomínio delegado, usando a sintaxe abaixo:
+A lista mostra os registros PTR gerados usando a sintaxe abaixo:
 
 * &quot;r&quot; para registro,
 * &quot;xx&quot; para os dois últimos algarismos do endereço IP,
