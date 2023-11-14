@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: email, iniciar, criação, visualização
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 92%
 
 ---
 
@@ -27,19 +27,14 @@ Use [!DNL Journey Optimizer] para enviar mensagens de email aos clientes. Você 
 
 Entregas de email podem ser criadas:
 
-* Em uma **Jornada**: depois de adicionar uma atividade de **[!UICONTROL Email]** para sua jornada e definir as configurações básicas, use o painel direito **[!UICONTROL Ações: Email]** para criar o conteúdo da mensagem.
+* Em uma **Jornada**: depois de adicionar uma atividade de **[!UICONTROL Email]** para sua jornada e definir as configurações básicas, use o painel direito **[!UICONTROL Ações: Email]** para criar o conteúdo da mensagem. [Saiba como criar uma jornada](../building-journeys/journey-gs.md)
 
-  Para obter mais informações sobre como configurar sua jornada, consulte esta [página](../building-journeys/journey-gs.md).
-
-* Em uma **Campanha**: depois de criar uma campanha, selecione **[!UICONTROL Email]** como sua ação e defina as configurações básicas.
-
-  Para obter mais informações sobre como configurar sua campanha, consulte esta [página](../campaigns/create-campaign.md#configure).
+* Em uma **Campanha**: depois de criar uma campanha, selecione **[!UICONTROL Email]** como sua ação e defina as configurações básicas. [Saiba como criar uma campanha](../campaigns/create-campaign.md#configure)
 
 
 >[!IMPORTANT]
 >
 >Se esta é a primeira vez que você cria um email, verifique se o canal de email foi configurado. [Saiba mais](email-settings.md)
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
