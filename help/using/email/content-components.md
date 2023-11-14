@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: componentes, designer de email, editor, email
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 57%
+source-wordcount: '1405'
+ht-degree: 54%
 
 ---
 
@@ -167,11 +167,17 @@ Use o **[!UICONTROL Imagem]** para inserir um arquivo de imagem do seu computado
 
    ![](assets/email_designer_image_content.png)
 
-1. Clique em **[!UICONTROL Procurar]** para escolher um arquivo de imagem de seus ativos.
+1. No **[!UICONTROL Configurações]** clique em **[!UICONTROL Procurar]** para escolher um arquivo de imagem de seus ativos ou **[!UICONTROL Importar mídia]** para carregar um ativo no Assets Essentials.
 
    Para saber mais sobre [!DNL Assets Essentials], consulte [Documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-1. Clique no componente recém-adicionado e configure as propriedades da imagem no **[!UICONTROL Configurações]** guia:
+   >[!NOTE]
+   >
+   > Para garantir que seus links permaneçam ativos e evitar problemas de expiração, recomendamos usar os ativos Adobe em vez de depender de um URL de origem para suas imagens.
+
+1. Você também pode pesquisar diretamente no Adobe Stock com a **[!UICONTROL Localizar fotos do Adobe Stock]** opção.
+
+1. Clique no componente recém-adicionado e configure as propriedades da imagem:
 
    * **[!UICONTROL Título da imagem]** permite definir um título para a imagem.
    * **[!UICONTROL Texto alternativo]** permite definir a legenda vinculada à imagem. Isso corresponde ao atributo HTML alternativo.
