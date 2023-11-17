@@ -11,10 +11,10 @@ keywords: IP, grupo, subdomínios, capacidade de entrega
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 11%
+source-wordcount: '1275'
+ht-degree: 10%
 
 ---
 
@@ -33,9 +33,43 @@ O que há neste guia de documentação:
 
 Depois de criar um ou mais [Campanhas de aquecimento de IP](ip-warmup-campaign.md) com uma superfície dedicada e a opção correspondente ativada, você pode começar a criar seu plano de aquecimento de IP.
 
->[!CAUTION]
->
->Para acessar, criar, editar e excluir os planos de aquecimento de IP, você deve ter a **[!UICONTROL Consultor de avaliação de entrega]** permissão. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+Para acessar, criar, editar e excluir os planos de aquecimento de IP, você deve ter a **[!UICONTROL Consultor de avaliação de entrega]** função ou planos de aquecimento de IP relacionados a permissões.
+
++++Saiba como atribuir a função de Consultor de capacidade de entrega ou as permissões relacionadas a planos de aquecimento de IP
+
+Para atribuir a permissão correspondente a um **[!UICONTROL Função]**:
+
+1. No [!DNL Permissions] produto, navegue até o **[!UICONTROL Funções]** e selecione a função que deseja atualizar com o novo **[!UICONTROL Configurações de Warmup de IP]** permissões.
+
+1. Do seu **[!UICONTROL Função]** painel, clique em **[!UICONTROL Editar]**.
+
+   ![](assets/ip_permissions_1.png)
+
+1. Arraste e solte a **[!UICONTROL Configurações de Warmup de IP]** recurso para atribuir permissão.
+
+1. No **[!UICONTROL Configurações de Warmup de IP]** selecione as permissões de que seu usuário precisa.
+
+   ![](assets/ip_permissions_2.png)
+
+1. Clique em **[!UICONTROL Salvar]**.
+
+Para atribuir a função correspondente a um **[!UICONTROL Usuário]**:
+
+1. No [!DNL Permissions] produto, navegue até o **[!UICONTROL Funções]** e selecione o **[!UICONTROL Consultor de avaliação de entrega]** função interna.
+
+1. Do seu **[!UICONTROL Função]** painel, acesse o **[!UICONTROL Usuários]** guia.
+
+   ![](assets/ip_permissions_3.png)
+
+1. Clique em **[!UICONTROL Adicionar usuário]** para atribuir o **[!UICONTROL Consultor de avaliação de entrega]** função interna.
+
+   ![](assets/ip_permissions_4.png)
+
+1. Selecione o **[!UICONTROL Usuário]** e clique em **[!UICONTROL Salvar]**.
+
+   ![](assets/ip_permissions_5.png)
+
++++
 
 ## Preparar o arquivo de plano de aquecimento de IP {#prepare-file}
 
@@ -264,5 +298,9 @@ Para criar um plano de aquecimento de IP, siga as etapas abaixo.
 1. Clique em **[!UICONTROL Criar]**. Todas as fases, execuções, colunas e seu conteúdo definido no arquivo que você carregou são automaticamente exibidas na [!DNL Journey Optimizer] interface.
 
    ![](assets/ip-warmup-plan-uploaded.png)
+
+   >[!NOTE]
+   >
+   >A variável **[!UICONTROL Direcionado]** mostra a soma de todos os perfis segmentados para cada execução, ou seja, todos os perfis de cada grupo de domínio que você definiu, incluindo o **Outros** coluna, se houver.
 
 Agora você está pronto para executar seu plano de aquecimento de IP. [Saiba mais](ip-warmup-execution.md)
