@@ -47,7 +47,7 @@ Depois que as superfícies de canal forem configuradas, você poderá selecioná
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Configurações da superfície de canal"
->abstract="Para criar ações, como emails de uma jornada ou campanha, primeiro crie uma superfície de canal que defina todas as configurações técnicas necessárias para suas mensagens. É necessário ter a permissão Gerenciar predefinições de mensagens para criar, editar e excluir superfícies de canal."
+>abstract="Para criar ações, como emails de uma jornada ou campanha, primeiro crie uma superfície de canal que defina todas as configurações técnicas necessárias para suas mensagens. É necessário ter a permissão Gerenciar predefinições de mensagens para criar, editar e excluir superfícies de canais."
 
 Para criar uma superfície de canal, siga estas etapas:
 

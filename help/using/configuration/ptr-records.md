@@ -12,7 +12,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="Registros PTR de subdomínios"
->abstract="Depois que o primeiro subdomínio é delegado ao Adobe no Journey Optimizer, os registros PTR são criados automaticamente."
+>abstract="Depois que o primeiro subdomínio é delegado à Adobe no Journey Optimizer, os registros PTR são criados automaticamente."
 
 ## Sobre registros PTR {#about-ptr-records}
 
