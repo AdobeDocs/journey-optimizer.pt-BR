@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução à composição de público
-description: Saiba mais sobre a composição de público
+title: Introdução à composição de público-alvo
+description: Saiba mais sobre a composição de público-alvo
 feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
 
 ---
 
-# Introdução à composição de público {#get-start-audience-composition}
+# Introdução à composição de público-alvo {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Criar uma composição"
->abstract="Crie um fluxo de trabalho de composição para combinar públicos existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos."
+>abstract="Crie um fluxo de trabalho de composição para combinar públicos-alvo existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos-alvo."
 
 >[!BEGINSHADEBOX]
 
@@ -28,9 +28,9 @@ Estas documentações fornecem informações detalhadas sobre como trabalhar com
 
 >[!ENDSHADEBOX]
 
-A composição do público permite criar **workflows de composição**, em que é possível combinar públicos existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos.
+A composição do público-alvo permite criar **workflows de composição**, em que é possível combinar públicos-alvo existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos-alvo.
 
-Depois de concluído, os **públicos resultantes** são salvos na Adobe Experience Platform junto com os públicos existentes e podem ser **aproveitados em campanhas** para direcionar clientes. [Saiba como trabalhar com campanhas](../campaigns/get-started-with-campaigns.md)
+Depois de concluído, os **públicos-alvo resultantes** são salvos na Adobe Experience Platform junto com os públicos-alvo existentes e podem ser **aproveitados em campanhas** para direcionar clientes. [Saiba como trabalhar com campanhas](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 
@@ -46,11 +46,11 @@ A composição de público-alvo é acessível no menu **[!UICONTROL Públicos-al
 
 * A guia **[!UICONTROL Visão geral]** fornece um painel dedicado com métricas principais relacionadas aos dados de público-alvo da sua organização. Para saber mais, consulte [Guia de painéis da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=pt-BR).
 
-* A guia **[!UICONTROL Procurar]** lista todos os públicos existentes armazenados na Adobe Experience Platform.
+* A guia **[!UICONTROL Procurar]** lista todos os públicos-alvo existentes armazenados na Adobe Experience Platform.
 
-* A guia **[!UICONTROL Composições]** permite criar workflows de composição em que é possível combinar e organizar públicos para criar novos.
+* A guia **[!UICONTROL Composições]** permite criar workflows de composição em que é possível combinar e organizar públicos-alvo para criar novos.
 
-Clique em cada cartão para saber como trabalhar com a composição de público:
+Clique em cada cartão para saber como trabalhar com a composição de público-alvo:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="create-compositions.md"><img alt="Criar workflows de composição" src="../assets/do-not-localize/ao-workflows.jpg"></a>
