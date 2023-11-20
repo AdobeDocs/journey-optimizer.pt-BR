@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
+source-git-commit: 1d7e8fde57d0397891aecad4979b1008a3c10a47
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 98%
+source-wordcount: '1730'
+ht-degree: 97%
 
 ---
 
@@ -46,6 +46,11 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 * Os arquivos de mídia para MMS podem ser incluídos por meio de um URL compatível. Verifique se o arquivo de mídia foi enviado separadamente.
 * A sincronização de feedback da mensagem não está disponível no momento para MMS.
 * O gerenciamento de consentimento opera no nível do canal SMS para MMS.
+
+## Grades de proteção de fragmentos {#fragments-guardrails}
+
+* Os fragmentos visuais só estão disponíveis para o canal de email.
+* Os fragmentos de expressão não estão disponíveis para os canais na Web e no aplicativo.
 
 ## Medidas de proteção de jornada {#journeys-guardrails}
 
