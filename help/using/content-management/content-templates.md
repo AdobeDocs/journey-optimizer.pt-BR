@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 12%
@@ -36,7 +36,7 @@ Você também pode criar e gerenciar modelos de conteúdo usando APIs. Para obte
 
 >[!CAUTION]
 >
->Para criar, editar e excluir modelos de conteúdo, você deve ter a **[!DNL Manage Library Items]** permissão incluída na **[!DNL Content Library Manager]** perfil do produto. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
+>Para criar, editar e excluir modelos de conteúdo, você deve ter a **[!DNL Manage library items]** permissão incluída na **[!DNL Content Library Manager]** perfil do produto. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## Acessar e gerenciar modelos {#access-manage-templates}
 
