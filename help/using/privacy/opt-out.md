@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1078'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Embora o **[!DNL Journey Optimizer]** forneça maneiras de gerenciar a opção d
 
 >[!NOTE]
 >
->Além disso, você pode aproveitar o Journey Optimizer **API REST de supressão** para controlar as mensagens de saída usando supressão e listas de permissões. [Saiba como trabalhar com a API REST de supressão](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=pt-BR)
+>Além disso, é possível aproveitar a **API REST de supressão** do Journey Optimizer para controlar as mensagens enviadas usando listas de supressão e de permissões. [Saiba como trabalhar com a API REST de supressão](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=pt-BR)
 
 
 Saiba como gerenciar a opção de não participação em emails e mensagens SMS do Journey Optimizer nestas seções:
