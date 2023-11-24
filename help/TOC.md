@@ -6,7 +6,7 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1712'
 ht-degree: 100%
 
@@ -310,10 +310,10 @@ ht-degree: 100%
       + [Uso do relatório de spam](using/content-management/spam-report.md)
 + Públicos-alvo, perfis e identidade{#audiences-profiles-identities}
    + Públicos-alvo {#audiences}
-      + [Introdução aos públicos](using/audience/about-audiences.md)
+      + [Introdução aos públicos-alvo](using/audience/about-audiences.md)
       + [Criar definições de segmento](using/audience/creating-a-segment-definition.md)
       + Compor públicos-alvo {#audience-orchestration}
-         + [Introdução à composição de público](using/audience/get-started-audience-orchestration.md)
+         + [Introdução à composição de público-alvo](using/audience/get-started-audience-orchestration.md)
          + [Criar workflows de composição](using/audience/create-compositions.md)
          + [Trabalhar com a tela de composição](using/audience/composition-canvas.md)
          + [Acessar e gerenciar públicos-alvo](using/audience/access-audiences.md)
@@ -356,7 +356,7 @@ ht-degree: 100%
    + Capacidade de entrega {#deliverability}
       + [Introdução à capacidade de entrega](using/reports/deliverability.md)
       + [Sobre a lista de supressão](using/reports/suppression-list.md)
-   + [Motivos de erro](using/reports/error-list.md)
+   + [Motivos do erro](using/reports/error-list.md)
    + [Alertas](using/reports/alerts.md)
    + [Trabalhar com o Customer Journey Analytics](using/reports/cja-ajo.md)
 + Gestão de decisões {#offer-decisioning}
@@ -498,8 +498,8 @@ ht-degree: 100%
          + [API de decisão](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [API de decisão do Edge](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API de decisão em lote](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ Offer Decisioning {#experience-decisioning}
-   + [Introdução ao Offer Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
++ Experience Decisioning {#experience-decisioning}
+   + [Introdução ao Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
    + Gerencie seus itens de decisão {#decision-items}
       + [Configurar o catálogo de itens](using/experience-decisioning/catalogs.md)
       + [Criar itens de decisão](using/experience-decisioning/items.md)
