@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: f64388673b5a3b2a8702026ce09b39e928ac2ab4
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 13%
+source-wordcount: '401'
+ht-degree: 18%
 
 ---
 
@@ -56,6 +56,10 @@ Neste exemplo, criaremos um público-alvo para direcionar todos os clientes que 
 
      ![](assets/add-events.png)
 
+     >[!NOTE]
+     >
+     >A Adobe recomenda não usar eventos abertos e enviá-los com segmentação de transmissão. Em vez disso, use sinais reais de atividade do usuário, como cliques, compras ou dados de beacon. Para frequência ou lógica de supressão, use regras de negócios em vez de enviar eventos. [Saiba mais](about-audiences.md#open-and-send-event-guardrails)
+
 1. À medida que você adiciona e configura novos campos no espaço de trabalho, a variável **[!UICONTROL Propriedades do público]** O painel é atualizado automaticamente com informações sobre os perfis estimados pertencentes ao público-alvo.
 
    ![](assets/segment-estimate.png)
@@ -66,6 +70,6 @@ O público-alvo agora pode ser usado em suas jornadas. Para obter mais informaç
 
 ## Vídeo explicativo{#video-segment}
 
-Entenda como o Journey Optimizer usa regras para gerar público-alvo e saiba como usar atributos, eventos e públicos-alvo existentes para criar um público-alvo.
+Entenda como o Journey Optimizer usa regras para gerar públicos-alvo e saiba como usar atributos, eventos e públicos-alvo já existentes para criar um público-alvo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

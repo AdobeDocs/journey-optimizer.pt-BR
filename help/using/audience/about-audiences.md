@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 92%
+source-wordcount: '939'
+ht-degree: 53%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 >title="Selecione o público-alvo da campanha"
 >abstract="Esta lista exibe todos os públicos-alvo disponíveis na Adobe Experience Platform. Selecione o público-alvo a ser direcionado pela campanha. A mensagem configurada na campanha será enviada a todas as pessoas pertencentes ao público-alvo selecionado. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)"
 
-O [!DNL Journey Optimizer] permite criar e aproveitar públicos-alvo da Adobe Experience Platform usando dados do Perfil do cliente em tempo real diretamente do menu **[!UICONTROL Públicos-alvo]** e usá-los em suas jornadas ou campanhas. Saiba mais na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR).
+O [!DNL Journey Optimizer] permite criar e aproveitar públicos-alvo da Adobe Experience Platform usando dados do Perfil do cliente em tempo real diretamente do menu **[!UICONTROL Públicos-alvo]** e usá-los em suas jornadas ou campanhas. Saiba mais na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
 
 ## Utilização de públicos-alvo no [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
@@ -53,24 +53,68 @@ Você pode selecionar em campanhas e jornadas qualquer público da Adobe Experie
 
 ## Métodos de avaliação de público-alvo{#evaluation-method-in-journey-optimizer}
 
-No Adobe Journey Optimizer, os públicos-alvo são gerados a partir das definições de segmento usando um dos dois métodos de avaliação:
+No Adobe Journey Optimizer, os públicos-alvo são gerados a partir das definições de segmento usando um dos três métodos de avaliação abaixo.
 
-* **Segmentação por transmissão**: a lista de perfis do público-alvo é mantida atualizada em tempo real à medida que novos dados fluem para o sistema.
++++ Segmentação de transmissão
 
-  A segmentação por transmissão é um processo contínuo de seleção de dados que atualiza os públicos-alvo em resposta à atividade do usuário. Depois que uma definição de segmento é criada e o público-alvo resultante é salvo, a definição de segmento é aplicada aos dados recebidos no Journey Optimizer. Isso significa que as pessoas físicas são adicionadas ou removidas do público à medida que os dados do perfil são alterados, garantindo que o público seja sempre relevante.
+A lista de perfis do público-alvo é mantida atualizada em tempo real à medida que novos dados fluem para o sistema.
 
-* **Segmentação em lote**: a lista de perfis do público-alvo é avaliada a cada 24 horas.
+A segmentação por transmissão é um processo contínuo de seleção de dados que atualiza os públicos-alvo em resposta à atividade do usuário. Depois que uma definição de segmento é criada e o público-alvo resultante é salvo, a definição de segmento é aplicada aos dados recebidos no Journey Optimizer. Isso significa que as pessoas físicas são adicionadas ou removidas do público-alvo à medida que os dados do perfil são alterados, garantindo que o público-alvo seja sempre relevante. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html#query-types){target="_blank"}
 
-  A segmentação em lote é uma alternativa à segmentação por transmissão que processa todos os dados de perfil de uma só vez através das definições de segmento. Isso cria um instantâneo do público-alvo que pode ser salvo e exportado para uso. No entanto, diferentemente da segmentação por transmissão, a segmentação em lote não atualiza continuamente a lista de públicos-alvo em tempo real, e os novos dados que chegam após o processamento do lote não serão refletidos no público-alvo até o próximo processamento do lote.
+>[!NOTE]
+>
+>Use os eventos corretos como critérios de segmentação de transmissão. [Saiba mais](#open-and-send-event-guardrails)
 
-A determinação entre a segmentação em lote e a segmentação por transmissão é feita pelo sistema para cada público-alvo, com base na complexidade e no custo da avaliação da regra de definição de segmento. É possível visualizar o método de avaliação para cada público-alvo na coluna **[!UICONTROL Método de avaliação]** da lista de públicos-alvo.
++++
 
++++ Segmentação em lote
+
+A lista de perfis do público-alvo é avaliada a cada 24 horas.
+
+A segmentação em lote é uma alternativa à segmentação por transmissão que processa todos os dados de perfil de uma só vez através das definições de segmento. Isso cria um instantâneo do público-alvo que pode ser salvo e exportado para uso. No entanto, diferentemente da segmentação por transmissão, a segmentação em lote não atualiza continuamente a lista de públicos-alvo em tempo real, e os novos dados que chegam após o processo em lote não serão refletidos no público-alvo até o próximo processo em lote. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
+
++++
+
++++ Segmentação de borda
+
+A segmentação de borda é a capacidade de avaliar segmentos no Adobe Experience Platform instantaneamente [na borda](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"}, enabling same-page and next-page personalization use cases. Currently only select query types can be evaluated with edge segmentation. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+
++++
+
+Se você souber qual método de avaliação deseja usar, selecione-o usando a lista suspensa. Você também pode clicar no ícone de navegação ícone da pasta com uma lupa para ver uma lista dos métodos de avaliação de definição de segmento disponíveis. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}
+
+![](assets/evaluation-methods.png)
+
+<!--The determination between batch segmentation and streaming segmentation is made by the system for each audience, based on the complexity and the cost of evaluating the segment definition rule. You can view the evaluation method for each audience in the **[!UICONTROL Evaluation method]** column of the audience list.
+    
 ![](assets/evaluation-method.png)
 
 >[!NOTE]
 >
->Se a coluna **[!UICONTROL Método de avaliação]** não for exibida, será necessário adicioná-la usando o botão de configuração na parte superior direita da lista.
+>If the **[!UICONTROL Evaluation method]** column does not display, you  need to add it using configuration button on the top right of the list.-->
 
 Depois de definir um público-alvo pela primeira vez, perfis serão adicionados ele quando se qualificarem.
 
 O preenchimento retroativo de dados anteriores no público-alvo pode levar até 24 horas. Depois que o público-alvo é preenchido retroativamente, ele será mantido atualizado continuamente e está sempre pronto para o direcionamento.
+
+### Uso do evento com segmentação por transmissão {#open-and-send-event-guardrails}
+
+A segmentação por transmissão é útil para personalização em tempo real com casos de uso de alto valor. No entanto, é importante [events](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} para usar como critérios de segmentação.
+
+Consequentemente, para o desempenho ideal da segmentação de transmissão, evite usar os seguintes eventos:
+
+* **Mensagem aberta** Evento de Tipo de Interação
+
+  Ao criar seu público-alvo, o uso de **Mensagem aberta** os eventos de interação se tornaram não confiáveis, pois não são indicadores reais da atividade do usuário e podem afetar negativamente o desempenho da segmentação. Saiba mais sobre o motivo disso [Publicação no blog do Adobe](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}.
+
+  Portanto, o Adobe recomenda não usar **Mensagem aberta** eventos de interação com segmentação por transmissão. Em vez disso, use sinais reais de atividade do usuário, como cliques, compras ou dados de beacon.
+
+* **Mensagem enviada** Evento de Status de Feedback
+
+  A variável **Mensagem enviada** o evento de feedback é usado com frequência para a verificação de frequência ou supressão antes do envio de um email. A Adobe recomenda evitá-lo, se possível, pois ocupa espaço na capacidade geral atual de quantos eventos podem ser transmitidos por segundo.
+
+  Portanto, para frequência ou lógica de supressão, use regras de negócios em vez de **Mensagem enviada** eventos de feedback. Observe que, em breve, limites de frequência diária para perfis individuais estarão disponíveis, complementando a cadência mensal existente para regras de negócios.
+
+>[!NOTE]
+>
+>Você pode usar **Mensagem aberta** e **Mensagem enviada** eventos na segmentação em lote sem preocupações com o desempenho.
