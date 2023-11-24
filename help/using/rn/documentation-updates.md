@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4103'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 ## Novembro de 2023 {#nov-2023}
 
-* A garantia que limita todas as ações personalizadas foi alterada de 150.000 chamadas em 30 segundos para 300.000 chamadas em um minuto. Além disso, o limite padrão não se aplica mais a cada endpoint. Agora, ele é executado por host e por sandbox. Por exemplo, em uma sandbox, se você tiver dois endpoints com o mesmo host (por exemplo: `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), o limite será aplicado a todos os endpoints no host adobe.com. &quot;endpoint1&quot; e &quot;endpoint2&quot; compartilharão a mesma configuração de limitação e fazer com que um endpoint atinja o limite terá impacto no outro endpoint. [Leia mais](../action/about-custom-action-configuration.md)
+* As medidas de proteção que limitam todas as ações personalizadas foi alterada de 150.000 chamadas em 30 segundos para 300.000 chamadas em um minuto. Além disso, o limite padrão não se aplica mais a cada ponto de acesso. Agora, é executado por host e por sandbox. Por exemplo, em uma sandbox, se você tiver dois pontos de acesso com o mesmo host (por exemplo: `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), o limite será aplicado a todos os pontos de acesso no host adobe.com. “pontodeacesso1” e “pontodeacesso2” compartilharão a mesma configuração de limitação e quando um ponto de acesso atingir o limite, isso terá impacto no outro. [Leia mais](../action/about-custom-action-configuration.md)
 
 ## Outubro de 2023 {#oct-2023}
 
