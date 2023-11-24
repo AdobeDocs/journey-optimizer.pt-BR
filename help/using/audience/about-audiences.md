@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '933'
 ht-degree: 53%
 
 ---
@@ -111,7 +111,7 @@ Consequentemente, para o desempenho ideal da segmentação de transmissão, evit
 
 * **Mensagem enviada** Evento de Status de Feedback
 
-  A variável **Mensagem enviada** o evento de feedback é usado com frequência para a verificação de frequência ou supressão antes do envio de um email. A Adobe recomenda evitá-lo, se possível, pois ocupa espaço na capacidade geral atual de quantos eventos podem ser transmitidos por segundo.
+  A variável **Mensagem enviada** o evento de feedback é usado com frequência para a verificação de frequência ou supressão antes do envio de um email. A Adobe recomenda evitá-lo, pois pressiona o desempenho e pode causar degradação do sistema.
 
   Portanto, para frequência ou lógica de supressão, use regras de negócios em vez de **Mensagem enviada** eventos de feedback. Observe que, em breve, limites de frequência diária para perfis individuais estarão disponíveis, complementando a cadência mensal existente para regras de negócios.
 
