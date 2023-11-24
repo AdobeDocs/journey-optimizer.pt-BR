@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4527'
 ht-degree: 100%
 
@@ -362,7 +362,7 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>Agora é possível criar fluxos de trabalho de composição para combinar públicos já existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, enriquecer...) para criar novos públicos. Os públicos-alvo recém-criados são salvos na Adobe Experience Platform junto com os públicos-alvo existentes e podem ser aproveitados nas campanhas do Journey Optimizer para direcionar clientes.</p>
+<p>Agora é possível criar fluxos de trabalho de composição para combinar públicos-alvo já existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, enriquecer...) para criar novos públicos-alvo. Os públicos-alvo recém-criados são salvos na Adobe Experience Platform junto com os públicos-alvo existentes e podem ser aproveitados nas campanhas do Journey Optimizer para direcionar clientes.</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Para obter mais informações, consulte a <a href="../audience/get-started-audience-orchestration.md">documentação detalhada</a>.</p>
 <p>A composição de público-alvo vem totalmente integrada ao novo menu “Públicos-alvo” da Adobe Experience Platform, que serve como um portal centralizado para públicos-alvo. Agora é possível usar uma página de navegação que inclui um novo painel com tendências de segmento e sobreposições para encontrar novos insights e explorar ferramentas organizacionais para organização em pastas e marcação. Incorporados nessa experiência estão controles de governança para rotulagem de público-alvo padronizada, bem como recursos de gerenciamento do ciclo de vida do público-alvo para gerenciar fluxos de trabalho de ativação. Com essa nova experiência de gerenciamento, agora é possível gerenciar públicos-alvo de maneira fácil e segura em um único local. Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR" target="_blank">Documentação da Adobe Experience Platform</a>.</p></p>
