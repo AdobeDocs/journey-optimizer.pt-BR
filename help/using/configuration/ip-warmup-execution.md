@@ -40,7 +40,7 @@ Cada fase é composta por várias execuções, às quais você atribui uma únic
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="Excluir públicos-alvo da campanha"
->abstract="Selecione campanhas para excluir os públicos da fase atual. Isso evita que perfis contatados anteriormente (em outras fases ou planos de aquecimento de IP) sejam direcionados novamente."
+>abstract="Selecione campanhas para excluir públicos-alvo delas da fase atual. Isso evita que perfis contatados anteriormente (em outras fases ou planos de aquecimento de IP) sejam direcionados novamente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
