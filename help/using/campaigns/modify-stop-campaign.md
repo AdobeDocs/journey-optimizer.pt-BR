@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: gerenciar campanhas, status, agendamento, acesso, otimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ As campanhas podem ter vários status:
 
 * **[!UICONTROL Rascunho]**: A campanha está sendo editada e não foi ativada.
 * **[!UICONTROL Ativando]**: a campanha está sendo ativada.
+* **[!UICONTROL Processando]** *(somente campanhas de email)*: a exportação de público-alvo foi concluída, a campanha está sendo publicada.
 * **[!UICONTROL Ao vivo]**: a campanha foi ativada.
 * **[!UICONTROL Agendado]**: a campanha é configurada para ser ativada em uma data de início específica.
 * **[!UICONTROL Parado]**: a campanha foi interrompida manualmente. Não é possível ativá-lo ou reutilizá-lo. [Saiba como interromper uma campanha](modify-stop-campaign.md#stop)
