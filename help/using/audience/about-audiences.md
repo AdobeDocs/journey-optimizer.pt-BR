@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
+source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 53%
@@ -51,7 +51,7 @@ Você pode selecionar em campanhas e jornadas qualquer público da Adobe Experie
 
 * Use a atividade **Condição** em uma jornada para criar condições com base na associação de público-alvo. [Saiba como usar públicos-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
 
-## Métodos de avaliação de público-alvo{#evaluation-method-in-journey-optimizer}
+## Métodos de avaliação de público-alvo {#evaluation-method-in-journey-optimizer}
 
 No Adobe Journey Optimizer, os públicos-alvo são gerados a partir das definições de segmento usando um dos três métodos de avaliação abaixo.
 
@@ -97,11 +97,11 @@ Depois de definir um público-alvo pela primeira vez, perfis serão adicionados 
 
 O preenchimento retroativo de dados anteriores no público-alvo pode levar até 24 horas. Depois que o público-alvo é preenchido retroativamente, ele será mantido atualizado continuamente e está sempre pronto para o direcionamento.
 
-### Uso do evento com segmentação por transmissão {#open-and-send-event-guardrails}
+### Uso do evento com segmentação por transmissão {#streaming-segmentation-events-guardrails}
 
 A segmentação por transmissão é útil para personalização em tempo real com casos de uso de alto valor. No entanto, é importante [events](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} para usar como critérios de segmentação.
 
-Consequentemente, para o desempenho ideal da segmentação de transmissão, evite usar os seguintes eventos:
+Consequentemente, para um desempenho ideal de segmentação por transmissão, evite usar os seguintes eventos:
 
 * **Mensagem aberta** Evento de Tipo de Interação
 
