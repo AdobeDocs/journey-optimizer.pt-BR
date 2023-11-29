@@ -11,9 +11,9 @@ keywords: IP, grupo, subdomínios, capacidade de entrega
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: ccee7f47301bf6ceb832b8586cccb30618e63955
+source-git-commit: 8eeceb48882ab6198628ce09a5a52aa8d8da4f26
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1535'
 ht-degree: 8%
 
 ---
@@ -112,27 +112,28 @@ A ideia é aumentar progressivamente o número de endereços direcionados em cad
 
 Os grupos de domínio principais predefinidos que você pode adicionar ao seu plano estão listados abaixo:
 
+<!--
 * Gmail
 * Adobe
 * WP
 * Comcast
 * Yahoo
 * Bigpond
-* Laranja
+* Orange
 * Softbank
 * Docomo
-* Internet Unificada
+* United Internet
 * Microsoft
 * KDDI
 * Italia Online
 * La Poste
 * Apple
+-->
 
 +++ Gmail gmail.com;google.com;googlemail.com;googlemail.co.uk
 +++
 
-+++ Adobe
-
++++ Adobe adobe.com
 +++
 
 +++WP;wp.pl;o2.pl
