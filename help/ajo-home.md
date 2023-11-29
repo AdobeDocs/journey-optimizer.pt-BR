@@ -5,10 +5,10 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 94d91d423516535ca57f5e89f98abcbffd281897
+source-git-commit: 1e6068111edeb8a07125d71712b401a4b57e6eb6
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 40%
+source-wordcount: '392'
+ht-degree: 38%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 40%
 
 ## Novidades
 
-Dê uma olhada nos últimos aprimoramentos do Journey Optimizer! Para obter uma lista abrangente de recursos, melhorias e correções, consulte a seção [Notas de versão](using/rn/release-notes.md).
+Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Journey Optimizer. Para obter uma lista abrangente de recursos, melhorias e correções, consulte a seção [Notas de versão](using/rn/release-notes.md).  Mantenha-se atualizado com as alterações mais recentes em nossa documentação, acessando o [página de atualizações da documentação](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
