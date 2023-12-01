@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: ht
 source-wordcount: '455'
 ht-degree: 100%
@@ -20,15 +20,15 @@ Como **Profissional de marketing** ou **Usuário de jornadas**, você é respons
 
 Consulte as seguintes seções para configurar a primeira jornada, adicionar ofertas e ativos e enviar mensagens:
 
-1. **Criar públicos**. O Journey Optimizer permite criar públicos-alvo por meio de definições de segmento diretamente no menu **Públicos-alvo** e aproveitá-los em suas jornadas.  Saiba mais sobre públicos-alvo [nesta página](../../audience/about-audiences.md). Saiba como criar definições de segmento [nesta amostra](../../audience/creating-a-segment-definition.md).
+1. **Criar públicos-alvo**. O Journey Optimizer permite criar públicos-alvo por meio de definições de segmento diretamente no menu **Públicos-alvo** e aproveitá-los em suas jornadas.  Saiba mais sobre públicos-alvo [nesta página](../../audience/about-audiences.md). Saiba como criar definições de segmento [nesta amostra](../../audience/creating-a-segment-definition.md).
 
 1. **Adicionar personalização e conteúdo dinâmico**. Aproveite a personalização do Journey Optimizer e os recursos de conteúdo dinâmico para adaptar sua mensagem ao seu público-alvo. Saiba mais sobre [personalização](../../personalization/personalize.md) e [conteúdo dinâmico](../../personalization/get-started-dynamic-content.md).
 
    ![](../assets/perso_ee2.png)
 
-1. **Criar e gerenciar ativos**. O [!DNL Adobe Experience Manager Assets Essentials] fornece um repositório único e centralizado de ativos que você pode usar para preencher suas mensagens. Saiba mais [nesta seção](../../content-management/assets-essentials.md).
+1. **Criar e gerenciar ativos**. O [!DNL Adobe Experience Manager Assets] fornece um repositório único e centralizado de ativos que você pode usar para preencher suas mensagens. Saiba mais [nesta seção](../../content-management/assets.md).
 
-1. **Adicionar ofertas**. Use o [!DNL Journey Optimizer] para entregar a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa. Depois de projetado, direcione os públicos com ofertas personalizadas. Saiba mais sobre Gestão de decisões [nesta seção](../../offers/get-started/starting-offer-decisioning.md).
+1. **Adicionar ofertas**. Use o [!DNL Journey Optimizer] para entregar a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa. Depois de projetado, direcione os públicos-alvo com ofertas personalizadas. Saiba mais sobre Gestão de decisões [nesta seção](../../offers/get-started/starting-offer-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
