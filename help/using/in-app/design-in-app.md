@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, design, formatação
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -104,7 +104,7 @@ A variável **[!UICONTROL Mídia]** permite adicionar mídia à mensagem no apli
 
 ![](assets/in_app_content_3.png)
 
-Digite o URL de mídia ou clique no link **[!UICONTROL Selecionar ativos]** ícone para adicionar diretamente os ativos armazenados na biblioteca de Ativos à mensagem no aplicativo. [Saiba mais sobre o gerenciamento de ativos](../content-management/assets-essentials.md).
+Digite o URL de mídia ou clique no link **[!UICONTROL Selecionar ativos]** ícone para adicionar diretamente os ativos armazenados na biblioteca de Ativos à mensagem no aplicativo. [Saiba mais sobre o gerenciamento de ativos](../content-management/assets.md).
 Você também pode adicionar um **[!UICONTROL Texto alternativo]** para aplicativos de leitura de tela.
 
 +++Mais opções com formatação avançada

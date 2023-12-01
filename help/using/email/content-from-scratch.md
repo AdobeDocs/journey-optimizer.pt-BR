@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: conteúdo, editor, email, iniciar
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 58%
@@ -92,7 +92,7 @@ Para começar a criar o conteúdo de , siga as etapas abaixo:
 
    ![](assets/email_designer_structure_component.png)
 
-1. No **[!UICONTROL Seletor de ativos]**, é possível selecionar diretamente os ativos armazenados no **[!UICONTROL Biblioteca de ativos]**. [Saiba mais sobre o gerenciamento de ativos](../content-management/assets-essentials.md)
+1. No **[!UICONTROL Seletor de ativos]**, é possível selecionar diretamente os ativos armazenados no **[!UICONTROL Biblioteca de ativos]**. [Saiba mais sobre o gerenciamento de ativos](../content-management/assets.md)
 
    Clique duas vezes na pasta que contém seus ativos. Arraste e solte-os em um componente de estrutura.
 

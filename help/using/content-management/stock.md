@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: estoque, imagens, integração, fotos
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 13%
 
 ---
@@ -30,7 +30,7 @@ Com o [!DNL Adobe Journey Optimizer], você pode fazer upload de imagens para se
 
 A variável **[!UICONTROL Localizar fotos do Adobe Stock]** e **[!UICONTROL Localizar Imagem Semelhante]** As opções do estão disponíveis para usuários com acesso a um Perfil de produto do AEM Assets Essentials.
 
-Para obter mais informações, consulte [Documentação essencial dos ativos](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
+Para obter mais informações, consulte [Documentação do Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## Inserir uma imagem de [!DNL Adobe Stock] {#add-stock-image}
 
@@ -96,7 +96,7 @@ Para licenciar e baixar a imagem, siga as etapas abaixo:
 
    ![](assets/stock_6.png)
 
-1. Selecione em qual pasta armazenar o ativo. Para obter mais informações sobre [!DNL Assets Essentials], consulte este [página](assets-essentials.md#get-started-assets-essentials).
+1. Selecione em qual pasta armazenar o ativo. Para obter mais informações sobre [!DNL Experience Manager Assets], consulte este [página](assets.md#get-started-assets).
 
 ## Tópicos relacionados{#stock-related-topics}
 

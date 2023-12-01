@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: componentes, designer de email, editor, email
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1406'
 ht-degree: 54%
 
 ---
@@ -78,7 +78,7 @@ Por exemplo, adicione um componente **[!UICONTROL Container]** e, em seguida, ad
 
 ## Botão {#button}
 
-Use o componente **[!UICONTROL Botão]** para inserir um ou vários botões no email e redirecionar o público do email para outra página.
+Use o componente **[!UICONTROL Botão]** para inserir um ou vários botões no email e redirecionar o público-alvo do email para outra página.
 
 1. De **[!UICONTROL Componentes de conteúdo]**, arraste e solte o componente **[!UICONTROL Botão]** em um **[!UICONTROL Componente Estrutura]**.
 
@@ -121,7 +121,7 @@ Use o componente de **[!UICONTROL Texto]** para inserir texto no email e ajustar
    * **Tamanho da fonte**: selecione o tamanho da fonte do texto em pixels.
    * **[!UICONTROL Alterar cor da fonte]**: escolha a cor da fonte.
    * **[!UICONTROL Inserir link]**: adicione qualquer tipo de link ao seu conteúdo.
-   * **[!UICONTROL Editar imagem]**: adicione uma imagem ou um ativo ao seu componente de texto. [Saiba mais sobre o gerenciamento de ativos](../content-management/assets-essentials.md)
+   * **[!UICONTROL Editar imagem]**: adicione uma imagem ou um ativo ao seu componente de texto. [Saiba mais sobre o gerenciamento de ativos](../content-management/assets.md)
    * **[!UICONTROL Alterar cor da fonte]**: escolha a cor da fonte.
    * **[!UICONTROL Adicionar personalização]**: adicione campos de personalização para personalizar o conteúdo dos dados de seus perfis. [Saiba mais sobre a personalização de conteúdo](../personalization/personalize.md)
    * **[!UICONTROL Mostrar o código-fonte]**: exibir o código-fonte do texto. Ele não pode ser modificado.
@@ -167,9 +167,9 @@ Use o **[!UICONTROL Imagem]** para inserir um arquivo de imagem do seu computado
 
    ![](assets/email_designer_image_content.png)
 
-1. No **[!UICONTROL Configurações]** clique em **[!UICONTROL Procurar]** para escolher um arquivo de imagem de seus ativos ou **[!UICONTROL Importar mídia]** para carregar um ativo no Assets Essentials.
+1. No **[!UICONTROL Configurações]** clique em **[!UICONTROL Procurar]** para escolher um arquivo de imagem de seus ativos ou **[!UICONTROL Importar mídia]** para fazer upload de um ativo para o Adobe Experience Manager Assets.
 
-   Para saber mais sobre [!DNL Assets Essentials], consulte [Documentação do Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
+   Para saber mais sobre [!DNL Adobe Experience Manager Assets], consulte [Documentação do Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >
@@ -186,7 +186,7 @@ Use o **[!UICONTROL Imagem]** para inserir um arquivo de imagem do seu computado
 
 1. Você também pode optar por **[!UICONTROL Encontrar fotos semelhantes do Stock]**. [Saiba mais](../content-management/stock.md)
 
-1. No **[!UICONTROL Estilos]** , ajuste os outros atributos de estilo, como margem, borda etc. ou adicione um link para redirecionar o seu público para outro conteúdo a partir do painel **[!UICONTROL Configurações do componente]**.
+1. No **[!UICONTROL Estilos]** , ajuste os outros atributos de estilo, como margem, borda etc. ou adicione um link para redirecionar o seu público-alvo para outro conteúdo a partir do painel **[!UICONTROL Configurações do componente]**.
 
 ## Social {#social}
 
