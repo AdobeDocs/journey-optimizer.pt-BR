@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
 workflow-type: tm+mt
 source-wordcount: '4527'
 ht-degree: 100%
@@ -81,7 +81,7 @@ Essa versão traz os novos recursos listados abaixo.
 <td>
 <p>Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos com clientes. Observe que esse recurso está disponível somente com o Sinch.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>Para obter mais informações, consulte a <a href="../sms/create-sms.md#sms-content">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../sms/create-sms.md#mms-content">documentação detalhada</a>.</p>
 </tr>
 </tbody>
 </table>
