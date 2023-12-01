@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: ht
 source-wordcount: '4527'
 ht-degree: 100%
@@ -254,7 +254,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Ativos**
 
-* Uma nova opção de ativos permite escolher o repositório dos ativos no Journey Optimizer. Você pode optar por um repositório do Assets Essentials ou um repositório do Assets as a Cloud Service, desde que seja o proprietário dessa solução. [Saiba mais](../content-management/assets-essentials.md)
+* Uma nova opção de ativos permite escolher o repositório dos ativos no Journey Optimizer. Você pode optar por um repositório do Assets Essentials ou um repositório do Assets as a Cloud Service, desde que seja o proprietário dessa solução. [Saiba mais](../content-management/assets.md)
 
 <!--**Decision management**
 
