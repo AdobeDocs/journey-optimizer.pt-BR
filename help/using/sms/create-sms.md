@@ -8,27 +8,34 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
+source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 15%
+source-wordcount: '948'
+ht-degree: 4%
 
 ---
 
-# Criar uma mensagem SMS/MMS {#create-sms}
+# Criar uma mensagem de texto (SMS/MMS){#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="Criar uma mensagem de SMS."
->abstract="Adicione sua mensagem SMS e comece a personalizá-la com o editor de expressão."
+>title="Criar uma mensagem de texto"
+>abstract="Para criar uma mensagem de texto (SMS/MMS), adicione uma ação de SMS em uma jornada ou campanha e comece a personalizá-la com o editor de expressão."
 
-## Adicionar uma mensagem SMS/MMS {#create-sms-journey-campaign}
+Você pode criar e enviar mensagens de texto (SMS) e multimídia (MMS) com o Adobe Journey Optimizer. Primeiro, é necessário adicionar uma ação SMS em uma jornada ou campanha e, em seguida, definir o conteúdo da mensagem de texto, conforme detalhado abaixo. O Adobe Journey Optimizer também oferece recursos para testar suas mensagens de texto antes de enviá-las, para que você possa verificar a renderização, os atributos de personalização e todas as outras configurações.
 
-Navegue pelas guias abaixo para saber como adicionar uma mensagem SMS em uma campanha ou jornada.
+>[!NOTE]
+>
+>De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing SMS/MMS devem conter uma maneira de os recipients cancelarem facilmente a inscrição. Para fazer isso, os destinatários de SMS podem responder com palavras-chave de aceitação e recusa. [Saiba como gerenciar a recusa](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
+
+## Adicionar uma mensagem de texto {#create-sms-journey-campaign}
+
+Navegue pelas guias abaixo para saber como adicionar uma mensagem de texto (SMS/MMS) em uma campanha ou jornada.
 
 >[!BEGINTABS]
 
->[!TAB Adicionar uma mensagem SMS a uma Jornada]
+>[!TAB Adicionar uma mensagem de texto a uma Jornada]
 
 1. Abra a jornada e arraste e solte uma atividade de SMS da **Ações** seção da paleta.
 
@@ -42,11 +49,11 @@ Navegue pelas guias abaixo para saber como adicionar uma mensagem SMS em uma cam
 
    A variável **[!UICONTROL Superficial]** é pré-preenchido, por padrão, com a última superfície usada para esse canal pelo usuário.
 
-Agora é possível começar a projetar o conteúdo da sua mensagem SMS usando o **[!UICONTROL Editar conteúdo]** botão. [Definir o conteúdo do SMS](#sms-content)
+Agora é possível começar a projetar o conteúdo da sua mensagem SMS usando o **[!UICONTROL Editar conteúdo]** conforme detalhado abaixo.
 
->[!TAB Adicionar uma mensagem SMS a uma campanha]
+>[!TAB Adicionar uma mensagem de texto a uma campanha]
 
-1. Crie uma nova campanha programada ou acionada por API, selecione **[!UICONTROL SMS]** como sua ação e escolha a opção **[!UICONTROL Superfície do aplicativo]** para usar. [Saiba mais sobre a configuração de SMS](sms-configuration.md).
+1. Crie uma nova campanha programada ou acionada por API, selecione **[!UICONTROL SMS]** como sua ação e escolha a opção **[!UICONTROL Superfície do aplicativo]** para usar. Saiba mais sobre a configuração de SMS em [esta página](sms-configuration.md).
 
    ![](assets/sms_create_3.png)
 
@@ -75,7 +82,7 @@ Agora é possível começar a projetar o conteúdo da sua mensagem SMS usando o 
    * Semanalmente
    * Mês
 
-Agora é possível começar a projetar o conteúdo da sua mensagem SMS usando o **[!UICONTROL Editar conteúdo]** botão. [Projetar o conteúdo de SMS](#sms-content)
+Agora é possível começar a projetar o conteúdo da sua mensagem de texto a partir do **[!UICONTROL Editar conteúdo]** conforme detalhado abaixo.
 
 >[!ENDTABS]
 
@@ -84,23 +91,25 @@ Agora é possível começar a projetar o conteúdo da sua mensagem SMS usando o 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definir o conteúdo do SMS"
->abstract="Personalize as mensagens SMS usando o editor de expressão para definir o conteúdo e incorporar elementos dinâmicos."
+>abstract="Personalize e personalize suas mensagens de texto (SMS/MMS) usando o Editor de expressão para definir o conteúdo e incorporar elementos dinâmicos."
 
-1. Na tela de configuração do jornada ou da campanha, clique no link **[!UICONTROL Editar conteúdo]** botão para configurar o conteúdo do SMS.
+Para configurar o conteúdo de SMS, siga as etapas abaixo. As configurações para MMS estão detalhadas em [nesta seção](#mms-content).
+
+1. Na tela de configuração do jornada ou da campanha, clique no link **[!UICONTROL Editar conteúdo]** botão para configurar o conteúdo da mensagem de texto.
 
 1. Clique em **[!UICONTROL Mensagem]** para abrir o editor de expressão.
 
    ![](assets/sms-content.png)
 
-1. Use o editor de expressão para definir o conteúdo e adicionar conteúdo dinâmico. Você pode usar qualquer atributo, como o nome do perfil ou a cidade. Saiba mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md) no Editor de expressão.
+1. Use o Editor de expressão para definir o conteúdo, adicionar personalização e conteúdo dinâmico. Você pode usar qualquer atributo, como o nome do perfil ou a cidade, por exemplo. Você também pode definir regras condicionais. Navegue até as seguintes páginas para saber mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md) no Editor de expressão.
 
-1. Depois de definir o conteúdo, você pode adicionar os URLs de rastreamento à mensagem. Para fazer isso, acesse o **[!UICONTROL Funções auxiliares]** e selecione **[!UICONTROL Auxiliares]**.
+1. Depois de definir o conteúdo, você pode adicionar URLs rastreados à mensagem. Para fazer isso, acesse o **[!UICONTROL Funções auxiliares]** e selecione **[!UICONTROL Auxiliares]**.
 
    Observe que para usar a função de redução de URL, primeiro você deve configurar um subdomínio que será vinculado à sua superfície. [Saiba mais](sms-subdomains.md)
 
    >[!CAUTION]
    >
-   > Para acessar e editar subdomínios SMS, você deve ter a **[!UICONTROL Gerenciar subdomínios de SMS]** permissão na sandbox de produção.
+   > Para acessar e editar subdomínios SMS, você deve ter a **[!UICONTROL Gerenciar subdomínios de SMS]** permissão na sandbox de produção. Saiba mais sobre permissões [nesta seção](../administration/high-low-permissions.md).
 
    ![](assets/sms_tracking_1.png)
 
@@ -110,22 +119,20 @@ Agora é possível começar a projetar o conteúdo da sua mensagem SMS usando o 
 
 1. No `originalUrl` cole o URL que deseja encurtar e clique em **[!UICONTROL Salvar]**.
 
-1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na visualização. Você pode usar **[!UICONTROL Simular conteúdo]** para visualizar seus URLs encurtados ou conteúdo personalizado.
-
-   ![](assets/sms-content-preview.png)
-
+1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na pré-visualização. Agora você pode testar e verificar o conteúdo da mensagem conforme detalhado em [nesta seção](#sms-mms-test).
 
 
 ## Definir o conteúdo MMS{#mms-content}
 
-Com o Canal SMS, você pode aprimorar sua comunicação enviando mensagens do serviço de mensagens multimídia (MMS), permitindo o compartilhamento de imagens, GIF ou vídeos com seus clientes.
+Você pode aprimorar sua comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), permitindo o compartilhamento de mídia, como vídeos, imagens, clipes de áudio e GIF e muito mais. Além disso, o MMS permite até 1600 caracteres de texto em sua mensagem.
 
 
 >[!NOTE]
 >
-> Este recurso está disponível no momento com o **Sinch** somente.
+>* Este recurso está disponível no momento com o **Sinch** somente.
 >
-> O canal MMS vem com algumas limitações listadas na [esta página](../start/guardrails.md#sms-guardrails).
+>* O canal MMS vem com algumas limitações listadas na [esta página](../start/guardrails.md#sms-guardrails).
+>
 
 Para criar conteúdo MMS, siga estas etapas:
 
@@ -143,22 +150,22 @@ Para criar conteúdo MMS, siga estas etapas:
 
    ![](assets/sms_create_7.png)
 
-1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na visualização. Você pode usar **[!UICONTROL Simular conteúdo]** para visualizar seus URLs encurtados ou conteúdo personalizado.
+1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na pré-visualização. Agora você pode testar e verificar o conteúdo da mensagem conforme detalhado abaixo.
 
 ## Teste e envie suas mensagens {#sms-mms-test}
 
-Agora você pode testar e enviar sua mensagem SMS para o público-alvo. [Saiba mais](send-sms.md)
+Use o **[!UICONTROL Simular conteúdo]** botão para visualizar o conteúdo da mensagem de texto, URLs encurtados e conteúdo personalizado.
 
+![](assets/sms-content-preview.png)
+
+Depois de executar os testes e validar o conteúdo, você pode enviar a mensagem de texto para o público-alvo. Essas etapas estão detalhadas em [esta página](send-sms.md)
 
 Depois de enviado, você pode medir o impacto do SMS nos relatórios do Campaign ou do Jornada. Para obter mais informações sobre relatórios, consulte [esta seção](../reports/campaign-global-report.md#sms-tab).
 
->[!NOTE]
->
->De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os recipients cancelarem facilmente a inscrição. Para fazer isso, os destinatários de SMS podem responder com palavras-chave de aceitação e recusa. [Saiba como gerenciar a recusa](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 **Tópicos relacionados**
 
-* [Pré-visualizar, testar e enviar sua mensagem SMS](send-sms.md)
+* [Pré-visualizar, testar e enviar sua mensagem de texto](send-sms.md)
 * [Configurar canal de SMS](sms-configuration.md)
-* [Relatório de SMS](../reports/journey-global-report.md#sms-global)
+* [Relatórios SMS/MMS](../reports/journey-global-report.md#sms-global)
 * [Adicionar uma mensagem em uma jornada](../building-journeys/journeys-message.md)
 * [Adicionar uma mensagem em uma campanha](../campaigns/create-campaign.md)

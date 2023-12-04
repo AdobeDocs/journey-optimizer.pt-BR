@@ -9,21 +9,21 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 898ad9dadd2d9e71e6881113730ac469a36257bc
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 24%
+source-wordcount: '1167'
+ht-degree: 15%
 
 ---
 
-# Email, no aplicativo, push, SMS{#add-a-message-in-a-journey}
+# Email, No aplicativo, Push, SMS/MMS{#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Atividade de mensagem"
->abstract="O Journey Optimizer vem com recursos de mensagem incorporados. Você pode simplesmente adicionar, em sua jornada, uma atividade de mensagem via push, SMS, mensagem no aplicativo ou email e definir as configurações e o conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
+>abstract="O Journey Optimizer vem com recursos de mensagem incorporados. Você pode simplesmente adicionar, em sua jornada, um push, uma mensagem de texto (SMS/MMS), uma atividade no aplicativo ou de mensagem de email e definir configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
 
-[!DNL Journey Optimizer] O vem com recursos de mensagem incorporados. Você pode simplesmente adicionar, em sua jornada, uma atividade de mensagem via push, SMS, mensagem no aplicativo ou email e definir as configurações e o conteúdo. Em seguida, ela é executada e enviada no contexto da jornada.
+[!DNL Journey Optimizer] O vem com recursos de mensagem incorporados. Você pode simplesmente adicionar, em sua jornada, um push, um SMS/MMS, uma atividade de mensagem no aplicativo ou por email e definir configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada.
 
 Você também pode configurar ações específicas para enviar mensagens para você:
 
@@ -74,7 +74,7 @@ Para adicionar uma mensagem em uma jornada, siga as etapas abaixo:
    <img alt="Validação" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>Criar mensagens SMS</strong></a>
+   <a href="../sms/create-sms.md"><strong>Criar mensagens de texto (SMS/MMS)</strong></a>
    </div>
    <p>
    </td>
@@ -106,7 +106,7 @@ Observe que, para a atividade no aplicativo, qualquer alteração pode ser feita
 
 ### Sobre a otimização de tempo de envio {#about-send-time}
 
-O recurso Otimização da hora de envio do Adobe Journey Optimizer, desenvolvido pelos serviços de IA da Adobe, pode prever o melhor momento para enviar um email ou uma mensagem por push para maximizar o engajamento com base nas taxas históricas de abertura e clique. Use nosso modelo de aprendizado de máquina para agendar tempos de envio personalizados para cada usuário a fim de aumentar as taxas de abertura e de clique de suas mensagens.
+O recurso de Otimização de tempo de envio da Adobe Journey Optimizer, viabilizado pelos serviços de IA de Adobe, pode prever o melhor momento para enviar um email ou mensagem por push. Isso maximiza o engajamento com base no histórico das taxas de abertura e de clique. Use nosso modelo de aprendizado de máquina para agendar tempos de envio personalizados para cada usuário a fim de aumentar as taxas de abertura e de clique de suas mensagens.
 
 O modelo de Otimização de tempo de envio assimila os dados do Adobe Journey Optimizer e observa as taxas de abertura (para email e push) e de clique (para email) no nível do usuário para determinar quando seus clientes têm maior probabilidade de interagir com suas mensagens. A Otimização de tempo de envio requer no mínimo um mês de dados de rastreamento de mensagens para fazer recomendações informadas. Para cada usuário, o sistema escolherá automaticamente o melhor momento usando as seguintes pontuações:
 
@@ -159,7 +159,7 @@ Ative a Otimização de hora de envio em um email ou mensagem por push seleciona
 
 ![](../building-journeys/assets/jo-message5.png)
 
-Para mensagens de email, escolha se deseja otimizar as aberturas de email ou click-throughs de email selecionando o botão de opção apropriado. O padrão das mensagens por push é a opção de abertura, pois cliques não são aplicáveis para mensagens por push.
+Para mensagens de email, escolha se deseja otimizar as aberturas de email ou click-throughs de email selecionando o botão de opção apropriado. As mensagens de push assumem o padrão da opção de aberturas, pois os cliques não se aplicam às mensagens de push.
 
 Você também pode optar por colocar entre colchetes os tempos de envio usados pelo sistema inserindo um valor para a variável **Enviar no próximo** opção. Se você escolher &quot;seis horas&quot; como o valor, [!DNL Journey Optimizer] O verificará cada perfil de usuário e escolherá o tempo de envio ideal dentro de seis horas a partir do tempo de execução da jornada.
 
