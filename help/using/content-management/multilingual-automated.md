@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introdução ao conteúdo multilíngue
-description: Saiba mais sobre Conteúdo multilíngue no Journey Optimizer
+description: Saiba mais sobre o conteúdo multilíngue no Journey Optimizer
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -10,21 +10,22 @@ level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 hide: true
 hidefromtoc: true
-source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
+exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
+source-git-commit: 75dd439fc221257a2480ea7bdcb94f56227ce1d3
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 1%
+source-wordcount: '1315'
+ht-degree: 3%
 
 ---
 
-# Criar conteúdo multilíngue com tradução automática {#multilingual-automated}
+# Criação do conteúdo multilíngue com tradução automática {#multilingual-automated}
 
 >[!BEGINSHADEBOX]
 
 **Índice**
 
 * [Introdução ao conteúdo multilíngue](multilingual-gs.md)
-* [Criar conteúdo multilíngue com tradução manual](multilingual-manual.md)
+* [Criação do conteúdo multilíngue com tradução manual](multilingual-manual.md)
 * **[Criar conteúdo multilíngue com tradução automática](multilingual-automated.md)**
 * [Relatório de campanha multilíngue](multilingual-report.md)
 
@@ -88,6 +89,14 @@ Inicie o projeto de tradução especificando o Local de destino, indicando o idi
    ![](assets/translation_project_3.png)
 
 1. Selecione na lista o seu **[!UICONTROL Localidade(s) de destino]** e escolher qual **[!UICONTROL Provedor de tradução]** que você deseja usar para cada local.
+
+   **[!UICONTROL Provedor de tradução]** as configurações podem ser acessadas no **[!UICONTROL Tradução]** no menu **[!UICONTROL Administração]** seção de menu.
+
+   >[!NOTE]
+   >
+   >O gerenciamento de contratos com o Provedor de tradução está fora do escopo desse recurso. Verifique se você tem um contrato válido e ativo em vigor com o Parceiro de tradução designado.
+   >
+   ></br>O Provedor de tradução detém a propriedade da qualidade do conteúdo traduzido.
 
 1. Clique em **[!UICONTROL Adicionar uma localidade]** quando você terminar de vincular o local do Target ao provedor de tradução correto. Em seguida, clique em **[!UICONTROL Salvar]**.
 
