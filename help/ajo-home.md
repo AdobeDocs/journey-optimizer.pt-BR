@@ -5,7 +5,7 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 480fbae74ab444253a2ebff441192d2670dbc538
+source-git-commit: 85c700271b49150a8796d58748a2d78b20587ee1
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 30%
@@ -30,7 +30,7 @@ As ferramentas de sandbox permitem copiar objetos em várias sandboxes aproveita
 
 Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos com clientes. Observe que esse recurso está disponível somente com o Sinch.
 
-[![imagem](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#sms-content)
+[![imagem](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#mms-content)
 
 >[!ENDTABS]
 
