@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 99%
+source-wordcount: '1717'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
    + [Notas de versão antecipadas](using/rn/e-release-notes.md)
    + [Notas de versão mais recentes](using/rn/release-notes.md)
    + Notas de versão anteriores {#previous-rn-new}
+      + [Notas de versão de 2023](using/rn/release-notes-2023.md)
       + [Notas de versão de 2022](using/rn/release-notes-2022.md)
       + [Notas de versão de 2021](using/rn/release-notes-2021.md)
    + [Atualizações de documentação](using/rn/documentation-updates.md)
@@ -215,12 +216,12 @@ ht-degree: 99%
       + [Fluxo de notificação por push](using/push/push-gs.md)
       + [Configurar canal de notificação por push](using/push/push-configuration.md)
       + [Fluxo de trabalho de início rápido de integração para dispositivos móveis](using/push/mobile-onboarding-wf.md)
-+ Canal SMS{#sms}
-   + [Introdução a SMS](using/sms/get-started-sms.md)
-   + [Criar uma mensagem de SMS.](using/sms/create-sms.md)
++ Canal SMS/MMS{#sms}
+   + [Introdução a mensagens de texto](using/sms/get-started-sms.md)
+   + [Criar uma mensagem de texto](using/sms/create-sms.md)
    + [Criação de uma mensagem MMS](using/sms/create-mms.md)
-   + [Verificação e envio de SMS](using/sms/send-sms.md)
-   + [Gerenciar opção de não participação de SMS](using/sms/sms-opt-out.md)
+   + [Verifique e envie suas mensagens de texto](using/sms/send-sms.md)
+   + [Gerenciar opção de não participação de mensagem de texto](using/sms/sms-opt-out.md)
    + [Configurar canal de SMS](using/sms/sms-configuration.md)
    + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
 + Correspondência direta {#direct-mail}
