@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: criar, enviar email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 8%
+source-wordcount: '919'
+ht-degree: 7%
 
 ---
 
@@ -21,13 +21,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Criação de email"
->abstract="Defina seus parâmetros de email em apenas três etapas simples."
+>abstract="Defina sua linha de assunto do email e abra o Designer de email para criar o conteúdo do email."
 
-Para criar um email no [!DNL Journey Optimizer], siga as etapas abaixo.
 
-## Criar um email em uma jornada ou campanha {#create-email-journey-campaign}
+## Adicionar uma ação de email {#email-action}
 
-Adicionar um **[!UICONTROL E-mail]** para uma jornada ou campanha, e siga as etapas abaixo de acordo com seu caso.
+Para criar um email no [!DNL Journey Optimizer], adicionar um **[!UICONTROL E-mail]** ação para uma jornada ou campanha. Siga as etapas abaixo, de acordo com seu caso.
 
 >[!BEGINTABS]
 
@@ -86,13 +85,13 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 
    ![](assets/email_campaign_edit_content.png)
 
-1. No **[!UICONTROL Cabeçalho]** seção do **[!UICONTROL Editar conteúdo]** tela, a variável **[!UICONTROL Do nome]**, **[!UICONTROL Do email]** e **[!UICONTROL CCO]** vem da superfície de email selecionada. [Saiba mais](email-settings.md) <!--check if same for journey-->
+   No **[!UICONTROL Cabeçalho]** seção do **[!UICONTROL Editar conteúdo]** tela, a variável **[!UICONTROL Do nome]**, **[!UICONTROL Do email]** e **[!UICONTROL CCO]** são configurados na superfície de email selecionada. [Saiba mais](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. Você pode adicionar uma linha de assunto. Digite o texto sem formatação diretamente no campo correspondente ou use [Editor de expressão](../personalization/personalization-build-expressions.md) para personalizar a linha de assunto.
+1. Adicione uma linha de assunto para a mensagem. Para configurar e personalizar a linha de assunto com o editor de expressão, clique no **[!UICONTROL Abrir caixa de diálogo de personalização]** ícone. [Saiba mais](../personalization/personalization-build-expressions.md)
 
-1. Clique em **[!UICONTROL Editar corpo do email]** botão para começar a criar o conteúdo usando o [!DNL Journey Optimizer] Designer de email. [Saiba mais](get-started-email-design.md)
+1. Clique em **[!UICONTROL Editar corpo do email]** botão para acessar o Email Designer e começar a criar seu conteúdo. [Saiba mais](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
