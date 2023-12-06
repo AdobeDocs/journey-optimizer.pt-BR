@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: criar, enviar email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
+source-git-commit: f2037f559826d7cca243092de200c97841c49b35
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '908'
 ht-degree: 7%
 
 ---
@@ -44,7 +44,7 @@ Para criar um email no [!DNL Journey Optimizer], adicionar um **[!UICONTROL E-ma
 
 >[!NOTE]
 >
->Se estiver enviando um email de uma jornada, você pode aproveitar o recurso de Otimização de tempo de envio do Adobe Journey Optimizer para prever o melhor momento para enviar a mensagem e maximizar o engajamento com base no histórico de taxas de abertura e de clique. [Saiba como trabalhar com a Otimização de tempo de envio](../building-journeys/journeys-message.md#send-time-optimization)
+>Você pode usar a opção Otimização de tempo de envio para prever o melhor momento para enviar a mensagem e maximizar o engajamento com base no histórico das taxas de abertura e de clique. [Saiba como trabalhar com a Otimização de tempo de envio](../building-journeys/journeys-message.md#send-time-optimization)
 
 Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
 
