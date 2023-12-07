@@ -10,10 +10,12 @@ level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 hide: true
 hidefromtoc: true
-source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
+exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
+badge: label="Beta" type="Informative"
+source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 26%
+source-wordcount: '135'
+ht-degree: 34%
 
 ---
 
@@ -24,8 +26,8 @@ ht-degree: 26%
 **Índice**
 
 * **[Introdução ao conteúdo multilíngue](multilingual-gs.md)**
-* [Criar conteúdo multilíngue com tradução manual](multilingual-manual.md)
-* [Criar conteúdo multilíngue com tradução automática](multilingual-automated.md)
+* [Criação do conteúdo multilíngue com tradução manual](multilingual-manual.md)
+* [Criação do conteúdo multilíngue com tradução automática](multilingual-automated.md)
 * [Relatório de campanha multilíngue](multilingual-report.md)
 
 >[!ENDSHADEBOX]
