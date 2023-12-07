@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 40%
+ht-degree: 31%
 
 ---
 
@@ -23,18 +23,11 @@ ht-degree: 40%
 >title="Criar regras de decisão"
 >abstract="As regras de decisão permitem definir o público-alvo dos itens de decisão aplicando restrições diretamente no nível do item de decisão ou em uma estratégia de seleção específica. Isso permite controlar com precisão quais itens devem ser apresentados a quem."
 
->[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX &quot;O que você encontrará neste guia de documentação&quot;]
 
-O que há neste guia de documentação:
-
-* [Introdução ao Offer Decisioning](gs-experience-decisioning.md)
-* Gerencie seus itens de decisão
-   * [Configurar o catálogo de itens](catalogs.md)
-   * [Criar itens de decisão](items.md)
-   * [Gerenciar coleções de itens](collections.md)
-* Configurar a seleção de itens
-   * **[Criar regras de decisão](rules.md)**
-   * [Criar métodos de classificação](ranking.md)
+* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
+* Gerencie seus itens de decisão: [Configurar o catálogo de itens](catalogs.md) - [Criar itens de decisão](items.md) - [Gerenciar coleções de itens](collections.md)
+* Configurar a seleção dos itens: **[Criar regras de decisão](rules.md)** - [Criar métodos de classificação](ranking.md)
 * [Criar estratégias de seleção](selection-strategies.md)
 * [Criar políticas de decisão](create-decision.md)
 

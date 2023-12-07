@@ -1,5 +1,5 @@
 ---
-title: Introdução ao Offer Decisioning
+title: Introdução ao Experience Decisioning
 description: Saiba mais sobre o Experience Decisioning
 feature: Experience Decisioning
 topic: Integrations
@@ -9,27 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 18%
+ht-degree: 7%
 
 ---
 
-# Introdução ao Offer Decisioning {#get-started-experience-decisioning}
+# Introdução ao Experience Decisioning {#get-started-experience-decisioning}
 
->[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX &quot;O que você encontrará neste guia de documentação&quot;]
 
-O que há neste guia de documentação:
-
-* **[Introdução ao Offer Decisioning](gs-experience-decisioning.md)**
-* Gerencie seus itens de decisão
-   * [Configurar o catálogo de itens](catalogs.md)
-   * [Criar itens de decisão](items.md)
-   * [Gerenciar coleções de itens](collections.md)
-* Configurar a seleção de itens
-   * [Criar regras de decisão](rules.md)
-   * [Criar métodos de classificação](ranking.md)
+* **[Introdução ao Experience Decisioning](gs-experience-decisioning.md)**
+* Gerencie seus itens de decisão: [Configurar o catálogo de itens](catalogs.md) - [Criar itens de decisão](items.md) - [Gerenciar coleções de itens](collections.md)
+* Configurar a seleção dos itens: [Criar regras de decisão](rules.md) - [Criar métodos de classificação](ranking.md)
 * [Criar estratégias de seleção](selection-strategies.md)
 * [Criar políticas de decisão](create-decision.md)
 
@@ -45,7 +38,7 @@ O Experience Decisioning simplifica a personalização oferecendo um catálogo c
 
 Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada por meio do novo canal de experiência baseado em código, agora acessível nas campanhas do Journey Optimizer.
 
-**Limitações:**
+**Limitações**
 
 * As políticas de decisão estão disponíveis para uso somente em campanhas de experiência baseadas em código.
 * Por enquanto, o limite de frequência não está disponível no Experience Decisioning.

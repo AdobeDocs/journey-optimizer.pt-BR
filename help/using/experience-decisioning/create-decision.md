@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 19%
+source-wordcount: '1290'
+ht-degree: 14%
 
 ---
 
@@ -24,18 +24,11 @@ ht-degree: 19%
 >abstract="As políticas de decisão aproveitam o mecanismo do Offer Decisioning para escolher o melhor conteúdo a ser entregue, dependendo do público-alvo."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=pt-BR" text="Sobre o Offer Decisioning"
 
->[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX &quot;O que você encontrará neste guia de documentação&quot;]
 
-O que há neste guia de documentação:
-
-* [Introdução ao Offer Decisioning](gs-experience-decisioning.md)
-* Gerencie seus itens de decisão
-   * [Configurar o catálogo de itens](catalogs.md)
-   * [Criar itens de decisão](items.md)
-   * [Gerenciar coleções de itens](collections.md)
-* Configurar a seleção de itens
-   * [Criar regras de decisão](rules.md)
-   * [Criar métodos de classificação](ranking.md)
+* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
+* Gerencie seus itens de decisão: [Configurar o catálogo de itens](catalogs.md) - [Criar itens de decisão](items.md) - [Gerenciar coleções de itens](collections.md)
+* Configurar a seleção dos itens: [Criar regras de decisão](rules.md) - [Criar métodos de classificação](ranking.md)
 * [Criar estratégias de seleção](selection-strategies.md)
 * **[Criar políticas de decisão](create-decision.md)**
 
@@ -86,7 +79,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu s
 
    ![](assets/decision-code-based-details.png)
 
-1. Selecione o número de itens que você deseja retornar. Por exemplo, se você selecionar 2, as 2 melhores ofertas elegíveis serão apresentadas para a superfície atual. Clique em **[!UICONTROL Próximo]**
+1. Selecione o número de itens que você deseja retornar. Por exemplo, se você selecionar 2, as 2 melhores ofertas qualificadas serão apresentadas para a superfície atual. Clique em **[!UICONTROL Próxima]**
 
 1. Use o **[!UICONTROL Adicionar estratégia]** botão para definir as estratégias de seleção para sua política de decisão. Cada estratégia consiste em uma coleção de ofertas associada a uma restrição de qualificação e um método de classificação para determinar as ofertas a serem exibidas. [Saiba mais](selection-strategies.md)
 

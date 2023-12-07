@@ -8,30 +8,22 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 18%
+source-wordcount: '394'
+ht-degree: 11%
 
 ---
 
 # Caso de uso de decisão de experiência {#experience-decisioning-uc}
 
->[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX &quot;O que você encontrará neste guia de documentação&quot;]
 
-O que há neste guia de documentação:
-
-* [Introdução ao Offer Decisioning](gs-experience-decisioning.md)
-* Gerencie seus itens de decisão
-   * [Configurar o catálogo de itens](catalogs.md)
-   * [Criar itens de decisão](items.md)
-   * [Gerenciar coleções de itens](collections.md)
-* Configurar a seleção de itens
-   * [Criar regras de decisão](rules.md)
-   * [Criar métodos de classificação](ranking.md)
+* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
+* Gerencie seus itens de decisão: [Configurar o catálogo de itens](catalogs.md) -[Criar itens de decisão](items.md) - [Gerenciar coleções de itens](collections.md)
+* Configurar a seleção dos itens: [Criar regras de decisão](rules.md) - [Criar métodos de classificação](ranking.md)
 * [Criar estratégias de seleção](selection-strategies.md)
 * [Criar políticas de decisão](create-decision.md)
-* **[Aprenda mais por meio de um caso de uso](experience-decisioning-uc.md)**
 
 >[!ENDSHADEBOX]
 

@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 33%
+source-wordcount: '1007'
+ht-degree: 26%
 
 ---
 
@@ -24,18 +24,11 @@ ht-degree: 33%
 >abstract="O Journey Optimizer permite gerar ofertas de marketing, conhecidas como itens de decisão, que você pode criar e organizar em catálogos e coleções centralizados. Atualmente, todos os itens de decisão criados são consolidados em um único catálogo de “Ofertas”. Nessa tela, você também pode acessar o esquema do catálogo clicando em **Editar esquema** e criar atributos personalizados para itens de decisão."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=pt-BR" text="Configurar o catálogo de itens"
 
->[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX &quot;O que você encontrará neste guia de documentação&quot;]
 
-O que há neste guia de documentação:
-
-* [Introdução ao Offer Decisioning](gs-experience-decisioning.md)
-* Gerencie seus itens de decisão
-   * [Configurar o catálogo de itens](catalogs.md)
-   * **[Criar itens de decisão](items.md)**
-   * [Gerenciar coleções de itens](collections.md)
-* Configurar a seleção de itens
-   * [Criar regras de decisão](rules.md)
-   * [Criar métodos de classificação](ranking.md)
+* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
+* Gerencie seus itens de decisão: [Configurar o catálogo de itens](catalogs.md) - **[Criar itens de decisão](items.md)** - [Gerenciar coleções de itens](collections.md)
+* Configurar a seleção dos itens: [Criar regras de decisão](rules.md) - [Criar métodos de classificação](ranking.md)
 * [Criar estratégias de seleção](selection-strategies.md)
 * [Criar políticas de decisão](create-decision.md)
 
@@ -99,11 +92,11 @@ Para criar um item de decisão, siga estas etapas:
 
    ![](assets/item-constraints.png)
 
-   * Para limitar a apresentação do item de decisão aos membros de um ou vários públicos-alvo da Adobe Experience Platform, selecione o **[!UICONTROL Visitantes que se encaixam em um ou vários públicos-alvo]** e, em seguida, adicione um ou vários públicos-alvo do painel esquerdo e combine-os usando a **[!UICONTROL E]** / **[!UICONTROL Ou]** operadores lógicos. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md).
+   * Para limitar a apresentação do item de decisão aos membros de um ou vários públicos-alvo da Adobe Experience Platform, selecione o **[!UICONTROL Visitantes que se encaixam em um ou vários públicos-alvo]** e, em seguida, adicione um ou vários públicos-alvo do painel esquerdo e combine-os usando a **[!UICONTROL E]** / **[!UICONTROL Ou]** operadores lógicos. [Saiba mais sobre públicos](../audience/about-audiences.md).
 
    * Para associar uma regra de decisão específica ao item de decisão, selecione **[!UICONTROL Por regra]**, em seguida, arraste a regra desejada do painel esquerdo para a área central. [Saiba mais sobre regras de decisão](rules.md).
 
-   Ao selecionar públicos-alvo ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
+   Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
 
    >[!NOTE]
    >
@@ -130,6 +123,6 @@ Selecionar um item de decisão ou clicar no botão de reticências permite as a�
 
   >[!IMPORTANT]
   >
-  >Depois de excluído, o item de decisão e seu conteúdo não estarão mais acessíveis. Esta ação não pode ser desfeita. Se o item de decisão for usado em uma coleção ou uma decisão, ele não poderá ser excluído. Você deve remover o item de decisão de qualquer objeto primeiro.
+  >Depois de excluído, o item de decisão e seu conteúdo não estarão mais acessíveis. Essa ação não pode ser desfeita. Se o item de decisão for usado em uma coleção ou uma decisão, ele não poderá ser excluído. Você deve remover o item de decisão de qualquer objeto primeiro.
 
 * **[!UICONTROL Arquivar]**: define o status do item de decisão como **[!UICONTROL Arquivado]**. O item de decisão ainda está disponível na lista, mas você não pode definir seu status novamente como **[!UICONTROL Rascunho]** ou **[!UICONTROL Aprovado]**. Você só pode duplicá-la ou excluí-la.

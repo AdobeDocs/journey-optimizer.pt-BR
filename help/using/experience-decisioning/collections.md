@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 61%
+ht-degree: 50%
 
 ---
 
@@ -33,18 +33,11 @@ ht-degree: 61%
 >title="Escolha uma coleção"
 >abstract="Selecione a coleção que contém as ofertas a serem consideradas. Esta etapa é obrigatória ao criar uma estratégia de seleção. As coleções permitem categorizar e agrupar itens de decisão de acordo com as suas preferências. Por exemplo, você pode criar uma coleção que inclui todos os itens de decisão com o valor “Yoga” no atributo personalizado “Categoria”."
 
->[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX &quot;O que você encontrará neste guia de documentação&quot;]
 
-O que há neste guia de documentação:
-
-* [Introdução ao Offer Decisioning](gs-experience-decisioning.md)
-* Gerencie seus itens de decisão
-   * [Configurar o catálogo de itens](catalogs.md)
-   * [Criar itens de decisão](items.md)
-   * **[Gerenciar coleções de itens](collections.md)**
-* Configurar a seleção de itens
-   * [Criar regras de decisão](rules.md)
-   * [Criar métodos de classificação](ranking.md)
+* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
+* Gerencie seus itens de decisão: [Configurar o catálogo de itens](catalogs.md) - [Criar itens de decisão](items.md) - **[Gerenciar coleções de itens](collections.md)**
+* Configurar a seleção dos itens: [Criar regras de decisão](rules.md) - [Criar métodos de classificação](ranking.md)
 * [Criar estratégias de seleção](selection-strategies.md)
 * [Criar políticas de decisão](create-decision.md)
 

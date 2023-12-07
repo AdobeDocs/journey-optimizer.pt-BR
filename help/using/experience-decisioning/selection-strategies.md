@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 27%
+source-wordcount: '773'
+ht-degree: 19%
 
 ---
 
@@ -31,18 +31,11 @@ ht-degree: 27%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=pt-BR" text="Usar públicos-alvo"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=pt-BR" text="Usar regras de decisão"
 
->[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX &quot;O que você encontrará neste guia de documentação&quot;]
 
-O que há neste guia de documentação:
-
-* [Introdução ao Offer Decisioning](gs-experience-decisioning.md)
-* Gerencie seus itens de decisão
-   * [Configurar o catálogo de itens](catalogs.md)
-   * [Criar itens de decisão](items.md)
-   * [Gerenciar coleções de itens](collections.md)
-* Configurar a seleção de itens
-   * [Criar regras de decisão](rules.md)
-   * [Criar métodos de classificação](ranking.md)
+* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
+* Gerencie seus itens de decisão: [Configurar o catálogo de itens](catalogs.md) - [Criar itens de decisão](items.md) - [Gerenciar coleções de itens](collections.md)
+* Configurar a seleção dos itens: [Criar regras de decisão](rules.md) - [Criar métodos de classificação](ranking.md)
 * **[Criar estratégias de seleção](selection-strategies.md)**
 * [Criar políticas de decisão](create-decision.md)
 
@@ -83,6 +76,8 @@ Para criar uma estratégia de seleção, siga as etapas abaixo.
    ![](assets/strategy-create-screen.png)
 
 1. Selecione o [coleção](collections.md) que contém as ofertas a serem consideradas.
+
+1. Selecionar a oferta [coleção](collections.md) que contém as ofertas a serem consideradas.
 
 1. Use o **[!UICONTROL Elegibilidade]** para restringir a seleção de ofertas para essa estratégia de seleção.
 
