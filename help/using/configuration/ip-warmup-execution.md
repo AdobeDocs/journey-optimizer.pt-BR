@@ -10,11 +10,12 @@ level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
 hide: true
 hidefromtoc: true
+badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 15%
+source-wordcount: '2141'
+ht-degree: 14%
 
 ---
 
@@ -332,7 +333,7 @@ Siga as etapas [acima](#define-phases) para definir as fases do novo plano.
 >
 >Os detalhes do plano de aquecimento de IP serão alterados conforme o arquivo recém-carregado. As execuções executadas anteriormente (independentemente de suas [status](#monitor-plan)) não são afetadas.
 
-Vamos ver um exemplo:
+Vejamos um exemplo:
 
 * Com o plano inicial de aquecimento de IP, a Fase 2 tinha 9 execuções.
 

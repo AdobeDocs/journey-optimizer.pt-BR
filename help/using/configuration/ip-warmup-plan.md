@@ -10,11 +10,12 @@ level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
 hide: true
 hidefromtoc: true
+badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 94a3eb47d3b1cd8bafe146f65843acf8393fa69c
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 8%
+source-wordcount: '1522'
+ht-degree: 7%
 
 ---
 

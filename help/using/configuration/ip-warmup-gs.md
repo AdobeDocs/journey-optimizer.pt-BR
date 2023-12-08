@@ -10,22 +10,16 @@ level: Experienced
 keywords: IP, capacidade de entrega
 hide: true
 hidefromtoc: true
+badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 91%
 
 ---
 
 # Introdução aos planos de aquecimento de IP {#ip-warmup-gs}
-
-<!--
->[!CONTEXTUALHELP]
->id="ajo_admin_ip_warmup_plan"
->title="Define your IP warmup plan"
->abstract="You can perform IP warmup workflows directly from the Journey Optimizer interface in a standardized and efficient way that follows the best practices for optimal deliverability."
--->
 
 >[!BEGINSHADEBOX]
 
@@ -43,6 +37,8 @@ O que há neste guia de documentação:
 >O recurso de aquecimento de IP está disponível no momento como um beta somente para usuários(as) selecionados. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
 
 Com o [!DNL Journey Optimizer], é possível executar facilmente fluxos de trabalho de aquecimento de IP diretamente da interface, de forma padronizada e eficiente, seguindo as práticas recomendadas para uma capacidade de entrega ideal.
+
+➡️ [Saiba como criar e executar um plano de aquecimento de IP neste vídeo](#video)
 
 >[!CAUTION]
 >
@@ -75,3 +71,9 @@ As principais etapas para implementar um plano de aquecimento de IP são as segu
 1. Crie um plano de aquecimento de IP no [!DNL Journey Optimizer] e faça upload da planilha do Excel preparada com a ajuda do consultor(a) de capacidade de entrega. [Saiba mais](ip-warmup-plan.md)
 
 1. Selecione uma campanha para cada fase do plano e ative as execuções correspondentes. [Saiba mais](ip-warmup-execution.md)
+
+## Vídeo explicativo {#video}
+
+Saiba como criar e executar um plano de aquecimento de IP.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)
