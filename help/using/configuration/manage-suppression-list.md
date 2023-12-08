@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: supressão, lista, rejeição, email, otimizador, quarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 23%
+source-wordcount: '1599'
+ht-degree: 21%
 
 ---
 
@@ -28,9 +28,9 @@ Saiba mais sobre o conceito e o uso da lista de supressão no [nesta seção](..
 >
 >O Adobe mantém uma lista atualizada de endereços inválidos conhecidos que comprovadamente prejudicam a reputação de engajamento e mala direta e garante que os emails não sejam entregues a eles. Essa lista é gerenciada em uma lista de supressão global comum a todos os clientes da Adobe. Os endereços e os nomes de domínio contidos na lista de supressão global estão ocultos. Somente o número de destinatários excluídos é indicado nos relatórios de entrega.
 
-Além disso, você pode aproveitar o Journey Optimizer **API REST de supressão** para controlar as mensagens de saída usando supressão e listas de permissões. [Saiba como trabalhar com a API REST de supressão](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=pt-BR)
+Além disso, você pode aproveitar o Journey Optimizer **API REST de supressão** para controlar as mensagens de saída usando supressão e listas de permissões. [Saiba como trabalhar com a API REST de supressão](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
-## Acessar a lista de supressão  {#access-suppression-list}
+## Acessar a lista de supressão {#access-suppression-list}
 
 Para acessar a lista detalhada de domínios e endereços de email excluídos, navegue até **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** e selecione **[!UICONTROL Lista de supressão]**.
 
@@ -74,7 +74,7 @@ Os possíveis motivos para uma falha de delivery são:
 | Motivo | Descrição | Categoria |
 | --- | --- | --- |
 | **[!UICONTROL Destinatário inválido]** | O destinatário é inválido ou não existe. | Grave |
-| **[!UICONTROL Rejeição temporária]** | A mensagem teve rejeição temporária por um motivo diferente dos erros temporários listados nesta tabela, como ao enviar acima da taxa permitida recomendada por um ISP. | Suave |
+| **[!UICONTROL Rejeição leve]** | A mensagem teve rejeição temporária por um motivo diferente dos erros temporários listados nesta tabela, como ao enviar acima da taxa permitida recomendada por um ISP. | Suave |
 | **[!UICONTROL Falha de DNS]** | A mensagem foi rejeitada devido a uma falha de DNS. | Suave |
 | **[!UICONTROL Caixa de entrada cheia]** | A mensagem foi rejeitada porque a caixa de entrada do destinatário está cheia e não pode receber mais mensagens. | Suave |
 | **[!UICONTROL Retransmissão negada]** | A mensagem foi bloqueada pelo destinatário porque a retransmissão não é permitida. | Suave |
