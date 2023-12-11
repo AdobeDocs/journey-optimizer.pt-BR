@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -217,12 +217,12 @@ ht-degree: 97%
       + [Configurar canal de notificação por push](using/push/push-configuration.md)
       + [Fluxo de trabalho de início rápido de integração para dispositivos móveis](using/push/mobile-onboarding-wf.md)
 + Canal SMS/MMS{#sms}
-   + [Introdução a mensagens de texto](using/sms/get-started-sms.md)
-   + [Criar uma mensagem de texto](using/sms/create-sms.md)
+   + [Introdução a mensagem de texto](using/sms/get-started-sms.md)
+   + [Criação de uma mensagem de texto](using/sms/create-sms.md)
    + [Criação de uma mensagem MMS](using/sms/create-mms.md)
-   + [Verifique e envie suas mensagens de texto](using/sms/send-sms.md)
-   + [Gerenciar opção de não participação de mensagem de texto](using/sms/sms-opt-out.md)
-   + [Configurar canal de SMS](using/sms/sms-configuration.md)
+   + [Verificação e envio de suas mensagens de texto](using/sms/send-sms.md)
+   + [Gerenciamento da opção de não participação de mensagem de texto](using/sms/sms-opt-out.md)
+   + [Configuração de canal de SMS](using/sms/sms-configuration.md)
    + [Configurar os subdomínios de SMS](using/sms/sms-subdomains.md)
 + Correspondência direta {#direct-mail}
    + [Introdução à correspondência direta](using/direct-mail/get-started-direct-mail.md)
@@ -234,8 +234,8 @@ ht-degree: 97%
    + Configurar o canal web {#configure-web-channel}
       + [Pré-requisitos do canal web](using/web/web-prerequisites.md)
       + [Configurar subdomínios da Web](using/web/web-delegated-subdomains.md)
-   + [Criação de experiências da Web](using/web/create-web.md)
-   + Páginas da Web de autor {#author-web-pages}
+   + [Criação de experiências da web](using/web/create-web.md)
+   + Criação de páginas da web {#author-web-pages}
       + [Editar conteúdo da página da Web](using/web/edit-web-content.md)
       + [Gerenciar modificações](using/web/manage-web-modifications.md)
       + [Monitorar suas campanhas da Web](using/web/monitor-web-campaigns.md)
@@ -269,8 +269,8 @@ ht-degree: 97%
       + [Criação do conteúdo multilíngue com tradução automática](using/content-management/multilingual-automated.md)
       + [Relatório de campanha multilíngue](using/content-management/multilingual-report.md)
    + Ativos/imagens {#assets-images}
-      + [Trabalhar com o Experience Manager Assets](using/content-management/assets.md)
-      + [Trabalhar com o Adobe Stock](using/content-management/stock.md)
+      + [Trabalho com o Experience Manager Assets](using/content-management/assets.md)
+      + [Trabalho com o Adobe Stock](using/content-management/stock.md)
    + Personalização {#personalization}
       + [Introdução à personalização](using/personalization/personalize.md)
       + [Contextos de personalização](using/personalization/personalization-contexts.md)
@@ -543,7 +543,7 @@ ht-degree: 97%
    + [Configurar regras de frequência](using/configuration/frequency-rules.md)
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
-      + Integrar a sistemas externos {#external-systems}
+      + Integração a sistemas externos {#external-systems}
          + [Integração das jornadas com sistemas externos](using/configuration/external-systems.md)
          + [API de limitação](using/configuration/capping.md)
          + [API de limitação](using/configuration/throttling.md)
