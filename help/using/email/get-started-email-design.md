@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 keywords: email, design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: tm+mt
-source-wordcount: '479'
+workflow-type: ht
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ Depois de [adicionar um email](create-email.md) em uma jornada ou campanha, voc�
 
 1. Na página inicial do Designer de email, escolha uma das seguintes opções para criar o design do email:
 
-   * **Crie o design do email do zero** por meio da interface do Designer de email e aproveite imagens do [Adobe Experience Manager Assets](../content-management/assets.md). Saiba como criar o design do conteúdo de email [nesta seção](content-from-scratch.md).
+   * **Projete seu email do zero** através da interface do Designer de email e aproveite as imagens do [Adobe Experience Manager Assets](../content-management/assets.md). Saiba como criar o design do conteúdo de email [nesta seção](content-from-scratch.md).
 
    * **Codifique ou cole um HTML bruto** diretamente no Designer de email. Saiba como codificar seu próprio conteúdo [nesta seção](code-content.md).
 
