@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
-workflow-type: tm+mt
-source-wordcount: '4174'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '4216'
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 ## Novembro de 2023 {#nov-2023}
 
 * As medidas de proteção que limitam todas as ações personalizadas foi alterada de 150.000 chamadas em 30 segundos para 300.000 chamadas em um minuto. Além disso, o limite padrão não se aplica mais a cada ponto de acesso. Agora, é executado por host e por sandbox. Por exemplo, em uma sandbox, se você tiver dois pontos de acesso com o mesmo host (por exemplo: `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), o limite será aplicado a todos os pontos de acesso no host adobe.com. “pontodeacesso1” e “pontodeacesso2” compartilharão a mesma configuração de limitação e quando um ponto de acesso atingir o limite, isso terá impacto no outro. [Leia mais](../action/about-custom-action-configuration.md)
-* Um novo status para campanhas por email foi adicionado à lista dos status das campanhas. [Leia mais](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
-* A seção Introdução aos públicos da Adobe Experience Platform foi atualizada para refletir os métodos de avaliação de público disponíveis e como selecioná-los. [Leia mais](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
+* Um novo status para campanhas por email foi adicionado aos status da lista de campanhas. [Leia mais](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
+* A seção Introdução aos públicos-alvo da Adobe Experience Platform foi atualizada para refletir os métodos de avaliação de público-alvo disponíveis e como selecioná-los. [Leia mais](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
 * Uma nova subseção foi adicionada para especificar quais eventos devem ser evitados ao criar seu público-alvo se você estiver usando o método de avaliação de segmentação por transmissão. [Leia mais](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
 
 ## Outubro de 2023 {#oct-2023}
