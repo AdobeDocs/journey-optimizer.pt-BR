@@ -8,15 +8,15 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 85c700271b49150a8796d58748a2d78b20587ee1
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 30%
+ht-degree: 78%
 
 ---
 
 # Documentação do Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
-## Novidades?
+## Novidades ?
 
-Dê uma olhada nos últimos aprimoramentos do produto e da documentação do Journey Optimizer. Para obter uma lista abrangente de recursos, melhorias e correções, consulte a seção [Notas de versão](using/rn/release-notes.md). Mantenha-se atualizado com as alterações mais recentes em nossa documentação, acessando o [página de atualizações da documentação](using/rn/documentation-updates.md).
+Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Journey Optimizer. Para obter uma lista abrangente de recursos, melhorias e correções, consulte a seção [Notas de versão](using/rn/release-notes.md). Mantenha-se atualizado com as alterações mais recentes em nossa documentação, acessando a [página de atualizações da documentação](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
@@ -40,20 +40,20 @@ Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens
   <tr style="border: 0;">
     <td>
     <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a>
-    <div><strong>Guias de início rápido</strong><br/>Saiba como atingir suas metas mais rapidamente no Journey Optimizer com sua abordagem personalizada, dependendo da sua função.</div>
+    <div><strong>Guias de início rápido</strong><br/>Saiba como atingir suas metas mais rapidamente no Journey Optimizer com uma abordagem personalizada, dependendo da sua função.</div>
     </td>
     <td>
     <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>Interface do usuário</strong><br/>Saiba como navegar e otimizar sua experiência no Journey Optimizer.</div>
+    <div><strong>Interface</strong><br/>Saiba como navegar e otimizar sua experiência no Journey Optimizer.</div>
     </td>
     <td>
     <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Criar a primeira jornada</strong><br/>Projete e orquestre jornadas omnicanal personalizadas para harmonizar o alcance de marketing com o envolvimento individual do cliente. 
+    <div><strong>Criação da sua primeira jornada</strong><br/>Projete e orquestre jornadas omnicanais personalizadas para harmonizar o alcance de marketing com o engajamento individual do cliente. 
     </div>
     </td>
     <td>
     <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
-    <div><strong>Iniciar a primeira campanha</strong><br/>Crie e inicie sua primeira campanha no Journey Optimizer para fornecer conteúdo direcionado, único, a um público específico.</div>
+    <div><strong>Lançamento da sua primeira campanha</strong><br/>Crie e inicie sua primeira campanha no Journey Optimizer para fornecer um conteúdo direcionado e único a um público-alvo específico.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -101,12 +101,12 @@ Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrição do produto</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Visão geral de segurança (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">Referência de APIs</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR" target="_blank">Tutoriais</a> — <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrição do produto</a> — <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Visão geral de segurança (PDF)</a> — <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">Referência de APIs</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR" target="_blank">Documentação</a> - <a href="https://www.adobe.com/br/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos de desenvolvedores</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR" target="_blank">Documentação</a> — <a href="https://www.adobe.com/br/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos de desenvolvedores</a>
 </td>
 </tr></table>
 
 <table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>Mantenha-se informado e melhore sua experiência com o Adobe Journey Optimizer!</b><br/>Assine nosso informativo trimestral. Obtenha acesso exclusivo às mais recentes atualizações de produtos, histórias atraentes, casos de uso reais, dicas valiosas e muito mais, tudo isso entregue diretamente à sua caixa de entrada a cada trimestre. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Inscreva-se hoje mesmo!</a></td></tr></table>
+<b>Mantenha-se informado e melhore sua experiência com o Adobe Journey Optimizer!</b><br/>Assine nosso informativo trimestral. Obtenha acesso exclusivo às mais recentes atualizações de produtos, histórias cativantes, casos de uso reais, dicas valiosas e muito mais. Tudo isso entregue diretamente à sua caixa de entrada a cada trimestre. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Inscreva-se hoje mesmo!</a></td></tr></table>
