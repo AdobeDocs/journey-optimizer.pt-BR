@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
+source-git-commit: 51c6717d5d5d317c4ff1040194f2e831bea89222
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 53%
+source-wordcount: '880'
+ht-degree: 48%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 53%
 >title="Selecione o público-alvo da campanha"
 >abstract="Esta lista exibe todos os públicos-alvo disponíveis na Adobe Experience Platform. Selecione o público-alvo a ser direcionado pela campanha. A mensagem configurada na campanha será enviada a todas as pessoas pertencentes ao público-alvo selecionado. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)"
 
-O [!DNL Journey Optimizer] permite criar e aproveitar públicos-alvo da Adobe Experience Platform usando dados do Perfil do cliente em tempo real diretamente do menu **[!UICONTROL Públicos-alvo]** e usá-los em suas jornadas ou campanhas. Saiba mais na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
+[!DNL Journey Optimizer] O permite criar e aproveitar públicos-alvo da Adobe Experience Platform usando dados do Perfil do cliente em tempo real diretamente da **[!UICONTROL Públicos-alvo]** e use-as em suas jornadas ou campanhas. Saiba mais na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
 
 ## Utilização de públicos-alvo no [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
@@ -59,11 +59,11 @@ No Adobe Journey Optimizer, os públicos-alvo são gerados a partir das definiç
 
 A lista de perfis do público-alvo é mantida atualizada em tempo real à medida que novos dados fluem para o sistema.
 
-A segmentação por transmissão é um processo contínuo de seleção de dados que atualiza os públicos-alvo em resposta à atividade do usuário. Depois que uma definição de segmento é criada e o público-alvo resultante é salvo, a definição de segmento é aplicada aos dados recebidos no Journey Optimizer. Isso significa que as pessoas físicas são adicionadas ou removidas do público-alvo à medida que os dados do perfil são alterados, garantindo que o público-alvo seja sempre relevante. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html#query-types){target="_blank"}
+A segmentação por transmissão é um processo contínuo de seleção de dados que atualiza os públicos-alvo em resposta à atividade do usuário. Depois que uma definição de segmento é criada e o público-alvo resultante é salvo, a definição de segmento é aplicada aos dados recebidos no Journey Optimizer. Isso significa que as pessoas físicas são adicionadas ou removidas do público-alvo à medida que os dados do perfil são alterados, garantindo que o público-alvo seja sempre relevante. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
 
 >[!NOTE]
 >
->Use os eventos corretos como critérios de segmentação de transmissão. [Saiba mais](#open-and-send-event-guardrails)
+>Use os eventos corretos como critérios de segmentação de transmissão. [Saiba mais](#streaming-segmentation-events-guardrails)
 
 +++
 
