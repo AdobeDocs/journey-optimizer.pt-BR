@@ -19,7 +19,7 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="Criar uma mensagem de texto"
+>title="Criação de uma mensagem de texto"
 >abstract="Para criar uma mensagem de texto (SMS/MMS), adicione uma ação de SMS em uma jornada ou campanha e comece a personalizá-la com o editor de expressão."
 
 Você pode criar e enviar mensagens de texto (SMS) e multimídia (MMS) com o Adobe Journey Optimizer. Primeiro, é necessário adicionar uma ação SMS em uma jornada ou campanha e, em seguida, definir o conteúdo da mensagem de texto, conforme detalhado abaixo. O Adobe Journey Optimizer também oferece recursos para testar suas mensagens de texto antes de enviá-las, para que você possa verificar a renderização, os atributos de personalização e todas as outras configurações.
@@ -165,7 +165,7 @@ Depois de enviado, você pode medir o impacto do SMS nos relatórios do Campaign
 **Tópicos relacionados**
 
 * [Pré-visualizar, testar e enviar sua mensagem de texto](send-sms.md)
-* [Configurar canal de SMS](sms-configuration.md)
+* [Configuração de canal de SMS](sms-configuration.md)
 * [Relatórios SMS/MMS](../reports/journey-global-report.md#sms-global)
 * [Adicionar uma mensagem em uma jornada](../building-journeys/journeys-message.md)
 * [Adicionar uma mensagem em uma campanha](../campaigns/create-campaign.md)
