@@ -11,8 +11,8 @@ keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, a�
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 27%
+source-wordcount: '1752'
+ht-degree: 24%
 
 ---
 
@@ -39,7 +39,7 @@ Para enviar mensagens com jornadas, as seguintes configurações são necessári
 
    ![](assets/jo-datasource.png)
 
-1. **Configurar uma ação**: se você estiver usando um sistema de terceiros para enviar mensagens, é possível criar uma ação personalizada. Saiba mais nesta [seção](../action/action.md). Esta etapa é executada por um **usuário técnico**. Se você estiver usando os recursos de mensagem incorporados do Journey Optimizer, basta adicionar uma ação de canal à jornada e projetar o conteúdo.
+1. **Configurar uma ação**: se você estiver usando um sistema de terceiros para enviar mensagens, é possível criar uma ação personalizada. Saiba mais nesta página [seção](../action/action.md). Esta etapa é executada por um **usuário técnico**. Se você estiver usando os recursos de mensagem incorporados do Journey Optimizer, basta adicionar uma ação de canal à jornada e projetar o conteúdo.
 
    ![](assets/custom2.png)
 
@@ -99,7 +99,7 @@ Estas são as etapas principais para enviar mensagens por meio do jornada:
 
 1. Arraste e solte as próximas etapas que o indivíduo seguirá. Por exemplo, é possível adicionar uma condição seguida por uma ação de canal. Para saber mais sobre atividades, consulte [nesta seção](using-the-journey-designer.md).
 
-1. Teste a jornada usando perfis de teste. Saiba mais nesta [seção](testing-the-journey.md)
+1. Teste a jornada usando perfis de teste. Saiba mais nesta página [seção](testing-the-journey.md)
 
 1. Publique sua jornada para ativá-la. Saiba mais nesta [seção](publishing-the-journey.md).
 

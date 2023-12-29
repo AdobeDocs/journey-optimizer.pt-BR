@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 27%
+source-wordcount: '461'
+ht-degree: 17%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 27%
 
 [Saiba como criar aplicativos de página única neste vídeo](#video)
 
-Uma exibição pode ser definida como um site inteiro ou um grupo de elementos visuais de um site, como a página inicial, a totalidade do site de produtos ou o quadro de preferências de entrega em todas as páginas de check-out.
+Uma exibição pode ser definida como um site inteiro ou um grupo de elementos visuais em um site, como a página inicial, o site de produtos inteiro ou o quadro de preferências de entrega em todas as páginas de check-out.
 
 É necessária uma configuração de desenvolvedor única para definir as exibições na implementação do SDK da Web da Adobe Experience Platform. Isso permite criar e executar campanhas da Web do Adobe Journey Optimizer no SPA.
 
 ## Definir exibições na implementação do SDK da Web {#define-views}
 
-As visualizações XDM podem ser aproveitadas no Adobe [!DNL Journey Optimizer] para capacitar profissionais de marketing a executar campanhas de personalização e experimentação na web sobre SPA por meio do editor visual da web. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+As visualizações XDM podem ser aproveitadas no Adobe [!DNL Journey Optimizer] para capacitar profissionais de marketing a executar campanhas de personalização e experimentação na web sobre SPA por meio do editor visual da web. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=pt-BR){target="_blank"}
 
 Para acessar e criar exibições na variável [!DNL Journey Optimizer] de usuário, siga as etapas listadas em [nesta seção](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 

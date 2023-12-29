@@ -12,7 +12,7 @@ exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 36%
+ht-degree: 17%
 
 ---
 
@@ -22,9 +22,9 @@ Neste exemplo, ajustaremos o preenchimento e o alinhamento vertical dentro de um
 
 1. Selecione o componente de estrutura diretamente no email ou usando o **[!UICONTROL Árvore de navegação]** disponível no menu à esquerda.
 
-1. Na barra de ferramentas , clique em **[!UICONTROL Selecionar uma coluna]** e escolha aquela que deseja editar. Também é possível selecioná-la na árvore de estrutura.
+1. Na barra de ferramentas, clique em **[!UICONTROL Selecionar uma coluna]** e escolha aquela que deseja editar. Também é possível selecioná-la na árvore de estrutura.
 
-   Os parâmetros editáveis para essa coluna são exibidos na guia **[!UICONTROL Estilos]**.
+   Os parâmetros editáveis para essa coluna são exibidos no **[!UICONTROL Estilos]** guia.
 
    ![](assets/alignment_2.png)
 

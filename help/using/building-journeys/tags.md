@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gerenciar tags em jornadas
-description: Gerenciar tags em jornadas
+title: Gerenciar tags no jornada
+description: Gerenciar tags no jornada
 feature: Journeys, Tags
 topic: Content Management
 role: User
@@ -11,14 +11,14 @@ keywords: jornada, tags
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 42%
+source-wordcount: '229'
+ht-degree: 30%
 
 ---
 
-# Gerenciar tags em jornadas {#journey_tags}
+# Gerenciar tags no jornada {#journey_tags}
 
-Como um profissional da Journey Optimizer, você pode organizar suas jornadas usando tags. As tags são uma maneira rápida e fácil de classificar objetos para melhorar a pesquisa.
+Como um profissional da Journey Optimizer, você pode organizar suas jornadas usando tags. Tags são uma maneira rápida e fácil de classificar objetos para melhorar a pesquisa.
 
 ## Adicionar tags a uma jornada
 

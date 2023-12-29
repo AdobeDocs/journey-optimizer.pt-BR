@@ -8,7 +8,7 @@ level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '564'
 ht-degree: 6%
 
 ---
@@ -131,7 +131,7 @@ A operação a seguir retorna as cinco primeiras ordens com o preço mais baixo.
 {%= topN(orders,price, 5) %}
 ```
 
-## Em{#in}
+## Entrada{#in}
 
 A variável `in` é usada para determinar se um item é membro de uma matriz ou lista.
 

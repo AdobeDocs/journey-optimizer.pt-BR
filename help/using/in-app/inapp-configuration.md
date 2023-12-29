@@ -8,8 +8,8 @@ keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 11%
+source-wordcount: '642'
+ht-degree: 6%
 
 ---
 
@@ -89,7 +89,7 @@ Para que as mensagens no aplicativo sejam entregues corretamente, as seguintes c
 
 1. No menu Extensões da propriedade recém-criada, instale as seguintes extensões:
 
-   * Rede de borda da Adobe Experience Platform
+   * Rede de borda Adobe Experience Platform
    * Adobe Journey Optimizer
    * AEP Assurance
    * Consentimento
@@ -105,7 +105,7 @@ O canal no aplicativo agora está configurado. Você pode começar a enviar mens
 
 ## Pré-requisitos do experimento de conteúdo {#experiment-prerequisites}
 
-Para habilitar experimentos de conteúdo para o canal no aplicativo, verifique se [conjunto de dados](../data/get-started-datasets.md) usado na implementação no aplicativo [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=pt-BR){target="_blank"} também está incluído na sua configuração de relatórios.
+Para habilitar experimentos de conteúdo para o canal no aplicativo, verifique se [conjunto de dados](../data/get-started-datasets.md) usado na implementação no aplicativo [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} também está incluído na sua configuração de relatórios.
 
 Em outras palavras, ao configurar os relatórios de experimento, se você adicionar um conjunto de dados que não esteja presente no seu fluxo de dados da Web, os dados da Web não serão exibidos nos relatórios de experimento de conteúdo.
 

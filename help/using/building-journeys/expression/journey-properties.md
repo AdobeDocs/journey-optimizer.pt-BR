@@ -11,7 +11,7 @@ exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 6%
+ht-degree: 2%
 
 ---
 
@@ -42,7 +42,7 @@ Estes são alguns exemplos de casos de uso:
 
 * **Refinar erros nos relatórios** : em vez de ter apenas um caminho para mensagens com erro, você pode definir uma condição por tipo de erro. Isso permitirá que você refine os relatórios e visualize todos os dados de tipos de erro.
 
-## List of fields {#journey-properties-fields}
+## Lista de campos {#journey-properties-fields}
 
 | Categoria | Nome do campo | Rótulo | Descrição |
 |---|---|---|------------|

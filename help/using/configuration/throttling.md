@@ -10,7 +10,7 @@ keywords: external, API, otimizer, capping
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '769'
 ht-degree: 91%
 
 ---
@@ -143,7 +143,7 @@ Esta coleção do Postman foi estabelecida como um complemento da coleção vari
 
 Após o download e o upload para o Postman, é necessário adicionar três variáveis: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` : URL de gateway do [!DNL Journey Optimizer]
-* `{BASE_PATH}` : ponto de entrada da API.
+* `{BASE_PATH}` : ponto de entrada para a API.
 * `{SANDBOX_NAME}` : o cabeçalho **x-sandbox-name** (por exemplo, “prod”) correspondente ao nome da sandbox na qual as operações da API ocorrerão. Consulte a [visão geral das sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR) para obter mais informações.
 
 Na seção a seguir, você encontrará a lista ordenada de chamadas API REST para executar o caso de uso.

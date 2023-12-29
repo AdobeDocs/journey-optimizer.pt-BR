@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4216'
 ht-degree: 100%
 
@@ -198,7 +198,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * Todos os novos recursos e aprimoramentos chegando com a versão de [!DNL Journey Optimizer] 22 de julho estão detalhados na documentação. [Leia mais](release-notes.md)
 * A seção **Criar superfícies de canal** foi esclarecida e atualizada com links para a página que descreve como configurar o canal de SMS. [Leia mais](../configuration/channel-surfaces.md#create-channel-surface)
-* Nas propriedades da jornada, a opção **Fuso horário do perfil** agora está desativada por padrão. [Leia mais](../building-journeys/timezone-management.md#timezone-from-profiles)
+* Nas propriedades da jornada, a opção **Fuso horário do perfil** agora está desabilitada por padrão. [Leia mais](../building-journeys/timezone-management.md#timezone-from-profiles)
 * Na atividade **Aguardar**, a opção **Data fixa** não está mais disponível. [Leia mais](../building-journeys/wait-activity.md)
 * Foram adicionadas mais informações sobre a opção **Leitura incremental** na atividade de **público-alvo de leitura**. [Leia mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * Recomendações adicionadas sobre o tipo de condição **Limite de perfil**. [Leia mais](../building-journeys/condition-activity.md#profile_cap)

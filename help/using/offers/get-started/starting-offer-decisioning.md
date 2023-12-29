@@ -7,15 +7,15 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: ht
-source-wordcount: '935'
+workflow-type: tm+mt
+source-wordcount: '927'
 ht-degree: 100%
 
 ---
 
 # Sobre a Gestão de decisões {#about-decision-management}
 
-Use o [!DNL Journey Optimizer] para fornecer a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa. Depois de projetado, direcione os públicos com ofertas personalizadas.
+Use o [!DNL Journey Optimizer] para fornecer a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa. Depois de projetado, direcione os públicos-alvo com ofertas personalizadas.
 
 A gestão de decisões facilita a personalização com uma biblioteca central de ofertas de marketing e um mecanismo de decisão que aplica regras e restrições a perfis em tempo real avançados, que foram criados pela Adobe Experience Platform para ajudar você a enviar aos clientes a oferta certa na hora certa.
 

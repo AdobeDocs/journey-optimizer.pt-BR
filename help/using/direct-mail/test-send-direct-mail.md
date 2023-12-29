@@ -9,8 +9,8 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 13%
+source-wordcount: '415'
+ht-degree: 0%
 
 ---
 
@@ -44,12 +44,12 @@ Depois de enviado, você pode medir o impacto da campanha de correspondência di
 
 ## Gerenciar o consentimento para correspondência direta {#dm-consent-management}
 
-No [!DNL Journey Optimizer], o consentimento é tratado pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR) da Experience Platform. {target="_blank"} Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações.
+Entrada [!DNL Journey Optimizer], o consentimento é gerido pelo Experience Platform [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target="_blank"}. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações.
 
 Se um perfil optou por não receber correspondência direta, nos atributos de perfil de Experience Platform correspondentes, o valor para `consents.marketing.postalMail.val` será `n` e o perfil correspondente será excluído dos deliveries subsequentes.
 
 Para habilitá-lo novamente, o atributo de perfil deve ser alterado novamente para `consents.marketing.postalMail.val` : `y`.
 
-Para gerenciar os atributos de um perfil, acesse Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
+Para gerenciar os atributos de um perfil, acesse Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
 
 Saiba mais sobre como gerenciar a opção de não participação no Journey Optimizer no [nesta seção](../privacy/opt-out.md).

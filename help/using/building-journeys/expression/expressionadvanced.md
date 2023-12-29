@@ -11,7 +11,7 @@ exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 72%
+ht-degree: 64%
 
 ---
 
@@ -64,7 +64,7 @@ Nesta tela você pode escrever manualmente a expressão.
 
 Na parte esquerda da tela são exibidos os campos e as funções disponíveis:
 
-* **[!UICONTROL Eventos]**: escolha um dos campos recebidos a partir do evento de entrada. A lista exibida dos campos do evento é contextual e varia de acordo com os eventos adicionados na jornada. [Leia mais](../../event/about-events.md)
+* **[!UICONTROL Eventos]**: escolha um dos campos recebidos a partir do evento de entrada. A lista exibida de campos de evento é contextual e varia de acordo com os eventos adicionados na jornada. [Leia mais](../../event/about-events.md)
 * **[!UICONTROL Públicos-alvo]**: se você soltou um **[!UICONTROL Qualificação de público]** escolha o público-alvo que deseja usar na expressão. [Leia mais](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Fontes de dados]**: escolha na lista de campos disponíveis nos grupos de campos de suas fontes de dados. [Leia mais](../../datasource/about-data-sources.md)
 * **[!UICONTROL Jornada propriedades]**: esta seção reagrupa os campos técnicos relacionados à jornada para um determinado perfil. [Leia mais](journey-properties.md)

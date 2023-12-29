@@ -46,7 +46,7 @@ Para adicionar uma mensagem em uma jornada, siga as etapas abaixo:
    <tr style="border: 0;">
    <td>
    <a href="../email/create-email.md">
-   <img alt="Cliente potencial" src="../assets/do-not-localize/email.jpg">
+   <img alt="Lead" src="../assets/do-not-localize/email.jpg">
    </a>
    <div><a href="../email/create-email.md"><strong>Criar emails</strong>
    </div>
@@ -54,7 +54,7 @@ Para adicionar uma mensagem em uma jornada, siga as etapas abaixo:
    </td>
    <td>
    <a href="../in-app/create-in-app.md">
-   <img alt="Cliente potencial" src="../assets/do-not-localize/in-app.jpg">
+   <img alt="Lead" src="../assets/do-not-localize/in-app.jpg">
    </a>
    <div><a href="../in-app/create-in-app.md"><strong>Criar mensagens no aplicativo</strong>
    </div>
@@ -62,7 +62,7 @@ Para adicionar uma mensagem em uma jornada, siga as etapas abaixo:
    </td>
    <td>
    <a href="../push/create-push.md">
-   <img alt="Pouco frequentes" src="../assets/do-not-localize/push.jpg">
+   <img alt="Pouco frequente" src="../assets/do-not-localize/push.jpg">
    </a>
    <div>
    <a href="../push/create-push.md"><strong>Criar notificações por push<strong></a>

@@ -11,8 +11,8 @@ keywords: página de aterrissagem, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 16%
+source-wordcount: '942'
+ht-degree: 12%
 
 ---
 
@@ -48,7 +48,7 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [Publicar a página de destino.](create-lp.md#publish)
+1. [Publish](create-lp.md#publish) a landing page.
 
 1. Em um [jornada](../building-journeys/journey.md), adicionar um **E-mail** atividade para direcionar o tráfego para a landing page de registro.
 
@@ -129,7 +129,7 @@ Para permitir que os recipients de um email cancelem a inscrição de suas comun
 
 1. [Criar uma mensagem de email](../email/get-started-email-design.md) em uma jornada.
 
-1. Selecione o texto no seu conteúdo e [insira um link](../email/message-tracking.md#insert-links) usando a barra de ferramentas contextual. Também é possível usar um link em um botão.
+1. Selecione o texto no seu conteúdo e [inserir um link](../email/message-tracking.md#insert-links) usando a barra de ferramentas contextual. Também é possível usar um link em um botão.
 
 1. Selecionar **[!UICONTROL Landing page]** do **[!UICONTROL Tipo de link]** e selecione a variável [landing page](create-lp.md#configure-primary-page) que você criou para recusar.
 
@@ -151,7 +151,7 @@ Para permitir que os recipients de um email cancelem a inscrição de suas comun
 
    * Os dados do perfil são atualizados e não receberão comunicações de sua marca, a menos que você faça a assinatura novamente.
 
-Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
+Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 

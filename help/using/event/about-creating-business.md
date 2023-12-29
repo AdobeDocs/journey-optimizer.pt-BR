@@ -11,8 +11,8 @@ keywords: evento, jornada, negócios, configuração
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 15%
+source-wordcount: '1127'
+ht-degree: 13%
 
 ---
 
@@ -42,7 +42,7 @@ Eventos comerciais podem ser &quot;um produto está de volta no estoque&quot;, &
 * Somente uma atividade de leitura de público pode ser descartada após um evento comercial. Ele é adicionado automaticamente como a próxima etapa.
 * Para permitir várias execuções de eventos comerciais, ative a opção correspondente no **[!UICONTROL Execução]** seção das propriedades da jornada.
 * Depois que um evento comercial é acionado, haverá um atraso para que o público-alvo seja exportado de 15 minutos para até uma hora.
-* Ao testar um evento comercial, você precisa passar os parâmetros do evento e o identificador do perfil de teste que inserirá a jornada em teste. Além disso, ao testar uma jornada baseada em evento comercial, você só pode acionar uma única entrada de perfil. Consulte [esta seção](../building-journeys/testing-the-journey.md#test-business). No modo de teste, não há modo de &quot;Visualização de código&quot; disponível.
+* Ao testar um evento comercial, você precisa passar os parâmetros do evento e o identificador do perfil de teste que inserirá a jornada em teste. Além disso, ao testar uma jornada baseada em evento comercial, você só pode acionar uma única entrada de perfil. Consulte [nesta seção](../building-journeys/testing-the-journey.md#test-business). No modo de teste, não há modo de &quot;Visualização de código&quot; disponível.
 * O que acontece com os indivíduos que estão atualmente na jornada se um novo evento comercial chegar? Ela se comporta da mesma forma que quando os indivíduos ainda estão em uma jornada recorrente quando uma nova recorrência acontece. O caminho deles foi finalizado. Como resultado, os profissionais de marketing devem prestar atenção para evitar a criação de jornadas muito longas se esperam eventos comerciais frequentes.
 * Os eventos comerciais não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
 
@@ -62,7 +62,7 @@ No caso de eventos comerciais instantâneos, para determinada jornada, os dados 
 
 Estas são as primeiras etapas para configurar um evento comercial:
 
-1. Na seção de menu ADMINISTRAÇÃO, selecione **[!UICONTROL Configurações]**. No  **[!UICONTROL Eventos]** clique em **[!UICONTROL Gerenciar]**. A lista dos eventos é exibida.
+1. Na seção de menu ADMINISTRAÇÃO, selecione **[!UICONTROL Configurações]**. No  **[!UICONTROL Eventos]** clique em **[!UICONTROL Gerenciar]**. A lista de eventos é exibida.
 
    ![](assets/jo-event1.png)
 

@@ -10,8 +10,8 @@ keywords: expressão, sintaxe, operadores, editor, jornada
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 6%
+source-wordcount: '531'
+ht-degree: 5%
 
 ---
 
@@ -38,7 +38,7 @@ not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 ## Observações importantes{#important-notes}
 
-* Ao usar uma multiplicação (`*`), ambos os campos de operação devem ter o mesmo tipo, seja inteiro ou decimal. Exemplo :
+* Ao usar uma multiplicação (`*`), ambos os campos de operação devem ter o mesmo tipo, seja inteiro ou decimal. Exemplo:
    * o exemplo a seguir está correto: `3.0 * 4.0`
    * `3 * 4.0` resultará em um erro
 

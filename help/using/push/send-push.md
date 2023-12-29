@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Marque e envie sua notificação por push
+title: Verificação e envio da notificação por push
 description: Saiba como verificar e enviar sua notificação por push no Journey Optimizer
 feature: Push
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# Marque e envie sua notificação por push {#send-push}
+# Verificação e envio da notificação por push {#send-push}
 
 ## Pré-visualizar sua notificação por push {#preview-push}
 

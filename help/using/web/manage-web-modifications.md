@@ -8,8 +8,8 @@ level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 12%
+source-wordcount: '954'
+ht-degree: 11%
 
 ---
 
@@ -116,7 +116,7 @@ Para adicionar um **Página`<head>`** tipo de modificação, siga as etapas abai
 
    >[!CAUTION]
    >
-   >Você só pode adicionar `<script>` e `<style>` elementos para o `<head>` seção. Adicionar tags `<div>` e outros elementos pode fazer com que os elementos `<head>` restantes apareçam em `<body>`. 
+   >Você só pode adicionar `<script>` e `<style>` elementos para o `<head>` seção. Adicionando `<div>` tags e outros elementos podem causar `<head>` elementos a serem colocados na tag `<body>`.
 
 1. Clique em **[!UICONTROL Opções de edição avançadas]** botão. O editor de expressão se abre.
 

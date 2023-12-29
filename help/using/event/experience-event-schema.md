@@ -11,8 +11,8 @@ keywords: schemas, XDM, plataforma, streaming, assimilação, jornada
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 4%
+source-wordcount: '832'
+ht-degree: 1%
 
 ---
 
@@ -56,7 +56,7 @@ Qualquer esquema XDM que será usado para [!DNL Journey Optimizer] Os eventos de
 
 ## Aproveitar relacionamentos de esquema{#leverage_schema_relationships}
 
-A Adobe Experience Platform permite definir relações entre esquemas para usar um conjunto de dados como uma tabela de pesquisa para outro.
+O Adobe Experience Platform permite definir relações entre esquemas para usar um conjunto de dados como uma tabela de pesquisa para outro.
 
 Digamos que o modelo de dados da sua marca tenha um esquema que captura compras. Você também tem um esquema para o catálogo de produtos. Você pode capturar a ID do produto no esquema de compra e usar um relacionamento para pesquisar detalhes mais completos do produto no catálogo de produtos. Isso permite criar um público-alvo para todos os clientes que compraram um laptop, por exemplo, sem precisar listar explicitamente todas as IDs de laptop ou capturar todos os detalhes de produto em sistemas transacionais.
 
@@ -91,7 +91,7 @@ No entanto, não é possível definir um relacionamento de esquema com um atribu
 
 ![](assets/schema16.png)
 
-### Configuração de evento{#unitary_event_configuration}
+### Configuração do evento{#unitary_event_configuration}
 
 Os campos de esquema vinculados estão disponíveis na configuração unitária e de evento de negócios:
 

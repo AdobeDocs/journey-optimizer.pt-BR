@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1265'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ Controle o gerenciamento de privacidade e as solicitações nesta seção.
 
 * **[!UICONTROL Regras]**: use esta seção para criar regras de frequência entre canais e controlar a regularidade com a qual os usuários e usuárias recebem mensagens ou entram em uma jornada. [Saiba mais](../configuration/frequency-rules.md)
 
-* **[!UICONTROL Alertas]** - a interface permite visualizar um histórico de alertas recebidos com base em métricas reveladas pelos Insights de observação da Adobe Experience Platform. A interface também permite visualizar, ativar e desativar as regras de alerta disponíveis. [Saiba mais](../reports/alerts.md)
+* **[!UICONTROL Alertas]** - a interface permite visualizar um histórico de alertas recebidos com base em métricas reveladas pelos Insights de observação da Adobe Experience Platform. A interface também permite visualizar, habilitar e desabilitar as regras de alerta disponíveis. [Saiba mais](../reports/alerts.md)
 
 * **[!UICONTROL Sandboxes]** - a Adobe Experience Platform fornece sandboxes que dividem uma única instância em ambientes virtuais separados para ajudar a desenvolver e evoluir aplicativos de experiência digital. Navegue por esta seção para gerenciar suas sandboxes. [Saiba mais](../administration/sandboxes.md)
 

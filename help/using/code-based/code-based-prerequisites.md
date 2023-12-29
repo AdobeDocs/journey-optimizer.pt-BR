@@ -11,8 +11,8 @@ badge: label="Beta"
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 19%
+source-wordcount: '449'
+ht-degree: 12%
 
 ---
 
@@ -71,7 +71,7 @@ Para que as experiências baseadas em código sejam entregues corretamente, as s
 
 ## Pré-requisitos do experimento de conteúdo {#experiment-prerequisites}
 
-Para habilitar experimentos de conteúdo para o canal baseado em código, você precisa verificar se [conjunto de dados](../data/get-started-datasets.md) usado na implementação do aplicativo [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=pt-BR){target="_blank"} também está incluído na sua configuração de relatórios.
+Para habilitar experimentos de conteúdo para o canal baseado em código, você precisa verificar se [conjunto de dados](../data/get-started-datasets.md) usado na implementação do aplicativo [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} também está incluído na sua configuração de relatórios.
 
 Em outras palavras, ao configurar os relatórios de experimento, se você adicionar um conjunto de dados que não está presente no fluxo de dados do aplicativo, os dados do aplicativo não serão exibidos nos relatórios de experimento de conteúdo.
 

@@ -11,8 +11,8 @@ keywords: personalizado, geral, eventos, jornada
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 20%
+source-wordcount: '448'
+ht-degree: 15%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="Eventos unitários"
->abstract="Os Eventos permitem acionar as jornadas de forma unitária para enviar mensagens, em tempo real, à pessoa física que flui para a jornada. Para esse tipo de evento, você só pode adicionar um rótulo e uma descrição. A configuração do evento é executada por um engenheiro de dados e não pode ser editada."
+>abstract="Os eventos permitem acionar as jornadas de forma unitária para enviar mensagens em tempo real à pessoa que flui para a jornada. Para esse tipo de evento, você só pode adicionar um rótulo e uma descrição. A configuração do evento é executada por um engenheiro de dados e não pode ser editada."
 
-Os Eventos permitem acionar as jornadas de forma unitária para enviar mensagens, em tempo real, à pessoa física que flui para a jornada.
+Os Eventos permitem acionar as jornadas de forma unitária para enviar mensagens, em tempo real, ao indivíduo que flui para a jornada.
 
 Para esse tipo de evento, você só pode adicionar um rótulo e uma descrição. O restante da configuração não pode ser editado. Ele foi executado pelo usuário técnico. Consulte [esta página](../event/about-events.md).
 

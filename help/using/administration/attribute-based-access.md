@@ -11,8 +11,8 @@ keywords: abac, atributo, autorizações, dados, acesso, confidencial, ativos
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 2%
+source-wordcount: '1021'
+ht-degree: 1%
 
 ---
 
@@ -38,7 +38,7 @@ Observe que **[!UICONTROL Funções]**, **[!UICONTROL Políticas]** e **[!UICONT
 
 >[!IMPORTANT]
 >
->Antes de gerenciar permissões para uma função, primeiro será necessário criar uma política. Para obter mais informações, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html).
+>Antes de gerenciar permissões para uma função, primeiro será necessário criar uma política. Para obter mais informações, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=pt-BR).
 
 **[!UICONTROL Funções]** são um conjunto de usuários que compartilham as mesmas permissões, rótulos e sandboxes na organização. Cada usuário pertencente a um **[!UICONTROL Função]** O tem direito aos aplicativos e serviços Adobe contidos no produto.
 Você também pode criar o seu próprio **[!UICONTROL Funções]** se quiser ajustar o acesso dos usuários a determinadas funcionalidades ou objetos na interface.

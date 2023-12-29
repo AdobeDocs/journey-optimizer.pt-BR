@@ -10,8 +10,8 @@ keywords: inserir novamente, jornada, finalizar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 3%
+source-wordcount: '619'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +24,9 @@ Uma jornada pode terminar para um indivíduo em dois contextos específicos:
 
 A pessoa pode então entrar novamente na jornada se a reentrada for permitida. Consulte [esta página](../building-journeys/journey-gs.md#change-properties)
 
-Para encerrar uma jornada em tempo real, recomendamos que você a feche. A chegada de novos clientes à jornada será então bloqueada. Os clientes que já entraram na jornada podem experimentá-la até o final. Consulte [esta seção](../building-journeys/journey.md#close-journey)
+Para encerrar uma jornada em tempo real, recomendamos que você a feche. A chegada de novos clientes à jornada será então bloqueada. Os clientes que já entraram na jornada podem experimentá-la até o final. Consulte [nesta seção](../building-journeys/journey.md#close-journey)
 
-Você só pode interromper uma jornada se ocorrer uma emergência e todo o processamento precisar ser encerrado imediatamente em uma jornada. As pessoas que já entraram em uma jornada são todas interrompidas em seu progresso. Consulte [esta seção](../building-journeys/journey.md#stop-journey)
+Você só pode interromper uma jornada se ocorrer uma emergência e todo o processamento precisar ser encerrado imediatamente em uma jornada. As pessoas que já entraram em uma jornada são todas interrompidas em seu progresso. Consulte [nesta seção](../building-journeys/journey.md#stop-journey)
 
 >[!NOTE]
 >

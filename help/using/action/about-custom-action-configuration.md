@@ -12,7 +12,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -37,7 +37,7 @@ Observe também que os parâmetros de ações personalizadas têm um formato esp
 
 ## Práticas recomendadas{#custom-action-enhancements-best-practices}
 
-Um limite máximo de 300.000 chamadas em um minuto é definido para todas as ações personalizadas. Além disso, o limite padrão é executado por host e por sandbox. Por exemplo, em uma sandbox, se você tiver dois endpoints com o mesmo host (por exemplo: `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), o limite será aplicado a todos os endpoints no host adobe.com. &quot;endpoint1&quot; e &quot;endpoint2&quot; compartilharão a mesma configuração de limitação e fazer com que um endpoint atinja o limite terá impacto no outro endpoint.
+Um limite máximo de 300.000 chamadas em um minuto é definido para todas as ações personalizadas. Além disso, o limite padrão é executado por host e por sandbox. Por exemplo, em uma sandbox, se você tiver dois pontos de acesso com o mesmo host (por exemplo: `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), o limite será aplicado a todos os pontos de acesso no host adobe.com. &quot;endpoint1&quot; e &quot;endpoint2&quot; compartilharão a mesma configuração de limitação e fazer com que um endpoint atinja o limite terá impacto no outro endpoint.
 
 Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. É necessário considerar isso em jornadas baseadas em público-alvo, definindo uma taxa de leitura apropriada (5.000 perfis por segundo ao utilizar ações personalizadas). Se necessário, é possível substituir essa configuração aumentando o limite máximo por meio das APIs de limite e limitação. Consulte [esta página](../configuration/external-systems.md).
 
@@ -144,7 +144,7 @@ Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UIC
 
 >[!NOTE]
 >
->O exemplo de carga útil não pode conter valores nulos. Os nomes de campos na carga não podem conter &quot;.&quot; caractere. Eles não podem começar com um caractere &quot;$&quot;.
+>O exemplo de carga útil não pode conter valores nulos. Os nomes de campos na carga não podem conter &quot;.&quot; “?”. Eles não podem começar com um caractere &quot;$&quot;.
 
 Você poderá definir o tipo de parâmetro (por exemplo: sequência, número inteiro etc.).
 

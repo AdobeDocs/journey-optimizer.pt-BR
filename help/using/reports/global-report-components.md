@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 10%
+source-wordcount: '1106'
+ht-degree: 2%
 
 ---
 
@@ -64,10 +64,10 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
  <tbody>
   <tr> 
    <td> Rejeições<br/> </td> 
-   <td> Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas.<br/> </td> 
+   <td> Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Taxa de rejeição <br/> </td> 
+   <td> Taxa de rejeição<br/> </td> 
    <td> Porcentagem de emails que foram rejeitados em comparação aos emails enviados.<br/> </td> 
 </tr>
   <tr> 
@@ -75,7 +75,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número de vezes que um conteúdo foi clicado em um email.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Entregues <br/> </td> 
+   <td> Entregue <br/> </td> 
    <td> Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.<br/></td> 
 </tr> 
   <tr> 
@@ -140,7 +140,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número de emails na fila para tentativas.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Enviado<br/> </td> 
+   <td> Sent<br/> </td> 
    <td> Número total de envios para a entrega.<br/> </td> 
 </tr>
   <tr> 
@@ -308,14 +308,14 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
 </tr>
   <tr> 
    <td>Rejeições<br/> </td> 
-   <td> Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas.<br/> </td> 
+   <td> Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Taxa de rejeição <br/> </td> 
+   <td> Taxa de rejeição<br/> </td> 
    <td> Porcentagem de notificações por push que foram rejeitadas em comparação às notificações por push enviadas.<br/> </td>
 </tr>
   <tr> 
-   <td> Entregues<br/> </td> 
+   <td> Entregue<br/> </td> 
    <td> Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.<br/> </td> 
 </tr> 
   <tr> 
@@ -355,7 +355,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Porcentagem de notificações por push abertas.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Enviado<br/> </td> 
+   <td> Sent<br/> </td> 
    <td> Número total de envios para a entrega.<br/> </td> 
 </tr> 
   <tr> 

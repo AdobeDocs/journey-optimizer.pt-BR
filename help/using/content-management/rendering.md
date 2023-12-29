@@ -1,19 +1,20 @@
 ---
-title: Testar a renderização do email
+title: Teste da renderização do email
 description: Saiba como testar a renderização de email.
 feature: Preview
 role: User
 level: Beginner
-source-git-commit: b6872806b3961bb2afbfc03999d984384492cc6d
+exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 13%
+ht-degree: 3%
 
 ---
 
-# Testar a renderização do email {#email-rendering}
+# Teste da renderização do email {#email-rendering}
 
-Você pode aproveitar seus **Litmus** conta em [!DNL Journey Optimizer] para visualizar instantaneamente seu **renderização de email** em clientes de email populares. Em seguida, você pode melhorar seu conteúdo de email e garantir que ele e funcione corretamente em cada caixa de entrada.
+Você pode aproveitar seus **Litmus** conta em [!DNL Journey Optimizer] para visualizar instantaneamente seu **renderização de email** em clientes de email populares. Em seguida, você pode garantir que seu conteúdo de email tenha uma ótima aparência e funcione corretamente em cada caixa de entrada.
 
 Para verificar a renderização de email, siga estas etapas:
 

@@ -9,8 +9,8 @@ keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '1987'
-ht-degree: 14%
+source-wordcount: '1939'
+ht-degree: 13%
 
 ---
 
@@ -61,7 +61,7 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
       | Ciclo de vida do aplicativo | Instalação do aplicativo | Disparado na primeira execução após a instalação ou reinstalação. |
       | Ciclo de vida do aplicativo | Atualização de aplicativo | Disparado na primeira execução após uma atualização ou quando o número da versão é alterado. |
       | Ciclo de vida do aplicativo | Fechamento do aplicativo | Disparado quando o aplicativo é fechado. |
-      | Ciclo de vida do aplicativo | Falha de aplicativo | Disparado quando o aplicativo não estiver em segundo plano antes do fechamento. O evento é enviado quando o aplicativo é inicializado após a falha. O relatório de falha do Adobe Mobile não implementa um gerenciador de exceção global não detectado. |
+      | Ciclo de vida do aplicativo | Falha de aplicativo | Disparado quando o aplicativo não estiver em segundo plano antes do fechamento. O evento é enviado quando o aplicativo é iniciado após a falha. O relatório de falha do Adobe Mobile não implementa um gerenciador de exceção global não detectado. |
       | Places | Inserir POI | Acionado pelo SDK do Places quando o cliente insere o Ponto de interesse (POI) que você configurou. |
       | Places | POI de saída | Acionado pelo SDK do Places quando o cliente sair do ponto de interesse (POI) que você configurou. |
 
@@ -77,7 +77,7 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
 
       +++Consulte as Características disponíveis.
 
-      | Pacote | Características  | Definição |
+      | Pacote | Características | Definição |
       |---|---|---|
       | Informações do dispositivo | Nome da operadora | Acionado quando um dos nomes da operadora da lista é atendido. |
       | Informações do dispositivo | Nome do dispositivo | Acionado quando um dos nomes do dispositivo é atendido. |
@@ -159,7 +159,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
       | Ciclo de vida do aplicativo | Instalação do aplicativo | Disparado na primeira execução após a instalação ou reinstalação. |
       | Ciclo de vida do aplicativo | Atualização de aplicativo | Disparado na primeira execução após uma atualização ou quando o número da versão é alterado. |
       | Ciclo de vida do aplicativo | Fechamento do aplicativo | Disparado quando o aplicativo é fechado. |
-      | Ciclo de vida do aplicativo | Falha de aplicativo | Disparado quando o aplicativo não estiver em segundo plano antes do fechamento. O evento é enviado quando o aplicativo é inicializado após a falha. O relatório de falha do Adobe Mobile não implementa um gerenciador de exceção global não detectado. |
+      | Ciclo de vida do aplicativo | Falha de aplicativo | Disparado quando o aplicativo não estiver em segundo plano antes do fechamento. O evento é enviado quando o aplicativo é iniciado após a falha. O relatório de falha do Adobe Mobile não implementa um gerenciador de exceção global não detectado. |
       | Places | Inserir POI | Acionado pelo SDK do Places quando o cliente insere o Ponto de interesse (POI) que você configurou. |
       | Places | POI de saída | Acionado pelo SDK do Places quando o cliente sair do ponto de interesse (POI) que você configurou. |
 
@@ -175,7 +175,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
       +++Consulte as Características disponíveis.
 
-      | Pacote | Características  | Definição |
+      | Pacote | Características | Definição |
       |---|---|---|
       | Informações do dispositivo | Nome da operadora | Acionado quando um dos nomes da operadora da lista é atendido. |
       | Informações do dispositivo | Nome do dispositivo | Acionado quando um dos nomes do dispositivo é atendido. |

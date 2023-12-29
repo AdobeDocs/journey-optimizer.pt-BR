@@ -11,8 +11,8 @@ keywords: arquivamento, mensagens, HIPAA, CCO, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 8%
+source-wordcount: '1131'
+ht-degree: 7%
 
 ---
 
@@ -113,7 +113,7 @@ Para fazer isso, siga as etapas abaixo.
 
 >[!NOTE]
 >
->Saiba mais sobre como gerenciar a privacidade e os regulamentos aplicáveis na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target="_blank"}.
+>Saiba mais sobre como gerenciar a privacidade e os regulamentos aplicáveis na [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target="_blank"}.
 
 ### Dados de relatório CCO {#bcc-reporting}
 

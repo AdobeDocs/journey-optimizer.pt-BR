@@ -11,7 +11,7 @@ exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -48,7 +48,7 @@ Quando a mensagem de texto estiver pronta, conclua a configuração de [jornada]
 
 **Tópicos relacionados**
 
-* [Configurar canal de SMS](sms-configuration.md)
+* [Configuração de canal de SMS](sms-configuration.md)
 * [Relatórios SMS/MMS](../reports/journey-global-report.md#sms-global)
-* [Criar uma mensagem de texto](create-sms.md)
+* [Criação de uma mensagem de texto](create-sms.md)
 * [Adicionar uma mensagem em uma jornada](../building-journeys/journeys-message.md)

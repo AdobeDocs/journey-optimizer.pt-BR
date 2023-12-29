@@ -9,8 +9,8 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 32%
+source-wordcount: '918'
+ht-degree: 31%
 
 ---
 
@@ -92,7 +92,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 1. Para criptografar o arquivo, copie e cole sua chave de criptografia na **[!UICONTROL Chave de criptografia PGP/GPG]** campo.
 
-1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos é criada com o **[!UICONTROL Ativo]** status. Agora ele está pronto para ser usado em um [superfície de correspondência direta](#direct-mail-surface).
+1. Selecionar **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos é criada com o **[!UICONTROL Ativo]** status. Agora ele está pronto para ser usado em um [superfície de correspondência direta](#direct-mail-surface).
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Definir as configurações da correspondência direta"
->abstract="A superfície de correspondência direta contém as configurações para a formatação do arquivo que contém os dados do público-alvo direcionado e será usada pelo provedor de email. Você também pode definir para onde o arquivo será exportado selecionando a configuração de roteamento do arquivo."
+>abstract="A superfície de correspondência direta contém as configurações para a formatação do arquivo que contém os dados do público direcionado e será usada pelo provedor de email. Você também pode definir para onde o arquivo será exportado selecionando a configuração de roteamento do arquivo."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=pt-BR#file-routing-configuration" text="Configurar o roteamento de arquivos"
 
 <!--
@@ -115,13 +115,13 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="Definir o limite de divisão de arquivo"
->abstract="É necessário definir o número máximo de registros para cada arquivo contendo dados de público-alvo. Você pode selecionar qualquer número entre 1 e 200.000 registros.. Depois que o limite especificado for atingido, outro arquivo será criado para os registros restantes."
+>abstract="É necessário definir o número máximo de registros para cada arquivo contendo dados de público. Você pode selecionar qualquer número entre 1 e 200.000 registros.. Depois que o limite especificado for atingido, outro arquivo será criado para os registros restantes."
 
 Para poder enviar mala direta com [!DNL Journey Optimizer], é necessário criar uma superfície de canal para definir as configurações de formatação do arquivo que será usado pelo provedor de email.
 
 Uma superfície de correspondência direta também deve incluir a configuração de roteamento de arquivos, que define o servidor para o qual o arquivo de correspondência direta será exportado.
 
-1. Criar uma superfície de canal. [Saiba mais](../configuration/channel-surfaces.md)
+1. Crie uma superfície de canal. [Saiba mais](../configuration/channel-surfaces.md)
 
 1. Selecione o **[!UICONTROL Correspondência direta]** canal.
 

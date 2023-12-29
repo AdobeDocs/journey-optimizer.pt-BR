@@ -11,8 +11,8 @@ keywords: configuração, experimentação, relatórios, otimizador
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 48%
+source-wordcount: '592'
+ht-degree: 29%
 
 ---
 
@@ -45,7 +45,7 @@ Para essa configuração, é necessário adicionar um ou mais conjuntos de dados
 ## Pré-requisitos
 
 
-Antes de poder adicionar um conjunto de dados à configuração de relatórios, você deve criar esse conjunto de dados. Saiba mais na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
+Antes de poder adicionar um conjunto de dados à configuração de relatórios, você deve criar esse conjunto de dados. Saiba como na [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * Você só pode adicionar conjuntos de dados do tipo evento.
 
@@ -57,9 +57,9 @@ Antes de poder adicionar um conjunto de dados à configuração de relatórios, 
   >
   >Outros grupos de campos também podem ser incluídos, mas somente os grupos de campos acima são compatíveis com os relatórios do Journey Optimizer no momento.
 
-  Por exemplo, se você quiser saber o impacto de uma campanha de email nos dados de comércio, como compras ou pedidos, será necessário criar um conjunto de dados de evento de experiência com o grupo de campos `Commerce Details`. 
+  Por exemplo, se você quiser saber o impacto de uma campanha de email nos dados de comércio, como compras ou pedidos, será necessário criar um conjunto de dados de evento de experiência com o `Commerce Details` grupo de campos.
 
-  Da mesma forma, se quiser criar relatórios sobre interações móveis, será necessário criar um conjunto de dados de evento de experiência com o grupo de campos `Application Details`. 
+  Da mesma forma, se quiser criar relatórios sobre interações móveis, será necessário criar um conjunto de dados de evento de experiência com o `Application Details` grupo de campos.
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
@@ -67,7 +67,7 @@ Antes de poder adicionar um conjunto de dados à configuração de relatórios, 
 
 >[!NOTE]
 >
->Saiba mais sobre esquemas XDM e grupos de campos na [documentação de visão geral do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
+>Saiba mais sobre esquemas XDM e grupos de campos no [Documentação de visão geral do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
 
 <!--
 ## Objectives corresponding to each field group {#objective-list}
@@ -105,7 +105,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-datasets.png)
 
-   Saiba mais sobre conjuntos de dados na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target="_blank"}.
+   Saiba mais sobre conjuntos de dados na [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=pt-BR){target="_blank"}.
 
 1. No **[!UICONTROL ID do perfil]** , selecione o atributo de campo do conjunto de dados que será usado para identificar cada perfil em seus relatórios.
 
@@ -119,7 +119,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-namespace.png)
 
-   Saiba mais sobre namespaces na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=pt-BR){target="_blank"}.
+   Saiba mais sobre namespaces na [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=pt-BR){target="_blank"}.
 
 1. Salve as alterações para adicionar o conjunto de dados selecionado à lista de configuração de relatórios.
 

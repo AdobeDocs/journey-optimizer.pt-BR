@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 12%
+source-wordcount: '1105'
+ht-degree: 11%
 
 ---
 
@@ -109,7 +109,7 @@ Para criar um template de conteúdo do zero, siga as etapas abaixo.
 
    * [Código ou HTML bruto de copiar e colar](../email/code-content.md) diretamente no Designer de email.
 
-   * [Importar conteúdo HTML existente](../email/existing-content.md) de um arquivo ou uma pasta .zip.
+   * [Importar conteúdo de HTML existente](../email/existing-content.md) de um arquivo ou de uma pasta .zip.
 
    * Use conteúdo existente de uma lista de modelos incorporados ou personalizados. As etapas para usar um template de conteúdo em um email estão descritas em [nesta seção](../email/use-email-templates.md).
 

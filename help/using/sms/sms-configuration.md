@@ -14,7 +14,7 @@ ht-degree: 3%
 
 ---
 
-# Configurar canal de SMS {#sms-configuration}
+# Configuração de canal de SMS {#sms-configuration}
 
 Antes de enviar SMS ou MMS, você deve configurar o ambiente do Adobe Journey Optimizer. Para executar isso:
 

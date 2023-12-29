@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
-source-wordcount: '1857'
-ht-degree: 7%
+source-wordcount: '1846'
+ht-degree: 6%
 
 ---
 
@@ -150,7 +150,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## Does not start with{#doesNotStartWith}
+## Não começa com{#doesNotStartWith}
 
 A variável `doesNotStartWith` é usada para determinar se uma sequência de caracteres não inicia com uma subsequência especificada.
 
@@ -368,7 +368,7 @@ A variável `indexOf` é usada para retornar a posição (no primeiro argumento)
 
 Retorna 6.
 
-## Is empty {#isEmpty}
+## Está vazio {#isEmpty}
 
 A variável `isEmpty` é usada para determinar se uma sequência de caracteres está vazia.
 
@@ -552,7 +552,7 @@ A variável `md5` é usada para calcular e retornar o hash md5 de uma sequência
 
 Retorna &quot;5eb63bbbbe01eed093cb22bb8f5acdc3&quot;
 
-## Not equal to{#notEqualTo}
+## Diferente de{#notEqualTo}
 
 A variável `notEqualTo` é usada para determinar se uma sequência de caracteres não é igual à sequência especificada.
 
@@ -673,7 +673,7 @@ A variável `rightTrim` Esta função remove espaços em branco do final de uma 
 {%= rightTrim(string) %}
 ```
 
-## Dividir {#split}
+## Divisão {#split}
 
 A variável `split` é usada para dividir uma sequência de caracteres por um determinado caractere.
 

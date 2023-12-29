@@ -11,8 +11,8 @@ keywords: tentativas, rejeição, software, otimizador, erro
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 13%
+source-wordcount: '467'
+ht-degree: 11%
 
 ---
 
@@ -58,7 +58,7 @@ Caso o valor padrão de 5 não atenda às suas necessidades, você poderá modif
    >
    >Qualquer valor maior que 10 pode causar problemas de reputação da capacidade de entrega, bem como limitação de IP ou incluir na lista de bloqueios por ISPs. [Saiba mais sobre a capacidade de entrega](../reports/deliverability.md)
 
-## Período de repetição {#retry-duration}
+## Período de nova tentativa {#retry-duration}
 
 A variável **período de nova tentativa** é o período no qual qualquer mensagem de email do delivery que encontrou um erro temporário ou uma rejeição temporária será repetida.
 

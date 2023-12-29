@@ -11,8 +11,8 @@ keywords: conteúdo, editor, email, iniciar
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 58%
+source-wordcount: '670'
+ht-degree: 54%
 
 ---
 
@@ -62,9 +62,9 @@ ht-degree: 58%
 
 Use o Adobe Journey Optimizer Designer para definir facilmente a estrutura do seu conteúdo. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, você pode projetar a forma do conteúdo em segundos.
 
-Para começar a criar o conteúdo de , siga as etapas abaixo:
+Para começar a criar o conteúdo, siga as etapas abaixo:
 
-1. Na página inicial do Designer de , selecione a opção **[!UICONTROL Criar do zero]**.
+1. Na página inicial do Designer, selecione o **[!UICONTROL Criar do zero]** opção.
 
    ![](assets/email_designer.png)
 

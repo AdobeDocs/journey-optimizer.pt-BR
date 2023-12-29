@@ -12,7 +12,7 @@ exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 78%
+ht-degree: 57%
 
 ---
 
@@ -23,6 +23,6 @@ ht-degree: 78%
 >title="Atividade “Fim”"
 >abstract="A atividade “Fim” permite marcar o fim de cada caminho da jornada. Não é obrigatório, mas recomendado para clareza visual. Na verdade, se a jornada tiver várias atividades finais, recomendamos adicionar um rótulo a cada “Fim” para facilitar a leitura dos relatórios."
 
-A variável **[!UICONTROL Fim]** permite marcar o final de cada caminho da jornada. Não é obrigatório, mas recomendado para clareza visual. Na verdade, se a jornada tiver várias atividades finais, recomendamos adicionar um rótulo a cada “Fim” para facilitar a leitura dos relatórios. Consulte [esta página](../reports/live-report.md).
+A variável **[!UICONTROL Fim]** permite marcar o final de cada caminho da jornada. Não é obrigatório, mas recomendado para clareza visual. Na verdade, se a jornada tiver várias atividades end, recomendamos adicionar um rótulo a cada end para facilitar a leitura dos relatórios. Consulte [esta página](../reports/live-report.md).
 
 ![](assets/journey54.png)

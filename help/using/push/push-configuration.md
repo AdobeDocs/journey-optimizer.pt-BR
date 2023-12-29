@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuração de notificação por push
+title: Configuração da notificação por push
 description: Saiba como configurar seu ambiente para enviar notificações por push com o Journey Optimizer
 feature: Push, Channel Configuration
 role: Admin
@@ -9,18 +9,18 @@ level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 5%
+source-wordcount: '1544'
+ht-degree: 4%
 
 ---
 
 # Configurar canal de notificação por push {#push-notification-configuration}
 
-[!DNL Journey Optimizer] O permite criar suas jornadas e enviar mensagens para o público-alvo direcionado. Antes de começar a enviar notificações por push com [!DNL Journey Optimizer], é necessário garantir que as configurações e integrações estejam em vigor no aplicativo móvel e para tags na Adobe Experience Platform. Para entender o fluxo de dados de notificações por push no [!DNL Adobe Journey Optimizer] consulte [esta página](push-gs.md).
+O [!DNL Journey Optimizer] permite criar jornadas e enviar mensagens para o público-alvo direcionado. Antes de começar a enviar notificações por push com [!DNL Journey Optimizer], é necessário garantir que as configurações e integrações estejam em vigor no aplicativo móvel e para tags na Adobe Experience Platform. Para entender o fluxo de dados de notificações por push no [!DNL Adobe Journey Optimizer], consulte [esta página](push-gs.md).
 
 >[!AVAILABILITY]
 >
->O novo **fluxo de trabalho de início rápido da integração com dispositivos móveis** O agora está disponível. Use esse novo recurso do produto para configurar rapidamente o SDK móvel para começar a coletar e validar dados de eventos móveis e enviar notificações por push em dispositivos móveis. Esse recurso é acessível por meio da página inicial da Coleção de dados, na forma de um beta público. [Saiba mais](mobile-onboarding-wf.md)
+>O novo **fluxo de trabalho de início rápido da integração com dispositivos móveis** O agora está disponível. Use esse novo recurso do produto para configurar rapidamente o SDK móvel para começar a coletar e validar dados de eventos móveis e enviar notificações por push em dispositivos móveis. Esse recurso é acessível por meio da página inicial da Coleção de dados como um beta público. [Saiba mais](mobile-onboarding-wf.md)
 >
 
 
@@ -71,7 +71,7 @@ Para atribuir **Propriedade** e **Empresa** , siga as etapas abaixo:
    * **[!UICONTROL Desenvolver]**
    * **[!UICONTROL Gerenciamento de ambientes]**
    * **[!UICONTROL Gerenciar extensões]**
-   * **[!UICONTROL Publicar]**
+   * **[!UICONTROL Publish]**
 
    Essas permissões são necessárias para instalar e publicar a extensão do Adobe Journey Optimizer e publicar a propriedade do aplicativo no SDK do Adobe Experience Platform Mobile.
 

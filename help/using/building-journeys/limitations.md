@@ -11,8 +11,8 @@ keywords: jornadas, limitação
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 68%
+source-wordcount: '512'
+ht-degree: 47%
 
 ---
 
@@ -38,12 +38,12 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 ## Limitações de ações personalizadas {#custom-actions-limitations}
 
 * O URL de ação personalizada não aceita parâmetros dinâmicos. 
-* Somente os métodos de chamada POST e PUT são compatíveis. 
-* O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou “$”. 
+* Somente os métodos de chamada POST e PUT são suportados. 
+* O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou &quot;$&quot;. 
 * Endereços IP não são permitidos. 
 * Endereços da Adobe internos (.adobe.) não são permitidos.
 
-## Eventos limitações {#events-limitations}
+## Limitações de eventos {#events-limitations}
 
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra no Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
 

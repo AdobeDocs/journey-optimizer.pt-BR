@@ -1,17 +1,18 @@
 ---
-title: Enviar provas de email
+title: Envio de provas de email
 description: Saiba como enviar provas de email.
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+exl-id: e742c04e-2987-4466-84af-bdaf4d714552
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 3%
+source-wordcount: '239'
+ht-degree: 5%
 
 ---
 
-# Enviar provas de email {#send-proofs}
+# Envio de provas de email {#send-proofs}
 
 Uma prova é uma mensagem específica que permite testar uma mensagem antes de enviá-la para o público-alvo principal. Os recipients da prova são responsáveis pela aprovação da mensagem: renderização, conteúdo, configurações de personalização e configuração.
 

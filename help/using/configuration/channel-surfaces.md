@@ -11,7 +11,7 @@ keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1624'
 ht-degree: 8%
 
 ---
@@ -235,7 +235,7 @@ Depois que o processo de validação for bem-sucedido, a nova versão da superf�
 * alguns minutos antes de ser consumido pelas mensagens unitárias,
 * até o próximo lote para que a superfície seja efetiva em mensagens em lote.
 
-#### Falha {#failed}
+#### Falhou {#failed}
 
 Se o processo de validação falhar, a versão mais antiga da superfície ainda será usada.
 

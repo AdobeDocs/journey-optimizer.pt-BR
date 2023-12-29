@@ -10,8 +10,8 @@ keywords: external, API, otimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 32%
+source-wordcount: '1250'
+ht-degree: 29%
 
 ---
 
@@ -45,7 +45,7 @@ Por exemplo, digamos que você tenha definido uma regra de limite ou limitação
 
 >[!IMPORTANT]
 >
->As **regras de limite** são configuradas no nível da sandbox para um ponto de acesso específico (o URL chamado), porém, são globais para todas as jornadas dessa sandbox. O limite está disponível em fontes de dados e ações personalizadas.
+>**Regras de limite** são configurados no nível da sandbox, para um endpoint específico (o URL chamado), mas globais para todas as jornadas dessa sandbox. O limite está disponível em fontes de dados e ações personalizadas.
 >
 >As **regras de limitação** são configuradas apenas em sandboxes de produção para um ponto de acesso específico, porém, são globais para todas as jornadas em todas as sandboxes. Você pode ter apenas uma configuração de limitação por organização. A limitação só está disponível em ações personalizadas.
 >

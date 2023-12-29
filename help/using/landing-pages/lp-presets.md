@@ -11,7 +11,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 18%
+ht-degree: 17%
 
 ---
 
@@ -68,7 +68,7 @@ Para criar uma predefinição de página de aterrissagem, siga as etapas abaixo.
 
    As configurações correspondentes ao subdomínio selecionado são exibidas.
 
-1. Se quiser selecionar o subdomínio da página de aterrissagem para o URL de rastreamento, verifique a **[!UICONTROL Igual ao subdomínio da página de destino]** opção. [Saiba mais sobre o rastreamento](../email/message-tracking.md)
+1. Se quiser selecionar o subdomínio da página de aterrissagem para o URL de rastreamento, verifique a **[!UICONTROL Igual ao subdomínio da página de destino]** opção. [Saiba mais sobre rastreamento](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

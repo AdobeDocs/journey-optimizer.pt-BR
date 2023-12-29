@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 9%
+source-wordcount: '531'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 ## Sobre fórmulas de classificação {#about-ranking-formulas}
 
-**Fórmulas de classificação** permitem definir regras que determinam qual oferta deve ser apresentada primeiro para uma determinada inserção, em vez de considerar as pontuações de prioridade das ofertas.
+**Fórmulas de classificação** O permite definir regras que determinarão qual oferta deve ser apresentada primeiro para determinada inserção, em vez de considerar as pontuações de prioridade das ofertas.
 
 As fórmulas de classificação são expressas em **Sintaxe PQL** e podem aproveitar atributos de perfil, dados de contexto e atributos de oferta. Para obter mais informações sobre como usar a sintaxe PQL, consulte o [documentação dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=pt-BR).
 

@@ -11,8 +11,8 @@ keywords: event, unitário, create, jornada
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 15%
+source-wordcount: '1606'
+ht-degree: 13%
 
 ---
 
@@ -27,7 +27,7 @@ Os eventos unitários são vinculados a um perfil específico. Eles podem ser ba
 
 Estas são as primeiras etapas para configurar um novo evento:
 
-1. Na seção de menu ADMINISTRAÇÃO, selecione **[!UICONTROL Configurações]**. No  **[!UICONTROL Eventos]** clique em **[!UICONTROL Gerenciar]**. A lista dos eventos é exibida.
+1. Na seção de menu ADMINISTRAÇÃO, selecione **[!UICONTROL Configurações]**. No  **[!UICONTROL Eventos]** clique em **[!UICONTROL Gerenciar]**. A lista de eventos é exibida.
 
    ![](assets/jo-event1.png)
 

@@ -11,8 +11,8 @@ keywords: expressão, editor, sintaxe, personalização
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 10%
+source-wordcount: '719'
+ht-degree: 8%
 
 ---
 
@@ -46,7 +46,7 @@ As palavras **true**, **false**, **null** e **indefinido** são permitidos somen
 
 Em Handlebars, os valores retornados pela variável {{expression}} são **HTML-escaped**. Se a expressão contiver `&`, a saída HTML-escaped retornada será gerada como `&amp;`. Se você não quiser que o Handlebars escape um valor, use o &quot;triple-stash&quot;.
 
-Em relação a argumentos de funções literais, o analisador de linguagem de modelo não suporta barra invertida sem escape única (`\`). Esse caractere deve ser evitado com uma barra invertida adicional (`\`). Exemplo :
+Em relação a argumentos de funções literais, o analisador de linguagem de modelo não suporta barra invertida sem escape única (`\`). Esse caractere deve ser evitado com uma barra invertida adicional (`\`). Exemplo:
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 

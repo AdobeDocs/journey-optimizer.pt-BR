@@ -12,7 +12,7 @@ exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 17%
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ Para começar a criar conteúdo para sua landing page [página principal](create
 
 A partir daí, você pode:
 
-* **Projetar a página de aterrissagem do zero** por meio da interface do designer de conteúdo e aproveite imagens de [Adobe Experience Manager Assets](../content-management/assets.md). Saiba como criar conteúdo de <!--or use built-in templates--> [nesta seção](../email/content-from-scratch.md).
+* **Projetar a página de aterrissagem do zero** por meio da interface do designer de conteúdo e aproveite imagens de [Adobe Experience Manager Assets](../content-management/assets.md). Saiba como criar seu conteúdo <!--or use built-in templates--> [nesta seção](../email/content-from-scratch.md).
 
 * **Codificar ou colar HTML bruto** diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../email/code-content.md).
 

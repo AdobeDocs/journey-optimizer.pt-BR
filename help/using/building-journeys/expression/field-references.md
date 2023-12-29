@@ -10,8 +10,8 @@ keywords: jornada, campo, expressão, evento
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 3%
+source-wordcount: '562'
+ht-degree: 2%
 
 ---
 
@@ -101,7 +101,7 @@ Você pode adicionar qualquer tipo de expressão como valor padrão. A única re
 
 Os elementos definidos nas coleções são referenciados usando as funções específicas `all`, `first` e `last`. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
 
-Exemplo :
+Exemplo:
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
@@ -109,7 +109,7 @@ Exemplo :
 
 ## Referência a um campo definido em um mapa
 
-### Função `entry` 
+### `entry` função
 
 Para recuperar um elemento em um mapa, usamos a função de entrada com uma determinada chave. Por exemplo, ele é usado ao definir a chave de um evento, de acordo com o namespace selecionado. Para obter mais informações, consulte [esta página](../../event/about-creating.md#select-the-namespace).
 
@@ -119,7 +119,7 @@ Para recuperar um elemento em um mapa, usamos a função de entrada com uma dete
 
 Nesta expressão, estamos obtendo a entrada da chave &quot;Email&quot; do campo &quot;IdentityMap&quot; de um evento. A entrada &quot;Email&quot; é uma coleção, da qual obtemos a &quot;id&quot; no primeiro elemento usando &quot;first()&quot;. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
 
-### Função `firstEntryKey` 
+### `firstEntryKey` função
 
 Para recuperar a primeira chave de entrada de um mapa, use o `firstEntryKey` função.
 
@@ -131,7 +131,7 @@ Este exemplo mostra como recuperar o primeiro endereço de email dos assinantes 
 
 Neste exemplo, a lista de assinaturas é nomeada `daily-email`. Os endereços de email são definidos como chaves na variável `subscribers` que é vinculado ao mapa da lista de assinaturas.
 
-### Função `keys` 
+### `keys` função
 
 Para recuperar todas as chaves de um mapa, use o `keys` função.
 

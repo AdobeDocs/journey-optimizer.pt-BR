@@ -11,8 +11,8 @@ keywords: jornada, atividades, introdução, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 17%
+source-wordcount: '538'
+ht-degree: 14%
 
 ---
 

@@ -11,8 +11,8 @@ keywords: campaign, standard, integration, capping, action
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 5%
+source-wordcount: '431'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ A mensagem transacional Campaign Standard e o evento associado devem ser publica
 
 ## Observações importantes {#important-notes}
 
-* Uma regra de limitação de 4.000 chamadas a cada 5 minutos é definida automaticamente para ações do Adobe Campaign Standard. Isso corresponde à escala oficial das Mensagens transacionais do Adobe Campaign Standard. Leia mais sobre SLAs de mensagens transacionais em [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
+* Uma regra de limitação de 4.000 chamadas a cada 5 minutos é definida automaticamente para ações do Adobe Campaign Standard. Isso corresponde à escala oficial das Mensagens transacionais do Adobe Campaign Standard. Leia mais sobre SLAs de mensagens transacionais em [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html).
 
 * A integração do Adobe Campaign Standard é configurada por meio de uma ação incorporada dedicada na lista de ações. Isso precisa ser configurado para cada sandbox.
 

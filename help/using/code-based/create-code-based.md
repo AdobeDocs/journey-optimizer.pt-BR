@@ -11,8 +11,8 @@ badge: label="Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 12%
+source-wordcount: '1026'
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ Para começar a criar sua experiência baseada em código por meio de uma campan
 >
 >Atualmente em [!DNL Journey Optimizer] você só pode criar experiências baseadas em código usando **campanhas**.
 
-1. Criar uma campanha. [Saiba mais](../campaigns/create-campaign.md)
+1. Crie uma campanha. [Saiba mais](../campaigns/create-campaign.md)
 
 1. Selecione o **[!UICONTROL Experiência baseada em código (Beta)]** ação.
 

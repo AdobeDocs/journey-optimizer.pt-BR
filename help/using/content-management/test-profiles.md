@@ -1,5 +1,5 @@
 ---
-title: Selecionar perfis de teste
+title: Seleção de perfis de teste
 description: Saiba como selecionar perfis de teste para visualizar e testar o conteúdo.
 feature: Preview, Proofs
 role: User
@@ -12,7 +12,7 @@ ht-degree: 16%
 
 ---
 
-# Selecionar perfis de teste {#select-test-profiles}
+# Seleção de perfis de teste {#select-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"

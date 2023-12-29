@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 3%
+source-wordcount: '1834'
+ht-degree: 2%
 
 ---
 
@@ -61,7 +61,7 @@ Clique em `...` ícone para exibir a descrição da função e adicioná-la aos 
         <td><a href="arrays-list.md#first-n">Primeiro N na matriz</a></td><td>Esta função retorna os primeiros itens "N" em uma matriz quando classificados em ordem crescente com base na expressão numérica fornecida</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">Em</a></td><td>Esta função é usada para determinar se um item é membro de uma matriz ou lista</td>
+        <td><a href="arrays-list.md#in">Entrada</a></td><td>Esta função é usada para determinar se um item é membro de uma matriz ou lista</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#includes">Inclui</a></td><td>Esta função determina se uma matriz ou lista contém um determinado item.</td>
@@ -135,7 +135,7 @@ Clique em `...` ícone para exibir a descrição da função e adicioná-la aos 
 
 <table>
     <tr>
-        <td><a href="maps.md#get">Obtenha</a></td><td>Esta função é usada para recuperar o valor de um mapa para uma determinada chave.</td>
+        <td><a href="maps.md#get">Obter</a></td><td>Esta função é usada para recuperar o valor de um mapa para uma determinada chave.</td>
     </tr>
     <tr>
         <td><a href="maps.md#keys">Chaves</a></td><td>Esta função é usada para recuperar todas as chaves de um determinado mapa</td>
@@ -155,7 +155,7 @@ Clique em `...` ícone para exibir a descrição da função e adicioná-la aos 
         <td><a href="math.md#format-number">Formatar número</a></td><td>Essa função formata qualquer número em sua representação sensível a linguagem.</td>
     </tr>
     <tr>
-        <td><a href="math.md#random">Random</a></td><td>Esta função retorna um valor aleatório entre 0 e 1.</td>
+        <td><a href="math.md#random">Aleatório</a></td><td>Esta função retorna um valor aleatório entre 0 e 1.</td>
     </tr>
     <tr>
         <td><a href="math.md#round-down">Arredondar para baixo</a></td><td>Esta função arredonda um número para baixo.</td>
@@ -210,7 +210,7 @@ Clique em `...` ícone para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#doesNotEndWith">Não termina com</a></td><td>Esta função é usada para determinar se uma sequência de caracteres não termina com uma subsequência especificada.</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotStartWith">Does not start with</a></td><td>Esta função é usada para determinar se uma sequência de caracteres não inicia com uma subsequência especificada.</td>
+        <td><a href="string.md#doesNotStartWith">Não começa com</a></td><td>Esta função é usada para determinar se uma sequência de caracteres não inicia com uma subsequência especificada.</td>
     </tr>
     <tr>
         <td><a href="string.md#encode64">Codificação 64</a></td><td>Esta função é usada para codificar ou decodificar uma string.</td>
@@ -274,7 +274,7 @@ Clique em `...` ícone para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#md5">MD5</a></td><td>Esta função retorna o hash md5 da sequência de caracteres de entrada.</td>
     </tr>
     <tr>
-        <td><a href="string.md#notEqualTo">Not equal to</a></td><td>Esta função é usada para determinar se uma sequência de caracteres não é igual à sequência especificada.</td>
+        <td><a href="string.md#notEqualTo">Diferente de</a></td><td>Esta função é usada para determinar se uma sequência de caracteres não é igual à sequência especificada.</td>
     </tr>
     <tr>
         <td><a href="string.md#not-equal-with-ignore-case">Diferente de Ignorar Maiúsculas e Minúsculas</a></td><td>Esta função compara duas sequências de caracteres ignorando maiúsculas e minúsculas.</td>
@@ -292,7 +292,7 @@ Clique em `...` ícone para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#rightTrim">Cortar à direita</a></td><td>Esta função remove os espaços em branco do final de uma sequência de caracteres. </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">Dividir</a></td><td>Esta função é usada para dividir uma sequência de caracteres por um determinado caractere.</td>
+        <td><a href="string.md#split">Divisão</a></td><td>Esta função é usada para dividir uma sequência de caracteres por um determinado caractere.</td>
     </tr>
     <tr>
         <td><a href="string.md#startsWith">Começa com</a></td><td>Esta função é usada para determinar se uma sequência de caracteres inicia com uma subsequência especificada.</td>
@@ -410,7 +410,7 @@ As funções de comparação são usadas para comparar entre diferentes express�
         <td><a href="operators.md#equals">Igual a</a></td><td>Esta operação verifica se os valores são iguais</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthan">Greater than</a></td><td>Este operador verifica se o primeiro valor é maior que o segundo valor</td>
+        <td><a href="operators.md#greaterthan">Maior que</a></td><td>Este operador verifica se o primeiro valor é maior que o segundo valor</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthanorequal">Maior ou igual a</a></td><td>Este operador verifica se o primeiro valor é maior ou igual ao segundo valor</td>

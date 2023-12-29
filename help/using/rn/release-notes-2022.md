@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
-workflow-type: ht
-source-wordcount: '3575'
+workflow-type: tm+mt
+source-wordcount: '3602'
 ht-degree: 100%
 
 ---
@@ -681,8 +681,8 @@ Como cliente do Adobe Campaign Standard, agora você pode enviar emails, notific
 
 **Administração**
 
-* Agora é possível ativar/desativar o link de cancelamento de inscrição no/do cabeçalho do email no nível da predefinição da mensagem e definir um URL de cancelamento de inscrição personalizado no nível da mensagem. [Saiba mais](../configuration/channel-surfaces.md#list-unsubscribe)
-* A lista de permissões agora poderá ser ativada e desativada por meio da interface do [!DNL Journey Optimizer] em sandboxes de produção e não produção. [Saiba mais](../configuration/allow-list.md#enable-allow-list)
+* Agora é possível habilitar ou desabilitar o link de cancelamento de inscrição no/do cabeçalho do email no nível da predefinição da mensagem e definir um URL de cancelamento de inscrição personalizado no nível da mensagem. [Saiba mais](../configuration/channel-surfaces.md#list-unsubscribe)
+* A lista de permissões agora poderá ser habilitada ou desabilitada por meio da interface do [!DNL Journey Optimizer] em sandboxes de produção e não produção. [Saiba mais](../configuration/allow-list.md#enable-allow-list)
 
 **Personalização**
 

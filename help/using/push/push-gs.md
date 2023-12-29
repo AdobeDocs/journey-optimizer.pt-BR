@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 10%
+source-wordcount: '729'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Esta página ajuda você a configurar e entender os principais serviços e fluxo
 
 >[!AVAILABILITY]
 >
->O novo **fluxo de trabalho de início rápido da integração com dispositivos móveis** O agora está disponível. Use esse novo recurso do produto para configurar rapidamente o SDK móvel para começar a coletar e validar dados de eventos móveis e enviar notificações por push em dispositivos móveis. Esse recurso é acessível por meio da página inicial da Coleção de dados, na forma de um beta público. [Saiba mais](mobile-onboarding-wf.md)
+>O novo **fluxo de trabalho de início rápido da integração com dispositivos móveis** O agora está disponível. Use esse novo recurso do produto para configurar rapidamente o SDK móvel para começar a coletar e validar dados de eventos móveis e enviar notificações por push em dispositivos móveis. Esse recurso é acessível por meio da página inicial da Coleção de dados como um beta público. [Saiba mais](mobile-onboarding-wf.md)
 >
 
 Saiba como criar notificações por push no [esta página](create-push.md).

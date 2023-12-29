@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 2%
+source-wordcount: '2355'
+ht-degree: 1%
 
 ---
 
@@ -90,7 +90,7 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
      Saiba como criar uma regra de decisão no [nesta seção](../offer-library/creating-decision-rules.md).
 
-1. Ao selecionar públicos-alvo ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
+1. Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
 
    >[!NOTE]
    >
@@ -293,7 +293,7 @@ Para fazer isso, selecione-o na lista de ofertas substitutas disponíveis para o
 >
 >Você pode clicar no link **[!UICONTROL Abrir biblioteca de ofertas]** para exibir a lista de ofertas em uma nova guia.
 
-## Revise e salve a decisão {#review}
+## Revisar e salvar a decisão {#review}
 
 Se tudo estiver configurado corretamente, um resumo das propriedades de decisão será exibido.
 

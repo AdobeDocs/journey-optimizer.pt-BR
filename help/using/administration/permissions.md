@@ -11,8 +11,8 @@ level: Intermediate
 keywords: produto, perfis, sandbox
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 8%
+source-wordcount: '740'
+ht-degree: 4%
 
 ---
 
@@ -83,7 +83,7 @@ Observe que, se você modificar um pacote pronto para uso ou personalizado, **[!
 
 1. Se necessário, em **[!UICONTROL Itens de permissão incluídos]**, clique no ícone X ao lado de remover permissões ou recursos da função.
 
-1. Ao terminar, clique em **[!UICONTROL Salvar]**.
+1. Quando terminar, clique em **[!UICONTROL Salvar]**.
 
 Se necessário, você também pode criar uma nova função com permissões específicas. Para obter mais informações, consulte [Criar uma nova função](#create-product-profile).
 
@@ -91,7 +91,7 @@ Se necessário, você também pode criar uma nova função com permissões espec
 
 [!DNL Journey Optimizer] permite criar o seu próprio **[!UICONTROL Funções]** e atribua um conjunto de permissões e sandboxes aos usuários. Com **[!UICONTROL Funções]**, você pode autorizar ou negar acesso a determinadas funcionalidades ou objetos na interface.
 
-Para obter mais informações sobre como criar e gerenciar sandboxes, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR){target="_blank"}.
+Para obter mais informações sobre como criar e gerenciar sandboxes, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR){target="_blank"}.
 
 Neste exemplo, criaremos uma função chamada **Jornada somente leitura** onde concederemos direitos somente leitura ao recurso de Jornada. Os usuários só poderão acessar e visualizar jornadas e não poderão acessar outros recursos, como **[!DNL  Decision management]** in [!DNL Journey Optimizer].
 
@@ -121,8 +121,8 @@ Para criar o nosso **Jornada somente leitura** **[!UICONTROL Função]**:
 
    ![](assets/do-not-localize/access_control_12.png)
 
-1. Ao terminar, clique em **[!UICONTROL Salvar]**.
+1. Quando terminar, clique em **[!UICONTROL Salvar]**.
 
 Seu **[!UICONTROL Função]** O agora é criado e configurado. Agora é necessário atribuí-lo aos usuários.
 
-Para obter mais informações sobre criação e gerenciamento de funções, consulte [Documentação do Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).
+Para obter mais informações sobre criação e gerenciamento de funções, consulte [Documentação do Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=pt-BR).

@@ -7,7 +7,7 @@ level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '951'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Esta página documenta os cálculos estatísticos detalhados usados no relatóri
 
 Observe que esta página é destinada a usuários técnicos.
 
-## Taxa de conversão
+## Índice de conversão
 
 A taxa de conversão ou **média**, μ<sub>ν</sub> para cada tratamento `ν` em um Experimento é definida como uma proporção da soma da métrica em relação ao número de perfis atribuídos a essa métrica, N<sub>ν</sub>:
 

@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 23%
+ht-degree: 18%
 
 ---
 
@@ -78,7 +78,7 @@ Em alguns contextos específicos, é possível substituir esse valor usando o **
 
 >[!CAUTION]
 >
->A substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, não é necessário alterar o endereço de email, pois o valor definido como o endereço principal nos **[!UICONTROL Campos de execução]** é o que deve ser usado.
+>A substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, não é necessário alterar o endereço de email, pois o valor é definido como o endereço principal na variável **[!UICONTROL Campos de execução]** é o que deve ser usado.
 
 Substituir esse valor pode ser útil, por exemplo, para:
 

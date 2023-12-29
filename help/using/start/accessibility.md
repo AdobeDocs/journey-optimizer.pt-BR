@@ -9,7 +9,7 @@ level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '534'
 ht-degree: 100%
 
 ---
@@ -113,7 +113,7 @@ Painel de configuração destes elementos:
   </tr>
   <tr>
     <td rowspan="4">Jornada no modo de teste</td>
-    <td>Ative ou desative o modo de teste</td>
+    <td>Habilitar ou desabilitar o modo de teste</td>
     <td>T</td>
   </tr>
   <tr>

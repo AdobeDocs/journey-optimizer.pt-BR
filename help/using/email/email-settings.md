@@ -11,8 +11,8 @@ keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
-source-wordcount: '2340'
-ht-degree: 13%
+source-wordcount: '2322'
+ht-degree: 12%
 
 ---
 
@@ -127,7 +127,7 @@ No **[!UICONTROL Parâmetros de cabeçalho]** insira os nomes dos remetentes e o
 
 >[!CAUTION]
 >
->Os endereços do **[!UICONTROL Email do remetente]** e do **[!UICONTROL Email de erro]**[ devem usar o subdomínio delegado selecionado atual](../configuration/about-subdomain-delegation.md). Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você pode usar *contact@marketing.luma.com* e *error@marketing.luma.com*.
+>A variável **[!UICONTROL Email do remetente]** e **[!UICONTROL Email de erro]** os endereços devem usar o endereço selecionado [subdomínio delegado](../configuration/about-subdomain-delegation.md). Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você pode usar *contact@marketing.luma.com* e *error@marketing.luma.com*.
 
 ![](assets/preset-header.png)
 

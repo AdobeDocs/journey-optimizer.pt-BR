@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 6%
+source-wordcount: '1100'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ As principais etapas para configurar ofertas, incluí-las em uma decisão e apro
 
    * Criar inserções
    * Criar regras de decisão
-   * Criar qualificadores de coleção (anteriormente conhecido como &quot;tags&quot;)
+   * Criar qualificadores de coleção (anteriormente conhecidos como &quot;tags&quot;)
    * Criar classificações (opcional)
 
 1. [Configurar as ofertas](#configure-offers)
@@ -114,7 +114,7 @@ Você os encontrará na **[!UICONTROL Gerenciamento de decisão]** > **[!UICONTR
 
 Agora você pode criar e configurar suas ofertas. Neste exemplo, você criará quatro ofertas que deseja exibir de acordo com cada perfil específico.
 
-1. Criar uma oferta. Saiba mais [nesta seção](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
+1. Crie uma oferta. Saiba mais [nesta seção](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
 
 1. Nesta oferta, crie três representações. Cada representação deve ser uma combinação de uma disposição criada anteriormente e um ativo:
 
@@ -155,7 +155,7 @@ As etapas detalhadas para criar e configurar ofertas estão descritas em [nesta 
 
 ## Criar uma oferta substituta {#create-fallback}
 
-1. Criar uma oferta substituta.
+1. Crie uma oferta substituta.
 
 1. Defina as mesmas representações das ofertas, com ativos apropriados (eles devem ser diferentes daqueles usados em suas ofertas).
 
@@ -195,7 +195,7 @@ Essa combinação será usada pelo mecanismo de decisão para encontrar a melhor
 
 Para criar e configurar uma decisão de oferta, siga as etapas principais abaixo:
 
-1. Criar uma decisão. Saiba mais [nesta seção](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
+1. Crie uma decisão. Saiba mais [nesta seção](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
 
 1. Selecione o *Web - Imagem*, *Email - Imagem* e *Não digital - Texto* posicionamentos.
 

@@ -11,8 +11,8 @@ keywords: perfis de teste, teste, teste, jornada
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 4%
+source-wordcount: '1328'
+ht-degree: 2%
 
 ---
 
@@ -163,7 +163,7 @@ No Adobe Experience Platform, é possível criar perfis carregando um arquivo cs
    ![](assets/test-profiles-14.png)
 1. Escolher **Mapear CSV para esquema XDM** e, em seguida, clique em **Launch**.
    ![](assets/test-profiles-16.png)
-1. Selecione o conjunto de dados para o qual você deseja importar os perfis. Clique em **Próximo**.
+1. Selecione o conjunto de dados para o qual você deseja importar os perfis. Clique em **Avançar**.
    ![](assets/test-profiles-17.png)
 1. Clique em **Escolher arquivos** e selecione o arquivo csv. Quando o arquivo for carregado, clique em **Próxima**.
    ![](assets/test-profiles-18.png)
@@ -181,7 +181,7 @@ Seus perfis de teste são adicionados e agora podem ser usados ao testar uma jor
 
 ## Criar perfis de teste usando chamadas de API{#create-test-profiles-api}
 
-Você também pode criar perfis de teste por meio de chamadas de API. Saiba mais em [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
+Você também pode criar perfis de teste por meio de chamadas de API. Saiba mais em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}.
 
 Você deve usar um esquema de Perfil que contenha o grupo de campos &quot;Detalhes do teste de perfil&quot;. O sinalizador testProfile faz parte deste grupo de campos.
 Ao criar um perfil, passe o valor: testProfile = true.

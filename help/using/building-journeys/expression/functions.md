@@ -11,7 +11,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 73%
+ht-degree: 71%
 
 ---
 
@@ -65,7 +65,7 @@ Esta é a lista de funções compatíveis.
 | Lista | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | Lista | [filtro](../functions/functionfilter.md) |
 | Lista | [getListItem](../functions/functiongetlistitem.md) |
-| Lista | [no](../functions/functionin.md) |
+| Lista | [in](../functions/functionin.md) |
 | Lista | [interseção](../functions/functionintersect.md) |
 | Lista | [listSize](../functions/functionlimit.md) |
 | Lista | [listSize](../functions/functionlistsize.md) |
@@ -83,7 +83,7 @@ Esta é a lista de funções compatíveis.
 | String | [isEmpty](../functions/functionisempty.md) |
 | String | [isNotEmpty](../functions/functionisnotempty.md) |
 | String | [lastIndexOf](../functions/functionlastindexof.md) |
-| String | [comprimento](../functions/functionlength.md) |
+| String | [length](../functions/functionlength.md) |
 | String | [lower](../functions/functionlower.md) |
 | String | [matchRegExp](../functions/functionmatchregexp.md) |
 | String | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |

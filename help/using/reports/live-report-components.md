@@ -11,7 +11,7 @@ exl-id: 12168cdf-f517-49b5-958b-ba689ade6982
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 8%
+ht-degree: 3%
 
 ---
 
@@ -67,7 +67,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Total de erros acumulados durante o processamento de entrega e retorno automático.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Taxa de rejeição <br/> </td> 
+   <td> Taxa de rejeição<br/> </td> 
    <td> Porcentagem de emails que foram rejeitados em comparação aos emails enviados.<br/> </td> 
 </tr>
   <tr> 
@@ -75,7 +75,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número de vezes que um conteúdo foi clicado em um email.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Entregues <br/> </td> 
+   <td> Entregue <br/> </td> 
    <td> Número de mensagens enviadas com êxito.<br/></td> 
 </tr> 
   <tr> 
@@ -135,7 +135,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número de emails na fila para tentativas.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Enviado<br/> </td> 
+   <td> Sent<br/> </td> 
    <td> Número total de envios para a entrega.<br/> </td> 
 </tr>
   <tr> 
@@ -234,7 +234,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Total de erros acumulados durante o processamento de entrega e retorno automático.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Entregues<br/> </td> 
+   <td> Entregue<br/> </td> 
    <td> Número de mensagens enviadas com êxito.<br/> </td> 
 </tr> 
   <tr> 
@@ -254,7 +254,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número total de notificações por push entregues ao dispositivo e clicadas pelos usuários, abrindo o aplicativo. Isso é semelhante ao clique por push, exceto que uma abertura por push não será acionada se a notificação tiver sido descartada.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Enviado<br/> </td> 
+   <td> Sent<br/> </td> 
    <td> Número total de envios para a entrega.<br/> </td> 
 </tr> 
   <tr> 

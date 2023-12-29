@@ -12,7 +12,7 @@ exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 54%
+ht-degree: 43%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 54%
 >title="Sobre ações"
 >abstract="É aqui que você define a conexão com o sistema que enviará mensagens. As ações definidas aqui estarão disponíveis na paleta esquerda da sua jornada, na categoria Ação."
 
-As ações são conexões através das quais você fornece experiências personalizadas em tempo real para clientes, como notificações por push, email,  ou qualquer outro meio de engajamento digital usado em sua empresa.
+As ações são conexões através das quais você fornece experiências personalizadas em tempo real para clientes, como notificações por push, email ou qualquer outro meio de engajamento digital usado em sua empresa.
 
 ➡️ [Descubra este recurso no vídeo](#video)
 

@@ -11,8 +11,8 @@ keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 11%
+source-wordcount: '1525'
+ht-degree: 10%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 11%
 
 Use perfis de teste para testar a jornada antes de publicá-la. Esse modo permite executar um teste da jornada e identificar problemas usando perfis de teste.
 
-Somente perfis de teste podem entrar em uma jornada no modo de teste. Você pode criar novos perfis de teste ou transformar perfis existentes em perfis de teste. Saiba mais sobre perfis de teste no [nesta seção](../audience/creating-test-profiles.md).
+Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar novos perfis de teste ou transformar perfis existentes em perfis de teste. Saiba mais sobre perfis de teste no [nesta seção](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >

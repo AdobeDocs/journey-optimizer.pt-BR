@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 17%
+source-wordcount: '254'
+ht-degree: 7%
 
 ---
 
@@ -28,7 +28,7 @@ Comece criando o esquema que será usado no seu conjunto de dados:
 
    >[!NOTE]
    >
-   >Saiba mais sobre esquemas XDM e grupos de campos na [documentação de visão geral do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
+   >Saiba mais sobre esquemas XDM e grupos de campos no [Documentação de visão geral do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
 
 1. Insira um nome e uma descrição para o esquema e clique em **Concluir**.
    ![](../assets/ai-ranking-xdm-event-2.png)
@@ -51,7 +51,7 @@ Comece criando o esquema que será usado no seu conjunto de dados:
 
 >[!NOTE]
 >
->Saiba mais sobre a criação de esquemas em [Noções básicas da composição do esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR#understanding-schemas){target="_blank"}.
+>Saiba mais sobre a criação de esquemas em [Noções básicas da composição do esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
 Agora você está pronto para criar um conjunto de dados usando este esquema. Para fazer isso, siga as etapas abaixo:
 

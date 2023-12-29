@@ -1,17 +1,18 @@
 ---
-title: Pré-visualizar seu conteúdo
+title: Visualização do conteúdo
 description: Saiba como visualizar seu conteúdo.
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+exl-id: 6477270c-0309-411a-8254-c7ffc4419492
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
-# Pré-visualizar seu conteúdo {#preview}
+# Visualização do conteúdo {#preview}
 
 Uma vez [perfis de teste](test-profiles.md) forem selecionadas, você poderá visualizar seu conteúdo. Siga as etapas abaixo:
 

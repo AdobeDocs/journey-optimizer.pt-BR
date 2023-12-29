@@ -11,8 +11,8 @@ keywords: perfil, atualização, jornada, atividade
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 9%
+source-wordcount: '476'
+ht-degree: 8%
 
 ---
 
@@ -73,6 +73,6 @@ A variável **Atualizar perfil** O agora está configurado.
 
 No modo de teste, a atualização do perfil não será simulada. A atualização será executada no perfil de teste.
 
-Somente perfis de teste podem entrar em uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. No Adobe Experience Platform, você pode atualizar atributos de perfis por meio de uma importação de arquivo csv ou chamadas de API. Um método mais simples é usar um **Atualizar perfil** atividade de ação e alterar o campo booleano do perfil de teste de falso para verdadeiro.
+Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. No Adobe Experience Platform, você pode atualizar atributos de perfis por meio de uma importação de arquivo csv ou chamadas de API. Um método mais simples é usar um **Atualizar perfil** atividade de ação e alterar o campo booleano do perfil de teste de falso para verdadeiro.
 
 Para obter mais informações sobre como transformar um perfil existente em um perfil de teste, consulte este [seção](../audience/creating-test-profiles.md#create-test-profiles-csv).

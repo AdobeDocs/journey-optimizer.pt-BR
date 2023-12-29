@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 3f9d85dc77d3c572b1bad751646153874a5584c8
 workflow-type: tm+mt
-source-wordcount: '2664'
-ht-degree: 33%
+source-wordcount: '2665'
+ht-degree: 32%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 33%
 
 >[!IMPORTANT]
 >
-> Para acessar o menu **Relatório**, é necessário ter a permissão **[!UICONTROL Exibir Relatórios de Canal.]** [Saiba mais](channel-report-gs.md#before-starting-manage-reports-prereq)
+> Para acessar o **Relatório** , você deve ter o **[!UICONTROL Exibir Relatórios de Canal]** permissão. [Saiba mais](channel-report-gs.md#before-starting-manage-reports-prereq)
 
 Os Relatórios de canal fornecem aos usuários uma visão geral abrangente do tráfego e das métricas de engajamento no nível do canal. As métricas são agregadas para apresentar valores consolidados para ações originárias do canal escolhido, abrangendo várias campanhas e jornadas.
 
@@ -75,7 +75,7 @@ A página do relatório é exibida com as seguintes guias:
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_error_reasons"
->title="Motivos de erro"
+>title="Motivos do erro"
 >abstract="A tabela “Motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram durante o processo de envio."
 
 >[!CONTEXTUALHELP]
@@ -207,7 +207,7 @@ A variável **[!UICONTROL Motivos de rejeição por domínio]**, **[!UICONTROL E
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
->title="Motivos de erro"
+>title="Motivos do erro"
 >abstract="A tabela “Motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram durante o processo de envio."
 
 >[!CONTEXTUALHELP]
@@ -311,7 +311,7 @@ A variável **[!UICONTROL Rastreamento por plataforma]** e **[!UICONTROL Envio p
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_error_reasons"
->title="Motivos de erro"
+>title="Motivos do erro"
 >abstract="A tabela “Motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram durante o processo de envio."
 
 Nos relatórios de Canal, o menu SMS detalha as principais informações relativas ao SMS enviado em suas Campanhas e Jornadas. As métricas estão detalhadas abaixo.
@@ -376,7 +376,7 @@ A variável **[!UICONTROL Excluir motivos]**, **[!UICONTROL Motivos de rejeiçõ
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_error_reasons"
->title="Motivos de erro"
+>title="Motivos do erro"
 >abstract="A tabela “Motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram durante o processo de envio."
 
 Nos relatórios do Canal, o menu Direct mail detalha as principais informações relacionadas às mensagens de Direct mail enviadas em suas Campanhas e Jornadas. As métricas estão detalhadas abaixo.

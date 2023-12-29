@@ -10,12 +10,12 @@ level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 11%
+source-wordcount: '389'
+ht-degree: 7%
 
 ---
 
-# Trabalhar com o [!DNL Customer Journey Analytics] {#cja-ajo}
+# Trabalhar com [!DNL Customer Journey Analytics] {#cja-ajo}
 
 
 [!DNL Journey Optimizer] integração com [!DNL Customer Journey Analytics] O fornece uma visualização integral de todas as suas jornadas com distribuição automatizada de relatórios e visualizações personalizadas dos dados.

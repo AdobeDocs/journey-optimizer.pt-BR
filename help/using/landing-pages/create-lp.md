@@ -11,8 +11,8 @@ keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 25%
+source-wordcount: '1716'
+ht-degree: 21%
 
 ---
 
@@ -130,7 +130,7 @@ Para definir as configurações de página principal, siga as etapas abaixo.
 
    ![](assets/lp_open-designer.png)
 
-1. Definir o URL da página de destino. A primeira parte do URL exige que você configure anteriormente um subdomínio de página de destino como parte do [predefinição](../landing-pages/lp-presets.md#lp-create-preset) selecionado. [Saiba mais](../landing-pages/lp-subdomains.md)
+1. Defina o URL da sua landing page. A primeira parte do URL exige que você configure anteriormente um subdomínio de página de destino como parte do [predefinição](../landing-pages/lp-presets.md#lp-create-preset) selecionado. [Saiba mais](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -199,7 +199,7 @@ Para definir as configurações de subpágina, siga as etapas abaixo.
    >
    >É possível inserir um link para a página principal de qualquer subpágina da mesma página de destino. Por exemplo, para redirecionar os usuários que cometeram um erro e desejam assinar novamente, é possível adicionar um link da subpágina de confirmação para a página principal da assinatura. Saiba como inserir links no [nesta seção](../email/message-tracking.md#insert-links).
 
-1. Definir o URL da página de destino. A primeira parte do URL exige a configuração prévia de um subdomínio de página de destino. [Saiba mais](../landing-pages/lp-subdomains.md)
+1. Defina o URL da sua landing page. A primeira parte do URL exige a configuração prévia de um subdomínio de página de destino. [Saiba mais](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -215,7 +215,7 @@ Para definir as configurações de subpágina, siga as etapas abaixo.
 >id="ac_preview_lp_profiles"
 >title="Visualizar e testar a página de destino"
 >abstract="Depois de definir as configurações e o conteúdo da página de destino, você pode usar perfis de teste para visualizar."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=pt-BR" text="Selecionar perfis de teste"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=pt-BR" text="Seleção de perfis de teste"
 
 Depois que as configurações e o conteúdo da landing page forem definidos, você poderá usar perfis de teste para pré-visualizá-la. Se você inseriu [conteúdo personalizado](../personalization/personalize.md), você poderá verificar como esse conteúdo é exibido na página de aterrissagem, usando os dados do perfil de teste.
 

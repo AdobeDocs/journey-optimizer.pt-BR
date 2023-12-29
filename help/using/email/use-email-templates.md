@@ -11,8 +11,8 @@ keywords: email, modelos, design
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 28%
+source-wordcount: '269'
+ht-degree: 21%
 
 ---
 
@@ -42,7 +42,7 @@ Para começar a criar o conteúdo com um dos modelos de amostra ou salvos, siga 
 
 1. [Acessar o Designer de email](get-started-email-design.md) do email **[!UICONTROL Editar conteúdo]** tela.
 
-1. Na tela **[!UICONTROL Criar seu email]**, a guia **[!UICONTROL Modelos de exemplo]** é selecionada por padrão.
+1. No **[!UICONTROL Criar seu email]** tela, a variável **[!UICONTROL Modelos de amostra]** é selecionada por padrão.
 
 1. Para usar um modelo personalizado, vá para a **[!UICONTROL Modelos salvos]** guia.
 

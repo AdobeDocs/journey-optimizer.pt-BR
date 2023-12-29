@@ -10,8 +10,8 @@ level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
-workflow-type: ht
-source-wordcount: '1961'
+workflow-type: tm+mt
+source-wordcount: '1980'
 ht-degree: 100%
 
 ---
@@ -87,7 +87,7 @@ Determine a métrica que você objetiva e se as alterações feitas podem ter al
 Por exemplo, é improvável que a alteração do conteúdo do corpo da mensagem afete as taxas de abertura de email.
 +++
 
-+++Execute o teste no tamanho correto do público ou por tempo suficiente
++++Execute o teste no tamanho correto do público-alvo ou por tempo suficiente
 
 Se você executar seus testes por mais tempo, será possível detectar diferenças menores na métrica de meta entre os tratamentos. No entanto, se o valor da linha de base de sua métrica de meta for pequeno, você precisará de tamanhos de amostra maiores.
 O número de usuários que devem ser incluídos em seu experimento depende do tamanho do efeito que você deseja detectar, da variação ou propagação de sua métrica de meta, bem como de sua tolerância para erros falsos positivos e falsos negativos. Em Experimentos clássicos, você pode usar uma [calculadora de tamanho da amostra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=pt-BR){_blank} para determinar por quanto tempo deve executar o teste.
@@ -168,11 +168,11 @@ Depois de executar seu Experimento, há várias ações de acompanhamento possí
 
   Às vezes, os resultados de seus experimentos podem ser inconclusivos, seja porque não havia perfis suficientes incluídos para detectar qualquer diferença nos tratamentos, ou porque os tratamentos que você definiu não eram suficientemente diferentes.
 
-  Se a hipótese que você estava testando ainda for relevante, executar um teste de acompanhamento em um público maior ou diferente, ou modificar seus tratamentos para que haja diferenças mais claras, pode ser a melhor ação de acompanhamento.
+  Se a hipótese que você estava testando ainda for relevante, executar um teste de acompanhamento em um público-alvo maior ou diferente, ou modificar seus tratamentos para que haja diferenças mais claras, pode ser a melhor ação de acompanhamento.
 
 * **Fazer análises mais aprofundadas**
 
-  O tratamento que funciona bem para um público pode, às vezes, não ser o melhor tratamento para outro público. Fazer análises mais aprofundadas sobre como os tratamentos se comportam para públicos-alvo diferentes ajuda a gerar ideias para novos testes.
+  O tratamento que funciona bem para um público-alvo pode, às vezes, não ser o melhor tratamento para outro público-alvo. Fazer análises mais aprofundadas sobre como os tratamentos se comportam para públicos-alvo diferentes ajuda a gerar ideias para novos testes.
 
   Da mesma forma, estudar o desempenho de cada tratamento com métricas diferentes também pode oferecer uma visão mais abrangente dos seus Experimentos.
 

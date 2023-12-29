@@ -9,8 +9,8 @@ keywords: no aplicativo, mensagem, design, formatação
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 29%
+source-wordcount: '1148'
+ht-degree: 28%
 
 ---
 
@@ -171,7 +171,7 @@ Se a variável **[!UICONTROL Modo de formatação avançado]** estiver ativada, 
 
 +++
 
-## Configurações  Guia {#settings-tab}
+## Guia Configurações {#settings-tab}
 
 No **Configurações** defina o layout da mensagem e visualize a mensagem no aplicativo. Você também pode acessar opções avançadas de formatação.
 
@@ -238,7 +238,7 @@ Se a variável **[!UICONTROL Modo de formatação avançado]** estiver ativada, 
 
 **Tópicos relacionados:**
 
-* [Criar uma mensagem no aplicativo](create-in-app.md)
+* [Criar mensagem no aplicativo](create-in-app.md)
 * [Relatório no aplicativo](../reports/campaign-global-report.md#inapp-report)
 * [Configuração no aplicativo](inapp-configuration.md)
 

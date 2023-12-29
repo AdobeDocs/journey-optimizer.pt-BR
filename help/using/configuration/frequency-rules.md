@@ -11,8 +11,8 @@ keywords: mensagem, frequência, regras, pressão
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 13%
+source-wordcount: '990'
+ht-degree: 12%
 
 ---
 
@@ -73,7 +73,7 @@ Para criar uma nova regra, siga as etapas abaixo.
 
    ![](assets/message-rules-details.png)
 
-1. Selecionar a categoria da regra de mensagem.
+1. Selecione a categoria de regra de mensagem.
 
    >[!NOTE]
    >

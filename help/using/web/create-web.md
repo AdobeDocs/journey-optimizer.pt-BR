@@ -1,5 +1,5 @@
 ---
-title: Criação de experiências da Web
+title: Criação de experiências da web
 description: Saiba como criar uma página da Web e editar seu conteúdo no Journey Optimizer
 feature: Web Channel
 topic: Content Management
@@ -8,12 +8,12 @@ level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 18%
+source-wordcount: '833'
+ht-degree: 17%
 
 ---
 
-# Criação de experiências da Web {#create-web}
+# Criação de experiências da web {#create-web}
 
 [!DNL Journey Optimizer] O permite personalizar a experiência da web fornecida aos clientes por meio de campanhas da web de entrada.
 
@@ -41,11 +41,11 @@ Para começar a criar sua experiência da Web por meio de uma campanha, siga as 
 >
 >Se esta for a primeira vez que estiver criando uma experiência online, certifique-se de seguir os pré-requisitos descritos [nesta seção](web-prerequisites.md).
 
-1. Criar uma campanha. [Saiba mais](../campaigns/create-campaign.md)
+1. Crie uma campanha. [Saiba mais](../campaigns/create-campaign.md)
 
 1. Selecione o **[!UICONTROL Web]** ação.
 
-1. Definir uma superfície da Web.
+1. Defina uma superfície da web.
 
    >[!NOTE]
    >

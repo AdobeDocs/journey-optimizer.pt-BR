@@ -9,14 +9,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+exl-id: 38defa47-9b33-43a3-9b3e-d3aa4cb2857f
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 9%
+source-wordcount: '1084'
+ht-degree: 7%
 
 ---
 
-# Criar uma mensagem MMS {#create-mms}
+# Criação de uma mensagem MMS {#create-mms}
 
 ## Pré-requisitos{#sms-prerequisites}
 
@@ -46,7 +47,7 @@ Antes de criar sua mensagem SMS, primeiro é necessário configurar o fornecedor
 
 +++
 
-* Depois de concluído, você precisará criar uma superfície de SMS. Essas etapas devem ser executadas por um administrador do sistema do Adobe Journey Optimizer.
+* Depois de concluído, você precisará criar uma superfície de SMS. Essas etapas devem ser executadas por um administrador de sistema do Adobe Journey Optimizer.
 
 +++ Saiba como criar sua superfície de canal.
 
@@ -193,7 +194,7 @@ Agora é possível começar a projetar o conteúdo da sua mensagem SMS usando o 
 
    ![](assets/sms_create_7.png)
 
-1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na visualização. Você pode usar **[!UICONTROL Simular conteúdo]** para visualizar seus URLs encurtados ou conteúdo personalizado.
+1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na pré-visualização. Você pode usar **[!UICONTROL Simular conteúdo]** para visualizar seus URLs encurtados ou conteúdo personalizado.
 
 Agora você pode testar e enviar sua mensagem SMS para o público-alvo. [Saiba mais](send-sms.md)
 Depois de enviado, você pode medir o impacto do SMS nos relatórios do Campaign ou do Jornada. Para obter mais informações sobre relatórios, consulte [esta seção](../reports/campaign-global-report.md#sms-tab).
@@ -205,5 +206,5 @@ Depois de enviado, você pode medir o impacto do SMS nos relatórios do Campaign
 **Tópicos relacionados**
 
 * [Pré-visualizar, testar e enviar sua mensagem SMS](send-sms.md)
-* [Configurar canal de SMS](sms-configuration.md)
+* [Configuração de canal de SMS](sms-configuration.md)
 * [Relatório de SMS](../reports/journey-global-report.md#sms-global)

@@ -11,8 +11,8 @@ keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 33%
+source-wordcount: '960'
+ht-degree: 34%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 33%
 >Antes de criar uma nova campanha, verifique se você tem um canal de superfície (ou seja, predefinição de mensagem) e um público-alvo do Adobe Experience Platform pronto para uso. Saiba mais nestas seções:
 >
 >* [Criar superfícies de canal](../configuration/channel-surfaces.md)
->* [Introdução aos públicos](../audience/about-audiences.md)
+>* [Introdução a públicos](../audience/about-audiences.md)
 
 Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**. Você também pode duplicar uma campanha ao vivo existente para criar uma nova. [Saiba mais](modify-stop-campaign.md#duplicate)
 
@@ -83,7 +83,7 @@ No **[!UICONTROL Ações]** crie a mensagem a ser enviada com a campanha.
     <tr style="border: 0;">
     <td>
     <a href="../email/create-email.md">
-    <img alt="Cliente potencial" src="../assets/do-not-localize/email.jpg">
+    <img alt="Lead" src="../assets/do-not-localize/email.jpg">
     </a>
     <div><a href="../email/create-email.md"><strong>Criar emails</strong>
     </div>
@@ -91,7 +91,7 @@ No **[!UICONTROL Ações]** crie a mensagem a ser enviada com a campanha.
     </td>
     <td>
     <a href="../push/create-push.md">
-      <img alt="Pouco frequentes" src="../assets/do-not-localize/push.jpg">
+      <img alt="Pouco frequente" src="../assets/do-not-localize/push.jpg">
     </a>
     <div>
     <a href="../push/create-push.md"><strong>Criar notificações por push</strong></a>
@@ -120,7 +120,7 @@ No **[!UICONTROL Ações]** crie a mensagem a ser enviada com a campanha.
 
    Os resultados do rastreamento podem ser acessados no relatório da campanha após a execução da campanha. [Saiba mais sobre relatórios de campanha](../reports/campaign-global-report.md)
 
-## Definir o público {#audience}
+## Definir o público-alvo {#audience}
 
 Clique em **[!UICONTROL Selecionar público]** botão para exibir a lista de públicos-alvo disponíveis do Adobe Experience Platform. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)
 
