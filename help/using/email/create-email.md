@@ -12,7 +12,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: f2037f559826d7cca243092de200c97841c49b35
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Criação de email"
->abstract="Defina sua linha de assunto do email e abra o Designer de email para criar o conteúdo do email."
+>abstract="Defina o assunto do email e abra o Designer de email para criar seu conteúdo."
 
 
 ## Adicionar uma ação de email {#email-action}

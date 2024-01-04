@@ -12,16 +12,16 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: f2037f559826d7cca243092de200c97841c49b35
 workflow-type: tm+mt
 source-wordcount: '1169'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
-# Enviar mensagens de email, no aplicativo, push e texto {#add-a-message-in-a-journey}
+# Envio de mensagens de email, no aplicativo, push e de texto {#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Atividade de mensagem"
->abstract="O Journey Optimizer vem com recursos de mensagem incorporados. Você pode simplesmente adicionar, em sua jornada, um push, uma mensagem de texto (SMS/MMS), uma atividade no aplicativo ou de mensagem de email e definir configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
+>abstract="O Journey Optimizer vem com recursos de mensagem incorporados. É possível simplesmente adicionar em sua jornada uma atividade de mensagem via push, texto (SMS/MMS), no aplicativo ou email e definir as configurações e o conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
 
 [!DNL Journey Optimizer] O vem com recursos de mensagem incorporados. Você pode simplesmente adicionar, em sua jornada, um push, um SMS/MMS, uma atividade de mensagem no aplicativo ou por email e definir configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada.
 

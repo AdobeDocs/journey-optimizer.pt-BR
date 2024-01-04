@@ -11,26 +11,26 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 14%
+ht-degree: 24%
 
 ---
 
-# Configurar subdomínios de SMS {#sms-mms-subdomains}
+# Configuração de subdomínios de SMS {#sms-mms-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="Delegar um subdomínio SMS/MMS"
->abstract="Configure seu subdomínio para mensagens de texto (SMS/MMS). Você pode usar um subdomínio que já está delegado ao Adobe ou configurar um novo subdomínio."
+>title="Delegar um subdomínio de SMS/MMS"
+>abstract="Configure seu subdomínio para mensagens de texto (SMS/MMS). Você pode usar um subdomínio já delegado à Adobe ou configurar um novo subdomínio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="Delegar um subdomínio SMS/MMS"
->abstract="Você deve configurar um subdomínio para usar nas mensagens de texto, pois é necessário que esse subdomínio crie uma superfície de SMS. Você pode usar um subdomínio já delegado ao Adobe ou configurar um novo subdomínio."
+>title="Delegar um subdomínio de SMS/MMS"
+>abstract="Você precisa configurar um subdomínio para usar com suas mensagens de texto, pois ele será necessário para criar uma superfície de SMS. Você pode usar um subdomínio já delegado à Adobe ou configurar um novo subdomínio."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=br#message-preset-sms" text="Criar superfícies de SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="Selecionar um subdomínio SMS/MMS"
+>title="Selecionar um subdomínio de SMS/MMS"
 >abstract="Para criar uma superfície de SMS, verifique se você configurou anteriormente pelo menos um subdomínio de SMS que possa ser selecionado na lista Nome de subdomínio."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=br#message-preset-sms" text="Criar superfícies de SMS"
 

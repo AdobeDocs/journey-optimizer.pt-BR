@@ -11,11 +11,11 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
-# Criar uma mensagem de texto (SMS/MMS){#create-sms}
+# Criação de uma mensagem de texto (SMS/MMS){#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
@@ -86,12 +86,12 @@ Agora é possível começar a projetar o conteúdo da sua mensagem de texto a pa
 
 >[!ENDTABS]
 
-## Definir o conteúdo do SMS{#sms-content}
+## Definição do conteúdo do SMS{#sms-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
->title="Definir o conteúdo do SMS"
->abstract="Personalize e personalize suas mensagens de texto (SMS/MMS) usando o Editor de expressão para definir o conteúdo e incorporar elementos dinâmicos."
+>title="Definição do conteúdo do SMS"
+>abstract="Personalize as mensagens de texto (SMS/MMS) usando o Editor de expressão para definir o conteúdo e incorporar elementos dinâmicos."
 
 Para configurar o conteúdo de SMS, siga as etapas abaixo. As configurações para MMS estão detalhadas em [nesta seção](#mms-content).
 
