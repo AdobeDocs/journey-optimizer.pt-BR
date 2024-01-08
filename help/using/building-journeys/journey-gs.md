@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: ba870af16a92ffd5aae2bb4e0abb8f0cdbb8dc80
+source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 23%
+source-wordcount: '1769'
+ht-degree: 24%
 
 ---
 
@@ -150,7 +150,7 @@ Para obter mais informações sobre o gerenciamento de fuso horário, consulte [
 
 Você pode definir um **Data inicial**. Se não tiver especificado um, ele será definido automaticamente no momento da publicação.
 
-Você também pode adicionar um **Data final**. Isso permite que os perfis saiam automaticamente quando a data for atingida. Se nenhuma data final for especificada, os perfis poderão permanecer até que o [tempo limite de jornada global](#global_timeout) (que geralmente é de 30 dias e é reduzido para 7 dias com as ofertas complementares do Healthcare Shield e Security and Privacy Shield). A única exceção são as jornadas recorrentes de leitura de público com **Forçar reentrada na recorrência** ativadas, que terminam na data de início da próxima ocorrência.
+Você também pode adicionar um **Data final**. Isso permite que os perfis saiam automaticamente quando a data for atingida. Se nenhuma data final for especificada, os perfis poderão permanecer até que o [tempo limite de jornada global](#global_timeout) (que geralmente é de 30 dias e é reduzido para 7 dias com a oferta complementar do Healthcare Shield). A única exceção são as jornadas recorrentes de leitura de público com **Forçar reentrada na recorrência** ativadas, que terminam na data de início da próxima ocorrência.
 
 ### Tempo limite e erro em atividades de jornada {#timeout_and_error}
 
@@ -166,7 +166,7 @@ O Jornada também usa um tempo limite global. Consulte a [próxima seção](#glo
 
 Além do [timeout](#timeout_and_error) usado em atividades de jornada, também há um tempo limite de jornada global que não é exibido na interface e não pode ser alterado.
 
-Esse tempo limite global interrompe o progresso das pessoas físicas na jornada **30 dias** após entrarem. Este tempo limite é reduzido a **7 dias** com as ofertas complementares Healthcare Shield e Privacy and Security Shield. Isso significa que a jornada de um indivíduo não pode durar mais de 30 dias (ou 7 dias). Após esse período de tempo limite, os dados do indivíduo são excluídos. Os indivíduos que ainda fluem na jornada no final do período de tempo limite serão interrompidos e não serão considerados nos relatórios. Portanto, você poderia ver mais pessoas entrando na jornada do que saindo.
+Esse tempo limite global interrompe o progresso das pessoas físicas na jornada **30 dias** após entrarem. Este tempo limite é reduzido a **7 dias** com a oferta complementar do Healthcare Shield. Isso significa que a jornada de um indivíduo não pode durar mais de 30 dias (ou 7 dias). Após esse período de tempo limite, os dados do indivíduo são excluídos. Os indivíduos que ainda fluem na jornada no final do período de tempo limite serão interrompidos e não serão considerados nos relatórios. Portanto, você poderia ver mais pessoas entrando na jornada do que saindo.
 
 >[!NOTE]
 >
