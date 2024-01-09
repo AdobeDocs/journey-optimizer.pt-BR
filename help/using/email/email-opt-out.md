@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: recusar, email, link, cancelar inscrição
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 78%
+source-wordcount: '1029'
+ht-degree: 76%
 
 ---
 
@@ -22,11 +22,15 @@ Para fornecer aos recipients a capacidade de cancelar a inscrição para receber
 
 Para fazer isso, é possível:
 
-* Inserir um **link para uma landing page externa** em um email para permitir que os usuários cancelem a inscrição do recebimento de comunicações da sua marca. [Saiba como adicionar um link externo para opção de não participação](#opt-out-external-lp)
+* Inserir um **link para uma landing page** em um email para permitir que os usuários cancelem a inscrição do recebimento de comunicações da sua marca. Pode ser:
+
+   * A **[!DNL Journey Optimizer]landing page**. [Saiba como adicionar uma página de aterrissagem de recusa](../landing-pages/lp-use-cases.md#opt-out)
+
+   * A **uma landing page externa**. [Saiba como adicionar um link externo para opção de não participação](#opt-out-external-lp)
 
 * Adicionar um **link para opção de não participação com um clique** no seu conteúdo de email. Esse link permitirá que seus recipients cancelem rapidamente a inscrição de suas comunicações, sem ser redirecionados para uma página de destino em que precisam confirmar o cancelamento, agilizando o processo de cancelamento de inscrição. [Saiba como adicionar um link para opção de não participação com um clique](#one-click-opt-out)
 
-Além disso, se a variável **[!UICONTROL List-Unsubscribe]** estiver ativada no nível da superfície de canal, os emails correspondentes enviados com o Journey Optimizer incluirão um link de cancelamento de inscrição no cabeçalho do email. [Saiba mais sobre a opção de não participação no cabeçalho do email](#unsubscribe-header)
+* Adicione um link para cancelar a inscrição no cabeçalho do email. Se a variável **[!UICONTROL List-Unsubscribe]** estiver ativada no nível da superfície de canal, os emails correspondentes enviados com o Journey Optimizer incluirão um link de cancelamento de inscrição no cabeçalho do email. [Saiba mais sobre a opção de não participação no cabeçalho do email](#unsubscribe-header)
 
 >[!NOTE]
 >
@@ -161,7 +165,7 @@ Depois que a mensagem for enviada por meio de uma [jornada](../building-journeys
 >abstract="Ative o List-Unsubscribe para adicionar um link para cancelar inscrição ao cabeçalho do email. Para definir um URL para cancelar a inscrição, insira um link para opção de não participação de um clique no conteúdo da mensagem de email."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=pt-BR#one-click-opt-out" text="Recusar com um clique"
 
-Se a [opção Lista-Cancelar inscrição](../configuration/channel-surfaces.md#list-unsubscribe) estiver ativada no nível da superfície de canal, os emails correspondentes enviados com o [!DNL Journey Optimizer] incluirão um link de cancelamento de inscrição no cabeçalho do email.
+Se a [opção Lista-Cancelar inscrição](email-settings.md#list-unsubscribe) estiver ativada no nível da superfície de canal, os emails correspondentes enviados com o [!DNL Journey Optimizer] incluirão um link de cancelamento de inscrição no cabeçalho do email.
 
 Por exemplo, o link para cancelar a inscrição será exibido assim no Gmail:
 

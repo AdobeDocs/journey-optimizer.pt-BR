@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: página de aterrissagem, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '943'
 ht-degree: 12%
 
 ---
@@ -92,7 +92,9 @@ Todos os usuários que se registraram no evento receberão o email de confirmaç
 
 Para permitir que seus destinatários cancelem a inscrição de suas comunicações, você pode incluir um link para uma página de aterrissagem de recusa em seus emails.
 
-Saiba mais sobre como gerenciar o consentimento dos recipients e por que isso é importante no [nesta seção](../privacy/opt-out.md).
+>[!NOTE]
+>
+>Saiba mais sobre como gerenciar o consentimento dos recipients e por que isso é importante no [nesta seção](../privacy/opt-out.md).
 
 ### Gerenciamento de recusa {#opt-out-management}
 
@@ -103,7 +105,7 @@ Portanto, você sempre deve incluir um **link para cancelar a inscrição** em c
 * Ao clicar nesse link, os recipients serão direcionados a uma página de destino que inclui um botão para confirmar a recusa.
 * Ao clicar no botão de recusa, os dados do perfil serão atualizados com essas informações.
 
-### Configurar recusa {#configure-opt-out}
+### Configurar opção de não participação de email {#configure-opt-out}
 
 Para permitir que os recipients de um email cancelem a inscrição de suas comunicações por meio de uma landing page, siga as etapas abaixo.
 
