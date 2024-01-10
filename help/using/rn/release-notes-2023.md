@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 001117b273355b18a2f429ed686c30afd6d99e89
+source-git-commit: fa641124777093914e1d9bc03b28dbf42d9764d6
 workflow-type: tm+mt
-source-wordcount: '4125'
-ht-degree: 100%
+source-wordcount: '4121'
+ht-degree: 99%
 
 ---
 
@@ -118,11 +118,9 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Jornadas**
 
-* Agora é possível definir o nome da cópia da jornada ao duplicá-la. [Saiba mais](../building-journeys/journey-gs.md#uplicate-a-journey)
+* Agora é possível definir o nome da cópia da jornada ao duplicá-la. [Saiba mais](../building-journeys/journey-gs.md#uplicate-a-jornada
 
-
-
-* O suporte a respostas de ação personalizadas agora está disponível para o público geral. Esse recurso permite aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. Além disso, foi adicionada uma nova medida de proteção para limitar todas as ações personalizadas a 150.000 chamadas por ponto de acesso durante um período de 30 segundos. [Saiba mais](../action/action-response.md)
+* O suporte a respostas de ação personalizadas agora está disponível para o público geral. Esse recurso permite aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. Além disso, uma [nova proteção de limite](../start/guardrails.md#custom-actions-g) foi adicionado para limitar automaticamente as chamadas de ação personalizadas. [Saiba mais](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
