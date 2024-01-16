@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: qualificação, eventos, público-alvo, jornada, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1011'
 ht-degree: 8%
 
 ---
@@ -40,6 +40,8 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posteriormente
 * Grupos de campos de evento de experiência não podem ser usados em jornadas que começam com uma atividade Ler público, uma qualificação de Público ou um evento comercial.
 
 * Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até 10 minutos para ficar ativa e ouvir os perfis que entram ou saem do público-alvo.
+
+* Como prática recomendada, use somente públicos-alvo de transmissão para **Qualificação de público** atividade. Para casos de uso em lote, use **[Ler público](read-audience.md)** atividade.
 
 ### Configurar a atividade{#cnfigure-segment-qualification}
 

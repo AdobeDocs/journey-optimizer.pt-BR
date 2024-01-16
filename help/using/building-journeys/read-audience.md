@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 11%
+source-wordcount: '1398'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +34,8 @@ Vamos ver como exemplo o público-alvo &quot;Abertura e finalização do aplicat
 * Para jornadas que usam uma atividade Público-alvo de leitura, há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. Novas tentativas serão executadas pelo sistema, mas evite ter mais do que cinco jornadas (com Público-alvo de leitura, programadas ou iniciando “o mais rápido possível”), iniciando exatamente ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
 
 * Grupos de campos de evento de experiência não podem ser usados em jornadas que começam com uma atividade Ler público, uma qualificação de Público ou um evento comercial.
+
+* Como prática recomendada, use somente públicos-alvo em lote em uma **Ler público** atividade. Isso fornecerá uma contagem confiável e consistente para os públicos-alvo usados em uma jornada. O público-alvo de leitura foi projetado para casos de uso em lote. Se o caso de uso precisar de dados em tempo real, use **[Qualificação de público](audience-qualification-events.md)** atividade.
 
 * Por enquanto, o uso de públicos-alvo [importado de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) ou resultantes de [workflows de composição](../audience/get-started-audience-orchestration.md) no jornada está disponível como um beta privado. Para obter mais informações, entre em contato com o seu representante da Adobe.
 
