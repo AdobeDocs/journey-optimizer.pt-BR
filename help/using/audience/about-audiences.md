@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d18b24f6afcd64745fe7bd3b3bc9832342b91c7b
+source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 47%
+source-wordcount: '970'
+ht-degree: 44%
 
 ---
 
@@ -27,9 +27,15 @@ ht-degree: 47%
 >title="Selecione o público-alvo da campanha"
 >abstract="Esta lista exibe todos os públicos-alvo disponíveis na Adobe Experience Platform. Selecione o público-alvo a ser direcionado pela campanha. A mensagem configurada na campanha será enviada a todas as pessoas pertencentes ao público-alvo selecionado. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)"
 
-Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou características semelhantes. Eles podem ser gerados pelo Adobe Experience Platform usando definições de segmento ou composição de público ou importados de um arquivo CSV. Saiba mais sobre públicos-alvo na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
+Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou características semelhantes. Saiba mais sobre públicos-alvo na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
 
 [!DNL Journey Optimizer] O permite criar públicos-alvo da Adobe Experience Platform diretamente da **[!UICONTROL Públicos-alvo]** e aproveite-as em suas jornadas ou campanhas.
+
+Os públicos-alvo podem ser gerados usando métodos diferentes:
+
+* **Definições de segmento**: crie uma nova definição de público-alvo usando o Serviço de segmentação da Adobe Experience Platform. [Saiba como criar definições de segmento](creating-a-segment-definition.md)
+* **Importação de arquivo CSV**: importe um público usando um arquivo CSV. Saiba como importar públicos no Adobe Experience Platform [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+* **Composição de público**: crie um fluxo de trabalho de composição para combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo. [Introdução à composição de público-alvo](get-started-audience-orchestration.md)
 
 ## Utilização de públicos-alvo no [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
