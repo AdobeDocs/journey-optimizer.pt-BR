@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1535'
 ht-degree: 10%
 
 ---
@@ -61,7 +61,7 @@ Para usar o modo de teste, siga estas etapas:
 
 ## Observações importantes {#important_notes}
 
-* No modo de teste, é possível acionar eventos usando a interface.
+* No modo de teste, é possível acionar eventos usando a interface. Eventos não podem ser disparados de sistemas externos usando uma API.
 * Somente indivíduos sinalizados como &quot;perfis de teste&quot; no Serviço de perfil do cliente em tempo real poderão entrar na jornada testada. Consulte esta [seção](../audience/creating-test-profiles.md).
 * O modo de teste só está disponível em jornadas de rascunho que usam um namespace. O modo de teste precisa verificar se uma pessoa que entra na jornada é um perfil de teste ou não e, portanto, deve ser capaz de acessar o Adobe Experience Platform.
 * O número máximo de perfis de teste que podem inserir uma jornada durante uma sessão de teste é 100.
@@ -126,7 +126,7 @@ Observe que, quando você aciona um evento de negócios pela primeira vez, não 
 >title="Logs do modo de teste"
 >abstract="O botão Mostrar log exibe os resultados do teste no formato JSON. Esses resultados exibem o número de pessoas dentro da jornada e seu status."
 
-A variável **[!UICONTROL Mostrar log]** permite visualizar os resultados do teste. Esta página exibe as informações atuais da jornada no formato JSON. Um botão permite copiar nós inteiros. É necessário atualizar manualmente a página para atualizar os resultados do teste da jornada.
+A variável **[!UICONTROL Mostrar log]** permite visualizar os resultados do teste. Esta página exibe as informações atuais da jornada em formato JSON. Um botão permite copiar nós inteiros. É necessário atualizar manualmente a página para atualizar os resultados do teste da jornada.
 
 ![](assets/journeytest3.png)
 
@@ -139,7 +139,7 @@ O número de indivíduos (tecnicamente chamados de instâncias) atualmente dentr
 
 * _ID_: a ID interna do indivíduo na jornada. Ele pode ser usado para fins de depuração.
 * _currentstep_: a etapa em que o indivíduo está na jornada. Recomendamos adicionar rótulos às suas atividades para identificá-las mais facilmente.
-* _currentstep_ >: o status da jornada do indivíduo (em execução, concluída, com erro ou tempo limite). Veja mais informações abaixo.
+* _currentstep_ > fase: o status da jornada do indivíduo (em execução, concluída, com erro ou expirada). Veja mais informações abaixo.
 * _currentstep_ > _extraInfo_: descrição do erro e outras informações contextuais.
 * _currentstep_ > _fetchErrors_: informações sobre erros de busca de dados que ocorreram durante essa etapa.
 * _externalKeys_: o valor da fórmula principal definida no evento.
