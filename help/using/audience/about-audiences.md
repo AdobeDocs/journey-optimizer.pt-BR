@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
+source-git-commit: cdcce470481393c821d1c5df95639602510a690a
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 44%
+source-wordcount: '991'
+ht-degree: 43%
 
 ---
 
@@ -37,14 +37,17 @@ Os públicos-alvo podem ser gerados usando métodos diferentes:
 * **Importação de arquivo CSV**: importe um público usando um arquivo CSV. Saiba como importar públicos no Adobe Experience Platform [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 * **Composição de público**: crie um fluxo de trabalho de composição para combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo. [Introdução à composição de público-alvo](get-started-audience-orchestration.md)
 
-## Utilização de públicos-alvo no [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+## Públicos-alvo no [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
 Você pode selecionar em campanhas e jornadas qualquer público da Adobe Experience Platform gerado usando [definições de segmento](../audience/creating-a-segment-definition.md).
 
 >[!NOTE]
 >
->Além disso, também é possível direcionar públicos-alvo da Adobe Experience Platform criados com o [composições de público](../audience/get-started-audience-orchestration.md) ou [carregado de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. No momento, esses recursos estão disponíveis como um beta privado.
-
+>Por enquanto, os públicos-alvo resultantes da [composições de público](../audience/get-started-audience-orchestration.md) pode ser direcionado somente em campanhas. Esse recurso está disponível como um beta privado para jornada.
+>
+>O uso de públicos [carregado de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} O em campanhas e jornadas está disponível no momento como um beta privado.
+>
+>Para obter mais informações, entre em contato com o seu representante da Adobe.
 
 É possível aproveitar os públicos-alvo no **[!DNL Journey Optimizer]** de maneiras diferentes:
 
