@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: f776b851b6d3ca868fe34c691c5e1771a561dfef
+source-git-commit: da90e817edac44712f6f137d13574165c834e53a
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 6%
@@ -82,9 +82,9 @@ Essa atividade é normalmente realizada com a ajuda de um especialista em capaci
 
 Antes de poder criar um plano de aquecimento de IP no [!DNL Journey Optimizer] é necessário preencher um modelo do Excel com todos os dados que alimentarão seu plano.
 
-* Na interface do usuário, é possível baixar o modelo de plano de aquecimento de IP em branco do Excel para preencher.
+* Na interface do usuário, é possível baixar o Excel em branco [Modelo de plano de aquecimento de IP](assets/IPWarmupPlan-Template.xlsx) para preencher.
 
-* Você também pode baixar um exemplo de plano de aquecimento de IP já preenchido com alguns dados que podem ser usados como exemplo.
+* Você também pode baixar um [exemplo de plano de aquecimento de IP](assets/IPWarmupPlan-Sample.xlsx) já preenchido com alguns dados que você pode usar como exemplo.
 
 >[!CAUTION]
 >
@@ -299,7 +299,7 @@ Para criar um plano de aquecimento de IP, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Caso o upload falhe, verifique se você está usando a formatação e o formato de arquivo corretos (.xls ou .xlsx). Use o modelo fornecido pelo Adobe.
+   >Caso o upload falhe, verifique se você está usando a formatação e o formato de arquivo corretos (.xls ou .xlsx). Usar o modelo<!--assets/IPWarmupPlan-Template.xlsx--> fornecido a você pelo Adobe.
 
 1. Clique em **[!UICONTROL Criar]**. Todas as fases, execuções, colunas e seu conteúdo definido no arquivo que você carregou são automaticamente exibidas na [!DNL Journey Optimizer] interface.
 
