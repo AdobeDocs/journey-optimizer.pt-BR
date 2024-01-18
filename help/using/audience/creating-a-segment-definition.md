@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 16%
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="Criar uma regra"
->abstract="O método Criar regras permite gerar uma nova definição de público-alvo usando o serviço de criação de público-alvo da Adobe Experience Platform."
+>abstract="O método de criação Criar regra permite criar uma nova definição de público-alvo usando o Serviço de segmentação da Adobe Experience Platform."
 
 Neste exemplo, criaremos um público-alvo para direcionar todos os clientes que moram em Atlanta, São Francisco ou Seattle e nasceram após 1980. Todos esses clientes devem ter aberto o aplicativo Luma nos últimos 7 dias e feito uma compra em 2 horas após a abertura do aplicativo.
 

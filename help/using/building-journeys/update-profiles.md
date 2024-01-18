@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: perfil, atualização, jornada, atividade
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 8%
+source-wordcount: '535'
+ht-degree: 7%
 
 ---
 
@@ -33,6 +33,8 @@ Use o **[!UICONTROL Atualizar perfil]** atividade de ação para atualizar um pe
 * Como qualquer outra ação, é possível definir um caminho alternativo em caso de erro ou tempo limite, e não é possível colocar duas ações em paralelo.
 * A solicitação de atualização enviada para o Adobe Experience Platform é imediata/em um segundo. Normalmente, levará alguns segundos, mas às vezes mais, sem garantia. Como resultado, por exemplo, se uma ação estiver usando o &quot;campo 1&quot; atualizado por um **Atualizar perfil** ação posicionada logo antes, não é de se esperar que o &quot;campo 1&quot; seja atualizado na ação.
 * A variável **Atualizar perfil** A atividade não é compatível com campos XDM definidos como uma enumeração.
+* A variável **[!UICONTROL Atualizar perfil]** A atividade somente atualiza o [Loja de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, não o Data Lake.
+* Ao selecionar um conjunto de dados na variável **[!UICONTROL Atualizar perfil]** , é recomendável usar uma que não seja direcionada pelos fluxos de assimilação de dados. **[!UICONTROL Atualizar perfil]** atualizações que estão sendo armazenadas somente no [Loja de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, há o risco de substituir essa alteração por um fluxo de assimilação de dados.
 
 ## Uso da atualização de perfil
 
