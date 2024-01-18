@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72e192538b6dd2f0cf50e4d6ce8d5b2b789308d4
+source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 96%
 
 ---
 
@@ -88,8 +88,7 @@ Você pode usar esses atalhos em áreas específicas da interface do [!DNL Journ
     <td>Shift + teclas de SETA</td>
   </tr>  
   <tr>
-
-<td rowspan="3">
+  <td rowspan="3">
   Painel de configuração destes elementos:
 <ul>
   <li>Atividade em uma jornada</li>
@@ -97,8 +96,7 @@ Você pode usar esses atalhos em áreas específicas da interface do [!DNL Journ
   <li>Fonte de dados</li>
   <li>Ação</li>
 </ul>
-
-</td>
+  </td>
     <td>Mover para o próximo campo a ser configurado</td>
     <td>Guia</td>
   </tr>
@@ -120,11 +118,7 @@ Você pode usar esses atalhos em áreas específicas da interface do [!DNL Journ
     <td>E</td>
   </tr>
   <tr>
-    <td>
-
-Acione um evento em uma jornada baseada em público-alvo para a qual a opção **[!UICONTROL Um único perfil por vez]** está ativada
-
-</td>
+    <td>Acionar um evento em uma jornada baseada em público-alvo para a qual a opção **[!UICONTROL Perfil único por vez]** está ativada</td>
     <td>P</td>
   </tr>
   <tr>

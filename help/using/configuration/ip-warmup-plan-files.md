@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: a20318a2c38d3ee97e3347439e6b02e2ef04acf6
+source-git-commit: 922789a4dd439f3c3953f235ea2fc556bf929f33
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%
@@ -26,4 +26,3 @@ This page is not supposed to be publicly accessible. Its only purpose is to make
 * Na interface do usuário, é possível baixar o Excel em branco [Modelo de plano de aquecimento de IP](assets/IPWarmupPlan-Template.xlsx) para preencher.
 
 * Você também pode baixar um [exemplo de plano de aquecimento de IP](assets/IPWarmupPlan-Sample.xlsx) já preenchido com alguns dados que você pode usar como exemplo.
-
