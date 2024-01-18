@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, jornada, cópia, ambiente
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '743'
 ht-degree: 9%
 
 ---
@@ -46,7 +46,7 @@ Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Jou
 
 >[!NOTE]
 >
->Esse recurso exige as seguintes permissões: manage-sandbox (ou view-sandbox) e manage-package.
+>Esse recurso exige as seguintes permissões do **Administração de sandbox** Recurso: gerenciar sandboxes (ou Exibir sandboxes) e Gerenciar pacotes. [Saiba mais](../administration/ootb-permissions.md)
 
 ## Introdução às ferramentas de sandbox{#sandbox-gs}
 

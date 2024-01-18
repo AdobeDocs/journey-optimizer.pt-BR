@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: permissões, criação, mensagens
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
+source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '746'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,6 @@ As permissões integradas representam as diferentes permissões que podem ser at
 | Jornadas | **[!DNL Manage journeys]**: leia, crie, edite e exclua jornadas.</br>**[!DNL View journeys]**: acesso somente leitura a jornadas.</br>**[!DNL Publish journeys]**: publicar jornadas.</br>**[!DNL Manage journeys events, data sources and actions]**: ler, criar, editar e excluir eventos, fontes ou ações.</br>**[!DNL View journeys events, data sources and actions]**: acesso somente leitura a eventos do jornada, ações personalizadas do jornada e fontes de dados do jornada.</br>**[!DNL View journeys report]**: leia e edite o relatório de jornadas.</br> |
 | Gerenciamento de perfis | **[!DNL Manage profiles]**: leia, crie, edite e exclua conjuntos de dados usados para perfis de clientes. Acesso somente leitura aos perfis disponíveis.</br>**[!DNL View profiles]**: acesso somente leitura aos perfis disponíveis.</br>**[!DNL Export audience segments]**: exportar um segmento de público avaliado para um conjunto de dados.</br>**[!DNL View segments]**: acesso somente leitura aos públicos-alvo disponíveis.</br>**[!DNL Evaluate a segment to an audience]**: gere perfis para um público-alvo avaliando uma definição de segmento.</br>**[!DNL Manage merge policies]**: ler, criar, editar e excluir políticas de mesclagem.</br>**[!DNL View merge policies]**: acesso somente leitura às políticas de mesclagem disponíveis. |
 | Serviço de consulta | **[!DNL Manage queries]**: leia, crie, edite e exclua consultas SQL estruturadas para dados da Platform.</br>**[!DNL Manage query service integration]**: crie, atualize e exclua credenciais sem expiração para acesso ao Serviço de consulta. |
-| Administração de sandbox | **[!DNL Manage sandboxes]**: ler, criar, editar e excluir sandboxes.</br>**[!DNL View sandboxes]**: acesso somente leitura para sandboxes que pertencem à sua organização.</br>**[!DNL Reset sandboxes]**: capacidade de redefinir uma sandbox.</br>**[!DNL Export sandboxes]**: capacidade de exportar uma sandbox. |
+| Administração de sandbox | **[!DNL Manage sandboxes]**: ler, criar, editar e excluir sandboxes.</br>**[!DNL View sandboxes]**: acesso somente leitura para sandboxes que pertencem à sua organização.</br>**[!DNL Reset sandboxes]**: capacidade de redefinir uma sandbox.</br>**[!DNL Export sandboxes]**: capacidade de exportar uma sandbox.</br>**[!DNL Manage packages]**: leia, crie, edite e exclua pacotes. |
 
 {style="table-layout:fixed"}
