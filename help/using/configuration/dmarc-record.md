@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomínio, domínio, correio, dmarc, registro
-source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
+source-git-commit: f9d3234a64ad659660c2d2c4ad24ab5c240cb857
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -20,31 +20,44 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="Definir o registro DMARC"
->abstract="Definir registro DMARC para evitar problemas de entrega com ISPs"
+>abstract="Defina o registro DMARC para evitar problemas de entrega com ISPs. Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo exigem um registro DMARC para qualquer domínio usado para enviar emails para eles."
 
 >[!CAUTION]
 >
->Seguindo os anúncios recentes do Gmail e do Yahoo para remetentes em massa, a Journey Optimizer agora é compatível com a tecnologia de autenticação DMARC. //Você deve atualizar todos os subdomínios que já foram criados em sua instância para incluir suporte DMARC.//
+>Seguindo os anúncios recentes do Gmail e do Yahoo para remetentes em massa, a Journey Optimizer agora é compatível com a tecnologia de autenticação DMARC.
 
-É importante fazê-lo até 1º de fevereiro, Doc virá em breve
+<!--TO ADD TO AJO HOME PAGE (first tab)
 
-Começando em
+>[!TAB Mandatory DMARC update]
 
-Você tem duas opções:
+As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a DMARC record for any domain you use to send email to them, starting on **February 1st, 2024**. Make sure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in Journey Optimizer.
 
-* Faça isso por conta própria a partir de agora: configure-o com seu departamento de TI - sempre que desejar
+[![image](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
+-->
 
-* Faça no AJO - mas nesse caso, é necessário aguardar até 30 de janeiro
+Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo exigirão uma **Registro DMARC** para qualquer domínio que você usar para enviar emails para eles. Este novo requisito começa em **1 de fevereiro de 2024**.
 
-   * Delegação completa: você pode fazer isso em 30 de janeiro (versão do AJO)
+Saiba mais sobre os requisitos do Google e do Yahoo em [nesta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
 
-   * O CNAME o planeja com seu departamento de TI para que não seja demorado, mas você precisa planejá-lo
+>[!CAUTION]
+>
+>O não cumprimento desse novo requisito por parte do Gmail e do Yahoo deve resultar no bloqueio dos emails que chegam à pasta de spam.
 
-Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo exigirão que você tenha um registro DMARC para qualquer domínio usado para enviar emails para eles. Este novo requisito começa em **1 de fevereiro de 2024**.
+Consequentemente, a Adobe recomenda que você garanta que tenha o registro DMARC configurado para todos os subdomínios que você delegou à Adobe no [!DNL Journey Optimizer]. Siga uma das duas opções abaixo:
 
-Saiba mais sobre os requisitos do Google e do Yahoo para registro DMARC em [nesta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+* Configure o DMARC nos subdomínios ou no domínio principal dos subdomínios, **na sua solução de hospedagem**.
 
-Saiba mais sobre as alterações anunciadas no Google e no Yahoo em [esta página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+* Configurar DMARC nos subdomínios delegados **usando o novo recurso na [!DNL Journey Optimizer] interface de administração** - sem trabalho extra na solução de hospedagem. [Saiba mais](#implement-dmarc)
+
+  >[!CAUTION]
+  >
+  >Se você configurou o [Delegação CNAME](delegate-subdomain.md#cname-subdomain-delegation) para os subdomínios de envio, também será necessária alguma entrada na solução de hospedagem. Certifique-se de coordenar com o departamento de TI para que ele possa realizar a atualização assim que a [!DNL Journey Optimizer] O recurso está disponível (em 30 de janeiro de 2024). <!--and be ready on February 1st, 2024-->
+
+>[!NOTE]
+>
+>Saiba mais sobre a implementação do DMARC na [Guia de práticas recomendadas de capacidade de delivery](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} para entender melhor o impacto na capacidade de delivery de emails.
+
+## O que é DMARC?
 
 DMARC, que significa **Autenticação de mensagens baseadas em domínio, relatórios e conformidade** O, é um protocolo de autenticação de email que ajuda a proteger contra falsificação de email, phishing e outras atividades fraudulentas.
 
@@ -61,21 +74,26 @@ DMARC, que significa **Autenticação de mensagens baseadas em domínio, relató
 
 A configuração de um registro DMARC envolve a adição de um registro TXT de DNS às configurações de DNS do seu domínio. Esse registro especifica sua política DMARC, como colocar em quarentena ou rejeitar mensagens que falham na autenticação. A implementação do DMARC é uma etapa proativa para melhorar a segurança do email e proteger sua organização e seus recipients de ameaças baseadas em email.
 
-[Saiba mais sobre o DMARC no Guia de práticas recomendadas de capacidade de delivery](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} para entender melhor o impacto do DMARC na capacidade de entrega de emails.
+## Implementar DMARC {#implement-dmarc}
 
-Se você não adicionar o DMARC, será colocado em quarentena (pelo menos).
+* Se você não adicionar o DMARC, será colocado em quarentena (pelo menos).
 
-certifique-se de que você tenha uma caixa de entrada original onde possa receber em seu controle - você gerencia essa caixa de entrada (não deve ser a caixa de entrada do Adobe)
+* Certifique-se de que você tem uma caixa de entrada original onde pode receber em seu controle - você gerencia essa caixa de entrada (não deve ser a caixa de entrada Adobe)
 
-A recomendação é 24 porque geralmente, se menos, avalie sua capacidade / verifique o seu > chat GPT
+A recomendação é 24 porque geralmente é isso que os ISPs têm.
+se menos, avalie sua capacidade / verifique o seu > chat GPT
 
-Google e Yahoo, e provavelmente todos os outros ISPs principais
+Se um registro DMARC for detectado, você poderá copiar e colar os mesmos valores que os listados ou alterá-los, se necessário.
 
-para CNAME no fluxo de edição, é necessário Baixar o arquivo CSV novamente (não para totalmente delegado)
+Se você não colocar nada, os valores padrão serão usados.
 
-novo registro DMARC
+### Subdomínios totalmente delegados
 
-Em RN > Coloque em primeiro lugar Todos os subdomínios devem ser atualizados com suporte DMARC
+### Subdomínios delegados usando CNAME
+
+para CNAME no fluxo de edição, é necessário baixar o arquivo CSV novamente (não para totalmente delegado)
+
+
 
 
 
