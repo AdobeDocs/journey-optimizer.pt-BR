@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomínio, domínio, correio, dmarc, registro
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -61,7 +61,7 @@ DMARC, que significa **Autenticação de mensagens baseadas em domínio, relató
 
 A configuração de um registro DMARC envolve a adição de um registro TXT de DNS às configurações de DNS do seu domínio. Esse registro especifica sua política DMARC, como colocar em quarentena ou rejeitar mensagens que falham na autenticação. A implementação do DMARC é uma etapa proativa para melhorar a segurança do email e proteger sua organização e seus recipients de ameaças baseadas em email.
 
-[Saiba mais sobre o DMARC no Guia de práticas recomendadas de capacidade de delivery](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=pt-BR){target="_blank"} para entender melhor o impacto do DMARC na capacidade de entrega de emails.
+[Saiba mais sobre o DMARC no Guia de práticas recomendadas de capacidade de delivery](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} para entender melhor o impacto do DMARC na capacidade de entrega de emails.
 
 Se você não adicionar o DMARC, será colocado em quarentena (pelo menos).
 

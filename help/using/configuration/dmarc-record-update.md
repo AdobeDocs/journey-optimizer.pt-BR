@@ -1,59 +1,76 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Registro DMARC
-description: Saiba como definir um registro DMARC no Journey Optimizer
+title: Atualização DMARC obrigatória
+description: Saiba por que e quando você deve definir o registro DMARC no Journey Optimizer
 feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomínio, domínio, correio, dmarc, registro
-hide: true
-hidefromtoc: true
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# Atualização importante do registro DMARC{#dmarc-record}
+# Atualização DMARC obrigatória {#dmarc-record-update}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_dmarc_banner_link"
+>title="Saiba mais sobre a atualização DMARC obrigatória"
+>abstract="Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo exigirão uma **Registro DMARC** para qualquer domínio que você usar para enviar emails para eles. Este novo requisito começa em **1 de fevereiro de 2024**. <br>Consequentemente, o Adobe recomenda que você garanta que tenha o registro DMARC configurado para todos os subdomínios que você delegou ao Adobe no Journey Optimizer."
+
+Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo exigirão uma **Registro DMARC** para qualquer domínio que você usar para enviar emails para eles. Este novo requisito começa em **1 de fevereiro de 2024**.
 
 >[!CAUTION]
 >
->Seguindo os anúncios recentes do Gmail e do Yahoo para remetentes em massa, a Journey Optimizer agora é compatível com a tecnologia de autenticação DMARC.
+>O não cumprimento desse novo requisito por parte do Gmail e do Yahoo deve resultar no bloqueio dos emails que chegam à pasta de spam.
 
-Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo exigirão que você tenha um registro DMARC para qualquer domínio usado para enviar emails para eles. Este novo requisito começa em **1 de fevereiro de 2024**.
+Saiba mais sobre os requisitos do Google e do Yahoo em [nesta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
 
-Saiba mais sobre os requisitos do Google e do Yahoo para registro DMARC em [nesta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+Consequentemente, a Adobe recomenda que você garanta que tenha o registro DMARC configurado para todos os subdomínios que você delegou à Adobe no [!DNL Journey Optimizer]. Siga uma das duas opções abaixo:
 
-Saiba mais sobre as alterações anunciadas no Google e no Yahoo em [esta página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+* Configure o DMARC nos subdomínios ou no domínio principal dos subdomínios, **na sua solução de hospedagem**.
 
-Em seguida, você terá uma ação ou as próximas etapas da seção que indicará:
+* Configurar DMARC nos subdomínios delegados **usar o recurso futuro no [!DNL Journey Optimizer] interface de administração** - sem trabalho extra na solução de hospedagem.
 
-Você precisa configurá-la para todos os seus subdomínios
-* Se tiver delegado totalmente o domínio a nós, você terá duas opções
-   * Configurar DMARC no domínio pai do domínio delegado na solução de hospedagem OU
-   * Configure o DMARC no domínio delegado usando nosso próximo recurso na interface do administrador sem trabalho extra na solução de hospedagem
-* Se você tiver configurado o CNAME para os domínios de envio, terá duas opções
-   * Configurar DMARC no subdomínio OU no domínio principal do subdomínio na solução de hospedagem OU
-   * Configure o DMARC usando nosso recurso futuro na interface do administrador. No entanto, isso exigirá não apenas nossa interface do usuário, mas também a entrada na solução de hospedagem.
+  >[!WARNING]
+  >
+  >Se você configurou o [Delegação CNAME](delegate-subdomain.md#cname-subdomain-delegation) para os subdomínios de envio, também será necessária alguma entrada na solução de hospedagem. Certifique-se de coordenar com o departamento de TI para que ele possa realizar a atualização assim que a [!DNL Journey Optimizer] O recurso está disponível (em 30 de janeiro de 2024). <!--and be ready on February 1st, 2024-->
 
-Mais detalhes sobre nosso próximo recurso serão divulgados em breve.
+  Mais detalhes sobre o [!DNL Journey Optimizer] O próximo recurso DMARC será lançado em breve.
 
-Além disso, você pode incluir o impacto, se não estiver definido copiando a seção relevante para o DMARC da seção abaixo (copiada do link acima). Ou extraímos apenas coisas relacionadas ao DMARC. Ou aqui você pode informar que o anúncio é para DMARC e um clique unsub e aqui está a mais recente sobre linhas do tempo para ambos os recursos.
+<!--
+* If you have [fully delegated](delegate-subdomain.md#full-subdomain-delegation) your sending subdomains to Adobe, follow either one of the two options below:
 
-As atualizações das linhas do tempo estão disponíveis desde o anúncio original de outubro.
+    * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
 
-As linhas do tempo mais recentes se parecem com:
+    * Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI** - with no extra work on your hosting solution.
 
-Gmail:
+* If you have set up [CNAME delegation](delegate-subdomain.md#cname-subdomain-delegation) for your sending subdomains, follow either one of the two options below:
+    * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
+    * Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI**. However, it will also require entry in your hosting solution. Consequently, make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January, 30) - and be ready on February 1st, 2024.
+    
+-->
 
-* Fevereiro de 2024 - As rejeições temporárias projetadas para fornecer aviso de não conformidade serão iniciadas. Os e-mails ainda serão entregues normalmente após um pequeno atraso se você ainda não estiver em conformidade. Se você estiver em total conformidade, não haverá rejeições temporárias e você não perceberá nada.
-* Abril de 2024 - Os blocos começarão para remetentes que não estiverem em conformidade com tudo, exceto List-Unsubscribe 1-Click. Somente uma parte do email incompatível será bloqueada no início, com a % de bloqueio aumentando com o tempo.
-* 1º de junho de 2024 - Qualquer remetente que não estiver em total conformidade, incluindo o List-Unsubscribe 1-Click, receberá bloqueio.
+>[!NOTE]
+>
+>Se tiver dúvidas ou precisar de suporte, entre em contato com seu consultor de capacidade de entrega da Adobe ou com seu representante da Adobe.
 
-Yahoo:
+As linhas do tempo mais recentes compartilhadas pela Google e pelo Yahoo são as seguintes:
 
-Não forneceu datas exatas, mas disse que &quot;a implantação da fiscalização terá início em fevereiro de 2024. A execução será gradualmente implementada&quot;.
+* Google:
+
+   * **Fevereiro de 2024** - As rejeições temporárias projetadas para fornecer aviso de não conformidade serão iniciadas. Os e-mails ainda serão entregues normalmente após um pequeno atraso se você ainda não estiver em conformidade. Se você estiver em total conformidade, não haverá rejeições temporárias e você não será afetado.
+
+   * **Abril de 2024** - Os blocos serão iniciados para remetentes que não estão em conformidade com o requisito DMARC. Somente uma parte do e-mail incompatível será bloqueada no início, com a porcentagem bloqueada aumentando com o tempo.
+
+   * **1º de junho de 2024** - Qualquer remetente que não estiver em total conformidade terá bloqueio.
+
+* O Yahoo não forneceu datas exatas, mas disse que &quot;a implantação da fiscalização terá início em fevereiro de 2024. A execução será gradualmente implementada&quot;.
+
+>[!NOTE]
+>
+>Saiba mais sobre o DMARC na [Guia de práticas recomendadas de capacidade de delivery](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} para entender melhor o impacto da implementação do DMARC na capacidade de entrega de emails.
