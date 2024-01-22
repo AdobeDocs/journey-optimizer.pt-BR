@@ -10,7 +10,7 @@ level: Experienced
 keywords: subdomínio, domínio, correio, dmarc, registro
 hide: true
 hidefromtoc: true
-source-git-commit: b67b53b7a3ea6d2daee223a5579696d0e5637c44
+source-git-commit: a93f1c81cceaee4f55cd7555284c4d8016ed4e21
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Consequentemente, a Adobe recomenda que você garanta que tenha o registro DMARC
    * Configure o DMARC nos subdomínios ou no domínio principal dos subdomínios **na sua solução de hospedagem**.
    * Configurar DMARC nos subdomínios delegados **usar o recurso futuro no [!DNL Journey Optimizer] interface de administração**. No entanto, também exigirá a entrada na sua solução de hospedagem. Consequentemente, certifique-se de coordenar com seu departamento de TI para que ele possa realizar a atualização assim que a [!DNL Journey Optimizer] O recurso está disponível (em 30 de janeiro). <!--and be ready on February 1st, 2024-->
 
-Mais detalhes sobre o [!DNL Journey Optimizer] O próximo recurso DMARC será lançado em breve.
+**Mais detalhes sobre o [!DNL Journey Optimizer] O próximo recurso DMARC será lançado em breve.**
 
 >[!NOTE]
 >
