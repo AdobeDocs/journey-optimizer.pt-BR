@@ -5,10 +5,10 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4b1de4d1c62c917ce760b3739242671e5c274357
+source-git-commit: 1124de3e38eee72eb545c6d5a40a5a8f5de80181
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 95%
+source-wordcount: '420'
+ht-degree: 81%
 
 ---
 
@@ -20,13 +20,19 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!BEGINTABS]
 
+>[!TAB Atualização DMARC obrigatória]
+
+Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo exigirão uma **Registro DMARC** para qualquer domínio que você usar para enviar emails a eles, começando em **1 de fevereiro de 2024**. Verifique se você tem o registro DMARC configurado para todos os subdomínios que você delegou ao Adobe no Journey Optimizer.
+
+[![imagem](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
+
 >[!TAB Ferramentas de sandbox]
 
 As ferramentas de sandbox permitem copiar objetos em várias sandboxes aproveitando a exportação e a importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote precisam ser da mesma sandbox.
 
 [![imagem](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
 
->[!TAB Serviço de mensagens multimídia (MMS) em SMS]
+>[!TAB MMS no SMS]
 
 Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos com clientes. Observe que esse recurso está disponível somente com o Sinch.
 
