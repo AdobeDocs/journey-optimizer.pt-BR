@@ -23,7 +23,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 
 * Uma garantia sobre o tamanho da jornada foi adicionada. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
 * O gerenciamento de tempo limite da jornada foi detalhado [na seção seguinte](../building-journeys/journey-gs.md#global_timeout).
-* Journey Optimizer [página inicial da documentação](../../ajo-home.md) A página foi recriada.
+* A [página inicial da documentação](../../ajo-home.md) do Journey Optimizer foi redefinida.
 * A Recommendations sobre a atividade Atualizar perfis foi adicionada. [Leia mais](../building-journeys/update-profiles.md)
 
 ## Novembro de 2023 {#nov-2023}
