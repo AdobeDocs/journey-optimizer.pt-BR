@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: query, coleções, funções, carga, jornada
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2ab738463ebad087c9fe9768b7bc7f634cf46ea6
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '633'
 ht-degree: 3%
 
 ---
@@ -169,10 +169,11 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** O só está disponível ao manipular coleções de eventos e **currentDataPackField**
->ao manipular coleções de fonte de dados. Ao processar coleções com **[!UICONTROL all]**, **[!UICONTROL primeiro]** e **[!UICONTROL último]**, nós
->executar um loop em cada elemento da coleção, um por um. **[!UICONTROL currentEventField]** e **currentDataPackField**
->corresponde ao elemento que está sendo repetido.
+>**[!UICONTROL currentEventField]** só está disponível ao manipular coleções de eventos, **[!UICONTROL currentDataPackField]**
+ao manipular coleções de fonte de dados e **[!UICONTROL currentActionField]** ao manipular coleções de resposta de ação personalizada.
+>
+>Ao processar coleções com **[!UICONTROL all]**, **[!UICONTROL primeiro]** e **[!UICONTROL último]**, nós
+>executar um loop em cada elemento da coleção, um por um. **[!UICONTROL currentEventField]**, **currentDataPackField** e **[!UICONTROL currentActionField]** corresponde ao elemento que está sendo repetido.
 
 **As funções &quot;first(`<condition>`)&quot; e &quot;last(`<condition>`)&quot;**
 
