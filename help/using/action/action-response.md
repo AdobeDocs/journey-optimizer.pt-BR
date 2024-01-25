@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 5d20a720ddfb2907a1f3ebaff3c67b9f5628f9d7
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 5%
+source-wordcount: '614'
+ht-degree: 4%
 
 ---
 
@@ -200,6 +200,16 @@ Veja alguns exemplos:
  @action{<action name>.<path to the field>, defaultValue: <default value expression>}
  @action{ActionLoyalty.points, defaultValue: 0}
  @action{ActionLoyalty.points, defaultValue: @{myEvent.newPoints}}
+```
+
+Ao manipular coleções em uma resposta de ação personalizada, você pode confiar em &quot;currentActionField&quot; para acessar o item atual:
+
+```json
+count(
+@action{MyAction.MyCollection.all(
+currentActionField.description == "abc"
+)}
+)
 ```
 
 Para obter mais informações sobre referências de campo, consulte [nesta seção](../building-journeys/expression/field-references.md).
