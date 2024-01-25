@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: query, coleções, funções, carga, jornada
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 2ab738463ebad087c9fe9768b7bc7f634cf46ea6
+source-git-commit: 7204b475dffe9977a7af6b633cdd92a50fa39a64
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 3%
@@ -169,8 +169,7 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** só está disponível ao manipular coleções de eventos, **[!UICONTROL currentDataPackField]**
-ao manipular coleções de fonte de dados e **[!UICONTROL currentActionField]** ao manipular coleções de resposta de ação personalizada.
+>**[!UICONTROL currentEventField]** só está disponível ao manipular coleções de eventos, **[!UICONTROL currentDataPackField]** ao manipular coleções de fonte de dados e **[!UICONTROL currentActionField]** ao manipular coleções de resposta de ação personalizada.
 >
 >Ao processar coleções com **[!UICONTROL all]**, **[!UICONTROL primeiro]** e **[!UICONTROL último]**, nós
 >executar um loop em cada elemento da coleção, um por um. **[!UICONTROL currentEventField]**, **currentDataPackField** e **[!UICONTROL currentActionField]** corresponde ao elemento que está sendo repetido.
