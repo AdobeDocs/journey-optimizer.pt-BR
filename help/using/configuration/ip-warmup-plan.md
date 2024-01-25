@@ -15,7 +15,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -72,7 +72,7 @@ Para atribuir a função correspondente a um **[!UICONTROL Usuário]**:
 
 +++
 
-## Preparar o arquivo de plano de aquecimento de IP {#prepare-file}
+## Preparar o arquivo do plano de aquecimento de IP {#prepare-file}
 
 O aquecimento de IP é uma atividade que consiste em aumentar gradualmente o volume de emails que saem de seus IPs e domínios para os principais provedores de serviços de Internet (ISPs), a fim de estabelecer sua reputação como remetente legítimo.
 
@@ -270,8 +270,8 @@ Cada domínio agora é exibido em uma coluna diferente na mesma linha.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="Especifique o seu plano de aquecimento de IP"
->abstract="Preencha o modelo do Excel com todos os dados que alimentarão seu plano, como fases de aquecimento de IP e número alvo de perfis, e faça upload dele aqui."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="Preparar o arquivo de plano de aquecimento de IP"
+>abstract="Preencha o modelo do Excel com todos os dados que alimentarão seu plano, como fases de aquecimento de IP e número-alvo de perfis, e faça upload dele aqui."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="Preparar o arquivo do plano de aquecimento de IP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"

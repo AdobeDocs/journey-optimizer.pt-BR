@@ -11,7 +11,7 @@ keywords: subdomínio, domínio, correio, dmarc, registro
 source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="Definir o registro DMARC"
->abstract="Defina o registro DMARC para evitar problemas de entrega com ISPs. Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo exigem um registro DMARC para qualquer domínio usado para enviar emails para eles."
+>abstract="Defina o registro DMARC para evitar problemas de capacidade de entrega com ISPs. Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo exigem um registro DMARC para qualquer domínio usado para enviar emails para eles."
 
 >[!CAUTION]
 >

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Atualização DMARC obrigatória
+title: Atualização do DMARC obrigatória
 description: Saiba por que e quando você deve definir o registro DMARC no Journey Optimizer
 feature: Subdomains, Channel Configuration
 topic: Administration
@@ -11,16 +11,16 @@ keywords: subdomínio, domínio, correio, dmarc, registro
 source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Atualização DMARC obrigatória {#dmarc-record-update}
+# Atualização do DMARC obrigatória {#dmarc-record-update}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
->title="Saiba mais sobre a atualização DMARC obrigatória"
->abstract="Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo exigirão uma **Registro DMARC** para qualquer domínio que você usar para enviar emails a eles, começando em **1 de fevereiro de 2024**. <br>Consequentemente, você deve garantir que tenha o registro DMARC configurado para todos os subdomínios que você delegou ao Adobe no Journey Optimizer."
+>title="Saiba mais sobre a atualização do DMARC obrigatória"
+>abstract="Como parte da aplicação de práticas recomendadas do setor, o Google e o Yahoo exigirão um **Registro DMARC** para qualquer domínio que você usar para enviar emails a eles, começando em **1 de fevereiro de 2024**. <br>Consequentemente, você deve configurar o registro DMARC em todos os subdomínios que você delegou ao Adobe no Journey Optimizer."
 
 Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo exigirão uma **Registro DMARC** para qualquer domínio que você usar para enviar emails para eles. Este novo requisito começa em **1 de fevereiro de 2024**.
 
