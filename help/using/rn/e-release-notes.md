@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6683bfbb5569d197a2a746620cd7edc10f45b5d1
+source-git-commit: ad00f6c43e66a221385a83b8e6710fddd64233f2
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 21%
+source-wordcount: '470'
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso 
 
 ## Notas de versão antecipadas de janeiro de 2024 {#oct-jan-2024}
 
-**Data de lançamento**: 20 a 31 de janeiro de 2024
+**Data de lançamento**: 30 a 31 de janeiro de 2024
 
 ### Novos recursos{#jan-2024-features}
 
@@ -57,7 +57,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Relatórios**
 
-* **Relatórios de canal por domínio** - Novos widgets foram adicionados para aprimorar seus relatórios de Campanha e Jornada. A variável **Motivos de rejeição por domínio**, **Enviado e entregue por domínios**, **Aberturas e cliques por domínio** e **Rejeição e erros por domínio** os widgets fornecem um detalhamento detalhado no nível do domínio para as principais métricas de entrega e rastreamento de email. [Saiba mais](../reports/channel-report.md)
+* **Relatórios de canal por domínio** - Novos widgets foram adicionados para aprimorar seus relatórios de Campanha e Jornada. A variável **Motivos de rejeição por domínio**, **Enviado e entregue por domínios**, **Aberturas e cliques por domínio** e **Rejeição e erros por domínio** os widgets fornecem um detalhamento detalhado no nível do domínio para as principais métricas de entrega e rastreamento de email.
 
 **Canal de SMS**
 
@@ -67,7 +67,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Jornadas**
 
-* **Duração dos eventos de reação** - A duração máxima que você pode definir no **Eventos de reação** agora é de 29 dias, em vez de 30. [Saiba mais](../building-journeys/reaction-events.md)
+* **Duração dos eventos de reação** - A duração máxima que você pode definir no **Eventos de reação** agora é de 29 dias, em vez de 30.
 
 * **Filtros de data** - Agora você pode usar datas personalizadas para filtrar o inventário do jornada, além dos filtros de data predefinidos existentes. Isso permite refinar a lista ao exibir jornadas publicadas em uma data específica, em um mês específico, durante um ano inteiro ou dentro de intervalos de tempo especificados.
 
