@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: personalizado, geral, eventos, jornada
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 15%
+source-wordcount: '524'
+ht-degree: 13%
 
 ---
 
@@ -35,7 +35,9 @@ Quando você solta um evento comercial, ele adiciona automaticamente um **Ler p�
 
 Uma atividade de evento posicionada na jornada escuta eventos indefinidamente. Para acompanhar um evento somente durante um determinado tempo, você deve configurar um tempo limite para o evento.
 
-A jornada ouvirá o evento durante o tempo especificado no tempo limite. Se um evento for recebido durante esse período, a pessoa fluirá no caminho do evento. Caso contrário, o cliente fluirá para um caminho de tempo limite ou encerrará a jornada.
+A jornada ouvirá o evento durante o tempo especificado no tempo limite. Se um evento for recebido durante esse período, a pessoa fluirá no caminho do evento. Caso contrário, o cliente fluirá para o caminho de tempo limite, se estiver definido, ou continuará essa jornada.
+
+Se nenhum caminho de tempo limite for definido, a configuração de tempo limite atuará como uma atividade de espera, fazendo com que o perfil aguarde um período, que pode ser interrompido se um evento ocorrer antes do fim dessa espera. Se desejar que os perfis sejam excluídos dessa jornada após o tempo limite, será necessário definir um caminho de tempo limite.
 
 Para configurar um tempo limite para um evento, siga estas etapas:
 
@@ -43,7 +45,7 @@ Para configurar um tempo limite para um evento, siga estas etapas:
 
 1. Especifique por quanto tempo a jornada aguardará pelo evento. A duração máxima é de 29 dias.
 
-1. Se desejar enviar as pessoas físicas para um caminho de tempo limite quando nenhum evento for recebido dentro do tempo limite especificado, habilite o **[!UICONTROL Definir um caminho de tempo limite]** opção. Se essa opção não estiver habilitada, a jornada será encerrada para o indivíduo assim que o tempo limite for atingido.
+1. Se desejar enviar as pessoas físicas para um caminho de tempo limite quando nenhum evento for recebido dentro do tempo limite especificado, habilite o **[!UICONTROL Definir um caminho de tempo limite]** opção. Se essa opção não estiver ativada, a jornada continuará para o indivíduo assim que o tempo limite for atingido.
 
    ![](assets/event-timeout.png)
 
@@ -54,6 +56,6 @@ Neste exemplo, a jornada envia um primeiro push de boas-vindas para um cliente. 
 
 Observe que se quiser configurar um tempo limite em vários eventos posicionados após um **[!UICONTROL Aguardar]** atividade, é necessário configurar o tempo limite em apenas um desses eventos.
 
-O tempo limite será aplicado a todos os eventos posicionados após o **[!UICONTROL Aguardar]** atividade. Se nenhum evento for recebido antes do tempo limite especificado, os indivíduos fluirão para um único caminho de tempo limite ou encerrarão sua jornada.
+O tempo limite será aplicado a todos os eventos posicionados após o **[!UICONTROL Aguardar]** atividade. Se nenhum evento for recebido antes do tempo limite especificado, as pessoas físicas fluirão para um único caminho de tempo limite ou continuarão essa jornada pela ramificação que sai da atividade onde essas configurações de tempo limite foram definidas.
 
 ![](assets/event-timeout-group.png)

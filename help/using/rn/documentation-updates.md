@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
+source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
 workflow-type: tm+mt
-source-wordcount: '4258'
-ht-degree: 99%
+source-wordcount: '4295'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Op
 * O gerenciamento de tempo limite da jornada foi detalhado [na seção seguinte](../building-journeys/journey-gs.md#global_timeout).
 * A [página inicial da documentação](../../ajo-home.md) do Journey Optimizer foi redefinida.
 * A Recommendations sobre a atividade Atualizar perfis foi adicionada. [Leia mais](../building-journeys/update-profiles.md)
+* Foram adicionadas informações sobre o comportamento dos tempos limite em atividades de evento no jornada. Quando nenhum evento é recebido durante o período de tempo limite especificado, os indivíduos continuarão a jornada se nenhum caminho de tempo limite for definido. [Leia mais](../building-journeys/general-events.md#events-specific-time)
 
 ## Novembro de 2023 {#nov-2023}
 
