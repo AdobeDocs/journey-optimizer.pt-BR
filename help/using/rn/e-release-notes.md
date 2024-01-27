@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: ad00f6c43e66a221385a83b8e6710fddd64233f2
+source-git-commit: fae367cbbacffbbecde4cdbf7b39b1baeec452d1
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 20%
@@ -71,7 +71,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 * **Filtros de data** - Agora você pode usar datas personalizadas para filtrar o inventário do jornada, além dos filtros de data predefinidos existentes. Isso permite refinar a lista ao exibir jornadas publicadas em uma data específica, em um mês específico, durante um ano inteiro ou dentro de intervalos de tempo especificados.
 
-* **Ler público**  - A atividade Ler público-alvo agora depende do conjunto de dados de instantâneo de perfil para segmentos em lote, que é gerado apenas uma vez, um dia depois que o trabalho em lote diário agendado é executado.
+* **Ler público**  - A atividade Ler público-alvo agora depende do conjunto de dados de instantâneo de perfil para segmentos em lote, que é gerado apenas uma vez por dia depois que o trabalho em lote diário agendado é executado.
 
 **Regras de frequência**
 
