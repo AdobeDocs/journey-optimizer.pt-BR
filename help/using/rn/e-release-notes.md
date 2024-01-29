@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a3591adf88ebd42031006c1e5a537e3247cecce8
+source-git-commit: fd6f83019aa9cd5b4d6561007f5e0068256bb211
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 20%
 
 ---
@@ -57,7 +57,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Relatórios**
 
-* **Relatórios de canal por domínio** - Novos widgets foram adicionados para aprimorar seus relatórios de Campanha e Jornada. A variável **Motivos de rejeição por domínio**, **Enviado e entregue por domínios**, **Aberturas e cliques por domínio** e **Rejeição e erros por domínio** os widgets fornecem um detalhamento detalhado no nível do domínio para as principais métricas de entrega e rastreamento de email.
+* **Novos widgets de detalhamento baseados em domínio** - Novos widgets foram adicionados para aprimorar seus relatórios de Campanha e Jornada. A variável **Motivos de rejeição por domínio**, **Enviado e entregue por domínios**, **Aberturas e cliques por domínio** e **Rejeição e erros por domínio** os widgets fornecem um detalhamento detalhado no nível do domínio para as principais métricas de entrega e rastreamento de email.
 
 **Canal de SMS**
 
