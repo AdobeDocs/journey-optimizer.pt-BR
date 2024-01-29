@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1728'
 ht-degree: 99%
 
 ---
@@ -357,7 +357,7 @@ ht-degree: 99%
    + Capacidade de entrega {#deliverability}
       + [Introdução à capacidade de entrega](using/reports/deliverability.md)
       + [Sobre a lista de supressão](using/reports/suppression-list.md)
-      + [Atualização DMARC obrigatória](using/configuration/dmarc-record-update.md)
+      + [Novo requisito DMARC](using/configuration/dmarc-record-update.md)
    + [Motivos do erro](using/reports/error-list.md)
    + [Alertas](using/reports/alerts.md)
    + [Trabalhar com o Customer Journey Analytics](using/reports/cja-ajo.md)
@@ -526,6 +526,7 @@ ht-degree: 99%
    + Delegar subdomínios de email {#delegate-subdomains}
       + [Introdução à delegação de subdomínio](using/configuration/about-subdomain-delegation.md)
       + [Delegar um subdomínio](using/configuration/delegate-subdomain.md)
+      + [Configurar registro DMARC](using/configuration/dmarc-record.md)
       + [Adicionar um registro TXT do Google](using/configuration/google-txt.md)
       + [Acessar e editar registros PTR](using/configuration/ptr-records.md)
       + [Criar pools de IP](using/configuration/ip-pools.md)

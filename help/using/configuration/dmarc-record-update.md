@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Atualização do DMARC obrigatória
+title: Conformidade com o novo requisito DMARC
 description: Saiba por que e quando você deve definir o registro DMARC no Journey Optimizer
 feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomínio, domínio, correio, dmarc, registro
-source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 14%
+source-wordcount: '526'
+ht-degree: 7%
 
 ---
 
-# Atualização do DMARC obrigatória {#dmarc-record-update}
+# Conformidade com o novo requisito DMARC {#dmarc-record-update}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="Saiba mais sobre a atualização do DMARC obrigatória"
->abstract="Como parte da aplicação de práticas recomendadas do setor, o Google e o Yahoo exigirão um **Registro DMARC** para qualquer domínio que você usar para enviar emails a eles, começando em **1 de fevereiro de 2024**. <br>Consequentemente, você deve configurar o registro DMARC em todos os subdomínios que você delegou ao Adobe no Journey Optimizer."
+>abstract="Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo exigirão uma **Registro DMARC** para qualquer domínio que você usar para enviar emails a eles, começando em **1 de fevereiro de 2024**.<br>Consequentemente, você deve configurar o registro DMARC em todos os subdomínios que você delegou ao Adobe no Journey Optimizer."
 
 Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo exigirão uma **Registro DMARC** para qualquer domínio que você usar para enviar emails para eles. Este novo requisito começa em **1 de fevereiro de 2024**.
 
@@ -36,13 +36,15 @@ Consequentemente, a Adobe recomenda que você garanta que tenha o registro DMARC
 
    * Configurar o DMARC no domínio principal dos subdomínios delegados **na sua solução de hospedagem**.
 
-   * Configurar DMARC nos subdomínios delegados **usar o recurso futuro no [!DNL Journey Optimizer] interface de administração** - sem trabalho extra na solução de hospedagem.
+   * Configurar DMARC nos subdomínios delegados **no [!DNL Journey Optimizer] interface de administração** - sem trabalho extra na solução de hospedagem. [Saiba como](dmarc-record.md#implement-dmarc)
 
-* Se você configurou o [Delegação CNAME](delegate-subdomain.md#cname-subdomain-delegation) para os subdomínios de envio, siga uma das duas opções abaixo:
+* Se você configurou os subdomínios de envio com [CNAME](delegate-subdomain.md#cname-subdomain-delegation), siga uma das duas opções abaixo:
    * Configure o DMARC nos subdomínios ou no domínio principal dos subdomínios **na sua solução de hospedagem**.
-   * Configurar DMARC nos subdomínios delegados **usar o recurso futuro no [!DNL Journey Optimizer] interface de administração**. No entanto, também exigirá a entrada na sua solução de hospedagem. Consequentemente, certifique-se de coordenar com seu departamento de TI para que ele possa realizar a atualização assim que a [!DNL Journey Optimizer] O recurso está disponível (em 30 de janeiro). <!--and be ready on February 1st, 2024-->
+   * Configurar DMARC nos subdomínios delegados **no [!DNL Journey Optimizer] interface de administração**. [Saiba como](dmarc-record.md#implement-dmarc)
 
-**Mais detalhes sobre o [!DNL Journey Optimizer] O próximo recurso DMARC será lançado em breve.**
+     No entanto, com a delegação CNAME, também será necessária a entrada na solução de hospedagem. Consequentemente, certifique-se de coordenar com seu departamento de TI para que ele possa realizar a atualização assim que a [!DNL Journey Optimizer] O recurso está disponível (em 30 de janeiro). [Saiba mais](dmarc-record.md#implement-dmarc)
+
+**Mais detalhes sobre o [!DNL Journey Optimizer] Os recursos futuros do DMARC estão disponíveis em [nesta seção](dmarc-record.md).**
 
 >[!NOTE]
 >
