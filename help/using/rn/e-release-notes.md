@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fae367cbbacffbbecde4cdbf7b39b1baeec452d1
+source-git-commit: a3591adf88ebd42031006c1e5a537e3247cecce8
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 20%
@@ -80,4 +80,4 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Gestão de decisões**
 
-* **Limite de frequência no Edge** - O contador de limite de frequência agora é atualizado e disponibilizado em uma decisão da API do Edge Decisioning em menos de 3 segundos.
+* **Limite de frequência na borda** - O contador de limite de frequência agora é atualizado e disponibilizado em uma decisão da API do Edge Decisioning em menos de 3 segundos.
