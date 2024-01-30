@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2757da51cf2a75855c4136cc42e06a5a00237699
+source-git-commit: bb8afe94e3a2df2b52f5190acd82265c2f780b5e
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 20%
+source-wordcount: '537'
+ht-degree: 18%
 
 ---
 
@@ -47,7 +47,21 @@ Essa versão traz os novos recursos listados abaixo.
 </tbody>
 </table>
 
-
+<table>
+<thead>
+<tr>
+<th><strong>Playbooks de caso de uso</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Aproveite um catálogo de manuais de casos de uso específicos do setor no Real-Time CDP e no Journey Optimizer para tratar de casos de uso comuns que você pode executar usando o Adobe Experience Platform e o Adobe Jornada Otimizer.</p><p>Depois de escolher o manual que melhor atende às suas necessidades, você pode habilitá-lo para gerar os recursos necessários para suportar seu caso de uso, como jornadas, mensagens, esquemas ou segmentos.</p>
+<img src="assets/playbooks-detail.png"/>
+<!--<p>For more information, refer to the <a href="../start/">detailed documentation</a>.</p>-->
+</tr>
+</tbody>
+</table>
 
 ### Melhorias {#jan-2024-improvements}
 
