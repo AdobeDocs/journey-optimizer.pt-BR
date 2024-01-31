@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c428b18469eb98392fe6c49d5892a4699477457
+source-git-commit: 146a142afeb47debac0d56963e48225a85b0f2c4
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 27%
+source-wordcount: '605'
+ht-degree: 28%
 
 ---
 
@@ -35,7 +35,6 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 ### Novos recursos{#jan24-features}
 
 Essa versão traz os novos recursos listados abaixo.
-
 
 <table>
 <thead>
@@ -90,7 +89,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 <!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-* **Ler público**  - A **Ler público-alvo** A atividade do agora depende do conjunto de dados de instantâneo de perfil para segmentos em lote, que é gerado apenas uma vez por dia depois que o trabalho em lote diário programado é executado, portanto, os dados serão atualizados para esse último trabalho em lote diário.
+* **Ler público**  - A **Ler público-alvo** A atividade do agora depende do conjunto de dados de instantâneo de perfil para segmentos em lote, que é gerado apenas uma vez por dia depois que o trabalho em lote diário programado é executado, portanto, os dados serão atualizados para esse último trabalho em lote diário. [Saiba mais](../building-journeys/read-audience.md)
 
 * **Grupos de campos** - Esta versão corrige um problema que impedia que grupos de campos fossem salvos em determinados casos.
 
@@ -100,4 +99,4 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Gestão de decisões**
 
-* **Limite de frequência na borda** - O contador de limite de frequência agora é atualizado e disponibilizado em uma decisão da API do Edge Decisioning em menos de 3 segundos.
+* **Limite de frequência na borda** - O contador de limite de frequência agora é atualizado e disponibilizado em uma decisão da API do Edge Decisioning em menos de 3 segundos. [Saiba mais](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
