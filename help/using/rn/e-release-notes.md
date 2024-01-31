@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7cb00d2527780f14564890c1123a76aa55c7c088
+source-git-commit: fe4c51a74431bf8ab66aa2c9c3bd07404d971bbf
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '562'
 ht-degree: 17%
 
 ---
@@ -83,7 +83,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 * **Filtros de data** - Agora você pode usar datas personalizadas para filtrar o inventário do jornada, além dos filtros de data predefinidos existentes. Isso permite refinar a lista ao exibir jornadas publicadas em uma data específica, em um mês específico, durante um ano inteiro ou dentro de intervalos de tempo especificados.
 
-* **Ler público**  - A atividade Ler público-alvo agora depende do conjunto de dados de instantâneo de perfil para segmentos em lote, que é gerado apenas uma vez por dia depois que o trabalho em lote diário agendado é executado.
+* **Ler público**  - A atividade Ler público-alvo agora depende do conjunto de dados de instantâneo de perfil para segmentos em lote, que é gerado apenas uma vez por dia depois que o trabalho em lote diário programado é executado, portanto, os dados serão atualizados para esse último trabalho em lote diário.
 
 **Regras de frequência**
 
