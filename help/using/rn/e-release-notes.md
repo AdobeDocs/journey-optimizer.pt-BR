@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 570f50a86288378c26f967f4861f19b9da9f96cf
+source-git-commit: 97967e8043df9b75d3120e4a7bfccff700f5d57f
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '558'
 ht-degree: 16%
 
 ---
@@ -88,6 +88,8 @@ Esta versão vem com as melhorias listadas abaixo.
 * **Ler público**  - A atividade Ler público-alvo agora depende do conjunto de dados de instantâneo de perfil para segmentos em lote, que é gerado apenas uma vez por dia depois que o trabalho em lote diário programado é executado, portanto, os dados serão atualizados para esse último trabalho em lote diário.
 
 * **Grupos de campos** - Correção de um problema que bloqueava o salvamento de grupos de campos em determinados casos.
+
+* **Editor de expressão** - Agora oferecemos suporte ao tipo de dados listObject em todas as expressões e em funções adicionais. [Mais informações](../building-journeys/expression/functions.md)
 
 **Regras de frequência**
 
