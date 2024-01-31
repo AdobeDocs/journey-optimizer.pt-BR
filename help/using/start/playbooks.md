@@ -7,14 +7,22 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 96367ab7b3d272368b1241321932a5e53c0654d7
+source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # Playbooks de caso de uso {#playbooks}
+
+>[!PREREQUISITES]
+>
+>As seguintes etapas de configuração são necessárias antes de trabalhar com manuais de casos de uso. Informações detalhadas sobre cada etapa estão disponíveis na documentação dos manuais de caso de uso [Comece já](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"} página.
+>
+>* Criar uma sandbox
+>* Configurar permissões do usuário
+>* Configurar superfícies de canal do Journey Optimizer para notificações por email, push e SMS
 
 Os manuais de casos de uso são fluxos de trabalho predefinidos que abordam casos de uso comuns que podem ser executados usando o Adobe Experience Platform e o Journey Optimizer.
 
