@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
+source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '903'
 ht-degree: 31%
 
 ---
@@ -155,9 +155,7 @@ Agora você pode [criar uma mensagem de correspondência direta](../direct-mail/
 
 >[!NOTE]
 >
->As linhas duplicadas serão removidas automaticamente.
->
->Se o número máximo de registros (ou seja, linhas) para cada arquivo contendo dados de perfil for muito alto, outro arquivo será criado automaticamente para os registros restantes.
+>Linhas duplicadas em que todos os valores na linha são iguais são removidas automaticamente do arquivo.
 
 <!--
     In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.

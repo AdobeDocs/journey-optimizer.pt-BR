@@ -7,16 +7,18 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: countWithNull, função, expressão, jornada
 exl-id: 8d53b6d8-f00f-4d1a-b6df-951f84a15430
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 29%
+source-wordcount: '57'
+ht-degree: 14%
 
 ---
 
 # countWithNull {#countWithNull}
 
 Conta todos os elementos da lista, incluindo valores nulos.
+
+Observe que o parâmetro `<listObject>` não é compatível com esta função.
 
 ## Categoria
 
@@ -30,14 +32,7 @@ Agregação
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| Lista | listString |
-| Lista | listBoolean |
-| Lista | listInteger |
-| Lista | listDecimal |
-| Lista | listDuration |
-| Lista | listDateTime |
-| Lista | listDateTimeOnly |
-| Lista | listDateOnly |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly |
 
 ## Assinatura e tipo retornado
 

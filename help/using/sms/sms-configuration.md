@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 1a3a67571ef839bf8e1942e4c9599aa52ea7e2dc
+source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 16%
+source-wordcount: '1266'
+ht-degree: 13%
 
 ---
 
@@ -69,7 +69,7 @@ Para configurar seu provedor SMS/MMS com o Journey Optimizer, siga estas etapas:
 
    ![](assets/sms_7.png)
 
-   * Para **[!DNL Sinch]**:
+   * +++ Para **[!DNL Sinch]**
 
       * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
 
@@ -77,15 +77,24 @@ Para configurar seu provedor SMS/MMS com o Journey Optimizer, siga estas etapas:
 
       * **[!UICONTROL Mensagem de Opt-in]**: digite a resposta personalizada que é enviada automaticamente como **[!UICONTROL Mensagem de Opt-in]**.
 
+      * **[!UICONTROL Mensagem de recusa]**: digite a resposta personalizada que é enviada automaticamente como **[!UICONTROL Mensagem de recusa]**.
+
       * **[!UICONTROL Mensagem de ajuda]**: digite a resposta personalizada que é enviada automaticamente como **Mensagem de ajuda**.
 
-   * Para **[!DNL Sinch MMS]**:
+      * **[!UICONTROL Palavras-chave de aceitação dupla]**: digite as palavras-chave que acionam o processo de aceitação dupla. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. Para várias palavras-chave, use valores separados por vírgulas.
+
+      * **[!UICONTROL Mensagem de aceitação dupla]**: digite a resposta personalizada que é enviada automaticamente em resposta à confirmação de aceitação dupla.
++++
+
+   * +++ Para **[!DNL Sinch MMS]**
 
       * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
 
       * **[!UICONTROL ID do projeto]**, **[!UICONTROL ID do aplicativo]** e **[!UICONTROL Token de API]**: no menu da API de conversa, você pode encontrar suas credenciais no menu Aplicativo. Saiba mais em [Documentação da Sinch](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
 
-   * Para **[!DNL Twilio]**:
++++
+
+   * +++ Para **[!DNL Twilio]**
 
       * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
 
@@ -93,12 +102,26 @@ Para configurar seu provedor SMS/MMS com o Journey Optimizer, siga estas etapas:
 
       * **[!UICONTROL SID da Mensagem]**: digite o identificador exclusivo atribuído a cada mensagem criada pela API do Twilio. Saiba mais em [Documentação do Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
-   * Para **[!DNL Infobip]**:
++++
+
+   * +++ Para **[!DNL Infobip]**
 
       * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
 
       * **[!UICONTROL URL de base da API]** e **[!UICONTROL Token de API]**: acesse a página inicial da interface da Web ou a página de gerenciamento de chaves da API para encontrar suas credenciais. Saiba mais em [Documentação do Infobip](https://www.infobip.com/docs/api){target="_blank"}.
 
+      * **[!UICONTROL Palavras-chave de aceitação dupla]**: digite as palavras-chave que acionam o processo de aceitação dupla. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. Para várias palavras-chave, use valores separados por vírgulas.
+
+      * **[!UICONTROL Mensagem de aceitação dupla]**: digite a resposta personalizada que é enviada automaticamente em resposta à confirmação da Aceitação dupla.
+
+      * **[!UICONTROL ID da entidade principal]**: digite a ID de entidade principal DLT atribuída.
+
+      * **[!UICONTROL ID do modelo de conteúdo]**: digite a ID do modelo de conteúdo DLT registrado.
+
+      * **[!UICONTROL Período de validade]**: digite o período de validade da mensagem em horas. Caso as mensagens não possam ser entregues dentro desse período, o sistema fará tentativas adicionais para reenviá-las. O período de validade padrão é definido como 48 horas.
+
+      * **[!UICONTROL Dados de Retorno]**: digite os dados adicionais do cliente que serão enviados no URL de notificação.
++++
 
 1. Clique em **[!UICONTROL Enviar]** quando você concluiu a configuração das credenciais da API.
 

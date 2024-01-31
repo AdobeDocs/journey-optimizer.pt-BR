@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
+source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 25%
+source-wordcount: '459'
+ht-degree: 24%
 
 ---
 
@@ -26,7 +26,15 @@ De acordo com os padrões e regulamentos do setor, todas as mensagens de marketi
 
 ## Palavras-chave de entrada nativas {#sms-native-keywords}
 
-Por padrão, o Adobe Journey Optimizer lida com as seguintes mensagens de resposta padrão em inglês para códigos curtos, chamadas gratuitas e mensagens de código longas: STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE. Observe que somente Sinch e Infobip suportam palavras-chave nativas quando usadas com o Journey Optimizer.
+>[!NOTE]
+>
+> Somente Sinch e Infobip são compatíveis com palavras-chave nativas quando usadas com o Journey Optimizer.
+
+Por padrão, o Adobe Journey Optimizer lida com as seguintes mensagens de resposta padrão em inglês para mensagens de códigos curtos, gratuitas e de código longo:
+
+* **Recusar**: PARAR, SAIR, CANCELAR, ENCERRAR, CANCELAR INSCRIÇÃO, NÃO.
+* **Opt-In**: ASSINAR, SIM, REINICIAR, INICIAR, CONTINUAR, RETOMAR, INICIAR.
+* **Ajuda**: AJUDA.
 
 Essas palavras-chave normalmente acionam uma resposta padrão automática do provedor de terceiros. Você pode confirmar isso diretamente com seu provedor ou por meio do site de documentação dele.
 

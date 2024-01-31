@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toString, função, expressão, jornada
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '128'
 ht-degree: 7%
 
 ---
@@ -62,3 +62,7 @@ Retorna &quot;4&quot;.
 `toString(#{ExperiencePlatform.test_date.person.birthDate}))`
 
 Retorna a representação da string do campo dateOnly fornecido (campo XDM Date), por exemplo &quot;2016-08-18&quot;.
+
+`toString(toDuration(1520))`
+
+Retorna &quot;PT1.52S&quot;.

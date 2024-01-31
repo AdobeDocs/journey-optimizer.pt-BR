@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: serializeList, função, expressão, jornada
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 21%
+source-wordcount: '88'
+ht-degree: 12%
 
 ---
 
 # serializeList {#serializeList}
 
-Converte a lista (qualquer tipo) fornecida no primeiro parâmetro em uma string. O segundo parâmetro representa o separador a ser usado. O terceiro parâmetro é um valor booleano que indica se cada elemento da expressão deve incluir aspas.
+Converte uma determinada lista (qualquer tipo, exceto listObject) em uma cadeia de caracteres.
 
 ## Categoria
 
@@ -28,19 +28,11 @@ Lista
 
 ## Parâmetros
 
-| Parâmetro | Tipo |
-|-----------|------------------|
-| String | String |
-| Booleano | Booleano |
-| DateTimeOnly | DateTimeOnly |
-| Lista | listString |
-| Lista | listBoolean |
-| Lista | listPoint |
-| Lista | listDecimal |
-| Lista | listDuration |
-| Lista | listDateTime |
-| Lista | listDateTimeOnly |
-| Lista | listDateOnly |
+| Parâmetro | Tipo | Descrição |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Lista para converter em uma cadeia de caracteres. |
+| separador | string | Separador entre cada elemento da lista na cadeia de caracteres de saída. |
+| addQuotes | booleano | Esse parâmetro indica se cada elemento na string de saída deve incluir aspas (true) ou não (false). |
 
 ## Assinatura e tipo retornado
 
@@ -59,8 +51,6 @@ Lista
 `serializeList(<listDateOnly>,<string>,<boolean>)`
 
 `serializeList(<listDuration>,<string>,<boolean>)`
-
-`serializeList(<listPoint>,<string>,<boolean>)`
 
 Retorna uma string.
 

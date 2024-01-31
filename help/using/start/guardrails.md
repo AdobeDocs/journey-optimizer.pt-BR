@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6a2b3c988168d8ff6f5671718cd0defb6ad8c258
+source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
-source-wordcount: '1860'
-ht-degree: 94%
+source-wordcount: '1960'
+ht-degree: 89%
 
 ---
 
@@ -87,6 +87,10 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 * Endereços IP não são permitidos
 * Endereços internos da Adobe (`.adobe.*`) não são permitidos em URLs e APIs.
 * As ações personalizadas incorporadas não podem ser removidas.
+* Ao escolher um endpoint para direcionar usando uma ação personalizada, verifique se:
+
+   * Esse endpoint pode suportar a taxa de transferência da jornada, usando configurações do [API de limitação](../configuration/throttling.md) ou [API de limite](../configuration/capping.md) para limitá-lo. Tenha cuidado para que uma configuração de limitação não possa ficar abaixo de 200 TPS. Qualquer terminal direcionado precisará oferecer suporte a pelo menos 200 TPS.
+   * Esse endpoint precisa ter um tempo de resposta o mais baixo possível. Dependendo do throughput esperado, ter um tempo de resposta alto pode afetar o throughput real.
 
 ### Eventos {#events-g}
 
@@ -99,6 +103,10 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 
 * As fontes de dados externas podem ser aproveitadas em uma jornada do cliente para pesquisar dados externos em tempo real. Essas fontes devem ser utilizáveis por meio da API REST, devem ser compatíveis com JSON e poder lidar com o volume de solicitações.
 * Endereços internos da Adobe (`.adobe.*`) não são permitidos em URLs e APIs.
+
+>[!NOTE]
+>
+>Como as respostas agora são compatíveis, você deve usar ações personalizadas em vez de fontes de dados para casos de uso de fontes de dados externas.
 
 ### Criação de jornadas e perfis {#journeys-limitation-profile-creation}
 

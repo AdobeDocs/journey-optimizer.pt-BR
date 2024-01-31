@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, integração, padrão, campanha, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 5%
@@ -102,7 +102,7 @@ Nesta seção, você precisa definir o parâmetro **[!UICONTROL Plataforma de pu
 Você também precisa definir a variável **[!UICONTROL Token de registro]**. A expressão depende de como o token é definido na carga do evento ou em outro [!DNL Journey Optimizer] informações. Pode ser um campo simples ou uma expressão mais complexa, caso o token seja definido em uma coleção, por exemplo:
 
 ```
-@{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+@event{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
 ```
 
 **[!UICONTROL Dados de personalização]**

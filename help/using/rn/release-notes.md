@@ -8,15 +8,14 @@ role: User
 level: Beginner, Intermediate
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
+source-git-commit: 0c428b18469eb98392fe6c49d5892a4699477457
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '601'
+ht-degree: 27%
 
 ---
 
 # Notas de versão {#release-notes}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
@@ -25,104 +24,80 @@ ht-degree: 100%
 
 O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Na última semana de cada mês, todas as alterações são consolidadas nessas notas de versão.
 
-As notas de versão anteriores estão disponíveis [nesta página](release-notes-2023.md). Também é possível consultar a página das [atualizações mais recentes da documentação](documentation-updates.md) para conhecer mais alterações.
-
 O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
-## Notas de versão de outubro de 2023 {#oct-rn-2023}
+## Notas de versão antecipadas de janeiro de 2024 {#jan-2024}
 
-### Novos recursos{#oct-2023-features}
+**Data de lançamento**: 30 a 31 de janeiro de 2024
+
+### Novos recursos{#jan24-features}
 
 Essa versão traz os novos recursos listados abaixo.
 
-<table>
-<thead>
-<tr>
-<th><strong>Ferramentas de sandbox</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>As ferramentas de sandbox permitem copiar objetos em várias sandboxes aproveitando a exportação e a importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote precisam ser da mesma sandbox.</p>
-<!--img src="../data/assets/dataset-export-setup.png"-->
-<p>Para obter mais informações, consulte a <a href="../building-journeys/copy-to-sandbox.md">documentação detalhada</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!-- table>
-<thead>
-<tr>
-<th><strong>Composed audiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<img src="assets/channel-reports.png"/>
-<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table -->
 
 <table>
 <thead>
 <tr>
-<th><strong>Serviço de Mensagens Multimídia (MMS) em SMS</strong><br/></th>
+<th><strong>Atualizações de entregabilidade</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos com clientes. Observe que esse recurso está disponível somente com o Sinch.</p>
-<img src="assets/do-not-localize/mms.gif"/>
-<p>Para obter mais informações, consulte a <a href="../sms/create-sms.md#mms-content">documentação detalhada</a>.</p>
+<p>O Journey Optimizer agora é compatível com a tecnologia de autenticação DMARC.</p>
+<p>A partir de 1º de fevereiro de 2024, o Google e o Yahoo! O exigirá um registro DMARC para qualquer domínio que você usar para enviar emails para eles. Verifique se você tem o registro DMARC configurado para todos os subdomínios que você delegou ou ou que estão delegando ao Adobe no Journey Optimizer.</p>
+<p>Para obter mais informações, consulte a <a href="../configuration/dmarc-record-update.md">documentação detalhada</a>.</p>
+<br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
 </tbody>
 </table>
 
-### Melhorias {#oct-2023-improvements}
+<table>
+<thead>
+<tr>
+<th><strong>Playbooks de caso de uso</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Aproveite um catálogo de manuais de casos de uso específicos do setor no Real-Time CDP e no Journey Optimizer para tratar de casos de uso comuns que você pode executar usando o Adobe Experience Platform e o Adobe Jornada Otimizer.</p><p>Depois de escolher o manual que melhor atende às suas necessidades, você pode habilitá-lo para gerar os ativos necessários para suportar o caso de uso, como jornadas, mensagens, esquemas ou segmentos, e personalizá-los no esquema para agilizar o tempo de implantação.</p>
+<p>Para obter mais informações, consulte a <a href="../start/playbooks.md">documentação detalhada</a>.</p>
+<br/><img src="assets/do-not-localize/playbooks.gif"/>
+</tr>
+</tbody>
+</table>
+
+### Melhorias {#jan24-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
-**Públicos-alvo**
+**Relatórios**
 
-* Agora é possível direcionar públicos-alvo enviados a partir de um arquivo CSV para jornadas e campanhas. [Saiba mais](../audience/about-audiences.md#segments-in-journey-optimizer)
-* Agora é possível direcionar públicos-alvo criados por meio da composição de público-alvo e aproveitar os atributos de enriquecimento em jornadas. [Saiba mais](../building-journeys/read-audience.md)
+* **Novos widgets de detalhamento baseados em domínio** - Novos widgets foram adicionados para aprimorar seus relatórios de Campanha e Jornada. A variável **Motivos de rejeição por domínio**, **Enviado e entregue por domínios**, **Aberturas e cliques por domínio** e **Rejeição e erros por domínio** os widgets fornecem um detalhamento detalhado no nível do domínio para as principais métricas de entrega e rastreamento de email. [Saiba mais](../reports/channel-report.md)
 
->[!AVAILABILITY]
->
->No momento, esses recursos estão disponíveis como um beta privado.
+**Canal de SMS**
 
-<!--
-**Spam scoring for emails**
+* **Aceitação dupla** - O fluxo de trabalho de Aceitação dupla de SMS garante que os usuários optem explicitamente por receber mensagens quando a solicitação for iniciada a partir de seus dispositivos. Os usuários iniciam o processo de consentimento enviando uma mensagem SMS de entrada. Após confirmar o consentimento, uma mensagem de acompanhamento é enviada, solicitando verificação final. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. [Saiba mais](../sms/sms-configuration.md#create-api)
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
-
-**Campanhas**
-
-<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Quando ocorre um erro em uma das campanhas, um ícone de aviso agora é exibido na lista de campanhas junto com o status da campanha. [Saiba mais](../campaigns/modify-stop-campaign.md#statuses)
+  Observe que esse recurso está disponível com provedores de SMS Sinch e Infobip.
 
 **Jornadas**
 
-* A duração máxima que você pode definir em qualquer tempo de espera agora é de 29 dias, em vez de 30. Essa melhoria foi introduzida para evitar que a espera exceda os 30 dias de duração da jornada. Isso se aplica a:
+* **Duração dos eventos de reação** - A duração máxima que você pode definir no **Eventos de reação** agora é de 29 dias, em vez de 30. [Saiba mais](../building-journeys/reaction-events.md)
 
-   * o campo **Quantidade de tempo** na [atividade de espera](../building-journeys/wait-activity.md)
-   * o **período de espera de reentrada** nas [propriedades da jornada](../building-journeys/journey-gs.md#entrance)
-   * o campo **Aguardar por** na definição de tempo limite das [atividades de evento](../building-journeys/general-events.md#events-specific-time).
+<!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-<!--
-**Consent in channel configuration**
+* **Ler público**  - A **Ler público-alvo** A atividade do agora depende do conjunto de dados de instantâneo de perfil para segmentos em lote, que é gerado apenas uma vez por dia depois que o trabalho em lote diário programado é executado, portanto, os dados serão atualizados para esse último trabalho em lote diário.
 
-* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+* **Grupos de campos** - Esta versão corrige um problema que impedia que grupos de campos fossem salvos em determinados casos.
+
+**Regras de frequência**
+
+* **Limite de frequência semanal e diária** - Agora você pode especificar o número máximo de mensagens enviadas para um perfil de cliente em uma semana ou um dia, além do mês. O limite de frequência é baseado no período de calendário selecionado e redefinido no início do período correspondente. [Saiba mais](../configuration/frequency-rules.md#create-new-rule)
 
 **Gestão de decisões**
 
-* Vários rótulos relacionados ao limite de ofertas na interface da gestão de decisões foram atualizados. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
-
+* **Limite de frequência na borda** - O contador de limite de frequência agora é atualizado e disponibilizado em uma decisão da API do Edge Decisioning em menos de 3 segundos.

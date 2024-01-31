@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: sort, function, expression, jornada
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '144'
 ht-degree: 7%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 7%
 # sort {#sort}
 
 Classifica uma lista de valores ou objetos na ordem natural.
-
->[!NOTE]
->
->Se a lista de destino for um listObject, essa função só poderá ser usada em expressões de ação personalizadas.
 
 ## Categoria
 
@@ -81,4 +77,8 @@ Devoluções `["A","B","C"]`.
 `sort([1, 3, 2], false)`
 
 Devoluções `[3, 2, 1]`.
+
+`sort(@event{my_event.productListItems}, "SKU", true)`
+
+Retorna o listObject ordenado pelo atributo SKU (ordem crescente)
 

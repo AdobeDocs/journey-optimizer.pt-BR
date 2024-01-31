@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fontes, dados, configuração, conexão, terceiros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 67%
+source-wordcount: '1489'
+ht-degree: 64%
 
 ---
 
@@ -28,6 +28,10 @@ Fontes de dados externas permitem definir uma conexão com sistemas de terceiros
 >[!NOTE]
 >
 >As medidas de proteção ao trabalhar com sistemas externos estão listadas em [esta página](../configuration/external-systems.md).
+
+>[!NOTE]
+>
+>Como as respostas agora são compatíveis, você deve usar ações personalizadas em vez de fontes de dados para casos de uso de fontes de dados externas.
 
 As APIs REST que usam POST ou GET e devolvem JSON são compatíveis. A chave de API, os modos de autenticação básicos e personalizados são compatíveis.
 
@@ -122,9 +126,12 @@ Com essa autenticação, a execução da ação é um processo de duas etapas:
 1. Chame o endpoint para gerar o token de acesso.
 1. Chame a REST API inserindo de maneira correta o token de acesso.
 
-Esta autenticação tem duas partes.
 
-A definição do endpoint que será chamado para gerar o token de acesso:
+>[!NOTE]
+>
+>**Esta autenticação tem duas partes.**
+
+### Definição do endpoint que será chamado para gerar o token de acesso
 
 * endpoint: URL que será usado para gerar o endpoint
 * método da solicitação HTTP no endpoint (GET ou POST)
@@ -133,7 +140,7 @@ A definição do endpoint que será chamado para gerar o token de acesso:
    * &#39;form&#39;: significa que o tipo de conteúdo será application/x-www-form-urlencoded (charset UTF-8) e que os pares de valor-chave serão serializados como estão: key1=value1&amp;key2=value2&amp;...
    * &quot;json&quot;: significa que o tipo de conteúdo será application/json (charset UTF-8) e que os pares de valores chave serão serializados como um objeto json como a seguir: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
-A definição da forma como o token de acesso deve ser inserido na solicitação HTTP da ação:
+### Definição da forma como o token de acesso deve ser inserido na solicitação HTTP da ação
 
 * authorizationType: define como o token de acesso gerado deve ser inserido na chamada HTTP para a ação. Os valores possíveis são:
 
@@ -150,8 +157,6 @@ O formato dessa autenticação é:
 ```
 {
     "type": "customAuthorization",
-    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
-    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
     (optional) "headers": {
@@ -163,10 +168,16 @@ O formato dessa autenticação é:
         "bodyParams": {
             "param1": value1,
             ...
-
         }
     },
-    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
+    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'",
+    "cacheDuration": {
+        (optional, mutually exclusive with 'duration') "expiryInResponse": "<json selector in format 'json://<field path to expiry>'",
+        (optional, mutually exclusive with 'expiryInResponse') "duration": <integer value>,
+        "timeUnit": "<unit in 'milliseconds', 'seconds', 'minutes', 'hours', 'days', 'months', 'years'>"
+    },
+    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
+    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
 }
 ```
 
@@ -228,14 +239,19 @@ Veja um exemplo do tipo de autenticação de cabeçalho:
       "username": "any value"
     }
   },
-  "tokenInResponse": "json://token"
-} 
+  "tokenInResponse": "json://token",
+  "cacheDuration": {
+    "expiryInResponse": "json://expiryDuration",
+    "timeUnit": "minutes"
+  }
+}
 ```
 
 Este é um exemplo da resposta da chamada de API de logon:
 
 ```
 {
-  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S"
+  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
+  "expiryDuration" : 5
 }
 ```

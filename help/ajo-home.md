@@ -5,10 +5,10 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1124de3e38eee72eb545c6d5a40a5a8f5de80181
+source-git-commit: dc5655d05a491568ee2a9f4a4a75939cfcc812e7
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 81%
+source-wordcount: '435'
+ht-degree: 68%
 
 ---
 
@@ -20,23 +20,27 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!BEGINTABS]
 
+>[!TAB A versão de janeiro está disponível.]
+
+Descubra novos recursos e melhorias que acompanham a versão 24.1 do Adobe Journey Optimizer.
+
+[![imagem](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
 >[!TAB Atualização DMARC obrigatória]
 
-Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo exigirão uma **Registro DMARC** para qualquer domínio que você usar para enviar emails a eles, começando em **1 de fevereiro de 2024**. Verifique se você tem o registro DMARC configurado para todos os subdomínios que você delegou ao Adobe no Journey Optimizer.
+Como parte da aplicação de práticas recomendadas do setor, o Google e o Yahoo exigirão um **Registro DMARC** para qualquer domínio que você usar para enviar emails a eles, começando em **1 de fevereiro de 2024**. Verifique se você tem o registro DMARC configurado para todos os subdomínios que você delegou ao Adobe no Journey Optimizer.
 
 [![imagem](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
->[!TAB Ferramentas de sandbox]
+>[!TAB Playbooks de caso de uso]
 
-As ferramentas de sandbox permitem copiar objetos em várias sandboxes aproveitando a exportação e a importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote precisam ser da mesma sandbox.
+Aproveite um catálogo de manuais de casos de uso específicos do setor no Real-Time CDP e no Journey Optimizer para tratar de casos de uso comuns que você pode executar usando o Adobe Experience Platform e o Adobe Jornada Otimizer.
 
-[![imagem](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
+Depois de escolher o manual que melhor atende às suas necessidades, você pode habilitá-lo para gerar os ativos necessários para suportar o caso de uso, como jornadas, mensagens, esquemas ou segmentos, e personalizá-los no esquema para agilizar o tempo de implantação.
 
->[!TAB MMS no SMS]
+![imagem animada mostrando os manuais de caso de uso](using/rn/assets/do-not-localize/playbooks.gif)
 
-Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos com clientes. Observe que esse recurso está disponível somente com o Sinch.
-
-[![imagem](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#mms-content)
+[![imagem](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
 
 >[!ENDTABS]
 

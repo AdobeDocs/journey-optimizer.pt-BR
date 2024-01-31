@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
+source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 10%
+source-wordcount: '1402'
+ht-degree: 6%
 
 ---
 
@@ -31,9 +31,9 @@ Vamos ver como exemplo o público-alvo &quot;Abertura e finalização do aplicat
 
 ## Leitura obrigatória {#must-read}
 
-* Para jornadas que usam uma atividade Público-alvo de leitura, há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. Novas tentativas serão executadas pelo sistema, mas evite ter mais do que cinco jornadas (com Público-alvo de leitura, programadas ou iniciando “o mais rápido possível”), iniciando exatamente ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
+* Para jornadas que usam um **Ler público-alvo** atividade, há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. As tentativas serão executadas pelo sistema, mas evite ter mais de cinco jornadas (com **Ler público-alvo**, programado ou iniciando &quot;assim que possível&quot;) iniciando exatamente ao mesmo tempo. A prática recomendada é espalhá-las ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
 
-* Grupos de campos de evento de experiência não podem ser usados em jornadas que começam com uma atividade Ler público, uma qualificação de Público ou um evento comercial.
+* Grupos de campos de evento de experiência não podem ser usados em jornadas que começam com um **Ler público** atividade, um **[Qualificação de público](audience-qualification-events.md)** atividade de evento comercial.
 
 * Como prática recomendada, use somente públicos-alvo em lote em uma **Ler público** atividade. Isso fornecerá uma contagem confiável e consistente para os públicos-alvo usados em uma jornada. O público-alvo de leitura foi projetado para casos de uso em lote. Se o caso de uso precisar de dados em tempo real, use **[Qualificação de público](audience-qualification-events.md)** atividade.
 

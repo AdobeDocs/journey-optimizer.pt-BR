@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Registro DMARC
 description: Saiba como definir um registro DMARC no Journey Optimizer
-feature: Subdomains, Channel Configuration
+feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomínio, domínio, correio, dmarc, registro
-source-git-commit: 2a1fccd05c960aca6a2764844f96e161c798d404
+source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1370'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## O que é DMARC? {#what-is-dmarc}
 
-DMARC, que significa **Autenticação de mensagens baseadas em domínio, relatórios e conformidade** O, é um método de autenticação de email que permite aos proprietários de domínios proteger seu domínio contra o uso não autorizado. Ao oferecer uma política clara para provedores de email/ISPs, ajuda a impedir que intervenientes mal-intencionados enviem emails que alegam ser do seu domínio. Isso pode reduzir as chances de emails legítimos serem marcados como spam ou rejeitados e melhorar a capacidade de entrega de emails.
+O DMARC (Domain-based Message Authentication, Reporting, and Conformance) é um método de autenticação de email que permite aos proprietários do domínio proteger seu domínio contra o uso não autorizado. Ao oferecer uma política clara para provedores de email/ISPs, ajuda a impedir que intervenientes mal-intencionados enviem emails que alegam ser do seu domínio. A implementação do DMARC reduz o risco de emails legítimos serem marcados como spam ou rejeitados e melhora a capacidade de entrega de emails.
 
 O DMARC também oferece relatórios sobre mensagens que falham na autenticação, juntamente com controle sobre o tratamento de emails que não passam na validação do DMARC. Dependendo do tipo de [Política DMARC](#dmarc-policies), esses emails podem ser monitorados, colocados em quarentena ou rejeitados. Esses recursos capacitam você a tomar medidas para mitigar e resolver possíveis erros.
 
@@ -65,7 +65,7 @@ Se um email falhar na autenticação DMARC, você poderá decidir qual ação se
 
 Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo exigirão uma **Registro DMARC** para qualquer domínio que você usar para enviar emails para eles. Este novo requisito começa em **1 de fevereiro de 2024**.
 
-Saiba mais sobre os requisitos do Google e do Yahoo em [nesta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+Saiba mais sobre os requisitos do Google e do Yahoo em [nesta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -79,7 +79,7 @@ Consequentemente, a Adobe recomenda que você execute as seguintes ações:
 
 ## Implementar o DMARC no [!DNL Journey Optimizer] {#implement-dmarc}
 
-Começando em **30 de janeiro de 2024**, o [!DNL Journey Optimizer] A interface de administração permitirá configurar o registro DMARC para todos os subdomínios que você já delegou ou está delegando ao Adobe. As etapas detalhadas estão descritas abaixo.
+A variável [!DNL Journey Optimizer] A interface de administração do permite configurar o registro DMARC para todos os subdomínios que você já delegou ou está delegando ao Adobe. As etapas detalhadas estão descritas abaixo.
 
 ### Verifique se há DMARC nos subdomínios existentes {#check-subdomains-for-dmarc}
 

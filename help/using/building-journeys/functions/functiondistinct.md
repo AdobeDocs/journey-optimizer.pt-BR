@@ -7,20 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinct, função, expressão, jornada
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 5%
+source-wordcount: '155'
+ht-degree: 6%
 
 ---
 
 # distinct {#distinct}
 
 Retorna os valores ou objetos distintos de uma determinada lista. Entradas nulas são ignoradas.
-
->[!NOTE]
->
->Se a lista de destino for um listObject, essa função só poderá ser usada em expressões de ação personalizadas.
 
 ## Categoria
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
+source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 18%
+source-wordcount: '1422'
+ht-degree: 17%
 
 ---
 
@@ -36,6 +36,11 @@ Em parâmetros de ação personalizados, você pode passar uma coleção simples
 Observe também que os parâmetros de ações personalizadas têm um formato esperado (por exemplo: sequência, decimal etc.). Você deve ter cuidado para respeitar esses formatos esperados. Saiba mais nesta página [caso de uso](../building-journeys/collections.md).
 
 ## Práticas recomendadas{#custom-action-enhancements-best-practices}
+
+Ao escolher um endpoint para direcionar usando uma ação personalizada, verifique se:
+
+* Esse endpoint pode suportar a taxa de transferência da jornada, usando configurações do [API de limitação](../configuration/throttling.md) ou [API de limite](../configuration/capping.md) para limitá-lo. Tenha cuidado para que uma configuração de limitação não possa ficar abaixo de 200 TPS. Qualquer terminal direcionado precisará oferecer suporte a pelo menos 200 TPS.
+* Esse endpoint precisa ter um tempo de resposta o mais baixo possível. Dependendo do throughput esperado, ter um tempo de resposta alto pode afetar o throughput real.
 
 Um limite máximo de 300.000 chamadas em um minuto é definido para todas as ações personalizadas. Além disso, o limite padrão é executado por host e por sandbox. Por exemplo, em uma sandbox, se você tiver dois pontos de acesso com o mesmo host (por exemplo: `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), o limite será aplicado a todos os pontos de acesso no host adobe.com. &quot;endpoint1&quot; e &quot;endpoint2&quot; compartilharão a mesma configuração de limitação e fazer com que um endpoint atinja o limite terá impacto no outro endpoint.
 

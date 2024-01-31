@@ -8,24 +8,40 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
+source-git-commit: 84bb42083dc6b6c4e79014ea0b2d4632825350e7
 workflow-type: tm+mt
-source-wordcount: '4295'
-ht-degree: 98%
+source-wordcount: '4574'
+ht-degree: 93%
 
 ---
 
 # Atualizações de documentação {#latest-updates}
 
-Esta página lista todas as atualizações na documentação do [!DNL Journey Optimizer].
+Esta página lista todas as atualizações mais recentes no [!DNL Journey Optimizer] documentação.
 
 ## Janeiro de 2024 {#jan-2024}
 
+* Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de janeiro de 2024 foi detalhada na documentação. [Leia mais](release-notes.md)
 * Uma garantia sobre o tamanho da jornada foi adicionada. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
 * O gerenciamento de tempo limite da jornada foi detalhado [na seção seguinte](../building-journeys/journey-gs.md#global_timeout).
 * A [página inicial da documentação](../../ajo-home.md) do Journey Optimizer foi redefinida.
 * A Recommendations sobre a atividade Atualizar perfis foi adicionada. [Leia mais](../building-journeys/update-profiles.md)
 * Foram adicionadas informações sobre o comportamento dos tempos limite em atividades de evento no jornada. Quando nenhum evento é recebido durante o período de tempo limite especificado, os indivíduos continuarão a jornada se nenhum caminho de tempo limite for definido. [Leia mais](../building-journeys/general-events.md#events-specific-time)
+* Os pré-requisitos de configuração do canal no aplicativo foram atualizados com uma observação sobre o uso de uma política de mesclagem de preferência de Conjunto de dados personalizada. [Leia mais](../in-app/inapp-configuration.md)
+* Mais detalhes foram adicionados sobre como manipular coleções em uma resposta de ação personalizada. [Leia mais](../action/action-response.md#exp-syntax).
+* Um link para o [Dicionário de esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR) foi adicionado à página inicial.
+* Uma referência desatualizada ao recurso Mensagem do AJO foi removida da lista de recursos disponíveis no Log de auditoria. Quando uma atualização é concluída em uma mensagem em uma jornada, uma **Jornada** log é criado. [Leia mais](../privacy/audit-logs.md)
+* Recomendações adicionais foram adicionadas sobre o uso do **Ler público-alvo** atividade. [Leia mais](../building-journeys/read-audience.md#must-read)
+* A página Introdução aos públicos da Adobe Experience Platform foi aprimorada com uma lista de métodos de geração de público-alvo. [Leia mais](../audience/about-audiences.md)
+* As práticas recomendadas foram adicionadas ao escolher um endpoint para direcionamento usando uma ação personalizada. [Leia mais](../action/about-custom-action-configuration.md)
+* Uma observação foi adicionada para notificar os usuários que os eventos não podem ser acionados de sistemas externos usando uma API. [Leia mais](../building-journeys/testing-the-journey.md#important-notes)
+* Informações sobre o **currentActionField** foi adicionada à lista de [funções de gerenciamento de coleções](../building-journeys/expression/collection-management-functions.md). Uma amostra de expressão que utiliza a função foi adicionada na variável [Usar respostas de chamada de API em ações personalizadas](../action/action-response.md) página.
+* Atualize o documento de autenticação personalizado em relação à duração do cache. [Leia mais] (../datasource/external-data-sources.md)
+* Suporte do `<listObject>` foi modificado em várias funções.
+* Atualize o **duração** parâmetro no `toString` função. [Leia mais](../building-journeys/functions/functiontostring.md)
+* Para alguns casos de uso de fontes de dados externas, é recomendado o uso de ações personalizadas.
+* A sintaxe do campo de evento foi atualizada. A sintaxe a seguir está obsoleta `@(my_event.myfield}` e substituída por `@event{my_event.myfield}`. [Leia mais](../building-journeys/expression/field-references.md)
+
 
 ## Novembro de 2023 {#nov-2023}
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2424'
 ht-degree: 16%
 
 ---
@@ -258,9 +258,12 @@ A variável **[!UICONTROL Frequência]** permite definir com que frequência a c
 
 ![](../assets/offer-capping-frequency.png)
 
+
 >[!NOTE]
 >
 >A redefinição ocorre às 12h UTC, no dia definido ou no primeiro dia da semana/mês quando aplicável. O dia de início da semana é domingo. Qualquer duração escolhida não pode exceder 2 anos (ou seja, o número correspondente de meses, semanas ou dias).
+>
+>O contador de limite de frequência é atualizado e disponibilizado em uma decisão da API do Edge Decisioning em menos de 3 segundos.
 
 Por exemplo, se desejar que a contagem de limite seja redefinida a cada 2 semanas, selecione **[!UICONTROL Semanalmente]** na lista suspensa correspondente e digite **2** no outro campo. A restauração acontece todo domingo às 12h UTC.
 

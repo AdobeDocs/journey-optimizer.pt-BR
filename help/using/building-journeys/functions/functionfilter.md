@@ -7,20 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: filtro, função, expressão, jornada
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 8%
+source-wordcount: '113'
+ht-degree: 9%
 
 ---
 
 # filtro{#filter}
 
 Retorna um listObject com objetos que têm o atributo de chave correspondente a um dos valores de chave fornecidos.
-
->[!NOTE]
->
->Se a lista de destino for um listObject, essa função só poderá ser usada em expressões de ação personalizadas.
 
 ## Categoria
 
@@ -82,7 +78,7 @@ Você pode usar a seguinte expressão:
 
 ```json
 filter(
- @{myevent.productListItems},
+ @event{myevent.productListItems},
  "id", 
  ["product2", "product3", "product4"]
 )
