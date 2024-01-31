@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Você pode usar esses atalhos em áreas específicas da interface do [!DNL Journ
     <td>E</td>
   </tr>
   <tr>
-    <td>Acionar um evento em uma jornada baseada em público-alvo para a qual a opção **[!UICONTROL Perfil único por vez]** está ativada</td>
+    <td>Acionar um evento em uma jornada baseada em público-alvo para a qual a opção **[!UICONTROL Single profile at a time]** está ativada</td>
     <td>P</td>
   </tr>
   <tr>
