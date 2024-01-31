@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
+source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 24%
+source-wordcount: '1787'
+ht-degree: 17%
 
 ---
 
@@ -50,6 +50,8 @@ Para enviar mensagens com jornadas, as seguintes configurações são necessári
 >title="Jornadas"
 >abstract="Crie jornadas do cliente para fornecer experiências personalizadas e contextuais. O Journey Optimizer permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. A guia **Visão geral** exibe um painel com as métricas principais relacionadas às suas jornadas. A guia **Procurar** exibe a lista de jornadas existentes."
 
+### Métricas principais e lista de jornadas {#access-metrics}
+
 Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]**. Duas guias estarão disponíveis:
 
 **Visão geral**: esta guia exibe um painel com as métricas principais relacionadas às suas jornadas:
@@ -69,15 +71,27 @@ Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]*
 
 ![](assets/journeys-browse.png)
 
-Na lista de jornadas, você pode filtrar jornadas de acordo com o status, tipo e versão por meio do menu **[!UICONTROL Filtros de status e versão]**. O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação de público]**, **[!UICONTROL Ler público]**, **[!UICONTROL Evento comercial]** ou **[!UICONTROL Intermitência]**.
+### Filtrar jornadas {#filter}
 
-Você pode optar por exibir somente jornadas que usam um evento, grupo de campos ou ação específica a partir dos **[!UICONTROL Filtros de atividade]** e **[!UICONTROL Filtros de dados]**. Além disso, a **[!UICONTROL Filtros de publicação]** permite selecionar uma data de publicação ou um usuário. Por exemplo, você pode optar por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. [Saiba mais](../building-journeys/using-the-journey-designer.md).
+Na lista de jornadas, você pode aproveitar vários filtros para refinar a lista de jornadas para melhorar a legibilidade.
 
 ![](assets/filter-journeys.png)
 
-Use as colunas **[!UICONTROL Última atualização]** e **[!UICONTROL Última atualização por]** para verificar quando aconteceu a última atualização de suas jornadas e quem as salvou.
+Estas são as várias operações de filtragem que você pode executar:
 
-Nos painéis de configuração Evento, Fonte de dados e Ação, o campo **[!UICONTROL Usado em]** exibe o número de jornadas que usam aquele determinado evento, grupo de campo ou ação. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas correspondentes.
+* Filtre as jornadas de acordo com seu status, tipo, versão e tags atribuídas do **[!UICONTROL Filtros de status e versão]**.
+
+  O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação de público]**, **[!UICONTROL Ler público]**, **[!UICONTROL Evento comercial]** ou **[!UICONTROL Intermitência]**.
+
+* Use o **[!UICONTROL Filtros de criação]** para filtrar jornadas de acordo com a data de criação ou o usuário que as criou.
+
+* Exibir jornadas que usam um evento, grupo de campos ou ação específica do **[!UICONTROL Filtros de atividade]** e **[!UICONTROL Filtros de dados]**.
+
+* Use o **[!UICONTROL Filtros de publicação]** para selecionar uma data de publicação ou um usuário. Você pode optar, por exemplo, por exibir as versões mais recentes de jornadas ao vivo que foram publicadas ontem.
+
+  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+
+Além disso, nos painéis de configuração Evento, Fonte de dados e Ação, a variável **[!UICONTROL Usado em]** campo exibe o número de jornadas que usam esse evento, grupo de campos ou ação específica. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas correspondentes.
 
 ![](assets/journey3bis.png)
 
@@ -134,7 +148,7 @@ Quando a variável **Permitir reentrada** estiver ativada, a variável **Períod
 
 Saiba mais sobre o gerenciamento de entrada e reentrada de perfis, em [nesta seção](entry-management.md).
 
-### Gerenciar acesso {#access}
+### Gerenciar acesso {#manage-access}
 
 Para atribuir rótulos de uso de dados personalizados ou principais à jornada, clique no botão **[!UICONTROL Gerenciar acesso]** botão. [Saiba mais sobre o OLA (Object Level Access Control, controle de acesso em nível de objeto)](../administration/object-based-access.md)
 
