@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 9245d6a93aaaa85bee56e2291a53ca7495b6ba9e
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '2511'
 ht-degree: 5%
 
 ---
@@ -44,64 +44,174 @@ Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Opt
 
 Da sua jornada **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL Jornada]** A guia fornece uma visualização clara dos dados de rastreamento mais importantes sobre a jornada.
 
-![](assets/journey_live_1.png)
+### Desempenho da jornada {#journey-performance}
 
-+++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório de Jornada.
+![](assets/journey_live_performance.png)
 
 **[!UICONTROL Desempenho da jornada]** permite que você veja o caminho dos perfis direcionados passo a passo na jornada.
 
-A variável **[!UICONTROL Jornada estatísticas]** exibe os seguintes KPIs:
+### Estatísticas de jornadas {#journey-statistics}
+
+![](assets/journey_live_statistics.png)
+
+A variável **[!UICONTROL Jornada estatísticas]** Os indicadores principais de desempenho (KPIs) funcionam como um painel abrangente, fornecendo uma análise das métricas essenciais associadas à sua jornada nas últimas 24 horas. Isso inclui detalhes como a contagem de perfis inseridos e instâncias de jornadas individuais com falha, oferecendo um insight abrangente sobre a eficácia e o nível de engajamento da jornada.
+
++++ Saiba mais sobre as métricas de estatísticas da Jornada
 
 * **[!UICONTROL Perfis inseridos]**: Número total de indivíduos que atingiram o evento de entrada da jornada.
 
 * **[!UICONTROL Perfis encerrados]**: número total de indivíduos que saíram da jornada.
 
 * **[!UICONTROL Jornadas individuais com falha]**: Número total de jornadas individuais que não foram executadas com êxito.
++++
 
-A variável **[!UICONTROL Evento executado nas últimas 24 horas]** e **[!UICONTROL Eventos]** os widgets permitem ver qual dos seus eventos foi executado com êxito por meio do número de resumo, gráfico e tabela.
+### Ação executada nas últimas 24 horas {#action-executed}
 
-A variável **[!UICONTROL Ação executada nas últimas 24 horas]** e **[!UICONTROL Ações executadas e erros]** os widgets representam a ação e os erros mais bem-sucedidos que ocorreram quando suas ações foram acionadas. O gráfico de ação, a tabela e os números de resumo contêm os dados disponíveis para ações, como:
+![](assets/journey_live_executed_24hours.png)
+
+A variável **[!UICONTROL Ação executada nas últimas 24 horas]** O widget representa a ação mais bem-sucedida que ocorreu quando suas ações foram acionadas.
+
++++ Saiba mais sobre Ação executada nas últimas 24 horas métricas
 
 * **[!UICONTROL Ações executadas]**: Número total de ações executadas com êxito para uma jornada.
 
 * **[!UICONTROL Erro nas ações]**: Número total de erros que ocorreram para ações.
+
 +++
+
+### Ações executadas e erros {#actions-errors}
+
+![](assets/journey_live_actions_errors.png)
+
+A variável **[!UICONTROL Ações executadas e erros]** O widget representa a ação e os erros mais bem-sucedidos que ocorreram quando suas ações foram acionadas.
+
++++ Saiba mais sobre Ações executadas e métricas de erros
+
+* **[!UICONTROL Ações executadas]**: Número total de ações executadas com êxito para uma jornada.
+
+* **[!UICONTROL Erro nas ações]**: Número total de erros que ocorreram para ações.
+
++++
+
+### Motivos de erro de ações {#actions-error-reasons}
+
+![](assets/journey_live_error_reasons.png)
+
+A variável **[!UICONTROL Motivos de erro de ação]** A tabela e o gráfico oferecem uma visão geral abrangente dos erros que ocorreram durante a execução de suas ações nas últimas 24 horas.
+
+### Tipo de erro por ações {#error-type-actions}
+
+![](assets/journey_live_error_type.png)
+
+A variável **[!UICONTROL Tipo de erro por ações]** A tabela e o gráfico oferecem uma visão geral abrangente dos erros que ocorreram para cada execução de suas ações nas últimas 24 horas.
+
+### Evento executado nas últimas 24 horas {#event-executed-24hours}
+
+![](assets/journey_live_event_24hours.png)
+
+A variável **[!UICONTROL Evento executado nas últimas 24 horas]** permite identificar qual dos seus eventos foi executado com êxito nas últimas 24 horas.
+
+### Eventos {#events}
+
+![](assets/journey_live_events.png)
+
+A variável **[!UICONTROL Eventos]** O widget permite ver qual dos seus eventos foi executado com êxito por meio do número de resumo, gráfico e tabela.
+
+### Eventos por origem {#events-origin}
+
+![](assets/journey_events_origin.png)
+
+A variável **[!UICONTROL Eventos por origem]** A tabela e os gráficos fornecem uma perspectiva detalhada sobre a recepção bem-sucedida dos eventos nas últimas 24 horas. Através dessas representações visuais, você pode discernir precisamente quais de seus eventos foram efetivamente recebidos, oferecendo insights valiosos sobre o desempenho e o impacto de eventos individuais dentro de sua jornada.
 
 ## Guia Email {#email-live}
 
-Da sua jornada **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL E-mail]** A guia detalha as principais informações relativas aos deliveries de email enviados no jornada.
+Da sua jornada **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL E-mail]** A guia detalha as principais informações relacionadas aos emails enviados na jornada.
 
-![](assets/journey_live_2.png)
+### Desempenho do envio de email {#email-sending-performance}
 
-+++Saiba mais sobre as diferentes métricas e widgets disponíveis para o Relatório de email.
+![](assets/journey_live_email_performance.png)
 
-A variável **[!UICONTROL Estatísticas de envio de email]** o widget detalha as principais informações relacionadas à sua mensagem:
+A variável **[!UICONTROL Email - Desempenho de envio]** O gráfico fornece uma visualização abrangente dos dados relacionados aos emails enviados em sua jornada, oferecendo insights sobre as métricas principais, como entregas e devoluções, que ocorreram nas últimas 24 horas. Isso permite uma análise detalhada do processo de envio de email, fornecendo informações valiosas sobre a eficiência e o desempenho de suas jornadas.
 
-* **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito.
++++ Saiba mais sobre Email - Envio de métricas de desempenho
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processamento de delivery e retorno automático.
+* **[!UICONTROL Entregue]**: número de emails enviados com êxito.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento automático de retorno.
 
-A variável **[!UICONTROL Métricas de envio por email]** tabela e **[!UICONTROL Resumo de email]** O gráfico detalha o sucesso do seu delivery:
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado para perfis.
 
-* **[!UICONTROL Enviado]**: Número total de envios para o delivery.
+* **[!UICONTROL Tentativas]**: Número de emails na fila para tentativas.
 
-* **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito.
++++
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processamento de delivery e retorno automático.
+### Email: estatísticas {#email-stat}
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+![](assets/journey_live_email_statistics.png)
 
-* **[!UICONTROL Aberturas]**: Número de vezes que uma mensagem foi aberta em um delivery.
+A variável **[!UICONTROL Email - Estatísticas]** A tabela fornece um resumo abrangente dos dados essenciais sobre emails em suas jornadas nas últimas 24 horas. Ele detalha as principais métricas, como o tamanho do público-alvo e o número de emails entregues com êxito, oferecendo insights valiosos sobre a eficácia e o alcance de seus emails e jornadas.
 
-* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em um delivery.
++++ Saiba mais sobre métricas de Estatísticas de envio de email
+
+* **[!UICONTROL Direcionado]**: Número total de mensagens processadas durante o processo de envio.
+
+* **[!UICONTROL Excluído]**: Número de perfis excluídos pelo Adobe Journey Optimizer.
+
+* **[!UICONTROL Enviado]**: número total de emails enviados.
+
+* **[!UICONTROL Entregue]**: Número de emails enviados com êxito, em relação ao número total de mensagens enviadas.
+
+* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens enviadas.
+
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado para perfis.
+
+* **[!UICONTROL Aberturas]**: Número de vezes que seus emails foram abertos.
+
+* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em seus emails.
 
 * **[!UICONTROL Cancelar inscrição]**: Número de cliques no link unsubscription.
 
 * **[!UICONTROL Reclamações de spam]**: Número de vezes que uma mensagem foi declarada como spam ou lixo eletrônico.
 
-A variável **[!UICONTROL Motivos de rejeição]**, **[!UICONTROL Categorias de rejeição]** e **[!UICONTROL Intensidade e rejeição - por email]** os widgets contêm os dados disponíveis relacionados às mensagens rejeitadas, como:
+* **[!UICONTROL Tentativas]**: Número de emails na fila para tentativas.
+
++++
+
+### Email: desempenho por data {#email-perf-date}
+
+![](assets/journey_live_email_performance_date.png)
+
+A variável **[!UICONTROL Email - Desempenho por data]** O widget oferece uma visão geral detalhada das principais informações relacionadas aos seus emails, apresentadas por meio de um gráfico, fornecendo insights sobre as tendências de desempenho nas últimas 24 horas.
+
++++ Saiba mais sobre Email - Desempenho por métricas de data
+
+* **[!UICONTROL Enviado]**: número total de emails enviados.
+
+* **[!UICONTROL Entregue]**: número de emails enviados com êxito.
+
+* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento automático de retorno.
+
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado para perfis.
+
+* **[!UICONTROL Aberturas]**: Número de vezes que seus emails foram abertos.
+
+* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em seus emails.
+
+* **[!UICONTROL Cancelar inscrição]**: Número de cliques no link unsubscription.
+
+* **[!UICONTROL Reclamações de spam]**: Número de vezes que uma mensagem foi declarada como spam ou lixo eletrônico.
+
++++
+
+### Email - Categorias e motivos de rejeição {#email-bounce-categories}
+
+![](assets/journey_live_email_bounce.png)
+
+A variável **[!UICONTROL Motivos de rejeição]** e **[!UICONTROL Categorias de rejeição]** os widgets compilam os dados disponíveis relacionados às mensagens rejeitadas, fornecendo insights detalhados sobre os motivos e categorias específicos por trás das rejeições de email nas últimas 24 horas.
+
+Para obter mais informações sobre rejeições, consulte o [Lista de supressão](../reports/suppression-list.md) página.
+
++++ Saiba mais sobre Email - Categorias de rejeição e métricas de motivos
 
 * **[!UICONTROL Rejeição permanente]**: o número total de erros permanentes, como um endereço de email incorreto. Isso envolve uma mensagem de erro que declara explicitamente que o endereço é inválido, como Usuário desconhecido.
 
@@ -109,92 +219,192 @@ A variável **[!UICONTROL Motivos de rejeição]**, **[!UICONTROL Categorias de 
 
 * **[!UICONTROL Ignorado]**: o número total de temporários, como Ausência temporária, ou um erro técnico, por exemplo, se o tipo de remetente for postmaster.
 
-A variável **[!UICONTROL Motivos de erro]** e **[!UICONTROL Excluir motivos]** gráficos e tabelas permitem ver quais erros e exclusões ocorreram durante o delivery.
++++
 
-A variável **[!UICONTROL Email - Principal domínio de destinatário]** O gráfico e a tabela detalham quais domínios são os mais usados pelos recipients para abrir o email.
+### Email: motivos de erro {#email-error-reasons}
+
+![](assets/journey_live_email_error_reasons.png)
+
+A variável **[!UICONTROL Motivos de erro]** os gráficos e as tabelas oferecem visibilidade dos erros específicos ocorridos durante o processo de envio das últimas 24 horas, fornecendo informações valiosas sobre a natureza e a ocorrência de erros.
+
+### Email: motivos de exclusão {#email-excluded}
+
+![](assets/journey_live_email_excluded.png)
+
+A variável **[!UICONTROL Motivos excluídos]** os gráficos e a tabela apresentam uma visão abrangente dos diferentes fatores que resultaram na exclusão de perfis de usuário do público-alvo direcionado, fazendo com que a mensagem não seja recebida nas últimas 24 horas.
+
+Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos motivos de exclusão.
+
+### Email: melhor domínio do destinatário {#email-best-recipient}
+
+![](assets/journey_live_email_best_recipient.png)
+
+A variável **[!UICONTROL Email - Melhor domínio de destinatário]** O gráfico e a tabela oferecem um detalhamento dos domínios que os perfis usam com mais frequência para abrir seus emails nas últimas 24 horas. Isso fornece insights valiosos sobre o comportamento do perfil, ajudando você a entender as plataformas preferenciais.
+
+### Email - Ofertas {#email-offers}
 
 >[!NOTE]
 >
 >Os widgets e as métricas de Ofertas só estarão disponíveis se uma decisão tiver sido inserida em um email. Para obter mais informações sobre o Gerenciamento de decisões, consulte esta [página](../offers/get-started/starting-offer-decisioning.md).
 
-A variável **[!UICONTROL Estatísticas de ofertas]** e **[!UICONTROL Estatísticas de ofertas]** ao longo do tempo, os widgets medem o sucesso e o impacto da sua oferta no público-alvo direcionado. Ele detalha as principais informações relacionadas à sua mensagem com KPIs:
+A variável **[!UICONTROL Estatísticas de ofertas]** e **[!UICONTROL Estatísticas de ofertas ao longo do tempo]** os widgets medem o sucesso e o impacto da sua oferta no público-alvo direcionado. Ele detalha as principais informações relacionadas à sua mensagem com KPIs.
+
++++ Saiba mais sobre Email - Métricas de ofertas
 
 * **[!UICONTROL Oferta enviada]**: número total de envios para a oferta.
 
-* **[!UICONTROL Impressão da oferta]**: Número de vezes que a oferta foi aberta em um delivery.
+* **[!UICONTROL Impressão da oferta]**: Número de vezes que a oferta foi aberta em seus emails.
 
-* **[!UICONTROL Cliques de oferta]**: Número de vezes que uma oferta foi clicada em um delivery.
+* **[!UICONTROL Cliques de oferta]**: Número de vezes que uma oferta foi clicada em seus emails.
+
 +++
 
 ## Guia Notificação por push {#push-live}
 
-Da sua jornada **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL Notificação por push]** A guia detalha as informações principais relativas aos deliveries por push enviados no jornada.
+Da sua jornada **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL Notificação por push]** A guia detalha as informações principais relativas à notificação por push enviada em sua jornada.
 
-![](assets/journey_live_3.png)
+### Notificação por push: estatísticas {#push-statistics}
 
-+++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório Push.
+![](assets/journey_live_push_statistics.png)
 
-**[!UICONTROL Desempenho de envio de notificação por push]**, **[!UICONTROL Resumo da notificação por push]** e **[!UICONTROL Métricas de envio - por push]** widgets detalha as principais informações relacionadas à sua mensagem:
+**[!UICONTROL Notificação por push - Estatísticas]** A tabela fornece um resumo de dados essenciais relacionados às suas notificações por push, incluindo métricas principais, como o número de mensagens direcionadas e o número de mensagens entregues com êxito nas últimas 24 horas.
 
-* **[!UICONTROL Enviado]**: Número total de envios para o delivery.
++++ Saiba mais sobre Notificação por push - Métricas de estatística
 
-* **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito.
+* **[!UICONTROL Direcionado]**: Número de perfis direcionados para qualquer ação, como enviar email ou SMS.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processamento de delivery e retorno automático.
+* **[!UICONTROL Excluído]**: Número de perfis excluídos pelo Adobe Journey Optimizer.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+* **[!UICONTROL Enviado]**: Número total de notificações por push enviadas.
 
-* **[!UICONTROL Aberturas]**: Número de vezes que uma mensagem foi aberta em um delivery.
+* **[!UICONTROL Entregue]**: Número de notificações por push enviadas com êxito.
 
-* **[!UICONTROL Ações]**: Número total de ações na notificação por push entregue, por exemplo, clique ou descarte de botões.
+* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento automático de retorno.
 
-* **[!UICONTROL Envolvimentos]**: Número total de aberturas e ações para esta notificação por push, ou seja, se o perfil abriu o push ou se um botão foi clicado.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado para perfis.
 
-A variável **[!UICONTROL Motivos de erro]** e **[!UICONTROL Excluir motivos]** gráficos e tabelas permitem ver quais erros e exclusões ocorreram durante o delivery.
-
-A variável **[!UICONTROL Estatísticas de envio - Com falha]** permite ver quantos erros e devoluções ocorreram.
-
-A variável **[!UICONTROL Rastreamento por plataforma]**, **[!UICONTROL Envio por plataforma]** e **[!UICONTROL Detalhamento por plataforma]** gráficos e tabelas detalham o sucesso da sua notificação por push, dependendo do sistema operacional.
+* **[!UICONTROL Aberturas]**: Número de vezes que sua notificação por push foi aberta.
 +++
+
+### Notificações por push: detalhamento por plataforma {#push-breakdown}
+
+![](assets/journey_push_breakdown.png)
+
+A variável **[!UICONTROL Notificação por push - Detalhamento por plataforma]** O gráfico e a tabela fornecem uma análise detalhada do sucesso de suas notificações por push, oferecendo insights com base no sistema operacional do seu perfil. Esse detalhamento melhora a sua compreensão do desempenho das notificações por push em diferentes plataformas.
+
+### Notificações por push: resumo de envio {#push-sending-summary}
+
+![](assets/journey_live_push_sending.png)
+
+A variável **[!UICONTROL Resumo da notificação por push]** O gráfico oferece uma representação dinâmica, exibindo uma análise da atividade de notificações por push nas últimas 24 horas. Esta representação gráfica fornece um detalhamento abrangente das notificações por push enviadas.
+
++++ Saiba mais sobre Notificação por push - Envio de métricas de resumo
+
+* **[!UICONTROL Enviado]**: Número total de notificações por push enviadas.
+
+* **[!UICONTROL Entregue]**: Número de notificações por push enviadas com êxito.
+
+* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento automático de retorno.
+
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado para perfis.
+
+* **[!UICONTROL Aberturas]**: Número de vezes que suas notificações por push foram abertas.
+
+* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em suas notificações por push.
+
++++
+
+### Notificações por push: motivos de erro {#push-error}
+
+![](assets/journey_live_push_error.png)
+
+A variável **[!UICONTROL Motivos de erro]** A tabela e os gráficos fornecem a capacidade de identificar os erros específicos que ocorreram durante o processo de envio de suas notificações por push, oferecendo insights detalhados sobre quaisquer problemas encontrados nas últimas 24 horas.
+
+### Notificações por push: motivos de exclusão {#push-excluded}
+
+![](assets/journey_live_push_excluded.png)
+
+A variável **[!UICONTROL Motivos excluídos]** os gráficos e a tabela exibem os diferentes motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber suas notificações por push nas últimas 24 horas.
+
+Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos motivos de exclusão.
 
 ## Guia SMS {#sms-live}
 
-![](assets/journey_live_4.png)
+### SMS: estatísticas {#sms-statistics}
 
-+++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório de SMS.
+![](assets/journey_live_sms_statistics.png)
 
-A variável **[!UICONTROL SMS - Estatísticas de envio]** a tabela detalha o sucesso do seu delivery:
+A variável **[!UICONTROL SMS - Estatísticas]** A tabela fornece um resumo conciso dos dados essenciais relacionados às suas mensagens SMS, englobando métricas principais, como o número de mensagens direcionadas e a contagem de mensagens entregues com êxito nas últimas 24 horas.
 
-* **[!UICONTROL Direcionado]**: Número de perfis de usuário que se qualificam como perfis de público-alvo para este delivery.
++++ Saiba mais sobre SMS - Métricas de estatística
+
+* **[!UICONTROL Direcionado]**: Número de perfis de usuário qualificados como perfis de público-alvo.
 
 * **[!UICONTROL Excluído]**: Número de perfis de usuário, excluídos dos perfis direcionados, que não receberam a mensagem.
 
-* **[!UICONTROL Enviado]**: Número total de envios para o delivery.
+* **[!UICONTROL Enviado]**: Número total de mensagens SMS enviadas.
 
-* **[!UICONTROL Aberturas]**: Número de vezes que uma mensagem foi aberta em um delivery.
+* **[!UICONTROL Aberturas]**: Número de vezes que suas mensagens SMS foram abertas.
 
-* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em um delivery.
+* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em suas mensagens SMS.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processamento de delivery e retorno automático.
+* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio, o processo de envio e o processamento de retorno automático.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado para perfis.
 
-A variável **[!UICONTROL Resumo do SMS]** O gráfico detalha o sucesso do seu delivery:
-
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processamento de delivery e retorno automático.
-
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
-
-A variável **[!UICONTROL Excluir motivos]** gráficos e tabelas permitem ver quais erros e exclusões ocorreram durante o delivery.
 +++
+
+### SMS: desempenho por data {#sms-performance}
+
+![](assets/journey_live_sms_performance.png)
+
+A variável **[!UICONTROL SMS - Desempenho por data]** O widget oferece uma visão geral detalhada das principais informações relacionadas às suas mensagens, apresentadas por meio de um gráfico, fornecendo insights sobre as tendências de desempenho nas últimas 24 horas.
+
++++ Saiba mais sobre SMS - Desempenho por métricas de data
+
+* **[!UICONTROL Enviado]**: Número total de mensagens SMS enviadas.
+
+* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento automático de retorno.
+
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado para perfis.
+
++++
+
+### SMS: motivos de rejeições {#sms-bounces}
+
+![](assets/journey_sms_bounce_reasons.png)
+
+A variável **[!UICONTROL SMS - Motivos de rejeições]** Os gráficos e a tabela fornecem uma visão geral abrangente dos dados relacionados às mensagens SMS devolvidas, fornecendo insights valiosos sobre os motivos específicos por trás das instâncias de devoluções de mensagens SMS nas últimas 24 horas.
+
+### SMS: motivos de erro {#sms-error}
+
+![](assets/journey_sms_error.png)
+
+A variável **[!UICONTROL SMS - Motivos de erro]** Os gráficos e as tabelas permitem identificar os erros específicos que ocorreram durante o processo de envio de suas mensagens SMS, facilitando uma análise completa de quaisquer problemas encontrados nas últimas 24 horas.
+
+### SMS: motivos de exclusão {#sms-excluded}
+
+![](assets/journey_live_sms_excluded.png)
+
+A variável **[!UICONTROL SMS - Motivos excluídos]** Os gráficos e as tabelas representam visualmente os diversos fatores que levaram à exclusão de perfis de usuário do público-alvo direcionado, impedindo-o de receber suas mensagens SMS.
+
+Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos motivos de exclusão.
+
+### SMS: cliques por link {#sms-clicks}
+
+![](assets/journey_sms_clicks.png)
+
+A variável **[!UICONTROL SMS - Cliques por links]** O widget oferece informações essenciais sobre o envolvimento dos visitantes com os URLs incluídos em suas mensagens, fornecendo informações valiosas sobre quais links atraem mais interação nas últimas 24 horas.
 
 ## Guia No aplicativo {#in-app-live}
 
-![](assets/journey_live_5.png)
+### Desempenho no aplicativo {#inapp-performance}
 
-+++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório No aplicativo.
+![](assets/journey_live_inapp_performance.png)
 
-A variável **[!UICONTROL Desempenho no aplicativo]** Os KPIs detalham as principais informações relativas ao envolvimento dos visitantes com as mensagens no aplicativo, como:
+A variável **[!UICONTROL Desempenho no aplicativo]** Os KPIs fornecem insights essenciais sobre o envolvimento de seus perfis com mensagens no aplicativo nas últimas 24 horas, fornecendo métricas essenciais para avaliar a eficácia e o impacto das mensagens no aplicativo incluídas em sua jornada.
+
++++ Saiba mais em No aplicativo - Métricas de desempenho
 
 * **[!UICONTROL Impressões]**: número total de mensagens no aplicativo entregues a todos os usuários.
 
@@ -208,8 +418,32 @@ A variável **[!UICONTROL Desempenho no aplicativo]** Os KPIs detalham as princi
 
 * **[!UICONTROL Interações]**: número total de envolvimentos com a mensagem no aplicativo. Isso inclui qualquer ação realizada pelos usuários, como cliques, rejeições ou quaisquer outras interações.
 
-A variável **[!UICONTROL Resumo no aplicativo]** O gráfico mostra a evolução de suas impressões e interações no aplicativo para o período relacionado.
++++
 
-A variável **[!UICONTROL Interações por tipo]** os gráficos e tabelas detalham como os usuários interagiram com a mensagem no aplicativo rastreando qualquer clique, descarte ou interação.
+### Resumo no aplicativo {#inapp-summary}
+
+![](assets/journey_live_inapp_summary.png)
+
+A variável **[!UICONTROL Resumo no aplicativo]** O gráfico ilustra a progressão de suas impressões e interações no aplicativo nas últimas 24 horas, fornecendo uma visão geral abrangente do desempenho das mensagens no aplicativo.
+
++++ Saiba mais sobre Métricas de resumo no aplicativo
+
+* **[!UICONTROL Impressões]**: número total de mensagens no aplicativo entregues a todos os usuários.
+
+  >[!NOTE]
+  >
+  >Para garantir que uma Impressão seja contada, o usuário deve atender a dois critérios:
+  >* Qualificação dentro da experiência no aplicativo, obtida ao atingir a atividade específica no aplicativo em sua jornada.
+  >* Cumprimento das condições especificadas nas regras de acionador.
+  > 
+  >Devido ao segundo critério, pode haver variações notáveis entre o número de perfis segmentados e a contagem de impressões únicas.
+
+* **[!UICONTROL Interações]**: número total de envolvimentos com a mensagem no aplicativo. Isso inclui qualquer ação realizada pelos usuários, como cliques, rejeições ou quaisquer outras interações.
 
 +++
+
+### Interações por tipo {#interactions-type}
+
+![](assets/journey_live_inapp_interactions.png)
+
+A variável **[!UICONTROL Interações por tipo]** Os gráficos e tabelas detalham como os usuários interagiram com a mensagem no aplicativo rastreando qualquer clique, descarte ou interação.

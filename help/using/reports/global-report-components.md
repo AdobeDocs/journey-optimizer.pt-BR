@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1110'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
  <tbody>
   <tr> 
    <td> Rejeições<br/> </td> 
-   <td> Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.<br/> </td> 
+   <td> Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens enviadas.<br/> </td> 
 </tr> 
   <tr> 
    <td> Taxa de rejeição<br/> </td> 
@@ -84,16 +84,16 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
 </tr>
   <tr> 
    <td> Erros<br/> </td> 
-   <td> Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.<br/> </td> 
+   <td> Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado para perfis.<br/> </td> 
 </tr> 
   <tr> 
    <td> Taxa de erro<br/> </td> 
-   <td> Porcentagem de erros que ocorreram durante um delivery impedindo que ele seja enviado em comparação aos emails enviados.<br/> </td> 
+   <td> Porcentagem de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado, em comparação aos emails enviados.<br/> </td> 
 </tr>
 </tr> 
   <tr> 
    <td> Motivo do erro<br/> </td> 
-   <td> Nome da causa original específica do erro. <a href="error-list.md">Saiba mais sobre motivos de erro</a>.<br/> </td> 
+   <td> Nome da causa original específica do erro. <a href="exclusion-list.md">Saiba mais sobre motivos de erro</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Excluído<br/> </td> 
@@ -340,7 +340,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
 </tr>
   <tr> 
    <td> Motivo do erro<br/> </td> 
-   <td> Nome da causa original específica do erro. <a href="error-list.md">Saiba mais sobre motivos de erro</a>.<br/> </td> 
+   <td> Nome da causa original específica do erro. <a href="exclusion-list.md">Saiba mais sobre motivos de erro</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Excluído<br/> </td> 
