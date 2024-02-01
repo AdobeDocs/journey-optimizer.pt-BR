@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: fa704bd6c82a3068f163bb74542107b34f1815d1
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 4%
+source-wordcount: '3523'
+ht-degree: 6%
 
 ---
 
@@ -46,11 +46,21 @@ Da sua jornada **[!UICONTROL Relatório global]**, o **[!UICONTROL Jornada]** A 
 
 ### Desempenho da jornada {#journey-perfomance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_performance"
+>title="Desempenho da jornada"
+>abstract="XX"
+
 ![](assets/journey_performance.png)
 
 A variável **[!UICONTROL Desempenho da jornada]** O widget permite rastrear visualmente a trajetória dos perfis direcionados à medida que eles navegam pela jornada.
 
 ### Jornada estatísticas {#journey-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_statistics"
+>title="Jornada estatísticas"
+>abstract="XX"
 
 ![](assets/journey_statistics.png)
 
@@ -68,11 +78,21 @@ A variável **[!UICONTROL Jornada estatísticas]** Os indicadores principais de 
 
 ### Desempenho da ação {#action-performance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_performance"
+>title="Desempenho da ação"
+>abstract="XX"
+
 ![](assets/journey_action_performance.png)
 
 A variável **[!UICONTROL Desempenho da ação]** O widget representa as ações mais bem-sucedidas que ocorreram quando seu **[!UICONTROL Ações]** foram acionados.
 
 ### Principais ações {#top-actions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_top_actions"
+>title="Principais ações"
+>abstract="XX"
 
 ![](assets/journey_top_actions.png)
 
@@ -88,11 +108,21 @@ A variável **[!UICONTROL Principais ações]** A tabela compila os dados essenc
 
 ### Motivos de erro de ações {#action-error}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_actions_error_reasons"
+>title="Motivos de erro de ações"
+>abstract="XX"
+
 ![](assets/journey_action_error.png)
 
 A variável **[!UICONTROL Motivos de erro de ação]**  A tabela e o gráfico oferecem uma visão geral abrangente dos erros ocorridos durante a execução do **[!UICONTROL Ações]**.
 
 ### Eventos por origem {#events-origin}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_events_origin"
+>title="Eventos por origem"
+>abstract="XX"
 
 ![](assets/journey_events_origin.png)
 
@@ -100,17 +130,32 @@ A variável **[!UICONTROL Eventos por origem]** tabela e gráficos fornecem uma 
 
 ### Eventos recebidos por evento {#events-received}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_events_received"
+>title="Eventos recebidos por evento"
+>abstract="XX"
+
 ![](assets/journey_event_received.png)
 
 A variável **[!UICONTROL Eventos recebidos por evento]** permite identificar e analisar quais variáveis **[!UICONTROL Evento]** na jornada foi executado com eficácia, fornecendo insights valiosos sobre o desempenho e as taxas de sucesso de eventos individuais.
 
 ### Principais eventos {#top-events}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_top_events"
+>title="Principais eventos"
+>abstract="XX"
+
 ![](assets/journey_top_events.png)
 
 A variável **[!UICONTROL Principais eventos]** A tabela compila os dados essenciais sobre o **[!UICONTROL Eventos]**. Ele fornece insights sucintos sobre a frequência e o desempenho de cada **[!UICONTROL Evento]**.
 
 ### Políticas de consentimento {#consent-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_consent_policies"
+>title="Políticas de consentimento"
+>abstract="XX"
 
 ![](assets/journey_consent.png)
 
@@ -124,7 +169,12 @@ Observe que para que esses widgets apareçam nos relatórios do Jornada, será n
 
 Da sua jornada **[!UICONTROL Relatório global]**, o **[!UICONTROL E-mail]** A guia detalha as principais informações relacionadas aos emails enviados na jornada.
 
-### Estatísticas de envio de email {#email-sending-statistics}
+### Email - Estatísticas de envio {#email-sending-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_sending_statistics"
+>title="Email - Estatísticas de envio"
+>abstract="XX"
 
 ![](assets/journey_email_statistics.png)
 
@@ -158,6 +208,11 @@ A variável **[!UICONTROL Estatísticas de envio de email]** A tabela fornece um
 
 ### Email: estatísticas de rastreamento {#email-tracking}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_tracking_statistics"
+>title="Email: estatísticas de rastreamento"
+>abstract="XX"
+
 ![](assets/journey_email_tracking.png)
 
 A variável **[!UICONTROL Email - Estatísticas de rastreamento]** A tabela oferece uma conta detalhada da atividade do perfil relacionada aos emails incluídos na jornada. Isso inclui métricas sobre aberturas, cliques e outros indicadores de engajamento relevantes, oferecendo uma visualização abrangente de como os perfis interagem com seu conteúdo de email.
@@ -186,6 +241,11 @@ A variável **[!UICONTROL Email - Estatísticas de rastreamento]** A tabela ofer
 
 ### Email: desempenho de envio {#email-performance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_sending_performance"
+>title="Email: desempenho de envio"
+>abstract="XX"
+
 ![](assets/journey_email_performance.png)
 
 A variável **[!UICONTROL Email - Desempenho de envio]** O gráfico fornece uma visualização abrangente dos dados relacionados aos emails enviados em sua jornada, oferecendo insights sobre as métricas principais, como entregas e rejeições. Isso permite uma análise detalhada do processo de envio de email, fornecendo informações valiosas sobre a eficiência e o desempenho de suas jornadas.
@@ -203,6 +263,11 @@ A variável **[!UICONTROL Email - Desempenho de envio]** O gráfico fornece uma 
 +++
 
 ### Email - Categorias e motivos de rejeição {#email-bounce-categories}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_bounces"
+>title="Email - Categorias e motivos de rejeição"
+>abstract="XX"
 
 ![](assets/journey_email_bounce_categories.png)
 
@@ -222,11 +287,21 @@ Para obter mais informações sobre rejeições, consulte o [Lista de supressão
 
 ### Email: motivos de erro {#email-errors}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_error_reasons"
+>title="Email: motivos de erro"
+>abstract="XX"
+
 ![](assets/journey_email_error.png)
 
 A variável **[!UICONTROL Motivos de erro]** gráficos e tabelas oferecem visibilidade dos erros específicos que ocorreram durante o processo de envio, fornecendo informações valiosas sobre a natureza e a ocorrência de erros.
 
 ### Email: motivos de exclusão {#email-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_excluded_reasons"
+>title="Email: motivos de exclusão"
+>abstract="XX"
 
 ![](assets/journey_email_excluded.png)
 
@@ -235,6 +310,11 @@ A variável **[!UICONTROL Motivos excluídos]** os gráficos e a tabela apresent
 Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos motivos de exclusão.
 
 ### Enviados e entregues por domínio {#sent-domains}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_sent_delivered_domains"
+>title="Enviados e entregues por domínio"
+>abstract="XX"
 
 ![](assets/journey_email_sent_domains.png)
 
@@ -250,6 +330,11 @@ A variável  **[!UICONTROL Enviado e entregue por domínios]** A tabela e o grá
 
 ### Aberturas e cliques por domínio {#open-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_open_clicks_domains"
+>title="Aberturas e cliques por domínio"
+>abstract="XX"
+
 ![](assets/journey_email_open_domains.png)
 
 A variável  **[!UICONTROL Abrir e clicar por domínios]** O gráfico e a tabela mostram um detalhamento em nível de domínio do envolvimento dos perfis com o email, fornecendo insights valiosos sobre como domínios diferentes interagem com o conteúdo.
@@ -263,6 +348,11 @@ A variável  **[!UICONTROL Abrir e clicar por domínios]** O gráfico e a tabela
 +++
 
 ### Rejeições e erros por domínio {#bounces-domains}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_bounces_errors_domains"
+>title="Rejeições e erros por domínio"
+>abstract="XX"
 
 ![](assets/journey_email_bounce_domains.png)
 
@@ -278,17 +368,34 @@ A variável  **[!UICONTROL Rejeições e erros por domínios]** O gráfico e a t
 
 ### Motivos de rejeição por domínio {#bounce-reasons-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_bounces_reasons_domains"
+>title="Motivos de rejeições por domínios"
+>abstract="XX"
+
 ![](assets/journey_email_bounce_reasons_domain.png)
 
 A variável  **[!UICONTROL Motivos de rejeição por domínio]** O gráfico e a tabela oferecem um detalhamento de dados em nível de domínio sobre erros temporários e permanentes, fornecendo insights detalhados sobre os motivos por trás das mensagens rejeitadas.
 
 ### Email: URL principal {#email-top}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_top_url"
+>title="Email: URL principal"
+>abstract="XX"
+
 ![](assets/journey_email_top.png)
 
 A variável **[!UICONTROL Email - URL superior]** O gráfico e a tabela fornecem uma visão geral abrangente dos URLs em seu email que atraem o maior tráfego de visitantes. Isso permite identificar e priorizar os links mais populares, melhorando sua compreensão do envolvimento do perfil com conteúdo específico em seus emails.
 
 ### Email - Otimização {#email-sto}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_optimization"
+>title="Email - Otimização"
+>abstract="XX"
+
+![](assets/journey_email_sto.png)
 
 >[!NOTE]
 >
@@ -310,6 +417,11 @@ A variável **[!UICONTROL Otimização da hora de envio]** e **[!UICONTROL Otimi
 +++
 
 ### Email - Ofertas {#email-offers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_offers"
+>title="Email - Ofertas"
+>abstract="XX"
 
 >[!NOTE]
 >
@@ -343,6 +455,11 @@ Da sua jornada **[!UICONTROL Relatório global]**, o **[!UICONTROL Notificação
 
 ### Notificações por push: estatísticas de envio {#push-sending-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_sending_statistics"
+>title="Notificações por push: estatísticas de envio"
+>abstract="XX"
+
 ![](assets/journey_push_sending.png)
 
 A variável **[!UICONTROL Notificação por push - Estatísticas de envio]** A tabela fornece um resumo dos dados essenciais relacionados às suas notificações por push, incluindo as métricas principais, como o número de mensagens direcionadas e o número de mensagens entregues com êxito.
@@ -373,6 +490,11 @@ A variável **[!UICONTROL Notificação por push - Estatísticas de envio]** A t
 
 ### Notificações por push: estatísticas de rastreamento {#push-tracking-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_tracking_statistics"
+>title="Notificações por push: estatísticas de rastreamento"
+>abstract="XX"
+
 A variável **[!UICONTROL Push - Estatísticas de rastreamento]** o widget oferece um instantâneo detalhado da atividade do perfil vinculada às suas notificações por push, fornecendo insights essenciais sobre a eficácia do engajamento e das notificações por push.
 
 +++ Saiba mais sobre Notificação por push - Rastreamento de métricas de estatísticas
@@ -386,6 +508,11 @@ A variável **[!UICONTROL Push - Estatísticas de rastreamento]** o widget ofere
 +++
 
 ### Notificações por push: resumo de envio {#push-summary}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_sending_summary"
+>title="Notificações por push: resumo de envio"
+>abstract="XX"
 
 ![](assets/journey_push_summary.png)
 
@@ -407,11 +534,21 @@ A variável **[!UICONTROL Notificação por push - Resumo de envio]** O gráfico
 
 ### Notificações por push: motivos de erro {#push-error-reasons}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_error_reasons"
+>title="Notificações por push: motivos de erro"
+>abstract="XX"
+
 ![](assets/journey_push_error.png)
 
 A variável **[!UICONTROL Motivos de erro]** A tabela e os gráficos fornecem a capacidade de identificar os erros específicos que ocorreram durante o processo de envio de suas notificações por push, oferecendo insights detalhados sobre quaisquer problemas encontrados ao longo do caminho.
 
 ### Notificações por push: motivos de exclusão {#push-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_excluded_reasons"
+>title="Notificações por push: motivos de exclusão"
+>abstract="XX"
 
 ![](assets/journey_push_excluded.png)
 
@@ -420,6 +557,11 @@ A variável **[!UICONTROL Motivos excluídos]** os gráficos e a tabela exibem o
 Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos motivos de exclusão.
 
 ### Notificações por push: detalhamento por plataforma {#push-breakdown}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_breakdown_platform"
+>title="Notificação por push - Detalhamento por plataforma"
+>abstract="XX"
 
 ![](assets/journey_push_breakdown.png)
 
@@ -451,6 +593,11 @@ A variável **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimiz
 
 ### SMS: estatísticas de envio {#sms-sending-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_sending_statistics"
+>title="SMS: estatísticas de envio"
+>abstract="XX"
+
 ![](assets/journey_sms_sending.png)
 
 A variável **[!UICONTROL SMS - Estatísticas de envio]** A tabela fornece um resumo conciso dos dados essenciais relacionados às suas mensagens SMS, englobando as métricas principais, como o número de mensagens direcionadas e a contagem de mensagens entregues com êxito.
@@ -473,6 +620,11 @@ A variável **[!UICONTROL SMS - Estatísticas de envio]** A tabela fornece um re
 
 ### SMS - Estatísticas de rastreamento {#sms-tracking-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_tracking_statistics"
+>title="SMS - Estatísticas de rastreamento"
+>abstract="XX"
+
 ![](assets/journey_sms_tracking.png)
 
 A variável **[!UICONTROL SMS - Estatísticas de rastreamento]** O widget fornece uma visão geral detalhada das principais informações relacionadas ao envolvimento dos visitantes com os URLs, oferecendo insights sobre a eficácia das mensagens SMS.
@@ -482,6 +634,11 @@ A variável **[!UICONTROL SMS - Estatísticas de rastreamento]** O widget fornec
 * **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em suas mensagens SMS.
 
 ### SMS: desempenho por data {#sms-performance-date}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_perfomance_date"
+>title="SMS: desempenho por data"
+>abstract="XX"
 
 ![](assets/journey_sms_performance.png)
 
@@ -499,17 +656,32 @@ A variável **[!UICONTROL SMS - Desempenho por data]** o widget oferece uma vis�
 
 ### SMS: motivos de rejeições {#sms-bounce}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_bounces_reasons"
+>title="SMS: motivos de rejeições"
+>abstract="XX"
+
 ![](assets/journey_sms_bounce_reasons.png)
 
 A variável **[!UICONTROL Motivos de rejeições]** Os gráficos e as tabelas fornecem uma visão geral abrangente dos dados relacionados às mensagens SMS rejeitadas, fornecendo insights valiosos sobre os motivos específicos por trás das instâncias de rejeições de mensagens SMS.
 
 ### SMS: motivos de erro {#sms-error}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_error_reasons"
+>title="SMS: motivos de erro"
+>abstract="XX"
+
 ![](assets/journey_sms_error.png)
 
 A variável **[!UICONTROL Motivos de erro]** Os gráficos e as tabelas permitem identificar os erros específicos que ocorreram durante o processo de envio de suas mensagens SMS, facilitando uma análise completa de todos os problemas encontrados.
 
 ### SMS: motivos de exclusão {#sms-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_excluded_reasons"
+>title="SMS: motivos de exclusão"
+>abstract="XX"
 
 ![](assets/journey_sms_excluded.png)
 
@@ -518,6 +690,11 @@ A variável **[!UICONTROL Motivos excluídos]** Os gráficos e as tabelas repres
 Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos motivos de exclusão.
 
 ### SMS: cliques por link {#sms-clicks}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_clicks"
+>title="SMS: cliques por link"
+>abstract="XX"
 
 ![](assets/journey_sms_clicks.png)
 
@@ -528,6 +705,11 @@ A variável **[!UICONTROL SMS - Cliques por links]** O widget oferece informaç�
 Da sua Jornada **[!UICONTROL Relatório global]**, o **[!UICONTROL No aplicativo]** A guia detalha as principais informações relacionadas às mensagens no aplicativo enviadas em suas jornadas.
 
 ### Desempenho no aplicativo {#inapp-performance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_performance"
+>title="Desempenho no aplicativo"
+>abstract="XX"
 
 ![](assets/journey_inapp_performance.png)
 
@@ -552,11 +734,21 @@ A variável **[!UICONTROL Desempenho no aplicativo]**  Os KPIs fornecem insights
 
 ### Resumo no aplicativo {#inapp-summary}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_summary"
+>title="Resumo no aplicativo"
+>abstract="XX"
+
 ![](assets/journey_inapp_summary.png)
 
 A variável **[!UICONTROL Resumo no aplicativo]** O gráfico ilustra a progressão de suas impressões e interações no aplicativo durante o período especificado, fornecendo uma visão geral abrangente do desempenho das mensagens no aplicativo.
 
 ### Interações por tipo {#interactions-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_interactions"
+>title="Interações por tipo"
+>abstract="XX"
 
 ![](assets/journey_inapp_interactions.png)
 
