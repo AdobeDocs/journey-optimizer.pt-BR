@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 97e925529f5b61138474d53f7df404ff6ea44ba9
 workflow-type: tm+mt
-source-wordcount: '1939'
+source-wordcount: '1961'
 ht-degree: 13%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 13%
 >abstract="Controle os acionadores com eficiência selecionando os eventos e critérios específicos que ativarão as mensagens. O construtor de regras permite definir condições e valores precisos. Quando essas condições são atendidas, elas iniciam uma série de ações, incluindo a entrega de mensagens no aplicativo."
 
 Você pode adicionar uma mensagem no aplicativo em uma campanha ou em uma jornada. Siga as etapas detalhadas abaixo para criar uma mensagem no aplicativo em ambos os contextos.
+
+Observe que as mensagens no aplicativo não são afetadas pela escolha do usuário de aceitar ou recusar as notificações por push no sistema operacional.
 
 >[!BEGINTABS]
 
