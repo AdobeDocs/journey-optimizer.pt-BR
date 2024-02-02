@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3683'
 ht-degree: 25%
@@ -214,7 +214,7 @@ Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos mot
 
 ![](assets/channel_email_sent_domains.png)
 
-A variável  **[!UICONTROL Enviado e entregue por domínios]** A tabela e o gráfico fornecem um detalhamento detalhado dos deliveries de email no nível de domínio, oferecendo insights abrangentes sobre o desempenho dos emails.
+A variável **[!UICONTROL Enviado e entregue por domínios]** A tabela e o gráfico fornecem um detalhamento detalhado dos deliveries de email no nível de domínio, oferecendo insights abrangentes sobre o desempenho dos emails.
 
 +++ Saiba mais sobre métricas Enviado e entregue por domínios
 
@@ -233,7 +233,7 @@ A variável  **[!UICONTROL Enviado e entregue por domínios]** A tabela e o grá
 
 ![](assets/channel_email_bounces_domain.png)
 
-A variável  **[!UICONTROL Rejeições e erros por domínios]** O gráfico e a tabela oferecem um detalhamento em nível de domínio de erros específicos encontrados durante o processo de envio, fornecendo uma análise detalhada dos problemas que ocorreram.
+A variável **[!UICONTROL Rejeições e erros por domínios]** O gráfico e a tabela oferecem um detalhamento em nível de domínio de erros específicos encontrados durante o processo de envio, fornecendo uma análise detalhada dos problemas que ocorreram.
 
 +++ Saiba mais sobre métricas de Rejeições e erros por domínios
 
@@ -252,7 +252,7 @@ A variável  **[!UICONTROL Rejeições e erros por domínios]** O gráfico e a t
 
 ![](assets/channel_email_open_domains.png)
 
-A variável  **[!UICONTROL Abrir e clicar por domínios]** O gráfico e a tabela mostram um detalhamento em nível de domínio do engajamento dos visitantes com o email, fornecendo insights valiosos sobre como domínios diferentes interagem com o conteúdo.
+A variável **[!UICONTROL Abrir e clicar por domínios]** O gráfico e a tabela mostram um detalhamento em nível de domínio do engajamento dos visitantes com o email, fornecendo insights valiosos sobre como domínios diferentes interagem com o conteúdo.
 
 +++ Saiba mais sobre métricas de Abertura e cliques por domínios
 
@@ -271,7 +271,7 @@ A variável  **[!UICONTROL Abrir e clicar por domínios]** O gráfico e a tabela
 
 ![](assets/channel_email_bounce_domain.png)
 
-A variável  **[!UICONTROL Motivos de rejeição por domínio]** O gráfico e a tabela oferecem um detalhamento de dados em nível de domínio sobre erros temporários e permanentes, fornecendo insights detalhados sobre os motivos por trás das mensagens rejeitadas.
+A variável **[!UICONTROL Motivos de rejeição por domínio]** O gráfico e a tabela oferecem um detalhamento de dados em nível de domínio sobre erros temporários e permanentes, fornecendo insights detalhados sobre os motivos por trás das mensagens rejeitadas.
 
 Para obter mais informações sobre rejeições, consulte o [Lista de supressão](../reports/suppression-list.md) página.
 
