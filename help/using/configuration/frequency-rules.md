@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: ff25658bd69b83cfd1869490c24710f84d4a4ffc
+source-git-commit: 718854c5ab51ad55fde7629415b954a079647c0b
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1137'
 ht-degree: 10%
 
 ---
@@ -174,14 +174,14 @@ Para aplicar uma regra de frequência a uma mensagem, siga as etapas abaixo.
 1. [Criar uma regra](#create-new-rule) chamado *Limite de marketing geral*:
 
    * Selecione Canais de email e push.
-   * Defina o limite como 12.
+   * Defina o limite para 12 mensais.
 
    ![](assets/message-rules-ex-overall-cap.png)
 
 1. Para restringir ainda mais o número de notificações por push com base em marketing enviadas a um usuário, crie uma segunda regra chamada *Push Marketing Cap*:
 
    * Selecione Canal de push.
-   * Defina o limite como 4.
+   * Defina o limite como 4 por mês.
 
    ![](assets/message-rules-ex-push-cap.png)
 
