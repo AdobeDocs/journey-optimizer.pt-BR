@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: fa704bd6c82a3068f163bb74542107b34f1815d1
+source-git-commit: 045a2f930f27728fd0add6ed8fa77f9b728ebae5
 workflow-type: tm+mt
-source-wordcount: '2866'
-ht-degree: 7%
+source-wordcount: '3668'
+ht-degree: 17%
 
 ---
 
@@ -49,7 +49,7 @@ Da sua jornada **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL Jornada]** A
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance_live"
 >title="Desempenho da jornada"
->abstract="XX"
+>abstract="O widget Desempenho da Jornada permite rastrear visualmente o caminho dos perfis direcionados conforme eles avançam pela jornada nas últimas 24 horas."
 
 ![](assets/journey_live_performance.png)
 
@@ -60,7 +60,7 @@ Da sua jornada **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL Jornada]** A
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics_live"
 >title="Estatísticas de jornadas"
->abstract="XX"
+>abstract="Os KPIs (Key Performance Indicators, Indicadores-chave de desempenho) das estatísticas de Jornada servem como um painel abrangente, fornecendo uma análise detalhada das métricas essenciais das últimas 24 horas relacionadas à sua jornada."
 
 ![](assets/journey_live_statistics.png)
 
@@ -80,7 +80,7 @@ A variável **[!UICONTROL Jornada estatísticas]** Os indicadores principais de 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed_live"
 >title="Ação executada nas últimas 24 horas"
->abstract="XX"
+>abstract="O widget Ação executada nas últimas 24 horas fornece um instantâneo do desempenho recente, mostrando a eficácia das ações executadas nas últimas 24 horas."
 
 ![](assets/journey_live_executed_24hours.png)
 
@@ -99,11 +99,11 @@ A variável **[!UICONTROL Ação executada nas últimas 24 horas]** O widget rep
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="Ações executadas e erros"
->abstract="XX"
+>abstract="O widget Ações executadas e erros mostra as ações mais bem-sucedidas e os erros ocorridos durante o acionamento das ações nas últimas 24 horas. Esse widget oferece uma visão geral abrangente das execuções bem-sucedidas e dos erros encontrados, fornecendo insights valiosos sobre o desempenho recente de suas ações."
 
 ![](assets/journey_live_actions_errors.png)
 
-A variável **[!UICONTROL Ações executadas e erros]** O widget representa a ação e os erros mais bem-sucedidos que ocorreram quando suas ações foram acionadas.
+A variável **[!UICONTROL Ações executadas e erros]** O widget representa a ação e os erros mais bem-sucedidos que ocorreram quando suas ações foram acionadas nas últimas 24 horas.
 
 +++ Saiba mais sobre Ações executadas e métricas de erros
 
@@ -118,7 +118,7 @@ A variável **[!UICONTROL Ações executadas e erros]** O widget representa a a�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_errors_live"
 >title="Motivos de erro de ações"
->abstract="XX"
+>abstract="A tabela e o gráfico de motivos de erro de ações fornecem um resumo completo dos erros encontrados durante a execução das ações, oferecendo uma visão geral abrangente dos problemas que podem ter ocorrido nas últimas 24 horas."
 
 ![](assets/journey_live_error_reasons.png)
 
@@ -129,7 +129,7 @@ A variável **[!UICONTROL Motivos de erro de ação]** A tabela e o gráfico ofe
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_type_live"
 >title="Tipo de erro por ações"
->abstract="XX"
+>abstract="O gráfico e a tabela Tipo de erro por ações fornecem uma visão geral completa dos erros que ocorreram durante cada execução de suas ações nas últimas 24 horas."
 
 ![](assets/journey_live_error_type.png)
 
@@ -140,7 +140,7 @@ A variável **[!UICONTROL Tipo de erro por ações]** A tabela e o gráfico ofer
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_24hours_live"
 >title="Evento executado nas últimas 24 horas"
->abstract="XX"
+>abstract="O widget Evento executado nas últimas 24 horas permite identificar qual dos seus eventos foi executado com êxito nas últimas 24 horas. "
 
 ![](assets/journey_live_event_24hours.png)
 
@@ -151,7 +151,7 @@ A variável **[!UICONTROL Evento executado nas últimas 24 horas]** permite iden
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_live"
 >title="Eventos"
->abstract="XX"
+>abstract="O widget Eventos fornece uma visualização abrangente de quais eventos foram executados com êxito, oferecendo um número de resumo, gráfico e tabela para obter insights detalhados das últimas 24 horas."
 
 ![](assets/journey_live_events.png)
 
@@ -162,7 +162,7 @@ A variável **[!UICONTROL Eventos]** O widget permite ver qual dos seus eventos 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin_live"
 >title="Eventos por origem"
->abstract="XX"
+>abstract="A tabela e os gráficos Eventos por origem oferecem uma visualização da recepção bem-sucedida dos eventos nas últimas 24 horas. Essas representações visuais permitem identificar com precisão os eventos que foram recebidos efetivamente, fornecendo insights valiosos sobre o desempenho e o impacto de cada evento na jornada."
 
 ![](assets/journey_events_origin.png)
 
@@ -177,7 +177,7 @@ Da sua jornada **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL E-mail]** A 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance_live"
 >title="Email: desempenho de envio"
->abstract="XX"
+>abstract="O gráfico “Email: estatísticas de envio” resume dados essenciais sobre o email, como se ele foi direcionado ou entregue nas últimas 24 horas."
 
 ![](assets/journey_live_email_performance.png)
 
@@ -200,7 +200,7 @@ A variável **[!UICONTROL Email - Desempenho de envio]** O gráfico fornece uma 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_statistics_live"
 >title="Email: estatísticas"
->abstract="XX"
+>abstract="A tabela “Email: estatísticas” fornece dados sobre a atividade de perfil do email nas últimas 24 horas."
 
 ![](assets/journey_live_email_statistics.png)
 
@@ -237,7 +237,7 @@ A variável **[!UICONTROL Email - Estatísticas]** A tabela fornece um resumo ab
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_performance_bydate_live"
 >title="Email: desempenho por data"
->abstract="XX"
+>abstract="O gráfico Email - Desempenho por data apresenta dados abrangentes das últimas 24 horas sobre emails enviados, oferecendo insights sobre as métricas principais, como entregues e rejeitados, permitindo uma análise detalhada do processo de envio de email."
 
 ![](assets/journey_live_email_performance_date.png)
 
@@ -291,7 +291,7 @@ Para obter mais informações sobre rejeições, consulte o [Lista de supressão
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_errors_live"
 >title="Email: motivos de erro"
->abstract="XX"
+>abstract="A tabela “Email: motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram durante o processo de envio nas últimas 24 horas."
 
 ![](assets/journey_live_email_error_reasons.png)
 
@@ -302,7 +302,7 @@ A variável **[!UICONTROL Motivos de erro]** os gráficos e as tabelas oferecem 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_live"
 >title="Email: motivos de exclusão"
->abstract="XX"
+>abstract="A tabela “Motivos de exclusão” e seus gráficos ilustram os vários fatores que levaram perfis de usuário excluídos do público-alvo a não receberem a mensagem nas últimas 24 horas."
 
 ![](assets/journey_live_email_excluded.png)
 
@@ -315,7 +315,7 @@ Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos mot
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_best_recipient_live"
 >title="Email: melhor domínio do destinatário"
->abstract="XX"
+>abstract="A tabela “Email: Melhor domínio do destinatário” e seu gráfico fornecem um detalhamento dos domínios que os destinatários usam com mais frequência para abrir o email, oferecendo insights valiosos sobre o comportamento do destinatário nas últimas 24 horas."
 
 ![](assets/journey_live_email_best_recipient.png)
 
@@ -326,7 +326,7 @@ A variável **[!UICONTROL Email - Melhor domínio de destinatário]** O gráfico
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers_live"
 >title="Email - Ofertas"
->abstract="XX"
+>abstract="Os widgets de estatística detalhada Ofertas e Estatística de ofertas fornecem insights abrangentes sobre o desempenho de suas ofertas nas últimas 24 horas, oferecendo uma análise detalhada do impacto ao longo do tempo e apresentando estatísticas detalhadas para uma compreensão mais detalhada."
 
 >[!NOTE]
 >
@@ -349,7 +349,7 @@ A variável **[!UICONTROL Estatísticas de ofertas]** e **[!UICONTROL Estatísti
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"
 >title="Email - Otimização"
->abstract="XX"
+>abstract="Os widgets Otimização de tempo de envio e Otimizado vs. não otimizado fornecem informações detalhadas das últimas 24 horas relacionadas às suas mensagens, destacando se foram otimizados ou não."
 
 ![](assets/journey_email_sto.png)
 
@@ -402,7 +402,7 @@ A variável **[!UICONTROL Desempenho de envio de notificação por push]** o gr�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_statistics_live"
 >title="Notificação por push: estatísticas"
->abstract="XX"
+>abstract="A tabela “Estatísticas de push” fornece dados sobre a atividade de destinatários relacionada a notificações por push nas últimas 24 horas."
 
 ![](assets/journey_live_push_statistics.png)
 
@@ -430,7 +430,7 @@ A variável **[!UICONTROL Desempenho de envio de notificação por push]** o gr�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_live"
 >title="Notificações por push: detalhamento por plataforma"
->abstract="XX"
+>abstract="A tabela “Detalhamento por plataforma” e seus gráficos fornecem uma análise do sucesso das notificações por push nas últimas 24 horas baseada no sistema operacional do destinatário."
 
 ![](assets/journey_push_breakdown.png)
 
@@ -441,7 +441,7 @@ A variável **[!UICONTROL Notificação por push - Detalhamento por plataforma]*
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_summary_live"
 >title="Notificações por push: resumo de envio"
->abstract="XX"
+>abstract="O gráfico “Notificações por push: resumo do envio” exibe os dados disponíveis para notificações por push enviadas nas últimas 24 horas."
 
 ![](assets/journey_live_push_sending.png)
 
@@ -468,7 +468,7 @@ A variável **[!UICONTROL Resumo da notificação por push]** O gráfico oferece
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_error_reasons_live"
 >title="Notificações por push: motivos de erro"
->abstract="XX"
+>abstract="A tabela “Motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram nas últimas 24 horas durante o processo de envio."
 
 ![](assets/journey_live_push_error.png)
 
@@ -479,7 +479,7 @@ A variável **[!UICONTROL Motivos de erro]** A tabela e os gráficos fornecem a 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons_live"
 >title="Notificações por push: motivos de exclusão"
->abstract="XX"
+>abstract="A tabela “Motivos de exclusão” e seus gráficos ilustram os vários fatores que levaram perfis de usuário excluídos do público-alvo a não receberem a mensagem nas últimas 24 horas."
 
 ![](assets/journey_live_push_excluded.png)
 
@@ -494,7 +494,7 @@ Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos mot
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_statistics_live"
 >title="SMS: estatísticas"
->abstract="XX"
+>abstract="A tabela “Estatísticas de envio de SMS” resume dados essenciais sobre as mensagens SMS, como mensagens direcionadas ou entregues nas últimas 24 horas."
 
 ![](assets/journey_live_sms_statistics.png)
 
@@ -523,7 +523,7 @@ A variável **[!UICONTROL SMS - Estatísticas]** A tabela fornece um resumo conc
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_performance_live"
 >title="SMS: desempenho por data"
->abstract="XX"
+>abstract="O dispositivo “SMS: desempenho por data” fornece informações importantes sobre mensagens nas últimas 24 horas por meio de uma representação gráfica."
 
 ![](assets/journey_live_sms_performance.png)
 
@@ -544,7 +544,7 @@ A variável **[!UICONTROL SMS - Desempenho por data]** O widget oferece uma vis�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_bounces_live"
 >title="SMS: motivos de rejeições"
->abstract="XX"
+>abstract="A tabela “Motivos de rejeições” e seus gráficos contêm dados relacionados a mensagens rejeitadas nas últimas 24 horas."
 
 ![](assets/journey_sms_bounce_reasons.png)
 
@@ -555,7 +555,7 @@ A variável **[!UICONTROL SMS - Motivos de rejeições]** Os gráficos e a tabel
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_error_live"
 >title="SMS: motivos de erro"
->abstract="XX"
+>abstract="A tabela “SMS: motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram nas últimas 24 horas durante o processo de envio."
 
 ![](assets/journey_sms_error.png)
 
@@ -566,7 +566,7 @@ A variável **[!UICONTROL SMS - Motivos de erro]** Os gráficos e as tabelas per
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_live"
 >title="SMS: motivos de exclusão"
->abstract="XX"
+>abstract="A tabela “Motivos de exclusão” e seus gráficos ilustram os vários fatores que levaram perfis de usuário excluídos do público-alvo a não receberem a mensagem nas últimas 24 horas."
 
 ![](assets/journey_live_sms_excluded.png)
 
@@ -589,7 +589,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance_live"
 >title="Desempenho no aplicativo"
->abstract="XX"
+>abstract="Os KPIs de desempenho no aplicativo fornecem informações essenciais sobre o envolvimento dos visitantes com as mensagens no aplicativo nas últimas 24 horas.&quot;"
 
 ![](assets/journey_live_inapp_performance.png)
 
@@ -616,7 +616,7 @@ A variável **[!UICONTROL Desempenho no aplicativo]** Os KPIs fornecem insights 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_summary_live"
 >title="Resumo no aplicativo"
->abstract="XX"
+>abstract="O gráfico “Resumo no aplicativo” ilustra o progresso das impressões e interações no aplicativo nas últimas 24 horas."
 
 ![](assets/journey_live_inapp_summary.png)
 
@@ -643,7 +643,7 @@ A variável **[!UICONTROL Resumo no aplicativo]** O gráfico ilustra a progress�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_interactions_live"
 >title="Interações por tipo"
->abstract="XX"
+>abstract="A tabela “Interações por tipo” e seus gráficos detalham como usuários interagiram com a mensagem no aplicativo por meio do rastreamento de cliques, mensagens ignoradas ou interações nas últimas 24 horas."
 
 ![](assets/journey_live_inapp_interactions.png)
 
