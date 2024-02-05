@@ -11,7 +11,7 @@ keywords: subdomínio, domínio, correio, dmarc, registro
 source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
->title="Definir registro DMARC"
->abstract="O DMARC é um método de autenticação de email que permite aos proprietários de domínios proteger seu domínio de uso não autorizado e evitar problemas de capacidade de entrega com provedores de caixa de correio.<br>Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo! ambos exigem um registro DMARC para qualquer domínio que você use para enviar emails para eles."
+>title="Definir o registro DMARC"
+>abstract="DMARC é um método de autenticação de email que permite aos proprietários de domínio proteger seus domínios contra uso não autorizado e evitar problemas de capacidade de entrega com provedores de caixa de correio.<br>Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo! ambos exigem um registro DMARC para qualquer domínio que você use para enviar emails para eles."
 
 ## O que é DMARC? {#what-is-dmarc}
 

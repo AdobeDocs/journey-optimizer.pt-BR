@@ -16,7 +16,7 @@ ht-degree: 21%
 
 ---
 
-# Criar e publicar páginas de destino {#create-lp}
+# Criar e publicar landing pages {#create-lp}
 
 >[!CAUTION]
 >
@@ -110,7 +110,7 @@ Depois de configurar e projetar o [página principal](#configure-primary-page), 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_primary_page"
 >title="Definir as configurações da página principal"
->abstract="A página principal é exibida imediatamente depois que as pessoas clicam no link de página de destino que consta em um email ou site."
+>abstract="A página principal é exibida imediatamente depois que os usuários clicam no link da landing page que consta em um email ou site."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Criar o conteúdo da página de destino"
 
 >[!CONTEXTUALHELP]
@@ -209,7 +209,7 @@ Para definir as configurações de subpágina, siga as etapas abaixo.
 
 ![](assets/lp_subpage-settings.png)
 
-## Testar a página de destino {#test-landing-page}
+## Testar a landing page {#test-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"
