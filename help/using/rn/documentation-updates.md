@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 50ca60555c66a0a3f87c46301bb76545427c2780
+source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
 workflow-type: tm+mt
-source-wordcount: '4586'
-ht-degree: 93%
+source-wordcount: '4606'
+ht-degree: 92%
 
 ---
 
 # Atualizações de documentação {#latest-updates}
 
 Esta página lista todas as atualizações mais recentes no [!DNL Journey Optimizer] documentação.
+
+## Fevereiro de 2024 (#feb-2024)
+
+* Foram adicionadas informações sobre como personalizar as representações de ofertas com base em dados de contexto [Leia mais](../offers/offer-library/add-representations.md#context-data)
 
 ## Janeiro de 2024 {#jan-2024}
 
