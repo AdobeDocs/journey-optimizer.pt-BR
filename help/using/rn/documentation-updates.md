@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
+source-git-commit: 63a849b50ff7f02da07e6fd74d00f3d9360ad012
 workflow-type: tm+mt
 source-wordcount: '4606'
 ht-degree: 92%
@@ -21,7 +21,7 @@ Esta página lista todas as atualizações mais recentes no [!DNL Journey Optimi
 
 ## Fevereiro de 2024 (#feb-2024)
 
-* Foram adicionadas informações sobre como personalizar as representações de ofertas com base em dados de contexto [Leia mais](../offers/offer-library/add-representations.md#context-data)
+* Foram adicionadas informações sobre como personalizar as representações de ofertas com base nos dados de contexto. [Leia mais](../offers/offer-library/add-representations.md#context-data)
 
 ## Janeiro de 2024 {#jan-2024}
 
