@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 0d010bbb46887546d524726606764b564c352064
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1960'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -87,10 +87,10 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 * Endereços IP não são permitidos
 * Endereços internos da Adobe (`.adobe.*`) não são permitidos em URLs e APIs.
 * As ações personalizadas incorporadas não podem ser removidas.
-* Ao escolher um endpoint para direcionar usando uma ação personalizada, verifique se:
+* Ao escolher um ponto de acesso para destino usando uma ação personalizada, verifique se:
 
-   * Esse endpoint pode suportar a taxa de transferência da jornada, usando configurações do [API de limitação](../configuration/throttling.md) ou [API de limite](../configuration/capping.md) para limitá-lo. Tenha cuidado para que uma configuração de limitação não possa ficar abaixo de 200 TPS. Qualquer terminal direcionado precisará oferecer suporte a pelo menos 200 TPS.
-   * Esse endpoint precisa ter um tempo de resposta o mais baixo possível. Dependendo do throughput esperado, ter um tempo de resposta alto pode afetar o throughput real.
+   * Esse ponto de acesso pode suportar a taxa de transferência da jornada, usando configurações da [API de limitação](../configuration/throttling.md) ou da [API de limite](../configuration/capping.md) para limitá-la. Tenha cuidado, pois uma configuração de limitação não pode ficar abaixo de 200 TPS. Qualquer ponto de acesso como destino precisará oferecer suporte a pelo menos 200 TPS.
+   * Esse ponto de acesso precisa ter um tempo de resposta o mais baixo possível. Dependendo da taxa de transferência esperada, ter um tempo de resposta alto pode afetar a taxa de transferência real.
 
 ### Eventos {#events-g}
 
