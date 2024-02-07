@@ -11,13 +11,13 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 7ce415308bd516eb51799890c76b4469558087ee
 workflow-type: tm+mt
 source-wordcount: '4604'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
-# Atualizações de documentação {#latest-updates}
+# Atualizações na documentação {#latest-updates}
 
-Esta página lista todas as atualizações mais recentes no [!DNL Journey Optimizer] documentação.
+Esta página lista todas as atualizações mais recentes na documentação do [!DNL Journey Optimizer].
 
 ## Fevereiro de 2024 {#feb-2024}
 
@@ -25,26 +25,26 @@ Esta página lista todas as atualizações mais recentes no [!DNL Journey Optimi
 
 ## Janeiro de 2024 {#jan-2024}
 
-* Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de janeiro de 2024 foi detalhada na documentação. [Leia mais](release-notes.md)
+* Todos os novos recursos e aprimoramentos da versão de janeiro de 2024 do [!DNL Journey Optimizer] estão detalhados na documentação. [Leia mais](release-notes.md)
 * Medidas de proteção sobre o tamanho da jornada foram adicionadas. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
 * O gerenciamento de tempo limite da jornada foi detalhado [na seção seguinte](../building-journeys/journey-gs.md#global_timeout).
 * A [página inicial da documentação](../../ajo-home.md) do Journey Optimizer foi redefinida.
 * Recomendações sobre a atividade Atualizar perfis foram adicionadas. [Leia mais](../building-journeys/update-profiles.md)
-* Foram adicionadas informações sobre o comportamento dos tempos limite em atividades de evento no jornada. Quando nenhum evento é recebido durante o período de tempo limite especificado, os indivíduos continuarão a jornada se nenhum caminho de tempo limite for definido. [Leia mais](../building-journeys/general-events.md#events-specific-time)
-* Os pré-requisitos de configuração do canal no aplicativo foram atualizados com uma observação sobre o uso de uma política de mesclagem de preferência de Conjunto de dados personalizada. [Leia mais](../in-app/inapp-configuration.md)
+* Foram adicionadas informações sobre o comportamento dos tempos limite de atividades de evento em jornadas. Quando nenhum evento for recebido durante o período de tempo limite especificado e nenhum caminho de tempo limite for definido, as pessoas físicas continuarão a jornada. [Leia mais](../building-journeys/general-events.md#events-specific-time)
+* Os pré-requisitos de configuração do canal no aplicativo foram atualizados com uma observação sobre o uso de uma política de mesclagem de preferência de conjunto de dados personalizado. [Leia mais](../in-app/inapp-configuration.md)
 * Mais detalhes foram adicionados sobre como manipular coleções em uma resposta de ação personalizada. [Leia mais](../action/action-response.md#exp-syntax).
 * Um link para o [Dicionário de esquema do Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR) foi adicionado à página inicial.
-* Uma referência desatualizada ao recurso Mensagem do AJO foi removida da lista de recursos disponíveis no Log de auditoria. Quando uma atualização é concluída em uma mensagem em uma jornada, uma **Jornada** log é criado. [Leia mais](../privacy/audit-logs.md)
-* Recomendações adicionais foram adicionadas sobre o uso do **Ler público-alvo** atividade. [Leia mais](../building-journeys/read-audience.md#must-read)
-* A página Introdução aos públicos da Adobe Experience Platform foi aprimorada com uma lista de métodos de geração de público-alvo. [Leia mais](../audience/about-audiences.md)
-* As práticas recomendadas foram adicionadas ao escolher um endpoint para direcionamento usando uma ação personalizada. [Leia mais](../action/about-custom-action-configuration.md)
-* Uma observação foi adicionada para notificar os usuários que os eventos não podem ser acionados de sistemas externos usando uma API. [Leia mais](../building-journeys/testing-the-journey.md#important-notes)
-* Informações sobre o **currentActionField** foi adicionada à lista de [funções de gerenciamento de coleções](../building-journeys/expression/collection-management-functions.md). Uma amostra de expressão que utiliza a função foi adicionada na variável [Usar respostas de chamada de API em ações personalizadas](../action/action-response.md) página.
-* Atualize o documento de autenticação personalizado em relação à duração do cache. [Leia mais] (../datasource/external-data-sources.md)
-* Suporte do `<listObject>` foi modificado em várias funções.
-* Atualize o **duração** parâmetro no `toString` função. [Leia mais](../building-journeys/functions/functiontostring.md)
+* Uma referência desatualizada ao recurso Mensagem do AJO foi removida da lista de recursos disponíveis no Log de auditoria. Quando uma mensagem é atualizada em uma jornada, um log de **Jornada** é criado. [Leia mais](../privacy/audit-logs.md)
+* Adição de recomendações adicionais sobre o uso da atividade **Público-alvo de leitura**. [Leia mais](../building-journeys/read-audience.md#must-read)
+* A página Introdução aos públicos-alvo da Adobe Experience Platform foi aprimorada com uma lista de métodos de geração de público-alvo. [Leia mais](../audience/about-audiences.md)
+* Práticas recomendadas foram adicionadas ao escolher um ponto de acesso para destino usando uma ação personalizada. [Leia mais](../action/about-custom-action-configuration.md)
+* Uma observação foi adicionada para notificar usuários e usuárias de que eventos não podem ser acionados de sistemas externos usando uma API. [Leia mais](../building-journeys/testing-the-journey.md#important-notes)
+* Foram adicionadas informações sobre a função **currentActionField** à lista de [funções de gerenciamento de coleções](../building-journeys/expression/collection-management-functions.md). Uma amostra de expressão que utiliza a função foi adicionada na página [Usar as respostas de chamada da API em ações personalizadas](../action/action-response.md).
+* Atualize o documento de autenticação personalizado no que diz respeito à duração do cache. [Leia mais] (../datasource/external-data-sources.md)
+* O suporte de `<listObject>` foi modificado em várias funções.
+* Atualize o parâmetro **duração** na função `toString`. [Leia mais](../building-journeys/functions/functiontostring.md)
 * Para alguns casos de uso de fontes de dados externas, é recomendado o uso de ações personalizadas.
-* A sintaxe do campo de evento foi atualizada. A sintaxe a seguir está obsoleta `@(my_event.myfield}` e substituída por `@event{my_event.myfield}`. [Leia mais](../building-journeys/expression/field-references.md)
+* A sintaxe dos campos de evento foi atualizada. A sintaxe a seguir está obsoleta `@(my_event.myfield}` e foi substituída por `@event{my_event.myfield}`. [Leia mais](../building-journeys/expression/field-references.md)
 * Os guias Relatório global e Relatório em tempo real foram reorganizados. [Leia mais](../reports/campaign-global-report.md)
 
 

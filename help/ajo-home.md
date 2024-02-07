@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 68%
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!BEGINTABS]
 
->[!TAB A versão de janeiro está disponível.]
+>[!TAB A versão de janeiro está disponível!]
 
 Descubra novos recursos e melhorias que acompanham a versão 24.1 do Adobe Journey Optimizer.
 
@@ -28,17 +28,17 @@ Descubra novos recursos e melhorias que acompanham a versão 24.1 do Adobe Journ
 
 >[!TAB Atualização DMARC obrigatória]
 
-Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo! ambos exigirão que você tenha uma **Registro DMARC** para qualquer domínio que você usar para enviar emails a eles, começando em **1 de fevereiro de 2024**. Verifique se você tem o registro DMARC configurado para todos os subdomínios que você delegou à Adobe no Journey Optimizer.
+Como parte da aplicação de práticas recomendadas do setor, o Google e o Yahoo! ambos exigirão que você tenha uma **Registro DMARC** para qualquer domínio que você usar para enviar emails a eles, começando em **1 de fevereiro de 2024**. Verifique se você tem o registro DMARC configurado para todos os subdomínios que você delegou à Adobe no Journey Optimizer.
 
 [![imagem](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
->[!TAB Playbooks de caso de uso]
+>[!TAB Manuais de casos de uso]
 
-Aproveite um catálogo de manuais de casos de uso específicos do setor no Real-Time CDP e no Journey Optimizer para tratar de casos de uso comuns que você pode executar usando o Adobe Experience Platform e o Adobe Jornada Otimizer.
+Aproveite um catálogo de manuais de casos de uso específicos do setor na Real-Time CDP e no Journey Optimizer para abordar casos de uso comuns que você pode executar usando a Adobe Experience Platform e o Adobe Journey Optimizer.
 
-Depois de escolher o manual que melhor atende às suas necessidades, você pode habilitá-lo para gerar os ativos necessários para suportar o caso de uso, como jornadas, mensagens, esquemas ou segmentos, e personalizá-los no esquema para agilizar o tempo de implantação.
+Depois de escolher o manual de estratégia que melhor atende às suas necessidades, você pode habilitá-lo para gerar os ativos necessários que darão suporte ao seu caso de uso, como jornadas, mensagens, esquemas ou segmentos, e personalizá-los de acordo com o esquema para agilizar resultados relevantes.
 
-![imagem animada mostrando os manuais de caso de uso](using/rn/assets/do-not-localize/playbooks.gif)
+![imagem animada exibindo Manuais de casos de uso](using/rn/assets/do-not-localize/playbooks.gif)
 
 [![imagem](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
 
