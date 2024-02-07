@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1731'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
       + [Notas de versão de 2023](using/rn/release-notes-2023.md)
       + [Notas de versão de 2022](using/rn/release-notes-2022.md)
       + [Notas de versão de 2021](using/rn/release-notes-2021.md)
-   + [Atualizações de documentação](using/rn/documentation-updates.md)
+   + [Atualizações na documentação](using/rn/documentation-updates.md)
 + Introdução{#get-started}
    + [O que é o Journey Optimizer](using/start/get-started.md)
    + Guias de início rápido{#quick-start}
@@ -34,7 +34,7 @@ ht-degree: 99%
    + [Interface do usuário](using/start/user-interface.md)
    + [Pesquisar, filtrar, categorizar](using/start/search-filter-categorize.md)
    + [Acessibilidade](using/start/accessibility.md)
-   + [Playbooks de caso de uso](using/start/playbooks.md)
+   + [Manuais de casos de uso ](using/start/playbooks.md)
    + [Integrações](using/start/ajo-integrations.md)
    + [Medidas de proteção](using/start/guardrails.md)
    + [Práticas recomendadas](using/start/best-practices.md)
@@ -527,7 +527,7 @@ ht-degree: 99%
    + Delegar subdomínios de email {#delegate-subdomains}
       + [Introdução à delegação de subdomínio](using/configuration/about-subdomain-delegation.md)
       + [Delegar um subdomínio](using/configuration/delegate-subdomain.md)
-      + [Configurar registro DMARC](using/configuration/dmarc-record.md)
+      + [Configurar o registro DMARC](using/configuration/dmarc-record.md)
       + [Adicionar um registro TXT do Google](using/configuration/google-txt.md)
       + [Acessar e editar registros PTR](using/configuration/ptr-records.md)
       + [Criar pools de IP](using/configuration/ip-pools.md)
