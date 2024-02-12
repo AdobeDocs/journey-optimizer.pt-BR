@@ -7,11 +7,11 @@ feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
-keywords: subdomínio, domínio, correio, dmarc, registro
+keywords: subdomínio, domínio, email, dmarc, registro
 source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="Definir o registro DMARC"
->abstract="DMARC é um método de autenticação de email que permite aos proprietários de domínio proteger seus domínios contra uso não autorizado e evitar problemas de capacidade de entrega com provedores de caixa de correio.<br>Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo! ambos exigem um registro DMARC para qualquer domínio que você use para enviar emails para eles."
+>abstract="DMARC é um método de autenticação de email que permite aos proprietários de domínio proteger seus domínios contra uso não autorizado e evitar problemas de capacidade de entrega com provedores de caixa de correio.<br>Como parte da aplicação de práticas recomendadas do setor, o Google e o Yahoo! exigirão um registro DMARC para qualquer domínio que você usar para enviar emails a eles."
 
 ## O que é DMARC? {#what-is-dmarc}
 
-O DMARC (Domain-based Message Authentication, Reporting, and Conformance) é um método de autenticação de email que permite aos proprietários do domínio proteger seu domínio contra o uso não autorizado. Ao oferecer uma política clara para provedores de email/ISPs, ajuda a impedir que intervenientes mal-intencionados enviem emails que alegam ser do seu domínio. A implementação do DMARC reduz o risco de emails legítimos serem marcados como spam ou rejeitados e melhora a capacidade de entrega de emails.
+O DMARC (Domain-based Message Authentication, Reporting, and Conformance) é um método de autenticação de email que permite que os proprietários do domínio o protejam contra o uso não autorizado. Ao oferecer uma política clara para provedores de email/ISPs, ajuda a impedir que atores mal-intencionados enviem emails que alegam ser do seu domínio. A implementação do DMARC reduz o risco de emails legítimos serem marcados como spam ou rejeitados e melhora a capacidade de entrega de emails.
 
 O DMARC também oferece relatórios sobre mensagens que falham na autenticação, juntamente com controle sobre o tratamento de emails que não passam na validação do DMARC. Dependendo do tipo de [Política DMARC](#dmarc-policies), esses emails podem ser monitorados, colocados em quarentena ou rejeitados. Esses recursos capacitam você a tomar medidas para mitigar e resolver possíveis erros.
 
@@ -63,13 +63,13 @@ Se um email falhar na autenticação DMARC, você poderá decidir qual ação se
 
 ## Atualização de requisito DMARC {#dmarc-update}
 
-Como parte da aplicação de práticas recomendadas do setor, a Google e o Yahoo! ambos exigem que você tenha uma **Registro DMARC** para qualquer domínio que você usar para enviar emails para eles. Este novo requisito aplica-se a partir de **1 de fevereiro de 2024**.
+Como parte da aplicação de práticas recomendadas do setor, o Google e o Yahoo! ambos exigem que você tenha uma **Registro DMARC** para qualquer domínio que você usar para enviar emails para eles. Este novo requisito aplica-se a partir de **1 de fevereiro de 2024**.
 
-Saiba mais sobre o Google e o Yahoo!&#39;requisito s em [nesta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+Saiba mais sobre o Google e o Yahoo!&#39;requisito s em [nesta seção](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=pt-BR#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
->Não cumprimento deste novo requisito por parte do Gmail e do Yahoo! O deve resultar no bloqueio dos emails para a pasta de spam. [Saiba mais](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
+>Espera-se que o não cumprimento deste novo requisito do Gmail e do Yahoo! O deve resultar no bloqueio dos emails para a pasta de spam. [Saiba mais](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
 
 Consequentemente, a Adobe recomenda que você execute as seguintes ações:
 

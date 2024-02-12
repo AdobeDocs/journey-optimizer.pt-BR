@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3683'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -50,7 +50,7 @@ Nos relatórios de Canal, o menu Email detalha as principais informações relat
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
 >title="Email: estatísticas totais de envio"
->abstract="Os KPIs Email - Total sending statistics resumem dados essenciais sobre seus emails, como mensagens direcionadas ou entregues."
+>abstract="Os KPIs “Email: estatísticas totais de envio” resumem dados essenciais sobre seus emails, como mensagens direcionadas ou entregues."
 
 ![](assets/channel_email_total_sending.png)
 
@@ -153,7 +153,7 @@ A variável **[!UICONTROL Email - Estatísticas de rastreamento ao longo do temp
 
 +++
 
-### Email - Categorias e motivos de rejeição {#bounce-categories}
+### Email: categorias e motivos de rejeição {#bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_categories"
@@ -205,11 +205,11 @@ A variável **[!UICONTROL Motivos excluídos]** os gráficos e a tabela apresent
 
 Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos motivos de exclusão.
 
-### Enviados e entregues por domínio {#sent-delivered-domains}
+### Enviados e entregues por domínios {#sent-delivered-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_delivered_domains"
->title="Enviados e entregues por domínio"
+>title="Enviados e entregues por domínios"
 >abstract="A tabela “Enviados e entregues por domínio” representam um detalhamento em nível de domínio de todos os dados importantes de envio de email."
 
 ![](assets/channel_email_sent_domains.png)
@@ -224,11 +224,11 @@ A variável **[!UICONTROL Enviado e entregue por domínios]** A tabela e o gráf
 
 +++
 
-### Rejeições e erros por domínio {#bounces-errors-domains}
+### Rejeições e erros por domínios {#bounces-errors-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounces_errors_domains"
->title="Rejeições e erros por domínio"
+>title="Rejeições e erros por domínios"
 >abstract="A tabela “Rejeições e erros por domínio” e seu gráfico representam um detalhamento em nível de domínio de erros específicos que ocorreram durante o processo de envio."
 
 ![](assets/channel_email_bounces_domain.png)
@@ -243,11 +243,11 @@ A variável **[!UICONTROL Rejeições e erros por domínios]** O gráfico e a ta
 
 +++
 
-### Aberturas e cliques por domínio {#open-clicks-domains}
+### Aberturas e cliques por domínios {#open-clicks-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_open_clicks_domains"
->title="Aberturas e cliques por domínio"
+>title="Aberturas e cliques por domínios"
 >abstract="A tabela “Aberturas e cliques por domínio” e seu gráfico representam um detalhamento em nível de domínio do engajamento de visitantes com o email."
 
 ![](assets/channel_email_open_domains.png)
@@ -375,7 +375,7 @@ A variável **[!UICONTROL Notificações por push - Estatísticas de rastreament
 
 +++
 
-### Notificações por push - Motivos excluídos {#push-excluded-reasons}
+### Notificações por push: motivos de exclusão {#push-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
@@ -388,7 +388,7 @@ A variável **[!UICONTROL Motivos excluídos]** o gráfico e a tabela exibem os 
 
 Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos motivos de exclusão.
 
-### Notificações por push - Motivos de erro {#push-error-reasons}
+### Notificações por push: motivos de erro {#push-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
@@ -399,7 +399,7 @@ Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos mot
 
 A variável **[!UICONTROL Motivos de erro]** os gráficos e as tabelas fornecem a capacidade de identificar os erros específicos que ocorreram durante o processo de envio de suas notificações por push, oferecendo insights detalhados sobre quaisquer problemas encontrados ao longo do caminho.
 
-### Notificações por push - Rastreamento por plataforma {#push-tracking-platform}
+### Notificações por push: rastreamento por plataforma {#push-tracking-platform}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_platform"
@@ -408,7 +408,7 @@ A variável **[!UICONTROL Motivos de erro]** os gráficos e as tabelas fornecem 
 
 A variável **[!UICONTROL Notificações por push - Rastreamento por plataforma]** gráficos e tabelas detalham a atividade dos recipients para a notificação por push, dependendo do sistema operacional do seu perfil.
 
-### Notificações por push - Envio por plataforma {#push-sending-platform}
+### Notificações por push: envio por plataforma {#push-sending-platform}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_platform"
@@ -597,7 +597,7 @@ A variável **[!UICONTROL Correspondência direta - Motivos de erro]** fornecer 
 
 Nos relatórios de Canal, o menu No aplicativo detalha as principais informações relacionadas às mensagens no aplicativo enviadas em suas Campanhas e Jornadas. As métricas estão detalhadas abaixo.
 
-### Engajamento total no aplicativo {#inapp-total-engagement}
+### Total de engajamento in-app {#inapp-total-engagement}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement"
@@ -616,7 +616,7 @@ A variável **[!UICONTROL Engajamento total no aplicativo]** Os KPIs fornecem in
 
 +++
 
-### Hora extra de engajamento no aplicativo {#inapp-engagement-overtime}
+### Engajamento in-app ao longo do tempo {#inapp-engagement-overtime}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement_overtime"

@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3484'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -128,7 +128,7 @@ A variável **[!UICONTROL Métricas de envio por email]** A tabela oferece um re
 * **[!UICONTROL Tentativas]**: Número de emails na fila para tentativas.
 +++
 
-### Email - Categorias e motivos de rejeição {#bounce-categories}
+### Email: categorias e motivos de rejeição {#bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_bounce_categories"
@@ -161,7 +161,7 @@ Para obter mais informações sobre rejeições, consulte o [Lista de supressão
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_performance_bydate"
 >title="Email: desempenho por data"
->abstract="O gráfico Email - Desempenho por data apresenta dados abrangentes das últimas 24 horas sobre emails enviados, oferecendo insights sobre as métricas principais, como entregues e rejeitados, permitindo uma análise detalhada do processo de envio de email."
+>abstract="O gráfico “E-mail: desempenho por data” apresenta dados abrangentes das últimas 24 horas sobre emails enviados, oferecendo insights sobre métricas principais, como entregas e devoluções, permitindo uma análise detalhada do processo de envio de email."
 
 ![](assets/campaign_email_live_performance.png)
 
@@ -198,7 +198,7 @@ A variável **[!UICONTROL Email - Desempenho por data]** O widget oferece uma vi
 
 A variável **[!UICONTROL Motivos de erro]** os gráficos e tabelas fornecem informações sobre os erros específicos que ocorreram durante o processo de envio nas últimas 24 horas. Essas informações são valiosas para entender a natureza e a frequência dos erros.
 
-### Motivos excluídos {#email-exclude-reasons}
+### Motivos de exclusão {#email-exclude-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_excluded_reasons"
@@ -222,7 +222,7 @@ Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos mot
 
 A variável **[!UICONTROL Email - Melhor domínio de destinatário]** O gráfico e a tabela fornecem um detalhamento completo dos domínios usados com mais frequência pelos perfis para abrir seus emails nas últimas 24 horas. Isso fornece insights valiosos sobre o comportamento do perfil, ajudando você a entender as plataformas preferenciais.
 
-### Email - Ofertas {#email-offers}
+### Email: ofertas {#email-offers}
 
 >[!NOTE]
 >
@@ -244,11 +244,11 @@ A variável **[!UICONTROL Estatísticas de ofertas]** e **[!UICONTROL Estatísti
 
 Da sua campanha **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL No aplicativo]** A guia detalha as principais informações relativas às mensagens no aplicativo enviadas em sua campanha.
 
-### Desempenho no aplicativo {#inapp-performance}
+### Desempenho in-app {#inapp-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_performance"
->title="Desempenho no aplicativo"
+>title="Desempenho in-app"
 >abstract="Os KPIs de desempenho no aplicativo fornecem insights essenciais sobre o engajamento de visitantes com mensagens no aplicativo nas últimas 24 horas."
 
 A variável **[!UICONTROL Desempenho no aplicativo]** Os KPIs fornecem informações essenciais sobre o envolvimento de seus perfis com mensagens no aplicativo nas últimas 24 horas, fornecendo métricas essenciais para avaliar a eficácia e o impacto de suas campanhas no aplicativo.
@@ -261,11 +261,11 @@ A variável **[!UICONTROL Desempenho no aplicativo]** Os KPIs fornecem informaç
 
 +++
 
-### Resumo no aplicativo {#inapp-summary}
+### Resumo in-app {#inapp-summary}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_summary"
->title="Resumo no aplicativo"
+>title="Resumo in-app"
 >abstract="O gráfico “Resumo no aplicativo” ilustra o progresso das impressões e interações no aplicativo nas últimas 24 horas."
 
 A variável **[!UICONTROL Resumo no aplicativo]** O gráfico ilustra a progressão de suas impressões e interações no aplicativo nas últimas 24 horas, fornecendo uma visão geral abrangente do desempenho das mensagens no aplicativo.
@@ -291,11 +291,11 @@ A variável **[!UICONTROL Interações por tipo]** Os gráficos e a tabela forne
 
 Da sua campanha **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL Notificação por push]** A guia detalha as principais informações relativas à notificação por push enviada em sua campanha.
 
-### Notificações por push: desempenho do envio {#push-sending-performance}
+### Notificação por push: desempenho de envio {#push-sending-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_performance"
->title="Notificações por push: desempenho do envio"
+>title="Notificação por push: desempenho de envio"
 >abstract="O gráfico “Notificações por push: desempenho do envio” resume dados essenciais sobre notificações por push, como erros ou mensagens entregues nas últimas 24 horas."
 
 ![](assets/campain_push_live_sending_performance.png)
@@ -343,11 +343,11 @@ A variável **[!UICONTROL Notificação por push - Estatísticas]** A tabela for
 
 +++
 
-### Notificações por push: resumo de envio {#push-sending-summary}
+### Notificação por push: resumo de envio {#push-sending-summary}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_summary"
->title="Notificações por push: resumo de envio"
+>title="Notificação por push: resumo de envio"
 >abstract="O gráfico “Notificações por push: resumo do envio” exibe os dados disponíveis para notificações por push enviadas nas últimas 24 horas."
 
 A variável **[!UICONTROL Notificação por push - Estatísticas]** O gráfico oferece uma representação dinâmica, exibindo uma análise da atividade de notificações por push nas últimas 24 horas. Esta representação gráfica fornece um detalhamento abrangente das notificações por push enviadas.
@@ -366,31 +366,31 @@ A variável **[!UICONTROL Notificação por push - Estatísticas]** O gráfico o
 
 +++
 
-### Notificações por push: motivos de exclusão {#push-excluded}
+### Notificação por push: motivos de exclusão {#push-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_excluded_reasons"
->title="Notificações por push: motivos de exclusão"
+>title="Notificação por push: motivos de exclusão"
 >abstract="A tabela “Motivos de exclusão” e seus gráficos ilustram os vários fatores que levaram perfis de usuário excluídos do público-alvo a não receberem a mensagem nas últimas 24 horas."
 
 A variável **[!UICONTROL Motivos excluídos]** os gráficos e a tabela exibem os diferentes motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber suas notificações por push nas últimas 24 horas.
 
 Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos motivos de exclusão.
 
-### Notificações por push: motivos de erro {#push-error}
+### Notificação por push: motivos de erro {#push-error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_error_reasons"
->title="Notificações por push: motivos de erro"
+>title="Notificação por push: motivos de erro"
 >abstract="A tabela “Motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram nas últimas 24 horas durante o processo de envio."
 
 A variável **[!UICONTROL Motivos de erro]** A tabela e os gráficos fornecem a capacidade de identificar os erros específicos que ocorreram durante o processo de envio de suas notificações por push nas últimas 24 horas, oferecendo insights detalhados sobre quaisquer problemas encontrados ao longo do caminho.
 
-### Notificações por push: detalhamento por plataforma {#push-breakdown-platform}
+### Notificação por push: detalhamento por plataforma {#push-breakdown-platform}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_breakdown_platform"
->title="Notificações por push: detalhamento por plataforma"
+>title="Notificação por push: detalhamento por plataforma"
 >abstract="A tabela “Detalhamento por plataforma” e seus gráficos fornecem uma análise do sucesso das notificações por push nas últimas 24 horas baseada no sistema operacional do destinatário."
 
 A variável **[!UICONTROL Notificação por push - Detalhamento por plataforma]** O gráfico e a tabela fornecem uma análise detalhada do sucesso de suas notificações por push nas últimas 24 horas, oferecendo insights com base no sistema operacional do seu perfil. Esse detalhamento melhora a sua compreensão do desempenho das notificações por push em diferentes plataformas.
@@ -467,7 +467,7 @@ A variável **[!UICONTROL Desempenho do SMS por data]** O widget oferece uma vis
 
 +++
 
-### SMS - Motivos de erro {#sms-error-reasons}
+### SMS: motivos de erro {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -476,7 +476,7 @@ A variável **[!UICONTROL Desempenho do SMS por data]** O widget oferece uma vis
 
 A variável **[!UICONTROL Motivos excluídos]** Os gráficos e as tabelas permitem identificar os erros específicos que ocorreram durante o processo de envio de suas mensagens SMS nas últimas 24 horas, facilitando uma análise completa de todos os problemas encontrados.
 
-### SMS - Motivos excluídos {#sms-excluded-reasons}
+### SMS: motivos de exclusão {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
