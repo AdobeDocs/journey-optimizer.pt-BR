@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 27ef6f591fdf5d8175b79bbbf3f59fe65e44106f
+source-git-commit: 9eb0e37b0547a3eb00802711825ecff63ab5f4a6
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 20%
@@ -41,8 +41,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Agora você pode usar o novo recurso de mensagens na Web no aplicativo para exibir conteúdo personalizado diretamente nos sites, por meio de mensagens de sobreposição modal. Esse recurso permite que você interaja efetivamente com visitantes da Web, melhorando a interação do usuário, a retenção e as taxas de conversão.<br/><!--br/>
-Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<p>Agora você pode usar o novo recurso de mensagens na Web no aplicativo para exibir conteúdo personalizado diretamente nos sites, por meio de mensagens de sobreposição modal. Esse recurso permite que você interaja efetivamente com visitantes da Web, melhorando a interação do usuário, a retenção e as taxas de conversão.<br/><br/></p>
 <!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
@@ -58,8 +57,7 @@ Learn more in the <a href="../audience/computed-attributes.md">detailed document
 <tbody>
 <tr>
 <td>
-<p>Agora você pode criar regras de Limite de frequência que se aplicam aos canais de SMS e de Correspondência direta. Além disso, você pode definir regras de limite de frequência por tipo de comunicação.<br/><!--br/>
-Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<p>Agora você pode criar regras de Limite de frequência que se aplicam aos canais de SMS e de Correspondência direta. Além disso, você pode definir regras de limite de frequência por tipo de comunicação.<br/><br/></p>
 <!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
@@ -82,10 +80,11 @@ Anteriormente disponível como Beta, as seguintes melhorias agora estão dispon�
 
 **Jornadas**
 
-* A barra superior, nas telas do jornada, foi reorganizada para obter uma experiência aprimorada. Entre as diferentes atualizações, observe que o ícone de &quot;lápis&quot; que permite acessar as propriedades da jornada agora é exibido à esquerda da barra superior, ao lado do nome da jornada.
 * Agora você pode usar **datas personalizadas para filtrar as jornadas** inventário, além dos filtros de data predefinidos existentes. Isso permite refinar a lista ao exibir jornadas publicadas em uma data específica, em um mês específico, durante um ano inteiro ou dentro de intervalos de tempo especificados.
 * Agora você pode atualizar o cabeçalho &quot;content-type&quot; no **ações personalizadas**.
 * O atributo identityMap em stepEvents agora é pré-preenchido. A identidade principal é definida como &quot;primary = true&quot;.
+* A barra superior, nas telas do jornada, foi reorganizada para obter uma experiência aprimorada. Entre as diferentes atualizações, observe que o ícone de &quot;lápis&quot; que permite acessar as propriedades da jornada agora é exibido à esquerda da barra superior, ao lado do nome da jornada.
+
 
 **Canal SMS**
 
