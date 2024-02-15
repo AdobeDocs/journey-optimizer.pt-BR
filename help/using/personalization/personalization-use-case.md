@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, caso de uso, personalização
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
+source-git-commit: f6d56d1d23cca425f01e4c45532d500f3e2d4e2e
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '532'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,8 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
 * configurar um evento de pedido incluindo o número do pedido, o status e o nome do item. Consulte esta [seção](../event/about-events.md).
 * criar uma decisão, consulte esta [seção](../offers/offer-activities/create-offer-activities.md).
+
+➡️ [Descubra um caso de uso semelhante em vídeo](#video)
 
 ## Etapa 1 - Criar a jornada {#create-journey}
 
@@ -103,3 +105,10 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
    ![](assets/perso-uc19.png)
 
 1. Verifique se não há erros e publique a jornada.
+
+## Vídeo explicativo {#video}
+
+O vídeo abaixo mostra um caso de uso semelhante que utiliza dados contextuais de uma jornada para personalizar um email.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+
