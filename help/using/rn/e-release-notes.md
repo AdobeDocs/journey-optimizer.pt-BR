@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9eb0e37b0547a3eb00802711825ecff63ab5f4a6
+source-git-commit: d945e22af664876bf5f5403e7e466a1e383e9501
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 20%
+source-wordcount: '510'
+ht-degree: 19%
 
 ---
 
@@ -71,7 +71,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Públicos-alvo**
 
-* As variantes agora são compatíveis ao usar **seed lists**. Como cada perfil do público-alvo direcionado, os seed addresses recebem uma cópia de todas as variantes da mesma mensagem (como os diferentes tratamentos de um experimento de conteúdo).
+* **Seed lists** - As variantes agora são compatíveis ao usar **seed lists**. Como cada perfil do público-alvo direcionado, os seed addresses recebem uma cópia de todas as variantes da mesma mensagem (como os diferentes tratamentos de um experimento de conteúdo).
 
 Anteriormente disponível como Beta, as seguintes melhorias agora estão disponíveis para todos os usuários:
 
@@ -80,25 +80,25 @@ Anteriormente disponível como Beta, as seguintes melhorias agora estão dispon�
 
 **Jornadas**
 
-* Agora você pode usar **datas personalizadas para filtrar as jornadas** inventário, além dos filtros de data predefinidos existentes. Isso permite refinar a lista ao exibir jornadas publicadas em uma data específica, em um mês específico, durante um ano inteiro ou dentro de intervalos de tempo especificados.
-* Agora você pode atualizar o cabeçalho &quot;content-type&quot; no **ações personalizadas**.
-* O atributo identityMap em stepEvents agora é pré-preenchido. A identidade principal é definida como &quot;primary = true&quot;.
-* A barra superior, nas telas do jornada, foi reorganizada para obter uma experiência aprimorada. Entre as diferentes atualizações, observe que o ícone de &quot;lápis&quot; que permite acessar as propriedades da jornada agora é exibido à esquerda da barra superior, ao lado do nome da jornada.
+* **Filtrar suas jornadas** - Agora você pode usar **datas personalizadas para filtrar as jornadas** inventário, além dos filtros de data predefinidos existentes. Isso permite refinar a lista ao exibir jornadas publicadas em uma data específica, em um mês específico, durante um ano inteiro ou dentro de intervalos de tempo especificados.
+* **Ações personalizadas** - Agora você pode atualizar no cabeçalho &quot;content-type&quot; no **ações personalizadas**.
+* **Configuração** - O atributo identityMap em stepEvents agora é pré-preenchido. A identidade principal é definida como &quot;primary = true&quot;.
+* **Interface do usuário** - A barra superior, nas telas do jornada, foi reorganizada para obter uma experiência aprimorada. Entre as diferentes atualizações, observe que o ícone de &quot;lápis&quot; que permite acessar as propriedades da jornada agora é exibido à esquerda da barra superior, ao lado do nome da jornada.
 
 
 **Canal SMS**
 
-* Ao configurar seu canal SMS, agora é possível personalizar o **Palavras-chave de aceitação e recusa** de acordo com suas preferências. O Journey Optimizer aciona a resposta com base nessas palavras-chave especificadas.
+* **Palavras-chave de aceitação/recusa** - Ao configurar seu canal SMS, agora é possível personalizar o **Palavras-chave de aceitação e recusa** de acordo com suas preferências. O Journey Optimizer aciona a resposta com base nessas palavras-chave especificadas.
 
 **Campanhas**
 
-* Foram adicionadas informações na seção &quot;Solicitação de cURL&quot; do **Campanhas acionadas por API** que estão no estado &quot;Rascunho&quot;, para especificar que a solicitação de cURL de exemplo estará visível somente depois que a campanha for publicada e executada.
+* **Campanhas acionadas por API** - Foram adicionadas informações no **solicitação cURL** seção de **Campanhas acionadas por API** que estão em **Rascunho** para especificar que a solicitação cURL de amostra estará visível somente depois que a campanha for publicada e executada.
 
 **Gestão de decisões**
 
-* Agora você pode adicionar **várias regras de limite** para uma oferta. Isso permite aumentar o nível de controle sobre a maneira como as ofertas são enviadas.
+* **Regras de limite** - Agora você pode adicionar **várias regras de limite** para uma oferta. Isso permite aumentar o nível de controle sobre a maneira como as ofertas são enviadas.
 
 **Modelos de conteúdo**
 
-* A **exibição em miniatura** O agora está disponível para modelos e fragmentos de conteúdo para acesso visual aprimorado.
-* Os modelos de conteúdo agora estão disponíveis para **todos os canais**, exceto Web.
+* **Miniatura** - A **exibição em miniatura** O agora está disponível para modelos e fragmentos de conteúdo para acesso visual aprimorado.
+* **Canais** - Os modelos de conteúdo agora estão disponíveis para **todos os canais**, exceto Web.
