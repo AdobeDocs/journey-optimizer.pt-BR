@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 51d07df4c1db10ea2e1ff76dbd29607c32fbd859
+source-git-commit: 8d3dac39a0f4ea9982c5a8475d310ae0c3be68b1
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 19%
+source-wordcount: '538'
+ht-degree: 18%
 
 ---
 
@@ -77,6 +77,10 @@ Anteriormente disponível como Beta, as seguintes melhorias agora estão dispon�
 
 * Agora você pode direcionar **públicos carregados de um arquivo CSV** em jornadas e campanhas. [Saiba mais](../audience/about-audiences.md#segments-in-journey-optimizer)
 * Agora você pode direcionar **públicos-alvo criados por meio da composição do público-alvo** e aproveitar atributos de enriquecimento no Jornada. [Saiba mais](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>O uso de públicos-alvo e atributos da composição de público-alvo e do upload personalizado (arquivo CSV) está atualmente indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
 
 **Jornadas**
 
