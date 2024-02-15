@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 97967e8043df9b75d3120e4a7bfccff700f5d57f
-workflow-type: ht
-source-wordcount: '558'
-ht-degree: 100%
+source-git-commit: 27ef6f591fdf5d8175b79bbbf3f59fe65e44106f
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 20%
 
 ---
 
@@ -23,9 +23,9 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento. Links, telas e documentação atualizada são publicados nas [notas de versão](release-notes.md), na data de lançamento.
 
-## Notas de versão antecipadas de janeiro de 2024 {#e-2024}
+## Notas de versão antecipadas de fevereiro de 2024 {#e-2024}
 
-**Data de lançamento**: 20 a 31 de janeiro de 2024
+**Data de lançamento**: 20 a 21 de fevereiro de 2024
 
 ### Novos recursos{#e-features}
 
@@ -35,66 +35,71 @@ Essa versão traz os novos recursos listados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Atualizações de capacidade de entrega</strong><br/></th>
+<th><strong>Mensagens no aplicativo da Web</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Journey Optimizer agora é compatível com a tecnologia de autenticação DMARC.</p>
-<p>A partir de 1º de fevereiro de 2024, o Google e o Yahoo! exigirão um registro DMARC para qualquer domínio que você usar para enviar emails para eles. Certifique-se de que você tenha o registro DMARC configurado para todos os subdomínios que delegou ou está delegando à Adobe no Journey Optimizer.</p>
-<!--img src="assets/channel-reports.png"/-->
-<p>Para obter mais informações, consulte a <a href="../configuration/dmarc-record.md">documentação detalhada</a>.</p>
+<p>Agora você pode usar o novo recurso de mensagens na Web no aplicativo para exibir conteúdo personalizado diretamente nos sites, por meio de mensagens de sobreposição modal. Esse recurso permite que você interaja efetivamente com visitantes da Web, melhorando a interação do usuário, a retenção e as taxas de conversão.<br/><!--br/>
+Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Manuais de casos de uso </strong><br/></th>
+<th><strong>Regras comerciais (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Aproveite um catálogo de manuais de casos de uso específicos do setor na Real-Time CDP e no Journey Optimizer para abordar casos de uso comuns que você pode executar usando a Adobe Experience Platform e o Adobe Journey Optimizer.</p><p>Depois de escolher o manual de estratégia que melhor atende às suas necessidades, você pode habilitá-lo para gerar os ativos necessários que darão suporte ao seu caso de uso, como jornadas, mensagens, esquemas ou segmentos, e personalizá-los de acordo com o esquema para agilizar resultados relevantes.</p>
-<br/><img src="assets/do-not-localize/playbooks.gif"/>
-<!--<p>For more information, refer to the <a href="../start/playbooks.md">detailed documentation</a>.</p>-->
+<p>Agora você pode criar regras de Limite de frequência que se aplicam aos canais de SMS e de Correspondência direta. Além disso, você pode definir regras de limite de frequência por tipo de comunicação.<br/><!--br/>
+Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
 </table>
+
+
 
 ### Melhorias {#e-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
-**Relatórios**
+**Públicos-alvo**
 
-* **Novos dispositivos de detalhamento baseados em domínio**: novos dispositivos foram adicionados para aprimorar seus relatórios de campanha e de jornada. Os dispositivos **Motivos de rejeição por domínio**, **Enviado e entregue por domínio**, **Aberturas e cliques por domínio** e **Rejeição e erros por domínio** fornecem um detalhamento no nível do domínio para as principais métricas de entrega e rastreamento de email. [Saiba mais](../reports/channel-report.md)
+* As variantes agora são compatíveis ao usar **seed lists**. Como cada perfil do público-alvo direcionado, os seed addresses recebem uma cópia de todas as variantes da mesma mensagem (como os diferentes tratamentos de um experimento de conteúdo).
 
-**Canal SMS**
+Anteriormente disponível como Beta, as seguintes melhorias agora estão disponíveis para todos os usuários:
 
-* **Aceitação dupla**: o fluxo de trabalho de Aceitação dupla de SMS garante que os usuários e usuárias optem explicitamente por receber mensagens quando a solicitação for iniciada a partir de seus dispositivos. Os usuários e usuárias iniciam o processo de consentimento enviando uma mensagem SMS de entrada. Após confirmar o consentimento, uma mensagem de acompanhamento é enviada, solicitando a verificação final. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. [Saiba mais](../sms/sms-configuration.md#create-api)
-
-  Observe que isso se aplica somente aos provedores de SMS Sinch e Infobip.
+* Agora você pode direcionar **públicos carregados de um arquivo CSV** em jornadas e campanhas. [Saiba mais](../audience/about-audiences.md#segments-in-journey-optimizer)
+* Agora você pode direcionar **públicos-alvo criados por meio da composição do público-alvo** e aproveitar atributos de enriquecimento no Jornada. [Saiba mais](../building-journeys/read-audience.md)
 
 **Jornadas**
 
-* **Duração dos eventos de reação**: a duração máxima que você pode definir nos **Eventos de reação** agora é de 29 dias, em vez de 30. [Saiba mais](../building-journeys/reaction-events.md)
+* A barra superior, nas telas do jornada, foi reorganizada para obter uma experiência aprimorada. Entre as diferentes atualizações, observe que o ícone de &quot;lápis&quot; que permite acessar as propriedades da jornada agora é exibido à esquerda da barra superior, ao lado do nome da jornada.
+* Agora você pode usar **datas personalizadas para filtrar as jornadas** inventário, além dos filtros de data predefinidos existentes. Isso permite refinar a lista ao exibir jornadas publicadas em uma data específica, em um mês específico, durante um ano inteiro ou dentro de intervalos de tempo especificados.
+* Agora você pode atualizar o cabeçalho &quot;content-type&quot; no **ações personalizadas**.
+* O atributo identityMap em stepEvents agora é pré-preenchido. A identidade principal é definida como &quot;primary = true&quot;.
 
-<!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
+**Canal SMS**
 
-* **Público-alvo de leitura**: a atividade Público-alvo de leitura agora depende do conjunto de dados de instantâneo de perfil para segmentos em lote, o que é gerado apenas uma vez por dia depois que o processo em lote diário programado é executado, portanto, os dados serão atualizados até esse último processo em lote diário.
+* Ao configurar seu canal SMS, agora é possível personalizar o **Palavras-chave de aceitação e recusa** de acordo com suas preferências. O Journey Optimizer aciona a resposta com base nessas palavras-chave especificadas.
 
-* **Grupos de campos**: corrigido um problema que impedia que Grupos de campos fossem salvos em determinados casos.
+**Campanhas**
 
-* **Editor de expressão**: agora oferecemos suporte ao tipo de dados listObject em todas as expressões e em funções adicionais. [Mais informações](../building-journeys/expression/functions.md)
-
-**Regras de frequência**
-
-* **Limite de frequência semanal e diária**: agora você pode especificar o número máximo de mensagens a serem enviadas para um perfil de cliente em uma semana, em um dia ou em um mês. O limite de frequência é baseado no período do calendário selecionado e redefinido no início do período correspondente. [Saiba mais](../configuration/frequency-rules.md#create-new-rule)
+* Foram adicionadas informações na seção &quot;Solicitação de cURL&quot; do **Campanhas acionadas por API** que estão no estado &quot;Rascunho&quot;, para especificar que a solicitação de cURL de exemplo estará visível somente depois que a campanha for publicada e executada.
 
 **Gestão de decisões**
 
-* **Limite de frequência no Edge**: o contador de limite de frequência agora é atualizado e disponibilizado em uma decisão da API de decisão do Edge em menos de 3 segundos. 
+* Agora você pode adicionar **várias regras de limite** para uma oferta. Isso permite aumentar o nível de controle sobre a maneira como as ofertas são enviadas.
+
+**Modelos de conteúdo**
+
+* A **exibição em miniatura** O agora está disponível para modelos e fragmentos de conteúdo para acesso visual aprimorado.
+* Os modelos de conteúdo agora estão disponíveis para **todos os canais**, exceto Web.
