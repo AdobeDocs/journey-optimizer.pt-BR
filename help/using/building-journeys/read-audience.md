@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 6%
+source-wordcount: '1438'
+ht-degree: 8%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 6%
 Use o **Ler público-alvo** atividade para fazer com que todos os indivíduos de um público-alvo entrem na jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente.
 
 Vamos ver como exemplo o público-alvo &quot;Abertura e finalização do aplicativo Luma&quot; criado no [Criar públicos-alvo](../audience/about-audiences.md) caso de uso. Com a atividade Ler público-alvo, você pode fazer com que todos os indivíduos pertencentes a esse público-alvo insiram uma jornada e façam com que eles fluam para jornadas individualizadas que aproveitarão todas as funcionalidades da jornada: condições, temporizadores, eventos, ações.
+
+➡️ [Descubra este recurso no vídeo](#video)
 
 ## Leitura obrigatória {#must-read}
 
@@ -183,3 +185,9 @@ Por exemplo, depois de seguir uma experiência diferente durante dez dias em uma
 Após uma união, é possível dividir o público novamente executando uma segmentação ou exclusão.
 
 ![](assets/read-segment-audience3.png)
+
+## Vídeo explicativo {#video}
+
+Entenda os casos de uso aplicáveis para uma jornada acionada pela atividade de leitura de público-alvo. Saiba como criar jornadas baseadas em lote e quais práticas recomendadas devem ser aplicadas.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
