@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d945e22af664876bf5f5403e7e466a1e383e9501
+source-git-commit: 51d07df4c1db10ea2e1ff76dbd29607c32fbd859
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 19%
 
 ---
@@ -85,7 +85,6 @@ Anteriormente disponível como Beta, as seguintes melhorias agora estão dispon�
 * **Configuração** - O atributo identityMap em stepEvents agora é pré-preenchido. A identidade principal é definida como &quot;primary = true&quot;.
 * **Interface do usuário** - A barra superior, nas telas do jornada, foi reorganizada para obter uma experiência aprimorada. Entre as diferentes atualizações, observe que o ícone de &quot;lápis&quot; que permite acessar as propriedades da jornada agora é exibido à esquerda da barra superior, ao lado do nome da jornada.
 
-
 **Canal SMS**
 
 * **Palavras-chave de aceitação/recusa** - Ao configurar seu canal SMS, agora é possível personalizar o **Palavras-chave de aceitação e recusa** de acordo com suas preferências. O Journey Optimizer aciona a resposta com base nessas palavras-chave especificadas.
@@ -101,4 +100,4 @@ Anteriormente disponível como Beta, as seguintes melhorias agora estão dispon�
 **Modelos de conteúdo**
 
 * **Miniatura** - A **exibição em miniatura** O agora está disponível para modelos e fragmentos de conteúdo para acesso visual aprimorado.
-* **Canais** - Os modelos de conteúdo agora estão disponíveis para **todos os canais**, exceto Web.
+* **Modelos multicanais** - Os modelos de conteúdo agora estão disponíveis para **todos os canais**, exceto Web.
