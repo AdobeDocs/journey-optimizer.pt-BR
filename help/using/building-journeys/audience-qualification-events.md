@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: qualificação, eventos, público-alvo, jornada, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
+source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 8%
+source-wordcount: '1043'
+ht-degree: 11%
 
 ---
 
@@ -30,6 +30,8 @@ Essa atividade permite que sua jornada acompanhe as entradas e saídas dos perfi
 Digamos que você tenha um público-alvo de “cliente prata”. Com essa atividade, você pode fazer com que todos os novos clientes Silver insiram uma jornada e enviem a eles uma série de mensagens personalizadas.
 
 Esse tipo de evento pode ser posicionado como a primeira etapa ou posteriormente na jornada.
+
+➡️ [Descubra este recurso no vídeo](#video)
 
 ### Observações importantes{#important-notes-segment-qualification}
 
@@ -126,3 +128,9 @@ Coloque uma regra de limitação para fontes de dados e ações usadas em jornad
 Antes de usar o público em uma jornada de produção, sempre avalie primeiro o volume de indivíduos qualificados para esse público todos os dias. Para fazer isso, você pode verificar o **[!UICONTROL Público]** , abra o público-alvo e observe o **[!UICONTROL Perfis ao longo do tempo]** gráfico.
 
 ![](assets/segment-overload.png)
+
+## Vídeo explicativo {#video}
+
+Entenda os casos de uso aplicáveis para jornadas de qualificação de público-alvo. Saiba como criar uma jornada com qualificação de público-alvo e quais práticas recomendadas devem ser aplicadas.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
