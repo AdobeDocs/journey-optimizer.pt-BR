@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 00a1b3cab9f5d7060ab8db9e27a31a6afaede79e
+source-git-commit: 2afb293dfa772967417781e9a3ee6840db262594
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 18%
@@ -42,7 +42,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tr>
 <td>
 <p>Agora você pode usar o novo recurso de mensagens na Web no aplicativo para exibir conteúdo personalizado diretamente nos sites, por meio de mensagens de sobreposição modal. Esse recurso permite que você interaja efetivamente com visitantes da Web, melhorando a interação do usuário, a retenção e as taxas de conversão.<br/><br/></p>
-<!--img src="assets/do-not-localize/computed-attributes.gif"-->
+<img src="assets/do-not-localize/web_inapp.gif">
 </tr>
 </tbody>
 </table>
