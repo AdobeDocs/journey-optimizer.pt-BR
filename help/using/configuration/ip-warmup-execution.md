@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
 workflow-type: tm+mt
-source-wordcount: '2141'
+source-wordcount: '2152'
 ht-degree: 14%
 
 ---
@@ -104,7 +104,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >Você só pode excluir um grupo de domínio (padrão ou personalizado) que tenha sido adicionado à [Modelo de plano de aquecimento de IP](ip-warmup-plan.md#prepare-file). Se esse não for o caso, atualize o template com o grupo de domínio que deseja excluir e [fazer upload novamente do plano](#re-upload-plan).
+      >Você só pode excluir um grupo de domínio personalizado que foi adicionado ao [Modelo de plano de aquecimento de IP](ip-warmup-plan.md#prepare-file). Se esse não for o caso, atualize o modelo com o grupo de domínio personalizado que deseja excluir e [fazer upload novamente do plano](#re-upload-plan).
 
 1. Se necessário, você pode substituir a campanha usando o **[!UICONTROL Substituir campanha]** botão.
 
@@ -162,6 +162,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
    ![](assets/ip-warmup-plan-send-time.png)
 
 1. Opcionalmente, é possível definir uma janela de tempo durante a qual a campanha de aquecimento de IP possa ser executada em caso de atrasos no [avaliação do público](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. Para fazer isso, clique no ícone Propriedades na parte superior esquerda, ao lado do nome do plano, e use o **[!UICONTROL Tentar novamente o tempo de execução]** para selecionar uma duração - até 240 minutos (4 horas).
+
+   >[!NOTE]
+   >
+   >Ocorrem tentativas a cada 30 minutos até o final da janela de tempo definida.
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 

@@ -1,36 +1,37 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução a mensagens de texto (SMS/MMS)
+title: Introdução a mensagens de texto
 description: Saiba como criar e enviar mensagens de texto no Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 86%
+source-wordcount: '225'
+ht-degree: 51%
 
 ---
 
 # Introdução a mensagem de texto {#get-started-sms}
 
-Use o [!DNL Journey Optimizer] para enviar mensagens de texto (SMS/MMS) a clientes em seus dispositivos móveis. É possível criar, personalizar e visualizar mensagens em formato de texto no editor de SMS/MMS.
+Use o [!DNL Journey Optimizer] para enviar mensagens de texto aos clientes em seus dispositivos móveis. Você pode criar, personalizar e visualizar mensagens em formato de texto no editor de SMS.
 
-As mensagens de texto podem ser criadas e enviadas em uma jornada ou em uma campanha. Para MMS e SMS, use a ação SMS.
+As mensagens de texto podem ser criadas e enviadas em uma jornada ou em uma campanha. Para SMS, use a ação SMS.
 
-* Em uma **Jornada**. Crie uma jornada, adicione uma atividade de SMS, defina configurações básicas e navegue até o painel direito **[!UICONTROL Ações: SMS]** para criar o conteúdo da mensagem SMS/MMS. Saiba como criar uma jornada [nesta página](../building-journeys/journey-gs.md).
+* Em uma **Jornada**. Crie uma jornada, adicione uma atividade de SMS, defina configurações básicas e navegue até o **[!UICONTROL Ações: SMS]** painel direito para criar o conteúdo da mensagem SMS. Saiba como criar uma jornada [nesta página](../building-journeys/journey-gs.md).
 
-* Em uma **Campanha**. Crie uma campanha, selecione SMS como ação e defina configurações básicas, depois edite o conteúdo da mensagem SMS/MMS a ser enviada. Saiba como criar uma campanha [nesta página](../campaigns/create-campaign.md#configure).
+* Em uma **Campanha**. Crie uma campanha, selecione SMS como ação, defina configurações básicas e edite o conteúdo da mensagem para definir a mensagem SMS a ser enviada. Saiba como criar uma campanha [nesta página](../campaigns/create-campaign.md#configure).
 
-O Adobe Journey Optimizer envia mensagens de texto por meio de provedores de serviço SMS (ou provedores de gateway SMS). Antes de criar sua mensagem SMS/MMS, configure seu provedor de serviço para mensagens de texto com o Journey Optimizer. [Saiba mais](sms-configuration.md).
+O Adobe Journey Optimizer envia mensagens de texto por meio de provedores de serviço SMS (ou provedores de gateway SMS). Antes de criar sua mensagem SMS, configure seu provedor de serviços para mensagens de texto com o Journey Optimizer. [Saiba mais](sms-configuration.md).
 
->[!IMPORTANT]
+<!--
+>[!IMPORTANT] 
 >
-> O uso do Serviço de Mensagens Multimídia (MMS) com o Adobe Journey Optimizer só é possível com a integração com o **Sinch**.
-
+> Sending Multimedia Message Service (MMS) with Adobe Journey Optimizer is only supported when integrating with **Sinch**.
+-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

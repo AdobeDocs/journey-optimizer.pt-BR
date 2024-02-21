@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 110fd5f1055455ec040ab8de0b599a343e8de298
-workflow-type: ht
-source-wordcount: '4398'
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+workflow-type: tm+mt
+source-wordcount: '4346'
 ht-degree: 100%
 
 ---
@@ -43,23 +43,23 @@ Essa versão traz os novos recursos listados abaixo.
 </tbody>
 </table>
 
-
-
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Serviço de Mensagens Multimídia (MMS) em SMS</strong><br/></th>
+<th><strong>Multimedia Message Service (MMS) in SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos com clientes. Observe que esse recurso está disponível somente com o Sinch.</p>
+<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available with Sinch only.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>Para obter mais informações, consulte a <a href="../sms/create-sms.md#mms-content">documentação detalhada</a>.</p>
+<p>For more information, refer to the <a href="../sms/create-sms.md#mms-content">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>
+-->
 
 ### Melhorias {#oct-2023-improvements}
 

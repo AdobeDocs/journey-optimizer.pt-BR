@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '259'
 ht-degree: 3%
 
 ---
 
-# Verifique e envie sua mensagem de texto (SMS/MMS) {#send-sms}
+# Verifique e envie sua mensagem de texto {#send-sms}
 
 ## Pré-visualizar sua mensagem de texto {#preview-sms}
 
@@ -49,6 +49,6 @@ Quando a mensagem de texto estiver pronta, conclua a configuração de [jornada]
 **Tópicos relacionados**
 
 * [Configuração de canal de SMS](sms-configuration.md)
-* [Relatórios SMS/MMS](../reports/journey-global-report.md#sms-global)
+* [Relatórios SMSS](../reports/journey-global-report.md#sms-global)
 * [Criação de uma mensagem de texto](create-sms.md)
 * [Adicionar uma mensagem em uma jornada](../building-journeys/journeys-message.md)

@@ -5,15 +5,11 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 feature: Release Notes
 topic: Content Management
-role: User
-level: Beginner, Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2afb293dfa772967417781e9a3ee6840db262594
+source-git-commit: 1c65043965d1335297127f6cc6c23ec9a7893463
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 18%
+source-wordcount: '602'
+ht-degree: 16%
 
 ---
 
@@ -25,7 +21,7 @@ As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso 
 
 ## Notas de versão antecipadas de fevereiro de 2024 {#e-2024}
 
-**Data de lançamento**: 20 a 21 de fevereiro de 2024
+**Data de lançamento**: 21 a 22 de fevereiro de 2024
 
 ### Novos recursos{#e-features}
 
@@ -51,19 +47,17 @@ Essa versão traz os novos recursos listados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Regras comerciais (beta)</strong><br/></th>
+<th><strong>Regras de frequência para SMS e correspondência direta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode criar regras de Limite de frequência que se aplicam aos canais de SMS e de Correspondência direta. Além disso, você pode definir regras de limite de frequência por tipo de comunicação.<br/><br/></p>
-<!--img src="assets/do-not-localize/computed-attributes.gif"-->
+<p>Agora você pode criar regras de Frequência para canais de SMS e Mala direta. As regras de frequência excluem automaticamente perfis excessivamente solicitados de mensagens e ações quando o limite de frequência é atingido. <br/><br/></p>
+<img src="assets/do-not-localize/sms-dm-rules.gif">
 </tr>
 </tbody>
 </table>
-
-
 
 ### Melhorias {#e-improvements}
 
@@ -75,12 +69,14 @@ Esta versão vem com as melhorias listadas abaixo.
 
 Anteriormente disponível como Beta, as seguintes melhorias agora estão disponíveis para todos os usuários:
 
-* Agora você pode direcionar **públicos carregados de um arquivo CSV** em jornadas e campanhas. [Saiba mais](../audience/about-audiences.md#segments-in-journey-optimizer)
 * Agora você pode direcionar **públicos-alvo criados por meio da composição do público-alvo** e aproveitar atributos de enriquecimento no Jornada. [Saiba mais](../building-journeys/read-audience.md)
 
->[!AVAILABILITY]
->
->O uso de públicos-alvo e atributos da composição de público-alvo e do upload personalizado (arquivo CSV) está atualmente indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
+* Agora você pode direcionar **públicos carregados de um arquivo CSV** em jornadas e campanhas. [Saiba mais](../audience/about-audiences.md#segments-in-journey-optimizer)
+
+  >[!AVAILABILITY]
+  >
+  >* O uso de públicos-alvo e atributos da composição de público-alvo e do upload personalizado (arquivo CSV) está atualmente indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
+  >* Observe que o upload do público-alvo a partir de uma melhoria de arquivo CSV será lançado gradualmente ao longo de vários dias após o lançamento inicial. Embora alguns usuários tenham acesso imediato, outros podem enfrentar um atraso antes que ele seja disponibilizado em suas contas.
 
 **Jornadas**
 
@@ -95,7 +91,7 @@ Anteriormente disponível como Beta, as seguintes melhorias agora estão dispon�
 
 **Campanhas**
 
-* **Campanhas acionadas por API** - Foram adicionadas informações no **solicitação cURL** seção de **Campanhas acionadas por API** que estão em **Rascunho** para especificar que a solicitação cURL de amostra estará visível somente depois que a campanha for publicada e executada.
+* **Campanhas acionadas por API** - O código cURL gerado após a ativação de uma campanha acionada por API foi aprimorado. Agora, ela inclui todas as variáveis de personalização (perfil e contexto) usadas na mensagem.
 
 **Gestão de decisões**
 
@@ -104,4 +100,9 @@ Anteriormente disponível como Beta, as seguintes melhorias agora estão dispon�
 **Modelos de conteúdo**
 
 * **Miniatura** - A **exibição em miniatura** O agora está disponível para modelos e fragmentos de conteúdo para acesso visual aprimorado.
-* **Modelos multicanais** - Os modelos de conteúdo agora estão disponíveis para **todos os canais**, exceto Web.
+
+  >[!AVAILABILITY]
+  >
+  >Esse recurso é progressivamente implantado em ambientes de clientes a partir desta versão.
+
+* **Modelos multicanais** - Os modelos de conteúdo agora estão disponíveis para **todos os canais**, exceto Web. Para Email, agora é possível selecionar o tipo (HTML ou Conteúdo).

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0d010bbb46887546d524726606764b564c352064
-workflow-type: ht
-source-wordcount: '1960'
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+workflow-type: tm+mt
+source-wordcount: '1912'
 ht-degree: 100%
 
 ---
@@ -40,12 +40,14 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 * Não é possível adicionar um pré-cabeçalho a uma página de destino.
 * Não é possível selecionar a opção **Codifique você mesmo** ao criar uma página de destino principal.
 
-## Medidas de proteção de SMS {#sms-guardrails}
+<!--
+## SMS guardrails {#sms-guardrails}
 
-* O recurso MMS está disponível somente para o Sinch.
-* Os arquivos de mídia para MMS podem ser incluídos por meio de um URL compatível. Verifique se o arquivo de mídia foi enviado separadamente.
-* A sincronização de feedback da mensagem não está disponível no momento para MMS.
-* O gerenciamento de consentimento opera no nível do canal SMS para MMS.
+* MMS Capability is only available for Sinch.
+* Media files for MMS can be included through a supported URL. Please ensure that the media file is uploaded separately.
+* Message feedback syncing is not currently available for MMS.
+* Consent management operates at the SMS channel level for MMS.
+-->
 
 ## Medidas de proteção de fragmentos {#fragments-guardrails}
 
