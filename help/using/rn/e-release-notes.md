@@ -6,9 +6,9 @@ description: Notas de versão antecipadas do Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1c65043965d1335297127f6cc6c23ec9a7893463
+source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '609'
 ht-degree: 16%
 
 ---
@@ -80,8 +80,8 @@ Anteriormente disponível como Beta, as seguintes melhorias agora estão dispon�
 
 **Jornadas**
 
-* **Filtrar suas jornadas** - Agora você pode usar **datas personalizadas para filtrar as jornadas** inventário, além dos filtros de data predefinidos existentes. Isso permite refinar a lista ao exibir jornadas publicadas em uma data específica, em um mês específico, durante um ano inteiro ou dentro de intervalos de tempo especificados.
-* **Ações personalizadas** - Agora você pode atualizar no cabeçalho &quot;content-type&quot; no **ações personalizadas**.
+* **Filtrar suas jornadas** - Agora você pode usar **datas personalizadas para filtrar as jornadas** inventário, além dos filtros de data predefinidos existentes. Isso permite refinar a lista ao exibir jornadas criadas ou publicadas em uma data específica, em um mês específico, durante um ano inteiro ou dentro de intervalos de tempo especificados.
+* **Ações personalizadas** - Agora você pode atualizar o **tipo de conteúdo** cabeçalho. Este novo **tipo de conteúdo** O deve fazer referência ao conteúdo JSON.
 * **Configuração** - O atributo identityMap em stepEvents agora é pré-preenchido. A identidade principal é definida como &quot;primary = true&quot;.
 * **Interface do usuário** - A barra superior, nas telas do jornada, foi reorganizada para obter uma experiência aprimorada. Entre as diferentes atualizações, observe que o ícone de &quot;lápis&quot; que permite acessar as propriedades da jornada agora é exibido à esquerda da barra superior, ao lado do nome da jornada.
 
@@ -103,6 +103,6 @@ Anteriormente disponível como Beta, as seguintes melhorias agora estão dispon�
 
   >[!AVAILABILITY]
   >
-  >Esse recurso é progressivamente implantado em ambientes de clientes a partir desta versão.
+  >Esse recurso foi lançado com disponibilidade limitada (DL) para um pequeno conjunto de clientes.
 
 * **Modelos multicanais** - Os modelos de conteúdo agora estão disponíveis para **todos os canais**, exceto Web. Para Email, agora é possível selecionar o tipo (HTML ou Conteúdo).
