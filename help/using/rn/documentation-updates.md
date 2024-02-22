@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ce415308bd516eb51799890c76b4469558087ee
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '4604'
-ht-degree: 99%
+source-wordcount: '4729'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,13 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 ## Fevereiro de 2024 {#feb-2024}
 
 * Foram adicionadas informações sobre como personalizar as representações de ofertas com base nos dados de contexto. [Leia mais](../offers/offer-library/add-representations.md#context-data)
+* A página de medidas de proteção foi atualizada com uma observação sobre ações personalizadas que oferecem suporte ao formato JSON somente ao usar cargas de solicitação ou resposta. [Leia mais](../start/guardrails.md#custom-actions-g)
+* Foram adicionadas informações adicionais sobre o tipo de autenticação básica em fontes de dados externas. [Leia mais](../datasource/external-data-sources.md)
+* Foi aditada uma nota para diferenciar claramente a [Editor de expressão de Jornada](../building-journeys/expression/expressionadvanced.md) do [Editor de personalização](../personalization/functions/functions.md).
+* A lista de funções disponíveis no editor de expressão avançado foi atualizada. [Leia mais](../building-journeys/expression/functions.md)
+* A página na função Split foi atualizada. [Leia mais](../building-journeys/functions/functioninaudience.md)
+* Foram adicionadas informações sobre o impacto da aceitação ou recusa de notificações por push em mensagens no aplicativo. [Leia mais](../in-app/create-in-app.md)
+* A página Message frequency rules foi atualizada para refletir as opções de Duração disponíveis na interface do usuário (semanal ou mensal). [Leia mais](../configuration/frequency-rules.md)
 
 ## Janeiro de 2024 {#jan-2024}
 
@@ -321,7 +328,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Setembro de 2021 {#september-2021}
 
-* As seguintes páginas de função foram atualizadas: [sethours](../building-journeys/functions/functionsethours.md), [getListItem](../building-journeys/functions/functiongetlistitem.md), [inSegment](../building-journeys/functions/functioninsegment.md)
+* As seguintes páginas de função foram atualizadas: [sethours](../building-journeys/functions/functionsethours.md), [getListItem](../building-journeys/functions/functiongetlistitem.md), [inSegment](../building-journeys/functions/functioninaudience.md)
 
 * As seguintes funções foram adicionadas: [filtro](../building-journeys/functions/functionfilter.md), [interseção](../building-journeys/functions/functionintersect.md), [toDateOnly](../building-journeys/functions/functiontodateonly.md)
 

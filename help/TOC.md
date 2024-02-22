@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 21ce33b19693830972990c2c8bd5afe62b4c046d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 100%
+source-wordcount: '1736'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
       + Funções {#main-functions-journey}
          + [Funções principais](using/building-journeys/expression/functions.md)
          + Adobe Experience Platform {#adobe-experience-platform}
-            + [inSegment](using/building-journeys/functions/functioninsegment.md)
+            + [inAudience](using/building-journeys/functions/functioninaudience.md)
          + Agregação {#aggregation}
             + [avg](using/building-journeys/functions/functionavg.md)
             + [count](using/building-journeys/functions/functioncount.md)
@@ -205,8 +205,9 @@ ht-degree: 100%
 + Canal no aplicativo{#in-app}
    + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
    + [Pré-requisitos do canal no aplicativo](using/in-app/inapp-configuration.md)
-   + [Criação de uma mensagem no aplicativo](using/in-app/create-in-app.md)
-   + [Projete seu conteúdo no aplicativo](using/in-app/design-in-app.md)
+   + [Criar uma mensagem no aplicativo móvel](using/in-app/create-in-app.md)
+   + [Criar uma mensagem no aplicativo da Web](using/in-app/create-in-app-web.md)
+   + [Criar seu conteúdo no aplicativo](using/in-app/design-in-app.md)
    + [Verificação e envio da notificação no aplicativo](using/in-app/send-in-app.md)
 + Canal de notificação por push{#push}
    + [Introdução à notificação por push](using/push/get-started-push.md)

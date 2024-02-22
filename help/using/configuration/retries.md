@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: tentativas, rejeição, software, otimizador, erro
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 11%
+source-wordcount: '578'
+ht-degree: 9%
 
 ---
 
 # Tentativas {#retries}
 
-Quando uma mensagem de email falha devido a um erro **Rejeição leve** erro, várias tentativas são executadas. Cada erro incrementa um contador de erros. Quando esse contador atinge o limite, o endereço é adicionado à lista de supressão.
+Quando uma mensagem de email falha devido a um erro **Rejeição leve** para um determinado endereço, várias tentativas são executadas. Cada erro incrementa um contador de erros. Quando esse contador atinge o limite, o endereço de email é adicionado à lista de supressão.
 
 >[!NOTE]
 >
@@ -28,9 +28,17 @@ Na configuração padrão, o limite é definido como 5 erros.
 
 * Para o mesmo delivery, no quinto encontrou erro no [período de nova tentativa](#retry-duration), o endereço será suprimido.
 
-* Se houver diferentes deliveries e dois erros ocorrerem com pelo menos 24 horas de intervalo, o contador de erros será incrementado em cada erro e o endereço também será suprimido na quinta tentativa.
+* Se houver diferentes deliveries e dois erros ocorrerem com pelo menos 24 horas de intervalo, o contador de erros será incrementado em cada erro e o endereço também será suprimido na quinta tentativa. Os erros são cumulativos para cada endereço.
 
 Se um delivery for bem-sucedido após uma tentativa, o contador de erros do endereço será reinicializado.
+
+Por exemplo:
+
+* Você envia um email na segunda-feira com um período de nova tentativa definido como 24 horas. Falha na entrega do endereço emma.jones@mail.com. O email é repetido até três vezes e o interrompe ao atingir o período de 24 horas de nova tentativa.
+
+* Você envia outro email na quarta-feira. O emma.jones@mail.com, que já tem uma contagem de três erros, também é direcionado e novamente não é entregue - duas vezes. Dois outros erros são contabilizados.
+
+Desde que nenhuma outra entrega tenha sido tentada e bem-sucedida entre esses dois emails, o endereço emma.jones@mail.com é adicionado à lista de supressão devido ao impacto cumulativo de erros 3 + 2.
 
 ## Edição do limite de novas tentativas {#edit-retry-threshold}
 

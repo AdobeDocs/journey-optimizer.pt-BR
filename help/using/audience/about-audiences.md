@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: cdcce470481393c821d1c5df95639602510a690a
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 43%
+source-wordcount: '1087'
+ht-degree: 38%
 
 ---
 
@@ -39,15 +39,11 @@ Os públicos-alvo podem ser gerados usando métodos diferentes:
 
 ## Públicos-alvo no [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Você pode selecionar em campanhas e jornadas qualquer público da Adobe Experience Platform gerado usando [definições de segmento](../audience/creating-a-segment-definition.md).
+Você pode selecionar em campanhas e jornadas qualquer público gerado usando definições de segmento, importação de arquivo CSV ou fluxos de trabalho de composição.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Por enquanto, os públicos-alvo resultantes da [composições de público](../audience/get-started-audience-orchestration.md) pode ser direcionado somente em campanhas. Esse recurso está disponível como um beta privado para jornada.
->
->O uso de públicos [carregado de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} O em campanhas e jornadas está disponível no momento como um beta privado.
->
->Para obter mais informações, entre em contato com o seu representante da Adobe.
+>O uso de públicos-alvo e atributos da composição de público-alvo e do upload personalizado (arquivo CSV) está atualmente indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield. [Saiba como usar atributos de enriquecimento de públicos-alvo no Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 É possível aproveitar os públicos-alvo no **[!DNL Journey Optimizer]** de maneiras diferentes:
 
@@ -62,6 +58,18 @@ Você pode selecionar em campanhas e jornadas qualquer público da Adobe Experie
   Por exemplo, é possível fazer com que todos os novos clientes prata entrem em uma jornada e enviar-lhes mensagens. Para obter mais informações sobre como usar essa atividade, consulte [Saiba como configurar uma atividade de qualificação de público-alvo](../building-journeys/audience-qualification-events.md).
 
 * Use a atividade **Condição** em uma jornada para criar condições com base na associação de público-alvo. [Saiba como usar públicos-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
+
+## Usar atributos de enriquecimento de públicos-alvo no Journey Optimizer {#enrichment}
+
+Ao direcionar um público-alvo gerado usando fluxos de trabalho de composição ou upload personalizado (arquivo CSV), você pode aproveitar os atributos de enriquecimento desses públicos-alvo para criar sua jornada e personalizar suas mensagens.
+
+* Crie vários caminhos em uma jornada com base em regras que aproveitam os atributos de enriquecimento do público-alvo. Para fazer isso, direcione o público usando um [Ler público](../building-journeys/read-audience.md) atividade e, em seguida, criar regras em uma [Condição](../building-journeys/condition-activity.md) atividade com base nos atributos de enriquecimento do público-alvo.
+
+  ![](assets/audience-enrichment-attribute-condition.png){zoom=&quot;yes&quot;}
+
+* Personalize suas mensagens em jornadas ou campanhas adicionando atributos de enriquecimento do público-alvo direcionado no editor de expressão. [Saiba como trabalhar com o editor de expressão](../personalization/personalization-build-expressions.md)
+
+  ![](assets/audience-enrichment-attribute-perso.png){zoom=&quot;yes&quot;}
 
 ## Métodos de avaliação de público-alvo {#evaluation-method-in-journey-optimizer}
 

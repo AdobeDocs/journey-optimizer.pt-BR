@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: seed list, seed list, seed, configuração
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 21%
+source-wordcount: '936'
+ht-degree: 22%
 
 ---
 
@@ -23,8 +23,6 @@ Seed lists em [!DNL Journey Optimizer] permite incluir automaticamente seed addr
 >[!CAUTION]
 >
 >Atualmente, esse recurso se aplica somente ao canal de email.
->
->As variantes não são compatíveis no momento. Como cada perfil do público-alvo direcionado, os seed addresses recebem uma única cópia de cada mensagem, mas não todas as variantes da mesma mensagem (como os diferentes tratamentos de um [experimento de conteúdo](../campaigns/get-started-experiment.md)).
 
 Seed addresses são usados para direcionar destinatários que não correspondem aos critérios de destino definidos. Dessa forma, os recipients que estiverem fora do escopo de entrega podem recebê-lo, como qualquer outro recipient target receberia.
 
@@ -47,6 +45,10 @@ Os seed addresses não são perfis reais nem perfis de teste, pois não incluem 
 +++
 
 * Outro motivo para usar seed lists é a proteção da sua lista de endereçamento. Inserir seed addresses em sua lista de mala direta permite que você seja notado, se ela estiver sendo usada por um terceiro, pois esses seed addresses receberão as entregas enviadas à sua lista de mala direta.
+
+>[!NOTE]
+>
+>As variantes são compatíveis. Os seed addresses recebem uma única cópia de cada variante da mesma mensagem (como os diferentes tratamentos de uma [experimento de conteúdo](../campaigns/get-started-experiment.md)).
 
 ## Acessar as listas de propagação {#access-seed-lists}
 
@@ -128,7 +130,7 @@ Agora que sua lista de seeds foi criada, você pode usá-la em qualquer campanha
 
 >[!CAUTION]
 >
->As mensagens enviadas para seed addresses não são incluídas nos relatórios.
+>As mensagens enviadas para seed addresses não são incluídas nos relatórios do jornada ou da campanha.
 
 1. Crie uma superfície e selecione o **[!UICONTROL E-mail]** canal. [Saiba mais](../email/email-settings.md)
 
@@ -154,4 +156,4 @@ Agora, sempre que uma mensagem de email for enviada aos seus clientes por meio d
 
 >[!NOTE]
 >
->Para o jornada, o delivery de email é enviado aos seed addresses somente na primeira execução da jornada.
+>Para jornada, o delivery de email é enviado aos seed addresses somente na primeira execução da jornada.

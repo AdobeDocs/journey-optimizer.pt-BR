@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0d010bbb46887546d524726606764b564c352064
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 17%
+source-wordcount: '1451'
+ht-degree: 22%
 
 ---
 
@@ -35,12 +35,14 @@ Em parâmetros de ação personalizados, você pode passar uma coleção simples
 
 Observe também que os parâmetros de ações personalizadas têm um formato esperado (por exemplo: sequência, decimal etc.). Você deve ter cuidado para respeitar esses formatos esperados. Saiba mais nesta página [caso de uso](../building-journeys/collections.md).
 
+As ações personalizadas oferecem suporte ao formato JSON somente ao usar [solicitação](../action/about-custom-action-configuration.md#define-the-message-parameters) ou [cargas de resposta](../action/action-response.md).
+
 ## Práticas recomendadas{#custom-action-enhancements-best-practices}
 
-Ao escolher um endpoint para direcionar usando uma ação personalizada, verifique se:
+Ao escolher um ponto de acesso para destino usando uma ação personalizada, verifique se:
 
-* Esse endpoint pode suportar a taxa de transferência da jornada, usando configurações do [API de limitação](../configuration/throttling.md) ou [API de limite](../configuration/capping.md) para limitá-lo. Tenha cuidado para que uma configuração de limitação não possa ficar abaixo de 200 TPS. Qualquer terminal direcionado precisará oferecer suporte a pelo menos 200 TPS.
-* Esse endpoint precisa ter um tempo de resposta o mais baixo possível. Dependendo do throughput esperado, ter um tempo de resposta alto pode afetar o throughput real.
+* Esse ponto de acesso pode suportar a taxa de transferência da jornada, usando configurações da [API de limitação](../configuration/throttling.md) ou da [API de limite](../configuration/capping.md) para limitá-la. Tenha cuidado, pois uma configuração de limitação não pode ficar abaixo de 200 TPS. Qualquer ponto de acesso como destino precisará oferecer suporte a pelo menos 200 TPS.
+* Esse ponto de acesso precisa ter um tempo de resposta o mais baixo possível. Dependendo da taxa de transferência esperada, ter um tempo de resposta alto pode afetar a taxa de transferência real.
 
 Um limite máximo de 300.000 chamadas em um minuto é definido para todas as ações personalizadas. Além disso, o limite padrão é executado por host e por sandbox. Por exemplo, em uma sandbox, se você tiver dois pontos de acesso com o mesmo host (por exemplo: `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), o limite será aplicado a todos os pontos de acesso no host adobe.com. &quot;endpoint1&quot; e &quot;endpoint2&quot; compartilharão a mesma configuração de limitação e fazer com que um endpoint atinja o limite terá impacto no outro endpoint.
 
@@ -117,7 +119,9 @@ Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UIC
 
 1. Defina os cabeçalhos e parâmetros de consulta:
 
-   * No **[!UICONTROL Cabeçalhos]** clique em **[!UICONTROL Adicionar um campo de cabeçalho]** para definir os cabeçalhos HTTP da mensagem de solicitação a ser enviada ao serviço externo. A variável **[!UICONTROL Tipo de conteúdo]** e **[!UICONTROL Conjunto de caracteres]** os campos de cabeçalho são definidos por padrão. Não é possível modificar ou excluir esses campos.
+   * No **[!UICONTROL Cabeçalhos]** clique em **[!UICONTROL Adicionar um campo de cabeçalho]** para definir os cabeçalhos HTTP da mensagem de solicitação a ser enviada ao serviço externo. A variável **[!UICONTROL Tipo de conteúdo]** e **[!UICONTROL Conjunto de caracteres]** os campos de cabeçalho são definidos por padrão. Não é possível excluir esses campos. Somente o **[!UICONTROL Tipo de conteúdo]** cabeçalho pode ser modificado. Seu valor deve respeitar o formato JSON. Este é o valor padrão:
+
+   ![](assets/content-type-header.png)
 
    * No **[!UICONTROL Parâmetros de consulta]** clique em **[!UICONTROL Adicionar um campo de parâmetro de Query]** para definir os parâmetros que deseja adicionar ao URL.
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 09142fa8d8c48d9ba56ef03e6a97b0be3da45916
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1119'
 ht-degree: 10%
 
 ---
@@ -20,7 +20,9 @@ ht-degree: 10%
 
 [!DNL Journey Optimizer] permite controlar a frequência com que os usuários receberão uma mensagem ou entrarão em uma jornada definindo regras entre canais que excluirão automaticamente perfis excessivamente solicitados de mensagens e ações.
 
-Por exemplo, para uma marca, uma regra poderia ser não enviar mais de 3 mensagens de marketing por mês para seus clientes. Para fazer isso, você pode usar uma regra de frequência que limitará o número de mensagens enviadas com base em um ou mais canais durante um período de calendário mensal.
+Por exemplo, para uma marca, uma regra poderia ser não enviar mais de 4 mensagens de marketing por mês para seus clientes. Para fazer isso, você pode usar uma regra de frequência que limitará o número de mensagens enviadas com base em um ou mais canais durante um período de calendário mensal.
+
+![](assets/do-not-localize/sms-dm-rules.gif)
 
 >[!NOTE]
 >
@@ -69,21 +71,17 @@ Para criar uma nova regra, siga as etapas abaixo.
 
    ![](assets/message-rules-create.png)
 
-1. Defina o nome da regra.
-
-   <!--![](assets/message-rules-details.png)-->
-   ![](assets/message-rules-details-temp.png)
-
-1. Selecione a categoria de regra de mensagem.
+1. Defina o nome da regra e selecione a categoria de regra de mensagem.
 
    >[!NOTE]
    >
    >Atualmente, somente o **[!UICONTROL Marketing]** categoria está disponível.
 
+   <!--![](assets/message-rules-details.png)-->
+
 1. No **[!UICONTROL Duração]** selecione um intervalo de tempo para a limitação a ser aplicada.
 
-   <!--![](assets/message-rules-capping-duration.png)-->
-   ![](assets/message-rules-capping-duration-temp.png)
+   ![](assets/message-rules-capping-duration.png)
 
    O limite de frequência se baseia no período de calendário selecionado. Ela é redefinida no início do intervalo de tempo correspondente.
 
@@ -101,7 +99,7 @@ Para criar uma nova regra, siga as etapas abaixo.
 
    <!--![](assets/message-rules-capping.png)-->
 
-1. Selecione o canal que deseja usar para esta regra: **[!UICONTROL E-mail]** ou **[!UICONTROL Notificação por push]**.
+1. Selecione o canal que deseja usar para esta regra: **[!UICONTROL E-mail]**, **[!UICONTROL Notificação por push]**, **[!UICONTROL SMS]** ou **[!UICONTROL Correspondência direta]**.
 
    ![](assets/message-rules-channels.png)
 
@@ -173,7 +171,7 @@ Para aplicar uma regra de frequência a uma mensagem, siga as etapas abaixo.
 
 1. [Criar uma regra](#create-new-rule) chamado *Limite de marketing geral*:
 
-   * Selecione Canais de email e push.
+   * Selecione todos os canais.
    * Defina o limite para 12 mensais.
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -187,9 +185,26 @@ Para aplicar uma regra de frequência a uma mensagem, siga as etapas abaixo.
 
 1. Salvar e [ativar](#activate-rule) a regra.
 
-1. Crie um email e selecione o **[!UICONTROL Marketing]** categoria para essa mensagem. [Saiba mais](../email/create-email.md)
+1. [Criar uma mensagem](../building-journeys/journeys-message.md) para cada canal por meio do qual deseja se comunicar e selecione o **[!UICONTROL Marketing]** categoria para cada mensagem. [Saiba como aplicar uma regra de frequência](#apply-frequency-rule)
 
-1. Crie uma notificação por push e selecione a **[!UICONTROL Marketing]** categoria para essa mensagem. [Saiba mais](../push/create-push.md)
+   ![](assets/journey-message-category.png)
+
+
+<!--
+Learn how to create a message for the different channels in the following sections:
+* [Create an email](../email/create-email.md)
+* [Create a push notification](../push/create-push.md)
+* [Create an SMS](../sms/create-sms.md)
+* [Create a direct mail](../direct-mail/create-direct-mail.md)
+
+Create an email and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../email/create-email.md)
+
+Create a push notification and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../push/create-push.md)
+
+Create an SMS and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../sms/create-sms.md)
+
+Create a direct mail and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../direct-mail/create-direct-mail.md)
+-->
 
 Nesse cenário, um perfil individual:
 * pode receber até 12 mensagens de marketing por mês;

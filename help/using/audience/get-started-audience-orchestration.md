@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 67%
 
 ---
 
@@ -28,17 +28,17 @@ Estas documentações fornecem informações detalhadas sobre como trabalhar com
 
 >[!ENDSHADEBOX]
 
-A composição do público-alvo permite criar **workflows de composição**, em que é possível combinar públicos-alvo existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos-alvo.
+A composição do público-alvo permite criar **fluxos de trabalho de composição**, em que é possível combinar públicos-alvo já existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos-alvo.
 
-Depois de concluído, os **públicos-alvo resultantes** são salvos na Adobe Experience Platform junto com os públicos-alvo existentes e podem ser **aproveitados em campanhas** para direcionar clientes. [Saiba como trabalhar com campanhas](../campaigns/get-started-with-campaigns.md)
+Depois de concluído, o **públicos resultantes** são salvas no Adobe Experience Platform, juntamente com os públicos-alvo existentes, e podem ser aproveitadas em campanhas e jornadas do Journey Optimizer para clientes-alvo. [Saiba como direcionar públicos-alvo no Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Por enquanto, o uso de públicos-alvo resultantes de fluxos de trabalho de composição em jornadas está disponível como um beta privado. Para obter mais informações, entre em contato com o seu representante da Adobe.
+>O uso de públicos-alvo e atributos da Composição de público-alvo e Upload personalizado está indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield. [Saiba como usar atributos de enriquecimento de públicos-alvo no Journey Optimizer](../audience/about-audiences.md#enrichment)
 >
->As campanhas no Adobe Journey Optimizer ainda não estão integradas ao serviço de aplicação de políticas. Portanto, os rótulos de uso de dados que você aplicar aos atributos de público-alvo não serão aplicados às campanhas do Journey Optimizer.
+>Os atributos de enriquecimento ainda não estão integrados ao serviço de aplicação de políticas. Portanto, quaisquer rótulos de uso de dados que você aplicar aos atributos de enriquecimento não serão aplicados em campanhas ou jornadas do Journey Optimizer.
 
 A composição de público-alvo é acessível no menu **[!UICONTROL Públicos-alvo]** do Adobe Journey Optimizer:
 

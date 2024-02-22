@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 34%
+source-wordcount: '969'
+ht-degree: 32%
 
 ---
 
@@ -126,9 +126,9 @@ Clique em **[!UICONTROL Selecionar público]** botão para exibir a lista de pú
 
 >[!IMPORTANT]
 >
->Por enquanto, o uso de públicos-alvo [importado de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) O em campanhas do está disponível como um beta privado. Para obter mais informações, entre em contato com o seu representante da Adobe.
+>O uso de públicos-alvo e atributos de [composição de público](../audience/get-started-audience-orchestration.md) e [upload personalizado (arquivo CSV)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) O não está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield. [Saiba como usar atributos de enriquecimento de públicos-alvo no Journey Optimizer](../audience/about-audiences.md#enrichment)
 >
->Para campanhas acionadas por API, o público-alvo precisa ser definido por meio de uma chamada de API. [Saiba mais](api-triggered-campaigns.md)
+>Para campanhas acionadas por API, o público-alvo precisa ser definido por meio de uma chamada de API.
 
 No **[!UICONTROL Namespace de identidade]** escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado.
 

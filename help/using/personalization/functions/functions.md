@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1854'
 ht-degree: 2%
 
 ---
@@ -17,13 +17,19 @@ ht-degree: 2%
 
 Uso [!DNL Journey Optimizer] linguagem de modelo para executar operações em dados, como cálculos, formatação ou conversões de dados, condições e manipulá-los no contexto de personalização. Saiba mais sobre as diretrizes da sintaxe de personalização no [esta página](../personalization-syntax.md).
 
+
+
 ➡️ [Saiba como usar funções auxiliares neste vídeo](#video)
 
-A linguagem de modelo é utilizada em funções auxiliares disponíveis na lista suspensa de personalização do Editor de expressão, conforme abaixo:
+A linguagem de modelo é aproveitada em funções auxiliares disponíveis na lista suspensa de personalização do Editor de personalização, conforme abaixo:
 
 ![](../assets/access-helper-functions.png)
 
-No [!DNL Journey Optimizer] No Editor de expressão, as funções auxiliares são agrupadas em três categorias: [Funções](#functions-helper), [Auxiliares](#helper-helper) e [Operadores](#operators-helper).
+>[!NOTE]
+>
+>As funções e os recursos disponíveis no Editor de personalização diferem daqueles disponíveis no [Editor de expressão avançado de Jornada](../../building-journeys/expression/expressionadvanced.md).
+
+No [!DNL Journey Optimizer] Editor de personalização, as funções auxiliares são agrupadas em três categorias: [Funções](#functions-helper), [Auxiliares](#helper-helper) e [Operadores](#operators-helper).
 
 Selecione uma categoria para acessar subcategorias e funções.
 

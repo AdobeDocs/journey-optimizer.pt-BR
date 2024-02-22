@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fontes, dados, configuração, conexão, terceiros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1526'
 ht-degree: 64%
 
 ---
@@ -69,7 +69,15 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
 
    ![](assets/journey27.png)
 
-1. Configure a autenticação dependendo da configuração do serviço externo: **[!UICONTROL Sem autenticação]**, **[!UICONTROL Básico]**, **[!UICONTROL Personalizado]** ou **[!UICONTROL Chave de API]**. Para obter mais informações sobre o modo de autenticação personalizado, consulte [nesta seção](../datasource/external-data-sources.md#custom-authentication-mode). Em nosso exemplo, escolhemos:
+1. Configure a autenticação dependendo da configuração do serviço externo: **[!UICONTROL Sem autenticação]**, **[!UICONTROL Básico]**, **[!UICONTROL Personalizado]** ou **[!UICONTROL Chave de API]**.
+
+   Para o modo de autenticação básico, é necessário preencher um nome de usuário e uma senha.
+
+   >[!NOTE]
+   >
+   >Quando a chamada de autenticação for realizada, a variável `<username>:<password>` A string, codificada em base64, é adicionada no cabeçalho Autenticação.
+
+   Para obter mais informações sobre o modo de autenticação personalizado, consulte [nesta seção](../datasource/external-data-sources.md#custom-authentication-mode). No nosso exemplo, escolhemos o modo de autenticação da chave de API:
 
    * **[!UICONTROL Tipo]**: &quot;Chave de API&quot;
    * **[!UICONTROL Nome]**: &quot;appid&quot; (este é o nome do parâmetro da chave de API)

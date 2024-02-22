@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: time zone, properties, jornada, condition, time, date, custom
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 2%
 
 ---
@@ -32,11 +32,7 @@ Esse fuso horário será usado para cada atividade da jornada que contém um ele
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-Você pode selecionar um fuso horário ou optar por usar o fuso horário definido no perfil do usuário.
-
->[!NOTE]
->
->O fuso horário do perfil funciona com a variável **timeZone** campo existente no **Detalhes de preferência** grupo de campos.
+É possível selecionar um [fuso horário fixo](#fixed-timezone) ou opte por usar o fuso horário [definido no perfil do usuário](#timezone-from-profiles).
 
 ## Definir um fuso horário fixo {#fixed-timezone}
 
@@ -53,6 +49,10 @@ Se o evento de entrada da jornada tiver um namespace, o que significa que a jorn
 Se um fuso horário tiver sido definido para um perfil, ele será recuperado e usado pela jornada. Caso contrário, o fuso horário usado será aquele definido no campo timezone.
 
 ![](assets/journey73.png)
+
+>[!NOTE]
+>
+>O fuso horário do perfil funciona com a variável **timeZone** campo existente no **Detalhes de preferência** grupo de campos.
 
 ## Usar fusos horários em expressões {#timezone-in-expressions}
 

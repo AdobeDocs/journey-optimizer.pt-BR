@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: permissões, criação, mensagens
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '755'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ As permissões integradas representam as diferentes permissões que podem ser at
 | Gerenciamento de identidade | **[!DNL Manage identity namespaces]**: ler, criar e editar namespaces de identidade.</br>**[!DNL View identity namespaces]**: acesso somente leitura a namespaces de identidade.</br>**[!DNL Manage identity settings]**: leia, crie e edite configurações de identidade.</br>**[!DNL View identity settings]**: acesso somente leitura às configurações de identidade.</br>**[!DNL View identity graph]**: acesso somente leitura para gráficos de identidade. |
 | Biblioteca da Journey Optimizer | **[!DNL Manage Library Items]**: adicione e exclua expressões salvas na variável [!DNL Journey Optimizer] Biblioteca.</br>**[!DNL Simulate content]**: acesso à opção Simular conteúdo para pré-visualização e prova. |
 | Regras do Journey Optimizer | **[!DNL View frequency rules]**: acesso somente leitura às regras.</br>**[!DNL Manage frequency rules]**: acessar, criar, editar ou excluir regras de frequência de mensagem. |
-| Jornadas | **[!DNL Manage journeys]**: leia, crie, edite e exclua jornadas.</br>**[!DNL View journeys]**: acesso somente leitura a jornadas.</br>**[!DNL Publish journeys]**: publicar jornadas.</br>**[!DNL Manage journeys events, data sources and actions]**: ler, criar, editar e excluir eventos, fontes ou ações.</br>**[!DNL View journeys events, data sources and actions]**: acesso somente leitura a eventos do jornada, ações personalizadas do jornada e fontes de dados do jornada.</br>**[!DNL View journeys report]**: leia e edite o relatório de jornadas.</br> |
+| Jornadas | **[!DNL Manage journeys]**: leia, crie, edite e exclua jornadas. Para acessar e gerenciar jornadas, combine essa permissão com **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL View journeys]**: acesso somente leitura a jornadas.</br>**[!DNL Publish journeys]**: publicar jornadas.</br>**[!DNL Manage journeys events, data sources and actions]**: ler, criar, editar e excluir eventos, fontes ou ações.</br>**[!DNL View journeys events, data sources and actions]**: acesso somente leitura a eventos do jornada, ações personalizadas do jornada e fontes de dados do jornada.</br>**[!DNL View journeys report]**: leia e edite o relatório de jornadas.</br> |
 | Gerenciamento de perfis | **[!DNL Manage profiles]**: leia, crie, edite e exclua conjuntos de dados usados para perfis de clientes. Acesso somente leitura aos perfis disponíveis.</br>**[!DNL View profiles]**: acesso somente leitura aos perfis disponíveis.</br>**[!DNL Export audience segments]**: exportar um segmento de público avaliado para um conjunto de dados.</br>**[!DNL View segments]**: acesso somente leitura aos públicos-alvo disponíveis.</br>**[!DNL Evaluate a segment to an audience]**: gere perfis para um público-alvo avaliando uma definição de segmento.</br>**[!DNL Manage merge policies]**: ler, criar, editar e excluir políticas de mesclagem.</br>**[!DNL View merge policies]**: acesso somente leitura às políticas de mesclagem disponíveis. |
 | Serviço de consulta | **[!DNL Manage queries]**: leia, crie, edite e exclua consultas SQL estruturadas para dados da Platform.</br>**[!DNL Manage query service integration]**: crie, atualize e exclua credenciais sem expiração para acesso ao Serviço de consulta. |
 | Administração de sandbox | **[!DNL Manage sandboxes]**: ler, criar, editar e excluir sandboxes.</br>**[!DNL View sandboxes]**: acesso somente leitura para sandboxes que pertencem à sua organização.</br>**[!DNL Reset sandboxes]**: capacidade de redefinir uma sandbox.</br>**[!DNL Export sandboxes]**: capacidade de exportar uma sandbox.</br>**[!DNL Manage packages]**: leia, crie, edite e exclua pacotes. |

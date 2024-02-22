@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 29%
+source-wordcount: '1521'
+ht-degree: 28%
 
 ---
 
@@ -151,6 +151,7 @@ Observe as seguintes limitações ao trabalhar com o **[!UICONTROL Enriquecer]**
 * **Conjuntos de dados** para enriquecimento deve ser do tipo de registro (em vez do tipo de evento), e não podem ser um conjunto de dados do sistema, nem podem ser marcados para perfil. Eles devem ter menos de 1 GB.
 * **O enriquecimento suporta uma associação 1:1**. Isso significa que se as chaves de junção tiverem mais de uma correspondência no conjunto de dados de enriquecimento, o sistema selecionará uma das correspondências e a usará para a associação 1:1.
 * **Os públicos-alvo podem ser ativados em destinos RTCDP**, mas seus atributos de enriquecimento, se houver, não poderão.
+* Os atributos de enriquecimento ainda não estão integrados ao serviço de aplicação de políticas. Portanto, quaisquer rótulos de uso de dados que você aplicar aos atributos de enriquecimento não serão aplicados em campanhas ou jornadas do Journey Optimizer.
 
 Para configurar a atividade, siga estas etapas:
 

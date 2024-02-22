@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1803'
 ht-degree: 17%
 
 ---
@@ -89,7 +89,7 @@ Estas são as várias operações de filtragem que você pode executar:
 
 * Use o **[!UICONTROL Filtros de publicação]** para selecionar uma data de publicação ou um usuário. Você pode optar, por exemplo, por exibir as versões mais recentes de jornadas ao vivo que foram publicadas ontem.
 
-  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+  Para filtrar jornadas com base em um intervalo de datas específico, selecione **[!UICONTROL Personalizado]** do **[!UICONTROL Publicado]** lista suspensa.
 
 Além disso, nos painéis de configuração Evento, Fonte de dados e Ação, a variável **[!UICONTROL Usado em]** campo exibe o número de jornadas que usam esse evento, grupo de campos ou ação específica. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas correspondentes.
 
@@ -130,7 +130,7 @@ Estas são as etapas principais para enviar mensagens por meio do jornada:
 >title="Propriedades da jornada"
 >abstract="Essa seção mostra as propriedades da jornada. Por padrão, os parâmetros somente leitura ficam ocultos. As configurações disponíveis dependem do status da jornada, das permissões e da configuração do produto."
 
-Clique no ícone de lápis, na parte superior direita, para acessar as propriedades da jornada.
+Clique no ícone de lápis, ao lado do nome da jornada, para acessar suas propriedades.
 
 É possível alterar o nome da jornada, adicionar uma descrição, permitir a reentrada, escolher datas de início e término e, como usuário administrador, definir um **[!UICONTROL Tempo limite e erro]** duração. Você também pode atribuir Tags unificadas do Adobe Experience Platform à sua jornada. Isso permite classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
 
