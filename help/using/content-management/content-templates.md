@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 9%
@@ -41,7 +41,7 @@ Você também pode criar e gerenciar modelos de conteúdo usando APIs. Para obte
 
 Para acessar a lista de modelos de conteúdo, selecione **[!UICONTROL Gestão de conteúdo]** > **[!UICONTROL Modelos de conteúdo]** no menu esquerdo.
 
-![](../email/assets/content-template-list.png)
+![](assets/content-template-list.png)
 
 Todos os modelos criados na sandbox atual - de uma jornada ou campanha usando o **[!UICONTROL Salvar como modelo]** opção, seja a partir da variável **[!UICONTROL Modelos de conteúdo]** - são exibidos. [Saiba como criar modelos](#create-content-templates)
 
@@ -67,7 +67,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
 * Para editar o conteúdo de um modelo, clique no item desejado na lista e selecione **[!UICONTROL Editar conteúdo]**.
 
-  ![](../email/assets/content-template-edit.png)
+  ![](assets/content-template-edit.png)
 
 * Para excluir um modelo, selecione a variável **[!UICONTROL Mais ações]** ao lado do modelo desejado e selecione **[!UICONTROL Excluir]**.
 
@@ -202,7 +202,7 @@ Você pode testar a renderização de alguns de seus modelos de email, sejam ele
 
 1. Clique em **[!UICONTROL Simular conteúdo]** e selecione um perfil de teste para verificar a renderização. [Saiba mais](../content-management/preview-test.md)
 
-   ![](../email/assets/content-template-stimulate.png)
+   ![](assets/content-template-stimulate.png)
 
 1. Você pode enviar uma prova para testar seu conteúdo e aprová-lo por alguns usuários internos antes de usá-lo em uma jornada ou campanha.
 
@@ -210,7 +210,7 @@ Você pode testar a renderização de alguns de seus modelos de email, sejam ele
 
    * Antes de enviar a prova, selecione a variável [superfície de email](../configuration/channel-surfaces.md) que serão usados para testar o conteúdo.
 
-     ![](../email/assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 >[!CAUTION]
 >
