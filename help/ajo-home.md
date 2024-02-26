@@ -5,10 +5,10 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
+source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 94%
+source-wordcount: '385'
+ht-degree: 75%
 
 ---
 
@@ -20,27 +20,27 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!BEGINTABS]
 
->[!TAB A versão de janeiro está disponível!]
+>[!TAB A versão de fevereiro está disponível.]
 
-Descubra novos recursos e melhorias que acompanham a versão 24.1 do Adobe Journey Optimizer.
+Descubra novos recursos e melhorias que acompanham a versão 24.2 do Adobe Journey Optimizer.
 
-[![imagem](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Atualização DMARC obrigatória]
+>[!TAB Mensagens no aplicativo da Web]
 
-Como parte da aplicação de práticas recomendadas do setor, o Google e o Yahoo! ambos exigirão que você tenha uma **Registro DMARC** para qualquer domínio que você usar para enviar emails a eles, começando em **1 de fevereiro de 2024**. Verifique se você tem o registro DMARC configurado para todos os subdomínios que você delegou à Adobe no Journey Optimizer.
+Agora você pode usar o novo recurso de mensagens na Web no aplicativo para exibir conteúdo personalizado diretamente nos sites, por meio de mensagens de sobreposição modal. Esse recurso permite que você interaja efetivamente com visitantes da Web, melhorando a interação do usuário, a retenção e as taxas de conversão.
 
-[![imagem](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
+![](using/rn/assets/do-not-localize/web_inapp.gif)
 
->[!TAB Manuais de casos de uso]
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
 
-Aproveite um catálogo de manuais de casos de uso específicos do setor na Real-Time CDP e no Journey Optimizer para abordar casos de uso comuns que você pode executar usando a Adobe Experience Platform e o Adobe Journey Optimizer.
+>[!TAB Modelos de conteúdo multicanal]
 
-Depois de escolher o manual de estratégia que melhor atende às suas necessidades, você pode habilitá-lo para gerar os ativos necessários que darão suporte ao seu caso de uso, como jornadas, mensagens, esquemas ou segmentos, e personalizá-los de acordo com o esquema para agilizar resultados relevantes.
+Além do Email, os modelos de conteúdo agora estão disponíveis para os seguintes canais: Push, No aplicativo, SMS e Correspondência direta, cada canal tendo tipos de modelo dedicados. Para Email, agora é possível selecionar o Tipo de conteúdo, que permite salvar a linha de assunto como parte do modelo de email.
 
-![imagem animada exibindo Manuais de casos de uso](using/rn/assets/do-not-localize/playbooks.gif)
+![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
 
-[![imagem](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
