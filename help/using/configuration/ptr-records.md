@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomínio, PTR, registros, DNS, domínio, email
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
+source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '840'
 ht-degree: 10%
 
 ---
@@ -50,7 +50,11 @@ A lista mostra os registros PTR gerados usando a sintaxe abaixo:
 
 ## Editar um registro PTR {#edit-ptr-record}
 
-Você pode modificar um registro PTR para editar o subdomínio associado a um endereço IP.
+Entrada [!DNL Journey Optimizer], não é possível criar registros PTR manualmente. Em vez disso, uma vez que [delegar](delegate-subdomain.md) Seu primeiro subdomínio para Adobe, os registros PTR são criados automaticamente para seus IPs.
+
+Cada um dos IPs recebe um único registro PTR. Todos os registros PTR têm o seguinte formato: &quot;rxx.subdomain&quot;, em que &quot;subdomain&quot; é o primeiro subdomínio que você delegou em [!DNL Journey Optimizer].
+
+Ao criar subdomínios adicionais, você precisa modificar um ou mais registros PTR e atribuir esses novos subdomínios a eles. Para isso, siga as etapas abaixo.
 
 >[!CAUTION]
 >
