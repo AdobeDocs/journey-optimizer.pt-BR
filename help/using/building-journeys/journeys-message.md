@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Atividade de mensagem"
->abstract="O Journey Optimizer vem com recursos de mensagem incorporados. Você pode simplesmente adicionar, na jornada, uma atividade de push, mensagem de texto, mensagem no aplicativo ou de email e definir configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
+>abstract="O Journey Optimizer vem com recursos de mensagem incorporados. É possível simplesmente adicionar em sua jornada uma atividade de mensagem via push, texto, in-app ou email e definir as configurações e o conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
 
 [!DNL Journey Optimizer] O vem com recursos de mensagem incorporados. Você pode simplesmente adicionar, em sua jornada, uma atividade de mensagem via push, SMS, mensagem no aplicativo ou email e definir as configurações e o conteúdo. Em seguida, ela é executada e enviada no contexto da jornada.
 
