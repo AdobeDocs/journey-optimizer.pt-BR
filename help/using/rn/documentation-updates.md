@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
+source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
 workflow-type: tm+mt
 source-wordcount: '4778'
 ht-degree: 96%
@@ -30,7 +30,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * A página na função Split foi atualizada. [Leia mais](../building-journeys/functions/functioninaudience.md)
 * Foram adicionadas informações sobre o impacto da aceitação ou recusa de notificações por push em mensagens no aplicativo. [Leia mais](../in-app/create-in-app.md)
 * A página Message frequency rules foi atualizada para refletir as opções de Duração disponíveis na interface do usuário (semanal ou mensal). [Leia mais](../configuration/frequency-rules.md)
-* A seção Editar um registro PTR foi atualizada para esclarecer o fato de que os registros PTR não podem ser criados manualmente e que é necessário editar os registros PTR para atribuir novos subdomínios a eles. [Leia mais](using/configuration/ptr-records.md#edit-ptr-record)
+* A seção Editar um registro PTR foi atualizada para esclarecer o fato de que os registros PTR não podem ser criados manualmente e que é necessário editar os registros PTR para atribuir novos subdomínios a eles. [Leia mais](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Janeiro de 2024 {#jan-2024}
 
