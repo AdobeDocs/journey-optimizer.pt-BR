@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
 workflow-type: tm+mt
-source-wordcount: '4729'
+source-wordcount: '4743'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Fevereiro de 2024 {#feb-2024}
 
+* A integração Journey Optimizer + Workfront foi adicionada à página de integrações. [Leia mais](../start/ajo-integrations.md)
 * Foram adicionadas informações sobre como personalizar as representações de ofertas com base nos dados de contexto. [Leia mais](../offers/offer-library/add-representations.md#context-data)
 * A página de medidas de proteção foi atualizada com uma observação sobre ações personalizadas que oferecem suporte ao formato JSON somente ao usar cargas de solicitação ou resposta. [Leia mais](../start/guardrails.md#custom-actions-g)
 * Foram adicionadas informações adicionais sobre o tipo de autenticação básica em fontes de dados externas. [Leia mais](../datasource/external-data-sources.md)
