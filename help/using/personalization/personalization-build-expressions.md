@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '453'
 ht-degree: 10%
 
 ---
@@ -47,7 +47,7 @@ O menu de reticências ao lado do ícone &quot;+&quot; permite obter mais detalh
 
 >[!NOTE]
 >
->Se você estiver direcionando um público-alvo com atributos de enriquecimento gerados usando um fluxo de trabalho de composição ou um upload personalizado (arquivo CSV), poderá aproveitar esses atributos de enriquecimento para personalizar sua mensagem. [Saiba como usar atributos de enriquecimento de públicos-alvo](../audience/about-audiences.md#enrichment)
+>Se você estiver direcionando um público-alvo com atributos de enriquecimento gerados usando um fluxo de trabalho de composição, poderá aproveitar esses atributos de enriquecimento para personalizar sua mensagem. [Saiba como usar atributos de enriquecimento de públicos-alvo](../audience/about-audiences.md#enrichment)
 
 Além disso, você pode definir um texto de fallback padrão que será exibido se um atributo de perfil do tipo string estiver vazio. Para fazer isso, clique no botão de reticências ao lado do atributo e selecione **[!UICONTROL Inserir com texto de fallback]**. Escreva o texto que deve ser exibido por padrão se o valor do atributo estiver vazio para um perfil e clique em **[!UICONTROL Adicionar]**.
 

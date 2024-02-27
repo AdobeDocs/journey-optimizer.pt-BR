@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1484'
 ht-degree: 17%
 
 ---
@@ -76,7 +76,7 @@ No editor simples, você também encontrará a categoria Propriedades da Jornada
 
 Isso permite definir uma condição com base nos campos das fontes de dados ou nos eventos posicionados anteriormente na jornada. Saiba como usar o editor de expressão no [nesta seção](expression/expressionadvanced.md).
 
-Por exemplo, se você estiver direcionando um público-alvo com atributos de enriquecimento gerados usando um fluxo de trabalho de composição ou um upload personalizado (arquivo CSV), você pode aproveitar esses atributos de enriquecimento para criar sua condição. [Saiba como usar atributos de enriquecimento de públicos-alvo no Journey Optimizer](../audience/about-audiences.md#enrichment)
+Por exemplo, se você estiver direcionando um público-alvo com atributos de enriquecimento gerados usando um fluxo de trabalho de composição ou um upload personalizado (arquivo CSV), você pode aproveitar esses atributos de enriquecimento para criar sua condição.
 
 Usando o editor de expressão avançado, você pode configurar condições mais avançadas que manipulem coleções ou usem fontes de dados que exijam a transmissão de parâmetros. [Saiba mais](../datasource/external-data-sources.md).
 

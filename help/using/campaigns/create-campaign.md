@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 32%
+source-wordcount: '960'
+ht-degree: 33%
 
 ---
 
@@ -126,7 +126,7 @@ Clique em **[!UICONTROL Selecionar público]** botão para exibir a lista de pú
 
 >[!IMPORTANT]
 >
->O uso de públicos-alvo e atributos de [composição de público](../audience/get-started-audience-orchestration.md) e [upload personalizado (arquivo CSV)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) O não está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield. [Saiba como usar atributos de enriquecimento de públicos-alvo no Journey Optimizer](../audience/about-audiences.md#enrichment)
+>O uso de públicos-alvo e atributos de [composição de público](../audience/get-started-audience-orchestration.md) e [upload personalizado (arquivo CSV) públicos-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) O não está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
 >
 >Para campanhas acionadas por API, o público-alvo precisa ser definido por meio de uma chamada de API.
 

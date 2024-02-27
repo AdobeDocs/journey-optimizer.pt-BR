@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 38%
+source-wordcount: '1083'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ Você pode selecionar em campanhas e jornadas qualquer público gerado usando de
 
 >[!AVAILABILITY]
 >
->O uso de públicos-alvo e atributos da composição de público-alvo e do upload personalizado (arquivo CSV) está atualmente indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield. [Saiba como usar atributos de enriquecimento de públicos-alvo no Journey Optimizer](../audience/about-audiences.md#enrichment)
+>O uso de públicos-alvo e atributos da composição de público-alvo e do upload personalizado (arquivo CSV) de públicos-alvo está indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield. [Saiba como usar atributos de enriquecimento de públicos-alvo no Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 É possível aproveitar os públicos-alvo no **[!DNL Journey Optimizer]** de maneiras diferentes:
 
@@ -61,15 +61,15 @@ Você pode selecionar em campanhas e jornadas qualquer público gerado usando de
 
 ## Usar atributos de enriquecimento de públicos-alvo no Journey Optimizer {#enrichment}
 
-Ao direcionar um público-alvo gerado usando fluxos de trabalho de composição ou upload personalizado (arquivo CSV), você pode aproveitar os atributos de enriquecimento desses públicos-alvo para criar sua jornada e personalizar suas mensagens.
+Ao direcionar um público-alvo gerado usando workflows de composição, você pode aproveitar os atributos de enriquecimento desses públicos-alvo para criar sua jornada e personalizar suas mensagens.
 
 * Crie vários caminhos em uma jornada com base em regras que aproveitam os atributos de enriquecimento do público-alvo. Para fazer isso, direcione o público usando um [Ler público](../building-journeys/read-audience.md) atividade e, em seguida, criar regras em uma [Condição](../building-journeys/condition-activity.md) atividade com base nos atributos de enriquecimento do público-alvo.
 
-  ![](assets/audience-enrichment-attribute-condition.png){zoom=&quot;yes&quot;}
+  ![](assets/audience-enrichment-attribute-condition.png){zoomable=&quot;yes&quot;}
 
 * Personalize suas mensagens em jornadas ou campanhas adicionando atributos de enriquecimento do público-alvo direcionado no editor de expressão. [Saiba como trabalhar com o editor de expressão](../personalization/personalization-build-expressions.md)
 
-  ![](assets/audience-enrichment-attribute-perso.png){zoom=&quot;yes&quot;}
+  ![](assets/audience-enrichment-attribute-perso.png){zoomable=&quot;yes&quot;}
 
 ## Métodos de avaliação de público-alvo {#evaluation-method-in-journey-optimizer}
 
