@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 21e7d416548dd9220d5535573bc6ff17dd0479ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!PREREQUISITES]
 >
->As seguintes etapas de configuração são necessárias antes de trabalhar com os Manuais de casos de uso. Informações detalhadas sobre cada etapa estão disponíveis na página de [Introdução](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"} da documentação dos Manuais de casos de uso.
+>As seguintes etapas de configuração são necessárias antes de trabalhar com os Manuais de casos de uso. Informações detalhadas sobre cada etapa estão disponíveis na página de [Introdução](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=pt-BR){target="_blank"} da documentação dos Manuais de casos de uso.
 >
 >* Criar uma sandbox
 >* Configuração de permissões de usuários e usuárias
