@@ -7,7 +7,7 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: d9a3482d237c3080c060519dbdde9208c8c0befa
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 10%
@@ -21,7 +21,7 @@ Uma identidade são dados exclusivos de uma entidade, geralmente um objeto do mu
 * A variável **namespace de identidade** serve como um indicador do contexto ao qual uma identidade está relacionada.
 * A variável **valor de identidade** é uma string que representa uma entidade.
 
-Vamos pegar o telefone 555-555-1234. Neste exemplo, a string &quot;555-555-1234&quot; é um **valor de identidade**, que podem ser classificados como **Telefone** namespace de identidade.
+Vamos pegar o telefone 555-555-1234. Neste exemplo, a string &quot;555-555-1234&quot; é um **valor de identidade**, que pode ser categorizado como um &quot;Telefone&quot; **namespace de identidade**.
 
 A variável **Identidades** menu no [!DNL Adobe Journey Optimizer] O permite navegar com eficiência pelos vários identificadores que compõem os clientes do banco de dados.
 
