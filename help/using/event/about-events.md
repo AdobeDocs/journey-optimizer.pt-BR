@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Sobre eventos
-description: Saiba mais sobre eventos
+title: Trabalhar com eventos de jornada
+description: Saiba como trabalhar com eventos em suas jornadas
 feature: Journeys, Events
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: events, event, jornada, definition, start
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 58%
+source-wordcount: '989'
+ht-degree: 55%
 
 ---
 
-# Sobre eventos{#about-events}
+# Trabalhar com eventos de jornada {#about-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
->title="Sobre eventos"
+>title="Jornada eventos"
 >abstract="Um evento está vinculado a uma pessoa. Relaciona-se com o comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site, etc.) ou com algo que acontece ligado a uma pessoa (por exemplo, uma pessoa atingiu 10.000 pontos no programa de fidelidade). É o que o Journey Optimizer considera nas jornadas para organizar as melhores ações futuras."
 
 A configuração do evento permite definir as informações que o [!DNL Journey Optimizer] receberá como eventos. Você pode usar vários eventos (em etapas diferentes de uma jornada) e várias jornadas podem usar o mesmo evento.
