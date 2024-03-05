@@ -1,37 +1,37 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criar uma mensagem de SMS.
-description: Saiba como criar uma mensagem SMS no Journey Optimizer
+title: Criar uma mensagem SMS/MMS
+description: Saiba como criar uma mensagem SMS/MMS no Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 14%
+source-wordcount: '948'
+ht-degree: 10%
 
 ---
 
-# Criação de uma mensagem de texto {#create-sms}
+# Criação de uma mensagem de texto (SMS/MMS) {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Criação de uma mensagem de texto"
->abstract="Para criar uma mensagem de texto, adicione uma ação de SMS em uma jornada ou campanha e comece a personalizá-la com o editor de expressão."
+>abstract="Para criar uma mensagem de texto (SMS/MMS), adicione uma ação de SMS em uma jornada ou campanha e comece a personalizá-la com o editor de expressão."
 
-Você pode criar e enviar texto (SMS) com o Adobe Journey Optimizer. Primeiro, é necessário adicionar uma ação SMS em uma jornada ou campanha e, em seguida, definir o conteúdo da mensagem de texto, conforme detalhado abaixo. O Adobe Journey Optimizer também oferece recursos para testar suas mensagens de texto antes de enviá-las, para que você possa verificar a renderização, os atributos de personalização e todas as outras configurações.
+Você pode criar e enviar mensagens de texto (SMS) e multimídia (MMS) com o Adobe Journey Optimizer. Primeiro, é necessário adicionar uma ação SMS em uma jornada ou campanha e, em seguida, definir o conteúdo da mensagem de texto, conforme detalhado abaixo. O Adobe Journey Optimizer também oferece recursos para testar suas mensagens de texto antes de enviá-las, para que você possa verificar a renderização, os atributos de personalização e todas as outras configurações.
 
 >[!NOTE]
 >
->De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os recipients cancelarem facilmente a inscrição. Para fazer isso, os destinatários de SMS podem responder com palavras-chave de aceitação e recusa. [Saiba como gerenciar a recusa](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+>De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing SMS/MMS devem conter uma maneira de os recipients cancelarem facilmente a inscrição. Para fazer isso, os destinatários de SMS podem responder com palavras-chave de aceitação e recusa. [Saiba como gerenciar a recusa](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 
 ## Adicionar uma mensagem de texto {#create-sms-journey-campaign}
 
-Navegue pelas guias abaixo para saber como adicionar uma mensagem de texto em uma campanha ou jornada.
+Navegue pelas guias abaixo para saber como adicionar uma mensagem de texto (SMS/MMS) em uma campanha ou jornada.
 
 >[!BEGINTABS]
 
@@ -91,9 +91,9 @@ Agora é possível começar a projetar o conteúdo da sua mensagem de texto a pa
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definição do conteúdo do SMS"
->abstract="Personalize as mensagens de texto usando o editor de expressão para definir o conteúdo e incorporar elementos dinâmicos."
+>abstract="Personalize as mensagens de texto (SMS/MMS) usando o Editor de expressão para definir o conteúdo e incorporar elementos dinâmicos."
 
-Para configurar o conteúdo de SMS, siga as etapas abaixo.
+Para configurar o conteúdo de SMS, siga as etapas abaixo. As configurações para MMS estão detalhadas em [nesta seção](#mms-content).
 
 1. Na tela de configuração do jornada ou da campanha, clique no link **[!UICONTROL Editar conteúdo]** botão para configurar o conteúdo da mensagem de texto.
 
@@ -121,37 +121,33 @@ Para configurar o conteúdo de SMS, siga as etapas abaixo.
 
 1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na pré-visualização. Agora você pode testar e verificar o conteúdo da mensagem conforme detalhado em [nesta seção](#sms-mms-test).
 
-<!--
-## Define your MMS content{#mms-content}
+## Definir o conteúdo MMS{#mms-content}
 
-You can enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of media such as videos, pictures, audio clips and GIFs, and more. Additionally, MMS allows for up to 1600 characters of text in your message.
-
+Você pode aprimorar sua comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), permitindo o compartilhamento de mídia, como vídeos, imagens, clipes de áudio e GIF e muito mais. Além disso, o MMS permite até 1600 caracteres de texto em sua mensagem.
 
 >[!NOTE]
 >
->* This feature is currently available with **Sinch** only.
+>* Este recurso está disponível no momento com o **Sinch** somente.
 >
->* MMS channel comes with a few limitations listed in [this page](../start/guardrails.md#sms-guardrails).
->
+>* O canal MMS vem com algumas limitações listadas na [esta página](../start/guardrails.md#sms-guardrails).
 
-To create MMS content, follow these steps:
+Para criar conteúdo MMS, siga estas etapas:
 
-1. Create a SMS as described in [this section](#create-sms-journey-campaign).
+1. Crie um SMS conforme descrito em [nesta seção](#create-sms-journey-campaign).
 
-1. Edit your SMS content as detailed in [this section](#sms-content).
+1. Edite o conteúdo do SMS conforme detalhado em [nesta seção](#sms-content).
 
-1. Enable the MMS option to add media to your SMS content.
+1. Ative a opção MMS para adicionar mídia ao conteúdo de SMS.
 
-    ![](assets/sms_create_6.png)
+   ![](assets/sms_create_6.png)
 
-1. Add a **[!UICONTROL Title]** to your media.
+1. Adicionar um **[!UICONTROL Título]** à sua mídia.
 
-1. Enter the URL of your media in the **[!UICONTROL Media]** field.
+1. Insira o URL da mídia na caixa **[!UICONTROL Mídia]** campo.
 
-    ![](assets/sms_create_7.png)
+   ![](assets/sms_create_7.png)
 
-1. Click **[!UICONTROL Save]** and check your message in the preview. You can now test and check your message content as detailed below.
--->
+1. Clique em **[!UICONTROL Salvar]** e verifique sua mensagem na pré-visualização. Agora você pode testar e verificar o conteúdo da mensagem conforme detalhado abaixo.
 
 ## Teste e envie suas mensagens {#sms-mms-test}
 
@@ -167,6 +163,6 @@ Depois de enviado, você pode medir o impacto do SMS nos relatórios do Campaign
 
 * [Pré-visualizar, testar e enviar sua mensagem de texto](send-sms.md)
 * [Configuração de canal de SMS](sms-configuration.md)
-* [Relatórios de SMS](../reports/journey-global-report.md#sms-global)
+* [Relatórios SMS/MMS](../reports/journey-global-report.md#sms-global)
 * [Adicionar uma mensagem em uma jornada](../building-journeys/journeys-message.md)
 * [Adicionar uma mensagem em uma campanha](../campaigns/create-campaign.md)
