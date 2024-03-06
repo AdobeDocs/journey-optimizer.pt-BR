@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="Definir qual endereço usar"
->abstract="Edite os campos usados para determinar o endereço de email ou o número de telefone do perfil a ser priorizado para envio."
+>abstract="Edite os campos usados para determinar o endereço de email ou número de telefone dos perfis para priorizar o envio."
 
 Ao direcionar um perfil, vários endereços de email ou números de telefone podem estar disponíveis no banco de dados (endereço de email profissional, número de telefone pessoal etc.).
 
