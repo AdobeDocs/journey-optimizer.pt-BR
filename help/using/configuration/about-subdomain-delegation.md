@@ -9,16 +9,23 @@ role: Admin
 level: Experienced
 keywords: subdomínio, otimizador, delegação
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
+source-git-commit: c80fecf1373528c8b46f76ee6a6eaafbcda58892
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '915'
 ht-degree: 27%
 
 ---
 
 # Delegação de subdomínio em [!DNL Journey Optimizer] {#subdomain-delegation}
 
-A criação de um subdomínio para campanhas de email permite que as marcas isolem vários tipos de tráfego (marketing versus corporativo, por exemplo) em pools de IP específicos e com domínios específicos, o que agilizará o processo de aquecimento de IP e melhorará a capacidade de entrega em geral. Se você compartilhar um domínio e ele for bloqueado ou adicionado à lista de bloqueios, isso poderá afetar seu delivery de email corporativo. No entanto, problemas de reputação ou bloqueios em um domínio específico para suas comunicações de marketing por email afetarão apenas esse fluxo de email. Usar seu domínio principal como remetente ou endereço &quot;De&quot; para vários fluxos de email também pode interromper a autenticação de email, fazendo com que suas mensagens sejam bloqueadas ou colocadas na pasta de spam.
+>[!CONTEXTUALHELP]
+>id="ajo_admin_delegated_subdomains"
+>title="Os subdomínios delegados são exibidos aqui."
+>abstract="Delegar o primeiro subdomínio. Após a conclusão da delegação, os registros PTR são criados e os canais de email são ativados."
+
+A criação de um subdomínio para campanhas de email permite que as marcas isolem vários tipos de tráfego (marketing versus corporativo, por exemplo) em pools de IP específicos e com domínios específicos, o que agilizará o processo de aquecimento de IP e melhorará a capacidade de entrega em geral.
+
+Se você compartilhar um domínio e ele for bloqueado ou adicionado à lista de bloqueios, isso poderá afetar seu delivery de email corporativo. No entanto, problemas de reputação ou bloqueios em um domínio específico para suas comunicações de marketing por email afetarão apenas esse fluxo de email. Usar seu domínio principal como remetente ou endereço &quot;De&quot; para vários fluxos de email também pode interromper a autenticação de email, fazendo com que suas mensagens sejam bloqueadas ou colocadas na pasta de spam.
 
 >[!NOTE]
 >
