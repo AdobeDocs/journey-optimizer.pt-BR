@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomínio, domínio, email, dmarc, registro
 source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 O DMARC (Domain-based Message Authentication, Reporting, and Conformance) é um método de autenticação de email que permite que os proprietários do domínio o protejam contra o uso não autorizado. Ao oferecer uma política clara para provedores de email/ISPs, ajuda a impedir que atores mal-intencionados enviem emails que alegam ser do seu domínio. A implementação do DMARC reduz o risco de emails legítimos serem marcados como spam ou rejeitados e melhora a capacidade de entrega de emails.
 
-Como parte da aplicação de práticas recomendadas do setor, o Google e o Yahoo! estão exigindo um **Registro DMARC** para qualquer domínio que você usar para enviar emails a eles. Este novo requisito aplica-se a partir de **1 de fevereiro de 2024**.
+Como parte da aplicação de práticas recomendadas do setor, o Google e o Yahoo! estão exigindo um **Registro DMARC** para qualquer domínio que você usar para enviar emails a eles. Este novo requisito se aplica a partir de **1º de fevereiro de 2024**.
 
 >[!CAUTION]
 >

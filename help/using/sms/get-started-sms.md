@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '253'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ O Adobe Journey Optimizer envia mensagens de texto por meio de provedores de ser
 
 +++
 
-* O vídeo abaixo ajuda você a entender melhor quais recursos de mobilidade a Adobe Journey Optimizer oferece aos profissionais de marketing.
+* O vídeo abaixo ajuda a entender melhor quais recursos para dispositivos móveis o Adobe Journey Optimizer oferece aos profissionais de marketing.
 
 
   +++Ver vídeo

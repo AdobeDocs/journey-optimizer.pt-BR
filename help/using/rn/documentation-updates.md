@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4778'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Fevereiro de 2024 {#feb-2024}
 
-* A integração Journey Optimizer + Workfront foi adicionada à página de integrações. [Leia mais](../start/ajo-integrations.md)
-* Foram adicionadas informações sobre como personalizar as representações de ofertas com base nos dados de contexto. [Leia mais](../offers/offer-library/add-representations.md#context-data)
-* A página de medidas de proteção foi atualizada com uma observação sobre ações personalizadas que oferecem suporte ao formato JSON somente ao usar cargas de solicitação ou resposta. [Leia mais](../start/guardrails.md#custom-actions-g)
-* Foram adicionadas informações adicionais sobre o tipo de autenticação básica em fontes de dados externas. [Leia mais](../datasource/external-data-sources.md)
-* Foi aditada uma nota para diferenciar claramente a [Editor de expressão de Jornada](../building-journeys/expression/expressionadvanced.md) do [Editor de personalização](../personalization/functions/functions.md).
-* A lista de funções disponíveis no editor de expressão avançado foi atualizada. [Leia mais](../building-journeys/expression/functions.md)
-* A página na função Split foi atualizada. [Leia mais](../building-journeys/functions/functioninaudience.md)
-* Foram adicionadas informações sobre o impacto da aceitação ou recusa de notificações por push em mensagens no aplicativo. [Leia mais](../in-app/create-in-app.md)
-* A página Message frequency rules foi atualizada para refletir as opções de Duração disponíveis na interface do usuário (semanal ou mensal). [Leia mais](../configuration/frequency-rules.md)
-* A seção Editar um registro PTR foi atualizada para esclarecer o fato de que os registros PTR não podem ser criados manualmente e que é necessário editar os registros PTR para atribuir novos subdomínios a eles. [Leia mais](../configuration/ptr-records.md#edit-ptr-record)
+* Adição da integração Journey Optimizer + Workfront à página de integrações. [Leia mais](../start/ajo-integrations.md)
+* Adição de informações sobre como personalizar as representações de ofertas com base nos dados de contexto. [Leia mais](../offers/offer-library/add-representations.md#context-data)
+* Atualização da página de medidas de proteção com uma observação sobre ações personalizadas que são compatíveis com o formato JSON somente ao usar conteúdo de solicitação ou resposta. [Leia mais](../start/guardrails.md#custom-actions-g)
+* Adição de informações adicionais sobre o tipo de autenticação básica em fontes de dados externas. [Leia mais](../datasource/external-data-sources.md)
+* Adição de uma observação para diferenciar claramente o [Editor de expressão de jornada](../building-journeys/expression/expressionadvanced.md) do [Editor de personalização](../personalization/functions/functions.md).
+* Atualização da lista de funções disponíveis no editor de expressão avançado. [Leia mais](../building-journeys/expression/functions.md)
+* Atualização da página sobre a função Divisão. [Leia mais](../building-journeys/functions/functioninaudience.md)
+* Adição de informações sobre o impacto da aceitação ou recusa de notificações por push em mensagens no aplicativo. [Leia mais](../in-app/create-in-app.md)
+* Atualização da página Regras de frequência de mensagens para refletir as opções de Duração disponíveis na interface (semanal ou mensal). [Leia mais](../configuration/frequency-rules.md)
+* Atualização da seção Editar um registro PTR para esclarecer o fato de que não é possível criar registros PTR manualmente e que é necessário editar os registros PTR para atribuir novos subdomínios a eles. [Leia mais](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Janeiro de 2024 {#jan-2024}
 

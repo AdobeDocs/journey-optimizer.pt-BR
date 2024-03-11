@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!BEGINTABS]
 
->[!TAB A versão de fevereiro está disponível.]
+>[!TAB A versão de fevereiro já está disponível.]
 
-Descubra novos recursos e melhorias que acompanham a versão 24.2 do Adobe Journey Optimizer.
+Conheça os novos recursos e melhorias que acompanham a versão 24.2 do Adobe Journey Optimizer.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB Mensagens no aplicativo da Web]
 
-Agora você pode usar o novo recurso de mensagens na Web no aplicativo para exibir conteúdo personalizado diretamente nos sites, por meio de mensagens de sobreposição modal. Esse recurso permite que você interaja efetivamente com visitantes da Web, melhorando a interação do usuário, a retenção e as taxas de conversão.
+Agora você pode usar o novo recurso de mensagens Web no aplicativo para exibir conteúdo personalizado diretamente em sites, por meio de mensagens de sobreposição modal. Esse recurso permite que você interaja efetivamente com visitantes da Web, melhorando a interação de usuários, a retenção e as taxas de conversão.
 
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
@@ -36,7 +36,7 @@ Agora você pode usar o novo recurso de mensagens na Web no aplicativo para exib
 
 >[!TAB Modelos de conteúdo multicanal]
 
-Além do Email, os modelos de conteúdo agora estão disponíveis para os seguintes canais: Push, No aplicativo, SMS e Correspondência direta, cada canal tendo tipos de modelo dedicados. Para Email, agora é possível selecionar o Tipo de conteúdo, que permite salvar a linha de assunto como parte do modelo de email.
+Além do Email, os modelos de conteúdo agora estão disponíveis para os seguintes canais: Push, No aplicativo, SMS e Correspondência direta. Cada canal com tipos de modelos dedicados. Para Email, agora é possível selecionar o Tipo de conteúdo, que permite salvar a linha de assunto como parte do modelo de email.
 
 ![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
 

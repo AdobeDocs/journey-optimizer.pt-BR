@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a06b6853cbf9e9ea9473c032ba28deb917d2c181
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1739'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 99%
 + Canal no aplicativo{#in-app}
    + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
    + [Pré-requisitos do canal no aplicativo](using/in-app/inapp-configuration.md)
-   + [Criar uma mensagem no aplicativo móvel](using/in-app/create-in-app.md)
+   + [Criação de uma mensagem no aplicativo móvel](using/in-app/create-in-app.md)
    + [Criar uma mensagem no aplicativo da Web](using/in-app/create-in-app-web.md)
    + [Criar seu conteúdo no aplicativo](using/in-app/design-in-app.md)
    + [Verificação e envio da notificação no aplicativo](using/in-app/send-in-app.md)
