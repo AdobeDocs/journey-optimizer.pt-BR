@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1563'
 ht-degree: 13%
 
 ---
@@ -81,7 +81,7 @@ No **[!UICONTROL Mais ações]** ao lado de cada fragmento, é possível:
 
 * Use o **[!UICONTROL Explorar referências]** opção para ver as jornadas, campanhas ou templates onde são usados. [Saiba mais](#explore-references)
 
-* Copie um fragmento para outra sandbox. <!--Learn more?-->
+<!--Copy a fragment to another sandbox.-->
 
 * Arquivar um fragmento. [Saiba mais](#archive-fragments)
 

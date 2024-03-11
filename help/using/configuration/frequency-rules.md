@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1213'
 ht-degree: 7%
 
 ---
@@ -77,23 +77,9 @@ Para criar uma nova regra, siga as etapas abaixo.
    >
    >Atualmente, somente o **[!UICONTROL Marketing]** categoria está disponível.
 
-   <!--![](assets/message-rules-details.png)-->
+   ![](assets/message-rules-details.png)
 
-1. No **[!UICONTROL Duração]** selecione um intervalo de tempo para a limitação a ser aplicada.
-
-   ![](assets/message-rules-capping-duration.png)
-
-   O limite de frequência se baseia no período de calendário selecionado. Ela é redefinida no início do intervalo de tempo correspondente.
-
-   O prazo de validade do contador para cada período é o seguinte:
-
-   <!--* **[!UICONTROL Daily]**: The frequency cap is valid for the day until 23:59:59 UTC and resets to 0 at the start of the next day.-->
-
-   * **[!UICONTROL Semanalmente]**: o limite de frequência é válido até sábado 23:59:59 UTC dessa semana, pois a semana do calendário começa no domingo. A expiração ocorre independentemente da criação da regra. Por exemplo, se a regra for criada na quinta-feira, essa regra será válida até o sábado às 23:59:59.
-
-   * **[!UICONTROL Mensal]**: o limite de frequência é válido até o último dia do mês às 23:59:59 UTC. Por exemplo, a expiração mensal de janeiro é 01-31 23:59:59 UTC.
-
-   &lt;!—NOTA: ao lidar com [segmentação em lote](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} é recomendada. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+1. No **[!UICONTROL Duração]** selecione um intervalo de tempo para a limitação a ser aplicada. [Saiba mais](#frequency-cap)
 
 1. Defina o limite para sua regra, o que significa o número máximo de mensagens que podem ser enviadas para um perfil de usuário individual a cada mês ou semana <!--or day--> - de acordo com sua seleção acima.
 
@@ -114,6 +100,34 @@ Para criar uma nova regra, siga as etapas abaixo.
 1. Clique em **[!UICONTROL Salvar como rascunho]** para confirmar a criação da regra. Sua mensagem é adicionada à lista de regras, com o **[!UICONTROL Rascunho]** status.
 
    ![](assets/message-rules-created.png)
+
+### Limite de frequência {#frequency-cap}
+
+No **[!UICONTROL Duração]** selecione se deseja que o limite seja aplicado mensal ou semanalmente.
+
+>[!NOTE]
+>
+>O limite de frequência diária também está disponível sob demanda. [Saiba mais](#daily-frequency-cap)
+
+O limite de frequência se baseia no período de calendário selecionado. Ela é redefinida no início do intervalo de tempo correspondente.
+
+![](assets/message-rules-capping-duration.png)
+
+O prazo de validade do contador para cada período é o seguinte:
+
+* **[!UICONTROL Mensal]**: o limite de frequência é válido até o último dia do mês às 23:59:59 UTC. Por exemplo, a expiração mensal de janeiro é 01-31 23:59:59 UTC.
+
+* **[!UICONTROL Semanalmente]**: o limite de frequência é válido até sábado 23:59:59 UTC dessa semana, pois a semana do calendário começa no domingo. A expiração ocorre independentemente da criação da regra. Por exemplo, se a regra for criada na quinta-feira, essa regra será válida até o sábado às 23:59:59.
+
+### Limite de frequência diário {#daily-frequency-cap}
+
+Além de mensalmente e semanalmente, o limite de frequência diária também está disponível sob demanda. Para obter mais informações, entre em contato com o representante da Adobe.
+
+O limite de frequência diária é válido para o dia até 23:59:59 UTC e redefine para 0 no início do dia seguinte.
+
+>[!NOTE]
+>
+>Ao lidar com [segmentação em lote](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} é recomendada. Saiba mais sobre os métodos de avaliação de público-alvo no [nesta seção](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Ativar uma regra {#activate-rule}
 

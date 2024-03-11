@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ee33923ff5bfb73974935864c7e241ea4b0353c5
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 54%
+source-wordcount: '1146'
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ## Notas da versão de fevereiro de 2024 {#feb-2024}
 
-**Data de lançamento**: 21 a 22 de fevereiro de 2024
+**Data de lançamento**: 21 e 22 de fevereiro de 2024
 
 ### Novos recursos{#feb-features}
 
@@ -38,13 +38,13 @@ Essa versão traz os novos recursos listados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Mensagens no aplicativo da Web</strong><br/></th>
+<th><strong>Mensagens Web no aplicativo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode usar o novo recurso de mensagens na Web no aplicativo para exibir conteúdo personalizado diretamente nos sites, por meio de mensagens de sobreposição modal. Esse recurso permite que você interaja efetivamente com visitantes da Web, melhorando a interação do usuário, a retenção e as taxas de conversão.<br/><br/></p>
+<p>Agora você pode usar o novo recurso de mensagens Web no aplicativo para exibir conteúdo personalizado diretamente em sites, por meio de mensagens de sobreposição modal. Esse recurso permite que você interaja efetivamente com visitantes da Web, melhorando a interação de usuários, a retenção e as taxas de conversão.<br/><br/></p>
 <p>Para obter mais informações, consulte a <a href="../in-app/create-in-app-web.md">documentação detalhada</a>.<br></br></p>
 <img src="assets/do-not-localize/web_inapp.gif">
 </tr>
@@ -75,33 +75,33 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Públicos-alvo**
 
-* **Seed lists** - As variantes agora são compatíveis ao usar **seed lists**. Os seed addresses recebem uma cópia de todas as variantes da mesma mensagem (como os diferentes tratamentos de um experimento de conteúdo). [Leia mais](../configuration/seed-lists.md)
+* **Listas de seeds**: as variantes agora são compatíveis ao usar **listas de seeds**. Os seed addresses recebem uma cópia de todas as variantes da mesma mensagem (como os diferentes tratamentos de um experimento de conteúdo). [Leia mais](../configuration/seed-lists.md)
 
 Anteriormente disponível como Beta, as seguintes melhorias agora estão disponíveis para todos os usuários:
 
-* Agora você pode direcionar **públicos-alvo criados por meio da composição do público-alvo** e aproveitar atributos de enriquecimento no Jornada. [Saiba mais](../building-journeys/read-audience.md)
+* Agora é possível direcionar **públicos-alvo criados por meio da composição de público-alvo** e aproveitar os atributos de enriquecimento em jornadas. [Saiba mais](../building-journeys/read-audience.md)
 
-* Agora você pode direcionar **públicos carregados de um arquivo CSV** em jornadas e campanhas. [Saiba mais](../audience/about-audiences.md#segments-in-journey-optimizer)
+* Agora é possível direcionar **públicos-alvo enviados a partir de um arquivo CSV** para jornadas e campanhas. [Saiba mais](../audience/about-audiences.md#segments-in-journey-optimizer)
 
   >[!AVAILABILITY]
   >
-  >* O uso de públicos-alvo e atributos da composição de público-alvo e do upload personalizado (arquivo CSV) está atualmente indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
+  >* O públicos-alvo e os atributos da composição de público-alvo e do upload personalizado (arquivo CSV) estão atualmente indisponíveis para uso com o Healthcare Shield ou o Privacy and Security Shield.
   >* A variável **upload de público alvo a partir de um arquivo CSV** as melhorias estão sendo lançadas gradualmente ao longo de vários dias após o lançamento inicial. Embora alguns usuários tenham acesso imediato, outros podem enfrentar um atraso antes que ele se torne disponível em seu ambiente.
 
 **Jornadas**
 
-* **Filtrar suas jornadas** - Agora você pode usar **datas personalizadas para filtrar as jornadas** inventário, além dos filtros de data predefinidos existentes. Isso permite refinar a lista ao exibir jornadas criadas ou publicadas em uma data específica, em um mês específico, durante um ano inteiro ou dentro de intervalos de tempo especificados. [Leia mais](../building-journeys/journey-gs.md#filter)
+* **Filtre suas jornadas**: agora você pode usar o inventário **datas personalizadas para filtrar as jornadas**, além dos filtros de data predefinidos já existentes. Isso permite refinar a lista ao exibir jornadas criadas ou publicadas em uma data específica, em um mês específico, durante um ano inteiro ou dentro de intervalos de tempo especificados. [Leia mais](../building-journeys/journey-gs.md#filter)
 * **Ações personalizadas** - Agora você pode atualizar o **tipo de conteúdo** cabeçalho. Este novo **tipo de conteúdo** O deve fazer referência ao conteúdo JSON. [Leia mais](../action/about-custom-action-configuration.md#url-configuration)
-* **Configuração** - O atributo identityMap em stepEvents agora é pré-preenchido. A identidade principal é definida como &quot;primary = true&quot;. [Leia mais](../reports/sharing-field-list.md)
-* **Interface do usuário** - A barra superior, nas telas do jornada, foi reorganizada para obter uma experiência aprimorada. Entre as diferentes atualizações, observe que o ícone de &quot;lápis&quot; que permite acessar as propriedades da jornada agora é exibido à esquerda da barra superior, ao lado do nome da jornada. [Leia mais](../building-journeys/journey-gs.md#change-properties)
+* **Configuração**: o atributo identityMap em stepEvents agora é pré-preenchido. A identidade principal é definida como &quot;primary = true&quot;. [Leia mais](../reports/sharing-field-list.md)
+* **Interface**: a barra superior, nas telas da jornada, foi reorganizada para obter uma experiência aprimorada. Entre as diferentes atualizações, observe que o ícone de &quot;lápis&quot; que permite acessar as propriedades da jornada agora é exibido à esquerda da barra superior, ao lado do nome da jornada. [Leia mais](../building-journeys/journey-gs.md#change-properties)
 
 **Canal SMS**
 
-* **Palavras-chave de aceitação/recusa** - Ao configurar seu canal SMS, agora é possível personalizar o **Palavras-chave de aceitação e recusa** de acordo com suas preferências. O Journey Optimizer aciona a resposta com base nessas palavras-chave especificadas. [Saiba mais](../sms/sms-configuration.md#create-api)
+* **Palavras-chave de aceitação/recusa**: ao configurar seu canal de SMS, agora é possível personalizar as **Palavras-chave de aceitação e recusa** de acordo com suas preferências. O Journey Optimizer aciona a resposta com base nessas palavras-chave especificadas. [Saiba mais](../sms/sms-configuration.md#create-api)
 
 **Campanhas**
 
-* **Campanhas acionadas por API** - O código cURL gerado após a ativação de uma campanha acionada por API foi aprimorado. Agora, ela inclui todas as variáveis de personalização (perfil e contexto) usadas na mensagem. [Leia mais](../campaigns/api-triggered-campaigns.md#execute)
+* **Campanhas acionadas por API**: o código cURL gerado após a ativação de uma campanha acionada por API foi aprimorado. Agora, ela inclui todas as variáveis de personalização (perfil e contexto) usadas na mensagem. [Leia mais](../campaigns/api-triggered-campaigns.md#execute)
 
 **Regras de frequência**
 
@@ -140,7 +140,7 @@ Essa versão traz os novos recursos listados abaixo.
 <tr>
 <td>
 <p>O Journey Optimizer agora é compatível com a tecnologia de autenticação DMARC.</p>
-<p>A partir de 1º de fevereiro de 2024, o Google e o Yahoo! Exigem que você tenha um registro DMARC para qualquer domínio que usar para enviar emails a eles. Certifique-se de que você tenha o registro DMARC configurado para todos os subdomínios que delegou ou está delegando à Adobe no Journey Optimizer.</p>
+<p>Desde 1º de fevereiro de 2024, o Google e o Yahoo! estão exigindo um registro DMARC para qualquer domínio que você usar para enviar emails a eles. Certifique-se de que você tenha o registro DMARC configurado para todos os subdomínios que delegou ou está delegando à Adobe no Journey Optimizer.</p>
 <p>Para obter mais informações, consulte a <a href="../configuration/dmarc-record-update.md">documentação detalhada</a>.</p>
 <br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
@@ -191,8 +191,11 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Regras de frequência**
 
-* **Limite de frequência semanal e diária**: agora você pode especificar o número máximo de mensagens a serem enviadas para um perfil de cliente em uma semana, em um dia ou em um mês. O limite de frequência é baseado no período do calendário selecionado e redefinido no início do período correspondente. [Saiba mais](../configuration/frequency-rules.md#create-new-rule)
+* **Limite de frequência semanal** - Agora você pode especificar o número máximo de mensagens enviadas a um perfil de cliente por semana, além do mês. O limite de frequência é baseado no período do calendário selecionado e redefinido no início do período correspondente. [Saiba mais](../configuration/frequency-rules.md#create-new-rule)
 
+  >[!NOTE]
+  >
+  >O limite de frequência diária também está disponível sob demanda. Entre em contato com o representante da Adobe.
 
 **Gestão de decisões**
 
