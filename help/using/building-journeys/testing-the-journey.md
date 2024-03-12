@@ -12,7 +12,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
 workflow-type: tm+mt
 source-wordcount: '1535'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -124,7 +124,7 @@ Observe que, quando você aciona um evento de negócios pela primeira vez, não 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="Logs do modo de teste"
->abstract="A variável **Mostrar log** exibe os resultados do teste no formato JSON. Esses resultados exibem o número de pessoas dentro da jornada e seu status."
+>abstract="O botão **Mostrar log** exibe os resultados do teste no formato JSON. Esses resultados exibem o número de pessoas dentro da jornada e seu status."
 
 A variável **[!UICONTROL Mostrar log]** permite visualizar os resultados do teste. Esta página exibe as informações atuais da jornada em formato JSON. Um botão permite copiar nós inteiros. É necessário atualizar manualmente a página para atualizar os resultados do teste da jornada.
 
