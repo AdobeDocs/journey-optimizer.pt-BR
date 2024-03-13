@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 17%
@@ -60,13 +60,13 @@ Select the date for the execution of the next activity.
 
 ## Espera personalizada{#custom}
 
-Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de 2020 às 17h, usando uma expressão avançada com base em um campo proveniente de um evento ou de uma fonte de dados. Isso não permite definir uma duração personalizada, por exemplo, 7 dias. A expressão no editor de expressão deve fornecer um formato dateTimeOnly. Consulte esta [página](expression/expressionadvanced.md). Para obter mais informações sobre o formato dateTimeOnly, consulte esta [página](expression/data-types.md).
+Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de 2023 às 17h, usando uma expressão avançada com base em um campo proveniente de um evento ou de uma fonte de dados. Isso não permite definir uma duração personalizada, por exemplo, 7 dias. A expressão no editor de expressão deve fornecer um formato dateTimeOnly. Consulte esta [página](expression/expressionadvanced.md). Para obter mais informações sobre o formato dateTimeOnly, consulte esta [página](expression/data-types.md).
 
 >[!NOTE]
 >
->Você pode usar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: toDateTimeOnly(@event{Event.offerOpened.activity.endTime}), o campo no evento tem o formato 2016-08-12T09:46:06Z
+>Você pode usar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: toDateTimeOnly(@event{Event.offerOpened.activity.endTime}), o campo no evento tem o formato 2023-08-12T09:46:06Z
 >
->A variável **fuso horário** é esperado nas propriedades da jornada. Como resultado, não é possível, hoje, a partir da interface apontar diretamente para um carimbo de data e hora ISO-8601 completo misturando deslocamento de tempo e fuso horário como 2016-08-12T09:46:06.982-05 Consulte [esta página](../building-journeys/timezone-management.md).
+>A variável **fuso horário** é esperado nas propriedades da jornada. Como resultado, não é possível, hoje, a partir da interface apontar diretamente para um carimbo de data e hora ISO-8601 completo misturando deslocamento de tempo e fuso horário como 2023-08-12T09:46:06.982-05 Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](assets/journey57.png)
 

@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expressão, dados, tipo de dados, jornada
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 5%
+source-wordcount: '620'
+ht-degree: 4%
 
 ---
 
@@ -165,7 +165,7 @@ Ele pode ser encapsulado em uma função toDateTimeOnly.
 
 Formato de serialização: formato de data-hora de deslocamento estendido ISO-8601.
 
-Ele usa DateTimeFormatter ISO_LOCAL_DATE_TIME para desserializar e serializar o valor. [Saiba mais](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+Ele usa DateTimeFormatter ISO_LOCAL_DATE_TIME para desserializar e serializar o valor. [Saiba mais](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;){_blank}.
 
 **Representação literal**
 
@@ -176,8 +176,8 @@ date("<dateTimeOnly in ISO-8601 format>")
 **Exemplos**
 
 ```json
-date("2021-02-19T00.00.000")
-date("2021-02-19T00.00")
+date("2024-02-19T00.00.000")
+date("2024-02-19T00.00")
 ```
 
 ## dateTime {#date-time}
@@ -194,9 +194,9 @@ Ele pode ser encapsulado em uma função toDateTime.
 
 Formato de serialização: formato de data-hora de deslocamento estendido ISO-8601.
 
-Ele usa DateTimeFormatter ISO_OFFSET_DATE_TIME para desserializar e serializar o valor. [Saiba mais](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+Ele usa DateTimeFormatter ISO_OFFSET_DATE_TIME para desserializar e serializar o valor. [Saiba mais](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}.
 
-Você também pode passar um número inteiro passando um valor de época. [Leia mais](https://www.epochconverter.com)
+Você também pode passar um número inteiro passando um valor de época. [Leia mais](https://www.epochconverter.com){_blank}.
 
 O fuso horário pode ser especificado por um deslocamento ou um código de fuso horário (por exemplo: Europa/Paris, Z - significando UTC).
 
@@ -217,7 +217,7 @@ toDateTime(<integer value of an epoch in milliseconds>)
 **Exemplos**
 
 ```json
-date("2021-02-19T00.00.000Z")
+date("2024-02-19T00.00.000Z")
 ```
 
 ```json
@@ -225,19 +225,19 @@ toDateTime("1977-04-22T06:00:00Z")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30Z")
+toDateTime("2023-12-03T15:15:30Z")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30.123Z")
+toDateTime("2023-12-03T15:15:30.123Z")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30.123+02:00")
+toDateTime("2023-12-03T15:15:30.123+02:00")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30.123-00:20")
+toDateTime("2023-12-03T15:15:30.123-00:20")
 ```
 
 ```json
@@ -258,7 +258,7 @@ Ele deve ser encapsulado em uma função toDuration.
 
 Formato de serialização: para desserializar uma ID de fuso horário, ele usa a função java java.time.
 
-Duration.parse: os formatos aceitos são baseados no formato de duração ISO-8601 PnDTnHnMn.nS com dias considerados exatamente 24 horas. [Saiba mais](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse: os formatos aceitos são baseados no formato de duração ISO-8601 PnDTnHnMn.nS com dias considerados exatamente 24 horas. [Saiba mais](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}.
 
 **Representação literal**
 
