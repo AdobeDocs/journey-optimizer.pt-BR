@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
-workflow-type: ht
-source-wordcount: '4778'
-ht-degree: 100%
+source-git-commit: 62124981df61960fcf61d404481417c70413a2a6
+workflow-type: tm+mt
+source-wordcount: '4831'
+ht-degree: 99%
 
 ---
 
 # Atualizações na documentação {#latest-updates}
 
 Esta página lista todas as atualizações mais recentes na documentação do [!DNL Journey Optimizer].
+
+## Março de 2024 {#march-2024}
+
+* A página Regras de frequência de mensagem foi atualizada com uma nova subseção sobre limite de frequência diária, que está disponível sob demanda além de limite semanal ou mensal. [Leia mais](../configuration/frequency-rules.md#daily-frequency-cap)
+* A página Trabalho com políticas de consentimento foi aprimorada e atualizada com links úteis para a documentação do Experience Platform. [Leia mais](../action/consent.md)
 
 ## Fevereiro de 2024 {#feb-2024}
 
