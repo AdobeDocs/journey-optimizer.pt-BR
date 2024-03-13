@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
+source-git-commit: 949e7cd05a2b1125e13615814f6501b3906e470c
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1212'
 ht-degree: 10%
 
 ---
@@ -75,7 +75,7 @@ Para criar uma nova regra, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Atualmente, somente o **[!UICONTROL Marketing]** categoria está disponível.
+   >Somente o **[!UICONTROL Marketing]** categoria está disponível.
 
    ![](assets/message-rules-details.png)
 
