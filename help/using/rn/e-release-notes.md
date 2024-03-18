@@ -8,16 +8,16 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 31e94565037aa8493e8b09c813047a4600549e8d
+source-git-commit: 02b5886dc9d32d3b06dd4930da882019e344bab3
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 36%
+source-wordcount: '278'
+ht-degree: 27%
 
 ---
 
 # Notas de versão antecipadas {#e-release-notes}
 
-O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas na última semana de cada mês nas [notas de versão](release-notes.md).
+O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas no final de cada mês no [notas de versão](release-notes.md).
 
 As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento. Links, telas e documentação atualizada são publicados nas [notas de versão](release-notes.md), na data de lançamento.
 
@@ -25,9 +25,9 @@ As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso 
 
 **Data de lançamento**: 19 a 20 de março de 2024
 
-### Novos recursos{#e-features}
+### Novo recurso {#e-features}
 
-Essa versão traz os novos recursos listados abaixo.
+Essa versão traz o novo recurso detalhado abaixo.
 
 <table>
 <thead>
@@ -41,7 +41,7 @@ Essa versão traz os novos recursos listados abaixo.
 <p>Com o novo canal de experiência baseado em código, o Adobe Journey Optimizer permite fazer personalização e testes avançados para qualquer uma de suas propriedades de entrada, permitindo a entrega contínua de experiências personalizadas em pontos de contato diversos, como aplicativos Web, aplicativos móveis, aplicativos para desktop, consoles de vídeo, dispositivos conectados a TV, TVs inteligentes, quiosques, ATMs, dispositivos IoT e muito mais.</p>
 <P>Os principais recursos incluem:</p>
 <ul><li> Personalização universal: estenda experiências personalizadas em todos os pontos de contato, garantindo uma jornada de usuário coesa e personalizada</li>
-<li>&gt;Precisão de edição granular: edite conteúdo específico em locais individuais nos aplicativos ou páginas da Web</li>
+<li>Precisão de edição granular: edite conteúdo específico em locais individuais em seus aplicativos ou páginas da Web</li>
 <li>Implementação versátil: suporte para métodos de implementação no lado do servidor, baseados em API ou baseados em SDK para integração contínua com seu ambiente de desenvolvimento.</li></ul></p>
 <p>Para obter mais informações, consulte a <a href="../code-based/get-started-code-based.md">documentação detalhada</a>.</p>
 <!--img src="assets/do-not-localize/web_inapp.gif"-->
