@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d34681b9b8392d3971619efcea8cc6c3f0b1e661
+source-git-commit: 31e94565037aa8493e8b09c813047a4600549e8d
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 67%
+source-wordcount: '279'
+ht-degree: 36%
 
 ---
 
@@ -32,14 +32,17 @@ Essa versão traz os novos recursos listados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Experiência baseada em código</strong><br/></th>
+<th><strong>Experiências baseadas em código</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode personalizar e testar as experiências que deseja oferecer aos clientes em todos os seus pontos de contato, como aplicativos Web, aplicativos móveis, aplicativos para desktop, consoles de vídeo, dispositivos conectados à TV, TVs inteligentes, quiosques, caixas eletrônicos, assistentes de voz, dispositivos de IoT e muito mais.</p>
-<p>Com o recurso de experiência baseada em código, é possível definir experiências de entrada usando um editor não visual simples e intuitivo. Isso permite inserir e editar elementos específicos em locais individuais e mais granulares de aplicativos ou páginas da Web, independentemente do tipo de aplicativos que você possui, ao invés de aplicar modificações a um conteúdo inteiro.</p><br/><br/></p>
+<p>Com o novo canal de experiência baseado em código, o Adobe Journey Optimizer permite fazer personalização e testes avançados para qualquer uma de suas propriedades de entrada, permitindo a entrega contínua de experiências personalizadas em pontos de contato diversos, como aplicativos Web, aplicativos móveis, aplicativos para desktop, consoles de vídeo, dispositivos conectados a TV, TVs inteligentes, quiosques, ATMs, dispositivos IoT e muito mais.</p>
+<P>Os principais recursos incluem:</p>
+<ul><li> Personalização universal: estenda experiências personalizadas em todos os pontos de contato, garantindo uma jornada de usuário coesa e personalizada</li>
+<li>&gt;Precisão de edição granular: edite conteúdo específico em locais individuais nos aplicativos ou páginas da Web</li>
+<li>Implementação versátil: suporte para métodos de implementação no lado do servidor, baseados em API ou baseados em SDK para integração contínua com seu ambiente de desenvolvimento.</li></ul></p>
 <p>Para obter mais informações, consulte a <a href="../code-based/get-started-code-based.md">documentação detalhada</a>.</p>
 <!--img src="assets/do-not-localize/web_inapp.gif"-->
 </tr>
@@ -52,5 +55,12 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Modelos de conteúdo**
 
-* **Miniatura**: uma **exibição em miniatura** agora está disponível para modelos e fragmentos de conteúdo para acesso visual aprimorado.
+* **Miniatura** - A **exibição em miniatura** O agora está disponível para modelos e fragmentos de conteúdo para acesso visual aprimorado. [Saiba mais](../content-management/content-templates.md#template-thumbnails)
 
+**Jornadas**
+
+Novos status intermediários foram adicionados ao ciclo de vida de criação do jornada:
+
+* **Publicação** status entre a variável **Rascunho** status e o **Ao vivo** status
+* **Parando** status entre a variável **Ao vivo** status e o **Parado** status
+* **Ativando o modo de teste** ou **Desativando modo de teste** status entre a variável **Rascunho** status e o **Rascunho (teste)** status
