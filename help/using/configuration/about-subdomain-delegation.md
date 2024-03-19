@@ -12,16 +12,16 @@ exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: c80fecf1373528c8b46f76ee6a6eaafbcda58892
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 27%
+ht-degree: 30%
 
 ---
 
-# Delegação de subdomínio em [!DNL Journey Optimizer] {#subdomain-delegation}
+# Delegação de subdomínio no [!DNL Journey Optimizer] {#subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_delegated_subdomains"
 >title="Os subdomínios delegados são exibidos aqui."
->abstract="Delegar o primeiro subdomínio. Após a conclusão da delegação, os registros PTR são criados e os canais de email são ativados."
+>abstract="Delegue seu primeiro subdomínio. Após a conclusão da delegação, os registros PTR são criados e os canais de email são habilitados."
 
 A criação de um subdomínio para campanhas de email permite que as marcas isolem vários tipos de tráfego (marketing versus corporativo, por exemplo) em pools de IP específicos e com domínios específicos, o que agilizará o processo de aquecimento de IP e melhorará a capacidade de entrega em geral.
 
