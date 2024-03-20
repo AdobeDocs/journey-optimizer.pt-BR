@@ -5,10 +5,10 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 84%
 
 ---
 
@@ -20,11 +20,19 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!BEGINTABS]
 
->[!TAB A versão de fevereiro já está disponível.]
+>[!TAB A versão de março está disponível.]
 
-Conheça os novos recursos e melhorias que acompanham a versão 24.2 do Adobe Journey Optimizer.
+Conheça os novos recursos e melhorias que acompanham a versão 24.3 do Adobe Journey Optimizer.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Experiências baseadas em código]
+
+Com o novo canal de experiência baseado em código, o Adobe Journey Optimizer permite fazer personalização e testes avançados para qualquer uma de suas propriedades de entrada, permitindo a entrega contínua de experiências personalizadas em pontos de contato diversos, como aplicativos Web, aplicativos móveis, aplicativos para desktop, consoles de vídeo, dispositivos conectados a TV, TVs inteligentes, quiosques, ATMs, dispositivos IoT e muito mais.
+
+![](using/rn/assets/do-not-localize/code-based.gif)
+
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/code-based/get-started-code-based.md)
 
 >[!TAB Mensagens no aplicativo da Web]
 
@@ -33,14 +41,6 @@ Agora você pode usar o novo recurso de mensagens Web no aplicativo para exibir 
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
-
->[!TAB Modelos de conteúdo multicanal]
-
-Além do Email, os modelos de conteúdo agora estão disponíveis para os seguintes canais: Push, No aplicativo, SMS e Correspondência direta. Cada canal com tipos de modelos dedicados. Para Email, agora é possível selecionar o Tipo de conteúdo, que permite salvar a linha de assunto como parte do modelo de email.
-
-![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
-
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
