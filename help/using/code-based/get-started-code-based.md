@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 9d21ea489e62254eb3e4665198149e284b78296e
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 88%
+source-wordcount: '1138'
+ht-degree: 80%
 
 ---
 
@@ -144,37 +144,31 @@ Em outras palavras, uma superfície pode ser vista como um container em qualquer
 * Também pode ser uma superfície curinga que corresponde a várias definições de superfície do cliente (por exemplo, um local de Hero image em cada página do site pode ser traduzido em um URI de superfície como: web://mydomain.com/*#hero_image).
 
 Basicamente, um URI de superfície é composto por várias seções:
-1. **Tipo**: web, ios, android, atm, quiosque, tvcd, serviço, etc.
+1. **Tipo**: web, mobileapp, atm, quiosque, tvcd, serviço, etc.
 1. **Propriedade**: URL da página ou pacote de aplicativos
 1. **Container**: local na atividade de página/aplicativo
 
 As tabelas abaixo listam alguns exemplos de definição de URI de superfície para vários dispositivos.
 
-**Web e dispositivos móveis**
+### Web e dispositivos móveis
 
 | Tipo | URI | Descrição |
 | --------- | ----------- | ------- | 
-| Web | web://domain.com/path/page.html | Representa um caminho e uma página individuais de um site. |
-| Web | web://domain.com/path/page.html#element | Representa um elemento individual em uma página específica de um domínio específico. |
-| Web | web://domain.com/*#element | Superfície curinga: representa um elemento individual em cada uma das páginas em um domínio específico. |
-| Aplicativo para iOS | mobileapp://com.vendor.bundle | Representa um aplicativo móvel específico para uma única plataforma, neste caso, um aplicativo para iOS. |
-| Aplicativo para iOS | mobileapp://com.vendor.bundle/activity | Representa uma atividade específica (exibição) em um aplicativo móvel. |
-| Aplicativo para iOS | mobileapp://com.vendor.bundle/activity#element | Representa um elemento específico em uma atividade, como um botão ou outro elemento de exibição. |
-| Aplicativo para Android | mobileapp://com.vendor.bundle | Representa um aplicativo móvel específico para uma única plataforma, neste caso, um aplicativo para Android. |
+| Web | web://domain.com/path/page.html#element | Representa um elemento individual em uma página específica de um domínio específico, onde um elemento pode ser um rótulo, como nos seguintes exemplos: hero_banner, top_nav, menu, rodapé etc. |
+| Aplicativo para iOS | mobileapp://com.vendor.bundle/activity#element | Representa um elemento específico em uma atividade de aplicativo nativa, como um botão ou outro elemento de exibição. |
+| Aplicativo para Android | mobileapp://com.vendor.bundle#element | Representa um elemento específico em um aplicativo nativo. |
 
-**Outros tipos de dispositivos**
+### Outros tipos de dispositivos
 
 | Tipo | URI | Descrição |
 | --------- | ----------- | ------- | 
-| Desktop | desktop://com.vendor.bundle | Representa um aplicativo de desktop específico. |
 | Desktop | desktop://com.vendor.bundle#element | Representa um elemento específico em um aplicativo, como um botão, menu, banner principal, etc. |
-| aplicativo tvOS | tvos://com.vendor.bundle | Representa um aplicativo tvOS específico. |
-| Aplicativo de TV | tvcd://com.vendor.bundle | Representa um aplicativo de dispositivo específico conectado à TV ou smart TV - ID do pacote. |
-| Serviço | service://servicename | Representa um processo do lado do servidor ou outra entidade manual. |
-| Quiosque | kiosk://location/screen | Exemplo de possíveis tipos de superfície adicionais que podem ser adicionados facilmente. |
-| ATM | atm://location/screen | Exemplo de possíveis tipos de superfície adicionais que podem ser adicionados facilmente. |
+| Aplicativo de TV | tvcd://com.vendor.bundle#element | Representa um elemento específico em um aplicativo de dispositivo conectado à TV ou Smart TV - ID do pacote. |
+| Serviço | service://servicename#element | Representa um processo do lado do servidor ou outra entidade manual. |
+| Quiosque | kiosk://location/screen#element | Exemplo de possíveis tipos de superfície adicionais que podem ser adicionados facilmente. |
+| ATM | atm://location/screen#element | Exemplo de possíveis tipos de superfície adicionais que podem ser adicionados facilmente. |
 
-**Superfícies curingas**
+### Superfícies curingas
 
 | Tipo | URI | Descrição |
 | --------- | ----------- | ------- | 
