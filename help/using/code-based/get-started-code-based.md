@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 9d21ea489e62254eb3e4665198149e284b78296e
+source-git-commit: 3cdef96e383448b462f6e3781e36d3c9a57bd637
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 80%
@@ -174,6 +174,5 @@ As tabelas abaixo listam alguns exemplos de definição de URI de superfície pa
 | --------- | ----------- | ------- | 
 | Web com caractere curinga | curinga:web://domain.com/`*`#element | Superfície curinga: representa um elemento individual em cada uma das páginas em um domínio específico. |
 | Web com caractere curinga | curinga:web://`*`domain.com/`*`#element | Superfície curinga - representa um elemento individual em cada uma das páginas em todos os domínios que terminam com &quot;domain.com&quot;. |
-
 
 
