@@ -7,9 +7,9 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
-workflow-type: ht
-source-wordcount: '535'
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
@@ -49,11 +49,6 @@ Você pode usar esses atalhos em áreas específicas da interface do [!DNL Journ
       <th>Atalho</th>
     </tr>
   </thead>
-  <tr>
-    <td>Lista de jornadas, ações, fontes de dados ou eventos</td>
-    <td>Criar uma jornada, uma ação, uma fonte de dados ou um evento</td>
-    <td>C</td>
-  </tr>
   <tr>
     <td rowspan="8">Tela da jornada no status de rascunho</td>
     <td>Adicionar uma atividade da paleta esquerda na primeira posição disponível, de cima para baixo</td>
@@ -107,23 +102,6 @@ Você pode usar esses atalhos em áreas específicas da interface do [!DNL Journ
   <tr>
     <td>Descartar alterações e fechar o painel de configuração</td>
     <td>Esc</td>
-  </tr>
-  <tr>
-    <td rowspan="4">Jornada no modo de teste</td>
-    <td>Habilitar ou desabilitar o modo de teste</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>Acionar um evento em uma jornada baseada em eventos</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>Acionar um evento em uma jornada baseada em público-alvo para a qual a opção **[!UICONTROL Single profile at a time]** está ativada</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>Exibir os logs de teste</td>
-    <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>

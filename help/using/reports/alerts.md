@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Os alertas de ações personalizadas são resolvidos quando, nos últimos 5 minu
 
 O nome de inscrição do evento de E/S correspondente ao alerta de ação personalizada é **Falha na ação personalizada de Jornada**.
 
-## Acionador de segmento de leitura malsucedido {#alert-read-audiences}
+## Falha ao ler o acionador de público-alvo {#alert-read-audiences}
 
 Esse alerta avisará se uma **Ler público-alvo** A atividade não processou nenhum perfil 10 minutos após o horário agendado de execução. Essa falha pode ser causada por problemas técnicos ou porque o público-alvo está vazio.
 
@@ -68,3 +68,24 @@ Alertas ativados **Ler público-alvo** as atividades se aplicam somente a jornad
 Alertas ativados **Ler público-alvo** são resolvidos quando um perfil entra na variável **Ler público-alvo** nó.
 
 O nome de inscrição do evento de E/S correspondente ao **Acionador de segmento de leitura malsucedido** o alerta é **Atrasos, falhas e erros no segmento de leitura do Jornada**.
+
+## Solução de problemas {#alert-troubleshooting}
+
+Para solucionar problemas **Ler público-alvo** alertas, verifique a contagem de públicos-alvo na interface Experience Platform.
+
+![](assets/alert-troubleshooting-0.png)
+
+![](assets/alert-troubleshooting-1.png)
+
+Para solucionar problemas **Ação personalizada** alertas:
+
+* Verifique sua ação personalizada usando o modo de teste em outra jornada:
+
+  ![](assets/alert-troubleshooting-2.png)
+
+* Verifique o relatório de jornadas para ver os motivos do erro na ação.
+
+  ![](assets/alert-troubleshooting-3.png)
+
+* Verifique stepEvents da jornada para obter mais informações sobre &quot;failureReason&quot;.
+* Verifique a configuração de ação personalizada e valide se a autenticação ainda está OK. Execute uma verificação manual com o Postman, por exemplo.

@@ -7,9 +7,10 @@ feature: Journeys, Reporting
 topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
+exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '522'
 ht-degree: 3%
 
 ---
@@ -25,6 +26,11 @@ Além de [relatórios em tempo real](live-report.md) e incorporada [recursos de 
 Por exemplo, você configurou uma jornada que envia vários emails. Esse recurso permite combinar [!DNL Journey Optimizer] dados com dados de evento downstream, como quantas conversões ocorreram, quanto engajamento aconteceu no site ou quantas transações ocorreram na loja. As informações da jornada podem ser combinadas com dados no Adobe Experience Platform, a partir de outras propriedades digitais ou de propriedades offline, para fornecer uma visualização mais abrangente do desempenho.
 
 [!DNL Journey Optimizer] O cria automaticamente os esquemas e fluxos necessários em conjuntos de dados para a Adobe Experience Platform para cada etapa que um indivíduo realiza em uma jornada. Um evento de etapa corresponde a um indivíduo movendo-se de um nó para outro em uma jornada. Por exemplo, em uma jornada que tenha um evento, uma condição e uma ação, os eventos de três etapas são enviados para o Adobe Experience Platform.
+
+Há casos em que vários eventos podem ser criados para o mesmo nó. Por exemplo, no caso da atividade Wait:
+
+* Um evento é gerado quando o perfil entra na espera (o atributo journeyNodeProcessed é igual a false)
+* Um evento é gerado quando o perfil sai dele (o atributo journeyNodeProcessed é igual a true)
 
 A lista de campos XDM transmitidos é abrangente. Alguns contêm códigos gerados pelo sistema e outros têm nomes amigáveis legíveis. Os exemplos incluem o rótulo da atividade de jornada ou o status da etapa: quantas vezes uma ação atingiu o tempo limite ou terminou com erro.
 
@@ -45,7 +51,7 @@ Os seguintes esquemas são criados:
 
 Os seguintes conjuntos de dados são transmitidos:
 
-* Jornada eventos de etapa
+* Eventos de etapa da jornada
 * Jornadas
 
 ![](assets/sharing3.png)
@@ -66,4 +72,3 @@ O fluxo de trabalho geral é:
 * Para usar esse conjunto de dados no [!DNL Customer Journey Analytics], para análise de jornada entre canais, consulte [Documentação do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
 ➡️ [Trabalhar com o Customer Journey Analytics](cja-ajo.md){target="_blank"}
-

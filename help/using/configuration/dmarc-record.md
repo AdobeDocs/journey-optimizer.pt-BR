@@ -8,10 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomínio, domínio, email, dmarc, registro
-source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
+exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 13%
+source-wordcount: '1353'
+ht-degree: 12%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 13%
 
 ## O que é DMARC? {#what-is-dmarc}
 
-O DMARC (Domain-based Message Authentication, Reporting, and Conformance) é um método de autenticação de email que permite que os proprietários do domínio o protejam contra o uso não autorizado. Ao oferecer uma política clara para provedores de email/ISPs, ajuda a impedir que atores mal-intencionados enviem emails que alegam ser do seu domínio. A implementação do DMARC reduz o risco de emails legítimos serem marcados como spam ou rejeitados e melhora a capacidade de entrega de emails.
+O DMARC (Domain-based Message Authentication, Reporting, and Conformance) é um método de autenticação de email que permite que os proprietários do domínio o protejam contra o uso não autorizado. Ao oferecer uma política clara para provedores de email e provedores de serviços de Internet (ISPs), ajuda a impedir que agentes mal-intencionados enviem emails que alegam ser do seu domínio. A implementação do DMARC reduz o risco de emails legítimos serem marcados como spam ou rejeitados e melhora a capacidade de entrega de emails.
 
 O DMARC também oferece relatórios sobre mensagens que falham na autenticação, juntamente com controle sobre o tratamento de emails que não passam na validação do DMARC. Dependendo do tipo de [Política DMARC](#dmarc-policies), esses emails podem ser monitorados, colocados em quarentena ou rejeitados. Esses recursos capacitam você a tomar medidas para mitigar e resolver possíveis erros.
 
@@ -61,7 +62,7 @@ Se um email falhar na autenticação DMARC, você poderá decidir qual ação se
 
 ## Atualização de requisito DMARC {#dmarc-update}
 
-Como parte da aplicação de práticas recomendadas do setor, o Google e o Yahoo! ambos exigem que você tenha uma **Registro DMARC** para qualquer domínio que você usar para enviar emails para eles. Este novo requisito aplica-se a partir de **1 de fevereiro de 2024**.
+Como parte da aplicação de práticas recomendadas do setor, o Google e o Yahoo! ambos exigem que você tenha uma **Registro DMARC** para qualquer domínio que você usar para enviar emails para eles. Este novo requisito se aplica a partir de **1º de fevereiro de 2024**.
 
 >[!CAUTION]
 >
@@ -194,10 +195,3 @@ The key benefits or DMARC are as folllows:
 * This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.
 
 -->
-
-
-
-
-
-
-

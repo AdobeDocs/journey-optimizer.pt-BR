@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dados, governança, DULE, rótulos, rotulagem, plataforma, política
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 100%
+source-wordcount: '877'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Para obter mais informações sobre a estrutura de governança de dados e como t
 
 ## Observações importantes {#important-notes}
 
-* A governança de dados se aplica somente às ações personalizadas nas jornadas. As ações do Campaign Classic e do Campaign Standard não são compatíveis.
+* A governança de dados se aplica somente às ações personalizadas nas jornadas. As ações do Campaign v7/v8 e do Campaign Standard não são compatíveis.
 * As políticas de governança só se aplicam quando uma ação de marketing (necessária ou adicional) é definida no nível de ação personalizada.
 
 ## Definir políticas de governança {#governance-policies}

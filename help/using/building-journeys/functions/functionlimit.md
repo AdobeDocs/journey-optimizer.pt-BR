@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: limite, função, expressão, jornada
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ Lista
 
 | Parâmetro | Tipo | Descrição |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista para classificar. Para listObject, ele deve ser uma referência de campo. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista a ser considerada. Para listObject, ele deve ser uma referência de campo. |
 | numberOfItems | inteiro | Número de itens a serem retornados da lista fornecida. |
 | firstOrLastItems | booleano | Esse parâmetro é opcional (true por padrão). true retorna os primeiros itens. false retorna os últimos itens. |
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1630'
 ht-degree: 8%
 
 ---
@@ -89,7 +89,7 @@ Para criar uma superfície de canal, siga estas etapas:
 
    >[!NOTE]
    >
-   >Você não pode continuar com a criação da superfície enquanto o pool de IP selecionado estiver em [edição](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processando]** e nunca foi associado ao subdomínio selecionado. [Saiba mais](#subdomains-and-ip-pools)
+   >Você não pode continuar com a criação da superfície de email enquanto o pool de IP selecionado estiver em [edição](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processando]** e nunca foi associado ao subdomínio selecionado. [Saiba mais](#subdomains-and-ip-pools)
    >
    >Salve a superfície como rascunho e aguarde até que o pool de IP tenha a **[!UICONTROL Sucesso]** status para retomar a criação da superfície.
 

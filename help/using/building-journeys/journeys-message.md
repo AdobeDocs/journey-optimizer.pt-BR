@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 17%
 
 ---
@@ -31,7 +31,7 @@ Você também pode configurar ações específicas para enviar mensagens para vo
 
 * Se estiver trabalhando com o Campaign e o Journey Optimizer, consulte estas seções:
 
-   * [[!DNL Journey Optimizer] e Campaign Classic v7/Campaign v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] e Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] e CAMPAIGN STANDARD](../action/acs-action.md)
 
 Para adicionar uma mensagem em uma jornada, siga as etapas abaixo:

@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 18%
+source-wordcount: '966'
+ht-degree: 13%
 
 ---
 
@@ -39,9 +39,9 @@ Para aprofundar o assunto e saber mais sobre os termos, conceitos e abordagens p
 
 ## Reduzir a taxa de reclamação {#reduce-complaint-rate}
 
-Geralmente, os provedores de internet têm um meio proeminente de reportar uma mensagem recebida como spam. Isso permite identificar fontes não confiáveis. Ao atender rapidamente às solicitações de recusa e, portanto, mostrar que você é um remetente confiável, é possível reduzir as taxas de reclamação. [Saiba mais sobre o gerenciamento de recusa](../privacy/opt-out.md#opt-out-management).
+Geralmente, os provedores de internet têm um meio proeminente de reportar uma mensagem recebida como spam. Isso permite identificar fontes não confiáveis. Ao atender rapidamente às solicitações de recusa e, portanto, mostrar que você é um remetente confiável, é possível reduzir as taxas de reclamação. [Saiba mais sobre o gerenciamento de recusa](../privacy/opt-out.md#opt-out-management)
 
-Como regra geral, não tente impedir os recipients que desejam fazer o opt-out exigindo que eles preencham campos como endereço de email ou nome, por exemplo. A landing page de cancelamento de subscrição deve ter apenas um botão de validação.
+Como regra geral, não tente impedir os destinatários que desejam fazer o opt-out exigindo que eles preencham campos como endereço de email ou nome, por exemplo. A landing page de cancelamento de subscrição deve ter apenas um botão de validação.
 
 Tenha cuidado extra ao solicitar confirmação adicional: um usuário pode ter dois endereços de email redirecionados para a mesma caixa (por exemplo: firstname.lastname@club.com e firstname.lastname@internet-club.com). Se o perfil conseguir lembrar somente o primeiro endereço e desejar cancelar a inscrição por meio de uma mensagem enviada para o outro, o formulário recusará essa ação, pois o identificador criptografado e o endereço de email digitado não corresponderão.
 
@@ -51,7 +51,7 @@ Tenha cuidado extra ao solicitar confirmação adicional: um usuário pode ter d
 
 Para proteger sua capacidade de delivery, os recipients cujos endereços estão na lista de supressão são excluídos por padrão de todos os deliveries futuros, pois o envio para esses contatos pode prejudicar sua reputação de envio.
 
-[Saiba mais sobre a lista de supressão](suppression-list.md).
+[Saiba mais sobre a lista de supressão](suppression-list.md)
 
 ## Usar ferramentas de monitoramento {#monitoring-tools}
 
@@ -71,10 +71,88 @@ Para melhorar a taxa de delivery e garantir que seus emails cheguem aos recipien
 
 * **Link de cancelamento de inscrição e página de aterrissagem**: o link de cancelamento de inscrição é essencial. Deve ser visível e válido e o formulário deve ser funcional.
 
-[Saiba mais sobre design de conteúdo de email](../email/get-started-email-design.md).
+[Saiba mais sobre design de conteúdo de email](../email/get-started-email-design.md)
 
-## Estabelecer sua reputação como remetente
+## Estabelecer sua reputação como remetente {#reputation}
 
 Se você mudou recentemente para outro provedor de serviços de email, endereço IP, domínio de email ou subdomínio, é necessário estabelecer sua reputação como remetente. Caso contrário, seus deliveries poderão ser bloqueados ou movidos para a pasta de spam da caixa de correio dos recipients.
 
-Para aquecer seu IP, você pode aumentar gradualmente o número de deliveries. Veja isto [caso de uso](../building-journeys/ramp-up-deliveries-uc.md).
+Para aquecer seu IP, você pode aumentar gradualmente o número de deliveries. Saiba mais nesta página [caso de uso](../building-journeys/ramp-up-deliveries-uc.md).
+
+## Implementar DMARC {#dmarc}
+
+Para ajudar você a reduzir o risco de emails legítimos serem marcados como spam ou rejeitados e evitar problemas de entrega, [!DNL Journey Optimizer] permite configurar o registro DMARC para todos os subdomínios que você delega ao Adobe.
+
+O DMARC (Domain-based Message Authentication, Reporting, and Conformance) é um método de autenticação de email que permite que os proprietários de domínios protejam seus domínios contra o uso não autorizado por agentes mal-intencionados.
+
+[Saiba mais sobre o registro DMARC](../configuration/dmarc-record.md)
+
+## Saiba mais sobre loops de comentários {#feedback-loops}
+
+Um loop de feedback (FBL) é um serviço oferecido por alguns ISPs que permite que o remetente de email seja notificado automaticamente quando o usuário que recebe um email optar por marcá-lo como spam (também conhecido como &quot;reclamação&quot;).
+
+Depois que um usuário final gera uma reclamação que é enviada de volta ao Adobe pelo ISP, o endereço de email é adicionado automaticamente ao [lista de supressão](../reports/suppression-list.md) e excluídos de deliveries futuros. Na verdade, o envio de emails para usuários que os marcaram como spam afeta negativamente a reputação do remetente e pode causar problemas de entrega. [Saiba mais sobre reclamações de spam](../reports/suppression-list.md#spam-complaints)
+
+>[!IMPORTANT]
+>
+>Nem todos os ISPs fornecem um FBL tradicional, como o Gmail. O Gmail não oferece feedback de nível individual e não pode ser usado para rastrear reclamações de spam para recipients individuais, concentrando-se em relatórios de nível agregado nas Ferramentas de postmaster do Google. [Saiba mais](https://support.google.com/a/answer/6254652?hl=en){target="_blank"}
+
+Todos os clientes do Adobe são automaticamente inscritos nos FBLs tradicionais dos seguintes ISPs:
+
+* 1&amp;1
+
+* AOL
+
+* BlueTime
+
+* Comcast
+
+* Fastmail
+
+* Gandi
+
+* Italia Online
+
+* La Poste
+
+* Liberty Global (Chello, UPC, Unity Media)
+
+* Locaweb
+
+* Mail.RU
+
+* Microsoft
+
+* OpenSRS
+
+* Rackspace
+
+* SEZNM
+
+* SFR
+
+* SilverSky
+
+* Swisscom
+
+* Synacor
+
+* Telecom Itália
+
+* Telenet
+
+* Telenor
+
+* Telstra
+
+* Terra
+
+* UOL
+
+* Virgin Media
+
+* Yahoo
+
+* Ziggo
+
+O Adobe audita esses FBLs regularmente para garantir que os FBLs disponíveis mais recentes sejam adicionados.

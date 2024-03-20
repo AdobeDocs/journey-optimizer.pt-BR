@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 11%
+source-wordcount: '766'
+ht-degree: 10%
 
 ---
 
@@ -47,6 +47,10 @@ Para criar uma **oferta**, siga estas etapas:
 
 1. Especifique o nome da oferta, bem como a data e a hora de início e término. Fora dessas datas, a oferta não será selecionada pelo mecanismo de decisão.
 
+   >[!NOTE]
+   >
+   >Ao selecionar horas, o fuso horário atual é considerado.
+
    ![](../assets/offer_details.png)
 
    >[!CAUTION]
@@ -64,6 +68,10 @@ Para criar uma **oferta**, siga estas etapas:
 1. Adicione representações para definir onde a oferta será exibida na mensagem. [Saiba mais](add-representations.md)
 
    ![](../assets/channel-placement.png)
+
+   >[!CAUTION]
+   >
+   >O tamanho de uma oferta incluindo todas as suas representações não pode exceder 300 KB.
 
 1. Adicione restrições para definir as condições para que a oferta seja exibida. [Saiba mais](add-constraints.md)
 

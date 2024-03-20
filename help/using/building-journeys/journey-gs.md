@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 17%
+source-wordcount: '1977'
+ht-degree: 15%
 
 ---
 
@@ -79,17 +79,30 @@ Na lista de jornadas, você pode aproveitar vários filtros para refinar a lista
 
 Estas são as várias operações de filtragem que você pode executar:
 
-* Filtre as jornadas de acordo com seu status, tipo, versão e tags atribuídas do **[!UICONTROL Filtros de status e versão]**.
+Filtre as jornadas de acordo com seu status, tipo, versão e tags atribuídas do **[!UICONTROL Filtros de status e versão]**.
 
-  O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação de público]**, **[!UICONTROL Ler público]**, **[!UICONTROL Evento comercial]** ou **[!UICONTROL Intermitência]**.
+O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação de público]**, **[!UICONTROL Ler público]**, **[!UICONTROL Evento comercial]** ou **[!UICONTROL Intermitência]**.
 
-* Use o **[!UICONTROL Filtros de criação]** para filtrar jornadas de acordo com a data de criação ou o usuário que as criou.
+O status pode ser:
 
-* Exibir jornadas que usam um evento, grupo de campos ou ação específica do **[!UICONTROL Filtros de atividade]** e **[!UICONTROL Filtros de dados]**.
+* **Fechado**: a jornada foi fechada usando o **Fechar para novas entradas** botão. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente.
+* **Rascunho**: a jornada está em seu primeiro estágio. Ele ainda não foi publicado.
+* **Rascunho (Teste)**: o modo de teste foi ativado usando o **Modo de teste** botão.
+* **Concluído**: a jornada alterna automaticamente para esse status após o tempo limite global padrão de 30 dias. Os perfis que já estão na jornada concluem a jornada normalmente. Novos perfis não podem mais entrar na jornada.
+* **Ao vivo**: a jornada foi publicada usando o **Publish** botão.
+* **Parado**: a jornada foi desligada usando o **Parar** botão. Todos os indivíduos saem instantaneamente da jornada.
 
-* Use o **[!UICONTROL Filtros de publicação]** para selecionar uma data de publicação ou um usuário. Você pode optar, por exemplo, por exibir as versões mais recentes de jornadas ao vivo que foram publicadas ontem.
+>[!NOTE]
+>
+>O ciclo de vida de criação do Jornada também inclui um conjunto de status intermediários que não estão disponíveis para filtragem: &quot;Publicação&quot; (entre &quot;Rascunho&quot; e &quot;Ao vivo&quot;), &quot;Ativando modo de teste&quot; ou &quot;Desativando modo de teste&quot; (entre &quot;Rascunho&quot; e &quot;Rascunho (teste)&quot;) e &quot;Parando&quot; entre &quot;Ao vivo&quot; e &quot;Parado&quot;). Quando uma jornada está em um estado intermediário, ela é somente leitura.
 
-  Para filtrar jornadas com base em um intervalo de datas específico, selecione **[!UICONTROL Personalizado]** do **[!UICONTROL Publicado]** lista suspensa.
+Use o **[!UICONTROL Filtros de criação]** para filtrar jornadas de acordo com a data de criação ou o usuário que as criou.
+
+Exibir jornadas que usam um evento, grupo de campos ou ação específica do **[!UICONTROL Filtros de atividade]** e **[!UICONTROL Filtros de dados]**.
+
+Use o **[!UICONTROL Filtros de publicação]** para selecionar uma data de publicação ou um usuário. Você pode optar, por exemplo, por exibir as versões mais recentes de jornadas ao vivo que foram publicadas ontem.
+
+Para filtrar jornadas com base em um intervalo de datas específico, selecione **[!UICONTROL Personalizado]** do **[!UICONTROL Publicado]** lista suspensa.
 
 Além disso, nos painéis de configuração Evento, Fonte de dados e Ação, a variável **[!UICONTROL Usado em]** campo exibe o número de jornadas que usam esse evento, grupo de campos ou ação específica. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas correspondentes.
 

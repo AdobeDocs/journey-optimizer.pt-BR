@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 12%
+source-wordcount: '828'
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ Os recipients cujos endereços de email são suprimidos são excluídos automati
 
 Os endereços são adicionados à lista de supressão da seguinte maneira:
 
-* Todos **devoluções permanentes** e **reclamações de spam** enviar automaticamente os endereços correspondentes para a lista de supressão após uma única ocorrência.
+* Todos **devoluções permanentes** e **reclamações de spam** enviar automaticamente os endereços correspondentes para a lista de supressão após uma única ocorrência. Saiba mais sobre reclamações de spam no [nesta seção](#spam-complaints).
 
 * **Rejeições temporárias** não envie imediatamente um endereço para a lista de supressão, mas incremente um contador de erros. Vários [tentativas](../configuration/retries.md) são executados e, quando o contador de erros atinge o limite, o endereço é adicionado à lista de supressão.
 
@@ -81,3 +81,5 @@ A lista de supressão coleta endereços de email que marcam sua mensagem como sp
 Enviar para recipients depois que eles enviarem uma reclamação de spam pode ter um enorme impacto na sua reputação de envio, pois informa aos ISPs que você pode enviar emails indesejados e pode não ouvir seus recipients.
 
 Isso pode fazer com que seu endereço IP ou domínio de envio seja bloqueado, o que pode ser evitado com esses endereços na lista de supressão.
+
+Alguns ISPs oferecem um loop de comentários (FBL) que permite que o remetente de email seja notificado automaticamente quando o usuário que recebe um email optar por marcá-lo como spam. [Saiba mais](deliverability.md#feedback-loops)

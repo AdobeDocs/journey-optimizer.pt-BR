@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 12%
+source-wordcount: '2378'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,11 @@ ht-degree: 12%
 
 Para começar a criar um email, você precisa configurar superfícies de canal de email que definam todos os parâmetros técnicos necessários para suas mensagens. [Saiba como criar superfícies](../configuration/channel-surfaces.md)
 
-Defina as configurações de email na seção dedicada da configuração da superfície de canal.
+>[!NOTE]
+>
+>Para preservar sua reputação e melhorar sua capacidade de delivery, configure os subdomínios que serão usados para enviar emails antes de criar uma superfície de email. [Saiba mais](../configuration/about-subdomain-delegation.md)
+
+Defina as configurações de email na seção dedicada da configuração da superfície de canal, conforme detalhado abaixo.
 
 ![](assets/preset-email-settings.png)
 
@@ -51,27 +55,29 @@ Ao criar uma mensagem, você deve escolher uma superfície de canal válida que 
 
 ## Subdomínio e pools de IP {#subdomains-and-ip-pools}
 
-No **Subdomínio e pools de IP** seção, você deve:
+No **Subdomínio e pools de IP** preencha os campos obrigatórios conforme instruído abaixo.
 
-1. Selecione o subdomínio que será usado para enviar os emails. [Saiba mais](../configuration/about-subdomain-delegation.md)
+1. Selecione o subdomínio que será usado para enviar os emails.
+
+   Para preservar a reputação do seu domínio, acelere o processo de aquecimento de IP e melhore a capacidade de entrega, delegue os subdomínios de envio ao Adobe. [Saiba mais](../configuration/about-subdomain-delegation.md)
 
 1. Selecione o pool de IP para associar à superfície. [Saiba mais](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png)
+   ![](assets/preset-subdomain-ip-pool.png)
 
-Você não pode continuar com a criação da superfície enquanto o pool de IP selecionado estiver em [edição](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processando]** e nunca foi associado ao subdomínio selecionado. Caso contrário, a versão mais antiga da associação de pool/subdomínio de IP ainda será usada. Se esse for o caso, salve a superfície como rascunho e tente novamente depois que o pool de IP tiver o **[!UICONTROL Sucesso]** status.
+   Você não pode continuar com a criação da superfície enquanto o pool de IP selecionado estiver em [edição](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processando]** e nunca foi associado ao subdomínio selecionado. Caso contrário, a versão mais antiga da associação de pool/subdomínio de IP ainda será usada. Se esse for o caso, salve a superfície como rascunho e tente novamente depois que o pool de IP tiver o **[!UICONTROL Sucesso]** status.
 
->[!NOTE]
->
->Para ambientes não relacionados à produção, o Adobe não cria subdomínios de teste prontos para uso nem concede acesso a um pool de IPs de envio compartilhados. Você precisa [delegar seus próprios subdomínios](../configuration/delegate-subdomain.md) e use os IPs do pool atribuído à sua organização.
+   >[!NOTE]
+   >
+   >Para ambientes não relacionados à produção, o Adobe não cria subdomínios de teste prontos para uso nem concede acesso a um pool de IPs de envio compartilhados. Você precisa [delegar seus próprios subdomínios](../configuration/delegate-subdomain.md) e use os IPs do pool atribuído à sua organização.
 
-Após selecionar um pool de IP, as informações de PTR ficam visíveis ao passar o mouse sobre os endereços IP exibidos abaixo da lista suspensa Pool de IPs. [Saiba mais sobre registros PTR](../configuration/ptr-records.md)
+1. Após selecionar um pool de IP, as informações de PTR ficam visíveis ao passar o mouse sobre os endereços IP exibidos abaixo da lista suspensa Pool de IPs. [Saiba mais sobre registros PTR](../configuration/ptr-records.md)
 
-![](assets/email-surface-ptr-record.png)
+   ![](assets/email-surface-ptr-record.png)
 
->[!NOTE]
->
->Se um registro PTR não estiver configurado, entre em contato com o representante da Adobe.
+   >[!NOTE]
+   >
+   >Se um registro PTR não estiver configurado, entre em contato com o representante da Adobe.
 
 ## List-Unsubscribe {#list-unsubscribe}
 

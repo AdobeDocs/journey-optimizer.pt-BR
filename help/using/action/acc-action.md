@@ -9,27 +9,27 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, integração
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 22%
+source-wordcount: '496'
+ht-degree: 20%
 
 ---
 
-# Integrar ao Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
+# Integrar ao Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-v7-v8}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Ações do Adobe Campaign v7/v8"
->abstract="Essa integração está disponível para o Adobe Campaign Classic v7 e v8. Ela permite enviar emails, notificações por push e SMS usando os recursos de mensagens transacionais do Adobe Campaign. A conexão entre as instâncias do Journey Optimizer e do Campaign é configurada pela Adobe no momento do provisionamento."
+>abstract="Essa integração está disponível para o Adobe Campaign v7 e v8. Ela permite enviar emails, notificações por push e SMS usando os recursos de mensagens transacionais do Adobe Campaign. A conexão entre as instâncias do Journey Optimizer e do Campaign é configurada pela Adobe no momento do provisionamento."
 
-Essa integração está disponível para o Adobe Campaign Classic v7, a partir da versão 7.1, e o Adobe Campaign v8. Ela permite enviar emails, notificações por push e SMS usando os recursos de mensagens transacionais do Adobe Campaign.
+Essa integração está disponível para o Adobe Campaign v7/v8 a partir da versão 7.1 e o Adobe Campaign v8. Ela permite enviar emails, notificações por push e SMS usando os recursos de mensagens transacionais do Adobe Campaign.
 
 A conexão entre as instâncias do Journey Optimizer e do Campaign é configurada pela Adobe no momento do provisionamento.
 
 Um caso de uso completo é apresentado neste [seção](../building-journeys/ajo-ac.md).
 
-Para cada ação configurada, uma atividade de ação está disponível na paleta do designer de jornada. Consulte esta [seção](../building-journeys/using-adobe-campaign-classic.md).
+Para cada ação configurada, uma atividade de ação está disponível na paleta do designer de jornada. Consulte esta [seção](../building-journeys/using-adobe-campaign-v7-v8.md).
 
 ## Observações importantes {#important-notes}
 
