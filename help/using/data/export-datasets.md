@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: f2d4531bd3b0b84dc1b52e818cbbeee36733314f
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 5%
+source-wordcount: '872'
+ht-degree: 9%
 
 ---
 
@@ -37,9 +37,33 @@ Informações detalhadas sobre cada destino estão disponíveis na documentaçã
 * [Armazenamento em nuvem Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html)
 
-## Conjuntos de dados do Journey Optimizer disponíveis para exportação {#datasets}
+## Conjuntos de dados disponíveis para exportação {#datasets}
 
-Entenda, na tabela abaixo, quais conjuntos de dados do Journey Optimizer você pode exportar dependendo da camada do produto (consulte [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}) |Conjunto de dados|Descrição|Camada| | — | — | — | | Conjunto de dados do evento de feedback CCO do AJO | Conjunto de dados do evento de feedback CCO do AJO | Prime | | Conjunto de dados de classificação do AJO | Conjunto de dados para assimilar eventos de feedback de aplicativos de email e por push do Journey Optimizer. Criado pelo SDK. | Prime | | Conjunto de dados do serviço de consentimento do AJO | Armazena informações de consentimento de um perfil. | Prime | | Conjunto de dados do evento de experiência de rastreamento de email do AJO | Logs de interação para o canal de email, que é usado para fins de criação de relatórios e público-alvo.  | Prime | | Conjunto de dados da entidade AJO | Conjunto de dados para armazenar metadados de entidade para mensagens enviadas ao usuário final.  | Prime | | Conjunto de dados do evento de atividade de entrada do AJO | Conjunto de dados para canais na Web e no aplicativo do Journey Optimizer para eventos de entrega e interação. | Prime | | Conjunto de dados do perfil de mensagens interativas do AJO | Armazena perfis criados para oferecer suporte a campanhas acionadas por API | Prime | | Conjunto de dados do evento de feedback de mensagem do AJO | Logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. Os comentários dos ISPs de email sobre rejeições também são registrados neste conjunto de dados. | Prime | | Extensão de contadores de perfil do AJO | Contém um mapa de objetos contendo counter_value e expiryDate, digitado por counter_id | Prime | | Conjunto de dados do perfil de push do AJO | Armazena tokens de push de um perfil. | Prime | | Conjunto de dados do evento de experiência de rastreamento de push do AJO | Logs de interação para canal de push usados para relatórios e criação de público-alvo.  | Prime | | Conjunto de dados do AJO Surfaces | Conjunto de dados vazio relacionado ao esquema de Superfícies de entrada do Journey Optimizer | Prime | | OutputForUPSDataset | Contém todas as associações de público-alvo do AO a serem gravadas no UPS | Prime | | Conjunto de dados do perfil do Audience Orchestration | Gerado por composição de público-alvo para públicos-alvo de Composição de público-alvo. Contém todos os públicos-alvo de composição de público-alvo, seus atributos e dados de enriquecimento | Prime | | Repositório de objetos de decisão - Atividades | também conhecido como Decisões na interface do usuário do. Mas esses são os objetos que um usuário cria que reúne todos os elementos, incluindo a lógica de decisão. Por exemplo, para uma disposição específica (localização), quais ofertas devem ser consideradas (coleção de ofertas) e qual método de classificação usar nessas ofertas. | Ultimate | | Repositório de objetos de decisão - Ofertas substitutas | este é o repositório para o outro tipo de oferta que um usuário cria. Especificamente, se não estiverem qualificados para ver uma oferta personalizada e precisarem ver algo, pelo menos verão a oferta substituta. Esse conjunto de dados contém os atributos desse tipo de oferta | Ultimate | | Repositório de objetos de decisão - Ofertas personalizadas | este é o repositório para um tipo de oferta que um usuário cria. Portanto, esse conjunto de dados contém os atributos sobre esse tipo de oferta | Ultimate | | Repositório de objetos de decisão - Posicionamentos | este é o repositório de objetos que definem o local onde uma oferta precisa ser exibida. | Ultimate | | Jornada eventos de etapa | Captura todos os eventos de experiência de etapa de Jornada gerados no Journey Optimizer para serem consumidos por serviços como relatórios. | Prime | | Jornadas | Informações sobre o conjunto de dados de metadados que contém cada etapa de uma jornada | Prime | | ODE DecisionEvents - decisão de produção | Sempre que tomamos uma decisão com base em uma solicitação, contamos isso como um evento de decisão | Ultimate |
+Entenda na tabela abaixo quais conjuntos de dados do Journey Optimizer você pode exportar.
+
+| Conjunto de dados | Descrição |
+| ------- | ------- | 
+| Conjunto de dados do evento de feedback CCO do AJO | Conjunto de dados do evento de feedback CCO do AJO |
+| Conjunto de dados de classificação do AJO | Conjunto de dados para assimilar eventos de feedback de aplicativos de email e por push do Journey Optimizer. Criado pelo SDK. |
+| Conjunto de dados do serviço de consentimento do AJO | Armazena informações de consentimento de um perfil. |
+| Conjunto de dados do evento de experiência de rastreamento de email do AJO | Logs de interação para o canal de email, que é usado para fins de criação de relatórios e público-alvo.  |
+| Conjunto de dados de entidade do AJO | Conjunto de dados para armazenar metadados de entidade para mensagens enviadas ao usuário final.  |
+| Conjunto de dados do evento de atividade de entrada do AJO | Conjunto de dados para canais na Web e no aplicativo do Journey Optimizer para eventos de entrega e interação. |
+| Conjunto de dados do perfil de mensagens interativas do AJO | Armazena perfis criados para oferecer suporte a campanhas acionadas por API |
+| Conjunto de dados do evento de feedback de mensagem do AJO | Logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. O feedback dos ISPs de email sobre rejeições também é registrado neste conjunto de dados. |
+| Extensão de contadores de perfil do AJO | Contém um mapa de objetos contendo counter_value e expiryDate, digitado por counter_id |
+| Conjunto de dados do perfil de push do AJO | Armazena tokens de push de um perfil. |
+| Conjunto de dados do evento de experiência de rastreamento de push do AJO | Logs de interação para canal de push usados para relatórios e criação de público-alvo.  |
+| Conjunto de dados do AJO Surfaces | Conjunto de dados vazio relacionado ao esquema de Superfícies de entrada do Journey Optimizer |
+| OutputForUPSDataset | Contém todas as associações de público-alvo do AO a serem gravadas no UPS |
+| Conjunto de dados do perfil do Audience Orchestration | Gerado por composição de público-alvo para públicos-alvo de Composição de público-alvo. Contém todos os públicos-alvo de composição de público-alvo, seus atributos e dados de enriquecimento |
+| Repositório de objetos de decisão - Atividades | também conhecido como Decisões na interface do usuário do. Mas esses são os objetos que um usuário cria que reúne todos os elementos, incluindo a lógica de decisão. Por exemplo, para uma disposição específica (localização), quais ofertas devem ser consideradas (coleção de ofertas) e qual método de classificação usar nessas ofertas. |
+| Repositório de objetos de decisão - Ofertas substitutas | este é o repositório para o outro tipo de oferta que um usuário cria. Especificamente, se não estiverem qualificados para ver uma oferta personalizada e precisarem ver algo, pelo menos verão a oferta substituta. Esse conjunto de dados contém os atributos desse tipo de oferta |
+| Repositório de objetos de decisão - Ofertas personalizadas | este é o repositório para um tipo de oferta que um usuário cria. Portanto, esse conjunto de dados contém os atributos sobre esse tipo de oferta | Ultimate |
+| Repositório de objetos de decisão - Posicionamentos | este é o repositório de objetos que definem o local onde uma oferta precisa ser exibida. |
+| Eventos de etapa da jornada | Captura todos os eventos de experiência de etapa de Jornada gerados no Journey Optimizer para serem consumidos por serviços como relatórios. |
+| Jornadas | Informações sobre o conjunto de dados de metadados que contém cada etapa de uma jornada |
+| ODE DecisionEvents - decisão de produção | Sempre que tomamos uma decisão com base em uma solicitação, contamos isso como um evento de decisão |
 
 ## Pré-requisitos {#prerequisites}
 
