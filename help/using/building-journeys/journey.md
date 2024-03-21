@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '613'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,6 @@ Crie designs de cenários avançados com várias etapas e com os seguintes recur
 
 * Com o **Designer de jornadas**, crie seus casos de uso de várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
 
-
 >[!NOTE]
 >
 >Medidas de proteção e limitações da jornada estão detalhadas [nesta página](../start/guardrails.md)
@@ -40,6 +39,8 @@ Crie designs de cenários avançados com várias etapas e com os seguintes recur
 Use o Adobe Journey Optimizer para projetar e orquestrar jornadas personalizadas a partir de uma única tela. As principais etapas para criar uma jornada são as seguintes:
 
 ![](assets/journey-creation-process.png)
+
+➡️ [Descubra este recurso no vídeo](#video)
 
 O Adobe Journey Optimizer inclui uma tela de orquestração omnicanal que permite aos profissionais de marketing harmonizar o alcance do marketing com o engajamento individual com clientes. A interface permite arrastar e soltar facilmente as atividades da paleta na tela para criar a jornada.
 
@@ -103,3 +104,9 @@ A partir do momento em que a jornada for publicada, pessoas físicas começarão
 As versões da jornada podem ser interrompidas individualmente. Todas as versões das jornadas possuem o mesmo nome.
 
 Ao publicar uma nova versão de uma jornada, a versão anterior encerra automaticamente e alterna para o status **Fechado**. Nenhuma entrada na jornada pode acontecer. Mesmo que você interrompa a versão mais recente, a versão anterior permanecerá fechada.
+
+## Vídeo explicativo {#video}
+
+Descubra os componentes de uma jornada e entenda as noções básicas para criar uma jornada na tela.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

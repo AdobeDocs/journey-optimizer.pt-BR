@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '1977'
-ht-degree: 15%
+source-wordcount: '1983'
+ht-degree: 16%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 15%
 >id="ajo_homepage_card2"
 >title="Criar jornadas"
 >abstract="Use o **Adobe Journey Optimizer** para criar casos de uso de orquestração em tempo real, aproveitando dados contextuais armazenados em eventos ou fontes de dados."
+
+
 
 ## Pré-requisitos{#start-prerequisites}
 
@@ -111,6 +113,8 @@ Além disso, nos painéis de configuração Evento, Fonte de dados e Ação, a v
 ## Criar sua jornada{#jo-build}
 
 Esta etapa é executada pelo **usuário empresarial**. É aqui que você cria suas jornadas. Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas.
+
+➡️ [Descubra este recurso no vídeo](journey.md#video)
 
 Estas são as etapas principais para enviar mensagens por meio do jornada:
 
