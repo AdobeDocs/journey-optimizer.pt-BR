@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Geração de imagem com o Assistente de conteúdo
-description: Introdução ao assistente de Conteúdo
+title: Geração de imagens com o Assistente de IA
+description: Introdução ao Assistente de IA
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,32 +11,32 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: b5582601-5804-4413-b548-a0b34cc38090
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 10%
+source-wordcount: '346'
+ht-degree: 3%
 
 ---
 
-# Geração de imagem com o Assistente de conteúdo {#image-content-assistant}
+# Geração de imagens com o Assistente de IA {#image-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **Índice**
 
-* [Introdução ao Assistente de conteúdo](gs-generative.md)
-* [Geração de texto com o Assistente de conteúdo](generative-content.md)
-* **[Gerar imagens com o assistente de Conteúdo](generative-image.md)**
+* [Introdução ao Assistente de IA](gs-generative.md)
+* [Gerar texto com o Assistente de IA](generative-content.md)
+* **[Gerar imagens com o Assistente de IA](generative-image.md)**
 
 >[!ENDSHADEBOX]
 
-Depois de criar e personalizar seus emails ou páginas da Web, leve o conteúdo ao próximo nível com o assistente de Conteúdo. Essa poderosa ferramenta permite personalizar e aprimorar seu conteúdo sem esforço.
+Depois de criar e personalizar seus emails ou páginas da Web, leve o conteúdo ao próximo nível com o Journey Optimizer AI Assistant. Essa poderosa ferramenta permite personalizar e aprimorar seu conteúdo sem esforço.
 
-No exemplo abaixo, aprenda a usar o assistente de Conteúdo para atualizar e melhorar seus ativos e obter uma melhor experiência do usuário. Siga estas etapas:
+No exemplo abaixo, aprenda a usar o Assistente de IA para atualizar e melhorar seus ativos e obter uma melhor experiência do usuário. Siga estas etapas:
 
 1. Depois de criar e configurar a mensagem, clique em **[!UICONTROL Criar conteúdo]** e personalize-o conforme necessário.
 
-1. Selecione o ativo que deseja alterar com o assistente de Conteúdo.
+1. Selecione o ativo que deseja alterar com o Assistente de IA.
 
 1. No menu à direita, selecione **[!UICONTROL Geração de experiência]**.
 
@@ -44,7 +44,7 @@ No exemplo abaixo, aprenda a usar o assistente de Conteúdo para atualizar e mel
 
 1. Adicione um prompt para ajustar melhor os resultados e clique em **[!UICONTROL Gerar]**.
 
-   Ativar o **[!UICONTROL Aprimorar com conteúdo atual]** opção do assistente de Conteúdo para personalizar novos ativos com base em sua mensagem, no nome da campanha e no público selecionado.
+   Ativar o **[!UICONTROL Aprimorar com conteúdo atual]** opção do Assistente de IA para personalizar novos ativos com base na mensagem, no nome da campanha e no público selecionado.
 
    ![](assets/gen-ai-image-2.png)
 

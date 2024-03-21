@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Geração de conteúdo com o assistente de Conteúdo
-description: Introdução ao assistente de Conteúdo
+title: Geração de conteúdo com o Assistente de IA
+description: Introdução ao Assistente de IA
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,28 +11,28 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 6%
+source-wordcount: '408'
+ht-degree: 3%
 
 ---
 
-# Geração de conteúdo com o assistente de Conteúdo {#title-content-assistant}
+# Geração de conteúdo com o Assistente de IA {#title-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **Índice**
 
-* [Introdução ao Assistente de conteúdo](gs-generative.md)
-* **[Gerar conteúdo com o assistente de Conteúdo](generative-content.md)**
-* [Geração de imagens com o Assistente de conteúdo](generative-image.md)
+* [Introdução ao Assistente de IA](gs-generative.md)
+* **[Gerar conteúdo com o Assistente de IA](generative-content.md)**
+* [Gerar imagens com o Assistente de IA](generative-image.md)
 
 >[!ENDSHADEBOX]
 
-Depois de criar e personalizar suas mensagens, leve o conteúdo ao próximo nível com o assistente de Conteúdo.
+Depois de criar e personalizar suas mensagens, eleve o nível do conteúdo com o Journey Optimizer AI Assistant.
 
-Ao usar o assistente de Conteúdo, você tem a oportunidade de otimizar o impacto da sua mensagem fazendo experimentos com conteúdo diferente. Cada variante é considerada um Tratamento exclusivo, para medir e comparar qual conteúdo gera mais cliques de maneira eficaz.
+Ao usar o Assistente de IA, você tem a oportunidade de otimizar o impacto da sua mensagem fazendo experimentos com conteúdo diferente. Cada variante é considerada um Tratamento exclusivo, para medir e comparar qual conteúdo gera mais cliques de maneira eficaz.
 
 Neste exemplo específico, saiba como enviar uma notificação por push envolvente usando o Experimento de conteúdo. Siga estas etapas:
 
@@ -48,7 +48,7 @@ Neste exemplo específico, saiba como enviar uma notificação por push envolven
 
    * **[!UICONTROL Resuma]**: use essa opção para encurtar um texto e manter o essencial.
 
-   * **[!UICONTROL Elaborar]**: use essa opção para expandir seu conteúdo com variantes criativas adicionais do Assistente de conteúdo.
+   * **[!UICONTROL Elaborar]**: use essa opção para expandir seu conteúdo com variantes criativas adicionais do Assistente de IA.
 
    ![](assets/gen-ai-title-2.png)
 
@@ -62,7 +62,7 @@ Neste exemplo específico, saiba como enviar uma notificação por push envolven
 
    ![](assets/gen-ai-title-4.png)
 
-1. Após personalizar o **[!UICONTROL Corpo]** da sua notificação por push, selecione **[!UICONTROL Mostrar assistente de Conteúdo]**.
+1. Após personalizar o **[!UICONTROL Corpo]** da sua notificação por push, selecione **[!UICONTROL Mostrar assistente de IA]**.
 
    Aqui, uma lista de variações já está disponível usando seu conteúdo original.
 
@@ -70,7 +70,7 @@ Neste exemplo específico, saiba como enviar uma notificação por push envolven
 
 1. Ajuste o conteúdo descrevendo o que você deseja gerar.
 
-   Ativar o **[!UICONTROL Aprimorar com conteúdo atual]** opção do assistente de Conteúdo para personalizar novo conteúdo com base na mensagem, no nome da campanha e no público selecionado.
+   Ativar o **[!UICONTROL Aprimorar com conteúdo atual]** opção do Assistente de IA para personalizar novo conteúdo com base na mensagem, no nome da campanha e no público selecionado.
 
 1. Clique em **[!UICONTROL Substituir]** para alterar seu conteúdo ou selecionar vários **[!UICONTROL Variante]** para criar **[!UICONTROL Tratamentos]** para a Experimentação e clique em **Adicionar tratamento(ões) X**.
 
