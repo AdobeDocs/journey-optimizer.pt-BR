@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1005'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 Atualmente em [!DNL Journey Optimizer] você só pode criar experiências baseadas em código no **campanhas**.
 
-As medidas de proteção e as recomendações são [esta página](code-based-prerequisites.md).
+As medidas de proteção e recomendações específicas para experiências baseadas em código são detalhadas em [esta página](code-based-prerequisites.md).
 
 >[!AVAILABILITY]
 >

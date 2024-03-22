@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1123'
 ht-degree: 81%
 
 ---
@@ -27,7 +27,7 @@ Com o recurso **experiência baseada em código**, é possível definir experiê
 >
 >* Atualmente em [!DNL Journey Optimizer] você só pode criar experiências baseadas em código usando **campanhas**.
 >
->>* O canal de experiência baseado em código não está disponível para organizações que compraram o Adobe **Healthcare Shield** e **Escudo de Proteção e Privacidade** ofertas complementares.
+>* O canal de experiência baseado em código é **não disponível** para organizações que compraram o Adobe **Healthcare Shield** e **Escudo de Proteção e Privacidade** ofertas complementares.
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
@@ -45,13 +45,13 @@ Com o recurso **experiência baseada em código**, é possível definir experiê
 <img alt="Validação" src="../assets/do-not-localize/web-prerequisites.jpg">
 </a>
 <div>
-<a href="code-based-prerequisites.md"><strong>Pré-requisitos</strong></a>
+<a href="code-based-prerequisites.md"><strong>Medidas de proteção e pré-requisitos</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="create-code-based.md#create-code-based-campaign">
-<img alt="Pouco frequentes" src="../assets/do-not-localize/web-create.jpg">
+<img alt="Pouco frequente" src="../assets/do-not-localize/web-create.jpg">
 </a>
 <div>
 <a href="create-code-based.md#create-code-based-campaign"><strong>Criar uma experiência baseada em código</strong></a>
