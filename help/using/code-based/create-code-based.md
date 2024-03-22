@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
+source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '980'
 ht-degree: 7%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 7%
 Atualmente em [!DNL Journey Optimizer] você só pode criar experiências baseadas em código no **campanhas**.
 
 As medidas de proteção e recomendações específicas para experiências baseadas em código são detalhadas em [esta página](code-based-prerequisites.md).
-
->[!AVAILABILITY]
->
->Por enquanto, o canal de experiência baseado em código não está disponível para organizações que compraram o Adobe **Healthcare Shield** e **Escudo de Proteção e Privacidade** ofertas complementares.
 
 ## Criar uma campanha baseada em código {#create-code-based-campaign}
 
