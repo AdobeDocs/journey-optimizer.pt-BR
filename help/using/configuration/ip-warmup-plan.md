@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: e8a178ea337fb57f2c2460c9e3e53257787c7bfd
+source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1577'
 ht-degree: 8%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 O que há neste guia de documentação:
 
-* [Introdução ao aquecimento de IP](ip-warmup-gs.md)
+* [Introdução aos planos de aquecimento de IP](ip-warmup-gs.md)
 * [Criar campanhas de aquecimento de IP](ip-warmup-campaign.md)
 * **[Criar um plano de aquecimento de IP](ip-warmup-plan.md)**
 * [Executar o plano de aquecimento de IP](ip-warmup-execution.md)
