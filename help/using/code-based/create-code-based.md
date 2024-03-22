@@ -6,14 +6,18 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1001'
 ht-degree: 7%
 
 ---
 
 # Criar experiências baseadas em código {#create-code-based}
+
+Atualmente em [!DNL Journey Optimizer] você só pode criar experiências baseadas em código no **campanhas**.
+
+As medidas de proteção e as recomendações são [esta página](code-based-prerequisites.md).
 
 >[!AVAILABILITY]
 >
@@ -22,10 +26,6 @@ ht-degree: 7%
 ## Criar uma campanha baseada em código {#create-code-based-campaign}
 
 Para começar a criar sua experiência baseada em código por meio de uma campanha, siga as etapas abaixo.
-
->[!CAUTION]
->
->Atualmente em [!DNL Journey Optimizer] você só pode criar experiências baseadas em código usando **campanhas**.
 
 1. Crie uma campanha. [Saiba mais](../campaigns/create-campaign.md)
 
@@ -41,11 +41,7 @@ Para começar a criar sua experiência baseada em código por meio de uma campan
 
 1. Selecione **[!UICONTROL Criar]**.
 
-1. Conclua as etapas para criar uma campanha, como as propriedades da campanha, [público](../audience/about-audiences.md), e [programação](../campaigns/create-campaign.md#schedule).
-
-   >[!NOTE]
-   >
-   >Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+1. Conclua as etapas para criar uma campanha, como as propriedades da campanha, [público](../audience/about-audiences.md), e [programação](../campaigns/create-campaign.md#schedule). Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 1. Edite o conteúdo conforme desejado usando o Editor de expressão. [Saiba mais](#edit-code)
 
@@ -100,7 +96,7 @@ Agora, assim que o desenvolvedor fizer uma chamada de API ou SDK para buscar con
 >title="Visualize sua experiência baseada em código"
 >abstract="Acesse uma simulação de como será a sua experiência baseada em código."
 
-Para exibir uma pré-visualização de sua experiência baseada em código modificada, siga as etapas abaixo. Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na  [Pré-visualizar e testar a página de conteúdo](../content-management/preview-test.md).
+Para exibir uma pré-visualização de sua experiência baseada em código modificada, siga as etapas abaixo. Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na [Pré-visualizar e testar a página de conteúdo](../content-management/preview-test.md).
 
 >[!CAUTION]
 >
