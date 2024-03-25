@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1463'
 ht-degree: 7%
 
 ---
@@ -99,6 +99,10 @@ As etapas para configurar a atividade Ler público-alvo são as seguintes:
 
    **Leitura incremental** opção: quando uma jornada com um evento recorrente **Ler público** O executa pela primeira vez, todos os perfis no público-alvo entram na jornada. Essa opção permite direcionar, após a primeira ocorrência, somente os indivíduos que entraram no público-alvo desde a última execução da jornada.
 
+       >[!NOTE]
+       >
+       >Se você estiver direcionando um [público-alvo de upload personalizado](../audience/about-audiences.md#segments-in-jornada-otimizer) na jornada, os perfis só serão recuperados na primeira recorrência se esta opção estiver ativada em uma jornada recorrente, uma vez que estes públicos-alvo são corrigidos.
+   
    **Forçar reentrada na recorrência**: essa opção permite fazer com que todos os perfis ainda presentes no jornada saiam automaticamente na próxima execução. Por exemplo, se você tiver 2 dias de espera em uma jornada recorrente diária, ao ativar essa opção os perfis sempre serão movidos na próxima execução da jornada (ou seja, no dia seguinte), estejam ou não no público da próxima execução. Se a duração dos perfis nesta jornada for maior que a frequência de recorrência, não ative essa opção para garantir que os perfis possam concluir a jornada.
 
 <!--

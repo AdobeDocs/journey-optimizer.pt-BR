@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reentrada, jornada, perfil, recorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '680'
 ht-degree: 5%
 
 ---
@@ -78,6 +78,10 @@ As jornadas de leitura de público-alvo podem ser recorrentes ou únicas:
 Duas opções estão disponíveis para jornadas recorrentes de Leitura de público:
 
 * **Leitura incremental** opção: quando uma jornada com um evento recorrente **Ler público** O executa pela primeira vez, todos os perfis no público-alvo entram na jornada. Essa opção permite direcionar, após a primeira ocorrência, somente os indivíduos que entraram no público-alvo desde a última execução da jornada.
+
+  >[!NOTE]
+  >
+  >Se você estiver direcionando um [público-alvo personalizado do upload](../audience/about-audiences.md#segments-in-journey-optimizer) na jornada, os perfis só serão recuperados na primeira recorrência se essa opção estiver habilitada em uma jornada recorrente, pois esses públicos-alvo são corrigidos.
 
 * **Forçar reentrada na recorrência**: essa opção permite fazer com que todos os perfis ainda presentes no jornada saiam automaticamente na próxima execução. Se a duração dos perfis nesta jornada for maior que a frequência de recorrência (por exemplo, se você usar atividades de espera), não ative essa opção para garantir que os perfis possam concluir a jornada.
 

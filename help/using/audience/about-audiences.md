@@ -7,11 +7,12 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
+mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 39%
+source-wordcount: '1835'
+ht-degree: 20%
 
 ---
 
@@ -34,12 +35,12 @@ Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou 
 Os públicos-alvo podem ser gerados usando métodos diferentes:
 
 * **Definições de segmento**: crie uma nova definição de público-alvo usando o Serviço de segmentação da Adobe Experience Platform. [Saiba como criar definições de segmento](creating-a-segment-definition.md)
-* **Importação de arquivo CSV**: importe um público usando um arquivo CSV. Saiba como importar públicos no Adobe Experience Platform [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+* **Upload personalizado**: importe um público usando um arquivo CSV. Saiba como importar públicos no Adobe Experience Platform [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 * **Composição de público**: crie um fluxo de trabalho de composição para combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo. [Introdução à composição de público-alvo](get-started-audience-orchestration.md)
 
 ## Públicos-alvo no [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Você pode selecionar em campanhas e jornadas qualquer público gerado usando definições de segmento, importação de arquivo CSV ou fluxos de trabalho de composição.
+Você pode selecionar em campanhas e jornadas qualquer público gerado usando definições de segmento, upload personalizado ou workflows de composição.
 
 >[!AVAILABILITY]
 >
@@ -49,27 +50,49 @@ Você pode selecionar em campanhas e jornadas qualquer público gerado usando de
 
 * Escolha um público para uma **campanha**, na qual a mensagem é enviada a todos os indivíduos que pertencem ao público-alvo selecionado. [Saiba como definir o público-alvo de uma campanha](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* Use uma atividade de orquestração **Ler público-alvo** em uma jornada para fazer com que todas as pessoas físicas no público entrem na jornada e recebam as mensagens incluídas na jornada.
-
-  Digamos que você tenha um público-alvo de “cliente prata”. Com essa atividade, você pode fazer com que todos os clientes prata entrem em uma jornada e enviar-lhes uma série de mensagens personalizadas. [Saiba como configurar uma atividade Ler público-alvo](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
-
-* Use a atividade de evento **Qualificação de público-alvo** em uma jornada para fazer com que as pessoas físicas entrem ou avancem na jornada com base nas entradas e saídas de público do Adobe Experience Platform.
-
-  Por exemplo, é possível fazer com que todos os novos clientes prata entrem em uma jornada e enviar-lhes mensagens. Para obter mais informações sobre como usar essa atividade, consulte [Saiba como configurar uma atividade de qualificação de público-alvo](../building-journeys/audience-qualification-events.md).
+* Use um **Ler público** atividade de orquestração em uma jornada para fazer com que todos os indivíduos no público-alvo entrem na jornada e recebam as mensagens incluídas na jornada. Digamos que você tenha um público-alvo de “cliente prata”. Com essa atividade, você pode fazer com que todos os clientes prata entrem em uma jornada e enviar-lhes uma série de mensagens personalizadas. [Saiba como configurar uma atividade Ler público-alvo](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
 * Use a atividade **Condição** em uma jornada para criar condições com base na associação de público-alvo. [Saiba como usar públicos-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
 
-## Usar atributos de enriquecimento de públicos-alvo no Journey Optimizer {#enrichment}
+* Use o **Qualificação de público** atividade de evento em uma jornada para fazer com que os indivíduos entrem ou avancem na jornada com base nas entradas e saídas do público-alvo do Adobe Experience Platform. Por exemplo, é possível fazer com que todos os novos clientes prata entrem em uma jornada e enviar-lhes mensagens. Para obter mais informações sobre como usar essa atividade, consulte [Saiba como configurar uma atividade de qualificação de público-alvo](../building-journeys/audience-qualification-events.md).
+
+  >[!NOTE]
+  >
+  >Devido à natureza em lote de públicos-alvo criados usando fluxos de trabalho de composição e upload personalizado, não é possível direcionar esses públicos-alvo em uma atividade de &quot;Qualificação de público-alvo&quot;. Somente públicos-alvo criados usando definições de segmento podem ser aproveitados nessa atividade.
+
+## Usar atributos de enriquecimento de públicos-alvo {#enrichment}
 
 Ao direcionar um público-alvo gerado usando workflows de composição, você pode aproveitar os atributos de enriquecimento desses públicos-alvo para criar sua jornada e personalizar suas mensagens.
 
-* Crie vários caminhos em uma jornada com base em regras que aproveitam os atributos de enriquecimento do público-alvo. Para fazer isso, direcione o público usando um [Ler público](../building-journeys/read-audience.md) atividade e, em seguida, criar regras em uma [Condição](../building-journeys/condition-activity.md) atividade com base nos atributos de enriquecimento do público-alvo.
+Para usar atributos de enriquecimento em uma Jornada, verifique se eles foram adicionados a um Grupo de campos na Fonte de dados da &quot;Experience Platform&quot;.
 
-  ![](assets/audience-enrichment-attribute-condition.png){zoomable=&quot;yes&quot;}
++++ Saiba como adicionar atributos de enriquecimento a um Grupo de campos
 
-* Personalize suas mensagens em jornadas ou campanhas adicionando atributos de enriquecimento do público-alvo direcionado no editor de expressão. [Saiba como trabalhar com o editor de expressão](../personalization/personalization-build-expressions.md)
+1. Navegue até &quot;Administração&quot; > &quot;Configuração&quot; > &quot;Fontes de dados&quot;.
+1. Selecione &quot;Experience Platform&quot; e crie ou edite um Grupo de campos.
+1. Abra o seletor de campos, localize os atributos de enriquecimento que deseja adicionar e marque a caixa de seleção ao lado deles.
+1. Salve as alterações.
 
-  ![](assets/audience-enrichment-attribute-perso.png){zoomable=&quot;yes&quot;}
+Informações detalhadas sobre fontes de dados estão disponíveis nestas seções:
+
+* [Trabalhar com a fonte de dados do Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
+* [Configurar uma fonte de dados](../datasource/configure-data-sources.md)
+
++++
+
+Depois que os atributos de enriquecimento forem adicionados a um Grupo de campos, você poderá aproveitá-los em locais diferentes no Journey Optimizer:
+
+* **Criar vários caminhos em uma jornada** com base em regras que aproveitam os atributos de enriquecimento do público-alvo. Para fazer isso, direcione o público usando um [Ler público](../building-journeys/read-audience.md) atividade e, em seguida, criar regras em uma [Condição](../building-journeys/condition-activity.md) atividade com base nos atributos de enriquecimento do público-alvo.
+
+  ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
+
+* **Personalizar suas mensagens** em jornadas ou campanhas adicionando atributos de enriquecimento do público-alvo direcionado no editor de expressão. [Saiba como trabalhar com o editor de expressão](../personalization/personalization-build-expressions.md)
+
+  ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
+
+>[!AVAILABILITY]
+>
+>Atributos de enriquecimento de upload personalizados ainda não estão disponíveis para uso no Journey Optimizer.
 
 ## Métodos de avaliação de público-alvo {#evaluation-method-in-journey-optimizer}
 
@@ -125,16 +148,95 @@ Consequentemente, para um desempenho ideal de segmentação por transmissão, ev
 
 * **Mensagem aberta** Evento de Tipo de Interação
 
-  Ao criar seu público-alvo, o uso de **Mensagem aberta** os eventos de interação se tornaram não confiáveis, pois não são indicadores reais da atividade do usuário e podem afetar negativamente o desempenho da segmentação. Saiba mais sobre o motivo disso [Publicação no blog do Adobe](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}.
-
-  Portanto, o Adobe recomenda não usar **Mensagem aberta** eventos de interação com segmentação por transmissão. Em vez disso, use sinais reais de atividade do usuário, como cliques, compras ou dados de beacon.
+  Ao criar seu público-alvo, o uso de **Mensagem aberta** os eventos de interação se tornaram não confiáveis, pois não são indicadores reais da atividade do usuário e podem afetar negativamente o desempenho da segmentação. Saiba mais sobre o motivo disso [Publicação no blog do Adobe](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}. Portanto, o Adobe recomenda não usar **Mensagem aberta** eventos de interação com segmentação por transmissão. Em vez disso, use sinais reais de atividade do usuário, como cliques, compras ou dados de beacon.
 
 * **Mensagem enviada** Evento de Status de Feedback
 
-  A variável **Mensagem enviada** o evento de feedback é usado com frequência para a verificação de frequência ou supressão antes do envio de um email. A Adobe recomenda evitá-lo, pois pressiona o desempenho e pode causar degradação do sistema.
-
-  Portanto, para frequência ou lógica de supressão, use regras de negócios em vez de **Mensagem enviada** eventos de feedback. Observe que, em breve, limites de frequência diária para perfis individuais estarão disponíveis, complementando a cadência mensal existente para regras de negócios.
+  A variável **Mensagem enviada** o evento de feedback é usado com frequência para a verificação de frequência ou supressão antes do envio de um email. A Adobe recomenda evitá-lo, pois pressiona o desempenho e pode causar degradação do sistema. Portanto, para frequência ou lógica de supressão, use regras de negócios em vez de **Mensagem enviada** eventos de feedback. Observe que, em breve, limites de frequência diária para perfis individuais estarão disponíveis, complementando a cadência mensal existente para regras de negócios.
 
 >[!NOTE]
 >
 >Você pode usar **Mensagem aberta** e **Mensagem enviada** eventos na segmentação em lote sem preocupações com o desempenho.
+
+
+## Perguntas frequentes sobre composição de público-alvo e upload personalizado {#faq}
+
+A seção a seguir lista as perguntas frequentes sobre o uso no Journey Optimizer de públicos-alvo criados com fluxos de trabalho de composição e upload personalizado (arquivos CSV).
+
++++ Onde posso usar públicos-alvo da composição de públicos-alvo e do upload personalizado no Journey Optimizer?
+
+Os públicos-alvo da composição de público-alvo e do upload personalizado podem ser direcionados a partir de campanhas e jornadas. [Saiba como direcionar públicos-alvo no [!DNL Journey Optimizer]](#segments-in-journey-optimizer)
+
+* Entrada **Campanhas**, esses públicos-alvo aparecem no seletor de público-alvo depois de clicar no botão &quot;Selecionar público-alvo&quot;.
+
+* Entrada **Jornadas**, você pode usar esses públicos-alvo em uma atividade &quot;Ler público-alvo&quot; durante a seleção de públicos-alvo e em uma atividade &quot;Condição&quot; para verificações de associação de públicos-alvo. No entanto, devido à sua natureza em lote, esses públicos-alvo não aparecem na atividade &quot;Qualificação de público-alvo&quot;.
+
+  >[!NOTE]
+  >
+  >Para públicos-alvo de upload personalizados, se a &quot;Leitura incremental&quot; estiver ativada em uma jornada recorrente, os perfis serão recuperados somente na primeira recorrência, pois esses públicos-alvo são corrigidos.
+
+Além disso, esses públicos-alvo estão disponíveis para uso no Editor de expressão para personalizar suas mensagens em jornadas e campanhas. [Saiba como trabalhar com o editor de expressão](../personalization/personalization-build-expressions.md)
+
++++
+
++++ O que são atributos de enriquecimento?
+
+Os atributos de enriquecimento são atributos adicionais que são contextuais e específicos a um público-alvo. Eles não estão associados ao perfil e são normalmente usados para fins de personalização.
+
+Os atributos de enriquecimento são vinculados a um público-alvo por meio de um [Enriquecer](composition-canvas.md#enrich) atividade na composição do público ou por meio do processo de upload personalizado.
+
++++
+
++++ Onde posso usar atributos de enriquecimento no Journey Optimizer?
+
+Os atributos de enriquecimento da composição de público-alvo podem ser aproveitados nas seguintes áreas. [Saiba como usar atributos de enriquecimento de públicos-alvo](#enrichment)
+
+* Atividade de condição (Jornada)
+* Atributos de ação personalizados (Jornada)
+* Personalização de mensagem (Jornadas e campanhas)
+
+>[!AVAILABILITY]
+>
+>Atributos de enriquecimento de upload personalizados ainda não estão disponíveis para uso no Journey Optimizer.
+
++++
+
++++ Como ativar atributos de enriquecimento no Jornada?
+
+Para usar atributos de enriquecimento em uma Jornada, verifique se eles foram adicionados a um Grupo de campos na Fonte de dados da &quot;Experience Platform&quot;. Informações sobre como adicionar atributos de enriquecimento a um Grupo de campos estão disponíveis em [nesta seção](#enrichment)
+
++++
+
++++ Após publicar um público-alvo da composição de público-alvo ou do upload personalizado, quanto tempo posso usá-lo no Journey Optimizer?
+
+* Públicos-alvo de **composição de público** são executados diariamente, portanto, talvez seja necessário aguardar até 24 horas para usá-los no Journey Optimizer.
+* Públicos-alvo de **upload personalizado** ficam disponíveis no Journey Optimizer aproximadamente 2 horas após a publicação.
+
++++
+
++++ Os valores do atributo de enriquecimento são atualizados após o início de uma jornada?
+
+Atualmente não. Mesmo depois dos nós de espera ou evento, os valores do atributo de enriquecimento permanecem os mesmos de quando a jornada foi iniciada.
+
++++
+
++++ Como os públicos-alvo de upload personalizados se associam com perfis?
+
+Durante o processo de upload personalizado, especifique o atributo CSV a ser usado como a identidade e a identidade do perfil para o qual ele é mapeado. Isso estabelece um link entre os dados do público-alvo e o perfil. Se o arquivo CSV contiver um valor de identidade não encontrado no perfil, um novo perfil será criado com esse valor de identidade.
+
+Informações detalhadas sobre o processo de upload personalizado estão disponíveis no Adobe Experience Platform [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+
++++
+
++++ Meus dados no Journey Optimizer são atualizados?
+
+Os dados em públicos-alvo da composição do público-alvo e do upload personalizado são preenchidos pelo Serviço de exportação de público-alvo (AES). O AES lê os atributos do perfil e a associação do público-alvo, que ele disponibiliza para esses públicos-alvo com as seguintes linhas do tempo:
+
+* **Composição de público**: exportação diária (~24 horas)
+* **Upload personalizado**: trabalho de exportação dedicado (~2 horas)
+
+Qualquer jornada que utilize um público-alvo da composição de público-alvo ou do upload personalizado na atividade &quot;Ler público-alvo&quot; terá atributos de perfil tão novos quanto a última avaliação em lote. Isso inclui consentimento/supressões na jornada.
+
+Além disso, os atributos enriquecidos nos públicos-alvo de composição do público-alvo estão tão atualizados quanto a última execução de composição, que pode durar até 24 horas no passado.
+
++++

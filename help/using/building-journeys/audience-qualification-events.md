@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: qualificação, eventos, público-alvo, jornada, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 11%
+source-wordcount: '1081'
+ht-degree: 10%
 
 ---
 
@@ -37,13 +37,18 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posteriormente
 
 * Lembre-se de que os públicos-alvo da Adobe Experience Platform são calculados uma vez por dia (**lote** públicos) ou em tempo real (**transmitido** públicos-alvo, usando a opção Públicos-alvo de alta frequência do Adobe Experience Platform).
 
-* Se o público-alvo selecionado for transmitido, os indivíduos que pertencem a esse público-alvo potencialmente entrarão na jornada em tempo real. Se o público-alvo for em lote, as pessoas recém-qualificadas para esse público-alvo potencialmente inserirão a jornada quando o cálculo do público-alvo for executado no Adobe Experience Platform.
+   * Se o público-alvo selecionado for transmitido, os indivíduos que pertencem a esse público-alvo potencialmente entrarão na jornada em tempo real.
+   * Se o público-alvo for em lote, as pessoas recém-qualificadas para esse público-alvo potencialmente inserirão a jornada quando o cálculo do público-alvo for executado no Adobe Experience Platform.
+
+  Como prática recomendada, recomendamos usar somente os públicos-alvo de transmissão em uma **Qualificação de público** atividade. Para casos de uso em lote, use um **[Ler público](read-audience.md)** atividade.
+
+  >[!NOTE]
+  >
+  >Devido à natureza em lote de públicos-alvo criados usando fluxos de trabalho de composição e upload personalizado, não é possível direcionar esses públicos-alvo em uma atividade de &quot;Qualificação de público-alvo&quot;. Somente públicos-alvo criados usando definições de segmento podem ser aproveitados nessa atividade.
 
 * Grupos de campos de evento de experiência não podem ser usados em jornadas que começam com uma atividade Ler público, uma qualificação de Público ou um evento comercial.
 
 * Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até 10 minutos para ficar ativa e ouvir os perfis que entram ou saem do público-alvo.
-
-* Como prática recomendada, use somente públicos-alvo de transmissão para **Qualificação de público** atividade. Para casos de uso em lote, use **[Ler público](read-audience.md)** atividade.
 
 ### Configurar a atividade{#cnfigure-segment-qualification}
 

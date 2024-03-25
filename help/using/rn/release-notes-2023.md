@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: ht
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+workflow-type: tm+mt
 source-wordcount: '4398'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -426,7 +426,7 @@ Eventos contextuais relacionados a campanhas agora estão disponíveis para uso 
 
 **Públicos-alvo**
 
-Foram feitos aprimoramentos no seletor de público-alvo em jornadas ou campanhas, com a adição de novas colunas que exibem a origem e a frequência de atualização dos públicos-alvo. Com o lançamento do portal Composição de público-alvo, a Adobe Experience Platform e o Adobe Journey Optimizer atualizaram oa utilização de “públicos-alvo” e “segmentos” no sistema e na documentação.
+Foram feitos aprimoramentos no seletor de público-alvo em jornadas ou campanhas, com a adição de novas colunas que exibem a origem e a frequência de atualização dos públicos-alvo. Com o lançamento do portal de composição de público-alvo, a Adobe Experience Platform e a Adobe Journey Optimizer atualizaram o uso de &quot;públicos-alvo&quot; e &quot;segmentos&quot; no sistema e na documentação.
 
 * Público-alvo: um conjunto de pessoas, contas, famílias ou outras entidades que compartilham características e comportamentos comuns.
 * Definição de segmento: na Adobe Experience Platform, as regras usadas para descrever as principais características ou comportamentos de um público-alvo. Esse termo era anteriormente conhecido apenas como “segmento”.

@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 83751eae9f703a89a57cb337492377ff2478d4a0
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 9%
@@ -56,7 +56,7 @@ Entenda na tabela abaixo quais conjuntos de dados do Journey Optimizer você pod
 | Conjunto de dados do evento de experiência de rastreamento de push do AJO | Logs de interação para canal de push usados para relatórios e criação de público-alvo.  |
 | Conjunto de dados do AJO Surfaces | Conjunto de dados vazio relacionado ao esquema de Superfícies de entrada do Journey Optimizer |
 | OutputForUPSDataset | Contém todas as associações de público-alvo do AO a serem gravadas no UPS |
-| Conjunto de dados do perfil do Audience Orchestration | Gerado por composição de público-alvo para públicos-alvo de Composição de público-alvo. Contém todos os públicos-alvo de composição de público-alvo, seus atributos e dados de enriquecimento |
+| Conjunto de dados do perfil do Audience Orchestration | Gerado por composição de público-alvo para públicos-alvo de composição de público. Contém todos os públicos-alvo de composição de público-alvo, seus atributos e dados de enriquecimento |
 | Repositório de objetos de decisão - Atividades | também conhecido como Decisões na interface do usuário do. Mas esses são os objetos que um usuário cria que reúne todos os elementos, incluindo a lógica de decisão. Por exemplo, para uma disposição específica (localização), quais ofertas devem ser consideradas (coleção de ofertas) e qual método de classificação usar nessas ofertas. |
 | Repositório de objetos de decisão - Ofertas substitutas | este é o repositório para o outro tipo de oferta que um usuário cria. Especificamente, se não estiverem qualificados para ver uma oferta personalizada e precisarem ver algo, pelo menos verão a oferta substituta. Esse conjunto de dados contém os atributos desse tipo de oferta |
 | Repositório de objetos de decisão - Ofertas personalizadas | este é o repositório para um tipo de oferta que um usuário cria. Portanto, esse conjunto de dados contém os atributos sobre esse tipo de oferta | Ultimate |
@@ -81,7 +81,7 @@ As principais etapas para exportar um conjunto de dados para um local de armazen
 
 ![](assets/dataset-export-process.png)
 
-Informações detalhadas sobre cada etapa estão disponíveis em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
+Informações detalhadas sobre cada etapa estão disponíveis em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=pt-BR){target="_blank"}.
 
 1. **Configurar o destino do armazenamento na nuvem**. Se ainda não tiver feito isso, conecte-se a um destino de armazenamento na nuvem no catálogo de destinos. Saiba como criar uma nova conexão de destino no [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
 
