@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '5046'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -30,8 +30,8 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
    * E: Atalho usado para acionar um evento em uma jornada baseada em eventos.
    * P: Atalho para acionar um evento em uma jornada baseada em público-alvo para a qual a opção Um único perfil por vez está ativada.
    * L: Atalho designado para exibir os logs de teste.
-* A página Regras de frequência de mensagem foi atualizada com uma nova subseção sobre limite de frequência diária, que está disponível sob demanda além de limite semanal ou mensal. [Leia mais](../configuration/frequency-rules.md#daily-frequency-cap)
-* A página Trabalho com políticas de consentimento foi aprimorada e atualizada com links úteis para a documentação do Experience Platform. [Leia mais](../action/consent.md)
+* A página Regras de frequência de mensagens foi atualizada com uma nova subseção sobre limite de frequência diária, que está disponível por demanda além dos limites semanal e mensal. [Leia mais](../configuration/frequency-rules.md#daily-frequency-cap)
+* A página Trabalhar com políticas de consentimento foi aprimorada e atualizada com links úteis para a documentação da Experience Platform. [Leia mais](../action/consent.md)
 * Uma nova seção foi adicionada para refletir o fato de que é possível exibir modelos de conteúdo de email do HTML como miniaturas com o modo de Exibição de grade (Disponibilidade limitada). [Leia mais](../content-management/content-templates.md#template-thumbnails)
 * Uma nova seção foi adicionada à página Deliverability para explicar o que são loops de feedback e como aproveitá-los. [Leia mais](../reports/deliverability.md#feedback-loops)
 * Uma observação foi adicionada à seção Criar ofertas personalizadas para especificar que o tamanho de uma oferta, incluindo todas as suas representações, não pode exceder 300 KB. [Leia mais](../offers/offer-library/creating-personalized-offers.md#create-offer)
