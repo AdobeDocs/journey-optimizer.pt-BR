@@ -14,7 +14,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 57%
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
 >title="Criar o conteúdo do email"
->abstract="O Assistente de IA do Adobe Jornada Otimizer traz sugestões proativas de variação de conteúdo para texto e imagens. Ele está disponível para canais de email, push, SMS e Web. Esse novo recurso fornece uma geração de texto e de imagens baseada em prompt."
+>abstract="O Assistente de IA do Adobe Journey Optimizer traz sugestões proativas de variação de conteúdo para texto e imagens. Ele está disponível para canais de email, push, SMS e Web. Esse novo recurso fornece uma geração de texto e de imagens baseada em prompt."
 
 >[!BEGINSHADEBOX]
 
