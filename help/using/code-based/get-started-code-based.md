@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: bb9ebf5900f38c3729321330eee176489a86cd8e
+source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1080'
 ht-degree: 84%
 
 ---
@@ -147,15 +147,15 @@ As tabelas abaixo listam alguns exemplos de definição de URI de superfície pa
 | --------- | ----------- | ------- | 
 | Web | web://domain.com/path/page.html#element | Representa um elemento individual em uma página específica de um domínio específico, onde um elemento pode ser um rótulo, como nos seguintes exemplos: hero_banner, top_nav, menu, rodapé etc. |
 | Aplicativo para iOS | mobileapp://com.vendor.bundle/activity#element | Representa um elemento específico em uma atividade de aplicativo nativa, como um botão ou outro elemento de exibição. |
-| Aplicativo para Android | mobileapp://com.vendor.bundle#element | Representa um elemento específico em um aplicativo nativo. |
+| Aplicativo para Android | mobileapp://com.vendor.bundle/#element | Representa um elemento específico em um aplicativo nativo. |
 
 **Outros tipos de dispositivos**
 
 | Tipo | URI | Descrição |
 | --------- | ----------- | ------- | 
-| Desktop | desktop://com.vendor.bundle#element | Representa um elemento específico em um aplicativo, como um botão, menu, banner principal, etc. |
-| Aplicativo de TV | tvcd://com.vendor.bundle#element | Representa um elemento específico em um aplicativo de dispositivo conectado à TV ou Smart TV - ID do pacote. |
-| Serviço | service://servicename#element | Representa um processo do lado do servidor ou outra entidade manual. |
+| Desktop | desktop://com.vendor.bundle/#element | Representa um elemento específico em um aplicativo, como um botão, menu, banner principal, etc. |
+| Aplicativo de TV | tvcd://com.vendor.bundle/#element | Representa um elemento específico em um aplicativo de dispositivo conectado à TV ou Smart TV - ID do pacote. |
+| Serviço | service://servicename/#element | Representa um processo do lado do servidor ou outra entidade manual. |
 | Quiosque | kiosk://location/screen#element | Exemplo de possíveis tipos de superfície adicionais que podem ser adicionados facilmente. |
 | ATM | atm://location/screen#element | Exemplo de possíveis tipos de superfície adicionais que podem ser adicionados facilmente. |
 
@@ -163,7 +163,5 @@ As tabelas abaixo listam alguns exemplos de definição de URI de superfície pa
 
 | Tipo | URI | Descrição |
 | --------- | ----------- | ------- | 
-| Web com caractere curinga | curinga:web://domain.com/`*`#element | Superfície curinga: representa um elemento individual em cada uma das páginas em um domínio específico. |
-| Web com caractere curinga | curinga:web://`*`domain.com/`*`#element | Superfície curinga - representa um elemento individual em cada uma das páginas em todos os domínios que terminam com &quot;domain.com&quot;. |
-
-
+| Web com caractere curinga | `wildcard:web://domain.com/*#element` | Superfície curinga: representa um elemento individual em cada uma das páginas em um domínio específico. |
+| Web com caractere curinga | `wildcard:web://*domain.com/*#element` | Superfície curinga - representa um elemento individual em cada uma das páginas em todos os domínios que terminam com &quot;domain.com&quot;. |

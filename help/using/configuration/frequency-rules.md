@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 949e7cd05a2b1125e13615814f6501b3906e470c
+source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 10%
+source-wordcount: '1219'
+ht-degree: 11%
 
 ---
 
@@ -107,7 +107,7 @@ No **[!UICONTROL Duração]** selecione se deseja que o limite seja aplicado men
 
 >[!NOTE]
 >
->O limite de frequência diária também está disponível sob demanda. [Saiba mais](#daily-frequency-cap)
+>O limite de frequência diária também está disponível por demanda. [Saiba mais](#daily-frequency-cap)
 
 O limite de frequência se baseia no período de calendário selecionado. Ela é redefinida no início do intervalo de tempo correspondente.
 
@@ -127,7 +127,7 @@ O limite de frequência diária é válido para o dia até 23:59:59 UTC e redefi
 
 >[!NOTE]
 >
->Ao lidar com [segmentação em lote](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} é recomendada. Saiba mais sobre os métodos de avaliação de público-alvo no [nesta seção](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Para garantir a precisão das regras de limite de frequência diária, a utilização de [segmentação por transmissão](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} é recomendada. Saiba mais sobre os métodos de avaliação de público-alvo no [nesta seção](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Ativar uma regra {#activate-rule}
 
