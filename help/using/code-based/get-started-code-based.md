@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
+source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 84%
+source-wordcount: '1055'
+ht-degree: 85%
 
 ---
 
@@ -145,19 +145,19 @@ As tabelas abaixo listam alguns exemplos de definição de URI de superfície pa
 
 | Tipo | URI | Descrição |
 | --------- | ----------- | ------- | 
-| Web | web://domain.com/path/page.html#element | Representa um elemento individual em uma página específica de um domínio específico, onde um elemento pode ser um rótulo, como nos seguintes exemplos: hero_banner, top_nav, menu, rodapé etc. |
-| Aplicativo para iOS | mobileapp://com.vendor.bundle/activity#element | Representa um elemento específico em uma atividade de aplicativo nativa, como um botão ou outro elemento de exibição. |
-| Aplicativo para Android | mobileapp://com.vendor.bundle/#element | Representa um elemento específico em um aplicativo nativo. |
+| Web | `web://domain.com/path/page.html#element` | Representa um elemento individual em uma página específica de um domínio específico, onde um elemento pode ser um rótulo, como nos seguintes exemplos: hero_banner, top_nav, menu, rodapé etc. |
+| Aplicativo para iOS | `mobileapp://com.vendor.bundle/activity#element` | Representa um elemento específico em uma atividade de aplicativo nativa, como um botão ou outro elemento de exibição. |
+| Aplicativo para Android | `mobileapp://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo nativo. |
 
 **Outros tipos de dispositivos**
 
 | Tipo | URI | Descrição |
 | --------- | ----------- | ------- | 
-| Desktop | desktop://com.vendor.bundle/#element | Representa um elemento específico em um aplicativo, como um botão, menu, banner principal, etc. |
-| Aplicativo de TV | tvcd://com.vendor.bundle/#element | Representa um elemento específico em um aplicativo de dispositivo conectado à TV ou Smart TV - ID do pacote. |
-| Serviço | service://servicename/#element | Representa um processo do lado do servidor ou outra entidade manual. |
-| Quiosque | kiosk://location/screen#element | Exemplo de possíveis tipos de superfície adicionais que podem ser adicionados facilmente. |
-| ATM | atm://location/screen#element | Exemplo de possíveis tipos de superfície adicionais que podem ser adicionados facilmente. |
+| Desktop | `desktop://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo, como um botão, menu, banner principal, etc. |
+| Aplicativo de TV | `tvcd://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo de dispositivo conectado à TV ou Smart TV - ID do pacote. |
+| Serviço | `service://servicename/#element` | Representa um processo do lado do servidor ou outra entidade manual. |
+| Quiosque | `kiosk://location/screen#element` | Exemplo de possíveis tipos de superfície adicionais que podem ser adicionados facilmente. |
+| ATM | `atm://location/screen#element` | Exemplo de possíveis tipos de superfície adicionais que podem ser adicionados facilmente. |
 
 **Superfícies curingas**
 
