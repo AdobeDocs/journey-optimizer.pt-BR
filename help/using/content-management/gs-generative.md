@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução ao Assistente de IA
+title: Introdução ao assistente de IA
 description: Saiba como acessar e trabalhar com o Assistente de IA do Journey Optimizer
 feature: Content Assistant
 topic: Content Management
@@ -18,7 +18,7 @@ ht-degree: 68%
 
 ---
 
-# Introdução ao Assistente de IA {#gs-content-assistant}
+# Introdução ao assistente de IA {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
