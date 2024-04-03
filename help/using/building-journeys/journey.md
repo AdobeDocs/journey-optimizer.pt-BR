@@ -11,7 +11,7 @@ exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -105,8 +105,8 @@ As versões da jornada podem ser interrompidas individualmente. Todas as versõe
 
 Ao publicar uma nova versão de uma jornada, a versão anterior encerra automaticamente e alterna para o status **Fechado**. Nenhuma entrada na jornada pode acontecer. Mesmo que você interrompa a versão mais recente, a versão anterior permanecerá fechada.
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
-Descubra os componentes de uma jornada e entenda as noções básicas para criar uma jornada na tela.
+Descubra os componentes de uma jornada e entenda os aspectos básicos da criação de uma jornada na tela.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
