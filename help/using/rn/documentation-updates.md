@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5073'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,25 +21,25 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Março de 2024 {#march-2024}
 
-* Uma seção de perguntas frequentes foi adicionada para abordar perguntas comuns sobre o uso da composição de público-alvo e públicos-alvo de upload personalizados no Journey Optimizer. [Leia mais](../audience/about-audiences.md#faq)
-* Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de março de 2024 do foi detalhada na documentação. [Leia mais](release-notes.md)
-* A página sobre o gerenciamento de entrada de perfis foi aprimorada. [Leia mais](../building-journeys/entry-management.md)
-* Informações sobre solução de problemas foram adicionadas à página Alertas. [Leia mais](../reports/alerts.md#alert-troubleshooting)
-* Informações sobre a atividade Wait foram adicionadas à página nos relatórios do jornada. [Leia mais](../reports/sharing-overview.md)
-* Para Jornadas no modo de teste, os seguintes atalhos foram desabilitados:
-   * T: Atalho para ativar ou desativar o modo de teste.
-   * E: Atalho usado para acionar um evento em uma jornada baseada em eventos.
-   * P: Atalho para acionar um evento em uma jornada baseada em público-alvo para a qual a opção Um único perfil por vez está ativada.
-   * L: Atalho designado para exibir os logs de teste.
+* Uma seção de perguntas frequentes foi adicionada para abordar perguntas comuns sobre o uso da composição de público-alvo e públicos-alvo para upload personalizado no Journey Optimizer. [Leia mais](../audience/about-audiences.md#faq)
+* Todos os novos recursos e aprimoramentos da versão de março de 2024 do [!DNL Journey Optimizer] estão detalhados na documentação. [Leia mais](release-notes.md)
+* A página sobre o gerenciamento de entradas de perfil foi aprimorada. [Leia mais](../building-journeys/entry-management.md)
+* Informações sobre resolução de problemas foram adicionadas à página “Alertas”. [Leia mais](../reports/alerts.md#alert-troubleshooting)
+* Informações sobre a atividade “Aguardar” foram adicionadas à página nos relatórios da jornada. [Leia mais](../reports/sharing-overview.md)
+* Para jornadas no modo de teste, os seguintes atalhos foram desabilitados:
+   * T: atalho para ativar ou desativar o modo de teste.
+   * E: atalho usado para acionar um evento em uma jornada baseada em eventos.
+   * P: atalho para acionar um evento em uma jornada baseada em públicos-alvo para a qual a opção de &quot;Um único perfil por vez&quot; está ativada.
+   * L: atalho para exibir os logs de teste.
 * A página Regras de frequência de mensagens foi atualizada com uma nova subseção sobre limite de frequência diária, que está disponível por demanda além dos limites semanal e mensal. [Leia mais](../configuration/frequency-rules.md#daily-frequency-cap)
 * A página Trabalhar com políticas de consentimento foi aprimorada e atualizada com links úteis para a documentação da Experience Platform. [Leia mais](../action/consent.md)
-* Uma nova seção foi adicionada para refletir o fato de que é possível exibir modelos de conteúdo de email do HTML como miniaturas com o modo de Exibição de grade (Disponibilidade limitada). [Leia mais](../content-management/content-templates.md#template-thumbnails)
-* Uma nova seção foi adicionada à página Deliverability para explicar o que são loops de feedback e como aproveitá-los. [Leia mais](../reports/deliverability.md#feedback-loops)
-* Uma observação foi adicionada à seção Criar ofertas personalizadas para especificar que o tamanho de uma oferta, incluindo todas as suas representações, não pode exceder 300 KB. [Leia mais](../offers/offer-library/creating-personalized-offers.md#create-offer)
+* Uma nova seção foi adicionada para refletir o fato de que é possível exibir modelos de conteúdo de email em HTML como miniaturas com o modo de Visualização em grade (disponibilidade limitada). [Leia mais](../content-management/content-templates.md#template-thumbnails)
+* Uma nova seção foi adicionada à página “Capacidade de entrega” para explicar o que são os ciclos de feedback e como aproveitá-los. [Leia mais](../reports/deliverability.md#feedback-loops)
+* Uma observação foi adicionada à seção “Criar ofertas personalizadas” para especificar que o tamanho de uma oferta, incluindo todas as suas representações, não pode exceder 300 KB. [Leia mais](../offers/offer-library/creating-personalized-offers.md#create-offer)
 
 ## Fevereiro de 2024 {#feb-2024}
 
-* Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de fevereiro de 2024 do foi detalhada na documentação. [Leia mais](release-notes.md)
+* Todos os novos recursos e aprimoramentos da versão de fevereiro de 2024 do [!DNL Journey Optimizer] estão detalhados na documentação. [Leia mais](release-notes.md)
 * Adição da integração Journey Optimizer + Workfront à página de integrações. [Leia mais](../start/ajo-integrations.md)
 * Adição de informações sobre como personalizar as representações de ofertas com base nos dados de contexto. [Leia mais](../offers/offer-library/add-representations.md#context-data)
 * Atualização da página de medidas de proteção com uma observação sobre ações personalizadas que são compatíveis com o formato JSON somente ao usar conteúdo de solicitação ou resposta. [Leia mais](../start/guardrails.md#custom-actions-g)
