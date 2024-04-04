@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: ht
-source-wordcount: '5073'
-ht-degree: 100%
+source-git-commit: 55391594cc7479edf83b2d2193de42756744f70d
+workflow-type: tm+mt
+source-wordcount: '5101'
+ht-degree: 99%
 
 ---
 
 # Atualizações na documentação {#latest-updates}
 
 Esta página lista todas as atualizações mais recentes na documentação do [!DNL Journey Optimizer].
+
+## Abril de 2024 {#april-2024}
+
+* Foram adicionadas informações na documentação de Gestão de decisões sobre o gerenciamento de regiões de borda e hub ao usar o limite de frequência com a API de decisão de borda. [Leia mais](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## Março de 2024 {#march-2024}
 
