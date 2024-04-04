@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
+source-git-commit: 5a80d7c9b12cb9d354b725b7f83f557fc15e6a90
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 16%
+source-wordcount: '2617'
+ht-degree: 15%
 
 ---
 
@@ -254,24 +254,32 @@ Você também pode especificar se deseja que o limite seja aplicado a todos os u
 >title="Definir a frequência limite"
 >abstract="Você pode optar por redefinir o contador de limite de oferta diariamente, semanalmente ou mensalmente. Observe que, após publicar a oferta com o limite de frequência habilitado, não será possível alterar a frequência que foi definida."
 
-A variável **[!UICONTROL Frequência]** permite definir com que frequência a contagem de limite é redefinida. Para fazer isso, defina o período de tempo para a contagem (diariamente, semanalmente ou mensalmente) e insira o número de dias/semanas/meses de sua escolha.
+A variável **[!UICONTROL Frequência]** permite definir com que frequência a contagem de limite é redefinida. Para fazer isso, defina o período de tempo para a contagem (diariamente, semanalmente ou mensalmente) e insira o número de dias/semanas/meses de sua escolha. Por exemplo, se desejar que a contagem de limite seja redefinida a cada 2 semanas, selecione **[!UICONTROL Semanalmente]** na lista suspensa correspondente e digite **2** no outro campo.
 
 ![](../assets/offer-capping-frequency.png)
 
-
 >[!NOTE]
 >
->A redefinição ocorre às 12h UTC, no dia definido ou no primeiro dia da semana/mês quando aplicável. O dia de início da semana é domingo. Qualquer duração escolhida não pode exceder 2 anos (ou seja, o número correspondente de meses, semanas ou dias).
+>A redefinição do contador de limite de frequência ocorre em **12h UTC**, no dia definido ou no primeiro dia da semana/mês quando aplicável. O dia de início da semana é **domingo**.
 >
->O contador de limite de frequência é atualizado e disponibilizado em uma decisão da API do Edge Decisioning em menos de 3 segundos.
+>Qualquer duração escolhida não pode exceder **2 anos** (ou seja, o número correspondente de meses, semanas ou dias).
 
-Por exemplo, se desejar que a contagem de limite seja redefinida a cada 2 semanas, selecione **[!UICONTROL Semanalmente]** na lista suspensa correspondente e digite **2** no outro campo. A restauração acontece todo domingo às 12h UTC.
+Depois de publicar sua oferta, você não poderá alterar o período de tempo (mensal, semanal ou diário) selecionado para a frequência. Você ainda poderá editar o limite de frequência se a oferta tiver o **[!UICONTROL Rascunho]** e nunca foi publicado antes com o limite de frequência ativado.
 
->[!CAUTION]
->
->Depois de publicar sua oferta, você não poderá alterar o período de tempo (mensal, semanal ou diário) selecionado para a frequência.
->
->Você ainda poderá editar o limite de frequência se a oferta tiver o **[!UICONTROL Rascunho]** e nunca foi publicado antes com o limite de frequência ativado.
++++ **Leitura obrigatória: limite de frequência e API de decisão de borda**
+
+* O contador de limite de frequência é atualizado e disponibilizado em uma decisão da API do Edge Decisioning em menos de 3 segundos.
+
+* Cada região do hub está associada a uma ou mais regiões de borda. As regras de limite de frequência são geradas e exportadas de cada região do hub para suas regiões de borda associadas. Sempre que uma decisão é tomada usando a API do Edge Decisioning, o sistema impõe as regras disponíveis na mesma região de borda:
+
+   * Se houver uma regra correspondente, o contador de limite de frequência do perfil será incrementado.
+   * Caso contrário, nenhum contador será criado para o perfil e a regra de limite de frequência não se aplica. Consequentemente, o perfil continuará a receber ofertas personalizadas mesmo se o limite for excedido.
+
+  Por exemplo, considere a região central da sua organização como *NLD2*, e você está enviando uma solicitação de decisão da Europa (*IRL1* região de borda). Nesse cenário, a solicitação de decisão incrementará o contador do perfil, pois as regras estão disponíveis no (Irlanda) *IRL1* região. No entanto, se o pedido de decisão for proveniente de uma região como o Japão (*JPN3*), que não é uma região periférica associada a (Países Baixos) *NLD2* região do hub, nenhum contador será criado e as regras de limite de frequência não serão aplicadas.
+
+  Para obter mais informações sobre quais regiões de hub e borda estão associadas à sua organização, entre em contato com o representante da Adobe.
+
++++
 
 ### Limite e disposições {#placements}
 
