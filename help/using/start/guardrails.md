@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 100%
+source-wordcount: '2029'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,6 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 * Não é possível adicionar anexos a um email com [!DNL Journey Optimizer].
 * Você não pode usar o mesmo domínio de envio para enviar mensagens do [!DNL Adobe Journey Optimizer] e de outro produto, como o [!DNL Adobe Campaign] ou o [!DNL Adobe Marketo Engage] por exemplo.
 
-
 ## Medidas de proteção das páginas de destino {#lp-guardrails}
 
 * Somente um componente de **Formulário** pode ser usado em uma única página principal.
@@ -46,6 +45,12 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 * Os arquivos de mídia para MMS podem ser incluídos por meio de um URL compatível. Verifique se o arquivo de mídia foi enviado separadamente.
 * A sincronização de feedback da mensagem não está disponível no momento para MMS.
 * O gerenciamento de consentimento opera no nível do canal SMS para MMS.
+
+## Medidas de proteção de subdomínios {#subdomain-guardrails}
+
+Por padrão, [!DNL Journey Optimizer] permite delegar até 10 subdomínios no total (abrangendo canais de email e da web).
+
+No entanto, dependendo do contrato de licença, talvez você possa delegar até 100 subdomínios. Entre em contato com o Adobe para saber mais sobre o número de subdomínios aos quais você tem direito.
 
 ## Medidas de proteção de fragmentos {#fragments-guardrails}
 
