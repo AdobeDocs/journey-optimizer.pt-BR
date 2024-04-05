@@ -6,20 +6,23 @@ feature: In App
 level: Intermediate
 keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
+source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 10%
 
 ---
 
 # Pré-requisitos e configuração {#inapp-configuration}
 
-Para enviar mensagens no aplicativo, jornadas e campanhas no [!DNL Journey Optimizer], você precisa seguir as etapas de configuração a seguir.
+## Etapas de configuração {#inapp-steps}
 
-1. Certifique-se de ter as permissões corretas nas campanhas do Journey Optimizer antes de iniciar, mesmo que planeje usar nas jornadas apenas mensagens no aplicativo. As permissões de campanha ainda são necessárias. [Saiba mais](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+Para enviar mensagens no aplicativo em suas jornadas e campanhas com [!DNL Journey Optimizer], você precisa seguir as etapas de configuração a seguir.
+
+1. Certifique-se de ter as permissões corretas nas campanhas do Journey Optimizer antes de iniciar, mesmo que planeje usar nas jornadas apenas mensagens no aplicativo. As permissões de campanha ainda são necessárias. [Saiba mais](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
+Uma permissão específica deve ser concedida para acessar o **Superfícies do aplicativo** no menu Coleta de dados do Adobe Experience Platform. Saiba mais [neste vídeo](#video).
 1. Ative o Adobe Journey Optimizer na sequência de dados da Coleção de dados da Adobe Experience Platform e verifique a política de mesclagem padrão na Adobe Experience Platform, conforme detalhado na [Pré-requisitos de entrega](#delivery-prerequisites) abaixo.
-1. Crie e configure uma superfície de aplicativo na Coleção de dados da Adobe Experience Platform, conforme detalhado em [nesta seção](#channel-prerequisites). Uma permissão específica deve ser concedida para acessar o **Superfícies do aplicativo** no menu Coleta de dados do Adobe Experience Platform. Saiba mais [neste vídeo](#video).
+1. Crie e configure uma superfície de aplicativo na Coleção de dados da Adobe Experience Platform, conforme detalhado em [nesta seção](#channel-prerequisites).
 1. Se você estiver usando experimentos de conteúdo, siga os requisitos listados em [nesta seção](#experiment-prerequisite).
 
 Depois de concluída, você pode criar, configurar e enviar sua primeira mensagem no aplicativo. Saiba como fazer isso [nesta seção](create-in-app.md).
@@ -135,10 +138,9 @@ Se você estiver **não** usando as seguintes opções [grupos de campos](https:
 >
 >A adição desses grupos de campos não afeta a coleta de dados normal. É aditivo apenas para as páginas em que um experimento está sendo executado, deixando todos os outros rastreamentos intactos.
 
-## Vídeos tutoriais{#video}
+## Vídeo tutorial{#video}
 
 O vídeo abaixo mostra como atribuir a variável **Gerenciar configuração do aplicativo** permissão para acessar o menu Superfícies do aplicativo.
-
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421607)
 

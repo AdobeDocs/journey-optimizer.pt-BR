@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
+source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 84%
+source-wordcount: '147'
+ht-degree: 77%
 
 ---
 
@@ -31,13 +31,13 @@ Use o Journey Optimizer para criar notificações no aplicativo e configurar as 
 <img alt="Validação" src="../assets/do-not-localize/inapp-config.jpg">
 </a>
 <div>
-<a href="inapp-configuration.md"><strong>Configuração do canal no aplicativo</strong></a>
+<a href="inapp-configuration.md"><strong>Configurar o canal no aplicativo</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="create-in-app.md">
-<img alt="Cliente potencial" src="../assets/do-not-localize/inapp-create.jpeg">
+<img alt="Lead" src="../assets/do-not-localize/inapp-create.jpeg">
 </a>
 <div><a href="create-in-app.md"><strong>Criar uma mensagem no aplicativo</strong>
 </div>
@@ -56,7 +56,7 @@ Use o Journey Optimizer para criar notificações no aplicativo e configurar as 
 <img alt="Validação" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>Acessar o relatório no aplicativo</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>Acessar relatórios no aplicativo</strong></a>
 </div>
 <p>
 </td>
