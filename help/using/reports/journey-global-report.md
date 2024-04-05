@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
+source-git-commit: 90b08388d3b43ad8d8cfc7efec119217f531860f
 workflow-type: tm+mt
-source-wordcount: '4368'
-ht-degree: 27%
+source-wordcount: '4412'
+ht-degree: 26%
 
 ---
 
@@ -54,6 +54,8 @@ Da sua jornada **[!UICONTROL Relatório global]**, o **[!UICONTROL Jornada]** A 
 ![](assets/journey_performance.png)
 
 A variável **[!UICONTROL Desempenho da jornada]** O widget permite rastrear visualmente a trajetória dos perfis direcionados à medida que eles navegam pela jornada.
+
+Observe que a contagem de perfis de um nó só é atualizada depois que o perfil conclui o nó, não ao inseri-la. Por exemplo, um perfil em um **Aguardar** O nó só é contado depois que a data especificada é atingida e o perfil sai do nó.
 
 ### Estatísticas da jornada {#journey-statistics}
 

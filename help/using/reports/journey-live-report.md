@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: 90b08388d3b43ad8d8cfc7efec119217f531860f
 workflow-type: tm+mt
-source-wordcount: '3659'
-ht-degree: 31%
+source-wordcount: '3703'
+ht-degree: 30%
 
 ---
 
@@ -54,6 +54,8 @@ Da sua jornada **[!UICONTROL Relatório ao vivo]**, o **[!UICONTROL Jornada]** A
 ![](assets/journey_live_performance.png)
 
 **[!UICONTROL Desempenho da jornada]** permite que você veja o caminho dos perfis direcionados passo a passo na jornada.
+
+Observe que a contagem de perfis de um nó só é atualizada depois que o perfil conclui o nó, não ao inseri-la. Por exemplo, um perfil em um **Aguardar** O nó só é contado depois que a data especificada é atingida e o perfil sai do nó.
 
 ### Estatísticas da jornada {#journey-statistics}
 
