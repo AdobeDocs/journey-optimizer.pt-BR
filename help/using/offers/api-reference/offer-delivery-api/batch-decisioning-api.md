@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: bb7b79286514dcc6931f7ba8dbf2542076d754fe
+source-git-commit: bab4cd8065830e36fd6188d3ebf0bd62a63947f3
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '729'
 ht-degree: 4%
 
 ---
@@ -127,7 +127,6 @@ Consulte a [Documentação da Gestão de decisões](../../get-started/starting-o
 | -------- | ----------- | ------- |
 | `@id` | A UUID gerada pela gestão de decisões que identifica uma única carga de trabalho. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | A ID da organização. | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | A ID do container. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | A hora em que a solicitação de carga de trabalho de decisão foi criada. | `1648078924834` |
 | `ode:status` | O status da carga de trabalho. | `ode:status: "QUEUED"` |
 
@@ -174,7 +173,6 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 | -------- | ----------- | ------- |
 | `@id` | A UUID gerada pela gestão de decisões que identifica uma única carga de trabalho. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | A ID da organização | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | A ID do contêiner | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | A hora em que a solicitação de Carga de trabalho de decisão foi criada. | `1648076994405` |
 | `ode:status` | O status da carga de trabalho começa com &quot;EM FILA&quot; e muda para &quot;PROCESSING&quot;, &quot;INGESTING&quot;, &quot;COMPLETED&quot; ou &quot;ERROR&quot;. | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | Ela mostra mais detalhes, como sparkJobId e batchID, se o status for &quot;PROCESSING&quot; ou &quot;INGESTING&quot;. Ele mostra os detalhes do erro se o status for &quot;ERRO&quot;. |  |
