@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4342c13d7f2cff4eea3bb3cdddad8f403f0cba90
+source-git-commit: 042c8a08597c800e64751f16f792954007ed0c08
 workflow-type: tm+mt
-source-wordcount: '5101'
+source-wordcount: '5123'
 ht-degree: 99%
 
 ---
@@ -21,7 +21,10 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Abril de 2024 {#april-2024}
 
+* As etapas de configuração para mensagens no aplicativo foram detalhadas. [Leia mais](../in-app/inapp-configuration.md)
+* Documentação para [APIs do Offer decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) e [APIs de decisão em lote](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) foram atualizadas.
 * Foram adicionadas informações na documentação de Gestão de decisões sobre o gerenciamento de regiões de borda e hub ao usar o limite de frequência com a API de decisão de borda. [Leia mais](../offers/offer-library/add-constraints.md#frequency-capping)
+
 
 ## Março de 2024 {#march-2024}
 
