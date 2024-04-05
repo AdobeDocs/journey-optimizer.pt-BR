@@ -42,6 +42,6 @@ Para criar um qualificador de coleta, siga estas etapas:
 
    ![](../assets/tags_created.png)
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

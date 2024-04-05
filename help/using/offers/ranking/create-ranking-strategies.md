@@ -85,7 +85,7 @@ Agora, sempre que uma oferta for exibida e/ou clicada, você desejará que o eve
 
 Para enviar tipos de evento (oferta exibida ou oferta clicada), você deve definir o valor correto para cada tipo de evento em um evento de experiência enviado para o Adobe Experience Platform. [Saiba como](../data-collection/schema-requirement.md)
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Saiba como criar um modelo de otimização personalizado e como aplicá-lo a uma decisão.
 

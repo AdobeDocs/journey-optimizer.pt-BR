@@ -12,7 +12,7 @@ exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 68%
+ht-degree: 74%
 
 ---
 
@@ -51,7 +51,7 @@ Para cada fonte de dados, você define as informações que serão recuperadas u
 
 Para obter mais informações sobre como configurar uma Fonte de Dados do Adobe Experience Platform e uma fonte de dados externa e como localizar e usar dados em uma jornada, assista a isso [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Entenda o que é uma fonte de dados e saiba como configurar fontes de dados da Experience Platform e externas.
 

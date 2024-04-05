@@ -28,7 +28,7 @@ Para fazer isso, é possível:
 
    * A **uma landing page externa**. [Saiba como adicionar um link externo para opção de não participação](#opt-out-external-lp)
 
-* Adicionar um **link para opção de não participação com um clique** no seu conteúdo de email. Esse link permitirá que seus recipients cancelem rapidamente a inscrição de suas comunicações, sem ser redirecionados para uma página de destino em que precisam confirmar o cancelamento, agilizando o processo de cancelamento de inscrição. [Saiba como adicionar um link para opção de não participação com um clique](#one-click-opt-out)
+* Adicionar um **link para opção de não participação com um clique** no seu conteúdo de email. Esse link permitirá que seus destinatários cancelem rapidamente a inscrição de suas comunicações, sem ser redirecionados para uma página de destino em que precisam confirmar o cancelamento, agilizando o processo de cancelamento de inscrição. [Saiba como adicionar um link para opção de não participação com um clique](#one-click-opt-out)
 
 * Adicione um link para cancelar a inscrição no cabeçalho do email. Se a variável **[!UICONTROL List-Unsubscribe]** estiver ativada no nível da superfície de canal, os emails correspondentes enviados com o Journey Optimizer incluirão um link de cancelamento de inscrição no cabeçalho do email. [Saiba mais sobre a opção de não participação no cabeçalho do email](#unsubscribe-header)
 
@@ -75,7 +75,7 @@ Parâmetros de consulta:
 * **params**: contém o conteúdo criptografado
 * **pid**: ID de perfil criptografada
 
-Esses três parâmetros serão incluídos no URL da página de destino de terceiros enviado ao seu recipient:
+Esses três parâmetros serão incluídos no URL da página de destino de terceiros enviado ao seu destinatário:
 
 ![](assets/opt-out-parameters.png)
 
@@ -109,13 +109,13 @@ Depois de configurar o link para cancelar inscrição para a página de destino 
 
 1. Enviar a mensagem incluindo o link por meio de uma [jornada](../building-journeys/journey.md).
 
-1. Depois que a mensagem for recebida, se o recipient clicar no link para cancelar a inscrição, a página de destino será exibida.
+1. Depois que a mensagem for recebida, se o destinatário clicar no link de cancelamento de inscrição, a página de destino será exibida.
 
    ![](assets/opt-out-lp-example.png)
 
-1. Se o recipient enviar o formulário (aqui, pressionando o botão **Cancelar inscrição** na página de destino), os dados do perfil serão atualizados por meio da [chamada de API](#opt-out-api).
+1. Se o destinatário enviar o formulário (aqui, pressionando o botão **Cancelar inscrição** na página de destino), os dados do perfil serão atualizados por meio da [chamada de API](#opt-out-api).
 
-1. O recipient que recusou a inscrição é então redirecionado para uma tela de mensagem de confirmação indicando que a recusa foi bem-sucedida.
+1. O destinatário que recusou a inscrição é então redirecionado para uma tela de mensagem de confirmação indicando que a recusa foi bem-sucedida.
 
    ![](assets/opt-out-confirmation-example.png)
 
@@ -155,7 +155,7 @@ Para adicionar um link para opção de não participação no seu email, siga as
 
 1. Salve as alterações.
 
-Depois que a mensagem for enviada por meio de uma [jornada](../building-journeys/journey.md), se um recipient clicar no link para opção de não participação, o perfil dele registrará imediatamente a opção de não participação.
+Depois que a mensagem for enviada por meio de uma [jornada](../building-journeys/journey.md), se um destinatário clicar no link para opção de não participação, o perfil dele registrará imediatamente a opção de não participação.
 
 ## Link para cancelar inscrição no cabeçalho do email {#unsubscribe-header}
 

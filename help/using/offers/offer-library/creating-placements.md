@@ -72,7 +72,7 @@ Para criar uma inserção, siga estas etapas:
 
    ![](../assets/placement_created.png)
 
-## Vídeo explicativo{#video}
+## Vídeo tutorial{#video}
 
 Saiba como criar inserções na gestão de decisões.
 

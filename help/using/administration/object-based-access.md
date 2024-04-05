@@ -83,7 +83,7 @@ Para atribuir rótulos de uso de dados personalizados ou principais aos objetos 
 
 1. No **[!UICONTROL Gerenciar acesso]** selecione o(s) rótulo(s) personalizado(s) ou de uso dos dados principais para gerenciar o acesso a este objeto.
 
-   Para obter mais informações sobre rótulos de uso de dados principais, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html).
+   Para obter mais informações sobre rótulos de uso de dados principais, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=pt-BR).
 
    ![](assets/olac_4.png)
 

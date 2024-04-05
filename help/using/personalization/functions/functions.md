@@ -429,7 +429,7 @@ As funções de comparação são usadas para comparar entre diferentes express�
     </tr>
 </table>
 
-## Vídeo explicativo{#video}
+## Vídeo tutorial{#video}
 
 Saiba como transformar valores de personalização usando funções de ajuda de personalização e entenda diferentes casos de uso para funções de ajuda.
 

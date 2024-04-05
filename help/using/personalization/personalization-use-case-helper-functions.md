@@ -340,7 +340,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
 
 * [Personalização com oferta baseada em decisão](../offers/offers-e2e.md)
 
-## Vídeo explicativo{#video}
+## Vídeo tutorial{#video}
 
 Saiba como usar funções auxiliares.
 

@@ -219,7 +219,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>Os URLs personalizados levam os recipients para páginas específicas de um site ou para um microsite personalizado, dependendo dos atributos do perfil. No Adobe Journey Optimizer, agora é possível adicionar personalização a URLs no conteúdo da mensagem. A personalização de URLs pode ser aplicada ao texto e às imagens, e usar dados do perfil ou dados contextuais.</p>
+<p>Os URLs personalizados levam os destinatários para páginas específicas de um site ou para um microsite personalizado, dependendo dos atributos do perfil. No Adobe Journey Optimizer, agora é possível adicionar personalização a URLs no conteúdo da mensagem. A personalização de URLs pode ser aplicada ao texto e às imagens, e usar dados do perfil ou dados contextuais.</p>
 <p>Para obter mais informações, consulte a <a href="../personalization/personalization-syntax.md#perso-urls">documentação detalhada</a>.</p>
 </td>
 </tr>

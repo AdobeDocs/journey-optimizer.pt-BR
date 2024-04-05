@@ -51,7 +51,7 @@ Para importar um arquivo contendo conteúdo HTML, siga as etapas abaixo:
 
 1. Agora você pode personalizar o arquivo importado conforme necessário com as funcionalidades do Designer de email [Saiba mais](content-from-scratch.md).
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Saiba como importar conteúdo HTML existente, ajustar o design, adicionar mirror page e links para cancelar a inscrição e como codificar seu conteúdo.
 

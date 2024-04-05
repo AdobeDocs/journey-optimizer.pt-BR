@@ -147,7 +147,7 @@ Quando uma campanha da Web está ativa, você pode interrompê-la para impedir q
 >
 >Quando uma campanha da Web é interrompida, não é possível editá-la ou ativá-la novamente. Você só pode duplicá-la e ativar a campanha duplicada.
 
-## Vídeo explicativo{#video}
+## Vídeo tutorial{#video}
 
 O vídeo abaixo mostra como criar uma campanha da Web, configurar suas propriedades, revisá-la e publicá-la.
 

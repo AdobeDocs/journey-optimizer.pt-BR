@@ -153,7 +153,7 @@ Blocos são expressões que têm uma abertura de bloco ({{# }}) and closing ({{/
 
 ## Personalização de URL{#perso-urls}
 
-Os URLs personalizados levam os recipients para páginas específicas de um site ou para um microsite personalizado, dependendo dos atributos do perfil. No Adobe Journey Optimizer, você pode adicionar personalização a URLs no conteúdo da mensagem. A personalização de URLs pode ser aplicada ao texto e às imagens, e usar dados do perfil ou dados contextuais.
+Os URLs personalizados levam os destinatários para páginas específicas de um site ou para um microsite personalizado, dependendo dos atributos do perfil. No Adobe Journey Optimizer, você pode adicionar personalização a URLs no conteúdo da mensagem. A personalização de URLs pode ser aplicada ao texto e às imagens, e usar dados do perfil ou dados contextuais.
 
 O Journey Optimizer permite personalizar um ou vários URLs em sua mensagem adicionando campos de personalização a eles. Para personalizar um URL, siga as etapas abaixo:
 

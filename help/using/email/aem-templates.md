@@ -33,7 +33,7 @@ Antes de começar a usar esse recurso, verifique se você está alinhado aos seg
 
 * **configurações de Experience Manager**
 
-  Esse recurso está disponível com o [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html){target="_blank"}.
+  Esse recurso está disponível com o [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=pt-BR){target="_blank"}.
 
   Como parte do programa beta, a configuração do Cloud Service é executada pelo Adobe no Adobe Experience Manager para se conectar ao Adobe Journey Optimizer.
 

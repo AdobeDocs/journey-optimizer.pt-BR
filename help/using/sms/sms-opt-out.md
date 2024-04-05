@@ -17,7 +17,7 @@ ht-degree: 19%
 
 # Gerenciamento de recusa para mensagens de texto {#sms-opt-out}
 
-De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os recipients cancelarem facilmente a inscrição. [Saiba mais sobre privacidade e gerenciamento de recusa](../privacy/opt-out.md)
+De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os destinatários cancelarem facilmente a inscrição. [Saiba mais sobre privacidade e gerenciamento de recusa](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >

@@ -228,7 +228,7 @@ Nesse cenário, um perfil individual:
 >
 >Ao testar as regras de frequência, é recomendável usar um recém-criado [perfil de teste](../audience/creating-test-profiles.md), pois quando o limite de frequência de um perfil é atingido, não há como redefinir o contador até o próximo mês. A desativação de uma regra permitirá que perfis limitados recebam mensagens, mas não removerá nem excluirá incrementos de contador.
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Saiba como criar, ativar, testar e relatar regras de frequência.
 

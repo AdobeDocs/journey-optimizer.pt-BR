@@ -185,7 +185,7 @@ A capacidade de alterar o tamanho do dispositivo foi projetada para sites respon
 >
 >Atualmente, [!DNL Journey Optimizer] não aceita alterações de página específicas ao tamanho do dispositivo. Isso significa que, por exemplo, se você tiver um site móvel separado com uma estrutura de site separada, deverá fazer as alterações específicas no site móvel em uma campanha diferente.
 
-## Vídeo explicativo{#video}
+## Vídeo tutorial{#video}
 
 O vídeo abaixo mostra como criar uma experiência na Web usando o designer da Web no [!DNL Journey Optimizer] campanhas.
 

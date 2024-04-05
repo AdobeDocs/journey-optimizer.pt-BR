@@ -67,7 +67,7 @@ Observe que para que o conteúdo seja sincronizado com a sandbox correta, é nec
 
 [Saiba como gerenciar pastas compartilhadas](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
 
-## Vídeo explicativo{#video}
+## Vídeo tutorial{#video}
 
 Entenda o que são sandboxes e como distinguir sandboxes de desenvolvimento e produção. Saiba como criar, redefinir e excluir sandboxes.
 

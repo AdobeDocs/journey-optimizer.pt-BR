@@ -66,7 +66,7 @@ Para criar uma coleção, siga estas etapas:
 
    ![](../assets/collection_created.png)
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 

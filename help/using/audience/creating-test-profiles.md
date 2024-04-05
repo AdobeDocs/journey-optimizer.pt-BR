@@ -231,7 +231,7 @@ curl -X POST \
 }'
 ```
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Saiba como criar perfis de teste.
 

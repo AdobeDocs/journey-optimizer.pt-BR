@@ -254,7 +254,7 @@ Para começar a criar o conteúdo com um desses modelos, siga as etapas abaixo.
 >
 >Para começar a criar um email a partir de um modelo de conteúdo usando o [Email Designer](../email/get-started-email-design.md), siga as etapas descritas em [nesta seção](../email/use-email-templates.md).
 
-## Vídeo explicativo {#video-templates}
+## Vídeo tutorial {#video-templates}
 
 Saiba como criar, editar e usar modelos de conteúdo no [!DNL Journey Optimizer].
 

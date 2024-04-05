@@ -368,7 +368,7 @@ Isso permite que você acesse informações detalhadas para essa decisão. Selec
 
 ![](../assets/decision_information.png)
 
-## Vídeo explicativo{#video}
+## Vídeo tutorial{#video}
 
 Saiba como criar atividades de oferta na gestão de decisões.
 

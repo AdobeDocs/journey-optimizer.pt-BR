@@ -46,7 +46,7 @@ Para simular o conteúdo, é necessário ter a **[!DNL Manage Simulate Content]*
 
 Você também precisa ter perfis de teste disponíveis para poder visualizar suas mensagens. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md)
 
-## Vídeo explicativo {#video-preview}
+## Vídeo tutorial {#video-preview}
 
 Saiba como testar a renderização de email nas caixas de entrada, como pré-visualizar emails personalizados em relação a perfis de teste e enviar provas.
 

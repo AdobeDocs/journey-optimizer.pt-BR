@@ -287,7 +287,7 @@ Para salvar o conteúdo como um fragmento de expressão, siga as etapas abaixo.
 >
 >As expressões não podem exceder 200 KB.
 
-## Vídeo explicativo {#video-fragments}
+## Vídeo tutorial {#video-fragments}
 
 Saiba como gerenciar, criar e usar fragmentos visuais no [!DNL Journey Optimizer].
 

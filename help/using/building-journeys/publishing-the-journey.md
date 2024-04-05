@@ -37,7 +37,7 @@ Quando a jornada é publicada, ela está no modo somente leitura.
 >
 >Se forem feitas alterações em uma decisão de oferta em uso na mensagem de uma jornada, será necessário desfazer a publicação da jornada e republicá-la.  Isso garantirá que as alterações sejam incorporadas à mensagem da jornada e que ela seja consistente com as atualizações mais recentes.
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Saiba como publicar uma jornada.
 

@@ -45,7 +45,7 @@ Para exibir a lista de ações ou configurar uma nova ação, selecione **[!UICO
 
 ![](assets/custom1.png)
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Saiba como configurar ações personalizadas.
 

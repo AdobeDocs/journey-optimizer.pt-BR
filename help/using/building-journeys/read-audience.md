@@ -190,7 +190,7 @@ Após uma união, é possível dividir o público novamente executando uma segme
 
 ![](assets/read-segment-audience3.png)
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Entenda os casos de uso aplicáveis para uma jornada acionada pela atividade de leitura de público-alvo. Saiba como criar jornadas baseadas em lote e quais práticas recomendadas devem ser aplicadas.
 

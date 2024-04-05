@@ -24,7 +24,7 @@ Seed lists em [!DNL Journey Optimizer] permite incluir automaticamente seed addr
 >
 >Atualmente, esse recurso se aplica somente ao canal de email.
 
-Seed addresses são usados para direcionar destinatários que não correspondem aos critérios de destino definidos. Dessa forma, os recipients que estiverem fora do escopo de entrega podem recebê-lo, como qualquer outro recipient target receberia.
+Seed addresses são usados para direcionar destinatários que não correspondem aos critérios de destino definidos. Dessa forma, os destinatários que estiverem fora do escopo de entrega podem recebê-lo, como qualquer outro destinatário target receberia.
 
 Os seed addresses não são perfis reais nem perfis de teste, pois não incluem detalhes do perfil. São apenas recipients pertencentes a participantes internos armazenados no sistema. Quando selecionados em uma campanha ou jornada específica, eles são incluídos no tempo de execução do delivery, o que significa que receberão uma cópia do delivery para fins de garantia.
 

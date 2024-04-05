@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -68,7 +68,7 @@ Neste exemplo, criaremos um público-alvo para direcionar todos os clientes que 
 
 O público-alvo agora pode ser usado em suas jornadas. Para obter mais informações, consulte [esta seção](../audience/about-audiences.md).
 
-## Vídeo explicativo{#video-segment}
+## Vídeo tutorial{#video-segment}
 
 Entenda como o Journey Optimizer usa regras para gerar públicos-alvo e saiba como usar atributos, eventos e públicos-alvo já existentes para criar um público-alvo.
 

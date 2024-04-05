@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Para poder enviar emails por meio de jornadas e campanhas no [!DNL Journey Optimizer] é necessário executar várias etapas de configuração.
 
-1. Para garantir a entrega ideal e proteger sua reputação, comece delegando à Adobe os subdomínios que você usará para enviar seus emails com [!DNL Journey Optimizer]. Esses subdomínios determinarão elementos como as páginas da Web a serem rastreadas e os URLs da página espelhada. [Saiba mais](../configuration/about-subdomain-delegation.md)
+1. Para garantir a entrega ideal e proteger sua reputação, comece delegando à Adobe os subdomínios que você usará para enviar seus emails com [!DNL Journey Optimizer]. Esses subdomínios determinarão elementos como as páginas da Web a serem rastreadas e os URLs da mirror page. [Saiba mais](../configuration/about-subdomain-delegation.md)
 
    ![](../configuration/assets/subdomain-list.png)
 

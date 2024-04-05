@@ -32,7 +32,7 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->O recurso de decisão de experiência está disponível atualmente como um beta apenas para usuários selecionados. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
+>O recurso de decisão de experiência está disponível atualmente como um beta apenas para usuários selecionados. Para participar do programa beta, entre em contato com o atendimento ao cliente da Adobe.
 
 O Experience Decisioning simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como &quot;itens de decisão&quot; e um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada indivíduo.
 

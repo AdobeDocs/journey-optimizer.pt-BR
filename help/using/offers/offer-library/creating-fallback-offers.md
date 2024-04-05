@@ -55,7 +55,7 @@ Para criar uma oferta substituta, siga estas etapas:
 
    ![](../assets/fallback_created.png)
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

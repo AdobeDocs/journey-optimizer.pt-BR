@@ -225,7 +225,7 @@ As verificações e ações abaixo serão executadas até que o subdomínio seja
 
 1. **Criar registro PTR**: o registro PTR, também conhecido como registro DNS reverso, é exigido pelos ISPs para que eles não marquem os emails como spam. O Gmail também recomenda ter registros PTR para cada IP. O Adobe cria registros PTR somente quando você delega um subdomínio pela primeira vez, um para cada IP, todos os IPs que apontam esse subdomínio. Por exemplo, se o IP for *192.1.2.1* e o subdomínio for *email.example.com*, o registro PTR será: *192.1.2.1 PTR r1.email.example.com*. Você pode atualizar o registro PTR posteriormente para apontar para o novo domínio delegado. [Saiba mais sobre registros PTR](ptr-records.md)
 
-## Vídeo explicativo{#video}
+## Vídeo tutorial{#video}
 
 Saiba como criar um subdomínio usando CNAME para apontar para registros específicos do Adobe.
 

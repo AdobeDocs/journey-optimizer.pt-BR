@@ -56,7 +56,7 @@ Defina dois tratamentos de delivery, cada um contendo uma política de decisão 
 
    >[!NOTE]
    >
-   >O recurso de experiência baseada em código está disponível no momento como uma versão beta somente para usuários selecionados. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
+   >O recurso de experiência baseada em código está disponível no momento como uma versão beta somente para usuários selecionados. Para participar do programa beta, entre em contato com o atendimento ao cliente da Adobe.
 
 1. Na página de resumo da campanha, clique em **[!UICONTROL Criar experimento]** para configurar seu experimento de conteúdo. [Saiba mais](../campaigns/content-experiment.md)
 

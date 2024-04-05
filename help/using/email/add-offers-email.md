@@ -99,7 +99,7 @@ Para exibir as diferentes ofertas que fazem parte da decisão com um perfil de c
 
 Saiba mais sobre as etapas detalhadas para verificar a pré-visualização da mensagem no [nesta seção](#preview-your-messages).
 
-## Vídeo explicativo{#video-offers}
+## Vídeo tutorial{#video-offers}
 
 Saiba como adicionar um componente de gestão de decisões a mensagens no [!DNL Journey Optimizer].
 

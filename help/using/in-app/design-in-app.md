@@ -246,7 +246,7 @@ Se a variável **[!UICONTROL Modo de formatação avançado]** estiver ativada, 
 * [Relatório no aplicativo](../reports/campaign-global-report.md#inapp-report)
 * [Configuração no aplicativo](inapp-configuration.md)
 
-## Vídeo explicativo{#video}
+## Vídeo tutorial{#video}
 
 O vídeo abaixo mostra como criar e testar suas mensagens no aplicativo.
 

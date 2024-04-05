@@ -134,7 +134,7 @@ Antes de usar o público em uma jornada de produção, sempre avalie primeiro o 
 
 ![](assets/segment-overload.png)
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Entenda os casos de uso aplicáveis para jornadas de qualificação de público-alvo. Saiba como criar uma jornada com qualificação de público-alvo e quais práticas recomendadas devem ser aplicadas.
 

@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->O recurso de relatório de spam está disponível no momento como uma versão beta somente para usuários selecionados. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
+>O recurso de relatório de spam está disponível no momento como uma versão beta somente para usuários selecionados. Para participar do programa beta, entre em contato com o atendimento ao cliente da Adobe.
 
 [!DNL Journey Optimizer] permite que você verifique o desempenho do seu conteúdo em relação à filtragem de spam e certifique-se de que suas mensagens cheguem às caixas de entrada de seus clientes, não ao spam.
 

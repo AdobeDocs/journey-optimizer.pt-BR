@@ -106,7 +106,7 @@ Para esse caso de uso, os seguintes pré-requisitos são necessários:
 
 1. Verifique se não há erros e publique a jornada.
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 O vídeo abaixo mostra um caso de uso semelhante que utiliza dados contextuais de uma jornada para personalizar um email.
 

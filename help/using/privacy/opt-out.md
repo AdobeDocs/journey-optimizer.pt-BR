@@ -22,7 +22,7 @@ Fornecer aos destinatários a capacidade de cancelar inscrição do recebimento 
 **Por que é importante?**
 
 * O não cumprimento desses regulamentos traz riscos legais normativos para sua marca.
-* Os regulamentos ajudam a evitar o envio de comunicações não solicitadas para seus recipients, o que pode fazer com que eles marquem suas mensagens como spam e prejudiquem sua reputação.
+* Os regulamentos ajudam a evitar o envio de comunicações não solicitadas para seus destinatários, o que pode fazer com que eles marquem suas mensagens como spam e prejudiquem sua reputação.
 
 ## Gerenciar cancelamentos de inscrições em jornadas e campanhas {#opt-out-ajo}
 

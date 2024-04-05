@@ -32,7 +32,7 @@ Gerenciamento de usuários no [!DNL Journey Optimizer] O se baseia em três conc
 
 ![](assets/do-not-localize/permissions_2.png)
 
-## Vídeo explicativo{#video}
+## Vídeo tutorial{#video}
 
 Saiba mais sobre o sistema de controle de acesso e perfis personalizados em Adobe Journey Optimizer. Saiba como gerenciar funções e permissões e como adicionar e gerenciar usuários.
 

@@ -130,7 +130,7 @@ Para ativar a criação de perfil na execução da campanha, alterne a variável
 >
 >Perfis desconhecidos são criados no **Conjunto de dados do perfil de mensagens interativas do AJO** conjunto de dados, em três namespaces padrão (email, telefone e ECID) respectivamente para cada canal de saída (Email, SMS e Push).
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
 Saiba como criar uma campanha e acioná-la a partir de um sistema externo com base em interações do usuário, usando a API REST de execução de mensagem interativa.
 

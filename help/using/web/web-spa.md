@@ -81,7 +81,7 @@ Após adicionar uma modificação enquanto estiver em uma exibição específica
 
    ![](assets/web-designer-modifications-applied-view.png)
 
-## Vídeo explicativo{#video}
+## Vídeo tutorial{#video}
 
 Este vídeo explica como:
 

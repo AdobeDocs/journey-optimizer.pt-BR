@@ -9,7 +9,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
 source-git-commit: f957737aa741cc8b854912414d15154489d1b0b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Essa versão traz o novo recurso listado abaixo.
 <tbody>
 <tr>
 <td>
-<p>Com o novo canal de experiência baseado em código, o Adobe Journey Optimizer permite fazer personalização e testes avançados para qualquer uma de suas propriedades de entrada, permitindo a entrega perfeita de experiências personalizadas em diversos touchpoints, como aplicativos Web, aplicativos móveis, aplicativos para desktop, consoles de vídeo, dispositivos conectados à TV, smart TVs, quiosques, caixas eletrônicos, dispositivos IoT entre outros.</p>
+<p>Com o novo canal de Experiência baseada em código, o Adobe Journey Optimizer permite realizar personalizações e testes avançados para qualquer uma de suas propriedades de entrada, possibilitando a entrega perfeita de experiências personalizadas em diversos touchpoints, como aplicativos web, aplicativos móveis, aplicativos para desktop, consoles de vídeo, dispositivos conectados à TV, Smart TVs, quiosques, ATMs e dispositivos IoT, entre outros.</p>
 <P>Os principais recursos incluem:</p>
 <ul><li> Personalização universal: estenda as experiências personalizadas em todos os touchpoints, garantindo uma jornada de usuário coesa e personalizada</li>
 <li>Precisão de edição granular: edite conteúdo específico em locais individuais em seus aplicativos ou páginas da Web</li>
