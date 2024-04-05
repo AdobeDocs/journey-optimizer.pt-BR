@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 84%
 
 ---
 
@@ -22,19 +22,19 @@ Use o Journey Optimizer para criar notificações no aplicativo e configurar as 
 
 >[!AVAILABILITY]
 >
->Por enquanto, o canal No aplicativo não está disponível para organizações que compraram as ofertas complementares Adobe **Healthcare Shield** e **Privacy and Security Shield**.
+>O canal no aplicativo não está disponível para organizações que compraram o Adobe **Healthcare Shield** e **Escudo de Proteção e Privacidade** ofertas complementares.
 
-## Pré-requisitos{#prerequisites-in-app}
-
-Antes de enviar mensagens no aplicativo, é necessário:
-
-* Configurar o canal no aplicativo. [Saiba mais](inapp-configuration.md)
-
-* Certifique-se de ter as permissões corretas nas campanhas do Journey Optimizer antes de iniciar, mesmo que planeje usar nas jornadas apenas mensagens no aplicativo. As permissões de campanha ainda são necessárias. [Saiba mais](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
-
-Depois de concluída, você pode criar, configurar e enviar sua primeira mensagem no aplicativo. Saiba como fazer isso [nesta seção](create-in-app.md).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="inapp-configuration.md">
+<img alt="Validação" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="inapp-configuration.md"><strong>Configuração do canal no aplicativo</strong></a>
+</div>
+<p>
+</td>
 <td>
 <a href="create-in-app.md">
 <img alt="Cliente potencial" src="../assets/do-not-localize/inapp-create.jpeg">
@@ -57,15 +57,6 @@ Depois de concluída, você pode criar, configurar e enviar sua primeira mensage
 </a>
 <div>
 <a href="../reports/campaign-global-report.md#inapp-global"><strong>Acessar o relatório no aplicativo</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="inapp-configuration.md">
-<img alt="Validação" src="../assets/do-not-localize/inapp-config.jpg">
-</a>
-<div>
-<a href="inapp-configuration.md"><strong>Configuração do canal no aplicativo</strong></a>
 </div>
 <p>
 </td>
