@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 11%
@@ -60,6 +60,8 @@ No **Subdomínio e pools de IP** preencha os campos obrigatórios conforme instr
 1. Selecione o subdomínio que será usado para enviar os emails.
 
    Para preservar a reputação do seu domínio, acelere o processo de aquecimento de IP e melhore a capacidade de entrega, delegue os subdomínios de envio ao Adobe. [Saiba mais](../configuration/about-subdomain-delegation.md)
+
+<!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
 1. Selecione o pool de IP para associar à superfície. [Saiba mais](../configuration/ip-pools.md)
 
@@ -112,6 +114,8 @@ O link de cancelamento de inscrição consiste em dois elementos:
   >Se você não adicionar um link de recusa de um clique no conteúdo da mensagem, nenhuma página de aterrissagem será exibida para o usuário.
 
 Saiba mais sobre como adicionar um link de cancelamento de inscrição de cabeçalho às suas mensagens no [nesta seção](../privacy/opt-out.md#unsubscribe-header).
+
+<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 

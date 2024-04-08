@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recusar, email, link, cancelar inscrição
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 76%
@@ -175,7 +175,7 @@ Por exemplo, o link para cancelar a inscrição será exibido assim no Gmail:
 >
 >Para exibir o link para cancelar a inscrição no cabeçalho do email, o cliente de email dos destinatários deve ser compatível com esse recurso.
 
-O endereço para cancelar a inscrição é o endereço **[!UICONTROL Mailto (cancelar assinatura)]** padrão exibido na superfície de canal correspondente. [Saiba mais](../configuration/channel-surfaces.md#list-unsubscribe).
+O endereço para cancelar a inscrição é o endereço **[!UICONTROL Mailto (cancelar assinatura)]** padrão exibido na superfície de canal correspondente. [Saiba mais](email-settings.md#list-unsubscribe)
 
 Para definir um URL personalizado para cancelar a inscrição, insira um link de recusa de um clique no conteúdo da mensagem de email e insira o URL de sua escolha. [Saiba mais](#one-click-opt-out)
 

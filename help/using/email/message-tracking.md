@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 36%
+source-wordcount: '1053'
+ht-degree: 35%
 
 ---
 
@@ -162,7 +162,7 @@ O [Designer de email](content-from-scratch.md) permite gerenciar os URLs rastrea
 
 Relatórios sobre aberturas e cliques estão disponíveis no [Relatório ao vivo](../reports/live-report.md) e no [Relatório global](../reports/global-report.md).
 
-## Rastreamento de URL {#url-tracking}
+## Personalizar rastreamento do URL {#url-tracking}
 
 Normalmente [Rastreamento de URL](email-settings.md#url-tracking) O é gerenciado no nível da superfície, mas os atributos de perfil não são compatíveis. Atualmente, a única maneira de fazer isso é [personalizar URLs](../personalization/personalization-syntax.md#perso-urls) no designer de email.
 
