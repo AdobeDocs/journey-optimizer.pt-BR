@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2373'
 ht-degree: 11%
 
 ---
@@ -239,8 +239,6 @@ Quando essa opção estiver habilitada, embora um cliente tenha marcado seu emai
 >title="Adicionar uma lista de sementes"
 >abstract="Selecione uma lista de sementes de sua escolha para adicionar automaticamente endereços internos específicos aos seus públicos-alvo. Esses seed addresses serão incluídos na hora da execução da tarefa e receberão uma cópia exata da mensagem para fins de garantia."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=pt-BR#use-seed-list" text="O que são listas de sementes?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=pt-BR#create-seed-list" text="Criar uma lista de sementes"
-
 
 Uma lista de propagação em [!DNL Journey Optimizer] permite incluir automaticamente seed addresses de email específicos em seus deliveries. [Saiba mais](../configuration/seed-lists.md)
 

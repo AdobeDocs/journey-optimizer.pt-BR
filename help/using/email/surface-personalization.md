@@ -10,16 +10,21 @@ level: Experienced
 keywords: configurações, email, configuração, subdomínio
 hide: true
 hidefromtoc: true
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+badge: label="Beta"
+source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
-# Configurar subdomínios dinâmicos de email {#surface-personalization}
+# Personalizar configurações da superfície de email {#surface-personalization}
 
-Para obter mais flexibilidade e controle sobre as configurações de email ao criar superfícies de email, [!DNL Journey Optimizer] O permite definir valores personalizados para subdomínios, cabeçalhos e parâmetros de rastreamento de URL.
+Para obter mais flexibilidade e controle sobre as configurações de email, [!DNL Journey Optimizer] permite definir valores personalizados para subdomínios e cabeçalhos<!--and URL tracking parameters--> ao criar superfícies de email.
+
+>[!AVAILABILITY]
+>
+>No momento, esse recurso está disponível como um beta apenas para usuários selecionados. <!--To join the beta program, contact Adobe Customer Care.-->
 
 ## Adicionar subdomínios dinâmicos {#dynamic-subdomains}
 
@@ -42,7 +47,11 @@ Ao criar uma superfície de email, você pode configurar subdomínios dinâmicos
 
 Por exemplo, se você tiver restrições legais para enviar mensagens de um endereço de email dedicado por país, poderá usar subdomínios dinâmicos. Isso permite criar uma única superfície com vários subdomínios de envio correspondentes a diferentes países, em vez de criar várias superfícies para cada país. Em seguida, você pode direcionar clientes com base em vários países consolidados em uma única campanha.
 
-Para definir subdomínios dinâmicos, siga as etapas abaixo.
+Para definir subdomínios dinâmicos em uma superfície de canal de email, siga as etapas abaixo.
+
+1. Antes de criar uma superfície, configure os subdomínios que deseja usar para enviar emails de acordo com seu caso de uso. [Saiba como](../configuration/about-subdomain-delegation.md)
+
+   Por exemplo, digamos que você queira usar subdomínios diferentes para países diferentes: configure um subdomínio específico para os EUA, um específico para o Reino Unido etc.
 
 1. Crie uma superfície de canal. [Saiba como](../configuration/channel-surfaces.md)
 
@@ -66,13 +75,15 @@ Para definir subdomínios dinâmicos, siga as etapas abaixo.
 
    ![](assets/surface-email-select-subdomain.png)
 
-   Todos os recipients baseados nos Estados Unidos receberão mensagens usando o subdomínio selecionado para esse país, o que significa que todos os URLs envolvidos (como mirror page, URL de rastreamento ou link de cancelamento de inscrição) serão preenchidos com base nesse subdomínio.
+   Todos os recipients baseados nos EUA receberão mensagens usando o subdomínio selecionado para esse país, o que significa que todos os URLs envolvidos (como mirror page, URL de rastreamento ou link de cancelamento de inscrição) serão preenchidos com base nesse subdomínio.
 
-1. Defina outro subdomínio dinâmico como desejado. Você pode adicionar até 50 itens.
+1. Defina outros subdomínios dinâmicos conforme desejado. Você pode adicionar até 50 itens.
 
    ![](assets/surface-email-add-dynamic-subdomain.png)
 
-1. Selecione o [Pool de IPs](../configuration/ip-pools.md) para associar à superfície. [Saiba mais](email-settings.md#subdomains-and-ip-pools)
+<!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
+
+1. Definir todos os outros [configurações de email](email-settings.md) e [enviar](../configuration/channel-surfaces.md#create-channel-surface) sua superfície.
 
 Depois de adicionar um ou mais subdomínios dinâmicos a uma superfície, os seguintes itens serão preenchidos com base no subdomínio dinâmico resolvido para essa superfície:
 
@@ -82,7 +93,11 @@ Depois de adicionar um ou mais subdomínios dinâmicos a uma superfície, os seg
 
 * A variável **Do email** e **Email de erro** sufixos
 
-## Personalizar seu cabeçalho (#personalize-header)
+>[!NOTE]
+>
+>Se você configurar subdomínios dinâmicos e desativar o **[!UICONTROL Subdomínio dinâmico]** todos os valores dinâmicos são removidos. Selecione um subdomínio e envie a superfície para que as alterações entrem em vigor.
+
+## Personalizar o cabeçalho {#personalize-header}
 
 Você também pode usar a personalização para todos os parâmetros de cabeçalho definidos em uma superfície.
 
@@ -90,13 +105,20 @@ Por exemplo, se você tiver várias marcas, poderá criar uma única superfície
 
 Para usar variáveis personalizadas para seus parâmetros de cabeçalho de superfície, siga as etapas abaixo.
 
+>[!NOTE]
+>
+>Você pode personalizar tudo **[!UICONTROL Parâmetros de cabeçalho]** campos, exceto o **[!UICONTROL Prefixo de email de erro]** campo.
+
+
 1. Defina os parâmetros do cabeçalho como faria normalmente. [Saiba como](email-settings.md#email-header)
 
 1. Para cada campo, selecione o ícone Editar.
 
    ![](assets/surface-email-personalize-header.png)
 
-1. A variável [Editor de expressão](../personalization/personalization-build-expressions.md) é aberto. Defina sua condição como desejado e salve as alterações.<!--In this example, set a condition such as -->
+1. A variável [Editor de expressão](../personalization/personalization-build-expressions.md) é aberto. Defina sua condição como desejado e salve as alterações.
+
+   Por exemplo, defina uma condição para que cada recipient receba um email do representante de sua própria marca.
 
    >[!NOTE]
    >
@@ -104,18 +126,41 @@ Para usar variáveis personalizadas para seus parâmetros de cabeçalho de super
 
 1. Repita as etapas acima para cada parâmetro ao qual deseja adicionar personalização.
 
-   >[!NOTE]
-   >
-   >Se você tiver adicionado um ou mais subdomínios dinâmicos à superfície, a variável **Do email** e **Email de erro** os sufixos serão preenchidos com base na variável [subdomínio dinâmico](#dynamic-subdomains).
+>[!NOTE]
+>
+>Se você tiver adicionado um ou mais subdomínios dinâmicos à superfície, a variável **Do email** e **Email de erro** os sufixos serão preenchidos com base na variável [subdomínio dinâmico](#dynamic-subdomains).
 
 <!--
 ## Use personalized URL tracking {#personalize-url-tracking}
 
 To use personalized URL tracking prameters, follow the steps below.
 
-select the profile attribute of your choice from the expression editor.
+1. Select the profile attribute of your choice from the expression editor.
 
 1. Repeat the steps above for each tracking parameter you want to personalize.
 
 Now when the email is sent out, this parameter will be automatically appended to the end of the URL. You can then capture this parameter in web analytics tools or in performance reports.
 -->
+
+## Exibir detalhes da superfície {#view-surface-details}
+
+Ao usar uma superfície com configurações personalizadas em uma campanha ou superfície, você pode exibir os detalhes da superfície diretamente na campanha ou superfície. Siga as etapas abaixo.
+
+1. Criar um email [campaign](../campaigns/create-campaign.md) ou [jornada](../building-journeys/journey-gs.md).
+
+1. Selecione o **[!UICONTROL Editar conteúdo]** botão.
+
+1. Clique em **[!UICONTROL Exibir detalhes da superfície]** botão.
+
+   ![](assets/campaign-view-surface-details.png)
+
+1. A variável **[!UICONTROL Configurações de entrega]** é exibida. Você pode exibir todas as configurações da superfície, incluindo os subdomínios dinâmicos e os parâmetros de cabeçalho personalizados.
+
+   >[!NOTE]
+   >
+   >Todas as informações nesta tela são somente leitura.
+
+1. Selecionar **[!UICONTROL Expandir]** para exibir os detalhes dos subdomínios dinâmicos.
+
+   ![](assets/campaign-delivery-settings-subdomain-expand.png)
+
