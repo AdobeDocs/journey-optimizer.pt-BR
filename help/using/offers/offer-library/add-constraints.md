@@ -142,7 +142,7 @@ Basicamente, a saída de um público-alvo é uma lista de perfis, enquanto uma r
 >id="ajo_decisioning_capping"
 >title="Usar limite"
 >abstract="Para evitar o excesso de solicitações aos clientes, use o limite para definir o número máximo de vezes que uma oferta pode ser apresentada."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Alterar datas pode afetar o limite"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=pt-BR#capping-change-date" text="Alterar datas pode afetar o limite"
 
 O limite é usado como uma restrição para definir o número máximo de vezes que uma oferta pode ser apresentada.
 

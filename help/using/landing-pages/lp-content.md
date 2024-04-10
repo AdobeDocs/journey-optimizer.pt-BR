@@ -22,7 +22,7 @@ ht-degree: 10%
 >id="ac_lp_components"
 >title="Usar componentes de conteúdo"
 >abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino. Para definir um conteúdo específico que permitirá aos usuários selecionar e enviar suas opções, use o componente de formulário."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Adicionar componentes de conteúdo"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=pt-BR#add-content-components" text="Adicionar componentes de conteúdo"
 
 Para projetar o conteúdo da página de aterrissagem, é possível usar os mesmos componentes de um email. [Saiba mais](../email/content-components.md#add-content-components)
 
@@ -40,7 +40,7 @@ Com o designer de conteúdo da página de aterrissagem, você também pode aprov
 >id="ac_lp_formfield"
 >title="Definir os campos do componente de formulário"
 >abstract="Defina como os recipients verão a página de destino e enviarão suas opções."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Definir estilos de formulário de página de destino"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html?lang=pt-BR#lp-form-styles" text="Definir estilos de formulário de página de destino"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"

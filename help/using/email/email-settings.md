@@ -264,7 +264,7 @@ Saiba como usar a lista de propagação em uma campanha ou jornada no [nesta se�
 >id="ajo_admin_presets_retryperiod"
 >title="Ajustar o período de nova tentativa"
 >abstract="As tentativas são executadas por 3,5 dias (84 horas) quando uma entrega de email falha devido a um erro de rejeição temporária. Você pode ajustar esse período de tentativas padrão para atender melhor às suas necessidades."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="Sobre tentativas"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=pt-BR" text="Sobre tentativas"
 
 Você pode configurar o **Parâmetros de nova tentativa de email**.
 

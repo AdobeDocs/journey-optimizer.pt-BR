@@ -269,7 +269,7 @@ Cada domínio agora é exibido em uma coluna diferente na mesma linha.
 >id="ajo_admin_ip_warmup_upload"
 >title="Especifique o seu plano de aquecimento de IP"
 >abstract="Preencha o modelo do Excel com todos os dados que alimentarão seu plano, como fases de aquecimento de IP e número-alvo de perfis, e faça upload dele aqui."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="Preparar o arquivo do plano de aquecimento de IP"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=pt-BR#prepare-file" text="Preparar o arquivo do plano de aquecimento de IP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
