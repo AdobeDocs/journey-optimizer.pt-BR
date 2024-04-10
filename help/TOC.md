@@ -44,7 +44,7 @@ ht-degree: 99%
       + [Criar a primeira jornada](using/building-journeys/journey-gs.md)
       + [Projetar a jornada](using/building-journeys/using-the-journey-designer.md)
       + [Teste a jornada](using/building-journeys/testing-the-journey.md)
-      + [Simular sua jornada](using/building-journeys/journey-simulation.md)
+      + [Simular a jornada](using/building-journeys/journey-simulation.md)
       + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
    + Gerenciar suas jornadas{#manage-journey}
       + [Encerrar sua jornada](using/building-journeys/end-journey.md)

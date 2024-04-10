@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
 workflow-type: tm+mt
 source-wordcount: '5140'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 * As etapas de configuração para mensagens no aplicativo foram detalhadas. [Leia mais](../in-app/inapp-configuration.md)
 * Documentação para [APIs do Offer decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) e [APIs de decisão em lote](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) foram atualizadas.
-* Foram adicionadas informações na documentação de Gestão de decisões sobre o gerenciamento de regiões de borda e hub ao usar o limite de frequência com a API de decisão de borda. [Leia mais](../offers/offer-library/add-constraints.md#frequency-capping)
+* Foram adicionadas informações na documentação da Gestão de decisões sobre o gerenciamento de regiões de borda e de hub ao usar o limite de frequência com a API de decisão do Edge. [Leia mais](../offers/offer-library/add-constraints.md#frequency-capping)
 * Foram adicionadas informações sobre a criação de identidades com namespaces personalizados ao trabalhar com campanhas acionadas por API. [Leia mais](../campaigns/api-triggered-campaigns.md)
 
 ## Março de 2024 {#march-2024}
