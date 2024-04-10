@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '971'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ Para ativar a criação de perfil na execução da campanha, alterne a variável
 
 >[!NOTE]
 >
->Perfis desconhecidos são criados no **Conjunto de dados do perfil de mensagens interativas do AJO** conjunto de dados, em três namespaces padrão (email, telefone e ECID) respectivamente para cada canal de saída (Email, SMS e Push).
+>Perfis desconhecidos são criados no **Conjunto de dados do perfil de mensagens interativas do AJO** conjunto de dados, em três namespaces padrão (email, telefone e ECID) respectivamente para cada canal de saída (Email, SMS e Push). No entanto, se você estiver usando um namespace personalizado, a identidade será criada com o mesmo namespace personalizado.
 
 ## Vídeo tutorial {#video}
 
