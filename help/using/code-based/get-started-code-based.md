@@ -7,7 +7,7 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1055'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Com o recurso **experiência baseada em código**, é possível definir experiê
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="#how-it-works">
-<img alt="Cliente potencial" src="../assets/do-not-localize/privacy-audit.jpeg">
+<img alt="Lead" src="../assets/do-not-localize/privacy-audit.jpeg">
 </a>
 <div><a href="#how-it-works"><strong>Como funciona</strong>
 </div>
@@ -153,7 +153,7 @@ A tabela abaixo lista alguns exemplos de definição de URI de superfície para 
 
 | Tipo | URI | Descrição |
 | --------- | ----------- | ------- | 
-| Desktop | `desktop://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo, como um botão, menu, banner principal, etc. |
+| Desktop | `desktop://com.vendor.bundle/#element` | Representa um elemento específico em um aplicativo, como um botão, menu, banner hero, etc. |
 | Aplicativo de TV | `tvcd://com.vendor.bundle/#element` | Representa um elemento específico de uma Smart TV ou um aplicativo em um dispositivo conectado a uma TV: ID do pacote. |
 | Serviço | `service://servicename/#element` | Representa um processo do lado do servidor ou outra entidade manual. |
 | Quiosque | `kiosk://location/screen#element` | Exemplo de possíveis tipos de superfície adicionais que podem ser adicionados facilmente. |

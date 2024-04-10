@@ -8,9 +8,9 @@ level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Use o Journey Optimizer para criar notificações no aplicativo e configurar as 
 
 >[!AVAILABILITY]
 >
->O canal no aplicativo não está disponível para organizações que compraram o Adobe **Healthcare Shield** e **Escudo de Proteção e Privacidade** ofertas complementares.
+>O canal No aplicativo não está disponível para organizações que compraram as ofertas complementares Adobe **Healthcare Shield** e **Privacy and Security Shield**.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -31,7 +31,7 @@ Use o Journey Optimizer para criar notificações no aplicativo e configurar as 
 <img alt="Validação" src="../assets/do-not-localize/inapp-config.jpg">
 </a>
 <div>
-<a href="inapp-configuration.md"><strong>Configurar o canal no aplicativo</strong></a>
+<a href="inapp-configuration.md"><strong>Configurar o canal No aplicativo</strong></a>
 </div>
 <p>
 </td>
