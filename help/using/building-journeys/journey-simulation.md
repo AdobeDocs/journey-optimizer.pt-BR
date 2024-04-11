@@ -14,13 +14,13 @@ exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
 source-git-commit: 851812f94214b2045d792251ad458733c313ce58
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 0%
+ht-degree: 75%
 
 ---
 
-# Simular sua jornada{#simulation}
+# Simular a jornada{#simulation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_simulation"
->title="Simular sua jornada"
->abstract="A Simulação de jornada permite validar suas jornadas e ver como elas funcionam antes de serem ativadas. Ele usa dados de um modelo treinado para fornecer números em toda a jornada e ver como a jornada se comportará em um cenário real."
+>title="Simular a jornada"
+>abstract="A Simulação de jornada permite validar suas jornadas e ver como elas funcionam antes de serem ativadas. Ela usa dados de um modelo treinado para fornecer números em toda a jornada e ver como ela se comportará em um cenário real."
