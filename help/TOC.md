@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+source-git-commit: 81d54c026c52fe78b1b725d67da15505907b8bb9
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1746'
 ht-degree: 99%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 99%
       + [Notas de versão de 2022](using/rn/release-notes-2022.md)
       + [Notas de versão de 2021](using/rn/release-notes-2021.md)
    + [Atualizações na documentação](using/rn/documentation-updates.md)
+   + [Nova tela de jornada](using/rn/news-canvas.md)
 + Introdução{#get-started}
    + [O que é o Journey Optimizer](using/start/get-started.md)
    + Guias de início rápido{#quick-start}
@@ -203,10 +204,9 @@ ht-degree: 99%
    + Configurar canal de email {#configure-email}
       + [Introdução à configuração de email](using/email/get-started-email-config.md)
       + [Definir configurações de superfície de email](using/email/email-settings.md)
-      + [Configurar subdomínios dinâmicos de email](using/email/surface-personalization.md)
 + Canal no aplicativo{#in-app}
    + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
-   + [Pré-requisitos e configuração](using/in-app/inapp-configuration.md)
+   + [Pré-requisitos do canal no aplicativo](using/in-app/inapp-configuration.md)
    + [Criação de uma mensagem no aplicativo móvel](using/in-app/create-in-app.md)
    + [Criar uma mensagem no aplicativo da Web](using/in-app/create-in-app-web.md)
    + [Criar seu conteúdo no aplicativo](using/in-app/design-in-app.md)
