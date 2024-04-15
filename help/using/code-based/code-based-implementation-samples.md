@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '783'
 ht-degree: 3%
 
 ---
@@ -27,9 +27,17 @@ A experiência baseada em código é compatível com qualquer tipo de implementa
 
 ## Implementação do lado do cliente {#client-side-implementation}
 
-Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs do cliente da AEP: AEP Web SDK ou AEP Mobile SDK. As etapas abaixo descrevem o processo de busca do conteúdo publicado na borda pelas campanhas de experiência baseadas em código em uma amostra da implementação do SDK da Web e a exibição do conteúdo personalizado.
+Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs do cliente da AEP: AEP Web SDK ou AEP Mobile SDK.
 
-### Como funciona
+* As etapas [abaixo](#client-side-how) descreva o processo de busca do conteúdo publicado na borda pelas campanhas de experiência baseadas em código em uma amostra **SDK da Web** implementação e exibição do conteúdo personalizado.
+
+* As etapas para implementar o canal baseado em código usando o **SDK móvel** são descritos em [este tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+
+  >[!NOTE]
+  >
+  >Implementações de exemplo para casos de uso de dispositivos móveis estão disponíveis para [aplicativo iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+
+### Como funciona - SDK da Web {#client-side-how}
 
 1. [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} está incluído na página.
 
@@ -48,61 +56,61 @@ Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs 
 
 1. Para campanhas de experiência baseadas em código, os eventos de exibição devem ser enviados manualmente para indicar quando o conteúdo foi exibido. Isso é feito por meio da `sendEvent` comando.
 
-```javascript
-function sendDisplayEvent(decision) {
-  const { id, scope, scopeDetails = {} } = decision;
-
-  alloy("sendEvent", {
-
-    xdm: {
-      eventType: "decisioning.propositionDisplay",
-      _experience: {
-        decisioning: {
-          propositions: [
-            {
-              id: id,
-              scope: scope,
-              scopeDetails: scopeDetails,
-            },
-          ],
-        },
-      },
-    },
-  });
-}
-```
+   ```javascript
+   function sendDisplayEvent(decision) {
+     const { id, scope, scopeDetails = {} } = decision;
+   
+     alloy("sendEvent", {
+   
+       xdm: {
+         eventType: "decisioning.propositionDisplay",
+         _experience: {
+           decisioning: {
+             propositions: [
+               {
+                 id: id,
+                 scope: scope,
+                 scopeDetails: scopeDetails,
+               },
+             ],
+           },
+         },
+       },
+     });
+   }
+   ```
 
 1. Para campanhas de experiência baseadas em código, os eventos de interação devem ser enviados manualmente para indicar quando um usuário interagiu com o conteúdo. Isso é feito por meio da `sendEvent` comando.
 
-```javascript
-function sendInteractEvent(label, proposition) {
-  const { id, scope, scopeDetails = {} } = proposition;
-
-  alloy("sendEvent", {
-    
-    xdm: {
-      eventType: "decisioning.propositionInteract",
-      _experience: {
-        decisioning: {
-          propositions: [
-            {
-              id: id,
-              scope: scope,
-              scopeDetails: scopeDetails,
-            },
-          ],
-          propositionEventType: {
-            interact: 1
-          },
-          propositionAction: {
-            label: label
-          },
-        },
-      },
-    },
-  });
-}
-```
+   ```javascript
+   function sendInteractEvent(label, proposition) {
+     const { id, scope, scopeDetails = {} } = proposition;
+   
+     alloy("sendEvent", {
+   
+       xdm: {
+         eventType: "decisioning.propositionInteract",
+         _experience: {
+           decisioning: {
+             propositions: [
+               {
+                 id: id,
+                 scope: scope,
+                 scopeDetails: scopeDetails,
+               },
+             ],
+             propositionEventType: {
+               interact: 1
+             },
+             propositionAction: {
+               label: label
+             },
+           },
+         },
+       },
+     });
+   }
+   ```
 
 ### Principais observações
 
@@ -130,7 +138,9 @@ As solicitações para a API do Adobe Experience Platform são necessárias para
 
 ## Implementação do lado do servidor {#server-side-implementation}
 
-Se você tiver uma implementação do lado do servidor, poderá usar uma da API da rede de borda da AEP. As etapas abaixo descrevem o processo de busca do conteúdo publicado na borda pelas campanhas de experiência baseadas em código em uma amostra da implementação da API da rede de borda para uma página da Web e a exibição do conteúdo personalizado.
+Se você tiver uma implementação do lado do servidor, poderá usar uma da API da rede de borda da AEP.
+
+As etapas abaixo descrevem o processo de busca do conteúdo publicado na borda pelas campanhas de experiência baseadas em código em uma amostra da implementação da API da rede de borda para uma página da Web e a exibição do conteúdo personalizado.
 
 ### Como funciona
 
