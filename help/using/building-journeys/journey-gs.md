@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
 workflow-type: tm+mt
 source-wordcount: '2005'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -149,8 +149,8 @@ Estas são as etapas principais para enviar mensagens por meio do jornada:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
->title="Jornada critérios de saída"
->abstract="Esta seção mostra as opções de critérios de saída. É possível criar uma ou várias regras de critérios de saída para a jornada."
+>title="Critérios de saída da jornada"
+>abstract="Esta seção mostra as opções de critérios de saída. É possível criar uma ou várias regras de critérios de saída para a sua jornada."
 
 Clique no ícone de lápis, ao lado do nome da jornada, para acessar suas propriedades.
 
