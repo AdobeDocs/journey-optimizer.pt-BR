@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 26%
+source-wordcount: '1039'
+ht-degree: 25%
 
 ---
 
@@ -67,6 +67,7 @@ Para criar um item de decisão, siga estas etapas:
    1. Forneça um nome e uma descrição.
    1. Especifique datas de início e término. O item só será considerado pelo mecanismo de decisão nessas datas.
    1. Defina o **[!UICONTROL Prioridade]** do item de decisão em comparação a outros, se um perfil se qualificar para vários itens. Uma prioridade mais alta concede ao item precedência sobre outros.
+   1. A variável **Tags** permite atribuir Tags unificadas do Adobe Experience Platform aos itens de decisão. Isso permite classificá-los facilmente e melhorar a pesquisa. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
 
    ![](assets/item-attributes.png)
 
