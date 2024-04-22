@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c7dca8dd0d2761b204636020b427d76b617da26c
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1600'
 ht-degree: 8%
 
 ---
@@ -48,7 +48,7 @@ Para atribuir a permissão correspondente a um **[!UICONTROL Função]**:
 
 1. Arraste e solte a **[!UICONTROL Configurações de Warmup de IP]** recurso para atribuir permissão.
 
-1. No **[!UICONTROL Configurações de Warmup de IP]** selecione as permissões de que seu usuário precisa.
+1. No **[!UICONTROL Configurações de Warmup de IP]** selecione as permissões de que seu usuário precisa: **[!UICONTROL Exibir planos de aquecimento de IP]**, **[!UICONTROL Gerenciar planos de aquecimento de IP]**, e/ou **[!UICONTROL Exibir relatórios de aquecimento de IP]**. Você pode selecioná-los todos de uma vez, se necessário.
 
    ![](assets/ip_permissions_2.png)
 
