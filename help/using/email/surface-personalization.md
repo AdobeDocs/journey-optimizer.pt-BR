@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 513fddf21eaf7958df45d97f028103519c77ec44
+source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '824'
 ht-degree: 13%
 
 ---
@@ -43,6 +43,7 @@ Para obter mais flexibilidade e controle sobre as configurações de email, [!DN
 >id="ajo_surface_dynamic_subdomain_list"
 >title="Alguns subdomínios podem estar indisponíveis"
 >abstract="Certos subdomínios não estão disponíveis para seleção no momento devido ao registro do loop de feedback pendente. Esse processo pode demorar até 10 dias úteis. Após a conclusão, você pode escolher entre todos os subdomínios disponíveis."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introdução à delegação de subdomínio"
 
 Ao criar uma superfície de email, você pode configurar subdomínios dinâmicos com base em condições específicas.
 
