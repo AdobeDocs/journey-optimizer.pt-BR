@@ -8,10 +8,10 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 63dfe9a27f8a24a1c78968fa60252e16c87abebd
+source-git-commit: 542716f61e5e8d1aa4964fabc98bc4a938f41169
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 33%
+source-wordcount: '534'
+ht-degree: 32%
 
 ---
 
@@ -54,7 +54,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tr>
 <td>
 <p>O Experience Decisioning simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como "itens de decisão" e um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada indivíduo.</p>
-<p>Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada por meio do novo canal de experiência baseado em código, agora acessível nas campanhas do Journey Optimizer.</p>
+<p>Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada por meio do novo canal de experiência baseado em código, agora acessível nas campanhas do Journey Optimizer. As políticas de decisão do Experience Decisioning estão disponíveis para uso somente em campanhas de experiência baseadas em código.</p>
 <p>No momento, o Experience Decisioning está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
 </td>
 </tr>
