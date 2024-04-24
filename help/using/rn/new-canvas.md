@@ -8,9 +8,9 @@ description: Nova interface da jornada
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 0b1b1440d43ceadf4d943011d5e30e6ad0a64dbb
+source-git-commit: 596426f3b75a2e6f2d68e5b9218863c2d8887cca
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,10 @@ Desenvolvemos um **modelo de jornada simplificado** que visa melhorar os process
 
 * A **tela de jornada recriada** criado para uma experiência de interface modernizada
 * A **relatórios ao vivo** Interface do usuário diretamente disponível na tela de jornada
+
+>[!AVAILABILITY]
+>
+>Esteja ciente de que a implantação desse recurso será progressiva. Talvez você não veja as alterações imediatamente.
 
 ## Atualizações no modelo de jornada
 
@@ -76,18 +80,26 @@ Também permite que a equipe de produtos adicione mais informações à tela com
 
 Juntamente com o design aprimorado da tela de jornada, estamos introduzindo a capacidade de ver **métricas de relatórios das últimas 24 horas** (chamado de &quot;relatório em tempo real&quot;) diretamente na tela de jornada.
 
-![](assets/new-canvas6.png)
+![](assets/new-canvas6bis.png)
 
-Com cada jornada em tempo real no novo modelo, você poderá ver dois tipos de informações de relatórios &quot;últimas 24 horas&quot;:
+Com cada jornada em tempo real no novo modelo, você poderá ver: **em cada atividade**, o número de perfis que entraram nessa atividade e o número de perfis que saíram por causa de um erro:
 
-* Em um **nova inserção**, você verá:
-   * O número de perfis que foram exportados para jornadas acionadas pelo público-alvo. Você verá o número de perfis disponíveis no último trabalho de exportação ao lado do tempo em que essa exportação foi feita.
-   * O número de perfis que saíram da jornada
-   * A porcentagem de erros
-     ![](assets/new-canvas7.png)
-* **Em cada atividade**, você verá o número de perfis que entraram nessa atividade e o número de perfis que saíram por causa de um erro:
-  ![](assets/new-canvas8.png)
+![](assets/new-canvas8.png)
+
+<!--`
+With every live journey on the new model, you will be able to see two types of "last 24 hours" reporting information:
+
+* On a **new insert**, you will see:
+    * The number of profiles that have been exported for audience-triggered journeys. You will see the number of profiles available in the last export job alongside the time when that export has been made.
+    * The number of profiles who exited the journey
+    * The percentage of errors
+    ![](assets/new-canvas7.png)
+* **On each activity**, you will see the number of profiles who entered that activity and the number who exited because of an error:
+    ![](assets/new-canvas8.png)
+-->
 
 A interface é atualizada automaticamente a cada minuto.
 
-Observe que você pode ver diferenças entre o número de perfis exportados e o número de perfis que fluem pela jornada. A contagem de perfis exportados fornece apenas informações sobre o último trabalho de exportação que está sendo feito, enquanto o número de perfis que entram em uma atividade contém apenas perfis que o fizeram nas últimas 24 horas. Isso pode ser visível especialmente em jornadas diárias recorrentes, pois pode haver uma sobreposição de dados entre dois dias.
+<!--
+Please note that you may see differences between the number of exported profiles and the number of profiles flowing through the journey. The exported profiles count only provides information about the last export job being made while the number of profiles entering an activity only contains profiles who did it in the last 24 hours. This can especially be visible on recurring daily journeys as there could be a data overlap between two days.
+-->
