@@ -8,7 +8,7 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 409aaf7f8458a118e0f8d3aae481c2af047b3251
+source-git-commit: 3c9619c25f3e70e492e3fbb35521e10a66537a6a
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 32%
@@ -141,10 +141,6 @@ Essa versão traz os novos recursos detalhados abaixo.
 
 Esta versão vem com as melhorias listadas abaixo.
 
-<!--
-* **ExD reporting in AEP**: TBD
--->
-
 **Públicos-alvo**
 
 * Agora você pode usar públicos-alvo e atributos da composição de público-alvo com o Healthcare Shield e o Privacy &amp; Security Shield.
@@ -175,9 +171,6 @@ Esta versão vem com as melhorias listadas abaixo.
 
 De beta para LA, estas são as melhorias que foram feitas:
 
-<!-- TO CONFIRM * Experience Decisioning left navigation menus have been renamed:
-    * "Items" is now "Catalogs"
-    * "Configuration" is now "Strategy setup"-->
 * Agora você pode aproveitar os dados de contexto do Adobe Experience Platform em suas regras de decisão usando o **Dados de contexto** guia.
 * Uma nova permissão &quot;Gerenciar decisões de experiência&quot; agora está disponível para o recurso Gerenciamento de decisões. Ele permite gerenciar direitos relacionados ao Experience Decisioning.
 * Agora é possível adicionar várias regras de limitação para uma oferta. Isso permite aumentar o nível de controle sobre a maneira como as ofertas são enviadas.
