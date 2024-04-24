@@ -1,0 +1,297 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Regras comerciais
+description: Saiba como criar e aplicar regras de negócios
+feature: Rules
+topic: Content Management
+role: User
+level: Intermediate
+keywords: mensagem, frequência, regras, pressão
+hide: true
+hidefromtoc: true
+badge: label="Beta"
+source-git-commit: c1eef06b0edc4e1bcd1b145f8f822295924b205c
+workflow-type: tm+mt
+source-wordcount: '1426'
+ht-degree: 10%
+
+---
+
+# Regras comerciais {#business-rules}
+
+>[!AVAILABILITY]
+>
+>As regras de negócios estão disponíveis atualmente como um beta apenas para usuários selecionados.
+
+[!DNL Journey Optimizer] permite controlar a frequência com que os usuários receberão uma mensagem definindo regras entre canais que excluirão automaticamente perfis excessivamente solicitados de mensagens e ações.
+
+Por exemplo, para uma marca, uma regra pode ser: enviar não mais do que 4 mensagens de marketing por mês para os clientes. Para fazer isso, você pode usar uma regra de frequência que limitará o número de mensagens enviadas com base em um ou mais canais durante um período de calendário mensal.
+
+Por meio da criação de diferentes conjuntos de regras para melhorar a granularidade, [!DNL Journey Optimizer] O permite aplicar limite de frequência a diferentes tipos de comunicações de marketing. Por exemplo, é possível criar um conjunto de regras para limitar o número de **comunicações promocionais** enviado aos clientes e criar outro conjunto de regras para limitar o número de **informativos** enviado para eles.
+
+>[!NOTE]
+>
+>As regras de negócios são diferentes do gerenciamento de recusa, que permite que os usuários cancelem a inscrição do recebimento de comunicações de uma marca. [Saiba mais](../privacy/opt-out.md#opt-out-management)
+
+## Acessar conjuntos de regras {#access-rule-sets}
+
+Os conjuntos de regras estão disponíveis no **[!UICONTROL Administração]** > **[!UICONTROL Regras de negócio (Beta)]** menu. Todas as regras são listadas e classificadas por data de criação.
+
+![](assets/rule-sets-list.png)
+
+Clique no nome de um conjunto de regras para exibir e editar seu conteúdo. Todas as regras incluídas nesse conjunto de regras são listadas.
+
+O menu contextual na parte superior direita permite:
+
+* Editar o nome e a descrição do conjunto de regras
+* Ativar o conjunto de regras - [saiba mais](#activate-rule)
+* Excluir o conjunto de regras
+
+![](assets/rule-set-example.png)
+
+Para cada regra no conjunto de regras, a variável **[!UICONTROL Mais ações]** permite:
+
+* Editar a regra
+* Ativar a regra [saiba mais](#activate-rule)
+* Excluir a regra
+
+![](assets/rule-set-example-rules.png)
+
+<!--### Permissions{#permissions-frequency-rules}
+
+To access, create, edit or delete message frequency rules, you must have the **[!UICONTROL Manage frequency rules]** permission. 
+
+Users with the **[!UICONTROL View frequency rules]** permission are able to view rules, but not to modify or delete them.
+
+![](assets/message-rules-access.png)
+
+Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
+
+## Criar um conjunto de regras {#create-rule-set}
+
+Para criar um conjunto de regras, siga as etapas abaixo.
+
+1. Acesse o **[!UICONTROL Conjuntos de regras]** e clique em **[!UICONTROL Criar conjunto de regras]**.
+
+   ![](assets/rule-sets-create-button.png)
+
+1. Defina o nome do conjunto de regras, adicione uma descrição se desejar e clique em **[!UICONTROL Salvar]**.
+
+   ![](assets/rule-sets-create.png)
+
+   >[!NOTE]
+   >
+   >O nome do conjunto de regras deve ser exclusivo.
+
+1. Agora é possível [definir as regras](#create-new-rule) que você deseja adicionar a esse conjunto de regras, e [ativar](#activate-rule) o mesmo.
+
+   >[!NOTE]
+   >
+   >Verifique se todas as regras que deseja aplicar às suas mensagens também estão ativadas no conjunto de regras.
+
+## Criar uma regra {#create-new-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_sets_category"
+>title="Selecionar a categoria da regra de mensagem"
+>abstract="Quando ativadas e aplicadas a uma mensagem, todas as regras de frequência correspondentes à categoria selecionada serão automaticamente aplicadas a essa mensagem. Atualmente, somente a categoria Marketing está disponível."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_sets_capping"
+>title="Definir o limite para a regra"
+>abstract="Especifique o número máximo de mensagens enviadas a um perfil de cliente no intervalo de tempo escolhido. O limite de frequência será baseado no período do calendário selecionado e redefinido no início do intervalo de tempo correspondente. "
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_sets_channel"
+>title="Definir os canais aos quais a regra se aplica"
+>abstract="Selecione pelo menos um canal. O limite se aplica em canais como uma contagem total."
+
+Para adicionar uma regra a um conjunto de regras, siga as etapas abaixo.
+
+1. No conjunto de regras recém-criado, clique em **[!UICONTROL Adicionar regra]**.
+
+   ![](assets/rule-sets-create-rule-button.png)
+
+1. Defina o nome da regra.
+
+   >[!NOTE]
+   >
+   >O nome do conjunto de regras deve ser exclusivo.
+
+1. Selecione a categoria de regra de mensagem.
+
+   >[!NOTE]
+   >
+   >Atualmente, somente o **[!UICONTROL Marketing]** categoria está disponível.
+
+1. No **[!UICONTROL Duração]** selecione um intervalo de tempo para a limitação a ser aplicada. [Saiba mais](#frequency-cap)
+
+1. Defina o limite para sua regra, o que significa o número máximo de mensagens que podem ser enviadas para um perfil de usuário individual a cada mês, semana ou dia, de acordo com sua seleção acima.
+
+1. Selecione o canal que deseja usar para esta regra: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificação por push]** ou **[!UICONTROL Correspondência direta]**.
+
+   ![](assets/rule-set-channels.png)
+
+   >[!NOTE]
+   >
+   >Você deve selecionar pelo menos um canal para criar a regra.
+
+1. Selecione vários canais se desejar aplicar o limite em todos os canais selecionados como uma contagem total.
+
+   Por exemplo, defina o limite como 5 e selecione os canais de email e de sms. Se um perfil já tiver recebido três emails de marketing e dois sms de marketing para o período selecionado, esse perfil será excluído do próximo delivery de qualquer email ou sms de marketing.
+
+1. Clique em **[!UICONTROL Salvar]** para confirmar a criação da regra. Sua mensagem é adicionada ao conjunto de regras, com o **[!UICONTROL Rascunho]** status.
+
+   ![](assets/rule-set-rule-created.png)
+
+1. Repita as etapas acima para adicionar quantas regras forem necessárias ao conjunto de regras.
+
+Agora é necessário ativar cada regra antes de aplicá-la a qualquer mensagem. [Saiba mais](#activate-rule)
+
+>[!NOTE]
+>
+>Verifique se o conjunto de regras também está ativado para poder selecioná-lo em suas mensagens.
+
+### Limite de frequência {#frequency-cap}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_sets_duration"
+>title="Selecionar a categoria da regra de mensagem"
+>abstract="Quando ativadas e aplicadas a uma mensagem, todas as regras de frequência correspondentes à categoria selecionada serão automaticamente aplicadas a essa mensagem. Atualmente, somente a categoria Marketing está disponível."
+
+No **[!UICONTROL Duração]** selecione se deseja que o limite seja aplicado mensal, semanal ou diariamente.
+
+O limite de frequência se baseia no período de calendário selecionado. Ela é redefinida no início do intervalo de tempo correspondente.
+
+![](assets/rule-set-capping-duration.png)
+
+O prazo de validade do contador para cada período é o seguinte:
+
+* **[!UICONTROL Mensal]**: o limite de frequência é válido até o último dia do mês às 23:59:59 UTC. Por exemplo, a expiração mensal de janeiro é 01-31 23:59:59 UTC.
+
+* **[!UICONTROL Semanalmente]**: o limite de frequência é válido até sábado 23:59:59 UTC dessa semana, pois a semana do calendário começa no domingo. A expiração ocorre independentemente da criação da regra. Por exemplo, se a regra for criada na quinta-feira, essa regra será válida até o sábado às 23:59:59.
+
+* **[!UICONTROL Diariamente]**: o limite de frequência diário é válido para o dia até 23:59:59 UTC e redefine para 0 no início do dia seguinte.
+
+### Limite de frequência diário {#daily-frequency-cap}
+
+>[!CAUTION]
+>
+>Para garantir a precisão das regras de limite de frequência diária, a utilização de [segmentação por transmissão](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} é obrigatório. Saiba mais sobre os métodos de avaliação de público-alvo no [nesta seção](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+
+Para qualquer tamanho de segmento até o limite de 60 milhões de mensagens por hora<!--not clear-->, verifique se suas campanhas estão com pelo menos 2 horas de intervalo.
+
+
+<!-- Journey example:
+
+* If customer sets a Daily rule under the Global Ruleset for email <= 2/day:
+   * Journey 123 (scheduled for noon)
+   * Journey 456 (scheduled for noon)
+   * Journey 789 (scheduled for 1 pm)
+
+   In this example, the Daily Frequency cap will not guarantee <= 2/day. The rule will only be guaranteed when Journeys are at least 2 hours apart:
+   * Journey 123 (scheduled for noon)
+   * Journey 456 (scheduled for 2 pm)
+   * Journey 789 (scheduled for 4 pm)-->
+
+Por exemplo, se você definir uma regra diária em um conjunto de regras para o canal de email que seja menor que ou igual a 2 dias e se criar as seguintes campanhas:
+* Campanha A (agendada para o meio-dia)
+* Campanha A (agendada para 15h)
+* Campanha B (agendada para 13h)
+
+Esta configuração não funcionará por dois motivos:
+* O limite de frequência diária não é garantido, pois as campanhas não têm 2 horas de intervalo.
+* Não é uma prática recomendada agendar a mesma campanha várias vezes em um dia para aproveitar o limite diário.
+
+O exemplo abaixo deve ser respeitado pelo limite de frequência diário:
+* Campanha A (agendada para o meio-dia)
+* Campanha B (agendada para 14h)
+
+<!--* To use the Daily Cap with a Journey, customers can use either an Event Triggered Journey or an Audience Qualified Journey. If customers wish to use the Daily Cap with a Read Audience Journey, they should use a Campaign instead and associate a Local Ruleset with the campaign, following the example given above.-->
+
+## Ativar regras e conjuntos de regras {#activate-rule}
+
+Quando criada, uma regra tem o **[!UICONTROL Rascunho]** e ainda não está afetando nenhuma mensagem. Para ativá-lo, clique no link **[!UICONTROL Mais ações]** ao lado da regra e selecione **[!UICONTROL Ativar]**.
+
+![](assets/rule-set-activate-rule.png)
+
+Você também deve ativar o conjunto de regras para acessá-lo em campanhas/jornadas e aplicá-lo às suas mensagens.
+
+![](assets/rule-set-activate-set.png)
+
+Ativar um conjunto de regras afetará qualquer mensagem à qual ele se aplica na próxima execução. Saiba como [aplicar um conjunto de regras a uma mensagem](#apply-rule-set).
+
+>[!NOTE]
+>
+>Pode levar até 10 minutos para que uma regra ou um conjunto de regras seja totalmente ativado. Não é necessário modificar mensagens ou republicar jornadas para que uma regra entre em vigor.
+
+<!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
+
+## Desativar regras e conjuntos de regras {#deactivate-rule}
+
+Para desativar uma regra ou um conjunto de regras, clique no botão **[!UICONTROL Mais ações]** ao lado do item desejado e selecione **[!UICONTROL Desativar]**.
+
+![](assets/rule-set-inactive-rule.png)
+
+Seu status mudará para **[!UICONTROL Inativo]** e a regra não se aplicará a execuções de mensagens futuras. As mensagens em execução no momento não serão afetadas.
+
+>[!NOTE]
+>
+>A desativação de uma regra ou conjunto de regras não afeta ou redefine qualquer contagem em perfis individuais.
+
+## Aplicar uma regra de frequência a uma mensagem {#apply-frequency-rule}
+
+Para aplicar uma regra de frequência a uma mensagem, siga as etapas abaixo.
+
+1. Ao criar uma [campaign](../campaigns/create-campaign.md), selecione um dos canais definidos para o conjunto de regras e edite o conteúdo da mensagem.
+
+1. Na tela de edição de conteúdo, clique na guia **[!UICONTROL Adicionar Regra de Negócios]** botão.
+
+1. Selecione o [conjunto de regras que você criou](#create-rule-set).
+
+   ![](assets/rule-set-campaign-add-rule-button.png)
+
+   >[!NOTE]
+   >
+   >Somente [ativado](#activate-rule) conjuntos de regras são exibidos na lista.
+
+   <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
+
+1. Você pode exibir o número de perfis excluídos do delivery na variável [Relatório global](../reports/global-report.md), e no [Relatório ao vivo](../reports/live-report.md), em que as regras de frequência serão listadas como um possível motivo para os usuários excluídos do delivery.
+
+>[!NOTE]
+>
+>Várias regras podem ser aplicadas ao mesmo canal, mas quando o limite inferior for atingido, o perfil será excluído dos próximos deliveries.
+
+<!--
+## Example: combine several rules {#frequency-rule-example}
+
+You can combine several message frequency rules, such as described in the example below.
+
+1. [Create a rule](#create-new-rule) called *Overall Marketing Capping*:
+
+   * Select all channels.
+   * Set capping to 12 monthly.
+
+   ![](assets/message-rules-ex-overall-cap.png)
+
+1. To further restrict the number of marketing-based push notifications that a user is sent, create a second rule called *Push Marketing Cap*:
+
+   * Select Push channel.
+   * Set capping to 4 monthly.
+
+   ![](assets/message-rules-ex-push-cap.png)
+
+1. Save and [activate](#activate-rule) the rule.
+
+1. [Create a message](../building-journeys/journeys-message.md) for every channel you want to communicate through and select the **[!UICONTROL Marketing]** category for each message. [Learn how to apply a frequency rule](#apply-frequency-rule)
+
+   ![](assets/journey-message-category.png)
+
+In this scenario, an individual profile:
+* can receive up to 12 marketing messages per month;
+* but will be excluded from marketing push notifications after they have received 4 push notifications.-->
+
+Ao testar as regras de frequência, é recomendável usar um recém-criado [perfil de teste](../audience/creating-test-profiles.md), pois quando o limite de frequência de um perfil é atingido, não há como redefinir o contador até o próximo período. A desativação de uma regra permitirá que perfis limitados recebam mensagens, mas não removerá nem excluirá incrementos de contador.
+
