@@ -8,7 +8,7 @@ description: Nova interface da jornada
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: f6b9060ed512d6abff37102fa1316b43736bebd5
+source-git-commit: 0b1b1440d43ceadf4d943011d5e30e6ad0a64dbb
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 1%
@@ -26,7 +26,8 @@ Bem-vindo ao designer de jornadas aprimorado!
 
 Desenvolvemos um **modelo de jornada simplificado** que visa melhorar os processos internos. Embora esse novo modelo seja uma melhoria de back-end, nossa equipe aproveitou a oportunidade para adicionar recursos que são visíveis e benéficos para os usuários do Journey Optimizer:
 
-A **tela de jornada recriada** feito para uma experiência de interface do usuário modernizada A **relatórios ao vivo** Interface do usuário diretamente disponível na tela de jornada
+* A **tela de jornada recriada** criado para uma experiência de interface modernizada
+* A **relatórios ao vivo** Interface do usuário diretamente disponível na tela de jornada
 
 ## Atualizações no modelo de jornada
 
