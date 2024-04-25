@@ -8,9 +8,9 @@ description: Nova interface da jornada
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 59f41003183e155632124fde294bea575fb0f493
+source-git-commit: 55e002b00d0b605a868088fa3f5e1a15be64800c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Como você vê na captura de tela abaixo, os nós são em forma de rodada, que �
 
 ![](assets/new-canvas.png)
 
-No entanto, quando você c **Criar uma nova jornada** ou **duplicar um existente**, será uma jornada v2.  Planejamos continuar a oferecer suporte às jornadas v1 até que a maioria dos clientes passe para as jornadas v2.
+No entanto, quando você **criar uma nova jornada** ou **duplicar um existente**, será uma jornada v2.  Planejamos continuar a oferecer suporte às jornadas v1 até que a maioria dos clientes passe para as jornadas v2.
 
 Há uma limitação para o novo modelo de jornada; ela **não é possível copiar e colar atividades de uma jornada v1 para v2 e vice-versa**. Se desejar fazer isso, recomendamos que você duplique sua jornada v1 para transformá-la em v2 e, em seguida, copie suas atividades.
 
