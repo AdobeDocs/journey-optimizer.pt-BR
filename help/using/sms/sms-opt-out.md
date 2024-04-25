@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: d7b784f10e267878fd0df9360ed0d1be24699a53
+source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '485'
 ht-degree: 19%
 
 ---
@@ -45,7 +45,7 @@ Nenhuma etapa é necessária para garantir que os recursos de recusa de SMS func
 
 ## ➡ Incluis na lista de bloqueios {#sms-blocklists}
 
-Além de o Adobe Journey Optimizer interromper o envio com base no status de recusa (para integrações diretas com o Twilio ou Sinch), a maioria dos provedores de gateway de SMS também mantém uma inclui na lista de bloqueios, garantindo que uma mensagem SMS não seja entregue a um indivíduo que recusou-se a participar. Se você estiver usando um provedor que não seja o Sinch ou Twilio e enviar um SMS por [canal personalizado](../building-journeys/using-custom-actions.md), é necessário confirmar isso com o provedor.
+Além de o Adobe Journey Optimizer interromper o envio com base no status de recusa (para integrações diretas com o Twilio, Infobip ou Sinch), a maioria dos provedores de gateway de SMS também mantém um incluo na lista de bloqueios, garantindo que uma mensagem SMS não seja entregue a um indivíduo que recusou-se a participar. Se você estiver usando um provedor que não seja o Sinch ou Twilio e enviar um SMS por [canal personalizado](../building-journeys/using-custom-actions.md), é necessário confirmar isso com o provedor.
 
 
 ## Códigos curtos {#short-codes}
