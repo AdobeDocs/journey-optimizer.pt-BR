@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 69%
+ht-degree: 51%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Criar uma composição"
->abstract="Crie um fluxo de trabalho de composição para combinar públicos-alvo existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos-alvo."
+>abstract="Crie um fluxo de trabalho de composição para combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo."
 
 >[!BEGINSHADEBOX]
 
@@ -28,7 +28,7 @@ Estas documentações fornecem informações detalhadas sobre como trabalhar com
 
 >[!ENDSHADEBOX]
 
-A composição do público-alvo permite criar **fluxos de trabalho de composição**, em que é possível combinar públicos-alvo já existentes da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão..) para criar novos públicos-alvo.
+A composição do público-alvo permite criar **workflows de composição**, em que é possível combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo.
 
 Depois de concluído, o **públicos resultantes** são salvas no Adobe Experience Platform, juntamente com os públicos-alvo existentes, e podem ser aproveitadas em campanhas e jornadas do Journey Optimizer para clientes-alvo. [Saiba como direcionar públicos-alvo no Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
 
