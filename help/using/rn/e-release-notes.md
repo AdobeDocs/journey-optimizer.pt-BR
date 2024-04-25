@@ -8,9 +8,9 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 281387d650dc3a6c67ba365cd804f2b875dcd60b
+source-git-commit: 882af161383a54a1f9b09d2a8d0cab84abbf7dcd
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '502'
 ht-degree: 34%
 
 ---
@@ -164,7 +164,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Decisão da experiência**
 
-De beta para LA, estas são as melhorias que foram feitas:
+De beta para LA, as seguintes melhorias foram adicionadas:
 
 * Agora você pode aproveitar os dados de contexto do Adobe Experience Platform em suas regras de decisão usando o **Dados de contexto** guia.
 * Uma nova permissão &quot;Gerenciar decisões de experiência&quot; agora está disponível para o recurso Gerenciamento de decisões. Ele permite gerenciar direitos relacionados ao Experience Decisioning.
@@ -174,12 +174,12 @@ De beta para LA, estas são as melhorias que foram feitas:
 
 **Jornadas**
 
-* **Designer de Jornada aprimorado**:
+* **Designer de Jornada aprimorado**
 
    * A interface aprimorada da tela fornece uma experiência do usuário mais intuitiva e eficiente.
    * As atividades são mais claras e apresentam mais informações sobre a tela de jornada com menos cliques.
 
-* **Novo relatório ao vivo**: os relatórios para jornada agora podem ser acessados por meio dos relatórios ao vivo do aplicativo. Este é um aplicativo que fornece muitos insights para a execução da jornada.
+* **Novo relatório ao vivo**: os relatórios das últimas 24 horas do jornada agora podem ser acessados diretamente na tela do Jornada.
 
 **Configuração**
 
