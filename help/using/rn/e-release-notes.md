@@ -6,7 +6,7 @@ description: Notas de versão antecipadas do Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b64cb709813c479b2f126ba61a5fddaef61eecdd
+source-git-commit: a93dd80a15087a4ce7737757d5552ea1fc4f2a2a
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 54%
@@ -23,7 +23,7 @@ As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso 
 
 **Data de lançamento**: 30 de abril de 2024
 
-### Novo recurso {#e-features}
+### Novos recursos {#e-features}
 
 Essa versão traz os novos recursos detalhados abaixo.
 
