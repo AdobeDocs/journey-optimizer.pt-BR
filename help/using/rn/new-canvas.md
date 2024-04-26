@@ -8,16 +8,16 @@ description: Nova interface da jornada
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 55e002b00d0b605a868088fa3f5e1a15be64800c
+source-git-commit: 87e3ba96d05d41c87f314773e95eb0fcf0a2cfe3
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
 
 # Bem-vindo ao Designer de Jornada aprimorado {#new-canvas}
 
-Desenvolvemos um **modelo de jornada simplificado** que visa melhorar os processos internos. Embora esse novo modelo seja uma melhoria de back-end, nossa equipe aproveitou a oportunidade para adicionar recursos que são visíveis e benéficos para os usuários do Journey Optimizer:
+O Journey Optimizer agora oferece uma **modelo de jornada simplificado** que visa melhorar os processos internos. Embora esse novo modelo seja uma melhoria de back-end, nossa equipe aproveitou a oportunidade para adicionar recursos que são visíveis e benéficos para os usuários do Journey Optimizer:
 
 * A **tela de jornada recriada** criado para uma experiência de interface modernizada
 * A **relatórios ao vivo** Interface do usuário diretamente disponível na tela de jornada
@@ -30,28 +30,28 @@ Desenvolvemos um **modelo de jornada simplificado** que visa melhorar os process
 
 O novo modelo de jornada conterá o existente, o que significa que haverá jornadas usando **dois modelos diferentes**:
 
-* O antigo, chamado &quot;v1&quot;
-* E o novo, chamado &quot;v2&quot;
+* O modelo herdado
+* O novo modelo
 
-Todas as jornadas na v1 permanecerão na v1. Você ainda poderá editá-los, testá-los ou publicá-los. Qualquer nova versão criada a partir de uma v1 também permanecerá na v1. Há **nenhuma alteração funcional** em torno de jornadas v1.
+Todas as jornadas no modelo herdado permanecerão nele. Você ainda poderá editá-los, testá-los ou publicá-los. Qualquer nova versão criada de uma jornada no modelo herdado também permanecerá nela. Há **nenhuma alteração funcional** ao redor dessas jornadas.
 
-Como você vê na captura de tela abaixo, os nós são em forma de rodada, que é a interface antiga para jornadas no modelo v1.
+Como você vê na captura de tela abaixo, os nós são em forma de rodada, que é a interface antiga para jornadas no modelo herdado.
 
 ![](assets/new-canvas.png)
 
-No entanto, quando você **criar uma nova jornada** ou **duplicar um existente**, será uma jornada v2.  Planejamos continuar a oferecer suporte às jornadas v1 até que a maioria dos clientes passe para as jornadas v2.
+No entanto, quando você **criar uma nova jornada** ou **duplicar um existente**, estará no novo modelo. As jornadas no modelo herdado ainda serão compatíveis até que a maioria dos clientes faça a transição para o novo.
 
-Há uma limitação para o novo modelo de jornada; ela **não é possível copiar e colar atividades de uma jornada v1 para v2 e vice-versa**. Se desejar fazer isso, recomendamos que você duplique sua jornada v1 para transformá-la em v2 e, em seguida, copie suas atividades.
+Há uma limitação para o novo modelo de jornada; ela **não será possível copiar e colar atividades do modelo herdado para o novo e vice-versa**. Se desejar fazer isso, recomendamos que você duplique sua jornada herdada para alterná-la para o novo modelo e, em seguida, copie suas atividades.
 
-Na captura de tela abaixo, é possível ver a interface do usuário reprojetada para a tela de jornada (disponível somente com o modelo v2):
+Na captura de tela abaixo, é possível ver a interface do usuário reprojetada para a tela de jornada (disponível somente com o novo modelo):
 
 ![](assets/new-canvas2.png)
 
-**Qualquer novo recurso adicionado ao designer do jornada (incluindo relatórios em tempo real) só estará disponível para jornadas v2 a partir de agora.**
+**Qualquer novo recurso adicionado ao designer da jornada (incluindo relatórios em tempo real) só estará disponível para jornadas no novo modelo a partir de agora.**
 
 ## Aprimoramento do design da tela de jornada
 
-Com o novo modelo de jornada, estamos introduzindo um novo e aprimorado **Interface do usuário da tela de jornada**, que se encaixa perfeitamente no ecossistema de soluções e aplicativos da Adobe Experience Cloud, proporcionando uma experiência do usuário intuitiva e eficiente. Qualquer jornada na pilha da v2 estará nesse novo design.
+Com o novo modelo de jornada, estamos introduzindo um novo e aprimorado **Interface do usuário da tela de jornada**, que se encaixa perfeitamente no ecossistema de soluções e aplicativos da Adobe Experience Cloud, proporcionando uma experiência do usuário intuitiva e eficiente. Qualquer jornada no novo modelo estará nesse novo design.
 
 ![](assets/new-canvas3.gif)
 
