@@ -6,10 +6,10 @@ description: Notas de versão antecipadas do Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f133a33237fccacbf800de445c27684de4f42453
+source-git-commit: 4257fafef5d6c6f5f9c7f4af9c9b06510b1e9037
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 33%
+source-wordcount: '261'
+ht-degree: 57%
 
 ---
 
@@ -42,22 +42,22 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Experience Decisioning - Disponibilidade limitada</strong><br/></th>
+<th><strong>Experience Decisioning - Limited Availability</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Experience Decisioning simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como "itens de decisão" e um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada indivíduo.</p>
-<p>Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada por meio do novo canal de experiência baseado em código, agora acessível nas campanhas do Journey Optimizer. As políticas de decisão do Experience Decisioning estão disponíveis para uso somente em campanhas de experiência baseadas em código.</p>
-<p>No momento, o Experience Decisioning está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o representante da Adobe.</p>
+<p>Experience Decisioning simplifies personalization by offering a centralized catalog of marketing offers known as 'decision items' and a sophisticated decision engine. This engine leverages rules and ranking criteria to select and present the most relevant decision items to each individual.</p>
+<p>These decision items are seamlessly integrated into a wide range of inbound surfaces through the new code-based experience channel, now accessible within Journey Optimizer campaigns. Experience Decisioning decision policies are available for use in code-based experience campaigns only.</p>
+<p>Experience Decisioning is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -85,6 +85,25 @@ Essa versão traz os novos recursos detalhados abaixo.
 <td>
 <p>Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos com clientes. Inicialmente disponível apenas com Sinch, MMS agora também está disponível com Infobip e Twilio.</p>
 <img src="assets/do-not-localize/mms.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Designer de Jornada e relatórios ao vivo aprimorados</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Essa versão vem com uma interface de usuário de tela aprimorada para jornada e fornece uma experiência do usuário mais intuitiva e eficiente. As atividades são mais claras e apresentam mais informações sobre a tela de jornada com menos cliques.</p>
+<img src="assets/new-canvas3.gif"/>
+<p>Juntamente com o design aprimorado da tela de jornada, estamos introduzindo a capacidade de ver as últimas 24 horas relatando métricas diretamente na tela de jornada. </p>
+<img src="assets/new-canvas6bis.png"/>
+<p>Para obter mais informações, consulte a <a href="new-canvas.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -156,27 +175,22 @@ Esta versão vem com as melhorias listadas abaixo.
 * **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
 -->
 
-**Gestão de decisões**
+<!--
+**Decision management** 
 
-* A variável **Log de alterações** permite que você veja todas as alterações feitas em uma oferta ou em uma decisão que foi removida. As alterações relacionadas a ofertas e decisões agora podem ser vistas no **Auditorias** menu.
+* The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu.
 
-**Decisão da experiência**
+**Experience decisionning**
 
-De beta para LA, as seguintes melhorias foram adicionadas:
+From beta to LA, the following improvements that have been added:
 
-* Agora você pode aproveitar os dados de contexto do Adobe Experience Platform em suas regras de decisão usando o **Dados de contexto** guia.
-* Uma nova permissão &quot;Gerenciar decisões de experiência&quot; agora está disponível para o recurso Gerenciamento de decisões. Ele permite gerenciar direitos relacionados ao Experience Decisioning.
-* Agora é possível adicionar várias regras de limitação para um determinado item de decisão no Experience Decisioning. Isso permite aumentar o nível de controle sobre a maneira como as ofertas são enviadas.
-* Agora é possível criar painéis de relatórios personalizados para campanhas do Experience Decisioning usando o [!DNL Customer Journey Analytics].
+* You can now leverage context data from Adobe Experience Platform in your decision rules using the **Context data** tab.  
+* A new "Manage Experience decisions" permission is now available for the Decision Management resource. It allows you to manage rights related to Experience Decisioning.   
+* You can now add multiple capping rules for a given decision item in Experience Decisioning. This allows you to increase the level of control over the way offers are sent.
+* You can now create custom reporting dashboards of Experience Decisioning campaigns using [!DNL Customer Journey Analytics].
+-->
 
-**Jornadas**
 
-* **Designer de Jornada aprimorado**
-
-   * A interface aprimorada da tela fornece uma experiência do usuário mais intuitiva e eficiente.
-   * As atividades são mais claras e apresentam mais informações sobre a tela de jornada com menos cliques.
-
-* **Novo relatório ao vivo**: os relatórios das últimas 24 horas do jornada agora podem ser acessados diretamente na tela do Jornada.
 
 **Configuração**
 
