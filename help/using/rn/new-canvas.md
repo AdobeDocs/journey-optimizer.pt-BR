@@ -8,9 +8,9 @@ description: Nova interface da jornada
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 87e3ba96d05d41c87f314773e95eb0fcf0a2cfe3
+source-git-commit: b40ca1f681ebbaf976ab211c96eb2987cc44f5b8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Com o novo modelo de jornada, estamos introduzindo um novo e aprimorado **Interf
 
 As atividades agora serão representadas por caixas quadradas com os seguintes recursos:
 
-* A primeira linha que representa o tipo de atividade que geralmente será substituída por informações mais contextuais (por exemplo: em Ler públicos, ela conterá o nome do público selecionado) ou por um rótulo personalizado, se você definir um.
+* A primeira linha que representa o tipo de atividade que geralmente será substituída por informações mais contextuais (em Ler públicos, ela conterá o nome do público selecionado) ou por um rótulo personalizado, se você definir um.
 * A segunda linha sempre representa o tipo de atividade.
 
 ![](assets/new-canvas4.png)
