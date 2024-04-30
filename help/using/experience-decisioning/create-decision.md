@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: d26b35ea680eae0e71eb3164b4225a49610e1563
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 14%
+source-wordcount: '1443'
+ht-degree: 12%
 
 ---
 
@@ -206,3 +206,15 @@ Depois de criada, a política de decisão pode ser usada na variável [Editor de
 1. Você também pode adicionar qualquer outro atributo disponível no editor de expressão, como atributos de perfil.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
+
+## Relatório no Customer Journey Analytics {#cja}
+
+Se estiver trabalhando com o Customer Journey Analytics, você pode criar painéis de relatórios personalizados para suas campanhas baseadas em código aproveitando o Experience Decisioning.
+
+As principais etapas estão listadas abaixo. Informações detalhadas sobre como trabalhar com o Customer Journey Analytics estão disponíveis no [Documentação do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
+
+1. Criar e configurar um **conexão** em Customer Journey Analytics. Isso permite que você se conecte ao conjunto de dados para o qual deseja relatórios. [Saiba como criar uma conexão](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
+
+1. Criar um **visualização de dados** e associá-lo à conexão criada anteriormente. No **[!UICONTROL Componentes]** escolha os campos de esquema relevantes que deseja exibir nos relatórios. Para o Experience Decisioning, inclua a variável **propositioninteraction** e **propositiondisplay** campos. [Saiba como criar e configurar visualizações de dados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+
+1. Combinar componentes de dados, tabelas e visualizações em **projetos do workspace** para criar e compartilhar relatórios para sua campanha baseada em código.[Saiba como criar projetos do Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
