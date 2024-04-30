@@ -9,7 +9,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: a93dd80a15087a4ce7737757d5552ea1fc4f2a2a
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 54%
+ht-degree: 70%
 
 ---
 
@@ -25,7 +25,7 @@ As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso 
 
 ### Novos recursos {#e-features}
 
-Essa versão traz os novos recursos detalhados abaixo.
+Essa versão traz uma lista detalhada de novos recursos.
 
 <!--table>
 <thead>
@@ -83,7 +83,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do Serviço de Mensagens Multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos com clientes. Inicialmente disponível apenas com Sinch, MMS agora também está disponível com Infobip e Twilio.</p>
+<p>Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do Serviço de mensagens multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos com clientes. Inicialmente disponível apenas com Sinch, MMS agora também está disponível com Infobip e Twilio.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 </td>
 </tr>

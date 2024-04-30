@@ -204,7 +204,7 @@ ht-degree: 99%
    + Configurar canal de email {#configure-email}
       + [Introdução à configuração de email](using/email/get-started-email-config.md)
       + [Definir configurações de superfície de email](using/email/email-settings.md)
-      + [Personalizar configurações da superfície de email](using/email/surface-personalization.md)
+      + [Personalizar configurações de superfície de email](using/email/surface-personalization.md)
 + Canal no aplicativo{#in-app}
    + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
    + [Pré-requisitos do canal no aplicativo](using/in-app/inapp-configuration.md)
