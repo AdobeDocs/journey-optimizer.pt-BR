@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 7%
+source-wordcount: '329'
+ht-degree: 27%
 
 ---
 
@@ -33,15 +33,12 @@ ht-degree: 7%
 >[!AVAILABILITY]
 >
 >O recurso de decisão de experiência está disponível atualmente como um beta apenas para usuários selecionados. Para participar do programa beta, entre em contato com o atendimento ao cliente da Adobe.
+>
+>As políticas de decisão estão disponíveis para uso somente em campanhas de experiência baseadas em código.
 
-O Experience Decisioning simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como &quot;itens de decisão&quot; e um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada indivíduo.
+A Escolha de experiências simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.
 
 Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada por meio do novo canal de experiência baseado em código, agora acessível nas campanhas do Journey Optimizer.
-
-**Limitações**
-
-* As políticas de decisão estão disponíveis para uso somente em campanhas de experiência baseadas em código.
-* Por enquanto, o limite de frequência não está disponível no Experience Decisioning.
 
 ## Principais etapas do Experience Decisioning {#steps}
 
