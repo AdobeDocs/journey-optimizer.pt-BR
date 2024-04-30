@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
+source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 27%
+source-wordcount: '437'
+ht-degree: 23%
 
 ---
 
@@ -43,6 +43,28 @@ Esses itens de decisão são perfeitamente integrados em uma grande variedade de
 ## Principais etapas do Experience Decisioning {#steps}
 
 As principais etapas para trabalhar com o Experience Decisioning são as seguintes:
+
+1. **Atribuir permissões apropriadas**. As decisões só estão disponíveis para usuários com acesso a uma experiência relacionada ao Experience Decisioning **[!UICONTROL função]** como os Gerentes de decisão. Se não conseguir acessar as decisões, suas permissões deverão ser estendidas.
+
+   +++Saiba como atribuir a função de Gerentes de decisão
+
+   1. Para atribuir uma função a um usuário na [!DNL Permissions] produto, navegue até o **[!UICONTROL Funções]** e selecione Gerenciadores de decisão.
+
+      ![](assets/decision_permission_1.png)
+
+   1. No **[!UICONTROL Usuários]** clique em **[!UICONTROL Adicionar usuário]**.
+
+      ![](assets/decision_permission_2.png)
+
+   1. Digite o nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
+
+      Se o usuário não tiver sido criado anteriormente, consulte a [Adicionar documentação de usuários](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+
+      ![](assets/decision_permission_3.png)
+
+   O usuário deve receber um email de redirecionamento para sua instância.
+
++++
 
 1. **Configurar atributos personalizados**: personalize o catálogo dos itens de decisão de acordo com suas necessidades específicas, configurando atributos personalizados no esquema do catálogo.
 
