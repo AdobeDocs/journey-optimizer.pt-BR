@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 5%
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 No Experience Decisioning, os catálogos servem como contêineres centrais para organizar itens de decisão. Cada catálogo está vinculado a um esquema do Adobe Experience Platform, abrangendo todos os atributos atribuíveis a um item de decisão.
 
-Por enquanto, todos os itens de decisão criados são consolidados em um único catálogo de &quot;Ofertas&quot;, acessível por meio do **[!UICONTROL Itens]** menu.
+Por enquanto, todos os itens de decisão criados são consolidados em um único catálogo de &quot;Ofertas&quot;, acessível por meio do **[!UICONTROL Catálogos]** menu.
 
 ![](assets/catalogs-list.png)
 

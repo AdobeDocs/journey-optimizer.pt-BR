@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1786'
 ht-degree: 14%
@@ -38,7 +38,7 @@ O Journey Optimizer permite gerar ofertas de marketing, conhecidas como itens de
 
 Antes de criar um item de decisão, verifique se você criou um **regra de decisão** se quiser definir condições para determinar para quem o item de decisão pode ser exibido. [Saiba como criar regras de decisão](rules.md).
 
-Para criar um item de decisão, navegue até **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Itens]** e, em seguida, clique em **[!UICONTROL Criar item]** em seguida, siga as etapas detalhadas nas seções abaixo.
+Para criar um item de decisão, navegue até **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Catálogos]** e, em seguida, clique em **[!UICONTROL Criar item]** em seguida, siga as etapas detalhadas nas seções abaixo.
 
 ## Definir os atributos do item de decisão {#attributes}
 

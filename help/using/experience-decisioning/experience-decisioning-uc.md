@@ -8,7 +8,7 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 11%
@@ -33,7 +33,7 @@ Nesse caso de uso, você define dois tratamentos de delivery, cada um contendo u
 
 Primeiro, é necessário criar itens, agrupá-los em coleções, configurar regras e métodos de classificação. Esses elementos permitirão criar estratégias de seleção.
 
-1. Navegue até **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Itens]** e criar vários itens de oferta. Defina restrições usando públicos ou regras para restringir cada item somente a perfis específicos. [Saiba mais](items.md)
+1. Navegue até **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Catálogos]** e criar vários itens de oferta. Defina restrições usando públicos ou regras para restringir cada item somente a perfis específicos. [Saiba mais](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->

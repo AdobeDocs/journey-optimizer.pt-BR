@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 50%
@@ -47,11 +47,11 @@ As coleções permitem categorizar e agrupar itens de decisão de acordo com as 
 
 Por exemplo, digamos que você tenha adicionado um atributo personalizado de &quot;Categoria&quot; ao esquema de catálogo dos itens de decisão. Isso permite criar uma coleção que inclui todos os itens de decisão com o valor &quot;Yoga&quot; no atributo &quot;Categoria&quot;.
 
-A lista de coleções pode ser acessada no **[!UICONTROL Itens]** menu.
+A lista de coleções pode ser acessada no **[!UICONTROL Catálogos]** menu.
 
 Para criar uma coleção, siga estas etapas:
 
-1. Navegue até **[!UICONTROL Itens]** > **[!UICONTROL Coleções]** e clique em **[!UICONTROL Criar coleção]**.
+1. Navegue até **[!UICONTROL Catálogos]** > **[!UICONTROL Coleções]** e clique em **[!UICONTROL Criar coleção]**.
 1. Forneça um nome e uma descrição para a coleção.
 1. Adicione uma ou várias regras para determinar os itens a serem incluídos na coleção. Para fazer isso:
 

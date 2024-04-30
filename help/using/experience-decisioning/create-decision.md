@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: d26b35ea680eae0e71eb3164b4225a49610e1563
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1444'
 ht-degree: 12%
 
 ---
@@ -89,7 +89,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu s
    >
    >Pelo menos uma estratégia é necessária. Não é possível adicionar mais de 10 estratégias.
 
-1. No **[!UICONTROL Adicionar estratégia]** também é possível criar uma estratégia. A variável **[!UICONTROL Criar estratégia de seleção]** O botão redireciona você para a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configurações]** menu. [Saiba mais](selection-strategies.md)
+1. No **[!UICONTROL Adicionar estratégia]** também é possível criar uma estratégia. A variável **[!UICONTROL Criar estratégia de seleção]** O botão redireciona você para a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configuração da estratégia]** menu. [Saiba mais](selection-strategies.md)
 
    ![](assets/decision-code-based-add-strategy.png)
 
