@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3b9822121390548546ab6628504ea9dd1101fb48
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 4%
@@ -205,5 +205,11 @@ A variável `let` permite que uma expressão seja armazenada como uma variável 
 O exemplo a seguir permite que todas as somas de totais de produtos com a transação em USD, onde a soma é maior que $100 e menor que $1000.
 
 ```sql
-{% let variable = expression %} {{variable}}
+{% let sum = 0%}
+    {{#each profile.productsInCart as |p|}}
+        {%#if p.price>100 and p.price<1000%}
+            {%let sum = sum + p.price %}
+        {%/if%}
+    {{/each}}
+{{sum}}
 ```
