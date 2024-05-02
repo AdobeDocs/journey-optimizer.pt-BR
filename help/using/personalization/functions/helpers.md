@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 3b9822121390548546ab6628504ea9dd1101fb48
+source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '362'
 ht-degree: 4%
 
 ---
@@ -202,7 +202,7 @@ A variável `let` permite que uma expressão seja armazenada como uma variável 
 
 **Exemplo**
 
-O exemplo a seguir permite que todas as somas de totais de produtos com a transação em USD, onde a soma é maior que $100 e menor que $1000.
+O exemplo a seguir permite calcular a soma total dos preços dos produtos no carrinho com preços entre 100 e 1000.
 
 ```sql
 {% let sum = 0%}
