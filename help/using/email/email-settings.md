@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '2373'
-ht-degree: 11%
+source-wordcount: '2415'
+ht-degree: 10%
 
 ---
 
@@ -42,58 +42,56 @@ A configuração da superfície de email é selecionada para envio de comunicaç
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Definir a categoria de email"
+>title="Definir o tipo de email"
 >abstract="Selecione o tipo de email que será enviado usando essa superfície: Marketing para emails promocionais, que exigem consentimento do usuário, ou Transacional para emails não comerciais, que também podem ser enviados para perfis sem assinatura em contextos específicos."
 
-No **TIPO DE EMAIL** selecione o tipo de mensagem que será enviada com a superfície: **[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**.
+No **Tipo de email** selecione o tipo de mensagem para a superfície: **[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**.
 
-* Escolher **Marketing** para email promocional, como promoções semanais para uma loja de varejo. Essas mensagens exigem o consentimento do usuário.
+* Selecionar **Marketing** para email promocional, como promoções semanais para uma loja de varejo. Essas mensagens exigem o consentimento do usuário.
 
-* Escolher **Transacional** para emails não comerciais, como confirmações de pedidos, notificações de redefinição de senha ou informações de entrega, por exemplo. Esses emails podem ser enviados a perfis que **cancelado** de comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
+* Selecionar **Transacional** para emails não comerciais, como confirmações de pedidos, notificações de redefinição de senha ou informações de entrega, por exemplo. Esses emails podem ser enviados a perfis que **cancelado** de comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
 
 Ao criar uma mensagem, você deve escolher uma superfície de canal válida que corresponda à categoria selecionada para o seu email.
 
-## Subdomínio e pools de IP {#subdomains-and-ip-pools}
+## Subdomain {#subdomains}
 
-No **Subdomínio e pools de IP** preencha os campos obrigatórios conforme instruído abaixo.
+Selecione o subdomínio que será usado para enviar os emails.
 
-1. Selecione o subdomínio que será usado para enviar os emails.
-
-   Para preservar a reputação do seu domínio, acelere o processo de aquecimento de IP e melhore a capacidade de entrega, delegue os subdomínios de envio ao Adobe. [Saiba mais](../configuration/about-subdomain-delegation.md)
+Para preservar a reputação do seu domínio, acelere o processo de aquecimento de IP e melhore a capacidade de entrega, delegue os subdomínios de envio ao Adobe. [Saiba mais](../configuration/about-subdomain-delegation.md)
 
 <!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
-1. Selecione o pool de IP para associar à superfície. [Saiba mais](../configuration/ip-pools.md)
 
-   ![](assets/preset-subdomain-ip-pool.png)
+## Detalhes do pool de IP {#ip-pools}
 
-   Você não pode continuar com a criação da superfície enquanto o pool de IP selecionado estiver em [edição](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processando]** e nunca foi associado ao subdomínio selecionado. Caso contrário, a versão mais antiga da associação de pool/subdomínio de IP ainda será usada. Se esse for o caso, salve a superfície como rascunho e tente novamente depois que o pool de IP tiver o **[!UICONTROL Sucesso]** status.
 
-   >[!NOTE]
-   >
-   >Para ambientes não relacionados à produção, o Adobe não cria subdomínios de teste prontos para uso nem concede acesso a um pool de IPs de envio compartilhados. Você precisa [delegar seus próprios subdomínios](../configuration/delegate-subdomain.md) e use os IPs do pool atribuído à sua organização.
+Selecione o pool de IP para associar à superfície. [Saiba mais](../configuration/ip-pools.md)
 
-1. Após selecionar um pool de IP, as informações de PTR ficam visíveis ao passar o mouse sobre os endereços IP exibidos abaixo da lista suspensa Pool de IPs. [Saiba mais sobre registros PTR](../configuration/ptr-records.md)
+![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
 
-   ![](assets/email-surface-ptr-record.png)
+Você não pode continuar com a criação da superfície enquanto o pool de IP selecionado estiver em [edição](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processando]** e nunca foi associado ao subdomínio selecionado. Caso contrário, a versão mais antiga da associação de pool/subdomínio de IP ainda será usada. Se esse for o caso, salve a superfície como rascunho e tente novamente depois que o pool de IP tiver o **[!UICONTROL Sucesso]** status.
 
-   >[!NOTE]
-   >
-   >Se um registro PTR não estiver configurado, entre em contato com o representante da Adobe.
+>[!NOTE]
+>
+>Para ambientes não relacionados à produção, o Adobe não cria subdomínios de teste prontos para uso nem concede acesso a um pool de IPs de envio compartilhados. Você precisa [delegar seus próprios subdomínios](../configuration/delegate-subdomain.md) e use os IPs do pool atribuído à sua organização.
 
-## List-Unsubscribe {#list-unsubscribe}
+Após selecionar um pool de IP, as informações de PTR ficam visíveis ao passar o mouse sobre os endereços IP exibidos abaixo da lista suspensa Pool de IPs. [Saiba mais sobre registros PTR](../configuration/ptr-records.md)
+
+>[!NOTE]
+>
+>Se um registro PTR não estiver configurado, entre em contato com o representante da Adobe.
+
+## Cancelar inscrição em lista {#list-unsubscribe}
 
 Em [selecionar um subdomínio](#subdomains-and-ip-pools) na lista, o **[!UICONTROL Ativar lista-Cancelar inscrição]** é exibida.
 
-![](assets/preset-list-unsubscribe.png)
-
-Essa opção está ativada por padrão.
-
-Se você deixá-lo habilitado, um link para cancelar a inscrição será incluído automaticamente no cabeçalho do email, como:
+Essa opção está ativada por padrão. Se você deixá-lo habilitado, um link para cancelar a inscrição será incluído automaticamente no cabeçalho do email, como:
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Se você desativar essa opção, nenhum link de cancelamento de inscrição será exibido no cabeçalho do email.
+Se você desativar essa opção, nenhum link para cancelar inscrição será exibido no cabeçalho do email.
+
+Você pode selecionar o nível de consentimento nas **Nível de consentimento** lista suspensa. Pode ser específico do canal ou da identidade do perfil. Com base nessa configuração, quando um usuário cancela a assinatura usando o link de cabeçalho de cancelamento de inscrição da lista de um email, o consentimento é atualizado no Adobe Journey Optimizer, no nível do canal ou no nível de ID.
 
 O link de cancelamento de inscrição consiste em dois elementos:
 
@@ -101,7 +99,7 @@ O link de cancelamento de inscrição consiste em dois elementos:
 
   Entrada [!DNL Journey Optimizer], o endereço de email de cancelamento de inscrição é o padrão **[!UICONTROL Mailto (cancelar inscrição)]** endereço exibido na superfície de canal, com base na variável [subdomínio selecionado](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png)
+  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
 
 * A variável **cancelar inscrição do URL**, que é o URL da página de aterrissagem para a qual o usuário será redirecionado após cancelar a inscrição.
 
@@ -124,13 +122,9 @@ Saiba mais sobre como adicionar um link de cancelamento de inscrição de cabeç
 No **[!UICONTROL Parâmetros de cabeçalho]** insira os nomes dos remetentes e os endereços de email associados ao tipo de email enviado usando essa superfície.
 
 * **[!UICONTROL Nome do remetente]**: o nome do remetente, como o nome da sua marca.
-
 * **[!UICONTROL Email do remetente]**: o endereço de email que você deseja usar para suas comunicações.
-
 * **[!UICONTROL Responder para (nome)]**: O nome que será usado quando o recipient clicar no **Responder** no software cliente de email.
-
 * **[!UICONTROL Responder para (email)]**: O endereço de email que será usado quando o recipient clicar no **Responder** no software cliente de email. [Saiba mais](#reply-to-email)
-
 * **[!UICONTROL Email de erro]**: todos os erros gerados pelos ISPs após alguns dias da entrega de emails (rejeições assíncronas) são recebidos neste endereço. As notificações de ausência do escritório e as respostas a desafios também são recebidas neste endereço.
 
   Se quiser receber as notificações de ausência do escritório e as respostas de desafio em um endereço de email específico que não esteja delegado ao Adobe, é necessário configurar um [processo de encaminhamento](#forward-email). Nesse caso, verifique se você tem uma solução manual ou automatizada para processar os emails que chegam a essa caixa de entrada.
