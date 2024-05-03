@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 98ce21578d30ac50665561438715d19d1723f4a7
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 47%
+source-wordcount: '497'
+ht-degree: 37%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
 >title="Criar o conteúdo do email"
->abstract="O assistente de IA do Adobe Journey Optimizer traz sugestões proativas de variação de conteúdo para textos e imagens. Ele está disponível para canais de email, push, SMS e web. Esse novo recurso fornece uma geração de texto e de imagens baseada em prompt."
+>abstract="O Assistente de IA do Adobe Journey Optimizer traz sugestões proativas de variação de conteúdo para texto e imagens. Ele está disponível para canais de email, push, SMS e web. Esse novo recurso fornece uma geração de texto e de imagens baseada em prompt."
 
 >[!BEGINSHADEBOX]
 
@@ -39,9 +39,9 @@ ht-degree: 47%
 
 >[!AVAILABILITY]
 >
->No momento, o assistente de IA do Adobe Journey Optimizer está disponível na versão beta somente para usuários selecionados. Para participar do programa beta, entre em contato com o atendimento ao cliente da Adobe.
+>O Assistente de IA no Adobe Journey Optimizer está disponível no momento como uma versão beta somente para usuários selecionados.
 
-O assistente de IA do Adobe Journey Optimizer traz sugestões proativas de variação de conteúdo para textos e imagens. Ele está disponível para canais de email, push e SMS. Esse novo recurso fornece uma geração de texto e de imagens baseada em prompt. A geração de imagens é gerenciada pelo Adobe Firefly.
+O Assistente de IA do Adobe Journey Optimizer traz sugestões proativas de variação de conteúdo para texto e imagens. Ele está disponível para canais de email, push e SMS. Esse novo recurso fornece uma geração de texto e de imagens baseada em prompt. A geração de imagens é gerenciada pelo Adobe Firefly.
 
 Use o assistente de IA do Journey Optimizer para otimizar o impacto da sua mensagem, experimentando diferentes títulos principais e imagens. Gere múltiplas variantes e crie um experimento para compará-las. Aproveitando o Experimento de conteúdo do Journey Optimizer, é possível definir vários tratamentos de mensagem para medir qual tem melhor desempenho para o seu público-alvo. É possível optar por variar o conteúdo da entrega ou o assunto. O público-alvo da mensagem é alocado aleatoriamente em cada tratamento para determinar qual funciona melhor de acordo com a métrica especificada. Saiba mais sobre o Experimento de conteúdo [nesta seção](../campaigns/content-experiment.md).
 
