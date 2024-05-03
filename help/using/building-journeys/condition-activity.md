@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 17%
@@ -154,11 +154,10 @@ Esta seção explica como usar um público-alvo em uma condição de jornada. Pa
 Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
 1. Abra uma jornada, solte uma **[!UICONTROL Condição]** e escolha a **Condição da fonte de dados**.
-   ![](assets/journey47.png)
-
-1. Clique em **[!UICONTROL Adicionar um caminho]** para cada caminho extra necessário. Para cada caminho, clique no link **[!UICONTROL Expressão]** campo.
 
    ![](assets/segment3.png)
+
+1. Clique em **[!UICONTROL Adicionar um caminho]** para cada caminho extra necessário. Para cada caminho, clique no link **[!UICONTROL Expressão]** campo.
 
 1. No lado esquerdo, expanda **[!UICONTROL Públicos-alvo]** nó. Arraste e solte o público-alvo que deseja usar com sua condição. Por padrão, a condição no público-alvo é verdadeira.
 

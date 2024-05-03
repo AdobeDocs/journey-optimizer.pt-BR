@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externo, fontes, dados, configuração, conexão, terceiros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 64%
+source-wordcount: '1531'
+ht-degree: 62%
 
 ---
 
@@ -58,7 +58,7 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
 
    >[!NOTE]
    >
-   >Não use espaços ou caracteres especiais. Não use mais de 30 caracteres.
+   >Somente caracteres alfanuméricos e sublinhados são permitidos. O comprimento máximo é de 30 caracteres.
 
 1. Adicione uma descrição à fonte de dados. Esta etapa é opcional.
 1. Adicione o URL do serviço externo. Em nosso exemplo: _https://api.adobeweather.org/weather_.
@@ -86,7 +86,7 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
 
    ![](assets/journey28.png)
 
-1. Adicione um novo grupo de campos para cada conjunto de parâmetros da API clicando em **[!UICONTROL Adicionar um novo grupo de campos]**. Não use espaços ou caracteres especiais no nome do grupo de campos. Em nosso exemplo, precisamos criar dois grupos de campo, um para cada conjunto de parâmetros (city e long/lat).
+1. Adicione um novo grupo de campos para cada conjunto de parâmetros da API clicando em **[!UICONTROL Adicionar um novo grupo de campos]**. Somente caracteres alfanuméricos e sublinhados são permitidos no nome do grupo de campos. O comprimento máximo é de 30 caracteres. Em nosso exemplo, precisamos criar dois grupos de campo, um para cada conjunto de parâmetros (city e long/lat).
 
 Para o conjunto de parâmetros &quot;long/lat&quot;, criamos um grupo de campos com as seguintes informações:
 

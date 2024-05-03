@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: conjunto de dados, otimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 2%
@@ -32,11 +32,11 @@ Para exibir a lista completa de campos e atributos para cada esquema, consulte o
 
 ## Conjunto de dados de evento de experiência de rastreamento de email{#email-tracking-experience-event-dataset}
 
-_Nome na interface : Conjunto de dados do evento de experiência de rastreamento de email do CJM_
+_Nome na interface: conjunto de dados do evento de experiência de rastreamento de email do AJO_
 
 Conjunto de dados do sistema para assimilar eventos de experiência de rastreamento de email do Journey Optimizer.
 
-O esquema relacionado é o Esquema de evento de experiência de rastreamento de email CJM.
+O esquema relacionado é o Esquema de evento de experiência de rastreamento de email do AJO.
 
 Esta consulta mostra as contagens de diferentes interações de email (aberturas, cliques) para uma determinada mensagem:
 
@@ -44,7 +44,7 @@ Esta consulta mostra as contagens de diferentes interações de email (aberturas
 select
     _experience.customerJourneyManagement.messageInteraction.interactionType AS interactionType,
     count(1) eventCount
-from cjm_email_tracking_experience_event_dataset
+from ajo_email_tracking_experience_event_dataset
 where
      _experience.customerJourneyManagement.messageExecution.messageExecutionID IN ('UMA-30647505')
 group by
@@ -58,7 +58,7 @@ select
     _experience.customerJourneyManagement.messageExecution.messageExecutionID AS messageExecutionID,
     _experience.customerJourneyManagement.messageInteraction.interactionType AS interactionType,
     count(1) eventCount
-from cjm_email_tracking_experience_event_dataset
+from ajo_email_tracking_experience_event_dataset
 where
      _experience.customerJourneyManagement.messageExecution.journeyVersionID IN ('0e86ac62-c315-48cc-ab4f-3f8b741ae667')
 group by
@@ -72,11 +72,11 @@ limit 100;
 
 ## Conjunto de dados do evento de feedback da mensagem{#message-feedback-event-dataset}
 
-_Nome na interface: Conjunto de dados do evento de feedback de mensagem CJM_
+_Nome na interface: Conjunto de dados do evento de feedback de mensagem do AJO_
 
 Conjunto de dados para assimilar eventos de feedback de aplicativos de email e por push do Journey Optimizer.
 
-O esquema relacionado é o Esquema de evento de feedback de mensagem CJM.
+O esquema relacionado é o Esquema de evento de feedback de mensagem do AJO.
 
 Esta consulta mostra as contagens de diferentes status de feedback por email (enviado, rejeitado, etc.) para uma determinada mensagem:
 
@@ -84,7 +84,7 @@ Esta consulta mostra as contagens de diferentes status de feedback por email (en
 select
     _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus AS feedbackStatus,
     count(1) eventCount
-from cjm_message_feedback_event_dataset
+from ajo_message_feedback_event_dataset
 where
      _experience.customerJourneyManagement.messageExecution.messageExecutionID IN ('UMA-30647505')
 group by
@@ -98,7 +98,7 @@ select
     _experience.customerJourneyManagement.messageExecution.messageExecutionID AS messageExecutionID,
     _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus AS feedbackStatus,
     count(1) eventCount
-from cjm_message_feedback_event_dataset
+from ajo_message_feedback_event_dataset
 where
      _experience.customerJourneyManagement.messageExecution.journeyVersionID IN ('0e86ac62-c315-48cc-ab4f-3f8b741ae667')
 group by
@@ -113,37 +113,37 @@ limit 100;
 No nível agregado, relatório de nível de domínio (classificado por domínios principais): Nome do domínio, Mensagem enviada, Rejeições
 
 ```sql
-SELECT split_part(_experience.customerJourneyManagement.emailChannelContext.address, '@', 2) AS recipientDomain, SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END)AS sentCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' THEN 1 ELSE 0 END )AS bounceCount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY recipientDomain ORDER BY sentCount DESC;
+SELECT split_part(_experience.customerJourneyManagement.emailChannelContext.address, '@', 2) AS recipientDomain, SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END)AS sentCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' THEN 1 ELSE 0 END )AS bounceCount FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY recipientDomain ORDER BY sentCount DESC;
 ```
 
 Email envia diariamente:
 
 ```sql
-SELECT date_trunc('day', TIMESTAMP) AS rolluptimestamp, SUM( CASE WHEN _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'sent' THEN 1 ELSE 0 END) AS deliveredcount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY date_trunc('day', TIMESTAMP) ORDER BY rolluptimestamp ASC;
+SELECT date_trunc('day', TIMESTAMP) AS rolluptimestamp, SUM( CASE WHEN _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'sent' THEN 1 ELSE 0 END) AS deliveredcount FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY date_trunc('day', TIMESTAMP) ORDER BY rolluptimestamp ASC;
 ```
 
 Descubra se uma ID de email específica recebeu um email ou não e, caso não tenha recebido, qual foi o erro, categoria de rejeição, código:
 
 ```sql
-SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.emailchannelcontext.address = 'user@domain.com' AND TIMESTAMP >= now() - INTERVAL '7' DAY ORDER BY status ASC
+SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.emailchannelcontext.address = 'user@domain.com' AND TIMESTAMP >= now() - INTERVAL '7' DAY ORDER BY status ASC
 ```
 
 Encontre a lista de todas as IDs de email individuais que tiveram um erro específico, categoria de rejeição ou código nas últimas x horas/dias ou associadas a um delivery de mensagem específico:
 
 ```sql
-SELECT _experience.customerjourneymanagement.emailchannelcontext.address AS emailid, _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus != 'sent' AND TIMESTAMP >= now() - INTERVAL '10' HOUR AND _experience.customerjourneymanagement.messageexecution.messageexecutionid = 'BMA-45237824' ORDER BY emailid
+SELECT _experience.customerjourneymanagement.emailchannelcontext.address AS emailid, _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus != 'sent' AND TIMESTAMP >= now() - INTERVAL '10' HOUR AND _experience.customerjourneymanagement.messageexecution.messageexecutionid = 'BMA-45237824' ORDER BY emailid
 ```
 
 Taxa de rejeição permanente no nível agregado:
 
 ```sql
-select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*100.0 else 0 end as hardBounceRate from ( select SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' AND _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.type = 'Hard' THEN 1 ELSE 0 END)AS hardBounceCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END )AS sentCount from cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' )
+select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*100.0 else 0 end as hardBounceRate from ( select SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' AND _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.type = 'Hard' THEN 1 ELSE 0 END)AS hardBounceCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END )AS sentCount from ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' )
 ```
 
 Erros permanentes agrupados por código de devolução:
 
 ```sql
-SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
+SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
 ### Identificação de endereços em quarentena após uma interrupção do ISP{#isp-outage-query}
@@ -155,7 +155,7 @@ SELECT
     _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress,
     timestamp AS EventTime,
     _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.reason AS "Invalid Recipient"
-FROM cjm_message_feedback_event_dataset
+FROM ajo_message_feedback_event_dataset
 WHERE
     eventtype = 'message.feedback' AND
     DATE(timestamp) BETWEEN '<start-date-time>' AND '<end-date-time>' AND
@@ -170,19 +170,19 @@ Depois de identificados, remova esses endereços da lista de supressão do Journ
 
 ## Conjunto de dados do evento de experiência de rastreamento de push {#push-tracking-experience-event-dataset}
 
-_Nome na interface: Conjunto de dados de evento de experiência de rastreamento de push do CJM_
+_Nome na interface: Conjunto de dados de evento de experiência de rastreamento de push do AJO_
 
 Conjunto de dados para assimilar eventos de experiência de rastreamento móvel para push do Journey Optimizer.
 
-O esquema relacionado é o Esquema do evento de experiência de rastreamento de push do CJM.
+O esquema relacionado é o Esquema do evento de experiência de rastreamento de push do AJO.
 
 Exemplo de consulta:
 
 ```sql
-select _experience.customerJourneyManagement.pushChannelContext.platform, sum(pushNotificationTracking.customAction.value)  from cjm_push_tracking_experience_event_dataset
+select _experience.customerJourneyManagement.pushChannelContext.platform, sum(pushNotificationTracking.customAction.value)  from ajo_push_tracking_experience_event_dataset
 group by _experience.customerJourneyManagement.pushChannelContext.platform
 
-select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (_experience.customerJourneyManagement.messageInteraction.offers.offerCount) from cjm_email_tracking_experience_event_dataset
+select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (_experience.customerJourneyManagement.messageInteraction.offers.offerCount) from ajo_email_tracking_experience_event_dataset
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
@@ -316,7 +316,7 @@ WHERE
     ( 
             bcc._experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress NOT IN ( 
         SELECT distinct mfe._experience.customerJourneyManagement.emailChannelContext.address
-        FROM cjm_message_feedback_event_dataset AS mfe 
+        FROM ajo_message_feedback_event_dataset AS mfe 
         WHERE 
             mfe.timestamp > now() - INTERVAL '2' DAY AND 
             mfe._experience.customerJourneyManagement.messageExecution.messageExecutionID  = '<message-execution-id>' AND
@@ -324,7 +324,7 @@ WHERE
         )  
     OR     bcc._experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress IN ( 
         SELECT distinct mfe._experience.customerJourneyManagement.emailChannelContext.address
-        FROM cjm_message_feedback_event_dataset AS mfe 
+        FROM ajo_message_feedback_event_dataset AS mfe 
         WHERE 
         mfe.timestamp > now() - INTERVAL '2' DAY AND 
             mfe._experience.customerJourneyManagement.messageExecution.messageExecutionID  = '<message-execution-id>' AND 
@@ -374,7 +374,7 @@ SELECT
   AE._experience.customerJourneyManagement.entities.channelDetails.email.subject 
 from 
   ajo_entity_dataset AE 
-  INNER JOIN cjm_message_feedback_event_dataset MF ON AE._experience.customerJourneyManagement.entities.channelDetails.messageID = MF._experience.customerJourneyManagement.messageExecution.messageID 
+  INNER JOIN ajo_message_feedback_event_dataset MF ON AE._experience.customerJourneyManagement.entities.channelDetails.messageID = MF._experience.customerJourneyManagement.messageExecution.messageID 
 WHERE 
   AE._experience.customerJourneyManagement.entities.channelDetails.channel._id = 'https://ns.adobe.com/xdm/channels/email' 
   AND MF._experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' 
@@ -393,7 +393,7 @@ SELECT
     JE._EXPERIENCE.JOURNEYORCHESTRATION.STEPEVENTS.NODENAME
 from 
   ajo_entity_dataset AE 
-  INNER JOIN cjm_message_feedback_event_dataset MF 
+  INNER JOIN ajo_message_feedback_event_dataset MF 
     ON AE._experience.customerJourneyManagement.entities.channelDetails.messageID = MF._experience.customerJourneyManagement.messageExecution.messageID 
     INNER JOIN journey_step_events JE
     ON AE._experience.customerJourneyManagement.entities.journey.journeyActionID = JE._experience.journeyOrchestration.stepEvents.actionID

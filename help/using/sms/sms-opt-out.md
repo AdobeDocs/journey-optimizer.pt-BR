@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '467'
 ht-degree: 19%
 
 ---
@@ -59,14 +59,6 @@ No entanto, o Journey Optimizer oferece suporte a opções de não participaçã
 As IDs alfanuméricas do remetente são somente para mensagens unidirecionais e não podem receber mensagens de entrada. Como resultado, as palavras-chave STOP, START e HELP do Adobe Journey Optimizer não se aplicam às IDs do remetente do Alpha. Você deve fornecer outras instruções, seja escrevendo para a equipe de suporte, ligando para um número de suporte ou enviando um texto através de outro número de telefone ou código para permitir que os usuários recusem o recebimento de mensagens enviadas por meio da ID alfanumérica do remetente.
 
 ## Vídeo {#video-sms}
-
-* O vídeo abaixo mostra como o suporte nativo a palavras-chave de entrada (START, STOP e UNSTOP) funciona para SMS.
-
-+++ Ver vídeo
-
-  >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
-
-+++
 
 * O vídeo abaixo ajuda você a saber como configurar a aceitação dupla de SMS.
 

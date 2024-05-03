@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 100%
@@ -96,8 +96,6 @@ Se precisar modificar uma jornada ativa, crie uma nova versão da jornada.
    >Só é possível criar uma nova versão com base na versão mais recente de uma jornada.
 
 1. Faça as modificações, clique em **[!UICONTROL Publicar]** e confirme.
-
-   ![](assets/journeyversions3.png)
 
 A partir do momento em que a jornada for publicada, pessoas físicas começarão a acessar a versão mais recente da jornada. As pessoas que já acessaram uma versão anterior permanecerão nela até que concluam a jornada. Se mais tarde entrarem novamente na mesma jornada, elas acessarão a versão mais recente.
 

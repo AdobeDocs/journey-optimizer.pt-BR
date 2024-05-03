@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1411'
 ht-degree: 10%
 
 ---
@@ -197,10 +197,6 @@ Agora você pode usar este template ao criar qualquer conteúdo dentro de [!DNL 
 ## Testar modelos de conteúdo de email {#test-template}
 
 Você pode testar a renderização de alguns de seus modelos de email, sejam eles criados do zero ou de um conteúdo existente. Para isso, siga as etapas abaixo.
-
->[!CAUTION]
->
->No momento, os modelos de conteúdo de teste estão disponíveis apenas para **[!UICONTROL E-mail]** modelos com o **[!UICONTROL HTML]** tipo.
 
 1. Acesse a lista de templates de conteúdo por meio da **[!UICONTROL Gestão de conteúdo]** > **[!UICONTROL Modelos de conteúdo]** e selecione qualquer template de email.
 

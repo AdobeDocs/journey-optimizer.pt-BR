@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
-workflow-type: ht
-source-wordcount: '2029'
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+workflow-type: tm+mt
+source-wordcount: '2022'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,6 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 
 ## Medidas de proteção de SMS {#sms-guardrails}
 
-* O recurso MMS está disponível somente para o Sinch.
 * Os arquivos de mídia para MMS podem ser incluídos por meio de um URL compatível. Verifique se o arquivo de mídia foi enviado separadamente.
 * A sincronização de feedback da mensagem não está disponível no momento para MMS.
 * O gerenciamento de consentimento opera no nível do canal SMS para MMS.

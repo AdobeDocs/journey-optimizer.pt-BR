@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2004'
 ht-degree: 17%
 
 ---
@@ -83,7 +83,7 @@ Estas são as várias operações de filtragem que você pode executar:
 
 Filtre as jornadas de acordo com seu status, tipo, versão e tags atribuídas do **[!UICONTROL Filtros de status e versão]**.
 
-O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação de público]**, **[!UICONTROL Ler público]**, **[!UICONTROL Evento comercial]** ou **[!UICONTROL Intermitência]**.
+O tipo pode ser: **[!UICONTROL Evento unitário]**, **[!UICONTROL Qualificação de público]**, **[!UICONTROL Ler público]** ou **[!UICONTROL Evento comercial]**.
 
 O status pode ser:
 

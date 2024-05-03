@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '243'
 ht-degree: 6%
 
 ---
@@ -95,6 +95,24 @@ Este query retorna o valor hexadecimal de 158, ou seja, 9e.
 
 ```sql
 {%= toHexString(158) %}
+```
+
+## Para Int {#to-int}
+
+A variável `toInt` A função é usada para converter qualquer um desses tipos (number, double, int, long, float, short, byte, boolean, string) em um inteiro.
+
+**Sintaxe**
+
+```sql
+{%= toInt(<valueToConvert>) %}: integer
+```
+
+**Exemplo**
+
+Esta query retorna o valor inteiro de 42,6, ou seja, 42.
+
+```sql
+{%= toInt(42.6) %}: integer
 ```
 
 ## Para porcentagem {#to-percentage}

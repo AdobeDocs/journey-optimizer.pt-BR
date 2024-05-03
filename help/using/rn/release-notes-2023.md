@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '4398'
 ht-degree: 100%
@@ -213,9 +213,9 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Canal SMS**
 
-* Dois novos campos, **Mensagem de aceitação** e **Mensagem de ajuda**, foram adicionados à tela de configuração da API, permitindo personalizar respostas para palavras-chave de entrada. Observe que isso só está disponível para o provedor de SMS Sinch. [Saiba mais](../sms/sms-configuration.md#create-api)
+* Dois novos campos, **Mensagem de aceitação** e **Mensagem de ajuda**, foram adicionados à tela de configuração da API, permitindo personalizar respostas para palavras-chave de entrada. Observe que isso só está disponível para o provedor de SMS Sinch. [Saiba mais](../sms/sms-configuration.md)
 
-* A recusa de SMS não é mais gerenciada no nível do canal. Agora é específico para um número, o que significa que se alguns perfis optarem por não receber um determinado número ou código curto, você ainda poderá enviar mensagens de outros números que possa estar usando para enviar mensagens SMS. Uma nova opção permite selecionar o **Número de recusa** que deseja usar em uma determinada superfície. [Saiba mais](../sms/sms-configuration.md#message-preset-sms)
+* A recusa de SMS não é mais gerenciada no nível do canal. Agora é específico para um número, o que significa que se alguns perfis optarem por não receber um determinado número ou código curto, você ainda poderá enviar mensagens de outros números que possa estar usando para enviar mensagens SMS. Uma nova opção permite selecionar o **Número de recusa** que deseja usar em uma determinada superfície. [Saiba mais](../sms/sms-configuration.md)
 
 **Canal de correspondência direta**
 

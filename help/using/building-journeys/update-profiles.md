@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: perfil, atualização, jornada, atividade
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '610'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ Use o **[!UICONTROL Atualizar perfil]** atividade de ação para atualizar um pe
 
 ## Recomendações
 
-* A variável **Atualizar perfil** A ação só pode ser usada em jornadas que comecem com um evento que tenha um namespace.
+* A variável **Atualizar perfil** a ação só pode ser usada em jornadas que tenham um namespace.
 * A ação atualiza apenas os campos existentes, não cria novos campos de perfil.
 * Você não pode usar o **Atualizar perfil** ação para gerar eventos de experiência, por exemplo, uma compra.
 * Como qualquer outra ação, é possível definir um caminho alternativo em caso de erro ou tempo limite, e não é possível colocar duas ações em paralelo.

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 22%
+source-wordcount: '1450'
+ht-degree: 21%
 
 ---
 
@@ -74,7 +74,7 @@ Estas são as principais etapas necessárias para configurar uma ação personal
 
    >[!NOTE]
    >
-   >Não use espaços ou caracteres especiais. Não use mais de 30 caracteres.
+   >Somente caracteres alfanuméricos e sublinhados são permitidos. O comprimento máximo é de 30 caracteres.
 
 1. Adicione uma descrição à ação. Esta etapa é opcional.
 1. O número de jornadas que usam esta ação é exibido no **[!UICONTROL Usado em]** campo. Você pode clicar no link **[!UICONTROL Exibir jornadas]** botão para exibir a lista de jornadas usando esta ação.

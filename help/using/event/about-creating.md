@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitário, create, jornada
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 13%
+source-wordcount: '1605'
+ht-degree: 12%
 
 ---
 
@@ -41,7 +41,7 @@ Estas são as primeiras etapas para configurar um novo evento:
 
    >[!NOTE]
    >
-   >Não use espaços ou caracteres especiais. Não use mais de 30 caracteres.
+   >Somente caracteres alfanuméricos e sublinhados são permitidos. O comprimento máximo é de 30 caracteres.
 
 1. No **[!UICONTROL Tipo]** escolha **Unitário**.
 

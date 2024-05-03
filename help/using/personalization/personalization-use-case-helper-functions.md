@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, auxiliares, caso de uso, personalização
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 02fc8825f61bd365b02788bbcd3e0647f5842bfa
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1038'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ O conteúdo do carrinho é uma informação contextual da jornada. Portanto, voc
 1. Crie um evento cujo esquema inclua a variável `productListItems` matriz.
 1. Defina todos os campos dessa matriz como campos de carga para esse evento.
 
-   Saiba mais sobre a digitação de dados do item de lista de produtos [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
+   Saiba mais sobre o tipo de dados do item de lista de produtos no [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Crie uma jornada que comece com este evento.
 1. Adicionar um **E-mail** atividade para a jornada.

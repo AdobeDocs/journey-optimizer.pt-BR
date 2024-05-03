@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1872'
 ht-degree: 2%
 
 ---
@@ -171,6 +171,9 @@ Clique em `...` ícone para exibir a descrição da função e adicioná-la aos 
     </tr>
     <tr>
     <td><a href="math.md#to-hex-string">Para hex string</a></td><td>converte qualquer número em sua cadeia de caracteres hexadecimal.</td>
+    </tr>
+    <tr>
+    <td><a href="math.md#to-int">ToInt</a></td><td>Converte qualquer um desses tipos (número, duplo, int, longo, flutuante, curto, byte, booleano, string) em um inteiro.</td>
     </tr>
     <tr>
         <td><a href="math.md#to-percentage">Para porcentagem</a></td><td>Esta função converte um número em porcentagem.</td>

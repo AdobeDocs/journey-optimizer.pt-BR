@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: teste, jornada, verificação, erro, solução de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1536'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode c
 
 Para usar o modo de teste, siga estas etapas:
 
-1. Para ativar o modo de teste, ative a variável **[!UICONTROL Teste]** switch, localizado no canto superior direito.
+1. Para ativar o modo de teste, clique no link **[!UICONTROL Modo de teste]** localizado no canto superior direito.
 
    ![](assets/journeytest1.png)
 

@@ -3,7 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
-source-git-commit: c14ed9196d003cee893eb809a0edbdeebe36555f
+hide: true
+hidefromtoc: true
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 73%
@@ -195,4 +197,3 @@ From beta to LA, the following improvements that have been added:
 
 * Agora é possível selecionar uma ação de marketing no nível da superfície de canal. Quando usadas em uma superfície, todas as políticas de consentimento associadas a essa ação de marketing são aproveitadas para respeitar as preferências de clientes.
 * O uso do Controle de acesso em nível de objeto agora está disponível para superfícies de canal.
-

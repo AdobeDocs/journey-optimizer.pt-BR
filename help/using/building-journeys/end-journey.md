@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: inserir novamente, jornada, finalizar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 1%
@@ -93,5 +93,7 @@ Você também pode:
 
 1. No **[!UICONTROL Jornadas]** clique na jornada que deseja parar.
 1. No canto superior direito, clique na seta para baixo.
-   ![](assets/finish_drop_down_list.png)
+
+   ![](assets/finish_drop_down_list2.png)
+
 1. Clique em **[!UICONTROL Parar]** e confirme na caixa de diálogo.

@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: permissões, criação, mensagens
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 6%
@@ -132,7 +132,7 @@ Essa função inclui as seguintes permissões:
 
 | Recurso | Permissões |
 |-|-|
-| Gerenciamento de decisão | <ul><li>**[!DNL Manage decisions]**: leia, crie, edite e exclua entidades de decisão.</li><li>**[!DNL View decisions]**: acesso somente leitura a entidades de decisão.</li><li>**[!DNL Manage ranking strategies]**: leia, crie, edite e exclua relatórios personalizados e use recursos de ação.</li><li>**[!DNL Publish decisions]**: ativar ou desativar atividades de decisão.</li></ul> |
+| Gerenciamento de decisão | <ul><li>**[!DNL Manage decisions]**: leia, crie, edite e exclua entidades de decisão.</li><li>**[!DNL View decisions]**: acesso somente leitura a entidades de decisão.</li><li>**[!DNL Manage ranking strategies]**: leia, crie, edite e exclua relatórios personalizados e use recursos de ação.</li><li>**[!DNL Publish decisions]**: ativar ou desativar atividades de decisão.</li><!--li>**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</li--></ul> |
 
 ## [!DNL Content Library Manager] {#content-library-manager}
 

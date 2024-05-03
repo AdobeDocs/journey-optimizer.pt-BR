@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
-workflow-type: ht
-source-wordcount: '5140'
-ht-degree: 100%
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+workflow-type: tm+mt
+source-wordcount: '5230'
+ht-degree: 98%
 
 ---
 
@@ -19,12 +19,21 @@ ht-degree: 100%
 
 Esta página lista todas as atualizações mais recentes na documentação do [!DNL Journey Optimizer].
 
+## Maio de 2024 {#may-2024}
+
+* Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de abril de 2024 foi detalhada na documentação. [Leia mais](release-notes.md)
+
+
 ## Abril de 2024 {#april-2024}
 
 * As etapas de configuração para mensagens no aplicativo foram detalhadas. [Leia mais](../in-app/inapp-configuration.md)
 * Documentação para [APIs de definição de ofertas](../offers/api-reference/offer-delivery-api/decisioning-api.md) e [APIs de decisão em lote](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) foram atualizadas.
 * Foram adicionadas informações na documentação da Gestão de decisões sobre o gerenciamento de regiões de borda e de hub ao usar o limite de frequência com a API de decisão do Edge. [Leia mais](../offers/offer-library/add-constraints.md#frequency-capping)
 * Foram adicionadas informações sobre a criação de identidades com namespaces personalizados ao trabalhar com campanhas acionadas por API. [Leia mais](../campaigns/api-triggered-campaigns.md)
+* As capturas de tela foram atualizadas para refletir a tela de Jornada aprimorada.
+* As restrições de nomenclatura foram atualizadas na seguinte página: [Configurar um evento unitário](../event/about-creating.md), [Configurar um evento comercial](../event/about-creating-business.md#gs-business-events), [Configurar uma ação personalizada](../action/about-custom-action-configuration.md#configuration-steps), [Fontes de dados externas](../datasource/external-data-sources.md)
+* Uma observação foi adicionada sobre a disponibilidade da Otimização de tempo de envio. [Leia mais](../building-journeys/journeys-message.md#send-time-optimization)
+* Um novo caso de uso técnico foi adicionado sobre como criar uma ação personalizada para enviar dados para o Experience Platform. [Leia mais](../building-journeys/custom-action-aep.md)
 
 ## Março de 2024 {#march-2024}
 
@@ -82,6 +91,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * A sintaxe dos campos de evento foi atualizada. A sintaxe a seguir está obsoleta `@(my_event.myfield}` e foi substituída por `@event{my_event.myfield}`. [Leia mais](../building-journeys/expression/field-references.md)
 * Os guias Relatório global e Relatório em tempo real foram reorganizados. [Leia mais](../reports/campaign-global-report.md)
 
++++ 2023
 
 ## Novembro de 2023 {#nov-2023}
 
@@ -206,6 +216,8 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Foi adicionada uma nota sobre a limitação na pesquisa com a matriz de objetos. [Leia mais](../event/experience-event-schema.md#relationships_limitations)
 * Adição de uma nova página sobre o gerenciamento de dados no [!DNL Journey Optimizer]. [Leia mais](../data/gs-data.md)
 * Adição de uma tabela listando todos os códigos que podem ser retornados na resposta ao entregar ofertas usando a API de decisão. [Leia mais](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+
++++
 
 +++ 2022
 

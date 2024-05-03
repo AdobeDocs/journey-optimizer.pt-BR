@@ -5,17 +5,15 @@ title: Nova interface da jornada
 feature: Release Notes
 topic: Content Management
 description: Nova interface da jornada
-hide: true
-hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: b6b3f710d08fb7f0949e75521ce126fa43d6cdc5
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Bem-vindo ao Designer de Jornada aprimorado {#new-canvas}
+# Damos as boas-vindas ao Designer de jornada aprimorado {#new-canvas}
 
 O Journey Optimizer agora oferece uma **modelo de jornada simplificado** que visa melhorar a experiência do usuário e os processos internos. A partir da versão de abril, você poderá se beneficiar dos seguintes recursos:
 
@@ -68,12 +66,12 @@ Também permite que a equipe de produtos adicione mais informações à tela com
 
 ![](assets/new-canvas5.png)
 
-
 ## Relatórios ao vivo na tela de jornada
 
 Além do layout aprimorado da tela de jornada, um novo recurso está sendo introduzido para permitir que os usuários visualizem métricas de relatórios em tempo real do **as últimas 24 horas**, chamado de relatórios em tempo real, diretamente na tela de jornada.
 
 Para cada atividade em cada jornada ativa usando o novo modelo, você tem acesso a:
+
 
 * A contagem de perfis que entram nesta atividade.
 * A contagem de perfis que saem desta atividade devido a um erro.

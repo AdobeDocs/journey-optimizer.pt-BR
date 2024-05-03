@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jump, activity, jornada, split, dividir
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 9%
+source-wordcount: '842'
+ht-degree: 10%
 
 ---
 
@@ -112,7 +112,7 @@ Quando um **[!UICONTROL Salto]** atividade estiver configurada em uma jornada, u
 
 ## Solução de problemas
 
-Quando a jornada for publicada ou estiver em modo de teste, ocorrerão erros se:
+Ocorrerão erros se:
 * a jornada de destino não existe mais
 * a jornada de destino é rascunho, fechada ou interrompida
 * se o primeiro evento da jornada de destino tiver sido alterado e o mapeamento for interrompido

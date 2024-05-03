@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 17%
+source-wordcount: '1177'
+ht-degree: 18%
 
 ---
 
@@ -104,6 +104,10 @@ Observe que, para a atividade no aplicativo, qualquer alteração pode ser feita
 >title="Sobre a otimização da hora de envio"
 >abstract="O recurso Otimização da hora de envio do Adobe Journey Optimizer, desenvolvido pelos serviços de IA da Adobe, pode prever o melhor momento para enviar um email ou uma mensagem por push para maximizar o engajamento com base nas taxas históricas de abertura e clique."
 
+>[!NOTE]
+>
+>Esse recurso não é habilitado por padrão. Entre em contato com o representante da Adobe para ativá-la.
+
 ### Sobre a otimização de tempo de envio {#about-send-time}
 
 O recurso de Otimização de tempo de envio da Adobe Journey Optimizer, viabilizado pelos serviços de IA de Adobe, pode prever o melhor momento para enviar um email ou mensagem por push. Isso maximiza o engajamento com base no histórico das taxas de abertura e de clique. Use nosso modelo de aprendizado de máquina para agendar tempos de envio personalizados para cada usuário a fim de aumentar as taxas de abertura e de clique de suas mensagens.
@@ -120,10 +124,6 @@ O modelo varia se você estiver falando sobre pontuação ou treinamento. O trei
 * Pontuação - a aplicação de uma pontuação a perfis individuais com base no modelo treinado
 
 Essas informações são armazenadas com o perfil do usuário e são referenciadas na execução da jornada para informar ao Adobe Journey Optimizer quando enviar sua mensagem.
-
->[!CAUTION]
->
->Este recurso não é compatível com o modo de intermitência.
 
 ### Perguntas frequentes {#faq-send-time}
 

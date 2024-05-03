@@ -5,10 +5,10 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 88%
 
 ---
 
@@ -20,27 +20,27 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!BEGINTABS]
 
->[!TAB A versão de março já está disponível!]
+>[!TAB A versão de abril está disponível.]
 
 Conheça os novos recursos e melhorias que acompanham a versão 24.3 do Adobe Journey Optimizer.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Experiências baseadas em código]
+>[!TAB Nova experiência de jornada]
 
-Com o novo canal de Experiência baseada em código, o Adobe Journey Optimizer permite realizar personalizações e testes avançados para qualquer uma de suas propriedades de entrada, possibilitando a entrega perfeita de experiências personalizadas em diversos touchpoints, como aplicativos web, aplicativos móveis, aplicativos para desktop, consoles de vídeo, dispositivos conectados à TV, Smart TVs, quiosques, ATMs e dispositivos IoT, entre outros.
+Essa versão vem com uma interface de usuário de tela aprimorada para jornada e fornece uma experiência do usuário mais intuitiva e eficiente. As atividades são mais claras e apresentam mais informações sobre a tela de jornada com menos cliques.
 
-![](using/rn/assets/do-not-localize/code-based.gif)
+![](using/rn/assets/new-canvas3.gif)
 
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/code-based/get-started-code-based.md)
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
 
->[!TAB Mensagens no aplicativo da Web]
+>[!TAB MMS para todos os provedores]
 
-Agora você pode usar o novo recurso de mensagens Web no aplicativo para exibir conteúdo personalizado diretamente em sites, por meio de mensagens de sobreposição modal. Esse recurso permite que você interaja efetivamente com visitantes da Web, melhorando a interação de usuários, a retenção e as taxas de conversão.
+Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do Serviço de mensagens multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos com clientes. Inicialmente disponível apenas com Sinch, MMS agora também está disponível com Infobip e Twilio.
 
-![](using/rn/assets/do-not-localize/web_inapp.gif)
+![](using/rn/assets/do-not-localize/mms.gif)
 
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/sms/get-started-sms.md)
 
 >[!ENDTABS]
 
