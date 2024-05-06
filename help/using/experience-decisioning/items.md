@@ -12,11 +12,11 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1786'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
-# Crie o primeiro item de decisão {#items}
+# Criar o primeiro item de decisão {#items}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
@@ -70,7 +70,7 @@ Comece definindo os atributos padrão e personalizados do item de decisão:
 
 1. Após definir os atributos do item de decisão, clique em **[!UICONTROL Próxima]**.
 
-## Configurar a qualificação do item de decisão {#eligibility}
+## Configurar a elegibilidade do item de decisão {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"

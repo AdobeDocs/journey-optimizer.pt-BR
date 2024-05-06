@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 51%
+ht-degree: 59%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Criar uma composição"
->abstract="Crie um fluxo de trabalho de composição para combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo."
+>abstract="Crie um fluxo de trabalho de composição para combinar públicos-alvo da Adobe Experience Platform em uma tela visual e aproveitar várias atividades (divisão, exclusão...) para criar novos públicos-alvo."
 
 >[!BEGINSHADEBOX]
 
