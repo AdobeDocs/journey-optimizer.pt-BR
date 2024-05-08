@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 19%
+source-wordcount: '722'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="Defina as estratégias de seleção"
->abstract="Uma estratégia de seleção é um item reutilizável, que consiste em uma coleção associada a uma restrição de elegibilidade e um método de classificação para determinar as ofertas a serem exibidas quando selecionadas em uma política de decisão."
+>abstract="Uma estratégia de seleção é reutilizável e consiste em uma coleção associada a uma restrição de qualificação e um método de classificação para determinar as ofertas a serem exibidas quando selecionadas em uma política de decisão."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html?lang=pt-BR" text="Criar políticas de decisão"
 
 >[!CONTEXTUALHELP]
@@ -31,21 +29,11 @@ ht-degree: 19%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=pt-BR" text="Usar públicos-alvo"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=pt-BR" text="Usar regras de decisão"
 
->[!BEGINSHADEBOX &quot;O que você encontrará neste guia de documentação&quot;]
-
-* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
-* Gerencie seus itens de decisão: [Configurar o catálogo de itens](catalogs.md) - [Criar itens de decisão](items.md) - [Gerenciar coleções de itens](collections.md)
-* Configurar a seleção dos itens: [Criar regras de decisão](rules.md) - [Criar métodos de classificação](ranking.md)
-* **[Criar estratégias de seleção](selection-strategies.md)**
-* [Criar políticas de decisão](create-decision.md)
-
->[!ENDSHADEBOX]
-
-Uma estratégia de seleção é um item reutilizável, que consiste em uma coleção associada a uma restrição de qualificação e um método de classificação para determinar as ofertas a serem exibidas quando selecionadas em uma [política de decisão](create-decision.md).
+Uma estratégia de seleção é reutilizável e consiste em uma coleção associada a uma restrição de qualificação e um método de classificação para determinar as ofertas a serem exibidas quando selecionadas em uma [política de decisão](create-decision.md).
 
 ## Acessar e gerenciar estratégias de seleção
 
-1. Ir para **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configuração]** > **[!UICONTROL Estratégias de seleção]**.
+1. Ir para **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configuração da estratégia]** > **[!UICONTROL Estratégias de seleção]**.
 
 1. Todas as estratégias de seleção criadas até agora estão listadas. Os filtros estão disponíveis para ajudá-lo a recuperar estratégias de acordo com o método de classificação.
 
@@ -77,8 +65,6 @@ Para criar uma estratégia de seleção, siga as etapas abaixo.
 
 1. Selecione o [coleção](collections.md) que contém as ofertas a serem consideradas.
 
-1. Selecionar a oferta [coleção](collections.md) que contém as ofertas a serem consideradas.
-
 1. Use o **[!UICONTROL Elegibilidade]** para restringir a seleção de ofertas para essa estratégia de seleção.
 
    ![](assets/strategy-create-eligibility.png)
@@ -95,7 +81,7 @@ Para criar uma estratégia de seleção, siga as etapas abaixo.
 
    * Se quiser usar uma pontuação calculada específica para escolher qual oferta qualificada fornecer, selecione [Fórmula](#ranking-formula) ou [Modelo de IA](#ai-ranking).
 
-1. Clique em **[!UICONTROL Criar]**. Agora ele está pronto para ser usado em um [decisão](create-decision.md)
+1. Clique em **[!UICONTROL Criar]**. Agora ele está pronto para ser usado em um [política de decisão](create-decision.md)
 
 ## Selecionar um método de classificação {#select-ranking-method}
 
@@ -113,7 +99,7 @@ Se várias ofertas estiverem qualificadas para uma determinada estratégia de se
 
 ### Prioridade da oferta {#offer-priority}
 
-Por padrão, quando várias ofertas são qualificadas para uma determinada inserção em uma decisão, os itens com a maior **prioridade** será entregue aos clientes primeiro.
+Por padrão, quando várias ofertas são qualificadas para um determinado posicionamento em uma política de decisão, os itens com a maior **prioridade** será entregue aos clientes primeiro.
 
 ![](assets/item-priority.png)
 

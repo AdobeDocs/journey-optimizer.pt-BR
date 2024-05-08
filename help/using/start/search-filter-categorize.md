@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: aa53f96068e0cfa84c1ac5ddd32d36b3fb4bbd03
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
@@ -61,12 +61,13 @@ Com as [tags unificadas](https://experienceleague.adobe.com/docs/experience-plat
 
 O campo **[!UICONTROL Tags]** permite definir tags para o seu objeto. Tags estão disponíveis para os seguintes objetos:
 
-* [Jornadas](../building-journeys/journey-gs.md#change-properties)
 * [Campanhas](../campaigns/create-campaign.md#create)
-* [Modelos](../content-management/content-templates.md)
+* [Itens de decisão](../experience-decisioning/items.md)
 * [Fragmentos](../content-management/fragments.md)
-* [Listas de assinaturas](../landing-pages/subscription-list.md)
+* [Jornadas](../building-journeys/journey-gs.md#change-properties)
 * [Páginas de destino](../landing-pages/create-lp.md)
+* [Listas de assinaturas](../landing-pages/subscription-list.md)
+* [Modelos](../content-management/content-templates.md)
 
 É possível selecionar uma tag já existente ou criar uma nova. Para isso, siga as etapas abaixo.
 

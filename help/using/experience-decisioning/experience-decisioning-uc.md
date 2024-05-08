@@ -5,27 +5,15 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+badge: label="Disponibilidade limitada"
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 11%
+source-wordcount: '330'
+ht-degree: 7%
 
 ---
 
 # Caso de uso de decisão de experiência {#experience-decisioning-uc}
-
->[!BEGINSHADEBOX &quot;O que você encontrará neste guia de documentação&quot;]
-
-* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
-* Gerencie seus itens de decisão: [Configurar o catálogo de itens](catalogs.md) -[Criar itens de decisão](items.md) - [Gerenciar coleções de itens](collections.md)
-* Configurar a seleção dos itens: [Criar regras de decisão](rules.md) - [Criar métodos de classificação](ranking.md)
-* [Criar estratégias de seleção](selection-strategies.md)
-* [Criar políticas de decisão](create-decision.md)
-
->[!ENDSHADEBOX]
 
 Nesse caso de uso, você define dois tratamentos de delivery, cada um contendo uma política de decisão diferente para medir qual tem melhor desempenho para o público-alvo.
 
@@ -52,11 +40,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu s
 
 Defina dois tratamentos de delivery, cada um contendo uma política de decisão diferente.
 
-1. Crie uma campanha e selecione o **[!UICONTROL Experiência baseada em código (Beta)]** ação. [Saiba mais](../code-based/create-code-based.md)
-
-   >[!NOTE]
-   >
-   >O recurso de experiência baseada em código está disponível no momento como uma versão beta somente para usuários selecionados. Para participar do programa beta, entre em contato com o atendimento ao cliente da Adobe.
+1. Crie uma campanha e selecione o **[!UICONTROL Experiência baseada em código]** ação. [Saiba mais](../code-based/create-code-based.md)
 
 1. Na página de resumo da campanha, clique em **[!UICONTROL Criar experimento]** para configurar seu experimento de conteúdo. [Saiba mais](../campaigns/content-experiment.md)
 

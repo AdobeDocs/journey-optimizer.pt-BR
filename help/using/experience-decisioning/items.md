@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '1786'
-ht-degree: 15%
+source-wordcount: '1746'
+ht-degree: 14%
 
 ---
 
@@ -23,16 +21,6 @@ ht-degree: 15%
 >title="Gerenciar itens de decisão"
 >abstract="O Journey Optimizer permite gerar ofertas de marketing, conhecidas como itens de decisão, que você pode criar e organizar em catálogos e coleções centralizados. Atualmente, todos os itens de decisão criados são consolidados em um único catálogo de “Ofertas”. Nessa tela, você também pode acessar o esquema do catálogo clicando em **Editar esquema** e criar atributos personalizados para itens de decisão."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=pt-BR" text="Configurar o catálogo de itens"
-
->[!BEGINSHADEBOX &quot;O que você encontrará neste guia de documentação&quot;]
-
-* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
-* Gerencie seus itens de decisão: [Configurar o catálogo de itens](catalogs.md) - **[Criar itens de decisão](items.md)** - [Gerenciar coleções de itens](collections.md)
-* Configurar a seleção dos itens: [Criar regras de decisão](rules.md) - [Criar métodos de classificação](ranking.md)
-* [Criar estratégias de seleção](selection-strategies.md)
-* [Criar políticas de decisão](create-decision.md)
-
->[!ENDSHADEBOX]
 
 O Journey Optimizer permite gerar ofertas de marketing, conhecidas como itens de decisão, que você pode criar e organizar em catálogos e coleções centralizados. Eles são compostos de atributos padrão e personalizados projetados para se alinharem com precisão às suas necessidades. Além disso, incorporam restrições de perfil que permitem definir para quem um item de decisão pode ser exibido.
 

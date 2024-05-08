@@ -1,18 +1,16 @@
 ---
-title: Criar decisões
-description: Saiba como criar decisões
+title: Criar políticas de decisões
+description: Saiba como criar políticas de decisões
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 12%
+source-wordcount: '1481'
+ht-degree: 10%
 
 ---
 
@@ -21,20 +19,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="O que é uma decisão?"
->abstract="As políticas de decisão aproveitam o mecanismo do Offer Decisioning para escolher o melhor conteúdo a ser entregue, dependendo do público-alvo."
+>abstract="As políticas de decisão contêm toda a lógica de seleção para que o mecanismo de decisão escolha o melhor conteúdo. As políticas de decisão são específicas de campanha. O objetivo é selecionar as melhores ofertas para cada perfil, enquanto a criação da campanha permite indicar como os itens de decisão selecionados devem ser apresentados, incluindo quais atributos de item devem ser incluídos na mensagem."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=pt-BR" text="Sobre o Offer Decisioning"
 
->[!BEGINSHADEBOX &quot;O que você encontrará neste guia de documentação&quot;]
-
-* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
-* Gerencie seus itens de decisão: [Configurar o catálogo de itens](catalogs.md) - [Criar itens de decisão](items.md) - [Gerenciar coleções de itens](collections.md)
-* Configurar a seleção dos itens: [Criar regras de decisão](rules.md) - [Criar métodos de classificação](ranking.md)
-* [Criar estratégias de seleção](selection-strategies.md)
-* **[Criar políticas de decisão](create-decision.md)**
-
->[!ENDSHADEBOX]
-
 As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo do Experience Decisioning para escolher o melhor conteúdo a ser entregue, dependendo do público.
+
+As políticas de decisão contêm toda a lógica de seleção para que o mecanismo de decisão escolha o melhor conteúdo. As políticas de decisão são específicas de campanha. O objetivo é selecionar as melhores ofertas para cada perfil, enquanto a criação da campanha permite indicar como os itens de decisão selecionados devem ser apresentados, incluindo quais atributos de item devem ser incluídos na mensagem.
 
 >[!NOTE]
 >
@@ -61,13 +51,9 @@ As políticas de decisão são containers para suas ofertas que aproveitam o mec
 
 Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu site ou aplicativo móvel, adicione uma política de decisão a uma campanha baseada em código. Para isso, siga as etapas abaixo.
 
-1. Crie uma campanha e selecione o **[!UICONTROL Experiência baseada em código (Beta)]** ação. [Saiba mais](../code-based/create-code-based.md)
+1. Crie uma campanha e selecione o **[!UICONTROL Experiência baseada em código]** ação. [Saiba mais](../code-based/create-code-based.md)
 
-   >[!NOTE]
-   >
-   >O recurso de experiência baseada em código está disponível no momento como uma versão beta somente para usuários selecionados.
-
-1. No [editor de código](../code-based/create-code-based.md#edit-code), selecione o **[!UICONTROL Decisões]** e clique em **[!UICONTROL Criar uma decisão]**.
+1. No [editor de código](../code-based/create-code-based.md#edit-code), selecione o **[!UICONTROL Política de decisão]** e clique em **[!UICONTROL Adicionar política de decisão]**.
 
    ![](assets/decision-code-based-create.png)
 
@@ -109,11 +95,9 @@ Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu s
    >
    >Um fallback é opcional. Se nenhum fallback for selecionado e se nenhuma estratégia for qualificada, nada será exibido por [!DNL Journey Optimizer].
 
-1. Salve a seleção e clique em **[!UICONTROL Criar]**. A nova política de decisão é adicionada em **[!UICONTROL Decisões]**.
+1. Salve a seleção e clique em **[!UICONTROL Criar]**. Agora que a política de decisão foi criada, você pode usar os atributos de decisão dentro do conteúdo de experiência baseado em código. [Saiba mais](#use-decision-policy)
 
    ![](assets/decision-code-based-decision-added.png)
-
-Agora que a política de decisão foi criada, você pode usar os atributos de decisão dentro do conteúdo de experiência baseado em código. [Saiba mais](#use-decision-policy)
 
 ## Ordem de avaliação {#evaluation-order}
 
@@ -181,7 +165,7 @@ Depois de criada, a política de decisão pode ser usada na variável [Editor de
 >
 >A experiência baseada em código aproveita o [!DNL Journey Optimizer] Editor de expressão com todos os seus recursos de personalização e criação. [Saiba mais](../personalization/personalization-build-expressions.md)
 
-1. Clique no ícone +. O código correspondente à política de decisão é adicionado. Agora você pode adicionar todos os atributos de decisão desejados dentro desse código.
+1. Clique em **[!UICONTROL Inserir política]** botão. O código correspondente à política de decisão é adicionado.
 
    ![](assets/decision-code-based-add-decision.png)
 
@@ -189,19 +173,18 @@ Depois de criada, a política de decisão pode ser usada na variável [Editor de
    >
    >Essa sequência será repetida o número de vezes que você deseja que a política de decisão seja retornada. Por exemplo, se você optar por retornar 2 itens quando [criação da decisão](#add-decision), a mesma sequência será repetida duas vezes.
 
-1. Clique na política de decisão. Os atributos de decisão são exibidos.
-
-   Esses atributos são armazenados no **[!UICONTROL Ofertas]** esquema do catálogo. Os atributos personalizados são armazenados no **`_<imsOrg`>** pasta e atributos padrão no **`_experience`** pasta. [Saiba mais sobre o schema do catálogo de ofertas](catalogs.md)
+1. Agora você pode adicionar todos os atributos de decisão desejados dentro desse código. Os atributos disponíveis são armazenados no **[!UICONTROL Ofertas]** esquema do catálogo. Os atributos personalizados são armazenados no **`_<imsOrg`>** pasta e atributos padrão no **`_experience`** pasta. [Saiba mais sobre o schema do catálogo de ofertas](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
+
+   >[!NOTE]
+   >
+   >Para rastreamento de item da política de decisão, a variável `trackingToken`O atributo precisa ser adicionado da seguinte maneira para o conteúdo da política de decisão:
+   >`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Clique em cada pasta para expandi-la. Coloque o cursor do mouse no local desejado e clique no ícone + ao lado do atributo que deseja adicionar. Você pode adicionar quantos atributos desejar ao código.
 
    ![](assets/decision-code-based-add-decision-attributes.png)
-
-1. Para navegar de volta para a raiz da política de decisão, clique no ícone de pasta.
-
-   ![](assets/decision-code-based-decision-folder.png)
 
 1. Você também pode adicionar qualquer outro atributo disponível no editor de expressão, como atributos de perfil.
 

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 53%
+source-wordcount: '675'
+ht-degree: 61%
 
 ---
 
@@ -25,6 +25,37 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
+
+## Atualizações de maio {#may-updates}
+
+**Data de disponibilidade**: 7 de maio de 2024
+
+<table>
+<thead>
+<tr>
+<th><strong>Experience Decisioning - Disponibilidade limitada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A Escolha de experiências simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.</p>
+<p>Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada por meio do novo canal de experiência baseado em código, agora acessível nas campanhas do Journey Optimizer. As políticas de decisão do Experience Decisioning estão disponíveis para uso somente em campanhas de experiência baseadas em código.</p>
+<p>No momento, o Experience Decisioning está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
+<img src="assets/do-not-localize/gif-exd.gif"/>
+<p>Para obter mais informações, consulte a <a href="../experience-decisioning/gs-experience-decisioning.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+De beta para LA, as seguintes melhorias foram adicionadas:
+
+* **Experience Decisioning + Experiências baseadas em código (DL)**: agora você pode aproveitar o recurso Decisão da experiência para usar itens de decisão em suas campanhas com base em código. Observação: o canal de experiência baseado em código e o Experience Decisioning não estão disponíveis para organizações que compraram as ofertas complementares do Adobe Healthcare Shield e do Privacy and Security Shield. [Leia mais](../code-based/get-started-code-based.md)
+* Agora você pode aproveitar os dados de contexto do Adobe Experience Platform em suas regras de decisão e fórmulas de classificação. [Leia mais](../experience-decisioning/context-data.md)
+* Uma nova permissão “Gerenciar a escolha de experiência” agora está disponível para o recurso Gestão de decisões. Ele permite gerenciar direitos relacionados ao Experience Decisioning. [Leia mais](../experience-decisioning/gs-experience-decisioning.md)
+* Agora é possível adicionar várias regras de limite para um determinado item de decisão na Escolha de experiências. Isso permite aumentar o nível de controle sobre a maneira como as ofertas são enviadas. [Leia mais](../experience-decisioning/items.md#capping)
+* Agora é possível criar painéis de relatórios personalizados para campanhas do Experience Decisioning usando o [!DNL Customer Journey Analytics]. [Leia mais](../experience-decisioning/cja-reporting.md)
 
 ## Notas da versão de abril de 2024 {#apr-2024}
 
@@ -50,23 +81,6 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <!--table>
 <thead>
 <tr>
-<th><strong>Experience Decisioning - Limited Availability</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Experience Decisioning simplifies personalization by offering a centralized catalog of marketing offers known as 'decision items' and a sophisticated decision engine. This engine leverages rules and ranking criteria to select and present the most relevant decision items to each individual.</p>
-<p>These decision items are seamlessly integrated into a wide range of inbound surfaces through the new code-based experience channel, now accessible within Journey Optimizer campaigns. Experience Decisioning decision policies are available for use in code-based experience campaigns only.</p>
-<p>Experience Decisioning is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
 <th><strong>Personalization - Local Lookups - Multi-Entity Support - Beta</strong><br/></th>
 </tr>
 </thead>
@@ -79,18 +93,18 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tbody>
 </table-->
 
-Essa versão traz uma lista detalhada de novos recursos.
+Essa versão traz os novos recursos detalhados abaixo.
 
 <table>
 <thead>
 <tr>
-<th><strong>Serviço de Mensagens Multimídia (MMS) - todos os provedores</strong><br/></th>
+<th><strong>Serviço de mensagens multimídia (MMS): todos os provedores</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do Serviço de mensagens multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos com clientes. Inicialmente disponível apenas com Sinch, MMS agora também está disponível com Infobip e Twilio.</p>
+<p>Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do serviço de mensagens multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos para clientes. Inicialmente disponível apenas com o Sinch, o MMS agora também está disponível com Infobip e Twilio.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 </td>
 </tr>
@@ -100,7 +114,7 @@ Essa versão traz uma lista detalhada de novos recursos.
 <table>
 <thead>
 <tr>
-<th><strong>Designer de Jornada e relatórios ao vivo aprimorados</strong><br/></th>
+<th><strong>Designer de jornada e relatórios em tempo real aprimorados</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -108,7 +122,7 @@ Essa versão traz uma lista detalhada de novos recursos.
 <td>
 <p>Essa versão vem com uma interface de usuário de tela aprimorada para jornada e fornece uma experiência do usuário mais intuitiva e eficiente. As atividades são mais claras e apresentam mais informações sobre a tela de jornada com menos cliques.</p>
 <img src="assets/new-canvas3.gif"/>
-<p>Juntamente com o design aprimorado da tela de jornada, estamos introduzindo a capacidade de ver as últimas 24 horas relatando métricas diretamente na tela de jornada. </p>
+<p>Juntamente com o design aprimorado da tela de jornada, estamos introduzindo a capacidade de ver métricas de relatórios das últimas 24 horas diretamente na tela de jornada. </p>
 <img src="assets/new-canvas6bis.png"/>
 <p><strong>Nota</strong>: essas alterações serão gradualmente implementadas em todos os ambientes a partir da versão de abril.</p>
 <p>Para obter mais informações, consulte a <a href="new-canvas.md">documentação detalhada</a>.</p>
@@ -167,9 +181,6 @@ Essa versão traz uma lista detalhada de novos recursos.
 Esta versão vem com as melhorias listadas abaixo.
 
 <!--
-* **Experience Decisioning + Code-based experiences (LA)**: You can now leverage the Experience decisioning feature to use decision items in your code-based campaigns. Note: The Code-based experience channel and Experience decisioning are not available for organizations that have purchased the Adobe Healthcare Shield and Privacy and Security Shield add-on offerings.
--->
-<!--
 * **Expression Fragments supported for Web and In-App**: Expression fragments are now available for the Web and In-app channels. 
 -->
 
@@ -182,23 +193,6 @@ Esta versão vem com as melhorias listadas abaixo.
 <!--
 * **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
 -->
-
-<!--
-
-
-**Experience decisionning**
-
-From beta to LA, the following improvements that have been added:
-
-* You can now leverage context data from Adobe Experience Platform in your decision rules using the **Context data** tab.  
-* A new "Manage Experience decisions" permission is now available for the Decision Management resource. It allows you to manage rights related to Experience Decisioning.   
-* You can now add multiple capping rules for a given decision item in Experience Decisioning. This allows you to increase the level of control over the way offers are sent.
-* You can now create custom reporting dashboards of Experience Decisioning campaigns using [!DNL Customer Journey Analytics].
--->
-
-<!--**Decision management** 
-
-* The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu.-->
 
 **Configuração**
 

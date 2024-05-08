@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 50%
+source-wordcount: '370'
+ht-degree: 51%
 
 ---
 
@@ -33,16 +31,6 @@ ht-degree: 50%
 >title="Escolha uma coleção"
 >abstract="Selecione a coleção que contém as ofertas a serem consideradas. Esta etapa é obrigatória ao criar uma estratégia de seleção. As coleções permitem categorizar e agrupar itens de decisão de acordo com as suas preferências. Por exemplo, você pode criar uma coleção que inclui todos os itens de decisão com o valor “Yoga” no atributo personalizado “Categoria”."
 
->[!BEGINSHADEBOX &quot;O que você encontrará neste guia de documentação&quot;]
-
-* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
-* Gerencie seus itens de decisão: [Configurar o catálogo de itens](catalogs.md) - [Criar itens de decisão](items.md) - **[Gerenciar coleções de itens](collections.md)**
-* Configurar a seleção dos itens: [Criar regras de decisão](rules.md) - [Criar métodos de classificação](ranking.md)
-* [Criar estratégias de seleção](selection-strategies.md)
-* [Criar políticas de decisão](create-decision.md)
-
->[!ENDSHADEBOX]
-
 As coleções permitem categorizar e agrupar itens de decisão de acordo com as suas preferências. Essas categorias são criadas pela construção de regras que aproveitam os atributos de itens de decisão.
 
 Por exemplo, digamos que você tenha adicionado um atributo personalizado de &quot;Categoria&quot; ao esquema de catálogo dos itens de decisão. Isso permite criar uma coleção que inclui todos os itens de decisão com o valor &quot;Yoga&quot; no atributo &quot;Categoria&quot;.
@@ -58,6 +46,7 @@ Para criar uma coleção, siga estas etapas:
    1. Escolha um atributo de item para usar como critério. A lista de atributos inclui todos os atributos padrão e personalizados definidos no esquema de catálogo. [Saiba mais sobre o catálogo de itens](catalogs.md)
    1. Selecione o operador desejado e insira o valor para filtrar.
    1. Repita essas etapas para adicionar quantas regras forem necessárias. Quando várias regras são adicionadas, você pode escolher entre as opções **E** e **Ou** operadores para combiná-los. Para fazer isso, clique no selo do operador para alternar entre as duas opções.
+   1. Clique em **[!UICONTROL Visualizar coleção]** botão para exibir os itens que atendem às regras definidas.
 
    ![](assets/collection-create.png)
 

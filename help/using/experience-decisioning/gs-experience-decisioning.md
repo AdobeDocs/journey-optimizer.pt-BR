@@ -5,46 +5,34 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 23%
+source-wordcount: '419'
+ht-degree: 19%
 
 ---
 
 # Introdução ao Experience Decisioning {#get-started-experience-decisioning}
 
->[!BEGINSHADEBOX &quot;O que você encontrará neste guia de documentação&quot;]
-
-* **[Introdução ao Experience Decisioning](gs-experience-decisioning.md)**
-* Gerencie seus itens de decisão: [Configurar o catálogo de itens](catalogs.md) - [Criar itens de decisão](items.md) - [Gerenciar coleções de itens](collections.md)
-* Configurar a seleção dos itens: [Criar regras de decisão](rules.md) - [Criar métodos de classificação](ranking.md)
-* [Criar estratégias de seleção](selection-strategies.md)
-* [Criar políticas de decisão](create-decision.md)
-
->[!ENDSHADEBOX]
+>[!AVAILABILITY]
+>
+>No momento, o Experience Decisioning está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
+>
+>Por enquanto, o recurso não está disponível para clientes que compraram o Adobe **Healthcare Shield** e **Escudo de Proteção e Privacidade** ofertas complementares.
 
 ## O que é o Experience Decisioning {#about}
 
->[!AVAILABILITY]
->
->O recurso de decisão de experiência está disponível atualmente como um beta apenas para usuários selecionados. Para participar do programa beta, entre em contato com o atendimento ao cliente da Adobe.
->
->As políticas de decisão estão disponíveis para uso somente em campanhas de experiência baseadas em código.
-
 A Escolha de experiências simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.
 
-Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada por meio do novo canal de experiência baseado em código, agora acessível nas campanhas do Journey Optimizer.
+Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada por meio do novo canal de experiência baseado em código, agora acessível nas campanhas do Journey Optimizer. As políticas de decisão do Experience Decisioning estão disponíveis para uso somente em campanhas de experiência baseadas em código.
 
 ## Principais etapas do Experience Decisioning {#steps}
 
 As principais etapas para trabalhar com o Experience Decisioning são as seguintes:
 
-1. **Atribuir permissões apropriadas**. As decisões só estão disponíveis para usuários com acesso a uma experiência relacionada ao Experience Decisioning **[!UICONTROL função]** como os Gerentes de decisão. Se não conseguir acessar as decisões, suas permissões deverão ser estendidas.
+1. **Atribuir permissões apropriadas**. O Experience Decisioning só está disponível para usuários com acesso a um aplicativo relacionado ao Experience Decisioning **[!UICONTROL função]** como os Gerentes de decisão. Se não conseguir acessar o Experience Decisioning, suas permissões deverão ser estendidas.
 
    +++Saiba como atribuir a função de Gerentes de decisão
 
@@ -66,7 +54,7 @@ As principais etapas para trabalhar com o Experience Decisioning são as seguint
 
 +++
 
-1. **Configurar atributos personalizados**: personalize o catálogo dos itens de decisão de acordo com suas necessidades específicas, configurando atributos personalizados no esquema do catálogo.
+1. **Configurar atributos personalizados**: personalize o catálogo de itens de acordo com suas necessidades específicas, configurando atributos personalizados no esquema do catálogo.
 
 1. **Criar itens de decisão** para mostrar ao público-alvo direcionado.
 

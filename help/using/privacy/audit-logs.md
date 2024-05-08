@@ -7,10 +7,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '319'
+ht-degree: 88%
 
 ---
 
@@ -32,11 +32,11 @@ Cada ação é registrada com metadados em “logs de auditoria”, que são ace
 
 ## Tipos de evento capturados por logs de auditoria {#events}
 
-A tabela a seguir descreve quais ações, em quais recursos do Journey Optimizer, são registradas por logs de auditoria.
+A tabela a seguir descreve quais ações, em quais recursos do Journey Optimizer, são registradas por logs de auditoria. A lista completa de ações capturadas nos logs de auditoria está disponível na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=pt-BR#category).
 
 >[!NOTE]
 >
->A lista completa de ações capturadas nos logs de auditoria está disponível na [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=pt-BR#category).
+>Logs de auditoria relacionados a **gestão de decisões** são visíveis somente no arquivo CSV que pode ser baixado usando o **[!UICONTROL Baixar log]** botão.
 
 | Recurso | Ação |
 |-----------|------------------|

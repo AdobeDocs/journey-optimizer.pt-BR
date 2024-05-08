@@ -5,28 +5,16 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 5%
+source-wordcount: '307'
+ht-degree: 0%
 
 ---
 
 # Catálogo de itens {#catalog}
-
->[!BEGINSHADEBOX &quot;O que você encontrará neste guia de documentação&quot;]
-
-* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
-* Gerencie seus itens de decisão: **[Configurar o catálogo de itens](catalogs.md)** - [Criar itens de decisão](items.md) - [Gerenciar coleções de itens](collections.md)
-* Configurar a seleção dos itens: [Criar regras de decisão](rules.md) - [Criar métodos de classificação](ranking.md)
-* [Criar estratégias de seleção](selection-strategies.md)
-* [Criar políticas de decisão](create-decision.md)
-
->[!ENDSHADEBOX]
 
 No Experience Decisioning, os catálogos servem como contêineres centrais para organizar itens de decisão. Cada catálogo está vinculado a um esquema do Adobe Experience Platform, abrangendo todos os atributos atribuíveis a um item de decisão.
 
@@ -53,10 +41,9 @@ Para acessar o schema do catálogo em que os atributos dos itens de decisão sã
 
    >[!CAUTION]
    >
-   >Por enquanto, o Experience Decisioning oferece suporte exclusivo aos tipos de dados listados abaixo. Qualquer campo fora desses tipos de dados não estará disponível para uso ao criar um item de decisão.
-   >* String
-   >* Booleano
-   >* Número
+   >Por enquanto, o Experience Decisioning oferece suporte exclusivo aos seguintes tipos de dados: String, Integer, Boolean, Date, DateTime e Decisioning Asset. Qualquer campo fora desses tipos de dados não estará disponível para uso ao criar um item de decisão ou um catálogo.
+
+   O valor inserido em um atributo com atributo de ativo de decisão é um url público. Na maioria das vezes, isso apontaria para uma imagem.
 
    Informações detalhadas sobre como trabalhar com esquemas do Adobe Experience Platform estão disponíveis na [Documentação do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR).
 

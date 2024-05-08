@@ -5,14 +5,12 @@ feature: Experience Decisioning, Ranking
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Disponibilidade limitada"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 39%
+source-wordcount: '308'
+ht-degree: 12%
 
 ---
 
@@ -21,29 +19,48 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="Criar fórmulas de classificação"
->abstract="As fórmulas permitem definir regras que determinam qual item deve ser apresentado primeiro, ao invés de considerar a pontuação de prioridade do item. Depois que um método de classificação é criado, é possível atribuí-lo a uma estratégia de decisão para definir quais itens devem ser selecionados primeiro."
+>abstract="As fórmulas permitem definir regras que determinam qual item deve ser apresentado primeiro, ao invés de considerar a pontuação de prioridade do item. Depois que um método de classificação é criado, é possível atribuí-lo a uma estratégia de seleção para definir quais itens devem ser selecionados primeiro."
 
->[!BEGINSHADEBOX &quot;O que você encontrará neste guia de documentação&quot;]
+Os métodos de classificação permitem classificar itens para exibição em um determinado perfil. Depois que um método de classificação é criado, é possível atribuí-lo a uma estratégia de seleção para definir quais itens devem ser selecionados primeiro.
 
-* [Introdução ao Experience Decisioning](gs-experience-decisioning.md)
-* Gerencie seus itens de decisão: [Configurar o catálogo de itens](catalogs.md) - [Criar itens de decisão](items.md) - [Gerenciar coleções de itens](collections.md)
-* Configurar a seleção dos itens: [Criar regras de decisão](rules.md) - **[Criar métodos de classificação](ranking.md)**
-* [Criar estratégias de seleção](selection-strategies.md)
-* [Criar políticas de decisão](create-decision.md)
-
->[!ENDSHADEBOX]
-
-Os métodos de classificação permitem classificar itens para exibição em um determinado perfil. Depois que um método de classificação é criado, é possível atribuí-lo a uma estratégia de decisão para definir quais itens devem ser selecionados primeiro.
-
-Os métodos de classificação podem ser acessados no **[!UICONTROL Configuração]** / **[!UICONTROL Métodos de classificação]** menu. Dois tipos de métodos de classificação estão disponíveis:
+Dois tipos de métodos de classificação estão disponíveis:
 
 * **Fórmulas** O permite definir regras que determinarão qual item deve ser apresentado primeiro, em vez de considerar as pontuações de prioridade do item.
 
 * **Modelos de IA** O permite usar sistemas de modelo treinados que aproveitarão vários pontos de dados para determinar qual item deve ser apresentado primeiro.
 
-![](assets/ranking-create.png)
+## Criar métodos de classificação {#create}
 
-Informações detalhadas sobre cada tipo de método de classificação e como criá-lo estão disponíveis na documentação da gestão de decisões acessível aqui:
+Para criar um método de classificação, siga estas etapas:
 
-* [Fórmulas de classificação](../offers/ranking/create-ranking-formulas.md)
-* [Modelos de IA](../offers/ranking/ai-models.md)
+1. Navegue até a **[!UICONTROL Configuração da estratégia]** e selecione o **[!UICONTROL Fórmulas]** ou **[!UICONTROL Modelos de IA]** dependendo do tipo de classificação que deseja usar.
+
+1. Clique em **[!UICONTROL Criar fórmula]** ou **[!UICONTROL Criar modelo de IA]** no canto superior direito da tela.
+
+   ![](assets/ranking-create.png)
+
+1. Configure a fórmula ou o modelo de IA para atender às suas necessidades e salve.
+
+   Informações detalhadas sobre como criar fórmulas de classificação e modelos de IA estão disponíveis na documentação da gestão de decisões:
+
+   * [Fórmulas de classificação](../offers/ranking/create-ranking-formulas.md)
+   * [Modelos de IA](../offers/ranking/ai-models.md)
+
+
+## Aproveitar atributos de itens de decisão em fórmulas {#items}
+
+As fórmulas de classificação são expressas em **Sintaxe PQL** e podem aproveitar vários atributos, como atributos de perfil, [dados de contexto](context-data.md) e atributos relacionados aos seus itens de decisão.
+
+Para aproveitar os atributos relacionados aos seus itens de decisão em fórmulas, siga a sintaxe abaixo no código da fórmula de classificação. Expanda cada seção para obter mais informações:
+
++++Aproveitar atributos padrão de itens de decisão
+
+![](assets/formula-attribute.png)
+
++++
+
++++Aproveitar atributos personalizados de itens de decisão
+
+![](assets/formula-attribute-custom.png)
+
++++
