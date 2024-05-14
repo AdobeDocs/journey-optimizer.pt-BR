@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: e9a32d396b3ebca1e0c7d115f12024eef55aeaa4
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 97%
 
 ---
 
@@ -193,3 +193,66 @@ Para alterar o idioma:
 * Em seguida, clique no idioma exibido sob seu endereço de email
 * Selecione o idioma de sua preferência e clique em **Salvar**. Você poderá selecionar um segundo idioma caso o componente utilizado não esteja traduzido para o seu primeiro idioma.
   ![](assets/select-language.png)
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_name"
+>title="Nome da configuração móvel e da Web"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_swift_dependencies_add"
+>title="Adicionar dependências"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_swift_initialization_code"
+>title="Adicionar código de inicialização"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_validate_assurance"
+>title="Validar com garantia"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_javascript_code"
+>title="Código JavaScript"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_javascript_site"
+>title="Iniciar site e validar"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_token"
+>title="Recuperar o token do dispositivo"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_xcode"
+>title="Iniciar o aplicativo a partir do Xcode"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_certificate"
+>title="Fornecer um certificado de push"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_key_id"
+>title="ID da chave"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_team_id"
+>title="ID da equipe"
+>abstract="A confirmar"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_inapp_tag_property"
+>title="Escolha a propriedade da tag"
+>abstract="A confirmar"
+
+
