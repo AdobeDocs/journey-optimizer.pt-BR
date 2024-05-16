@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b5e073ef1d0c579f430913d60442d7d4cfa620a3
+source-git-commit: 628d49ee45ce161fc5e213bda60cb44d41223369
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '844'
 ht-degree: 26%
 
 ---
@@ -76,7 +76,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tr>
 <td>
 <p>Agora é possível criar regras granulares de limite de frequência e aplicá-las a diferentes tipos de comunicações de marketing por meio de conjuntos de regras. Esse novo recurso permite controlar a frequência com que seus públicos-alvo recebem uma mensagem definindo regras entre canais que excluem automaticamente perfis excessivamente solicitados de mensagens e ações.</p>
-<p>No momento, o recurso Regras de negócios está disponível apenas como um beta público.</p>
+<p>O recurso Regras de negócio está disponível no momento como um beta público.</p>
 <p>Para obter mais informações, consulte a <a href="../configuration/business-rules.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -94,6 +94,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tr>
 <td>
 <p>Agora é possível pesquisar e buscar valores de dados em conjuntos de dados do Adobe Experience Platform e usar esses valores para criar condições no Adobe Journey Optimizer. Você pode aproveitar os dados de um conjunto de dados de pesquisa quando uma relação tiver sido definida usando um atributo dentro de uma matriz de objetos. Você pode especificar conjuntos de dados não ativados por perfil para pesquisa. Depois de habilitado, você pode usar um atributo de perfil como uma chave de junção para o conjunto de dados especificado a fim de recuperar mais dados para personalização.</p>
+<p>No momento, esse recurso está disponível como um beta público.</p>
 </td>
 </tr>
 </tbody>
