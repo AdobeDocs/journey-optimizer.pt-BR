@@ -8,7 +8,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: 4c1dca7815594bbbf5a2d84682338e8b2d743965
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -30,8 +30,7 @@ Isso permite determinar se uma mensagem corre o risco de ser considerada spam pe
 >
 >* Por enquanto, a análise do relatório de spam só pode ser executada para conteúdo em inglês.
 >
->* >
->O relatório de spam é informativo e não impede o envio de mensagens com uma pontuação inválida.
+>* O relatório de spam é informativo e não impede o envio de mensagens com uma pontuação inválida.
 
 Para acessar o **[!UICONTROL Relatório de spam]**, siga as etapas abaixo.
 
