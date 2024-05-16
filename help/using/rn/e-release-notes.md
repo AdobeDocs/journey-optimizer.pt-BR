@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: 4b779d297769bd7a0b6913a0142ee7be7775ba04
+workflow-type: tm+mt
+source-wordcount: '651'
+ht-degree: 36%
 
 ---
 
@@ -21,72 +21,46 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 
 As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento. Links, telas e documentação atualizada são publicados nas [notas de versão](release-notes.md), na data de lançamento.
 
-## Notas de versão antecipadas de abril de 2024 {#e-2024}
+## Notas de versão antecipadas de maio de 2024 {#e-2024}
 
-**Data de lançamento**: 2 de maio de 2024
+**Data de lançamento**: 21 a 22 de maio de 2024
 
 ### Novos recursos {#e-features}
 
 Essa versão traz os novos recursos detalhados abaixo.
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Business rules - Private Beta</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>It is now possible to create and apply rule sets to your marketing communications.  </p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Experience Decisioning - Limited Availability</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Experience Decisioning simplifies personalization by offering a centralized catalog of marketing offers known as 'decision items' and a sophisticated decision engine. This engine leverages rules and ranking criteria to select and present the most relevant decision items to each individual.</p>
-<p>These decision items are seamlessly integrated into a wide range of inbound surfaces through the new code-based experience channel, now accessible within Journey Optimizer campaigns. Experience Decisioning decision policies are available for use in code-based experience campaigns only.</p>
-<p>Experience Decisioning is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Personalization - Local Lookups - Multi-Entity Support - Beta</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>TBD</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <table>
 <thead>
 <tr>
-<th><strong>Serviço de mensagens multimídia (MMS): todos os provedores</strong><br/></th>
+<th><strong>Experience Decisioning - Disponibilidade limitada</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do serviço de mensagens multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos para clientes. Inicialmente disponível apenas com o Sinch, o MMS agora também está disponível com Infobip e Twilio.</p>
-<img src="assets/do-not-localize/mms.gif"/>
+<p>A Escolha de experiências simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.</p>
+<p>Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada por meio do novo canal de experiência baseado em código, agora acessível nas campanhas do Journey Optimizer. As políticas de decisão do Experience Decisioning estão disponíveis para uso somente em campanhas de experiência baseadas em código.</p>
+<p>No momento, o Experience Decisioning está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
+<img src="assets/do-not-localize/gif-exd.gif"/>
+<p>Para obter mais informações, consulte a <a href="../experience-decisioning/gs-experience-decisioning.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Fluxo de trabalho de Warmup de IP</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Se você estiver enviando emails em um novo endereço IP, agora é possível executar facilmente workflows de aquecimento de IP diretamente da interface do usuário. O Adobe Journey Optimizer oferece uma maneira padronizada e eficiente de aquecer seus endereços IP que segue as práticas recomendadas para uma entrega ideal.</p>
+<p>Para obter mais informações, consulte a <a href="../configuration/ip-warmup-gs.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -95,52 +69,34 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Designer de jornada e relatórios em tempo real aprimorados</strong><br/></th>
+<th><strong>Regras comerciais - Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Essa versão vem com uma interface de usuário de tela aprimorada para jornada e fornece uma experiência do usuário mais intuitiva e eficiente. As atividades são mais claras e apresentam mais informações sobre a tela de jornada com menos cliques.</p>
-<img src="assets/new-canvas3.gif"/>
-<p>Juntamente com o design aprimorado da tela de jornada, estamos introduzindo a capacidade de ver métricas de relatórios das últimas 24 horas diretamente na tela de jornada. </p>
-<img src="assets/new-canvas6bis.png"/>
-<p><strong>Nota</strong>: essas alterações serão gradualmente implementadas em todos os ambientes a partir da versão de abril.</p>
-<p>Para obter mais informações, consulte a <a href="new-canvas.md">documentação detalhada</a>.</p>
+<p>Agora é possível criar regras granulares de limite de frequência e aplicá-las a diferentes tipos de comunicações de marketing por meio de conjuntos de regras. </p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!-- table>
-<thead>
-<tr>
-<th><strong>AI Assistant - Experience Variant Generation - Beta</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Once you have created and personalized your message, take your content to the next level with the AI assistant. You can now use the AI assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>IP Warmup Workflow - LA</strong><br/></th>
+<th><strong>Suporte a várias entidades para pesquisa local - Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now easily perform IP warmup workflows directly from the Journey Optimizer interface in a standardized and efficient way that follows the best practices for optimal deliverability.</p>
+<p>A ser definido</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
+
 
 <!--table>
 <thead>
@@ -161,42 +117,37 @@ Essa versão traz os novos recursos detalhados abaixo.
 
 Esta versão vem com as melhorias listadas abaixo.
 
-<!--
-* **Experience Decisioning + Code-based experiences (LA)**: You can now leverage the Experience decisioning feature to use decision items in your code-based campaigns. Note: The Code-based experience channel and Experience decisioning are not available for organizations that have purchased the Adobe Healthcare Shield and Privacy and Security Shield add-on offerings.
--->
-<!--
-* **Expression Fragments supported for Web and In-App**: Expression fragments are now available for the Web and In-app channels. 
--->
+**Experience Decisioning**
+
+De beta para LA, as seguintes melhorias foram adicionadas:
+
+* **Experience Decisioning + Experiências baseadas em código (DL)**: agora você pode aproveitar o recurso Decisão da experiência para usar itens de decisão em suas campanhas com base em código. Observação: o canal de experiência baseado em código e o Experience Decisioning não estão disponíveis para organizações que compraram as ofertas complementares do Adobe Healthcare Shield e do Privacy and Security Shield. [Leia mais](../code-based/get-started-code-based.md)
+* Agora você pode aproveitar os dados de contexto do Adobe Experience Platform em suas regras de decisão e fórmulas de classificação. [Leia mais](../experience-decisioning/context-data.md)
+* Uma nova permissão “Gerenciar a escolha de experiência” agora está disponível para o recurso Gestão de decisões. Ele permite gerenciar direitos relacionados ao Experience Decisioning. [Leia mais](../experience-decisioning/gs-experience-decisioning.md)
+* Agora é possível adicionar várias regras de limite para um determinado item de decisão na Escolha de experiências. Isso permite aumentar o nível de controle sobre a maneira como as ofertas são enviadas. [Leia mais](../experience-decisioning/items.md#capping)
+* Agora é possível criar painéis de relatórios personalizados para campanhas do Experience Decisioning usando o [!DNL Customer Journey Analytics]. [Leia mais](../experience-decisioning/cja-reporting.md)
 
 
-<!--
-* **DULE for AJO Channel Surface**: It is now possible to apply a label on certain profile attributes to restrict their usage inside a channel surface through marketing actions.
--->
+**Offer Decisioning**
+
+* **Suporte a várias regras** - Agora você pode adicionar até 10 regras de limitação para uma determinada oferta na Gestão de decisões. Isso permite aumentar o nível de controle sobre a maneira como as ofertas são enviadas.
+* **Auditorias** - A **Log de alterações** permite que você veja todas as alterações feitas em uma oferta ou em uma decisão que foi removida. As alterações relacionadas a ofertas e decisões agora podem ser vistas no menu **Auditorias**.
 
 
-<!--
-* **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
--->
+**List-unsubscribe**
 
-<!--
-**Decision management** 
+* Seguindo os anúncios recentes do Gmail e do Yahoo para remetentes em massa, o Journey Optimizer oferece suporte à opção &quot;post/1-click&quot; List-Unsubscribe.
 
-* The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu.
+**Públicos-alvo**
 
-**Experience decisionning**
+* O uso de públicos-alvo e atributos da composição de público-alvo e do upload personalizado (arquivo CSV) agora está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
 
-From beta to LA, the following improvements that have been added:
+**Personalização**
 
-* You can now leverage context data from Adobe Experience Platform in your decision rules using the **Context data** tab.  
-* A new "Manage Experience decisions" permission is now available for the Decision Management resource. It allows you to manage rights related to Experience Decisioning.   
-* You can now add multiple capping rules for a given decision item in Experience Decisioning. This allows you to increase the level of control over the way offers are sent.
-* You can now create custom reporting dashboards of Experience Decisioning campaigns using [!DNL Customer Journey Analytics].
--->
+* **Tabela de pesquisa** - Agora você pode aproveitar os dados de um conjunto de dados de pesquisa quando uma relação tiver sido definida usando um atributo dentro de uma matriz de objetos. Os valores de pesquisa estarão disponíveis em jornadas (condições, ações personalizadas etc.) e personalização de mensagens.
+* **Fragmento da expressão** - Os fragmentos de expressão agora estão disponíveis para o canal no aplicativo.
 
+**Jornadas**
 
-
-**Configuração**
-
-* Agora é possível selecionar uma ação de marketing no nível da superfície de canal. Quando usadas em uma superfície, todas as políticas de consentimento associadas a essa ação de marketing são aproveitadas para respeitar as preferências de clientes.
-* O uso do Controle de acesso em nível de objeto agora está disponível para superfícies de canal.
-
+* **Políticas de mesclagem** - As políticas de mesclagem agora podem ser configuradas e usadas em suas jornadas.
+* **Suporte a mTLS** - O protocolo mTLS agora é compatível com APIs do Journey Optimizer e ações personalizadas.
