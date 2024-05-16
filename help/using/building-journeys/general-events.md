@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: personalizado, geral, eventos, jornada
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 12%
@@ -45,7 +45,7 @@ Para configurar um tempo limite para um evento, siga estas etapas:
 
 1. Especifique por quanto tempo a jornada aguardará pelo evento. A duração máxima é de 29 dias.
 
-1. Se desejar enviar as pessoas físicas para um caminho de tempo limite quando nenhum evento for recebido dentro do tempo limite especificado, habilite o **[!UICONTROL Definir um caminho de tempo limite]** opção. Se essa opção não estiver ativada, a jornada continuará para o indivíduo assim que o tempo limite for atingido. Recomendamos que você sempre ative a opção **Definir um caminho de tempo limite** opção.
+1. Se desejar enviar as pessoas físicas para um caminho de tempo limite quando nenhum evento for recebido dentro do tempo limite especificado, habilite o **[!UICONTROL Definir um caminho de tempo limite]** opção. Se essa opção não estiver ativada, a jornada continuará para o indivíduo assim que o tempo limite for atingido. Recomendamos que você sempre ative o **Definir um caminho de tempo limite** opção.
 
    ![](assets/event-timeout.png)
 
@@ -58,7 +58,7 @@ Observe que se quiser configurar um tempo limite em vários eventos posicionados
 
 O tempo limite definido se aplica a todos os eventos posicionados após o **[!UICONTROL Aguardar]** atividade:
 
-* Se um evento for revelado dentro da duração do tempo limite, o indivíduo fluirá para o caminho do evento recebido.
+* Se um evento for recebido dentro da duração do tempo limite, o indivíduo fluirá para o caminho do evento recebido.
 * Se nenhum evento for recebido dentro da duração do tempo limite, o indivíduo fluirá para a ramificação de tempo limite do evento em que o tempo limite foi definido.
 
 ![](assets/event-timeout-group.png)
