@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf751ea0e2a6b02ab996c712ac1309ac06b32979
+source-git-commit: 2eb1ffff7101362b52ae91f1a7277188664b2954
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '778'
 ht-degree: 31%
 
 ---
@@ -91,7 +91,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Agora é possível pesquisar e buscar valores de dados em conjuntos de dados do Adobe Experience Platform e usar esses valores para criar condições no Adobe Journey Optimizer. Você pode aproveitar os dados de um conjunto de dados de pesquisa quando uma relação tiver sido definida usando um atributo dentro de uma matriz de objetos. Os valores de pesquisa estarão disponíveis nas condições da jornada, ações personalizadas e na personalização da mensagem.</p>
+<p>Agora é possível pesquisar e buscar valores de dados em conjuntos de dados do Adobe Experience Platform e usar esses valores para criar condições no Adobe Journey Optimizer. Você pode aproveitar os dados de um conjunto de dados de pesquisa quando uma relação tiver sido definida usando um atributo dentro de uma matriz de objetos. Você pode especificar conjuntos de dados não ativados por perfil para pesquisa. Depois de habilitado, você pode usar um atributo de perfil como uma chave de junção para o conjunto de dados especificado a fim de recuperar mais dados para personalização.</p>
 </td>
 </tr>
 </tbody>
