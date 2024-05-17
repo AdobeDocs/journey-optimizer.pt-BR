@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c667d04e22ad3addb35b1508366295a89751d8f0
+source-git-commit: b5e66c18590a452e582bd8727d957e6c721abe4a
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 26%
+source-wordcount: '825'
+ht-degree: 24%
 
 ---
 
@@ -60,7 +60,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tr>
 <td>
 <p>Se você estiver enviando emails em um novo endereço IP, agora é possível executar facilmente workflows de aquecimento de IP diretamente da interface do usuário. O Adobe Journey Optimizer oferece uma maneira padronizada e eficiente de aquecer seus endereços IP que segue as práticas recomendadas para uma entrega ideal.</p>
-<p>Para obter mais informações, consulte a <a href="../configuration/ip-warmup-gs.md">documentação detalhada</a>.</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -77,7 +77,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <td>
 <p>Agora é possível criar regras granulares de limite de frequência e aplicá-las a diferentes tipos de comunicações de marketing por meio de conjuntos de regras. Esse novo recurso permite controlar a frequência com que seus públicos-alvo recebem uma mensagem definindo regras entre canais que excluem automaticamente perfis excessivamente solicitados de mensagens e ações.</p>
 <p>O recurso Regras de negócio está disponível no momento como um beta público.</p>
-<p>Para obter mais informações, consulte a <a href="../configuration/business-rules.md">documentação detalhada</a>.</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -124,7 +124,8 @@ Da versão beta para esta, as seguintes melhorias foram adicionadas:
 **Canal de email**
 
 * **List-unsubscribe** - Após os anúncios recentes do Gmail e do Yahoo para remetentes em massa, o Journey Optimizer é compatível com a opção &quot;post/1-click&quot; List-Unsubscribe.
-* **Pontuação de spam** (Beta) — Agora você pode verificar sua pontuação de spam de conteúdo em um relatório de spam dedicado. Usando o SpamAssassin, o Adobe Journey Optimizer agora pode testar seu conteúdo de email e atribuir uma pontuação para indicar se os provedores de ISP o considerarão como spam ou não. [Leia mais](../content-management/spam-report.md)
+* **Pontuação de spam** (Beta) — Agora você pode verificar sua pontuação de spam de conteúdo em um relatório de spam dedicado. Usando o SpamAssassin, o Adobe Journey Optimizer agora pode testar seu conteúdo de email e atribuir uma pontuação para indicar se os provedores de ISP o considerarão como spam ou não.
+  <!--[Read more](../content-management/spam-report.md)-->
 
 
 **Públicos-alvo**
@@ -133,10 +134,11 @@ Da versão beta para esta, as seguintes melhorias foram adicionadas:
 
 **Personalização**
 
-* **Fragmento da expressão** - Os fragmentos de expressão agora estão disponíveis para o **Canal no aplicativo**. [Leia mais](../personalization/use-expression-fragments.md)
+* **Fragmento da expressão** - Os fragmentos de expressão agora estão disponíveis para o **Canal no aplicativo**.
+  <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 **Jornadas**
 
-* **Políticas de mesclagem** (Disponibilidade limitada) - As políticas de mesclagem usadas por uma jornada agora estão visíveis e consistentes em toda a jornada.
-* **Suporte a mTLS** - O protocolo mTLS agora é compatível com APIs do Journey Optimizer e ações personalizadas.
+<!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
+* **Suporte a mTLS** - A autenticação mTLS agora é compatível com ações personalizadas. Não há necessidade de configuração adicional na ação personalizada ou na jornada para ativar o mTLS; isso ocorre automaticamente quando um terminal habilitado para mTLS é detectado.
 * **Pesquisar tabelas em eventos** - Agora você pode aproveitar os dados de um conjunto de dados de pesquisa quando uma relação tiver sido definida usando um atributo dentro de uma matriz de objetos. Os valores de pesquisa estarão disponíveis em jornadas (condições, ações personalizadas etc.) e personalização de mensagens.
