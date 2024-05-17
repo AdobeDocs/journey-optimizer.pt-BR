@@ -6,10 +6,10 @@ description: Notas de versão antecipadas do Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7addbcaf12611860c0dde239b68be54493b99bb9
+source-git-commit: 72bf2933ad8e6a627b762c2eec62191d85d7e0cf
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 25%
+source-wordcount: '649'
+ht-degree: 28%
 
 ---
 
@@ -64,22 +64,22 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Regras comerciais - Beta</strong><br/></th>
+<th><strong>Business rules - Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível criar regras granulares de limite de frequência e aplicá-las a diferentes tipos de comunicações de marketing por meio de conjuntos de regras. Esse novo recurso permite controlar a frequência com que seus públicos-alvo recebem uma mensagem definindo regras entre canais que excluem automaticamente perfis excessivamente solicitados de mensagens e ações.</p>
-<p>O recurso de regras de negócios está disponível no momento como um beta. Para participar do programa beta, entre em contato com o representante da Adobe.</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+<p>You can now create granular frequency capping rules, and apply them to different types of marketing communications through rule sets. This new capability lets you control how often your audiences receive a message by setting cross-channel rules, that automatically exclude over-solicited profiles from messages and actions.</p>
+<p>Business rules capability is currently available as a beta. To join the beta program, contact your Adobe representative.</p>
+<p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <!--table>
