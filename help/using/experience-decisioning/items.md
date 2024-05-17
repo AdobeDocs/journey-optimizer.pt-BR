@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
+source-git-commit: b6c5bb09d7a1cb7f61a532cd5ffd262436e09039
 workflow-type: tm+mt
 source-wordcount: '1746'
 ht-degree: 14%
@@ -121,7 +121,7 @@ Para definir regras de limite para o item de decisão, clique no link **[!UICONT
 
    * Selecionar **[!UICONTROL No total]** para definir quantas vezes o item pode ser proposto entre o público-alvo combinado, ou seja, entre todos os usuários. Por exemplo, se você for um varejista de produtos eletrônicos com um &quot;contrato de portaria de TV&quot;, desejará que a oferta seja retornada apenas 200 vezes em todos os perfis.
 
-* Selecionar **[!UICONTROL Por perfil]** para definir quantas vezes a oferta pode ser proposta ao mesmo usuário. Por exemplo, se você for um banco com uma oferta de &quot;Cartão de crédito Platinum&quot;, não desejará que essa oferta seja exibida mais de 5 vezes por perfil. Na verdade, você acredita que, se o usuário tiver visto a oferta cinco vezes e não tiver atuado nela, ele terá uma chance maior de agir na próxima melhor oferta.
+   * Selecionar **[!UICONTROL Por perfil]** para definir quantas vezes a oferta pode ser proposta ao mesmo usuário. Por exemplo, se você for um banco com uma oferta de &quot;Cartão de crédito Platinum&quot;, não desejará que essa oferta seja exibida mais de 5 vezes por perfil. Na verdade, você acredita que, se o usuário tiver visto a oferta cinco vezes e não tiver atuado nela, ele terá uma chance maior de agir na próxima melhor oferta.
 
 1. No **[!UICONTROL Limite da contagem de limite]** especifique o número de vezes que a oferta pode ser apresentada a todos os usuários ou por perfis, dependendo do tipo de limite selecionado. O número deve ser um inteiro maior que 0.
 
