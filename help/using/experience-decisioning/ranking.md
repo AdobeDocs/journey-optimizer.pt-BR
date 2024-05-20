@@ -10,7 +10,7 @@ exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 12%
+ht-degree: 27%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="Criar fórmulas de classificação"
->abstract="As fórmulas permitem definir regras que determinam qual item deve ser apresentado primeiro, ao invés de considerar a pontuação de prioridade do item. Depois que um método de classificação é criado, é possível atribuí-lo a uma estratégia de seleção para definir quais itens devem ser selecionados primeiro."
+>abstract="As fórmulas permitem definir regras que determinam qual item deve ser apresentado primeiro, ao invés de considerar a pontuação de prioridade do item. Depois que um método de classificação é criado, será possível atribuí-lo a uma estratégia de seleção para definir quais itens devem ser selecionados primeiro."
 
-Os métodos de classificação permitem classificar itens para exibição em um determinado perfil. Depois que um método de classificação é criado, é possível atribuí-lo a uma estratégia de seleção para definir quais itens devem ser selecionados primeiro.
+Os métodos de classificação permitem classificar itens para exibição em um determinado perfil. Depois que um método de classificação é criado, será possível atribuí-lo a uma estratégia de seleção para definir quais itens devem ser selecionados primeiro.
 
 Dois tipos de métodos de classificação estão disponíveis:
 
