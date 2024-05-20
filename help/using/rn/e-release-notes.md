@@ -6,10 +6,10 @@ description: Notas de versão antecipadas do Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 72bf2933ad8e6a627b762c2eec62191d85d7e0cf
+source-git-commit: bf098c2b8c1eeb48b4c2a2857db9946c32533ffe
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 28%
+source-wordcount: '705'
+ht-degree: 26%
 
 ---
 
@@ -140,3 +140,7 @@ Da versão beta para esta, as seguintes melhorias foram adicionadas:
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
 * **Suporte a mTLS** - A autenticação mTLS agora é compatível com ações personalizadas. Não há necessidade de configuração adicional na ação personalizada ou na jornada para ativar o mTLS; isso ocorre automaticamente quando um terminal habilitado para mTLS é detectado.
 * **Pesquisar tabelas em eventos** - Agora você pode aproveitar os dados de um conjunto de dados de pesquisa quando uma relação tiver sido definida usando um atributo dentro de uma matriz de objetos. Os valores de pesquisa estarão disponíveis em jornadas (condições, ações personalizadas etc.) e personalização de mensagens.
+
+**Globalização**
+
+Em nosso esforço contínuo para fornecer uma experiência de usuário unificada, harmonizamos a terminologia usada nos produtos e aplicativos da Adobe Experience Cloud. Isso afeta o termo alemão &quot;Title&quot;, que é alterado para &quot;Label&quot; quando se relaciona ao nome de um objeto. As alterações serão progressivamente implementadas na interface do usuário e na documentação.
