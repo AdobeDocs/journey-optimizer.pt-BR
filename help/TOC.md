@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 96%
+source-wordcount: '1808'
+ht-degree: 99%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 96%
          + [Envio dinâmico de coleções usando ações personalizadas](using/building-journeys/collections.md)
          + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Limite a taxa de transferência com Fontes de dados externas e Ações personalizadas](using/building-journeys/limit-throughput.md)
-         + [Usar ações personalizadas para gravar eventos de Jornada no Experience Platform](using/building-journeys/custom-action-aep.md)
+         + [Use ações personalizadas para gerar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campanhas{#campaigns}
    + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
    + [Criar uma campanha](using/campaigns/create-campaign.md)
@@ -233,8 +233,8 @@ ht-degree: 96%
    + Configurar canal de SMS/MMS{#configure-sms}
       + [Introdução à configuração de SMS](using/sms/sms-configuration.md)
       + [Configurar provedor Sinch](using/sms/sms-configuration-sinch.md)
-      + [Configurar o provedor de Infobip](using/sms/sms-configuration-infobip.md)
-      + [Configurar o provedor do Twilio](using/sms/sms-configuration-twilio.md)
+      + [Configurar provedor Infobip](using/sms/sms-configuration-infobip.md)
+      + [Configurar provedor Twilio](using/sms/sms-configuration-twilio.md)
       + [Criar uma superfície de SMS](using/sms/sms-configuration-surface.md)
 + Correspondência direta {#direct-mail}
    + [Introdução à correspondência direta](using/direct-mail/get-started-direct-mail.md)
@@ -272,7 +272,7 @@ ht-degree: 96%
       + [Definir predefinições da página de destino](using/landing-pages/lp-presets.md)
 + Gestão de conteúdo {#content-management}
    + Trabalhar com o assistente de IA{#ai-assistant}
-      + [Introdução ao assistente de IA](using/content-management/gs-generative.md)
+      + [Introdução ao Assistente de IA](using/content-management/gs-generative.md)
       + [Geração de email](using/content-management/generative-email.md)
       + [Geração de push](using/content-management/generative-push.md)
       + [Geração de SMS](using/content-management/generative-sms.md)
@@ -375,7 +375,7 @@ ht-degree: 96%
    + [Alertas](using/reports/alerts.md)
    + [Trabalhar com o Customer Journey Analytics](using/reports/cja-ajo.md)
    + [Motivos de exclusão](using/reports/exclusion-list.md)
-+ Decisão {#decisioning}
++ Decisões {#decisioning}
    + Gestão de decisões {#offer-decisioning}
       + Introdução ao Gestão de decisões {#get-started-decision}
          + [Sobre a Gestão de decisões](using/offers/get-started/starting-offer-decisioning.md)
@@ -515,19 +515,19 @@ ht-degree: 96%
             + [API de decisão](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [API de decisão do Edge](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [API de decisão em lote](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Experience Decisioning (DL) {#experience-decisioning}
-      + [Introdução ao Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+   + Decisão de experiência (disponibilidade limitada) {#experience-decisioning}
+      + [Introdução à Decisão de experiência](using/experience-decisioning/gs-experience-decisioning.md)
       + Gerenciar itens de decisão {#decision-items}
          + [Configurar o catálogo de itens](using/experience-decisioning/catalogs.md)
          + [Criar itens de decisão](using/experience-decisioning/items.md)
          + [Gerenciar coleções de itens](using/experience-decisioning/collections.md)
-      + Configurar seleção de item {#selection}
+      + Configurar a seleção de itens {#selection}
          + [Criar regras de decisão](using/experience-decisioning/rules.md)
          + [Criar métodos de classificação](using/experience-decisioning/ranking.md)
          + [Aproveitar dados de contexto](using/experience-decisioning/context-data.md)
       + [Criar estratégias de seleção](using/experience-decisioning/selection-strategies.md)
       + [Criar políticas de decisão](using/experience-decisioning/create-decision.md)
-      + [Relatório no Customer Journey Analytics](using/experience-decisioning/cja-reporting.md)
+      + [Relatórios no Customer Journey Analytics](using/experience-decisioning/cja-reporting.md)
 + Gerenciamento de dados {#data-management}
    + [Introdução ao gerenciamento de dados](using/data/gs-data.md)
    + [Trabalhar com esquemas](using/data/get-started-schemas.md)
@@ -562,6 +562,7 @@ ht-degree: 96%
    + [Alterar endereços de execução](using/configuration/primary-email-addresses.md)
    + [Configurar regras de frequência](using/configuration/frequency-rules.md)
    + [Trabalhar com regras de negócios](using/configuration/business-rules.md)
+   + [Trabalhar com conjuntos de regras](using/configuration/rule-sets.md)
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
       + Integração a sistemas externos {#external-systems}
