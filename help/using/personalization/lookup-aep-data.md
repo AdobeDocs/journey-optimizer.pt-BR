@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expressão, editor
 hidefromtoc: true
 hide: true
-source-git-commit: ae26dfdf77433882dc57e5518a2ff5e0f7e3a3ce
+source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ O Journey Optimizer permite aproveitar os dados do Adobe Experience Platform no 
 
 1. Abra o editor de expressão, que está disponível em todos os contextos, em que você pode definir personalização, como mensagens. [Saiba como trabalhar com o editor de expressão](../personalization/personalization-build-expressions.md)
 
-1. Navegue até a lista de funções auxiliares e adicione a **MultiEntidade** função auxiliar para o painel de código.
+1. Navegue até a lista de funções auxiliares e adicione a **datasetLookup** função auxiliar para o painel de código.
 
    ![](assets/aep-data-helper.png)
 
@@ -41,6 +41,11 @@ O Journey Optimizer permite aproveitar os dados do Adobe Experience Platform no 
 
    * **entity.datasetId** é a ID do conjunto de dados com o qual você está trabalhando,
    * **id** é o campo usado como identidade principal no conjunto de dados,
+
+     >[!NOTE]
+     >
+     >O valor inserido para esse campo pode ser a ID do campo (*profile.couponValue*), um campo transmitido em um evento de jornada (*context.jornada.events.event_ID.couponValue*) ou um valor estático (*couponAbcd*). Em qualquer caso, o sistema usará o valor e pesquisará no conjunto de dados para verificar se ele corresponde a uma chave a).
+
    * **resultado** é um nome arbitrário que você precisa fornecer para fazer referência a todos os valores de campo que você vai recuperar do conjunto de dados. Esse valor será usado no código para chamar cada campo.
 
    +++Onde recuperar uma ID de conjunto de dados?
