@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
+source-git-commit: 45fe3ebd3039353697acdf574d18f9409ce17639
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1804'
 ht-degree: 99%
 
 ---
@@ -561,7 +561,6 @@ ht-degree: 99%
    + [Suporte para arquivamento](using/configuration/archiving-support.md)
    + [Alterar endereços de execução](using/configuration/primary-email-addresses.md)
    + [Configurar regras de frequência](using/configuration/frequency-rules.md)
-   + [Trabalhar com regras de negócios](using/configuration/business-rules.md)
    + [Trabalhar com conjuntos de regras](using/configuration/rule-sets.md)
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)
