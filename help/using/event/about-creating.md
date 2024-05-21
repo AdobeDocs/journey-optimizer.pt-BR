@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitário, create, jornada
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 0f1c4b96e930e8e473463002c1d8ef66341a07c4
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1609'
 ht-degree: 12%
 
 ---
@@ -61,14 +61,18 @@ Estas são as primeiras etapas para configurar um novo evento:
    >
    >Ao selecionar a variável **[!UICONTROL Gerado pelo sistema]** tipo, somente os esquemas que têm o campo de tipo eventID estão disponíveis. Ao selecionar a variável **[!UICONTROL Baseado em regras]** , todos os esquemas de Evento de experiência estarão disponíveis.
 
-1. Para eventos baseados em regras, clique dentro da variável **[!UICONTROL Condição de ID de evento]** campo. Usando o editor de expressões simples, defina a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
+1. Para eventos baseados em regras, clique dentro da variável **[!UICONTROL Condição de ID de evento]** campo. Usando o editor de expressão simples ou avançado, defina a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
    ![](assets/jo-event6.png)
+
+   >[!NOTE]
+   >
+   >O editor de expressão avançado na Configuração de evento está disponível em Disponibilidade limitada para clientes selecionados.
 
    Em nosso exemplo, escrevemos uma condição com base na cidade do perfil. Isso significa que sempre que o sistema receber um evento que corresponda a essa condição (**[!UICONTROL Cidade]** campo e **[!UICONTROL Paris]** ), ele vai passá-lo para o jornada.
 
    >[!NOTE]
    >
-   >O editor de expressão avançado não está disponível ao definir o **[!UICONTROL Condição de ID de evento]**. No editor de expressões simples, nem todos os operadores estão disponíveis, eles dependem do tipo de dados. Por exemplo, para um tipo de sequência de caracteres de campo, é possível usar &quot;contém&quot; ou &quot;igual a&quot;.
+   >No editor de expressões simples, nem todos os operadores estão disponíveis, eles dependem do tipo de dados. Por exemplo, para um tipo de sequência de caracteres de campo, é possível usar &quot;contém&quot; ou &quot;igual a&quot;.
    >
    >Se você modificar seu esquema com novos valores de enumeração depois de criar o evento, será necessário seguir estas etapas para aplicar as alterações ao evento existente: desmarque o campo de enumeração dos campos de evento, confirme a seleção e selecione o campo de enumeração novamente. O novo valor de enumeração agora é exibido.
 

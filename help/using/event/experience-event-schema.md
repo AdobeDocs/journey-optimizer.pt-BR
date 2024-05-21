@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: schemas, XDM, plataforma, streaming, assimilação, jornada
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '831'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Você pode definir uma relação de esquema em uma matriz de cadeias de caracter
 
 ![](assets/schema15.png)
 
-No entanto, não é possível definir um relacionamento de esquema com um atributo dentro de uma matriz de objetos, por exemplo, uma lista de informações de compra (ID do produto, nome do produto, preço, desconto). Os valores de pesquisa não estarão disponíveis em jornadas (condições, ações personalizadas etc.) e personalização de mensagens.
+Você também pode definir um relacionamento de esquema com um atributo dentro de uma matriz de objetos, por exemplo, uma lista de informações de compra (ID do produto, nome do produto, preço, desconto). Os valores de pesquisa estarão disponíveis em jornadas (condições, ações personalizadas etc.) e personalização de mensagens.
 
 ![](assets/schema16.png)
 

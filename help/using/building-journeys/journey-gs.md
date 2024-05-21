@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2086'
 ht-degree: 17%
 
 ---
@@ -211,6 +211,21 @@ Esse tempo limite global interrompe o progresso das pessoas físicas na jornada 
 Devido ao tempo limite de jornada de 30 dias, quando a reentrada da jornada não é permitida, não podemos garantir que o bloqueio de reentrada funcionará por mais de 30 dias. Na verdade, à medida que removemos todas as informações sobre as pessoas que entraram na jornada 30 dias depois de entrarem, não podemos saber a pessoa inserida anteriormente, há mais de 30 dias.
 
 Um indivíduo só poderá inserir uma atividade de espera se tiver tempo suficiente na jornada para concluir a duração da espera antes do tempo limite de jornada de 30 dias. Consulte [esta página](../building-journeys/wait-activity.md).
+
+### Políticas de mesclagem {#merge-policies}
+
+O Jornada usa políticas de mesclagem ao recuperar dados de perfil do Adobe Experience Platform. Dependendo do tipo de jornada, são usadas diferentes políticas de mesclagem:
+
+* Em Ler jornadas de qualificação de público ou público-alvo: a política de mesclagem do público-alvo é usada
+* Em jornadas acionadas por eventos: a política de mesclagem padrão é usada
+
+O Jornada seguirá a política de mesclagem usada em toda a jornada.
+
+>[!NOTE]
+>
+>Esse recurso só está disponível em Disponibilidade limitada (DL) para clientes selecionados.
+
+Para saber mais sobre políticas de mesclagem, consulte este [página](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 ## Duplicar uma jornada {#duplicate-a-journey}
 

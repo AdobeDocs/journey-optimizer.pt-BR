@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 18%
+source-wordcount: '451'
+ht-degree: 17%
 
 ---
 
@@ -69,11 +69,15 @@ Para criar uma campanha de aquecimento de IP, siga as etapas abaixo.
 
 1. Conclua as etapas para criar uma campanha de email, como definir as propriedades da campanha, [público](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->, e [conteúdo](../email/get-started-email-design.md#key-steps).
 
+   Observe que é necessário selecionar um público-alvo com base em regras para sua campanha de aquecimento de IP. [Saiba mais](../audience/creating-a-segment-definition.md)
+
    >[!NOTE]
    >
    >Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 1. [Ativar](../campaigns/review-activate-campaign.md) a campanha. Seu status muda para **[!UICONTROL Ao vivo]**.
+
+   Observe que as regras de negócios não devem ser usadas no plano de aquecimento de IP. A aplicação dessas regras pode impedir que se atinja o número desejado de perfis direcionados para campanhas.
 
    >[!NOTE]
    >

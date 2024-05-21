@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: seed list, seed list, seed, configuração
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 22%
+source-wordcount: '945'
+ht-degree: 21%
 
 ---
 
@@ -156,4 +156,4 @@ Agora, sempre que uma mensagem de email for enviada aos seus clientes por meio d
 
 >[!NOTE]
 >
->Para jornada, o delivery de email é enviado aos seed addresses somente na primeira execução da jornada.
+>Para jornadas recorrentes, o delivery de email é enviado aos seed addresses em cada execução de jornada, desde que pelo menos um perfil chegue ao nó de email.

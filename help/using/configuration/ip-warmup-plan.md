@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cef6970e611a33b71b803fdb247f566cb8a8a708
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1674'
 ht-degree: 8%
 
 ---
@@ -37,6 +37,10 @@ Depois de criar um ou mais [Campanhas de aquecimento de IP](ip-warmup-campaign.m
 Para acessar, criar, editar e excluir os planos de aquecimento de IP, você deve ter a **[!UICONTROL Consultor de avaliação de entrega]** função ou planos de aquecimento de IP relacionados a permissões.
 
 +++Saiba como atribuir a função de Consultor de capacidade de entrega ou as permissões relacionadas a planos de aquecimento de IP
+
+O controle de acesso no nível do objeto permite proteger dados e conceder acesso específico para visualizar e gerenciar seus planos. Se nenhum rótulo for atribuído ao seu plano de aquecimento de IP, ele será aberto para visualização e edição por todos os usuários.
+
+A concessão da **[!UICONTROL Exibir planos de aquecimento de IP]** restringe o acesso somente à exibição e publicação, enquanto atribui a **[!UICONTROL Gerenciar planos de aquecimento de IP]** permite que os usuários visualizem e editem o plano.
 
 Para atribuir a permissão correspondente a um **[!UICONTROL Função]**:
 
@@ -76,7 +80,7 @@ Para atribuir a função correspondente a um **[!UICONTROL Usuário]**:
 
 O aquecimento de IP é uma atividade que consiste em aumentar gradualmente o volume de emails que saem de seus IPs e domínios para os principais provedores de serviços de Internet (ISPs), a fim de estabelecer sua reputação como remetente legítimo.
 
-Essa atividade é normalmente realizada com a ajuda de um especialista em capacidade de entrega que ajuda a preparar um plano bem pensado com base nos domínios do setor, casos de uso, regiões, ISPs e vários outros fatores.
+Normalmente, essa atividade é realizada com a ajuda de um especialista em capacidade de entrega que ajuda a preparar um plano bem pensado com base nos domínios do setor, casos de uso, regiões, ISPs e vários outros fatores.
 
 <!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
 
@@ -102,10 +106,6 @@ Veja abaixo um exemplo de um arquivo contendo um plano de aquecimento de IP.
 
 ![](assets/ip-warmup-sample-file.png)
 
->[!NOTE]
->
->Por enquanto, você deve deixar o **Propriedades** e **Valor** células intocadas.
-
 ### Guia Plano de aquecimento de IP {#ip-warmup-plan-tab}
 
 * Neste exemplo, um plano foi preparado abrangendo mais de 17 dias (chamado de &quot;**execuções**&quot;) para atingir um volume-alvo de mais de um milhão de perfis.
@@ -117,7 +117,6 @@ Veja abaixo um exemplo de um arquivo contendo um plano de aquecimento de IP.
    * Quatro dos quais correspondem a **grupos de domínio prontos para uso** para usar no seu plano (Gmail, Microsoft, Yahoo e Orange).
    * Um corresponde a um grupo de domínio personalizado (que você precisa adicionar usando o [Grupo de domínio personalizado](#custom-domain-group-tab) guia ).
    * A sexta coluna, **Outros**, contém todos os endereços restantes de outros domínios que não estão explicitamente cobertos no plano. Essa coluna é opcional: se omitida, os emails irão somente para os domínios especificados.
-* A variável **Dias de engajamento** mostra que somente os perfis engajados com sua marca no último período inserido são direcionados.
 
 A ideia é aumentar progressivamente o número de endereços direcionados em cada execução, enquanto reduz o número de execuções para cada fase.
 
@@ -188,6 +187,8 @@ Os grupos de domínio principais predefinidos que você pode adicionar ao seu pl
 Você também pode adicionar mais colunas ao seu plano, incluindo grupos de domínio personalizados.
 
 Use o **[!UICONTROL Grupo de domínio personalizado]** para definir um novo grupo de domínio. Para cada domínio, você pode adicionar todos os subdomínios que ele abrange.<!--TBC-->
+
+Certifique-se de que cada domínio seja exclusivo do seu grupo de domínio e não se sobreponha a outros grupos de domínio. Como os grupos de domínio globais são definidos automaticamente, os usuários devem considerar isso ao criar grupos de domínio personalizados.
 
 Por exemplo, se você adicionar o domínio personalizado Luma, desejará que os seguintes subdomínios sejam incluídos: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, etc.
 
