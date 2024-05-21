@@ -5,9 +5,9 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '354'
 ht-degree: 88%
 
 ---
@@ -20,11 +20,19 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!BEGINTABS]
 
->[!TAB A versão de abril está disponível.]
+>[!TAB A versão de maio está disponível.]
 
-Conheça os novos recursos e melhorias que acompanham a versão 24.3 do Adobe Journey Optimizer.
+Descubra novos recursos e melhorias que acompanham a versão de maio do Adobe Journey Optimizer.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Experience Decisioning]
+
+O Experience Decisioning simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como &quot;itens de decisão&quot; e um mecanismo de decisão sofisticado.
+
+![](using/rn/assets/do-not-localize/gif-exd.gif)
+
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/experience-decisioning/gs-experience-decisioning.md)
 
 >[!TAB Nova experiência de jornada]
 
@@ -33,14 +41,6 @@ Essa versão vem com uma interface de usuário de tela aprimorada para jornada e
 ![](using/rn/assets/new-canvas3.gif)
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
-
->[!TAB MMS para todos os provedores]
-
-Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do Serviço de mensagens multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos com clientes. Inicialmente disponível apenas com Sinch, MMS agora também está disponível com Infobip e Twilio.
-
-![](using/rn/assets/do-not-localize/mms.gif)
-
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/sms/get-started-sms.md)
 
 >[!ENDTABS]
 
