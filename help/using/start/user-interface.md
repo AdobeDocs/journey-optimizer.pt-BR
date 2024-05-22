@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 7cef45750889572f1684aa2b98c1eab1d668896a
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 94%
+source-wordcount: '1359'
+ht-degree: 91%
 
 ---
 
@@ -128,7 +128,7 @@ Controle o gerenciamento de privacidade e as solicitações nesta seção.
 
   Também é possível acessar a seção **Relatórios** e configurar relatórios de experimentação da campanha. [Saiba mais](../campaigns/reporting-configuration.md)
 
-* **[!UICONTROL Regras]**: use esta seção para criar regras de frequência entre canais e controlar a regularidade com a qual os usuários e usuárias recebem mensagens ou entram em uma jornada. [Saiba mais](../configuration/frequency-rules.md)
+* **[!UICONTROL Regras comerciais]** : use esta seção para criar regras de negócios entre canais para controlar a frequência com que os usuários recebem uma mensagem ou entram em uma jornada. [Saiba mais](../configuration/frequency-rules.md)
 
 * **[!UICONTROL Alertas]** - a interface permite visualizar um histórico de alertas recebidos com base em métricas reveladas pelos Insights de observação da Adobe Experience Platform. A interface também permite visualizar, habilitar e desabilitar as regras de alerta disponíveis. [Saiba mais](../reports/alerts.md)
 
@@ -198,104 +198,104 @@ Para alterar o idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="Nome da configuração móvel e da Web"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_add"
 >title="Adicionar dependências"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
 >title="Adicionar código de inicialização"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Validar com garantia"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
->title="Código JavaScript"
->abstract="A confirmar"
+>title="Código Javascript"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
 >title="Iniciar site e validar"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
 >title="Recuperar o token do dispositivo"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
 >title="Iniciar o aplicativo a partir do Xcode"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
 >title="Fornecer um certificado de push"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_key_id"
 >title="ID da chave"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
 >title="ID da equipe"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
 >title="Escolha a propriedade da tag"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
 >title="Fornecer um certificado de push"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
 >title="Adicionar dependências"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_import"
 >title="Importar dependências"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
 >title="Adicionar código de inicialização"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance_android"
 >title="Validar com garantia"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token_android"
 >title="Recuperar o token do dispositivo"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_android_studio"
 >title="Iniciar o aplicativo no Android Studio"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_load_library"
 >title="Carregar biblioteca de maneira assíncrona"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_library_code"
 >title="Tag de cabeçalho do documento"
->abstract="A confirmar"
+>abstract="A SER CONCLUÍDO"

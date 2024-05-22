@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Regras de frequência
+title: Regras comerciais
 description: Saiba como definir regras de frequência
 feature: Rules
 topic: Content Management
@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 2e6d55b5e26ca8486289b4b5c5df0b2e898a9992
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 11%
+source-wordcount: '1257'
+ht-degree: 6%
 
 ---
 
-# Regras de frequência de mensagem {#frequency-rules}
+# Regras comerciais {#frequency-rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_message_frequency_rules"
+>title="Regras comerciais"
+>abstract="Use regras de negócios para controlar a frequência com que os usuários receberão uma mensagem ou entrarão em uma jornada definindo regras entre canais que excluirão automaticamente perfis excessivamente solicitados de mensagens e ações."
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
@@ -25,54 +30,52 @@ ht-degree: 11%
 
 [!DNL Journey Optimizer] permite controlar a frequência com que os usuários receberão uma mensagem ou entrarão em uma jornada definindo regras entre canais que excluirão automaticamente perfis excessivamente solicitados de mensagens e ações.
 
-Por exemplo, para uma marca, uma regra poderia ser não enviar mais de 4 mensagens de marketing por mês para seus clientes. Para fazer isso, você pode usar uma regra de frequência que limitará o número de mensagens enviadas com base em um ou mais canais durante um período de calendário mensal.
+Por exemplo, para uma marca, uma regra poderia ser não enviar mais de 4 mensagens de marketing por mês para seus clientes. Para fazer isso, você pode usar uma regra de negócios que limitará o número de mensagens enviadas com base em um ou mais canais durante um período de calendário mensal.
 
 ![](assets/do-not-localize/sms-dm-rules.gif)
 
 >[!NOTE]
 >
->As regras de frequência de mensagem são diferentes do gerenciamento de recusa, que permite que os usuários cancelem a inscrição do recebimento de comunicações de uma marca. [Saiba mais](../privacy/opt-out.md#opt-out-management)
+>As regras de negócios são diferentes do gerenciamento de recusa, que permite que os usuários cancelem a inscrição do recebimento de comunicações de uma marca. [Saiba mais](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-## Regras de acesso {#access-rules}
+## Acessar regras de negócios {#access-rules}
 
-As regras estão disponíveis no **[!UICONTROL Administração]** > **[!UICONTROL Regras]** menu. Todas as regras são listadas e classificadas por data de modificação.
-
-Use o ícone de filtro para filtrar a categoria, o status e/ou o canal. Também é possível pesquisar pelo rótulo da mensagem.
+As regras de negócios estão disponíveis no **[!UICONTROL Administração]** > **[!UICONTROL Regras comerciais]** menu. Todas as regras são listadas e classificadas por data de modificação. Use o ícone de filtro para filtrar a categoria, o status e/ou o canal. Também é possível pesquisar pelo rótulo da mensagem.
 
 ![](assets/message-rules-filter.png)
 
 ### Permissões{#permissions-frequency-rules}
 
-Para acessar, criar, editar ou excluir regras de frequência de mensagem, você deve ter a **[!UICONTROL Gerenciar regras de frequência]** permissão.
+Para acessar, criar, editar ou excluir regras de negócios, você deve ter a **[!UICONTROL Gerenciar regras de frequência]** permissão.
 
 Usuários com o **[!UICONTROL Exibir regras de frequência]** As permissões do podem exibir regras, mas não podem modificá-las ou excluí-las.
 
 ![](assets/message-rules-access.png)
 
-Saiba mais sobre permissões [nesta seção](../administration/high-low-permissions.md).
+Saiba mais sobre permissões no [nesta seção](../administration/high-low-permissions.md).
 
-## Criar uma regra {#create-new-rule}
+## Criar uma regra de negócios {#create-new-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
->title="Selecionar a categoria da regra de mensagem"
->abstract="Quando ativadas e aplicadas a uma mensagem, todas as regras de frequência correspondentes à categoria selecionada serão automaticamente aplicadas a essa mensagem. Atualmente, somente a categoria Marketing está disponível."
+>title="Selecionar a categoria de regra de mensagem"
+>abstract="Quando ativadas e aplicadas a uma mensagem, todas as regras de negócios correspondentes à categoria selecionada serão automaticamente aplicadas a esta mensagem. Atualmente, somente a categoria Marketing está disponível."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
->title="Definir o limite para a regra"
->abstract="Especifique o número máximo de mensagens enviadas a um perfil de cliente no intervalo de tempo escolhido. O limite de frequência será baseado no período do calendário selecionado e redefinido no início do intervalo de tempo correspondente. "
+>title="Definir o limite para sua regra de negócios"
+>abstract="Especifique o número máximo de mensagens enviadas para um perfil de cliente no período escolhido. O limite de frequência será baseado no período de calendário selecionado e será redefinido no início do período correspondente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
->title="Definir os canais aos quais a regra se aplica"
->abstract="Selecione pelo menos um canal. O limite se aplica em canais como uma contagem total."
+>title="Definir os canais aos quais a regra de negócios se aplica"
+>abstract="Selecione pelo menos um canal. A limitação se aplica a todos os canais como contagem total."
 
-Para criar uma nova regra, siga as etapas abaixo.
+Para criar uma nova regra de negócios, siga as etapas abaixo.
 
-1. Acesse o **[!UICONTROL Regras de frequência de mensagem]** e clique em **[!UICONTROL Criar regra]**.
+1. Acesse o **[!UICONTROL Regras comerciais]** e clique em **[!UICONTROL Criar regra]**.
 
    ![](assets/message-rules-create.png)
 
@@ -134,19 +137,19 @@ O limite de frequência diária é válido para o dia até 23:59:59 UTC e redefi
 >
 >Para garantir a precisão das regras de limite de frequência diária, a utilização de [segmentação por transmissão](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} é recomendada. Saiba mais sobre os métodos de avaliação de público-alvo no [nesta seção](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
-## Ativar uma regra {#activate-rule}
+## Ativar uma regra de negócios {#activate-rule}
 
-Quando criada, uma regra de frequência de mensagem tem o **[!UICONTROL Rascunho]** e ainda não está afetando nenhuma mensagem. Para ativá-la, clique nas reticências ao lado da regra e selecione **[!UICONTROL Ativar]**.
+Quando criada, uma regra de negócios tem o **[!UICONTROL Rascunho]** e ainda não está afetando nenhuma mensagem. Para ativá-la, clique nas reticências ao lado da regra e selecione **[!UICONTROL Ativar]**.
 
 ![](assets/message-rules-activate.png)
 
-A ativação de uma regra afetará qualquer mensagem à qual ela se aplica em sua próxima execução. Saiba como [aplicar uma regra de frequência a uma mensagem](#apply-frequency-rule).
+A ativação de uma regra afetará qualquer mensagem à qual ela se aplica em sua próxima execução. Saiba como [aplicar uma regra de negócios a uma mensagem](#apply-frequency-rule).
 
 >[!NOTE]
 >
 >Pode levar até 10 minutos para que uma regra seja totalmente ativada. Não é necessário modificar mensagens ou republicar jornadas para que uma regra entre em vigor.
 
-Para desativar uma regra de frequência de mensagem, clique nas reticências ao lado da regra e selecione **[!UICONTROL Desativar]**.
+Para desativar uma regra de negócios, clique nas reticências ao lado da regra e selecione **[!UICONTROL Desativar]**.
 
 ![](assets/message-rules-deactivate.png)
 
@@ -156,9 +159,9 @@ O status da regra será alterado para **[!UICONTROL Inativo]** e a regra não se
 >
 >A desativação de uma regra não afeta nem redefine nenhuma contagem em perfis individuais.
 
-## Aplicar uma regra de frequência a uma mensagem {#apply-frequency-rule}
+## Aplicar uma regra de negócios a uma mensagem {#apply-frequency-rule}
 
-Para aplicar uma regra de frequência a uma mensagem, siga as etapas abaixo.
+Para aplicar uma regra de negócios a uma mensagem, siga as etapas abaixo.
 
 1. Ao criar uma [jornada](../building-journeys/journey-gs.md), adicione uma mensagem selecionando um dos canais que você definiu para a regra.
 
@@ -168,17 +171,17 @@ Para aplicar uma regra de frequência a uma mensagem, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Atualmente, somente o **[!UICONTROL Marketing]** A categoria está disponível para regras de frequência de mensagem.
+   >Atualmente, somente o **[!UICONTROL Marketing]** categoria está disponível para regras de negócios.
 
 1. Você pode clicar no link **[!UICONTROL Regra de frequência]** link para exibir a tela de regras de frequência em uma nova guia. [Saiba mais](#access-rules)
 
-   Todas as regras de frequência correspondentes à categoria e aos canais selecionados serão aplicadas automaticamente a esta mensagem.
+   Todas as regras que correspondem à categoria e aos canais selecionados serão aplicadas automaticamente a esta mensagem.
 
    >[!NOTE]
    >
    >Mensagens em que a categoria selecionada é **[!UICONTROL Transacional]** não serão avaliados em relação às regras de frequência.
 
-1. Você pode exibir o número de perfis excluídos do delivery na variável [Relatório global](../reports/global-report.md), e no [Relatório ao vivo](../reports/live-report.md), em que as regras de frequência serão listadas como um possível motivo para os usuários excluídos do delivery.
+1. Você pode exibir o número de perfis excluídos do delivery na variável [Relatório global](../reports/global-report.md), e no [Relatório ao vivo](../reports/live-report.md), em que as regras de negócios serão listadas como um possível motivo para os usuários excluídos da entrega.
 
 >[!NOTE]
 >
@@ -186,9 +189,9 @@ Para aplicar uma regra de frequência a uma mensagem, siga as etapas abaixo.
 
 ## Exemplo: combinar várias regras {#frequency-rule-example}
 
-É possível combinar várias regras de frequência de mensagem, conforme descrito no exemplo abaixo.
+É possível combinar várias regras de negócios, conforme descrito no exemplo abaixo.
 
-1. [Criar uma regra](#create-new-rule) chamado *Limite de marketing geral*:
+1. [Criar uma regra de negócios](#create-new-rule) chamado *Limite de marketing geral*:
 
    * Selecione todos os canais.
    * Defina o limite para 12 mensais.
@@ -204,7 +207,7 @@ Para aplicar uma regra de frequência a uma mensagem, siga as etapas abaixo.
 
 1. Salvar e [ativar](#activate-rule) a regra.
 
-1. [Criar uma mensagem](../building-journeys/journeys-message.md) para cada canal por meio do qual deseja se comunicar e selecione o **[!UICONTROL Marketing]** categoria para cada mensagem. [Saiba como aplicar uma regra de frequência](#apply-frequency-rule)
+1. [Criar uma mensagem](../building-journeys/journeys-message.md) para cada canal por meio do qual deseja se comunicar e selecione o **[!UICONTROL Marketing]** categoria para cada mensagem. [Saiba como aplicar uma regra de negócios](#apply-frequency-rule)
 
    ![](assets/journey-message-category.png)
 
@@ -231,10 +234,10 @@ Nesse cenário, um perfil individual:
 
 >[!NOTE]
 >
->Ao testar as regras de frequência, é recomendável usar um recém-criado [perfil de teste](../audience/creating-test-profiles.md), pois quando o limite de frequência de um perfil é atingido, não há como redefinir o contador até o próximo mês. A desativação de uma regra permitirá que perfis limitados recebam mensagens, mas não removerá nem excluirá incrementos de contador.
+>Ao testar as regras de negócios, é recomendável usar um modelo [perfil de teste](../audience/creating-test-profiles.md), pois quando o limite de frequência de um perfil é atingido, não há como redefinir o contador até o próximo mês. A desativação de uma regra permitirá que perfis limitados recebam mensagens, mas não removerá nem excluirá incrementos de contador.
 
 ## Vídeo tutorial {#video}
 
-Saiba como criar, ativar, testar e relatar regras de frequência.
+Saiba como criar, ativar, testar e relatar regras de negócios.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)
