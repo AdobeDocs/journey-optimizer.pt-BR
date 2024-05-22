@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
@@ -27,7 +27,7 @@ No **Alertas** , é possível exibir os alertas disponíveis e assiná-los. Quan
 
 Saiba mais sobre alertas no Adobe Experience Platform em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR){target="_blank"}.
 
-No menu esquerdo, em **Administração**, clique em **Alertas**. Dois alertas pré-configurados para o Journey Optimizer estão disponíveis: o [Falha na ação personalizada de Jornada](#alert-custom-actions) alerta e o [Acionador de segmento de leitura malsucedido](#alert-read-audiences) alerta. Esses alertas estão detalhados abaixo.
+No menu esquerdo, em **Administração**, clique em **Alertas**. Dois alertas pré-configurados para o Journey Optimizer estão disponíveis: o [Falha na ação personalizada de Jornada](#alert-custom-actions) alerta e o [Falha ao ler o acionador de público-alvo](#alert-read-audiences) alerta. Esses alertas estão detalhados abaixo.
 
 É possível assinar cada alerta individualmente na interface do usuário do selecionando o **Assinar** opção no **Alertas** painel. Use o mesmo método para cancelar a inscrição.
 
@@ -67,7 +67,7 @@ Alertas ativados **Ler público-alvo** as atividades se aplicam somente a jornad
 
 Alertas ativados **Ler público-alvo** são resolvidos quando um perfil entra na variável **Ler público-alvo** nó.
 
-O nome de inscrição do evento de E/S correspondente ao **Acionador de segmento de leitura malsucedido** o alerta é **Atrasos, falhas e erros no segmento de leitura do Jornada**.
+O nome de inscrição do evento de E/S correspondente ao **Falha ao ler o acionador de público-alvo** o alerta é **Atrasos, falhas e erros na leitura de públicos-alvo do Jornada**.
 
 ## Solução de problemas {#alert-troubleshooting}
 
