@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
+source-git-commit: 8253b4f3fdc177f5e5f19ab19de748b78456137b
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1252'
 ht-degree: 6%
 
 ---
@@ -22,11 +22,6 @@ ht-degree: 6%
 >id="ajo_business_rules_message_frequency_rules"
 >title="Regras comerciais"
 >abstract="Use regras de negócios para controlar a frequência com que os usuários receberão uma mensagem ou entrarão em uma jornada definindo regras entre canais que excluirão automaticamente perfis excessivamente solicitados de mensagens e ações."
-
->[!CONTEXTUALHELP]
->id="ajo_business_rules_message_frequency_rules"
->title="Regras comerciais"
->abstract="Descrição de regras de negócio"
 
 [!DNL Journey Optimizer] permite controlar a frequência com que os usuários receberão uma mensagem ou entrarão em uma jornada definindo regras entre canais que excluirão automaticamente perfis excessivamente solicitados de mensagens e ações.
 
