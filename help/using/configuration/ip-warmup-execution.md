@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
 workflow-type: tm+mt
-source-wordcount: '2487'
-ht-degree: 11%
+source-wordcount: '2513'
+ht-degree: 1%
 
 ---
 
@@ -40,14 +40,14 @@ Cada fase é composta por várias execuções, às quais você atribui uma únic
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
->title="Excluir públicos-alvo da campanha"
->abstract="Selecione campanhas para excluir públicos-alvo delas da fase atual. Isso evita que perfis contatados anteriormente (em outras fases ou planos de aquecimento de IP) sejam direcionados novamente."
+>title="Excluir públicos da campanha"
+>abstract="Selecione campanhas para excluir os públicos da fase atual. Isso evita que perfis de outras fases ou outros planos de aquecimento de IP contatados anteriormente sejam direcionados novamente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="Excluir grupos de domínio"
->abstract="Selecione os domínios que deseja excluir da fase atual. A exclusão de domínios requer uma fase não executada, portanto, talvez seja necessário dividir uma fase em execução para adicionar exclusões."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=pt-BR#split-phase" text="Dividir uma fase"
+>abstract="Selecione os domínios que deseja excluir da fase atual. A exclusão de domínio requer uma fase não executada, portanto, talvez seja necessário dividir uma fase em execução para adicionar exclusões."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Dividir uma fase"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
@@ -146,22 +146,22 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_run"
 >title="Definir cada execução"
->abstract="Defina e ative cada execução para todas as fases."
+>abstract="Definir e ativar cada execução para todas as fases."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_last_engagement"
->title="Filtrar no engajamento"
->abstract="Essa coluna é um filtro que direciona somente os usuários engajados com sua marca nos últimos 20 dias, por exemplo. Também é possível alterar essa configuração por meio da opção **Editar execução**."
+>title="Filtrar no envolvimento"
+>abstract="Essa coluna é um filtro que direciona somente os usuários envolvidos com sua marca nos últimos 20 dias, por exemplo. Também é possível alterar essa configuração por meio da **Editar execução** opção."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"
 >title="Definir uma janela de tempo"
->abstract="Você pode definir uma janela de tempo durante a qual a campanha de aquecimento de IP poderá ser executada, caso haja atrasos no processo de segmentação."
+>abstract="Você pode definir uma janela de tempo durante a qual a campanha de aquecimento de IP poderá ser executada, caso haja atrasos no trabalho de segmentação."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
->title="Cancelar execuções com erros de público-alvo"
->abstract="Selecione essa opção para cancelar uma execução se os perfis qualificados forem menores que os perfis direcionados após o público-alvo ter sido avaliado para a execução."
+>title="Cancelar execuções com erros de público"
+>abstract="Selecione essa opção para cancelar uma execução se os perfis qualificados forem menores que os perfis direcionados depois que o público-alvo tiver sido avaliado para essa execução."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
@@ -236,9 +236,11 @@ Quando você ativa uma execução, vários públicos são criados automaticament
 
 * Se ativar a primeira execução de uma fase:
 
-   * Um [público](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-br){target="_blank"} é criado para os públicos-alvo da campanha excluídos (se houver), com a seguinte convenção de nomenclatura: `<warmupName>_Phase<phaseNo>-Audience Exclusion`.
+   * Um [público](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} é criado para os públicos-alvo da campanha excluídos (se houver), com a seguinte convenção de nomenclatura: `<warmupName>_Phase<phaseNo>-Audience Exclusion`.
 
-   * Outro público-alvo é criado para os grupos de domínio excluídos (se houver), com a seguinte convenção de nomenclatura: `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+   * Um público-alvo é criado para os grupos de domínio excluídos (se houver), com a seguinte convenção de nomenclatura: `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+
+   * Outro público-alvo é criado para os públicos-alvo do jornada excluídos (se houver), com a seguinte convenção de nomenclatura: `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
   >[!NOTE]
   >
@@ -263,6 +265,8 @@ Quando você ativa uma execução, vários públicos são criados automaticament
      >Uma nova composição de público-alvo é criada para cada execução. Com um limite de 10, os usuários que executam várias campanhas, jornadas e planos de aquecimento de IP simultaneamente usando composições de público publicadas devem planejar com antecedência para ficar dentro desse limite para operações paralelas.
      >
      >A composição do público-alvo (e, portanto, o público-alvo de saída) é limpa quando a próxima iteração é ativada.
+
+   * Um público-alvo de saída é criado com a seguinte convenção de nomenclatura: `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
