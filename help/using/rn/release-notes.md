@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
+source-git-commit: 40e4aaa93400daf52c96aa5ac2de17151cdbb07f
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 44%
@@ -55,7 +55,6 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -72,7 +71,6 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tr>
 </tbody>
 </table>
-
 
 <!--table>
 <thead>
