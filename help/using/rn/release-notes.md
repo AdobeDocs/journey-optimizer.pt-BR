@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec3d49dbd8587c788b67a9172205a8688088837e
+source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 47%
+source-wordcount: '768'
+ht-degree: 44%
 
 ---
 
@@ -50,6 +50,24 @@ Essa versão traz os novos recursos detalhados abaixo.
 <p>No momento, a Decisão de experiência está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Para obter mais informações, consulte a <a href="../experience-decisioning/gs-experience-decisioning.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Personalização de superfície de email - Disponibilidade limitada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível definir subdomínios dinâmicos e parâmetros de cabeçalho personalizados ao criar superfícies de canal de email, para aumentar a flexibilidade e o controle sobre suas configurações de email.</p>
+<p>No momento, a personalização de superfície de email está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
+<p>Para obter mais informações, consulte a <a href="../email/surface-personalization.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -137,7 +155,7 @@ Da versão beta para esta, as seguintes melhorias foram adicionadas:
 
   >[!AVAILABILITY]
   >
-  >No momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o atendimento ao cliente da Adobe.
+  >No momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o representante da Adobe.
 
 <!--
 **Audiences**
