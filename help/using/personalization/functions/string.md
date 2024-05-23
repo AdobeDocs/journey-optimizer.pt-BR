@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1846'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
-# Funções de string {#string}
+# Funções de strings {#string}
 
-Saiba como usar funções de string no editor de expressão.
+Saiba como usar funções de string no editor de personalização.
 
 ## Camel Case {#camelCase}
 
@@ -150,7 +150,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## Não começa com{#doesNotStartWith}
+## Não inicia com{#doesNotStartWith}
 
 A variável `doesNotStartWith` é usada para determinar se uma sequência de caracteres não inicia com uma subsequência especificada.
 
@@ -309,7 +309,7 @@ A variável `getUrlHost` é usada para recuperar o nome de host de um URL.
 
 Retorna &quot;www.myurl.com&quot;
 
-## Obter caminho do URL {#get-url-path}
+## Obter caminho de URL {#get-url-path}
 
 A variável `getUrlPath` é usada para recuperar o caminho após o nome de domínio de um URL.
 
@@ -386,7 +386,7 @@ A função a seguir retornará &#39;true&#39; se o número de telefone celular d
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
 
-## Não Está Vazio {#is-not-empty}
+## Não está vazio {#is-not-empty}
 
 A variável `isNotEmpty` é usada para determinar se uma sequência de caracteres não está vazia.
 
@@ -496,7 +496,7 @@ Essa função converte o nome do perfil em letras minúsculas.
 {%= lowerCase(profile.person.name.firstName) %}
 ```
 
-## Corresponde {#matches}
+## Corresponde{#matches}
 
 A variável `matches` é usada para determinar se uma sequência de caracteres corresponde a uma expressão regular específica. Consulte [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obter mais informações sobre padrões correspondentes em expressões regulares.
 
@@ -514,7 +514,7 @@ A consulta a seguir determina, sem distinção entre maiúsculas e minúsculas, 
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
-## Máscara {#mask}
+## Mascarar {#mask}
 
 A variável `Mask` é usada para substituir uma parte de uma string por caracteres &quot;X&quot;.
 
@@ -552,7 +552,7 @@ A variável `md5` é usada para calcular e retornar o hash md5 de uma sequência
 
 Retorna &quot;5eb63bbbbe01eed093cb22bb8f5acdc3&quot;
 
-## Diferente de{#notEqualTo}
+## Não é igual a{#notEqualTo}
 
 A variável `notEqualTo` é usada para determinar se uma sequência de caracteres não é igual à sequência especificada.
 
@@ -575,7 +575,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## Diferente de Ignorar Maiúsculas e Minúsculas {#not-equal-with-ignore-case}
+## Não é igual a sem diferenciar maiúsculas e minúsculas {#not-equal-with-ignore-case}
 
 A variável `notEqualWithIgnoreCase` é usada para comparar duas sequências de caracteres, ignorando maiúsculas e minúsculas.
 
@@ -673,7 +673,7 @@ A variável `rightTrim` Esta função remove espaços em branco do final de uma 
 {%= rightTrim(string) %}
 ```
 
-## Divisão {#split}
+## Dividir {#split}
 
 A variável `split` é usada para dividir uma sequência de caracteres por um determinado caractere.
 
@@ -683,7 +683,7 @@ A variável `split` é usada para dividir uma sequência de caracteres por um de
 {%= split(string,string) %}
 ```
 
-## Começa com{#startsWith}
+## Inicia com{#startsWith}
 
 A variável `startsWith` é usada para determinar se uma sequência de caracteres inicia com uma subsequência especificada.
 
@@ -707,7 +707,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 {%= startsWith(person.name,"Joe") %}
 ```
 
-## Sequência de caracteres para data {#string-to-date}
+## String para data {#string-to-date}
 
 A variável `stringToDate` converte um valor de string em um valor de data e hora. Leva dois argumentos: representação de string de uma representação de data-hora e representação de string do formatador.
 
@@ -723,7 +723,7 @@ A variável `stringToDate` converte um valor de string em um valor de data e hor
 {= stringToDate("2023-01-10 23:13:26", "yyyy-MM-dd HH:mm:ss") %}
 ```
 
-## Sequência de caracteres para inteiro {#string-to-integer}
+## String para número inteiro {#string-to-integer}
 
 A variável `string_to_integer` é usada para converter um valor de sequência de caracteres em um valor inteiro.
 
@@ -733,7 +733,7 @@ A variável `string_to_integer` é usada para converter um valor de sequência d
 {= string_to_integer(string) %}: int
 ```
 
-## Sequência de caracteres para número {#string-to-number}
+## String para número {#string-to-number}
 
 A variável `stringToNumber` é usada para converter uma sequência de caracteres em número. Ele retorna a mesma string que a saída para entrada inválida.
 
@@ -800,7 +800,7 @@ A variável `toDateTimeOnly` é usada para converter um valor de argumento em um
 {%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## Aparar {#trim}
+## Cortar {#trim}
 
 A variável **aparar** Esta função remove todos os espaços em branco do início e do fim de uma sequência de caracteres.
 

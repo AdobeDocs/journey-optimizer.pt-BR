@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, validação, erros, personalização
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## Mecanismos de validação {#validation-mechanisms}
 
-No **Editor de expressão** , use o **Validar** botão para verificar a sintaxe de personalização.
+No **editor de personalização** , use o **Validar** botão para verificar a sintaxe de personalização.
 
 >[!NOTE]
 > A validação é executada automaticamente ao clicar no ícone **Adicionar** botão para fechar a janela do editor.
@@ -29,7 +29,7 @@ No **Editor de expressão** , use o **Validar** botão para verificar a sintaxe 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> Se a sintaxe de personalização não for válida, não será possível fechar a janela do editor de expressão.
+> Se a sintaxe de personalização não for válida, não será possível fechar a janela do editor de personalização.
 >
 
 ## Erros comuns {#common-errors}
@@ -80,7 +80,7 @@ Os erros relacionados à integração de ofertas em uma mensagem de email ou pus
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-A validação é executada durante a validação do conteúdo de personalização no editor de expressão.
+A validação é executada durante a validação do conteúdo de personalização no editor de personalização.
 
 <table> 
  <thead> 
@@ -96,7 +96,7 @@ Recurso com id activityID e tipo OfferActivity não encontrado<br/></td>
    <td>Verificar se ActivityID e/ou PlacementID estão disponíveis</td> 
   </tr> 
    <tr> 
-   <td>Não foi possível validar o recurso.</td> 
+   <td>O recurso não pôde ser validado.</td> 
    <td>O componentType no Posicionamento deve corresponder à oferta offerType</td> 
   </tr> 
    <tr> 

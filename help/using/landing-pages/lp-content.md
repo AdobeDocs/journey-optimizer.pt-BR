@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: landing page, landing page, criação, página, formulário, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 10%
+ht-degree: 1%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="Usar componentes de conteúdo"
->abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino. Para definir um conteúdo específico que permitirá aos usuários selecionar e enviar suas opções, use o componente de formulário."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=pt-BR#add-content-components" text="Adicionar componentes de conteúdo"
+>abstract="Os componentes de conteúdo são espaços reservados vazios para o conteúdo que podem ser usados para criar o layout de uma página de aterrissagem. Para definir um conteúdo específico que permita aos usuários selecionar e enviar suas opções, use o componente de Formulário."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Adicionar componentes de conteúdo"
 
 Para projetar o conteúdo da página de aterrissagem, é possível usar os mesmos componentes de um email. [Saiba mais](../email/content-components.md#add-content-components)
 
@@ -38,14 +38,14 @@ Com o designer de conteúdo da página de aterrissagem, você também pode aprov
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
->title="Definir os campos do componente de formulário"
->abstract="Defina como os recipients verão a página de destino e enviarão suas opções."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html?lang=pt-BR#lp-form-styles" text="Definir estilos de formulário de página de destino"
+>title="Definir os campos de componente de formulário"
+>abstract="Defina como seus recipients verão e enviarão suas escolhas a partir da página de aterrissagem."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Definir estilos de formulário de página de aterrissagem"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
 >title="O que acontece ao clicar no botão"
->abstract="Defina o que acontecerá depois que as pessoas enviarem o formulário da página de destino."
+>abstract="Defina o que acontecerá quando os usuários enviarem o formulário de landing page."
 
 Para definir um conteúdo específico que permita aos usuários selecionar e enviar suas opções a partir da página de aterrissagem, use o **[!UICONTROL Formulário]** componente. Para isso, siga as etapas abaixo.
 
@@ -134,7 +134,7 @@ Para definir um conteúdo específico que permita aos usuários selecionar e env
 
    ![](assets/lp_designer-form-save.png)
 
-## Definir estilos de formulário de página de destino {#lp-form-styles}
+## Definir estilos de formulário de página de aterrissagem {#lp-form-styles}
 
 1. Para modificar os estilos do conteúdo do componente de formulário, alterne a qualquer momento para o **[!UICONTROL Estilo]** guia.
 
@@ -172,7 +172,7 @@ Por exemplo, se você vincular uma caixa de seleção <!-- or the submission of 
 
 Digamos que você vincule duas caixas de seleção na página principal a duas listas de assinaturas diferentes. Se um usuário assinar uma dessas opções, você deseja exibir uma mensagem específica ao enviar o formulário, dependendo da caixa de seleção selecionada.
 
-Para isso, siga as etapas abaixo:
+Para fazer isso, siga as etapas abaixo:
 
 1. Na página principal, vincule cada caixa de seleção do **[!UICONTROL Formulário]** componente à lista de assinaturas relevante. [Saiba mais](#use-form-component).
 
@@ -188,7 +188,7 @@ Para isso, siga as etapas abaixo:
 
    ![](assets/lp_designer-form-add-subscription.png)
 
-1. Adicione as condições relevantes usando as funções auxiliares do Editor de expressão. [Saiba mais](../personalization/functions/functions.md)
+1. Adicione as condições relevantes usando as funções auxiliares do editor de personalização. [Saiba mais](../personalization/functions/functions.md)
 
    ![](assets/lp_designer-form-add-subscription-condition.png)
 
@@ -221,7 +221,7 @@ When [configuring the primary page](create-lp.md#configure-primary-page), you ca
 >
 >This data may not be visible to users who visit the page.
 
-If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md).
+If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md).
 
 ///When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
 

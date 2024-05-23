@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: ht
-source-wordcount: '1055'
-ht-degree: 100%
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
+source-wordcount: '1086'
+ht-degree: 88%
 
 ---
 
@@ -73,9 +73,9 @@ Com o recurso **experiência baseada em código**, é possível definir experiê
 
 Quando usar o canal baseado em código em vez de outros canais do [!DNL Journey Optimizer]?
 
-* Você pode considerar o uso de experiências baseadas em código a qualquer momento quando sua propriedade digital não for acessada por um navegador Web ou por um aplicativo móvel, casos em que provavelmente seria melhor usar o [canal da web](../web/get-started-web.md){target="_blank"} or the [!DNL Journey Optimizer] [in-app messaging](../in-app/get-started-in-app.md){target="_blank"} do [!DNL Journey Optimizer].
+* Considere usar experiências baseadas em código a qualquer momento quando sua propriedade digital não for acessada por um navegador da Web ou um aplicativo móvel - casos em que você provavelmente pode usar melhor o [!DNL Journey Optimizer] [canal da web](../web/get-started-web.md){target="_blank"} ou o [!DNL Journey Optimizer] [mensagens no aplicativo](../in-app/get-started-in-app.md){target="_blank"} canal.
 
-* Você pode usar o canal baseado em código como uma alternativa ao canal da web do [!DNL Journey Optimizer] se o site não puder ser carregado no [Designer da Web](../web/edit-web-content.md#work-with-web-designer){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} que permite a criação visual para o canal da web.
+* Você pode usar o canal baseado em código como uma alternativa para o [!DNL Journey Optimizer] canal da web se o site não puder ser carregado no [web designer](../web/edit-web-content.md#work-with-web-designer){target="_blank"} editor visual ou se não puder usar o [extensão do navegador](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} que capacita a criação visual para o canal da web.
 
 * Também é possível usar o canal baseado em código como uma alternativa aos canais da Web ou no aplicativo do [!DNL Journey Optimizer], caso tenha uma implementação baseada em API, headless ou do lado do servidor.
 
@@ -85,13 +85,13 @@ Para executar casos de uso da Web, é possível usar o canal da web ou a experi�
 
 **Web**
 * Editar o conteúdo usando o editor visual do [Designer da Web](../web/edit-web-content.md#work-with-web-designer){target="_blank"}.
-* Você precisa do [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"} implementation and the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}
+* Você precisa do [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR){target="_blank"} implementação e a [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extensão instalada no navegador da web. [Saiba mais](../web/web-prerequisites.md){target="_blank"}
 * O canal da Web permite modificar tudo na página e tem uma lista predefinida de ações que podem ser usadas para fazer alterações. [Saiba mais](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * É fácil de configurar e começar a usar.
 * É focado na persona do profissional de marketing.
 
 **Experiência baseada em código**
-* Editar o conteúdo usando o [Editor de expressão](create-code-based.md#edit-code).
+* Editar seu conteúdo usando o [editor de personalização](create-code-based.md#edit-code).
 * A experiência baseada em código requer trabalho de desenvolvimento anterior em sua implementação, para garantir que as superfícies possam interpretar e entregar o conteúdo publicado na borda pelo [!DNL Journey Optimizer] para estas superfícies. [Saiba mais](#surface-definition)
 * Ela requer mais planejamento e pode alterar apenas as coisas que os desenvolvedores especificam. Portanto, é essencial identificar os componentes (banner inicial, Hero image, barra de menu, etc.) nas superfícies que precisam ser modificadas para personalização ou teste e trabalhar com a equipe de desenvolvimento na construção da implementação necessária para lidar com essas alterações.
 * Ela permite usar o conteúdo de código JSON.
@@ -113,7 +113,7 @@ As principais etapas para implementar uma campanha baseada em código são as se
 
 1. Defina uma [superfície](#surface-definition), que é basicamente o local em que você deseja adicionar sua experiência baseada em código, e crie uma campanha no [!DNL Journey Optimizer] usando essa superfície. [Saiba como](create-code-based.md#create-code-based-campaign)
 
-1. Componha uma experiência especificando o conteúdo da superfície selecionada usando o Editor de expressão do [!DNL Journey Optimizer]. [Saiba como](create-code-based.md#edit-code)
+1. Componha uma experiência especificando o conteúdo da superfície selecionada usando o [!DNL Journey Optimizer] editor de personalização. [Saiba como](create-code-based.md#edit-code)
 
 1. A equipe de implementação do aplicativo faz chamadas explícitas de API ou SDK para buscar conteúdo para as superfícies nomeadas, como “Texto do banner” ou “Bandeja de recomendações 1”, ou pontos de decisão não relacionados à interface em um aplicativo, como “parâmetros de algoritmo de pesquisa”. Nesse caso, a equipe de implementação é responsável por renderizar ou interpretar e agir sobre o conteúdo retornado.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 

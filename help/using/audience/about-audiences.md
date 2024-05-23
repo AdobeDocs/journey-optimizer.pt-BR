@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 20%
+source-wordcount: '1855'
+ht-degree: 17%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
->title="Selecione o público-alvo da campanha"
->abstract="Esta lista exibe todos os públicos-alvo disponíveis na Adobe Experience Platform. Selecione o público-alvo a ser direcionado pela campanha. A mensagem configurada na campanha será enviada a todas as pessoas pertencentes ao público-alvo selecionado. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)"
+>title="Selecionar o público da campanha"
+>abstract="Esta lista exibe todos os públicos-alvo disponíveis da Adobe Experience Platform. Selecione o público a ser direcionado com sua campanha. A mensagem configurada na campanha será enviada a todos os indivíduos pertencentes ao público selecionado. [Saiba mais sobre públicos](../audience/about-audiences.md)"
 
 Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou características semelhantes. Saiba mais sobre públicos-alvo na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
 
@@ -86,7 +86,7 @@ Depois que os atributos de enriquecimento forem adicionados a um Grupo de campos
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
-* **Personalizar suas mensagens** em jornadas ou campanhas adicionando atributos de enriquecimento do público-alvo direcionado no editor de expressão. [Saiba como trabalhar com o editor de expressão](../personalization/personalization-build-expressions.md)
+* **Personalizar suas mensagens** em jornadas ou campanhas adicionando atributos de enriquecimento do público-alvo no editor de personalização. [Saiba como trabalhar com o editor de personalização](../personalization/personalization-build-expressions.md)
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
@@ -120,7 +120,7 @@ A segmentação em lote é uma alternativa à segmentação por transmissão que
 
 +++ Segmentação de borda
 
-A segmentação de borda é a capacidade de avaliar segmentos no Adobe Experience Platform instantaneamente [na borda](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"}, enabling same-page and next-page personalization use cases. Currently only select query types can be evaluated with edge segmentation. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+A segmentação de borda é a capacidade de avaliar segmentos no Adobe Experience Platform instantaneamente [na borda](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}, permitindo casos de uso de personalização de mesma página e próxima página. Atualmente, somente os tipos de consulta selecionados podem ser avaliados com a segmentação de borda. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
@@ -175,7 +175,7 @@ Os públicos-alvo da composição de público-alvo e do upload personalizado pod
   >
   >Para públicos-alvo de upload personalizados, se a &quot;Leitura incremental&quot; estiver ativada em uma jornada recorrente, os perfis serão recuperados somente na primeira recorrência, pois esses públicos-alvo são corrigidos.
 
-Além disso, esses públicos-alvo estão disponíveis para uso no Editor de expressão para personalizar suas mensagens em jornadas e campanhas. [Saiba como trabalhar com o editor de expressão](../personalization/personalization-build-expressions.md)
+Além disso, esses públicos-alvo estão disponíveis para uso no editor de personalização para personalizar suas mensagens em jornadas e campanhas. [Saiba como trabalhar com o editor de personalização](../personalization/personalization-build-expressions.md)
 
 +++
 

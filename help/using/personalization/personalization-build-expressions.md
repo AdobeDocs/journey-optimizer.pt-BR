@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Sobre o editor de expressão
-description: Saiba como trabalhar com o editor de expressão.
+title: Sobre o editor de personalização
+description: Saiba como trabalhar com o editor de personalização.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, sobre, iniciar
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 10%
+ht-degree: 2%
 
 ---
 
-# Introdução ao editor de expressão {#build-personalization-expressions}
+# Introdução ao editor de personalização {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="Sobre o editor de expressão"
->abstract="O editor de expressão permite selecionar, organizar, personalizar e validar todos os dados para criar uma personalização para o seu conteúdo."
+>title="Sobre o editor de personalização"
+>abstract="O editor de personalização permite selecionar, organizar, personalizar e validar todos os dados para criar uma personalização personalizada para seu conteúdo."
 
-O editor de expressão é a peça central da personalização no [!DNL Journey Optimizer]. Ele está disponível em todos os contextos em que você precisa definir a personalização, como emails, push e ofertas.
+O editor de personalização é a peça central da personalização no [!DNL Journey Optimizer]. Ele está disponível em todos os contextos em que você precisa definir a personalização, como emails, push e ofertas.
 
-Na interface do editor de expressões, você selecionará, organizará, personalizará e validará todos os dados para criar uma personalização personalizada para seu conteúdo.
+Na interface do editor de personalização, você selecionará, organizará, personalizará e validará todos os dados para criar uma personalização personalizada para seu conteúdo.
 
 ![](assets/perso_ee1.png)
 
@@ -53,8 +53,8 @@ Além disso, você pode definir um texto de fallback padrão que será exibido s
 
 ![](assets/attribute-details.png)
 
-No exemplo a seguir, o editor de expressão permite selecionar os perfis que fazem aniversário hoje e, em seguida, concluir a personalização inserindo uma oferta específica correspondente a este dia.
+No exemplo a seguir, o editor de personalização permite selecionar os perfis que fazem aniversário hoje e, em seguida, concluir a personalização inserindo uma oferta específica correspondente a este dia.
 
 ![](assets/perso_ee2.png)
 
-Quando a expressão de personalização estiver pronta, será necessário validá-la pelo Editor de expressão. Saiba mais [nesta seção](personalization-validation.md).
+Quando a expressão de personalização estiver pronta, será necessário validá-la pelo editor de personalização. Saiba mais [nesta seção](personalization-validation.md).

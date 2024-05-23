@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: expressão, editor, início, personalização
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 33%
+source-wordcount: '387'
+ht-degree: 21%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
 >title="Personalizar experiências"
->abstract="Use o **Adobe Journey Optimizer** para adaptar as mensagens a cada destinatário, aproveitando seus dados e informações. Esses dados podem ser: nome, interesses, onde vivem, o que compraram etc."
+>abstract="Uso **Adobe Journey Optimizer** para adaptar suas mensagens a cada recipient específico, aproveitando os dados e as informações que você tem sobre eles. Pode ser seu nome, interesses, onde vivem, o que compraram e muito mais."
 
-Descobrir [!DNL Adobe Journey Optimizer] recursos de personalização para adaptar suas mensagens a cada recipient específico, aproveitando os dados e as informações que você tem sobre eles. Esses dados podem ser: nome, interesses, onde vivem, o que compraram etc.
+Descobrir [!DNL Adobe Journey Optimizer] recursos de personalização para adaptar suas mensagens a cada recipient específico, aproveitando os dados e as informações que você tem sobre eles. Pode ser seu nome, interesses, onde vivem, o que compraram e muito mais.
 
 ➡️ [Saiba como personalizar uma mensagem nesses vídeos](#video-perso)
 ➡️ [Descubra casos de uso que usam a personalização](personalization-use-case.md)
 
 ## Criar expressões de personalização usando uma sintaxe dedicada {#syntax}
 
-[!DNL Journey Optimizer] usa um **em linha** sintaxe de personalização simples baseada em Handlebars que permite criar expressões com conteúdo delimitado por chaves duplas **{{}}**. É possível adicionar várias expressões no mesmo conteúdo ou campo sem restrições. Saiba mais em [Sintaxe de personalização](personalization-syntax.md).
+[!DNL Journey Optimizer] usa um **em linha** sintaxe de personalização simples baseada em Handlebars que permite criar expressões com conteúdo delimitado por chaves duplas **{{}}**. É possível adicionar várias expressões no mesmo conteúdo ou campo sem restrições. [Saiba mais sobre a sintaxe de personalização](personalization-syntax.md).
 
 **Exemplos:**
 
@@ -48,17 +48,12 @@ A personalização é baseada nos dados de perfil gerenciados pelo esquema do **
 
 Além disso, você também pode aproveitar **atributos computados** para personalizar o conteúdo. Os atributos computados são baseados em conjuntos de dados de Evento de experiência habilitados para perfil assimilados na Adobe Experience Platform e servem como pontos de dados agregados armazenados em perfis de clientes que resumem eventos comportamentais individuais [Saiba como trabalhar com atributos computados](../audience/computed-attributes.md)
 
-## Adicionar personalização em contextos diferentes {#contexts}
+## Trabalhar com o editor de personalização {#editor}
 
-[!DNL Journey Optimizer] O permite personalizar o conteúdo e a exibição de mensagens de várias maneiras diferentes. Saiba mais sobre os contextos em que você pode realizar a personalização no [nesta seção](personalization-contexts.md).
+[!DNL Journey Optimizer] O fornece um editor de personalização no qual você selecionará, organizará, personalizará e validará todos os dados para criar uma personalização personalizada para o seu conteúdo. Várias ferramentas estão disponíveis para ajudar a criar o conteúdo de personalização, como: funções auxiliares, biblioteca de expressões predefinidas, atributos que favorecem e muito mais.
 
-## Trabalhar com o editor de expressão {#editor}
-
-[!DNL Journey Optimizer] O fornece um editor de expressão, no qual você selecionará, organizará, personalizará e validará todos os dados para criar uma personalização personalizada para o seu conteúdo.
-
-Várias ferramentas estão disponíveis para ajudar a criar o conteúdo de personalização, como: funções auxiliares, biblioteca de expressões predefinidas, atributos que favorecem e muito mais.
-
-Saiba mais sobre [!DNL Journey Optimizer] editor de expressão em [nesta seção](personalization-build-expressions.md)
+* [Saiba como trabalhar com o editor de personalização](personalization-build-expressions.md)
+* [Saiba onde você pode realizar a personalização](personalization-contexts.md).
 
 ## Vídeos tutoriais{#video-perso}
 

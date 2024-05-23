@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '2415'
-ht-degree: 11%
+ht-degree: 1%
 
 ---
 
@@ -43,7 +43,7 @@ A configuração da superfície de email é selecionada para envio de comunicaç
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definir o tipo de email"
->abstract="Selecione o tipo de email que será enviado ao usar essa superfície: Marketing para emails promocionais, que exigem consentimento do usuário, ou Transacional para emails não comerciais, que também podem ser enviados para perfis sem assinatura em contextos específicos."
+>abstract="Selecione o tipo de emails que será enviado ao usar esta superfície: Marketing para emails promocionais, que exigem consentimento do usuário, ou Transacional para emails não comerciais, que também podem ser enviados a perfis com assinatura cancelada em contextos específicos."
 
 No **Tipo de email** selecione o tipo de mensagem para a superfície: **[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**.
 
@@ -201,7 +201,7 @@ Se você receber um erro ao enviar a superfície de email, significa que o regis
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
 >title="Substituir precedência da lista de supressão"
->abstract="Você pode decidir enviar mensagens transacionais a perfis mesmo que seus endereços de email estejam na lista de supressão do Adobe Journey Optimizer devido a uma reclamação de spam. Essa opção está desabilitada por padrão."
+>abstract="Você pode decidir enviar mensagens transacionais a perfis mesmo se os seus endereços de email estiverem na lista de supressão do Adobe Journey Optimizer devido a uma reclamação de spam. Essa opção está desabilitada por padrão."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=pt-BR" text="Gerenciar a lista de supressão"
 
 >[!IMPORTANT]
@@ -226,13 +226,13 @@ Como prática recomendada de delivery, essa opção é desabilitada por padrão 
 
 Quando essa opção estiver habilitada, embora um cliente tenha marcado seu email de marketing como spam, ele poderá receber suas mensagens transacionais usando a superfície atual. Sempre gerencie as preferências de recusa de acordo com as práticas recomendadas de capacidade de delivery.
 
-## Lista de sementes {#seed-list}
+## Seed list {#seed-list}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
->title="Adicionar uma lista de sementes"
->abstract="Selecione uma lista de sementes de sua escolha para adicionar automaticamente endereços internos específicos aos seus públicos-alvo. Esses seed addresses serão incluídos na hora da execução da tarefa e receberão uma cópia exata da mensagem para fins de garantia."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=pt-BR#use-seed-list" text="O que são listas de sementes?"
+>title="Adicionar uma lista de propagação"
+>abstract="Selecione a seed list de sua escolha para adicionar automaticamente endereços internos específicos aos seus públicos. Esses seed addresses serão incluídos no tempo de execução do delivery e receberão uma cópia exata da mensagem para fins de garantia."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="O que são seed lists?"
 
 Uma lista de propagação em [!DNL Journey Optimizer] permite incluir automaticamente seed addresses de email específicos em seus deliveries. [Saiba mais](../configuration/seed-lists.md)
 
@@ -252,13 +252,13 @@ Quando a superfície atual é usada em uma campanha ou jornada, os endereços de
 
 Saiba como usar a lista de propagação em uma campanha ou jornada no [nesta seção](../configuration/seed-lists.md#use-seed-list).
 
-## Parâmetros de nova tentativa do email {#email-retry}
+## Parâmetros de nova tentativa de email {#email-retry}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="Ajustar o período de nova tentativa"
->abstract="As tentativas são executadas por 3,5 dias (84 horas) quando uma entrega de email falha devido a um erro de rejeição temporária. Você pode ajustar esse período de tentativas padrão para atender melhor às suas necessidades."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=pt-BR" text="Sobre tentativas"
+>abstract="As tentativas são executadas por 3,5 dias (84 horas) quando um delivery de email falha devido a um erro temporário de rejeição temporária. Você pode ajustar esse período de tempo padrão de novas tentativas para atender melhor às suas necessidades."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="Sobre novas tentativas"
 
 Você pode configurar o **Parâmetros de nova tentativa de email**.
 
@@ -279,14 +279,14 @@ Saiba mais sobre tentativas no [nesta seção](../configuration/retries.md).
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
 >title="Definir parâmetros de rastreamento de URL"
->abstract="Use essa seção para anexar automaticamente parâmetros de rastreamento aos URLs presentes no seu conteúdo de email. Esse recurso é opcional."
+>abstract="Use esta seção para anexar automaticamente parâmetros de rastreamento aos URLs presentes no seu conteúdo de email. Este recurso é opcional."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="Visualizar parâmetros de rastreamento do URL"
+>title="Visualizar parâmetros de rastreamento de URL"
 >abstract="Analise como os parâmetros de rastreamento serão anexados aos URLs presentes no seu conteúdo de email."
 
-Você pode usar **[!UICONTROL Parâmetros de rastreamento de URL]** para medir a eficiência de seus esforços de marketing em canais. Esse recurso é opcional.
+Você pode usar **[!UICONTROL Parâmetros de rastreamento de URL]** para medir a eficiência de seus esforços de marketing em canais. Este recurso é opcional.
 
 Os parâmetros definidos nesta seção serão anexados ao final dos URLs incluídos no conteúdo da sua mensagem de email. É possível capturar esses parâmetros em ferramentas de análise da Web, como Adobe Analytics ou Google Analytics, e criar vários relatórios de desempenho.
 
@@ -296,11 +296,11 @@ Você pode adicionar até 10 parâmetros de rastreamento usando o **[!UICONTROL 
 
 Para configurar um parâmetro de rastreamento de URL, você pode inserir os valores desejados diretamente na **[!UICONTROL Nome]** e **[!UICONTROL Valor]** campos.
 
-Também é possível editar cada **[!UICONTROL Valor]** campo usando o [Editor de expressão](../personalization/personalization-build-expressions.md). Clique no ícone de edição para abrir o editor. Ali, é possível selecionar os atributos contextuais disponíveis e/ou editar diretamente o texto.
+Também é possível editar cada **[!UICONTROL Valor]** campo usando o [editor de personalização](../personalization/personalization-build-expressions.md). Clique no ícone de edição para abrir o editor. Ali, é possível selecionar os atributos contextuais disponíveis e/ou editar diretamente o texto.
 
 ![](assets/preset-url-tracking-editor.png)
 
-Os seguintes valores predefinidos estão disponíveis por meio do Editor de expressão:
+Os seguintes valores predefinidos estão disponíveis por meio do editor de personalização:
 
 * **Id da ação de origem**: ID da ação Email adicionada à jornada ou campanha.
 
@@ -316,7 +316,7 @@ Os seguintes valores predefinidos estão disponíveis por meio do Editor de expr
 
 >[!NOTE]
 >
->É possível combinar a digitação de valores de texto e o uso de atributos contextuais do Editor de expressão. Each **[!UICONTROL Valor]** O campo pode conter um número de caracteres até o limite de 5 KB.
+>Você pode combinar a digitação de valores de texto e o uso de atributos contextuais do editor de personalização. Each **[!UICONTROL Valor]** O campo pode conter um número de caracteres até o limite de 5 KB.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

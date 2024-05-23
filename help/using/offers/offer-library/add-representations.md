@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 8%
+source-wordcount: '763'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="Representações"
->abstract="Adicione representações para definir onde a oferta será exibida na mensagem. Quanto mais representações uma oferta tiver, mais oportunidades haverá para usar a oferta em diferentes contextos de posicionamento."
+>abstract="Adicione representações para definir onde sua oferta será exibida na mensagem. Quanto mais representações uma oferta tiver, mais oportunidades existem para usá-la em diferentes contextos de posicionamento."
 
-Uma oferta pode ser exibida em diferentes locais em uma mensagem: em um banner superior com uma imagem, como texto em um parágrafo, como um bloco HTML etc. Quanto mais representações uma oferta tiver, mais oportunidades haverá para usar a oferta em diferentes contextos de posicionamento.
+Uma oferta pode ser exibida em diferentes locais em uma mensagem: em um banner superior com uma imagem, como texto em um parágrafo, como um bloco HTML etc. Quanto mais representações uma oferta tiver, mais oportunidades existem para usá-la em diferentes contextos de posicionamento.
 
 ## Configurar as representações da oferta {#representations}
 
@@ -72,7 +72,7 @@ Se a disposição selecionada for do tipo imagem, é possível adicionar conteú
 
 >[!NOTE]
 >
-> Para trabalhar com [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
+> Para trabalhar com [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, é necessário implantar [!DNL Assets Essentials] para sua organização e verifique se os usuários fazem parte da **Usuários consumidores do Assets Essentials** ou/e **Usuários do Assets Essentials** Perfis de produto. Saiba mais sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. Escolha o **[!UICONTROL Biblioteca de ativos]** opção.
 
@@ -100,13 +100,13 @@ Para reutilizar o conteúdo em uma representação, navegue pelo **Biblioteca de
 
 Para adicionar conteúdo de um local público externo, selecione **[!UICONTROL URL]**, em seguida, digite o endereço do URL do conteúdo a ser adicionado.
 
-Você pode personalizar URLs usando o editor de expressão. Saiba mais sobre [personalização](../../personalization/personalize.md#use-expression-editor).
+Você pode personalizar URLs usando o editor de personalização. Saiba mais sobre [personalização](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
 Por exemplo, você deseja personalizar a imagem mostrada como uma oferta. Você quer que os usuários que favorecem as férias da cidade vejam o horizonte de Nova York e os usuários que favorecem as férias da praia para ver o Havaí costa norte.
 
-Use o Editor de expressão para recuperar atributos de perfil armazenados no Adobe Experience Platform usando esquemas de união. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+Use o editor de personalização para recuperar atributos de Perfil armazenados no Adobe Experience Platform usando esquemas de união. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -128,7 +128,7 @@ Você também pode inserir conteúdo do tipo texto ao selecionar um posicionamen
 
    ![](../assets/offer-text-content.png)
 
-   Você pode personalizar o conteúdo usando o Editor de expressão. Saiba mais sobre [personalização](../../personalization/personalize.md#use-expression-editor).
+   Você pode personalizar o conteúdo usando o editor de personalização. Saiba mais sobre [personalização](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="Disponibilidade limitada"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -58,7 +58,7 @@ Defina dois tratamentos de delivery, cada um contendo uma política de decisão 
 
    ![](assets/decision-code-based-add-decision.png)
 
-1. Você também pode adicionar qualquer outro atributo disponível no editor de expressão, como atributos de perfil.
+1. Você também pode adicionar qualquer outro atributo disponível no editor de personalização, como atributos de perfil.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 

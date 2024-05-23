@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 15%
+ht-degree: 2%
 
 ---
 
@@ -27,23 +27,23 @@ Para obter mais flexibilidade e controle sobre as configurações de email, [!DN
 >
 >No momento, esse recurso está disponível como um beta apenas para usuários selecionados. <!--To join the beta program, contact Adobe Customer Care.-->
 
-## Adicionar subdomínios dinâmicos  {#dynamic-subdomains}
+## Adicionar subdomínios dinâmicos {#dynamic-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
->title="Personalização indisponível"
->abstract="Esta superfície foi criada sem nenhum atributo de personalização. Consulte a documentação para saber quais são as etapas a serem seguidas, se a personalização for necessária."
+>title="Personalização não disponível"
+>abstract="Essa superfície foi criada sem atributos de personalização. Consulte a documentação para conhecer as etapas a serem seguidas se a personalização for necessária."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
->title="Habilitar subdomínios dinâmicos"
->abstract="Ao criar uma superfície de email, você pode configurar subdomínios dinâmicos com base nas condições definidas por meio do editor de expressão. Você pode adicionar até 50 subdomínios dinâmicos."
+>title="Ativar subdomínios dinâmicos"
+>abstract="Ao criar uma superfície de email, você pode configurar subdomínios dinâmicos com base nas condições definidas usando o editor de personalização. Você pode adicionar até 50 subdomínios dinâmicos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
 >title="Alguns subdomínios podem estar indisponíveis"
->abstract="Certos subdomínios não estão disponíveis para seleção no momento devido ao registro do loop de feedback pendente. Esse processo pode demorar até 10 dias úteis. Após a conclusão, você pode escolher entre todos os subdomínios disponíveis."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introdução à delegação de subdomínio"
+>abstract="Determinados subdomínios não estão disponíveis para seleção no momento devido ao registro pendente do loop de comentários. Esse processo pode levar até 10 dias úteis. Após a conclusão, você pode escolher entre todos os subdomínios disponíveis."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introdução à delegação de subdomínio"
 
 Ao criar uma superfície de email, você pode configurar subdomínios dinâmicos com base em condições específicas.
 
@@ -65,7 +65,7 @@ Para definir subdomínios dinâmicos em uma superfície de canal de email, siga 
 
 1. Selecione o ícone Editar ao lado do primeiro **[!UICONTROL Condição]** campo.
 
-1. A variável [Editor de expressão](../personalization/personalization-build-expressions.md) é aberto. Neste exemplo, defina uma condição como `Country` igual a `US`.
+1. A variável [editor de personalização](../personalization/personalization-build-expressions.md) é aberto. Neste exemplo, defina uma condição como `Country` igual a `US`.
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -73,7 +73,7 @@ Para definir subdomínios dinâmicos em uma superfície de canal de email, siga 
 
    >[!NOTE]
    >
-   >Determinados subdomínios não estão disponíveis para seleção no momento devido a [loop de comentários](../reports/deliverability.md#feedback-loops) registro. Esse processo pode demorar até 10 dias úteis. Após a conclusão, você pode escolher entre todos os subdomínios disponíveis. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >Determinados subdomínios não estão disponíveis para seleção no momento devido a [loop de comentários](../reports/deliverability.md#feedback-loops) registro. Esse processo pode levar até 10 dias úteis. Após a conclusão, você pode escolher entre todos os subdomínios disponíveis. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
@@ -118,7 +118,7 @@ Para usar variáveis personalizadas para seus parâmetros de cabeçalho de super
 
    ![](assets/surface-email-personalize-header.png)
 
-1. A variável [Editor de expressão](../personalization/personalization-build-expressions.md) é aberto. Defina sua condição como desejado e salve as alterações.
+1. A variável [editor de personalização](../personalization/personalization-build-expressions.md) é aberto. Defina sua condição como desejado e salve as alterações.
 
    Por exemplo, defina uma condição para que cada recipient receba um email do representante de sua própria marca.
 
@@ -137,7 +137,7 @@ Para usar variáveis personalizadas para seus parâmetros de cabeçalho de super
 
 To use personalized URL tracking prameters, follow the steps below.
 
-1. Select the profile attribute of your choice from the expression editor.
+1. Select the profile attribute of your choice from the personalization editor.
 
 1. Repeat the steps above for each tracking parameter you want to personalize.
 

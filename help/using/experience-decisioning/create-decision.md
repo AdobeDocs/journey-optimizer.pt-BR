@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="Disponibilidade limitada"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 18%
+ht-degree: 2%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="O que é uma decisão?"
->abstract="As políticas de decisão contêm toda a lógica de seleção, para que o mecanismo de decisão escolha o melhor conteúdo. As políticas de decisão são específicas de cada campanha. Sua finalidade é selecionar as melhores ofertas para cada perfil, enquanto a criação da campanha permite indicar como os itens de decisão selecionados devem ser apresentados, incluindo quais atributos dos itens devem ser incluídos na mensagem."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Sobre a Escolha de experiências"
+>abstract="As políticas de decisão contêm toda a lógica de seleção para que o mecanismo de decisão escolha o melhor conteúdo. As políticas de decisão são específicas de campanha. O objetivo é selecionar as melhores ofertas para cada perfil, enquanto a criação da campanha permite indicar como os itens de decisão selecionados devem ser apresentados, incluindo quais atributos de item devem ser incluídos na mensagem."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Sobre o Experience Decisioning"
 
 As políticas de decisão são containers para suas ofertas que aproveitam o mecanismo do Experience Decisioning para escolher o melhor conteúdo a ser entregue, dependendo do público.
 
-As políticas de decisão contêm toda a lógica de seleção, para que o mecanismo de decisão escolha o melhor conteúdo. As políticas de decisão são específicas de cada campanha. Sua finalidade é selecionar as melhores ofertas para cada perfil, enquanto a criação da campanha permite indicar como os itens de decisão selecionados devem ser apresentados, incluindo quais atributos dos itens devem ser incluídos na mensagem.
+As políticas de decisão contêm toda a lógica de seleção para que o mecanismo de decisão escolha o melhor conteúdo. As políticas de decisão são específicas de campanha. O objetivo é selecionar as melhores ofertas para cada perfil, enquanto a criação da campanha permite indicar como os itens de decisão selecionados devem ser apresentados, incluindo quais atributos de item devem ser incluídos na mensagem.
 
 >[!NOTE]
 >
@@ -34,19 +34,19 @@ As políticas de decisão contêm toda a lógica de seleção, para que o mecani
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
->title="Defina o número de itens a serem retornados"
->abstract="Selecione o número de itens de decisão que deseja que sejam retornados. Por exemplo, se você selecionar 2, as 2 melhores ofertas elegíveis serão apresentadas para a superfície atual."
+>title="Definir o número de itens a serem retornados"
+>abstract="Selecione o número de itens de decisão que você deseja retornar. Por exemplo, se você selecionar 2, as 2 melhores ofertas qualificadas serão apresentadas para a superfície atual."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
->title="Selecione uma alternativa"
->abstract="Um item alternativo é exibido ao usuário(a) quando nenhuma das estratégias de seleção definidas para essa política de decisão está qualificada."
+>title="Selecionar um fallback"
+>abstract="Um item de fallback é exibido ao usuário quando nenhuma das estratégias de seleção definidas para essa política de decisão é qualificada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_strategy"
 >title="O que é uma estratégia?"
 >abstract="A sequência da estratégia de seleção determina qual estratégia será avaliada primeiro. Pelo menos uma estratégia é necessária. Os itens de decisão em estratégias combinadas serão avaliados em conjunto."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Criação de estratégias"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Criar estratégias"
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Ordem de avaliação"
 
 Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu site ou aplicativo móvel, adicione uma política de decisão a uma campanha baseada em código. Para isso, siga as etapas abaixo.
@@ -159,11 +159,11 @@ As ofertas classificadas agora são as seguintes: Oferta 5 , Oferta 3, Oferta 4,
 
 ## Usar a política de decisão no editor de código {#use-decision-policy}
 
-Depois de criada, a política de decisão pode ser usada na variável [Editor de expressão](../code-based/create-code-based.md#edit-code). Para isso, siga as etapas abaixo.
+Depois de criada, a política de decisão pode ser usada na variável [editor de personalização](../code-based/create-code-based.md#edit-code). Para isso, siga as etapas abaixo.
 
 >[!NOTE]
 >
->A experiência baseada em código aproveita o [!DNL Journey Optimizer] Editor de expressão com todos os seus recursos de personalização e criação. [Saiba mais](../personalization/personalization-build-expressions.md)
+>A experiência baseada em código aproveita o [!DNL Journey Optimizer] editor de personalização com todos os seus recursos de personalização e criação. [Saiba mais](../personalization/personalization-build-expressions.md)
 
 1. Clique em **[!UICONTROL Inserir política]** botão. O código correspondente à política de decisão é adicionado.
 
@@ -186,11 +186,11 @@ Depois de criada, a política de decisão pode ser usada na variável [Editor de
 
    ![](assets/decision-code-based-add-decision-attributes.png)
 
-1. Você também pode adicionar qualquer outro atributo disponível no editor de expressão, como atributos de perfil.
+1. Você também pode adicionar qualquer outro atributo disponível no editor de personalização, como atributos de perfil.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## Relatório no Customer Journey Analytics {#cja}
+## Relatórios no Customer Journey Analytics {#cja}
 
 Se estiver trabalhando com o Customer Journey Analytics, você pode criar painéis de relatórios personalizados para suas campanhas baseadas em código aproveitando o Experience Decisioning.
 

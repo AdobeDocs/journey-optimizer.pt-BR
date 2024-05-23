@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrissagem, página de aterrissagem, criação, publicação
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 7122dff12aea6c5954087e2667b28bbc9f7695de
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 2%
@@ -158,7 +158,7 @@ Para definir as configurações de página principal, siga as etapas abaixo.
 
    ![](assets/lp_expiry-date.png)
 
-1. No **[!UICONTROL Dados adicionais]** defina uma ou mais chaves e seus valores de parâmetro correspondentes. Você poderá aproveitar essas chaves no conteúdo da página principal e das subpáginas usando o [Editor de expressão](../personalization/personalization-build-expressions.md). Saiba mais [nesta seção](lp-content.md#use-form-component#use-additional-data).
+1. No **[!UICONTROL Dados adicionais]** defina uma ou mais chaves e seus valores de parâmetro correspondentes. Você poderá aproveitar essas chaves no conteúdo da página principal e das subpáginas usando o [editor de personalização](../personalization/personalization-build-expressions.md). Saiba mais [nesta seção](lp-content.md#use-form-component#use-additional-data).
 
    ![](assets/lp_create-lp-additional-data.png)
 

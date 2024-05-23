@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, sintaxe, personalização
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -164,7 +164,7 @@ O Journey Optimizer permite personalizar um ou vários URLs em sua mensagem adic
 
 >[!NOTE]
 >
->No editor de expressão, ao editar um URL personalizado, as funções auxiliares e a associação de públicos-alvo são desabilitadas por motivos de segurança.
+>No editor de personalização, ao editar um URL personalizado, as funções auxiliares e a associação de públicos-alvo são desativadas por motivos de segurança.
 >
 
 **Amostras de URLs personalizados**

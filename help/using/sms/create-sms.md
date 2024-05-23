@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '940'
-ht-degree: 10%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Criação de uma mensagem de texto"
->abstract="Para criar uma mensagem de texto (SMS/MMS), adicione uma ação de SMS em uma jornada ou campanha e comece a personalizá-la com o editor de expressão."
+>abstract="Para criar uma mensagem de texto (SMS/MMS), adicione uma ação de SMS em uma jornada ou campanha e comece a personalizá-la com o editor de personalização."
 
 Você pode criar e enviar mensagens de texto (SMS) e multimídia (MMS) com o Adobe Journey Optimizer. Primeiro, é necessário adicionar uma ação SMS em uma jornada ou campanha e, em seguida, definir o conteúdo da mensagem de texto, conforme detalhado abaixo. O Adobe Journey Optimizer também oferece recursos para testar suas mensagens de texto antes de enviá-las, para que você possa verificar a renderização, os atributos de personalização e todas as outras configurações.
 
@@ -79,29 +79,29 @@ Agora é possível começar a projetar o conteúdo da sua mensagem SMS usando o 
 
    * Uma vez
    * Diariamente
-   * Semanalmente
+   * Semanal
    * Mês
 
 Agora é possível começar a projetar o conteúdo da sua mensagem de texto a partir do **[!UICONTROL Editar conteúdo]** conforme detalhado abaixo.
 
 >[!ENDTABS]
 
-## Definição do conteúdo do SMS{#sms-content}
+## Definir o conteúdo do SMS{#sms-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
->title="Definição do conteúdo do SMS"
->abstract="Personalize as mensagens de texto (SMS/MMS) usando o Editor de expressão para definir o conteúdo e incorporar elementos dinâmicos."
+>title="Definir o conteúdo do SMS"
+>abstract="Personalize suas mensagens de texto (SMS/MMS) usando o editor de personalização para definir o conteúdo e incorporar elementos dinâmicos."
 
 Para configurar o conteúdo de SMS, siga as etapas abaixo. As configurações para MMS estão detalhadas em [nesta seção](#mms-content).
 
 1. Na tela de configuração do jornada ou da campanha, clique no link **[!UICONTROL Editar conteúdo]** botão para configurar o conteúdo da mensagem de texto.
 
-1. Clique em **[!UICONTROL Mensagem]** para abrir o editor de expressão.
+1. Clique em **[!UICONTROL Mensagem]** para abrir o editor de personalização.
 
    ![](assets/sms-content.png)
 
-1. Use o Editor de expressão para definir o conteúdo, adicionar personalização e conteúdo dinâmico. Você pode usar qualquer atributo, como o nome do perfil ou a cidade, por exemplo. Você também pode definir regras condicionais. Navegue até as seguintes páginas para saber mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md) no Editor de expressão.
+1. Use o editor de personalização para definir o conteúdo, adicionar personalização e conteúdo dinâmico. Você pode usar qualquer atributo, como o nome do perfil ou a cidade, por exemplo. Você também pode definir regras condicionais. Navegue até as seguintes páginas para saber mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md) no editor de personalização.
 
 1. Depois de definir o conteúdo, você pode adicionar URLs rastreados à mensagem. Para fazer isso, acesse o **[!UICONTROL Funções auxiliares]** e selecione **[!UICONTROL Auxiliares]**.
 
@@ -109,7 +109,7 @@ Para configurar o conteúdo de SMS, siga as etapas abaixo. As configurações pa
 
    >[!CAUTION]
    >
-   > Para acessar e editar subdomínios SMS, você deve ter a **[!UICONTROL Gerenciar subdomínios de SMS]** permissão na sandbox de produção. Saiba mais sobre permissões [nesta seção](../administration/high-low-permissions.md).
+   > Para acessar e editar subdomínios SMS, você deve ter a **[!UICONTROL Gerenciar subdomínios de SMS]** permissão na sandbox de produção. Saiba mais sobre permissões no [nesta seção](../administration/high-low-permissions.md).
 
    ![](assets/sms_tracking_1.png)
 
@@ -155,7 +155,7 @@ Use o **[!UICONTROL Simular conteúdo]** botão para visualizar o conteúdo da m
 
 Depois de executar os testes e validar o conteúdo, você pode enviar a mensagem de texto para o público-alvo. Essas etapas estão detalhadas em [esta página](send-sms.md)
 
-Depois de enviado, você pode medir o impacto do SMS nos relatórios do Campaign ou do Jornada. Para obter mais informações sobre relatórios, consulte [esta seção](../reports/campaign-global-report.md#sms-tab).
+Depois de enviado, você pode medir o impacto do SMS nos relatórios do Campaign ou do Jornada. Para obter mais informações sobre relatórios, consulte [nesta seção](../reports/campaign-global-report.md#sms-tab).
 
 **Tópicos relacionados**
 

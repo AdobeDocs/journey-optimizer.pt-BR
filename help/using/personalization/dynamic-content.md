@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, dinâmico, conteúdo
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 10%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 
 O Adobe Journey Optimizer permite aproveitar as regras condicionais criadas na biblioteca para adicionar conteúdo dinâmico às suas mensagens.
 
-O conteúdo dinâmico pode ser criado em qualquer campo onde você pode adicionar personalização usando o Editor de expressão. Isso inclui linha de assunto, links, conteúdo de notificações por push ou representações de ofertas do tipo texto. [Saiba mais sobre contextos de personalização](personalization-contexts.md)
+O conteúdo dinâmico pode ser criado em qualquer campo em que você pode adicionar personalização usando o editor de personalização. Isso inclui linha de assunto, links, conteúdo de notificações por push ou representações de ofertas do tipo texto. [Saiba mais sobre contextos de personalização](personalization-contexts.md)
 
 Além disso, você pode usar regras condicionais no Designer de email para criar várias variantes de um componente de conteúdo.
 
@@ -28,7 +28,7 @@ Além disso, você pode usar regras condicionais no Designer de email para criar
 
 As etapas para adicionar conteúdo dinâmico nas expressões são as seguintes:
 
-1. Navegue até o campo onde deseja adicionar conteúdo dinâmico e abra o Editor de expressão.
+1. Navegue até o campo onde deseja adicionar conteúdo dinâmico e abra o editor de personalização.
 
 1. Selecione o **[!UICONTROL Condições]** para exibir a lista de regras condicionais disponíveis. Clique no botão + ao lado de uma regra para adicioná-la à expressão atual.
 
@@ -51,7 +51,7 @@ As etapas para adicionar conteúdo dinâmico nas expressões são as seguintes:
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
 >title="Conteúdo condicional"
->abstract="Use regras condicionais para criar diversas variantes de um componente de conteúdo. Se nenhuma das condições for atendida ao enviar a mensagem, o conteúdo da variante padrão será exibido."
+>abstract="Use regras condicionais para criar várias variantes de um componente de conteúdo. Se nenhuma das condições for atendida ao enviar a mensagem, o conteúdo da variante padrão será exibido."
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content_select"

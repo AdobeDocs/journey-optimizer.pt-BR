@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 17%
+ht-degree: 2%
 
 ---
 
@@ -35,14 +35,14 @@ Acesse as seguintes seções para saber mais sobre cada tópico:
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="Confirmar o URL para editar"
->abstract="Confirme o URL da página da Web específica a ser usada para editar o conteúdo que será aplicado na superfície da Web definida acima. A página da Web deve ser implementada usando o SDK da Web da Adobe Experience Platform."
+>title="Confirmar o URL a ser editado"
+>abstract="Confirme o URL da página da Web específica a ser usada para editar o conteúdo que será aplicado na superfície da Web definida acima. A página da Web deve ser implementada usando o Adobe Experience Platform Web SDK."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR" text="Saiba mais"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
->title="Inserir o URL para editar"
->abstract="Insira o URL de uma página da Web específica a ser usada para editar o conteúdo que será aplicado a todas as páginas que correspondem à regra. A página da Web deve ser implementada usando o SDK da Web da Adobe Experience Platform."
+>title="Insira o URL para editar"
+>abstract="Insira o URL de uma página da Web específica a ser usada para editar o conteúdo que será aplicado a todas as páginas que correspondem à regra. A página da Web deve ser implementada usando o Adobe Experience Platform Web SDK."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR" text="Saiba mais"
 
 Para começar a criar sua campanha da Web, siga as etapas abaixo.
@@ -95,7 +95,7 @@ Para começar a criar sua campanha da Web, siga as etapas abaixo.
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
->title="Adicionar componentes à página da Web"
+>title="Adicionar componentes à sua página da Web"
 >abstract="Você pode adicionar vários componentes à sua página da Web e editá-los conforme necessário."
 
 1. No **[!UICONTROL Componentes]** selecione um item. Você pode adicionar os seguintes componentes à sua página da Web e editá-los conforme necessário:
@@ -128,7 +128,7 @@ Para começar a criar sua campanha da Web, siga as etapas abaixo.
 
 ## Adicionar personalização e ofertas
 
-Para adicionar personalização, selecione um container e selecione o ícone de personalização na barra de menu contextual exibida. Adicione as alterações usando o Editor de expressão. [Saiba mais](../personalization/personalization-build-expressions.md)
+Para adicionar personalização, selecione um container e selecione o ícone de personalização na barra de menu contextual exibida. Adicione as alterações usando o editor de personalização. [Saiba mais](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 
@@ -157,7 +157,7 @@ Esta seção detalha as diferentes maneiras de navegar pelo web designer. Para e
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="Usar o modo de navegação"
->abstract="Nesse modo, você pode navegar até a página exata da superfície selecionada que deseja personalizar."
+>abstract="Nesse modo, você pode navegar para a página exata da superfície selecionada que deseja personalizar."
 
 Você pode trocar do padrão **[!UICONTROL Design]** para o modo **[!UICONTROL Procurar]** usando o botão dedicado.
 

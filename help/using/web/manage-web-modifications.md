@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '954'
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
->title="Gerenciar facilmente todas as alterações"
->abstract="Usando esse painel, você pode navegar e gerenciar todos os ajustes e estilos adicionados à sua página da Web."
+>title="Gerenciar facilmente todas as suas alterações"
+>abstract="Com esse painel, você pode navegar por todos os ajustes e estilos adicionados à sua página da Web e gerenciá-los."
 
 É possível gerenciar facilmente todos os componentes, ajustes e estilos adicionados à página da Web. Você também pode adicionar modificações diretamente no painel dedicado.
 
@@ -98,13 +98,13 @@ Para adicionar um **Seletor de CSS** tipo de modificação, siga as etapas abaix
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="Adicionar código personalizado"
->abstract="O elemento HEAD é um container de metadados que é inserido entre a tag HTML e a tag BODY. Adicionar apenas elementos SCRIPT e STYLE. Adicionar tags DIV e outros elementos pode fazer com que os elementos HEAD restantes sejam exibidos em BODY. "
+>abstract="O elemento HEAD é um container de metadados e é colocado entre a tag HTML e a tag BODY. Adicionar apenas elementos SCRIPT e STYLE. Adicionar tags DIV e outros elementos pode fazer com que os elementos de HEAD restantes apareçam no CORPO."
 
 É possível adicionar um código personalizado usando o **[!UICONTROL Página`<head>`]** tipo de modificação.
 
 A variável `<head>` elemento é um container de metadados (dados sobre dados) e é colocado entre o `<html>` e a tag `<body>` tag. Nesse caso, o código não aguarda os eventos body ou page-load; ele é executado no início do carregamento da página.
 
-A variável `<head>` O elemento é normalmente usado para adicionar JavaScript ou código CSS à parte superior da página. Os seletores para ações visuais subsequentes dependem dos elementos HTML adicionados nessa guia.
+A variável `<head>` O elemento é normalmente usado para adicionar JavaScript ou código CSS à parte superior da página. Os seletores para ações visuais subsequentes dependem dos elementos de HTML adicionados nessa guia.
 
 Para adicionar um **Página`<head>`** tipo de modificação, siga as etapas abaixo.
 
@@ -118,11 +118,11 @@ Para adicionar um **Página`<head>`** tipo de modificação, siga as etapas abai
    >
    >Você só pode adicionar `<script>` e `<style>` elementos para o `<head>` seção. Adicionando `<div>` tags e outros elementos podem causar `<head>` elementos a serem colocados na tag `<body>`.
 
-1. Clique em **[!UICONTROL Opções de edição avançadas]** botão. O editor de expressão se abre.
+1. Clique em **[!UICONTROL Opções de edição avançadas]** botão. O editor de personalização é aberto.
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   Você pode aproveitar o [!DNL Journey Optimizer] Editor de expressão com todos os seus recursos de personalização e criação. [Saiba mais](../personalization/personalization-build-expressions.md)
+   Você pode aproveitar o [!DNL Journey Optimizer] editor de personalização com todos os seus recursos de personalização e criação. [Saiba mais](../personalization/personalization-build-expressions.md)
 
 #### Exemplos de código personalizado {#custom-code-examples}
 
@@ -169,7 +169,7 @@ Se você não precisar mais do código personalizado, basta deixar este containe
 
 +++ **Não execute ações document.write em scripts de código personalizados.**
 
-Os scripts são executados de modo assíncrono. Isso frequentemente faz com que as ações document.write apareçam no lugar errado na página. Não é recomendado usar document.write em scripts criados no código personalizado.
+Os scripts são executados de forma assíncrona. Isso frequentemente faz com que as ações document.write apareçam no lugar errado na página. Não é recomendado usar document.write em scripts criados no código personalizado.
 
 +++
 

@@ -6,18 +6,18 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
 # Funções matemáticas {#math}
 
-Saiba como usar funções matemáticas no editor de expressão.
+Saiba como usar funções matemáticas no editor de personalização.
 
-## Absoluto    {#absolute}
+## Absoluto {#absolute}
 
 A variável `absolute` é usada para converter um número em seu valor absoluto.
 
@@ -49,7 +49,7 @@ Esta consulta retorna uma string formatada em árabe correspondente a 123456.789
 {%= formatNumber(123456.789, "ar_EG") %}
 ```
 
-## Aleatório {#random}
+## Aleatória {#random}
 
 A variável `random` é usada para retornar um valor aleatório entre 0 e 1.
 

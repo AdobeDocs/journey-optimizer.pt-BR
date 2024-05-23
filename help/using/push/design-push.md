@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1365'
-ht-degree: 17%
+ht-degree: 0%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
->title="Personalizar a notificação por push."
->abstract="Para compor a mensagem, insira o conteúdo nos campos Título e Corpo. Para incluir tokens de personalização, abra a caixa de diálogo de personalização."
+>title="Personalize sua notificação por push."
+>abstract="Para compor a mensagem, insira o conteúdo nos campos Title e Body. Para incluir tokens de personalização, abra o diálogo de personalização."
 
-Para redigir a mensagem, clique no link **[!UICONTROL Título]** e **[!UICONTROL Corpo]** campos. Use o Editor de expressão para definir o conteúdo, personalizar os dados e adicionar conteúdo dinâmico. Saiba mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md) no Editor de expressão.
+Para redigir a mensagem, clique no link **[!UICONTROL Título]** e **[!UICONTROL Corpo]** campos. Use o editor de personalização para definir conteúdo, personalizar dados e adicionar conteúdo dinâmico. Saiba mais sobre [personalização](../personalization/personalize.md) e [conteúdo dinâmico](../personalization/get-started-dynamic-content.md) no editor de personalização.
 
 Use a seção de visualização de dispositivo para visualizar como a notificação por push é exibida em dispositivos iOS e Android.
 
@@ -32,7 +32,7 @@ Use a seção de visualização de dispositivo para visualizar como a notificaç
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-onclick"
->title="Sobre o comportamento ao clicar"
+>title="Sobre o comportamento de clique"
 >abstract="Selecione o comportamento quando um recipient clicar no corpo da notificação por push."
 
 Você pode selecionar o comportamento quando um usuário clicar no corpo da notificação por push.
@@ -47,8 +47,8 @@ Você pode selecionar o comportamento quando um usuário clicar no corpo da noti
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-media"
->title="Adicionar mídias à notificação por push"
->abstract="É possível adicionar uma imagem, um vídeo ou um GIF que será exibido na notificação."
+>title="Adicionar mídia à notificação por push"
+>abstract="Você pode adicionar uma imagem, um vídeo ou um GIF que são exibidos em sua notificação."
 
 Na versão para iOS da notificação por push, é possível adicionar uma imagem, um vídeo ou um GIF que são exibidos na notificação.
 
@@ -70,8 +70,8 @@ Depois de adicionada, a mídia é exibida à direita do corpo de notificação.
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
->title="Adicione botões para a interação com a notificação por push."
->abstract="Esta seção permite adicionar botões de “chamada para ação” à mensagem. Para iOS, especifique um identificador de categoria de notificação. Para Android, é possível incluir texto e destinos personalizados para cada botão."
+>title="Adicione botões para que os usuários interajam com sua notificação por push."
+>abstract="Esta seção permitirá que você adicione botões de chamada para ação à mensagem. Para o iOS, especifique um identificador de categoria de notificação. Para o Android, você pode incluir texto personalizado e destinos para cada botão."
 
 Crie uma notificação acionável adicionando botões ao seu conteúdo de push.
 
@@ -91,8 +91,8 @@ Na versão do iOS, um identificador de categoria de notificação é especificad
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push_silent_notification"
->title="Sobre notificação silenciosa"
->abstract="Enviar notificações sem perturbar o usuário. As notificações não são mostradas no centro de notificações ou na barra de notificação."
+>title="Sobre a notificação silenciosa"
+>abstract="Enviar notificações sem incomodar o usuário, as notificações não são mostradas no centro de notificações ou na barra de notificações."
 
 Uma notificação por push silenciosa (ou notificação em segundo plano) é uma instrução oculta entregue ao aplicativo. Ele é usado, por exemplo, para notificar seu aplicativo sobre a disponibilidade de novo conteúdo ou iniciar um download em segundo plano.
 
@@ -104,8 +104,8 @@ Use o **[!UICONTROL Dados personalizados]** seção para adicionar pares de valo
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-custom"
->title="Configurar dados personalizados para a notificação por push."
->abstract="Adicione variáveis personalizadas ao conteúdo, dependendo da configuração do aplicativo móvel."
+>title="Configure dados personalizados para sua notificação por push."
+>abstract="Adicione variáveis personalizadas à carga, dependendo da configuração do aplicativo móvel."
 
 No **[!UICONTROL Dados personalizados]** você pode adicionar variáveis personalizadas à carga, dependendo da configuração do seu aplicativo móvel. Para obter mais informações sobre como configurar notificações por push no Adobe Experience Platform e no Adobe Launch, consulte [nesta seção](push-gs.md)
 
@@ -113,8 +113,8 @@ No **[!UICONTROL Dados personalizados]** você pode adicionar variáveis persona
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-advanced"
->title="Configurar opções avançadas para a notificação por push."
->abstract="Esta seção permite aprimorar a personalização da notificação por push."
+>title="Configure opções avançadas para sua notificação por push."
+>abstract="Esta seção permite aprimorar a personalização da sua notificação por push."
 
 Você pode configurar **[!UICONTROL Opções avançadas]** para sua notificação por push. Os parâmetros disponíveis estão listados abaixo:
 
@@ -125,8 +125,8 @@ Você pode configurar **[!UICONTROL Opções avançadas]** para sua notificaçã
 | **[!UICONTROL Medalhas]** (iOS/Android) | Um selo é usado para exibir diretamente no ícone do aplicativo o número de novas informações não lidas. <br/>O valor do selo desaparecerá assim que o usuário abrir ou ler o novo conteúdo do aplicativo. Quando uma notificação é recebida em um dispositivo, ela pode atualizar ou adicionar um valor de selo para o aplicativo relacionado.<br/>Por exemplo, se estiver armazenando o número de artigos não lidos dos clientes, você pode aproveitar a personalização para enviar o valor exclusivo do selo de artigos não lidos para cada cliente. Para obter mais personalizações, consulte [nesta seção](../personalization/personalize.md). |
 | **[!UICONTROL Grupo de notificação]**  (somente iOS) | Associe um grupo de notificação à notificação por push.<br/>A partir do iOS 12, os grupos de notificação permitem consolidar threads de mensagem e tópicos de notificação em IDs de thread. Por exemplo, uma marca pode enviar notificações de marketing em uma ID de grupo, enquanto mantém mais notificações de tipo operacional em uma ou mais IDs diferentes.<br/>Para ilustrar isso, você pode ter grupos de notificação groupID: 123 &quot;confira a nova coleção de primavera de blusas&quot; e groupID: 456 &quot;seu pacote foi entregue&quot;. Neste exemplo, todas as notificações de delivery seriam agrupadas na ID de grupo: 456. |
 | **[!UICONTROL Canal de notificação]** (Somente Android) | Associe um canal de notificação à notificação por push.<br/>A partir do Android 8.0 (nível de API 26), todas as notificações devem ser atribuídas a um canal para serem exibidas. Para obter mais informações, consulte [Documentação do desenvolvedor do Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels). |
-| **[!UICONTROL Adicionar sinalizador de disponibilidade de conteúdo]** (somente iOS) | Envia o sinalizador de conteúdo disponível na carga de push para garantir que o aplicativo seja reativado assim que receber a notificação por push, o que significa que o aplicativo poderá acessar os dados da carga.<br/> Isso funciona mesmo se o aplicativo estiver sendo executado em segundo plano e sem precisar de nenhuma interação do usuário (por exemplo, ao tocar na notificação por push). No entanto, isso não se aplica se o aplicativo não estiver em execução. Para obter mais informações, consulte a [documentação para desenvolvedores da Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
-| **[!UICONTROL Adicionar sinalizador de conteúdo mutável]** (somente iOS) | Envia o sinalizador de conteúdo mutável no payload por push e permitirá que o conteúdo da notificação por push seja modificado por uma extensão de aplicativo de serviço de notificação fornecida no SDK do iOS. Para saber mais, consulte a [documentação para desenvolvedores da Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).<br/>Em seguida, você poderá aproveitar suas extensões de aplicativo móvel para modificar ainda mais o conteúdo ou a apresentação das notificações por push de entrada enviadas pelo [!DNL Journey Optimizer]. Por exemplo, os usuários podem aproveitar essa opção para descriptografar dados, alterar o texto do corpo ou do título de uma notificação, adicionar um identificador de thread a uma notificação etc. |
+| **[!UICONTROL Adicionar sinalizador de disponibilidade de conteúdo]** (somente iOS) | Envia o sinalizador de conteúdo disponível na carga de push para garantir que o aplicativo seja reativado assim que receber a notificação por push, o que significa que o aplicativo poderá acessar os dados da carga.<br/> Isso funciona mesmo se o aplicativo estiver sendo executado em segundo plano e sem precisar de nenhuma interação do usuário (por exemplo, ao tocar na notificação por push). No entanto, isso não se aplica se o aplicativo não estiver em execução. Para obter mais informações, consulte [Documentação do desenvolvedor do Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
+| **[!UICONTROL Adicionar sinalizador de conteúdo mutável]** (somente iOS) | Envia o sinalizador de conteúdo mutável no payload por push e permitirá que o conteúdo da notificação por push seja modificado por uma extensão de aplicativo de serviço de notificação fornecida no SDK do iOS. Para obter mais informações, consulte [Documentação do desenvolvedor do Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).<br/>Em seguida, você poderá aproveitar suas extensões de aplicativo móvel para modificar ainda mais o conteúdo ou a apresentação das notificações por push de entrada enviadas pelo [!DNL Journey Optimizer]. Por exemplo, os usuários podem aproveitar essa opção para descriptografar dados, alterar o texto do corpo ou do título de uma notificação, adicionar um identificador de thread a uma notificação etc. |
 | **[!UICONTROL Visibilidade de notificação]** (Somente Android) | Define a visibilidade da notificação por push. <br/><b>Privado</b> mostrará a notificação em todas as telas de bloqueio, mas ocultará informações confidenciais ou privadas nas telas de bloqueio seguras. <br/><b>Público</b> mostrará a notificação na íntegra em todas as telas de bloqueio. <br/><b>Segredo</b> não revelarão nenhuma parte da notificação em uma tela de bloqueio segura. <br/>Para obter mais informações, consulte [Documentação do desenvolvedor do Android](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Prioridade de notificação]** (Somente Android) | Define a importância da notificação por push de Baixo para Máximo. Isso determina o quão &quot;intrusiva&quot; será a notificação por push quando for entregue. Para obter mais informações, consulte [Documentação do desenvolvedor do Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
-| **[!UICONTROL Prioridade de entrega]** (Somente Android) | Configura uma prioridade alta ou normal para suas notificações por push. Para obter mais informações sobre a prioridade da mensagem, consulte a [documentação para desenvolvedor do Google](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |
+| **[!UICONTROL Prioridade de entrega]** (Somente Android) | Configura uma prioridade alta ou normal para suas notificações por push. Para obter mais informações sobre a prioridade da mensagem, consulte a [Documentação do desenvolvedor do Google](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |

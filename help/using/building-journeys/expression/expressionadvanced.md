@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: editor de expressão, dados, jornada
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 63%
+ht-degree: 1%
 
 ---
 
@@ -26,9 +26,9 @@ Use o editor de expressão avançado do Jornada para criar expressões avançada
 
 >[!NOTE]
 >
->As funções e os recursos disponíveis no editor de expressão avançado do Jornada diferem daqueles disponíveis na [Editor de personalização](../../personalization/functions/functions.md).
+>As funções e os recursos disponíveis no editor de expressão avançado do Jornada diferem daqueles disponíveis na [editor de personalização](../../personalization/functions/functions.md).
 
-Ele também está disponível sempre que for necessário definir parâmetros de ação que exijam manipulações de dados específicos. Você pode usar os dados provenientes dos eventos ou informações adicionais recuperadas da fonte de dados. Em uma jornada, a lista exibida de campos de evento é contextual e varia de acordo com os eventos adicionados na jornada.
+Ele também está disponível sempre que for necessário definir parâmetros de ação que exijam manipulações de dados específicos. Você pode aproveitar os dados provenientes dos eventos ou informações adicionais recuperadas da fonte de dados. Em uma jornada, a lista exibida de campos de evento é contextual e varia de acordo com os eventos adicionados na jornada.
 
 O editor de expressão avançado oferece um conjunto de funções e operadores integrados, permitindo manipular valores e definir uma expressão que se ajuste especificamente às suas necessidades. O editor de expressão avançado também permite definir os valores do parâmetro de fonte de dados externa, manipular campos de mapa e coleções, como eventos de experiência.
 
@@ -36,17 +36,17 @@ O editor de expressão avançado oferece um conjunto de funções e operadores i
 
 _A interface do editor de expressão avançado_
 
-O editor avançado de expressões pode ser usado para:
+O editor de expressão avançado pode ser usado para:
 
 * criar [condições avançadas](../condition-activity.md#about_condition) em fontes de dados e informações do evento
-* definir [atividades de espera](../wait-activity.md#custom) personalizadas
+* definir personalizado [atividades de espera](../wait-activity.md#custom)
 * definir mapeamento de parâmetros de ação
 
 Quando possível, você pode alternar entre os dois modos usando o **[!UICONTROL Modo avançado]** / **[!UICONTROL Modo simples]** botão. O modo simples é descrito [aqui](../condition-activity.md#about_condition).
 
 >[!NOTE]
 >
->As condições podem ser definidas no editor de expressão simples ou avançado. Eles sempre retornam um tipo booleano.
+>As condições podem ser definidas no editor de expressões simples ou avançado. Eles sempre retornam um tipo booleano.
 >
 >Parâmetros de ações podem ser definidos selecionando campos ou por meio do editor de expressão avançado. Eles retornam um tipo de dados específico de acordo com a expressão.
 
@@ -63,7 +63,7 @@ Você pode acessar o editor de expressão avançado de diferentes maneiras:
 
 ## Descobrir a interface{#discovering-the-interface}
 
-Nesta tela você pode escrever manualmente a expressão.
+Essa tela permite que você escreva manualmente a expressão.
 
 ![](../assets/journey70.png)
 
@@ -77,7 +77,7 @@ Na parte esquerda da tela são exibidos os campos e as funções disponíveis:
 
 ![](../assets/journey65.png)
 
-Um mecanismo de autopreenchimento exibe sugestões contextuais.
+Um mecanismo de preenchimento automático exibe sugestões contextuais.
 
 ![](../assets/journey68.png)
 
@@ -91,4 +91,4 @@ Se você selecionar um campo de uma fonte externa de dados que requer um parâme
 
 ![](../assets/journeyuc2_19.png)
 
-Para casos de uso mais complexos, caso queira incluir os parâmetros da fonte de dados na expressão principal, é possível definir os valores usando a palavra-chave &quot;params&quot;. Consulte [esta página](../expression/field-references.md).
+Para casos de uso mais complexos, se quiser incluir os parâmetros da fonte de dados na expressão principal, você poderá definir os valores usando a palavra-chave &quot;params&quot;. Consulte [esta página](../expression/field-references.md).

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 18%
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="Criação de correspondência direta"
->abstract="Crie mensagens de correspondência direta em campanhas programadas e crie os arquivos de extração exigidos pelos provedores de correspondência direta para enviar para seus clientes."
+>abstract="Crie mensagens de correspondência direta em campanhas programadas e crie os arquivos de extração necessários aos provedores de correspondência direta para enviar emails aos clientes."
 
 Para criar mensagens de correspondência direta, crie uma campanha agendada e configure o arquivo de extração. Esse arquivo é exigido por provedores de correspondência direta para enviar emails aos clientes.
 
@@ -62,12 +62,12 @@ Agora você pode começar a configurar o arquivo de extração para enviar ao se
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="Campos de dados"
->abstract="Adicione e configure as colunas e as informações a serem exibidas no arquivo de extração exigido por provedores de correspondência direta para enviar correspondências a clientes. É possível adicionar até 50 colunas."
+>abstract="Adicione e configure as colunas e as informações a serem exibidas no arquivo de extração exigido por provedores de correspondência direta para enviar email aos clientes. Você pode adicionar até 50 colunas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
 >title="Formatação do arquivo de extração"
->abstract="Para cada campo, especifique um rótulo e as informações a serem exibidas usando o Editor de expressão. <br/><br/> A opção <b>Classificar por</b> permite usar o campo selecionado para classificar as colunas do arquivo de extração."
+>abstract="Para cada campo, especifique um rótulo e as informações a serem exibidas usando o editor de personalização. <br/><br/> A variável <b>Classificar por</b> permite usar o campo selecionado para classificar as colunas do arquivo de extração."
 
 1. Configure as colunas e as informações a serem exibidas no arquivo de extração:
 
@@ -75,7 +75,7 @@ Agora você pode começar a configurar o arquivo de extração para enviar ao se
 
    1. A variável **[!UICONTROL Formatação]** é exibido no lado direito, permitindo que você configure a coluna selecionada. Especificar um **[!UICONTROL Rótulo]** para a coluna.
 
-   1. No **[!UICONTROL Dados]** selecione os atributos de perfil a serem exibidos usando o [Editor de expressão](../personalization/personalization-build-expressions.md).
+   1. No **[!UICONTROL Dados]** selecione os atributos de perfil a serem exibidos usando o [editor de personalização](../personalization/personalization-build-expressions.md).
 
    1. Para classificar o arquivo de extração usando uma coluna, selecione a coluna e alterne no **[!UICONTROL Classificar por]** opção. A variável **[!UICONTROL Classificar por]** O ícone é exibido ao lado do rótulo da coluna na **[!UICONTROL Campos de dados]** seção.
 
@@ -95,7 +95,7 @@ O arquivo de extração é exigido por provedores de correspondência direta par
 
    1. Como opção, ative a opção **[!UICONTROL Acrescentar carimbo de data/hora ao nome do arquivo de exportação]** opção se quiser adicionar um carimbo de data e hora automático ao nome de arquivo especificado.
 
-   1. Às vezes, pode ser necessário adicionar informações ao início ou final do arquivo de extração. Para fazer isso, use o **[!UICONTROL Notas]** e especifique se deseja incluir a nota como cabeçalho ou rodapé.
+   1. Às vezes, pode ser necessário adicionar informações no início ou no final do arquivo de extração. Para fazer isso, use o **[!UICONTROL Notas]** e especifique se deseja incluir a nota como cabeçalho ou rodapé.
 
       ![](assets/direct-mail-properties.png){width="800" align="center"}
 
@@ -105,7 +105,7 @@ O arquivo de extração é exigido por provedores de correspondência direta par
 
    1. A variável **[!UICONTROL Formatação]** é exibido no lado direito, permitindo que você configure a coluna selecionada. Especificar um **[!UICONTROL Rótulo]** para a coluna.
 
-   1. No **[!UICONTROL Dados]** selecione os atributos de perfil a serem exibidos usando o [Editor de expressão](../personalization/personalization-build-expressions.md).
+   1. No **[!UICONTROL Dados]** selecione os atributos de perfil a serem exibidos usando o [editor de personalização](../personalization/personalization-build-expressions.md).
 
    1. Para classificar o arquivo de extração usando uma coluna, selecione a coluna e alterne no **[!UICONTROL Classificar por]** opção. A variável **[!UICONTROL Classificar por]** O ícone é exibido ao lado do rótulo da coluna na **[!UICONTROL Campos de dados]** seção.
 

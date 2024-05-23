@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 100%
+source-wordcount: '1066'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,7 @@ Saiba como gerenciar a opção de não participação em emails e mensagens SMS 
 
 >[!NOTE]
 >
->No [!DNL Journey Optimizer], o consentimento é tratado pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR) da Experience Platform{target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values){target="_blank"}.
+>Entrada [!DNL Journey Optimizer], o consentimento é gerido pelo Experience Platform [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target="_blank"}. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações. Durante a integração, é possível modificar esse valor padrão para um dos valores possíveis listados [aqui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values){target="_blank"}.
 
 ## Implementar consentimento de personalização {#opt-out-personalization}
 
@@ -98,9 +98,9 @@ Se um usuário:
 >
 >O consentimento para que os dados do perfil sejam usados na [modelagem de dados](../offers/ranking/ai-models.md) ainda não é aceito no [!DNL Journey Optimizer].
 
-### No Editor de expressão {#opt-out-expression-editor}
+### No editor de personalização {#opt-out-expression-editor}
 
-O [Editor de expressão](../personalization/personalization-build-expressions.md) em si não executa a aplicação nem verificações de consentimento, pois não está envolvido nas ações de entrega de mensagens.
+A variável [editor de personalização](../personalization/personalization-build-expressions.md) O não executa, por si só, nenhuma verificação de consentimento ou imposição, pois não está envolvido na entrega de mensagens.
 
 No entanto, o uso de rótulos de controle de acesso baseados em direitos permite restringir quais campos podem ser usados na personalização. O serviço de [visualização de mensagens](../content-management/preview.md) e [renderização de email](../content-management/rendering.md) mascarará os campos identificados com informações confidenciais.
 

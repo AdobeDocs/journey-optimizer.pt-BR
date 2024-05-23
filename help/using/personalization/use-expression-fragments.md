@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Usar fragmentos de expressão
-description: Saiba como usar fragmentos de expressão no [!DNL Journey Optimizer] Editor de expressão.
+description: Saiba como usar fragmentos de expressão no [!DNL Journey Optimizer] editor de personalização.
 feature: Personalization, Fragments
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, biblioteca, personalização
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Aproveitar fragmentos de expressão {#use-expression-fragments}
 
-Ao usar o **Editor de expressão**, você pode aproveitar todos os fragmentos de expressão que foram criados ou salvos na sandbox atual.
+Ao usar o **editor de personalização**, você pode aproveitar todos os fragmentos de expressão que foram criados ou salvos na sandbox atual.
 
 Saiba como criar e gerenciar fragmentos no [nesta seção](../content-management/fragments.md).
 
@@ -28,7 +28,7 @@ Saiba como criar e gerenciar fragmentos no [nesta seção](../content-management
 
 Para adicionar fragmentos de expressão ao seu conteúdo, siga as etapas abaixo.
 
-1. Abra o [Editor de expressão](personalization-build-expressions.md) e selecione o **[!UICONTROL Fragmentos]** no painel esquerdo.
+1. Abra o [editor de personalização](personalization-build-expressions.md) e selecione o **[!UICONTROL Fragmentos]** no painel esquerdo.
 
    ![](assets/expression-fragments-pane.png)
 
@@ -64,7 +64,7 @@ Para adicionar fragmentos de expressão ao seu conteúdo, siga as etapas abaixo.
 
    ![](assets/expression-fragment-open.png)
 
-1. Em seguida, você pode personalizar e validar o conteúdo como de costume, usando todos os recursos de personalização e criação do [Editor de expressão](personalization-build-expressions.md).
+1. Em seguida, você pode personalizar e validar o conteúdo como de costume, usando todos os recursos de personalização e criação do [editor de personalização](personalization-build-expressions.md).
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Para adicionar fragmentos de expressão ao seu conteúdo, siga as etapas abaixo.
 
 ## Interromper herança {#break-inheritance}
 
-Ao adicionar uma ID de fragmento ao editor de expressão, as alterações feitas no fragmento de expressão original são sincronizadas.
+Ao adicionar uma ID de fragmento ao editor de personalização, as alterações feitas no fragmento de expressão original são sincronizadas.
 
 No entanto, também é possível colar o conteúdo de um fragmento de expressão no editor. No menu contextual, selecione **[!UICONTROL Colar fragmento]** para inserir esse conteúdo.
 
