@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 4461100b19bd84a75f036e300e88c47b9b20db9b
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
 workflow-type: tm+mt
-source-wordcount: '3603'
+source-wordcount: '3598'
 ht-degree: 100%
 
 ---
@@ -796,7 +796,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>Ao configurar uma atividade de <strong>Condição</strong> em uma jornada, agora é possível definir um limite de perfis. Esse novo tipo de condição permite definir um número máximo de perfis para um caminho de jornada. Quando esse limite é atingido, os perfis que entram pegam um caminho alternativo. Isso permite incrementar o volume das suas entregas (incremento de IP). Por exemplo, você pode querer incrementar suas entregas em um domínio dividindo a execução: enviar 1000 mensagens no dia 1, 2000 no dia 2, etc.</p>
-<p>Para obter mais informações, consulte a <a href="../building-journeys/condition-activity.md#profile_cap">documentação detalhada</a> e o <a href="../building-journeys/ramp-up-deliveries-uc.md">caso de uso de exemplo</a> relacionado.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/condition-activity.md#profile_cap">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>

@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '613'
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+workflow-type: tm+mt
+source-wordcount: '610'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,6 @@ Casos de uso comercial:
 Casos de uso técnico:
 
 * [Envio dinâmico de coleções usando ações personalizadas](collections.md)
-* [Incrementar entregas](ramp-up-deliveries-uc.md)
 * [Limite a taxa de transferência com Fontes de dados externas e Ações personalizadas](limit-throughput.md)
 
 ## Versões de jornada{#journey-versions}

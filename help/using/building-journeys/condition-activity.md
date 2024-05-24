@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 17%
+source-wordcount: '1466'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Atividade de condição"
->abstract="Essa atividade permite definir como a pessoa fluirá na jornada. Vários caminhos serão criados com base em vários critérios. Você também pode criar um caminho alternativo no caso de tempo limite ou erro."
+>abstract="Esta atividade permite definir como o indivíduo fluirá na jornada. Vários caminhos serão criados com base em vários critérios. Você também pode criar um caminho alternativo em caso de tempo limite ou erro."
 
 Estes tipos de condições estão disponíveis:
 
@@ -33,12 +33,12 @@ Estes tipos de condições estão disponíveis:
 
 ![](assets/journey49.png)
 
-## Sobre a atividade Condição {#about_condition}
+## Sobre a atividade de Condição {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
->title="Sobre o editor de expressão simples"
->abstract="O modo editor de expressão simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os elementos diferentes, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível."
+>title="Sobre o editor de expressões simples"
+>abstract="O modo do editor de expressões simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível."
 
 Ao usar várias condições em uma jornada, você pode definir rótulos para cada uma delas para identificá-las mais facilmente.
 
@@ -54,10 +54,10 @@ Por exemplo, vamos pegar o exemplo de uma condição de primeiro caminho &quot;A
 
 Você pode criar outro caminho para públicos-alvo que não se qualifiquem para as condições definidas marcando **[!UICONTROL Mostrar o caminho para casos diferentes dos mencionados acima]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão de porcentagem](#percentage_split).
 
-O modo simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os elementos diferentes, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
+O modo simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
 
 * AND: uma interseção de dois critérios. Somente os elementos correspondentes a todos os critérios são considerados.
-* OR: uma união de dois critérios. Os elementos correspondentes a pelo menos um dos critérios são considerados.
+* OR: uma união de dois critérios. Os elementos correspondentes a pelo menos um dos dois critérios são considerados.
 
 ![](assets/journey64.png)
 
@@ -68,7 +68,7 @@ Se você estiver usando o [Serviço de segmentação do Adobe Experience Platfor
 >
 >Não é possível executar consultas em séries de tempo (por exemplo, uma lista de compras, cliques anteriores em mensagens) com o editor simples. Para isso, será necessário usar o editor avançado. Consulte [esta página](expression/expressionadvanced.md).
 
-A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcando a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
+Quando ocorre um erro em uma ação ou condição, a jornada de um indivíduo é interrompida. A única maneira de fazê-lo continuar é marcando a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [nesta seção](../building-journeys/using-the-journey-designer.md#paths).
 
 No editor simples, você também encontrará a categoria Propriedades da Jornada, abaixo das categorias de evento e fonte de dados. Essa categoria contém campos técnicos relacionados à jornada para um determinado perfil. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados. [Saiba mais](expression/journey-properties.md)
 
@@ -128,7 +128,7 @@ Use esse tipo de condição para definir um número máximo de perfis para um ca
 >
 >Recomendamos que você defina um limite de perfil de alto valor. A precisão e a probabilidade de uma população atingir o número de limites exato só aumentam à medida que o limite aumenta. Para números pequenos (por exemplo, um limite de 50), os números nem sempre corresponderão, pois o limite pode não ser atingido antes que os perfis tomem um caminho alternativo.
 
-Você pode usar esse tipo de condição para aumentar o volume dos deliveries. Veja isto [caso de uso](ramp-up-deliveries-uc.md).
+<!--You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).-->
 
 O limite padrão é 1000.
 
