@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensagem, frequência, regras, pressão
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 8253b4f3fdc177f5e5f19ab19de748b78456137b
+source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1262'
 ht-degree: 6%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
 >title="Regras comerciais"
->abstract="Use regras de negócios para controlar a frequência com que os usuários receberão uma mensagem ou entrarão em uma jornada definindo regras entre canais que excluirão automaticamente perfis excessivamente solicitados de mensagens e ações."
+>abstract="As regras de frequência de mensagem são um tipo de regra de negócios que restringe o número de vezes que os usuários recebem mensagens ou entram em jornadas em um ou vários canais. Essas regras entre canais excluem automaticamente perfis excessivamente solicitados de mensagens e ações."
 
-[!DNL Journey Optimizer] permite controlar a frequência com que os usuários receberão uma mensagem ou entrarão em uma jornada definindo regras entre canais que excluirão automaticamente perfis excessivamente solicitados de mensagens e ações.
+[!DNL Journey Optimizer] permite controlar a frequência com que os usuários receberão uma mensagem ou entrarão em uma jornada em um ou vários canais. Regras de frequência de mensagem que excluem automaticamente perfis excessivamente solicitados de mensagens e ações.
 
 Por exemplo, para uma marca, uma regra poderia ser não enviar mais de 4 mensagens de marketing por mês para seus clientes. Para fazer isso, você pode usar uma regra de negócios que limitará o número de mensagens enviadas com base em um ou mais canais durante um período de calendário mensal.
 
