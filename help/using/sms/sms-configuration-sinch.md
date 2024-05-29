@@ -6,10 +6,11 @@ description: Saiba como configurar seu ambiente para enviar mensagens de texto c
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 3%
+source-wordcount: '557'
+ht-degree: 4%
 
 ---
 
@@ -27,9 +28,9 @@ Para configurar seu provedor Sinch para enviar mensagens SMS e MMS com o Journey
 
 1. No painel esquerdo, navegue até **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione o **[!UICONTROL Credenciais da API]** menu. Clique em **[!UICONTROL Criar novas credenciais de API]** botão.
 
-   ![](assets/sms_6.png)
-
 1. Configure suas credenciais da API de SMS, conforme detalhado abaixo:
+
+   * **[!UICONTROL Fornecedor de SMS]**: Sinch.
 
    * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
 
@@ -65,15 +66,18 @@ Para configurar o Sinch MMS para enviar o MMS com o Journey Optimizer, siga esta
 
 1. No painel esquerdo, navegue até **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione o **[!UICONTROL Credenciais da API]** menu. Clique em **[!UICONTROL Criar novas credenciais de API]** botão.
 
-   ![](assets/sms_6.png)
+1. Configure suas credenciais da API do MMS, conforme detalhado abaixo:
 
-1. Configure suas credenciais da API de SMS, conforme detalhado abaixo:
+   * **[!UICONTROL Fornecedor de SMS]**: Sinch MMS.
 
    * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
 
-   * **[!UICONTROL ID do projeto]**, **[!UICONTROL ID do aplicativo]** e **[!UICONTROL Token de API]**: no menu da API de conversa, você pode encontrar suas credenciais no menu Aplicativo. Saiba mais em [Documentação da Sinch](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
+   * **[!UICONTROL ID do projeto]**, **[!UICONTROL ID do aplicativo]** e **[!UICONTROL Token de API]**: siga as etapas abaixo para coletar suas credenciais da API do MMS.
 
-   * **[!UICONTROL ID do Plano de Serviço]** e **[!UICONTROL Token da API de SMS]**: Seu **[!UICONTROL ID do Plano de Serviço]** e **[!UICONTROL Token da API de SMS]** estão localizados na guia SMS da página APIs.
+      * Para **[!UICONTROL ID do projeto]** e **[!UICONTROL ID do aplicativo]**: Acesse o **Visão geral da API de conversa** página do seu projeto Sinch no seu Painel Sinch.
+      * Para **[!UICONTROL Token de API]**: Obtenha o **Chaves de acesso** para seu projeto Sinch e gerar um **Token de API Base64** do seu projeto Sinch **Chaves de acesso**.
+
+   * **[!UICONTROL ID do Plano de Serviço]** e **[!UICONTROL Token da API de SMS]**: seu **[!UICONTROL ID do Plano de Serviço]** e **[!UICONTROL Token da API de SMS]** estão localizados na guia SMS da página APIs.
 
 1. Clique em **[!UICONTROL Enviar]** quando você concluiu a configuração das credenciais da API.
 

@@ -1,27 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar o provedor de Infobip
+title: Configurar provedor Infobip
 description: Saiba como configurar seu ambiente para enviar mensagens de texto e MMS com o Journey Optimizer com Infobip
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 4%
+source-wordcount: '357'
+ht-degree: 5%
 
 ---
 
-# Configurar o provedor de Infobip {#sms-configuration-infobip}
+# Configurar provedor Infobip {#sms-configuration-infobip}
 
 Para configurar o Infobip com o Journey Optimizer, siga estas etapas:
 
 1. No painel esquerdo, navegue até **[!UICONTROL Administração]** `>` **[!UICONTROL Canais]** e selecione o **[!UICONTROL Credenciais da API]** menu. Clique em **[!UICONTROL Criar novas credenciais de API]** botão.
 
-   ![](assets/sms_6.png)
-
 1. Configure suas credenciais de API, conforme detalhado abaixo.
+
+   * **[!UICONTROL Fornecedor de SMS]**: Infobip.
 
    * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
 
