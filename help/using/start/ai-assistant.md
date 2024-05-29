@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 43adfef7632e7c9ad4c79544286b210abe5a964f
+source-git-commit: 8cd9374130725a89208acadc3a02574408f98599
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -46,11 +46,11 @@ No Adobe Journey Optimizer, você tem acesso aos seguintes casos de uso:
 
 Para fazer uma pergunta, insira-a no campo na parte inferior da tela e pressione Enter.
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="40%" align="left"}
 
 Verifique a resposta e use o **Mostrar fontes** botão para obter links diretos para a documentação do produto e saber mais.
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
 
 Use o polegar para cima ou para baixo para classificar a resposta.
 
