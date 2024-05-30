@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Controle o gerenciamento de privacidade e as solicitações nesta seção.
 
   Também é possível acessar a seção **Relatórios** e configurar relatórios de experimentação da campanha. [Saiba mais](../campaigns/reporting-configuration.md)
 
-* **[!UICONTROL Regras comerciais]** : use esta seção para criar regras de negócios entre canais para controlar a frequência com que os usuários recebem uma mensagem ou entram em uma jornada. [Saiba mais](../configuration/frequency-rules.md)
+* **[!UICONTROL Regras de negócios]**: use esta seção para criar regras de negócios entre canais, a fim de controlar a frequência com que usuários recebem uma mensagem ou entram em uma jornada. [Saiba mais](../configuration/frequency-rules.md)
 
 * **[!UICONTROL Alertas]** - a interface permite visualizar um histórico de alertas recebidos com base em métricas reveladas pelos Insights de observação da Adobe Experience Platform. A interface também permite visualizar, habilitar e desabilitar as regras de alerta disponíveis. [Saiba mais](../reports/alerts.md)
 
@@ -197,96 +197,96 @@ Para alterar o idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
->title="Nome da configuração móvel e da Web"
->abstract="A SER CONCLUÍDO"
+>title="Nome da configuração móvel e da web"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_add"
 >title="Adicionar dependências"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
 >title="Adicionar código de inicialização"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Validar com garantia"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Código Javascript"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
 >title="Iniciar site e validar"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
 >title="Recuperar o token do dispositivo"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
 >title="Iniciar o aplicativo a partir do Xcode"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
 >title="Fornecer um certificado de push"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_key_id"
 >title="ID da chave"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
 >title="ID da equipe"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="Escolha a propriedade da tag"
->abstract="A SER CONCLUÍDO"
+>title="Escolher a propriedade da tag"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
 >title="Fornecer um certificado de push"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
 >title="Adicionar dependências"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_import"
 >title="Importar dependências"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_import"
 >title="Importar dependências"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
 >title="Adicionar código de inicialização"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token_android"
 >title="Recuperar o token do dispositivo"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_android_studio"
 >title="Iniciar o aplicativo no Android Studio"
->abstract="A SER CONCLUÍDO"
+>abstract="A CONFIRMAR"
