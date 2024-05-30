@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 93%
             + [distinctCount](using/building-journeys/functions/functiondistinctcount.md)
             + [distinctCountWithNull](using/building-journeys/functions/functiondistinctcountwithnull.md)
             + [max](using/building-journeys/functions/functionmax.md)
-            + [min.](using/building-journeys/functions/functionmin.md)
+            + [min](using/building-journeys/functions/functionmin.md)
             + [sum](using/building-journeys/functions/functionsum.md)
          + Conversão {#conversion}
             + [toBool](using/building-journeys/functions/functiontobool.md)
@@ -106,7 +106,7 @@ ht-degree: 93%
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
          + Data {#date}
-            + [currentTime&#x200B;InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
+            + [currentTimeInMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
             + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
             + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
@@ -155,7 +155,7 @@ ht-degree: 93%
             + [startWith](using/building-journeys/functions/functionstartwith.md)
             + [startWithIgnoreCase](using/building-journeys/functions/functionstartwithignorecase.md)
             + [substr](using/building-journeys/functions/functionsubstr.md)
-            + [aparar](using/building-journeys/functions/functiontrim.md)
+            + [trim](using/building-journeys/functions/functiontrim.md)
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Casos de uso {#journey-use-cases}
@@ -290,7 +290,7 @@ ht-degree: 93%
       + [Introdução à personalização](using/personalization/personalize.md)
       + [Contextos de personalização](using/personalization/personalization-contexts.md)
       + [Sintaxe de personalização](using/personalization/personalization-syntax.md)
-      + [Usar dados do Adobe Experience Platform para personalização](using/personalization/lookup-aep-data.md)
+      + [Usar dados da Adobe Experience Platform para personalização](using/personalization/lookup-aep-data.md)
       + Trabalhar com o editor de personalização {#expression-editor}
          + [Sobre o editor de personalização](using/personalization/personalization-build-expressions.md)
          + [Adicionar atributos aos favoritos](using/personalization/personalization-favorites.md)
@@ -327,7 +327,7 @@ ht-degree: 93%
       + [Visualização do conteúdo](using/content-management/preview.md)
       + [Envio de provas de email](using/content-management/proofs.md)
       + [Teste da renderização do email](using/content-management/rendering.md)
-      + [Relatório de spam por e-mail](using/content-management/spam-report.md)
+      + [Relatório de spam de email](using/content-management/spam-report.md)
 + Públicos-alvo, perfis e identidade{#audiences-profiles-identities}
    + Públicos-alvo {#audiences}
       + [Introdução aos públicos-alvo](using/audience/about-audiences.md)
@@ -520,8 +520,8 @@ ht-degree: 93%
             + [API de decisão](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [API de decisão do Edge](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [API de decisão em lote](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Decisão de experiência (disponibilidade limitada) {#experience-decisioning}
-      + [Introdução à Decisão de experiência](using/experience-decisioning/gs-experience-decisioning.md)
+   + Escolha de experiências (disponibilidade limitada) {#experience-decisioning}
+      + [Introdução à Escolha de experiências](using/experience-decisioning/gs-experience-decisioning.md)
       + Gerenciar itens de decisão {#decision-items}
          + [Configurar o catálogo de itens](using/experience-decisioning/catalogs.md)
          + [Criar itens de decisão](using/experience-decisioning/items.md)
@@ -565,7 +565,7 @@ ht-degree: 93%
    + [Usar listas de seeds](using/configuration/seed-lists.md)
    + [Suporte para arquivamento](using/configuration/archiving-support.md)
    + [Alterar endereços de execução](using/configuration/primary-email-addresses.md)
-   + [Configurar regras de negócios](using/configuration/frequency-rules.md)
+   + [Configurar regra de negócios](using/configuration/frequency-rules.md)
    + [Trabalhar com conjuntos de regras](using/configuration/rule-sets.md)
    + Configurar jornadas {#configure-journeys}
       + [Sobre fontes de dados, eventos e ações](using/configuration/about-data-sources-events-actions.md)

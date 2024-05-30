@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
 source-wordcount: '5335'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -22,10 +22,10 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 ## Maio de 2024 {#may-2024}
 
 * Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de maio de 2024 foi detalhada na documentação. [Leia mais](release-notes.md)
-* A seção sobre seed lists foi atualizada em relação a jornadas recorrentes. [Leia mais](../configuration/seed-lists.md#use-seed-list)
-* A seção sobre fontes de dados externas foi atualizada. [Leia mais](../datasource/external-data-sources.md#custom-authentication-access-token)
-* O tempo limite de jornada global de 30 dias foi adicionado à página Grade de proteção e limitação. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
-* A seção sobre a integração do Adobe Campaign v7/v8 foi atualizada com informações sobre provisionamento. [Leia mais](../action/acc-action.md#access)
+* Atualização da seção sobre seed lists com relação a jornadas recorrentes. [Leia mais](../configuration/seed-lists.md#use-seed-list)
+* Atualização da seção sobre fontes de dados externas. [Leia mais](../datasource/external-data-sources.md#custom-authentication-access-token)
+* Adição do tempo limite de jornada global de 30 dias na página Medidas de proteção e limitação. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
+* Atualização da seção sobre a integração do Adobe Campaign v7/v8 com informações sobre provisionamento. [Leia mais](../action/acc-action.md#access)
 * O editor de expressão usado para personalizar o conteúdo foi renomeado na documentação para &quot;editor de personalização&quot; para diferenciá-lo claramente do [Editor de expressão de Jornada](../building-journeys/expression/expressionadvanced.md). [Leia mais](../personalization/personalization-build-expressions.md)
 
 ## Abril de 2024 {#april-2024}
