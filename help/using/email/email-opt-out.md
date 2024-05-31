@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recusar, email, link, cancelar inscrição
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 26%
@@ -31,7 +31,6 @@ Para inserir um link de cancelamento de subscrição no seu conteúdo de email, 
 * Ativar o **link para opção de não participação com um clique** para seu email.  [Saiba como adicionar um link para opção de não participação com um clique](#one-click-opt-out)
 
 * Inserir um **link para uma landing page**. [Saiba como adicionar uma página de aterrissagem de recusa](#opt-out-external-lp)
-
 
 ## Recusa em uma etapa {#opt-out-one-step}
 

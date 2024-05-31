@@ -9,7 +9,7 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: email, configuração, superfície, subdomínios
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
@@ -29,7 +29,6 @@ Para poder enviar emails por meio de jornadas e campanhas no [!DNL Journey Optim
    ![](../configuration/assets/ip-pool-create.png)
 
 1. Criar superfícies dos canais e selecionar o canal **[!UICONTROL Email]**. [Saiba mais](../configuration/channel-surfaces.md)
-
 
    ![](../configuration/assets/preset-general.png)
 
