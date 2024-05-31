@@ -10,7 +10,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 19%
+ht-degree: 3%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
->title="Defina as estratégias de seleção"
->abstract="As estratégias de seleção são reutilizáveis e consistem em uma coleção associada a uma restrição de elegibilidade e um método de classificação para determinar as ofertas a serem exibidas quando selecionadas em uma política de decisão."
+>title="Definir as estratégias de seleção"
+>abstract="Uma estratégia de seleção é reutilizável e consiste em uma coleção associada a uma restrição de qualificação e um método de classificação para determinar as ofertas a serem exibidas quando selecionadas em uma política de decisão."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Criar políticas de decisão"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
->title="Restringir os perfis elegíveis"
->abstract="Você pode restringir a seleção de ofertas para essa estratégia de seleção. Por padrão, todos os perfis são elegíveis, mas você pode usar públicos-alvo ou regras para limitar a seleção de ofertas somente a perfis específicos."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=pt-BR" text="Usar públicos-alvo"
+>title="Restringir os perfis qualificados"
+>abstract="Você pode restringir a seleção de ofertas para essa estratégia de seleção. Por padrão, todos os perfis são qualificados, mas você pode usar públicos ou regras para limitar a seleção da oferta somente a perfis específicos."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Usar públicos"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="Usar regras de decisão"
 
 Uma estratégia de seleção é reutilizável e consiste em uma coleção associada a uma restrição de qualificação e um método de classificação para determinar as ofertas a serem exibidas quando selecionadas em uma [política de decisão](create-decision.md).
@@ -88,16 +88,16 @@ Para criar uma estratégia de seleção, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_ranking"
 >title="Definir como classificar ofertas"
->abstract="Se várias ofertas são elegíveis para uma determinada estratégia de seleção, escolha o método que selecionará a melhor oferta para cada perfil ao criar uma estratégia de seleção: prioridade ou fórmula de classificação."
+>abstract="Se várias ofertas estiverem qualificadas para uma determinada estratégia de seleção, escolha o método que selecionará a melhor oferta para cada perfil ao criar uma estratégia de seleção: prioridade ou fórmula de classificação."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Criar políticas de decisão"
 
 Se várias ofertas estiverem qualificadas para uma determinada estratégia de seleção, você poderá escolher o método que selecionará a melhor oferta para cada perfil ao criar uma estratégia de seleção. Você pode classificar ofertas por:
 
-* [Prioridade da oferta](#offer-priority)
+* [Prioridades de ofertas](#offer-priority)
 * [Fórmula](#ranking-formula)
 * [Classificação de IA](#ai-ranking)
 
-### Prioridade da oferta {#offer-priority}
+### Prioridades de ofertas {#offer-priority}
 
 Por padrão, quando várias ofertas são qualificadas para um determinado posicionamento em uma política de decisão, os itens com a maior **prioridade** será entregue aos clientes primeiro.
 
