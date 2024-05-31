@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: 529a8ab0bf0c0496996183a56269d9f566e48bcb
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -19,7 +19,6 @@ ht-degree: 100%
 # Notas de versão de 2021 {#release-notes-2021}
 
 Esta página lista todos os recursos e melhorias do [!DNL Journey Optimizer] lançado em 2021.
-
 
 ## Versão de novembro de 2021 {#november-2021-release}
 
