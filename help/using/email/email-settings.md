@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
+source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 1%
@@ -60,6 +60,7 @@ Selecione o subdomínio que será usado para enviar os emails.
 Para preservar a reputação do seu domínio, acelere o processo de aquecimento de IP e melhore a capacidade de entrega, delegue os subdomínios de envio ao Adobe. [Saiba mais](../configuration/about-subdomain-delegation.md)
 
 <!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+
 
 ## Detalhes do pool de IP {#ip-pools}
 

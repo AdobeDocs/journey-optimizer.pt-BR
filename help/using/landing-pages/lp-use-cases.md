@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: página de aterrissagem, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
+source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 12%
@@ -166,6 +166,8 @@ As informações de recusa são armazenadas no **Conjunto de dados do serviço d
 >Se o método de mesclagem para seu padrão [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} **[!UICONTROL Perfis]** a política de mesclagem é **[!UICONTROL Precedência do conjunto de dados]**, habilite o **[!UICONTROL Conjunto de dados do serviço de consentimento do AJO]** e priorizá-lo na política de mesclagem. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Mesmo se nenhum lote tiver sido adicionado a esse conjunto de dados, ele ainda conterá as informações de aceitação/recusa.
+
+
 
 **Consulte também:**
 
