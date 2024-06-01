@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: página de aterrissagem, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '968'
 ht-degree: 12%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 12%
 
 Abaixo estão alguns exemplos de como você pode usar [!DNL Journey Optimizer] landing pages para que seus clientes optem por receber algumas ou todas as suas comunicações.
 
-## Assinar um serviço {#subscription-to-a-service}
+## Assinatura de um serviço {#subscription-to-a-service}
 
 Um dos casos de uso mais comuns consiste em convidar seus clientes para [assinar um serviço](subscription-list.md) (como um boletim informativo ou um evento) por meio de uma landing page. As principais etapas são apresentadas no gráfico abaixo:
 
@@ -88,7 +88,7 @@ Todos os usuários que se registraram no evento receberão o email de confirmaç
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
-## Página de aterrissagem de recusa {#opt-out}
+## Recusa {#opt-out}
 
 Para permitir que seus destinatários cancelem a inscrição de suas comunicações, você pode incluir um link para uma página de aterrissagem de recusa em seus emails.
 
@@ -107,7 +107,7 @@ Portanto, você sempre deve incluir um **link para cancelar a inscrição** em c
 
 ### Configurar opção de não participação de email {#configure-opt-out}
 
-Para permitir que os recipients de um email cancelem a inscrição de suas comunicações por meio de uma landing page, siga as etapas abaixo:
+Para permitir que os recipients de um email cancelem a inscrição de suas comunicações por meio de uma landing page, siga as etapas abaixo.
 
 1. Crie sua landing page. [Saiba mais](create-lp.md)
 
@@ -167,12 +167,6 @@ As informações de recusa são armazenadas no **Conjunto de dados do serviço d
 >
 >Mesmo se nenhum lote tiver sido adicionado a esse conjunto de dados, ele ainda conterá as informações de aceitação/recusa.
 
-
-
-**Consulte também:**
-
-* [Recusar com um clique](../email/email-opt-out.md#one-click-opt-out-link)
-* [Link para opção de não participação no cabeçalho do email](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
 

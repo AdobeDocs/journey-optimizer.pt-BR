@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 3%
@@ -158,7 +158,7 @@ A variável [Email Designer](content-from-scratch.md) permite gerenciar os URLs 
    * **[!UICONTROL Rastreado]**: ativa o rastreamento nesse URL.
    * **[!UICONTROL Recusar]**: considera esse URL como recusa ou cancelamento de subscrição.
    * **[!UICONTROL Mirror page]**: considera esse URL como sendo de mirror page.
-   * **[!UICONTROL Nunca]**: nunca ativa o rastreamento desse URL.
+   * **[!UICONTROL Nunca]**: nunca ativa o rastreamento desse URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 Relatórios sobre aberturas e cliques estão disponíveis no [Relatório ao vivo](../reports/live-report.md) e no [Relatório global](../reports/global-report.md).
 
