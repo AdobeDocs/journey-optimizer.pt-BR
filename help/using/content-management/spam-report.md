@@ -9,7 +9,7 @@ exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
 source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Você pode verificar sua pontuação de spam no conteúdo de e-mail em um relat�
 
 >[!AVAILABILITY]
 >
->No momento, esse recurso está na versão beta e só está disponível para clientes beta. Para participar do programa beta, entre em contato com o atendimento ao cliente da Adobe.
+>No momento, esse recurso está na versão beta, disponível apenas para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
 
 Ao editar ou visualizar seu conteúdo de email, a variável **[!UICONTROL Relatório de spam]** O botão fornece uma pontuação e conselhos para melhorar as pontuações de cada item individual listado.
 
