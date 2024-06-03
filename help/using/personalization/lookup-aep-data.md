@@ -11,9 +11,9 @@ keywords: expressão, editor
 hidefromtoc: true
 hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: d2bebc33b6afde51cef12049cfafc8217c377f9d
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >No momento, esse recurso está disponível apenas como um beta privado.
 >
->Por enquanto, ela só está disponível para fins de teste na sandbox de não produção fornecida para o Adobe e para os conjuntos de dados solicitados para o beta.
+>Por enquanto, ele só está disponível para o **canal de email** e para fins de teste na sandbox de não produção que você forneceu para o Adobe e para os conjuntos de dados solicitados para o beta.
 
 O Journey Optimizer permite aproveitar os dados do Adobe Experience Platform no editor de personalização para [personalizar seu conteúdo](../personalization/personalize.md). As etapas são as seguintes:
 
