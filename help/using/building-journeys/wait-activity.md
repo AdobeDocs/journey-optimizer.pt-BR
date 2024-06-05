@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 505a418819b7a8ac9883d78a4f3d05a78cf5aa31
+source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 5%
+source-wordcount: '545'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 5%
 >title="Atividade de espera"
 >abstract="Se quiser aguardar antes de executar a próxima atividade no caminho, você poderá usar uma atividade Wait. Ela permite definir o momento em que a próxima atividade será executada. Duas opções estão disponíveis: duração e personalizado."
 
-Você pode usar um **[!UICONTROL Aguardar]** atividade para definir uma duração antes de executar a próxima atividade. As opções disponíveis são as seguintes:
+Você pode usar um **[!UICONTROL Aguardar]** atividade para definir uma duração antes de executar a próxima atividade.  A duração máxima de espera é **29 dias**.
+
+Os seguintes tipos estão disponíveis:
 
 * [Duração](#duration)
 * [Personalizado](#custom)
@@ -33,19 +35,26 @@ Você pode usar um **[!UICONTROL Aguardar]** atividade para definir uma duraçã
 * [Fixed date](#fixed_date) 
 -->
 
-## Sobre a atividade Wait {#about_wait}
+## Recomendações {#wait-recommendations}
 
-A duração máxima de espera é de 29 dias. No modo de teste, a variável **[!UICONTROL Tempo de espera no teste]** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Saiba mais [nesta página](../building-journeys/testing-the-journey.md).
+### Várias atividades de espera {#multiple-wait-activities}
 
-Tenha cuidado ao usar vários **Aguardar** atividades em uma jornada, pois o tempo limite da jornada global é de 30 dias, o que significa que um perfil sempre desaparecerá da jornada no máximo 30 dias após ter entrado nela. Saiba mais [nesta página](../building-journeys/journey-gs.md#global_timeout).
+Ao usar vários **Aguardar** atividades em uma jornada, esteja ciente de que o tempo limite da jornada global é de 30 dias, o que significa que os perfis estão sempre fora do máximo da jornada 30 dias após serem inseridos. Saiba mais [nesta página](../building-journeys/journey-gs.md#global_timeout).
 
 Um indivíduo pode inserir um **Aguardar** atividade somente se eles tiverem tempo suficiente na jornada para concluir a duração da espera antes do tempo limite de jornada de 30 dias. Por exemplo, se você adicionar dois **Aguardar** definidas para 20 dias cada, o sistema detecta que o segundo **Aguardar** A atividade terminará após o tempo limite de 30 dias. O segundo **Aguardar** Portanto, a atividade será ignorada e o indivíduo sairá da jornada antes de iniciá-la. Nesse exemplo, o cliente permanecerá no total 20 dias na jornada.
 
+### Aguardar e reentrar {#wait-re-entrance}
+
 Uma prática recomendada a não ser usada **Aguardar** atividades para bloquear a reentrada. Use o botão **Permitir reentrada** no nível das propriedades da jornada. Saiba mais [nesta página](../building-journeys/journey-gs.md#entrance).
+
+### Modo de espera e teste {#wait-test-modd}
+
+No modo de teste, a variável **[!UICONTROL Tempo de espera no teste]** permite definir o tempo que cada **Aguardar** atividade durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Saiba mais [nesta página](../building-journeys/testing-the-journey.md).
+
 
 ## Espera de duração {#duration}
 
-Selecione a duração da espera antes da execução da próxima atividade. A duração máxima é de 29 dias.
+Selecione o **Duração** digite para definir a duração da espera antes da execução da próxima atividade. A duração máxima é **29 dias**.
 
 ![Definir a duração da espera](assets/journey55.png)
 
@@ -60,7 +69,7 @@ Select the date for the execution of the next activity.
 
 ## Espera personalizada {#custom}
 
-Use o **Personalizado** digite para definir uma data personalizada, usando uma expressão avançada com base em um campo proveniente de um evento ou uma resposta de ação personalizada. Não é possível definir uma duração relativa diretamente, por exemplo, 7 dias, mas você pode usar funções para calculá-la se necessário (por exemplo: 2 dias após a compra).
+Selecione o **Personalizado** digite para definir uma data personalizada, usando uma expressão avançada com base em um campo proveniente de um evento ou uma resposta de ação personalizada. Não é possível definir uma duração relativa diretamente, por exemplo, 7 dias, mas você pode usar funções para calculá-la se necessário (por exemplo: 2 dias após a compra).
 
 ![Definir uma espera personalizada com uma expressão](assets/journey57.png)
 
