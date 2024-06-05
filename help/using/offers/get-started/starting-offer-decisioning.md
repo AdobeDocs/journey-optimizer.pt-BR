@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d4a91dcd032af03504ab7bbf97b2e19338c32397
+source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 75%
 
 ---
 
@@ -37,7 +37,7 @@ Os benefícios incluem:
 
 >[!NOTE]
 >
->Se você for um usuário(a) da [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target="_blank"} aproveitando o serviço de aplicativos **Offer Decisioning**, todos os recursos de Gestão de decisões descritos nesta seção também se aplicam a você.
+>Se você é um [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target="_blank"} usuário que utiliza o **Offer decisioning** todos os recursos da Gestão de decisões descritos nesta seção também se aplicam a você.
 
 ## Sobre ofertas e decisões {#about-offers-and-decisions}
 
@@ -103,7 +103,7 @@ Você pode encontrar abaixo a lista dos principais conceitos com os quais trabal
 
 * **Prioridade**: a prioridade é usada para classificar ofertas que atendem a todas as restrições, como elegibilidade, calendário e limite.
 
-* **Representações**: uma representação é a informação usada por um canal, como localização ou idioma para exibir uma oferta.
+* **Representações**: Uma representação é a informação usada por um canal, como localização ou idioma para exibir uma oferta.
 
 ## Vídeos tutoriais{#video}
 

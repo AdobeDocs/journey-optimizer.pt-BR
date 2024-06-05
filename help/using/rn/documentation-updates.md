@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
-source-wordcount: '5335'
+source-wordcount: '5334'
 ht-degree: 98%
 
 ---
@@ -391,7 +391,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 * Página de **Início rápido** aprimorada com etapas para diferentes personalidades. [Leia mais](../start/quick-start.md)
 
-* Agora, todos os recursos da Gestão de decisões descritos na seção dedicada também se aplicam aos usuários da Adobe Experience Platform que usam o serviço de aplicativos do Offer Decisioning. [Leia mais](../offers/get-started/starting-offer-decisioning.md)
+* Agora, todos os recursos da Gestão de decisões descritos na seção dedicada também se aplicam aos usuários do Adobe Experience Platform que usam o aplicativo Offer Decisioning. [Leia mais](../offers/get-started/starting-offer-decisioning.md)
 
 * Subseção adicionada para elucidar as diferenças entre o uso de públicos-alvo e o uso de regras de decisão ao aplicar uma restrição contra a seleção de ofertas para um determinado posicionamento. [Leia mais](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
