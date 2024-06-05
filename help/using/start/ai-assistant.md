@@ -10,9 +10,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: ddb8c02a309c6e016e95cb8b9fcde24f0f751078
+source-git-commit: a6b7dce05dbcc9c12595646eac47295f4db3aea3
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,11 @@ O Assistente de IA é um recurso da interface do usuário que você pode usar pa
 Para acessar o Assistente de IA, clique no ícone na barra superior. O Assistente de IA é exibido na seção direita da tela.
 
 ![](assets/do-not-localize/ai-assistant-open.png)
+
+
+>[!CAUTION]
+>
+>Você deve concordar com as Diretrizes do usuário da IA gerativa da Adobe Experience Cloud antes de usar o Assistente de IA. Saiba mais sobre o contrato em [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
 
 No Adobe Journey Optimizer, você tem acesso aos seguintes casos de uso:
 
