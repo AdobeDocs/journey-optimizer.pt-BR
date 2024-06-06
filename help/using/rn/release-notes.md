@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 40e4aaa93400daf52c96aa5ac2de17151cdbb07f
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 93%
+source-wordcount: '788'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
+## Atualizações de junho de 2024
+
+Agora você pode trabalhar com o Assistente de IA do Adobe Experience Platform no Adobe Journey Optimizer. [Saiba mais](../start/ai-assistant.md)
 
 ## Notas de versão de maio de 2024 {#may-2024}
 
