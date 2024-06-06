@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 02a3ed25c7047ce709271a386d9ab4c2e976e42f
+source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -30,14 +30,18 @@ Para acessar o Assistente de IA, clique no ícone na barra superior. O Assistent
 
 No Adobe Journey Optimizer, você tem acesso aos seguintes casos de uso:
 
-* Conhecimento do produto (Disponibilidade geral) As perguntas sobre conhecimento do produto são sobre conceitos de Adobe relacionados a aspectos do Adobe Journey Optimizer. Alguns exemplos de perguntas de conhecimento sobre produtos incluem:
+* **Conhecimento do produto** (Disponibilidade geral)
+
+  As perguntas de conhecimento do produto são sobre conceitos de Adobe relacionados a aspectos do Adobe Journey Optimizer. Alguns exemplos de perguntas de conhecimento sobre produtos incluem:
 
    * Quantas atividades ativas posso ter em uma sandbox da Adobe Journey Optimizer?
    * Como configurar uma campanha no Adobe Journey Optimizer?
    * Como criar uma ação personalizada para usar no Adobe Journey Optimizer jornada?
 
 
-* Insights operacionais em jornadas (Beta) As perguntas sobre insights operacionais são sobre os objetos de jornada na sandbox da sua organização. Alguns exemplos de perguntas ou prompts de insights operacionais incluem:
+* **Insights operacionais** no jornada (Beta)
+
+  As perguntas de insight operacional são sobre os objetos do jornada na sandbox da organização. Alguns exemplos de perguntas ou prompts de insights operacionais incluem:
 
    * Quantas jornadas ao vivo eu tenho no Adobe Journey Optimizer?
    * Fornecer uma lista de todas as jornadas agendadas
@@ -50,11 +54,11 @@ No Adobe Journey Optimizer, você tem acesso aos seguintes casos de uso:
 
 Para fazer uma pergunta, insira-a no campo na parte inferior da tela e pressione Enter.
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
 
 Verifique a resposta e use o **Mostrar fontes** botão para obter links diretos para a documentação do produto e saber mais.
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
 
 Use o polegar para cima ou para baixo para classificar a resposta.
 
