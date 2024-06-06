@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
+source-git-commit: ab6292e93bf848671d39037bdfe0de8bdd7191b6
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 4%
+source-wordcount: '566'
+ht-degree: 5%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 4%
 
 Você pode usar um **[!UICONTROL Aguardar]** atividade para definir uma duração antes de executar a próxima atividade.  A duração máxima de espera é **29 dias**.
 
-Os seguintes tipos estão disponíveis:
+É possível definir dois tipos de **Aguardar** atividade:
 
-* [Duração](#duration)
-* [Personalizado](#custom)
+* Uma espera com base em uma duração fixa. [Saiba mais](#duration)
+* Uma espera personalizada, usando funções para calculá-la. [Saiba mais](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -51,8 +51,9 @@ Uma prática recomendada a não ser usada **Aguardar** atividades para bloquear 
 
 No modo de teste, a variável **[!UICONTROL Tempo de espera no teste]** permite definir o tempo que cada **Aguardar** atividade durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Saiba mais [nesta página](../building-journeys/testing-the-journey.md).
 
+## Configuração {#wait-configuration}
 
-## Espera de duração {#duration}
+### Espera de duração {#duration}
 
 Selecione o **Duração** digite para definir a duração da espera antes da execução da próxima atividade. A duração máxima é **29 dias**.
 
@@ -67,9 +68,9 @@ Select the date for the execution of the next activity.
 
 -->
 
-## Espera personalizada {#custom}
+### Espera personalizada {#custom}
 
-Selecione o **Personalizado** digite para definir uma data personalizada, usando uma expressão avançada com base em um campo proveniente de um evento ou uma resposta de ação personalizada. Não é possível definir uma duração relativa diretamente, por exemplo, 7 dias, mas você pode usar funções para calculá-la se necessário (por exemplo: 2 dias após a compra).
+Selecione o **Personalizado** digite para definir uma duração personalizada, usando uma expressão avançada com base em um campo proveniente de um evento ou uma resposta de ação personalizada. Não é possível definir uma duração relativa diretamente, por exemplo, 7 dias, mas você pode usar funções para calculá-la se necessário (por exemplo: 2 dias após a compra).
 
 ![Definir uma espera personalizada com uma expressão](assets/journey57.png)
 
