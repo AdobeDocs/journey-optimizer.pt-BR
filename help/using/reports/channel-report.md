@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3683'
-ht-degree: 27%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_level_report"
 >title="Relatório de nível de canal"
->abstract="Os relatórios de canal oferecem uma visão geral abrangente das métricas de engajamento e tráfego em todos os canais. Seus relatórios são divididos em diferentes dispositivos, os quais detalham o sucesso e os erros da campanha e das jornadas. Cada painel de relatórios pode ser modificado redimensionando ou removendo dispositivos."
+>abstract="Os Relatórios de canal oferecem uma visão geral abrangente das métricas de tráfego e engajamento em todos os canais. Seus relatórios são divididos em widgets diferentes detalhando o sucesso e os erros da campanha e do jornada. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
 >[!IMPORTANT]
 >
@@ -45,12 +45,12 @@ A página do relatório é exibida com as seguintes guias:
 
 Nos relatórios de Canal, o menu Email detalha as principais informações relativas aos emails enviados em suas Campanhas e Jornadas. As métricas estão detalhadas abaixo.
 
-### Email: estatísticas totais de envio {#email-total-sending}
+### Email - Estatísticas totais de envio {#email-total-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
->title="Email: estatísticas totais de envio"
->abstract="Os KPIs “Email: estatísticas totais de envio” resumem dados essenciais sobre seus emails, como mensagens direcionadas ou entregues."
+>title="Email - Estatísticas totais de envio"
+>abstract="Os KPIs Email - Total sending statistics resumem dados essenciais sobre seus emails, como mensagens direcionadas ou entregues."
 
 ![](assets/channel_email_total_sending.png)
 
@@ -80,12 +80,12 @@ A variável **[!UICONTROL Estatísticas de envio total de email]** O widget ofer
 
 +++
 
-### Email: estatísticas totais de rastreamento {#email-total-tracking}
+### Email - Estatísticas totais de rastreamento {#email-total-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics"
->title="Email: estatísticas totais de rastreamento"
->abstract="Os KPIs “Email: estatísticas totais de rastreamento” fornecem dados sobre a atividade de perfil de emails."
+>title="Email - Estatísticas totais de rastreamento"
+>abstract="Os KPIs Email - Total tracking statistics fornecem dados sobre a atividade de perfil de seus emails."
 
 ![](assets/channel_email_total_tracking.png)
 
@@ -111,12 +111,12 @@ A variável **[!UICONTROL Estatísticas de rastreamento total de email]** O widg
 
 +++
 
-### Email: estatísticas de envio ao longo do tempo {#email-sending-statistics-overtime}
+### Email - Estatísticas de envio ao longo do tempo {#email-sending-statistics-overtime}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics_overtime"
->title="Email: estatísticas de envio ao longo do tempo"
->abstract="O gráfico “Email: estatísticas de envio ao longo do tempo” apresenta dados sobre emails enviados, detalhados por hora, dia, semana ou mês."
+>title="Email - Estatísticas de envio ao longo do tempo"
+>abstract="O gráfico Email - Estatísticas de envio ao longo do tempo apresenta dados sobre emails enviados, detalhados por hora, dia, semana ou mês."
 
 ![](assets/channel_email_sending_statistics.png)
 
@@ -134,12 +134,12 @@ A variável **[!UICONTROL Email - Estatísticas de envio ao longo do tempo]** O 
 
 +++
 
-### Email: estatísticas de rastreamento ao longo do tempo {#email-tracking-statistics-overtime}
+### Email - Estatísticas de rastreamento ao longo do tempo {#email-tracking-statistics-overtime}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics_overtime"
->title="Email: estatísticas de rastreamento ao longo do tempo"
->abstract="O gráfico “Email: estatísticas de rastreamento ao longo do tempo” fornece dados sobre a atividade de perfil de emails, detalhados por hora, dia, semana ou mês."
+>title="Email - Estatísticas de rastreamento ao longo do tempo"
+>abstract="O gráfico Email - Tracking statistics over time fornece dados sobre a atividade de perfil de seus emails, detalhados por hora, dia, semana ou mês."
 
 ![](assets/channel_email_tracking_overtime.png)
 
@@ -153,17 +153,17 @@ A variável **[!UICONTROL Email - Estatísticas de rastreamento ao longo do temp
 
 +++
 
-### Email: categorias e motivos de rejeição {#bounce-categories}
+### Email - Categorias e motivos de rejeição {#bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_categories"
 >title="Categorias de rejeição"
->abstract="A tabela “Categorias de rejeição” e seus gráficos fornecem dados sobre erros temporários e permanentes."
+>abstract="Os gráficos e a tabela de Categorias de rejeição fornecem dados sobre erros temporários e permanentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons"
 >title="Motivos de rejeição"
->abstract="A tabela “Motivos de rejeições” e seus gráficos contêm dados relacionados às mensagens rejeitadas."
+>abstract="Os gráficos e a tabela Motivos de rejeições contêm os dados disponíveis relacionados às mensagens rejeitadas."
 
 ![](assets/channel_email_bounce_categories.png)
 
@@ -186,18 +186,18 @@ Para obter mais informações sobre rejeições, consulte o [Lista de supressão
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_error_reasons"
 >title="Motivos do erro"
->abstract="A tabela “Motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram durante o processo de envio."
+>abstract="Os gráficos e a tabela de Motivos de erro permitem identificar os erros específicos que ocorreram durante o processo de envio."
 
 ![](assets/channel_email_error.png)
 
 A variável **[!UICONTROL Motivos de erro]** os gráficos e as tabelas permitem apontar os erros precisos que ocorreram durante o processo de envio, facilitando a compreensão clara de quaisquer problemas encontrados.
 
-### Motivos de exclusão {#excluded-reasons}
+### Motivos excluídos {#excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_excluded_reasons"
->title="Motivos de exclusão"
->abstract="A tabela “Motivos de exclusão” e seus gráficos ilustram os vários fatores que levaram perfis de usuário excluídos do público-alvo a não receberem a mensagem."
+>title="Motivos excluídos"
+>abstract="Os gráficos e a tabela Motivos excluídos ilustram os vários fatores que levaram aos perfis de usuário, excluídos do público-alvo direcionado, a não receber a mensagem."
 
 ![](assets/channel_email_excluded.png)
 
@@ -205,12 +205,12 @@ A variável **[!UICONTROL Motivos excluídos]** os gráficos e a tabela apresent
 
 Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos motivos de exclusão.
 
-### Enviados e entregues por domínios {#sent-delivered-domains}
+### Enviado e entregue por domínios {#sent-delivered-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_delivered_domains"
->title="Enviados e entregues por domínios"
->abstract="A tabela “Enviados e entregues por domínio” representam um detalhamento em nível de domínio de todos os dados importantes de envio de email."
+>title="Enviado e entregue por domínios"
+>abstract="O gráfico e a tabela Enviado e entregue por domínios representam o detalhamento em nível de domínio de todos os dados importantes de envio de email."
 
 ![](assets/channel_email_sent_domains.png)
 
@@ -224,12 +224,12 @@ A variável **[!UICONTROL Enviado e entregue por domínios]** A tabela e o gráf
 
 +++
 
-### Rejeições e erros por domínios {#bounces-errors-domains}
+### Rejeições e erros dos domínios {#bounces-errors-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounces_errors_domains"
->title="Rejeições e erros por domínios"
->abstract="A tabela “Rejeições e erros por domínio” e seu gráfico representam um detalhamento em nível de domínio de erros específicos que ocorreram durante o processo de envio."
+>title="Rejeições e erros dos domínios"
+>abstract="O gráfico e a tabela Rejeições e erros por domínios representam o detalhamento em nível de domínio de erros específicos que ocorreram durante o processo de envio."
 
 ![](assets/channel_email_bounces_domain.png)
 
@@ -243,12 +243,12 @@ A variável **[!UICONTROL Rejeições e erros por domínios]** O gráfico e a ta
 
 +++
 
-### Aberturas e cliques por domínios {#open-clicks-domains}
+### Abertura e cliques por domínios {#open-clicks-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_open_clicks_domains"
->title="Aberturas e cliques por domínios"
->abstract="A tabela “Aberturas e cliques por domínio” e seu gráfico representam um detalhamento em nível de domínio do engajamento de visitantes com o email."
+>title="Abertura e cliques por domínios"
+>abstract="O gráfico e a tabela Abrir e clicar por domínios representam o detalhamento em nível de domínio do engajamento de seus visitantes com seu email."
 
 ![](assets/channel_email_open_domains.png)
 
@@ -267,7 +267,7 @@ A variável **[!UICONTROL Abrir e clicar por domínios]** O gráfico e a tabela 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons_domains"
 >title="Motivos de rejeição por domínio"
->abstract="A tabela “Motivos de rejeição por domínio” e seu gráfico representam um detalhamento em nível de domínio de dados sobre erros temporários e permanentes."
+>abstract="O gráfico e a tabela Motivos da rejeição por domínio por domínios representam o detalhamento de dados no nível de domínio em erros temporários e permanentes."
 
 ![](assets/channel_email_bounce_domain.png)
 
@@ -275,16 +275,16 @@ A variável **[!UICONTROL Motivos de rejeição por domínio]** O gráfico e a t
 
 Para obter mais informações sobre rejeições, consulte o [Lista de supressão](../reports/suppression-list.md) página.
 
-## Notificações por push {#push}
+## Notificação por push {#push}
 
 Nos seus Relatórios de canal, a variável **Notificação por push** O menu detalha as informações principais relativas às notificações por push enviadas em suas Campanhas e Jornadas. As métricas estão detalhadas abaixo.
 
-### Notificações por push: estatísticas totais de envio {#push-total-sending}
+### Notificações por push - Estatísticas totais de envio {#push-total-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics"
->title="Notificações por push: estatísticas totais de envio"
->abstract="Os KPIs “Notificações por push: estatísticas totais de envio” resumem dados essenciais sobre notificações por push, como se foram direcionadas ou entregues."
+>title="Notificações por push - Estatísticas totais de envio"
+>abstract="Os KPIs de notificações por push - Total de estatísticas de envio resumem dados essenciais sobre suas notificações por push, como Segmentado ou Entregue."
 
 ![](assets/channel_push_total_sending.png)
 
@@ -314,12 +314,12 @@ A variável **[!UICONTROL Notificações por push - Estatísticas totais de envi
 
 +++
 
-### Notificações por push: estatísticas totais de rastreamento {#push-total-tracking}
+### Notificação por push - Estatísticas totais de rastreamento {#push-total-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics"
->title="Notificações por push: estatísticas totais de rastreamento"
->abstract="As Estatísticas totais de rastreamento de notificações por push fornecem dados sobre a atividade de perfil de notificações por push."
+>title="Notificação por push - Estatísticas totais de rastreamento"
+>abstract="A seção Notificação por push - Estatísticas totais de rastreamento fornece dados sobre a atividade de perfil para suas notificações por push."
 
 A variável **[!UICONTROL Notificação por push - Estatísticas totais de rastreamento]** o widget oferece um instantâneo detalhado da atividade do perfil vinculada às suas notificações por push, fornecendo insights essenciais sobre a eficácia do engajamento e das notificações por push.
 
@@ -335,12 +335,12 @@ A variável **[!UICONTROL Notificação por push - Estatísticas totais de rastr
 
 +++
 
-### Notificações por push: estatísticas de envio ao longo do tempo {#push-sending-overtime}
+### Notificações por push - Estatísticas de envio ao longo do tempo {#push-sending-overtime}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_overtime"
->title="Notificações por push: estatísticas de envio ao longo do tempo"
->abstract="O gráfico “Notificações por push: estatísticas de envio ao longo do tempo” apresenta dados sobre notificações por push enviadas, detalhados por hora, dia, semana ou mês."
+>title="Notificações por push - Estatísticas de envio ao longo do tempo"
+>abstract="O gráfico Estatísticas de envio de notificação por push ao longo do tempo apresenta dados sobre notificações por push enviadas, divididas por hora, dia, semana ou mês."
 
 ![](assets/channel_push_sending_statistics.png)
 
@@ -358,12 +358,12 @@ A variável **[!UICONTROL Notificações por push - Estatísticas de envio ao lo
 
 +++
 
-### Notificações por push: estatísticas de rastreamento ao longo do tempo {#push-tracking-overtime}
+### Notificações por push - Estatísticas de rastreamento ao longo do tempo {#push-tracking-overtime}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_overtime"
->title="Notificações por push: estatísticas de rastreamento ao longo do tempo"
->abstract="O gráfico “Notificações por push: estatísticas de rastreamento ao longo do tempo” fornece dados sobre a atividade de perfil das notificações por push, detalhados por hora, dia, semana ou mês."
+>title="Notificações por push - Estatísticas de rastreamento ao longo do tempo"
+>abstract="O gráfico Notificações por push - Estatísticas de rastreamento ao longo do tempo fornece dados sobre a atividade do perfil para suas notificações por push, divididas por hora, dia, semana ou mês."
 
 A variável **[!UICONTROL Notificações por push - Estatísticas de rastreamento ao longo do tempo]** O gráfico fornece uma visão geral detalhada da atividade do perfil relacionada às suas notificações por push. Essa representação gráfica detalha os dados de hora em hora, dia, semana ou mês, oferecendo insights valiosos sobre como o engajamento do recipient evolui em diferentes intervalos de tempo.
 
@@ -375,12 +375,12 @@ A variável **[!UICONTROL Notificações por push - Estatísticas de rastreament
 
 +++
 
-### Notificações por push: motivos de exclusão {#push-excluded-reasons}
+### Notificações por push - Motivos excluídos {#push-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
->title="Motivos de exclusão"
->abstract="A tabela “Motivos de exclusão” e seus gráficos ilustram os vários fatores que levaram perfis de usuário excluídos do público-alvo a não receberem a mensagem."
+>title="Motivos excluídos"
+>abstract="Os gráficos e a tabela Motivos excluídos ilustram os vários fatores que levaram aos perfis de usuário, excluídos do público-alvo direcionado, a não receber a mensagem."
 
 ![](assets/channel_push_excluded.png)
 
@@ -388,32 +388,32 @@ A variável **[!UICONTROL Motivos excluídos]** o gráfico e a tabela exibem os 
 
 Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos motivos de exclusão.
 
-### Notificações por push: motivos de erro {#push-error-reasons}
+### Notificações por push - Motivos de erro {#push-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
 >title="Motivos do erro"
->abstract="A tabela “Motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram durante o processo de envio."
+>abstract="Os gráficos e a tabela de Motivos de erro permitem identificar os erros específicos que ocorreram durante o processo de envio."
 
 ![](assets/channel_push_error.png)
 
 A variável **[!UICONTROL Motivos de erro]** os gráficos e as tabelas fornecem a capacidade de identificar os erros específicos que ocorreram durante o processo de envio de suas notificações por push, oferecendo insights detalhados sobre quaisquer problemas encontrados ao longo do caminho.
 
-### Notificações por push: rastreamento por plataforma {#push-tracking-platform}
+### Notificações por push - Rastreamento por plataforma {#push-tracking-platform}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_platform"
 >title="Estatísticas de rastreamento por plataforma"
->abstract="A tabela “Estatísticas de rastreamento por plataforma” e seu gráfico fornecem dados sobre a atividade de perfil das notificações por push, dependendo do sistema operacional do perfil."
+>abstract="As estatísticas de rastreamento por gráfico de plataforma e tabela fornecem dados sobre a atividade do perfil para suas notificações por push, dependendo do sistema operacional do seu perfil."
 
 A variável **[!UICONTROL Notificações por push - Rastreamento por plataforma]** gráficos e tabelas detalham a atividade dos recipients para a notificação por push, dependendo do sistema operacional do seu perfil.
 
-### Notificações por push: envio por plataforma {#push-sending-platform}
+### Notificações por push - Envio por plataforma {#push-sending-platform}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_platform"
 >title="Estatísticas de envio por plataforma"
->abstract="A tabela “Estatísticas de envio por platforma” e seu gráfico apresentam dados sobre as notificações por push enviadas."
+>abstract="O gráfico e a tabela Sending statistics by platform apresenta dados relacionados às notificações por push enviadas."
 
 ![](assets/channel_push_sending_platform.png)
 
@@ -423,12 +423,12 @@ A variável **[!UICONTROL Notificações por push - Envio por plataforma]** O gr
 
 Do seu **Canal** Relatórios, o menu SMS detalha as principais informações relacionadas ao SMS enviado em suas Campanhas e Jornadas. As métricas estão detalhadas abaixo.
 
-### SMS: estatísticas totais de envio {#sms-sending-statistics}
+### SMS - Estatísticas totais de envio {#sms-sending-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics"
->title="SMS: estatísticas totais de envio"
->abstract="Os KPIs “SMS: estatísticas totais de envio” resumem dados essenciais sobre mensagens SMS, como se foram direcionadas ou entregues."
+>title="SMS - Estatísticas totais de envio"
+>abstract="Os KPIs SMS - Total de estatísticas de envio resumem dados essenciais sobre suas mensagens SMS, como Segmentado ou Entregue."
 
 ![](assets/channel_sms_total_sending.png)
 
@@ -458,12 +458,12 @@ A variável **[!UICONTROL SMS - Estatísticas totais de envio]** Os KPIs servem 
 
 +++
 
-### SMS: estatísticas totais de rastreamento {#sms-tracking-statistics}
+### SMS - Estatísticas totais de rastreamento {#sms-tracking-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics"
->title="SMS: estatísticas totais de rastreamento"
->abstract="As “Estatísticas totais de rastreamento de SMS” fornecem dados sobre a atividade de perfil de mensagens SMS."
+>title="SMS - Estatísticas totais de rastreamento"
+>abstract="As estatísticas de rastreamento de SMS - Total fornecem dados sobre a atividade do perfil para suas mensagens SMS."
 
 ![](assets/channel_sms_tracking.png)
 
@@ -471,12 +471,12 @@ A variável **[!UICONTROL SMS - Estatísticas de rastreamento total]** O widget 
 
 * **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado na mensagem SMS.
 
-### SMS: estatísticas de envio ao longo do tempo {#sms-sending-statistics-overtime}
+### SMS - Estatísticas de envio ao longo do tempo {#sms-sending-statistics-overtime}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics_overtime"
->title="SMS: estatísticas de envio ao longo do tempo"
->abstract="O gráfico “SMS: estatísticas de envio ao longo do tempo” apresenta dados sobre mensagens SMS enviadas, detalhados por hora, dia, semana ou mês."
+>title="SMS - Estatísticas de envio ao longo do tempo"
+>abstract="O gráfico SMS - Estatísticas de envio ao longo do tempo apresenta dados sobre mensagens SMS enviadas, divididas por hora, dia, semana ou mês."
 
 ![](assets/channel_sms_sending_overtime.png)
 
@@ -492,12 +492,12 @@ A variável **[!UICONTROL SMS - Estatísticas de envio ao longo do tempo]** O gr
 
 +++
 
-### SMS: estatísticas de rastreamento ao longo do tempo {#sms-tracking-statistics-overtime}
+### SMS - Estatísticas de rastreamento ao longo do tempo {#sms-tracking-statistics-overtime}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics_overtime"
->title="SMS: estatísticas de rastreamento ao longo do tempo"
->abstract="O gráfico “SMS: estatísticas de rastreamento ao longo do tempo” fornece dados sobre a atividade de perfil de mensagens SMS, detalhados por hora, dia, semana ou mês."
+>title="SMS - Estatísticas de rastreamento ao longo do tempo"
+>abstract="O gráfico SMS - Estatísticas de rastreamento ao longo do tempo fornece dados sobre a atividade do perfil para suas mensagens SMS, discriminadas por hora, dia, semana ou mês."
 
 ![](assets/channel_sms_tracking_overtime.png)
 
@@ -505,12 +505,12 @@ A variável **[!UICONTROL SMS - Estatísticas de rastreamento ao longo do tempo]
 
 * **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado na mensagem SMS.
 
-### Motivos de exclusão {#sms-excluded-reasons}
+### Motivos excluídos {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_excluded_reasons"
->title="Motivos de exclusão"
->abstract="A tabela “Motivos de exclusão” e seus gráficos ilustram os vários fatores que levaram perfis de usuário excluídos do público-alvo a não receberem a mensagem."
+>title="Motivos excluídos"
+>abstract="Os gráficos e a tabela Motivos excluídos ilustram os vários fatores que levaram aos perfis de usuário, excluídos do público-alvo direcionado, a não receber a mensagem."
 
 ![](assets/channel_sms_excluded.png)
 
@@ -523,7 +523,7 @@ Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos mot
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_bounce_reasons"
 >title="Motivos de rejeição"
->abstract="A tabela “Motivos de rejeições” e seus gráficos contêm dados relacionados às mensagens rejeitadas."
+>abstract="Os gráficos e a tabela Motivos de rejeições contêm os dados disponíveis relacionados às mensagens rejeitadas."
 
 ![](assets/channel_sms_bounce_reasons.png)
 
@@ -534,7 +534,7 @@ A variável **[!UICONTROL Motivos de rejeições]** Os gráficos e as tabelas fo
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_error_reasons"
 >title="Motivos do erro"
->abstract="A tabela “Motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram durante o processo de envio."
+>abstract="Os gráficos e a tabela de Motivos de erro permitem identificar os erros específicos que ocorreram durante o processo de envio."
 
 A variável **[!UICONTROL Motivos de erro]** Os gráficos e as tabelas permitem identificar os erros específicos que ocorreram durante o processo de envio de suas mensagens SMS, facilitando uma análise completa de todos os problemas encontrados.
 
@@ -542,12 +542,12 @@ A variável **[!UICONTROL Motivos de erro]** Os gráficos e as tabelas permitem 
 
 Do seu **Canal** relatórios, a **Correspondência direta** O menu detalha as informações principais relativas às mensagens de correspondência direta enviadas em seu **Campanhas** e **Jornadas**. As métricas estão detalhadas abaixo.
 
-### Correspondência direta: estatísticas totais de envio {#direct-mail-total-sending}
+### Correspondência direta - Estatísticas totais de envio {#direct-mail-total-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_sending_statistics"
->title="Correspondência direta: estatísticas totais de envio"
->abstract="Os KPIs “Correspondência direta: estatísticas totais de envio” resumem dados essenciais sobre mensagens de correspondência direta, como se foram direcionadas ou entregues."
+>title="Correspondência direta - Estatísticas totais de envio"
+>abstract="Os KPIs de correspondência direta - Total sending statistics resumem dados essenciais sobre suas mensagens de correspondência direta, como Segmentação ou Entregue."
 
 ![](assets/channel_direct_sending.png)
 
@@ -569,12 +569,12 @@ A variável **[!UICONTROL Correspondência direta - Total de estatísticas de en
 
 +++
 
-### Motivos de exclusão {#direct-mail-excluded-reasons}
+### Motivos excluídos {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_excluded_reasons"
->title="Motivos de exclusão"
->abstract="A tabela “Motivos de exclusão” e seus gráficos ilustram os vários fatores que levaram perfis de usuário excluídos do público-alvo a não receberem a mensagem."
+>title="Motivos excluídos"
+>abstract="Os gráficos e a tabela Motivos excluídos ilustram os vários fatores que levaram aos perfis de usuário, excluídos do público-alvo direcionado, a não receber a mensagem."
 
 ![](assets/channel_direct_excluded.png)
 
@@ -587,7 +587,7 @@ Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos mot
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_error_reasons"
 >title="Motivos do erro"
->abstract="A tabela “Motivos de erro” e seus gráficos permitem identificar os erros específicos que ocorreram durante o processo de envio."
+>abstract="Os gráficos e a tabela de Motivos de erro permitem identificar os erros específicos que ocorreram durante o processo de envio."
 
 ![](assets/channel_direct_error.png)
 
@@ -597,12 +597,12 @@ A variável **[!UICONTROL Correspondência direta - Motivos de erro]** fornecer 
 
 Nos relatórios de Canal, o menu No aplicativo detalha as principais informações relacionadas às mensagens no aplicativo enviadas em suas Campanhas e Jornadas. As métricas estão detalhadas abaixo.
 
-### Total de engajamento in-app {#inapp-total-engagement}
+### Engajamento total no aplicativo {#inapp-total-engagement}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement"
->title="Total de engajamento no aplicativo"
->abstract="Os KPIs “Total de engajamento no aplicativo” fornecem informações abrangentes sobre o engajamento de visitantes com mensagens no aplicativo, incluindo métricas como impressões e interações."
+>title="No aplicativo - Engajamento total"
+>abstract="Os KPIs de engajamento total no aplicativo fornecem informações abrangentes sobre o engajamento de seus visitantes com suas mensagens no aplicativo, incluindo métricas como Impressões e Interações."
 
 ![](assets/channel_inapp_engagement.png)
 
@@ -616,12 +616,12 @@ A variável **[!UICONTROL Engajamento total no aplicativo]** Os KPIs fornecem in
 
 +++
 
-### Engajamento in-app ao longo do tempo {#inapp-engagement-overtime}
+### Horas extras de engajamento no aplicativo {#inapp-engagement-overtime}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement_overtime"
->title="Engajamento no aplicativo ao longo do tempo"
->abstract="O gráfico “Engajamento no aplicativo ao longo do tempo” rastreia impressões e interações no aplicativo, fornecendo detalhamentos por hora, dia, semana e mês."
+>title="No aplicativo - Engajamento ao longo do tempo"
+>abstract="O gráfico de horas extras no aplicativo - Envolvimento rastreia impressões e interações no aplicativo, fornecendo detalhamentos por hora, dia, semana e mês."
 
 ![](assets/channel_inapp_engagement_overtime.png)
 
@@ -639,12 +639,12 @@ A variável **[!UICONTROL Hora extra de engajamento no aplicativo]** O gráfico 
 
 Do seu **Canal** relatórios, o menu da Web detalha as principais informações relacionadas às páginas da Web incluídas em seu **Campanhas** e **Jornadas**. As métricas estão detalhadas abaixo.
 
-### Total de engajamento na Web {#web-engagement-total}
+### Web - Engajamento total {#web-engagement-total}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement"
->title="Total de engajamento na Web"
->abstract="Os KPIs “Total de engajamento na Web” fornecem informações abrangentes sobre o engajamento de visitantes com as páginas da Web, incluindo métricas como impressões e interações."
+>title="Web - Engajamento total"
+>abstract="Os KPIs de envolvimento total da Web fornecem informações abrangentes sobre o envolvimento de seus visitantes com suas páginas da Web, incluindo métricas como impressões e interações."
 
 ![](assets/channel_web_engagement.png)
 
@@ -658,12 +658,12 @@ A variável **[!UICONTROL Engajamento total na Web]** Os KPIs oferecem insights 
 
 +++
 
-### Total de engajamento na web ao longo do tempo {#web-engagement-total-overtime}
+### Web - Engajamento total ao longo do tempo {#web-engagement-total-overtime}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement_overtime"
->title="Total de engajamento na web ao longo do tempo"
->abstract="O gráfico “Total de engajamento na web ao longo do tempo” rastreia as impressões e interações de páginas da Web, fornecendo detalhamentos por hora, dia, semana e mês."
+>title="Web - Engajamento total ao longo do tempo"
+>abstract="O gráfico de horas extras da Web - Envolvimento rastreia as impressões e interações das páginas da Web, fornecendo detalhamentos por hora, dia, semana e mês."
 
 ![](assets/channel_web_engagement_overtime.png)
 
