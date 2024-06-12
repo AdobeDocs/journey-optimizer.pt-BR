@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
+source-git-commit: 07c453366280b21f5546322430a90752fd996099
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 9%
@@ -26,7 +26,6 @@ Uma permissão específica deve ser concedida para acessar o **Superfícies do a
 1. Se você estiver usando experimentos de conteúdo, siga os requisitos listados em [nesta seção](#experiment-prerequisite).
 
 Depois de concluída, você pode criar, configurar e enviar sua primeira mensagem no aplicativo. Saiba como fazer isso [nesta seção](create-in-app.md).
-
 
 ## Pré-requisitos de entrega {#delivery-prerequisites}
 
