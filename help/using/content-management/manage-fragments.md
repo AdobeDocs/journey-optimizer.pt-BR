@@ -7,15 +7,20 @@ feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
+exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
+source-git-commit: e35f6b8ddc1e7bb8a737b33be200115a3022c99c
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
 
-
 # Gerenciar fragmentos {#manage-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragment_statuses"
+>title="Novos status de fragmentos"
+>abstract="Desde **Rascunho** e **Ao vivo** Os status foram introduzidos com a versão de junho do Journey Optimizer. Todos os fragmentos criados antes desta versão têm o status &quot;Rascunho&quot;, mesmo se forem usados em uma jornada ou campanha. Se você fizer qualquer alteração nesses fragmentos, será necessário publicá-los para torná-los &quot;Ao vivo&quot; e propagar as alterações para as campanhas e jornadas associadas."
 
 Para gerenciar os fragmentos, acesse a lista de fragmentos na **[!UICONTROL Gestão de conteúdo]** > **[!UICONTROL Fragmentos]** menu esquerdo.
 
