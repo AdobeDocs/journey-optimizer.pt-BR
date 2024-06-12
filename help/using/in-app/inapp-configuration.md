@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
+source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 10%
+source-wordcount: '956'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 Para enviar mensagens no aplicativo em suas jornadas e campanhas com [!DNL Journey Optimizer], você precisa seguir as etapas de configuração a seguir.
 
 1. Certifique-se de ter as permissões corretas nas campanhas do Journey Optimizer antes de iniciar, mesmo que planeje usar nas jornadas apenas mensagens no aplicativo. As permissões de campanha ainda são necessárias. [Saiba mais](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
-Uma permissão específica deve ser concedida para acessar o **Superfícies do aplicativo** no menu Coleta de dados do Adobe Experience Platform. Saiba mais [neste vídeo](#video).
+Uma permissão específica deve ser concedida para acessar o **Superfícies do aplicativo** no menu Coleta de dados do Adobe Experience Platform. Saiba mais em [este vídeo](#video).
 1. Ative o Adobe Journey Optimizer na sequência de dados da Coleção de dados da Adobe Experience Platform e verifique a política de mesclagem padrão na Adobe Experience Platform, conforme detalhado na [Pré-requisitos de entrega](#delivery-prerequisites) abaixo.
 1. Crie e configure uma superfície de aplicativo na Coleção de dados da Adobe Experience Platform, conforme detalhado em [nesta seção](#channel-prerequisites).
 1. Se você estiver usando experimentos de conteúdo, siga os requisitos listados em [nesta seção](#experiment-prerequisite).
@@ -34,11 +34,11 @@ Para que as mensagens no aplicativo sejam entregues corretamente, as seguintes c
 
 * No [Coleta de dados do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=pt-BR){target="_blank"}, verifique se você tem um fluxo de dados definido, como na seção **[!UICONTROL Adobe Experience Platform]** serviço que você tem o Adobe Experience Platform Edge e **[!UICONTROL Adobe Journey Optimizer]** opção ativada.
 
-  Isso garante que os eventos de entrada do Journey Optimizer sejam manipulados corretamente pelo Adobe Experience Platform Edge. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR){target="_blank"}
+  Isso garante que os eventos de entrada do Journey Optimizer sejam manipulados corretamente pelo Adobe Experience Platform Edge. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](assets/inapp_config_6.png)
 
-* Entrada [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* Entrada [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"}, verifique se você tem a política de mesclagem padrão com o **[!UICONTROL Política de mesclagem ativa na borda]** opção ativada. Para fazer isso, selecione uma política na **[!UICONTROL Cliente]** > **[!UICONTROL Perfis]** > **[!UICONTROL Políticas de mesclagem]** menu Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   Esta política de mesclagem é usada por [!DNL Journey Optimizer] canais de entrada para ativar e publicar corretamente campanhas de entrada na borda. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=pt-BR){target="_blank"}
 
@@ -47,6 +47,12 @@ Para que as mensagens no aplicativo sejam entregues corretamente, as seguintes c
   >Ao usar um personalizado **[!UICONTROL Preferência do conjunto de dados]** política de mesclagem, adicione a variável **[!UICONTROL Jornada entrada]** conjunto de dados na política de mesclagem especificada.
 
   ![](assets/inapp_config_8.png)
+
+* Para solucionar problemas de entrega de experiências móveis do Journey Optimizer, você pode usar o **Entrega de borda** exibir em **Adobe Experience Platform Assurance**. Este plug-in permite que você inspecione chamadas de solicitação em detalhes, verifique se as chamadas de borda esperadas ocorrem conforme previsto e examine dados de perfil, incluindo mapas de identidade, associações de segmento e configurações de consentimento. Além disso, você pode revisar as atividades para as quais a solicitação se qualificou e identificar aquelas que não foram qualificadas.
+
+  Usar o **Entrega de borda** O plug-in ajuda você a obter os insights necessários para entender e solucionar problemas de suas implementações de entrada de maneira eficaz.
+
+  [Saiba mais sobre a exibição Entrega de borda](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## Pré-requisitos de configuração de canal {#channel-prerequisites}
 
@@ -132,7 +138,7 @@ Saiba como adicionar conjuntos de dados para relatórios de experimento de conte
 >
 >O conjunto de dados é usado como somente leitura pelo [!DNL Journey Optimizer] sistema de relatórios e não afeta a coleta ou a assimilação de dados.
 
-Se você estiver **não** usando as seguintes opções [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), adicione os seguintes grupos de campos: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, e `Web Details`. Estas são necessárias para a [!DNL Journey Optimizer] relatórios de experimento de conteúdo à medida que eles rastream em quais experimentos e tratamentos cada perfil está participando.
+Se você estiver **não** usando as seguintes opções [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"} para o esquema do conjunto de dados: `AEP Web SDK ExperienceEvent` e `Consumer Experience Event` (conforme definido em [esta página](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), adicione os seguintes grupos de campos: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, e `Web Details`. Estas são necessárias para a [!DNL Journey Optimizer] relatórios de experimento de conteúdo à medida que eles rastream em quais experimentos e tratamentos cada perfil está participando.
 
 >[!NOTE]
 >
