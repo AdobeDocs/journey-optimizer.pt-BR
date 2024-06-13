@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ## Atualizações de junho de 2024
 
-* Agora você pode trabalhar com o Assistente de IA do Adobe Experience Platform no Adobe Journey Optimizer. [Saiba mais](../start/ai-assistant.md)
+* Agora é possível trabalhar com o Assistente de IA da Adobe Experience Platform no Adobe Journey Optimizer. [Saiba mais](../start/ai-assistant.md)
 
 * **Suporte a várias regras na Gestão de decisões** - Agora você pode adicionar até 10 regras de limitação para uma determinada oferta na Gestão de decisões. Isso permite aumentar o nível de controle sobre como as ofertas são enviadas. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
@@ -51,7 +51,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <td>
 <p>A Escolha de experiências simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.</p>
 <p>Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada por meio do novo canal de experiência baseado em código, agora acessível nas campanhas do Journey Optimizer. As políticas de decisão da Escolha de experiências estão disponíveis para uso somente em campanhas de experiência baseadas em código.</p>
-<p>No momento, a Escolha de experiências está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
+<p>No momento, a Escolha de experiências está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Para obter mais informações, consulte a <a href="../experience-decisioning/gs-experience-decisioning.md">documentação detalhada</a>.</p>
 </td>
@@ -62,14 +62,14 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Personalização de superfície de email - Disponibilidade limitada</strong><br/></th>
+<th><strong>Personalização de superfície de email – Disponibilidade limitada</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível definir subdomínios dinâmicos e parâmetros de cabeçalho personalizados ao criar superfícies de canal de email, para aumentar a flexibilidade e o controle sobre suas configurações de email.</p>
-<p>No momento, a personalização de superfície de email está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.</p>
+<p>Agora é possível definir subdomínios dinâmicos e parâmetros de cabeçalho personalizados ao criar superfícies de canais de email, para aumentar a flexibilidade e o controle sobre suas configurações de email.</p>
+<p>No momento, a personalização de superfície de email está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.</p>
 <p>Para obter mais informações, consulte a <a href="../email/surface-personalization.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -157,7 +157,7 @@ As seguintes melhorias foram adicionadas desde a versão beta até a versão atu
 
   >[!AVAILABILITY]
   >
-  >No momento, esse recurso está na versão beta, disponível apenas para clientes beta. Para participar do programa beta, entre em contato com o representante da Adobe.
+  >No momento, esse recurso está na versão beta, disponível apenas para clientes beta. Para participar do programa beta, entre em contato com seu representante da Adobe.
 
 <!--
 **Audiences**
