@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 91%
+source-wordcount: '826'
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,9 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ## Atualizações de junho de 2024
 
-Agora você pode trabalhar com o Assistente de IA do Adobe Experience Platform no Adobe Journey Optimizer. [Saiba mais](../start/ai-assistant.md)
+* Agora você pode trabalhar com o Assistente de IA do Adobe Experience Platform no Adobe Journey Optimizer. [Saiba mais](../start/ai-assistant.md)
+
+* **Suporte a várias regras na Gestão de decisões** - Agora você pode adicionar até 10 regras de limitação para uma determinada oferta na Gestão de decisões. Isso permite aumentar o nível de controle sobre como as ofertas são enviadas. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
 ## Notas de versão de maio de 2024 {#may-2024}
 
@@ -37,7 +39,6 @@ Agora você pode trabalhar com o Assistente de IA do Adobe Experience Platform n
 ### Novos recursos {#e-features}
 
 Essa versão traz os novos recursos detalhados abaixo.
-
 
 <table>
 <thead>
