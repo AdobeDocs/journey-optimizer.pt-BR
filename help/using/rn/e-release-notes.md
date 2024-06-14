@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 553743d6d041cd719eb3c8bf7f02288595d8c2a5
+source-git-commit: 1804eb38c6c0ffd41aedebf612048e7aee90a54c
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '648'
 ht-degree: 24%
 
 ---
@@ -167,7 +167,7 @@ Esta versão vem com as melhorias listadas abaixo.
 **Jornadas**
 
 * O tempo limite global do jornada foi aumentado de 30 para 91 dias.
-* O Adobe Journey Optimizer agora é compatível com solicitações de exclusão/acesso de privacidade.
+* O Adobe Journey Optimizer agora é compatível com solicitações de exclusão/acesso de privacidade, bem como com solicitações de gerenciamento do ciclo de vida dos dados.
 * Agora é possível redimensionar as colunas no inventário de jornadas.
 * **Editor de expressão avançado na configuração do Evento** Agora é GA - Agora você pode aproveitar o editor de expressão avançado ao configurar um evento, permitindo definir expressões mais complexas ou usar funções na condição de id de evento. Esse recurso foi lançado com disponibilidade limitada para clientes selecionados. [Leia mais](../event/about-creating.md)
 * **Políticas de mesclagem** Agora estão disponíveis no mercado - As políticas de mesclagem usadas por uma Jornada agora estão visíveis e consistentes em toda a jornada. Esse recurso foi lançado com disponibilidade limitada para clientes selecionados. [Leia mais](../building-journeys/journey-gs.md#merge-policies)
