@@ -5,11 +5,10 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 feature: Release Notes
 topic: Content Management
-exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f34e7e246339371be8c19c54b9fff921177f5ace
+source-git-commit: 1840e32efbea7aaff50c497d6387232a4e02d2c9
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 22%
+source-wordcount: '456'
+ht-degree: 26%
 
 ---
 
@@ -150,7 +149,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Gestão de decisões**
 
-* **Suporte a várias regras na Gestão de decisões** - Agora você pode adicionar até 10 regras de limitação para uma determinada oferta na Gestão de decisões. Isso permite aumentar o nível de controle sobre a maneira como as ofertas são enviadas. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+* **Suporte a várias regras na Gestão de decisões** - Agora você pode adicionar até 10 regras de limitação para uma determinada oferta na Gestão de decisões. Isso permite aumentar o nível de controle sobre como as ofertas são enviadas. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
