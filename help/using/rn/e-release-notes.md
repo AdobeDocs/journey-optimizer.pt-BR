@@ -6,10 +6,10 @@ description: Notas de versão antecipadas do Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf4437dd9018466aea9b03b0decab76abb696952
+source-git-commit: f34e7e246339371be8c19c54b9fff921177f5ace
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 25%
+source-wordcount: '454'
+ht-degree: 22%
 
 ---
 
@@ -167,7 +167,7 @@ Esta versão vem com as melhorias listadas abaixo.
 * O tempo limite global do jornada foi aumentado de 30 para 91 dias.
 * O Adobe Journey Optimizer agora é compatível com solicitações de exclusão/acesso de privacidade, bem como com solicitações de gerenciamento do ciclo de vida dos dados.
 * Agora é possível redimensionar as colunas no inventário de jornadas.
-* **Editor de expressão avançado na configuração do Evento** Agora é GA - Agora você pode aproveitar o editor de expressão avançado ao configurar um evento, permitindo definir expressões mais complexas ou usar funções na condição de id de evento. Esse recurso foi lançado com disponibilidade limitada para clientes selecionados. [Leia mais](../event/about-creating.md)
+* **Editor de expressão avançado na configuração do Evento** Agora é GA - Agora você pode aproveitar o editor de expressão avançado ao configurar um evento, permitindo definir expressões mais complexas ou usar funções na condição de id de evento. Esse recurso foi lançado com disponibilidade limitada para clientes selecionados. <!--[Read more](../event/about-creating.md)-->
 * **Políticas de mesclagem** Agora estão disponíveis no mercado - As políticas de mesclagem usadas por uma Jornada agora estão visíveis e consistentes em toda a jornada. Esse recurso foi lançado com disponibilidade limitada para clientes selecionados. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
@@ -188,7 +188,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Canal no aplicativo**
 
-* **Fragmento da expressão** - Os fragmentos de expressão agora estão disponíveis para o **Canal no aplicativo**. [Leia mais](../personalization/use-expression-fragments.md)
+* **Fragmento da expressão** - Os fragmentos de expressão agora estão disponíveis para o **Canal no aplicativo**. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
 * Agora você pode usar o plug-in Edge Delivery para obter as informações necessárias para entender e solucionar problemas de suas implementações de entrada.
