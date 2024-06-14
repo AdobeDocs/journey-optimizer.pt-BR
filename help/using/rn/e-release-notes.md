@@ -5,10 +5,10 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 feature: Release Notes
 topic: Content Management
-source-git-commit: 1840e32efbea7aaff50c497d6387232a4e02d2c9
+source-git-commit: 50b0a2eb8794c79d10f09dd12fd6f996402d72ea
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 26%
+source-wordcount: '434'
+ht-degree: 27%
 
 ---
 
@@ -175,9 +175,9 @@ Esta versão vem com as melhorias listadas abaixo.
 
 * Ao criar uma campanha no Adobe Journey Optimizer, agora é possível escolher o tipo de campanha (agendada ou acionada) em um novo modal.
 
-**Canal de email**
+<!--**Email channel**
 
-* **List-unsubscribe** - Após os anúncios recentes do Gmail e do Yahoo para remetentes em massa, o Journey Optimizer é compatível com a opção &quot;post/1-click&quot; List-Unsubscribe. <!--Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)-->
+* **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)-->
 
 
 **Canal SMS**
