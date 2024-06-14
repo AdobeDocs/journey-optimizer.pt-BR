@@ -4,14 +4,12 @@ product: journey optimizer
 title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 feature: Release Notes
-hide: true
-hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d27689b2b89374859a045a09bbfc41bdf70f750e
+source-git-commit: cf4437dd9018466aea9b03b0decab76abb696952
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 32%
+source-wordcount: '458'
+ht-degree: 25%
 
 ---
 
@@ -39,7 +37,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tr>
 <td>
 <p>Se você estiver enviando emails em um novo endereço IP, agora é possível executar facilmente workflows de aquecimento de IP diretamente da interface do usuário. O Adobe Journey Optimizer oferece uma maneira padronizada e eficiente de aquecer seus endereços IP que segue as práticas recomendadas para uma entrega ideal.</p>
-<p>Para obter mais informações, consulte a <a href="../configuration/ip-warmup-gs.md">documentação detalhada</a>.</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -152,7 +150,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Gestão de decisões**
 
-* **Suporte a várias regras na Gestão de decisões** - Agora você pode adicionar até 10 regras de limitação para uma determinada oferta na Gestão de decisões. Isso permite aumentar o nível de controle sobre como as ofertas são enviadas. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
+* **Suporte a várias regras na Gestão de decisões** - Agora você pode adicionar até 10 regras de limitação para uma determinada oferta na Gestão de decisões. Isso permite aumentar o nível de controle sobre a maneira como as ofertas são enviadas. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -170,7 +168,7 @@ Esta versão vem com as melhorias listadas abaixo.
 * O Adobe Journey Optimizer agora é compatível com solicitações de exclusão/acesso de privacidade, bem como com solicitações de gerenciamento do ciclo de vida dos dados.
 * Agora é possível redimensionar as colunas no inventário de jornadas.
 * **Editor de expressão avançado na configuração do Evento** Agora é GA - Agora você pode aproveitar o editor de expressão avançado ao configurar um evento, permitindo definir expressões mais complexas ou usar funções na condição de id de evento. Esse recurso foi lançado com disponibilidade limitada para clientes selecionados. [Leia mais](../event/about-creating.md)
-* **Políticas de mesclagem** Agora estão disponíveis no mercado - As políticas de mesclagem usadas por uma Jornada agora estão visíveis e consistentes em toda a jornada. Esse recurso foi lançado com disponibilidade limitada para clientes selecionados. [Leia mais](../building-journeys/journey-gs.md#merge-policies)
+* **Políticas de mesclagem** Agora estão disponíveis no mercado - As políticas de mesclagem usadas por uma Jornada agora estão visíveis e consistentes em toda a jornada. Esse recurso foi lançado com disponibilidade limitada para clientes selecionados. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
