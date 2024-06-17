@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 68c09769a32aeb1132f09e0f9082c7ccb6d17a8b
+source-git-commit: 0e5d1e7a7520579b1fae7898f67cb10ee3915e1c
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 71%
@@ -33,7 +33,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Data de lançamento**: 18 a 19 de junho de 2024
 
-### Novos recursos {#june24-features}
+### Novos recursos {#june-24-features}
 
 Essa versão traz os novos recursos detalhados abaixo.
 
@@ -114,6 +114,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tr>
 <td>
 <p>You can now effortlessly create content in multiple languages within a single campaign or journey. With this feature, you can switch between languages when editing your campaign or your journey, streamlining the entire editing process and improving your capability to efficiently manage multilingual content.</p>
+<p>Multilingual content is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
@@ -130,6 +131,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tr>
 <td>
 <p>Already available in campaigns, Adobe Journey Optimizer now supports experiments in journeys. Experiments are randomized trials, which in the context of online testing, means that you expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, you can then measure the outcome metrics you are interested in, such as opens of emails, subscriptions, or purchases.</p>
+<p>Experimentation in journeys is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
@@ -174,7 +176,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Jornadas**
 
-* O tempo limite global do jornada foi aumentado de 30 para 91 dias.
+* O tempo limite global do jornada foi aumentado de 30 para 90 dias.
 * O Adobe Journey Optimizer agora é compatível com solicitações de exclusão/acesso de privacidade, bem como com solicitações de gerenciamento do ciclo de vida dos dados.
 * Agora é possível redimensionar as colunas no inventário de jornadas.
 * **Editor de expressão avançado na configuração do Evento** Agora é GA - Agora você pode aproveitar o editor de expressão avançado ao configurar um evento, permitindo definir expressões mais complexas ou usar funções na condição de id de evento. Esse recurso foi lançado com disponibilidade limitada para clientes selecionados. <!--[Read more](../event/about-creating.md)-->
