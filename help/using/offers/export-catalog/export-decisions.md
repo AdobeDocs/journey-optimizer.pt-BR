@@ -9,7 +9,7 @@ exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1530'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** _id
 **Título:** Identificador
 **Descrição:** Um identificador exclusivo do registro.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -66,7 +66,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** descrição
 **Título:** Descrição
 **Descrição:** Descrição do critério. É usado para transmitir intenções legíveis por humanos sobre como ou por que esse critério foi construído e como ele está afetando a decisão.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -82,21 +82,21 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
   **Campo:** descrição
   **Título:** Descrição
   **Descrição:** Descrição da seleção de opção. É usado para transmitir intenções legíveis por humanos sobre como ou por que essa seleção de opção foi construída e/ou qual opção corresponderá.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
 
 * Filtro de opção
 
   **Campo:** filtro
   **Título:** Filtro de opção
   **Descrição:** A referência a um filtro baseado em qualificador de coleção (anteriormente conhecido como &quot;etiqueta&quot;) que corresponde às opções de um estoque usando seus qualificadores de coleção anexados. O valor é o URI (@id) da regra de decisão referenciada. Consulte schema https://ns.adobe.com/experience/decisioning/filter.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
 
 * Tipo de Restrição de Perfil
 
   **Campo:** optionSelectionType
   **Título:** Tipo de Restrição de Perfil
   **Descrição:** Determina se alguma restrição está definida no momento e como as restrições são expressas. Pode ser por meio de uma consulta de filtro ou por meio de uma ou mais associações de público-alvo.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
   **Valores possíveis:** &quot;none&quot; (padrão), &quot;directList&quot;, &quot;filter&quot;
 
 * Lista de opções
@@ -121,7 +121,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 
   **Título:** Identificador de posicionamento
   **Descrição:** Uma referência a uma entidade de posicionamento. O valor é o URI (@id) do posicionamento referenciado. Consulte schema https://ns.adobe.com/experience/decisioning/placement.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
 
 +++
 
@@ -139,7 +139,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** descrição
 **Título:** Descrição
 **Descrição:** Descrição de restrição de perfil. É usado para transmitir intenções legíveis por humanos sobre como ou por que essa restrição de perfil foi construída e/ou qual opção será incluída ou excluída por ela.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -148,7 +148,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** eligibilityRule
 **Título:** Regra de elegibilidade
 **Descrição:** Uma referência a uma regra de decisão que é avaliada como verdadeira ou falsa para um determinado perfil e/ou outros objetos XDM contextuais fornecidos. A regra é usada para decidir se a opção se qualifica para um determinado perfil. O valor é o URI (@id) da regra de decisão referenciada. Consulte schema https://ns.adobe.com/experience/decisioning/rule.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -179,7 +179,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
   **Campo:** _id
   **Título:** Identificador
   **Descrição:** Identidade do público no namespace relacionado.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
 
 * namespace
 
@@ -194,14 +194,14 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
      **Campo:** código
      **Título:** Código
      **Descrição:** O código é um identificador legível por humanos para o namespace e pode ser usado para solicitar a id técnica do namespace que é usada para o processamento do gráfico de identidade.
-     **Tipo:** sequência de caracteres
+     **Tipo:** string
 
 * Identificador de experiência
 
   **Campo:** xid
   **Título:** Identificador de experiência
   **Descrição:** Quando presente, esse valor representa um identificador de namespace cruzado que é exclusivo em todos os identificadores de escopo de namespace em todos os namespaces.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
 
 +++
 
@@ -226,14 +226,14 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
   **Campo:** função
   **Título:** Função de pontuação
   **Descrição:** Uma referência a uma função que calcula uma pontuação numérica para essa opção de decisão. As opções de decisão serão classificadas por essa pontuação. O valor dessa propriedade é o URI (@id) da função a ser chamada com uma opção de cada vez. Consulte schema https://ns.adobe.com/experience/decisioning/function.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
 
 * Tipo de avaliação do pedido**
 
   **Campo:** orderEvaluationType
   **Título:** Tipo de avaliação do pedido
   **Descrição:** Especifica qual mecanismo de avaliação de pedido é usado, prioridade estática das opções de decisão, uma função de pontuação que calcula um valor numérico para cada opção ou um modelo de IA que recebe uma lista para ordená-lo.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
   **Valores possíveis:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * Estratégia de classificação
@@ -241,7 +241,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
   **Campo:** rankingStrategy
   **Título:** Estratégia de classificação
   **Descrição:** Uma referência a uma estratégia que classifica uma lista de opções de decisão. As opções de decisão serão retornadas em uma lista ordenada. O valor dessa propriedade é o URI (@id) da função a ser chamada com uma opção de cada vez. Consulte schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
 
 +++
 
@@ -261,7 +261,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** endTime
 **Título:** Data e hora de término da atividade
 **Descrição:** Data e hora de término da decisão (anteriormente conhecida como atividade). A propriedade tem a semântica da propriedade &#39;endTime&#39; de schema.org definida em https://schema.org/Action.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -270,7 +270,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** fallback
 **Título:** Opção de Fallback
 **Descrição:** A referência a uma opção de fallback usada ao tomar decisões no contexto desta decisão não qualifica nenhuma das opções regulares (isso normalmente acontece quando restrições rígidas são aplicadas). O valor é o URI (@id) da opção de fallback referenciada.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -279,7 +279,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** name
 **Título:** Nome da atividade
 **Descrição:** Nome da decisão (anteriormente conhecida como atividade) que é exibido em várias interfaces do usuário.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -288,7 +288,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** startTime
 **Título:** Data e hora de início da atividade
 **Descrição:** Data de início e hora de término da decisão (anteriormente conhecida como atividade). A propriedade tem a semântica da propriedade &#39;startTime&#39; de schema.org definida em https://schema.org/Action.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -304,6 +304,6 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** etag
 **Título:** ETag de atividade
 **Descrição:** A revisão na qual o objeto de decisão (anteriormente conhecido como atividade) estava quando o instantâneo foi tirado.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++

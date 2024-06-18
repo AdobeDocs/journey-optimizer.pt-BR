@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Atividade de espera
+title: Atividade Aguardar
 description: Saiba como configurar a atividade de espera
 feature: Journeys, Activities
 topic: Content Management
@@ -12,16 +12,16 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 846c601c02a28119dddb3029e5273cfccf141a2c
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
 
-# Atividade de espera {#wait-activity}
+# Atividade Aguardar {#wait-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Atividade de espera"
->abstract="Se quiser aguardar antes de executar a próxima atividade no caminho, você poderá usar uma atividade Wait. Ela permite definir o momento em que a próxima atividade será executada. Duas opções estão disponíveis: duração e personalizado."
+>abstract="Se quiser esperar antes de executar a próxima atividade no caminho, você pode usar uma atividade Esperar. Ela permite definir o momento em que a próxima atividade será executada. Duas opções estão disponíveis: duração e personalizado."
 
 Você pode usar um **[!UICONTROL Aguardar]** atividade para definir uma duração antes de executar a próxima atividade.  A duração máxima de espera é **29 dias**.
 

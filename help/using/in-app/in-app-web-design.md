@@ -11,7 +11,7 @@ hidefromtoc: true
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '780'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -118,7 +118,7 @@ Se a variável **[!UICONTROL Modo de formatação avançado]** estiver ativada, 
 
 ### Botões {#add-buttons}
 
-Adicione botões para que os usuários interajam com a mensagem no aplicativo.
+Adicione botões para a interação com mensagens no aplicativo.
 
 ![](assets/in_app_web_design_5.png)
 

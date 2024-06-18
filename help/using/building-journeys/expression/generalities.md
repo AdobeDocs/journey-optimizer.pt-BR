@@ -30,7 +30,7 @@ As expressões serão avaliadas da esquerda para a direita. A associatividade em
 | `4 + 2 * 10` | <ul><li>&#39;*&#39; tem prioridade sobre &#39;+&#39;: 2 * 10 é avaliado → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Os parênteses alteram a prioridade: (4 + 2) é avaliado → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## Diferencia maiúsculas de minúsculas{#case-sensitivity}
+## Diferenciação de maiúsculas e minúsculas{#case-sensitivity}
 
 Estas são as diferentes regras de diferenciação entre maiúsculas e minúsculas:
 
@@ -46,4 +46,4 @@ Dependendo do contexto de uso, o editor de expressão pode retornar valores dife
 |--- |--- |
 | Condição (condição da fonte de dados, condição de data) | booleano |
 | Temporizador personalizado | dateTimeOnly |
-| Mapeamento de parâmetros de ação | Qualquer |
+| Mapeamento de parâmetros de ação | Qualquer uma |

@@ -8,7 +8,7 @@ exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
 workflow-type: tm+mt
 source-wordcount: '951'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Sempre que necessário, o desvio-padrão da amostra é utilizado com a expressã
 
 ![](assets/statistical_2.png){width="225" align="center"}
 
-## Aumento {#lift}
+## Elevação {#lift}
 
 O aumento entre uma variante  *ν*, e a variante de controle  *ν<sub>0</sub>* é o &quot;delta&quot; relativo em taxas de conversão, definido como o cálculo abaixo onde as taxas de conversão individuais são as definidas acima. Isso é exibido como uma porcentagem.
 
@@ -60,7 +60,7 @@ Adobe usa Sequências de Confiança Assintótica, que para uma variante individu
 
 ![](assets/statistical_5.png){width="300" align="center"}
 
-Em que:
+Onde:
 
 * `N` é o número de unidades dessa variante.
 * `σ` é uma amostra da estimativa do desvio-padrão (definido acima).

@@ -9,16 +9,16 @@ exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
 source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 6%
+ht-degree: 24%
 
 ---
 
-# Relatório de spam por email {#spam-report}
+# Relatório de spam de email {#spam-report}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_spam_report"
->title="Relatório de spam por email"
->abstract="O relatório Spam permite verificar sua pontuação de spam no conteúdo de email. Essa pontuação indica se os ISPs ou provedores de caixa de correio considerarão sua mensagem como spam ou não. Quanto menor a pontuação, melhor. Se a pontuação do seu conteúdo de email for superior a 2, você deve considerar a correção de problemas que estão causando a falha dos testes."
+>title="Relatório de spam de email"
+>abstract="O relatório de spam permite verificar sua pontuação de spam no conteúdo de email. Essa pontuação indica se os ISPs ou provedores de caixa de correio consideram sua mensagem como spam ou não. Quanto menor a pontuação, melhor. Se a pontuação do conteúdo de email for superior a 2, considere corrigir os problemas que estão causando a falha dos testes."
 
 Você pode verificar sua pontuação de spam no conteúdo de e-mail em um relatório dedicado de spam. Usar [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, o Adobe Journey Optimizer pode testar seu conteúdo de email e atribuir uma pontuação para indicar se os ISPs ou provedores de caixa de correio o considerarão como spam ou não.
 

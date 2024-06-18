@@ -13,8 +13,8 @@ hidefromtoc: true
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 8%
+source-wordcount: '873'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 
 **Índice**
 
-* [Introdução ao assistente de IA](gs-generative.md)
+* [Introdução ao Assistente de IA](gs-generative.md)
 * [Geração de email com o Assistente de IA](generative-email.md)
 * Geração de SMS com o Assistente de IA
 * [Geração de push com o Assistente de IA](generative-push.md)
@@ -56,7 +56,7 @@ Explore as guias abaixo para saber como usar o Assistente de IA no Journey Optim
 
 1. Acesse o **[!UICONTROL Mostrar assistente de IA]** menu.
 
-   ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-1.png){zoomable="yes"}
 
 1. Ativar o **[!UICONTROL Usar conteúdo original]** opção do Assistente de IA para personalizar novo conteúdo com base no conteúdo da campanha, nome e público selecionado.
 
@@ -66,7 +66,7 @@ Explore as guias abaixo para saber como usar o Assistente de IA no Journey Optim
 
    Se você estiver procurando ajuda para elaborar seu prompt, acesse o **[!UICONTROL Biblioteca de Prompts]** que fornece uma variedade diversa de ideias rápidas para melhorar suas campanhas.
 
-   ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-2.png){zoomable="yes"}
 
 1. Selecionar **[!UICONTROL Fazer upload do ativo da marca]** para adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de IA.
 
@@ -77,7 +77,7 @@ Explore as guias abaixo para saber como usar o Assistente de IA no Journey Optim
    * **[!UICONTROL Tom]**: verifique se o texto é apropriado para seu público-alvo e sua finalidade.
    * **[!UICONTROL Length]**: selecione o comprimento do conteúdo usando o controle deslizante de intervalo.
 
-   ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-3.png){zoomable="yes"}
 
 1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
 
@@ -91,7 +91,7 @@ Explore as guias abaixo para saber como usar o Assistente de IA no Journey Optim
 
    * **[!UICONTROL Usar linguagem mais simples]**: use o Assistente de IA para simplificar o seu idioma, garantindo clareza e acessibilidade para um público-alvo maior.
 
-   ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-4.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
@@ -115,7 +115,7 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 
 1. Acesse o **[!UICONTROL Editar texto com o Assistente de IA]** menu ao lado do seu **[!UICONTROL Mensagem]** campo.
 
-   ![](assets/sms-text-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
 1. Ativar o **[!UICONTROL Usar conteúdo de referência]** opção do Assistente de IA para personalizar novo conteúdo com base no conteúdo da campanha, nome e público selecionado.
 
@@ -125,7 +125,7 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 
    Se você estiver procurando ajuda para elaborar seu prompt, acesse o **[!UICONTROL Biblioteca de Prompts]** que fornece uma variedade diversa de ideias rápidas para melhorar suas campanhas.
 
-   ![](assets/sms-text-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
 1. Selecionar **[!UICONTROL Fazer upload do ativo da marca]** para adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de IA.
 
@@ -136,7 +136,7 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
    * **[!UICONTROL Tom]**: verifique se o texto é apropriado para seu público-alvo e sua finalidade.
    * **[!UICONTROL Length]**: selecione o comprimento do conteúdo usando o controle deslizante de intervalo.
 
-   ![](assets/sms-text-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-text-genai-3.png){zoomable="yes"}
 
 1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
 
@@ -150,7 +150,7 @@ Depois de definir seu conteúdo, público-alvo e programação, você estará pr
 
    * **[!UICONTROL Usar linguagem mais simples]**: use o Assistente de IA para simplificar o seu idioma, garantindo clareza e acessibilidade para um público-alvo maior.
 
-   ![](assets/sms-text-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-text-genai-4.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 

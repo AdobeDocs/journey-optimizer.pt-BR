@@ -21,7 +21,7 @@ Tecnicamente, uma constante sempre contém um tipo de dados. Na expressão liter
 
 As seções abaixo fornecem informações sobre as diferentes expressões de tipos de dados e como elas são representadas.
 
-## string {#string}
+## sequência de caracteres {#string}
 
 **Descrição**
 

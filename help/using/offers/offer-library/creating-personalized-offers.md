@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '766'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -132,7 +132,7 @@ A variável **[!UICONTROL Mais ações]** permite as ações descritas abaixo.
 
   >[!CAUTION]
   >
-  >A oferta e seu conteúdo não estarão mais acessíveis. Esta ação não pode ser desfeita.
+  >A oferta e seu conteúdo não estarão mais acessíveis. Essa ação não pode ser desfeita.
   >
   >Se a oferta for usada em uma coleção ou em uma decisão, ela não poderá ser excluída. Você deve remover a oferta de qualquer objeto primeiro.
 

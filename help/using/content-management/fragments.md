@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: e7ff784d51da48c1970841e416c655c02cfafb7c
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 2%
+ht-degree: 15%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="Definir os próprios fragmentos"
->abstract="Crie e gerencie fragmentos independentes para tornar seu conteúdo reutilizável em várias jornadas e campanhas."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Criar fragmentos"
+>title="Definir seus próprios fragmentos"
+>abstract="Crie e gerencie fragmentos independentes para tornar o conteúdo reutilizável em várias jornadas e campanhas."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Criar fragmentos"
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_campaigns"

@@ -11,7 +11,7 @@ exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1250'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -94,11 +94,11 @@ Vamos ver um exemplo para um tempo limite de 5 segundos.
 
 **Como posso configurar uma regra de limitação ou limitação? Há uma regra padrão?**
 
-Por padrão, não há regra de limitação. As regras são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação ou limitação. Consulte [esta seção](../configuration/external-systems.md#capping).
+Por padrão, não há regra de limitação. As regras são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação ou limitação. Consulte [nesta seção](../configuration/external-systems.md#capping).
 
 **Quantas tentativas são executadas? Posso alterar o número de tentativas ou definir um período mínimo de espera entre tentativas?**
 
-Para uma determinada chamada, um máximo de três tentativas pode ser executado após a primeira chamada, até que a duração do tempo limite seja atingida. O número de tentativas e o tempo entre cada nova tentativa não podem ser alterados. Consulte [esta seção](../configuration/external-systems.md#timeout).
+Para uma determinada chamada, um máximo de três tentativas pode ser executado após a primeira chamada, até que a duração do tempo limite seja atingida. O número de tentativas e o tempo entre cada nova tentativa não podem ser alterados. Consulte [nesta seção](../configuration/external-systems.md#timeout).
 
 **Onde posso configurar o tempo limite? Há um valor máximo?**
 

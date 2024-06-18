@@ -11,7 +11,7 @@ exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
->title="Criação de mensagem por push"
->abstract="Adicione sua mensagem de push e comece a personalizá-la com o editor de personalização."
+>title="Criação de mensagens por push"
+>abstract="Adicione sua mensagem por push e comece a personalizá-la com o editor de personalização."
 
 ## Criar a notificação por push em uma jornada ou campanha {#create}
 
@@ -101,7 +101,7 @@ Para criar uma notificação por push, siga as etapas abaixo:
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Modo de entrega rápida"
->abstract="O modo de entrega rápida permite enviar mensagens em alta velocidade em um canal de push para um público-alvo de tamanho inferior a 30 milhões."
+>abstract="O modo de entrega rápida permite que você execute o envio de mensagens de alta velocidade no canal de push para um tamanho de público inferior a 30 milhões."
 
 O modo de entrega rápida é um [!DNL Journey Optimizer] complemento que permite o envio muito rápido de mensagens por push em grandes volumes por meio de campanhas.
 

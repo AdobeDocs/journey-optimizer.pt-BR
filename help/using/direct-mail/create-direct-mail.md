@@ -10,7 +10,7 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 1%
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="Criação de correspondência direta"
->abstract="Crie mensagens de correspondência direta em campanhas programadas e crie os arquivos de extração necessários aos provedores de correspondência direta para enviar emails aos clientes."
+>abstract="Crie mensagens de correspondência direta em campanhas programadas e crie os arquivos de extração exigidos pelos provedores de correspondência direta para enviar para seus clientes."
 
 Para criar mensagens de correspondência direta, crie uma campanha agendada e configure o arquivo de extração. Esse arquivo é exigido por provedores de correspondência direta para enviar emails aos clientes.
 
@@ -62,12 +62,12 @@ Agora você pode começar a configurar o arquivo de extração para enviar ao se
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="Campos de dados"
->abstract="Adicione e configure as colunas e as informações a serem exibidas no arquivo de extração exigido por provedores de correspondência direta para enviar email aos clientes. Você pode adicionar até 50 colunas."
+>abstract="Adicione e configure as colunas e as informações a serem exibidas no arquivo de extração exigido por provedores de correspondência direta para enviar correspondências a clientes. É possível adicionar até 50 colunas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
 >title="Formatação do arquivo de extração"
->abstract="Para cada campo, especifique um rótulo e as informações a serem exibidas usando o editor de personalização. <br/><br/> A variável <b>Classificar por</b> permite usar o campo selecionado para classificar as colunas do arquivo de extração."
+>abstract="Para cada campo, especifique um rótulo e as informações a serem exibidas usando o editor de personalização. <br/><br/> A opção <b>Classificar por</b> permite usar o campo selecionado para classificar as colunas do arquivo de extração."
 
 1. Configure as colunas e as informações a serem exibidas no arquivo de extração:
 

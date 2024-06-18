@@ -1,20 +1,20 @@
 ---
-title: Relatório no Customer Journey Analytics
+title: Relatórios no Customer Journey Analytics
 description: Saiba como executar relatórios no Customer Journey Analytics
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
 badge: label="Disponibilidade limitada"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
+source-git-commit: 2349145fcf698769d16326a19a48a413a3c1dd95
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
-
-# Relatório no Customer Journey Analytics {#cja}
+# Relatórios no Customer Journey Analytics {#cja}
 
 Se estiver trabalhando com o Customer Journey Analytics, você pode criar painéis de relatórios personalizados para suas campanhas baseadas em código aproveitando o Experience Decisioning.
 

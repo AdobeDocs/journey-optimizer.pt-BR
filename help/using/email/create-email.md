@@ -12,7 +12,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Criação de email"
->abstract="Defina sua linha de assunto do email e abra o Designer de email para criar o conteúdo do email."
+>abstract="Defina o assunto do email e abra o Designer de email para criar seu conteúdo."
 
 
 ## Adicionar uma ação de email {#email-action}
@@ -79,7 +79,7 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="Configurar conteúdo de email"
->abstract="Crie o conteúdo do seu email. Defina o assunto e utilize o Designer de email para criar e personalizar o corpo do email."
+>abstract="Crie o conteúdo do seu email. Defina o assunto e aproveite o Designer de email para criar e personalizar o corpo do email."
 
 1. Na tela de configuração do jornada ou da campanha, clique no link **[!UICONTROL Editar conteúdo]** botão para configurar o conteúdo do email. [Saiba mais](get-started-email-design.md)
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: campos de jornada
-description: campos de jornada
+title: jornada campos
+description: jornada campos
 feature: Journeys, Reporting
 topic: Content Management
 role: Data Engineer, Data Architect, Admin
@@ -11,7 +11,7 @@ exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 13%
+ht-degree: 5%
 
 ---
 

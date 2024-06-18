@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Visão geral do compartilhamento de etapas da jornada
-description: Visão geral do compartilhamento de etapas da jornada
+title: Visão geral do compartilhamento de etapas do Jornada
+description: Visão geral do compartilhamento de etapas do Jornada
 feature: Journeys, Reporting
 topic: Content Management
 role: Data Engineer, Data Architect, Admin
@@ -11,7 +11,7 @@ exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -51,7 +51,7 @@ Os seguintes esquemas são criados:
 
 Os seguintes conjuntos de dados são transmitidos:
 
-* Eventos de etapa da jornada
+* Jornada eventos de etapa
 * Jornadas
 
 ![](assets/sharing3.png)

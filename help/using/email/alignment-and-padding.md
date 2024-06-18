@@ -12,7 +12,7 @@ exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 17%
+ht-degree: 5%
 
 ---
 
@@ -38,6 +38,6 @@ Neste exemplo, ajustaremos o preenchimento e o alinhamento vertical dentro de um
 
    ![](assets/alignment_4.png)
 
-1. Proceda de forma semelhante para ajustar o alinhamento e o preenchimento das outras colunas.
+1. Continue de forma semelhante para ajustar o alinhamento e o preenchimento das outras colunas.
 
 1. Salve as alterações.

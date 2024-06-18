@@ -12,7 +12,7 @@ exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -83,7 +83,7 @@ Esses são os campos esperados pela mensagem do Adobe Campaign Standard. Esses c
 
 ## Push {#section_im3_hvf_nhb}
 
-Antes de usar a atividade de push, seu aplicativo móvel precisa ser configurado junto com o Campaign Standard para enviar notificações por push. Usar este [artigo](https://helpx.adobe.com/br/campaign/kb/integrate-mobile-sdk.html) para tomar as etapas de implementação necessárias para dispositivos móveis.
+Antes de usar a atividade de push, seu aplicativo móvel precisa ser configurado junto com o Campaign Standard para enviar notificações por push. Usar este [artigo](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) para tomar as etapas de implementação necessárias para dispositivos móveis.
 
 Primeiro, você precisa escolher um aplicativo móvel na lista suspensa e uma mensagem transacional.
 

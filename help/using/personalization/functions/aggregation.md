@@ -9,7 +9,7 @@ exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -89,7 +89,7 @@ A operação a seguir retorna o preço mais baixo de todas as ordens.
 {%=min(orders.order.price) %}
 ```
 
-## Sum{#sum}
+## Somar{#sum}
 
 A variável `sum` Esta função retorna a soma de todos os valores selecionados na matriz.
 

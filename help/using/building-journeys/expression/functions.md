@@ -11,7 +11,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 70%
+ht-degree: 38%
 
 ---
 
@@ -37,7 +37,7 @@ Esta é a lista de funções compatíveis.
 | Agregação | [distinctCount](../functions/functiondistinctcount.md) |
 | Agregação | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
 | Agregação | [max](../functions/functionmax.md) |
-| Agregação | [min](../functions/functionmin.md) |
+| Agregação | [min.](../functions/functionmin.md) |
 | Agregação | [sum](../functions/functionsum.md) |
 | Conversão | [toBool](../functions/functiontobool.md) |
 | Conversão | [toDateOnly](../functions/functiontodateonly.md) |
@@ -93,6 +93,6 @@ Esta é a lista de funções compatíveis.
 | String | [startWith](../functions/functionstartwith.md) |
 | String | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
 | String | [substr](../functions/functionsubstr.md) |
-| String | [trim](../functions/functiontrim.md) |
+| String | [aparar](../functions/functiontrim.md) |
 | String | [upper](../functions/functionupper.md) |
 | String | [uuid](../functions/functionuuid.md) |

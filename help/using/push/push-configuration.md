@@ -10,7 +10,7 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1544'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -69,7 +69,7 @@ Para atribuir **Propriedade** e **Empresa** , siga as etapas abaixo:
 1. Clique em **[!UICONTROL Adicionar tudo]**. Isso adicionará o seguinte direito ao perfil de produto:
    * **[!UICONTROL Aprovar]**
    * **[!UICONTROL Desenvolver]**
-   * **[!UICONTROL Gerenciamento de ambientes]**
+   * **[!UICONTROL Gerenciar ambientes]**
    * **[!UICONTROL Gerenciar extensões]**
    * **[!UICONTROL Publish]**
 
@@ -98,7 +98,7 @@ Para atribuir este **[!UICONTROL Perfil do produto]** Para adicionar usuários, 
 
 1. Selecione o configurado anteriormente **[!UICONTROL Perfil do produto]**.
 
-1. No **[!UICONTROL Usuários]** clique em **[!UICONTROL Adicionar usuário]**.
+1. Na guia **[!UICONTROL Usuários]**, clique em **[!UICONTROL Adicionar usuário]**.
 
    ![](assets/push_product_6.png)
 
@@ -332,7 +332,7 @@ Seu evento foi criado e agora pode ser usado em uma jornada.
 
 1. Clique em **[!UICONTROL Criar Jornada]** para criar uma nova jornada.
 
-1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Saiba mais nesta [seção](../building-journeys/journey-gs.md#change-properties).
+1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Saiba mais nesta página [seção](../building-journeys/journey-gs.md#change-properties).
 
 1. Comece arrastando e soltando o evento criado nas etapas anteriores da **[!UICONTROL Eventos]** menu suspenso.
 

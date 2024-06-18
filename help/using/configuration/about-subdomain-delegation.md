@@ -12,7 +12,7 @@ exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '916'
-ht-degree: 30%
+ht-degree: 4%
 
 ---
 
@@ -35,12 +35,12 @@ Se você compartilhar um domínio e ele for bloqueado ou adicionado à lista de 
 
 Um subdomínio é uma divisão do seu domínio que pode ser usada para isolar suas marcas ou vários tipos de tráfego; por exemplo, mensagens transacionais e comunicações de marketing.
 
-Vamos ver o exemplo do domínio &quot;mybrand.com&quot;, usado para enviar comunicações transacionais e de marketing. Nessa situação, você pode optar por configurar dois subdomínios:
+Vamos ver o exemplo do domínio &quot;mybrand.com&quot;, usado para enviar comunicações transacionais e de marketing. Nessa situação, você pode decidir configurar dois subdomínios:
 
 * subdomínio &quot;info.mybrand.com&quot; para comunicações transacionais (confirmação de compras, redefinição de senha etc.),
 * subdomínio &quot;marketing.mybrand.com&quot; para emails de prospecção.
 
-Ao fazer isso, você ajudará a preservar a reputação do seu domínio e de outros subdomínios. Por exemplo, se os subdomínios &quot;marketing.mybrand.com&quot; acabassem sendo incluídos na lista de bloqueios por provedores de serviço de internet devido a uma entrega incorreta, isso evitaria que todo o domínio &quot;mybrand.com&quot; e o subdomínio &quot;info.mybrand.com&quot; fossem incluídos na lista de bloqueios.
+Ao fazer isso, você ajudará a preservar a reputação do seu domínio e de outros subdomínios. Por exemplo, se os subdomínios &quot;marketing.mybrand.com&quot; acabassem sendo adicionados à lista de bloqueios por provedores de serviço de internet devido a uma entrega incorreta, isso evitaria que todo o domínio &quot;mybrand.com&quot; e o subdomínio &quot;info.mybrand.com&quot; fossem adicionados à lista de bloqueios.
 
 Ao implementar uma solução, há requisitos para componentes voltados para o exterior: eles incluem a configuração de links e páginas da Web a serem rastreadas, a exibição de mirror pages etc.
 
@@ -58,7 +58,7 @@ A configuração de subdomínio permite configurar uma subseção do seu domíni
 
 * **Delegação total de subdomínio para o Adobe** (recomendado): O subdomínio é totalmente delegado ao Adobe. O Adobe é capaz de controlar e manter todos os aspectos do DNS necessários para entregar, renderizar e rastrear mensagens. [Saiba mais sobre delegação completa de subdomínio](delegate-subdomain.md#full-subdomain-delegation)
 
-* **Uso de CNAMEs**: crie um subdomínio e use CNAMEs para apontar para os registros específicos da Adobe. Usando essa configuração, você e o Adobe compartilham a responsabilidade pela manutenção do DNS. [Saiba mais sobre a delegação de subdomínio CNAME](delegate-subdomain.md#cname-subdomain-delegation)
+* **Uso de CNAMEs**: crie um subdomínio e use CNAMEs para apontar para registros específicos de Adobe. Usando essa configuração, você e o Adobe compartilham a responsabilidade pela manutenção do DNS. [Saiba mais sobre a delegação de subdomínio CNAME](delegate-subdomain.md#cname-subdomain-delegation)
 
 >[!CAUTION]
 >
@@ -66,14 +66,14 @@ A configuração de subdomínio permite configurar uma subseção do seu domíni
 >
 >* O método CNAME é recomendado se as políticas de sua organização restringirem o método completo de delegação de subdomínio. Essa abordagem exige que você mantenha e gerencie registros DNS por conta própria. O Adobe não poderá ajudar na alteração, manutenção ou gerenciamento de DNS em um subdomínio configurado por meio do método CNAME.
 
-A tabela abaixo apresenta um resumo de como esses métodos funcionam, bem como o nível de esforço necessário:
+A tabela abaixo fornece um resumo de como esses métodos funcionam, bem como o nível de esforço necessário:
 
 | Método de configuração | Como funciona | Nível de esforço |
 |---|---|---|
-| **Delegação completa** | Crie o subdomínio e o registro de namespace. A Adobe irá configurar todos os registros DNS necessários para o Adobe Campaign.<br/><br/>Nesta configuração, a Adobe é totalmente responsável pelo gerenciamento do subdomínio e de todos os registros DNS. | Baixa |
-| **CNAME, método personalizado** | Crie o subdomínio e o registro de namespace. A Adobe fornecerá os registros que serão colocados em seus servidores DNS e configurará os valores correspondentes em servidores DNS do Adobe Campaign.<br/><br/>Nessa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS. | Alta |
+| **Delegação completa** | Crie o subdomínio e o registro de namespace. O Adobe configurará todos os registros DNS necessários para o Adobe Campaign.<br/><br/>Nesta configuração, o Adobe é totalmente responsável pelo gerenciamento do subdomínio e de todos os registros DNS. | Baixa |
+| **CNAME, método personalizado** | Crie o subdomínio e o registro de namespace. O Adobe fornecerá os registros que serão colocados em seus servidores DNS e configurará os valores correspondentes em servidores DNS da Adobe Campaign.<br/><br/>Nesta configuração, você e o Adobe compartilham a responsabilidade pela manutenção do DNS. | Alta |
 
-Outras informações sobre a delegação de domínios estão disponíveis [nesta documentação](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=pt-BR).
+Informações adicionais sobre a configuração de domínio estão disponíveis em [esta documentação](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
 Se você tiver qualquer dúvida sobre os métodos de configuração de subdomínio, entre em contato com o Adobe ou, eventualmente, com o Atendimento ao cliente para solicitar a consultoria de capacidade de entrega.
 

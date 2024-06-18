@@ -11,7 +11,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Saiba como gerenciar a opção de não participação em emails e mensagens SMS 
 
 >[!NOTE]
 >
->Entrada [!DNL Journey Optimizer], o consentimento é gerido pelo Experience Platform [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR){target="_blank"}. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações. Durante a integração, é possível modificar esse valor padrão para um dos valores possíveis listados [aqui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values){target="_blank"}.
+>No [!DNL Journey Optimizer], o consentimento é tratado pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR) da Experience Platform{target="_blank"}. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações. Durante a integração, é possível modificar esse valor padrão para um dos valores possíveis listados [aqui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values){target="_blank"}.
 
 ## Implementar consentimento de personalização {#opt-out-personalization}
 
@@ -100,7 +100,7 @@ Se um usuário:
 
 ### No editor de personalização {#opt-out-expression-editor}
 
-A variável [editor de personalização](../personalization/personalization-build-expressions.md) O não executa, por si só, nenhuma verificação de consentimento ou imposição, pois não está envolvido na entrega de mensagens.
+O [Editor de personalização](../personalization/personalization-build-expressions.md) em si não executa a aplicação nem verificações de consentimento, pois não está envolvido na entrega de mensagens.
 
 No entanto, o uso de rótulos de controle de acesso baseados em direitos permite restringir quais campos podem ser usados na personalização. O serviço de [visualização de mensagens](../content-management/preview.md) e [renderização de email](../content-management/rendering.md) mascarará os campos identificados com informações confidenciais.
 

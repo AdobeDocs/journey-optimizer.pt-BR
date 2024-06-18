@@ -13,7 +13,7 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 3%
+ht-degree: 17%
 
 ---
 
@@ -23,25 +23,25 @@ Para obter mais flexibilidade e controle sobre as configurações de email, [!DN
 
 >[!AVAILABILITY]
 >
->No momento, a personalização de superfície de email está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
+>No momento, a personalização de superfície de email está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
 
-## Adicionar subdomínios dinâmicos {#dynamic-subdomains}
+## Adicionar subdomínios dinâmicos  {#dynamic-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
->title="Personalização não disponível"
->abstract="Essa superfície foi criada sem atributos de personalização. Consulte a documentação para conhecer as etapas a serem seguidas se a personalização for necessária."
+>title="Personalização indisponível"
+>abstract="Esta superfície foi criada sem nenhum atributo de personalização. Consulte a documentação para saber quais são as etapas a serem seguidas, se a personalização for necessária."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
->title="Ativar subdomínios dinâmicos"
->abstract="Ao criar uma superfície de email, você pode configurar subdomínios dinâmicos com base nas condições definidas usando o editor de personalização. Você pode adicionar até 50 subdomínios dinâmicos."
+>title="Habilitar subdomínios dinâmicos"
+>abstract="Ao criar uma superfície de email, é possível configurar subdomínios dinâmicos com base nas condições definidas por meio do editor de personalização. Você pode adicionar até 50 subdomínios dinâmicos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
 >title="Alguns subdomínios podem estar indisponíveis"
->abstract="Determinados subdomínios não estão disponíveis para seleção no momento devido ao registro pendente do loop de comentários. Esse processo pode levar até 10 dias úteis. Após a conclusão, você pode escolher entre todos os subdomínios disponíveis."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introdução à delegação de subdomínio"
+>abstract="Certos subdomínios não estão disponíveis para seleção no momento devido ao registro do loop de feedback pendente. Esse processo pode demorar até 10 dias úteis. Após a conclusão, você pode escolher entre todos os subdomínios disponíveis."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introdução à delegação de subdomínio"
 
 Ao criar uma superfície de email, você pode configurar subdomínios dinâmicos com base em condições específicas.
 
@@ -71,7 +71,7 @@ Para definir subdomínios dinâmicos em uma superfície de canal de email, siga 
 
    >[!NOTE]
    >
-   >Determinados subdomínios não estão disponíveis para seleção no momento devido a [loop de comentários](../reports/deliverability.md#feedback-loops) registro. Esse processo pode levar até 10 dias úteis. Após a conclusão, você pode escolher entre todos os subdomínios disponíveis. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >Determinados subdomínios não estão disponíveis para seleção no momento devido a [loop de comentários](../reports/deliverability.md#feedback-loops) registro. Esse processo pode demorar até 10 dias úteis. Após a conclusão, você pode escolher entre todos os subdomínios disponíveis. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 

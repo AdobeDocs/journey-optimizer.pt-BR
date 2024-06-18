@@ -346,7 +346,7 @@ A variável **[!UICONTROL Mais ações]** permite as ações descritas abaixo.
 
   >[!CAUTION]
   >
-  >A decisão e seu conteúdo não estarão mais acessíveis. Esta ação não pode ser desfeita.
+  >A decisão e seu conteúdo não estarão mais acessíveis. Essa ação não pode ser desfeita.
   >
   >Se a decisão for usada em outro objeto, ela não poderá ser excluída.
 

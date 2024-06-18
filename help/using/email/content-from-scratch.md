@@ -12,7 +12,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 54%
+ht-degree: 29%
 
 ---
 
@@ -80,11 +80,11 @@ Para começar a criar o conteúdo, siga as etapas abaixo:
 
    ![](assets/email_designer_structure_components.png)
 
-   Selecione o componente **[!UICONTROL coluna n:n]** para definir um número de colunas (entre 3 e 10). Você também pode definir a largura de cada coluna movendo as setas na parte inferior de cada coluna.
+   Selecione o **[!UICONTROL coluna n:n]** para definir o número de colunas de sua escolha (entre 3 e 10). Você também pode definir a largura de cada coluna movendo as setas na parte inferior de cada coluna.
 
    >[!NOTE]
    >
-   >O tamanho de cada coluna não pode ser inferior a 10% da largura total do componente de estrutura. Não é possível remover uma coluna que não esteja vazia.
+   >Cada tamanho de coluna não pode estar abaixo de 10% da largura total do componente de estrutura. Não é possível remover uma coluna que não esteja vazia.
 
 1. Expanda a **[!UICONTROL Conteúdo]** e adicione quantos elementos forem necessários em um ou mais componentes da estrutura. [Saiba mais sobre componentes de conteúdo](content-components.md)
 
@@ -110,13 +110,13 @@ Para começar a criar o conteúdo, siga as etapas abaixo:
 
    ![](assets/email_designer_links.png)
 
-1. Se necessário, é possível personalizar ainda mais o email clicando em **[!UICONTROL Alternar para o editor de código]** no menu avançado. Isso permite editar o código-fonte do email, por exemplo, para adicionar rastreamento ou tags de HTML personalizadas. [Saiba mais sobre o editor de código](code-content.md)
+1. Se necessário, é possível personalizar ainda mais o email clicando em **[!UICONTROL Alternar para o editor de código]** no menu avançado. Isso permite editar o código fonte do email, por exemplo, para adicionar tags de rastreamento ou HTML personalizadas. [Saiba mais sobre o editor de código](code-content.md)
 
    >[!CAUTION]
    >
-   >Não é possível reverter para o designer visual desse email após alternar para o editor de código.
+   >Você não pode reverter para o designer visual neste email depois de alternar para o editor de código.
 
-1. Quando o conteúdo estiver pronto, clique no link **[!UICONTROL Simular conteúdo]** botão para verificar a renderização. Você pode escolher exibir no desktop ou em um dispositivo móvel. Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na [Gestão de conteúdo](../content-management/preview-test.md) seção.
+1. Quando o conteúdo estiver pronto, clique no link **[!UICONTROL Simular conteúdo]** botão para verificar a renderização. Você pode escolher a visualização de desktop ou móvel. Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na [Gestão de conteúdo](../content-management/preview-test.md) seção.
 
    ![](assets/email_designer_simulate_content.png)
 

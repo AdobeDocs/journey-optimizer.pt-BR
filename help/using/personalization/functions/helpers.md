@@ -9,7 +9,7 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -109,7 +109,7 @@ A variável `elseif` especificará uma nova condição para testar se a primeira
 >Para saber mais sobre públicos-alvo e o serviço de segmentação, consulte este [seção](../../audience/about-audiences.md).
 
 
-## A menos que{#unless}
+## Unless{#unless}
 
 A variável `unless` o auxiliar é usado para definir um bloco condicional. Em oposição ao The `if`  helper, se a expressão evaluation retornar false, o bloco será renderizado.
 
@@ -165,7 +165,7 @@ Renderize uma lista de produtos que este usuário tem em seu carrinho:
 {{/each}}
 ```
 
-## Com{#with}
+## With{#with}
 
 A variável `with` o auxiliar é usado para alterar o token de avaliação da parte do modelo.
 

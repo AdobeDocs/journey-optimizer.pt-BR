@@ -11,7 +11,7 @@ exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 20%
+ht-degree: 24%
 
 ---
 
@@ -107,7 +107,7 @@ Para configurar um novo subdomínio, siga as etapas abaixo.
 
 >[!NOTE]
 >
->Por padrão, [!DNL Journey Optimizer] permite delegar até 10 subdomínios no total (abrangendo canais de email e da web). No entanto, dependendo do contrato de licença, talvez você possa delegar até 100 subdomínios. Entre em contato com o Adobe para saber mais sobre o número de subdomínios aos quais você tem direito.
+>Por padrão, [!DNL Journey Optimizer] permite delegar até 10 subdomínios no total (abrangendo canais de email e da web). No entanto, dependendo do contrato de licença, talvez você possa delegar até 100 subdomínios. Fale com seu contato na Adobe para saber mais sobre o número de subdomínios aos quais você tem direito.
 
 1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL configuração da web]** > **[!UICONTROL subdomínios da web]**.
 

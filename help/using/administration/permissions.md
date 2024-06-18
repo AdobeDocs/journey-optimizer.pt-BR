@@ -12,7 +12,7 @@ keywords: produto, perfis, sandbox
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -42,7 +42,7 @@ Para atribuir um **[!UICONTROL Função]**:
 
    ![](assets/do-not-localize/access_control_2.png)
 
-1. No **[!UICONTROL Usuários]** clique em **[!UICONTROL Adicionar usuário]**.
+1. Na guia **[!UICONTROL Usuários]**, clique em **[!UICONTROL Adicionar usuário]**.
 
    ![](assets/do-not-localize/access_control_3.png)
 

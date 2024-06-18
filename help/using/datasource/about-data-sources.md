@@ -12,7 +12,7 @@ exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 74%
+ht-degree: 19%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"
 >title="Sobre fontes de dados"
->abstract="A configuração da fonte de dados é sempre executada por um usuário técnico. A configuração da fonte de dados permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas para: definição de condição, parâmetro e dados de personalização em ações, definição de espera personalizada e definição de fuso horário personalizado."
+>abstract="A configuração da fonte de dados é sempre executada por um usuário técnico. A configuração da fonte de dados permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas para: definição de condição, parâmetro e dados de personalização em ações, definição de espera personalizada e definição de fuso horário."
 
 A configuração da fonte de dados permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas, para:
 
 * [definição de condição](../building-journeys/condition-activity.md)
-* parâmetros e dados de personalização em [ações](../action/action.md)
+* parâmetros e dados de personalização no [ações](../action/action.md)
 * [definição de espera personalizada](../building-journeys/wait-activity.md#custom)
 * [definição de fuso horário](../building-journeys/timezone-management.md)
 
@@ -36,7 +36,7 @@ Essa configuração não é necessária se suas jornadas só usarem os dados loc
 
 Há dois tipos de fontes de dados:
 
-* A fonte de dados pré-configurada da Adobe Experience Platform que define a conexão com o Serviço de perfil do cliente em tempo real. Essa fonte de dados é integrada. Consulte [esta página](../datasource/adobe-experience-platform-data-source.md).
+* A fonte de dados pré-configurada do Adobe Experience Platform que define a conexão com o Serviço de perfil do cliente em tempo real. Esta é uma fonte de dados integrada. Consulte [esta página](../datasource/adobe-experience-platform-data-source.md).
 * As fontes de dados externas que permitem definir uma conexão com sistemas externos. Essas são as que você pode criar. Consulte [esta página](../datasource/external-data-sources.md).
 
 >[!NOTE]

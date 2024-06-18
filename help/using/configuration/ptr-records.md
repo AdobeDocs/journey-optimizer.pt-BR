@@ -12,7 +12,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -60,7 +60,7 @@ Ao criar subdomínios adicionais, você precisa modificar um ou mais registros P
 >
 >Os registros PTR são comuns a todos os ambientes. Portanto, qualquer modificação em um registro PTR também afetará as sandboxes de produção.
 >
->Continue com muito cuidado ao editar registros PTR. Em caso de dúvidas, entre em contato com um especialista em capacidade de entrega.
+>Continue com muito cuidado ao editar registros PTR. Em caso de dúvidas, entre em contato com um especialista em capacidade de delivery.
 
 ### Subdomínios totalmente delegados {#fully-delegated-subdomains}
 
@@ -148,7 +148,7 @@ Durante o processo de validação, o subdomínio antigo ainda é associado ao en
 
 Depois que o processo de validação for bem-sucedido, o novo subdomínio será associado automaticamente ao endereço IP.
 
-### Falhou {#failes}
+### Falha {#failes}
 
 Se o processo de validação falhar, o registro PTR mais antigo será exibido. O subdomínio válido que foi associado anteriormente ao endereço IP permanece inalterado.
 

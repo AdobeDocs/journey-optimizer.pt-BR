@@ -65,7 +65,7 @@ Todos os dados são considerados propriedade dos Clientes e só podem ser mantid
 
 Você pode usar o [!DNL Journey Optimizer]Flexibilidade de dados da para atender aos requisitos específicos relacionados à retenção, ao arquivamento ou à exclusão de dados:
 
-* **Extração/exportação de dados**: é possível iniciar a extração de dados de origem a qualquer momento por meio da API de acesso a dados sem penalidades ou atrasos. A variável [API de acesso a dados](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=pt-BR){target="_blank"} O fornece aos usuários uma interface RESTful focada na descoberta e acessibilidade de conjuntos de dados assimilados no [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Extração/exportação de dados**: é possível iniciar a extração de dados de origem a qualquer momento por meio da API de acesso a dados sem penalidades ou atrasos. A variável [API de acesso a dados](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target="_blank"} O fornece aos usuários uma interface RESTful focada na descoberta e acessibilidade de conjuntos de dados assimilados no [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
   Observe que o conteúdo usado em jornadas ou campanhas não pode ser extraído por meio da API ou dos métodos de destino mencionados acima.
 

@@ -12,7 +12,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
 source-wordcount: '1536'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -43,21 +43,21 @@ Para usar o modo de teste, siga estas etapas:
 
    >[!NOTE]
    >
-   >Quando um evento de reação com um tempo limite é usado em uma jornada, o valor padrão e mínimo do tempo de espera é de 40 segundos. Consulte [esta seção](../building-journeys/reaction-events.md).
+   >Quando um evento de reação com um tempo limite é usado em uma jornada, o valor padrão e mínimo do tempo de espera é de 40 segundos. Consulte [nesta seção](../building-journeys/reaction-events.md).
 
 1. Use o **[!UICONTROL Acionar um evento]** botão para configurar e enviar eventos à jornada.
 
    ![](assets/journeyuctest1.png)
 
-1. Configure os diferentes campos esperados. No **Identificador de perfil** insira o valor do campo usado para identificar o perfil de teste. Pode ser o endereço de email, por exemplo. Envie eventos relacionados a perfis de teste. Consulte [esta seção](#firing_events).
+1. Configure os diferentes campos esperados. No **Identificador de perfil** insira o valor do campo usado para identificar o perfil de teste. Pode ser o endereço de email, por exemplo. Envie eventos relacionados a perfis de teste. Consulte [nesta seção](#firing_events).
 
    ![](assets/journeyuctest1-bis.png)
 
-1. Depois que os eventos forem recebidos, clique no link **[!UICONTROL Mostrar log]** botão para ver o resultado do teste e verificá-los. Consulte [esta seção](#viewing_logs).
+1. Depois que os eventos forem recebidos, clique no link **[!UICONTROL Mostrar log]** botão para ver o resultado do teste e verificá-los. Consulte [nesta seção](#viewing_logs).
 
    ![](assets/journeyuctest2.png)
 
-1. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Depois que os testes forem concluídos, você poderá publicar sua jornada. Consulte [esta página](../building-journeys/publishing-the-journey.md).
+1. Se houver algum erro, desative o modo de teste, modifique a jornada e teste-a novamente. Depois que os testes forem concluídos, você poderá publicar sua jornada. Consulte [esta página](../building-journeys/publishing-the-journey.md).
 
 ## Observações importantes {#important_notes}
 
@@ -143,7 +143,7 @@ O número de indivíduos (tecnicamente chamados de instâncias) atualmente dentr
 
 * _ID_: a ID interna do indivíduo na jornada. Ele pode ser usado para fins de depuração.
 * _currentstep_: a etapa em que o indivíduo está na jornada. Recomendamos adicionar rótulos às suas atividades para identificá-las mais facilmente.
-* _currentstep_ > fase: o status da jornada do indivíduo (em execução, concluída, com erro ou expirada). Veja mais informações abaixo.
+* _currentstep_ > fase: o status da jornada do indivíduo (em execução, concluída, com erro ou expirada). Consulte mais informações abaixo.
 * _currentstep_ > _extraInfo_: descrição do erro e outras informações contextuais.
 * _currentstep_ > _fetchErrors_: informações sobre erros de busca de dados que ocorreram durante essa etapa.
 * _externalKeys_: o valor da fórmula principal definida no evento.

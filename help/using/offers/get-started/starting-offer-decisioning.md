@@ -9,7 +9,7 @@ exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Os benefícios incluem:
 
 >[!NOTE]
 >
->Se você é um [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target="_blank"} usuário que utiliza o **Offer decisioning** todos os recursos da Gestão de decisões descritos nesta seção também se aplicam a você.
+>Se você usa a [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR){target="_blank"} com o aplicativo do **Offer Decisioning**, todos os recursos de Gestão de decisões descritos nesta seção também se aplicam a você.
 
 ## Sobre ofertas e decisões {#about-offers-and-decisions}
 
@@ -87,23 +87,23 @@ Você pode encontrar abaixo a lista dos principais conceitos com os quais trabal
 
 * **Regra de decisão**: as regras de decisão são restrições adicionadas a uma oferta personalizada e aplicadas a um perfil para determinar a elegibilidade.
 
-* **Oferta elegível**: uma oferta elegível atende às restrições definidas upstream que podem ser oferecidas de forma consistente a um perfil.
+* **Oferta elegível**: uma oferta elegível atende às restrições definidas upstream e podem ser oferecidas de forma consistente a um perfil.
 
 * **Gestão de decisões**: permite criar e fornecer experiências de oferta personalizada de usuários finais em canais e aplicativos usando lógica de negócios e regras de decisão.
 
-* **Ofertas substitutas**: uma oferta substituta é a oferta padrão exibida quando um usuário final não está qualificado para nenhuma oferta personalizada na coleção.
+* **Ofertas substitutas**: uma oferta substituta é a oferta padrão exibida quando o usuário final não é elegível para as ofertas personalizadas da coleção.
 
-* **Oferta**: uma oferta é uma mensagem de marketing que pode ter regras associadas que especificam quem está qualificado para ver a oferta.
+* **Oferta**: uma oferta é uma mensagem de marketing e pode ter regras associadas que especificam quem é elegível para vê-la.
 
 * **Biblioteca de ofertas**: a biblioteca de ofertas é uma biblioteca central usada para gerenciar ofertas personalizadas e substitutas, regras de decisão e decisões.
 
 * **Ofertas personalizadas**: uma oferta personalizada é uma mensagem de marketing personalizável baseada em regras de elegibilidade e restrições.
 
-* **Posicionamentos**: um posicionamento é o local e/ou contexto em que uma oferta é exibida para um usuário final.
+* **Posicionamentos**: um posicionamento é o local e/ou contexto em que uma oferta é exibida para o usuário final.
 
 * **Prioridade**: a prioridade é usada para classificar ofertas que atendem a todas as restrições, como elegibilidade, calendário e limite.
 
-* **Representações**: Uma representação é a informação usada por um canal, como localização ou idioma para exibir uma oferta.
+* **Representações**: uma representação são informações usadas por um canal, como localização ou idioma, para exibir uma oferta.
 
 ## Vídeos tutoriais{#video}
 

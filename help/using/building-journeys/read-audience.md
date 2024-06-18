@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
 source-wordcount: '1463'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -138,7 +138,7 @@ Para fazer isso, ative o modo de teste.
 
 Configure e execute o modo de teste como de costume. [Saiba como testar uma jornada](testing-the-journey.md).
 
-Quando o teste estiver em execução, a variável **[!UICONTROL Mostrar logs]** permite ver os resultados do teste. Para obter mais informações, consulte [esta seção](testing-the-journey.md#viewing_logs)
+Quando o teste estiver em execução, a variável **[!UICONTROL Mostrar logs]** permite ver os resultados do teste. Para obter mais informações, consulte [nesta seção](testing-the-journey.md#viewing_logs)
 
 ![](assets/read-segment-log.png)
 

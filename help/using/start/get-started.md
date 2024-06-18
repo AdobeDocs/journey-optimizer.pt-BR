@@ -11,7 +11,7 @@ exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,5 +65,5 @@ Entenda a arquitetura básica do [!DNL Adobe Journey Optimizer], os pontos de in
 >
 >* [Etapas principais para iniciar](quick-start.md)
 >* [Criar jornadas e enviar mensagens](../building-journeys/journey-gs.md)
->* [Relatórios ao vivo](../reports/live-report.md)
+>* [Relatórios em tempo real](../reports/live-report.md)
 >* [Visão geral sobre a segurança do Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)

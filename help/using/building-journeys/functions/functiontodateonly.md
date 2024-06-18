@@ -10,7 +10,7 @@ exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -30,7 +30,7 @@ Conversão
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| Representação em sequência de caracteres de uma data como &quot;AAAA-MM-DD&quot; (formato XDM). Também é compatível com o formato ISO-8601: somente **data completa** é considerada (consulte [RFC 3339, seção 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
+| Representação em sequência de caracteres de uma data como &quot;AAAA-MM-DD&quot; (formato XDM). Também é compatível com o formato ISO-8601: somente **data completa** é considerada (consulte [RFC 3339, seção 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | sequência de caracteres |
 | data e hora | dateTime |
 | data hora sem fuso horário | dateTimeOnly |
 | valor inteiro de uma época em milissegundos | inteiro |

@@ -15,7 +15,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
 source-wordcount: '1593'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Conjuntos de regras"
->abstract="Use conjuntos de regras para aplicar limite de frequência a diferentes tipos de comunicações de marketing. Por exemplo, é possível criar um conjunto de regras para limitar o número de **comunicações promocionais** enviado aos clientes e criar outro conjunto de regras para limitar o número de **informativos** enviado para eles."
+>abstract="Use conjuntos de regras para aplicar limites de frequência a diferentes tipos de comunicações de marketing. Por exemplo, é possível criar um conjunto de regras para limitar o número de **comunicações promocionais** enviadas a clientes e outro conjunto de regras para limitar o número de **informativos** enviados. "
 
 >[!AVAILABILITY]
 >
@@ -78,23 +78,23 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_category"
->title="Selecionar a categoria de regra de mensagem"
->abstract="Quando ativadas e aplicadas a uma mensagem, todas as regras de frequência correspondentes à categoria selecionada serão automaticamente aplicadas a esta mensagem. Atualmente, somente a categoria Marketing está disponível."
+>title="Selecionar a categoria da regra da mensagem"
+>abstract="Quando ativadas e aplicadas a uma mensagem, todas as regras de frequência correspondentes à categoria selecionada serão automaticamente aplicadas a essa mensagem. Atualmente, somente a categoria Marketing está disponível."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
->title="Defina o limite para sua regra"
->abstract="Especifique o número máximo de mensagens enviadas para um perfil de cliente no período escolhido. O limite de frequência será baseado no período de calendário selecionado e será redefinido no início do período correspondente."
+>title="Definir o limite para a regra"
+>abstract="Especifique o número máximo de mensagens enviadas a um perfil de cliente no intervalo de tempo escolhido. O limite de frequência será baseado no período do calendário selecionado e redefinido no início do intervalo de tempo correspondente. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
 >title="Definir os canais aos quais a regra se aplica"
->abstract="Selecione pelo menos um canal. A limitação se aplica a todos os canais como contagem total."
+>abstract="Selecione pelo menos um canal. O limite se aplica em canais como uma contagem total."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
->title="Selecionar a categoria de regra de mensagem"
->abstract="Quando ativadas e aplicadas a uma mensagem, todas as regras de frequência correspondentes à categoria selecionada serão automaticamente aplicadas a esta mensagem. Atualmente, somente a categoria Marketing está disponível."
+>title="Selecionar a categoria da regra da mensagem"
+>abstract="Quando ativadas e aplicadas a uma mensagem, todas as regras de frequência correspondentes à categoria selecionada serão automaticamente aplicadas a essa mensagem. Atualmente, somente a categoria Marketing está disponível."
 
 Para adicionar uma regra a um conjunto de regras, siga as etapas abaixo.
 

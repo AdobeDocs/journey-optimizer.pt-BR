@@ -12,7 +12,7 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
 source-wordcount: '1541'
-ht-degree: 61%
+ht-degree: 8%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="Fontes de dados externas"
->abstract="Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias."
+>abstract="Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada do Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias."
 
-Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
+Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada do Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
 
 >[!NOTE]
 >
@@ -33,39 +33,39 @@ Fontes de dados externas permitem definir uma conexão com sistemas de terceiros
 >
 >Como as respostas agora são compatíveis, você deve usar ações personalizadas em vez de fontes de dados para casos de uso de fontes de dados externas.
 
-As APIs REST que usam POST ou GET e devolvem JSON são compatíveis. A chave de API, os modos de autenticação básicos e personalizados são compatíveis.
+As APIs REST que usam POST ou GET e retornam JSON são compatíveis. A chave de API, os modos de autenticação básicos e personalizados são compatíveis.
 
-Vamos ver o exemplo de um serviço de API meteorológica usada para personalizar os comportamentos da jornada de acordo com os dados climáticos em tempo real.
+Vamos ver o exemplo de um serviço de API meteorológica usada para personalizar os comportamentos da jornada de acordo com os dados meteorológicos em tempo real.
 
-Dois exemplos da chamada de API:
+Veja dois exemplos da chamada de API:
 
 * _https://api.adobeweather.org/weather?city=London,uk&amp;appid=1234_
 * _https://api.adobeweather.org/weather?lat=35&amp;lon=139&amp;appid=1234_
 
 A chamada é composta de um URL principal (_https://api.adobeweather.org/weather_), dois conjuntos de parâmetros (&quot;city&quot; para a cidade e &quot;lat/long&quot; para a latitude e a longitude) e a chave da API (appid).
 
-Estas são as principais etapas para criar e configurar uma nova fonte de dados externa:
+Estas são as etapas principais para criar e configurar uma nova fonte de dados externa:
 
 1. Na lista de fontes de dados, clique em **[!UICONTROL Criar fonte de dados]** para criar uma nova fonte de dados externa.
 
    ![](assets/journey25.png)
 
-   Essa ação abre o painel de configuração da fonte de dados no lado direito da tela.
+   Isso abre o painel de configuração da fonte de dados no lado direito da tela.
 
    ![](assets/journey26.png)
 
-1. Insira um nome para a sua fonte de dados.
+1. Insira um nome para a fonte de dados.
 
    >[!NOTE]
    >
    >Somente caracteres alfanuméricos e sublinhados são permitidos. O comprimento máximo é de 30 caracteres.
 
 1. Adicione uma descrição à fonte de dados. Esta etapa é opcional.
-1. Adicione o URL do serviço externo. Em nosso exemplo: _https://api.adobeweather.org/weather_.
+1. Adicione o URL do serviço externo. No nosso exemplo: _https://api.adobeweather.org/weather_.
 
    >[!CAUTION]
    >
-   >Recomendamos o uso de HTTPS por motivos de segurança. Observe também que não permitimos o uso de endereços da Adobe que não estejam disponíveis publicamente, bem como o uso de endereços IP.
+   >Recomendamos o uso de HTTPS por motivos de segurança. Observe também que não permitimos o uso de endereços Adobe que não estejam disponíveis publicamente, bem como o uso de endereços IP.
 
    ![](assets/journey27.png)
 
@@ -92,10 +92,10 @@ Para o conjunto de parâmetros &quot;long/lat&quot;, criamos um grupo de campos 
 
 * **[!UICONTROL Usado em]**: exibe o número de jornadas que usam um grupo de campos. Você pode clicar no link **[!UICONTROL Exibir jornadas]** ícone para exibir a lista de jornadas usando este grupo de campos.
 * **[!UICONTROL Método]**: selecione o método POST ou GET. No nosso caso, selecionamos o método GET.
-* **[!UICONTROL Valores dinâmicos]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas jornadas. [Saiba mais](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL Valores dinâmicos]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores de parâmetro dependem do contexto de execução, eles serão definidos nas jornadas. [Saiba mais](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Carga de resposta]**: clique dentro do **[!UICONTROL Carga]** e cole um exemplo da carga útil retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API de meteorologia. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. Observe que você pode clicar em **[!UICONTROL Colar uma nova carga]** se quiser alterar a carga útil transmitida no momento.
 
-* **[!UICONTROL Conteúdo enviado]**: este campo não aparece no nosso exemplo. Ele só estará disponível se você selecionar o método POST. Cole a carga útil que será enviada para o sistema de terceiros.
+* **[!UICONTROL Conteúdo enviado]**: este campo não aparece no nosso exemplo. Ela só estará disponível se você selecionar o método POST. Cole a carga útil que será enviada para o sistema de terceiros.
 
 No caso de uma chamada GET que exige parâmetros, você informa os parâmetros na variável **[!UICONTROL Valores dinâmicos]** e são adicionados automaticamente no final da chamada. No caso de uma chamada POST, é necessário:
 
@@ -110,16 +110,16 @@ No caso de uma chamada GET que exige parâmetros, você informa os parâmetros n
 
 Clique em **[!UICONTROL Salvar]**.
 
-A fonte de dados agora está configurada e pronta para ser usada em suas jornadas, por exemplo em suas condições ou para personalizar um email. Se a temperatura estiver acima de 30°C, você pode decidir enviar uma comunicação específica.
+A fonte de dados agora está configurada e pronta para ser usada em suas jornadas, por exemplo, em suas condições ou para personalizar um email. Se a temperatura estiver acima de 30°C, você pode decidir enviar uma comunicação específica.
 
 ## Modo de autenticação personalizado{#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="Sobre a autenticação personalizada"
->abstract="O modo de autenticação personalizado é usado para autenticação complexa para chamar protocolos de empacotamento automático de API, como OAuth2. A execução da ação é um processo em duas etapas. Primeiro, uma chamada para o ponto de acesso é executada para gerar o token de acesso. Em seguida, o token de acesso é inserido na solicitação HTTP da ação."
+>abstract="O modo de autenticação personalizado é usado para autenticação complexa para chamar protocolos de empacotamento automático de API, como OAuth2. A execução da ação é um processo de duas etapas. Primeiro, uma chamada para o ponto de acesso é executada para gerar o token de acesso. Em seguida, o token de acesso é inserido na solicitação HTTP da ação."
 
-Esse modo de autenticação é usado para autenticação complexa, frequentemente usada para chamar protocolos de empacotamento de API como OAuth2, para recuperar um token de acesso que será inserido na solicitação real HTTP para a ação.
+Esse modo de autenticação é usado para autenticação complexa, frequentemente usada para chamar protocolos de empacotamento automático de API, como OAuth2, para recuperar um token de acesso que será inserido na solicitação real HTTP para a ação.
 
 Ao configurar a autenticação personalizada, você pode clicar no botão abaixo para verificar se a carga útil de autenticação personalizada está configurada corretamente.
 
@@ -132,7 +132,7 @@ Se o teste for bem-sucedido, o botão ficará verde.
 Com essa autenticação, a execução da ação é um processo de duas etapas:
 
 1. Chame o endpoint para gerar o token de acesso.
-1. Chame a REST API inserindo de maneira correta o token de acesso.
+1. Chame a REST API inserindo de maneira adequada o token de acesso.
 
 
 >[!NOTE]
@@ -152,13 +152,13 @@ Com essa autenticação, a execução da ação é um processo de duas etapas:
 
 * authorizationType: define como o token de acesso gerado deve ser inserido na chamada HTTP para a ação. Os valores possíveis são:
 
-   * bearer: indica que o token de acesso deve ser injetado no cabeçalho da Autorização, como: _Authorization: Bearer &lt;access token>_
-   * header: indica que o token de acesso deve ser inserido como um cabeçalho, o nome do cabeçalho definido pela propriedade tokenTarget. Por exemplo, se o tokenTarget for myHeader, o token de acesso será inserido como um cabeçalho como: _myHeader: &lt;access token>_
-   * queryParam: indica que o token de acesso deve ser inserido como um queryParam, o nome do parâmetro do query definido pela propriedade tokenTarget. Por exemplo, se o tokenTarget for myQueryParam, o URL da chamada de ação será: _&lt;url>?myQueryParam=&lt;access token>_
+   * bearer: indica que o token de acesso deve ser injetado no cabeçalho da Autorização, como: _Autorização: Portador &lt;access token=&quot;&quot;>_
+   * header: indica que o token de acesso deve ser inserido como um cabeçalho, o nome do cabeçalho definido pela propriedade tokenTarget. Por exemplo, se o tokenTarget for myHeader, o token de acesso será inserido como um cabeçalho como: _myHeader: &lt;access token=&quot;&quot;>_
+   * queryParam: indica que o token de acesso deve ser inserido como um queryParam, o nome do parâmetro de consulta definido pela propriedade tokenTarget. Por exemplo, se o tokenTarget for myQueryParam, o URL da chamada de ação será: _&lt;url>?myQueryParam=&lt;access token=&quot;&quot;>_
 
 * tokenInResponse: indica como extrair o token de acesso da chamada de autenticação. Essa propriedade pode ser:
    * &#39;response&#39;: indica que a resposta HTTP é o token de acesso
-   * um seletor em um json (supondo que a resposta seja um json, não oferecemos suporte a outros formatos, como XML). O formato desse seletor é _json://&lt;path to the access token property>_. Por exemplo, se a resposta da chamada for: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, o tokenInResponse será: _json: //access_token_
+   * um seletor em um json (supondo que a resposta seja um json, não oferecemos suporte a outros formatos, como XML). O formato desse seletor é _json://&lt;path to=&quot;&quot; the=&quot;&quot; access=&quot;&quot; token=&quot;&quot; property=&quot;&quot;>_. Por exemplo, se a resposta da chamada for: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, o tokenInResponse será: _json: //access_token_
 
 O formato dessa autenticação é:
 
@@ -193,7 +193,7 @@ O formato dessa autenticação é:
 >
 >Encode64 é a única função disponível na carga de autenticação.
 
-É possível alterar a duração do cache do token para uma fonte de dados de autenticação personalizada. Encontre abaixo um exemplo de payload de autenticação personalizada. A duração do cache é definida no parâmetro &quot;cacheDuration&quot;. Especifica a duração de retenção do token gerado no cache. A unidade pode ser milissegundos, segundos, minutos, horas, dias, meses, anos.
+É possível alterar a duração do cache do token para uma fonte de dados de autenticação personalizada. Veja abaixo um exemplo de payload de autenticação personalizada. A duração do cache é definida no parâmetro &quot;cacheDuration&quot;. Especifica a duração de retenção do token gerado no cache. A unidade pode ser milissegundos, segundos, minutos, horas, dias, meses, anos.
 
 Veja um exemplo do tipo de autenticação de portador:
 

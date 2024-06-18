@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 98%
       + Casos de uso técnicos {#technical-use-cases}
          + [Envio dinâmico de coleções usando ações personalizadas](using/building-journeys/collections.md)
          + [Incrementar entregas](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Limite a taxa de transferência com Fontes de dados externas e Ações personalizadas](using/building-journeys/limit-throughput.md)
+         + [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](using/building-journeys/limit-throughput.md)
          + [Use ações personalizadas para gerar eventos de jornada na Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campanhas{#campaigns}
    + [Introdução às campanhas](using/campaigns/get-started-with-campaigns.md)
@@ -315,7 +315,7 @@ ht-degree: 98%
    + Fragmentos de conteúdo reutilizáveis {#fragments}
       + [Introdução a fragmentos](using/content-management/fragments.md)
       + [Criar um fragmento](using/content-management/create-fragments.md)
-      + [Salvar conteúdo existente como fragmento](using/content-management/save-fragments.md)
+      + [Salvar conteúdo como fragmento](using/content-management/save-fragments.md)
       + [Gerenciar fragmentos](using/content-management/manage-fragments.md)
    + Conteúdo dinâmico {#dynamic}
       + [Introdução ao conteúdo dinâmico](using/personalization/get-started-dynamic-content.md)

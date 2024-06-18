@@ -11,7 +11,7 @@ exl-id: 20da09e1-0611-4d27-a589-30552011e06c
 source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -23,7 +23,7 @@ A integração com a **[!DNL Adobe Intelligent Services]** O permite aproveitar 
 
 Integração entre [!DNL Journey Optimizer] e [!DNL Intelligent Services] O permite aproveitar as previsões do cliente.
 
-A IA do cliente faz parte de [!DNL Adobe Intelligent Services]. Isso ajuda a prever o que um cliente provavelmente fará. Consulte a [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=pt-BR){target="_blank"}.
+A IA do cliente faz parte de [!DNL Adobe Intelligent Services]. Isso ajuda a prever o que um cliente provavelmente fará. Consulte a [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target="_blank"}.
 
 A IA do cliente permite que as marcas criem pontuações de conversão ou cancelamento baseadas em aprendizado de máquina, que estarão disponíveis como atributos de perfil nos perfis da Adobe Experience Platform (Perfil do cliente em tempo real).
 

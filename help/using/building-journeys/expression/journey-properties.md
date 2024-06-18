@@ -21,7 +21,7 @@ No editor de expressão avançado, você encontrará a variável **Jornada propr
 
 >[!NOTE]
 >
->Os atributos de propriedades de Jornada também estão disponíveis no editor de expressões simples. Consulte esta [seção](../condition-activity.md#about_condition)
+>Os atributos de propriedades de Jornada também estão disponíveis no editor de expressões simples. Veja isto [seção](../condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 

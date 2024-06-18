@@ -12,7 +12,7 @@ exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 33%
+ht-degree: 14%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 33%
   >
   >Não há restrições na estrutura do arquivo .zip. No entanto, as referências devem ser relativas e se encaixar na estrutura de árvore da pasta .zip.
 
-Para importar um arquivo contendo conteúdo HTML, siga as etapas abaixo:
+Para importar um arquivo com conteúdo HTML, siga as etapas abaixo:
 
 1. Na página inicial do Designer de email, selecione **[!UICONTROL Importar HTML]**.
 
    ![](assets/import-html_2.png)
 
-1. Arraste e solte o HTML ou arquivo .zip contendo seu conteúdo HTML e clique em **[!UICONTROL Importar]**.
+1. Arraste e solte o arquivo HTML ou .zip que contém o conteúdo HTML e clique em **[!UICONTROL Importar]**.
 
    ![](assets/html-imported_2.png)
 
@@ -53,6 +53,6 @@ Para importar um arquivo contendo conteúdo HTML, siga as etapas abaixo:
 
 ## Vídeo tutorial {#video}
 
-Saiba como importar conteúdo HTML existente, ajustar o design, adicionar mirror page e links para cancelar a inscrição e como codificar seu conteúdo.
+Saiba como importar conteúdo HTML existente, ajustar o design, adicionar mirror page e links para cancelar a inscrição e codificar o conteúdo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

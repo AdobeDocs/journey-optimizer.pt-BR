@@ -11,7 +11,7 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 016b823161b162cb00e0eae27cd45873752425ba
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 24%
+ht-degree: 23%
 
 ---
 
@@ -42,7 +42,7 @@ Você pode usar um subdomínio que já foi delegado ao Adobe ou configurar outro
 >
 >* A configuração do subdomínio SMS é compartilhada entre todos os ambientes. Portanto, qualquer modificação em um subdomínio SMS também afeta outras sandboxes de produção.
 >
->* Para acessar e editar subdomínios SMS, você deve ter a **[!UICONTROL Gerenciar subdomínios de SMS]** permissão na sandbox de produção. Saiba mais sobre permissões [nesta seção](../administration/high-low-permissions.md).
+>* Para acessar e editar subdomínios SMS, você deve ter a **[!UICONTROL Gerenciar subdomínios de SMS]** permissão na sandbox de produção. Saiba mais sobre permissões no [nesta seção](../administration/high-low-permissions.md).
 >
 
 ## Usar um subdomínio existente {#sms-use-existing-subdomain}

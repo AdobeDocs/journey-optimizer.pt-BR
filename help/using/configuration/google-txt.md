@@ -12,7 +12,7 @@ exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 30%
+ht-degree: 22%
 
 ---
 
@@ -39,4 +39,4 @@ Para adicionar um registro TXT do Google ao subdomínio, siga estas etapas:
 
    ![](assets/subdomain-google-txt.png)
 
-1. Depois de adicionado, o registro TXT deve ser verificado pelo Google. Para fazer isso, navegue até [Espaço de trabalho Google](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->, depois inicie a etapa de verificação.
+1. Depois de adicionado, o registro TXT deve ser verificado pela Google. Para fazer isso, navegue até [Espaço de trabalho Google](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->, depois inicie a etapa de verificação.

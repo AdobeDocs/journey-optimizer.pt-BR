@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 17%
 
 [Saiba como criar uma campanha da Web neste vídeo](#video)
 
-## Criar uma campanha da Web {#create-web-campaign}
+## Criar uma campanha da web {#create-web-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"

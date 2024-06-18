@@ -673,7 +673,7 @@ A variável `rightTrim` Esta função remove espaços em branco do final de uma 
 {%= rightTrim(string) %}
 ```
 
-## Dividir {#split}
+## Divisão {#split}
 
 A variável `split` é usada para dividir uma sequência de caracteres por um determinado caractere.
 

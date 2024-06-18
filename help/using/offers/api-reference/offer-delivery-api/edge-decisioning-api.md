@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## Introdução e pré-requisitos {#edge-overview-and-prerequisites}
 
-A variável [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) O é uma biblioteca JavaScript do lado do cliente que permite aos clientes da Adobe Experience Cloud interagir com os vários serviços no Experience Cloud por meio da Rede de borda do Experience Platform.
+A variável [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) é uma biblioteca JavaScript do lado do cliente que permite aos clientes da Adobe Experience Cloud interagir com os vários serviços no Experience Cloud por meio do Edge Network Experience Platform.
 
 O SDK da Web do Experience Platform é compatível com a consulta de soluções de personalização no Adobe, incluindo a Gestão de decisões, permitindo recuperar e renderizar ofertas personalizadas que você criou usando APIs ou a Biblioteca de ofertas. Para obter instruções mais detalhadas, consulte a documentação em [criação de uma oferta](../../get-started/starting-offer-decisioning.md).
 
@@ -42,7 +42,7 @@ O SDK não combinou essas bibliotecas e é uma nova implementação desde o iní
 
 1. [Configurar o fluxo de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=pt-BR) na guia Coleção de dados da sua conta na Adobe Experience Cloud.
 
-1. Instale o SDK. Existem vários métodos para fazer isso, que são abordados no [Instalar a página do SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=pt-BR). Esta página continuará com cada método diferente de implementação.
+1. Instale o SDK. Existem vários métodos para fazer isso, que são abordados no [Instalar a página do SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html). Esta página continuará com cada método diferente de implementação.
 
 Para usar o SDK, é necessário ter um [schema](../../../data/get-started-schemas.md) e uma [sequência de dados](../../../data/get-started-datasets.md) definido.
 
@@ -68,7 +68,7 @@ Essa opção é mais fácil de usar para pessoas que podem ter menos experiênci
 
    ![Configurar extensão](../../assets/configure-sdk-extension.png)
 
-1. Crie o necessário [Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=pt-BR). No mínimo, você deve criar um Mapa de identidade do SDK da Web da plataforma e um elemento de dados do Objeto XDM do SDK da Web da plataforma.
+1. Crie o necessário [Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html). No mínimo, você deve criar um Mapa de identidade do SDK da Web da plataforma e um elemento de dados do Objeto XDM do SDK da Web da plataforma.
 
    ![Mapa de identidade](../../assets/sdk-identity-map.png)
 
@@ -88,7 +88,7 @@ Essa opção é mais fácil de usar para pessoas que podem ter menos experiênci
 
 Estas são as etapas necessárias para usar a gestão de decisões usando a instalação independente pré-criada do SDK da Web. Este guia supõe que esta é a primeira vez que você implementa o SDK, portanto, todas as etapas podem não se aplicar a você. Este guia também pressupõe alguma experiência de desenvolvimento.
 
-Inclua o seguinte trecho JavaScript da Opção 2: a versão independente pré-criada em [esta página](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=pt-BR) no `<head>` seção da sua página de HTML.
+Inclua o seguinte trecho JavaScript da Opção 2: a versão independente pré-criada em [esta página](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) no `<head>` seção da sua página de HTML.
 
 ```
 javascript

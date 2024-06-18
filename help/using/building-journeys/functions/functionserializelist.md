@@ -10,7 +10,7 @@ exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -31,7 +31,7 @@ Lista
 | Parâmetro | Tipo | Descrição |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Lista para converter em uma cadeia de caracteres. |
-| separador | string | Separador entre cada elemento da lista na cadeia de caracteres de saída. |
+| separador | sequência de caracteres | Separador entre cada elemento da lista na cadeia de caracteres de saída. |
 | addQuotes | booleano | Esse parâmetro indica se cada elemento na string de saída deve incluir aspas (true) ou não (false). |
 
 ## Assinatura e tipo retornado

@@ -12,7 +12,7 @@ exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 27%
+ht-degree: 16%
 
 ---
 
@@ -32,7 +32,7 @@ No Journey Optimizer, você pode aplicar políticas de consentimento e governan�
 * [Governança de dados](../action/action-privacy.md).
 * [Consentimento](../action/consent.md).
 
-## Configurar o URL
+## Configuração de URL
 
 O painel de configuração do **Ação personalizada** Atividade mostra os parâmetros de configuração de URL e os parâmetros de autenticação configurados para a ação personalizada. Não é possível definir a parte estática do URL na jornada, mas na configuração global da ação personalizada. [Saiba mais](../action/about-custom-action-configuration.md).
 

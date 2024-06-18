@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
-title: Limite a taxa de transferência com Fontes de dados externas e Ações personalizadas
-description: Limite a taxa de transferência com Fontes de dados externas e Ações personalizadas
+title: Limite a taxa de transferência com fontes de dados externas e ações personalizadas
+description: Limite a taxa de transferência com fontes de dados externas e ações personalizadas
 feature: Journeys, Use Cases, Custom Actions, Data Sources
 topic: Content Management
 role: Developer, Data Engineer

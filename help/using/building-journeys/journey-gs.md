@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
 workflow-type: tm+mt
 source-wordcount: '2086'
-ht-degree: 17%
+ht-degree: 13%
 
 ---
 
@@ -37,7 +37,7 @@ Para enviar mensagens com jornadas, as seguintes configurações são necessári
 
    ![](assets/segment2.png)
 
-1. **Configurar a fonte de dados**: é possível definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas, por exemplo, em suas condições. Uma fonte de dados integrada da Adobe Experience Platform também é configurada no momento do provisionamento. Esta etapa não é necessária se você usar somente os dados dos eventos em sua jornada. Esta etapa é executada por um **usuário técnico**. [Leia mais](../datasource/about-data-sources.md)
+1. **Configurar a fonte de dados**: é possível definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas, por exemplo, em suas condições. Uma fonte de dados integrada do Adobe Experience Platform também é configurada no momento do provisionamento. Essa etapa não é necessária se você usar somente os dados dos eventos em sua jornada. Esta etapa é executada por um **usuário técnico**. [Leia mais](../datasource/about-data-sources.md)
 
    ![](assets/jo-datasource.png)
 
@@ -54,7 +54,7 @@ Para enviar mensagens com jornadas, as seguintes configurações são necessári
 
 ### Métricas principais e lista de jornadas {#access-metrics}
 
-Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]**. Duas guias estarão disponíveis:
+Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]**. Duas guias estão disponíveis:
 
 **Visão geral**: esta guia exibe um painel com as métricas principais relacionadas às suas jornadas:
 
@@ -69,7 +69,7 @@ Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]*
 
 ![](assets/journeys-dashboard.png)
 
-**Procurar**: esta guia exibe a lista de jornadas existentes. Você pode pesquisar jornadas, usar filtros e executar ações básicas em cada elemento. Por exemplo, você pode duplicar ou excluir um item. Para obter mais informações, consulte [esta seção](../start/user-interface.md#filter-lists).
+**Procurar**: esta guia exibe a lista de jornadas existentes. Você pode pesquisar jornadas, usar filtros e executar ações básicas em cada elemento. Por exemplo, você pode duplicar ou excluir um item. Para obter mais informações, consulte [nesta seção](../start/user-interface.md#filter-lists).
 
 ![](assets/journeys-browse.png)
 
@@ -120,7 +120,7 @@ Estas são as etapas principais para enviar mensagens por meio do jornada:
 
 1. No **Procurar** clique em **[!UICONTROL Criar Jornada]** para criar uma nova jornada.
 
-1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Saiba mais nesta [seção](journey-gs.md#change-properties).
+1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Saiba mais nesta página [seção](journey-gs.md#change-properties).
 
    ![](assets/jo-properties.png)
 
@@ -132,11 +132,11 @@ Estas são as etapas principais para enviar mensagens por meio do jornada:
 
 1. Teste a jornada usando perfis de teste. Saiba mais nesta página [seção](testing-the-journey.md)
 
-1. Publique sua jornada para ativá-la. Saiba mais nesta [seção](publishing-the-journey.md).
+1. Publique sua jornada para ativá-la. Saiba mais nesta página [seção](publishing-the-journey.md).
 
    ![](assets/jo-journeyuc2_32bis.png)
 
-1. Monitore sua jornada usando as ferramentas de relatório dedicadas para medir a eficiência da sua jornada. Saiba mais nesta [seção](../reports/live-report.md).
+1. Monitore sua jornada usando as ferramentas de relatório dedicadas para medir a eficiência da sua jornada. Saiba mais nesta página [seção](../reports/live-report.md).
 
    ![](assets/jo-dynamic_report_journey_12.png)
 
@@ -234,7 +234,7 @@ Para saber mais sobre políticas de mesclagem, consulte este [página](https://e
 Para fazer isso, siga as etapas abaixo:
 
 1. Navegue até a jornada que deseja copiar, clique na guia **Mais ações** ícone (os três pontos ao lado do nome da jornada).
-1. Selecione **Duplicar**.
+1. Selecionar **Duplicar**.
 
    ![Duplicar uma jornada](assets/duplicate-jo.png)
 

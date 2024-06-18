@@ -12,7 +12,7 @@ exl-id: 364ef926-3f92-4297-acbd-a283668106ac
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -39,7 +39,7 @@ Abaixo estão alguns recursos adicionais:
 * Em Orientação do produto e dicas de ferramentas.
 * Fornece uma transição natural para uma implementação mais avançada, se necessário.
 
-## Configurar {#setup-mobile-wf}
+## Configuração {#setup-mobile-wf}
 
 A primeira etapa desse fluxo de trabalho cria e configura automaticamente toda a Coleção de dados necessária e ativos do Journey Optimizer, como Propriedades móveis, Extensões móveis, Extensão do Journey Optimizer, Regras, Elementos de dados etc.
 
@@ -56,14 +56,14 @@ A próxima etapa fornece orientação passo a passo para instalar o código no a
 ![](assets/mobile-wf-add-code.png)
 
 
-## Validar {#valid-mobile-wf}
+## Validar{#valid-mobile-wf}
 
 Revise e verifique a implementação para validá-la. Você pode enviar uma notificação por push de teste.
 
 ![](assets/mobile-wf-valid.png)
 
 
-## Revisão {#review-mobile-wf}
+## Revisar {#review-mobile-wf}
 
 A configuração automatizada está concluída. Agora você pode visitar sua propriedade móvel de tag, configurar suas regras ou elementos de dados e começar a enviar notificações por push com o Adobe Journey Optimizer.
 

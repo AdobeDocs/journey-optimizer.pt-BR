@@ -9,7 +9,7 @@ exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '763'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="Representações"
->abstract="Adicione representações para definir onde sua oferta será exibida na mensagem. Quanto mais representações uma oferta tiver, mais oportunidades existem para usá-la em diferentes contextos de posicionamento."
+>abstract="Adicione representações para definir onde a oferta será exibida na mensagem. Quanto mais representações uma oferta tiver, mais oportunidades haverá para usar a oferta em diferentes contextos de posicionamento."
 
-Uma oferta pode ser exibida em diferentes locais em uma mensagem: em um banner superior com uma imagem, como texto em um parágrafo, como um bloco HTML etc. Quanto mais representações uma oferta tiver, mais oportunidades existem para usá-la em diferentes contextos de posicionamento.
+Uma oferta pode ser exibida em diferentes locais em uma mensagem: em um banner superior com uma imagem, como texto em um parágrafo, como um bloco HTML etc. Quanto mais representações uma oferta tiver, mais oportunidades haverá para usar a oferta em diferentes contextos de posicionamento.
 
 ## Configurar as representações da oferta {#representations}
 

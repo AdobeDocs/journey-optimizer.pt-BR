@@ -12,7 +12,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
 workflow-type: tm+mt
 source-wordcount: '1599'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -73,13 +73,13 @@ Os possíveis motivos para uma falha de delivery são:
 
 | Motivo | Descrição | Categoria |
 | --- | --- | --- |
-| **[!UICONTROL Destinatário inválido]** | O destinatário é inválido ou não existe. | Grave |
-| **[!UICONTROL Rejeição leve]** | A mensagem teve rejeição temporária por um motivo diferente dos erros temporários listados nesta tabela, como ao enviar acima da taxa permitida recomendada por um ISP. | Suave |
-| **[!UICONTROL Falha de DNS]** | A mensagem foi rejeitada devido a uma falha de DNS. | Suave |
-| **[!UICONTROL Caixa de entrada cheia]** | A mensagem foi rejeitada porque a caixa de entrada do destinatário está cheia e não pode receber mais mensagens. | Suave |
-| **[!UICONTROL Retransmissão negada]** | A mensagem foi bloqueada pelo destinatário porque a retransmissão não é permitida. | Suave |
-| **[!UICONTROL Desafio-resposta]** | A mensagem é uma prova de desafio-resposta. | Suave |
-| **[!UICONTROL Reclamação de spam]** | A mensagem foi bloqueada porque foi marcada como spam pelo destinatário. | Grave |
+| **[!UICONTROL Destinatário inválido]** | O destinatário é inválido ou não existe. | Permanente |
+| **[!UICONTROL Rejeição leve]** | A mensagem teve rejeição temporária por um motivo diferente dos erros temporários listados nesta tabela, como ao enviar acima da taxa permitida recomendada por um ISP. | Temporária |
+| **[!UICONTROL Falha de DNS]** | A mensagem foi rejeitada devido a uma falha de DNS. | Temporária |
+| **[!UICONTROL Caixa de entrada cheia]** | A mensagem foi rejeitada porque a caixa de entrada do destinatário está cheia e não pode receber mais mensagens. | Temporária |
+| **[!UICONTROL Retransmissão negada]** | A mensagem foi bloqueada pelo destinatário porque a retransmissão não é permitida. | Temporária |
+| **[!UICONTROL Desafio-resposta]** | A mensagem é uma prova de desafio-resposta. | Temporária |
+| **[!UICONTROL Reclamação de spam]** | A mensagem foi bloqueada porque foi marcada como spam pelo destinatário. | Permanente |
 
 >[!NOTE]
 >
@@ -222,7 +222,7 @@ Para remover um endereço da lista de supressão, use o **[!UICONTROL Excluir]**
 
 >[!NOTE]
 >
->Continue com muito cuidado ao considerar a exclusão de qualquer endereço de email ou domínio. Em caso de dúvidas, entre em contato com um especialista em capacidade de entrega.
+>Continue com muito cuidado ao considerar a exclusão de qualquer endereço de email ou domínio. Em caso de dúvidas, entre em contato com um especialista em capacidade de delivery.
 
 Por exemplo, no caso de uma interrupção do provedor de serviços de Internet (ISP), os emails são marcados incorretamente como rejeições permanentes porque não podem ser entregues com êxito ao recipient. Esses endereços de email devem ser removidos da lista de supressão.
 

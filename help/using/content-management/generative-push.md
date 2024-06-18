@@ -13,7 +13,7 @@ hidefromtoc: true
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '958'
 ht-degree: 6%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 **Índice**
 
-* [Introdução ao assistente de IA](gs-generative.md)
+* [Introdução ao Assistente de IA](gs-generative.md)
 * [Geração de email com o Assistente de IA](generative-email.md)
 * [Geração de SMS com o Assistente de IA](generative-sms.md)
 * Geração de push com o Assistente de IA
@@ -58,7 +58,7 @@ Siga estas etapas:
 
 1. Acesse o **[!UICONTROL Mostrar assistente de IA]** menu.
 
-   ![](assets/push-genai-full-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-full-1.png){zoomable="yes"}
 
 1. Ativar o **[!UICONTROL Usar conteúdo original]** opção do Assistente de IA para personalizar novo conteúdo com base no conteúdo da campanha, nome e público selecionado.
 
@@ -68,7 +68,7 @@ Siga estas etapas:
 
    Se você estiver procurando ajuda para elaborar seu prompt, acesse o **[!UICONTROL Biblioteca de Prompts]** que fornece uma variedade diversa de ideias rápidas para melhorar suas campanhas.
 
-   ![](assets/push-genai-full-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-full-2.png){zoomable="yes"}
 
 1. Selecionar **[!UICONTROL Fazer upload do ativo da marca]** para adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de IA.
 
@@ -80,7 +80,7 @@ Siga estas etapas:
    * **[!UICONTROL Idioma]**: selecione o idioma no qual deseja que o conteúdo seja gerado.
    * **[!UICONTROL Tom]**: o tom do seu email deve refletir no seu público-alvo. Se você quiser soar informativo, divertido ou persuasivo, o Assistente de IA poderá adaptar a mensagem de acordo.
 
-   ![](assets/push-genai-full-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-full-3.png){zoomable="yes"}
 
 1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
 
@@ -94,7 +94,7 @@ Siga estas etapas:
 
    * **[!UICONTROL Usar idioma simples]**: use o Assistente de IA para simplificar o seu idioma, garantindo clareza e acessibilidade para um público-alvo maior.
 
-   ![](assets/push-genai-full-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-full-4.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
@@ -118,7 +118,7 @@ Neste exemplo específico, saiba como usar o Assistente de IA para conteúdo esp
 
 1. Acesse o **[!UICONTROL Mostrar assistente de IA]** menu ao lado do seu **[!UICONTROL Título]** ou **[!UICONTROL Mensagem]** campos.
 
-   ![](assets/push-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-1.png){zoomable="yes"}
 
 1. Ativar o **[!UICONTROL Usar conteúdo de referência]** opção do Assistente de IA para personalizar novo conteúdo com base no conteúdo da campanha, nome e público selecionado.
 
@@ -128,11 +128,11 @@ Neste exemplo específico, saiba como usar o Assistente de IA para conteúdo esp
 
    Se você estiver procurando ajuda para elaborar seu prompt, acesse o **[!UICONTROL Biblioteca de Prompts]** que fornece uma variedade diversa de ideias rápidas para melhorar suas campanhas.
 
-   ![](assets/push-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-2.png){zoomable="yes"}
 
 1. Selecionar **[!UICONTROL Fazer upload do ativo da marca]** para adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de IA.
 
-   ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-3.png){zoomable="yes"}
 
 1. Personalize seu prompt com as diferentes opções:
 
@@ -141,7 +141,7 @@ Neste exemplo específico, saiba como usar o Assistente de IA para conteúdo esp
    * **[!UICONTROL Tom]**: o tom do seu email deve refletir no seu público-alvo. Se você quiser soar informativo, divertido ou persuasivo, o Assistente de IA poderá adaptar a mensagem de acordo.
    * **[!UICONTROL Length]**: selecione o comprimento do conteúdo usando o controle deslizante de intervalo.
 
-   ![](assets/push-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-4.png){zoomable="yes"}
 
 1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
 
@@ -159,7 +159,7 @@ Neste exemplo específico, saiba como usar o Assistente de IA para conteúdo esp
 
    * **[!UICONTROL Usar linguagem mais simples]**: use o Assistente de IA para simplificar o seu idioma, garantindo clareza e acessibilidade para um público-alvo maior.
 
-   ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-5.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 

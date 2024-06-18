@@ -9,7 +9,7 @@ exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1962'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** _id
 **Título:** Identificador
 **Descrição:** Um identificador exclusivo do registro.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -64,14 +64,14 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
   **Campo:** endDate
   **Título:** Data e hora final
   **Descrição:** A data final de uma validade de opções de decisão. As opções que passaram da data de término não podem mais ser propostas no processo de decisão.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
 
 * **Data e hora de início**
 
   **Campo:** startDate
   **Título:** Data e hora de início
   **Descrição:** A data inicial de uma validade de opções de decisão. As opções que não atingiram a data de início não podem ser propostas ainda no processo de decisão.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
 
 +++
 
@@ -105,7 +105,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
   **Campo:** _type
   **Título:** Tipo de componente de conteúdo
   **Descrição:** Um conjunto enumerado de URIs em que cada valor é mapeado para um tipo fornecido ao componente de conteúdo. Alguns consumidores das representações de conteúdo esperam que o valor @type seja uma referência ao schema que descreve propriedades adicionais do componente de conteúdo.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
 
 * **_experience > decisioning > content > components > _dc**
 
@@ -118,7 +118,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
      **Campo:** formato
      **Título:** Formato
      **Descrição:** A manifestação física ou digital do recurso. Normalmente, o Formato deve incluir o tipo de mídia do recurso. O formato pode ser usado para determinar o software, hardware ou outro equipamento necessário para exibir ou operar o recurso. A prática recomendada é selecionar um valor de um vocabulário controlado (por exemplo, a lista de [Tipos de mídia da Internet](https://www.iana.org/assignments/media-types/) definindo formatos de mídia de computador).
-     **Tipo:** sequência de caracteres
+     **Tipo:** string
      **Exemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Idioma**
@@ -137,47 +137,47 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 
      **Campo:** id
      **Descrição:** Um identificador exclusivo opcional para fazer referência ao ativo em um repositório de conteúdo. Quando as APIs da Platform são usadas para recuperar a representação, o cliente pode esperar uma propriedade adicional \&quot;repo:resolveUrl\&quot; para recuperar o ativo.
-     **Tipo:** sequência de caracteres
+     **Tipo:** string
      **Exemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
      **Campo:** name
      **Descrição:** Algumas dicas sobre onde localizar o repositório que armazena o ativo externo pelo \&quot;repo:id\&quot;.
-     **Tipo:** sequência de caracteres
+     **Tipo:** string
 
    * **repositoryID**
 
      **Campo:** repositoryID
      **Descrição:** Um identificador exclusivo opcional para fazer referência ao ativo em um repositório de conteúdo. Quando as APIs da Platform são usadas para recuperar a representação, o cliente pode esperar uma propriedade adicional \&quot;repo:resolveUrl\&quot; para recuperar o ativo.
-     **Tipo:** sequência de caracteres
+     **Tipo:** string
      **Exemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
      **Campo:** resolveURL
      **Descrição:** Um localizador de recursos exclusivo opcional para ler o ativo em um repositório de conteúdo. Isso facilitará a obtenção do ativo sem que o cliente entenda onde ele é gerenciado e quais APIs chamar. Isso é semelhante a um link HAL, mas a semântica é mais simples e mais funcional.
-     **Tipo:** sequência de caracteres
+     **Tipo:** string
      **Exemplo:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisioning > content > components > content**
 
   **Campo:** conteúdo
   **Descrição:** Um campo opcional para conter o conteúdo diretamente. Em vez de fazer referência ao conteúdo em um repositório de ativos, o componente pode reter o conteúdo simples diretamente. Esse campo não é usado para ativos de conteúdo composto, complexo e binário.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
 
 * **_experience > decisioning > content > components > deliveryURL**
 
   **Campo:** deliveryURL
   **Descrição:** Um localizador de recursos exclusivo opcional para obter o ativo de uma rede de entrega de conteúdo ou ponto de extremidade de serviço. Esse URL é usado para acessar o ativo publicamente por um agente do usuário.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
   **Exemplo:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > content > components > linkURL**
 
   **Campo:** linkURL
   **Descrição:** Um localizador de recursos exclusivo opcional para interações do usuário. Esse URL é usado para indicar o usuário final a em um agente do usuário e pode ser rastreado.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
   **Exemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisão > conteúdo > Posicionamento
@@ -185,7 +185,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** inserção
 **Título:** Posicionamento
 **Descrição:** Posicionamento a ser cumprido. O valor é o URI (@id) do posicionamento de oferta referenciado. Consulte schema https://ns.adobe.com/experience/decisioning/placement.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -204,7 +204,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** name
 **Título:** Nome da opção de decisão
 **Descrição:** Nome da opção que é exibido em várias interfaces de usuário.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -222,7 +222,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** descrição
 **Título:** Descrição
 **Descrição:** Descrição de restrição de perfil. É usado para transmitir intenções legíveis por humanos sobre como ou por que essa restrição de perfil foi construída e/ou qual opção será incluída ou excluída por ela.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -231,7 +231,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** eligibilityRule
 **Título:** Regra de elegibilidade
 **Descrição:** Uma referência a uma regra de decisão que é avaliada como verdadeira ou falsa para um determinado perfil e/ou outros objetos XDM contextuais fornecidos. A regra é usada para decidir se a opção se qualifica para um determinado perfil. O valor é o URI (@id) da regra de decisão referenciada. Consulte schema https://ns.adobe.com/experience/decisioning/rule.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -262,7 +262,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
   **Campo:** _id
   **Título:** Identificador
   **Descrição:** Identidade dos públicos-alvo no namespace relacionado.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
 
 * **Namespace**
 
@@ -277,14 +277,14 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
      **Campo:** código
      **Título:** Código
      **Descrição:** O código é um identificador legível por humanos para o namespace e pode ser usado para solicitar a id técnica do namespace que é usada para o processamento do gráfico de identidade.
-     **Tipo:** sequência de caracteres
+     **Tipo:** string
 
 * **Identificador de experiência**
 
   **Campo:** xid
   **Título:** Identificador de experiência
   **Descrição:** Quando presente, esse valor representa um identificador de namespace cruzado que é exclusivo em todos os identificadores de escopo de namespace em todos os namespaces.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
 
 +++
 
@@ -309,14 +309,14 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
   **Campo:** função
   **Título:** Função de pontuação
   **Descrição:** Uma referência a uma função que calcula uma pontuação numérica para essa opção de decisão. As opções de decisão serão classificadas por essa pontuação. O valor dessa propriedade é o URI (@id) da função a ser chamada com uma opção de cada vez. Consulte schema https://ns.adobe.com/experience/decisioning/function.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
 
 * **Tipo de avaliação do pedido**
 
   **Campo:** orderEvaluationType
   **Título:** Tipo de avaliação do pedido
   **Descrição:** Especifica qual mecanismo de avaliação de pedido é usado, prioridade estática das opções de decisão, uma função de pontuação que calcula um valor numérico para cada opção ou um modelo de IA que recebe uma lista para ordená-lo.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
   **Valores possíveis:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * **Estratégia de classificação**
@@ -324,7 +324,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
   **Campo:** rankingStrategy
   **Título:** Estratégia de classificação
   **Descrição:** Uma referência a uma estratégia que classifica uma lista de opções de decisão. As opções de decisão serão retornadas em uma lista ordenada. O valor dessa propriedade é o URI (@id) da função a ser chamada com uma opção de cada vez. Consulte schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-  **Tipo:** sequência de caracteres
+  **Tipo:** string
 
 +++
 
@@ -362,6 +362,6 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** etag
 **Título:** ETag de opção de decisão
 **Descrição:** A revisão na qual o objeto de opção de decisão estava quando o instantâneo foi tirado.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++

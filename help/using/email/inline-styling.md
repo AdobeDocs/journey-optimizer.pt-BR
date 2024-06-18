@@ -12,7 +12,7 @@ exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 36%
+ht-degree: 6%
 
 ---
 
@@ -26,8 +26,8 @@ Na interface do Designer de email, ao selecionar um elemento e exibir suas confi
 
    ![](assets/styles_1.png)
 
-1. Modifique os valores dos atributos existentes ou adicione novos usando o **+** botão. É possível adicionar qualquer atributo e valor que seja compatível com CSS.
+1. Modifique os valores dos atributos existentes ou adicione novos usando o **+** botão. Você pode adicionar qualquer atributo e valor que seja compatível com CSS.
 
    ![](assets/styles_2.png)
 
-O estilo é aplicado ao elemento selecionado. Se os elementos derivados não tiverem atributos de estilo específicos definidos, o estilo do elemento principal será herdado.
+O estilo é aplicado ao elemento selecionado. Se os elementos secundários não tiverem atributos de estilo específicos definidos, o estilo do elemento principal será herdado.

@@ -158,7 +158,7 @@ Depois de criadas, as superfícies de canal podem ter os seguintes status:
 
 Em caso de falha na criação de uma superfície de canal, os detalhes sobre cada possível motivo de falha são descritos abaixo.
 
-Se um desses erros ocorrer, entre em contato com [Atendimento ao cliente Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} para obter assistência.
+Se um desses erros ocorrer, entre em contato com [Atendimento ao cliente Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} para obter assistência.
 
 * **Falha na validação do SPF**: SPF (Sender Policy Framework) é um protocolo de autenticação de email que permite especificar IPs autorizados que podem enviar emails de um determinado subdomínio. Falha na validação do SPF significa que os endereços IP no registro SPF não correspondem aos endereços IP usados para enviar emails para os provedores de caixa de correio.
 
@@ -254,7 +254,7 @@ Depois que o processo de validação for bem-sucedido, a nova versão da superf�
 * alguns minutos antes de ser consumido pelas mensagens unitárias,
 * até o próximo lote para que a superfície seja efetiva em mensagens em lote.
 
-#### Falhou {#failed}
+#### Falha {#failed}
 
 Se o processo de validação falhar, a versão mais antiga da superfície ainda será usada.
 

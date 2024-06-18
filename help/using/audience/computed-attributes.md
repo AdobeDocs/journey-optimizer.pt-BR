@@ -10,7 +10,7 @@ exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ Informações detalhadas sobre como criar e gerenciar atributos calculados estã
 
 Para poder aproveitar os atributos computados no Journey Optimizer, primeiro é necessário adicioná-los ao Journey Optimizer **Experience Platform** fonte de dados.
 
-A fonte de dados do Adobe Experience Platform define a conexão com o Perfil de cliente em tempo real do Adobe. Essa fonte de dados foi projetada para recuperar dados de Perfil e dados de Eventos de experiência do Serviço de perfil do cliente em tempo real.
+A fonte de dados da Adobe Experience Platform define a conexão com o Real-Time Customer Profile. Essa fonte de dados foi projetada para recuperar dados de Perfil e dados de Eventos de experiência do Serviço de perfil do cliente em tempo real.
 
 Para adicionar atributos calculados à origem de dados, siga estas etapas:
 

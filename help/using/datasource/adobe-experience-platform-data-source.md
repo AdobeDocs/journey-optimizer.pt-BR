@@ -12,7 +12,7 @@ exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 31%
+ht-degree: 28%
 
 ---
 
@@ -37,7 +37,7 @@ Estas são as etapas principais para adicionar grupos de campos à fonte de dado
 
 1. Na lista de fontes de dados, selecione a fonte de dados integrada do Adobe Experience Platform.
 
-   Essa ação abre o painel de configuração da fonte de dados no lado direito da tela.
+   Isso abre o painel de configuração da fonte de dados no lado direito da tela.
 
    ![](assets/journey23.png)
 

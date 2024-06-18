@@ -11,7 +11,7 @@ exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
 source-git-commit: f47160f40abd9427cb9b9c793ee0ab402bf9f65b
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
@@ -53,14 +53,14 @@ Agora você pode usar esse fragmento ao criar qualquer [email](../email/get-star
 >
 >Qualquer alteração nesse novo fragmento não é propagada para o email ou modelo de onde vem. Da mesma forma, quando o conteúdo original é editado nesse email ou modelo, o novo fragmento não é modificado.
 
-## Salvar fragmento de expressão do conteúdo {#save-as-expression-fragment}
+## Salvar o conteúdo como fragmento de expressão {#save-as-expression-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="Salvar como fragmento de expressão"
->abstract="A variável [!DNL Journey Optimizer] o editor de personalização permite salvar o conteúdo como fragmentos de expressão. Essas expressões ficam disponíveis para criar conteúdo personalizado."
+>abstract="O editor de personalização do [!DNL Journey Optimizer] permite salvar o conteúdo como fragmentos de expressão. Essas expressões são disponibilizadas na criação de conteúdo personalizado."
 
-A variável [!DNL Journey Optimizer] o editor de personalização permite salvar o conteúdo como fragmentos de expressão. Essas expressões ficam disponíveis para criar conteúdo personalizado.
+O editor de personalização do [!DNL Journey Optimizer] permite salvar o conteúdo como fragmentos de expressão. Essas expressões são disponibilizadas na criação de conteúdo personalizado.
 
 Para salvar o conteúdo como um fragmento de expressão, siga as etapas abaixo.
 

@@ -9,7 +9,7 @@ exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '954'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
->title="Gerenciar facilmente todas as suas alterações"
->abstract="Com esse painel, você pode navegar por todos os ajustes e estilos adicionados à sua página da Web e gerenciá-los."
+>title="Gerenciar facilmente todas as alterações"
+>abstract="Usando esse painel, você pode navegar e gerenciar todos os ajustes e estilos adicionados à sua página da Web."
 
 É possível gerenciar facilmente todos os componentes, ajustes e estilos adicionados à página da Web. Você também pode adicionar modificações diretamente no painel dedicado.
 
@@ -98,7 +98,7 @@ Para adicionar um **Seletor de CSS** tipo de modificação, siga as etapas abaix
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="Adicionar código personalizado"
->abstract="O elemento HEAD é um container de metadados e é colocado entre a tag HTML e a tag BODY. Adicionar apenas elementos SCRIPT e STYLE. Adicionar tags DIV e outros elementos pode fazer com que os elementos de HEAD restantes apareçam no CORPO."
+>abstract="O elemento HEAD é um container de metadados que é inserido entre a tag HTML e a tag BODY. Adicionar apenas elementos SCRIPT e STYLE. Adicionar tags DIV e outros elementos pode fazer com que os elementos HEAD restantes sejam exibidos em BODY. "
 
 É possível adicionar um código personalizado usando o **[!UICONTROL Página`<head>`]** tipo de modificação.
 

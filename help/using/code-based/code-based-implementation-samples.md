@@ -8,8 +8,8 @@ level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 3%
+source-wordcount: '786'
+ht-degree: 2%
 
 ---
 
@@ -35,11 +35,11 @@ Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs 
 
   >[!NOTE]
   >
-  >Implementações de exemplo para casos de uso de dispositivos móveis estão disponíveis para [aplicativo iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+  >Implementações de exemplo para casos de uso de dispositivos móveis estão disponíveis para [aplicativo iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} e [aplicativo Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
 
 ### Como funciona - SDK da Web {#client-side-how}
 
-1. [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR){target="_blank"} está incluído na página.
+1. [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} está incluído na página.
 
 1. Você precisa usar o `sendEvent` e especifique o URI de superfície para buscar conteúdo de personalização.
 
@@ -118,7 +118,7 @@ Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs 
 
 Os cookies são usados para manter a identidade do usuário e as informações do cluster. Ao usar uma implementação no lado do cliente, o SDK da Web lida com o armazenamento e envio desses cookies automaticamente durante o ciclo de vida da solicitação.
 
-| Cookie | Propósito | Armazenado por | Enviado por |
+| Cookie | Finalidade | Armazenado por | Enviado por |
 | ------------------------ | -------------------------------------------------------------------------- | --------- | ------- |
 | kndctr_AdobeOrg_identity | Contém detalhes da identidade do usuário | Web SDK | Web SDK |
 | kndctr_AdobeOrg_cluster | Indica qual cluster de borda de experiência deve ser usado para atender a solicitações | Web SDK | Web SDK |
@@ -138,9 +138,9 @@ As solicitações para a API do Adobe Experience Platform são necessárias para
 
 ## Implementação do lado do servidor {#server-side-implementation}
 
-Se você tiver uma implementação do lado do servidor, poderá usar uma da API da rede de borda da AEP.
+Se você tiver uma implementação do lado do servidor, poderá usar uma da API Edge Network da AEP.
 
-As etapas abaixo descrevem o processo de busca do conteúdo publicado na borda pelas campanhas de experiência baseadas em código em uma amostra da implementação da API da rede de borda para uma página da Web e a exibição do conteúdo personalizado.
+As etapas abaixo descrevem o processo de busca do conteúdo publicado na borda pelas campanhas de experiência baseadas em código em uma amostra da implementação da API do Edge Network para uma página da Web e a exibição do conteúdo personalizado.
 
 ### Como funciona
 
@@ -282,7 +282,7 @@ As etapas abaixo descrevem o processo de busca do conteúdo publicado na borda p
 
 Os cookies são usados para manter a identidade do usuário e as informações do cluster. Ao usar uma implementação do lado do servidor, o servidor de aplicativos deve lidar com o armazenamento e o envio desses cookies durante o ciclo de vida da solicitação.
 
-| Cookie | Propósito | Armazenado por | Enviado por |
+| Cookie | Finalidade | Armazenado por | Enviado por |
 | ------------------------ | -------------------------------------------------------------------------- | ------------------ | ------------------ |
 | kndctr_AdobeOrg_identity | Contém detalhes da identidade do usuário | servidor de aplicativos | servidor de aplicativos |
 | kndctr_AdobeOrg_cluster | Indica qual cluster de borda de experiência deve ser usado para atender a solicitações | servidor de aplicativos | servidor de aplicativos |
@@ -305,4 +305,4 @@ As solicitações para a API do Adobe Experience Platform são necessárias para
 Se você tiver uma implementação híbrida, verifique os links abaixo.
 
 * Blog da Adobe Tech: [Personalização híbrida no SDK da Web do Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* Documentação do SDK: [Personalização híbrida usando o SDK da Web e a API do servidor de rede de borda](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* Documentação do SDK: [Personalização híbrida usando o SDK da Web e a API do servidor do Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}

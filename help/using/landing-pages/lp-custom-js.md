@@ -60,7 +60,7 @@ function init(lpRuntime){
 }
 ```
 
-## Ganchos 
+## Ganchos
 
 Usando ganchos, você pode anexar um método durante o ciclo de vida do envio do formulário. Por exemplo, você pode usar ganchos para executar alguma validação de formulário antes que o formulário seja realmente enviado.
 

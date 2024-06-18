@@ -8,7 +8,7 @@ exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
@@ -46,4 +46,4 @@ Uma vez [perfis de teste](test-profiles.md) forem selecionadas, você poderá en
 
 >[!NOTE]
 >
->Na prova enviada, o link para a mirror page não está ativo. Ele só é ativado nas mensagens finais.
+>Na prova enviada, o link para a mirror page não está ativo. Ela só é ativada nas mensagens finais.

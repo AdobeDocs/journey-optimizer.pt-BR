@@ -70,7 +70,7 @@ Casos de uso comercial:
 Casos de uso técnico:
 
 * [Envio dinâmico de coleções usando ações personalizadas](collections.md)
-* [Limite a taxa de transferência com Fontes de dados externas e Ações personalizadas](limit-throughput.md)
+* [Limite a taxa de transferência com fontes de dados externas e ações personalizadas](limit-throughput.md)
 
 ## Versões de jornada{#journey-versions}
 

@@ -11,7 +11,7 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1323'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -121,7 +121,7 @@ Sua jornada será composta por um **[!UICONTROL Ler público-alvo]** e uma **[!U
 
 >[!NOTE]
 >
-> Como você atualizará o **testProfile** , os perfis escolhidos deverão incluir esse campo. O schema relacionado deve ter o **Detalhes de teste do perfil** grupo de campos. Consulte [esta seção](../audience/creating-test-profiles.md#test-profiles-prerequisites).
+> Como você atualizará o **testProfile** , os perfis escolhidos deverão incluir esse campo. O schema relacionado deve ter o **Detalhes de teste do perfil** grupo de campos. Consulte [nesta seção](../audience/creating-test-profiles.md#test-profiles-prerequisites).
 
 1. Navegue até **Públicos-alvo**, depois **Criar público**, no canto superior direito.
    ![](assets/test-profiles-22.png)
@@ -140,7 +140,7 @@ Sua jornada será composta por um **[!UICONTROL Ler público-alvo]** e uma **[!U
 1. Adicionar um **[!UICONTROL Atualizar perfil]** atividade de ação.
 1. Selecione o esquema e a caixa de diálogo **testProfiles** , o conjunto de dados e defina o valor como **True**. Para fazer isso, na guia **[!UICONTROL VALOR]** clique no botão **Caneta** ícone à direita, selecione **[!UICONTROL Modo avançado]** e insira **true**.
    ![](assets/test-profiles-26.png)
-1. Clique em **[!UICONTROL Publicar]**.
+1. Clique em **[!UICONTROL Publish]**.
 1. No **[!UICONTROL Públicos-alvo]** verifique se os perfis foram atualizados corretamente.
    ![](assets/test-profiles-28.png)
 
@@ -162,7 +162,7 @@ No Adobe Experience Platform, é possível criar perfis carregando um arquivo cs
    ![](assets/test-profiles-14.png)
 1. Escolher **Mapear CSV para esquema XDM** e, em seguida, clique em **Launch**.
    ![](assets/test-profiles-16.png)
-1. Selecione o conjunto de dados para o qual você deseja importar os perfis. Clique em **Avançar**.
+1. Selecione o conjunto de dados para o qual você deseja importar os perfis. Clique em **Próxima**.
    ![](assets/test-profiles-17.png)
 1. Clique em **Escolher arquivos** e selecione o arquivo csv. Quando o arquivo for carregado, clique em **Próxima**.
    ![](assets/test-profiles-18.png)
@@ -173,7 +173,7 @@ No Adobe Experience Platform, é possível criar perfis carregando um arquivo cs
 1. Verifique se os perfis de teste foram adicionados corretamente.
    ![](assets/test-profiles-21.png)
 
-Seus perfis de teste são adicionados e agora podem ser usados ao testar uma jornada. Consulte [esta seção](../building-journeys/testing-the-journey.md).
+Seus perfis de teste são adicionados e agora podem ser usados ao testar uma jornada. Consulte [nesta seção](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
 > Para obter mais informações sobre importações de csv, consulte [Documentação de assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.

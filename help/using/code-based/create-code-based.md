@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -49,7 +49,7 @@ Para começar a criar sua experiência baseada em código por meio de uma campan
 >id="ajo_code_based_experience"
 >title="Usar o editor de personalização"
 >abstract="Insira e edite o código que deseja entregar como parte desta ação de experiência baseada em código."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Introdução ao editor de personalização"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=pt-BR" text="Introdução ao editor de personalização"
 
 1. Na tela de edição da campanha, selecione **[!UICONTROL Editar código]**.
 
@@ -88,8 +88,8 @@ Agora, assim que o desenvolvedor fizer uma chamada de API ou SDK para buscar con
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
->title="Visualizar sua experiência baseada em código"
->abstract="Obtenha uma simulação de como será sua experiência baseada em código."
+>title="Visualize sua experiência baseada em código"
+>abstract="Acesse uma simulação de como será a sua experiência baseada em código."
 
 Para exibir uma pré-visualização de sua experiência baseada em código modificada, siga as etapas abaixo. Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na [Pré-visualizar e testar a página de conteúdo](../content-management/preview-test.md).
 

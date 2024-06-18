@@ -12,7 +12,7 @@ exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: 6277d3aff540d2ce19a13f9a3174c0aef10f7180
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
@@ -33,7 +33,7 @@ Se você tiver o Adobe Campaign v7 ou v8, uma integração estará disponível m
 
 Se você estiver usando um sistema de terceiros para enviar mensagens como Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase etc., é necessário adicionar e configurar uma ação personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-As ações personalizadas permitem configurar a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API. Uma ação pode ser configurada com qualquer serviço de qualquer provedor que possa ser chamado por meio de uma REST API com uma carga útil formatada em JSON.
+As ações personalizadas permitem configurar a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API. Uma ação pode ser configurada com qualquer serviço de qualquer provedor que possa ser chamado por meio de uma REST API com conteúdo formatado em JSON.
 
 >[!CAUTION]
 >

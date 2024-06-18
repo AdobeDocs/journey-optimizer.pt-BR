@@ -11,7 +11,7 @@ exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: f47160f40abd9427cb9b9c793ee0ab402bf9f65b
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 1%
+ht-degree: 23%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
->title="Selecionar o tipo visual"
->abstract="Crie um fragmento visual independente para tornar o conteúdo reutilizável em um email em uma jornada, campanha ou modelo de conteúdo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="Adicionar fragmentos visuais aos seus emails"
+>title="Selecione o tipo “Visual”"
+>abstract="Crie um fragmento visual independente para tornar o conteúdo reutilizável em um email de uma jornada ou campanha ou em um modelo de conteúdo."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=pt-BR" text="Adicionar fragmentos visuais aos emails"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
->title="Selecionar o tipo de expressão"
->abstract="Crie um fragmento de expressão independente para tornar seu conteúdo reutilizável em várias jornadas e campanhas. Ao usar o editor de personalização, você pode aproveitar todos os fragmentos de expressão que foram criados na sandbox atual."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Aproveitar fragmentos de expressão"
+>title="Selecione o tipo “Expressão”"
+>abstract="Crie um fragmento de expressão independente para tornar seu conteúdo reutilizável em várias jornadas e campanhas. Ao usar o editor de personalização, é possível aproveitar todos os fragmentos de expressão criados na sandbox atual."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=pt-BR" text="Aproveitar fragmentos de expressão"
 
 Fragmentos são criados a partir do **[!UICONTROL Fragmentos]** menu esquerdo. Além disso, também é possível salvar uma parte do conteúdo existente como fragmento ao projetar o conteúdo. [Saiba como](#save-as-fragment)
 

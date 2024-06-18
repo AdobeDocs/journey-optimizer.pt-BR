@@ -9,7 +9,7 @@ exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 3a4a58f8601c67e8e9a2b606a47c6b4bcc2dab05
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -37,7 +37,7 @@ The following operation gets the value of the identity map for the key `example@
 ```
 -->
 
-## Tempo atual em milissegundos{#current-time}
+## Hora atual em milissegundos{#current-time}
 
 A variável `currentTimeInMillis` esta função é usada para recuperar a hora atual em milissegundos da época.
 

@@ -12,7 +12,7 @@ exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 0f1c4b96e930e8e473463002c1d8ef66341a07c4
 workflow-type: tm+mt
 source-wordcount: '1609'
-ht-degree: 12%
+ht-degree: 6%
 
 ---
 
@@ -53,7 +53,7 @@ Estas são as primeiras etapas para configurar um novo evento:
 
 1. O número de jornadas que usam esse evento é exibido no **[!UICONTROL Usado em]** campo. Você pode clicar no link **[!UICONTROL Exibir jornadas]** ícone para exibir a lista de jornadas usando esse evento.
 
-1. Defina os campos schema e payload: é aqui que você seleciona as informações do evento (normalmente chamadas de payload) que o jornada espera receber. Você poderá então usar essas informações em sua jornada. Consulte [esta seção](../event/about-creating.md#define-the-payload-fields).
+1. Defina os campos schema e payload: é aqui que você seleciona as informações do evento (normalmente chamadas de payload) que o jornada espera receber. Você poderá então usar essas informações na jornada. Consulte [nesta seção](../event/about-creating.md#define-the-payload-fields).
 
    ![](assets/jo-event5.png)
 
@@ -76,9 +76,9 @@ Estas são as primeiras etapas para configurar um novo evento:
    >
    >Se você modificar seu esquema com novos valores de enumeração depois de criar o evento, será necessário seguir estas etapas para aplicar as alterações ao evento existente: desmarque o campo de enumeração dos campos de evento, confirme a seleção e selecione o campo de enumeração novamente. O novo valor de enumeração agora é exibido.
 
-1. Adicione um namespace. Esta etapa é opcional, mas é recomendada, pois a adição de namespace permite que você aproveite as informações armazenadas no Serviço de perfil do cliente em tempo real. Ela define o tipo de chave que o evento tem. Consulte [esta seção](../event/about-creating.md#select-the-namespace).
+1. Adicione um namespace. Esta etapa é opcional, mas é recomendada, pois a adição de namespace permite aproveitar as informações armazenadas no Serviço de perfil do cliente em tempo real. Ele define o tipo de chave que o evento tem. Consulte [nesta seção](../event/about-creating.md#select-the-namespace).
 
-1. Definir o identificador do perfil: escolha um campo a partir dos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento. Essa chave é configurada automaticamente (mas ainda pode ser editada) se você selecionar um namespace. Na verdade, o jornada escolhe a chave que deve corresponder ao namespace (por exemplo, se você selecionar um namespace de email, a chave de email será selecionada). Consulte [esta seção](../event/about-creating.md#define-the-event-key).
+1. Definir o identificador do perfil: escolha um campo a partir dos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento. Essa chave é configurada automaticamente (mas ainda pode ser editada) se você selecionar um namespace. Na verdade, o jornada escolhe a chave que deve corresponder ao namespace (por exemplo, se você selecionar um namespace de email, a chave de email será selecionada). Consulte [nesta seção](../event/about-creating.md#define-the-event-key).
 
    ![](assets/jo-event7.png)
 
@@ -106,7 +106,7 @@ A definição de carga útil permite escolher as informações que o sistema esp
 
    >[!NOTE]
    >
-   >Para eventos gerados pelo sistema, a variável **[!UICONTROL eventID]** campo é adicionado automaticamente na lista de campos selecionados para que [!DNL Journey Optimizer] pode identificar o evento. O sistema que envia o evento não deve gerar uma ID, mas usar a disponível na pré-visualização de carga. Consulte [esta seção](../event/about-creating.md#preview-the-payload).
+   >Para eventos gerados pelo sistema, a variável **[!UICONTROL eventID]** campo é adicionado automaticamente na lista de campos selecionados para que [!DNL Journey Optimizer] pode identificar o evento. O sistema que envia o evento não deve gerar uma ID, mas usar a disponível na pré-visualização de carga. Consulte [nesta seção](../event/about-creating.md#preview-the-payload).
 
 1. Quando terminar de selecionar os campos necessários, clique em **[!UICONTROL Ok]** ou pressione **[!UICONTROL Enter]**.
 
@@ -166,7 +166,7 @@ Se você precisar usar uma chave diferente, como uma ID do CRM ou um endereço d
 Quando o evento é recebido, o valor da chave permite que o sistema identifique a pessoa associada ao evento. Associado a um namespace (consulte [nesta seção](../event/about-creating.md#select-the-namespace)), a chave pode ser usada para executar consultas no Adobe Experience Platform. Consulte [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
 A chave também é usada para verificar se uma pessoa está em uma jornada. De fato, uma pessoa não pode estar em dois lugares diferentes na mesma jornada. Como resultado, o sistema não permite que a mesma chave, por exemplo, a chave CRMID=3224, esteja em locais diferentes na mesma jornada.
 
-Você também tem acesso às funções avançadas de expressão (**[!UICONTROL Modo avançado]**) se quiser executar manipulações adicionais. Essas funções permitem manipular os valores usados para realizar consultas específicas, como alterar formatos e executar concatenações de campo, levando em conta apenas uma parte de um campo (por exemplo, os 10 primeiros caracteres). Consulte esta [página](../building-journeys/expression/expressionadvanced.md).
+Você também tem acesso às funções avançadas de expressão (**[!UICONTROL Modo avançado]**) se quiser executar manipulações adicionais. Essas funções permitem manipular os valores usados para realizar consultas específicas, como alterar formatos e executar concatenações de campo, levando em conta apenas uma parte de um campo (por exemplo, os 10 primeiros caracteres). Veja isto [página](../building-journeys/expression/expressionadvanced.md).
 
 ## Visualizar o conteúdo {#preview-the-payload}
 

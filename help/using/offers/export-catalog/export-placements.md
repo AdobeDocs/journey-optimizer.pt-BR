@@ -9,7 +9,7 @@ exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** _id
 **Título:** Identificador
 **Descrição:** Um identificador exclusivo do registro.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -57,7 +57,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** channelID
 **Título:** Identificador de canal do posicionamento
 **Descrição:** O canal no qual a apresentação foi feita. O valor é um URI de canal válido. Consulte https://ns.adobe.com/xdm/channels/channel.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -66,7 +66,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** componentType
 **Título:** Tipo de componente de conteúdo
 **Descrição:** Um conjunto enumerado de URIs em que cada valor é mapeado para um tipo fornecido ao componente de conteúdo. Alguns consumidores das representações de conteúdo esperam que o valor @type seja uma referência ao schema que descreve propriedades adicionais do componente de conteúdo.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -81,7 +81,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 
 **Título:** Tipo de mídia MIME
 **Descrição:** Uma restrição para o tipo de mídia dos componentes esperada nesse posicionamento. Pode haver mais de um tipo de mídia possível para um componente, como formatos de imagem diferentes.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -90,7 +90,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** descrição
 **Título:** Descrição do posicionamento
 **Descrição:** Ele é usado para transmitir intenções legíveis por humanos sobre como o conteúdo dinâmico é usado na entrega geral da mensagem. Que um determinado espaço é um \&quot;Banner\&quot; em uma página da Web geralmente é transmitido por meio da descrição e não por um método formal.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -99,7 +99,7 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** name
 **Título:** Nome do posicionamento
 **Descrição:** Um nome atribuído para o posicionamento para fazer referência a ele em interações humanas.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++
 
@@ -115,6 +115,6 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** etag
 **Título:** ETag de posicionamento
 **Descrição:** A revisão na qual o objeto de opção de decisão estava quando o instantâneo foi tirado.
-**Tipo:** sequência de caracteres
+**Tipo:** string
 
 +++

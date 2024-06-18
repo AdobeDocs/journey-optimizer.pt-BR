@@ -10,7 +10,7 @@ exl-id: db54c119-5080-403a-b254-43645be6b4a8
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -30,7 +30,7 @@ Conversão
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| data e hora no formato ISO-8601 ou &quot;AAAA-MM-DD&quot; (formato de data XDM) | string |
+| data e hora no formato ISO-8601 ou &quot;AAAA-MM-DD&quot; (formato de data XDM) | sequência de caracteres |
 | data e hora | dateTime |
 
 ## Assinaturas e tipos retornados

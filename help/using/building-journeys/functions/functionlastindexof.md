@@ -30,7 +30,7 @@ String
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| string | String |
+| sequência de caracteres | String |
 | valor especificado | String |
 
 ## Assinatura e tipo retornado

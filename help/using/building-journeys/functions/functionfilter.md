@@ -10,7 +10,7 @@ exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ Lista
 | Parâmetro | Tipo | Descrição |
 |-----------|------------------|------------------|
 | listToFilter | listObject | lista de objetos a serem filtrados. Deve ser uma referência de campo. |
-| keyAttributeName | string | nome do atributo nos objetos da lista fornecida, usado como chave para filtragem |
+| keyAttributeName | sequência de caracteres | nome do atributo nos objetos da lista fornecida, usado como chave para filtragem |
 | keyValueList | list | matriz de valores principais para filtragem |
 
 ## Assinaturas e tipos retornados

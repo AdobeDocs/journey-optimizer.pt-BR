@@ -13,8 +13,8 @@ hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 6%
+source-wordcount: '1339'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 **Índice**
 
-* [Introdução ao assistente de IA](gs-generative.md)
+* [Introdução ao Assistente de IA](gs-generative.md)
 * Geração de email com o Assistente de IA
 * [Geração de SMS com o Assistente de IA](generative-sms.md)
 * [Geração de push com o Assistente de IA](generative-push.md)
@@ -54,7 +54,7 @@ No exemplo a seguir, aproveitaremos o assistente de IA para refinar um modelo de
 
 1. Personalize seu email conforme necessário e acesse o **[!UICONTROL Assistente de IA]** menu.
 
-   ![](assets/full-email-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-1.png){zoomable="yes"}
 
 1. Ativar o **[!UICONTROL Usar conteúdo original]** opção para o Assistente de IA personalizar novo conteúdo com base no conteúdo da campanha, nome e público selecionado.
 
@@ -64,13 +64,13 @@ No exemplo a seguir, aproveitaremos o assistente de IA para refinar um modelo de
 
    Se você estiver procurando ajuda para elaborar seu prompt, acesse o **[!UICONTROL Biblioteca de Prompts]** que fornece uma variedade diversa de ideias rápidas para melhorar suas campanhas.
 
-   ![](assets/full-email-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-2.png){zoomable="yes"}
 
 1. É possível alternar a variável **[!UICONTROL Linha de assunto]** e **[!UICONTROL Pré-cabeçalho]** opções para incluí-los na geração da variante.
 
 1. Clique em **[!UICONTROL Fazer upload do ativo da marca]** para adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de IA ou selecione um carregado anteriormente.
 
-   ![](assets/full-email-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-3.png){zoomable="yes"}
 
 1. Personalize seu prompt com as diferentes opções:
 
@@ -78,7 +78,7 @@ No exemplo a seguir, aproveitaremos o assistente de IA para refinar um modelo de
    * **[!UICONTROL Idioma]**: selecione o idioma no qual deseja que o conteúdo seja gerado.
    * **[!UICONTROL Tom]**: o tom do seu email deve refletir no seu público-alvo. Se você quiser soar informativo, divertido ou persuasivo, o Assistente de IA poderá adaptar a mensagem de acordo.
 
-   ![](assets/full-email-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-4.png){zoomable="yes"}
 
 1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
 
@@ -90,7 +90,7 @@ No exemplo a seguir, aproveitaremos o assistente de IA para refinar um modelo de
 
    * **[!UICONTROL Usar linguagem mais simples]**: use o Assistente de IA para simplificar o seu idioma, garantindo clareza e acessibilidade para um público-alvo maior.
 
-   ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-5.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
@@ -110,7 +110,7 @@ No exemplo a seguir, aproveitaremos o assistente de IA para aprimorar o conteúd
 
 1. Selecione um **[!UICONTROL Componente de texto]** para direcionar somente a um conteúdo específico. e acesse o **[!UICONTROL Assistente de IA]** menu.
 
-   ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-1.png){zoomable="yes"}
 
 1. Ativar o **[!UICONTROL Usar conteúdo original]** opção para o Assistente de IA personalizar novo conteúdo com base no conteúdo da campanha, nome e público selecionado.
 
@@ -120,11 +120,11 @@ No exemplo a seguir, aproveitaremos o assistente de IA para aprimorar o conteúd
 
    Se você estiver procurando ajuda para elaborar seu prompt, acesse o **[!UICONTROL Biblioteca de Prompts]** que fornece uma variedade diversa de ideias rápidas para melhorar suas campanhas.
 
-   ![](assets/text-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-2.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Fazer upload do ativo da marca]** para adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de IA.
 
-   ![](assets/text-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-3.png){zoomable="yes"}
 
 1. Personalize seu prompt com as diferentes opções:
 
@@ -133,7 +133,7 @@ No exemplo a seguir, aproveitaremos o assistente de IA para aprimorar o conteúd
    * **[!UICONTROL Tom]**: verifique se o texto é apropriado para seu público-alvo e sua finalidade.
    * **[!UICONTROL Length]**: selecione o comprimento do conteúdo usando o controle deslizante de intervalo.
 
-   ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-4.png){zoomable="yes"}
 
 1. Quando o prompt estiver pronto, clique em **[!UICONTROL Gerar]**.
 
@@ -151,7 +151,7 @@ No exemplo a seguir, aproveitaremos o assistente de IA para aprimorar o conteúd
 
    * **[!UICONTROL Usar linguagem mais simples]**: use o Assistente de IA para simplificar o seu idioma, garantindo clareza e acessibilidade para um público-alvo maior.
 
-   ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-5.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 
@@ -175,7 +175,7 @@ No exemplo abaixo, aprenda a usar o Assistente de IA para otimizar e melhorar se
 
 1. No menu à direita, selecione **[!UICONTROL Assistente de IA]**.
 
-   ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-1.png){zoomable="yes"}
 
 1. Ativar o **[!UICONTROL Estilo de referência]** opção para o Assistente de IA personalizar novo conteúdo com base no conteúdo de referência. Você também pode carregar uma imagem para adicionar contexto à sua variação.
 
@@ -185,7 +185,7 @@ No exemplo abaixo, aprenda a usar o Assistente de IA para otimizar e melhorar se
 
    Se você estiver procurando ajuda para elaborar seu prompt, acesse o **[!UICONTROL Biblioteca de Prompts]** que fornece uma variedade diversa de ideias rápidas para melhorar suas campanhas.
 
-   ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-2.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Fazer upload do ativo da marca]** para adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional ao Assistente de IA.
 
@@ -197,7 +197,7 @@ No exemplo abaixo, aprenda a usar o Assistente de IA para otimizar e melhorar se
    * **[!UICONTROL Iluminação]**: refere-se aos relâmpagos presentes em uma imagem, que molda sua atmosfera e destaca elementos específicos.
    * **[!UICONTROL Composição]**: refere-se à disposição dos elementos dentro do quadro de uma imagem
 
-   ![](assets/image-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-4.png){zoomable="yes"}
 
 1. Quando estiver satisfeito com a configuração do prompt, clique em **[!UICONTROL Gerar]**.
 
@@ -205,11 +205,11 @@ No exemplo abaixo, aprenda a usar o Assistente de IA para otimizar e melhorar se
 
    Clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela cheia da variação selecionada.
 
-   ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-5.png){zoomable="yes"}
 
 1. Escolher **[!UICONTROL Mostrar semelhante]** se você quiser exibir imagens relacionadas a essa variante.
 
-   ![](assets/image-genai-6.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-6.png){zoomable="yes"}
 
 1. Clique em **[!UICONTROL Selecionar]** depois de encontrar o conteúdo apropriado.
 

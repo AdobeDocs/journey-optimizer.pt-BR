@@ -11,7 +11,7 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 3%
+ht-degree: 28%
 
 ---
 
@@ -132,94 +132,94 @@ Saiba como baixar um relatório CSV para um relatório e um único widget no ví
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_ctr"
 >title="CTR"
->abstract="Widget do CTR"
+>abstract="Dispositivo de CTR"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_clicks"
 >title="Cliques"
->abstract="Widget de Cliques"
+>abstract="Dispositivo de cliques"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_delivered"
 >title="Entregues"
->abstract="Widget entregue"
+>abstract="Dispositivo de entrega"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_overview"
 >title="Visão geral da campanha"
->abstract="Widget de visão geral do Campaign"
+>abstract="Dispositivo de visão geral da campanha"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_funnel"
 >title="Resultados do funil de campanha"
->abstract="Widget de resultados do funil da campanha"
+>abstract="Dispositivo de resultados do funil de campanha"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_tracking_link"
 >title="Rótulos de link rastreado"
->abstract="Widget de rótulos de links rastreados"
+>abstract="Dispositivo de rótulos de link rastreado"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_displays"
 >title="Exibições"
->abstract="Widget de exibições"
+>abstract="Dispositivo de exibições"
 
 <!--campaign email-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_delivered_click"
->title="Tendência de cliques e entregas"
->abstract="Widget de tendência de clique e entrega"
+>title="Tendência de entregas e cliques"
+>abstract="Dispositivo de tendência de entregas e cliques"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_delivery_status"
 >title="Status da entrega"
->abstract="Widget de status de entrega"
+>abstract="Dispositivo de status da entrega"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_sending_statistics"
 >title="Estatísticas de envio"
->abstract="Widget de estatísticas de envio"
+>abstract="Dispositivo de estatísticas de envio"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracking_statistics"
 >title="Estatísticas de rastreamento"
->abstract="Widget de estatísticas de rastreamento"
+>abstract="Dispositivo de estatísticas de rastreamento"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_domains"
 >title="Domínios de email"
->abstract="Widget de domínios de email"
+>abstract="Dispositivo de domínios de email"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracked_link"
 >title="Rótulos de link rastreado"
->abstract="Widget dos rótulos do link de rastreamento"
+>abstract="Dispositivo de rótulos do link rastreado"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracked_link_urls"
->title="URLs de link rastreado"
->abstract="Widget de URLs de link rastreado"
+>title="URLs do link rastreado"
+>abstract="Dispositivo de URLs do link rastreado"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_subjects"
 >title="Assuntos de email"
->abstract="Widget de assuntos de email"
+>abstract="Dispositivo de assuntos de email"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_bounce_reasons"
 >title="Motivos de rejeição"
->abstract="Widget de motivos de rejeição"
+>abstract="Dispositivo de motivos de rejeição"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_exclude"
->title="Excluir motivos"
->abstract="Excluir widget de motivos"
+>title="Motivos para exclusão"
+>abstract="Dispositivo de motivos para exclusão"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_error"
 >title="Motivos do erro"
->abstract="Widget de motivos de erro"
+>abstract="Dispositivo de motivos de erro"
 
 
 <!--campaign push-->
@@ -227,120 +227,120 @@ Saiba como baixar um relatório CSV para um relatório e um único widget no ví
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_sending_statistics"
 >title="Estatísticas de envio"
->abstract="Widget de estatísticas de envio"
+>abstract="Dispositivo de estatísticas de envio"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracking_statistics"
 >title="Estatísticas de rastreamento"
->abstract="Widget de estatísticas de rastreamento"
+>abstract="Dispositivo de estatísticas de rastreamento"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracked_link"
 >title="Rótulos de link rastreado"
->abstract="Widget dos rótulos do link de rastreamento"
+>abstract="Dispositivo de rótulos do link rastreado"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracked_link_urls"
->title="URLs de link rastreado"
->abstract="Widget de URLs de link rastreado"
+>title="URLs do link rastreado"
+>abstract="Dispositivo de URLs do link rastreado"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_bounce_reasons"
 >title="Motivos de rejeição"
->abstract="Widget de motivos de rejeição"
+>abstract="Dispositivo de motivos de rejeição"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_exclude"
->title="Motivos excluídos"
->abstract="Widget de motivos excluídos"
+>title="Motivos para exclusão"
+>abstract="Dispositivo de motivos para exclusão"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_email_error"
 >title="Motivos do erro"
->abstract="Widget de motivos de erro"
+>abstract="Dispositivo de motivos de erro"
 
 <!--campaign inapp-->
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_impression"
->title="Tendência de impressão e clique"
->abstract="Widget de tendência de impressão e clique"
+>title="Tendência de impressões e cliques"
+>abstract="Dispositivo de tendência de impressões e cliques"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_clicks"
 >title="Cliques"
->abstract="Widget de Cliques"
+>abstract="Dispositivo de cliques"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_displays"
 >title="Exibições"
->abstract="Widget de exibições"
+>abstract="Dispositivo de exibições"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracking_data"
 >title="Dados de rastreamento"
->abstract="Widget de dados de rastreamento"
+>abstract="Dispositivo de dados de rastreamento"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracked_link"
 >title="Rótulos de link rastreado"
->abstract="Widget de rótulos de links rastreados"
+>abstract="Dispositivo de rótulos de link rastreado"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracked_link_urls"
->title="URLs de link rastreado"
->abstract="Widget de URLs de link rastreado"
+>title="URLs do link rastreado"
+>abstract="Dispositivo de URLs do link rastreado"
 
 <!--campaign sms-->
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_delivered_click"
->title="Tendência de cliques e entregas"
->abstract="Widget de tendência de clique e entrega"
+>title="Tendência de entregas e cliques"
+>abstract="Dispositivo de tendência de entregas e cliques"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_delivery_status"
 >title="Status da entrega"
->abstract="Widget de status de entrega"
+>abstract="Dispositivo de status da entrega"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_tracked_link"
 >title="Rótulos de link rastreado"
->abstract="Widget dos rótulos do link de rastreamento"
+>abstract="Dispositivo de rótulos do link rastreado"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_tracked_link_urls"
->title="URLs de link rastreado"
->abstract="Widget de URLs de link rastreado"
+>title="URLs do link rastreado"
+>abstract="Dispositivo de URLs do link rastreado"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_inbound"
->title="Mensagem de entrada de SMS"
->abstract="Widget de mensagem de entrada de SMS"
+>title="Mensagem por SMS de entrada"
+>abstract="Dispositivo de mensagem por SMS de entrada"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_message_type"
->title="Tipo de mensagem SMS"
->abstract="Widget de tipo de mensagem SMS"
+>title="Tipo de mensagem por SMS"
+>abstract="Dispositivo de tipo de mensagem por SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_providers"
 >title="Provedores de SMS"
->abstract="Widget de provedores de SMS"
+>abstract="Dispositivo de provedores de SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_bounce"
 >title="Motivos de rejeição"
->abstract="Widget de motivos de rejeição"
+>abstract="Dispositivo de motivos de rejeição"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_exclude"
->title="Excluir motivos"
->abstract="Excluir widget de motivos"
+>title="Motivos para exclusão"
+>abstract="Dispositivo de motivos para exclusão"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_error"
 >title="Motivos do erro"
->abstract="Widget de motivos de erro"
+>abstract="Dispositivo de motivos de erro"

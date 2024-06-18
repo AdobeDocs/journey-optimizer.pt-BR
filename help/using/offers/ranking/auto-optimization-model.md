@@ -9,7 +9,7 @@ level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Os termos a seguir são úteis ao discutir a Otimização automática:
 
 * **Thomson sampling**: a Amostragem de Thompson é um algoritmo para problemas de decisão online em que as ações são tomadas sequencialmente de uma maneira que deve equilibrar entre explorar o que é conhecido por maximizar o desempenho imediato e investir para acumular novas informações que podem melhorar o desempenho futuro. [Saiba mais](#thompson-sampling)
 
-* [**Distribuição beta**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Set of continuous [probability distributions](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} defined on the interval [0, 1] [parameterized](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} by two positive [shape parameters](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
+* [**Distribuição beta**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Conjunto de contínuos [distribuições de probabilidade](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} definido no intervalo [0, 1] [parametrizado](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} por dois positivos [parâmetros de forma](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
 
 ## Amostragem de Thompson {#thompson-sampling}
 
@@ -71,7 +71,7 @@ A otimização automática foi projetada para considerar recompensas binárias (
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-A função Probabilidade, como explicamos acima, é modelada por uma distribuição binomial, com s sucessos (conversões) e f falhas (sem conversões) e q é um [variável aleatória](https://en.wikipedia.org/wiki/Random_variable){target="_blank"} with a [beta distribution](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}.
+A função Probabilidade, como explicamos acima, é modelada por uma distribuição binomial, com s sucessos (conversões) e f falhas (sem conversões) e q é um [variável aleatória](https://en.wikipedia.org/wiki/Random_variable){target="_blank"} com um [distribuição beta](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}.
 
 O anterior é modelado por distribuição beta e a distribuição posterior tem a seguinte forma:
 

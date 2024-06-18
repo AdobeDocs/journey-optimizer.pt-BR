@@ -1,5 +1,5 @@
 ---
-title: Introdução ao Experience Decisioning
+title: Introdução à Escolha de experiências
 description: Saiba mais sobre o Experience Decisioning
 feature: Experience Decisioning
 topic: Integrations
@@ -10,15 +10,15 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 19%
+ht-degree: 37%
 
 ---
 
-# Introdução ao Experience Decisioning {#get-started-experience-decisioning}
+# Introdução à Escolha de experiências {#get-started-experience-decisioning}
 
 >[!AVAILABILITY]
 >
->No momento, o Experience Decisioning está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
+>No momento, a Escolha de experiências está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
 >
 >Por enquanto, o recurso não está disponível para clientes que compraram o Adobe **Healthcare Shield** e **Escudo de Proteção e Privacidade** ofertas complementares.
 
@@ -26,7 +26,7 @@ ht-degree: 19%
 
 A Escolha de experiências simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing conhecidas como “itens de decisão”, além de um mecanismo de decisão sofisticado. Esse mecanismo usa regras e critérios de classificação para selecionar e apresentar os itens de decisão mais relevantes para cada pessoa.
 
-Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada por meio do novo canal de experiência baseado em código, agora acessível nas campanhas do Journey Optimizer. As políticas de decisão do Experience Decisioning estão disponíveis para uso somente em campanhas de experiência baseadas em código.
+Esses itens de decisão são perfeitamente integrados em uma grande variedade de superfícies de entrada por meio do novo canal de experiência baseado em código, agora acessível nas campanhas do Journey Optimizer. As políticas de decisão da Escolha de experiências estão disponíveis para uso somente em campanhas de experiência baseadas em código.
 
 ## Principais etapas do Experience Decisioning {#steps}
 
@@ -40,13 +40,13 @@ As principais etapas para trabalhar com o Experience Decisioning são as seguint
 
       ![](assets/decision_permission_1.png)
 
-   1. No **[!UICONTROL Usuários]** clique em **[!UICONTROL Adicionar usuário]**.
+   1. Na guia **[!UICONTROL Usuários]**, clique em **[!UICONTROL Adicionar usuário]**.
 
       ![](assets/decision_permission_2.png)
 
    1. Digite o nome de usuário ou endereço de email ou selecione o usuário na lista e clique em **[!UICONTROL Salvar]**.
 
-      Se o usuário não tiver sido criado anteriormente, consulte a [Adicionar documentação de usuários](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+      Se o usuário não foi criado anteriormente, consulte a [documentação Adicionar usuários](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/users).
 
       ![](assets/decision_permission_3.png)
 

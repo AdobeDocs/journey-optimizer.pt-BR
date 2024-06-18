@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Relatório ao vivo
+title: Relatório em tempo real
 description: Saiba como usar os dados do relatório em tempo real
 feature: Reporting
 topic: Content Management

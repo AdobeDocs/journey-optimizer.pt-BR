@@ -12,7 +12,7 @@ exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -144,7 +144,7 @@ Por exemplo, você pode adicionar uma condição para verificar o número de pon
    >Cada perfil que entra na ação personalizada acionará uma chamada. Mesmo que a resposta seja sempre a mesma, o Jornada ainda executará uma chamada por perfil.
 
 1. Na ramificação de tempo limite e erro, adicione uma condição e utilize o incorporado **jo_status_code** campo. No nosso exemplo, estamos usando a variável
-   **http_400** tipo de erro. Consulte [esta seção](#error-status).
+   **http_400** tipo de erro. Consulte [nesta seção](#error-status).
 
    ```
    @action{ActionLoyalty.jo_status_code} == "http_400"

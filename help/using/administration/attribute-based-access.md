@@ -12,7 +12,7 @@ exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Neste exemplo, queremos adicionar um rótulo à variável **Nacionalidade** camp
 
 1. Use o  **[!UICONTROL Campo de esquema]** no Adobe Journey Optimizer.
 
-Observe que **[!UICONTROL Funções]**, **[!UICONTROL Políticas]** e **[!UICONTROL Produtos]** O também pode ser acessado com a API de controle de acesso baseado em atributos. Para obter mais informações, consulte esta [documentação](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html).
+Observe que **[!UICONTROL Funções]**, **[!UICONTROL Políticas]** e **[!UICONTROL Produtos]** O também pode ser acessado com a API de controle de acesso baseado em atributos. Para obter mais informações, consulte [documentação](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html).
 
 ## Criar uma função e atribuir rótulos {#assign-role}
 

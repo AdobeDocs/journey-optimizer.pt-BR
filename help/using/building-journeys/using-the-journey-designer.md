@@ -85,7 +85,7 @@ Você pode adicionar **vários eventos** na jornada, desde que usem o mesmo name
 
 Você também pode adicionar um **Reação** evento após uma mensagem para reagir aos dados de rastreamento relacionados à mensagem. Isso permite, por exemplo, enviar outra mensagem se o indivíduo tiver aberto a mensagem anterior ou clicado dentro dela. [Saiba mais sobre eventos de reação](reaction-events.md).
 
-Uso **Qualificação do público-alvo** atividade de evento para fazer com que indivíduos entrem ou avancem em uma jornada com base nas entradas e saídas do público-alvo do Adobe Experience Platform. Você pode fazer com que todos os novos clientes Silver insiram uma jornada e enviem mensagens personalizadas. Saiba mais nesta [seção](audience-qualification-events.md).
+Uso **Qualificação do público-alvo** atividade de evento para fazer com que indivíduos entrem ou avancem em uma jornada com base nas entradas e saídas do público-alvo do Adobe Experience Platform. Você pode fazer com que todos os novos clientes Silver insiram uma jornada e enviem mensagens personalizadas. Saiba mais nesta página [seção](audience-qualification-events.md).
 
 ### Orquestração{#jo-orch}
 
@@ -113,7 +113,7 @@ Para adicionar uma ação de fallback para uma atividade, selecione o **[!UICONT
 
 Várias atividades (evento, ação, espera) permitem adicionar vários caminhos após elas. Para fazer isso, coloque o cursor na atividade e clique no símbolo &quot;+&quot;. Somente atividades de evento e espera podem ser definidas em paralelo. Se vários eventos forem definidos em paralelo, o caminho escolhido será o do primeiro evento que ocorrer.
 
-Ao ouvir um evento, recomendamos que você não espere o evento indefinidamente. Não é obrigatório, apenas uma prática recomendada. Se quiser ouvir um ou vários eventos somente durante um determinado tempo, coloque um ou vários eventos e uma atividade de espera em paralelo. Consulte [esta seção](../building-journeys/general-events.md#events-specific-time).
+Ao ouvir um evento, recomendamos que você não espere o evento indefinidamente. Não é obrigatório, apenas uma prática recomendada. Se quiser ouvir um ou vários eventos somente durante um determinado tempo, coloque um ou vários eventos e uma atividade de espera em paralelo. Consulte [nesta seção](../building-journeys/general-events.md#events-specific-time).
 
 Para excluir o caminho, coloque o cursor nele e clique no **[!UICONTROL Excluir caminho]** ícone.
 

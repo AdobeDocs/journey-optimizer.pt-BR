@@ -12,7 +12,7 @@ exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 100%
+ht-degree: 58%
 
 ---
 
@@ -29,13 +29,13 @@ Em muitos casos, fornece um breve resumo do email e, normalmente, tem apenas uma
 
 >[!NOTE]
 >
->Os pré-cabeçalhos não são compatíveis com todos os clientes de email. Quando não é compatível, o pré-cabeçalho não é exibido.
+>Os pré-cabeçalhos não são suportados por todos os clientes de email. Quando não é compatível, o pré-cabeçalho não é exibido.
 
-Para definir o pré-cabeçalho de email, siga as etapas abaixo:
+Para definir o pré-cabeçalho do email, siga as etapas abaixo:
 
-1. No Designer de email, adicione pelo menos um dos **[!UICONTROL Componentes da estrutura]** para começar a criar seu email.
+1. No Designer de email, adicione pelo menos um **[!UICONTROL Componentes da estrutura]** para começar a criar seu email.
 
-1. Clique no ícone **[!UICONTROL Árvore de navegação]** no painel esquerdo e selecione **[!UICONTROL Corpo]**.
+1. Clique em **[!UICONTROL Árvore de navegação]** no painel esquerdo e selecione **[!UICONTROL Corpo]**.
 
    ![](assets/preheader_body.png)
 
@@ -43,7 +43,7 @@ Para definir o pré-cabeçalho de email, siga as etapas abaixo:
 
    ![](assets/preheader_body_settings.png)
 
-1. Na janela **[!UICONTROL Editar personalização]**, é possível adicionar um **[!UICONTROL Bloco de conteúdo]**, **[!UICONTROL Conteúdo dinâmico]** ou **[!UICONTROL Campos de personalização]**.
+1. No **[!UICONTROL Editar personalização]** , é possível adicionar **[!UICONTROL Bloco de conteúdo]**, **[!UICONTROL Conteúdo dinâmico]** ou **[!UICONTROL Campos de personalização]**.
 
 1. Clique em **[!UICONTROL Validar]** para verificar a sintaxe de personalização.
 

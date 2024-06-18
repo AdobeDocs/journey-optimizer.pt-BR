@@ -6,7 +6,8 @@ topic: Integrations
 role: User
 level: Intermediate
 badge: label="Disponibilidade limitada"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
+source-git-commit: 2349145fcf698769d16326a19a48a413a3c1dd95
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%

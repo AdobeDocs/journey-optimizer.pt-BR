@@ -11,7 +11,7 @@ exl-id: 12168cdf-f517-49b5-958b-ba689ade6982
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -135,7 +135,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número de emails na fila para tentativas.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Sent<br/> </td> 
+   <td> Enviado<br/> </td> 
    <td> Número total de envios para a entrega.<br/> </td> 
 </tr>
   <tr> 
@@ -148,7 +148,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
 </tr>
   <tr> 
    <td> Direcionado<br/> </td> 
-   <td> Número total de mensagens processadas durante a análise de entrega.<br/> </td> 
+   <td> Número total de mensagens processadas durante a análise de delivery.<br/> </td> 
 </tr> 
   <tr> 
    <td> Cliques únicos<br/> </td> 
@@ -254,7 +254,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número total de notificações por push entregues ao dispositivo e clicadas pelos usuários, abrindo o aplicativo. Isso é semelhante ao clique por push, exceto que uma abertura por push não será acionada se a notificação tiver sido descartada.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Sent<br/> </td> 
+   <td> Enviado<br/> </td> 
    <td> Número total de envios para a entrega.<br/> </td> 
 </tr> 
   <tr> 

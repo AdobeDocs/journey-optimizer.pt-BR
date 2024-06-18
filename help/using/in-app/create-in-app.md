@@ -10,7 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 97e925529f5b61138474d53f7df404ff6ea44ba9
 workflow-type: tm+mt
 source-wordcount: '1961'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -79,7 +79,7 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
 
       +++Consulte as Características disponíveis.
 
-      | Pacote | Características | Definição |
+      | Pacote | Traços | Definição |
       |---|---|---|
       | Informações do dispositivo | Nome da operadora | Acionado quando um dos nomes da operadora da lista é atendido. |
       | Informações do dispositivo | Nome do dispositivo | Acionado quando um dos nomes do dispositivo é atendido. |
@@ -93,7 +93,7 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
       | Ciclo de vida do aplicativo | Dia desde a última visita | Disparado quando o número especificado de dias desde a última utilização é atingido. |
       | Ciclo de vida do aplicativo | Dia desde a atualização | Disparado quando o número especificado de dias desde a última atualização é atingido. |
       | Ciclo de vida do aplicativo | Data de instalação | Disparado quando a data de instalação especificada é atingida. |
-      | Ciclo de vida do aplicativo | Inicializações | Disparado quando o número especificado de inicializações é atingido. |
+      | Ciclo de vida do aplicativo | Lançamentos | Disparado quando o número especificado de inicializações é atingido. |
       | Ciclo de vida do aplicativo | Hora do dia | Disparado quando o horário especificado é cumprido. |
       | Places | POI atual | Acionado pelo SDK do Places quando o cliente insere o Ponto de interesse (POI) especificado. |
       | Places | Último POI inserido | Acionado pelo SDK do Places, dependendo do último Ponto de interesse (POI) inserido pelo cliente. |
@@ -177,7 +177,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
       +++Consulte as Características disponíveis.
 
-      | Pacote | Características | Definição |
+      | Pacote | Traços | Definição |
       |---|---|---|
       | Informações do dispositivo | Nome da operadora | Acionado quando um dos nomes da operadora da lista é atendido. |
       | Informações do dispositivo | Nome do dispositivo | Acionado quando um dos nomes do dispositivo é atendido. |
@@ -191,7 +191,7 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
       | Ciclo de vida do aplicativo | Dia desde a última visita | Disparado quando o número especificado de dias desde a última utilização é atingido. |
       | Ciclo de vida do aplicativo | Dia desde a atualização | Disparado quando o número especificado de dias desde a última atualização é atingido. |
       | Ciclo de vida do aplicativo | Data de instalação | Disparado quando a data de instalação especificada é atingida. |
-      | Ciclo de vida do aplicativo | Inicializações | Disparado quando o número especificado de inicializações é atingido. |
+      | Ciclo de vida do aplicativo | Lançamentos | Disparado quando o número especificado de inicializações é atingido. |
       | Ciclo de vida do aplicativo | Hora do dia | Disparado quando o horário especificado é cumprido. |
       | Places | POI atual | Acionado pelo SDK do Places quando o cliente insere o Ponto de interesse (POI) especificado. |
       | Places | Último POI inserido | Acionado pelo SDK do Places, dependendo do último Ponto de interesse (POI) inserido pelo cliente. |

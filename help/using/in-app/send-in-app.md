@@ -10,7 +10,7 @@ exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -60,7 +60,7 @@ Para fazer isso, siga as etapas abaixo:
 
 Sua campanha agora está ativada. A notificação no aplicativo configurada na campanha é enviada imediatamente ou na data especificada.
 
-Depois de enviado, você pode medir o impacto das mensagens no aplicativo nos relatórios do Campaign ou do Jornada. Para obter mais informações sobre relatórios, consulte [esta seção](../reports/campaign-global-report.md#inapp-report).
+Depois de enviado, você pode medir o impacto das mensagens no aplicativo nos relatórios do Campaign ou do Jornada. Para obter mais informações sobre relatórios, consulte [nesta seção](../reports/campaign-global-report.md#inapp-report).
 
 **Tópicos relacionados:**
 

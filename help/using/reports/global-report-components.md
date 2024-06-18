@@ -11,7 +11,7 @@ exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
 source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -140,7 +140,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número de emails na fila para tentativas.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Sent<br/> </td> 
+   <td> Enviado<br/> </td> 
    <td> Número total de envios para a entrega.<br/> </td> 
 </tr>
   <tr> 
@@ -153,7 +153,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
 </tr>
   <tr> 
    <td> Direcionado<br/> </td> 
-   <td> Número total de mensagens processadas durante a análise de entrega.<br/> </td> 
+   <td> Número total de mensagens processadas durante a análise de delivery.<br/> </td> 
 </tr> 
   <tr> 
    <td> Cliques únicos<br/> </td> 
@@ -355,7 +355,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Porcentagem de notificações por push abertas.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Sent<br/> </td> 
+   <td> Enviado<br/> </td> 
    <td> Número total de envios para a entrega.<br/> </td> 
 </tr> 
   <tr> 

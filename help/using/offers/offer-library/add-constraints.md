@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
 source-wordcount: '2636'
-ht-degree: 3%
+ht-degree: 14%
 
 ---
 
@@ -18,22 +18,22 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
 >title="Sobre restrições de oferta"
->abstract="Com restrições, é possível especificar como a oferta é priorizada e apresentada ao usuário em comparação a outras ofertas."
+>abstract="Com as restrições, é possível especificar como a oferta será priorizada e apresentada ao usuário em comparação com outras ofertas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_constraints"
 >title="Sobre restrições de oferta"
->abstract="Com restrições, é possível especificar como a oferta é priorizada e apresentada ao usuário em comparação a outras ofertas."
+>abstract="Com as restrições, é possível especificar como a oferta será priorizada e apresentada ao usuário em comparação com outras ofertas."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="Sobre a prioridade da oferta"
->abstract="Nesse campo, é possível especificar as configurações de prioridade da oferta. Prioridade é um número usado para classificar ofertas que atendem a todas as restrições, como elegibilidade, datas e limite."
+>abstract="Nesse campo, é possível especificar as configurações de prioridade da oferta. A prioridade é um número usado para classificar as ofertas que atendem a todas as restrições, como elegibilidade, datas e limite."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="Definir prioridade"
->abstract="A prioridade ajuda a definir a prioridade da oferta em comparação a outras se o usuário se qualificar para mais de uma oferta. Quanto maior for a prioridade de uma oferta, maior será sua prioridade em comparação a outras ofertas."
+>abstract="A prioridade ajuda a definir a prioridade da oferta em comparação com outras caso o usuário se qualifique para mais de uma oferta. Quanto maior for a prioridade de uma oferta, maior será sua prioridade em comparação a outras ofertas."
 
 Restrições permitem definir as condições em que uma oferta será exibida.
 
@@ -67,19 +67,19 @@ Por exemplo, se você definir as seguintes restrições:
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="Definir qualificação"
->abstract="Por padrão, qualquer perfil poderá receber a oferta, mas você poderá usar públicos ou regras de decisão para restringir a oferta a perfis específicos."
+>title="Definir elegibilidade"
+>abstract="Por padrão, qualquer perfil estará qualificado para receber a oferta, mas você pode usar públicos-alvo ou regras de decisão para restringir a oferta a perfis específicos."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
->title="Sobre a qualificação para a oferta"
->abstract="Nesta seção, você pode usar as regras de decisão para determinar quais usuários estão qualificados para a oferta."
->additional-url="https://video.tv.adobe.com/v/329373" text="Assista ao vídeo de demonstração"
+>title="Sobre a elegibilidade da oferta"
+>abstract="Nesta seção, é possível usar regras de decisão para definir as pessoas elegíveis para receber a oferta."
+>additional-url="https://video.tv.adobe.com/v/329373" text="Assistir ao vídeo de demonstração"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
->title="Estimativa total do perfil"
->abstract="Ao selecionar públicos-alvo ou regras de decisão, é possível ver as informações sobre os perfis qualificados estimados."
+>title="Estimativa total de perfis"
+>abstract="Ao selecionar públicos-alvo ou regras de decisão, é possível ver informações sobre os perfis qualificados estimados."
 
 A variável **[!UICONTROL Elegibilidade da oferta]** permite restringir a oferta a perfis específicos que você define usando públicos ou regras de decisão.
 
@@ -142,7 +142,7 @@ Basicamente, a saída de um público-alvo é uma lista de perfis, enquanto uma r
 >id="ajo_decisioning_capping"
 >title="Usar limite"
 >abstract="Para evitar o excesso de solicitações de seus clientes, use o limite para definir o número máximo de vezes que uma oferta pode ser apresentada. É possível criar até 10 regras de limitação para uma determinada oferta."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="A alteração de datas pode afetar o limite"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping-change-date" text="Alterar datas pode afetar os limites"
 
 O limite é usado como uma restrição para definir o número máximo de vezes que uma oferta pode ser apresentada. Limitar o número de vezes que os usuários obtêm ofertas específicas permite evitar o excesso de solicitações de seus clientes e, portanto, otimizar cada ponto de contato com a melhor oferta.
 
@@ -172,11 +172,11 @@ O número de vezes que uma oferta é proposta é calculado no momento da prepara
 >
 >Os contadores de limite serão redefinidos quando a oferta expirar ou 2 anos após a data de início da oferta, o que ocorrer primeiro. Saiba como definir a data de uma oferta no [nesta seção](creating-personalized-offers.md#create-offer).
 
-### Evento limite {#capping-event}
+### Evento de limite {#capping-event}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
->title="Impressão"
+>title="impressão"
 >abstract="O uso de impressões como eventos de limite está disponível somente para canais de entrada."
 
 A variável **[!UICONTROL Escolher evento de limite]** permite definir qual evento será considerado para aumentar o contador:
@@ -245,8 +245,8 @@ Por exemplo, você definiu um evento de limite personalizado, como o número de 
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
->title="Definir a frequência de limite"
->abstract="Você pode optar por redefinir o contador de limite de oferta diariamente, semanalmente ou mensalmente. Observe que, após publicar a oferta com o limite de frequência ativado, você não poderá alterar a frequência que foi definida."
+>title="Definir a frequência limite"
+>abstract="Você pode optar por redefinir o contador de limite de oferta diariamente, semanalmente ou mensalmente. Observe que, após publicar a oferta com o limite de frequência habilitado, não será possível alterar a frequência que foi definida."
 
 A variável **[!UICONTROL Redefinir frequência de limite]** permite definir a frequência com que a contagem de limite é redefinida. Para fazer isso, defina o período de tempo para a contagem (diariamente, semanalmente ou mensalmente) e insira o número de dias/semanas/meses de sua escolha. Por exemplo, se desejar que a contagem de limite seja redefinida a cada 2 semanas, selecione **[!UICONTROL Semanalmente]** na lista suspensa correspondente e digite **2** no outro campo.
 
@@ -291,8 +291,8 @@ Se você tiver definido vários [representações](add-representations.md) para 
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="A alteração de datas pode afetar o limite"
->abstract="Se o limite for aplicado a essa oferta, ela poderá ser afetada quando você alterar a data inicial ou final."
+>title="Alterar datas pode afetar os limites"
+>abstract="Se o limite for aplicado a essa oferta, ele poderá ser afetado quando você alterar a data inicial ou final."
 
 Você deve continuar com cuidado ao alterar a data de uma oferta, pois isso pode ter impacto no limite se as seguintes condições forem atendidas:
 

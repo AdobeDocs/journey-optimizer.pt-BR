@@ -5,10 +5,11 @@ title: Notas de versão
 description: Notas de versão antecipadas do Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 841122b9-04f6-4250-b0a5-e61f470787f7
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +25,7 @@ As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso 
 
 ### Novos recursos {#early-features}
 
-Essa versão traz uma lista detalhada de novos recursos.
+Essa versão traz os novos recursos detalhados abaixo.
 
 <!--table>
 <thead>
@@ -76,13 +77,13 @@ Essa versão traz uma lista detalhada de novos recursos.
 <table>
 <thead>
 <tr>
-<th><strong>Serviço de Mensagens Multimídia (MMS) - todos os provedores</strong><br/></th>
+<th><strong>Serviço de mensagens multimídia (MMS): todos os provedores</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do Serviço de mensagens multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos com clientes. Inicialmente disponível apenas com Sinch, MMS agora também está disponível com Infobip e Twilio.</p>
+<p>Com o canal SMS, agora é possível aprimorar a comunicação enviando mensagens do serviço de mensagens multimídia (MMS), o que permite o compartilhamento de imagens, GIFs ou vídeos para clientes. Inicialmente disponível apenas com o Sinch, o MMS agora também está disponível com Infobip e Twilio.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 </td>
 </tr>
@@ -92,7 +93,7 @@ Essa versão traz uma lista detalhada de novos recursos.
 <table>
 <thead>
 <tr>
-<th><strong>Designer de Jornada e relatórios ao vivo aprimorados</strong><br/></th>
+<th><strong>Designer de jornada e relatórios em tempo real aprimorados</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -100,7 +101,7 @@ Essa versão traz uma lista detalhada de novos recursos.
 <td>
 <p>Essa versão vem com uma interface de usuário de tela aprimorada para jornada e fornece uma experiência do usuário mais intuitiva e eficiente. As atividades são mais claras e apresentam mais informações sobre a tela de jornada com menos cliques.</p>
 <img src="assets/new-canvas3.gif"/>
-<p>Juntamente com o design aprimorado da tela de jornada, estamos introduzindo a capacidade de ver as últimas 24 horas relatando métricas diretamente na tela de jornada. </p>
+<p>Juntamente com o design aprimorado da tela de jornada, estamos introduzindo a capacidade de ver métricas de relatórios das últimas 24 horas diretamente na tela de jornada. </p>
 <img src="assets/new-canvas6bis.png"/>
 <p><strong>Nota</strong>: essas alterações serão gradualmente implementadas em todos os ambientes a partir da versão de abril.</p>
 <p>Para obter mais informações, consulte a <a href="new-canvas.md">documentação detalhada</a>.</p>

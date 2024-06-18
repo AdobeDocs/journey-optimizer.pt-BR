@@ -301,7 +301,7 @@ Clique em `...` ícone para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#rightTrim">Cortar à direita</a></td><td>Esta função remove os espaços em branco do final de uma sequência de caracteres. </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">Dividir</a></td><td>Esta função é usada para dividir uma sequência de caracteres por um determinado caractere.</td>
+        <td><a href="string.md#split">Divisão</a></td><td>Esta função é usada para dividir uma sequência de caracteres por um determinado caractere.</td>
     </tr>
     <tr>
         <td><a href="string.md#startsWith">Inicia com</a></td><td>Esta função é usada para determinar se uma sequência de caracteres inicia com uma subsequência especificada.</td>

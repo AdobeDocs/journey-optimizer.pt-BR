@@ -10,8 +10,8 @@ keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 9%
+source-wordcount: '871'
+ht-degree: 6%
 
 ---
 
@@ -47,7 +47,7 @@ Entenda na tabela abaixo quais conjuntos de dados do Journey Optimizer você pod
 | Conjunto de dados de classificação do AJO | Conjunto de dados para assimilar eventos de feedback de aplicativos de email e por push do Journey Optimizer. Criado pelo SDK. |
 | Conjunto de dados do serviço de consentimento do AJO | Armazena informações de consentimento de um perfil. |
 | Conjunto de dados do evento de experiência de rastreamento de email do AJO | Logs de interação para o canal de email, que é usado para fins de criação de relatórios e público-alvo.  |
-| Conjunto de dados de entidade do AJO | Conjunto de dados para armazenar metadados de entidade para mensagens enviadas ao usuário final.  |
+| Conjunto de dados da entidade AJO | Conjunto de dados para armazenar metadados de entidade para mensagens enviadas ao usuário final.  |
 | Conjunto de dados do evento de atividade de entrada do AJO | Conjunto de dados para canais na Web e no aplicativo do Journey Optimizer para eventos de entrega e interação. |
 | Conjunto de dados do perfil de mensagens interativas do AJO | Armazena perfis criados para oferecer suporte a campanhas acionadas por API |
 | Conjunto de dados do evento de feedback de mensagem do AJO | Logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. O feedback dos ISPs de email sobre rejeições também é registrado neste conjunto de dados. |
@@ -61,18 +61,18 @@ Entenda na tabela abaixo quais conjuntos de dados do Journey Optimizer você pod
 | Repositório de objetos de decisão - Ofertas substitutas | este é o repositório para o outro tipo de oferta que um usuário cria. Especificamente, se não estiverem qualificados para ver uma oferta personalizada e precisarem ver algo, pelo menos verão a oferta substituta. Esse conjunto de dados contém os atributos desse tipo de oferta |
 | Repositório de objetos de decisão - Ofertas personalizadas | este é o repositório para um tipo de oferta que um usuário cria. Portanto, esse conjunto de dados contém os atributos sobre esse tipo de oferta | Ultimate |
 | Repositório de objetos de decisão - Posicionamentos | este é o repositório de objetos que definem o local onde uma oferta precisa ser exibida. |
-| Eventos de etapa da jornada | Captura todos os eventos de experiência de etapa de Jornada gerados no Journey Optimizer para serem consumidos por serviços como relatórios. |
+| Jornada eventos de etapa | Captura todos os eventos de experiência de etapa de Jornada gerados no Journey Optimizer para serem consumidos por serviços como relatórios. |
 | Jornadas | Informações sobre o conjunto de dados de metadados que contém cada etapa de uma jornada |
 | ODE DecisionEvents - decisão de produção | Sempre que tomamos uma decisão com base em uma solicitação, contamos isso como um evento de decisão |
 
 ## Pré-requisitos {#prerequisites}
 
-Para exportar conjuntos de dados, é necessário [permissões de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} ou entre em contato com o administrador do produto para obter as permissões necessárias.
+Para exportar conjuntos de dados, é necessário [permissões de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} listado abaixo. Leia o [visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} ou entre em contato com o administrador do produto para obter as permissões necessárias.
 
 | Categoria | Permissão |
 |--|--|
 | Destinos | Gerenciar e ativar destinos do conjunto de dados |
-| Gerenciamento de dados | Visualizar conjuntos de dados |
+| Gerenciamento de dados | Exibir conjuntos de dados |
 | Destinos | Exibir destinos |
 
 ## Etapas principais para exportar conjuntos de dados {#main-steps}
@@ -81,7 +81,7 @@ As principais etapas para exportar um conjunto de dados para um local de armazen
 
 ![](assets/dataset-export-process.png)
 
-Informações detalhadas sobre cada etapa estão disponíveis em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=pt-BR){target="_blank"}.
+Informações detalhadas sobre cada etapa estão disponíveis em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
 
 1. **Configurar o destino do armazenamento na nuvem**. Se ainda não tiver feito isso, conecte-se a um destino de armazenamento na nuvem no catálogo de destinos. Saiba como criar uma nova conexão de destino no [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
 

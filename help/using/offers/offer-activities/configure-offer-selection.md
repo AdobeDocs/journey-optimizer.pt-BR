@@ -16,13 +16,13 @@ ht-degree: 6%
 # Configurar seleção de ofertas em decisões {#offers-selection-in-decisions}
 
 Se várias ofertas estiverem qualificadas para uma determinada inserção, você poderá escolher o método que selecionará a melhor oferta para cada perfil ao configurar uma decisão. Você pode classificar ofertas por:
-* Prioridade da oferta
+* Prioridades de ofertas
 * Fórmula de classificação
 * [Classificação de IA](#use-ranking-strategy)
 
 ![](../assets/offer-rank-by.png)
 
-## Prioridade da oferta {#offer-priority}
+## Prioridades de ofertas {#offer-priority}
 
 Por padrão, quando várias ofertas são qualificadas para uma determinada inserção em uma decisão, as ofertas com a maior **prioridade** será entregue aos clientes primeiro.
 

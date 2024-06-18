@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
 workflow-type: tm+mt
 source-wordcount: '5355'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Junho de 2024 {#june-2024}
 
-* A página sobre como configurar um **Aguardar** A atividade de uma jornada foi reorganizada e aprimorada. [Leia mais](../building-journeys/wait-activity.md)
+* A página sobre como configurar uma atividade **Aguardar** em uma jornada foi reorganizada e aprimorada. [Leia mais](../building-journeys/wait-activity.md)
 
 ## Maio de 2024 {#may-2024}
 
-* Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de maio de 2024 foi detalhada na documentação. [Leia mais](release-notes.md)
+* Todos os novos recursos e aprimoramentos da versão de maio de 2024 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
 * Atualização da seção sobre seed lists com relação a jornadas recorrentes. [Leia mais](../configuration/seed-lists.md#use-seed-list)
 * Atualização da seção sobre fontes de dados externas. [Leia mais](../datasource/external-data-sources.md#custom-authentication-access-token)
 * Adição do tempo limite de jornada global de 30 dias na página Medidas de proteção e limitação. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
 * Atualização da seção sobre a integração do Adobe Campaign v7/v8 com informações sobre provisionamento. [Leia mais](../action/acc-action.md#access)
-* O editor de expressão usado para personalizar o conteúdo foi renomeado na documentação para &quot;editor de personalização&quot; para diferenciá-lo claramente do [Editor de expressão de Jornada](../building-journeys/expression/expressionadvanced.md). [Leia mais](../personalization/personalization-build-expressions.md)
+* O editor de expressão usado para personalizar o conteúdo foi renomeado na documentação como “editor de personalização”. Isso foi feito para diferenciá-lo claramente do [Editor de expressão de jornada](../building-journeys/expression/expressionadvanced.md). [Leia mais](../personalization/personalization-build-expressions.md)
 
 ## Abril de 2024 {#april-2024}
 
@@ -69,7 +69,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Adição de informações sobre como personalizar as representações de ofertas com base nos dados de contexto. [Leia mais](../offers/offer-library/add-representations.md#context-data)
 * Atualização da página de medidas de proteção com uma observação sobre ações personalizadas que são compatíveis com o formato JSON somente ao usar conteúdo de solicitação ou resposta. [Leia mais](../start/guardrails.md#custom-actions-g)
 * Adição de informações adicionais sobre o tipo de autenticação básica em fontes de dados externas. [Leia mais](../datasource/external-data-sources.md)
-* Foi aditada uma nota para diferenciar claramente a [Editor de expressão de Jornada](../building-journeys/expression/expressionadvanced.md) do [editor de personalização](../personalization/functions/functions.md).
+* Adição de uma observação para diferenciar claramente o [Editor de expressão de jornada](../building-journeys/expression/expressionadvanced.md) do [editor de personalização](../personalization/functions/functions.md).
 * Atualização da lista de funções disponíveis no editor de expressão avançado. [Leia mais](../building-journeys/expression/functions.md)
 * Atualização da página sobre a função Divisão. [Leia mais](../building-journeys/functions/functioninaudience.md)
 * Adição de informações sobre o impacto da aceitação ou recusa de notificações por push em mensagens no aplicativo. [Leia mais](../in-app/create-in-app.md)
@@ -395,7 +395,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 * Página de **Início rápido** aprimorada com etapas para diferentes personalidades. [Leia mais](../start/quick-start.md)
 
-* Agora, todos os recursos da Gestão de decisões descritos na seção dedicada também se aplicam aos usuários do Adobe Experience Platform que usam o aplicativo Offer Decisioning. [Leia mais](../offers/get-started/starting-offer-decisioning.md)
+* Agora, todos os recursos da Gestão de decisões descritos na seção dedicada também se aplicam a usuários da Adobe Experience Platform que utilizam o aplicativo do Offer Decisioning. [Leia mais](../offers/get-started/starting-offer-decisioning.md)
 
 * Subseção adicionada para elucidar as diferenças entre o uso de públicos-alvo e o uso de regras de decisão ao aplicar uma restrição contra a seleção de ofertas para um determinado posicionamento. [Leia mais](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 

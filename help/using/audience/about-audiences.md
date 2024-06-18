@@ -12,7 +12,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1855'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
->title="Selecionar o público da campanha"
->abstract="Esta lista exibe todos os públicos-alvo disponíveis da Adobe Experience Platform. Selecione o público a ser direcionado com sua campanha. A mensagem configurada na campanha será enviada a todos os indivíduos pertencentes ao público selecionado. [Saiba mais sobre públicos](../audience/about-audiences.md)"
+>title="Selecione o público-alvo da campanha"
+>abstract="Esta lista exibe todos os públicos-alvo disponíveis na Adobe Experience Platform. Selecione o público-alvo a ser direcionado pela campanha. A mensagem configurada na campanha será enviada a todas as pessoas pertencentes ao público-alvo selecionado. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)"
 
 Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou características semelhantes. Saiba mais sobre públicos-alvo na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
 

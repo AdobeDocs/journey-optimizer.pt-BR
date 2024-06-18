@@ -10,7 +10,7 @@ exl-id: d761fa4d-5f99-4dee-b747-3eab464c4071
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -30,7 +30,7 @@ Conversão
 
 | Parâmetro | Descrição |
 |--- |--- |
-| string | converte o valor da string em um decimal |
+| sequência de caracteres | converte o valor da string em um decimal |
 | dateTime | converte a data no número de milissegundos (milissegundos da época) |
 | booleano | converte o valor booleano como 1 se verdadeiro, 0 se falso |
 | inteiro | converte para um decimal (exemplo.: 1 torna-se 1.0) |

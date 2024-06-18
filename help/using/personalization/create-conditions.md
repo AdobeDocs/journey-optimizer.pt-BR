@@ -12,7 +12,7 @@ exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -43,12 +43,12 @@ Regras condicionais são criadas a partir do **[!UICONTROL Condições]** no edi
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
 >title="Criar condição"
->abstract="Combine atributos de perfil, eventos contextuais ou públicos para criar regras que definam qual conteúdo deve ser exibido em suas mensagens."
+>abstract="Combine atributos de perfil, eventos contextuais ou públicos para criar regras que definem qual conteúdo deve ser exibido nas mensagens."
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
 >title="Criar condição"
->abstract="Combine atributos de perfil, eventos contextuais ou públicos para criar regras que definam qual conteúdo deve ser exibido em suas mensagens."
+>abstract="Combine atributos de perfil, eventos contextuais ou públicos para criar regras que definem qual conteúdo deve ser exibido nas mensagens."
 
 As etapas para criar uma regra condicional são as seguintes:
 

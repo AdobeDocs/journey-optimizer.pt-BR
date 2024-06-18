@@ -41,7 +41,7 @@ Há três tipos de recursos:
 |--------------|----------------------------|
 | Objetos de decisão (placementID, activityID, decisionScopeID) | Parte dos eventos de experiência de feedback da gestão de decisões enviados para a AEP |
 | Públicos-alvo | De 0 a 50 públicos-alvo podem ser adicionados como recursos ao criar o modelo de IA de classificação |
-| Dados de contexto | Parte dos Eventos de experiência de feedback de decisão enviados para a AEP. Dados de contexto disponíveis para adicionar ao esquema: Detalhes do comércio, Detalhes do canal, Detalhes do aplicativo, Detalhes da Web, Detalhes do ambiente, Detalhes do dispositivo, placeContext |
+| Dados de contexto | Parte dos Eventos de experiência de feedback de decisão enviados para a AEP. Dados de contexto disponíveis para adicionar ao esquema: Detalhes do Commerce, Detalhes do canal, Detalhes do aplicativo, Detalhes da Web, Detalhes do ambiente, Detalhes do dispositivo, placeContext |
 
 O modelo tem duas fases:
 

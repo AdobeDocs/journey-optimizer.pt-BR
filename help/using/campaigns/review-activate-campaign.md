@@ -12,13 +12,13 @@ exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
 # Revisar e ativar uma campanha {#review-activate}
 
-Depois que a campanha é configurada, é necessário revisar o parâmetro e o conteúdo antes de ativá-la. Para fazer isso, siga estes passos:
+Depois que a campanha é configurada, é necessário revisar o parâmetro e o conteúdo antes de ativá-la. Para fazer isso, siga estas etapas:
 
 1. Na tela de configuração da campanha, clique em **[!UICONTROL Revisar para ativar]** para exibir um resumo da campanha.
 

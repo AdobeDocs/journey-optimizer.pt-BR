@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabalhe com modelos de páginas de destino
+title: Trabalhar com modelos de página de aterrissagem
 description: Saiba como salvar uma landing page como modelo e reutilizá-la no Journey Optimizer
 feature: Landing Pages, Templates
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 17%
+ht-degree: 4%
 
 ---
 
-# Trabalhe com modelos de páginas de destino {#work-with-templates}
+# Trabalhar com modelos de página de aterrissagem {#work-with-templates}
 
 ## Salvar uma página como modelo {#save-as-template}
 
@@ -42,7 +42,7 @@ Na próxima vez que criar uma landing page, você poderá usar esse template par
 
 1. Abra o [designer de conteúdo da página de aterrissagem](design-lp.md). A lista de todos os modelos salvos anteriormente é exibida.
 
-1. Você pode classificá-las **[!UICONTROL Por nome]**, **[!UICONTROL Última modificação]** e **[!UICONTROL Última criação]**.
+1. Você pode classificá-los **[!UICONTROL Por nome]**, **[!UICONTROL Última modificação]** e **[!UICONTROL Última criação]**.
 
    ![](assets/lp_designer-saved-templates.png)
 

@@ -12,7 +12,7 @@ exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 08f12adf384b98dfa1d69cbc2d684c3bf58d31fa
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 3%
+ht-degree: 15%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_template"
->title="Criar conteúdo a partir de um modelo"
->abstract="Para começar a criar seu conteúdo de email, selecione um template pronto para uso ou um template existente personalizado - criado do zero ou salvo como modelo de um email anterior."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates#create-content-templates" text="Criar modelos de conteúdo"
+>title="Criar conteúdo a partir de um modelo "
+>abstract="Para começar a criar o conteúdo de email, selecione um modelo pronto para uso ou um modelo personalizado existente (criado do zero ou salvo como modelo de um email anterior)."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/content-templates#create-content-templates" text="Criar modelos de conteúdo"
 
 No **[!UICONTROL Criar seu email]** , use o **[!UICONTROL Selecionar modelo de design]** para começar a criar o conteúdo a partir de um modelo.
 

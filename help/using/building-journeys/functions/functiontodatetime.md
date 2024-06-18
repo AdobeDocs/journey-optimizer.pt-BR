@@ -10,7 +10,7 @@ exl-id: 2b487e60-593e-4bf7-9639-f469ba0f5cdc
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -30,8 +30,8 @@ Conversão
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| data e hora no formato ISO-8601 | string |
-| id do fuso horário | string |
+| data e hora no formato ISO-8601 | sequência de caracteres |
+| id do fuso horário | sequência de caracteres |
 | data hora sem fuso horário | dateTimeOnly |
 | valor inteiro de uma época em milissegundos | inteiro |
 

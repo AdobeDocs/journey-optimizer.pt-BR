@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Regras comerciais
+title: Regras de negócios
 description: Saiba como definir regras de frequência
 feature: Rules
 topic: Content Management
@@ -12,16 +12,16 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
 source-wordcount: '1262'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
-# Regras comerciais {#frequency-rules}
+# Regras de negócios {#frequency-rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
->title="Regras comerciais"
->abstract="As regras de frequência de mensagem são um tipo de regra de negócios que restringe o número de vezes que os usuários recebem mensagens ou entram em jornadas em um ou vários canais. Essas regras entre canais excluem automaticamente perfis excessivamente solicitados de mensagens e ações."
+>title="Regras de negócios"
+>abstract="Regras de frequência de mensagem são um tipo de regra de negócios que restringe o número de vezes que usuários recebem mensagens ou entram em jornadas em um ou vários canais. Essas regras entre canais excluem automaticamente perfis excessivamente solicitados de mensagens e ações."
 
 [!DNL Journey Optimizer] permite controlar a frequência com que os usuários receberão uma mensagem ou entrarão em uma jornada em um ou vários canais. Regras de frequência de mensagem que excluem automaticamente perfis excessivamente solicitados de mensagens e ações.
 
@@ -55,18 +55,18 @@ Saiba mais sobre permissões no [nesta seção](../administration/high-low-permi
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
->title="Selecionar a categoria de regra de mensagem"
->abstract="Quando ativadas e aplicadas a uma mensagem, todas as regras de negócios correspondentes à categoria selecionada serão automaticamente aplicadas a esta mensagem. Atualmente, somente a categoria Marketing está disponível."
+>title="Selecionar a categoria da regra da mensagem"
+>abstract="Quando ativadas e aplicadas a uma mensagem, todas as regras de negócios correspondentes à categoria selecionada são automaticamente aplicadas a essa mensagem. Atualmente, somente a categoria Marketing está disponível."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
->title="Definir o limite para sua regra de negócios"
->abstract="Especifique o número máximo de mensagens enviadas para um perfil de cliente no período escolhido. O limite de frequência será baseado no período de calendário selecionado e será redefinido no início do período correspondente."
+>title="Definir o limite para a regra de negócios"
+>abstract="Especifique o número máximo de mensagens enviadas a um perfil de cliente no intervalo de tempo escolhido. O limite de frequência será baseado no período do calendário selecionado e redefinido no início do intervalo de tempo correspondente. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
 >title="Definir os canais aos quais a regra de negócios se aplica"
->abstract="Selecione pelo menos um canal. A limitação se aplica a todos os canais como contagem total."
+>abstract="Selecione pelo menos um canal. O limite se aplica em canais como uma contagem total."
 
 Para criar uma nova regra de negócios, siga as etapas abaixo.
 
