@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 354c05746b6aa45356969fab9af6ffdcee6b9e66
+source-git-commit: d2e53b85638a7ca5defcbe67aff6e19bc029f9a0
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 71%
+source-wordcount: '1321'
+ht-degree: 62%
 
 ---
 
@@ -166,13 +166,17 @@ Esta versão vem com as melhorias listadas abaixo.
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-<!--**Content fragments**
+**Fragmentos de conteúdo**
 
-* Fragments can now be edited, and changes can be propagated across all live journeys and campaigns where they are used.
-* New statuses for content fragments have been introduced: **Draft**, **Live**, **Publishing**, and **Archived**. 
-* To use a fragment in a journey or campaign, it must now be in the **Live** status. A new step has been added to the fragment creation process, allowing the fragment to be published and made available for use in journeys and campaigns. Note that fragment publishing requires a new permission.
-   
-   **CAUTION** - Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. Learn how to update your existing fragments in this section.-->
+>[!AVAILABILITY]
+>
+>Observe que essas melhorias serão implementadas gradualmente durante vários dias após o lançamento inicial. Embora alguns usuários tenham acesso imediato, outros podem enfrentar um atraso antes que ele se torne disponível em seus ambientes.
+
+* Agora os fragmentos podem ser editados e as alterações podem ser propagadas por todas as jornadas e campanhas ativas em que são usadas.
+* Foram introduzidos novos status para fragmentos de conteúdo: **Rascunho**, **Ao vivo**, **Publicação**, e **Arquivado**.
+* Para usar um fragmento em uma jornada ou campanha, agora ele deve estar na **Ao vivo** status. Uma nova etapa foi adicionada ao processo de criação de fragmento, permitindo que o fragmento seja publicado e disponibilizado para uso em jornadas e campanhas. Observe que a publicação de fragmento requer uma nova permissão.
+
+  **CUIDADO** - Desde **Rascunho** e **Ao vivo** Os status de foram introduzidos com a versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o **Rascunho** mesmo se forem usados em uma jornada ou campanha. Saiba como atualizar os fragmentos existentes nesta seção.
 
 **Jornadas**
 
