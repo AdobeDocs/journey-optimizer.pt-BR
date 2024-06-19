@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 846c601c02a28119dddb3029e5273cfccf141a2c
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -39,9 +39,9 @@ Você pode usar um **[!UICONTROL Aguardar]** atividade para definir uma duraçã
 
 ### Várias atividades de espera {#multiple-wait-activities}
 
-Ao usar vários **Aguardar** atividades em uma jornada, esteja ciente de que o tempo limite da jornada global é de 30 dias, o que significa que os perfis estão sempre fora do máximo da jornada 30 dias após serem inseridos. Saiba mais [nesta página](../building-journeys/journey-gs.md#global_timeout).
+Ao usar vários **Aguardar** em uma jornada, esteja ciente de que a variável [tempo limite de jornada global](journey-gs.md#global_timeout) é 91 dias, o que significa que os perfis estão sempre fora do máximo da jornada 91 dias após serem inseridos. Saiba mais [nesta página](../building-journeys/journey-gs.md#global_timeout).
 
-Um indivíduo pode inserir um **Aguardar** atividade somente se eles tiverem tempo suficiente na jornada para concluir a duração da espera antes do tempo limite de jornada de 30 dias. Por exemplo, se você adicionar dois **Aguardar** definidas para 20 dias cada, o sistema detecta que o segundo **Aguardar** A atividade terminará após o tempo limite de 30 dias. O segundo **Aguardar** Portanto, a atividade será ignorada e o indivíduo sairá da jornada antes de iniciá-la. Nesse exemplo, o cliente permanecerá no total 20 dias na jornada.
+Um indivíduo pode inserir um **Aguardar** atividade somente se eles tiverem tempo suficiente na jornada para concluir a duração da espera antes do tempo limite de jornada de 91 dias. Por exemplo, se você adicionar dois **Aguardar** definidas para 20 dias cada, o sistema detecta que o segundo **Aguardar** A atividade terminará após o tempo limite de 91 dias. O segundo **Aguardar** Portanto, a atividade será ignorada e o indivíduo sairá da jornada antes de iniciá-la. Nesse exemplo, o cliente permanecerá no total 20 dias na jornada.
 
 ### Aguardar e reentrar {#wait-re-entrance}
 

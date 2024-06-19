@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reentrada, jornada, perfil, recorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '682'
 ht-degree: 5%
 
 ---
@@ -38,7 +38,7 @@ Nas jornadas de qualificação de evento unitário e público-alvo, é possível
 
 * Se a reentrada estiver desativada, um perfil não poderá inserir várias vezes a mesma jornada dentro do tempo limite da jornada global. Consulte esta [seção](../building-journeys/journey-gs.md#global_timeout).
 
-Por padrão, o jornada permite a reentrada. Quando a variável **Permitir reentrada** estiver ativada, a variável **Período de espera de reentrada** é exibido. Isso permite definir o tempo de espera antes de permitir que um perfil entre na jornada novamente. Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. A duração máxima é de 29 dias.
+Por padrão, o jornada permite a reentrada. Quando a variável **Permitir reentrada** estiver ativada, a variável **Período de espera de reentrada** é exibido. Isso permite definir o tempo de espera antes de permitir que um perfil entre na jornada novamente. Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. A duração máxima é de 91 dias ([tempo limite padrão](journey-gs.md#global_timeout)).
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. [Learn more](journey-gs.md#entrance)
@@ -49,7 +49,7 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 Após o período de reentrada, os perfis podem inserir a jornada novamente. Para evitar isso e desativar totalmente a reentrada desses perfis, você pode adicionar uma condição para testar se o perfil entrou já ou não, usando dados de perfil ou público-alvo.
 
 <!--
-Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
+Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
 
 ## Jornadas comerciais{#entry-business}
 
@@ -90,5 +90,5 @@ Duas opções estão disponíveis para jornadas recorrentes de Leitura de públi
 Para obter mais informações, consulte esta [seção](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 <!--
-After 30 days, a Read audience journey switches to the **Finished** status. This behavior is set for 30 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 30 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
+After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
 -->

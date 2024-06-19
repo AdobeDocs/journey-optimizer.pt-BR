@@ -5,10 +5,10 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
+source-git-commit: 6b9044117dcdd7554dea0c5f791a6dcfb0218010
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 83%
 
 ---
 
@@ -20,27 +20,29 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!BEGINTABS]
 
->[!TAB A versão de maio está disponível.]
+>[!TAB A versão de junho está disponível.]
 
 Conheça os novos recursos e melhorias da versão de maio do Adobe Journey Optimizer.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Escolha de experiências]
+>[!TAB Relatório com Customer Journey Analytics (Beta)]
 
-A Escolha de experiências simplifica a personalização oferecendo um catálogo centralizado de ofertas de marketing, conhecidas como “itens de decisão”, além de um mecanismo de decisão sofisticado. 
+Os relatórios do Journey Optimizer agora estão totalmente integrados com as capacidades de Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e confiabilidade dos dados.
 
-![](using/rn/assets/do-not-localize/gif-exd.gif)
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/experience-decisioning/gs-experience-decisioning.md)
+>[!TAB Assistente de IA]
 
->[!TAB Nova experiência de jornada]
+O Assistente de IA é um recurso da interface do usuário que você pode usar para navegar e entender conceitos de Adobe e obter insights operacionais para seu ambiente específico.
 
-Essa versão vem com uma interface de usuário de tela aprimorada para jornada e fornece uma experiência do usuário mais intuitiva e eficiente. As atividades são mais claras e apresentam mais informações sobre a tela de jornada com menos cliques.
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 
-![](using/rn/assets/new-canvas3.gif)
+>[!TAB Fragmentos de conteúdo]
 
-[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
+Agora os fragmentos podem ser editados e as alterações podem ser propagadas por todas as jornadas e campanhas ativas em que são usados.
+
+[![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/fragments.md)
 
 >[!ENDTABS]
 

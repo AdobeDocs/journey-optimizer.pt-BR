@@ -8,24 +8,27 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 3%
+source-wordcount: '612'
+ht-degree: 2%
 
 ---
 
 # Adicionar fragmentos visuais aos emails {#use-visual-fragments}
 
-É possível usar um fragmento visual em uma [email](get-started-email-design.md) em uma jornada ou campanha, ou em uma [template de conteúdo](../content-management/content-templates.md).
-
->[!NOTE]
->
->Saiba como criar e gerenciar fragmentos no [nesta seção](../content-management/fragments.md).
+Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails em campanhas, jornadas ou modelos de conteúdo do Journey Optimizer. Essa funcionalidade permite pré-criar vários blocos de conteúdo personalizados que podem ser usados por usuários de marketing para reunir rapidamente o conteúdo de email em um processo de design aprimorado. [Saiba como criar e gerenciar fragmentos](../content-management/fragments.md).
 
 ➡️ [Saiba como gerenciar, criar e usar fragmentos neste vídeo](../content-management/fragments.md#video-fragments)
 
 ## Usar um fragmento {#use-fragment}
+
+Para usar um fragmento em um email, siga as etapas abaixo.
+
+>[!NOTE]
+>
+>Você pode adicionar até 30 fragmentos em um determinado delivery. Os fragmentos só podem ser aninhados até um nível.
+
 
 1. Abra qualquer conteúdo de email ou modelo usando o [Email Designer](get-started-email-design.md).
 
@@ -33,17 +36,12 @@ ht-degree: 3%
 
    ![](assets/fragments-in-designer.png)
 
-1. A lista de todos os fragmentos visuais criados na sandbox atual é exibida. É possível:
+1. A lista de todos os fragmentos visuais criados na sandbox atual é exibida. Eles são classificados por data de criação: os fragmentos visuais adicionados recentemente são mostrados primeiro na lista. É possível:
 
    * Procure um fragmento específico começando digitando seu rótulo.
    * Classifique os fragmentos em ordem crescente ou decrescente.
    * Altere a forma como os fragmentos são exibidos (cartões ou exibição em lista).
-
-   >[!NOTE]
-   >
-   >Os fragmentos são classificados por data de criação: os fragmentos visuais adicionados recentemente são mostrados primeiro na lista.
-
-1. Você pode pesquisar e atualizar a lista.
+   * Atualize a lista.
 
    >[!NOTE]
    >
@@ -52,6 +50,12 @@ ht-degree: 3%
 1. Arraste e solte qualquer fragmento da lista na área em que deseja inseri-lo.
 
    ![](assets/fragment-insert.png)
+
+   >[!CAUTION]
+   >
+   >É possível adicionar qualquer **Rascunho** ou **Ao vivo** fragmento ao seu conteúdo. No entanto, você não poderá ativar sua jornada ou campanha se um fragmento com o status Rascunho estiver sendo usado nele. Na publicação do jornada ou da campanha, os fragmentos de rascunho mostrarão um erro e você precisará aprová-los para poder publicar.
+   >
+   > Observe que os status dos fragmentos estão sendo implantados gradualmente durante vários dias após a versão de junho do Journey Optimizer. Embora alguns usuários tenham acesso imediato, outros podem enfrentar um atraso antes que ele se torne disponível em seus ambientes. Se esse aprimoramento ainda não estiver disponível em seu ambiente, observe que o fragmento não precisa ser **Ao vivo** para ser usado em suas jornadas e campanhas.
 
 1. Como qualquer outro componente, é possível mover o fragmento no conteúdo.
 
@@ -73,15 +77,9 @@ ht-degree: 3%
 
 ## Interromper herança {#break-inheritance}
 
-Ao editar um fragmento visual, as alterações são sincronizadas. Eles são propagados automaticamente para todos **[!UICONTROL Rascunho]** jornadas/campanhas e modelos de conteúdo que contêm esse fragmento.
+Ao editar um fragmento visual, as alterações são sincronizadas. Eles são propagados automaticamente para todos os rascunhos ou jornadas/campanhas ativas e modelos de conteúdo que contêm esse fragmento.
 
->[!NOTE]
->
->As alterações não são propagadas para emails usados no **[!UICONTROL Ao vivo]** jornadas ou campanhas.
-
-Quando adicionados a um email ou modelo de conteúdo, os fragmentos são sincronizados por padrão.
-
-No entanto, é possível quebrar a herança do fragmento original. Nesse caso, o conteúdo do fragmento é copiado para o design atual e as alterações não são mais sincronizadas.
+Quando adicionados a um email ou modelo de conteúdo, os fragmentos são sincronizados por padrão. No entanto, é possível quebrar a herança do fragmento original. Nesse caso, o conteúdo do fragmento é copiado para o design atual e as alterações não são mais sincronizadas.
 
 Para interromper a herança, siga as etapas abaixo:
 

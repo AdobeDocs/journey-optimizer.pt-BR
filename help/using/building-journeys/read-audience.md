@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 6%
+source-wordcount: '1465'
+ht-degree: 7%
 
 ---
 
@@ -126,7 +126,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->As jornadas de público-alvo de Leitura única são movidas para o status Concluído 30 dias após a execução da jornada. Para públicos-alvo de leitura agendados, isso acontece 30 dias após a execução da última ocorrência.
+>As jornadas de público-alvo de leitura única são movidas para a **Concluído** status 91 dias ([tempo limite padrão](journey-gs.md#global_timeout)) após a execução da jornada. Para públicos-alvo de leitura agendados, isso acontece 91 dias após a execução da última ocorrência.
 
 ## Testar e publicar a jornada {#testing-publishing}
 
@@ -138,7 +138,7 @@ Para fazer isso, ative o modo de teste.
 
 Configure e execute o modo de teste como de costume. [Saiba como testar uma jornada](testing-the-journey.md).
 
-Quando o teste estiver em execução, a variável **[!UICONTROL Mostrar logs]** permite ver os resultados do teste. Para obter mais informações, consulte [nesta seção](testing-the-journey.md#viewing_logs)
+Quando o teste estiver em execução, a variável **[!UICONTROL Mostrar logs]** permite ver os resultados do teste. Para obter mais informações, consulte [esta seção](testing-the-journey.md#viewing_logs)
 
 ![](assets/read-segment-log.png)
 

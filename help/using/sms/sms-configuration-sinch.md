@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 4%
+source-wordcount: '584'
+ht-degree: 3%
 
 ---
 
@@ -51,6 +51,8 @@ Para configurar seu provedor Sinch para enviar mensagens SMS e MMS com o Journey
    * **[!UICONTROL Palavras-chave de aceitação dupla]**: digite as palavras-chave que acionam o processo de aceitação dupla. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. Para várias palavras-chave, use valores separados por vírgulas. [Saiba mais sobre o Double Opt-in de SMS](https://video.tv.adobe.com/v/3427129/?learn=on).
 
    * **[!UICONTROL Mensagem de aceitação dupla]**: digite a resposta personalizada que é enviada automaticamente em resposta à confirmação de aceitação dupla.
+
+   * **[!UICONTROL Número de entrada]**: adicione seu número de entrada exclusivo. Isso permite usar as mesmas credenciais de API em diferentes sandboxes, cada uma com seu próprio número de entrada.
 
 1. Clique em **[!UICONTROL Enviar]** quando você concluiu a configuração das credenciais da API.
 

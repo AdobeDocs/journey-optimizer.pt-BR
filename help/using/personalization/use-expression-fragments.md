@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, biblioteca, personalização
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 1%
+source-wordcount: '624'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Ao usar o **editor de personalização**, você pode aproveitar todos os fragmentos de expressão que foram criados ou salvos na sandbox atual.
 
-Saiba como criar e gerenciar fragmentos no [nesta seção](../content-management/fragments.md).
+Um fragmento é um componente reutilizável que pode ser referenciado em [!DNL Journey Optimizer] campanhas e jornadas. Essa funcionalidade permite pré-construir vários blocos de conteúdo personalizado que podem ser usados por usuários de marketing para reunir conteúdo rapidamente em um processo de design aprimorado. [Saiba como criar e gerenciar fragmentos](../content-management/fragments.md).
 
 ➡️ [Saiba como gerenciar, criar e usar fragmentos neste vídeo](../content-management/fragments.md#video-fragments)
 
@@ -28,17 +28,17 @@ Saiba como criar e gerenciar fragmentos no [nesta seção](../content-management
 
 Para adicionar fragmentos de expressão ao seu conteúdo, siga as etapas abaixo.
 
+>[!NOTE]
+>
+>Você pode adicionar até 30 fragmentos em um determinado delivery. Os fragmentos só podem ser aninhados até um nível.
+
 1. Abra o [editor de personalização](personalization-build-expressions.md) e selecione o **[!UICONTROL Fragmentos]** no painel esquerdo.
+
+   A lista exibe todos os fragmentos de expressão criados ou salvos como fragmentos na sandbox atual. Eles são classificados por data de criação: os fragmentos de expressão adicionados recentemente são mostrados primeiro na lista. [Saiba mais](../content-management/fragments.md#create-expression-fragment)
 
    ![](assets/expression-fragments-pane.png)
 
-   A lista exibe todos os fragmentos de expressão criados ou salvos como fragmentos na sandbox atual. [Saiba mais](../content-management/fragments.md#create-expression-fragment)
-
-   >[!NOTE]
-   >
-   >Os fragmentos são classificados por data de criação: os fragmentos de expressão adicionados recentemente são mostrados primeiro na lista.
-
-1. Você também pode atualizar a lista.
+   Você também pode atualizar esta lista.
 
    >[!NOTE]
    >
@@ -48,15 +48,15 @@ Para adicionar fragmentos de expressão ao seu conteúdo, siga as etapas abaixo.
 
    ![](assets/expression-fragment-add.png)
 
-   Depois que a ID do fragmento for adicionada, se você abrir o fragmento de expressão correspondente e [editá-lo](../content-management/fragments.md#edit-fragments) na interface do, as alterações são sincronizadas. Eles são propagados automaticamente para todos **[!UICONTROL Rascunho]** jornadas/campanhas contendo essa ID de fragmento.
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >As alterações não são propagadas para o conteúdo usado no **[!UICONTROL Ao vivo]** jornadas ou campanhas.
+   >É possível adicionar qualquer **Rascunho** ou **Ao vivo** fragmento ao seu conteúdo. No entanto, você não poderá ativar sua jornada ou campanha se um fragmento com o status Rascunho estiver sendo usado nele. Na publicação do jornada ou da campanha, os fragmentos de rascunho mostrarão um erro e você precisará aprová-los para poder publicar.
+   >
+   > Observe que os status dos fragmentos estão sendo implantados gradualmente durante vários dias após a versão de junho do Journey Optimizer. Embora alguns usuários tenham acesso imediato, outros podem enfrentar um atraso antes que ele se torne disponível em seus ambientes. Se esse aprimoramento ainda não estiver disponível em seu ambiente, observe que o fragmento não precisa ser **Ao vivo** para ser usado em suas jornadas e campanhas.
 
-1. Clique em **[!UICONTROL Mais ações]** botão ao lado de um fragmento.
+1. Depois que a ID do fragmento for adicionada, se você abrir o fragmento de expressão correspondente e [editá-lo](../content-management/fragments.md#edit-fragments) na interface do, as alterações são sincronizadas. Eles são propagados automaticamente para todas as jornadas/campanhas de rascunho ou ativas que contêm essa ID de fragmento.
 
-1. No menu contextual aberto, selecione **[!UICONTROL Exibir fragmento]** para obter mais informações sobre esse fragmento. A variável **[!UICONTROL ID do fragmento]** também é exibido e pode ser copiado daqui.
+1. Clique em **[!UICONTROL Mais ações]** botão ao lado de um fragmento. No menu contextual aberto, selecione **[!UICONTROL Exibir fragmento]** para obter mais informações sobre esse fragmento. A variável **[!UICONTROL ID do fragmento]** também é exibido e pode ser copiado daqui.
 
    ![](assets/expression-fragment-view.png)
 

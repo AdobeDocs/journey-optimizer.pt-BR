@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: inserir novamente, jornada, finalizar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Uma jornada pode ser fechada pelos seguintes motivos:
 
 Fechar uma jornada manualmente garante que os clientes que já entraram na jornada possam concluir seu caminho, mas os novos usuários não podem entrar na jornada. Quando uma jornada for fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Fechado]**. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente.
 
-Após 30 dias, uma jornada Read audience muda para a **Concluído** status. Esse comportamento é definido somente por 30 dias (ou seja, o valor padrão do tempo limite da jornada), pois todas as informações sobre os perfis que entraram na jornada são removidas 30 dias depois de serem inseridas. As pessoas que ainda estão na jornada são afetadas automaticamente. Eles saem da jornada após o tempo limite de 30 dias.
+Após os 91 dias [tempo limite padrão](journey-gs.md#global_timeout), uma jornada Read audience muda para a **Concluído** status. Esse comportamento é definido somente para 91 dias (ou seja, [Valor padrão de tempo limite de jornada](journey-gs.md#global_timeout)), pois todas as informações sobre os perfis que entraram na jornada são removidas 91 dias após terem entrado. As pessoas que ainda estão na jornada são afetadas automaticamente. Eles saem da jornada após o tempo limite de 91 dias.
 
 Consulte esta [seção](../building-journeys/journey-gs.md#global_timeout).
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitário, create, jornada
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 0f1c4b96e930e8e473463002c1d8ef66341a07c4
+source-git-commit: 531662b7d5e2455a017d68d6037c44b6950cc894
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 6%
+source-wordcount: '1613'
+ht-degree: 12%
 
 ---
 
@@ -53,7 +53,7 @@ Estas são as primeiras etapas para configurar um novo evento:
 
 1. O número de jornadas que usam esse evento é exibido no **[!UICONTROL Usado em]** campo. Você pode clicar no link **[!UICONTROL Exibir jornadas]** ícone para exibir a lista de jornadas usando esse evento.
 
-1. Defina os campos schema e payload: é aqui que você seleciona as informações do evento (normalmente chamadas de payload) que o jornada espera receber. Você poderá então usar essas informações na jornada. Consulte [nesta seção](../event/about-creating.md#define-the-payload-fields).
+1. Defina os campos schema e payload: é aqui que você seleciona as informações do evento (normalmente chamadas de payload) que o jornada espera receber. Você poderá então usar essas informações em sua jornada. Consulte [esta seção](../event/about-creating.md#define-the-payload-fields).
 
    ![](assets/jo-event5.png)
 
@@ -61,24 +61,21 @@ Estas são as primeiras etapas para configurar um novo evento:
    >
    >Ao selecionar a variável **[!UICONTROL Gerado pelo sistema]** tipo, somente os esquemas que têm o campo de tipo eventID estão disponíveis. Ao selecionar a variável **[!UICONTROL Baseado em regras]** , todos os esquemas de Evento de experiência estarão disponíveis.
 
-1. Para eventos baseados em regras, clique dentro da variável **[!UICONTROL Condição de ID de evento]** campo. Usando o editor de expressão simples ou avançado, defina a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
-   ![](assets/jo-event6.png)
+1. Para eventos baseados em regras, clique dentro da variável **[!UICONTROL Condição de ID de evento]** campo. Usar o <!--simple or advanced--> editor de expressão, defina a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
 
-   >[!NOTE]
-   >
-   >O editor de expressão avançado na Configuração de evento está disponível em Disponibilidade limitada para clientes selecionados.
+![](assets/jo-event6.png)
 
-   Em nosso exemplo, escrevemos uma condição com base na cidade do perfil. Isso significa que sempre que o sistema receber um evento que corresponda a essa condição (**[!UICONTROL Cidade]** campo e **[!UICONTROL Paris]** ), ele vai passá-lo para o jornada.
+Em nosso exemplo, escrevemos uma condição com base na cidade do perfil. Isso significa que sempre que o sistema receber um evento que corresponda a essa condição (**[!UICONTROL Cidade]** campo e **[!UICONTROL Paris]** ), ele vai passá-lo para o jornada.
 
-   >[!NOTE]
-   >
-   >No editor de expressões simples, nem todos os operadores estão disponíveis, eles dependem do tipo de dados. Por exemplo, para um tipo de sequência de caracteres de campo, é possível usar &quot;contém&quot; ou &quot;igual a&quot;.
-   >
-   >Se você modificar seu esquema com novos valores de enumeração depois de criar o evento, será necessário seguir estas etapas para aplicar as alterações ao evento existente: desmarque o campo de enumeração dos campos de evento, confirme a seleção e selecione o campo de enumeração novamente. O novo valor de enumeração agora é exibido.
+>[!NOTE]
+>
+>No editor de expressões simples, nem todos os operadores estão disponíveis, eles dependem do tipo de dados. Por exemplo, para um tipo de sequência de caracteres de campo, é possível usar &quot;contém&quot; ou &quot;igual a&quot;.
+>
+>Se você modificar seu esquema com novos valores de enumeração depois de criar o evento, será necessário seguir estas etapas para aplicar as alterações ao evento existente: desmarque o campo de enumeração dos campos de evento, confirme a seleção e selecione o campo de enumeração novamente. O novo valor de enumeração agora é exibido.
 
-1. Adicione um namespace. Esta etapa é opcional, mas é recomendada, pois a adição de namespace permite aproveitar as informações armazenadas no Serviço de perfil do cliente em tempo real. Ele define o tipo de chave que o evento tem. Consulte [nesta seção](../event/about-creating.md#select-the-namespace).
+1. Adicione um namespace. Esta etapa é opcional, mas é recomendada, pois a adição de namespace permite que você aproveite as informações armazenadas no Serviço de perfil do cliente em tempo real. Ela define o tipo de chave que o evento tem. Consulte [esta seção](../event/about-creating.md#select-the-namespace).
 
-1. Definir o identificador do perfil: escolha um campo a partir dos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento. Essa chave é configurada automaticamente (mas ainda pode ser editada) se você selecionar um namespace. Na verdade, o jornada escolhe a chave que deve corresponder ao namespace (por exemplo, se você selecionar um namespace de email, a chave de email será selecionada). Consulte [nesta seção](../event/about-creating.md#define-the-event-key).
+1. Definir o identificador do perfil: escolha um campo a partir dos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento. Essa chave é configurada automaticamente (mas ainda pode ser editada) se você selecionar um namespace. Na verdade, o jornada escolhe a chave que deve corresponder ao namespace (por exemplo, se você selecionar um namespace de email, a chave de email será selecionada). Consulte [esta seção](../event/about-creating.md#define-the-event-key).
 
    ![](assets/jo-event7.png)
 
@@ -106,7 +103,7 @@ A definição de carga útil permite escolher as informações que o sistema esp
 
    >[!NOTE]
    >
-   >Para eventos gerados pelo sistema, a variável **[!UICONTROL eventID]** campo é adicionado automaticamente na lista de campos selecionados para que [!DNL Journey Optimizer] pode identificar o evento. O sistema que envia o evento não deve gerar uma ID, mas usar a disponível na pré-visualização de carga. Consulte [nesta seção](../event/about-creating.md#preview-the-payload).
+   >Para eventos gerados pelo sistema, a variável **[!UICONTROL eventID]** campo é adicionado automaticamente na lista de campos selecionados para que [!DNL Journey Optimizer] pode identificar o evento. O sistema que envia o evento não deve gerar uma ID, mas usar a disponível na pré-visualização de carga. Consulte [esta seção](../event/about-creating.md#preview-the-payload).
 
 1. Quando terminar de selecionar os campos necessários, clique em **[!UICONTROL Ok]** ou pressione **[!UICONTROL Enter]**.
 
@@ -159,14 +156,23 @@ Se você precisar usar uma chave diferente, como uma ID do CRM ou um endereço d
 
    ![](assets/journey16.png)
 
-1. Selecione o campo escolhido como a chave na lista de campos de carga. Você também pode alternar para o editor de expressão avançado para criar chaves mais complexas (por exemplo, uma concatenação de dois campos dos eventos).
-
-   ![](assets/journey20.png)
+1. Selecione o campo escolhido como a chave na lista de campos de carga.
 
 Quando o evento é recebido, o valor da chave permite que o sistema identifique a pessoa associada ao evento. Associado a um namespace (consulte [nesta seção](../event/about-creating.md#select-the-namespace)), a chave pode ser usada para executar consultas no Adobe Experience Platform. Consulte [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
 A chave também é usada para verificar se uma pessoa está em uma jornada. De fato, uma pessoa não pode estar em dois lugares diferentes na mesma jornada. Como resultado, o sistema não permite que a mesma chave, por exemplo, a chave CRMID=3224, esteja em locais diferentes na mesma jornada.
 
-Você também tem acesso às funções avançadas de expressão (**[!UICONTROL Modo avançado]**) se quiser executar manipulações adicionais. Essas funções permitem manipular os valores usados para realizar consultas específicas, como alterar formatos e executar concatenações de campo, levando em conta apenas uma parte de um campo (por exemplo, os 10 primeiros caracteres). Veja isto [página](../building-journeys/expression/expressionadvanced.md).
+### Editor de expressão avançado {#adv-exp-editor}
+
+
+Ao definir o identificador de perfil, você pode alternar para o editor de expressão avançado para criar chaves mais complexas (por exemplo, uma concatenação de dois campos dos eventos).
+
+![](assets/journey20.png)
+
+Você tem acesso às funções avançadas de expressão do **[!UICONTROL Modo avançado]** se desejar executar manipulações adicionais. Essas funções permitem manipular os valores usados para realizar consultas específicas, como alterar formatos e executar concatenações de campo, levando em conta apenas uma parte de um campo (por exemplo, os 10 primeiros caracteres). Consulte esta [página](../building-journeys/expression/expressionadvanced.md).
+
+>[!AVAILABILITY]
+>
+>O editor de expressão avançado só está disponível para um conjunto de organizações (LA).
 
 ## Visualizar o conteúdo {#preview-the-payload}
 
