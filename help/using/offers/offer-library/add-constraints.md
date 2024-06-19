@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
 source-wordcount: '2636'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -141,7 +141,7 @@ Basicamente, a saída de um público-alvo é uma lista de perfis, enquanto uma r
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="Usar limite"
->abstract="Para evitar o excesso de solicitações de seus clientes, use o limite para definir o número máximo de vezes que uma oferta pode ser apresentada. É possível criar até 10 regras de limitação para uma determinada oferta."
+>abstract="Para evitar o excesso de solicitações aos clientes, use o limite para definir o número máximo de vezes que uma oferta pode ser apresentada. É possível criar até 10 regras de limitação para uma determinada oferta."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping-change-date" text="Alterar datas pode afetar os limites"
 
 O limite é usado como uma restrição para definir o número máximo de vezes que uma oferta pode ser apresentada. Limitar o número de vezes que os usuários obtêm ofertas específicas permite evitar o excesso de solicitações de seus clientes e, portanto, otimizar cada ponto de contato com a melhor oferta.

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: c58fda6a59daae7a404058609bce01623064f9fb
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '925'
 ht-degree: 32%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 32%
 
 Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**. Você também pode duplicar uma campanha ao vivo existente para criar uma nova. [Saiba mais](modify-stop-campaign.md#duplicate)
 
-## Escolha o tipo de campanha e o canal {#campaigntype}
+## Escolher o tipo de campanha {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
@@ -39,25 +39,13 @@ Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** e clique em **
 >title="Categoria da campanha"
 >abstract="Se você estiver criando uma campanha programada, a campanha de **marketing** é selecionada automaticamente. Para campanhas acionadas por API, escolha se deseja enviar uma mensagem de **marketing** (mensagem promocional que requer o consentimento da pessoa) ou uma mensagem **transacional** (mensagem não comercial, que também pode ser enviada para perfis não assinantes em contextos específicos)."
 
-1. No **[!UICONTROL Propriedades]** especifique como deseja executar a campanha. Há dois tipos de campanha disponíveis:
+1. Selecione o tipo de campanha que deseja executar
 
-   * **[!UICONTROL Agendado]**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas são destinadas ao envio **marketing** mensagens. Eles são configurados e executados na interface do usuário do.
+   * **[!UICONTROL Agendado - Marketing]**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas são destinadas ao envio **marketing** mensagens. Eles são configurados e executados na interface do usuário do.
 
-   * **[!UICONTROL Acionado pela API]**: execute a campanha usando uma chamada de API. As campanhas acionadas por API têm como objetivo enviar **marketing** ou **transacional** mensagens, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
+   * **[!UICONTROL Acionado pela API - Marketing/Transacional]**: execute a campanha usando uma chamada de API. As campanhas acionadas por API têm como objetivo enviar **marketing** ou **transacional** mensagens, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
 
-1. Se você estiver criando uma campanha programada, a campanha de **marketing** é selecionada automaticamente. Para campanhas acionadas por API, escolha se deseja enviar uma **marketing** ou **transacional** mensagem.&quot;
-
-1. No **[!UICONTROL Ações]** escolha o canal e a superfície de canal a serem usados para enviar a mensagem.
-
-   Uma superfície é uma configuração que foi definida por um [Administrador do sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba mais](../configuration/channel-surfaces.md).
-
-   Somente as superfícies do canal compatíveis com o tipo de campanha de marketing são listadas na lista suspensa.
-
-   ![](assets/create-campaign-action.png)
-
-   >[!NOTE]
-   >
-   >Se estiver criando uma campanha de notificação por push, você poderá ativar a **[!UICONTROL Modo de entrega rápida]**, que é um complemento do Journey Optimizer que permite o envio muito rápido de mensagens por push em grandes volumes. [Saiba mais](../push/create-push.md#rapid-delivery)
+   ![](assets/create-campaign-modal.png)
 
 1. Clique em **[!UICONTROL Criar]** para criar a campanha.
 
@@ -71,13 +59,41 @@ Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** e clique em **
 
 1. Para atribuir rótulos de uso de dados personalizados ou principais à campanha, clique no link **[!UICONTROL Gerenciar acesso]** botão. [Saiba mais sobre o OLA (Object Level Access Control, controle de acesso em nível de objeto)](../administration/object-based-access.md)
 
+## Definir o público da campanha {#audience}
+
+Para definir a população direcionada pela campanha, siga estas etapas:
+
+>[!IMPORTANT]
+>
+>O uso de públicos-alvo e atributos de [composição de público](../audience/get-started-audience-orchestration.md) e [upload personalizado (arquivo CSV) públicos-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) O não está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
+>
+>Para campanhas acionadas por API, o público-alvo precisa ser definido por meio de uma chamada de API.
+
+1. No **Público** clique na guia **[!UICONTROL Selecionar público]** botão para exibir a lista de públicos-alvo disponíveis do Adobe Experience Platform. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)
+
+1. No **[!UICONTROL Namespace de identidade]** escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado.
+
+   Os indivíduos pertencentes a um segmento que não tem a identidade selecionada (namespace) entre suas diferentes identidades não serão direcionados pela campanha. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace)
+
+   ![](assets/create-campaign-namespace.png)
+
+   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+
 ## Criar a mensagem e configurar o rastreamento {#content}
 
-No **[!UICONTROL Ações]** crie a mensagem a ser enviada com a campanha.
+1. No **[!UICONTROL Ações]** escolha o canal e a superfície a serem usados para enviar a mensagem.
 
-1. Clique em **[!UICONTROL Editar conteúdo]** e, em seguida, criar e projetar o conteúdo da mensagem.
+   Uma superfície é uma configuração que foi definida por um [Administrador do sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba mais](../configuration/channel-surfaces.md).
 
-   Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem nas seguintes páginas:
+   Somente as superfícies do canal compatíveis com o tipo de campanha de marketing são listadas na lista suspensa.
+
+   ![](assets/create-campaign-action.png)
+
+   >[!NOTE]
+   >
+   >Se estiver criando uma campanha de notificação por push, você poderá ativar a **[!UICONTROL Modo de entrega rápida]**, que é um complemento do Journey Optimizer que permite o envio muito rápido de mensagens por push em grandes volumes. [Saiba mais](../push/create-push.md#rapid-delivery)
+
+1. Clique em **[!UICONTROL Editar conteúdo]** botão para criar e projetar sua mensagem. Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem nas seguintes páginas:
 
    <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -119,24 +135,6 @@ No **[!UICONTROL Ações]** crie a mensagem a ser enviada com a campanha.
 1. No **[!UICONTROL Rastreamento de ações]** especifique se deseja rastrear como os recipients reagem ao seu delivery: é possível rastrear cliques e/ou aberturas.
 
    Os resultados do rastreamento podem ser acessados no relatório da campanha após a execução da campanha. [Saiba mais sobre relatórios de campanha](../reports/campaign-global-report.md)
-
-## Definir o público-alvo {#audience}
-
-Clique em **[!UICONTROL Selecionar público]** botão para exibir a lista de públicos-alvo disponíveis do Adobe Experience Platform. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)
-
->[!IMPORTANT]
->
->O uso de públicos-alvo e atributos de [composição de público](../audience/get-started-audience-orchestration.md) e [upload personalizado (arquivo CSV) públicos-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) O não está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
->
->Para campanhas acionadas por API, o público-alvo precisa ser definido por meio de uma chamada de API.
-
-No **[!UICONTROL Namespace de identidade]** escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado.
-
-Os indivíduos pertencentes a um segmento que não tem a identidade selecionada (namespace) entre suas diferentes identidades não serão direcionados pela campanha. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace)
-
-![](assets/create-campaign-namespace.png)
-
-<!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## Programar a campanha {#schedule}
 
