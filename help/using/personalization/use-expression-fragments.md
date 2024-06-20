@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressão, editor, biblioteca, personalização
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,22 @@ Para adicionar fragmentos de expressão ao seu conteúdo, siga as etapas abaixo.
 >[!NOTE]
 >
 >Se você criar um fragmento de expressão que contenha várias quebras de linha e usá-lo no [SMS](../sms/create-sms.md#sms-content) ou [push](../push/design-push.md) conteúdo, as quebras de linha são preservadas. Assim, certifique-se de testar seu [SMS](../sms/send-sms.md) ou [push](../push/send-push.md) antes de enviá-la.
+
+## Personalizar campos editáveis {#customize-fields}
+
+Se determinadas partes de um fragmento de expressão se tornaram editáveis usando variáveis, é possível substituir os valores padrão usando uma sintaxe específica. [Saiba como tornar os fragmentos personalizáveis](../content-management/customizable-fragments.md)
+
+Para personalizar os campos, siga estas etapas:
+
+1. Insira o fragmento no código do **Fragmentos** menu.
+
+1. Use o `<fieldId>="<value>"` no final da sintaxe para substituir o valor padrão da variável.
+
+   No exemplo abaixo, estamos substituindo o valor de uma variável cuja ID é &quot;esportes&quot; pelo valor &quot;ioga&quot;. Isso exibirá &quot;yoga&quot; no conteúdo do fragmento em todos os locais em que a variável &quot;sport&quot; for referenciada.
+
+   ![](../content-management/assets/fragment-expression-use.png)
+
+Um exemplo mostrando como adicionar campos editáveis em fragmentos de expressão e substituir seus valores ao criar um email está disponível em [nesta seção](../content-management/customizable-fragments.md#example).
 
 ## Interromper herança {#break-inheritance}
 

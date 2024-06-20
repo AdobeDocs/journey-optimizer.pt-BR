@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -74,6 +74,22 @@ Para usar um fragmento em um email, siga as etapas abaixo.
 1. Se necessário, é possível quebrar a herança com o fragmento original. [Saiba mais](#break-inheritance)
 
 1. Adicione quantos fragmentos desejar e **[!UICONTROL Salvar]** suas alterações.
+
+## Personalizar campos editáveis {#customize-fields}
+
+Se determinadas partes do fragmento selecionado tiverem se tornado editáveis, você poderá substituir o valor padrão depois de adicionar o fragmento ao conteúdo. [Saiba como tornar os fragmentos personalizáveis](../content-management/customizable-fragments.md)
+
+Para personalizar campos editáveis em um fragmento, siga estas etapas:
+
+1. Adicione o fragmento ao conteúdo e selecione-o para abrir o painel de propriedades no lado direito.
+
+1. Todos os campos editáveis no fragmento são exibidos no **Configurações** , no menu **Fragmento** seção.
+
+   Campos editáveis são realçados em verde no painel de visualização quando selecionados no painel direito, facilitando a identificação do local no conteúdo.
+
+   No exemplo abaixo, a imagem **origem** e **texto alternativo** podem ser editadas, bem como o botão &quot;Clique aqui&quot; **URL**.
+
+   ![](assets/fragment-editable.png)
 
 ## Interromper herança {#break-inheritance}
 
