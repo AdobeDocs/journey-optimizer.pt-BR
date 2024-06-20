@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: reentrada, jornada, perfil, recorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 5%
@@ -36,12 +36,12 @@ Nas jornadas de qualificação de evento unitário e público-alvo, é possível
 
 * Se a reentrada estiver ativada, um perfil poderá inserir uma jornada várias vezes, mas não poderá fazer isso até que ele tenha saído totalmente da instância anterior da jornada.
 
-* Se a reentrada estiver desativada, um perfil não poderá inserir várias vezes a mesma jornada dentro do tempo limite da jornada global. Consulte esta [seção](../building-journeys/journey-gs.md#global_timeout).
+* Se a reentrada estiver desativada, um perfil não poderá inserir várias vezes a mesma jornada dentro do tempo limite da jornada global. Consulte esta [seção](../building-journeys/journey-properties.md#global_timeout).
 
-Por padrão, o jornada permite a reentrada. Quando a variável **Permitir reentrada** estiver ativada, a variável **Período de espera de reentrada** é exibido. Isso permite definir o tempo de espera antes de permitir que um perfil entre na jornada novamente. Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. A duração máxima é de 91 dias ([tempo limite padrão](journey-gs.md#global_timeout)).
+Por padrão, o jornada permite a reentrada. Quando a variável **Permitir reentrada** estiver ativada, a variável **Período de espera de reentrada** é exibido. Isso permite definir o tempo de espera antes de permitir que um perfil entre na jornada novamente. Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. A duração máxima é de 91 dias ([tempo limite global](journey-properties.md#global_timeout)).
 
 <!--
-When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. [Learn more](journey-gs.md#entrance)
+When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
 -->
 
 ![](assets/journey-re-entrance.png)

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: db841b1378a6b897c68809fe19f1f0b90d7fd9c5
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
-source-wordcount: '2642'
-ht-degree: 13%
+source-wordcount: '1244'
+ht-degree: 23%
 
 ---
 
@@ -89,7 +89,7 @@ O status pode ser:
 * **Fechado**: a jornada foi fechada usando o **Fechar para novas entradas** botão. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente.
 * **Rascunho**: a jornada está em seu primeiro estágio. Ele ainda não foi publicado.
 * **Rascunho (Teste)**: o modo de teste foi ativado usando o **Modo de teste** botão.
-* **Concluído**: a jornada alterna automaticamente para esse status após os 91 dias [tempo limite padrão](journey-gs.md#global_timeout). Os perfis que já estão na jornada concluem a jornada normalmente. Novos perfis não podem mais entrar na jornada.
+* **Concluído**: a jornada alterna automaticamente para esse status após os 91 dias [tempo limite global](journey-properties.md#global_timeout). Os perfis que já estão na jornada concluem a jornada normalmente. Novos perfis não podem mais entrar na jornada.
 * **Ao vivo**: a jornada foi publicada usando o **Publish** botão.
 * **Parado**: a jornada foi desligada usando o **Parar** botão. Todos os indivíduos saem instantaneamente da jornada.
 
@@ -109,17 +109,25 @@ Além disso, nos painéis de configuração Evento, Fonte de dados e Ação, a v
 
 ![](assets/journey3bis.png)
 
-## Criar sua jornada{#jo-build}
+## Criar sua jornada {#jo-build}
 
-Esta etapa é executada pelo **usuário empresarial**. É aqui que você cria suas jornadas. Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas.
+Crie jornadas para fornecer experiências personalizadas e contextuais. O [!DNL Journey Optimizer] permite criar casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados. Crie designs de cenários avançados com várias etapas e com os seguintes recursos:
+
+* Envie uma **entrega unitária** em tempo real acionada quando um evento é recebido, ou **em lote** usando os públicos-alvo da Adobe Experience Platform.
+
+* Aproveite **dados contextuais** de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros.
+
+* Use o **ações do canal integradas** (Email, SMS, Push, InApp) para enviar mensagens projetadas no [!DNL Journey Optimizer] ou criar **ações personalizadas** se você estiver usando um sistema de terceiros para enviar mensagens.
+
+* Com o **Designer de jornadas**, crie seus casos de uso de várias etapas: arraste e solte facilmente um evento de entrada ou uma atividade de público-alvo de leitura, adicione condições e envie mensagens personalizadas.
 
 ➡️ [Descubra este recurso no vídeo](journey.md#video)
 
-Estas são as etapas principais para enviar mensagens por meio do jornada:
+As etapas para enviar mensagens por meio de jornadas estão listadas abaixo.
 
 1. No **Procurar** clique em **[!UICONTROL Criar Jornada]** para criar uma nova jornada.
 
-1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Saiba mais nesta [seção](journey-gs.md#change-properties).
+1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Saiba como definir as propriedades da sua jornada nesta [esta página](journey-properties.md).
 
    ![](assets/jo-properties.png)
 
@@ -139,197 +147,6 @@ Estas são as etapas principais para enviar mensagens por meio do jornada:
 
    ![](assets/jo-dynamic_report_journey_12.png)
 
-## Definir as propriedades da jornada {#change-properties}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_properties"
->title="Propriedades da jornada"
->abstract="Essa seção mostra as propriedades da jornada. Por padrão, os parâmetros somente leitura ficam ocultos. As configurações disponíveis dependem do status da jornada, das permissões e da configuração do produto."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_exit_criterias"
->title="Critérios de saída da jornada"
->abstract="Esta seção mostra as opções de critérios de saída. É possível criar uma ou várias regras de critérios de saída para a sua jornada."
-
-Clique no ícone de lápis, ao lado do nome da jornada, para acessar suas propriedades.
-
-É possível alterar o nome da jornada, adicionar uma descrição, permitir a reentrada, escolher datas de início e término e, como usuário administrador, definir um **[!UICONTROL Tempo limite e erro]** duração. Você também pode atribuir Tags unificadas do Adobe Experience Platform à sua jornada. Isso permite classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
-
-Para jornadas ao vivo, essa tela exibe a data da publicação e o nome do usuário que publicou a jornada.
-
-A variável **Copiar detalhes técnicos** O permite copiar informações técnicas sobre a jornada que a equipe de suporte pode usar para a solução de problemas. As seguintes informações são copiadas: JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
-
-![](assets/journey32.png)
-
-### Entrada e reentrada {#entrance}
-
-Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção **Permitir reentrada** opção para jornadas &quot;one shot&quot;, por exemplo, se você quiser oferecer um presente único quando uma pessoa entrar em uma loja.
-
-Quando a variável **Permitir reentrada** estiver ativada, a variável **Período de espera de reentrada** é exibido. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de público-alvo). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. A duração máxima é de 29 dias.
-
-Saiba mais sobre o gerenciamento de entrada e reentrada de perfis, em [nesta seção](entry-management.md).
-
-### Gerenciar acesso {#manage-access}
-
-Para atribuir rótulos de uso de dados personalizados ou principais à jornada, clique no botão **[!UICONTROL Gerenciar acesso]** botão. [Saiba mais sobre o OLA (Object Level Access Control, controle de acesso em nível de objeto)](../administration/object-based-access.md)
-
-![](assets/journeys-manage-access.png)
-
-### Fusos horários de Jornada e perfil {#timezone}
-
-O fuso horário é definido no nível da jornada. Você pode inserir um fuso horário fixo ou usar perfis do Adobe Experience Platform para definir o fuso horário de jornada. Se um fuso horário for definido no perfil do Adobe Experience Platform, ele poderá ser recuperado na jornada.
-
-Para obter mais informações sobre o gerenciamento de fuso horário, consulte [esta página](../building-journeys/timezone-management.md).
-
-### Datas de início e término {#dates}
-
-Você pode definir um **Data inicial**. Se não tiver especificado um, ele será definido automaticamente no momento da publicação.
-
-Você também pode adicionar um **Data final**. Isso permite que os perfis saiam automaticamente quando a data for atingida. Se nenhuma data final for especificada, os perfis poderão permanecer até que o [tempo limite de jornada global](#global_timeout) (que geralmente dura 91 dias e é reduzido para 7 dias com a oferta complementar do Healthcare Shield). A única exceção são as jornadas recorrentes de leitura de público com **Forçar reentrada na recorrência** ativadas, que terminam na data de início da próxima ocorrência.
-
-### Tempo limite e erro em atividades de jornada {#timeout_and_error}
-
-Ao editar uma atividade de ação ou condição, é possível definir um caminho alternativo em caso de erro ou tempo limite. Se o processamento da atividade que interroga um sistema de terceiros exceder a duração do tempo limite definida nas propriedades da jornada (**[!UICONTROL Tempo limite e erro]** ), o segundo caminho será escolhido para executar uma possível ação de fallback.
-
-Os valores autorizados estão entre 1 e 30 segundos.
-
-Recomendamos que você defina um período muito curto **[!UICONTROL Tempo limite e erro]** valor se a jornada for sensível ao tempo (por exemplo: reagir ao local em tempo real de uma pessoa) porque você não pode atrasar a ação por mais de alguns segundos. Se a jornada for menos sensível ao tempo, você poderá usar um valor mais longo para dar mais tempo ao sistema chamado para enviar uma resposta válida.
-
-O Jornada também usa um tempo limite global. Consulte a [próxima seção](#global_timeout).
-
-### Tempo limite de jornada global {#global_timeout}
-
-Além do [timeout](#timeout_and_error) usado em atividades de jornada, também há um tempo limite de jornada global que não é exibido na interface e não pode ser alterado.
-
-Esse tempo limite global interrompe o progresso das pessoas físicas na jornada **91 dias** após entrarem. Este tempo limite é reduzido a **7 dias** com a oferta complementar do Healthcare Shield. Isso significa que a jornada de um indivíduo não pode durar mais de 91 dias (ou 7 dias). Após esse período de tempo limite, os dados do indivíduo são excluídos. Os indivíduos que ainda fluem na jornada no final do período de tempo limite serão interrompidos e não serão considerados nos relatórios. Portanto, você poderia ver mais pessoas entrando na jornada do que saindo.
-
->[!NOTE]
->
->As jornadas não reagem diretamente a solicitações de recusa de privacidade, acesso ou exclusão. No entanto, o tempo limite global garante que os indivíduos nunca fiquem mais de 91 dias em qualquer jornada.
-
-Devido ao tempo limite de jornada de 91 dias, quando a reentrada da jornada não é permitida, não podemos garantir que o bloqueio de reentrada funcionará por mais de 91 dias. De fato, à medida que removemos todas as informações sobre as pessoas que entraram na jornada 91 dias depois de entrarem, não podemos saber a pessoa que entrou anteriormente, há mais de 91 dias.
-
-Um indivíduo só poderá inserir uma atividade de espera se tiver tempo suficiente na jornada para concluir a duração da espera antes do tempo limite de jornada de 91 dias. Consulte [esta página](../building-journeys/wait-activity.md).
-
-
-#### Perguntas frequentes sobre TTL (Time-to-Live) e retenção de dados {#timeout-faq}
-
-**Para Jornadas unitárias**
-<table style="table-layout:auto">
-  <tr style="border: 1;">
-    <td>
-      <p>O que acontece com o jornada publicado depois que a extensão TTL é implantada?</p>
-    </td>
-    <td>
-      <p>Os perfis que entram na nova jornada terão um TTL de 91 dias automaticamente.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>O que acontece com um perfil que entra em uma jornada publicada antes do lançamento da extensão TTL?</p>
-    </td>
-    <td>
-      <p>O perfil terá um TTL de 91 dias (7 dias para a HIPAA), consistente com o horário em que a jornada foi originalmente publicada.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>O que acontece com um perfil que já entrou em uma jornada quando a extensão TTL é iniciada?</p>
-    </td>
-    <td>
-      <p>O perfil manterá um TTL de 91 dias (7 dias para a HIPAA), de acordo com o tempo de publicação original da jornada.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>O que acontece com um perfil em uma versão anterior do jornada republicada após a inicialização da extensão TTL?</p>
-    </td>
-    <td>
-      <p>O perfil manterá um TTL de 91 dias (7 dias para a HIPAA), alinhado ao tempo de publicação da versão original do jornada.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>O que acontece com um novo perfil que entra em uma versão republicada do jornada após a inicialização da extensão TTL?</p>
-    </td>
-    <td>
-      <p>O perfil terá um TTL de 91 dias, que corresponde ao TTL da versão do jornada recém-republicada.</p>
-    </td>
-  </tr>
-</table>
-
-**Para Jornadas de acionador de segmento**
-
-<table style="table-layout:auto">
-  <tr style="border: 1;">
-    <td>
-      <p>O que acontece com as novas jornadas únicas publicadas após a extensão TTL?</p>
-    </td>
-    <td>
-      <p>Os perfis que entram na nova jornada terão um TTL de 91 dias automaticamente.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>O que acontece com as novas jornadas recorrentes sem reentrada forçada publicadas após a extensão TTL?</p>
-    </td>
-    <td>
-      <p>Os perfis que entram na nova jornada terão um TTL de 91 dias automaticamente.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>O que acontece com as novas jornadas recorrentes com reentrada forçada publicadas após a extensão TTL?</p>
-    </td>
-    <td>
-      <p>Os perfis que entram na nova jornada terão um TTL igual ao período de recorrência. Por exemplo, se a jornada for executada diariamente, o TTL será 1 dia.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>O que acontece com um perfil que entra em uma jornada publicada antes do lançamento da extensão TTL?</p>
-    </td>
-    <td>
-      <p>O perfil terá um TTL de 91 dias (7 dias para a HIPAA), consistente com o tempo de publicação original. Para jornadas recorrentes com reentrada forçada, o TTL corresponderá ao período de recorrência.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>O que acontece com um perfil executado em uma jornada quando a extensão TTL é iniciada?</p>
-    </td>
-    <td>
-      <p>O perfil manterá um TTL de 91 dias (7 dias para a HIPAA), de acordo com o tempo de publicação original da jornada. Para jornadas recorrentes com reentrada forçada, o TTL corresponderá ao período de recorrência.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>O que acontece com um perfil em execução em uma versão anterior do jornada republicada após a inicialização da extensão TTL?</p>
-    </td>
-    <td>
-      <p>O perfil manterá um TTL de 91 dias (7 dias para o HIPPA), alinhado ao tempo de publicação da versão original do jornada. Para jornadas recorrentes com reentrada forçada, o TTL corresponderá ao período de recorrência.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>O que acontece com um novo perfil que entra em uma versão republicada do jornada após a inicialização da extensão TTL?</p>
-    </td>
-    <td>
-      <p>O perfil terá um TTL de 91 dias, que corresponde ao TTL da versão do jornada recém-republicada. Para jornadas recorrentes com reentrada forçada, o TTL corresponderá ao período de recorrência.</p>
-    </td>
-  </tr>
-</table>
-
-### Políticas de mesclagem {#merge-policies}
-
-O Jornada usa políticas de mesclagem ao recuperar dados de perfil do Adobe Experience Platform. Dependendo do tipo de jornada, são usadas diferentes políticas de mesclagem:
-
-* Em Ler jornadas de qualificação de público ou público-alvo: a política de mesclagem do público-alvo é usada
-* Em jornadas acionadas por eventos: a política de mesclagem padrão é usada
-* Nas jornadas de eventos comerciais: a política de mesclagem do público-alvo na seguinte atividade Ler público é usada
-
-O Jornada seguirá a política de mesclagem usada em toda a jornada. Portanto, se vários públicos-alvo forem usados em uma jornada (por exemplo: em funções &quot;inAudience&quot;), criando inconsistências com a política de mesclagem usada pela jornada, um erro será gerado e a publicação será bloqueada. No entanto, se um público-alvo inconsistente for usado na personalização da mensagem, um alerta não será gerado, apesar da inconsistência. Por isso, é altamente recomendável verificar a política de mesclagem associada ao seu público-alvo quando ele for usado na personalização da mensagem.
-
-Para saber mais sobre políticas de mesclagem, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 ## Duplicar uma jornada {#duplicate-a-journey}
 

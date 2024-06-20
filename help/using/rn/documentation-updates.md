@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '5389'
 ht-degree: 99%
@@ -22,7 +22,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 ## Junho de 2024 {#june-2024}
 
 * Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de junho de 2024 do foi detalhada na documentação. [Leia mais](release-notes.md)
-* Uma observação sobre o uso de políticas de mesclagem no jornada foi adicionada em [esta página](../building-journeys/journey-gs.md#merge-policies).
+* Uma observação sobre o uso de políticas de mesclagem no jornada foi adicionada em [esta página](../building-journeys/journey-properties.md#merge-policies).
 * A página sobre como configurar uma atividade **Aguardar** em uma jornada foi reorganizada e aprimorada. [Leia mais](../building-journeys/wait-activity.md)
 
 ## Maio de 2024 {#may-2024}
@@ -82,7 +82,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 * Todos os novos recursos e aprimoramentos da versão de janeiro de 2024 do [!DNL Journey Optimizer] estão detalhados na documentação. [Leia mais](release-notes.md)
 * Medidas de proteção sobre o tamanho da jornada foram adicionadas. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
-* O gerenciamento de tempo limite da jornada foi detalhado [na seção seguinte](../building-journeys/journey-gs.md#global_timeout).
+* O gerenciamento de tempo limite da jornada foi detalhado [na seção seguinte](../building-journeys/journey-properties.md#global_timeout).
 * A [página inicial da documentação](../../ajo-home.md) do Journey Optimizer foi redefinida.
 * Recomendações sobre a atividade Atualizar perfis foram adicionadas. [Leia mais](../building-journeys/update-profiles.md)
 * Foram adicionadas informações sobre o comportamento dos tempos limite de atividades de evento em jornadas. Quando nenhum evento for recebido durante o período de tempo limite especificado e nenhum caminho de tempo limite for definido, as pessoas físicas continuarão a jornada. [Leia mais](../building-journeys/general-events.md#events-specific-time)

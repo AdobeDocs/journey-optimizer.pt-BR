@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 28%
@@ -41,7 +41,7 @@ As APIs de jornadas comportam até 5000 eventos por segundo, mas alguns sistemas
 
 Toda vez que uma chamada de API é executada pelas jornadas, ela passa pelo mecanismo da API. Se o limite definido na API for atingido, a chamada será rejeitada se você estiver usando a API de limitação ou colocada em fila por até 6 horas e processada assim que possível na ordem em que foi recebida se você estiver usando a API de limitação.
 
-Por exemplo, digamos que você tenha definido uma regra de limite ou limitação de 200 chamadas por segundo para seu sistema externo. Seu sistema é chamado por uma ação personalizada em 10 jornadas diferentes. Se uma jornada receber 300 chamadas por segundo, ela usará os 200 slots disponíveis e descartará ou colocará em fila os 100 slots restantes. Como a taxa máxima foi excedida, não restará nenhum slot para as outras 9 jornadas. Essa granularidade ajuda a proteger o sistema externo contra sobrecarga e falhas.
+Por exemplo, digamos que você tenha definido uma regra de limitação ou limitação de 200 chamadas por segundo para o sistema externo. Seu sistema é chamado por uma ação personalizada em 10 jornadas diferentes. Se uma jornada receber 300 chamadas por segundo, ela usará os 200 slots disponíveis e descartará ou colocará em fila os 100 slots restantes. Como a taxa máxima foi excedida, não restará nenhum slot para as outras 9 jornadas. Essa granularidade ajuda a proteger o sistema externo contra sobrecarga e falhas.
 
 >[!IMPORTANT]
 >
@@ -72,7 +72,7 @@ Para **ações personalizadas**, é necessário avaliar a capacidade de sua API 
 
 Se a regra de limitação ou limitação for atendida, a regra de tempo limite será aplicada.
 
-Em cada jornada, é possível definir uma duração de tempo limite. Isso permite definir uma duração máxima ao chamar um sistema externo. A duração do tempo limite é configurada nas propriedades de uma jornada. Consulte [esta página](../building-journeys/journey-gs.md#timeout_and_error).
+Em cada jornada, é possível definir uma duração de tempo limite. Isso permite definir uma duração máxima ao chamar um sistema externo. A duração do tempo limite é configurada nas propriedades de uma jornada. Consulte [esta página](../building-journeys/journey-properties.md#timeout_and_error).
 
 Esse tempo limite é global para todas as chamadas externas (chamadas de API externas em ações personalizadas e fontes de dados personalizadas). Por padrão, é definido como 30 segundos.
 
@@ -94,12 +94,12 @@ Vamos ver um exemplo para um tempo limite de 5 segundos.
 
 **Como posso configurar uma regra de limitação ou limitação? Há uma regra padrão?**
 
-Por padrão, não há regra de limitação. As regras são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação ou limitação. Consulte [nesta seção](../configuration/external-systems.md#capping).
+Por padrão, não há regra de limitação. As regras são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação ou limitação. Consulte [esta seção](../configuration/external-systems.md#capping).
 
 **Quantas tentativas são executadas? Posso alterar o número de tentativas ou definir um período mínimo de espera entre tentativas?**
 
-Para uma determinada chamada, um máximo de três tentativas pode ser executado após a primeira chamada, até que a duração do tempo limite seja atingida. O número de tentativas e o tempo entre cada nova tentativa não podem ser alterados. Consulte [nesta seção](../configuration/external-systems.md#timeout).
+Para uma determinada chamada, um máximo de três tentativas pode ser executado após a primeira chamada, até que a duração do tempo limite seja atingida. O número de tentativas e o tempo entre cada nova tentativa não podem ser alterados. Consulte [esta seção](../configuration/external-systems.md#timeout).
 
 **Onde posso configurar o tempo limite? Há um valor máximo?**
 
-Em cada jornada, é possível definir uma duração de tempo limite. A duração do tempo limite é configurada nas propriedades de uma jornada. A duração do tempo limite deve estar entre 1 segundo e 30 segundos. Consulte [nesta seção](../configuration/external-systems.md#timeout) e [esta página](../building-journeys/journey-gs.md#timeout_and_error).
+Em cada jornada, é possível definir uma duração de tempo limite. A duração do tempo limite é configurada nas propriedades de uma jornada. A duração do tempo limite deve estar entre 1 segundo e 30 segundos. Consulte [nesta seção](../configuration/external-systems.md#timeout) e [esta página](../building-journeys/journey-properties.md#timeout_and_error).

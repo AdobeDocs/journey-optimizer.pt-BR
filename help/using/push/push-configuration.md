@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: c1dc3f3805bc0677a24466687026fac0d4990a5b
 workflow-type: tm+mt
 source-wordcount: '1544'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -332,7 +332,7 @@ Seu evento foi criado e agora pode ser usado em uma jornada.
 
 1. Clique em **[!UICONTROL Criar Jornada]** para criar uma nova jornada.
 
-1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Saiba mais nesta página [seção](../building-journeys/journey-gs.md#change-properties).
+1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Saiba mais nesta [seção](../building-journeys/journey-properties.md).
 
 1. Comece arrastando e soltando o evento criado nas etapas anteriores da **[!UICONTROL Eventos]** menu suspenso.
 

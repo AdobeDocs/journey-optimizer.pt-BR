@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: inserir novamente, jornada, finalizar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Uma jornada pode terminar para um indivíduo em dois contextos específicos:
 * A pessoa chega à última atividade de um caminho.
 * A pessoa chega a um **Condição** atividade (ou um **Aguardar** atividade com uma condição) e não corresponde a nenhuma das condições.
 
-A pessoa pode então entrar novamente na jornada se a reentrada for permitida. Consulte [esta página](../building-journeys/journey-gs.md#change-properties)
+A pessoa pode então entrar novamente na jornada se a reentrada for permitida. Consulte [esta página](../building-journeys/journey-properties.md#entrance)
 
 Para encerrar uma jornada em tempo real, recomendamos que você a feche. A chegada de novos clientes à jornada será então bloqueada. Os clientes que já entraram na jornada podem experimentá-la até o final. Consulte [nesta seção](../building-journeys/journey.md#close-journey)
 
@@ -58,9 +58,9 @@ Uma jornada pode ser fechada pelos seguintes motivos:
 
 Fechar uma jornada manualmente garante que os clientes que já entraram na jornada possam concluir seu caminho, mas os novos usuários não podem entrar na jornada. Quando uma jornada for fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Fechado]**. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente.
 
-Após os 91 dias [tempo limite padrão](journey-gs.md#global_timeout), uma jornada Read audience muda para a **Concluído** status. Esse comportamento é definido somente para 91 dias (ou seja, [Valor padrão de tempo limite de jornada](journey-gs.md#global_timeout)), pois todas as informações sobre os perfis que entraram na jornada são removidas 91 dias após terem entrado. As pessoas que ainda estão na jornada são afetadas automaticamente. Eles saem da jornada após o tempo limite de 91 dias.
+Após os 91 dias [tempo limite global](journey-properties.md#timeout), uma jornada Read audience muda para a **Concluído** status. Esse comportamento é definido somente para 91 dias (ou seja, [jornada valor de tempo limite global](journey-properties.md#global_timeout)), pois todas as informações sobre os perfis que entraram na jornada são removidas 91 dias após terem entrado. As pessoas que ainda estão na jornada são afetadas automaticamente. Eles saem da jornada após o tempo limite de 91 dias.
 
-Consulte esta [seção](../building-journeys/journey-gs.md#global_timeout).
+Consulte esta [seção](../building-journeys/journey-properties.md#global_timeout).
 
 Uma versão de jornada fechada não pode ser reiniciada ou excluída. Você pode criar uma nova versão ou duplicá-la. Somente as jornadas concluídas podem ser excluídas.
 

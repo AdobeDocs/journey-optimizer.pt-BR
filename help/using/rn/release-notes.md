@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7964aed332bf37170e94c8b1215208f1d09d43a2
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 60%
@@ -183,15 +183,15 @@ Leia mais na seção [fragmento de conteúdo](../content-management/fragments.md
 
 **Jornadas**
 
-* O tempo limite global do Jornada foi estendido para 91 dias. [Leia mais](../building-journeys/journey-gs.md#global_timeout)
+* O tempo limite global do Jornada foi estendido para 91 dias. [Leia mais](../building-journeys/journey-properties.md#global_timeout)
 
-  Qualquer nova jornada criada terá esse novo tempo limite refletido. Consulte esta página [seção de perguntas frequentes](../building-journeys/journey-gs.md#timeout-faq) para saber mais. Observe que essas alterações serão implementadas gradualmente durante o mês de junho.
+  Qualquer nova jornada criada terá esse novo tempo limite refletido. Consulte esta página [seção de perguntas frequentes](../building-journeys/journey-properties.md#timeout-faq) para saber mais. Observe que essas alterações serão implementadas gradualmente durante o mês de junho.
 
 
 * O Adobe Journey Optimizer agora é compatível com solicitações de exclusão/acesso de privacidade, bem como com solicitações de gerenciamento do ciclo de vida dos dados. [Leia mais](../privacy/requests.md)
 * Agora é possível redimensionar as colunas no inventário de jornadas.
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
-* **Políticas de mesclagem** agora é GA: as políticas de mesclagem usadas por uma jornada agora estão visíveis e são consistentes em toda a jornada. [Leia mais](../building-journeys/journey-gs.md#merge-policies)
+* **Políticas de mesclagem** agora é GA: as políticas de mesclagem usadas por uma jornada agora estão visíveis e são consistentes em toda a jornada. [Leia mais](../building-journeys/journey-properties.md#merge-policies)
 
 
 
