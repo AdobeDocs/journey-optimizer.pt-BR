@@ -7,10 +7,11 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 topic: Content Management
-source-git-commit: 68c09769a32aeb1132f09e0f9082c7ccb6d17a8b
+exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
+source-git-commit: fdfdafbecf938c300a866bdf95a8ac6492fbdcb8
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 27%
+ht-degree: 92%
 
 ---
 
@@ -31,13 +32,13 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Fluxo de trabalho de Warmup de IP</strong><br/></th>
+<th><strong>Fluxo de trabalho de aquecimento de IP</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Se você estiver enviando emails em um novo endereço IP, agora é possível executar facilmente workflows de aquecimento de IP diretamente da interface do usuário. O Adobe Journey Optimizer oferece uma maneira padronizada e eficiente de aquecer seus endereços IP que segue as práticas recomendadas para uma entrega ideal.</p>
+<p>Se você estiver enviando emails em um novo endereço IP, agora é possível executar facilmente fluxos de trabalho de aquecimento de IP diretamente da interface do usuário. O Adobe Journey Optimizer oferece uma maneira padronizada e eficiente de aquecer seus endereços IP que segue as práticas recomendadas para uma capacidade de entrega otimizada.</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -71,7 +72,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>O Assistente de IA é um recurso da interface do usuário que você pode usar para navegar e entender conceitos de Adobe e obter insights operacionais para seu ambiente específico. Ele está disponível em vários produtos na Adobe Experience Cloud, incluindo o Adobe Journey Optimizer.</p>
+<p>O Assistente de IA é um recurso da interface do usuário que você pode usar para navegar e entender conceitos da Adobe e obter insights operacionais para seu ambiente específico. Ele está disponível em vários produtos na Adobe Experience Cloud, incluindo o Adobe Journey Optimizer.</p>
 <p>Para obter mais informações, consulte a <a href="../start/ai-assistant.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -151,7 +152,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Gestão de decisões**
 
-* **Suporte a várias regras na Gestão de decisões** - Agora você pode adicionar até 10 regras de limitação para uma determinada oferta na Gestão de decisões. Isso permite aumentar o nível de controle sobre como as ofertas são enviadas. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
+* **Compatibilidade com várias regras na gestão de decisões** – Agora você pode adicionar até 10 regras de limitação para uma determinada oferta na gestão de decisões. Isso permite aumentar o nível de controle sobre como as ofertas são enviadas. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -165,11 +166,11 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Jornadas**
 
-* O tempo limite global do jornada foi aumentado de 30 para 91 dias.
+* O tempo limite global da jornada foi aumentado de 30 para 91 dias.
 * O Adobe Journey Optimizer agora é compatível com solicitações de exclusão/acesso de privacidade, bem como com solicitações de gerenciamento do ciclo de vida dos dados.
 * Agora é possível redimensionar as colunas no inventário de jornadas.
-* **Editor de expressão avançado na configuração do Evento** Agora é GA - Agora você pode aproveitar o editor de expressão avançado ao configurar um evento, permitindo definir expressões mais complexas ou usar funções na condição de id de evento. Esse recurso foi lançado com disponibilidade limitada para clientes selecionados. <!--[Read more](../event/about-creating.md)-->
-* **Políticas de mesclagem** Agora estão disponíveis no mercado - As políticas de mesclagem usadas por uma Jornada agora estão visíveis e consistentes em toda a jornada. Esse recurso foi lançado com disponibilidade limitada para clientes selecionados. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+* **Editor de expressão avançado na configuração de evento** agora é GA: agora é possível utilizar o editor de expressão avançado ao configurar um evento, o que permite definir expressões mais complexas ou usar funções na condição de ID de evento. Esse recurso foi lançado com disponibilidade limitada para clientes selecionados. <!--[Read more](../event/about-creating.md)-->
+* **Políticas de mesclagem** agora é GA: as políticas de mesclagem usadas por uma jornada agora estão visíveis e são consistentes em toda a jornada. Esse recurso foi lançado com disponibilidade limitada para clientes selecionados. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
@@ -192,6 +193,4 @@ Esta versão vem com as melhorias listadas abaixo.
 * **Fragmento da expressão** - Os fragmentos de expressão agora estão disponíveis para o **Canal no aplicativo**. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
-* Agora você pode usar o plug-in Edge Delivery para obter as informações necessárias para entender e solucionar problemas de suas implementações de entrada.
-
-
+* Agora você pode usar o plug-in Edge Delivery para obter as informações necessárias para entender e solucionar problemas em suas implementações de entrada.
