@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: db841b1378a6b897c68809fe19f1f0b90d7fd9c5
 workflow-type: tm+mt
-source-wordcount: '2623'
+source-wordcount: '2642'
 ht-degree: 13%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 13%
 >id="ajo_homepage_card2"
 >title="Criar jornadas"
 >abstract="Use o **Adobe Journey Optimizer** para criar casos de uso de orquestração em tempo real, aproveitando dados contextuais armazenados em eventos ou fontes de dados."
-
 
 
 ## Pré-requisitos{#start-prerequisites}
@@ -326,6 +325,7 @@ O Jornada usa políticas de mesclagem ao recuperar dados de perfil do Adobe Expe
 
 * Em Ler jornadas de qualificação de público ou público-alvo: a política de mesclagem do público-alvo é usada
 * Em jornadas acionadas por eventos: a política de mesclagem padrão é usada
+* Nas jornadas de eventos comerciais: a política de mesclagem do público-alvo na seguinte atividade Ler público é usada
 
 O Jornada seguirá a política de mesclagem usada em toda a jornada. Portanto, se vários públicos-alvo forem usados em uma jornada (por exemplo: em funções &quot;inAudience&quot;), criando inconsistências com a política de mesclagem usada pela jornada, um erro será gerado e a publicação será bloqueada. No entanto, se um público-alvo inconsistente for usado na personalização da mensagem, um alerta não será gerado, apesar da inconsistência. Por isso, é altamente recomendável verificar a política de mesclagem associada ao seu público-alvo quando ele for usado na personalização da mensagem.
 
