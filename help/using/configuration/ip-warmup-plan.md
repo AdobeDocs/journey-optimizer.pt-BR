@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1668'
 ht-degree: 8%
 
 ---
@@ -112,7 +112,7 @@ Veja abaixo um exemplo de um arquivo contendo um plano de aquecimento de IP.
 
 * Este plano é executado até seis **fases**, cada um deles contendo pelo menos uma execução.
 
-* Você pode ter quantas colunas quiser para os domínios que deseja entregar. Neste exemplo, o plano é dividido em seis colunas:
+* Você pode ter até 6 colunas (5 colunas para grupos de domínio e uma para a variável **Outros** coluna). Neste exemplo, o plano é dividido em seis colunas:
 
    * Quatro dos quais correspondem a **grupos de domínio prontos para uso** para usar no seu plano (Gmail, Microsoft, Yahoo e Orange).
    * Um corresponde a um grupo de domínio personalizado (que você precisa adicionar usando o [Grupo de domínio personalizado](#custom-domain-group-tab) guia ).
@@ -188,7 +188,7 @@ Você também pode adicionar mais colunas ao seu plano, incluindo grupos de dom�
 
 Use o **[!UICONTROL Grupo de domínio personalizado]** para definir um novo grupo de domínio. Para cada domínio, você pode adicionar todos os subdomínios que ele abrange.<!--TBC-->
 
-Certifique-se de que cada domínio seja exclusivo do seu grupo de domínio e não se sobreponha a outros grupos de domínio. Como os grupos de domínio globais são definidos automaticamente, os usuários devem considerar isso ao criar grupos de domínio personalizados.
+Para grupos de domínio usados nesse plano, verifique se cada domínio é exclusivo para seu grupo de domínio e não se sobrepõe a outros grupos de domínio. Como os grupos de domínio globais são definidos automaticamente, os usuários devem considerar isso ao criar grupos de domínio personalizados.
 
 Por exemplo, se você adicionar o domínio personalizado Luma, desejará que os seguintes subdomínios sejam incluídos: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, etc.
 
@@ -201,7 +201,7 @@ Digamos que você queira ter dois grupos de domínio personalizados:
 * Um somente para domínios do Hotmail.
 * Um para todos os outros domínios do grupo de domínio Microsoft (excluindo todos os domínios do Hotmail).
 
-Observe que todos os outros domínios serão coletados na variável **[!UICONTROL Outros]** coluna.
+Os domínios fora do Hotmail e do grupo de domínio Microsoft serão coletados na **[!UICONTROL Outros]** coluna.
 
 1. No **[!UICONTROL Grupo de domínio personalizado]** , crie a **Hotmail** grupo de domínio.
 
@@ -220,10 +220,6 @@ Observe que todos os outros domínios serão coletados na variável **[!UICONTRO
 1. Crie três colunas: uma para **Hotmail**, um para **Microsoft_X** e um para **Outros**.
 
 1. Preencha as colunas de acordo com suas necessidades.
-
->[!NOTE]
->
->Depois que o plano de aquecimento de IP for carregado em [!DNL Journey Optimizer], não será necessário excluir os grupos de domínio do Microsoft.
 
 <!--Only the domain groups listed in the **[!UICONTROL IP Warmup Plan]** tab will be taken into account.-->
 

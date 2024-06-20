@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 83%
+source-wordcount: '272'
+ht-degree: 94%
 
 ---
 
@@ -32,10 +32,6 @@ O que há neste guia de documentação:
 
 >[!ENDSHADEBOX]
 
->[!AVAILABILITY]
->
->O recurso de aquecimento de IP está disponível no momento como um beta somente para usuários(as) selecionados. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
-
 Com o [!DNL Journey Optimizer], é possível executar facilmente fluxos de trabalho de aquecimento de IP diretamente da interface, de forma padronizada e eficiente, seguindo as práticas recomendadas para uma capacidade de entrega ideal.
 
 ➡️ [Saiba como criar e executar um plano de aquecimento de IP neste vídeo](#video)
@@ -44,7 +40,7 @@ Com o [!DNL Journey Optimizer], é possível executar facilmente fluxos de traba
 >
 >Esse recurso se aplica somente ao canal de email.
 
-Quando os emails são enviados usando uma nova plataforma, os provedores de serviços de Internet (ISPs) suspeitam de endereços IP que não são reconhecidos. Se grandes volumes de emails forem enviados repentinamente, os ISPs frequentemente os marcam como spam.
+Quando os emails são enviados usando uma nova plataforma, os provedores de serviços de Internet (ISPs) suspeitam de endereços IP que não são reconhecidos. Se grandes volumes de emails forem enviados repentinamente, os ISPs freqüentemente os marcam como spam.
 
 Para evitar a marcação como spam, é possível aumentar progressivamente o volume enviado usando o recurso plano de aquecimento de IP. Essa nova opção no menu **[!UICONTROL Administração]** permite fazer isso de forma mais fácil e consolidada, em vez de criar jornadas diárias complexas.
 
