@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1722'
 ht-degree: 8%
 
 ---
@@ -56,7 +56,7 @@ A variável **Copiar detalhes técnicos** O permite copiar informações técnic
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Permitir reentrada"
->abstract="Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção **Permitir reentrada** opção para jornadas &quot;one shot&quot;, por exemplo, se você quiser oferecer um presente único quando uma pessoa entrar em uma loja."
+>abstract="Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção **Permitir reentrada** opção, por exemplo, se você quiser oferecer um presente único quando uma pessoa entrar em uma loja."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gerenciamento de entrada de perfis"
 
 Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção **Permitir reentrada** opção para jornadas &quot;one shot&quot;, por exemplo, se você quiser oferecer um presente único quando uma pessoa entrar em uma loja.
@@ -107,7 +107,7 @@ Você também pode adicionar um **Data final**. Isso permite que os perfis saiam
 ### Tempo limite ou erro em atividades de jornada {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timout"
+>id="ajo_journey_properties_timeout"
 >title="Tempo esgotado"
 >abstract="Defina por quanto tempo a jornada tentará executar uma ação ou verificar uma condição antes de considerá-la como tempo limite."
 
