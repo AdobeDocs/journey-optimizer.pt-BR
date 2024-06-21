@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="Disponibilidade limitada"
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -42,7 +42,7 @@ Defina dois tratamentos de delivery, cada um contendo uma política de decisão 
 
 1. Crie uma campanha e selecione o **[!UICONTROL Experiência baseada em código]** ação. [Saiba mais](../code-based/create-code-based.md)
 
-1. Na página de resumo da campanha, clique em **[!UICONTROL Criar experimento]** para configurar seu experimento de conteúdo. [Saiba mais](../campaigns/content-experiment.md)
+1. Na página de resumo da campanha, clique em **[!UICONTROL Criar experimento]** para configurar seu experimento de conteúdo. [Saiba mais](../content-management/content-experiment.md)
 
 1. Selecione o **[!UICONTROL Decisões]** clique em **[!UICONTROL Criar uma decisão]** e preencha os detalhes da decisão. [Saiba mais](create-decision.md)
 

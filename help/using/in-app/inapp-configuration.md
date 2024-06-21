@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 07c453366280b21f5546322430a90752fd996099
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 9%
@@ -131,7 +131,7 @@ Para habilitar experimentos de conteúdo para o canal no aplicativo, verifique s
 
 Em outras palavras, ao configurar os relatórios de experimento, se você adicionar um conjunto de dados que não esteja presente no seu fluxo de dados da Web, os dados da Web não serão exibidos nos relatórios de experimento de conteúdo.
 
-Saiba como adicionar conjuntos de dados para relatórios de experimento de conteúdo no [nesta seção](../campaigns/reporting-configuration.md#add-datasets).
+Saiba como adicionar conjuntos de dados para relatórios de experimento de conteúdo no [nesta seção](../content-management/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >

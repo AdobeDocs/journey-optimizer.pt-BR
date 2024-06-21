@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '4251'
 ht-degree: 2%
@@ -134,7 +135,7 @@ A variável **[!UICONTROL Experimentação]** Os indicadores principais de desem
 
 * **[!UICONTROL Elevação]**: Medida da melhora da porcentagem na taxa de conversão de um determinado tratamento em relação à linha de base.
 
-* **[!UICONTROL Confiança]**: Evidência de que um determinado tratamento é igual ao tratamento inicial. [Saiba mais](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confiança]**: Evidência de que um determinado tratamento é igual ao tratamento inicial. [Saiba mais](../content-management/experiment-calculations.md#understand-confidence)
 
 +++
 
@@ -143,7 +144,7 @@ A variável **[!UICONTROL Experimentação]** Os indicadores principais de desem
 ![](assets/cja-experimentation-variants.png)
 
 A variável **[!UICONTROL Variante por cliques de entrada]** o widget detalha o desempenho de cada variante.
-Para aprofundar esses resultados e como interpretá-los, consulte [esta página](../campaigns/get-started-experiment.md#interpret-results).
+Para aprofundar esses resultados e como interpretá-los, consulte [esta página](../content-management/get-started-experiment.md#interpret-results).
 
 +++ Saiba mais sobre as métricas Variante por cliques de entrada
 
@@ -155,7 +156,7 @@ Para aprofundar esses resultados e como interpretá-los, consulte [esta página]
 
 * **[!UICONTROL Elevação]**: Medida da melhora da porcentagem na taxa de conversão de um determinado tratamento em relação à linha de base.
 
-* **[!UICONTROL Confiança]**: Evidência de que um determinado tratamento é igual ao tratamento inicial. [Saiba mais](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confiança]**: Evidência de que um determinado tratamento é igual ao tratamento inicial. [Saiba mais](../content-management/experiment-calculations.md#understand-confidence)
 
 <!--
 * **[!UICONTROL Confidence Upper bound]**:
@@ -167,7 +168,7 @@ Para aprofundar esses resultados e como interpretá-los, consulte [esta página]
 
 ![](assets/cja-experimentation-conversion.png)
 
-A variável **[!UICONTROL Intervalo de confiança]** O gráfico mede a incerteza em torno da melhoria. Ela detalha a diferença percentual de desempenho entre a linha de base e o tratamento com melhor desempenho. [Saiba mais](../campaigns/experiment-calculations.md#confidence-intervals).
+A variável **[!UICONTROL Intervalo de confiança]** O gráfico mede a incerteza em torno da melhoria. Ela detalha a diferença percentual de desempenho entre a linha de base e o tratamento com melhor desempenho. [Saiba mais](../content-management/experiment-calculations.md#confidence-intervals).
 
 ## Email {#email-global}
 
@@ -784,4 +785,3 @@ A variável **[!UICONTROL URLs de link rastreado]** A tabela fornece uma visão 
 * **[!UICONTROL Exibições únicas]**: Número de vezes que a mensagem foi aberta, várias interações de um perfil não são consideradas.
 
 +++
-

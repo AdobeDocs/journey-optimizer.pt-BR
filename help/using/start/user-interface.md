@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 100%
@@ -126,7 +126,7 @@ Controle o gerenciamento de privacidade e as solicitações nesta seção.
 
 * **[!UICONTROL Configurações]**: use esse menu para configurar [Eventos](../event/about-events.md), [Fontes de dados](../datasource/about-data-sources.md) e [Ações](../action/action.md) para uso em suas jornadas.
 
-  Também é possível acessar a seção **Relatórios** e configurar relatórios de experimentação da campanha. [Saiba mais](../campaigns/reporting-configuration.md)
+  Também é possível acessar a seção **Relatórios** e configurar relatórios de experimentação da campanha. [Saiba mais](../content-management/reporting-configuration.md)
 
 * **[!UICONTROL Regras de negócios]**: use esta seção para criar regras de negócios entre canais, a fim de controlar a frequência com que usuários recebem uma mensagem ou entram em uma jornada. [Saiba mais](../configuration/frequency-rules.md)
 

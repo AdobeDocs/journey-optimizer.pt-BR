@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1848'
 ht-degree: 98%
 
 ---
@@ -174,13 +174,6 @@ ht-degree: 98%
    + [Criar uma campanha](using/campaigns/create-campaign.md)
    + [Revisar e ativar uma campanha](using/campaigns/review-activate-campaign.md)
    + [Gerenciar campanhas](using/campaigns/modify-stop-campaign.md)
-   + Experimento de conteúdo {#content-experiment}
-      + [Introdução ao experimento de conteúdo](using/campaigns/get-started-experiment.md)
-      + [Criar um experimento de conteúdo](using/campaigns/content-experiment.md)
-      + [Configurar relatórios de experimentação](using/campaigns/reporting-configuration.md)
-      + Notas técnicas {#technotes}
-         + [Compreenda cálculos estatísticos](using/campaigns/experiment-calculations.md)
-         + [Compreenda cálculos estatísticos no Relatório de experimentação](using/campaigns/experiment-report-calculations.md)
    + [Acione campanhas usando APIs](using/campaigns/api-triggered-campaigns.md)
 + Canal de email {#email}
    + [Introdução a emails](using/email/get-started-email.md)
@@ -283,6 +276,13 @@ ht-degree: 98%
       + [Introdução ao conteúdo multilíngue](using/content-management/multilingual-gs.md)
       + [Criação do conteúdo multilíngue com tradução manual](using/content-management/multilingual-manual.md)
       + [Criação do conteúdo multilíngue com tradução automática](using/content-management/multilingual-automated.md)
+   + Trabalhar com o experimento de conteúdo {#content-experiment}
+      + [Introdução ao experimento de conteúdo](using/content-management/get-started-experiment.md)
+      + [Criar um experimento de conteúdo](using/content-management/content-experiment.md)
+      + [Configurar relatórios de experimentação](using/content-management/reporting-configuration.md)
+      + Notas técnicas {#technotes}
+         + [Compreenda cálculos estatísticos](using/content-management/experiment-calculations.md)
+         + [Compreenda cálculos estatísticos no Relatório de experimentação](using/content-management/experiment-report-calculations.md)
    + Ativos/imagens {#assets-images}
       + [Trabalho com o Experience Manager Assets](using/content-management/assets.md)
       + [Trabalho com o Adobe Stock](using/content-management/stock.md)

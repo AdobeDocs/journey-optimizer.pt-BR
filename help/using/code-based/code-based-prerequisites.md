@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 07c453366280b21f5546322430a90752fd996099
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 2%
@@ -67,7 +67,7 @@ Para habilitar experimentos de conteúdo para o canal baseado em código, você 
 
 Em outras palavras, ao configurar os relatórios de experimento, se você adicionar um conjunto de dados que não está presente no fluxo de dados do aplicativo, os dados do aplicativo não serão exibidos nos relatórios de experimento de conteúdo.
 
-Saiba como adicionar conjuntos de dados para relatórios de experimento de conteúdo no [nesta seção](../campaigns/reporting-configuration.md#add-datasets).
+Saiba como adicionar conjuntos de dados para relatórios de experimento de conteúdo no [nesta seção](../content-management/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >

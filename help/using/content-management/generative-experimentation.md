@@ -11,7 +11,7 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 22%
@@ -52,11 +52,11 @@ Depois de criar e personalizar suas mensagens, eleve o conteúdo com o Assistent
 
    ![](assets/experiment-genai-3.png)
 
-1. Na janela Experimento de conteúdo, acesse o **[!UICONTROL Configurações de experimento]** botão para configurar seu experimento. [Saiba mais sobre o Experimento de conteúdo](../campaigns/content-experiment.md)
+1. Na janela Experimento de conteúdo, acesse o **[!UICONTROL Configurações de experimento]** botão para configurar seu experimento. [Saiba mais sobre o Experimento de conteúdo](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 
-1. Quando o experimento de conteúdo estiver pronto, na página de resumo da campanha, você pode clicar em **[!UICONTROL Revisar para ativar]** para exibir um resumo da campanha. Os alertas são exibidos se qualquer parâmetro estiver incorreto ou ausente. [Saiba mais](../campaigns/content-experiment.md#treatment-experiment)
+1. Quando o experimento de conteúdo estiver pronto, na página de resumo da campanha, você pode clicar em **[!UICONTROL Revisar para ativar]** para exibir um resumo da campanha. Os alertas são exibidos se qualquer parâmetro estiver incorreto ou ausente. [Saiba mais](../content-management/content-experiment.md#treatment-experiment)
 
 1. Antes de iniciar sua campanha, verifique se todas as configurações estão corretas e clique em **[!UICONTROL Ativar]**.
 
