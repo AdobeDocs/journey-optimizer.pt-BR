@@ -8,29 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
-hide: true
-hidefromtoc: true
 exl-id: 662681ad-5044-4025-aff1-204626fee052
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 16%
+source-wordcount: '191'
+ht-degree: 5%
 
 ---
 
 # Relatório de campanha multilíngue {#multilingual-campaign-report}
-
->[!BEGINSHADEBOX]
-
-**Índice**
-
-* [Introdução ao conteúdo multilíngue](multilingual-gs.md)
-* [Criação do conteúdo multilíngue com tradução manual](multilingual-manual.md)
-* [Criação do conteúdo multilíngue com tradução automática](multilingual-automated.md)
-* Relatório de campanha multilíngue
-
->[!ENDSHADEBOX]
 
 Relatórios globais, acessíveis pelo **O tempo todo** , exiba eventos que ocorreram há pelo menos duas horas e cubra eventos durante um período selecionado. O relatório global da campanha pode ser acessado diretamente do seu Campaign com o **[!UICONTROL Exibir relatório]** botão.
 
