@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
-source-wordcount: '5389'
+source-wordcount: '5371'
 ht-degree: 99%
 
 ---
@@ -418,7 +418,6 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Seção Ativar a lista de permissões atualizada. [Saiba mais](../configuration/allow-list.md#enable-allow-list)
 * Seção Monitorar predefinições de mensagem atualizada com os possíveis motivos de falha na criação de predefinições e detalhes sobre esses erros. [Leia mais](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * Seção Repetir período de tempo atualizada e renomeada para refletir o fato de que agora é possível ajustar as configurações de nova tentativa de email nas predefinições de mensagem. [Leia mais](../configuration/retries.md#retry-duration)
-* Nova seção adicionada para descrever como inserir no conteúdo do email um link de opção de não participação com um clique. [Leia mais](../privacy/opt-out.md#one-click-opt-out-link)
 * Seção Delegar um subdomínio atualizada com informações mais detalhadas sobre o processo de validação executado pela Adobe. [Leia mais](../configuration/delegate-subdomain.md#subdomain-validation)
 * Seção adicionada para descrever como adicionar manualmente endereços de email e domínios à lista de supressão. [Leia mais](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Seções [Acessar a lista de supressão](../configuration/manage-suppression-list.md#access-suppression-list) e [Tentativas](../configuration/retries.md) atualizadas para refletir a nova interface de usuário.

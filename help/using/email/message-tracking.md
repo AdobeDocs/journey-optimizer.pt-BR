@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Acompanhe suas mensagens
+title: Rastrear suas mensagens
 description: Saiba como adicionar links e rastrear mensagens enviadas
 feature: Email Design, Monitoring
 topic: Content Management
@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 3%
+ht-degree: 35%
 
 ---
 
@@ -53,7 +53,7 @@ Ao criar uma mensagem, você pode adicionar links ao seu conteúdo.
 >
 >Quando [rastreamento ativado](#enable-tracking), todos os links incluídos no conteúdo da mensagem serão rastreados.
 
-Para inserir links no seu conteúdo de email, siga as etapas abaixo:
+Para inserir links no conteúdo do email, siga as etapas abaixo:
 
 1. Selecione um elemento e clique em **[!UICONTROL Inserir link]** na barra de ferramentas contextual.
 
@@ -95,15 +95,15 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
 É possível fazer ajustes nos links usando o **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** painéis à direita. É possível sublinhar um link, editar sua cor e selecionar seu público alvo.
 
-1. Em um **[!UICONTROL Texto]** onde um link é inserido, selecione o link.
+1. Em um componente **[!UICONTROL Texto]**, no qual um link é inserido, selecione seu link.
 
 1. No **[!UICONTROL Configurações]** escolha como o público-alvo será redirecionado com a **[!UICONTROL Target]** lista suspensa:
 
    * **[!UICONTROL Nenhum]**: abre o link no mesmo quadro em que foi clicado (padrão).
-   * **[!UICONTROL Em branco]**: abre o link em uma nova janela ou guia.
+   * **[!UICONTROL Branco]**: abre o link em uma nova janela ou guia.
    * **[!UICONTROL Auto]**: abre o link no mesmo quadro em que foi clicado.
-   * **[!UICONTROL Pai]**: abre o link no quadro principal.
-   * **[!UICONTROL Topo]**: abre o link no corpo inteiro da janela.
+   * **[!UICONTROL Principal]**: abre o link no quadro principal.
+   * **[!UICONTROL Superior]**: abre o link no corpo completo da janela.
 
    ![](assets/link_2.png)
 
@@ -111,7 +111,7 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
    ![](assets/link_1.png)
 
-1. Para alterar a cor do seu link, clique em **[!UICONTROL Cor do link]** do **[!UICONTROL Estilos]** guia.
+1. Para alterar a cor do link, clique em **[!UICONTROL Cor do link]** na guia **[!UICONTROL Estilos]**.
 
    ![](assets/link_3.png)
 
@@ -119,7 +119,7 @@ Para inserir links no seu conteúdo de email, siga as etapas abaixo:
 
 ## Link para uma mirror page {#mirror-page}
 
-A mirror page é uma página de HTML acessível online através de um navegador da Web. Seu conteúdo é idêntico ao conteúdo do seu email.
+A mirror page é uma página HTML acessível online através de um navegador da Web. Seu conteúdo é idêntico ao conteúdo do seu email.
 
 Para adicionar um link a uma mirror page no seu email, [inserir um link](#insert-links) e selecione **[!UICONTROL Mirror page]** como o tipo de link.
 
@@ -129,36 +129,36 @@ A mirror page é criada automaticamente.
 
 >[!IMPORTANT]
 >
->Os links de mirror pages são gerados automaticamente e não podem ser editados. Eles contêm todos os dados personalizados criptografados necessários para renderizar o email original. Como resultado, o uso de atributos personalizados com valores grandes pode gerar URLs de mirror pages longos, o que pode impedir que o link funcione em navegadores da Web com um comprimento máximo de URLs.
+>Os links de mirror pages são gerados automaticamente e não podem ser editados. Eles contêm todos os dados personalizados criptografados necessários para renderizar o email original. Como resultado, o uso de atributos personalizados com valores grandes pode gerar URLs de mirror pages longos, o que pode impedir que o link funcione em navegadores da Web com tamanho máximo de URLs.
 
-Depois que o email é enviado, quando os recipients clicam no link da mirror page, o conteúdo do email é exibido em seu navegador da Web padrão.
+Depois que o email for enviado, quando os destinatários clicarem no link da mirror page, o conteúdo do email será exibido no navegador web padrão.
 
 >[!NOTE]
 >
->No [prova](../content-management/proofs.md) enviado aos perfis de teste, o link para a mirror page não está ativo. Ela só é ativada nas mensagens finais.
+>No [prova](../content-management/proofs.md) enviado aos perfis de teste, o link para a mirror page não está ativo. Ele só é ativado nas mensagens finais.
 
 O período de retenção de uma mirror page é de 60 dias. Após esse atraso, a mirror page não estará mais disponível.
 
 ## Gerenciar rastreamento {#manage-tracking}
 
-A variável [Email Designer](content-from-scratch.md) permite gerenciar os URLs rastreados, como editar o tipo de rastreamento de cada link.
+O [Designer de email](content-from-scratch.md) permite gerenciar os URLs rastreados, como editar o tipo de rastreamento de cada link.
 
 1. Clique em **[!UICONTROL Links]** ícone no painel esquerdo para exibir a lista de todos os URLs do seu conteúdo que serão rastreados.
 
-   Essa lista permite ter uma visualização centralizada e localizar cada URL no conteúdo de email.
+   Essa lista oferece uma visualização centralizada, permitindo localizar cada URL no conteúdo do email.
 
 1. Para editar um link, clique no ícone de lápis correspondente.
 
-1. Você pode modificar a variável **[!UICONTROL Tipo de rastreamento]** se necessário:
+1. Você pode modificar o **[!UICONTROL Tipo de rastreamento]**, se necessário:
 
    ![](assets/message-tracking-edit-a-link.png)
 
-   Para cada URL rastreado, é possível definir o modo de rastreamento para um destes valores:
+   Para cada URL rastreado é possível definir o modo de rastreamento utilizando um destes valores:
 
-   * **[!UICONTROL Rastreado]**: ativa o rastreamento nesse URL.
-   * **[!UICONTROL Recusar]**: considera esse URL como recusa ou cancelamento de subscrição.
-   * **[!UICONTROL Mirror page]**: considera esse URL como sendo de mirror page.
-   * **[!UICONTROL Nunca]**: nunca ativa o rastreamento desse URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Rastrear]**: ativa o rastreamento nesse URL.
+   * **[!UICONTROL Opt out]**: considera-o como um URL de recusa ou cancelamento de assinatura.
+   * **[!UICONTROL Mirror page]**: considera-o como um URL de mirror page.
+   * **[!UICONTROL Nunca]**: nunca ativa o rastreamento desse URL.
 
 Relatórios sobre aberturas e cliques estão disponíveis no [Relatório ao vivo](../reports/live-report.md) e no [Relatório global](../reports/global-report.md).
 

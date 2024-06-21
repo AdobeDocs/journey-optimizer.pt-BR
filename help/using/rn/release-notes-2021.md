@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2035'
 ht-degree: 100%
 
 ---
@@ -276,7 +276,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 **Design de conteúdo**
 
 * **Plano de fundo** - Imagens de planos de fundo agora são compatíveis com a pré-visualização ao vivo. [Saiba mais](../content-management/preview-test.md)
-* **Link para opção de não participação com um clique** - É possível inserir um novo tipo de link no conteúdo de email: o link para **opção de não participação** permite que os usuários cancelem o recebimento de suas comunicações com apenas um clique, sem serem redirecionados para uma página de destino para confirmar a recusa. [Saiba mais](../privacy/opt-out.md#one-click-opt-out-link)
+  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
 
 **Personalização**
 

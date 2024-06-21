@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
-source-wordcount: '2415'
-ht-degree: 11%
+source-wordcount: '2532'
+ht-degree: 10%
 
 ---
 
@@ -26,17 +26,17 @@ Para começar a criar um email, você precisa configurar superfícies de canal d
 
 Defina as configurações de email na seção dedicada da configuração da superfície de canal, conforme detalhado abaixo.
 
-![](assets/preset-email-settings.png)
+![](assets/surface-email-settings.png){width="50%" align="left"}
 
 A configuração da superfície de email é selecionada para envio de comunicações seguindo a lógica abaixo:
 
-* Para jornadas em lote, isso não se aplica à execução em lote que já foi iniciada antes da configuração da superfície de email ser feita. As alterações serão selecionadas na próxima recorrência ou nova execução.
+* Para jornadas em lote, isso não se aplica à execução em lote que já foi iniciada antes da configuração da superfície de email ser feita. As alterações são selecionadas na próxima recorrência ou nova execução.
 
 * Para mensagens transacionais, a alteração é recebida imediatamente para a próxima comunicação (atraso de até cinco minutos).
 
 >[!NOTE]
 >
->As configurações atualizadas da superfície de email serão selecionadas automaticamente nas jornadas ou campanhas nas quais a superfície é usada.
+>As configurações atualizadas da superfície de email são selecionadas automaticamente nas jornadas ou campanhas nas quais a superfície é usada.
 
 ## Tipo de email {#email-type}
 
@@ -67,7 +67,7 @@ Para preservar a reputação do seu domínio, acelere o processo de aquecimento 
 
 Selecione o pool de IP para associar à superfície. [Saiba mais](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
 Você não pode continuar com a criação da superfície enquanto o pool de IP selecionado estiver em [edição](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processando]** e nunca foi associado ao subdomínio selecionado. Caso contrário, a versão mais antiga da associação de pool/subdomínio de IP ainda será usada. Se esse for o caso, salve a superfície como rascunho e tente novamente depois que o pool de IP tiver o **[!UICONTROL Sucesso]** status.
 
@@ -81,41 +81,48 @@ Após selecionar um pool de IP, as informações de PTR ficam visíveis ao passa
 >
 >Se um registro PTR não estiver configurado, entre em contato com o representante da Adobe.
 
-## Cancelar inscrição em lista {#list-unsubscribe}
+## Cabeçalho de cancelamento de inscrição de lista{#list-unsubscribe}
+
+<!--Do not modify - Legal Review Done -->
+
 
 Em [selecionar um subdomínio](#subdomains-and-ip-pools) na lista, o **[!UICONTROL Ativar lista-Cancelar inscrição]** é exibida.
 
-Essa opção está ativada por padrão. Se você deixá-lo habilitado, um link para cancelar a inscrição será incluído automaticamente no cabeçalho do email, como:
+Essa opção é habilitada por padrão para incluir um URL de cancelamento de inscrição de um clique no cabeçalho do email, como:
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Se você desativar essa opção, nenhum link para cancelar inscrição será exibido no cabeçalho do email.
+Se você desativar essa opção, nenhum URL de cancelamento de inscrição com um clique será exibido no cabeçalho do email.
 
-Você pode selecionar o nível de consentimento nas **Nível de consentimento** lista suspensa. Pode ser específico do canal ou da identidade do perfil. Com base nessa configuração, quando um usuário cancela a assinatura usando o link de cabeçalho de cancelamento de inscrição da lista de um email, o consentimento é atualizado no Adobe Journey Optimizer, no nível do canal ou no nível de ID.
+Você pode selecionar o nível de consentimento nas **[!UICONTROL Nível de consentimento]** lista suspensa. Pode ser específico do canal ou da identidade do perfil. Com base nessa configuração, quando um usuário cancela a assinatura usando o URL de cancelamento de inscrição da lista no cabeçalho de um email, o consentimento é atualizado no Adobe Journey Optimizer, no nível do canal ou no nível de ID.
 
-O link de cancelamento de inscrição consiste em dois elementos:
+O Cabeçalho de cancelamento de inscrição da lista oferece dois recursos (Mailto e URL de cancelamento de inscrição com um clique, conforme explicado abaixo) que são ativados por padrão, a menos que você desmarque um ou ambos os recursos:
 
-* Um **cancelar inscrição de endereço de email**, para a qual todas as solicitações de cancelamento de inscrição serão enviadas.
+* A **Mailto (cancelar inscrição)** endereço, que é o endereço de destino para o qual as solicitações de cancelamento de inscrição são roteadas para processamento automático.
 
-  Entrada [!DNL Journey Optimizer], o endereço de email de cancelamento de inscrição é o padrão **[!UICONTROL Mailto (cancelar inscrição)]** endereço exibido na superfície de canal, com base na variável [subdomínio selecionado](#subdomains-and-ip-pools).
+  No Journey Optimizer, o endereço de email de cancelamento de inscrição é o padrão **Mailto (cancelar inscrição)** exibido na superfície de canal, com base no seu [subdomínio selecionado](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
 
-* A variável **cancelar inscrição do URL**, que é o URL da página de aterrissagem para a qual o usuário será redirecionado após cancelar a inscrição.
 
-  Se você adicionar um [link para opção de não participação com um clique](../privacy/opt-out.md#one-click-opt-out) para uma mensagem criada usando essa superfície, o URL de cancelamento de inscrição será o URL definido para o link de recusa de um clique.
+* A variável **URL de cancelamento de inscrição com um clique**, que, por padrão, é o cabeçalho de cancelamento de inscrição de lista gerado por URL com um clique, com base no subdomínio definido e configurado nas Configurações de superfície de canal.
 
-  ![](assets/preset-list-unsubscribe-opt-out-url.png)
+<!--
+    >[!AVAILABILITY]
+    >
+    >One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
+    >
+-->
 
-  >[!NOTE]
-  >
-  >Se você não adicionar um link de recusa de um clique no conteúdo da mensagem, nenhuma página de aterrissagem será exibida para o usuário.
+A variável **[!UICONTROL Mailto (cancelar inscrição)]** e o **[!UICONTROL URL para cancelar inscrição com um clique]** são opcionais. Se você não quiser usar o URL de cancelamento de inscrição de um clique gerado padrão, é possível desmarcar o recurso. No cenário em que a variável **[!UICONTROL Configuração de recusa]** estiver ativada e a variável **[!UICONTROL URL para cancelar inscrição com um clique]** recurso estiver desmarcado, se você adicionar um [link para opção de não participação com um clique](../privacy/opt-out.md#one-click-opt-out) para criar uma mensagem usando essa superfície, o cabeçalho cancelar inscrição da lista selecionará o link de recusa de um clique inserido no corpo do email e o usará como o valor do URL de cancelamento de inscrição de um clique.
 
-Saiba mais sobre como adicionar um link de cancelamento de inscrição de cabeçalho às suas mensagens no [nesta seção](../privacy/opt-out.md#unsubscribe-header).
+![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+>[!NOTE]
+>
+>Se você não adicionar um link de recusa de um clique no conteúdo da mensagem e o URL padrão de cancelamento de inscrição com um clique estiver desmarcado nas Configurações da superfície de canal, nenhum URL será passado para o cabeçalho do email como parte do cabeçalho Cancelamento de inscrição da lista.
 
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
+Saiba mais sobre como gerenciar recursos de cancelamento de inscrição em suas mensagens no [nesta seção](../email/email-opt-out.md#unsubscribe-header).
 
 ## Parâmetros de cabeçalho {#email-header}
 

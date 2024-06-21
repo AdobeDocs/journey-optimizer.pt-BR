@@ -8,21 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 100%
+source-wordcount: '1062'
+ht-degree: 98%
 
 ---
 
 # Gerenciar recusa {#consent}
 
-Fornecer aos destinatários a capacidade de cancelar inscrição do recebimento de comunicações de uma marca é um requisito legal, bem como garantir que essa escolha seja respeitada. Saiba mais sobre a legislação aplicável na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=pt-BR#regulations){target="_blank"}.
+Fornecer aos destinatários a capacidade de cancelar inscrição do recebimento de comunicações de uma marca é um requisito legal, bem como garantir que essa escolha seja respeitada. O não cumprimento desses regulamentos traz riscos legais normativos para sua marca. Os regulamentos ajudam a evitar o envio de comunicações não solicitadas para seus destinatários, o que pode fazer com que eles marquem suas mensagens como spam e prejudiquem sua reputação.
 
-**Por que é importante?**
-
-* O não cumprimento desses regulamentos traz riscos legais normativos para sua marca.
-* Os regulamentos ajudam a evitar o envio de comunicações não solicitadas para seus destinatários, o que pode fazer com que eles marquem suas mensagens como spam e prejudiquem sua reputação.
+Saiba mais sobre a legislação aplicável na [documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=pt-BR#regulations){target="_blank"}.
 
 ## Gerenciar cancelamentos de inscrições em jornadas e campanhas {#opt-out-ajo}
 
