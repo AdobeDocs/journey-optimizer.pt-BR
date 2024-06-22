@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '1722'
-ht-degree: 8%
+source-wordcount: '1756'
+ht-degree: 7%
 
 ---
 
@@ -28,10 +28,12 @@ ht-degree: 8%
 >title="Critérios de saída da jornada"
 >abstract="Esta seção mostra as opções de critérios de saída. É possível criar uma ou várias regras de critérios de saída para a sua jornada."
 
-As propriedades da jornada são centralizadas no painel direito da jornada. Esta seção é exibida por padrão ao criar uma nova jornada. Para jornadas existentes, clique no ícone de lápis, ao lado do nome da jornada para acessar suas propriedades.
 
+## Acessar as propriedades de uma jornada {#access-properties}
 
-Use esta seção para definir o nome da jornada, adicionar uma descrição e:
+As propriedades de uma jornada são centralizadas no painel direito. Esta seção é exibida por padrão ao criar uma nova jornada. Para jornadas existentes, clique no ícone de lápis ao lado do nome da jornada para abri-lo.
+
+Nesta seção, você pode definir o nome da jornada, adicionar uma descrição e:
 
 * gerenciar [entrada e reentrada](#entrance),
 * escolher início e término [datas](#dates),
@@ -50,6 +52,10 @@ A variável **Copiar detalhes técnicos** O permite copiar informações técnic
 
 
 ## Entrada e reentrada {#entrance}
+
+O modo de entrada de perfil é definido no nível da jornada, no painel de configuração direito. As configurações estão descritas abaixo.
+
+O gerenciamento de entrada de perfis depende do tipo de jornadas. Saiba mais sobre o gerenciamento de entrada e reentrada de perfis, em [esta página](entry-management.md).
 
 ### Permitir reentrada  {#allow-re-entrance}
 
@@ -71,7 +77,6 @@ Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção
 
 Quando a variável **Permitir reentrada** estiver ativada, a variável **Período de espera de reentrada** é exibido. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de público-alvo). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. A duração máxima é de 29 dias.
 
-Saiba mais sobre o gerenciamento de entrada e reentrada de perfis, em [nesta seção](entry-management.md).
 
 ## Gerenciar acesso {#manage-access}
 

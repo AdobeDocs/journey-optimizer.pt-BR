@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reentrada, jornada, perfil, recorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '701'
 ht-degree: 5%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 5%
 
 # Gerenciamento de entrada de perfis {#entry-management}
 
-Há quatro tipos de jornadas:
+O gerenciamento de entrada de perfis depende do tipo de jornada. No Adobe Journey Optimizer, os seguintes tipos de jornadas estão disponíveis:
 
 * **Evento unitário** jornadas: essas jornadas começam com um evento Unitário. Quando o evento é recebido, o perfil associado entra na jornada. [Leia mais](#entry-unitary)
 
-* **Evento comercial** jornadas: essas jornadas começam com um evento Comercial imediatamente seguido por um público-alvo de Leitura. Quando o evento for recebido, os perfis pertencentes ao público-alvo direcionado entram na jornada. Uma instância desta jornada será criada para cada perfil. [Leia mais](#entry-business)
+* **Evento comercial** jornadas: essas jornadas começam com um evento Comercial seguido imediatamente por um **Ler público** atividade. Quando o evento for recebido, os perfis pertencentes ao público-alvo direcionado entram na jornada. Uma instância dessa jornada é criada para cada perfil. [Leia mais](#entry-business)
 
-* **Ler público** jornadas: essas jornadas começam com um público de Leitura. Quando a jornada for executada, os perfis que pertencem ao público-alvo de destino entram na jornada. Uma instância desta jornada será criada para cada perfil. Essas jornadas podem ser recorrentes ou únicas. [Leia mais](#entry-read-audience)
+* **Ler público** jornadas: essas jornadas começam com um **Ler público** atividade. Quando a jornada for executada, os perfis que pertencem ao público-alvo de destino entram na jornada. Uma instância dessa jornada é criada para cada perfil. Essas jornadas podem ser recorrentes ou &quot;únicas&quot;. [Leia mais](#entry-read-audience)
 
 * **Qualificação de público** jornadas: essas jornadas começam com um evento de qualificação de Público-alvo. Essas jornadas escutam as entradas e saídas dos perfis nos públicos-alvo. Quando isso acontece, o perfil associado entra na jornada. [Leia mais](#entry-unitary)
 
@@ -32,7 +32,7 @@ Em todos os tipos de jornada, um perfil não pode estar presente várias vezes n
 
 ## Jornadas unitárias de qualificação de evento e público-alvo{#entry-unitary}
 
-Nas jornadas de qualificação de evento unitário e público-alvo, é possível ativar ou desativar a reentrada:
+Entrada **Evento unitário** e **Qualificação de público** jornadas, você pode ativar ou desativar a reentrada:
 
 * Se a reentrada estiver ativada, um perfil poderá inserir uma jornada várias vezes, mas não poderá fazer isso até que ele tenha saído totalmente da instância anterior da jornada.
 
@@ -51,13 +51,13 @@ Após o período de reentrada, os perfis podem inserir a jornada novamente. Para
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
 
-## Jornadas comerciais{#entry-business}
+## Jornadas comerciais {#entry-business}
 
 <!--
 Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
 -->
 
-Para permitir várias execuções de eventos comerciais, ative a opção correspondente no **[!UICONTROL Execução]** seção das propriedades da jornada.
+Entrada **Jornadas comerciais**, para permitir várias execuções de eventos comerciais, ative a opção correspondente no **[!UICONTROL Execução]** seção das propriedades da jornada.
 
 ![](assets/business-entry.png)
 
@@ -67,11 +67,11 @@ Um perfil pode estar presente várias vezes na mesma jornada, ao mesmo tempo, ma
 
 Para obter mais informações, consulte esta [seção](../event/about-creating-business.md)
 
-## Ler jornadas de público{#entry-read-audience}
+## Ler jornadas de público {#entry-read-audience}
 
-As jornadas de leitura de público-alvo podem ser recorrentes ou únicas:
+**Ler público** As jornadas podem ser recorrentes ou &quot;únicas&quot;:
 
-* Para jornadas não recorrentes: o perfil insere uma vez e somente uma vez na jornada.
+* Para jornadas não recorrentes/únicas: o perfil insere uma vez e apenas uma vez na jornada.
 
 * Para jornadas recorrentes: por padrão, todos os perfis pertencentes ao público-alvo inserem a jornada em cada recorrência. Eles devem concluir a jornada antes de entrar novamente em outra ocorrência.
 

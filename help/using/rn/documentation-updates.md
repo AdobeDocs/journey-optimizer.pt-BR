@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '5371'
+source-wordcount: '5383'
 ht-degree: 99%
 
 ---
@@ -24,6 +24,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de junho de 2024 do foi detalhada na documentação. [Leia mais](release-notes.md)
 * Uma observação sobre o uso de políticas de mesclagem no jornada foi adicionada em [esta página](../building-journeys/journey-properties.md#merge-policies).
 * A página sobre como configurar uma atividade **Aguardar** em uma jornada foi reorganizada e aprimorada. [Leia mais](../building-journeys/wait-activity.md)
+* Uma nova página foi criada para detalhar as propriedades da jornada. [Leia mais](../building-journeys/journey-properties.md)
 
 ## Maio de 2024 {#may-2024}
 
