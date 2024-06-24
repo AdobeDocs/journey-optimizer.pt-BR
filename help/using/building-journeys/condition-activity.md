@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
 source-wordcount: '1466'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 
@@ -57,7 +57,7 @@ Você pode criar outro caminho para públicos-alvo que não se qualifiquem para 
 O modo simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os elementos diferentes, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
 
 * AND: uma interseção de dois critérios. Somente os elementos correspondentes a todos os critérios são considerados.
-* OR: uma união de dois critérios. Os elementos correspondentes a pelo menos um dos dois critérios são considerados.
+* OR: uma união de dois critérios. Os elementos correspondentes a pelo menos um dos critérios são considerados.
 
 ![](assets/journey64.png)
 
@@ -68,7 +68,7 @@ Se você estiver usando o [Serviço de segmentação do Adobe Experience Platfor
 >
 >Não é possível executar consultas em séries de tempo (por exemplo, uma lista de compras, cliques anteriores em mensagens) com o editor simples. Para isso, será necessário usar o editor avançado. Consulte [esta página](expression/expressionadvanced.md).
 
-Quando ocorre um erro em uma ação ou condição, a jornada de um indivíduo é interrompida. A única maneira de fazê-lo continuar é marcando a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [nesta seção](../building-journeys/using-the-journey-designer.md#paths).
+A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcando a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
 No editor simples, você também encontrará a categoria Propriedades da Jornada, abaixo das categorias de evento e fonte de dados. Essa categoria contém campos técnicos relacionados à jornada para um determinado perfil. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados. [Saiba mais](expression/journey-properties.md)
 
@@ -130,7 +130,7 @@ Use esse tipo de condição para definir um número máximo de perfis para um ca
 
 <!--You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).-->
 
-O limite padrão é 1000.
+O limite padrão é 1.000.
 
 O contador se aplica somente à versão do jornada selecionada. O contador é redefinido para zero quando a jornada é duplicada ou quando uma nova versão é criada. Após uma redefinição, os perfis que entram tomam o caminho nominal novamente até que o limite do contador seja atingido.
 
@@ -140,8 +140,8 @@ O caminho nominal sempre tem prioridade sobre o caminho alternativo, mesmo que v
 
 Para jornadas em tempo real, estes são os limites a serem considerados para garantir que o limite seja atingido:
 
-* Para um limite superior a 10000, o número de perfis distintos a serem injetados deve ser pelo menos 1,3 vezes superior ao limite.
-* Para um limite inferior a 10000, o número de perfis distintos a serem injetados deve ser 1000 mais o limite.
+* Para um limite superior a 10.000, o número de perfis distintos a serem injetados deve ser pelo menos 1,3 vezes superior ao limite.
+* Para um limite inferior a 10.000, o número de perfis distintos a serem injetados deve ser 1000 mais o limite.
 
 O limite de perfil não é considerado no modo de teste.
 

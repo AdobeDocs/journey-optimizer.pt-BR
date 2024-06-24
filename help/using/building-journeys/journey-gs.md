@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 23%
@@ -123,7 +123,7 @@ Crie jornadas para fornecer experiências personalizadas e contextuais. O [!DNL 
 
 ➡️ [Descubra este recurso no vídeo](journey.md#video)
 
-As etapas para enviar mensagens por meio de jornadas estão listadas abaixo.
+As etapas para enviar mensagens por meio de jornadas estão listadas abaixo:
 
 1. No **Procurar** clique em **[!UICONTROL Criar Jornada]** para criar uma nova jornada.
 

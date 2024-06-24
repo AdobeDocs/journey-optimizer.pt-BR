@@ -8,33 +8,31 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: jornada, expressão, editor, propriedades
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
 
 # Jornada atributos de propriedades {#journey-properties}
 
-No editor de expressão avançado, você encontrará a variável **Jornada propriedades** abaixo das categorias de evento e fonte de dados. Essa categoria contém campos técnicos relacionados à jornada para um determinado perfil. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados.
-
->[!NOTE]
->
->Os atributos de propriedades de Jornada também estão disponíveis no editor de expressões simples. Veja isto [seção](../condition-activity.md#about_condition)
+No [editor de expressão simples](../condition-activity.md#about_condition), e no [editor de expressão avançado](../expression/expressionadvanced.md), abaixo de **Evento** e **Fonte de dados** categorias, você pode acessar a variável **Jornada propriedades** categoria. Essa categoria contém campos técnicos relacionados à jornada para um determinado perfil. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados.
 
 ![](../assets/journey-properties.png)
 
-Você encontrará informações, por exemplo, sobre:
+Ela contém informações, por exemplo, sobre:
 
 * Versão do jornada: uid do jornada, uid da versão do jornada, uid da instância etc.
 * erros: busca de dados, execução de ação etc.
 * etapa atual, última etapa atual etc.
 * perfis descartados
 
-Você pode usar esses campos para criar expressões. Durante a execução da jornada, os valores serão recuperados diretamente da jornada.
+  A lista de campos está disponível [nesta seção](#journey-properties-fields).
 
-Estes são alguns exemplos de casos de uso:
+Você pode usar esses campos para criar expressões. Durante a execução da jornada, os valores são recuperados diretamente da jornada.
+
+Abaixo estão alguns exemplos de casos de uso:
 
 * **Registrar em log os perfis descartados**: você pode enviar todos os perfis excluídos de uma mensagem por uma regra de limitação para um sistema de terceiros para fins de registro. Para isso, configure um caminho em caso de tempo limite e erro e adicione uma condição para filtrar por um tipo de erro específico, por exemplo: &quot;descartar pessoas ao limitar a regra&quot;. Em seguida, você pode enviar os perfis descartados para um sistema de terceiros por meio de uma ação personalizada.
 
