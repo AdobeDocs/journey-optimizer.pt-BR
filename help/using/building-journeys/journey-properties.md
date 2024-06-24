@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 7%
+source-wordcount: '1724'
+ht-degree: 8%
 
 ---
 
@@ -77,7 +77,7 @@ Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção
 >abstract=" Defina o tempo de espera antes de permitir que um perfil entre na jornada novamente em jornadas unitárias. Isso impede que os usuários insiram novamente na jornada por um período determinado. Duração máxima: 29 dias."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gerenciamento de entrada de perfis"
 
-Quando a variável **Permitir reentrada** estiver ativada, a variável **Período de espera de reentrada** é exibido. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de público-alvo). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. A duração máxima é de 29 dias.
+Quando a variável **Permitir reentrada** estiver ativada, a variável **Período de espera de reentrada** é exibido. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de público-alvo). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. A duração máxima é de 90 dias.
 
 
 ## Gerenciar acesso {#manage-access}
@@ -107,7 +107,7 @@ Para obter mais informações sobre o gerenciamento de fuso horário, consulte [
 
 Você pode definir um **Data inicial**. Se não tiver especificado um, ele será definido automaticamente no momento da publicação.
 
-Você também pode adicionar um **Data final**. Isso permite que os perfis saiam automaticamente quando a data for atingida. Se nenhuma data final for especificada, os perfis poderão permanecer até que o [tempo limite de jornada global](#global_timeout) (que geralmente dura 91 dias e é reduzido para 7 dias com a oferta complementar do Healthcare Shield). A única exceção são as jornadas recorrentes de leitura de público com **Forçar reentrada na recorrência** ativadas, que terminam na data de início da próxima ocorrência.
+Você também pode adicionar um **Data final**. Isso permite que os perfis saiam automaticamente quando a data for atingida. Se nenhuma data final for especificada, os perfis poderão permanecer até que o [tempo limite de jornada global](#global_timeout) (que geralmente é de 91 dias). A única exceção são as jornadas recorrentes de leitura de público com **Forçar reentrada na recorrência** ativadas, que terminam na data de início da próxima ocorrência.
 
 ## Tempo esgotado {#timeout}
 
@@ -131,11 +131,7 @@ O Jornada também usa um tempo limite global, conforme detalhado abaixo.
 
 Além do [timeout](#timeout_and_error) usada em atividades de jornada, um tempo limite de jornada global é aplicado. Ele não é exibido na interface e não pode ser alterado.
 
-Esse tempo limite global interrompe o progresso das pessoas físicas na jornada **91 dias** após entrarem. Este tempo limite é reduzido a **7 dias** com a oferta complementar do Healthcare Shield. Isso significa que a jornada de um indivíduo não pode durar mais de 91 dias (ou 7 dias). Após esse período de tempo limite, os dados do indivíduo são excluídos. Os indivíduos que ainda fluem na jornada no final do período de tempo limite serão interrompidos e não serão considerados nos relatórios. Portanto, você poderia ver mais pessoas entrando na jornada do que saindo.
-
->[!NOTE]
->
->As jornadas não reagem diretamente a solicitações de recusa de privacidade, acesso ou exclusão. No entanto, o tempo limite global garante que os indivíduos nunca fiquem mais de 91 dias em qualquer jornada.
+Esse tempo limite global interrompe o progresso das pessoas físicas na jornada **91 dias** após entrarem. Isso significa que a jornada de um indivíduo não pode durar mais de 91 dias. Após esse período de tempo limite, os dados do indivíduo são excluídos. Os indivíduos que ainda fluem na jornada no final do período de tempo limite serão interrompidos e não serão considerados nos relatórios. Portanto, você poderia ver mais pessoas entrando na jornada do que saindo.
 
 Devido ao tempo limite de jornada de 91 dias, quando a reentrada da jornada não é permitida, não podemos garantir que o bloqueio de reentrada funcionará por mais de 91 dias. De fato, à medida que removemos todas as informações sobre as pessoas que entraram na jornada 91 dias depois de entrarem, não podemos saber a pessoa que entrou anteriormente, há mais de 91 dias.
 
