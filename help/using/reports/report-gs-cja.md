@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta" type="Informative"
-source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
+source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 >
 > Para reverter para os relatórios tradicionais do Journey Optimizer, basta alternar a variável **[!UICONTROL Usar nova experiência]** opção.
 
-Os relatórios do Journey Optimizer agora estão totalmente integrados com as capacidades de Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e confiabilidade dos dados. Essa integração perfeita entre o Journey Optimizer e o Customer Journey Analytics fornece uma visão mais clara das métricas de desempenho, permitindo que os usuários tomem decisões mais conscientes.
+Os relatórios do Journey Optimizer vêm com uma interoperabilidade melhorada com recursos Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e confiabilidade dos dados. Essa integração perfeita entre o Journey Optimizer e o Customer Journey Analytics fornece uma visão mais clara das métricas de desempenho, permitindo que os usuários tomem decisões mais conscientes.
 
 * Se quiser direcionar uma jornada ou deliveries no contexto de uma jornada, no **[!UICONTROL Jornadas]** , acesse sua jornada e clique no botão **[!UICONTROL Exibir relatório]** botão.
 
@@ -47,4 +48,3 @@ Os relatórios do Journey Optimizer agora estão totalmente integrados com as ca
 * Para acessar o painel de Customer Journey Analytics no Journey Optimizer, basta habilitar a **[!UICONTROL Usar nova experiência]** alternar no seu relatório.
 
   ![](assets/cja-option.png)
-
