@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: seed list, seed list, seed, configuração
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '959'
 ht-degree: 21%
 
 ---
@@ -48,7 +48,7 @@ Os seed addresses não são perfis reais nem perfis de teste, pois não incluem 
 
 >[!NOTE]
 >
->As variantes são compatíveis. Os seed addresses recebem uma única cópia de cada variante da mesma mensagem (como os diferentes tratamentos de uma [experimento de conteúdo](../content-management/get-started-experiment.md)).
+>As variantes são compatíveis, incluindo variantes multilíngues e de experimentação. Cada seed address recebe uma única cópia de cada variante da mesma mensagem, por exemplo, versões diferentes de uma [experimento de conteúdo](../content-management/get-started-experiment.md). Observe que emails de seed separados não são enviados para conteúdo condicional.
 
 ## Acessar as listas de propagação {#access-seed-lists}
 
