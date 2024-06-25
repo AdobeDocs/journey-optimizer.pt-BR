@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 8%
+source-wordcount: '1024'
+ht-degree: 10%
 
 ---
 
@@ -77,7 +77,7 @@ Para começar a criar sua experiência baseada em código por meio de uma campan
 
    >[!NOTE]
    >
-   >O recurso de decisão de experiência está disponível atualmente como um beta apenas para usuários selecionados.
+   >No momento, a Escolha de experiências está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
 
 
 1. Clique em **[!UICONTROL Salvar e fechar]** para confirmar as alterações.
