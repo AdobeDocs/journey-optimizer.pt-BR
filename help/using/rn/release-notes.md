@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 58%
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ## Notas de versão de junho de 2024 {#24-6-2024}
 
-**As notas de versão anteriores abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento**.
+**As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento**. 
 
 **Data de lançamento**: 18 a 19 de junho de 2024
 
@@ -77,7 +77,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Relatório com Customer Journey Analytics (Beta)</strong><br/></th>
+<th><strong>Relatório com o Customer Journey Analytics (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -170,7 +170,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 >[!AVAILABILITY]
 >
->Observe que essas melhorias serão implementadas gradualmente durante vários dias após o lançamento inicial. Embora alguns usuários tenham acesso imediato, outros podem enfrentar um atraso antes que ele se torne disponível em seus ambientes.
+>Observe que essas melhorias serão implementadas gradualmente ao longo de vários dias após o lançamento inicial. Embora alguns usuários tenham acesso imediato, outros poderão enfrentar um atraso antes que as melhorias sejam disponibilizadas em seus ambientes.
 
 * Agora os fragmentos podem ser editados e as alterações podem ser propagadas por todas as jornadas e campanhas ativas em que são usados.
 * Foram introduzidos novos status para fragmentos de conteúdo: **Rascunho**, **Ativo**, **Publicando** e **Arquivado**.
@@ -178,17 +178,17 @@ Esta versão vem com as melhorias listadas abaixo.
 
   **Cuidado**: Como os status **Rascunho** e **Ativo** foram introduzidos com a versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status **Rascunho** mesmo se forem usados em uma jornada ou campanha. Saiba como atualizar seus fragmentos nesta seção.
 
-Leia mais na seção [fragmento de conteúdo](../content-management/fragments.md) documentação.
+Leia mais na documentação dos [fragmentos de conteúdo](../content-management/fragments.md).
 
 **Jornadas**
 
-* O tempo limite global do Jornada foi estendido para 91 dias. [Leia mais](../building-journeys/journey-properties.md#global_timeout)
+* O tempo-limite global de jornadas foi estendido para 91 dias. [Leia mais](../building-journeys/journey-properties.md#global_timeout)
 
-  Qualquer nova jornada criada terá esse novo tempo limite refletido. Consulte esta página [seção de perguntas frequentes](../building-journeys/journey-properties.md#timeout-faq) para saber mais. Observe que essas alterações serão implementadas gradualmente durante o mês de junho.
+  Qualquer nova jornada criada terá esse novo tempo-limite. Consulte esta [seção de perguntas frequentes](../building-journeys/journey-properties.md#timeout-faq) para saber mais. Observe que essas alterações serão implementadas gradualmente durante o mês de junho.
 
 
 * O Adobe Journey Optimizer agora é compatível com solicitações de exclusão/acesso de privacidade, bem como com solicitações de gerenciamento do ciclo de vida dos dados. [Leia mais](../privacy/requests.md)
-* Agora é possível redimensionar as colunas no inventário de jornadas.
+* Agora é possível redimensionar as colunas nos inventários das jornadas.
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
 * **Políticas de mesclagem** agora é GA: as políticas de mesclagem usadas por uma jornada agora estão visíveis e são consistentes em toda a jornada. [Leia mais](../building-journeys/journey-properties.md#merge-policies)
 
@@ -207,7 +207,7 @@ Leia mais na seção [fragmento de conteúdo](../content-management/fragments.md
 
 * Agora é possível adicionar códigos curtos exclusivos para cada sandbox com uma única configuração de API, tornando o processo mais eficiente e simplificado. [Saiba mais](../sms/sms-configuration.md)
 
-* Após a criação, a variável **Token de API** no campo **Detalhes da credencial da API** agora está mascarada.
+* Após a criação, o campo **Token de API** na página **Detalhes da credencial da API** fica mascarado.
 
 <!--* You can now modify existing SMS configurations.-->
 
@@ -215,7 +215,7 @@ Leia mais na seção [fragmento de conteúdo](../content-management/fragments.md
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* Agora você pode usar o plug-in Edge Delivery para obter as informações necessárias para entender e solucionar problemas de suas implementações de entrada. [Saiba mais sobre a exibição Entrega de borda](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* Agora você pode usar o plug-in Edge Delivery para obter as informações necessárias para entender e solucionar problemas em suas implementações de entrada. [Saiba mais na exibição Edge Delivery](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
 **Canal de correspondência direta**

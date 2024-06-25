@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1848'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -384,8 +384,8 @@ ht-degree: 98%
 + Nova interface de relatórios (beta){#channel-report}
    + [Introdução à nova interface de relatórios](using/reports/report-gs-cja.md)
    + [Gerenciar seus relatórios](using/reports/report-cja-manage.md)
-   + [Relatório de jornadas](using/reports/journey-global-report-cja.md)
-   + [Relatório de campanhas](using/reports/campaign-global-report-cja.md)
+   + [Relatório de jornada](using/reports/journey-global-report-cja.md)
+   + [Relatório de campanha](using/reports/campaign-global-report-cja.md)
    + [Relatório de visão geral](using/reports/channel-report-cja.md)
    + [Relatório de páginas de destino](using/reports/lp-report-global-cja.md)
    + [Relatório da lista de assinaturas](using/reports/subscription-report-global-cja.md)

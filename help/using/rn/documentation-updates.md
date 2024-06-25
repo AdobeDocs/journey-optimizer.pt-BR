@@ -21,8 +21,8 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Junho de 2024 {#june-2024}
 
-* Todos os novos recursos e aprimoramentos que acompanham o [!DNL Journey Optimizer] A versão de junho de 2024 do foi detalhada na documentação. [Leia mais](release-notes.md)
-* Uma observação sobre o uso de políticas de mesclagem no jornada foi adicionada em [esta página](../building-journeys/journey-properties.md#merge-policies).
+* Todos os novos recursos e aprimoramentos da versão de junho de 2024 do [!DNL Journey Optimizer] foram detalhados na documentação. [Leia mais](release-notes.md)
+* Uma nota sobre o uso de políticas de mesclagem em jornadas foi adicionada [nesta página](../building-journeys/journey-properties.md#merge-policies).
 * A página sobre como configurar uma atividade **Aguardar** em uma jornada foi reorganizada e aprimorada. [Leia mais](../building-journeys/wait-activity.md)
 * Uma nova página foi criada para detalhar as propriedades da jornada. [Leia mais](../building-journeys/journey-properties.md)
 

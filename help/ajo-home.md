@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 83%
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ Conheça os novos recursos e melhorias da versão de maio do Adobe Journey Optim
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Relatório com Customer Journey Analytics (Beta)]
+>[!TAB Relatórios com o Customer Journey Analytics (Beta)]
 
 Os relatórios do Journey Optimizer vêm com uma interoperabilidade melhorada com recursos Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e confiabilidade dos dados.
 
@@ -34,7 +34,7 @@ Os relatórios do Journey Optimizer vêm com uma interoperabilidade melhorada co
 
 >[!TAB Assistente de IA]
 
-O Assistente de IA é um recurso da interface do usuário que você pode usar para navegar e entender conceitos de Adobe e obter insights operacionais para seu ambiente específico.
+O Assistente de IA é um recurso da interface do usuário usado para navegar e entender conceitos da Adobe e obter insights operacionais para seu ambiente específico. 
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 
