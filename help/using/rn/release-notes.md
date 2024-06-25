@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
+source-git-commit: 59f23fb297180a65e1ced50ce1597d6ccb8f14e1
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 83%
+source-wordcount: '1039'
+ht-degree: 75%
 
 ---
 
@@ -28,8 +28,6 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 
 ## Notas de versão de junho de 2024 {#24-6-2024}
-
-**As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento**. 
 
 **Data de lançamento**: 18 a 19 de junho de 2024
 
@@ -53,6 +51,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table-->
 
+#### Customização de fragmentos de conteúdo
 
 <table>
 <thead>
@@ -72,7 +71,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 </table>
 
 
-
+#### Relatório com Customer Journey Analytics
 
 <table>
 <thead>
@@ -160,13 +159,13 @@ Essa versão traz os novos recursos detalhados abaixo.
 
 Esta versão vem com as melhorias listadas abaixo.
 
-**Gestão de decisões**
+#### Gestão de decisões
 
 * **Compatibilidade com várias regras na gestão de decisões** – Agora você pode adicionar até 10 regras de limitação para uma determinada oferta na gestão de decisões. Isso permite aumentar o nível de controle sobre como as ofertas são enviadas. [Saiba mais](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-**Fragmentos de conteúdo**
+#### Fragmentos de conteúdo
 
 >[!AVAILABILITY]
 >
@@ -180,7 +179,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 Leia mais na documentação dos [fragmentos de conteúdo](../content-management/fragments.md).
 
-**Jornadas**
+#### Jornadas
 
 * O tempo-limite global de jornadas foi estendido para 91 dias. [Leia mais](../building-journeys/journey-properties.md#global_timeout)
 
@@ -194,16 +193,17 @@ Leia mais na documentação dos [fragmentos de conteúdo](../content-management/
 
 
 
-**Campanhas**
+#### Campanhas
 
 * Ao criar uma campanha no Adobe Journey Optimizer, agora é possível escolher o tipo de campanha (agendada ou acionada) em um novo modal. [Leia mais](../campaigns/create-campaign.md)
 
-**Canal de email**
+#### Canal de email
 
 * **List-unsubscribe** - Após os anúncios recentes do Gmail e do Yahoo para remetentes em massa, o Journey Optimizer é compatível com a opção &quot;post/1-click&quot; List-Unsubscribe. Consulte as seguintes páginas: [Gerenciamento de opção de não participação de email](../email/email-opt-out.md#unsubscribe-header) e [Definir configurações de email](../email/email-settings.md#list-unsubscribe).
 
+  **NOTA** - Para qualquer nova superfície de canal, por padrão, a opção de cabeçalho de cancelamento de inscrição na lista é ativada. Para superfícies existentes, por padrão, a opção Cancelar inscrição de URL com um clique nas configurações de superfície de canal está desmarcada. Se você estava usando um URL de recusa de um clique no corpo do email anteriormente, essa configuração ainda é válida. Se o URL de cancelamento de inscrição com um clique nas configurações da superfície de canal estiver marcado, o Adobe Journey Optimizer usará o URL de cancelamento de inscrição com um clique gerado padrão nas configurações da superfície de canal.
 
-**Canal SMS**
+#### Canal de SMS
 
 * Agora é possível adicionar códigos curtos exclusivos para cada sandbox com uma única configuração de API, tornando o processo mais eficiente e simplificado. [Saiba mais](../sms/sms-configuration.md)
 
@@ -211,13 +211,13 @@ Leia mais na documentação dos [fragmentos de conteúdo](../content-management/
 
 <!--* You can now modify existing SMS configurations.-->
 
-**Canal no aplicativo**
+#### Canal no aplicativo
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
 * Agora você pode usar o plug-in Edge Delivery para obter as informações necessárias para entender e solucionar problemas em suas implementações de entrada. [Saiba mais na exibição Edge Delivery](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
-**Canal de correspondência direta**
+#### Canal de correspondência direta
 
 * O canal de correspondência direta agora está disponível para todos os clientes. [Leia mais](../direct-mail/get-started-direct-mail.md)

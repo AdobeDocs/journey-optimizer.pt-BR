@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: configurações, email, configuração
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 975bb9d37a69fe8df02bc39ce2ccdf2da9953ebb
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 10%
@@ -102,7 +102,7 @@ O Cabeçalho de cancelamento de inscrição da lista oferece dois recursos (Mail
 
   No Journey Optimizer, o endereço de email de cancelamento de inscrição é o padrão **Mailto (cancelar inscrição)** exibido na superfície de canal, com base no seu [subdomínio selecionado](#subdomains-and-ip-pools).
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
 * A variável **URL de cancelamento de inscrição com um clique**, que, por padrão, é o cabeçalho de cancelamento de inscrição de lista gerado por URL com um clique, com base no subdomínio definido e configurado nas Configurações de superfície de canal.
