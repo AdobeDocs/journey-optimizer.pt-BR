@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: d9942f578db6ef42a801c0e62a4c3e6a4a72ce71
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 17%
+source-wordcount: '1032'
+ht-degree: 16%
 
 ---
 
@@ -69,6 +69,16 @@ Os fragmentos podem ter vários status:
 >Como os status **Rascunho** e **Ativo** foram introduzidos com a versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status “Rascunho”, mesmo se forem usados em uma jornada ou campanha. Ao fazer qualquer alteração nesses fragmentos, será necessário publicá-los para torná-los “Ativos” e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la. A publicação requer uma permissão do usuário.
 
 ## Editar fragmentos {#edit-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_campaigns"
+>title="Atualização de fragmentos em campanhas"
+>abstract="Esta campanha não será atualizada se você publicar alterações no fragmento. Ela requer que uma nova versão seja publicada, para que a funcionalidade de atualização do fragmento possa ser compatível."
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_journeys"
+>title="Atualização de fragmentos no jornada"
+>abstract="Essa jornada não será atualizada se você publicar alterações no fragmento. Ela requer que uma nova versão seja publicada, para que a funcionalidade de atualização do fragmento possa ser compatível."
 
 Para editar um fragmento, siga as etapas abaixo.
 
