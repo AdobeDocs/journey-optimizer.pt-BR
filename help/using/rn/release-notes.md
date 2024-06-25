@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 59f23fb297180a65e1ced50ce1597d6ccb8f14e1
+source-git-commit: 024e43468cade1f2ac4ca6f8e21bcbc71f6c771b
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1050'
 ht-degree: 75%
 
 ---
@@ -90,6 +90,8 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table>
 
+#### Assistente de IA
+
 <table>
 <thead>
 <tr>
@@ -105,6 +107,8 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tr>
 </tbody>
 </table>
+
+#### Mensagens multilíngues em jornadas e campanhas
 
 <table>
 <thead>
@@ -122,6 +126,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table>
 
+#### Experimentação em jornadas
 
 <table>
 <thead>
