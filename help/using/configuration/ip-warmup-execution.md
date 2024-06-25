@@ -15,7 +15,7 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
 source-wordcount: '2558'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -41,7 +41,7 @@ Cada fase é composta por várias execuções, às quais você atribui uma únic
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="Excluir públicos-alvo da campanha"
->abstract="Selecione campanhas para excluir públicos-alvo delas da fase atual. Isso evita que perfis contatados anteriormente sejam novamente direcionados; somente aqueles que receberam comunicação por meio da jornada serão excluídos."
+>abstract="Selecione campanhas para excluir públicos-alvo delas da fase atual. Isso evita que perfis contatados anteriormente sejam direcionados novamente. Somente aqueles que receberam comunicação através da jornada serão excluídos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
