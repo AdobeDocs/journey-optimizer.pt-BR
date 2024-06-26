@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c843ca5bda10aa5f3ee8a676630d78c5ec092b14
+source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 13%
@@ -21,7 +21,7 @@ ht-degree: 13%
 >id="ajo_create_visual_fragment"
 >title="Selecione o tipo “Visual”"
 >abstract="Crie um fragmento visual independente para tornar o conteúdo reutilizável em um email de uma jornada ou campanha ou em um modelo de conteúdo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=pt-BR" text="Adicionar fragmentos visuais aos emails"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="Adicionar fragmentos visuais aos emails"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
@@ -81,7 +81,7 @@ Quando o conteúdo estiver pronto, clique no link **Salvar** botão. O fragmento
 
 >[!NOTE]
 >
->Para publicar um fragmento, é necessário ter a **Publicar fragmento** permissão relacionada. [Saiba mais sobre permissões](../administration/ootb-permissions.md)
+>Para publicar um fragmento, é necessário ter a **Fragmento do Publish** permissão relacionada. [Saiba mais sobre permissões](../administration/ootb-permissions.md)
 
 Se o fragmento estiver pronto para entrar no ar, você poderá visualizá-lo e publicá-lo para disponibilizá-lo em suas jornadas e campanhas. Para fazer isso, siga estes passos:
 
@@ -99,7 +99,7 @@ Se o fragmento estiver pronto para entrar no ar, você poderá visualizá-lo e p
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-O fragmento agora está **Ao vivo** e fica disponível ao criar qualquer conteúdo dentro do [!DNL Journey Optimizer] Email Designer ou editor de personalização:
+O fragmento agora está **Ao vivo** e fica disponível ao criar qualquer conteúdo dentro do [!DNL Journey Optimizer] Designer de email ou editor de personalização:
 
 * [Saiba como usar fragmentos visuais](../email/use-visual-fragments.md)
 * [Saiba como usar fragmentos de expressão](../personalization/use-expression-fragments.md)
