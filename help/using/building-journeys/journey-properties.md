@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: a43179e67a7d5387e67bd3f6bb3ac3f24dd6325a
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 8%
@@ -157,7 +157,7 @@ A partir da versão de junho de 2024 do Adobe Journey Optimizer, o tempo limite 
       <p>O que acontece com um perfil que entra em uma jornada publicada antes do lançamento da extensão TTL?</p>
     </td>
     <td>
-      <p>O perfil terá um TTL de 91 dias (7 dias para a HIPAA), consistente com o horário em que a jornada foi originalmente publicada.</p>
+      <p>O perfil terá um TTL de 30 dias (7 dias para a HIPAA), consistente com o horário em que a jornada foi originalmente publicada.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -165,7 +165,7 @@ A partir da versão de junho de 2024 do Adobe Journey Optimizer, o tempo limite 
       <p>O que acontece com um perfil que já entrou em uma jornada quando a extensão TTL é iniciada?</p>
     </td>
     <td>
-      <p>O perfil manterá um TTL de 91 dias (7 dias para a HIPAA), de acordo com o tempo de publicação original da jornada.</p>
+      <p>O perfil manterá um TTL de 30 dias (7 dias para a HIPAA), de acordo com o tempo de publicação original da jornada.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -173,7 +173,7 @@ A partir da versão de junho de 2024 do Adobe Journey Optimizer, o tempo limite 
       <p>O que acontece com um perfil em uma versão anterior do jornada republicada após a inicialização da extensão TTL?</p>
     </td>
     <td>
-      <p>O perfil manterá um TTL de 91 dias (7 dias para a HIPAA), alinhado ao tempo de publicação da versão original do jornada.</p>
+      <p>O perfil manterá um TTL de 30 dias (7 dias para a HIPAA), alinhado ao tempo de publicação da versão original do jornada.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -218,7 +218,7 @@ A partir da versão de junho de 2024 do Adobe Journey Optimizer, o tempo limite 
       <p>O que acontece com um perfil que entra em uma jornada publicada antes do lançamento da extensão TTL?</p>
     </td>
     <td>
-      <p>O perfil terá um TTL de 91 dias (7 dias para a HIPAA), consistente com o tempo de publicação original. Para jornadas recorrentes com reentrada forçada, o TTL corresponderá ao período de recorrência.</p>
+      <p>O perfil terá um TTL de 30 dias (7 dias para a HIPAA), consistente com o tempo de publicação original. Para jornadas recorrentes com reentrada forçada, o TTL corresponderá ao período de recorrência.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -226,7 +226,7 @@ A partir da versão de junho de 2024 do Adobe Journey Optimizer, o tempo limite 
       <p>O que acontece com um perfil executado em uma jornada quando a extensão TTL é iniciada?</p>
     </td>
     <td>
-      <p>O perfil manterá um TTL de 91 dias (7 dias para a HIPAA), de acordo com o tempo de publicação original da jornada. Para jornadas recorrentes com reentrada forçada, o TTL corresponderá ao período de recorrência.</p>
+      <p>O perfil manterá um TTL de 30 dias (7 dias para a HIPAA), de acordo com o tempo de publicação original da jornada. Para jornadas recorrentes com reentrada forçada, o TTL corresponderá ao período de recorrência.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -234,7 +234,7 @@ A partir da versão de junho de 2024 do Adobe Journey Optimizer, o tempo limite 
       <p>O que acontece com um perfil em execução em uma versão anterior do jornada republicada após a inicialização da extensão TTL?</p>
     </td>
     <td>
-      <p>O perfil manterá um TTL de 91 dias (7 dias para o HIPPA), alinhado ao tempo de publicação da versão original do jornada. Para jornadas recorrentes com reentrada forçada, o TTL corresponderá ao período de recorrência.</p>
+      <p>O perfil manterá um TTL de 30 dias (7 dias para o HIPPA), alinhado ao tempo de publicação da versão original do jornada. Para jornadas recorrentes com reentrada forçada, o TTL corresponderá ao período de recorrência.</p>
     </td>
   </tr>
   <tr style="border: 1;">
