@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 15%
@@ -39,9 +39,9 @@ Você pode usar um **[!UICONTROL Aguardar]** atividade para definir uma duraçã
 
 ### Várias atividades de espera {#multiple-wait-activities}
 
-Ao usar vários **Aguardar** em uma jornada, esteja ciente de que a variável [tempo limite global](journey-properties.md#global_timeout) no jornada, é de 90 dias, o que significa que os perfis sempre saem do máximo da jornada 90 dias após serem inseridos. Saiba mais [nesta página](journey-properties.md#global_timeout).
+Ao usar vários **Aguardar** em uma jornada, esteja ciente de que a variável [tempo limite global](journey-properties.md#global_timeout) no jornada, é de 91 dias, o que significa que os perfis sempre saem do máximo da jornada 91 dias após serem inseridos. Saiba mais [nesta página](journey-properties.md#global_timeout).
 
-Um indivíduo pode inserir um **Aguardar** atividade somente se eles tiverem tempo suficiente na jornada para concluir a duração da espera antes do tempo limite de jornada de 90 dias.
+Um indivíduo pode inserir um **Aguardar** atividade somente se eles tiverem tempo suficiente na jornada para concluir a duração da espera antes do tempo limite de jornada de 91 dias.
 
 ### Aguardar e reentrar {#wait-re-entrance}
 
