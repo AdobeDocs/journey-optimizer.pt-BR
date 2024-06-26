@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
+source-git-commit: cae6d394ad1c2356e55bd5f1cb4ad7494c9623dd
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 15%
@@ -23,7 +23,7 @@ ht-degree: 15%
 >title="Atividade de espera"
 >abstract="Se quiser esperar antes de executar a próxima atividade no caminho, você pode usar uma atividade Esperar. Ela permite definir o momento em que a próxima atividade será executada. Duas opções estão disponíveis: duração e personalizado."
 
-Você pode usar um **[!UICONTROL Aguardar]** atividade para definir uma duração antes de executar a próxima atividade.  A duração máxima de espera é **29 dias**.
+Você pode usar um **[!UICONTROL Aguardar]** atividade para definir uma duração antes de executar a próxima atividade.  A duração máxima de espera é **90 dias**.
 
 É possível definir dois tipos de **Aguardar** atividade:
 
@@ -55,7 +55,7 @@ No modo de teste, a variável **[!UICONTROL Tempo de espera no teste]** permite 
 
 ### Espera de duração {#duration}
 
-Selecione o **Duração** digite para definir a duração relativa da espera antes da execução da próxima atividade. A duração máxima é **29 dias**.
+Selecione o **Duração** digite para definir a duração relativa da espera antes da execução da próxima atividade. A duração máxima é **90 dias**.
 
 ![Definir a duração da espera](assets/journey55.png)
 
