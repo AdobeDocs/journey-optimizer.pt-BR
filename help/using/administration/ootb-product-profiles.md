@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: permissões, criação, mensagens
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: fd8835b1f9bffd887758e4015171074c5dfc16c0
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1175'
 ht-degree: 6%
 
 ---
@@ -142,6 +142,6 @@ Essa função inclui as seguintes permissões:
 
 | Recurso | Permissões |
 |-|-|
-| Biblioteca da Journey Optimizer | <ul><li>**[!DNL Manage library items]**: leia, crie, edite e exclua itens da Biblioteca do Journey Optimizer, incluindo modelos e fragmentos de conteúdo.</li><li>**[!DNL Manage simulate content]**: acesso à **[!UICONTROL Simular conteúdo]** opção para pré-visualização e prova.</li></ul> |
+| Biblioteca da Journey Optimizer | <ul><li>**[!DNL Manage library items]**: leia, crie, edite e exclua itens da Biblioteca do Journey Optimizer, incluindo modelos e fragmentos de conteúdo.</li><li>**[!DNL Manage simulate content]**: acesso à **[!UICONTROL Simular conteúdo]** opção para pré-visualização e prova.</li><li>**[!DNL Publish Fragment]**: publicar fragmentos de conteúdo.</li></ul> |
 | Gerenciamento de decisão | <ul><li>**[!DNL Manage decisions]**: leia, crie, edite e exclua entidades de decisão.</li><li>**[!DNL Manage ranking strategies]**: leia, crie, edite e exclua relatórios personalizados e use recursos de ação.</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**: leia, crie, edite e exclua definições de segmento.</li><li>**[!DNL Manage profiles]**: ler, criar, editar e excluir perfis.</li><li>**[!DNL Read datasets]**: acesso somente leitura a conjuntos de dados.</li><li>**[!DNL Read schemas]**: acesso somente leitura a esquemas.</li><li>**[!DNL Manage merge policies]**: ler, criar, editar e excluir políticas de mesclagem.</li></ul> |
