@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
-source-wordcount: '1848'
-ht-degree: 99%
+source-wordcount: '1865'
+ht-degree: 98%
 
 ---
 
@@ -311,7 +311,12 @@ ht-degree: 99%
       + Casos de uso de personalização{#personalization-use-cases}
          + [Notificação do status do pedido](using/personalization/personalization-use-case.md)
          + [Email de abandono do carrinho](using/personalization/personalization-use-case-helper-functions.md)
-   + [Modelos de conteúdo](using/content-management/content-templates.md)
+   + Modelos de conteúdo {#content-templates}
+      + [Introdução a modelos de conteúdo](using/content-management/content-templates.md)
+      + [Acessar e gerenciar modelos](using/content-management/access-content-templates.md)
+      + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
+      + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
+      + [Usar modelos de conteúdo](using/content-management/use-content-templates.md)
    + Fragmentos de conteúdo reutilizáveis {#fragments}
       + [Introdução a fragmentos](using/content-management/fragments.md)
       + [Criar um fragmento](using/content-management/create-fragments.md)
