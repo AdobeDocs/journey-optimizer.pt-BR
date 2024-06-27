@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Sobre o editor de expressão avançado
+title: Trabalhar com o editor de expressão avançado
 description: Saiba como criar expressões avançadas
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
 keywords: editor de expressão, dados, jornada
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 12%
+source-wordcount: '665'
+ht-degree: 61%
 
 ---
 
-# Sobre o editor de expressão avançado {#about-the-advanced-expression-editor}
+# Trabalhar com o editor de expressão avançado {#about-the-advanced-expression-editor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
@@ -24,33 +24,32 @@ ht-degree: 12%
 
 Use o editor de expressão avançado do Jornada para criar expressões avançadas em várias telas da interface. Por exemplo, você pode criar expressões ao configurar e usar jornadas e ao definir uma condição de fonte de dados.
 
+Ele também está disponível sempre que for necessário definir parâmetros de ação que exijam manipulações de dados específicos. Você pode usar os dados provenientes dos eventos ou informações adicionais recuperadas da fonte de dados. Em uma jornada, a lista exibida de campos de evento é contextual e varia de acordo com os eventos adicionados na jornada.
+
+![](../assets/journey65.png)
+
+
+O editor de expressão avançado oferece um conjunto de funções e operadores integrados, permitindo manipular valores e definir uma expressão que se ajuste especificamente às suas necessidades. O editor de expressão avançado também permite definir os valores do parâmetro de fonte de dados externa, manipular campos de mapa e coleções, como eventos de experiência.
+
 >[!NOTE]
 >
 >As funções e os recursos disponíveis no editor de expressão avançado do Jornada diferem daqueles disponíveis na [editor de personalização](../../personalization/functions/functions.md).
 
-Ele também está disponível sempre que for necessário definir parâmetros de ação que exijam manipulações de dados específicos. Você pode aproveitar os dados provenientes dos eventos ou informações adicionais recuperadas da fonte de dados. Em uma jornada, a lista exibida de campos de evento é contextual e varia de acordo com os eventos adicionados na jornada.
+## Acessar o editor de expressão avançado {#accessing-the-advanced-expression-editor}
 
-O editor de expressão avançado oferece um conjunto de funções e operadores integrados, permitindo manipular valores e definir uma expressão que se ajuste especificamente às suas necessidades. O editor de expressão avançado também permite definir os valores do parâmetro de fonte de dados externa, manipular campos de mapa e coleções, como eventos de experiência.
-
-![](../assets/journey65.png)
-
-_A interface do editor de expressão avançado_
-
-O editor de expressão avançado pode ser usado para:
+O editor avançado de expressões pode ser usado para:
 
 * criar [condições avançadas](../condition-activity.md#about_condition) em fontes de dados e informações do evento
-* definir personalizado [atividades de espera](../wait-activity.md#custom)
+* definir [atividades de espera](../wait-activity.md#custom) personalizadas
 * definir mapeamento de parâmetros de ação
 
 Quando possível, você pode alternar entre os dois modos usando o **[!UICONTROL Modo avançado]** / **[!UICONTROL Modo simples]** botão. O modo simples é descrito [aqui](../condition-activity.md#about_condition).
 
 >[!NOTE]
 >
->As condições podem ser definidas no editor de expressões simples ou avançado. Eles sempre retornam um tipo booleano.
+>As condições podem ser definidas no editor de expressão simples ou avançado. Eles sempre retornam um tipo booleano.
 >
 >Parâmetros de ações podem ser definidos selecionando campos ou por meio do editor de expressão avançado. Eles retornam um tipo de dados específico de acordo com a expressão.
-
-## Acessar o editor de expressão avançado {#accessing-the-advanced-expression-editor}
 
 Você pode acessar o editor de expressão avançado de diferentes maneiras:
 
@@ -61,9 +60,9 @@ Você pode acessar o editor de expressão avançado de diferentes maneiras:
 * Ao criar um temporizador personalizado, o editor avançado será exibido diretamente.
 * Ao mapear o parâmetro de ação, clique em **[!UICONTROL Modo avançado]**.
 
-## Descobrir a interface{#discovering-the-interface}
+## Conheça a interface {#discovering-the-interface}
 
-Essa tela permite que você escreva manualmente a expressão.
+Nesta tela você pode escrever manualmente a expressão.
 
 ![](../assets/journey70.png)
 
@@ -77,7 +76,7 @@ Na parte esquerda da tela são exibidos os campos e as funções disponíveis:
 
 ![](../assets/journey65.png)
 
-Um mecanismo de preenchimento automático exibe sugestões contextuais.
+Um mecanismo de autopreenchimento exibe sugestões contextuais.
 
 ![](../assets/journey68.png)
 
@@ -91,4 +90,4 @@ Se você selecionar um campo de uma fonte externa de dados que requer um parâme
 
 ![](../assets/journeyuc2_19.png)
 
-Para casos de uso mais complexos, se quiser incluir os parâmetros da fonte de dados na expressão principal, você poderá definir os valores usando a palavra-chave &quot;params&quot;. Consulte [esta página](../expression/field-references.md).
+Para casos de uso mais complexos, caso queira incluir os parâmetros da fonte de dados na expressão principal, é possível definir os valores usando a palavra-chave &quot;params&quot;. Consulte [esta página](../expression/field-references.md).

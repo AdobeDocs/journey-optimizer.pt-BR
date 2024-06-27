@@ -1,23 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Sintaxe
-description: Saiba mais sobre o editor de expressão avançado
+title: Sintaxe do editor de expressão avançado
+description: Saiba mais sobre a sintaxe usada no editor de expressão avançado
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
 keywords: sintaxe, editor, jornada
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '262'
+ht-degree: 2%
 
 ---
 
 # Sintaxe do editor de expressão avançado {#syntax}
 
-## Parênteses e prioridade da expressão{#parentheses-and-expression-priority}
+Noções básicas de sintaxe ao usar o [Editor de expressão avançado](expressionadvanced.md) estão listados abaixo. Exemplos de uso do editor de expressão avançado estão disponíveis em [esta página](advanced-editor-use-cases.md).
+
+## Parênteses e prioridade da expressão {#parentheses-and-expression-priority}
 
 É possível usar parênteses para tornar uma expressão complexa mais legível. _(&lt;expression>)_ equivale a _&lt;expression>_. Também é possível usar parênteses para definir a ordem de avaliação e a associatividade.
 
@@ -30,7 +32,7 @@ As expressões serão avaliadas da esquerda para a direita. A associatividade em
 | `4 + 2 * 10` | <ul><li>&#39;*&#39; tem prioridade sobre &#39;+&#39;: 2 * 10 é avaliado → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Os parênteses alteram a prioridade: (4 + 2) é avaliado → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## Diferenciação de maiúsculas e minúsculas{#case-sensitivity}
+## Diferenciação de maiúsculas e minúsculas {#case-sensitivity}
 
 Estas são as diferentes regras de diferenciação entre maiúsculas e minúsculas:
 
@@ -38,7 +40,7 @@ Estas são as diferentes regras de diferenciação entre maiúsculas e minúscul
 * Todos os nomes de função fazem distinção entre maiúsculas e minúsculas. Por exemplo, _inAudience()_ é válido, enquanto a função _INAUDIENCE()_ não é.
 * Referências de campo e valores constantes fazem distinção entre maiúsculas e minúsculas: eles não são elementos integrados da linguagem (em vez de operadores e funções), eles são criados pelo usuário final.
 
-## Tipo de expressão retornada{#returned-expression-type}
+## Tipo de expressão retornada {#returned-expression-type}
 
 Dependendo do contexto de uso, o editor de expressão pode retornar valores diferentes.
 
