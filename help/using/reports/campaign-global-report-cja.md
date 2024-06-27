@@ -7,16 +7,16 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
+badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '4251'
+source-wordcount: '4252'
 ht-degree: 2%
 
 ---
 
-# Relatório de campanhas {#campaign-global-report-cja}
+# Relatório de campanha {#campaign-global-report-cja}
 
 A variável **Relatório de campanha** O atua como um painel abrangente, fornecendo uma análise detalhada das principais métricas associadas à sua campanha. Ele inclui dados como contagens de cliques, mensagens enviadas, números de perfil e ações tomadas. Ao oferecer uma visão geral completa da eficácia e dos níveis de engajamento da sua campanha, o relatório garante uma compreensão completa do desempenho geral da campanha.
 
@@ -160,6 +160,7 @@ Para aprofundar esses resultados e como interpretá-los, consulte [esta página]
 
 <!--
 * **[!UICONTROL Confidence Upper bound]**:
+
 * **[!UICONTROL Confidence Lower bound]**:
 -->
 +++

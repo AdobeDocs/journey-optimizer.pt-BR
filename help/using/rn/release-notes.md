@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3d3714675833f685c0775be68a403f4e9de3ce27
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 76%
+source-wordcount: '1032'
+ht-degree: 75%
 
 ---
 
@@ -74,7 +74,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Relatório com o Customer Journey Analytics (Beta)</strong><br/></th>
+<th><strong>Relatórios com Customer Journey Analytics (disponibilidade limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -165,7 +165,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-#### Fragmentos de conteúdo
+#### Fragmentos de conteúdo 
 
 >[!AVAILABILITY]
 >
