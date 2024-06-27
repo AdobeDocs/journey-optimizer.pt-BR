@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 152d637b631650e99c67df9be179ab1f5b5e682b
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 15%
+source-wordcount: '905'
+ht-degree: 18%
 
 ---
 
@@ -49,10 +49,6 @@ No **[!UICONTROL Mais ações]** ao lado de cada fragmento, é possível:
 >title="Novos status de fragmentos"
 >abstract="Como os status **Rascunho** e **Ativo** foram introduzidos com a versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status “Rascunho”, mesmo se forem usados em uma jornada ou campanha. Ao fazer qualquer alteração nesses fragmentos, será necessário publicá-los para torná-los “Ativos” e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la. A publicação requer a permissão do usuário do Fragmento do Publish."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Saiba mais sobre permissões de fragmentos de conteúdo"
-
->[!AVAILABILITY]
->
-> Observe que os status dos fragmentos estão sendo implantados gradualmente durante vários dias após a versão de junho do Journey Optimizer. Embora alguns usuários tenham acesso imediato, outros podem enfrentar um atraso antes que ele se torne disponível em seus ambientes. Se esse aprimoramento ainda não estiver disponível em seu ambiente, observe que o fragmento não precisa ser **Ao vivo** para ser usado em suas jornadas e campanhas.
 
 Os fragmentos podem ter vários status:
 
@@ -102,10 +98,6 @@ Para editar um fragmento, siga as etapas abaixo.
 1. Quando as alterações estiverem prontas, clique no link **Publish** botão para ativar as modificações.
 
 Ao editar um fragmento, as alterações são propagadas automaticamente para todo o conteúdo usando esse fragmento, incluindo jornadas e campanhas ativas, com exceção do conteúdo em que você interrompeu a herança do fragmento original. Saiba como interromper a herança no [Adicionar fragmentos visuais aos seus emails](../email/use-visual-fragments.md#break-inheritance) e [Aproveitar fragmentos de expressão](../personalization/use-expression-fragments.md#break-inheritance) seções.
-
->[!AVAILABILITY]
->
->Observe que a propagação de alterações de fragmentos em jornadas e campanhas ativas está sendo distribuída gradualmente ao longo de vários dias após o lançamento do Journey Optimizer em junho. Embora alguns usuários tenham acesso imediato, outros podem enfrentar um atraso antes que ele se torne disponível em seus ambientes. Se esse aprimoramento ainda não estiver disponível em seu ambiente, suas alterações não serão propagadas para o conteúdo usado em jornadas ou campanhas ativas.
 
 ## Explorar referências {#explore-references}
 

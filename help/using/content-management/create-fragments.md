@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 13%
+source-wordcount: '646'
+ht-degree: 14%
 
 ---
 
@@ -72,10 +72,6 @@ Após configurar as propriedades do fragmento, o Designer de email ou o editor d
   ![](assets/fragment-expression-editor.png)
 
 Quando o conteúdo estiver pronto, clique no link **Salvar** botão. O fragmento é criado e adicionado à lista de fragmentos com o **Rascunho** status. Você pode visualizá-la e publicá-la para torná-la disponível em jornadas e campanhas.
-
->[!NOTE]
->
->A publicação de fragmentos está sendo lançada gradualmente ao longo de vários dias após o lançamento do Journey Optimizer em junho. Embora alguns usuários tenham acesso imediato, outros podem enfrentar um atraso antes que ele se torne disponível em seus ambientes. Se esse aprimoramento ainda não estiver disponível em seu ambiente, observe que a publicação de fragmentos não é necessária para usar fragmentos em suas jornadas e campanhas.
 
 ## Pré-visualizar e publicar o fragmento {#publish}
 

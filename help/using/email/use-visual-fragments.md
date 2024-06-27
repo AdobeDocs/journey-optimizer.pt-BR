@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '669'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Para usar um fragmento em um email, siga as etapas abaixo.
 >Você pode adicionar até 30 fragmentos em um determinado delivery. Os fragmentos só podem ser aninhados até um nível.
 
 
-1. Abra qualquer conteúdo de email ou modelo usando o [Email Designer](get-started-email-design.md).
+1. Abra qualquer conteúdo de email ou modelo usando o [Designer de email](get-started-email-design.md).
 
 1. Selecione o **[!UICONTROL Fragmentos]** no painel esquerdo.
 
@@ -54,8 +54,6 @@ Para usar um fragmento em um email, siga as etapas abaixo.
    >[!CAUTION]
    >
    >É possível adicionar qualquer **Rascunho** ou **Ao vivo** fragmento ao seu conteúdo. No entanto, você não poderá ativar sua jornada ou campanha se um fragmento com o status Rascunho estiver sendo usado nele. Na publicação do jornada ou da campanha, os fragmentos de rascunho mostrarão um erro e você precisará aprová-los para poder publicar.
-   >
-   > Observe que os status dos fragmentos estão sendo implantados gradualmente durante vários dias após a versão de junho do Journey Optimizer. Embora alguns usuários tenham acesso imediato, outros podem enfrentar um atraso antes que ele se torne disponível em seus ambientes. Se esse aprimoramento ainda não estiver disponível em seu ambiente, observe que o fragmento não precisa ser **Ao vivo** para ser usado em suas jornadas e campanhas.
 
 1. Como qualquer outro componente, é possível mover o fragmento no conteúdo.
 

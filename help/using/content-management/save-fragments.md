@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 8%
+source-wordcount: '460'
+ht-degree: 11%
 
 ---
 
@@ -23,7 +23,7 @@ Ao editar conteúdo no [!DNL Journey Optimizer], você pode salvar todo o conte�
 
 Para salvar o conteúdo do Designer de email como fragmento, siga estas etapas:
 
-1. No [Email Designer](../email/get-started-email-design.md), clique nas reticências na parte superior direita da tela.
+1. No [Designer de email](../email/get-started-email-design.md), clique nas reticências na parte superior direita da tela.
 
 1. Selecionar **[!UICONTROL Salvar como fragmento]** no menu suspenso.
 
@@ -50,10 +50,6 @@ Para salvar o conteúdo do Designer de email como fragmento, siga estas etapas:
    >Qualquer alteração nesse novo fragmento não é propagada para o email ou modelo de onde vem. Da mesma forma, quando o conteúdo original é editado nesse email ou modelo, o novo fragmento não é modificado.
 
 1. Para poder usar o fragmento em suas jornadas e campanhas, é necessário ativá-lo. [Saiba como visualizar e publicar um fragmento](../content-management/create-fragments.md#publish)
-
->[!NOTE]
->
->A publicação de fragmentos está sendo lançada gradualmente ao longo de vários dias após o lançamento do Journey Optimizer em junho. Embora alguns usuários tenham acesso imediato, outros podem enfrentar um atraso antes que ele se torne disponível em seus ambientes. Se esse aprimoramento ainda não estiver disponível em seu ambiente, observe que a publicação de fragmentos não é necessária para usar fragmentos em suas jornadas e campanhas.
 
 ## Salvar como fragmento de expressão {#save-as-expression-fragment}
 
@@ -83,7 +79,3 @@ Para salvar o conteúdo como um fragmento de expressão, siga as etapas abaixo.
 1. O fragmento é adicionado à variável [lista de fragmentos](#access-manage-fragments) com o **Rascunho** status. Ele se torna um fragmento independente que pode ser usado como qualquer outro fragmento de expressão dessa lista.
 
 1. Para poder usar o fragmento em suas jornadas e campanhas, é necessário ativá-lo. [Saiba como visualizar e publicar um fragmento](../content-management/create-fragments.md#publish)
-
->[!NOTE]
->
->A publicação de fragmentos está sendo lançada gradualmente ao longo de vários dias após o lançamento do Journey Optimizer em junho. Embora alguns usuários tenham acesso imediato, outros podem enfrentar um atraso antes que ele se torne disponível em seus ambientes. Se esse aprimoramento ainda não estiver disponível em seu ambiente, observe que a publicação de fragmentos não é necessária para usar fragmentos em suas jornadas e campanhas.
