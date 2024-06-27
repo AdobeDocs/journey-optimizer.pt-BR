@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 0ee93c3f3e922d0640b2867dcf5ebb83d67aa826
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '315'
 ht-degree: 11%
 
 ---
@@ -36,7 +36,7 @@ Para aproveitar ao máximo os fragmentos:
 
 ## Antes de começar {#fragment-prerequisites}
 
-Para criar, editar e arquivar fragmentos, você deve ter a **[!DNL Manage library items]** permissão incluída na **[!DNL Content Library Manager]** perfil do produto. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
+Para criar, editar, arquivar e publicar fragmentos, você precisa da **[!DNL Manage library items]** e **[Fragmento do Publish]** permissões incluídas no **[!DNL Content Library Manager]** perfil do produto. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
 
 Nesta versão, as seguintes limitações se aplicam:
 
@@ -47,7 +47,7 @@ Nesta versão, as seguintes limitações se aplicam:
 
 Dois tipos de fragmentos estão disponíveis:
 
-* **Fragmentos visuais** são blocos visuais predefinidos que podem ser reutilizados em vários deliveries de email usando o [Email Designer](../email/get-started-email-design.md), ou em [modelos de conteúdo](../email/use-email-templates.md).
+* **Fragmentos visuais** são blocos visuais predefinidos que podem ser reutilizados em vários deliveries de email usando o [Designer de email](../email/get-started-email-design.md), ou em [modelos de conteúdo](../email/use-email-templates.md).
 * **Fragmentos de expressão** são expressões predefinidas que estão disponíveis em uma entrada dedicada no [editor de personalização](../personalization/personalization-build-expressions.md).
 
 Todos os fragmentos criados podem ser acessados no **[!UICONTROL Gestão de conteúdo]** > **[!UICONTROL Fragmentos]**  menu esquerdo. [Saiba como gerenciar fragmentos](../content-management/manage-fragments.md)

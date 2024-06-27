@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 14%
 
 ---
@@ -77,7 +77,7 @@ Quando o conteúdo estiver pronto, clique no link **Salvar** botão. O fragmento
 
 >[!NOTE]
 >
->Para publicar um fragmento, é necessário ter a **Fragmento do Publish** permissão relacionada. [Saiba mais sobre permissões](../administration/ootb-permissions.md)
+>Para publicar um fragmento, é necessário ter a [Fragmento do Publish](../administration/ootb-product-profiles.md#content-library-manager) permissão de usuário.
 
 Se o fragmento estiver pronto para entrar no ar, você poderá visualizá-lo e publicá-lo para disponibilizá-lo em suas jornadas e campanhas. Para fazer isso, siga estes passos:
 
