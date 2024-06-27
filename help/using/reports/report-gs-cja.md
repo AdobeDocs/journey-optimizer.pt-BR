@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
+source-git-commit: c2fda001969867aebcc4e5c6854183c30240fddb
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 0%
+source-wordcount: '374'
+ht-degree: 7%
 
 ---
 
@@ -48,3 +48,9 @@ Os relatórios do Journey Optimizer vêm com uma interoperabilidade melhorada co
 * Para acessar o painel de Customer Journey Analytics no Journey Optimizer, basta habilitar a **[!UICONTROL Usar nova experiência]** alternar no seu relatório.
 
   ![](assets/cja-option.png)
+
+## Vídeo tutorial{#video}
+
+O vídeo abaixo mostra como atribuir a variável **Gerenciar configuração do aplicativo** permissão para acessar o menu Superfícies do aplicativo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)
