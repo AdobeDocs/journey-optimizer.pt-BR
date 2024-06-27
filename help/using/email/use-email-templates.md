@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabalhar com modelos de email
+title: Trabalho com modelos de email
 description: Saiba como salvar seu conteúdo de email como modelo e reutilizá-lo no Journey Optimizer
 feature: Email Design, Templates
 topic: Content Management
@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: email, modelos, design
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 08f12adf384b98dfa1d69cbc2d684c3bf58d31fa
+source-git-commit: 5be9ac1f77d7a09089dd8115fd7c9cfa0a3ab0d2
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 15%
+source-wordcount: '265'
+ht-degree: 20%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 15%
 >id="ajo_use_template"
 >title="Criar conteúdo a partir de um modelo "
 >abstract="Para começar a criar o conteúdo de email, selecione um modelo pronto para uso ou um modelo personalizado existente (criado do zero ou salvo como modelo de um email anterior)."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/content-templates#create-content-templates" text="Criar modelos de conteúdo"
 
 No **[!UICONTROL Criar seu email]** , use o **[!UICONTROL Selecionar modelo de design]** para começar a criar o conteúdo a partir de um modelo.
 
@@ -48,7 +47,7 @@ Para começar a criar o conteúdo com um dos modelos de amostra ou salvos, siga 
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. A lista de todas as [modelos de conteúdo](../content-management/content-templates.md#create-content-templates) criado na sandbox atual é exibido. Você pode classificá-los **[!UICONTROL Por nome]**, **[!UICONTROL Última modificação]** e **[!UICONTROL Última criação]**.
+1. A lista de todas as [modelos de conteúdo](../content-management/content-templates.md#create-content-templates) criado na sandbox atual é exibido. Você pode classificá-las **[!UICONTROL Por nome]**, **[!UICONTROL Última modificação]** e **[!UICONTROL Última criação]**.
 
    ![](assets/email_designer-saved-templates-filter.png)
 
