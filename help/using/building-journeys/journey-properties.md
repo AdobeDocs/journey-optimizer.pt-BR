@@ -11,8 +11,8 @@ keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1724'
+ht-degree: 17%
 
 ---
 
@@ -64,8 +64,8 @@ O gerenciamento de entrada de perfis depende do tipo de jornadas. Saiba mais sob
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Permitir reentrada"
->abstract="Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção **Permitir reentrada** opção, por exemplo, se você quiser oferecer um presente único quando uma pessoa entrar em uma loja."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gerenciamento de entrada de perfis"
+>abstract="Por padrão, novas jornadas permitem a reentrada. É possível desmarcar a opção **Permitir reentrada**, por exemplo, caso queira oferecer um presente único quando uma pessoa entra em uma loja."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gerenciamento de entrada de perfis"
 
 Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção **Permitir reentrada** opção para jornadas &quot;one shot&quot;, por exemplo, se você quiser oferecer um presente único quando uma pessoa entrar em uma loja.
 
@@ -74,8 +74,8 @@ Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Período de espera de reentrada"
->abstract=" Defina o tempo de espera antes de permitir que um perfil entre na jornada novamente em jornadas unitárias. Isso impede que os usuários insiram novamente na jornada por um período determinado. Duração máxima: 90 dias."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gerenciamento de entrada de perfis"
+>abstract=" Defina o tempo de espera antes de permitir que um perfil entre na jornada novamente em jornadas unitárias. Isso impede que os usuários entrem novamente na jornada por um período determinado. Duração máxima: 90 dias."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gerenciamento de entrada de perfis"
 
 Quando a variável **Permitir reentrada** estiver ativada, a variável **Período de espera de reentrada** é exibido. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de público-alvo). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. A duração máxima é de 90 dias.
 
@@ -92,30 +92,30 @@ O fuso horário é definido no nível da jornada. Você pode inserir um fuso hor
 
 Para obter mais informações sobre o gerenciamento de fuso horário, consulte [esta página](../building-journeys/timezone-management.md).
 
-## Datas de início e término {#dates}
+## Datas iniciais e finais {#dates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Data de início"
->abstract="Escolha a data em que a entrada na jornada pode começar. Se nenhuma data de início for especificada, ela será definida automaticamente no momento da publicação."
+>abstract="Escolha a data em que a entrada na jornada pode começar. Se nenhuma data inicial for especificada, ela será definida automaticamente no momento da publicação."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Data de término"
->abstract="Escolha a data de término da jornada. Quando essa data é atingida, os perfis nessa jornada saem automaticamente e os novos perfis não podem mais inseri-la."
+>abstract="Escolha a data final da jornada. Quando essa data é atingida, os perfis nessa jornada saem automaticamente e novos perfis não podem mais entrar."
 
 Você pode definir um **Data inicial**. Se não tiver especificado um, ele será definido automaticamente no momento da publicação.
 
 Você também pode adicionar um **Data final**. Isso permite que os perfis saiam automaticamente quando a data for atingida. Se nenhuma data final for especificada, os perfis poderão permanecer até que o [tempo limite de jornada global](#global_timeout) (que geralmente é de 91 dias). A única exceção são as jornadas recorrentes de leitura de público com **Forçar reentrada na recorrência** ativadas, que terminam na data de início da próxima ocorrência.
 
-## Tempo esgotado {#timeout}
+## Tempo limite {#timeout}
 
-### Tempo limite ou erro em atividades de jornada {#timeout_and_error}
+### Tempo limite ou erro em atividades da jornada {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
->title="Tempo esgotado"
+>title="Tempo limite"
 >abstract="Defina por quanto tempo a jornada tentará executar uma ação ou verificar uma condição antes de considerá-la como tempo limite."
 
 

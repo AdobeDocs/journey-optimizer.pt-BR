@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 38496b93f073c0e9cb208b0c62e6c4cb8a2d8c03
 workflow-type: tm+mt
 source-wordcount: '1341'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
@@ -41,8 +41,8 @@ Para inserir um link de cancelamento de subscrição no seu conteúdo de email, 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="Adicionar URL de cancelamento de inscrição no cabeçalho do email"
->abstract="Ative o cabeçalho Lista-Cancelar inscrição para adicionar um URL de cancelamento de inscrição no cabeçalho do email. Para definir um URL para cancelar a inscrição, insira um link para opção de não participação de um clique no conteúdo da mensagem de email."
+>title="Adicionar URL para cancelar inscrição no cabeçalho do email"
+>abstract="Ative o cabeçalho Cancelar inscrição da lista para adicionar um URL de cancelamento de inscrição no cabeçalho do email. Para definir um URL para cancelar a inscrição, insira um link para opção de não participação de um clique no conteúdo da mensagem de email."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=pt-BR#one-click-opt-out" text="Recusar com um clique"
 
 O URL para cancelar a inscrição da lista com um clique é um link ou botão para cancelar a inscrição exibido ao lado das informações do remetente do email e permite que os destinatários excluam instantaneamente suas listas de endereçamento com um único clique. No Adobe Journey Optimizer, quando a variável **Ativar lista-Cancelar inscrição** estiver ativada, o cabeçalho do e-mail incluirá um mailto e/ou um URL por padrão que os recipients podem usar para cancelar a inscrição da sua lista de mala direta.

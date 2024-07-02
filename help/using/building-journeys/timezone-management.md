@@ -12,7 +12,7 @@ exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 1%
+ht-degree: 28%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"
->title="Fuso horário"
->abstract="Selecione o fuso horário da jornada. Ao usar um fuso horário fixo, é o mesmo para todos os indivíduos que entram na jornada."
+>title="Fuso Horário"
+>abstract="Selecione o fuso horário da jornada. Ao usar um horário fixo, será definido o mesmo fuso para todos os indivíduos que entram na jornada."
 
 
 Você pode definir um fuso horário na variável [propriedades](../building-journeys/journey-properties.md#timezone) da sua jornada.
