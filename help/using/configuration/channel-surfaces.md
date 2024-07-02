@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 9af49f0a47ad5bc1d2cea3e822ec20e2930140d3
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 9%
+source-wordcount: '1758'
+ht-degree: 10%
 
 ---
 
@@ -22,6 +22,36 @@ ht-degree: 9%
 >id="ajo_admin_channel_surfaces"
 >title="Superfície de canal"
 >abstract="Uma superfície de canal é uma configuração definida por um administrador do sistema. Contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_marketing_action"
+>title="Ação de marketing"
+>abstract="A CONFIRMAR"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_app_id"
+>title="ID do aplicativo"
+>abstract="A CONFIRMAR"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_location"
+>title="Localização na página"
+>abstract="A CONFIRMAR"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_page_rule"
+>title="Regra de correspondência de páginas"
+>abstract="A CONFIRMAR"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_url"
+>title="URL padrão"
+>abstract="A CONFIRMAR"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_uri"
+>title="URI de superfície"
+>abstract="A CONFIRMAR"
 
 Com [!DNL Journey Optimizer], você pode configurar superfícies de canal (ou seja, predefinições de mensagem) que definem todos os parâmetros técnicos necessários para suas mensagens: tipo de email, email e nome do remetente, aplicativos móveis, configuração de SMS e muito mais.
 
@@ -158,7 +188,7 @@ Depois de criadas, as superfícies de canal podem ter os seguintes status:
 
 Em caso de falha na criação de uma superfície de canal, os detalhes sobre cada possível motivo de falha são descritos abaixo.
 
-Se um desses erros ocorrer, entre em contato com [Atendimento ao cliente Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} para obter assistência.
+Se um desses erros ocorrer, entre em contato com [Atendimento ao cliente Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} para obter assistência.
 
 * **Falha na validação do SPF**: SPF (Sender Policy Framework) é um protocolo de autenticação de email que permite especificar IPs autorizados que podem enviar emails de um determinado subdomínio. Falha na validação do SPF significa que os endereços IP no registro SPF não correspondem aos endereços IP usados para enviar emails para os provedores de caixa de correio.
 
@@ -254,7 +284,7 @@ Depois que o processo de validação for bem-sucedido, a nova versão da superf�
 * alguns minutos antes de ser consumido pelas mensagens unitárias,
 * até o próximo lote para que a superfície seja efetiva em mensagens em lote.
 
-#### Falha {#failed}
+#### Com falha {#failed}
 
 Se o processo de validação falhar, a versão mais antiga da superfície ainda será usada.
 
