@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitário, create, jornada
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 2edb6f9d9b359293afcf5409b8b18068f43a38ec
+source-git-commit: 65a1672c2440a3498ec1fc1c7db62080aa306cf4
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1608'
 ht-degree: 12%
 
 ---
@@ -161,9 +161,9 @@ Se você precisar usar uma chave diferente, como uma ID do CRM ou um endereço d
 Quando o evento é recebido, o valor da chave permite que o sistema identifique a pessoa associada ao evento. Associado a um namespace (consulte [nesta seção](../event/about-creating.md#select-the-namespace)), a chave pode ser usada para executar consultas no Adobe Experience Platform. Consulte [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
 A chave também é usada para verificar se uma pessoa está em uma jornada. De fato, uma pessoa não pode estar em dois lugares diferentes na mesma jornada. Como resultado, o sistema não permite que a mesma chave, por exemplo, a chave CRMID=3224, esteja em locais diferentes na mesma jornada.
 
-### Editor de expressão avançado {#adv-exp-editor}
+## Editor de expressão avançado {#adv-exp-editor}
 
-Ao definir o identificador de perfil, você pode alternar para o editor de expressão avançado para criar chaves mais complexas (por exemplo, uma concatenação de dois campos dos eventos).
+Ao definir a condição da ID de evento ou o identificador de perfil, você pode alternar para o editor de expressão avançado para criar chaves mais complexas (por exemplo, uma concatenação de dois campos dos eventos).
 
 ![](assets/journey20.png)
 
