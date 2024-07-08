@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fa4bcf281e9d58f5291a0128d0d33884016f407b
+source-git-commit: 18fca9796e40d43f886ad8d53ef7d1b6b6642aa6
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 69%
+source-wordcount: '1104'
+ht-degree: 70%
 
 ---
 
@@ -30,7 +30,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Última atualização**: 8 de julho de 2024
 
-**Editor de expressão avançado na configuração do evento de jornada** - Agora você pode aproveitar o editor de expressão avançado ao configurar um evento, permitindo definir expressões mais complexas ou usar funções na condição de id de evento. Lançado anteriormente em Disponibilidade Limitada (DL), essa melhoria está agora disponível para todos os clientes. [Saiba mais](../event/about-creating.md#adv-exp-editor)
+**Editor de expressão avançado na configuração do evento de jornada** - Agora você pode aproveitar o editor de expressão avançado ao configurar um evento, permitindo definir expressões mais complexas ou usar funções na condição de id de evento. [Saiba mais](../event/about-creating.md#adv-exp-editor)
 
 
 ## Notas de versão de junho de 2024 {#24-6-2024}
