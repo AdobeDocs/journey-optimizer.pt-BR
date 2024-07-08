@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: event, unitário, create, jornada
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 531662b7d5e2455a017d68d6037c44b6950cc894
+source-git-commit: 60a7e79a5a40eada7645c1b6b94d8b165d2453b4
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1616'
 ht-degree: 12%
 
 ---
@@ -61,7 +61,7 @@ Estas são as primeiras etapas para configurar um novo evento:
    >
    >Ao selecionar a variável **[!UICONTROL Gerado pelo sistema]** tipo, somente os esquemas que têm o campo de tipo eventID estão disponíveis. Ao selecionar a variável **[!UICONTROL Baseado em regras]** , todos os esquemas de Evento de experiência estarão disponíveis.
 
-1. Para eventos baseados em regras, clique dentro da variável **[!UICONTROL Condição de ID de evento]** campo. Usar o <!--simple or advanced--> editor de expressão, defina a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
+1. Para eventos baseados em regras, clique dentro da variável **[!UICONTROL Condição de ID de evento]** campo. Usando o editor de expressão simples ou avançado, defina a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
 
 ![](assets/jo-event6.png)
 
