@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1873'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -276,7 +276,7 @@ ht-degree: 98%
       + [Introdução ao conteúdo multilíngue](using/content-management/multilingual-gs.md)
       + [Criação do conteúdo multilíngue com tradução manual](using/content-management/multilingual-manual.md)
       + [Criação do conteúdo multilíngue com tradução automática](using/content-management/multilingual-automated.md)
-   + Trabalhar com o experimento de conteúdo {#content-experiment}
+   + Trabalho com experimento de conteúdo {#content-experiment}
       + [Introdução ao experimento de conteúdo](using/content-management/get-started-experiment.md)
       + [Criar um experimento de conteúdo](using/content-management/content-experiment.md)
       + [Configurar relatórios de experimentação](using/content-management/reporting-configuration.md)
@@ -312,8 +312,8 @@ ht-degree: 98%
          + [Notificação do status do pedido](using/personalization/personalization-use-case.md)
          + [Email de abandono do carrinho](using/personalization/personalization-use-case-helper-functions.md)
    + Modelos de conteúdo {#content-templates}
-      + [Introdução a modelos de conteúdo](using/content-management/content-templates.md)
-      + [Acessar e gerenciar modelos](using/content-management/access-content-templates.md)
+      + [Introdução aos modelos de conteúdo](using/content-management/content-templates.md)
+      + [Acessar e gerenciar modelos ](using/content-management/access-content-templates.md)
       + [Criar modelos de conteúdo](using/content-management/create-content-templates.md)
       + [Testar modelos de conteúdo](using/content-management/test-content-templates.md)
       + [Usar modelos de conteúdo](using/content-management/use-content-templates.md)
@@ -386,7 +386,7 @@ ht-degree: 98%
    + [Alertas](using/reports/alerts.md)
    + [Trabalhar com o Customer Journey Analytics](using/reports/cja-ajo.md)
    + [Motivos de exclusão](using/reports/exclusion-list.md)
-+ Nova interface de relatório (DL){#channel-report}
++ Nova interface de relatórios (disponibilidade limitada){#channel-report}
    + [Introdução à nova interface de relatórios](using/reports/report-gs-cja.md)
    + [Gerenciar seus relatórios](using/reports/report-cja-manage.md)
    + [Relatório de jornada](using/reports/journey-global-report-cja.md)
