@@ -24,11 +24,11 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Conjuntos de regras"
->abstract="Use conjuntos de regras para aplicar limites de frequência a diferentes tipos de comunicações de marketing. Por exemplo, é possível criar um conjunto de regras para limitar o número de **comunicações promocionais** enviadas a clientes e outro conjunto de regras para limitar o número de **informativos** enviados. "
+>abstract="Use conjuntos de regras para aplicar limites de frequência a diferentes tipos de comunicações de marketing. Por exemplo, é possível criar um conjunto de regras para limitar o número de **comunicações promocionais** enviadas a clientes e outro conjunto de regras para limitar o número de **informativos** enviados."
 
 >[!AVAILABILITY]
 >
->Os conjuntos de regras estão disponíveis no momento como uma versão beta somente para usuários selecionados. Entre em contato com o representante da Adobe para ser incluído na versão beta.
+>Os conjuntos de regras estão disponíveis no momento como uma versão beta somente para usuários selecionados. Entre em contato com o representante da Adobe para ser incluído na Beta.
 
 ## O que são conjuntos de regras? {#what}
 
@@ -38,7 +38,7 @@ Por exemplo, é possível criar um conjunto de regras para limitar o número de 
 
 ## Conjuntos de regras globais e personalizadas {#global-custom}
 
-Ao acessar conjuntos de regras pela primeira vez a partir do **[!UICONTROL Administração]** > **[!UICONTROL Regras de negócio (Beta)]** , um conjunto de regras padrão é pré-criado e está ativo: **Conjunto de Regras Padrão Global**.
+Ao acessar conjuntos de regras pela primeira vez a partir do **[!UICONTROL Administração]** > **[!UICONTROL Regras comerciais (Beta)]** , um conjunto de regras padrão é pré-criado e está ativo: **Conjunto de Regras Padrão Global**.
 
 Esse conjunto de regras contém regras globais que podem ser aplicadas para controlar a frequência com que os usuários recebem mensagens em um ou vários canais, de modo semelhante a como as regras de negócios atuais operam. Todas as regras definidas nesse conjunto de regras se aplicam a todos os canais selecionados, independentemente de as comunicações serem enviadas de uma jornada ou campanha. [Saiba como trabalhar com regras de negócios](frequency-rules.md)
 
@@ -84,7 +84,7 @@ Para criar um conjunto de regras, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
 >title="Definir o limite para a regra"
->abstract="Especifique o número máximo de mensagens enviadas a um perfil de cliente no intervalo de tempo escolhido. O limite de frequência será baseado no período do calendário selecionado e redefinido no início do intervalo de tempo correspondente. "
+>abstract="Especifique o número máximo de mensagens enviadas a um perfil de cliente no intervalo de tempo escolhido. O limite de frequência será baseado no período do calendário selecionado e redefinido no início do intervalo de tempo correspondente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -176,7 +176,7 @@ Seu status mudará para **[!UICONTROL Inativo]** e a regra não se aplicará a e
 
 ## Acessar e gerenciar conjuntos de regras {#access-rule-sets}
 
-Todos os conjuntos de regras criados são exibidos no **[!UICONTROL Administração]** > **[!UICONTROL Regras de negócio (Beta)]** menu. Eles são classificados por data da última modificação.
+Todos os conjuntos de regras criados são exibidos no **[!UICONTROL Administração]** > **[!UICONTROL Regras comerciais (Beta)]** menu. Eles são classificados por data da última modificação.
 
 ![](assets/rule-sets-list.png)
 

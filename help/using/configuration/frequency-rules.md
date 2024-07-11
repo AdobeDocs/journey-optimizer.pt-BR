@@ -49,7 +49,7 @@ Usuários com o **[!UICONTROL Exibir regras de frequência]** As permissões do 
 
 ![](assets/message-rules-access.png)
 
-Saiba mais sobre permissões no [nesta seção](../administration/high-low-permissions.md).
+Saiba mais sobre permissões [nesta seção](../administration/high-low-permissions.md).
 
 ## Criar uma regra de negócios {#create-new-rule}
 
@@ -61,7 +61,7 @@ Saiba mais sobre permissões no [nesta seção](../administration/high-low-permi
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="Definir o limite para a regra de negócios"
->abstract="Especifique o número máximo de mensagens enviadas a um perfil de cliente no intervalo de tempo escolhido. O limite de frequência será baseado no período do calendário selecionado e redefinido no início do intervalo de tempo correspondente. "
+>abstract="Especifique o número máximo de mensagens enviadas a um perfil de cliente no intervalo de tempo escolhido. O limite de frequência será baseado no período do calendário selecionado e redefinido no início do intervalo de tempo correspondente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"

@@ -20,7 +20,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_level_report"
 >title="Relatório de nível de canal"
->abstract="Os relatórios de canal oferecem uma visão geral abrangente das métricas de engajamento e tráfego em todos os canais. Seus relatórios são divididos em diferentes dispositivos, os quais detalham o sucesso e os erros da campanha e das jornadas. Cada painel de relatórios pode ser modificado redimensionando ou removendo dispositivos."
+>abstract="Os relatórios de canal oferecem uma visão geral abrangente das métricas de engajamento e tráfego em todos os canais. Seus relatórios são divididos em diferentes dispositivos, os quais detalham o sucesso e os erros da campanha e das jornadas. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
 >[!IMPORTANT]
 >

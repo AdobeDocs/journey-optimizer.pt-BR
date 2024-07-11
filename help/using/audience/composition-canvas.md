@@ -80,7 +80,7 @@ Você pode remover uma atividade da tela a qualquer momento clicando no botão E
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
->title="Atividade de público"
+>title="Atividade de público-alvo"
 >abstract="A atividade de público permite incluir em sua composição perfis adicionais pertencentes a um público existente."
 
 >[!CONTEXTUALHELP]
@@ -198,7 +198,7 @@ A variável **[!UICONTROL Classificação]** A atividade de permite classificar 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
->title="Atividade de divisão"
+>title="Atividade Divisão"
 >abstract="A atividade de divisão permite dividir a composição em vários caminhos. Ao publicar a composição, um público será salvo na Adobe Experience Platform para cada caminho."
 
 >[!CONTEXTUALHELP]

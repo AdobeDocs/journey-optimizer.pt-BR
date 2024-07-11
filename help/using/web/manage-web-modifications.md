@@ -98,13 +98,13 @@ Para adicionar um **Seletor de CSS** tipo de modificação, siga as etapas abaix
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="Adicionar código personalizado"
->abstract="O elemento HEAD é um container de metadados que é inserido entre a tag HTML e a tag BODY. Adicionar apenas elementos SCRIPT e STYLE. Adicionar tags DIV e outros elementos pode fazer com que os elementos HEAD restantes sejam exibidos em BODY. "
+>abstract="O elemento HEAD é um container de metadados que é inserido entre a tag HTML e a tag BODY. Adicionar apenas elementos SCRIPT e STYLE. Adicionar tags DIV e outros elementos pode fazer com que os elementos HEAD restantes sejam exibidos em BODY."
 
 É possível adicionar um código personalizado usando o **[!UICONTROL Página`<head>`]** tipo de modificação.
 
 A variável `<head>` elemento é um container de metadados (dados sobre dados) e é colocado entre o `<html>` e a tag `<body>` tag. Nesse caso, o código não aguarda os eventos body ou page-load; ele é executado no início do carregamento da página.
 
-A variável `<head>` O elemento é normalmente usado para adicionar JavaScript ou código CSS à parte superior da página. Os seletores para ações visuais subsequentes dependem dos elementos de HTML adicionados nessa guia.
+A variável `<head>` O elemento é normalmente usado para adicionar o código JavaScript ou CSS à parte superior da página. Os seletores para ações visuais subsequentes dependem dos elementos de HTML adicionados nessa guia.
 
 Para adicionar um **Página`<head>`** tipo de modificação, siga as etapas abaixo.
 
@@ -128,7 +128,7 @@ Para adicionar um **Página`<head>`** tipo de modificação, siga as etapas abai
 
 Você pode usar o **[!UICONTROL Página`<head>`]** tipo de modificação para:
 
-* Use JavaScript em linha ou vincule a um arquivo JavaScript externo.
+* Use o JavaScript em linha ou vincule a um arquivo externo do JavaScript.
 
   Por exemplo, para alterar a cor de um elemento:
 

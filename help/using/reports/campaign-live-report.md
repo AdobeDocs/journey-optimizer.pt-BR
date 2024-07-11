@@ -198,7 +198,7 @@ A variável **[!UICONTROL Email - Desempenho por data]** O widget oferece uma vi
 
 A variável **[!UICONTROL Motivos de erro]** os gráficos e tabelas fornecem informações sobre os erros específicos que ocorreram durante o processo de envio nas últimas 24 horas. Essas informações são valiosas para entender a natureza e a frequência dos erros.
 
-### Motivos de exclusão {#email-exclude-reasons}
+### Motivos para exclusão {#email-exclude-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_excluded_reasons"

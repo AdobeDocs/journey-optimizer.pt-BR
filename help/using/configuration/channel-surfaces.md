@@ -35,7 +35,7 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Localização na página"
+>title="Local na página"
 >abstract="A CONFIRMAR"
 
 >[!CONTEXTUALHELP]

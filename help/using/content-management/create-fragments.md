@@ -21,7 +21,7 @@ ht-degree: 14%
 >id="ajo_create_visual_fragment"
 >title="Selecione o tipo “Visual”"
 >abstract="Crie um fragmento visual independente para tornar o conteúdo reutilizável em um email de uma jornada ou campanha ou em um modelo de conteúdo."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="Adicionar fragmentos visuais aos emails"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="Adicionar fragmentos visuais aos emails"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"

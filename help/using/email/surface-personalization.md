@@ -25,7 +25,7 @@ Para obter mais flexibilidade e controle sobre as configurações de email, [!DN
 >
 >No momento, a personalização de superfície de email está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
 
-## Adicionar subdomínios dinâmicos  {#dynamic-subdomains}
+## Adicionar subdomínios dinâmicos {#dynamic-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"

@@ -20,7 +20,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_template"
->title="Criar conteúdo a partir de um modelo "
+>title="Criar conteúdo a partir de um modelo"
 >abstract="Para começar a criar o conteúdo de email, selecione um modelo pronto para uso ou um modelo personalizado existente (criado do zero ou salvo como modelo de um email anterior)."
 
 No **[!UICONTROL Criar seu email]** , use o **[!UICONTROL Selecionar modelo de design]** para começar a criar o conteúdo a partir de um modelo.

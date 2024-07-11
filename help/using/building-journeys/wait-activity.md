@@ -20,7 +20,7 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
->title="Atividade de espera"
+>title="Atividade Aguardar"
 >abstract="Se quiser esperar antes de executar a próxima atividade no caminho, você pode usar uma atividade Esperar. Ela permite definir o momento em que a próxima atividade será executada. Duas opções estão disponíveis: duração e personalizado."
 
 Você pode usar um **[!UICONTROL Aguardar]** atividade para definir uma duração antes de executar a próxima atividade.  A duração máxima de espera é **90 dias**.

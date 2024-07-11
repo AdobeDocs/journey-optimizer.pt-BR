@@ -179,7 +179,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="Definir o limite de divisão de arquivo"
->abstract="É necessário definir o número máximo de registros para cada arquivo contendo dados de público. Você pode selecionar qualquer número entre 1 e 200.000 registros.. Depois que o limite especificado for atingido, outro arquivo será criado para os registros restantes."
+>abstract="É necessário definir o número máximo de registros para cada arquivo contendo dados de público. Você pode selecionar qualquer número entre 1 e 200.000 registros. Depois que o limite especificado for atingido, outro arquivo será criado para os registros restantes."
 
 Para poder enviar mala direta com [!DNL Journey Optimizer], é necessário criar uma superfície de canal para definir as configurações de formatação do arquivo que será usado pelo provedor de email.
 
