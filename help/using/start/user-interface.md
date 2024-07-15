@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ Controle o gerenciamento de privacidade e as solicitações nesta seção.
 
 * **[!UICONTROL Sandboxes]** - a Adobe Experience Platform fornece sandboxes que dividem uma única instância em ambientes virtuais separados para ajudar a desenvolver e evoluir aplicativos de experiência digital. Navegue por esta seção para gerenciar suas sandboxes. [Saiba mais](../administration/sandboxes.md)
 
-* **[!UICONTROL Canais]** : use esta seção para configurar seus canais, incluindo subdomínios, superfícies e configurações de entrega. [Saiba mais](../configuration/get-started-configuration.md)
+* **[!UICONTROL Canais]**: use esta seção para configurar seus canais, incluindo subdomínios, superfícies e definições da capacidade de entrega. [Saiba mais](../configuration/get-started-configuration.md)
 
 * **[!UICONTROL Tags]**: com as tags unificadas, é possível classificar facilmente suas jornadas e campanhas para aprimorar a pesquisa nas listas. [Saiba mais](../start/search-filter-categorize.md#work-with-unified-tags)
 
