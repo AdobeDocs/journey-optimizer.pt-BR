@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
+source-git-commit: 50473c401e05b483387f8ff3c5c480020e8d5c14
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campanhas"
->abstract="Crie campanhas para fornecer conteúdo uma única vez a um público-alvo específico em vários canais. Antes de criar a campanha, certifique-se de ter uma superfície de canal (ou seja, uma predefinição de mensagem) e um público-alvo da Adobe Experience Platform pronto para uso."
+>abstract="Crie campanhas para fornecer conteúdo uma única vez a um público-alvo específico em vários canais. Antes de criar sua campanha, verifique se você tem uma superfície de canal e um público-alvo da Adobe Experience Platform prontos para uso."
 
 Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado.
 
