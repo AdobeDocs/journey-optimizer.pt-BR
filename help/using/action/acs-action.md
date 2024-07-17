@@ -12,7 +12,7 @@ exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ A mensagem transacional Campaign Standard e o evento associado devem ser publica
 
 ## Observações importantes {#important-notes}
 
-* Uma regra de limitação de 4.000 chamadas a cada 5 minutos é definida automaticamente para ações do Adobe Campaign Standard. Isso corresponde à escala oficial das Mensagens transacionais do Adobe Campaign Standard. Leia mais sobre SLAs de mensagens transacionais em [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
+* Uma regra de limitação de 4.000 chamadas a cada 5 minutos é definida automaticamente para ações do Adobe Campaign Standard. Isso corresponde à escala oficial das Mensagens transacionais do Adobe Campaign Standard. Leia mais sobre os SLAs de mensagens transacionais em [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html).
 
 * A integração do Adobe Campaign Standard é configurada por meio de uma ação incorporada dedicada na lista de ações. Isso precisa ser configurado para cada sandbox.
 
@@ -38,13 +38,13 @@ A mensagem transacional Campaign Standard e o evento associado devem ser publica
 
 Estas são as etapas para configurá-la:
 
-1. Selecionar **[!UICONTROL Configurações]** no menu ADMINISTRAÇÃO. No  **[!UICONTROL Ações]** clique em **[!UICONTROL Gerenciar]**. A lista de ações é exibida.
+1. Selecione **[!UICONTROL Configurações]** na seção de menu ADMINISTRAÇÃO. Na seção **[!UICONTROL Ações]**, clique em **[!UICONTROL Gerenciar]**. A lista de ações é exibida.
 
-1. Selecione o incorporado **[!UICONTROL AdobeCampaignStandard]** ação. O painel de configuração de ação é aberto no lado direito da tela.
+1. Selecione a ação **[!UICONTROL AdobeCampaignStandard]** interna. O painel de configuração de ação é aberto no lado direito da tela.
 
    ![](assets/actioncampaign.png)
 
-1. Copie o URL da instância do Adobe Campaign Standard e cole-o no **[!UICONTROL URL]** campo.
+1. Copie a URL da instância do Adobe Campaign Standard e cole no campo **[!UICONTROL URL]**.
 
 1. Clique em **[!UICONTROL Testar o URL da instância]** para testar a validade da instância.
 
@@ -58,10 +58,10 @@ Estas são as etapas para configurá-la:
    >
    >A ORG associada a essa instância do Adobe Campaign Standard é a mesma ORG do Journey Optimizer.
 
-Ao criar sua jornada, três ações estarão disponíveis no **[!UICONTROL Ação]** categoria: **[!UICONTROL E-mail]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Usar ações do Adobe Campaign](../building-journeys/using-adobe-campaign-standard.md)).
+Ao criar sua jornada, três ações estarão disponíveis na categoria **[!UICONTROL Ação]**: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Usar ações do Adobe Campaign](../building-journeys/using-adobe-campaign-standard.md)).
 
 ![](assets/journey58.png)
 
-Você pode usar um **Reações** para reagir aos dados de rastreamento relacionados a uma mensagem Campaign Standard enviada na mesma jornada. Para notificações por push, você pode reagir a mensagens clicadas, enviadas ou com falha. Para mensagens SMS, você pode reagir a mensagens enviadas ou com falha. Para emails, você pode reagir a mensagens clicadas, enviadas, abertas ou com falha. Consulte [Eventos de reações](../building-journeys/reaction-events.md).
+Você pode usar um evento **Reações** para reagir a dados de rastreamento relacionados a uma mensagem de Campaign Standard enviada na mesma jornada. Para notificações por push, você pode reagir a mensagens clicadas, enviadas ou com falha. Para mensagens SMS, você pode reagir a mensagens enviadas ou com falha. Para emails, você pode reagir a mensagens clicadas, enviadas, abertas ou com falha. Consulte [Reações e eventos](../building-journeys/reaction-events.md).
 
 Se você estiver usando um sistema de terceiros para enviar mensagens, será necessário adicionar e configurar uma ação personalizada. Consulte [Sobre a configuração de ação personalizada](../action/about-custom-action-configuration.md).

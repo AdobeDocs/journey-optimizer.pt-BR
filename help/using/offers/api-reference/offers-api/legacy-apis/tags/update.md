@@ -15,13 +15,13 @@ ht-degree: 8%
 
 # Atualizar um qualificador de coleção {#update-collection-qualifier}
 
-Você pode modificar ou atualizar um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;) no seu contêiner fazendo uma solicitação PATCH para o [!DNL Offer Library] API.
+Você pode modificar ou atualizar um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;) no contêiner fazendo uma solicitação PATCH para a API [!DNL Offer Library].
 
-Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação de patch de JSON](https://jsonpatch.com/).
+Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte a [documentação oficial do Patch JSON](https://jsonpatch.com/).
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -34,7 +34,10 @@ A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de c
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| Parâmetro | Descrição | Exemplo | | `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` | | `{CONTAINER_ID}` | O container onde as tags estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` | | `{INSTANCE_ID}` | A ID de instância da tag que você deseja atualizar. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| Parâmetro | Descrição | Exemplo |
+| `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | O container onde as tags estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | A ID de instância da tag que você deseja atualizar. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **Solicitação**
 
@@ -64,7 +67,7 @@ curl -X PATCH \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes atualizados do qualificador de coleta, incluindo sua ID de instância exclusiva e o qualificador de coleta `@id`.
+Uma resposta bem-sucedida retorna os detalhes atualizados do qualificador de coleção, incluindo sua ID de instância exclusiva e o qualificador de coleção `@id`.
 
 ```json
 {

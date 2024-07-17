@@ -15,7 +15,7 @@ ht-degree: 22%
 
 # Introdução às funções Auxiliares{#functions}
 
-Uso [!DNL Journey Optimizer] linguagem de modelo para executar operações em dados, como cálculos, formatação ou conversões de dados, condições e manipulá-los no contexto de personalização. Saiba mais sobre as diretrizes da sintaxe de personalização no [esta página](../personalization-syntax.md).
+Use a linguagem de modelo [!DNL Journey Optimizer] para executar operações em dados, como cálculos, formatação ou conversões de dados, condições e manipulá-las no contexto da personalização. Saiba mais sobre as diretrizes da sintaxe de personalização em [esta página](../personalization-syntax.md).
 
 
 
@@ -27,15 +27,15 @@ A linguagem de modelo é utilizada em funções auxiliares disponíveis na lista
 
 >[!NOTE]
 >
->As funções e os recursos disponíveis no editor de personalização são diferentes daqueles disponíveis na [Editor de expressão avançado de Jornada](../../building-journeys/expression/expressionadvanced.md).
+>As funções e os recursos disponíveis no editor de personalização são diferentes daqueles disponíveis no [editor de expressão avançado do Jornada](../../building-journeys/expression/expressionadvanced.md).
 
-No [!DNL Journey Optimizer] editor de personalização, as funções auxiliares são agrupadas em três categorias: [Funções](#functions-helper), [Auxiliares](#helper-helper) e [Operadores](#operators-helper).
+No editor de personalização [!DNL Journey Optimizer], as funções auxiliares são agrupadas em três categorias: [Funções](#functions-helper), [Auxiliares](#helper-helper) e [Operadores](#operators-helper).
 
 Selecione uma categoria para acessar subcategorias e funções.
 
-Acesso a subcategorias clicando no ícone `>` ícone. Selecione uma função clicando no ícone `+` ícone: a função é adicionada automaticamente à tela de personalização.
+Acesso às subcategorias clicando no ícone `>`. Selecione uma função ao clicar no ícone `+`: a função é adicionada automaticamente à tela de personalização.
 
-Clique em `...` ícone para exibir a descrição da função e adicioná-la aos favoritos. [Saiba mais](../personalize.md#fav)
+Clique no ícone `...` para exibir a descrição da função e adicioná-la aos favoritos. [Saiba mais](../personalize.md#fav)
 
 ## Funções{#functions-helper}
 
@@ -204,7 +204,7 @@ Clique em `...` ícone para exibir a descrição da função e adicioná-la aos 
         <td><a href="string.md#camelCase">Camel Case</a></td><td>Esta função é usada para colocar a primeira letra de cada palavra de uma sequência de caracteres em maiúsculas.</td>
     </tr>
     <tr>
-        <td><a href="string.md#char-code-at">Código de caractere em</a></td><td>Esta função retorna o valor ASCII de um caractere, como a função charCodeAt no JavaScript</td>
+        <td><a href="string.md#char-code-at">Código de caractere em</a></td><td>Essa função retorna o valor ASCII de um caractere, como a função charCodeAt no JavaScript</td>
     </tr>
     <tr>
         <td><a href="string.md#concat">Concat</a></td><td>Esta função é usada para combinar duas strings em uma</td>

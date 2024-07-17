@@ -45,11 +45,11 @@ A configuração da superfície de email é selecionada para envio de comunicaç
 >title="Definir o tipo de email"
 >abstract="Selecione o tipo de email que será enviado ao usar essa superfície: Marketing para emails promocionais, que exigem consentimento do usuário, ou Transacional para emails não comerciais, que também podem ser enviados para perfis sem assinatura em contextos específicos."
 
-No **Tipo de email** selecione o tipo de mensagem para a superfície: **[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**.
+Na seção **Tipo de email**, selecione o tipo de mensagem para a superfície: **[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**.
 
-* Selecionar **Marketing** para email promocional, como promoções semanais para uma loja de varejo. Essas mensagens exigem o consentimento do usuário.
+* Selecione **Marketing** para emails promocionais, como promoções semanais para uma loja de varejo. Essas mensagens exigem o consentimento do usuário.
 
-* Selecionar **Transacional** para emails não comerciais, como confirmações de pedidos, notificações de redefinição de senha ou informações de entrega, por exemplo. Esses emails podem ser enviados a perfis que **cancelado** de comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
+* Selecione **Transacional** para emails não comerciais, como confirmações de pedidos, notificações de redefinição de senha ou informações de entrega, por exemplo. Esses emails podem ser enviados para perfis que **cancelaram a assinatura** de comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
 
 Ao criar uma mensagem, você deve escolher uma superfície de canal válida que corresponda à categoria selecionada para o seu email.
 
@@ -69,11 +69,11 @@ Selecione o pool de IP para associar à superfície. [Saiba mais](../configurati
 
 ![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
-Você não pode continuar com a criação da superfície enquanto o pool de IP selecionado estiver em [edição](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processando]** e nunca foi associado ao subdomínio selecionado. Caso contrário, a versão mais antiga da associação de pool/subdomínio de IP ainda será usada. Se esse for o caso, salve a superfície como rascunho e tente novamente depois que o pool de IP tiver o **[!UICONTROL Sucesso]** status.
+Não é possível continuar com a criação de superfície enquanto o pool de IP selecionado estiver em [edição](../configuration/ip-pools.md#edit-ip-pool) (status **[!UICONTROL Processando]**) e não tiver sido associado ao subdomínio selecionado. Caso contrário, a versão mais antiga da associação de pool/subdomínio de IP ainda será usada. Se esse for o caso, salve a superfície como rascunho e tente novamente depois que o pool de IP tiver o status **[!UICONTROL Sucesso]**.
 
 >[!NOTE]
 >
->Para ambientes não relacionados à produção, o Adobe não cria subdomínios de teste prontos para uso nem concede acesso a um pool de IPs de envio compartilhados. Você precisa [delegar seus próprios subdomínios](../configuration/delegate-subdomain.md) e use os IPs do pool atribuído à sua organização.
+>Para ambientes não relacionados à produção, o Adobe não cria subdomínios de teste prontos para uso nem concede acesso a um pool de IPs de envio compartilhados. Você precisa [delegar seus próprios subdomínios](../configuration/delegate-subdomain.md) e usar os IPs do pool atribuído à sua organização.
 
 Após selecionar um pool de IP, as informações de PTR ficam visíveis ao passar o mouse sobre os endereços IP exibidos abaixo da lista suspensa Pool de IPs. [Saiba mais sobre registros PTR](../configuration/ptr-records.md)
 
@@ -86,7 +86,7 @@ Após selecionar um pool de IP, as informações de PTR ficam visíveis ao passa
 <!--Do not modify - Legal Review Done -->
 
 
-Em [selecionar um subdomínio](#subdomains-and-ip-pools) na lista, o **[!UICONTROL Ativar lista-Cancelar inscrição]** é exibida.
+Ao [selecionar um subdomínio](#subdomains-and-ip-pools) na lista, a opção **[!UICONTROL Habilitar List-Unsubscribe]** é exibida.
 
 Essa opção é habilitada por padrão para incluir um URL de cancelamento de inscrição de um clique no cabeçalho do email, como:
 
@@ -94,18 +94,18 @@ Essa opção é habilitada por padrão para incluir um URL de cancelamento de in
 
 Se você desativar essa opção, nenhum URL de cancelamento de inscrição com um clique será exibido no cabeçalho do email.
 
-Você pode selecionar o nível de consentimento nas **[!UICONTROL Nível de consentimento]** lista suspensa. Pode ser específico do canal ou da identidade do perfil. Com base nessa configuração, quando um usuário cancela a assinatura usando o URL de cancelamento de inscrição da lista no cabeçalho de um email, o consentimento é atualizado no Adobe Journey Optimizer, no nível do canal ou no nível de ID.
+Você pode selecionar o nível de consentimento na lista suspensa **[!UICONTROL Nível de consentimento]**. Pode ser específico do canal ou da identidade do perfil. Com base nessa configuração, quando um usuário cancela a assinatura usando o URL de cancelamento de inscrição da lista no cabeçalho de um email, o consentimento é atualizado no Adobe Journey Optimizer, no nível do canal ou no nível de ID.
 
 O Cabeçalho de cancelamento de inscrição da lista oferece dois recursos (Mailto e URL de cancelamento de inscrição com um clique, conforme explicado abaixo) que são ativados por padrão, a menos que você desmarque um ou ambos os recursos:
 
-* A **Mailto (cancelar inscrição)** endereço, que é o endereço de destino para o qual as solicitações de cancelamento de inscrição são roteadas para processamento automático.
+* Um endereço **Mailto (cancelar assinatura)**, que é o endereço de destino para o qual as solicitações de cancelamento de assinatura são encaminhadas para processamento automático.
 
-  No Journey Optimizer, o endereço de email de cancelamento de inscrição é o padrão **Mailto (cancelar inscrição)** exibido na superfície de canal, com base no seu [subdomínio selecionado](#subdomains-and-ip-pools).
+  No Journey Optimizer, o endereço de email de cancelamento de inscrição é o endereço **Mailto (cancelar assinatura)** padrão exibido na superfície de canal, com base no seu [subdomínio selecionado](#subdomains-and-ip-pools).
 
   ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
-* A variável **URL de cancelamento de inscrição com um clique**, que, por padrão, é o cabeçalho de cancelamento de inscrição de lista gerado por URL com um clique, com base no subdomínio definido e configurado nas Configurações de superfície de canal.
+* A **URL de cancelamento de inscrição** com um clique, que por padrão é a opção de um clique do Cabeçalho de Cancelamento de Inscrição de Lista gerado por URL, com base no subdomínio definido e configurado nas Configurações de Superfície de Canal.
 
 <!--
     >[!AVAILABILITY]
@@ -114,7 +114,7 @@ O Cabeçalho de cancelamento de inscrição da lista oferece dois recursos (Mail
     >
 -->
 
-A variável **[!UICONTROL Mailto (cancelar inscrição)]** e o **[!UICONTROL URL para cancelar inscrição com um clique]** são opcionais. Se você não quiser usar o URL de cancelamento de inscrição de um clique gerado padrão, é possível desmarcar o recurso. No cenário em que a variável **[!UICONTROL Configuração de recusa]** estiver ativada e a variável **[!UICONTROL URL para cancelar inscrição com um clique]** recurso estiver desmarcado, se você adicionar um [link para opção de não participação com um clique](../privacy/opt-out.md#one-click-opt-out) para criar uma mensagem usando essa superfície, o cabeçalho cancelar inscrição da lista selecionará o link de recusa de um clique inserido no corpo do email e o usará como o valor do URL de cancelamento de inscrição de um clique.
+O recurso **[!UICONTROL Mailto (cancelar assinatura)]** e o recurso **[!UICONTROL URL de Cancelamento de Assinatura com Um Clique]** são opcionais. Se você não quiser usar o URL de cancelamento de inscrição de um clique gerado padrão, é possível desmarcar o recurso. No cenário em que a opção **[!UICONTROL Configuração de cancelamento de inscrição]** está ativada e o recurso **[!UICONTROL URL de cancelamento de inscrição]** com um clique está desmarcado, se você adicionar um [link de cancelamento de inscrição com um clique](../privacy/opt-out.md#one-click-opt-out) a uma mensagem criada usando esta superfície, o cabeçalho de cancelamento de inscrição da lista selecionará o link de cancelamento de inscrição com um clique inserido no corpo do email e o usará como o valor do URL de cancelamento de inscrição com um clique.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -122,23 +122,23 @@ A variável **[!UICONTROL Mailto (cancelar inscrição)]** e o **[!UICONTROL URL
 >
 >Se você não adicionar um link de recusa de um clique no conteúdo da mensagem e o URL padrão de cancelamento de inscrição com um clique estiver desmarcado nas Configurações da superfície de canal, nenhum URL será passado para o cabeçalho do email como parte do cabeçalho Cancelamento de inscrição da lista.
 
-Saiba mais sobre como gerenciar recursos de cancelamento de inscrição em suas mensagens no [nesta seção](../email/email-opt-out.md#unsubscribe-header).
+Saiba mais sobre como gerenciar recursos de cancelamento de inscrição em suas mensagens [nesta seção](../email/email-opt-out.md#unsubscribe-header).
 
 ## Parâmetros de cabeçalho {#email-header}
 
-No **[!UICONTROL Parâmetros de cabeçalho]** insira os nomes dos remetentes e os endereços de email associados ao tipo de email enviado usando essa superfície.
+Na seção **[!UICONTROL Parâmetros de cabeçalho]**, insira os nomes e endereços de email dos remetentes associados ao tipo de email enviado usando essa superfície.
 
 * **[!UICONTROL Nome do remetente]**: o nome do remetente, como o nome da sua marca.
 * **[!UICONTROL Email do remetente]**: o endereço de email que você deseja usar para suas comunicações.
-* **[!UICONTROL Responder para (nome)]**: O nome que será usado quando o recipient clicar no **Responder** no software cliente de email.
-* **[!UICONTROL Responder para (email)]**: O endereço de email que será usado quando o recipient clicar no **Responder** no software cliente de email. [Saiba mais](#reply-to-email)
-* **[!UICONTROL Email de erro]**: todos os erros gerados pelos ISPs após alguns dias da entrega de emails (rejeições assíncronas) são recebidos neste endereço. As notificações de ausência do escritório e as respostas a desafios também são recebidas neste endereço.
+* **[!UICONTROL Responder a (nome)]**: o nome que será usado quando o destinatário clicar no botão **Responder** no software cliente de email.
+* **[!UICONTROL Responder para (email)]**: o endereço de email que será usado quando o destinatário clicar no botão **Responder** no software cliente de email. [Saiba mais](#reply-to-email)
+* **[!UICONTROL Email de erro]**: todos os erros gerados pelos ISPs após alguns dias de entrega de emails (rejeições assíncronas) são recebidos neste endereço. As notificações de ausência do escritório e as respostas a desafios também são recebidas neste endereço.
 
-  Se quiser receber as notificações de ausência do escritório e as respostas de desafio em um endereço de email específico que não esteja delegado ao Adobe, é necessário configurar um [processo de encaminhamento](#forward-email). Nesse caso, verifique se você tem uma solução manual ou automatizada para processar os emails que chegam a essa caixa de entrada.
+  Se você quiser receber notificações de ausência do escritório e respostas de desafio em um endereço de email específico que não esteja delegado ao Adobe, será necessário configurar um [processo de encaminhamento](#forward-email). Nesse caso, verifique se você tem uma solução manual ou automatizada para processar os emails que chegam a essa caixa de entrada.
 
 >[!CAUTION]
 >
->A variável **[!UICONTROL Email do remetente]** e **[!UICONTROL Email de erro]** os endereços devem usar o endereço selecionado [subdomínio delegado](../configuration/about-subdomain-delegation.md). Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você pode usar *contact@marketing.luma.com* e *error@marketing.luma.com*.
+>Os endereços de **[!UICONTROL Email do remetente]** e **[!UICONTROL Email de erro]** devem usar o [subdomínio delegado](../configuration/about-subdomain-delegation.md) selecionado no momento. Por exemplo, se o subdomínio delegado for *marketing.luma.com*, você poderá usar *contact@marketing.luma.com* e *error@marketing.luma.com*.
 
 ![](assets/preset-header.png)
 
@@ -148,9 +148,9 @@ No **[!UICONTROL Parâmetros de cabeçalho]** insira os nomes dos remetentes e o
 
 ### Responder ao email {#reply-to-email}
 
-Ao definir a variável **[!UICONTROL Responder para (email)]** endereço, você poderá especificar qualquer endereço de email, desde que seja um endereço válido, no formato correto e sem qualquer erro de digitação.
+Ao definir o endereço **[!UICONTROL Responder para (email)]**, você pode especificar qualquer endereço de email desde que seja válido, no formato correto e sem nenhum erro de digitação.
 
-A caixa de entrada usada para respostas receberá todos os emails de resposta, exceto notificações de ausência temporária e respostas de desafio, que são recebidos no **[!UICONTROL Email de erro]** endereço.
+A caixa de entrada usada para respostas receberá todos os emails de resposta, exceto notificações de ausência temporária e respostas de desafio, que são recebidos no endereço de **[!UICONTROL email de erro]**.
 
 Para garantir o gerenciamento de respostas adequado, siga as recomendações abaixo:
 
@@ -160,21 +160,21 @@ Para garantir o gerenciamento de respostas adequado, siga as recomendações aba
 
 * Não marque mensagens como spam na caixa de entrada de resposta, pois isso afetará todas as outras respostas enviadas para esse endereço.
 
-Além disso, ao definir a variável **[!UICONTROL Responder para (email)]** , certifique-se de usar um subdomínio que tenha uma configuração de registro MX válida, caso contrário, o processamento da superfície de email falhará.
+Além disso, ao definir o endereço **[!UICONTROL Responder para (email)]**, certifique-se de usar um subdomínio que tenha uma configuração de registro MX válida; caso contrário, o processamento da superfície de email falhará.
 
 Se você receber um erro ao enviar a superfície de email, significa que o registro MX não está configurado para o subdomínio do endereço inserido. Entre em contato com o administrador para configurar o registro MX correspondente ou use outro endereço com uma configuração de registro MX válida.
 
 >[!NOTE]
 >
->Se o subdomínio do endereço inserido for um domínio que foi [totalmente delegado](../configuration/delegate-subdomain.md#full-subdomain-delegation) para Adobe, entre em contato com o executivo da sua conta Adobe.
+>Se o subdomínio do endereço inserido for um domínio que foi [totalmente delegado](../configuration/delegate-subdomain.md#full-subdomain-delegation) no Adobe, entre em contato com o executivo da sua conta Adobe.
 
 ### Encaminhar email {#forward-email}
 
-Para encaminhar para um endereço de email específico todos os emails recebidos por [!DNL Journey Optimizer] para o subdomínio delegado, entre em contato com o Atendimento ao cliente da Adobe.
+Para encaminhar para um endereço de email específico todos os emails recebidos por [!DNL Journey Optimizer] para o subdomínio delegado, entre em contato com o Atendimento ao Cliente do Adobe.
 
 >[!NOTE]
 >
->Se o subdomínio usado para o **[!UICONTROL Responder para (email)]** endereço não for delegado ao Adobe, o encaminhamento não poderá funcionar para esse endereço.
+>Se o subdomínio usado para o endereço **[!UICONTROL Responder para (email)]** não for delegado ao Adobe, o encaminhamento não poderá funcionar para esse endereço.
 
 Você precisa fornecer:
 
@@ -189,17 +189,17 @@ Você precisa fornecer:
 
 O endereço de email de encaminhamento é configurado pelo Adobe. Isso pode levar de 3 a 4 dias.
 
-Depois de concluído, todas as mensagens recebidas no **[!UICONTROL Responder para (email)]** e **[!UICONTROL Email de erro]** Os endereços são encaminhados para o endereço de email específico fornecido.
+Depois de concluído, todas as mensagens recebidas nos endereços **[!UICONTROL Responder para (email)]** e **[!UICONTROL Email de erro]** serão encaminhadas para o endereço de email específico fornecido.
 
 ## Email com CCO {#bcc-email}
 
-Você pode enviar uma cópia idêntica (ou cópia oculta) dos emails enviados pelo [!DNL Journey Optimizer] para uma caixa de entrada com CCO, onde serão armazenados para fins de conformidade ou arquivamento.
+Você pode enviar uma cópia idêntica (ou cópia oculta) de emails enviados por [!DNL Journey Optimizer] a uma caixa de entrada CCO, onde eles serão armazenados para fins de conformidade ou arquivamento.
 
-Para fazer isso, ative a variável **[!UICONTROL Email com CCO]** recurso opcional no nível da superfície de canal. [Saiba mais](../configuration/archiving-support.md#bcc-email)
+Para fazer isso, habilite o recurso opcional **[!UICONTROL email com CCO]** no nível da superfície de canal. [Saiba mais](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 
-Além disso, ao definir a variável **[!UICONTROL Email com Cco]** , certifique-se de usar um subdomínio que tenha uma configuração de registro MX válida, caso contrário, o processamento da superfície de email falhará.
+Além disso, ao definir o endereço de **[!UICONTROL email Cco]**, certifique-se de usar um subdomínio que tenha uma configuração de registro MX válida, caso contrário, o processamento da superfície de email falhará.
 
 Se você receber um erro ao enviar a superfície de email, significa que o registro MX não está configurado para o subdomínio do endereço inserido. Entre em contato com o administrador para configurar o registro MX correspondente ou use outro endereço com uma configuração de registro MX válida.
 
@@ -213,15 +213,15 @@ Se você receber um erro ao enviar a superfície de email, significa que o regis
 
 >[!IMPORTANT]
 >
->Essa opção só estará disponível se você tiver selecionado a opção **[!UICONTROL Transacional]** tipo de email. [Saiba mais](#email-type)
+>Esta opção só estará disponível se você tiver selecionado o tipo de email **[!UICONTROL Transacional]**. [Saiba mais](#email-type)
 
-Entrada [!DNL Journey Optimizer], todos os endereços de email marcados como rejeições permanentes, rejeições temporárias e reclamações de spam são automaticamente coletados na [lista de supressão](../configuration/manage-suppression-list.md) e excluído do envio de uma jornada ou campanha.
+Em [!DNL Journey Optimizer], todos os endereços de email marcados como rejeições permanentes, rejeições temporárias e reclamações de spam são automaticamente coletados na [lista de supressão](../configuration/manage-suppression-list.md) e excluídos do envio de uma jornada ou campanha.
 
-No entanto, você pode decidir continuar enviando mensagens do **transacional** digite para perfis mesmo se os endereços de email estiverem na lista de supressão devido à reclamação de spam do usuário.
+No entanto, você pode continuar enviando mensagens do tipo **transacional** para perfis mesmo se seus endereços de email estiverem na lista de supressão devido à reclamação de spam do usuário.
 
 Na verdade, as mensagens transacionais geralmente contêm informações úteis e esperadas, como uma confirmação de pedido ou uma notificação de redefinição de senha. Portanto, mesmo que eles tenham relatado uma de suas mensagens de marketing como spam, na maioria das vezes você deseja que seus clientes recebam esse tipo de email não comercial.
 
-Para incluir endereços de email suprimidos devido a reclamação de spam no público-alvo da mensagem transacional, selecione a opção correspondente nas **[!UICONTROL Enviar para endereços de email suprimidos]** seção.
+Para incluir endereços de email suprimidos devido à reclamação de spam no público da mensagem transacional, selecione a opção correspondente na seção **[!UICONTROL Enviar para endereços de email suprimidos]**.
 
 ![](assets/preset-suppressed-email-addresses.png)
 
@@ -241,13 +241,13 @@ Quando essa opção estiver habilitada, embora um cliente tenha marcado seu emai
 >abstract="Selecione uma lista de sementes de sua escolha para adicionar automaticamente endereços internos específicos aos seus públicos-alvo. Esses seed addresses serão incluídos na hora da execução da tarefa e receberão uma cópia exata da mensagem para fins de garantia."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=pt-BR#use-seed-list" text="O que são listas de sementes?"
 
-Uma lista de propagação em [!DNL Journey Optimizer] permite incluir automaticamente seed addresses de email específicos em seus deliveries. [Saiba mais](../configuration/seed-lists.md)
+Uma lista de propagação no [!DNL Journey Optimizer] permite incluir automaticamente seed addresses específicos em seus deliveries. [Saiba mais](../configuration/seed-lists.md)
 
 >[!CAUTION]
 >
 >Atualmente, esse recurso se aplica somente ao canal de email.
 
-Selecione a lista que é relevante para você no **[!UICONTROL Seed list]** seção. Saiba como criar uma lista de propagação no [nesta seção](../configuration/seed-lists.md#create-seed-list).
+Selecione a lista relevante para você na seção **[!UICONTROL Seed list]**. Saiba como criar uma lista de propagação em [esta seção](../configuration/seed-lists.md#create-seed-list).
 
 ![](../configuration/assets/seed-list-surface.png)
 
@@ -257,7 +257,7 @@ Selecione a lista que é relevante para você no **[!UICONTROL Seed list]** seç
 
 Quando a superfície atual é usada em uma campanha ou jornada, os endereços de email na lista de seeds selecionada são incluídos no tempo de execução do delivery, o que significa que eles receberão uma cópia do delivery para fins de garantia.
 
-Saiba como usar a lista de propagação em uma campanha ou jornada no [nesta seção](../configuration/seed-lists.md#use-seed-list).
+Saiba como usar a lista de propagação em uma campanha ou jornada [nesta seção](../configuration/seed-lists.md#use-seed-list).
 
 ## Parâmetros de nova tentativa do email {#email-retry}
 
@@ -267,11 +267,11 @@ Saiba como usar a lista de propagação em uma campanha ou jornada no [nesta se�
 >abstract="As tentativas são executadas por 3,5 dias (84 horas) quando uma entrega de email falha devido a um erro de rejeição temporária. Você pode ajustar esse período de tentativas padrão para atender melhor às suas necessidades."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=pt-BR" text="Sobre tentativas"
 
-Você pode configurar o **Parâmetros de nova tentativa de email**.
+Você pode configurar os **Parâmetros de nova tentativa de email**.
 
 ![](assets/preset-retry-parameters.png)
 
-Por padrão, a variável [período de nova tentativa](../configuration/retries.md#retry-duration) O está definido como 84 horas, mas você pode ajustar essa configuração para melhor atender às suas necessidades.
+Por padrão, o [período de nova tentativa](../configuration/retries.md#retry-duration) está definido como 84 horas, mas você pode ajustar essa configuração para melhor atender às suas necessidades.
 
 Você deve inserir um valor inteiro (em horas ou minutos) dentro do seguinte intervalo:
 
@@ -279,7 +279,7 @@ Você deve inserir um valor inteiro (em horas ou minutos) dentro do seguinte int
 * Para emails transacionais, o período mínimo de nova tentativa é de 10 minutos.
 * Para ambos os tipos de email, o período máximo de nova tentativa é de 84 horas (ou 5040 minutos).
 
-Saiba mais sobre tentativas no [nesta seção](../configuration/retries.md).
+Saiba mais sobre tentativas em [esta seção](../configuration/retries.md).
 
 ## Rastreamento de URL {#url-tracking}
 
@@ -293,37 +293,37 @@ Saiba mais sobre tentativas no [nesta seção](../configuration/retries.md).
 >title="Visualizar parâmetros de rastreamento do URL"
 >abstract="Analise como os parâmetros de rastreamento serão anexados aos URLs presentes no seu conteúdo de email."
 
-Você pode usar **[!UICONTROL Parâmetros de rastreamento de URL]** para medir a eficiência de seus esforços de marketing em canais. Esse recurso é opcional.
+Você pode usar **[!UICONTROL parâmetros de rastreamento de URL]** para medir a eficácia de seus esforços de marketing em todos os canais. Esse recurso é opcional.
 
 Os parâmetros definidos nesta seção serão anexados ao final dos URLs incluídos no conteúdo da sua mensagem de email. É possível capturar esses parâmetros em ferramentas de análise da Web, como Adobe Analytics ou Google Analytics, e criar vários relatórios de desempenho.
 
-Você pode adicionar até 10 parâmetros de rastreamento usando o **[!UICONTROL Adicionar novo parâmetro]** botão.
+Você pode adicionar até 10 parâmetros de rastreamento usando o botão **[!UICONTROL Adicionar novo parâmetro]**.
 
 ![](assets/preset-url-tracking.png)
 
-Para configurar um parâmetro de rastreamento de URL, você pode inserir os valores desejados diretamente na **[!UICONTROL Nome]** e **[!UICONTROL Valor]** campos.
+Para configurar um parâmetro de rastreamento de URL, você pode inserir os valores desejados diretamente nos campos **[!UICONTROL Nome]** e **[!UICONTROL Valor]**.
 
-Também é possível editar cada **[!UICONTROL Valor]** campo usando o [editor de personalização](../personalization/personalization-build-expressions.md). Clique no ícone de edição para abrir o editor. Ali, é possível selecionar os atributos contextuais disponíveis e/ou editar diretamente o texto.
+Você também pode editar cada campo **[!UICONTROL Valor]** usando o [editor de personalização](../personalization/personalization-build-expressions.md). Clique no ícone de edição para abrir o editor. Ali, é possível selecionar os atributos contextuais disponíveis e/ou editar diretamente o texto.
 
 ![](assets/preset-url-tracking-editor.png)
 
 Os seguintes valores predefinidos estão disponíveis por meio do editor de personalização:
 
-* **Id da ação de origem**: ID da ação Email adicionada à jornada ou campanha.
+* **ID da ação do Source**: a ID da ação de email adicionada à jornada ou campanha.
 
-* **Nome da ação de origem**: nome da ação Email adicionada à jornada ou campanha.
+* **Nome da ação do Source**: nome da ação Email adicionada à jornada ou campanha.
 
-* **Id de origem**: ID da jornada ou campanha com a qual o email foi enviado.
+* **Source id**: identificação da jornada ou campanha com a qual o email foi enviado.
 
-* **Nome de origem**: nome da jornada ou campanha para a qual o email foi enviado.
+* **Nome do Source**: nome da jornada ou campanha com a qual o email foi enviado.
 
-* **ID da versão de origem**: ID da versão do jornada ou da campanha com a qual o email foi enviado.
+* **ID da versão do Source**: ID da versão da jornada ou campanha com a qual o email foi enviado.
 
 * **ID da oferta**: ID da oferta usada no email.
 
 >[!NOTE]
 >
->Você pode combinar a digitação de valores de texto e o uso de atributos contextuais do editor de personalização. Each **[!UICONTROL Valor]** O campo pode conter um número de caracteres até o limite de 5 KB.
+>Você pode combinar a digitação de valores de texto e o uso de atributos contextuais do editor de personalização. Cada campo **[!UICONTROL Valor]** pode conter um número de caracteres até o limite de 5 KB.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

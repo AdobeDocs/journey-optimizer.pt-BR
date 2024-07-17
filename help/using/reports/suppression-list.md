@@ -11,7 +11,7 @@ exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 9%
 
 A lista de supressão consiste em endereços e domínios que você deseja excluir de suas entregas, pois o envio para esses contatos pode prejudicar sua reputação de envio e as taxas de entrega.
 
-A variável [!DNL Journey Optimizer] a lista de supressão é gerenciada em seu próprio nível de ambiente, ou seja, para uma determinada sandbox.
+A lista de supressão [!DNL Journey Optimizer] é gerenciada em seu próprio nível de ambiente, ou seja, para uma determinada sandbox.
 
 Ele reúne endereços de email e domínios que são suprimidos em todas as correspondências em um único ambiente de cliente, o que significa que são específicos para uma ID de organização associada a uma ID de sandbox.
 
@@ -35,31 +35,31 @@ Para controlar as mensagens de email recebidas pelos proprietários de sua caixa
 
 Se você não receber seus comentários (como reclamações de spam, rejeições, etc.) levando em conta, eles irão avaliar sua reputação para baixo. A lista de supressão ajuda a honrar o feedback dos ISPs.
 
-Os recipients cujos endereços de email são suprimidos são excluídos automaticamente do delivery de mensagens. Isso irá acelerar os deliveries, pois a taxa de erro tem um efeito significativo na velocidade do delivery.
+Os recipients cujos endereços de email são suprimidos são excluídos automaticamente do delivery de mensagens. Isso irá acelerar as entregas, pois a taxa de erro tem um efeito significativo na velocidade da entrega.
 
 ## O que está na lista de supressão? {#what-s-on-suppression-list}
 
 Os endereços são adicionados à lista de supressão da seguinte maneira:
 
-* Todos **devoluções permanentes** e **reclamações de spam** enviar automaticamente os endereços correspondentes para a lista de supressão após uma única ocorrência. Saiba mais sobre reclamações de spam no [nesta seção](#spam-complaints).
+* Todas as **rejeições permanentes** e **reclamações de spam** enviam automaticamente os endereços correspondentes para a lista de supressão após uma única ocorrência. Saiba mais sobre reclamações de spam em [esta seção](#spam-complaints).
 
-* **Rejeições temporárias** não envie imediatamente um endereço para a lista de supressão, mas incremente um contador de erros. Vários [tentativas](../configuration/retries.md) são executados e, quando o contador de erros atinge o limite, o endereço é adicionado à lista de supressão.
+* **As rejeições temporárias** não enviam um endereço imediatamente para a lista de supressão, mas incrementam um contador de erros. Várias [tentativas](../configuration/retries.md) são executadas e, quando o contador de erros atinge o limite, o endereço é adicionado à lista de supressão.
 
-* Também é possível [**manualmente** adicionar um endereço ou um domínio](../configuration/manage-suppression-list.md#add-addresses-and-domains) à lista de supressão.
+* Você também pode [**adicionar manualmente** um endereço ou um domínio](../configuration/manage-suppression-list.md#add-addresses-and-domains) à lista de supressão.
 
-Saiba mais sobre rejeições permanentes e rejeições temporárias no [nesta seção](#delivery-failures).
-
->[!NOTE]
->
->Os endereços de usuários que cancelaram a inscrição não podem ser enviados para a lista de supressão porque não estão recebendo emails de [!DNL Journey Optimizer]. Sua escolha é feita no nível da Experience Platform. Saiba mais sobre [recusa](../privacy/opt-out.md).
-
-Para cada endereço, o motivo básico para ser suprimido e a categoria de supressão (flexível, difícil etc.) são exibidos na lista de supressão. Saiba mais sobre como acessar e gerenciar a lista de supressão no [nesta seção](../configuration/manage-suppression-list.md).
+Saiba mais sobre rejeições permanentes e rejeições temporárias em [esta seção](#delivery-failures).
 
 >[!NOTE]
 >
->Os perfis com **[!UICONTROL Suprimido]** Os status de são excluídos durante o processo de envio da mensagem. Por conseguinte, embora a **Jornada relatórios** mostrará esses perfis como tendo passado pela jornada ([Ler público-alvo](../building-journeys/read-audience.md) e [atividades de mensagem](../building-journeys/journeys-message.md)), o **Relatórios de email** não os incluirá no **[!UICONTROL Enviado]** métricas conforme são filtradas antes do envio de email.
+>Endereços de usuários não assinados não podem ser enviados para a lista de supressão porque não estão recebendo emails de [!DNL Journey Optimizer]. Sua escolha é feita no nível da Experience Platform. Saiba mais sobre [recusa](../privacy/opt-out.md).
+
+Para cada endereço, o motivo básico para ser suprimido e a categoria de supressão (flexível, difícil etc.) são exibidos na lista de supressão. Saiba mais sobre como acessar e gerenciar a lista de supressão em [esta seção](../configuration/manage-suppression-list.md).
+
+>[!NOTE]
 >
->Saiba mais sobre o [Relatório ao vivo](../reports/live-report.md) e [Relatório global](../reports/global-report.md). Para descobrir o motivo de todos os casos de exclusão, use o [Serviço de consulta Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
+>Os perfis com status **[!UICONTROL Suprimido]** são excluídos durante o processo de envio da mensagem. Portanto, enquanto os **relatórios de Jornada** mostrarão esses perfis como tendo sido movidos pela jornada ([Ler público-alvo](../building-journeys/read-audience.md) e [atividades de mensagem](../building-journeys/journeys-message.md)), os **relatórios de email** não os incluirão nas métricas **[!UICONTROL Enviados]**, pois eles são filtrados antes do envio de email.
+>
+>Saiba mais sobre o [Relatório ao vivo](../reports/live-report.md) e o [Relatório global](../reports/global-report.md). Para descobrir o motivo de todos os casos de exclusão, você pode usar o [Serviço de Consulta do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
 
 ### Falhas de entrega {#delivery-failures}
 
@@ -68,9 +68,9 @@ Há dois tipos de erros quando um delivery falha:
 * **Rejeição permanente**. Uma rejeição permanente indica um endereço de email inválido (ou seja, um endereço de email que não existe). Isso envolve uma mensagem de rejeição do servidor de email de recebimento que declara explicitamente que o endereço é inválido.
 * **Rejeição leve**. Esta é uma rejeição de email temporária que ocorreu para um endereço de email válido.
 
-A **rejeição permanente** adiciona automaticamente o endereço de email à lista de supressão.
+Uma **rejeição permanente** adiciona automaticamente o endereço de email à lista de supressão.
 
-A **rejeição temporária** <!--or an **ignored** error--> que ocorre muitas vezes também envia o endereço de email para a lista de supressão após várias tentativas. [Saiba mais sobre tentativas](../configuration/retries.md)
+Uma **rejeição temporária** <!--or an **ignored** error--> que ocorre muitas vezes também envia o endereço de email para a lista de supressão após várias tentativas. [Saiba mais sobre tentativas](../configuration/retries.md)
 
 Se você continuar enviando para esses endereços, poderá afetar suas taxas de entrega, pois isso informa aos ISPs que você pode não estar seguindo as práticas recomendadas de manutenção da lista de endereços de email e, portanto, pode não ser um remetente confiável.
 

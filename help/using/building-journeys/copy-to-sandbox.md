@@ -42,15 +42,15 @@ ht-degree: 9%
 
 As ferramentas de sandbox permitem copiar objetos em várias sandboxes aproveitando a exportação e a importação de pacotes. Um pacote pode consistir em um único objeto ou em vários objetos. Todos os objetos incluídos em um pacote precisam ser da mesma sandbox.
 
-Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Journey Optimizer. Para obter mais informações sobre o recurso em si, consulte [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+Esta página descreve o caso de uso de ferramentas de sandbox no contexto do Journey Optimizer. Para obter mais informações sobre o recurso propriamente dito, consulte a [documentação sobre o Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
->Esse recurso exige as seguintes permissões do **Administração de sandbox** Recurso: gerenciar sandboxes (ou Exibir sandboxes) e Gerenciar pacotes. [Saiba mais](../administration/ootb-permissions.md)
+>Este recurso requer as seguintes permissões do recurso **Administração de sandbox**: Gerenciar sandboxes (ou Exibir sandboxes) e Gerenciar pacotes. [Saiba mais](../administration/ootb-permissions.md)
 
 ## Introdução às ferramentas de sandbox{#sandbox-gs}
 
-O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox do Stage para a sandbox de produção. Além da jornada em si, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: públicos, esquemas, eventos e ações. Para obter mais detalhes sobre objetos copiados, consulte esta [seção](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
+O Journey Optimizer permite copiar uma jornada inteira de uma sandbox para outra. Por exemplo, você pode copiar uma jornada do ambiente de sandbox do Stage para a sandbox de produção. Além da jornada em si, o Journey Optimizer também copia a maioria dos objetos dos quais a jornada depende: públicos, esquemas, eventos e ações. Para obter mais informações sobre objetos copiados, consulte esta [seção](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
 
 >[!CAUTION]
 >
@@ -63,7 +63,7 @@ O processo de cópia é realizado por meio de uma exportação e importação de
 1. Adicione a jornada como um pacote na sandbox de origem.
 1. Exporte o pacote para a sandbox de destino.
 
-Além disso, você pode aproveitar o Journey Optimizer **API REST do Serviço de cópia de objeto** para gerenciar objetos de sandboxes. [Saiba como trabalhar com a API REST do Object Copy Service](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
+Além disso, você pode aproveitar a **API REST do Serviço de Cópia de Objeto** da Journey Optimizer para gerenciar os objetos das sandboxes. [Saiba como trabalhar com a API REST do Serviço de Cópia de Objeto](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## Adicionar a jornada como um pacote{#export}
 
@@ -71,11 +71,11 @@ Para copiar uma jornada para outra sandbox, primeiro adicione a jornada como um 
 
 1. Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]**. A lista de jornadas é exibida.
 
-1. Procure a jornada que deseja copiar, clique no link **Mais ações** (os três pontos ao lado do nome da jornada) e clique em **Adicionar ao pacote**.
+1. Procure a jornada que deseja copiar, clique no ícone **Mais ações** (os três pontos ao lado do nome da jornada) e clique em **Adicionar ao pacote**.
 
    ![](assets/journey-sandbox1.png)
 
-   A variável **Adicionar ao pacote** é exibida.
+   A janela **Adicionar ao pacote** é exibida.
 
    ![](assets/journey-sandbox2.png)
 
@@ -84,15 +84,15 @@ Para copiar uma jornada para outra sandbox, primeiro adicione a jornada como um 
    * **Pacote existente**: selecione o pacote no menu suspenso.
    * **Criar um novo pacote**: digite o nome do pacote. Você também pode adicionar uma descrição.
 
-1. Na seção do menu ADMINISTRAÇÃO, clique em **[!UICONTROL Sandboxes]**, selecione o **Pacotes** e clique no pacote que deseja exportar.
+1. Na seção de menu ADMINISTRAÇÃO, clique em **[!UICONTROL Sandboxes]**, selecione a guia **Pacotes** e clique no pacote que deseja exportar.
 
    ![](assets/journey-sandbox3.png)
 
-1. Selecione os objetos que deseja exportar e clique em **Publish**
+1. Selecione os objetos que você deseja exportar e clique em **Publish**
 
    ![](assets/journey-sandbox4.png)
 
-   Se a publicação falhar, você poderá verificar os logs para identificar o motivo da falha. Abra o pacote, clique em **Consulte trabalhos com falha**, selecione o trabalho de importação e clique em **Exibir detalhes da importação**.
+   Se a publicação falhar, você poderá verificar os logs para identificar o motivo da falha. Abra o pacote, clique em **Ver trabalhos com falha**, selecione o trabalho de importação e clique em **Exibir detalhes da importação**.
 
    ![](assets/journey-sandbox9.png)
 
@@ -100,11 +100,11 @@ Para copiar uma jornada para outra sandbox, primeiro adicione a jornada como um 
 
 Depois que o pacote for publicado, é necessário exportá-lo para a sandbox de destino.
 
-1. Na sandbox de origem, clique no botão **[!UICONTROL Sandboxes]** selecione o **Pacotes** e clique no ícone +, ao lado do pacote que você deseja exportar.
+1. Na sandbox de origem, clique no menu **[!UICONTROL Sandboxes]**, selecione a guia **Pacotes** e clique no ícone +, ao lado do pacote que você deseja exportar.
 
    ![](assets/journey-sandbox5.png)
 
-1. Selecione o **Sandbox do Target** no campo suspenso e clique em **Próxima**. Somente as sandboxes da sua organização estão disponíveis.
+1. Selecione a **sandbox do Target** no campo suspenso e clique em **Avançar**. Somente as sandboxes da sua organização estão disponíveis.
 
    ![](assets/journey-sandbox6.png)
 
@@ -112,7 +112,7 @@ Depois que o pacote for publicado, é necessário exportá-lo para a sandbox de 
 
    ![](assets/journey-sandbox7.png)
 
-1. Clique em **Concluir** no canto superior direito, para começar a copiar o pacote para a sandbox de destino. O processo de cópia varia de acordo com a complexidade da jornada e com quantos objetos precisam ser copiados.
+1. Clique no botão **Concluir**, no canto superior direito, para começar a copiar o pacote para a sandbox de destino. O processo de cópia varia de acordo com a complexidade da jornada e com quantos objetos precisam ser copiados.
 
 1. Clique no trabalho de importação para revisar o resultado da cópia:
 

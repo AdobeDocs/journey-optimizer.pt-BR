@@ -26,23 +26,23 @@ ht-degree: 25%
 
 ## Sobre a visualização e o teste do conteúdo {#about}
 
-Depois que o conteúdo for definido, você poderá usar perfis de teste para [pré-visualização](preview.md) seu conteúdo antes de enviar a mensagem. Essa é uma etapa essencial para garantir que ela seja precisa, mas também esteja livre de erros nas configurações de conteúdo e personalização.
+Depois que o conteúdo for definido, você poderá usar perfis de teste para [visualizar](preview.md) seu conteúdo antes de enviar a mensagem. Essa é uma etapa essencial para garantir que ela seja precisa, mas também esteja livre de erros nas configurações de conteúdo e personalização.
 
-Além disso, você também pode [enviar deliveries de teste](proofs.md) (provas) de suas mensagens de email para recipients ou assinantes específicos para teste e validação e [verificar a renderização deles](rendering.md) em clientes populares de desktop, móveis e baseados na web.
+Além disso, você também pode [enviar deliveries de teste](proofs.md) (provas) de suas mensagens de email para recipients ou assinantes específicos para teste e validação e [verificar a renderização](rendering.md) em clientes populares de desktop, dispositivos móveis e baseados na Web.
 
-Todas essas ações podem ser executadas usando o **[!UICONTROL Simular conteúdo]** botão, que pode ser acessado na tela editar conteúdo da mensagem ou nos designers de email e Web dos canais de email e Web.
+Todas essas ações podem ser executadas com o botão **[!UICONTROL Simular Conteúdo]**, acessível na tela de edição de conteúdo da sua mensagem, ou nos designers de email e da Web dos canais de email e da Web.
 
 ![](../email/assets/email-preview-button.png)
 
 >[!CAUTION]
 >
->Ao visualizar uma mensagem ou enviar provas, somente os dados de personalização do perfil são exibidos. A personalização baseada em dados de contexto, como informações de evento, só pode ser testada no contexto de uma jornada. Saiba como testar a personalização no [este caso de uso](../personalization/personalization-use-case.md).
+>Ao visualizar uma mensagem ou enviar provas, somente os dados de personalização do perfil são exibidos. Personalization com base em dados de contexto, como informações de evento, só podem ser testadas no contexto de uma jornada. Saiba como testar a personalização em [este caso de uso](../personalization/personalization-use-case.md).
 
 ➡️ [Saiba como visualizar e revisar seu email neste vídeo](#video-preview)
 
 ## Pré-requisitos {#prerequisites}
 
-Para simular o conteúdo, é necessário ter a **[!DNL Manage Simulate Content]** permissão incluída na **[!DNL Content Library Manager]** perfil do produto. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager).
+Para simular conteúdo, você precisa ter a permissão **[!DNL Manage Simulate Content]** incluída no perfil de produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager).
 
 Você também precisa ter perfis de teste disponíveis para poder visualizar suas mensagens. [Saiba como criar perfis de teste](../audience/creating-test-profiles.md)
 

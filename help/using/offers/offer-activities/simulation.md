@@ -30,15 +30,15 @@ Dessa forma, é possível testar e refinar várias versões de suas ofertas sem 
 
 >[!NOTE]
 >
->Esse recurso simula uma única solicitação para o [!DNL Decisioning] API. Saiba mais sobre [Entregar ofertas usando a API de decisão](../api-reference/offer-delivery-api/decisioning-api.md).
+>Este recurso simula uma única solicitação para a API [!DNL Decisioning]. Saiba mais sobre [Fornecer ofertas usando a API de decisão](../api-reference/offer-delivery-api/decisioning-api.md).
 
-Para acessar esse recurso, selecione a variável **[!UICONTROL Simulação]** na guia **[!UICONTROL Gerenciamento de decisão]** > **[!UICONTROL Ofertas]** menu.
+Para acessar este recurso, selecione a guia **[!UICONTROL Simulação]** no menu **[!UICONTROL Gestão de decisões]** > **[!UICONTROL Ofertas]**.
 
 ![](../assets/offers_simulation-tab.png)
 
 >[!NOTE]
 >
->Como a simulação não gera nenhum evento de decisão, a variável [limite](../offer-library/creating-personalized-offers.md#capping) A contagem de não é afetada.
+>Como a simulação não gera nenhum evento de decisão, a contagem [capping](../offer-library/creating-personalized-offers.md#capping) não é afetada.
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -61,11 +61,11 @@ Primeiro, é necessário selecionar os perfis de teste que você usará para sim
 
    ![](../assets/offers_simulation-manage-profile.png)
 
-1. Selecione o namespace de identidade que deseja usar para identificar perfis de teste. Neste exemplo, usaremos o **E-mail** namespace.
+1. Selecione o namespace de identidade que deseja usar para identificar perfis de teste. Neste exemplo, usaremos o namespace **Email**.
 
    >[!NOTE]
    >
-   >Um namespace de identidade define o contexto de um identificador, como um endereço de email ou ID de CRM. Saiba mais sobre os namespaces de identidade da Adobe Experience Platform [nesta seção](../../audience/get-started-identity.md){target="_blank"}.
+   >Um namespace de identidade define o contexto de um identificador, como um endereço de email ou ID de CRM. Saiba mais sobre os namespaces de identidade do Adobe Experience Platform [nesta seção](../../audience/get-started-identity.md){target="_blank"}.
 
 1. Insira o valor da identidade e clique em **[!UICONTROL Exibir]** para listar os perfis disponíveis.
 
@@ -81,15 +81,15 @@ Primeiro, é necessário selecionar os perfis de teste que você usará para sim
 
    >[!NOTE]
    >
-   >Os perfis selecionados permanecerão listados como perfis de teste na **[!UICONTROL Simulação]** de sessão para sessão até que sejam removidos usando **[!UICONTROL Gerenciar perfil]**.
+   >Os perfis selecionados permanecerão listados como perfis de teste na guia **[!UICONTROL Simulação]** de sessão para sessão até serem removidos usando **[!UICONTROL Gerenciar perfil]**.
 
-1. Você pode clicar no link **[!UICONTROL Detalhes do perfil]** para exibir os dados de perfil selecionados.
+1. Você pode clicar no link **[!UICONTROL Detalhes do perfil]** para exibir os dados do perfil selecionado.
 
 ## Adicionar escopos de decisão {#add-decision-scopes}
 
 Agora selecione as decisões de oferta que deseja simular nos perfis de teste.
 
-1. Selecionar **[!UICONTROL Adicionar escopo da decisão]**.
+1. Selecione **[!UICONTROL Adicionar escopo da decisão]**.
 
    ![](../assets/offers_simulation-add-decision.png)
 
@@ -132,15 +132,15 @@ Para editar as configurações padrão para suas simulações, siga as etapas ab
 
    ![](../assets/offers_simulation-settings.png)
 
-1. No **[!UICONTROL Desduplicação]** você pode optar por permitir ofertas duplicadas em decisões e/ou disposições. Isso significa que várias decisões/posicionamentos podem receber a mesma oferta.
+1. Na seção **[!UICONTROL Desduplicação]**, você pode optar por permitir ofertas duplicadas em decisões e/ou posicionamentos. Isso significa que várias decisões/posicionamentos podem receber a mesma oferta.
 
    ![](../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
-   >Por padrão, todos os sinalizadores de Desduplicação são ativados para simulação, o que significa que o mecanismo de decisão permite duplicatas e, portanto, pode fazer a mesma proposta em várias decisões/posicionamentos. Saiba mais sobre o [!DNL Decisioning] Propriedades da solicitação de API em [nesta seção](../api-reference/offer-delivery-api/decisioning-api.md).
+   >Por padrão, todos os sinalizadores de Desduplicação são ativados para simulação, o que significa que o mecanismo de decisão permite duplicatas e, portanto, pode fazer a mesma proposta em várias decisões/posicionamentos. Saiba mais sobre as propriedades da solicitação de API [!DNL Decisioning] em [esta seção](../api-reference/offer-delivery-api/decisioning-api.md).
 
-1. No **[!UICONTROL Formato de resposta]** você pode optar por incluir metadados na visualização de código. Marque a opção correspondente e selecione os metadados de sua escolha. Eles serão exibidos nas cargas de solicitação e resposta ao selecionar **[!UICONTROL Exibir código]**. Saiba mais na [Exibir resultados da simulação](#simulation-results) seção.
+1. Na seção **[!UICONTROL Formato de resposta]**, você pode optar por incluir metadados na exibição de código. Marque a opção correspondente e selecione os metadados de sua escolha. Eles serão exibidos nas cargas de solicitação e resposta ao selecionar **[!UICONTROL Exibir código]**. Saiba mais na seção [Exibir resultados da simulação](#simulation-results).
 
    ![](../assets/offers_simulation-settings-response-format.png)
 
@@ -152,7 +152,7 @@ Para editar as configurações padrão para suas simulações, siga as etapas ab
 
 >[!NOTE]
 >
->Atualmente, para dados de simulação, você só pode usar o **[!UICONTROL Hub]** API.
+>Atualmente, para dados de simulação, você só pode usar a API **[!UICONTROL Hub]**.
 
 <!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
@@ -190,23 +190,23 @@ Depois de adicionar um escopo de decisão e selecionar um perfil de teste, você
 
 >[!NOTE]
 >
->Sempre que alterar perfis ou atualizar escopos de decisão, será necessário atualizar os resultados usando o **[!UICONTROL Exibir resultados]** botão.
+>Sempre que você alterar perfis ou atualizar escopos de decisão, será necessário atualizar os resultados usando o botão **[!UICONTROL Exibir resultados]**.
 
 ## Exibir código {#view-code}
 
-1. Use o **[!UICONTROL Exibir código]** botão para exibir as cargas de solicitação e resposta.
+1. Use o botão **[!UICONTROL Exibir código]** para exibir as cargas de solicitação e resposta.
 
    ![](../assets/offers_simulation-view-code.png)
 
-   A visualização de código mostra as informações do desenvolvedor para o usuário atual. Por padrão, a variável **[!UICONTROL Carga de resposta]** é exibido.
+   A visualização de código mostra as informações do desenvolvedor para o usuário atual. Por padrão, a **[!UICONTROL Carga de resposta]** é exibida.
 
    ![](../assets/offers_simulation-request-payload.png)
 
-1. Clique em **[!UICONTROL Carga de resposta]** ou **[!UICONTROL Carga da solicitação]** para navegar entre as duas guias.
+1. Clique em **[!UICONTROL Carga de resposta]** ou **[!UICONTROL Solicitar carga]** para navegar entre as duas guias.
 
    ![](../assets/offers_simulation-response-payload.png)
 
-1. Para usar a carga da solicitação fora do [!DNL Journey Optimizer] - para fins de solução de problemas, por exemplo, copie-o usando o **[!UICONTROL Copiar para a área de transferência]** na parte superior da exibição de código.
+1. Para usar a carga da solicitação fora de [!DNL Journey Optimizer] - para fins de solução de problemas, por exemplo, copie-a usando o botão **[!UICONTROL Copiar para a área de transferência]** na parte superior da exibição de código.
 
    ![](../assets/offers_simulation-copy-payload.png)
 
@@ -214,5 +214,5 @@ Depois de adicionar um escopo de decisão e selecionar um perfil de teste, você
 
    >[!NOTE]
    >
-   >Ao copiar as cargas da solicitação ou resposta para seu próprio código, substitua {USER_TOKEN} e {API_KEY} com valores válidos. Saiba como recuperar esses valores no [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=pt-BR){target="_blank"} documentação.
+   >Ao copiar as cargas da solicitação ou resposta para seu próprio código, substitua {USER_TOKEN} e {API_KEY} por valores válidos. Saiba como recuperar esses valores na documentação das [APIs do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=pt-BR){target="_blank"}.
 

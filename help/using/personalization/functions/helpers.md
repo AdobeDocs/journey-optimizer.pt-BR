@@ -17,7 +17,7 @@ ht-degree: 5%
 
 ## Valor de fallback padrão{#default-value}
 
-A variável `Default Fallback Value` o auxiliar é usado para retornar um valor de fallback padrão se um atributo estiver vazio ou for nulo. Esse mecanismo funciona para atributos de Perfil e eventos de Jornada.
+O auxiliar `Default Fallback Value` será usado para retornar um valor de fallback padrão se um atributo estiver vazio ou nulo. Esse mecanismo funciona para atributos de Perfil e eventos de Jornada.
 
 **Sintaxe**
 
@@ -25,11 +25,11 @@ A variável `Default Fallback Value` o auxiliar é usado para retornar um valor 
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-Neste exemplo, o valor `there` é exibido se a variável `firstName` o atributo deste perfil está vazio ou é nulo.
+Neste exemplo, o valor `there` será exibido se o atributo `firstName` desse perfil estiver vazio ou nulo.
 
 ## Condições{#if-function}
 
-A variável `if` o auxiliar é usado para definir um bloco condicional.
+O auxiliar `if` é usado para definir um bloco condicional.
 Se a expressão evaluation retornar true, o bloco será renderizado, caso contrário, será ignorado.
 
 **Sintaxe**
@@ -39,8 +39,8 @@ Se a expressão evaluation retornar true, o bloco será renderizado, caso contr�
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-Na sequência da `if` auxiliar, você pode inserir um `else` para especificar um bloco de código a ser executado, se a mesma condição for falsa.
-A variável `elseif` especificará uma nova condição para testar se a primeira declaração retorna false.
+Após o auxiliar `if`, você pode inserir uma instrução `else` para especificar um bloco de código a ser executado, se a mesma condição for falsa.
+A instrução `elseif` especificará uma nova condição para testar se a primeira instrução retorna false.
 
 
 **Formato**
@@ -58,7 +58,7 @@ A variável `elseif` especificará uma nova condição para testar se a primeira
 
 **Exemplos**
 
-1. **Renderizar diferentes links de armazenamento com base em expressões condicionais**
+1. **Renderizar diferentes links de repositório com base em expressões condicionais**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -94,7 +94,7 @@ A variável `elseif` especificará uma nova condição para testar se a primeira
    {%/if%}
    ```
 
-1. **Conteúdo condicional com base na associação do público-alvo**
+1. **Conteúdo condicional com base na associação ao público-alvo**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,12 +106,12 @@ A variável `elseif` especificará uma nova condição para testar se a primeira
 
 >[!NOTE]
 >
->Para saber mais sobre públicos-alvo e o serviço de segmentação, consulte este [seção](../../audience/about-audiences.md).
+>Para saber mais sobre públicos-alvo e o serviço de segmentação, consulte esta [seção](../../audience/about-audiences.md).
 
 
 ## Unless{#unless}
 
-A variável `unless` o auxiliar é usado para definir um bloco condicional. Em oposição ao The `if`  helper, se a expressão evaluation retornar false, o bloco será renderizado.
+O auxiliar `unless` é usado para definir um bloco condicional. Por oposição ao auxiliar The `if`, se a avaliação da expressão retornar false, o bloco será renderizado.
 
 **Sintaxe**
 
@@ -133,9 +133,9 @@ Some edu specific content Content
 
 ## Each{#each}
 
-A variável `each` o auxiliar é usado para iterar sobre uma matriz.
-A sintaxe do auxiliar é ```{{#each ArrayName}}``` SeuConteúdo {{/each}}
-Podemos consultar os itens de matriz individuais usando a palavra-chave **este** dentro do bloco. O índice do elemento da matriz pode ser renderizado usando {{@index}}.
+O auxiliar `each` é usado para iterar sobre uma matriz.
+A sintaxe do auxiliar é ```{{#each ArrayName}}``` YourContent {{/each}}
+Podemos fazer referência a itens de matriz individuais usando a palavra-chave **this** dentro do bloco. O índice do elemento da matriz pode ser renderizado usando {{@index}}.
 
 **Sintaxe**
 
@@ -167,7 +167,7 @@ Renderize uma lista de produtos que este usuário tem em seu carrinho:
 
 ## With{#with}
 
-A variável `with` o auxiliar é usado para alterar o token de avaliação da parte do modelo.
+O auxiliar `with` é usado para alterar o token de avaliação da parte do modelo.
 
 **Sintaxe**
 
@@ -177,7 +177,7 @@ A variável `with` o auxiliar é usado para alterar o token de avaliação da pa
 {{/with}}
 ```
 
-A variável `with` O auxiliar também é útil para definir uma variável de atalho.
+O auxiliar `with` é útil também para definir uma variável de atalho.
 
 **Exemplo**
 
@@ -192,7 +192,7 @@ Use com para suavizar nomes de variáveis longos para nomes mais curtos:
 
 ## Let{#let}
 
-A variável `let` permite que uma expressão seja armazenada como uma variável a ser usada posteriormente em uma query.
+A função `let` permite que uma expressão seja armazenada como uma variável a ser usada posteriormente em uma consulta.
 
 **Sintaxe**
 

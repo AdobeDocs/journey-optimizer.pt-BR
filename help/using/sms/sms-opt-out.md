@@ -32,8 +32,8 @@ De acordo com os padrões e regulamentos do setor, todas as mensagens de marketi
 
 Por padrão, o Adobe Journey Optimizer lida com as seguintes mensagens de resposta padrão em inglês para mensagens de códigos curtos, gratuitas e de código longo:
 
-* **Recusar**: PARAR, SAIR, CANCELAR, ENCERRAR, CANCELAR INSCRIÇÃO, NÃO.
-* **Opt-In**: ASSINAR, SIM, REINICIAR, INICIAR, CONTINUAR, RETOMAR, INICIAR.
+* **Recusa**: PARAR, SAIR, CANCELAR, ENCERRAR, CANCELAR ASSINATURA, NÃO.
+* **Aceitação**: ASSINAR, SIM, REINICIAR, INICIAR, CONTINUAR, RETOMAR, INICIAR.
 * **Ajuda**: AJUDA.
 
 Essas palavras-chave normalmente acionam uma resposta padrão automática do provedor de terceiros. Você pode confirmar isso diretamente com seu provedor ou por meio do site de documentação dele.
@@ -45,7 +45,7 @@ Nenhuma etapa é necessária para garantir que os recursos de recusa de SMS func
 
 ## ➡ Incluis na lista de bloqueios {#sms-blocklists}
 
-Além de o Adobe Journey Optimizer interromper o envio com base no status de recusa (para integrações diretas com o Twilio, Infobip ou Sinch), a maioria dos provedores de gateway de SMS também mantém um incluo na lista de bloqueios, garantindo que uma mensagem SMS não seja entregue a um indivíduo que recusou-se a participar. Se você estiver usando um provedor que não seja o Sinch ou Twilio e enviar um SMS por [canal personalizado](../building-journeys/using-custom-actions.md), é necessário confirmar isso com o provedor.
+Além de o Adobe Journey Optimizer interromper o envio com base no status de recusa (para integrações diretas com o Twilio, Infobip ou Sinch), a maioria dos provedores de gateway de SMS também mantém um incluo na lista de bloqueios, garantindo que uma mensagem SMS não seja entregue a um indivíduo que recusou-se a participar. Se você estiver usando um provedor que não seja o Sinch ou Twilio e enviar um SMS por meio do [canal personalizado](../building-journeys/using-custom-actions.md), será necessário confirmar isso com o provedor.
 
 
 ## Códigos curtos {#short-codes}

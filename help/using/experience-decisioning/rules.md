@@ -31,7 +31,7 @@ Por exemplo, vamos considerar um cenário onde você tem itens de decisão com p
 >
 >Além das regras de decisão em nível de estratégia de seleção e item, você também pode definir o público-alvo desejado no nível da campanha. [Saiba mais](../campaigns/create-campaign.md#audience)
 
-A lista de regras de decisão está acessível no **[!UICONTROL Configuração da estratégia]** menu.
+A lista de regras de decisão está acessível no menu **[!UICONTROL Configuração de estratégia]**.
 
 ![](assets/decision-rules-list.png)
 
@@ -39,7 +39,7 @@ A lista de regras de decisão está acessível no **[!UICONTROL Configuração d
 
 Para criar uma regra de decisão, siga estas etapas:
 
-1. Navegue até **[!UICONTROL Configuração da estratégia]** / **[!UICONTROL Regras de decisão]** e clique em **[!UICONTROL Criar regra]** botão.
+1. Navegue até **[!UICONTROL Configuração da estratégia]** / **[!UICONTROL Regras de decisão]** e clique no botão **[!UICONTROL Criar regra]**.
 
 1. A tela de criação de regras de decisão é aberta. Nomeie a regra e forneça uma descrição.
 
@@ -51,7 +51,7 @@ Para criar uma regra de decisão, siga estas etapas:
    >
    >O Construtor de segmentos fornecido para criar regras de decisão apresenta algumas especificidades em comparação à usada com o serviço de Segmentação do Adobe Experience Platform.  No entanto, o processo global descrito na documentação ainda é válido para criar regras de decisões. [Saiba como criar definições de segmento](../audience/creating-a-segment-definition.md)
 
-1. À medida que você adiciona e configura novos campos no espaço de trabalho, a variável **[!UICONTROL Propriedades do público]** exibe informações sobre os perfis estimados pertencentes ao público. Clique em **[!UICONTROL Atualizar estimativa]** para atualizar dados.
+1. À medida que você adiciona e configura novos campos no espaço de trabalho, o painel **[!UICONTROL Propriedades de público-alvo]** exibe informações sobre os perfis estimados pertencentes ao público-alvo. Clique em **[!UICONTROL Atualizar estimativa]** para atualizar os dados.
 
    >[!NOTE]
    >

@@ -20,7 +20,7 @@ Você pode criar um qualificador de coleção (anteriormente conhecido como &quo
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* campos no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -53,7 +53,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre o qualificador de coleta recém-criado, incluindo seu exclusivo `id`. Você pode usar o `id` em etapas posteriores, para atualizar ou deletar o qualificador de coleta. Você pode usar seu qualificador de coleta exclusivo `id` em tutoriais posteriores, para criar coleções e ofertas personalizadas.
+Uma resposta bem-sucedida retorna informações sobre o qualificador de coleção recém-criado, incluindo seu `id` exclusivo. Você pode usar o `id` em etapas posteriores para atualizar ou excluir o qualificador da coleção. Você pode usar seu qualificador de coleção exclusivo `id` em tutoriais posteriores para criar coleções e ofertas personalizadas.
 
 ```json
 {

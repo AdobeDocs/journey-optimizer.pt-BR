@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes do qualificador de coleta, incluindo informações sobre ID do contêiner, ID da instância e qualificador de coleta exclusivo `@id`.
+Uma resposta bem-sucedida retorna os detalhes do qualificador de coleção, incluindo informações sobre ID de contêiner, ID de instância e qualificador de coleção exclusivo `@id`.
 
 ```json
 {

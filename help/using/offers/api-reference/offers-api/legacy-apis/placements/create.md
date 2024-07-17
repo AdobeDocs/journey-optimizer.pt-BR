@@ -15,11 +15,11 @@ ht-degree: 12%
 
 # Criar uma inserção {#create-placement}
 
-Você pode criar uma inserção fazendo uma solicitação POST para o [!DNL Offer Library] ao fornecer a ID do contêiner.
+Você pode criar um posicionamento fazendo uma solicitação POST para a API [!DNL Offer Library] e fornecendo a ID do contêiner.
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -58,7 +58,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes do posicionamento recém-criado, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID de instância em etapas posteriores para atualizar ou excluir seu posicionamento. Você pode usar sua disposição exclusiva `@id` em tutoriais posteriores, para criar decisões, regras de decisão e ofertas substitutas.
+Uma resposta bem-sucedida retorna os detalhes do posicionamento recém-criado, incluindo sua ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID de instância em etapas posteriores para atualizar ou excluir seu posicionamento. Você pode usar seu posicionamento exclusivo `@id` em tutoriais posteriores para criar decisões, regras de decisão e ofertas substitutas.
 
 ```json
 {

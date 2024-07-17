@@ -34,7 +34,7 @@ Para esse tipo de evento, só é possível adicionar um rótulo e uma descriçã
 
 ![](assets/general-events.png)
 
-Quando você solta um evento comercial, ele adiciona automaticamente um **Ler público-alvo** atividade. Para obter mais informações sobre eventos comerciais, consulte [nesta seção](../event/about-events.md)
+Quando você solta um evento comercial, ele adiciona automaticamente uma atividade **Ler público**. Para obter mais informações sobre eventos comerciais, consulte [esta seção](../event/about-events.md)
 
 ## Acompanhamento de eventos durante um período específico {#events-specific-time}
 
@@ -46,11 +46,11 @@ Se nenhum caminho de tempo limite for definido, a configuração de tempo limite
 
 Para configurar um tempo limite para um evento, siga estas etapas:
 
-1. Ativar o **[!UICONTROL Definir o tempo limite do evento]** nas propriedades do evento.
+1. Ative a opção **[!UICONTROL Definir o tempo limite do evento]** nas propriedades do evento.
 
 1. Especifique por quanto tempo a jornada aguardará pelo evento. A duração máxima é de 29 dias.
 
-1. Se desejar enviar as pessoas físicas para um caminho de tempo limite quando nenhum evento for recebido dentro do tempo limite especificado, habilite o **[!UICONTROL Definir um caminho de tempo limite]** opção. Se essa opção não estiver ativada, a jornada continuará para o indivíduo assim que o tempo limite for atingido. Recomendamos que você sempre ative o **Definir um caminho de tempo limite** opção.
+1. Se desejar enviar as pessoas físicas para um caminho de tempo limite quando nenhum evento for recebido dentro do tempo limite especificado, habilite a opção **[!UICONTROL Definir um caminho de tempo limite]**. Se essa opção não estiver ativada, a jornada continuará para o indivíduo assim que o tempo limite for atingido. Recomendamos que você sempre habilite a opção **Definir um caminho de tempo limite**.
 
    ![](assets/event-timeout.png)
 
@@ -59,9 +59,9 @@ Neste exemplo, a jornada envia um primeiro email de boas-vindas para um cliente 
 * Se o evento do restaurante for recebido menos de 1 dia após o email de boas-vindas, o email de desconto para refeições será enviado.
 * Se nenhum evento de restaurante for recebido no dia seguinte, a pessoa fluirá pelo caminho de tempo limite.
 
-Observe que se quiser configurar um tempo limite em vários eventos posicionados após um **[!UICONTROL Aguardar]** atividade, é necessário configurar o tempo limite em apenas um desses eventos.
+Observe que se quiser configurar um tempo limite em vários eventos posicionados após uma atividade **[!UICONTROL Wait]**, será necessário configurar o tempo limite apenas em um desses eventos.
 
-O tempo limite definido se aplica a todos os eventos posicionados após o **[!UICONTROL Aguardar]** atividade:
+O tempo limite definido se aplica a todos os eventos posicionados após a atividade **[!UICONTROL Wait]**:
 
 * Se um evento for recebido dentro da duração do tempo limite, o indivíduo fluirá para o caminho do evento recebido.
 * Se nenhum evento for recebido dentro da duração do tempo limite, o indivíduo fluirá para a ramificação de tempo limite do evento em que o tempo limite foi definido.

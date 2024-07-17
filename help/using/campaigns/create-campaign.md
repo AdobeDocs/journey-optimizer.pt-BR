@@ -23,9 +23,9 @@ ht-degree: 32%
 >Antes de criar uma nova campanha, verifique se você tem um canal de superfície (ou seja, predefinição de mensagem) e um público-alvo do Adobe Experience Platform pronto para uso. Saiba mais nestas seções:
 >
 >* [Criar superfícies de canal](../configuration/channel-surfaces.md)
->* [Introdução a públicos](../audience/about-audiences.md)
+>* [Introdução aos públicos-alvo](../audience/about-audiences.md)
 
-Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**. Você também pode duplicar uma campanha ao vivo existente para criar uma nova. [Saiba mais](modify-stop-campaign.md#duplicate)
+Para criar uma nova campanha, acesse o menu **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**. Você também pode duplicar uma campanha ao vivo existente para criar uma nova. [Saiba mais](modify-stop-campaign.md#duplicate)
 
 ## Escolha o tipo de campanha {#campaigntype}
 
@@ -41,9 +41,9 @@ Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** e clique em **
 
 1. Selecione o tipo de campanha que deseja executar
 
-   * **[!UICONTROL Agendado - Marketing]**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas são destinadas ao envio **marketing** mensagens. Eles são configurados e executados na interface do usuário do.
+   * **[!UICONTROL Agendado - Marketing]**: execute a campanha imediatamente ou em uma data especificada. As campanhas agendadas têm como objetivo enviar mensagens de **marketing**. Eles são configurados e executados na interface do usuário do.
 
-   * **[!UICONTROL Acionado pela API - Marketing/Transacional]**: execute a campanha usando uma chamada de API. As campanhas acionadas por API têm como objetivo enviar **marketing** ou **transacional** mensagens, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
+   * **[!UICONTROL Acionado por API - Marketing/Transacional]**: execute a campanha usando uma chamada de API. As campanhas acionadas por API têm como objetivo enviar **mensagens de marketing** ou **mensagens transacionais**, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc. [Saiba como acionar uma campanha usando APIs](api-triggered-campaigns.md)
 
    ![](assets/create-campaign-modal.png)
 
@@ -51,13 +51,13 @@ Para criar uma nova campanha, acesse o **[!UICONTROL Campanhas]** e clique em **
 
 ## Definir as propriedades da campanha {#create}
 
-1. No **[!UICONTROL Propriedades]** especifique um nome e uma descrição para a campanha.
+1. Na seção **[!UICONTROL Properties]**, especifique um nome e uma descrição para a campanha.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../content-management/content-experiment.md).-->
 
-1. A variável **Tags** permite atribuir Tags unificadas do Adobe Experience Platform à sua campanha. Isso permite classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
+1. O campo **Tags** permite atribuir Tags unificadas do Adobe Experience Platform à sua campanha. Isso permite classificá-las facilmente e melhorar a pesquisa na lista de campanhas. [Saiba como trabalhar com tags](../start/search-filter-categorize.md#tags)
 
-1. Para atribuir rótulos de uso de dados personalizados ou principais à campanha, clique no link **[!UICONTROL Gerenciar acesso]** botão. [Saiba mais sobre o OLA (Object Level Access Control, controle de acesso em nível de objeto)](../administration/object-based-access.md)
+1. Para atribuir rótulos de uso de dados personalizados ou principais à campanha, clique no botão **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLA (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md)
 
 ## Definir o público da campanha {#audience}
 
@@ -65,13 +65,13 @@ Para definir a população direcionada pela campanha, siga estas etapas:
 
 >[!IMPORTANT]
 >
->O uso de públicos-alvo e atributos de [composição de público](../audience/get-started-audience-orchestration.md) e [upload personalizado (arquivo CSV) públicos-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) O não está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
+>O uso de públicos-alvo e atributos de [composição de público-alvo](../audience/get-started-audience-orchestration.md) e [upload personalizado (arquivo CSV) de públicos-alvo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) não está disponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
 >
 >Para campanhas acionadas por API, o público-alvo precisa ser definido por meio de uma chamada de API.
 
-1. No **Público** clique na guia **[!UICONTROL Selecionar público]** botão para exibir a lista de públicos-alvo disponíveis do Adobe Experience Platform. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)
+1. Na seção **Público-alvo**, clique no botão **[!UICONTROL Selecionar público-alvo]** para exibir a lista de públicos-alvo do Adobe Experience Platform disponíveis. [Saiba mais sobre públicos-alvo](../audience/about-audiences.md)
 
-1. No **[!UICONTROL Namespace de identidade]** escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado.
+1. No campo **[!UICONTROL Namespace de identidade]**, escolha o namespace a ser usado para identificar os indivíduos do segmento selecionado.
 
    Os indivíduos pertencentes a um segmento que não tem a identidade selecionada (namespace) entre suas diferentes identidades não serão direcionados pela campanha. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace)
 
@@ -81,7 +81,7 @@ Para definir a população direcionada pela campanha, siga estas etapas:
 
 ## Criar a mensagem e configurar o rastreamento {#content}
 
-1. No **[!UICONTROL Ações]** escolha o canal e a superfície a serem usados para enviar a mensagem.
+1. Na seção **[!UICONTROL Ações]**, escolha o canal e a superfície a serem usados para enviar a mensagem.
 
    Uma superfície é uma configuração que foi definida por um [Administrador do sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba mais](../configuration/channel-surfaces.md).
 
@@ -91,9 +91,9 @@ Para definir a população direcionada pela campanha, siga estas etapas:
 
    >[!NOTE]
    >
-   >Se estiver criando uma campanha de notificação por push, você poderá ativar a **[!UICONTROL Modo de entrega rápida]**, que é um complemento do Journey Optimizer que permite o envio muito rápido de mensagens por push em grandes volumes. [Saiba mais](../push/create-push.md#rapid-delivery)
+   >Se estiver criando uma campanha de notificação por push, você poderá habilitar o **[!UICONTROL Modo de entrega rápida]**, que é um complemento do Journey Optimizer que permite o envio muito rápido de mensagens por push em grandes volumes. [Saiba mais](../push/create-push.md#rapid-delivery)
 
-1. Clique em **[!UICONTROL Editar conteúdo]** botão para criar e projetar sua mensagem. Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem nas seguintes páginas:
+1. Clique no botão **[!UICONTROL Editar conteúdo]** para criar e criar sua mensagem. Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem nas seguintes páginas:
 
    <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -126,13 +126,13 @@ Para definir a população direcionada pela campanha, siga estas etapas:
     </tr>
     </table>
 
-1. Depois que o conteúdo for definido, use o **[!UICONTROL Simular conteúdo]** botão para visualizar e testar seu conteúdo com perfis de teste. [Saiba mais](../content-management/preview-test.md).
+1. Depois que o conteúdo for definido, use o botão **[!UICONTROL Simular conteúdo]** para visualizar e testar o conteúdo com perfis de teste. [Saiba mais](../content-management/preview-test.md).
 
 1. Clique na seta para voltar para a tela de criação da campanha.
 
    ![](assets/create-campaign-design.png)
 
-1. No **[!UICONTROL Rastreamento de ações]** especifique se deseja rastrear como os recipients reagem ao seu delivery: é possível rastrear cliques e/ou aberturas.
+1. Na seção **[!UICONTROL Rastreamento de ações]**, especifique se deseja acompanhar como seus destinatários reagem à sua entrega: é possível rastrear cliques e/ou aberturas.
 
    Os resultados do rastreamento podem ser acessados no relatório da campanha após a execução da campanha. [Saiba mais sobre relatórios de campanha](../reports/campaign-global-report.md)
 
@@ -160,9 +160,9 @@ Para definir a população direcionada pela campanha, siga estas etapas:
 
 Por padrão, as campanhas começam depois de serem ativadas manualmente e terminam assim que a mensagem é enviada uma vez.
 
-Você pode definir uma frequência na qual a mensagem da campanha deve ser enviada. Para fazer isso, use o **[!UICONTROL Acionadores de ação]** opções na tela de criação da campanha para especificar se a campanha deve ser executada diariamente, semanalmente ou mensalmente.
+Você pode definir uma frequência na qual a mensagem da campanha deve ser enviada. Para fazer isso, use as opções **[!UICONTROL Action triggers]** na tela de criação da campanha para especificar se a campanha deve ser executada diariamente, semanalmente ou mensalmente.
 
-Se não quiser executar sua campanha logo após a ativação, você poderá especificar uma data e hora em que a mensagem deverá ser enviada usando o **[!UICONTROL Início da campanha]** opção. A variável **[!UICONTROL Fim da campanha]** permite especificar quando uma campanha recorrente deve parar de ser executada.
+Se você não quiser executar sua campanha logo após a ativação, poderá especificar uma data e hora em que a mensagem deverá ser enviada usando a opção **[!UICONTROL Início da campanha]**. A opção **[!UICONTROL Campaign end]** permite especificar quando uma campanha recorrente deve parar de ser executada.
 
 ![](assets/create-campaign-schedule.png)
 

@@ -17,19 +17,19 @@ ht-degree: 11%
 
 # Salvar conteúdo como fragmento {#save-as-fragment}
 
-Ao editar conteúdo no [!DNL Journey Optimizer], você pode salvar todo o conteúdo ou parte dele como fragmento para futura reutilização. É possível salvar o conteúdo como fragmento [no Designer de email](#save-as-visual-fragment)ou [no editor de expressão](#save-as-expression-fragment).
+Ao editar o conteúdo no [!DNL Journey Optimizer], você pode salvar todo o conteúdo ou parte dele como fragmento para futura reutilização. Você pode salvar o conteúdo como fragmento [do Designer de email](#save-as-visual-fragment) ou [do editor de expressão](#save-as-expression-fragment).
 
 ## Salvar como fragmento visual {#save-as-visual-fragment}
 
 Para salvar o conteúdo do Designer de email como fragmento, siga estas etapas:
 
-1. No [Designer de email](../email/get-started-email-design.md), clique nas reticências na parte superior direita da tela.
+1. No [Designer de Email](../email/get-started-email-design.md), clique nas reticências na parte superior direita da tela.
 
-1. Selecionar **[!UICONTROL Salvar como fragmento]** no menu suspenso.
+1. Selecione **[!UICONTROL Salvar como fragmento]** no menu suspenso.
 
    ![](assets/fragment-save-as.png)
 
-1. A variável **[!UICONTROL Salvar como fragmento]** é exibida. Lá, selecione os elementos que deseja incluir no fragmento, incluindo campos de personalização e conteúdo dinâmico. Observe que os atributos contextuais não são suportados em fragmentos.
+1. A tela **[!UICONTROL Salvar como fragmento]** é exibida. Lá, selecione os elementos que deseja incluir no fragmento, incluindo campos de personalização e conteúdo dinâmico. Observe que os atributos contextuais não são suportados em fragmentos.
 
    ![](assets/fragment-save-as-screen.png)
 
@@ -39,11 +39,11 @@ Para salvar o conteúdo do Designer de email como fragmento, siga estas etapas:
 
 1. Clique em **[!UICONTROL Criar]** e preencha o nome e a descrição do fragmento (se necessário).
 
-1. Para atribuir rótulos de uso de dados personalizados ou principais ao fragmento, clique no **[!UICONTROL Gerenciar acesso]** na seção superior da tela. [Saiba mais sobre o OLAC (Object Level Access Control)](../administration/object-based-access.md).
+1. Para atribuir rótulos de uso de dados personalizados ou principais ao fragmento, clique no botão **[!UICONTROL Gerenciar acesso]** na seção superior da tela. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
 
-1. Selecione ou crie tags do Adobe Experience Platform na **Tags** para categorizar seu modelo para pesquisa aprimorada. [Saiba mais](../start/search-filter-categorize.md#tags)
+1. Selecione ou crie tags Adobe Experience Platform a partir do campo **Tags** para categorizar seu modelo para pesquisa aprimorada. [Saiba mais](../start/search-filter-categorize.md#tags)
 
-1. Clique em **[!UICONTROL Criar]**. O fragmento é adicionado à variável [lista de fragmentos](#access-manage-fragments) com o **Rascunho** status. Ele se torna um fragmento independente que pode ser usado como qualquer outro fragmento visual dessa lista.
+1. Clique em **[!UICONTROL Criar]**. O fragmento é adicionado à [lista de fragmentos](#access-manage-fragments) com o status **Rascunho**. Ele se torna um fragmento independente que pode ser usado como qualquer outro fragmento visual dessa lista.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ O editor de personalização do [!DNL Journey Optimizer] permite salvar o conte�
 
 Para salvar o conteúdo como um fragmento de expressão, siga as etapas abaixo.
 
-1. No [editor de personalização](../personalization/personalization-build-expressions.md) , crie uma expressão e clique em **[!UICONTROL Salvar como fragmento]**.
+1. Na interface do [editor de personalização](../personalization/personalization-build-expressions.md), crie uma expressão e clique em **[!UICONTROL Salvar como fragmento]**.
 
    >[!NOTE]
    >
@@ -76,6 +76,6 @@ Para salvar o conteúdo como um fragmento de expressão, siga as etapas abaixo.
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. O fragmento é adicionado à variável [lista de fragmentos](#access-manage-fragments) com o **Rascunho** status. Ele se torna um fragmento independente que pode ser usado como qualquer outro fragmento de expressão dessa lista.
+1. O fragmento é adicionado à [lista de fragmentos](#access-manage-fragments) com o status **Rascunho**. Ele se torna um fragmento independente que pode ser usado como qualquer outro fragmento de expressão dessa lista.
 
 1. Para poder usar o fragmento em suas jornadas e campanhas, é necessário ativá-lo. [Saiba como visualizar e publicar um fragmento](../content-management/create-fragments.md#publish)

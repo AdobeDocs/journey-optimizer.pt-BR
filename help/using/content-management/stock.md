@@ -22,23 +22,23 @@ ht-degree: 13%
 
 O plug-in de integração do Designer de email para o [!DNL Adobe Stock] e [!DNL Adobe Journey Optimizer] fornece aos clientes uma maneira fácil de navegar, licenciar e salvar imagens para uso na criação de mensagens.
 
-[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} O fornece acesso a milhões de fotos, vídeos, ilustrações e gráficos vetoriais de alta qualidade, preparados e gratuitos. Você pode optar por comprar um pacote de crédito para licenciar ativos ou comprar apenas uma licença Padrão ou Estendida para o ativo necessário. O Adobe Stock também fornece uma coleção gratuita de ativos.
+O [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} fornece acesso a milhões de fotos, vídeos, ilustrações e elementos gráficos vetoriais de alta qualidade, com curadoria e isentos de royalties. Você pode optar por comprar um pacote de crédito para licenciar ativos ou comprar apenas uma licença Padrão ou Estendida para o ativo necessário. O Adobe Stock também fornece uma coleção gratuita de ativos.
 
 Com o [!DNL Adobe Journey Optimizer], você pode fazer upload de imagens para seus emails diretamente do [!DNL Adobe Stock] e adicioná-las à pasta **[!UICONTROL Ativos]** usando a opção **[!UICONTROL Encontrar fotos do Adobe Stock]**. Além disso, a opção **[!UICONTROL Encontrar fotos semelhantes do Stock]** ajuda a encontrar imagens que correspondam ao conteúdo, à cor e à composição do ativo usado na entrega.
 
 ## Permissões{#stock-permissions}
 
-A variável **[!UICONTROL Localizar fotos do Adobe Stock]** e **[!UICONTROL Localizar Imagem Semelhante]** As opções do estão disponíveis para usuários com acesso a um Perfil de produto do AEM Assets Essentials.
+As opções **[!UICONTROL Localizar fotos do Adobe Stock]** e **[!UICONTROL Localizar imagem semelhante]** estão disponíveis para usuários com acesso a um Perfil de Produto do AEM Assets Essentials.
 
-Para obter mais informações, consulte [Documentação do Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
+Para obter mais informações, consulte a [documentação do Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## Inserir uma imagem de [!DNL Adobe Stock] {#add-stock-image}
 
-Para adicionar imagens de [!DNL Adobe Stock] para acessar seu conteúdo, siga as etapas abaixo:
+Para adicionar imagens de [!DNL Adobe Stock] ao seu conteúdo, siga as etapas abaixo:
 
-1. No **[!UICONTROL Componentes do conteúdo]** do Designer de email, arraste e solte uma **Imagem**.
+1. Na seção **[!UICONTROL Componentes do conteúdo]** do Designer de email, arraste e solte uma **Imagem**.
 
-1. Clique em **[!UICONTROL Localizar fotos do Adobe Stock]** no lado esquerdo do Designer de email.
+1. Clique no botão **[!UICONTROL Localizar fotos do Adobe Stock]** no lado esquerdo do Designer de email.
 
    ![](assets/stock-find-photos.png)
 
@@ -48,16 +48,16 @@ Para adicionar imagens de [!DNL Adobe Stock] para acessar seu conteúdo, siga as
 
 1. Selecione a imagem escolhida e clique em **[!UICONTROL Salvar]**.
 
-   Se a imagem selecionada não estiver licenciada, você deverá [obter a licença](#license-stock-image).
+   Se a imagem selecionada não for licenciada, você deverá [obter a licença](#license-stock-image).
 
 ## Localizar fotos semelhantes {#similar-stock-image}
 
-Você pode substituir qualquer imagem existente em seu conteúdo de email por uma foto de [!DNL Adobe Stock]. Observe que essa opção está disponível para todas as imagens: imagens do Stock licenciadas/não licenciadas e imagens da sua pasta de ativos.
+Você pode substituir qualquer imagem existente no seu conteúdo de email por uma foto do [!DNL Adobe Stock]. Observe que essa opção está disponível para todas as imagens: imagens do Stock licenciadas/não licenciadas e imagens da sua pasta Assets.
 
 Para procurar fotos semelhantes, siga as etapas abaixo:
 
 1. Selecione a imagem a ser substituída.
-1. Clique em **[!UICONTROL Encontrar fotos semelhantes do Stock]** botão para exibir ativos no [!DNL Adobe Stock] que correspondem ao conteúdo, cor e composição da imagem.
+1. Clique no botão **[!UICONTROL Localizar fotos semelhantes do Stock]** para exibir ativos em [!DNL Adobe Stock] que correspondam ao conteúdo, cor e composição da imagem.
 
    ![](assets/stock-similar.png)
 
@@ -65,38 +65,38 @@ Para procurar fotos semelhantes, siga as etapas abaixo:
 
    ![](assets/stock-similar-results.png)
 
-   Se a imagem selecionada não estiver licenciada, você deverá [obter a licença](#license-stock-image).
+   Se a imagem selecionada não for licenciada, você deverá [obter a licença](#license-stock-image).
 
-1. Personalize a imagem, se necessário, com o **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]** guias. [Saiba mais sobre configurações de componentes](../email/content-components.md).
+1. Personalize sua imagem, se necessário, com as guias **[!UICONTROL Configurações]** e **[!UICONTROL Estilos]**. [Saiba mais sobre configurações de componentes](../email/content-components.md).
 
-## Obter a licença do [!DNL Adobe Stock] {#license-stock-image}
+## Obter a licença de [!DNL Adobe Stock] {#license-stock-image}
 
-Se sua imagem já estiver licenciada, ela será representada pela variável ![](assets/stock_10.png) ícone. Caso contrário, você deve licenciá-lo.
+Se sua imagem já estiver licenciada, ela será representada pelo ícone ![](assets/stock_10.png). Caso contrário, você deve licenciá-lo.
 
 Para licenciar e baixar a imagem, siga as etapas abaixo:
 
-1. Selecione-a e clique no botão **[!UICONTROL Licenciar imagem do Adobe Stock]** ícone.
+1. Selecione-a e clique no ícone **[!UICONTROL Licenciar imagem do Adobe Stock]**.
 
    ![](assets/stock-license-icon.png)
 
-   Você será redirecionado para a [!DNL Adobe Stock] site para comprar a licença.
+   Você será redirecionado ao site [!DNL Adobe Stock] para comprar a licença.
 
    ![](assets/stock-license-photo.png)
 
-1. No [!DNL Adobe Stock] site, você precisa comprar seu ativo para baixar a imagem e remover a marca d&#39;água.
+1. No site do [!DNL Adobe Stock], você precisa comprar seu ativo para baixar a imagem e remover a marca d&#39;água.
 
    Essa compra depende do seu plano ou assinatura da Adobe Stock. Observe que, se você tiver várias contas do Adobe Stock, será redirecionado para a última ID do Stock usada. Nesse caso, verifique se você está conectado à conta correta antes de licenciar seu ativo.
 
-   Para obter mais informações sobre planos e preços do Adobe Stock em [Documentação do Adobe Stock](https://stock.adobe.com/plans){target="_blank"}.
+   Para obter mais informações sobre planos e preços da Adobe Stock, consulte a [documentação do Adobe Stock](https://stock.adobe.com/plans){target="_blank"}.
 
    >[!WARNING]
    > Se um email incluindo uma imagem não licenciada for enviado, a imagem manterá seu formulário não licenciado com a marca d&#39;água.
 
-1. Após concluir a compra, você pode voltar para o email no [!DNL Adobe Journey Optimizer] e selecione **[!UICONTROL Importar imagem de estoque]** para importar a imagem licenciada para os ativos.
+1. Após concluir a compra, você pode voltar ao email no [!DNL Adobe Journey Optimizer] e selecionar **[!UICONTROL Importar imagem de estoque]** para importar a imagem licenciada para seus ativos.
 
    ![](assets/stock_6.png)
 
-1. Selecione em qual pasta armazenar o ativo. Para obter mais informações sobre [!DNL Experience Manager Assets], consulte este [página](assets.md#get-started-assets).
+1. Selecione em qual pasta armazenar o ativo. Para obter mais informações sobre [!DNL Experience Manager Assets], consulte esta [página](assets.md#get-started-assets).
 
 ## Tópicos relacionados{#stock-related-topics}
 

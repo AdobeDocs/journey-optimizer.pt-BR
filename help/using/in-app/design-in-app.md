@@ -10,7 +10,7 @@ exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 26%
 
 É possível editar o conteúdo no aplicativo para configurar as opções de experiência:
 
-* Em um **[!UICONTROL Campaign]**, do **[!UICONTROL Ação]** para configurar o conteúdo da mensagem, clique no link **[!UICONTROL Editar conteúdo]** botão.
+* Em uma **[!UICONTROL Campanha]**, no menu **[!UICONTROL Ação]**, para configurar o conteúdo da mensagem, clique no botão **[!UICONTROL Editar conteúdo]**.
 
   ![](assets/edit-in-app-content.png)
 
-* Em um **[!UICONTROL Jornada]**, no menu avançado do aplicativo **[!UICONTROL Ação]**, você pode começar a projetar o conteúdo com o **[!UICONTROL Editar conteúdo]** botão.
+* Em uma **[!UICONTROL Jornada]**, no menu avançado de sua **[!UICONTROL Ação]** no aplicativo, você pode começar a criar seu conteúdo com o botão **[!UICONTROL Editar conteúdo]**.
 
   ![](assets/design_inapp_journey.png)
 
-A variável **[!UICONTROL Formatação avançada]** ativar/desativar ativa opções adicionais para personalizar a experiência.
+O botão de alternância **[!UICONTROL Formatação avançada]** ativa opções adicionais para personalizar a experiência.
 
 Depois que a mensagem no aplicativo for criada e o conteúdo definido e personalizado, você poderá revisá-la e ativá-la. As notificações serão enviadas de acordo com o agendamento da campanha. Saiba mais [nesta página](send-in-app.md).
 
@@ -42,7 +42,7 @@ Depois que a mensagem no aplicativo for criada e o conteúdo definido e personal
 >title="Definir o conteúdo no aplicativo"
 >abstract="O layout da mensagem fornece modelos usados com frequência para criar uma moldura para sua mensagem. O layout personalizado fornece opções para fazer upload ou compor mensagens HTML personalizadas."
 
-No **[!UICONTROL Layout da mensagem]** selecione uma das quatro opções diferentes de layout a serem escolhidas, dependendo das suas necessidades.
+Na seção **[!UICONTROL Layout da Mensagem]**, selecione uma das quatro opções de layout diferentes a serem escolhidas, dependendo das suas necessidades.
 
 ![](assets/in_app_web_design_1.png)
 
@@ -54,21 +54,21 @@ No **[!UICONTROL Layout da mensagem]** selecione uma das quatro opções diferen
 
   É compatível com mídias (imagem, vídeo), texto e componentes de botão.
 
-* **[!UICONTROL Banner]**: esse tipo de layout é exibido como uma mensagem de alerta de SO nativo.
+* **[!UICONTROL Banner]**: esse tipo de layout aparece como uma mensagem de alerta de SO nativo.
 
-  Você só pode adicionar um **[!UICONTROL Cabeçalho]** e uma **[!UICONTROL Corpo]** à sua mensagem.
+  Você só pode adicionar um **[!UICONTROL Cabeçalho]** e um **[!UICONTROL Corpo]** à sua mensagem.
 
 * **[!UICONTROL Personalizado]**: o modo de mensagem personalizada permite importar e editar diretamente uma de suas mensagens HTML pré-configuradas.
 
-   * Selecionar **[!UICONTROL Compor]** para inserir ou colar seu código de HTML bruto.
+   * Selecione **[!UICONTROL Compor]** para inserir ou colar seu código de HTML bruto.
 
      Use o painel esquerdo para aproveitar os recursos de personalização do Journey Optimizer. Para obter mais informações, consulte [esta seção](../personalization/personalize.md).
 
-   * Selecionar **[!UICONTROL Importar]** para importar o arquivo HTML ou .zip que contenha o conteúdo HTML.
+   * Selecione **[!UICONTROL Importar]** para importar o arquivo HTML ou .zip que contenha o conteúdo HTML.
 
 ## Guia Conteúdo {#content-tab}
 
-No **Conteúdo** é possível definir e personalizar o conteúdo da notificação e o estilo da notificação **Fechar** botão. Você também pode adicionar uma mídia à notificação no aplicativo e adicionar botões de ação nesta guia.
+Na guia **Conteúdo**, é possível definir e personalizar o conteúdo da notificação e o estilo do botão **Fechar**. Você também pode adicionar uma mídia à notificação no aplicativo e adicionar botões de ação nesta guia.
 
 ### Botão Fechar {#close-button}
 
@@ -79,17 +79,17 @@ No **Conteúdo** é possível definir e personalizar o conteúdo da notificaçã
 
 ![](assets/in_app_web_design_2.png)
 
-Escolha o **[!UICONTROL Estilo]** do seu **[!UICONTROL Botão Fechar]**.
+Escolha o **[!UICONTROL Estilo]** do seu **[!UICONTROL botão Fechar]**.
 
 Os estilos disponíveis são:
 
 * **[!UICONTROL Simples]**
 * **[!UICONTROL Círculo]**
-* **[!UICONTROL Imagem personalizada]** de um URL de mídia ou de seus Ativos.
+* **[!UICONTROL Imagem personalizada]** de uma URL de mídia ou de sua Assets.
 
 +++Mais opções com formatação avançada
 
-Se a variável **[!UICONTROL Modo de formatação avançado]** estiver ativada, você poderá verificar a **[!UICONTROL Cor]** para escolher a cor e a opacidade do botão.
+Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você poderá marcar a opção **[!UICONTROL Cor]** para escolher a cor e a opacidade do botão.
 
 +++
 
@@ -100,16 +100,16 @@ Se a variável **[!UICONTROL Modo de formatação avançado]** estiver ativada, 
 >title="Adicione mídias à mensagem do aplicativo e crie uma experiência cativante para o usuário final."
 >abstract="Forneça um link direto para o conteúdo ou use o seletor de ativos para escolher a mídia no Asset Essentials e adicioná-la à mensagem."
 
-A variável **[!UICONTROL Mídia]** permite adicionar mídia à mensagem no aplicativo para criar uma experiência atraente para o usuário final.
+O campo **[!UICONTROL Mídia]** permite adicionar mídia à mensagem no aplicativo para criar uma experiência atraente para o usuário final.
 
 ![](assets/in_app_web_design_3.png)
 
-Digite o URL de mídia ou clique no link **[!UICONTROL Selecionar ativos]** ícone para adicionar diretamente os ativos armazenados na biblioteca de Ativos à mensagem no aplicativo. [Saiba mais sobre o gerenciamento de ativos](../content-management/assets.md).
-Você também pode adicionar um **[!UICONTROL Texto alternativo]** para aplicativos de leitura de tela.
+Digite sua URL de mídia ou clique no ícone **[!UICONTROL Selecionar Assets]** para adicionar diretamente os ativos armazenados na biblioteca do Assets à mensagem no aplicativo. [Saiba mais sobre o gerenciamento de ativos](../content-management/assets.md).
+Você também pode adicionar um **[!UICONTROL texto alternativo]** para aplicativos de leitura de tela.
 
 +++Mais opções com formatação avançada
 
-Se a variável **[!UICONTROL Modo de formatação avançado]** estiver ativada, você poderá personalizar a variável **[!UICONTROL Altura máxima]** e **[!UICONTROL Largura máxima]** de sua mídia.
+Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você poderá personalizar a **[!UICONTROL Altura máxima]** e a **[!UICONTROL Largura máxima]** da mídia.
 
 +++
 
@@ -120,19 +120,19 @@ Se a variável **[!UICONTROL Modo de formatação avançado]** estiver ativada, 
 >title="Para compor a mensagem, insira o conteúdo nos campos Cabeçalho e Corpo."
 >abstract="Os textos do cabeçalho e do corpo podem ser adicionados aqui. Para incluir tokens de personalização, abra a caixa de diálogo de personalização."
 
-Para redigir a mensagem, insira o conteúdo nas **[!UICONTROL Cabeçalho]** e **[!UICONTROL Corpo]** campos.
+Para redigir a mensagem, insira o conteúdo nos campos **[!UICONTROL Cabeçalho]** e **[!UICONTROL Corpo]**.
 
 ![](assets/in_app_web_design_4.png)
 
-Use o **[!UICONTROL Personalização]** ícone para adicionar personalização. Saiba mais sobre a personalização no editor de personalização do Adobe Journey Optimizer [nesta seção](../personalization/personalize.md).
+Use o ícone **[!UICONTROL Personalization]** para adicionar personalização. Saiba mais sobre a personalização no editor de personalização do Adobe Journey Optimizer [nesta seção](../personalization/personalize.md).
 
 +++Mais opções com formatação avançada
 
-Se a variável **[!UICONTROL Modo de formatação avançado]** estiver ativada, você poderá escolher para sua **[!UICONTROL Cabeçalho]** e **[!UICONTROL Corpo]**:
+Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você poderá escolher para seu **[!UICONTROL Cabeçalho]** e **[!UICONTROL Corpo]**:
 
-* o **[!UICONTROL Fonte]**
-* o **[!UICONTROL Tamanho Pt]**
-* o **[!UICONTROL Cor da fonte]**
+* a **[!UICONTROL Fonte]**
+* o **[!UICONTROL Pt tamanho]**
+* a **[!UICONTROL Cor da Fonte]**
 * o **[!UICONTROL Alinhamento]**
 +++
 
@@ -149,31 +149,31 @@ Adicione botões para a interação com mensagens no aplicativo.
 
 Para personalizar o botão:
 
-1. Edite o campo Button #1 text (primary). Você também pode usar a variável **[!UICONTROL Personalização]** ícone para definir o conteúdo e os dados de personalização.
+1. Edite o campo Button #1 text (primary). Você também pode usar o ícone **[!UICONTROL Personalization]** para definir dados de conteúdo e personalização.
 
-1. Escolha o seu **[!UICONTROL Interagir evento]** que define a ação do botão depois que os usuários interagiram com ele.
+1. Escolha o **[!UICONTROL Interagir evento]** que define a ação do botão depois que os usuários interagiram com ele.
 
-1. Insira o URL da Web ou deep link na **[!UICONTROL Target]** campo.
+1. Insira sua URL da Web ou deep link no campo **[!UICONTROL Target]**.
 
 1. Para adicionar vários botões, clique em **[!UICONTROL Botão Adicionar]**.
 
 +++Mais opções com formatação avançada
 
-Se a variável **[!UICONTROL Modo de formatação avançado]** estiver ativada, você poderá escolher para sua **[!UICONTROL Botões]**:
+Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você poderá escolher para seus **[!UICONTROL Botões]**:
 
-* o **[!UICONTROL Fonte]**
-* o **[!UICONTROL Tamanho Pt]**
-* o **[!UICONTROL Cor da fonte]**
+* a **[!UICONTROL Fonte]**
+* o **[!UICONTROL Pt tamanho]**
+* a **[!UICONTROL Cor da Fonte]**
 * o **[!UICONTROL Alinhamento]**
-* o **[!UICONTROL Estilo do botão]**
+* o **[!UICONTROL estilo do botão]**
 * o **[!UICONTROL Raio]**
-* o **[!UICONTROL Cor do botão]**
+* a **[!UICONTROL cor do botão]**
 
 +++
 
 ## Guia Configurações {#settings-tab}
 
-No **Configurações** defina o layout da mensagem e visualize a mensagem no aplicativo. Você também pode acessar opções avançadas de formatação.
+Na guia **Configurações**, é possível definir o layout da mensagem e pré-visualizar a mensagem no aplicativo. Você também pode acessar opções avançadas de formatação.
 
 ### Visualização {#preview-tab}
 
@@ -188,11 +188,11 @@ No **Configurações** defina o layout da mensagem e visualize a mensagem no apl
 
 ![](assets/in_app_content_6.png)
 
-A variável **[!UICONTROL Visualização do aplicativo]** permite adicionar um plano de fundo atrás da mensagem no aplicativo:
+A **[!UICONTROL Visualização do aplicativo]** permite que você adicione um plano de fundo por trás da mensagem no aplicativo:
 
 * Uma mídia de um link de URL.
 
-* Um ativo da biblioteca de Ativos.
+* Um ativo da sua biblioteca Assets.
 
 * Uma cor de fundo.
 
@@ -205,7 +205,7 @@ A variável **[!UICONTROL Visualização do aplicativo]** permite adicionar um p
 
 ![](assets/in_app_web_design_6.png)
 
-A variável **[!UICONTROL Imagem de fundo]** permite adicionar um plano de fundo à mensagem no aplicativo:
+O campo **[!UICONTROL Imagem de plano de fundo]** permite adicionar um plano de fundo à mensagem no aplicativo:
 
 * Uma mídia de um link de URL.
 
@@ -224,19 +224,19 @@ A opção de controle de interface do usuário, habilitada por padrão, permite 
 
 +++Mais opções com formatação avançada
 
-Se a variável **[!UICONTROL Modo de formatação avançado]** estiver ativada, você poderá personalizar ainda mais sua mensagem com as seguintes opções:
+Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você poderá personalizar ainda mais sua mensagem com as seguintes opções:
 
 * **[!UICONTROL Personalizar gestos]**: permite personalizar o que é a interação de deslizamento do usuário. Se a opção ignorar for selecionada, você poderá adicionar um evento de interação personalizado e/ou destino de destino.
 
-* **[!UICONTROL Personalizar tomada de controle da interface]**: permite selecionar uma cor para exibir no plano de fundo e sua opacidade.
+* **[!UICONTROL Personalizar tomada de controle da interface do usuário]**: permite selecionar uma cor para exibir no plano de fundo e sua opacidade.
 
 * **[!UICONTROL Personalizar tamanho]**: permite ajustar a largura e a altura das notificações no aplicativo.
 
 * **[!UICONTROL Personalizar posição]**: permite personalizar a posição das mensagens no aplicativo na tela dos usuários. É possível alterar os alinhamentos Vertical e Horizontal.
 
-* **[!UICONTROL Personalizar animação]**: permite personalizar Exibir e Dispensar animações, por exemplo, se a notificação no aplicativo for exibida à esquerda ou na parte superior do dispositivo do usuário.
+* **[!UICONTROL Personalizar animação]**: permite que você personalize suas animações Exibir e Ignorar, por exemplo, se a notificação no aplicativo aparecer à esquerda ou na parte superior do dispositivo do usuário.
 
-* **[!UICONTROL Canto arredondado da mensagem]**: permite adicionar um canto redondo à notificação no aplicativo alterando o **[!UICONTROL Raio do canto]**.
+* **[!UICONTROL Canto arredondado da mensagem]**: permite que você adicione o canto arredondado à sua notificação no aplicativo alterando o **[!UICONTROL Raio do canto]**.
 
 +++
 

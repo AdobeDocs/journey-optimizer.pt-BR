@@ -27,23 +27,23 @@ Estas documentações fornecem informações detalhadas sobre como trabalhar com
 
 Para criar um fluxo de trabalho de composição, siga estas etapas:
 
-1. Acesse o **[!UICONTROL Públicos-alvo]** e selecione **[!UICONTROL Criar público-alvo]**.
+1. Acesse o menu **[!UICONTROL Públicos-alvo]** e selecione **[!UICONTROL Criar público-alvo]**.
 
-1. Selecionar **[!UICONTROL Compor público]**.
+1. Selecione **[!UICONTROL Compor Público]**.
 
    ![](assets/audiences-create.png)
 
    >[!NOTE]
    >
-   >A variável **[!UICONTROL Criar regra]** método de criação permite criar uma nova definição de segmento usando o método [Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR).
+   >O método de criação da **[!UICONTROL regra de compilação]** permite criar uma nova definição de segmento usando o [Serviço de Segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR).
 
 1. A tela de composição é exibida com duas atividades padrão:
 
-   * **[!UICONTROL Público]**: o ponto inicial da sua composição. Essa atividade permite selecionar um ou vários públicos-alvo como base para o fluxo de trabalho,
+   * **[!UICONTROL Público-alvo]**: o ponto inicial da sua composição. Essa atividade permite selecionar um ou vários públicos-alvo como base para o fluxo de trabalho,
 
    * **[!UICONTROL Salvar]**: a última etapa da sua composição. Essa atividade permite salvar o resultado do fluxo de trabalho em um novo público-alvo.
 
-   Para obter mais informações sobre como configurar atividades na tela de workflow de composição, consulte [Trabalhar com a tela de composição](composition-canvas.md).
+   Para obter mais informações sobre como configurar atividades na tela de fluxo de trabalho de composição, consulte [Trabalhar com a tela de composição](composition-canvas.md).
 
 1. Abra as propriedades de composição para especificar um título e uma descrição.
 
@@ -51,11 +51,11 @@ Para criar um fluxo de trabalho de composição, siga estas etapas:
 
    ![](assets/audiences-properties.png)
 
-1. Configure sua composição adicionando quantas atividades forem necessárias entre as **[!UICONTROL Público]** e **[!UICONTROL Salvar]** atividades. [Saiba como trabalhar com a tela de composição](composition-canvas.md)
+1. Configure sua composição adicionando quantas atividades forem necessárias entre as atividades de **[!UICONTROL Público]** e **[!UICONTROL Salvar]**. [Saiba como trabalhar com a tela de composição](composition-canvas.md)
 
    ![](assets/audiences-publish.png)
 
-1. Quando a composição estiver pronta, clique no link **[!UICONTROL Publish]** botão para publicar a composição e salvar os públicos resultantes no Adobe Experience Platform.
+1. Quando a composição estiver pronta, clique no botão **[!UICONTROL Publish]** para publicar a composição e salvar os públicos resultantes no Adobe Experience Platform.
 
    >[!IMPORTANT]
    >
@@ -65,7 +65,7 @@ Para criar um fluxo de trabalho de composição, siga estas etapas:
 
    ![](assets/audiences-alerts.png)
 
-1. A composição é publicada. Os públicos-alvo resultantes são salvos no Adobe Experience Platform e estão prontos para serem direcionados no Journey Optimizer. [Saiba como direcionar públicos-alvo no Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
+1. A composição é publicada. Os públicos-alvo resultantes são salvos no Adobe Experience Platform e estão prontos para serem direcionados no Journey Optimizer. [Saiba como direcionar públicos no Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ## Acessar composições {#access}
 
@@ -74,7 +74,7 @@ Para criar um fluxo de trabalho de composição, siga estas etapas:
 >title="Publicar o público"
 >abstract="Publique a composição para salvar os públicos resultantes na Adobe Experience Platform."
 
-Todas as composições criadas podem ser acessadas no **[!UICONTROL Composições]** guia. É possível duplicar ou excluir uma composição existente a qualquer momento usando o botão de reticências na lista.
+Todas as composições criadas podem ser acessadas na guia **[!UICONTROL Composições]**. É possível duplicar ou excluir uma composição existente a qualquer momento usando o botão de reticências na lista.
 
 As composições podem ter vários status:
 
@@ -85,4 +85,4 @@ As composições podem ter vários status:
 
 >[!NOTE]
 >
->No momento, a composição de público-alvo não está integrada ao recurso de redefinição da sandbox. Antes de iniciar uma redefinição de sandbox, é necessário excluir as composições manualmente para garantir que os dados do público-alvo associado sejam limpos corretamente. Informações detalhadas estão disponíveis no Adobe Experience Platform [Documentação de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
+>No momento, a composição de público-alvo não está integrada ao recurso de redefinição da sandbox. Antes de iniciar uma redefinição de sandbox, é necessário excluir as composições manualmente para garantir que os dados do público-alvo associado sejam limpos corretamente. Informações detalhadas estão disponíveis na [Documentação de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions) do Adobe Experience Platform

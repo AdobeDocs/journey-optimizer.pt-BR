@@ -10,7 +10,7 @@ exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 Retorna os valores ou objetos distintos de uma determinada lista. Se a lista tiver pelo menos uma entrada nula, uma entrada nula estará presente na lista retornada.
 
-Observe que o parâmetro `<listObject>` não é compatível com esta função.
+Observe que o parâmetro `<listObject>` não tem suporte nessa função.
 
 ## Categoria
 
@@ -72,4 +72,4 @@ Retorna uma lista de durações.
 
 `distinctWithNull([10,2,10,null])`
 
-Devoluções [10, 2, nulo]
+Retorna [10, 2, nulo]

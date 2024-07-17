@@ -17,15 +17,15 @@ ht-degree: 2%
 
 Com a Gestão de decisões, você pode criar e fornecer experiências de oferta personalizada de usuários finais, em canais e aplicativos usando lógica de negócios e regras de decisão. Uma oferta é uma mensagem de marketing que pode ter regras associadas que especificam quem está qualificado para ver a oferta.
 
-Você pode criar e entregar ofertas fazendo uma solicitação POST à [!DNL Decisioning] API.
+Você pode criar e entregar ofertas fazendo uma solicitação POST para a API [!DNL Decisioning].
 
-Este tutorial requer uma compreensão funcional das APIs, especificamente no que diz respeito à Gestão de decisões. Para obter mais informações, consulte [Guia do desenvolvedor da API de Gestão de decisões](../getting-started.md). Este tutorial também requer que você tenha uma ID de posicionamento exclusiva e um valor de ID de decisão disponíveis. Se você não adquiriu esses valores, consulte os tutoriais do [criação de uma inserção](../offers-api/placements/create.md) e [criação de uma decisão](../activities-api/activities/create.md).
+Este tutorial requer uma compreensão funcional das APIs, especificamente no que diz respeito à Gestão de decisões. Para obter mais informações, consulte o [Guia do desenvolvedor da API de Gerenciamento de Decisões](../getting-started.md). Este tutorial também requer que você tenha uma ID de posicionamento exclusiva e um valor de ID de decisão disponíveis. Se você não adquiriu esses valores, consulte os tutoriais de [criação de um posicionamento](../offers-api/placements/create.md) e [criação de uma decisão](../activities-api/activities/create.md).
 
-➡️  [Descubra este recurso no vídeo](#video)
+➡️ [Descubra este recurso no vídeo](#video)
 
 ## Cabeçalhos obrigatórios {#required-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -124,14 +124,14 @@ curl -X POST \
 | `xdm:mergePolicy.xdm:id` | Identifica a política de mesclagem pela qual controlar os dados retornados pelo serviço de acesso ao perfil. Se um não for especificado na solicitação, o Gerenciamento de decisões não transmitirá nenhum serviço de acesso de perfil, caso contrário, transmitirá a ID fornecida pelo chamador. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | Um conjunto de sinalizadores que formata o conteúdo da resposta. |
 | `xdm:responseFormat.xdm:includeContent` | Um valor booleano que, se definido como `true`, inclui conteúdo na resposta. | `"xdm:includeContent": true` |
-| `xdm:responseFormat.xdm:includeMetadata` | Um objeto usado para especificar quais metadados adicionais são retornados. Se essa propriedade não for incluída, `xdm:id` e `repo:etag` são retornados por padrão. | `name` |
-| `xdm:responseFormat.xdm:activity` | Esse sinalizador identifica as informações de metadados específicas retornadas para `xdm:activity`. | `name` |
-| `xdm:responseFormat.xdm:option` | Esse sinalizador identifica as informações de metadados específicas retornadas para `xdm:option`. | `name`, `characteristics` |
-| `xdm:responseFormat.xdm:placement` | Esse sinalizador identifica as informações de metadados específicas retornadas para `xdm:placement`. | `name`, `channel`, `componentType` |
+| `xdm:responseFormat.xdm:includeMetadata` | Um objeto usado para especificar quais metadados adicionais são retornados. Se esta propriedade não for incluída, `xdm:id` e `repo:etag` serão retornados por padrão. | `name` |
+| `xdm:responseFormat.xdm:activity` | Este sinalizador identifica as informações de metadados específicas retornadas para `xdm:activity`. | `name` |
+| `xdm:responseFormat.xdm:option` | Este sinalizador identifica as informações de metadados específicas retornadas para `xdm:option`. | `name`, `characteristics` |
+| `xdm:responseFormat.xdm:placement` | Este sinalizador identifica as informações de metadados específicas retornadas para `xdm:placement`. | `name`, `channel`, `componentType` |
 
 ### Resposta
 
-Uma resposta bem-sucedida retorna informações sobre sua proposta, incluindo suas `xdm:propositionId`.
+Uma resposta bem-sucedida retorna informações sobre sua proposta, incluindo a `xdm:propositionId` exclusiva.
 
 ```json
 {
@@ -188,12 +188,12 @@ Uma resposta bem-sucedida retorna informações sobre sua proposta, incluindo su
 | Propriedade | Descrição | Exemplo |
 | -------- | ----------- | ------- |
 | `xdm:propositionId` | O identificador exclusivo da entidade de proposta associada a um XDM DecisionEvent. | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
-| `xdm:propositions` | Esse objeto contém uma única apresentação de decisão. Várias opções podem ser retornadas para a decisão. Se nenhuma opção for encontrada, a oferta de fallback da decisão será retornada. As propostas de decisão únicas sempre incluem um `options` propriedade ou um `fallback` propriedade. Quando presente, a variável `options` a propriedade não pode estar vazia. |
+| `xdm:propositions` | Esse objeto contém uma única apresentação de decisão. Várias opções podem ser retornadas para a decisão. Se nenhuma opção for encontrada, a oferta de fallback da decisão será retornada. Proposições de decisão única sempre incluem uma propriedade `options` ou uma propriedade `fallback`. Quando presente, a propriedade `options` não pode estar vazia. |
 | `xdm:propositions.xdm:activity` | Este objeto contém o identificador exclusivo de uma decisão. | `"xdm:id": "xcore:activity:ffed0123"` |
 | `xdm:propositions.xdm:placement` | Este objeto contém o identificador exclusivo para uma disposição de oferta. | `"xdm:id": "xcore:placement:ffed0456"` |
 | `xdm:propositions.xdm:options` | Este objeto contém uma única opção, incluindo seu identificador exclusivo. Se presente, esse objeto não pode estar vazio. | `xdm:id": "xcore:personalized-option:ccc0111` |
 | `xdm:propositions.xdm:options.@type` | Define o tipo do componente. `@type` atua como o contrato de processamento do cliente. Quando a experiência for montada, o compositor procurará os componentes que tenham um tipo específico. | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
-| `xdm:propositions.xdm:content` | O formato do conteúdo da resposta. | O conteúdo da resposta pode ser: `text`, `html block`ou `image link` |
+| `xdm:propositions.xdm:content` | O formato do conteúdo da resposta. | O conteúdo da resposta pode ser: `text`, `html block` ou `image link` |
 | `xdm:score` | A pontuação de uma opção que é calculada como resultado de uma função de classificação associada à opção ou à decisão. Esse campo será retornado pela API se uma função de classificação estiver envolvida na determinação da pontuação de uma oferta durante a classificação. | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | Esse objeto contém uma única oferta substituta, incluindo seu identificador exclusivo. | `"xdm:id": "xcore:fallback:ccc0222"` |
 | `xdm:propositions.xdm:fallback.dc:format` | A manifestação física ou digital do recurso. Normalmente, o formato deve incluir o tipo de mídia do recurso. O formato pode ser usado para determinar o software, hardware ou outro equipamento necessário para exibir ou operar o recurso. É recomendável selecionar um valor de um vocabulário controlado, por exemplo, a lista de [Tipos de mídia da Internet](https://www.iana.org/assignments/media-types/) definindo formatos de mídia de computador. | `"dc:format": "image/png"` ou `"image/jpeg"` |
@@ -226,4 +226,4 @@ The following video is intended to support your understanding of the components 
 
 ## Próximas etapas {#next-steps}
 
-Ao seguir este guia de API, você criou e entregou ofertas usando o [!DNL Decisions] API. Para obter mais informações, consulte [visão geral do Gerenciamento de decisão](../../../offers/get-started/starting-offer-decisioning.md).
+Ao seguir este guia de API, você criou e entregou ofertas usando a API [!DNL Decisions]. Para obter mais informações, consulte a [visão geral sobre a Gestão de Decisões](../../../offers/get-started/starting-offer-decisioning.md).

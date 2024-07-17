@@ -19,7 +19,7 @@ As funções de agregação são usadas para agrupar vários valores para formar
 
 ## Média{#average}
 
-A variável `average` Esta função retorna a média aritmética de todos os valores selecionados dentro da matriz.
+A função `average` retorna a média aritmética de todos os valores selecionados na matriz.
 
 **Sintaxe**
 
@@ -37,7 +37,7 @@ A operação a seguir retorna o preço médio de todas as ordens.
 
 ## Contagem{#count}
 
-A variável `count` A função retorna o número de elementos dentro da matriz especificada.
+A função `count` retorna o número de elementos dentro da matriz especificada.
 
 **Sintaxe**
 
@@ -55,7 +55,7 @@ A operação a seguir retorna o número de ordens na matriz.
 
 ## Máximo{#max}
 
-A variável `max` Esta função retorna o maior valor dentro da matriz.
+A função `max` retorna o maior valor dentro da matriz.
 
 **Sintaxe**
 
@@ -73,7 +73,7 @@ A operação a seguir retorna o preço mais alto de todas as ordens.
 
 ## Mínimo{#min}
 
-A variável `min` Esta função retorna o menor valor dentro da matriz.
+A função `min` retorna o menor valor dentro da matriz.
 
 **Sintaxe**
 
@@ -91,7 +91,7 @@ A operação a seguir retorna o preço mais baixo de todas as ordens.
 
 ## Somar{#sum}
 
-A variável `sum` Esta função retorna a soma de todos os valores selecionados na matriz.
+A função `sum` retorna a soma de todos os valores selecionados na matriz.
 
 **Sintaxe**
 

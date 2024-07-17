@@ -23,7 +23,7 @@ Ao exportar seus dados periodicamente, você pode garantir um registro completo 
 
 ## Destinos de armazenamento na nuvem disponíveis {#destinations}
 
-Você pode exportar conjuntos de dados para seis destinos de armazenamento na nuvem acessíveis pelo **[!UICONTROL Destinos]** no menu, no **[!UICONTROL Catálogo]** guia.
+Você pode exportar conjuntos de dados para 6 destinos de armazenamento na nuvem que podem ser acessados pelo menu **[!UICONTROL Destinos]**, na guia **[!UICONTROL Catálogo]**.
 
 ![](assets/dataset-export-setup.png)
 
@@ -31,10 +31,10 @@ Você pode exportar conjuntos de dados para seis destinos de armazenamento na nu
 Informações detalhadas sobre cada destino estão disponíveis na documentação do Adobe Experience Platform:
 
 * [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html)
-* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html)
+* [Blob do Azure](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html)
 * [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html)
-* [Data Landing Zone](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html)
-* [Armazenamento em nuvem Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
+* [Zona de Aterrissagem de Dados](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html)
+* [Armazenamento na nuvem do Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html)
 
 ## Conjuntos de dados disponíveis para exportação {#datasets}
@@ -45,15 +45,15 @@ Entenda na tabela abaixo quais conjuntos de dados do Journey Optimizer você pod
 | ------- | ------- | 
 | Conjunto de dados do evento de feedback CCO do AJO | Conjunto de dados do evento de feedback CCO do AJO |
 | Conjunto de dados de classificação do AJO | Conjunto de dados para assimilar eventos de feedback de aplicativos de email e por push do Journey Optimizer. Criado pelo SDK. |
-| Conjunto de dados do serviço de consentimento do AJO | Armazena informações de consentimento de um perfil. |
-| Conjunto de dados do evento de experiência de rastreamento de email do AJO | Logs de interação para o canal de email, que é usado para fins de criação de relatórios e público-alvo.  |
+| Conjunto de dados do serviço de consentimento da AJO | Armazena informações de consentimento de um perfil. |
+| Conjunto de dados de evento de experiência de rastreamento de email do AJO | Logs de interação para o canal de email, que é usado para fins de criação de relatórios e público-alvo.  |
 | Conjunto de dados da entidade AJO | Conjunto de dados para armazenar metadados de entidade para mensagens enviadas ao usuário final.  |
 | Conjunto de dados do evento de atividade de entrada do AJO | Conjunto de dados para canais na Web e no aplicativo do Journey Optimizer para eventos de entrega e interação. |
-| Conjunto de dados do perfil de mensagens interativas do AJO | Armazena perfis criados para oferecer suporte a campanhas acionadas por API |
+| Conjunto de dados do perfil de mensagens interativas da AJO | Armazena perfis criados para oferecer suporte a campanhas acionadas por API |
 | Conjunto de dados do evento de feedback de mensagem do AJO | Logs de entrega de mensagens. Informações sobre todas as entregas de mensagens do Journey Optimizer para fins de criação de relatórios e de público-alvo. O feedback dos ISPs de email sobre rejeições também é registrado neste conjunto de dados. |
-| Extensão de contadores de perfil do AJO | Contém um mapa de objetos contendo counter_value e expiryDate, digitado por counter_id |
-| Conjunto de dados do perfil de push do AJO | Armazena tokens de push de um perfil. |
-| Conjunto de dados do evento de experiência de rastreamento de push do AJO | Logs de interação para canal de push usados para relatórios e criação de público-alvo.  |
+| Extensão Contadores de perfis do AJO | Contém um mapa de objetos contendo counter_value e expiryDate, digitado por counter_id |
+| Conjunto de dados do perfil push do AJO | Armazena tokens de push de um perfil. |
+| Conjunto de dados de evento de experiência de rastreamento de push do AJO | Logs de interação para canal de push usados para relatórios e criação de público-alvo.  |
 | Conjunto de dados do AJO Surfaces | Conjunto de dados vazio relacionado ao esquema de Superfícies de entrada do Journey Optimizer |
 | OutputForUPSDataset | Contém todas as associações de público-alvo do AO a serem gravadas no UPS |
 | Conjunto de dados do perfil do Audience Orchestration | Gerado por composição de público-alvo para públicos-alvo de composição de público. Contém todos os públicos-alvo de composição de público-alvo, seus atributos e dados de enriquecimento |
@@ -67,7 +67,7 @@ Entenda na tabela abaixo quais conjuntos de dados do Journey Optimizer você pod
 
 ## Pré-requisitos {#prerequisites}
 
-Para exportar conjuntos de dados, é necessário [permissões de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} listado abaixo. Leia o [visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} ou entre em contato com o administrador do produto para obter as permissões necessárias.
+Para exportar conjuntos de dados, você precisa das [permissões de controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} listadas abaixo. Leia a [visão geral do controle de acesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} ou contate o administrador do produto para obter as permissões necessárias.
 
 | Categoria | Permissão |
 |--|--|
@@ -81,30 +81,30 @@ As principais etapas para exportar um conjunto de dados para um local de armazen
 
 ![](assets/dataset-export-process.png)
 
-Informações detalhadas sobre cada etapa estão disponíveis em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
+Informações detalhadas sobre cada etapa estão disponíveis na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
 
-1. **Configurar o destino do armazenamento na nuvem**. Se ainda não tiver feito isso, conecte-se a um destino de armazenamento na nuvem no catálogo de destinos. Saiba como criar uma nova conexão de destino no [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
+1. **Configurar o destino do armazenamento na nuvem**. Se ainda não tiver feito isso, conecte-se a um destino de armazenamento na nuvem no catálogo de destinos. Saiba como criar uma nova conexão de destino na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
-1. **Selecionar o destino do armazenamento na nuvem** para onde deseja exportar seus conjuntos de dados. No catálogo de destinos, clique no link **[!UICONTROL Exportar conjuntos de dados]** no cartão desejado e selecione a conexão a ser usada.
+1. **Selecione o destino do armazenamento na nuvem** para o qual deseja exportar seus conjuntos de dados. No catálogo de destinos, clique no botão **[!UICONTROL Exportar conjuntos de dados]** no cartão desejado e selecione a conexão a ser usada.
 
    <!--![](assets/dataset-export-destination.png)-->
 
    >[!NOTE]
    >
-   >Se você estiver usando o Adobe Journey Optimizer juntamente com perfis de clientes em tempo real, os cartões de destino exibirão uma **Ativar** botão, que permite exportar conjuntos de dados e ativar públicos-alvo para esse destino, dependendo das permissões habilitadas.
+   >Se você estiver usando o Adobe Journey Optimizer juntamente com perfis de clientes em tempo real, os cartões de destino exibirão o botão **Ativar**, permitindo exportar conjuntos de dados e ativar públicos para esse destino, dependendo das permissões habilitadas.
 
-1. **Selecionar os conjuntos de dados** que deseja exportar para o destino selecionado. [Saiba mais sobre os conjuntos de dados do Journey Optimizer disponíveis para exportação](#datasets)
+1. **Selecione o(s) conjunto(s) de dados** que deseja exportar para o destino selecionado. [Saiba mais sobre os conjuntos de dados do Journey Optimizer disponíveis para exportação](#datasets)
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 
-1. **Agendar a exportação** do seu conjunto de dados. Especifique quando a exportação deve começar e em que frequência ela deve ocorrer.
+1. **Agende a exportação** do seu conjunto de dados. Especifique quando a exportação deve começar e em que frequência ela deve ocorrer.
 
    <!--![](assets/dataset-export-schedule.png)-->
 
-1. **Revisar e confirmar a exportação** verificando o resumo exibido no final da configuração.
+1. **Revise e confirme a exportação** verificando o resumo exibido no final da configuração.
 
    <!--![](assets/dataset-export-review.png)-->
 
-Quando a exportação for concluída, o conteúdo do conjunto de dados será depositado no local de armazenamento na nuvem de acordo com o agendamento configurado. [Saiba como verificar se a exportação do conjunto de dados foi bem-sucedida](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
+Quando a exportação for concluída, o conteúdo do conjunto de dados será depositado no local de armazenamento na nuvem de acordo com o agendamento configurado. [Saiba como verificar a exportação bem-sucedida do conjunto de dados](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.

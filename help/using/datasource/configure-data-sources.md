@@ -12,7 +12,7 @@ exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 1%
 
 Para configurar uma fonte de dados, siga as etapas abaixo:
 
-1. Na seção de menu ADMINISTRAÇÃO, selecione **[!UICONTROL Configurações]**. No  **[!UICONTROL Fontes de dados]** clique em **[!UICONTROL Gerenciar]**. A lista de fontes de dados é exibida. Consulte [esta página](../start/user-interface.md) para obter mais informações sobre a interface.
+1. Na seção de menu ADMINISTRAÇÃO, selecione **[!UICONTROL Configurações]**. Na seção **[!UICONTROL Fontes de Dados]**, clique em **[!UICONTROL Gerenciar]**. A lista das fontes de dados é exibida. Consulte [esta página](../start/user-interface.md) para obter mais informações sobre a interface.
 
    ![](assets/journey18.png)
 
-1. Você pode adicionar grupos de campos à fonte de dados integrada (consulte [esta página](../datasource/adobe-experience-platform-data-source.md)) ou crie uma nova fonte de dados externa (consulte [esta página](../datasource/external-data-sources.md)) e grupos de campos associados (consulte [esta página](../datasource/configure-data-sources.md#define-field-groups)).
+1. Você pode adicionar grupos de campos à fonte de dados interna (consulte [esta página](../datasource/adobe-experience-platform-data-source.md)) ou criar uma nova fonte de dados externa (consulte [esta página](../datasource/external-data-sources.md)) e grupos de campos associados (consulte [esta página](../datasource/configure-data-sources.md#define-field-groups)).
 
    ![](assets/journey23.png)
 
@@ -44,11 +44,11 @@ Para cada fonte de dados, é possível definir vários grupos de campos.
 
 Por exemplo, você pode criar um grupo de campos com o número de telefone, o email, o nome e o endereço do perfil. Você poderá usar esses dados na jornada para criar condições. Por exemplo, você pode decidir enviar uma notificação por push somente se o cliente tiver instalado o aplicativo móvel. Se estiver vazio, você poderá enviar um email.
 
-Embora um nome padrão seja adicionado automaticamente, recomendamos que você dê um nome ao seu grupo de campos. De fato, o nome do grupo de campos estará visível para outros usuários no [!DNL Journey Optimizer]. Dar um nome relevante aos grupos de campo é uma prática recomendada.
+Embora um nome padrão seja adicionado automaticamente, recomendamos que você dê um nome ao seu grupo de campos. Na verdade, o nome do grupo de campos ficará visível para outros usuários em [!DNL Journey Optimizer]. Dar um nome relevante aos grupos de campo é uma prática recomendada.
 
 Quando um campo de fonte de dados é usado em uma jornada, o sistema recupera todos os campos definidos para esse grupo de campos. Portanto, selecionar apenas os campos necessários para suas jornadas é uma prática recomendada. Isso reduzirá a latência de solicitação em suas jornadas, aumentando o desempenho. Observe que mais tarde é possível adicionar facilmente mais campos em grupos de campos.
 
-O número de jornadas que usam um grupo de campos é exibido no **[!UICONTROL Usado em]** campo. Você pode clicar no link **[!UICONTROL Exibir jornadas]** botão para exibir a lista de jornadas usando este grupo de campos.
+O número de jornadas que usam um grupo de campos é exibido no campo **[!UICONTROL Usado em]**. Você pode clicar no botão **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas usando este grupo de campos.
 
 >[!NOTE]
 >
@@ -64,9 +64,9 @@ Você pode adicionar, mas não pode remover, um campo de um grupo de campos usad
 
 Para excluir um campo de um grupo de campos usado em uma ou mais jornadas, siga estas etapas. Vamos usar um exemplo de um grupo de campos chamado &quot;Grupo de campos A&quot;.
 
-1. Na lista de grupos de campos, coloque o cursor em &quot;Grupo de campos A&quot; e clique no botão **[!UICONTROL Duplicar]** ícone localizado à direita. Nomeie o grupo de campos duplicado como &quot;Grupo de campos B&quot;, por exemplo.
+1. Na lista de grupos de campos, coloque o cursor em &quot;Grupo de campos A&quot; e clique no ícone **[!UICONTROL Duplicar]**, localizado à direita. Nomeie o grupo de campos duplicado como &quot;Grupo de campos B&quot;, por exemplo.
 1. Em &quot;Grupo de campos B&quot;, remova os campos que não deseja mais.
-1. Em &quot;Grupo de campos A&quot;, verifique onde esse grupo de campos é usado. Essas informações são exibidas na **[!UICONTROL Usado em]** campo.
+1. Em &quot;Grupo de campos A&quot;, verifique onde esse grupo de campos é usado. Essas informações são exibidas no campo **[!UICONTROL Usado em]**.
 1. Abra todas as jornadas que usam &quot;Grupo de campos A&quot;.
 1. Crie novas versões de cada uma dessas jornadas. Edite todas as atividades usando &quot;Grupo de campos A&quot; e selecione &quot;Grupo de campos B&quot;.
 1. Interrompa versões antigas de jornadas que usam &quot;Grupo de campos A&quot;. Você não deve ter nenhuma jornada usando o &quot;Grupo de campos A&quot;.

@@ -19,7 +19,7 @@ As regras de decisão são restrições adicionadas a uma oferta personalizada e
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem o campo *Content-Type* no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -68,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a regra de decisão recém-criada `id`. Você pode usar o `id` em etapas posteriores, para atualizar ou excluir sua regra de decisão ou usá-la em um tutorial posterior para criar decisões, regras de decisão e ofertas substitutas.
+Uma resposta bem-sucedida retorna informações sobre a regra de decisão recém-criada `id`. Você pode usar o `id` em etapas posteriores para atualizar ou excluir sua regra de decisão ou usá-la em um tutorial posterior para criar decisões, regras de decisão e ofertas substitutas.
 
 ```json
 {

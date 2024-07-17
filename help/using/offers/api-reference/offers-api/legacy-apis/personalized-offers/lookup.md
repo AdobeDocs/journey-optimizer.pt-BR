@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Uma oferta personalizada é uma mensagem de marketing personalizável baseada em regras de elegibilidade e restrições.
 
-Você pode pesquisar ofertas personalizadas específicas fazendo uma solicitação GET para a **Biblioteca de ofertas** API que inclui a oferta personalizada `@id` ou o nome da oferta personalizada no caminho da solicitação.
+Você pode pesquisar ofertas personalizadas específicas fazendo uma solicitação GET para a API **Biblioteca de Ofertas** que inclua a oferta personalizada `@id` ou o nome da oferta personalizada no caminho da solicitação.
 
 **Formato da API**
 
@@ -30,7 +30,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 | `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | O container onde as ofertas personalizadas estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | Define o schema associado às ofertas personalizadas. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | Uma string usada para corresponder ao `@id` propriedade das entidades. A string é exatamente igual. Os parâmetros &quot;id&quot; e &quot;name&quot; não podem ser usados juntos. | `xcore:personalized-offer:124cc332095cfa74` |
+| `id` | Uma cadeia de caracteres usada para corresponder à propriedade `@id` das entidades. A string é exatamente igual. Os parâmetros &quot;id&quot; e &quot;name&quot; não podem ser usados juntos. | `xcore:personalized-offer:124cc332095cfa74` |
 | `name` | Uma sequência de caracteres usada para corresponder à propriedade xdm:name das entidades. A string é exatamente igual, com maiúsculas e minúsculas, mas caracteres curinga podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Discount offer` |
 
 **Solicitação**
@@ -47,7 +47,7 @@ curl -X GET \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes do posicionamento, incluindo informações sobre ID do contêiner, ID da instância e oferta personalizada exclusiva `@id`.
+Uma resposta bem-sucedida retorna os detalhes do posicionamento, incluindo informações sobre ID de contêiner, ID de instância e oferta personalizada exclusiva `@id`.
 
 ```json
 {

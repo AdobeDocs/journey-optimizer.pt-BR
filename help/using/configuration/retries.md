@@ -18,15 +18,15 @@ ht-degree: 9%
 
 # Tentativas {#retries}
 
-Quando uma mensagem de email falha devido a um erro **Rejeição leve** para um determinado endereço, várias tentativas são executadas. Cada erro incrementa um contador de erros. Quando esse contador atinge o limite, o endereço de email é adicionado à lista de supressão.
+Quando um email falha devido a um erro temporário **Soft bounce** para um determinado endereço, várias tentativas são executadas. Cada erro incrementa um contador de erros. Quando esse contador atinge o limite, o endereço de email é adicionado à lista de supressão.
 
 >[!NOTE]
 >
->Saiba mais sobre os tipos de erros no [Tipos de falha de entrega](../reports/suppression-list.md#delivery-failures) seção.
+>Saiba mais sobre os tipos de erros na seção [Tipos de falha de entrega](../reports/suppression-list.md#delivery-failures).
 
 Na configuração padrão, o limite é definido como 5 erros.
 
-* Para o mesmo delivery, no quinto encontrou erro no [período de nova tentativa](#retry-duration), o endereço será suprimido.
+* Para a mesma entrega, no quinto erro encontrado no [período de nova tentativa](#retry-duration), o endereço é suprimido.
 
 * Se houver diferentes deliveries e dois erros ocorrerem com pelo menos 24 horas de intervalo, o contador de erros será incrementado em cada erro e o endereço também será suprimido na quinta tentativa. Os erros são cumulativos para cada endereço.
 
@@ -50,9 +50,9 @@ Desde que nenhuma outra entrega tenha sido tentada e bem-sucedida entre esses do
 
 Caso o valor padrão de 5 não atenda às suas necessidades, você poderá modificar o limite de erro seguindo as etapas abaixo.
 
-1. Ir para **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** > **[!UICONTROL Lista de supressão]**.
+1. Vá para **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** > **[!UICONTROL Lista de supressão]**.
 
-1. Selecione o **[!UICONTROL Editar regras de supressão]** botão.
+1. Selecione o botão **[!UICONTROL Editar regras de supressão]**.
 
    ![](assets/suppression-list-edit-retries.png)
 
@@ -68,11 +68,11 @@ Caso o valor padrão de 5 não atenda às suas necessidades, você poderá modif
 
 ## Período de nova tentativa {#retry-duration}
 
-A variável **período de nova tentativa** é o período no qual qualquer mensagem de email do delivery que encontrou um erro temporário ou uma rejeição temporária será repetida.
+O **período de nova tentativa** é o período no qual qualquer mensagem de email da entrega que encontrou um erro temporário ou uma rejeição temporária será repetida.
 
-Por padrão, as tentativas serão executadas para **3,5 dias** (ou **84 horas**) da hora em que a mensagem foi adicionada à fila de emails.
+Por padrão, as tentativas serão executadas por **3.5 dias** (ou **84 horas**) a partir do momento em que a mensagem for adicionada à fila de emails.
 
-No entanto, para garantir que as tentativas de repetição não sejam mais executadas quando não forem mais necessárias, é possível alterar essa configuração de acordo com suas necessidades ao criar ou editar um [superfície de canal](channel-surfaces.md) (ou seja, predefinição de mensagem) que se aplica ao canal de email.
+No entanto, para garantir que as tentativas de repetição não sejam mais executadas quando não forem mais necessárias, você pode alterar essa configuração de acordo com suas necessidades ao criar ou editar uma [superfície de canal](channel-surfaces.md) (ou seja, predefinição de mensagem) aplicável ao canal de email.
 
 Por exemplo, você pode definir o período de nova tentativa para 24 horas para um email transacional relacionado à redefinição de senha e que contém um link válido por apenas um dia. Da mesma forma, para uma venda à meia-noite, é possível definir um período de nova tentativa de 6 horas.
 
@@ -80,5 +80,5 @@ Por exemplo, você pode definir o período de nova tentativa para 24 horas para 
 >
 >O período de nova tentativa não pode exceder 84 horas. O período mínimo de nova tentativa é de 6 horas para emails de marketing e 10 minutos para emails transacionais.
 
-Saiba como ajustar os parâmetros de nova tentativa de email ao criar uma superfície de canal no [nesta seção](../email/email-settings.md#email-retry).
+Saiba como ajustar os parâmetros de nova tentativa de email ao criar uma superfície de canal no [esta seção](../email/email-settings.md#email-retry).
 

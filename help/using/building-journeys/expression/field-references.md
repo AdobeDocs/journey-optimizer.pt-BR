@@ -11,7 +11,7 @@ exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -23,9 +23,9 @@ Se estiver usando caracteres especiais em um campo, você precisará usar aspas 
 
 * o campo começa com caracteres numéricos
 * o campo começa com o caractere &quot;-&quot;
-* o campo contém qualquer coisa diferente de: _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_
+* o campo contém qualquer item diferente de: _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_
 
-Por exemplo, se o campo for _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+Por exemplo, se o seu campo for _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field
@@ -109,7 +109,7 @@ Exemplo:
 
 ## Referência a um campo definido em um mapa
 
-### `entry` função
+### Função `entry`
 
 Para recuperar um elemento em um mapa, usamos a função de entrada com uma determinada chave. Por exemplo, ele é usado ao definir a chave de um evento, de acordo com o namespace selecionado. Para obter mais informações, consulte [esta página](../../event/about-creating.md#select-the-namespace).
 
@@ -119,9 +119,9 @@ Para recuperar um elemento em um mapa, usamos a função de entrada com uma dete
 
 Nesta expressão, estamos obtendo a entrada da chave &quot;Email&quot; do campo &quot;IdentityMap&quot; de um evento. A entrada &#39;Email&#39; é uma coleção, da qual pegamos a &#39;id&#39; no primeiro elemento usando &#39;first()&#39;. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
 
-### `firstEntryKey` função
+### Função `firstEntryKey`
 
-Para recuperar a primeira chave de entrada de um mapa, use o `firstEntryKey` função.
+Para recuperar a primeira chave de entrada de um mapa, use a função `firstEntryKey`.
 
 Este exemplo mostra como recuperar o primeiro endereço de email dos assinantes de uma lista específica:
 
@@ -129,11 +129,11 @@ Este exemplo mostra como recuperar o primeiro endereço de email dos assinantes 
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-Neste exemplo, a lista de assinaturas é nomeada `daily-email`. Os endereços de email são definidos como chaves na variável `subscribers` que é vinculado ao mapa da lista de assinaturas.
+Neste exemplo, o nome da lista de assinaturas é `daily-email`. Os endereços de email são definidos como chaves no mapa `subscribers`, que está vinculado ao mapa da lista de assinaturas.
 
-### `keys` função
+### Função `keys`
 
-Para recuperar todas as chaves de um mapa, use o `keys` função.
+Para recuperar todas as chaves de um mapa, use a função `keys`.
 
 Esse exemplo mostra como recuperar, para um perfil específico, todos os endereços de email associados aos assinantes de uma lista específica:
 
@@ -145,7 +145,7 @@ Esse exemplo mostra como recuperar, para um perfil específico, todos os endere�
 
 Se você selecionar um campo de uma fonte externa de dados que requer um parâmetro para ser chamado, uma nova guia será exibida à direita para permitir a especificação desse parâmetro. Consulte [esta página](../expression/expressionadvanced.md).
 
-Para casos de uso mais complexos, se quiser incluir os parâmetros da fonte de dados na expressão principal, você poderá definir os valores usando a palavra-chave _params_. Um parâmetro pode ser qualquer expressão válida mesmo de outra fonte de dados que também inclua outro parâmetro.
+Para casos de uso mais complexos, se você quiser incluir os parâmetros da fonte de dados na expressão principal, defina os valores usando a palavra-chave _params_. Um parâmetro pode ser qualquer expressão válida mesmo de outra fonte de dados que também inclua outro parâmetro.
 
 >[!NOTE]
 >

@@ -17,11 +17,11 @@ ht-degree: 10%
 
 Coleções são subconjuntos de ofertas com base em condições predefinidas por um profissional de marketing, como a categoria da oferta.
 
-Você pode criar uma coleção fazendo uma solicitação POST para a [!DNL Offer Library] ao fornecer a ID do contêiner.
+Você pode criar uma coleção fazendo uma solicitação POST para a API [!DNL Offer Library] e fornecendo a ID do contêiner.
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -61,7 +61,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a coleção recém-criada, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID de instância em etapas posteriores para atualizar ou excluir sua coleção. Você pode usar sua coleção exclusiva `@id` em um tutorial posterior para criar uma decisão.
+Uma resposta bem-sucedida retorna informações sobre a coleção recém-criada, incluindo sua ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID de instância em etapas posteriores para atualizar ou excluir sua coleção. Você pode usar sua coleção exclusiva `@id` em um tutorial posterior para criar uma decisão.
 
 ```json
 {

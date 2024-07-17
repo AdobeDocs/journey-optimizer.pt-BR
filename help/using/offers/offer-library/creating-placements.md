@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '537'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -28,7 +28,7 @@ No exemplo abaixo, há três disposições correspondentes a diferentes tipos de
 
 ![](../assets/offers_placement_schema.png)
 
-A lista de disposições pode ser acessada no **[!UICONTROL Componentes]** menu. Os filtros estão disponíveis para ajudá-lo a recuperar inserções de acordo com um canal ou conteúdo específico.
+A lista de posicionamentos está acessível no menu **[!UICONTROL Componentes]**. Os filtros estão disponíveis para ajudá-lo a recuperar inserções de acordo com um canal ou conteúdo específico.
 
 ![](../assets/placements_filter.png)
 
@@ -42,13 +42,13 @@ Para criar uma inserção, siga estas etapas:
 
    * **[!UICONTROL Nome]**: o nome do posicionamento. Defina um nome significativo para recuperá-lo mais facilmente.
    * **[!UICONTROL Tipo de canal]**: o canal para o qual o posicionamento será usado.
-   * **[!UICONTROL Tipo de conteúdo]**: O tipo de conteúdo que o posicionamento poderá exibir: Texto, HTML, Link de imagem ou JSON.
+   * **[!UICONTROL Tipo de conteúdo]**: o tipo de conteúdo que o posicionamento poderá exibir: Texto, HTML, Link de Imagem ou JSON.
    * **[!UICONTROL Descrição]**: uma descrição do posicionamento (opcional).
 
    ![](../assets/offers_placement_creation_properties.png)
 
 
-1. A variável **[!UICONTROL Configurações de solicitação]** e **[!UICONTROL Formato de resposta]** As seções fornecem parâmetros adicionais:
+1. As seções **[!UICONTROL Configurações de solicitação]** e **[!UICONTROL Formato de resposta]** fornecem parâmetros adicionais:
 
    * **[!UICONTROL Permitir duplicações em posicionamentos]**: controla se a mesma oferta pode ser proposta várias vezes em diferentes posicionamentos. Se ativado, o sistema considerará a mesma oferta para vários posicionamentos. Por padrão, o parâmetro é definido como false.
 
@@ -58,13 +58,13 @@ Para criar uma inserção, siga estas etapas:
 
    * **[!UICONTROL Incluir conteúdo]** / **[!UICONTROL Incluir metadados]**: especifique se o conteúdo e os metadados da oferta devem ser retornados na resposta da API. É possível incluir todos os metadados ou campos específicos apenas. Por padrão, o valor dos metadados Incluir está definido como verdadeiro.
 
-   Esses parâmetros também podem ser definidos diretamente na sua solicitação de API se você estiver trabalhando com o [API de decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). No entanto, configurá-los na interface pode ajudar a economizar tempo, pois não será necessário transmiti-los em cada solicitação de API. Observe que, se você configurar os parâmetros na interface do usuário do e na solicitação de API, os valores da solicitação de API prevalecerão sobre os da interface.
+   Esses parâmetros também podem ser definidos diretamente na sua solicitação de API se você estiver trabalhando com a [API de decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). No entanto, configurá-los na interface pode ajudar a economizar tempo, pois não será necessário transmiti-los em cada solicitação de API. Observe que, se você configurar os parâmetros na interface do usuário do e na solicitação de API, os valores da solicitação de API prevalecerão sobre os da interface.
 
    >[!NOTE]
    >
-   >Se você estiver trabalhando com a variável [API do Edge Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), não é possível definir esses parâmetros em sua solicitação. Você precisa defini-los nesta tela.
+   >Se você estiver trabalhando com a [API do Edge Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), não poderá definir esses parâmetros em sua solicitação. Você precisa defini-los nesta tela.
    >
-   >Se você estiver trabalhando com a variável [API de decisão em lote](../api-reference/offer-delivery-api/batch-decisioning-api.md), é possível definir esses parâmetros nessa tela ou na solicitação da API. Se houver uma incompatibilidade de valores de parâmetro entre a tela e a solicitação de API, os valores de solicitação serão usados.
+   >Se você estiver trabalhando com a [API de decisão em lote](../api-reference/offer-delivery-api/batch-decisioning-api.md), é possível definir esses parâmetros nesta tela ou em sua solicitação de API. Se houver uma incompatibilidade de valores de parâmetro entre a tela e a solicitação de API, os valores de solicitação serão usados.
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar.
 

@@ -32,17 +32,17 @@ Por exemplo, caso duas atividades estejam desconectadas na tela, um aviso é exi
 
 ![](assets/canvas-disconnected.png)
 
-Ao lado do **[!UICONTROL Teste]** e a variável **[!UICONTROL Publish]** , um sinal de aviso poderá ser exibido. Este sinal de aviso mostra erros detectados pelo sistema e impede a ativação do modo de teste ou a publicação da jornada. Na maioria das vezes, os erros detectados pelo sistema estão vinculados aos erros visíveis nas atividades, mas às vezes estão vinculados a outros problemas. Nesse caso, você pode exibi-los e tentar identificar o problema usando a descrição do erro. Se não conseguir identificar o problema, você pode copiar os detalhes e enviá-los ao administrador ou ao suporte. Observe que os erros que bloqueiam o teste e os erros que bloqueiam a publicação são semelhantes.
+Um sinal de aviso pode ser exibido próximo aos botões **[!UICONTROL Testar]** e **[!UICONTROL Publish]**. Este sinal de aviso mostra erros detectados pelo sistema e impede a ativação do modo de teste ou a publicação da jornada. Na maioria das vezes, os erros detectados pelo sistema estão vinculados aos erros visíveis nas atividades, mas às vezes estão vinculados a outros problemas. Nesse caso, você pode exibi-los e tentar identificar o problema usando a descrição do erro. Se não conseguir identificar o problema, você pode copiar os detalhes e enviá-los ao administrador ou ao suporte. Observe que os erros que bloqueiam o teste e os erros que bloqueiam a publicação são semelhantes.
 
 O sistema detecta dois tipos de problemas: erros e avisos. Os erros bloqueiam a publicação e a ativação de teste. Os avisos indicam possíveis problemas que não estão bloqueando a ativação de teste ou a publicação. Você verá uma descrição do problema e uma ID de registro de problemas do tipo ERR_XXX_XXX. Essas informações ajudarão o suporte técnico a identificar o problema.
 
-Duas cores diferentes podem ser exibidas no sinal próximo ao **[!UICONTROL Teste]** e a variável **[!UICONTROL Publish]** botão. Em caso de erro, o sinal é exibido em vermelho. Em caso de aviso, é exibido em laranja.
+Duas cores diferentes podem ser exibidas no sinal próximo aos botões **[!UICONTROL Testar]** e **[!UICONTROL Publish]**. Em caso de erro, o sinal é exibido em vermelho. Em caso de aviso, é exibido em laranja.
 
 ![](assets/journey75.png)
 
-Erros e avisos globais para a jornada aparecem primeiro na lista. Os erros e avisos relacionados a atividades específicas são listados depois, por ordem de atividade ou aparência na jornada, da esquerda para a direita. A variável **[!UICONTROL Copiar detalhes]** O botão copia informações técnicas sobre a jornada que a equipe de suporte pode usar para a solução de problemas.
+Erros e avisos globais para a jornada aparecem primeiro na lista. Os erros e avisos relacionados a atividades específicas são listados depois, por ordem de atividade ou aparência na jornada, da esquerda para a direita. O botão **[!UICONTROL Copiar detalhes]** copia informações técnicas sobre a jornada que a equipe de suporte pode usar para a solução de problemas.
 
-A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcando a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
+A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcar a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Verifique se os eventos foram enviados corretamente {#checking-that-events-are-properly-sent}
 
@@ -50,7 +50,7 @@ O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes u
 
 Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
 
-Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming do Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para solucionar problemas de APIs de assimilação de streaming.
+Eventos não são levados diretamente da origem para jornadas. Na verdade, o jornada depende das APIs de assimilação de streaming do Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para obter a solução de problemas de APIs de assimilação de streaming.
 
 ## Verificar se as pessoas entram na jornada {#checking-if-people-enter-the-journey}
 
@@ -85,7 +85,7 @@ Veja algumas coisas que devem ser verificadas:
 
 Se as pessoas físicas continuarem percorrendo o caminho certo na jornada, mas não receberem as mensagens esperadas, você pode verificar se:
 
-* [!DNL Journey Optimizer] levou em conta corretamente a solicitação para enviar a mensagem. Os usuários empresariais podem acessar a mensagem que deve ser enviada e verificar se a hora da execução mais recente corresponde ao tempo de execução da sua jornada. Eles também podem verificar as chamadas/eventos de API mais recentes recebidos.
+* [!DNL Journey Optimizer] levou em consideração corretamente a solicitação para enviar a mensagem. Os usuários empresariais podem acessar a mensagem que deve ser enviada e verificar se a hora da execução mais recente corresponde ao tempo de execução da sua jornada. Eles também podem verificar as chamadas/eventos de API mais recentes recebidos.
 * [!DNL Journey Optimizer] enviou a mensagem com êxito. Verifique os relatórios do jornada para garantir que não haja erros.
 
 No caso de uma mensagem enviada por meio de uma ação personalizada, a única coisa que pode ser verificada durante o teste de jornada é o fato de a chamada do sistema da ação personalizada causar ou não um erro. Se a chamada para o sistema externo associada à ação personalizada não causar um erro, mas não enviar a mensagem, algumas investigações devem ser feitas por parte do sistema externo.

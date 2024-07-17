@@ -21,13 +21,13 @@ Este caso de uso explica como gravar eventos personalizados no Adobe Experience 
 
 ## Configurar um projeto de E/S
 
-1. No Console do Adobe Developer, clique em **Projeto** e abra seu projeto do IO.
+1. Na Adobe Developer Console, clique em **Projeto** e abra seu projeto IO.
 
-1. No **Credenciais** clique em **Servidor OAuth para servidor**.
+1. Na seção **Credenciais**, clique em **Servidor para Servidor OAuth**.
 
    ![](assets/custom-action-aep-1.png)
 
-1. Clique em **comando Exibir cURL**.
+1. Clique em **Exibir comando cURL**.
 
    ![](assets/custom-action-aep-2.png)
 
@@ -39,21 +39,21 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Depois de criar seu projeto no Console do Adobe Developer, conceda ao desenvolvedor e ao API o controle de acesso com as permissões certas. Saiba mais na [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Depois de criar seu projeto no Adobe Developer Console, conceda ao desenvolvedor e ao API o controle de acesso com as permissões certas. Saiba mais na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
-## Configurar a fonte usando a entrada da API HTTP
+## Configurar o Source usando a entrada da API HTTP
 
 1. Crie um endpoint no Adobe Experience Platform para gravar os dados do jornada.
 
-1. No Adobe Experience Platform, clique em **Origens**, em **Conexões** no menu esquerdo. Em **API HTTP**, clique em **Adicionar dados**.
+1. No Adobe Experience Platform, clique em **Fontes**, em **Conexões**, no menu esquerdo. Em **API HTTP**, clique em **Adicionar dados**.
 
    ![](assets/custom-action-aep-3.png)
 
-1. Selecionar **Nova conta** e habilite a autenticação. Clique em **Conectar à Origem**.
+1. Selecione **Nova conta** e habilite a autenticação. Clique em **Conectar-se ao Source**.
 
    ![](assets/custom-action-aep-4.png)
 
-1. Clique em **Próxima** e selecione o Conjunto de dados em que deseja gravar os dados. Clique em **Próxima** e **Concluir**.
+1. Clique em **Avançar** e selecione o Conjunto de Dados no qual deseja gravar os dados. Clique em **Avançar** e **Concluir**.
 
    ![](assets/custom-action-aep-5.png)
 
@@ -96,7 +96,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ## Configurar a ação personalizada
 
-1. Abra o Adobe Journey Optimizer e clique em **Configurações**, em **Administração** no menu esquerdo. Em **Ações**, clique em **Gerenciar** e clique em **Criar ação**.
+1. Abra o Adobe Journey Optimizer e clique em **Configurações**, em **Administração** no menu esquerdo. Em **Ações**, clique em **Gerenciar** e em **Criar Ação**.
 
 1. Defina o URL e selecione o método Post.
 
@@ -108,7 +108,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ### Configurar a autenticação
 
-1. Selecione o **Tipo** as **Personalizado** com a seguinte carga útil.
+1. Selecione o **Tipo** como **Personalizado** com a seguinte carga.
 
 1. Cole client_secret, client_id, scope e grant_type (da carga útil do projeto IO usada anteriormente).
 
@@ -136,13 +136,13 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. Use o **Clique para testar a autenticação** botão para testar a conexão.
+1. Use o botão **Clique para testar a autenticação** para testar a conexão.
 
    ![](assets/custom-action-aep-8.png)
 
 ### Configurar o conteúdo
 
-1. No **Solicitação** e **Resposta** cole a carga da conexão de origem usada antes de.
+1. Nos campos **Solicitação** e **Resposta**, cole a carga da conexão de origem usada anteriormente.
 
    ```
    {
@@ -167,7 +167,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. Altere a configuração do campo de **Constante** para **Variável** para campos que serão preenchidos dinamicamente. Salve a ação personalizada.
+1. Altere a Configuração de Campo de **Constante** para **Variável** para campos que serão preenchidos dinamicamente. Salve a ação personalizada.
 
 ## Jornada
 

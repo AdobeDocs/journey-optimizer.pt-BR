@@ -14,19 +14,19 @@ ht-degree: 4%
 ---
 
 
-# Entregar ofertas usando o [!DNL Batch Decisioning] API {#deliver-offers-batch}
+# Entregar ofertas usando a API [!DNL Batch Decisioning] {#deliver-offers-batch}
 
-A variável [!DNL Batch Decisioning] A API permite que as organizações usem a funcionalidade de decisão para todos os perfis em um determinado público-alvo em uma chamada. O conteúdo da oferta de cada perfil no público-alvo é colocado em um conjunto de dados do Adobe Experience Platform, onde ele estará disponível para fluxos de trabalho em lote personalizados.
+A API [!DNL Batch Decisioning] permite que as organizações usem a funcionalidade de decisão para todos os perfis em um determinado público-alvo através de uma única chamada. O conteúdo da oferta de cada perfil no público-alvo é colocado em um conjunto de dados do Adobe Experience Platform, onde ele estará disponível para fluxos de trabalho em lote personalizados.
 
-Com o [!DNL Batch Decisioning] , você pode preencher um conjunto de dados com as melhores ofertas para todos os perfis em um público-alvo da Adobe Experience Platform para escopos de decisão. Por exemplo, uma organização pode querer executar [!DNL Batch Decisioning] para que possam enviar ofertas a um fornecedor de delivery de mensagens. Essas ofertas são usadas como conteúdo enviado para entrega de mensagens em lote para o mesmo público-alvo de usuários.
+Com a API [!DNL Batch Decisioning], você pode preencher um conjunto de dados com as melhores ofertas para todos os perfis em um público-alvo da Adobe Experience Platform para escopos de decisão. Por exemplo, uma organização pode querer executar [!DNL Batch Decisioning] para enviar ofertas a um fornecedor de entrega de mensagens. Essas ofertas são usadas como conteúdo enviado para entrega de mensagens em lote para o mesmo público-alvo de usuários.
 
 Para fazer isso, a organização deve:
 
-* Execute o [!DNL Batch Decisioning] API, que contém duas solicitações:
+* Execute a API [!DNL Batch Decisioning], que contém duas solicitações:
 
-   1. A **Solicitação POST em lote** para iniciar uma carga de trabalho para seleções de ofertas de processo em lote.
+   1. Uma **Solicitação POST de lote** para iniciar uma carga de trabalho para processar em lote as seleções de ofertas.
 
-   2. A **Solicitação de GET em lote** para obter o status da carga de trabalho do lote.
+   2. Uma **Solicitação de GET em lote** para obter o status da carga de trabalho em lote.
 
 * Exportar o conjunto de dados para a API do fornecedor de delivery de mensagens.
 
@@ -34,10 +34,10 @@ Para fazer isso, a organização deve:
 
 >[!NOTE]
 >
->A decisão em lote também pode ser executada usando a interface do Journey Optimizer. Para obter mais informações, consulte [nesta seção](../../batch-delivery.md), que fornece informações sobre os pré-requisitos e limitações globais que devem ser considerados ao usar a decisão em lote.
+>A decisão em lote também pode ser executada usando a interface do Journey Optimizer. Para obter mais informações, consulte [esta seção](../../batch-delivery.md), que fornece informações sobre os pré-requisitos e limitações globais que devem ser considerados ao usar a decisão em lote.
 
-* **O número de trabalhos em lotes em execução por conjunto de dados**: até cinco tarefas em lote podem ser executadas de cada vez, por conjunto de dados. Quaisquer outras solicitações em lote com o mesmo conjunto de dados de saída são adicionadas à fila. Uma tarefa em fila será processada assim que a tarefa anterior terminar de ser executada.
-* **Limite de frequência**: um lote é executado do instantâneo do perfil que ocorre uma vez por dia. A variável [!DNL Batch Decisioning] A API limita a frequência e sempre carrega perfis do instantâneo mais recente.
+* **O número de trabalhos em lotes em execução por conjunto de dados**: até cinco trabalhos em lotes podem ser executados de cada vez, por conjunto de dados. Quaisquer outras solicitações em lote com o mesmo conjunto de dados de saída são adicionadas à fila. Uma tarefa em fila será processada assim que a tarefa anterior terminar de ser executada.
+* **Limite de frequência**: um lote é executado fora do instantâneo de perfil que ocorre uma vez por dia. A API [!DNL Batch Decisioning] limita a frequência e sempre carrega perfis do instantâneo mais recente.
 
 ## Introdução {#getting-started}
 
@@ -45,23 +45,23 @@ Antes de usar essa API, verifique se você concluiu as seguintes etapas de pré-
 
 ### Preparar a decisão {#prepare-decision}
 
-Para preparar uma ou mais decisões, verifique se você criou um conjunto de dados, um público-alvo e uma decisão. Esses pré-requisitos são detalhados em [nesta seção](../../batch-delivery.md).
+Para preparar uma ou mais decisões, verifique se você criou um conjunto de dados, um público-alvo e uma decisão. Esses pré-requisitos estão detalhados em [esta seção](../../batch-delivery.md).
 
 ### Requisitos da API {#api-requirements}
 
-Todos [!DNL Batch Decisioning] pedidos exigem os seguintes cabeçalhos, para além dos referidos no [Guia do desenvolvedor da API de Gestão de decisões](../getting-started.md):
+Todas as solicitações [!DNL Batch Decisioning] exigem os seguintes cabeçalhos, além dos mencionados no [Guia do desenvolvedor da API de Gestão de Decisões](../getting-started.md):
 
 * `Content-Type`: `application/json`
-* `x-request-id`: uma string exclusiva que identifica a solicitação.
-* `x-sandbox-name`: o nome da sandbox.
+* `x-request-id`: uma cadeia de caracteres exclusiva que identifica a solicitação.
+* `x-sandbox-name`: O nome da sandbox.
 
 ## Iniciar um processo em lote {#start-a-batch-process}
 
-Para iniciar uma carga de trabalho para tomar decisões sobre o processo em lote, faça uma solicitação POST ao `/workloads/decisions` terminal.
+Para iniciar uma carga de trabalho para tomar decisões de processo em lote, faça uma solicitação POST para o ponto de extremidade `/workloads/decisions`.
 
 >[!NOTE]
 >
->Informações detalhadas sobre o tempo de processamento dos processos em lote estão disponíveis em [nesta seção](../../batch-delivery.md).
+>Informações detalhadas sobre o tempo de processamento dos trabalhos em lotes estão disponíveis em [esta seção](../../batch-delivery.md).
 
 **Formato da API**
 
@@ -104,13 +104,13 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:segmentIds` | O valor é uma matriz que contém o identificador exclusivo do público-alvo. Ele só pode conter um valor. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 | `xdm:dataSetId` | O dataSet de saída no qual os eventos de decisão podem ser gravados. | `6196b4a1a63bd118dafe093c` |
-| `xdm:propositionRequests` | Um invólucro que contenha a variável `placementId` e `activityId` |  |
+| `xdm:propositionRequests` | Um invólucro que contém o `placementId` e `activityId` |  |
 | `xdm:activityId` | O identificador exclusivo da decisão. | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | O identificador de posicionamento exclusivo. | `xcore:offer-placement:1410c4117306488a` |
 | `xdm:itemCount` | Este campo é opcional e mostra o número de itens, como opções solicitadas para o escopo da decisão. Por padrão, a API retorna uma opção por escopo, mas você pode solicitar mais opções explicitamente especificando esse campo. É possível solicitar no mínimo 1 e no máximo 30 opções por escopo. | `1` |
-| `xdm:includeContent` | Este campo é opcional e é `false` por padrão. Se `true`, o conteúdo da oferta é incluído nos eventos de decisão do conjunto de dados. | `false` |
+| `xdm:includeContent` | Este é um campo opcional e é `false` por padrão. Se `true`, o conteúdo da oferta será incluído nos eventos de decisão do conjunto de dados. | `false` |
 
-Consulte a [Documentação da Gestão de decisões](../../get-started/starting-offer-decisioning.md) para obter uma visão geral dos principais conceitos e propriedades.
+Consulte a [documentação do Gerenciamento de decisões](../../get-started/starting-offer-decisioning.md) para obter uma visão geral dos principais conceitos e propriedades.
 
 **Resposta**
 
@@ -132,7 +132,7 @@ Consulte a [Documentação da Gestão de decisões](../../get-started/starting-o
 
 ## Recuperar informações sobre uma decisão em lote {#retrieve-information-on-a-batch-decision}
 
-Para recuperar informações sobre uma decisão específica, faça uma solicitação GET à `/workloads/decisions` ao fornecer o valor da ID de carga de trabalho correspondente para sua decisão.
+Para recuperar informações sobre uma decisão específica, faça uma solicitação GET para o ponto de extremidade `/workloads/decisions` enquanto fornece o valor da ID da carga de trabalho correspondente para a sua decisão.
 
 **Formato da API**
 
@@ -179,4 +179,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## Próximas etapas {#next-steps}
 
-Ao seguir este guia de API, você verificou o status da carga de trabalho e as ofertas entregues usando o [!DNL [!DNL Batch Decisioning]] API. Para obter mais informações, consulte [visão geral do Gerenciamento de decisão](../../get-started/starting-offer-decisioning.md).
+Ao seguir este guia de API, você verificou o status da carga de trabalho e entregou ofertas usando a API [!DNL [!DNL Batch Decisioning]]. Para obter mais informações, consulte a [visão geral sobre a Gestão de Decisões](../../get-started/starting-offer-decisioning.md).

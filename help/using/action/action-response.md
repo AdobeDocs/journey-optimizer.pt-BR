@@ -12,7 +12,7 @@ exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Crie a ação personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-1. Clique dentro do **Resposta** campo.
+1. Clique dentro do campo **Resposta**.
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -131,7 +131,7 @@ Por exemplo, você pode adicionar uma condição para verificar o número de pon
 
    ![](assets/action-response10.png)
 
-1. Na primeira ramificação, adicione uma condição e use o editor avançado para aproveitar os campos de resposta de ação, sob o **Contexto** nó.
+1. Na primeira ramificação, adicione uma condição e use o editor avançado para aproveitar os campos de resposta de ação, no nó **Contexto**.
 
    ![](assets/action-response6.png)
 
@@ -143,8 +143,8 @@ Por exemplo, você pode adicionar uma condição para verificar o número de pon
    >
    >Cada perfil que entra na ação personalizada acionará uma chamada. Mesmo que a resposta seja sempre a mesma, o Jornada ainda executará uma chamada por perfil.
 
-1. Na ramificação de tempo limite e erro, adicione uma condição e utilize o incorporado **jo_status_code** campo. No nosso exemplo, estamos usando a variável
-   **http_400** tipo de erro. Consulte [nesta seção](#error-status).
+1. Na ramificação de tempo limite e erro, adicione uma condição e utilize o campo interno **jo_status_code**. No nosso exemplo, estamos usando a variável
+   Tipo de erro **http_400**. Consulte [esta seção](#error-status).
 
    ```
    @action{ActionLoyalty.jo_status_code} == "http_400"
@@ -158,26 +158,26 @@ Por exemplo, você pode adicionar uma condição para verificar o número de pon
 
 ## Logs do modo de teste {#test-mode-logs}
 
-Você pode acessar, por meio do modo de teste, os logs de status relacionados às respostas de ação personalizadas. Se você tiver definido ações personalizadas com respostas na jornada, verá uma **actionsHistory** nesses logs exibindo a carga retornada pelo endpoint externo (como resposta dessa ação personalizada). Isso pode ser muito útil em termos de depuração.
+Você pode acessar, por meio do modo de teste, os logs de status relacionados às respostas de ação personalizadas. Se você tiver definido ações personalizadas com respostas na jornada, verá uma seção **actionsHistory** nesses logs exibindo a carga retornada pelo ponto de extremidade externo (como resposta dessa ação personalizada). Isso pode ser muito útil em termos de depuração.
 
 ![](assets/action-response12.png)
 
 ## Status do erro {#error-status}
 
-A variável **jo_status_code** O campo está sempre disponível mesmo quando nenhuma carga de resposta é definida.
+O campo **jo_status_code** está sempre disponível mesmo quando nenhuma carga de resposta é definida.
 
 Estes são os valores possíveis para este campo:
 
 * código de status http: http_`<HTTP API call returned code>`, por exemplo http_200 ou http_400
 * erro de tempo limite: **tempo limite**
-* erro de limite: **limitado**
+* erro de limite: **limite**
 * erro interno: **internalError**
 
 Uma chamada de ação é considerada com erro quando o código http retornado é maior que 2xx ou se ocorrer um erro. A jornada flui para a ramificação de tempo limite ou erro dedicada nesses casos.
 
 >[!WARNING]
 >
->Somente as ações personalizadas recém-criadas incluem a variável **jo_status_code** pronto para uso. Se quiser usá-la com uma ação personalizada existente, será necessário atualizar a ação. Por exemplo, você pode atualizar a descrição e salvar.
+>Somente as ações personalizadas recém-criadas incluem o campo **jo_status_code** pronto para uso. Se quiser usá-la com uma ação personalizada existente, será necessário atualizar a ação. Por exemplo, você pode atualizar a descrição e salvar.
 
 ## Sintaxe da expressão {#exp-syntax}
 

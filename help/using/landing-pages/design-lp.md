@@ -18,15 +18,15 @@ ht-degree: 13%
 
 # Criar o conteúdo da página de destino {#design-lp}
 
-Para começar a criar conteúdo para sua landing page [página principal](create-lp.md#configure-primary-page) ou [subpágina](create-lp.md#configure-subpages), passe o mouse sobre o conteúdo da página e clique em **[!UICONTROL Abrir Designer]**. Você também pode clicar no botão correspondente na paleta direita.
+Para começar a criar conteúdo para sua [página principal](create-lp.md#configure-primary-page) ou [subpágina](create-lp.md#configure-subpages) de aterrissagem, passe o mouse sobre o conteúdo da sua página e clique em **[!UICONTROL Abrir o Designer]**. Você também pode clicar no botão correspondente na paleta direita.
 
 ![](assets/lp_open-designer.png)
 
 A partir daí, você pode:
 
-* **Projetar a página de aterrissagem do zero** por meio da interface do designer de conteúdo e aproveite imagens de [Adobe Experience Manager Assets](../content-management/assets.md). Saiba como criar seu conteúdo <!--or use built-in templates--> [nesta seção](../email/content-from-scratch.md).
+* **Crie sua página de aterrissagem do zero** por meio da interface do designer de conteúdo e utilize imagens do [Adobe Experience Manager Assets](../content-management/assets.md). Saiba como criar seu conteúdo <!--or use built-in templates--> [nesta seção](../email/content-from-scratch.md).
 
-* **Codificar ou colar HTML bruto** diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../email/code-content.md).
+* **Codifique ou cole HTML bruto** diretamente no designer de conteúdo. Saiba como codificar seu próprio conteúdo [nesta seção](../email/code-content.md).
 
 * **Importar conteúdo HTML existente** de um arquivo ou uma pasta .zip. Saiba como importar conteúdo [nesta seção](../email/existing-content.md).
 
@@ -34,4 +34,4 @@ A partir daí, você pode:
 
 >[!NOTE]
 >
->O designer de conteúdo da página de aterrissagem é semelhante ao designer de email. Saiba mais sobre [criação de conteúdo com [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>O designer de conteúdo da página de aterrissagem é semelhante ao designer de email. Saiba mais sobre [como criar conteúdo com [!DNL Journey Optimizer]](../email/get-started-email-design.md).

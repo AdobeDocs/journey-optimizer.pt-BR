@@ -10,7 +10,7 @@ exl-id: 8d53b6d8-f00f-4d1a-b6df-951f84a15430
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 12%
 
 Conta todos os elementos da lista, incluindo valores nulos.
 
-Observe que o parâmetro `<listObject>` não é compatível com esta função.
+Observe que o parâmetro `<listObject>` não tem suporte nessa função.
 
 ## Categoria
 

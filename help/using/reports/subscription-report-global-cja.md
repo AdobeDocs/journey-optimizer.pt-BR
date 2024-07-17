@@ -18,9 +18,9 @@ ht-degree: 2%
 
 # Relatório de assinaturas {#subscription-report-global-cja}
 
-A variável **Relatório de subscrição** O oferece insights essenciais sobre assinaturas e cancelamentos de assinaturas de perfis associados a listas específicas, ajudando você a entender a eficácia de diferentes campanhas e iniciativas de assinatura na promoção de engajamento e conversões.
+O **Relatório de assinatura** oferece informações essenciais sobre assinaturas e cancelamentos de assinaturas de perfis associados a listas específicas, ajudando você a entender a eficácia de diferentes campanhas e iniciativas de assinatura na geração de engajamento e conversões.
 
-Para acessar seus relatórios, clique no link **[!UICONTROL Relatório]** ícone da lista de assinaturas selecionada no menu avançado.
+Para acessar seus relatórios, clique no ícone **[!UICONTROL Relatório]** da lista de assinaturas selecionada no menu avançado.
 
 ![](assets/cja-sub-access.png)
 
@@ -30,62 +30,62 @@ Para saber mais sobre o espaço de trabalho do Customer Journey Analytics e como
 
 ![](assets/cja-sub-add.png)
 
-A variável **[!UICONTROL Adições à lista de assinaturas]** O KPI fornece uma visão geral abrangente do número total de subscrições adquiridas durante o período especificado. Essa métrica destaca o crescimento e a aquisição de novos assinantes, oferecendo insights valiosos sobre a eficácia de suas campanhas ou iniciativas de assinatura.
+O KPI **[!UICONTROL Lista de assinaturas adicionada]** fornece uma visão geral abrangente do número total de assinaturas adquiridas durante o período especificado. Essa métrica destaca o crescimento e a aquisição de novos assinantes, oferecendo insights valiosos sobre a eficácia de suas campanhas ou iniciativas de assinatura.
 
 ## A lista de assinaturas remove
 
 ![](assets/cja-sub-add-remove.png)
 
-A variável **[!UICONTROL A lista de assinaturas remove]** O KPI fornece um detalhamento do número total de cancelamentos de subscrições que ocorreram durante o período especificado. Essa métrica oferece insights valiosos sobre o desengajamento do assinante.
+O KPI **[!UICONTROL Subscription list remove]** e fornece um detalhamento do número total de cancelamentos de subscrições ocorridos durante o período especificado. Essa métrica oferece insights valiosos sobre o desengajamento do assinante.
 
 ## Crescimento das subscrições ao longo do tempo
 
 ![](assets/cja-sub-growth.png)
 
-A variável **[!UICONTROL Crescimento das subscrições ao longo do tempo]** O gráfico representa visualmente o progresso das assinaturas durante o período especificado, fornecendo uma compreensão clara de como sua base de assinantes evoluiu.
+O gráfico **[!UICONTROL Crescimento das assinaturas ao longo do tempo]** mostra visualmente o progresso das assinaturas durante o período especificado, fornecendo uma compreensão clara de como a sua base de assinantes evoluiu.
 
-* **[!UICONTROL Adições à lista de assinaturas]**: número total de subscrições do período relacionado.
+* **[!UICONTROL Inclusões na lista de assinaturas]**: número total de assinaturas do período relacionado.
 
-* **[!UICONTROL A lista de assinaturas remove]**: número total de cancelamentos de subscrições do período relacionado.
+* **[!UICONTROL A lista de assinaturas remove]**: Número total de cancelamentos de assinaturas do período relacionado.
 
-* **[!UICONTROL Crescimento da lista de assinaturas]**: taxa na qual a lista de assinantes está crescendo em um período específico.
+* **[!UICONTROL Crescimento da lista de assinaturas]**: taxa na qual a lista de assinantes está crescendo durante um período específico.
 
 ## Listas de assinaturas
 
 ![](assets/cja-sub-lists.png)
 
-A variável **[!UICONTROL Listas de assinaturas]** A tabela fornece insights essenciais sobre as assinaturas e cancelamentos de assinaturas dos perfis associados a listas de assinaturas específicas. Essas informações ajudam você a entender a eficácia de diferentes listas de assinaturas na promoção do engajamento e das conversões.
+A tabela **[!UICONTROL Listas de assinaturas]** fornece informações essenciais sobre suas assinaturas e cancelamentos de assinaturas de perfis associados a listas de assinaturas específicas. Essas informações ajudam você a entender a eficácia de diferentes listas de assinaturas na promoção do engajamento e das conversões.
 
-* **[!UICONTROL Adições à lista de assinaturas]**: número total de subscrições do período relacionado.
+* **[!UICONTROL Inclusões na lista de assinaturas]**: número total de assinaturas do período relacionado.
 
-* **[!UICONTROL A lista de assinaturas remove]**: número total de cancelamentos de subscrições do período relacionado.
+* **[!UICONTROL A lista de assinaturas remove]**: Número total de cancelamentos de assinaturas do período relacionado.
 
 ## Jornadas
 
 ![](assets/cja-sub-journeys.png)
 
-A variável **[!UICONTROL Jornada]** A tabela oferece uma visualização abrangente, apresentando detalhes complexos das assinaturas dos visitantes como parte da jornada do usuário.
+A tabela **[!UICONTROL Jornada]** oferece uma exibição extensa, apresentando detalhes complexos das assinaturas dos visitantes como parte da jornada do usuário.
 
-* **[!UICONTROL Adições à lista de assinaturas]**: número total de subscrições do período relacionado.
+* **[!UICONTROL Inclusões na lista de assinaturas]**: número total de assinaturas do período relacionado.
 
-* **[!UICONTROL A lista de assinaturas remove]**: número total de cancelamentos de subscrições do período relacionado.
+* **[!UICONTROL A lista de assinaturas remove]**: Número total de cancelamentos de assinaturas do período relacionado.
 
 ## Campanhas
 
 ![](assets/cja-sub-campaigns.png)
 
-A variável **[!UICONTROL Campanhas]** A tabela oferece insights valiosos sobre assinaturas e cancelamentos de assinaturas de perfis acionados por campanhas específicas. Essa visualização abrangente permite medir a eficácia de suas campanhas e rastrear o engajamento com o conteúdo da sua página de aterrissagem de maneira eficaz.
+A tabela **[!UICONTROL Campanhas]** oferece informações valiosas sobre assinaturas e cancelamentos de assinaturas de seus perfis acionados por campanhas específicas. Essa visualização abrangente permite medir a eficácia de suas campanhas e rastrear o engajamento com o conteúdo da sua página de aterrissagem de maneira eficaz.
 
-* **[!UICONTROL Adições à lista de assinaturas]**: número total de subscrições do período relacionado.
+* **[!UICONTROL Inclusões na lista de assinaturas]**: número total de assinaturas do período relacionado.
 
-* **[!UICONTROL A lista de assinaturas remove]**: número total de cancelamentos de subscrições do período relacionado.
+* **[!UICONTROL A lista de assinaturas remove]**: Número total de cancelamentos de assinaturas do período relacionado.
 
 ## Canal
 
 ![](assets/cja-sub-channels.png)
 
-A variável **[!UICONTROL Canal]** a tabela exibe o número de perfis, assinaturas e unsubscriptions categorizados por cada canal.
+A tabela **[!UICONTROL Canal]** exibe o número de assinaturas de perfis e de cancelamentos de assinaturas categorizadas por cada canal.
 
-* **[!UICONTROL Adições à lista de assinaturas]**: número total de subscrições do período relacionado.
+* **[!UICONTROL Inclusões na lista de assinaturas]**: número total de assinaturas do período relacionado.
 
-* **[!UICONTROL A lista de assinaturas remove]**: número total de cancelamentos de subscrições do período relacionado.
+* **[!UICONTROL A lista de assinaturas remove]**: Número total de cancelamentos de assinaturas do período relacionado.

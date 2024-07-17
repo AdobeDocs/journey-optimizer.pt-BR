@@ -19,7 +19,7 @@ Use as funções de Mapa na personalização para facilitar a interação com ma
 
 ## Obter{#get}
 
-A variável `get` é usada para recuperar o valor de um mapa para uma determinada chave.
+A função `get` é usada para recuperar o valor de um mapa para uma determinada chave.
 
 **Sintaxe**
 
@@ -37,7 +37,7 @@ A operação a seguir obtém o valor do mapa de identidade para a chave `example
 
 ## Chaves{#keys}
 
-A variável `keys` é usada para recuperar todas as chaves de um determinado mapa.
+A função `keys` é usada para recuperar todas as chaves de um determinado mapa.
 
 **Sintaxe**
 
@@ -55,7 +55,7 @@ A operação a seguir obtém todas as chaves do mapa `identityMap`.
 
 ## Valores{#values}
 
-A variável `values` é usada para recuperar todos os valores de um determinado mapa.
+A função `values` é usada para recuperar todos os valores de um determinado mapa.
 
 **Sintaxe**
 

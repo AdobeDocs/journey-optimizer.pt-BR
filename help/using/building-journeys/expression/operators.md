@@ -38,9 +38,9 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 ## Observações importantes{#important-notes}
 
-* Ao usar uma multiplicação (`*`), ambos os campos de operação devem ter o mesmo tipo, seja inteiro ou decimal. Exemplo:
+* Ao usar uma multiplicação (`*`), ambos os campos de operação devem ter o mesmo tipo, inteiro ou decimal. Exemplo:
    * o exemplo a seguir está correto: `3.0 * 4.0`
-   * `3 * 4.0` resultará em um erro
+   * `3 * 4.0` levará a um erro
 
 ## Lógico  {#logical}
 
@@ -50,7 +50,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> and <expression2>
 ```
 
-Ambos &lt;expression1> e &lt;expression2> deve ser booleano. O resultado é booleano.
+&lt;expression1> e &lt;expression2> devem ser booleanos. O resultado é booleano.
 
 Exemplo:
 
@@ -64,7 +64,7 @@ Exemplo:
 <expression1> or <expression2>
 ```
 
-Ambos &lt;expression1> e &lt;expression2> deve ser booleano. O resultado é booleano.
+&lt;expression1> e &lt;expression2> devem ser booleanos. O resultado é booleano.
 
 Exemplo:
 
@@ -152,7 +152,7 @@ Retorna falso porque &quot;&quot; não é considerado nulo.
 
 >[!NOTE]
 >
->Para &lt;expression1> e &lt;expression2> não há controle de tipo de dados.
+>Para &lt;expression1> e &lt;expression2>, não há controle de tipo de dados.
 
 Exemplo:
 
@@ -172,7 +172,7 @@ Exemplo:
 
 >[!NOTE]
 >
-Para &lt;expression1> e &lt;expression2> não há controle de tipo de dados.
+Para &lt;expression1> e &lt;expression2>, não há controle de tipo de dados.
 
 O resultado é booleano.
 
@@ -434,13 +434,13 @@ Exemplo:
 "the current time is " + (now())
 ```
 
-Retorna &quot;a hora atual é 23/09/2023:30:06.693Z&quot;
+Retorna &quot;a hora atual é 23T09-2023:30:06.693Z&quot;
 
 ```json
 (now()) + " is the current time"
 ```
 
-Retorna &quot;23/09/2009:30:06.693Z é a hora atual&quot;
+Retorna &quot;2023-09-23T09:30:06.693Z é a hora atual&quot;
 
 ```json
 "a" + "b" + "c" + 1234
@@ -482,4 +482,4 @@ Retorna um _dateTime_ (com fuso horário UTC) uma hora depois da hora atual
 (toDuration("PT1H")) + (toDuration("PT1H"))
 ```
 
-Retorna um _duração_ PT2H
+Retorna uma _duração_ PT2H

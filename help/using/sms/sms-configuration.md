@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: a08a28d7bfe912ff545ca559bd04b70642fe2ab5
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 35%
+ht-degree: 39%
 
 ---
 
@@ -45,18 +45,18 @@ Antes de enviar SMS ou MMS, você deve configurar o ambiente do Adobe Journey Op
    * [Com Twilio](sms-configuration-twilio.md)
 1. [Criar uma superfície de SMS](sms-configuration-surface.md)
 
-Essas etapas devem ser executadas por um Adobe Journey Optimizer [Administrador do sistema](../start/path/administrator.md).
+Estas etapas devem ser executadas por um [Administrador do Sistema](../start/path/administrator.md) do Adobe Journey Optimizer.
 
 ## Pré-requisitos{#sms-prerequisites}
 
-Atualmente, o Adobe Journey Optimizer está integrado a provedores de terceiros que oferecem serviços de mensagens de texto independentes do Adobe Journey Optimizer. Os provedores compatíveis com mensagens de texto e MMS são: **Sinch**, **Twilio** e **Infobip**.
+Atualmente, o Adobe Journey Optimizer está integrado a provedores de terceiros que oferecem serviços de mensagens de texto independentes do Adobe Journey Optimizer. Os provedores de mensagens de texto e MMS com suporte são: **Sinch**, **Twilio** e **Infobip**.
 
-Antes da configuração do canal SMS, você deve criar uma conta com um desses provedores para obter seu **Token de API** e **ID do serviço**, que você precisa configurar a conexão entre o Adobe Journey Optimizer e o provedor aplicável.
+Antes da configuração do canal SMS, você deve criar uma conta com um desses provedores para obter o **Token de API** e a **ID de Serviço**, que você precisa configurar a conexão entre o Adobe Journey Optimizer e o provedor aplicável.
 
 O uso de mensagens de texto e serviços MMS está sujeito a termos e condições adicionais do provedor aplicável. Como soluções de terceiros, o Sinch, o Twilio e o Infobip estão disponíveis para usuários do Adobe Journey Optimizer por meio de uma integração. A Adobe não controla e não é responsável por produtos de terceiros. Em caso de problemas ou solicitações de assistência relacionados aos serviços de mensagens de texto (SMS/MMS), entre em contato com seu provedor.
 
 >[!CAUTION]
 >
->Para acessar e editar subdomínios SMS, você deve ter a **[!UICONTROL Gerenciar subdomínios de SMS]** permissão na sandbox de produção. Saiba mais sobre permissões no [esta página](../administration/high-low-permissions.md#administration-permissions).
+>Para acessar e editar subdomínios SMS, você deve ter a permissão **[!UICONTROL Gerenciar subdomínios SMS]** na sandbox de produção. Saiba mais sobre permissões [nesta página](../administration/high-low-permissions.md#administration-permissions).
 >
 

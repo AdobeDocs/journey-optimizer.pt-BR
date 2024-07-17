@@ -24,14 +24,14 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 
 * Não há limitação de envio. 
 * Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. 
-* O incorporado **Reação** permite que você reaja a ações predefinidas (consulte esta [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado. 
+* O evento **Reação** interno permite que você reaja a ações predefinidas (consulte esta [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado. 
 * Não é possível colocar duas ações em paralelo, é necessário adicioná-las uma após a outra.
 
 ## Limitações de versões do Jornada {#journey-versions-limitations}
 
-* Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um **Qualificação do público-alvo** evento.
-* Uma jornada que começa com um **Qualificação do público-alvo** a atividade em v1 sempre deve começar com um **Qualificação do público-alvo** em outras versões.
-* O público-alvo e o namespace escolhidos em **Qualificação do público-alvo** (primeiro nó) não pode ser alterado em novas versões.
+* Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação de público-alvo**.
+* Uma jornada que começa com uma atividade **Qualificação de público-alvo** em v1 deve sempre começar com uma **Qualificação de público-alvo** em outras versões.
+* O público-alvo e o namespace escolhidos em **Qualificação de Público-Alvo** (primeiro nó) não podem ser alterados em novas versões.
 * A regra de reentrada precisa ser a mesma em todas as versões da jornada.
 * Uma jornada que começa com um **Público-alvo de leitura** não pode começar com outro evento nas próximas versões.
 

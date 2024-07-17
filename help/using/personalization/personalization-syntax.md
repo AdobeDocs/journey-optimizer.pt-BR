@@ -18,8 +18,8 @@ ht-degree: 7%
 
 # Sintaxe de personalização {#personalization-syntax}
 
-Personalização no [!DNL Journey Optimizer] é baseado na sintaxe de modelo chamada Handlebars.
-Para obter uma descrição completa da sintaxe Handlebars, consulte [Documentação do HandlebarsJS](https://handlebarsjs.com/).
+O Personalization em [!DNL Journey Optimizer] é baseado na sintaxe de modelo chamada Handlebars.
+Para obter uma descrição completa da sintaxe Handlebars, consulte a [documentação de HandlebarsJS](https://handlebarsjs.com/).
 
 Ele usa um modelo e um objeto de entrada para gerar HTML ou outros formatos de texto. Os modelos de Handlebars parecem texto regular com expressões Handlebars incorporadas.
 
@@ -42,25 +42,25 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 A sintaxe diferencia maiúsculas de minúsculas.
 
-As palavras **true**, **false**, **null** e **indefinido** são permitidos somente na primeira parte de uma expressão de caminho.
+As palavras **true**, **false**, **null** e **undefined** só são permitidas na primeira parte de uma expressão de caminho.
 
-Em Handlebars, os valores retornados pela variável {{expression}} são **HTML-escaped**. Se a expressão contiver `&`, a saída HTML-escaped retornada será gerada como `&amp;`. Se você não quiser que o Handlebars escape um valor, use o &quot;triple-stash&quot;.
+Em Handlebars, os valores retornados por {{expression}} são **HTML-escaped**. Se a expressão contiver `&`, a saída de HTML de escape retornada será gerada como `&amp;`. Se você não quiser que o Handlebars escape um valor, use o &quot;triple-stash&quot;.
 
-Em relação a argumentos de funções literais, o analisador de linguagem de modelo não suporta barra invertida sem escape única (`\`). Esse caractere deve ser evitado com uma barra invertida adicional (`\`). Exemplo:
+Em relação a argumentos de funções literais, o analisador de linguagem de modelo não oferece suporte ao símbolo único de barra invertida sem escape (`\`). Este caractere deve ser evitado com um símbolo de barra invertida adicional (`\`). Exemplo:
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
 ## Perfil
 
-Este namespace permite fazer referência a todos os atributos definidos no esquema de perfil descrito em [Documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
+Este namespace permite referenciar todos os atributos definidos no esquema de perfil descrito na [documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
 
-Os atributos precisam ser definidos no esquema antes de serem referenciados em um [!DNL Journey Optimizer] bloco de personalização.
+Os atributos precisam ser definidos no esquema antes de serem referenciados em um bloco de personalização [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->Saiba como aproveitar os atributos de perfil nas condições do [nesta seção](functions/helpers.md#if-function).
+>Saiba como aproveitar atributos de perfil em condições na [esta seção](functions/helpers.md#if-function).
 
-**Exemplos de referências:**
+**Referências de exemplo:**
 
 `{{profile.person.name.fullName}}`
 
@@ -78,7 +78,7 @@ Os atributos precisam ser definidos no esquema antes de serem referenciados em u
 
 ## Públicos-alvo{#perso-segments}
 
-Saiba como aproveitar os atributos de perfil nas condições do [nesta seção](functions/helpers.md#if-function).
+Saiba como aproveitar atributos de perfil em condições na [esta seção](functions/helpers.md#if-function).
 
 >[!NOTE]
 >Para saber mais sobre o serviço de segmentação, consulte [esta documentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
@@ -95,15 +95,15 @@ Esse caminho tem a seguinte estrutura:
 em que:
 
 * `offers` identifica a expressão de caminho pertencente ao namespace da oferta
-* `Type`  determina o tipo de representação da oferta. Os valores possíveis são: `image`, `html` e `text`
+* `Type` determina o tipo de representação da oferta. Os valores possíveis são: `image`, `html` e `text`
 * `Placement Id` e `Activity Id` são identificadores de posicionamento e atividade
 * `Attributes` são atributos específicos da oferta que dependem do tipo de oferta. Exemplo: `deliveryUrl` para imagens
 
-Para obter mais informações sobre a API de Decisões e a Representação de ofertas, consulte [esta página](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+Para obter mais informações sobre a API de Decisões e a Representação de Ofertas, consulte [esta página](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
-Todas as referências são validadas em relação ao Esquema de ofertas com um mecanismo de validação descrito em [esta página](personalization-validation.md)
+Todas as referências são validadas em relação ao Esquema de Ofertas com um mecanismo de validação descrito em [esta página](personalization-validation.md)
 
-**Exemplos de referências:**
+**Referências de exemplo:**
 
 * Local onde a imagem está hospedada:
 
@@ -133,32 +133,32 @@ Blocos são expressões que têm uma abertura de bloco ({{# }}) and closing ({{/
 
 >[!NOTE]
 >
->As funções auxiliares são detalhadas em [nesta seção](functions/helpers.md).
+>As funções auxiliares estão detalhadas em [esta seção](functions/helpers.md).
 >
 
 ## Tipos literais {#literal-types}
 
-[!DNL Adobe Journey Optimizer] O é compatível com os seguintes tipos literais:
+[!DNL Adobe Journey Optimizer] dá suporte aos seguintes tipos literais:
 
 | Literal | Definição |
 | ------- | ---------- |
 | String | Um tipo de dados composto de caracteres entre aspas duplas. <br>Exemplos: `"prospect"`, `"jobs"`, `"articles"` |
 | Booleano | Um tipo de dados que é verdadeiro ou falso. |
 | Número inteiro | Um tipo de dados que representa um número inteiro. Pode ser positivo, negativo ou zero. <br>Exemplos: `-201`, `0`, `412` |
-| Matriz | Um tipo de dados que é composto como um grupo de outros valores literais. Ela usa colchetes para agrupar e vírgulas para delimitar entre valores diferentes. <br> **Nota:** Não é possível acessar diretamente as propriedades dos itens em uma matriz. <br> Exemplos: `[1, 4, 7]`, `["US", "FR"]` |
+| Matriz | Um tipo de dados que é composto como um grupo de outros valores literais. Ela usa colchetes para agrupar e vírgulas para delimitar entre valores diferentes. <br> **Observação:** não é possível acessar diretamente as propriedades dos itens em uma matriz. <br> Exemplos: `[1, 4, 7]`, `["US", "FR"]` |
 
 >[!CAUTION]
 >
->A utilização de **xEvent** não está disponível em expressões de personalização. Qualquer referência a xEvent resultará em falhas de validação.
+>O uso da variável **xEvent** não está disponível em expressões de personalização. Qualquer referência a xEvent resultará em falhas de validação.
 
-## Personalização de URL{#perso-urls}
+## URL do Personalization{#perso-urls}
 
 Os URLs personalizados levam os destinatários para páginas específicas de um site ou para um microsite personalizado, dependendo dos atributos do perfil. No Adobe Journey Optimizer, você pode adicionar personalização a URLs no conteúdo da mensagem. A personalização de URLs pode ser aplicada ao texto e às imagens, e usar dados do perfil ou dados contextuais.
 
 O Journey Optimizer permite personalizar um ou vários URLs em sua mensagem adicionando campos de personalização a eles. Para personalizar um URL, siga as etapas abaixo:
 
 1. Crie um link no conteúdo da mensagem. [Saiba mais](../email/message-tracking.md#insert-links)
-1. No ícone de personalização, selecione os atributos. O ícone de personalização só está disponível para estes tipos de links: **Link externo**, **Link de cancelamento de subscrição** e **Recusar**.
+1. No ícone de personalização, selecione os atributos. O ícone de personalização só está disponível para estes tipos de links: **Link externo**, **Link de unsubscription** e **Opt-Out**.
 
    ![](assets/perso-url.png)
 
@@ -167,7 +167,7 @@ O Journey Optimizer permite personalizar um ou vários URLs em sua mensagem adic
 >No editor de personalização, ao editar um URL personalizado, as funções auxiliares e a associação de públicos-alvo são desativadas por motivos de segurança.
 >
 
-**Amostras de URLs personalizados**
+**Amostras de URLs personalizadas**
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}`
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`

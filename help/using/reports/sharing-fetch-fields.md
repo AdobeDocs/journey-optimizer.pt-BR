@@ -11,7 +11,7 @@ exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -77,7 +77,7 @@ Tipo: sequência de caracteres
 
 ## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
-O código de erro fornecido pelo sistema [!DNL Journey Optimizer] O está consultando. Por exemplo, pode ser um 404, 500, etc.
+O código de Erro fornecido pelo sistema [!DNL Journey Optimizer] está consultando. Por exemplo, pode ser um 404, 500, etc.
 
 Tipo: sequência de caracteres
 

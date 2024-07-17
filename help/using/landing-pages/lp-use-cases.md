@@ -18,11 +18,11 @@ ht-degree: 12%
 
 # Casos de uso da landing page {#lp-use-cases}
 
-Abaixo estão alguns exemplos de como você pode usar [!DNL Journey Optimizer] landing pages para que seus clientes optem por receber algumas ou todas as suas comunicações.
+Abaixo estão alguns exemplos de como você pode usar as páginas de aterrissagem do [!DNL Journey Optimizer] para que seus clientes optem por receber algumas ou todas as suas comunicações.
 
 ## Assinar um serviço {#subscription-to-a-service}
 
-Um dos casos de uso mais comuns consiste em convidar seus clientes para [assinar um serviço](subscription-list.md) (como um boletim informativo ou um evento) por meio de uma landing page. As principais etapas são apresentadas no gráfico abaixo:
+Um dos casos de uso mais comuns consiste em convidar seus clientes a [assinar um serviço](subscription-list.md) (como um boletim informativo ou um evento) por meio de uma página de aterrissagem. As principais etapas são apresentadas no gráfico abaixo:
 
 ![](assets/lp_subscription-uc.png)
 
@@ -34,29 +34,29 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
    ![](assets/lp_subscription-uc-list.png)
 
-1. [Criar uma landing page](create-lp.md) para permitir que seus destinatários se registrem no evento.
+1. [Crie uma página de aterrissagem](create-lp.md) para permitir que seus destinatários se registrem no evento.
 
    ![](assets/lp_create-lp-details.png)
 
-1. Configurar o registro [página de aterrissagem principal](create-lp.md#configure-primary-page).
+1. Configure a [página de aterrissagem primária](create-lp.md#configure-primary-page) do registro.
 
-1. Ao projetar o [conteúdo da página de destino](design-lp.md), selecione a lista de assinaturas criada para atualizá-la com os perfis que marcam a caixa de seleção de registro.
+1. Ao criar o [conteúdo da página de aterrissagem](design-lp.md), selecione a lista de assinaturas criada para atualizá-la com os perfis que marcam a caixa de seleção de registro.
 
    ![](assets/lp_subscription-uc-lp-list.png)
 
-1. Crie uma página de agradecimento que será exibida aos seus destinatários assim que eles enviarem o formulário de registro. Saiba como configurar subpáginas de destino [aqui](create-lp.md#configure-subpages).
+1. Crie uma página de agradecimento que será exibida aos seus destinatários assim que eles enviarem o formulário de registro. Saiba como configurar as subpáginas de aterrissagem [aqui](create-lp.md#configure-subpages).
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [Publish](create-lp.md#publish) a landing page.
+1. [Publish](create-lp.md#publish) a página inicial.
 
-1. Em um [jornada](../building-journeys/journey.md), adicionar um **E-mail** atividade para direcionar o tráfego para a landing page de registro.
+1. Em uma [jornada](../building-journeys/journey.md), adicione uma atividade **Email** para direcionar tráfego para a página de aterrissagem de registro.
 
    ![](assets/lp_subscription-uc-journey.png)
 
-1. [Criar o email](../email/get-started-email-design.md) para anunciar que as inscrições para o seu evento estão abertas.
+1. [Crie o email](../email/get-started-email-design.md) para anunciar que as inscrições para o seu evento estão abertas.
 
-1. [Inserir um link](../email/message-tracking.md#insert-links) no conteúdo da mensagem. Selecionar **[!UICONTROL Landing page]** como o **[!UICONTROL Tipo de link]** e escolha o [landing page](create-lp.md#configure-primary-page) que você criou para registro.
+1. [Insira um link](../email/message-tracking.md#insert-links) no conteúdo da mensagem. Selecione **[!UICONTROL Página de aterrissagem]** como o **[!UICONTROL Tipo de link]** e escolha a [página de aterrissagem](create-lp.md#configure-primary-page) criada para registro.
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -70,13 +70,13 @@ Por exemplo, digamos que você organize um evento no próximo mês e deseje inic
 
 Além disso, você pode enviar um email de confirmação para os recipients que se registraram no evento. Para isso, siga as etapas abaixo.
 
-1. Criar outro [jornada](../building-journeys/journey.md). Você pode fazer isso diretamente na landing page clicando no **[!UICONTROL Criar jornada]** botão. [Saiba mais](create-lp.md#configure-primary-page)
+1. Crie outra [jornada](../building-journeys/journey.md). Você pode fazer isso diretamente na página de aterrissagem clicando no botão **[!UICONTROL Criar jornada]**. [Saiba mais](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Expanda o **[!UICONTROL Eventos]** categoria e solte um **[!UICONTROL Qualificação do público-alvo]** atividade na tela. [Saiba mais](../building-journeys/audience-qualification-events.md)
+1. Expanda a categoria **[!UICONTROL Eventos]** e solte uma atividade **[!UICONTROL Qualificação de público-alvo]** na tela. [Saiba mais](../building-journeys/audience-qualification-events.md)
 
-1. Clique em **[!UICONTROL Público]** e selecione a lista de assinaturas criada.
+1. Clique no campo **[!UICONTROL Público-alvo]** e selecione a lista de assinaturas criada.
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
@@ -94,7 +94,7 @@ Para permitir que seus destinatários cancelem a inscrição de suas comunicaç�
 
 >[!NOTE]
 >
->Saiba mais sobre como gerenciar o consentimento dos recipients e por que isso é importante no [nesta seção](../privacy/opt-out.md).
+>Saiba mais sobre como gerenciar o consentimento dos destinatários e por que isso é importante nesta [seção](../privacy/opt-out.md).
 
 ### Gerenciamento de recusa {#opt-out-management}
 
@@ -113,27 +113,27 @@ Para permitir que os recipients de um email cancelem a inscrição de suas comun
 
 1. Defina a página principal. [Saiba mais](create-lp.md#configure-primary-page)
 
-1. [Design](design-lp.md) o conteúdo da página principal: use a tag específica da landing page **[!UICONTROL Formulário]** componente, defina um **[!UICONTROL Opção de não participação]** e optar por atualizar **[!UICONTROL Canal (email)]**: o perfil que marca a caixa de opção de não participação na página de aterrissagem será excluído de todas as suas comunicações.
+1. [Criar](design-lp.md) o conteúdo da página principal: use o componente **[!UICONTROL Formulário]** específico da página de aterrissagem, defina uma caixa de seleção **[!UICONTROL Recusar]** e opte por atualizar o **[!UICONTROL Canal (email)]**: o perfil que marca a caixa de opção de não participação na página de aterrissagem será recusado em todas as suas comunicações.
 
    ![](assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
-1. Adicionar uma confirmação [subpágina](create-lp.md#configure-subpages) que será exibido aos usuários que enviam o formulário.
+1. Adicione uma [subpágina](create-lp.md#configure-subpages) de confirmação que será exibida para os usuários que enviarem o formulário.
 
    ![](assets/lp_opt-out-subpage.png)
 
    >[!NOTE]
    >
-   >Certifique-se de fazer referência à subpágina no da página principal **[!UICONTROL Chamada para ação]** seção do **[!UICONTROL Formulário]** componente. [Saiba mais](design-lp.md)
+   >Referencie a subpágina na seção **[!UICONTROL Chamada para ação]** da página principal do componente **[!UICONTROL Formulário]**. [Saiba mais](design-lp.md)
 
-1. Depois de configurar e definir o conteúdo das páginas, [publicar](create-lp.md#publish) a landing page.
+1. Depois de configurar e definir o conteúdo das suas páginas, [publique](create-lp.md#publish) a página de aterrissagem.
 
 1. [Criar uma mensagem de email](../email/get-started-email-design.md) em uma jornada.
 
-1. Selecione o texto no seu conteúdo e [inserir um link](../email/message-tracking.md#insert-links) usando a barra de ferramentas contextual. Também é possível usar um link em um botão.
+1. Selecione o texto no seu conteúdo e [insira um link](../email/message-tracking.md#insert-links) usando a barra de ferramentas contextual. Também é possível usar um link em um botão.
 
-1. Selecionar **[!UICONTROL Landing page]** do **[!UICONTROL Tipo de link]** e selecione a variável [landing page](create-lp.md#configure-primary-page) que você criou para recusar.
+1. Selecione **[!UICONTROL Página de aterrissagem]** na lista suspensa **[!UICONTROL Tipo de link]** e selecione a [página de aterrissagem](create-lp.md#configure-primary-page) criada para opção de não participação.
 
    ![](assets/lp_opt-out-landing-page.png)
 
@@ -141,7 +141,7 @@ Para permitir que os recipients de um email cancelem a inscrição de suas comun
    >
    >Para enviar a mensagem, verifique se a landing page selecionada ainda não expirou. Saiba como atualizar a data de expiração [nesta seção](create-lp.md#configure-primary-page).
 
-1. Publique e execute a jornada. [Saiba mais](../building-journeys/journey.md).
+1. Publish e execute a jornada. [Saiba mais](../building-journeys/journey.md).
 
 1. Depois que a mensagem for recebida, se um recipient clicar no link de cancelamento de inscrição no email, a página de aterrissagem será exibida.
 
@@ -153,17 +153,17 @@ Para permitir que os recipients de um email cancelem a inscrição de suas comun
 
    * Os dados do perfil são atualizados e não receberão comunicações de sua marca, a menos que você faça a assinatura novamente.
 
-Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
+Para verificar se a escolha do perfil correspondente foi atualizada, acesse a Experience Platform e o perfil selecionando um namespace de identidade e um valor de identidade correspondente. Saiba mais na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=pt-BR#getting-started){target="_blank"}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 
-No **[!UICONTROL Atributos]** é possível ver que o valor de **[!UICONTROL opção]** foi alterado para **[!UICONTROL não]**.
+Na guia **[!UICONTROL Atributos]**, você pode ver que o valor de **[!UICONTROL opção]** foi alterado para **[!UICONTROL não]**.
 
-As informações de recusa são armazenadas no **Conjunto de dados do serviço de consentimento**. [Saiba mais sobre conjuntos de dados](../data/get-started-datasets.md)
+As informações de recusa são armazenadas no **Conjunto de dados de serviço de consentimento**. [Saiba mais sobre conjuntos de dados](../data/get-started-datasets.md)
 
 >[!NOTE]
 >
->Se o método de mesclagem para seu padrão [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} **[!UICONTROL Perfis]** a política de mesclagem é **[!UICONTROL Precedência do conjunto de dados]**, habilite o **[!UICONTROL Conjunto de dados do serviço de consentimento do AJO]** e priorizá-lo na política de mesclagem. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>Se o método de mesclagem para sua política de mesclagem padrão do [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR){target="_blank"} **[!UICONTROL Perfis]** for a **[!UICONTROL Precedência do Conjunto de Dados]**, habilite o **[!UICONTROL Conjunto de Dados de Serviço de Consentimento da AJO]** e priorize-o na política de mesclagem. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Mesmo se nenhum lote tiver sido adicionado a esse conjunto de dados, ele ainda conterá as informações de aceitação/recusa.
 

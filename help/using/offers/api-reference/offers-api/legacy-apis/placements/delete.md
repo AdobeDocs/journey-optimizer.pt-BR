@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Excluir uma inserção {#delete-placement}
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma inserção. Somente as disposições criadas no contêiner de locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para o [!DNL Offer Library] API usando a ID de instância do posicionamento que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma inserção. Somente as disposições criadas no contêiner de locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando a ID de instância do posicionamento que você deseja excluir.
 
 **Formato da API**
 

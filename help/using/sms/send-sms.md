@@ -11,7 +11,7 @@ exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 2%
 
 Depois que o conteúdo da mensagem for definido, você poderá usar perfis de teste para visualizar seu conteúdo. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
 
-Para fazer isso, clique em **[!UICONTROL Simular conteúdo]** em seguida, adicione um perfil de teste para verificar sua mensagem usando os dados do perfil de teste.
+Para fazer isso, clique em **[!UICONTROL Simular conteúdo]** e adicione um perfil de teste para verificar sua mensagem usando os dados do perfil de teste.
 
 ![](assets/sms_preview_2.png)
 
-Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na [Gestão de conteúdo](../content-management/preview-test.md) seção.
+Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na seção [Gerenciamento de conteúdo](../content-management/preview-test.md).
 
 ## Validar seu conteúdo {#sms-validate}
 
@@ -33,9 +33,9 @@ Você deve verificar os alertas na seção superior do editor. Alguns deles são
 
 ![](assets/sms-alert-button.png)
 
-* **Avisos** consulte recomendações e práticas recomendadas. Por exemplo, uma mensagem de aviso será exibida se a mensagem de texto estiver vazia.
+* **Os avisos** referem-se às recomendações e práticas recomendadas. Por exemplo, uma mensagem de aviso será exibida se a mensagem de texto estiver vazia.
 
-* **Erros** impede que você teste ou ative a jornada, ou publique a campanha, desde que não sejam resolvidos. Por exemplo, uma mensagem de erro avisa quando a linha de assunto está ausente.
+* **Erros** impedem que você teste ou ative a jornada, ou publique a campanha, desde que não sejam resolvidos. Por exemplo, uma mensagem de erro avisa quando a linha de assunto está ausente.
 
 
 >[!NOTE]
@@ -44,7 +44,7 @@ Você deve verificar os alertas na seção superior do editor. Alguns deles são
 
 ## Envie suas mensagens de texto {#sms-send}
 
-Quando a mensagem de texto estiver pronta, conclua a configuração de [jornada](../building-journeys/journey-gs.md) ou [campaign](../campaigns/create-campaign.md) para enviá-lo.
+Quando a mensagem de texto estiver pronta, conclua a configuração da [jornada](../building-journeys/journey-gs.md) ou da [campanha](../campaigns/create-campaign.md) para enviá-la.
 
 **Tópicos relacionados**
 

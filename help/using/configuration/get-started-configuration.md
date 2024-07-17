@@ -41,7 +41,7 @@ Para criar suas jornadas e enviar mensagens, você precisa seguir as etapas de c
 
    * Ativar a **Opção de email CCO** para manter uma cópia das mensagens enviadas a pessoas físicas. [Saiba mais](archiving-support.md#enable-bcc)
 
-   * Configurar **regras de negócios** para evitar o excesso de solicitações de seus recipients. [Saiba mais](frequency-rules.md)
+   * Configure as **regras de negócio** para evitar o excesso de solicitações de seus destinatários. [Saiba mais](frequency-rules.md)
 
    * Determine qual endereço de email e/ou número de telefone deve ser usado com prioridade para seus destinatários quando vários endereços/números estiverem disponíveis na Adobe Experience Platform. [Saiba mais](primary-email-addresses.md)
 

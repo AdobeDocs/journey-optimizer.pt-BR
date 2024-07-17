@@ -13,7 +13,7 @@ badge: label="Disponibilidade limitada" type="Informative"
 source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->No momento, o conteúdo multilíngue está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
+>No momento, o conteúdo multilíngue está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
 Usando o fluxo manual, você pode traduzir facilmente seu conteúdo diretamente em seu email, notificação por push ou campanha e jornada por SMS, fornecendo opções precisas de controle e personalização para suas mensagens multilíngues. Além disso, você pode importar facilmente conteúdo multilíngue pré-existente com a opção Importar HTML.
 
@@ -35,17 +35,17 @@ Siga estas etapas para criar conteúdo multilíngue usando tradução manual:
 
 ## Criar localidade {#create-locale}
 
-Ao definir as configurações de idioma, conforme descrito na seção [Criar suas configurações de idioma](#language-settings) seção, se um local específico não estiver disponível para seu conteúdo multilíngue, você terá a flexibilidade de criar quantos locais novos forem necessários usando o **[!UICONTROL Tradução]** menu.
+Ao definir as configurações de idioma, conforme descrito na seção [Criar configurações de idioma](#language-settings), se uma localidade específica não estiver disponível para o seu conteúdo multilíngue, você terá a flexibilidade de criar quantas novas localidades forem necessárias usando o menu **[!UICONTROL Tradução]**.
 
-1. No **[!UICONTROL Gestão de conteúdo]** menu, acesso **[!UICONTROL Tradução]**.
+1. No menu **[!UICONTROL Gestão de conteúdo]**, acesse **[!UICONTROL Tradução]**.
 
-1. No **[!UICONTROL Dicionário de local]** clique em **[!UICONTROL Adicionar localidade]**.
+1. Na guia **[!UICONTROL Dicionário de localidade]**, clique em **[!UICONTROL Adicionar localidade]**.
 
    ![](assets/locale_1.png)
 
-1. Selecione o código de localidade na **[!UICONTROL Idioma]** e a lista associada **[!UICONTROL Região]**.
+1. Selecione o código de localidade na lista **[!UICONTROL Idioma]** e a **[!UICONTROL Região]** associada.
 
-1. Clique em **[!UICONTROL Salvar]** para criar a sua localidade.
+1. Clique em **[!UICONTROL Salvar]** para criar sua localidade.
 
    ![](assets/locale_2.png)
 
@@ -53,37 +53,37 @@ Ao definir as configurações de idioma, conforme descrito na seção [Criar sua
 
 Nesta seção, você pode definir o idioma principal e os locais associados para gerenciar o conteúdo multilíngue. Você também pode escolher o atributo que deseja usar para pesquisar informações relacionadas ao idioma do perfil
 
-1. No **[!UICONTROL Administração]** menu, acesso **[!UICONTROL Canal]**.
+1. No menu **[!UICONTROL Administração]**, acesse **[!UICONTROL Canal]**.
 
-1. No **[!UICONTROL Configurações de idioma]** clique em **[!UICONTROL Criar configurações de idioma]**.
+1. No menu **[!UICONTROL Configurações de idioma]**, clique em **[!UICONTROL Criar configurações de idioma]**.
 
    ![](assets/multilingual-settings-1.png)
 
-1. Digite o nome do seu **[!UICONTROL Configurações de idioma]**.
+1. Digite o nome das **[!UICONTROL Configurações de idioma]**.
 
-1. Selecione o **[!UICONTROL Localidades]** associado a essas configurações. É possível adicionar no máximo 50 localidades.
+1. Selecione as **[!UICONTROL Localidades]** associadas a estas configurações. É possível adicionar no máximo 50 localidades.
 
-   Se um **[!UICONTROL Localidade]** estiver ausente, você poderá criá-lo manualmente antes **[!UICONTROL Tradução]** ou por API. Consulte [Criar uma nova localidade](#create-locale).
+   Se uma **[!UICONTROL Localidade]** estiver ausente, você poderá criá-la manualmente com antecedência a partir do menu **[!UICONTROL Tradução]** ou por API. Consulte [Criar uma nova Localidade](#create-locale).
 
    ![](assets/multilingual-settings-2.png)
 
-1. No **[!UICONTROL Preferência de envio]** selecione o atributo que deseja pesquisar para localizar informações sobre idiomas do perfil.
+1. No menu **[!UICONTROL Preferência de envio]**, selecione o atributo que você deseja pesquisar para encontrar informações sobre idiomas de perfil.
 
    ![](assets/multilingual-settings-3.png)
 
-1. Clique em **[!UICONTROL Editar]** ao lado do seu **[!UICONTROL Localidade]** para personalizar ainda mais e adicionar **[!UICONTROL Preferências de perfil]**.
+1. Clique em **[!UICONTROL Editar]** ao lado da **[!UICONTROL Localidade]** para personalizá-la ainda mais e adicionar **[!UICONTROL Preferências de perfil]**.
 
    ![](assets/multilingual-settings-4.png)
 
-1. Selecionar outro **[!UICONTROL Localidades]** no menu suspenso Preferências de perfil e clique em **[!UICONTROL Adicionar perfis]**.
+1. Selecione outras **[!UICONTROL Localidades]** no menu suspenso de Preferências de perfil e clique em **[!UICONTROL Adicionar perfis]**.
 
-1. Acesse o menu avançado do **[!UICONTROL Localidade]** para definir o **[!UICONTROL Localidade principal]**, ou seja, o idioma padrão se o atributo de perfil não for especificado.
+1. Acesse o menu avançado da **[!UICONTROL Localidade]** para definir sua **[!UICONTROL Localidade primária]**, ou seja, o idioma padrão se o atributo de perfil não for especificado.
 
    Você também pode excluir seu local nesse menu avançado.
 
    ![](assets/multilingual-settings-5.png)
 
-1. Clique em **[!UICONTROL Enviar]** para criar o **[!UICONTROL Configurações de idioma]**.
+1. Clique em **[!UICONTROL Enviar]** para criar suas **[!UICONTROL configurações de idioma]**.
 
 <!--
 1. Access the **[!UICONTROL Channel surfaces]** menu and create a new channel surface or select an existing one.
@@ -98,7 +98,7 @@ Nesta seção, você pode definir o idioma principal e os locais associados para
 
 Depois de configurar seu conteúdo multilíngue, você está pronto para criar a campanha ou jornada e personalizar o conteúdo para cada uma das localidades selecionadas.
 
-1. Comece criando e configurando seu email, SMS ou notificação por push [campaign](../campaigns/create-campaign.md) ou [jornada](../building-journeys/journeys-message.md) de acordo com suas necessidades.
+1. Comece criando e configurando sua [campanha](../campaigns/create-campaign.md) ou [jornada](../building-journeys/journeys-message.md) de email, SMS ou notificação por push de acordo com suas necessidades.
 
    >[!AVAILABILITY]
    >
@@ -106,27 +106,27 @@ Depois de configurar seu conteúdo multilíngue, você está pronto para criar a
 
 1. Crie ou importe seu conteúdo original e personalize-o conforme necessário.
 
-1. Após criar o conteúdo principal, clique em **[!UICONTROL Salvar]** e volte para a tela de configuração do campaign.
+1. Depois que o conteúdo principal for criado, clique em **[!UICONTROL Salvar]** e volte para a tela de configuração da campanha.
 
    ![](assets/multilingual-campaign-2.png)
 
-1. Clique em **[!UICONTROL Adicionar idiomas]** e selecione o criado anteriormente **[!UICONTROL Configurações de idioma]**. [Saiba mais](#create-language-settings)
+1. Clique em **[!UICONTROL Adicionar idiomas]** e selecione as **[!UICONTROL configurações de idioma]** criadas anteriormente. [Saiba mais](#create-language-settings)
 
    ![](assets/multilingual-campaign-3.png)
 
-1. Acesse as configurações avançadas do **[!UICONTROL Localidades]** e selecione **[!UICONTROL Copiar principal para todos os locais]**.
+1. Acesse as configurações avançadas do menu **[!UICONTROL Localidades]** e selecione **[!UICONTROL Copiar principal para todas as localidades]**.
 
    ![](assets/multilingual-campaign-4.png)
 
-1. Agora que o conteúdo principal foi duplicado em todo o conteúdo selecionado  **[!UICONTROL Localidades]**, acesse cada local e clique em **[!UICONTROL Editar corpo do email]** para traduzir o conteúdo.
+1. Agora que o conteúdo principal está duplicado em todas as **[!UICONTROL Localidades]** selecionadas, acesse cada localidade e clique em **[!UICONTROL Editar corpo de email]** para traduzir o conteúdo.
 
    ![](assets/multilingual-campaign-5.png)
 
-1. Você pode optar por desativar ou ativar códigos de idiomas com o **[!UICONTROL Mais ações]** do local selecionado.
+1. Você pode optar por desabilitar ou habilitar localidades com o menu **[!UICONTROL Mais ação]** da Localidade selecionada.
 
    ![](assets/multilingual-campaign-6.png)
 
-1. Para desativar a configuração multilíngue, clique em **[!UICONTROL Adicionar idiomas]** e selecione o idioma que deseja manter como idioma local.
+1. Para desativar sua configuração Multilíngue, clique em **[!UICONTROL Adicionar idiomas]** e selecione o idioma que deseja manter como idioma local.
 
    ![](assets/multilingual-campaign-7.png)
 

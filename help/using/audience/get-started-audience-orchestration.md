@@ -28,9 +28,9 @@ Estas documentações fornecem informações detalhadas sobre como trabalhar com
 
 >[!ENDSHADEBOX]
 
-A composição do público-alvo permite criar **workflows de composição**, em que é possível combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo.
+A composição de público-alvo permite criar **fluxos de trabalho de composição**, nos quais você pode combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo.
 
-Depois de concluído, o **públicos resultantes** são salvas no Adobe Experience Platform, juntamente com os públicos-alvo existentes, e podem ser aproveitadas em campanhas e jornadas do Journey Optimizer para clientes-alvo. [Saiba como direcionar públicos-alvo no Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
+Depois de concluído, os **públicos-alvo resultantes** são salvos na Adobe Experience Platform junto com os públicos-alvo existentes e podem ser aproveitados nas campanhas e jornadas da Journey Optimizer para clientes-alvo. [Saiba como direcionar públicos no Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 

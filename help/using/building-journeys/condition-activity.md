@@ -25,7 +25,7 @@ ht-degree: 17%
 
 Estes tipos de condições estão disponíveis:
 
-* [Condição da fonte de dados](#data_source_condition)
+* [Condição de Source de Dados](#data_source_condition)
 * [Condição de tempo](#time_condition)
 * [Divisão de porcentagem](#percentage_split)
 * [Condição de data](#date_condition)
@@ -42,7 +42,7 @@ Estes tipos de condições estão disponíveis:
 
 Ao usar várias condições em uma jornada, você pode definir rótulos para cada uma delas para identificá-las mais facilmente.
 
-Clique em **[!UICONTROL Adicionar um caminho]** se quiser definir várias condições. Para cada condição, um novo caminho é adicionado na tela após a atividade.
+Clique em **[!UICONTROL Adicionar um caminho]** se desejar definir várias condições. Para cada condição, um novo caminho é adicionado na tela após a atividade.
 
 ![](assets/journey47.png)
 
@@ -52,7 +52,7 @@ Por exemplo, vamos pegar o exemplo de uma condição de primeiro caminho &quot;A
 
 ![](assets/journey48.png)
 
-Você pode criar outro caminho para públicos-alvo que não se qualifiquem para as condições definidas marcando **[!UICONTROL Mostrar o caminho para casos diferentes dos mencionados acima]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão de porcentagem](#percentage_split).
+Você pode criar outro caminho para públicos que não estejam qualificados para as condições definidas verificando **[!UICONTROL Mostrar caminho para casos diferentes dos mencionados acima]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão de porcentagem](#percentage_split).
 
 O modo simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os elementos diferentes, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
 
@@ -61,20 +61,20 @@ O modo simples permite executar consultas simples com base em uma combinação d
 
 ![](assets/journey64.png)
 
-Se você estiver usando o [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"} para criar públicos-alvo, você pode aproveitá-los nas condições de jornada. Consulte [Uso do público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
+Se você estiver usando o [Serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"} para criar públicos, poderá aproveitá-los nas condições de jornada. Consulte [Uso de público-alvo em condições](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
 >
 >Não é possível executar consultas em séries de tempo (por exemplo, uma lista de compras, cliques anteriores em mensagens) com o editor simples. Para isso, será necessário usar o editor avançado. Consulte [esta página](expression/expressionadvanced.md).
 
-A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcando a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
+A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcar a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
 No editor simples, você também encontrará a categoria Propriedades da Jornada, abaixo das categorias de evento e fonte de dados. Essa categoria contém campos técnicos relacionados à jornada para um determinado perfil. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados. [Saiba mais](expression/journey-properties.md)
 
-## Condição da fonte de dados {#data_source_condition}
+## Condição do Source de dados {#data_source_condition}
 
-Isso permite definir uma condição com base nos campos das fontes de dados ou nos eventos posicionados anteriormente na jornada. Saiba como usar o editor de expressão no [nesta seção](expression/expressionadvanced.md).
+Isso permite definir uma condição com base nos campos das fontes de dados ou nos eventos posicionados anteriormente na jornada. Saiba como usar o editor de expressão [nesta seção](expression/expressionadvanced.md).
 
 Por exemplo, se você estiver direcionando um público-alvo com atributos de enriquecimento gerados usando um fluxo de trabalho de composição ou um upload personalizado (arquivo CSV), você pode aproveitar esses atributos de enriquecimento para criar sua condição.
 
@@ -149,20 +149,20 @@ O limite de perfil não é considerado no modo de teste.
 
 ## Uso de públicos-alvo em condições {#using-a-segment}
 
-Esta seção explica como usar um público-alvo em uma condição de jornada. Para obter mais informações sobre públicos-alvo e como criá-los, consulte [nesta seção](../audience/about-audiences.md).
+Esta seção explica como usar um público-alvo em uma condição de jornada. Para obter mais informações sobre públicos-alvo e como criá-los, consulte [esta seção](../audience/about-audiences.md).
 
 Para usar um público-alvo em uma condição de jornada, siga estas etapas:
 
-1. Abra uma jornada, solte uma **[!UICONTROL Condição]** e escolha a **Condição da fonte de dados**.
+1. Abra uma jornada, solte uma atividade de **[!UICONTROL Condição]** e escolha a **Condição de Source de Dados**.
 
    ![](assets/segment3.png)
 
-1. Clique em **[!UICONTROL Adicionar um caminho]** para cada caminho extra necessário. Para cada caminho, clique no link **[!UICONTROL Expressão]** campo.
+1. Clique em **[!UICONTROL Adicionar um caminho]** para cada caminho extra necessário. Para cada caminho, clique no campo **[!UICONTROL Expression]**.
 
-1. No lado esquerdo, expanda **[!UICONTROL Públicos-alvo]** nó. Arraste e solte o público-alvo que deseja usar com sua condição. Por padrão, a condição no público-alvo é verdadeira.
+1. No lado esquerdo, abra o nó **[!UICONTROL Públicos-alvo]**. Arraste e solte o público-alvo que deseja usar com sua condição. Por padrão, a condição no público-alvo é verdadeira.
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >Observe que somente os indivíduos com o **Realizado** e **Existente** os status de participação do público serão considerados membros do público. Para obter mais informações sobre como avaliar um público-alvo, consulte a [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Observe que somente os indivíduos com os status de participação de público **Realizado** e **Existente** serão considerados membros do público. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

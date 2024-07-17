@@ -23,25 +23,25 @@ A experiência baseada em código é compatível com qualquer tipo de implementa
 
 >[!IMPORTANT]
 >
->Seguir [este link](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} para encontrar implementações de amostra para diferentes casos de uso de personalização e experimentação. Confira-as e execute-as para entender melhor quais são as etapas de implementação necessárias e como funciona o fluxo de personalização completo.
+>Siga [este link](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} para encontrar implementações de exemplo para diferentes casos de uso de personalização e experimentação. Confira-as e execute-as para entender melhor quais são as etapas de implementação necessárias e como funciona o fluxo de personalização completo.
 
 ## Implementação do lado do cliente {#client-side-implementation}
 
 Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs do cliente da AEP: AEP Web SDK ou AEP Mobile SDK.
 
-* As etapas [abaixo](#client-side-how) descreva o processo de busca do conteúdo publicado na borda pelas campanhas de experiência baseadas em código em uma amostra **SDK da Web** implementação e exibição do conteúdo personalizado.
+* As etapas [abaixo](#client-side-how) descrevem o processo de busca do conteúdo publicado na borda pelas campanhas de experiência baseadas em código, em uma implementação de exemplo do **SDK da Web**, e de exibição do conteúdo personalizado.
 
-* As etapas para implementar o canal baseado em código usando o **SDK móvel** são descritos em [este tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+* As etapas para implementar o canal baseado em código usando o **SDK móvel** estão descritas em [este tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
 
   >[!NOTE]
   >
-  >Implementações de exemplo para casos de uso de dispositivos móveis estão disponíveis para [aplicativo iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} e [aplicativo Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+  >Implementações de exemplo para casos de uso de dispositivos móveis estão disponíveis para o [aplicativo iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} e o [aplicativo Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
 
 ### Como funciona - SDK da Web {#client-side-how}
 
-1. [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} está incluído na página.
+1. O [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} está incluído na página.
 
-1. Você precisa usar o `sendEvent` e especifique o URI de superfície para buscar conteúdo de personalização.
+1. Você precisa usar o comando `sendEvent` e especificar o URI de superfície para buscar conteúdo de personalização.
 
    ```javascript
    alloy("sendEvent", {
@@ -52,9 +52,9 @@ Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs 
    }).then(applyPersonalization("#sample-json-content"));
    ```
 
-1. Os itens de experiência baseados em código devem ser aplicados manualmente pelo código de implementação (usando o [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} para atualizar o DOM com base na decisão.
+1. Os itens de experiência baseados em código devem ser aplicados manualmente pelo código de implementação (usando o método [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"}) para atualizar o DOM com base na decisão.
 
-1. Para campanhas de experiência baseadas em código, os eventos de exibição devem ser enviados manualmente para indicar quando o conteúdo foi exibido. Isso é feito por meio da `sendEvent` comando.
+1. Para campanhas de experiência baseadas em código, os eventos de exibição devem ser enviados manualmente para indicar quando o conteúdo foi exibido. Isso é feito por meio do comando `sendEvent`.
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -80,7 +80,7 @@ Se você tiver uma implementação no lado do cliente, poderá usar um dos SDKs 
    }
    ```
 
-1. Para campanhas de experiência baseadas em código, os eventos de interação devem ser enviados manualmente para indicar quando um usuário interagiu com o conteúdo. Isso é feito por meio da `sendEvent` comando.
+1. Para campanhas de experiência baseadas em código, os eventos de interação devem ser enviados manualmente para indicar quando um usuário interagiu com o conteúdo. Isso é feito por meio do comando `sendEvent`.
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -125,7 +125,7 @@ Os cookies são usados para manter a identidade do usuário e as informações d
 
 **Solicitar posicionamento**
 
-As solicitações para a API do Adobe Experience Platform são necessárias para obter apresentações e enviar uma notificação de exibição. Ao usar uma implementação no lado do cliente, o SDK da Web faz essas solicitações quando a variável `sendEvent` é usado.
+As solicitações para a API do Adobe Experience Platform são necessárias para obter apresentações e enviar uma notificação de exibição. Ao usar uma implementação no lado do cliente, o SDK da Web faz essas solicitações quando o comando `sendEvent` é usado.
 
 | Solicitação | Feito por |
 | ---------------------------------------------- | ----------------------------------- |
@@ -144,8 +144,8 @@ As etapas abaixo descrevem o processo de busca do conteúdo publicado na borda p
 
 ### Como funciona
 
-1. A página da Web é solicitada e todos os cookies armazenados anteriormente pelo navegador com o prefixo `kndctr_` estão incluídos.
-1. Quando a página é solicitada no servidor de aplicativos, um evento é enviado para o [ponto de extremidade de coleção de dados interativa](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) para buscar conteúdo de personalização. Este aplicativo de amostra usa alguns métodos auxiliares para simplificar a criação e o envio de solicitações para a API (consulte [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Mas o pedido é simplesmente um `POST` com uma carga que contém um evento e uma consulta. Os cookies (se disponíveis) da etapa anterior estão incluídos com a solicitação na `meta>state>entries` matriz.
+1. A página da Web é solicitada e todos os cookies armazenados anteriormente pelo navegador com o prefixo `kndctr_` são incluídos.
+1. Quando a página é solicitada no servidor de aplicativos, um evento é enviado ao [ponto de extremidade de coleta de dados interativa](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) para buscar conteúdo de personalização. Este aplicativo de exemplo usa alguns métodos auxiliares para simplificar a compilação e o envio de solicitações para a API (consulte [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Mas a solicitação é simplesmente uma `POST` com uma carga que contém um evento e uma consulta. Os cookies (se disponíveis) da etapa anterior estão incluídos com a solicitação na matriz `meta>state>entries`.
 
    ```javascript
    fetch(
@@ -289,7 +289,7 @@ Os cookies são usados para manter a identidade do usuário e as informações d
 
 **Solicitar posicionamento**
 
-As solicitações para a API do Adobe Experience Platform são necessárias para obter apresentações e enviar uma notificação de exibição. Ao usar uma implementação no lado do cliente, o SDK da Web faz essas solicitações quando a variável `sendEvent` é usado.
+As solicitações para a API do Adobe Experience Platform são necessárias para obter apresentações e enviar uma notificação de exibição. Ao usar uma implementação no lado do cliente, o SDK da Web faz essas solicitações quando o comando `sendEvent` é usado.
 
 | Solicitação | Feito por |
 | ---------------------------------------------- | ------------------------------------------------------------ |
@@ -304,5 +304,5 @@ As solicitações para a API do Adobe Experience Platform são necessárias para
 
 Se você tiver uma implementação híbrida, verifique os links abaixo.
 
-* Blog da Adobe Tech: [Personalização híbrida no SDK da Web do Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* Documentação do SDK: [Personalização híbrida usando o SDK da Web e a API do servidor do Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* Blog da Adobe Tech: [Personalization híbrido no SDK da Web da Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
+* Documentação do SDK: [Personalização híbrida usando o SDK da Web e a API do servidor Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}

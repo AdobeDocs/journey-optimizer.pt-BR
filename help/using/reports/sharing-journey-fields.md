@@ -17,12 +17,12 @@ ht-degree: 10%
 
 # Campos de jornada {#sharing-journey-fields}
 
-Este grupo de campos é usado no **jornada** esquema (em relação a **journeyStepEvent**). Ele contém os campos listados abaixo.
+Este grupo de campos é usado no esquema **jornada** (em relação a **journeyStepEvent**). Ele contém os campos listados abaixo.
 
 
 >[!NOTE]
 >
->Saiba mais sobre os atributos de propriedades do jornada [nesta seção](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Saiba mais sobre os atributos de propriedades de jornada [nesta seção](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 
 ## journeyID {#journeyid-field}

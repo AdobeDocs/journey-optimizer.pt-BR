@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -18,22 +18,22 @@ ht-degree: 4%
 
 Você pode testar a renderização de alguns de seus modelos de email, sejam eles criados do zero ou de um conteúdo existente. Para isso, siga as etapas abaixo.
 
-1. Acesse a lista de templates de conteúdo por meio da **[!UICONTROL Gestão de conteúdo]** > **[!UICONTROL Modelos de conteúdo]** e selecione qualquer template de email.
+1. Acesse a lista de modelos de conteúdo por meio do menu **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Modelos de Conteúdo]** e selecione qualquer modelo de email.
 
-1. Clique em **[!UICONTROL Editar conteúdo]** do **[!UICONTROL Propriedades do modelo]**.
+1. Clique em **[!UICONTROL Editar conteúdo]** das **[!UICONTROL Propriedades do modelo]**.
 
-1. Clique em **[!UICONTROL Simular conteúdo]** e selecione um perfil de teste para verificar a renderização. [Saiba mais](../content-management/preview-test.md)
+1. Clique em **[!UICONTROL Simular Conteúdo]** e selecione um perfil de teste para verificar sua renderização. [Saiba mais](../content-management/preview-test.md)
 
    ![](assets/content-template-stimulate.png)
 
 1. Você pode enviar uma prova para testar seu conteúdo e aprová-lo por alguns usuários internos antes de usá-lo em uma jornada ou campanha.
 
-   * Para fazer isso, clique no link **[!UICONTROL Enviar prova]** e siga as etapas descritas em [nesta seção](../content-management/proofs.md).
+   * Para fazer isso, clique no botão **[!UICONTROL Enviar prova]** e siga as etapas descritas em [esta seção](../content-management/proofs.md).
 
-   * Antes de enviar a prova, selecione a variável [superfície de email](../configuration/channel-surfaces.md) que serão usados para testar o conteúdo.
+   * Antes de enviar a prova, você deve selecionar a [superfície de email](../configuration/channel-surfaces.md) que será usada para testar seu conteúdo.
 
      ![](assets/content-template-stimulate-proof-surface.png)
 
 >[!CAUTION]
 >
->Atualmente, o rastreamento não é compatível ao testar modelos de conteúdo de email, o que significa que o rastreamento de eventos, parâmetros UTM e links de página de aterrissagem não será eficaz nas provas que estão sendo enviadas de um modelo. Para testar o rastreamento, [usar o modelo de conteúdo](../email/use-email-templates.md) em um email e [enviar uma prova](../content-management/preview-test.md#send-proofs).
+>Atualmente, o rastreamento não é compatível ao testar modelos de conteúdo de email, o que significa que o rastreamento de eventos, parâmetros UTM e links de página de aterrissagem não será eficaz nas provas que estão sendo enviadas de um modelo. Para testar o rastreamento, [use o modelo de conteúdo](../email/use-email-templates.md) em um email e [envie uma prova](../content-management/preview-test.md#send-proofs).

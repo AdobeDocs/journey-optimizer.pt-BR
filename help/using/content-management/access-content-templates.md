@@ -18,17 +18,17 @@ ht-degree: 7%
 
 ## Acessar modelos de conteúdo {#access}
 
-Para acessar a lista de modelos de conteúdo, selecione **[!UICONTROL Gestão de conteúdo]** > **[!UICONTROL Modelos de conteúdo]** no menu esquerdo.
+Para acessar a lista de modelos de conteúdo, selecione **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** no menu esquerdo.
 
 ![](assets/content-template-list.png)
 
-Todos os modelos criados na sandbox atual - de uma jornada ou campanha usando o **[!UICONTROL Salvar como modelo]** opção, seja a partir da variável **[!UICONTROL Modelos de conteúdo]** - são exibidos. [Saiba como criar modelos](#create-content-templates)
+Todos os modelos criados na sandbox atual - de uma jornada ou campanha usando a opção **[!UICONTROL Salvar como modelo]**, no menu **[!UICONTROL Modelos de conteúdo]** - são exibidos. [Saiba como criar modelos](#create-content-templates)
 
 Você pode classificar modelos de conteúdo por:
 * Tipo
 * Canal
 * Data de criação ou modificação
-* Tags - [Saiba mais sobre tags](../start/search-filter-categorize.md#tags)
+* Marcas - [Saiba mais sobre marcas](../start/search-filter-categorize.md#tags)
 
 Você também pode optar por exibir somente os itens que você mesmo criou ou modificou.
 
@@ -40,7 +40,7 @@ Você também pode optar por exibir somente os itens que você mesmo criou ou mo
 
   ![](assets/content-template-edit.png)
 
-* Para excluir um modelo, selecione a variável **[!UICONTROL Mais ações]** ao lado do modelo desejado e selecione **[!UICONTROL Excluir]**.
+* Para excluir um modelo, selecione o botão **[!UICONTROL Mais ações]** ao lado do modelo desejado e selecione **[!UICONTROL Excluir]**.
 
   ![](assets/content-template-list-delete.png)
 
@@ -50,7 +50,7 @@ Você também pode optar por exibir somente os itens que você mesmo criou ou mo
 
 ## Exibir modelos como miniaturas {#template-thumbnails}
 
-Selecione o **[!UICONTROL Exibição em grade]** para exibir cada modelo como uma miniatura.
+Selecione o modo de **[!UICONTROL exibição de grade]** para exibir cada modelo como uma miniatura.
 
 >[!AVAILABILITY]
 >

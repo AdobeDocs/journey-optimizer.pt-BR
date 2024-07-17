@@ -24,17 +24,17 @@ ht-degree: 16%
 
 Neste exemplo, criaremos um público-alvo para direcionar todos os clientes que moram em Atlanta, São Francisco ou Seattle e nasceram após 1980. Todos esses clientes devem ter aberto o aplicativo Luma nos últimos 7 dias e feito uma compra em 2 horas após a abertura do aplicativo.
 
-➡️ [Saiba como criar públicos-alvo neste vídeo](#video-segment)
+➡️ [Saiba como criar públicos neste vídeo](#video-segment)
 
-1. No **[!UICONTROL Públicos-alvo]** clique no botão **[!UICONTROL Criar público]** e selecione **[!UICONTROL Criar regra]**.
+1. No menu **[!UICONTROL Públicos-alvo]**, clique no botão **[!UICONTROL Criar público-alvo]** e selecione **[!UICONTROL Criar regra]**.
 
    ![](assets/create-segment.png)
 
-   A tela de definição de segmento permite configurar todos os campos necessários para definir seu público-alvo. Saiba como configurar públicos-alvo no [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR){target="_blank"}.
+   A tela de definição de segmento permite configurar todos os campos necessários para definir seu público-alvo. Saiba como configurar públicos na [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
-1. No **[!UICONTROL Propriedades do público]** forneça um nome e uma descrição (opcional) para o público-alvo.
+1. No painel **[!UICONTROL Propriedades de público-alvo]**, forneça um nome e uma descrição (opcional) para o público-alvo.
 
    ![](assets/segment-properties.png)
 
@@ -42,11 +42,11 @@ Neste exemplo, criaremos um público-alvo para direcionar todos os clientes que 
 
    >[!NOTE]
    >
-   >Observe que os campos disponíveis no painel esquerdo variam dependendo de como a variável **Perfil individual XDM** e **XDM ExperienceEvent** esquemas foram configurados para sua organização.  Saiba mais na [Documentação do Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
+   >Observe que os campos disponíveis no painel esquerdo variam dependendo de como os esquemas do **Perfil individual XDM** e **XDM ExperienceEvent** foram configurados para sua organização.  Saiba mais na [documentação do Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
 
    ![](assets/drag-fields.png)
 
-   Neste exemplo, precisamos confiar em **Atributos** e **Eventos** campos para criar o público-alvo:
+   Neste exemplo, precisamos confiar nos campos **Atributos** e **Eventos** para criar o público-alvo:
 
    * **Atributos**: perfis que vivem em Atlanta, São Francisco ou Seattle nascidos após 1980
 
@@ -60,7 +60,7 @@ Neste exemplo, criaremos um público-alvo para direcionar todos os clientes que 
      >
      >A Adobe recomenda não usar eventos abertos e enviá-los com segmentação de transmissão. Em vez disso, use sinais reais de atividade do usuário, como cliques, compras ou dados de beacon. Para frequência ou lógica de supressão, use regras de negócios em vez de enviar eventos. [Saiba mais](about-audiences.md#open-and-send-event-guardrails)
 
-1. À medida que você adiciona e configura novos campos no espaço de trabalho, a variável **[!UICONTROL Propriedades do público]** O painel é atualizado automaticamente com informações sobre os perfis estimados pertencentes ao público-alvo.
+1. À medida que você adiciona e configura novos campos no espaço de trabalho, o painel **[!UICONTROL Propriedades de Público-alvo]** é atualizado automaticamente com informações sobre os perfis estimados pertencentes ao público-alvo.
 
    ![](assets/segment-estimate.png)
 

@@ -30,9 +30,9 @@ ht-degree: 18%
 
 Ao direcionar um perfil, vários endereços de email ou números de telefone podem estar disponíveis no banco de dados (endereço de email profissional, número de telefone pessoal etc.).
 
-Nesse caso, [!DNL Journey Optimizer] usos **[!UICONTROL Campos de execução]** para determinar qual endereço de email ou número de telefone usar no serviço de perfil em prioridade.
+Nesse caso, [!DNL Journey Optimizer] usa **[!UICONTROL Campos de execução]** para determinar qual endereço de email ou número de telefone usar do serviço de perfil em prioridade.
 
-Para verificar os campos que são usados por padrão, acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Geral]** > **[!UICONTROL Campos de execuções]** menu.
+Para verificar os campos que são usados como padrão, acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Geral]** > **[!UICONTROL Campos de execuções]**.
 
 ![](assets/primary-address-execution-fields.png)
 
@@ -46,7 +46,7 @@ Na maioria dos casos, você alterará um campo de execução globalmente e defin
 
 Para alterar os campos de execução globalmente no nível da sandbox, siga as etapas abaixo.
 
-1. Acesse o  **[!UICONTROL Canais]** > **[!UICONTROL Geral]** > **[!UICONTROL Campos de execuções]** menu.
+1. Acesse o menu **[!UICONTROL Canais]** > **[!UICONTROL Geral]** > **[!UICONTROL Campos de execuções]**.
 
 1. Clique em **[!UICONTROL Editar]** para alterar os valores padrão.
 
@@ -70,15 +70,15 @@ O campo de execução é atualizado e agora será usado como o endereço princip
 
 Somente para casos de uso específicos, é possível substituir o conjunto de campos de execução globalmente e definir um valor diferente no nível da jornada, especialmente para o canal de email.
 
-Ao adicionar uma **[!UICONTROL E-mail]** ação para um [jornada](../email/create-email.md#create-email-journey-campaign), o endereço de email principal é exibido nos parâmetros avançados do jornada.
+Ao adicionar uma ação de **[!UICONTROL Email]** a uma [jornada](../email/create-email.md#create-email-journey-campaign), o endereço de email principal é exibido nos parâmetros avançados de jornada.
 
-Em alguns contextos específicos, é possível substituir esse valor usando o **[!UICONTROL Habilitar substituição de parâmetro]** ícone à direita do **[!UICONTROL endereço]** campo.
+Em alguns contextos específicos, é possível substituir esse valor usando o ícone **[!UICONTROL Habilitar substituição de parâmetro]** à direita do campo **[!UICONTROL endereço]**.
 
 ![](assets/journey-enable-parameter-override.png)
 
 >[!CAUTION]
 >
->A substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, não é necessário alterar o endereço de email, pois o valor é definido como o endereço principal na variável **[!UICONTROL Campos de execução]** é o que deve ser usado.
+>A substituição de endereço de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, não é necessário alterar o endereço de email, pois o valor definido como o endereço principal nos **[!UICONTROL Campos de execução]** é o que deve ser usado.
 
 Substituir esse valor pode ser útil, por exemplo, para:
 

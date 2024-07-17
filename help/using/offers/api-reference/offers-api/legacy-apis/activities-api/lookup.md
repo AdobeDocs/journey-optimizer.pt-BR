@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Pesquisar uma decisão {#look-up-decision}
 
-Você pode pesquisar decisões específicas fazendo uma solicitação GET para a [!DNL Offer Library] API que inclui as decisões `@id` ou o nome da decisão no caminho da solicitação.
+Você pode pesquisar decisões específicas fazendo uma solicitação GET para a API [!DNL Offer Library] que inclui as decisões `@id` ou o nome da decisão no caminho da solicitação.
 
 **Formato da API**
 
@@ -28,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | O contêiner onde as decisões estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | Define o esquema associado às decisões. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | Uma string usada para corresponder ao `@id` propriedade das entidades. A string é exatamente igual. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:offer-activity:124527ab00b2ebbc` |
+| `id` | Uma cadeia de caracteres usada para corresponder à propriedade `@id` das entidades. A string é exatamente igual. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:offer-activity:124527ab00b2ebbc` |
 | `name` | Uma sequência de caracteres usada para corresponder à propriedade xdm:name das entidades. A string é exatamente igual, com maiúsculas e minúsculas, mas caracteres curinga podem ser usados. Os parâmetros &quot;id&quot; e &quot;name&quot; não podem ser usados juntos | `LBAR` |
 
 **Solicitação**
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes do posicionamento, incluindo informações sobre ID do container, ID da instância e, decisão exclusiva `@id`.
+Uma resposta bem-sucedida retorna os detalhes do posicionamento, incluindo informações sobre ID do contêiner, ID da instância e decisão exclusiva `@id`.
 
 ```json
 {

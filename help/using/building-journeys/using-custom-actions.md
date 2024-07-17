@@ -12,7 +12,7 @@ exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 16%
+ht-degree: 27%
 
 ---
 
@@ -32,13 +32,13 @@ No Journey Optimizer, você pode aplicar políticas de consentimento e governan�
 * [Governança de dados](../action/action-privacy.md).
 * [Consentimento](../action/consent.md).
 
-## Configuração de URL
+## Configurar o URL
 
-O painel de configuração do **Ação personalizada** Atividade mostra os parâmetros de configuração de URL e os parâmetros de autenticação configurados para a ação personalizada. Não é possível definir a parte estática do URL na jornada, mas na configuração global da ação personalizada. [Saiba mais](../action/about-custom-action-configuration.md).
+O painel de configuração da atividade **Ação personalizada** mostra os parâmetros de configuração de URL e os parâmetros de autenticação configurados para a ação personalizada. Não é possível definir a parte estática do URL na jornada, mas na configuração global da ação personalizada. [Saiba mais](../action/about-custom-action-configuration.md).
 
 ### Caminho dinâmico
 
-Se o URL incluir um caminho dinâmico, especifique o caminho na variável **[!UICONTROL Caminho]** campo.
+Se a URL incluir um caminho dinâmico, especifique o caminho no campo **[!UICONTROL Caminho]**.
 
 Para concatenar campos e cadeias de caracteres de texto sem formatação, use as funções String ou o sinal de adição (+) no editor de expressão avançado. Coloque cadeias de texto sem formatação entre aspas simples (&#39;) ou entre aspas duplas (&quot;). [Saiba mais](expression/expressionadvanced.md).
 
@@ -51,13 +51,13 @@ Esta tabela mostra um exemplo de configuração:
 
 O URL concatenado tem este formato:
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;id>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID>`/messages`
 
 ![](assets/journey-custom-action-url.png)
 
 ### Cabeçalhos e parâmetros de consulta {#headers}
 
-A variável **[!UICONTROL Configuração de URL]** mostra os campos de cabeçalho dinâmico e parâmetro de consulta, mas não os campos constantes. Os campos de parâmetro de cabeçalho e consulta dinâmicos são definidos como variáveis na tela de configuração de ação. [Saiba mais](../action/about-custom-action-configuration.md#url-configuration)
+A seção **[!UICONTROL Configuração de URL]** mostra os campos de cabeçalho dinâmico e parâmetro de consulta, mas não os campos constantes. Os campos de parâmetro de cabeçalho e consulta dinâmicos são definidos como variáveis na tela de configuração de ação. [Saiba mais](../action/about-custom-action-configuration.md#url-configuration)
 
 Para especificar o valor dos campos de cabeçalho dinâmico e parâmetro de consulta, clique dentro do campo ou no ícone de lápis e selecione o campo desejado.
 
@@ -65,7 +65,7 @@ Para especificar o valor dos campos de cabeçalho dinâmico e parâmetro de cons
 
 ## Parâmetros de ação
 
-No **[!UICONTROL Parâmetros de ação]** você verá os parâmetros de mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (por exemplo: eventos, fontes de dados), transmitir valores manualmente ou usar o editor de expressão avançado para casos de uso avançados. Casos de uso avançados podem ser manipulação de dados e outro uso de função. Consulte esta [página](expression/expressionadvanced.md).
+Na seção **[!UICONTROL Parâmetros de ação]**, você verá os parâmetros de mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (por exemplo: eventos, fontes de dados), transmitir valores manualmente ou usar o editor de expressão avançado para casos de uso avançados. Casos de uso avançados podem ser manipulação de dados e outro uso de função. Consulte esta [página](expression/expressionadvanced.md).
 
 **Tópicos relacionados**
 

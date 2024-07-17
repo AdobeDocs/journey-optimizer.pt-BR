@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -23,22 +23,22 @@ ht-degree: 17%
 >title="Atividade de mensagem"
 >abstract="O Journey Optimizer vem com recursos de mensagem incorporados. É possível simplesmente adicionar em sua jornada uma atividade de mensagem via push, texto (SMS/MMS), no aplicativo ou email e definir as configurações e o conteúdo. Em seguida, ela é executada e enviada no contexto da jornada."
 
-[!DNL Journey Optimizer] O vem com recursos de mensagem incorporados. Você pode simplesmente adicionar, em sua jornada, um push, um SMS/MMS, uma atividade de mensagem no aplicativo ou por email e definir configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada.
+[!DNL Journey Optimizer] vem com recursos de mensagem incorporados. Você pode simplesmente adicionar, em sua jornada, um push, um SMS/MMS, uma atividade de mensagem no aplicativo ou por email e definir configurações e conteúdo. Em seguida, ela é executada e enviada no contexto da jornada.
 
 Você também pode configurar ações específicas para enviar mensagens para você:
 
-* Se você estiver usando um sistema de terceiros para enviar mensagens, poderá criar uma ação personalizada. Saiba mais nesta página [seção](../action/action.md).
+* Se você estiver usando um sistema de terceiros para enviar mensagens, poderá criar uma ação personalizada. Saiba mais nesta [seção](../action/action.md).
 
 * Se estiver trabalhando com o Campaign e o Journey Optimizer, consulte estas seções:
 
-   * [[!DNL Journey Optimizer] e Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] e CAMPAIGN STANDARD](../action/acs-action.md)
+   * [[!DNL Journey Optimizer] e o Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
 
 Para adicionar uma mensagem em uma jornada, siga as etapas abaixo:
 
-1. Inicie sua jornada com um [Evento](general-events.md) ou um [Ler público-alvo](read-audience.md) atividade.
+1. Inicie sua jornada com uma atividade [Evento](general-events.md) ou [Ler público](read-audience.md).
 
-1. No **Ações** da paleta, arraste e solte uma **email**, um **No aplicativo**, um **SMS** ou um **Push** atividade na tela.
+1. Na seção **Ações** da paleta, arraste e solte na tela uma atividade de **email**, **No aplicativo**, **SMS** ou **Push**.
 
 1. Configure sua atividade. Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem nas seguintes páginas:
 
@@ -129,15 +129,15 @@ Essas informações são armazenadas com o perfil do usuário e são referenciad
 
 O que a Otimização de tempo de envio pode fazer? Como ele lida com novos perfis? Ele espalha o envio por uma janela de 12/6/24 horas?
 
-A Otimização de tempo de envio tenta prever o melhor momento para interagir com os clientes e otimizar as taxas de abertura/clique de emails. A pontuação está em um formato de `3*7*24` atributos para cada perfil. A variável `7*24` os atributos descrevem a classificação do melhor momento previsto para enviar emails para o recipient e o 3 é para otimizar a taxa de abertura de emails, a taxa de cliques de email e a taxa de abertura de push.
+A Otimização de tempo de envio tenta prever o melhor momento para interagir com os clientes e otimizar as taxas de abertura/clique de emails. A pontuação está em um formato de `3*7*24` atributos para cada perfil. Os atributos `7*24` descrevem a classificação do melhor momento previsto para enviar emails para o recipient e 3 são para otimizar a taxa de abertura de emails, a taxa de cliques de email e a taxa de abertura de push.
 
 Onde posso ver o tempo de envio esperado para cada perfil?
 
-Você pode ver a pontuação geral no **Perfis** interface. Para cada um dos três conjuntos de 168 pontuações, as posições vão de -83 a 84. Quanto maior a classificação, melhor o tempo foi escolhido para interagir com o recipient. Como é possível definir o início e a duração de uma jornada, a melhor classificação (84) pode não cair nessa janela de tempo. Nesse caso, recomendamos escolher uma hora com o valor de classificação mais alto.
+Você pode ver a pontuação geral na interface **Perfis**. Para cada um dos três conjuntos de 168 pontuações, as posições vão de -83 a 84. Quanto maior a classificação, melhor o tempo foi escolhido para interagir com o recipient. Como é possível definir o início e a duração de uma jornada, a melhor classificação (84) pode não cair nessa janela de tempo. Nesse caso, recomendamos escolher uma hora com o valor de classificação mais alto.
 
 Quais relatórios estão disponíveis?
 
-Acesse sua jornada, clique no link **Exibir relatório** no canto superior direito e selecione o botão **Jornada** à esquerda. [Leia mais](../reports/journey-global-report.md)
+Acesse sua jornada, clique no botão **Exibir relatório** na parte superior direita e selecione a guia **Jornada** à esquerda. [Leia mais](../reports/journey-global-report.md)
 
 Como os dados da Otimização de tempo de envio afetam a riqueza do perfil?
 
@@ -155,13 +155,13 @@ A Otimização de tempo de envio adiciona a pontuação/atributos a cada perfil,
 >title="Ativar otimização da hora de envio"
 >abstract="O padrão das mensagens por push é a opção de abertura, pois cliques não são aplicáveis para mensagens por push. Você também pode optar por agrupar as horas de envio usadas pelo sistema inserindo um valor para Enviar na próxima opção."
 
-Ative a Otimização de hora de envio em um email ou mensagem por push selecionando o **Otimização de tempo de envio** alterne entre os parâmetros da atividade.
+Habilite a Otimização de Tempo de Envio em um email ou mensagem por push selecionando a opção **Otimização de Tempo de Envio** nos parâmetros de atividade.
 
 ![](../building-journeys/assets/jo-message5.png)
 
 Para mensagens de email, escolha se deseja otimizar as aberturas de email ou click-throughs de email selecionando o botão de opção apropriado. As mensagens de push assumem o padrão da opção de aberturas, pois os cliques não se aplicam às mensagens de push.
 
-Você também pode optar por colocar entre colchetes os tempos de envio usados pelo sistema inserindo um valor para a variável **Enviar no próximo** opção. Se você escolher &quot;seis horas&quot; como o valor, [!DNL Journey Optimizer] O verificará cada perfil de usuário e escolherá o tempo de envio ideal dentro de seis horas a partir do tempo de execução da jornada.
+Você também pode optar por colocar entre colchetes os tempos de envio usados pelo sistema, inserindo um valor para a opção **Enviar na próxima**. Se você escolher &quot;seis horas&quot; como o valor, [!DNL Journey Optimizer] verificará cada perfil de usuário e escolherá o tempo de envio ideal dentro de seis horas a partir do tempo de execução da jornada.
 
 **O que acontece se o horário ideal estiver fora da janela?**
 

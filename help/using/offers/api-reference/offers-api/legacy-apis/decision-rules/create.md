@@ -19,7 +19,7 @@ As regras de decisão são restrições adicionadas a uma oferta personalizada e
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -72,7 +72,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a regra de decisão recém-criada, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua regra de decisão. Você pode usar sua regra de decisão exclusiva `@id` em um tutorial posterior para criar ofertas personalizadas.
+Uma resposta bem-sucedida retorna informações sobre a regra de decisão recém-criada, incluindo sua ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou excluir sua regra de decisão. Você pode usar sua regra de decisão exclusiva `@id` em um tutorial posterior para criar ofertas personalizadas.
 
 ```json
 {

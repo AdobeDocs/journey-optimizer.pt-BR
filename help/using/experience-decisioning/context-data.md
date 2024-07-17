@@ -22,23 +22,23 @@ Com o Experience Decisioning, você pode aproveitar todas as informações dispo
 >
 >Os dados de contexto são definidos no Adobe Experience Platform e enviados no momento de uma solicitação de decisão. Ela não inclui dados históricos.
 
-Para usar dados de contexto, primeiro é necessário definir os dados que deseja disponibilizar no Experience Decisioning. Depois de concluídos, esses dados se integram perfeitamente ao Experience Decisioning na **[!UICONTROL Dados de contexto]** guia disponível ao criar uma regra de decisão. Você também pode aproveitar os dados ao editar uma fórmula de classificação.
+Para usar dados de contexto, primeiro é necessário definir os dados que deseja disponibilizar no Experience Decisioning. Depois de concluídos, esses dados se integram perfeitamente ao Experience Decisioning na guia **[!UICONTROL Dados de contexto]** disponível ao criar uma regra de decisão. Você também pode aproveitar os dados ao editar uma fórmula de classificação.
 
 ![](assets/decision-rules-context.png)
 
 As etapas para alimentar o Experience Decisioning com dados do Adobe Experience Platform são as seguintes:
 
-1. Criar um **Esquema do evento de experiência**  no Adobe Experience Platform e em seus componentes **conjunto de dados**. [Saiba como criar esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. Crie um **esquema de Evento de Experiência** no Adobe Experience Platform e seu **conjunto de dados** associado. [Saiba como criar esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. Criar um novo fluxo de dados do Adobe Experience Platform:
 
-   1. Navegue até a **[!UICONTROL Datastreams]** e selecione **[!UICONTROL Nova sequência de dados]**.
+   1. Navegue até o menu **[!UICONTROL Datastreams]** e selecione **[!UICONTROL Novo Datastream]**.
 
-   1. No **[!UICONTROL Esquema de evento]** selecione o schema de Evento de experiência criado anteriormente e clique em **[!UICONTROL Salvar]**.
+   1. Na lista suspensa **[!UICONTROL Esquema de evento]**, selecione o esquema de Evento de experiência criado anteriormente e clique em **[!UICONTROL Salvar]**.
 
       ![](assets/decision-rule-context-datastream.png)
 
-   1. Clique em **[!UICONTROL Adicionar serviço]** e selecione &quot;Adobe Experience Platform&quot; como o serviço. No **[!UICONTROL Conjunto de dados do evento]** selecione o conjunto de dados de evento criado anteriormente e ative a variável **[!UICONTROL Adobe Journey Optimizer]** opção.
+   1. Clique em **[!UICONTROL Adicionar serviço]** e selecione &quot;Adobe Experience Platform&quot; como o serviço. Na lista suspensa **[!UICONTROL Conjunto de Dados do Evento]**, selecione o conjunto de dados do evento criado anteriormente e habilite a opção **[!UICONTROL Adobe Journey Optimizer]**.
 
       ![](assets/decision-rules-context-datastream-service.png)
 

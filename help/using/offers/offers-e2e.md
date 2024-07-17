@@ -21,7 +21,7 @@ Esta seção apresenta um exemplo completo para mostrar como configurar ofertas 
 
 As principais etapas para configurar ofertas, incluí-las em uma decisão e aproveitar essa decisão em um email estão listadas abaixo:
 
-1. Antes de criar ofertas, [definir seus componentes](#define-components)
+1. Antes de criar ofertas, [defina seus componentes](#define-components)
 
    * Criar inserções
    * Criar regras de decisão
@@ -39,7 +39,7 @@ As principais etapas para configurar ofertas, incluí-las em uma decisão e apro
 
 1. [Criar uma oferta substituta](#create-fallback)
 
-1. [Criar uma coleção](#create-collection) para incluir as ofertas personalizadas que você criou
+1. [Crie uma coleção](#create-collection) para incluir as ofertas personalizadas que você criou
 
 1. [Configurar a decisão](#configure-decision)
 
@@ -63,9 +63,9 @@ O processo geral de Gestão de decisões para usar ofertas em um email pode ser 
 
 Antes de começar a criar ofertas, você deve definir vários componentes que usará em suas ofertas.
 
-Você os encontrará na **[!UICONTROL Gerenciamento de decisão]** > **[!UICONTROL Menu Componentes]**.
+Você os encontrará no **[!UICONTROL menu Gerenciamento de decisões]** > **[!UICONTROL Componentes]**.
 
-1. Comece criando **disposições** para suas ofertas.
+1. Comece criando **posicionamentos** para suas ofertas.
 
    Você usará esses posicionamentos para definir onde a oferta resultante aparecerá ao definir sua decisão de oferta.
 
@@ -77,38 +77,38 @@ Você os encontrará na **[!UICONTROL Gerenciamento de decisão]** > **[!UICONTR
 
    ![](assets/offers-e2e-placements.png)
 
-   As etapas detalhadas para criar inserções estão descritas em [nesta seção](../../using/offers/offer-library/creating-placements.md).
+   As etapas detalhadas para criar posicionamentos estão descritas em [esta seção](../../using/offers/offer-library/creating-placements.md).
 
 1. Criar **regras de decisão**.
 
    As regras de decisão fornecerão a melhor oferta para um perfil no Adobe Experience Platform.
 
-   Configure duas regras simples usando o **[!UICONTROL Perfil individual XDM > Pessoa > Gênero]** atributo:
+   Configure duas regras simples usando o atributo **[!UICONTROL Perfil individual XDM > Pessoa > Gênero]**:
 
    * *Clientes do sexo feminino*
    * *Clientes do sexo masculino*
 
    ![](assets/offers-e2e-rules.png)
 
-   As etapas detalhadas para criar regras estão descritas em [nesta seção](../../using/offers/offer-library/creating-decision-rules.md).
+   As etapas detalhadas para criar regras estão descritas em [esta seção](../../using/offers/offer-library/creating-decision-rules.md).
 
-1. Você também pode criar um **qualificador de coleta**.
+1. Você também pode criar um **qualificador de coleção**.
 
    Você poderá associá-lo às suas ofertas e usar esse qualificador de coleção para agrupar suas ofertas em uma coleção.
 
-   Neste exemplo, crie a variável *Yoga* qualificador de coleta.
+   Neste exemplo, crie o qualificador de coleção *Yoga*.
 
    ![](assets/offers-e2e-tag.png)
 
-   As etapas detalhadas para criar qualificadores de coleta estão descritas em [nesta seção](../../using/offers/offer-library/creating-tags.md).
+   As etapas detalhadas para criar qualificadores de coleção estão descritas em [esta seção](../../using/offers/offer-library/creating-tags.md).
 
-1. Se quiser definir regras que determinarão qual oferta deve ser apresentada primeiro para uma determinada inserção (em vez de considerar as pontuações de prioridade das ofertas), crie um **fórmula de classificação**.
+1. Se quiser definir regras que determinem qual oferta deve ser apresentada primeiro para determinado posicionamento (em vez de considerar as pontuações de prioridade das ofertas), você poderá criar uma **fórmula de classificação**.
 
-   As etapas detalhadas para criar fórmulas de classificação estão descritas em [nesta seção](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula).
+   As etapas detalhadas para criar fórmulas de classificação estão descritas em [esta seção](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula).
 
    >[!NOTE]
    >
-   >Neste exemplo, usaremos somente as pontuações de prioridade. Saiba mais sobre [regras e restrições de elegibilidade](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
+   >Neste exemplo, usaremos somente as pontuações de prioridade. Saiba mais sobre [regras e restrições de qualificação](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
 
 ## Configurar ofertas {#configure-offers}
 
@@ -118,25 +118,25 @@ Agora você pode criar e configurar suas ofertas. Neste exemplo, você criará q
 
 1. Nesta oferta, crie três representações. Cada representação deve ser uma combinação de uma disposição criada anteriormente e um ativo:
 
-   * Um correspondente ao *Web - Imagem* inserção
-   * Um correspondente ao *Email - Imagem* inserção
-   * Um correspondente ao *Não digital - Texto* inserção
+   * Um correspondente ao posicionamento *Web - Imagem*
+   * Um correspondente ao posicionamento *Email - Imagem*
+   * Um correspondente ao posicionamento *Não digital - Texto*
 
    >[!NOTE]
    >
    >Uma oferta pode ser exibida em diferentes locais em uma mensagem para criar mais oportunidades para usar a oferta em diferentes contextos de posicionamento.
 
-   Saiba mais sobre representações em [nesta seção](../../using/offers/offer-library/creating-personalized-offers.md#representations).
+   Saiba mais sobre representações em [esta seção](../../using/offers/offer-library/creating-personalized-offers.md#representations).
 
-1. Selecione uma imagem apropriada para as duas primeiras disposições. Insira o texto personalizado para o *Não digital - Texto* colocação.
+1. Selecione uma imagem apropriada para as duas primeiras disposições. Digite um texto personalizado para o posicionamento *Não digital - Texto*.
 
    ![](assets/offers-e2e-representations.png)
 
-1. No **[!UICONTROL Elegibilidade da oferta]** , selecione **[!UICONTROL Por regra de decisão definida]** e arraste e solte a regra de sua escolha.
+1. Na seção **[!UICONTROL Qualificação da oferta]**, selecione **[!UICONTROL Pela regra de decisão definida]** e arraste e solte a regra de sua escolha.
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. Preencha o **[!UICONTROL Prioridade]**. Neste exemplo, adicione *25*.
+1. Preencha a **[!UICONTROL Prioridade]**. Neste exemplo, adicione *25*.
 
 1. Revise sua oferta e clique em **[!UICONTROL Salvar e aprovar]**.
 
@@ -151,7 +151,7 @@ Agora você pode criar e configurar suas ofertas. Neste exemplo, você criará q
 
    ![](assets/offers-e2e-offers-created.png)
 
-As etapas detalhadas para criar e configurar ofertas estão descritas em [nesta seção](../../using/offers/offer-library/creating-personalized-offers.md).
+As etapas detalhadas para criar e configurar ofertas estão descritas em [esta seção](../../using/offers/offer-library/creating-personalized-offers.md).
 
 ## Criar uma oferta substituta {#create-fallback}
 
@@ -161,9 +161,9 @@ As etapas detalhadas para criar e configurar ofertas estão descritas em [nesta 
 
    Cada representação deve ser uma combinação de uma disposição criada anteriormente e um ativo:
 
-   * Um correspondente ao *Web - Imagem* inserção
-   * Um correspondente ao *Email - Imagem* inserção
-   * Um correspondente ao *Não digital - Texto* inserção
+   * Um correspondente ao posicionamento *Web - Imagem*
+   * Um correspondente ao posicionamento *Email - Imagem*
+   * Um correspondente ao posicionamento *Não digital - Texto*
 
    ![](assets/offers-e2e-fallback-representations.png)
 
@@ -173,7 +173,7 @@ As etapas detalhadas para criar e configurar ofertas estão descritas em [nesta 
 
 Sua oferta substituta agora está pronta para ser usada em uma decisão.
 
-As etapas detalhadas para criar e configurar uma oferta substituta estão descritas em [nesta seção](../../using/offers/offer-library/creating-fallback-offers.md).
+As etapas detalhadas para criar e configurar uma oferta substituta estão descritas em [esta seção](../../using/offers/offer-library/creating-fallback-offers.md).
 
 ## Criar uma coleção {#create-collection}
 
@@ -181,11 +181,11 @@ Ao configurar a decisão, será necessário adicionar suas ofertas personalizada
 
 1. Para acelerar o processo de decisão, crie uma coleção dinâmica.
 
-1. Use o *Yoga* qualificador de coleção para selecionar as quatro ofertas personalizadas criadas anteriormente.
+1. Use o qualificador de coleção *Yoga* para selecionar as quatro ofertas personalizadas que você criou anteriormente.
 
    ![](assets/offers-e2e-collection-using-tag.png)
 
-As etapas detalhadas para criar uma coleção estão descritas em [nesta seção](../../using/offers/offer-library/creating-collections.md).
+As etapas detalhadas para criar uma coleção estão descritas em [esta seção](../../using/offers/offer-library/creating-collections.md).
 
 ## Configurar a decisão {#configure-decision}
 
@@ -197,7 +197,7 @@ Para criar e configurar uma decisão de oferta, siga as etapas principais abaixo
 
 1. Crie uma decisão. Saiba mais [nesta seção](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
 
-1. Selecione o *Web - Imagem*, *Email - Imagem* e *Não digital - Texto* posicionamentos.
+1. Selecione os posicionamentos *Web - Imagem*, *Email - Imagem* e *Não digital - Texto*.
 
    ![](assets/offers-e2e-decision-placements.png)
 
@@ -205,9 +205,9 @@ Para criar e configurar uma decisão de oferta, siga as etapas principais abaixo
 
    ![](assets/offers-e2e-decision-collection.png)
 
-1. Se você definiu uma classificação ao [criação de componentes](#define-components), é possível atribuí-lo a um posicionamento na decisão. Se várias ofertas estiverem qualificadas para serem apresentadas neste posicionamento, a decisão usará essa fórmula para calcular qual oferta deve ser entregue primeiro.
+1. Se você definiu uma classificação ao [criar seus componentes](#define-components), poderá atribuí-la a um posicionamento na decisão. Se várias ofertas estiverem qualificadas para serem apresentadas neste posicionamento, a decisão usará essa fórmula para calcular qual oferta deve ser entregue primeiro.
 
-   As etapas detalhadas para atribuir uma fórmula de classificação a uma disposição são descritas em [nesta seção](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
+   As etapas detalhadas para atribuir uma fórmula de classificação a um posicionamento estão descritas em [esta seção](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
 
 1. Selecione a oferta substituta que você criou. Ele será exibido como uma oferta substituta disponível para os três posicionamentos selecionados.
 
@@ -219,7 +219,7 @@ Para criar e configurar uma decisão de oferta, siga as etapas principais abaixo
 
 Sua decisão agora está pronta para ser usada para fornecer ofertas otimizadas e personalizadas.
 
-As etapas detalhadas para criar e configurar uma decisão estão descritas em [nesta seção](../../using/offers/offer-activities/create-offer-activities.md).
+As etapas detalhadas para criar e configurar uma decisão estão descritas em [esta seção](../../using/offers/offer-activities/create-offer-activities.md).
 
 ## Inserir a decisão em um email {#insert-decision-in-email}
 

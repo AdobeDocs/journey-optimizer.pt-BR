@@ -15,11 +15,11 @@ ht-degree: 13%
 
 # Criar um qualificador de coleção {#create-tag}
 
-Você pode criar um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;) fazendo uma solicitação POST para o [!DNL Offer Library] ao fornecer a ID do contêiner.
+Você pode criar um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;) fazendo uma solicitação POST para a API [!DNL Offer Library] e, ao mesmo tempo, fornecendo sua ID de contêiner.
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -55,7 +55,7 @@ curl -X POST \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre o qualificador de coleção recém-criado, incluindo a ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou deletar o qualificador de coleta. Você pode usar seu qualificador de coleta exclusivo `@id` em tutoriais posteriores, para criar coleções e ofertas personalizadas.
+Uma resposta bem-sucedida retorna informações sobre o qualificador de coleção recém-criado, incluindo sua ID de instância exclusiva e o posicionamento `@id`. Você pode usar a ID da instância em etapas posteriores para atualizar ou deletar o qualificador de coleta. Você pode usar seu qualificador de coleção exclusivo `@id` em tutoriais posteriores para criar coleções e ofertas personalizadas.
 
 ```json
 {

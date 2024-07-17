@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '766'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 9%
 
 Antes de criar uma oferta, verifique se você criou:
 
-* A **inserção** na qual a oferta será exibida. Consulte [Criar posicionamentos](../offer-library/creating-placements.md)
-* Se quiser adicionar uma condição de qualificação: uma **regra de decisão** que definirá a condição sob a qual a oferta será apresentada. Consulte [Criar regras de decisão](../offer-library/creating-decision-rules.md).
-* Um ou vários **qualificadores de coleção** (anteriormente conhecido como &quot;tags&quot;) que você pode desejar associar à oferta. Consulte [Criar qualificadores de coleção](../offer-library/creating-tags.md).
+* Um **posicionamento** no qual a oferta será exibida. Consulte [Criar inserções](../offer-library/creating-placements.md)
+* Se você quiser adicionar uma condição de qualificação: uma **regra de decisão** que definirá a condição sob a qual a oferta será apresentada. Consulte [Criar regras de decisão](../offer-library/creating-decision-rules.md).
+* Um ou vários **qualificadores de coleção** (anteriormente conhecidos como &quot;tags&quot;) que você pode associar à oferta. Consulte [Criar qualificadores de coleção](../offer-library/creating-tags.md).
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-A lista de ofertas personalizadas pode ser acessada na **[!UICONTROL Ofertas]** menu.
+A lista de ofertas personalizadas está acessível no menu **[!UICONTROL Ofertas]**.
 
 ![](../assets/offers_list.png)
 
@@ -57,11 +57,11 @@ Para criar uma **oferta**, siga estas etapas:
    >
    >A atualização das datas de início/término pode afetar o limite. [Saiba mais](add-constraints.md#capping-change-date)
 
-1. Você também pode associar um ou vários existentes **[!UICONTROL qualificadores de coleção]** à oferta, permitindo pesquisar e organizar a Biblioteca de ofertas com mais facilidade. [Saiba mais](creating-tags.md).
+1. Você também pode associar um ou vários **[!UICONTROL qualificadores de coleção]** existentes à oferta, permitindo pesquisar e organizar a Biblioteca de Ofertas com mais facilidade. [Saiba mais](creating-tags.md).
 
-1. A variável **[!UICONTROL Atributos da oferta]** permite associar pares de valor-chave à oferta para fins de relatório e análise.
+1. A seção **[!UICONTROL Atributos da oferta]** permite associar pares de valores chave à oferta para fins de relatório e análise.
 
-1. Para atribuir rótulos de uso de dados personalizados ou principais à oferta, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Object Level Access Control)](../../administration/object-based-access.md)
+1. Para atribuir rótulos de uso de dados personalizados ou principais à oferta, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../../administration/object-based-access.md)
 
    ![](../assets/offer_manage-access.png)
 
@@ -77,7 +77,7 @@ Para criar uma **oferta**, siga estas etapas:
 
    >[!NOTE]
    >
-   >Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
+   >Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar os dados.
    >
    >Observe que as estimativas de perfil não estão disponíveis quando os parâmetros da regra incluem dados que não estão no perfil, como dados de contexto. Por exemplo, uma regra de elegibilidade que exige que o tempo atual seja ≥ 80 graus.
 
@@ -91,19 +91,19 @@ Depois que as regras de elegibilidade e as restrições forem definidas, um resu
 
 1. Verifique se tudo está configurado corretamente.
 
-1. Você pode exibir informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
+1. Você pode exibir informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar os dados.
 
    ![](../assets/offer-summary-estimate.png)
 
 1. Quando sua oferta estiver pronta para ser apresentada aos usuários, clique em **[!UICONTROL Concluir]**.
 
-1. Selecionar **[!UICONTROL Salvar e aprovar]**.
+1. Selecione **[!UICONTROL Salvar e aprovar]**.
 
    ![](../assets/offer_review.png)
 
    Também é possível salvar a oferta como rascunho para editá-la e aprová-la posteriormente.
 
-A oferta é exibida na lista com a variável **[!UICONTROL Aprovado]** ou **[!UICONTROL Rascunho]** Status, dependendo se você o aprovou ou não na etapa anterior.
+A oferta é exibida na lista com o status **[!UICONTROL Aprovado]** ou **[!UICONTROL Rascunho]**, dependendo se você a aprovou ou não na etapa anterior.
 
 Agora ele está pronto para ser entregue aos usuários.
 
@@ -111,11 +111,11 @@ Agora ele está pronto para ser entregue aos usuários.
 
 ## Gerenciar ofertas {#offer-list}
 
-Na lista de ofertas, você pode selecionar a oferta para exibir suas propriedades. Você também pode editá-la, alterar seu status (**Rascunho**, **Aprovado**, **Arquivado**), duplique a oferta ou exclua.
+Na lista de ofertas, você pode selecionar a oferta para exibir suas propriedades. Você também pode editá-la, alterar seu status (**Rascunho**, **Aprovado**, **Arquivado**), duplicar a oferta ou excluí-la.
 
 ![](../assets/offer_created.png)
 
-Selecione o **[!UICONTROL Editar]** botão para voltar para o modo de edição de oferta, no qual você pode modificar a [detalhes](#create-offer), [representações](#representations), bem como editar as [regras e restrições de elegibilidade](#eligibility).
+Selecione o botão **[!UICONTROL Editar]** para voltar para o modo de edição de oferta, no qual você pode modificar os [detalhes](#create-offer), [representações](#representations) da oferta, bem como editar as [regras de qualificação e restrições](#eligibility).
 
 Selecione uma oferta aprovada e clique em **[!UICONTROL Desfazer aprovação]** para retornar o status da oferta para **[!UICONTROL Rascunho]**.
 
@@ -123,11 +123,11 @@ Para definir novamente o status como **[!UICONTROL Aprovado]**, selecione o bot�
 
 ![](../assets/offer_approve.png)
 
-A variável **[!UICONTROL Mais ações]** permite as ações descritas abaixo.
+O botão **[!UICONTROL Mais ações]** habilita as ações descritas abaixo.
 
 ![](../assets/offer_more-actions.png)
 
-* **[!UICONTROL Duplicar]**: cria uma oferta com as mesmas propriedades, representações, regras de elegibilidade e restrições. Por padrão, a nova oferta tem a variável **[!UICONTROL Rascunho]** status.
+* **[!UICONTROL Duplicar]**: cria uma oferta com as mesmas propriedades, representações, regras de qualificação e restrições. Por padrão, a nova oferta tem o status **[!UICONTROL Rascunho]**.
 * **[!UICONTROL Excluir]**: remove a oferta da lista.
 
   >[!CAUTION]
@@ -136,7 +136,7 @@ A variável **[!UICONTROL Mais ações]** permite as ações descritas abaixo.
   >
   >Se a oferta for usada em uma coleção ou em uma decisão, ela não poderá ser excluída. Você deve remover a oferta de qualquer objeto primeiro.
 
-* **[!UICONTROL Arquivar]**: define o status da oferta como **[!UICONTROL Arquivado]**. A oferta ainda está disponível na lista, mas você não pode definir seu status novamente como **[!UICONTROL Rascunho]** ou **[!UICONTROL Aprovado]**. Você só pode duplicá-la ou excluí-la.
+* **[!UICONTROL Arquivar]**: define o status da oferta como **[!UICONTROL Arquivado]**. A oferta ainda está disponível na lista, mas não é possível definir seu status novamente como **[!UICONTROL Rascunho]** ou **[!UICONTROL Aprovado]**. Você só pode duplicá-la ou excluí-la.
 
 Também é possível excluir ou alterar o status de várias ofertas ao mesmo tempo marcando as caixas de seleção correspondentes.
 
@@ -150,7 +150,7 @@ Depois que uma oferta é criada, você pode clicar no nome na lista.
 
 ![](../assets/offer_click-name.png)
 
-Isso permite que você acesse informações detalhadas dessa oferta. Selecione o **[!UICONTROL Log de alterações]** guia para [monitorar todas as alterações](../get-started/user-interface.md#monitoring-changes) que foram feitas na oferta.
+Isso permite que você acesse informações detalhadas dessa oferta. Selecione a guia **[!UICONTROL Log de alterações]** para [monitorar todas as alterações](../get-started/user-interface.md#monitoring-changes) feitas na oferta.
 
 ![](../assets/offer_information.png)
 

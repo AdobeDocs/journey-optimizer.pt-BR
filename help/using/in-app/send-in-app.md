@@ -10,7 +10,7 @@ exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -26,9 +26,9 @@ Para fazer isso, siga as etapas abaixo:
 
    ![](assets/in_app_create_6.png)
 
-1. No **[!UICONTROL Conectar ao dispositivo]** clique em **[!UICONTROL Início]**.
+1. Na janela **[!UICONTROL Conectar ao dispositivo]**, clique em **[!UICONTROL Iniciar]**.
 
-1. Insira o **[!UICONTROL URL base]** do aplicativo e clique em **[!UICONTROL Próxima]**.
+1. Insira a **[!UICONTROL URL Base]** do seu aplicativo e clique em **[!UICONTROL Avançar]**.
 
    ![](assets/in_app_create_7.png)
 
@@ -40,9 +40,9 @@ A mensagem no aplicativo agora pode ser acionada diretamente no dispositivo, per
 
 Depois que a mensagem no aplicativo for definida, você poderá usar perfis de teste para visualizá-la. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem, usando os dados do perfil de teste.
 
-Para fazer isso, clique em **[!UICONTROL Simular conteúdo]** em seguida, adicione um perfil de teste para verificar sua mensagem usando os dados do perfil de teste.
+Para fazer isso, clique em **[!UICONTROL Simular conteúdo]** e adicione um perfil de teste para verificar sua mensagem usando os dados do perfil de teste.
 
-Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na [Gestão de conteúdo](../content-management/preview-test.md) seção.
+Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na seção [Gerenciamento de conteúdo](../content-management/preview-test.md).
 
 ## Revisar e ativar a notificação no aplicativo{#in-app-review}
 
@@ -50,7 +50,7 @@ Depois que a mensagem no aplicativo for criada e o conteúdo definido e personal
 
 Para fazer isso, siga as etapas abaixo:
 
-1. Use o **[!UICONTROL Revisar para ativar]** botão para exibir um resumo da mensagem.
+1. Use o botão **[!UICONTROL Revisar para ativar]** para exibir um resumo da sua mensagem.
 
    O resumo permite modificar a campanha, se necessário, e verificar se algum parâmetro está incorreto ou ausente.
 
@@ -60,7 +60,7 @@ Para fazer isso, siga as etapas abaixo:
 
 Sua campanha agora está ativada. A notificação no aplicativo configurada na campanha é enviada imediatamente ou na data especificada.
 
-Depois de enviado, você pode medir o impacto das mensagens no aplicativo nos relatórios do Campaign ou do Jornada. Para obter mais informações sobre relatórios, consulte [nesta seção](../reports/campaign-global-report.md#inapp-report).
+Depois de enviado, você pode medir o impacto das mensagens no aplicativo nos relatórios do Campaign ou do Jornada. Para obter mais informações sobre relatórios, consulte [esta seção](../reports/campaign-global-report.md#inapp-report).
 
 **Tópicos relacionados:**
 

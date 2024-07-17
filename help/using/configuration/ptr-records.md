@@ -12,7 +12,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -36,7 +36,7 @@ Com os registros PTR, os servidores de email de recebimento podem verificar a au
 
 ## Acessar os registros PTR de subdomínios {#access-ptr-records}
 
-Uma vez que [delegar](delegate-subdomain.md) seu primeiro subdomínio para o Adobe em [!DNL Journey Optimizer], os registros PTR são criados automaticamente para seus IPs. Você pode acessá-las no **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** > **[!UICONTROL Registros PTR]** menu.
+Depois de [delegar](delegate-subdomain.md) seu primeiro subdomínio para Adobe em [!DNL Journey Optimizer], os registros PTR são criados automaticamente para seus IPs. Você pode acessá-los no menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** > **[!UICONTROL Registros PTR]**.
 
 ![](assets/ptr-records.png)
 
@@ -50,9 +50,9 @@ A lista mostra os registros PTR gerados usando a sintaxe abaixo:
 
 ## Editar um registro PTR {#edit-ptr-record}
 
-Entrada [!DNL Journey Optimizer], não é possível criar registros PTR manualmente. Em vez disso, uma vez que [delegar](delegate-subdomain.md) Seu primeiro subdomínio para Adobe, os registros PTR são criados automaticamente para seus IPs.
+Em [!DNL Journey Optimizer], não é possível criar registros PTR manualmente. Em vez disso, depois de [delegar](delegate-subdomain.md) seu primeiro subdomínio ao Adobe, os registros PTR são criados automaticamente para seus IPs.
 
-Cada um dos IPs recebe um único registro PTR. Todos os registros PTR têm o seguinte formato: &quot;rxx.subdomain&quot;, em que &quot;subdomain&quot; é o primeiro subdomínio que você delegou em [!DNL Journey Optimizer].
+Cada um dos IPs recebe um único registro PTR. Todos os registros PTR têm o seguinte formato: &#39;rxx.subdomain&#39;, onde &#39;subdomain&#39; é o primeiro subdomínio que você delegou em [!DNL Journey Optimizer].
 
 Ao criar subdomínios adicionais, você precisa modificar um ou mais registros PTR e atribuir esses novos subdomínios a eles. Para isso, siga as etapas abaixo.
 
@@ -60,17 +60,17 @@ Ao criar subdomínios adicionais, você precisa modificar um ou mais registros P
 >
 >Os registros PTR são comuns a todos os ambientes. Portanto, qualquer modificação em um registro PTR também afetará as sandboxes de produção.
 >
->Continue com muito cuidado ao editar registros PTR. Em caso de dúvidas, entre em contato com um especialista em capacidade de delivery.
+>Continue com muito cuidado ao editar registros PTR. Em caso de dúvidas, entre em contato com um especialista em capacidade de entrega.
 
 ### Subdomínios totalmente delegados {#fully-delegated-subdomains}
 
-Para editar um registro PTR com um subdomínio que esteja [totalmente delegado](delegate-subdomain.md#full-subdomain-delegation) para Adobe, siga as etapas abaixo.
+Para editar um registro PTR com um subdomínio que esteja [totalmente delegado](delegate-subdomain.md#full-subdomain-delegation) no Adobe, siga as etapas abaixo.
 
 1. Na lista, clique em um nome de registro PTR para abri-lo.
 
    ![](assets/ptr-record-select.png)
 
-1. Selecionar um subdomínio [totalmente delegado](delegate-subdomain.md#full-subdomain-delegation) para Adobe da lista.
+1. Selecione um subdomínio [totalmente delegado](delegate-subdomain.md#full-subdomain-delegation) para o Adobe na lista.
 
    ![](assets/ptr-record-subdomain.png)
 
@@ -78,11 +78,11 @@ Para editar um registro PTR com um subdomínio que esteja [totalmente delegado](
 
 >[!NOTE]
 >
->Não é possível modificar a variável **[!UICONTROL IP]** e **[!UICONTROL Registro PTR]** campos.
+>Você não pode modificar os campos **[!UICONTROL IP]** e **[!UICONTROL PTR]**.
 
 ### Subdomínios delegados usando o método CNAME {#edit-ptr-subdomains-cname}
 
-Para editar um registro PTR com um subdomínio que é delegado a Adobe usando o [método CNAME](delegate-subdomain.md#cname-subdomain-delegation), siga as etapas abaixo.
+Para editar um registro PTR com um subdomínio que esteja delegado ao Adobe usando o [método CNAME](delegate-subdomain.md#cname-subdomain-delegation), siga as etapas abaixo.
 
 1. Na lista, clique em um nome de registro PTR para abri-lo.
 
@@ -106,19 +106,19 @@ Para editar um registro PTR com um subdomínio que é delegado a Adobe usando o 
 
 >[!NOTE]
 >
->Não é possível modificar a variável **[!UICONTROL IP]** e **[!UICONTROL Registro PTR]** campos.
+>Você não pode modificar os campos **[!UICONTROL IP]** e **[!UICONTROL PTR]**.
 
 ## Verificar detalhes de atualização do registro PTR {#check-ptr-record-update}
 
-Depois de confirmar a edição do registro PTR, a variável **[!UICONTROL Processando]** O ícone é exibido ao lado do nome do registro PTR na lista.
+Depois de confirmar a edição do registro PTR, o ícone **[!UICONTROL Processando]** será exibido ao lado do nome do registro PTR na lista.
 
 ![](assets/ptr-record-updating.png)
 
 >[!NOTE]
 >
->A variável [processamento de atualização](#processing) O pode levar até 3 horas.
+>O [processamento de atualização](#processing) pode levar até 3 horas.
 
-Para verificar os detalhes de atualização do registro PTR, clique no ícone ao lado dele. Saiba mais sobre os status associados aos diferentes ícones no [nesta seção](#ptr-record-update-statuses).
+Para verificar os detalhes de atualização do registro PTR, clique no ícone ao lado dele. Saiba mais sobre os status associados aos diferentes ícones em [esta seção](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 
@@ -132,7 +132,7 @@ Uma atualização de registro PTR pode ter os seguintes status:
 
 * ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processando]**: a atualização do registro PTR foi enviada e está passando por um processo de verificação.
 * ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Sucesso]**: o registro PTR atualizado foi verificado e o novo subdomínio agora está associado ao endereço IP.
-* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: uma ou várias verificações falharam durante a verificação de atualização do registro PTR.
+* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Falha]**: uma ou várias verificações falharam durante a verificação de atualização do registro PTR.
 
 ### Processamento {#processing}
 
@@ -140,7 +140,7 @@ Várias verificações de entrega serão realizadas para verificar se o novo sub
 
 >[!NOTE]
 >
->Não é possível modificar um registro PTR enquanto a atualização estiver em andamento. Você ainda pode clicar no nome, mas a variável **[!UICONTROL Subdomínio]** está esmaecido. As alterações não serão refletidas até que a atualização seja bem-sucedida.
+>Não é possível modificar um registro PTR enquanto a atualização estiver em andamento. Você ainda pode clicar no nome, mas o campo **[!UICONTROL Subdomínio]** está esmaecido. As alterações não serão refletidas até que a atualização seja bem-sucedida.
 
 Durante o processo de validação, o subdomínio antigo ainda é associado ao endereço IP.
 
@@ -148,7 +148,7 @@ Durante o processo de validação, o subdomínio antigo ainda é associado ao en
 
 Depois que o processo de validação for bem-sucedido, o novo subdomínio será associado automaticamente ao endereço IP.
 
-### Falha {#failes}
+### Com falha {#failes}
 
 Se o processo de validação falhar, o registro PTR mais antigo será exibido. O subdomínio válido que foi associado anteriormente ao endereço IP permanece inalterado.
 

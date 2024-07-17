@@ -20,19 +20,19 @@ ht-degree: 2%
 
 Nesta página, você encontrará a lista de conjuntos de dados do Adobe Journey Optimizer e casos de uso relacionados:
 
-[Conjunto de dados de evento de experiência de rastreamento de email](#email-tracking-experience-event-dataset)
-[Conjunto de dados do evento de feedback da mensagem](#message-feedback-event-dataset)
-[Conjunto de dados do evento de experiência de rastreamento de push](#push-tracking-experience-event-dataset)
-[Jornada evento de etapa](#journey-step-event)
-[Conjunto de dados de evento de decisão](#ode-decisionevents)
-[Conjunto de dados do evento de feedback CCO](#bcc-feedback-event-dataset)
+[Conjunto de Dados de Evento de Experiência de Acompanhamento de Email](#email-tracking-experience-event-dataset)
+[Conjunto de Dados de Evento de Feedback de Mensagens](#message-feedback-event-dataset)
+[Conjunto de Dados de Evento de Experiência de Rastreamento de Push](#push-tracking-experience-event-dataset)
+[Evento de etapa do Jornada](#journey-step-event)
+[Conjunto de Dados de Evento de Decisão](#ode-decisionevents)
+[Conjunto de Dados do Evento de Feedback Cco](#bcc-feedback-event-dataset)
 [Conjunto de dados da entidade](#entity-dataset)
 
 Para exibir a lista completa de campos e atributos para cada esquema, consulte o [Dicionário de esquema do Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR){target="_blank"}.
 
 ## Conjunto de dados de evento de experiência de rastreamento de email{#email-tracking-experience-event-dataset}
 
-_Nome na interface: conjunto de dados do evento de experiência de rastreamento de email do AJO_
+_Nome na interface: Conjunto de Dados de Evento de Experiência de Acompanhamento de Email do AJO_
 
 Conjunto de dados do sistema para assimilar eventos de experiência de rastreamento de email do Journey Optimizer.
 
@@ -72,7 +72,7 @@ limit 100;
 
 ## Conjunto de dados do evento de feedback da mensagem{#message-feedback-event-dataset}
 
-_Nome na interface: Conjunto de dados do evento de feedback de mensagem do AJO_
+_Nome na interface: Conjunto de Dados de Eventos de Feedback de Mensagens do AJO_
 
 Conjunto de dados para assimilar eventos de feedback de aplicativos de email e por push do Journey Optimizer.
 
@@ -164,13 +164,13 @@ WHERE
 ORDER BY timestamp DESC;
 ```
 
-em que o formato de datas é: `YYYY-MM-DD HH:MM:SS`.
+onde o formato de datas é: `YYYY-MM-DD HH:MM:SS`.
 
 Depois de identificados, remova esses endereços da lista de supressão do Journey Optimizer. [Saiba mais](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
 ## Conjunto de dados do evento de experiência de rastreamento de push {#push-tracking-experience-event-dataset}
 
-_Nome na interface: Conjunto de dados de evento de experiência de rastreamento de push do AJO_
+_Nome na interface: Conjunto de Dados de Evento de Experiência de Rastreamento por Push do AJO_
 
 Conjunto de dados para assimilar eventos de experiência de rastreamento móvel para push do Journey Optimizer.
 
@@ -188,7 +188,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 ## Jornada evento de etapa{#journey-step-event}
 
-_Nome interno: Jornada eventos de etapa (conjunto de dados do sistema)_
+_Nome interno: Eventos de Etapa de Jornada (conjunto de dados do sistema)_
 
 Conjunto de dados para assimilar eventos de etapa na jornada.
 
@@ -291,7 +291,7 @@ select value.marketing.email.val FROM (
 
 ## Conjunto de dados do evento de feedback CCO{#bcc-feedback-event-dataset}
 
-_Nome na interface: Conjunto de dados do evento de feedback Cco do AJO (conjunto de dados do sistema)_
+_Nome na interface: Conjunto de Dados de Eventos de Comentários Cco do AJO (conjunto de dados do sistema)_
 
 Conjunto de dados para armazenar informações de Mensagens CCO.
 
@@ -338,7 +338,7 @@ _Nome na interface: ajo_entity_dataset (conjunto de dados do sistema)_
 
 Conjunto de dados para armazenar metadados de entidade para mensagens enviadas ao usuário final.
 
-O esquema relacionado é o Esquema de entidade do AJO.
+O esquema relacionado é o Esquema de entidade AJO.
 
 Esse conjunto de dados oferece acesso aos metadados definidos pelo profissional de marketing, o que permite obter melhores insights de relatório quando os conjuntos de dados do Journey Optimizer são exportados para fora para visualização de relatórios em ferramentas externas. Isso é feito usando o atributo messageID, que ajuda a compilar vários conjuntos de dados, como o Conjunto de dados de feedback de mensagem e os Conjuntos de dados de rastreamento de evento de experiência, para obter detalhes de uma entrega de mensagem, desde o envio até o rastreamento em um nível de perfil.
 

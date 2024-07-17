@@ -18,22 +18,22 @@ ht-degree: 0%
 
 No Experience Decisioning, os catálogos servem como contêineres centrais para organizar itens de decisão. Cada catálogo está vinculado a um esquema do Adobe Experience Platform, abrangendo todos os atributos atribuíveis a um item de decisão.
 
-Por enquanto, todos os itens de decisão criados são consolidados em um único catálogo de &quot;Ofertas&quot;, acessível por meio do **[!UICONTROL Catálogos]** menu.
+Por enquanto, todos os itens de decisão criados são consolidados em um único catálogo &quot;Ofertas&quot;, acessível pelo menu **[!UICONTROL Catálogos]**.
 
 ![](assets/catalogs-list.png)
 
 Para acessar o schema do catálogo em que os atributos dos itens de decisão são armazenados, siga estas etapas:
 
-1. Na lista de itens, clique no botão **[!UICONTROL Editar esquema]** localizado ao lado do botão **[!UICONTROL Criar item]** botão.
+1. Na lista de itens, clique no botão **[!UICONTROL Editar esquema]** localizado ao lado do botão **[!UICONTROL Criar item]**.
 
 1. O schema do catálogo é aberto em uma nova guia, seguindo a estrutura abaixo:
 
-   * A variável **`_experience`** O nó inclui atributos de itens de decisão padrão, como nome, data inicial e final e descrição.
-   * A variável **`_<imsOrg>`** O nó armazena atributos de itens de decisão personalizados. Por padrão, nenhum atributo personalizado é configurado, mas você pode adicionar quantos forem necessários para atender aos seus requisitos. Depois de concluído, os atributos personalizados aparecem na tela de criação do item de decisão ao lado dos atributos padrão.
+   * O nó **`_experience`** inclui atributos de itens de decisão padrão, como nome, data inicial e final e descrição.
+   * O nó **`_<imsOrg>`** hospeda atributos de itens de decisão personalizados. Por padrão, nenhum atributo personalizado é configurado, mas você pode adicionar quantos forem necessários para atender aos seus requisitos. Depois de concluído, os atributos personalizados aparecem na tela de criação do item de decisão ao lado dos atributos padrão.
 
    ![](assets/catalogs-schema.png)
 
-1. Para adicionar um atributo personalizado ao esquema, expanda a **`_<imsOrg>`** e clique no botão &quot;+&quot; no local desejado na estrutura.
+1. Para adicionar um atributo personalizado ao esquema, expanda o nó **`_<imsOrg>`** e clique no botão &quot;+&quot; no local desejado na estrutura.
 
    ![](assets/catalogs-add.png)
 
@@ -45,6 +45,6 @@ Para acessar o schema do catálogo em que os atributos dos itens de decisão sã
 
    O valor inserido em um atributo com atributo de ativo de decisão é um url público. Na maioria das vezes, isso apontaria para uma imagem.
 
-   Informações detalhadas sobre como trabalhar com esquemas do Adobe Experience Platform estão disponíveis na [Documentação do sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR).
+   Informações detalhadas sobre como trabalhar com esquemas do Adobe Experience Platform estão disponíveis na [documentação do Sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR).
 
-1. Depois que os atributos personalizados desejados forem adicionados, salve o esquema. O novo campo agora está disponível na tela de criação de decisões de item, no **[!UICONTROL Atributos personalizados]** seção.
+1. Depois que os atributos personalizados desejados forem adicionados, salve o esquema. O novo campo agora está disponível na tela de criação de decisões de item, na seção **[!UICONTROL Atributos personalizados]**.

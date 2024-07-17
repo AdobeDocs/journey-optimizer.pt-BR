@@ -23,9 +23,9 @@ O lote bem-sucedido mais recente no conjunto de dados é exibido à direita. A v
 
 >[!NOTE]
 >
->Saiba como acessar os conjuntos de dados exportados para cada objeto da Biblioteca de ofertas no [nesta seção](../export-catalog/access-dataset.md).
+>Saiba como acessar os conjuntos de dados exportados para cada objeto da Biblioteca de ofertas em [esta seção](../export-catalog/access-dataset.md).
 
-Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTROL Repositório de objetos de decisão - Posicionamentos]** conjunto de dados.
+Esta é a lista de todos os campos que podem ser usados no conjunto de dados **[!UICONTROL Repositório de Objetos de Decisão - Disposições]**.
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
@@ -33,14 +33,14 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 
 **Campo:** _id
 **Título:** Identificador
-**Descrição:** Um identificador exclusivo do registro.
-**Tipo:** string
+**Descrição:** Um identificador exclusivo para o registro.
+**Tipo:** cadeia de caracteres
 
 +++
 
 +++ _experience
 
-**Campo:** _experience
+**Campo:** _experiência
 **Tipo:** objeto
 
 +++
@@ -55,18 +55,18 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 +++ _experience > decisão > Identificador de canal do Placement
 
 **Campo:** channelID
-**Título:** Identificador de canal do posicionamento
+**Título:** Identificador de Canal do Posicionamento
 **Descrição:** O canal no qual a apresentação foi feita. O valor é um URI de canal válido. Consulte https://ns.adobe.com/xdm/channels/channel.
-**Tipo:** string
+**Tipo:** cadeia de caracteres
 
 +++
 
 +++ _experience > decisão > Tipo de componente de Conteúdo
 
 **Campo:** componentType
-**Título:** Tipo de componente de conteúdo
-**Descrição:** Um conjunto enumerado de URIs em que cada valor é mapeado para um tipo fornecido ao componente de conteúdo. Alguns consumidores das representações de conteúdo esperam que o valor @type seja uma referência ao schema que descreve propriedades adicionais do componente de conteúdo.
-**Tipo:** string
+**Título:** Tipo de Componente de Conteúdo
+**Descrição:** um conjunto enumerado de URIs em que cada valor mapeia para um tipo fornecido ao componente de conteúdo. Alguns consumidores das representações de conteúdo esperam que o valor @type seja uma referência ao schema que descreve propriedades adicionais do componente de conteúdo.
+**Tipo:** cadeia de caracteres
 
 +++
 
@@ -79,9 +79,9 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 
 +++_experience > decisão > contentTypes > Tipo de mídia MIME
 
-**Título:** Tipo de mídia MIME
+**Título:** Tipo de Mídia MIME
 **Descrição:** Uma restrição para o tipo de mídia dos componentes esperada nesse posicionamento. Pode haver mais de um tipo de mídia possível para um componente, como formatos de imagem diferentes.
-**Tipo:** string
+**Tipo:** cadeia de caracteres
 
 +++
 
@@ -89,17 +89,17 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 
 **Campo:** descrição
 **Título:** Descrição do posicionamento
-**Descrição:** Ele é usado para transmitir intenções legíveis por humanos sobre como o conteúdo dinâmico é usado na entrega geral da mensagem. Que um determinado espaço é um \&quot;Banner\&quot; em uma página da Web geralmente é transmitido por meio da descrição e não por um método formal.
-**Tipo:** string
+**Descrição:** é usado para transmitir intenções legíveis sobre como o conteúdo dinâmico é usado na entrega geral de mensagens. Que um determinado espaço é um \&quot;Banner\&quot; em uma página da Web geralmente é transmitido por meio da descrição e não por um método formal.
+**Tipo:** cadeia de caracteres
 
 +++
 
 +++ _experience > decisão > Nome do posicionamento
 
-**Campo:** name
-**Título:** Nome do posicionamento
-**Descrição:** Um nome atribuído para o posicionamento para fazer referência a ele em interações humanas.
-**Tipo:** string
+**Campo:** nome
+**Título:** Nome do Posicionamento
+**Descrição:** um nome atribuído ao posicionamento para fazer referência a ele em interações humanas.
+**Tipo:** cadeia de caracteres
 
 +++
 
@@ -115,6 +115,6 @@ Esta é a lista de todos os campos que podem ser usados na variável **[!UICONTR
 **Campo:** etag
 **Título:** ETag de posicionamento
 **Descrição:** A revisão na qual o objeto de opção de decisão estava quando o instantâneo foi tirado.
-**Tipo:** string
+**Tipo:** cadeia de caracteres
 
 +++

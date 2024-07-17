@@ -9,7 +9,7 @@ exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -25,25 +25,25 @@ Por exemplo, você pode especificar que deseja que somente uma &#39;Oferta de ro
 
 Esta é uma lista de limitações que devem ser observadas ao trabalhar com regras de decisão:
 
-* A decisão de borda usa o perfil de borda que não armazena eventos, portanto, qualquer regra usada em uma decisão de borda será inválida.
+* A decisão do Edge usa o perfil de borda que não armazena eventos, portanto, qualquer regra usada em uma decisão de borda será inválida.
 * Ao criar uma regra de decisão, a retrospectiva de um período anterior não é compatível. Por exemplo, se você especificar um evento de experiência que ocorreu no último mês como um componente da regra. Qualquer tentativa de incluir um período de lookback durante a criação da regra acionará um erro ao salvá-la.
   <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## Criar uma regra de decisão {#create}
 
-A lista de regras de decisão criadas pode ser acessada no **[!UICONTROL Componentes]** menu.
+A lista de regras de decisão criadas está acessível no menu **[!UICONTROL Componentes]**.
 
 ![](../assets/decision_rules_list.png)
 
 Para criar uma regra de decisão, siga estas etapas:
 
-1. Vá para a **[!UICONTROL Regras]** e clique em **[!UICONTROL Criar regra]**.
+1. Vá para a guia **[!UICONTROL Regras]** e clique em **[!UICONTROL Criar regra]**.
 
    ![](../assets/offers_decision_rule_creation.png)
 
 1. Nomeie a regra, forneça uma descrição e configure-a de acordo com suas necessidades.
 
-   Para fazer isso, o Adobe Experience Platform **Construtor de segmentos** O está disponível para ajudar você a criar as condições da regra. [Saiba como criar definições de segmento](../../audience/creating-a-segment-definition.md)
+   Para fazer isso, o **Construtor de segmentos** da Adobe Experience Platform está disponível para ajudar você a criar as condições da regra. [Saiba como criar definições de segmento](../../audience/creating-a-segment-definition.md)
 
    <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
@@ -51,9 +51,9 @@ Para criar uma regra de decisão, siga estas etapas:
 
    >[!NOTE]
    >
-   >O Construtor de segmentos fornecido para criar regras de decisão apresenta algumas especificidades em comparação à usada com o **[!UICONTROL Segmentação]** serviço. No entanto, o processo global descrito no [Construtor de segmentos](../../audience/creating-a-segment-definition.md) a documentação ainda é válida para criar regras de decisões de ofertas. Saiba mais na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   >O Construtor de segmentos fornecido para criar regras de decisão apresenta algumas especificidades em comparação à usada com o serviço **[!UICONTROL Segmentação]**. No entanto, o processo global descrito na documentação do [Construtor de segmentos](../../audience/creating-a-segment-definition.md) ainda é válido para criar regras de decisões de ofertas. Saiba mais na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=pt-br).
 
-1. À medida que você adiciona e configura novos campos no espaço de trabalho, a variável **[!UICONTROL Propriedades do público]** exibe informações sobre os perfis estimados pertencentes ao público. Clique em **[!UICONTROL Atualizar estimativa]** para atualizar dados.
+1. À medida que você adiciona e configura novos campos no espaço de trabalho, o painel **[!UICONTROL Propriedades de público-alvo]** exibe informações sobre os perfis estimados pertencentes ao público-alvo. Clique em **[!UICONTROL Atualizar estimativa]** para atualizar os dados.
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
 
@@ -63,13 +63,13 @@ Para criar uma regra de decisão, siga estas etapas:
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar.
 
-1. Depois que a regra é criada, ela é exibida no **[!UICONTROL Regras]** lista. Você pode selecioná-la para exibir suas propriedades e editá-la ou excluí-la.
+1. Depois que a regra for criada, ela será exibida na lista **[!UICONTROL Regras]**. Você pode selecioná-la para exibir suas propriedades e editá-la ou excluí-la.
 
    ![](../assets/rule_created.png)
 
 >[!CAUTION]
 >
->No momento, as ofertas baseadas em eventos não são compatíveis com o [!DNL Journey Optimizer]. Se você criar uma regra de decisão com base em uma [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, você não poderá aproveitá-lo em uma oferta.
+>No momento, não há suporte no [!DNL Journey Optimizer] para ofertas baseadas em eventos. Se você criar uma regra de decisão baseada em um [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, não poderá aproveitá-la em uma oferta.
 
 ## Tutorial em vídeo {#video}
 

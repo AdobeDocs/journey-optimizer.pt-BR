@@ -22,7 +22,7 @@ Adicionar atributos diferentes ao menu de favoritos fornece acesso rápido aos i
 
 ![](assets/favorite-option.png)
 
-Para acessar os itens marcados como favoritos, use o **[!UICONTROL Favoritos]** no painel esquerdo.
+Para acessar os itens que você marcou como favoritos, use o menu **[!UICONTROL Favoritos]** no painel esquerdo.
 
 Nessa lista, é possível adicionar rapidamente o objeto de personalização à expressão atual.
 

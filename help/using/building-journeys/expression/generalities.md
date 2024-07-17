@@ -11,17 +11,17 @@ exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 # Sintaxe do editor de expressão avançado {#syntax}
 
-Noções básicas de sintaxe ao usar o [Editor de expressão avançado](expressionadvanced.md) estão listados abaixo. Exemplos de uso do editor de expressão avançado estão disponíveis em [esta página](advanced-editor-use-cases.md).
+As noções básicas de sintaxe ao usar o [editor de expressão avançado](expressionadvanced.md) estão listadas abaixo. Exemplos de uso do editor de expressão avançado estão disponíveis em [esta página](advanced-editor-use-cases.md).
 
 ## Parênteses e prioridade da expressão {#parentheses-and-expression-priority}
 
-É possível usar parênteses para tornar uma expressão complexa mais legível. _(&lt;expression>)_ equivale a _&lt;expression>_. Também é possível usar parênteses para definir a ordem de avaliação e a associatividade.
+É possível usar parênteses para tornar uma expressão complexa mais legível. _(&lt;expressão>)_ é o equivalente a _&lt;expressão>_. Também é possível usar parênteses para definir a ordem de avaliação e a associatividade.
 
 As expressões serão avaliadas da esquerda para a direita. A associatividade em operadores aritméticos deve ser aplicada: multiplicações e divisões têm prioridade sobre adições e subtrações. Para impor uma ordem específica, é necessário adicionar parênteses para delimitar as operações. Por exemplo:
 

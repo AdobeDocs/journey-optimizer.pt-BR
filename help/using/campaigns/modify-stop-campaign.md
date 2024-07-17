@@ -24,9 +24,9 @@ Além disso, você pode duplicar campanhas ativas (executadas uma vez ou com uma
 
 ## Acessar campanhas {#access}
 
-As campanhas podem ser acessadas no **[!UICONTROL Campanhas]** menu.
+As campanhas podem ser acessadas no menu **[!UICONTROL Campanhas]**.
 
-Por padrão, a lista mostra todas as campanhas com **[!UICONTROL Rascunho]**, **[!UICONTROL Agendado]**, e **[!UICONTROL Ao vivo]** status. Para exibir campanhas interrompidas, concluídas e arquivadas, é necessário limpar o filtro.
+Por padrão, a lista mostra todas as campanhas com os status **[!UICONTROL Rascunho]**, **[!UICONTROL Agendado]** e **[!UICONTROL Ativo]**. Para exibir campanhas interrompidas, concluídas e arquivadas, é necessário limpar o filtro.
 
 ![](assets/create-campaign-list.png)
 
@@ -36,18 +36,18 @@ Além disso, você pode filtrar a lista com base no tipo de campanha e no canal,
 
 As campanhas podem ter vários status:
 
-* **[!UICONTROL Rascunho]**: A campanha está sendo editada e não foi ativada.
+* **[!UICONTROL Rascunho]**: a campanha está sendo editada e não foi ativada.
 * **[!UICONTROL Ativando]**: a campanha está sendo ativada.
 * **[!UICONTROL Processando]** *(somente campanhas de email)*: a exportação de público-alvo foi concluída, a campanha está sendo publicada.
-* **[!UICONTROL Ao vivo]**: a campanha foi ativada.
-* **[!UICONTROL Agendado]**: a campanha é configurada para ser ativada em uma data de início específica.
-* **[!UICONTROL Parado]**: a campanha foi interrompida manualmente. Não é possível ativá-lo ou reutilizá-lo. [Saiba como interromper uma campanha](modify-stop-campaign.md#stop)
-* **[!UICONTROL Concluído]**: a campanha está concluída. Esse status é atribuído automaticamente 3 dias após a ativação de uma campanha ou na data final da campanha, se houver uma execução recorrente.
+* **[!UICONTROL Ao vivo]**: A campanha foi ativada.
+* **[!UICONTROL Agendado]**: a campanha está configurada para ser ativada em uma data de início específica.
+* **[!UICONTROL Parada]**: a campanha foi interrompida manualmente. Não é possível ativá-lo ou reutilizá-lo. [Saiba como interromper uma campanha](modify-stop-campaign.md#stop)
+* **[!UICONTROL Concluído]**: a campanha foi concluída. Esse status é atribuído automaticamente 3 dias após a ativação de uma campanha ou na data final da campanha, se houver uma execução recorrente.
 * **[!UICONTROL Arquivado]**: a campanha foi arquivada. [Saiba como arquivar campanhas](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >
->O ícone &quot;Abrir versão de rascunho&quot; ao lado de um **[!UICONTROL Ao vivo]** ou **[!UICONTROL Agendado]** O status indica que uma nova versão da campanha foi criada e ainda não foi ativada. [Saiba mais](modify-stop-campaign.md#modify).
+>O ícone &quot;Abrir versão de rascunho&quot; ao lado do status **[!UICONTROL Ativo]** ou **[!UICONTROL Agendado]** indica que uma nova versão da campanha foi criada e ainda não foi ativada. [Saiba mais](modify-stop-campaign.md#modify).
 
 Quando ocorre um erro em uma de suas campanhas, um ícone de aviso é exibido junto com o status da campanha. Clique nele para exibir informações relacionadas ao alerta. Esses alertas podem ocorrer em várias situações, como quando a mensagem da campanha não foi publicada ou se a superfície escolhida estiver incorreta.
 
@@ -57,13 +57,13 @@ Quando ocorre um erro em uma de suas campanhas, um ícone de aviso é exibido ju
 
 Para modificar e criar uma nova versão de uma campanha recorrente, siga estas etapas:
 
-1. Abra a campanha e clique no link **[!UICONTROL Modificar campanha]** botão.
+1. Abra a campanha e clique no botão **[!UICONTROL Modificar campanha]**.
 
-1. Uma nova versão da campanha é criada. Você pode verificar a versão ao vivo clicando em **[!UICONTROL Abrir versão ao vivo]**.
+1. Uma nova versão da campanha é criada. Você pode verificar a versão disponível clicando em **[!UICONTROL Abrir versão disponível]**.
 
    ![](assets/create-campaign-draft.png)
 
-   Na lista Campanhas, as campanhas ativadas com uma versão de rascunho em andamento são exibidas com um ícone específico na **[!UICONTROL Status]** coluna. Clique nesse ícone para abrir a versão de rascunho da campanha.
+   Na lista de campanhas, campanhas ativadas com uma versão de rascunho em andamento são exibidas com um ícone específico na coluna **[!UICONTROL Status]**. Clique nesse ícone para abrir a versão de rascunho da campanha.
 
    ![](assets/create-campaign-edit-list.png)
 
@@ -75,7 +75,7 @@ Para modificar e criar uma nova versão de uma campanha recorrente, siga estas e
 
 ## Interromper uma campanha recorrente {#stop}
 
-Para interromper uma campanha recorrente, abra-a e clique no link **[!UICONTROL Interromper campanha]** botão.
+Para interromper uma campanha recorrente, abra-a e clique no botão **[!UICONTROL Parar campanha]**.
 
 ![](assets/create-campaign-stop.png)
 

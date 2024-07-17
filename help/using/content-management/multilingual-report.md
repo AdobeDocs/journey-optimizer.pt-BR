@@ -18,24 +18,24 @@ ht-degree: 5%
 
 # Relatório de campanha multilíngue {#multilingual-campaign-report}
 
-Relatórios globais, acessíveis pelo **O tempo todo** , exiba eventos que ocorreram há pelo menos duas horas e cubra eventos durante um período selecionado. O relatório global da campanha pode ser acessado diretamente do seu Campaign com o **[!UICONTROL Exibir relatório]** botão.
+Relatórios globais, acessíveis a partir da guia **Todos os tempos**, exibem eventos que ocorreram há pelo menos duas horas e abordam eventos durante um período selecionado. O relatório global da campanha pode ser acessado diretamente do Campaign com o botão **[!UICONTROL Exibir relatório]**.
 
-Para obter mais informações sobre dados disponíveis no relatório Campanha, consulte [esta página](../reports/campaign-global-report.md).
+Para obter mais informações sobre dados disponíveis no relatório de Campanha, consulte [esta página](../reports/campaign-global-report.md).
 
 ![](assets/report_multilingual.png)
 
-A variável **[!UICONTROL Estatísticas de envio de email por idiomas]** detalhes do widget e o sucesso do seu delivery dependendo do seu **[!UICONTROL Localidades]**:
+O widget **[!UICONTROL Estatísticas de envio de email por idiomas]** detalha o sucesso da sua entrega, dependendo das suas **[!UICONTROL Localidades]**:
 
-* **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Entregues]**: número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Rejeições]**: total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante uma entrega, impedindo que ela fosse enviada aos perfis.
 
-A variável **[!UICONTROL Estatísticas de rastreamento de email por idiomas]** O widget contém os dados disponíveis para a atividade do recipient para o seu delivery dependendo do **[!UICONTROL Localidades]**:
+O widget **[!UICONTROL Estatísticas de rastreamento de email por idiomas]** contém os dados disponíveis para a atividade de destinatário para a sua entrega, dependendo das suas **[!UICONTROL Localidades]**:
 
-* **[!UICONTROL Cancelamentos de assinatura]**: Número de cliques no link unsubscription.
+* **[!UICONTROL Cancelamentos de assinatura]**: Número de cliques no link de cancelamento de assinatura.
 
 * **[!UICONTROL Aberturas]**: Número de vezes que a mensagem foi aberta.
 
-* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado.
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado.

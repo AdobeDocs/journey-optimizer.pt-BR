@@ -21,35 +21,35 @@ Os Relatórios de canal são uma ferramenta poderosa que fornece uma visão gera
 
 Os Relatórios de canal são totalmente personalizáveis, então você pode redimensionar ou remover widgets para criar um painel que atenda às suas necessidades específicas. Você também pode exportar os dados do relatório para um PDF ou arquivo CSV para análise adicional.
 
-Saiba mais sobre as diferentes métricas e widgets disponíveis para os Relatórios de canal neste [página](channel-report.md).
+Saiba mais sobre as diferentes métricas e widgets disponíveis para os Relatórios de canal nesta [página](channel-report.md).
 
 ## Antes de começar {#manage-reports-prereq}
 
-Antes de iniciar, verifique se você tem acesso à **[!UICONTROL Relatórios]** menu.
+Antes de iniciar, verifique se você tem acesso ao menu **[!UICONTROL Relatórios]**.
 
-Se você não conseguir ver a variável **[!UICONTROL Relatórios]** seus direitos de acesso devem ser estendidos para incluir a **[!UICONTROL Exibir Relatórios de Canal]** permissão. É possível estender suas próprias permissões, se você tiver acesso ao Adobe Experience Platform [Permissões](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR){target="_blank"} para sua organização. Caso contrário, entre em contato com o administrador do Adobe Journey Optimizer.
+Se você não conseguir ver o menu **[!UICONTROL Relatórios]**, seus direitos de acesso deverão ser estendidos para incluir a permissão **[!UICONTROL Exibir Relatórios de Canal]**. Você pode estender suas próprias permissões se tiver acesso às [Permissões](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR){target="_blank"} da Adobe Experience Platform para sua organização. Caso contrário, entre em contato com o administrador do Adobe Journey Optimizer.
 
 +++Saiba como atribuir permissão de relatório
 
-Observe que essa permissão está incluída nas seguintes permissões internas **[!UICONTROL Funções]**: gerente da campanha, aprovador da campanha, visualizador da campanha e administrador da campanha.
+Observe que essa permissão está incluída nas seguintes **[!UICONTROL Funções]** internas: Gerente de campanha, Aprovador de campanha, Visualizador de campanha e Administrador de campanha.
 
-Para atribuir a permissão correspondente ao seu **[!UICONTROL Função]**:
+Para atribuir a permissão correspondente à sua **[!UICONTROL Função]**:
 
-1. No [!DNL Permissions] produto, navegue até o **[!UICONTROL Funções]** e selecione a função que deseja atualizar com o novo **[!UICONTROL Exibir Relatórios de Canal]** permissão.
+1. No produto [!DNL Permissions], navegue até o menu **[!UICONTROL Funções]** e selecione a função que deseja atualizar com a nova permissão **[!UICONTROL Exibir Relatórios de Canal]**.
 
-1. Do seu **[!UICONTROL Função]** painel, clique em **[!UICONTROL Editar]**.
+1. No painel **[!UICONTROL Função]**, clique em **[!UICONTROL Editar]**.
 
    ![](assets/channel_permission_1.png)
 
-1. Arraste e solte a **[!UICONTROL Relatórios]** recurso para atribuir permissão.
+1. Arraste e solte o recurso **[!UICONTROL Relatórios]** para atribuir permissão.
 
-   No **[!UICONTROL Relatório]** selecione o menu suspenso **[!UICONTROL Exibir Relatórios de Canal]** permissão.
+   No menu suspenso de recursos **[!UICONTROL Relatórios]**, selecione a permissão **[!UICONTROL Exibir Relatórios de Canal]**.
 
    ![](assets/channel_permission_2.png)
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-Usuários atribuídos a este **[!UICONTROL Função]** agora podem acessar o **[!UICONTROL Relatórios]** menu.
+Os usuários atribuídos a esta **[!UICONTROL Função]** agora podem acessar o menu **[!UICONTROL Relatórios]**.
 
 +++
 
@@ -57,13 +57,13 @@ Usuários atribuídos a este **[!UICONTROL Função]** agora podem acessar o **[
 
 Para acessar e gerenciar os relatórios de canal, siga estas etapas:
 
-1. Navegue até a **[!UICONTROL Relatórios]** no menu **[!UICONTROL Gerenciamento de jornadas]** seção.
+1. Navegue até o menu **[!UICONTROL Relatórios]** na seção **[!UICONTROL Gerenciamento de Jornadas]**.
 
    ![](assets/channel_report_1.png)
 
-1. No painel, escolha uma **Início** e **[!UICONTROL Hora final]** para direcionar dados específicos.
+1. No painel, escolha um **Início** e **[!UICONTROL Término]** para direcionar dados específicos.
 
-1. No **[!UICONTROL Ação de]** selecione se deseja direcionar Campanhas, Jornadas ou ambos.
+1. No menu suspenso **[!UICONTROL Ação de]**, selecione se deseja direcionar Campanhas, Jornadas ou ambos.
 
    ![](assets/channel_report_2.png)
 
@@ -71,7 +71,7 @@ Para acessar e gerenciar os relatórios de canal, siga estas etapas:
 
    ![](assets/channel_report_3.png)
 
-1. Quando estiver satisfeito com a ordem de exibição e o tamanho dos widgets, clique em **[!UICONTROL Salvar]**.
+1. Quando estiver satisfeito com a ordem de exibição e o tamanho dos seus widgets, clique em **[!UICONTROL Salvar]**.
 
 1. Dependendo do widget, você pode optar por alternar entre uma tabela, um gráfico de barras ou uma rosca.
 
@@ -87,7 +87,7 @@ Para acessar e gerenciar os relatórios de canal, siga estas etapas:
 
 >[!TAB Exportar seu relatório como um arquivo PDF]
 
-1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL arquivo PDF]**.
+1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL arquivo de PDF]**.
 
 1. Na janela Imprimir, configure o documento conforme necessário. Observe que as opções podem variar dependendo do navegador.
 
@@ -99,7 +99,7 @@ Seu relatório agora está disponível para visualização ou compartilhamento e
 
 >[!TAB Exportar seu relatório como um arquivo CSV]
 
-1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL Arquivo CSV]** para gerar um arquivo CSV no nível geral do relatório.
+1. Em seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL Arquivo CSV]** para gerar um arquivo CSV no nível de relatório geral.
 
 1. Você também pode optar por exportar dados de um widget específico. Clique em **[!UICONTROL Exportar dados do widget para CSV]** ao lado do widget selecionado.
 

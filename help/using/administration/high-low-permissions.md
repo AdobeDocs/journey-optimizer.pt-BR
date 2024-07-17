@@ -23,15 +23,15 @@ ht-degree: 0%
 Cada função é composta de permissões que permitem aos usuários acessar os diferentes recursos.
 Eles podem ser divididos em dois tipos:
 
-* **Permissão de alto nível**: representa as diferentes permissões que podem ser atribuídas a **[!UICONTROL Função]**, como **[!DNL Publish journeys]** e **[!DNL Manage subdomains delegation]**. Permissões de alto nível abrangem permissões de baixo nível. As permissões de alto nível são detalhadas em [esta página](ootb-permissions.md).
+* **Permissão de alto nível**: representa as diferentes permissões que podem ser atribuídas à **[!UICONTROL Função]**, como **[!DNL Publish journeys]** e **[!DNL Manage subdomains delegation]**. Permissões de alto nível abrangem permissões de baixo nível. Permissões de alto nível são detalhadas em [esta página](ootb-permissions.md).
 
 * **Permissão de baixo nível**: representa as diferentes permissões provenientes da permissão de alto nível.
 
-Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a função **[!DNL Manage journeys]** permissão. Dessa permissão resultam as permissões de baixo nível que permitirão ao administrador do Jornada gravar, ler e excluir jornadas.
+Por exemplo, a função **[!DNL Journey administrator]** recebe a permissão **[!DNL Manage journeys]**. Dessa permissão resultam as permissões de baixo nível que permitirão ao administrador do Jornada gravar, ler e excluir jornadas.
 
 ## Jornada recurso {#journey-capability}
 
-* **[!DNL Manage journeys]** a permissão de alto nível permite que os usuários criem Jornadas novas e editem/excluam  existentes, bem como acesso aos objetos usados na tela de jornada para criar o fluxo de jornada.
+* A permissão de alto nível **[!DNL Manage journeys]** permite que os usuários criem Jornadas novas e editem/excluam  existentes, bem como acesso aos objetos usados na tela de jornada para criar o fluxo de jornada.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -51,7 +51,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Publish journeys]** a permissão de alto nível permite que os usuários publiquem jornadas.
+* A permissão de alto nível **[!DNL Publish journeys]** permite que os usuários publiquem jornadas.
 
 +++ Inclui as seguintes permissões de baixo nível:
    * Específico do Journey Optimizer:
@@ -60,7 +60,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL View journeys]** a permissão de alto nível permite que os usuários naveguem e visualizem jornadas.
+* A permissão de alto nível **[!DNL View journeys]** permite que os usuários naveguem e visualizem jornadas.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -73,7 +73,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Manage journeys events, data sources and actions]** a permissão de alto nível permite que os usuários definam configurações de eventos e dados.
+* A permissão de alto nível do **[!DNL Manage journeys events, data sources and actions]** permite que os usuários definam configurações de eventos e dados.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -95,7 +95,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL View journeys events, data sources and actions]** a permissão de alto nível permite que os usuários usem eventos e dados no fluxo de jornada.
+* A permissão de alto nível **[!DNL View journeys events, data sources and actions]** permite que os usuários usem eventos e dados no fluxo de jornada.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -111,7 +111,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL View journeys report]** a permissão de alto nível permite que os usuários leiam o relatório de jornada.
+* A permissão de alto nível **[!DNL View journeys report]** permite que os usuários façam relatórios de jornada somente leitura.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -129,7 +129,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 ## Recurso de regras do Journey Optimizer {#journey-rules-capability}
 
-* **[!DNL Manage frequency rules]** a permissão de alto nível permite que os usuários leiam, criem, editem, excluam e ativem/desativem regras de frequência.
+* A permissão de alto nível **[!DNL Manage frequency rules]** permite que os usuários leiam, criem, editem, excluam e ativem/desativem regras de frequência.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -140,7 +140,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL View frequency rules]** a permissão de alto nível permite que os usuários visualizem regras de frequência.
+* A permissão de alto nível **[!DNL View frequency rules]** permite que os usuários exibam regras de frequência.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -151,7 +151,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 ## Recurso de campanha {#campaign-capability}
 
-* **[!DNL Export suppression list]** a permissão de alto nível permite que os usuários baixem a lista de supressão como um arquivo CSV.
+* A permissão de alto nível **[!DNL Export suppression list]** permite que os usuários baixem a lista de supressão como um arquivo CSV.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -164,7 +164,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Manage campaigns]** a permissão de alto nível permite que os usuários criem campanhas novas e editem/excluam campanhas
+* A permissão de alto nível **[!DNL Manage campaigns]** permite que os usuários criem campanhas novas e editem/excluam campanhas
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -179,7 +179,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Publish campaigns]** a permissão de alto nível permite que os usuários publiquem campanhas.
+* A permissão de alto nível **[!DNL Publish campaigns]** permite que os usuários publiquem campanhas.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -191,7 +191,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL View campaigns report]** a permissão de alto nível permite que os usuários leiam e editem o relatório campanhas.
+* A permissão de alto nível **[!DNL View campaigns report]** permite que os usuários leiam e editem o relatório de campanhas.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -205,7 +205,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 ## Recurso de gestão de decisão {#decisions-permissions}
 
-* **[!DNL Manage decisions]** a permissão de alto nível permite que os usuários criem novos e editem/excluam arquivos existentes **[!DNL Activity entities]**, bem como gerenciar os objetos usados nessas atividades para tomar as decisões.
+* A permissão de alto nível **[!DNL Manage decisions]** permite que os usuários criem novos e editem/excluam **[!DNL Activity entities]** existentes, bem como gerenciem os objetos usados nessas atividades para tomar decisões.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -231,7 +231,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL View decisions]** a permissão de alto nível permite que os usuários usem uma Atividade existente e objetos comerciais relacionados para tomar as decisões.
+* A permissão de alto nível **[!DNL View decisions]** permite que os usuários usem uma Atividade existente e objetos comerciais relacionados para tomar as decisões.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -250,7 +250,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Manage offers]** a permissão de alto nível permite que os usuários criem, editem e excluam todas as ofertas, componentes, decisões de leitura e coleções.
+* A permissão de alto nível **[!DNL Manage offers]** permite que os usuários criem, editem e excluam todas as ofertas, componentes, decisões de leitura e coleções.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -272,7 +272,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Manage ranking strategies]** a permissão de alto nível permite que os usuários leiam, criem, editem e excluam estratégias de classificação.
+* A permissão de alto nível **[!DNL Manage ranking strategies]** permite que os usuários leiam, criem, editem e excluam estratégias de classificação.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -310,7 +310,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
   +++
 -->
 
-* **[!DNL Manage file routing]** a permissão de alto nível permite que os usuários criem, editem e excluam configurações de roteamento de arquivos.
+* A permissão de alto nível **[!DNL Manage file routing]** permite que os usuários criem, editem e excluam configurações de roteamento de arquivos.
 
 +++ Inclui as seguintes permissões de baixo nível:
    * Específico do Journey Optimizer:
@@ -321,7 +321,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Manage IP pools]** a permissão de alto nível permite que os usuários criem, editem e excluam a definição de afinidade.
+* A permissão de alto nível **[!DNL Manage IP pools]** permite que os usuários criem, editem e excluam a definição de afinidade.
 
 +++ Inclui as seguintes permissões de baixo nível:
    * Específico do Journey Optimizer:
@@ -331,7 +331,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Manage landing page settings]** a permissão de alto nível permite que os usuários leiam, criem e editem subdomínios de página de aterrissagem e configurações predefinidas.
+* A permissão de alto nível **[!DNL Manage landing page settings]** permite que os usuários leiam, criem e editem subdomínios e configurações predefinidas da página de aterrissagem.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -346,7 +346,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Manage messages general settings]** a permissão de alto nível permite que os usuários criem, editem e excluam configurações globais no nível da sandbox.
+* A permissão de alto nível **[!DNL Manage messages general settings]** permite que os usuários criem, editem e excluam configurações globais no nível da sandbox.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -360,7 +360,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Manage messages presets]** a permissão de alto nível permite que os usuários leiam, criem, editem e excluam superfícies de canal em canais no nível da sandbox.
+* a permissão de alto nível **[!DNL Manage messages presets]** permite que os usuários leiam, criem, editem e excluam superfícies de canal entre canais no nível da sandbox.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -376,7 +376,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Manage PTR records]** a permissão de alto nível permite que os usuários leiam e editem registros PTR que foram configurados com base no subdomínio.
+* A permissão de alto nível **[!DNL Manage PTR records]** permite que os usuários leiam e editem registros PTR que foram configurados com base no subdomínio.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -387,7 +387,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Manage Seedlist]** a permissão de alto nível permite que os usuários leiam, criem, editem e excluam a Seedlist.
+* A permissão de alto nível **[!DNL Manage Seedlist]** permite que os usuários leiam, criem, editem e excluam a Seedlist.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -398,7 +398,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Manage SMS subdomains]** a permissão de alto nível permite que os usuários leiam, criem, editem e excluam subdomínios de SMS.
+* A permissão de alto nível **[!DNL Manage SMS subdomains]** permite que os usuários leiam, criem, editem e excluam subdomínios de SMS.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -409,7 +409,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Manage subdomains delegations]** a permissão de alto nível permite que os usuários criem, editem e excluam delegações de subdomínio (incluindo o pool de IP).
+* A permissão de alto nível **[!DNL Manage subdomains delegations]** permite que os usuários criem, editem e excluam delegações de subdomínio (incluindo o pool de IP).
 
 +++ Inclui as seguintes permissões de baixo nível:
    * Específico do Journey Optimizer:
@@ -420,7 +420,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL Manage suppression]** a permissão de alto nível permite que os usuários definam o número de rejeições antes que um endereço de email seja adicionado à lista de supressão, bem como adicionar e excluir entradas da/para a lista de supressão.
+* A permissão de alto nível **[!DNL Manage suppression]** permite que os usuários definam o número de rejeições antes que um endereço de email seja adicionado à lista de supressão, bem como adicionar e excluir entradas da/para a lista de supressão.
 
 +++ Inclui as seguintes permissões de baixo nível:
    * Específico do Journey Optimizer:
@@ -432,7 +432,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL View file routing]** a permissão de alto nível permite que os usuários visualizem configurações de roteamento de arquivos.
+* A permissão de alto nível **[!DNL View file routing]** permite que os usuários exibam configurações de roteamento de arquivos.
 
 +++ Inclui as seguintes permissões de baixo nível:
    * Específico do Journey Optimizer:
@@ -441,7 +441,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL View messages general settings]** a permissão de alto nível permite que os usuários visualizem configurações gerais de mensagens, como o endereço de execução.
+* A permissão de alto nível **[!DNL View messages general settings]** permite que os usuários exibam configurações gerais de mensagens, como o endereço de execução.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -453,7 +453,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL View messages presets]** a permissão de alto nível permite que os usuários visualizem predefinições de mensagens.
+* A permissão de alto nível **[!DNL View messages presets]** permite que os usuários exibam predefinições de mensagens.
 
 +++ Inclui as seguintes permissões de baixo nível:
 
@@ -467,7 +467,7 @@ Por exemplo, a variável **[!DNL Journey administrator]** é atribuída a funç�
 
 +++
 
-* **[!DNL View PTR records]** a permissão de alto nível permite que os usuários visualizem registros PTR que foram configurados com base no subdomínio.
+* A permissão de alto nível **[!DNL View PTR records]** permite que os usuários exibam registros PTR que foram configurados com base no subdomínio.
 
 +++ Inclui as seguintes permissões de baixo nível:
    * Específico do Journey Optimizer:
@@ -490,7 +490,7 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 -->
 
 
-* **[!DNL View suppression list]** a permissão de alto nível permite que os usuários visualizem o conteúdo e as configurações da lista de supressão.
+* A permissão de alto nível **[!DNL View suppression list]** permite que os usuários exibam o conteúdo e as configurações da lista de supressão.
 
 +++ Inclui as seguintes permissões de baixo nível:
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Publicar a jornada
+title: PUBLISH a JORNADA
 description: Saiba como publicar uma jornada
 feature: Journeys
 topic: Content Management
@@ -26,8 +26,8 @@ Se você precisar fazer modificações em uma jornada publicada, será necessár
 
 Se você interromper uma jornada, ela será interrompida permanentemente. Todas as pessoas que fluem na jornada serão interrompidas permanentemente e a jornada deixará de permitir novas entradas. Se precisar usar a jornada novamente, duplique-a e publique-a.
 
-1. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Você não poderá publicar uma jornada com erros. Consulte [nesta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Também é recomendável testar sua jornada antes da publicação. Consulte [esta página](../building-journeys/testing-the-journey.md).
-1. Para publicar a jornada, clique no link **[!UICONTROL Publish]** localizada no menu suspenso superior direito.
+1. Antes de publicar sua jornada, verifique se ela é válida e se não há erros. Você não poderá publicar uma jornada com erros. Consulte [esta seção](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Também é recomendável testar sua jornada antes da publicação. Consulte [esta página](../building-journeys/testing-the-journey.md).
+1. Para publicar a jornada, clique na opção **[!UICONTROL Publish]**, localizada no menu suspenso no canto superior direito.
 
    ![](assets/journeyuc1_18.png)
 

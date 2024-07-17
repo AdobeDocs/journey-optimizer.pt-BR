@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Coleções são subconjuntos de ofertas com base em condições predefinidas por um profissional de marketing, como a categoria da oferta.
 
-Você pode pesquisar coleções específicas fazendo uma solicitação GET para a [!DNL Offer Library] API que inclui a coleção `id` no caminho da solicitação.
+Você pode pesquisar coleções específicas fazendo uma solicitação GET para a API [!DNL Offer Library] que inclui a coleção `id` no caminho da solicitação.
 
 **Formato da API**
 

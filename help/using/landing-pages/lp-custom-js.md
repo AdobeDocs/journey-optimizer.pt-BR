@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Usar JavaScript personalizado em uma página de destino
+title: Usar o JavaScript personalizado em uma página de aterrissagem
 description: Saiba como criar o conteúdo de uma landing page no Journey Optimizer
 feature: Landing Pages
 topic: Content Management
@@ -16,17 +16,17 @@ ht-degree: 2%
 
 ---
 
-# Usar JavaScript personalizado em uma página de destino {#lp-custom-js}
+# Usar o JavaScript personalizado em uma página de aterrissagem {#lp-custom-js}
 
-Você pode definir o conteúdo da página de aterrissagem usando o JavaScript personalizado. Por exemplo, se você precisar executar estilos avançados ou adicionar comportamentos personalizados às páginas de aterrissagem, será possível criar seus próprios controles e executá-los no [!DNL Journey Optimizer].
+Você pode definir o conteúdo da página de aterrissagem usando o JavaScript personalizado. Por exemplo, se você precisa executar estilos avançados ou adicionar comportamentos personalizados às páginas de aterrissagem, é possível criar seus próprios controles e executá-los no [!DNL Journey Optimizer].
 
-## Inserir código JavaScript em uma página inicial
+## Inserir código do JavaScript em uma página de aterrissagem
 
 Para inserir JavaScript personalizado no conteúdo da página de aterrissagem, faça o seguinte:
 
-* Importe o conteúdo de HTML existente ao começar a criar o conteúdo e selecione o arquivo que inclui o código JavaScript personalizado. Saiba como importar conteúdo [nesta seção](../email/existing-content.md).
+* Importe conteúdo de HTML existente ao começar a criar o conteúdo e selecione o arquivo que inclui seu código JavaScript personalizado. Saiba como importar conteúdo [nesta seção](../email/existing-content.md).
 
-* Projete a landing page do zero ou com base em um template salvo. Arraste e solte a **[!UICONTROL HTML]** componente de conteúdo na tela e mostrar o código-fonte para adicionar seu JavaSCript no componente. Saiba como usar o componente de HTML no [nesta seção](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* Projete a landing page do zero ou com base em um template salvo. Arraste e solte o componente de conteúdo **[!UICONTROL HTML]** na tela e mostre o código-fonte para adicionar seu JavaScript ao componente. Saiba como usar o componente HTML em [esta seção](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
   ![](assets/lp_designer-html-component.png)
 
@@ -34,15 +34,15 @@ Para inserir JavaScript personalizado no conteúdo da página de aterrissagem, f
 
 >[!NOTE]
 >
->Atualmente, não é possível exibir JavaScript em ação quando [visualização da landing page](create-lp.md#test-landing-page).
+>Atualmente não é possível exibir o JavaScript em ação ao [visualizar a página de aterrissagem](create-lp.md#test-landing-page).
 
 Para que a landing page seja exibida corretamente, use a seguinte sintaxe conforme descrito nas seções abaixo.
 
 ## Inicialização de código
 
-Para inicializar o código JavaScript, você deve usar o `lpRuntimeReady` evento. Esse evento será acionado após a inicialização bem-sucedida da biblioteca. O retorno de chamada será executado com o `lpRuntime` objeto para expor o método de biblioteca e os ganchos.
+Para inicializar seu código JavaScript, você deve usar o evento `lpRuntimeReady`. Esse evento será acionado após a inicialização bem-sucedida da biblioteca. O retorno de chamada será executado com o objeto `lpRuntime` para expor o método e os ganchos da biblioteca.
 
-`LpRuntime` significa &quot;Tempo de execução da landing page&quot;. Esse objeto é o identificador principal da biblioteca. Ele vai expor ganchos, métodos de envio de formulário e outros métodos de utilitário que podem ser usados no JavaScript personalizado.
+`LpRuntime` significa &quot;Tempo de Execução da Página de Aterrissagem&quot;. Esse objeto é o identificador principal da biblioteca. Ele expõe ganchos, métodos de envio de formulário e outros métodos de utilitário que podem ser usados no JavaScript personalizado.
 
 **Exemplo:**
 
@@ -60,7 +60,7 @@ function init(lpRuntime){
 }
 ```
 
-## Ganchos
+## Ganchos 
 
 Usando ganchos, você pode anexar um método durante o ciclo de vida do envio do formulário. Por exemplo, você pode usar ganchos para executar alguma validação de formulário antes que o formulário seja realmente enviado.
 
@@ -87,7 +87,7 @@ Os métodos listados abaixo são usados para executar envios de formulários per
 
 >[!NOTE]
 >
->Como o envio do formulário é manipulado pelo JavaScript personalizado, o envio padrão precisa ser desativado explicitamente ao configurar uma variável global `disableDefaultFormSubmission` para `true`.
+>Como o envio do formulário é tratado pelo JavaScript personalizado, o envio padrão precisa ser desabilitado explicitamente ao configurar uma variável global `disableDefaultFormSubmission` como `true`.
 
 | Nome | Descrição |
 |--- |--- |
@@ -195,7 +195,7 @@ Por exemplo, você tem um formulário com várias caixas de seleção na página
 
 ### Caso de uso 3: tags personalizadas do Analytics
 
-Usando o JavaScript, é possível adicionar ouvintes de campos de entrada e anexar um acionador de chamada de análise personalizado.
+Usando o JavaScript, você pode adicionar ouvintes de campos de entrada e anexar um acionador de chamada de análise personalizado.
 
 ```
 <html>

@@ -25,17 +25,17 @@ Os métodos de classificação permitem classificar itens para exibição em um 
 
 Dois tipos de métodos de classificação estão disponíveis:
 
-* **Fórmulas** O permite definir regras que determinarão qual item deve ser apresentado primeiro, em vez de considerar as pontuações de prioridade do item.
+* **As fórmulas** permitem definir regras que determinarão qual item deve ser apresentado primeiro, em vez de considerar as pontuações de prioridade do item.
 
-* **Modelos de IA** O permite usar sistemas de modelo treinados que aproveitarão vários pontos de dados para determinar qual item deve ser apresentado primeiro.
+* Os **modelos de IA** permitem usar sistemas de modelo treinados que aproveitarão vários pontos de dados para determinar qual item deve ser apresentado primeiro.
 
 ## Criar métodos de classificação {#create}
 
 Para criar um método de classificação, siga estas etapas:
 
-1. Navegue até a **[!UICONTROL Configuração da estratégia]** e selecione o **[!UICONTROL Fórmulas]** ou **[!UICONTROL Modelos de IA]** dependendo do tipo de classificação que deseja usar.
+1. Navegue até o menu **[!UICONTROL Configuração de estratégia]** e selecione o menu **[!UICONTROL Fórmulas]** ou **[!UICONTROL Modelos de IA]**, dependendo do tipo de classificação que deseja usar.
 
-1. Clique em **[!UICONTROL Criar fórmula]** ou **[!UICONTROL Criar modelo de IA]** no canto superior direito da tela.
+1. Clique no botão **[!UICONTROL Criar fórmula]** ou **[!UICONTROL Criar modelo de IA]** no canto superior direito da tela.
 
    ![](assets/ranking-create.png)
 
@@ -49,7 +49,7 @@ Para criar um método de classificação, siga estas etapas:
 
 ## Aproveitar atributos de itens de decisão em fórmulas {#items}
 
-As fórmulas de classificação são expressas em **Sintaxe PQL** e podem aproveitar vários atributos, como atributos de perfil, [dados de contexto](context-data.md) e atributos relacionados aos seus itens de decisão.
+As fórmulas de classificação são expressas em **sintaxe PQL** e podem aproveitar vários atributos, como atributos de perfil, [dados de contexto](context-data.md) e atributos relacionados aos seus itens de decisão.
 
 Para aproveitar os atributos relacionados aos seus itens de decisão em fórmulas, siga a sintaxe abaixo no código da fórmula de classificação. Expanda cada seção para obter mais informações:
 

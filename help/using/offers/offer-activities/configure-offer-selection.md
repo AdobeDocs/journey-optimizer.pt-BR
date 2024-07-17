@@ -24,11 +24,11 @@ Se várias ofertas estiverem qualificadas para uma determinada inserção, você
 
 ## Prioridades de ofertas {#offer-priority}
 
-Por padrão, quando várias ofertas são qualificadas para uma determinada inserção em uma decisão, as ofertas com a maior **prioridade** será entregue aos clientes primeiro.
+Por padrão, quando várias ofertas estão qualificadas para um determinado posicionamento em uma decisão, as ofertas com a **prioridade** mais alta serão entregues aos clientes primeiro.
 
 ![](../assets/offer-priority.png)
 
-As pontuações de prioridade de ofertas são atribuídas ao criar uma oferta. Saiba como criar uma oferta personalizada no [nesta seção](../offer-library/creating-personalized-offers.md).
+As pontuações de prioridade de ofertas são atribuídas ao criar uma oferta. Saiba como criar uma oferta personalizada em [esta seção](../offer-library/creating-personalized-offers.md).
 
 ## Fórmula de classificação {#assign-ranking-formula}
 
@@ -36,17 +36,17 @@ Além da prioridade de oferta, o Journey Optimizer permite criar **fórmulas de 
 
 Por exemplo, você pode aumentar a prioridade de todas as ofertas em que a data de término for inferior a 24 horas a partir de agora ou impulsionar ofertas da categoria &quot;em execução&quot; se o ponto de interesse do perfil for &quot;em execução&quot;.
 
-Saiba como criar uma fórmula de classificação no [nesta seção](../ranking/create-ranking-formulas.md).
+Saiba como criar uma fórmula de classificação em [esta seção](../ranking/create-ranking-formulas.md).
 
 Depois que uma fórmula é criada, é possível atribuí-la a uma inserção em uma decisão. Para fazer isso, siga as etapas abaixo:
 
 1. Crie uma decisão ou edite uma existente. Consulte [Criar decisões](../offer-activities/create-offer-activities.md).
 
-1. Adicione os posicionamentos que conterão suas ofertas. Consulte [Criar posicionamentos](../offer-library/creating-placements.md).
+1. Adicione os posicionamentos que conterão suas ofertas. Consulte [Criar inserções](../offer-library/creating-placements.md).
 
 1. Para cada posicionamento, adicione uma coleção. Consulte [Criar coleções](../offer-library/creating-collections.md).
 
-1. Selecionar **[!UICONTROL Fórmula]** como o método de classificação e, em seguida, clique em **[!UICONTROL Adicionar classificação]**.
+1. Selecione **[!UICONTROL Fórmula]** como o método de classificação e clique em **[!UICONTROL Adicionar classificação]**.
 
    ![](../assets/offer-activity-ranking.png)
 
@@ -62,17 +62,17 @@ Se várias ofertas forem elegíveis para serem apresentadas neste posicionamento
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-Você também pode usar um sistema de modelo treinado que classifica automaticamente as ofertas para exibição em determinado perfil ao selecionar um modelo de IA. Saiba como criar um modelo de IA no [nesta seção](../ranking/create-ranking-strategies.md).
+Você também pode usar um sistema de modelo treinado que classifica automaticamente as ofertas para exibição em determinado perfil ao selecionar um modelo de IA. Saiba como criar um modelo de IA em [esta seção](../ranking/create-ranking-strategies.md).
 
 Depois que um modelo de IA é criado, é possível atribuí-lo a uma inserção em uma decisão. Para fazer isso, siga as etapas abaixo:
 
 1. Crie uma decisão ou edite uma existente. Consulte [Criar decisões](../offer-activities/create-offer-activities.md).
 
-1. Adicione os posicionamentos que conterão suas ofertas. Consulte [Criar posicionamentos](../offer-library/creating-placements.md).
+1. Adicione os posicionamentos que conterão suas ofertas. Consulte [Criar inserções](../offer-library/creating-placements.md).
 
 1. Para cada posicionamento, adicione uma coleção. Consulte [Criar coleções](../offer-library/creating-collections.md).
 
-1. Optar por classificar ofertas por **[!UICONTROL Classificação de IA]** na lista suspensa e clique em **[!UICONTROL Adicionar classificação]**.
+1. Escolha classificar as ofertas por **[!UICONTROL Classificação de IA]** na lista suspensa e clique em **[!UICONTROL Adicionar classificação]**.
 
    ![](../assets/ranking-selection-ai-ranking.png)
 

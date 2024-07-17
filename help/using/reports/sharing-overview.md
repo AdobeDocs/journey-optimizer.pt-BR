@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Visão geral do compartilhamento de etapas do Jornada
-description: Visão geral do compartilhamento de etapas do Jornada
+title: Visão geral do compartilhamento de etapas da jornada
+description: Visão geral do compartilhamento de etapas da jornada
 feature: Journeys, Reporting
 topic: Content Management
 role: Data Engineer, Data Architect, Admin
@@ -11,21 +11,21 @@ exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # Criar relatórios de jornada {#design-jo-reports}
 
-Além de [relatórios em tempo real](live-report.md) e incorporada [recursos de relatórios globais](global-report.md), [!DNL Journey Optimizer] O pode enviar automaticamente dados de desempenho do jornada para a Adobe Experience Platform, para que possa ser combinado com outros dados para fins de análise.
+Além dos [relatórios em tempo real](live-report.md) e dos [recursos de relatórios globais](global-report.md) internos, o [!DNL Journey Optimizer] pode enviar automaticamente dados de desempenho do jornada para a Adobe Experience Platform, para que ele possa ser combinado com outros dados para fins de análise.
 
 >[!NOTE]
 >
 >Esse recurso é ativado por padrão em todas as instâncias para eventos de etapas de jornada. Não é possível modificar ou atualizar os esquemas e conjuntos de dados que foram criados durante o provisionamento para eventos da etapa. Por padrão, esses esquemas e conjuntos de dados estão no modo somente leitura.
 
-Por exemplo, você configurou uma jornada que envia vários emails. Esse recurso permite combinar [!DNL Journey Optimizer] dados com dados de evento downstream, como quantas conversões ocorreram, quanto engajamento aconteceu no site ou quantas transações ocorreram na loja. As informações da jornada podem ser combinadas com dados no Adobe Experience Platform, a partir de outras propriedades digitais ou de propriedades offline, para fornecer uma visualização mais abrangente do desempenho.
+Por exemplo, você configurou uma jornada que envia vários emails. Esse recurso permite combinar dados do [!DNL Journey Optimizer] com dados de eventos downstream, como quantas conversões ocorreram, quanto de engajamento aconteceu no site ou quantas transações ocorreram no armazenamento. As informações da jornada podem ser combinadas com dados no Adobe Experience Platform, a partir de outras propriedades digitais ou de propriedades offline, para fornecer uma visualização mais abrangente do desempenho.
 
-[!DNL Journey Optimizer] O cria automaticamente os esquemas e fluxos necessários em conjuntos de dados para a Adobe Experience Platform para cada etapa que um indivíduo realiza em uma jornada. Um evento de etapa corresponde a um indivíduo movendo-se de um nó para outro em uma jornada. Por exemplo, em uma jornada que tenha um evento, uma condição e uma ação, os eventos de três etapas são enviados para o Adobe Experience Platform.
+O [!DNL Journey Optimizer] cria automaticamente os esquemas e fluxos necessários em conjuntos de dados para a Adobe Experience Platform para cada etapa que um indivíduo realiza em uma jornada. Um evento de etapa corresponde a um indivíduo movendo-se de um nó para outro em uma jornada. Por exemplo, em uma jornada que tenha um evento, uma condição e uma ação, os eventos de três etapas são enviados para o Adobe Experience Platform.
 
 Há casos em que vários eventos podem ser criados para o mesmo nó. Por exemplo, no caso da atividade Wait:
 
@@ -36,14 +36,14 @@ A lista de campos XDM transmitidos é abrangente. Alguns contêm códigos gerado
 
 >[!CAUTION]
 >
->Os conjuntos de dados não podem ser ativados para o serviço de perfil em tempo real. Certifique-se de que o **[!UICONTROL Perfil]** a opção de alternância está desativada.
+>Os conjuntos de dados não podem ser ativados para o serviço de perfil em tempo real. Verifique se a opção de alternância **[!UICONTROL Perfil]** está desativada.
 
-[!DNL Journey Optimizer] O envia dados conforme ocorrem, de forma streaming. Você pode consultar esses dados usando o Serviço de consulta. É possível conectar-se ao Customer Journey Analytics ou a outras ferramentas de BI para visualizar dados relacionados a essas etapas.
+[!DNL Journey Optimizer] envia dados conforme ocorrem, de forma streaming. Você pode consultar esses dados usando o Serviço de consulta. É possível conectar-se ao Customer Journey Analytics ou a outras ferramentas de BI para visualizar dados relacionados a essas etapas.
 
 Os seguintes esquemas são criados:
 
-* Esquema de evento de etapa de Jornada para [!DNL Journey Orchestration] - Evento de etapa de Jornada vinculado a Metadados de Jornada.
-* Jornada esquema com campos de Jornada para [!DNL Journey Orchestration] - Jornada metadados para descrever Jornadas.
+* Esquema de Evento de Etapa de Jornada para [!DNL Journey Orchestration] - Evento de etapa de Jornada vinculado a Metadados de Jornada.
+* Esquema de Jornada com Campos de Jornada para [!DNL Journey Orchestration] - Jornada Metadados para descrever Jornadas.
 
 ![](assets/sharing1.png)
 
@@ -63,12 +63,12 @@ As listas de campos XDM transmitidas para o Adobe Experience Platform estão det
 
 ## Integração com o Customer Journey Analytics {#integration-cja}
 
-[!DNL Journey Optimizer] Os eventos de etapa podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR){target="_blank"}.
+Os eventos de etapa [!DNL Journey Optimizer] podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR){target="_blank"}.
 
 O fluxo de trabalho geral é:
 
-* [!DNL Customer Journey Analytics] A assimila o conjunto de dados &quot;Evento de etapa de Jornada&quot;.
-* A variável **profileID** no &quot;Esquema de evento de etapa de Jornada para Journey Orchestration&quot; associado, é definido como um campo de identidade. Entrada [!DNL Customer Journey Analytics], você pode vincular esse conjunto de dados a qualquer outro que tenha o mesmo valor que o identificador com base em pessoas.
-* Para usar esse conjunto de dados no [!DNL Customer Journey Analytics], para análise de jornada entre canais, consulte [Documentação do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
+* [!DNL Customer Journey Analytics] assimila o conjunto de dados de &quot;Evento de etapa de Jornada&quot;.
+* O campo **profileID** no esquema de &quot;Evento de Etapa de Jornada para Journey Orchestration&quot; associado está definido como um campo de Identidade. Em [!DNL Customer Journey Analytics], você pode vincular esse conjunto de dados a qualquer outro que tenha o mesmo valor que o identificador baseado em pessoa.
+* Para usar este conjunto de dados no [!DNL Customer Journey Analytics], para análise de jornada entre canais, consulte a [documentação de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
-➡️ [Trabalhar com o Customer Journey Analytics](cja-ajo.md){target="_blank"}
+➡️ [Trabalhar com Customer Journey Analytics](cja-ajo.md){target="_blank"}

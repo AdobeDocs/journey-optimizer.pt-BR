@@ -16,11 +16,11 @@ ht-degree: 14%
 
 # Introdução a modelos de IA {#ai-models}
 
-[!DNL Journey Optimizer] O permite usar um sistema de modelo treinado que classifica as ofertas para exibição em determinado perfil.
+O [!DNL Journey Optimizer] permite usar um sistema de modelo treinado que classifica as ofertas para exibição em determinado perfil.
 
-Esse recurso permite criar **Modelos de IA** com base em suas metas comerciais. Ao usar essas diferentes estratégias baseadas em metas em uma decisão, o sistema de modelo treinado ajudará você a entender como os diferentes modelos de IA estão afetando suas metas.
+Este recurso permite criar **modelos de IA** diferentes com base em suas metas comerciais. Ao usar essas diferentes estratégias baseadas em metas em uma decisão, o sistema de modelo treinado ajudará você a entender como os diferentes modelos de IA estão afetando suas metas.
 
-Por exemplo, você pode selecionar um modelo de IA para o canal de email e outro para o canal de push. Para cada canal, o sistema de modelo treinado aproveitará vários pontos de dados para determinar qual oferta deve ser apresentada primeiro para um determinado posicionamento, em vez de considerar as pontuações de prioridade das ofertas ou uma [fórmula de classificação](create-ranking-formulas.md).
+Por exemplo, você pode selecionar um modelo de IA para o canal de email e outro para o canal de push. Para cada canal, o sistema de modelo treinado utilizará vários pontos de dados para determinar qual oferta deve ser apresentada primeiro para um determinado posicionamento, em vez de considerar as pontuações de prioridade das ofertas ou uma [fórmula de classificação](create-ranking-formulas.md).
 
 >[!IMPORTANT]
 >
@@ -36,9 +36,9 @@ Por exemplo, você pode selecionar um modelo de IA para o canal de email e outro
 
 Dois tipos de modelos de IA estão disponíveis em [!DNL Journey Optimizer]:
 
-* **Modelos de otimização automática** O objetivo é fornecer ofertas que maximizam o retorno (KPIs) definido pelos clientes empresariais. Esses KPIs podem estar na forma de taxas de conversão, receita etc. Nesse ponto, a Otimização automática se concentra na otimização de cliques na oferta com a conversão de oferta como destino. A otimização automática não é personalizada e é otimizada com base no desempenho &quot;global&quot; das ofertas. [Saiba mais](auto-optimization-model.md)
+* **Os modelos de otimização automática** têm como objetivo fornecer ofertas que maximizam o retorno (KPIs) definido pelos clientes empresariais. Esses KPIs podem estar na forma de taxas de conversão, receita etc. Nesse ponto, a Otimização automática se concentra na otimização de cliques na oferta com a conversão de oferta como destino. A otimização automática não é personalizada e é otimizada com base no desempenho &quot;global&quot; das ofertas. [Saiba mais](auto-optimization-model.md)
 
-* **Modelos de otimização personalizados** O permite definir metas de negócios e utilizar dados do cliente para treinar modelos orientados a negócios para fornecer ofertas personalizadas e maximizar KPIs. [Saiba mais](personalized-optimization-model.md)
+* **Os modelos de otimização personalizados** permitem definir metas comerciais e utilizar dados do cliente para treinar modelos orientados para negócios a fim de fornecer ofertas personalizadas e maximizar KPIs. [Saiba mais](personalized-optimization-model.md)
 
 ## Criação de um modelo de IA {#create-ai-model}
 
@@ -52,6 +52,6 @@ As principais etapas para criar e usar modelos de IA são as seguintes:
 
    >[!IMPORTANT]
    >
-   >Os modelos de classificação exigem que os eventos de feedback sejam enviados como eventos de experiência para serem coletados. [Saiba mais sobre a coleção de dados da Gestão de decisões](../data-collection/data-collection.md)
+   >Os modelos de classificação exigem que os eventos de feedback sejam enviados como eventos de experiência para serem coletados. [Saiba mais sobre a coleção de dados de Gestão de decisão](../data-collection/data-collection.md)
 
 1. Atribua o modelo de IA a um posicionamento em uma decisão para classificar ofertas elegíveis. [Saiba mais](../offer-activities/configure-offer-selection.md)

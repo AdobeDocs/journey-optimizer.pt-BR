@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução a modelos de conteúdo
+title: Introdução aos modelos de conteúdo
 description: Saiba como trabalhar com modelos de conteúdo para reutilizar conteúdo em campanhas e jornadas do Journey Optimizer
 feature: Templates
 topic: Content Management
@@ -11,14 +11,14 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
 
-# Introdução a modelos de conteúdo {#content-templates}
+# Introdução aos modelos de conteúdo {#content-templates}
 
-Para um processo de design acelerado e aprimorado, é possível criar modelos independentes para reutilizar facilmente o conteúdo personalizado em [!DNL Journey Optimizer] campanhas e jornadas.
+Para um processo de design acelerado e aprimorado, você pode criar modelos independentes para reutilizar facilmente o conteúdo personalizado em [!DNL Journey Optimizer] campanhas e jornadas.
 
 Essa funcionalidade permite que usuários orientados a conteúdo trabalhem em modelos fora de campanhas ou jornadas. Os usuários de marketing podem então reutilizar e adaptar esses modelos de conteúdo independentes em suas próprias jornadas ou campanhas.
 
@@ -26,7 +26,7 @@ Essa funcionalidade permite que usuários orientados a conteúdo trabalhem em mo
 
 Por exemplo, um usuário em sua empresa é responsável apenas pelo conteúdo e, portanto, não tem acesso a campanhas ou jornadas. No entanto, esse usuário pode criar um modelo de email que os profissionais de marketing da sua organização poderão selecionar para uso em todos os emails como ponto de partida.
 
-Você também pode criar e gerenciar modelos de conteúdo usando APIs. Para obter mais informações, consulte [Documentação das APIs do Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+Você também pode criar e gerenciar modelos de conteúdo usando APIs. Para obter mais informações, consulte a [documentação das APIs do Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
 ➡️ [Saiba como criar e usar modelos neste vídeo](#video-templates)
 
@@ -34,7 +34,7 @@ Você também pode criar e gerenciar modelos de conteúdo usando APIs. Para obte
 >
 >Atualmente, os modelos de conteúdo não estão disponíveis para o canal da Web.
 >
->Para criar, editar e excluir modelos de conteúdo, você deve ter a **[!DNL Manage library items]** permissão incluída na **[!DNL Content Library Manager]** perfil do produto. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
+>Para criar, editar e excluir modelos de conteúdo, você deve ter a permissão **[!DNL Manage library items]** incluída no perfil de produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## Vídeo explicativo {#video-templates}
 

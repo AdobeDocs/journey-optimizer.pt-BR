@@ -17,9 +17,9 @@ ht-degree: 27%
 
 # Gerenciar fragmentos {#manage-fragments}
 
-Para gerenciar os fragmentos, acesse a lista de fragmentos na **[!UICONTROL Gestão de conteúdo]** > **[!UICONTROL Fragmentos]** menu esquerdo.
+Para gerenciar os fragmentos, acesse a lista de fragmentos do menu esquerdo **[!UICONTROL Gerenciamento de conteúdo]** > **[!UICONTROL Fragmentos]**.
 
-Todos os fragmentos criados na sandbox atual - ou [do **[!UICONTROL Fragmentos]** menu](#create-fragments), utilizando o [Salvar como fragmento](#save-as-fragment) opção - são exibidas.
+Todos os fragmentos criados na sandbox atual - [no menu **[!UICONTROL Fragmentos]**](#create-fragments), usando a opção [Salvar como fragmento](#save-as-fragment) - são exibidos.
 
 ![](assets/fragment-list-filters.png)
 
@@ -33,12 +33,12 @@ Você pode filtrar fragmentos em:
 
 Você também pode optar por mostrar todos os fragmentos ou somente os itens que o usuário atual criou ou modificou.
 
-No **[!UICONTROL Mais ações]** ao lado de cada fragmento, é possível:
+No botão **[!UICONTROL Mais ações]** ao lado de cada fragmento, é possível:
 
 * Duplique um fragmento.
-* Use o **[!UICONTROL Explorar referências]** opção para ver as jornadas, campanhas ou templates onde são usados. [Saiba mais](#explore-references)
+* Use a opção **[!UICONTROL Explorar referências]** para ver as jornadas, campanhas ou modelos em que é usado. [Saiba mais](#explore-references)
 * Arquivar um fragmento. [Saiba mais](#archive-fragments)
-* Editar as tags de um fragmento [Saiba como trabalhar com tags unificadas](../start/search-filter-categorize.md#tags).
+* Edite as marcas de um fragmento [Saiba como trabalhar com marcas unificadas](../start/search-filter-categorize.md#tags).
 
 ![](assets/fragment-list-more-actions.png)
 
@@ -54,16 +54,16 @@ Os fragmentos podem ter vários status:
 
 * **[!UICONTROL Rascunho]**: O fragmento está sendo editado e não foi aprovado.
 
-* **[!UICONTROL Ao vivo]**: o fragmento foi aprovado e está ativo. [Saiba como publicar um fragmento](../content-management/create-fragments.md#publish)
+* **[!UICONTROL Live]**: o fragmento foi aprovado e está ativo. [Saiba como publicar um fragmento](../content-management/create-fragments.md#publish)
 
   Quando um fragmento em tempo real está sendo editado, um ícone específico ao lado do status é exibido. Clique nesse ícone para abrir a versão de rascunho do fragmento.
 
-* **[!UICONTROL Publicação]**: O fragmento foi aprovado e está sendo publicado.
-* **[!UICONTROL Arquivado]**: O fragmento foi arquivado. [Saiba como arquivar fragmentos](#archive-fragments)
+* **[!UICONTROL Publicação]**: o fragmento foi aprovado e está sendo publicado.
+* **[!UICONTROL Arquivado]**: o fragmento foi arquivado. [Saiba como arquivar fragmentos](#archive-fragments)
 
 >[!CAUTION]
 >
->Como os status **Rascunho** e **Ativo** foram introduzidos com a versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status “Rascunho”, mesmo se forem usados em uma jornada ou campanha. Ao fazer qualquer alteração nesses fragmentos, será necessário publicá-los para torná-los “Ativos” e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la. A publicação requer o [Fragmento do Publish](../administration/ootb-product-profiles.md#content-library-manager) permissão de usuário.
+>Como os status **Rascunho** e **Ativo** foram introduzidos com a versão de junho do Journey Optimizer, todos os fragmentos criados antes desta versão têm o status “Rascunho”, mesmo se forem usados em uma jornada ou campanha. Ao fazer qualquer alteração nesses fragmentos, será necessário publicá-los para torná-los “Ativos” e propagar as alterações para as campanhas e jornadas associadas. Também é necessário criar uma nova versão da jornada/campanha e publicá-la. A publicação requer a permissão de usuário [Fragmento de Publish](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Editar fragmentos {#edit-fragments}
 
@@ -79,29 +79,29 @@ Os fragmentos podem ter vários status:
 
 Para editar um fragmento, siga as etapas abaixo.
 
-1. Clique no fragmento desejado na guia **[!UICONTROL Fragmentos]** lista.
+1. Clique no fragmento desejado na lista **[!UICONTROL Fragmentos]**.
 
 1. As propriedades do fragmento são abertas com uma visualização de seu conteúdo.
 
-1. Se o fragmento que está sendo editado tiver a **Ao vivo** , clique no link **Modificar** botão para criar uma versão de rascunho do fragmento. A versão atual do fragmento continuará ativa, até que você publique a versão de rascunho.
+1. Se o fragmento que está sendo editado tiver o status **Ativo**, clique no botão **Modificar** para criar uma versão de rascunho do fragmento. A versão atual do fragmento continuará ativa, até que você publique a versão de rascunho.
 
-1. Faça as alterações desejadas no fragmento. Para editar o conteúdo, clique no link **Editar** e, em seguida, edite o conteúdo da mesma maneira que faria ao criar um fragmento do zero. [Saiba como criar um fragmento](#create-from-scratch)
+1. Faça as alterações desejadas no fragmento. Para editar o conteúdo, clique no botão **Editar** e edite o conteúdo da mesma maneira que faria ao criar um fragmento do zero. [Saiba como criar um fragmento](#create-from-scratch)
 
    >[!NOTE]
    >
    >Ao editar um fragmento de expressão, você pode remover qualquer campo de personalização, mas não pode adicionar novos ao conteúdo do fragmento. Se quiser adicionar campos de personalização, duplique o fragmento para criar um novo.
 
-   Você também pode verificar a lista de jornadas, campanhas e modelos de conteúdo em que o fragmento está sendo usado no momento selecionando o **Referências do Explorer** opção. [Saiba mais](#explore-references)
+   Você também pode verificar a lista de jornadas, campanhas e modelos de conteúdo em que o fragmento está sendo usado no momento selecionando a opção **Referências do Explorer**. [Saiba mais](#explore-references)
 
    ![](assets/fragment-edit.png)
 
-1. Quando as alterações estiverem prontas, clique no link **Publish** botão para ativar as modificações.
+1. Quando as alterações estiverem prontas, clique no botão **Publish** para ativar as modificações.
 
-Ao editar um fragmento, as alterações são propagadas automaticamente para todo o conteúdo usando esse fragmento, incluindo jornadas e campanhas ativas, com exceção do conteúdo em que você interrompeu a herança do fragmento original. Saiba como interromper a herança no [Adicionar fragmentos visuais aos seus emails](../email/use-visual-fragments.md#break-inheritance) e [Aproveitar fragmentos de expressão](../personalization/use-expression-fragments.md#break-inheritance) seções.
+Ao editar um fragmento, as alterações são propagadas automaticamente para todo o conteúdo usando esse fragmento, incluindo jornadas e campanhas ativas, com exceção do conteúdo em que você interrompeu a herança do fragmento original. Saiba como interromper a herança nas seções [Adicionar fragmentos visuais aos seus emails](../email/use-visual-fragments.md#break-inheritance) e [Aproveitar fragmentos de expressão](../personalization/use-expression-fragments.md#break-inheritance).
 
 ## Explorar referências {#explore-references}
 
-Você pode exibir a lista de jornadas, campanhas e modelos de conteúdo que estão usando um fragmento no momento. Para fazer isso, selecione **[!UICONTROL Explorar referências]** na caixa **[!UICONTROL Mais ações]** na lista de fragmentos ou na tela propriedades do fragmento.
+Você pode exibir a lista de jornadas, campanhas e modelos de conteúdo que estão usando um fragmento no momento. Para fazer isso, selecione **[!UICONTROL Explorar referências]** no menu **[!UICONTROL Mais ações]** da lista de fragmentos ou na tela de propriedades do fragmento.
 
 ![](assets/fragment-explore-references.png)
 
@@ -111,20 +111,20 @@ Selecione uma guia para alternar entre jornadas, campanhas, modelos e fragmentos
 
 >[!NOTE]
 >
->Se o fragmento for usado em uma jornada, campanha ou modelo que tenha um rótulo que o impeça de acessá-lo, você verá uma mensagem de alerta na parte superior da guia selecionada. [Saiba mais sobre o OLAC (Object Level Access Control)](../administration/object-based-access.md)
+>Se o fragmento for usado em uma jornada, campanha ou modelo que tenha um rótulo que o impeça de acessá-lo, você verá uma mensagem de alerta na parte superior da guia selecionada. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md)
 
 ## Arquivar fragmentos {#archive-fragments}
 
 Você pode limpar a lista de fragmentos dos itens que não são mais relevantes para sua marca.
 
-Para fazer isso, clique no link **[!UICONTROL Mais ações]** ao lado do fragmento desejado e selecione **[!UICONTROL Arquivar]**. Ele desaparecerá da lista de fragmentos, o que impede que os usuários o usem em emails ou modelos futuros.
+Para fazer isso, clique no botão **[!UICONTROL Mais ações]** ao lado do fragmento desejado e selecione **[!UICONTROL Arquivar]**. Ele desaparecerá da lista de fragmentos, o que impede que os usuários o usem em emails ou modelos futuros.
 
 ![](assets/fragment-list-archive.png)
 
 >[!NOTE]
 >
->Se você arquivar um fragmento usado em um conteúdo, <!--it will remain in the email or template, but you won't be able to select it from the fragment list to edit it-->que o conteúdo não será afetado.
+>Se você arquivar um fragmento usado em um conteúdo, <!--it will remain in the email or template, but you won't be able to select it from the fragment list to edit it-->esse conteúdo não será afetado.
 
-Para desarquivar um fragmento, filtre na variável **[!UICONTROL Arquivado]** itens e selecione **[!UICONTROL Desarquivar]** do **[!UICONTROL Mais ações]** menu. Agora ele pode ser acessado novamente na lista de fragmentos e pode ser usado em qualquer email ou modelo.
+Para desarquivar um fragmento, filtre os itens **[!UICONTROL Arquivados]** e selecione **[!UICONTROL Desarquivar]** no menu **[!UICONTROL Mais ações]**. Agora ele pode ser acessado novamente na lista de fragmentos e pode ser usado em qualquer email ou modelo.
 
 ![](assets/fragment-list-unarchive.png)

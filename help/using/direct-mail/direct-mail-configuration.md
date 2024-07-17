@@ -16,19 +16,19 @@ ht-degree: 22%
 
 # Configuração de correspondência direta {#direct-mail-configuration}
 
-[!DNL Journey Optimizer] O permite personalizar e gerar os arquivos exigidos por provedores de correspondência direta para enviar emails a seus clientes.
+O [!DNL Journey Optimizer] permite que você personalize e gere os arquivos necessários aos provedores de correspondência direta para enviar emails aos seus clientes.
 
-Quando [criação de uma mensagem de correspondência direta](../direct-mail/create-direct-mail.md), você define os dados do público-alvo, incluindo as informações de contato escolhidas (endereço postal por exemplo). Um arquivo contendo esses dados será gerado e exportado automaticamente para um servidor, onde seu provedor de correspondência direta poderá recuperá-lo e cuidar do envio real.
+Ao [criar uma mensagem de correspondência direta](../direct-mail/create-direct-mail.md), você define os dados do público alvo, incluindo as informações de contato escolhidas (endereço postal por exemplo). Um arquivo contendo esses dados será gerado e exportado automaticamente para um servidor, onde seu provedor de correspondência direta poderá recuperá-lo e cuidar do envio real.
 
 Antes de poder gerar esse arquivo, é necessário criar:
 
-1. A [configuração de roteamento de arquivos](#file-routing-configuration) para especificar o servidor para o qual o arquivo será exportado e criptografar o arquivo, se necessário.
+1. Uma [configuração de roteamento de arquivo](#file-routing-configuration) para especificar o servidor para o qual o arquivo será exportado e criptografá-lo, se necessário.
 
    >[!CAUTION]
    >
-   >Para criar uma configuração de roteamento de arquivo, você precisa ter o **[!DNL Manage file routing]** permissão integrada. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager).
+   >Para criar uma configuração de roteamento de arquivo, você precisa ter a permissão interna **[!DNL Manage file routing]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager).
 
-1. A [superfície de correspondência direta](#direct-mail-surface) que referenciará a configuração de roteamento de arquivos. Se você não tiver configurado nenhuma opção de roteamento de arquivo, não será possível criar uma superfície de correspondência direta.
+1. Uma [superfície de correspondência direta](#direct-mail-surface) que fará referência à configuração de roteamento de arquivos. Se você não tiver configurado nenhuma opção de roteamento de arquivo, não será possível criar uma superfície de correspondência direta.
 
 ## Configurar o roteamento de arquivos {#file-routing-configuration}
 
@@ -60,9 +60,9 @@ Antes de poder gerar esse arquivo, é necessário criar:
 
 >[!NOTE]
 >
->Atualmente, o Amazon S3, SFTP e Azure são compatíveis com o [!DNL Journey Optimizer].
+>Atualmente, o Amazon S3, SFTP e Azure têm suporte no [!DNL Journey Optimizer].
 
-Para enviar uma mensagem de correspondência direta, [!DNL Journey Optimizer] O gera e exporta o arquivo contendo os dados do público-alvo direcionado para um servidor.
+Para entregar uma mensagem de correspondência direta, o [!DNL Journey Optimizer] gera e exporta o arquivo contendo os dados do público-alvo direcionado para um servidor.
 
 Você precisa especificar esses detalhes do servidor para que o provedor de correspondência direta possa acessar e usar esse arquivo para entregar email.
 
@@ -72,93 +72,93 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 >[!TAB Amazon S3]
 
-1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de roteamento de arquivos]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de roteamento de arquivos]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Defina um nome para a sua configuração.
 
-1. Selecionar **Amazon S3** como o **[!UICONTROL Tipo de servidor]** para usar na exportação de arquivos de correspondência direta.
+1. Selecione **Amazon S3** como o **[!UICONTROL Tipo de servidor]** a ser usado para exportar os arquivos de correspondência direta.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
 1. Preencha os detalhes e as credenciais do seu servidor
 
-   * **Nome do bucket do AWS**:Para saber onde encontrar o nome do bucket do AWS, consulte [esta página](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
+   * **Nome do bucket do AWS**:Para saber onde encontrar o nome do seu bucket do AWS, consulte [esta página](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-   * **Chave de acesso do AWS**: para saber onde encontrar a ID da chave de acesso do AWS, consulte [esta página](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
+   * **Chave de acesso do AWS**: para saber onde encontrar sua ID de chave de acesso do AWS, consulte [esta página](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-   * **Chave secreta do AWS**: para saber onde encontrar a chave secreta do AWS, consulte [esta página](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+   * **Chave secreta do AWS**: para saber onde encontrar sua chave secreta do AWS, consulte [esta página](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
-   * **Região do AWS**: escolha a variável **[!UICONTROL Região do AWS]** onde a infraestrutura do servidor estará localizada. As regiões do AWS são áreas geográficas que o AWS usa para hospedar sua infraestrutura em nuvem. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta.
+   * **região do AWS**: escolha a **[!UICONTROL região do AWS]** onde a infraestrutura do servidor estará localizada. As regiões do AWS são áreas geográficas que o AWS usa para hospedar sua infraestrutura em nuvem. Como prática geral, é preferível escolher a região mais próxima da localização do provedor de correspondência direta.
 
    ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
-1. Para criptografar o arquivo, copie e cole sua chave de criptografia na **[!UICONTROL Chave de criptografia PGP/GPG]** campo.
+1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-1. Selecionar **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos é criada com o **[!UICONTROL Ativo]** status. Agora ele está pronto para ser usado em um [superfície de correspondência direta](#direct-mail-surface).
+1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [superfície de correspondência direta](#direct-mail-surface).
 
-   Também é possível selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas você não poderá selecioná-la em uma superfície até que ela seja **[!UICONTROL Ativo]**.
+   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivos, mas não poderá selecioná-la em uma superfície até que ela esteja **[!UICONTROL Ativa]**.
 
 >[!TAB SFTP]
 
-1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de roteamento de arquivos]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de roteamento de arquivos]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Defina um nome para a sua configuração.
 
-1. Selecionar SFTP como **[!UICONTROL Tipo de servidor]** para usar na exportação de arquivos de correspondência direta.
+1. Selecione SFTP como **[!UICONTROL Tipo de servidor]** a ser usado para exportar os arquivos de correspondência direta.
 
    ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
 
 1. Preencha os detalhes e as credenciais do servidor:
 
-   * **Conta**: nome da conta usado para conectar ao servidor SFTP.
+   * **Conta**: nome da conta usado para conexão com o servidor SFTP.
 
-   * **Endereço do servidor**: &#x200B;URL do servidor SFTP.
+   * **Endereço do servidor**: URL &#x200B; servidor SFTP.
 
    * **Porta**: número da porta de conexão FTP.
 
-   * **Senha**:&#x200B; Senha usada para se conectar ao servidor SFTP.
+   * **Senha**:&#x200B; senha usada para conectar ao servidor SFTP.
 
    ![](assets/file-routing-config-sftp-detail.png)
 
-1. Para criptografar o arquivo, copie e cole sua chave de criptografia na **[!UICONTROL Chave de criptografia PGP/GPG]** campo.
+1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-1. Selecionar **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos é criada com o **[!UICONTROL Ativo]** status. Agora ele está pronto para ser usado em um [superfície de correspondência direta](#direct-mail-surface).
+1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [superfície de correspondência direta](#direct-mail-surface).
 
-   Também é possível selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas você não poderá selecioná-la em uma superfície até que ela seja **[!UICONTROL Ativo]**.
+   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivos, mas não poderá selecioná-la em uma superfície até que ela esteja **[!UICONTROL Ativa]**.
 
 >[!TAB Azure]
 
-1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de roteamento de arquivos]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de roteamento de arquivos]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Defina um nome para a sua configuração.
 
-1. Selecionar Azure **[!UICONTROL Tipo de servidor]** para usar na exportação de arquivos de correspondência direta.
+1. Selecione o **[!UICONTROL Tipo de servidor]** do Azure a ser usado para exportar os arquivos de correspondência direta.
 
    ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
 
 1. Preencha os detalhes e as credenciais do servidor:
 
-   * **Cadeia de Conexão do Azure**: para encontrar o seu **Cadeia de Conexão do Azure**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+   * **Cadeia de Conexão do Azure**: para encontrar sua **Cadeia de Conexão do Azure**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
 
-     A variável **Cadeia de Conexão do Azure** deve seguir o formato abaixo:
+     A **Cadeia de Conexão do Azure** deve seguir o formato abaixo:
 
      `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-   * **Nome do contêiner**: para encontrar o seu **Nome do contêiner**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+   * **Nome do Contêiner**: para localizar seu **Nome do Contêiner**, consulte [esta página](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
 
-     A variável **Nome do contêiner** deve conter somente o nome do contêiner sem barras. Para especificar um caminho no container para salvar o arquivo, atualize o nome de arquivo da campanha de correspondência direta para incluir o caminho desejado.
+     O **Nome do Contêiner** deve conter somente o nome do contêiner sem barras. Para especificar um caminho no container para salvar o arquivo, atualize o nome de arquivo da campanha de correspondência direta para incluir o caminho desejado.
 
-1. Para criptografar o arquivo, copie e cole sua chave de criptografia na **[!UICONTROL Chave de criptografia PGP/GPG]** campo.
+1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-1. Selecionar **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos é criada com o **[!UICONTROL Ativo]** status. Agora ele está pronto para ser usado em um [superfície de correspondência direta](#direct-mail-surface).
+1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [superfície de correspondência direta](#direct-mail-surface).
 
-   Também é possível selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas você não poderá selecioná-la em uma superfície até que ela seja **[!UICONTROL Ativo]**.
+   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivos, mas não poderá selecioná-la em uma superfície até que ela esteja **[!UICONTROL Ativa]**.
 
 >[!ENDTABS]
 
@@ -181,13 +181,13 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 >title="Definir o limite de divisão de arquivo"
 >abstract="É necessário definir o número máximo de registros para cada arquivo contendo dados de público. Você pode selecionar qualquer número entre 1 e 200.000 registros. Depois que o limite especificado for atingido, outro arquivo será criado para os registros restantes."
 
-Para poder enviar mala direta com [!DNL Journey Optimizer], é necessário criar uma superfície de canal para definir as configurações de formatação do arquivo que será usado pelo provedor de email.
+Para entregar correspondência direta com [!DNL Journey Optimizer], você precisa criar uma superfície de canal para definir as configurações de formatação do arquivo que será usado pelo provedor de email.
 
 Uma superfície de correspondência direta também deve incluir a configuração de roteamento de arquivos, que define o servidor para o qual o arquivo de correspondência direta será exportado.
 
 1. Crie uma superfície de canal. [Saiba mais](../configuration/channel-surfaces.md)
 
-1. Selecione o **[!UICONTROL Correspondência direta]** canal.
+1. Selecione o canal **[!UICONTROL Correspondência direta]**.
 
    ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
 
@@ -199,11 +199,11 @@ Uma superfície de correspondência direta também deve incluir a configuração
 
 1. Selecione o formato de arquivo: **[!UICONTROL CSV]** ou **[!UICONTROL Delimitado por texto]**.
 
-1. Se você selecionar **[!UICONTROL Delimitado por texto]**, defina o separador de coluna de sua escolha: tabulação, ponto e vírgula, barra vertical ou e comercial.
+1. Se você selecionar **[!UICONTROL Texto delimitado]**, defina o separador de coluna de sua escolha: tabulação, ponto e vírgula, barra vertical ou E comercial.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
-1. Selecione o **[!UICONTROL Configuração de roteamento de arquivos]** entre os que você criou. Isso define para onde o arquivo será exportado para ser usado pelo provedor de correspondência direta.
+1. Selecione a **[!UICONTROL Configuração de roteamento de arquivos]** entre as que você criou. Isso define para onde o arquivo será exportado para ser usado pelo provedor de correspondência direta.
 
    >[!CAUTION]
    >

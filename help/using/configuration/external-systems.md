@@ -37,7 +37,7 @@ Quando o Journey Optimizer executa uma chamada para uma API externa, as medidas 
 
 Ao configurar uma fonte de dados ou uma ação, você estabelece uma conexão com um sistema para recuperar informações adicionais e usar em suas jornadas ou enviar mensagens ou chamadas de API.
 
-As APIs de jornadas comportam até 5000 eventos por segundo, mas alguns sistemas externos ou APIs podem não ter uma taxa de transferência equivalente. Para evitar sobrecarga desses sistemas, você pode usar o **Limite** e **Limitação** APIs para limitar o número de eventos enviados por segundo.
+As APIs de jornadas comportam até 5000 eventos por segundo, mas alguns sistemas externos ou APIs podem não ter uma taxa de transferência equivalente. Para evitar sobrecarga desses sistemas, você pode usar as APIs **Limite** e **Limitação** para limitar o número de eventos enviados por segundo.
 
 Toda vez que uma chamada de API é executada pelas jornadas, ela passa pelo mecanismo da API. Se o limite definido na API for atingido, a chamada será rejeitada se você estiver usando a API de limitação ou colocada em fila por até 6 horas e processada assim que possível na ordem em que foi recebida se você estiver usando a API de limitação.
 
@@ -45,18 +45,18 @@ Por exemplo, digamos que você tenha definido uma regra de limitação ou limita
 
 >[!IMPORTANT]
 >
->**Regras de limite** são configurados no nível da sandbox, para um endpoint específico (o URL chamado), mas globais para todas as jornadas dessa sandbox. O limite está disponível em fontes de dados e ações personalizadas.
+>**As regras de limitação** são configuradas no nível da sandbox para um terminal específico (a URL chamada), mas global para todas as jornadas dessa sandbox. O limite está disponível em fontes de dados e ações personalizadas.
 >
 >As **regras de limitação** são configuradas apenas em sandboxes de produção para um ponto de acesso específico, porém, são globais para todas as jornadas em todas as sandboxes. Você pode ter apenas uma configuração de limitação por organização. A limitação só está disponível em ações personalizadas.
 >
->A variável **maxCallsCount** o valor deve ser maior que 1.
+>O valor **maxCallsCount** deve ser maior que 1.
 
 Para obter mais informações sobre como trabalhar com as APIs, consulte estas seções:
 
 * [API de limite](capping.md)
 * [API de limitação](throttling.md)
 
-Uma descrição detalhada das APIs está disponível em [Documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
+Uma descrição detalhada das APIs está disponível na [documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
 
 ### Capacidade de ações personalizadas e fontes de dados {#capacity}
 
@@ -96,7 +96,7 @@ Vamos ver um exemplo para um tempo limite de 5 segundos.
 
 ## Perguntas frequentes{#faq}
 
-**Como posso configurar uma regra de limitação ou limitação? Há uma regra padrão?**
+**Como posso configurar uma regra de limitação ou limitação? Existe uma regra padrão?**
 
 Por padrão, não há regra de limitação. As regras são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação ou limitação. Consulte [esta seção](../configuration/external-systems.md#capping).
 
@@ -104,6 +104,6 @@ Por padrão, não há regra de limitação. As regras são definidas no nível d
 
 Para uma determinada chamada, um máximo de três tentativas pode ser executado após a primeira chamada, até que a duração do tempo limite seja atingida. O número de tentativas e o tempo entre cada nova tentativa não podem ser alterados. Consulte [esta seção](../configuration/external-systems.md#timeout).
 
-**Onde posso configurar o tempo limite? Há um valor máximo?**
+**Onde posso configurar o tempo limite? Existe um valor máximo?**
 
-Em cada jornada, é possível definir uma duração de tempo limite. A duração do tempo limite é configurada nas propriedades de uma jornada. A duração do tempo limite deve estar entre 1 segundo e 30 segundos. Consulte [nesta seção](../configuration/external-systems.md#timeout) e [esta página](../building-journeys/journey-properties.md#timeout_and_error).
+Em cada jornada, é possível definir uma duração de tempo limite. A duração do tempo limite é configurada nas propriedades de uma jornada. A duração do tempo limite deve estar entre 1 segundo e 30 segundos. Consulte [esta seção](../configuration/external-systems.md#timeout) e [esta página](../building-journeys/journey-properties.md#timeout_and_error).

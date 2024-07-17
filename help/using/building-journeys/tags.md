@@ -22,7 +22,7 @@ Como um profissional da Journey Optimizer, você pode organizar suas jornadas us
 
 ## Adicionar tags a uma jornada
 
-A variável **Tags** nas propriedades da jornada, permite definir tags para a jornada. É possível selecionar uma tag já existente ou criar uma nova. Comece a digitar o nome da tag desejada e selecione-a na lista. Se não estiver disponível, clique em **Criar** para criar um novo e adicioná-lo à jornada. É possível definir quantas tags forem necessárias.
+O campo **Marcas**, nas propriedades da jornada, permite definir marcas para a jornada. É possível selecionar uma tag já existente ou criar uma nova. Comece a digitar o nome da tag desejada e selecione-a na lista. Se não estiver disponível, clique em **Criar** para criar um novo e adicioná-lo à jornada. É possível definir quantas tags forem necessárias.
 
 ![](assets/tags1.png)
 
@@ -42,7 +42,7 @@ Um filtro também está disponível para exibir apenas jornadas com determinadas
 
 ![](assets/tags2.png)
 
-É possível adicionar ou remover tags de qualquer tipo de jornada (ativa, rascunho etc.). Clique em **Mais ações** ícone ao lado da jornada e selecione **Editar tags**.
+É possível adicionar ou remover tags de qualquer tipo de jornada (ativa, rascunho etc.). Clique no ícone **Mais ações** ao lado da jornada e selecione **Editar marcas**.
 
 ![](assets/tags3.png)
 

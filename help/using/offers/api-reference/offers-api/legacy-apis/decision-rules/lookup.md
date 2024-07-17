@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Pesquisar uma regra de decisão {#lookup-decision-rule}
 
-Você pode pesquisar uma regra de decisão específica fazendo uma solicitação GET para a [!DNL Offer Library] API que inclui a regra de decisão `@id` ou o nome da regra de decisão no caminho da solicitação.
+Você pode pesquisar uma regra de decisão específica fazendo uma solicitação GET para a API [!DNL Offer Library] que inclui a regra de decisão `@id` ou o nome da regra de decisão no caminho da solicitação.
 
 **Formato da API**
 
@@ -28,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | O contêiner onde as regras de decisão estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ELIGIBILITY_RULE}` | Define o esquema associado às regras de decisão. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | Uma string usada para corresponder ao `@id` propriedade das entidades. A string é exatamente igual. O parâmetro s `id` e `name` não podem ser usados juntos. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `id` | Uma cadeia de caracteres usada para corresponder à propriedade `@id` das entidades. A string é exatamente igual. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
 | `name` | Uma sequência de caracteres usada para corresponder à propriedade xdm:name das entidades. A string é exatamente igual, com maiúsculas e minúsculas, mas caracteres curinga podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `Sales rule` |
 
 **Solicitação**

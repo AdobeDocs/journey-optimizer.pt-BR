@@ -11,7 +11,7 @@ exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -106,7 +106,7 @@ Você pode ver que &quot;produtos&quot; é uma matriz de dois objetos. Você pre
 
 1. Crie sua ação personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-1. No **[!UICONTROL Parâmetros de ação]** cole o exemplo JSON. A estrutura exibida é estática: ao colar a carga, todos os campos são definidos como constantes.
+1. Na seção **[!UICONTROL Parâmetros de ação]**, cole o exemplo de JSON. A estrutura exibida é estática: ao colar a carga, todos os campos são definidos como constantes.
 
    ![](assets/uc-collection-1.png)
 
@@ -128,7 +128,7 @@ Você pode ver que &quot;produtos&quot; é uma matriz de dois objetos. Você pre
 
 1. Crie sua jornada e adicione a ação personalizada que você criou. Consulte [esta página](../building-journeys/using-custom-actions.md).
 
-1. No **[!UICONTROL Parâmetros de ação]** defina o parâmetro de matriz (&quot;products&quot; em nosso exemplo) usando o editor de expressão avançado.
+1. Na seção **[!UICONTROL Parâmetros de ação]**, defina o parâmetro de matriz (&quot;products&quot; em nosso exemplo) usando o editor de expressão avançado.
 
    ![](assets/uc-collection-3.png)
 
@@ -136,7 +136,7 @@ Você pode ver que &quot;produtos&quot; é uma matriz de dois objetos. Você pre
 
    ![](assets/uc-collection-4.png)
 
-Para o campo de matriz, também é possível usar o editor de expressão avançado para executar a manipulação de dados. No exemplo a seguir, usamos o [filtro](functions/functionfilter.md) e [interseção](functions/functionintersect.md) funções:
+Para o campo de matriz, também é possível usar o editor de expressão avançado para executar a manipulação de dados. No exemplo a seguir, usamos as funções [filtro](functions/functionfilter.md) e [interseção](functions/functionintersect.md):
 
 ![](assets/uc-collection-5.png)
 

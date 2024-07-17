@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Pesquisar um posicionamento {#look-up-placement}
 
-Você pode pesquisar inserções específicas fazendo uma solicitação GET para a [!DNL Offer Library] API que inclui a inserção `id`.
+Você pode pesquisar posicionamentos específicos fazendo uma solicitação GET para a API [!DNL Offer Library] que inclui o posicionamento `id`.
 
 **Formato da API**
 
@@ -39,7 +39,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/placements/offerPlacement12
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes do posicionamento, incluindo informações sobre posicionamento exclusivo `id`.
+Uma resposta bem-sucedida retorna os detalhes do posicionamento, incluindo informações sobre o posicionamento exclusivo `id`.
 
 ```json
 {

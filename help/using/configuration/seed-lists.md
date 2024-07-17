@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Seed lists
+title: Listas de seeds
 description: Saiba como usar listas de propagação no Journey Optimizer
 feature: Seed Lists, Channel Configuration
 topic: Content Management
@@ -18,7 +18,7 @@ ht-degree: 21%
 
 # Usar listas de seeds {#seed-lists}
 
-Seed lists em [!DNL Journey Optimizer] permite incluir automaticamente seed addresses específicos em seus deliveries.
+As listas de seeds em [!DNL Journey Optimizer] permitem que você inclua automaticamente seed addresses específicos em seus deliveries.
 
 >[!CAUTION]
 >
@@ -48,11 +48,11 @@ Os seed addresses não são perfis reais nem perfis de teste, pois não incluem 
 
 >[!NOTE]
 >
->As variantes são compatíveis, incluindo variantes multilíngues e de experimentação. Cada seed address recebe uma única cópia de cada variante da mesma mensagem, por exemplo, versões diferentes de uma [experimento de conteúdo](../content-management/get-started-experiment.md). Observe que emails de seed separados não são enviados para conteúdo condicional.
+>As variantes são compatíveis, incluindo variantes multilíngues e de experimentação. Cada seed address recebe uma única cópia de cada variante da mesma mensagem, por exemplo, versões diferentes de um [experimento de conteúdo](../content-management/get-started-experiment.md). Observe que emails de seed separados não são enviados para conteúdo condicional.
 
 ## Acessar as listas de propagação {#access-seed-lists}
 
-Para acessar as listas de propagação já criadas, acesse **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** e selecione **[!UICONTROL Seed list]**.
+Para acessar as listas de propagação já criadas, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** e selecione **[!UICONTROL Lista de propagação]**.
 
 <!--
 >[!CAUTION]
@@ -61,7 +61,7 @@ Para acessar as listas de propagação já criadas, acesse **[!UICONTROL Adminis
 
 >[!CAUTION]
 >
->Para visualizar, editar e gerenciar seed lists, você deve ter a **[!UICONTROL Gerenciar Seedlist]** permissão.
+>Para exibir, editar e gerenciar listas de propagação, você deve ter a permissão **[!UICONTROL Gerenciar Lista de Propagação]**.
 
 ![](assets/seed-list-access.png)
 
@@ -69,11 +69,11 @@ Você pode pesquisar seed lists por nome e/ou filtrar pelo usuário que criou a 
 
 ![](assets/seed-list-filtering.png)
 
-Use o **[!UICONTROL Excluir]** botão para remover permanentemente uma entrada.
+Use o botão **[!UICONTROL Excluir]** para remover permanentemente uma entrada.
 
 >[!CAUTION]
 >
->Não é possível excluir uma lista de propagação usada em uma [campaign](../campaigns/review-activate-campaign.md) ou [jornada](../building-journeys/publishing-the-journey.md). Você precisa desativar a campanha/jornada ou editá-la para usar outra superfície que não tenha a lista de propagação selecionada. [Saiba mais sobre como usar uma lista de propagação](#use-seed-list)
+>Não é possível excluir uma lista de propagação usada em uma [campanha](../campaigns/review-activate-campaign.md) ou [jornada](../building-journeys/publishing-the-journey.md) ativa. Você precisa desativar a campanha/jornada ou editá-la para usar outra superfície que não tenha a lista de propagação selecionada. [Saiba mais sobre como usar uma lista de propagação](#use-seed-list)
 
 Você pode clicar no nome de uma lista de propagação para editá-la. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -92,9 +92,9 @@ Você pode clicar no nome de uma lista de propagação para editá-la. <!--Use t
 
 Para criar uma lista de propagação, siga as etapas abaixo.
 
-1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** > **[!UICONTROL Seed list]** menu.
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** > **[!UICONTROL Lista de propagação]**.
 
-1. Selecione o **[!UICONTROL Criar lista de propagação]** botão.
+1. Selecione o botão **[!UICONTROL Criar lista de propagação]**.
 
    ![](assets/seed-list-create-button.png)
 
@@ -122,7 +122,7 @@ Para criar uma lista de propagação, siga as etapas abaixo.
    >
    >É possível combinar ambas as opções, mas o número total de endereços em uma lista de propagação não pode exceder 50.
 
-1. Clique em **[!UICONTROL Criar]** para confirmar. A lista de seeds recém-criada é exibida na [Tela da lista de propagação](#access-seed-lists).
+1. Clique em **[!UICONTROL Criar]** para confirmar. A lista de propagação recém-criada é exibida na [tela Lista de propagação](#access-seed-lists).
 
 ## Usar uma lista de propagação em uma campanha ou jornada {#use-seed-list}
 
@@ -132,7 +132,7 @@ Agora que sua lista de seeds foi criada, você pode usá-la em qualquer campanha
 >
 >As mensagens enviadas para seed addresses não são incluídas nos relatórios do jornada ou da campanha.
 
-1. Crie uma superfície e selecione o **[!UICONTROL E-mail]** canal. [Saiba mais](../email/email-settings.md)
+1. Crie uma superfície e selecione o canal **[!UICONTROL Email]**. [Saiba mais](../email/email-settings.md)
 
 1. Selecione a lista de propagação de sua escolha na [seção correspondente](../email/email-settings.md#seed-list).
 
@@ -144,13 +144,13 @@ Agora que sua lista de seeds foi criada, você pode usá-la em qualquer campanha
 
 1. Envie a superfície.
 
-1. Criar um [campaign](../campaigns/create-campaign.md) ou um [jornada](../building-journeys/journey-gs.md).
+1. Crie uma [campanha](../campaigns/create-campaign.md) ou uma [jornada](../building-journeys/journey-gs.md).
 
-1. Selecione o **[!UICONTROL E-mail]** e selecione a variável [superfície](channel-surfaces.md) incluindo a lista de propagação que é relevante para você.
+1. Selecione a ação **[!UICONTROL Email]** e selecione a [superfície](channel-surfaces.md), incluindo a lista de propagação que é relevante para você.
 
    ![](assets/seed-list-campaign-email.png)
 
-1. Ativar o [campaign](../campaigns/review-activate-campaign.md) ou publique seu [jornada](../building-journeys/publishing-the-journey.md).
+1. Ative sua [campanha](../campaigns/review-activate-campaign.md) ou publique sua [jornada](../building-journeys/publishing-the-journey.md).
 
 Agora, sempre que uma mensagem de email for enviada aos seus clientes por meio dessa campanha ou jornada, os endereços de email na seed list selecionada também a receberão nas mesmas condições, ao mesmo tempo e com o mesmo conteúdo que os recipients direcionados.
 

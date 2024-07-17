@@ -21,17 +21,17 @@ ht-degree: 28%
 >
 > Se as consultas personalizadas forem feitas por meio de APIs ao usar o Serviço de consulta, espere algum atraso para seus relatórios.
 
-Use o **[!UICONTROL Relatório global]** para medir o impacto das jornadas e deliveries em um período selecionado.
+Use o **[!UICONTROL Relatório global]** para medir o impacto das suas jornadas e entregas em um período selecionado.
 
-* Se quiser direcionar uma jornada ou deliveries no contexto de uma jornada, no **[!UICONTROL Jornadas]** , acesse sua jornada e clique no botão **[!UICONTROL Exibir relatório]** botão. Você pode encontrar os relatórios globais de Jornada, Email, SMS e Push.
+* Para direcionar uma ou mais jornadas no contexto de uma jornada, no menu **[!UICONTROL Jornadas]**, acesse a jornada e clique no botão **[!UICONTROL Exibir relatório]**. Você pode encontrar os relatórios globais de Jornada, Email, SMS e Push.
 
   ![](assets/report_journey.png)
 
-* Se quiser direcionar uma campanha, no **[!UICONTROL Campanhas]** , acesse sua campanha e clique no link **[!UICONTROL Relatórios]** botão.
+* Se quiser direcionar uma campanha, no menu **[!UICONTROL Campanhas]**, acesse sua campanha e clique no botão **[!UICONTROL Relatórios]**.
 
   ![](assets/report_campaign.png)
 
-* Se você deseja alternar do **[!UICONTROL Relatório ao vivo]** para o **[!UICONTROL Relatório global]** para o seu delivery, clique em **[!UICONTROL O tempo todo]** no alternador de guias.
+* Para alternar do **[!UICONTROL Relatório ao vivo]** para o **[!UICONTROL Relatório global]** da sua entrega, clique em **[!UICONTROL Sempre]** no alternador de guias.
 
   ![](assets/report_5.png)
 
@@ -45,15 +45,15 @@ Cada painel de relatório pode ser modificado alterando o período de tempo e re
 
    ![](assets/report_modify_1.png)
 
-1. Para seus relatórios de Jornada que envolvem várias configurações **[!UICONTROL Ações]**, escolha um específico **[!UICONTROL Ação]** no menu suspenso.
+1. Para seus relatórios de Jornada que envolvem várias **[!UICONTROL Ações]** configuradas, escolha uma **[!UICONTROL Ação]** específica no menu suspenso.
 
-1. Se quiser direcionar apenas uma ou várias mensagens recorrentes, selecione-as no **[!UICONTROL Tempo de execução]** menu suspenso.
+1. Se quiser direcionar apenas uma ou várias mensagens recorrentes, selecione-as no menu suspenso **[!UICONTROL Tempo de execução]**.
 
    ![](assets/report_modify_12.png)
 
 1. Escolha se deseja excluir eventos de teste de seus relatórios com a barra de alternância. Para obter mais informações sobre eventos de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-   Observe que **[!UICONTROL Excluir eventos de teste]** A opção só está disponível para relatórios de Jornada.
+   Observe que a opção **[!UICONTROL Excluir eventos de teste]** só está disponível para relatórios de Jornada.
 
    ![](assets/report_modify_2.png)
 
@@ -69,13 +69,13 @@ Cada painel de relatório pode ser modificado alterando o período de tempo e re
 
    ![](assets/report_modify_5.png)
 
-1. Quando estiver satisfeito com a ordem de exibição e o tamanho dos widgets, clique em **[!UICONTROL Salvar]**.
+1. Quando estiver satisfeito com a ordem de exibição e o tamanho dos seus widgets, clique em **[!UICONTROL Salvar]**.
 
 1. Para personalizar a forma como seus dados são exibidos, você pode alternar entre diferentes opções de visualização, como gráficos, tabelas e gráficos de rosca.
 
    ![](assets/report_modify_10.png)
 
-O painel foi salvo. Suas diferentes alterações serão reaplicadas para um uso posterior de seus relatórios ao vivo. Se necessário, use o **[!UICONTROL Redefinir]** opção para restaurar os widgets padrão e a ordem dos widgets.
+O painel foi salvo. Suas diferentes alterações serão reaplicadas para um uso posterior de seus relatórios ao vivo. Se necessário, use a opção **[!UICONTROL Redefinir]** para restaurar a ordem dos widgets e widgets padrão.
 
 ## Exportar seus relatórios {#export-reports}
 
@@ -88,7 +88,7 @@ O painel foi salvo. Suas diferentes alterações serão reaplicadas para um uso 
 
 >[!TAB Exportar seu relatório como um arquivo CSV]
 
-1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL Arquivo CSV]** para gerar um arquivo CSV no nível geral do relatório.
+1. Em seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL Arquivo CSV]** para gerar um arquivo CSV no nível de relatório geral.
 
    ![](assets/export_1.png)
 
@@ -104,7 +104,7 @@ O painel foi salvo. Suas diferentes alterações serão reaplicadas para um uso 
 
 >[!TAB Exportar seu relatório como um arquivo PDF]
 
-1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL arquivo PDF]**.
+1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL arquivo de PDF]**.
 
    ![](assets/export_2.png)
 

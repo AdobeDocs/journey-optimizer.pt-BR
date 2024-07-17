@@ -30,9 +30,9 @@ Para usar um fragmento em um email, siga as etapas abaixo.
 >Você pode adicionar até 30 fragmentos em um determinado delivery. Os fragmentos só podem ser aninhados até um nível.
 
 
-1. Abra qualquer conteúdo de email ou modelo usando o [Designer de email](get-started-email-design.md).
+1. Abra qualquer conteúdo de email ou modelo usando a [Designer de email](get-started-email-design.md).
 
-1. Selecione o **[!UICONTROL Fragmentos]** no painel esquerdo.
+1. Selecione o ícone **[!UICONTROL Fragmentos]** no painel esquerdo.
 
    ![](assets/fragments-in-designer.png)
 
@@ -53,7 +53,7 @@ Para usar um fragmento em um email, siga as etapas abaixo.
 
    >[!CAUTION]
    >
-   >É possível adicionar qualquer **Rascunho** ou **Ao vivo** fragmento ao seu conteúdo. No entanto, você não poderá ativar sua jornada ou campanha se um fragmento com o status Rascunho estiver sendo usado nele. Na publicação do jornada ou da campanha, os fragmentos de rascunho mostrarão um erro e você precisará aprová-los para poder publicar.
+   >Você pode adicionar qualquer fragmento do **Rascunho** ou do **Live** ao seu conteúdo. No entanto, você não poderá ativar sua jornada ou campanha se um fragmento com o status Rascunho estiver sendo usado nele. Na publicação do jornada ou da campanha, os fragmentos de rascunho mostrarão um erro e você precisará aprová-los para poder publicar.
 
 1. Como qualquer outro componente, é possível mover o fragmento no conteúdo.
 
@@ -61,31 +61,31 @@ Para usar um fragmento em um email, siga as etapas abaixo.
 
    ![](assets/fragment-right-pane.png)
 
-1. No **[!UICONTROL Configurações]** é possível:
+1. Na guia **[!UICONTROL Configurações]**, é possível:
 
    * Escolha os dispositivos nos quais deseja que o fragmento seja exibido.
    * Abra o fragmento em uma nova guia para editá-lo, se necessário. [Saiba mais](../content-management/fragments.md#edit-fragments)
    * Explorar referências. [Saiba mais](../content-management/fragments.md#explore-references)
 
-1. É possível personalizar ainda mais o fragmento usando o **[!UICONTROL Estilos]** guia.
+1. Você pode personalizar ainda mais o fragmento usando a guia **[!UICONTROL Estilos]**.
 
 1. Se necessário, é possível quebrar a herança com o fragmento original. [Saiba mais](#break-inheritance)
 
-1. Adicione quantos fragmentos desejar e **[!UICONTROL Salvar]** suas alterações.
+1. Adicione quantos fragmentos desejar e **[!UICONTROL Salve]** suas alterações.
 
 ## Personalizar campos editáveis {#customize-fields}
 
-Se determinadas partes do fragmento selecionado tiverem se tornado editáveis, você poderá substituir o valor padrão depois de adicionar o fragmento ao conteúdo. [Saiba como tornar os fragmentos personalizáveis](../content-management/customizable-fragments.md)
+Se determinadas partes do fragmento selecionado tiverem se tornado editáveis, você poderá substituir o valor padrão depois de adicionar o fragmento ao conteúdo. [Saiba como tornar seus fragmentos personalizáveis](../content-management/customizable-fragments.md)
 
 Para personalizar campos editáveis em um fragmento, siga estas etapas:
 
 1. Adicione o fragmento ao conteúdo e selecione-o para abrir o painel de propriedades no lado direito.
 
-1. Todos os campos editáveis no fragmento são exibidos no **Configurações** , no menu **Fragmento** seção.
+1. Todos os campos editáveis no fragmento são exibidos na guia **Configurações**, na seção **Fragmento**.
 
    Campos editáveis são realçados em verde no painel de visualização quando selecionados no painel direito, facilitando a identificação do local no conteúdo.
 
-   No exemplo abaixo, a imagem **origem** e **texto alternativo** podem ser editadas, bem como o botão &quot;Clique aqui&quot; **URL**.
+   No exemplo abaixo, a imagem **origem** e o **texto alternativo** podem ser editados, bem como o botão &quot;Clique aqui&quot; **URL**.
 
    ![](assets/fragment-editable.png)
 

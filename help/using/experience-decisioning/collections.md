@@ -10,7 +10,7 @@ exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
 source-wordcount: '370'
-ht-degree: 49%
+ht-degree: 51%
 
 ---
 
@@ -35,7 +35,7 @@ As coleções permitem categorizar e agrupar itens de decisão de acordo com as 
 
 Por exemplo, digamos que você tenha adicionado um atributo personalizado de &quot;Categoria&quot; ao esquema de catálogo dos itens de decisão. Isso permite criar uma coleção que inclui todos os itens de decisão com o valor &quot;Yoga&quot; no atributo &quot;Categoria&quot;.
 
-A lista de coleções pode ser acessada no **[!UICONTROL Catálogos]** menu.
+A lista de coleções pode ser acessada no menu **[!UICONTROL Catálogos]**.
 
 Para criar uma coleção, siga estas etapas:
 
@@ -45,9 +45,9 @@ Para criar uma coleção, siga estas etapas:
 
    1. Escolha um atributo de item para usar como critério. A lista de atributos inclui todos os atributos padrão e personalizados definidos no esquema de catálogo. [Saiba mais sobre o catálogo de itens](catalogs.md)
    1. Selecione o operador desejado e insira o valor para filtrar.
-   1. Repita essas etapas para adicionar quantas regras forem necessárias. Quando várias regras são adicionadas, você pode escolher entre as opções **E** e **Ou** operadores para combiná-los. Para fazer isso, clique no selo do operador para alternar entre as duas opções.
-   1. Clique em **[!UICONTROL Visualizar coleção]** botão para exibir os itens que atendem às regras definidas.
+   1. Repita essas etapas para adicionar quantas regras forem necessárias. Quando várias regras são adicionadas, você pode escolher entre os operadores **And** e **Or** para combiná-las. Para fazer isso, clique no selo do operador para alternar entre as duas opções.
+   1. Clique no botão **[!UICONTROL Visualizar coleção]** para exibir os itens que atendem às regras definidas.
 
    ![](assets/collection-create.png)
 
-1. Depois que as regras de coleção forem definidas, clique em **[!UICONTROL Criar]**. A coleção agora é exibida na lista.
+1. Após definir as regras de coleção, clique em **[!UICONTROL Criar]**. A coleção agora é exibida na lista.

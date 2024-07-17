@@ -10,7 +10,7 @@ exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -72,11 +72,11 @@ Retorna uma lista de objetos.
 
 `sort(["A", "C", "B"], true)`
 
-Devoluções `["A","B","C"]`.
+Retorna `["A","B","C"]`.
 
 `sort([1, 3, 2], false)`
 
-Devoluções `[3, 2, 1]`.
+Retorna `[3, 2, 1]`.
 
 `sort(@event{my_event.productListItems}, "SKU", true)`
 

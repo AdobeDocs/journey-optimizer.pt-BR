@@ -26,15 +26,15 @@ Os qualificadores de coleção também podem ser usados para agrupar ofertas em 
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-A lista de qualificadores de coleta criados pode ser acessada na **[!UICONTROL Componentes]** menu.
+A lista de qualificadores de coleção criados está acessível no menu **[!UICONTROL Componentes]**.
 
 ![](../assets/tags_list.png)
 
 Para criar um qualificador de coleta, siga estas etapas:
 
-1. Vá para a **[!UICONTROL Qualificadores de coleção]** e clique em **[!UICONTROL Criar qualificador de coleção]**.
+1. Vá para a guia **[!UICONTROL Qualificadores da coleção]** e clique em **[!UICONTROL Criar qualificador da coleção]**.
 
-1. Especifique o nome do qualificador de coleta e clique em **[!UICONTROL Salvar]**.
+1. Especifique o nome do qualificador de coleção e clique em **[!UICONTROL Salvar]**.
 
    ![](../assets/tags_create.png)
 

@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Pesquisar um qualificador de coleção {#look-up-tag}
 
-Você pode pesquisar qualificadores de coleção específicos (anteriormente conhecidos como &quot;tags&quot;) fazendo uma solicitação GET para o [!DNL Offer Library] API que inclui o qualificador de coleção `id` no caminho da solicitação.
+Você pode pesquisar qualificadores de coleção específicos (anteriormente conhecidos como &quot;tags&quot;) fazendo uma solicitação GET para a API [!DNL Offer Library] que inclui o qualificador de coleção `id` no caminho da solicitação.
 
 **Formato da API**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes do qualificador de coleta, incluindo informações sobre seu qualificador de coleta exclusivo `id`.
+Uma resposta bem-sucedida retorna os detalhes do qualificador de coleção, incluindo informações sobre o qualificador de coleção exclusivo `id`.
 
 ```json
 {

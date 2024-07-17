@@ -23,9 +23,9 @@ ht-degree: 15%
 >title="Atividade Aguardar"
 >abstract="Se quiser esperar antes de executar a próxima atividade no caminho, você pode usar uma atividade Esperar. Ela permite definir o momento em que a próxima atividade será executada. Duas opções estão disponíveis: duração e personalizado."
 
-Você pode usar um **[!UICONTROL Aguardar]** atividade para definir uma duração antes de executar a próxima atividade.  A duração máxima de espera é **90 dias**.
+Você pode usar uma atividade **[!UICONTROL Wait]** para definir uma duração antes de executar a próxima atividade.  A duração máxima de espera é de **90 dias**.
 
-É possível definir dois tipos de **Aguardar** atividade:
+Você pode definir dois tipos de atividade **Aguardar**:
 
 * Uma espera com base em uma duração relativa. [Saiba mais](#duration)
 * Uma data personalizada, usando funções para calculá-la. [Saiba mais](#custom)
@@ -39,23 +39,23 @@ Você pode usar um **[!UICONTROL Aguardar]** atividade para definir uma duraçã
 
 ### Várias atividades de espera {#multiple-wait-activities}
 
-Ao usar vários **Aguardar** em uma jornada, esteja ciente de que a variável [tempo limite global](journey-properties.md#global_timeout) no jornada, é de 91 dias, o que significa que os perfis sempre saem do máximo da jornada 91 dias após serem inseridos. Saiba mais [nesta página](journey-properties.md#global_timeout).
+Ao usar várias atividades **Wait** em uma jornada, esteja ciente de que o [tempo limite global](journey-properties.md#global_timeout) para jornada é de 91 dias, o que significa que os perfis estão sempre saindo do máximo da jornada 91 dias após terem inserido. Saiba mais [nesta página](journey-properties.md#global_timeout).
 
-Um indivíduo pode inserir um **Aguardar** atividade somente se eles tiverem tempo suficiente na jornada para concluir a duração da espera antes do tempo limite de jornada de 91 dias.
+Um indivíduo só poderá inserir uma atividade **Aguardar** se tiver tempo suficiente na jornada para concluir a duração da espera antes do tempo limite de jornada de 91 dias.
 
 ### Aguardar e reentrar {#wait-re-entrance}
 
-Uma prática recomendada a não ser usada **Aguardar** atividades para bloquear a reentrada. Use o botão **Permitir reentrada** no nível das propriedades da jornada. Saiba mais [nesta página](../building-journeys/journey-properties.md#entrance).
+Uma prática recomendada é não usar atividades de **Aguardar** para bloquear a reentrada. Em vez disso, use a opção **Permitir reentrada** no nível de propriedades da jornada. Saiba mais [nesta página](../building-journeys/journey-properties.md#entrance).
 
 ### Modo de espera e teste {#wait-test-modd}
 
-No modo de teste, a variável **[!UICONTROL Tempo de espera no teste]** permite definir o tempo que cada **Aguardar** atividade durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Saiba mais [nesta página](../building-journeys/testing-the-journey.md).
+No modo de teste, o parâmetro **[!UICONTROL Tempo de espera em teste]** permite definir o tempo que cada atividade de **Espera** durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Saiba mais [nesta página](../building-journeys/testing-the-journey.md).
 
 ## Configuração {#wait-configuration}
 
 ### Espera de duração {#duration}
 
-Selecione o **Duração** digite para definir a duração relativa da espera antes da execução da próxima atividade. A duração máxima é **90 dias**.
+Selecione o tipo **Duration** para definir a duração relativa da espera antes da execução da próxima atividade. A duração máxima é de **90 dias**.
 
 ![Definir a duração da espera](assets/journey55.png)
 
@@ -70,20 +70,20 @@ Select the date for the execution of the next activity.
 
 ### Espera personalizada {#custom}
 
-Selecione o **Personalizado** digite para definir uma data personalizada, usando uma expressão avançada com base em um campo proveniente de um evento ou uma resposta de ação personalizada. Não é possível definir uma duração relativa diretamente, por exemplo, 7 dias, mas você pode usar funções para calculá-la se necessário (por exemplo: 2 dias após a compra).
+Selecione o tipo **Personalizado** para definir uma data personalizada, usando uma expressão avançada com base em um campo proveniente de um evento ou uma resposta de ação personalizada. Não é possível definir uma duração relativa diretamente, por exemplo, 7 dias, mas você pode usar funções para calculá-la se necessário (por exemplo: 2 dias após a compra).
 
 ![Definir uma espera personalizada com uma expressão](assets/journey57.png)
 
-A expressão no editor deve fornecer uma `dateTimeOnly` formato. Consulte [esta página](expression/expressionadvanced.md). Para obter mais informações sobre o formato dateTimeOnly, consulte [esta página](expression/data-types.md).
+A expressão no editor deve fornecer um formato `dateTimeOnly`. Consulte [esta página](expression/expressionadvanced.md). Para obter mais informações sobre o formato dateTimeOnly, consulte [esta página](expression/data-types.md).
 
-A prática recomendada é usar datas personalizadas específicas para seus perfis e evitar o uso da mesma data para todos. Por exemplo, não defina `toDateTimeOnly('2024-01-01T01:11:00Z')` mas sim `toDateTimeOnly(@event{Event.productDeliveryDate})` que é específico para cada perfil. Esteja ciente de que o uso de datas fixas pode causar problemas na execução da jornada.
+A prática recomendada é usar datas personalizadas específicas para seus perfis e evitar o uso da mesma data para todos. Por exemplo, não defina `toDateTimeOnly('2024-01-01T01:11:00Z')`, mas sim `toDateTimeOnly(@event{Event.productDeliveryDate})`, que é específico para cada perfil. Esteja ciente de que o uso de datas fixas pode causar problemas na execução da jornada.
 
 
 >[!NOTE]
 >
->Você pode aproveitar um `dateTimeOnly` expressão ou use uma função para converter em uma `dateTimeOnly`. Por exemplo: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, sendo o campo do formulário 2023-08-12T09:46:06Z
+>Você pode usar uma expressão `dateTimeOnly` ou usar uma função para converter para `dateTimeOnly`. Por exemplo: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, o campo no evento tem o formato 2023-08-12T09:46:06Z.
 >
->A variável **fuso horário** é esperado nas propriedades da jornada. Como resultado, da interface do usuário, não é possível apontar diretamente para um deslocamento de hora e fuso horário completo da combinação de carimbo de data e hora ISO-8601, como 2023-08-12T09:46:06.982-05 [Saiba mais](../building-journeys/timezone-management.md).
+>O **fuso horário** é esperado nas propriedades da jornada. Como resultado, da interface do usuário, não é possível apontar diretamente para um deslocamento de hora e fuso horário completo da combinação de carimbo de data e hora ISO-8601, como 2023-08-12T09:46:06.982-05. [Saiba mais](../building-journeys/timezone-management.md).
 
 
 Para validar se a atividade de espera funciona como esperado, você pode usar os eventos da etapa. [Saiba mais](../reports/query-examples.md#common-queries).

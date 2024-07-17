@@ -19,7 +19,7 @@ As decisões são containers para suas ofertas que aproveitarão o Mecanismo do 
 
 ➡️ [Saiba como criar atividades de oferta neste vídeo](#video)
 
-A lista de decisões está acessível no **[!UICONTROL Ofertas]** menu > **[!UICONTROL Decisões]** guia. Os filtros estão disponíveis para ajudar você a recuperar decisões de acordo com seu status ou datas de início e término.
+A lista de decisões está acessível no menu **[!UICONTROL Ofertas]** > na guia **[!UICONTROL Decisões]**. Os filtros estão disponíveis para ajudar você a recuperar decisões de acordo com seu status ou datas de início e término.
 
 ![](../assets/activities-list.png)
 
@@ -36,11 +36,11 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
 1. Especifique o nome da decisão.
 
-1. Defina uma data e hora de início e término, se necessário, e clique em **[!UICONTROL Próxima]**.
+1. Defina uma data e hora de início e término, se necessário, e clique em **[!UICONTROL Avançar]**.
 
    ![](../assets/activities-name.png)
 
-1. Para atribuir rótulos de uso de dados personalizados ou principais à decisão, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Object Level Access Control)](../../administration/object-based-access.md)
+1. Para atribuir rótulos de uso de dados personalizados ou principais à decisão, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../../administration/object-based-access.md)
 
 ## Definir escopos de decisão {#add-decision-scopes}
 
@@ -48,7 +48,7 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
    ![](../assets/activities-placement.png)
 
-1. Clique em **[!UICONTROL Adicionar]** para selecionar os critérios de avaliação para esta disposição.
+1. Clique em **[!UICONTROL Adicionar]** para selecionar os critérios de avaliação para este posicionamento.
 
    ![](../assets/activities-evaluation-criteria.png)
 
@@ -64,33 +64,33 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
    >[!NOTE]
    >
-   >Você pode clicar no link **[!UICONTROL Abrir coleções de ofertas]** link para exibir a lista de coleções em uma nova guia, que permite procurar as coleções e as ofertas que elas contêm.
+   >Você pode clicar no link **[!UICONTROL Abrir coleções de ofertas]** para exibir a lista de coleções em uma nova guia, que permite procurar as coleções e as ofertas que elas contêm.
 
    A coleção selecionada é adicionada aos critérios.
 
    ![](../assets/activities-collection-added.png)
 
-1. Use o **[!UICONTROL Elegibilidade]** para restringir a seleção de ofertas para esta disposição.
+1. Use o campo **[!UICONTROL Qualificação]** para restringir a seleção de ofertas para este posicionamento.
 
-   Essa restrição pode ser aplicada usando um **regra de decisão**, ou um ou vários **Públicos da Adobe Experience Platform**. Ambos estão detalhados em [nesta seção](../offer-library/add-constraints.md#segments-vs-decision-rules).
+   Esta restrição pode ser aplicada usando uma **regra de decisão** ou um ou vários **públicos-alvo da Adobe Experience Platform**. Ambos estão detalhados em [esta seção](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
-   * Para restringir a seleção das ofertas aos membros de um público-alvo do Experience Platform, selecione **[!UICONTROL Públicos-alvo]** e, em seguida, clique em **[!UICONTROL Adicionar públicos]**.
+   * Para restringir a seleção das ofertas aos membros de um público-alvo Experience Platform, selecione **[!UICONTROL Públicos-alvo]** e clique em **[!UICONTROL Adicionar públicos-alvo]**.
 
      ![](../assets/activity_constraint_segment.png)
 
-     Adicione um ou vários públicos-alvo do painel esquerdo e combine-os usando o **[!UICONTROL E]** / **[!UICONTROL Ou]** operadores lógicos.
+     Adicione um ou vários públicos-alvo do painel esquerdo e combine-os usando os operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]**.
 
      ![](../assets/activity_constraint_segment2.png)
 
-     Saiba como trabalhar com públicos-alvo no [nesta seção](../../audience/about-audiences.md).
+     Saiba como trabalhar com públicos-alvo [nesta seção](../../audience/about-audiences.md).
 
-   * Se quiser adicionar uma restrição de seleção com uma regra de decisão, use o **[!UICONTROL Regra de decisão]** e selecione a regra de sua escolha.
+   * Se quiser adicionar uma restrição de seleção com uma regra de decisão, use a opção **[!UICONTROL Regra de decisão]** e selecione a regra de sua escolha.
 
      ![](../assets/activity_constraint_rule.png)
 
-     Saiba como criar uma regra de decisão no [nesta seção](../offer-library/creating-decision-rules.md).
+     Saiba como criar uma regra de decisão em [esta seção](../offer-library/creating-decision-rules.md).
 
-1. Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
+1. Ao selecionar públicos ou regras de decisão, você pode ver informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar os dados.
 
    >[!NOTE]
    >
@@ -102,11 +102,11 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
    ![](../assets/activity_ranking-method.png)
 
-   * Por padrão, se várias ofertas forem qualificadas para essa inserção, a variável **[!UICONTROL Prioridade da oferta]** O método usa o valor definido nas ofertas: a oferta com a pontuação de prioridade mais alta será entregue ao usuário.
+   * Por padrão, se várias ofertas estiverem qualificadas para esta inserção, o método **[!UICONTROL Offer priority]** usará o valor definido nas ofertas: a oferta com a pontuação de prioridade mais alta será entregue ao usuário.
 
    * Se quiser usar uma pontuação calculada específica para escolher qual oferta qualificada fornecer, selecione **[!UICONTROL Fórmula]** ou **[!UICONTROL Modelo de IA]**. [Saiba mais](../offer-activities/configure-offer-selection.md).
 
-1. Clique em **[!UICONTROL Adicionar]** para definir mais critérios para a mesma disposição.
+1. Clique em **[!UICONTROL Adicionar]** para definir mais critérios para o mesmo posicionamento.
 
    ![](../assets/activity_add-collection.png)
 
@@ -126,11 +126,11 @@ Antes de criar uma decisão, verifique se os componentes abaixo foram criados na
 
    >[!CAUTION]
    >
-   >* Se [Modelo de IA](../ranking/ai-models.md) for utilizado em um grupo de critérios de avaliação, todos os critérios de avaliação nesse grupo devem usar o método de classificação de IA e devem usar o mesmo modelo específico de IA.
+   >* Se o [modelo de IA](../ranking/ai-models.md) for usado em um grupo de critérios de avaliação, todos os critérios de avaliação desse grupo deverão usar o método de classificação de IA e deverão usar o mesmo modelo de IA específico.
    >
-   >* Somente um grupo de critérios de avaliação pode usar o modelo de IA. Quaisquer outros grupos dentro de um escopo de decisão devem usar outros métodos de classificação (prioridade ou fórmula). [Saiba mais sobre métodos de classificação](../offer-activities/configure-offer-selection.md)
+   >* Somente um grupo de critérios de avaliação pode usar o modelo de IA. Quaisquer outros grupos dentro de um escopo de decisão devem usar outros métodos de classificação (prioridade ou fórmula). [Saiba mais sobre os métodos de classificação](../offer-activities/configure-offer-selection.md)
 
-1. Para adicionar outro posicionamento para suas ofertas como parte desta decisão, use o **[!UICONTROL Novo escopo]** botão. Repita as etapas acima para cada escopo de decisão.
+1. Para adicionar outro posicionamento para suas ofertas como parte desta decisão, use o botão **[!UICONTROL Novo escopo]**. Repita as etapas acima para cada escopo de decisão.
 
    ![](../assets/activity_new-scope.png)
 
@@ -148,11 +148,11 @@ Dentro de um único escopo de decisão, vários critérios e seus agrupamentos d
 
 Por exemplo, você tem duas coleções, uma no critério de avaliação A e outra no critério de avaliação B. A solicitação é para que duas ofertas sejam enviadas de volta. Digamos que existam duas ofertas elegíveis do critério de avaliação A e três ofertas elegíveis do critério de avaliação B.
 
-* Se os dois critérios de avaliação forem **não combinado** e/ou em ordem sequencial (1 e 2), as duas principais ofertas elegíveis dos critérios de avaliação serão retornadas na primeira linha. Se não houver duas ofertas elegíveis para o primeiro critério de avaliação, o mecanismo de decisão seguirá para os próximos critérios de avaliação em sequência para encontrar quantas ofertas ainda são necessárias e, em última análise, retornará um fallback, se necessário.
+* Se os dois critérios de avaliação forem **não combinados** e/ou em ordem sequencial (1 e 2), as duas principais ofertas qualificadas dos critérios de avaliação serão retornadas na primeira linha. Se não houver duas ofertas elegíveis para o primeiro critério de avaliação, o mecanismo de decisão seguirá para os próximos critérios de avaliação em sequência para encontrar quantas ofertas ainda são necessárias e, em última análise, retornará um fallback, se necessário.
 
   ![](../assets/activity_consecutive-rank-collections.png)
 
-* Se as duas coleções forem **avaliada ao mesmo tempo**, como há duas ofertas elegíveis do critério de avaliação A e três ofertas elegíveis do critério de avaliação B, as cinco ofertas serão classificadas em pilha juntas com base no valor determinado pelos respectivos métodos de classificação. Duas ofertas são solicitadas, portanto, as duas principais ofertas qualificadas dessas cinco ofertas serão retornadas.
+* Se as duas coleções forem **avaliadas ao mesmo tempo**, como há duas ofertas qualificadas do critério de avaliação A e três ofertas qualificadas do critério de avaliação B, as cinco ofertas serão classificadas juntas com base no valor determinado pelos respectivos métodos de classificação. Duas ofertas são solicitadas, portanto, as duas principais ofertas qualificadas dessas cinco ofertas serão retornadas.
 
   ![](../assets/activity_same-rank-collections.png)
 
@@ -177,8 +177,11 @@ As ofertas de critérios de prioridade mais alta são avaliadas primeiro e adici
 
 As ofertas dos Critérios 1 e 2 são avaliadas em conjunto (Oferta 1, Oferta 2, Oferta 3, Oferta 4, Oferta 5). Digamos que o resultado seja:
 
-Oferta 1 - 10 Oferta 2 - 20 Oferta 3 - 30 do Critério 1, 45 do Critério 2. O mais alto de ambos será considerado, portanto, 45 é considerado.
-Oferta 4 - 40 Oferta 5 - 50
+Oferta 1 - 10
+Oferta 2 - 20
+Oferta 3 - 30 do Critério 1, 45 do Critério 2. O mais alto de ambos será considerado, portanto, 45 é considerado.
+Oferta 4 - 40
+Oferta 5 - 50
 
 As ofertas classificadas agora são as seguintes: Oferta 5, Oferta 3, Oferta 4, Oferta 2, Oferta 1.
 
@@ -201,7 +204,7 @@ Ao adicionar vários escopos de decisão a uma decisão e se a duplicação não
 
 >[!NOTE]
 >
->A variável **[!UICONTROL Permitir duplicações em posicionamentos]** é definido no nível de posicionamento. Se a duplicação for definida como falso para qualquer posicionamento em uma solicitação de decisão, todas as inserções na solicitação herdarão a configuração falso. [Saiba mais sobre o parâmetro de duplicação](../offer-library/creating-placements.md)
+>O parâmetro **[!UICONTROL Permitir Duplicatas em posicionamentos]** está definido no nível de posicionamento. Se a duplicação for definida como falso para qualquer posicionamento em uma solicitação de decisão, todas as inserções na solicitação herdarão a configuração falso. [Saiba mais sobre o parâmetro de duplicação](../offer-library/creating-placements.md)
 
 Vamos ver um exemplo em que você adicionou dois escopos de decisão, como:
 
@@ -235,7 +238,7 @@ Neste exemplo, a Oferta 1 e a Oferta 3 atingiram seu limite de frequência. [Sai
 A seleção é a seguinte:
 
 1. As duas principais ofertas qualificadas restantes do Escopo 1 serão retornadas (Oferta 2, Oferta 4).
-1. Não há mais ofertas elegíveis para o Escopo 2, portanto, o [oferta substituta](#add-fallback) é retornado.
+1. Não há ofertas qualificadas restantes para o Escopo 2, portanto, a [oferta substituta](#add-fallback) é retornada.
 
 +++
 
@@ -285,7 +288,7 @@ A seleção é a seguinte:
 
 Depois de definir os escopos de decisão, defina a oferta substituta que será apresentada como último recurso aos clientes que não correspondem às regras de elegibilidade e restrições da oferta.
 
-Para fazer isso, selecione-o na lista de ofertas substitutas disponíveis para os posicionamentos definidos na decisão e clique em **[!UICONTROL Próxima]**.
+Para fazer isso, selecione-o na lista de ofertas substitutas disponíveis para os posicionamentos definidos na decisão e clique em **[!UICONTROL Avançar]**.
 
 ![](../assets/add-fallback-offer.png)
 
@@ -301,28 +304,28 @@ Se tudo estiver configurado corretamente, um resumo das propriedades de decisão
 
    ![](../assets/review-decision.png)
 
-1. É possível expandir ou recolher cada posicionamento. É possível visualizar as ofertas disponíveis, a qualificação e os detalhes de classificação para cada posicionamento. Também é possível exibir informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar dados.
+1. É possível expandir ou recolher cada posicionamento. É possível visualizar as ofertas disponíveis, a qualificação e os detalhes de classificação para cada posicionamento. Também é possível exibir informações sobre os perfis qualificados estimados. Clique em **[!UICONTROL Atualizar]** para atualizar os dados.
 
    ![](../assets/review-decision-details.png)
 
 1. Clique em **[!UICONTROL Concluir]**.
-1. Selecionar **[!UICONTROL Salvar e ativar]**.
+1. Selecione **[!UICONTROL Salvar e ativar]**.
 
    ![](../assets/save-activities.png)
 
    Você também pode salvar a decisão como rascunho para editá-la e ativá-la posteriormente.
 
-A decisão é exibida na lista com a variável **[!UICONTROL Ao vivo]** ou **[!UICONTROL Rascunho]** Status, dependendo se você o ativou ou não na etapa anterior.
+A decisão é exibida na lista com o status **[!UICONTROL Ativo]** ou **[!UICONTROL Rascunho]**, dependendo se você o ativou ou não na etapa anterior.
 
 Agora ele está pronto para ser usado para fornecer ofertas aos clientes.
 
 ## Lista de decisões {#decision-list}
 
-Na lista de decisões, é possível selecionar a decisão para exibir suas propriedades. Aqui, você também pode editá-lo e alterar seu status (**Rascunho**, **Ao vivo**, **Concluído**, **Arquivado**), duplicar a decisão ou excluí-la.
+Na lista de decisões, é possível selecionar a decisão para exibir suas propriedades. Você também pode editá-lo, alterar seu status (**Rascunho**, **Ao Vivo**, **Concluído**, **Arquivado**), duplicar a decisão ou excluí-la.
 
 ![](../assets/decision_created.png)
 
-Selecione o **[!UICONTROL Editar]** botão para voltar para o modo de edição de decisão, no qual você pode modificar a lista de [detalhes](#create-activity), [escopos de decisão](#add-decision-scopes) e [oferta substituta](#add-fallback).
+Selecione o botão **[!UICONTROL Editar]** para voltar para o modo de edição de decisão, no qual você pode modificar os [detalhes](#create-activity), [escopos de decisão](#add-decision-scopes) e [oferta substituta](#add-fallback) da decisão.
 
 >[!IMPORTANT]
 >
@@ -330,17 +333,17 @@ Selecione o **[!UICONTROL Editar]** botão para voltar para o modo de edição d
 
 Selecione uma decisão em tempo real e clique em **[!UICONTROL Desativar]** para retornar o status da decisão para **[!UICONTROL Rascunho]**.
 
-Para definir novamente o status como **[!UICONTROL Ao vivo]**, selecione o **[!UICONTROL Ativar]** que agora é exibido.
+Para definir novamente o status como **[!UICONTROL Live]**, selecione o botão **[!UICONTROL Ativar]** que agora é exibido.
 
 ![](../assets/decision_activate.png)
 
-A variável **[!UICONTROL Mais ações]** permite as ações descritas abaixo.
+O botão **[!UICONTROL Mais ações]** habilita as ações descritas abaixo.
 
 ![](../assets/decision_more-actions.png)
 
 * **[!UICONTROL Concluído]**: define o status da decisão como **[!UICONTROL Concluído]**, o que significa que a decisão não pode mais ser chamada. Esta ação só está disponível para decisões ativadas. A decisão ainda está disponível na lista, mas você não pode definir seu status novamente como **[!UICONTROL Rascunho]** ou **[!UICONTROL Aprovado]**. Você só pode duplicá-lo, excluí-lo ou arquivá-lo.
 
-* **[!UICONTROL Duplicar]**: cria uma decisão com as mesmas propriedades, escopos de decisão e oferta substituta. Por padrão, a nova decisão tem a **[!UICONTROL Rascunho]** status.
+* **[!UICONTROL Duplicar]**: cria uma decisão com as mesmas propriedades, escopos de decisão e oferta substituta. Por padrão, a nova decisão tem o status **[!UICONTROL Rascunho]**.
 
 * **[!UICONTROL Excluir]**: remove a decisão da lista.
 
@@ -350,7 +353,7 @@ A variável **[!UICONTROL Mais ações]** permite as ações descritas abaixo.
   >
   >Se a decisão for usada em outro objeto, ela não poderá ser excluída.
 
-* **[!UICONTROL Arquivar]**: define o status da decisão como **[!UICONTROL Arquivado]**. A decisão ainda está disponível na lista, mas você não pode definir seu status novamente como **[!UICONTROL Rascunho]** ou **[!UICONTROL Aprovado]**. Você só pode duplicá-la ou excluí-la.
+* **[!UICONTROL Arquivar]**: define o status de decisão como **[!UICONTROL Arquivado]**. A decisão ainda está disponível na lista, mas você não pode definir seu status novamente como **[!UICONTROL Rascunho]** ou **[!UICONTROL Aprovado]**. Você só pode duplicá-la ou excluí-la.
 
 Você também pode excluir ou alterar o status de várias decisões ao mesmo tempo marcando as caixas de seleção correspondentes.
 
@@ -364,7 +367,7 @@ Depois que uma decisão for criada, você poderá clicar no nome na lista.
 
 ![](../assets/decision_click-name.png)
 
-Isso permite que você acesse informações detalhadas para essa decisão. Selecione o **[!UICONTROL Log de alterações]** guia para [monitorar todas as alterações](../get-started/user-interface.md#changes-log) que foram tomadas para a decisão.
+Isso permite que você acesse informações detalhadas para essa decisão. Selecione a guia **[!UICONTROL Log de alterações]** para [monitorar todas as alterações](../get-started/user-interface.md#changes-log) feitas na decisão.
 
 ![](../assets/decision_information.png)
 

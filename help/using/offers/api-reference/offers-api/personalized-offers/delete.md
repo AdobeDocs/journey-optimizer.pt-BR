@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # Excluir uma oferta personalizada {#delete-personalized-offer}
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma oferta personalizada. Isso é feito executando uma solicitação DELETE para o [!DNL Offer Library] API usando a id da oferta personalizada que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma oferta personalizada. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando a ID da oferta personalizada que você deseja excluir.
 
 **Formato da API**
 

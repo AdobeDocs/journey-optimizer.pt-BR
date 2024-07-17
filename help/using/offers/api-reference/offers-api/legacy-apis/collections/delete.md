@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Excluir uma coleção {#delete-collection}
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma coleção. Somente coleções criadas no contêiner de locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para o [!DNL Offer Library] API usando a $id da coleção que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma coleção. Somente coleções criadas no contêiner de locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando a $id da coleção que você deseja excluir.
 
 **Formato da API**
 

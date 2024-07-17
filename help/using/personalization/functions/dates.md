@@ -19,7 +19,7 @@ As funções de data e hora são usadas para executar operações de data e hora
 
 ## Idade{#age}
 
-A variável `age` é usada para recuperar a idade de uma determinada data.
+A função `age` é usada para recuperar a idade de uma determinada data.
 
 **Sintaxe**
 
@@ -39,7 +39,7 @@ The following operation gets the value of the identity map for the key `example@
 
 ## Hora atual em milissegundos{#current-time}
 
-A variável `currentTimeInMillis` esta função é usada para recuperar a hora atual em milissegundos da época.
+A função `currentTimeInMillis` é usada para recuperar a hora atual em milissegundos da época.
 
 **Sintaxe**
 
@@ -59,7 +59,7 @@ The following operation gets all the keys for the map `identityMap`.
 
 ## Diferença de data{#date-diff}
 
-A variável `dateDiff` é usada para recuperar a diferença entre duas datas em número de dias.
+A função `dateDiff` é usada para recuperar a diferença entre duas datas em número de dias.
 
 **Sintaxe**
 
@@ -80,7 +80,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Dia da semana{#day-week}
 
-A variável `dayOfWeek` é usada para recuperar o dia da semana.
+A função `dayOfWeek` é usada para recuperar o dia da semana.
 
 **Sintaxe**
 
@@ -100,7 +100,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Dia do ano{#day-year}
 
-A variável `dayOfYear` é usada para recuperar o dia do ano.
+A função `dayOfYear` é usada para recuperar o dia do ano.
 
 **Sintaxe**
 
@@ -120,7 +120,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Formatar data{#format-date}
 
-A variável `formatDate` é usada para formatar um valor de data e hora. O formato deve ser um padrão DateTimeFormat do Java válido.
+A função `formatDate` é usada para formatar um valor de data e hora. O formato deve ser um padrão DateTimeFormat do Java válido.
 
 **Sintaxe**
 
@@ -134,7 +134,7 @@ Onde a primeira string é o atributo de data e o segundo valor é como você gos
 >
 > Se um padrão de data for inválido, a data fallback será para o formato padrão ISO.
 >
-> Você pode usar as funções de formatação de data Java conforme resumido em [Documentação do Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> Você pode usar as funções de formatação de data Java conforme resumido na [documentação do Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Exemplo**
 
@@ -146,7 +146,7 @@ A operação a seguir retornará a data no seguinte formato: MM/DD/AA.
 
 ## Formatar data com suporte local{#format-date-locale}
 
-A variável `formatDate` A função é usada para formatar um valor de data e hora em sua representação sensível a idioma correspondente, ou seja, em um local desejado. O formato deve ser um padrão DateTimeFormat do Java válido.
+A função `formatDate` é usada para formatar um valor de data e hora em sua representação sensível a idioma correspondente, ou seja, em um local desejado. O formato deve ser um padrão DateTimeFormat do Java válido.
 
 **Sintaxe**
 
@@ -160,9 +160,9 @@ Onde a primeira string é o atributo de data, o segundo valor é como você gost
 >
 > Se um padrão de data for inválido, a data fallback será para o formato padrão ISO.
 >
-> Você pode usar as funções de formatação de data Java conforme resumido em [Documentação do Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> Você pode usar as funções de formatação de data Java conforme resumido na [documentação do Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> Você pode usar formatação e códigos de idiomas válidos, conforme resumido em [Documentação do Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Localidades suportadas](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> Você pode usar formatação e localidades válidas conforme resumido em [Documentação do Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Localidades com suporte](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 
 **Exemplo**
@@ -175,7 +175,7 @@ A operação a seguir retornará a data no seguinte formato: MM/DD/AA e local FR
 
 ## Definir dias{#set-days}
 
-A variável `setDays` é usada para definir o dia do mês para a data-hora especificada.
+A função `setDays` é usada para definir o dia do mês para a data-hora especificada.
 
 **Sintaxe**
 
@@ -195,7 +195,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Definir horas{#set-hours}
 
-A variável `setHours` é usada para definir a hora da data-hora.
+A função `setHours` é usada para definir a hora da data-hora.
 
 **Sintaxe**
 
@@ -216,7 +216,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Para UTC{#to-utc}
 
-A variável `toUTC` é usada para converter um datetime em UTC.
+A função `toUTC` é usada para converter um datetime em UTC.
 
 
 **Sintaxe**
@@ -238,7 +238,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Semana do ano UTC{#week-of-year}
 
-A variável `weekOfYear` é usada para recuperar a semana do ano.
+A função `weekOfYear` é usada para recuperar a semana do ano.
 
 **Sintaxe**
 

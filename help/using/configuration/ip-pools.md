@@ -12,7 +12,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 10%
 
 ## Sobre pools de IP {#about-ip-pools}
 
-Com [!DNL Journey Optimizer], você poderá criar pools de IP para agrupar os endereços IP de seus subdomínios.
+Com o [!DNL Journey Optimizer], você pode criar pools de IP para agrupar os endereços IP de seus subdomínios.
 
 A criação de pools de IP é altamente recomendada para a capacidade de entrega de email. Ao fazer isso, você pode impedir que a reputação de um subdomínio afete seus outros subdomínios.
 
@@ -44,7 +44,7 @@ Por exemplo, uma prática recomendada é ter um pool de IP para suas mensagens d
 
 Para criar um pool de IPs, siga estas etapas:
 
-1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Pools de IP]** e clique em **[!UICONTROL Criar pool de IPs]**.
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Pools de IP]** e clique em **[!UICONTROL Criar Pool de IP]**.
 
    ![](assets/ip-pool-create.png)
 
@@ -74,7 +74,7 @@ Após a criação de um pool de IP, as informações de PTR ficam visíveis ao p
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 
-O pool de IPs agora é criado e exibido na lista. Você pode selecioná-la para acessar suas propriedades e exibir a superfície de canal associada (ou seja, predefinição de mensagem). Para obter mais informações sobre como associar uma superfície de canal a um pool de IP, consulte [nesta seção](channel-surfaces.md).
+O pool de IPs agora é criado e exibido na lista. Você pode selecioná-la para acessar suas propriedades e exibir a superfície de canal associada (ou seja, predefinição de mensagem). Para obter mais informações sobre como associar uma superfície de canal a um pool de IP, consulte [esta seção](channel-surfaces.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -96,20 +96,20 @@ Para editar um pool de IPs, siga as etapas abaixo.
 
    >[!CAUTION]
    >
-   >Continue com muito cuidado ao considerar a exclusão de um IP, pois isso colocará carga adicional nos outros IPs e poderá ter graves impactos na sua capacidade de delivery. Em caso de dúvidas, entre em contato com um especialista em capacidade de delivery.
+   >Continue com muito cuidado ao considerar a exclusão de um IP, pois isso colocará carga adicional nos outros IPs e poderá ter graves impactos na sua capacidade de delivery. Em caso de dúvidas, entre em contato com um especialista em capacidade de entrega.
 
 1. Salve as alterações.
 
-A atualização é efetiva imediatamente ou de forma assíncrona, dependendo do pool de IP que está associado a um [superfície de canal](channel-surfaces.md) ou não:
+A atualização entra em vigor imediatamente ou de forma assíncrona, dependendo do pool de IP que está associado a uma [superfície de canal](channel-surfaces.md) ou não:
 
-* Se o pool de IPs estiver **não** associada a qualquer superfície de canal, a atualização é instantânea (**[!UICONTROL Sucesso]** status).
-* Se o pool de IP **é** associada a uma superfície de canal, a atualização pode levar até 3 horas (**[!UICONTROL Processando]** status).
+* Se o pool de IPs estiver **não** associado a qualquer superfície de canal, a atualização será instantânea (status **[!UICONTROL Success]**).
+* Se o pool de IP **estiver** associado a uma superfície de canal, a atualização poderá levar até 3 horas (status **[!UICONTROL Processando]**).
 
 >[!NOTE]
 >
->Quando [criação de uma superfície de canal](channel-surfaces.md#create-channel-surface), se você selecionar um pool de IP que esteja em edição (**[!UICONTROL Processando]** e nunca foi associado ao subdomínio selecionado para essa superfície, você não pode continuar com a criação da superfície. [Saiba mais](channel-surfaces.md#subdomains-and-ip-pools)
+>Ao [criar uma superfície de canal](channel-surfaces.md#create-channel-surface), se você selecionar um pool de IP que esteja em edição (status **[!UICONTROL Processando]**) e nunca tenha sido associado ao subdomínio selecionado para essa superfície, não será possível continuar com a criação da superfície. [Saiba mais](channel-surfaces.md#subdomains-and-ip-pools)
 
-Para verificar o status de atualização do pool de IPs, clique na guia **[!UICONTROL Mais ações]** e selecione **[!UICONTROL Atualizações recentes]**.
+Para verificar o status de atualização do pool de IP, clique no botão **[!UICONTROL Mais ações]** e selecione **[!UICONTROL Atualizações recentes]**.
 
 ![](assets/ip-pool-recent-update.png)
 
@@ -119,5 +119,5 @@ Para verificar o status de atualização do pool de IPs, clique na guia **[!UICO
 >* alguns minutos antes de ser consumido pelas mensagens unitárias,
 >* até o próximo lote para que o pool de IP seja efetivo em mensagens em lote.
 
-Você também pode usar a variável **[!UICONTROL Excluir]** botão para excluir um pool de IPs. Observe que não é possível excluir um pool de IP que foi associado a uma superfície de canal.
+Você também pode usar o botão **[!UICONTROL Excluir]** para excluir um pool de IPs. Observe que não é possível excluir um pool de IP que foi associado a uma superfície de canal.
 

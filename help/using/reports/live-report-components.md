@@ -11,7 +11,7 @@ exl-id: 12168cdf-f517-49b5-958b-ba689ade6982
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
  </thead> 
  <tbody> 
   <tr> 
-   <td>Ações executadas com sucesso<br/> </td> 
+   <td>Ações executadas com êxito<br/> </td> 
    <td> Número total de Ações executadas com êxito para uma jornada.<br/> </td> 
 </tr> 
   <tr> 
@@ -63,7 +63,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
  </thead> 
  <tbody>
   <tr> 
-   <td> Rejeições<br/> </td> 
+   <td> Devoluções<br/> </td> 
    <td> Total de erros acumulados durante o processamento de entrega e retorno automático.<br/> </td> 
 </tr> 
   <tr> 
@@ -79,20 +79,20 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número de mensagens enviadas com êxito.<br/></td> 
 </tr> 
   <tr> 
-   <td> Taxa de entrega<br/> </td> 
+   <td> Taxa de Entrega<br/> </td> 
    <td> Porcentagem de mensagens enviadas com êxito.<br/> </td> 
 </tr>
   <tr> 
    <td> Erros<br/> </td> 
-   <td> Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.<br/> </td> 
+   <td> Número total de erros que ocorreram durante uma entrega, impedindo que ela fosse enviada aos perfis.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Taxa de erro<br/> </td> 
-   <td> Porcentagem de erros que ocorreram durante um delivery impedindo que ele seja enviado em comparação aos emails enviados.<br/> </td> 
+   <td> Taxa de Erro<br/> </td> 
+   <td> Porcentagem de erros ocorridos durante uma entrega que impedem seu envio em comparação aos emails enviados.<br/> </td> 
 </tr>
   <tr> 
    <td> Excluído<br/> </td> 
-   <td> Número de perfis excluídos pelo Adobe Journey Optimizer.<br/> </td> 
+   <td> Número de perfis que foram excluídos pelo Adobe Journey Optimizer.<br/> </td> 
 </tr>
   <tr> 
    <td> Rejeição permanente<br/> </td> 
@@ -100,7 +100,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
 </tr>
   <tr> 
    <td> Ignorado<br/> </td> 
-   <td> O número total de temporários, como Ausência Temporária ou um erro técnico, por exemplo, se o tipo de remetente for postmaster.<br/> </td> 
+   <td> O número total de mensagens temporárias, como Ausência Temporária, ou um erro técnico, por exemplo, se o tipo de remetente for postmaster.<br/> </td> 
 </tr>
    <tr> 
    <td>Taxa de cliques da oferta<br/> </td> 
@@ -123,7 +123,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número de vezes que a mensagem foi aberta.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Taxa de abertura<br/> </td> 
+   <td> Taxa de Abertura<br/> </td> 
    <td> Número total de emails abertos em comparação ao número de emails entregues.<br/> </td> 
 </tr>
   <tr> 
@@ -135,7 +135,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número de emails na fila para tentativas.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Enviado<br/> </td> 
+   <td> Sent<br/> </td> 
    <td> Número total de envios para a entrega.<br/> </td> 
 </tr>
   <tr> 
@@ -148,11 +148,11 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
 </tr>
   <tr> 
    <td> Direcionado<br/> </td> 
-   <td> Número total de mensagens processadas durante a análise de delivery.<br/> </td> 
+   <td> Número total de mensagens processadas durante a análise de entrega.<br/> </td> 
 </tr> 
   <tr> 
    <td> Cliques únicos<br/> </td> 
-   <td> Número de recipients que clicaram em um conteúdo em um email.<br/> </td> 
+   <td> Número de destinatários que clicaram em um conteúdo de um email.<br/> </td> 
 </tr> 
   <tr> 
    <td>Taxa de cliques únicos<br/> </td> 
@@ -160,11 +160,11 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
 </tr>
   <tr> 
    <td> Aberturas únicas<br/> </td> 
-   <td>Número de destinatários que abriram o delivery.<br/> </td> 
+   <td>Número de destinatários que abriram a entrega.<br/> </td> 
 </tr> 
   <tr> 
    <td> Cancelamentos de assinatura<br/> </td> 
-   <td> Número de cliques no link unsubscription.<br/> </td> 
+   <td> Número de cliques no link de cancelamento de assinatura.<br/> </td> 
 </tr> 
  </tbody> 
 </table>
@@ -180,13 +180,13 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
  </thead> 
  <tbody>
  <tr> 
-  <td>Rejeições<br/> </td> 
+  <td>Devoluções<br/> </td> 
    <td>Número de pessoas que não interagiram com a página de aterrissagem e não concluíram a ação de assinatura.<br/> </td> 
 </tr>
  <tr>
   <tr> 
    <td>Cliques<br/> </td> 
-   <td>Número de vezes que um conteúdo foi clicado na landing page.<br/> </td> 
+   <td>Número de vezes que um conteúdo foi clicado na página de aterrissagem.<br/> </td> 
 </tr>
 <tr>
 <td>Conversão<br/> </td> 
@@ -194,23 +194,23 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
 </tr>
  <tr> 
    <td>Jornada(s)<br/> </td> 
-   <td>Número de visitas à página de aterrissagem provenientes de uma jornada.<br/> </td> 
+   <td>Número de visitas à sua página de aterrissagem vindas de uma jornada.<br/> </td> 
 </tr>
  <tr> 
-   <td>Outras origens<br/> </td> 
-   <td>Número de visitas à página de aterrissagem provenientes de uma fonte externa em vez de uma jornada.<br/> </td> 
+   <td>Outras fontes<br/> </td> 
+   <td>Número de visitas à sua página de aterrissagem vindas de uma fonte externa em vez de uma jornada.<br/> </td> 
 </tr>
  <tr> 
    <td>Total de visitas<br/> </td> 
-   <td> Número total de visitas à página de aterrissagem provenientes de jornadas e fontes externas, incluindo várias visitas de um recipient.<br/> </td> 
+   <td> Número total de visitas à sua página de aterrissagem provenientes de jornadas e fontes externas, incluindo várias visitas de um destinatário.<br/> </td> 
 </tr>
  <tr> 
    <td>Visitantes únicos<br/> </td> 
-   <td>Número de pessoas que visitaram a página de aterrissagem; várias visitas de um recipient não são consideradas.<br/> </td> 
+   <td>Número de pessoas que visitaram sua página de aterrissagem; várias visitas de um destinatário não são consideradas.<br/> </td> 
 </tr>
  <tr> 
    <td>Visitas<br/> </td> 
-   <td>Número de visitas à página de aterrissagem, incluindo várias visitas de um recipient.<br/> </td> 
+   <td>Número de visitas à página de aterrissagem, incluindo várias visitas de um destinatário.<br/> </td> 
 </tr>
  </tbody> 
 </table>
@@ -230,7 +230,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número total de ações na notificação por push entregue, por exemplo, clique ou descarte de botões.<br/> </td> 
 </tr>
   <tr> 
-   <td>Rejeições<br/> </td> 
+   <td>Devoluções<br/> </td> 
    <td> Total de erros acumulados durante o processamento de entrega e retorno automático.<br/> </td> 
 </tr> 
   <tr> 
@@ -238,28 +238,28 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número de mensagens enviadas com êxito.<br/> </td> 
 </tr> 
   <tr> 
-   <td>Envolvimentos<br/> </td> 
+   <td>Compromissos<br/> </td> 
    <td> Número total de aberturas e ações para esta notificação por push, ou seja, se o perfil abriu o push ou se um botão foi clicado.<br/> </td> 
 </tr> 
   <tr> 
    <td> Erros<br/> </td> 
-   <td> Número total de erros que ocorreram durante um delivery impedindo que ele fosse enviado a perfis.<br/> </td> 
+   <td> Número total de erros que ocorreram durante uma entrega, impedindo que ela fosse enviada aos perfis.<br/> </td> 
 </tr>
   <tr> 
    <td> Excluído<br/> </td> 
-   <td> Número de perfis excluídos pelo Adobe Journey Optimizer.<br/> </td> 
+   <td> Número de perfis que foram excluídos pelo Adobe Journey Optimizer.<br/> </td> 
 </tr>
   <tr> 
    <td> Aberturas<br/> </td> 
-   <td> Número total de notificações por push entregues ao dispositivo e clicadas pelos usuários, abrindo o aplicativo. Isso é semelhante ao clique por push, exceto que uma abertura por push não será acionada se a notificação tiver sido descartada.<br/> </td> 
+   <td> Número total de notificações por push entregues ao dispositivo e clicadas pelos usuários, abrindo o aplicativo. Isso é semelhante ao Clique por Push, exceto que uma Abertura por Push não será acionada se a notificação for descartada.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Enviado<br/> </td> 
+   <td> Sent<br/> </td> 
    <td> Número total de envios para a entrega.<br/> </td> 
 </tr> 
   <tr> 
    <td> Direcionado<br/> </td> 
-   <td> Número total de mensagens de push processadas durante a análise de delivery.<br/> </td> 
+   <td> Número total de mensagens de push processadas durante a análise de entrega.<br/> </td> 
 </tr>  
  </tbody> 
 </table>

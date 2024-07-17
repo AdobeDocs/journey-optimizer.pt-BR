@@ -52,17 +52,17 @@ Retorna &quot;Hexlo World&quot;.
 
 Como o parâmetro de destino é um RegExp, dependendo da cadeia de caracteres que você deseja substituir, talvez seja necessário usar escape em alguns caracteres. Exemplo:
 
-* string a ser avaliada: `|OFFER_A|OFFER_B`
+* cadeia de caracteres a ser avaliada: `|OFFER_A|OFFER_B`
 * fornecido por um atributo de perfil `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
-* Sequência de caracteres a ser substituída: `|OFFER_A`
-* Sequência de caracteres substituída por: `''`
-* É necessário adicionar `\\` antes do `|` caractere.
+* Cadeia de caracteres a ser substituída: `|OFFER_A`
+* Cadeia de caracteres substituída por: `''`
+* É necessário adicionar `\\` antes do caractere `|`.
 
 A expressão é:
 
 `replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
 
-A sequência retornada é: `|OFFER_B`
+A cadeia de caracteres retornada é: `|OFFER_B`
 
 Também é possível criar a cadeia de caracteres a ser substituída a partir de um determinado atributo:
 

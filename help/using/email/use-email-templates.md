@@ -23,31 +23,31 @@ ht-degree: 20%
 >title="Criar conteúdo a partir de um modelo"
 >abstract="Para começar a criar o conteúdo de email, selecione um modelo pronto para uso ou um modelo personalizado existente (criado do zero ou salvo como modelo de um email anterior)."
 
-No **[!UICONTROL Criar seu email]** , use o **[!UICONTROL Selecionar modelo de design]** para começar a criar o conteúdo a partir de um modelo.
+Na tela **[!UICONTROL Criar seu email]**, use a seção **[!UICONTROL Selecionar modelo de design]** para começar a criar o conteúdo a partir de um modelo.
 
 ![](assets/email_designer-templates.png)
 
 Você pode escolher entre:
 
-* **Modelos de amostra**. A variável [!DNL Journey Optimizer] A interface do oferece 20 modelos de email prontos para uso que você pode escolher.
+* **Modelos de exemplo**. A interface do [!DNL Journey Optimizer] oferece 20 modelos de email prontos para uso que você pode escolher.
 
 * **Modelos salvos**. Também é possível usar um modelo personalizado que você:
 
-   * Criado do zero usando o **[!UICONTROL Modelos de conteúdo]** menu. [Saiba mais](../content-management/content-templates.md#create-template-from-scratch)
+   * Criado do zero usando o menu **[!UICONTROL Modelos de conteúdo]**. [Saiba mais](../content-management/content-templates.md#create-template-from-scratch)
 
-   * Salvo de um email em uma jornada ou campanha usando o **[!UICONTROL Salvar como modelo de conteúdo]** opção. [Saiba mais](../content-management/content-templates.md#save-as-template)
+   * Salvo de um email em uma jornada ou campanha usando a opção **[!UICONTROL Salvar como modelo de conteúdo]**. [Saiba mais](../content-management/content-templates.md#save-as-template)
 
 Para começar a criar o conteúdo com um dos modelos de amostra ou salvos, siga as etapas abaixo.
 
-1. [Acessar o Designer de email](get-started-email-design.md) do email **[!UICONTROL Editar conteúdo]** tela.
+1. [Acesse o Designer de email](get-started-email-design.md) a partir da tela de email **[!UICONTROL Editar conteúdo]**.
 
-1. No **[!UICONTROL Criar seu email]** tela, a variável **[!UICONTROL Modelos de amostra]** é selecionada por padrão.
+1. Na tela **[!UICONTROL Criar seu email]**, a guia **[!UICONTROL Modelos de amostra]** é selecionada por padrão.
 
-1. Para usar um modelo personalizado, vá para a **[!UICONTROL Modelos salvos]** guia.
+1. Para usar um modelo personalizado, vá para a guia **[!UICONTROL Modelos salvos]**.
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. A lista de todas as [modelos de conteúdo](../content-management/content-templates.md#create-content-templates) criado na sandbox atual é exibido. Você pode classificá-las **[!UICONTROL Por nome]**, **[!UICONTROL Última modificação]** e **[!UICONTROL Última criação]**.
+1. A lista de todos os [modelos de conteúdo](../content-management/content-templates.md#create-content-templates) criados na sandbox atual é exibida. Você pode classificá-las **[!UICONTROL Por nome]**, **[!UICONTROL Última modificação]** e **[!UICONTROL Última criação]**.
 
    ![](assets/email_designer-saved-templates-filter.png)
 

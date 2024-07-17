@@ -12,44 +12,44 @@ exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 14%
+ht-degree: 33%
 
 ---
 
 # Importar o conteúdo do email {#existing-content}
 
-[!DNL Journey Optimizer] O permite importar conteúdo de HTML existente para criar seus emails. Esse conteúdo pode ser:
+O [!DNL Journey Optimizer] permite importar conteúdo de HTML existente para criar seus emails. Esse conteúdo pode ser:
 
 * Um **arquivo HTML** com uma folha de estilos incorporada;
-* A **pasta .zip** incluindo um arquivo HTML, a folha de estilos (.css) e as imagens.
+* Uma pasta **.zip** incluindo um arquivo HTML, a folha de estilos (.css) e as imagens.
 
   >[!NOTE]
   >
   >Não há restrições na estrutura do arquivo .zip. No entanto, as referências devem ser relativas e se encaixar na estrutura de árvore da pasta .zip.
 
-Para importar um arquivo com conteúdo HTML, siga as etapas abaixo:
+Para importar um arquivo contendo conteúdo HTML, siga as etapas abaixo:
 
 1. Na página inicial do Designer de email, selecione **[!UICONTROL Importar HTML]**.
 
    ![](assets/import-html_2.png)
 
-1. Arraste e solte o arquivo HTML ou .zip que contém o conteúdo HTML e clique em **[!UICONTROL Importar]**.
+1. Arraste e solte o HTML ou arquivo .zip contendo seu conteúdo HTML e clique em **[!UICONTROL Importar]**.
 
    ![](assets/html-imported_2.png)
 
-1. Depois que o conteúdo do HTML for carregado, seu conteúdo estará em **[!UICONTROL Modo de compatibilidade]**.
+1. Assim que o conteúdo do HTML for carregado, seu conteúdo estará no **[!UICONTROL Modo de compatibilidade]**.
 
    Nesse modo, você só pode personalizar seu texto, adicionar links ou incluir ativos ao seu conteúdo.
 
-1. Para aproveitar os componentes de conteúdo do Designer de email, acesse o **[!UICONTROL conversor de HTML]** e clique em **[!UICONTROL Converter]**.
+1. Para aproveitar os componentes de conteúdo do Email Designer, acesse a guia **[!UICONTROL Conversor de HTML]** e clique em **[!UICONTROL Converter]**.
 
    ![](assets/html-imported.png)
 
    >[!NOTE]
    >
-   > Uso de um `<table>` marcar como a primeira camada em um arquivo HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na tag da camada superior.
+   > Usar uma marca `<table>` como a primeira camada em um arquivo de HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
 
-1. Agora você pode personalizar o arquivo importado conforme necessário com as funcionalidades do Designer de email [Saiba mais](content-from-scratch.md).
+1. Agora você pode personalizar seu arquivo importado conforme necessário com as funcionalidades de email do Designer [Saiba mais](content-from-scratch.md).
 
 ## Vídeo tutorial {#video}
 

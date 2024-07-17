@@ -12,7 +12,7 @@ exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
 source-git-commit: e411810196c591727fb1049826dc761e3807ed03
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -52,18 +52,18 @@ Esta seção o guiará sobre como dimensionar com as duas limitações a seguir:
 
 Você pode adotar várias práticas recomendadas que o ajudarão a permanecer nas medidas de proteção e usar o sistema com eficiência.
 
-* Se você estiver se aproximando do limite de jornadas ativas, o primeiro passo que pode dar é ir para o **Visão geral** em **Jornadas** para ver quantas jornadas estavam ativas nas últimas 24 horas (jornadas que tinham perfis ativos). Você pode verificar o número de perfis que entram e saem da jornada nesta seção para determinar isso.
+* Se você estiver se aproximando do limite de jornadas ativas, a primeira etapa a ser realizada é ir para a guia **Visão geral** em **Jornadas** para ver quantas jornadas estavam ativas nas últimas 24 horas (jornadas que tinham perfis ativos). Você pode verificar o número de perfis que entram e saem da jornada nesta seção para determinar isso.
 
   ![](assets/journey-guardrails2.png)
 
-* Em seguida, na seção Jornada inventory, você pode filtrar todas as jornadas por Status = &quot;Live&quot; e Tipo = &quot;Read audience&quot;. Em seguida, classifique por Data de publicação (mais antiga a mais recente). Clique em na jornada e acesse o cronograma. Interromper todas as jornadas ativas com agendamento para execução **Uma vez** ou **Assim que possível** que tenham mais de um dia e tenham apenas uma ação.
+* Em seguida, na seção Jornada inventory, você pode filtrar todas as jornadas por Status = &quot;Live&quot; e Tipo = &quot;Read audience&quot;. Em seguida, classifique por Data de publicação (mais antiga a mais recente). Clique em na jornada e acesse o cronograma. Pare todas as jornadas ativas com agendamento para execução **Uma Vez** ou **Assim que Possível** que tenham mais de um dia e tenham apenas uma ação.
 
   ![](assets/journey-guardrails1.png)
 
-* Se o seu **Ler público** O jornada tem apenas uma ação, sem esperas/decisões ou otimização de tempo de envio. Considere movê-los para o Journey Optimizer Campaigns. As campanhas são mais adequadas para o engajamento em uma única etapa. Uma das principais diferenças entre o Campaign e as Jornadas é se você acha importante ouvir ativamente o engajamento do usuário para determinar a próxima etapa e se engajar com outra ação.
+* Se a sua jornada **Ler público-alvo** tiver apenas uma ação, nenhuma espera/decisão ou otimização de tempo de envio, considere movê-la para Campanhas do Journey Optimizer. As campanhas são mais adequadas para o engajamento em uma única etapa. Uma das principais diferenças entre o Campaign e as Jornadas é se você acha importante ouvir ativamente o engajamento do usuário para determinar a próxima etapa e se engajar com outra ação.
 * Para diminuir o número de atividades em uma jornada, verifique as etapas de condição. Haverá muitas instâncias em que é possível mover as condições para a definição do segmento ou a composição do público-alvo.
 * Se as mesmas condições forem repetidas em várias jornadas (verificações de consentimento, supressões), considere movê-las como parte da definição do segmento. Por exemplo, se você tiver uma condição para verificar &quot;o endereço de email não está vazio&quot; em várias jornadas, inclua essa condição como parte da definição do segmento.
 * Se sua jornada tiver várias condições dividindo o público-alvo para ver os números em cada etapa, considere usar o Customer Journey Analytics ou outra solução de relatório mais adequada para análise.
 * Se você estiver se aproximando do limite de nós na tela, considere a consolidação de ações com parâmetros dinâmicos ou conteúdo para veicular o conteúdo correto em vez de nós explícitos.
 
-* Se você tiver uma **Ler público-alvo** jornada com segmento em lote (A) e, se estiver usando dentro da jornada no segmento de transmissão de público (B) para excluir (ou seja, execute A-B), considere mover essa lógica para a lógica de segmentação e usar a exclusão como parte da própria lógica de segmentação.
+* Se você tiver uma jornada **Ler público-alvo** com segmento em lote (A) e estiver usando dentro do segmento de transmissão de jornada em Público-alvo (B) para excluir (ou seja, execute A-B), considere mover essa lógica para a lógica de segmentação e use a exclusão como parte da própria lógica de segmentação.

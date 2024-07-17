@@ -29,7 +29,7 @@ Verifique se os campos usados em suas consultas têm valores associados no esque
 
 >[!NOTE]
 >
->Para fins de solução de problemas, recomendamos usar journeyVersionID em vez de journeyVersionName ao consultar jornadas. Saiba mais sobre os atributos de propriedades do jornada [nesta seção](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Para fins de solução de problemas, recomendamos usar journeyVersionID em vez de journeyVersionName ao consultar jornadas. Saiba mais sobre os atributos de propriedades de jornada [nesta seção](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 ## Casos de uso básicos/consultas comuns {#common-queries}
 
@@ -81,7 +81,7 @@ WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVers
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**O que acontece com um perfil específico em uma jornada específica em um intervalo de tempo específico**
+**O que acontece com um perfil específico em uma jornada específica em um período específico**
 
 _Consulta do Data Lake_
 
@@ -285,7 +285,7 @@ Esta consulta retorna todos os erros diferentes que ocorreram ao executar uma a�
 
 ## Consultas baseadas em perfil {#profile-based-queries}
 
-**Localizar se um perfil inseriu uma Jornada específica**
+**Descubra se um perfil inseriu uma Jornada específica**
 
 _Consulta do Data Lake_
 
@@ -433,7 +433,7 @@ O query retorna, para o período definido, o número de perfis que entraram na j
 
 ## Consultas relacionadas ao público-alvo de leitura {#read-segment-queries}
 
-**Tempo necessário para concluir um trabalho de exportação de público**
+**Tempo necessário para concluir um trabalho de exportação de público-alvo**
 
 _Consulta do Data Lake_
 
@@ -509,7 +509,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 A consulta retorna todas as IDs de perfil que foram descartadas pela jornada porque tinham um namespace inválido ou nenhuma identidade para esse namespace.
 
-**Número de perfis que foram descartados pela jornada devido à falta de um mapa de identidade**
+**Número de perfis que foram descartados pela jornada devido a nenhum mapa de identidade**
 
 _Consulta do Data Lake_
 
@@ -531,7 +531,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 A consulta retorna todas as IDs de perfil que foram descartadas pela jornada porque o mapa de identidade estava ausente.
 
-**Número de perfis que foram descartados pela jornada porque a jornada estava no nó de teste e o perfil não era um perfil de teste**
+**Número de perfis descartados pela jornada porque a jornada estava no nó de teste e o perfil não era um perfil de teste**
 
 _Consulta do Data Lake_
 
@@ -575,7 +575,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 A consulta retorna todas as IDs de perfil que foram descartadas pela jornada devido a um erro interno.
 
-**Visão geral do público-alvo de leitura para uma determinada versão do jornada**
+**Visão geral do Público-alvo de Leitura para uma determinada versão do jornada**
 
 _Consulta do Data Lake_
 
@@ -613,7 +613,7 @@ IMPORTANTE: se não houver nenhum evento retornado por essa consulta, talvez sej
 * a versão do jornada não atingiu o cronograma
 * se a versão do jornada deveria ter acionado o trabalho de exportação chamando o orchestrator, algo deu errado no fluxo upstram: problema na implantação do jornada, evento comercial ou problema com o scheduler.
 
-**Obter erros de público-alvo de leitura para uma determinada versão do jornada**
+**Obter erros de leitura de público para uma determinada versão do jornada**
 
 _Consulta do Data Lake_
 
@@ -668,7 +668,7 @@ Se nenhum registro for retornado, significa que:
 * ocorreu um erro durante a criação do tópico ou do trabalho de exportação
 * o trabalho de exportação ainda está em execução
 
-**Obter métricas sobre perfis exportados, incluindo descartes e métricas de trabalho de exportação para cada trabalho de exportação**
+**Obtenha métricas sobre perfis exportados, incluindo descartes e métricas de trabalho de exportação para cada trabalho de exportação**
 
 _Consulta do Data Lake_
 
@@ -793,7 +793,7 @@ Ele retorna as métricas gerais de uma determinada versão do jornada, independe
 
 ## Consultas relacionadas à qualificação de público-alvo {#segment-qualification-queries}
 
-**Perfil descartado devido a uma realização de público-alvo diferente da configurada**
+**Perfil descartado devido a uma realização de público diferente da configurada**
 
 _Consulta do Data Lake_
 
@@ -989,7 +989,7 @@ A consulta retorna, para o período definido, a contagem de jornadas exclusivas 
 
 ## Consultas em instâncias do jornada {#journey-instances-queries}
 
-**Número de perfis em um estado específico por um tempo específico**
+**Número de perfis em um estado específico em um horário específico**
 
 _Consulta do Data Lake_
 

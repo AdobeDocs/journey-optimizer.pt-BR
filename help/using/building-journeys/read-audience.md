@@ -25,43 +25,43 @@ ht-degree: 7%
 >title="Atividade Ler público-alvo"
 >abstract="A atividade Ler público-alvo permite que todas as pessoas pertencentes a um público-alvo da Adobe Experience Platform entrem em uma jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente."
 
-Use o **Ler público-alvo** atividade para fazer com que todos os indivíduos de um público-alvo entrem na jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente.
+Use a atividade **Ler público-alvo** para fazer com que todos os indivíduos de um público-alvo entrem na jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente.
 
-Vamos ver como exemplo o público-alvo &quot;Abertura e finalização do aplicativo Luma&quot; criado no [Criar públicos-alvo](../audience/about-audiences.md) caso de uso. Com a atividade Ler público-alvo, você pode fazer com que todos os indivíduos pertencentes a esse público-alvo insiram uma jornada e façam com que eles fluam para jornadas individualizadas que aproveitarão todas as funcionalidades da jornada: condições, temporizadores, eventos, ações.
+Vamos ver como exemplo o público-alvo &quot;Abertura e finalização do aplicativo Luma&quot; criado no caso de uso [Criar públicos-alvo](../audience/about-audiences.md). Com a atividade Ler público-alvo, você pode fazer com que todos os indivíduos pertencentes a esse público-alvo insiram uma jornada e façam com que eles fluam para jornadas individualizadas que aproveitarão todas as funcionalidades da jornada: condições, temporizadores, eventos, ações.
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
 ## Leitura obrigatória {#must-read}
 
-* Para jornadas que usam um **Ler público-alvo** atividade, há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. As tentativas serão executadas pelo sistema, mas evite ter mais de cinco jornadas (com **Ler público-alvo**, programado ou iniciando &quot;assim que possível&quot;) iniciando exatamente ao mesmo tempo. A prática recomendada é espalhá-las ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
+* Para jornadas que usam uma atividade **Read Audience**, há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. As tentativas serão executadas pelo sistema, mas evite ter mais de cinco jornadas (com **Ler público**, agendado ou iniciando &quot;o mais rápido possível&quot;) iniciando exatamente ao mesmo tempo. A prática recomendada é espalhá-las ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
 
-* Grupos de campos de evento de experiência não podem ser usados em jornadas que começam com um **Ler público** atividade, um **[Qualificação de público](audience-qualification-events.md)** atividade de evento comercial.
+* Os grupos de campos de evento de experiência não podem ser usados em jornadas que comecem com uma atividade **Ler público-alvo**, uma atividade **[Qualificação de público-alvo](audience-qualification-events.md)** ou uma atividade de evento comercial.
 
-* Como prática recomendada, use somente públicos-alvo em lote em uma **Ler público** atividade. Isso fornecerá uma contagem confiável e consistente para os públicos-alvo usados em uma jornada. O público-alvo de leitura foi projetado para casos de uso em lote. Se o caso de uso precisar de dados em tempo real, use **[Qualificação de público](audience-qualification-events.md)** atividade.
+* Como prática recomendada, você só deve usar públicos-alvo em lote em uma atividade **Ler público-alvo**. Isso fornecerá uma contagem confiável e consistente para os públicos-alvo usados em uma jornada. O público-alvo de leitura foi projetado para casos de uso em lote. Se o seu caso de uso precisa de dados em tempo real, use a atividade **[Qualificação de público-alvo](audience-qualification-events.md)**.
 
-* Públicos-alvo [importado de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) ou resultantes de [workflows de composição](../audience/get-started-audience-orchestration.md) pode ser selecionado no **Ler público-alvo** atividade. Esses públicos-alvo não estão disponíveis na **Qualificação do público-alvo** atividade.
+* Os públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) ou resultantes de [fluxos de trabalho de composição](../audience/get-started-audience-orchestration.md) podem ser selecionados na atividade **Ler Público**. Estes públicos-alvo não estão disponíveis na atividade **Qualificação de público-alvo**.
 
 ## Configurar a atividade {#configuring-segment-trigger-activity}
 
 As etapas para configurar a atividade Ler público-alvo são as seguintes:
 
-1. Expanda o **[!UICONTROL Orquestração]** category e solte uma **[!UICONTROL Ler público-alvo]** atividade na tela.
+1. Expanda a categoria **[!UICONTROL Orquestração]** e solte uma atividade **[!UICONTROL Ler público]** na tela.
 
    A atividade deve ser posicionada como a primeira etapa de uma jornada.
 
-1. Adicionar um **[!UICONTROL Rótulo]** à atividade (opcional).
+1. Adicione um **[!UICONTROL Rótulo]** à atividade (opcional).
 
-1. No **[!UICONTROL Público]** escolha o público-alvo da Adobe Experience Platform que entrará na jornada e clique em **[!UICONTROL Salvar]**. Você pode selecionar qualquer público-alvo do Adobe Experience Platform gerado usando [definições de segmento](../audience/creating-a-segment-definition.md).
+1. No campo **[!UICONTROL Público-alvo]**, escolha o público-alvo da Adobe Experience Platform que inserirá a jornada e clique em **[!UICONTROL Salvar]**. Você pode selecionar qualquer público-alvo do Adobe Experience Platform gerado usando [definições de segmento](../audience/creating-a-segment-definition.md).
 
    >[!NOTE]
    >
-   >Além disso, também é possível direcionar públicos-alvo da Adobe Experience Platform criados com o [composições de público](../audience/get-started-audience-orchestration.md) ou [carregado de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+   >Além disso, você também pode direcionar públicos-alvo da Adobe Experience Platform criados com o uso de [composições de público-alvo](../audience/get-started-audience-orchestration.md) ou [carregados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Observe que é possível personalizar as colunas exibidas na lista e classificá-las.
 
    ![](assets/read-segment-selection.png)
 
-   Depois que o público-alvo é adicionado, a variável **[!UICONTROL Copiar]** permite copiar o nome e a ID:
+   Depois que o público-alvo é adicionado, o botão **[!UICONTROL Copiar]** permite copiar seu nome e ID:
 
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
@@ -69,15 +69,15 @@ As etapas para configurar a atividade Ler público-alvo são as seguintes:
 
    >[!NOTE]
    >
-   >Somente os indivíduos com o **Realizado** e **Existente** os status de participação do público-alvo entrarão na jornada. Para obter mais informações sobre como avaliar um público-alvo, consulte a [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Somente os indivíduos com o status de participação de público **Realizado** e **Existente** entrarão na jornada. Para obter mais informações sobre como avaliar um público, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
-1. No **[!UICONTROL Namespace]** escolha o namespace a ser usado para identificar os indivíduos. Por padrão, o campo é pré-preenchido com o último namespace usado. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace).
+1. No campo **[!UICONTROL Namespace]**, escolha o namespace a ser usado para identificar os indivíduos. Por padrão, o campo é pré-preenchido com o último namespace usado. [Saiba mais sobre namespaces](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
-   >Os indivíduos pertencentes a um público-alvo que não tem a identidade (namespace) selecionada entre suas diferentes identidades não podem entrar na jornada. Você só pode selecionar um namespace de identidade com base em pessoas. Se você tiver definido um namespace para uma tabela de pesquisa (por exemplo: Namespace de ProductID para uma pesquisa de Produto), ele não estará disponível na **Namespace** lista suspensa.
+   >Os indivíduos pertencentes a um público-alvo que não tem a identidade (namespace) selecionada entre suas diferentes identidades não podem entrar na jornada. Você só pode selecionar um namespace de identidade com base em pessoas. Se você tiver definido um namespace para uma tabela de pesquisa (por exemplo: namespace ProductID para uma pesquisa de Produto), ele não estará disponível na lista suspensa **Namespace**.
 
-1. Defina o **[!UICONTROL Taxa de leitura]**. Esse é o número máximo de perfis que podem entrar na jornada por segundo. Essa taxa se aplica somente a essa atividade e nenhuma outra na jornada. Se você deseja definir uma taxa de limitação em ações personalizadas, por exemplo, é necessário usar a API de limitação. Consulte esta [página](../configuration/throttling.md).
+1. Defina a **[!UICONTROL Taxa de leitura]**. Esse é o número máximo de perfis que podem entrar na jornada por segundo. Essa taxa se aplica somente a essa atividade e nenhuma outra na jornada. Se você deseja definir uma taxa de limitação em ações personalizadas, por exemplo, é necessário usar a API de limitação. Consulte esta [página](../configuration/throttling.md).
 
    Esse valor é armazenado na carga da versão do jornada. O valor padrão é de 5.000 perfis por segundo. Você pode modificar esse valor de 500 para 20.000 perfis por segundo.
 
@@ -85,7 +85,7 @@ As etapas para configurar a atividade Ler público-alvo são as seguintes:
    >
    >A taxa de leitura geral por sandbox está definida como 20.000 perfis por segundo. Portanto, a taxa de leitura de todos os públicos-alvo de leitura executados simultaneamente na mesma sandbox totaliza no máximo 20.000 perfis por segundo. Não é possível modificar esse limite.
 
-1. A variável **[!UICONTROL Ler público-alvo]** A atividade permite especificar a hora em que o público-alvo inserirá a jornada. Para fazer isso, clique no link **[!UICONTROL Editar programação de jornada]** link para acessar as propriedades da jornada e configurar o **[!UICONTROL Tipo de scheduler]** campo.
+1. A atividade **[!UICONTROL Ler público-alvo]** permite especificar a hora em que o público-alvo inserirá a jornada. Para fazer isso, clique no link **[!UICONTROL Editar agendamento de jornada]** para acessar as propriedades da jornada e configure o campo **[!UICONTROL Tipo de agendador]**.
 
    ![](assets/read-segment-schedule.png)
 
@@ -93,17 +93,17 @@ As etapas para configurar a atividade Ler público-alvo são as seguintes:
 
    >[!NOTE]
    >
-   >Observe que **[!UICONTROL Agendar]** A seção só está disponível quando um **[!UICONTROL Ler público-alvo]** A atividade de foi solta na tela.
+   >Observe que a seção **[!UICONTROL Agenda]** só estará disponível quando uma atividade **[!UICONTROL Ler Público]** for descartada na tela.
 
    ![](assets/read-segment-schedule-list.png)
 
-   **Leitura incremental** opção: quando uma jornada com um evento recorrente **Ler público** O executa pela primeira vez, todos os perfis no público-alvo entram na jornada. Essa opção permite direcionar, após a primeira ocorrência, somente os indivíduos que entraram no público-alvo desde a última execução da jornada.
+   Opção **Leitura incremental**: quando uma jornada com uma **Leitura de público** recorrente é executada pela primeira vez, todos os perfis da audiência entram na jornada. Essa opção permite direcionar, após a primeira ocorrência, somente os indivíduos que entraram no público-alvo desde a última execução da jornada.
 
        >[!NOTE]
        >
-       >Se você estiver direcionando um [público-alvo de upload personalizado](../audience/about-audiences.md#segments-in-jornada-otimizer) na jornada, os perfis só serão recuperados na primeira recorrência se esta opção estiver ativada em uma jornada recorrente, uma vez que estes públicos-alvo são corrigidos.
+       >Se você estiver direcionando um [público-alvo de carregamento personalizado](../audience/about-audiences.md#segments-in-jornada-otimizer) em sua jornada, os perfis só serão recuperados na primeira recorrência se esta opção estiver habilitada em uma jornada recorrente, já que esses públicos-alvo estão corrigidos.
    
-   **Forçar reentrada na recorrência**: essa opção permite fazer com que todos os perfis ainda presentes no jornada saiam automaticamente na próxima execução. Por exemplo, se você tiver 2 dias de espera em uma jornada recorrente diária, ao ativar essa opção os perfis sempre serão movidos na próxima execução da jornada (ou seja, no dia seguinte), estejam ou não no público da próxima execução. Se a duração dos perfis nesta jornada for maior que a frequência de recorrência, não ative essa opção para garantir que os perfis possam concluir a jornada.
+   **Forçar reentrada na recorrência**: essa opção permite fazer com que todos os perfis ainda presentes na jornada saiam automaticamente na próxima execução. Por exemplo, se você tiver 2 dias de espera em uma jornada recorrente diária, ao ativar essa opção os perfis sempre serão movidos na próxima execução da jornada (ou seja, no dia seguinte), estejam ou não no público da próxima execução. Se a duração dos perfis nesta jornada for maior que a frequência de recorrência, não ative essa opção para garantir que os perfis possam concluir a jornada.
 
 <!--
 
@@ -126,11 +126,11 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->As jornadas de público-alvo de leitura única são movidas para a **Concluído** status 91 dias ([Tempo limite global de jornada](journey-properties.md#global_timeout)) após a execução da jornada. Para públicos-alvo de leitura agendados, isso acontece 91 dias após a execução da última ocorrência.
+>As jornadas de público-alvo de Leitura Única são movidas para o status **Concluído** 91 dias ([Tempo limite global da jornada](journey-properties.md#global_timeout)) após a execução da jornada. Para públicos-alvo de leitura agendados, isso acontece 91 dias após a execução da última ocorrência.
 
 ## Testar e publicar a jornada {#testing-publishing}
 
-A variável **[!UICONTROL Ler público-alvo]** A atividade permite testar a jornada em um perfil unitário.
+A atividade **[!UICONTROL Ler público-alvo]** permite testar a jornada em um perfil unitário.
 
 Para fazer isso, ative o modo de teste.
 
@@ -138,11 +138,11 @@ Para fazer isso, ative o modo de teste.
 
 Configure e execute o modo de teste como de costume. [Saiba como testar uma jornada](testing-the-journey.md).
 
-Quando o teste estiver em execução, a variável **[!UICONTROL Mostrar logs]** permite ver os resultados do teste. Para obter mais informações, consulte [esta seção](testing-the-journey.md#viewing_logs)
+Depois que o teste estiver em execução, o botão **[!UICONTROL Mostrar logs]** permitirá que você veja os resultados do teste. Para obter mais informações, consulte [esta seção](testing-the-journey.md#viewing_logs)
 
 ![](assets/read-segment-log.png)
 
-Depois que os testes forem concluídos com êxito, você poderá publicar sua jornada (consulte [Publicação da jornada](publishing-the-journey.md)). Os indivíduos pertencentes ao público inserirão a jornada na data/hora especificada nas propriedades da jornada **[!UICONTROL Scheduler]** seção.
+Depois que os testes forem concluídos com êxito, você poderá publicar sua jornada (consulte [Publicando a jornada](publishing-the-journey.md)). Os indivíduos pertencentes ao público inserirão a jornada na data/hora especificada na seção **[!UICONTROL Scheduler]** das propriedades da jornada.
 
 >[!NOTE]
 >
@@ -150,7 +150,7 @@ Depois que os testes forem concluídos com êxito, você poderá publicar sua jo
 
 ## Direcionamento de público em jornadas baseadas em público
 
-As jornadas baseadas em público sempre começam com um **Ler público-alvo** atividade para recuperar indivíduos pertencentes a um público-alvo do Adobe Experience Platform.
+As jornadas baseadas em público-alvo sempre começam com uma atividade **Ler público-alvo** para recuperar indivíduos que pertencem a um público da Adobe Experience Platform.
 
 O público-alvo pertencente ao público-alvo é recuperado uma vez ou regularmente.
 
@@ -158,7 +158,7 @@ Depois de inserir a jornada, você pode criar casos de uso de orquestração de 
 
 **Segmentação**
 
-É possível usar as condições para executar a segmentação usando o **Condição** atividade. Por exemplo, você pode fazer com que as pessoas VIP sigam um determinado caminho e o não-VIP flua outro caminho.
+Você pode usar condições para executar a segmentação usando a atividade **Condição**. Por exemplo, você pode fazer com que as pessoas VIP sigam um determinado caminho e o não-VIP flua outro caminho.
 
 A segmentação pode ser baseada em:
 
@@ -172,7 +172,7 @@ A segmentação pode ser baseada em:
 
 **Exclusão**
 
-O mesmo **Condição** a atividade usada para segmentação (veja acima) também permite excluir parte da população. Por exemplo, você pode excluir pessoas VIP fazendo com que elas fluam para uma ramificação com uma etapa final logo após.
+A mesma atividade **Condition** usada para segmentação (veja acima) também permite excluir parte da população. Por exemplo, você pode excluir pessoas VIP fazendo com que elas fluam para uma ramificação com uma etapa final logo após.
 
 Essa exclusão pode ocorrer logo após a recuperação do público-alvo, para fins de contagem de população ou ao longo de uma jornada em várias etapas.
 

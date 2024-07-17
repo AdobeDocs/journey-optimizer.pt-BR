@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Excluir uma regra de decisão {#delete-decision-rule}
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma regra de decisão. Somente as regras de decisão criadas no contêiner de locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para o [!DNL Offer Library] API usando a ID de instância da regra de decisão que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma regra de decisão. Somente as regras de decisão criadas no contêiner de locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando a ID de instância da regra de decisão que você deseja excluir.
 
 **Formato da API**
 

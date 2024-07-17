@@ -13,7 +13,7 @@ badge: label="Disponibilidade limitada" type="Informative"
 source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 25%
+ht-degree: 33%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 25%
 
 >[!AVAILABILITY]
 >
->No momento, o conteúdo multilíngue está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
+>No momento, o conteúdo multilíngue está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
 
 O recurso multilíngue permite criar conteúdo em vários idiomas facilmente em uma única campanha ou jornada. Com esse recurso, você pode alternar entre idiomas ao editar sua campanha, simplificando todo o processo de edição e melhorando sua capacidade de gerenciar com eficiência o conteúdo multilíngue.
 
 Com o Journey Optimizer, você tem a possibilidade de criar conteúdo multilíngue por meio de dois métodos distintos:
 
-* **Tradução manual**: Traduza o conteúdo diretamente no Designer de email ou importe conteúdo multilíngue existente. [Saiba mais](multilingual-manual.md)
+* **Tradução manual**: traduza seu conteúdo diretamente no Designer de email ou importe conteúdo multilíngue existente. [Saiba mais](multilingual-manual.md)
 
-* **Tradução automatizada**: envie conteúdo para seu provedor de idioma preferido para tradução automática. [Saiba mais](multilingual-automated.md)
+* **Tradução automática**: envie conteúdo para o seu provedor de idioma preferido para tradução automática. [Saiba mais](multilingual-automated.md)
 
 
 </br>

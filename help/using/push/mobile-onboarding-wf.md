@@ -12,29 +12,29 @@ exl-id: 364ef926-3f92-4297-acbd-a283668106ac
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 # Fluxo de trabalho de início rápido de integração para dispositivos móveis {#mobile-wf}
 
-O novo **fluxo de trabalho de início rápido da integração com dispositivos móveis** é um novo recurso do produto para configurar rapidamente o SDK do Adobe Experience Platform Mobile, começar a coletar e validar dados de eventos móveis e enviar notificações por push com o [!DNL Journey Optimizer].
+O novo **fluxo de trabalho de início rápido de integração móvel** é um novo recurso do produto para configurar rapidamente o SDK do Adobe Experience Platform Mobile, começar a coletar e validar dados de eventos móveis e enviar notificações por push com [!DNL Journey Optimizer].
 
-Esse recurso é acessível por meio da **[!DNL Adobe Experience Platform Data Collection]** para todos os clientes como um Beta público.
+Esse recurso pode ser acessado por meio da página inicial do **[!DNL Adobe Experience Platform Data Collection]** para todos os clientes como um Beta público.
 
 ## Introdução{#gs-mobile-wf}
 
-Esse novo fluxo de trabalho automatiza a configuração da Coleção de dados, reduzindo o total de cliques e acelerando a configuração móvel do Journey Optimizer. Esse fluxo de trabalho de início rápido orienta você em quatro etapas fáceis para [configurar](##setup-mobile-wf), [implementar](#implement-mobile-wf), [validar](#valid-mobile-wf), e [revisão](#review-mobile-wf) sua configuração móvel.
+Esse novo fluxo de trabalho automatiza a configuração da Coleção de dados, reduzindo o total de cliques e acelerando a configuração móvel do Journey Optimizer. Este fluxo de trabalho de início rápido orienta você em quatro etapas fáceis para [configurar](##setup-mobile-wf), [implementar](#implement-mobile-wf), [validar](#valid-mobile-wf) e [revisar](#review-mobile-wf) sua configuração móvel.
 
-Para acessar o novo fluxo de trabalho de início rápido da integração móvel, navegue até **[!DNL Data Collection]** do alternador de soluções. Em seguida, selecione o **[!DNL Start Collecting Mobile Data]** na página inicial.
+Para acessar o novo fluxo de trabalho de início rápido da integração móvel, navegue até **[!DNL Data Collection]** no alternador de soluções. Em seguida, selecione o cartão **[!DNL Start Collecting Mobile Data]** na home page.
 
 ![](assets/mobile-wf-home.png)
 
 Abaixo estão alguns recursos adicionais:
 
 * Fácil fluxo de trabalho de quatro etapas e interface do usuário.
-* Fornece uma configuração básica para começar a coletar dados do evento móvel por meio da [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} em minutos.
-* Capacidade de testar e validar um evento básico de push móvel aproveitando [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
+* Fornece uma configuração básica para iniciar a coleta de dados do evento móvel por meio do [SDK móvel do Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} em minutos.
+* Capacidade de testar e validar um evento básico de push móvel aproveitando o [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 * Cria e configura automaticamente todos os ativos necessários de Coleção de dados e Journey Optimizer.
 * Em Orientação do produto e dicas de ferramentas.
 * Fornece uma transição natural para uma implementação mais avançada, se necessário.
@@ -43,7 +43,7 @@ Abaixo estão alguns recursos adicionais:
 
 A primeira etapa desse fluxo de trabalho cria e configura automaticamente toda a Coleção de dados necessária e ativos do Journey Optimizer, como Propriedades móveis, Extensões móveis, Extensão do Journey Optimizer, Regras, Elementos de dados etc.
 
-Depois de aceitar os Termos e condições beta, digite o nome do aplicativo móvel e clique em **[!DNL Next]**.
+Depois de aceitar os Termos e Condições do Beta, digite o nome do aplicativo móvel e clique em **[!DNL Next]**.
 
 ![](assets/mobile-wf-setup.png)
 

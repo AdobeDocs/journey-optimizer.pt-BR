@@ -23,9 +23,9 @@ O Adobe Journey Optimizer permite que os profissionais enviem chamadas de API pa
 
 Isso pode ser feito com:
 
-* **Fontes de dados**: para coletar informações de sistemas externos e usá-las no contexto da jornada, por exemplo, para obter informações meteorológicas sobre a cidade do perfil e ter um fluxo de jornada dedicado com base nisso.
+* **Fontes de Dados**: para coletar informações de sistemas externos e usá-las no contexto da jornada, por exemplo, para obter informações meteorológicas sobre a cidade do perfil e ter um fluxo de jornada dedicado com base nisso.
 
-* **Ações Personalizadas**: para enviar informações a sistemas externos, por exemplo, para enviar emails por meio de uma solução externa usando os recursos de orquestração do Journey Optimizer junto com informações de perfil, dados de público-alvo e contexto de jornada.
+* **Ações personalizadas**: para enviar informações a sistemas externos, por exemplo, para enviar emails por meio de uma solução externa usando os recursos de orquestração da Journey Optimizer junto com informações de perfil, dados de público-alvo e contexto de jornada.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Para obter mais informações sobre como integrar com sistemas externos, consult
 
 ## Implementação
 
-Para **jornadas acionadas pelo público**, você pode definir a taxa de leitura da sua atividade Read Audience que afetará a taxa de transferência da jornada. [Leia mais](../building-journeys/read-audience.md)
+Para **jornadas acionadas por público-alvo**, você pode definir a taxa de leitura da sua atividade Ler público que afetará a taxa de transferência da jornada. [Leia mais](../building-journeys/read-audience.md)
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Você pode modificar esse valor de 500 a 20.000 instâncias por segundo. Se voc�
 
 ![](assets/limit-throughput-2.png)
 
-Vamos ver um exemplo de **jornadas acionadas pelo público** trabalhar com uma população de **10.000 perfis** e enviar dados para um sistema externo que suporte **100 solicitações/segundo**.
+Vamos ver um exemplo de **jornadas acionadas por público** que funcionam com uma população de **10 000 perfis** e enviam dados para um sistema externo com suporte a **100 solicitações/segundo**.
 
 1. Você pode definir seu Público-alvo de leitura para ler perfis com uma taxa de transferência de 500 perfis/segundo, o que significa que levará 20 segundos para ler todos os perfis. No segundo 1, você lerá 500 deles, no segundo mais 2 500, etc.
 

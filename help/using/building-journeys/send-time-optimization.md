@@ -50,10 +50,10 @@ Essas informações são armazenadas com o perfil do usuário e são referenciad
 >title="Ativar otimização da hora de envio"
 >abstract="O padrão das mensagens por push é a opção de abertura, pois cliques não são aplicáveis para mensagens por push. Você também pode optar por agrupar as horas de envio usadas pelo sistema inserindo um valor para Enviar na próxima opção."
 
-Ative a Otimização de hora de envio em um email ou mensagem por push selecionando o **Otimização de tempo de envio** alterne entre os parâmetros da atividade.
+Habilite a Otimização de Tempo de Envio em um email ou mensagem por push selecionando a opção **Otimização de Tempo de Envio** nos parâmetros de atividade.
 
 ![](../building-journeys/assets/jo-message5.png)
 
 Para mensagens de email, escolha se deseja otimizar as aberturas de email ou click-throughs de email selecionando o botão de opção apropriado. As mensagens de push assumem o padrão da opção de aberturas, pois os cliques não se aplicam às mensagens de push.
 
-Você também pode optar por colocar entre colchetes os tempos de envio usados pelo sistema inserindo um valor para a variável **Enviar no próximo** opção. Se você escolher &quot;seis horas&quot; como o valor, [!DNL Journey Optimizer] O verificará cada perfil de usuário e escolherá o tempo de envio ideal dentro de seis horas a partir do tempo de execução da jornada.
+Você também pode optar por colocar entre colchetes os tempos de envio usados pelo sistema, inserindo um valor para a opção **Enviar na próxima**. Se você escolher &quot;seis horas&quot; como o valor, [!DNL Journey Optimizer] verificará cada perfil de usuário e escolherá o tempo de envio ideal dentro de seis horas a partir do tempo de execução da jornada.

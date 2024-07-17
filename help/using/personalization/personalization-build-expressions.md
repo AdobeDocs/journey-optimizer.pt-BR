@@ -23,7 +23,7 @@ ht-degree: 10%
 >title="Sobre o editor de personalização"
 >abstract="O editor de personalização permite selecionar, organizar, personalizar e validar todos os dados para criar um conteúdo personalizado."
 
-O editor de personalização é a peça central da personalização no [!DNL Journey Optimizer]. Ele está disponível em todos os contextos em que você precisa definir a personalização, como emails, push e ofertas.
+O editor de personalização é a peça central da personalização em [!DNL Journey Optimizer]. Ele está disponível em todos os contextos em que você precisa definir a personalização, como emails, push e ofertas.
 
 Na interface do editor de personalização, você selecionará, organizará, personalizará e validará todos os dados para criar uma personalização personalizada para seu conteúdo.
 
@@ -33,11 +33,11 @@ Na interface do editor de personalização, você selecionará, organizará, per
 
 A parte esquerda da tela exibe um seletor de domínio que permite selecionar a fonte para personalização. As fontes disponíveis são:
 
-* **[!UICONTROL Atributos do perfil]** : lista todas as referências associadas ao esquema de perfil descrito em [Documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
+* **[!UICONTROL Atributos do perfil]**: lista todas as referências associadas ao esquema de perfil descrito na [documentação do Modelo de Dados (XDM) do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
 * **[!UICONTROL Públicos-alvo]** : lista todos os públicos-alvo criados no serviço de Segmentação do Adobe Experience Platform. Mais informações sobre segmentação disponíveis [aqui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR){target="_blank"}.
-* **[!UICONTROL Decisões de oferta]** : lista todas as ofertas associadas a uma disposição específica. Selecione o posicionamento e insira as ofertas no conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [nesta seção](../offers/get-started/starting-offer-decisioning.md).
-* **[!UICONTROL Atributos contextuais]** : quando uma atividade de ação de canal (Email, push, SMS) é usada em uma jornada ou campanha, atributos contextuais relacionados a eventos e propriedades ficam disponíveis para personalização. Um exemplo de personalização que utiliza atributos contextuais é apresentado em [nesta seção](personalization-use-case.md).
-* **[!UICONTROL Funções auxiliares]** : lista todas as funções auxiliares disponíveis para executar operações em dados, como cálculos, formatação ou conversões de dados, condições e as manipula no contexto de personalização. Saiba mais [nesta seção](functions/functions.md).
+* **[!UICONTROL Decisões de oferta]** : lista todas as ofertas associadas a uma disposição específica. Selecione o posicionamento e insira as ofertas no conteúdo. Para obter uma documentação completa sobre como gerenciar ofertas, consulte [esta seção](../offers/get-started/starting-offer-decisioning.md).
+* **[!UICONTROL Atributos contextuais]**: quando uma atividade de ação de canal (email, push, SMS) é usada em uma jornada ou campanha, os atributos contextuais relacionados a eventos e propriedades ficam disponíveis para personalização. Um exemplo de personalização que utiliza atributos contextuais é apresentado em [esta seção](personalization-use-case.md).
+* **[!UICONTROL Funções auxiliares]** : lista todas as funções auxiliares disponíveis para executar operações em dados, como cálculos, formatação de dados ou conversões, condições e as manipula no contexto da personalização. Saiba mais [nesta seção](functions/functions.md).
 
 ## Adicionar atributos de personalização {#add}
 
@@ -49,7 +49,7 @@ O menu de reticências ao lado do ícone &quot;+&quot; permite obter mais detalh
 >
 >Se você estiver direcionando um público-alvo com atributos de enriquecimento gerados usando um fluxo de trabalho de composição, poderá aproveitar esses atributos de enriquecimento para personalizar sua mensagem. [Saiba como usar atributos de enriquecimento de públicos-alvo](../audience/about-audiences.md#enrichment)
 
-Além disso, você pode definir um texto de fallback padrão que será exibido se um atributo de perfil do tipo string estiver vazio. Para fazer isso, clique no botão de reticências ao lado do atributo e selecione **[!UICONTROL Inserir com texto de fallback]**. Escreva o texto que deve ser exibido por padrão se o valor do atributo estiver vazio para um perfil e clique em **[!UICONTROL Adicionar]**.
+Além disso, você pode definir um texto de fallback padrão que será exibido se um atributo de perfil do tipo string estiver vazio. Para fazer isso, clique no botão de reticências ao lado do atributo e selecione **[!UICONTROL Inserir com texto alternativo]**. Escreva o texto que deve ser exibido por padrão se o valor do atributo estiver vazio para um perfil e clique em **[!UICONTROL Adicionar]**.
 
 ![](assets/attribute-details.png)
 

@@ -10,7 +10,7 @@ exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -48,6 +48,6 @@ Retorna uma data e hora sem considerar o fuso horário.
 
 `setDays(toDateTime('2023-12-12T01:11:00Z'), 25)`
 
-Retorna 2023-12-25T01:11:00Z
+Retorna 2023-12-25T01:11:00Z.
 
 `setDays(toDateTimeOnly(@event{MyEvent.registrationDate}), 1)`

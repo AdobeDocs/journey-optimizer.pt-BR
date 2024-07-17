@@ -15,9 +15,9 @@ ht-degree: 4%
 
 # Introdução às APIs de entrega de ofertas {#about-decisioning-apis}
 
-É possível entregar ofertas usando a variável **Decisão** ou o **Edge Decisioning** API. Além disso, a **Decisão em lote** A API permite entregar ofertas a todos os perfis em um determinado público-alvo com uma única chamada. O conteúdo da oferta de cada perfil no público-alvo é colocado em um conjunto de dados do Adobe Experience Platform, onde ele estará disponível para fluxos de trabalho em lote personalizados.
+Você pode entregar ofertas usando a API de **Decisão** ou a **Decisão da Edge**. Além disso, a API de **Decisão em lote** permite entregar ofertas a todos os perfis em um determinado público-alvo através de uma única chamada. O conteúdo da oferta de cada perfil no público-alvo é colocado em um conjunto de dados do Adobe Experience Platform, onde ele estará disponível para fluxos de trabalho em lote personalizados.
 
-Nesta página, você encontrará informações sobre funcionalidades específicas disponíveis com o **Decisão** e **Edge Decisioning** APIs. Embora ambos permitam que você forneça ofertas aos seus clientes, recomendamos usar o **Edge Decisioning** sempre que possível para casos de uso de entrada e para garantir melhor latência e taxa de transferência na sua plataforma.
+Nesta página, você encontrará informações sobre funcionalidades específicas disponíveis com as APIs da **Decisão** e do **Edge Decisioning**. Embora ambos permitam entregar ofertas aos seus clientes, recomendamos usar a API do **Edge Decisioning** sempre que possível para casos de uso de entrada e para garantir melhor latência e taxa de transferência na sua plataforma.
 
 Para obter mais informações sobre como trabalhar com as APIs, consulte estas seções:
 * [API de decisão](decisioning-api.md)
@@ -26,9 +26,9 @@ Para obter mais informações sobre como trabalhar com as APIs, consulte estas s
 
 ## Recursos da API do Edge Decisioning {#edge}
 
-**Solicitação única para eventos de experiência e solicitações de decisão**
+**Solicitação exclusiva para eventos de experiência e solicitações de decisão**
 
-Com a API do Edge Decisioning, é possível enviar o próprio evento de experiência juntamente com a solicitação de decisão em uma única solicitação, em vez de ter duas solicitações diferentes.
+Com a API de decisão do Edge, é possível enviar o próprio evento de experiência juntamente com a solicitação de decisão em uma única solicitação, em vez de ter duas solicitações diferentes.
 
 Por exemplo, se um cliente visitar seu site, a solicitação incluirá o evento de experiência (a visita do cliente à página) e obterá uma oferta para preencher a página visitada.
 
@@ -50,8 +50,8 @@ Se o limite de frequência tiver sido ativado para algumas de suas ofertas para 
 
 As funcionalidades listadas abaixo só estão disponíveis com a API de decisão. Se você precisar usar uma delas para atender aos seus requisitos, use a API de decisão. Caso contrário, recomendamos usar as APIs do Edge Decisioning.
 
-* **Conteúdo e características da oferta**: é possível optar por não retornar o conteúdo e as características de uma oferta usando uma opção dedicada.
+* **Conteúdo e características da oferta**: você pode optar por não retornar o conteúdo e as características de uma oferta usando uma opção dedicada.
 * **Metadados da oferta**: habilite uma opção para retornar os metadados de uma oferta.
 * **Política de mesclagem**: use em sua solicitação uma política de mesclagem diferente da que está associada à sua sandbox.
-* **Eventos de decisão e limite de frequência**: os eventos de decisão de bloco não são contados por nenhum limite de frequência que ocorra.
-* **Proposições duplicadas**: ative uma opção para não desduplicar apresentações.
+* **Eventos de decisão e limite de frequência**: impede que os eventos de decisão sejam contados por qualquer limite de frequência que ocorra.
+* **Proposições duplicadas**: habilite uma opção para não desduplicar propostas.

@@ -19,7 +19,7 @@ Saiba como usar funções de string no editor de personalização.
 
 ## Camel Case {#camelCase}
 
-A variável `camelCase` A função coloca a primeira letra de cada palavra de uma string em maiúsculas.
+A função `camelCase` coloca a primeira letra de cada palavra de uma cadeia de caracteres em maiúscula.
 
 **Sintaxe**
 
@@ -37,7 +37,7 @@ A função a seguir colocará a primeira letra da palavra em maiúscula no ender
 
 ## Código de caractere em {#char-code-at}
 
-A variável `charCodeAt` A função retorna o valor ASCII de um caractere, como a função charCodeAt no JavaScript. Ele pega uma string e um inteiro (definindo a posição do caractere) como argumentos de entrada e retorna seu valor ASCII correspondente.
+A função `charCodeAt` retorna o valor ASCII de um caractere, como a função charCodeAt no JavaScript. Ele pega uma string e um inteiro (definindo a posição do caractere) como argumentos de entrada e retorna seu valor ASCII correspondente.
 
 **Sintaxe**
 
@@ -55,7 +55,7 @@ A função a seguir retorna o valor ASCII de ou seja, 111.
 
 ## Concat {#concate}
 
-A variável `concat` A função combina duas sequências de caracteres em uma.
+A função `concat` combina duas cadeias de caracteres em uma.
 
 **Sintaxe**
 
@@ -73,7 +73,7 @@ A função a seguir combinará a cidade e o país do perfil em uma única sequê
 
 ## Contains {#contains}
 
-A variável `contains` é usada para determinar se uma sequência de caracteres contém uma subsequência especificada.
+A função `contains` é usada para determinar se uma cadeia de caracteres contém uma subsequência especificada.
 
 **Sintaxe**
 
@@ -103,7 +103,7 @@ A variável `contains` é usada para determinar se uma sequência de caracteres 
 
 ## Não contém{#doesNotContain}
 
-A variável `doesNotContain` é usada para determinar se uma sequência de caracteres não contém uma subsequência especificada.
+A função `doesNotContain` é usada para determinar se uma cadeia de caracteres não contém uma subsequência especificada.
 
 **Sintaxe**
 
@@ -128,7 +128,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 
 ## Não termina com{#doesNotEndWith}
 
-A variável `doesNotEndWith` é usada para determinar se uma sequência de caracteres não termina com uma subsequência especificada.
+A função `doesNotEndWith` é usada para determinar se uma cadeia de caracteres não termina com uma subsequência especificada.
 
 **Sintaxe**
 
@@ -152,7 +152,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Não inicia com{#doesNotStartWith}
 
-A variável `doesNotStartWith` é usada para determinar se uma sequência de caracteres não inicia com uma subsequência especificada.
+A função `doesNotStartWith` é usada para determinar se uma cadeia de caracteres não inicia com uma subcadeia especificada.
 
 **Sintaxe**
 
@@ -176,7 +176,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 
 ## Codificação 64{#encode64}
 
-A variável `encode64` Esta função é usada para codificar uma sequência de caracteres para preservar as informações pessoais (PI), se elas forem incluídas, por exemplo, em um URL.
+A função `encode64` é usada para codificar uma sequência de caracteres para preservar as Informações Pessoais (PI), se elas forem incluídas, por exemplo, em uma URL.
 
 **Sintaxe**
 
@@ -186,7 +186,7 @@ A variável `encode64` Esta função é usada para codificar uma sequência de c
 
 ## Termina com{#endsWith}
 
-A variável `endsWith` é usada para determinar se uma sequência de caracteres termina com uma subsequência especificada.
+A função `endsWith` é usada para determinar se uma sequência de caracteres termina com uma subsequência especificada.
 
 **Sintaxe**
 
@@ -211,7 +211,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 
 ## Igual a{#equals}
 
-A variável `equals` A função é usada para determinar se uma sequência de caracteres é igual à sequência especificada, com distinção entre maiúsculas e minúsculas.
+A função `equals` é usada para determinar se uma cadeia de caracteres é igual à cadeia especificada, com distinção entre maiúsculas e minúsculas.
 
 **Sintaxe**
 
@@ -234,7 +234,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 
 ## Ignorar maiúsculas e minúsculas é igual a{#equalsIgnoreCase}
 
-A variável `equalsIgnoreCase` A função é usada para determinar se uma sequência de caracteres é igual à sequência especificada, sem distinção entre maiúsculas e minúsculas.
+A função `equalsIgnoreCase` é usada para determinar se uma cadeia de caracteres é igual à cadeia especificada, sem diferenciar maiúsculas de minúsculas.
 
 **Sintaxe**
 
@@ -257,7 +257,7 @@ A consulta a seguir determina, sem distinção entre maiúsculas e minúsculas, 
 
 ## Extrair domínio de email {#extractEmailDomain}
 
-A variável `extractEmailDomain` é usada para extrair o domínio de um endereço de email.
+A função `extractEmailDomain` é usada para extrair o domínio de um endereço de email.
 
 **Sintaxe**
 
@@ -275,7 +275,7 @@ A consulta a seguir extrai o domínio de email do endereço de email pessoal.
 
 ## Formatar moeda {#format-currency}
 
-A variável `formatCurrency` é usada para converter qualquer número em sua representação de moeda sensível ao idioma correspondente, dependendo da localidade transmitida como uma string no segundo argumento.
+A função `formatCurrency` é usada para converter qualquer número em sua representação de moeda sensível ao idioma correspondente, dependendo da localidade transmitida como uma cadeia de caracteres no segundo argumento.
 
 **Sintaxe**
 
@@ -293,7 +293,7 @@ Esta consulta retorna £ 56,00
 
 ## Obter host de URL {#get-url-host}
 
-A variável `getUrlHost` é usada para recuperar o nome de host de um URL.
+A função `getUrlHost` é usada para recuperar o nome de host de uma URL.
 
 **Sintaxe**
 
@@ -311,7 +311,7 @@ Retorna &quot;www.myurl.com&quot;
 
 ## Obter caminho de URL {#get-url-path}
 
-A variável `getUrlPath` é usada para recuperar o caminho após o nome de domínio de um URL.
+A função `getUrlPath` é usada para recuperar o caminho após o nome de domínio de uma URL.
 
 **Sintaxe**
 
@@ -329,7 +329,7 @@ Retorna &quot;/contact.html&quot;
 
 ## Obter protocolo de URL {#get-url-protocol}
 
-A variável `getUrlProtocol` é usada para recuperar o protocolo de um URL.
+A função `getUrlProtocol` é usada para recuperar o protocolo de uma URL.
 
 **Sintaxe**
 
@@ -347,7 +347,7 @@ Retorna &quot;http&quot;
 
 ## Índice de {#index-of}
 
-A variável `indexOf` é usada para retornar a posição (no primeiro argumento) da primeira ocorrência do segundo parâmetro. Retorna -1 se não houver correspondência.
+A função `indexOf` é usada para retornar a posição (no primeiro argumento) da primeira ocorrência do segundo parâmetro. Retorna -1 se não houver correspondência.
 
 **Sintaxe**
 
@@ -370,7 +370,7 @@ Retorna 6.
 
 ## Está vazio {#isEmpty}
 
-A variável `isEmpty` é usada para determinar se uma sequência de caracteres está vazia.
+A função `isEmpty` é usada para determinar se uma cadeia de caracteres está vazia.
 
 **Sintaxe**
 
@@ -388,7 +388,7 @@ A função a seguir retornará &#39;true&#39; se o número de telefone celular d
 
 ## Não está vazio {#is-not-empty}
 
-A variável `isNotEmpty` é usada para determinar se uma sequência de caracteres não está vazia.
+A função `isNotEmpty` é usada para determinar se uma cadeia de caracteres não está vazia.
 
 **Sintaxe**
 
@@ -406,7 +406,7 @@ A função a seguir retornará &#39;true&#39; se o número de telefone celular d
 
 ## Último índice de {#last-index-of}
 
-A variável `lastIndexOf` é usada para retornar a posição (no primeiro argumento) da última ocorrência do segundo parâmetro. Retorna -1 se não houver correspondência.
+A função `lastIndexOf` é usada para retornar a posição (no primeiro argumento) da última ocorrência do segundo parâmetro. Retorna -1 se não houver correspondência.
 
 **Sintaxe**
 
@@ -429,7 +429,7 @@ Retorna 7.
 
 ## Cortar à esquerda {#leftTrim}
 
-A variável `leftTrim` Esta função é usada para remover espaços em branco do início de uma sequência de caracteres.
+A função `leftTrim` é usada para remover espaços em branco do início de uma cadeia de caracteres.
 
 **Sintaxe**
 
@@ -439,7 +439,7 @@ A variável `leftTrim` Esta função é usada para remover espaços em branco do
 
 ## Comprimento {#length}
 
-A variável `length` é usada para obter o número de caracteres em uma cadeia de caracteres ou expressão.
+A função `length` é usada para obter o número de caracteres em uma cadeia de caracteres ou expressão.
 
 **Sintaxe**
 
@@ -457,7 +457,7 @@ A função a seguir retorna o comprimento do nome da cidade do perfil.
 
 ## Curtir{#like}
 
-A variável `like` é usada para determinar se uma sequência de caracteres corresponde a um padrão especificado.
+A função `like` é usada para determinar se uma cadeia de caracteres corresponde a um padrão especificado.
 
 **Sintaxe**
 
@@ -468,7 +468,7 @@ A variável `like` é usada para determinar se uma sequência de caracteres corr
 | Argumento | Descrição |
 | --------- | ----------- |
 | `{STRING_1}` | A sequência de caracteres a ser verificada. |
-| `{STRING_2}` | A expressão que deve corresponder à primeira sequência. Há dois caracteres especiais suportados para criar uma expressão: `%` e `_`. <ul><li>`%` é usado para representar zero ou mais caracteres.</li><li>`_` é usado para representar exatamente um caractere.</li></ul> |
+| `{STRING_2}` | A expressão que deve corresponder à primeira sequência. Há dois caracteres especiais suportados para a criação de uma expressão: `%` e `_`. <ul><li>`%` é usado para representar zero ou mais caracteres.</li><li>`_` é usado para representar exatamente um caractere.</li></ul> |
 
 **Exemplo**
 
@@ -480,7 +480,7 @@ A consulta a seguir recupera todas as cidades em que os perfis vivem contendo o 
 
 ## Minúsculas{#lower}
 
-A variável `lowerCase` converte uma string em letras minúsculas.
+A função `lowerCase` converte uma cadeia de caracteres em letras minúsculas.
 
 **Sintaxe**
 
@@ -498,7 +498,7 @@ Essa função converte o nome do perfil em letras minúsculas.
 
 ## Corresponde{#matches}
 
-A variável `matches` é usada para determinar se uma sequência de caracteres corresponde a uma expressão regular específica. Consulte [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obter mais informações sobre padrões correspondentes em expressões regulares.
+A função `matches` é usada para determinar se uma sequência de caracteres corresponde a uma expressão regular específica. Consulte [este documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) para obter mais informações sobre padrões correspondentes em expressões regulares.
 
 **Sintaxe**
 
@@ -516,7 +516,7 @@ A consulta a seguir determina, sem distinção entre maiúsculas e minúsculas, 
 
 ## Mascarar {#mask}
 
-A variável `Mask` é usada para substituir uma parte de uma string por caracteres &quot;X&quot;.
+A função `Mask` é usada para substituir uma parte de uma cadeia de caracteres por caracteres &quot;X&quot;.
 
 **Sintaxe**
 
@@ -536,7 +536,7 @@ A consulta retorna `1XXXXXX89`.
 
 ## MD5 {#md5}
 
-A variável `md5` é usada para calcular e retornar o hash md5 de uma sequência de caracteres.
+A função `md5` é usada para calcular e retornar o hash md5 de uma cadeia de caracteres.
 
 **Sintaxe**
 
@@ -554,7 +554,7 @@ Retorna &quot;5eb63bbbbe01eed093cb22bb8f5acdc3&quot;
 
 ## Não é igual a{#notEqualTo}
 
-A variável `notEqualTo` é usada para determinar se uma sequência de caracteres não é igual à sequência especificada.
+A função `notEqualTo` é usada para determinar se uma cadeia de caracteres não é igual à cadeia especificada.
 
 **Sintaxe**
 
@@ -577,7 +577,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 
 ## Não é igual a sem diferenciar maiúsculas e minúsculas {#not-equal-with-ignore-case}
 
-A variável `notEqualWithIgnoreCase` é usada para comparar duas sequências de caracteres, ignorando maiúsculas e minúsculas.
+A função `notEqualWithIgnoreCase` é usada para comparar duas cadeias de caracteres ignorando maiúsculas e minúsculas.
 
 **Sintaxe**
 
@@ -600,7 +600,7 @@ A consulta a seguir determina se o nome da pessoa não é &quot;john&quot;, sem 
 
 ## Grupo de expressão regular{#regexGroup}
 
-A variável `Group` é usada para extrair informações específicas, com base na expressão regular fornecida.
+A função `Group` é usada para extrair informações específicas, com base na expressão regular fornecida.
 
 **Sintaxe**
 
@@ -624,7 +624,7 @@ A consulta a seguir é usada para extrair o nome de domínio de um endereço de 
 
 ## Substituir {#replace}
 
-A variável `replace` Esta função é usada para substituir uma determinada substring em uma string por outra substring.
+A função `replace` é usada para substituir uma determinada substring em uma string por outra substring.
 
 **Sintaxe**
 
@@ -648,7 +648,7 @@ Retorna &quot;Olá Mark, aqui está seu informativo mensal!&quot;
 
 ## Substituir tudo{#replaceAll}
 
-A variável `replaceAll` A função é usada para substituir todas as subsequências de um texto que corresponde à expressão &quot;regex&quot; pela sequência literal &quot;replacement&quot; especificada. O Regex tem tratamento especial de &quot;\&quot; e &quot;+&quot; e todas as expressões regex seguem a estratégia de escape PQL. A substituição continua do início da string até o fim. Por exemplo, substituir &quot;aa&quot; por &quot;b&quot; na string &quot;aaa&quot; resultará em &quot;ba&quot; em vez de &quot;ab&quot;.
+A função `replaceAll` é usada para substituir todas as subsequências de um texto que corresponde à expressão &quot;regex&quot; pela sequência literal &quot;replacement&quot; especificada. O Regex tem manipulação especial de &quot;\&quot; e &quot;+&quot; e todas as expressões regex seguem a estratégia de escape do PQL. A substituição continua do início da string até o fim. Por exemplo, substituir &quot;aa&quot; por &quot;b&quot; na string &quot;aaa&quot; resultará em &quot;ba&quot; em vez de &quot;ab&quot;.
 
 **Sintaxe**
 
@@ -658,14 +658,14 @@ A variável `replaceAll` A função é usada para substituir todas as subsequên
 
 >[!NOTE]
 >
-> Quando a expressão tomada como segundo argumento for um caractere regex especial, use barra invertida dupla (`//`).  Os caracteres de regex especiais são: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
+> Quando a expressão usada como segundo argumento for um caractere regex especial, use barra invertida dupla (`//`).  Os caracteres de regex especiais são: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
-> Saiba mais em [Documentação do Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+> Saiba mais em [documentação do Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 >
 
 ## Cortar à direita {#rightTrim}
 
-A variável `rightTrim` Esta função remove espaços em branco do final de uma sequência de caracteres.
+A função `rightTrim` é usada para remover espaços em branco do final de uma cadeia de caracteres.
 
 **Sintaxe**
 
@@ -675,7 +675,7 @@ A variável `rightTrim` Esta função remove espaços em branco do final de uma 
 
 ## Divisão {#split}
 
-A variável `split` é usada para dividir uma sequência de caracteres por um determinado caractere.
+A função `split` é usada para dividir uma cadeia de caracteres por um determinado caractere.
 
 **Sintaxe**
 
@@ -685,7 +685,7 @@ A variável `split` é usada para dividir uma sequência de caracteres por um de
 
 ## Inicia com{#startsWith}
 
-A variável `startsWith` é usada para determinar se uma sequência de caracteres inicia com uma subsequência especificada.
+A função `startsWith` é usada para determinar se uma sequência de caracteres inicia com uma subsequência especificada.
 
 **Sintaxe**
 
@@ -709,7 +709,7 @@ A consulta a seguir determina, com distinção entre maiúsculas e minúsculas, 
 
 ## String para data {#string-to-date}
 
-A variável `stringToDate` converte um valor de string em um valor de data e hora. Leva dois argumentos: representação de string de uma representação de data-hora e representação de string do formatador.
+A função `stringToDate` converte um valor de cadeia de caracteres em um valor de data-hora. Leva dois argumentos: representação de string de uma representação de data-hora e representação de string do formatador.
 
 **Sintaxe**
 
@@ -725,7 +725,7 @@ A variável `stringToDate` converte um valor de string em um valor de data e hor
 
 ## String para número inteiro {#string-to-integer}
 
-A variável `string_to_integer` é usada para converter um valor de sequência de caracteres em um valor inteiro.
+A função `string_to_integer` é usada para converter um valor de cadeia de caracteres em um valor inteiro.
 
 **Sintaxe**
 
@@ -735,7 +735,7 @@ A variável `string_to_integer` é usada para converter um valor de sequência d
 
 ## String para número {#string-to-number}
 
-A variável `stringToNumber` é usada para converter uma sequência de caracteres em número. Ele retorna a mesma string que a saída para entrada inválida.
+A função `stringToNumber` é usada para converter uma cadeia de caracteres em número. Ele retorna a mesma string que a saída para entrada inválida.
 
 **Sintaxe**
 
@@ -745,7 +745,7 @@ A variável `stringToNumber` é usada para converter uma sequência de caractere
 
 ## Substring {#sub-string}
 
-A variável `Count string` Esta função é usada para retornar a subsequência de caracteres da expressão de sequência de caracteres entre o índice inicial e o índice final.
+A função `Count string` é usada para retornar a subcadeia de caracteres da expressão de cadeia de caracteres entre o índice inicial e o índice final.
 **Sintaxe**
 
 ```sql
@@ -754,7 +754,7 @@ A variável `Count string` Esta função é usada para retornar a subsequência 
 
 ## Primeira letra da palavra maiúscula{#titleCase}
 
-A variável **titleCase** Esta função é usada para colocar as primeiras letras de cada palavra de uma sequência de caracteres em maiúsculas.
+A função **titleCase** é usada para colocar as primeiras letras de cada palavra de uma cadeia de caracteres em maiúsculas.
 
 **Sintaxe**
 
@@ -772,7 +772,7 @@ Se a pessoa morar na Washington High Street, essa função retornará a Washingt
 
 ## Para booleano {#to-bool}
 
-A variável `toBool` A função é usada para converter um valor de argumento em um valor booleano, dependendo de seu tipo.
+A função `toBool` é usada para converter um valor de argumento em um valor booleano, dependendo de seu tipo.
 
 **Sintaxe**
 
@@ -782,7 +782,7 @@ A variável `toBool` A função é usada para converter um valor de argumento em
 
 ## Para data hora {#to-date-time}
 
-A variável `toDateTime` é usada para converter a sequência de caracteres em data. Retorna a data da época como saída para entrada inválida.
+A função `toDateTime` é usada para converter a cadeia de caracteres em data. Retorna a data da época como saída para entrada inválida.
 
 **Sintaxe**
 
@@ -792,7 +792,7 @@ A variável `toDateTime` é usada para converter a sequência de caracteres em d
 
 ## Somente para data e hora {#to-date-time-only}
 
-A variável `toDateTimeOnly` é usada para converter um valor de argumento em um valor somente de data e hora. Retorna a data da época como saída para entrada inválida. Esta função aceita os tipos de campo string, date, long e int.
+A função `toDateTimeOnly` é usada para converter um valor de argumento em um valor somente de data e hora. Retorna a data da época como saída para entrada inválida. Esta função aceita os tipos de campo string, date, long e int.
 
 **Sintaxe**
 
@@ -802,7 +802,7 @@ A variável `toDateTimeOnly` é usada para converter um valor de argumento em um
 
 ## Cortar {#trim}
 
-A variável **aparar** Esta função remove todos os espaços em branco do início e do fim de uma sequência de caracteres.
+A função **trim** remove todos os espaços em branco do início e do fim de uma cadeia de caracteres.
 
 **Sintaxe**
 
@@ -812,7 +812,7 @@ A variável **aparar** Esta função remove todos os espaços em branco do iníc
 
 ## Maiúscula{#upper}
 
-A variável **upperCase** converte uma string em letras maiúsculas.
+A função **upperCase** converte uma cadeia de caracteres em letras maiúsculas.
 
 **Sintaxe**
 
@@ -830,7 +830,7 @@ Esta função converte o sobrenome do perfil em letras maiúsculas.
 
 ## Decodificação de URL {#url-decode}
 
-A variável `urlDecode` é usada para decodificar uma sequência de caracteres codificada em url.
+A função `urlDecode` é usada para decodificar uma cadeia de caracteres codificada em URL.
 
 **Sintaxe**
 
@@ -840,7 +840,7 @@ A variável `urlDecode` é usada para decodificar uma sequência de caracteres c
 
 ## Codificação de URL {#url-encode}
 
-A variável `Count only null` é usada para codificar uma sequência de caracteres em url.
+A função `Count only null` é usada para codificar uma cadeia de caracteres em URL.
 
 **Sintaxe**
 

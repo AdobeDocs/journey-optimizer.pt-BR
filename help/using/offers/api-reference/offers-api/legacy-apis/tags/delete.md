@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Excluir um qualificador de coleção {#delete-tag}
 
-Ocasionalmente, pode ser necessário remover (DELETE) um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;). Somente qualificadores de coleção criados no contêiner de locatário podem ser excluídos. Isso é feito executando uma solicitação DELETE para o [!DNL Offer Library] API usando a $id do qualificador de coleção que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) um qualificador de coleção (anteriormente conhecido como &quot;tag&quot;). Somente qualificadores de coleção criados no contêiner de locatário podem ser excluídos. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando a $id do qualificador de coleção que você deseja excluir.
 
 **Formato da API**
 

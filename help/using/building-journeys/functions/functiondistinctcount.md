@@ -10,7 +10,7 @@ exl-id: 8796ba91-5c64-43c2-a444-27ac8b719c86
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -58,4 +58,4 @@ Retorna o número de objetos estritamente distintos na matriz de objetos forneci
 
 `distinctCount(@event{my_event.productListItems}, "SKU")`
 
-Retorna o número de objetos que têm um valor de atributo &quot;SKU&quot; distinto{}.
+Retorna o número de objetos que têm um valor de atributo &quot;SKU&quot; distinto {}.

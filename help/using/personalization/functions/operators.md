@@ -21,7 +21,7 @@ Funções booleanas são usadas para executar lógica booleana em elementos dife
 
 ### E{#and}
 
-A variável `and` é usada para criar uma conjunção lógica.
+A função `and` é usada para criar uma conjunção lógica.
 
 **Sintaxe**
 
@@ -39,7 +39,7 @@ A operação a seguir retornará todas as pessoas com país de origem como Fran�
 
 ### Ou{#or}
 
-A variável `or` é usada para criar uma disjunção lógica.
+A função `or` é usada para criar uma disjunção lógica.
 
 **Sintaxe**
 
@@ -82,7 +82,7 @@ As funções de comparação são usadas para comparar entre diferentes express�
 
 ### Igual a{#equals}
 
-A variável `=` (igual a) verifica se um valor ou expressão é igual a outro valor ou expressão.
+A função `=` (igual a) verifica se um valor ou expressão é igual a outro valor ou expressão.
 
 **Sintaxe**
 
@@ -100,7 +100,7 @@ A operação a seguir verifica se o país do endereço residencial é a França.
 
 ### Diferente de{#notequal}
 
-A variável `!=` (diferente de) função verifica se um valor ou expressão é **não** igual a outro valor ou expressão.
+A função `!=` (diferente de) verifica se um valor ou expressão é **não** igual a outro valor ou expressão.
 
 **Sintaxe**
 
@@ -118,7 +118,7 @@ A operação a seguir verifica se o país do endereço residencial não é a Fra
 
 ### Maior que{#greaterthan}
 
-A variável `>` (maior que) é usada para verificar se o primeiro valor é maior que o segundo valor.
+A função `>` (maior que) é usada para verificar se o primeiro valor é maior que o segundo valor.
 
 **Sintaxe**
 
@@ -136,7 +136,7 @@ A operação a seguir define pessoas nascidas estritamente após 1970.
 
 ### Maior que ou igual a{#greaterthanorequal}
 
-A variável `>=` (maior que ou igual a) é usada para verificar se o primeiro valor é maior que ou igual ao segundo valor.
+A função `>=` (maior que ou igual a) é usada para verificar se o primeiro valor é maior que ou igual ao segundo valor.
 
 **Sintaxe**
 
@@ -154,7 +154,7 @@ A operação a seguir define pessoas nascidas em ou após 1970.
 
 ### Menor que{#lessthan}
 
-A variável `<` (menor que) a função de comparação é usada para verificar se o primeiro valor é menor que o segundo valor.
+A função de comparação `<` (menor que) é usada para verificar se o primeiro valor é menor que o segundo valor.
 
 **Sintaxe**
 
@@ -172,7 +172,7 @@ A operação a seguir define pessoas nascidas antes de 2000.
 
 ### Menor que ou igual a{#lessthanorequal}
 
-A variável `<=` (menor que ou igual a) a função de comparação é usada para verificar se o primeiro valor é menor que ou igual ao segundo valor.
+A função de comparação `<=` (menor que ou igual a) é usada para verificar se o primeiro valor é menor que ou igual ao segundo valor.
 
 **Sintaxe**
 

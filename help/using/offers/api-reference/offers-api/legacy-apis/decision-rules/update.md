@@ -15,11 +15,11 @@ ht-degree: 12%
 
 # Atualizar uma regra de decisão {#update-decision-rule}
 
-Você pode criar uma oferta substituta fazendo uma solicitação POST para o [!DNL Offer Library] ao fornecer a ID do contêiner.
+Você pode criar uma oferta substituta fazendo uma solicitação POST para a API [!DNL Offer Library] e, ao mesmo tempo, fornecendo sua ID de container.
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -60,7 +60,7 @@ curl -X PATCH \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes atualizados da regra de decisão, incluindo a ID de instância exclusiva e a regra de decisão `@id`.
+Uma resposta bem-sucedida retorna os detalhes atualizados da regra de decisão, incluindo sua ID de instância exclusiva e a regra de decisão `@id`.
 
 
 ```json

@@ -19,7 +19,7 @@ Use essas funções para facilitar a interação com matrizes, listas e sequênc
 
 ## Somente contagem nula {#count-only-null}
 
-A variável `countOnlyNull` é usada para contar o número de valores nulos em uma lista.
+A função `countOnlyNull` é usada para contar o número de valores nulos em uma lista.
 
 **Sintaxe**
 
@@ -37,7 +37,7 @@ Retorna 3.
 
 ## Contagem com nulo {#count-with-null}
 
-A variável `countWithNull` é usada para contar todos os elementos de uma lista, incluindo valores nulos.
+A função `countWithNull` é usada para contar todos os elementos de uma lista, incluindo valores nulos.
 
 **Sintaxe**
 
@@ -55,7 +55,7 @@ Retorna 6.
 
 ## Distinto{#distinct}
 
-A variável `distinct` é usada para obter valores de uma matriz ou lista com valores duplicados removidos.
+A função `distinct` é usada para obter valores de uma matriz ou lista com valores duplicados removidos.
 
 **Sintaxe**
 
@@ -73,7 +73,7 @@ A operação a seguir especifica as pessoas que fizeram pedidos em mais de um ar
 
 ## Contagem distinta com nulo {#distinct-count-with-null}
 
-A variável `distinctCountWithNull` é usada para contar o número de valores diferentes em uma lista, incluindo os valores nulos.
+A função `distinctCountWithNull` é usada para contar o número de valores diferentes em uma lista, incluindo os valores nulos.
 
 **Sintaxe**
 
@@ -91,7 +91,7 @@ Retorna 3.
 
 ## Primeiro item{#head}
 
-A variável `head` é usada para retornar o primeiro item em uma matriz ou lista.
+A função `head` é usada para retornar o primeiro item em uma matriz ou lista.
 
 **Sintaxe**
 
@@ -101,7 +101,7 @@ A variável `head` é usada para retornar o primeiro item em uma matriz ou lista
 
 **Exemplo**
 
-A operação a seguir retorna a primeira das cinco ordens principais com o preço mais alto. Mais informações sobre o `topN` pode ser encontrada na variável [primeiro `n` na matriz](#first-n) seção.
+A operação a seguir retorna a primeira das cinco ordens principais com o preço mais alto. Mais informações sobre a função `topN` podem ser encontradas na [primeira `n` da seção de matriz](#first-n).
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -109,7 +109,7 @@ A operação a seguir retorna a primeira das cinco ordens principais com o preç
 
 ## Primeiro `n` na matriz {#first-n}
 
-A variável `topN` é usada para retornar a primeira `N` itens em uma matriz, quando classificados em ordem crescente com base na expressão numérica fornecida.
+A função `topN` é usada para retornar os primeiros `N` itens em uma matriz, quando classificados em ordem crescente com base na expressão numérica fornecida.
 
 **Sintaxe**
 
@@ -133,7 +133,7 @@ A operação a seguir retorna as cinco primeiras ordens com o preço mais baixo.
 
 ## Em{#in}
 
-A variável `in` é usada para determinar se um item é membro de uma matriz ou lista.
+A função `in` é usada para determinar se um item é membro de uma matriz ou lista.
 
 **Sintaxe**
 
@@ -151,7 +151,7 @@ A operação a seguir define as pessoas com aniversários em março, junho ou se
 
 ## Inclui{#includes}
 
-A variável `includes` é usada para determinar se uma matriz ou lista contém um determinado item.
+A função `includes` é usada para determinar se uma matriz ou lista contém um determinado item.
 
 **Sintaxe**
 
@@ -169,7 +169,7 @@ A operação a seguir define as pessoas cuja cor favorita inclui vermelho.
 
 ## Intersecta{#intersects}
 
-A variável `intersects` é usada para determinar se duas matrizes ou listas têm pelo menos um membro comum.
+A função `intersects` é usada para determinar se duas matrizes ou listas têm pelo menos um membro comum.
 
 **Sintaxe**
 
@@ -207,7 +207,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## Último `n` na matriz{#last-n}
 
-A variável `bottomN` é usada para retornar a última `N` itens em uma matriz, quando classificados em ordem crescente com base na expressão numérica fornecida.
+A função `bottomN` é usada para retornar os últimos `N` itens em uma matriz, quando classificados em ordem crescente com base na expressão numérica fornecida.
 
 **Sintaxe**
 
@@ -231,11 +231,11 @@ A operação a seguir retorna as cinco últimas ordens com o preço mais alto.
 
 ## Não está em{#notin}
 
-A variável `notIn` é usada para determinar se um item não é membro de uma matriz ou lista.
+A função `notIn` é usada para determinar se um item não é membro de uma matriz ou lista.
 
 >[!NOTE]
 >
->A variável `notIn` função *também* garante que nenhum dos valores seja igual a nulo. Portanto, os resultados não são uma negação exata do `in` função.
+>A função `notIn` *também* garante que nenhum dos valores seja igual a nulo. Portanto, os resultados não são uma negação exata da função `in`.
 
 **Sintaxe**
 
@@ -254,7 +254,7 @@ A operação a seguir define as pessoas com aniversários que não são em març
 
 ## Subconjunto de{#subset}
 
-A variável `subsetOf` é usada para determinar se uma matriz específica (matriz A) é um subconjunto de outra matriz (matriz B). Em outras palavras, que todos os elementos na matriz A são elementos da matriz B.
+A função `subsetOf` é usada para determinar se uma matriz específica (matriz A) é um subconjunto de outra matriz (matriz B). Em outras palavras, que todos os elementos na matriz A são elementos da matriz B.
 
 **Sintaxe**
 
@@ -272,7 +272,7 @@ A operação a seguir define as pessoas que visitaram todas as cidades favoritas
 
 ## Superconjunto de{#superset}
 
-A variável `supersetOf` é usada para determinar se uma matriz específica (matriz A) é um superconjunto de outra matriz (matriz B). Em outras palavras, essa matriz A contém todos os elementos na matriz B.
+A função `supersetOf` é usada para determinar se uma matriz específica (matriz A) é um superconjunto de outra matriz (matriz B). Em outras palavras, essa matriz A contém todos os elementos na matriz B.
 
 **Sintaxe**
 

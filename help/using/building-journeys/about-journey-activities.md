@@ -12,7 +12,7 @@ exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 8%
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ Combine diferentes atividades de evento, orquestração e ação para criar cen�
 
 As jornadas personalizadas são acionadas por eventos, como uma compra online. Depois que um perfil entra em uma jornada, ele se move como um indivíduo e nenhum dos dois indivíduos está se movendo na mesma taxa ou ao longo do mesmo caminho. Ao iniciar a jornada com um evento, a jornada é acionada ao receber o evento. Cada pessoa na jornada segue, individualmente, as próximas etapas definidas na jornada.
 
-Eventos configurados pelo usuário técnico (consulte [esta página](../event/about-events.md)) são exibidos na primeira categoria da paleta, no lado esquerdo da tela. As seguintes atividades de eventos estão disponíveis:
+Os eventos configurados pelo usuário técnico (consulte [esta página](../event/about-events.md)) são todos exibidos na primeira categoria da paleta, no lado esquerdo da tela. As seguintes atividades de eventos estão disponíveis:
 
 * [Eventos gerais](../building-journeys/general-events.md)
 * [Reação](../building-journeys/reaction-events.md)
@@ -52,7 +52,7 @@ Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração e
 
 As ações são o que você deseja que aconteça como resultado de algum tipo de acionador, como enviar uma mensagem. É a parte da jornada que o cliente experimenta.
 
-Na paleta, no lado esquerdo da tela, abaixo de **[!UICONTROL Eventos]** e **[!UICONTROL Orquestração]**, você pode encontrar o **[!UICONTROL Ações]** categoria. As seguintes atividades de ação estão disponíveis:
+Na paleta, no lado esquerdo da tela, abaixo de **[!UICONTROL Eventos]** e **[!UICONTROL Orquestração]**, você pode encontrar a categoria **[!UICONTROL Ações]**. As seguintes atividades de ação estão disponíveis:
 
 * [Email, SMS, Push](../building-journeys/journeys-message.md)
 * [Ações personalizadas](../building-journeys/using-custom-actions.md)
@@ -68,7 +68,7 @@ Se você tiver configurado ações personalizadas, elas também aparecerão aqui
 
 ### Adicionar um rótulo
 
-A maioria das atividades permite definir um **[!UICONTROL Rótulo]**. Isso adiciona um sufixo ao nome que aparecerá na atividade na tela. Isso é útil se você usar a mesma atividade várias vezes na jornada e quiser identificá-la mais facilmente. Também facilitará a depuração em caso de erros e facilitará a leitura dos relatórios. Você também pode adicionar um **[!UICONTROL Descrição]**.
+A maioria das atividades permite definir um **[!UICONTROL Rótulo]**. Isso adiciona um sufixo ao nome que aparecerá na atividade na tela. Isso é útil se você usar a mesma atividade várias vezes na jornada e quiser identificá-la mais facilmente. Também facilitará a depuração em caso de erros e facilitará a leitura dos relatórios. Você também pode adicionar uma **[!UICONTROL Descrição]** opcional.
 
 ![](assets/journey-action-label.png)
 
@@ -82,7 +82,7 @@ A maioria das atividades do exibe vários parâmetros avançados e/ou técnicos 
 
 ![](assets/journey-advanced-parameters.png)
 
-Para melhorar a compreensão, é possível ocultar esses parâmetros usando o **[!UICONTROL Ocultar campos somente leitura]** botão.
+Para melhorar a compreensão, você pode ocultar esses parâmetros usando o botão **[!UICONTROL Ocultar campos somente leitura]**.
 
 ![](assets/journey-hide-read-only-fields.png)
 
@@ -92,6 +92,6 @@ Em alguns contextos específicos, é possível substituir os valores desses par�
 
 ### Adicionar um caminho alternativo
 
-Quando ocorre um erro em uma ação ou condição, a jornada de um indivíduo é interrompida. A única maneira de fazê-lo continuar é marcando a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [nesta seção](../building-journeys/using-the-journey-designer.md#paths).
+A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. A única maneira de fazê-lo continuar é marcar a caixa **[!UICONTROL Adicionar um caminho alternativo em caso de tempo limite ou erro]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)

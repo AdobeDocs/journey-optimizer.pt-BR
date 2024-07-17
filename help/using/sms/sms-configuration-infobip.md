@@ -18,42 +18,42 @@ ht-degree: 5%
 
 Para configurar o Infobip com o Journey Optimizer, siga estas etapas:
 
-1. No painel esquerdo, navegue até **[!UICONTROL Administração]** `>` **[!UICONTROL Canais]** e selecione o **[!UICONTROL Credenciais da API]** menu. Clique em **[!UICONTROL Criar novas credenciais de API]** botão.
+1. No painel à esquerda, vá para **[!UICONTROL Administração]** `>` **[!UICONTROL Canais]** e selecione o menu **[!UICONTROL Credenciais de API]**. Clique no botão **[!UICONTROL Criar novas credenciais de API]**.
 
 1. Configure suas credenciais de API, conforme detalhado abaixo.
 
    * **[!UICONTROL Fornecedor de SMS]**: Infobip.
 
-   * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
+   * **[!UICONTROL Nome]**: escolha um nome para a credencial de API.
 
-   * **[!UICONTROL URL de base da API]** e **[!UICONTROL Chave de API]**: acesse a página inicial da interface da Web ou a página de gerenciamento de chaves da API para encontrar suas credenciais. Saiba mais em [Documentação do Infobip](https://www.infobip.com/docs/api){target="_blank"}.
+   * **[!UICONTROL URL de base da API]** e **[!UICONTROL chave de API]**: acesse a página inicial da interface da Web ou a página de gerenciamento de chaves de API para encontrar suas credenciais. Saiba mais em [Documentação de Infobip](https://www.infobip.com/docs/api){target="_blank"}.
 
-   * **[!UICONTROL Palavras-chave de Opt-in]**: digite as palavras-chave padrão ou personalizadas que acionarão automaticamente o **[!UICONTROL Mensagem de Opt-in]**. Para várias palavras-chave, use valores separados por vírgulas.
+   * **[!UICONTROL Palavras-chave de aceitação]**: digite as palavras-chave padrão ou personalizadas que dispararão automaticamente sua **[!UICONTROL Mensagem de aceitação]**. Para várias palavras-chave, use valores separados por vírgulas.
 
-   * **[!UICONTROL Mensagem de Opt-in]**: digite a resposta personalizada que é enviada automaticamente como **[!UICONTROL Mensagem de Opt-in]**.
+   * **[!UICONTROL Mensagem de aceitação]**: digite a resposta personalizada que é enviada automaticamente como sua **[!UICONTROL Mensagem de aceitação]**.
 
-   * **[!UICONTROL Palavras-chave de recusa]**: digite as palavras-chave ou padrão que acionarão automaticamente o **[!UICONTROL Mensagem de recusa]**. Para várias palavras-chave, use valores separados por vírgulas.
+   * **[!UICONTROL Palavras-chave de recusa]**: digite as palavras-chave ou padrão que dispararão automaticamente sua **[!UICONTROL Mensagem de recusa]**. Para várias palavras-chave, use valores separados por vírgulas.
 
-   * **[!UICONTROL Mensagem de recusa]**: digite a resposta personalizada que é enviada automaticamente como **[!UICONTROL Mensagem de recusa]**.
+   * **[!UICONTROL Mensagem de recusa]**: digite a resposta personalizada que é enviada automaticamente como sua **[!UICONTROL Mensagem de recusa]**.
 
-   * **[!UICONTROL Palavras-chave da Ajuda]**: digite as palavras-chave padrão ou personalizadas que acionarão automaticamente o **Mensagem de ajuda**. Para várias palavras-chave, use valores separados por vírgulas.
+   * **[!UICONTROL Palavras-chave da Ajuda]**: digite as palavras-chave padrão ou personalizadas que dispararão automaticamente sua **Mensagem da Ajuda**. Para várias palavras-chave, use valores separados por vírgulas.
 
-   * **[!UICONTROL Mensagem de ajuda]**: digite a resposta personalizada que é enviada automaticamente como **Mensagem de ajuda**.
+   * **[!UICONTROL Mensagem de Ajuda]**: digite a resposta personalizada que é enviada automaticamente como sua **Mensagem de Ajuda**.
 
-   * **[!UICONTROL Palavras-chave de aceitação dupla]**: digite as palavras-chave que acionam o processo de aceitação dupla. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. Para várias palavras-chave, use valores separados por vírgulas.
+   * **[!UICONTROL Palavras-chave de Aceitação Dupla]**: digite as palavras-chave que disparam o processo de aceitação dupla. Se um perfil de usuário não existir, ele será criado após a confirmação bem-sucedida. Para várias palavras-chave, use valores separados por vírgulas.
 
-   * **[!UICONTROL Mensagem de aceitação dupla]**: digite a resposta personalizada que é enviada automaticamente em resposta à confirmação da Aceitação dupla.
+   * **[!UICONTROL Mensagem de aceitação dupla]**: digite a resposta personalizada que é enviada automaticamente em resposta à confirmação da aceitação dupla.
 
-   * **[!UICONTROL ID da entidade principal]**: digite a ID de entidade principal DLT atribuída.
+   * **[!UICONTROL ID da Entidade Principal]**: digite sua ID de entidade principal DLT atribuída.
 
-   * **[!UICONTROL ID do modelo de conteúdo]**: digite a ID do modelo de conteúdo DLT registrado.
+   * **[!UICONTROL ID do Modelo de Conteúdo]**: digite sua ID de modelo de conteúdo DLT registrada.
 
-   * **[!UICONTROL Período de validade]**: digite o período de validade da mensagem em horas. Caso as mensagens não possam ser entregues dentro desse período, o sistema fará tentativas adicionais para reenviá-las. O período de validade padrão é definido como 48 horas.
+   * **[!UICONTROL Período de Validade]**: digite o período de validade da mensagem em horas. Caso as mensagens não possam ser entregues dentro desse período, o sistema fará tentativas adicionais para reenviá-las. O período de validade padrão é definido como 48 horas.
 
-   * **[!UICONTROL Dados de Retorno]**: digite os dados adicionais do cliente que serão enviados no URL de notificação.
+   * **[!UICONTROL Dados de Retorno de Chamada]**: insira os dados adicionais do cliente que serão enviados na URL de Notificação.
 
-   * **[!UICONTROL Número de entrada]**: adicione seu número de entrada exclusivo. Isso permite usar as mesmas credenciais de API em diferentes sandboxes, cada uma com seu próprio número de entrada.
+   * **[!UICONTROL Número de Entrada]**: adicione seu número de entrada exclusivo. Isso permite usar as mesmas credenciais de API em diferentes sandboxes, cada uma com seu próprio número de entrada.
 
-1. Clique em **[!UICONTROL Enviar]** quando você concluiu a configuração das credenciais da API.
+1. Clique em **[!UICONTROL Enviar]** quando terminar de configurar suas credenciais de API.
 
 Depois de criar e configurar sua credencial de API, agora é necessário criar uma superfície de canal para mensagens SMS e MMS. [Saiba mais](sms-configuration-surface.md)

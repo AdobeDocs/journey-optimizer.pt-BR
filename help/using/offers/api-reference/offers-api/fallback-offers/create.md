@@ -15,11 +15,11 @@ ht-degree: 15%
 
 # Criar uma oferta substituta {#create-fallback-offer}
 
-Você pode criar uma oferta substituta fazendo uma solicitação POST para o [!DNL Offer Library] API.
+Você pode criar uma oferta substituta fazendo uma solicitação POST para a API [!DNL Offer Library].
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem o campo *Content-Type* no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -74,7 +74,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a oferta substituta recém-criada, incluindo sua oferta substituta exclusiva `id`. Você pode usar o `id` em etapas posteriores, para atualizar ou excluir sua oferta substituta ou para criar uma decisão em um tutorial posterior.
+Uma resposta bem-sucedida retorna informações sobre a oferta substituta recém-criada, incluindo sua oferta substituta exclusiva `id`. Você pode usar o `id` em etapas posteriores para atualizar ou excluir sua oferta substituta ou para criar uma decisão em um tutorial posterior.
 
 
 ```json

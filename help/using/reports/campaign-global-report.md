@@ -22,13 +22,13 @@ ht-degree: 23%
 >title="Relatório global da campanha"
 >abstract="O Relatório global da campanha permite medir o impacto de suas campanhas durante um período selecionado. O relatório é dividido em diferentes widgets detalhando o sucesso e os erros da campanha. Cada painel de relatórios pode ser modificado redimensionando ou removendo widgets."
 
-Relatórios globais, acessíveis pelo **O tempo todo** , exiba eventos que ocorreram há pelo menos duas horas e cubra eventos durante um período selecionado. Em comparação, os Relatórios em tempo real focalizam eventos que ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos a partir da ocorrência do evento.
+Relatórios globais, acessíveis a partir da guia **Todos os tempos**, exibem eventos que ocorreram há pelo menos duas horas e abordam eventos durante um período selecionado. Em comparação, os Relatórios em tempo real focalizam eventos que ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos a partir da ocorrência do evento.
 
-O relatório global da campanha pode ser acessado diretamente do seu Campaign com o **[!UICONTROL Exibir relatório]** botão.
+O relatório global da campanha pode ser acessado diretamente do Campaign com o botão **[!UICONTROL Exibir relatório]**.
 
 ![](assets/campaign_report_global_5.png)
 
-A campanha **[!UICONTROL Relatório global]** será exibida com as seguintes guias:
+A página **[!UICONTROL Relatório global]** da campanha será exibida com as seguintes guias:
 
 * [Campaign](#campaign-global)
 * [Email](#email-global)
@@ -38,7 +38,7 @@ A campanha **[!UICONTROL Relatório global]** será exibida com as seguintes gui
 * [Web](#web-tab)
 * [Correspondência direta](#direct-mail-global)
 
-A campanha **[!UICONTROL Relatório global]** O é dividido em widgets diferentes detalhando o sucesso e os erros da campanha. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte esta [seção](../reports/global-report.md#modify-dashboard).
+O **[!UICONTROL Relatório global]** da campanha está dividido em widgets diferentes detalhando o sucesso e os erros da campanha. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte esta [seção](../reports/global-report.md#modify-dashboard).
 
 Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Optimizer, consulte [esta página](global-report.md#list-of-components-global.md)
 
@@ -53,15 +53,15 @@ Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Opt
 
 ![](assets/campaign_report_global_1.png)
 
-A variável **[!UICONTROL Estatísticas da campanha]** Os KPIs servem como um painel abrangente, oferecendo um detalhamento das principais métricas relacionadas à sua campanha. Isso inclui informações essenciais, como o número de perfis e as ações entregues, fornecendo uma compreensão completa do desempenho e do envolvimento da campanha.
+Os KPIs de **[!UICONTROL Estatísticas]** da campanha servem como um painel abrangente, oferecendo um detalhamento das principais métricas relacionadas à sua campanha. Isso inclui informações essenciais, como o número de perfis e as ações entregues, fornecendo uma compreensão completa do desempenho e do envolvimento da campanha.
 
 +++ Saiba mais sobre as métricas de estatísticas do Campaign
 
-* **[!UICONTROL Público]**: Número de perfis segmentados.
+* **[!UICONTROL Público-alvo]**: número de perfis direcionados.
 
-* **[!UICONTROL Ações entregues]**: Número total de vezes que uma ação foi entregue.
+* **[!UICONTROL Ações entregues]**: número total de vezes que uma ação foi entregue.
 
-* **[!UICONTROL Ações com falha em %]**: Porcentagem de vezes que uma ação falhou em comparação ao número total de vezes que uma ação foi entregue.
+* **[!UICONTROL Ações com falha em %]**: Porcentagem de vezes exclusivas que uma ação falhou em comparação ao número total de vezes exclusivas que uma ação foi entregue.
 
 +++
 
@@ -88,33 +88,33 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ![](assets/experimentation_report_3.png)
 
-A variável **[!UICONTROL Experimentação]** A guia fornece informações importantes sobre o desempenho de cada variante e identifica a mais bem-sucedida.
+A guia **[!UICONTROL Experimentação]** fornece informações importantes sobre o desempenho de cada variante e identifica a mais bem-sucedida.
 
-Observe que a definição do melhor desempenho pode levar algum tempo. Ela será representada por esse ícone ![](assets/experimentation_report_1.png).
+Observe que a definição do melhor desempenho pode levar algum tempo, ela será representada por este ícone ![](assets/experimentation_report_1.png).
 
 +++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório Experimentação.
 
-A variável **[!UICONTROL Resultado do experimento]** o widget detalha o desempenho de cada variante. Você pode alterar sua linha de base selecionando um dos tratamentos nas **[!UICONTROL Linha de base]** o menu suspenso. O melhor tratamento será representado com um ícone de estrela.
+O widget **[!UICONTROL Resultado do experimento]** detalha o desempenho de cada variante. Você pode alterar sua linha de base selecionando um dos tratamentos na **[!UICONTROL Linha de base]** do menu suspenso. O melhor tratamento será representado com um ícone de estrela.
 
 Para aprofundar esses resultados e como interpretá-los, consulte [esta página](../content-management/get-started-experiment.md#interpret-results).
 
 A tabela apresenta as seguintes métricas:
 
-* **[!UICONTROL Aumento sobre a linha de base]**: Medida da melhora da porcentagem na taxa de conversão de um determinado tratamento em relação à linha de base.
+* **[!UICONTROL Aumento em relação à linha de base]**: Medida da melhora da porcentagem na taxa de conversão de um determinado tratamento em relação à linha de base.
 
-* **[!UICONTROL Confiança]**: Evidência de que um determinado tratamento é igual ao tratamento inicial. [Saiba mais](../content-management/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confiança]**: evidência de que um determinado tratamento é igual ao tratamento de linha de base. [Saiba mais](../content-management/experiment-calculations.md#understand-confidence)
 
-* **[!UICONTROL Cliques de saída únicos]**: Contagem total de cliques nos canais de saída.
+* **[!UICONTROL Cliques de saída exclusivos]**: contagem total de cliques nos canais de saída.
 
-* **[!UICONTROL Perfis]**: Número de perfis direcionados para este tratamento.
+* **[!UICONTROL Perfis]**: número de perfis direcionados para este tratamento.
 
-* **[!UICONTROL Cliques/perfis de saída únicos]**: Valor total da métrica de Sucesso, selecionada anteriormente ao criar seus Experimentos, dividido pelo número de perfis.
+* **[!UICONTROL Cliques/perfis de saída exclusivos]**: valor total da métrica de Sucesso, selecionada anteriormente ao criar seus Experimentos, dividido pelo número de perfis.
 
-A variável **[!UICONTROL Intervalo de confiança]** O gráfico mede a incerteza em torno da melhoria. Ela detalha a diferença percentual de desempenho entre a linha de base e o tratamento com melhor desempenho. [Saiba mais](../content-management/experiment-calculations.md#confidence-intervals).
+O gráfico **[!UICONTROL Intervalo de confiança]** mede a incerteza em torno da melhoria. Ela detalha a diferença percentual de desempenho entre a linha de base e o tratamento com melhor desempenho. [Saiba mais](../content-management/experiment-calculations.md#confidence-intervals).
 
 ![](assets/experimentation_report_4.png)
 
-O último widget fornece dados relacionados ao **[!UICONTROL Métrica de sucesso]** você selecionou anteriormente para os tratamentos. Você tem a opção de selecionar uma métrica direcionada diferente da variável **[!UICONTROL Métrica]** menu suspenso para rastrear dados alternativos.
+O último widget fornece dados relacionados à **[!UICONTROL Métrica de sucesso]** selecionada anteriormente para seus Tratamentos. Você tem a opção de selecionar uma métrica direcionada diferente do menu suspenso **[!UICONTROL Métrica]** para rastrear dados alternativos.
 
 >[!CAUTION]
 >
@@ -133,29 +133,29 @@ O último widget fornece dados relacionados ao **[!UICONTROL Métrica de sucesso
 
 ![](assets/campaign_email_sending.png)
 
-A variável **[!UICONTROL Estatísticas de envio de email]** A tabela fornece um resumo abrangente dos dados essenciais sobre suas campanhas de email. Ele detalha as principais métricas, como o tamanho do público-alvo e o número de emails entregues com êxito, oferecendo insights valiosos sobre a eficácia e o alcance de seus emails.
+A tabela **[!UICONTROL Estatísticas de envio de email]** fornece um resumo abrangente dos dados essenciais sobre suas campanhas de email. Ele detalha as principais métricas, como o tamanho do público-alvo e o número de emails entregues com êxito, oferecendo insights valiosos sobre a eficácia e o alcance de seus emails.
 
 +++ Saiba mais sobre métricas de Estatísticas de envio de email
 
 * **[!UICONTROL Direcionado]**: número total de emails processados durante o processo de envio.
 
-* **[!UICONTROL Enviado]**: Número total de envios para o seu email.
+* **[!UICONTROL Enviado]**: número total de envios para o seu email.
 
-* **[!UICONTROL Entregue]**: Número de emails enviados com êxito, em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Entregues]**: número de emails enviados com êxito em relação ao número total de mensagens enviadas.
 
 * **[!UICONTROL Taxa de entrega]**: porcentagem de emails enviados com êxito.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Rejeições]**: total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens enviadas.
 
-* **[!UICONTROL Taxa de rejeição]**: porcentagem de emails que foram rejeitados em comparação aos emails enviados.
+* **[!UICONTROL Taxa de rejeição]**: porcentagem de emails rejeitados em comparação aos emails enviados.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado para perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado a perfis.
 
-* **[!UICONTROL Taxa de erro]**: Porcentagem de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado, em comparação aos emails enviados.
+* **[!UICONTROL Taxa de Erro]**: Porcentagem de erros ocorridos durante o processo de envio que impediram o envio, em comparação aos emails enviados.
 
-* **[!UICONTROL Tentativas]**: Número de emails na fila para tentativas.
+* **[!UICONTROL Tentativas]**: número de emails na fila para tentativas.
 
-* **[!UICONTROL Excluído]**: Número de perfis excluídos pelo Adobe Journey Optimizer.
+* **[!UICONTROL Excluídos]**: número de perfis excluídos pelo Adobe Journey Optimizer.
 
 +++
 
@@ -168,25 +168,25 @@ A variável **[!UICONTROL Estatísticas de envio de email]** A tabela fornece um
 
 ![](assets/campaign_email_tracking.png)
 
-A variável **[!UICONTROL Email - Estatísticas de rastreamento]** A tabela oferece uma conta detalhada da atividade do perfil relacionada às suas campanhas de email. Isso inclui métricas sobre aberturas, cliques e outros indicadores de engajamento relevantes, oferecendo uma visualização abrangente de como os perfis interagem com seu conteúdo de email.
+A tabela **[!UICONTROL Email - Estatísticas de rastreamento]** oferece uma conta detalhada da atividade do perfil relacionada às suas campanhas de email. Isso inclui métricas sobre aberturas, cliques e outros indicadores de engajamento relevantes, oferecendo uma visualização abrangente de como os perfis interagem com seu conteúdo de email.
 
 +++ Saiba mais sobre Email - Métricas de estatísticas de rastreamento
 
-* **[!UICONTROL Aberturas]**: Número de vezes que o email foi aberto.
+* **[!UICONTROL Aberturas]**: número de vezes que o email foi aberto.
 
-* **[!UICONTROL Aberturas únicas]**: porcentagem de emails abertos.
+* **[!UICONTROL Aberturas Exclusivas]**: Porcentagem de emails abertos.
 
-* **[!UICONTROL Taxa de abertura]**: número total de emails abertos em comparação ao número de emails entregues.
+* **[!UICONTROL Taxa de Abertura]**: número total de emails abertos em comparação ao número de emails entregues.
 
-* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em seus emails.
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus emails.
 
-* **[!UICONTROL Cliques únicos]**: Número de perfis que clicaram em um conteúdo em um email.
+* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em um email.
 
 * **[!UICONTROL Taxa de cliques únicos]**: porcentagem de usuários que interagiram com seus emails.
 
-* **[!UICONTROL Cancelamentos de assinatura]**: Número de cliques no link unsubscription.
+* **[!UICONTROL Cancelar assinaturas]**: Número de cliques no link de cancelamento de assinatura.
 
-* **[!UICONTROL Reclamações de spam]**: Número de vezes que uma mensagem foi declarada como spam ou lixo eletrônico.
+* **[!UICONTROL Reclamações de spam]**: número de vezes que uma mensagem foi declarada como spam ou lixo eletrônico.
 
 +++
 
@@ -199,17 +199,17 @@ A variável **[!UICONTROL Email - Estatísticas de rastreamento]** A tabela ofer
 
 ![](assets/campaign_email_sending_performance.png)
 
-A variável **[!UICONTROL Email - Desempenho de envio]** O gráfico fornece uma visualização abrangente dos dados relacionados aos emails enviados, oferecendo insights sobre as métricas principais, como entregas e rejeições. Isso permite uma análise detalhada do processo de envio de email, fornecendo informações valiosas sobre a eficiência e o desempenho de suas campanhas de email.
+O gráfico **[!UICONTROL Desempenho de Email - Envio]** fornece uma exibição abrangente dos dados relacionados aos emails enviados, oferecendo insights sobre as métricas principais, como entregas e rejeições. Isso permite uma análise detalhada do processo de envio de email, fornecendo informações valiosas sobre a eficiência e o desempenho de suas campanhas de email.
 
 +++ Saiba mais sobre Email - Envio de métricas de desempenho
 
-* **[!UICONTROL Entregue]**: Número de emails enviados com êxito, em relação ao número total de emails enviados.
+* **[!UICONTROL Entregues]**: número de emails enviados com êxito em relação ao número total de emails enviados.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de emails enviados.
+* **[!UICONTROL Rejeições]**: total de erros acumulados durante o processo de envio e o processamento automático de retorno em relação ao número total de emails enviados.
 
-* **[!UICONTROL Tentativas]**: Número de emails na fila para tentativas.
+* **[!UICONTROL Tentativas]**: número de emails na fila para tentativas.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado para perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado a perfis.
 
 +++
 
@@ -227,17 +227,17 @@ A variável **[!UICONTROL Email - Desempenho de envio]** O gráfico fornece uma 
 
 ![](assets/campaign_email_bounces.png)
 
-A variável **[!UICONTROL Email - Motivos de rejeição]** e **[!UICONTROL Email - Categorias de rejeição]** os widgets compilam os dados disponíveis relacionados às mensagens rejeitadas, fornecendo insights detalhados sobre os motivos e categorias específicas por trás das rejeições de email.
+Os widgets **[!UICONTROL Email - Motivos da rejeição]** e **[!UICONTROL Email - Categorias de rejeição]** compilam os dados disponíveis relacionados às mensagens rejeitadas, fornecendo insights detalhados sobre os motivos e categorias específicos por trás das rejeições de email.
 
-Para obter mais informações sobre rejeições, consulte o [Lista de supressão](../reports/suppression-list.md) página.
+Para obter mais informações sobre rejeições, consulte a página [Lista de supressão](../reports/suppression-list.md).
 
 +++ Saiba mais sobre Email - Métricas de categorias de rejeição
 
 * **[!UICONTROL Rejeição permanente]**: o número total de erros permanentes, como um endereço de email incorreto. Isso envolve uma mensagem de erro que declara explicitamente que o endereço é inválido, como Usuário desconhecido.
 
-* **[!UICONTROL Rejeição leve]**: o número total de erros temporários, como uma caixa de entrada cheia.
+* **[!UICONTROL Rejeição temporária]**: o número total de erros temporários, como uma caixa de entrada cheia.
 
-* **[!UICONTROL Ignorado]**: o número total de temporários, como Ausência temporária, ou um erro técnico, por exemplo, se o tipo de remetente for postmaster.
+* **[!UICONTROL Ignorado]**: o número total de erros temporários, como Ausência Temporária, ou um erro técnico, por exemplo, se o tipo de remetente for postmaster.
 
 +++
 
@@ -251,7 +251,7 @@ Para obter mais informações sobre rejeições, consulte o [Lista de supressão
 
 ![](assets/campaign_email_error_reasons.png)
 
-A variável **[!UICONTROL Motivos de erro]** gráficos e tabelas oferecem visibilidade dos erros específicos que ocorreram durante o processo de envio, fornecendo informações valiosas sobre a natureza e a ocorrência de erros.
+Os gráficos e a tabela **[!UICONTROL Motivos do Erro]** oferecem visibilidade sobre os erros específicos ocorridos durante o processo de envio, fornecendo informações valiosas sobre a natureza e a ocorrência de erros.
 
 Você pode optar por alternar entre uma tabela, um gráfico de barras ou uma rosca.
 
@@ -264,9 +264,9 @@ Você pode optar por alternar entre uma tabela, um gráfico de barras ou uma ros
 
 ![](assets/campaign_email_excluded.png)
 
-A variável **[!UICONTROL Motivos excluídos]** os gráficos e a tabela apresentam uma visão abrangente dos diferentes fatores que resultaram na exclusão de perfis de usuário do público-alvo direcionado, resultando no não recebimento da mensagem.
+Os gráficos e a tabela **[!UICONTROL Motivos excluídos]** apresentam uma visão abrangente dos diferentes fatores que resultaram na exclusão de perfis de usuário do público-alvo direcionado, resultando no não recebimento da mensagem.
 
-Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos motivos de exclusão.
+Consulte [esta página](exclusion-list.md) para obter uma lista abrangente dos motivos de exclusão.
 
 ### Enviados e entregues por domínios {#sent-domains}
 
@@ -277,13 +277,13 @@ Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos mot
 
 ![](assets/campaign_email_sent_domains.png)
 
-A variável **[!UICONTROL Enviado e entregue por domínios]** A tabela e o gráfico fornecem um detalhamento dos emails no nível do domínio, oferecendo insights abrangentes sobre o desempenho dos emails.
+A tabela e o gráfico **[!UICONTROL Enviados e entregues por domínios]** fornecem um detalhamento dos emails em nível de domínio, oferecendo insights abrangentes sobre o desempenho dos seus emails.
 
 +++ Saiba mais sobre métricas Enviado e entregue por domínios
 
-* **[!UICONTROL Enviado]**: Número total de envios para o seu email.
+* **[!UICONTROL Enviado]**: número total de envios para o seu email.
 
-* **[!UICONTROL Entregue]**: Número de emails enviados com êxito, em relação ao número total de emails enviados.
+* **[!UICONTROL Entregues]**: número de emails enviados com êxito em relação ao número total de emails enviados.
 
 +++
 
@@ -296,13 +296,13 @@ A variável **[!UICONTROL Enviado e entregue por domínios]** A tabela e o gráf
 
 ![](assets/campaign_email_bounce_domains.png)
 
-A variável **[!UICONTROL Rejeições e erros por domínios]** O gráfico e a tabela oferecem um detalhamento em nível de domínio de erros específicos encontrados durante o processo de envio, fornecendo uma análise detalhada dos problemas que ocorreram.
+O gráfico e a tabela **[!UICONTROL Rejeições e erros por domínios]** oferecem um detalhamento em nível de domínio de erros específicos encontrados durante o processo de envio, fornecendo uma análise detalhada dos problemas ocorridos.
 
 +++ Saiba mais sobre métricas de Rejeições e erros por domínios
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de emails enviados.
+* **[!UICONTROL Rejeições]**: total de erros acumulados durante o processo de envio e o processamento automático de retorno em relação ao número total de emails enviados.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que seu email fosse enviado para perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que seu email fosse enviado a perfis.
 
 +++
 
@@ -315,13 +315,13 @@ A variável **[!UICONTROL Rejeições e erros por domínios]** O gráfico e a ta
 
 ![](assets/campaign_email_open_domains.png)
 
-A variável **[!UICONTROL Abrir e clicar por domínios]** O gráfico e a tabela mostram um detalhamento em nível de domínio do envolvimento dos perfis com o email, fornecendo insights valiosos sobre como domínios diferentes interagem com o conteúdo.
+O gráfico e a tabela **[!UICONTROL Abrir e clicar por domínios]** mostram um detalhamento em nível de domínio do envolvimento dos seus perfis com o seu email, fornecendo informações valiosas sobre como domínios diferentes interagem com o seu conteúdo.
 
 +++ Saiba mais sobre métricas de Abertura e cliques por domínios
 
-* **[!UICONTROL Aberturas]**: Número de vezes que o email foi aberto.
+* **[!UICONTROL Aberturas]**: número de vezes que o email foi aberto.
 
-* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em um email.
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em um email.
 
 +++
 
@@ -334,13 +334,13 @@ A variável **[!UICONTROL Abrir e clicar por domínios]** O gráfico e a tabela 
 
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
-A variável **[!UICONTROL Motivos de rejeição por domínio]** O gráfico e a tabela oferecem um detalhamento de dados em nível de domínio sobre erros temporários e permanentes, fornecendo insights detalhados sobre os motivos por trás das mensagens rejeitadas.
+O gráfico e a tabela **[!UICONTROL Motivos da rejeição por domínio]** oferecem um detalhamento de dados em nível de domínio sobre erros temporários e permanentes, fornecendo insights detalhados sobre os motivos por trás das mensagens rejeitadas.
 
 +++ Saiba mais sobre Motivos de rejeição por métricas de domínio
 
-* **[!UICONTROL Aberturas]**: Número de vezes que o email foi aberto.
+* **[!UICONTROL Aberturas]**: número de vezes que o email foi aberto.
 
-* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em um email.
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em um email.
 
 +++
 
@@ -353,7 +353,7 @@ A variável **[!UICONTROL Motivos de rejeição por domínio]** O gráfico e a t
 
 ![](assets/campaign_email_topurl.png)
 
-A variável **[!UICONTROL Email - URL superior]** O gráfico e a tabela fornecem uma visão geral abrangente dos URLs em seu email que atraem o maior tráfego de visitantes. Isso permite identificar e priorizar os links mais populares, melhorando sua compreensão do envolvimento do perfil com conteúdo específico em seus emails.
+O gráfico e tabela **[!UICONTROL Email - URL superior]** fornece uma visão geral abrangente das URLs de seu email que atraem o maior tráfego de visitantes. Isso permite identificar e priorizar os links mais populares, melhorando sua compreensão do envolvimento do perfil com conteúdo específico em seus emails.
 
 ### Email: melhor domínio do destinatário {#top-recipient-email}
 
@@ -366,17 +366,17 @@ A variável **[!UICONTROL Email - URL superior]** O gráfico e a tabela fornecem
 
 >[!CAUTION]
 >
-> A variável **[!UICONTROL Email - Melhor domínio de destinatário]** O widget tem uma taxa de precisão de 99,95%.
+> O widget **[!UICONTROL Email - Melhor domínio de recipient]** tem uma taxa de precisão de 99,95%.
 
-A variável **[!UICONTROL Email - Melhor domínio de destinatário]** O gráfico e a tabela oferecem um detalhamento dos domínios que os perfis usam com mais frequência para abrir seus emails. Isso fornece insights valiosos sobre o comportamento do perfil, ajudando você a entender as plataformas preferenciais.
+O gráfico e a tabela **[!UICONTROL Email - Melhor domínio de destinatário]** oferecem um detalhamento dos domínios que os perfis usam com mais frequência para abrir seus emails. Isso fornece insights valiosos sobre o comportamento do perfil, ajudando você a entender as plataformas preferenciais.
 
 +++ Saiba mais sobre Email - Melhores métricas de domínio de recipient
 
-* **[!UICONTROL Entregue]**: Número de emails enviados com êxito, em relação ao número total de emails enviados.
+* **[!UICONTROL Entregues]**: número de emails enviados com êxito em relação ao número total de emails enviados.
 
 * **[!UICONTROL Taxa de entrega]**: porcentagem de emails enviados com êxito.
 
-* **[!UICONTROL Rejeições + Taxa de erros]**: porcentagem de emails que foram rejeitados em comparação aos emails enviados.
+* **[!UICONTROL Rejeições + Taxa de Erros]**: porcentagem de emails que foram rejeitados em comparação aos emails enviados.
 
 +++
 
@@ -386,9 +386,9 @@ A variável **[!UICONTROL Email - Melhor domínio de destinatário]** O gráfico
 
 >[!NOTE]
 >
->A variável **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimização da hora de envio]** Os widgets do só estarão disponíveis se a opção Otimização de tempo de envio estiver ativada para o seu email. Para obter mais informações sobre a Otimização de tempo de envio, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
+>Os widgets **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimização de tempo de envio]** só estarão disponíveis se a opção Otimização de tempo de envio estiver ativada para o seu email. Para obter mais informações sobre Otimização de Tempo de Envio, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
 
-A variável **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimização da hora de envio]** os widgets detalham as principais informações relacionadas à sua mensagem, sejam eles otimizados ou não.
+Os widgets **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimização de tempo de envio]** detalham as principais informações relativas à sua mensagem, estejam elas otimizadas ou não.
 
 +++ Saiba mais sobre as métricas de otimização de tempo de envio
 
@@ -396,11 +396,11 @@ A variável **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimiz
 
 * **[!UICONTROL Aberturas]**: Número de vezes que a mensagem foi aberta.
 
-* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em um email.
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em um email.
 
-* **[!UICONTROL Entregue]**: Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Entregues]**: número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Rejeições]**: total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens enviadas.
 
 +++
 
@@ -408,29 +408,29 @@ A variável **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimiz
 
 ![](assets/campaign_email_offers.png)
 
-A variável **[!UICONTROL Estatísticas de ofertas]**, **[!UICONTROL Estatísticas de ofertas ao longo do tempo]** e **[!UICONTROL Estatísticas detalhadas da oferta]** os widgets medem o sucesso e o impacto da sua oferta no público-alvo direcionado.
+Os widgets **[!UICONTROL Estatísticas de ofertas]**, **[!UICONTROL Estatísticas de ofertas ao longo do tempo]** e **[!UICONTROL Estatísticas detalhadas de ofertas]** medem o sucesso e o impacto da sua oferta no público-alvo direcionado.
 
 +++ Saiba mais sobre Email - Métricas de ofertas
 
 * **[!UICONTROL Oferta enviada]**: número total de envios para a oferta.
 
-* **[!UICONTROL Impressão da oferta]**: Número de vezes que a oferta foi aberta em seus emails.
+* **[!UICONTROL Impressão da oferta]**: número de vezes que a oferta foi aberta em seus emails.
 
-* **[!UICONTROL Cliques de oferta]**: Número de vezes que uma oferta foi clicada em seus emails.
+* **[!UICONTROL Cliques de oferta]**: número de vezes que uma oferta foi clicada em seus emails.
 
-* **[!UICONTROL Nome do posicionamento]**: nome do posicionamento usado para exibir a oferta. Para obter mais informações sobre posicionamento, consulte esta [página](../offers/offer-library/creating-placements.md).
+* **[!UICONTROL Nome do posicionamento]**: o nome do seu posicionamento usado para exibir sua oferta. Para obter mais informações sobre posicionamento, consulte esta [página](../offers/offer-library/creating-placements.md).
 
-* **[!UICONTROL Nome da oferta]**: Nome da oferta adicionada no delivery. Para obter mais informações sobre posicionamento, consulte esta [página](../offers/offer-library/creating-personalized-offers.md).
+* **[!UICONTROL Nome da oferta]**: nome da oferta adicionada na entrega. Para obter mais informações sobre posicionamento, consulte esta [página](../offers/offer-library/creating-personalized-offers.md).
 
 * **[!UICONTROL Oferta enviada]**: número total de envios para a oferta.
 
-* **[!UICONTROL Taxa de impressões da oferta]**: Porcentagem de ofertas abertas em comparação ao número de ofertas enviadas.
+* **[!UICONTROL Taxa de impressão da oferta]**: porcentagem de ofertas abertas em comparação ao número de ofertas enviadas.
 
 +++
 
 ## Guia No aplicativo {#inapp-global}
 
-Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL No aplicativo]** A guia detalha as principais informações relativas às mensagens no aplicativo enviadas em sua campanha.
+No seu **[!UICONTROL Relatório global]** do Campaign, a guia **[!UICONTROL No aplicativo]** detalha as principais informações relativas às mensagens no aplicativo enviadas na sua campanha.
 
 ### Desempenho in-app {#in-app-performance}
 
@@ -441,15 +441,15 @@ Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL No aplicativ
 
 ![](assets/campaign_inapp_performance.png)
 
-A variável **[!UICONTROL Desempenho no aplicativo]** Os KPIs fornecem insights essenciais sobre o envolvimento de seus visitantes com mensagens no aplicativo, fornecendo métricas essenciais para avaliar a eficácia e o impacto de suas campanhas no aplicativo.
+Os KPIs do **[!UICONTROL Desempenho no aplicativo]** fornecem informações essenciais sobre o envolvimento dos visitantes com as mensagens no aplicativo, fornecendo métricas essenciais para avaliar a eficácia e o impacto de suas campanhas no aplicativo.
 
 +++ Saiba mais sobre Métricas de desempenho no aplicativo
 
-* **[!UICONTROL Impressões exclusivas]**: número de usuários únicos para os quais a mensagem no aplicativo foi entregue.
+* **[!UICONTROL Impressões exclusivas]**: número de usuários exclusivos a quem a mensagem no aplicativo foi entregue.
 
 * **[!UICONTROL Impressões]**: número total de mensagens no aplicativo entregues a todos os usuários.
 
-* **[!UICONTROL Interações]**: número total de envolvimentos com a mensagem no aplicativo. Isso inclui qualquer ação realizada pelos usuários, como cliques, rejeições ou quaisquer outras interações.
+* **[!UICONTROL Interações]**: número total de interações com sua mensagem no aplicativo. Isso inclui qualquer ação realizada pelos usuários, como cliques, rejeições ou quaisquer outras interações.
 
 +++
 
@@ -462,7 +462,7 @@ A variável **[!UICONTROL Desempenho no aplicativo]** Os KPIs fornecem insights 
 
 ![](assets/campaign_inapp_interactions.png)
 
-A variável **[!UICONTROL Interações por tipo]** Os gráficos e a tabela fornecem uma conta detalhada de como os perfis interagiram com a mensagem no aplicativo, rastreando ações como cliques, rejeições ou qualquer outra forma de envolvimento.
+Os gráficos e a tabela **[!UICONTROL Interações por tipo]** fornecem uma conta detalhada de como os perfis interagiram com a mensagem no aplicativo, rastreando ações como cliques, rejeições ou qualquer outra forma de envolvimento.
 
 ### Resumo in-app {#in-app-summary}
 
@@ -473,21 +473,21 @@ A variável **[!UICONTROL Interações por tipo]** Os gráficos e a tabela forne
 
 ![](assets/campaign_inapp_summary.png)
 
-A variável **[!UICONTROL Resumo no aplicativo]** O gráfico ilustra a progressão de suas impressões e interações no aplicativo durante o período especificado, fornecendo uma visão geral abrangente do desempenho das mensagens no aplicativo.
+O gráfico **[!UICONTROL Resumo no aplicativo]** ilustra a progressão das impressões e interações no aplicativo durante o período especificado, fornecendo uma visão geral abrangente do desempenho das mensagens no aplicativo.
 
 +++ Saiba mais sobre Métricas de resumo no aplicativo
 
-* **[!UICONTROL Impressões exclusivas]**: número de usuários únicos para os quais a mensagem no aplicativo foi entregue.
+* **[!UICONTROL Impressões exclusivas]**: número de usuários exclusivos a quem a mensagem no aplicativo foi entregue.
 
 * **[!UICONTROL Impressões]**: número total de mensagens no aplicativo entregues a todos os usuários.
 
-* **[!UICONTROL Interações]**: número total de envolvimentos com a mensagem no aplicativo. Isso inclui qualquer ação realizada pelos usuários, como cliques, rejeições ou quaisquer outras interações.
+* **[!UICONTROL Interações]**: número total de interações com sua mensagem no aplicativo. Isso inclui qualquer ação realizada pelos usuários, como cliques, rejeições ou quaisquer outras interações.
 
 +++
 
 ## Guia Notificação por push {#push-global}
 
-Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Notificação por push]** A guia detalha as principais informações relativas às notificações por push enviadas em sua campanha.
+No seu **[!UICONTROL Relatório global]** do Campaign, a guia **[!UICONTROL Notificação por push]** detalha as principais informações relativas às notificações por push enviadas na sua campanha.
 
 ### Notificação por push: estatísticas de envio {#push-sending-statistics}
 
@@ -498,11 +498,11 @@ Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Notificaçã
 
 ![](assets/campaign_push_sending.png)
 
-A variável **[!UICONTROL Notificação por push - Estatísticas de envio]** A tabela fornece um resumo dos dados essenciais relacionados às suas notificações por push, incluindo as métricas principais, como o número de mensagens direcionadas e o número de mensagens entregues com êxito.
+A tabela **[!UICONTROL Notificação por push - Estatísticas de envio]** fornece um resumo conciso dos dados essenciais relacionados às suas notificações por push, incluindo as métricas principais, como o número de mensagens direcionadas e o número de mensagens entregues com êxito.
 
 +++ Saiba mais sobre Notificação por push - Envio de métricas de estatísticas
 
-* **[!UICONTROL Tempo de execução]**: hora de início de cada execução da notificação por push recorrente. Para direcionar apenas uma ou várias notificações por push recorrentes, selecione-a no **[!UICONTROL Tempo de execução]** menu suspenso.
+* **[!UICONTROL Tempo de execução]**: a hora inicial de cada execução de sua notificação por push recorrente. Para direcionar apenas uma ou várias notificações por push recorrentes, selecione-a no menu suspenso **[!UICONTROL Tempo de execução]**.
 
 * **[!UICONTROL Direcionado]**: número total de notificações por push processadas durante a análise.
 
@@ -512,15 +512,15 @@ A variável **[!UICONTROL Notificação por push - Estatísticas de envio]** A t
 
 * **[!UICONTROL Taxa de entrega]**: porcentagem de notificações por push enviadas com êxito.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de notificações por push.
+* **[!UICONTROL Rejeições]**: total de erros acumulados durante o processo de envio e o processamento automático de retorno em relação ao número total de notificações por push.
 
-* **[!UICONTROL Taxa de rejeição]**: Porcentagem de notificações por push que foram rejeitadas em comparação às notificações por push enviadas.
+* **[!UICONTROL Taxa de rejeição]**: porcentagem de notificações por push que foram rejeitadas em comparação às notificações por push enviadas.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram que impediram o envio para perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram, impedindo que fossem enviados a perfis.
 
-* **[!UICONTROL Taxa de erro]**: Porcentagem de erros que ocorreram durante a prevenção do envio em comparação às notificações por push enviadas.
+* **[!UICONTROL Taxa de Erro]**: porcentagem de erros ocorridos durante a prevenção de envio em comparação com as notificações por push enviadas.
 
-* **[!UICONTROL Excluído]**: Número de perfis excluídos pelo Adobe Journey Optimizer.
+* **[!UICONTROL Excluídos]**: número de perfis excluídos pelo Adobe Journey Optimizer.
 
 +++
 
@@ -533,15 +533,15 @@ A variável **[!UICONTROL Notificação por push - Estatísticas de envio]** A t
 
 ![](assets/campaign_push_tracking.png)
 
-A variável **[!UICONTROL Notificação por push - Estatísticas de rastreamento]** o widget oferece um instantâneo detalhado da atividade do perfil vinculada às suas notificações por push, fornecendo insights essenciais sobre a eficácia do engajamento e das notificações por push.
+O widget **[!UICONTROL Estatísticas de rastreamento de notificação por push]** oferece um instantâneo detalhado da atividade do perfil vinculada às suas notificações por push, fornecendo insights essenciais sobre a eficácia das notificações por push e de engajamento.
 
 +++ Saiba mais sobre Notificação por push - Rastreamento de métricas de estatísticas
 
-* **[!UICONTROL Tempo de execução]**: hora de início de cada execução da notificação por push recorrente. Para direcionar apenas uma ou várias notificações por push recorrentes, selecione-a no **[!UICONTROL Tempo de execução]** menu suspenso.
+* **[!UICONTROL Tempo de execução]**: a hora inicial de cada execução de sua notificação por push recorrente. Para direcionar apenas uma ou várias notificações por push recorrentes, selecione-a no menu suspenso **[!UICONTROL Tempo de execução]**.
 
-* **[!UICONTROL Aberturas]**: Número de vezes que sua notificação por push foi aberta.
+* **[!UICONTROL Aberturas]**: número de vezes que sua notificação por push foi aberta.
 
-* **[!UICONTROL Ações]**: Número total de ações na notificação por push entregue, por exemplo, clique ou descarte de botões.
+* **[!UICONTROL Ações]**: número total de ações na notificação por push entregue, por exemplo, clique em botões ou descarte.
 
 +++
 
@@ -554,19 +554,19 @@ A variável **[!UICONTROL Notificação por push - Estatísticas de rastreamento
 
 ![](assets/campaign_push_sending_summary.png)
 
-A variável **[!UICONTROL Notificação por push - Resumo de envio]** O gráfico oferece uma representação dinâmica, exibindo uma análise da atividade de notificações por push. Esta representação gráfica fornece um detalhamento abrangente das notificações por push enviadas.
+O gráfico **[!UICONTROL Notificação por push - Envio de resumo]** oferece uma representação dinâmica, exibindo uma análise da sua atividade de notificações por push. Esta representação gráfica fornece um detalhamento abrangente das notificações por push enviadas.
 
 +++ Saiba mais sobre Notificação por push - Envio de métricas de resumo
 
-* **[!UICONTROL Aberturas]**: Número de vezes que sua notificação por push foi aberta.
+* **[!UICONTROL Aberturas]**: número de vezes que sua notificação por push foi aberta.
 
-* **[!UICONTROL Ações]**: Número total de ações na notificação por push entregue, por exemplo, clique ou descarte de botões.
+* **[!UICONTROL Ações]**: número total de ações na notificação por push entregue, por exemplo, clique em botões ou descarte.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados e processamento de retorno automático em relação ao número total de notificações por push enviadas.
+* **[!UICONTROL Rejeições]**: total de erros acumulados e processamento automático de retorno em relação ao número total de notificações por push enviadas.
 
 * **[!UICONTROL Entregue]**: número de notificações por push enviadas com êxito em relação ao número total de notificações por push enviadas.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram que impediram o envio para perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram, impedindo que fossem enviados a perfis.
 
 +++
 
@@ -574,19 +574,19 @@ A variável **[!UICONTROL Notificação por push - Resumo de envio]** O gráfico
 
 >[!NOTE]
 >
->A variável **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimização da hora de envio]** Os widgets do só estarão disponíveis se a opção Otimização de tempo de envio estiver ativada para a notificação por push. Para obter mais informações sobre a Otimização de tempo de envio, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
+>Os widgets **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimização de hora de envio]** só estarão disponíveis se a opção Otimização de hora de envio estiver ativada para sua notificação por push. Para obter mais informações sobre Otimização de Tempo de Envio, consulte [esta página](../building-journeys/journeys-message.md#send-time-optimization).
 
-A variável **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimização da hora de envio]** os widgets detalham as principais informações relacionadas à sua mensagem, sejam eles otimizados ou não.
+Os widgets **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimização de tempo de envio]** detalham as principais informações relativas à sua mensagem, estejam elas otimizadas ou não.
 
 +++ Saiba mais sobre Notificação por push - Enviar métricas de otimização de tempo
 
 * **[!UICONTROL Entregue]**: número de notificações por push enviadas com êxito em relação ao número total de notificações por push enviadas.
 
-* **[!UICONTROL Aberturas]**: Número de vezes que sua notificação por push foi aberta.
+* **[!UICONTROL Aberturas]**: número de vezes que sua notificação por push foi aberta.
 
-* **[!UICONTROL Ações]**: Número total de ações na notificação por push entregue, por exemplo, clique ou descarte de botões.
+* **[!UICONTROL Ações]**: número total de ações na notificação por push entregue, por exemplo, clique em botões ou descarte.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de notificações por push enviadas.
+* **[!UICONTROL Rejeições]**: total de erros acumulados durante o processo de envio e o processamento automático de retorno em relação ao número total de notificações por push enviadas.
 
 +++
 
@@ -599,7 +599,7 @@ A variável **[!UICONTROL Otimizado vs. não otimizado]** e **[!UICONTROL Otimiz
 
 ![](assets/campaign_push_error_reasons.png)
 
-A variável **[!UICONTROL Motivos de erro]** A tabela e os gráficos fornecem a capacidade de identificar os erros específicos que ocorreram durante o processo de envio de suas notificações por push, oferecendo insights detalhados sobre quaisquer problemas encontrados ao longo do caminho.
+A tabela e os gráficos **[!UICONTROL Motivos do erro]** fornecem a capacidade de identificar os erros específicos que ocorreram durante o processo de envio de suas notificações por push, oferecendo insights detalhados sobre quaisquer problemas encontrados ao longo do caminho.
 
 ### Notificação por push: motivos de exclusão {#excluded-push}
 
@@ -610,9 +610,9 @@ A variável **[!UICONTROL Motivos de erro]** A tabela e os gráficos fornecem a 
 
 ![](assets/campaign_push_excluded.png)
 
-A variável **[!UICONTROL Motivos excluídos]** os gráficos e a tabela exibem os diferentes motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber suas notificações por push.
+Os gráficos e a tabela **[!UICONTROL Motivos excluídos]** exibem os diferentes motivos que impediram os perfis de usuário, excluídos dos perfis direcionados, de receber suas notificações por push.
 
-Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos motivos de exclusão.
+Consulte [esta página](exclusion-list.md) para obter uma lista abrangente dos motivos de exclusão.
 
 ### Notificação por push: detalhamento por plataforma {#breakdown-platform-push}
 
@@ -623,7 +623,7 @@ Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos mot
 
 ![](assets/campaign_push_breakdown.png)
 
-A variável **[!UICONTROL Notificação por push - Detalhamento por plataforma]** O gráfico e a tabela fornecem uma análise detalhada do sucesso de suas notificações por push, oferecendo insights com base no sistema operacional do seu perfil. Esse detalhamento melhora a sua compreensão do desempenho das notificações por push em diferentes plataformas.
+O gráfico e a tabela **[!UICONTROL Notificação por push - Detalhamento por plataforma]** fornecem uma análise detalhada do sucesso de suas notificações por push, oferecendo insights com base no sistema operacional do seu perfil. Esse detalhamento melhora a sua compreensão do desempenho das notificações por push em diferentes plataformas.
 
 +++ Saiba mais sobre Notificação por push - Detalhamento por métricas de plataforma
 
@@ -631,21 +631,21 @@ A variável **[!UICONTROL Notificação por push - Detalhamento por plataforma]*
 
 * **[!UICONTROL Entregue]**: número de notificações por push enviadas com êxito em relação ao número total de notificações por push enviadas.
 
-* **[!UICONTROL Aberturas]**: Número de vezes que sua notificação por push foi aberta.
+* **[!UICONTROL Aberturas]**: número de vezes que sua notificação por push foi aberta.
 
-* **[!UICONTROL Ações]**: Número total de ações na notificação por push entregue, por exemplo, clique ou descarte de botões.
+* **[!UICONTROL Ações]**: número total de ações na notificação por push entregue, por exemplo, clique em botões ou descarte.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados e processamento de retorno automático em relação ao número total de notificações por push enviadas.
+* **[!UICONTROL Rejeições]**: total de erros acumulados e processamento automático de retorno em relação ao número total de notificações por push enviadas.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram que impediram o envio para perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram, impedindo que fossem enviados a perfis.
 
-* **[!UICONTROL Excluído]**: Número de perfis excluídos pelo Adobe Journey Optimizer.
+* **[!UICONTROL Excluídos]**: número de perfis excluídos pelo Adobe Journey Optimizer.
 
 +++
 
 ## Guia SMS {#sms-global}
 
-Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL SMS]** A guia detalha as principais informações relativas às mensagens SMS enviadas em sua campanha.
+No seu **[!UICONTROL Relatório global]** do Campaign, a guia **[!UICONTROL SMS]** detalha as principais informações relativas às mensagens SMS enviadas na sua campanha.
 
 ### SMS: estatísticas de envio {#sms-sending-statistics}
 
@@ -656,21 +656,21 @@ Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL SMS]** A gui
 
 ![](assets/campaign_sms_sending.png)
 
-A variável **[!UICONTROL SMS - Estatísticas de envio]** A tabela fornece um resumo conciso dos dados essenciais relacionados às suas mensagens SMS, englobando as métricas principais, como o número de mensagens direcionadas e a contagem de mensagens entregues com êxito.
+A tabela **[!UICONTROL SMS - Estatísticas de envio]** fornece um resumo conciso dos dados essenciais relacionados às suas mensagens SMS, englobando as métricas principais, como o número de mensagens direcionadas e a contagem de mensagens entregues com êxito.
 
 +++ Saiba mais sobre SMS - Envio de métricas de estatísticas
 
-* **[!UICONTROL Tempo de execução]**: hora de início de cada execução da mensagem SMS recorrente. Para direcionar apenas uma ou várias mensagens SMS recorrentes, selecione-as no **[!UICONTROL Tempo de execução]** menu suspenso.
+* **[!UICONTROL Tempo de execução]**: a hora inicial de cada execução de sua mensagem SMS recorrente. Para direcionar apenas uma ou várias mensagens SMS recorrentes, selecione-as no menu suspenso **[!UICONTROL Tempo de execução]**.
 
-* **[!UICONTROL Direcionado]**: Número de perfis de usuário qualificados como perfis de público-alvo.
+* **[!UICONTROL Direcionado]**: número de perfis de usuário qualificados como perfis de destino.
 
-* **[!UICONTROL Excluído]**: Número de perfis de usuário, excluídos dos perfis direcionados, que não receberam a mensagem.
+* **[!UICONTROL Excluídos]**: número de perfis de usuário, excluídos dos perfis direcionados, que não receberam a mensagem.
 
-* **[!UICONTROL Enviado]**: Número total de envios para suas mensagens SMS.
+* **[!UICONTROL Enviado]**: número total de envios para suas mensagens SMS.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens SMS enviadas.
+* **[!UICONTROL Rejeições]**: total de erros acumulados durante o processo de envio e o processamento automático de retorno em relação ao número total de mensagens SMS enviadas.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram que impediram o envio para perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram, impedindo que fossem enviados a perfis.
 
 +++
 
@@ -683,13 +683,13 @@ A variável **[!UICONTROL SMS - Estatísticas de envio]** A tabela fornece um re
 
 ![](assets/campaign_sms_tracking.png)
 
-A variável **[!UICONTROL SMS - Estatísticas de rastreamento]** O widget fornece uma visão geral detalhada das principais informações relacionadas ao envolvimento dos visitantes com os URLs, oferecendo insights sobre a eficácia das mensagens SMS.
+O widget **[!UICONTROL SMS - Estatísticas de rastreamento]** fornece uma visão geral detalhada das principais informações relacionadas ao engajamento dos visitantes com suas URLs, oferecendo insights sobre a eficácia das mensagens SMS.
 
 +++ Saiba mais sobre SMS - Rastreamento de métricas de estatísticas
 
-* **[!UICONTROL Tempo de execução]**: hora de início de cada execução do SMS recorrente. Para direcionar apenas um ou vários SMS recorrentes, selecione-o no **[!UICONTROL Tempo de execução]** menu suspenso.
+* **[!UICONTROL Tempo de execução]**: a hora de início de cada execução do SMS recorrente. Para direcionar apenas um ou vários SMS recorrentes, selecione-o no menu suspenso **[!UICONTROL Tempo de execução]**.
 
-* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em uma mensagem SMS.
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em uma mensagem SMS.
 
 +++
 
@@ -702,15 +702,15 @@ A variável **[!UICONTROL SMS - Estatísticas de rastreamento]** O widget fornec
 
 ![](assets/campaign_sms_performance.png)
 
-A variável **[!UICONTROL Desempenho do SMS por data]** o widget oferece uma visão geral detalhada das principais informações relacionadas às suas mensagens, apresentadas por meio de um gráfico, fornecendo insights sobre as tendências de desempenho em períodos específicos.
+O widget **[!UICONTROL Desempenho por data do SMS]** oferece uma visão geral detalhada das principais informações relacionadas às suas mensagens, apresentadas por meio de um gráfico, fornecendo insights sobre as tendências de desempenho em períodos específicos.
 
 +++ Saiba mais sobre SMS - Desempenho por métricas de data
 
-* **[!UICONTROL Enviado]**: Número total de envios para suas mensagens SMS.
+* **[!UICONTROL Enviado]**: número total de envios para suas mensagens SMS.
 
-* **[!UICONTROL Rejeições]**: Total de erros acumulados durante o processo de envio e o processamento de retorno automático em relação ao número total de mensagens SMS enviadas.
+* **[!UICONTROL Rejeições]**: total de erros acumulados durante o processo de envio e o processamento automático de retorno em relação ao número total de mensagens SMS enviadas.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram que impediram o envio para perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram, impedindo que fossem enviados a perfis.
 
 +++
 
@@ -723,7 +723,7 @@ A variável **[!UICONTROL Desempenho do SMS por data]** o widget oferece uma vis
 
 ![](assets/campaign_sms_error_reasons.png)
 
-A variável **[!UICONTROL Motivos de erro]** Os gráficos e as tabelas permitem identificar os erros específicos que ocorreram durante o processo de envio de suas mensagens SMS, facilitando uma análise completa de todos os problemas encontrados.
+Os gráficos e a tabela **[!UICONTROL Motivos do erro]** permitem identificar os erros específicos que ocorreram durante o processo de envio de suas mensagens SMS, facilitando uma análise completa de todos os problemas encontrados.
 
 ### SMS: motivos de exclusão {#sms-excluded-reasons}
 
@@ -734,9 +734,9 @@ A variável **[!UICONTROL Motivos de erro]** Os gráficos e as tabelas permitem 
 
 ![](assets/campaign_sms_excluded.png)
 
-A variável **[!UICONTROL Motivos de exclusão]** Os gráficos e as tabelas representam visualmente os diversos fatores que levaram à exclusão de perfis de usuário do público-alvo direcionado, impedindo-o de receber suas mensagens SMS.
+Os gráficos e a tabela **[!UICONTROL Motivos da exclusão]** representam visualmente os diversos fatores que levaram à exclusão de perfis de usuário do público-alvo direcionado, impedindo-o de receber suas mensagens SMS.
 
-Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos motivos de exclusão.
+Consulte [esta página](exclusion-list.md) para obter uma lista abrangente dos motivos de exclusão.
 
 ### SMS: motivos de rejeições {#sms-bounces-reasons}
 
@@ -745,7 +745,7 @@ Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos mot
 >title="SMS: motivos de rejeições"
 >abstract="A tabela “Motivos de rejeições” e seus gráficos contêm dados relacionados às mensagens rejeitadas."
 
-A variável **[!UICONTROL Motivos de rejeições]** Os gráficos e as tabelas fornecem uma visão geral abrangente dos dados relacionados às mensagens SMS rejeitadas, fornecendo insights valiosos sobre os motivos específicos por trás das instâncias de rejeições de mensagens SMS.
+Os gráficos e a tabela **[!UICONTROL Motivos de rejeições]** fornecem uma visão geral abrangente dos dados relacionados às mensagens SMS rejeitadas, fornecendo insights valiosos sobre os motivos específicos por trás das instâncias de rejeições de mensagens SMS.
 
 ### SMS: cliques por link {#sms-clicks-links}
 
@@ -756,11 +756,11 @@ A variável **[!UICONTROL Motivos de rejeições]** Os gráficos e as tabelas fo
 
 ![](assets/campaign_sms_clicks.png)
 
-A variável **[!UICONTROL SMS - Cliques por links]** O widget oferece informações essenciais sobre o envolvimento dos visitantes com os URLs incluídos em suas mensagens, fornecendo informações valiosas sobre quais links atraem mais interação.
+O widget **[!UICONTROL SMS - Cliques por links]** oferece informações essenciais sobre o engajamento de seus visitantes com as URLs incluídas em suas mensagens, fornecendo informações valiosas sobre quais links atraem mais interação.
 
 ## Guia Web {#web-tab}
 
-Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Web]** A guia detalha as informações principais relativas às páginas da Web.
+Do seu **[!UICONTROL Relatório global]** do Campaign, a guia **[!UICONTROL Web]** detalha as principais informações relativas às suas páginas da Web.
 
 ### Desempenho na Web {#web-performance}
 
@@ -771,15 +771,15 @@ Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Web]** A gui
 
 ![](assets/campaign_web_performance.png)
 
-A variável **[!UICONTROL Desempenho da Web]** Os KPIs oferecem insights abrangentes sobre o engajamento de seus visitantes com suas páginas da Web, abrangendo métricas principais, como Impressões e Interações.
+Os KPIs do **[!UICONTROL desempenho da Web]** oferecem insights abrangentes sobre o engajamento de seus visitantes com suas páginas da Web, abrangendo métricas principais como Impressões e Interações.
 
 +++ Saiba mais sobre métricas de desempenho da Web
 
-* **[!UICONTROL Impressões exclusivas]**: número de usuários únicos a quem a experiência da web foi entregue.
+* **[!UICONTROL Impressões exclusivas]**: número de usuários exclusivos a quem a experiência da Web foi entregue.
 
-* **[!UICONTROL Impressões]**: número total de experiências da web entregues a todos os usuários.
+* **[!UICONTROL Impressões]**: número total de experiências da Web entregues a todos os usuários.
 
-* **[!UICONTROL Taxa de interação]**: porcentagem de envolvimentos com a página da Web. Isso inclui qualquer ação realizada pelos usuários, como cliques ou quaisquer outras interações.
+* **[!UICONTROL Taxa de interação]**: porcentagem de envolvimentos com sua página da Web. Isso inclui qualquer ação realizada pelos usuários, como cliques ou quaisquer outras interações.
 
 +++
 
@@ -792,15 +792,15 @@ A variável **[!UICONTROL Desempenho da Web]** Os KPIs oferecem insights abrange
 
 ![](assets/campaign_web_summary.png)
 
-A variável **[!UICONTROL Resumo da Web]** o gráfico mostra a evolução de suas experiências da web (impressões, impressões exclusivas e interações) para o período relacionado.
+O gráfico **[!UICONTROL Resumo da Web]** mostra a evolução das suas experiências da Web (impressões, impressões exclusivas e interações) para o período em questão.
 
 +++ Saiba mais sobre métricas de resumo na Web
 
-* **[!UICONTROL Impressões exclusivas]**: número de usuários únicos a quem a experiência da web foi entregue.
+* **[!UICONTROL Impressões exclusivas]**: número de usuários exclusivos a quem a experiência da Web foi entregue.
 
-* **[!UICONTROL Impressões]**: número total de experiências da web entregues a todos os usuários.
+* **[!UICONTROL Impressões]**: número total de experiências da Web entregues a todos os usuários.
 
-* **[!UICONTROL Interação]**: número total de envolvimentos com sua página da Web. Isso inclui qualquer ação realizada pelos usuários, como cliques ou quaisquer outras interações.
+* **[!UICONTROL Interação]**: número total de interações com sua página da Web. Isso inclui qualquer ação realizada pelos usuários, como cliques ou quaisquer outras interações.
 
 +++
 
@@ -813,19 +813,19 @@ A variável **[!UICONTROL Resumo da Web]** o gráfico mostra a evolução de sua
 
 ![](assets/campaign_web_interactions.png)
 
-A variável **[!UICONTROL Interações por elemento]** A tabela apresenta informações abrangentes sobre o envolvimento dos visitantes com os vários elementos em suas páginas da Web, oferecendo insights valiosos sobre as interações e preferências do usuário.
+A tabela **[!UICONTROL Interações por elemento]** apresenta informações abrangentes sobre o engajamento dos visitantes com os vários elementos das suas páginas da Web, oferecendo insights valiosos sobre as interações e preferências do usuário.
 
 +++ Saiba mais sobre Interações por métricas de elementos
 
-* **[!UICONTROL Interação]**: número total de envolvimentos com sua página da Web. Isso inclui qualquer ação realizada pelos usuários, como cliques ou quaisquer outras interações.
+* **[!UICONTROL Interação]**: número total de interações com sua página da Web. Isso inclui qualquer ação realizada pelos usuários, como cliques ou quaisquer outras interações.
 
-* **[!UICONTROL Taxa de interação]**: porcentagem de envolvimentos com a página da Web. Isso inclui qualquer ação realizada pelos usuários, como cliques ou quaisquer outras interações.
+* **[!UICONTROL Taxa de interação]**: porcentagem de envolvimentos com sua página da Web. Isso inclui qualquer ação realizada pelos usuários, como cliques ou quaisquer outras interações.
 
 +++
 
 ## Guia Correspondência direta {#direct-mail-global}
 
-Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Correspondência direta]** A guia detalha as principais informações relativas às mensagens de correspondência direta.
+Do seu **[!UICONTROL Relatório global]** do Campaign, a guia **[!UICONTROL Correspondência direta]** detalha as principais informações relativas às suas mensagens de Correspondência direta.
 
 ### Correspondência direta: estatísticas de envio {#direct-mail-sending-statistics}
 
@@ -836,19 +836,19 @@ Da sua campanha **[!UICONTROL Relatório global]**, o **[!UICONTROL Correspondê
 
 ![](assets/campaign_direct_sending.png)
 
-A variável **[!UICONTROL Correspondência direta - Estatísticas de envio]** A tabela fornece um resumo conciso dos dados essenciais relacionados às suas mensagens de correspondência direta, englobando as principais métricas, como o número de mensagens direcionadas e a contagem de mensagens entregues com êxito.
+A tabela **[!UICONTROL Correspondência Direta - Estatísticas de envio]** fornece um resumo conciso dos dados essenciais relacionados às suas mensagens de Correspondência Direta, englobando métricas principais como o número de mensagens direcionadas e a contagem de mensagens entregues com êxito.
 
 +++ Saiba mais sobre Correspondência direta - Envio de métricas de estatísticas
 
-* **[!UICONTROL Tempo de execução]**: hora de início de cada execução da correspondência direta recorrente. Para direcionar somente uma ou várias Correspondências diretas recorrentes, selecione-a no campo **[!UICONTROL Tempo de execução]** menu suspenso.
+* **[!UICONTROL Tempo de execução]**: hora de início de cada execução da correspondência direta recorrente. Para direcionar apenas uma ou várias Correspondências diretas recorrentes, selecione-a no menu suspenso **[!UICONTROL Tempo de execução]**.
 
-* **[!UICONTROL Direcionado]**: Número de perfis de usuário qualificados como perfis de público alvo para suas mensagens de correspondência direta.
+* **[!UICONTROL Direcionado]**: número de perfis de usuário qualificados como perfis de destino para suas mensagens de correspondência direta.
 
-* **[!UICONTROL Enviado]**: Número total de envios para suas mensagens de correspondência direta.
+* **[!UICONTROL Enviado]**: número total de envios para suas mensagens de correspondência direta.
 
-* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado para perfis.
+* **[!UICONTROL Erros]**: Número total de erros que ocorreram durante o processo de envio, impedindo que ele fosse enviado a perfis.
 
-* **[!UICONTROL Excluído]**: Número de perfis de usuário, excluídos dos perfis direcionados, que não receberam suas mensagens de correspondência direta.
+* **[!UICONTROL Excluídos]**: número de perfis de usuário, excluídos dos perfis direcionados, que não receberam suas mensagens de correspondência direta.
 
 +++
 
@@ -861,7 +861,7 @@ A variável **[!UICONTROL Correspondência direta - Estatísticas de envio]** A 
 
 ![](assets/direct-mail-report_1.png)
 
-A variável **[!UICONTROL Correspondência direta - Motivos de erro]** os gráficos e as tabelas fornecem os meios para identificar erros específicos que ocorreram durante o processo de envio das mensagens de correspondência direta, permitindo uma análise detalhada de quaisquer problemas encontrados.
+Os gráficos e a tabela **[!UICONTROL Correspondência direta - Motivos de erro]** fornecem os meios de identificar erros específicos que ocorreram durante o processo de envio de suas mensagens de correspondência direta, permitindo uma análise detalhada de todos os problemas encontrados.
 
 ### Correspondência direta: motivos de exclusão {#direct-mail-excluded}
 
@@ -872,9 +872,9 @@ A variável **[!UICONTROL Correspondência direta - Motivos de erro]** os gráfi
 
 ![](assets/campaign_direct_excluded.png)
 
-A variável **[!UICONTROL Correspondência direta - Motivos excluídos]** os gráficos e a tabela ilustram visualmente os vários fatores que resultaram na exclusão de perfis de usuário do público-alvo direcionado, impedindo-o de receber suas mensagens de correspondência direta.
+Os gráficos e a tabela **[!UICONTROL Correspondência direta - Motivos excluídos]** ilustram visualmente os vários fatores que resultaram na exclusão de perfis de usuário do público-alvo direcionado, impedindo-o de receber suas mensagens de correspondência direta.
 
-Consulte [esta página](exclusion-list.md) para obter a lista abrangente dos motivos de exclusão.
+Consulte [esta página](exclusion-list.md) para obter uma lista abrangente dos motivos de exclusão.
 
 ## Recursos adicionais
 

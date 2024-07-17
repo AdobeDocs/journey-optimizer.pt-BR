@@ -23,7 +23,7 @@ ht-degree: 12%
 >title="Eventos de negócios"
 >abstract="A configuração do evento permite definir as informações que o Journey Optimizer receberá como eventos. Você pode usar vários eventos (em diferentes etapas de uma jornada), e várias jornadas podem usar o mesmo evento. Ao contrário de eventos unitários, os eventos de negócios não estão vinculados a um perfil específico. O tipo de ID de evento sempre se baseia em regras."
 
-Ao contrário de eventos unitários, os eventos de negócios não estão vinculados a um perfil específico. O tipo de ID de evento sempre se baseia em regras. Leia mais sobre eventos comerciais em [nesta seção](../event/about-events.md).
+Ao contrário de eventos unitários, os eventos de negócios não estão vinculados a um perfil específico. O tipo de ID de evento sempre se baseia em regras. Leia mais sobre eventos comerciais em [esta seção](../event/about-events.md).
 
 As jornadas de leitura baseadas no público-alvo podem ser acionadas de uma só vez, por um scheduler regularmente ou por um evento comercial, quando o evento ocorrer.
 
@@ -31,7 +31,7 @@ Eventos comerciais podem ser &quot;um produto está de volta no estoque&quot;, &
 
 >[!NOTE]
 >
->Você também pode assistir ao caso de uso do evento comercial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). Observe que o esquema não precisa ser ativado para o perfil.
+>Você também pode assistir ao caso de uso de evento comercial [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). Observe que o esquema não precisa ser ativado para o perfil.
 
 ## Observações importantes {#important-notes}
 
@@ -40,9 +40,9 @@ Eventos comerciais podem ser &quot;um produto está de volta no estoque&quot;, &
 * Eventos comerciais só podem ser descartados como a primeira etapa de uma jornada.
 * Ao soltar um evento comercial como a primeira etapa de uma jornada, o tipo de scheduler da jornada será &quot;evento comercial&quot;.
 * Somente uma atividade de leitura de público pode ser descartada após um evento comercial. Ele é adicionado automaticamente como a próxima etapa.
-* Para permitir várias execuções de eventos comerciais, ative a opção correspondente no **[!UICONTROL Execução]** seção das propriedades da jornada.
+* Para permitir várias execuções de eventos comerciais, ative a opção correspondente na seção **[!UICONTROL Execution]** das propriedades de jornada.
 * Depois que um evento comercial é acionado, haverá um atraso para que o público-alvo seja exportado de 15 minutos para até uma hora.
-* Ao testar um evento comercial, você precisa passar os parâmetros do evento e o identificador do perfil de teste que inserirá a jornada em teste. Além disso, ao testar uma jornada baseada em evento comercial, você só pode acionar uma única entrada de perfil. Consulte [nesta seção](../building-journeys/testing-the-journey.md#test-business). No modo de teste, não há modo de &quot;Visualização de código&quot; disponível.
+* Ao testar um evento comercial, você precisa passar os parâmetros do evento e o identificador do perfil de teste que inserirá a jornada em teste. Além disso, ao testar uma jornada baseada em evento comercial, você só pode acionar uma única entrada de perfil. Consulte [esta seção](../building-journeys/testing-the-journey.md#test-business). No modo de teste, não há modo de &quot;Visualização de código&quot; disponível.
 * O que acontece com os indivíduos que estão atualmente na jornada se um novo evento comercial chegar? Ela se comporta da mesma forma que quando os indivíduos ainda estão em uma jornada recorrente quando uma nova recorrência acontece. O caminho deles foi finalizado. Como resultado, os profissionais de marketing devem prestar atenção para evitar a criação de jornadas muito longas se esperam eventos comerciais frequentes.
 * Os eventos comerciais não podem ser usados junto com eventos unitários ou atividades de qualificação de público-alvo.
 
@@ -54,19 +54,19 @@ Estas são algumas observações importantes que se aplicam quando vários event
 
 Os eventos comerciais seguem as regras de reentrada da mesma forma que para eventos unitários. Se uma jornada permitir a reentrada, o próximo evento comercial será processado.
 
-**Quais são as medidas de proteção para evitar o excesso de públicos materializados?**
+**Quais são as medidas de proteção para evitar sobrecarga de públicos materializados?**
 
-No caso de eventos comerciais instantâneos, para determinada jornada, os dados enviados pelo primeiro trabalho de evento são reutilizados durante uma janela de tempo de 1 hora. Para jornadas programadas, não há garantia. Saiba mais sobre públicos-alvo na [Documentação do Serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR).
+No caso de eventos comerciais instantâneos, para determinada jornada, os dados enviados pelo primeiro trabalho de evento são reutilizados durante uma janela de tempo de 1 hora. Para jornadas programadas, não há garantia. Saiba mais sobre públicos-alvo na [documentação do Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR).
 
 ## Introdução a eventos comerciais {#gs-business-events}
 
 Estas são as primeiras etapas para configurar um evento comercial:
 
-1. Na seção de menu ADMINISTRAÇÃO, selecione **[!UICONTROL Configurações]**. No  **[!UICONTROL Eventos]** clique em **[!UICONTROL Gerenciar]**. A lista de eventos é exibida.
+1. Na seção de menu ADMINISTRAÇÃO, selecione **[!UICONTROL Configurações]**. Na seção **[!UICONTROL Eventos]**, clique em **[!UICONTROL Gerenciar]**. A lista de eventos é exibida.
 
    ![](assets/jo-event1.png)
 
-1. Clique em **[!UICONTROL Criar evento]** para criar um novo evento. O painel de configuração do evento é aberto no lado direito da tela.
+1. Clique em **[!UICONTROL Criar Evento]** para criar um novo evento. O painel de configuração do evento é aberto no lado direito da tela.
 
    ![](assets/jo-event2.png)
 
@@ -78,21 +78,21 @@ Estas são as primeiras etapas para configurar um evento comercial:
    >
    >Somente caracteres alfanuméricos e sublinhados são permitidos. O comprimento máximo é de 30 caracteres.
 
-1. No **[!UICONTROL Tipo]** escolha **Empresas**.
+1. No campo **[!UICONTROL Tipo]**, escolha **Negócio**.
 
    ![](assets/jo-event3bis-business.png)
 
-1. O número de jornadas que usam esse evento é exibido no **[!UICONTROL Usado em]** campo. Você pode clicar no link **[!UICONTROL Exibir jornadas]** ícone para exibir a lista de jornadas usando esse evento.
+1. O número de jornadas que usam este evento é exibido no campo **[!UICONTROL Usado em]**. Você pode clicar no ícone **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas que usam esse evento.
 
 1. Defina os campos schema e payload: é aqui que você seleciona as informações do evento (ou payload) que o jornada espera receber. Você usará essas informações posteriormente na jornada. Consulte [esta seção](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](assets/jo-event5-business.png)
 
-   Somente esquemas de séries de tempo estão disponíveis. `Experience Events`, `Decision Events` e `Journey Step Events` esquemas não estão disponíveis. O esquema de evento deve conter uma identidade primária baseada em pessoas. Os seguintes campos devem ser selecionados ao definir o evento: `_id` e `timestamp`
+   Somente esquemas de séries de tempo estão disponíveis. Os esquemas `Experience Events`, `Decision Events` e `Journey Step Events` não estão disponíveis. O esquema de evento deve conter uma identidade primária baseada em pessoas. Os seguintes campos devem ser selecionados ao definir o evento: `_id` e `timestamp`
 
    ![](assets/test-profiles-4.png)
 
-1. Clique dentro do **[!UICONTROL Condição de ID de evento]** campo. Use o editor de expressões simples para definir a condição usada pelo sistema para identificar os eventos que acionam sua jornada.
+1. Clique dentro do campo **[!UICONTROL Condição de ID de evento]**. Use o editor de expressões simples para definir a condição usada pelo sistema para identificar os eventos que acionam sua jornada.
 
    ![](assets/jo-event6-business.png)
 
@@ -110,9 +110,9 @@ Estas são as primeiras etapas para configurar um evento comercial:
 
 ## Definir os campos de carga {#define-the-payload-fields}
 
-A definição de carga útil permite escolher as informações que o sistema espera receber do evento em sua jornada e a chave para identificar qual pessoa está associada ao evento. A carga é baseada na definição do campo XDM do Experience Cloud. Para obter mais informações sobre o XDM, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
+A definição de carga útil permite escolher as informações que o sistema espera receber do evento em sua jornada e a chave para identificar qual pessoa está associada ao evento. A carga é baseada na definição do campo XDM do Experience Cloud. Para obter mais informações sobre o XDM, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
 
-1. Selecione um esquema XDM na lista e clique no botão **[!UICONTROL Campos]** ou no campo **[!UICONTROL Editar]** ícone.
+1. Selecione um esquema XDM na lista e clique no campo **[!UICONTROL Campos]** ou no ícone **[!UICONTROL Editar]**.
 
    ![](assets/journey8-business.png)
 
@@ -122,7 +122,7 @@ A definição de carga útil permite escolher as informações que o sistema esp
 
    >[!NOTE]
    >
-   > Verifique se os seguintes campos foram selecionados: `_id` e `timestamp`
+   > Verifique se os seguintes campos estão selecionados: `_id` e `timestamp`
 
 1. Selecione os campos que você espera receber do evento. Esses são os campos que o usuário empresarial utilizará na jornada.
 
@@ -136,7 +136,7 @@ A definição de carga útil permite escolher as informações que o sistema esp
 
 Use a pré-visualização de carga para validar a definição de carga útil.
 
-1. Clique em **[!UICONTROL Exibir carga]** ícone para visualizar o conteúdo esperado pelo sistema.
+1. Clique no ícone **[!UICONTROL Exibir carga]** para visualizar a carga útil esperada pelo sistema.
 
    ![](assets/journey13-business.png)
 
@@ -146,4 +146,4 @@ Use a pré-visualização de carga para validar a definição de carga útil.
 
 1. Verifique a visualização para validar a definição de carga.
 
-1. Em seguida, é possível compartilhar a pré-visualização do conteúdo com a pessoa responsável pelo envio do evento. Essa carga pode ajudá-los a projetar a configuração de um push de evento para [!DNL Journey Optimizer]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey.md).
+1. Em seguida, é possível compartilhar a pré-visualização do conteúdo com a pessoa responsável pelo envio do evento. Esta carga pode ajudá-los a criar a configuração de envio de evento para [!DNL Journey Optimizer]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey.md).

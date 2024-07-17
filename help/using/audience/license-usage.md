@@ -17,18 +17,18 @@ ht-degree: 7%
 
 # Painel de uso da licença {#license-usage}
 
-A variável [!DNL Adobe Journey Optimizer] [interface do usuário](../start/user-interface.md) O fornece um painel que exibe informações importantes sobre o uso de licença de sua organização, conforme capturadas durante um instantâneo diário.
+A [!DNL Adobe Journey Optimizer] [interface de usuário](../start/user-interface.md) fornece um painel que exibe informações importantes sobre o uso de licença da sua organização, conforme capturadas durante um instantâneo diário.
 
-Para acessar esse painel, acesse **[!UICONTROL Administração]** > **[!UICONTROL Uso da licença]**. Isso abre o **[!UICONTROL Visão geral]** exibindo o painel.
+Para acessar este painel, vá para **[!UICONTROL Administração]** > **[!UICONTROL Uso da Licença]**. Isso abrirá a guia **[!UICONTROL Visão geral]** exibindo o painel.
 
 ![](assets/license-usage-dashboard.png)
 
 >[!NOTE]
 >
->Para visualizar o painel, você deve receber a permissão [Exibir Painel de Uso da Licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"} permissão.
+>Para exibir o painel, você deve ter a permissão [Exibir Painel de Uso da Licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}.
 
 Saiba mais na documentação do Adobe Experience Platform:
 
 * [Visão geral do painel de uso da licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
-* [Explorar o painel de uso de licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [Explorando o painel de uso de licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [Métricas disponíveis](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=pt-BR#available-metrics){target="_blank"}

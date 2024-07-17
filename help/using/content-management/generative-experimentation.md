@@ -40,23 +40,23 @@ Depois de criar e personalizar suas mensagens, eleve o conteúdo com o Assistent
 
    ![](assets/experiment-genai-1.png)
 
-1. Navegue pelo arquivo gerado **[!UICONTROL Variações]** e clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela cheia da variação selecionada.
+1. Navegue pelas **[!UICONTROL Variações]** geradas e clique em **[!UICONTROL Visualizar]** para exibir uma versão em tela inteira da variação selecionada.
 
    ![](assets/experiment-genai-2.png)
 
-1. Selecionar **[!UICONTROL Ativar experimento]** para começar a criar **[!UICONTROL Tratamentos]** para a experimentação.
+1. Selecione **[!UICONTROL Habilitar experimento]** para começar a criar **[!UICONTROL tratamentos]** para sua experimentação.
 
 1. Selecione as Variações que deseja incluir no experimento.
 
-1. Clique em **Adicionar tratamento(ões) X**.
+1. Clique em **Adicionar tratamento(s) X**.
 
    ![](assets/experiment-genai-3.png)
 
-1. Na janela Experimento de conteúdo, acesse o **[!UICONTROL Configurações de experimento]** botão para configurar seu experimento. [Saiba mais sobre o Experimento de conteúdo](../content-management/content-experiment.md)
+1. Na janela Experimento de Conteúdo, acesse o botão **[!UICONTROL Configurações do experimento]** para configurar o experimento. [Saiba mais sobre o Experimento de Conteúdo](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 
-1. Quando o experimento de conteúdo estiver pronto, na página de resumo da campanha, você pode clicar em **[!UICONTROL Revisar para ativar]** para exibir um resumo da campanha. Os alertas são exibidos se qualquer parâmetro estiver incorreto ou ausente. [Saiba mais](../content-management/content-experiment.md#treatment-experiment)
+1. Quando o experimento de Conteúdo estiver pronto, na página de resumo da campanha, você pode clicar em **[!UICONTROL Revisar para ativar]** para exibir um resumo da campanha. Os alertas são exibidos se qualquer parâmetro estiver incorreto ou ausente. [Saiba mais](../content-management/content-experiment.md#treatment-experiment)
 
 1. Antes de iniciar sua campanha, verifique se todas as configurações estão corretas e clique em **[!UICONTROL Ativar]**.
 

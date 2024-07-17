@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Uma oferta personalizada é uma mensagem de marketing personalizável baseada em regras de elegibilidade e restrições.
 
-Você pode pesquisar ofertas personalizadas específicas fazendo uma solicitação GET para a [!DNL Offer Library] API que inclui a ID de oferta personalizada no caminho da solicitação.
+Você pode pesquisar ofertas personalizadas específicas fazendo uma solicitação GET para a API [!DNL Offer Library] que inclui a ID da oferta personalizada no caminho da solicitação.
 
 **Formato da API**
 

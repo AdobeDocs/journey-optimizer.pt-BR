@@ -17,11 +17,11 @@ ht-degree: 12%
 
 Coleções são subconjuntos de ofertas com base em condições predefinidas por um profissional de marketing, como a categoria da oferta.
 
-Você pode criar uma coleção fazendo uma solicitação POST para a [!DNL Offer Library] API.
+Você pode criar uma coleção fazendo uma solicitação POST para a API [!DNL Offer Library].
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem o campo *Content-Type* no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |

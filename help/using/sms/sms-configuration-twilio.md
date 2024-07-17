@@ -18,20 +18,20 @@ ht-degree: 4%
 
 Para configurar o Twilio com o Journey Optimizer, é necessário criar uma nova credencial de API usada para o Twilio:
 
-1. No painel esquerdo, navegue até **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione o **[!UICONTROL Credenciais da API]** menu. Clique em **[!UICONTROL Criar novas credenciais de API]** botão.
+1. No painel à esquerda, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione o menu **[!UICONTROL Credenciais de API]**. Clique no botão **[!UICONTROL Criar novas credenciais de API]**.
 
 1. Configure suas credenciais da API de SMS, conforme detalhado abaixo:
 
    * **[!UICONTROL Fornecedor de SMS]**: Twilio.
 
-   * **[!UICONTROL Nome]**: escolha um nome para a credencial da API.
+   * **[!UICONTROL Nome]**: escolha um nome para a credencial de API.
 
-   * **[!UICONTROL SID da conta]** e **[!UICONTROL Token de autenticação]**: acesse o **Informações da conta** painel da página Painel do Twilio Console para encontrar suas credenciais.
+   * **[!UICONTROL SID da Conta]** e **[!UICONTROL Token de Autenticação]**: acesse o painel **Informações da Conta** da página Painel do Console do Twilio para encontrar suas credenciais.
 
    * **[!UICONTROL SID da Mensagem]**: digite o identificador exclusivo atribuído a cada mensagem criada pela API do Twilio. Saiba mais em [Documentação do Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
-   * **[!UICONTROL Número de entrada]**: adicione seu número de entrada exclusivo. Isso permite usar as mesmas credenciais de API em diferentes sandboxes, cada uma com seu próprio número de entrada.
+   * **[!UICONTROL Número de Entrada]**: adicione seu número de entrada exclusivo. Isso permite usar as mesmas credenciais de API em diferentes sandboxes, cada uma com seu próprio número de entrada.
 
-1. Clique em **[!UICONTROL Enviar]** quando você concluiu a configuração das credenciais da API.
+1. Clique em **[!UICONTROL Enviar]** quando terminar de configurar suas credenciais de API.
 
 Depois de criar e configurar sua credencial de API, agora é necessário criar uma superfície de canal para mensagens SMS e MMS. [Saiba mais](sms-configuration-surface.md)

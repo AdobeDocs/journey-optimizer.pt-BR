@@ -12,7 +12,7 @@ exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 22%
+ht-degree: 30%
 
 ---
 
@@ -25,18 +25,18 @@ ht-degree: 22%
 
 Os registros TXT são um tipo de registro DNS usado para fornecer informações de texto sobre um domínio, que pode ser lido por fontes externas.
 
-Para garantir a capacidade ideal de delivery e o sucesso do delivery de emails para endereços Gmail, [!DNL Journey Optimizer] O permite adicionar registros TXT especiais de verificação de site do Google ao subdomínio para verificar se ele foi verificado.
+Para garantir a entrega ideal e a entrega bem-sucedida de emails para endereços Gmail, o [!DNL Journey Optimizer] permite adicionar registros TXT especiais de verificação de site do Google ao seu subdomínio para garantir que eles sejam verificados.
 
 >[!CAUTION]
 >
-> Esta operação só poderá ser executada depois que um subdomínio tiver o **[!UICONTROL Sucesso]** status. Para obter mais informações sobre os status dos subdomínios, consulte [nesta seção](about-subdomain-delegation.md#access-delegated-subdomains).
+> Esta operação só poderá ser executada depois que um subdomínio tiver o status **[!UICONTROL Êxito]**. Para obter mais informações sobre os status dos subdomínios, consulte [esta seção](about-subdomain-delegation.md#access-delegated-subdomains).
 
 Para adicionar um registro TXT do Google ao subdomínio, siga estas etapas:
 
-1. Abra o subdomínio na **[!UICONTROL Canais]** / **[!UICONTROL Subdomínios]** menu.
+1. Abra o subdomínio no menu **[!UICONTROL Canais]** / **[!UICONTROL Subdomínios]**.
 
-1. No **[!UICONTROL registro txt do Google]** insira o código de verificação gerado de [Espaço de trabalho Google](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->e, em seguida, clique em **[!UICONTROL Salvar]**.
+1. Na seção **[!UICONTROL registro txt do Google]**, insira o código de verificação gerado pelo [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools--> e clique em **[!UICONTROL Salvar]**.
 
    ![](assets/subdomain-google-txt.png)
 
-1. Depois de adicionado, o registro TXT deve ser verificado pela Google. Para fazer isso, navegue até [Espaço de trabalho Google](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->, depois inicie a etapa de verificação.
+1. Depois de adicionado, o registro TXT deve ser verificado pelo Google. Para fazer isso, navegue até [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools--> e inicie a etapa de verificação.

@@ -15,11 +15,11 @@ ht-degree: 16%
 
 # Criar uma decisão {#create-decision}
 
-Você pode criar uma decisão fazendo uma solicitação POST para o [!DNL Offer Library] API.
+Você pode criar uma decisão fazendo uma solicitação POST para a API [!DNL Offer Library].
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -77,7 +77,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna informações sobre a decisão recém-criada, incluindo sua `id`. Você pode usar o `id` em etapas posteriores, para atualizar ou excluir sua decisão.
+Uma resposta bem-sucedida retorna informações sobre a decisão recém-criada, incluindo seu `id` exclusivo. Você pode usar o `id` em etapas posteriores para atualizar ou excluir sua decisão.
 
 ```json
 {

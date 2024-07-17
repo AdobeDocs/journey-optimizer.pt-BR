@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Usar fragmentos de expressão
-description: Saiba como usar fragmentos de expressão no [!DNL Journey Optimizer] editor de personalização.
+description: Saiba como usar fragmentos de expressão no editor de personalização  [!DNL Journey Optimizer] .
 feature: Personalization, Fragments
 topic: Personalization
 role: Data Engineer
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Aproveitar fragmentos de expressão {#use-expression-fragments}
 
-Ao usar o **editor de personalização**, você pode aproveitar todos os fragmentos de expressão que foram criados ou salvos na sandbox atual.
+Ao usar o **editor de personalização**, você pode aproveitar todos os fragmentos de expressão criados ou salvos na sandbox atual.
 
 Um fragmento é um componente reutilizável que pode ser referenciado em [!DNL Journey Optimizer] campanhas e jornadas. Essa funcionalidade permite pré-construir vários blocos de conteúdo personalizado que podem ser usados por usuários de marketing para reunir conteúdo rapidamente em um processo de design aprimorado. [Saiba como criar e gerenciar fragmentos](../content-management/fragments.md).
 
@@ -32,7 +32,7 @@ Para adicionar fragmentos de expressão ao seu conteúdo, siga as etapas abaixo.
 >
 >Você pode adicionar até 30 fragmentos em um determinado delivery. Os fragmentos só podem ser aninhados até um nível.
 
-1. Abra o [editor de personalização](personalization-build-expressions.md) e selecione o **[!UICONTROL Fragmentos]** no painel esquerdo.
+1. Abra o [editor de personalização](personalization-build-expressions.md) e selecione o botão **[!UICONTROL Fragmentos]** no painel esquerdo.
 
    A lista exibe todos os fragmentos de expressão criados ou salvos como fragmentos na sandbox atual. Eles são classificados por data de criação: os fragmentos de expressão adicionados recentemente são mostrados primeiro na lista. [Saiba mais](../content-management/fragments.md#create-expression-fragment)
 
@@ -50,15 +50,15 @@ Para adicionar fragmentos de expressão ao seu conteúdo, siga as etapas abaixo.
 
    >[!CAUTION]
    >
-   >É possível adicionar qualquer **Rascunho** ou **Ao vivo** fragmento ao seu conteúdo. No entanto, você não poderá ativar sua jornada ou campanha se um fragmento com o status Rascunho estiver sendo usado nele. Na publicação do jornada ou da campanha, os fragmentos de rascunho mostrarão um erro e você precisará aprová-los para poder publicar.
+   >Você pode adicionar qualquer fragmento do **Rascunho** ou do **Live** ao seu conteúdo. No entanto, você não poderá ativar sua jornada ou campanha se um fragmento com o status Rascunho estiver sendo usado nele. Na publicação do jornada ou da campanha, os fragmentos de rascunho mostrarão um erro e você precisará aprová-los para poder publicar.
 
-1. Depois que a ID do fragmento for adicionada, se você abrir o fragmento de expressão correspondente e [editá-lo](../content-management/fragments.md#edit-fragments) na interface do, as alterações são sincronizadas. Eles são propagados automaticamente para todas as jornadas/campanhas de rascunho ou ativas que contêm essa ID de fragmento.
+1. Depois que a ID do fragmento for adicionada, se você abrir o fragmento de expressão correspondente e [editá-lo](../content-management/fragments.md#edit-fragments) na interface, as alterações serão sincronizadas. Eles são propagados automaticamente para todas as jornadas/campanhas de rascunho ou ativas que contêm essa ID de fragmento.
 
-1. Clique em **[!UICONTROL Mais ações]** botão ao lado de um fragmento. No menu contextual aberto, selecione **[!UICONTROL Exibir fragmento]** para obter mais informações sobre esse fragmento. A variável **[!UICONTROL ID do fragmento]** também é exibido e pode ser copiado daqui.
+1. Clique no botão **[!UICONTROL Mais ações]** ao lado de um fragmento. No menu contextual que é aberto, selecione **[!UICONTROL Exibir fragmento]** para obter mais informações sobre esse fragmento. A **[!UICONTROL ID do Fragmento]** também é exibida e pode ser copiada daqui.
 
    ![](assets/expression-fragment-view.png)
 
-1. É possível abrir o fragmento da expressão em outra janela para editar seu conteúdo e propriedades, usando o **[!UICONTROL Abrir fragmento]** no menu contextual ou na variável **[!UICONTROL Informações do fragmento]** painel. [Saiba como editar um fragmento](../content-management/fragments.md#edit-fragments)
+1. Você pode abrir o fragmento de expressão em outra janela para editar seu conteúdo e propriedades, usando a opção **[!UICONTROL Abrir fragmento]** no menu contextual ou no painel **[!UICONTROL Informações do fragmento]**. [Saiba como editar um fragmento](../content-management/fragments.md#edit-fragments)
 
    ![](assets/expression-fragment-open.png)
 
@@ -66,23 +66,23 @@ Para adicionar fragmentos de expressão ao seu conteúdo, siga as etapas abaixo.
 
 >[!NOTE]
 >
->Se você criar um fragmento de expressão que contenha várias quebras de linha e usá-lo no [SMS](../sms/create-sms.md#sms-content) ou [push](../push/design-push.md) conteúdo, as quebras de linha são preservadas. Assim, certifique-se de testar seu [SMS](../sms/send-sms.md) ou [push](../push/send-push.md) antes de enviá-la.
+>Se você criar um fragmento de expressão que contenha várias quebras de linha e usá-lo no conteúdo de [SMS](../sms/create-sms.md#sms-content) ou [push](../push/design-push.md), as quebras de linha serão preservadas. Portanto, teste sua mensagem [SMS](../sms/send-sms.md) ou [push](../push/send-push.md) antes de enviá-la.
 
 ## Personalizar campos editáveis {#customize-fields}
 
-Se determinadas partes de um fragmento de expressão se tornaram editáveis usando variáveis, é possível substituir os valores padrão usando uma sintaxe específica. [Saiba como tornar os fragmentos personalizáveis](../content-management/customizable-fragments.md)
+Se determinadas partes de um fragmento de expressão se tornaram editáveis usando variáveis, é possível substituir os valores padrão usando uma sintaxe específica. [Saiba como tornar seus fragmentos personalizáveis](../content-management/customizable-fragments.md)
 
 Para personalizar os campos, siga estas etapas:
 
-1. Insira o fragmento no código do **Fragmentos** menu.
+1. Insira o fragmento no código do menu **Fragmentos**.
 
-1. Use o `<fieldId>="<value>"` no final da sintaxe para substituir o valor padrão da variável.
+1. Use o código `<fieldId>="<value>"` no final da sintaxe para substituir o valor padrão da variável.
 
    No exemplo abaixo, estamos substituindo o valor de uma variável cuja ID é &quot;esportes&quot; pelo valor &quot;ioga&quot;. Isso exibirá &quot;yoga&quot; no conteúdo do fragmento em todos os locais em que a variável &quot;sport&quot; for referenciada.
 
    ![](../content-management/assets/fragment-expression-use.png)
 
-Um exemplo mostrando como adicionar campos editáveis em fragmentos de expressão e substituir seus valores ao criar um email está disponível em [nesta seção](../content-management/customizable-fragments.md#example).
+Um exemplo mostrando como adicionar campos editáveis em fragmentos de expressão e substituir seus valores ao criar um email está disponível em [esta seção](../content-management/customizable-fragments.md#example).
 
 ## Interromper herança {#break-inheritance}
 

@@ -17,11 +17,11 @@ ht-degree: 12%
 
 Uma oferta personalizada é uma mensagem de marketing personalizável baseada em regras de elegibilidade e restrições.
 
-Você pode criar uma oferta personalizada fazendo uma solicitação POST para o [!DNL Offer Library] API.
+Você pode criar uma oferta personalizada fazendo uma solicitação POST para a API [!DNL Offer Library].
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem o campo *Content-Type* no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -112,4 +112,4 @@ Uma resposta bem-sucedida retorna os detalhes da oferta personalizada recém-cri
 
 ## Limitações {#limitations}
 
-Representações de oferta e algumas restrições de oferta não são compatíveis com o dispositivo móvel no momento [!DNL Experience Edge] workflows, por exemplo `Capping`. A variável `Capping` field value especifica o número de vezes que uma oferta pode ser apresentada a todos os usuários. Para obter mais detalhes, consulte [Documentação de regras de elegibilidade e restrições da oferta](../../../../offers/offer-library/creating-personalized-offers.md).
+Atualmente, as representações de oferta e algumas restrições de oferta não são compatíveis com os fluxos de trabalho móveis [!DNL Experience Edge], por exemplo `Capping`. O valor do campo `Capping` especifica o número de vezes que uma oferta pode ser apresentada entre todos os usuários. Para obter mais detalhes, consulte [Documentação de regras e restrições de qualificação da oferta](../../../../offers/offer-library/creating-personalized-offers.md).

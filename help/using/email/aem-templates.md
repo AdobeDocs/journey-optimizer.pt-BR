@@ -33,13 +33,13 @@ Antes de começar a usar esse recurso, verifique se você está alinhado aos seg
 
 * **configurações de Experience Manager**
 
-  Esse recurso está disponível com o [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=pt-BR){target="_blank"}.
+  Este recurso está disponível com o [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=pt-BR){target="_blank"}.
 
   Como parte do programa beta, a configuração do Cloud Service é executada pelo Adobe no Adobe Experience Manager para se conectar ao Adobe Journey Optimizer.
 
 * **Permissões**
 
-  Para criar, editar e excluir modelos de conteúdo no Adobe Journey Optimizer, você deve ter a **[!DNL Manage Library Items]** permissão incluída na **[!DNL Content Library Manager]** perfil do produto. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
+  Para criar, editar e excluir modelos de conteúdo no Adobe Journey Optimizer, você deve ter a permissão **[!DNL Manage Library Items]** incluída no perfil de produto **[!DNL Content Library Manager]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## Medidas de proteção e limitações{#aem-templates-limitations}
 
@@ -65,15 +65,15 @@ Para exportar um modelo do Adobe Experience Manager para o Adobe Journey Optimiz
 
    ![](assets/aem_ajo_4.png)
 
-1. Selecione o template que deseja exportar para o Journey Optimizer e clique em **[!UICONTROL Enviar para]** no menu avançado.
+1. Selecione o modelo que deseja exportar para o Journey Optimizer e clique em **[!UICONTROL Enviar para]** no menu avançado.
 
    ![](assets/aem-advanced-menu.png)
 
-1. Insira o **[!UICONTROL Nome]** do template Content e selecione o target **[!UICONTROL Sandbox]**.
+1. Insira o **[!UICONTROL Nome]** do modelo de Conteúdo e selecione a **[!UICONTROL Sandbox]** de destino.
 
    ![](assets/aem-send-template-settings.png)
 
-1. Depois de clicar no botão **[!UICONTROL Enviar]** , o processo de exportação será iniciado. Quando a exportação for concluída, você verá a seguinte mensagem na interface do usuário: &quot;Modelo &quot;XX&quot; enviado com êxito para o AJO&quot;.
+1. Depois de clicar no botão **[!UICONTROL Enviar]**, o processo de exportação será iniciado. Quando a exportação for concluída, você verá a seguinte mensagem na interface do usuário: &quot;Template &quot;XX&quot; sent successfully to AJO&quot;.
 
 O modelo é adicionado aos modelos de conteúdo do Adobe Journey Optimizer da sandbox selecionada.
 
@@ -81,15 +81,15 @@ O modelo é adicionado aos modelos de conteúdo do Adobe Journey Optimizer da sa
 
 Quando o modelo de Experience Manager estiver disponível no Journey Optimizer como um modelo de conteúdo, você poderá identificar e incorporar o conteúdo necessário para o email, incluindo personalização.
 
-1. No Journey Optimizer, no **[!UICONTROL Modelo de conteúdo]** , acesse o modelo importado.
+1. No Journey Optimizer, no menu **[!UICONTROL Modelo de conteúdo]**, acesse o modelo importado.
 
    ![](assets/aem_ajo_1.png)
 
-1. Ao clicar no link **[!UICONTROL Alerta]** você pode verificar rapidamente se alguma configuração importante está ausente. Isso ajudará a garantir que suas mensagens estejam configuradas corretamente e evitará possíveis erros ou problemas.
+1. Ao clicar no botão **[!UICONTROL Alerta]**, você pode verificar rapidamente se alguma configuração importante está ausente. Isso ajudará a garantir que suas mensagens estejam configuradas corretamente e evitará possíveis erros ou problemas.
 
    ![](assets/aem_ajo_2.png)
 
-1. No **[!UICONTROL Propriedades do modelo]** clique na guia **[!UICONTROL Gerenciar acesso]** botão para atribuir rótulos de uso de dados personalizados ou principais ao modelo. [Saiba mais sobre o OLAC (Object Level Access Control)](../administration/object-based-access.md)
+1. Na janela **[!UICONTROL Propriedades do modelo]**, clique no botão **[!UICONTROL Gerenciar acesso]** para atribuir rótulos de uso de dados principais ou personalizados ao seu modelo. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md)
 
 1. Para personalizar ainda mais seu modelo de Experience Manager e adicionar personalização personalizada ao seu conteúdo, clique em **[!UICONTROL Editar conteúdo]**. Isso permitirá que você faça alterações facilmente e personalize o modelo de acordo com suas necessidades específicas. [Saiba mais](get-started-email-design.md)
 
@@ -97,9 +97,9 @@ Quando o modelo de Experience Manager estiver disponível no Journey Optimizer c
    >
    > Se quiser editar e personalizar seu template, você só poderá usar o modo de compatibilidade.
 
-1. Quando o modelo de conteúdo estiver pronto, [testar e validar](../content-management/content-templates.md#test-template).
+1. Quando o modelo de conteúdo estiver pronto, [teste e valide-o](../content-management/content-templates.md#test-template).
 
-1. Após definir o conteúdo, você pode usá-lo ao criar um novo email navegando pelo **[!UICONTROL Modelos salvos]** coleção. Em seguida, selecione **[!UICONTROL Usar este modelo]**.
+1. Após definir o conteúdo, você pode usá-lo ao criar um novo email, navegando na coleção **[!UICONTROL Modelos salvos]**. Em seguida, selecione **[!UICONTROL Usar este modelo]**.
 
    ![](assets/aem_ajo_3.png)
 
@@ -115,8 +115,8 @@ Quando o modelo de Experience Manager estiver disponível no Journey Optimizer c
 
 1. Ao visualizar a pré-visualização da mensagem, todos os elementos personalizados são substituídos automaticamente pelos dados correspondentes do perfil de teste selecionado.
 
-   Se necessário, perfis de teste adicionais podem ser adicionados por meio do **[!UICONTROL Gerenciar perfis de teste]** botão.
+   Se necessário, perfis de teste adicionais podem ser adicionados através do botão **[!UICONTROL Gerenciar perfis de teste]**.
 
    ![](assets/aem_ajo_7.png)
 
-Quando o email estiver pronto, conclua a configuração de [jornada](../building-journeys/journey-gs.md) ou [campaign](../campaigns/create-campaign.md)e ativá-lo para enviar a mensagem.
+Quando o email estiver pronto, conclua a configuração da [jornada](../building-journeys/journey-gs.md) ou da [campanha](../campaigns/create-campaign.md) e ative-a para enviar a mensagem.

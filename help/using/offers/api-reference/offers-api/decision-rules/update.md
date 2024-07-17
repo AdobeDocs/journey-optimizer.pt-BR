@@ -15,13 +15,13 @@ ht-degree: 10%
 
 # Atualizar uma regra de decisão {#update-decision-rule}
 
-Você pode modificar ou atualizar regras de decisão fazendo uma solicitação PATCH para o [!DNL Offer Library] API.
+Você pode modificar ou atualizar regras de decisão fazendo uma solicitação PATCH para a API [!DNL Offer Library].
 
-Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação de patch de JSON](https://jsonpatch.com/).
+Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte a [documentação oficial do Patch JSON](https://jsonpatch.com/).
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem o campo *Content-Type* no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |

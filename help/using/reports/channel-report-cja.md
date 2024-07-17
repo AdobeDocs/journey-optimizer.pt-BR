@@ -20,7 +20,7 @@ ht-degree: 1%
 
 O relatório Visão geral oferece aos usuários um resumo completo das métricas de tráfego e engajamento para todas as campanhas e jornadas em seu ambiente. Essas métricas são combinadas para apresentar valores unificados para ações provenientes de diferentes canais, abrangendo várias campanhas e jornadas.
 
-Você pode acessar o relatório Visão geral navegando até o **Relatórios** no menu **Gerenciamento de jornadas** seção.
+Você pode acessar o relatório de Visão geral navegando até o menu **Relatórios** na seção **Gerenciamento de Jornadas**.
 
 A página do relatório é exibida com as seguintes guias:
 
@@ -34,27 +34,27 @@ Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e an
 
 ![](assets/cja-highlights.png)
 
-A variável **[!UICONTROL Destaques]** Os KPIs servem como um painel abrangente, oferecendo um detalhamento das principais métricas para todas as campanhas e jornadas em seu ambiente, permitindo que você avalie rapidamente o desempenho e identifique áreas para aprimoramento.
+Os KPIs **[!UICONTROL Destaques]** servem como um painel abrangente, oferecendo um detalhamento detalhado das métricas principais para todas as campanhas e jornadas em seu ambiente, permitindo que você avalie rapidamente o desempenho e identifique áreas para aprimoramento.
 
 +++ Saiba mais sobre métricas de Destaques
 
-* **[!UICONTROL Jornada envolvimento]**: Número total de indivíduos que interagiram com as mensagens enviadas pela jornada.
+* **[!UICONTROL Engajamento na Jornada]**: número total de pessoas que interagiram com as mensagens enviadas pela jornada.
 
-* **[!UICONTROL Entradas de Jornada]**: Número total de indivíduos que atingiram o evento de entrada da jornada.
+* **[!UICONTROL Entradas de Jornada]**: número total de pessoas físicas que atingiram o evento de entrada da jornada.
 
 * **[!UICONTROL Falhas de Jornada]**: Número total de jornadas individuais que não foram executadas com êxito.
 
-* **[!UICONTROL Taxa de cliques]**: Porcentagem de cliques nas mensagens.
+* **[!UICONTROL Taxa de cliques]**: porcentagem de cliques em suas mensagens.
 
-* **[!UICONTROL Índice de abertura de click-through (CTOR)]**: Número de vezes que a mensagem foi aberta.
+* **[!UICONTROL Taxa de abertura de click-through (CTOR)]**: número de vezes que a mensagem foi aberta.
 
-* **[!UICONTROL Pessoas]**: Número de perfis de usuário que se qualificam como perfis de público-alvo para suas mensagens.
+* **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para suas mensagens.
 
-* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em suas mensagens.
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em suas mensagens.
 
-* **[!UICONTROL Reclamações de spam]**: Número de vezes que uma mensagem foi declarada como spam ou lixo eletrônico.
+* **[!UICONTROL Reclamações de spam]**: número de vezes que uma mensagem foi declarada como spam ou lixo eletrônico.
 
-* **[!UICONTROL Cancelamentos de assinatura]**: Número de cliques no link unsubscription.
+* **[!UICONTROL Cancelamentos de assinatura]**: Número de cliques no link de cancelamento de assinatura.
 
 +++
 
@@ -62,15 +62,15 @@ A variável **[!UICONTROL Destaques]** Os KPIs servem como um painel abrangente,
 
 ![](assets/cja-channel-journeys.png)
 
-A variável **[!UICONTROL Jornada]** A tabela do serve como um painel abrangente, fornecendo uma análise das métricas principais relacionadas à sua jornada. Ele inclui detalhes como o número de perfis inseridos e instâncias de jornadas individuais com falha, oferecendo uma compreensão completa da eficácia e dos níveis de engajamento da sua jornada.
+A tabela **[!UICONTROL Jornada]** serve como um painel abrangente, fornecendo uma análise das métricas principais relacionadas à sua jornada. Ele inclui detalhes como o número de perfis inseridos e instâncias de jornadas individuais com falha, oferecendo uma compreensão completa da eficácia e dos níveis de engajamento da sua jornada.
 
 Ao clicar no nome de qualquer jornada listada nesta tabela, é possível explorar facilmente cada jornada individualmente, obtendo acesso imediato ao relatório abrangente em uma nova guia.
 
 +++ Saiba mais sobre métricas do Jornada
 
-* **[!UICONTROL Entradas de Jornada]**: Número total de indivíduos que atingiram o evento de entrada da jornada.
+* **[!UICONTROL Entradas de Jornada]**: número total de pessoas físicas que atingiram o evento de entrada da jornada.
 
-* **[!UICONTROL Saídas do Jornada]**: número total de indivíduos que saíram da jornada.
+* **[!UICONTROL Saídas da Jornada]**: número total de indivíduos que saíram da jornada.
 
 * **[!UICONTROL Falhas de Jornada]**: Número total de jornadas individuais que não foram executadas com êxito.
 
@@ -80,19 +80,19 @@ Ao clicar no nome de qualquer jornada listada nesta tabela, é possível explora
 
 ![](assets/cja-channel-campaigns.png)
 
-A variável **[!UICONTROL Campaign]** A tabela funciona como um painel abrangente, apresentando uma visão geral detalhada das métricas críticas para a sua campanha. Ele apresenta dados essenciais, como o número de perfis e envios, fornecendo um insight abrangente sobre o desempenho e os níveis de engajamento da campanha.
+A tabela **[!UICONTROL Campanha]** funciona como um painel abrangente, apresentando uma visão geral detalhada das métricas críticas para sua campanha. Ele apresenta dados essenciais, como o número de perfis e envios, fornecendo um insight abrangente sobre o desempenho e os níveis de engajamento da campanha.
 
 Ao clicar no nome de qualquer campanha listada nesta tabela, você pode explorar facilmente cada campanha individualmente, obtendo acesso imediato ao relatório abrangente em uma nova guia.
 
 +++ Saiba mais sobre métricas do Campaign
 
-* **[!UICONTROL Pessoas]**: Número de perfis de usuário que se qualificam como perfis de público-alvo para suas mensagens.
+* **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para suas mensagens.
 
 * **[!UICONTROL Envios]**: número total de envios para cada campanha.
 
-* **[!UICONTROL Exibições]**: Número de vezes que a mensagem foi aberta.
+* **[!UICONTROL Exibições]**: número de vezes que a mensagem foi aberta.
 
-* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em suas mensagens.
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em suas mensagens.
 
 +++
 
@@ -102,19 +102,19 @@ Ao clicar no nome de qualquer campanha listada nesta tabela, você pode explorar
 
 ![](assets/cja-channels.png)
 
-A variável **[!UICONTROL Canais]** A tabela fornece uma análise detalhada do envolvimento de seus perfis com suas mensagens no nível do canal. Isso permite que você obtenha insights mais profundos sobre o desempenho de diferentes canais.
+A tabela **[!UICONTROL Canais]** fornece uma análise detalhada do envolvimento de seus perfis com suas mensagens no nível do canal. Isso permite que você obtenha insights mais profundos sobre o desempenho de diferentes canais.
 
 +++ Saiba mais sobre Métricas de canais
 
-* **[!UICONTROL Pessoas]**: Número de perfis de usuário que se qualificam como perfis de público-alvo para suas mensagens.
+* **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para suas mensagens.
 
-* **[!UICONTROL Taxa de cliques]**: Porcentagem de cliques nas mensagens.
+* **[!UICONTROL Taxa de cliques]**: porcentagem de cliques em suas mensagens.
 
 * **[!UICONTROL Envios]**: número total de envios para cada campanha.
 
-* **[!UICONTROL Exibições]**: Número de vezes que a mensagem foi aberta.
+* **[!UICONTROL Exibições]**: número de vezes que a mensagem foi aberta.
 
-* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado em suas mensagens.
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em suas mensagens.
 
 +++
 
@@ -122,10 +122,10 @@ A variável **[!UICONTROL Canais]** A tabela fornece uma análise detalhada do e
 
 ![](assets/cja-channels-outbound-errors.png)
 
-A variável **[!UICONTROL Erros de saída]** A tabela permite identificar os erros precisos que ocorreram durante o processo de envio, facilitando uma compreensão clara de quaisquer problemas encontrados.
+A tabela **[!UICONTROL Erros de saída]** permite que você aponte os erros precisos que ocorreram durante todo o processo de envio, facilitando a compreensão clara de quaisquer problemas encontrados.
 
 ### Exclusões de saída
 
 ![](assets/cja-channels-outbound-excluded.png)
 
-A variável **[!UICONTROL Exclusões de saída]** A tabela apresenta uma visão abrangente dos diferentes fatores que resultaram na exclusão de perfis de usuário do público-alvo direcionado, resultando no não recebimento da mensagem.
+A tabela **[!UICONTROL Exclusões de saída]** apresenta uma exibição abrangente dos diferentes fatores que resultaram na exclusão de perfis de usuário do público-alvo direcionado, resultando no não recebimento da mensagem.

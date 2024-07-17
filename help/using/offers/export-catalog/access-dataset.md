@@ -15,13 +15,13 @@ ht-degree: 11%
 
 # Acessar o catálogo de ofertas exportado {#access-exported-catalog}
 
-O catálogo de ofertas exportado pode ser acessado no Adobe Experience Platform **[!UICONTROL Conjuntos de dados]** menu. Um conjunto de dados é criado para cada objeto da Biblioteca de ofertas.
+O catálogo de ofertas exportado pode ser acessado no menu **[!UICONTROL Conjuntos de Dados]** do Adobe Experience Platform. Um conjunto de dados é criado para cada objeto da Biblioteca de ofertas.
 
 ![](../assets/datasets-list.png)
 
 Clique em um conjunto de dados para acessar os detalhes.
 
-A variável **[!UICONTROL Visualizar conjunto de dados]** permite exibir o lote bem-sucedido mais recente no conjunto de dados.
+O botão **[!UICONTROL Visualizar conjunto de dados]** permite exibir o lote bem-sucedido mais recente no conjunto de dados.
 
 ![](../assets/dataset-activity.png)
 

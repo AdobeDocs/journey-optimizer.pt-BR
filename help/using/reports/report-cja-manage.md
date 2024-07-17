@@ -12,7 +12,7 @@ exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 ![](assets/cja-analyze.png)
 
-Melhore sua experiência de análise de dados com o **[!DNL Customer Journey Analytics]** aproveitando o **[!UICONTROL Analisar no CJA]** recurso disponível em todos os relatórios.
+Melhore sua experiência de análise de dados com sua licença do **[!DNL Customer Journey Analytics]** aproveitando o recurso **[!UICONTROL Analisar no CJA]**, disponível em todos os relatórios.
 
-Essa poderosa opção redireciona você diretamente para seu **[!DNL Customer Journey Analytics]** ambiente, permitindo que você personalize seus relatórios extensivamente. Você pode enriquecer seus widgets com métricas de Customer Journey Analytics especializadas, elevando seus insights a um novo nível.
+Essa poderosa opção redireciona você facilmente para o ambiente do **[!DNL Customer Journey Analytics]**, permitindo que você personalize seus relatórios extensivamente. Você pode enriquecer seus widgets com métricas de Customer Journey Analytics especializadas, elevando seus insights a um novo nível.
 
 [Saiba mais sobre a interface Customer Journey Analytics.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
@@ -48,7 +48,7 @@ O relatório será atualizado automaticamente assim que o filtro for aplicado ou
 
 >[!TAB Exportar seu relatório como um arquivo CSV]
 
-1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL Arquivo CSV]** para gerar um arquivo CSV no nível geral do relatório.
+1. Em seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL Arquivo CSV]** para gerar um arquivo CSV no nível de relatório geral.
 
    ![](assets/export_cja_csv.png)
 
@@ -58,11 +58,11 @@ O relatório será atualizado automaticamente assim que o filtro for aplicado ou
 
 >[!TAB Exportar seu relatório como um arquivo PDF]
 
-1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL arquivo PDF]**.
+1. No seu relatório, clique em **[!UICONTROL Exportar]** e selecione **[!UICONTROL arquivo de PDF]**.
 
    ![](assets/export_cja_pdf.png)
 
-1. Após o download ter sido solicitado, clique em **[!UICONTROL Baixar]**.
+1. Após o download ter sido solicitado, clique em **[!UICONTROL Download]**.
 
    ![](assets/export_cja_pdf_2.png)
 

@@ -19,7 +19,7 @@ Saiba como usar funções matemáticas no editor de personalização.
 
 ## Absoluto {#absolute}
 
-A variável `absolute` é usada para converter um número em seu valor absoluto.
+A função `absolute` é usada para converter um número em seu valor absoluto.
 
 **Sintaxe**
 
@@ -29,7 +29,7 @@ A variável `absolute` é usada para converter um número em seu valor absoluto.
 
 ## formatNumber {#format-number}
 
-A variável `formatNumber` é usada para formatar qualquer número em sua representação sensível a linguagem.
+A função `formatNumber` é usada para formatar qualquer número em sua representação sensível a linguagem.
 
 Ele aceita um número e uma string representando o local e retorna uma string formatada do número no local desejado.
 
@@ -39,7 +39,7 @@ Ele aceita um número e uma string representando o local e retorna uma string fo
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Você pode usar formatação e códigos de idiomas válidos, conforme resumido em [Documentação do Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Localidades suportadas](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+Você pode usar formatação e localidades válidas conforme resumido em [Documentação do Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Localidades com suporte](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **Exemplo**
 
@@ -51,7 +51,7 @@ Esta consulta retorna uma string formatada em árabe correspondente a 123456.789
 
 ## Aleatória {#random}
 
-A variável `random` é usada para retornar um valor aleatório entre 0 e 1.
+A função `random` é usada para retornar um valor aleatório entre 0 e 1.
 
 **Sintaxe**
 
@@ -61,7 +61,7 @@ A variável `random` é usada para retornar um valor aleatório entre 0 e 1.
 
 ## Arredondar para baixo {#round-down}
 
-A variável `roundDown` é usada para arredondar para baixo um número.
+A função `roundDown` é usada para arredondar para baixo um número.
 
 **Sintaxe**
 
@@ -71,7 +71,7 @@ A variável `roundDown` é usada para arredondar para baixo um número.
 
 ## Arredondar para cima {#round-up}
 
-A variável `Count only null` é usada arredondar um número para cima.
+A função `Count only null` é usada arredondando um número para cima.
 
 **Sintaxe**
 
@@ -81,7 +81,7 @@ A variável `Count only null` é usada arredondar um número para cima.
 
 ## Para hex string {#to-hex-string}
 
-A variável `toHexString` A função converte qualquer número em sua sequência de caracteres hexadecimal.
+A função `toHexString` converte qualquer número em sua cadeia de caracteres hexadecimal.
 
 **Sintaxe**
 
@@ -99,7 +99,7 @@ Este query retorna o valor hexadecimal de 158, ou seja, 9e.
 
 ## Para Int {#to-int}
 
-A variável `toInt` A função é usada para converter qualquer um desses tipos (number, double, int, long, float, short, byte, boolean, string) em um inteiro.
+A função `toInt` é usada para converter qualquer um desses tipos (número, duplo, int, longo, flutuante, curto, byte, booleano, string) em um inteiro.
 
 **Sintaxe**
 
@@ -117,7 +117,7 @@ Esta query retorna o valor inteiro de 42,6, ou seja, 42.
 
 ## Para porcentagem {#to-percentage}
 
-A variável `toPercentage` é usada para converter um número em porcentagem.
+A função `toPercentage` é usada para converter um número em porcentagem.
 
 **Sintaxe**
 
@@ -127,7 +127,7 @@ A variável `toPercentage` é usada para converter um número em porcentagem.
 
 ## Para precisão {#to-precision}
 
-A variável `toPrecision` é usada para converter um número para a precisão necessária.
+A função `toPrecision` é usada para converter um número para a precisão necessária.
 
 **Sintaxe**
 
@@ -137,7 +137,7 @@ A variável `toPrecision` é usada para converter um número para a precisão ne
 
 ## Para string {#to-string}
 
-A variável **toString** A função converte qualquer número em sua representação de sequência de caracteres.
+A função **toString** converte qualquer número em sua representação de cadeia de caracteres.
 
 **Sintaxe**
 

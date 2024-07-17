@@ -12,23 +12,23 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
 workflow-type: tm+mt
 source-wordcount: '1599'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
 # Gerenciar a lista de supressão {#manage-suppression-list}
 
-Com [!DNL Journey Optimizer], você pode monitorar todos os endereços de email que são excluídos automaticamente do envio de uma jornada ou campanha, como rejeições permanentes, rejeições temporárias e reclamações de spam.
+Com o [!DNL Journey Optimizer], você pode monitorar todos os endereços de email que são excluídos automaticamente do envio de uma jornada ou campanha, como rejeições permanentes, rejeições temporárias e reclamações de spam.
 
-Esses endereços de email são coletados automaticamente na Journey Optimizer **lista de supressão**. Uma lista de supressão consiste em endereços e domínios a serem excluídos de seus públicos-alvo. Ele reúne endereços de email e domínios que são suprimidos em todas as correspondências em um único ambiente de cliente, o que significa que são específicos para uma ID de organização associada a uma ID de sandbox.
+Esses endereços de email são coletados automaticamente na **lista de supressão** do Journey Optimizer. Uma lista de supressão consiste em endereços e domínios a serem excluídos de seus públicos-alvo. Ele reúne endereços de email e domínios que são suprimidos em todas as correspondências em um único ambiente de cliente, o que significa que são específicos para uma ID de organização associada a uma ID de sandbox.
 
-Saiba mais sobre o conceito e o uso da lista de supressão no [nesta seção](../reports/suppression-list.md).
+Saiba mais sobre o conceito e o uso da lista de supressão [nesta seção](../reports/suppression-list.md).
 
 >[!NOTE]
 >
 >O Adobe mantém uma lista atualizada de endereços inválidos conhecidos que comprovadamente prejudicam a reputação de engajamento e mala direta e garante que os emails não sejam entregues a eles. Essa lista é gerenciada em uma lista de supressão global comum a todos os clientes da Adobe. Os endereços e os nomes de domínio contidos na lista de supressão global estão ocultos. Somente o número de destinatários excluídos é indicado nos relatórios de entrega.
 
-Além disso, você pode aproveitar o Journey Optimizer **API REST de supressão** para controlar as mensagens de saída usando supressão e listas de permissões. [Aprenda a trabalhar com a API REST de supressão](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Além disso, você pode aproveitar a **API REST de Supressão** do Journey Optimizer para controlar mensagens de saída usando supressão e listas de permissões. [Aprenda a trabalhar com a API REST de supressão](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Acessar a lista de supressão {#access-suppression-list}
 
@@ -39,33 +39,33 @@ Para acessar a lista detalhada de domínios e endereços de email excluídos, na
 
 >[!CAUTION]
 >
->As permissões para exibir, exportar e gerenciar a lista de supressão são restritas a [Administradores do Jornada](../administration/ootb-product-profiles.md#journey-administrator). Saiba mais sobre gerenciamento [!DNL Journey Optimizer] direitos de acesso dos usuários no [nesta seção](../administration/permissions-overview.md).
+>As permissões para exibir, exportar e gerenciar a lista de supressão são restritas a [Administradores do Jornada](../administration/ootb-product-profiles.md#journey-administrator). Saiba mais sobre como gerenciar os direitos de acesso de [!DNL Journey Optimizer] usuários em [esta seção](../administration/permissions-overview.md).
 
 
 Há filtros disponíveis para ajudar na navegação pela lista.
 
 ![](assets/suppression-list-filters.png)
 
-Você pode filtrar no campo **[!UICONTROL Categoria de supressão]**, **[!UICONTROL Tipo de endereço]** ou **[!UICONTROL Motivo]**. Selecione uma ou mais opções para cada critério. Depois de selecionado, você pode limpar cada filtro ou todos os filtros exibidos na parte superior da lista.
+Você pode filtrar por **[!UICONTROL Categoria de supressão]**, **[!UICONTROL Tipo de endereço]** ou **[!UICONTROL Motivo]**. Selecione uma ou mais opções para cada critério. Depois de selecionado, você pode limpar cada filtro ou todos os filtros exibidos na parte superior da lista.
 
 ![](assets/suppression-list-filtering-example.png)
 
 
 ## Entender os motivos de falha {#suppression-categories-and-reasons}
 
-Quando uma mensagem não é entregue a um endereço de email, [!DNL Journey Optimizer] determina por que o delivery falhou e o associa a um **[!UICONTROL Categoria de supressão]**.
+Quando uma mensagem não é entregue a um endereço de email, [!DNL Journey Optimizer] determina por que a entrega falhou e a associa a uma **[!UICONTROL Categoria de supressão]**.
 
 As categorias de supressão são as seguintes:
 
-* **Rígido**: uma rejeição permanente indica um endereço de email inválido (ou seja, um endereço de email que não existe). Isso envolve uma mensagem de rejeição do servidor de email de recebimento que declara explicitamente que o endereço é inválido. O endereço de email é enviado imediatamente para a lista de supressão.
+* **Permanente**: uma rejeição permanente indica um endereço de email inválido (ou seja, um endereço de email que não existe). Isso envolve uma mensagem de rejeição do servidor de email de recebimento que declara explicitamente que o endereço é inválido. O endereço de email é enviado imediatamente para a lista de supressão.
 
-  Quando o erro é o resultado de uma reclamação de spam, ele também entra na **Rígido** categoria. O endereço de email do recipient que emitiu a reclamação é enviado imediatamente para a lista de supressão.
+  Quando o erro é o resultado de uma reclamação de spam, ele também se enquadra na categoria **Grave**. O endereço de email do recipient que emitiu a reclamação é enviado imediatamente para a lista de supressão.
 
-* **Suave**: uma rejeição temporária é uma rejeição de email que ocorreu para um endereço de email válido. O endereço de email é adicionado à lista de supressão após várias tentativas. Os erros suaves enviam um endereço para a lista de supressão assim que o contador de erros atinge o limite. [Saiba mais sobre tentativas](retries.md)
+* **Soft**: uma rejeição temporária é uma rejeição de email que ocorreu para um endereço de email válido. O endereço de email é adicionado à lista de supressão após várias tentativas. Os erros suaves enviam um endereço para a lista de supressão assim que o contador de erros atinge o limite. [Saiba mais sobre tentativas](retries.md)
 
 * **Manual**: erros manuais foram adicionados manualmente à lista de supressão. [Saiba mais](#add-addresses-and-domains)
 
-Para cada endereço de email listado, você também pode verificar o **[!UICONTROL Tipo]** (email ou domínio), **[!UICONTROL Motivo]** para excluí-lo, quem o adicionou e a data/hora em que foi adicionado à lista de supressão.
+Para cada endereço de email listado, você também pode verificar o **[!UICONTROL Tipo]** (email ou domínio), o **[!UICONTROL Motivo]** da exclusão, quem o adicionou e a data/hora em que ele foi adicionado à lista de supressão.
 
 ![](assets/suppression-list.png)
 
@@ -73,22 +73,22 @@ Os possíveis motivos para uma falha de delivery são:
 
 | Motivo | Descrição | Categoria |
 | --- | --- | --- |
-| **[!UICONTROL Destinatário inválido]** | O destinatário é inválido ou não existe. | Permanente |
-| **[!UICONTROL Rejeição leve]** | A mensagem teve rejeição temporária por um motivo diferente dos erros temporários listados nesta tabela, como ao enviar acima da taxa permitida recomendada por um ISP. | Temporária |
-| **[!UICONTROL Falha de DNS]** | A mensagem foi rejeitada devido a uma falha de DNS. | Temporária |
-| **[!UICONTROL Caixa de entrada cheia]** | A mensagem foi rejeitada porque a caixa de entrada do destinatário está cheia e não pode receber mais mensagens. | Temporária |
-| **[!UICONTROL Retransmissão negada]** | A mensagem foi bloqueada pelo destinatário porque a retransmissão não é permitida. | Temporária |
-| **[!UICONTROL Desafio-resposta]** | A mensagem é uma prova de desafio-resposta. | Temporária |
-| **[!UICONTROL Reclamação de spam]** | A mensagem foi bloqueada porque foi marcada como spam pelo destinatário. | Permanente |
+| **[!UICONTROL Destinatário inválido]** | O destinatário é inválido ou não existe. | Grave |
+| **[!UICONTROL Rejeição leve]** | A mensagem teve rejeição temporária por um motivo diferente dos erros temporários listados nesta tabela, como ao enviar acima da taxa permitida recomendada por um ISP. | Suave |
+| **[!UICONTROL Falha de DNS]** | A mensagem foi rejeitada devido a uma falha de DNS. | Suave |
+| **[!UICONTROL Caixa de Correio Cheia]** | A mensagem foi rejeitada porque a caixa de entrada do destinatário está cheia e não pode receber mais mensagens. | Suave |
+| **[!UICONTROL Retransmissão negada]** | A mensagem foi bloqueada pelo destinatário porque a retransmissão não é permitida. | Suave |
+| **[!UICONTROL Resposta-Desafio]** | A mensagem é uma prova de desafio-resposta. | Suave |
+| **[!UICONTROL Reclamação de spam]** | A mensagem foi bloqueada porque foi marcada como spam pelo destinatário. | Grave |
 
 >[!NOTE]
 >
->Os usuários que cancelaram a inscrição não estão recebendo emails do [!DNL Journey Optimizer], portanto, seus endereços de email não podem ser enviados para a lista de supressão. Sua escolha é feita no nível da Experience Platform. [Saiba mais sobre recusa](../privacy/opt-out.md)
+>Os usuários não inscritos não estão recebendo emails de [!DNL Journey Optimizer], portanto seus endereços de email não podem ser enviados para a lista de supressão. Sua escolha é feita no nível da Experience Platform. [Saiba mais sobre opção de não participação](../privacy/opt-out.md)
 
 
 ### Regras de supressão  {#suppression-rules}
 
-No **[!UICONTROL Lista de supressão]** também é possível editar o parâmetro de nova tentativa associado às regras de supressão do **[!UICONTROL Editar regras de supressão]** botão. Use essa opção para atualizar o limite de novas tentativas da sandbox atual. [Saiba mais sobre tentativas](retries.md).
+Na exibição **[!UICONTROL Lista de supressão]**, você também pode editar o parâmetro de nova tentativa associado às regras de supressão do botão **[!UICONTROL Editar regras de supressão]**. Use essa opção para atualizar o limite de novas tentativas da sandbox atual. [Saiba mais sobre tentativas](retries.md).
 
 
 ## Adicionar endereços e domínios à lista de supressão{#add-addresses-and-domains}
@@ -105,11 +105,11 @@ No **[!UICONTROL Lista de supressão]** também é possível editar o parâmetro
 
 Quando ocorre uma falha na entrega de uma mensagem a um endereço de email, esse endereço é adicionado automaticamente à lista de supressão com base na regra de supressão definida ou na contagem de rejeição.
 
-No entanto, também é possível preencher manualmente a variável [!DNL Journey Optimizer] lista de supressão para excluir domínios e/ou endereços de email específicos do seu envio.
+No entanto, você também pode preencher manualmente a lista de supressão [!DNL Journey Optimizer] para excluir domínios e/ou endereços de email específicos do seu envio.
 
 >[!NOTE]
 >
->Pode levar até 60 minutos para [!DNL Journey Optimizer] para considerar os endereços suprimidos nos emails de saída.
+>Pode levar até 60 minutos para [!DNL Journey Optimizer] considerar os endereços suprimidos nos emails de saída.
 
 Você pode adicionar os endereços de email ou domínios [um de cada vez](#add-one-address-or-domain) ou [em massa](#upload-csv-file) por meio do upload de um arquivo CSV.
 
@@ -122,15 +122,15 @@ Você pode adicionar os endereços de email ou domínios [um de cada vez](#add-o
 
 Para adicionar um endereço de email ou um domínio à lista de supressão, siga as etapas abaixo:
 
-1. Selecione o **[!UICONTROL Adicionar email ou domínio]** botão.
+1. Selecione o botão **[!UICONTROL Adicionar email ou domínio]**.
 
    ![](assets/suppression-list-add-email.png)
 
-1. Escolha o **[!UICONTROL Um por um]** opção.
+1. Escolha a opção **[!UICONTROL Um por um]**.
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. Selecione o tipo de endereço: **[!UICONTROL E-mail]** ou **[!UICONTROL Domínio]**.
+1. Selecione o tipo de endereço: **[!UICONTROL Email]** ou **[!UICONTROL Domínio]**.
 
 1. Insira o endereço de email ou domínio que deseja excluir do envio.
 
@@ -140,7 +140,7 @@ Para adicionar um endereço de email ou um domínio à lista de supressão, siga
 
 1. (opcional) Informe um motivo. Todos os caracteres ASCII imprimíveis compreendidos entre 32 e 126 são permitidos neste campo.
 
-1. Use o **[!UICONTROL Enviar]** botão para confirmar.
+1. Use o botão **[!UICONTROL Enviar]** para confirmar.
 
 ### Fazer upload de um arquivo CSV {#upload-csv-file}
 
@@ -151,8 +151,8 @@ Para adicionar um endereço de email ou um domínio à lista de supressão, siga
 
 Para adicionar um grupo de endereços de email ou um domínio à lista de supressão, siga as etapas abaixo:
 
-1. Selecione o **[!UICONTROL Adicionar email ou domínio]** botão.
-1. Escolha o **[!UICONTROL Fazer upload de CSV]** opção.
+1. Selecione o botão **[!UICONTROL Adicionar email ou domínio]**.
+1. Escolha a opção **[!UICONTROL Carregar CSV]**.
 
    ![](assets/suppression-list-upload-csv.png)
 
@@ -164,7 +164,7 @@ Para adicionar um grupo de endereços de email ou um domínio à lista de supres
    DOMAIN,somedomain.com,Comment
    ```
 
-1. Preencha o modelo CSV com os endereços de email e/ou domínios que serão adicionados à lista de supressão. Todos os caracteres ASCII imprimíveis compreendidos entre 32 e 126 são permitidos na **COMENTÁRIO** coluna.
+1. Preencha o modelo CSV com os endereços de email e/ou domínios que serão adicionados à lista de supressão. Todos os caracteres ASCII imprimíveis entre 32 e 126 são permitidos na coluna **COMMENT**.
 
    >[!CAUTION]
    >
@@ -173,15 +173,15 @@ Para adicionar um grupo de endereços de email ou um domínio à lista de supres
    >O tamanho do arquivo não pode exceder a 1 MB.
    >
 
-1. Depois de concluído, arraste e solte seu arquivo CSV e use o **[!UICONTROL Enviar]** botão para confirmar.
+1. Depois de concluído, arraste e solte seu arquivo CSV e use o botão **[!UICONTROL Enviar]** para confirmar.
 
    ![](assets/suppression-list-upload-csv-submit.png)
 
-Quando o upload estiver concluído, você poderá verificar seu status no [Uploads recentes](#recent-uploads) conforme detalhado abaixo.
+Quando o carregamento estiver concluído, você poderá verificar seu status usando o botão [Carregamentos recentes](#recent-uploads), conforme detalhado abaixo.
 
 ### Verificar status dos uploads {#recent-uploads}
 
-Use o **[!UICONTROL Uploads recentes]** botão para verificar o status dos arquivos CSV carregados mais recentemente.
+Use o botão **[!UICONTROL Carregamentos recentes]** para verificar o status dos arquivos CSV carregados mais recentemente.
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
@@ -191,7 +191,7 @@ Os status possíveis são:
 * **[!UICONTROL Erro]**: o processo de upload do arquivo falhou devido a um problema técnico ou a um erro no formato do arquivo.
 * **[!UICONTROL Concluído]**: o processo de upload de arquivo foi concluído com sucesso.
 
-Durante o upload, se alguns endereços não estiverem no formato correto, eles não serão adicionados ao [!DNL Journey Optimizer] lista de supressão.
+Durante o upload, se alguns endereços não estiverem no formato correto, eles não serão adicionados à lista de supressão [!DNL Journey Optimizer].
 
 Nesse caso, quando o upload é concluído, ele é associado a um relatório. Você pode baixá-lo para verificar os erros encontrados<!-- and understand why they were not added to the suppression list-->.
 
@@ -213,26 +213,26 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 Você pode atualizar manualmente a lista de supressão. A remoção de um endereço de email da quarentena é uma operação delicada e pode afetar a reputação do IP e as taxas de capacidade de delivery. Prossiga com cuidado.
 
-Ao excluir um endereço de email ou um domínio da lista de supressão, o Adobe Journey Optimizer pode iniciar novamente a entrega para esse endereço ou domínio.  Saiba mais sobre a capacidade de entrega no [nesta seção](../reports/deliverability.md).
+Ao excluir um endereço de email ou um domínio da lista de supressão, o Adobe Journey Optimizer pode iniciar novamente a entrega para esse endereço ou domínio.  Saiba mais sobre a capacidade de entrega em [esta seção](../reports/deliverability.md).
 
-Para remover um endereço da lista de supressão, use o **[!UICONTROL Excluir]** botão.
+Para remover um endereço da lista de supressão, use o botão **[!UICONTROL Excluir]**.
 
 ![](assets/suppression-list-delete.png)
 
 
 >[!NOTE]
 >
->Continue com muito cuidado ao considerar a exclusão de qualquer endereço de email ou domínio. Em caso de dúvidas, entre em contato com um especialista em capacidade de delivery.
+>Continue com muito cuidado ao considerar a exclusão de qualquer endereço de email ou domínio. Em caso de dúvidas, entre em contato com um especialista em capacidade de entrega.
 
 Por exemplo, no caso de uma interrupção do provedor de serviços de Internet (ISP), os emails são marcados incorretamente como rejeições permanentes porque não podem ser entregues com êxito ao recipient. Esses endereços de email devem ser removidos da lista de supressão.
 
 Para recuperar esses endereços, execute uma consulta específica com parâmetros personalizados, com base no contexto da interrupção. [Saiba mais neste exemplo](../data/datasets-query-examples.md#isp-outage-query).
 
-Depois que os endereços de email afetados forem identificados, filtre a lista de supressão para exibi-los. Por exemplo, se uma interrupção de ISP tiver ocorrido de 11 de novembro de 2022 a 13 de novembro de 2022 no **test.com** domínio, filtre os endereços adicionados à lista de supressão nesse período, conforme abaixo:
+Depois que os endereços de email afetados forem identificados, filtre a lista de supressão para exibi-los. Por exemplo, se uma interrupção de ISP tiver ocorrido de 11 de novembro de 2022 a 13 de novembro de 2022 no domínio **test.com**, filtre os endereços adicionados à lista de supressão nesse período, conforme abaixo:
 
 ![](assets/remove-from-supp-list.png)
 
-Você pode remover endereços de email em quarentena da lista de supressão usando o **[!UICONTROL Excluir]** botão.
+Você pode remover os endereços de email em quarentena da lista de supressão usando o botão **[!UICONTROL Excluir]**.
 
 ## Baixar a lista de supressão {#download-suppression-list}
 
@@ -245,7 +245,7 @@ Você pode remover endereços de email em quarentena da lista de supressão usan
 
 Para exportar a lista de supressão como um arquivo CSV, siga as etapas abaixo:
 
-1. Selecione o **[!UICONTROL Baixar CSV]** botão.
+1. Selecione o botão **[!UICONTROL Baixar CSV]**.
 
    ![](assets/suppression-list-download-csv.png)
 

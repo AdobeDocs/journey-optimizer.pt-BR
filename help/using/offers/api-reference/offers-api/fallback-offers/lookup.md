@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Pesquisar ofertas substitutas {#look-up-fallback-offers}
 
-Você pode pesquisar ofertas substitutas específicas fazendo uma solicitação GET para o [!DNL Offer Library] API que inclui a ID de oferta de fallback no caminho da solicitação.
+Você pode pesquisar ofertas substitutas específicas fazendo uma solicitação GET para a API [!DNL Offer Library] que inclui a ID da oferta substituta no caminho da solicitação.
 
 **Formato da API**
 

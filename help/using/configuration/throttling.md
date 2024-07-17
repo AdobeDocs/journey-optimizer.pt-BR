@@ -19,7 +19,7 @@ ht-degree: 91%
 
 A API de limitação ajuda a criar, configurar e monitorar as configurações de limitação para limitar o número de eventos enviados por segundo.
 
-Esta seção fornece informações globais sobre como trabalhar com a API. Uma descrição detalhada da API está disponível em [Documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
+Esta seção fornece informações globais sobre como trabalhar com a API. Uma descrição detalhada da API está disponível na [documentação das APIs do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
 
 >[!IMPORTANT]
 >

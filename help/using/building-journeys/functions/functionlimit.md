@@ -85,8 +85,8 @@ Retorna uma lista de objetos.
 
 `limit(["A", "B", "C", "D", "E"], 3)`
 
-Devoluções `["A","B","C"]`.
+Retorna `["A","B","C"]`.
 
 `limit(["A", "B", "C", "D", "E"], 3, false)`
 
-Devoluções `["C","D","E"]`.
+Retorna `["C","D","E"]`.

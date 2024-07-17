@@ -11,7 +11,7 @@ exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ Primeiro de tudo, clientes-alvo que navegaram na loja online, mas não finalizar
 
 `In (“addToCart”, #{field reference from experience event})`-->
 
-**Essa expressão procura todos os eventos para esse usuário especificados nos últimos 7 dias:**
+**Esta expressão procura todos os eventos para este usuário especificado nos últimos 7 dias:**
 
 Em seguida, seleciona todos os eventos de adtocart que não se transformaram em uma completePurchase.
 
@@ -82,7 +82,7 @@ Essa expressão retorna um valor booleano.
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* E especifique SKU, usando a função `first` para recuperar a interação mais recente &quot;addToCart&quot;:
+* E especifique SKU, usando a função `first` para recuperar a interação &quot;addToCart&quot; mais recente:
 
   ```json
       #{ExperiencePlatformDataSource
@@ -112,9 +112,9 @@ Essa condição recupera somente os eventos de geofence acionados em &quot;Arlin
                     .name} == "Arlington"
 ```
 
-Explicação: é uma comparação de sequência estrita (diferencia maiúsculas de minúsculas), equivalente a uma consulta no modo simples que usa `equal to` com `Is sensitive` marcado.
+Explicação: Esta é uma comparação de sequência estrita (diferencia maiúsculas de minúsculas), equivalente a uma consulta no modo simples que usa `equal to` com `Is sensitive` marcado.
 
-A mesma consulta com `Is sensitive` desmarcada gerará a seguinte expressão no modo avançado:
+A mesma consulta com `Is sensitive` desmarcado gerará a seguinte expressão no modo avançado:
 
 ```json
         equalIgnoreCase(@event{GeofenceEntry
@@ -124,7 +124,7 @@ A mesma consulta com `Is sensitive` desmarcada gerará a seguinte expressão no 
                         .name}, "Arlington")
 ```
 
-**Nas ações**
+**Em ações**
 
 A seguinte expressão permite definir a ID do CRM em um campo de personalização de ação:
 
@@ -145,6 +145,6 @@ substr(
 )
 ```
 
-Explicação: Este exemplo usa `substr` e `lastIndexOf` funções para remover chaves que delimitam a ID do CRM transmitida com um evento de inicialização de aplicativo para dispositivos móveis.
+Explicação: Este exemplo usa as funções `substr` e `lastIndexOf` para remover chaves que delimitam a ID do CRM transmitida com um evento de inicialização de aplicativo móvel.
 
-Para obter mais informações sobre como usar o editor de expressão avançado, assista [este vídeo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=pt-BR).
+Para obter mais informações sobre como usar o editor de expressão avançado, assista a [este vídeo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=pt-BR).

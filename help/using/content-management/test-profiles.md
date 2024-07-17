@@ -23,11 +23,11 @@ Antes de visualizar ou testar seu conteúdo, primeiro é necessário selecionar 
 
 Para selecionar perfis de teste, siga estas etapas:
 
-1. Na tela de edição de conteúdo da sua mensagem ou no Designer de email, clique no **[!UICONTROL Simular conteúdo]** botão.
+1. Na tela de edição de conteúdo da sua mensagem ou no Designer de Email, clique no botão **[!UICONTROL Simular conteúdo]**.
 
-1. Clique em **[!UICONTROL Gerenciar perfis de teste]** e, em seguida, selecione o namespace a ser usado para identificar perfis de teste clicando no link **[!UICONTROL Namespace de identidade]** ícone de seleção. [Saiba mais sobre os namespaces de identidade da Adobe Experience Platform](../audience/get-started-identity.md).
+1. Clique no botão **[!UICONTROL Gerenciar perfis de teste]** e selecione o namespace a ser usado para identificar perfis de teste clicando no ícone de seleção **[!UICONTROL Namespace de identidade]**. [Saiba mais sobre os namespaces de identidade da Adobe Experience Platform](../audience/get-started-identity.md).
 
-   No exemplo abaixo, usamos o **E-mail** namespace.
+   No exemplo abaixo, usamos o namespace **Email**.
 
    ![](../email/assets/previewselect-namespace.png)
 
@@ -35,7 +35,7 @@ Para selecionar perfis de teste, siga estas etapas:
 
    ![](../email/assets/preview-email-namespace.png)
 
-1. No **[!UICONTROL Valor de identidade]** insira o valor (aqui o endereço de email) para identificar o perfil de teste e clique em **[!UICONTROL Adicionar perfil]**.
+1. No campo **[!UICONTROL Valor de identidade]**, insira o valor (aqui o endereço de email) para identificar o perfil de teste e clique em **[!UICONTROL Adicionar perfil]**.
 
    <!--![](assets/preview-identity-value.png)-->
 

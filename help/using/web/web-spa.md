@@ -23,7 +23,7 @@ ht-degree: 16%
 >abstract="As alterações serão aplicadas somente às exibições selecionadas. As exibições podem ser descobertas usando o modo **Procurar**. Não consegue localizar uma exibição específica?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR" text="Saiba mais"
 
-**Aplicativos de página única** (SPA) agora pode ser criado no editor visual do web designer. Isso permite selecionar quais opções **visualizações** você deseja aplicar as modificações da página da Web a.
+**Aplicativos de página única** (SPA) agora podem ser criados no editor visual do designer da Web. Isso permite selecionar a quais **exibições** específicas você deseja aplicar as modificações da página da Web.
 
 [Saiba como criar aplicativos de página única neste vídeo](#video)
 
@@ -33,21 +33,21 @@ Uma exibição pode ser definida como um site inteiro ou um grupo de elementos v
 
 ## Definir exibições na implementação do SDK da Web {#define-views}
 
-As visualizações XDM podem ser aproveitadas no Adobe [!DNL Journey Optimizer] para capacitar profissionais de marketing a executar campanhas de personalização e experimentação na web sobre SPA por meio do editor visual da web. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=pt-BR){target="_blank"}
+As exibições XDM podem ser usadas no Adobe [!DNL Journey Optimizer] para capacitar os profissionais de marketing a executar campanhas de personalização e experimentação da Web no SPA por meio do editor visual da Web. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=pt-BR){target="_blank"}
 
-Para acessar e criar exibições na variável [!DNL Journey Optimizer] de usuário, siga as etapas listadas em [nesta seção](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
+Para acessar e criar exibições na interface do usuário do [!DNL Journey Optimizer], siga as etapas listadas em [esta seção](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## Descobrir exibições no web designer {#discover-views}
 
 Depois que a configuração do SPA for concluída na implementação do SDK da Web da Adobe Experience Platform, será necessário navegar por todas as exibições do site às quais deseja aplicar modificações. Siga as etapas abaixo.
 
-1. [Criar uma campanha da Web](create-web.md) e acesse o [web designer](edit-web-content.md).
+1. [Crie uma campanha da Web](create-web.md) e acesse o [web designer](edit-web-content.md).
 
    A visualização em que você está no momento é exibida no canto superior esquerdo.
 
    ![](assets/web-designer-view-home.png)
 
-1. Trocar para **[!UICONTROL Procurar]** modo. [Saiba mais](../web/edit-web-content.md#browse-mode)
+1. Mudar para o modo **[!UICONTROL Procurar]**. [Saiba mais](../web/edit-web-content.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 
@@ -61,13 +61,13 @@ Após adicionar uma modificação enquanto estiver em uma exibição específica
 
 >[!CAUTION]
 >
->Se você não tiver descoberto as exibições usando o **[!UICONTROL Procurar]** você não poderá selecioná-las para aplicar suas modificações. [Saiba mais](#discover-views)
+>Se você não descobriu modos de exibição usando o modo de **[!UICONTROL Navegação]**, não poderá selecioná-los para aplicar suas modificações. [Saiba mais](#discover-views)
 
-1. Selecione o **[!UICONTROL Modificações]** ícone para exibir o painel correspondente à esquerda.
+1. Selecione o ícone **[!UICONTROL Modificações]** para exibir o painel correspondente à esquerda.
 
    ![](assets/web-designer-view-modifications-pane.png)
 
-1. Selecione qualquer modificação e clique no botão **[!UICONTROL Mais ações]** botão ao lado dele. Selecionar **[!UICONTROL Aplicar a mais visualizações]**.
+1. Selecione qualquer modificação e clique no botão **[!UICONTROL Mais ações]** ao lado dela. Selecione **[!UICONTROL Aplicar a mais exibições]**.
 
    ![](assets/web-designer-modifications-more-actions.png)
 
@@ -77,7 +77,7 @@ Após adicionar uma modificação enquanto estiver em uma exibição específica
 
 1. Clique em **[!UICONTROL Aplicar]**.
 
-1. Trocar para **[!UICONTROL Procurar]** para verificar se as modificações são aplicadas nas páginas desejadas.
+1. Mude para o modo **[!UICONTROL Procurar]** para verificar se as modificações foram aplicadas nas páginas desejadas.
 
    ![](assets/web-designer-modifications-applied-view.png)
 
@@ -85,7 +85,7 @@ Após adicionar uma modificação enquanto estiver em uma exibição específica
 
 Este vídeo explica como:
 
-* Descubra visualizações do SPA usando **[!UICONTROL Procurar]** modo
+* Descobrir exibições do SPA usando o modo **[!UICONTROL Procurar]**
 * Criar na visualização atual
 * Aplicar modificações de site em várias exibições ou em todas as que foram descobertas
 * Realizar ações em massa em modificações

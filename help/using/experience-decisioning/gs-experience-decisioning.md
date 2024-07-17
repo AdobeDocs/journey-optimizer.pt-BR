@@ -10,7 +10,7 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 37%
+ht-degree: 38%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 37%
 >
 >No momento, a Escolha de experiências está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
 >
->Por enquanto, o recurso não está disponível para clientes que compraram o Adobe **Healthcare Shield** e **Escudo de Proteção e Privacidade** ofertas complementares.
+>Por enquanto, o recurso não está disponível para clientes que compraram as ofertas complementares do Adobe **Healthcare Shield** e **Privacy and Security Shield**.
 
 ## O que é o Experience Decisioning {#about}
 
@@ -32,11 +32,11 @@ Esses itens de decisão são perfeitamente integrados em uma grande variedade de
 
 As principais etapas para trabalhar com o Experience Decisioning são as seguintes:
 
-1. **Atribuir permissões apropriadas**. O Experience Decisioning só está disponível para usuários com acesso a um aplicativo relacionado ao Experience Decisioning **[!UICONTROL função]** como os Gerentes de decisão. Se não conseguir acessar o Experience Decisioning, suas permissões deverão ser estendidas.
+1. **Atribuir permissões apropriadas**. O Experience Decisioning só está disponível para usuários com acesso a uma **[!UICONTROL função]** relacionada ao Experience Decisioning, como Gerentes de decisão. Se não conseguir acessar o Experience Decisioning, suas permissões deverão ser estendidas.
 
    +++Saiba como atribuir a função de Gerentes de decisão
 
-   1. Para atribuir uma função a um usuário na [!DNL Permissions] produto, navegue até o **[!UICONTROL Funções]** e selecione Gerenciadores de decisão.
+   1. Para atribuir uma função a um usuário no produto [!DNL Permissions], navegue até a guia **[!UICONTROL Funções]** e selecione Gerenciadores de decisão.
 
       ![](assets/decision_permission_1.png)
 
@@ -54,9 +54,9 @@ As principais etapas para trabalhar com o Experience Decisioning são as seguint
 
 +++
 
-1. **Configurar atributos personalizados**: personalize o catálogo de itens de acordo com suas necessidades específicas, configurando atributos personalizados no esquema do catálogo.
+1. **Configurar atributos personalizados**: adapte o catálogo de itens aos seus requisitos específicos, configurando atributos personalizados no esquema do catálogo.
 
-1. **Criar itens de decisão** para mostrar ao público-alvo direcionado.
+1. **Crie itens de decisão** para mostrar ao seu público-alvo direcionado.
 
 1. **Organizar com coleções**: use coleções para categorizar itens de decisão com base em regras baseadas em atributos. Incorpore coleções nas estratégias de seleção para determinar qual coleção de itens de decisão deve ser considerada.
 
@@ -64,6 +64,6 @@ As principais etapas para trabalhar com o Experience Decisioning são as seguint
 
 1. **Implementar métodos de classificação**: crie métodos de classificação e aplique-os nas estratégias de decisão para determinar a ordem de prioridade para selecionar itens de decisão.
 
-1. **Criar estratégias de seleção**: crie estratégias de seleção que aproveitam coleções, regras de decisão e métodos de classificação para identificar os itens de decisão adequados para exibição em perfis.
+1. **Criar estratégias de seleção**: crie estratégias de seleção que aproveitem coleções, regras de decisão e métodos de classificação para identificar os itens de decisão adequados para exibição em perfis.
 
 1. **Incorpore uma política de decisão à sua campanha baseada em código**: as políticas de decisão combinam várias estratégias de seleção para determinar os itens de decisão qualificados a serem exibidos para o público-alvo desejado.

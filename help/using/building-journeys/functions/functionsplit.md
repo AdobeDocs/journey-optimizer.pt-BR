@@ -10,7 +10,7 @@ exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -43,10 +43,10 @@ Retorna uma listString.
 
 `split("A_B_C", "_")`
 
-Devoluções `["A","B","C"]`
+Retorna `["A","B","C"]`
 
 Exemplo com um campo de evento &quot;event.appVersion&quot; com valor: &quot;20.45.2.3434&quot;
 
 `split(@event{event.appVersion}, "\\.")`
 
-Devoluções `["20", "45", "2", "3434"]`
+Retorna `["20", "45", "2", "3434"]`

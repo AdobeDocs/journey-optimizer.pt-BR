@@ -30,19 +30,19 @@ As etapas para adicionar conteúdo dinâmico nas expressões são as seguintes:
 
 1. Navegue até o campo onde deseja adicionar conteúdo dinâmico e abra o editor de personalização.
 
-1. Selecione o **[!UICONTROL Condições]** para exibir a lista de regras condicionais disponíveis. Clique no botão + ao lado de uma regra para adicioná-la à expressão atual.
+1. Selecione o menu **[!UICONTROL Condições]** para exibir a lista de regras condicionais disponíveis. Clique no botão + ao lado de uma regra para adicioná-la à expressão atual.
 
    Você também pode criar uma nova regra selecionando **[!UICONTROL Criar novo]**. [Saiba como criar condições](create-conditions.md)
 
    ![](assets/conditions-expression.png)
 
-1. Adicionar entre os `{%if}` e `{%/if}` O marca o conteúdo que você deseja exibir se a regra condicional for atendida. É possível adicionar quantas regras forem necessárias para criar várias variantes de uma expressão.
+1. Adicione entre as marcas `{%if}` e `{%/if}` o conteúdo que você deseja exibir se a regra condicional for atendida. É possível adicionar quantas regras forem necessárias para criar várias variantes de uma expressão.
 
    No exemplo abaixo, duas variantes foram criadas para um conteúdo SMS, dependendo do idioma preferencial do recipient.
 
    ![](assets/conditions-language-sample.png)
 
-1. Quando o conteúdo estiver pronto, você poderá visualizar as diferentes variantes usando o **[!UICONTROL Simular conteúdo]** botão. [Saiba como testar e visualizar mensagens](../content-management/preview-test.md)
+1. Quando o conteúdo estiver pronto, você poderá visualizar as diferentes variantes usando o botão **[!UICONTROL Simular conteúdo]**. [Saiba como testar e visualizar mensagens](../content-management/preview-test.md)
 
    ![](assets/conditions-preview.png)
 
@@ -60,13 +60,13 @@ As etapas para adicionar conteúdo dinâmico nas expressões são as seguintes:
 
 As etapas para criar variantes de um componente de conteúdo no Designer de email são as seguintes:
 
-1. No [Email Designer](../email/content-from-scratch.md), selecione um componente de conteúdo e clique em **[!UICONTROL Ativar conteúdo condicional]**.
+1. No [Designer de Email](../email/content-from-scratch.md), selecione um componente de conteúdo e clique em **[!UICONTROL Habilitar conteúdo condicional]**.
 
    ![](assets/conditions-enable-conditional.png)
 
-1. A variável **[!UICONTROL Conteúdo condicional]** é exibido à esquerda. Nesse painel, você pode criar várias variantes do componente de conteúdo selecionado usando condições.
+1. O painel **[!UICONTROL Conteúdo Condicional]** é exibido à esquerda. Nesse painel, você pode criar várias variantes do componente de conteúdo selecionado usando condições.
 
-   Configure sua primeira variante selecionando o **[!UICONTROL Selecionar condição]** botão.
+   Configure sua primeira variante selecionando o botão **[!UICONTROL Selecionar condição]**.
 
    ![](assets/conditions-apply.png)
 
@@ -76,7 +76,7 @@ As etapas para criar variantes de um componente de conteúdo no Designer de emai
 
    Você também pode criar uma nova regra clicando em **[!UICONTROL Criar novo]**. [Saiba como criar condições](create-conditions.md)
 
-1. A regra condicional está associada à variante. Para melhorar a compreensão, renomeie a variante selecionando o **[!UICONTROL Renomear]** ação do ícone Mais ações.
+1. A regra condicional está associada à variante. Para facilitar a leitura, renomeie a variante selecionando a ação **[!UICONTROL Renomear]** do ícone Mais ações.
 
    ![](assets/conditions-rename.png)
 
@@ -87,7 +87,7 @@ As etapas para criar variantes de um componente de conteúdo no Designer de emai
 1. Adicione quantas variantes forem necessárias para o componente de conteúdo. Você pode alternar a qualquer momento entre as diferentes variantes para verificar como o componente de conteúdo será exibido, dependendo das regras condicionais.
 
    >[!NOTE]
-   >Se nenhuma das regras definidas nas variantes for atendida ao enviar a mensagem, o componente de conteúdo exibirá o conteúdo definido na variável **[!UICONTROL Variante padrão]**.
+   >Se nenhuma das regras definidas nas variantes for atendida ao enviar a mensagem, o componente de conteúdo exibirá o conteúdo definido na **[!UICONTROL Variante padrão]**.
    >
    >O conteúdo condicional será avaliado em relação às regras associadas na ordem em que as variantes forem exibidas. A variante padrão é sempre exibida se nenhuma outra condição for atendida.
 

@@ -20,10 +20,10 @@ ht-degree: 2%
 
 ## Mecanismos de validação {#validation-mechanisms}
 
-No **editor de personalização** , use o **Validar** botão para verificar a sintaxe de personalização.
+Na tela do **editor de personalização**, use o botão **Validar** para verificar sua sintaxe de personalização.
 
 >[!NOTE]
-> A validação é executada automaticamente ao clicar no ícone **Adicionar** botão para fechar a janela do editor.
+> A validação é executada automaticamente quando você clica no botão **Adicionar** para fechar a janela do editor.
 >
 
 ![](assets/perso_validation1.png)
@@ -38,17 +38,17 @@ No **editor de personalização** , use o **Validar** botão para verificar a si
 
 Ao tentar referenciar um campo que não está definido no esquema.
 
-Nesse caso **firstName1** não está definido como atributo no esquema de perfil:
+Nesse caso, **firstName1** não está definido como atributo no esquema de perfil:
 
 ```
 {{profile.person.name.firstName1}}
 ```
 
-* **Incompatibilidade de tipo para a variável &quot;XYZ&quot;. Matriz esperada. Sequência de caracteres encontrada.**
+* **Incompatibilidade de tipo para a variável &quot;XYZ&quot;. Matriz esperada. Cadeia de caracteres encontrada.**
 
 Ao tentar iterar sobre uma cadeia de caracteres em vez de uma matriz:
 
-Nesse caso **produto** não é uma matriz:
+Neste caso, o **produto** não é uma matriz:
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -60,7 +60,7 @@ Nesse caso **produto** não é uma matriz:
 
 Quando a sintaxe de manipuladores inválidos é usada.
 
-Expressões Handlebars são cercadas por **{{expression}}**
+Expressões Handlebars cercadas por **{{expression}}**
 
 ```
    {{[profile.person.name.firstName}}
@@ -85,8 +85,8 @@ A validação é executada durante a validação do conteúdo de personalizaçã
 <table> 
  <thead> 
   <tr> 
-   <th> Título do erro<br /> </th> 
-   <th> Validação/resolução <br /> </th> 
+   <th> Título de erro <br /> </th> 
+   <th> Validação/Resolução <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 

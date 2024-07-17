@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Pesquisar ofertas substitutas {#look-up-fallback-offers}
 
-Você pode pesquisar ofertas substitutas específicas fazendo uma solicitação GET para o [!DNL Offer Library] API que inclui a oferta substituta `@id` ou o nome da oferta substituta no caminho da solicitação.
+Você pode pesquisar ofertas substitutas específicas fazendo uma solicitação GET para a API [!DNL Offer Library] que inclui a oferta substituta `@id` ou o nome da oferta substituta no caminho da solicitação.
 
 **Formato da API**
 
@@ -28,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | `{ENDPOINT_PATH}` | O caminho do endpoint para APIs do repositório. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | O container onde as ofertas substitutas estão localizadas. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | Define o esquema associado às ofertas substitutas. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `id` | Uma string usada para corresponder ao `@id` propriedade das entidades. A string é exatamente igual. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:fallback-offer:122206064e0d98df` |
+| `id` | Uma cadeia de caracteres usada para corresponder à propriedade `@id` das entidades. A string é exatamente igual. Os parâmetros `id` e `name` não podem ser usados juntos. | `xcore:fallback-offer:122206064e0d98df` |
 | `name` | Uma sequência de caracteres usada para corresponder à propriedade xdm:name das entidades. A string é exatamente igual, com maiúsculas e minúsculas, mas caracteres curinga podem ser usados. Os parâmetros `id` e `name` não podem ser usados juntos | `F1: Web fallback` |
 
 **Solicitação**

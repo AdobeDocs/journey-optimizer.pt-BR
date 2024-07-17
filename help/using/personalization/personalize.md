@@ -23,34 +23,34 @@ ht-degree: 35%
 >title="Personalizar experiências"
 >abstract="Use o **Adobe Journey Optimizer** para adaptar as mensagens a cada destinatário, aproveitando seus dados e informações. Esses dados podem ser: nome, interesses, onde vivem, o que compraram etc."
 
-Descobrir [!DNL Adobe Journey Optimizer] recursos de personalização para adaptar suas mensagens a cada recipient específico, aproveitando os dados e as informações que você tem sobre eles. Esses dados podem ser: nome, interesses, onde vivem, o que compraram etc.
+Descubra os recursos de personalização do [!DNL Adobe Journey Optimizer] para adaptar suas mensagens a cada recipient específico, aproveitando os dados e as informações que você tem sobre eles. Esses dados podem ser: nome, interesses, onde vivem, o que compraram etc.
 
-➡️ [Saiba como personalizar uma mensagem nesses vídeos](#video-perso)
-➡️ [Descubra casos de uso que usam a personalização](personalization-use-case.md)
+➡️ [Saiba como personalizar uma mensagem nestes vídeos](#video-perso)
+➡️ [Descobrir casos de uso aproveitando a personalização](personalization-use-case.md)
 
 ## Criar expressões de personalização usando uma sintaxe dedicada {#syntax}
 
-[!DNL Journey Optimizer] usa um **em linha** sintaxe de personalização simples baseada em Handlebars que permite criar expressões com conteúdo delimitado por chaves duplas **{{}}**. É possível adicionar várias expressões no mesmo conteúdo ou campo sem restrições. [Saiba mais sobre a sintaxe de personalização](personalization-syntax.md).
+[!DNL Journey Optimizer] usa uma sintaxe de personalização simples **embutida** com base em Handlebars que permite criar expressões com conteúdo delimitado por chaves duplas **{{}}**. É possível adicionar várias expressões no mesmo conteúdo ou campo sem restrições. [Saiba mais sobre a sintaxe de personalização](personalization-syntax.md).
 
 **Exemplos:**
 
 * `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
 * `Hello {{profile.person.name.fullName}}`
 
-Ao processar a mensagem (email e push), o Journey Optimizer substitui a expressão pelos dados contidos no banco de dados Experience Platform:  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` se torna &quot;Olá, John Doe&quot;.
+Ao processar a mensagem (email e push), o Journey Optimizer substitui a expressão pelos dados contidos no banco de dados Experience Platform: `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` torna-se &quot;Olá, John Doe&quot;.
 
 ## Aproveite os dados do perfil para personalizar suas mensagens {#data}
 
-A personalização é baseada nos dados de perfil gerenciados pelo esquema do **Perfil individual XDM** definido na Adobe Experience Platform. Saiba mais em [Documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
+A personalização é baseada nos dados de perfil gerenciados pelo esquema do **Perfil individual XDM** definido na Adobe Experience Platform. Saiba mais na [documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR){target="_blank"}.
 
 >[!CAUTION]
->A variável **Perfil individual XDM** O esquema é o único esquema que você pode usar para personalizar o conteúdo no [!DNL Journey Optimizer].
+>O esquema **Perfil Individual XDM** é o único esquema que você pode usar para personalizar conteúdo em [!DNL Journey Optimizer].
 
-Além disso, você também pode aproveitar **atributos computados** para personalizar o conteúdo. Os atributos computados são baseados em conjuntos de dados de Evento de experiência habilitados para perfil assimilados na Adobe Experience Platform e servem como pontos de dados agregados armazenados em perfis de clientes que resumem eventos comportamentais individuais [Saiba como trabalhar com atributos computados](../audience/computed-attributes.md)
+Além disso, você também pode aproveitar os **atributos computados** para personalizar seu conteúdo. Os atributos computados são baseados em conjuntos de dados de Evento de experiência habilitados para perfil assimilados na Adobe Experience Platform e servem como pontos de dados agregados armazenados em perfis de clientes que resumem eventos comportamentais individuais [Saiba como trabalhar com atributos computados](../audience/computed-attributes.md)
 
 ## Trabalhar com o editor de personalização {#editor}
 
-[!DNL Journey Optimizer] O fornece um editor de personalização no qual você selecionará, organizará, personalizará e validará todos os dados para criar uma personalização personalizada para o seu conteúdo. Várias ferramentas estão disponíveis para ajudar a criar o conteúdo de personalização, como: funções auxiliares, biblioteca de expressões predefinidas, atributos que favorecem e muito mais.
+O [!DNL Journey Optimizer] fornece um editor de personalização onde você selecionará, organizará, personalizará e validará todos os dados para criar uma personalização personalizada para o seu conteúdo. Várias ferramentas estão disponíveis para ajudar a criar o conteúdo de personalização, como: funções auxiliares, biblioteca de expressões predefinidas, atributos que favorecem e muito mais.
 
 * [Saiba como trabalhar com o editor de personalização](personalization-build-expressions.md)
 * [Saiba onde você pode realizar a personalização](personalization-contexts.md).

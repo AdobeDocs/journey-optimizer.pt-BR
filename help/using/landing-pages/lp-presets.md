@@ -11,7 +11,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 16%
 >title="Criar uma predefinição de página de destino"
 >abstract="Para criar uma página de destino e aproveitá-la no Journey Optimizer, você deve criar uma predefinição de página de destino que inclua o subdomínio a ser usado."
 
-Quando [criação de uma landing page](../landing-pages/create-lp.md#create-a-lp), você deve selecionar uma predefinição de página de aterrissagem para criar a página de aterrissagem e aproveitá-la **[!DNL Journey Optimizer]**.
+Ao [criar uma página de aterrissagem](../landing-pages/create-lp.md#create-a-lp), você deve selecionar uma predefinição de página de aterrissagem para poder criar a página de aterrissagem e aproveitá-la até **[!DNL Journey Optimizer]**.
 
 ## Acessar predefinições de página de destino {#access-lp-presets}
 
 Para acessar as predefinições da página de aterrissagem, siga as etapas abaixo.
 
-1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** menu.
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]**.
 
-1. Selecionar **[!UICONTROL Marcas]** > **[!UICONTROL Predefinições de página de destino]**.
+1. Selecione **[!UICONTROL Marcas]** > **[!UICONTROL Predefinições de página de aterrissagem]**.
 
    ![](assets/lp_presets-access.png)
 
@@ -46,9 +46,9 @@ Para criar uma predefinição de página de aterrissagem, siga as etapas abaixo.
 >
 >Para criar uma predefinição, verifique se você configurou anteriormente pelo menos um subdomínio de página de destino. [Saiba como](lp-subdomains.md)
 
-1. Acesse o **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Marcas]** > **[!UICONTROL Predefinições de página de destino]**.
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Identidade Visual]** > **[!UICONTROL Predefinições de página de aterrissagem]**.
 
-1. Selecionar **[!UICONTROL Criar predefinição de página de destino]**.
+1. Selecione **[!UICONTROL Criar predefinição de página de destino]**.
 
    ![](assets/lp_create-preset-temp.png)
 
@@ -68,7 +68,7 @@ Para criar uma predefinição de página de aterrissagem, siga as etapas abaixo.
 
    As configurações correspondentes ao subdomínio selecionado são exibidas.
 
-1. Se quiser selecionar o subdomínio da página de aterrissagem para o URL de rastreamento, verifique a **[!UICONTROL Igual ao subdomínio da página de destino]** opção. [Saiba mais sobre rastreamento](../email/message-tracking.md)
+1. Se quiser selecionar o subdomínio da página de aterrissagem para a URL de rastreamento, marque a opção **[!UICONTROL Igual ao subdomínio da página de aterrissagem]**. [Saiba mais sobre rastreamento](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
@@ -78,11 +78,11 @@ Para criar uma predefinição de página de aterrissagem, siga as etapas abaixo.
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
-1. Depois que a predefinição de página de aterrissagem é criada, ela é exibida na lista com o **[!UICONTROL Ativo]** status. Ele está pronto para ser usado nas páginas de aterrissagem.
+1. Após criar a predefinição de página de aterrissagem, ela é exibida na lista com o status **[!UICONTROL Ativo]**. Ele está pronto para ser usado nas páginas de aterrissagem.
 
    ![](assets/lp-preset-active-temp.png)
 
-Agora você está pronto para [criar páginas de destino](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
+Agora você está pronto para [criar páginas de aterrissagem](../landing-pages/create-lp.md) em [!DNL Journey Optimizer].
 <!--
 >[!NOTE]
 >

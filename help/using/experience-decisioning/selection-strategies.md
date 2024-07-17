@@ -33,7 +33,7 @@ Uma estratégia de seleção é reutilizável e consiste em uma coleção associ
 
 ## Acessar e gerenciar estratégias de seleção
 
-1. Ir para **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configuração da estratégia]** > **[!UICONTROL Estratégias de seleção]**.
+1. Vá para **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configuração da estratégia]** > **[!UICONTROL Estratégias de seleção]**.
 
 1. Todas as estratégias de seleção criadas até agora estão listadas. Os filtros estão disponíveis para ajudá-lo a recuperar estratégias de acordo com o método de classificação.
 
@@ -49,7 +49,7 @@ Uma estratégia de seleção é reutilizável e consiste em uma coleção associ
 
 Para criar uma estratégia de seleção, siga as etapas abaixo.
 
-1. No **[!UICONTROL Estratégias de seleção]** inventário, clique em **[!UICONTROL Criar estratégia de seleção]**.
+1. No inventário **[!UICONTROL Estratégias de seleção]**, clique em **[!UICONTROL Criar estratégia de seleção]**.
 
    ![](assets/strategy-create-button.png)
 
@@ -57,31 +57,31 @@ Para criar uma estratégia de seleção, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Atualmente, apenas o padrão **[!UICONTROL Ofertas]** catálogo está disponível.
+   >Atualmente, apenas o catálogo padrão **[!UICONTROL Ofertas]** está disponível.
 
 1. Preencha os detalhes para sua estratégia de seleção, começando pelo nome.
 
    ![](assets/strategy-create-screen.png)
 
-1. Selecione o [coleção](collections.md) que contém as ofertas a serem consideradas.
+1. Selecione a [coleção](collections.md) que contém as ofertas a serem consideradas.
 
-1. Use o **[!UICONTROL Elegibilidade]** para restringir a seleção de ofertas para essa estratégia de seleção.
+1. Use o campo **[!UICONTROL Qualificação]** para restringir a seleção de ofertas para esta estratégia de seleção.
 
    ![](assets/strategy-create-eligibility.png)
 
-   * Para restringir a seleção das ofertas aos membros de um público-alvo do Experience Platform, selecione **[!UICONTROL Públicos-alvo]** e escolha um público na lista. [Saiba como trabalhar com públicos](../audience/about-audiences.md)
+   * Para restringir a seleção das ofertas aos membros de um público-alvo Experience Platform, selecione **[!UICONTROL Públicos-alvo]** e escolha um público-alvo na lista. [Saiba como trabalhar com públicos-alvo](../audience/about-audiences.md)
 
-   * Se quiser adicionar uma restrição de seleção com uma regra de decisão, use o **[!UICONTROL Regra de decisão]** e selecione a regra de sua escolha. [Saiba como criar uma regra](rules.md)
+   * Se quiser adicionar uma restrição de seleção com uma regra de decisão, use a opção **[!UICONTROL Regra de decisão]** e selecione a regra de sua escolha. [Saiba como criar uma regra](rules.md)
 
 1. Defina o método de classificação que deseja usar para selecionar a melhor oferta para cada perfil. [Saiba mais](#select-ranking-method)
 
    ![](assets/strategy-create-ranking.png)
 
-   * Por padrão, se várias ofertas forem qualificadas para essa estratégia, a variável [Prioridade da oferta](#offer-priority) O método usa o valor definido nas ofertas.
+   * Por padrão, se várias ofertas estiverem qualificadas para essa estratégia, o método [Offer priority](#offer-priority) usará o valor definido nas ofertas.
 
    * Se quiser usar uma pontuação calculada específica para escolher qual oferta qualificada fornecer, selecione [Fórmula](#ranking-formula) ou [Modelo de IA](#ai-ranking).
 
-1. Clique em **[!UICONTROL Criar]**. Agora ele está pronto para ser usado em um [política de decisão](create-decision.md)
+1. Clique em **[!UICONTROL Criar]**. Agora ele está pronto para ser usado em uma [política de decisão](create-decision.md)
 
 ## Selecionar um método de classificação {#select-ranking-method}
 
@@ -99,22 +99,22 @@ Se várias ofertas estiverem qualificadas para uma determinada estratégia de se
 
 ### Prioridades de ofertas {#offer-priority}
 
-Por padrão, quando várias ofertas são qualificadas para um determinado posicionamento em uma política de decisão, os itens com a maior **prioridade** será entregue aos clientes primeiro.
+Por padrão, quando várias ofertas são qualificadas para um determinado posicionamento em uma política de decisão, os itens com a **prioridade** mais alta são entregues aos clientes primeiro.
 
 ![](assets/item-priority.png)
 
-As pontuações de prioridade de ofertas são atribuídas ao criar um [item de decisão](items.md).
+As pontuações de prioridade das ofertas são atribuídas ao criar um [item de decisão](items.md).
 
 ### Fórmula de classificação {#ranking-formula}
 
 Além da prioridade de oferta, o Journey Optimizer permite criar **fórmulas de classificação**. Essas fórmulas determinam qual oferta deve ser apresentada primeiro para determinada inserção, em vez de considerar as pontuações de prioridade das ofertas.
 
-Por exemplo, você pode aumentar a prioridade de todas as ofertas em que a data de término for inferior a 24 horas a partir de agora ou impulsionar ofertas da categoria &quot;em execução&quot; se o ponto de interesse do perfil for &quot;em execução&quot;. Saiba como criar uma fórmula de classificação no [nesta seção](ranking.md).
+Por exemplo, você pode aumentar a prioridade de todas as ofertas em que a data de término for inferior a 24 horas a partir de agora ou impulsionar ofertas da categoria &quot;em execução&quot; se o ponto de interesse do perfil for &quot;em execução&quot;. Saiba como criar uma fórmula de classificação em [esta seção](ranking.md).
 
 Depois de criada, é possível usar essa fórmula em uma estratégia de seleção. Se várias ofertas estiverem qualificadas para serem apresentadas ao usar essa estratégia de seleção, a decisão usará a fórmula selecionada para calcular qual oferta entregar primeiro.
 
 ### Classificação de IA {#ai-ranking}
 
-Você também pode usar um sistema de modelo treinado que classifica automaticamente as ofertas para exibição em determinado perfil ao selecionar um modelo de IA. Saiba como criar um modelo de IA no [nesta seção](ranking.md).
+Você também pode usar um sistema de modelo treinado que classifica automaticamente as ofertas para exibição em determinado perfil ao selecionar um modelo de IA. Saiba como criar um modelo de IA em [esta seção](ranking.md).
 
 Depois que um modelo de IA é criado, você pode usá-lo em uma estratégia de seleção. Se várias ofertas forem qualificadas, o sistema de modelo treinado determinará qual oferta deve ser apresentada primeiro para essa estratégia de seleção.

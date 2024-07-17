@@ -19,7 +19,7 @@ Funções aritméticas são usadas para realizar cálculos básicos em valores.
 
 ## Add{#add}
 
-A variável `+` (adição) é usada para encontrar a soma de duas expressões de argumento.
+A função `+` (adição) é usada para localizar a soma de duas expressões de argumento.
 
 **Sintaxe**
 
@@ -37,7 +37,7 @@ A operação a seguir soma o preço de dois produtos diferentes.
 
 ## Multiplicar{#multiply}
 
-A variável `*` A função (multiplicação) é usada para encontrar o produto de duas expressões de argumento.
+A função `*` (multiplicação) é usada para localizar o produto de duas expressões de argumento.
 
 **Sintaxe**
 
@@ -55,7 +55,7 @@ A operação a seguir localiza o produto do estoque e o preço de um produto par
 
 ## Subtrair{#substract}
 
-A variável `-` A função (subtração) é usada para encontrar a diferença de duas expressões de argumento.
+A função `-` (subtração) é usada para localizar a diferença de duas expressões de argumento.
 
 **Sintaxe**
 
@@ -73,7 +73,7 @@ A operação a seguir encontra a diferença de preço entre dois produtos difere
 
 ## Divisão{#divide}
 
-A variável `/` A função (divisão) é usada para encontrar o quociente de duas expressões de argumento.
+A função `/` (divisão) é usada para localizar o quociente de duas expressões de argumento.
 
 **Sintaxe**
 
@@ -91,7 +91,7 @@ A operação a seguir encontra o quociente entre o total de produtos vendidos e 
 
 ## Restante{#remainder}
 
-A variável `%` A função (modulo/resto) é usada para encontrar o restante após dividir as duas expressões de argumento.
+A função `%` (módulo/restante) é usada para localizar o restante após dividir as duas expressões de argumento.
 
 **Sintaxe**
 

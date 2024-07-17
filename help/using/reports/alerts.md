@@ -21,27 +21,27 @@ ht-degree: 0%
 
 Quando ocorrer uma falha, você poderá obter alertas do sistema na central de notificações da Journey Optimizer (alertas no aplicativo) e/ou receber um email.
 
-No **Alertas** , é possível exibir os alertas disponíveis e assiná-los. Quando um determinado conjunto de condições em suas operações é atingido (como um problema em potencial quando o sistema ultrapassa um limite), as mensagens de alerta são entregues a todos os usuários em sua organização que se inscreveram neles.
+No menu **Alertas**, você pode exibir os alertas disponíveis e se inscrever neles. Quando um determinado conjunto de condições em suas operações é atingido (como um problema em potencial quando o sistema ultrapassa um limite), as mensagens de alerta são entregues a todos os usuários em sua organização que se inscreveram neles.
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
-Saiba mais sobre alertas no Adobe Experience Platform em [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR){target="_blank"}.
+Saiba mais sobre alertas no Adobe Experience Platform em [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=pt-BR){target="_blank"}.
 
-No menu esquerdo, em **Administração**, clique em **Alertas**. Dois alertas pré-configurados para o Journey Optimizer estão disponíveis: o [Falha na ação personalizada de Jornada](#alert-custom-actions) alerta e o [Falha ao ler o acionador de público-alvo](#alert-read-audiences) alerta. Esses alertas estão detalhados abaixo.
+No menu esquerdo, em **Administração**, clique em **Alertas**. Dois alertas pré-configurados para o Journey Optimizer estão disponíveis: o alerta [Falha na ação personalizada de Jornada](#alert-custom-actions) e o alerta [Falha no acionador de público-alvo de leitura](#alert-read-audiences). Esses alertas estão detalhados abaixo.
 
-É possível assinar cada alerta individualmente na interface do usuário do selecionando o **Assinar** opção no **Alertas** painel. Use o mesmo método para cancelar a inscrição.
+Você pode assinar cada alerta individualmente na interface selecionando a opção **Assinar** no painel **Alertas**. Use o mesmo método para cancelar a inscrição.
 
 ![](assets/alert-subscribe.png)
 
-Também é possível assinar alertas por meio do [Notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer são detalhadas abaixo.
+Você também pode assinar alertas por meio de [notificações de Eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. As regras de alerta são organizadas em diferentes pacotes de assinatura. As assinaturas de evento correspondentes aos alertas específicos do Journey Optimizer são detalhadas abaixo.
 
-Se ocorrer um comportamento inesperado, uma notificação de alerta será enviada aos assinantes. Com base nas preferências do usuário, os alertas são enviados por email e/ou diretamente na central de notificações da Journey Optimizer, no canto superior direito da interface do usuário. Por padrão, somente o alerta no aplicativo está ativado. Para ativar o alerta por email, consulte [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
+Se ocorrer um comportamento inesperado, uma notificação de alerta será enviada aos assinantes. Com base nas preferências do usuário, os alertas são enviados por email e/ou diretamente na central de notificações da Journey Optimizer, no canto superior direito da interface do usuário. Por padrão, somente o alerta no aplicativo está ativado. Para habilitar o alerta por email, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
 
 Quando um alerta é resolvido, os assinantes recebem uma notificação &quot;Resolvido&quot;.
 
 >[!CAUTION]
 >
->Os alertas específicos do Adobe Journey Optimizer se aplicam somente ao **live** jornadas. Os alertas não são acionados para jornadas no modo de teste.
+>Os alertas específicos do Adobe Journey Optimizer se aplicam somente às jornadas **live**. Os alertas não são acionados para jornadas no modo de teste.
 
 ## Falha na ação personalizada de Jornada {#alert-custom-actions}
 
@@ -55,29 +55,29 @@ Os alertas de ações personalizadas são resolvidos quando, nos últimos 5 minu
 
 * ou, nenhum perfil atingiu essa ação personalizada.
 
-O nome de inscrição do evento de E/S correspondente ao alerta de ação personalizada é **Falha na ação personalizada de Jornada**.
+O nome de inscrição do evento de E/S correspondente ao alerta de ação personalizada é **Falha de Ação Personalizada de Jornada**.
 
 ## Falha ao ler o acionador de público-alvo {#alert-read-audiences}
 
-Esse alerta avisará se uma **Ler público-alvo** A atividade não processou nenhum perfil 10 minutos após o horário agendado de execução. Essa falha pode ser causada por problemas técnicos ou porque o público-alvo está vazio.
+Este alerta avisa se uma atividade **Ler público-alvo** não processou nenhum perfil 10 minutos após o horário agendado de execução. Essa falha pode ser causada por problemas técnicos ou porque o público-alvo está vazio.
 
 ![](assets/alerts1.png)
 
-Alertas ativados **Ler público-alvo** as atividades se aplicam somente a jornadas recorrentes. **Ler público-alvo** atividades em jornadas ativas com agendamento para execução **Uma vez** ou **Assim que possível** são ignorados.
+Os alertas sobre atividades de **Ler público-alvo** se aplicam somente a jornadas recorrentes. As atividades de **Ler Público** em jornadas ativas com agendamento para execução de **Uma Vez** ou **Assim que possível** são ignoradas.
 
-Alertas ativados **Ler público-alvo** são resolvidos quando um perfil entra na variável **Ler público-alvo** nó.
+Os alertas em **Ler público-alvo** são resolvidos quando um perfil entra no nó **Ler público-alvo**.
 
-O nome de inscrição do evento de E/S correspondente ao **Falha ao ler o acionador de público-alvo** o alerta é **Atrasos, falhas e erros na leitura de públicos-alvo do Jornada**.
+O nome de inscrição do evento de E/S correspondente ao alerta **Falha no Acionador de Leitura de Público** é **Atrasos, Falhas e Erros de leitura de público-alvo de Jornada**.
 
 ## Solução de problemas {#alert-troubleshooting}
 
-Para solucionar problemas **Ler público-alvo** alertas, verifique a contagem de públicos-alvo na interface Experience Platform.
+Para solucionar problemas de alertas do **Ler público-alvo**, verifique a contagem de públicos-alvo na interface do Experience Platform.
 
 ![](assets/alert-troubleshooting-0.png)
 
 ![](assets/alert-troubleshooting-1.png)
 
-Para solucionar problemas **Ação personalizada** alertas:
+Para solucionar problemas de alertas de **Ação personalizada**:
 
 * Verifique sua ação personalizada usando o modo de teste em outra jornada:
 
@@ -88,4 +88,5 @@ Para solucionar problemas **Ação personalizada** alertas:
   ![](assets/alert-troubleshooting-3.png)
 
 * Verifique stepEvents da jornada para obter mais informações sobre &quot;failureReason&quot;.
-* Verifique a configuração de ação personalizada e valide se a autenticação ainda está OK. Execute uma verificação manual com o Postman, por exemplo.
+* Verifique a configuração de ação personalizada e valide se a autenticação ainda está OK. Executar uma verificação manual com o Postman,
+por exemplo.

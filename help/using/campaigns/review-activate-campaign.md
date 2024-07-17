@@ -12,13 +12,13 @@ exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 # Revisar e ativar uma campanha {#review-activate}
 
-Depois que a campanha é configurada, é necessário revisar o parâmetro e o conteúdo antes de ativá-la. Para fazer isso, siga estas etapas:
+Depois que a campanha é configurada, é necessário revisar o parâmetro e o conteúdo antes de ativá-la. Para fazer isso, siga estes passos:
 
 1. Na tela de configuração da campanha, clique em **[!UICONTROL Revisar para ativar]** para exibir um resumo da campanha.
 
@@ -32,18 +32,18 @@ Depois que a campanha é configurada, é necessário revisar o parâmetro e o co
 
 1. Verifique se a campanha está configurada corretamente e clique em **[!UICONTROL Ativar]**.
 
-1. A campanha agora está ativada. Seu status é **[!UICONTROL Ao vivo]** ou **[!UICONTROL Agendado]** se você tiver inserido uma data de início. [Saiba mais sobre os status das campanhas](get-started-with-campaigns.md#statuses).
+1. A campanha agora está ativada. Seu status é **[!UICONTROL Ativo]** ou **[!UICONTROL Agendado]** se você inseriu uma data de início. [Saiba mais sobre os status das campanhas](get-started-with-campaigns.md#statuses).
 
    A mensagem configurada na campanha é enviada imediatamente ou na data especificada.
 
    >[!NOTE]
    >
-   >A variável **[!UICONTROL Concluído]** O status é atribuído automaticamente a uma campanha três dias após sua ativação ou na data final da campanha, se tiver uma execução recorrente.
+   >O status **[!UICONTROL Concluído]** é atribuído automaticamente a uma campanha 3 dias após sua ativação ou na data final da campanha, se ela tiver uma execução recorrente.
    >
-   >Se nenhuma data final tiver sido especificada, a campanha manterá a **[!UICONTROL Ao vivo]** status. Para alterá-la, é necessário interromper a campanha manualmente. [Saiba como interromper uma campanha](modify-stop-campaign.md)
+   >Se nenhuma data de término for especificada, a campanha manterá o status **[!UICONTROL Ativo]**. Para alterá-la, é necessário interromper a campanha manualmente. [Saiba como interromper uma campanha](modify-stop-campaign.md)
 
 1. Depois que uma campanha é ativada, você pode verificar as informações a qualquer momento abrindo-a. O resumo permite obter estatísticas sobre o número de perfis segmentados e ações entregues e com falha.
 
-   Você também pode obter estatísticas adicionais em relatórios dedicados clicando no link **[!UICONTROL Relatórios]** botão. [Saiba mais](../reports/campaign-global-report.md)
+   Você também pode obter estatísticas adicionais em relatórios dedicados clicando no botão **[!UICONTROL Relatórios]**. [Saiba mais](../reports/campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)

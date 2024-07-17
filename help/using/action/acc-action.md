@@ -12,7 +12,7 @@ exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 15%
 
 Essa integração está disponível para o Adobe Campaign v7/v8 a partir da versão 7.1 e o Adobe Campaign v8. Ela permite enviar emails, notificações por push e SMS usando os recursos de mensagens transacionais do Adobe Campaign.
 
-Um caso de uso completo é apresentado neste [seção](../building-journeys/ajo-ac.md).
+Um caso de uso completo é apresentado nesta [seção](../building-journeys/ajo-ac.md).
 
 Para cada ação configurada, uma atividade de ação está disponível na paleta do designer de jornada. Consulte esta [seção](../building-journeys/using-adobe-campaign-v7-v8.md).
 
@@ -58,7 +58,7 @@ No Adobe Campaign:
 
 ## Pré-requisitos {#prerequisites}
 
-No Campaign, você precisa criar e publicar uma mensagem transacional e seu evento associado. Consulte a [Documentação do Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
+No Campaign, você precisa criar e publicar uma mensagem transacional e seu evento associado. Consulte a [documentação do Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
 
 Você pode criar sua carga JSON correspondente a cada mensagem seguindo o padrão abaixo. Em seguida, você colará essa carga ao configurar a ação no Journey Optimizer (veja abaixo)
 
@@ -75,9 +75,9 @@ Exemplo:
 }
 ```
 
-* **channel**: o canal definido para o template transacional do Campaign
+* **canal**: o canal definido para o modelo transacional do Campaign
 * **eventType**: o nome interno do evento do Campaign
-* **ctx**: variável com base na personalização que você tem na mensagem.
+* **ctx**: variável com base na personalização que você tem em sua mensagem.
 
 ## Configuração da ação {#configure-action}
 
@@ -85,8 +85,8 @@ No Journey Optimizer, é necessário configurar uma ação por mensagem transaci
 
 1. Criar uma nova ação. Consulte esta [seção](../action/action.md).
 1. Insira um nome e uma descrição.
-1. No **Tipo de ação** selecione **Adobe Campaign Classic**.
-1. Clique em **Carga** e cole um exemplo da carga JSON correspondente à mensagem do Campaign. Entre em contato com o Adobe para obter essa carga.
+1. No campo **Tipo de ação**, selecione **Adobe Campaign Classic**.
+1. Clique no campo **Carga** e cole um exemplo da carga JSON correspondente à mensagem do Campaign. Entre em contato com o Adobe para obter essa carga.
 1. Ajuste os diferentes campos para serem estáticos ou variáveis, dependendo se deseja mapeá-los na tela de Jornada. Determinados campos, como parâmetros de canal para campos de endereço de email e personalização (ctx), provavelmente serão definidos como variáveis para mapeamento no contexto da jornada.
 1. Clique em **Salvar**.
 

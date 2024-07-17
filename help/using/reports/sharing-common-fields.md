@@ -26,7 +26,7 @@ Alguns desses campos só estão disponíveis em padrões de processamento espec�
 
 >[!NOTE]
 >
->Saiba mais sobre os atributos de propriedades do jornada [nesta seção](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Saiba mais sobre os atributos de propriedades de jornada [nesta seção](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 
 ## entrada {#entrance-field}

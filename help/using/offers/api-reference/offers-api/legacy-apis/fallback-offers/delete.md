@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # Excluir uma oferta substituta {#delete-fallback-offer}
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma oferta substituta. Somente ofertas substitutas criadas no contêiner de locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para o [!DNL Offer Library] API usando a $id da oferta substituta que você deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma oferta substituta. Somente ofertas substitutas criadas no contêiner de locatário podem ser excluídas. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando a $id da oferta substituta que você deseja excluir.
 
 **Formato da API**
 

@@ -7,13 +7,13 @@ feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: c84c09aac2d888c689591f2517269c88bee0cda6
+exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
+source-git-commit: 19b75282b6f6fbc847805a263126534c9035ad5d
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 0%
 
 ---
-
 
 # Fragmentos personalizáveis {#customizable-fragments}
 
@@ -33,13 +33,13 @@ Para tornar partes de um fragmento visual editáveis, siga estas etapas:
 
 >[!NOTE]
 >
->Campos editáveis podem ser adicionados a **imagem**, **texto** e **botão** componentes. Para **HTML** componentes e campos editáveis são adicionados usando o editor de personalização, semelhante aos fragmentos de expressão. [Saiba como adicionar campo editável em componentes de HTML e fragmentos de expressão](#expression)
+>Campos editáveis podem ser adicionados aos componentes **imagem**, **texto** e **botão**. Para componentes **HTML**, os campos editáveis são adicionados usando o editor de personalização, semelhante aos fragmentos de expressão. [Saiba como adicionar campo editável em componentes de HTML e fragmentos de expressão](#expression)
 
 1. Abra a tela de edição de conteúdo do fragmento.
 
 1. Selecione o componente no fragmento onde deseja configurar campos editáveis.
 
-1. O painel de propriedades do componente é aberto no lado direito. Selecione o **Campos editáveis** e alterne a guia **Ativar edição** opção.
+1. O painel de propriedades do componente é aberto no lado direito. Selecione a guia **Campos editáveis** e alterne a opção **Habilitar edição**.
 
 1. Todos os campos que podem ser editados para o componente selecionado são listados no painel. Os campos disponíveis para edição dependem do tipo de componente selecionado.
 
@@ -59,9 +59,9 @@ Para tornar partes de um fragmento visual editáveis, siga estas etapas:
 
 ## Adicionar campos editáveis em componentes de HTML e fragmentos de expressão {#expression}
 
-Para tornar editáveis partes de um componente de HTML ou de um fragmento de expressão, é necessário usar uma sintaxe específica no editor de expressão. Isso envolve a declaração de um **variável** por um valor padrão que os usuários podem substituir após adicionar o fragmento ao seu conteúdo.
+Para tornar editáveis partes de um componente de HTML ou de um fragmento de expressão, é necessário usar uma sintaxe específica no editor de expressão. Isso envolve declarar uma **variável** com um valor padrão que os usuários podem substituir após adicionar o fragmento ao seu conteúdo.
 
-Por exemplo, suponha que você queira criar um fragmento para adicionar aos emails e permitir que os usuários personalizem uma cor específica usada em locais diferentes, como quadros ou cores de fundo dos botões. Ao criar o fragmento, é necessário declarar uma variável com um **identificador exclusivo**, por exemplo, &quot;cor&quot;, e chame-a nos locais desejados no conteúdo do fragmento, onde essa cor deve ser aplicada. Ao adicionar o fragmento ao conteúdo, os usuários poderão personalizar a cor usada sempre que a variável for referenciada.
+Por exemplo, suponha que você queira criar um fragmento para adicionar aos emails e permitir que os usuários personalizem uma cor específica usada em locais diferentes, como quadros ou cores de fundo dos botões. Ao criar o fragmento, é necessário declarar uma variável com uma **ID exclusiva**, por exemplo, &quot;cor&quot;, e chamá-la nos locais desejados no conteúdo do fragmento onde deseja aplicar essa cor. Ao adicionar o fragmento ao conteúdo, os usuários poderão personalizar a cor usada sempre que a variável for referenciada.
 
 Para componentes HTML, somente elementos específicos podem se tornar campos editáveis. Expanda a seção abaixo para obter mais informações.
 
@@ -81,15 +81,15 @@ Por exemplo, no código abaixo, cada elemento destacado em vermelho pode se torn
 
 Para declarar uma variável e usá-la no fragmento, siga estas etapas:
 
-1. Abra o fragmento de expressão e edite o conteúdo no editor de personalização. Para componentes de HTML, selecione o componente no fragmento e clique no **Mostrar o código-fonte** botão.
+1. Abra o fragmento de expressão e edite o conteúdo no editor de personalização. Para componentes de HTML, selecione o componente no fragmento e clique no botão **Mostrar o código-fonte**.
 
    ![](assets/fragment-html-edit.png)
 
-1. Declarar a variável que você deseja que os usuários editem. Navegue até a **Funções auxiliares** no painel de navegação esquerdo e adicione a **em linha** função auxiliar. A sintaxe a ser declarada e chamada para a variável é adicionada automaticamente no conteúdo.
+1. Declarar a variável que você deseja que os usuários editem. Navegue até o menu **Funções auxiliares** no painel de navegação esquerdo e adicione a função auxiliar **embutida**. A sintaxe a ser declarada e chamada para a variável é adicionada automaticamente no conteúdo.
 
    ![](assets/fragment-add-helper.png)
 
-1. Substituir `"name"` com uma ID exclusiva para identificar o campo editável.
+1. Substitua `"name"` por uma ID exclusiva para identificar o campo editável.
 
    >[!NOTE]
    >
@@ -100,11 +100,11 @@ Para declarar uma variável e usá-la no fragmento, siga estas etapas:
    | Ação | Parâmetro | Exemplo |
    | ------- | ------- | ------- |
    | Declarar um campo editável com um **valor padrão**. Ao adicionar o fragmento ao conteúdo, esse valor padrão será usado se você não personalizá-lo. | Adicione o valor padrão entre as tags em linha. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
-   | Definir um **rótulo** para o campo editável. Esse rótulo será exibido no Designer de email ao editar os campos do fragmento. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
-   | Declarar um campo editável contendo um **Image source** que precisa ser publicado. | `assetType="image"` | `{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}` |
-   | Declarar um campo editável contendo um **URL** que precisa ser rastreado.<br/>Observe que os blocos predefinidos prontos para uso &quot;Mirror page URL&quot; e &quot;Unsubscribe link&quot; não podem se tornar campos editáveis. | `assetType="url"` | `{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}` |
+   | Defina um **rótulo** para o campo editável. Esse rótulo será exibido no Designer de email ao editar os campos do fragmento. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
+   | Declare um campo editável contendo uma **origem da imagem** que precisa ser publicada. | `assetType="image"` | `{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}` |
+   | Declarar um campo editável contendo um **URL** que precisa ser rastreado.<br/>Observe que os blocos predefinidos de &quot;URL da mirror page&quot; e &quot;Cancelar inscrição do link&quot; não podem se tornar campos editáveis. | `assetType="url"` | `{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}` |
 
-1. Use o `{{{name}}}` sintaxe no código em todos os locais onde deseja exibir o valor do campo editável. Substituir `name` com a ID exclusiva do campo definida anteriormente.
+1. Use a sintaxe `{{{name}}}` no código em todos os locais onde deseja exibir o valor do campo editável. Substitua `name` pela ID exclusiva do campo definido anteriormente.
 
    ![](assets/fragment-call-variable.png)
 
@@ -118,7 +118,7 @@ Ao adicionar o fragmento ao conteúdo de email, os usuários agora podem substit
 
 ## Exemplo de fragmento de expressão editável {#example}
 
-No exemplo abaixo, estamos criando um fragmento de expressão que apresenta novas coleções de esportes. Por padrão, o fragmento exibe este conteúdo: *Procurando mais? Não perca nossa mais recente coleção de esportes!*
+No exemplo abaixo, estamos criando um fragmento de expressão que apresenta novas coleções de esportes. Por padrão, o fragmento exibe este conteúdo: *Procurando mais? Não perca nossa última coleção de esportes!*
 
 Queremos permitir que os usuários substituam &quot;esportes&quot; nesse conteúdo pelo esporte de sua escolha. Por exemplo: *Procurando mais? Não perca nossa última coleção de ioga!*
 
@@ -126,9 +126,9 @@ Para fazer isso:
 
 1. Declarar uma variável &quot;sport&quot; com a ID &quot;sport&quot;.
 
-   Por padrão, se os usuários não alterarem o valor da variável depois de adicionar o fragmento ao conteúdo, ele mostrará o valor definido entre as variáveis `{{#inline}}` e `{{/inline}}` tags, ou seja, &quot;esportes&quot;.
+   Por padrão, se os usuários não alterarem o valor da variável depois de adicionar o fragmento em seu conteúdo, ele mostrará o valor definido entre as tags `{{#inline}}` e `{{/inline}}`, ou seja, &quot;esportes&quot;.
 
-1. Adicione o ``{{{sport}}}`` no conteúdo do fragmento, onde você deseja exibir o valor da variável, ou seja, &quot;esportes&quot; por padrão ou o valor escolhido pelos usuários.
+1. Adicione a sintaxe ``{{{sport}}}`` no conteúdo do fragmento em que deseja exibir o valor da variável, ou seja, &quot;esportes&quot; por padrão ou o valor escolhido pelos usuários.
 
    ![](assets/fragment-expression-custom.png)
 

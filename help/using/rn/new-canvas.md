@@ -17,10 +17,10 @@ ht-degree: 2%
 
 # Damos as boas-vindas ao Designer de jornada aprimorado {#new-canvas}
 
-O Journey Optimizer agora oferece uma **modelo de jornada simplificado** que visa melhorar a experiência do usuário e os processos internos. A partir da versão de abril, você poderá se beneficiar dos seguintes recursos:
+O Journey Optimizer agora oferece um **modelo de jornada simplificado** que visa melhorar a experiência do usuário e os processos internos. A partir da versão de abril, você poderá se beneficiar dos seguintes recursos:
 
-* A **tela de jornada recriada** criado para uma experiência de interface modernizada
-* A **relatórios ao vivo** Interface do usuário diretamente disponível na tela de jornada
+* Uma **tela de jornada reprojetada** para uma experiência de interface do usuário modernizada
+* Uma interface de usuário do **live reporting** diretamente disponível na tela de jornada
 
 >[!NOTE]
 >
@@ -33,25 +33,25 @@ O novo modelo de jornada conterá o existente, o que significa que haverá jorna
 * O modelo herdado
 * O novo modelo
 
-Todas as jornadas no modelo herdado permanecerão nele. Você ainda poderá editá-los, testá-los ou publicá-los. Qualquer nova versão criada de uma jornada no modelo herdado também permanecerá nela. Há **nenhuma alteração funcional** ao redor dessas jornadas.
+Todas as jornadas no modelo herdado permanecerão nele. Você ainda poderá editá-los, testá-los ou publicá-los. Qualquer nova versão criada de uma jornada no modelo herdado também permanecerá nela. Não há **alterações funcionais** entre essas jornadas.
 
 Como você vê na captura de tela abaixo, os nós são em forma de rodada, que é a interface antiga para jornadas no modelo herdado.
 
 ![](assets/new-canvas.png)
 
-No entanto, quando você **criar uma nova jornada** ou **duplicar um existente**, estará no novo modelo. As jornadas no modelo herdado ainda serão compatíveis até que a maioria dos clientes faça a transição para o novo.
+No entanto, quando você **criar uma nova jornada** ou **duplicar uma existente**, ela estará no novo modelo. As jornadas no modelo herdado ainda serão compatíveis até que a maioria dos clientes faça a transição para o novo.
 
-Há uma limitação para o novo modelo de jornada; ela **não será possível copiar e colar atividades do modelo herdado para o novo e vice-versa**. Se desejar fazer isso, recomendamos que você duplique sua jornada herdada para alterná-la para o novo modelo e, em seguida, copie suas atividades.
+Há uma limitação para o novo modelo de jornada; **não será possível copiar e colar atividades do modelo herdado para o novo e vice-versa**. Se desejar fazer isso, recomendamos que você duplique sua jornada herdada para alterná-la para o novo modelo e, em seguida, copie suas atividades.
 
 Na captura de tela abaixo, é possível ver a interface do usuário reprojetada para a tela de jornada (disponível somente com o novo modelo):
 
 ![](assets/new-canvas2.png)
 
-**Qualquer novo recurso adicionado ao designer da jornada (incluindo relatórios em tempo real) só estará disponível para jornadas no novo modelo a partir de agora.**
+**Qualquer novo recurso adicionado ao designer do jornada (incluindo relatórios ao vivo) só estará disponível para jornadas no novo modelo a partir de agora.**
 
 ## Aprimoramento do design da tela de jornada
 
-Com o novo modelo de jornada, estamos introduzindo um novo e aprimorado **Interface do usuário da tela de jornada**, que se encaixa perfeitamente no ecossistema de soluções e aplicativos da Adobe Experience Cloud, proporcionando uma experiência do usuário intuitiva e eficiente. Qualquer jornada no novo modelo estará nesse novo design.
+Com o novo modelo do jornada, estamos introduzindo uma nova e aprimorada **interface do usuário da tela do jornada**, que se encaixa perfeitamente no ecossistema de aplicativos e soluções da Adobe Experience Cloud, proporcionando uma experiência do usuário intuitiva e eficiente. Qualquer jornada no novo modelo estará nesse novo design.
 
 ![](assets/new-canvas3.gif)
 
@@ -62,7 +62,7 @@ As atividades agora serão representadas por caixas quadradas com os seguintes r
 
 ![](assets/new-canvas4.png)
 
-Essa nova interface melhora a legibilidade da tela de jornada ao fornecer **rótulos e tipos de atividades mais claros**.
+Esta nova interface melhora a legibilidade da tela de jornada ao fornecer **rótulos e tipos de atividades mais claros**.
 
 Também permite que a equipe de produtos adicione mais informações à tela com menos cliques. Um exemplo de &quot;mais informações&quot; seria a inclusão de relatórios ao vivo na tela de jornada, onde é possível ver os perfis que entram e saem das atividades devido a erros.
 
@@ -70,7 +70,7 @@ Também permite que a equipe de produtos adicione mais informações à tela com
 
 ## Relatórios ao vivo na tela de jornada
 
-Além do layout aprimorado da tela de jornada, um novo recurso está sendo introduzido para permitir que os usuários visualizem métricas de relatórios em tempo real do **as últimas 24 horas**, chamado de relatórios em tempo real, diretamente na tela de jornada.
+Além do layout aprimorado da tela de jornada, um novo recurso está sendo introduzido para permitir que os usuários visualizem métricas de relatórios em tempo real das **últimas 24 horas**, chamadas de relatórios em tempo real, diretamente na tela de jornada.
 
 Para cada atividade em cada jornada ativa usando o novo modelo, você tem acesso a:
 

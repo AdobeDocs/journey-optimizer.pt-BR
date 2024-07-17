@@ -24,11 +24,11 @@ As regras condicionais são criadas usando o editor de personalização e podem 
 
 >[!NOTE]
 >
->Os indivíduos precisarão da [Gerenciar itens de biblioteca](../administration/ootb-product-profiles.md) permissão para salvar ou excluir regras condicionais. As condições salvas estão disponíveis para uso por todos os usuários em uma organização.
+>As pessoas precisarão da permissão [Gerenciar itens de biblioteca](../administration/ootb-product-profiles.md) para salvar ou excluir regras condicionais. As condições salvas estão disponíveis para uso por todos os usuários em uma organização.
 
 ## Acessar o construtor de regras condicionais {#access}
 
-Regras condicionais são criadas a partir do **[!UICONTROL Condições]** no editor de personalização, que pode ser acessado:
+As regras condicionais são criadas no menu **[!UICONTROL Condições]**, no editor de personalização, que pode ser acessado:
 
 * No Designer de email, ao ativar o conteúdo dinâmico para um componente no corpo do email. [Saiba como adicionar conteúdo dinâmico a emails](dynamic-content.md#emails)
 
@@ -52,7 +52,7 @@ Regras condicionais são criadas a partir do **[!UICONTROL Condições]** no edi
 
 As etapas para criar uma regra condicional são as seguintes:
 
-1. Acesse o **[!UICONTROL Condições]** no editor de personalização ou no Designer de email e, em seguida, clique em **[!UICONTROL Criar novo]**.
+1. Acesse o menu **[!UICONTROL Condições]** do editor de personalização ou do Designer de email e clique em **[!UICONTROL Criar novo]**.
 
 1. Crie a regra condicional de acordo com suas necessidades. Para fazer isso, arraste e solte e organize os atributos desejados do menu esquerdo na tela de desenho.
 
@@ -63,10 +63,10 @@ As etapas para combinar atributos na tela são semelhantes à experiência de co
     Os atributos são organizados em três guias:
     
     * **[!UICONTROL Perfil]**:
-    * **[!UICONTROL Públicos-alvo]** lista todos os atributos de público (ou seja, status, versão etc.) para o [serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
+    * **[!UICONTROL Públicos-alvo]** lista todos os atributos de público-alvo (por exemplo, status, versão etc.) para o [serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
     * **[!UICONTROL Perfis individuais XDM]** lista todos os atributos de perfil associados ao esquema [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) definido no Adobe Experience Platform.
-    * **[!UICONTROL Contextual]**: quando a mensagem é usada em uma jornada, os campos de jornada contextual ficam disponíveis por meio dessa guia.
-    * **[!UICONTROL Públicos-alvo]**: lista todos os públicos-alvo gerados a partir das definições de segmento criadas no [serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+    * **[!UICONTROL Contextual]**: quando a mensagem é usada em uma jornada, os campos de jornada contextual ficam disponíveis por meio desta guia.
+    * **[!UICONTROL Públicos-alvo]**: lista todos os públicos-alvo gerados pelas definições de segmento criadas no [serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 1. Quando a regra condicional estiver pronta, você poderá adicioná-la à mensagem para criar conteúdo dinâmico. [Saiba como adicionar conteúdo dinâmico](dynamic-content.md)
 
@@ -80,7 +80,7 @@ Se houver regras de condição que serão reutilizadas com frequência, salve-as
 >
 >Regras condicionais que usam atributos contextuais do jornada não podem ser salvas na biblioteca.
 
-1. Na tela de edição de condição, clique na guia **[!UICONTROL Salvar condição]** botão.
+1. Na tela de edição de condição, clique no botão **[!UICONTROL Salvar condição]**.
 
 1. Dê um nome e uma descrição (opcional) à regra e clique em **[!UICONTROL Adicionar]**.
 

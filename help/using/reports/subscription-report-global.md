@@ -24,22 +24,22 @@ ht-degree: 19%
 
 Os relatórios globais, acessíveis na guia Todos os tempos, exibem eventos que ocorreram pelo menos duas horas atrás e abordam eventos em um período selecionado. Em comparação, os Relatórios em tempo real focalizam eventos que ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos a partir da ocorrência do evento.
 
-Para acessar seus relatórios, clique no link **[!UICONTROL Relatório]** ícone da lista de assinaturas selecionada.
+Para acessar seus relatórios, clique no ícone **[!UICONTROL Relatório]** da lista de assinaturas selecionada.
 
 ![](assets/subscription_report_7.png)
 
-A assinatura **[!UICONTROL Relatório global]** O é dividido em diferentes widgets detalhando suas assinaturas e unsubscriptions. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte este [seção](global-report.md).
+O **[!UICONTROL Relatório global]** da assinatura está dividido em widgets diferentes detalhando suas assinaturas e unsubscriptions. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte esta [seção](global-report.md).
 
 ![](assets/subscription_report_1.png)
 
-A variável **[!UICONTROL Desempenho da assinatura]** Os KPIs e o **[!UICONTROL Assinaturas por jornada]**/**[!UICONTROL Cancelamentos de assinatura por jornada]** as tabelas detalham as principais informações relativas ao engajamento dos visitantes com a página de aterrissagem. As tabelas e os KPIs contêm os dados disponíveis relacionados à sua página de aterrissagem, como:
+Os KPIs de **[!UICONTROL Desempenho da assinatura]** e as tabelas de **[!UICONTROL Assinaturas por jornada]**/**[!UICONTROL Cancelamentos de assinatura por jornada]** detalham as principais informações relativas ao envolvimento dos visitantes com a página de aterrissagem. As tabelas e os KPIs contêm os dados disponíveis relacionados à sua página de aterrissagem, como:
 
-* **[!UICONTROL Inscreve]**: número total de subscrições do período relacionado.
+* **[!UICONTROL Assinaturas]**: número total de assinaturas do período relacionado.
 
-* **[!UICONTROL Cancelamentos de assinatura]**: número total de cancelamentos de subscrições do período relacionado.
+* **[!UICONTROL Cancelamentos de assinatura]**: número total de cancelamentos de assinatura do período relacionado.
 
-A variável **[!UICONTROL Desempenho da assinatura]** o gráfico mostra a evolução das subscrições para o período relacionado.
+O gráfico de **[!UICONTROL Desempenho da assinatura]** mostra a evolução das assinaturas para o período relacionado.
 
 ![](assets/subscription_report_2.png)
 
-A variável **Assinaturas - Detalhamento** e **Cancelamentos de assinatura - Detalhamento** representa o número total de pessoas que fizeram assinatura ou cancelaram assinatura durante o período selecionado, dependendo das mensagens, páginas de aterrissagem e canais.
+As **Assinaturas - Detalhamento** e **Cancelamentos de Assinatura - Detalhamento** representam o número total de pessoas que fizeram assinatura ou cancelaram assinatura no período selecionado, dependendo das mensagens, das páginas de aterrissagem e dos canais.

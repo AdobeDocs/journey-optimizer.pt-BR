@@ -19,7 +19,7 @@ ht-degree: 17%
 
 # Personalizar configurações de superfície de email {#surface-personalization}
 
-Para obter mais flexibilidade e controle sobre as configurações de email, [!DNL Journey Optimizer] permite definir valores personalizados para subdomínios e cabeçalhos<!--and URL tracking parameters--> ao criar superfícies de email.
+Para aumentar a flexibilidade e o controle sobre suas configurações de email, o [!DNL Journey Optimizer] permite que você defina valores personalizados para subdomínios e cabeçalhos<!--and URL tracking parameters--> ao criar superfícies de email.
 
 >[!AVAILABILITY]
 >
@@ -55,15 +55,15 @@ Para definir subdomínios dinâmicos em uma superfície de canal de email, siga 
 
 1. Crie uma superfície de canal. [Saiba como](../configuration/channel-surfaces.md)
 
-1. Selecione o **[!UICONTROL E-mail]** canal.
+1. Selecione o canal de **[!UICONTROL Email]**.
 
-1. No **Subdomínio** habilite a opção **[!UICONTROL Subdomínio dinâmico]** opção.
+1. Na seção **Subdomínio**, habilite a opção **[!UICONTROL Subdomínio Dinâmico]**.
 
    ![](assets/surface-email-dynamic-subdomain.png)
 
-1. Selecione o ícone Editar ao lado do primeiro **[!UICONTROL Condição]** campo.
+1. Selecione o ícone Editar ao lado do primeiro campo **[!UICONTROL Condição]**.
 
-1. A variável [editor de personalização](../personalization/personalization-build-expressions.md) é aberto. Neste exemplo, defina uma condição como `Country` igual a `US`.
+1. O [editor de personalização](../personalization/personalization-build-expressions.md) se abre. Neste exemplo, defina uma condição como `Country` igual a `US`.
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -71,7 +71,7 @@ Para definir subdomínios dinâmicos em uma superfície de canal de email, siga 
 
    >[!NOTE]
    >
-   >Determinados subdomínios não estão disponíveis para seleção no momento devido a [loop de comentários](../reports/deliverability.md#feedback-loops) registro. Esse processo pode demorar até 10 dias úteis. Após a conclusão, você pode escolher entre todos os subdomínios disponíveis. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >Determinados subdomínios não estão disponíveis para seleção no momento devido ao [loop de comentários](../reports/deliverability.md#feedback-loops) pendente. Esse processo pode demorar até 10 dias úteis. Após a conclusão, você pode escolher entre todos os subdomínios disponíveis. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
@@ -83,31 +83,31 @@ Para definir subdomínios dinâmicos em uma superfície de canal de email, siga 
 
    <!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
 
-1. Definir todos os outros [configurações de email](email-settings.md) e [enviar](../configuration/channel-surfaces.md#create-channel-surface) sua superfície.
+1. Defina todas as outras [configurações de email](email-settings.md) e [envie](../configuration/channel-surfaces.md#create-channel-surface) sua superfície.
 
 Depois de adicionar um ou mais subdomínios dinâmicos a uma superfície, os seguintes itens serão preenchidos com base no subdomínio dinâmico resolvido para essa superfície:
 
 * Todos os URLs (URL de recurso, URL de mirror page e URL de rastreamento)
 
-* A variável [cancelar inscrição do URL](email-settings.md#list-unsubscribe)
+* A [URL de cancelamento de inscrição](email-settings.md#list-unsubscribe)
 
-* A variável **Do email** e **Email de erro** sufixos
+* Os sufixos **Do email** e **Email de erro**
 
 >[!NOTE]
 >
->Se você configurar subdomínios dinâmicos e desativar o **[!UICONTROL Subdomínio dinâmico]** todos os valores dinâmicos são removidos. Selecione um subdomínio e envie a superfície para que as alterações entrem em vigor.
+>Se você configurar subdomínios dinâmicos e desabilitar a opção **[!UICONTROL Subdomínio dinâmico]**, todos os valores dinâmicos serão removidos. Selecione um subdomínio e envie a superfície para que as alterações entrem em vigor.
 
 ## Personalizar o cabeçalho {#personalize-header}
 
 Você também pode usar a personalização para todos os parâmetros de cabeçalho definidos em uma superfície.
 
-Por exemplo, se você tiver várias marcas, poderá criar uma única superfície e usar valores personalizados para seus cabeçalhos de email. Isso permite garantir que todos os emails enviados de suas diferentes marcas sejam endereçados a cada um de seus clientes com o endereço correto **De** nomes e emails. Da mesma forma, quando seus destinatários atingem o **Responder** no software cliente de email, você deseja que o **Responder para** os nomes e e-mails correspondem à marca correta para o usuário correto.
+Por exemplo, se você tiver várias marcas, poderá criar uma única superfície e usar valores personalizados para seus cabeçalhos de email. Isso permite que você verifique se todos os emails enviados de suas diferentes marcas são endereçados a cada um de seus clientes com os nomes e emails **De** corretos. Da mesma forma, quando os destinatários pressionam o botão **Responder** no software cliente de email, você deseja que os nomes e emails de **Responder para** correspondam à marca correta para o usuário correto.
 
 Para usar variáveis personalizadas para seus parâmetros de cabeçalho de superfície, siga as etapas abaixo.
 
 >[!NOTE]
 >
->Você pode personalizar tudo **[!UICONTROL Parâmetros de cabeçalho]** campos, exceto o **[!UICONTROL Prefixo de email de erro]** campo.
+>Você pode personalizar todos os campos de **[!UICONTROL Parâmetros de cabeçalho]**, exceto o campo **[!UICONTROL Prefixo de email de erro]**.
 
 
 1. Defina os parâmetros do cabeçalho como faria normalmente. [Saiba como](email-settings.md#email-header)
@@ -116,7 +116,7 @@ Para usar variáveis personalizadas para seus parâmetros de cabeçalho de super
 
    ![](assets/surface-email-personalize-header.png)
 
-1. A variável [editor de personalização](../personalization/personalization-build-expressions.md) é aberto. Defina sua condição como desejado e salve as alterações.
+1. O [editor de personalização](../personalization/personalization-build-expressions.md) se abre. Defina sua condição como desejado e salve as alterações.
 
    Por exemplo, defina uma condição para que cada recipient receba um email do representante de sua própria marca.
 
@@ -128,7 +128,7 @@ Para usar variáveis personalizadas para seus parâmetros de cabeçalho de super
 
 >[!NOTE]
 >
->Se você tiver adicionado um ou mais subdomínios dinâmicos à superfície, a variável **Do email** e **Email de erro** os sufixos serão preenchidos com base na variável [subdomínio dinâmico](#dynamic-subdomains).
+>Se você tiver adicionado um ou mais subdomínios dinâmicos à sua superfície, os sufixos **Do email** e **Email de erro** serão preenchidos com base no [subdomínio dinâmico](#dynamic-subdomains) resolvido.
 
 <!--
 ## Use personalized URL tracking {#personalize-url-tracking}
@@ -146,20 +146,20 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 Ao usar uma superfície com configurações personalizadas em uma campanha ou superfície, você pode exibir os detalhes da superfície diretamente na campanha ou superfície. Siga as etapas abaixo.
 
-1. Criar um email [campaign](../campaigns/create-campaign.md) ou [jornada](../building-journeys/journey-gs.md).
+1. Crie um email [campanha](../campaigns/create-campaign.md) ou [jornada](../building-journeys/journey-gs.md).
 
-1. Selecione o **[!UICONTROL Editar conteúdo]** botão.
+1. Selecione o botão **[!UICONTROL Editar conteúdo]**.
 
-1. Clique em **[!UICONTROL Exibir detalhes da superfície]** botão.
+1. Clique no botão **[!UICONTROL Exibir detalhes da superfície]**.
 
    ![](assets/campaign-view-surface-details.png)
 
-1. A variável **[!UICONTROL Configurações de entrega]** é exibida. Você pode exibir todas as configurações da superfície, incluindo os subdomínios dinâmicos e os parâmetros de cabeçalho personalizados.
+1. A janela **[!UICONTROL Configurações de entrega]** é exibida. Você pode exibir todas as configurações da superfície, incluindo os subdomínios dinâmicos e os parâmetros de cabeçalho personalizados.
 
    >[!NOTE]
    >
    >Todas as informações nesta tela são somente leitura.
 
-1. Selecionar **[!UICONTROL Expandir]** para exibir os detalhes dos subdomínios dinâmicos.
+1. Selecione **[!UICONTROL Expandir]** para exibir os detalhes dos subdomínios dinâmicos.
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)

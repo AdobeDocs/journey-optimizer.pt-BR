@@ -18,16 +18,16 @@ ht-degree: 3%
 
 # Etapas adicionais para enviar eventos {#additional-steps-to-send-events}
 
-Para configurar eventos a serem enviados para o **[!UICONTROL APIs de assimilação de fluxo]** e para serem utilizados em [!DNL Journey Optimizer], é necessário seguir estas etapas:
+Para configurar eventos a serem enviados para **[!UICONTROL APIs de assimilação de streaming]** e para serem usados em [!DNL Journey Optimizer], é necessário seguir estas etapas:
 
-1. Obtenha o URL de entrada das APIs do Adobe Experience Platform. Saiba mais em [Visão geral das APIs de assimilação de fluxo](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=pt-BR){target="_blank"}.
-1. Copie o conteúdo da pré-visualização de carga no **[!UICONTROL Evento]** menu. Saiba mais [nesta página](../event/about-creating.md#define-the-payload-fields).
+1. Obtenha o URL de entrada das APIs do Adobe Experience Platform. Saiba mais em [Visão geral das APIs de assimilação de streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=pt-BR){target="_blank"}.
+1. Copie a carga da visualização de carga no menu **[!UICONTROL Evento]**. Saiba mais [nesta página](../event/about-creating.md#define-the-payload-fields).
 
 Em seguida, é necessário configurar o sistema de dados que envia eventos para as APIs de assimilação de streaming usando a carga útil copiada:
 
 1. Configure uma chamada de API POST para o URL das APIs de assimilação de streaming (chamada de entrada).
-1. Usar a carga copiada do [!DNL Journey Optimizer] no corpo (&quot;seção de dados&quot;) da chamada da API para as APIs de assimilação de streaming. Veja um exemplo abaixo
-1. Determine onde obter todas as variáveis presentes na carga. Exemplo: se o evento deve transmitir o endereço, a carga colada mostrará &quot;address&quot;: &quot;string&quot;. &quot;string&quot; deve ser substituída pela variável que preencherá automaticamente o valor correto, o email da pessoa para a qual enviar uma mensagem. Observe que na pré-visualização de carga, no campo **[!UICONTROL Cabeçalho]** preenchemos automaticamente muitos valores para facilitar o trabalho.
+1. Use a carga copiada de [!DNL Journey Optimizer] no corpo (&quot;seção de dados&quot;) da chamada da API para as APIs de assimilação de fluxo. Veja um exemplo abaixo
+1. Determine onde obter todas as variáveis presentes na carga. Exemplo: se o evento deve transmitir o endereço, a carga colada mostrará &quot;address&quot;: &quot;string&quot;. &quot;string&quot; deve ser substituída pela variável que preencherá automaticamente o valor correto, o email da pessoa para a qual enviar uma mensagem. Observe que na pré-visualização de carga, na seção **[!UICONTROL Cabeçalho]**, preenchemos automaticamente muitos valores esperados para facilitar seu trabalho.
 1. Selecione &quot;application/json&quot; como um tipo de corpo.
 1. Passe a ID da organização no cabeçalho usando a chave &quot;x-gw-ims-org-id&quot;. No valor, use a ID da organização (&quot;XXX@AdobeOrg&quot;).
 
@@ -88,6 +88,6 @@ Este é um exemplo de um evento de APIs de assimilação de fluxo:
 }
 ```
 
-Para facilitar a identificação do local onde colar a parte de &quot;dados&quot;, você pode usar uma ferramenta de visualização JSON, como [Formatador JSON](https://jsonformatter.curiousconcept.com){target="_blank"}.
+Para facilitar a identificação do local onde colar a parte de &quot;dados&quot;, você pode usar uma ferramenta de visualização JSON, como o [formatador JSON](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-Para solucionar problemas de APIs de assimilação de fluxo, consulte [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.
+Para solucionar problemas de APIs de assimilação de streaming, consulte a [documentação de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.

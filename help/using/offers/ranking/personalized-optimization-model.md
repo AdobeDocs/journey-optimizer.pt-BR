@@ -28,8 +28,8 @@ Para maximizar a vantagem de usar a personalização automática, há algumas su
 
 * **As ofertas são diferentes o suficiente para que os usuários tenham preferências diferentes entre as ofertas em consideração**. Se as ofertas forem muito semelhantes, um modelo resultante terá menos impacto, pois as respostas são aparentemente aleatórias.
 Por exemplo, se um banco tiver duas ofertas de cartões de crédito com a única diferença sendo a cor, pode não importar qual cartão é recomendado, mas se cada cartão tiver termos diferentes, isso fornece uma explicação para por que determinados clientes escolheriam um e forneceriam diferença suficiente entre as ofertas para criar um modelo mais impactante.
-* **A composição do tráfego do usuário é estável**. Se a composição do tráfego do usuário mudar drasticamente durante o treinamento e a previsão do modelo, o desempenho do modelo poderá diminuir. Por exemplo, suponha que, na fase de treinamento do modelo, apenas os dados para usuários no público-alvo A estejam disponíveis, mas o modelo treinado seja usado para gerar previsões para usuários no público-alvo B, então o desempenho do modelo pode ser afetado.
-* **Os desempenhos das ofertas não mudam drasticamente em um curto período** à medida que esse modelo é atualizado semanalmente e as alterações no desempenho são transmitidas como atualizações do modelo. Por exemplo, um produto era muito popular antes, mas um relatório público identifica o produto como prejudicial à nossa saúde, e esse produto se torna impopular extremamente rápido. Nesse cenário, o modelo pode continuar a prever esse produto até que o modelo seja atualizado com alterações no comportamento do usuário.
+* **A composição do tráfego de usuário está estável**. Se a composição do tráfego do usuário mudar drasticamente durante o treinamento e a previsão do modelo, o desempenho do modelo poderá diminuir. Por exemplo, suponha que, na fase de treinamento do modelo, apenas os dados para usuários no público-alvo A estejam disponíveis, mas o modelo treinado seja usado para gerar previsões para usuários no público-alvo B, então o desempenho do modelo pode ser afetado.
+* **O desempenho das ofertas não é alterado drasticamente em um curto período**, pois esse modelo é atualizado semanalmente e as alterações no desempenho são transmitidas como as atualizações do modelo. Por exemplo, um produto era muito popular antes, mas um relatório público identifica o produto como prejudicial à nossa saúde, e esse produto se torna impopular extremamente rápido. Nesse cenário, o modelo pode continuar a prever esse produto até que o modelo seja atualizado com alterações no comportamento do usuário.
 
 ## Como funciona {#how}
 
@@ -45,8 +45,8 @@ Há três tipos de recursos:
 
 O modelo tem duas fases:
 
-* No **treinamento de modelo offline** fase, um modelo é treinado ao aprender e memorizar interações de recursos em dados históricos.
-* No **inferência online** , as ofertas de candidatos são classificadas com base nas pontuações em tempo real geradas pelo modelo. Ao contrário das técnicas tradicionais de filtragem colaborativa, que é difícil incluir recursos para usuários e ofertas, a personalização automática é um método de recomendação baseado em deep learning e é capaz de incluir e aprender padrões de interação de recursos complexos e não lineares.
+* Na fase **treinamento de modelo offline**, um modelo é treinado ao aprender e memorizar interações de recursos em dados históricos.
+* Na fase **inferência online**, as ofertas de candidatos são classificadas com base nas pontuações em tempo real geradas pelo modelo. Ao contrário das técnicas tradicionais de filtragem colaborativa, que é difícil incluir recursos para usuários e ofertas, a personalização automática é um método de recomendação baseado em deep learning e é capaz de incluir e aprender padrões de interação de recursos complexos e não lineares.
 
 Este é um exemplo simplificado para ilustrar a ideia básica por trás da personalização automática. Suponha que tenhamos um conjunto de dados que armazena interações históricas entre usuários e ofertas, o que é mostrado na Figura 1. Há:
 * Duas ofertas, offer_1 e offer_2,
@@ -63,8 +63,8 @@ Basicamente, essa é a ideia de aprender e memorizar interações com caracterí
 
 O problema de partida a frio ocorre quando não há dados suficientes para fazer a recomendação. Para a personalização automática, há dois tipos de problemas de inicialização forçada.
 
-* **Depois de criar um novo modelo de IA sem dados históricos**, as ofertas serão fornecidas aleatoriamente por um período para coletar dados e os dados serão usados para treinar o primeiro modelo.
-* **Depois que o primeiro modelo for lançado**, 10% do tráfego total será alocado para veiculação aleatória, enquanto 90% do tráfego será usado para recomendações de modelo. Portanto, se novas ofertas fossem adicionadas ao modelo de IA, elas seriam entregues como parte dos 10% do tráfego. Os dados coletados nessas ofertas determinariam o número de vezes que são selecionados entre os 90% do tráfego à medida que o modelo continua a ser atualizado.
+* **Depois de criar um novo modelo de IA sem dados históricos**, as ofertas serão fornecidas aleatoriamente por um período para coletar dados, e os dados serão usados para treinar o primeiro modelo.
+* **Depois que o primeiro modelo for lançado**, 10% do tráfego total será alocado para serviço aleatório, enquanto 90% do tráfego será usado para recomendações de modelo. Portanto, se novas ofertas fossem adicionadas ao modelo de IA, elas seriam entregues como parte dos 10% do tráfego. Os dados coletados nessas ofertas determinariam o número de vezes que são selecionados entre os 90% do tráfego à medida que o modelo continua a ser atualizado.
 
 ## Retreinamento {#re-training}
 

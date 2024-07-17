@@ -16,24 +16,24 @@ ht-degree: 1%
 
 # Configurar coleção de dados {#schema-requirements}
 
-Para obter feedback sobre tipos de evento diferentes dos eventos de decisão, você deve definir o valor correto para cada tipo de evento em um **evento de experiência** que é enviado para o Adobe Experience Platform.
+Para poder obter feedback sobre tipos de evento que não sejam eventos de decisão, você deve definir o valor correto para cada tipo de evento em um **evento de experiência** enviado para o Adobe Experience Platform.
 
 >[!CAUTION]
 >
->Para cada tipo de evento, verifique se o esquema usado no conjunto de dados tem o **[!UICONTROL Evento de experiência - Interações de apresentação]** grupo de campos associado a ele. [Saiba mais](create-dataset.md)
+>Para cada tipo de evento, verifique se o esquema usado no conjunto de dados tem o grupo de campos **[!UICONTROL Evento de experiência - Interações de apresentação]** associado a ele. [Saiba mais](create-dataset.md)
 
-Abaixo estão os requisitos de esquema que você precisa implementar no seu código JavaScript.
+Abaixo estão os requisitos de esquema que você precisa implementar no código JavaScript.
 
 >[!NOTE]
 >
->Os eventos de decisão não precisam ser enviados, pois a Gestão de decisão gerará esses eventos automaticamente e os colocará na **[!UICONTROL ODE DecisionEvents]** conjunto de dados<!--to check--> que é gerado automaticamente.
+>Os eventos de decisão não precisam ser enviados, pois o Gerenciamento de decisão gerará esses eventos automaticamente e os colocará no **[!UICONTROL conjunto de dados <!--to check--> de DecisionEvents]** gerados automaticamente.
 
 ## Rastrear impressões {#track-impressions}
 
 Verifique se o tipo e a origem do evento são os seguintes:
 
 **Tipo de evento de experiência:** `decisioning.propositionDisplay`
-**Fonte:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou assimilação em lote
+**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou assimilação em lote
 +++**Carga de exemplo:**
 
 ```
@@ -67,7 +67,7 @@ Verifique se o tipo e a origem do evento são os seguintes:
 Verifique se o tipo e a origem do evento são os seguintes:
 
 **Tipo de evento de experiência:** `decisioning.propositionInteract`
-**Fonte:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou assimilação em lote
+**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou assimilação em lote
 +++**Carga de exemplo:**
 
 ```
@@ -98,13 +98,13 @@ Verifique se o tipo e a origem do evento são os seguintes:
 
 ## Rastrear eventos personalizados {#track-custom-events}
 
-Para eventos personalizados, o esquema usado no conjunto de dados também deve ter o **[!UICONTROL Evento de experiência - Interações de apresentação]** grupo de campos associado a ele, mas não há requisito específico no tipo de evento de experiência que deve ser usado para marcar esses eventos.
+Para eventos personalizados, o esquema usado no conjunto de dados também deve ter o grupo de campos **[!UICONTROL Evento de experiência - Interações de apresentação]** associado a ele, mas não há requisito específico no tipo de evento de experiência que deve ser usado para marcar esses eventos.
 
 >[!NOTE]
 >
->Para contabilizar os eventos personalizados no [limite de frequência](../offer-library/add-constraints.md#capping), é necessário conectar o evento de experiência aos endpoints do Adobe Experience Platform, enviando-o para um desses dois endpoints de coleta de dados do Edge:
+>Para contabilizar seus eventos personalizados no [limite de frequência](../offer-library/add-constraints.md#capping), é necessário conectar o evento de experiência aos pontos de extremidade do Adobe Experience Platform, enviando-o para um destes dois pontos de extremidade de coleta de dados do Edge:
 >
 >* POST /ee/v2/interaction
 >* POST /ee/v2/collect
 >
->Se você estiver usando a variável [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} ou [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, a conexão é feita automaticamente.
+>Se você estiver usando o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} ou o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, a conexão será feita automaticamente.

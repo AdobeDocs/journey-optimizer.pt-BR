@@ -24,49 +24,49 @@ ht-degree: 10%
 
 Os relatórios globais, acessíveis na guia Todos os tempos, exibem eventos que ocorreram pelo menos duas horas atrás e abordam eventos em um período selecionado. Em comparação, os Relatórios em tempo real focalizam eventos que ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos a partir da ocorrência do evento.
 
-Para acessar seus relatórios, selecione **[!UICONTROL Relatório]** no menu avançado da landing page selecionada.
+Para acessar seus relatórios, selecione **[!UICONTROL Relatório]** no menu avançado da página de aterrissagem selecionada.
 
 ![](assets/landing_page_report.png)
 
-A landing page **[!UICONTROL Relatório global]** O é dividido em widgets diferentes detalhando o sucesso e os erros do delivery. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte este [seção](global-report.md).
+O **[!UICONTROL Relatório global]** da página de aterrissagem é dividido em widgets diferentes detalhando o sucesso e os erros da sua entrega. Cada widget pode ser redimensionado e excluído, se necessário. Para obter mais informações, consulte esta [seção](global-report.md).
 
 ![](assets/landing_page_global.png)
 
 +++Saiba mais sobre as diferentes métricas e widgets disponíveis para o relatório global de Página de aterrissagem.
 
-A variável **[!UICONTROL Número de visitas]** e **[!UICONTROL Número de visitas ao longo do tempo]** Os widgets permitem ver o impacto da página de aterrissagem no período selecionado por meio de um gráfico e KPIs com as seguintes métricas:
+Os widgets **[!UICONTROL Número de visitas]** e **[!UICONTROL Número de visitas ao longo do tempo]** permitem que você veja o impacto da sua página de aterrissagem no período selecionado por meio de um gráfico e KPIs com as seguintes métricas:
 
-* **[!UICONTROL Total de visitas]**: número total de visitas à página de aterrissagem provenientes de jornadas e fontes externas, incluindo várias visitas de um recipient.
+* **[!UICONTROL Total de visitas]**: Número total de visitas à sua página de aterrissagem provenientes de jornadas e fontes externas, incluindo várias visitas de um destinatário.
 
-* **[!UICONTROL Visitantes únicos]**: Número de pessoas que visitaram a landing page, várias visitas de um recipient não são consideradas.
+* **[!UICONTROL Visitantes únicos]**: número de pessoas que visitaram sua página de aterrissagem; várias visitas de um destinatário não são consideradas.
 
-A variável **[!UICONTROL Desempenho da landing page]** O widget detalha as principais informações relacionadas à sua mensagem por meio dos KPIs:
+O widget **[!UICONTROL Desempenho da página de aterrissagem]** detalha as principais informações relativas à sua mensagem por meio dos KPIs:
 
-* **[!UICONTROL Índice de conversão]**: Número de pessoas que interagiram com a landing page, por exemplo, inscritas em um formulário, em relação ao número total de visitas.
+* **[!UICONTROL Taxa de conversão]**: número de pessoas que interagiram com a página de aterrissagem, por exemplo, inscritas em um formulário, em relação ao número total de visitas.
 
-* **[!UICONTROL Taxa de rejeição]**: Número de pessoas que não interagiram com a landing page e não concluíram a ação de assinatura em relação ao número total de visitas.
+* **[!UICONTROL Taxa de rejeição]**: número de pessoas que não interagiram com a página de aterrissagem e não concluíram a ação de assinatura em relação ao número total de visitas.
 
-A variável **[!UICONTROL Origens de visita]** O widget representa como os visitantes acessam a página de aterrissagem:
+O widget **[!UICONTROL Fontes de visita]** representa como os visitantes estão acessando sua página de aterrissagem:
 
-* **[!UICONTROL Jornada(s)]**: Número de visitas à página de aterrissagem provenientes de uma jornada.
+* **[!UICONTROL Jornada(s)]**: Número de visitas à sua página de aterrissagem provenientes de uma jornada.
 
-* **[!UICONTROL Outras origens]**: Número de visitas à página de aterrissagem provenientes de uma fonte externa em vez de uma jornada.
+* **[!UICONTROL Outras fontes]**: Número de visitas à sua página de aterrissagem provenientes de uma fonte externa em vez de uma jornada.
 
-A variável **[!UICONTROL Links mais clicados]** identifica a interação dos visitantes com a entrega:
+Os **[!UICONTROL links mais clicados]** identificam a interação dos visitantes com a entrega:
 
-* **[!UICONTROL Cliques]**: Número de vezes que um conteúdo foi clicado na landing page.
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado na página inicial.
 
-* **[!UICONTROL Taxa de cliques]**: Porcentagem de cliques na landing page.
+* **[!UICONTROL Taxa de cliques]**: porcentagem de cliques na página inicial.
 
-A variável **[!UICONTROL Jornada(s)]** O widget representa o número de visitas à sua página de aterrissagem a partir de uma jornada:
+O widget **[!UICONTROL Jornada(s)]** representa o número de visitas à sua landing page a partir de uma jornada:
 
-* **[!UICONTROL Visitas]**: número de visitas à página de aterrissagem, incluindo várias visitas de um recipient.
+* **[!UICONTROL Visitas]**: número de visitas à sua página de aterrissagem, incluindo várias visitas de um destinatário.
 
-A variável **[!UICONTROL Outras origens]** O widget representa o número de visitas à sua página de aterrissagem a partir de uma fonte externa em vez de uma jornada.
+O widget **[!UICONTROL Outras fontes]** representa o número de visitas à sua página de aterrissagem de uma fonte externa em vez de uma jornada.
 
-A variável **[!UICONTROL Visitas por mensagens]** / **[!UICONTROL Conversões por mensagens]** os gráficos representam o número total de visitas e pessoas que interagiram com êxito com sua landing page para o período relacionado, dependendo das mensagens enviadas.
+Os gráficos de **[!UICONTROL Visitas por mensagens]** / **[!UICONTROL Conversões por mensagens]** representam o número total de visitas e pessoas que interagiram com êxito com sua página de aterrissagem para o período relacionado, dependendo das mensagens enviadas.
 
-A variável **[!UICONTROL Visitas por canais]** / **[!UICONTROL Conversões por canais]** os gráficos representam o número total de visitas e pessoas que interagiram com êxito com sua landing page pelo período relacionado, dependendo dos canais.
+Os gráficos **[!UICONTROL Visitas por canais]** / **[!UICONTROL Conversões por canais]** representam o número total de visitas e pessoas que interagiram com êxito com sua página de aterrissagem pelo período relacionado, dependendo dos canais.
 +++
 
 Para obter uma lista detalhada de cada métrica disponível no Adobe Journey Optimizer, consulte [esta página](global-report.md#list-of-components-global).

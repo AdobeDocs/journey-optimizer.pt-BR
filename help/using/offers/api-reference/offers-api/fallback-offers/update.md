@@ -15,13 +15,13 @@ ht-degree: 12%
 
 # Atualizar uma oferta substituta {#update-fallback-offer}
 
-Você pode modificar ou atualizar uma oferta substituta no seu contêiner fazendo uma solicitação PATCH para o [!DNL Offer Library] API.
+Você pode modificar ou atualizar uma oferta substituta em seu container fazendo uma solicitação PATCH para a API [!DNL Offer Library].
 
-Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte o [Documentação de patch de JSON](https://jsonpatch.com/).
+Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte a [documentação oficial do Patch JSON](https://jsonpatch.com/).
 
 ## Cabeçalhos Accept e Content-Type {#accept-and-content-type-headers}
 
-A tabela a seguir mostra os valores válidos que compõem a variável *Tipo de conteúdo* e *Aceitar* campos no cabeçalho da solicitação:
+A tabela a seguir mostra os valores válidos que compõem os campos *Content-Type* e *Accept* no cabeçalho da solicitação:
 
 | Nome do cabeçalho | Valor |
 | ----------- | ----- |
@@ -69,7 +69,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes atualizados da oferta substituta, incluindo seus `id`.
+Uma resposta bem-sucedida retorna os detalhes atualizados da oferta substituta, incluindo sua `id`.
 
 ```json
 {

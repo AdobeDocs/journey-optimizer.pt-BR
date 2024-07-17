@@ -19,7 +19,7 @@ A oferta substituta é enviada aos clientes se eles não estiverem qualificados 
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-A lista de ofertas substitutas está acessível no **[!UICONTROL Ofertas]** menu.
+A lista de ofertas substitutas está acessível no menu **[!UICONTROL Ofertas]**.
 
 ![](../assets/offers_list.png)
 
@@ -37,7 +37,7 @@ Para criar uma oferta substituta, siga estas etapas:
 
    ![](../assets/fallback_details.png)
 
-1. Para atribuir rótulos de uso de dados personalizados ou principais à oferta, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre o OLAC (Object Level Access Control)](../../administration/object-based-access.md)
+1. Para atribuir rótulos de uso de dados personalizados ou principais à oferta, selecione **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../../administration/object-based-access.md)
 
 1. Crie uma ou várias representações para a oferta substituta. Para fazer isso, arraste e solte disposições do painel esquerdo, como ao criar uma oferta personalizada. Consulte [Criar ofertas personalizadas](../offer-library/creating-personalized-offers.md).
 
@@ -49,7 +49,7 @@ Para criar uma oferta substituta, siga estas etapas:
 
    ![](../assets/fallback_review.png)
 
-1. A oferta substituta é exibida na lista com a variável **[!UICONTROL Ao vivo]** ou **[!UICONTROL Rascunho]** Status, dependendo se você o aprovou ou não na etapa anterior.
+1. A oferta substituta é exibida na lista com o status **[!UICONTROL Ativo]** ou **[!UICONTROL Rascunho]**, dependendo se você a aprovou ou não na etapa anterior.
 
    Agora ele está pronto para ser entregue aos clientes. Você pode selecioná-la para exibir suas propriedades e editá-la. <!-- no suppression? -->
 

@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Uma oferta substituta é enviada aos clientes se eles não estiverem qualificados para outras ofertas. As etapas para criar uma oferta substituta consistem na criação de uma ou várias representações, como ao criar uma oferta.
 
-Você pode exibir uma lista de todas as ofertas substitutas em um contêiner executando uma única solicitação GET para [!DNL Offer Library] API.
+Você pode exibir uma lista de todas as ofertas substitutas em um contêiner executando uma única solicitação GET para a API [!DNL Offer Library].
 
 **Formato da API**
 
@@ -54,9 +54,9 @@ Os parâmetros de consulta mais comuns para paginação incluem:
 
 | Parâmetro | Descrição | Exemplo |
 | --------- | ----------- | ------- |
-| `q` | Uma sequência de consulta opcional a ser pesquisada nos campos selecionados. A sequência de consulta deve estar em minúsculas e pode estar entre aspas duplas para impedir que seja tokenizada e para evitar caracteres especiais. Os caracteres `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm significado especial e devem ser evitadas com uma barra invertida ao serem exibidas na sequência de consulta. | `default` |
+| `q` | Uma sequência de consulta opcional a ser pesquisada nos campos selecionados. A sequência de consulta deve estar em minúsculas e pode estar entre aspas duplas para impedir que seja tokenizada e para evitar caracteres especiais. Os caracteres `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` têm significado especial e devem ser escapados com uma barra invertida ao serem exibidos na cadeia de caracteres de consulta. | `default` |
 | `qop` | Aplica o operador AND ou OR a valores no parâmetro de sequência de consulta q. | `AND` / `OR` |
-| `field` | Lista opcional de campos aos quais limitar a pesquisa. Esse parâmetro pode ser repetido da seguinte maneira: field=field1[,campo=campo2,...] e (expressões de caminho estão no formato de caminhos separados por pontos, como _instance.xdm:name) | `_instance.xdm:name` |
+| `field` | Lista opcional de campos aos quais limitar a pesquisa. Esse parâmetro pode ser repetido da seguinte maneira: field=field1[,field=field2,...] e (expressões de caminho estão no formato de caminhos separados por pontos, como _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Classificar os resultados por uma propriedade específica. Adicionar um `-` antes do título (`orderby=-title`) classificará os itens por título em ordem decrescente (Z-A). | `-repo:createdDate` |
 | `limit` | Limite o número de ofertas substitutas retornadas. | `limit=5` |
 

@@ -12,7 +12,7 @@ exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -39,19 +39,19 @@ Os dados provenientes do Adobe Analytics ou do Adobe Experience Platform Web SDK
 
 Para fazer isso, siga as etapas abaixo:
 
-1. Navegue até o **[!UICONTROL Origens]** menu.
+1. Navegue até o menu **[!UICONTROL Fontes]**.
 
 1. Na seção Adobe Analytics, selecione **[!UICONTROL Adicionar dados]**
 
    ![](assets/ajo-aa_1.png)
 
-1. Na lista de conjuntos de relatórios do Adobe Analytics disponíveis, selecione a **[!UICONTROL Conjunto de relatórios]** para ativar. Em seguida, clique em **[!UICONTROL Próxima]**.
+1. Na lista de conjuntos de relatórios do Adobe Analytics disponíveis, selecione o **[!UICONTROL Conjunto de relatórios]** para habilitar. Em seguida, clique em **[!UICONTROL Avançar]**.
 
    ![](assets/ajo-aa_2.png)
 
 1. Escolha se deseja usar um esquema Padrão ou Personalizado.
 
-1. No **[!UICONTROL Detalhes do fluxo de dados]** , escolha uma **[!UICONTROL Nome do fluxo de dados]**.
+1. Na tela **[!UICONTROL Detalhes do fluxo de dados]**, escolha um **[!UICONTROL Nome do fluxo de dados]**.
 
 1. Quando a configuração estiver concluída, clique em **[!UICONTROL Concluir]**.
 
@@ -61,13 +61,13 @@ Isso ativa o conector de origem do Analytics para esse conjunto de relatórios. 
 
 ![](assets/ajo-aa_4.png)
 
-Saiba mais sobre o conector de origem do Adobe Analytics em  [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} e [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
+Saiba mais sobre o conector de origem do Adobe Analytics na [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} e no [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
 
 ## Ativar esta configuração {#activate-analytics-data}
 
 Depois que essa configuração for concluída, entre em contato com o Adobe para ativar o ambiente Journey Optimizer para usar essa fonte de dados. Essa etapa só é necessária para fontes de dados do Adobe Analytics. Para fazer isso:
 
-1. Obtenha a ID da fonte de dados. Essas informações estão disponíveis na interface do usuário do: navegue até a fonte de dados criada na **Fluxos de dados** guia do **Origens** menu. A maneira mais fácil de encontrar é filtrar por fontes do Adobe Analytics.
+1. Obtenha a ID da fonte de dados. Essas informações estão disponíveis na interface do usuário: navegue até a fonte de dados criada na guia **Fluxos de Dados** do menu **Fontes**. A maneira mais fácil de encontrar é filtrar por fontes do Adobe Analytics.
 1. Entre em contato com o Atendimento ao cliente da Adobe com os seguintes detalhes:
 
    * Assunto: Ativar eventos do Adobe Analytics para jornada
@@ -89,25 +89,25 @@ No exemplo abaixo, saiba como direcionar usuários que adicionaram um produto ao
 * Se o pedido for concluído, os usuários receberão um email de acompanhamento dois dias depois para solicitar feedback.
 * Se o pedido não for concluído, os usuários receberão um email para lembrá-los de concluí-lo.
 
-1. No Adobe Journey Optimizer, acesse o **[!UICONTROL Configuração]** menu.
+1. No Adobe Journey Optimizer, acesse o menu **[!UICONTROL Configuração]**.
 
-1. Em seguida, selecione **[!UICONTROL Gerenciar]** do **[!UICONTROL Eventos]** cartão.
+1. Em seguida, selecione **[!UICONTROL Gerenciar]** no cartão **[!UICONTROL Eventos]**.
 
    ![](assets/ajo-aa_5.png)
 
 1. Clique em **[!UICONTROL Criar evento]**. O painel de configuração do evento é aberto no lado direito da tela.
 
-1. Preencha o **[!UICONTROL Evento]** parâmetros:
+1. Preencha os parâmetros **[!UICONTROL Event]**:
 
-   * **[!UICONTROL Nome]**: Personalize o nome do seu **[!UICONTROL Evento]**.
-   * **[!UICONTROL Tipo]**: escolha a **[!UICONTROL Unitário]** Tipo. [Saiba mais](../event/about-events.md)
-   * **[!UICONTROL Tipo de ID do evento]**: escolha a **[!UICONTROL Baseado em regra]** Tipo de ID do evento. [Saiba mais](../event/about-events.md#event-id-type)
-   * **[!UICONTROL Esquema]**: selecione o esquema do Analytics ou WebSDK [criado antes de](#leverage-analytics-data).
-   * **[!UICONTROL Campos]**: selecione os campos Carga. [Saiba mais](../event/about-creating.md#define-the-payload-fields)
-   * **[!UICONTROL Condição de ID de evento]**: defina a condição para identificar os eventos que acionarão sua jornada.
+   * **[!UICONTROL Nome]**: personalize o nome do seu **[!UICONTROL Evento]**.
+   * **[!UICONTROL Tipo]**: escolha o Tipo **[!UICONTROL Unitário]**. [Saiba mais](../event/about-events.md)
+   * **[!UICONTROL Tipo de ID do Evento]**: escolha o **[!UICONTROL Tipo de ID do Evento baseado em Regras]**. [Saiba mais](../event/about-events.md#event-id-type)
+   * **[!UICONTROL Esquema]**: selecione o esquema do Analytics ou do WebSDK [criado antes](#leverage-analytics-data).
+   * **[!UICONTROL Campos]**: selecione os campos de Carga. [Saiba mais](../event/about-creating.md#define-the-payload-fields)
+   * **[!UICONTROL Condição de ID de Evento]**: defina a condição para identificar os eventos que dispararão sua jornada.
 
      Aqui, o Evento é acionado quando os clientes adicionam um item aos carrinhos.
-   * **[!UICONTROL Identificador de perfil]**: escolha um campo nos campos de carga útil ou defina uma fórmula para identificar a pessoa associada ao evento.
+   * **[!UICONTROL Identificador de perfil]**: escolha um campo nos campos de carga ou defina uma fórmula para identificar a pessoa associada ao evento.
 
    ![](assets/ajo-aa_6.png)
 
@@ -115,7 +115,7 @@ No exemplo abaixo, saiba como direcionar usuários que adicionaram um produto ao
 
 Agora que o evento está pronto, crie uma jornada para usá-lo.
 
-1. No **[!UICONTROL Jornadas]** , abra ou crie uma jornada. Para obter mais informações, consulte [esta seção](../building-journeys/journey-gs.md).
+1. No menu **[!UICONTROL Jornadas]**, abra ou crie uma jornada. Para obter mais informações, consulte [esta seção](../building-journeys/journey-gs.md).
 
 1. Adicione o evento do Analytics configurado anteriormente à jornada.
 
@@ -123,17 +123,17 @@ Agora que o evento está pronto, crie uma jornada para usá-lo.
 
 1. Adicione um evento que será acionado se um pedido for concluído.
 
-1. Do seu **[!UICONTROL Menu Evento]**, selecione o **[!UICONTROL Definir o tempo limite do evento]** e **[!UICONTROL Definir um caminho de tempo limite]** opções.
+1. No **[!UICONTROL menu Evento]**, selecione as opções **[!UICONTROL Definir o tempo limite do evento]** e **[!UICONTROL Definir um caminho de tempo limite]**.
 
    ![](assets/ajo-aa_9.png)
 
-1. No caminho de tempo limite, adicione um **[!UICONTROL E-mail]** ação. Esse caminho será usado para enviar um email aos clientes que não concluíram um pedido para lembrá-los de que seus carrinhos ainda estão disponíveis.
+1. No caminho de tempo limite, adicione uma ação **[!UICONTROL Email]**. Esse caminho será usado para enviar um email aos clientes que não concluíram um pedido para lembrá-los de que seus carrinhos ainda estão disponíveis.
 
-1. Adicionar um **[!UICONTROL Aguardar]** após o caminho principal e defina-o com a duração necessária.
+1. Adicione uma atividade **[!UICONTROL Wait]** após o caminho principal e defina-a com a duração necessária.
 
    ![](assets/ajo-aa_10.png)
 
-1. Em seguida, adicione um **[!UICONTROL Ação de email]**. Neste e-mail, os clientes serão solicitados a fornecer feedback sobre o pedido feito.
+1. Em seguida, adicione uma **[!UICONTROL Ação de email]**. Neste e-mail, os clientes serão solicitados a fornecer feedback sobre o pedido feito.
 
 Agora você pode testar e publicar sua jornada. [Saiba mais](../building-journeys/publishing-the-journey.md)
 

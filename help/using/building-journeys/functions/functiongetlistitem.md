@@ -10,7 +10,7 @@ exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -87,7 +87,7 @@ Exemplos com um campo de evento &quot;event.appVersion&quot; com valor: &quot;20
 
 `split(@event{event.appVersion}, "\\.")`
 
-Devoluções `["20", "45", "2", "3434"]`
+Retorna `["20", "45", "2", "3434"]`
 
 `getListItem(split(@event{event.appVersion}, "\\."), 0)`
 

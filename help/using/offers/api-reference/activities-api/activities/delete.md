@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # Excluir uma decisão {#delete-decision}
 
-Ocasionalmente, pode ser necessário remover (DELETE) uma decisão. Isso é feito executando uma solicitação DELETE para o [!DNL Offer Library] API usando o `id` da decisão que deseja excluir.
+Ocasionalmente, pode ser necessário remover (DELETE) uma decisão. Isso é feito executando uma solicitação DELETE para a API [!DNL Offer Library] usando o `id` da decisão que você deseja excluir.
 
 **Formato da API**
 

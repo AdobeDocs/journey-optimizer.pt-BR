@@ -27,7 +27,7 @@ Fontes de dados externas permitem definir uma conexão com sistemas de terceiros
 
 >[!NOTE]
 >
->As medidas de proteção ao trabalhar com sistemas externos estão listadas em [esta página](../configuration/external-systems.md).
+>As garantias ao trabalhar com sistemas externos estão listadas em [esta página](../configuration/external-systems.md).
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ A chamada é composta de um URL principal (_https://api.adobeweather.org/weather
 
 Estas são as principais etapas para criar e configurar uma nova fonte de dados externa:
 
-1. Na lista de fontes de dados, clique em **[!UICONTROL Criar fonte de dados]** para criar uma nova fonte de dados externa.
+1. Na lista de fontes de dados, clique em **[!UICONTROL Criar Source de Dados]** para criar uma nova fonte de dados externa.
 
    ![](assets/journey25.png)
 
@@ -69,37 +69,37 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
 
    ![](assets/journey27.png)
 
-1. Configure a autenticação dependendo da configuração do serviço externo: **[!UICONTROL Sem autenticação]**, **[!UICONTROL Básico]**, **[!UICONTROL Personalizado]** ou **[!UICONTROL Chave de API]**.
+1. Configure a autenticação dependendo da configuração do serviço externo: **[!UICONTROL Sem autenticação]**, **[!UICONTROL Básica]**, **[!UICONTROL Personalizada]** ou **[!UICONTROL Chave de API]**.
 
    Para o modo de autenticação básico, é necessário preencher um nome de usuário e uma senha.
 
    >[!NOTE]
    >
-   >Quando a chamada de autenticação for realizada, a variável `<username>:<password>` A string, codificada em base64, é adicionada no cabeçalho Autenticação.
+   >Quando a chamada de autenticação é executada, a cadeia de caracteres `<username>:<password>`, codificada em base64, é adicionada ao cabeçalho Authentication.
 
-   Para obter mais informações sobre o modo de autenticação personalizado, consulte [nesta seção](../datasource/external-data-sources.md#custom-authentication-mode). No nosso exemplo, escolhemos o modo de autenticação da chave de API:
+   Para obter mais informações sobre o modo de autenticação personalizado, consulte [esta seção](../datasource/external-data-sources.md#custom-authentication-mode). No nosso exemplo, escolhemos o modo de autenticação da chave de API:
 
    * **[!UICONTROL Tipo]**: &quot;Chave de API&quot;
    * **[!UICONTROL Nome]**: &quot;appid&quot; (este é o nome do parâmetro da chave de API)
    * **[!UICONTROL Valor]**: &quot;1234&quot; (este é o valor da nossa chave de API)
-   * **[!UICONTROL Localização]**: &quot;Parâmetro de query&quot; (a chave de API está localizada no URL)
+   * **[!UICONTROL Local]**: &quot;Parâmetro de consulta&quot; (a chave de API está localizada na URL)
 
    ![](assets/journey28.png)
 
-1. Adicione um novo grupo de campos para cada conjunto de parâmetros da API clicando em **[!UICONTROL Adicionar um novo grupo de campos]**. Somente caracteres alfanuméricos e sublinhados são permitidos no nome do grupo de campos. O comprimento máximo é de 30 caracteres. Em nosso exemplo, precisamos criar dois grupos de campo, um para cada conjunto de parâmetros (city e long/lat).
+1. Adicione um novo grupo de campos para cada conjunto de parâmetros da API clicando em **[!UICONTROL Adicionar Novo Grupo de Campos]**. Somente caracteres alfanuméricos e sublinhados são permitidos no nome do grupo de campos. O comprimento máximo é de 30 caracteres. Em nosso exemplo, precisamos criar dois grupos de campo, um para cada conjunto de parâmetros (city e long/lat).
 
 Para o conjunto de parâmetros &quot;long/lat&quot;, criamos um grupo de campos com as seguintes informações:
 
-* **[!UICONTROL Usado em]**: exibe o número de jornadas que usam um grupo de campos. Você pode clicar no link **[!UICONTROL Exibir jornadas]** ícone para exibir a lista de jornadas usando este grupo de campos.
+* **[!UICONTROL Usado em]**: exibe o número de jornadas que usam um grupo de campos. Você pode clicar no ícone **[!UICONTROL Exibir jornadas]** para exibir a lista de jornadas usando este grupo de campos.
 * **[!UICONTROL Método]**: selecione o método POST ou GET. No nosso caso, selecionamos o método GET.
-* **[!UICONTROL Valores dinâmicos]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas jornadas. [Saiba mais](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL Carga de resposta]**: clique dentro do **[!UICONTROL Carga]** e cole um exemplo da carga útil retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API de meteorologia. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. Observe que você pode clicar em **[!UICONTROL Colar uma nova carga]** se quiser alterar a carga útil transmitida no momento.
+* **[!UICONTROL Valores Dinâmicos]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas jornadas. [Saiba mais](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL Carga de resposta]**: clique dentro do campo **[!UICONTROL Carga]** e cole um exemplo da carga útil retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API de meteorologia. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. Observe que você pode clicar em **[!UICONTROL Colar uma nova carga]** se desejar alterar a carga transmitida no momento.
 
-* **[!UICONTROL Conteúdo enviado]**: este campo não aparece no nosso exemplo. Ele só estará disponível se você selecionar o método POST. Cole a carga útil que será enviada para o sistema de terceiros.
+* **[!UICONTROL Carga Enviada]**: este campo não aparece no nosso exemplo. Ele só estará disponível se você selecionar o método POST. Cole a carga útil que será enviada para o sistema de terceiros.
 
-No caso de uma chamada GET que exige parâmetros, você informa os parâmetros na variável **[!UICONTROL Valores dinâmicos]** e são adicionados automaticamente no final da chamada. No caso de uma chamada POST, é necessário:
+No caso de uma chamada GET que exige parâmetros, você insere os parâmetros no campo **[!UICONTROL Valores dinâmicos]** e eles são adicionados automaticamente no final da chamada. No caso de uma chamada POST, é necessário:
 
-* listar os parâmetros que serão transmitidos no momento da chamada no **[!UICONTROL Valores dinâmicos]** (no exemplo abaixo: &quot;identificador&quot;).
+* listar os parâmetros a serem transmitidos no momento da chamada no campo **[!UICONTROL Valores Dinâmicos]** (no exemplo abaixo: &quot;identificador&quot;).
 * especificá-los também com a mesma sintaxe no corpo da carga útil enviada. Para fazer isso, é necessário adicionar: &quot;param&quot;: &quot;nome do parâmetro&quot; (no exemplo abaixo: &quot;identificador&quot;). Siga a sintaxe abaixo:
 
   ```
@@ -146,7 +146,7 @@ Com essa autenticação, a execução da ação é um processo de duas etapas:
 * cabeçalhos: pares de valores chave que serão inseridos como cabeçalhos nesta chamada, se necessário
 * corpo: descreve o corpo da chamada se o método for POST. Oferecemos suporte a uma estrutura de corpo limitada, definida em bodyParams (pares de valores chave). O bodyType descreve o formato e a codificação do corpo na chamada:
    * &#39;form&#39;: significa que o tipo de conteúdo será application/x-www-form-urlencoded (charset UTF-8) e que os pares de valor-chave serão serializados como estão: key1=value1&amp;key2=value2&amp;...
-   * &quot;json&quot;: significa que o tipo de conteúdo será application/json (charset UTF-8) e que os pares de valores chave serão serializados como um objeto json como a seguir: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+   * &#39;json&#39;: significa que o tipo de conteúdo será application/json (charset UTF-8) e que os pares de valores chave serão serializados como um objeto json como a seguir: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 ### Definição da forma como o token de acesso deve ser inserido na solicitação HTTP da ação{#custom-authentication-access-token}
 
