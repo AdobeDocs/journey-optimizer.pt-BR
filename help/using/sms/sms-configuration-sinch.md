@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
+source-git-commit: 7dfedb1b66101204b4923ddeb7793c80887ebdc0
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '590'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ Para configurar seu provedor Sinch para enviar mensagens SMS e MMS com o Journey
 
    * **[!UICONTROL Mensagem de aceitação dupla]**: digite a resposta personalizada que é enviada automaticamente em resposta à confirmação de aceitação dupla.
 
-   * **[!UICONTROL Número de Entrada]**: adicione seu número de entrada exclusivo. Isso permite usar as mesmas credenciais de API em diferentes sandboxes, cada uma com seu próprio número de entrada.
+   * **[!UICONTROL Número de Entrada]**: adicione seu número de entrada exclusivo ou código curto. Isso permite usar as mesmas credenciais de API em diferentes sandboxes, cada uma com seu próprio número de entrada ou código curto.
 
 1. Clique em **[!UICONTROL Enviar]** quando terminar de configurar suas credenciais de API.
 
