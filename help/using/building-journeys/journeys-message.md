@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 18%
@@ -127,21 +127,30 @@ Essas informações são armazenadas com o perfil do usuário e são referenciad
 
 ### Perguntas frequentes {#faq-send-time}
 
-O que a Otimização de tempo de envio pode fazer? Como ele lida com novos perfis? Ele espalha o envio por uma janela de 12/6/24 horas?
++++ O que a Otimização de tempo de envio pode fazer? Como ele lida com novos perfis? Ele espalha o envio por uma janela de 12/6/24 horas?
 
 A Otimização de tempo de envio tenta prever o melhor momento para interagir com os clientes e otimizar as taxas de abertura/clique de emails. A pontuação está em um formato de `3*7*24` atributos para cada perfil. Os atributos `7*24` descrevem a classificação do melhor momento previsto para enviar emails para o recipient e 3 são para otimizar a taxa de abertura de emails, a taxa de cliques de email e a taxa de abertura de push.
 
-Onde posso ver o tempo de envio esperado para cada perfil?
++++
+
++++Onde posso ver o tempo de envio esperado para cada perfil?
 
 Você pode ver a pontuação geral na interface **Perfis**. Para cada um dos três conjuntos de 168 pontuações, as posições vão de -83 a 84. Quanto maior a classificação, melhor o tempo foi escolhido para interagir com o recipient. Como é possível definir o início e a duração de uma jornada, a melhor classificação (84) pode não cair nessa janela de tempo. Nesse caso, recomendamos escolher uma hora com o valor de classificação mais alto.
 
-Quais relatórios estão disponíveis?
++++
+
+
++++Que relatórios estão disponíveis?
 
 Acesse sua jornada, clique no botão **Exibir relatório** na parte superior direita e selecione a guia **Jornada** à esquerda. [Leia mais](../reports/journey-global-report.md)
 
-Como os dados da Otimização de tempo de envio afetam a riqueza do perfil?
++++
+
++++Como os dados de Otimização de tempo de envio afetam a riqueza do perfil?
 
 A Otimização de tempo de envio adiciona a pontuação/atributos a cada perfil, mas nenhum perfil novo é criado.
+
++++
 
 ### Ativar otimização da hora de envio{#activate-send-time-optimization}
 
