@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5407'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Julho de 2024 {#july-2024}
 
-* Um caso de uso de personalização foi adicionado sobre como personalizar um email com informações relacionadas a planos de saúde e prescrições. [Leia mais](../personalization/perso-uc-plan-prescriptions.md)
+* Um caso de uso de personalização foi adicionado sobre como personalizar um email com informações relacionadas a planos de saúde e receitas. [Leia mais](../personalization/perso-uc-plan-prescriptions.md)
 
 ## Junho de 2024 {#june-2024}
 
