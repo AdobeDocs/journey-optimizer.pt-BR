@@ -10,10 +10,10 @@ level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
+source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 33%
+source-wordcount: '252'
+ht-degree: 20%
 
 ---
 
@@ -31,12 +31,21 @@ Com o Journey Optimizer, você tem a possibilidade de criar conteúdo multilíng
 
 * **Tradução automática**: envie conteúdo para o seu provedor de idioma preferido para tradução automática. [Saiba mais](multilingual-automated.md)
 
-
 </br>
 
 ![](assets/translation_schema.png)
 
-## Vídeo explicativo {#video}
+## Pré-requisitos {#prerequisites}
+
+Atualmente, o Adobe Journey Optimizer integra-se com provedores de tradução, que oferecem serviços de tradução de terceiros (tradução automática ou tradução humana) independentes do Adobe Journey Optimizer.
+
+Antes de adicionar o Provedor de tradução selecionado, você deve criar uma conta com esse provedor aplicável.
+
+O uso dos serviços de tradução de um Provedor de tradução está sujeito a termos e condições adicionais desse provedor aplicável.  Como soluções de terceiros, os serviços de tradução estão disponíveis para usuários do Adobe Journey Optimizer por meio de uma integração.  A Adobe não controla e não é responsável por produtos de terceiros.
+
+Para problemas ou solicitações de assistência relacionados às suas traduções, entre em contato com o Provedor de tradução aplicável.
+
+## Vídeo tutorial {#video}
 
 Saiba como criar conteúdo em vários idiomas em uma única campanha ou jornada.
 
