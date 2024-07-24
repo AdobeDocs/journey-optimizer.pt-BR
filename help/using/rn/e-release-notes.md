@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Fluxo de trabalho de aquecimento de IP (GA)</strong><br/></th>
+<th><strong>Fluxo de trabalho de aquecimento de IP (disponibilidade geral)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -49,13 +49,13 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Canal SMS com qualquer provedor (Beta)</strong><br/></th>
+<th><strong>Canal de SMS com qualquer provedor (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode configurar provedores de SMS adicionais no Journey Optimizer, além dos provedores padrão Sinch, Infobip e Twilio.</p>
+<p>Agora é possível configurar provedores de SMS adicionais no Journey Optimizer, além dos provedores padrão Sinch, Infobip e Twilio.</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -122,7 +122,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Jornadas**
 
-* (Disponibilidade: 8 de julho) Agora você pode aproveitar o editor de expressão avançado ao configurar um evento, permitindo definir expressões mais complexas ou usar funções na condição ID do evento. [Saiba mais](../event/about-creating.md#adv-exp-editor)
+* (Disponibilidade: 8 de julho) Agora você pode aproveitar o editor de expressão avançado ao configurar um evento, permitindo definir expressões mais complexas ou usar funções na condição da ID do evento. [Saiba mais](../event/about-creating.md#adv-exp-editor)
 
 <!--* The `event-id` condition is now automatically filled during test mode. -->
 
@@ -132,11 +132,11 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Canal no aplicativo**
 
-* Fragmentos de expressão agora estão disponíveis para o canal no aplicativo.
+* Os Fragmentos de expressão não estão disponíveis para o canal no aplicativo.
 
 **Públicos-alvo**
 
-* O uso de públicos-alvo de upload personalizado (arquivo CSV) agora está disponível para uso com o Privacy and Security Shield.
+* O uso de públicos-alvo a partir de uploads personalizados (arquivo CSV) agora está disponível para uso com o Privacy and Security Shield.
 <!--
 **Push channel**
 
