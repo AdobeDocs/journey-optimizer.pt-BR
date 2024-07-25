@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5ccf9e08a24f840de7adbf04dc545904eaa32b8c
+source-git-commit: 18d74badf3f5ea98f613d6b31303aa3108c979a5
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 100%
+source-wordcount: '1329'
+ht-degree: 91%
 
 ---
 
@@ -26,12 +26,76 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
-## Atualizações de julho de 2024 {#24-7-2024}
 
-**Última atualização**: 8 de julho de 2024
+## Notas de versão antecipadas de julho de 2024 {#27-4-2024}
 
-**Editor de expressão avançado na configuração de evento de jornada**: agora é possível utilizar o editor de expressão avançado ao configurar um evento, o que permite definir expressões mais complexas ou usar funções na condição de ID de evento. [Saiba mais](../event/about-creating.md#adv-exp-editor)
+**As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento**.  Links, telas e a documentação atualizada são publicados nas [notas de versão](release-notes.md), na data de lançamento.
 
+**Data de lançamento**: 30 a 31 de julho de 2024
+
+### Novos recursos {#27-4-features}
+
+Essa versão traz os novos recursos detalhados abaixo.
+
+<table>
+<thead>
+<tr>
+<th><strong>Fluxo de trabalho de aquecimento de IP</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Se você estiver enviando emails em um novo endereço IP, agora é possível executar facilmente fluxos de trabalho de aquecimento de IP diretamente da interface do usuário. O Adobe Journey Optimizer oferece uma maneira padronizada e eficiente de aquecer seus endereços IP que segue as práticas recomendadas para uma capacidade de entrega otimizada.</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal de SMS com qualquer provedor (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível configurar provedores de SMS adicionais no Journey Optimizer, além dos provedores padrão Sinch, Infobip e Twilio.</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Composição de público-alvo federado (disponibilidade limitada)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A Federated Audience Composition agora está disponível no Adobe Journey Optimizer. Ele permite que as empresas componham dados para melhor utilização em vários casos de uso. Com essa nova abordagem, como um usuário do Adobe Real-time Customer Data Platform e/ou Adobe Journey Optimizer, você pode federar conjuntos de dados diretamente do data warehouse existente para criar e enriquecer públicos-alvo e atributos do Adobe Experience Platform, tudo em um sistema.</p>
+<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+### Melhorias {#27-4-improvements}
+
+Esta versão vem com as melhorias listadas abaixo.
+
+**Jornadas**
+
+* (Data de disponibilidade: 8 de julho) **Editor de expressão avançado na configuração de evento do jornada** - Agora é possível usar o editor de expressão avançado ao configurar um evento, permitindo definir expressões mais complexas ou usar funções na condição ID do Evento. [Saiba mais](../event/about-creating.md#adv-exp-editor)
+
+**Públicos-alvo**
+
+* O uso de públicos-alvo a partir de uploads personalizados (arquivo CSV) agora está disponível para uso com o Privacy and Security Shield.
 
 ## Notas de versão de junho de 2024 {#24-6-2024}
 
