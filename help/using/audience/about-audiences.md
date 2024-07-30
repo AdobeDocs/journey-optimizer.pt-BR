@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1910'
 ht-degree: 20%
 
 ---
@@ -37,6 +37,11 @@ Os públicos-alvo podem ser gerados usando métodos diferentes:
 * **Definições de segmento**: crie uma nova definição de público-alvo usando o Serviço de Segmentação da Adobe Experience Platform. [Saiba como criar definições de segmento](creating-a-segment-definition.md)
 * **Upload personalizado**: importe um público usando um arquivo CSV. Saiba como importar públicos na [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} do Adobe Experience Platform.
 * **Composição de público-alvo**: crie um fluxo de trabalho de composição para combinar públicos-alvo existentes do Adobe Experience Platform em uma tela visual e aproveitar várias atividades (dividir, excluir...) para criar novos públicos-alvo. [Introdução à composição de público-alvo](get-started-audience-orchestration.md)
+* **Composição de Público-Alvo Federado**: federe conjuntos de dados diretamente do data warehouse existente para compilar e enriquecer públicos-alvo e atributos da Adobe Experience Platform, tudo em um único sistema. Leia o guia em [Composição de Público-Alvo Federado](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home).
+
+  >[!AVAILABILITY]
+  >
+  >No momento, a Composição federada de público-alvo está disponível apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
 
 ## Públicos-alvo em [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 

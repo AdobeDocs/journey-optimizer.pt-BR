@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: ht
-source-wordcount: '1877'
-ht-degree: 100%
+source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
+workflow-type: tm+mt
+source-wordcount: '1883'
+ht-degree: 99%
 
 ---
 
@@ -344,6 +344,7 @@ ht-degree: 100%
          + [Criar workflows de composição](using/audience/create-compositions.md)
          + [Trabalhar com a tela de composição](using/audience/composition-canvas.md)
          + [Acessar e gerenciar públicos-alvo](using/audience/access-audiences.md)
+      + [Composição de Público Federado (Disponibilidade limitada)](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home)
    + Perfis{#profiles}
       + [Introdução aos perfis](using/audience/get-started-profiles.md)
       + [Criar perfis de teste](using/audience/creating-test-profiles.md)
