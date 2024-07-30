@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0fc693054ad7931545e0053249f310aed031c8c4
+source-git-commit: b93c9f7262c5b5530699bb2843f2a8d8dd97a839
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1274'
 ht-degree: 90%
 
 ---
@@ -27,7 +27,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
 
-## Notas de versão antecipadas de julho de 2024 {#27-4-2024}
+## Notas de versão de julho de 2024 {#27-4-2024}
 
 **As notas de versão antecipadas abaixo estão sujeitas a alterações sem aviso prévio até a data de disponibilidade do lançamento**.  Links, telas e documentação atualizada são publicados nesta página na data de lançamento.
 
@@ -94,9 +94,9 @@ Esta versão vem com as melhorias listadas abaixo.
 
 * (Data de disponibilidade: 8 de julho) **Editor de expressão avançado na configuração de evento do jornada** - Agora é possível usar o editor de expressão avançado ao configurar um evento, permitindo definir expressões mais complexas ou usar funções na condição ID do Evento. [Saiba mais](../event/about-creating.md#adv-exp-editor)
 
-**Públicos-alvo**
+<!--**Audiences**
 
-* O uso de públicos-alvo a partir de uploads personalizados (arquivo CSV) agora está disponível para uso com o Privacy and Security Shield.
+* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield.-->
 
 ## Notas de versão de junho de 2024 {#24-6-2024}
 
