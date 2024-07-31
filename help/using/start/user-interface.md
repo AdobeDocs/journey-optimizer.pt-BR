@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 452aecc02f265b8bcbe89f221bd7b1a50ffa0976
+source-git-commit: 6574f5d46125b90634b21ec62a43ca50d1321479
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 92%
@@ -301,4 +301,4 @@ Para alterar o idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioridade"
->abstract="&quot;Atribua uma pontuação de prioridade à jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas jornadas usam a mesma superfície, o Journey Optimizer seleciona a jornada com a pontuação de prioridade mais alta. Se as jornadas tiverem a mesma pontuação, a jornada modificada mais recentemente será escolhida."
+>abstract="Atribua uma pontuação de prioridade à jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas jornadas usam a mesma superfície, o Journey Optimizer seleciona a jornada com a pontuação de prioridade mais alta. Se as jornadas tiverem a mesma pontuação, a jornada modificada mais recentemente será escolhida."
