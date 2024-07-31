@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
+source-git-commit: 452aecc02f265b8bcbe89f221bd7b1a50ffa0976
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 100%
+source-wordcount: '1458'
+ht-degree: 92%
 
 ---
 
@@ -290,3 +290,15 @@ Para alterar o idioma:
 >id="ajo_mobile_web_setup_push_android_studio"
 >title="Iniciar o aplicativo no Android Studio"
 >abstract="A CONFIRMAR"
+
+<!-- priority scores-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="Prioridade"
+>abstract="Atribua uma pontuação de prioridade à campanha, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas campanhas usam a mesma superfície, o Journey Optimizer seleciona a campanha com a pontuação de prioridade mais alta. Se as campanhas tiverem a mesma pontuação, a campanha modificada mais recentemente será escolhida."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="Prioridade"
+>abstract="&quot;Atribua uma pontuação de prioridade à jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas jornadas usam a mesma superfície, o Journey Optimizer seleciona a jornada com a pontuação de prioridade mais alta. Se as jornadas tiverem a mesma pontuação, a jornada modificada mais recentemente será escolhida."
