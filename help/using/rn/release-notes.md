@@ -7,9 +7,9 @@ topic: Content Management
 description: Notas de versão do Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: b2459757d1f1964c7d0b59de814bed29b0a394bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1244'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -76,8 +76,8 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>A Federated Audience Composition agora está disponível no Adobe Journey Optimizer. Ele permite que as empresas componham dados para melhor utilização em vários casos de uso. Com essa nova abordagem, como um usuário do Adobe Real-time Customer Data Platform e/ou Adobe Journey Optimizer, você pode federar conjuntos de dados diretamente do data warehouse existente para criar e enriquecer públicos-alvo e atributos do Adobe Experience Platform, tudo em um sistema.</p>
-<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">documentação detalhada</a>.</p>
+<p>A Composição de público-alvo federado agora está disponível no Adobe Journey Optimizer. Ela permite que empresas componham dados para uma melhor utilização em vários casos de uso. Com essa nova abordagem, usuários da Adobe Real-Time Customer Data Platform e/ou do Adobe Journey Optimizer podem federar conjuntos de dados diretamente do seu data warehouse para criar e enriquecer públicos-alvo e atributos da Adobe Experience Platform em um único sistema.</p>
+<p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/pt-br/docs/federated-audience-composition/using/home"  target="_blank">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -89,7 +89,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Jornadas**
 
-* (Data de disponibilidade: 8 de julho) **Editor de expressão avançado na configuração de evento do jornada** - Agora é possível usar o editor de expressão avançado ao configurar um evento, permitindo definir expressões mais complexas ou usar funções na condição ID do Evento. [Saiba mais](../event/about-creating.md#adv-exp-editor)
+* (Data de disponibilidade: 8 de julho) **Editor de expressão avançado na configuração de eventos de jornada**: agora você pode aproveitar o editor de expressão avançado ao configurar um evento, permitindo definir expressões mais complexas ou usar funções na condição de ID do evento. [Saiba mais](../event/about-creating.md#adv-exp-editor)
 
 <!--**Audiences**
 

@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Fazer upload do ativo da marca"
->abstract="O menu Fazer upload do ativo de marca permite adicionar qualquer ativo de marca com conteúdo que possa fornecer contexto adicional para o Assistente de IA ou selecionar um ativo carregado anteriormente. Essa opção garante que o Assistente de IA tenha acesso a todos os materiais necessários para aprimorar sua funcionalidade e relevância."
+>abstract="O menu Fazer upload do ativo da marca permite adicionar qualquer ativo da marca com conteúdo que possa fornecer contexto adicional para o Assistente de IA ou selecionar um ativo enviado anteriormente. Essa opção garante que o Assistente de IA tenha acesso a todos os materiais necessários para aprimorar sua funcionalidade e relevância."
 
 
 >[!CONTEXTUALHELP]
