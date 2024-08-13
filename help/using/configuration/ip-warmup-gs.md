@@ -8,45 +8,29 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, capacidade de entrega
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: 34c1180e3ba5b6b39287e70651c45351fa71e6b1
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 94%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
 # Introdução aos planos de aquecimento de IP {#ip-warmup-gs}
 
->[!BEGINSHADEBOX]
-
-O que há neste guia de documentação:
-
-* **[Introdução ao aquecimento de IP](ip-warmup-gs.md)**
-* [Criar campanhas de aquecimento de IP](ip-warmup-campaign.md)
-* [Criar um plano de aquecimento de IP](ip-warmup-plan.md)
-* [Executar o plano de aquecimento de IP](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
-
-Com o [!DNL Journey Optimizer], é possível executar facilmente fluxos de trabalho de aquecimento de IP diretamente da interface, de forma padronizada e eficiente, seguindo as práticas recomendadas para uma capacidade de entrega ideal.
-
-➡️ [Saiba como criar e executar um plano de aquecimento de IP neste vídeo](#video)
-
->[!CAUTION]
->
->Esse recurso se aplica somente ao canal de email.
-
-Quando os emails são enviados usando uma nova plataforma, os provedores de serviços de Internet (ISPs) suspeitam de endereços IP que não são reconhecidos. Se grandes volumes de emails forem enviados repentinamente, os ISPs freqüentemente os marcam como spam.
+Com o [!DNL Journey Optimizer], você pode executar facilmente fluxos de trabalho de aquecimento de IP diretamente da interface do usuário, de forma padronizada e eficiente, seguindo as práticas recomendadas para a entrega ideal. Quando os emails são enviados usando uma nova plataforma, os provedores de serviços de Internet (ISPs) suspeitam de endereços IP que não são reconhecidos. Se grandes volumes de emails forem enviados repentinamente, os ISPs freqüentemente os marcam como spam.
 
 Para evitar a marcação como spam, é possível aumentar progressivamente o volume enviado usando o recurso plano de aquecimento de IP. Essa nova opção no menu **[!UICONTROL Administração]** permite fazer isso de forma mais fácil e consolidada, em vez de criar jornadas diárias complexas.
 
->[!NOTE]
+<!--➡️ [Learn how to create and execute an IP warmup plan in this video](#video)-->
+
+>[!AVAILABILITY]
 >
->Saiba mais sobre como aumentar sua reputação de email com o aquecimento de IP no [Guia de práticas recomendadas de capacidade de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=pt-BR).
+>Esse recurso só pode ser habilitado em sandboxes do tipo produção.
+>
+>Ela não está disponível para organizações que compraram as ofertas complementares do Adobe **Healthcare Shield** ou do **Privacy and Security Shield**.
+
+
 
 <!--
 Benefits
@@ -68,8 +52,15 @@ As principais etapas para implementar um plano de aquecimento de IP são as segu
 
 1. Selecione uma campanha para cada fase do plano e ative as execuções correspondentes. [Saiba mais](ip-warmup-execution.md)
 
-## Vídeo explicativo {#video}
+<!--Old UI
+## How-to video {#video}
 
-Saiba como criar e executar um plano de aquecimento de IP.
+Learn how to create and execute an IP warmup plan.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)
+-->
+
+
+>[!NOTE]
+>
+>Saiba mais sobre como aumentar sua reputação de email com o aquecimento de IP no [Guia de práticas recomendadas de capacidade de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=pt-BR).

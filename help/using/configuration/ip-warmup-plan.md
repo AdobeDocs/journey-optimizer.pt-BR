@@ -8,29 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 8%
+source-wordcount: '1665'
+ht-degree: 6%
 
 ---
 
 # Criar um plano de aquecimento de IP {#ip-warmup}
-
->[!BEGINSHADEBOX]
-
-O que há neste guia de documentação:
-
-* [Introdução aos planos de aquecimento de IP](ip-warmup-gs.md)
-* [Criar campanhas de aquecimento de IP](ip-warmup-campaign.md)
-* **[Criar um plano de aquecimento de IP](ip-warmup-plan.md)**
-* [Executar o plano de aquecimento de IP](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
 
 Depois de criar uma ou mais [campanhas de aquecimento de IP](ip-warmup-campaign.md) com uma superfície dedicada e a opção correspondente habilitada, você pode começar a criar seu plano de aquecimento de IP.
 
@@ -112,11 +98,12 @@ Veja abaixo um exemplo de um arquivo contendo um plano de aquecimento de IP.
 
 * Este planejamento é executado durante seis **fases**, cada uma contendo pelo menos uma execução.
 
-* Você pode ter até 6 colunas (5 colunas para grupos de domínio e uma para a coluna **Outros**). Neste exemplo, o plano é dividido em seis colunas:
+* Você pode ter até 6 colunas (4 colunas para grupos de domínio, uma para a coluna **Outros** e uma para a coluna **Dias de engajamento**). Neste exemplo, o plano é dividido em seis colunas:
 
-   * Quatro deles correspondem a **grupos de domínio predefinidos** para serem usados em seu plano (Gmail, Microsoft, Yahoo e Orange).
+   * Três deles correspondem a **grupos de domínio predefinidos** para serem usados em seu plano (Gmail, Microsoft e Orange).
    * Um corresponde a um grupo de domínio personalizado (que você precisa adicionar usando a guia [Grupo de domínio personalizado](#custom-domain-group-tab)).
-   * A sexta coluna, **Outros**, contém todos os endereços restantes de outros domínios que não estão explicitamente cobertos no plano. Essa coluna é opcional: se omitida, os emails irão somente para os domínios especificados.
+   * A quinta coluna, **Outros**, contém todos os endereços restantes de outros domínios que não estão explicitamente cobertos no plano. Essa coluna é opcional: se omitida, os emails irão somente para os domínios especificados.
+   * A última coluna, **Dias de Compromisso**, permite especificar o número de dias durante os quais o compromisso deve ser rastreado ou avaliado.
 
 A ideia é aumentar progressivamente o número de endereços direcionados em cada execução, enquanto reduz o número de execuções para cada fase.
 
