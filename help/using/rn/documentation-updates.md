@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0d93e2a3a5707c6229894459348378a0ae538db1
+source-git-commit: 30144c26a03d145c9dc98c7a4db007d5c454a639
 workflow-type: tm+mt
-source-wordcount: '5447'
+source-wordcount: '5454'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,8 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 ## Agosto de 2024 {#aug-2024}
 
 * As medidas de proteção de desempenho para a Gestão de decisões foram atualizadas para mencionar as taxas de transferência de delivery das APIs de decisão com/sem Segmentação do Edge. [Leia mais](../start/guardrails.md#decision-management)
+* As medidas de proteção da jornada foram atualizadas. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
+
 
 ## Julho de 2024 {#july-2024}
 
