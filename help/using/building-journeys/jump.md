@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jump, activity, jornada, split, dividir
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 10%
@@ -32,7 +32,7 @@ Na jornada de origem, basta adicionar uma atividade **[!UICONTROL Jump]** e sele
 
 Na jornada de destino, o primeiro evento acionado internamente pela atividade **[!UICONTROL Jump]** fará com que o fluxo individual seja feito na jornada.
 
-## Ciclo de vida
+## Ciclo de vida {#jump-lifecycle}
 
 Digamos que você tenha adicionado uma atividade de **[!UICONTROL salto]** em uma jornada A para uma jornada B. A Jornada A é a **jornada de origem** e a jornada B, a **jornada de destino**.
 Estas são as diferentes etapas do processo de execução:
@@ -52,9 +52,9 @@ Na jornada B, o primeiro evento é acionado internamente, por meio da atividade 
 >
 >A jornada B também pode ser acionada por meio de um evento externo.
 
-## Práticas recomendadas e limitações
+## Práticas recomendadas e limitações {#jump-limitations}
 
-### Criação
+### Criação {#jump-limitations-authoring}
 
 * A atividade **[!UICONTROL Jump]** só está disponível em jornadas que usam um namespace.
 * Você só pode pular para uma jornada que use o mesmo namespace que a jornada de origem.
@@ -65,12 +65,12 @@ Na jornada B, o primeiro evento é acionado internamente, por meio da atividade 
 * A jornada de destino também pode incluir quantas atividades **[!UICONTROL Jump]** forem necessárias.
 * Não há suporte para padrões de loop. Não há como vincular duas ou mais jornadas, o que criaria um loop infinito. A tela de configuração de atividade **[!UICONTROL Jump]** impede que você faça isso.
 
-### Execução
+### Execução {#jump-limitations-exec}
 
 * Quando a atividade **[!UICONTROL Jump]** é executada, a versão mais recente da jornada de destino é acionada.
 * Como de costume, um indivíduo único só pode estar presente uma vez na mesma jornada. Como resultado, se o indivíduo enviado da jornada de origem já estiver na jornada de destino, ele não entrará na jornada de destino. Nenhum erro será relatado na atividade de **[!UICONTROL Salto]** porque esse é um comportamento normal.
 
-## Configuração da atividade Jump
+## Configuração da atividade Jump {#jump-configure}
 
 1. Projete sua **jornada de origem**.
 
@@ -110,7 +110,7 @@ Quando uma atividade de **[!UICONTROL Jump]** é configurada em uma jornada, um 
 
 ![](assets/jump7.png)
 
-## Solução de problemas
+## Solução de problemas {#jump-troubleshoot}
 
 Ocorrerão erros se:
 * a jornada de destino não existe mais

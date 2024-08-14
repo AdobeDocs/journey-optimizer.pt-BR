@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: qualificação, eventos, público-alvo, jornada, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1091'
 ht-degree: 10%
 
 ---
@@ -35,7 +35,7 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posteriormente
 
 ### Observações importantes{#important-notes-segment-qualification}
 
-* Lembre-se de que os públicos-alvo da Adobe Experience Platform são calculados uma vez por dia (**lote** públicos-alvo) ou em tempo real (**transmitidos** públicos-alvo, usando a opção Públicos-alvo de alta frequência do Adobe Experience Platform).
+* Lembre-se de que os públicos-alvo da Adobe Experience Platform são calculados uma vez por dia (**batch** públicos-alvo) ou em tempo real (para **públicos-alvo transmitidos**, usando a opção Públicos-alvo de alta frequência do Adobe Experience Platform).
 
    * Se o público-alvo selecionado for transmitido, os indivíduos que pertencem a esse público-alvo potencialmente entrarão na jornada em tempo real.
    * Se o público-alvo for em lote, as pessoas recém-qualificadas para esse público-alvo potencialmente inserirão a jornada quando o cálculo do público-alvo for executado no Adobe Experience Platform.
@@ -51,6 +51,8 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posteriormente
 * Ao usar uma qualificação de público-alvo em uma jornada, essa atividade de qualificação de público-alvo pode levar até 10 minutos para ficar ativa e ouvir os perfis que entram ou saem do público-alvo.
 
 ### Configurar a atividade{#cnfigure-segment-qualification}
+
+Para configurar a atividade **[!UICONTROL Qualificação de público-alvo]**, siga estas etapas:
 
 1. Expanda a categoria **[!UICONTROL Eventos]** e solte uma atividade **[!UICONTROL Qualificação de público-alvo]** na tela.
 
