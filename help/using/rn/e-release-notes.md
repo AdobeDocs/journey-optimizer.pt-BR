@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9fdaff7a4364bb7ecfeec27446ed8f4b4ce34488
+source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 52%
+source-wordcount: '571'
+ht-degree: 28%
 
 ---
 
@@ -44,6 +44,38 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Configuração de canal guiada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A Configuração de canal guiada permite automatizar as etapas de configuração do canal móvel em uma experiência unificada para começar mais rápido com o Journey Optimizer. Essa configuração facilita a configuração rápida de canais de marketing, garantindo que todos os recursos necessários estejam prontamente disponíveis no Experience Platform, Journey Optimizer e Coleção de dados. Isso permite que sua equipe de marketing comece imediatamente com a criação de campanhas e jornadas.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Cartões de conteúdo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O cartão de conteúdo é um novo recurso de mensagem digital do Adobe Journey Optimizer que fornece conteúdo personalizado e envolvente diretamente em aplicativos e sites móveis. Diferentemente das notificações por push tradicionais, os Cartões de conteúdo se integram perfeitamente à interface do usuário, oferecendo atualizações persistentes e não intrusivas que melhoram a interação e a experiência do usuário.</p>
+<p>Esse recurso permite que os profissionais de marketing apresentem conteúdo de mídia relevante e avançado para os usuários, aumentando o engajamento e garantindo que mensagens importantes sejam vistas sem interromper a jornada do usuário.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 <table>
 <thead>
 <tr>
@@ -61,6 +93,23 @@ Essa versão traz os novos recursos detalhados abaixo.
 <li>Para alguns canais, você pode criar configurações de canal que direcionem várias plataformas. Um exemplo seria uma configuração de canal de mensagens no aplicativo que pode direcionar uma página da Web, um aplicativo do iOS e um aplicativo do Android.</li>
 </ul></p>
 <p>Para obter mais informações, consulte a <a href="../configuration/ip-warmup-gs.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Variáveis em fragmentos de conteúdo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Os fragmentos agora podem consumir variáveis de entrada, tanto em <a href="../personalization/use-expression-fragments.md">fragmentos de expressão</a> quanto em <a href="../email/use-visual-fragments.md">fragmentos visuais</a>. Você pode usar essas variáveis para personalizar o conteúdo e os parâmetros das mensagens em suas campanhas e jornadas.</p>
+</p>
 </td>
 </tr>
 </tbody>
@@ -90,10 +139,13 @@ Esta versão vem com as melhorias listadas abaixo.
 **Jornadas**
 
 * Na atividade **Condição**, por padrão, a condição Tempo agora é definida por hora, das 00:00 às 12:00. [Leia mais](../building-journeys/condition-activity.md#time_condition)
+* Ao criar suas jornadas, os alertas agora são exibidos em uma lista suspensa, para se alinharem aos alertas de campanha e proporcionarem uma experiência de usuário consistente. [Leia mais](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* As opções de zoom na barra de ferramentas jornada foram aprimoradas: a porcentagem de zoom agora está visível e agora é possível redefinir facilmente o valor de zoom para 100%.
 
 **Públicos-alvo**
 
 * O uso de públicos-alvo a partir de uploads personalizados (arquivo CSV) agora está disponível para uso com o Privacy and Security Shield.
+* Ao direcionar um público-alvo de upload personalizado (arquivo CSV), agora é possível usar atributos do arquivo em suas campanhas e jornadas. Esses atributos estão disponíveis no editor de personalização, para personalizar suas mensagens, e no editor de expressão avançado do jornada.
 
 <!--
 **Push channel**
