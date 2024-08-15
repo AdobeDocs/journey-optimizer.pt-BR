@@ -4,12 +4,12 @@ product: journey optimizer
 title: Notas de versão
 feature: Release Notes
 topic: Content Management
-description: Notas de versão do Journey Optimizer
+description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
+source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 98%
+source-wordcount: '1830'
+ht-degree: 74%
 
 ---
 
@@ -26,9 +26,104 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
-## Atualizações de agosto {#24-8-2024}
+## Notas de versão antecipadas de agosto de 2024 {#e-2024}
 
-As seguintes alterações foram lançadas em agosto:
+**Data de lançamento**: 20-21 de agosto de 2024
+
+>[!CAUTION]
+>
+>**As notas de versão anteriores abaixo estão sujeitas a alterações sem aviso prévio até a data de lançamento**. Links, telas e documentação atualizada são publicados na data de lançamento.
+>
+
+### Novos recursos {#e-features}
+
+Essa versão traz os novos recursos detalhados abaixo.
+
+<table>
+<thead>
+<tr>
+<th><strong>Configuração de canal guiada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A Configuração de canal guiada permite automatizar as etapas de configuração do canal móvel em uma experiência unificada para começar mais rápido com o Journey Optimizer. Essa configuração facilita a configuração rápida de canais de marketing, garantindo que todos os recursos necessários estejam prontamente disponíveis no Experience Platform, Journey Optimizer e Coleção de dados. Isso permite que sua equipe de marketing comece imediatamente com a criação de campanhas e jornadas.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Cartões de conteúdo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O cartão de conteúdo é um novo recurso de mensagem digital do Adobe Journey Optimizer que fornece conteúdo personalizado e envolvente diretamente em aplicativos e sites móveis. Diferentemente das notificações por push tradicionais, os Cartões de conteúdo se integram perfeitamente à interface do usuário, oferecendo atualizações persistentes e não intrusivas que melhoram a interação e a experiência do usuário.</p>
+<p>Esse recurso permite que os profissionais de marketing apresentem conteúdo de mídia relevante e avançado para os usuários, aumentando o engajamento e garantindo que mensagens importantes sejam vistas sem interromper a jornada do usuário.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Configurações de canal aprimoradas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Os recursos atuais da superfície de canal foram aprimorados para oferecer uma abordagem consistente em todos os canais. Agora você pode definir, gerenciar e reutilizar essas configurações para qualquer um dos seus canais.</p>
+<p><ul>
+<li>Superfícies de canal agora são renomeadas para <strong>Configurações de canal</strong></li>
+<li>No inventário Configurações de canal, agora é possível criar configurações de canal reutilizáveis para todos os canais, incluindo agora Web, Mensagens no aplicativo ou Experiência baseada em código</li>
+<li>O OLAC (Object Level Access Control) agora está disponível para cada configuração de canal, permitindo que você decida quais dos seus usuários têm permissão para criar ou usar configurações específicas</li>
+<li>Para alguns canais, você pode criar configurações de canal que direcionem várias plataformas. Um exemplo seria uma configuração de canal de mensagens no aplicativo que pode direcionar uma página da Web, um aplicativo do iOS e um aplicativo do Android.</li>
+</ul></p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Ação personalizada do Marketo Engage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode integrar o Adobe Journey Optimizer com o Adobe Marketo Engage para criar seus casos de uso B2B. Em uma jornada, uma nova ação personalizada permite assimilar dados no Marketo.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Variáveis em fragmentos de conteúdo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Os fragmentos agora podem consumir variáveis de entrada, tanto em <a href="../personalization/use-expression-fragments.md">fragmentos de expressão</a> quanto em <a href="../email/use-visual-fragments.md">fragmentos visuais</a>. Você pode usar essas variáveis para personalizar o conteúdo e os parâmetros das mensagens em suas campanhas e jornadas.</p>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -46,6 +141,22 @@ As seguintes alterações foram lançadas em agosto:
 </tr>
 </tbody>
 </table>
+
+
+### Melhorias {#e-improvements}
+
+Esta versão traz as melhorias listadas abaixo.
+
+**Jornadas**
+
+* Na atividade **Condição**, por padrão, a condição Tempo agora é definida por hora, das 00:00 às 12:00. [Leia mais](../building-journeys/condition-activity.md#time_condition)
+* Ao criar suas jornadas, os alertas agora são exibidos em uma lista suspensa, para se alinharem aos alertas de campanha e proporcionarem uma experiência de usuário consistente. [Leia mais](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* As opções de zoom na barra de ferramentas jornada foram aprimoradas: a porcentagem de zoom agora está visível e agora é possível redefinir facilmente o valor de zoom para 100%.
+
+**Públicos-alvo**
+
+* O uso de públicos-alvo do upload personalizado (arquivo CSV) agora está disponível para uso com o complemento Privacy and Security Shield.
+* Ao direcionar um público-alvo de upload personalizado (arquivo CSV), agora é possível usar atributos do arquivo em suas campanhas e jornadas. Esses atributos estão disponíveis no editor de personalização, para personalizar suas mensagens, e no editor de expressão avançado do jornada.
 
 ## Notas de versão de julho de 2024 {#24-7-2024}
 
@@ -96,8 +207,6 @@ Esta versão vem com as melhorias listadas abaixo.
 
 * (Data de disponibilidade: 8 de julho) **Editor de expressão avançado na configuração de eventos de jornada**: agora você pode aproveitar o editor de expressão avançado ao configurar um evento, permitindo definir expressões mais complexas ou usar funções na condição de ID do evento. [Saiba mais](../event/about-creating.md#adv-exp-editor)
 
-
-
 ## Notas de versão de junho de 2024 {#24-6-2024}
 
 **Data de lançamento**: 18 a 19 de junho de 2024
@@ -105,23 +214,6 @@ Esta versão vem com as melhorias listadas abaixo.
 ### Novos recursos {#june-24-features}
 
 Essa versão traz os novos recursos detalhados abaixo.
-
-<!--table>
-<thead>
-<tr>
-<th><strong>IP Warmup Workflow</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
 
 <table>
 <thead>
@@ -158,7 +250,6 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -174,7 +265,6 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>

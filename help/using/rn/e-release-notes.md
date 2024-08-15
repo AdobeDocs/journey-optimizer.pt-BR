@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
+source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 28%
+source-wordcount: '633'
+ht-degree: 34%
 
 ---
 
@@ -28,21 +28,6 @@ O [!DNL Adobe Journey Optimizer] fornece continuamente novos recursos, melhorias
 ### Novos recursos {#e-features}
 
 Essa versão traz os novos recursos detalhados abaixo.
-
-<table>
-<thead>
-<tr>
-<th><strong>Ação personalizada do Marketo Engage</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Agora você pode integrar o Adobe Journey Optimizer com o Adobe Marketo Engage para criar seus casos de uso B2B. Em uma jornada, uma nova ação personalizada permite assimilar dados no Marketo.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 
 <table>
@@ -102,6 +87,22 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
+<th><strong>Ação personalizada do Marketo Engage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode integrar o Adobe Journey Optimizer com o Adobe Marketo Engage para criar seus casos de uso B2B. Em uma jornada, uma nova ação personalizada permite assimilar dados no Marketo.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
 <th><strong>Variáveis em fragmentos de conteúdo</strong><br/></th>
 </tr>
 </thead>
@@ -115,6 +116,22 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Fluxo de trabalho de aquecimento de IP</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Data de disponibilidade: 13 de agosto</p>
+<p>Se você estiver enviando emails em um novo endereço IP, agora é possível executar facilmente fluxos de trabalho de aquecimento de IP diretamente da interface do usuário. O Adobe Journey Optimizer oferece uma maneira padronizada e eficiente de aquecer seus endereços IP que segue as práticas recomendadas para uma capacidade de entrega otimizada.</p>
+<p>Para obter mais informações, consulte a <a href="../configuration/ip-warmup-gs.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <!--table>
 <thead>
