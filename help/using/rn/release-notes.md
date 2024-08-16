@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 470a1a999eeedd94a20bc1b0a49b0f0bce472a1c
+source-git-commit: dc6a91e4999bd8dfb51372f6b4aca47b14fe4029
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '888'
 ht-degree: 47%
 
 ---
@@ -79,10 +79,10 @@ Essa versão traz os novos recursos detalhados abaixo.
 <tbody>
 <tr>
 <td>
-<p>Os recursos atuais da superfície de canal foram aprimorados para oferecer uma abordagem consistente em todos os canais. Agora você pode definir, gerenciar e reutilizar essas configurações para qualquer um dos seus canais.</p>
+<p>Os recursos atuais da superfície de canal foram aprimorados para oferecer uma abordagem consistente em todos os canais. Agora é possível definir, gerenciar e reutilizar essas configurações para qualquer um dos canais, incluindo Web, mensagens no aplicativo ou experiência baseada em código.</p>
 <p><ul>
 <li>Superfícies de canal agora são renomeadas para <strong>Configurações de canal</strong></li>
-<li>No inventário Configurações de canal, agora é possível criar configurações de canal reutilizáveis para todos os canais, incluindo agora Web, Mensagens no aplicativo ou Experiência baseada em código</li>
+<li>Você pode anexar uma ou várias ações de marketing para aplicar políticas de consentimento e governança de dados</li>
 <li>O OLAC (Object Level Access Control) agora está disponível para cada configuração de canal, permitindo que você decida quais dos seus usuários têm permissão para criar ou usar configurações específicas</li>
 <li>Para alguns canais, você pode criar configurações de canal que direcionem várias plataformas. Um exemplo seria uma configuração de canal de mensagens no aplicativo que pode direcionar uma página da Web, um aplicativo do iOS e um aplicativo do Android.</li>
 </ul></p>
@@ -91,7 +91,6 @@ Essa versão traz os novos recursos detalhados abaixo.
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
