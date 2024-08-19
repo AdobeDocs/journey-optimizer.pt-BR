@@ -21,7 +21,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 
 ## Agosto de 2024 {#aug-2024}
 
-* As medidas de proteção de desempenho para a Gestão de decisões foram atualizadas para mencionar as taxas de transferência de delivery das APIs de decisão com/sem Segmentação do Edge. [Leia mais](../start/guardrails.md#decision-management)
+* As medidas de proteção de desempenho para a Gestão de decisões foram atualizadas para mencionar as taxas de transferência de entrega das APIs de decisão com ou sem a segmentação do Edge. [Leia mais](../start/guardrails.md#decision-management)
 * As medidas de proteção da jornada foram atualizadas. [Leia mais](../start/guardrails.md#journeys-guardrails-journeys)
 
 
