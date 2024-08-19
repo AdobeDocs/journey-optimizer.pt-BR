@@ -6,9 +6,9 @@ user-guide-description: Use o Journey Optimizer para criar e fornecer experiênc
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9add1b2a5f6941773416daea2366f58851a6028a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1889'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
