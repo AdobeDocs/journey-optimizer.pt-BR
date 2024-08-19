@@ -5,17 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 5%
+source-wordcount: '112'
+ht-degree: 6%
 
 ---
 
 
 # Excluir um item de decisão {#delete-decision-item}
 
-Ocasionalmente, pode ser necessário remover (DELETE) um item de decisão. Isso é feito executando uma solicitação DELETE para a API da Biblioteca de ofertas usando a ID do item de decisão que você deseja excluir.
+Para remover um item de decisão, execute uma solicitação DELETE para a API da Biblioteca de ofertas com a ID do item de decisão que você deseja excluir.
 
 **Formato da API**
 

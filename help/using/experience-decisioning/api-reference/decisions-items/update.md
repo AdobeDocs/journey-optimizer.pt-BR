@@ -5,10 +5,10 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 7%
+source-wordcount: '137'
+ht-degree: 6%
 
 ---
 
@@ -18,14 +18,6 @@ ht-degree: 7%
 Você pode modificar ou atualizar um item de decisão fazendo uma solicitação PATCH para a API da biblioteca de ofertas.
 
 Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte a [documentação oficial do Patch JSON](http://jsonpatch.com/).
-
-**Cabeçalhos Aceitar e Tipo de Conteúdo**
-
-A tabela a seguir mostra os valores válidos que compõem os campos Content-Type no cabeçalho da solicitação:
-
-| Nome do cabeçalho | Valor |
-| ----------- | ----- |
-| Tipo de conteúdo | `application/json` |
 
 **Formato da API**
 
@@ -66,11 +58,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234
 | --------- | ----------- |
 | `value` | O novo valor com o qual você deseja atualizar seu parâmetro. |
 | `path` | O caminho do parâmetro a ser atualizado. |
-| `op` | A chamada de operação usada para definir a ação necessária para atualizar a conexão. As operações incluem: `add`, `replace`, `remove`, `copy` e `test`. |
+| `op` | O tipo de operação a ser executada. As operações incluem: `add`, `replace`, `remove`, `copy` e `test`. |
 
 **Resposta**
 
-Uma resposta bem-sucedida retorna os detalhes do item de decisão recém-criado, incluindo a id. Você pode usar a id em etapas posteriores para atualizar ou excluir o item de decisão.
+Uma resposta bem-sucedida retorna os detalhes do item atualizado, incluindo a id. Você pode usar a id em etapas posteriores para atualizar ou excluir o item de decisão.
 
 ```json
 {

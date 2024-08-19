@@ -1,14 +1,14 @@
 ---
 title: Criar um item de decisão
-description: Itens de decisão são ofertas de marketing que podem ser criadas e organizadas em coleções e catálogos.
+description: Saiba como criar um item de decisão usando a API da Biblioteca de ofertas.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 9%
+source-wordcount: '79'
+ht-degree: 8%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 9%
 # Criar um item de decisão {#create-decision-items}
 
 Você pode criar um item de decisão fazendo uma solicitação POST para a API da biblioteca de ofertas.
-
-**Cabeçalhos Aceitar e Tipo de Conteúdo**
-
-A tabela a seguir mostra os valores válidos que compõem os campos Content-Type no cabeçalho da solicitação:
-
-| Nome do cabeçalho | Valor |
-| ----------- | ----- |
-| Tipo de conteúdo | `application/json` |
 
 **Formato da API**
 
@@ -68,7 +60,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-items' \
         }
     },
     "_<imsOrg>": {
-        "some_field": "some value"
+        "foo": "bar"
     }
 }'
 ```

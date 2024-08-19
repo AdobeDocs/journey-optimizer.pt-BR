@@ -5,10 +5,10 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 9%
+source-wordcount: '80'
+ht-degree: 8%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 9%
 # Criar uma coleção de itens {#create-decision-items}
 
 Você pode criar uma coleção de itens fazendo uma solicitação POST para a API da biblioteca de ofertas.
-
-**Cabeçalhos Aceitar e Tipo de Conteúdo**
-
-A tabela a seguir mostra os valores válidos que compõem os campos Content-Type no cabeçalho da solicitação:
-
-| Nome do cabeçalho | Valor |
-| ----------- | ----- |
-| Tipo de conteúdo | `application/json` |
 
 **Formato da API**
 

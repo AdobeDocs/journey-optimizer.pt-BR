@@ -1,12 +1,14 @@
 ---
 title: Atualizar uma coleção de itens
+description: Coleções são subconjuntos de ofertas com base em condições predefinidas por um profissional de marketing, como a categoria da oferta.
+feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 8%
+source-wordcount: '132'
+ht-degree: 6%
 
 ---
 
@@ -16,14 +18,6 @@ ht-degree: 8%
 Você pode modificar ou atualizar uma coleção de itens fazendo uma solicitação PATCH para a API da biblioteca de ofertas.
 
 Para obter mais informações sobre o Patch JSON, incluindo as operações disponíveis, consulte a [documentação oficial do Patch JSON](http://jsonpatch.com/).
-
-**Cabeçalhos Aceitar e Tipo de Conteúdo**
-
-A tabela a seguir mostra os valores válidos que compõem os campos Content-Type no cabeçalho da solicitação:
-
-| Nome do cabeçalho | Valor |
-| ----------- | ----- |
-| Tipo de conteúdo | `application/json` |
 
 **Formato da API**
 
