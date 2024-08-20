@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fe963b43f08a99e000a916571f5b04a4a96c845
+source-git-commit: d971d857a480868f5ef502f3a3f2c209afc93cca
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 59%
+source-wordcount: '604'
+ht-degree: 70%
 
 ---
 
@@ -39,58 +39,57 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 Essa versão traz os novos recursos detalhados abaixo.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Configuração de canal guiada</strong><br/></th>
+<th><strong>Guided Channel Setup</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A Configuração de canal guiada permite automatizar e validar a configuração de canal em uma experiência unificada, acelerando o processo de introdução ao Journey Optimizer. Essa nova configuração guiada simplifica a configuração rápida do canal, garantindo que todos os recursos necessários sejam instalados e funcionem prontamente no Experience Platform, Journey Optimizer e Coleção de dados. Isso permite que as equipes de marketing, engenharia de produtos e dados comecem rapidamente com a criação de campanhas e jornadas.</p>
+<p>Guided Channel Setup enables you to automate and validate channel setup in a unified experience, speeding up the process of getting started with Journey Optimizer. This new guided setup streamlines rapid channel configuration, ensuring all necessary resources are readily installed and working within Experience Platform, Journey Optimizer, and Data Collection. This enables marketing, product and data engineering teams to quickly begin with campaign and journey creation.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Cartões de conteúdo</strong><br/></th>
+<th><strong>Content Cards</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O cartão de conteúdo é um novo recurso de mensagem digital do Adobe Journey Optimizer que fornece conteúdo personalizado e envolvente diretamente em aplicativos e sites móveis. Diferentemente das notificações por push tradicionais, os Cartões de conteúdo se integram perfeitamente à interface do usuário, oferecendo atualizações persistentes e não intrusivas que melhoram a interação e a experiência do usuário.</p>
-<p>Esse recurso permite que os profissionais de marketing apresentem conteúdo de mídia relevante e avançado para os usuários, aumentando o engajamento e garantindo que mensagens importantes sejam vistas sem interromper a jornada do usuário.</p>
+<p>Content card is a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Configurações de canal aprimoradas</strong><br/></th>
+<th><strong>Improved Channel Configurations</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Os recursos atuais de superfície de canal foram aprimorados para oferecer uma abordagem consistente em todos os canais. Agora é possível definir, gerenciar e reutilizar essas configurações para qualquer um dos canais, incluindo Web, mensagens no aplicativo ou experiência baseada em código.</p>
+<p>The current channel surface capabilities have been enhanced for a consistent approach across all channels. You can now define, manage, and reuse these configurations for any of your channels, including Web, In-app messaging, or Code-based experience.</p>
 <p><ul>
-<li>Superfícies de canal agora são renomeadas para <strong>Configurações de canal</strong></li>
-<li>Você pode anexar uma ou várias ações de marketing para aplicar políticas de consentimento e governança de dados</li>
-<li>O controle de acesso no nível do objeto (OLAC) agora está disponível para cada configuração de canal, permitindo que você decida quais dos seus usuários têm permissão para criar ou usar configurações específicas</li>
-<li>Para alguns canais, você pode criar configurações de canal que direcionem várias plataformas. Um exemplo seria uma configuração de canal de mensagens no aplicativo que pode direcionar uma página da Web, um aplicativo do iOS ou do Android.</li>
+<li>Channel surfaces are now renamed to <strong>Channel configurations</strong></li>
+<li>You can attach one or multiple marketing actions to enforce consent and data governance policies</li>
+<li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
+<li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
 </ul></p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -148,7 +147,7 @@ Esta versão traz as melhorias listadas abaixo.
 
 **Jornadas**
 
-* Na atividade **Condição**, por padrão, a condição Tempo agora é definida por hora, das 00:00 às 12:00. [Leia mais](../building-journeys/condition-activity.md#time_condition)
+<!--* In the **Condition** activity, by default, the Time condition is now set by hour, from 00:00 to 12:00. [Read more](../building-journeys/condition-activity.md#time_condition)-->
 * Ao criar suas jornadas, os alertas agora são exibidos em uma lista suspensa, para se alinharem aos alertas de campanha e proporcionarem uma experiência de usuário consistente. [Leia mais](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * As opções de zoom na barra de ferramentas jornada foram aprimoradas: a porcentagem de zoom agora está visível e agora é possível redefinir facilmente o valor de zoom para 100%.
 
