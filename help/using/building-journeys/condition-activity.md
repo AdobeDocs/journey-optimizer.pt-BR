@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: atividade, condição, tela, jornada
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1493'
 ht-degree: 17%
 
 ---
@@ -74,7 +74,7 @@ No editor simples, você também encontrará a categoria Propriedades da Jornada
 
 ## Condição do Source de dados {#data_source_condition}
 
-Isso permite definir uma condição com base nos campos das fontes de dados ou nos eventos posicionados anteriormente na jornada. Saiba como usar o editor de expressão [nesta seção](expression/expressionadvanced.md).
+Use uma **[!UICONTROL Condição de Source de Dados]** para definir uma condição com base nos campos das fontes de dados ou nos eventos posicionados anteriormente na jornada. Esse tipo de condição é definido com o editor de expressão. Saiba como usar o editor de expressão [nesta seção](expression/expressionadvanced.md).
 
 Por exemplo, se você estiver direcionando um público-alvo com atributos de enriquecimento gerados usando um fluxo de trabalho de composição ou um upload personalizado (arquivo CSV), você pode aproveitar esses atributos de enriquecimento para criar sua condição.
 
@@ -82,13 +82,15 @@ Usando o editor de expressão avançado, você pode configurar condições mais 
 
 ![](assets/journey50.png)
 
-## Condição de tempo{#time_condition}
+## Condição de tempo {#time_condition}
 
-Isso permite executar ações diferentes de acordo com a hora do dia e/ou o dia da semana. Por exemplo, você pode decidir enviar notificações por push durante o dia e emails à noite durante os dias da semana.
+Use uma **[!UICONTROL Condição de tempo]** para executar ações diferentes de acordo com a hora do dia e/ou o dia da semana. Por exemplo, você pode decidir enviar notificações por push durante o dia e emails à noite durante os dias da semana.
 
 >[!NOTE]
 >
->O fuso horário não é específico de uma condição e é definido no nível da jornada nas propriedades da jornada. Consulte [esta página](../building-journeys/timezone-management.md).
+>* O fuso horário não é específico de uma condição e é definido no nível da jornada nas propriedades da jornada. Saiba mais [nesta página](../building-journeys/timezone-management.md).
+>
+>* Por padrão, a **[!UICONTROL Condição de hora]** é definida por hora, das 00:00 às 12:00.
 
 ![](assets/journey51.png)
 

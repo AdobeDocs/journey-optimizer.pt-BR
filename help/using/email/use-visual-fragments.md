@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '713'
 ht-degree: 2%
 
 ---
@@ -72,6 +72,12 @@ Para usar um fragmento em um email, siga as etapas abaixo.
 1. Se necessário, é possível quebrar a herança com o fragmento original. [Saiba mais](#break-inheritance)
 
 1. Adicione quantos fragmentos desejar e **[!UICONTROL Salve]** suas alterações.
+
+## Usar variáveis implícitas {#implicit-variables-in-fragments}
+
+As variáveis implícitas aprimoram a funcionalidade existente do fragmento para melhorar a eficiência na reutilização de conteúdo e nos casos de uso de script. Os fragmentos podem usar variáveis de entrada e criar variáveis de saída utilizáveis no conteúdo da campanha e da jornada.
+
+Saiba como usar variáveis implícitas em [esta seção](../personalization/use-expression-fragments.md#implicit-variables).
 
 ## Personalizar campos editáveis {#customize-fields}
 

@@ -8,14 +8,18 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # Introdução a alertas {#alerts}
+
+Ao criar jornadas e campanhas, use o botão **Alertas** para verificar e resolver erros antes de executá-los ou publicá-los. Saiba como solucionar problemas do jornada em [esta página](../building-journeys/troubleshooting.md). Saiba como revisar suas campanhas em [esta página](../campaigns/review-activate-campaign.md).
+
+Você também pode assinar alertas de sistema do Adobe Journey Optimizer, conforme detalhado nesta página.
 
 ## Acessar e assinar alertas {#alerting-capabilities}
 
@@ -88,5 +92,5 @@ Para solucionar problemas de alertas de **Ação personalizada**:
   ![](assets/alert-troubleshooting-3.png)
 
 * Verifique stepEvents da jornada para obter mais informações sobre &quot;failureReason&quot;.
-* Verifique a configuração de ação personalizada e valide se a autenticação ainda está OK. Executar uma verificação manual com o Postman,
-por exemplo.
+
+* Verifique a configuração de ação personalizada e valide se a autenticação ainda está OK. Execute uma verificação manual com o Postman, por exemplo.

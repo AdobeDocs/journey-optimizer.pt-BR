@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 7%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
@@ -26,6 +26,8 @@ Para acessar este painel, vá para **[!UICONTROL Administração]** > **[!UICONT
 >[!NOTE]
 >
 >Para exibir o painel, você deve ter a permissão [Exibir Painel de Uso da Licença](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}.
+
+Para [!DNL Adobe Journey Optimizer], você pode verificar o número de **Perfis envolvíveis** neste painel. Um perfil envolvível é um registro de informações que representam um indivíduo e é representado no Serviço de perfil. Esses registros são perfis que você tentou utilizar com os recursos de criação, decisão, entrega, experimentação ou orquestração do Journey Optimizer nos últimos 12 meses.
 
 Saiba mais na documentação do Adobe Experience Platform:
 
