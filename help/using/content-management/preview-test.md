@@ -16,12 +16,12 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="Verifique como o conteúdo está sendo renderizado"
+>title="Verificar como o conteúdo está sendo renderizado"
 >abstract="Depois que o conteúdo for definido, você poderá usar perfis de teste para visualizá-lo e verificar se a renderização está correta, de acordo com o canal que está usando."
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_simulate"
->title="Verifique como o conteúdo está sendo renderizado"
+>title="Verificar como o conteúdo está sendo renderizado"
 >abstract="Depois que o conteúdo for definido, você poderá visualizá-lo e verificar se a renderização está correta de acordo com o canal que está usando."
 
 ## Sobre a visualização e o teste do conteúdo {#about}
