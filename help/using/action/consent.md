@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: políticas, governança, plataforma, healthcare shield, consentimento
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -34,14 +34,14 @@ Por exemplo, é possível [criar políticas de consentimento](https://experience
 
    * Se você tem o Adobe **Healthcare Shield** ou o **Privacy and Security Shield**, poderá criar uma política de consentimento personalizada que substitua a lógica padrão. Por exemplo, é possível definir uma política para apenas enviar mensagens de email às pessoas físicas que aceitaram recebê-las. Na ausência de uma política personalizada, a política padrão é aplicada.
 
-  Para aplicar uma política personalizada, defina uma ação de marketing nessa política e associe-a a uma superfície de canal. [Saiba mais](#surface-marketing-actions)
+  Para aplicar uma política personalizada, você precisa definir uma ação de marketing nessa política e associá-la a uma configuração de canal. [Saiba mais](#surface-marketing-actions)
 
 No nível da jornada, é possível aplicar políticas de consentimento às suas ações personalizadas:
 
 * Ao **configurar uma ação personalizada**, é possível definir um canal e uma ação de marketing. [Saiba mais](#consent-custom-action)
 * Ao adicionar a **ação personalizada em uma jornada**, é possível definir uma ação de marketing adicional. [Saiba mais](#consent-journey)
 
-## Utilizar políticas de consentimento por meio de superfícies de canal {#surface-marketing-actions}
+## Aproveite as políticas de consentimento por meio de configurações de canal {#surface-marketing-actions}
 
 No [!DNL Journey Optimizer], o consentimento é tratado pelo [Esquema de consentimento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR) da Experience Platform{target="_blank"}. Por padrão, o valor do campo de consentimento fica vazio e é tratado como consentimento para receber suas comunicações. Durante a integração, é possível modificar esse valor padrão para um dos valores possíveis listados [aqui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=pt-BR#choice-values){target="_blank"}.
 
@@ -73,13 +73,13 @@ Por exemplo, caso queira criar uma política de consentimento para direcionar ap
 
 1. No Journey Optimizer, crie uma superfície de email. [Saiba como](../configuration/channel-surfaces.md#create-channel-surface)
 
-1. Nos detalhes da superfície de email, selecione a ação de marketing **[!UICONTROL Direcionamento de email]**.
+1. Nos detalhes de configuração do email, selecione a ação de marketing **[!UICONTROL Direcionamento de email]**.
 
    ![](assets/surface-marketing-action.png)
 
 Todas as políticas de consentimento associadas a essa ação de marketing são automaticamente utilizadas, a fim de respeitar as preferências de clientes.
 
-Portanto, nesse exemplo, qualquer [email](../email/create-email.md) que use essa superfície em uma campanha ou jornada só é enviado aos perfis que aceitaram o recebimento de emails. Perfis que não aceitaram receber comunicações por email são excluídos.
+Portanto, neste exemplo, qualquer [email](../email/create-email.md) usando essa configuração em uma campanha ou jornada é enviado somente aos perfis que consentiram em receber emails de você. Perfis que não aceitaram receber comunicações por email são excluídos.
 
 ## Aproveitar as políticas de consentimento por meio de ações personalizadas {#journey-custom-actions}
 

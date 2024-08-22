@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: criar, enviar email, iniciar, jornada, campanha
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '912'
 ht-degree: 9%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 9%
 >id="ajo_message_email"
 >title="Criação de email"
 >abstract="Defina o assunto do email e abra o Designer de email para criar seu conteúdo."
-
 
 ## Adicionar uma ação de email {#email-action}
 
@@ -36,11 +35,11 @@ Para criar um email em [!DNL Journey Optimizer], adicione uma ação de **[!UICO
 
 1. Forneça informações básicas sobre a mensagem (rótulo, descrição, categoria).
 
-1. Escolha a [superfície de email](email-settings.md) a ser usada.
+1. Escolha ou crie a [configuração de email](email-settings.md).
 
    ![](assets/email_journey.png)
 
-   O campo é pré-preenchido, por padrão, com a última superfície usada para esse canal pelo usuário.
+   O campo é pré-preenchido, por padrão, com a última configuração usada para esse canal pelo usuário.
 
 >[!NOTE]
 >
@@ -52,15 +51,15 @@ Para obter mais informações sobre como configurar uma jornada, consulte [esta 
 
 1. Crie uma nova campanha agendada ou acionada por API e selecione **[!UICONTROL Email]** como ação.
 
-1. Escolha a [superfície de email](email-settings.md) a ser usada.
-
-   ![](assets/email_campaign.png)
-
-1. Clique em **[!UICONTROL Criar]**.
-
 1. Conclua as etapas para criar uma campanha de email, como as propriedades da campanha, [público](../audience/about-audiences.md) e [agendamento](../campaigns/create-campaign.md#schedule).
 
    ![](assets/email_campaign_steps.png)
+
+1. Selecione a ação **[!UICONTROL Email]**.
+
+1. Selecione ou crie a configuração de email. [Saiba mais](email-settings.md)
+
+   ![](assets/email_campaign.png)
 
 <!--
 From the **[!UICONTROL Action]** section, specify if you want to track how your recipients react to your delivery: you can track email opens, and/or clicks on links and buttons in your email.
@@ -85,7 +84,7 @@ Para obter mais informações sobre como configurar uma campanha, consulte [esta
 
    ![](assets/email_campaign_edit_content.png)
 
-   Na seção **[!UICONTROL Cabeçalho]** da tela **[!UICONTROL Editar conteúdo]**, os campos **[!UICONTROL De nome]**, **[!UICONTROL De email]** e **[!UICONTROL Cco]** estão configurados na superfície de email selecionada. [Saiba mais](email-settings.md) <!--check if same for journey-->
+   Na seção **[!UICONTROL Cabeçalho]** da tela **[!UICONTROL Editar conteúdo]**, os campos **[!UICONTROL De nome]**, **[!UICONTROL De email]** e **[!UICONTROL Cco]** estão configurados na configuração de email selecionada. [Saiba mais](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -123,7 +122,7 @@ Dois tipos de alertas podem ocorrer:
 
      >[!NOTE]
      >
-     >As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida no nível [superfície de canal](email-settings.md#email-type) e ao [criar a mensagem](#create-email-journey-campaign) a partir de uma jornada ou campanha.
+     >As mensagens de email do tipo Marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida no nível [configuração de canal](email-settings.md#email-type) e ao [criar a mensagem](#create-email-journey-campaign) a partir de uma jornada ou campanha.
 
    * **[!UICONTROL A versão de texto do HTML está vazia]**: não se esqueça de definir uma versão de texto do corpo do email, pois ela será usada quando o conteúdo do HTML não puder ser exibido. Saiba como criar a versão de texto em [esta seção](text-version-email.md).
 
@@ -139,7 +138,7 @@ Dois tipos de alertas podem ocorrer:
 
    * **[!UICONTROL A versão do email da mensagem está vazia]**: esse erro é exibido quando o conteúdo do email não foi configurado. Saiba como criar conteúdo de email em [esta seção](get-started-email-design.md).
 
-   * **[!UICONTROL A superfície não existe]**: você não poderá usar sua mensagem se a superfície selecionada for excluída após a criação da mensagem. Se este erro ocorrer, selecione outra superfície na mensagem **[!UICONTROL Propriedades]**. Saiba mais sobre superfícies de canal em [esta seção](../configuration/channel-surfaces.md).
+   * **[!UICONTROL a configuração não existe]**: você não poderá usar sua mensagem se a configuração selecionada for excluída após a criação da mensagem. Se este erro ocorrer, selecione outra configuração na mensagem **[!UICONTROL Propriedades]**. Saiba mais sobre configurações de canal em [esta seção](../configuration/channel-surfaces.md).
 
 >[!CAUTION]
 >

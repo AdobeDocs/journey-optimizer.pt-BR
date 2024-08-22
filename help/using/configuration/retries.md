@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: tentativas, rejeição, software, otimizador, erro
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 9%
@@ -50,7 +50,7 @@ Desde que nenhuma outra entrega tenha sido tentada e bem-sucedida entre esses do
 
 Caso o valor padrão de 5 não atenda às suas necessidades, você poderá modificar o limite de erro seguindo as etapas abaixo.
 
-1. Vá para **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** > **[!UICONTROL Lista de supressão]**.
+1. Vá para **[!UICONTROL Canais]** > **[!UICONTROL Configurações de email]** > **[!UICONTROL Lista de supressão]**.
 
 1. Selecione o botão **[!UICONTROL Editar regras de supressão]**.
 
@@ -72,7 +72,7 @@ O **período de nova tentativa** é o período no qual qualquer mensagem de emai
 
 Por padrão, as tentativas serão executadas por **3.5 dias** (ou **84 horas**) a partir do momento em que a mensagem for adicionada à fila de emails.
 
-No entanto, para garantir que as tentativas de repetição não sejam mais executadas quando não forem mais necessárias, você pode alterar essa configuração de acordo com suas necessidades ao criar ou editar uma [superfície de canal](channel-surfaces.md) (ou seja, predefinição de mensagem) aplicável ao canal de email.
+No entanto, para garantir que as tentativas de repetição não sejam mais executadas quando não forem mais necessárias, você pode alterar essa configuração de acordo com suas necessidades ao criar ou editar uma [configuração de canal](channel-surfaces.md) (ou seja, predefinição de mensagem) aplicável ao canal de email.
 
 Por exemplo, você pode definir o período de nova tentativa para 24 horas para um email transacional relacionado à redefinição de senha e que contém um link válido por apenas um dia. Da mesma forma, para uma venda à meia-noite, é possível definir um período de nova tentativa de 6 horas.
 
@@ -80,5 +80,5 @@ Por exemplo, você pode definir o período de nova tentativa para 24 horas para 
 >
 >O período de nova tentativa não pode exceder 84 horas. O período mínimo de nova tentativa é de 6 horas para emails de marketing e 10 minutos para emails transacionais.
 
-Saiba como ajustar os parâmetros de nova tentativa de email ao criar uma superfície de canal no [esta seção](../email/email-settings.md#email-retry).
+Saiba como ajustar os parâmetros de nova tentativa de email ao criar uma configuração de canal no [esta seção](../email/email-settings.md#email-retry).
 

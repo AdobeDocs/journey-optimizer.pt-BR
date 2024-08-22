@@ -1,36 +1,36 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar a superfície de SMS
-description: Saiba como configurar sua superfície SMS/MMS para enviar mensagens de texto com o Journey Optimizer
+title: Definir a configuração do SMS
+description: Saiba como definir a configuração de SMS/MMS para enviar mensagens de texto com o Journey Optimizer
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 080928d14a9d6ec116286386748b77a6a25e76f8
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 10%
+source-wordcount: '421'
+ht-degree: 2%
 
 ---
 
-# Criar uma superfície de SMS/MMS {#message-preset-sms}
+# Criar uma configuração de SMS/MMS {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="Definição da categoria da mensagem"
->abstract="Selecione o tipo de mensagens de texto usando esta superfície: Marketing para mensagens promocionais, que exigem consentimento do usuário, ou Transacional para mensagens não comerciais, como redefinição de senha."
+>abstract="Selecione o tipo de mensagem de texto usando essa configuração: Marketing para mensagens promocionais, que exigem consentimento do usuário, ou Transacional para mensagens não comerciais, como redefinição de senha."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=pt-BR#sms-opt-out-management" text="Recusar mensagens de texto de marketing"
 
-Depois que o canal SMS/MMS for configurado, você deverá criar uma superfície de canal para enviar mensagens SMS e MMS do **[!DNL Journey Optimizer]**.
+Depois que o canal SMS/MMS for configurado, você deverá criar uma configuração de canal para enviar mensagens SMS e MMS do **[!DNL Journey Optimizer]**.
 
-Para criar uma superfície de canal, siga estas etapas:
+Para criar uma configuração de canal, siga estas etapas:
 
-1. No painel à esquerda, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Identidade Visual]** > **[!UICONTROL Superfícies de canal]**. Clique no botão **[!UICONTROL Criar superfície de canal]**.
+1. No painel à esquerda, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Configurações gerais]** > **[!UICONTROL Configurações de canal]**. Clique no botão **[!UICONTROL Criar configuração de canal]**.
 
    ![](assets/preset-create.png)
 
-1. Insira um nome e uma descrição (opcional) para a superfície e selecione o canal SMS.
+1. Insira um nome e uma descrição (opcional) para a configuração e selecione o canal SMS.
 
    ![](assets/sms-create-surface.png)
 
@@ -42,18 +42,18 @@ Para criar uma superfície de canal, siga estas etapas:
 
    ![](assets/sms-surface-settings.png)
 
-   Comece selecionando o **[!UICONTROL Tipo de SMS]** que será enviado com a superfície: **[!UICONTROL Transacional]** ou **[!UICONTROL Marketing]**.
+   Comece selecionando o **[!UICONTROL Tipo de SMS]** que será enviado com a configuração: **[!UICONTROL Transacional]** ou **[!UICONTROL Marketing]**.
 
    * Escolha **Marketing** para mensagens de texto promocionais: essas mensagens exigem o consentimento do usuário.
    * Escolha **Transacional** para mensagens não comerciais, como confirmações de pedidos, notificações de redefinição de senha ou informações de entrega, por exemplo.
 
-   Ao criar um SMS/MMS, você deve escolher uma superfície de canal válida que corresponda à categoria selecionada para sua mensagem.
+   Ao criar um SMS/MMS, você deve escolher uma configuração de canal válida que corresponda à categoria selecionada para sua mensagem.
 
    >[!CAUTION]
    >
    >As mensagens **Transacionais** podem ser enviadas a perfis que cancelaram a assinatura de comunicações de marketing. Essas mensagens só podem ser enviadas em contextos específicos.
 
-1. Selecione a **[!UICONTROL configuração de SMS]** para associar à superfície.
+1. Selecione a **[!UICONTROL configuração de SMS]** para associar à configuração.
 
    Para obter mais informações sobre como configurar seu ambiente para enviar mensagens SMS, consulte [esta seção](#create-api).
 
@@ -67,17 +67,17 @@ Para criar uma superfície de canal, siga estas etapas:
    >
    >Para selecionar um subdomínio, verifique se você configurou anteriormente pelo menos um subdomínio SMS/MMS. [Saiba como](sms-subdomains.md)
 
-1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Enviar]** para confirmar. Você também pode salvar a superfície de canal como rascunho e retomar sua configuração posteriormente.
+1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Enviar]** para confirmar. Você também pode salvar a configuração do canal como rascunho e retomar a configuração posteriormente.
 
    ![](assets/sms-submit-surface.png)
 
-1. Após criar a superfície de canal, ela é exibida na lista com o status **[!UICONTROL Processando]**.
+1. Depois que a configuração do canal é criada, ela é exibida na lista com o status **[!UICONTROL Processando]**.
 
    >[!NOTE]
    >
    >Se as verificações não forem bem-sucedidas, saiba mais sobre os possíveis motivos de falha em [esta seção](#monitor-channel-surfaces).
 
-1. Depois que as verificações forem bem-sucedidas, a superfície de canal obterá o status **[!UICONTROL Ativo]**. Ele está pronto para ser usado para enviar mensagens.
+1. Depois que as verificações forem bem-sucedidas, a configuração do canal obterá o status **[!UICONTROL Ativo]**. Ele está pronto para ser usado para enviar mensagens.
 
    ![](assets/preset-active.png)
 

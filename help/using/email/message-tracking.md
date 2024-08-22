@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: links, rastreamento, monitor, email
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 35%
@@ -89,7 +89,7 @@ Para inserir links no conteúdo do email, siga as etapas abaixo:
 
 >[!NOTE]
 >
->As mensagens de email do tipo Marketing devem incluir um [link para opção de não participação](../privacy/opt-out.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida na [superfície de canal](../configuration/channel-surfaces.md#email-type) ao criar a mensagem.
+>As mensagens de email do tipo Marketing devem incluir um [link para opção de não participação](../privacy/opt-out.md#opt-out-management), que não é necessário para mensagens transacionais. A categoria da mensagem (**[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**) é definida na [configuração de canal](../configuration/channel-surfaces.md#email-type) ao criar a mensagem.
 
 ## Ajustar links {#adjust-links}
 
@@ -164,7 +164,7 @@ Relatórios sobre aberturas e cliques estão disponíveis no [Relatório ao vivo
 
 ## Personalizar rastreamento do URL {#url-tracking}
 
-Geralmente, o [rastreamento de URL](email-settings.md#url-tracking) é gerenciado no nível da superfície, mas não há suporte para atributos de perfil. Atualmente, a única maneira de fazer isso é [personalizar URLs](../personalization/personalization-syntax.md#perso-urls) no designer de email.
+Geralmente, o [rastreamento de URL](email-settings.md#url-tracking) é gerenciado no nível de configuração, mas não há suporte para atributos de perfil. Atualmente, a única maneira de fazer isso é [personalizar URLs](../personalization/personalization-syntax.md#perso-urls) no designer de email.
 
 Para adicionar parâmetros de rastreamento de URL personalizados aos links, siga as etapas abaixo.
 

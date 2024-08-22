@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="Disponibilidade limitada"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 18%
+ht-degree: 17%
 
 ---
 
@@ -35,7 +35,7 @@ As políticas de decisão contêm toda a lógica de seleção, para que o mecani
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="Defina o número de itens a serem retornados"
->abstract="Selecione o número de itens de decisão que deseja que sejam retornados. Por exemplo, se você selecionar 2, as 2 melhores ofertas elegíveis serão apresentadas para a superfície atual."
+>abstract="Selecione o número de itens de decisão que deseja que sejam retornados. Por exemplo, se você selecionar 2, as 2 melhores ofertas qualificadas serão apresentadas para a configuração atual."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
@@ -65,7 +65,7 @@ Para apresentar a melhor oferta dinâmica e experiência aos visitantes em seu s
 
    ![](assets/decision-code-based-details.png)
 
-1. Selecione o número de itens que você deseja retornar. Por exemplo, se você selecionar 2, as 2 melhores ofertas qualificadas serão apresentadas para a superfície atual. Clique em **[!UICONTROL Avançar]**
+1. Selecione o número de itens que você deseja retornar. Por exemplo, se você selecionar 2, as 2 melhores ofertas qualificadas serão apresentadas para a configuração atual. Clique em **[!UICONTROL Avançar]**
 
 1. Use o botão **[!UICONTROL Adicionar estratégia]** para definir as estratégias de seleção para sua política de decisão. Cada estratégia consiste em uma coleção de ofertas associada a uma restrição de qualificação e um método de classificação para determinar as ofertas a serem exibidas. [Saiba mais](selection-strategies.md)
 

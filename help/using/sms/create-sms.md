@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 10%
+source-wordcount: '1016'
+ht-degree: 9%
 
 ---
 
@@ -41,33 +41,37 @@ Navegue pelas guias abaixo para saber como adicionar uma mensagem de texto (SMS/
 
    ![](assets/sms_create_1.png)
 
-1. Forneça informações básicas sobre a mensagem (rótulo, descrição, categoria) e escolha a superfície de mensagem a ser usada.
+1. Forneça informações básicas sobre a mensagem (rótulo, descrição, categoria) e escolha a configuração de mensagem a ser usada.
 
    ![](assets/sms_create_2.png)
 
    Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md)
 
-   O campo **[!UICONTROL Superfície]** é preenchido previamente, por padrão, com a última superfície usada para esse canal pelo usuário.
+   O campo **[!UICONTROL configuração]** é preenchido previamente, por padrão, com a última configuração usada para esse canal pelo usuário.
 
 Agora você pode começar a criar o conteúdo da sua mensagem SMS usando o botão **[!UICONTROL Editar conteúdo]**, conforme detalhado abaixo.
 
 >[!TAB Adicionar uma mensagem de texto a uma campanha]
 
-1. Crie uma nova campanha agendada ou acionada por API, selecione **[!UICONTROL SMS]** como ação e escolha a **[!UICONTROL Superfície do aplicativo]** para usar. Saiba mais sobre a configuração de SMS [nesta página](sms-configuration.md).
+1. Acesse o menu **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**.
 
-   ![](assets/sms_create_3.png)
+1. Selecione o tipo de campanha que deseja executar
 
-1. Clique em **[!UICONTROL Criar]**.
+   * **Agendado - Marketing**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas são destinadas ao envio de mensagens de marketing. Eles são configurados e executados na interface do usuário do.
+
+   * **Acionado por API - Marketing/Transacional**: execute a campanha usando uma chamada de API. As campanhas acionadas por API destinam-se ao envio de mensagens de marketing ou transacionais, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc.
 
 1. Na seção **[!UICONTROL Propriedades]**, edite o **[!UICONTROL Título]** e a **[!UICONTROL Descrição]** da sua campanha.
-
-   ![](assets/sms_create_4.png)
 
 1. Clique no botão **[!UICONTROL Selecionar público-alvo]** para definir o público-alvo a ser direcionado na lista de públicos-alvo disponíveis do Adobe Experience Platform. [Saiba mais](../audience/about-audiences.md).
 
 1. No campo **[!UICONTROL Namespace de identidade]**, escolha o namespace a ser usado para identificar os indivíduos do público selecionado. [Saiba mais](../event/about-creating.md#select-the-namespace).
 
-   ![](assets/sms_create_5.png)
+1. Na seção **[!UICONTROL Actions]**, escolha o **[!UICONTROL SMS]** e selecione ou crie uma nova configuração.
+
+   Saiba mais sobre a configuração de SMS [nesta página](sms-configuration.md).
+
+   ![](assets/sms_create_3.png)
 
 1. Clique em **[!UICONTROL Criar experimento]** para começar a configurar seu experimento de conteúdo e criar tratamentos para medir seu desempenho e identificar a melhor opção para seu público-alvo. [Saiba mais](../content-management/content-experiment.md)
 
@@ -105,7 +109,7 @@ Para configurar o conteúdo de SMS, siga as etapas abaixo. As configurações pa
 
 1. Depois de definir o conteúdo, você pode adicionar URLs rastreados à mensagem. Para fazer isso, acesse o menu **[!UICONTROL Funções auxiliares]** e selecione **[!UICONTROL Auxiliares]**.
 
-   Observe que para usar a função de redução de URL, primeiro você deve configurar um subdomínio que será vinculado à sua superfície. [Saiba mais](sms-subdomains.md)
+   Observe que para usar a função de redução de URL, primeiro você deve configurar um subdomínio que será vinculado à sua configuração. [Saiba mais](sms-subdomains.md)
 
    >[!CAUTION]
    >

@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuração, configurar, mensagens, canal, sandbox, otimizador
-source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Para criar suas jornadas e enviar mensagens, você precisa seguir as etapas de c
 
    * Para o canal **SMS** é necessário configurar sua instância para enviar SMS, incluindo a integração das configurações do provedor com [!DNL Journey Optimizer]. [Saiba mais](../sms/sms-configuration.md)
 
-1. Depois de concluído, você deve criar **superfícies de canal** para configurar todos os parâmetros técnicos necessários para entregar mensagens. [Saiba mais](channel-surfaces.md)
+1. Depois de concluído, você deve criar **configurações de canal** para configurar todos os parâmetros técnicos necessários para entregar mensagens. [Saiba mais](channel-surfaces.md)
 
 1. Você também pode:
 

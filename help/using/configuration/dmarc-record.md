@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomínio, domínio, email, dmarc, registro
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1355'
 ht-degree: 12%
 
 ---
@@ -82,7 +82,7 @@ A interface de administração [!DNL Journey Optimizer] permite configurar o reg
 
 Para verificar se você tem um registro DMARC configurado para todos os subdomínios que você delegou em [!DNL Journey Optimizer], siga as etapas abaixo.
 
-1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Subdomínios]** e clique em **[!UICONTROL Configurar subdomínio]**.
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de email]** > **[!UICONTROL Subdomínios]** e clique em **[!UICONTROL Configurar subdomínio]**.
 
 1. Para cada subdomínio delegado, verifique a coluna **[!UICONTROL Registro DMARC]**. Se nenhum registro for encontrado para um determinado subdomínio, um alerta será exibido.
 

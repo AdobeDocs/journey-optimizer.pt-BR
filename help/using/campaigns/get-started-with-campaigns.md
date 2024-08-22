@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campanha, como, iniciar, otimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 50473c401e05b483387f8ff3c5c480020e8d5c14
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campanhas"
->abstract="Crie campanhas para fornecer conteúdo uma única vez a um público-alvo específico em vários canais. Antes de criar a campanha, verifique se você tem uma superfície de canal e um público-alvo da Adobe Experience Platform prontos para uso."
+>abstract="Crie campanhas para fornecer conteúdo uma única vez a um público-alvo específico em vários canais. Antes de criar sua campanha, verifique se você tem uma configuração de canal e um público-alvo da Adobe Experience Platform pronto para uso."
 
 Use as campanhas do Journey Optimizer para fornecer conteúdo uma única vez a um público-alvo específico usando vários canais. Ao usar jornadas, as ações são executadas em sequência. Com campanhas, as ações são executadas simultaneamente, imediatamente ou com base em um cronograma especificado.
 
@@ -63,7 +63,7 @@ Verifique os seguintes pré-requisitos antes de começar a criar sua primeira ca
 +++
 
 1. **Você precisa de um público-alvo**. Os públicos-alvo precisam estar disponíveis antes de criar a campanha. Saiba mais sobre públicos-alvo [nesta página](../audience/about-audiences.md).
-1. **Você precisa de uma superfície de canal**. Para selecionar um canal, é necessário ter a superfície do canal correspondente (ou seja, predefinição) criada e disponível. Saiba mais sobre superfícies de canal [nesta página](../configuration/channel-surfaces.md).
+1. **Você precisa de uma configuração de canal**. Para selecionar um canal, é necessário criar e disponibilizar a configuração de canal correspondente (ou seja, predefinição). Saiba mais sobre as configurações de canal [nesta página](../configuration/channel-surfaces.md).
 
 ## Vídeo explicativo {#video}
 

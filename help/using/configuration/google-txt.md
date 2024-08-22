@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomínio, google, txt, registro, gmail, capacidade de entrega
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '210'
 ht-degree: 30%
 
 ---
@@ -33,7 +33,7 @@ Para garantir a entrega ideal e a entrega bem-sucedida de emails para endereços
 
 Para adicionar um registro TXT do Google ao subdomínio, siga estas etapas:
 
-1. Abra o subdomínio no menu **[!UICONTROL Canais]** / **[!UICONTROL Subdomínios]**.
+1. Abra o subdomínio no menu **[!UICONTROL Canais]** > **[!UICONTROL Configurações de email]** > **[!UICONTROL Subdomínios]**.
 
 1. Na seção **[!UICONTROL registro txt do Google]**, insira o código de verificação gerado pelo [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools--> e clique em **[!UICONTROL Salvar]**.
 

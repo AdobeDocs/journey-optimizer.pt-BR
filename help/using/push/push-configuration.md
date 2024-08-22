@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuração da notificação por push
+title: Configuração das notificações por push
 description: Saiba como configurar seu ambiente para enviar notificações por push com o Journey Optimizer
 feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: c1dc3f3805bc0677a24466687026fac0d4990a5b
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1677'
 ht-degree: 5%
 
 ---
@@ -84,7 +84,7 @@ Para atribuir direitos de **Propriedade** e **Empresa**, siga as etapas abaixo:
    * **[!UICONTROL Gerenciar configurações do aplicativo]**
    * **[!UICONTROL Gerenciar propriedades]**
 
-   Essas permissões são necessárias para que o desenvolvedor de aplicativos móveis configure credenciais de push na **Coleção de Dados da Adobe Experience Platform** e defina superfícies de canal de Notificação por Push (ou seja, predefinições de mensagem) no **Adobe Journey Optimizer**.
+   Essas permissões são necessárias para que o desenvolvedor de aplicativos móveis configure credenciais de push na **Coleção de Dados da Adobe Experience Platform** e defina configurações de canal de Notificação por Push (ou seja, predefinições de mensagem) no **Adobe Journey Optimizer**.
 
    ![](assets/push_product_5.png)
 
@@ -112,7 +112,7 @@ Para atribuir este **[!UICONTROL Perfil de produto]** a usuários, siga as etapa
 
 ### Configurar seu aplicativo {#configure-app}
 
-A configuração técnica envolve estreita colaboração entre o desenvolvedor do aplicativo e o administrador de negócios. Antes de começar a enviar notificações por push com [!DNL Journey Optimizer], você precisa definir configurações em [!DNL Adobe Experience Platform Data Collection] e integrar seu aplicativo móvel com os SDKs do Adobe Experience Platform Mobile.
+A configuração técnica envolve estreita colaboração entre o desenvolvedor do aplicativo e o administrador de negócios. Antes de começar a enviar notificações por push com o [!DNL Journey Optimizer], é necessário criar credenciais de push, uma configuração de canal de push no Adobe Journey Optimizer e integrar seu aplicativo móvel aos SDKs do Adobe Experience Platform Mobile.
 
 Siga as etapas de implementação detalhadas nos links abaixo:
 
@@ -126,29 +126,27 @@ O SDK móvel da Adobe Experience Platform fornece APIs de integração do lado d
 Ao final disso, você também deve ter criado e configurado uma propriedade móvel no [!DNL Adobe Experience Platform Data Collection]. Normalmente, você cria uma propriedade móvel para cada aplicativo móvel que deseja gerenciar. Saiba como criar e configurar uma propriedade móvel na [documentação do SDK do Adobe Experience Platform Mobile](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 
-## Etapa 1: adicionar suas credenciais de push do aplicativo na Coleção de dados da Adobe Experience Platform {#push-credentials-launch}
+## Etapa 1: adicionar suas credenciais de push do aplicativo no Journey Optimizer {#push-credentials-launch}
 
-Após conceder as permissões de usuário corretas, agora é necessário adicionar suas credenciais de push do aplicativo móvel no [!DNL Adobe Experience Platform Data Collection].
+Depois de conceder as permissões de usuário corretas, agora é necessário adicionar suas credenciais de push do aplicativo móvel no Journey Optimizer.
 
 O registro da credencial de push do aplicativo móvel é necessário para autorizar o Adobe a enviar notificações por push em seu nome. Consulte as etapas detalhadas abaixo:
 
-1. Em [!DNL Adobe Experience Platform Data Collection], selecione a guia **[!UICONTROL Superfícies do Aplicativo]** no painel esquerdo.
+1. Acesse o menu **[!UICONTROL Canais]** > **[!UICONTROL Configurações de push]** > **[!UICONTROL Credenciais de push]**.
 
-1. Clique em **[!UICONTROL Criar superfície do aplicativo]** para criar uma nova configuração.
+1. Clique em **[!UICONTROL Criar credencial de push]**.
 
-   ![](assets/add-app-config.png)
-
-1. Insira um **[!UICONTROL Nome]** para a configuração.
-
-1. Em **[!UICONTROL Configuração do Aplicativo Móvel]**, selecione o Sistema Operacional:
+1. No menu suspenso **[!UICONTROL Plataforma]**, selecione o sistema operacional:
 
    * **Para iOS**
 
      ![](assets/add-app-config-ios.png)
 
-      1. Insira a **Id do Pacote** do aplicativo móvel no campo **[!UICONTROL ID do Pacote (iOS Bundle ID)]**. A ID do Pacote de aplicativos pode ser encontrada na guia **Geral** do destino principal em **XCode**.
+      1. Insira o aplicativo móvel **[!UICONTROL ID do aplicativo]**.
 
-      1. Botão **[!UICONTROL Push Credentials]** ativado para adicionar suas credenciais.
+      1. Habilite a opção **[!UICONTROL Aplicar a todas as sandboxes]** para disponibilizar essas credenciais de push em todas as sandboxes. Se uma sandbox específica tiver suas próprias credenciais para o mesmo par de IDs da plataforma e do aplicativo, essas credenciais específicas da sandbox terão prioridade.
+
+      1. Ativado o botão **[!UICONTROL Inserir manualmente as credenciais de push]** para adicionar suas credenciais.
 
       1. Arraste e solte seu arquivo .p8 Apple Push Notification Authentication Key. Esta chave pode ser adquirida nas páginas **Certificados**, **Identificadores** e **Perfis**.
 
@@ -160,14 +158,16 @@ O registro da credencial de push do aplicativo móvel é necessário para autori
 
      ![](assets/add-app-config-android.png)
 
-      1. Forneça a **[!UICONTROL ID do aplicativo (nome do pacote Android)]**: geralmente, o nome do pacote é a ID do aplicativo no arquivo `build.gradle`.
+      1. Forneça a **[!UICONTROL ID do aplicativo]**. Geralmente, o nome do pacote é a ID do aplicativo no arquivo `build.gradle`.
 
-      1. Botão **[!UICONTROL Push Credentials]** ativado para adicionar suas credenciais.
+      1. Habilite a opção **[!UICONTROL Aplicar a todas as sandboxes]** para disponibilizar essas credenciais de push em todas as sandboxes. Se uma sandbox específica tiver suas próprias credenciais para o mesmo par de IDs da plataforma e do aplicativo, essas credenciais específicas da sandbox terão prioridade.
+
+      1. Ativado o botão **[!UICONTROL Inserir manualmente as credenciais de push]** para adicionar suas credenciais.
 
       1. Arraste e solte as credenciais de push do FCM. Para obter mais detalhes sobre como obter as credenciais de push, consulte a [Documentação do Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
 
-1. Clique em **[!UICONTROL Salvar]** para criar a configuração do aplicativo.
+1. Clique em **[!UICONTROL Enviar]** para criar a configuração do aplicativo.
 
 <!--
 ## Step 2: Set up a mobile property in Adobe Experience Platform Launch {#launch-property}
@@ -187,7 +187,38 @@ To get the SDKs needed for push notification to work you will need the following
 Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
-## Etapa 2: configurar a extensão Adobe Journey Optimizer na sua propriedade móvel {#configure-journey-optimizer-extension}
+## Etapa 2: criar uma configuração de canal para push{#message-preset}
+
+Depois de criar suas credenciais de push, você precisa criar uma configuração para poder enviar notificações por push de **[!DNL Journey Optimizer]**.
+
+1. Acesse o menu **[!UICONTROL Canais]** > **[!UICONTROL Configurações gerais]** > **[!UICONTROL Configurações de canal]** e clique em **[!UICONTROL Criar configuração de canal]**.
+
+   ![](assets/push-config-9.png)
+
+1. Insira um nome e uma descrição (opcional) para a configuração.
+
+   >[!NOTE]
+   >
+   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
+
+
+1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à configuração, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
+
+1. Selecione o canal **Push**.
+
+   ![](assets/push-config-10.png)
+
+1. Selecione **[!UICONTROL Ação de marketing]**(s) para associar políticas de consentimento às mensagens que usam essa configuração. Todas as políticas de consentimento associadas à ação de marketing são utilizadas para respeitar as preferências dos clientes. [Saiba mais](../action/consent.md#surface-marketing-actions)
+
+1. Escolha sua **[!UICONTROL Plataforma]**.
+
+1. Selecione o mesmo **[!UICONTROL ID do aplicativo]** que sua [credencial de push](#push-credentials-launch) configurada acima.
+
+1. Salve as alterações.
+
+Agora você pode selecionar sua configuração ao criar suas notificações por push.
+
+## Etapa 3: configurar a extensão Adobe Journey Optimizer na sua propriedade móvel {#configure-journey-optimizer-extension}
 
 A **extensão do Adobe Journey Optimizer** para SDKs do Adobe Experience Platform Mobile possibilita notificações por push para seus aplicativos móveis e ajuda a coletar tokens de push do usuário e gerenciar a medição de interação com os serviços da Adobe Experience Platform.
 
@@ -258,7 +289,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## Etapa 3: testar seu aplicativo móvel com um evento {#mobile-app-test}
+## Etapa 4: testar seu aplicativo móvel com um evento {#mobile-app-test}
 
 Após configurar seu aplicativo móvel no Adobe Experience Platform e no [!DNL Adobe Experience Platform Data Collection], você pode testá-lo antes de enviar notificações por push aos seus perfis. Nesse caso de uso, criamos uma jornada para direcionar nosso aplicativo móvel e definimos um evento que aciona a notificação por push.
 
@@ -354,13 +385,3 @@ Seu evento foi criado e agora pode ser usado em uma jornada.
 
 Seu evento será acionado e você receberá uma notificação por push para seu aplicativo móvel.
 
-## Etapa 4: criar uma superfície de canal para push{#message-preset}
-
-Depois que o aplicativo móvel for configurado no [!DNL Adobe Experience Platform Data Collection], é necessário criar uma superfície para poder enviar notificações por push do **[!DNL Journey Optimizer]**.
-
-Saiba como criar e configurar uma superfície de canal em [esta seção](../configuration/channel-surfaces.md).
-
-Agora você está pronto para enviar notificações por push com o Journey Optimizer.
-
-* Saiba como criar uma mensagem de push em [esta página](create-push.md).
-* Saiba como adicionar uma mensagem a uma jornada em [esta seção](../building-journeys/journeys-message.md).

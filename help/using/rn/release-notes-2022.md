@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '3598'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -217,8 +217,8 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 **Administração**
 
 * Ao ativar ou desativar a lista de permissões, um novo aviso agora é exibido para detalhar os impactos de cada ação. [Saiba mais](../configuration/allow-list.md#enable-allow-list)
-* A interface que permite criar superfícies de canal e pools de IP, gerenciar a lista de supressão e a lista de permissões e configurar o canal de SMS foi atualizada.
-* Agora, ao criar a primeira superfície de canal para um determinado subdomínio, o tempo de processamento será de 10 minutos a 10 dias; porém, para superfícies subsequentes que usam esse subdomínio, esse tempo será reduzido para no máximo 3 horas. [Saiba mais](../configuration/channel-surfaces.md#create-channel-surface)
+* A interface de usuário para criar configurações de canal, criar pools de IP, gerenciar a lista de supressão e a lista de permissões e configurar o canal de SMS foi atualizada.
+* Agora, ao criar a primeira configuração de canal para um determinado subdomínio, o tempo de processamento será de 10 minutos a 10 dias; porém, para superfícies subsequentes que usam esse subdomínio, esse tempo será reduzido para no máximo 3 horas. [Saiba mais](../configuration/channel-surfaces.md#create-channel-surface)
 * A interface de criação de predefinições de página de destino e subdomínios de página de destino foi atualizada. [Saiba mais](../landing-pages/lp-subdomains.md)
 
 **Controles de auditoria**
@@ -399,7 +399,7 @@ Esta página lista todos os recursos e as melhorias do [!DNL Journey Optimizer] 
 
 **Mensagens**
 
-* As predefinições de mensagem agora são **superfícies de canais**. [Saiba mais](../configuration/channel-surfaces.md)
+* As predefinições de mensagem agora são **configurações de canal**. [Saiba mais](../configuration/channel-surfaces.md)
 
 **Administração**
 

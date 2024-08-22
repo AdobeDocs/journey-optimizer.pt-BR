@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: supressão, lista, rejeição, email, otimizador, quarentena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 22%
@@ -32,7 +32,7 @@ Além disso, você pode aproveitar a **API REST de Supressão** do Journey Optim
 
 ## Acessar a lista de supressão {#access-suppression-list}
 
-Para acessar a lista detalhada de domínios e endereços de email excluídos, navegue até **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** e selecione **[!UICONTROL Lista de supressão]**.
+Para acessar a lista detalhada de domínios e endereços de email excluídos, navegue até **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de email]** e selecione **[!UICONTROL Lista de supressão]**.
 
 
 ![](assets/suppression-list-access.png)
@@ -66,8 +66,6 @@ As categorias de supressão são as seguintes:
 * **Manual**: erros manuais foram adicionados manualmente à lista de supressão. [Saiba mais](#add-addresses-and-domains)
 
 Para cada endereço de email listado, você também pode verificar o **[!UICONTROL Tipo]** (email ou domínio), o **[!UICONTROL Motivo]** da exclusão, quem o adicionou e a data/hora em que ele foi adicionado à lista de supressão.
-
-![](assets/suppression-list.png)
 
 Os possíveis motivos para uma falha de delivery são:
 
@@ -230,8 +228,6 @@ Para recuperar esses endereços, execute uma consulta específica com parâmetro
 
 Depois que os endereços de email afetados forem identificados, filtre a lista de supressão para exibi-los. Por exemplo, se uma interrupção de ISP tiver ocorrido de 11 de novembro de 2022 a 13 de novembro de 2022 no domínio **test.com**, filtre os endereços adicionados à lista de supressão nesse período, conforme abaixo:
 
-![](assets/remove-from-supp-list.png)
-
 Você pode remover os endereços de email em quarentena da lista de supressão usando o botão **[!UICONTROL Excluir]**.
 
 ## Baixar a lista de supressão {#download-suppression-list}
@@ -250,8 +246,6 @@ Para exportar a lista de supressão como um arquivo CSV, siga as etapas abaixo:
    ![](assets/suppression-list-download-csv.png)
 
 1. Espere até que o arquivo seja gerado.
-
-   ![](assets/suppression-list-download-generate.png)
 
    >[!NOTE]
    >

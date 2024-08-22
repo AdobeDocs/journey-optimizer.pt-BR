@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '2035'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -285,7 +285,7 @@ Consulte também as [Notas de versão de outubro da Adobe Experience Platform](h
 **Configuração de email**
 
 * **Lista de permissões** - A lista de permissões agora pode ser habilitada ou desabilitada em uma sandbox de não produção por meio de uma chamada de API. [Saiba mais](../configuration/allow-list.md#enable-allow-list)
-* **Navegação** - A lista de supressão, que estava acessível no menu **Administração > Canais > Configuração de email > Geral**, foi movido para o novo submenu **Lista de supressão**, que reúne todos os recursos relacionados para facilitar o acesso. [Saiba mais](../configuration/manage-suppression-list.md#access-suppression-list)
+* **Navegação** - A lista de supressão, que estava acessível no menu **Administração > Canais > Configurações de email > Geral**, foi movida para o novo submenu **Lista de supressão**, que reúne todos os recursos relacionados para facilitar o acesso. [Saiba mais](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Gerenciamento de decisão**
 

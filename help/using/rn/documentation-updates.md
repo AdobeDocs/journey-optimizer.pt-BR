@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 30144c26a03d145c9dc98c7a4db007d5c454a639
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '5454'
 ht-degree: 99%
@@ -205,7 +205,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 * Uma observação foi adicionada para especificar que, se forem feitas alterações em uma decisão de oferta que esteja sendo usada em uma mensagem da jornada, será necessário desfazer a publicação da jornada e republicá-la. [Leia mais](../building-journeys/publishing-the-journey.md)
 * A explicação sobre como se certificar de que os eventos foram corretamente contabilizados no contador de limites foi esclarecida na seção **Evento de limitação** da gestão de decisões. [Leia mais](../offers/offer-library/add-constraints.md#capping-event)
 * Uma nova seção foi adicionada à página **Alterar endereços de execução**. Ela especifica que é possível sobrepor o campo de execução definido globalmente nos parâmetros avançados da jornada, mas que a sobreposição de endereços de email deve ser usada somente para casos de uso específicos. Na maioria das vezes, o valor é definido como o endereço principal nos **Campos de execução** é o que deve ser usado. [Leia mais](../configuration/primary-email-addresses.md#journey-parameters)
-* A seção **Rastreamento de URL** agora fornece a lista e a descrição de todos os atributos contextuais que podem ser definidos para rastreamento de URL em uma superfície de canal de email. [Leia mais](../email/email-settings.md#url-tracking)
+* A seção **rastreamento de URL** agora fornece a lista e a descrição de todos os atributos contextuais que podem ser definidos para rastreamento de URL em uma configuração de canal de email. [Leia mais](../email/email-settings.md#url-tracking)
 
 ## Março de 2023 {#march-2023}
 
@@ -296,7 +296,7 @@ Esta página lista todas as atualizações mais recentes na documentação do [!
 ## Julho de 2022 {#july-2022}
 
 * Todos os novos recursos e aprimoramentos chegando com a versão de [!DNL Journey Optimizer] 22 de julho estão detalhados na documentação. [Leia mais](release-notes.md)
-* A seção **Criar superfícies de canal** foi esclarecida e atualizada com links para a página que descreve como configurar o canal de SMS. [Leia mais](../configuration/channel-surfaces.md#create-channel-surface)
+* A seção **Definir configurações de canal** foi esclarecida e atualizada com links para a página que descreve como configurar o canal de SMS. [Leia mais](../configuration/channel-surfaces.md#create-channel-surface)
 * Nas propriedades da jornada, a opção **Fuso horário do perfil** agora está desabilitada por padrão. [Leia mais](../building-journeys/timezone-management.md#timezone-from-profiles)
 * Na atividade **Aguardar**, a opção **Data fixa** não está mais disponível. [Leia mais](../building-journeys/wait-activity.md)
 * Foram adicionadas mais informações sobre a opção **Leitura incremental** na atividade de **público-alvo de leitura**. [Leia mais](../building-journeys/read-audience.md#configuring-segment-trigger-activity)

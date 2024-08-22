@@ -8,7 +8,7 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 2%
@@ -36,7 +36,7 @@ A figura a seguir mostra os sistemas e serviços envolvidos com fluxos de dados 
 1. Registro do seu aplicativo para dispositivos móveis com marca (Android ou iOS) com APNs da Apple e serviços de mensagens de push do Google FCM
 1. Os serviços de mensagens geram um token de push, que é um identificador que [!DNL Adobe Journey Optimizer] usará para direcionar o dispositivo específico com uma notificação por push.
 1. O token de push gerado anteriormente é transmitido à Adobe Experience Platform e sincronizado com o Perfil do cliente em tempo real; isso é feito OOTB com um SDK do cliente fácil de integrar
-1. As mensagens de push são criadas em [!DNL Adobe Journey Optimizer], as mensagens de push são criadas em relação a uma superfície de canal (ou seja, predefinição de mensagem)
+1. As mensagens de push são criadas em [!DNL Adobe Journey Optimizer], as mensagens de push são criadas em relação a uma configuração de canal (ou seja, predefinição de mensagem)
 1. As mensagens por push podem ser incluídas na tela de orquestração no Jornada
 1. Após a publicação do Jornada, os perfis de clientes com base nas condições do Jornada são qualificados para receber notificações por push. As cargas de mensagens por push são personalizadas nesta etapa
 1. As cargas de push personalizadas são encaminhadas para um serviço interno de delivery de mensagens por push

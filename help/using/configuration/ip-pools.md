@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, pools, grupo, subdomínios, capacidade de entrega
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '721'
 ht-degree: 11%
 
 ---
@@ -44,7 +44,7 @@ Por exemplo, uma prática recomendada é ter um pool de IP para suas mensagens d
 
 Para criar um pool de IPs, siga estas etapas:
 
-1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Pools de IP]** e clique em **[!UICONTROL Criar Pool de IP]**.
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de email]** > **[!UICONTROL Pools de IP]** e clique em **[!UICONTROL Criar Pool de IP]**.
 
    ![](assets/ip-pool-create.png)
 
@@ -74,17 +74,13 @@ Após a criação de um pool de IP, as informações de PTR ficam visíveis ao p
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 
-O pool de IPs agora é criado e exibido na lista. Você pode selecioná-la para acessar suas propriedades e exibir a superfície de canal associada (ou seja, predefinição de mensagem). Para obter mais informações sobre como associar uma superfície de canal a um pool de IP, consulte [esta seção](channel-surfaces.md).
-
-![](assets/ip-pool-created.png)
+O pool de IPs agora é criado e exibido na lista. É possível selecioná-la para acessar suas propriedades e exibir a configuração de canal associada (ou seja, predefinição de mensagem). Para obter mais informações sobre como associar uma configuração de canal a um pool de IP, consulte [esta seção](channel-surfaces.md).
 
 ## Editar um pool de IPs {#edit-ip-pool}
 
 Para editar um pool de IPs, siga as etapas abaixo.
 
 1. Na lista, clique no nome do pool de IPs para abri-lo.
-
-   ![](assets/ip-pool-list.png)
 
 1. Edite as propriedades conforme desejado. Você pode modificar a descrição e adicionar ou remover endereços IP.
 
@@ -100,14 +96,14 @@ Para editar um pool de IPs, siga as etapas abaixo.
 
 1. Salve as alterações.
 
-A atualização entra em vigor imediatamente ou de forma assíncrona, dependendo do pool de IP que está associado a uma [superfície de canal](channel-surfaces.md) ou não:
+A atualização entra em vigor imediatamente ou de forma assíncrona, dependendo do pool de IP que está associado a uma [configuração de canal](channel-surfaces.md) ou não:
 
-* Se o pool de IPs estiver **não** associado a qualquer superfície de canal, a atualização será instantânea (status **[!UICONTROL Success]**).
-* Se o pool de IP **estiver** associado a uma superfície de canal, a atualização poderá levar até 3 horas (status **[!UICONTROL Processando]**).
+* Se o pool de IPs estiver **não** associado a qualquer configuração de canal, a atualização será instantânea (status **[!UICONTROL Success]**).
+* Se o pool de IP **estiver** associado a uma configuração de canal, a atualização poderá levar até 3 horas (status **[!UICONTROL Processando]**).
 
 >[!NOTE]
 >
->Ao [criar uma superfície de canal](channel-surfaces.md#create-channel-surface), se você selecionar um pool de IP que esteja em edição (status **[!UICONTROL Processando]**) e nunca tenha sido associado ao subdomínio selecionado para essa superfície, não será possível continuar com a criação da superfície. [Saiba mais](channel-surfaces.md#subdomains-and-ip-pools)
+>Ao [criar uma configuração de canal](channel-surfaces.md#create-channel-surface), se você selecionar um pool de IP que esteja em edição (status **[!UICONTROL Processando]**) e nunca tenha sido associado ao subdomínio selecionado para essa configuração, não será possível continuar com a criação da configuração. [Saiba mais](channel-surfaces.md#subdomains-and-ip-pools)
 
 Para verificar o status de atualização do pool de IP, clique no botão **[!UICONTROL Mais ações]** e selecione **[!UICONTROL Atualizações recentes]**.
 
@@ -119,5 +115,5 @@ Para verificar o status de atualização do pool de IP, clique no botão **[!UIC
 >* alguns minutos antes de ser consumido pelas mensagens unitárias,
 >* até o próximo lote para que o pool de IP seja efetivo em mensagens em lote.
 
-Você também pode usar o botão **[!UICONTROL Excluir]** para excluir um pool de IPs. Observe que não é possível excluir um pool de IP que foi associado a uma superfície de canal.
+Você também pode usar o botão **[!UICONTROL Excluir]** para excluir um pool de IPs. Observe que não é possível excluir um pool de IPs que foi associado a uma configuração de canal.
 

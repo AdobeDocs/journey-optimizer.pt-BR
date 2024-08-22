@@ -7,7 +7,8 @@ feature: Templates
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 6%
@@ -30,7 +31,7 @@ Você pode testar a renderização de alguns de seus modelos de email, sejam ele
 
    * Para fazer isso, clique no botão **[!UICONTROL Enviar prova]** e siga as etapas descritas em [esta seção](../content-management/proofs.md).
 
-   * Antes de enviar a prova, você deve selecionar a [superfície de email](../configuration/channel-surfaces.md) que será usada para testar seu conteúdo.
+   * Antes de enviar a prova, você deve selecionar a [configuração de email](../configuration/channel-surfaces.md) que será usada para testar seu conteúdo.
 
      ![](assets/content-template-stimulate-proof-surface.png)
 

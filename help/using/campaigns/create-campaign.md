@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 32%
+source-wordcount: '914'
+ht-degree: 31%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->Antes de criar uma nova campanha, verifique se você tem um canal de superfície (ou seja, predefinição de mensagem) e um público-alvo do Adobe Experience Platform pronto para uso. Saiba mais nestas seções:
+>Antes de criar uma nova campanha, verifique se você tem uma configuração de canal (ou seja, uma superfície de mensagem) e um público-alvo da Adobe Experience Platform pronto para uso. Saiba mais nestas seções:
 >
->* [Criar superfícies de canal](../configuration/channel-surfaces.md)
+>* [Criar configurações de canal](../configuration/channel-surfaces.md)
 >* [Introdução aos públicos-alvo](../audience/about-audiences.md)
 
 Para criar uma nova campanha, acesse o menu **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**. Você também pode duplicar uma campanha ao vivo existente para criar uma nova. [Saiba mais](modify-stop-campaign.md#duplicate)
@@ -81,11 +81,11 @@ Para definir a população direcionada pela campanha, siga estas etapas:
 
 ## Criar a mensagem e configurar o rastreamento {#content}
 
-1. Na seção **[!UICONTROL Ações]**, escolha o canal e a superfície a serem usados para enviar a mensagem.
+1. Na seção **[!UICONTROL Actions]**, selecione ou crie uma nova configuração.
 
-   Uma superfície é uma configuração que foi definida por um [Administrador do sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba mais](../configuration/channel-surfaces.md).
+   Uma configuração foi definida por um [Administrador do Sistema](../start/path/administrator.md). Ela contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc. [Saiba mais](../configuration/channel-surfaces.md).
 
-   Somente as superfícies do canal compatíveis com o tipo de campanha de marketing são listadas na lista suspensa.
+   Somente as configurações de canal compatíveis com o tipo de campanha de marketing são listadas na lista suspensa.
 
    ![](assets/create-campaign-action.png)
 

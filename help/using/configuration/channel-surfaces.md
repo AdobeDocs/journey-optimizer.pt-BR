@@ -1,96 +1,71 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurar superfícies de canais
-description: Saiba como configurar e monitorar superfícies de canal
+title: Definir configurações de canal
+description: Saiba como definir e monitorar configurações de canal
 feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 9af49f0a47ad5bc1d2cea3e822ec20e2930140d3
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 10%
+source-wordcount: '1691'
+ht-degree: 2%
 
 ---
 
-# Configurar superfícies de canais {#set-up-channel-surfaces}
+# Definir configurações de canal {#set-up-channel-surfaces}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
->title="Superfície de canal"
->abstract="Uma superfície de canal é uma configuração definida por um administrador do sistema. Contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc."
+>title="Configuração de canal"
+>abstract="Uma configuração de canal é uma configuração que foi definida por um Administrador do sistema. Contém todos os parâmetros técnicos para enviar a mensagem, como parâmetros de cabeçalho, subdomínio, aplicativos móveis etc."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_marketing_action"
 >title="Ação de marketing"
->abstract="A CONFIRMAR"
+>abstract="Escolha as ações de marketing para vincular políticas de consentimento às mensagens usando essa configuração. Todas as políticas de consentimento conectadas à ação de marketing serão usadas para honrar as preferências dos clientes."
 
->[!CONTEXTUALHELP]
->id="ajo_admin_app_id"
->title="ID do aplicativo"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_location"
->title="Local na página"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_page_rule"
->title="Regra de correspondência de páginas"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_default_url"
->title="URL padrão"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_surface_uri"
->title="URI de superfície"
->abstract="A CONFIRMAR"
-
-Com o [!DNL Journey Optimizer], você pode configurar superfícies de canal (ou seja, predefinições de mensagem) que definem todos os parâmetros técnicos necessários para suas mensagens: tipo de email, email e nome do remetente, aplicativos móveis, configuração de SMS e muito mais.
+Com o [!DNL Journey Optimizer], você pode definir configurações de canal (ou seja, predefinições de mensagem) que definem todos os parâmetros técnicos necessários para suas mensagens: tipo de email, email e nome do remetente, aplicativos móveis, configuração de SMS e muito mais.
 
 >[!CAUTION]
 >
-> * Para criar, editar e excluir superfícies de canal, você deve ter a permissão [Gerenciar predefinições de mensagens](../administration/high-low-permissions.md#administration-permissions).
+> * Para criar, editar e excluir configurações de canal, você deve ter a permissão [Gerenciar predefinições de mensagens](../administration/high-low-permissions.md#administration-permissions).
 >
-> * Você deve executar as etapas de [Configuração de email](../email/get-started-email-config.md), [Configuração de push](../push/push-configuration.md), [Configuração de SMS](../sms/sms-configuration.md) e [Configuração de correspondência direta](../direct-mail/direct-mail-configuration.md) antes de criar superfícies de canal.
+> * Você deve executar as etapas de [Configuração de email](../email/get-started-email-config.md), [Configuração de push](../push/push-configuration.md), [Configuração de SMS](../sms/sms-configuration.md), [Configuração no aplicativo](../in-app/inapp-configuration.md), [Configuração baseada em código](../code-based/code-based-configuration.md), [Configuração da Web](../web/web-configuration.md) e [Configuração de correspondência direta](../direct-mail/direct-mail-configuration.md) antes de criar as configurações de canal.
 
-Depois que as superfícies de canal forem configuradas, você poderá selecioná-las ao criar mensagens de uma jornada ou campanha.
+Depois que as configurações de canal forem definidas, você poderá selecioná-las ao criar mensagens de uma jornada ou campanha.
 
 <!--
-➡️ [Learn how to create and use email surfaces in this video](#video-presets)
+➡️ [Learn how to create and use email configurations in this video](#video-presets)
 -->
 
-## Criar uma superfície de canal {#create-channel-surface}
+## Criar uma configuração de canal {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
->title="Configurações da superfície de canal"
->abstract="Ao configurar uma superfície de canal, selecione o canal ao qual se aplica e defina todos os parâmetros técnicos necessários para seu envio, como tipo de email, nome do remetente, aplicativos móveis, configuração de SMS e muito mais."
+>title="Configurações de canal"
+>abstract="Ao definir uma configuração de canal, selecione o canal ao qual se aplica e defina todos os parâmetros técnicos necessários para seu envio, como tipo de email, nome do remetente, aplicativos móveis, configuração de SMS e muito mais."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Configurações da superfície de canal"
->abstract="Para criar ações, como emails de uma jornada ou campanha, primeiro crie uma superfície de canal que defina todas as configurações técnicas necessárias para suas mensagens. É necessário ter a permissão Gerenciar predefinições de mensagens para criar, editar e excluir superfícies de canais."
+>title="Configurações de canal"
+>abstract="Para criar ações como emails de uma jornada ou campanha, primeiro crie uma configuração de canal que defina todas as configurações técnicas necessárias para suas mensagens. É necessário ter a permissão Gerenciar predefinições de mensagens para criar, editar e excluir configurações de canal."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
 >title="Selecione uma ação de marketing"
->abstract="Escolha uma ação de marketing na superfície para associar uma política de consentimento à mensagem."
+>abstract="Escolha uma ação de marketing na configuração para associar uma política de consentimento à mensagem."
 
-Para criar uma superfície de canal, siga estas etapas:
+Para criar uma configuração de canal, siga estas etapas:
 
-1. Acesse o menu **[!UICONTROL Canais]** > **[!UICONTROL Identidade visual]** > **[!UICONTROL Superfícies de canal]** e clique em **[!UICONTROL Criar superfície de canal]**.
+1. Acesse o menu **[!UICONTROL Canais]** > **[!UICONTROL Configurações gerais]** > **[!UICONTROL Configurações de canal]** e clique em **[!UICONTROL Criar configuração de canal]**.
 
    ![](assets/preset-create.png)
 
-1. Insira um nome e uma descrição (opcional) para a superfície e selecione os canais a serem configurados.
+1. Insira um nome e uma descrição (opcional) para a configuração e selecione o canal a ser configurado.
 
    ![](assets/preset-general.png)
 
@@ -98,29 +73,11 @@ Para criar uma superfície de canal, siga estas etapas:
    >
    > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
 
-1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à superfície, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
+1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à configuração, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
 
-1. Se você selecionou o canal de **[!UICONTROL Email]**, defina suas configurações conforme descrito em [esta seção](../email/email-settings.md).
+1. Selecione seu canal.
 
-   ![](assets/preset-email.png)
-
-1. Para o canal de **[!UICONTROL Notificação por Push]**, selecione pelo menos uma plataforma - **iOS** e/ou **Android** - e os aplicativos móveis a serem usados para cada plataforma.
-
-   ![](assets/preset-push.png)
-
-   >[!NOTE]
-   >
-   >Para obter mais informações sobre como configurar seu ambiente para enviar notificações por push, consulte [esta seção](../push/push-gs.md).
-
-1. Para o canal **[!UICONTROL SMS]**, defina suas configurações conforme detalhado em [esta seção](../sms/sms-configuration.md).
-
-   ![](assets/preset-sms.png)
-
-   >[!NOTE]
-   >
-   >Para obter mais informações sobre como configurar seu ambiente para enviar mensagens SMS, consulte [esta seção](../sms/sms-configuration.md).
-
-1. Selecione uma **[!UICONTROL Ação de marketing]** para associar políticas de consentimento às mensagens que usam essa superfície. Todas as políticas de consentimento associadas a essa ação de marketing são aproveitadas para respeitar as preferências dos clientes. [Saiba mais](../action/consent.md#surface-marketing-actions)
+1. Selecione **[!UICONTROL Ação de marketing]**(s) para associar políticas de consentimento às mensagens que usam essa configuração. Todas as políticas de consentimento associadas à ação de marketing são utilizadas para respeitar as preferências dos clientes. [Saiba mais](../action/consent.md#surface-marketing-actions)
 
    >[!NOTE]
    >
@@ -128,29 +85,25 @@ Para criar uma superfície de canal, siga estas etapas:
 
    ![](assets/surface-marketing-action.png)
 
-   >[!NOTE]
-   >
-   >Você só pode selecionar uma ação de marketing.
-
-1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Enviar]** para confirmar. Você também pode salvar a superfície de canal como rascunho e retomar sua configuração posteriormente.
+1. Depois que todos os parâmetros tiverem sido configurados, clique em **[!UICONTROL Enviar]** para confirmar. Você também pode salvar a configuração do canal como rascunho e retomar a configuração posteriormente.
 
    ![](assets/preset-submit.png)
 
    >[!NOTE]
    >
-   >Não é possível continuar com a criação da superfície de email enquanto o pool de IP selecionado estiver em [edição](ip-pools.md#edit-ip-pool) (status **[!UICONTROL Processando]**) e não tiver sido associado ao subdomínio selecionado. [Saiba mais](#subdomains-and-ip-pools)
+   >Não é possível continuar com a criação da configuração de email enquanto o pool de IP selecionado estiver em [edição](ip-pools.md#edit-ip-pool) (status **[!UICONTROL Processando]**) e não tiver sido associado ao subdomínio selecionado. [Saiba mais](#subdomains-and-ip-pools)
    >
-   >Salve a superfície como rascunho e aguarde até que o pool de IP tenha o status **[!UICONTROL Sucesso]** para retomar a criação da superfície.
+   >Salve a configuração como rascunho e aguarde até que o pool de IP tenha o status **[!UICONTROL Sucesso]** para retomar a criação da configuração.
 
-1. Após criar a superfície de canal, ela é exibida na lista com o status **[!UICONTROL Processando]**.
+1. Depois que a configuração do canal é criada, ela é exibida na lista com o status **[!UICONTROL Processando]**.
 
    Durante essa etapa, várias verificações serão executadas para verificar se ela foi configurada corretamente. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   > Ao criar uma superfície de email para um subdomínio, o tempo de processamento varia conforme detalhado abaixo:
+   > Ao criar uma configuração de email para um subdomínio, o tempo de processamento varia conforme detalhado abaixo:
    >
-   > * Para **novos subdomínios**, o processo de criação da primeira superfície de canal pode levar de **10 min a 10 dias**.
-   > * Para **sandboxes de não produção** ou se o subdomínio selecionado for **já usado** em outra superfície de canal aprovada, o processo levará apenas **3 horas**.
+   > * Para **novos subdomínios**, o processo de criação da primeira configuração de canal pode levar de **10 min a 10 dias**.
+   > * Para **sandboxes de não produção** ou se o subdomínio selecionado for **já usado** em outra configuração de canal aprovada, o processo levará apenas **3 horas**.
 
 
    Essas verificações incluem os testes técnicos e de configuração realizados pela equipe do Adobe:
@@ -162,31 +115,31 @@ Para criar uma superfície de canal, siga estas etapas:
    * Helo verificação de host
    * Verificação do pool de IPs
    * Registro A/PTR, verificação de subdomínio t/m/res
-   * Registro FBL (esta verificação será executada somente na primeira vez que uma superfície de email for criada para um determinado subdomínio)
+   * Registro FBL (essa verificação será executada somente na primeira vez que uma configuração de email for criada para um determinado subdomínio)
 
    >[!NOTE]
    >
    >Se as verificações não forem bem-sucedidas, saiba mais sobre os possíveis motivos de falha em [esta seção](#monitor-channel-surfaces).
 
-1. Depois que as verificações forem bem-sucedidas, a superfície de canal obterá o status **[!UICONTROL Ativo]**. Ele está pronto para ser usado para enviar mensagens.
+1. Depois que as verificações forem bem-sucedidas, a configuração do canal obterá o status **[!UICONTROL Ativo]**. Ele está pronto para ser usado para enviar mensagens.
 
    ![](assets/preset-active.png)
 
-## Monitorar superfícies de canal {#monitor-channel-surfaces}
+## Monitorar configurações de canal {#monitor-channel-surfaces}
 
-Todas as superfícies do canal são exibidas no menu **[!UICONTROL Canais]** > **[!UICONTROL Superfícies de canal]**. Os filtros estão disponíveis para ajudá-lo a navegar pela lista (canal, usuário, status).
+Todas as suas configurações de canal são exibidas no menu **[!UICONTROL Canais]** > **[!UICONTROL Configurações de canal]**. Os filtros estão disponíveis para ajudá-lo a navegar pela lista (canal, usuário, status).
 
 ![](assets/preset-filters.png)
 
-Depois de criadas, as superfícies de canal podem ter os seguintes status:
+Depois de criadas, as configurações de canal podem ter os seguintes status:
 
-* **[!UICONTROL Rascunho]**: a superfície de canal foi salva como rascunho e ainda não foi enviada. Abra-o para retomar a configuração.
-* **[!UICONTROL Processando]**: a superfície de canal foi enviada e está passando por várias etapas de verificação.
-* **[!UICONTROL Ativo]**: a superfície de canal foi verificada e pode ser selecionada para criar mensagens.
-* **[!UICONTROL Falha]**: uma ou várias verificações falharam durante a verificação de superfície de canal.
-* **[!UICONTROL Desativado]**: a superfície de canal está desativada. Ele não pode ser usado para criar novas mensagens.
+* **[!UICONTROL Rascunho]**: a configuração de canal foi salva como rascunho e ainda não foi enviada. Abra-o para retomar a configuração.
+* **[!UICONTROL Processando]**: a configuração de canal foi enviada e está passando por várias etapas de verificação.
+* **[!UICONTROL Ativo]**: a configuração de canal foi verificada e pode ser selecionada para criar mensagens.
+* **[!UICONTROL Falha]**: uma ou várias verificações falharam durante a verificação da configuração do canal.
+* **[!UICONTROL Desativado]**: a configuração do canal está desativada. Ele não pode ser usado para criar novas mensagens.
 
-Em caso de falha na criação de uma superfície de canal, os detalhes sobre cada possível motivo de falha são descritos abaixo.
+Em caso de falha na criação de um canal, os detalhes sobre cada possível motivo de falha são descritos abaixo.
 
 Se um desses erros ocorrer, entre em contato com o [Atendimento ao cliente do Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} para obter assistência.
 
@@ -199,18 +152,18 @@ Se um desses erros ocorrer, entre em contato com o [Atendimento ao cliente do Ad
 * **Falha nas configurações de entrega**: a falha nas configurações de entrega pode ocorrer devido a qualquer um dos seguintes motivos:
    * ➡ Incluir na lista de bloqueios dos IPs alocados
    * Nome `helo` inválido
-   * Emails sendo enviados de IPs diferentes daqueles especificados no pool de IPs da superfície correspondente
+   * Emails sendo enviados de IPs diferentes daqueles especificados no pool de IPs da configuração correspondente
    * Não é possível enviar emails para caixas de entrada dos principais ISPs
 
-## Editar uma superfície de canal {#edit-channel-surface}
+## Editar uma configuração de canal {#edit-channel-surface}
 
-Para editar uma superfície de canal, siga as etapas abaixo.
+Para editar uma configuração de canal, siga as etapas abaixo.
 
 >[!NOTE]
 >
->Você não pode editar as **[!UICONTROL configurações de notificação por push]**. Se uma superfície de canal for configurada apenas para o canal de Notificações por push, ela não será editável.
+>Você não pode editar as **[!UICONTROL configurações de notificação por push]**. Se uma configuração de canal for definida apenas para o canal de Notificação por push, ela não será editável.
 
-1. Na lista, clique em um nome de superfície de canal para abri-la.
+1. Na lista, clique em um nome de configuração de canal para abri-lo.
 
    ![](assets/preset-name.png)
 
@@ -218,15 +171,15 @@ Para editar uma superfície de canal, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Se uma superfície de canal tiver o status **[!UICONTROL Ativo]**, os campos **[!UICONTROL Nome]**, **[!UICONTROL Selecionar canal]** e **[!UICONTROL Subdomínio]** estarão esmaecidos e não poderão ser editados.
+   >Se uma configuração de canal tiver o status **[!UICONTROL Ativo]**, os campos **[!UICONTROL Nome]**, **[!UICONTROL Selecionar canal]** e **[!UICONTROL Subdomínio]** estarão esmaecidos e não poderão ser editados.
 
 1. Clique em **[!UICONTROL Enviar]** para confirmar as alterações.
 
    >[!NOTE]
    >
-   >Você também pode salvar a superfície de canal como rascunho e retomar a atualização posteriormente.
+   >Você também pode salvar a configuração do canal como rascunho e retomar a atualização posteriormente.
 
-Depois que as alterações forem enviadas, a superfície de canal passará por um ciclo de validação semelhante ao que está em vigor ao [criar uma superfície de canal](#create-channel-surface). O tempo de processamento da edição pode levar até **3 horas**.
+Depois que as alterações forem enviadas, a configuração do canal passará por um ciclo de validação semelhante ao que está em vigor ao [criar uma configuração de canal](#create-channel-surface). O tempo de processamento da edição pode levar até **3 horas**.
 
 >[!NOTE]
 >
@@ -234,13 +187,13 @@ Depois que as alterações forem enviadas, a superfície de canal passará por u
 
 ### Detalhes da atualização {#update-details}
 
-Para superfícies de canal com status **[!UICONTROL Ativo]**, você pode verificar os detalhes da atualização. Para fazer isso:
+Para configurações de canal com o status **[!UICONTROL Ativo]**, você pode verificar os detalhes da atualização. Para fazer isso:
 
-Clique no ícone **[!UICONTROL Atualização recente]** que é exibido ao lado do nome da superfície ativa.
+Clique no ícone **[!UICONTROL Atualização recente]** que é exibido ao lado do nome da configuração ativa.
 
 ![](assets/preset-recent-update-icon.png)
 
-<!--You can also access the update details from an active channel surface while update is in progress.-->
+<!--You can also access the update details from an active channel configuration while update is in progress.-->
 
 Na tela **[!UICONTROL Atualização recente]**, você pode ver informações como o status da atualização e a lista de alterações solicitadas.
 
@@ -248,17 +201,17 @@ Na tela **[!UICONTROL Atualização recente]**, você pode ver informações com
 
 ### Atualizar status {#update-statuses}
 
-Uma atualização da superfície de canal pode ter os seguintes status:
+Uma atualização de configuração de canal pode ter os seguintes status:
 
-* **[!UICONTROL Processando]**: a atualização da superfície de canal foi enviada e está passando por várias etapas de verificação.
-* **[!UICONTROL Sucesso]**: a superfície de canal atualizada foi verificada e pode ser selecionada para criar mensagens.
-* **[!UICONTROL Falha]**: uma ou várias verificações falharam durante a verificação de atualização da superfície de canal.
+* **[!UICONTROL Processando]**: a atualização de configuração de canal foi enviada e está passando por várias etapas de verificação.
+* **[!UICONTROL Êxito]**: a configuração de canal atualizada foi verificada e pode ser selecionada para criar mensagens.
+* **[!UICONTROL Falha]**: uma ou várias verificações falharam durante a verificação de atualização de configuração de canal.
 
 Cada status é detalhado abaixo.
 
 #### Processamento {#surface-processing}
 
-Várias verificações de deliverability serão realizadas para verificar se a superfície foi atualizada corretamente.
+Várias verificações de deliverability serão executadas para verificar se a configuração foi atualizada corretamente.
 
 >[!NOTE]
 >
@@ -266,43 +219,43 @@ Várias verificações de deliverability serão realizadas para verificar se a s
 
 O tempo de processamento pode levar até **3 horas**. Saiba mais sobre as verificações realizadas durante o ciclo de validação em [esta seção](#create-channel-surface).
 
-Se você editar uma superfície que já estava ativa:
+Se você editar uma configuração que já estava ativa:
 
 * Seu status permanece **[!UICONTROL Ativo]** enquanto o processo de validação está em andamento.
 
-* O ícone **[!UICONTROL Atualização recente]** é exibido próximo ao nome da superfície na lista de superfícies de canal.
+* O ícone **[!UICONTROL Atualização recente]** é exibido próximo ao nome da configuração na lista de configurações de canal.
 
-* Durante o processo de validação, as mensagens configuradas usando essa superfície ainda estão usando a versão mais antiga da superfície.
+* Durante o processo de validação, as mensagens configuradas usando essa configuração ainda estão usando a versão mais antiga da configuração.
 
 >[!NOTE]
 >
->Não é possível modificar uma superfície de canal enquanto a atualização está em andamento. Você ainda pode clicar no nome, mas todos os campos estarão esmaecidos. As alterações não serão refletidas até que a atualização seja bem-sucedida.
+>Não é possível modificar uma configuração de canal enquanto a atualização está em andamento. Você ainda pode clicar no nome, mas todos os campos estarão esmaecidos. As alterações não serão refletidas até que a atualização seja bem-sucedida.
 
 #### Sucesso {#success}
 
-Depois que o processo de validação for bem-sucedido, a nova versão da superfície será usada automaticamente em todas as mensagens que usam essa superfície. No entanto, talvez seja necessário aguardar:
+Quando o processo de validação for bem-sucedido, a nova versão da configuração será usada automaticamente em todas as mensagens que usam essa configuração. No entanto, talvez seja necessário aguardar:
 * alguns minutos antes de ser consumido pelas mensagens unitárias,
-* até o próximo lote para que a superfície seja efetiva em mensagens em lote.
+* até o próximo lote para que a configuração entre em vigor nas mensagens em lote.
 
 #### Com falha {#failed}
 
-Se o processo de validação falhar, a versão mais antiga da superfície ainda será usada.
+Se o processo de validação falhar, a versão mais antiga da configuração ainda será usada.
 
 Saiba mais sobre os possíveis motivos de falha em [esta seção](#monitor-channel-surfaces).
 
-Se a atualização falhar, a superfície se tornará editável novamente. Você pode clicar no nome e atualizar as configurações que precisam ser corrigidas.
+Se a atualização falhar, a configuração se tornará editável novamente. Você pode clicar no nome e atualizar as configurações que precisam ser corrigidas.
 
-## Desativar uma superfície de canal {#deactivate-a-surface}
+## Desativar uma configuração de canal {#deactivate-a-surface}
 
-Para tornar uma superfície de canal **[!UICONTROL Ativa]** indisponível para criar novas mensagens, você pode desativá-la. No entanto, as mensagens de jornadas que atualmente usam essa superfície não serão afetadas e continuarão funcionando.
+Para tornar uma configuração de canal **[!UICONTROL Ativa]** indisponível para criar novas mensagens, você pode desativá-la. No entanto, as mensagens de jornadas que estão usando essa configuração no momento não serão afetadas e continuarão funcionando.
 
 >[!NOTE]
 >
->Não é possível desativar uma superfície de canal enquanto uma atualização está sendo processada. Aguarde até que a atualização seja bem-sucedida ou tenha falhado. Saiba mais sobre [edição de superfícies de canal](#edit-channel-surface) e sobre [atualização de status](#update-statuses).
+>Não é possível desativar uma configuração de canal enquanto uma atualização está sendo processada. Aguarde até que a atualização seja bem-sucedida ou tenha falhado. Saiba mais sobre [edição de configurações de canal](#edit-channel-surface) e sobre [atualização de status](#update-statuses).
 
-1. Acesse a lista de superfícies de canal.
+1. Acesse a lista de configurações de canal.
 
-1. Para a superfície ativa de sua escolha, clique no botão **[!UICONTROL Mais ações]**.
+1. Para a configuração ativa de sua escolha, clique no botão **[!UICONTROL Mais ações]**.
 
 1. Selecione **[!UICONTROL Desativar]**.
 
@@ -310,16 +263,16 @@ Para tornar uma superfície de canal **[!UICONTROL Ativa]** indisponível para c
 
 >[!NOTE]
 >
->As superfícies de canal desativadas não podem ser excluídas para evitar problemas no jornada que usa essas superfícies para enviar mensagens.
+>As configurações de canal desativadas não podem ser excluídas para evitar problemas no jornada que usa essas configurações para enviar mensagens.
 
-Não é possível editar diretamente uma superfície de canal desativada. No entanto, é possível duplicá-la e editar a cópia para criar uma nova versão que será usada para criar novas mensagens. Você também pode ativá-la novamente e aguardar até que a atualização seja bem-sucedida para editá-la.
+Não é possível editar diretamente uma configuração de canal desativada. No entanto, é possível duplicá-la e editar a cópia para criar uma nova versão que será usada para criar novas mensagens. Você também pode ativá-la novamente e aguardar até que a atualização seja bem-sucedida para editá-la.
 
 ![](assets/preset-activate.png)
 
 <!--
 ## How-to video{#video-presets}
 
-Learn how to create channel surfaces, how to use them and how to delegate a subdomain and create an IP pool.
+Learn how to create channel configurations, how to use them and how to delegate a subdomain and create an IP pool.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
 -->

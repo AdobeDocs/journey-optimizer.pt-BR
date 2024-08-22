@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: arquivamento, mensagens, HIPAA, CCO, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 7%
@@ -41,11 +41,11 @@ Você pode enviar uma cópia oculta (Cco) de um email enviado por [!DNL Journey 
 
 ### Habilitar email com CCO {#enable-bcc}
 
-Para habilitar a opção **[!UICONTROL Email com CCO]**, insira o endereço de email de sua escolha no campo dedicado da [superfície de canal](channel-surfaces.md) (ou seja, predefinição de mensagem). Você pode especificar qualquer endereço externo no formato correto, exceto um endereço de email definido em um subdomínio delegado ao Adobe. Por exemplo, se você delegou o subdomínio *marketing.luma.com* ao Adobe, qualquer endereço como *abc@marketing.luma.com* será proibido.
+Para habilitar a opção **[!UICONTROL Email com CCO]**, digite o endereço de email de sua escolha no campo dedicado da [configuração de canal](channel-surfaces.md) (ou seja, predefinição de mensagem). Você pode especificar qualquer endereço externo no formato correto, exceto um endereço de email definido em um subdomínio delegado ao Adobe. Por exemplo, se você delegou o subdomínio *marketing.luma.com* ao Adobe, qualquer endereço como *abc@marketing.luma.com* será proibido.
 
 >[!CAUTION]
 >
->Você só pode definir um endereço de email de CCO. Verifique se o endereço CCo tem capacidade de recepção suficiente para armazenar todos os emails enviados usando a superfície de canal atual.
+>Você só pode definir um endereço de email de CCO. Verifique se o endereço CCo tem capacidade de recepção suficiente para armazenar todos os emails enviados usando a configuração de canal atual.
 >
 >Mais recomendações estão listadas em [esta seção](#bcc-recommendations-limitations).
 
@@ -55,13 +55,13 @@ Para habilitar a opção **[!UICONTROL Email com CCO]**, insira o endereço de e
 
 ![](assets/preset-bcc.png)
 
-Quando a configuração for concluída, todas as mensagens de email baseadas nessa superfície serão copiadas de forma oculta para o endereço de email CCO inserido. A partir daí, as mensagens podem ser processadas e arquivadas usando um sistema externo.
+Quando a configuração estiver concluída, todas as mensagens de email baseadas nessa configuração serão copiadas de forma oculta para o endereço de email CCO inserido. A partir daí, as mensagens podem ser processadas e arquivadas usando um sistema externo.
 
 >[!CAUTION]
 >
->O uso do recurso CCO é contabilizado em relação ao número de mensagens para as quais você está licenciado. Portanto, ative-o somente nas superfícies usadas para comunicações críticas que você deseja arquivar. Verifique se há volumes licenciados em seu contrato.
+>O uso do recurso CCO é contabilizado em relação ao número de mensagens para as quais você está licenciado. Portanto, ative-o somente nas configurações usadas para comunicações críticas que você deseja arquivar. Verifique se há volumes licenciados em seu contrato.
 
-A configuração de endereço de email com CCO é imediatamente salva e processada no nível da superfície. Ao criar uma nova mensagem usando essa superfície, o endereço de email de CCO é exibido automaticamente.
+A configuração de endereço de email CCO é imediatamente salva e processada no nível de configuração. Ao criar uma nova mensagem usando essa configuração, o endereço de email de CCO é exibido automaticamente.
 
 ![](assets/preset-bcc-in-msg.png)
 

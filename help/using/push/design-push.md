@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 17%
@@ -39,7 +39,7 @@ Você pode selecionar o comportamento quando um usuário clicar no corpo da noti
 
 ![](assets/title-body-push.png)
 
-* Para abrir o aplicativo, selecione a opção **[!UICONTROL Abrir aplicativo]**. O aplicativo associado à notificação é definido na [superfície de canal](../configuration/channel-surfaces.md) (ou seja, predefinição de mensagem).
+* Para abrir o aplicativo, selecione a opção **[!UICONTROL Abrir aplicativo]**. O aplicativo associado à notificação é definido na [configuração de canal](../configuration/channel-surfaces.md) (ou seja, predefinição de mensagem).
 * Para redirecionar o usuário para um conteúdo específico em um aplicativo, selecione a opção **[!UICONTROL Deeplink]**.  O conteúdo específico pode ser uma exibição específica, uma seção específica de uma página ou uma determinada guia. Depois que a opção for selecionada, insira o deep link no campo associado.
 * Para redirecionar o usuário para uma URL externa, use a opção **[!UICONTROL URL da Web]**. Depois que a opção for selecionada, insira o URL no campo associado.
 

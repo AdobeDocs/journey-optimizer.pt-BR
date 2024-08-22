@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 11cae07d061b67136f50201e89c0e349e919620d
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 16%
+ht-degree: 12%
 
 ---
 
@@ -36,7 +36,7 @@ Acesse as seguintes seções para saber mais sobre cada tópico:
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="Confirmar o URL para editar"
->abstract="Confirme o URL da página da Web específica a ser usada para editar o conteúdo que será aplicado na superfície da Web definida acima. A página da Web deve ser implementada usando o SDK da Web da Adobe Experience Platform."
+>abstract="Confirme o URL da página da Web específica a ser usada para editar o conteúdo que será aplicado na configuração da Web definida acima. A página da Web deve ser implementada usando o SDK da Web da Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR" text="Saiba mais"
 
 >[!CONTEXTUALHELP]
@@ -55,7 +55,7 @@ Para começar a criar sua campanha da Web, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Se você inseriu um único URL como a superfície da web, o URL para personalizar já está preenchido.
+   >Se você inseriu um único URL como a configuração da Web, o URL a ser personalizado já está preenchido.
 
    ![](assets/web-edit-enter-url.png)
 
@@ -152,13 +152,13 @@ Esta seção detalha as diferentes maneiras de navegar pelo web designer. Para e
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="Usar o modo de navegação"
->abstract="Nesse modo, você pode navegar até a página exata da superfície selecionada que deseja personalizar."
+>abstract="Nesse modo, você pode navegar para a página exata da configuração selecionada que deseja personalizar."
 
 Você pode alternar do modo padrão **[!UICONTROL Design]** para o modo **[!UICONTROL Procurar]** usando o botão dedicado.
 
 ![](assets/web-designer-browse-mode.png)
 
-No modo **[!UICONTROL Procurar]**, você pode navegar até a página exata a partir da superfície selecionada que deseja personalizar.
+No modo **[!UICONTROL Procurar]**, você pode navegar para a página exata a partir da configuração selecionada que deseja personalizar.
 
 É especialmente útil ao lidar com páginas que estão por trás da autenticação ou que não estão disponíveis desde o início em um determinado URL. Por exemplo, você poderá autenticar, navegar até a página da sua conta ou até a página do carrinho e voltar para o modo **[!UICONTROL Design]** para executar as alterações na página desejada.
 

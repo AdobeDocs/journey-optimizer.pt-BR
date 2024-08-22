@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdomínios, capacidade de entrega
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '2530'
 ht-degree: 11%
@@ -58,7 +58,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* Somente as campanhas com a opção **[!UICONTROL Ativação do plano de aquecimento de IP]** habilitada estão disponíveis para seleção. [Saiba mais](#create-ip-warmup-campaign)
    >
-   >* Somente campanhas que usam a mesma superfície que o plano de aquecimento de IP selecionado estão disponíveis para seleção.
+   >* Somente campanhas que usam a mesma configuração que o plano de aquecimento de IP selecionado estão disponíveis para seleção.
 
 1. Depois que uma campanha é selecionada para a fase atual, as seções que excluem perfis, públicos da campanha e grupos de domínio são exibidas.
 

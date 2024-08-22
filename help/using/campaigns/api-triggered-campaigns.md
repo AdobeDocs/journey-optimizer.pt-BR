@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campanhas, acionadas por API, REST, otimizador, mensagens
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: ef32423dafa33406244e09f6dddd760e44e4edbf
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 2%
@@ -44,7 +44,7 @@ Para criar uma campanha acionada por API, siga as etapas abaixo. Informações d
 
 1. Escolha a categoria **[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**, dependendo do tipo de comunicação que você deseja enviar.
 
-1. Escolha um dos canais com suporte e a superfície de canal associada a serem usados para enviar a mensagem e clique em **[!UICONTROL Criar]**.
+1. Escolha um dos canais com suporte e a configuração de canal associada a serem usados para enviar a mensagem e clique em **[!UICONTROL Criar]**.
 
    ![](assets/api-triggered-type.png)
 

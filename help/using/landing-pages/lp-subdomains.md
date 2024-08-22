@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: landing page, landing page, subdomínios, configuração
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '811'
 ht-degree: 23%
 
 ---
@@ -50,9 +50,7 @@ Você pode usar um subdomínio que já foi delegado ao Adobe ou configurar outro
 
 Para usar um subdomínio que já está delegado ao Adobe, siga as etapas abaixo.
 
-1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Configuração de email]** > **[!UICONTROL Subdomínios da página de aterrissagem]**.
-
-   ![](assets/lp_access-subdomains.png)
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Configurações da página de aterrissagem]** > **[!UICONTROL Subdomínios da página de aterrissagem]**.
 
 1. Clique em **[!UICONTROL Configurar subdomínio]**.
 
@@ -105,7 +103,7 @@ Para usar um subdomínio que já está delegado ao Adobe, siga as etapas abaixo.
 
 Para configurar um novo subdomínio, siga as etapas abaixo.
 
-1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Configuração de email]** > **[!UICONTROL Subdomínios da página de aterrissagem]**.
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Configurações da página de aterrissagem]** > **[!UICONTROL Subdomínios da página de aterrissagem]**.
 
 1. Clique em **[!UICONTROL Configurar subdomínio]**.
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 13%
+source-wordcount: '2009'
+ht-degree: 12%
 
 ---
 
@@ -39,7 +39,7 @@ Para adicionar uma mensagem no aplicativo em uma jornada, siga estas etapas:
 
 1. Insira um **[!UICONTROL Rótulo]** e uma **[!UICONTROL Descrição]** para a mensagem.
 
-1. Escolha a [superfície no aplicativo](inapp-configuration.md) para usar.
+1. Escolha sua [Configuração no aplicativo](inapp-configuration.md#channel-prerequisites) para usar.
 
    ![](assets/in_app_journey_2.png)
 
@@ -125,13 +125,11 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
 
 1. Acesse o menu **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**.
 
-1. Na seção **[!UICONTROL Properties]**, selecione quando o tipo de execução da campanha será: Scheduled ou API-trigger. Saiba mais sobre tipos de campanha em [esta página](../campaigns/create-campaign.md#campaigntype).
+1. Selecione o tipo de campanha que deseja executar
 
-1. Na seção **[!UICONTROL Ações]**, escolha a **[!UICONTROL Mensagem no aplicativo]** e a **[!UICONTROL Superfície do aplicativo]** configuradas anteriormente para a mensagem no aplicativo. Em seguida, clique em **[!UICONTROL Criar]**.
+   * **Agendado - Marketing**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas são destinadas ao envio de mensagens de marketing. Eles são configurados e executados na interface do usuário do.
 
-   Saiba mais sobre a Configuração no aplicativo em [esta página](inapp-configuration.md).
-
-   ![](assets/in_app_create_1.png)
+   * **Acionado por API - Marketing/Transacional**: execute a campanha usando uma chamada de API. As campanhas acionadas por API destinam-se ao envio de mensagens de marketing ou transacionais, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc.
 
 1. Na seção **[!UICONTROL Propriedades]**, insira as descrições de **[!UICONTROL Título]** e **[!UICONTROL Descrição]**.
 
@@ -142,6 +140,12 @@ Para adicionar uma mensagem no aplicativo em uma campanha, siga estas etapas:
    ![](assets/in_app_create_2.png)
 
 1. No campo **[!UICONTROL Namespace de identidade]**, escolha o namespace a ser usado para identificar os indivíduos do público selecionado. [Saiba mais](../event/about-creating.md#select-the-namespace).
+
+1. Na seção **[!UICONTROL Actions]**, escolha a **[!UICONTROL mensagem no aplicativo]** e selecione ou crie uma nova configuração.
+
+   Saiba mais sobre a Configuração no aplicativo em [esta página](inapp-configuration.md).
+
+   ![](assets/in_app_create_1.png)
 
 1. Clique em **[!UICONTROL Criar experimento]** para começar a configurar seu experimento de conteúdo e criar tratamentos para medir seu desempenho e identificar a melhor opção para seu público-alvo. [Saiba mais](../content-management/content-experiment.md)
 

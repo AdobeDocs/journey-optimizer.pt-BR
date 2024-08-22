@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 10%
+source-wordcount: '1083'
+ht-degree: 9%
 
 ---
 
@@ -23,21 +23,21 @@ As medidas de proteção e recomendações específicas para experiências basea
 
 Para começar a criar sua experiência baseada em código por meio de uma campanha, siga as etapas abaixo.
 
-1. Crie uma campanha. [Saiba mais](../campaigns/create-campaign.md)
+1. Acesse o menu **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**. [Saiba mais](../campaigns/create-campaign.md)
+
+1. Selecione o tipo de campanha que deseja executar
+
+   * **Agendado - Marketing**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas são destinadas ao envio de mensagens de marketing. Eles são configurados e executados na interface do usuário do.
+
+   * **Acionado por API - Marketing/Transacional**: execute a campanha usando uma chamada de API. As campanhas acionadas por API destinam-se ao envio de mensagens de marketing ou transacionais, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc.
+
+1. Conclua as etapas para criar uma campanha, como as propriedades da campanha, [público-alvo](../audience/about-audiences.md) e [agendamento](../campaigns/create-campaign.md#schedule). Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 1. Selecione a ação **[!UICONTROL Experiência baseada em código]**.
 
-1. Insira a superfície de experiência baseada em código. [Saiba mais](#surface-definition)
+1. Selecione ou crie a configuração de experiência baseada em código. [Saiba mais](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
-
-   >[!CAUTION]
-   >
-   >Verifique se o URI de superfície usado em sua campanha baseada em código corresponde ao usado em sua própria implementação. Caso contrário, as alterações não serão aplicadas.
-
-1. Selecione **[!UICONTROL Criar]**.
-
-1. Conclua as etapas para criar uma campanha, como as propriedades da campanha, [público-alvo](../audience/about-audiences.md) e [agendamento](../campaigns/create-campaign.md#schedule). Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
 1. Edite o conteúdo conforme desejado usando o editor de personalização. [Saiba mais](#edit-code)
 
@@ -82,7 +82,7 @@ Para começar a criar sua experiência baseada em código por meio de uma campan
 
 1. Clique em **[!UICONTROL Salvar e fechar]** para confirmar as alterações.
 
-Agora, assim que o desenvolvedor fizer uma chamada de API ou SDK para buscar conteúdo para a superfície selecionada, as alterações serão aplicadas à página da Web ou aplicativo.
+Agora, assim que o desenvolvedor fizer uma chamada de API ou SDK para buscar conteúdo para a superfície definida na configuração do canal, as alterações serão aplicadas à página da Web ou aplicativo.
 
 ## Testar a campanha baseada em código {#test-code-based-campaign}
 
@@ -124,7 +124,7 @@ Depois de definir sua campanha baseada em código e editar seu conteúdo conform
 
    ![](assets/code-based-campaign-review.png)
 
-1. Verifique e edite, se necessário, o conteúdo, as propriedades, a superfície, o público-alvo e o agendamento.
+1. Verifique e edite, se necessário, o conteúdo, as propriedades, a configuração, o público-alvo e o agendamento.
 
 1. Selecione **[!UICONTROL Ativar]**.
 

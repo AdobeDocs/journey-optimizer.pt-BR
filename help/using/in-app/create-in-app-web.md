@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 85aee5c5ff9ceee10b2dc01ef9e31947cef9daae
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 5%
+source-wordcount: '634'
+ht-degree: 7%
 
 ---
 
@@ -24,43 +24,19 @@ Para configurar seu canal no aplicativo da Web, siga as etapas abaixo:
 
 * Personalize seus acionadores. As mensagens no aplicativo da Web são compatíveis com dois tipos de acionadores: dados enviados para a plataforma e acionadores manuais. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
 
+* Crie sua configuração da Web no aplicativo. [Saiba mais](inapp-configuration.md)
+
 ## Criar sua campanha de mensagens no aplicativo da Web {#create-inapp-web-campaign}
 
 1. Acesse o menu **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**.
 
-1. Na seção **[!UICONTROL Properties]**, selecione quando o tipo de execução da campanha será: Scheduled ou API-trigger. Saiba mais sobre tipos de campanha em [esta página](../campaigns/create-campaign.md#campaigntype).
+1. Escolha o tipo de execução da campanha: Scheduled ou acionado por API. Saiba mais sobre tipos de campanha em [esta página](../campaigns/create-campaign.md#campaigntype).
 
-1. Na seção **[!UICONTROL Ações]**, escolha a **[!UICONTROL mensagem no aplicativo]**. Na lista suspensa **[!UICONTROL Enviar para]**, selecione Web.
+1. No menu suspenso **[!UICONTROL Ações]**, escolha a **[!UICONTROL mensagem no aplicativo]**.
 
    ![](assets/in_app_web_surface_1.png)
 
-1. Defina uma superfície do aplicativo. Você tem duas opções para fazer alterações:
-
-   * Você pode inserir uma **[!UICONTROL URL da página]** para aplicar alterações a uma página específica.
-
-   * É possível criar uma regra para direcionar vários URLs que seguem o mesmo padrão.
-
-+++ Como criar uma regra de correspondência de Páginas.
-
-      1. Selecione **[!UICONTROL Páginas que correspondem à regra]** como Superfície do aplicativo.
-      1. Clique em **[!UICONTROL Criar regra]**.
-
-         ![](assets/in_app_web_surface_3.png)
-
-      1. Na janela **[!UICONTROL Editar regra de superfície]**, defina seus critérios para os campos **[!UICONTROL Domínio]** e **[!UICONTROL Página]**.
-      1. Nos menus suspensos de condição, personalize ainda mais seus critérios.
-
-         Aqui, por exemplo, para editar elementos exibidos em todas as páginas de produtos de vendas do site Luma, selecione Domínio > Começa com > Luma e Página > Contém > vendas.
-
-         ![](assets/in_app_web_surface_4.png)
-
-      1. Salve as alterações. A regra é exibida na tela **[!UICONTROL Criar campanha]**.
-
-+++
-
-   ![](assets/in_app_web_surface_2.png)
-
-1. Após selecionar e configurar a superfície do aplicativo, clique em **[!UICONTROL Criar]**.
+1. Escolha ou crie sua configuração de aplicativo. [Saiba mais](inapp-configuration.md#channel-prerequisites)
 
 ## Definir a campanha de mensagens no aplicativo da Web {#configure-inapp}
 
@@ -74,7 +50,7 @@ Para configurar seu canal no aplicativo da Web, siga as etapas abaixo:
 
 1. No campo **[!UICONTROL Namespace de identidade]**, escolha o namespace a ser usado para identificar os indivíduos do público selecionado. [Saiba mais](../event/about-creating.md#select-the-namespace).
 
-1. No menu **[!UICONTROL Ação]**, você pode encontrar as configurações definidas anteriormente como **[!UICONTROL Superfície do aplicativo]**. Você pode fazer alterações aqui, se necessário, ou atualizar sua regra clicando em **[!UICONTROL Editar Regra]**.
+1. No menu **[!UICONTROL Ação]**, você pode encontrar as configurações definidas anteriormente como **[!UICONTROL Configuração do aplicativo]**. Você pode fazer alterações aqui, se necessário, ou atualizar sua regra clicando em **[!UICONTROL Editar Regra]**.
 
 1. Clique em **[!UICONTROL Criar experimento]** para começar a configurar seu experimento de conteúdo e criar tratamentos para medir seu desempenho e identificar a melhor opção para seu público-alvo. [Saiba mais](../content-management/content-experiment.md)
 

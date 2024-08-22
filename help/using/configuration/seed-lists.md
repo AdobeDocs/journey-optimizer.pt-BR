@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: seed list, seed list, seed, configuração
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 21%
@@ -52,7 +52,7 @@ Os seed addresses não são perfis reais nem perfis de teste, pois não incluem 
 
 ## Acessar as listas de propagação {#access-seed-lists}
 
-Para acessar as listas de propagação já criadas, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** e selecione **[!UICONTROL Lista de propagação]**.
+Para acessar as listas de propagação já criadas, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de email]** e selecione **[!UICONTROL Lista de propagação]**.
 
 <!--
 >[!CAUTION]
@@ -73,7 +73,7 @@ Use o botão **[!UICONTROL Excluir]** para remover permanentemente uma entrada.
 
 >[!CAUTION]
 >
->Não é possível excluir uma lista de propagação usada em uma [campanha](../campaigns/review-activate-campaign.md) ou [jornada](../building-journeys/publishing-the-journey.md) ativa. Você precisa desativar a campanha/jornada ou editá-la para usar outra superfície que não tenha a lista de propagação selecionada. [Saiba mais sobre como usar uma lista de propagação](#use-seed-list)
+>Não é possível excluir uma lista de propagação usada em uma [campanha](../campaigns/review-activate-campaign.md) ou [jornada](../building-journeys/publishing-the-journey.md) ativa. Você precisa desativar a campanha/jornada ou editá-la para usar outra configuração que não tenha a lista de propagação selecionada. [Saiba mais sobre como usar uma lista de propagação](#use-seed-list)
 
 Você pode clicar no nome de uma lista de propagação para editá-la. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -92,7 +92,7 @@ Você pode clicar no nome de uma lista de propagação para editá-la. <!--Use t
 
 Para criar uma lista de propagação, siga as etapas abaixo.
 
-1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de email]** > **[!UICONTROL Lista de propagação]**.
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de email]** > **[!UICONTROL Lista de propagação]**.
 
 1. Selecione o botão **[!UICONTROL Criar lista de propagação]**.
 
@@ -132,7 +132,7 @@ Agora que sua lista de seeds foi criada, você pode usá-la em qualquer campanha
 >
 >As mensagens enviadas para seed addresses não são incluídas nos relatórios do jornada ou da campanha.
 
-1. Crie uma superfície e selecione o canal **[!UICONTROL Email]**. [Saiba mais](../email/email-settings.md)
+1. Crie uma configuração e selecione o canal **[!UICONTROL Email]**. [Saiba mais](../email/email-settings.md)
 
 1. Selecione a lista de propagação de sua escolha na [seção correspondente](../email/email-settings.md#seed-list).
 
@@ -142,11 +142,11 @@ Agora que sua lista de seeds foi criada, você pode usá-la em qualquer campanha
 
    ![](assets/seed-list-surface.png)
 
-1. Envie a superfície.
+1. Envie a configuração.
 
 1. Crie uma [campanha](../campaigns/create-campaign.md) ou uma [jornada](../building-journeys/journey-gs.md).
 
-1. Selecione a ação **[!UICONTROL Email]** e selecione a [superfície](channel-surfaces.md), incluindo a lista de propagação que é relevante para você.
+1. Selecione a ação **[!UICONTROL Email]** e selecione a [configuração](channel-surfaces.md), incluindo a lista de propagação que é relevante para você.
 
    ![](assets/seed-list-campaign-email.png)
 

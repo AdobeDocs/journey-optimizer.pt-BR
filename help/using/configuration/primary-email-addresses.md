@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: principal, execução, e-mail, destino, perfil, otimizador
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '433'
 ht-degree: 18%
 
 ---
@@ -32,7 +32,7 @@ Ao direcionar um perfil, vários endereços de email ou números de telefone pod
 
 Nesse caso, [!DNL Journey Optimizer] usa **[!UICONTROL Campos de execução]** para determinar qual endereço de email ou número de telefone usar do serviço de perfil em prioridade.
 
-Para verificar os campos que são usados como padrão, acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Geral]** > **[!UICONTROL Campos de execuções]**.
+Para verificar os campos que são usados por padrão no momento, acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações gerais]** > **[!UICONTROL Campos de execuções]**.
 
 ![](assets/primary-address-execution-fields.png)
 
@@ -46,7 +46,7 @@ Na maioria dos casos, você alterará um campo de execução globalmente e defin
 
 Para alterar os campos de execução globalmente no nível da sandbox, siga as etapas abaixo.
 
-1. Acesse o menu **[!UICONTROL Canais]** > **[!UICONTROL Geral]** > **[!UICONTROL Campos de execuções]**.
+1. Acesse o menu **[!UICONTROL Canais]** > **[!UICONTROL Configurações gerais]** > **[!UICONTROL Campos de execuções]**.
 
 1. Clique em **[!UICONTROL Editar]** para alterar os valores padrão.
 

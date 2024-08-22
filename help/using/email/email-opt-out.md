@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: recusar, email, link, cancelar inscrição
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 38496b93f073c0e9cb208b0c62e6c4cb8a2d8c03
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 28%
@@ -22,11 +22,11 @@ Ao enviar mensagens de jornadas ou campanhas, você deve sempre garantir que os 
 
 >[!NOTE]
 >
->Todas as suas mensagens de marketing devem incluir um link para opção de não participação. Isso não é necessário para mensagens transacionais. A categoria da mensagem - **[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]** - é definida no nível [superfície de canal](../configuration/channel-surfaces.md#email-type) e ao criar a mensagem.
+>Todas as suas mensagens de marketing devem incluir um link para opção de não participação. Isso não é necessário para mensagens transacionais. A categoria da mensagem - **[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]** - é definida no nível [configuração de canal](../configuration/channel-surfaces.md#email-type) e ao criar a mensagem.
 
 Para inserir um link de cancelamento de subscrição no seu conteúdo de email, você pode:
 
-* Adicione um URL de cancelamento de inscrição com um clique no cabeçalho do email. Habilitar a opção **[!UICONTROL Cabeçalho Lista-Cancelar Inscrição]** no nível de superfície de canal adiciona um link para opção de não participação no cabeçalho do email. [Saiba mais sobre a opção de não participação no cabeçalho do email](#unsubscribe-header)
+* Adicione um URL de cancelamento de inscrição com um clique no cabeçalho do email. Habilitar a opção **[!UICONTROL Cabeçalho Lista-Cancelar Inscrição]** no nível de configuração de canal adiciona um link para opção de não participação no cabeçalho do email. [Saiba mais sobre a opção de não participação no cabeçalho do email](#unsubscribe-header)
 
 * Habilite o **link para opção de não participação com um clique** para seu email.  [Saiba como adicionar um link para opção de não participação com um clique](#one-click-opt-out)
 
@@ -47,7 +47,7 @@ Para inserir um link de cancelamento de subscrição no seu conteúdo de email, 
 
 O URL para cancelar a inscrição da lista com um clique é um link ou botão para cancelar a inscrição exibido ao lado das informações do remetente do email e permite que os destinatários excluam instantaneamente suas listas de endereçamento com um único clique. No Adobe Journey Optimizer, quando a opção **Habilitar List-Unsubscribe** está ativada, o cabeçalho do email inclui um mailto e/ou uma URL por padrão que os destinatários podem usar para cancelar a inscrição da sua lista de endereçamento.
 
-A opção de alternância [Habilitar Lista-Cancelar Inscrição](email-settings.md#list-unsubscribe) deve ser ativada no nível da superfície de canal para que os emails que usam essa superfície incluam a URL de cancelamento de inscrição com um clique no cabeçalho do email.
+A opção de alternância [Habilitar Lista-Cancelar Inscrição](email-settings.md#list-unsubscribe) deve ser ativada no nível de configuração de canal para que os emails que usam essa configuração incluam a URL de cancelamento de inscrição com um clique no cabeçalho do email.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Por exemplo, o URL de cancelamento de inscrição com um clique exibe um link de
 ![](assets/unsubscribe-header.png)
 
 
-Com o Adobe Journey Optimizer, você pode definir as configurações de superfície de email com um URL de cancelamento de inscrição de um clique e um endereço mailto gerados automaticamente no cabeçalho do email, ou incluir um URL de recusa de um clique no corpo do email: quando um recipient clica no link de recusa de um clique, a solicitação de cancelamento de inscrição do recipient é processada adequadamente.
+Com o Adobe Journey Optimizer, você pode definir suas configurações de email com um URL de cancelamento de inscrição de um clique e um endereço mailto gerados automaticamente no cabeçalho do email, ou incluir um URL de recusa de um clique no corpo do email: quando um recipient clica no link de recusa de um clique, a solicitação de cancelamento de inscrição do recipient é processada adequadamente.
 
 <!--
 >[!AVAILABILITY]
@@ -68,7 +68,7 @@ Com o Adobe Journey Optimizer, você pode definir as configurações de superfí
 >
 -->
 
-Dependendo do cliente de email e das [configurações de cancelamento de inscrição da superfície de email](email-settings.md#list-unsubscribe), clicar no link de cancelamento de inscrição no cabeçalho do email terá um dos seguintes resultados:
+Dependendo do cliente de email e das [configurações de cancelamento de inscrição](email-settings.md#list-unsubscribe), clicar no link de cancelamento de inscrição no cabeçalho do email terá um dos seguintes resultados:
 
 * Quando o recurso **Mailto (cancelar assinatura)** é habilitado por você, a solicitação de cancelamento de assinatura é enviada para o endereço de cancelamento de assinatura padrão com base no subdomínio criado por você.
 * Quando o recurso **Cancelar inscrição da URL** com um clique é habilitado por você - ou se você inseriu uma URL de cancelamento de inscrição no conteúdo do corpo do email -, o destinatário é recusado diretamente, no nível do canal ou no nível da ID (dependendo de como o consentimento é configurado), quando o destinatário clica na URL de cancelamento de inscrição com um clique, que se baseia no subdomínio criado por você.
@@ -91,7 +91,7 @@ Para definir um URL personalizado para cancelar a inscrição, insira um link de
 
    >[!NOTE]
    >
-   >Se você habilitou a opção **[!UICONTROL List-Unsubscribe]** no [nível de superfície de canal](email-settings.md#list-unsubscribe) e desmarcou a opção de URL de recusa de um clique padrão, essa URL será usada quando os usuários clicarem no link de cancelamento de inscrição no cabeçalho do email. [Saiba mais](#unsubscribe-header)
+   >Se você habilitou a opção **[!UICONTROL List-Unsubscribe]** no [nível de configuração de canal](email-settings.md#list-unsubscribe) e desmarcou a opção de URL de recusa de um clique padrão, essa URL será usada quando os usuários clicarem no link de cancelamento de inscrição no cabeçalho do email. [Saiba mais](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 

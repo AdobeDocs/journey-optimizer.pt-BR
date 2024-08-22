@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: correspondência direta, mensagem, campanha
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 18%
+source-wordcount: '803'
+ht-degree: 16%
 
 ---
 
@@ -28,18 +28,20 @@ Para criar mensagens de correspondência direta, crie uma campanha agendada e co
 >Antes de criar uma mensagem de correspondência direta, verifique se você configurou:
 >
 >1. Uma [configuração de roteamento de arquivo](../direct-mail/direct-mail-configuration.md#file-routing-configuration) que especifica o servidor no qual o arquivo de extração deve ser carregado e armazenado,
->1. Uma [superfície de mensagem de correspondência direta](../direct-mail/direct-mail-configuration.md#direct-mail-surface) que referenciará a configuração de roteamento de arquivos.
+>1. Uma [configuração de mensagem de correspondência direta](../direct-mail/direct-mail-configuration.md#direct-mail-surface) que referenciará a configuração de roteamento de arquivos.
 
 
 ## Criar uma campanha de correspondência direta{#create-dm-campaign}
 
 Para criar uma campanha de correspondência direta, siga estas etapas:
 
-1. Crie uma nova campanha agendada e escolha **[!UICONTROL Correspondência direta]** como ação.
+1. Acesse o menu **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**.
 
-1. Selecione a **[!UICONTROL Superfície de correspondência direta]** a ser usada e clique em **[!UICONTROL Criar]**. [Saiba como criar uma superfície de correspondência direta](direct-mail-configuration.md#direct-mail-surface).
+1. Selecione o tipo de campanha que deseja executar
 
-   ![](assets/direct-mail-campaign.png){width="800" align="center"}
+   * **Agendado - Marketing**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas são destinadas ao envio de mensagens de marketing. Eles são configurados e executados na interface do usuário do.
+
+   * **Acionado por API - Marketing/Transacional**: execute a campanha usando uma chamada de API. As campanhas acionadas por API destinam-se ao envio de mensagens de marketing ou transacionais, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc.
 
 1. Na seção **[!UICONTROL Propriedades]**, edite o **[!UICONTROL Título]** e a **[!UICONTROL Descrição]** da campanha.
 
@@ -51,7 +53,11 @@ Para criar uma campanha de correspondência direta, siga estas etapas:
 
 1. No campo **[!UICONTROL Namespace de identidade]**, selecione o namespace apropriado para identificar indivíduos dentro do público escolhido. [Saiba mais](../event/about-creating.md#select-the-namespace).
 
-   ![](assets/direct-mail-campaign-properties.png){width="800" align="center"}
+1. Na seção **[!UICONTROL Ações]**, escolha a **[!UICONTROL correspondência direta]**.
+
+1. Selecione ou crie uma nova configuração a ser usada por uma **[!UICONTROL Configuração de correspondência direta]**. [Saiba como criar uma configuração de correspondência direta](direct-mail-configuration.md#direct-mail-surface).
+
+   ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
 1. As campanhas podem ser agendadas para uma data específica ou definidas para recorrentes em intervalos regulares. Saiba como configurar o **[!UICONTROL Cronograma]** da sua campanha no [nesta seção](../campaigns/create-campaign.md#schedule).
 
@@ -78,12 +84,6 @@ Agora você pode começar a configurar o arquivo de extração para enviar ao se
    1. No campo **[!UICONTROL Dados]**, selecione os atributos de perfil a serem exibidos usando o [editor de personalização](../personalization/personalization-build-expressions.md).
 
    1. Para classificar o arquivo de extração usando uma coluna, selecione a coluna e alterne na opção **[!UICONTROL Classificar por]**. O ícone **[!UICONTROL Classificar por]** é exibido ao lado do rótulo da coluna na seção **[!UICONTROL Campos de Dados]**.
-
-
-
-
-
-
 
 O arquivo de extração é exigido por provedores de correspondência direta para enviar emails aos clientes. Para definir a configuração do arquivo de extração, siga estas etapas:
 

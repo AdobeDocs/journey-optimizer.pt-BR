@@ -1,5 +1,5 @@
 ---
-title: Configuração de correspondência direta
+title: Configuração da correspondência direta
 description: Saiba como configurar o canal de correspondência direta no Journey Optimizer
 feature: Direct Mail, Surface
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c7d8dd94bde49e8d02fe553fbac3942f55bf73fe
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 22%
+source-wordcount: '1384'
+ht-degree: 19%
 
 ---
 
-# Configuração de correspondência direta {#direct-mail-configuration}
+# Configuração da correspondência direta {#direct-mail-configuration}
 
 O [!DNL Journey Optimizer] permite que você personalize e gere os arquivos necessários aos provedores de correspondência direta para enviar emails aos seus clientes.
 
@@ -28,7 +28,7 @@ Antes de poder gerar esse arquivo, é necessário criar:
    >
    >Para criar uma configuração de roteamento de arquivo, você precisa ter a permissão interna **[!DNL Manage file routing]**. [Saiba mais](../administration/ootb-product-profiles.md#content-library-manager).
 
-1. Uma [superfície de correspondência direta](#direct-mail-surface) que fará referência à configuração de roteamento de arquivos. Se você não tiver configurado nenhuma opção de roteamento de arquivo, não será possível criar uma superfície de correspondência direta.
+1. Uma [configuração de correspondência direta](#direct-mail-configuration) que referenciará a configuração de roteamento de arquivos. Se você não tiver configurado nenhuma opção de roteamento de arquivo, não será possível criar uma configuração de correspondência direta.
 
 ## Configurar o roteamento de arquivos {#file-routing-configuration}
 
@@ -72,7 +72,7 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 >[!TAB Amazon S3]
 
-1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de roteamento de arquivos]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de correspondência direta]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -96,13 +96,13 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [superfície de correspondência direta](#direct-mail-surface).
+1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
 
-   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivos, mas não poderá selecioná-la em uma superfície até que ela esteja **[!UICONTROL Ativa]**.
+   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas não poderá selecioná-la em uma configuração até que ela esteja **[!UICONTROL Ativa]**.
 
 >[!TAB SFTP]
 
-1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de roteamento de arquivos]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de correspondência direta]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -126,13 +126,13 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [superfície de correspondência direta](#direct-mail-surface).
+1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
 
-   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivos, mas não poderá selecioná-la em uma superfície até que ela esteja **[!UICONTROL Ativa]**.
+   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas não poderá selecioná-la em uma configuração até que ela esteja **[!UICONTROL Ativa]**.
 
 >[!TAB Azure]
 
-1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configuração de roteamento de arquivos]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
+1. Acesse o menu **[!UICONTROL Administração]** > **[!UICONTROL Canais]** > **[!UICONTROL Configurações de correspondência direta]** > **[!UICONTROL Roteamento de arquivos]** e clique em **[!UICONTROL Criar configuração de roteamento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -156,18 +156,18 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 
 1. Para criptografar o arquivo, copie e cole sua chave de criptografia no campo **[!UICONTROL Chave de criptografia PGP/GPG]**.
 
-1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [superfície de correspondência direta](#direct-mail-surface).
+1. Selecione **[!UICONTROL Enviar]**. A configuração de roteamento de arquivos foi criada com o status **[!UICONTROL Ativo]**. Agora ele está pronto para ser usado em uma [configuração de correspondência direta](#direct-mail-surface).
 
-   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivos, mas não poderá selecioná-la em uma superfície até que ela esteja **[!UICONTROL Ativa]**.
+   Você também pode selecionar **[!UICONTROL Salvar como rascunho]** para criar a configuração de roteamento de arquivo, mas não poderá selecioná-la em uma configuração até que ela esteja **[!UICONTROL Ativa]**.
 
 >[!ENDTABS]
 
-## Criar uma superfície de correspondência direta {#direct-mail-surface}
+## Criar uma configuração de correspondência direta {#direct-mail-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Definir as configurações da correspondência direta"
->abstract="A superfície de correspondência direta contém as configurações para a formatação do arquivo que contém os dados do público direcionado e será usada pelo provedor de email. Você também pode definir para onde o arquivo será exportado selecionando a configuração de roteamento do arquivo."
+>abstract="Uma configuração de correspondência direta contém as configurações para a formatação do arquivo que contém os dados do público-alvo direcionado e será usada pelo provedor de email. Você também pode definir para onde o arquivo será exportado selecionando a configuração de roteamento do arquivo."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=pt-BR#file-routing-configuration" text="Configurar o roteamento de arquivos"
 
 <!--
@@ -181,17 +181,29 @@ Para configurar o roteamento de arquivos, siga as etapas abaixo.
 >title="Definir o limite de divisão de arquivo"
 >abstract="É necessário definir o número máximo de registros para cada arquivo contendo dados de público. Você pode selecionar qualquer número entre 1 e 200.000 registros. Depois que o limite especificado for atingido, outro arquivo será criado para os registros restantes."
 
-Para entregar correspondência direta com [!DNL Journey Optimizer], você precisa criar uma superfície de canal para definir as configurações de formatação do arquivo que será usado pelo provedor de email.
+Para entregar correspondência direta com [!DNL Journey Optimizer], é necessário criar uma configuração de canal para definir as configurações de formatação do arquivo que será usado pelo provedor de email.
 
-Uma superfície de correspondência direta também deve incluir a configuração de roteamento de arquivos, que define o servidor para o qual o arquivo de correspondência direta será exportado.
+Uma configuração de correspondência direta também deve incluir a configuração de roteamento de arquivos, que define o servidor para o qual o arquivo de correspondência direta será exportado.
 
-1. Crie uma superfície de canal. [Saiba mais](../configuration/channel-surfaces.md)
+1. No painel à esquerda, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]** e selecione **[!UICONTROL Configurações gerais]** > **[!UICONTROL Configurações de canal]**. Clique no botão **[!UICONTROL Criar configuração de canal]**. [Saiba mais](../configuration/channel-surfaces.md)
+
+   ![](assets/direct-mail-config-1.png)
+
+1. Insira um nome e uma descrição (opcional) para a configuração e selecione o canal a ser configurado.
+
+   >[!NOTE]
+   >
+   > Os nomes devem começar com uma letra (A-Z). Ele só pode conter caracteres alfanuméricos. Também é possível usar sublinhado `_`, ponto`.` e hífen `-` caracteres.
+
+1. Para atribuir rótulos de uso de dados personalizados ou de núcleo à configuração, você pode selecionar **[!UICONTROL Gerenciar acesso]**. [Saiba mais sobre OLAC (Controle de Acesso em Nível de Objeto)](../administration/object-based-access.md).
 
 1. Selecione o canal **[!UICONTROL Correspondência direta]**.
 
-   ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
+   ![](assets/direct-mail-config-2.png)
 
-1. Defina as configurações de correspondência direta na seção dedicada da configuração da superfície de canal.
+1. Selecione **[!UICONTROL Ação de marketing]**(s) para associar políticas de consentimento às mensagens que usam essa configuração. Todas as políticas de consentimento associadas à ação de marketing são utilizadas para respeitar as preferências dos clientes. [Saiba mais](../action/consent.md#surface-marketing-actions)
+
+1. Defina as configurações de correspondência direta na seção dedicada da configuração do canal.
 
    ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
@@ -207,13 +219,13 @@ Uma superfície de correspondência direta também deve incluir a configuração
 
    >[!CAUTION]
    >
-   >Se você não tiver configurado nenhuma opção de roteamento de arquivo, não será possível criar uma superfície de correspondência direta. [Saiba mais](#file-routing-configuration)
+   >Se você não tiver configurado nenhuma opção de roteamento de arquivo, não será possível criar uma configuração de correspondência direta. [Saiba mais](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
-1. Envie a superfície de correspondência direta.
+1. Envie a configuração de correspondência direta.
 
 Agora você pode [criar uma mensagem de correspondência direta](../direct-mail/create-direct-mail.md) dentro de uma campanha. Depois que a campanha for iniciada, o arquivo que contém os dados do público-alvo serão exportados automaticamente para o servidor definido. O provedor de correspondência direta poderá recuperar esse arquivo e prosseguir com o delivery de correspondência direta.
 
