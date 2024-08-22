@@ -7,13 +7,11 @@ feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: integração do marketo, marketo engage
-source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
+source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 0%
+source-wordcount: '247'
+ht-degree: 4%
 
 ---
 
@@ -28,13 +26,13 @@ Embarque em uma jornada de integração perfeita de dados com o Marketo Engage. 
 ## Pré-requisitos {#prerequisites}
 
 * A instância do cliente do Marketo Engage deve ser habilitada para IMS.
-* A instância Marketo Engage e a instância AEP/AJO devem estar na mesma Organização IMS. +vincular
-* O cliente deve receber acesso MktoSync: Assimilação de serviço (NOTA PARA ADICIONAR AQUI + link)
+* A instância Marketo Engage e a instância AEP/AJO devem estar na mesma Organização IMS.
+* O cliente deve ser provisionado com **MktoSync: acesso ao Serviço de Assimilação**
 
 ## Configuração da ação {#configure-marketo-action}
 
 * Navegue até Administração > Configurações > Ações e clique em Gerenciar
-* Na lista Ações, clique em Criar ação. Leia mais sobre Criação de ação personalizada aqui (+link)
+* Na lista Ações, clique em Criar ação. Leia mais sobre [Ações personalizadas](../building-journeys/using-custom-actions.md){target="_blank"}.
 * Insira Nome, Descrição e selecione Adobe Marketo Engage como Tipo de ação
 
 ![](assets/engage-customaction-creation.png){width="40%" align="left"}
@@ -111,8 +109,8 @@ Agora você pode usar sua ação personalizada em sua tela dedicada.
 
 ## Usar a ação {#engage-using}
 
-* Arraste a ação personalizada para a tela de jornada. (Veja como usar uma ação/link personalizado)
-* Em Parâmetros de solicitação, clique em Editar para cada um dos parâmetros com valores dinâmicos que você configurou na carga.
+* Arraste a ação personalizada para a tela de jornada.
+* Na seção **Solicitar parâmetros**, clique em Editar para cada um dos parâmetros com valores dinâmicos que você configurou na carga.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
 
