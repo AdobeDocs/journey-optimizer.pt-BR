@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 99%
+source-wordcount: '1266'
+ht-degree: 98%
 
 ---
 
@@ -194,111 +194,3 @@ Para alterar o idioma:
 * Selecione o idioma de sua preferência e clique em **Salvar**. Você poderá selecionar um segundo idioma caso o componente utilizado não esteja traduzido para o seu primeiro idioma.
   ![](assets/select-language.png)
 
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_name"
->title="Nome da configuração móvel e da web"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_add"
->title="Adicionar dependências"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_initialization_code"
->title="Adicionar código de inicialização"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_validate_assurance"
->title="Validar com garantia"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_code"
->title="Código Javascript"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_site"
->title="Iniciar site e validar"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token"
->title="Recuperar o token do dispositivo"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_xcode"
->title="Iniciar o aplicativo a partir do Xcode"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_certificate"
->title="Fornecer um certificado de push"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_key_id"
->title="ID da chave"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_team_id"
->title="ID da equipe"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_inapp_tag_property"
->title="Escolher a propriedade da tag"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_push_certificate_fcm"
->title="Fornecer um certificado de push"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_add"
->title="Adicionar dependências"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_import"
->title="Importar dependências"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_import"
->title="Importar dependências"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_initialization_code"
->title="Adicionar código de inicialização"
->abstract="A CONFIRMAR"
-
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token_android"
->title="Recuperar o token do dispositivo"
->abstract="A CONFIRMAR"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_android_studio"
->title="Iniciar o aplicativo no Android Studio"
->abstract="A CONFIRMAR"
-
-<!-- priority scores-->
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="Prioridade"
->abstract="Atribua uma pontuação de prioridade à campanha, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas campanhas usam a mesma superfície, o Journey Optimizer seleciona a campanha com a pontuação de prioridade mais alta. Se as campanhas tiverem a mesma pontuação, a campanha modificada mais recentemente será escolhida."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="Prioridade"
->abstract="Atribua uma pontuação de prioridade à jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas jornadas usam a mesma superfície, o Journey Optimizer seleciona a jornada com a pontuação de prioridade mais alta. Se as jornadas tiverem a mesma pontuação, a jornada modificada mais recentemente será escolhida."
