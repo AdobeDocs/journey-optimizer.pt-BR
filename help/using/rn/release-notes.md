@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 57%
+ht-degree: 63%
 
 ---
 
@@ -80,7 +80,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Configurações de canal aprimoradas</strong><br/></th>
+<th><strong>Configurações de canais aprimoradas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -119,7 +119,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Variáveis em fragmentos de conteúdo</strong><br/></th>
+<th><strong>Variáveis em Fragmentos de conteúdo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -152,7 +152,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 
 ### Melhorias {#8-improvements}
 
-Esta versão traz as melhorias listadas abaixo.
+Essa versão traz as melhorias listadas abaixo.
 
 **Jornadas**
 

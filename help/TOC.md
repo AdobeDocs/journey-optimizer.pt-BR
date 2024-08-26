@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
 source-wordcount: '1972'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -540,7 +540,7 @@ ht-degree: 95%
             + [API de decisão em lote](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
    + Escolha de experiências (disponibilidade limitada) {#experience-decisioning}
       + [Introdução à Escolha de experiências](using/experience-decisioning/gs-experience-decisioning.md)
-      + Referência de API{#api-reference}
+      + Referência da API{#api-reference}
          + Itens de decisão{#decision-items}
             + [Criar itens de decisão](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [Lista de itens de decisão](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
