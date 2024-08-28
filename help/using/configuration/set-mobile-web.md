@@ -10,10 +10,10 @@ level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '479'
+ht-degree: 11%
 
 ---
 
@@ -22,14 +22,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Código Javascript"
->abstract="A marca `<head>` contém metadados e recursos essenciais que são carregados antes do conteúdo principal da sua página da Web. Colocar o código nesta seção garante que ele seja inicializado e executado corretamente antecipadamente, permitindo que sua página da Web seja carregada e funcione com eficiência. Ao adicionar código à seção `<head>`, você ajuda a aprimorar a estrutura, o desempenho e a experiência geral do usuário do seu site."
+>abstract="As seleções de menu <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> A tag contém metadados e recursos essenciais que são carregados antes do conteúdo principal da sua página da Web. Colocar o código nesta seção garante que ele seja inicializado e executado corretamente antecipadamente, permitindo que sua página da Web seja carregada e funcione com eficiência. Ao adicionar o código ao <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> você ajuda a aprimorar a estrutura, o desempenho e a experiência geral do usuário do seu site."
 
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_site"
->title="Iniciar site e validar"
->abstract="Depois que o código tiver sido implementado com sucesso e estiver ativo em seu site, forneça o URL de base. Se necessário, você poderá retornar a essa página em um estágio posterior para revalidar e confirmar se a configuração está funcionando como esperado."
-
-Essa configuração facilita a configuração rápida de canais de marketing, garantindo que todos os recursos necessários estejam prontamente disponíveis no Experience Platform, Journey Optimizer e Coleção de dados. Isso permite que sua equipe de marketing comece imediatamente com a criação de campanhas e jornadas.
+Essa definição facilita a configuração rápida de canais de marketing, garantindo que todos os recursos necessários estejam prontamente disponíveis na Experience Platform, Journey Optimizer e Coleção de dados. Isso permite que sua equipe de marketing comece imediatamente com a criação de campanhas e jornadas.
 
 ## Criar uma nova configuração da Web {#new-setup}
 
