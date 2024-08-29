@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Veja abaixo uma lista de diretrizes gerais de uso do assistente de IA para gera�
 * O tamanho máximo para o ativo de marca carregado é de 50 MB.É possível carregar arquivos maiores ou um número maior de imagens, mas o tempo de processamento aumentará.
 * Use modelos de email criados no Adobe Campaign, de preferência [modelos de email incorporados](../email/use-email-templates.md), modelos específicos da marca ou modelos personalizados para criar conteúdo de email. Recomenda-se um modelo de email com 8-10 imagens, no máximo.
 * Relate resultados problemáticos usando os ícones de “polegar para cima”, “polegar para baixo” ou o sinalizador ao selecionar variantes.
-* O uso do assistente de IA está sujeito às Diretrizes de usuário da IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
+* O uso do assistente de IA está sujeito às Diretrizes de usuário da IA generativa da Adobe Experience Cloud. [Saiba mais](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 
 As seguintes limitações se aplicam ao assistente de IA no Journey Optimizer:
 

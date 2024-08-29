@@ -5,10 +5,10 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 39%
+source-wordcount: '1125'
+ht-degree: 33%
 
 ---
 
@@ -33,6 +33,16 @@ ht-degree: 39%
 >id="ajo_admin_default_mobile_url"
 >title="URL padrão de criação e visualização"
 >abstract="Esse campo garante que as páginas geradas ou correspondidas pela regra tenham um URL designado, essencial para a criação e a visualização eficaz do conteúdo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_web_url"
+>title="URL padrão de criação e visualização"
+>abstract="Esse campo garante que as páginas geradas ou correspondidas pela regra tenham um URL designado, essencial para a criação e a visualização eficaz do conteúdo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mobile_url_preview"
+>title="Visualizar URL"
+>abstract="Esse campo é essencial para habilitar a simulação e a pré-visualização do conteúdo diretamente no dispositivo no aplicativo."
 
 ## Criar uma configuração de canal {#reatte-code-based-configuration}
 
@@ -68,6 +78,8 @@ Para criar uma configuração de canal, siga estas etapas:
 
    * Insira sua **[!UICONTROL ID do aplicativo]** e seu **[!UICONTROL Local ou caminho dentro do aplicativo]**.
 
+     ![](assets/code_config_3.png)
+
 1. Selecione Outros como a plataforma se sua implementação não for para Web, iOS ou Android, ou se precisar direcionar URIs específicos. Ao escolher várias plataformas ou adicionar vários URIs, o conteúdo será entregue a todas as páginas ou aplicativos selecionados.
 
    * Insira o **[!UICONTROL URI da superfície]**.
@@ -75,6 +87,35 @@ Para criar uma configuração de canal, siga estas etapas:
    >[!CAUTION]
    >
    >Verifique se o URI de superfície usado em sua campanha baseada em código corresponde ao usado em sua própria implementação. Caso contrário, as alterações não serão aplicadas.
+
+1. Preencha o campo **[!UICONTROL Visualizar URL]** para habilitar visualizações no dispositivo. Esse URL informa ao serviço de visualização o URL específico a ser usado ao acionar uma visualização.
+
+   * Para a Web:
+
+      * Se um único URL de página for inserido, esse URL será usado para a pré-visualização.
+      * Se uma regra de correspondência de páginas for selecionada, você deverá inserir um URL de visualização padrão que será usado para visualizar a experiência no navegador.
+
+   * Para plataformas móveis (iOS/Android):
+
+      * O URL de visualização é um deep link configurado pelo desenvolvedor do aplicativo. Isso garante que todos os URLs correspondentes ao esquema de deeplink sejam abertos no aplicativo, em vez de em um navegador móvel da Web. Entre em contato com o desenvolvedor do aplicativo para obter o esquema de deep link configurado para ele.
+
++++  Os seguintes recursos podem ajudá-lo a configurar deep links para a implementação do seu aplicativo
+
+      * Para o Android:
+
+         * [Criar deep links para o contexto de aplicativos](https://developer.android.com/training/app-links/deep-linking?hl=pt-br)
+
+      * Para o iOS:
+
+         * [Definição de um esquema de URL personalizado para seu aplicativo](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+
+         * [Suporte a links universais no seu aplicativo](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+
++++
+
+   >[!NOTE]
+   >
+   >Se você encontrar problemas ao visualizar a experiência, consulte [esta documentação](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 1. Escolha o formato esperado pelo aplicativo nesse local específico. Isso será usado ao criar a experiência baseada em código em campanhas e jornadas.
 
