@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 3098b63ef643da63a205f539ac48f902e823bbd1
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 2%
+source-wordcount: '866'
+ht-degree: 1%
 
 ---
 
@@ -71,3 +71,93 @@ O relatório será atualizado automaticamente assim que o filtro for aplicado ou
 Seu relatório agora está disponível para visualização, download ou compartilhamento em um arquivo pdf.
 
 >[!ENDTABS]
+
+## Criar uma métrica simples {#create-simple-metric}
+
+Você pode criar métricas calculadas personalizadas diretamente dos seus relatórios. Você pode gerar insights mais personalizados e analisar melhor seus dados combinando duas métricas existentes de maneiras que se adaptam às suas necessidades específicas de relatórios.
+
+1. Comece acessando o relatório no qual deseja adicionar uma nova métrica.
+
+1. Na tabela do relatório, selecione as métricas desejadas, mantendo pressionadas as teclas `Shift` ou `CTRL/CMD` enquanto clica nelas. Em seguida, clique com o botão direito e selecione **[!UICONTROL Criar métrica a partir da seleção]**.
+
+   Se você selecionar mais de duas métricas, somente as duas primeiras serão usadas no construtor de métricas.
+
+   ![](assets/cja-create-metric_2.png)
+
+1. No Criador de métrica calculada, nomeie sua nova métrica digitando o campo **[!UICONTROL Título]**. Você também pode adicionar uma **[!UICONTROL Descrição]**.
+
+   >[!NOTE]
+   >
+   >Se você tiver o Customer Journey Analytics, poderá personalizar ainda mais suas métricas com opções adicionais. [Saiba mais](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+
+1. Escolha as **[!UICONTROL Casas decimais]** apropriadas e selecione um **[!UICONTROL Formato]** (Decimal, Hora, Porcentagem ou Moeda) com base em como você deseja que sua métrica seja exibida.
+
+1. Selecione o operador, como adição, subtração, multiplicação ou divisão, que determinará como a métrica é calculada.
+
+   ![](assets/cja-create-metric.png)
+
+1. Você pode reordenar os componentes, se necessário.
+
+1. Quando estiver satisfeito com suas configurações, clique em **[!UICONTROL Aplicar]** para finalizar sua nova métrica.
+
+1. Sua nova métrica aparecerá ao lado das métricas originais em seu relatório.
+
+   ![](assets/cja-create-metric_3.png)
+
+A métrica recém-criada será incluída ao exportar o relatório como um PDF ou CSV. No entanto, ela será removida do relatório assim que você fechá-lo.
+
+## Explorar dados com a Análise Exploratória {#exploratory}
+
+Use a ferramenta de Análise Exploratória para criar facilmente tabelas e visualizações a partir dos **[!UICONTROL Dimension]** e **[!UICONTROL Métricas]** selecionados. Essa ferramenta simplifica a exploração de dados, permitindo personalizar e analisar informações automaticamente com facilidade. Saiba mais em [esta documentação](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
+
+1. Comece acessando o relatório no qual deseja usar a Análise Exploratória.
+
+1. Selecione o menu Análise exploratória no menu do painel esquerdo.
+
+   ![](assets/exploratory_analysis_1.png)
+
+1. Crie uma consulta escolhendo um **[!UICONTROL Dimension]** e uma **[!UICONTROL Métrica]** usando os menus suspensos. Você também pode selecionar um **[!UICONTROL Segmento]**, se necessário.
+
+   ![](assets/exploratory_analysis_2.png)
+
+1. Defina o intervalo de datas da análise para especificar o período em que deseja se concentrar. Por padrão, o intervalo de datas será definido como aquele usado no painel de relatórios.
+
+1. Use as opções **[!UICONTROL Adicionar detalhamento]** ou **[!UICONTROL Adicionar métrica]** para incluir dimensões adicionais, permitindo um detalhamento de dados mais detalhado.
+
+   Observe que você só pode adicionar até três **[!UICONTROL Dimension]**, **[!UICONTROL Métricas]** e **[!UICONTROL Segmentos]**.
+
+Agora você pode analisar seus dados usando suas ferramentas personalizadas de tabela e visualização.
+
+<!--## Create a down-funnel metric {#down-funnel}
+
+1. Create a new journey or open an existing one. [Learn more on journey creation](../building-journeys/journey-gs.md)
+
+1. On the canvas editor, select the option to "add a metric".
+
+c. In the metric selector, choose whichever conversion metric seems appropriate and publish your journey
+
+d. Open the report for the journey that you added the metric to and ensure that the metric has been added to the table alongside all the other pre-configured metrics.
+-->
+
+## Criar um público-alvo a partir dos dados de relatórios {#create-audience}
+
+Agora é possível selecionar dados específicos na tabela e criar um público-alvo diretamente nessas seleções, simplificando e simplificando o processo de criação de público-alvo.
+
+1. Comece navegando até a tabela de relatório que contém os dados que você deseja transformar em um público-alvo.
+
+1. Clique com o botão direito na célula desejada e selecione **[!UICONTROL Criar público-alvo]**.
+
+   Como alternativa, você pode iniciar a criação de públicos-alvo no widget **[!UICONTROL tela de Jornada]** selecionando um nó e clicando com o botão direito do mouse nele.
+
+1. Na janela **[!UICONTROL Criar público-alvo]**, digite um **[!UICONTROL Nome]** e defina um **[!UICONTROL Intervalo de datas único]** para o público-alvo que você pretende publicar.
+
+   >[!NOTE]
+   >
+   >Se você tiver o Customer Journey Analytics, poderá personalizar ainda mais suas métricas com opções adicionais. [Saiba mais](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+
+   ![](assets/audience_1.png)
+
+1. Clique no botão **[!UICONTROL Criar]** para finalizar a criação do público-alvo. Observe que esse processo pode levar algum tempo para ser concluído.
+
+Agora você pode continuar a usar o público recém-criado com uma Jornada ou Campanha.
+
