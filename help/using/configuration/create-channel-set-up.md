@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
-source-git-commit: 549efb9e12dccedb27335553194e09deab09a35f
+source-git-commit: 0144809646e9e3b57089820290723ed7f9ed0acc
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 3%
@@ -103,3 +103,4 @@ Depois de criar sua configuração, você pode facilmente revisitá-la a qualque
    ![](assets/guided-setup-config-ios-11.png){zoomable="yes"}
 
 1. Agora você pode atualizar sua configuração conforme necessário.
+
