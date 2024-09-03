@@ -5,7 +5,8 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
+exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
+source-git-commit: a025a269353d7451ff0426895688f62211768383
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 33%
@@ -78,7 +79,7 @@ Para criar uma configuração de canal, siga estas etapas:
 
    * Insira sua **[!UICONTROL ID do aplicativo]** e seu **[!UICONTROL Local ou caminho dentro do aplicativo]**.
 
-     ![](assets/code_config_3.png)
+     ![](assets/code_config_3.png){width="500"}
 
 1. Selecione Outros como a plataforma se sua implementação não for para Web, iOS ou Android, ou se precisar direcionar URIs específicos. Ao escolher várias plataformas ou adicionar vários URIs, o conteúdo será entregue a todas as páginas ou aplicativos selecionados.
 
@@ -174,4 +175,3 @@ A tabela abaixo lista alguns exemplos de definição de URI de superfície para 
 | --------- | ----------- | ------- | 
 | Web com curinga | `wildcard:web://domain.com/*#element` | Superfície curinga: representa um elemento individual em cada uma das páginas em um domínio específico. |
 | Web com curinga | `wildcard:web://*domain.com/*#element` | Superfície curinga: representa um elemento individual em cada uma das páginas em todos os domínios que terminam em “domain.com”. |
-
