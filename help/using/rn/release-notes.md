@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 377f75a67f3a392957cefb7b2ba9347c364c11a1
+source-git-commit: 549efb9e12dccedb27335553194e09deab09a35f
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 59%
+source-wordcount: '840'
+ht-degree: 55%
 
 ---
 
@@ -26,6 +26,26 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
+## Atualizações de setembro {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>Configuração de canal guiada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A Configuração de canal guiada permite automatizar e validar a configuração de canal em uma experiência unificada, acelerando o processo de introdução ao Journey Optimizer. Essa nova configuração guiada simplifica a configuração rápida do canal, garantindo que todos os recursos necessários sejam instalados e funcionem prontamente no Experience Platform, Journey Optimizer e Coleção de dados. Isso permite que as equipes de marketing, engenharia de produtos e dados comecem rapidamente com a criação de campanhas e jornadas.</p>
+<p>Para obter mais informações, consulte a <a href="../configuration/set-mobile-config.md">documentação detalhada</a>.</p>
+</br>
+<img src="assets/do-not-localize/guided-setup.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## Notas de versão de agosto de 2024 {#8-2024}
 
 **Data de lançamento**: 20-21 de agosto de 2024
@@ -41,37 +61,19 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 Essa versão traz os novos recursos detalhados abaixo.
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Guided Channel Setup</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Guided Channel Setup enables you to automate and validate channel setup in a unified experience, speeding up the process of getting started with Journey Optimizer. This new guided setup streamlines rapid channel configuration, ensuring all necessary resources are readily installed and working within Experience Platform, Journey Optimizer, and Data Collection. This enables marketing, product and data engineering teams to quickly begin with campaign and journey creation.</p>
-<p>For more information, refer to the <a href="../configuration/set-mobile-config.md">detailed documentation</a>.</p>
-</br>
-<img src="assets/do-not-localize/guided-setup.gif"/>
-</td>
-</tr>
-</tbody>
-</table>
-
 <table>
 <thead>
 <tr>
-<th><strong>Content Cards (Limited Availability)</strong><br/></th>
+<th><strong>Cartões de conteúdo (disponibilidade limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
-<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
+<p>Os cartões de conteúdo são um novo recurso de mensagem digital do Adobe Journey Optimizer, que fornece conteúdo personalizado e envolvente diretamente em aplicativos e sites móveis. Diferentemente das notificações por push tradicionais, os Cartões de conteúdo se integram perfeitamente à interface, oferecendo atualizações persistentes e não intrusivas que melhoram a interação e a experiência de usuários.</p>
+<p>Esse recurso permite que profissionais de marketing apresentem conteúdo de mídia avançada e relevante para usuários, aumentando o engajamento e garantindo que mensagens importantes sejam vistas sem interromper a jornada do usuário.</p>
 </br>
-<p>Content card are currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>No momento, os cartões de conteúdo estão disponíveis apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.</p>
 </td>
 </tr>
 </tbody>
