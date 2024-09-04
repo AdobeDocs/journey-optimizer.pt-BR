@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4394'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -616,7 +616,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Canal SMS**
 
-* O Infobip foi adicionado como provedor de fornecedores ao definir as configurações de canal SMS. [Leia mais](../sms/sms-configuration.md)
+* O Infobip foi adicionado como provedor de fornecedores ao definir suas configurações de canal de SMS. [Leia mais](../sms/sms-configuration.md)
 * Twillio - A configuração de credencial da API agora inclui a capacidade de adicionar SID de serviço de mensagens para integração perfeita com sua conta do Twillio. [Leia mais](../sms/sms-configuration.md)
 
 **Canal no aplicativo**
@@ -1012,7 +1012,7 @@ Note that each widget can be resized and deleted as needed.
 
 * Ao criar ou editar **pools de IPs**, os registros PTR associados agora são exibidos na lista de IP e ao passar o cursor do mouse sobre os endereços IP selecionados. [Saiba mais](../configuration/ip-pools.md#create-ip-pool)
 
-* Depois que um pool de IPs é selecionado em uma configuração de canal, as informações do registro PTR agora ficam visíveis ao passar o mouse sobre os endereços IP. [Saiba mais](../email/email-settings.md#subdomains-and-ip-pools)
+* Depois que um pool de IP é selecionado em uma configuração de canal, as informações do registro PTR ficam visíveis ao passar o cursor do mouse sobre os endereços IP. [Saiba mais](../email/email-settings.md#subdomains-and-ip-pools)
 
 * A interface de edição de [registros PTR](../configuration/ptr-records.md#edit-ptr-record) e [campos de execução](../configuration/primary-email-addresses.md) foi atualizada.
 

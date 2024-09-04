@@ -10,9 +10,9 @@ topic: Administration
 keywords: email, configuração, superfície, subdomínios
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -28,12 +28,12 @@ Para poder enviar emails por meio de jornadas e campanhas no [!DNL Journey Optim
 
    ![](../configuration/assets/ip-pool-create.png)
 
-1. Crie configurações de canal e selecione o canal **[!UICONTROL Email]**. [Saiba mais](../configuration/channel-surfaces.md)
+1. Defina as configurações de canal e selecione o canal **[!UICONTROL Email]**. [Saiba mais](../configuration/channel-surfaces.md)
 
 
    ![](../configuration/assets/preset-general.png)
 
-1. Em cada configuração de canal de email, configure todos os parâmetros técnicos necessários para enviar emails. [Saiba mais](email-settings.md)
+1. Em cada configuração de canal de email, configure todos os parâmetros técnicos necessários para entregar os emails. [Saiba mais](email-settings.md)
 
    * É aqui que você seleciona o subdomínio a ser usado para enviar os emails e os pools de IP para associar à configuração. [Saiba mais](email-settings.md#subdomains-and-ip-pools)
 

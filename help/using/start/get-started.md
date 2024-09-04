@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '660'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Os principais recursos incluem:
 
 * **Orquestração e execução modernas do Omnichannel** — uma tela única na qual se pode harmonizar e otimizar a jornada do cliente para um equilíbrio entre o engajamento do cliente e o alcance de marketing, ajudando as marcas a agregar mais valor ao longo do ciclo de vida do cliente. As jornadas do cliente criadas no [!DNL Adobe Journey Optimizer] podem ser dinâmicas e baseadas em eventos para ajudar as marcas a reagir a sinais em tempo real, bem como conectar essas interações com campanhas programadas, para que sejam tomadas as decisões corretas com respeito a quais comunicações devem ser enviadas a um cliente, quando e por quais canais.
 
-* **Decisão inteligente e Personalization** - As marcas podem aplicar decisões centralizadas e incorporar inteligência artificial e aprendizado de máquina a insights preditivos de configuração em toda a experiência do cliente, facilitando a automatização das decisões e a otimização da experiência em escala. A Decisão possibilita ofertas centralizadas em canais em escala por meio do [!DNL Adobe Journey Optimizer].
+* **Decisão e personalização inteligentes** – as marcas podem aplicar decisões centralizadas e incorporar inteligência artificial e aprendizado de máquina para configurar insights preditivos pela experiência do cliente, facilitando a automação das decisões e a otimização da experiência em escala. A Decisão possibilita ofertas centralizadas em canais em escala por meio do [!DNL Adobe Journey Optimizer].
 
 ## Arquitetura {#architecture}
 

@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -94,8 +94,8 @@ Para executar casos de uso da Web, é possível usar o canal da web ou a experi�
 **Experiência baseada em código**
 
 * Editar o conteúdo usando o [Editor de personalização](create-code-based.md#edit-code).
-* A experiência baseada em código requer trabalho de desenvolvimento anterior em sua implementação para garantir que seus aplicativos possam interpretar e entregar o conteúdo publicado na borda por [!DNL Journey Optimizer] para esses locais. [Saiba mais](code-based-configuration.md#surface-definition)
-* Ela requer mais planejamento e pode alterar apenas as coisas que os desenvolvedores especificam. Portanto, é essencial identificar os componentes (banner inicial, Hero image, barra de menu, etc.) nos aplicativos que precisam ser modificados para personalização ou teste, e trabalhe com sua equipe de desenvolvimento para criar a implementação necessária para lidar com essas alterações.
+* A experiência baseada em código requer trabalho de desenvolvimento anterior em sua implementação para garantir que os aplicativos possam interpretar e entregar o conteúdo publicado na borda pelo [!DNL Journey Optimizer] para estes locais. [Saiba mais](code-based-configuration.md#surface-definition)
+* Ela requer mais planejamento e pode alterar apenas as coisas que os desenvolvedores especificam. Portanto, é essencial identificar os componentes (banner inicial, Hero image, barra de menu, etc.) nos aplicativos que precisam ser modificados para personalização ou teste e trabalhar com a equipe de desenvolvimento na construção da implementação necessária para lidar com essas alterações.
 * Ela permite usar o conteúdo de código JSON.
 * É focada na persona do desenvolvedor
 
@@ -113,8 +113,8 @@ Para editar o conteúdo usando o recurso da experiência baseado em código do [
 
 As principais etapas para implementar uma campanha baseada em código são as seguintes.
 
-1. Defina uma [superfície](code-based-configuration.md#surface-definition) na implementação do aplicativo, que é basicamente o local em que você deseja adicionar a experiência baseada em código. Em seguida, crie uma configuração de canal de experiência baseada em código que faça referência a esse local e, em seguida, crie uma campanha no [!DNL Journey Optimizer] usando essa configuração. [Saiba como](create-code-based.md#create-code-based-campaign)
+1. Defina uma [superfície](code-based-configuration.md#surface-definition) na implementação do aplicativo, que é basicamente o local em que você deseja adicionar a experiência baseada em código. Em seguida, crie uma configuração de canal de experiência baseada em código que faça referência a esse local e projete uma campanha no [!DNL Journey Optimizer] usando essa configuração. [Saiba como](create-code-based.md#create-code-based-campaign)
 
-1. Componha uma experiência especificando o conteúdo da configuração selecionada por meio do editor de personalização do [!DNL Journey Optimizer]. [Saiba como](create-code-based.md#edit-code)
+1. Componha uma experiência especificando o conteúdo da configuração selecionada usando o editor de personalização do [!DNL Journey Optimizer]. [Saiba como](create-code-based.md#edit-code)
 
 1. A equipe de implementação do aplicativo faz chamadas explícitas de API ou SDK para buscar conteúdo para as superfícies nomeadas, como “Texto do banner” ou “Bandeja de recomendações 1”, ou pontos de decisão não relacionados à interface em um aplicativo, como “parâmetros de algoritmo de pesquisa”. Nesse caso, a equipe de implementação é responsável por renderizar ou interpretar e agir sobre o conteúdo retornado.<!--TBC with Robert - should link to a new section with API/SDK call samples-->

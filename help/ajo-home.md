@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!BEGINTABS]
 
->[!TAB A versão de agosto está disponível!]
+>[!TAB A versão de agosto está disponível.]
 
-Descubra novos recursos e aprimoramentos chegando com a versão de agosto do Adobe Journey Optimizer.
+Conheça os novos recursos e melhorias que acompanham a versão de agosto do Adobe Journey Optimizer.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 

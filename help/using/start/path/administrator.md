@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Além disso, você deve adicionar usuários que precisam de acesso ao Assets Ess
 
 Ao acessar [!DNL Journey Optimizer] pela primeira vez, você é provisionado com uma sandbox de produção e aloca um determinado número de IPs dependendo do seu contrato.
 
-Para criar suas jornadas e enviar mensagens, acesse o menu **ADMINISTRAÇÃO**. Navegue pelo menu **[!UICONTROL Canais]** para definir suas mensagens e configurações de canal (ou seja, predefinições de mensagem).
+Para criar suas jornadas e enviar mensagens, acesse o menu **ADMINISTRAÇÃO**. Navegue pelo menu **[!UICONTROL Canais]** para definir suas configurações de canal e mensagens (ou seja, predefinições de mensagem).
 
 >[!NOTE]
 >Como um **Administrador do sistema**, se você não conseguir ver o menu **[!UICONTROL Canais]** no [!DNL Journey Optimizer], atualize suas permissões no [Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Saiba como atualizar o perfil de produto [nesta página](../../administration/permissions.md#edit-product-profile).
@@ -54,7 +54,7 @@ Siga as etapas listadas abaixo:
 
    * Definir **configurações de notificações por push** em ambos [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Saiba mais](../../push/push-gs.md)
 
-   * Crie **configurações de canal** (ou seja, predefinições de mensagem) para configurar todos os parâmetros técnicos necessários para notificações por email, SMS e por push. [Saiba mais](../../configuration/channel-surfaces.md)
+   * Crie **configurações de canal** (ou seja, predefinições de mensagens) para configurar todos os parâmetros técnicos necessários de notificações por email, SMS e push. [Saiba mais](../../configuration/channel-surfaces.md)
 
    * Configure o **Canal SMS** para configurar todos os parâmetros técnicos necessários para o SMS. [Saiba mais](../../sms/sms-configuration.md)
 

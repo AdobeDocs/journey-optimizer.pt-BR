@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2295'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ A interface do Adobe [!DNL Journey Optimizer] foi projetada para funcionar de ma
 
 ### Medidas de proteção do canal da Web {#web-guardrails}
 
-[!DNL Journey Optimizer] campanhas da Web têm como alvo novos perfis que nunca foram engajados em outros canais. Isso aumentará a contagem total de perfis utilizáveis, o que pode ter implicações de custo se o número contratual de perfis utilizáveis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+As campanhas da Web do [!DNL Journey Optimizer] direcionam novos perfis que não foram engajados anteriormente em outros canais. Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 
 ## Medidas de proteção de subdomínios {#subdomain-guardrails}

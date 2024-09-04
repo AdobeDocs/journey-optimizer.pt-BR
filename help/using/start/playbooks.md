@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 >
 >* Criar uma sandbox
 >* Configuração de permissões de usuários e usuárias
->* Definir as configurações de canal do Journey Optimizer para notificações por email, push e SMS
+>* Definir configurações de canal do Journey Optimizer para notificações por email, push e SMS
 
 Os Manuais de casos de uso são workflows predefinidos abordando casos de uso comuns que podem ser executados usando a Adobe Experience Platform e o Journey Optimizer.
 
