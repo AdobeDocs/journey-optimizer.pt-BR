@@ -1,18 +1,19 @@
 ---
 title: Configuração do canal da Web
-description: Criar configuração de canal da Web
+description: Criar configuração do canal da Web
 feature: Web Channel, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Criar configuração de canal da Web {#web-configuration}
+# Criar configuração do canal da Web {#web-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_page_rule"
@@ -81,15 +82,46 @@ Operadores disponíveis para criar regras de correspondência de página:
 
 * **Caminho**
 
-  | | | |
-  |-|-|-|
-  | Operador  | Descrição  | Exemplos  |
-  | Igual a  | Correspondência exata do caminho.  |    |
-  | Começa com  | Corresponde a todos os caminhos (incluindo subcaminhos) que começam com a cadeia de caracteres inserida.  |    |
-  | Termina com  | Corresponde a todos os caminhos (incluindo subcaminhos) que terminam com a cadeia de caracteres inserida.  |    |
-  | Qualquer  | Corresponde a todos os caminhos, útil ao direcionar todos os caminhos em um ou vários domínios.  |    |
-  | Correspondência de curinga  | O operador &quot;Wildcard matching&quot; permite que o usuário defina um curinga interno dentro do caminho, como &quot;/products/*/detail&quot;.  O caractere curinga * no componente Caminho ** corresponde a qualquer sequência de caracteres até que o primeiro caractere / seja encontrado.  /*/ corresponde a qualquer sequência de caracteres (incluindo subcaminhos)  | Ex: &quot;Correspondência curinga: /products/*/detail&quot;, corresponde a todos os caminhos como:  example.com/products/yoga/detail  example.com/products/surf/detail  example.com/products/tennis/detail  example.com/products/yoga/pants/detail   Ex: &quot;Corresponde: /prod*/detail, corresponde a todos os caminhos como:  example.com/products/detail  example.com/production/detail   não corresponde a caminhos como:  example.com/products/yoga/detail  |
-  | Contém  | &quot;contains&quot; é traduzido para um curinga como &quot;mystring&quot; e corresponde a todos os caminhos que contêm essa sequência de caracteres.  | Por exemplo: &quot;Contains: product&quot; corresponde a todos os caminhos que contêm a cadeia de caracteres product, como: example.com/products, example.com/yoga/perfproduct, example.com/surf/productdescription, example.com/home/product/page  |
-
+<table>
+    <thead>
+    <tr>
+        <th><strong>Operador</th>
+        <th><strong>Descrição</th>
+        <th><strong>Exemplos</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Igual a</td>
+        <td>Correspondência exata do caminho. </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Inicia com</td>
+        <td>Corresponde a todos os caminhos (incluindo subcaminhos) que começam com a cadeia de caracteres inserida.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Termina com</td>
+        <td>Corresponde a todos os caminhos (incluindo subcaminhos) que terminam com a cadeia de caracteres inserida.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Qualquer uma</td>
+        <td>Corresponde a todos os caminhos, útil ao direcionar todos os caminhos em um ou vários domínios.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Correspondência de curinga</td>
+        <td>O operador "Wildcard matching" permite que o usuário defina um curinga interno dentro do caminho, como "/products/*/detail".  O caractere curinga * no componente Caminho ** corresponde a qualquer sequência de caracteres até que o primeiro caractere / seja encontrado.  /*/ corresponde a qualquer sequência de caracteres (incluindo subcaminhos)</td>
+        <td>Ex: "Correspondência curinga: /products/*/detail", corresponde a todos os caminhos como: <ul>example.com/products/yoga/detail</ul><ul>example.com/products/surf/detail</ul><ul>example.com/products/tennis/detail</ul><ul>example.com/products/yoga/pants/detail</ul>Ex: "Corresponde: /prod*/detail, corresponde a todos os caminhos como:  <ul>example.com/products/detail</ul><ul>example.com/production/detail</ul>  não corresponde a caminhos como: <ul>example.com/products/yoga/detail</ul></td>
+    </tr>
+    <tr>
+        <td>Contains</td>
+        <td>"contains" é traduzido para um curinga como "mystring" e corresponde a todos os caminhos que contêm essa sequência de caracteres.</td>
+        <td>Por exemplo: "Contains: product" corresponde a todos os caminhos que contêm a cadeia de caracteres product, como: <ul>example.com/products</ul><ul>example.com/yoga/perfproduct</ul><ul>example.com/surf/productdescription</ul><ul>example.com/home/product/page</ul></td>
+    </tr>
+    </tbody>
+</table>
 
 Se o caso de uso não puder ser modelado usando uma regra, você terá a opção de adicionar várias regras de página e poderá usar operadores &quot;Ou&quot; ou &quot;Excluir&quot; entre elas. &quot;Excluir&quot; é útil quando uma das páginas que correspondem à regra definida não deve ser direcionada: por exemplo, todas as páginas &quot;example.com&quot; que contêm &quot;product&quot;, excluindo a seguinte página: `https://example.com/blogs/productinfo`.
