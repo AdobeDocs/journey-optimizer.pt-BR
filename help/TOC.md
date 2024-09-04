@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
 workflow-type: tm+mt
-source-wordcount: '1963'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -201,7 +201,7 @@ ht-degree: 98%
    + Configurar canal de email {#configure-email}
       + [Introdução à configuração de email](using/email/get-started-email-config.md)
       + [Definir configurações de email](using/email/email-settings.md)
-      + [Personalizar configuração de email](using/email/surface-personalization.md)
+      + [Personalizar configurações de email](using/email/surface-personalization.md)
 + Canal no aplicativo{#in-app}
    + [Introdução ao canal no aplicativo](using/in-app/get-started-in-app.md)
    + [Pré-requisitos do canal no aplicativo](using/in-app/inapp-configuration.md)
@@ -241,7 +241,7 @@ ht-degree: 98%
    + Configurar o canal web {#configure-web-channel}
       + [Pré-requisitos do canal web](using/web/web-prerequisites.md)
       + [Configurar subdomínios da Web](using/web/web-delegated-subdomains.md)
-      + [Criar configuração de canal da Web](using/web/web-configuration.md)
+      + [Criar configuração do canal da Web](using/web/web-configuration.md)
    + [Criação de experiências da web](using/web/create-web.md)
    + Criação de páginas da web {#author-web-pages}
       + [Editar conteúdo da página da Web](using/web/edit-web-content.md)
@@ -583,7 +583,7 @@ ht-degree: 98%
    + [Introdução à configuração do Journey Optimizer](using/configuration/get-started-configuration.md)
    + [Definir configurações de canal](using/configuration/channel-surfaces.md)
    + Configuração de canal guiada {#guided-setup}
-      + [Introdução à configuração de canal guiado](using/configuration/set-mobile-config.md)
+      + [Introdução à configuração de canal guiada](using/configuration/set-mobile-config.md)
       + [Criar uma configuração de canal](using/configuration/create-channel-set-up.md)
    + Delegar subdomínios de email {#delegate-subdomains}
       + [Introdução à delegação de subdomínio](using/configuration/about-subdomain-delegation.md)

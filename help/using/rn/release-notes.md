@@ -8,8 +8,8 @@ description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 902458ec78df9a885b144bf19425c7865c208c28
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 54%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -90,7 +90,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <td>
 <p>Os recursos atuais de superfície de canal foram aprimorados para oferecer uma abordagem consistente em todos os canais. Agora é possível definir, gerenciar e reutilizar essas configurações para qualquer um dos canais, incluindo Web, mensagens no aplicativo ou experiência baseada em código.</p>
 <p><ul>
-<li>Superfícies de canal agora são renomeadas para <strong>Configurações de canal</strong></li>
+<li>Superfícies de canal foram renomeadas para <strong>Configurações de canal</strong></li>
 <li>Você pode anexar uma ou várias ações de marketing para aplicar políticas de consentimento e governança de dados</li>
 <li>O controle de acesso no nível do objeto (OLAC) agora está disponível para cada configuração de canal, permitindo que você decida quais dos seus usuários têm permissão para criar ou usar configurações específicas</li>
 <li>Para alguns canais, você pode criar configurações de canal que direcionem várias plataformas. Um exemplo seria uma configuração de canal de mensagens no aplicativo que pode direcionar uma página da Web, um aplicativo do iOS ou do Android.</li>
@@ -121,13 +121,13 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Variáveis em Fragmentos de conteúdo</strong><br/></th>
+<th><strong>Variáveis em fragmentos de conteúdo</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>As variáveis globais de fragmento aprimoram a funcionalidade existente do fragmento para melhorar a eficiência na reutilização de conteúdo e nos casos de uso de script. Os fragmentos agora podem usar variáveis de entrada e criar variáveis de saída utilizáveis no conteúdo da campanha e da jornada. Os fragmentos podem consumir variáveis de entrada em <a href="../personalization/use-expression-fragments.md">fragmentos de expressão</a> e <a href="../email/use-visual-fragments.md">fragmentos visuais</a>. Você pode usar essas variáveis para personalizar o conteúdo e os parâmetros das mensagens em suas campanhas e jornadas.</p>
+<p>As variáveis globais de fragmentos aprimoram a funcionalidade do fragmento para melhorar a eficiência na reutilização de conteúdo e nos casos de uso de script. Os fragmentos agora podem usar variáveis de entrada e criar variáveis de saída utilizáveis em conteúdos de campanhas e jornadas. Os fragmentos podem consumir variáveis de entrada, tanto em <a href="../personalization/use-expression-fragments.md">fragmentos de expressão</a> quanto em <a href="../email/use-visual-fragments.md">fragmentos visuais</a>. Você pode usar essas variáveis para personalizar o conteúdo e os parâmetros das mensagens em suas campanhas e jornadas.</p>
 <p>Para obter mais informações, consulte a <a href="../personalization/use-expression-fragments.md">documentação detalhada</a>.</p>
 </p>
 </td>
@@ -158,9 +158,9 @@ Essa versão traz as melhorias listadas abaixo.
 
 **Jornadas**
 
-* Na atividade **Condição**, por padrão, a **[!UICONTROL Condição de tempo]** agora é definida por hora, das 00:00 às 12:00. [Leia mais](../building-journeys/condition-activity.md#time_condition)
-* Ao criar suas jornadas, os alertas agora são exibidos pelo botão **Alertas**, para se alinharem a outros alertas e proporcionarem uma experiência consistente ao usuário. [Leia mais](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
-* As opções de zoom na barra de ferramentas jornada foram aprimoradas: a porcentagem de zoom agora está visível e você pode redefinir mais facilmente o valor de zoom.
+* Na atividade **Condição**, por padrão, a **[!UICONTROL condição Tempo]** agora é definida por hora, das 00:00 às 12:00. [Leia mais](../building-journeys/condition-activity.md#time_condition)
+* Ao criar as jornadas, os alertas agora são exibidos ao selecionar o botão **Alertas**, para que se alinhar a outros alertas e proporcionar uma experiência consistente aos usuários. [Leia mais](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* As opções de zoom na barra de ferramentas da jornada foram aprimoradas: a porcentagem de zoom agora está visível e é possível redefinir mais facilmente o valor do zoom.
 
 <!--**Audiences and Profiles**-->
 
@@ -168,7 +168,7 @@ Essa versão traz as melhorias listadas abaixo.
 <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 <!--* The License usage dashboard now shows the count of Engageable Profiles. [Read more](../audience/license-usage.md)-->
 
-**Canal por push**
+**Canal de push**
 
 * Agora é possível adicionar suas credenciais de push do aplicativo móvel nas configurações de canal do Adobe Journey Optimizer. Não é mais necessário criar uma superfície de aplicativo na Coleção de dados da Adobe Experience Platform.
 
@@ -176,7 +176,7 @@ Essa versão traz as melhorias listadas abaixo.
 
 **Relatórios**
 
-* A experiência atual de relatórios será removida a partir da versão de outubro. Após essa data, a nova experiência de relatórios se tornará o padrão. Recomendamos que você se familiarize com os novos recursos e funcionalidades para garantir uma transição suave.
+* A experiência atual de relatórios será descontinuada a partir da versão de outubro. Após essa data, a nova experiência de relatórios se tornará o padrão. Recomendamos que você se familiarize com os novos recursos e funcionalidades para garantir uma transição tranquila.
 
 [Introdução à nova interface de relatórios do Journey Optimizer](../reports/report-gs-cja.md)
 
