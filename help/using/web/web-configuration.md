@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
+source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 3%
@@ -114,12 +114,12 @@ Operadores disponíveis para criar regras de correspondência de página:
     <tr>
         <td>Correspondência de curinga</td>
         <td>O operador "Wildcard matching" permite que o usuário defina um curinga interno dentro do caminho, como "/products/*/detail".  O caractere curinga * no componente Caminho ** corresponde a qualquer sequência de caracteres até que o primeiro caractere / seja encontrado.  /*/ corresponde a qualquer sequência de caracteres (incluindo subcaminhos)</td>
-        <td>Ex: "Correspondência curinga: /products/*/detail", corresponde a todos os caminhos como: <ul>example.com/products/yoga/detail</ul><ul>example.com/products/surf/detail</ul><ul>example.com/products/tennis/detail</ul><ul>example.com/products/yoga/pants/detail</ul>Ex: "Corresponde: /prod*/detail, corresponde a todos os caminhos como:  <ul>example.com/products/detail</ul><ul>example.com/production/detail</ul>  não corresponde a caminhos como: <ul>example.com/products/yoga/detail</ul></td>
+        <td>Ex: "Correspondência curinga: /products/*/detail", corresponde a todos os caminhos como: <ul><li>example.com/products/yoga/detail</li><li>example.com/products/surf/detail</li><li>example.com/products/tennis/detail</li><li>example.com/products/yoga/pants/detail</li></ul>Ex: "Corresponde: /prod*/detail, corresponde a todos os caminhos como: <ul><li>example.com/products/detail</li><li>example.com/production/detail</li></ul>não corresponde a caminhos como: <ul><li>example.com/products/yoga/detail</li></ul></td>
     </tr>
     <tr>
         <td>Contains</td>
         <td>"contains" é traduzido para um curinga como "mystring" e corresponde a todos os caminhos que contêm essa sequência de caracteres.</td>
-        <td>Por exemplo: "Contains: product" corresponde a todos os caminhos que contêm a cadeia de caracteres product, como: <ul>example.com/products</ul><ul>example.com/yoga/perfproduct</ul><ul>example.com/surf/productdescription</ul><ul>example.com/home/product/page</ul></td>
+        <td>Por exemplo: "Contains: product" corresponde a todos os caminhos que contêm a cadeia de caracteres product, como: <ul><li>example.com/products</li><li>example.com/yoga/perfproduct</li><li>example.com/surf/productdescription</li><li>example.com/home/product/page</li></ul></td>
     </tr>
     </tbody>
 </table>
