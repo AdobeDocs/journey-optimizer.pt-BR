@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 902458ec78df9a885b144bf19425c7865c208c28
+source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '744'
+ht-degree: 85%
 
 ---
 
@@ -39,6 +39,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <td>
 <p>A Configuração de canal guiada permite automatizar e validar a configuração de canal em uma experiência unificada, acelerando o processo de introdução ao Journey Optimizer. Essa nova configuração guiada simplifica a configuração rápida do canal, garantindo que todos os recursos necessários sejam instalados e funcionem prontamente no Experience Platform, Journey Optimizer e Coleção de dados. Isso permite que as equipes de marketing, engenharia de produtos e dados comecem rapidamente com a criação de campanhas e jornadas.</p>
 <p>Para obter mais informações, consulte a <a href="../configuration/set-mobile-config.md">documentação detalhada</a>.</p>
+<img src="assets/do-not-localize/guided-setup.gif"/>
 </br>
 </td>
 </tr>
