@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, eventos, reação, rastreamento, plataforma
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 110fd5f1055455ec040ab8de0b599a343e8de298
+source-git-commit: 343e7bbebf35711259d2f3392f1ce5658865599a
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 20%
@@ -40,7 +40,7 @@ Estas são as diferentes etapas para configurar os eventos de reação:
 1. Adicione um **[!UICONTROL Rótulo]** à reação. Esta etapa é opcional.
 1. Na lista suspensa, selecione a atividade de ação à qual deseja reagir. Você pode selecionar qualquer atividade de ação posicionada nas etapas anteriores do caminho.
 1. Dependendo da ação selecionada, escolha a que deseja reagir.
-1. Você pode definir um tempo limite de evento (entre 40 segundos e 29 dias) e um caminho de tempo limite. Isso cria um segundo caminho para indivíduos que não reagiram dentro da duração definida. Ao testar uma jornada que usa um evento de reação, o padrão do modo de teste **[!UICONTROL Tempo de espera]** e o valor mínimo é de 40 segundos. Consulte [esta seção](../building-journeys/testing-the-journey.md).
+1. Você pode definir um tempo limite de evento (entre 40 segundos e 90 dias) e um caminho de tempo limite. Isso cria um segundo caminho para indivíduos que não reagiram dentro da duração definida. Ao testar uma jornada que usa um evento de reação, o padrão do modo de teste **[!UICONTROL Tempo de espera]** e o valor mínimo é de 40 segundos. Consulte [esta seção](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >
