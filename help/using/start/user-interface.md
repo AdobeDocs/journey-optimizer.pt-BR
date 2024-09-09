@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9f67f0395a789de066f527b43a25cd0d8501c205
+source-git-commit: a99d47c1f64b1cb3174fcc8f89d201bf66a36bb5
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 93%
+source-wordcount: '1520'
+ht-degree: 91%
 
 ---
 
@@ -286,3 +286,45 @@ Para alterar o idioma:
 >id="ajo_data_governance_policy_violation"
 >title="Violação da política de governança de dados"
 >abstract="Violação da política de governança de dados"
+
+<!--APPROVAL POLICIES-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_permissions_approval_policy"
+>title="Política de aprovação"
+>abstract="Política de aprovação"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_approval"
+>title="Solicitar aprovação"
+>abstract="Solicitar aprovação (duas IDs separadas?)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_change"
+>title="Solicitar alteração"
+>abstract="Solicitar alteração (duas IDs separadas?)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_edit_disabled
+>title="Edição desabilitada"
+>abstract="Edição desabilitada (campanhas)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_edit_disabled
+>title="Edição desabilitada"
+>abstract="Edição desabilitada (jornada)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_approval_status"
+>title="Status de aprovação"
+>abstract="Status de aprovação (duas IDs separadas?)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_approve"
+>title="Aprovar"
+>abstract="Aprovar (campanhas)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_approve"
+>title="Aprovar"
+>abstract="Aprovar (jornada)"
