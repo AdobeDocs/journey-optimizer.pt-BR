@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
-workflow-type: ht
-source-wordcount: '1963'
-ht-degree: 100%
+source-git-commit: ca28d323a2ef310ec82c732484c8aed1e2641135
+workflow-type: tm+mt
+source-wordcount: '1965'
+ht-degree: 99%
 
 ---
 
@@ -174,6 +174,14 @@ ht-degree: 100%
    + [Revisar e ativar uma campanha](using/campaigns/review-activate-campaign.md)
    + [Gerenciar campanhas](using/campaigns/modify-stop-campaign.md)
    + [Acione campanhas usando APIs](using/campaigns/api-triggered-campaigns.md)
++ Testar suas entregas {#test}
+   + Visualizar e testar o conteúdo {#preview-test}
+      + [Introdução à visualização e teste](using/content-management/preview-test.md)
+      + [Seleção de perfis de teste](using/content-management/test-profiles.md)
+      + [Visualização do conteúdo](using/content-management/preview.md)
+      + [Envio de provas de email](using/content-management/proofs.md)
+      + [Teste da renderização do email](using/content-management/rendering.md)
+      + [Relatório de spam de email](using/content-management/spam-report.md)
 + Canal de email {#email}
    + [Introdução a emails](using/email/get-started-email.md)
    + [Criar um email](using/email/create-email.md)
@@ -330,13 +338,6 @@ ht-degree: 100%
       + [Introdução ao conteúdo dinâmico](using/personalization/get-started-dynamic-content.md)
       + [Criar regras condicionais](using/personalization/create-conditions.md)
       + [Criar conteúdo dinâmico](using/personalization/dynamic-content.md)
-   + Visualização e teste do conteúdo {#preview-test}
-      + [Introdução à visualização e teste](using/content-management/preview-test.md)
-      + [Seleção de perfis de teste](using/content-management/test-profiles.md)
-      + [Visualização do conteúdo](using/content-management/preview.md)
-      + [Envio de provas de email](using/content-management/proofs.md)
-      + [Teste da renderização do email](using/content-management/rendering.md)
-      + [Relatório de spam de email](using/content-management/spam-report.md)
 + Públicos-alvo, perfis e identidade{#audiences-profiles-identities}
    + Públicos-alvo {#audiences}
       + [Introdução aos públicos-alvo](using/audience/about-audiences.md)
