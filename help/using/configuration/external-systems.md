@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: external, API, otimizer, capping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: ae92a1e950822d4a0dbac1aa535078fe535113c0
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 27%
+source-wordcount: '1343'
+ht-degree: 28%
 
 ---
 
@@ -98,7 +98,7 @@ Vamos ver um exemplo para um tempo limite de 5 segundos.
 
 **Como posso configurar uma regra de limitação ou limitação? Existe uma regra padrão?**
 
-Por padrão, não há regra de limitação. As regras são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação ou limitação. Consulte [esta seção](../configuration/external-systems.md#capping).
+Para criar regras de limitação ou limitação, consulte [esta seção](../configuration/external-systems.md#capping). Por padrão, não há regra de limitação, mas um limite de 300.000 chamadas em um minuto definido para todas as ações personalizadas, por host e por sandbox. Esse limite foi definido com base no uso pelos clientes, para proteger pontos de acesso externos direcionados por ações personalizadas. É necessário considerar isso em jornadas baseadas em público-alvo, definindo uma taxa de leitura apropriada (5.000 perfis por segundo ao utilizar ações personalizadas). Se necessário, é possível substituir essa configuração definindo um limite máximo ou limite maior por meio das APIs de Limite/Limitação.
 
 **Quantas tentativas são executadas? Posso alterar o número de tentativas ou definir um período mínimo de espera entre tentativas?**
 
