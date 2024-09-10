@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: ht
-source-wordcount: '2295'
-ht-degree: 100%
+source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+workflow-type: tm+mt
+source-wordcount: '2361'
+ht-degree: 92%
 
 ---
 
@@ -142,11 +142,12 @@ Medidas de proteção específicas se aplicam à atividade **[!UICONTROL Atualiz
 As seguintes medidas de proteção se aplicam à atividade **[!UICONTROL Público-alvo de leitura]**:
 
 * Os públicos-alvo transmitidos estão sempre atualizados, mas os públicos-alvo em lote não serão calculados no momento da recuperação. Eles só são avaliados diariamente no momento da avaliação diária do lote.
-* Para jornadas que usam uma atividade Público-alvo de leitura, há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. Novas tentativas serão executadas pelo sistema, mas evite ter mais do que cinco jornadas (com Público-alvo de leitura, programadas ou iniciando “o mais rápido possível”), iniciando exatamente ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
-* A atividade Público-alvo de leitura não pode ser usada com atividades do Adobe Campaign.
-* A atividade Público-alvo de leitura só pode ser usada como a primeira atividade em uma jornada, ou após uma atividade de evento de negócios.
-* Uma jornada só pode ter uma atividade Público-alvo de leitura.
-* Consulte também recomendações sobre como usar a atividade Público-alvo de leitura [nesta página](../building-journeys/read-audience.md).
+* Para jornadas que usam uma atividade **Read Audience**, há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. As tentativas serão executadas pelo sistema, mas evite ter mais de cinco jornadas (com **Ler público**, agendado ou iniciando &quot;o mais rápido possível&quot;), iniciando exatamente ao mesmo tempo, espalhando-as ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
+* A atividade **Ler público-alvo** não pode ser usada com atividades Adobe Campaign.
+* A atividade **Ler público-alvo** só pode ser usada como uma primeira atividade em uma jornada ou após uma atividade de evento comercial.
+* Uma jornada só pode ter uma atividade **Read Audience**.
+* Consulte também recomendações sobre como usar a atividade **Ler público** nesta [página](../building-journeys/read-audience.md).
+* As tentativas são aplicadas por padrão em jornadas acionadas por público (começando com um **Público de Leitura** ou um **Evento Comercial**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, serão feitas novas tentativas a cada 10mn, por no máximo 1 hora. Depois disso, vamos considerá-lo um fracasso. Esses tipos de jornadas podem, portanto, ser executados até 1 hora após o horário agendado.
 
 
 ### Qualificação de público-alvo {#audience-qualif-g}

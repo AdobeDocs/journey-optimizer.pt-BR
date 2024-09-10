@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: atividade, jornada, leitura, público-alvo, plataforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
+source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 7%
+source-wordcount: '1635'
+ht-degree: 6%
 
 ---
 
@@ -31,7 +31,7 @@ Vamos ver como exemplo o público-alvo &quot;Abertura e finalização do aplicat
 
 ➡️ [Descubra este recurso no vídeo](#video)
 
-## Leitura obrigatória {#must-read}
+## Medidas de proteção e práticas recomendadas {#must-read}
 
 * Para jornadas que usam uma atividade **Read Audience**, há um número máximo de jornadas que podem ser iniciadas exatamente ao mesmo tempo. As tentativas serão executadas pelo sistema, mas evite ter mais de cinco jornadas (com **Ler público**, agendado ou iniciando &quot;o mais rápido possível&quot;) iniciando exatamente ao mesmo tempo. A prática recomendada é espalhá-las ao longo do tempo, por exemplo, com intervalos de 5 a 10 minutos.
 
@@ -40,6 +40,7 @@ Vamos ver como exemplo o público-alvo &quot;Abertura e finalização do aplicat
 * Como prática recomendada, você só deve usar públicos-alvo em lote em uma atividade **Ler público-alvo**. Isso fornecerá uma contagem confiável e consistente para os públicos-alvo usados em uma jornada. O público-alvo de leitura foi projetado para casos de uso em lote. Se o seu caso de uso precisa de dados em tempo real, use a atividade **[Qualificação de público-alvo](audience-qualification-events.md)**.
 
 * Os públicos-alvo [importados de um arquivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) ou resultantes de [fluxos de trabalho de composição](../audience/get-started-audience-orchestration.md) podem ser selecionados na atividade **Ler Público**. Estes públicos-alvo não estão disponíveis na atividade **Qualificação de público-alvo**.
+
 
 As medidas de proteção relacionadas à atividade **Ler público** estão listadas em [esta página](../start/guardrails.md#read-segment-g).
 
@@ -193,7 +194,14 @@ Após uma união, é possível dividir o público novamente executando uma segme
 
 ![](assets/read-segment-audience3.png)
 
-## Vídeo tutorial {#video}
+
+## Tentativas {#read-audience-retry}
+
+As tentativas são aplicadas por padrão em jornadas acionadas por público (começando com um **Público de Leitura** ou um **Evento Comercial**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, serão feitas novas tentativas a cada 10mn, por no máximo 1 hora. Depois disso, vamos considerá-lo um fracasso. Esses tipos de jornadas podem, portanto, ser executados até 1 hora após o horário agendado.
+
+Os acionadores **Read Audience** malsucedidos são capturados e exibidos em **Alertas**. O **alerta de Leitura de público** avisa se uma atividade de **Leitura de público** não processou nenhum perfil 10 minutos após o horário agendado de execução. Essa falha pode ser causada por problemas técnicos ou porque o público-alvo está vazio. Se essa falha for causada por problemas técnicos, esteja ciente de que ainda podem ocorrer tentativas, dependendo do tipo de problema (por exemplo: se a criação do trabalho de exportação falhar, tentaremos novamente a cada 10mn para um máximo de 1h). [Saiba mais](../reports/alerts.md#alert-read-audiences)
+
+## Vídeo explicativo {#video}
 
 Entenda os casos de uso aplicáveis para uma jornada acionada pela atividade de leitura de público-alvo. Saiba como criar jornadas baseadas em lote e quais práticas recomendadas devem ser aplicadas.
 
