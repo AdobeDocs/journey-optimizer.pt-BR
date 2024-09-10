@@ -252,7 +252,7 @@ Para alterar o idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_content_addition"
->title="Ativar adição de conteúdo"
+>title="Habilitar adição de conteúdo"
 >abstract="Ativar adição de conteúdo"
 
 >[!CONTEXTUALHELP]
@@ -278,7 +278,7 @@ Para alterar o idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="Somente leitura"
->abstract="Este conteúdo está em somente leitura e não pode ser modificado."
+>abstract="Este conteúdo é de somente leitura e não pode ser modificado."
 
 <!--GOVERNANCE POLICIES-->
 
