@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6268aafbec0aa21a7c8881514227cdb41674791a
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -215,8 +215,8 @@ Para alterar o idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
->title="Visualizador de conflito no jornada"
->abstract="Visualizador de conflito no jornada"
+>title="Visualizador de conflitos em jornadas"
+>abstract="Visualizador de conflitos em jornadas"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_object_type"
@@ -226,17 +226,17 @@ Para alterar o idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_rule_set"
 >title="Aplicar conjunto de regras a jornadas"
->abstract="A ser definido"
+>abstract="A definir"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rule_set"
 >title="Aplicar conjunto de regras a campanhas"
->abstract="A ser definido"
+>abstract="A definir"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_prioritization"
 >title="Fator na priorização"
->abstract="A ser definido"
+>abstract="A definir"
 
 <!--CONTENT LOCKING-->
 
@@ -253,7 +253,7 @@ Para alterar o idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_locking_content_addition"
 >title="Habilitar adição de conteúdo"
->abstract="Ativar adição de conteúdo"
+>abstract="Habilitar adição de conteúdo"
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_structure"
