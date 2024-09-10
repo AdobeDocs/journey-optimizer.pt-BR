@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
+source-git-commit: 5fd0ad50a39fbb57a2dd11ddb84f1d5b2598bcea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '824'
+ht-degree: 90%
 
 ---
 
@@ -40,11 +40,16 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <p>A Configuração de canal guiada permite automatizar e validar a configuração do canal em uma experiência unificada, acelerando o processo de introdução ao Journey Optimizer. Essa nova configuração guiada simplifica a configuração rápida do canal, garantindo que todos os recursos necessários sejam instalados e funcionem na Experience Platform, no Journey Optimizer e na Coleção de dados. Isso permite que as equipes engenharia de marketing, de produtos e de dados comecem rapidamente com a criação de campanhas e jornadas.</p>
 <p>Para obter mais informações, consulte a <a href="../configuration/set-mobile-config.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
+<p>Data de disponibilidade: 3 de setembro</p>
 </br>
 </td>
 </tr>
 </tbody>
 </table>
+
+**Jornadas**
+
+(Data de disponibilidade: 10 de setembro) **Recurso de repetição** - As tentativas agora são aplicadas por padrão em jornadas acionadas por público (começando com um **Público-alvo de Leitura** ou um **Evento Comercial**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, serão feitas novas tentativas a cada 10mn, por no máximo 1 hora. Depois disso, vamos considerá-lo um fracasso. Esses tipos de jornadas podem, portanto, ser executados até 1 hora após o horário agendado. [Saiba mais](../building-journeys/read-audience.md#retries)
 
 ## Notas de versão de agosto de 2024 {#8-2024}
 
