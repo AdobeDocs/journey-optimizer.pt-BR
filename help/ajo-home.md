@@ -5,9 +5,9 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 616a9c30da4558d1e8b71733732dd4fd1f531ef8
+source-git-commit: 5adb5fc5f7601d57c18bd3619aff84705d0dd229
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '364'
 ht-degree: 90%
 
 ---
@@ -22,7 +22,7 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!TAB Assistente de IA - Acelerador de Conteúdo]
 
-Mergulhe em uma experiência prática com nosso [Assistente de IA - Acelerador de Conteúdo](../help/using/content-management/gs-generative.md) pré-visualização de recurso ao vivo, projetado para permitir que você explore seus recursos em primeira mão e entenda totalmente suas capacidades.
+✨ mergulhe fundo em uma experiência prática com nosso [Assistente de IA - Acelerador de conteúdo](../help/using/content-management/gs-generative.md) pré-visualização de recurso ao vivo, projetado para permitir que você explore seus recursos em primeira mão e entenda totalmente seus recursos.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
