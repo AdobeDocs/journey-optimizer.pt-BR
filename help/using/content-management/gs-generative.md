@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 448568ff9ee96d4fa6dbaaa43ce2d45e38d6b920
+source-git-commit: 616a9c30da4558d1e8b71733732dd4fd1f531ef8
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 42%
@@ -35,7 +35,7 @@ ht-degree: 42%
 
 >[!INFO]
 >
->Mergulhe na experiência prática com a [nossa demonstração interativa](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), criada para permitir que você explore seus recursos em primeira mão e entenda totalmente suas capacidades.
+>Mergulhe na experiência prática com a [nossa demonstração interativa](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, criada para permitir que você explore seus recursos em primeira mão e entenda totalmente suas capacidades.
 
 
 O Assistente de IA no Adobe Journey Optimizer para aceleração de conteúdo, desenvolvido pelo Microsoft Azure OpenAI e Adobe Firefly, traz sugestões proativas de variação de conteúdo para texto e imagens. Ele está disponível para canais de email, push e SMS. Esse novo recurso fornece uma geração de texto e de imagens baseada em prompt. A geração de imagens é gerenciada pelo Adobe Firefly.
@@ -47,7 +47,7 @@ Use o Assistente de IA no Adobe Journey Optimizer para aceleração de conteúdo
 >* Antes de começar a usar esse recurso, leia as [Medidas de Proteção e Limitações](#generative-guardrails) relacionadas.
 >
 >
->* Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar o Assistente de IA no Adobe Journey Optimizer para Aceleração de Conteúdo. Para obter mais informações, entre em contato com o seu representante da Adobe.
+>* Você deve concordar com um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar o Assistente de IA no Adobe Journey Optimizer para Aceleração de Conteúdo. Para obter mais informações, entre em contato com o seu representante da Adobe.
 
 ## Acesse o Acelerador de conteúdo do assistente de IA {#generative-access}
 
