@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6268aafbec0aa21a7c8881514227cdb41674791a
+source-git-commit: 15fd327db3753dfec608bd39344d86cabd5df994
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 97%
+source-wordcount: '1531'
+ht-degree: 96%
 
 ---
 
@@ -219,24 +219,38 @@ Para alterar o idioma:
 >abstract="Visualizador de conflitos em jornadas"
 
 >[!CONTEXTUALHELP]
->id="ajo_rule_set_object_type"
+>id="ajo_rule_set_domain"
 >title="Tipo de objeto"
 >abstract="Tipo de objeto"
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_rule_set"
+>id="ajo_journey_capping_rule"
 >title="Aplicar conjunto de regras a jornadas"
 >abstract="A definir"
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_rule_set"
+>id="ajo_rule_set_rule_type"
+>title="Tipo de regra"
+>abstract="Tipo de regra"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="Priorização antecipada"
+>abstract="Priorização antecipada"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_capping_rule"
 >title="Aplicar conjunto de regras a campanhas"
 >abstract="A definir"
+
+<!--TO REMOVE?-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_prioritization"
 >title="Fator na priorização"
 >abstract="A definir"
+
+<!--TO REMOVE?-->
 
 <!--CONTENT LOCKING-->
 
