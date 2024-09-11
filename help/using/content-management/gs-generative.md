@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 616a9c30da4558d1e8b71733732dd4fd1f531ef8
+source-git-commit: 33dd0568ff55750d0f067e51442b5187820ec36a
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '883'
 ht-degree: 42%
 
 ---
 
-# Introdução ao Assistente de IA no Journey Optimizer - Acelerador de conteúdo {#gs-content-assistant}
+# Introdução ao Assistente de IA - Acelerador de conteúdo {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
