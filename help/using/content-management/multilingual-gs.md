@@ -10,10 +10,10 @@ level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
+source-git-commit: e3685815dfed23c9fefa148e0025181258537135
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 20%
+source-wordcount: '414'
+ht-degree: 12%
 
 ---
 
@@ -37,6 +37,11 @@ Com o Journey Optimizer, você tem a possibilidade de criar conteúdo multilíng
 
 ## Pré-requisitos {#prerequisites}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_translation_error"
+>title="Erro de tradução
+>abstract="Caso não seja possível acessar a página Tradução, é provável que o recurso Tradução não esteja ativado. Para resolver esse problema, será necessário garantir que o recurso Tradução seja ativado pelo administrador da organização e da sandbox."
+
 Atualmente, o Adobe Journey Optimizer integra-se com provedores de tradução, que oferecem serviços de tradução de terceiros (tradução automática ou tradução humana) independentes do Adobe Journey Optimizer.
 
 Antes de adicionar o Provedor de tradução selecionado, você deve criar uma conta com esse provedor aplicável.
@@ -44,6 +49,22 @@ Antes de adicionar o Provedor de tradução selecionado, você deve criar uma co
 O uso dos serviços de tradução de um Provedor de tradução está sujeito a termos e condições adicionais desse provedor aplicável.  Como soluções de terceiros, os serviços de tradução estão disponíveis para usuários do Adobe Journey Optimizer por meio de uma integração.  A Adobe não controla e não é responsável por produtos de terceiros.
 
 Para problemas ou solicitações de assistência relacionados às suas traduções, entre em contato com o Provedor de tradução aplicável.
+
+Caso não seja possível acessar a página Tradução, é necessário ativar o recurso Tradução.
+
++++ Saiba como habilitar o recurso de Tradução
+
+1. Se você estiver vendo a seguinte página de erro, isso indica que o recurso **[!UICONTROL Tradução]** ainda não foi habilitado. Entre em contato com o administrador da organização e da sandbox. para solicitar acesso.
+
+   ![](assets/multi-troubleshoot.png)
+
+1. O administrador precisará navegar até o menu **[!UICONTROL Tradução]** na barra lateral esquerda. O sistema habilitará automaticamente o recurso Tradução.
+
+1. Depois que o recurso for habilitado com êxito, você poderá acessar a página **[!UICONTROL Tradução]**, juntamente com as guias **[!UICONTROL Projetos]**, **[!UICONTROL Provedores]** e **[!UICONTROL Localidade]**.
+
+1. Se esse procedimento falhar, você ainda verá a mesma página de erro. Nesse caso, entre em contato com o representante da Adobe para obter mais assistência.
+
++++
 
 ## Vídeo tutorial {#video}
 
