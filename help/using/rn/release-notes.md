@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b3e683e503f1784d61f6de4f0d866fc965515c1c
+source-git-commit: b1f23144d996e152018519b540d70f45b7c58695
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '928'
 ht-degree: 83%
 
 ---
@@ -41,6 +41,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <p>Mergulhe em uma experiência prática com a <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">nossa visualização de recursos</a> em tempo real, projetada para permitir que você explore seus recursos em primeira mão e entenda totalmente suas funcionalidades.</a>.</p>
 <p>Para obter mais informações, consulte a <a href="../content-management/gs-generative.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
+<p>Data de disponibilidade: 12 de setembro</p>
 </td>
 </tr>
 </tbody>
