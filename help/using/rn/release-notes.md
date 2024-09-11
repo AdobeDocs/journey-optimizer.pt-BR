@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5fd0ad50a39fbb57a2dd11ddb84f1d5b2598bcea
+source-git-commit: 633d2f423301680a7aff83b748a08a6f1a1bbf16
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 90%
+source-wordcount: '927'
+ht-degree: 83%
 
 ---
 
@@ -27,6 +27,24 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 ![Informativo](../assets/do-not-localize/nl-icon.png) Assine o [informativo trimestral do Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} hoje e receba as últimas atualizações de produtos, histórias interessantes, casos de uso, dicas e muito mais, entregues diretamente à sua caixa de entrada a cada trimestre.
 
 ## Atualizações de setembro {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>Assistente de IA no otimizador de Jornadas - Acelerador de conteúdo </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Depois de criar e personalizar sua mensagem, leve o conteúdo ao próximo nível com o Assistente de IA no Journey Optimizer para aceleração de conteúdo. Agora você pode usar o assistente de IA para otimizar o impacto da mensagem, experimentando com diferentes títulos principais e imagens. Cada variante é administrada como um Tratamento exclusivo, para medir e comparar qual título gera efetivamente mais cliques.</p>
+<p>Mergulhe em uma experiência prática com a <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">nossa visualização de recursos</a> em tempo real, projetada para permitir que você explore seus recursos em primeira mão e entenda totalmente suas funcionalidades.</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../content-management/gs-generative.md">documentação detalhada</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
