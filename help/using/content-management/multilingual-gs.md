@@ -10,7 +10,7 @@ level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 27c0be31ffc4ce7c43975a4db431713cd68f0461
+source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 12%
@@ -58,7 +58,9 @@ Caso não seja possível acessar a página Tradução, é necessário ativar o r
 
    ![](assets/multi-troubleshoot.png)
 
-1. O administrador precisará navegar até o menu **[!UICONTROL Tradução]** na barra lateral esquerda. O sistema habilitará automaticamente o recurso Tradução.
+1. O administrador precisará navegar até o menu **[!UICONTROL Tradução]** na barra lateral esquerda.
+
+   O sistema habilitará automaticamente o recurso Tradução.
 
 1. Depois que o recurso for habilitado com êxito, você poderá acessar a página **[!UICONTROL Tradução]**, juntamente com as guias **[!UICONTROL Projetos]**, **[!UICONTROL Provedores]** e **[!UICONTROL Localidade]**.
 
