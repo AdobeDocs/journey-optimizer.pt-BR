@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b1f23144d996e152018519b540d70f45b7c58695
+source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 83%
@@ -31,7 +31,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <table>
 <thead>
 <tr>
-<th><strong>Assistente de IA - Acelerador de conteúdo </strong><br/></th>
+<th><strong>Acelerador de conteúdo do assistente de IA </strong><br/></th>
 </tr>
 </thead>
 <tbody>

@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução ao Assistente de IA no Journey Optimizer - Acelerador de conteúdo
-description: Saiba como acessar e trabalhar com o Assistente de IA no Journey Optimizer - Acelerador de conteúdo
+title: Introdução ao Assistente de IA no Journey Optimizer Content Accelerator
+description: Saiba como acessar e trabalhar com o Assistente de IA no Journey Optimizer Content Accelerator
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 33dd0568ff55750d0f067e51442b5187820ec36a
+source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 42%
 
 ---
 
-# Introdução ao Assistente de IA - Acelerador de conteúdo {#gs-content-assistant}
+# Introdução ao Acelerador de conteúdo do Assistente de IA {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
