@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
+source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1195'
 ht-degree: 18%
 
 ---
@@ -40,7 +40,9 @@ Para adicionar uma mensagem em uma jornada, siga as etapas abaixo:
 
 1. Na seção **Ações** da paleta, arraste e solte na tela uma atividade de **email**, **No aplicativo**, **SMS** ou **Push**.
 
-1. Configure sua atividade. Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem nas seguintes páginas:
+1. Configure sua atividade.
+
+   Saiba mais sobre as etapas detalhadas para criar o conteúdo da mensagem nas seguintes páginas:
 
    <table style="table-layout:fixed">
    <tr style="border: 0;">
@@ -80,6 +82,11 @@ Para adicionar uma mensagem em uma jornada, siga as etapas abaixo:
    </td>
    </tr>
    </table>
+
+>[!NOTE]
+>
+>Cada atividade de mensagem de entrada (mensagem no aplicativo, experiência baseada em código ou Cartão) vem com uma atividade **Wait** de 3 dias. [Saiba mais](../building-journeys/wait-activity.md#auto-wait-node)
+>
 
 ## Atualizar conteúdo ao vivo{#update-live-content}
 
