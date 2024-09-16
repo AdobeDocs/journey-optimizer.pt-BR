@@ -5,10 +5,10 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 98%
+source-wordcount: '2010'
+ht-degree: 96%
 
 ---
 
@@ -262,6 +262,14 @@ ht-degree: 98%
    + [Criar configuração de experiência baseada em código](using/code-based/code-based-configuration.md)
    + [Amostras de métodos de implementação](using/code-based/code-based-implementation-samples.md)
    + [Criar experiências baseadas em código](using/code-based/create-code-based.md)
++ Cartões de conteúdo (LA){#content-card}
+   + [Introdução a cartões de conteúdo](using/content-card/get-started-content-card.md)
+   + Configurar canal de cartão de conteúdo {#configure}
+      + [Pré-requisitos dos cartões de conteúdo](using/content-card/content-card-configuration-prereq.md)
+      + [Configurar canal de cartões de conteúdo no Journey Optimizer](using/content-card/content-card-configuration.md)
+   + [Criar cartões de conteúdo](using/content-card/create-content-card.md)
+   + [Criar cartões de conteúdo](using/content-card/design-content-card.md)
+   + [Relatório de cartões de conteúdo](using/content-card/content-card-report.md)
 + Páginas de destino {#landing-pages}
    + [Introdução às páginas de destino](using/landing-pages/get-started-lp.md)
    + [Criar uma página de destino](using/landing-pages/create-lp.md)
