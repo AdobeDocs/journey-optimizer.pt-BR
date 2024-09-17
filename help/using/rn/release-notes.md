@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b560c88bf97143ca9dadf1399862165cb3f7bc62
+source-git-commit: d7d77bcbd401f7af68f644ded25d61f0921c03be
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 82%
+source-wordcount: '950'
+ht-degree: 80%
 
 ---
 
@@ -71,9 +71,15 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 </tbody>
 </table>
 
+**Públicos-alvo**
+
+(Data de disponibilidade: 17 de setembro) **Uso da licença** - O painel de uso da licença agora mostra os Perfis que podem ser ativados, em vez dos Públicos que podem ser ativados. [Saiba mais](../audience/license-usage.md)
+
 **Jornadas**
 
 (Data de disponibilidade: 10 de setembro) **Recurso de repetição** - As tentativas agora são aplicadas por padrão em jornadas acionadas por público (começando com um **Público-alvo de Leitura** ou um **Evento Comercial**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, serão feitas novas tentativas a cada 10mn, por no máximo 1 hora. Depois disso, vamos considerá-lo um fracasso. Esses tipos de jornadas podem, portanto, ser executados até 1 hora após o horário agendado. [Saiba mais](../building-journeys/read-audience.md#retries)
+
+
 
 ## Notas de versão de agosto de 2024 {#8-2024}
 
