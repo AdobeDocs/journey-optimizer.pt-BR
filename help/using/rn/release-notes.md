@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d7d77bcbd401f7af68f644ded25d61f0921c03be
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 80%
+ht-degree: 96%
 
 ---
 
@@ -42,8 +42,8 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 <tbody>
 <tr>
 <td>
-<p>Depois de criar e personalizar sua mensagem, leve o conteúdo ao próximo nível com o Assistente de IA no Journey Optimizer para aceleração de conteúdo. Agora você pode usar o assistente de IA para otimizar o impacto da mensagem, experimentando com diferentes títulos principais e imagens. Cada variante é administrada como um Tratamento exclusivo, para medir e comparar qual título gera efetivamente mais cliques.</p>
-<p>Mergulhe em uma experiência prática com a <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">nossa visualização de recursos</a> em tempo real, projetada para permitir que você explore seus recursos em primeira mão e entenda totalmente suas funcionalidades.</a>.</p>
+<p>Depois de criar e personalizar a sua mensagem, eleve seu conteúdo para o próximo patamar com o Assistente de IA do Journey Optimizer para aceleração de conteúdo. Agora é possível usar o Assistente de IA para otimizar o impacto da sua mensagem, experimentando títulos principais e imagens diferentes. Cada variante é administrada como um tratamento exclusivo, para medir e comparar qual título gera efetivamente mais cliques.</p>
+<p>Mergulhe em uma experiência prática com a <a href="https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator">nossa prévia de recursos</a>, projetada para ajudar você a conhecer os recursos em primeira mão e entender totalmente suas funcionalidades</a>.</p>
 <p>Para obter mais informações, consulte a <a href="../content-management/gs-generative.md">documentação detalhada</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
 <p>Data de disponibilidade: 12 de setembro</p>
@@ -77,7 +77,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 **Jornadas**
 
-(Data de disponibilidade: 10 de setembro) **Recurso de repetição** - As tentativas agora são aplicadas por padrão em jornadas acionadas por público (começando com um **Público-alvo de Leitura** ou um **Evento Comercial**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, serão feitas novas tentativas a cada 10mn, por no máximo 1 hora. Depois disso, vamos considerá-lo um fracasso. Esses tipos de jornadas podem, portanto, ser executados até 1 hora após o horário agendado. [Saiba mais](../building-journeys/read-audience.md#retries)
+(Data de disponibilidade: 10 de setembro) **Recurso de repetição**: as novas tentativas agora são aplicadas por padrão em jornadas acionadas por público-alvo (começando com um **público-alvo de leitura** ou um **evento de negócios**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado. [Saiba mais](../building-journeys/read-audience.md#retries)
 
 
 
