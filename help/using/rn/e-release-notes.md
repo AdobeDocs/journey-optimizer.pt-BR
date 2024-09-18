@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d2d4667d9d2297004905d77f2a8f03fd6758f90f
+source-git-commit: d998a66421c277b7a46e5f15585a9768bc360a7a
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 41%
+source-wordcount: '1264'
+ht-degree: 40%
 
 ---
 
@@ -187,9 +187,9 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **APIs**
 
-* A [documentação da API do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) agora é interativa. Explore os endpoints da API diretamente nas páginas de documentação para obter feedback imediato e acelerar sua implementação técnica.
+* A [documentação da API do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} agora é interativa. Explore os endpoints da API diretamente nas páginas de documentação para obter feedback imediato e acelerar sua implementação técnica.
 
-  Todas as páginas de referência da API agora têm uma funcionalidade **Experimente-a** que você pode usar para testar chamadas de API diretamente na página do site de documentação. [Obtenha as credenciais de autenticação necessárias](/help/landing/api-authentication.md) e comece a usar a funcionalidade para explorar os pontos de extremidade da API.
+  Todas as páginas de referência da API agora têm uma funcionalidade **Experimente-a** que você pode usar para testar chamadas de API diretamente na página do site de documentação. [Obtenha as credenciais de autenticação necessárias](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"} e comece a usar a funcionalidade para explorar os pontos de extremidade da API.
 
   Use essa nova funcionalidade para explorar as solicitações para o e as respostas dos endpoints da API, para obter feedback imediato e acelerar sua implementação técnica.
 
@@ -198,5 +198,5 @@ Esta versão vem com as melhorias listadas abaixo.
   >Observe que ao usar a funcionalidade de API interativa nas páginas de documentação, você está fazendo chamadas de API reais para os endpoints. Lembre-se disso ao testar sandboxes de produção.
 
 
-* **API de Simulação de Campanha** - Use esta API para acionar o trabalho de prova de uma Campanha. O envio de uma prova do Campaign é um processo assíncrono, a API retornará um proofJobId que pode ser usado para verificar o status da prova. [Saiba mais](https://developer.adobe.com/journey-optimizer-apis/references/simulations/)
+* **API de Simulação de Campanha** - Use esta API para acionar o trabalho de prova de uma Campanha. O envio de uma prova do Campaign é um processo assíncrono, a API retornará um proofJobId que pode ser usado para verificar o status da prova. [Saiba mais](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
