@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
+source-git-commit: f5bcafb0963c5adf4a0ab307f611fd9cc0b34005
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 95%
+source-wordcount: '1797'
+ht-degree: 80%
 
 ---
 
@@ -201,22 +201,22 @@ Para alterar o idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioridade"
->abstract="Atribua uma pontuação de prioridade à jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas jornadas usam a mesma superfície, o Journey Optimizer seleciona a jornada com a pontuação de prioridade mais alta. Se as jornadas tiverem a mesma pontuação, a jornada modificada mais recentemente será escolhida."
+>abstract="Atribua uma pontuação de prioridade à jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. O valor de prioridade inserido aqui é herdado por qualquer ação de entrada (como no aplicativo) contida nesta jornada. Para situações em que essa mesma superfície de entrada é usada em outras campanhas ou jornadas, a ação de entrada com a pontuação de prioridade mais alta é mostrada ao recipient. Se várias jornadas ou campanhas tiverem a mesma pontuação, o elemento que foi modificado mais recentemente será escolhido."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Prioridade"
->abstract="Atribua uma pontuação de prioridade à campanha, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Quando duas campanhas usam a mesma superfície, o Journey Optimizer seleciona a campanha com a pontuação de prioridade mais alta. Se as campanhas tiverem a mesma pontuação, a campanha modificada mais recentemente será escolhida."
+>abstract="Atribua uma pontuação de prioridade à campanha, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Para situações em que essa mesma superfície de entrada (como no aplicativo) é usada em outras campanhas ou jornadas, a ação de entrada com a pontuação de prioridade mais alta é mostrada ao recipient. Se várias jornadas ou campanhas tiverem a mesma pontuação, o elemento que foi modificado mais recentemente será escolhido."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="Visualizador de conflitos em campanhas"
->abstract="Visualizador de conflitos em campanhas"
+>abstract="Essa ferramenta pode ajudar você a determinar a sobreposição com outras jornadas, campanhas ou superfícies. Se você quiser identificar sobreposição no público-alvo, data de início e término, configuração de canal, canal ou conjunto de regras, é possível visualizar os possíveis conflitos aqui. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="Visualizador de conflitos em jornadas"
->abstract="Visualizador de conflitos em jornadas"
+>abstract="Essa ferramenta pode ajudar você a determinar a sobreposição com outras jornadas, campanhas ou superfícies. Se você quiser identificar sobreposição no público-alvo, data de início e término, configuração de canal, canal ou conjunto de regras, é possível visualizar os possíveis conflitos aqui. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
@@ -226,7 +226,7 @@ Para alterar o idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="Aplicar conjunto de regras a jornadas"
->abstract="A definir"
+>abstract="Aplique um conjunto de regras para excluir essa jornada a parte do público-alvo com base nas regras de limite de frequência."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -236,7 +236,7 @@ Para alterar o idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="Priorização antecipada"
->abstract="Priorização antecipada"
+>abstract=" Se uma jornada de prioridade mais alta for agendada dentro do período de tempo especificado aqui, o cliente será impedido de inserir essa jornada. Para situações em que você deseja que as jornadas sejam inseridas em uma base de primeiro a chegar, primeiro a ser servido, sugerimos escolher o período Diário de visão antecipada e garantir que a pontuação de prioridade de qualquer outra jornada nesse dia seja menor que a pontuação de prioridade da jornada. Fornecer uma pontuação de prioridade 100 a uma jornada também garantirá que ela seja inserida em."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
