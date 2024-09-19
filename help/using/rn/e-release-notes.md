@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 777286e2c3e0fa6458f1f503756b0494cbcc9020
+source-git-commit: 23ff5c26620c8d7119abec5994c7ac3e7e2a208d
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 47%
+source-wordcount: '973'
+ht-degree: 43%
 
 ---
 
@@ -186,9 +186,11 @@ Esta versão vem com as melhorias listadas abaixo.
 
 * **Número máximo de jornadas ativas** - O Journey Optimizer agora tem uma garantia de 500 jornadas ativas em sandboxes de produção, em vez de 100. O número de jornadas ativas é visível na tela de jornada.
 
-* **Relatórios ao vivo do Jornada** - Os Relatórios ao vivo fornecem informações sobre o desempenho de suas jornadas nas últimas 24 horas. Aprimoramos esse processo adicionando novas métricas (perfis e perfis inseridos, encerrados e descartados por engano), que permitem obter uma compreensão mais profunda do comportamento e do desempenho do usuário diretamente da tela de Jornada.
+* **Aprimoramentos nos relatórios ao vivo** - Os relatórios ao vivo fornecem informações sobre o desempenho das suas jornadas nas últimas 24 horas. Aprimoramos esse processo adicionando novas métricas (perfis e perfis inseridos, encerrados e descartados por engano), que permitem obter uma compreensão mais profunda do comportamento e do desempenho do usuário diretamente da tela de Jornada.
 
-* (Data de disponibilidade: 10 de setembro) **Recurso de repetição**: as novas tentativas agora são aplicadas por padrão em jornadas acionadas por público-alvo (começando com um **público-alvo de leitura** ou um **evento de negócios**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado. [Saiba mais](../building-journeys/read-audience.md#retries)
+* **Parâmetros em ações personalizadas** - Agora há suporte para parâmetros NULL e opcionais em ações personalizadas.
+
+* (Data de disponibilidade: 10 de setembro) **Tentativas automáticas em Ler público** - As tentativas agora são aplicadas por padrão em jornadas acionadas por público (começando com um **Ler público** ou um **Evento comercial**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado. [Saiba mais](../building-journeys/read-audience.md#retries)
 
 **Canal de email**
 
