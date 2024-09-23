@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6229f295b961b0535139b64928216e40c3759947
+source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 80%
+source-wordcount: '1558'
+ht-degree: 89%
 
 ---
 
@@ -197,26 +197,6 @@ Para alterar o idioma:
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
 <!--PRIORITIZATION & CONFLICT MANAGEMENT-->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="Prioridade"
->abstract="Atribua uma pontuação de prioridade à jornada, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. O valor de prioridade inserido aqui é herdado por qualquer ação de entrada (como no aplicativo) contida nesta jornada. Para situações em que essa mesma superfície de entrada é usada em outras campanhas ou jornadas, a ação de entrada com a pontuação de prioridade mais alta é mostrada ao recipient. Se várias jornadas ou campanhas tiverem a mesma pontuação, o elemento que foi modificado mais recentemente será escolhido."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="Prioridade"
->abstract="Atribua uma pontuação de prioridade à campanha, variando de 0 a 100. Um número mais alto indica uma prioridade mais alta. Para situações em que essa mesma superfície de entrada (como no aplicativo) é usada em outras campanhas ou jornadas, a ação de entrada com a pontuação de prioridade mais alta é mostrada ao recipient. Se várias jornadas ou campanhas tiverem a mesma pontuação, o elemento que foi modificado mais recentemente será escolhido."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_conflict"
->title="Visualizador de conflitos em campanhas"
->abstract="Essa ferramenta pode ajudar você a determinar a sobreposição com outras jornadas, campanhas ou superfícies. Se você quiser identificar sobreposição no público-alvo, data de início e término, configuração de canal, canal ou conjunto de regras, é possível visualizar os possíveis conflitos aqui. "
-
->[!CONTEXTUALHELP]
->id="ajo_journey_conflict"
->title="Visualizador de conflitos em jornadas"
->abstract="Essa ferramenta pode ajudar você a determinar a sobreposição com outras jornadas, campanhas ou superfícies. Se você quiser identificar sobreposição no público-alvo, data de início e término, configuração de canal, canal ou conjunto de regras, é possível visualizar os possíveis conflitos aqui. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
