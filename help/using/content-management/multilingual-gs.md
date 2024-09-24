@@ -10,14 +10,19 @@ level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
+source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 12%
+source-wordcount: '449'
+ht-degree: 11%
 
 ---
 
 # Introdução ao conteúdo multilíngue {#multilingual-gs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_translation_homepage"
+>title="Traduções"
+>abstract="O recurso multilíngue permite criar conteúdo facilmente em vários idiomas em uma única campanha ou jornada. Na página Traduções, é possível configurar projetos, selecionar provedores de tradução ou gerenciar dicionários específicos do local"
 
 >[!AVAILABILITY]
 >
