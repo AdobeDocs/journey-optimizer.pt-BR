@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Optimizer
 user-guide-description: Use o Journey Optimizer para criar e fornecer experiências conectadas, contextuais e personalizadas aos clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: 131cacc88670a965ed2e233984ffa941b37e8a08
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2020'
 ht-degree: 96%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 96%
 + Testar as suas entregas {#test}
    + [Gerenciamento de conflitos e priorização](using/test-approve/conflict-prioritization.md)
    + Visualizar e testar conteúdo {#preview-test}
-      + [Testar seu conteúdo usando perfis personalizados](using/test-approve/test-custom-profiles.md)
+      + [Teste o conteúdo usando dados de entrada de exemplo](using/test-approve/simulate-sample-input.md)
       + [Introdução à visualização e teste](using/content-management/preview-test.md)
       + [Seleção de perfis de teste](using/content-management/test-profiles.md)
       + [Visualização do conteúdo](using/content-management/preview.md)
