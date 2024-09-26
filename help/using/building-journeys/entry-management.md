@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: reentrada, jornada, perfil, recorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 5%
@@ -32,13 +32,13 @@ Em todos os tipos de jornada, um perfil não pode estar presente várias vezes n
 
 ## Jornadas unitárias de qualificação de evento e público-alvo{#entry-unitary}
 
-Nas jornadas de **Evento unitário** e **Qualificação de público-alvo**, você pode habilitar ou desabilitar a reentrada:
+Nas jornadas **Evento unitário** e **Qualificação de público-alvo**, você pode habilitar ou desabilitar a reentrada:
 
 * Se a reentrada estiver ativada, um perfil poderá inserir uma jornada várias vezes, mas não poderá fazer isso até que ele tenha saído totalmente da instância anterior da jornada.
 
-* Se a reentrada estiver desativada, um perfil não poderá inserir várias vezes a mesma jornada dentro do tempo limite da jornada global. Consulte esta [seção](../building-journeys/journey-properties.md#global_timeout).
+* Se a reentrada estiver desativada, um perfil não poderá entrar várias vezes na mesma jornada dentro do tempo limite global da jornada. Consulte esta [seção](../building-journeys/journey-properties.md#global_timeout).
 
-Por padrão, o jornada permite a reentrada. Quando a opção **Permitir reentrada** está ativada, o campo **Período de espera de reentrada** é exibido. Isso permite definir o tempo de espera antes de permitir que um perfil entre na jornada novamente. Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. A duração máxima é de 91 dias ([tempo limite global](journey-properties.md#global_timeout)).
+Por padrão, as jornadas permitem a reentrada. Quando a opção **Permitir reentrada** está ativada, o campo **Período de espera de reentrada** é exibido. Isso permite definir o tempo de espera antes de permitir que um perfil entre na jornada novamente. Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. A duração máxima é de 91 dias ([tempo limite global](journey-properties.md#global_timeout)).
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
@@ -46,15 +46,15 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 
 ![](assets/journey-re-entrance.png)
 
-Após o período de reentrada, os perfis podem inserir a jornada novamente. Para evitar isso e desativar totalmente a reentrada desses perfis, você pode adicionar uma condição para testar se o perfil entrou já ou não, usando dados de perfil ou público-alvo.
+Após o período de reentrada, os perfis podem entrar na jornada novamente. Para evitar isso e desativar totalmente a reentrada desses perfis, você pode adicionar uma condição para testar se o perfil entrou já ou não, usando dados de perfil ou público-alvo.
 
 <!--
-Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
+Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
 
 ## Jornadas comerciais {#entry-business}
 
 <!--
-Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
+Business events follow reentrance rules in the same way as for unitary events. If a journey allows reentrance, the next business event will be processed.
 -->
 
 Em **jornadas comerciais**, para permitir várias execuções de eventos comerciais, ative a opção correspondente na seção **[!UICONTROL Execução]** das propriedades de jornada.

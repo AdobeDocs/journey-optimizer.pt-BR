@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: fbe8d14ba81e168ecfb141d54bf3009a2565751c
+source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 17%
+source-wordcount: '1983'
+ht-degree: 13%
 
 ---
 
@@ -22,12 +22,6 @@ ht-degree: 17%
 >id="ajo_journey_properties"
 >title="Propriedades da jornada"
 >abstract="Essa seção mostra as propriedades da jornada. Por padrão, os parâmetros somente leitura ficam ocultos. As configurações disponíveis dependem do status da jornada, das permissões e da configuração do produto."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_exit_criterias"
->title="Critérios de saída da jornada"
->abstract="Esta seção mostra as opções de critérios de saída. É possível criar uma ou várias regras de critérios de saída para a sua jornada."
-
 
 ## Acessar as propriedades de uma jornada {#access-properties}
 
@@ -59,21 +53,21 @@ O modo de entrada de perfil é definido no nível da jornada, no painel de confi
 
 O gerenciamento de entrada de perfis depende do tipo de jornadas. Saiba mais sobre a entrada de perfis e o gerenciamento de reentrada em [esta página](entry-management.md).
 
-### Permitir reentrada  {#allow-re-entrance}
+### Permitir reentrada  {#allow-reentrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Permitir reentrada"
->abstract="Por padrão, novas jornadas permitem a reentrada. É possível desmarcar a opção **Permitir reentrada**, por exemplo, caso queira oferecer um presente único quando uma pessoa entra em uma loja."
+>abstract="Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção **Permitir reentrada**, por exemplo, se quiser oferecer um presente único quando uma pessoa entrar em uma loja."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gerenciamento de entrada de perfis"
 
 Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção **Permitir reentrada** para jornadas &quot;únicas&quot;, por exemplo, se quiser oferecer um presente único quando uma pessoa entrar em uma loja.
 
-### Período de espera de reentrada  {#re-entrance-wait}
+### período de espera de reentrada  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_re-entrance_wait"
->title="Período de espera de reentrada"
+>id="ajo_journey_properties_reentrance_wait"
+>title="período de espera de reentrada"
 >abstract=" Defina o tempo de espera antes de permitir que um perfil entre na jornada novamente em jornadas unitárias. Isso impede que os usuários entrem novamente na jornada por um período determinado. Duração máxima: 90 dias."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gerenciamento de entrada de perfis"
 
@@ -107,7 +101,7 @@ Para obter mais informações sobre o gerenciamento de fuso horário, consulte [
 
 Você pode definir uma **Data de início**. Se não tiver especificado um, ele será definido automaticamente no momento da publicação.
 
-Você também pode adicionar uma **Data final**. Isso permite que os perfis saiam automaticamente quando a data for atingida. Se nenhuma data de término for especificada, os perfis poderão permanecer até o [tempo limite da jornada global](#global_timeout) (que geralmente é de 91 dias). A única exceção são as jornadas de leitura de público recorrentes com **Forçar reentrada na recorrência** ativada, que terminam na data de início da próxima ocorrência.
+Você também pode adicionar uma **Data final**. Isso permite que os perfis saiam automaticamente quando a data for atingida. Se nenhuma data de término for especificada, os perfis poderão permanecer até o [tempo limite da jornada global](#global_timeout) (que geralmente é de 91 dias). A única exceção são as jornadas de público-alvo de leitura recorrente com **Forçar a reentrada na recorrência** ativada, que terminam na data de início da próxima ocorrência.
 
 ## Tempo limite {#timeout}
 
@@ -258,3 +252,55 @@ O Jornada usa políticas de mesclagem ao recuperar dados de perfil do Adobe Expe
 O Jornada seguirá a política de mesclagem usada em toda a jornada. Portanto, se vários públicos-alvo forem usados em uma jornada (por exemplo: em funções &quot;inAudience&quot;), criando inconsistências com a política de mesclagem usada pela jornada, um erro será gerado e a publicação será bloqueada. No entanto, se um público-alvo inconsistente for usado na personalização da mensagem, um alerta não será gerado, apesar da inconsistência. Por isso, é altamente recomendável verificar a política de mesclagem associada ao seu público-alvo quando ele for usado na personalização da mensagem.
 
 Para saber mais sobre políticas de mesclagem, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+
+
+## Critérios de saída {#exit-criteria}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="Critérios de saída da jornada"
+>abstract="Esta seção mostra as opções de critérios de saída. É possível criar uma ou várias regras de critérios de saída para a sua jornada."
+
+### Descrição
+
+Geralmente, os profissionais de marketing desejam remover perfis de uma jornada quando não atendem mais ao objetivo da jornada. Isso será feito através de **critérios de saída globais**, que estão intimamente associados ao gerenciamento de metas.
+
+**Caso de uso de exemplo:**
+
+Um profissional de marketing tem uma jornada promocional com uma série de comunicações. Cada uma dessas comunicações tem como objetivo orientar o cliente a fazer uma compra. Assim que a compra for feita, o cliente não deverá receber o restante das mensagens na série. Ao definir um critério de saída, os perfis que fizeram uma compra serão removidos da jornada.
+
+### Configuração e utilização
+
+Os critérios de saída são definidos no nível da jornada. Uma jornada pode ter vários critérios de saída. Quando você tem vários critérios de saída definidos, a avaliação acontece de cima para baixo com uma lógica OR. Portanto, se você tiver o Critério de Saída n°1 e o Critério de Saída n°2, ele será avaliado como n°1 **ou** n°2. Os critérios são avaliados em cada etapa da jornada.
+
+Para **criar** um critério de saída:
+
+* Clique no seguinte ícone ![](assets/exitcriteria_icon.png){width="40%" align="left"} no painel direito.
+* Clique no botão **Adicionar critério de saída**.
+
+![](assets/exitcriteria.png){width="40%" align="left"}
+
+* Você pode adicionar vários critérios de saída.
+* Insira um **Rótulo** e selecione se os seus critérios de saída se baseiam em um evento ou público-alvo.
+
+### Critérios de saída com base em um evento
+
+Escolher somente evento unitário.
+
+![](assets/exitcriteria_event.png){width="40%" align="left"}
+
+### Critérios de saída com base em um público-alvo
+
+Escolha um público.
+
+![](assets/exitcriteria_audience.png){width="40%" align="left"}
+
+Observação: os critérios de saída que usam um público-alvo podem levar até 10 minutos para ficarem operacionais.
+
+### Restrições e limitações
+
+* Os critérios de saída são definidos como rascunho
+* Jornada a coerência de namespace entre eventos e critérios de saída baseados em eventos
+
+
+

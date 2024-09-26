@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+workflow-type: tm+mt
 source-wordcount: '4394'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ Esta versão vem com as melhorias listadas abaixo.
 * A duração máxima que você pode definir em qualquer tempo de espera agora é de 29 dias, em vez de 30. Essa melhoria foi introduzida para evitar que a espera exceda os 30 dias de duração da jornada. Isso se aplica a:
 
    * o campo **Quantidade de tempo** na [atividade de espera](../building-journeys/wait-activity.md)
-   * o **período de espera de reentrada** nas [propriedades da jornada](../building-journeys/journey-properties.md#entrance)
+   * o **Período de espera de reentrada** em [propriedades de jornada](../building-journeys/journey-properties.md#entrance)
    * o campo **Aguardar por** na definição de tempo limite das [atividades de evento](../building-journeys/general-events.md#events-specific-time).
 
 <!--
