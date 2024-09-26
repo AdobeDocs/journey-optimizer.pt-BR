@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expressão, sintaxe, operadores, editor, jornada
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 20dfd2a0c5e660601e6a0acea661eadfd42423d7
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '551'
 ht-degree: 5%
 
 ---
@@ -41,6 +41,10 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 * Ao usar uma multiplicação (`*`), ambos os campos de operação devem ter o mesmo tipo, inteiro ou decimal. Exemplo:
    * o exemplo a seguir está correto: `3.0 * 4.0`
    * `3 * 4.0` levará a um erro
+
+* Ao usar o operador `+`, a expressão precisa ser encapsulada entre parênteses. Exemplo:
+   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` está correto
+   * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))` levará a um erro
 
 ## Lógico  {#logical}
 
