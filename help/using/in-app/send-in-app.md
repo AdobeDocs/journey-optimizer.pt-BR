@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 13%
+source-wordcount: '406'
+ht-degree: 12%
 
 ---
 
@@ -45,6 +45,10 @@ Para fazer isso, clique em **[!UICONTROL Simular conteúdo]** e adicione um perf
 Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na seção [Gerenciamento de conteúdo](../content-management/preview-test.md).
 
 ## Revisar e ativar a notificação no aplicativo{#in-app-review}
+
+>[!IMPORTANT]
+>
+>A partir da versão de setembro, uma nova experiência de ativação de campanha e jornada permitirá gerenciar todo o processo de aprovação, garantindo que campanhas e jornadas sejam totalmente revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas. Esse recurso está disponível em Disponibilidade limitada. [Saiba mais](../test-approve/gs-approval.md)
 
 Depois que a mensagem no aplicativo for criada e o conteúdo definido e personalizado, você poderá revisá-la e ativá-la.
 

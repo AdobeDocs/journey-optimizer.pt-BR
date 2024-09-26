@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornadas, limitação
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 47%
+ht-degree: 45%
 
 ---
 
@@ -32,7 +32,7 @@ Estas são as limitações relacionadas ao uso de jornadas do.
 * Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação de público-alvo**.
 * Uma jornada que começa com uma atividade **Qualificação de público-alvo** em v1 deve sempre começar com uma **Qualificação de público-alvo** em outras versões.
 * O público-alvo e o namespace escolhidos em **Qualificação de Público-Alvo** (primeiro nó) não podem ser alterados em novas versões.
-* A regra de reentrada precisa ser a mesma em todas as versões da jornada.
+* A regra de reentrada deve ser a mesma em todas as versões do jornada.
 * Uma jornada que começa com um **Público-alvo de leitura** não pode começar com outro evento nas próximas versões.
 
 ## Limitações de ações personalizadas {#custom-actions-limitations}

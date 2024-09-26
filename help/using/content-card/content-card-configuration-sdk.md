@@ -5,21 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="Disponibilidade limitada" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 3%
+source-wordcount: '485'
+ht-degree: 1%
 
 ---
 
 # Configurar o suporte a cartões de conteúdo no SDK da Web {#content-card-configuration-sdk}
-
->[!AVAILABILITY]
->
->Atualmente, os cartões de conteúdo estão disponíveis apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
 
 Este exemplo mostra como recuperar Cartões de conteúdo do Adobe Journey Optimizer (AJO) usando o Adobe Experience Platform. Com o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home), o conteúdo de personalização é obtido e renderizado totalmente no lado do cliente.
 

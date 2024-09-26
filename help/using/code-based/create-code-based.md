@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1127'
 ht-degree: 9%
 
 ---
@@ -113,6 +113,10 @@ Para exibir uma pré-visualização de sua experiência baseada em código modif
     When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
 
 ## Ativar a campanha baseada em código {#activate-code-based-campaign}
+
+>[!IMPORTANT]
+>
+>A partir da versão de setembro, uma nova experiência de ativação de campanha e jornada permitirá gerenciar todo o processo de aprovação, garantindo que campanhas e jornadas sejam totalmente revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas. Esse recurso está disponível em Disponibilidade limitada. [Saiba mais](../test-approve/gs-approval.md)
 
 Depois de definir sua campanha baseada em código e editar seu conteúdo conforme desejado usando o [editor baseado em código](#edit-code), você pode revisá-lo e ativá-lo. Siga as etapas abaixo.
 

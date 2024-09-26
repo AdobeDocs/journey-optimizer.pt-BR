@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, jornada, negócios, configuração
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 12%
@@ -52,7 +52,7 @@ Estas são algumas observações importantes que se aplicam quando vários event
 
 **Qual é o comportamento ao receber um evento comercial enquanto a jornada está sendo processada?**
 
-Os eventos comerciais seguem as regras de reentrada da mesma forma que para eventos unitários. Se uma jornada permitir a reentrada, o próximo evento comercial será processado.
+Os eventos comerciais seguem as regras de reentrada da mesma forma que os eventos unitários. Se uma jornada permitir a reentrada, o próximo evento comercial será processado.
 
 **Quais são as medidas de proteção para evitar sobrecarga de públicos materializados?**
 

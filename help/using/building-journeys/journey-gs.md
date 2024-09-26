@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, primeiro, iniciar, início rápido, público-alvo, evento, ação
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a7234350c0ca66d033bbbd77c1b14063147468cf
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 25%
@@ -60,7 +60,7 @@ Na seção de menu GERENCIAMENTO de JORNADAS, clique em **[!UICONTROL Jornadas]*
 * **Perfis processados**: número total de perfis processados nas últimas 24 horas
 * **Live jornada**: número total de jornadas ativas com tráfego nas últimas 24 horas. O Live jornada inclui **jornadas Unitárias** (baseadas em eventos) e **jornadas em Lote** (ler público).
 * **Taxa de erros**: taxa de todos os perfis com erro em comparação ao número total de perfis que entraram nas últimas 24 horas.
-* **Taxa de descarte**: taxa de todos os perfis descartados em comparação ao número total de perfis que entraram nas últimas 24 horas. Um perfil descartado representa alguém que não está qualificado para entrar na jornada, por exemplo, devido a um namespace incorreto ou a regras de reentrada.
+* **Taxa de descarte**: taxa de todos os perfis descartados em comparação ao número total de perfis que entraram nas últimas 24 horas. Um perfil descartado representa alguém que não está qualificado para entrar na jornada, por exemplo, devido a um namespace incorreto ou devido a regras de reentrada.
 
 >[!NOTE]
 >

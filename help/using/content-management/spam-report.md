@@ -4,12 +4,11 @@ description: Saiba como usar o relatório de spam por email.
 feature: Preview
 role: User
 level: Beginner
-badge: label="Beta"
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
+source-git-commit: 9d95c3cf5c7f9a0da98654795370f40e84611dc9
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 24%
+source-wordcount: '365'
+ht-degree: 17%
 
 ---
 
@@ -21,10 +20,6 @@ ht-degree: 24%
 >abstract="O relatório de spam permite verificar sua pontuação de spam no conteúdo de email. Essa pontuação indica se os ISPs ou provedores de caixa de correio consideram sua mensagem como spam ou não. Quanto menor a pontuação, melhor. Se a pontuação do conteúdo de email for superior a 2, considere corrigir os problemas que estão causando a falha dos testes."
 
 Você pode verificar sua pontuação de spam no conteúdo de e-mail em um relatório dedicado de spam. Usando o [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, a Adobe Journey Optimizer pode testar seu conteúdo de email e atribuir a ele uma pontuação para indicar se os provedores de ISPs ou de Caixa de Correio o considerarão como spam ou não.
-
->[!AVAILABILITY]
->
->No momento, esse recurso está na versão beta, disponível apenas para clientes beta. Para participar do programa beta, entre em contato com o Atendimento ao cliente da Adobe.
 
 Ao editar ou visualizar seu conteúdo de email, o botão **[!UICONTROL Relatório de spam]** fornece pontuação e aviso para melhorar as pontuações de cada item individual listado.
 
@@ -49,6 +44,11 @@ Para acessar o **[!UICONTROL Relatório de spam]**, siga as etapas abaixo.
 1. Verifique as pontuações e descrições de cada item.
 
    Quanto menor a pontuação, melhor. Se a pontuação for superior a 5, um aviso será exibido: indica que algumas mensagens podem ser bloqueadas ou marcadas como spam quando recebidas. A prática recomendada é ter uma pontuação inferior a 2.
+
+   >[!NOTE]
+   >
+   >A pontuação de spam é derivada pelo [SpamAssassin](https://spamassassin.apache.org/){target="_blank"} e as regras não são de propriedade do Adobe. Para obter mais detalhes sobre essas regras, consulte a documentação do SpamAssassin.
+   >
 
 1. Com base nessa pontuação, se você considerar que alguns elementos podem ser melhorados, edite o conteúdo no [Designer de email](../email/content-from-scratch.md) e faça as atualizações necessárias.
 

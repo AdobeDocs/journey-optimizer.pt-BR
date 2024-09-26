@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 27%
+source-wordcount: '980'
+ht-degree: 25%
 
 ---
 
@@ -128,3 +128,9 @@ Para fazer isso, clique no botão **[!UICONTROL Mais ações]** ao lado do fragm
 Para desarquivar um fragmento, filtre os itens **[!UICONTROL Arquivados]** e selecione **[!UICONTROL Desarquivar]** no menu **[!UICONTROL Mais ações]**. Agora ele pode ser acessado novamente na lista de fragmentos e pode ser usado em qualquer email ou modelo.
 
 ![](assets/fragment-list-unarchive.png)
+
+## Exportar fragmentos para outra sandbox {#export}
+
+O Journey Optimizer permite copiar um fragmento de uma sandbox para outra. Por exemplo, você pode copiar um fragmento do ambiente de sandbox do Stage para a sandbox de produção.
+
+O processo de cópia é realizado por meio de uma **exportação e importação de pacotes** entre as sandboxes de origem e destino. Informações detalhadas sobre como exportar objetos e importá-los para uma sandbox de destino estão disponíveis nesta seção: [Copiar objetos para outra sandbox](../configuration/copy-objects-to-sandbox.md)

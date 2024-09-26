@@ -10,10 +10,10 @@ level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 22%
+source-wordcount: '1661'
+ht-degree: 21%
 
 ---
 
@@ -225,6 +225,10 @@ Depois de definir o projeto de Tradução e as configurações de Idioma, você 
    ![](assets/multilingual-campaign-automated-7.png)
 
 1. Verifique se a campanha está configurada corretamente e clique em **[!UICONTROL Ativar]**.
+
+   >[!IMPORTANT]
+   >
+   >A partir da versão de setembro, uma nova experiência de ativação de campanha e jornada permitirá gerenciar todo o processo de aprovação, garantindo que campanhas e jornadas sejam totalmente revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas. Esse recurso está disponível em Disponibilidade limitada. [Saiba mais](../test-approve/gs-approval.md)
 
 Agora você pode ativar sua campanha ou jornada. Depois de enviado, você pode medir o impacto da sua jornada ou campanha multilíngue nos relatórios.
 

@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: b86a459681cda66596e0658b9f703185821aceea
+source-git-commit: 9f990d2b311237e49c3b93201cd7e9c2b02facef
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1566'
 ht-degree: 21%
 
 ---
@@ -149,7 +149,7 @@ A autenticação TLS mútuo (mTLS) é compatível com ações personalizadas. N�
 
 Você pode definir o parâmetro de carga útil conforme detalhado abaixo:
 
-1. Na seção **[!UICONTROL Solicitação]**, cole um exemplo da carga JSON para enviar ao serviço externo. Esse campo é opcional e só está disponível para métodos de chamada POST e PUT.
+1. Na seção **[!UICONTROL Solicitação]**, cole um exemplo da carga JSON para enviar ao serviço externo. Esse campo é opcional e só está disponível para métodos de chamada POST e PUT. <!--DOCAC-10562 - Enable the **[!UICONTROL Allow NULL values]** option to keep Null values in the external call. Note that sending arrays of int, string, etc. with Null values within is not fully supported. For example the following array of integers [1, null, 2, 3] is sent as [1, 2, 3] even if this option is checked.-->
 
 1. Na seção **[!UICONTROL Resposta]**, cole um exemplo da carga retornada pela chamada. Este campo é opcional e está disponível para todos os métodos de chamada. Para obter informações detalhadas sobre como aproveitar as respostas de chamada da API em ações personalizadas, consulte [esta página](../action/action-response.md).
 
@@ -157,7 +157,8 @@ Você pode definir o parâmetro de carga útil conforme detalhado abaixo:
 
 >[!NOTE]
 >
->O exemplo de carga útil não pode conter valores nulos. Os nomes de campos na carga não podem conter &quot;.&quot; caractere. Eles não podem começar com um caractere &quot;$&quot;.
+>Os nomes de campos na carga não podem conter &quot;.&quot; caractere. Eles não podem começar com um caractere &quot;$&quot;.
+>
 
 ![](assets/customactionpayloadmessage2.png)
 
@@ -171,3 +172,9 @@ Na configuração do campo, você deve:
 
    * **Variável** significa que o valor do parâmetro varia. Os profissionais de marketing que usam essa ação personalizada em uma jornada podem passar o valor desejado ou especificar onde recuperar o valor desse parâmetro (por exemplo, do evento, do Adobe Experience Platform etc.). Nesse caso, o campo à direita da constante/variável de alternância é o rótulo que os comerciantes verão na jornada para nomear esse parâmetro.
 
+<!--DOCAC-10562 - For optional parameters, enable the **[!UICONTROL Is optional]** option at the end of the line. By checking this option, you mark the parameter as non-mandatory, and let the journey practitioners choose to fill it or not when authoring that custom action in a journey.-->
+
+>[!NOTE]
+>
+>Se você configurar parâmetros opcionais enquanto permite valores Nulos, os parâmetros não preenchidos por um profissional do jornada serão enviados como Nulos.
+>

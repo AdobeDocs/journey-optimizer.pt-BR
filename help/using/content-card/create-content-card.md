@@ -4,34 +4,14 @@ description: Saiba como criar cartões de conteúdo e editar seu conteúdo no Jo
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Disponibilidade limitada" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 11%
+source-wordcount: '919'
+ht-degree: 10%
 
 ---
 
 # Criar cartões de conteúdo {#create-content-card}
-
->[!BEGINSHADEBOX]
-
-**Índice**
-
-* [Introdução a cartões de conteúdo](get-started-content-card.md)
-* [Pré-requisitos dos cartões de conteúdo](content-card-configuration-prereq.md)
-* [Configurar canal de cartões de conteúdo no Journey Optimizer](content-card-configuration.md)
-* **Criar cartões de conteúdo**
-* [Criar cartões de conteúdo](design-content-card.md)
-* [Relatório de cartões de conteúdo](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Atualmente, os cartões de conteúdo estão disponíveis apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
 
 >[!BEGINTABS]
 

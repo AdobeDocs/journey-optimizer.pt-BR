@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '791'
 ht-degree: 18%
 
 ---
@@ -82,6 +82,10 @@ Você também pode abri-lo no navegador padrão ou copiar o URL de teste para co
 Informações detalhadas sobre como selecionar perfis de teste e pré-visualizar seu conteúdo estão disponíveis na seção [Gerenciamento de conteúdo](../content-management/preview-test.md).
 
 ## Ativar a campanha da Web {#activate-web-campaign}
+
+>[!IMPORTANT]
+>
+>A partir da versão de setembro, uma nova experiência de ativação de campanha e jornada permitirá gerenciar todo o processo de aprovação, garantindo que campanhas e jornadas sejam totalmente revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas. Esse recurso está disponível em Disponibilidade limitada. [Saiba mais](../test-approve/gs-approval.md)
 
 Depois de definir suas [configurações da campanha da Web](#configure-web-campaign) e editar seu conteúdo conforme desejado usando o [web designer](edit-web-content.md#work-with-web-designer), você poderá revisar e ativar sua campanha da Web. Siga as etapas abaixo.
 

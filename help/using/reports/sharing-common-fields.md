@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 0bf1636f527aeefe8ce54ee97389fe8658e716f0
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -218,5 +218,17 @@ Tipo: sequência de caracteres
 ## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 se a instância tiver sido acionada a partir de uma instância de lote, ID de ramificação unitária.
+
+Tipo: sequência de caracteres
+
+## exitCriteriaID
+
+ID do exitCriteria
+
+Tipo: sequência de caracteres
+
+## exitCriteriaName
+
+Nome do exitCriteria
 
 Tipo: sequência de caracteres

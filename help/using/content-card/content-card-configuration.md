@@ -5,30 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="Disponibilidade limitada" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 46%
+source-wordcount: '595'
+ht-degree: 47%
 
 ---
 
 # Configurar cartões de Conteúdo {#content-card-configuration}
-
->[!BEGINSHADEBOX]
-
-**Índice**
-
-* [Introdução a cartões de conteúdo](get-started-content-card.md)
-* [Pré-requisitos dos cartões de conteúdo](content-card-configuration-prereq.md)
-* **Configurar canal de cartões de conteúdo**
-* [Criar cartões de conteúdo](create-content-card.md)
-* [Criar cartões de conteúdo](design-content-card.md)
-* [Relatório de cartões de conteúdo](content-card-report.md)
-
->[!ENDSHADEBOX]
 
 ## O que é uma configuração? {#surface-definition}
 

@@ -10,9 +10,9 @@ level: Beginner
 keywords: introdução, iniciar, conteúdo, experimento
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '661'
 ht-degree: 6%
 
 ---
@@ -33,7 +33,7 @@ Siga estas etapas para criar conteúdo multilíngue usando tradução manual:
 
 1. [Criar um conteúdo multilíngue](#create-a-multilingual-campaign).
 
-## Criar localidade {#create-locale}
+## Criar código de idioma {#create-locale}
 
 Ao definir as configurações de idioma, conforme descrito na seção [Criar configurações de idioma](#language-settings), se uma localidade específica não estiver disponível para o seu conteúdo multilíngue, você terá a flexibilidade de criar quantas novas localidades forem necessárias usando o menu **[!UICONTROL Tradução]**.
 
@@ -139,6 +139,10 @@ Depois de configurar seu conteúdo multilíngue, você está pronto para criar a
    ![](assets/multilingual-campaign-8.png)
 
 Agora você pode ativar sua campanha ou jornada. Depois de enviado, você pode medir o impacto da sua jornada ou campanha multilíngue nos relatórios.
+
+>[!IMPORTANT]
+>
+>A partir da versão de setembro, uma nova experiência de ativação de campanha e jornada permitirá gerenciar todo o processo de aprovação, garantindo que campanhas e jornadas sejam totalmente revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas. Esse recurso está disponível em Disponibilidade limitada. [Saiba mais](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

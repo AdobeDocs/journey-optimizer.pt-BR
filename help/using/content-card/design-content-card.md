@@ -4,34 +4,14 @@ description: Saiba como criar conteúdo de cartões de conteúdo
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Disponibilidade limitada" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 4%
+source-wordcount: '511'
+ht-degree: 2%
 
 ---
 
 # Criar conteúdo de cartões de conteúdo {#design-content-card}
-
->[!BEGINSHADEBOX]
-
-**Índice**
-
-* [Introdução a cartões de conteúdo](get-started-content-card.md)
-* [Pré-requisitos dos cartões de conteúdo](content-card-configuration-prereq.md)
-* [Configurar canal de cartões de conteúdo no Journey Optimizer](content-card-configuration.md)
-* [Criar cartões de conteúdo](create-content-card.md)
-* **Criar cartões de conteúdo**
-* [Relatório de cartões de conteúdo](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Atualmente, os cartões de conteúdo estão disponíveis apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
 
 A construção de criação para Cartões fornece uma experiência de criação baseada em formulário que fornece aos profissionais de marketing entradas básicas que podem ser usadas para serem renderizadas pelo desenvolvedor.
 

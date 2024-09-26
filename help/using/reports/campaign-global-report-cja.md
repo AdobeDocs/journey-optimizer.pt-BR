@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '4252'
+source-wordcount: '4623'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,7 @@ A página **Relatório de campanha** será exibida com as seguintes guias, depen
 * [Notificações por push](#push-notification)
 * [Correspondência direta](#direct-mail)
 * [Web](#web)
+* [Cartão de conteúdo](#content-card)
 
 Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
@@ -784,5 +785,73 @@ A tabela **[!UICONTROL URLs de link rastreado]** fornece uma visão geral abrang
 * **[!UICONTROL Exibições]**: número de vezes que a mensagem foi aberta.
 
 * **[!UICONTROL Exibições exclusivas]**: número de vezes que a mensagem foi aberta; várias interações de um perfil não são consideradas.
+
++++
+
+## Cartão de conteúdo {#content-card}
+
+### Exibir tendência de &amp; cliques {#display-click}
+
+![](assets/content-card-report-1.png)
+
+Os gráficos de **[!UICONTROL Tendência de exibição e clique]** ajudam você a entender o alcance geral da mensagem e o número de perfis únicos envolvidos.
+
++++ Saiba mais sobre Métricas de exibição e clique
+
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado no cartão de Conteúdo.
+
+* **[!UICONTROL Exibições]**: número de vezes que a mensagem foi aberta.
+
+* **[!UICONTROL Exibições exclusivas]**: número de vezes que a mensagem foi aberta; várias interações de um perfil não são consideradas.
+
++++
+
+### Dados de rastreamento {#tracking-data}
+
+![](assets/content-card-report-2.png)
+
+A tabela **[!UICONTROL Dados de rastreamento]** oferece um instantâneo detalhado da atividade do perfil vinculada aos seus cartões de Conteúdo, fornecendo insights essenciais sobre engajamento e eficácia do cartão de Conteúdo.
+
++++ Saiba mais sobre Rastreamento de métricas de dados
+
+* **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para seus cartões de Conteúdo.
+
+* **[!UICONTROL Taxa de cliques (CTR)]**: porcentagem de usuários que interagiram com o cartão de Conteúdo.
+
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seu cartão de Conteúdo.
+
+* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo no seu cartão de Conteúdo.
+
+* **[!UICONTROL Exibições]**: número de vezes que a mensagem foi aberta.
+
+* **[!UICONTROL Exibições exclusivas]**: número de vezes que a mensagem foi aberta; várias interações de um perfil não são consideradas.
+
++++
+
+### Etiquetas rastreadas {#tracked-labels}
+
+A tabela **[!UICONTROL Rótulos rastreados]** oferece uma visão geral abrangente dos rótulos de links em seus cartões de Conteúdo, destacando aqueles que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
+
++++ Saiba mais sobre Métricas de rótulos rastreados
+
+* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em seus cartões de Conteúdo.
+
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus cartões de Conteúdo.
+
+* **[!UICONTROL Exibições]**: número de vezes que a mensagem foi aberta.
+
+* **[!UICONTROL Exibições exclusivas]**: número de vezes que a mensagem foi aberta; várias interações de um perfil não são consideradas.
+
++++
+
+### URLs do link rastreado {#tracked-link-url}
+
+A tabela **[!UICONTROL URLs de links rastreados]** fornece uma visão geral abrangente das URLs em seus cartões de Conteúdo que atraem o maior tráfego de visitantes. Isso permite identificar e priorizar os links mais populares, melhorando sua compreensão do envolvimento do perfil com conteúdo específico em seus cartões de Conteúdo.
+
++++ Saiba mais sobre métricas de URLs de link rastreado
+
+* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em seus cartões de Conteúdo.
+
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus cartões de Conteúdo.
 
 +++

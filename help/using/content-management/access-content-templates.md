@@ -6,13 +6,13 @@ description: Saiba como acessar e gerenciar modelos de conteúdo
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 7%
+source-wordcount: '317'
+ht-degree: 5%
 
 ---
-
 
 # Acessar e gerenciar modelos de conteúdo {#access-manage-templates}
 
@@ -63,3 +63,9 @@ Selecione o modo de **[!UICONTROL exibição de grade]** para exibir cada modelo
 >Atualmente, as miniaturas adequadas só podem ser geradas para modelos de conteúdo de email do tipo HTML.
 
 Ao atualizar um conteúdo, talvez seja necessário aguardar alguns segundos antes que as alterações sejam refletidas na miniatura.
+
+## Exportar modelos de conteúdo para outra sandbox {#export}
+
+O Journey Optimizer permite copiar um modelo de conteúdo de uma sandbox para outra. Por exemplo, você pode copiar um modelo do seu ambiente de sandbox de Preparo para a sua sandbox de Produção.
+
+O processo de cópia é realizado por meio de uma **exportação e importação de pacotes** entre as sandboxes de origem e destino. Informações detalhadas sobre como exportar objetos e importá-los para uma sandbox de destino estão disponíveis nesta seção: [Copiar objetos para outra sandbox](../configuration/copy-objects-to-sandbox.md)

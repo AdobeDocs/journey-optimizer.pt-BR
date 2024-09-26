@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 7%
+source-wordcount: '400'
+ht-degree: 6%
 
 ---
 
@@ -49,6 +49,10 @@ Você deve verificar os alertas na seção superior do editor. Alguns deles são
 > Para melhorar a capacidade de delivery, você sempre deve usar os números de telefone nos formatos compatíveis com o provedor. Por exemplo, o Twilio e o Sinch suportam apenas números de telefone no formato E.164.
 
 ## Enviar a notificação por push{#push-send}
+
+>[!IMPORTANT]
+>
+>A partir da versão de setembro, uma nova experiência de ativação de campanha e jornada permitirá gerenciar todo o processo de aprovação, garantindo que campanhas e jornadas sejam totalmente revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas. Esse recurso está disponível em Disponibilidade limitada. [Saiba mais](../test-approve/gs-approval.md)
 
 Quando a mensagem de push estiver pronta, conclua a configuração da [jornada](../building-journeys/journey-gs.md) ou da [campanha](../campaigns/create-campaign.md) para enviá-la.
 

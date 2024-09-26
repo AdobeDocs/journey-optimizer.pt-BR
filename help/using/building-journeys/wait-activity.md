@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: aguardar, atividade, jornada, próximo, tela
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 18%
@@ -43,9 +43,9 @@ Ao usar várias atividades **Wait** em uma jornada, esteja ciente de que o [temp
 
 Um indivíduo só poderá inserir uma atividade **Aguardar** se tiver tempo suficiente na jornada para concluir a duração da espera antes do tempo limite de jornada de 91 dias.
 
-### Aguardar e reentrar {#wait-re-entrance}
+### Espera e reentrada {#wait-reentrance}
 
-Uma prática recomendada é não usar atividades de **Aguardar** para bloquear a reentrada. Em vez disso, use a opção **Permitir reentrada** no nível de propriedades da jornada. Saiba mais [nesta página](../building-journeys/journey-properties.md#entrance).
+Uma prática recomendada para não usar as atividades **Aguardar** para bloquear a reentrada. Em vez disso, use a opção **Permitir reentrada** no nível de propriedades da jornada. Saiba mais [nesta página](../building-journeys/journey-properties.md#entrance).
 
 ### Modo de espera e teste {#wait-test-modd}
 

@@ -5,40 +5,21 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="Disponibilidade limitada" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 7%
+source-wordcount: '265'
+ht-degree: 4%
 
 ---
 
 # Pré-requisitos dos cartões de conteúdo {#content-card-configuration-prereq}
 
->[!BEGINSHADEBOX]
-
-**Índice**
-
-* [Introdução a cartões de conteúdo](get-started-content-card.md)
-* **Pré-requisitos de cartões de conteúdo**
-* [Configurar canal de cartões de conteúdo no Journey Optimizer](content-card-configuration.md)
-* [Criar cartões de conteúdo](create-content-card.md)
-* [Criar cartões de conteúdo](design-content-card.md)
-* [Relatório de cartões de conteúdo](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Atualmente, os cartões de conteúdo estão disponíveis apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
-
 Para que o Adobe Journey Optimizer exiba corretamente os cartões de conteúdo, você deve definir as seguintes configurações do Adobe Experience Platform:
 
 * **Coleta de dados do Adobe Experience Platform**
 
-  [Criar uma sequência de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) e [adicionar o serviço Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep). Habilite as opções de **[!UICONTROL Segmentação do Edge]** e **[!UICONTROL Adobe Journey Optimizer]**. Isso garante que os eventos do Journey Optimizer sejam manipulados pelo Edge Network Adobe Experience Platform. Consulte a [documentação de sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) para obter mais informações sobre como configurar uma sequência de dados.
+  [Criar uma sequência de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) e [adicionar o serviço Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep). Habilite as opções de **[!UICONTROL Segmentação do Edge]** e **[!UICONTROL Adobe Journey Optimizer]**. Isso garante que os eventos do Journey Optimizer sejam manipulados pelo Edge Network Adobe Experience Platform.
+Adicione o grupo de campos **Evento de experiência - Interação de apresentação** ao conjunto de dados para incluir esses dados em seus relatórios. [Saiba mais sobre sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * **Adobe Experience Platform**
 

@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: e411810196c591727fb1049826dc761e3807ed03
+source-git-commit: e19cd0c301b1f2a8f47ca4c9f9882d36fd560dbe
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 4%
@@ -50,9 +50,14 @@ Esta seção o guiará sobre como dimensionar com as duas limitações a seguir:
 
 * À medida que você publica jornadas, o Journey Optimizer é dimensionado e ajustado automaticamente para garantir o máximo de rendimento e estabilidade. Ao se aproximar do marco de 100 jornadas ativas de uma vez em uma sandbox, você verá uma sobreposição laranja e um sinal de aviso aparecer na interface nesta conquista. Se vir esta notificação e precisar aumentar o número de jornadas para acima de 100 jornadas ativas por vez, crie um tíquete para o Atendimento ao cliente e ajudaremos a atingir suas metas.
 
+<!--DOCAC-10977
+
+* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+
+
 Você pode adotar várias práticas recomendadas que o ajudarão a permanecer nas medidas de proteção e usar o sistema com eficiência.
 
-* Se você estiver se aproximando do limite de jornadas ativas, a primeira etapa a ser realizada é ir para a guia **Visão geral** em **Jornadas** para ver quantas jornadas estavam ativas nas últimas 24 horas (jornadas que tinham perfis ativos). Você pode verificar o número de perfis que entram e saem da jornada nesta seção para determinar isso.
+* Se você estiver se aproximando do limite de jornadas ativas, a primeira etapa a ser realizada é ir para a guia **Visão geral** em **Jornadas** para ver quantas jornada jornadas estavam ativas nas últimas 24 horas que tinham perfis ativos. Você pode verificar o número de perfis que entram e saem da jornada nesta seção para determinar isso.
 
   ![](assets/journey-guardrails2.png)
 

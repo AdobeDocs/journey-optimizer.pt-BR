@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: 778ef71a531346774c5e10e296dbf1112fed891d
+source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
-# Caso de uso: usar ações personalizadas para gravar eventos de Jornada no Experience Platform{#custom-action-aep}
+# Caso de uso: usar ações personalizadas para gravar eventos de Jornada no Experience Platform {#custom-action-aep}
 
 Este caso de uso explica como gravar eventos personalizados no Adobe Experience Platform a partir do Jornada usando Ações personalizadas e Chamadas autenticadas.
 
-## Configurar um projeto de E/S
+## Configurar um projeto de E/S {#custom-action-aep-IO}
 
 1. Na Adobe Developer Console, clique em **Projeto** e abra seu projeto IO.
 
@@ -94,7 +94,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 }
 ```
 
-## Configurar a ação personalizada
+## Configurar a ação personalizada {#custom-action-config}
+
+A configuração de ação personalizada está detalhada em [esta página](../action/about-custom-action-configuration.md).
+
+Para este exemplo, siga estas etapas:
 
 1. Abra o Adobe Journey Optimizer e clique em **Configurações**, em **Administração** no menu esquerdo. Em **Ações**, clique em **Gerenciar** e em **Criar Ação**.
 
@@ -106,7 +110,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-7bis.png)
 
-### Configurar a autenticação
+### Configurar a autenticação {#custom-action-aep-authentication}
 
 1. Selecione o **Tipo** como **Personalizado** com a seguinte carga.
 
@@ -140,7 +144,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-8.png)
 
-### Configurar o conteúdo
+### Configurar o conteúdo {#custom-action-aep-payload}
 
 1. Nos campos **Solicitação** e **Resposta**, cole a carga da conexão de origem usada anteriormente.
 
@@ -167,7 +171,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. Altere a Configuração de Campo de **Constante** para **Variável** para campos que serão preenchidos dinamicamente. Salve a ação personalizada.
+1. Altere a Configuração de Campo de **Constante** para **Variável** para campos que serão preenchidos dinamicamente.
+
+1. Salve a ação personalizada.
 
 ## Jornada
 
