@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -36,7 +36,7 @@ Acesse as seguintes seções para saber mais sobre cada tópico:
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="Confirmar o URL para editar"
->abstract="Confirme o URL da página da Web específica a ser usada para editar o conteúdo que será aplicado na configuração da Web definida acima. A página da Web deve ser implementada usando o SDK da Web da Adobe Experience Platform."
+>abstract="Confirme o URL da página da web específica a ser usada para editar o conteúdo que será aplicado na configuração da web definida acima. A página da Web deve ser implementada usando o SDK da Web da Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR" text="Saiba mais"
 
 >[!CONTEXTUALHELP]
@@ -152,7 +152,7 @@ Esta seção detalha as diferentes maneiras de navegar pelo web designer. Para e
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="Usar o modo de navegação"
->abstract="Nesse modo, você pode navegar para a página exata da configuração selecionada que deseja personalizar."
+>abstract="Nesse modo, é possível navegar até a página exata da configuração selecionada que deseja personalizar."
 
 Você pode alternar do modo padrão **[!UICONTROL Design]** para o modo **[!UICONTROL Procurar]** usando o botão dedicado.
 

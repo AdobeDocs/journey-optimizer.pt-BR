@@ -9,7 +9,7 @@ exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
 source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_page_rule"
 >title="Regra de correspondência de páginas"
->abstract="Para gerenciar e direcionar com eficiência um grupo de URLs que compartilham os mesmos critérios, crie uma regra de Correspondência de páginas. Essa regra permite consolidar vários URLs em uma única diretriz, simplificando a aplicação de configurações e ações consistentes nessas páginas."
+>abstract="Para gerenciar e direcionar com eficiência um grupo de URLs que compartilham os mesmos critérios, crie uma regra de correspondência de páginas. Essa regra permite consolidar vários URLs em uma única diretriz, simplificando a aplicação de configurações e ações consistentes nessas páginas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"
 >title="URL padrão de criação e visualização"
->abstract="Esse campo garante que as páginas geradas ou correspondidas pela regra tenham um URL designado, essencial para a criação e a visualização eficaz do conteúdo."
+>abstract="Este campo garante que as páginas geradas ou encontradas pela regra tenham um URL designado, o que é essencial para criar e visualizar conteúdo com eficiência."
 
 Uma configuração da Web é uma propriedade da Web identificada por um URL em que o conteúdo será entregue. Ele pode corresponder a um único URL de página ou a várias páginas, permitindo que você faça modificações em uma ou várias páginas da Web.
 

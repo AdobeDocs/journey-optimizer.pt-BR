@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '747'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -27,8 +27,8 @@ O [!DNL Journey Optimizer] permite personalizar a experiência da Web fornecida 
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="Definir uma configuração da Web"
->abstract="Uma configuração da Web pode corresponder a um único URL de página ou a várias páginas, permitindo que você forneça modificações de conteúdo em uma ou várias páginas da Web."
+>title="Definir uma configuração da web"
+>abstract="Uma configuração da web pode corresponder a um URL de página única ou várias páginas, permitindo que você faça modificações no conteúdo em uma ou várias páginas da web."
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"

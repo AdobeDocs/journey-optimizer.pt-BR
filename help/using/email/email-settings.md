@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '2530'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -43,7 +43,7 @@ A configuração de email é selecionada para enviar comunicações seguindo a l
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definir o tipo de email"
->abstract="Selecione o tipo de emails que será enviado ao usar essa configuração: Marketing para emails promocionais, que exigem consentimento do usuário, ou Transacional para emails não comerciais, que também podem ser enviados a perfis com assinatura cancelada em contextos específicos."
+>abstract="Selecione o tipo de email que será enviado ao usar essa configuração: “Marketing” para emails promocionais que exigem consentimento do usuário ou “Transacional” para emails não comerciais que também podem ser enviados para perfis sem assinatura em contextos específicos."
 
 Na seção **Tipo de email**, selecione o tipo de mensagem para a configuração: **[!UICONTROL Marketing]** ou **[!UICONTROL Transacional]**.
 

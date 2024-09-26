@@ -9,43 +9,43 @@ exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '1125'
-ht-degree: 33%
+ht-degree: 50%
 
 ---
 
-# Configurar sua experiência baseada em código {#code-based-configuration}
+# Configurar a experiência baseada em código {#code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
 >title="ID do aplicativo"
->abstract="Forneça a ID do aplicativo para identificação e configuração precisas no ambiente operacional do aplicativo, garantindo integração e funcionalidade perfeitas."
+>abstract="Forneça a ID do aplicativo para obter precisão no processo de identificação e configuração dentro do ambiente operacional do aplicativo, garantindo integração e funcionalidade perfeitas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
 >title="Local na página"
->abstract="O local ou caminho dentro do campo do aplicativo especifica o destino exato dentro do aplicativo que você deseja que os usuários acessem. Pode ser uma seção ou página específica na profundidade da estrutura de navegação do aplicativo."
+>abstract="O local ou caminho dentro do campo do aplicativo especifica o destino exato dentro do aplicativo que você deseja que os usuários acessem. Ele pode ser uma seção ou página específica dentro da estrutura de navegação do aplicativo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
 >title="URI de superfície"
->abstract="Um URI de superfície serve como um identificador preciso que direciona para elementos ou componentes distintos da interface do usuário em um aplicativo."
+>abstract="Um URI de superfície serve como um identificador preciso que direciona para elementos ou componentes distintos da interface de um aplicativo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
 >title="URL padrão de criação e visualização"
->abstract="Esse campo garante que as páginas geradas ou correspondidas pela regra tenham um URL designado, essencial para a criação e a visualização eficaz do conteúdo."
+>abstract="Este campo garante que as páginas geradas ou encontradas pela regra tenham um URL designado, o que é essencial para criar e visualizar conteúdo com eficiência."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_web_url"
 >title="URL padrão de criação e visualização"
->abstract="Esse campo garante que as páginas geradas ou correspondidas pela regra tenham um URL designado, essencial para a criação e a visualização eficaz do conteúdo."
+>abstract="Este campo garante que as páginas geradas ou encontradas pela regra tenham um URL designado, o que é essencial para criar e visualizar conteúdo com eficiência."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
 >title="Visualizar URL"
->abstract="Esse campo é essencial para habilitar a simulação e a pré-visualização do conteúdo diretamente no dispositivo no aplicativo."
+>abstract="Esse campo é essencial para habilitar a simulação e a visualização do conteúdo diretamente no dispositivo do aplicativo."
 
-## Criar uma configuração de canal {#reatte-code-based-configuration}
+## Criar uma configuração de canais {#reatte-code-based-configuration}
 
 Para criar uma configuração de canal, siga estas etapas:
 

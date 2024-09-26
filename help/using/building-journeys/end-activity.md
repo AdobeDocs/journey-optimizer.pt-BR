@@ -20,7 +20,7 @@ ht-degree: 57%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_end"
->title="Atividade “Fim”"
+>title="Terminar atividade"
 >abstract="A atividade “Fim” permite marcar o fim de cada caminho da jornada. Não é obrigatório, mas recomendado para clareza visual. Na verdade, se a jornada tiver várias atividades finais, recomendamos adicionar um rótulo a cada “Fim” para facilitar a leitura dos relatórios."
 
 A atividade **[!UICONTROL End]** permite marcar o final de cada caminho da jornada. Não é obrigatório, mas recomendado para clareza visual. Na verdade, se a jornada tiver várias atividades end, recomendamos adicionar um rótulo a cada end para facilitar a leitura dos relatórios. Consulte [esta página](../reports/live-report.md).

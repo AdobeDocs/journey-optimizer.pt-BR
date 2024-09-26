@@ -10,7 +10,7 @@ exl-id: 0d541520-016e-468f-b011-808712847556
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="Definição da categoria da mensagem"
->abstract="Selecione o tipo de mensagem de texto usando essa configuração: Marketing para mensagens promocionais, que exigem consentimento do usuário, ou Transacional para mensagens não comerciais, como redefinição de senha."
+>abstract="Selecione o tipo de mensagens de texto que usam esta configuração: “Marketing” para mensagens promocionais que exigem consentimento do usuário ou “Transacional” para mensagens não comerciais, como uma redefinição de senha."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=pt-BR#sms-opt-out-management" text="Recusar mensagens de texto de marketing"
 
 Depois que o canal SMS/MMS for configurado, você deverá criar uma configuração de canal para enviar mensagens SMS e MMS do **[!DNL Journey Optimizer]**.

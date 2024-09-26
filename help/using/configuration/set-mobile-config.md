@@ -12,7 +12,7 @@ exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 14%
+ht-degree: 20%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="Nome da configuração móvel e da web"
->abstract="Insira o nome da sua configuração móvel ou da Web. Esse nome será usado para cada recurso criado automaticamente com a Configuração de canal guiada."
+>abstract="Insira o nome da sua configuração móvel ou da Web. Esse nome será usado para cada recurso criado automaticamente na configuração de canal guiada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Validar com garantia"
->abstract="O Adobe Experience Platform Assurance está incorporado a este fluxo de trabalho para ajudá-lo a inspecionar a implementação do SDK, bem como simular e validar eventos de aplicativo."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Visão geral do Adobe Experience Platform Assurance"
+>abstract="O Adobe Experience Platform Assurance está incorporado a este fluxo de trabalho para ajudar você a inspecionar a implementação do SDK, bem como simular e validar eventos de aplicativo."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/home" text="Visão geral do Adobe Experience Platform Assurance"
 
 Essa definição facilita a configuração rápida de canais de marketing, garantindo que todos os recursos necessários estejam prontamente disponíveis na Experience Platform, Journey Optimizer e Coleção de dados. Isso permite que sua equipe de marketing comece com a criação de campanhas e jornadas.
 

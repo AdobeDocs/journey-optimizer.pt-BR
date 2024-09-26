@@ -10,7 +10,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -35,7 +35,7 @@ As políticas de decisão contêm toda a lógica de seleção, para que o mecani
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="Defina o número de itens a serem retornados"
->abstract="Selecione o número de itens de decisão que deseja que sejam retornados. Por exemplo, se você selecionar 2, as 2 melhores ofertas qualificadas serão apresentadas para a configuração atual."
+>abstract="Selecione o número de itens de decisão que deseja que sejam retornados. Por exemplo, se você selecionar 2, as duas melhores ofertas elegíveis serão apresentadas para a configuração atual."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"

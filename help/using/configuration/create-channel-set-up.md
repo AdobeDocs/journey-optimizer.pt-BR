@@ -8,10 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: canal, superfície, técnico, parâmetros, otimizador
-source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
+exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
+source-git-commit: 24a178839e29dccffde683a958ccc74da4180a73
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 3%
+ht-degree: 47%
 
 ---
 
@@ -20,37 +21,37 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Código Javascript"
->abstract="A tag head contém metadados e recursos essenciais que são carregados antes do conteúdo principal da sua página da Web. Colocar o código nesta seção garante que ele seja inicializado e executado corretamente antecipadamente, permitindo que sua página da Web seja carregada e funcione com eficiência. Ao adicionar código à seção de cabeçalho, você ajuda a aprimorar a estrutura, o desempenho e a experiência geral do usuário do site."
+>abstract="A tag do cabeçalho contém metadados e recursos essenciais que são carregados antes do conteúdo principal da sua página da web. Colocar o código nesta seção garante que ele seja inicializado corretamente e executado antecipadamente, permitindo que sua página da web carregue e funcione com eficiência. Ao adicionar código à seção de cabeçalho, você ajuda a aprimorar a estrutura, o desempenho e a experiência geral do usuário do site."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
 >title="Recuperar o token do dispositivo"
->abstract="Para garantir que o token de push do dispositivo seja sincronizado corretamente com o perfil do Adobe Experience Platform, é necessário incorporar o código a seguir no aplicativo. Essa integração é essencial para manter recursos de comunicação atualizados e garantir uma experiência perfeita para o usuário."
+>abstract="Para garantir que o token de push do dispositivo sincronize corretamente com o perfil da Adobe Experience Platform, é necessário incorporar o seguinte código ao aplicativo. Essa integração é essencial para manter os recursos de comunicação atualizados e garantir uma experiência de usuário perfeita."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
 >title="Iniciar o aplicativo a partir do Xcode"
->abstract="Para obter o token de push, primeiro inicie o aplicativo usando o Xcode. Depois que o aplicativo for iniciado, reinicie-o para garantir que o processo de validação seja concluído. O Adobe fornecerá seu token de push como parte dos resultados da validação. Esse token é essencial para ativar as notificações por push e será exibido assim que a configuração for validada com êxito."
+>abstract="Para obter o token de push, primeiro inicie o aplicativo usando o Xcode. Após iniciar o aplicativo, reinicie-o para garantir a conclusão do processo de validação. A Adobe fornecerá seu token de push como parte dos resultados da validação. Esse token é essencial para habilitar as notificações por push e será exibido assim que a configuração for validada com êxito."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
 >title="Fornecer um certificado de push"
->abstract="Arraste e solte seu arquivo de chave privada .json. Esse arquivo contém informações de autenticação necessárias para uma integração segura e comunicação entre o aplicativo e o servidor."
+>abstract="Arraste e solte seu arquivo de chave privada .json. Esse arquivo contém informações de autenticação necessárias para uma integração e comunicação seguras entre o aplicativo e o servidor."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
 >title="Fornecer um certificado de push"
->abstract="O arquivo de chave .p8 contém uma chave privada usada para autenticar seu aplicativo nos servidores da Apple para notificações por push seguras. Você pode adquirir essa chave na página Certificados, Identificadores e Perfis em sua conta de desenvolvedor."
+>abstract="O arquivo de chave .p8 contém uma chave privada usada para autenticar o aplicativo com os servidores da Apple e garantir a segurança das notificações por push. Você pode adquirir essa chave na página Certificados, identificadores e perfis em sua conta de desenvolvedor."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_key_id"
 >title="ID da chave"
->abstract="A ID da chave, uma cadeia de 10 caracteres atribuída durante a criação da chave de autenticação p8, pode ser encontrada na guia **Chaves** da página Certificados, Identificadores e Perfis da sua conta de desenvolvedor."
+>abstract="A ID da chave, uma string de 10 caracteres atribuída durante a criação da chave de autenticação p8, pode ser encontrada na guia **Chaves** da página Certificados, identificadores e perfis da sua conta de desenvolvedor."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
 >title="ID da equipe"
->abstract="A ID da equipe, um valor de sequência de caracteres usado para identificar sua equipe, pode estar localizada na guia **Associação** da sua conta de desenvolvedor."
+>abstract="A ID da equipe, um valor de string usado para identificar sua equipe, pode ser encontrada na guia **Assinatura** da sua conta de desenvolvedor."
 
 
 Essa configuração simplifica a configuração rápida de canais de marketing, disponibilizando prontamente todos os recursos essenciais nos aplicativos Experience Platform, Journey Optimizer e Coleção de dados. Isso permite que sua equipe de marketing comece rapidamente a criar campanhas e jornadas.
@@ -104,4 +105,3 @@ Depois de criar sua configuração, você pode facilmente revisitá-la a qualque
    ![](assets/guided-setup-config-ios-11.png){zoomable="yes"}
 
 1. Agora você pode atualizar sua configuração conforme necessário.
-

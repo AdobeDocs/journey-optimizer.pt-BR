@@ -13,7 +13,7 @@ badge: label="Disponibilidade limitada" type="Informative"
 source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
 workflow-type: tm+mt
 source-wordcount: '1617'
-ht-degree: 3%
+ht-degree: 22%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"
 >title="Adicionar provedor"
->abstract="Adicione provedores de tradução e códigos de idiomas, conforme necessário. Isso permite gerenciar quais provedores e localidades estão ativos para o seu projeto, proporcionando a flexibilidade para ajustar recursos e direcionar públicos com base nos requisitos e no escopo do projeto atuais."
+>abstract="Adicione provedores de tradução e códigos de idiomas conforme necessário. Isso permite gerenciar quais provedores e códigos de idioma estão ativos no projeto, proporcionando a flexibilidade para ajustar recursos e públicos-alvo com base nos requisitos e no escopo atuais do projeto."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_provider"
 >title="Editar provedor"
->abstract="Modifique os provedores de tradução existentes e adicione códigos de idiomas conforme necessário. Essa funcionalidade permite controlar quais provedores e localidades estão ativos para o seu projeto, oferecendo a flexibilidade de ajustar recursos e direcionar públicos-alvo específicos de acordo com suas necessidades e metas atuais do projeto."
+>abstract="Modifique os provedores de tradução existentes e adicione códigos de idiomas conforme necessário. Essa funcionalidade permite controlar quais provedores e códigos de idioma estão ativos no projeto, oferecendo a flexibilidade de ajustar recursos e públicos-alvo específicos de acordo com as necessidades e metas atuais do projeto."
 
 >[!AVAILABILITY]
 >
@@ -47,12 +47,12 @@ Siga estas etapas para criar conteúdo multilíngue usando a tradução automát
 
 1. [Revise sua tarefa de tradução (opcional)](#review-translation-project).
 
-## Criar localidade {#create-locale}
+## Criar código de idioma {#create-locale}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_locale"
->title="Adicionar localidade"
->abstract="Ao configurar suas preferências de idioma, você tem a opção de criar locais adicionais se o desejado não estiver disponível para o seu conteúdo multilíngue."
+>title="Adicionar código de idioma"
+>abstract="Ao configurar suas preferências de idioma, você tem a opção de criar outros códigos de idioma se o desejado não estiver disponível para o seu conteúdo multilíngue."
 
 Ao definir as configurações de idioma, conforme descrito na seção [Criar configurações de idioma](#language-settings), se uma localidade específica não estiver disponível para o seu conteúdo multilíngue, você terá a flexibilidade de criar quantas novas localidades forem necessárias usando o menu **[!UICONTROL Tradução]**.
 
@@ -73,12 +73,12 @@ Ao definir as configurações de idioma, conforme descrito na seção [Criar con
 >[!CONTEXTUALHELP]
 >id="ajo_multi_create_project"
 >title="Criar projeto"
->abstract="Para começar a criar conteúdo multilíngue, inicie o projeto de tradução identificando o local de destino, selecionando o idioma ou dialeto regional apropriado para o público-alvo. Depois disso, escolha um provedor de tradução que se alinhe às necessidades do seu projeto."
+>abstract="Para começar a criar conteúdo multilíngue, inicie o projeto de tradução, identifique o código do idioma de destino e selecione o idioma ou dialeto regional apropriado para o público-alvo. Depois disso, escolha um provedor de tradução que se alinhe às necessidades do seu projeto."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_project"
->title="Editar Projeto"
->abstract="Atualize seu projeto de tradução para incorporar locais adicionais, permitindo expandir seu conteúdo para alcançar um público maior."
+>title="Editar projeto"
+>abstract="Atualize seu projeto de tradução para incorporar códigos de idioma adicionais, permitindo expandir o conteúdo para alcançar um público-alvo maior."
 
 Inicie o projeto de tradução especificando o Local de destino, indicando o idioma ou a região específica para o conteúdo. Em seguida, você pode escolher seu Provedor de tradução.
 
@@ -228,12 +228,12 @@ Depois de definir o projeto de Tradução e as configurações de Idioma, você 
 
 Agora você pode ativar sua campanha ou jornada. Depois de enviado, você pode medir o impacto da sua jornada ou campanha multilíngue nos relatórios.
 
-## Gerenciar projeto de tradução de Insourcing {#manage-ht-project}
+## Gerenciar projeto de tradução interno {#manage-ht-project}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_insourcing_project"
->title="Insourcing de projeto de tradução"
->abstract="O projeto de tradução de terceirização permite gerenciar e executar traduções diretamente no seu projeto de tradução, simplificando o processo e mantendo maior controle sobre a qualidade e a consistência da tradução."
+>title="Projeto de tradução interno"
+>abstract="O projeto de tradução interno permite gerenciar e executar traduções diretamente do projeto de tradução, simplificando o processo e garantindo maior controle sobre a qualidade e a consistência da tradução."
 
 Se você selecionou Insourcing ao definir as configurações de idioma, é possível traduzir o conteúdo diretamente no projeto de tradução.
 
@@ -256,12 +256,12 @@ Se você selecionou Insourcing ao definir as configurações de idioma, é poss�
 >[!CONTEXTUALHELP]
 >id="ajo_multi_review_project"
 >title="Revisar o projeto de tradução"
->abstract="Depois que o provedor de tradução escolhido concluir a tradução, você poderá revisar os resultados diretamente no Journey Optimizer. Isso permite avaliar a precisão e a qualidade da tradução, garantindo que ela se alinhe às suas expectativas e aos requisitos do projeto antes de finalizá-la."
+>abstract="Depois que o provedor escolhido concluir a tradução, é possível revisar os resultados diretamente no Journey Optimizer. Isso permite avaliar a precisão e a qualidade da tradução, garantindo que ela se alinhe às suas expectativas e aos requisitos do projeto antes de finalizá-la."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_preview_project"
->title="Visualizar seu projeto de tradução"
->abstract="A janela Visualizar permite visualizar como o conteúdo traduzido aparece em cada idioma. Esse recurso ajuda a examinar a renderização e garantir que o conteúdo seja exibido corretamente e efetivamente em todos os idiomas selecionados."
+>title="Visualizar o projeto de tradução"
+>abstract="A janela Visualizar permite ver como o conteúdo traduzido aparece em cada idioma. Esse recurso ajuda a examinar a renderização e garantir que o conteúdo seja exibido de forma correta e efetiva em todos os idiomas selecionados."
 
 Se você selecionou **[!UICONTROL Habilitar fluxo de trabalho de revisão]** em seu **[!UICONTROL projeto de Tradução]**, será possível revisar a tradução diretamente no Journey Optimizer após a conclusão pelo provedor de Tradução selecionado.
 

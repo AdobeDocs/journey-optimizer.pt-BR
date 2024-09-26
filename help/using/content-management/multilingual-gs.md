@@ -13,7 +13,7 @@ badge: label="Disponibilidade limitada" type="Informative"
 source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 11%
+ht-degree: 21%
 
 ---
 
@@ -45,7 +45,7 @@ Com o Journey Optimizer, você tem a possibilidade de criar conteúdo multilíng
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"
 >title="Erro de tradução"
->abstract="Caso não seja possível acessar a página Tradução, é provável que o recurso Tradução não esteja ativado. Para resolver esse problema, será necessário garantir que o recurso Tradução seja ativado pelo administrador da organização e da sandbox."
+>abstract="Caso não seja possível acessar a página Tradução, é provável que o recurso Tradução não esteja habilitado. Para resolver esse problema, verifique se o recurso Tradução foi ativado pelo(a) admin da organização e da sandbox."
 
 Atualmente, o Adobe Journey Optimizer integra-se com provedores de tradução, que oferecem serviços de tradução de terceiros (tradução automática ou tradução humana) independentes do Adobe Journey Optimizer.
 

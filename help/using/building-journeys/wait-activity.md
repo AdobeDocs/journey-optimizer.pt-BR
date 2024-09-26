@@ -12,7 +12,7 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -114,6 +114,6 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node "
 >title="Sobre o nó de espera automático"
->abstract="Uma atividade **Wait** é adicionada automaticamente após esta atividade. Está definido para 3 dias. Você pode removê-lo ou configurá-lo conforme necessário."
+>abstract="Uma atividade de **Espera** é adicionada automaticamente após esta atividade. Ela é definida para 3 dias. É possível removê-la ou configurá-la conforme necessário."
 
 Cada atividade de mensagem de entrada (mensagem no aplicativo, experiência baseada em código ou Cartão) vem com uma atividade **Wait** de 3 dias. Como as mensagens de entrada terminam automaticamente quando um perfil atinge o final da jornada, pressupomos que você deseje que seus usuários a vejam pelo menos por 3 dias. Você pode remover esta atividade **Aguardar** ou alterar sua configuração, se necessário.
