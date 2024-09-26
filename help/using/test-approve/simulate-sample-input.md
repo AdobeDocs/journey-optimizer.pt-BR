@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Teste o conteúdo usando dados de entrada de exemplo
-description: Saiba como pré-visualizar conteúdo de email e enviar provas usando entradas de amostra.
+description: Saiba como pré-visualizar conteúdo de email e enviar provas usando dados de entrada de amostra.
 feature: Overview, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 13221645a22524deadc5576624bf6c31633c55c5
+source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -44,15 +44,12 @@ As principais etapas para testar seu conteúdo são as seguintes:
 
 ## Medidas de proteção e limitações {#limitations}
 
-Antes de começar a testar seu conteúdo usando dados de entrada de amostra, considere as seguintes medidas de proteção e pré-requisitos.
+Antes de começar a testar seu conteúdo usando exemplos de dados de entrada, considere as seguintes medidas de proteção e pré-requisitos.
 
 * A partir de agora, o teste usando dados de entrada de amostra só está disponível para o canal de email. A experiência não pode ser acessada pelo botão &quot;Simular conteúdo&quot; no Designer de email.
 * Os seguintes recursos não estão disponíveis na experiência atual: renderização da caixa de entrada, relatórios de spam, conteúdo multilíngue e experimento de conteúdo. Para usar esses recursos, selecione o botão **[!UICONTROL Simular conteúdo]** no seu conteúdo para acessar a interface de usuário anterior.
 * Somente atributos de perfil são suportados no momento. Se atributos contextuais forem usados em seu conteúdo para personalização, você não poderá testar seu conteúdo usando esses atributos.
 * Somente os seguintes tipos de dados são suportados ao inserir dados para suas variantes: número (inteiro e decimal), string, booleano e tipo de data. Qualquer outro tipo de dados mostrará um erro.
-
-
-não de acrite
 
 ## Adicionar variantes {#profiles}
 
