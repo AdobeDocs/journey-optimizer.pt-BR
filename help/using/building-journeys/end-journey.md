@@ -6,9 +6,9 @@ description: Saiba como uma jornada termina no Journey Optimizer
 feature: Journeys
 role: User
 level: Intermediate
-keywords: inserir novamente, jornada, finalizar, ao vivo, parar
+keywords: inserir novamente, jornada, encerrar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
+source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 1%

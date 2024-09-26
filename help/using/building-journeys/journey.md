@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, descobrir, introdução
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -82,7 +82,7 @@ Quando você pesquisa uma jornada, as versões mais recentes são exibidas na pa
 
 >[!NOTE]
 >
->Geralmente, um perfil não pode estar presente várias vezes na mesma jornada ao mesmo tempo. Se a reentrada estiver habilitada, um perfil poderá ser inserido em uma jornada novamente, mas não poderá fazer isso até que tenha saído totalmente da instância anterior da jornada. [Leia mais](end-journey.md).
+>Geralmente, um perfil não pode estar presente várias vezes na mesma jornada ao mesmo tempo. Se a reentrada estiver ativada, um perfil poderá inserir uma jornada novamente, mas não poderá fazer isso até que ele tenha saído totalmente da instância anterior da jornada. [Leia mais](end-journey.md).
 
 Se precisar modificar uma jornada ativa, crie uma nova versão da jornada.
 
@@ -96,7 +96,7 @@ Se precisar modificar uma jornada ativa, crie uma nova versão da jornada.
 
 1. Faça as modificações, clique em **[!UICONTROL Publicar]** e confirme.
 
-A partir do momento em que a jornada for publicada, pessoas físicas começarão a acessar a versão mais recente da jornada. As pessoas que já acessaram uma versão anterior permanecerão nela até que concluam a jornada. Se mais tarde entrarem novamente na mesma jornada, elas acessarão a versão mais recente.
+A partir do momento em que a jornada for publicada, pessoas físicas começarão a acessar a versão mais recente da jornada. As pessoas que já acessaram uma versão anterior permanecerão nela até que concluam a jornada. Se posteriormente entrarem novamente na mesma jornada, eles entrarão na versão mais recente.
 
 As versões da jornada podem ser interrompidas individualmente. Todas as versões das jornadas possuem o mesmo nome.
 
