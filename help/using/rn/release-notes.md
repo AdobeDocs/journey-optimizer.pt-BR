@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
+source-git-commit: 1e4bff3e69cd70fd1f6e13cb582de4700bddd6d1
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 66%
@@ -223,7 +223,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 * **Cabeçalho da mensagem no email enviado e na cópia CCO** - Um novo cabeçalho foi adicionado a todas as mensagens de email. O valor desse cabeçalho é exclusivo para cada email enviado e sua cópia de email CCO correspondente. Esse cabeçalho também é armazenado nos conjuntos de dados de mensagem e feedback CCO, o que permite reconciliar a cópia CCO e as informações de email enviadas correspondentes. [Leia mais](../configuration/archiving-support.md#bcc-header)
 
-* **Pontuação de spam** (GA) - Agora você pode verificar sua pontuação de spam de conteúdo em um relatório de spam dedicado. Com o SpamAssassin, o Adobe Journey Optimizer testa seu conteúdo de email e atribui uma pontuação para indicar se os ISPs ou provedores de caixa de correio o consideram como spam ou não. [Leia mais](../content-management/spam-report.md)
+* **Pontuação de spam** (GA)- Agora você pode verificar sua pontuação de spam de conteúdo em um **Relatório de spam** dedicado. Com o SpamAssassin, o Adobe Journey Optimizer testa seu conteúdo de email e atribui uma pontuação para indicar se os ISPs ou provedores de caixa de correio o consideram como spam ou não. [Leia mais](../content-management/spam-report.md)
 
 **Canal SMS**
 
