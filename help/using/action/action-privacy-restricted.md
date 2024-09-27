@@ -11,7 +11,7 @@ keywords: dados, governança, DULE, rótulos, rotulagem, plataforma, política
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7384bcbba3e9793018628a66bb683c381d00e87a
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 30%
@@ -90,7 +90,7 @@ Antes de ativar a jornada ou campanha, o sistema verifica se a ação de marketi
 
 Se o sistema identificar um campo restrito, um erro será exibido, impedindo a publicação da jornada ou da campanha. [Saiba como detectar violação de política de governança](#violation)
 
-![](../privacy/assets/governance-policy-schema.png){zoomable="yes"}
+![](assets/governance-policy-schema.png){zoomable="yes"}
 
 *Etapas de análise de violação de política para jornadas e campanhas*
 
@@ -126,7 +126,7 @@ Vamos ver o exemplo do campo de tipo de sangue que você precisa restringir de s
 
 Se um dos campos rotulados _ePHI1_ (o campo de tipo sanguíneo no exemplo) for detectado nos parâmetros de ação, um erro será exibido, impedindo que você publique a jornada. [Saiba como detectar violação de política de governança](#violation)
 
-![](../privacy/assets/governance-policy-custom-action-schema.png){zoomable="yes"}
+![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
 
 *Etapas de análise de violação de política para ações personalizadas do jornada*
 
