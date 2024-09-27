@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 6adad3dfc9a0ec23c26be2027b0e1b3e2b757f6a
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 2%
+source-wordcount: '1136'
+ht-degree: 7%
 
 ---
 
@@ -27,11 +27,7 @@ Para acessar e criar páginas da Web na interface do usuário do [!DNL Journey O
 
 * Atualmente, em [!DNL Journey Optimizer], você só pode criar experiências da Web em **campanhas**. [Saiba mais](../campaigns/create-campaign.md#configure)
 
-* [!DNL Journey Optimizer] campanhas da Web têm como alvo novos perfis que nunca foram engajados em outros canais. Isso aumentará a contagem total de perfis utilizáveis, o que pode ter implicações de custo se o número contratual de perfis utilizáveis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do Produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
-
->[!AVAILABILITY]
->
->Por enquanto, o canal da Web não está disponível para organizações que compraram as ofertas complementares do Adobe **Healthcare Shield** e **Privacy and Security Shield**.
+* As campanhas da Web do [!DNL Journey Optimizer] direcionam novos perfis que não foram engajados anteriormente em outros canais. Isso aumentará a contagem total de perfis engajáveis, o que pode ter implicações de custo se o número contratual de perfis engajáveis que você adquiriu for excedido. As métricas de licença para cada pacote estão listadas na página [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ## Pré-requisitos de implementação {#implementation-prerequisites}
 

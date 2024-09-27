@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
+source-git-commit: 6adad3dfc9a0ec23c26be2027b0e1b3e2b757f6a
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '125'
 ht-degree: 100%
 
 ---
@@ -19,11 +19,6 @@ ht-degree: 100%
 As mensagens no aplicativo são notificações que podem ser enviadas aos usuários dentro do aplicativo, guiando-os para pontos de interesse específicos. Essas notificações podem ser usadas para diferentes propósitos, como a promoção de novos recursos, a apresentação de ofertas especiais ou a facilitação da integração de usuários. Ao utilizar as mensagens no aplicativo, você pode interagir com seu público-alvo de forma eficaz e direcioná-lo para aspectos importantes de seu aplicativo.
 
 Use o Journey Optimizer para criar notificações no aplicativo e configurar as opções de experiência, incluindo o layout e a exibição de mensagem, texto e as opções de botão.
-
->[!AVAILABILITY]
->
->O canal No aplicativo não está disponível para organizações que compraram as ofertas complementares Adobe **Healthcare Shield** e **Privacy and Security Shield**.
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
