@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, capacidade de entrega
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: d880d38784c2687f9710e6733c1489601e6760ba
+source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 71%
+source-wordcount: '246'
+ht-degree: 73%
 
 ---
 
@@ -22,15 +22,11 @@ Com o [!DNL Journey Optimizer], você pode executar facilmente fluxos de trabalh
 
 Para evitar a marcação como spam, é possível aumentar progressivamente o volume enviado usando o recurso plano de aquecimento de IP. Essa nova opção no menu **[!UICONTROL Administração]** permite fazer isso de forma mais fácil e consolidada, em vez de criar jornadas diárias complexas.
 
-<!--➡️ [Learn how to create and execute an IP warmup plan in this video](#video)-->
+➡️ [Saiba como criar e executar um plano de aquecimento de IP neste vídeo](#video)
 
 >[!AVAILABILITY]
 >
 >Esse recurso só pode ser habilitado em sandboxes do tipo produção.
->
->Ela não está disponível para organizações que compraram as ofertas complementares do Adobe **Healthcare Shield** ou do **Privacy and Security Shield**.
-
-
 
 <!--
 Benefits

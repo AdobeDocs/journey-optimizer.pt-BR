@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
+source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 50%
+source-wordcount: '1103'
+ht-degree: 49%
 
 ---
 
@@ -243,3 +243,7 @@ Esta versão vem com as melhorias listadas abaixo.
   >[!CAUTION]
   >
   >Observe que ao usar a funcionalidade de API interativa nas páginas de documentação, você está fazendo chamadas de API reais para os endpoints. Lembre-se disso ao testar sandboxes de produção.
+
+**Configuração**
+
+* Planos de aquecimento de IP - Esse recurso agora está disponível para todos os clientes, incluindo organizações que compraram as ofertas complementares do Adobe **Healthcare Shield** ou **Privacy and Security Shield**. [Saiba mais](../configuration/ip-warmup-gs.md)
