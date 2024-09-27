@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: 02c4b61f22591a99824eb727aaccfd0cbe1facfc
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '484'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,10 @@ Após o carregamento inicial, a página exibe seu estado padrão. No entanto, se
 
 ## Execução da amostra {#run-sample}
 
-Pré-requisito: você precisa instalar o nó e o npm. [Consulte esta documentação](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+>[!PREREQUISITES]
+>
+>Você precisa instalar o nó e o npm. [Consulte esta documentação](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
 
 1. Configurar certificados SSL locais para HTTPS. Esses exemplos exigem certificados SSL assinados localmente para veicular conteúdo em HTTPS:
 
