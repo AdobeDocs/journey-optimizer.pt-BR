@@ -5,10 +5,10 @@ description: Saiba como usar o Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
+source-git-commit: 9688a0303726d706106ba7c89157529e02ecbfca
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 83%
+source-wordcount: '390'
+ht-degree: 84%
 
 ---
 
@@ -22,7 +22,7 @@ Dê uma olhada nos últimos aprimoramentos da documentação e do produto do Jou
 
 >[!TAB Versão de setembro]
 
-A versão de setembro está disponível, incluindo Cartões de conteúdo para aplicativos e sites móveis, Políticas de aprovação em jornadas e campanhas (DL), Critérios de saída globais no jornada e muito mais/
+A versão de setembro está disponível, incluindo Cartões de conteúdo para aplicativos e sites móveis, Políticas de aprovação em jornadas e campanhas (DL), Critérios de saída globais em jornadas e muito mais.
 
 [![saiba mais](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -32,7 +32,7 @@ A versão de setembro está disponível, incluindo Cartões de conteúdo para ap
 
 [![saiba mais](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB Relatório com Customer Journey Analytics]
+>[!TAB Relatórios com o CJA]
 
 Os relatórios do Journey Optimizer vêm com interoperabilidade aprimorada com os recursos do Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e a confiabilidade dos dados.
 
