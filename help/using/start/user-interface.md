@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 90%
+source-wordcount: '1504'
+ht-degree: 93%
 
 ---
 
@@ -273,13 +273,6 @@ Para alterar o idioma:
 >id="ajo_email_locking_read_only"
 >title="Somente leitura"
 >abstract="Este conteúdo é de somente leitura e não pode ser modificado."
-
-<!--GOVERNANCE POLICIES-->
-
->[!CONTEXTUALHELP]
->id="ajo_data_governance_policy_violation"
->title="Violação da política de governança de dados"
->abstract="Se o sistema identificar um campo restrito em uma jornada/campanha ou uma ação personalizada, um erro será exibido, impedindo que você o publique. Use o diagrama de linhagem de dados nesta caixa de diálogo para entender quais outras alterações de configuração precisam ser feitas antes de você poder ativar sua jornada ou campanha."
 
 <!--APPROVAL POLICIES-->
 
