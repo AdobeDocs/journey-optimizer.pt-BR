@@ -13,7 +13,7 @@ badge: label="Disponibilidade limitada" type="Informative"
 source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 21%
+ht-degree: 28%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"
 >title="Traduções"
->abstract="O recurso multilíngue permite criar conteúdo facilmente em vários idiomas em uma única campanha ou jornada. Na página Traduções, é possível configurar projetos, selecionar provedores de tradução ou gerenciar dicionários específicos do local"
+>abstract="O recurso multilíngue permite que você crie facilmente conteúdo em vários idiomas em uma única campanha ou jornada. Na página Traduções, é possível configurar projetos, selecionar provedores de tradução ou gerenciar dicionários específicos do idioma"
 
 >[!AVAILABILITY]
 >

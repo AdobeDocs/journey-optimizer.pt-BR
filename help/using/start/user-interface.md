@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -206,7 +206,7 @@ Para alterar o idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="Aplicar conjunto de regras a jornadas"
->abstract="Aplique um conjunto de regras para excluir essa jornada a parte do público-alvo com base nas regras de limite de frequência."
+>abstract="Aplique um conjunto de regras para excluir essa jornada para parte do seu público-alvo com base em regras de limite de frequência."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -216,7 +216,7 @@ Para alterar o idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="Priorização antecipada"
->abstract=" Se uma jornada de prioridade mais alta for agendada dentro do período de tempo especificado aqui, o cliente será impedido de inserir essa jornada. Para situações em que você deseja que as jornadas sejam inseridas em uma base de primeiro a chegar, primeiro a ser servido, sugerimos escolher o período Diário de visão antecipada e garantir que a pontuação de prioridade de qualquer outra jornada nesse dia seja menor que a pontuação de prioridade da jornada. Fornecer uma pontuação de prioridade 100 a uma jornada também garantirá que ela seja inserida em."
+>abstract=" Se uma jornada de prioridade mais alta for agendada dentro do período especificado aqui, o cliente não poderá entrar nessa jornada. Para situações em que você deseja que as jornadas sejam inseridas por ordem de chegada, sugerimos escolher o período de previsão Diário e garantir que a pontuação de prioridade de qualquer outra jornada nesse dia seja menor que a pontuação de prioridade da jornada. Fornecer uma pontuação de prioridade 100 a uma jornada também garantirá que ela seja inserida."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"

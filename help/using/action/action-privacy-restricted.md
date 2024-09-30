@@ -14,7 +14,7 @@ badgePrivateBeta: label="Private Beta" type="Informative"
 source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 30%
+ht-degree: 33%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="Violação da política de governança de dados"
->abstract="Se o sistema identificar um campo restrito em uma jornada/campanha ou uma ação personalizada, um erro será exibido, impedindo que você o publique. Use o diagrama de linhagem de dados nesta caixa de diálogo para entender quais outras alterações de configuração precisam ser feitas antes de você poder ativar sua jornada ou campanha."
+>abstract="Se o sistema identificar um campo restrito em uma jornada/campanha ou uma ação personalizada, um erro será exibido, impedindo que você a publique. Use o diagrama de linhagem de dados nesta caixa de diálogo para entender quais outras alterações de configuração precisam ser feitas antes de você poder ativar sua jornada ou campanha."
 
 >[!AVAILABILITY]
 >
