@@ -7,9 +7,9 @@ level: Beginner
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: 0322a13304875c4ba9ae8a9e7710fa2e71e459b3
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '970'
 ht-degree: 26%
 
 ---
@@ -53,7 +53,7 @@ O Journey Optimizer permite verificar sempre que há uma possibilidade de sobrep
 
    >[!NOTE]
    >
-   >O botão **[!UICONTROL Exibir conflitos potenciais]** ficará disponível para seleção assim que você atribuir qualquer uma das seguintes configurações: **[!UICONTROL Data de início/término]**, **[!UICONTROL Público-alvo]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuração de canal]** e **[!UICONTROL Conjunto de regras]**.
+   >O botão **[!UICONTROL Exibir conflitos potenciais]** ficará disponível para seleção assim que você atribuir qualquer uma das seguintes configurações: **[!UICONTROL Data de início/término]**, **[!UICONTROL Público-alvo]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuração de canal]** e **[!UICONTROL Conjunto de regras]**. Selecione **[!UICONTROL Salvar]** depois de atribuir essas configurações, pois o botão não poderá ser selecionado até que as alterações sejam salvas.
 
 1. A janela **[!UICONTROL Conflitos potenciais]** é aberta, permitindo visualizar todos os elementos que estão sobrepondo a jornada/campanha atual.
 
@@ -91,7 +91,7 @@ O Journey Optimizer permite atribuir uma pontuação de prioridade a uma jornada
 
 >[!NOTE]
 >
->A pontuação de prioridade está disponível para canais de entrada: canais da Web, no aplicativo e baseados em código. No jornada, a pontuação de prioridade está disponível somente para o canal **no aplicativo**.
+>A pontuação de prioridade está disponível para canais de entrada: canais da Web, no aplicativo e baseados em código. No jornada, a pontuação de prioridade está disponível somente para os canais **no aplicativo** e **baseados em código**.
 
 Atribuir uma pontuação de prioridade é fundamental para a comunicação de entrada, como Web, Dispositivo móvel e No aplicativo. Se você tiver várias campanhas usando a mesma configuração de canal (por exemplo, um banner na parte superior da página da Web), isso pode ser problemático, pois somente o conteúdo de uma campanha pode ser exibido. A pontuação de prioridade é onde você insere sua preferência para qual campanha deve ser exibida quando o recipient pode se qualificar para mais de uma campanha.
 
@@ -99,4 +99,4 @@ Para atribuir uma pontuação de prioridade a uma jornada ou campanha, insira um
 
 ![](assets/priority-score.png)
 
-Para situações em que duas campanhas têm a mesma pontuação de prioridade, a campanha ativada mais recentemente é exibida.
+Para situações em que duas campanhas têm a mesma pontuação de prioridade, a campanha ativada menos recentemente é mostrada.
