@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introdução ao Assistente de IA no Journey Optimizer Content Accelerator
-description: Saiba como acessar e trabalhar com o Assistente de IA no Journey Optimizer Content Accelerator
+title: Introdução ao Assistente de IA no Acelerador de conteúdo do Journey Optimizer
+description: Saiba como acessar e trabalhar com o Assistente de IA no Acelerador de conteúdo do Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '884'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Introdução ao acelerador de conteúdo do Assistente de IA {#gs-content-assistant}
+# Introdução ao Acelerador de conteúdo do Assistente de IA {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
@@ -35,7 +35,7 @@ ht-degree: 94%
 
 >[!INFO]
 >
->Mergulhe em uma experiência prática com [nossa visualização de recursos](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"} ao vivo, projetada para permitir que você explore seus recursos em primeira mão e entenda totalmente suas capacidades.
+>Mergulhe em uma experiência prática com a [nossa prévia de recursos](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, projetada para ajudar a conhecer os recursos em primeira mão e entender totalmente suas funcionalidades.
 
 
 O Assistente de IA do Adobe Journey Optimizer para aceleração de conteúdo, viabilizado pela Microsoft Azure OpenAI e pelo Adobe Firefly, traz sugestões proativas de variação de conteúdo para textos e imagens. Ele está disponível para canais de email, push e SMS. Esse novo recurso fornece uma geração de texto e de imagens baseada em prompt. A geração de imagens é gerenciada pelo Adobe Firefly.
