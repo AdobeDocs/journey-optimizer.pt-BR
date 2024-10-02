@@ -81,11 +81,11 @@ Se você mudou recentemente para outro provedor de serviços de email, endereço
 
 ## Implementar DMARC {#dmarc}
 
-Para ajudar você a reduzir o risco de emails legítimos serem marcados como spam ou rejeitados e evitar problemas de entrega, o [!DNL Journey Optimizer] permite configurar um registro DMARC para todos os subdomínios que você delega ao Adobe.
+Para ajudar você a reduzir o risco de emails legítimos serem marcados como spam ou rejeitados e evitar problemas de entrega, o [!DNL Journey Optimizer] permite configurar o registro de DMARC para todos os subdomínios que você delega ao Adobe.
 
-O DMARC (Domain-based Message Authentication, Reporting, and Conformance) é um método de autenticação de email que permite que os proprietários de domínios protejam seus domínios contra o uso não autorizado por agentes mal-intencionados.
+O DMARC (Domain-based Message Authentication, Reporting, and Conformance) é um método de autenticação de email que permite aos proprietários de domínios proteger seus domínios contra o uso não autorizado por agentes mal-intencionados.
 
-[Saiba mais sobre o registro DMARC](../configuration/dmarc-record.md)
+[Saiba mais sobre o registro do DMARC](../configuration/dmarc-record.md)
 
 ## Saiba mais sobre loops de comentários {#feedback-loops}
 

@@ -241,7 +241,7 @@ A partir da versão de junho de 2024 do Adobe Journey Optimizer, o tempo limite 
   </tr>
 </table>
 
-## Políticas de mesclagem {#merge-policies}
+## Mesclar políticas {#merge-policies}
 
 O Jornada usa políticas de mesclagem ao recuperar dados de perfil do Adobe Experience Platform. Dependendo do tipo de jornada, são usadas diferentes políticas de mesclagem:
 

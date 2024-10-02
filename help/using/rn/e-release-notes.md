@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 41%
+ht-degree: 42%
 
 ---
 
@@ -116,7 +116,7 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Acelerador de conteúdo do assistente de IA </strong><br/></th>
+<th><strong>Acelerador de conteúdo do Assistente de IA </strong><br/></th>
 </tr>
 </thead>
 <tbody>

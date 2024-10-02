@@ -48,7 +48,7 @@ O objetivo aqui é ver se os recipients interagirão com o email dependendo do e
 
    >[!AVAILABILITY]
    >
-   >No momento, a experimentação no Jornada está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
+   >No momento, a experimentação no Jornada está disponível apenas para um conjunto de organizações (disponibilidade limitada). Para obter acesso, entre em contato com seu representante da Adobe.
 
 1. Na janela **[!UICONTROL Editar conteúdo]**, comece a personalizar o tratamento A.
 

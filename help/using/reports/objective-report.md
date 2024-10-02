@@ -44,7 +44,7 @@ O widget **[!UICONTROL Estatísticas]** da campanha detalha as principais inform
 
 >[!AVAILABILITY]
 >
->O recurso **Relatório de objetivos** está disponível no momento apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o seu representante da Adobe.
+>O recurso **Relatório de objetivos** está disponível no momento apenas para um conjunto de organizações (Disponibilidade limitada). Para obter mais informações, entre em contato com o(a) representante da Adobe.
 
 ![](assets/performance_report.gif)
 

@@ -157,7 +157,7 @@ Para configurar um subdomínio usando CNAMEs, siga as etapas abaixo:
 
    ![](assets/subdomain-create-dns-confirm.png)
 
-1. Configure o registro DMARC. Se o subdomínio tiver um registro DMARC existente, e se for buscado por [!DNL Journey Optimizer], você poderá usar os mesmos valores ou alterá-los conforme necessário. Se você não adicionar nenhum valor, os valores padrão serão usados. [Saiba mais](dmarc-record.md)
+1. Configure o registro do DMARC. Se o subdomínio tiver um registro DMARC existente, e se for buscado por [!DNL Journey Optimizer], você poderá usar os mesmos valores ou alterá-los conforme necessário. Se você não adicionar nenhum valor, os valores padrão serão usados. [Saiba mais](dmarc-record.md)
 
    ![](assets/dmarc-record-found.png)
 

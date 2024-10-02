@@ -11,7 +11,7 @@ exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
 source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -35,7 +35,7 @@ Para salvar o conteúdo do Designer de email como fragmento, siga estas etapas:
 
    >[!CAUTION]
    >
-   >Você só pode selecionar seções adjacentes entre si. Não é possível selecionar uma estrutura vazia ou outro fragmento.
+   >Você só pode selecionar seções adjacentes umas às outras. Não é possível selecionar uma estrutura vazia ou outro fragmento.
 
 1. Clique em **[!UICONTROL Criar]** e preencha o nome e a descrição do fragmento (se necessário).
 

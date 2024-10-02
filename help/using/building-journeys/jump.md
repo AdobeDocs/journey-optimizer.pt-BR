@@ -20,7 +20,7 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"
->title="Atividade saltar"
+>title="Atividade Salto"
 >abstract="A ação “Saltar” permite enviar pessoas de uma jornada para outra. Esse recurso permite simplificar o design de jornadas muito complexas e criar jornadas com base em padrões de jornadas comuns e reutilizáveis."
 
 A atividade de ação **[!UICONTROL Pular]** permite enviar indivíduos de uma jornada para outra. Esse recurso permite:
