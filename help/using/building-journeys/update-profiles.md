@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: perfil, atualização, jornada, atividade
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 3639a1b23ce259d0a8af5f4e801f8c54eb6b3b3c
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '628'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
 
 Use a atividade de ação **[!UICONTROL Atualizar Perfil]** para atualizar um perfil do Adobe Experience Platform existente com informações provenientes de um evento, uma fonte de dados ou com um valor específico.
 
-## Recomendações
+## Principais conceitos {#key-concepts}
 
 * A ação **Atualizar Perfil** só pode ser usada em jornadas que tenham um namespace.
 * A ação atualiza apenas os campos existentes, não cria novos campos de perfil.
@@ -34,11 +34,12 @@ Use a atividade de ação **[!UICONTROL Atualizar Perfil]** para atualizar um pe
 * A solicitação de atualização enviada para o Adobe Experience Platform é imediata/em um segundo. Normalmente, levará alguns segundos, mas às vezes mais, sem garantia. Como resultado, por exemplo, se uma ação estiver usando o &quot;campo 1&quot; atualizado por uma ação **Atualizar perfil** posicionada logo antes, você não deve esperar que o &quot;campo 1&quot; seja atualizado na ação.
 * A atividade **Atualizar perfil** não oferece suporte a campos XDM definidos como uma enumeração.
 * A atividade **[!UICONTROL Atualizar perfil]** atualiza somente o [Repositório de Perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, não o Data Lake.
-* Ao selecionar um conjunto de dados na atividade **[!UICONTROL Atualizar perfil]**, recomenda-se usar um não direcionado pelos fluxos de assimilação de dados. Como as atualizações do **Perfil de atualização** são armazenadas somente no [Armazenamento de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, há o risco de substituir essas alterações por um fluxo de assimilação de dados.
 
-  Além disso, a configuração da atividade **Atualizar Perfil** não requer um namespace de identidade. Dessa forma, verifique se o conjunto de dados selecionado usa o mesmo namespace de identidade que foi usado pela ação que iniciou a jornada, pois é esse namespace que essas atualizações usarão. O mapa de identidade também pode ser usado pelo conjunto de dados selecionado. Falha ao selecionar um conjunto de dados com o namespace correto ou um que usa o mapa de identidade causará a falha da atividade **Atualizar Perfil**.
+## Seleção do conjunto de dados {#dataset-selection}
 
+A atividade **Atualizar Perfil** requer um conjunto de dados dedicado para armazenar atualizações. Como esta atividade atualiza apenas o repositório de Perfis (não o Datalake), todas as atualizações devem ser salvas em um conjunto de dados habilitado para perfil designado especificamente para as ações **Atualizar Perfil**. Usar um conjunto de dados usado para assimilação em lote ou por streaming resultará na substituição dos dados recém-integrados pelas alterações feitas pela ação **Atualizar Perfil**.
 
+Além disso, a configuração da atividade **Atualizar Perfil** não requer um namespace de identidade. Dessa forma, verifique se o conjunto de dados selecionado usa o mesmo **namespace de identidade** usado pela ação que iniciou a jornada, pois é esse namespace que essas atualizações usarão. O mapa de identidade também pode ser usado pelo conjunto de dados selecionado. Se você não selecionar um conjunto de dados com o namespace correto ou um que use o mapa de identidade, a atividade Atualizar perfil falhará.
 
 ## Uso da atualização de perfil
 
