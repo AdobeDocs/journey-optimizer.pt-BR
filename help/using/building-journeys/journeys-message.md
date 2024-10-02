@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, mensagem, push, sms, email, no aplicativo, web, cartão de conteúdo, experiência baseada em código
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 14%
@@ -116,7 +116,7 @@ Para adicionar uma ação de canal integrada a uma jornada, siga as etapas abaix
      >
      >Cada atividade de mensagem de entrada vem com uma atividade de 3 dias **Aguardar**. [Saiba mais](../building-journeys/wait-activity.md#auto-wait-node)
 
-### Recomendação {#recommendation}
+## Recomendação {#recommendation}
 
 [!DNL Journey Optimizer] vem com o recurso de mensagem interno. No entanto, as ações personalizadas permitem configurar a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API.
 
