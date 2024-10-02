@@ -26,7 +26,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
 >title="Recuperar o token do dispositivo"
->abstract="Para garantir que o token de push do dispositivo sincronize corretamente com o perfil da Adobe Experience Platform, é necessário incorporar o seguinte código ao aplicativo. Essa integração é essencial para manter os recursos de comunicação atualizados e garantir uma experiência de usuário perfeita."
+>abstract="Para garantir que o token de push do dispositivo seja sincronizado corretamente com o perfil da Adobe Experience Platform, é necessário incorporar o código a seguir no aplicativo. Essa integração é essencial para manter recursos de comunicação atualizados e garantir uma experiência perfeita para o usuário."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"

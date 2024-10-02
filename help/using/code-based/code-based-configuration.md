@@ -22,8 +22,8 @@ ht-degree: 50%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Local na página"
->abstract="O local ou caminho dentro do campo do aplicativo especifica o destino exato dentro do aplicativo que você deseja que os usuários acessem. Ele pode ser uma seção ou página específica dentro da estrutura de navegação do aplicativo."
+>title="Localização na página"
+>abstract="A localização ou caminho dentro do campo do aplicativo especifica o destino exato dentro do aplicativo que você deseja que os usuários acessem. Pode ser uma seção ou página específica na profundidade da estrutura de navegação do aplicativo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
