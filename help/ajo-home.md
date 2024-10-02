@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 9688a0303726d706106ba7c89157529e02ecbfca
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 84%
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ A versão de setembro está disponível, incluindo Cartões de conteúdo para ap
 
 >[!TAB Assistente de IA]
 
-✨ mergulhe fundo em uma experiência prática com a visualização ao vivo do recurso [Acelerador de conteúdo do assistente de IA](../help/using/content-management/gs-generative.md), projetado para permitir que você explore seus recursos em primeira mão e entenda totalmente seus recursos.
+✨ Mergulhe em uma experiência prática com nossa prévia de recursos do [Acelerador de conteúdo do Assistente de IA](../help/using/content-management/gs-generative.md), projetada para permitir que você explore seus recursos em primeira mão e entenda completamente suas funcionalidades.
 
 [![saiba mais](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/pt-br/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

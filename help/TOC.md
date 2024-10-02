@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
 source-wordcount: '2055'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -271,13 +271,13 @@ ht-degree: 95%
    + [Amostras de métodos de implementação](using/code-based/code-based-implementation-samples.md)
    + [Criar experiências baseadas em código](using/code-based/create-code-based.md)
 + Cartões de conteúdo{#content-card}
-   + [Introdução a cartões de conteúdo](using/content-card/get-started-content-card.md)
+   + [Introdução aos cartões de conteúdo](using/content-card/get-started-content-card.md)
    + Configurar canal de cartão de conteúdo {#configure}
       + [Pré-requisitos dos cartões de conteúdo](using/content-card/content-card-configuration-prereq.md)
       + [Configurar canal de cartões de conteúdo no Journey Optimizer](using/content-card/content-card-configuration.md)
       + [Configurar o suporte a cartões de conteúdo no SDK da Web](using/content-card/content-card-configuration-sdk.md)
    + [Criar cartões de conteúdo](using/content-card/create-content-card.md)
-   + [Criar cartões de conteúdo](using/content-card/design-content-card.md)
+   + [Design de cartões de conteúdo](using/content-card/design-content-card.md)
 + Páginas de destino {#landing-pages}
    + [Introdução às páginas de destino](using/landing-pages/get-started-lp.md)
    + [Criar uma página de destino](using/landing-pages/create-lp.md)
@@ -293,7 +293,7 @@ ht-degree: 95%
       + [Definir predefinições da página de destino](using/landing-pages/lp-presets.md)
 + Gestão de conteúdo {#content-management}
    + Trabalhar com o assistente de IA{#ai-assistant}
-      + [Introdução ao acelerador de conteúdo do Assistente de IA](using/content-management/gs-generative.md)
+      + [Introdução ao Acelerador de conteúdo do Assistente de IA](using/content-management/gs-generative.md)
       + [Geração de email com IA](using/content-management/generative-email.md)
       + [Geração de push com IA](using/content-management/generative-push.md)
       + [Geração de SMS com IA](using/content-management/generative-sms.md)

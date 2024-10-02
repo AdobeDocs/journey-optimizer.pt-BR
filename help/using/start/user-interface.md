@@ -216,7 +216,7 @@ Para alterar o idioma:
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="Priorização antecipada"
->abstract=" Se uma jornada de prioridade mais alta for agendada dentro do período especificado aqui, o cliente não poderá entrar nessa jornada. Para situações em que você deseja que as jornadas sejam inseridas por ordem de chegada, sugerimos escolher o período de previsão Diário e garantir que a pontuação de prioridade de qualquer outra jornada nesse dia seja menor que a pontuação de prioridade da jornada. Fornecer uma pontuação de prioridade 100 a uma jornada também garantirá que ela seja inserida."
+>abstract=" Se uma jornada de prioridade mais alta for agendada dentro do período especificado aqui, o cliente será impedido de entrar nessa jornada. Para situações em que você deseja que as jornadas sejam inseridas em ordem de chegada, sugerimos escolher o período de previsão Diário e garantir que a pontuação de prioridade de qualquer outra jornada nesse dia seja menor que a pontuação de prioridade da jornada. Atribuir uma pontuação de prioridade de 100 a uma jornada também garantiria que ela fosse incluída."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
@@ -332,5 +332,5 @@ Para alterar o idioma:
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="Habilitar escolha de experiências"
->abstract="Habilitar escolha de experiências"
+>title="Habilitar o Experience Decisioning"
+>abstract="Habilitar o Experience Decisioning"

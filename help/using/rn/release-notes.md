@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 86625e5c88a5f4667782964e4dc9d7a77a50af31
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 49%
+ht-degree: 81%
 
 ---
 
@@ -97,13 +97,13 @@ Essa versão traz os novos recursos detalhados abaixo.
 <table>
 <thead>
 <tr>
-<th><strong>Critérios de saída globais no jornada</strong><br/></th>
+<th><strong>Critérios de saída globais em jornadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você define critérios de saída em nível de jornada. Ao adicionar critérios de saída, você faz com que os perfis saiam da jornada assim que um evento ocorrer (por exemplo: Compra) ou eles se qualificam para um público-alvo. Isso impedirá que o usuário obtenha mais comunicações da jornada.</p>
+<p>Agora você define critérios de saída em nível de jornada. Ao adicionar critérios de saída, você faz com que os perfis saiam da jornada assim que um evento ocorrer (por exemplo: Compra) ou eles se qualificarem para um público-alvo. Isso impedirá que o usuário obtenha mais comunicações da jornada.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/journey-properties.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -192,7 +192,7 @@ Esta versão vem com as melhorias listadas abaixo.
 **Públicos-alvo**
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* (Data de disponibilidade: 17 de setembro) **Uso da licença** - O painel de uso da licença agora mostra os Perfis que podem ser ativados, em vez dos Públicos que podem ser ativados. [Saiba mais](../audience/license-usage.md)
+* (Data de disponibilidade: 17 de setembro) **Uso da licença**: o painel Uso da licença agora mostra os Perfis engajáveis, em vez dos Públicos-alvo engajáveis. [Saiba mais](../audience/license-usage.md)
 
 **Gestão de conteúdo**
 
@@ -214,11 +214,11 @@ Esta versão vem com as melhorias listadas abaixo.
 
 <!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
-* **Aprimoramentos nos relatórios ao vivo** - Os relatórios ao vivo fornecem informações sobre o desempenho das suas jornadas nas últimas 24 horas. Aprimoramos esse processo adicionando novas métricas (perfis e perfis inseridos, encerrados e descartados por engano), que permitem obter uma compreensão mais profunda do comportamento e do desempenho do usuário diretamente da tela de Jornada. [Saiba mais](../building-journeys/report-journey.md)
+* **Aprimoramentos nos relatórios em tempo real**: os relatórios em tempo real fornecem insights do desempenho das suas jornadas nas últimas 24 horas. Aprimoramos esse processo adicionando novas métricas (perfis e perfis inseridos, encerrados e descartados por engano), que permitem obter uma compreensão mais profunda do comportamento e do desempenho do usuário diretamente da tela de Jornada. [Saiba mais](../building-journeys/report-journey.md)
 
 <!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
-* (Data de disponibilidade: 10 de setembro) **Tentativas automáticas em Ler público** - As tentativas agora são aplicadas por padrão em jornadas acionadas por público (começando com um **Ler público** ou um **Evento comercial**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado. [Saiba mais](../building-journeys/read-audience.md#retries)
+* (Data de disponibilidade: 10 de setembro) **Novas tentativas automáticas em públicos-alvo de leitura**: as novas tentativas agora são aplicadas por padrão em jornadas acionadas por público-alvo (começando com um **Público-alvo de leitura** ou um **Evento de negócios**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado. [Saiba mais](../building-journeys/read-audience.md#retries)
 
 **Canal de email**
 
@@ -228,22 +228,22 @@ Esta versão vem com as melhorias listadas abaixo.
 
 **Canal SMS**
 
-* **Editar Credenciais da API** - Agora é possível editar configurações nas Credenciais da API do SMS, incluindo atualizações de palavras-chave e respostas de aceitação/recusa.
+* **Editar credenciais da API**: agora é possível editar configurações nas Credenciais da API do SMS, incluindo atualizações de palavras-chave e respostas de aceitação/recusa.
 
 **APIs**
 
-* **API de Simulação de Campanha** - Use esta API para acionar o trabalho de prova de uma Campanha. O envio de uma prova do Campaign é um processo assíncrono, a API retornará um proofJobId que pode ser usado para verificar o status da prova. [Saiba mais](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **API de simulação de campanha**: use esta API para acionar o trabalho de prova de uma campanha. O envio de uma Prova de campanha é um processo assíncrono, a API retornará uma proofJobId que pode ser usada para verificar o status da prova. [Saiba mais](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
-* (Data de disponibilidade: 10 de setembro) A [documentação da API do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} agora é interativa. Explore os endpoints da API diretamente nas páginas de documentação para obter feedback imediato e acelerar sua implementação técnica.
+* (Data de disponibilidade: 10 de setembro) A [documentação da API do Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} agora é interativa. Explore os pontos de acesso da API diretamente nas páginas de documentação para obter feedback imediato e acelerar sua implementação técnica.
 
 
-  Todas as páginas de referência da API agora têm uma funcionalidade **Experimente-a** que você pode usar para testar chamadas de API diretamente na página do site de documentação. [Obtenha as credenciais de autenticação necessárias](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} e comece a usar a funcionalidade para explorar os pontos de extremidade da API.
+  Todas as páginas de referência da API agora têm uma funcionalidade **Experimente** que você pode usar para testar chamadas de API diretamente na página do site de documentação. [Obtenha as credenciais de autenticação necessárias](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} e comece a usar a funcionalidade para explorar os pontos de acesso da API.
 
-  Use essa nova funcionalidade para explorar as solicitações para o e as respostas dos endpoints da API, para obter feedback imediato e acelerar sua implementação técnica.
+  Use esta nova funcionalidade para explorar as solicitações e as respostas dos pontos de acesso da API para obter feedback imediato e acelerar sua implementação técnica.
 
   >[!CAUTION]
   >
-  >Observe que ao usar a funcionalidade de API interativa nas páginas de documentação, você está fazendo chamadas de API reais para os endpoints. Lembre-se disso ao testar sandboxes de produção.
+  >Observe que ao usar a funcionalidade de API interativa nas páginas de documentação, você está fazendo chamadas de API reais para os pontos de acesso. Lembre-se disso ao testar sandboxes de produção.
 
 **Configuração**
 
