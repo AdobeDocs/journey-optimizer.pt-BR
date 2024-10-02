@@ -6,30 +6,66 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 9%
+source-wordcount: '1172'
+ht-degree: 10%
 
 ---
 
 # Criar experiências baseadas em código {#create-code-based}
 
-Atualmente, em [!DNL Journey Optimizer], você só pode criar experiências baseadas em código em **campanhas**.
+No [!DNL Journey Optimizer], você pode criar experiências baseadas em código em uma jornada ou campanha.
 
 As medidas de proteção e recomendações específicas para experiências baseadas em código são detalhadas [nesta página](code-based-prerequisites.md).
 
-## Criar uma campanha baseada em código {#create-code-based-campaign}
+## Adicionar uma experiência baseada em código por meio de uma jornada ou campanha {#create-code-based-experience}
 
-Para começar a criar sua experiência baseada em código por meio de uma campanha, siga as etapas abaixo.
+Para começar a criar sua experiência baseada em código por meio de uma jornada ou campanha, siga as etapas abaixo.
 
-1. Acesse o menu **[!UICONTROL Campanhas]** e clique em **[!UICONTROL Criar campanha]**. [Saiba mais](../campaigns/create-campaign.md)
+>[!BEGINTABS]
+
+>[!TAB Adicionar uma experiência baseada em código a uma jornada]
+
+Para adicionar uma atividade de **experiência baseada em código** a uma jornada, siga estas etapas:
+
+1. [Criar uma jornada](../building-journeys/journey-gs.md).
+
+1. Inicie sua jornada com uma atividade [Evento](../building-journeys/general-events.md) ou [Ler público](../building-journeys/read-audience.md).
+
+1. Arraste e solte uma atividade de **[!UICONTROL Experiência baseada em código]** da seção **[!UICONTROL Ações]** da paleta.
+
+   ![](assets/code-based-activity-journey.png)
+
+   >[!NOTE]
+   >
+   >Como a **experiência baseada em código** é uma atividade de mensagem de entrada, ela vem com uma atividade **Wait** de 3 dias. [Saiba mais](../building-journeys/wait-activity.md#auto-wait-node)
+
+1. Insira um **[!UICONTROL Rótulo]** e uma **[!UICONTROL Descrição]** para a mensagem.
+
+1. Selecione ou crie a [Configuração de experiência baseada em código](code-based-configuration.md) para usar.
+
+   ![](assets/code-based-activity-config.png)
+
+1. Selecione o botão **[!UICONTROL Editar conteúdo]** e edite o conteúdo conforme desejado usando o editor de personalização. [Saiba mais](#edit-code)
+
+1. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais. [Saiba mais](../building-journeys/about-journey-activities.md)
+
+1. Quando sua experiência com base em código estiver pronta, finalize a configuração e publique sua jornada para ativá-la. [Saiba mais](../building-journeys/publishing-the-journey.md)
+
+Para obter mais informações sobre como configurar uma jornada, consulte [esta página](../building-journeys/journey-gs.md).
+
+>[!TAB Criar uma campanha de experiência baseada em código]
+
+Para começar a criar sua **experiência baseada em código** por meio de uma campanha, siga as etapas abaixo.
+
+1. Crie uma campanha. [Saiba mais](../campaigns/create-campaign.md)
 
 1. Selecione o tipo de campanha que deseja executar
 
-   * **Agendado - Marketing**: execute a campanha imediatamente ou em uma data especificada. As campanhas programadas são destinadas ao envio de mensagens de marketing. Eles são configurados e executados na interface do usuário do.
+   * **[!UICONTROL Agendado - Marketing]**: execute a campanha imediatamente ou em uma data especificada. As campanhas agendadas têm como objetivo enviar mensagens de **marketing**. Eles são configurados e executados na interface do usuário do.
 
-   * **Acionado por API - Marketing/Transacional**: execute a campanha usando uma chamada de API. As campanhas acionadas por API destinam-se ao envio de mensagens de marketing ou transacionais, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc.
+   * **[!UICONTROL Acionado por API - Marketing/Transacional]**: execute a campanha usando uma chamada de API. As campanhas acionadas por API têm como objetivo enviar **mensagens de marketing** ou **mensagens transacionais**, ou seja, mensagens enviadas após uma ação executada por um indivíduo: redefinição de senha, compra de carrinho etc. [Saiba como acionar uma campanha usando APIs](../campaigns/api-triggered-campaigns.md)
 
 1. Conclua as etapas para criar uma campanha, como as propriedades da campanha, [público-alvo](../audience/about-audiences.md) e [agendamento](../campaigns/create-campaign.md#schedule). Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
@@ -41,7 +77,11 @@ Para começar a criar sua experiência baseada em código por meio de uma campan
 
 1. Edite o conteúdo conforme desejado usando o editor de personalização. [Saiba mais](#edit-code)
 
-   ![](assets/code-based-campaign-edit-content.png)
+   <!--![](assets/code-based-campaign-edit-content.png)-->
+
+Para obter mais informações sobre como configurar uma campanha, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+
+>[!ENDTABS]
 
 ## Editar o conteúdo do código {#edit-code}
 
@@ -51,7 +91,7 @@ Para começar a criar sua experiência baseada em código por meio de uma campan
 >abstract="Insira e edite o código que deseja entregar como parte desta ação de experiência baseada em código."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=pt-BR" text="Introdução ao editor de personalização"
 
-1. Na tela de edição da campanha, selecione **[!UICONTROL Editar código]**.
+1. Na atividade de jornada ou na tela de edição de campanha, selecione **[!UICONTROL Editar código]**.
 
    ![](assets/code-based-campaign-edit-code.png)
 
@@ -71,7 +111,7 @@ Para começar a criar sua experiência baseada em código por meio de uma campan
 
    Também é possível salvar parte do conteúdo do código como fragmento. [Saiba como](../content-management/fragments.md#save-as-expression-fragment)
 
-1. Em campanhas baseadas em código, é possível usar o recurso de decisão da experiência. Selecione o ícone **[!UICONTROL Decisões]** na barra esquerda e clique em **[!UICONTROL Criar decisão]**. [Saiba mais](../experience-decisioning/create-decision.md)
+1. Com experiências baseadas em código, você pode usar o recurso de decisão de experiência. Selecione o ícone **[!UICONTROL Política de decisão]** na barra esquerda e clique em **[!UICONTROL Adicionar política de decisão]**. [Saiba mais](../experience-decisioning/create-decision.md) <!--UI labels TBC + TBC for journeys (visible in UI so probably confirmed) -->
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -84,7 +124,7 @@ Para começar a criar sua experiência baseada em código por meio de uma campan
 
 Agora, assim que o desenvolvedor fizer uma chamada de API ou SDK para buscar conteúdo para a superfície definida na configuração do canal, as alterações serão aplicadas à página da Web ou aplicativo.
 
-## Testar a campanha baseada em código {#test-code-based-campaign}
+## Testar a experiência baseada em código {#test-code-based-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
@@ -97,7 +137,7 @@ Para exibir uma pré-visualização de sua experiência baseada em código modif
 >
 >Você deve ter perfis de teste disponíveis para simular quais ofertas serão entregues a eles. Saiba como [criar perfis de teste](../audience/creating-test-profiles.md).
 
-1. Na tela do editor de personalização ou de edição de conteúdo, selecione **[!UICONTROL Simular conteúdo]**.
+1. Na jornada ou campanha, na tela do editor de personalização ou de edição de conteúdo, selecione **[!UICONTROL Simular conteúdo]**.
 
    ![](assets/code-based-campaign-simulate.png)
 
@@ -112,17 +152,43 @@ Para exibir uma pré-visualização de sua experiência baseada em código modif
 
     When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
 
-## Ativar a campanha baseada em código {#activate-code-based-campaign}
+## Ative sua experiência baseada em código {#code-based-experience-live}
 
 >[!IMPORTANT]
 >
 >A partir da versão de setembro, uma nova experiência de ativação de campanha e jornada permitirá gerenciar todo o processo de aprovação, garantindo que campanhas e jornadas sejam totalmente revisadas e aprovadas pelas partes interessadas apropriadas antes de serem publicadas. Esse recurso está disponível em Disponibilidade limitada. [Saiba mais](../test-approve/gs-approval.md)
 
-Depois de definir sua campanha baseada em código e editar seu conteúdo conforme desejado usando o [editor baseado em código](#edit-code), você pode revisá-lo e ativá-lo. Siga as etapas abaixo.
+Depois de definir sua experiência baseada em código e editar seu conteúdo conforme desejado usando o [editor baseado em código](#edit-code), você pode ativar sua jornada ou campanha para tornar as alterações visíveis para o público-alvo.
+
+Você também pode visualizar seu conteúdo de experiência baseado em código antes de ativá-lo. [Saiba mais](#test-code-based-experience)
 
 >[!NOTE]
 >
->Você também pode pré-visualizar o conteúdo da campanha antes de ativá-lo. [Saiba mais](#test-code-based-campaign)
+>Se você ativar uma jornada/campanha baseada em código e afetar as mesmas páginas que outra jornada ou campanha que já está ativa, todas as alterações serão aplicadas ao conteúdo.
+>
+>Se várias jornadas ou campanhas baseadas em código atualizarem os mesmos elementos do conteúdo, a jornada/campanha de prioridade mais alta terá prioridade.
+
+### Publish uma jornada baseada em código {#publish-code-based-journey}
+
+Para ativar sua experiência baseada em código a partir de uma jornada, siga as etapas abaixo.
+
+1. Verifique se a jornada é válida e se não há erros. [Saiba mais](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+
+1. Na jornada, selecione a opção **[!UICONTROL Publish]**, localizada no menu suspenso no canto superior direito.
+
+   ![](assets/code-based-journey-publish.png)
+
+   >[!NOTE]
+   >
+   >Saiba mais sobre a publicação de jornadas em [esta seção](../building-journeys/publishing-the-journey.md).
+
+Sua jornada baseada em código pega o status do **[!UICONTROL Live]** e agora está visível para o público selecionado. Cada recipient da jornada pode ver suas modificações.
+
+>[!NOTE]
+>
+>Após clicar em **[!UICONTROL Publish]**, pode levar até 15 minutos para que as alterações fiquem disponíveis online.
+
+### Ativar uma campanha baseada em código {#activate-code-based-campaign}
 
 1. Em sua campanha baseada em código, selecione **[!UICONTROL Revisar para ativar]**.
 
@@ -136,83 +202,94 @@ Depois de definir sua campanha baseada em código e editar seu conteúdo conform
 
    >[!NOTE]
    >
-   >Depois de clicar em **[!UICONTROL Ativar]**, pode levar até 1 minuto para que as alterações nas campanhas baseadas em código sejam disponibilizadas em tempo real no seu local.
+   >Saiba mais sobre como ativar campanhas em [esta seção](../campaigns/review-activate-campaign.md).
 
-Sua campanha baseada em código pega o status do **[!UICONTROL Live]** e agora está visível para o público selecionado. Cada recipient da campanha pode visualizar as modificações.
+Sua campanha baseada em código pega o status do **[!UICONTROL Live]** e agora está visível para o público selecionado. Cada recipient da campanha pode ver as modificações que você adicionou ao conteúdo.
 
 >[!NOTE]
 >
->Se você definiu um agendamento para sua campanha baseada em código, ele tem o status **[!UICONTROL Agendado]** até que a data e a hora de início sejam atingidas.
+>Após clicar em **[!UICONTROL Ativar]**, pode levar até 15 minutos para que as alterações fiquem disponíveis ao vivo.
 >
->Se você ativar uma campanha baseada em código que afeta os mesmos locais que outra campanha que já está ativa, todas as alterações serão aplicadas aos seus locais.
+>Se você definiu um agendamento para sua campanha baseada em código, ele tem o status **[!UICONTROL Agendado]** até que a data e a hora de início sejam atingidas.
 
-Saiba mais sobre como ativar campanhas em [esta seção](../campaigns/review-activate-campaign.md).
+## Interromper uma jornada ou campanha baseada em código {#stop-code-based-experience}
 
-## Interromper uma campanha baseada em código {#stop-code-based-campaign}
+Quando uma experiência baseada em código está ativa, você pode interrompê-la para impedir que o público-alvo veja suas modificações. Siga as etapas abaixo.
 
-Quando uma campanha baseada em código está ativa, você pode interrompê-la para impedir que seu público-alvo veja suas modificações. Siga as etapas abaixo.
+1. Selecione uma jornada ou campanha ao vivo na respectiva lista.
 
-1. Selecione uma campanha ao vivo da lista.
+1. Execute a ação relevante de acordo com seu caso:
 
-1. No menu superior, selecione **[!UICONTROL Parar campanha]**.
+   * No menu superior da campanha, selecione **[!UICONTROL Parar campanha]**.
 
-   ![](assets/code-based-campaign-stop.png)
+     ![](assets/code-based-campaign-stop.png)
+
+   * No menu superior de jornada, clique no botão **[!UICONTROL Mais]** e selecione **[!UICONTROL Parar]**.
+
+     ![](assets/code-based-journey-stop.png)
 
 1. As modificações adicionadas não estarão mais visíveis para o público-alvo definido.
 
 >[!NOTE]
 >
->Quando uma campanha baseada em código é interrompida, não é possível editá-la ou ativá-la novamente. Você só pode duplicá-la e ativar a campanha duplicada.
+>Quando uma jornada ou campanha baseada em código é interrompida, não é possível editá-la ou ativá-la novamente. Você só pode duplicá-la e ativar a jornada/campanha duplicada.
 
-## Relatórios de campanha baseados em código
+<!--Reporting TBC
 
-Você pode acessar relatórios de campanha baseados em código na tela de resumo da campanha.
+## Check the code-based experience reports {#check-code-based-reports}
 
-Os relatórios globais exibem eventos que ocorreram pelo menos duas horas atrás e abrangem eventos durante um período selecionado. Em comparação, os Relatórios em tempo real focalizam eventos que ocorreram nas últimas 24 horas, com um intervalo mínimo de dois minutos a partir da ocorrência do evento.
+Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.-->
 
-### Relatório ao vivo baseado em código {#live-report-code-based}
+<!--## Code-based reports
 
-No **[!UICONTROL Relatório ao vivo]** da sua campanha, a guia **[!UICONTROL Experiência baseada em código]** detalha as principais informações relativas aos seus aplicativos ou páginas da Web. [Saiba mais sobre o relatório ao vivo](../reports/campaign-live-report.md)
+You can access code-based journey or campaign reports from the summary screen.
 
-+++Saiba mais sobre as diferentes métricas e widgets disponíveis para o Relatório de experiência baseado em código.
+Global reports display events that occurred at least two hours ago and cover events over a selected time period. In comparison, Live reports focus on events that took place within the past 24 hours, with a minimum time interval of two minutes from the event occurrence.
 
-Os KPIs do **[!UICONTROL Desempenho da experiência baseada em código]** detalham as principais informações relativas ao engajamento de seus visitantes com suas experiências baseadas em código, como:
+### Code-based live report {#live-report-code-based}
 
-* **[!UICONTROL Impressões]**: número total de experiências entregues a todos os usuários.
+From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more on live report](../reports/campaign-live-report.md)
 
-* **[!UICONTROL Interações]**: número total de interações com seu aplicativo/página. Isso inclui qualquer ação realizada pelos usuários, como cliques ou quaisquer outras interações.
++++Learn more on the different metrics and widgets available for the Code-based experience report.
 
-O gráfico **[!UICONTROL Resumo da experiência baseado em código]** mostra a evolução das suas experiências (impressões, impressões exclusivas e interações) nas últimas 24 horas.
+The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your code-based experiences, such as:
 
-<!--The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your app/pages.-->
+* **[!UICONTROL Impressions]**: total number of experiences delivered to all users.
+
+* **[!UICONTROL Interactions]**:  total number of engagements with your app/page. This includes any actions taken by the users, such as clicks or any other interactions.
+
+The **[!UICONTROL Code-based experience summary]** graph shows the evolution of your experiences (impressions, unique impressions and interactions) for the last 24 hours.
+
+TBC: The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your app/pages.
 +++
 
-### Relatório global baseado em código {#global-report-code-based}
+### Code-based global report {#global-report-code-based}
 
-Um relatório global de campanha baseado em código pode ser acessado diretamente da sua campanha com o botão **[!UICONTROL Exibir relatório]**. [Saiba mais sobre o relatório global](../reports/campaign-global-report.md)
+Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more on global report](../reports/campaign-global-report.md)
 
-No seu **[!UICONTROL Relatório global]** do Campaign, a guia **[!UICONTROL Experiência baseada em código]** detalha as principais informações relativas aos seus aplicativos ou páginas da Web.
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages.
 
 ![](assets/code-based-campaign-global-report.png)
 
-<!--image-->
+Add image TBC
 
-+++Saiba mais sobre as diferentes métricas e widgets disponíveis para o Relatório de experiência baseado em código.
++++Learn more on the different metrics and widgets available for the Code-based experience report.
 
-Os KPIs de desempenho da experiência **[!UICONTROL baseada em código]** detalham as principais informações relativas ao engajamento dos visitantes com suas experiências, como:
+The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your experiences, such as:
 
-* **[!UICONTROL Impressões exclusivas]**: número de usuários exclusivos a quem a experiência foi entregue.
+* **[!UICONTROL Unique impressions]**: number of unique users to whom the experience was delivered.
 
-* **[!UICONTROL Impressões]**: número total de experiências entregues a todos os usuários.
+* **[!UICONTROL Impressions]**: total number of experiences delivered to all users.
 
-* **[!UICONTROL Interações]**: porcentagem de envolvimentos com seu aplicativo/página. Isso inclui qualquer ação realizada pelos usuários, como cliques ou quaisquer outras interações.
+* **[!UICONTROL Interactions]**: percentage of engagements with your app/page. This includes any actions taken by the users, such as clicks or any other interactions.
 
-O gráfico **[!UICONTROL Resumo da experiência baseado em código]** mostra a evolução das suas experiências (impressões exclusivas, impressões e interações) para o período em questão.
+The **[!UICONTROL Code-based experience summary]** graph shows the evolution of your experiences (unique impressions, impressions and interactions) for the concerned period.
 
-<!--The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your apps/pages.-->
+TBC: The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your apps/pages.
 +++
 
-<!--
+TBC video if existing
+
 ## How-to video{#video}
 
 The video below shows how to create a code-based campaign, configure its properties, review, and publish it.

@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1068'
 ht-degree: 16%
 
 ---
 
 # Editar conteúdo da Web {#edit-web-content}
 
-Depois de [adicionar uma ação da Web](create-web.md#create-web-campaign) à campanha, você poderá editar o conteúdo do site usando o designer da Web.
+Depois de [adicionar uma experiência da Web](create-web.md#create-web-experience) a uma jornada ou campanha, você poderá editar o conteúdo do site usando o designer da Web.
 
 [Saiba como criar uma campanha da Web neste vídeo](#video)
 
@@ -29,7 +29,7 @@ Acesse as seguintes seções para saber mais sobre cada tópico:
 
 * [Gerenciar modificações](manage-web-modifications.md)
 
-* [Monitorar suas campanhas da Web](monitor-web-campaigns.md)
+* [Monitorar suas campanhas da Web](monitor-web-experiences.md)
 
 ## Trabalhar com o web designer {#work-with-web-designer}
 
@@ -45,9 +45,9 @@ Acesse as seguintes seções para saber mais sobre cada tópico:
 >abstract="Insira o URL de uma página da Web específica a ser usada para editar o conteúdo que será aplicado a todas as páginas que correspondem à regra. A página da Web deve ser implementada usando o SDK da Web da Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR" text="Saiba mais"
 
-Para começar a criar sua campanha da Web, siga as etapas abaixo.
+Para começar a criar sua experiência na Web, siga as etapas abaixo.
 
-1. Na guia **[!UICONTROL Ação]** da [campanha](create-web.md#create-web-campaign), selecione **[!UICONTROL Editar conteúdo]**.<!--change screen with rule-->
+1. Na guia **[!UICONTROL Ação]** da campanha ou da atividade de experiência online na jornada, selecione **[!UICONTROL Editar conteúdo]**.<!--change screen with rule-->
 
    ![](assets/web-campaign-edit-content.png)
 

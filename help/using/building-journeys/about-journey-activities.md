@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: jornada, atividades, introdução, eventos, ação
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 14%
+source-wordcount: '577'
+ht-degree: 12%
 
 ---
 
@@ -54,7 +54,7 @@ As ações são o que você deseja que aconteça como resultado de algum tipo de
 
 Na paleta, no lado esquerdo da tela, abaixo de **[!UICONTROL Eventos]** e **[!UICONTROL Orquestração]**, você pode encontrar a categoria **[!UICONTROL Ações]**. As seguintes atividades de ação estão disponíveis:
 
-* [Email, SMS, Push](../building-journeys/journeys-message.md)
+* [Ações de canal integradas](../building-journeys/journeys-message.md)
 * [Ações personalizadas](../building-journeys/using-custom-actions.md)
 * [Salto](../building-journeys/jump.md)
 
@@ -62,7 +62,16 @@ Na paleta, no lado esquerdo da tela, abaixo de **[!UICONTROL Eventos]** e **[!UI
 
 Essas atividades representam os diferentes canais de comunicação disponíveis. É possível combiná-los para criar um cenário entre canais.
 
-Se você tiver configurado ações personalizadas, elas também aparecerão aqui. [Saiba mais](../building-journeys/using-custom-actions.md)).
+<!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
+
+Você também pode configurar ações específicas para enviar mensagens para você:
+
+* Se você estiver usando um sistema de terceiros para enviar mensagens, poderá criar uma ação personalizada específica. [Saiba mais](../action/action.md)
+
+* Se estiver trabalhando com o Campaign e o Journey Optimizer, consulte estas seções:
+
+   * [[!DNL Journey Optimizer] e o Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
 
 ## Práticas recomendadas {#best-practices}
 
