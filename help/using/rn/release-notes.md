@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 74%
+source-wordcount: '1269'
+ht-degree: 72%
 
 ---
 
@@ -46,6 +46,7 @@ Essa atualização traz os novos recursos detalhados abaixo.
 <p>Com o canal de experiência baseado em código, o Adobe Journey Optimizer permite que você faça personalização e testes avançados para qualquer uma de suas propriedades de entrada, permitindo a entrega contínua de experiências personalizadas em diferentes pontos de contato, como aplicativos Web, aplicativos móveis, aplicativos para desktop, consoles de vídeo, dispositivos conectados a TV, TVs inteligentes, quiosques, ATMs, dispositivos IoT e muito mais. O canal de experiência baseado em código agora está disponível na tela de jornada.</p>
 <p>Para obter mais informações, consulte a <a href="../code-based/create-code-based.md">documentação detalhada</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
+<p>Data de disponibilidade: 1 de outubro</p>
 </tr>
 </tbody>
 </table>
@@ -62,9 +63,17 @@ Essa atualização traz os novos recursos detalhados abaixo.
 <p>Com o canal da Web, o Adobe Journey Optimizer permite personalizar a experiência da Web fornecida aos clientes por meio de jornadas da Web de entrada. O canal da Web agora está disponível na tela de jornada.</p>
 <p>Para obter mais informações, consulte a <a href="../web/create-web.md">documentação detalhada</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
+<p>Data de disponibilidade: 1 de outubro</p>
 </tr>
 </tbody>
 </table>
+
+
+**melhorias na Jornada**
+
+* (Data de disponibilidade: 3 de outubro) **Parâmetros em ações personalizadas** - agora há suporte para parâmetros NULL e opcionais em ações personalizadas. [Saiba mais](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+
 
 ## Notas de versão de setembro de 2024 {#24-9-rn}
 
@@ -256,7 +265,6 @@ Esta versão vem com as melhorias listadas abaixo.
 
 * **Aprimoramentos nos relatórios em tempo real**: os relatórios em tempo real fornecem insights do desempenho das suas jornadas nas últimas 24 horas. Aprimoramos esse processo adicionando novas métricas (perfis e perfis inseridos, encerrados e descartados por engano), que permitem obter uma compreensão mais profunda do comportamento e do desempenho do usuário diretamente da tela de Jornada. [Saiba mais](../building-journeys/report-journey.md)
 
-<!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
 * (Data de disponibilidade: 10 de setembro) **Novas tentativas automáticas em públicos-alvo de leitura**: as novas tentativas agora são aplicadas por padrão em jornadas acionadas por público-alvo (começando com um **Público-alvo de leitura** ou um **Evento de negócios**) ao recuperar o trabalho de exportação. Se ocorrer um erro durante a criação do trabalho de exportação, as novas tentativas serão realizadas a cada 10 minutos por, no máximo, 1 hora. Depois disso, vamos considerá-la como uma falha. Esses tipos de jornada podem, portanto, ser executados até 1 hora após o horário agendado. [Saiba mais](../building-journeys/read-audience.md#retries)
 
