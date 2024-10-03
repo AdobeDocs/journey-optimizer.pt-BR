@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notas de versão do Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
+source-git-commit: e6d6fe4ef068f806126de1c9a417fa0155bdc25d
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1266'
 ht-degree: 72%
 
 ---
@@ -28,11 +28,7 @@ O [!DNL Adobe Journey Optimizer] é construído nativamente na [!DNL Adobe Exper
 
 ## Atualizações de outubro de 2024 {#24-10-rn}
 
-**Data de lançamento**: quarta-feira, 1 de outubro de 2024
-
-### Novos recursos {#24-10-features}
-
-Essa atualização traz os novos recursos detalhados abaixo.
+Os recursos mais recentes disponíveis no Adobe Journey Optimizer estão listados abaixo.
 
 <table>
 <thead>
