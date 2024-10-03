@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 66504f7affb767d5b102cd1a91934147638c68e5
 workflow-type: tm+mt
-source-wordcount: '4176'
+source-wordcount: '4184'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ A tabela **[!UICONTROL Estatísticas de Jornada]** oferece um resumo detalhado d
 
 ![](assets/cja-journey-canvas.png)
 
-O widget **[!UICONTROL Tela de Jornada]** permite rastrear visualmente a trajetória dos perfis direcionados à medida que eles navegam pela jornada.
+O widget **[!UICONTROL Tela de Jornada]** permite rastrear visualmente a trajetória dos perfis direcionados à medida que eles navegam pela jornada. [Saiba mais na documentação do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Aprimore sua personalização da tela com as seguintes opções:
 
