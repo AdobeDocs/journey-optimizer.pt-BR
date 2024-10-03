@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, third-party, custom, jornada, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
+source-git-commit: b429082f44090033e0fdef64f05ab1e9964297b6
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1670'
 ht-degree: 20%
 
 ---
@@ -153,13 +153,13 @@ Você pode definir o parâmetro de carga útil conforme detalhado abaixo:
 
    Habilite a opção **[!UICONTROL Permitir valores NULL]** para manter valores Null na chamada externa. Observe que o envio de matrizes de int, string etc. com valores Null em não é totalmente compatível. Por exemplo, a seguinte matriz de inteiros `[1, null, 2, 3]` é enviada como `[1, 2, 3]` mesmo que esta opção esteja marcada. Além disso, se tal matriz for nula, ela será enviada como uma matriz vazia.
 
-1. Na seção **[!UICONTROL Resposta]**, cole um exemplo da carga retornada pela chamada. Este campo é opcional e está disponível para todos os métodos de chamada. Para obter informações detalhadas sobre como aproveitar as respostas de chamada da API em ações personalizadas, consulte [esta página](../action/action-response.md).
+   ![](assets/null-values.png)
 
-![](assets/action-response2bis.png){width="70%" align="left"}
+1. Na seção **[!UICONTROL Resposta]**, cole um exemplo da carga retornada pela chamada. Este campo é opcional e está disponível para todos os métodos de chamada. Para obter informações detalhadas sobre como aproveitar as respostas de chamada da API em ações personalizadas, consulte [esta página](../action/action-response.md).
 
 >[!NOTE]
 >
->Os nomes de campos na carga não podem conter &quot;.&quot; caractere. Eles não podem começar com um caractere &quot;$&quot;.
+>Os nomes de campos na carga não podem conter um caractere de ponto `.`, nem começar com um caractere `$`.
 >
 
 ![](assets/customactionpayloadmessage2.png)
