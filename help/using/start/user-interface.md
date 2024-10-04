@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7403058fac2e88a27b2e4dfc2f56bb4e3c2b1528
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 100%
@@ -60,7 +60,7 @@ Crie campanhas e jornadas nesta seção.
 * **[!UICONTROL Páginas de destino]** : crie, projete, teste e publique páginas de destino. Envie aos usuários e usuárias links para formulários online, nos quais há opções para aceitar ou recusar receber suas comunicações ou assinar serviços específicos. [Saiba mais](../landing-pages/get-started-lp.md)
 
 
-### [!UICONTROL GESTÃO DE DECISÕES] {#left-nav-offers}
+### [!UICONTROL GESTÃO DE DECISÕES] {#left-nav-decision}
 
 Crie ofertas e componentes nesta seção.
 
