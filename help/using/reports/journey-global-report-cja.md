@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
+source-git-commit: 67f1b70d4f55a0bfb289720c43b1ac8b336ab380
 workflow-type: tm+mt
 source-wordcount: '4802'
 ht-degree: 2%
@@ -763,7 +763,7 @@ A tabela **[!UICONTROL Motivos da exclusão]** mostra visualmente os diversos fa
 
 Consulte [esta página](exclusion-list.md) para obter uma lista abrangente dos motivos de exclusão.
 
-## Experiência baseada em código
+## Experiências baseadas em código {#code-based}
 
 ### Exibir e clicar {#impressions-code}
 
