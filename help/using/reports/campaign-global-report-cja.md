@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4540'
 ht-degree: 2%
 
 ---
@@ -844,14 +844,3 @@ A tabela **[!UICONTROL Rótulos rastreados]** oferece uma visão geral abrangent
 
 +++
 
-### URLs do link rastreado {#tracked-link-url}
-
-A tabela **[!UICONTROL URLs de links rastreados]** fornece uma visão geral abrangente das URLs em seus cartões de Conteúdo que atraem o maior tráfego de visitantes. Isso permite identificar e priorizar os links mais populares, melhorando sua compreensão do envolvimento do perfil com conteúdo específico em seus cartões de Conteúdo.
-
-+++ Saiba mais sobre métricas de URLs de link rastreado
-
-* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em seus cartões de Conteúdo.
-
-* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus cartões de Conteúdo.
-
-+++

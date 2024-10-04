@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: 66504f7affb767d5b102cd1a91934147638c68e5
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4184'
+source-wordcount: '4802'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,8 @@ A página **[!UICONTROL Relatório de Jornadas]** será exibida com as seguintes
 * [No aplicativo](#in-app-global)
 * [Web](#web-cja)
 * [Correspondência direta](#direct-mail-cja)
+* [Baseado em código](#code-based)
+* [Cartão de conteúdo](#content-card)
 
 Para saber mais sobre o Customer Journey Analytics Workspace e como filtrar e analisar dados, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
@@ -641,16 +643,15 @@ O gráfico **[!UICONTROL Cliques]** exibe as métricas de clique da página da W
 
 ![](assets/cja-web-displays.png)
 
-O gráfico **[!UICONTROL Exibições]** ajuda você a entender o alcance geral da mensagem e o número de perfis únicos que estão se envolvendo com ela.
+O gráfico **[!UICONTROL Exibições]** ajuda você a entender o alcance geral da experiência baseada em código que foi aberta e o número de perfis únicos que estão se envolvendo com ela.
 
 +++ Saiba mais sobre Métricas de exibição
 
-* **[!UICONTROL Exibições]**: número de vezes que a mensagem foi aberta.
+* **[!UICONTROL Exibições]**: número de vezes que a experiência baseada em código foi aberta.
 
-* **[!UICONTROL Exibições exclusivas]**: número de vezes que a mensagem foi aberta; várias interações de um perfil não são consideradas.
+* **[!UICONTROL Exibições exclusivas]**: número de vezes que a experiência baseada em código foi aberta, várias interações de um perfil não são consideradas.
 
 +++
-
 
 ### Dados de rastreamento {#track-data-web}
 
@@ -761,3 +762,119 @@ A tabela **[!UICONTROL Motivos de Erro]** permite identificar os erros específi
 A tabela **[!UICONTROL Motivos da exclusão]** mostra visualmente os diversos fatores que levaram à exclusão de perfis de usuário do público-alvo direcionado, impedindo-o de receber suas mensagens de correspondência direta.
 
 Consulte [esta página](exclusion-list.md) para obter uma lista abrangente dos motivos de exclusão.
+
+## Experiência baseada em código
+
+### Exibir e clicar {#impressions-code}
+
+![](assets/code-based-display.png)
+
+Os gráficos de **[!UICONTROL Exibição e clique]** apresentam uma análise detalhada do envolvimento dos seus perfis com as suas experiências baseadas em código, oferecendo insights valiosos sobre como os perfis interagem com o seu conteúdo.
+
++++ Saiba mais sobre métricas de Impressão e Clique
+
+* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em suas experiências.
+
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em suas experiências.
+
+* **[!UICONTROL Exibições]**: número de vezes que a experiência foi aberta.
+
+* **[!UICONTROL Exibições exclusivas]**: número de vezes que a experiência foi aberta, várias interações de um perfil não são consideradas.
+
++++
+
+### Dados de rastreamento {#track-data-code}
+
+![](assets/code-based-tracking-data.png)
+
+A tabela **[!UICONTROL Dados de rastreamento]** oferece um instantâneo detalhado da atividade do perfil vinculado às suas experiências baseadas em código, fornecendo insights essenciais sobre o envolvimento e a eficácia das experiências.
+
++++ Saiba mais sobre Rastreamento de métricas de dados
+
+* **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para suas experiências.
+
+* **[!UICONTROL Taxa de cliques (CTR)]**: porcentagem de usuários que interagiram com suas experiências.
+
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em suas experiências.
+
+* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em suas experiências.
+
+* **[!UICONTROL Exibições]**: número de vezes que sua experiência foi aberta.
+
+* **[!UICONTROL Exibições exclusivas]**: número de vezes que sua experiência foi aberta, várias interações de um perfil não são consideradas.
+
++++
+
+### Rótulos de link rastreado {#track-link-code}
+
+A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral abrangente dos rótulos de links em suas experiências baseadas em código, destacando aquelas que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
+
++++ Saiba mais sobre métricas de rótulos de link rastreado
+
+* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em suas experiências baseadas em código.
+
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em suas experiências baseadas em código.
+
+* **[!UICONTROL Exibições]**: número de vezes que a experiência foi aberta.
+
+* **[!UICONTROL Exibições exclusivas]**: número de vezes que a experiência foi aberta, várias interações de um perfil não são consideradas.
+
++++
+
+## Cartão de conteúdo {#content-card}
+
+### Exibir e clicar {#displays-content-card}
+
+![](assets/content-card-jo-display.png)
+
+Os gráficos de **[!UICONTROL Exibição e clique]** apresentam uma análise detalhada do envolvimento dos perfis com seus cartões de Conteúdo, oferecendo insights valiosos sobre como os perfis interagem com seu conteúdo.
+
++++ Saiba mais sobre métricas de Exibições e cliques
+
+* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em seus cartões de Conteúdo.
+
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus cartões de Conteúdo.
+
+* **[!UICONTROL Exibições]**: número de vezes que seu cartão de Conteúdo foi aberto.
+
+* **[!UICONTROL Exibições exclusivas]**: número de vezes que o cartão Conteúdo foi aberto, várias interações de um perfil não são consideradas.
+
++++
+
+### Dados de rastreamento {#track-data-content}
+
+![](assets/code-based-tracking-data.png)
+
+A tabela **[!UICONTROL Dados de rastreamento]** oferece um instantâneo detalhado da atividade do perfil vinculada aos seus cartões de Conteúdo, fornecendo insights essenciais sobre o envolvimento e a eficácia da experiência.
+
++++ Saiba mais sobre Rastreamento de métricas de dados
+
+* **[!UICONTROL Pessoas]**: número de perfis de usuário qualificados como perfis de destino para seus cartões de Conteúdo.
+
+* **[!UICONTROL Taxa de cliques (CTR)]**: porcentagem de usuários que interagiram com seus cartões de Conteúdo.
+
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus cartões de Conteúdo.
+
+* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em seus cartões de Conteúdo.
+
+* **[!UICONTROL Exibições]**: número de vezes que seu cartão de Conteúdo foi aberto.
+
+* **[!UICONTROL Exibições exclusivas]**: número de vezes que seu cartão de Conteúdo foi aberto, várias interações de um perfil não são consideradas.
+
++++
+
+### Rótulos de link rastreado {#track-link-content}
+
+A tabela **[!UICONTROL Rótulos de links rastreados]** oferece uma visão geral abrangente dos rótulos de links em seus cartões de Conteúdo, destacando aqueles que geram o maior tráfego de visitantes. Esse recurso permite identificar e priorizar os links mais populares.
+
++++ Saiba mais sobre métricas de rótulos de link rastreado
+
+* **[!UICONTROL Cliques únicos]**: número de perfis que clicaram em um conteúdo em seus cartões de Conteúdo.
+
+* **[!UICONTROL Cliques]**: número de vezes que um conteúdo foi clicado em seus cartões de Conteúdo.
+
+* **[!UICONTROL Exibições]**: número de vezes que o cartão de Conteúdo foi aberto.
+
+* **[!UICONTROL Exibições exclusivas]**: número de vezes que o cartão Conteúdo foi aberto, várias interações de um perfil não são consideradas.
+
++++
