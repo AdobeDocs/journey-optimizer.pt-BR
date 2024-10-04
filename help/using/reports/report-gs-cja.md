@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 40fde856e76d7e2d609ba90f93d4e07fe90f858f
+source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 16%
+source-wordcount: '389'
+ht-degree: 15%
 
 ---
 
 # Introdução à nova interface de relatórios {#channel-report-gs-cja}
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Para reverter para os relatórios tradicionais do Journey Optimizer, basta alternar a opção **[!UICONTROL Usar nova experiência]**.
+>Os relatórios no Adobe Journey Optimizer estão padronizados para UTC. A capacidade de personalizar o fuso horário dos relatórios será introduzida em uma versão futura.
 
 Os relatórios do Journey Optimizer vêm com uma interoperabilidade aprimorada com os recursos do Customer Journey Analytics, padronizando os relatórios em ambas as plataformas e melhorando a consistência e a confiabilidade dos dados. Essa integração perfeita entre o Journey Optimizer e o Customer Journey Analytics fornece uma visão mais clara das métricas de desempenho, permitindo que os usuários tomem decisões mais conscientes.
 
@@ -39,6 +39,10 @@ Os relatórios do Journey Optimizer vêm com uma interoperabilidade aprimorada c
 * Para direcionar métricas para todas as campanhas e jornadas do seu ambiente, acesse o relatório **Visão geral** navegando até o menu **[!UICONTROL Relatórios]** na seção **[!UICONTROL Gerenciamento de Jornadas]**. [Saiba mais sobre o relatório de Visão geral](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
+
+>[!NOTE]
+>
+> Para reverter para os relatórios tradicionais do Journey Optimizer, basta alternar a opção **[!UICONTROL Usar nova experiência]**.
 
 ## Pré-requisitos {#prerequisites}
 
