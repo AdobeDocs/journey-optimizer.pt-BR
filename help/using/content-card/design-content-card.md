@@ -1,13 +1,13 @@
 ---
-title: Criar cartões de conteúdo
+title: Design de cartões de conteúdo
 description: Saiba como criar conteúdo de cartões de conteúdo
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: 96a218d54851cc9b309e08e120e9a4bca5c4e74f
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 2%
+source-wordcount: '418'
+ht-degree: 4%
 
 ---
 
@@ -39,17 +39,19 @@ Para redigir a mensagem, digite o texto nos campos **[!UICONTROL Título]** e **
 
 ![](assets/content-card-design-2.png)
 
-+++Mais opções com formatação avançada
-
-Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você poderá escolher para seu **[!UICONTROL Cabeçalho]** e **[!UICONTROL Corpo]**:
-
-* a **[!UICONTROL Fonte]**
-* o **[!UICONTROL Pt tamanho]**
-* a **[!UICONTROL Cor da Fonte]**
-* o **[!UICONTROL Alinhamento]**
-+++
-
 Se desejar personalizar ainda mais sua mensagem, use o ícone **[!UICONTROL Personalization]** para adicionar elementos personalizados. Para obter instruções detalhadas sobre como usar os recursos de personalização, consulte [esta seção](../personalization/personalize.md).
+
+<!--
++++More options with advanced formatting
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Header]** and **[!UICONTROL Body]**:
+
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
++++
+-->
 
 ### Mídia {#add-media}
 
@@ -59,11 +61,13 @@ O campo **[!UICONTROL Mídia]** permite que você aprimore seus cartões de cont
 
 Para incluir mídia, digite a URL da mídia que deseja usar ou clique no ícone **[!UICONTROL Selecionar Assets]** para escolher entre os ativos armazenados na biblioteca do Assets. [Saiba mais sobre o gerenciamento de ativos](../content-management/assets.md).
 
-+++Mais opções com formatação avançada
+<!--
++++More options with advanced formatting
 
-Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você poderá adicionar um **[!UICONTROL Texto alternativo]** para aplicativos de leitura de tela e outro ativo no campo **[!UICONTROL URL de Mídia de Modo Escuro]**.
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
 
 +++
+-->
 
 ### Botões {#add-buttons}
 
@@ -79,16 +83,18 @@ Adicione botões para que os usuários interajam com seus cartões de conteúdo.
 
 1. No campo **[!UICONTROL Destino]**, digite a URL da Web ou o deep link para o qual os usuários serão direcionados após interagirem com o botão.
 
-+++Mais opções com formatação avançada
+<!--
++++More options with advanced formatting
 
-Se o **[!UICONTROL Modo de formatação avançado]** estiver ativado, você poderá escolher para seus **[!UICONTROL Botões]**:
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
 
-* a **[!UICONTROL Fonte]**
-* o **[!UICONTROL Pt tamanho]**
-* a **[!UICONTROL Cor da Fonte]**
-* o **[!UICONTROL Alinhamento]**
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
 
 +++
+-->
 
 ### Comportamento ao clicar
 
