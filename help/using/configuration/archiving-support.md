@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: arquivamento, mensagens, HIPAA, CCO, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 794724670c41e5d36ff063072a2e29c37dd5fadd
+source-git-commit: bbc64b4274cee083e6c35147314b230391b35317
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 6%
@@ -28,7 +28,7 @@ Regulamentos como o HIPAA exigem que [!DNL Journey Optimizer] forneça uma manei
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] não tem suporte para o requisito de arquivamento de SMS. Para obter suporte dedicado ao arquivamento, trabalhe com seu fornecedor de SMS (Synch, Infobip ou Twilio).
+>[!DNL Journey Optimizer] não tem suporte para o requisito de arquivamento de SMS. Para obter suporte dedicado ao arquivamento, trabalhe com seu fornecedor de SMS (Sinch, Infobip ou Twilio).
 
 ## Como usar o campo CCO para emails {#bcc-email}
 
