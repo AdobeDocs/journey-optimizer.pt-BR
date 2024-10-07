@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '580'
 ht-degree: 3%
 
 ---
@@ -59,13 +59,13 @@ Para que as experiências baseadas em código sejam entregues corretamente, as s
 
   [Saiba mais sobre a exibição do Edge Delivery](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/view/edge-delivery)
 
-## Pré-requisitos do experimento de conteúdo {#experiment-prerequisites}
+## Pré-requisitos de relatórios {#experiment-prerequisites}
 
-Para habilitar experimentos de conteúdo para o canal baseado em código, você precisa verificar se o [conjunto de dados](../data/get-started-datasets.md) usado na implementação do aplicativo [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} também está incluído na configuração de relatórios.
+Para habilitar relatórios para o canal baseado em código, você precisa verificar se o [conjunto de dados](../data/get-started-datasets.md) usado na implementação do aplicativo [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} também está incluído na configuração de relatórios.
 
-Em outras palavras, ao configurar os relatórios de experimento, se você adicionar um conjunto de dados que não está presente no fluxo de dados do aplicativo, os dados do aplicativo não serão exibidos nos relatórios de experimento de conteúdo.
+Em outras palavras, ao configurar os relatórios, se você adicionar um conjunto de dados que não esteja presente no fluxo de dados do aplicativo, os dados do aplicativo não serão exibidos nos relatórios.
 
-Saiba como adicionar conjuntos de dados para relatórios de experimento de conteúdo [esta seção](../content-management/reporting-configuration.md#add-datasets).
+Saiba como adicionar conjuntos de dados para relatórios em [esta seção](../reports/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >

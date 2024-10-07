@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: no aplicativo, mensagem, configuração, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '867'
 ht-degree: 9%
 
 ---
@@ -109,19 +109,21 @@ Para que as mensagens no aplicativo sejam entregues corretamente, as seguintes c
 
 Agora é possível selecionar sua configuração ao criar a mensagem no aplicativo.
 
-## Pré-requisitos do experimento de conteúdo {#experiment-prerequisites}
-
-Para habilitar experimentos de conteúdo para o canal no aplicativo, você precisa verificar se o [conjunto de dados](../data/get-started-datasets.md) usado na sua implementação no aplicativo [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} também está incluído na sua configuração de relatórios.
-
-Em outras palavras, ao configurar os relatórios de experimento, se você adicionar um conjunto de dados que não esteja presente no seu fluxo de dados da Web, os dados da Web não serão exibidos nos relatórios de experimento de conteúdo.
-
-Saiba como adicionar conjuntos de dados para relatórios de experimento de conteúdo [esta seção](../content-management/reporting-configuration.md#add-datasets).
+## Pré-requisitos de relatórios {#experiment-prerequisites}
 
 >[!NOTE]
 >
 >O conjunto de dados é usado como somente leitura pelo sistema de relatórios [!DNL Journey Optimizer] e não afeta a coleta ou a assimilação de dados.
 
+Para habilitar relatórios para o canal no aplicativo, você precisa verificar se o [conjunto de dados](../data/get-started-datasets.md) usado na sua implementação no aplicativo [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} também está incluído na sua configuração de relatórios.
+
+Em outras palavras, ao configurar os relatórios, se você adicionar um conjunto de dados que não esteja presente no fluxo de dados do aplicativo, os dados do aplicativo não serão exibidos nos relatórios.
+
+Saiba como adicionar conjuntos de dados para relatórios em [esta seção](../reports/reporting-configuration.md#add-datasets).
+
 Se você estiver **não** usando os [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"} predefinidos a seguir para o esquema do conjunto de dados: `AEP Web SDK ExperienceEvent` e `Consumer Experience Event` (conforme definido em [esta página](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), adicione os seguintes grupos de campos: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` e `Web Details`. Eles são necessários para os relatórios de experimento de conteúdo [!DNL Journey Optimizer], pois estão rastreando em quais experimentos e tratamentos cada perfil está participando.
+
+[Saiba mais sobre a configuração de relatórios](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >

@@ -5,10 +5,10 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -45,4 +45,4 @@ Adicione o grupo de campos **Evento de experiência - Interação de apresentaç
 
   Verifique se o conjunto de dados usado na [sequência de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank) do seu aplicativo também está incluído na sua configuração de relatório de experimento de conteúdo. Os dados do aplicativo não serão exibidos nos relatórios se os conjuntos de dados não corresponderem.
 
-  Saiba como adicionar conjuntos de dados para relatórios de experimento de conteúdo [esta seção](../content-management/reporting-configuration.md).
+  Saiba como adicionar conjuntos de dados para relatórios de experimento de conteúdo [esta seção](../reports/reporting-configuration.md).

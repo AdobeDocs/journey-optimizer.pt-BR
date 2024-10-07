@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 13%
@@ -25,7 +25,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->Antes de começar com o Experimento de conteúdo, verifique se a configuração de relatórios está definida para seus conjuntos de dados personalizados. Saiba mais [nesta seção](reporting-configuration.md).
+>Antes de começar com o Experimento de conteúdo, verifique se a configuração de relatórios está definida para seus conjuntos de dados personalizados. Saiba mais [nesta seção](../reports/reporting-configuration.md).
 
 O Experimento de conteúdo do Journey Optimizer permite definir vários tratamentos de delivery para medir qual tem melhor desempenho para o público-alvo. Você pode optar por variar o conteúdo do delivery, o assunto ou o remetente. O público-alvo de interesse é alocado aleatoriamente para cada tratamento para determinar qual funciona melhor em termos da métrica especificada.
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '918'
 ht-degree: 1%
 
 ---
@@ -143,7 +143,8 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->Cada organização está limitada à publicação de 25 públicos-alvo. Além disso, os usuários podem publicar no máximo 5 públicos-alvo por hora e 20 por dia
+>Cada organização está limitada à publicação de 25 públicos-alvo. Além disso, os usuários podem publicar no máximo 5 públicos-alvo por hora e 20 por dia.
+> Públicos-alvo únicos têm uma duração de 48 horas. Portanto, se 25 públicos-alvo forem publicados dentro desse período, públicos-alvo adicionais só poderão ser publicados após o período de 48 horas.
 
 Agora é possível selecionar dados específicos na tabela e criar um público-alvo diretamente nessas seleções, simplificando e simplificando o processo de criação de público-alvo.
 

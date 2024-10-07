@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1134'
 ht-degree: 7%
 
 ---
@@ -127,19 +127,21 @@ Para que a experiência da Web seja entregue corretamente, as seguintes configur
 
   [Saiba mais sobre a exibição do Edge Delivery](https://experienceleague.adobe.com/pt-br/docs/experience-platform/assurance/view/edge-delivery)
 
-## Pré-requisitos do experimento de conteúdo {#experiment-prerequisites}
+## Pré-requisitos de relatórios {#experiment-prerequisites}
 
-Para habilitar experimentos de conteúdo para o canal Web, você precisa verificar se o [conjunto de dados](../data/get-started-datasets.md) usado na sua implementação da Web [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} também está incluído na sua configuração de relatórios.
+Para habilitar relatórios para o canal Web, você precisa verificar se o [conjunto de dados](../data/get-started-datasets.md) usado na sua implementação da Web [sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} também está incluído na sua configuração de relatórios.
 
-Em outras palavras, ao configurar os relatórios de experimento, se você adicionar um conjunto de dados que não esteja presente no seu fluxo de dados da Web, os dados da Web não serão exibidos nos relatórios de experimento de conteúdo.
+Em outras palavras, ao configurar os relatórios, se você adicionar um conjunto de dados que não esteja presente no fluxo de dados da Web, os dados da Web não serão exibidos nos relatórios.
 
-Saiba como adicionar conjuntos de dados para relatórios de experimento de conteúdo [esta seção](../content-management/reporting-configuration.md#add-datasets).
+Saiba como adicionar conjuntos de dados para relatórios em [esta seção](../reports/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >
 >O conjunto de dados é usado como somente leitura pelo sistema de relatórios [!DNL Journey Optimizer] e não afeta a coleta ou a assimilação de dados.
 
 Se você estiver **não** usando os [grupos de campos](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=pt-BR#field-group){target="_blank"} predefinidos a seguir para o esquema do conjunto de dados: `AEP Web SDK ExperienceEvent` e `Consumer Experience Event` (conforme definido em [esta página](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), adicione os seguintes grupos de campos: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` e `Web Details`. Eles são necessários para os relatórios de experimento de conteúdo [!DNL Journey Optimizer], pois estão rastreando em quais experimentos e tratamentos cada perfil está participando.
+
+[Saiba mais sobre a configuração de relatórios](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >
