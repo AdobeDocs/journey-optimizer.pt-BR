@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 979cb8270a4be4c7ad08db8f0a2e072d590906de
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 100%
+source-wordcount: '860'
+ht-degree: 93%
 
 ---
 
@@ -35,15 +35,24 @@ Por padrão, somente os conjuntos de dados assimilados são exibidos. Se quiser 
 
 ![](assets/ajo-system-datasets.png)
 
+>[!NOTE]
+>
+>A partir de 1º de novembro de 2024, uma proteção de TTL (time-to-live) será aplicada aos conjuntos de dados gerados pelo sistema da Journey Optimizer da seguinte maneira:
+>
+>* 90 dias para dados na loja de perfis
+>* 13 meses para dados no data lake
+>
+>Além disso, nesse momento, a segmentação por transmissão não oferecerá mais suporte ao uso de eventos enviados e abertos a partir de conjuntos de dados de rastreamento e feedback.
+
+
+
 Selecione o nome de um conjunto de dados para acessar a tela de atividade do Conjunto de dados e ver os detalhes do conjunto de dados selecionado. A guia Atividade inclui um gráfico que visualiza a taxa de mensagens que estão sendo consumidas, bem como uma lista de lotes bem-sucedidos e com falha.
 
 Os conjuntos de dados do sistema para o Adobe Journey Optimizer estão listados abaixo.
 
-
 >[!CAUTION]
 >
 > Os conjuntos de dados do sistema **não devem ser modificados**. Qualquer alteração será revertida automaticamente com cada atualização do produto.
->
 
 **Relatórios**
 
