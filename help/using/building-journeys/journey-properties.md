@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -58,17 +58,17 @@ O gerenciamento de entrada de perfis depende do tipo de jornadas. Saiba mais sob
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Permitir reentrada"
->abstract="Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção **Permitir reentrada**, por exemplo, se quiser oferecer um presente único quando uma pessoa entrar em uma loja."
+>abstract="Por padrão, novas jornadas permitem reentradas. É possível desmarcar a opção **Permitir reentrada**, por exemplo, caso queira oferecer um brinde único quando uma pessoa entra em uma loja."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gerenciamento de entrada de perfis"
 
-Por padrão, novas jornadas permitem a reentrada. Você pode desmarcar a opção **Permitir reentrada** para jornadas &quot;únicas&quot;, por exemplo, se quiser oferecer um presente único quando uma pessoa entrar em uma loja.
+Por padrão, novas jornadas permitem reentradas. Você pode desmarcar a opção **Permitir reentrada** para jornadas &quot;únicas&quot;, por exemplo, se quiser oferecer um presente único quando uma pessoa entrar em uma loja.
 
-### Período de espera de reentrada  {#reentrance-wait}
+### Período de espera da reentrada  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
->title="Período de espera de reentrada"
->abstract="Defina o tempo de espera antes de permitir que um perfil entre na jornada novamente em jornadas unitárias. Isso impede que os usuários insiram novamente na jornada por um período determinado. Duração máxima: 90 dias."
+>title="Período de espera da reentrada"
+>abstract="Defina o tempo de espera antes de permitir que um perfil entre na jornada novamente em jornadas unitárias. Impede que os usuários reentrem na jornada por um período determinado. Duração máxima: 90 dias."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gerenciamento de entrada de perfis"
 
 Quando a opção **Permitir reentrada** está ativada, o campo **Período de espera de reentrada** é exibido. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de público-alvo). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. A duração máxima é de 90 dias.
