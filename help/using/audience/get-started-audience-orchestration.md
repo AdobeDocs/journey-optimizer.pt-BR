@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 59%
+source-wordcount: '307'
+ht-degree: 60%
 
 ---
 
@@ -36,7 +36,7 @@ Depois de concluído, os **públicos-alvo resultantes** são salvos na Adobe Exp
 
 >[!IMPORTANT]
 >
->O uso de públicos-alvo e atributos da composição de públicos-alvo e de públicos-alvo de upload personalizados está indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
+>O uso de públicos-alvo e atributos da composição de público-alvo está indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield.
 >
 >Os atributos de enriquecimento ainda não estão integrados ao serviço de aplicação de políticas. Portanto, quaisquer rótulos de uso de dados que você aplicar aos atributos de enriquecimento não serão aplicados em campanhas ou jornadas do Journey Optimizer.
 

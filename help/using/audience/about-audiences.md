@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 64eb253efbe73d151dd1c94f4e4cb51a35e9d1a4
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '2272'
+source-wordcount: '2266'
 ht-degree: 17%
 
 ---
@@ -49,7 +49,7 @@ Você pode selecionar em campanhas e jornadas qualquer público gerado usando de
 
 >[!AVAILABILITY]
 >
->O uso de públicos-alvo e atributos da composição de público-alvo e do upload personalizado (arquivo CSV) de públicos-alvo está indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield. [Saiba como usar atributos de enriquecimento de públicos no Journey Optimizer](../audience/about-audiences.md#enrichment)
+>O uso de públicos-alvo e atributos da composição de público-alvo está indisponível para uso com o Healthcare Shield ou o Privacy and Security Shield. [Saiba como usar atributos de enriquecimento de públicos no Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 É possível aproveitar os públicos-alvo no **[!DNL Journey Optimizer]** de maneiras diferentes:
 
