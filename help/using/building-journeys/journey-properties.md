@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
+source-git-commit: e6da92e2459c83019a9bb72b79809fdf7cf68c98
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2048'
 ht-degree: 16%
 
 ---
@@ -277,19 +277,16 @@ Os critérios de saída são definidos no nível da jornada. Uma jornada pode te
 
 Para **criar** um critério de saída, siga estas etapas:
 
-1. Abra para a jornada.
+1. Abra a jornada.
+
 1. Clique no ícone **[!UICONTROL Mostrar Critérios de Saída]** localizado na seção superior direita da tela de jornada.
-
-![](assets/exitcriteria_icon.png){width="40%" align="left"}
-
+   ![](assets/exitcriteria_icon.png){width="40%" align="left"}
 1. Clique no botão **[!UICONTROL Adicionar critério de saída]**.
-
-![](assets/exitcriteria.png){width="40%" align="left"}
-
-1. Insira um **Rótulo** e selecione se os seus critérios de saída se baseiam em um evento ou público-alvo.
+   ![](assets/exitcriteria.png){width="40%" align="left"}
+1. Insira um **Rótulo** e selecione se seus critérios de saída se baseiam em um **Evento** ou em um **Público-alvo**.
 
 * Para os critérios de Saída baseados em um evento, escolha somente evento unitário.
-* Em Critérios de saída com base em um público-alvo, selecione um público-alvo. Observação: os critérios de saída que usam um público-alvo podem levar até 10 minutos para ficarem operacionais.
+* Em Critérios de saída com base em um público-alvo, selecione um público-alvo. Observação: os critérios de saída que usam um público-alvo podem levar até 10 minutos para serem eficazes.
 
 Você pode adicionar vários critérios de saída.
 
