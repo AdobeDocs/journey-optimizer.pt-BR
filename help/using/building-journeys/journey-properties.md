@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a0c7dad29aabe6c377468a64b9638d7363f0b6f6
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
-source-wordcount: '1983'
-ht-degree: 12%
+source-wordcount: '2049'
+ht-degree: 14%
 
 ---
 
@@ -261,45 +261,45 @@ Para saber mais sobre políticas de mesclagem, consulte a [documentação do Ado
 >title="Critérios de saída da jornada"
 >abstract="Esta seção mostra as opções de critérios de saída. É possível criar uma ou várias regras de critérios de saída para a sua jornada."
 
-### Descrição
+### Descrição {#exit-criteria-desc}
 
-Geralmente, os profissionais de marketing desejam remover perfis de uma jornada quando não atendem mais ao objetivo da jornada. Isso será feito através de **critérios de saída globais**, que estão intimamente associados ao gerenciamento de metas.
+Ao adicionar critérios de saída, você faz com que os perfis saiam da jornada assim que um evento ocorrer (por exemplo: Compra) ou eles se qualificarem para um público-alvo. Isso impedirá que o usuário obtenha mais comunicações da jornada.
 
-**Caso de uso de exemplo:**
+Talvez você queira remover perfis de uma jornada quando eles não atenderem mais ao objetivo da jornada. Isso pode ser feito por **critérios de saída globais**, que estão intimamente associados ao gerenciamento de metas.
 
-Um profissional de marketing tem uma jornada promocional com uma série de comunicações. Cada uma dessas comunicações tem como objetivo orientar o cliente a fazer uma compra. Assim que a compra for feita, o cliente não deverá receber o restante das mensagens na série. Ao definir um critério de saída, os perfis que fizeram uma compra serão removidos da jornada.
+**Caso de uso de exemplo**
 
-### Configuração e utilização
+Um profissional de marketing tem uma jornada promocional com uma série de comunicações. Cada uma dessas comunicações tem como objetivo orientar o cliente a fazer uma compra. Assim que a compra for feita, o cliente não deverá receber o restante das mensagens na série. Ao definir um critério de saída, os perfis que fizeram uma compra são removidos da jornada.
 
-Os critérios de saída são definidos no nível da jornada. Uma jornada pode ter vários critérios de saída. Quando você tem vários critérios de saída definidos, a avaliação acontece de cima para baixo com uma lógica OR. Portanto, se você tiver o Critério de Saída n°1 e o Critério de Saída n°2, ele será avaliado como n°1 **ou** n°2. Os critérios são avaliados em cada etapa da jornada.
+### Configuração e utilização {#exit-criteria-config}
 
-Para **criar** um critério de saída:
+Os critérios de saída são definidos no nível da jornada. Uma jornada pode ter vários critérios de saída. Quando você tem vários critérios de saída definidos, a avaliação acontece de cima para baixo com uma lógica de `OR`. Portanto, se você tiver o Critério de saída A e o Critério de saída B, ele será avaliado como A **OR** B. Os critérios são avaliados em cada etapa da jornada.
 
-* Clique no seguinte ícone ![](assets/exitcriteria_icon.png){width="40%" align="left"} no painel direito.
-* Clique no botão **Adicionar critério de saída**.
+Para **criar** um critério de saída, siga estas etapas:
+
+1. Abra para a jornada.
+1. Clique no ícone **[!UICONTROL Mostrar Critérios de Saída]** localizado na seção superior direita da tela de jornada.
+
+![](assets/exitcriteria_icon.png){width="40%" align="left"}
+
+1. Clique no botão **[!UICONTROL Adicionar critério de saída]**.
 
 ![](assets/exitcriteria.png){width="40%" align="left"}
 
-* Você pode adicionar vários critérios de saída.
-* Insira um **Rótulo** e selecione se os seus critérios de saída se baseiam em um evento ou público-alvo.
+1. Insira um **Rótulo** e selecione se os seus critérios de saída se baseiam em um evento ou público-alvo.
 
-### Critérios de saída com base em um evento
+* Para os critérios de Saída baseados em um evento, escolha somente evento unitário.
+* Em Critérios de saída com base em um público-alvo, selecione um público-alvo. Observação: os critérios de saída que usam um público-alvo podem levar até 10 minutos para ficarem operacionais.
 
-Escolher somente evento unitário.
+Você pode adicionar vários critérios de saída.
 
-![](assets/exitcriteria_event.png){width="40%" align="left"}
+![](assets/exitcriteria-sample.png){width="40%" align="left"}
 
-### Critérios de saída com base em um público-alvo
+### Medidas de proteção e limitações {#exit-criteria-guardrails}
 
-Escolha um público.
+As seguintes medidas de proteção e limitações se aplicam ao recurso de critérios de saída do jornada:
 
-![](assets/exitcriteria_audience.png){width="40%" align="left"}
-
-Observação: os critérios de saída que usam um público-alvo podem levar até 10 minutos para ficarem operacionais.
-
-### Restrições e limitações
-
-* Os critérios de saída são definidos como rascunho
+* Os critérios de saída são definidos somente em estado de rascunho
 * Jornada a coerência de namespace entre eventos e critérios de saída baseados em eventos
 
 
