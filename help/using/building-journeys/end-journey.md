@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: inserir novamente, jornada, encerrar, ao vivo, parar
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: 20d99c082ef8d1f2442900dc6a6e6db6b0aaa46f
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 1%
+source-wordcount: '689'
+ht-degree: 2%
 
 ---
 
@@ -53,10 +53,10 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 Uma jornada pode ser fechada pelos seguintes motivos:
 
 * A jornada é fechada manualmente pelo botão **[!UICONTROL Fechar para novas entradas]**.
-* Uma jornada única baseada em segmento que terminou de ser executada.
+* Uma jornada única baseada em segmento que terminou de ser executada e atingiu o tempo limite global de 91 dias.
 * Após a última ocorrência de uma jornada baseada em público-alvo recorrente.
 
-Fechar uma jornada manualmente garante que os clientes que já entraram na jornada possam concluir seu caminho, mas os novos usuários não podem entrar na jornada. Quando uma jornada for fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Fechada]**. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente.
+Fechar uma jornada manualmente garante que os clientes que já entraram na jornada possam concluir seu caminho, mas os novos usuários não podem entrar na jornada. Quando uma jornada for fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Fechada]**. A jornada pára de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada podem terminar a jornada normalmente. Após o tempo limite global padrão de 91 dias, a jornada será alternada para o status Finished. Consulte [esta seção](journey-properties.md#timeout).
 
 Após o [tempo limite global](journey-properties.md#timeout) de 91 dias, uma jornada Read audience muda para o status **Finished**. Esse comportamento é definido somente para 91 dias (ou seja, [valor de tempo limite global da jornada](journey-properties.md#global_timeout)), pois todas as informações sobre os perfis que inseriram a jornada são removidas 91 dias após serem inseridas. As pessoas que ainda estão na jornada são afetadas automaticamente. Eles saem da jornada após o tempo limite de 91 dias.
 
