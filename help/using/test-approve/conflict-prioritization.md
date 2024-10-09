@@ -7,10 +7,10 @@ level: Beginner
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 0322a13304875c4ba9ae8a9e7710fa2e71e459b3
+source-git-commit: ff529c9319a6eb5fe6762f30b739f2c39c3d5685
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 26%
+source-wordcount: '1186'
+ht-degree: 21%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 26%
 >
 >As ferramentas de gerenciamento e priorização de conflitos estão disponíveis atualmente como uma versão beta somente para usuários selecionados.
 
-No Journey Optimizer, gerenciar o volume e o tempo das campanhas e jornadas é essencial para evitar sobrecarregar os clientes com muitas interações. As duas seções a seguir apresentam as principais ferramentas para ajudar você a manter o equilíbrio e priorizar as comunicações de maneira eficaz.
+No Journey Optimizer, gerenciar o volume e o tempo das campanhas e jornadas é essencial para evitar sobrecarregar os clientes com muitas interações. As duas seções a seguir apresentam as principais ferramentas para ajudar você a manter o equilíbrio e priorizar as comunicações de maneira eficaz
 
-## Exibir possíveis conflitos em jornadas e campanhas {#conflict}
+## Identificar possíveis conflitos em jornadas e campanhas {#conflict}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
@@ -43,9 +43,21 @@ As principais áreas a serem monitoradas quanto a possíveis sobreposições sã
 * **Público-alvo**: que porcentagem do meu público-alvo de jornada também faz parte de outras jornadas?
 * **Canal**: há outras comunicações agendadas para o mesmo período? Em caso afirmativo, quantas?
 * **Conjunto de Regras de Limite**: que tipos de jornadas estou limitando e há sobreposição entre eles?
-* **Configuração de Canal**: há outras jornadas ou campanhas usando essa configuração de canal que possam impedir a exibição dessa campanha para o usuário?
+* **Configuração de Canal**: há outras jornadas ou campanhas usando qualquer configuração de canal que esteja sendo usada na mesma jornada ou campanha que possam impedir a exibição da jornada ou campanha ao usuário final?
 
-O Journey Optimizer permite verificar sempre que há uma possibilidade de sobreposição com outras jornadas ou campanhas. Para fazer isso, siga estes passos:
+### Como o Journey Optimizer detecta conflitos {#detection}
+
+Abaixo está um resumo de como o Journey Optimizer identifica possíveis conflitos para jornadas e campanhas:
+
+* **Escopo de identificação de conflito**: os conflitos são mostrados somente para campanhas e jornadas ativas ou agendadas.
+* **jornadas Unitárias**: se a jornada selecionada for unitária, outras jornadas que começam com o mesmo evento serão exibidas, pois esse evento acionará todas essas jornadas.
+* **Qualificação de público-alvo e Público-alvo de leitura/Evento comercial** jornadas: se a jornada selecionada for uma qualificação de Público-alvo ou uma jornada de Evento comercial/Público de leitura, todas as outras jornadas do mesmo tipo com um público-alvo válido serão exibidas, pois pode haver sobreposições entre os públicos-alvo.
+* **Campanhas**: como todas as campanhas estão direcionando públicos e não há nenhum conceito de eventos, todas as campanhas potencialmente entram em conflito com jornadas acionadas por segmento (começando com uma atividade Ler público).
+* **Campanhas online/agendadas**: campanhas online e agendadas podem entrar em conflito devido a uma possível sobreposição de públicos. Para qualquer campanha, todas as campanhas ativas ou programadas são listadas no visualizador de conflitos.
+
+### Exibir conflitos identificados para uma determinada jornada ou campanha {#view}
+
+Ao criar uma jornada ou campanha, o Journey Optimizer permite verificar sempre que há uma possibilidade de sobreposição com outras jornadas ou campanhas. Para fazer isso, siga estes passos:
 
 1. No momento da criação de uma jornada ou campanha, clique no botão **[!UICONTROL Exibir Conflitos Potenciais]** nas propriedades da jornada ou campanha.
 
@@ -61,11 +73,15 @@ O Journey Optimizer permite verificar sempre que há uma possibilidade de sobrep
 
    ![](assets/potential-conflicts.png)
 
->[!NOTE]
->
->Para refinar ainda mais sua pesquisa por possíveis sobreposições, você pode filtrar sua lista de campanhas e jornadas com base nos campos relevantes. Para fazer isso, selecione o ícone de filtro na visualização de inventário. [Saiba como trabalhar com filtros](../start/search-filter-categorize.md#filter-lists)
+   >[!NOTE]
+   >
+   >As campanhas recém-publicadas podem levar até 5 minutos para serem exibidas no visualizador de conflitos, devido ao armazenamento em cache implementado
 
-Depois que as sobreposições potenciais são identificadas, o Journey Optimizer fornece várias maneiras de resolvê-las.
+Para refinar ainda mais sua pesquisa por possíveis sobreposições, você pode filtrar sua lista de campanhas e jornadas com base nos campos relevantes. Para fazer isso, selecione o ícone de filtro na visualização de inventário. [Saiba como trabalhar com filtros](../start/search-filter-categorize.md#filter-lists)
+
+### Resolver conflitos {#resolve}
+
+Estas são algumas dicas para reduzir os possíveis conflitos depois de identificados:
 
 * Ajuste as **datas de início/término** para evitar campanhas ou jornadas sobrepostas.
 * Refine **direcionamento de público** para minimizar a sobreposição entre as jornadas.
@@ -99,4 +115,4 @@ Para atribuir uma pontuação de prioridade a uma jornada ou campanha, insira um
 
 ![](assets/priority-score.png)
 
-Para situações em que duas campanhas têm a mesma pontuação de prioridade, a campanha ativada menos recentemente é mostrada.
+Para situações em que duas campanhas têm a mesma pontuação de prioridade, a campanha que foi ativada primeiro será exibida.
