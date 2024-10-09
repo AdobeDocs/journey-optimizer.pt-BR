@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: perfil, atualização, jornada, atividade
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 3639a1b23ce259d0a8af5f4e801f8c54eb6b3b3c
+source-git-commit: dc226803d2df198bde9c525f82431161734f53f8
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '630'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ Use a atividade de ação **[!UICONTROL Atualizar Perfil]** para atualizar um pe
 * Você não pode usar a ação **Atualizar Perfil** para gerar eventos de experiência, por exemplo, uma compra.
 * Como qualquer outra ação, é possível definir um caminho alternativo em caso de erro ou tempo limite, e não é possível colocar duas ações em paralelo.
 * A solicitação de atualização enviada para o Adobe Experience Platform é imediata/em um segundo. Normalmente, levará alguns segundos, mas às vezes mais, sem garantia. Como resultado, por exemplo, se uma ação estiver usando o &quot;campo 1&quot; atualizado por uma ação **Atualizar perfil** posicionada logo antes, você não deve esperar que o &quot;campo 1&quot; seja atualizado na ação.
-* A atividade **Atualizar perfil** não oferece suporte a campos XDM definidos como uma enumeração.
+* A atividade **Atualizar perfil** não oferece suporte a campos XDM definidos como enumerações ou valores sugeridos.
 * A atividade **[!UICONTROL Atualizar perfil]** atualiza somente o [Repositório de Perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, não o Data Lake.
 
 ## Seleção do conjunto de dados {#dataset-selection}
