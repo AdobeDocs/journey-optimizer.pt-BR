@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: jornada, configuração, propriedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: e6da92e2459c83019a9bb72b79809fdf7cf68c98
+source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 16%
@@ -298,6 +298,4 @@ As seguintes medidas de proteção e limitações se aplicam ao recurso de crit�
 
 * Os critérios de saída são definidos somente em estado de rascunho
 * Jornada a coerência de namespace entre eventos e critérios de saída baseados em eventos
-
-
 
