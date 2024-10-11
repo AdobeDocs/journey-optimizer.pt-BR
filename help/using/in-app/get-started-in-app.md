@@ -8,7 +8,7 @@ level: Beginner
 keywords: no aplicativo, mensagem, criação, iniciar
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '125'
 ht-degree: 100%
 
