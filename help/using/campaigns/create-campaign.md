@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: criar, otimizador, campanha, superfície, mensagens
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 31%
+source-wordcount: '858'
+ht-degree: 27%
 
 ---
 
@@ -33,11 +33,6 @@ Para criar uma nova campanha, acesse o menu **[!UICONTROL Campanhas]** e clique 
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campanha"
 >abstract="**Campanhas programadas** são executadas imediatamente ou em uma data especificada e devem enviar mensagens de marketing. Campanhas **acionadas por API** são executadas usando uma chamada de API. O objetivo é enviar mensagens de marketing (mensagens promocionais que exigem o consentimento da pessoa) ou mensagens transacionais (mensagens não comerciais, que também podem ser enviadas a perfis não assinantes em contextos específicos)."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_category"
->title="Categoria da campanha"
->abstract="Se você estiver criando uma campanha programada, a campanha de **marketing** é selecionada automaticamente. Para campanhas acionadas por API, escolha se deseja enviar uma mensagem de **marketing** (mensagem promocional que requer o consentimento da pessoa) ou uma mensagem **transacional** (mensagem não comercial, que também pode ser enviada para perfis não assinantes em contextos específicos)."
 
 1. Selecione o tipo de campanha que deseja executar
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1505'
 ht-degree: 98%
 
 ---
@@ -214,16 +214,14 @@ Para alterar o idioma:
 >abstract="Tipo de regra"
 
 >[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="Limite da regra"
+>abstract="Limite da regra"
+
+>[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="Priorização antecipada"
 >abstract=" Se uma jornada de prioridade mais alta for agendada dentro do período especificado aqui, o cliente será impedido de entrar nessa jornada. Para situações em que você deseja que as jornadas sejam inseridas em ordem de chegada, sugerimos escolher o período de previsão Diário e garantir que a pontuação de prioridade de qualquer outra jornada nesse dia seja menor que a pontuação de prioridade da jornada. Atribuir uma pontuação de prioridade de 100 a uma jornada também garantiria que ela fosse incluída."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_capping_rule"
->title="Aplicar conjunto de regras a campanhas"
->abstract="A definir"
-
-<!--TO REMOVE?-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_prioritization"

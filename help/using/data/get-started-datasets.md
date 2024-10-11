@@ -8,7 +8,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: plataforma, data lake, criar, lake, conjuntos de dados, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 979cb8270a4be4c7ad08db8f0a2e072d590906de
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 93%
@@ -43,8 +43,6 @@ Por padrão, somente os conjuntos de dados assimilados são exibidos. Se quiser 
 >* 13 meses para dados no data lake
 >
 >Além disso, nesse momento, a segmentação por transmissão não oferecerá mais suporte ao uso de eventos enviados e abertos a partir de conjuntos de dados de rastreamento e feedback.
-
-
 
 Selecione o nome de um conjunto de dados para acessar a tela de atividade do Conjunto de dados e ver os detalhes do conjunto de dados selecionado. A guia Atividade inclui um gráfico que visualiza a taxa de mensagens que estão sendo consumidas, bem como uma lista de lotes bem-sucedidos e com falha.
 
