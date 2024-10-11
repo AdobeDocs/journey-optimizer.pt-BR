@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: cd46b3346e284958e6f3f9fa641b548f68672000
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '435'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ As políticas de aprovação permitem que os administradores estabeleçam um pro
 
 ## Criar políticas de aprovação {#create-policies}
 
-1. No menu **[!UICONTROL Administração]**, acesse **[!UICONTROL Permissões]** e **[!UICONTROL Políticas]**.
+1. No menu **[!UICONTROL Administração]** no Journey Optimizer, acesse **[!UICONTROL Permissões]** e **[!UICONTROL Políticas]**.
 
    ![](assets/policy_create_1.png)
 
